@@ -161,23 +161,11 @@ description: "How to defend against Mounted Crucifix Entry in BJJ. Recognition c
       "@type": "VideoObject",
       "position": 1,
       "name": "Escaping the mounted crucifix",
-      "description": "Mounted Crucifix Entry (Defender) film study: Escaping the mounted crucifix, taught by Shem Rock.",
+      "description": "Mounted Crucifix Entry (Defender) film study: Escaping the mounted crucifix.",
       "thumbnailUrl": "https://i.ytimg.com/vi/41koUZWmeHE/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/41koUZWmeHE",
       "url": "https://www.youtube.com/watch?v=41koUZWmeHE",
-      "creator": { "@type": "Person", "name": "Shem Rock" },
       "duration": "PT146S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Crucifix escape",
-      "description": "Mounted Crucifix Entry (Defender) film study: Crucifix escape, taught by Chosen Few BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/m-iTKRTVeeo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/m-iTKRTVeeo",
-      "url": "https://www.youtube.com/watch?v=m-iTKRTVeeo",
-      "creator": { "@type": "Person", "name": "Chosen Few BJJ" },
-      "duration": "PT160S"
     }
   ]
 }
@@ -211,15 +199,7 @@ Defensive success requires discipline above all else. The natural instinct when 
 
 ![](https://www.youtube.com/watch?v=41koUZWmeHE)
 
-<p class="clip-credit"><strong>Escaping the mounted crucifix</strong> — taught by Shem Rock · 2:26 · <a href="https://www.youtube.com/watch?v=41koUZWmeHE" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=m-iTKRTVeeo)
-
-<p class="clip-credit"><strong>Crucifix escape</strong> — taught by Chosen Few BJJ · 2:40 · <a href="https://www.youtube.com/watch?v=m-iTKRTVeeo" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Escaping the mounted crucifix</strong> · 2:26 · <a href="https://www.youtube.com/watch?v=41koUZWmeHE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

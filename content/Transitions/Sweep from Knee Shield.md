@@ -46,34 +46,21 @@ description: "Master the Sweep from Knee Shield in BJJ. Complete guide covering 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Waiter sweep from knee shield half guard",
-      "description": "Sweep from Knee Shield film study: Waiter sweep from knee shield half guard, taught by Fluvium coach.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/OsKySrabYR4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/OsKySrabYR4",
-      "url": "https://www.youtube.com/watch?v=OsKySrabYR4",
-      "creator": { "@type": "Person", "name": "Fluvium coach" },
-      "duration": "PT50S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Knee shield half guard roll-through sweep",
-      "description": "Sweep from Knee Shield film study: Knee shield half guard roll-through sweep, taught by Bowerhouse MMA coach.",
+      "name": "Knee Shield 1/2 Guard to Roll thru Sweep",
+      "description": "Sweep from Knee Shield film study: Knee Shield 1/2 Guard to Roll thru Sweep.",
       "thumbnailUrl": "https://i.ytimg.com/vi/hU61Nd_Vzys/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/hU61Nd_Vzys",
       "url": "https://www.youtube.com/watch?v=hU61Nd_Vzys",
-      "creator": { "@type": "Person", "name": "Bowerhouse MMA coach" },
       "duration": "PT53S"
     },
     {
       "@type": "VideoObject",
-      "position": 3,
-      "name": "Knee shield sweep using the opponent\u0027s belt",
-      "description": "Sweep from Knee Shield film study: Knee shield sweep using the opponent\u0027s belt, taught by A. Sukandar.",
+      "position": 2,
+      "name": "Half Guard Signature Sweep from Knee Shield Position by Holding Opponent\u0027s Belt",
+      "description": "Sweep from Knee Shield film study: Half Guard Signature Sweep from Knee Shield Position by Holding Opponent\u0027s Belt.",
       "thumbnailUrl": "https://i.ytimg.com/vi/YEVojixbKs8/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/YEVojixbKs8",
       "url": "https://www.youtube.com/watch?v=YEVojixbKs8",
-      "creator": { "@type": "Person", "name": "A. Sukandar" },
       "duration": "PT70S"
     }
   ]
@@ -128,17 +115,9 @@ Strategic integration of this sweep within the knee shield game creates a critic
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=OsKySrabYR4)
-
-<p class="clip-credit"><strong>Waiter sweep from knee shield half guard</strong> — taught by Fluvium coach · 0:50 · <a href="https://www.youtube.com/watch?v=OsKySrabYR4" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=hU61Nd_Vzys)
 
-<p class="clip-credit"><strong>Knee shield half guard roll-through sweep</strong> — taught by Bowerhouse MMA coach · 0:53 · <a href="https://www.youtube.com/watch?v=hU61Nd_Vzys" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Knee Shield 1/2 Guard to Roll thru Sweep</strong> · 0:53 · <a href="https://www.youtube.com/watch?v=hU61Nd_Vzys" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -146,7 +125,7 @@ Strategic integration of this sweep within the knee shield game creates a critic
 
 ![](https://www.youtube.com/watch?v=YEVojixbKs8)
 
-<p class="clip-credit"><strong>Knee shield sweep using the opponent&#39;s belt</strong> — taught by A. Sukandar · 1:10 · <a href="https://www.youtube.com/watch?v=YEVojixbKs8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Half Guard Signature Sweep from Knee Shield Position by Holding Opponent&#39;s Belt</strong> · 1:10 · <a href="https://www.youtube.com/watch?v=YEVojixbKs8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

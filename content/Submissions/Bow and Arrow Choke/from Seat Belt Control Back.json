@@ -444,31 +444,11 @@
     ],
     "clips": [
       {
-        "id": "xqNhZVNhxnE",
-        "title": "Bow and arrow choke from back control",
-        "by": "Evolve MMA",
-        "vertical": false,
-        "channel": "Evolve Mixed Martial Arts",
-        "duration": 45,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "6yx5No7AKU0",
-        "title": "Finishing the bow & arrow choke — key detail",
-        "by": "Henry Akins",
-        "vertical": false,
-        "channel": "Henry Akins' Hidden Jiu-Jitsu",
-        "duration": 42,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "ejXJPx128qs",
-        "title": "Turtle back take to bow and arrow choke",
-        "by": "BQuick Jiu Jitsu",
-        "vertical": false,
-        "channel": "BQuick Jiu Jitsu Europe",
-        "duration": 28,
-        "verified": "2026-07-14"
+        "id": "rsrA1GOcywM",
+        "title": "Kyle fogel - bow and arrow - seatbelt",
+        "channel": "Tyson T. / Cammy T.",
+        "duration": 154,
+        "front": true
       }
     ]
   },
@@ -651,34 +631,6 @@
         "description": "Full positional sparring starting from seat belt back control. Attacker works toward bow and arrow at full speed and intensity. Defender applies complete defensive protocol from early recognition through late-stage escapes. Track which defensive responses succeed most frequently and refine timing and technique based on results."
       }
     ],
-    "clips": [
-      {
-        "id": "_sBB-O8fqP4",
-        "title": "Back escape — standing up",
-        "by": "Priit Mihkelson",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 114,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "cfvNAYrogwQ",
-        "title": "Back escape without the seat belt grip",
-        "by": "Elements Martial Arts",
-        "vertical": false,
-        "channel": "Elements Martial Arts Brighton",
-        "duration": 118,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "d312j3n9fIw",
-        "title": "Turtle up defence — sit out",
-        "by": "Mjølnir Fight Club",
-        "vertical": false,
-        "channel": "Mjølnir Fight Club",
-        "duration": 30,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   }
 }

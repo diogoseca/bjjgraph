@@ -391,30 +391,11 @@
     "clips": [
       {
         "id": "-S6bU0mQp1Y",
-        "title": "Escape the crab ride",
-        "by": "Brian Hawkins",
-        "vertical": false,
+        "title": "Escape Crab Ride",
         "channel": "Brian Hawkins",
-        "duration": 78,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "PPiiUtZSIfQ",
-        "title": "No-gi De La Riva counter to crab ride",
-        "by": "The Base Jiu Jitsu",
+        "duration": 77,
         "vertical": false,
-        "channel": "The Base Jiu Jitsu",
-        "duration": 60,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "jdUhyICbKSM",
-        "title": "Crab ride defense: head hunt to low leg cradle",
-        "by": "Michael Trasso",
-        "vertical": false,
-        "channel": "Merge Grappling",
-        "duration": 33,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },
@@ -581,30 +562,11 @@
     "clips": [
       {
         "id": "qp--XOaaFjk",
-        "title": "Crab ride turn when trapped on your back",
-        "by": "CMPTV",
-        "vertical": false,
+        "title": "Crab Ride turn when your opponent tries to trap you on your back",
         "channel": "CMPTV",
         "duration": 61,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "9eP5msv3Qsk",
-        "title": "Using the Crab Ride to Counter Granby Roll Escapes",
-        "by": "Duck-Jitsu",
         "vertical": false,
-        "channel": "Duck_Jitsu",
-        "duration": 234,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "q1Y4x_EUZtY",
-        "title": "Understand Crab Ride Control in 7 Minutes",
-        "by": "Jon Thomas",
-        "vertical": false,
-        "channel": "JonThomasBJJ",
-        "duration": 431,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   }

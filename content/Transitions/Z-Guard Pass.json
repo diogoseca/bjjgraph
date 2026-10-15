@@ -377,31 +377,12 @@
     "safety_considerations": "The Z-Guard Pass involves significant pressure on the bottom player's knee, shin, and hip structures. Apply pressure gradually when collapsing the knee shield to avoid injury to the bottom player's knee ligaments, particularly the MCL and meniscus. Never jerk or twist the knee shield leg during collapse. When practicing the knee slide, ensure your knee travels across the thigh rather than directly into the bottom player's knee joint. Communicate with your training partner about pressure levels throughout the drill.",
     "clips": [
       {
-        "id": "GQeS3xTXlb0",
-        "title": "Z-Guard pass to the back",
-        "by": "Animal BJJ coach",
-        "vertical": false,
-        "channel": "Animal",
-        "duration": 48,
-        "verified": "2026-07-15"
-      },
-      {
         "id": "Nuh4wnROi-c",
-        "title": "Z-Guard pass into side control",
-        "by": "JitzLive coach",
-        "vertical": false,
+        "title": "Move fo the Day: Z Guard Pass into side control",
         "channel": "JitzLive",
         "duration": 28,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "o-7m6AtG44U",
-        "title": "Knee shield half guard pass",
-        "by": "Bowerhouse MMA coach",
         "vertical": false,
-        "channel": "BOWERHOUSE MMA",
-        "duration": 50,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },
@@ -587,31 +568,12 @@
     ],
     "clips": [
       {
-        "id": "hXAs2HsP9Cg",
-        "title": "Knee shield half guard recovery vs the pass",
-        "by": "United Martial Arts KY coach",
-        "vertical": false,
-        "channel": "UnitedMartialArtsKY",
-        "duration": 121,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "COMTE898ja8",
-        "title": "Avoid getting squashed in half guard",
-        "by": "Craig Jones",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 156,
-        "verified": "2026-07-15"
-      },
-      {
         "id": "OtyqyWjMUwk",
-        "title": "Countering the knee shield smash pass",
-        "by": "RCBJJ coach",
-        "vertical": false,
+        "title": "Half Guard Vertical Knee Shield Smash Counter",
         "channel": "RCBJJ International Association",
         "duration": 173,
-        "verified": "2026-07-15"
+        "vertical": false,
+        "front": true
       }
     ]
   }

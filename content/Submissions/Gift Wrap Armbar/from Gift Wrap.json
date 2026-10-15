@@ -583,22 +583,11 @@
     ],
     "clips": [
       {
-        "id": "8KoRctBCxyo",
-        "title": "Gift wrap to armbar and triangle choke",
-        "by": "Derek Brunson",
-        "vertical": false,
-        "channel": "Derek Brunson",
-        "duration": 39,
-        "verified": "2026-07-15"
-      },
-      {
         "id": "2YWKQ0q2bCU",
-        "title": "Gift wrap armbar from mount, no-gi",
-        "by": "Ryan Robinson",
-        "vertical": false,
+        "title": "Gift Wrap Arm Bar From Mount! - BJJ No Gi Techniques",
         "channel": "Ryan Robinson BJJ",
         "duration": 194,
-        "verified": "2026-07-15"
+        "vertical": false
       }
     ]
   },
@@ -847,25 +836,6 @@
         "description": "Start from established gift wrap with partner attacking at full intensity. Defender's goal is to prevent submission and recover guard or better position within 60 seconds. Develops composure, timing, and defensive decision-making under realistic pressure."
       }
     ],
-    "clips": [
-      {
-        "id": "OMzki0Uu7vA",
-        "title": "Escaping the gift wrap",
-        "by": "The Jiu Jitsu Pedia",
-        "vertical": false,
-        "channel": "thejiujitsupedia",
-        "duration": 48,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "sD5jAuHaKKQ",
-        "title": "Gift wrap escape in 60 seconds",
-        "by": "Chosen Few BJJ",
-        "vertical": false,
-        "channel": "Chosen Few BJJ",
-        "duration": 63,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

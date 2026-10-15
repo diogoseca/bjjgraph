@@ -186,23 +186,21 @@ description: "Execute the Feet on Hips Sickle Sweep with precision. Step-by-step
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Sickle sweep into knee bar",
-      "description": "Feet on Hips Sickle Sweep (Attacker) film study: Sickle sweep into knee bar, taught by David Thomas.",
+      "name": "Sickle Sweep to Knee Bar",
+      "description": "Feet on Hips Sickle Sweep (Attacker) film study: Sickle Sweep to Knee Bar.",
       "thumbnailUrl": "https://i.ytimg.com/vi/MAfNPSnw9Nk/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/MAfNPSnw9Nk",
       "url": "https://www.youtube.com/watch?v=MAfNPSnw9Nk",
-      "creator": { "@type": "Person", "name": "David Thomas" },
       "duration": "PT34S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Tripod and sickle sweep from feet on hips",
-      "description": "Feet on Hips Sickle Sweep (Attacker) film study: Tripod and sickle sweep from feet on hips, taught by Barrick BJJ coach.",
+      "name": "Tripod and sickle sweep",
+      "description": "Feet on Hips Sickle Sweep (Attacker) film study: Tripod and sickle sweep.",
       "thumbnailUrl": "https://i.ytimg.com/vi/liPOgAeOrko/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/liPOgAeOrko",
       "url": "https://www.youtube.com/watch?v=liPOgAeOrko",
-      "creator": { "@type": "Person", "name": "Barrick BJJ coach" },
       "duration": "PT195S"
     }
   ]
@@ -233,7 +231,7 @@ The Feet on Hips Sickle Sweep Attacker perspective focuses on executing one of t
 
 ![](https://www.youtube.com/watch?v=MAfNPSnw9Nk)
 
-<p class="clip-credit"><strong>Sickle sweep into knee bar</strong> — taught by David Thomas · 0:34 · <a href="https://www.youtube.com/watch?v=MAfNPSnw9Nk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Sickle Sweep to Knee Bar</strong> · 0:34 · <a href="https://www.youtube.com/watch?v=MAfNPSnw9Nk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -241,7 +239,7 @@ The Feet on Hips Sickle Sweep Attacker perspective focuses on executing one of t
 
 ![](https://www.youtube.com/watch?v=liPOgAeOrko)
 
-<p class="clip-credit"><strong>Tripod and sickle sweep from feet on hips</strong> — taught by Barrick BJJ coach · 3:15 · <a href="https://www.youtube.com/watch?v=liPOgAeOrko" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Tripod and sickle sweep</strong> · 3:15 · <a href="https://www.youtube.com/watch?v=liPOgAeOrko" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

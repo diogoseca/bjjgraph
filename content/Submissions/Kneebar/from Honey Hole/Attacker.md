@@ -188,24 +188,12 @@ description: "Learn to attack the kneebar from Honey Hole position. Step-by-step
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Bow and Arrow to Kneebar from Honey Hole",
-      "description": "Kneebar from Honey Hole (Attacker) film study: Bow and Arrow to Kneebar from Honey Hole, taught by JitzLive.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/3KAO2Ck4HRg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/3KAO2Ck4HRg",
-      "url": "https://www.youtube.com/watch?v=3KAO2Ck4HRg",
-      "creator": { "@type": "Person", "name": "JitzLive" },
-      "duration": "PT52S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Kneebar from Side Saddle / Honey Hole",
-      "description": "Kneebar from Honey Hole (Attacker) film study: Kneebar from Side Saddle / Honey Hole, taught by BJJ4Breakfast.",
+      "name": "Knee bar from side saddle/honey hole position",
+      "description": "Kneebar from Honey Hole (Attacker) film study: Knee bar from side saddle/honey hole position.",
       "thumbnailUrl": "https://i.ytimg.com/vi/tm98rJZCvdc/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/tm98rJZCvdc",
       "url": "https://www.youtube.com/watch?v=tm98rJZCvdc",
-      "creator": { "@type": "Person", "name": "BJJ4Breakfast" },
-      "duration": "PT253S"
+      "duration": "PT252S"
     }
   ]
 }
@@ -234,17 +222,9 @@ Attacking the kneebar from Honey Hole leverages the inside leg triangle control 
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=3KAO2Ck4HRg)
-
-<p class="clip-credit"><strong>Bow and Arrow to Kneebar from Honey Hole</strong> — taught by JitzLive · 0:52 · <a href="https://www.youtube.com/watch?v=3KAO2Ck4HRg" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=tm98rJZCvdc)
 
-<p class="clip-credit"><strong>Kneebar from Side Saddle / Honey Hole</strong> — taught by BJJ4Breakfast · 4:13 · <a href="https://www.youtube.com/watch?v=tm98rJZCvdc" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Knee bar from side saddle/honey hole position</strong> · 4:12 · <a href="https://www.youtube.com/watch?v=tm98rJZCvdc" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

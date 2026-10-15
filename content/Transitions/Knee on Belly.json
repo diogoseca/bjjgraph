@@ -391,30 +391,11 @@
     "clips": [
       {
         "id": "jV_z0mC4SNw",
-        "title": "Knee On Belly Basics",
-        "by": "bjjtaro",
-        "vertical": false,
+        "title": "Knee On Belly",
         "channel": "bjjtaro",
-        "duration": 16,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "XNhDD7N4JNY",
-        "title": "3 Attacks from Knee-on-Belly",
-        "by": "Lucas Lepri",
+        "duration": 15,
         "vertical": false,
-        "channel": "Lucas Lepri Philippines",
-        "duration": 68,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "4MDc03yp6zI",
-        "title": "Back Take from Knee on Belly",
-        "by": "AMAZIN BJJ",
-        "vertical": false,
-        "channel": "AMAZIN BJJ",
-        "duration": 69,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },
@@ -614,30 +595,11 @@
     "clips": [
       {
         "id": "Wn01Ynw7O28",
-        "title": "How To Escape The Knee On Belly Position",
-        "by": "Evolve MMA",
-        "vertical": false,
+        "title": "BJJ | How To Escape The Knee On Belly Position",
         "channel": "Evolve Mixed Martial Arts",
         "duration": 40,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "I9_3u9AcwAg",
-        "title": "First Principles Escapes: Mount and Knee-on-Belly",
-        "by": "40 Plus BJJ",
         "vertical": false,
-        "channel": "40 Plus BJJ",
-        "duration": 59,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "52LxBaUJdcw",
-        "title": "Knee On Belly Escape to Technical Standup, Ankle Pick",
-        "by": "Lucas Lepri",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 131,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },

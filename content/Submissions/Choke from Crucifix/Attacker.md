@@ -182,35 +182,22 @@ description: "How to execute Choke from Crucifix in BJJ. Attacking perspective w
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Crucifix to Rear Naked Choke",
-      "description": "Choke from Crucifix (Attacker) film study: Crucifix to Rear Naked Choke, taught by Greg Ferguson.",
+      "name": "Crucifix to rear naked choke",
+      "description": "Choke from Crucifix (Attacker) film study: Crucifix to rear naked choke.",
       "thumbnailUrl": "https://i.ytimg.com/vi/3t6j9HT6Mr8/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/3t6j9HT6Mr8",
       "url": "https://www.youtube.com/watch?v=3t6j9HT6Mr8",
-      "creator": { "@type": "Person", "name": "Greg Ferguson" },
-      "duration": "PT43S"
+      "duration": "PT42S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Crucifix to Assassin Choke",
-      "description": "Choke from Crucifix (Attacker) film study: Crucifix to Assassin Choke, taught by Malachy Friedman.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/A6H5KUCB_0E/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/A6H5KUCB_0E",
-      "url": "https://www.youtube.com/watch?v=A6H5KUCB_0E",
-      "creator": { "@type": "Person", "name": "Malachy Friedman" },
-      "duration": "PT84S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Assassin Choke from Back Crucifix",
-      "description": "Choke from Crucifix (Attacker) film study: Assassin Choke from Back Crucifix, taught by Hellfish MMA.",
+      "name": "Assassin choke from the back crucifix position",
+      "description": "Choke from Crucifix (Attacker) film study: Assassin choke from the back crucifix position.",
       "thumbnailUrl": "https://i.ytimg.com/vi/vCCarCZUPpM/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/vCCarCZUPpM",
       "url": "https://www.youtube.com/watch?v=vCCarCZUPpM",
-      "creator": { "@type": "Person", "name": "Hellfish MMA" },
-      "duration": "PT175S"
+      "duration": "PT174S"
     }
   ]
 }
@@ -241,15 +228,7 @@ The Choke from Crucifix is a devastating finishing technique that capitalizes on
 
 ![](https://www.youtube.com/watch?v=3t6j9HT6Mr8)
 
-<p class="clip-credit"><strong>Crucifix to Rear Naked Choke</strong> — taught by Greg Ferguson · 0:43 · <a href="https://www.youtube.com/watch?v=3t6j9HT6Mr8" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=A6H5KUCB_0E)
-
-<p class="clip-credit"><strong>Crucifix to Assassin Choke</strong> — taught by Malachy Friedman · 1:24 · <a href="https://www.youtube.com/watch?v=A6H5KUCB_0E" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Crucifix to rear naked choke</strong> · 0:42 · <a href="https://www.youtube.com/watch?v=3t6j9HT6Mr8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -257,7 +236,7 @@ The Choke from Crucifix is a devastating finishing technique that capitalizes on
 
 ![](https://www.youtube.com/watch?v=vCCarCZUPpM)
 
-<p class="clip-credit"><strong>Assassin Choke from Back Crucifix</strong> — taught by Hellfish MMA · 2:55 · <a href="https://www.youtube.com/watch?v=vCCarCZUPpM" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Assassin choke from the back crucifix position</strong> · 2:54 · <a href="https://www.youtube.com/watch?v=vCCarCZUPpM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

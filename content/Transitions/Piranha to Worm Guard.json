@@ -372,35 +372,7 @@
       }
     ],
     "safety_considerations": "The Piranha to Worm Guard transition is generally low-risk since it involves guard configuration changes rather than joint manipulation or choking mechanics. However, practitioners should be aware that the DLR hook position can create stress on the medial collateral ligament of the hooking knee if the opponent applies lateral torque during the transition. Avoid forcing the DLR hook if the opponent is actively twisting their leg. The lapel wrap around the shin can cause friction burns during rapid transitions—wearing a rash guard under the gi top helps prevent skin irritation. If the opponent attempts a violent extraction of their leg from a partially-completed worm wrap, release the wrap rather than maintaining it at the cost of hyperextending your ankle or twisting your knee. Training partners should communicate discomfort in the knee or ankle during drilling.",
-    "clips": [
-      {
-        "id": "ARmiJRANTpg",
-        "title": "Worm guard entry to back choke",
-        "by": "Keenan Cornelius",
-        "vertical": false,
-        "channel": "Jiu Jitsu Moves",
-        "duration": 36,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "lLvkMU0xdHw",
-        "title": "Worm Guard 101 - full breakdown",
-        "by": "Keenan Cornelius",
-        "vertical": false,
-        "channel": "Keenan Cornelius",
-        "duration": 427,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "adbXsY1gPL8",
-        "title": "Worm Guard sweep from Deep Half Guard",
-        "by": "Keenan Cornelius",
-        "vertical": false,
-        "channel": "Keenan Cornelius",
-        "duration": 254,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Piranha to Worm Guard Defender",
@@ -577,25 +549,6 @@
         "description": "Full resistance positional sparring starting in Piranha Guard. Partner attacks with sweeps, transitions to worm guard, and other Piranha Guard threats at 100% intensity. You must identify whether they are attacking from Piranha or transitioning to Worm Guard and select the appropriate defensive response in real time. Track how often the worm guard is successfully established versus denied."
       }
     ],
-    "clips": [
-      {
-        "id": "aR0dbddbfQA",
-        "title": "Passing the Polish worm rider lapel guard",
-        "by": "Daniel Maira",
-        "vertical": false,
-        "channel": "Movement Art",
-        "duration": 54,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "rvbYLboVzZM",
-        "title": "Countering lapel guard with a pass",
-        "by": "Tarik BJJ",
-        "vertical": false,
-        "channel": "Tarik BJJ",
-        "duration": 289,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

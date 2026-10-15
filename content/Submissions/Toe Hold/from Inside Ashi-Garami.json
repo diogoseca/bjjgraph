@@ -630,26 +630,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "h3f04mxXQ8M",
-        "title": "Heel Hook to Toe Hold from Guard",
-        "by": "Kinesiology College",
-        "vertical": false,
-        "channel": "Kinesiology College",
-        "duration": 43,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "zsnGef5-N2g",
-        "title": "Attacking the Toe Hold from Ashi Garami",
-        "by": "Brian Glick",
-        "vertical": false,
-        "channel": "Brian Glick",
-        "duration": 202,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "from Inside Ashi-Garami Defender",
@@ -910,25 +891,6 @@
         "description": "Positional sparring starting from Inside Ashi-Garami with the attacker free to attempt any leg attack. Practice recognizing when the toe hold is coming within the broader attack sequence and deploying appropriate defense while managing the overall position. Full resistance with strict safety protocols maintained."
       }
     ],
-    "clips": [
-      {
-        "id": "3a9k8-ZcYrk",
-        "title": "How to Escape the Toe Hold",
-        "by": "Gordon Ryan",
-        "vertical": false,
-        "channel": "The King Life",
-        "duration": 106,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "QMgsMSTRSBI",
-        "title": "5 Leglock Counters to Ashi Garami",
-        "by": "BJJBlackBeltDad",
-        "vertical": false,
-        "channel": "BJJBlackBeltDad",
-        "duration": 93,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   }
 }

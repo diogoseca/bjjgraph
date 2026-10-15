@@ -46,35 +46,22 @@ description: "Master the stand up in closed guard in BJJ. Complete guide to stan
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "3 ways to open closed guard by standing up",
-      "description": "Stand Up in Closed Guard film study: 3 ways to open closed guard by standing up, taught by RGA South Herts.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/3tvI0nmCXRk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/3tvI0nmCXRk",
-      "url": "https://www.youtube.com/watch?v=3tvI0nmCXRk",
-      "creator": { "@type": "Person", "name": "RGA South Herts" },
-      "duration": "PT63S"
+      "name": "RLVT \"Carlson Gracie\" Vale Tudo Standing Guard Pass",
+      "description": "Stand Up in Closed Guard film study: RLVT \"Carlson Gracie\" Vale Tudo Standing Guard Pass.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/E4UjJi0n0mM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/E4UjJi0n0mM",
+      "url": "https://www.youtube.com/watch?v=E4UjJi0n0mM",
+      "duration": "PT51S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Basic standing guard break and pass",
-      "description": "Stand Up in Closed Guard film study: Basic standing guard break and pass, taught by Rickson Gracie.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/RrD643OqTao/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/RrD643OqTao",
-      "url": "https://www.youtube.com/watch?v=RrD643OqTao",
-      "creator": { "@type": "Person", "name": "Rickson Gracie" },
-      "duration": "PT66S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Vale tudo standing guard pass",
-      "description": "Stand Up in Closed Guard film study: Vale tudo standing guard pass, taught by Adam Song.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/E4UjJi0n0mM/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/E4UjJi0n0mM",
-      "url": "https://www.youtube.com/watch?v=E4UjJi0n0mM",
-      "creator": { "@type": "Person", "name": "Adam Song" },
-      "duration": "PT51S"
+      "name": "3 ways to open closed guard by standing up",
+      "description": "Stand Up in Closed Guard film study: 3 ways to open closed guard by standing up.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3tvI0nmCXRk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3tvI0nmCXRk",
+      "url": "https://www.youtube.com/watch?v=3tvI0nmCXRk",
+      "duration": "PT62S"
     }
   ]
 }
@@ -128,25 +115,17 @@ Proper execution demands a precise sequence of hand placement, weight distributi
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=3tvI0nmCXRk)
-
-<p class="clip-credit"><strong>3 ways to open closed guard by standing up</strong> — taught by RGA South Herts · 1:03 · <a href="https://www.youtube.com/watch?v=3tvI0nmCXRk" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=RrD643OqTao)
-
-<p class="clip-credit"><strong>Basic standing guard break and pass</strong> — taught by Rickson Gracie · 1:06 · <a href="https://www.youtube.com/watch?v=RrD643OqTao" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=E4UjJi0n0mM)
 
-<p class="clip-credit"><strong>Vale tudo standing guard pass</strong> — taught by Adam Song · 0:51 · <a href="https://www.youtube.com/watch?v=E4UjJi0n0mM" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>RLVT &#34;Carlson Gracie&#34; Vale Tudo Standing Guard Pass</strong> · 0:51 · <a href="https://www.youtube.com/watch?v=E4UjJi0n0mM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=3tvI0nmCXRk)
+
+<p class="clip-credit"><strong>3 ways to open closed guard by standing up</strong> · 1:02 · <a href="https://www.youtube.com/watch?v=3tvI0nmCXRk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

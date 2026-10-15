@@ -560,31 +560,26 @@
     ],
     "clips": [
       {
-        "id": "DHYmDsncdS8",
-        "title": "Anaconda choke finish",
-        "by": "Marcelo Garcia",
+        "id": "RbkOnRb2lvA",
+        "title": "Anaconda Choke BJJ",
+        "channel": "Ninja Pinto",
+        "duration": 48,
         "vertical": false,
+        "front": true
+      },
+      {
+        "id": "EbhWFWp-B6s",
+        "title": "How to do an Anaconda Choke - 10th Planet Jiu Jitsu Decatur",
+        "channel": "Brandon Mccaghren",
+        "duration": 81,
+        "vertical": false
+      },
+      {
+        "id": "DHYmDsncdS8",
+        "title": "Marcelo Garcia anaconda choke finish",
         "channel": "forlogosVideos",
         "duration": 126,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "RbkOnRb2lvA",
-        "title": "Anaconda choke",
-        "by": "Ninja Pinto",
-        "vertical": false,
-        "channel": "Ninja Pinto BJJ",
-        "duration": 49,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "1e2GPOUYR-o",
-        "title": "Fix your anaconda chokes",
-        "by": "Lycan",
-        "vertical": false,
-        "channel": "Lycan",
-        "duration": 41,
-        "verified": "2026-07-14"
+        "vertical": false
       }
     ]
   },
@@ -782,21 +777,11 @@
     "clips": [
       {
         "id": "SXm9wA1HcvM",
-        "title": "Anaconda choke defense",
-        "by": "SFS MMA",
-        "vertical": false,
+        "title": "Anaconda choke defense (BJJ) - SFS MMA",
         "channel": "Fierce Pierce15",
         "duration": 64,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "guHPx-OKi0M",
-        "title": "Prevent the sucker drag during anaconda",
-        "by": "Drew Darce",
         "vertical": false,
-        "channel": "Drew Darce",
-        "duration": 159,
-        "verified": "2026-07-14"
+        "front": true
       }
     ]
   }

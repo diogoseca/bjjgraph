@@ -507,30 +507,11 @@
     "clips": [
       {
         "id": "XVxTzuJ1F60",
-        "title": "Overhook closed guard to rolling armbar",
-        "by": "BOWERHOUSE MMA",
-        "vertical": false,
+        "title": "Overhook from Closed Guard to Rolling Arm Bar",
         "channel": "BOWERHOUSE MMA",
         "duration": 60,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "vSmRbpNmf-E",
-        "title": "Roger Gracie armbars",
-        "by": "Roger Gracie",
         "vertical": false,
-        "channel": "Jiu Jitsu Moves",
-        "duration": 102,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "e995R56aRTU",
-        "title": "Rolling armbar from closed guard",
-        "by": "Pure Art BJJ",
-        "vertical": false,
-        "channel": "Pure Art BJJ Portsmouth - Brazilian Jiu-Jitsu",
-        "duration": 19,
-        "verified": "2026-07-14"
+        "front": true
       }
     ]
   },
@@ -717,26 +698,7 @@
         "description": "Positional sparring rounds starting in closed guard where the bottom player is hunting specifically for rolling armbars. Defend using the full defensive toolkit: grip denial during setup, stacking or following during the roll, and escape mechanics during the finish. Track which phase of defense you most commonly rely on and work to improve earlier-phase interventions. Film rounds for technical review."
       }
     ],
-    "clips": [
-      {
-        "id": "kNdKfUdgO4I",
-        "title": "My favorite armbar escape",
-        "by": "Matt Arroyo",
-        "vertical": false,
-        "channel": "Matt Arroyo Jiu Jitsu ",
-        "duration": 92,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "yWmSp1_dOfI",
-        "title": "Armbar defense escape",
-        "by": "Wesley Chapel MMA",
-        "vertical": false,
-        "channel": "Wesley Chapel MMA",
-        "duration": 172,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   },
   "variations_and_setups": [
     {

@@ -46,35 +46,22 @@ description: "Master the neck crank from Twister Control in BJJ. Learn cervical 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Twister Neck Crank",
-      "description": "Neck Crank from Twister Control film study: Twister Neck Crank, taught by All American Karate.",
+      "name": "Twister neck crank",
+      "description": "Neck Crank from Twister Control film study: Twister neck crank.",
       "thumbnailUrl": "https://i.ytimg.com/vi/mUrSkN4Zegs/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/mUrSkN4Zegs",
       "url": "https://www.youtube.com/watch?v=mUrSkN4Zegs",
-      "creator": { "@type": "Person", "name": "All American Karate" },
-      "duration": "PT50S"
+      "duration": "PT49S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Neck Crank from Twister",
-      "description": "Neck Crank from Twister Control film study: Neck Crank from Twister, taught by Brazil Toronto Coach.",
+      "name": "Neck crank from Twister",
+      "description": "Neck Crank from Twister Control film study: Neck crank from Twister.",
       "thumbnailUrl": "https://i.ytimg.com/vi/vHEYftsqG9Y/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/vHEYftsqG9Y",
       "url": "https://www.youtube.com/watch?v=vHEYftsqG9Y",
-      "creator": { "@type": "Person", "name": "Brazil Toronto Coach" },
-      "duration": "PT59S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "The Twister from Twister Side Control",
-      "description": "Neck Crank from Twister Control film study: The Twister from Twister Side Control, taught by Submissions101 Coach.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/MxE2Jmkm-g4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/MxE2Jmkm-g4",
-      "url": "https://www.youtube.com/watch?v=MxE2Jmkm-g4",
-      "creator": { "@type": "Person", "name": "Submissions101 Coach" },
-      "duration": "PT263S"
+      "duration": "PT58S"
     }
   ]
 }
@@ -139,7 +126,7 @@ From a strategic perspective, the neck crank serves as a high-percentage finishi
 
 ![](https://www.youtube.com/watch?v=mUrSkN4Zegs)
 
-<p class="clip-credit"><strong>Twister Neck Crank</strong> — taught by All American Karate · 0:50 · <a href="https://www.youtube.com/watch?v=mUrSkN4Zegs" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Twister neck crank</strong> · 0:49 · <a href="https://www.youtube.com/watch?v=mUrSkN4Zegs" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -147,15 +134,7 @@ From a strategic perspective, the neck crank serves as a high-percentage finishi
 
 ![](https://www.youtube.com/watch?v=vHEYftsqG9Y)
 
-<p class="clip-credit"><strong>Neck Crank from Twister</strong> — taught by Brazil Toronto Coach · 0:59 · <a href="https://www.youtube.com/watch?v=vHEYftsqG9Y" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=MxE2Jmkm-g4)
-
-<p class="clip-credit"><strong>The Twister from Twister Side Control</strong> — taught by Submissions101 Coach · 4:23 · <a href="https://www.youtube.com/watch?v=MxE2Jmkm-g4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Neck crank from Twister</strong> · 0:58 · <a href="https://www.youtube.com/watch?v=vHEYftsqG9Y" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

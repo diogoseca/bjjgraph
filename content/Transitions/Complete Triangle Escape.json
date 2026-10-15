@@ -383,30 +383,18 @@
     "clips": [
       {
         "id": "dJOw0ZEyXXc",
-        "title": "Posture up escape from the triangle choke",
-        "by": "Cosens MMA",
-        "vertical": false,
+        "title": "Triangle choke from Guard \"Posture Up Escape",
         "channel": "Cosens MMA LLC",
-        "duration": 73,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "sR2rS2dwpNY",
-        "title": "How to escape a triangle choke",
-        "by": "Rener and Ryron Gracie",
+        "duration": 72,
         "vertical": false,
-        "channel": "Hayabusa",
-        "duration": 117,
-        "verified": "2026-07-15"
+        "front": true
       },
       {
         "id": "_bfIvH9wB8Y",
-        "title": "Triangle defense through posture",
-        "by": "P3 Martial Arts",
-        "vertical": false,
+        "title": "Triangle Defense - Posture",
         "channel": "P3 Martial Arts",
-        "duration": 112,
-        "verified": "2026-07-15"
+        "duration": 111,
+        "vertical": false
       }
     ]
   },
@@ -578,34 +566,6 @@
         "description": "Full resistance positional sparring from locked triangle position. Opponent attempts complete escape while you apply all available counters and transitions. Track finish rate via triangle or secondary attack versus escape rate across multiple rounds to identify weaknesses in retention and transition game."
       }
     ],
-    "clips": [
-      {
-        "id": "M3_VDLm6PoE",
-        "title": "Finishing the triangle against good posture",
-        "by": "Inverted Gear",
-        "vertical": false,
-        "channel": "Inverted Gear",
-        "duration": 142,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "gY6xxakffp4",
-        "title": "Avoiding the stack while attacking the triangle",
-        "by": "Rituals Jiu Jitsu",
-        "vertical": false,
-        "channel": "Rituals Jiu Jitsu",
-        "duration": 162,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "B4Vhf6atOBY",
-        "title": "Countering the triangle stack defense",
-        "by": "Anton Minenko",
-        "vertical": false,
-        "channel": "Anton Minenko BJJ",
-        "duration": 145,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

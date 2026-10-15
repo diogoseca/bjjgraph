@@ -46,35 +46,12 @@ description: "Master the Spider to Lasso Guard transition in BJJ. Learn grip mec
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Lasso guard variations from open guard",
-      "description": "Spider to Lasso Guard film study: Lasso guard variations from open guard, taught by Felipe Costa.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/n4ddjzGemrw/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/n4ddjzGemrw",
-      "url": "https://www.youtube.com/watch?v=n4ddjzGemrw",
-      "creator": { "@type": "Person", "name": "Felipe Costa" },
-      "duration": "PT28S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Spider guard entry drill",
-      "description": "Spider to Lasso Guard film study: Spider guard entry drill, taught by Paragon Jiu-Jitsu Austin.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/aXTKuGGfwOs/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/aXTKuGGfwOs",
-      "url": "https://www.youtube.com/watch?v=aXTKuGGfwOs",
-      "creator": { "@type": "Person", "name": "Paragon Jiu-Jitsu Austin" },
-      "duration": "PT60S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Lasso entry and sweep from open guard",
-      "description": "Spider to Lasso Guard film study: Lasso entry and sweep from open guard, taught by Felipe Simplicio.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/uyNWqN84L9o/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/uyNWqN84L9o",
-      "url": "https://www.youtube.com/watch?v=uyNWqN84L9o",
-      "creator": { "@type": "Person", "name": "Felipe Simplicio" },
-      "duration": "PT138S"
+      "name": "Spider Guard: Transition to Lasso or feet on hip",
+      "description": "Spider to Lasso Guard film study: Spider Guard: Transition to Lasso or feet on hip.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/PVNVyU6xFWk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/PVNVyU6xFWk",
+      "url": "https://www.youtube.com/watch?v=PVNVyU6xFWk",
+      "duration": "PT154S"
     }
   ]
 }
@@ -128,25 +105,9 @@ Strategically, this transition is most effective when the opponent begins settli
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=n4ddjzGemrw)
+![](https://www.youtube.com/watch?v=PVNVyU6xFWk)
 
-<p class="clip-credit"><strong>Lasso guard variations from open guard</strong> — taught by Felipe Costa · 0:28 · <a href="https://www.youtube.com/watch?v=n4ddjzGemrw" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=aXTKuGGfwOs)
-
-<p class="clip-credit"><strong>Spider guard entry drill</strong> — taught by Paragon Jiu-Jitsu Austin · 1:00 · <a href="https://www.youtube.com/watch?v=aXTKuGGfwOs" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=uyNWqN84L9o)
-
-<p class="clip-credit"><strong>Lasso entry and sweep from open guard</strong> — taught by Felipe Simplicio · 2:18 · <a href="https://www.youtube.com/watch?v=uyNWqN84L9o" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Spider Guard: Transition to Lasso or feet on hip</strong> · 2:34 · <a href="https://www.youtube.com/watch?v=PVNVyU6xFWk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

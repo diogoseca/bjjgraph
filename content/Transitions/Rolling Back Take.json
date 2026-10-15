@@ -377,31 +377,19 @@
     "safety_considerations": "The rolling back take requires controlled execution to ensure safety for both practitioners. Apply smooth, progressive momentum rather than explosive jerking motions that could injure the neck or spine. Ensure adequate mat space exists on the side you intend to roll to prevent injury from hitting obstacles or mat edges. When practicing, gradually build up to full-speed execution, starting with slow-motion repetitions to develop proper mechanics. Partners should tap if they feel uncomfortable during the rotation or if neck pressure becomes excessive. The practitioner executing the roll should be aware of their landing and avoid driving their weight into the opponent's neck or head. Both practitioners should maintain awareness of other training partners to avoid collisions during the dynamic rolling motion.",
     "clips": [
       {
-        "id": "oijKoS9siS4",
-        "title": "Rolling back take from turtle",
-        "by": "JiuJitsu.com",
-        "vertical": false,
-        "channel": "JiuJitsu.com",
-        "duration": 41,
-        "verified": "2026-07-15"
-      },
-      {
         "id": "o_7f8c64YrY",
-        "title": "Gator roll back take from turtle",
-        "by": "Gracie Barra Pymble",
-        "vertical": false,
+        "title": "Gator Roll Back Take from Turtle",
         "channel": "Gracie Barra Pymble",
         "duration": 37,
-        "verified": "2026-07-15"
+        "vertical": false,
+        "front": true
       },
       {
-        "id": "7rE8Y4XyHno",
-        "title": "Ninja roll back take",
-        "by": "bjjtaro",
-        "vertical": false,
-        "channel": "bjjtaro",
-        "duration": 11,
-        "verified": "2026-07-15"
+        "id": "oijKoS9siS4",
+        "title": "Rolling Back Take from Turtle",
+        "channel": "JiuJitsu.com",
+        "duration": 41,
+        "vertical": false
       }
     ]
   },
@@ -585,35 +573,7 @@
         "description": "Positional sparring from turtle bottom against partner using full-speed rolling back take attempts mixed with traditional back takes. Bottom player must read which attack is coming and deploy the appropriate defense. Track success rates and identify which defensive layer needs the most work."
       }
     ],
-    "clips": [
-      {
-        "id": "1yvAZJbc3iY",
-        "title": "Sweep from turtle to counter the back take",
-        "by": "Brian Cusack",
-        "vertical": false,
-        "channel": "Brian Cusack Juijitsu",
-        "duration": 65,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "W0TCGKRcniA",
-        "title": "Turtle escape via shoulder roll",
-        "by": "BJJake",
-        "vertical": false,
-        "channel": "BJJake",
-        "duration": 21,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "E3Tz7JjQyTw",
-        "title": "Back defence: trap and roll from turtle",
-        "by": "Darragh O Conaill",
-        "vertical": false,
-        "channel": "Darragh O Conaill BJJ",
-        "duration": 150,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "variants_and_adaptations": [
     {

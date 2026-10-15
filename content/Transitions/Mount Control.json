@@ -347,21 +347,18 @@
     "clips": [
       {
         "id": "SGZ5wD3z73Q",
-        "title": "Maintaining full mount top control",
-        "by": "Formidable Combat coach",
-        "vertical": false,
+        "title": "Full Mount/Top Control",
         "channel": "Formidable Combat, Fitness and Living",
         "duration": 106,
-        "verified": "2026-07-15"
+        "vertical": false,
+        "front": true
       },
       {
         "id": "4eDtPYQ0bps",
-        "title": "Top mount control fundamentals",
-        "by": "Todd Hendrickson",
-        "vertical": false,
-        "channel": "Todd Hendrickson Jiu Jitsu",
-        "duration": 152,
-        "verified": "2026-07-15"
+        "title": "Top Mount",
+        "channel": "Hendrickson Combatives",
+        "duration": 151,
+        "vertical": false
       }
     ]
   },
@@ -546,31 +543,12 @@
     ],
     "clips": [
       {
-        "id": "pUZcLTWHAzk",
-        "title": "Knee and elbow escape from mount",
-        "by": "Jamie",
-        "vertical": false,
-        "channel": "jamielovesmartialarts",
-        "duration": 71,
-        "verified": "2026-07-15"
-      },
-      {
         "id": "2uuP147GoBk",
-        "title": "Bridge and roll escape from bottom mount",
-        "by": "Academy Jiu Jitsu coach",
-        "vertical": false,
+        "title": "Mount (Bottom) Bridge & Roll Escape #2",
         "channel": "Academy Jiu Jitsu",
-        "duration": 62,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "uTuPvxQUOo4",
-        "title": "Quick mount escape demo",
-        "by": "bjjtaro",
+        "duration": 61,
         "vertical": false,
-        "channel": "bjjtaro",
-        "duration": 23,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },

@@ -389,21 +389,11 @@
     "clips": [
       {
         "id": "qqaMVmLxklI",
-        "title": "Half guard top cross body pass",
-        "by": "SBG New Braunfels",
-        "vertical": false,
+        "title": "12. Half Guard Top Cross Body Pass",
         "channel": "SBG New Braunfels BJJ",
-        "duration": 121,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "gHD03vpWGSM",
-        "title": "How to create an insanely tight cross face",
-        "by": "Escapology BJJ",
+        "duration": 120,
         "vertical": false,
-        "channel": "Escapology BJJ",
-        "duration": 119,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },
@@ -573,26 +563,7 @@
         "description": "Full resistance positional sparring from half guard bottom against partners who actively pursue crossface pass. Practice reading which phase the passer has reached and selecting the appropriate defensive response in real time. Develop automatic reactions to crossface initiation and build confidence in your defensive decision tree."
       }
     ],
-    "clips": [
-      {
-        "id": "QH9-1I5XqO4",
-        "title": "Guard recovery against the cross face",
-        "by": "Academy Jiu Jitsu",
-        "vertical": false,
-        "channel": "Academy Jiu Jitsu",
-        "duration": 105,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "-fnzNp6TWQo",
-        "title": "Lovato half guard sweep breakdown",
-        "by": "Rafael Lovato Jr",
-        "vertical": false,
-        "channel": "Conceptual Grappling",
-        "duration": 88,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "variants_and_adaptations": [
     {

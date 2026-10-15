@@ -147,35 +147,12 @@ description: "Escape the Standing Rear Clinch in BJJ. Defensive guide to survivi
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Standing Up Escape 5",
-      "description": "Standing Rear Clinch (Bottom) film study: Standing Up Escape 5, taught by Priit Mihkelson.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/_sBB-O8fqP4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/_sBB-O8fqP4",
-      "url": "https://www.youtube.com/watch?v=_sBB-O8fqP4",
-      "creator": { "@type": "Person", "name": "Priit Mihkelson" },
-      "duration": "PT114S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "How to Break a Body Lock",
-      "description": "Standing Rear Clinch (Bottom) film study: How to Break a Body Lock, taught by Nick Diaz.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/lGGo0H8ems4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/lGGo0H8ems4",
-      "url": "https://www.youtube.com/watch?v=lGGo0H8ems4",
-      "creator": { "@type": "Person", "name": "Nick Diaz" },
-      "duration": "PT62S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Rear Body Lock Counters: Granby \u0026 Kneebar",
-      "description": "Standing Rear Clinch (Bottom) film study: Rear Body Lock Counters: Granby \u0026 Kneebar, taught by GFAMMA.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/aW0nNv2UWh0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/aW0nNv2UWh0",
-      "url": "https://www.youtube.com/watch?v=aW0nNv2UWh0",
-      "creator": { "@type": "Person", "name": "GFAMMA" },
-      "duration": "PT170S"
+      "name": "Standing Rear Body Lock: Counters, Attacks and Defense (No Gi\u2026",
+      "description": "Standing Rear Clinch (Bottom) film study: Standing Rear Body Lock: Counters, Attacks and Defense (No Gi\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DFXdqByRxNg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DFXdqByRxNg",
+      "url": "https://www.youtube.com/watch?v=DFXdqByRxNg",
+      "duration": "PT318S"
     }
   ]
 }
@@ -205,25 +182,9 @@ Time is the defining constraint. Every second the opponent spends consolidating�
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=_sBB-O8fqP4)
+![](https://www.youtube.com/watch?v=DFXdqByRxNg)
 
-<p class="clip-credit"><strong>Standing Up Escape 5</strong> — taught by Priit Mihkelson · 1:54 · <a href="https://www.youtube.com/watch?v=_sBB-O8fqP4" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=lGGo0H8ems4)
-
-<p class="clip-credit"><strong>How to Break a Body Lock</strong> — taught by Nick Diaz · 1:02 · <a href="https://www.youtube.com/watch?v=lGGo0H8ems4" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=aW0nNv2UWh0)
-
-<p class="clip-credit"><strong>Rear Body Lock Counters: Granby &amp; Kneebar</strong> — taught by GFAMMA · 2:50 · <a href="https://www.youtube.com/watch?v=aW0nNv2UWh0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Standing Rear Body Lock: Counters, Attacks and Defense (No Gi…</strong> · 5:18 · <a href="https://www.youtube.com/watch?v=DFXdqByRxNg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

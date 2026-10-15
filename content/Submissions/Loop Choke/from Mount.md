@@ -36,39 +36,6 @@ description: "Master the Loop Choke from Mount in BJJ. Complete guide with safet
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Loop Choke from Mount \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Loop choke setup and finish",
-      "description": "Loop Choke from Mount film study: Loop choke setup and finish, taught by Johnny Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Ku6XZn4SMEY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Ku6XZn4SMEY",
-      "url": "https://www.youtube.com/watch?v=Ku6XZn4SMEY",
-      "creator": { "@type": "Person", "name": "Johnny Jitsu" },
-      "duration": "PT98S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Loop choke finish in competition",
-      "description": "Loop Choke from Mount film study: Loop choke finish in competition, taught by Antonio Juniao.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/ny2W7CS0Wjo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/ny2W7CS0Wjo",
-      "url": "https://www.youtube.com/watch?v=ny2W7CS0Wjo",
-      "creator": { "@type": "Person", "name": "Antonio Juniao" },
-      "duration": "PT59S"
-    }
-  ]
-}
-</script>
-
 
 
 <script type="application/ld+json">
@@ -112,32 +79,6 @@ Prized by pressure passers for letting them strangle an opponent with their own 
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Loop Choke from Mount in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=Ku6XZn4SMEY)
-
-<p class="clip-credit"><strong>Loop choke setup and finish</strong> — taught by Johnny Jitsu · 1:38 · <a href="https://www.youtube.com/watch?v=Ku6XZn4SMEY" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=ny2W7CS0Wjo)
-
-<p class="clip-credit"><strong>Loop choke finish in competition</strong> — taught by Antonio Juniao · 0:59 · <a href="https://www.youtube.com/watch?v=ny2W7CS0Wjo" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="outcomes" class="content-section">

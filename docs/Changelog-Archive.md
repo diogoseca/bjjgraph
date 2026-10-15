@@ -11059,3 +11059,58 @@ existing version normalization. The receipt-bound re-seed changes metadata only:
 6,412 inputs become 6,401, Markdown stays 4,601, and both dirty-path lists are empty.
 The integrated payload passes at 346,317 B eager gzip (+3,319 B against the 342,998 B
 checkpoint, within its 5,000 B cap) and 480,054 B deferred raw (500,000 B ceiling).
+
+
+## v1.227.2 — Clips follow the authored move and role
+
+A clip could name the right family while teaching the opposite role, another origin, an
+isolated attack instead of a position curriculum, or a commercial preview. Four curation
+shards now review the authored position/technique halves against relevance, completeness,
+promotion, fallback, ordering, availability and naming rules. Exact subject and role take
+priority over length; among equally suitable lessons, the shorter one comes first.
+
+The first integration changes 1,352 JSON files and regenerates their article views. Across
+the whole content tree, clip placements change from 8,078 to 2,315: 6,051 references removed
+and 288 added. There are 854 marked fronts: 101 position halves, 174 submission halves and
+579 transition halves. The other 2,042 halves comprise 1,789 empty active gaps, 27 active
+arrays with unmarked fallback clips, and 226 preserved role arrays held for evidence or
+identity resolution. A gap is explicit; a related title alone does not justify a front.
+
+The five owner-held position files remain byte-exact. Their linked holds and other evidence
+holds preserve the original arrays rather than rebuilding them from empty proposals. All
+56 held hub arrays, plus the 403 references on submission-family hubs and Principles outside
+the curation scope, are preserved. Approved position-hub clips carry only the reviewed
+`top`, `bottom` or `both` assignment; an unknown assignment does not acquire a guessed tag.
+
+The optional clip contract adds `front` and position-hub `half`; existing positive `duration`
+remains optional. Validation rejects multiple fronts or a marked front after the first clip,
+and rejects `half` outside a position hub. Raw title/channel/duration/availability evidence
+backs selected clips. Channel names are not inferred to be instructor credits; orientation
+and time segments are not guessed. Longer titles use the schema's existing length limit
+while full source metadata remains in the review evidence.
+
+Independent random samples, returned shards and bounded corrections are preserved in the
+review record. Metadata and sampled storyboard evidence do not claim continuous playback
+or audio review. The weighted second search is a separate follow-up: none of its proposed
+fronts is included in this first integration.
+
+
+The post-296 own build confirms the corrected full-emit projection, including folder copies:
+30,351 JSON-LD blocks, 2,802 ItemLists, 91,125 article headings, 199,250 article links and
+146,702 outside links. Across 5,408 checked article routes, the curation removes 3,166 Film
+Study sections and 10,700 displayed clip occurrences. Every other census field, all three
+root bundles and all 14 normalized app assets match the base. Eager gzip is 346,318 bytes
+(+3,320 against the 342,998 checkpoint); deferred raw remains 480,054 of 500,000 bytes.
+
+D-304 authorizes re-anchoring the collapse floors on those measured figures: payload
+JSON-LD 30,762 to 27,922 and article links 195,944 to 183,310, using the existing tool's
+int(0.92 * observed) rule; Tier-0 JSON-LD 30,000 to 27,000 and article links 200,000 to
+180,000. The four floor changes are isolated commits; other floors and all payload ceilings
+stay fixed. These coarse floors still reject a build that emits only a fraction of the site.
+
+A preliminary own build exposed three stale, unreferenced MDP outputs. They are a recorded
+finding, not a census re-seed: a generated-output cleanup and full repeat restore the exact
+5,125-file static inventory. Two own-worktree tag text/order differences are traced to
+D-253 birthtimes by replaying all 73 listing groups against 26 unchanged Learning sources.
+The guarded capture reuses p2b and must preserve those tag samples; only the two declared
+Armbar-from-Back Film Study removals are expected to alter the SEO sample.

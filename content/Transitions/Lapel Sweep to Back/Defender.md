@@ -150,39 +150,6 @@ description: "How to defend against Lapel Sweep to Back in BJJ. Recognition cues
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Lapel Sweep to Back (Defender) \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "3 ways to defend the back take",
-      "description": "Lapel Sweep to Back (Defender) film study: 3 ways to defend the back take, taught by Roberto \"Cyborg\" Abreu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/OltjLaTW3wQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/OltjLaTW3wQ",
-      "url": "https://www.youtube.com/watch?v=OltjLaTW3wQ",
-      "creator": { "@type": "Person", "name": "Roberto \"Cyborg\" Abreu" },
-      "duration": "PT89S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Defending the Back to Half Guard",
-      "description": "Lapel Sweep to Back (Defender) film study: Defending the Back to Half Guard, taught by JiuJitsu Magazine.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/7OsZ6gCYVJY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/7OsZ6gCYVJY",
-      "url": "https://www.youtube.com/watch?v=7OsZ6gCYVJY",
-      "creator": { "@type": "Person", "name": "JiuJitsu Magazine" },
-      "duration": "PT66S"
-    }
-  ]
-}
-</script>
-
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -199,32 +166,6 @@ From the defender's perspective, the most dangerous moment is the transition bet
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Lapel Sweep to Back (Defender) in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=OltjLaTW3wQ)
-
-<p class="clip-credit"><strong>3 ways to defend the back take</strong> — taught by Roberto &#34;Cyborg&#34; Abreu · 1:29 · <a href="https://www.youtube.com/watch?v=OltjLaTW3wQ" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=7OsZ6gCYVJY)
-
-<p class="clip-credit"><strong>Defending the Back to Half Guard</strong> — taught by JiuJitsu Magazine · 1:06 · <a href="https://www.youtube.com/watch?v=7OsZ6gCYVJY" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="recognition-cues" class="content-section">

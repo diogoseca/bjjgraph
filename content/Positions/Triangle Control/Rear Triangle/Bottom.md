@@ -155,50 +155,6 @@ description: "Master defensive survival from Rear Triangle Bottom. Learn arm ext
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Rear Triangle (Bottom) \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Escaping the topside body triangle",
-      "description": "Rear Triangle (Bottom) film study: Escaping the topside body triangle, taught by Fox Den Martial Arts.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/ys398a2Trrw/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/ys398a2Trrw",
-      "url": "https://www.youtube.com/watch?v=ys398a2Trrw",
-      "creator": { "@type": "Person", "name": "Fox Den Martial Arts" },
-      "duration": "PT48S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Back escape vs crossed feet body triangle",
-      "description": "Rear Triangle (Bottom) film study: Back escape vs crossed feet body triangle, taught by Jeffjitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/fZCyt0MfUtA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/fZCyt0MfUtA",
-      "url": "https://www.youtube.com/watch?v=fZCyt0MfUtA",
-      "creator": { "@type": "Person", "name": "Jeffjitsu" },
-      "duration": "PT54S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Standing-up back escape system",
-      "description": "Rear Triangle (Bottom) film study: Standing-up back escape system, taught by Priit Mihkelson.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/_sBB-O8fqP4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/_sBB-O8fqP4",
-      "url": "https://www.youtube.com/watch?v=_sBB-O8fqP4",
-      "creator": { "@type": "Person", "name": "Priit Mihkelson" },
-      "duration": "PT114S"
-    }
-  ]
-}
-</script>
-
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -209,40 +165,6 @@ Rear Triangle Bottom is a highly compromised defensive position where the practi
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Rear Triangle (Bottom) in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=ys398a2Trrw)
-
-<p class="clip-credit"><strong>Escaping the topside body triangle</strong> — taught by Fox Den Martial Arts · 0:48 · <a href="https://www.youtube.com/watch?v=ys398a2Trrw" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=fZCyt0MfUtA)
-
-<p class="clip-credit"><strong>Back escape vs crossed feet body triangle</strong> — taught by Jeffjitsu · 0:54 · <a href="https://www.youtube.com/watch?v=fZCyt0MfUtA" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=_sBB-O8fqP4)
-
-<p class="clip-credit"><strong>Standing-up back escape system</strong> — taught by Priit Mihkelson · 1:54 · <a href="https://www.youtube.com/watch?v=_sBB-O8fqP4" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="state-invariants" class="content-section">

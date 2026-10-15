@@ -425,30 +425,11 @@
     "clips": [
       {
         "id": "RbkOnRb2lvA",
-        "title": "Anaconda choke setup and finish",
-        "by": "Ninja Pinto",
+        "title": "Anaconda Choke BJJ",
+        "channel": "Ninja Pinto",
+        "duration": 48,
         "vertical": false,
-        "channel": "Ninja Pinto BJJ",
-        "duration": 49,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "6d6Wkgh9imU",
-        "title": "Anaconda choke vs d'arce choke setup difference",
-        "by": "Matt Arroyo",
-        "vertical": false,
-        "channel": "Matt Arroyo Jiu Jitsu ",
-        "duration": 67,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "oUib2H2bOMQ",
-        "title": "Basic anaconda choke setup",
-        "by": "Caleb McAllister",
-        "vertical": false,
-        "channel": "Caleb McAllister",
-        "duration": 102,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },
@@ -648,30 +629,11 @@
     "clips": [
       {
         "id": "s94GexEkoQ0",
-        "title": "Anaconda choke defense and counter",
-        "by": "Cyril Robert",
-        "vertical": false,
+        "title": "BJJ defense anaconda plus counter",
         "channel": "Cyril Robert MMA",
         "duration": 43,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "J-MaOIfDHXk",
-        "title": "Standing front headlock choke defense",
-        "by": "Empower Gym Tampa",
         "vertical": false,
-        "channel": "Empower Gym Tampa",
-        "duration": 60,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "F_cW7ETcTPg",
-        "title": "Sucker drag and peek out counters to front headlock",
-        "by": "Black and Gold MMA",
-        "vertical": false,
-        "channel": "Black and Gold MMA",
-        "duration": 103,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },

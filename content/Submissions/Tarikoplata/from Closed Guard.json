@@ -489,35 +489,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "jpNqecvfuFg",
-        "title": "The Power of the Tarikoplata",
-        "by": "Miha Perhavec",
-        "vertical": false,
-        "channel": "Miha Perhavec",
-        "duration": 63,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "hVXGAvOrwyA",
-        "title": "Tarikoplata quick demo",
-        "by": "bjjtaro",
-        "vertical": false,
-        "channel": "bjjtaro",
-        "duration": 8,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "ZbFNUmyWQkM",
-        "title": "Tarikoplata finishes + switch to Baratoplata",
-        "by": "Sam Bahador",
-        "vertical": false,
-        "channel": "Sam Bahador",
-        "duration": 60,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Tarikoplata Defender",
@@ -684,22 +656,10 @@
     ],
     "clips": [
       {
-        "id": "rx4XoCFWeq8",
-        "title": "Baratoplata / shoulder lock defense",
-        "by": "Animal",
-        "vertical": false,
-        "channel": "Animal",
-        "duration": 75,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "_2dhd21ffbc",
-        "title": "Omoplata escape, jump over",
-        "by": "Ritchie Yip",
-        "vertical": false,
-        "channel": "Ritchie Yip",
-        "duration": 8,
-        "verified": "2026-07-14"
+        "id": "3TIKkks6Uu4",
+        "title": "Tarikoplata Defense Instructional (Donation Based)",
+        "channel": "Heath The Ref",
+        "duration": 6902
       }
     ]
   },

@@ -460,35 +460,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "wl48JJRddV8",
-        "title": "Spider Guard to Triangle or Omoplata",
-        "by": "Clark Gracie",
-        "vertical": false,
-        "channel": "Clark Gracie Allegiance Jiu Jitsu",
-        "duration": 54,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "p3RN_8y_l_Y",
-        "title": "How to Omoplata from Spider Guard",
-        "by": "Evolve MMA",
-        "vertical": false,
-        "channel": "Evolve Mixed Martial Arts",
-        "duration": 66,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "k8b2GBVqcco",
-        "title": "Open Guard Omoplata Variation",
-        "by": "Clark Gracie",
-        "vertical": false,
-        "channel": "Clark Gracie Allegiance Jiu Jitsu",
-        "duration": 50,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Omoplata from Spider Guard Defender",
@@ -661,25 +633,6 @@
         "description": "Partner establishes full omoplata control with hip grip. Practice clasped hand defense, posture driving, and back step escape under increasing resistance. Develop sensitivity for when to tap versus when escape is still viable. This phase emphasizes survival awareness and safety judgment."
       }
     ],
-    "clips": [
-      {
-        "id": "ocIHY3jBYIQ",
-        "title": "Best Way to Escape the Omoplata Shoulder Lock",
-        "by": "John Connors",
-        "vertical": false,
-        "channel": "John Connors, Old Man BJJ Black Belt",
-        "duration": 62,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "nL460qY51vs",
-        "title": "Omoplata Escape Jump Over",
-        "by": "Chosen Few BJJ",
-        "vertical": false,
-        "channel": "Chosen Few BJJ",
-        "duration": 101,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   }
 }

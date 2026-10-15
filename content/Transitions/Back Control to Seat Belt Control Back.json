@@ -376,35 +376,7 @@
       }
     ],
     "safety_considerations": "This transition involves upper body grip changes around the neck and shoulder area. Ensure controlled movements to avoid inadvertent neck compression during arm threading. Partners should communicate immediately if any choking pressure occurs during drill work before the seat belt is properly established. Avoid explosive jerking motions during grip transitions that could strain the partner's cervical spine or shoulder. During training progressions, start slowly and increase speed only as both partners develop comfort with the threading mechanics.",
-    "clips": [
-      {
-        "id": "baSqWCtLysU",
-        "title": "Establishing seatbelt control from back mount",
-        "by": "Teach Me NoGi",
-        "vertical": false,
-        "channel": "Teach Me NoGi",
-        "duration": 212,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "BIeMBPBGb_k",
-        "title": "Straitjacket system: left right control from the back",
-        "by": "John Danaher",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 446,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "NUMXYYjEszU",
-        "title": "Establishing hooks and rear mount",
-        "by": "John Danaher",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 509,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Back Control to Seat Belt Control Back Defender",
@@ -583,21 +555,11 @@
     "clips": [
       {
         "id": "Wga4PfuShEg",
-        "title": "Defending back control with the seatbelt grip",
-        "by": "Academy Jiu Jitsu",
-        "vertical": false,
+        "title": "Back Control (Defending) Seatbelt Grip",
         "channel": "Academy Jiu Jitsu",
         "duration": 114,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "OltjLaTW3wQ",
-        "title": "Three ways to defend the back take",
-        "by": "Roberto Cyborg Abreu",
         "vertical": false,
-        "channel": "Cyborg BJJ",
-        "duration": 89,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   }

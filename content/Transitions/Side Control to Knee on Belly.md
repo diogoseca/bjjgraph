@@ -46,24 +46,12 @@ description: "Master the Side Control to Knee on Belly transition in BJJ. Learn 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Side control to knee on belly transition",
-      "description": "Side Control to Knee on Belly film study: Side control to knee on belly transition, taught by Cary BJJ coach.",
+      "name": "Side control to a knee on belly transition",
+      "description": "Side Control to Knee on Belly film study: Side control to a knee on belly transition.",
       "thumbnailUrl": "https://i.ytimg.com/vi/sM2SRp7XxOY/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/sM2SRp7XxOY",
       "url": "https://www.youtube.com/watch?v=sM2SRp7XxOY",
-      "creator": { "@type": "Person", "name": "Cary BJJ coach" },
-      "duration": "PT198S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Knee on belly quick demo",
-      "description": "Side Control to Knee on Belly film study: Knee on belly quick demo, taught by bjjtaro.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/jV_z0mC4SNw/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/jV_z0mC4SNw",
-      "url": "https://www.youtube.com/watch?v=jV_z0mC4SNw",
-      "creator": { "@type": "Person", "name": "bjjtaro" },
-      "duration": "PT16S"
+      "duration": "PT197S"
     }
   ]
 }
@@ -119,15 +107,7 @@ Strategically, mastering this transition transforms consolidated side control fr
 
 ![](https://www.youtube.com/watch?v=sM2SRp7XxOY)
 
-<p class="clip-credit"><strong>Side control to knee on belly transition</strong> — taught by Cary BJJ coach · 3:18 · <a href="https://www.youtube.com/watch?v=sM2SRp7XxOY" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=jV_z0mC4SNw)
-
-<p class="clip-credit"><strong>Knee on belly quick demo</strong> — taught by bjjtaro · 0:16 · <a href="https://www.youtube.com/watch?v=jV_z0mC4SNw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Side control to a knee on belly transition</strong> · 3:17 · <a href="https://www.youtube.com/watch?v=sM2SRp7XxOY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -448,35 +448,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "RVr67Kb-6ec",
-        "title": "Twister from Turtle",
-        "by": "Thunderdome BJJ",
-        "vertical": false,
-        "channel": "Thunderdome BJJ",
-        "duration": 24,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "muUDBt0i944",
-        "title": "Twister Hook Drills and Movements",
-        "by": "DS Martial Arts",
-        "vertical": false,
-        "channel": "DS Martial Arts",
-        "duration": 49,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "lv15-NuoiUc",
-        "title": "Twister Grappling Submission",
-        "by": "Emil Montes",
-        "vertical": false,
-        "channel": "Emil montes",
-        "duration": 137,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Twister from Russian Cowboy Defender",
@@ -662,34 +634,6 @@
         "description": "Incorporate Twister defense into live rolling scenarios starting from Russian Cowboy bottom. Partner attacks at full speed with genuine commitment to the finish. Practice the complete defensive decision tree: early prevention, mid-stage escape, and timely tap when caught. Develop automatic defensive reactions that fire on recognition cues without conscious thought. Review each repetition for defensive timing accuracy."
       }
     ],
-    "clips": [
-      {
-        "id": "Va1YNgx2E6M",
-        "title": "Escaping and countering the twister",
-        "by": "Matrix Jiu Jitsu",
-        "vertical": false,
-        "channel": "Matrix Jiu Jitsu",
-        "duration": 165,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "oNCcwLYDM_g",
-        "title": "Twister defense and escape breakdown",
-        "by": "Unknown",
-        "vertical": false,
-        "channel": "m mill",
-        "duration": 201,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "hxMggfwKx-I",
-        "title": "Advanced back and truck escapes",
-        "by": "Eddie Bravo",
-        "vertical": false,
-        "channel": "Eddie Bravo",
-        "duration": 61,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

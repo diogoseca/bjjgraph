@@ -152,24 +152,12 @@ description: "Defend against the Posture Up from Triangle in BJJ. Maintain trian
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "What to do when they posture up in your triangle",
-      "description": "Posture Up from Triangle (Defender) film study: What to do when they posture up in your triangle, taught by Simple JiuJitsu.",
+      "name": "What to do when someone posture up in a Triangle for GI Jiu Jitsu... \ud83e\udd14\ud83e\udd14",
+      "description": "Posture Up from Triangle (Defender) film study: What to do when someone posture up in a Triangle for GI Jiu Jitsu... \ud83e\udd14\ud83e\udd14.",
       "thumbnailUrl": "https://i.ytimg.com/vi/wuu5WWcNfY0/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/wuu5WWcNfY0",
       "url": "https://www.youtube.com/watch?v=wuu5WWcNfY0",
-      "creator": { "@type": "Person", "name": "Simple JiuJitsu" },
       "duration": "PT88S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Finishing a triangle against good posture",
-      "description": "Posture Up from Triangle (Defender) film study: Finishing a triangle against good posture, taught by Inverted Gear.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/M3_VDLm6PoE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/M3_VDLm6PoE",
-      "url": "https://www.youtube.com/watch?v=M3_VDLm6PoE",
-      "creator": { "@type": "Person", "name": "Inverted Gear" },
-      "duration": "PT142S"
     }
   ]
 }
@@ -199,15 +187,7 @@ As the triangle holder, your primary defensive objective against the posture-up 
 
 ![](https://www.youtube.com/watch?v=wuu5WWcNfY0)
 
-<p class="clip-credit"><strong>What to do when they posture up in your triangle</strong> — taught by Simple JiuJitsu · 1:28 · <a href="https://www.youtube.com/watch?v=wuu5WWcNfY0" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=M3_VDLm6PoE)
-
-<p class="clip-credit"><strong>Finishing a triangle against good posture</strong> — taught by Inverted Gear · 2:22 · <a href="https://www.youtube.com/watch?v=M3_VDLm6PoE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>What to do when someone posture up in a Triangle for GI Jiu Jitsu... 🤔🤔</strong> · 1:28 · <a href="https://www.youtube.com/watch?v=wuu5WWcNfY0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

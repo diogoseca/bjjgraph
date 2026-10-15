@@ -420,26 +420,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "xqNhZVNhxnE",
-        "title": "Bow and Arrow Choke from Back Control",
-        "by": "Evolve MMA",
-        "vertical": false,
-        "channel": "Evolve Mixed Martial Arts",
-        "duration": 45,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "R5LFNqtx1ps",
-        "title": "Bow & Arrow Choke",
-        "by": "Gracie Barra",
-        "vertical": false,
-        "channel": "Gracie Barra Jiu-jitsu",
-        "duration": 66,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "from Body Triangle Defender",
@@ -654,25 +635,6 @@
         "description": "Partner works the complete bow and arrow setup from body triangle at progressively increasing resistance from 50% to 80%. Defender uses all available tools: recognition, grip defense, turning attempts, pants grip blocking. Practice tapping at the appropriate moment when the choke locks in fully. Develop judgment for when defense is still viable versus when tapping is the correct response."
       }
     ],
-    "clips": [
-      {
-        "id": "485wvqwlBYA",
-        "title": "Defending Back Control Face Down",
-        "by": "Academy Jiu Jitsu",
-        "vertical": false,
-        "channel": "Academy Jiu Jitsu",
-        "duration": 92,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "hgaULMND3ag",
-        "title": "Escaping the Body Triangle",
-        "by": "Coach Brian",
-        "vertical": false,
-        "channel": "TeachMeGrappling Coach Brian",
-        "duration": 129,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   }
 }

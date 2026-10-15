@@ -414,21 +414,18 @@
     "clips": [
       {
         "id": "YhkVpXhiAho",
-        "title": "Limp arm escape from side control",
-        "by": "United BJJ Hawaii",
-        "vertical": false,
+        "title": "LIMP ARM escape from Side Control !!",
         "channel": "United BJJ Hawaii",
-        "duration": 128,
-        "verified": "2026-07-15"
+        "duration": 127,
+        "vertical": false,
+        "front": true
       },
       {
         "id": "aw_eTRRuDz8",
-        "title": "How to free the trapped arm",
-        "by": "The Fight Centre",
-        "vertical": false,
+        "title": "How To Free The Trapped Arm MMA | MMA Grappling",
         "channel": "The Fight Centre - Brisbane",
-        "duration": 207,
-        "verified": "2026-07-15"
+        "duration": 206,
+        "vertical": false
       }
     ]
   },
@@ -607,26 +604,7 @@
         "description": "Full positional sparring rounds from side control with both players at 100% intensity. Top player practices the complete defensive toolkit including pressure maintenance, position advancement, and submission threats. Track success rate of maintaining control versus opponent recovering guard. Identify which extraction variants are most difficult to counter and develop specific responses. 3-minute rounds with reset after guard recovery or position advancement."
       }
     ],
-    "clips": [
-      {
-        "id": "QH9-1I5XqO4",
-        "title": "Side control bottom: guard recovery vs the cross face",
-        "by": "Academy Jiu Jitsu",
-        "vertical": false,
-        "channel": "Academy Jiu Jitsu",
-        "duration": 105,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "SsllJSWsyJc",
-        "title": "Frame Options With the Outside Arm",
-        "by": "John Danaher",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 217,
-        "verified": "2026-07-16"
-      }
-    ]
+    "clips": []
   },
   "variants_and_adaptations": [
     {

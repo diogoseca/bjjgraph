@@ -394,35 +394,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "Z44VF9pmJBg",
-        "title": "Americana from Mount",
-        "by": "Chelsea Ozer",
-        "vertical": false,
-        "channel": "Alain Pozo",
-        "duration": 52,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "uPazS4MJiDc",
-        "title": "How To Perform Americana From Top Mount",
-        "by": "Evolve MMA",
-        "vertical": false,
-        "channel": "Evolve Mixed Martial Arts",
-        "duration": 71,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "9XZSamucGkg",
-        "title": "How to Finish the Americana",
-        "by": "BatuhanBjj",
-        "vertical": false,
-        "channel": "BatuhanBjj",
-        "duration": 131,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Americana from S Mount Defender",
@@ -608,34 +580,6 @@
         "description": "Positional sparring starting in S Mount bottom with partner allowed to attack any submission including Americana. Defend all threats and work to escape to guard. This phase integrates Americana defense with armbar defense and overall S Mount survival, building the ability to handle combined threats under realistic conditions."
       }
     ],
-    "clips": [
-      {
-        "id": "NZjUCo8os8Q",
-        "title": "Simple Americana Armlock Escape",
-        "by": "Eddie Kone",
-        "vertical": false,
-        "channel": "Eddie Kone Academy Of Jiu-Jitsu",
-        "duration": 61,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "Ny_l7GHApo0",
-        "title": "Mounted Americana Defenses - Early Escapes",
-        "by": "Força Martial Arts",
-        "vertical": false,
-        "channel": "Força Martial Arts & Fitness",
-        "duration": 200,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "x5oNak2YANY",
-        "title": "Americana Defense to Armbar Finish",
-        "by": "JiuJitsu.com",
-        "vertical": false,
-        "channel": "JiuJitsu.com",
-        "duration": 177,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   }
 }

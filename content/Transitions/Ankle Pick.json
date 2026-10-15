@@ -431,30 +431,18 @@
     "clips": [
       {
         "id": "wpRBMQjteTs",
-        "title": "Ankle pick variations",
-        "by": "Alex Pereira Jiu Jitsu",
-        "vertical": false,
+        "title": "ANKLE PICK VARIATIONS",
         "channel": "Alex Pereira Jiu Jitsu - APJJ",
-        "duration": 31,
-        "verified": "2026-07-15"
+        "duration": 30,
+        "vertical": false,
+        "front": true
       },
       {
         "id": "aKx2PKU-kCc",
-        "title": "Ankle pick from the underhook",
-        "by": "Base Monkey",
-        "vertical": false,
+        "title": "Ankle Pick from underhook",
         "channel": "Base Monkey SAMBO, MMA & Self-defence",
-        "duration": 63,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "TthX4S3rNgo",
-        "title": "Over collar tie ankle pick",
-        "by": "Footwork Trainer",
-        "vertical": false,
-        "channel": "Footwork Trainer",
-        "duration": 55,
-        "verified": "2026-07-15"
+        "duration": 62,
+        "vertical": false
       }
     ]
   },
@@ -642,29 +630,10 @@
       {
         "id": "2QWHX4NpMvs",
         "title": "Ankle pick defense",
-        "by": "Kennelly Wrestling Experience",
-        "vertical": false,
         "channel": "Kennelly Wrestling Experience",
-        "duration": 23,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "8AaRLOSM61U",
-        "title": "Sprawl defense against leg attacks",
-        "by": "Coach Lang",
+        "duration": 22,
         "vertical": false,
-        "channel": "Coach Lang",
-        "duration": 55,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "QMVavyxjlNU",
-        "title": "Best sprawl position to stop the leg attack",
-        "by": "Cary Kolat",
-        "vertical": false,
-        "channel": "Cary Kolat",
-        "duration": 67,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },

@@ -429,30 +429,11 @@
     "clips": [
       {
         "id": "mXI1NZ5L3eA",
-        "title": "Omoplata from butterfly guard",
-        "by": "BJJ Recap",
-        "vertical": false,
+        "title": "Omoplata from butterfly guard | BJJ submission",
         "channel": "BJJ Recap",
-        "duration": 39,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "O_uTvq4s3LQ",
-        "title": "Shoulder crunch omoplata",
-        "by": "A BJJ Marriage",
+        "duration": 38,
         "vertical": false,
-        "channel": "A BJJ Marriage",
-        "duration": 87,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "zjhkmmfU1gg",
-        "title": "Omoplata details",
-        "by": "Coach Brian",
-        "vertical": false,
-        "channel": "TeachMeGrappling Coach Brian",
-        "duration": 119,
-        "verified": "2026-07-14"
+        "front": true
       }
     ]
   },
@@ -613,34 +594,6 @@
         "description": "Practice converting successful omoplata defenses into guard passes and positional advances. Focus on the stack-to-pass sequence and using the opponent's committed omoplata structure against them to achieve side control or advance position after defending."
       }
     ],
-    "clips": [
-      {
-        "id": "ocIHY3jBYIQ",
-        "title": "Best way to escape the omoplata shoulder lock",
-        "by": "John Connors",
-        "vertical": false,
-        "channel": "John Connors, Old Man BJJ Black Belt",
-        "duration": 62,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "Y4TxL4mDSKg",
-        "title": "Defending the omoplata sweep",
-        "by": "Ninja Pinto",
-        "vertical": false,
-        "channel": "Ninja Pinto BJJ",
-        "duration": 47,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "xqBK1Y2BdSg",
-        "title": "Submission escape from the omoplata",
-        "by": "Thiago Stefanutti",
-        "vertical": false,
-        "channel": "thiago stefanutti",
-        "duration": 17,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   }
 }

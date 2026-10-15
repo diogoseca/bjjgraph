@@ -479,35 +479,7 @@
         "answer_line": "Shoulder pressure = release grip"
       }
     ],
-    "clips": [
-      {
-        "id": "NUnTxPvjCa0",
-        "title": "The Marcelotine high-elbow guillotine",
-        "by": "Marcelo Garcia",
-        "vertical": false,
-        "channel": "stuartcooperfilms",
-        "duration": 73,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "-wLHOB-KlGE",
-        "title": "Arm-in guillotine to high wrist",
-        "by": "Gordon Ryan",
-        "vertical": false,
-        "channel": "pico",
-        "duration": 17,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "SKjFomPMar0",
-        "title": "Arm-in guillotine vs double leg",
-        "by": "Everythingbjj",
-        "vertical": false,
-        "channel": "Everythingbjj",
-        "duration": 70,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "from Guillotine Control Defender",
@@ -703,31 +675,12 @@
     ],
     "clips": [
       {
-        "id": "8okq4cIHMO0",
-        "title": "Standing guillotine escape",
-        "by": "dogtownman",
-        "vertical": false,
-        "channel": "dogtownman",
-        "duration": 44,
-        "verified": "2026-07-14"
-      },
-      {
         "id": "OQYU2BXdEEw",
-        "title": "Guillotine choke defense",
-        "by": "Todd Hendrickson",
-        "vertical": false,
-        "channel": "Todd Hendrickson Jiu Jitsu",
+        "title": "Guillotine Choke Defense",
+        "channel": "Hendrickson Combatives",
         "duration": 51,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "lvjRNWzKMPc",
-        "title": "Guillotine escape to side control",
-        "by": "Street Jitsu",
         "vertical": false,
-        "channel": "Street Jitsu",
-        "duration": 27,
-        "verified": "2026-07-14"
+        "front": true
       }
     ]
   }

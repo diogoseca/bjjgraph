@@ -519,26 +519,7 @@
         "answer_line": "Perpendicular, figure-4, tight heel"
       }
     ],
-    "clips": [
-      {
-        "id": "0wHq6PZVGfI",
-        "title": "2 Ways to Attack a Kneebar From Cross Ashi",
-        "by": "King Kneebar",
-        "vertical": false,
-        "channel": "King Kneebar",
-        "duration": 140,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "RV6_2YEOP8w",
-        "title": "Kneebar Sweep from Ashi Garami",
-        "by": "Edward Anthony",
-        "vertical": false,
-        "channel": "Edward “Scissorhands” Anthony Jiu Jitsu ",
-        "duration": 159,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "from Leg Entanglement Defender",
@@ -721,25 +702,6 @@
         "description": "Positional sparring rounds starting in leg entanglement where partner attacks with full leg lock chains including heel hooks, ankle locks, and kneebars. Integrate recognition, early defense, grip fighting, and escape sequences into live rolling at progressive intensity. Track which defensive responses work at each stage of the kneebar transition and develop your personal defensive hierarchy based on your body type, flexibility, and grip strength."
       }
     ],
-    "clips": [
-      {
-        "id": "wBRG0fY94fs",
-        "title": "How to Defend a Kneebar",
-        "by": "Revolution BJJ",
-        "vertical": false,
-        "channel": "Revolution BJJ",
-        "duration": 59,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "m0NLphEuFoc",
-        "title": "Leg Lock Defense (No-Gi)",
-        "by": "Kuwy Jitsu",
-        "vertical": false,
-        "channel": "Kuwy Jitsu",
-        "duration": 61,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   }
 }

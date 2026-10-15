@@ -155,50 +155,6 @@ description: "Master bottom kneebar control in BJJ. Complete technical guide cov
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Kneebar Control (Bottom) \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Roll Under to Backside 50/50",
-      "description": "Kneebar Control (Bottom) film study: Roll Under to Backside 50/50, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/DBbSqQf6iCo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/DBbSqQf6iCo",
-      "url": "https://www.youtube.com/watch?v=DBbSqQf6iCo",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT110S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Getting to Backside 50/50",
-      "description": "Kneebar Control (Bottom) film study: Getting to Backside 50/50, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/ucAwPgTLSpQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/ucAwPgTLSpQ",
-      "url": "https://www.youtube.com/watch?v=ucAwPgTLSpQ",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT121S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Knee Bar from Deep Half Guard",
-      "description": "Kneebar Control (Bottom) film study: Knee Bar from Deep Half Guard, taught by Miles Moudy.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/ih_7aXNM6UU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/ih_7aXNM6UU",
-      "url": "https://www.youtube.com/watch?v=ih_7aXNM6UU",
-      "creator": { "@type": "Person", "name": "Miles Moudy" },
-      "duration": "PT25S"
-    }
-  ]
-}
-</script>
-
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -217,40 +173,6 @@ Defensively, the bottom practitioner must be aware that committing to a kneebar 
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Kneebar Control (Bottom) in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=DBbSqQf6iCo)
-
-<p class="clip-credit"><strong>Roll Under to Backside 50/50</strong> — taught by Lachlan Giles · 1:50 · <a href="https://www.youtube.com/watch?v=DBbSqQf6iCo" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=ucAwPgTLSpQ)
-
-<p class="clip-credit"><strong>Getting to Backside 50/50</strong> — taught by Lachlan Giles · 2:01 · <a href="https://www.youtube.com/watch?v=ucAwPgTLSpQ" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=ih_7aXNM6UU)
-
-<p class="clip-credit"><strong>Knee Bar from Deep Half Guard</strong> — taught by Miles Moudy · 0:25 · <a href="https://www.youtube.com/watch?v=ih_7aXNM6UU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="state-invariants" class="content-section">

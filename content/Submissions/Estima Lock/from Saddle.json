@@ -425,26 +425,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "kZL3SjFwZNw",
-        "title": "Estima Lock",
-        "by": "Blacklist MMA",
-        "vertical": false,
-        "channel": "블랙리스트mma",
-        "duration": 38,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "I-Jb4qHOFZA",
-        "title": "50/50 Estima Lock",
-        "by": "Coach Ninos",
-        "vertical": false,
-        "channel": "Renegade BJJ",
-        "duration": 86,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Estima Lock from Saddle Defender",
@@ -630,25 +611,6 @@
         "description": "Full resistance rounds starting in Saddle. Defender must manage the complete submission dilemma between heel hook and Estima Lock while working systematic Saddle escapes. Track escape success rate and identify which phase of the defense breaks down most frequently for targeted improvement."
       }
     ],
-    "clips": [
-      {
-        "id": "3a9k8-ZcYrk",
-        "title": "Escaping the Toehold",
-        "by": "Gordon Ryan",
-        "vertical": false,
-        "channel": "The King Life",
-        "duration": 106,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "CUnX7TOpb-A",
-        "title": "Ankle Lock Escape - Put on the Boot",
-        "by": "Ritchie Yip",
-        "vertical": false,
-        "channel": "Ritchie Yip",
-        "duration": 16,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   }
 }

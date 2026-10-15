@@ -494,30 +494,11 @@
     "clips": [
       {
         "id": "I8f9wkX7n4Y",
-        "title": "Straight Arm Lock from Guard",
-        "by": "Gracie Charlottesville",
-        "vertical": false,
+        "title": "Straight Arm Lock From Guard (Armbar) by Gracie Charlottesville",
         "channel": "Gracie Charlottesville",
-        "duration": 30,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "vSmRbpNmf-E",
-        "title": "Armbar breakdown",
-        "by": "Roger Gracie",
+        "duration": 29,
         "vertical": false,
-        "channel": "Jiu Jitsu Moves",
-        "duration": 102,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "zpa_49EcTEA",
-        "title": "Armbar / Arm Drag from Guard",
-        "by": "Rich Castro",
-        "vertical": false,
-        "channel": "Rich Castro",
-        "duration": 52,
-        "verified": "2026-07-14"
+        "front": true
       }
     ]
   },
@@ -708,31 +689,12 @@
     ],
     "clips": [
       {
-        "id": "kNdKfUdgO4I",
-        "title": "My favorite armbar escape",
-        "by": "Matt Arroyo",
+        "id": "vfKVCQ-tA9M",
+        "title": "Arm Bar Escape Closed Guard 1/2",
+        "channel": "BOWERHOUSE MMA",
+        "duration": 84,
         "vertical": false,
-        "channel": "Matt Arroyo Jiu Jitsu ",
-        "duration": 92,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "zwNOXB8GQ3w",
-        "title": "Defending the armbar under EBI/submission-only rules",
-        "by": "Lachlan Giles",
-        "vertical": false,
-        "channel": "Absolute MMA St Kilda - Melbourne",
-        "duration": 208,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "CDpv10qYFLo",
-        "title": "How to defend an armbar",
-        "by": "Gordon Ryan",
-        "vertical": false,
-        "channel": "Gordon Ryan",
-        "duration": 274,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },

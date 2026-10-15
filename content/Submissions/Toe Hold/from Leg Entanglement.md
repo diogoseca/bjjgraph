@@ -46,35 +46,32 @@ description: "Master the toe hold from leg entanglement positions in BJJ. Expert
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Crossover toe hold",
-      "description": "Toe Hold from Leg Entanglement film study: Crossover toe hold, taught by Bence Romanek.",
+      "name": "Crossover (Craig Jones) Toe Hold (Brazilian Jiu Jitsu)",
+      "description": "Toe Hold from Leg Entanglement film study: Crossover (Craig Jones) Toe Hold (Brazilian Jiu Jitsu).",
       "thumbnailUrl": "https://i.ytimg.com/vi/Kx8gZ3QdO8s/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Kx8gZ3QdO8s",
       "url": "https://www.youtube.com/watch?v=Kx8gZ3QdO8s",
-      "creator": { "@type": "Person", "name": "Bence Romanek" },
       "duration": "PT51S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Attacking the toe hold from outside ashi garami",
-      "description": "Toe Hold from Leg Entanglement film study: Attacking the toe hold from outside ashi garami, taught by Brian Glick.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/zsnGef5-N2g/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/zsnGef5-N2g",
-      "url": "https://www.youtube.com/watch?v=zsnGef5-N2g",
-      "creator": { "@type": "Person", "name": "Brian Glick" },
-      "duration": "PT202S"
+      "name": "80/20, 50/50, and the Power Toe Hold",
+      "description": "Toe Hold from Leg Entanglement film study: 80/20, 50/50, and the Power Toe Hold.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/r0P10HUFRV4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/r0P10HUFRV4",
+      "url": "https://www.youtube.com/watch?v=r0P10HUFRV4",
+      "duration": "PT177S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "80/20, 50/50, and the power toe hold",
-      "description": "Toe Hold from Leg Entanglement film study: 80/20, 50/50, and the power toe hold, taught by Revolution BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/r0P10HUFRV4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/r0P10HUFRV4",
-      "url": "https://www.youtube.com/watch?v=r0P10HUFRV4",
-      "creator": { "@type": "Person", "name": "Revolution BJJ" },
-      "duration": "PT178S"
+      "name": "Attacking the Toehold from Outside Ashi Garami (No Gi BJJ/Jiu-Jitsu)",
+      "description": "Toe Hold from Leg Entanglement film study: Attacking the Toehold from Outside Ashi Garami (No Gi BJJ/Jiu-Jitsu).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/zsnGef5-N2g/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/zsnGef5-N2g",
+      "url": "https://www.youtube.com/watch?v=zsnGef5-N2g",
+      "duration": "PT201S"
     }
   ]
 }
@@ -137,15 +134,7 @@ What makes the toe hold particularly effective from leg entanglement is the inhe
 
 ![](https://www.youtube.com/watch?v=Kx8gZ3QdO8s)
 
-<p class="clip-credit"><strong>Crossover toe hold</strong> — taught by Bence Romanek · 0:51 · <a href="https://www.youtube.com/watch?v=Kx8gZ3QdO8s" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=zsnGef5-N2g)
-
-<p class="clip-credit"><strong>Attacking the toe hold from outside ashi garami</strong> — taught by Brian Glick · 3:22 · <a href="https://www.youtube.com/watch?v=zsnGef5-N2g" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Crossover (Craig Jones) Toe Hold (Brazilian Jiu Jitsu)</strong> · 0:51 · <a href="https://www.youtube.com/watch?v=Kx8gZ3QdO8s" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -153,7 +142,15 @@ What makes the toe hold particularly effective from leg entanglement is the inhe
 
 ![](https://www.youtube.com/watch?v=r0P10HUFRV4)
 
-<p class="clip-credit"><strong>80/20, 50/50, and the power toe hold</strong> — taught by Revolution BJJ · 2:58 · <a href="https://www.youtube.com/watch?v=r0P10HUFRV4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>80/20, 50/50, and the Power Toe Hold</strong> · 2:57 · <a href="https://www.youtube.com/watch?v=r0P10HUFRV4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=zsnGef5-N2g)
+
+<p class="clip-credit"><strong>Attacking the Toehold from Outside Ashi Garami (No Gi BJJ/Jiu-Jitsu)</strong> · 3:21 · <a href="https://www.youtube.com/watch?v=zsnGef5-N2g" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

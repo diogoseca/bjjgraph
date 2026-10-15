@@ -393,35 +393,7 @@
       }
     ],
     "safety_considerations": "Bridge defense from mounted triangle requires careful awareness of neck positioning throughout the escape. Explosive bridging while trapped in a triangle can temporarily increase choking pressure if the chin tuck is not maintained. Never bridge directly into the triangle squeeze direction. Training partners should apply moderate triangle pressure during drilling rather than competition-level finishing force. Tap immediately if you feel lightheadedness, tingling, or loss of blood flow during practice. Partners should release immediately on any tap signal. Warm up the neck and spine thoroughly before drilling explosive bridging movements to prevent cervical strain.",
-    "clips": [
-      {
-        "id": "R21vtm5BHF4",
-        "title": "Escaping the mount by bridging",
-        "by": "Pantera Jiujitsu",
-        "vertical": false,
-        "channel": "Pantera Jiujitsu",
-        "duration": 80,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "nkvBImWia78",
-        "title": "Bridge and roll escape from under mount",
-        "by": "Absolute MMA",
-        "vertical": false,
-        "channel": "Absolute MMA",
-        "duration": 174,
-        "verified": "2026-07-16"
-      },
-      {
-        "id": "qVD1UD39hNc",
-        "title": "Mount escape with choke defense",
-        "by": "Combat Sports Center Salem",
-        "vertical": false,
-        "channel": "Combat Sports Center Salem Oregon",
-        "duration": 190,
-        "verified": "2026-07-16"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Bridge Defense from Mounted Triangle Defender",
@@ -584,25 +556,6 @@
         "description": "Full positional sparring from mounted triangle. Top player maintains position and works submissions while bottom player uses all available escapes including bridges. Develop ability to manage multiple escape threats simultaneously while progressing toward submission finish under realistic conditions."
       }
     ],
-    "clips": [
-      {
-        "id": "a6SPEOcuNzs",
-        "title": "Keeping top control on a failed mounted triangle",
-        "by": "Thunderdome BJJ",
-        "vertical": false,
-        "channel": "Thunderdome BJJ",
-        "duration": 60,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "l-HhOV9UjJU",
-        "title": "Preventing the mounted triangle",
-        "by": "Justen Hamilton",
-        "vertical": false,
-        "channel": "Justen Hamilton",
-        "duration": 104,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

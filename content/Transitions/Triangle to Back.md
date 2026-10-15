@@ -36,28 +36,6 @@ description: "Master the Triangle to Back take in BJJ. Convert defended triangle
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Triangle to Back \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Back Triangle When Your Choke Didn\u0027t Work",
-      "description": "Triangle to Back film study: Back Triangle When Your Choke Didn\u0027t Work, taught by Josh Presley.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/e5-wNLYzJT0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/e5-wNLYzJT0",
-      "url": "https://www.youtube.com/watch?v=e5-wNLYzJT0",
-      "creator": { "@type": "Person", "name": "Josh Presley" },
-      "duration": "PT101S"
-    }
-  ]
-}
-</script>
-
 
 
 <script type="application/ld+json">
@@ -96,24 +74,6 @@ Strategically, this transition transforms the triangle from a single-threat posi
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Triangle to Back in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=e5-wNLYzJT0)
-
-<p class="clip-credit"><strong>Back Triangle When Your Choke Didn&#39;t Work</strong> — taught by Josh Presley · 1:41 · <a href="https://www.youtube.com/watch?v=e5-wNLYzJT0" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="possible-outcomes" class="content-section">

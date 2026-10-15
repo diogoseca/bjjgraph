@@ -46,35 +46,12 @@ description: "Master the Kimura from Kimura Trap in BJJ. Complete guide to finis
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Kimura Trap Setup Tutorial (No-Gi)",
-      "description": "Kimura from Kimura Trap film study: Kimura Trap Setup Tutorial (No-Gi), taught by FreeChannelOpen.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/baHSGhmYVmM/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/baHSGhmYVmM",
-      "url": "https://www.youtube.com/watch?v=baHSGhmYVmM",
-      "creator": { "@type": "Person", "name": "FreeChannelOpen" },
-      "duration": "PT91S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Kimura Trap finish",
-      "description": "Kimura from Kimura Trap film study: Kimura Trap finish, taught by Rudy Fields.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/QF7R6uovqSc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/QF7R6uovqSc",
-      "url": "https://www.youtube.com/watch?v=QF7R6uovqSc",
-      "creator": { "@type": "Person", "name": "Rudy Fields" },
-      "duration": "PT46S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Kimura Trap submission at Pan Ams",
-      "description": "Kimura from Kimura Trap film study: Kimura Trap submission at Pan Ams, taught by Luke Ruffo.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/PiaCdkFIxPk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/PiaCdkFIxPk",
-      "url": "https://www.youtube.com/watch?v=PiaCdkFIxPk",
-      "creator": { "@type": "Person", "name": "Luke Ruffo" },
-      "duration": "PT89S"
+      "name": "The Daily Dirtball: \"Kimura Defense Grip Breaks\"",
+      "description": "Kimura from Kimura Trap film study: The Daily Dirtball: \"Kimura Defense Grip Breaks\".",
+      "thumbnailUrl": "https://i.ytimg.com/vi/GOLwVNTVcnY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/GOLwVNTVcnY",
+      "url": "https://www.youtube.com/watch?v=GOLwVNTVcnY",
+      "duration": "PT81S"
     }
   ]
 }
@@ -137,25 +114,9 @@ Strategically, the Kimura from Kimura Trap creates compounding dilemmas: defendi
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=baHSGhmYVmM)
+![](https://www.youtube.com/watch?v=GOLwVNTVcnY)
 
-<p class="clip-credit"><strong>Kimura Trap Setup Tutorial (No-Gi)</strong> — taught by FreeChannelOpen · 1:31 · <a href="https://www.youtube.com/watch?v=baHSGhmYVmM" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=QF7R6uovqSc)
-
-<p class="clip-credit"><strong>Kimura Trap finish</strong> — taught by Rudy Fields · 0:46 · <a href="https://www.youtube.com/watch?v=QF7R6uovqSc" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=PiaCdkFIxPk)
-
-<p class="clip-credit"><strong>Kimura Trap submission at Pan Ams</strong> — taught by Luke Ruffo · 1:29 · <a href="https://www.youtube.com/watch?v=PiaCdkFIxPk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>The Daily Dirtball: &#34;Kimura Defense Grip Breaks&#34;</strong> · 1:21 · <a href="https://www.youtube.com/watch?v=GOLwVNTVcnY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

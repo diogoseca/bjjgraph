@@ -155,50 +155,6 @@ description: "Master Turtle Bottom position in BJJ. Defensive position with guar
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Turtle (Bottom) \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Turtle back escape by shrugging",
-      "description": "Turtle (Bottom) film study: Turtle back escape by shrugging, taught by Andy Tong.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/waVFl1Ip6VU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/waVFl1Ip6VU",
-      "url": "https://www.youtube.com/watch?v=waVFl1Ip6VU",
-      "creator": { "@type": "Person", "name": "Andy Tong" },
-      "duration": "PT33S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Standing up from turtle (defensive BJJ)",
-      "description": "Turtle (Bottom) film study: Standing up from turtle (defensive BJJ), taught by Priit Mihkelson.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/_sBB-O8fqP4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/_sBB-O8fqP4",
-      "url": "https://www.youtube.com/watch?v=_sBB-O8fqP4",
-      "creator": { "@type": "Person", "name": "Priit Mihkelson" },
-      "duration": "PT114S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Head and arm escape from turtle",
-      "description": "Turtle (Bottom) film study: Head and arm escape from turtle, taught by Chosen Few BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/LTGHO-aRBxw/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/LTGHO-aRBxw",
-      "url": "https://www.youtube.com/watch?v=LTGHO-aRBxw",
-      "creator": { "@type": "Person", "name": "Chosen Few BJJ" },
-      "duration": "PT78S"
-    }
-  ]
-}
-</script>
-
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -209,40 +165,6 @@ Turtle Bottom is a defensive position where the bottom practitioner is on their 
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Turtle (Bottom) in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=waVFl1Ip6VU)
-
-<p class="clip-credit"><strong>Turtle back escape by shrugging</strong> — taught by Andy Tong · 0:33 · <a href="https://www.youtube.com/watch?v=waVFl1Ip6VU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=_sBB-O8fqP4)
-
-<p class="clip-credit"><strong>Standing up from turtle (defensive BJJ)</strong> — taught by Priit Mihkelson · 1:54 · <a href="https://www.youtube.com/watch?v=_sBB-O8fqP4" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=LTGHO-aRBxw)
-
-<p class="clip-credit"><strong>Head and arm escape from turtle</strong> — taught by Chosen Few BJJ · 1:18 · <a href="https://www.youtube.com/watch?v=LTGHO-aRBxw" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="state-invariants" class="content-section">

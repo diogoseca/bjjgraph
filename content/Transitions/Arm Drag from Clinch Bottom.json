@@ -373,30 +373,11 @@
     "clips": [
       {
         "id": "rc36jRToKOk",
-        "title": "Arm Drag to Rear Clinch",
-        "by": "Jiu Jitsu Five-O",
+        "title": "Train For Real // Arm Drag to Rear Clinch",
+        "channel": "Jiu Jitsu Five-O // BJJ Training for the Street",
+        "duration": 30,
         "vertical": false,
-        "channel": "Jiu Jitsu Five-O // Street-Ready BJJ Training",
-        "duration": 31,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "TkCWCSvk7I4",
-        "title": "Arm Drag to Single Leg",
-        "by": "Grapple Hub",
-        "vertical": false,
-        "channel": "Grapple hub ",
-        "duration": 60,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "CYF4OUTGwvk",
-        "title": "Arm Drag Drill",
-        "by": "Budo Brothers",
-        "vertical": false,
-        "channel": "Budo Brothers",
-        "duration": 49,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },
@@ -564,30 +545,11 @@
     "clips": [
       {
         "id": "JAik-k-lKWY",
-        "title": "Arm Drag Counter with BJJ Application",
-        "by": "Joe Scioli",
-        "vertical": false,
+        "title": "Arm Drag Counter (With BJJ Application)",
         "channel": "Joe Scioli",
         "duration": 31,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "bmCjXADzgo4",
-        "title": "How to Defend the Arm Drag",
-        "by": "Matt Arroyo",
         "vertical": false,
-        "channel": "Matt Arroyo Jiu Jitsu ",
-        "duration": 103,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "gnsX4EjShMQ",
-        "title": "Arm Drag Defense to Knee Pick",
-        "by": "David Avellan",
-        "vertical": false,
-        "channel": "David Avellan",
-        "duration": 137,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   }

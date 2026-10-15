@@ -493,31 +493,19 @@
     ],
     "clips": [
       {
-        "id": "t03kY6knAkU",
-        "title": "Triangle from the Spider Lasso Guard",
-        "by": "Nartay Kazhekov",
-        "vertical": false,
-        "channel": "Nartay Kazhekov",
-        "duration": 11,
-        "verified": "2026-07-14"
-      },
-      {
         "id": "7ItTf1BFDZA",
-        "title": "Spider Guard Foot on Bicep Triangle Choke",
-        "by": "Ritchie Yip",
-        "vertical": false,
+        "title": "Spider Guard Foot On Bicep Triangle Choke",
         "channel": "Ritchie Yip",
         "duration": 31,
-        "verified": "2026-07-14"
+        "vertical": false,
+        "front": true
       },
       {
         "id": "aR907qucSvk",
         "title": "Spider Guard: Triangle Choke Option",
-        "by": "Hurricane Jiu Jitsu",
-        "vertical": false,
         "channel": "Hurricane Jiu Jitsu",
-        "duration": 60,
-        "verified": "2026-07-14"
+        "duration": 59,
+        "vertical": false
       }
     ]
   },
@@ -711,26 +699,7 @@
         "description": "Start in spider guard with attacker having full grips. Attacker hunts the triangle and all chain attacks at full speed. Defender works prevention, early escapes, and locked-triangle escapes as the situation demands. 3-minute rounds with resets on submission, pass, or sweep. Track how often the triangle is locked versus prevented, and escape success rate when locked."
       }
     ],
-    "clips": [
-      {
-        "id": "dJOw0ZEyXXc",
-        "title": "Triangle Choke Posture Up Escape",
-        "by": "Cosens MMA",
-        "vertical": false,
-        "channel": "Cosens MMA LLC",
-        "duration": 73,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "sR2rS2dwpNY",
-        "title": "How To Escape a Triangle Choke",
-        "by": "Rener & Ryron Gracie",
-        "vertical": false,
-        "channel": "Hayabusa",
-        "duration": 117,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   },
   "variations_and_setups": [
     {

@@ -519,26 +519,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "TNvcL55uvrE",
-        "title": "Reverse Omoplata, Keenan style",
-        "by": "Keenan Cornelius",
-        "vertical": false,
-        "channel": "ufctalkingthailand",
-        "duration": 22,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "zZv3V0b3tqg",
-        "title": "Teaching the reverse omoplata",
-        "by": "Bradley",
-        "vertical": false,
-        "channel": "Logan Cook",
-        "duration": 106,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Rolling Omoplata Defender",
@@ -725,34 +706,6 @@
         "description": "Positional sparring starting from guard situations and scrambles where the attacker is actively seeking rolling omoplata entries. Defend at full intensity, chaining recognition, early prevention, and late-stage escapes as needed. Track your success rate at each defensive stage. Develop the instinct to protect extended arms during scrambles without conscious thought."
       }
     ],
-    "clips": [
-      {
-        "id": "ocIHY3jBYIQ",
-        "title": "Best way to escape the omoplata shoulder lock",
-        "by": "John Connors",
-        "vertical": false,
-        "channel": "John Connors, Old Man BJJ Black Belt",
-        "duration": 62,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "jKdERMTQqPY",
-        "title": "Escape the omoplata when it's already locked in",
-        "by": "Matt Arroyo",
-        "vertical": false,
-        "channel": "Matt Arroyo Jiu Jitsu ",
-        "duration": 72,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "YsSrfDmrVjs",
-        "title": "Early omoplata escape, opposite shoulder roll",
-        "by": "Jean Jacques Machado",
-        "vertical": false,
-        "channel": "JeanJacquesMachado",
-        "duration": 43,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   }
 }

@@ -46,35 +46,22 @@ description: "Master the Electric Chair entry from Deep Half Guard in BJJ. Lockd
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Electric Chair from Lockdown Half Guard",
-      "description": "Electric Chair Entry from Deep Half film study: Electric Chair from Lockdown Half Guard, taught by Brandon McCaghren.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/sMbaY4vG2mM/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/sMbaY4vG2mM",
-      "url": "https://www.youtube.com/watch?v=sMbaY4vG2mM",
-      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
-      "duration": "PT42S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Electric Chair from Deep Half Guard",
-      "description": "Electric Chair Entry from Deep Half film study: Electric Chair from Deep Half Guard, taught by Heart \u0026 Dagger BJJ.",
+      "name": "Electric Chair From Deep Half- Mineral Wells BJJ",
+      "description": "Electric Chair Entry from Deep Half film study: Electric Chair From Deep Half- Mineral Wells BJJ.",
       "thumbnailUrl": "https://i.ytimg.com/vi/O18n2Z5HISI/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/O18n2Z5HISI",
       "url": "https://www.youtube.com/watch?v=O18n2Z5HISI",
-      "creator": { "@type": "Person", "name": "Heart \u0026 Dagger BJJ" },
       "duration": "PT43S"
     },
     {
       "@type": "VideoObject",
-      "position": 3,
-      "name": "Lockdown Deep Half Sweep to Electric Chair",
-      "description": "Electric Chair Entry from Deep Half film study: Lockdown Deep Half Sweep to Electric Chair, taught by Andy Yeomans.",
+      "position": 2,
+      "name": "Lockdown Deep Half Sweep \u0026 Electric Chair BJJ tutorial",
+      "description": "Electric Chair Entry from Deep Half film study: Lockdown Deep Half Sweep \u0026 Electric Chair BJJ tutorial.",
       "thumbnailUrl": "https://i.ytimg.com/vi/-2Uuvg3B-WI/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/-2Uuvg3B-WI",
       "url": "https://www.youtube.com/watch?v=-2Uuvg3B-WI",
-      "creator": { "@type": "Person", "name": "Andy Yeomans" },
-      "duration": "PT89S"
+      "duration": "PT88S"
     }
   ]
 }
@@ -128,17 +115,9 @@ What makes this entry especially dangerous is that the top player is already con
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=sMbaY4vG2mM)
-
-<p class="clip-credit"><strong>Electric Chair from Lockdown Half Guard</strong> — taught by Brandon McCaghren · 0:42 · <a href="https://www.youtube.com/watch?v=sMbaY4vG2mM" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=O18n2Z5HISI)
 
-<p class="clip-credit"><strong>Electric Chair from Deep Half Guard</strong> — taught by Heart &amp; Dagger BJJ · 0:43 · <a href="https://www.youtube.com/watch?v=O18n2Z5HISI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Electric Chair From Deep Half- Mineral Wells BJJ</strong> · 0:43 · <a href="https://www.youtube.com/watch?v=O18n2Z5HISI" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -146,7 +125,7 @@ What makes this entry especially dangerous is that the top player is already con
 
 ![](https://www.youtube.com/watch?v=-2Uuvg3B-WI)
 
-<p class="clip-credit"><strong>Lockdown Deep Half Sweep to Electric Chair</strong> — taught by Andy Yeomans · 1:29 · <a href="https://www.youtube.com/watch?v=-2Uuvg3B-WI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Lockdown Deep Half Sweep &amp; Electric Chair BJJ tutorial</strong> · 1:28 · <a href="https://www.youtube.com/watch?v=-2Uuvg3B-WI" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

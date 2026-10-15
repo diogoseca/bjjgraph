@@ -189,34 +189,11 @@ description: "Learn to attack the Kimura from Lockdown half guard. Step-by-step 
       "@type": "VideoObject",
       "position": 1,
       "name": "Sneaky Kimura from Lockdown",
-      "description": "Kimura from Lockdown (Attacker) film study: Sneaky Kimura from Lockdown, taught by BJJ Level UP Workshops.",
+      "description": "Kimura from Lockdown (Attacker) film study: Sneaky Kimura from Lockdown.",
       "thumbnailUrl": "https://i.ytimg.com/vi/xHQ152Wxywk/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/xHQ152Wxywk",
       "url": "https://www.youtube.com/watch?v=xHQ152Wxywk",
-      "creator": { "@type": "Person", "name": "BJJ Level UP Workshops" },
-      "duration": "PT108S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Sneaky Submissions from Lockdown Half Guard",
-      "description": "Kimura from Lockdown (Attacker) film study: Sneaky Submissions from Lockdown Half Guard, taught by Coach Paul.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/VcW4GCI5_8w/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/VcW4GCI5_8w",
-      "url": "https://www.youtube.com/watch?v=VcW4GCI5_8w",
-      "creator": { "@type": "Person", "name": "Coach Paul" },
-      "duration": "PT87S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Lockdown Clinches",
-      "description": "Kimura from Lockdown (Attacker) film study: Lockdown Clinches, taught by Eddie Bravo.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/OIr4wDxl-Ys/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/OIr4wDxl-Ys",
-      "url": "https://www.youtube.com/watch?v=OIr4wDxl-Ys",
-      "creator": { "@type": "Person", "name": "Eddie Bravo" },
-      "duration": "PT60S"
+      "duration": "PT107S"
     }
   ]
 }
@@ -247,23 +224,7 @@ Attacking the Kimura from Lockdown requires coordinating lower body lockdown con
 
 ![](https://www.youtube.com/watch?v=xHQ152Wxywk)
 
-<p class="clip-credit"><strong>Sneaky Kimura from Lockdown</strong> — taught by BJJ Level UP Workshops · 1:48 · <a href="https://www.youtube.com/watch?v=xHQ152Wxywk" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=VcW4GCI5_8w)
-
-<p class="clip-credit"><strong>Sneaky Submissions from Lockdown Half Guard</strong> — taught by Coach Paul · 1:27 · <a href="https://www.youtube.com/watch?v=VcW4GCI5_8w" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=OIr4wDxl-Ys)
-
-<p class="clip-credit"><strong>Lockdown Clinches</strong> — taught by Eddie Bravo · 1:00 · <a href="https://www.youtube.com/watch?v=OIr4wDxl-Ys" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Sneaky Kimura from Lockdown</strong> · 1:47 · <a href="https://www.youtube.com/watch?v=xHQ152Wxywk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

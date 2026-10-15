@@ -176,28 +176,6 @@ description: "How to execute Grasshopper Sweep in BJJ. Attacking perspective wit
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Grasshopper Sweep (Attacker) \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Grasshopper Guard Techniques and Sweeps",
-      "description": "Grasshopper Sweep (Attacker) film study: Grasshopper Guard Techniques and Sweeps, taught by Danny Fung.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/ts6plGhJ4gI/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/ts6plGhJ4gI",
-      "url": "https://www.youtube.com/watch?v=ts6plGhJ4gI",
-      "creator": { "@type": "Person", "name": "Danny Fung" },
-      "duration": "PT689S"
-    }
-  ]
-}
-</script>
-
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -214,24 +192,6 @@ Strategically, this sweep functions as a high-reward option within the Grasshopp
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Grasshopper Sweep (Attacker) in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=ts6plGhJ4gI)
-
-<p class="clip-credit"><strong>Grasshopper Guard Techniques and Sweeps</strong> — taught by Danny Fung · 11:29 · <a href="https://www.youtube.com/watch?v=ts6plGhJ4gI" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="key-principles" class="content-section">

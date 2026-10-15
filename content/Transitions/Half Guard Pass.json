@@ -395,30 +395,25 @@
     "clips": [
       {
         "id": "kTSMGYlVJKY",
-        "title": "Free your foot while passing half guard",
-        "by": "Kameron Ross",
-        "vertical": false,
+        "title": "EASY Way to Free Your Foot While Passing Half Guard",
         "channel": "Kameron Ross",
-        "duration": 55,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "8WbQvytyCX0",
-        "title": "How to pass the flat half guard",
-        "by": "Malachy Friedman",
+        "duration": 54,
         "vertical": false,
-        "channel": "Malachy Friedman",
-        "duration": 63,
-        "verified": "2026-07-15"
+        "front": true
       },
       {
         "id": "ftsB4fpRROk",
-        "title": "Belly-up half guard pass",
-        "by": "Brandon McCaghren",
-        "vertical": false,
+        "title": "1 Minute Jiu Jitsu Hack - Belly Up Half Guard Pass",
         "channel": "Brandon Mccaghren",
         "duration": 60,
-        "verified": "2026-07-15"
+        "vertical": false
+      },
+      {
+        "id": "8WbQvytyCX0",
+        "title": "This is how to pass the flat half!",
+        "channel": "Malachy Friedman",
+        "duration": 62,
+        "vertical": false
       }
     ]
   },
@@ -609,34 +604,6 @@
         "description": "Regular positional sparring starting from half guard bottom against partners using full resistance and complete passing systems. Track your retention rate, sweep success, and identify which sub-variations and transitions work best against different passing styles. Develop your personal half guard defensive system by identifying your highest-percentage sequences and building automatic responses to common passing patterns."
       }
     ],
-    "clips": [
-      {
-        "id": "lVLAROiSjNU",
-        "title": "Guard retention: when to sit up escape",
-        "by": "Lachlan Giles",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 136,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "BhNZGloJ56c",
-        "title": "Guard recovery when you get smashed",
-        "by": "Finesse Jiujitsu",
-        "vertical": false,
-        "channel": "FINESSE JIUJITSU HTX",
-        "duration": 103,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "LI0MQp3oh7g",
-        "title": "Get a better underhook from bottom half guard",
-        "by": "Jiu-Jitsu Collective",
-        "vertical": false,
-        "channel": "Jiu-Jitsu Collective",
-        "duration": 188,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

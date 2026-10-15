@@ -393,31 +393,26 @@
     "safety_considerations": "The Hip Bump Sweep is generally a very safe technique for both practitioners when executed with proper control. The primary safety concern is ensuring you do not land with excessive force on your opponent after the sweep - control your descent to mount rather than slamming down. When practicing, ensure adequate mat space for the sweeping motion, as you need room to hip bump and roll through. Partners should communicate clearly, especially during initial learning phases with minimal resistance. Avoid cranking the Kimura or Guillotine during chain attack drilling unless both partners are prepared for submission attempts. For beginners, it is important to drill the explosive hip movement gradually, building power over time rather than attempting maximum force immediately, which could lead to muscle strains. The posting hand should be placed carefully to avoid wrist injuries - fingers pointed away from the body with a strong, flat palm base.",
     "clips": [
       {
-        "id": "h8_sHO2W44Q",
-        "title": "Hip bump sweep from closed guard",
-        "by": "Todd Hendrickson",
-        "vertical": false,
-        "channel": "Todd Hendrickson Jiu Jitsu",
-        "duration": 44,
-        "verified": "2026-07-15"
-      },
-      {
         "id": "O1hBu9yZkX0",
-        "title": "Hip bump sweep competition details",
-        "by": "Grand Union Jiu Jitsu",
-        "vertical": false,
+        "title": "Grand Union Comp Tips Hip Bump Sweep",
         "channel": "Grand Union Jiu Jitsu",
         "duration": 38,
-        "verified": "2026-07-15"
+        "vertical": false,
+        "front": true
+      },
+      {
+        "id": "h8_sHO2W44Q",
+        "title": "Hip Bump Sweep",
+        "channel": "Hendrickson Combatives",
+        "duration": 43,
+        "vertical": false
       },
       {
         "id": "kGjbaMDs65g",
-        "title": "Hip bump sweep and follow-up submissions",
-        "by": "Alex Humen",
-        "vertical": false,
+        "title": "Hip Bump Sweep and 3 Submissions",
         "channel": "Alex Humen BJJ",
         "duration": 56,
-        "verified": "2026-07-15"
+        "vertical": false
       }
     ]
   },
@@ -584,21 +579,11 @@
     "clips": [
       {
         "id": "Bqy30Ua9dkQ",
-        "title": "Hip bump sweep defense",
-        "by": "James Quan",
-        "vertical": false,
+        "title": "James Quan Bump Sweep Defense",
         "channel": "Gladiators Academy of Lafayette",
-        "duration": 110,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "h1j2Pzl_Do4",
-        "title": "Defending the closed guard hip bump",
-        "by": "Pure Grappling",
+        "duration": 109,
         "vertical": false,
-        "channel": "Pure Grappling",
-        "duration": 187,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },

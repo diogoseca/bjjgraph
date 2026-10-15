@@ -494,22 +494,12 @@
     ],
     "clips": [
       {
-        "id": "2mleTh3ZoBk",
-        "title": "Kneebar from Top Turtle",
-        "by": "Charlie Cosens",
-        "vertical": false,
-        "channel": "Cosens MMA LLC",
-        "duration": 88,
-        "verified": "2026-07-14"
-      },
-      {
         "id": "5GOWKe9WTs8",
-        "title": "Kneebar from Side Control",
-        "by": "Steven Corley",
-        "vertical": false,
+        "title": "Knee Bar from Side control",
         "channel": "NYFIGHTSOURCE Steven Corley",
-        "duration": 95,
-        "verified": "2026-07-14"
+        "duration": 94,
+        "vertical": false,
+        "front": true
       }
     ]
   },
@@ -690,26 +680,7 @@
         "description": "Begin from live positions where partner hunts for top kneebar entries at 100% effort. Defender must recognize entries, select appropriate defensive response, and execute escapes under full resistance. Critically, develop judgment for when to tap versus when continued defense is viable—recognizing the point of no return and tapping before injury risk is essential. Include post-round analysis of defensive decision quality and areas where earlier intervention would have improved outcomes."
       }
     ],
-    "clips": [
-      {
-        "id": "NuWBh3LN-SY",
-        "title": "Kneebar Defense + Take the Back",
-        "by": "Bicudo BJJ",
-        "vertical": false,
-        "channel": "Bicudo BJJ",
-        "duration": 22,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "NHyBpBC4apY",
-        "title": "Knee Bar Defense",
-        "by": "Clark Gracie",
-        "vertical": false,
-        "channel": "Clark Gracie Allegiance Jiu Jitsu",
-        "duration": 138,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   },
   "variations_and_setups": [
     {

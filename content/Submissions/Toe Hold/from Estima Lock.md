@@ -36,61 +36,6 @@ description: "Master the toe hold from Estima Lock in BJJ. Expert guide covering
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Toe Hold from Estima Lock \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Estima Lock",
-      "description": "Toe Hold from Estima Lock film study: Estima Lock, taught by bjjtaro.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/_6BC8d5B5Hs/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/_6BC8d5B5Hs",
-      "url": "https://www.youtube.com/watch?v=_6BC8d5B5Hs",
-      "creator": { "@type": "Person", "name": "bjjtaro" },
-      "duration": "PT31S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Estima Lock Breaking Mechanics",
-      "description": "Toe Hold from Estima Lock film study: Estima Lock Breaking Mechanics, taught by Josh Leduc.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/7hajltIw4kI/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/7hajltIw4kI",
-      "url": "https://www.youtube.com/watch?v=7hajltIw4kI",
-      "creator": { "@type": "Person", "name": "Josh Leduc" },
-      "duration": "PT82S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Huge Detail on the Estima Lock",
-      "description": "Toe Hold from Estima Lock film study: Huge Detail on the Estima Lock, taught by Brandon Mccaghren.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/enJwT6Ttreo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/enJwT6Ttreo",
-      "url": "https://www.youtube.com/watch?v=enJwT6Ttreo",
-      "creator": { "@type": "Person", "name": "Brandon Mccaghren" },
-      "duration": "PT137S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 4,
-      "name": "Paper cutter toe hold from 50/50",
-      "description": "Toe Hold from Estima Lock film study: Paper cutter toe hold from 50/50, taught by Garden State BJJ coach.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/xwaJm1Ft5lc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/xwaJm1Ft5lc",
-      "url": "https://www.youtube.com/watch?v=xwaJm1Ft5lc",
-      "creator": { "@type": "Person", "name": "Garden State BJJ coach" },
-      "duration": "PT60S"
-    }
-  ]
-}
-</script>
-
 
 
 <script type="application/ld+json">
@@ -138,48 +83,6 @@ This submission is particularly effective in no-gi grappling where the smooth su
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Toe Hold from Estima Lock in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=_6BC8d5B5Hs)
-
-<p class="clip-credit"><strong>Estima Lock</strong> — taught by bjjtaro · 0:31 · <a href="https://www.youtube.com/watch?v=_6BC8d5B5Hs" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=7hajltIw4kI)
-
-<p class="clip-credit"><strong>Estima Lock Breaking Mechanics</strong> — taught by Josh Leduc · 1:22 · <a href="https://www.youtube.com/watch?v=7hajltIw4kI" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=enJwT6Ttreo)
-
-<p class="clip-credit"><strong>Huge Detail on the Estima Lock</strong> — taught by Brandon Mccaghren · 2:17 · <a href="https://www.youtube.com/watch?v=enJwT6Ttreo" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=xwaJm1Ft5lc)
-
-<p class="clip-credit"><strong>Paper cutter toe hold from 50/50</strong> — taught by Garden State BJJ coach · 1:00 · <a href="https://www.youtube.com/watch?v=xwaJm1Ft5lc" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="outcomes" class="content-section">

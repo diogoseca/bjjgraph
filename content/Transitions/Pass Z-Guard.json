@@ -371,31 +371,26 @@
     "safety_considerations": "When collapsing the knee shield, apply progressive pressure rather than explosive force to avoid injuring your training partner's knee or hip. Be mindful of excessive crossface pressure during drilling, as sustained neck pressure can cause discomfort and injury. During the leg clearance phase, avoid twisting your partner's trapped leg at unnatural angles. Communicate with your training partner about pressure intensity, and in competition preparation drills, establish clear boundaries for resistance levels to prevent training injuries.",
     "clips": [
       {
-        "id": "GQeS3xTXlb0",
-        "title": "Z-guard pass to the back",
-        "by": "Unknown coach",
+        "id": "Nuh4wnROi-c",
+        "title": "Move fo the Day: Z Guard Pass into side control",
+        "channel": "JitzLive",
+        "duration": 28,
         "vertical": false,
-        "channel": "Animal",
-        "duration": 48,
-        "verified": "2026-07-15"
+        "front": true
       },
       {
         "id": "MvsgiCFdQPA",
-        "title": "Passing the knee shield from over-under",
-        "by": "Paragon coach",
-        "vertical": false,
+        "title": "Passing Knee Shield from Over Under Position",
         "channel": "Paragon Jiu-Jitsu Academy Austin",
-        "duration": 116,
-        "verified": "2026-07-15"
+        "duration": 115,
+        "vertical": false
       },
       {
         "id": "4LIBFmas-oE",
-        "title": "Passing knee shield with the leg weave",
-        "by": "BJJ4Breakfast coach",
-        "vertical": false,
+        "title": "Passing knee shield with leg weave pass",
         "channel": "BJJ4Breakfast",
-        "duration": 153,
-        "verified": "2026-07-15"
+        "duration": 152,
+        "vertical": false
       }
     ]
   },
@@ -565,34 +560,6 @@
         "description": "Positional sparring from Z-Guard with full resistance. Focus on applying the complete defensive system including retention, sweep threats, and transition contingencies under competitive conditions. Develop the ability to read and react to the passer's evolving strategy in real time."
       }
     ],
-    "clips": [
-      {
-        "id": "cnW27eV9H8U",
-        "title": "Triangle off the z-guard as the passer engages",
-        "by": "Evolve MMA coach",
-        "vertical": false,
-        "channel": "Evolve Mixed Martial Arts",
-        "duration": 95,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "COMTE898ja8",
-        "title": "Don't get squashed from Z-guard",
-        "by": "Craig Jones",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 156,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "aL8RfesQL5k",
-        "title": "Knee shield guard retention concepts",
-        "by": "Cobrinha",
-        "vertical": false,
-        "channel": "Cobrinha Brazilian Jiu-Jitsu & Fitness",
-        "duration": 254,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

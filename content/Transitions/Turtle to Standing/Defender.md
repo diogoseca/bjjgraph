@@ -152,24 +152,22 @@ description: "How to prevent the Turtle to Standing escape in BJJ. Recognition c
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Front headlock to stop the turtle standup",
-      "description": "Turtle to Standing (Defender) film study: Front headlock to stop the turtle standup, taught by Gordon Ryan.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/JX0HL0WpYPs/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/JX0HL0WpYPs",
-      "url": "https://www.youtube.com/watch?v=JX0HL0WpYPs",
-      "creator": { "@type": "Person", "name": "Gordon Ryan" },
-      "duration": "PT478S"
+      "name": "Attacking When They Stand Up from Turtle: the 4-Point Position (No Gi\u2026",
+      "description": "Turtle to Standing (Defender) film study: Attacking When They Stand Up from Turtle: the 4-Point Position (No Gi\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/v37tHX8oKuY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/v37tHX8oKuY",
+      "url": "https://www.youtube.com/watch?v=v37tHX8oKuY",
+      "duration": "PT355S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Riding the turtle roll to the far side with a near hook",
-      "description": "Turtle to Standing (Defender) film study: Riding the turtle roll to the far side with a near hook, taught by Priit Mihkelson.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/0xYFYI9LkUQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/0xYFYI9LkUQ",
-      "url": "https://www.youtube.com/watch?v=0xYFYI9LkUQ",
-      "creator": { "@type": "Person", "name": "Priit Mihkelson" },
-      "duration": "PT144S"
+      "name": "Dealing With An Opponent Trying to Stand Up From Turtle Position - Matt Inman",
+      "description": "Turtle to Standing (Defender) film study: Dealing With An Opponent Trying to Stand Up From Turtle Position - Matt Inman.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/7QBW031Crmg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/7QBW031Crmg",
+      "url": "https://www.youtube.com/watch?v=7QBW031Crmg",
+      "duration": "PT415S"
     }
   ]
 }
@@ -197,17 +195,17 @@ As the top player in turtle, your objective when the bottom player attempts to s
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=JX0HL0WpYPs)
+![](https://www.youtube.com/watch?v=v37tHX8oKuY)
 
-<p class="clip-credit"><strong>Front headlock to stop the turtle standup</strong> — taught by Gordon Ryan · 7:58 · <a href="https://www.youtube.com/watch?v=JX0HL0WpYPs" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Attacking When They Stand Up from Turtle: the 4-Point Position (No Gi…</strong> · 5:55 · <a href="https://www.youtube.com/watch?v=v37tHX8oKuY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=0xYFYI9LkUQ)
+![](https://www.youtube.com/watch?v=7QBW031Crmg)
 
-<p class="clip-credit"><strong>Riding the turtle roll to the far side with a near hook</strong> — taught by Priit Mihkelson · 2:24 · <a href="https://www.youtube.com/watch?v=0xYFYI9LkUQ" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Dealing With An Opponent Trying to Stand Up From Turtle Position - Matt Inman</strong> · 6:55 · <a href="https://www.youtube.com/watch?v=7QBW031Crmg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

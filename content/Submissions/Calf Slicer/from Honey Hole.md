@@ -46,24 +46,12 @@ description: "Master the calf slicer from Honey Hole position in BJJ. Complete g
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Ham Sandwich to Honeyhole Calf Slicer",
-      "description": "Calf Slicer from Honey Hole film study: Ham Sandwich to Honeyhole Calf Slicer, taught by Christopher Hendrick.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/4hjnzSE-VgY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/4hjnzSE-VgY",
-      "url": "https://www.youtube.com/watch?v=4hjnzSE-VgY",
-      "creator": { "@type": "Person", "name": "Christopher Hendrick" },
-      "duration": "PT113S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Calf Slicer: Bait, Enter and Finish",
-      "description": "Calf Slicer from Honey Hole film study: Calf Slicer: Bait, Enter and Finish, taught by Patrick Donabedian.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/IX7ABEXpMVw/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/IX7ABEXpMVw",
-      "url": "https://www.youtube.com/watch?v=IX7ABEXpMVw",
-      "creator": { "@type": "Person", "name": "Patrick Donabedian" },
-      "duration": "PT164S"
+      "name": "Calf Slicer from the Saddle",
+      "description": "Calf Slicer from Honey Hole film study: Calf Slicer from the Saddle.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/FDCL7MV5G7s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/FDCL7MV5G7s",
+      "url": "https://www.youtube.com/watch?v=FDCL7MV5G7s",
+      "duration": "PT77S"
     }
   ]
 }
@@ -126,17 +114,9 @@ Strategically, the calf slicer adds a compression dimension to the rotational at
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=4hjnzSE-VgY)
+![](https://www.youtube.com/watch?v=FDCL7MV5G7s)
 
-<p class="clip-credit"><strong>Ham Sandwich to Honeyhole Calf Slicer</strong> — taught by Christopher Hendrick · 1:53 · <a href="https://www.youtube.com/watch?v=4hjnzSE-VgY" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=IX7ABEXpMVw)
-
-<p class="clip-credit"><strong>Calf Slicer: Bait, Enter and Finish</strong> — taught by Patrick Donabedian · 2:44 · <a href="https://www.youtube.com/watch?v=IX7ABEXpMVw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Calf Slicer from the Saddle</strong> · 1:17 · <a href="https://www.youtube.com/watch?v=FDCL7MV5G7s" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -160,35 +160,12 @@ description: "How to continue your takedown against a sprawl in BJJ. Recognition
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Reshots after being sprawled on",
-      "description": "Sprawl (Defender) film study: Reshots after being sprawled on, taught by Askren Wrestling Academy.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/ymf_c1j3JEY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/ymf_c1j3JEY",
-      "url": "https://www.youtube.com/watch?v=ymf_c1j3JEY",
-      "creator": { "@type": "Person", "name": "Askren Wrestling Academy" },
-      "duration": "PT70S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Sucker drag and peek out vs short offense",
-      "description": "Sprawl (Defender) film study: Sucker drag and peek out vs short offense, taught by Glover Teixeira.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/F_cW7ETcTPg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/F_cW7ETcTPg",
-      "url": "https://www.youtube.com/watch?v=F_cW7ETcTPg",
-      "creator": { "@type": "Person", "name": "Glover Teixeira" },
-      "duration": "PT103S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Chain wrestling: shot recovery after the sprawl",
-      "description": "Sprawl (Defender) film study: Chain wrestling: shot recovery after the sprawl, taught by Jordan Burroughs.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/U3T0fy6-iNE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/U3T0fy6-iNE",
-      "url": "https://www.youtube.com/watch?v=U3T0fy6-iNE",
-      "creator": { "@type": "Person", "name": "Jordan Burroughs" },
-      "duration": "PT244S"
+      "name": "Move of the week - Double leg when they sprawl",
+      "description": "Sprawl (Defender) film study: Move of the week - Double leg when they sprawl.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/suLByvCIBN4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/suLByvCIBN4",
+      "url": "https://www.youtube.com/watch?v=suLByvCIBN4",
+      "duration": "PT145S"
     }
   ]
 }
@@ -216,25 +193,9 @@ As the defender against a sprawl, you are the person whose takedown attempt has 
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=ymf_c1j3JEY)
+![](https://www.youtube.com/watch?v=suLByvCIBN4)
 
-<p class="clip-credit"><strong>Reshots after being sprawled on</strong> — taught by Askren Wrestling Academy · 1:10 · <a href="https://www.youtube.com/watch?v=ymf_c1j3JEY" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=F_cW7ETcTPg)
-
-<p class="clip-credit"><strong>Sucker drag and peek out vs short offense</strong> — taught by Glover Teixeira · 1:43 · <a href="https://www.youtube.com/watch?v=F_cW7ETcTPg" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=U3T0fy6-iNE)
-
-<p class="clip-credit"><strong>Chain wrestling: shot recovery after the sprawl</strong> — taught by Jordan Burroughs · 4:04 · <a href="https://www.youtube.com/watch?v=U3T0fy6-iNE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Move of the week - Double leg when they sprawl</strong> · 2:25 · <a href="https://www.youtube.com/watch?v=suLByvCIBN4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

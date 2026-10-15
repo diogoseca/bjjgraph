@@ -186,35 +186,12 @@ description: "How to execute Single Leg to Back Take in BJJ. Attacking perspecti
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Single leg takedown to back take",
-      "description": "Single Leg to Back Take (Attacker) film study: Single leg takedown to back take, taught by Sdotbell.",
+      "name": "Best Single leg Takedown to Back Take  | Best BJJ Takedowns | One Minute\u2026",
+      "description": "Single Leg to Back Take (Attacker) film study: Best Single leg Takedown to Back Take  | Best BJJ Takedowns | One Minute\u2026.",
       "thumbnailUrl": "https://i.ytimg.com/vi/FsJlz-J_h9w/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/FsJlz-J_h9w",
       "url": "https://www.youtube.com/watch?v=FsJlz-J_h9w",
-      "creator": { "@type": "Person", "name": "Sdotbell" },
       "duration": "PT46S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Hip switch to back take",
-      "description": "Single Leg to Back Take (Attacker) film study: Hip switch to back take, taught by Gordon Ryan.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/f3PJ06A_bWQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/f3PJ06A_bWQ",
-      "url": "https://www.youtube.com/watch?v=f3PJ06A_bWQ",
-      "creator": { "@type": "Person", "name": "Gordon Ryan" },
-      "duration": "PT19S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Finishing the single leg: options and counters",
-      "description": "Single Leg to Back Take (Attacker) film study: Finishing the single leg: options and counters, taught by Talgat Ilyasov.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/s3Mm2PcqwpE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/s3Mm2PcqwpE",
-      "url": "https://www.youtube.com/watch?v=s3Mm2PcqwpE",
-      "creator": { "@type": "Person", "name": "Talgat Ilyasov" },
-      "duration": "PT196S"
     }
   ]
 }
@@ -246,23 +223,7 @@ The attacker must understand that this is not a forced technique but an opportun
 
 ![](https://www.youtube.com/watch?v=FsJlz-J_h9w)
 
-<p class="clip-credit"><strong>Single leg takedown to back take</strong> — taught by Sdotbell · 0:46 · <a href="https://www.youtube.com/watch?v=FsJlz-J_h9w" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=f3PJ06A_bWQ)
-
-<p class="clip-credit"><strong>Hip switch to back take</strong> — taught by Gordon Ryan · 0:19 · <a href="https://www.youtube.com/watch?v=f3PJ06A_bWQ" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=s3Mm2PcqwpE)
-
-<p class="clip-credit"><strong>Finishing the single leg: options and counters</strong> — taught by Talgat Ilyasov · 3:16 · <a href="https://www.youtube.com/watch?v=s3Mm2PcqwpE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Best Single leg Takedown to Back Take  | Best BJJ Takedowns | One Minute…</strong> · 0:46 · <a href="https://www.youtube.com/watch?v=FsJlz-J_h9w" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

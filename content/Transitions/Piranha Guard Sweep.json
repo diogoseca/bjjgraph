@@ -397,26 +397,7 @@
       }
     ],
     "safety_considerations": "The Piranha Guard Sweep carries moderate injury risk primarily through uncontrolled lapel tension that can cause neck strain or cervical compression on the top player. Partners should communicate clearly about lapel tension levels and the bottom player must release grips immediately if the top player signals discomfort. The sweep itself can cause the top player to fall awkwardly if executed with excessive force, so controlled drilling with graduated resistance is essential before live application. Be particularly cautious of finger injuries from deep lapel grips during extended training sessions and consider taping fingers preventively when drilling high volumes.",
-    "clips": [
-      {
-        "id": "DYLeL6H4g6g",
-        "title": "Half guard lapel sweep",
-        "by": "Brazilian Top Team Happy Valley",
-        "vertical": false,
-        "channel": "Brazilian Top Team Happy Valley ",
-        "duration": 77,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "-epOGEtHwSI",
-        "title": "Half guard lapel sweep, walk around finish",
-        "by": "Brazilian Top Team Happy Valley",
-        "vertical": false,
-        "channel": "Brazilian Top Team Happy Valley ",
-        "duration": 137,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Piranha Guard Sweep Defender",
@@ -593,34 +574,6 @@
         "description": "Full-speed positional sparring starting in Piranha Guard with defender working to neutralize sweeps and pass the guard. Track success rate across rounds and analyze which defensive responses consistently lead to the best passing outcomes and position recovery."
       }
     ],
-    "clips": [
-      {
-        "id": "Mw9e-xftPcY",
-        "title": "Dealing with the lapel feed in half guard",
-        "by": "Inverted Gear",
-        "vertical": false,
-        "channel": "Inverted Gear",
-        "duration": 92,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "uvuV9GnMvFQ",
-        "title": "Shutting down the lapel guard sweep game",
-        "by": "Jon Thomas",
-        "vertical": false,
-        "channel": "JonThomasBJJ",
-        "duration": 458,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "U9tV9gNze9A",
-        "title": "Escaping lapel guard: three variations",
-        "by": "Modern BJJ coach",
-        "vertical": false,
-        "channel": "Modern BJJ",
-        "duration": 533,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

@@ -445,26 +445,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "P0AuQRSfHfs",
-        "title": "Kimura Trap from Half/Quarter Guard",
-        "by": "Clark Gracie",
-        "vertical": false,
-        "channel": "Clark Gracie Allegiance Jiu Jitsu",
-        "duration": 74,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "U3tD96avjXc",
-        "title": "Kimura Trap Counter to Single Leg",
-        "by": "Dynamic Martial Arts",
-        "vertical": false,
-        "channel": "Dynamic Martial Arts Roseburg",
-        "duration": 101,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Kimura from Quarter Guard Defender",
@@ -646,25 +627,6 @@
         "description": "Defend kimura attempts during live rolling from quarter guard bottom, integrating recognition, prevention, grip fighting, and escape into fluid defensive responses at realistic intensity"
       }
     ],
-    "clips": [
-      {
-        "id": "FNyL93v5fGs",
-        "title": "Defending The Americana/Kimura",
-        "by": "Lachlan Giles",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 91,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "MO0PFxgjuJ4",
-        "title": "Counter to Rolling Kimura",
-        "by": "Scott Ryan Chiriboga",
-        "vertical": false,
-        "channel": "Scott Ryan Chiriboga",
-        "duration": 155,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   }
 }

@@ -188,24 +188,12 @@ description: "How to finish the Americana from Kimura Trap position. Step-by-ste
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Kimura Roll to Americana",
-      "description": "Americana from Kimura Trap (Attacker) film study: Kimura Roll to Americana, taught by The Art of Fighting.",
+      "name": "Single leg defensive kimura roll to Americana",
+      "description": "Americana from Kimura Trap (Attacker) film study: Single leg defensive kimura roll to Americana.",
       "thumbnailUrl": "https://i.ytimg.com/vi/3lVaIp79rIo/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/3lVaIp79rIo",
       "url": "https://www.youtube.com/watch?v=3lVaIp79rIo",
-      "creator": { "@type": "Person", "name": "The Art of Fighting" },
       "duration": "PT79S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Americana Trap",
-      "description": "Americana from Kimura Trap (Attacker) film study: Americana Trap, taught by Thomas Lisboa.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/D9eBGVemI7A/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/D9eBGVemI7A",
-      "url": "https://www.youtube.com/watch?v=D9eBGVemI7A",
-      "creator": { "@type": "Person", "name": "Thomas Lisboa" },
-      "duration": "PT243S"
     }
   ]
 }
@@ -236,15 +224,7 @@ Executing the Americana from Kimura Trap requires reading your opponent's defens
 
 ![](https://www.youtube.com/watch?v=3lVaIp79rIo)
 
-<p class="clip-credit"><strong>Kimura Roll to Americana</strong> — taught by The Art of Fighting · 1:19 · <a href="https://www.youtube.com/watch?v=3lVaIp79rIo" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=D9eBGVemI7A)
-
-<p class="clip-credit"><strong>Americana Trap</strong> — taught by Thomas Lisboa · 4:03 · <a href="https://www.youtube.com/watch?v=D9eBGVemI7A" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Single leg defensive kimura roll to Americana</strong> · 1:19 · <a href="https://www.youtube.com/watch?v=3lVaIp79rIo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

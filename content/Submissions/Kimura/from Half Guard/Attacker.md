@@ -182,46 +182,12 @@ description: "How to execute Kimura from Half Guard in BJJ. Attacking perspectiv
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Kimura from Bottom Half Guard",
-      "description": "Kimura from Half Guard (Attacker) film study: Kimura from Bottom Half Guard, taught by Evolve MMA.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/5F3ZM01oPVo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/5F3ZM01oPVo",
-      "url": "https://www.youtube.com/watch?v=5F3ZM01oPVo",
-      "creator": { "@type": "Person", "name": "Evolve MMA" },
-      "duration": "PT41S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Kimura Half Guard Bottom",
-      "description": "Kimura from Half Guard (Attacker) film study: Kimura Half Guard Bottom, taught by Georges St-Pierre.",
+      "name": "Georges St-Pierre | Technique Breakdown: Kimura Half Guard Bottom | The Gentle\u2026",
+      "description": "Kimura from Half Guard (Attacker) film study: Georges St-Pierre | Technique Breakdown: Kimura Half Guard Bottom | The Gentle\u2026.",
       "thumbnailUrl": "https://i.ytimg.com/vi/dgYwflmcxKk/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/dgYwflmcxKk",
       "url": "https://www.youtube.com/watch?v=dgYwflmcxKk",
-      "creator": { "@type": "Person", "name": "Georges St-Pierre" },
       "duration": "PT72S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Kimura Trap Roll from Half Guard",
-      "description": "Kimura from Half Guard (Attacker) film study: Kimura Trap Roll from Half Guard, taught by Combat Arts.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/3scKusIPsC8/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/3scKusIPsC8",
-      "url": "https://www.youtube.com/watch?v=3scKusIPsC8",
-      "creator": { "@type": "Person", "name": "Combat Arts" },
-      "duration": "PT51S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 4,
-      "name": "Kimura from half guard bottom",
-      "description": "Kimura from Half Guard (Attacker) film study: Kimura from half guard bottom, taught by Renato Migliaccio.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/VtfT_NNt69U/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/VtfT_NNt69U",
-      "url": "https://www.youtube.com/watch?v=VtfT_NNt69U",
-      "creator": { "@type": "Person", "name": "Renato Migliaccio" },
-      "duration": "PT73S"
     }
   ]
 }
@@ -250,33 +216,9 @@ The **Kimura from Half Guard** is one of the most versatile shoulder locks in Br
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=5F3ZM01oPVo)
-
-<p class="clip-credit"><strong>Kimura from Bottom Half Guard</strong> — taught by Evolve MMA · 0:41 · <a href="https://www.youtube.com/watch?v=5F3ZM01oPVo" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=dgYwflmcxKk)
 
-<p class="clip-credit"><strong>Kimura Half Guard Bottom</strong> — taught by Georges St-Pierre · 1:12 · <a href="https://www.youtube.com/watch?v=dgYwflmcxKk" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=3scKusIPsC8)
-
-<p class="clip-credit"><strong>Kimura Trap Roll from Half Guard</strong> — taught by Combat Arts · 0:51 · <a href="https://www.youtube.com/watch?v=3scKusIPsC8" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=VtfT_NNt69U)
-
-<p class="clip-credit"><strong>Kimura from half guard bottom</strong> — taught by Renato Migliaccio · 1:13 · <a href="https://www.youtube.com/watch?v=VtfT_NNt69U" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Georges St-Pierre | Technique Breakdown: Kimura Half Guard Bottom | The Gentle…</strong> · 1:12 · <a href="https://www.youtube.com/watch?v=dgYwflmcxKk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

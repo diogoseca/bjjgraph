@@ -353,26 +353,7 @@
       }
     ],
     "safety_considerations": "The stacking motion places significant pressure on the bottom player's cervical spine and lower back. Apply pressure gradually and progressively rather than suddenly dropping weight onto a folded training partner. Monitor your partner's comfort level during stacking sequences and immediately release pressure if they signal discomfort or tap. Avoid explosive forward drives that could cause whiplash-type forces on the neck. In drilling, communicate with your partner about pressure intensity and allow them to adjust their positioning for comfort.",
-    "clips": [
-      {
-        "id": "QJQcGbxpR0c",
-        "title": "Closed guard stack pass in live rolling",
-        "by": "Roll 247",
-        "vertical": false,
-        "channel": "Roll 247",
-        "duration": 45,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "t5nGc9oUeoM",
-        "title": "Stack pass variation from open guard",
-        "by": "Scott Ryan Chiriboga",
-        "vertical": false,
-        "channel": "Scott Ryan Chiriboga",
-        "duration": 201,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Stack from Williams Guard Defender",
@@ -549,25 +530,6 @@
         "description": "Start in Williams Guard bottom with full resistance. Partner attempts all passing options including the stack. Defend the stack while maintaining offensive threats and transitioning between defensive and counter-offensive responses based on real-time pressure reading."
       }
     ],
-    "clips": [
-      {
-        "id": "54HhqU5BeHE",
-        "title": "High closed guard armbar against the stack",
-        "by": "Bowerhouse MMA",
-        "vertical": false,
-        "channel": "BOWERHOUSE MMA",
-        "duration": 38,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "iTrQzYeCvHM",
-        "title": "Top 5 Guard Retention Mistakes",
-        "by": "Lachlan Giles",
-        "vertical": false,
-        "channel": "Bernardo Faria BJJ Fanatics",
-        "duration": 436,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

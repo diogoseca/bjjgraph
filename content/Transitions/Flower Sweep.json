@@ -367,31 +367,26 @@
     "safety_considerations": "The Flower Sweep is one of the safest techniques in BJJ when practiced properly, with minimal injury risk to either practitioner. The primary safety concern is ensuring controlled follow-through to mount - avoid driving your knee or bodyweight into the opponent's face or ribs as you come on top. When learning, both partners should be aware of the rotational nature of the sweep to avoid awkward landings. Practitioners with limited hip mobility should warm up thoroughly before drilling this technique to prevent hip flexor or groin strains. During live training, tap quickly if caught in a submission during the scramble to mount. As the person being swept, do not post your hand directly into the mat with a locked elbow, as this can result in shoulder or elbow injuries - instead, post with a bent arm or learn to roll through safely.",
     "clips": [
       {
-        "id": "HptsGRf7PX0",
-        "title": "Flower sweep from closed guard",
-        "by": "Alberto Serrano",
+        "id": "guLR_4msTH4",
+        "title": "Deep Flower Sweep",
+        "channel": "American Top Team - Palm Beach Gardens",
+        "duration": 29,
         "vertical": false,
-        "channel": "Alberto Serrano BJJ",
-        "duration": 70,
-        "verified": "2026-07-15"
+        "front": true
       },
       {
         "id": "VPuRGIFaWz4",
-        "title": "Flower sweep basics (pendulum sweep)",
-        "by": "Gorilla BJJ Academy",
-        "vertical": false,
+        "title": "BJJ Basics • Flower sweep aka Pendulum sweep",
         "channel": "Gorilla BJJ Academy Mahwah, NJ",
-        "duration": 50,
-        "verified": "2026-07-15"
+        "duration": 49,
+        "vertical": false
       },
       {
-        "id": "guLR_4msTH4",
-        "title": "Deep flower sweep",
-        "by": "American Top Team coach",
-        "vertical": false,
-        "channel": "American Top Team - Palm Beach Gardens",
-        "duration": 29,
-        "verified": "2026-07-15"
+        "id": "HptsGRf7PX0",
+        "title": "Flower Sweep",
+        "channel": "Alberto Serrano BJJ",
+        "duration": 70,
+        "vertical": false
       }
     ]
   },
@@ -576,31 +571,12 @@
     ],
     "clips": [
       {
-        "id": "kNfVYhZbgrg",
-        "title": "Four levels of sweep defense",
-        "by": "Wim Deputter",
-        "vertical": false,
-        "channel": "Wim Deputter BJJ",
-        "duration": 87,
-        "verified": "2026-07-15"
-      },
-      {
         "id": "cpjRXgi3FE4",
         "title": "Flower Sweep Counter",
-        "by": "Ante Dzolic",
-        "vertical": false,
         "channel": "Ante Dzolic",
         "duration": 217,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "d_zfY7Kjezo",
-        "title": "How to Never Get Stuck in Closed Guard",
-        "by": "Matt Arroyo",
         "vertical": false,
-        "channel": "Matt Arroyo Jiu Jitsu ",
-        "duration": 389,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },

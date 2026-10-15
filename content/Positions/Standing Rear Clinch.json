@@ -528,31 +528,11 @@
     ],
     "clips": [
       {
-        "id": "GKrJsIYmycM",
-        "title": "Mat Return Drill from Rear Bodylock",
-        "by": "Nicky Rodriguez",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 84,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "iPXirj0gvko",
-        "title": "Bodylock to Back Take",
-        "by": "Diogo Reis",
-        "vertical": false,
-        "channel": "Jiu Jitsu Moves",
-        "duration": 36,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "2VCyaassiRI",
-        "title": "Leg Switch Cutback from Rear Bodylock",
-        "by": "Procel BJJ",
-        "vertical": false,
-        "channel": "Procel Brazilian Jiu-Jitsu",
-        "duration": 52,
-        "verified": "2026-07-14"
+        "id": "lF5kkB2rq5Y",
+        "title": "3 Wrestling Entries to a Standing Rear Body Lock | No-Gi Technique| Pearson…",
+        "channel": "Pearson Brazilian Jiu-Jitsu",
+        "duration": 194,
+        "front": true
       }
     ]
   },
@@ -914,31 +894,12 @@
     },
     "clips": [
       {
-        "id": "_sBB-O8fqP4",
-        "title": "Standing Up Escape 5",
-        "by": "Priit Mihkelson",
+        "id": "DFXdqByRxNg",
+        "title": "Standing Rear Body Lock: Counters, Attacks and Defense (No Gi…",
+        "channel": "Brian Glick",
+        "duration": 318,
         "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 114,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "lGGo0H8ems4",
-        "title": "How to Break a Body Lock",
-        "by": "Nick Diaz",
-        "vertical": false,
-        "channel": "Moments in MMA",
-        "duration": 62,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "aW0nNv2UWh0",
-        "title": "Rear Body Lock Counters: Granby & Kneebar",
-        "by": "GFAMMA",
-        "vertical": false,
-        "channel": "𝐆𝐅𝐀𝐌𝐌𝐀 - 𝐆𝐋𝐀𝐃𝐈𝐀𝐓𝐎𝐑 𝐅𝐈𝐆𝐇𝐓 𝐀𝐂𝐀𝐃𝐄𝐌𝐘",
-        "duration": 170,
-        "verified": "2026-07-14"
+        "front": true
       }
     ]
   },
@@ -1056,33 +1017,5 @@
       }
     }
   ],
-  "clips": [
-    {
-      "id": "ovl7eZIzBaU",
-      "title": "Easy Takedowns from the Rear Clinch",
-      "by": "Oneonta Jiu Jitsu Academy",
-      "vertical": false,
-      "channel": "OneontaJiuJitsu Academy",
-      "duration": 57,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "35C990SbApc",
-      "title": "Single Leg Takedown From the Back",
-      "by": "John Danaher",
-      "vertical": false,
-      "channel": "BJJ Fanatics",
-      "duration": 150,
-      "verified": "2026-07-16"
-    },
-    {
-      "id": "GclkEsj1iE8",
-      "title": "Body Lock Escape Using the Switch",
-      "by": "FreeChannelOpen coach",
-      "vertical": false,
-      "channel": "FreeChannelOpen",
-      "duration": 146,
-      "verified": "2026-07-16"
-    }
-  ]
+  "clips": []
 }

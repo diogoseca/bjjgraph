@@ -186,35 +186,12 @@ description: "How to execute Ankle Pick Sweep in BJJ. Attacking perspective with
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Inside foot sweep into ankle pick",
-      "description": "Ankle Pick Sweep (Attacker) film study: Inside foot sweep into ankle pick, taught by JamJits.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/prFvdbbgE5Q/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/prFvdbbgE5Q",
-      "url": "https://www.youtube.com/watch?v=prFvdbbgE5Q",
-      "creator": { "@type": "Person", "name": "JamJits" },
-      "duration": "PT49S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Ankle pick from seated guard",
-      "description": "Ankle Pick Sweep (Attacker) film study: Ankle pick from seated guard, taught by Fox Den Martial Arts.",
+      "name": "Ankle pick from Seated Guard - Seated Wrestling Series 2",
+      "description": "Ankle Pick Sweep (Attacker) film study: Ankle pick from Seated Guard - Seated Wrestling Series 2.",
       "thumbnailUrl": "https://i.ytimg.com/vi/pF7jaKzHra0/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/pF7jaKzHra0",
       "url": "https://www.youtube.com/watch?v=pF7jaKzHra0",
-      "creator": { "@type": "Person", "name": "Fox Den Martial Arts" },
       "duration": "PT54S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Lapel grip ankle pick",
-      "description": "Ankle Pick Sweep (Attacker) film study: Lapel grip ankle pick, taught by JiuJitsu.com.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/93fnYBkmiGQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/93fnYBkmiGQ",
-      "url": "https://www.youtube.com/watch?v=93fnYBkmiGQ",
-      "creator": { "@type": "Person", "name": "JiuJitsu.com" },
-      "duration": "PT52S"
     }
   ]
 }
@@ -246,25 +223,9 @@ This sweep serves as a cornerstone technique in modern no-gi grappling and has b
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=prFvdbbgE5Q)
-
-<p class="clip-credit"><strong>Inside foot sweep into ankle pick</strong> — taught by JamJits · 0:49 · <a href="https://www.youtube.com/watch?v=prFvdbbgE5Q" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=pF7jaKzHra0)
 
-<p class="clip-credit"><strong>Ankle pick from seated guard</strong> — taught by Fox Den Martial Arts · 0:54 · <a href="https://www.youtube.com/watch?v=pF7jaKzHra0" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=93fnYBkmiGQ)
-
-<p class="clip-credit"><strong>Lapel grip ankle pick</strong> — taught by JiuJitsu.com · 0:52 · <a href="https://www.youtube.com/watch?v=93fnYBkmiGQ" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Ankle pick from Seated Guard - Seated Wrestling Series 2</strong> · 0:54 · <a href="https://www.youtube.com/watch?v=pF7jaKzHra0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

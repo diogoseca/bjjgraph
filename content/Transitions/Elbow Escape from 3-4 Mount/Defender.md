@@ -160,12 +160,11 @@ description: "Prevent the Elbow Escape from 3-4 Mount as the top player. Learn t
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Maintaining mount: preventing the elbow escape",
-      "description": "Elbow Escape from 3-4 Mount (Defender) film study: Maintaining mount: preventing the elbow escape, taught by St. Paul Brazilian Jiu Jitsu.",
+      "name": "maintaining mount - preventing the elbow escape",
+      "description": "Elbow Escape from 3-4 Mount (Defender) film study: maintaining mount - preventing the elbow escape.",
       "thumbnailUrl": "https://i.ytimg.com/vi/iS017eyM0eQ/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/iS017eyM0eQ",
       "url": "https://www.youtube.com/watch?v=iS017eyM0eQ",
-      "creator": { "@type": "Person", "name": "St. Paul Brazilian Jiu Jitsu" },
       "duration": "PT264S"
     }
   ]
@@ -196,7 +195,7 @@ As the top player defending against the Elbow Escape from 3-4 Mount, your object
 
 ![](https://www.youtube.com/watch?v=iS017eyM0eQ)
 
-<p class="clip-credit"><strong>Maintaining mount: preventing the elbow escape</strong> — taught by St. Paul Brazilian Jiu Jitsu · 4:24 · <a href="https://www.youtube.com/watch?v=iS017eyM0eQ" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>maintaining mount - preventing the elbow escape</strong> · 4:24 · <a href="https://www.youtube.com/watch?v=iS017eyM0eQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

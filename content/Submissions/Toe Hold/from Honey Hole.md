@@ -46,24 +46,12 @@ description: "Master the toe hold from Honey Hole in BJJ. Complete finishing gui
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Time Lock from the Honey Hole",
-      "description": "Toe Hold from Honey Hole film study: Time Lock from the Honey Hole, taught by The Muscular Octopus.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Qx4xodJU_9Q/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Qx4xodJU_9Q",
-      "url": "https://www.youtube.com/watch?v=Qx4xodJU_9Q",
-      "creator": { "@type": "Person", "name": "The Muscular Octopus" },
-      "duration": "PT61S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Attacking the Toe Hold from the Saddle",
-      "description": "Toe Hold from Honey Hole film study: Attacking the Toe Hold from the Saddle, taught by Kieran Davern.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/eHl1rNrv_k0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/eHl1rNrv_k0",
-      "url": "https://www.youtube.com/watch?v=eHl1rNrv_k0",
-      "creator": { "@type": "Person", "name": "Kieran Davern" },
-      "duration": "PT232S"
+      "name": "411 to toe hold",
+      "description": "Toe Hold from Honey Hole film study: 411 to toe hold.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/srg8HLCGzHU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/srg8HLCGzHU",
+      "url": "https://www.youtube.com/watch?v=srg8HLCGzHU",
+      "duration": "PT42S"
     }
   ]
 }
@@ -126,17 +114,9 @@ In competition, this technique forces opponents to choose between defending the 
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=Qx4xodJU_9Q)
+![](https://www.youtube.com/watch?v=srg8HLCGzHU)
 
-<p class="clip-credit"><strong>Time Lock from the Honey Hole</strong> — taught by The Muscular Octopus · 1:01 · <a href="https://www.youtube.com/watch?v=Qx4xodJU_9Q" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=eHl1rNrv_k0)
-
-<p class="clip-credit"><strong>Attacking the Toe Hold from the Saddle</strong> — taught by Kieran Davern · 3:52 · <a href="https://www.youtube.com/watch?v=eHl1rNrv_k0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>411 to toe hold</strong> · 0:42 · <a href="https://www.youtube.com/watch?v=srg8HLCGzHU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

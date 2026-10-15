@@ -368,30 +368,25 @@
     "clips": [
       {
         "id": "oyBedW2q0Qo",
-        "title": "Half butterfly sweep from half guard",
-        "by": "StadiumMMA coach",
-        "vertical": false,
+        "title": "half butterfly sweep (Half Guard)",
         "channel": "StadiumMMA",
-        "duration": 30,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "mwXARWfRC0I",
-        "title": "Butterfly sweep from half guard",
-        "by": "Alberto Serrano",
+        "duration": 29,
         "vertical": false,
-        "channel": "Alberto Serrano BJJ",
-        "duration": 73,
-        "verified": "2026-07-15"
+        "front": true
       },
       {
         "id": "hTQ29eG4cqY",
-        "title": "Half guard sit-up to butterfly sweep",
-        "by": "Bjj Picanha coach",
-        "vertical": false,
+        "title": "Half guard   Sit up to butterfly sweep",
         "channel": "Bjj Picanha",
         "duration": 38,
-        "verified": "2026-07-15"
+        "vertical": false
+      },
+      {
+        "id": "mwXARWfRC0I",
+        "title": "Butterfly sweep from halfguard",
+        "channel": "Alberto Serrano BJJ",
+        "duration": 72,
+        "vertical": false
       }
     ]
   },
@@ -556,25 +551,6 @@
         "description": "Positional sparring starting in top butterfly half guard against full resistance. Track sweep defense success rate and develop automatic defensive responses to various sweep setups and attack chains."
       }
     ],
-    "clips": [
-      {
-        "id": "dOdO6xJ-TcU",
-        "title": "Stopping the half guard underhook from top",
-        "by": "Malachy Friedman",
-        "vertical": false,
-        "channel": "Malachy Friedman",
-        "duration": 98,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "9miuP4-v0EE",
-        "title": "Why half butterfly guard is a different passing problem",
-        "by": "John Danaher",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 192,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

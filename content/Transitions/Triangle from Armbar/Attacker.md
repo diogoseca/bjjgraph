@@ -192,35 +192,12 @@ description: "Master the Triangle from Armbar as the attacker. Learn to read arm
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Armbar to omoplata to triangle choke chain",
-      "description": "Triangle from Armbar (Attacker) film study: Armbar to omoplata to triangle choke chain, taught by Carlson Gracie Team CT.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/v83Z1VPihkc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/v83Z1VPihkc",
-      "url": "https://www.youtube.com/watch?v=v83Z1VPihkc",
-      "creator": { "@type": "Person", "name": "Carlson Gracie Team CT" },
-      "duration": "PT68S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Armbar, triangle, omoplata attack chain",
-      "description": "Triangle from Armbar (Attacker) film study: Armbar, triangle, omoplata attack chain, taught by Bushido Academy.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/kBvElUrBJng/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/kBvElUrBJng",
-      "url": "https://www.youtube.com/watch?v=kBvElUrBJng",
-      "creator": { "@type": "Person", "name": "Bushido Academy" },
-      "duration": "PT27S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Triangle off the armbar attempt",
-      "description": "Triangle from Armbar (Attacker) film study: Triangle off the armbar attempt, taught by opdogg20.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/QjdJC4CdfOc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/QjdJC4CdfOc",
-      "url": "https://www.youtube.com/watch?v=QjdJC4CdfOc",
-      "creator": { "@type": "Person", "name": "opdogg20" },
-      "duration": "PT102S"
+      "name": "Triangle Choke Transition off Arm Bar from guard",
+      "description": "Triangle from Armbar (Attacker) film study: Triangle Choke Transition off Arm Bar from guard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6cCiEfzsmNI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6cCiEfzsmNI",
+      "url": "https://www.youtube.com/watch?v=6cCiEfzsmNI",
+      "duration": "PT37S"
     }
   ]
 }
@@ -248,25 +225,9 @@ As the attacker executing the Triangle from Armbar, your objective is to capital
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=v83Z1VPihkc)
+![](https://www.youtube.com/watch?v=6cCiEfzsmNI)
 
-<p class="clip-credit"><strong>Armbar to omoplata to triangle choke chain</strong> — taught by Carlson Gracie Team CT · 1:08 · <a href="https://www.youtube.com/watch?v=v83Z1VPihkc" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=kBvElUrBJng)
-
-<p class="clip-credit"><strong>Armbar, triangle, omoplata attack chain</strong> — taught by Bushido Academy · 0:27 · <a href="https://www.youtube.com/watch?v=kBvElUrBJng" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=QjdJC4CdfOc)
-
-<p class="clip-credit"><strong>Triangle off the armbar attempt</strong> — taught by opdogg20 · 1:42 · <a href="https://www.youtube.com/watch?v=QjdJC4CdfOc" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Triangle Choke Transition off Arm Bar from guard</strong> · 0:37 · <a href="https://www.youtube.com/watch?v=6cCiEfzsmNI" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

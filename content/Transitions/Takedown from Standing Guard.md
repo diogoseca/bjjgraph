@@ -46,35 +46,22 @@ description: "Master the Takedown from Standing Guard in BJJ. Learn level change
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Double Leg Lift to Standing Inside Trip",
-      "description": "Takedown from Standing Guard film study: Double Leg Lift to Standing Inside Trip, taught by Cary Kolat.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/mq7Kdd7r8ro/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/mq7Kdd7r8ro",
-      "url": "https://www.youtube.com/watch?v=mq7Kdd7r8ro",
-      "creator": { "@type": "Person", "name": "Cary Kolat" },
-      "duration": "PT58S"
+      "name": "Best Wrestling Defense Sprawl Technique",
+      "description": "Takedown from Standing Guard film study: Best Wrestling Defense Sprawl Technique.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8AaRLOSM61U/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8AaRLOSM61U",
+      "url": "https://www.youtube.com/watch?v=8AaRLOSM61U",
+      "duration": "PT54S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Snatch double leg takedown",
-      "description": "Takedown from Standing Guard film study: Snatch double leg takedown, taught by Unknown.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/G98oKGgneQ8/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/G98oKGgneQ8",
-      "url": "https://www.youtube.com/watch?v=G98oKGgneQ8",
-      "creator": { "@type": "Person", "name": "Unknown" },
-      "duration": "PT31S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Double Leg Takedown technique",
-      "description": "Takedown from Standing Guard film study: Double Leg Takedown technique, taught by Predators MMA Manchester.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/dhZgpDHCARw/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/dhZgpDHCARw",
-      "url": "https://www.youtube.com/watch?v=dhZgpDHCARw",
-      "creator": { "@type": "Person", "name": "Predators MMA Manchester" },
-      "duration": "PT15S"
+      "name": "How to Sprawl against a Double Leg!",
+      "description": "Takedown from Standing Guard film study: How to Sprawl against a Double Leg!.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Io79xaXZx_c/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Io79xaXZx_c",
+      "url": "https://www.youtube.com/watch?v=Io79xaXZx_c",
+      "duration": "PT56S"
     }
   ]
 }
@@ -128,25 +115,17 @@ Success requires integrating wrestling fundamentals with BJJ-specific tactical a
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=mq7Kdd7r8ro)
+![](https://www.youtube.com/watch?v=8AaRLOSM61U)
 
-<p class="clip-credit"><strong>Double Leg Lift to Standing Inside Trip</strong> — taught by Cary Kolat · 0:58 · <a href="https://www.youtube.com/watch?v=mq7Kdd7r8ro" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=G98oKGgneQ8)
-
-<p class="clip-credit"><strong>Snatch double leg takedown</strong> — taught by Unknown · 0:31 · <a href="https://www.youtube.com/watch?v=G98oKGgneQ8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Best Wrestling Defense Sprawl Technique</strong> · 0:54 · <a href="https://www.youtube.com/watch?v=8AaRLOSM61U" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=dhZgpDHCARw)
+![](https://www.youtube.com/watch?v=Io79xaXZx_c)
 
-<p class="clip-credit"><strong>Double Leg Takedown technique</strong> — taught by Predators MMA Manchester · 0:15 · <a href="https://www.youtube.com/watch?v=dhZgpDHCARw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How to Sprawl against a Double Leg!</strong> · 0:56 · <a href="https://www.youtube.com/watch?v=Io79xaXZx_c" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

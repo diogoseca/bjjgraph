@@ -161,35 +161,12 @@ description: "How to defend against Fireman's Carry in BJJ. Recognition cues, de
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "How to defend a fireman\u0027s carry",
-      "description": "Fireman\u0027s Carry (Defender) film study: How to defend a fireman\u0027s carry, taught by WrestlingTournaments.com.",
+      "name": "The Syracuse, a sneaky trap, and how to defend a fireman\u0027s carry!",
+      "description": "Fireman\u0027s Carry (Defender) film study: The Syracuse, a sneaky trap, and how to defend a fireman\u0027s carry!.",
       "thumbnailUrl": "https://i.ytimg.com/vi/xbol7GnN63I/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/xbol7GnN63I",
       "url": "https://www.youtube.com/watch?v=xbol7GnN63I",
-      "creator": { "@type": "Person", "name": "WrestlingTournaments.com" },
-      "duration": "PT195S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Kata Guruma Counter from Arm Drag",
-      "description": "Fireman\u0027s Carry (Defender) film study: Kata Guruma Counter from Arm Drag, taught by BeyondGrappling.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/SCYIDL5lUr0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/SCYIDL5lUr0",
-      "url": "https://www.youtube.com/watch?v=SCYIDL5lUr0",
-      "creator": { "@type": "Person", "name": "BeyondGrappling" },
-      "duration": "PT41S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Judo Throw Counter-Attacks",
-      "description": "Fireman\u0027s Carry (Defender) film study: Judo Throw Counter-Attacks, taught by Shintaro Higashi.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/C7HnA1zd5Rs/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/C7HnA1zd5Rs",
-      "url": "https://www.youtube.com/watch?v=C7HnA1zd5Rs",
-      "creator": { "@type": "Person", "name": "Shintaro Higashi" },
-      "duration": "PT161S"
+      "duration": "PT194S"
     }
   ]
 }
@@ -222,23 +199,7 @@ Defending the Fireman's Carry requires understanding the technique's sequential 
 
 ![](https://www.youtube.com/watch?v=xbol7GnN63I)
 
-<p class="clip-credit"><strong>How to defend a fireman&#39;s carry</strong> — taught by WrestlingTournaments.com · 3:15 · <a href="https://www.youtube.com/watch?v=xbol7GnN63I" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=SCYIDL5lUr0)
-
-<p class="clip-credit"><strong>Kata Guruma Counter from Arm Drag</strong> — taught by BeyondGrappling · 0:41 · <a href="https://www.youtube.com/watch?v=SCYIDL5lUr0" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=C7HnA1zd5Rs)
-
-<p class="clip-credit"><strong>Judo Throw Counter-Attacks</strong> — taught by Shintaro Higashi · 2:41 · <a href="https://www.youtube.com/watch?v=C7HnA1zd5Rs" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>The Syracuse, a sneaky trap, and how to defend a fireman&#39;s carry!</strong> · 3:14 · <a href="https://www.youtube.com/watch?v=xbol7GnN63I" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

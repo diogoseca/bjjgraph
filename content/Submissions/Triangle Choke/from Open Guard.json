@@ -426,35 +426,7 @@
         "answer_line": "Kill rotation or ride to omoplata"
       }
     ],
-    "clips": [
-      {
-        "id": "4TSu2ySVQk4",
-        "title": "Triangle Choke from Collar Sleeve Open Guard",
-        "by": "Josh Presley",
-        "vertical": false,
-        "channel": "Josh Presley",
-        "duration": 150,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "yQVALraYswM",
-        "title": "Triangle setup from Z guard",
-        "by": "Danny Brown",
-        "vertical": false,
-        "channel": "UNC_CynX",
-        "duration": 331,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "UGp6VzbkReA",
-        "title": "Triangle choke complete guide and key details",
-        "by": "Jon Thomas",
-        "vertical": false,
-        "channel": "JonThomasBJJ",
-        "duration": 735,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "from Open Guard Defender",
@@ -634,34 +606,6 @@
         "description": "Start from locked triangle position with partner applying progressive pressure. Practice posture recovery, stack escapes, and turning escapes at increasing resistance levels. Progress to converting successful escapes into immediate passing sequences to side control. Full-speed positional rounds with triangle as the starting position."
       }
     ],
-    "clips": [
-      {
-        "id": "XE7KCUjLpqg",
-        "title": "Triangle Escape to Side Control",
-        "by": "Valdir Rodrigues",
-        "vertical": false,
-        "channel": "Evolve Mixed Martial Arts",
-        "duration": 72,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "DLmrzSs1hWI",
-        "title": "Triangle Defense / Escape",
-        "by": "Daniel Frank",
-        "vertical": false,
-        "channel": "Daniel Frank",
-        "duration": 24,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "Z-CsRn4K0vg",
-        "title": "Escaping Triangles vs Big Opponents",
-        "by": "John Danaher",
-        "vertical": false,
-        "channel": "Dohn Janaher ",
-        "duration": 48,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   }
 }

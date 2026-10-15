@@ -399,29 +399,17 @@
       {
         "id": "vcO2z_awL5k",
         "title": "Williams guard sweep variations",
-        "by": "UFAI Grappling",
-        "vertical": false,
         "channel": "UFAI GRAPPLING",
         "duration": 36,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "Mfw8-mXM_JY",
-        "title": "Williams guard shoulder pin options",
-        "by": "Cross Fight",
         "vertical": false,
-        "channel": "Cross Fight ",
-        "duration": 38,
-        "verified": "2026-07-15"
+        "front": true
       },
       {
         "id": "RQjhLboSn34",
-        "title": "Williams guard money sweep from closed guard",
-        "by": "Ralph Gracie BJJ",
-        "vertical": false,
+        "title": "Closed Guard Attacks / Williams Guard / Money Sweep",
         "channel": "Ralph Gracie BJJ - San Jose & Santa Clara",
         "duration": 129,
-        "verified": "2026-07-15"
+        "vertical": false
       }
     ]
   },
@@ -599,25 +587,6 @@
         "description": "Positional sparring starting in Williams Guard. Partner works full offensive system including sweep, shoulder lock, and alternative attacks. Defender works to survive, extract arm, and pass guard. Three-minute rounds with alternating roles. Track defensive success rate and identify recurring failure patterns."
       }
     ],
-    "clips": [
-      {
-        "id": "NZEf9jXzCYA",
-        "title": "Williams guard cartwheel escape counter",
-        "by": "Sam Wilkinson",
-        "vertical": false,
-        "channel": "Sam Wilkinson MMA",
-        "duration": 80,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "kNfVYhZbgrg",
-        "title": "Four levels of sweep defense",
-        "by": "Wim Deputter",
-        "vertical": false,
-        "channel": "Wim Deputter BJJ",
-        "duration": 87,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

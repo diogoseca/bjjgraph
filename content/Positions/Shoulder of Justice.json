@@ -873,35 +873,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "4L25UQntnPg",
-        "title": "Side Control Escape: Reverse Hip Escape",
-        "by": "Fox Den Martial Arts",
-        "vertical": false,
-        "channel": "Fox Den Martial Arts",
-        "duration": 25,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "Zw_QEoWDvcw",
-        "title": "Bump 'n Roll Side Control Escape",
-        "by": "PIOT",
-        "vertical": false,
-        "channel": "PIOT",
-        "duration": 82,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "-Jib9G-LM-M",
-        "title": "Shoulder Crunch Side Control Escape",
-        "by": "Cauliflower Ear Family",
-        "vertical": false,
-        "channel": "Cauliflower Ear Family",
-        "duration": 188,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   },
   "flashcards_position": [
     {

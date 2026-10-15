@@ -36,28 +36,6 @@ description: "Master Gift Wrap Arm Recovery in BJJ. Step-by-step escape from tra
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Gift Wrap Arm Recovery \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "The Gift Wrap in 2 Minutes - No Gi",
-      "description": "Gift Wrap Arm Recovery film study: The Gift Wrap in 2 Minutes - No Gi, taught by Brian Glick.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/5bw7poxVJ1E/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/5bw7poxVJ1E",
-      "url": "https://www.youtube.com/watch?v=5bw7poxVJ1E",
-      "creator": { "@type": "Person", "name": "Brian Glick" },
-      "duration": "PT112S"
-    }
-  ]
-}
-</script>
-
 
 
 <script type="application/ld+json">
@@ -96,24 +74,6 @@ Strategically, Gift Wrap Arm Recovery represents the critical first step in any 
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Gift Wrap Arm Recovery in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=5bw7poxVJ1E)
-
-<p class="clip-credit"><strong>The Gift Wrap in 2 Minutes - No Gi</strong> — taught by Brian Glick · 1:52 · <a href="https://www.youtube.com/watch?v=5bw7poxVJ1E" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="possible-outcomes" class="content-section">

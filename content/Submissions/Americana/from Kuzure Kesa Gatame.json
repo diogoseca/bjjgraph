@@ -452,26 +452,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "SkFE9CBKvsA",
-        "title": "Modified Americana Grip",
-        "by": "BJJ After Forty",
-        "vertical": false,
-        "channel": "BJJ After Forty",
-        "duration": 61,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "iGVWSwxKCII",
-        "title": "One Handed Americana/Keylock",
-        "by": "Mastermind Martial Arts",
-        "vertical": false,
-        "channel": "Mastermind Martial Arts",
-        "duration": 141,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "from Kuzure Kesa Gatame Defender",
@@ -642,25 +623,6 @@
         "description": "Two-minute rounds starting in Kuzure Kesa Gatame bottom against 80-100% resistance. Goal is to defend all submission attempts and escape to guard or standing within the time limit. Track success rate across rounds to measure defensive improvement. Builds the composure, timing, and technical precision needed for real training and competition scenarios."
       }
     ],
-    "clips": [
-      {
-        "id": "fvp5_BVEtLg",
-        "title": "Kesa Gatame Pressure Defense Using Framing",
-        "by": "Kohbukan Sisu",
-        "vertical": false,
-        "channel": "Kohbukan Sisu",
-        "duration": 84,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "2okf5X17jeg",
-        "title": "Kesa Gatame Scarf Hold Escape",
-        "by": "Bruce Fowler",
-        "vertical": false,
-        "channel": "Renzo Gracie Jiu Jitsu DFW",
-        "duration": 230,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   }
 }

@@ -36,39 +36,6 @@ description: "Master the Technical Mount to S Mount transition in BJJ. Learn per
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Technical Mount to S Mount \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "S-mount troubleshooting, no-gi",
-      "description": "Technical Mount to S Mount film study: S-mount troubleshooting, no-gi, taught by ZombieProofBJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/2Xm_mLp8xwk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/2Xm_mLp8xwk",
-      "url": "https://www.youtube.com/watch?v=2Xm_mLp8xwk",
-      "creator": { "@type": "Person", "name": "ZombieProofBJJ" },
-      "duration": "PT67S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Switch side armbar from S-mount",
-      "description": "Technical Mount to S Mount film study: Switch side armbar from S-mount, taught by Darrin Lillian.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/5UtNLw7usQk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/5UtNLw7usQk",
-      "url": "https://www.youtube.com/watch?v=5UtNLw7usQk",
-      "creator": { "@type": "Person", "name": "Darrin Lillian" },
-      "duration": "PT50S"
-    }
-  ]
-}
-</script>
-
 
 
 <script type="application/ld+json">
@@ -107,32 +74,6 @@ This transition functions as the bridge between mount control and submission fin
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Technical Mount to S Mount in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=2Xm_mLp8xwk)
-
-<p class="clip-credit"><strong>S-mount troubleshooting, no-gi</strong> — taught by ZombieProofBJJ · 1:07 · <a href="https://www.youtube.com/watch?v=2Xm_mLp8xwk" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=5UtNLw7usQk)
-
-<p class="clip-credit"><strong>Switch side armbar from S-mount</strong> — taught by Darrin Lillian · 0:50 · <a href="https://www.youtube.com/watch?v=5UtNLw7usQk" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="possible-outcomes" class="content-section">

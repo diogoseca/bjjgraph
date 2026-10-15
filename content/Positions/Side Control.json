@@ -464,35 +464,7 @@
       },
       "average_time": "1-3 minutes for controlled work, 10-30 seconds for dynamic transitions"
     },
-    "clips": [
-      {
-        "id": "WuSBXB22-1Q",
-        "title": "Side Control Top Danger Control",
-        "by": "Craig Jones",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 156,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "mt7SMNzP4Ak",
-        "title": "Buggy Choke From Top Side Control",
-        "by": "azigarami",
-        "vertical": false,
-        "channel": "azigarami",
-        "duration": 91,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "onIP1GC3Daw",
-        "title": "Top 3 Submissions From Side Control",
-        "by": "Marcus Buchecha Almeida",
-        "vertical": false,
-        "channel": "Marcus ‘Buchecha’ Almeida",
-        "duration": 296,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   },
   "bottom": {
     "name": "Side Control Bottom",

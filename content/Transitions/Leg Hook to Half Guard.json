@@ -367,35 +367,7 @@
       }
     ],
     "safety_considerations": "This transition is generally low-risk from a safety perspective as it involves positional consolidation rather than joint manipulation or choking mechanics. The primary safety concern is knee stress on both practitioners during the leg repositioning phase—avoid twisting or torquing the hooked leg during extraction. Communicate with training partners if knee discomfort occurs during the entanglement transition. During drilling, perform the transition at controlled speed to develop proper mechanics before increasing intensity.",
-    "clips": [
-      {
-        "id": "74Vp0Fz4cNo",
-        "title": "Connecting to half guard with the leg hook",
-        "by": "Bernardo Faria",
-        "vertical": false,
-        "channel": "BIG OSS Jiu-Jitsu Channel",
-        "duration": 294,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "R4-4wiHam98",
-        "title": "Simple and effective side control escape to half guard",
-        "by": "Gordon Ryan",
-        "vertical": false,
-        "channel": "Gordon Ryan",
-        "duration": 322,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "PARsvWFmssI",
-        "title": "Chaining escapes from bottom pin",
-        "by": "Gordon Ryan",
-        "vertical": false,
-        "channel": "Gordon Ryan",
-        "duration": 273,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Leg Hook to Half Guard Defender",
@@ -558,34 +530,6 @@
         "description": "Positional sparring starting from Leg Hook Bottom. Both players operate at full intensity with the top player choosing when and how to consolidate. Bottom player practices recognizing and countering in a fully resistant environment. Track success rates for each counter option."
       }
     ],
-    "clips": [
-      {
-        "id": "-49CypLW9aM",
-        "title": "Breaking the half guard leg hook",
-        "by": "Superhero Jiu Jitsu Academy",
-        "vertical": false,
-        "channel": "Superhero Jiu Jitsu Academy ",
-        "duration": 61,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "hBsDFnfwieY",
-        "title": "Passing half guard even against the underhook",
-        "by": "Jon Thomas",
-        "vertical": false,
-        "channel": "JonThomasBJJ Plus",
-        "duration": 246,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "GYq1cv9mCdg",
-        "title": "How to pass half guard fundamentals",
-        "by": "Jordan Preisinger",
-        "vertical": false,
-        "channel": "Jordan Teaches Jiujitsu",
-        "duration": 426,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

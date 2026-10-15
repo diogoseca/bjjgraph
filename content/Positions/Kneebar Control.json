@@ -452,35 +452,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "vMqDIi10z4k",
-        "title": "Dog Bar Kneebar",
-        "by": "Craig Jones",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 61,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "-HT8Vfiq5Pk",
-        "title": "Top Half Guard Toe Hold to Kneebar",
-        "by": "Eliot Marshall",
-        "vertical": false,
-        "channel": "Eliot Marshall",
-        "duration": 67,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "v4lhLkKgVvU",
-        "title": "Go Behind Kneebar",
-        "by": "Craig Jones",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 129,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   },
   "bottom": {
     "name": "Kneebar Control Bottom",
@@ -885,35 +857,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "DBbSqQf6iCo",
-        "title": "Roll Under to Backside 50/50",
-        "by": "Lachlan Giles",
-        "vertical": false,
-        "channel": "BJJ focus camps",
-        "duration": 110,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "ucAwPgTLSpQ",
-        "title": "Getting to Backside 50/50",
-        "by": "Lachlan Giles",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 121,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "ih_7aXNM6UU",
-        "title": "Knee Bar from Deep Half Guard",
-        "by": "Miles Moudy",
-        "vertical": false,
-        "channel": "LegLock Assassins",
-        "duration": 25,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   },
   "flashcards_position": [
     {
@@ -1029,33 +973,5 @@
       }
     }
   ],
-  "clips": [
-    {
-      "id": "K5XhO7o5QN0",
-      "title": "Saddle Entries from Guard",
-      "by": "Lachlan Giles",
-      "vertical": false,
-      "channel": "BJJ Fanatics",
-      "duration": 66,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "12rNXPlqVXo",
-      "title": "No-Gi Kneebar Technique",
-      "by": "Jiu Jitsu Matrix",
-      "vertical": false,
-      "channel": "FreeChannelOpen",
-      "duration": 20,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "zkBeVUL0YxY",
-      "title": "Several Sneaky Kneebars",
-      "by": "Coach Brian",
-      "vertical": false,
-      "channel": "TeachMeGrappling Coach Brian",
-      "duration": 147,
-      "verified": "2026-07-14"
-    }
-  ]
+  "clips": []
 }

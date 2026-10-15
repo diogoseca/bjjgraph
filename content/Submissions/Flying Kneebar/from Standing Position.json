@@ -524,20 +524,10 @@
       {
         "id": "IuBrliVbU24",
         "title": "3 Steps to a Flying Kneebar",
-        "by": "Bermuda Martial Arts",
-        "vertical": false,
         "channel": "Bermuda Martial Arts",
-        "duration": 25,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "l9qAHPNbCfM",
-        "title": "Flying Kneebar Attack",
-        "by": "High Rollerz",
+        "duration": 24,
         "vertical": false,
-        "channel": "High Rollerz Jiu Jitsu 💨🥋",
-        "duration": 16,
-        "verified": "2026-07-14"
+        "front": true
       }
     ]
   },
@@ -720,26 +710,7 @@
         "description": "Full positional sparring where attacker attempts flying kneebar from standing against active defender. Start at 60% intensity and build to 80%. Defender practices the complete defensive sequence: recognition, stance change, and if caught, immediate escape attempts with correct rotation and knee bend. Critically, practice recognizing when escape has failed and tapping early - drill the tap decision as a positive defensive skill rather than a failure. Track recognition rate, escape rate, and appropriate tap timing across sessions."
       }
     ],
-    "clips": [
-      {
-        "id": "wBRG0fY94fs",
-        "title": "How to Defend a Kneebar",
-        "by": "Revolution BJJ",
-        "vertical": false,
-        "channel": "Revolution BJJ",
-        "duration": 59,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "NuWBh3LN-SY",
-        "title": "Kneebar Defense to Back Take",
-        "by": "Bicudo BJJ",
-        "vertical": false,
-        "channel": "Bicudo BJJ",
-        "duration": 22,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   },
   "variations_and_setups": [
     {

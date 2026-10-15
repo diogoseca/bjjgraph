@@ -429,31 +429,11 @@
     ],
     "clips": [
       {
-        "id": "Kx8gZ3QdO8s",
-        "title": "Crossover Toe Hold",
-        "by": "Craig Jones",
-        "vertical": false,
-        "channel": "Bence Romanek",
-        "duration": 51,
-        "verified": "2026-07-14"
-      },
-      {
         "id": "tUKGafnOlJo",
         "title": "Slide into Ashi to Straight Toe Hold",
-        "by": "Josh Leduc",
-        "vertical": false,
         "channel": "Josh Star-Lord Leduc",
         "duration": 58,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "o-xpj81VZzE",
-        "title": "Brutal toe hold from single leg X",
-        "by": "Jeff Messina",
-        "vertical": false,
-        "channel": "JEFF MESSINA JIU-JITSU and MAN STUFF",
-        "duration": 93,
-        "verified": "2026-07-14"
+        "vertical": false
       }
     ]
   },
@@ -642,34 +622,6 @@
         "description": "Full-speed positional sparring from bottom Ashi Garami where the top player actively hunts for toe hold opportunities. Practice maintaining offensive advancement momentum while keeping your hooking foot protected. Develop the split attention required to advance your own position while monitoring and defending the top player's counter-offensive opportunities."
       }
     ],
-    "clips": [
-      {
-        "id": "3a9k8-ZcYrk",
-        "title": "How to escape the toe hold",
-        "by": "Gordon Ryan",
-        "vertical": false,
-        "channel": "The King Life",
-        "duration": 106,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "QMgsMSTRSBI",
-        "title": "5 Leglock Counters to Ashi Garami",
-        "by": "BJJBlackBeltDad",
-        "vertical": false,
-        "channel": "BJJBlackBeltDad",
-        "duration": 93,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "L417yCl_-dc",
-        "title": "Leg Defense from Ashi Garami",
-        "by": "The Coop BJJ",
-        "vertical": false,
-        "channel": "The Coop BJJ",
-        "duration": 48,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   }
 }

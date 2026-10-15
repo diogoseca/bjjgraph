@@ -165,35 +165,12 @@ description: "Master Omoplata Control Bottom in BJJ. Complete guide covering sho
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Mount escape into an omoplata",
-      "description": "Omoplata Control (Bottom) film study: Mount escape into an omoplata, taught by Clark Gracie.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/pgIEqjw9ovs/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/pgIEqjw9ovs",
-      "url": "https://www.youtube.com/watch?v=pgIEqjw9ovs",
-      "creator": { "@type": "Person", "name": "Clark Gracie" },
-      "duration": "PT31S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Omoplata technique breakdown",
-      "description": "Omoplata Control (Bottom) film study: Omoplata technique breakdown, taught by Clark Gracie.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/oQAP8nARiHU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/oQAP8nARiHU",
-      "url": "https://www.youtube.com/watch?v=oQAP8nARiHU",
-      "creator": { "@type": "Person", "name": "Clark Gracie" },
-      "duration": "PT100S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Spinning omoplata setup",
-      "description": "Omoplata Control (Bottom) film study: Spinning omoplata setup, taught by Clark Gracie.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/HCuRfqaM0tM/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/HCuRfqaM0tM",
-      "url": "https://www.youtube.com/watch?v=HCuRfqaM0tM",
-      "creator": { "@type": "Person", "name": "Clark Gracie" },
-      "duration": "PT96S"
+      "name": "Cross-Sleeve Modified Omoplata Control",
+      "description": "Omoplata Control (Bottom) film study: Cross-Sleeve Modified Omoplata Control.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_AkYtTIWWCU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_AkYtTIWWCU",
+      "url": "https://www.youtube.com/watch?v=_AkYtTIWWCU",
+      "duration": "PT280S"
     }
   ]
 }
@@ -219,25 +196,9 @@ Omoplata Control Bottom represents the offensive application of this position wh
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=pgIEqjw9ovs)
+![](https://www.youtube.com/watch?v=_AkYtTIWWCU)
 
-<p class="clip-credit"><strong>Mount escape into an omoplata</strong> — taught by Clark Gracie · 0:31 · <a href="https://www.youtube.com/watch?v=pgIEqjw9ovs" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=oQAP8nARiHU)
-
-<p class="clip-credit"><strong>Omoplata technique breakdown</strong> — taught by Clark Gracie · 1:40 · <a href="https://www.youtube.com/watch?v=oQAP8nARiHU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=HCuRfqaM0tM)
-
-<p class="clip-credit"><strong>Spinning omoplata setup</strong> — taught by Clark Gracie · 1:36 · <a href="https://www.youtube.com/watch?v=HCuRfqaM0tM" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Cross-Sleeve Modified Omoplata Control</strong> · 4:40 · <a href="https://www.youtube.com/watch?v=_AkYtTIWWCU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

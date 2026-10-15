@@ -170,46 +170,12 @@ description: "How to defend against Kimura from Half Guard in BJJ. Recognition, 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Counter Kimura from Half Guard",
-      "description": "Kimura from Half Guard (Defender) film study: Counter Kimura from Half Guard, taught by Troy Manning.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/_JzYqwuH-Q0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/_JzYqwuH-Q0",
-      "url": "https://www.youtube.com/watch?v=_JzYqwuH-Q0",
-      "creator": { "@type": "Person", "name": "Troy Manning" },
-      "duration": "PT51S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Kimura Defense Grip Breaks",
-      "description": "Kimura from Half Guard (Defender) film study: Kimura Defense Grip Breaks, taught by Dirtball BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/GOLwVNTVcnY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/GOLwVNTVcnY",
-      "url": "https://www.youtube.com/watch?v=GOLwVNTVcnY",
-      "creator": { "@type": "Person", "name": "Dirtball BJJ" },
-      "duration": "PT81S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Kimura Counter from Top Half Guard",
-      "description": "Kimura from Half Guard (Defender) film study: Kimura Counter from Top Half Guard, taught by Revolution BJJ.",
+      "name": "Kimura Counter From Top Half Guard To Armlock",
+      "description": "Kimura from Half Guard (Defender) film study: Kimura Counter From Top Half Guard To Armlock.",
       "thumbnailUrl": "https://i.ytimg.com/vi/urKU1BKZNXA/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/urKU1BKZNXA",
       "url": "https://www.youtube.com/watch?v=urKU1BKZNXA",
-      "creator": { "@type": "Person", "name": "Revolution BJJ" },
-      "duration": "PT53S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 4,
-      "name": "Escaping and preventing the half guard kimura",
-      "description": "Kimura from Half Guard (Defender) film study: Escaping and preventing the half guard kimura, taught by Kieran Davern.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/7dU6lsfyowU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/7dU6lsfyowU",
-      "url": "https://www.youtube.com/watch?v=7dU6lsfyowU",
-      "creator": { "@type": "Person", "name": "Kieran Davern" },
-      "duration": "PT259S"
+      "duration": "PT52S"
     }
   ]
 }
@@ -238,33 +204,9 @@ Defending the **Kimura from Half Guard** requires early recognition, disciplined
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=_JzYqwuH-Q0)
-
-<p class="clip-credit"><strong>Counter Kimura from Half Guard</strong> — taught by Troy Manning · 0:51 · <a href="https://www.youtube.com/watch?v=_JzYqwuH-Q0" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=GOLwVNTVcnY)
-
-<p class="clip-credit"><strong>Kimura Defense Grip Breaks</strong> — taught by Dirtball BJJ · 1:21 · <a href="https://www.youtube.com/watch?v=GOLwVNTVcnY" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=urKU1BKZNXA)
 
-<p class="clip-credit"><strong>Kimura Counter from Top Half Guard</strong> — taught by Revolution BJJ · 0:53 · <a href="https://www.youtube.com/watch?v=urKU1BKZNXA" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=7dU6lsfyowU)
-
-<p class="clip-credit"><strong>Escaping and preventing the half guard kimura</strong> — taught by Kieran Davern · 4:19 · <a href="https://www.youtube.com/watch?v=7dU6lsfyowU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Kimura Counter From Top Half Guard To Armlock</strong> · 0:52 · <a href="https://www.youtube.com/watch?v=urKU1BKZNXA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

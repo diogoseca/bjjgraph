@@ -437,35 +437,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "ljmJ9xP6N7U",
-        "title": "Overhook Guard to Reverse Triangle + Kimura",
-        "by": "ZeGrapplez",
-        "vertical": false,
-        "channel": "ZeGrapplez",
-        "duration": 45,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "K0KgzQpfIpY",
-        "title": "No-gi attacks using kimura grip control",
-        "by": "Jean Jacques Machado",
-        "vertical": false,
-        "channel": "JeanJacquesMachado",
-        "duration": 187,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "wog63kLcl6I",
-        "title": "Attacking options from overhook control",
-        "by": "Jean Jacques Machado",
-        "vertical": false,
-        "channel": "JeanJacquesMachado",
-        "duration": 233,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "from Overhook Control Defender",
@@ -651,34 +623,6 @@
         "description": "Start positional rounds in overhook control bottom. Defend the full attack sequence including chains to Darce, Anaconda, and back takes. Practice making defensive decisions in real time against fully resisting partners. Track which defensive responses work most consistently and refine your primary defense."
       }
     ],
-    "clips": [
-      {
-        "id": "GOLwVNTVcnY",
-        "title": "Kimura Defense Grip Breaks",
-        "by": "Dirtball BJJ",
-        "vertical": false,
-        "channel": "Dirtball BJJ",
-        "duration": 81,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "uRn3DRICpeY",
-        "title": "Late Kimura Defense from Bottom",
-        "by": "Fox Den Martial Arts",
-        "vertical": false,
-        "channel": "Fox Den Martial Arts",
-        "duration": 100,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "gvRGrvtKd1U",
-        "title": "Kimura Defense",
-        "by": "Jon Satava",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 142,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   }
 }

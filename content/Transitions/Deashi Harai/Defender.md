@@ -160,35 +160,12 @@ description: "How to defend against Deashi Harai in BJJ. Recognition cues, defen
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "De ashi barai counter",
-      "description": "Deashi Harai (Defender) film study: De ashi barai counter, taught by FL Jiu Jitsu Studies coach.",
+      "name": "De Ashi Barai  counter",
+      "description": "Deashi Harai (Defender) film study: De Ashi Barai  counter.",
       "thumbnailUrl": "https://i.ytimg.com/vi/klXnE1xnfKI/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/klXnE1xnfKI",
       "url": "https://www.youtube.com/watch?v=klXnE1xnfKI",
-      "creator": { "@type": "Person", "name": "FL Jiu Jitsu Studies coach" },
       "duration": "PT12S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "How Not to Get Thrown in Judo",
-      "description": "Deashi Harai (Defender) film study: How Not to Get Thrown in Judo, taught by Shintaro Higashi.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/KkJv2CefDDU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/KkJv2CefDDU",
-      "url": "https://www.youtube.com/watch?v=KkJv2CefDDU",
-      "creator": { "@type": "Person", "name": "Shintaro Higashi" },
-      "duration": "PT233S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Judo Throw Counter-Attacks",
-      "description": "Deashi Harai (Defender) film study: Judo Throw Counter-Attacks, taught by Shintaro Higashi.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/C7HnA1zd5Rs/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/C7HnA1zd5Rs",
-      "url": "https://www.youtube.com/watch?v=C7HnA1zd5Rs",
-      "creator": { "@type": "Person", "name": "Shintaro Higashi" },
-      "duration": "PT161S"
     }
   ]
 }
@@ -222,23 +199,7 @@ For experienced practitioners, Deashi Harai defense also involves understanding 
 
 ![](https://www.youtube.com/watch?v=klXnE1xnfKI)
 
-<p class="clip-credit"><strong>De ashi barai counter</strong> — taught by FL Jiu Jitsu Studies coach · 0:12 · <a href="https://www.youtube.com/watch?v=klXnE1xnfKI" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=KkJv2CefDDU)
-
-<p class="clip-credit"><strong>How Not to Get Thrown in Judo</strong> — taught by Shintaro Higashi · 3:53 · <a href="https://www.youtube.com/watch?v=KkJv2CefDDU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=C7HnA1zd5Rs)
-
-<p class="clip-credit"><strong>Judo Throw Counter-Attacks</strong> — taught by Shintaro Higashi · 2:41 · <a href="https://www.youtube.com/watch?v=C7HnA1zd5Rs" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>De Ashi Barai  counter</strong> · 0:12 · <a href="https://www.youtube.com/watch?v=klXnE1xnfKI" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

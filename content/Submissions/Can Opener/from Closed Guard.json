@@ -494,26 +494,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "_-NGlUCnHy0",
-        "title": "How to Do a Can Opener",
-        "by": "MMA Submissions",
-        "vertical": false,
-        "channel": "thuật võ",
-        "duration": 126,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "FGPGkKnY_Mg",
-        "title": "Can Opener Cervical Choke",
-        "by": "Marcus Soares",
-        "vertical": false,
-        "channel": "Marcus Soares Brazilian Jiu Jitsu Academy",
-        "duration": 73,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Can Opener Defender",
@@ -708,31 +689,12 @@
     ],
     "clips": [
       {
-        "id": "AaG3yEVcR74",
-        "title": "Defending the can opener from closed guard",
-        "by": "Jean Jacques Machado",
-        "vertical": false,
-        "channel": "JeanJacquesMachado",
-        "duration": 93,
-        "verified": "2026-07-15"
-      },
-      {
         "id": "WKT2yF6R3Fs",
         "title": "Can opener escape",
-        "by": "Animal",
-        "vertical": false,
         "channel": "Animal",
         "duration": 57,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "fKA4O_RlXzk",
-        "title": "Can opener counter with omoplata",
-        "by": "The Grappling Bloke",
         "vertical": false,
-        "channel": "The Grappling Bloke",
-        "duration": 91,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },

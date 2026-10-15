@@ -144,39 +144,6 @@ description: "Defend against the turn into opponent escape from back control. Re
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Turn into Opponent from Back (Defender) \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Why you keep losing back control",
-      "description": "Turn into Opponent from Back (Defender) film study: Why you keep losing back control, taught by Brandon McCaghren.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/lpgcKpIgClw/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/lpgcKpIgClw",
-      "url": "https://www.youtube.com/watch?v=lpgcKpIgClw",
-      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
-      "duration": "PT143S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "StraitJacket system: left-right control to stop the turn",
-      "description": "Turn into Opponent from Back (Defender) film study: StraitJacket system: left-right control to stop the turn, taught by John Danaher.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/BIeMBPBGb_k/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/BIeMBPBGb_k",
-      "url": "https://www.youtube.com/watch?v=BIeMBPBGb_k",
-      "creator": { "@type": "Person", "name": "John Danaher" },
-      "duration": "PT446S"
-    }
-  ]
-}
-</script>
-
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -189,32 +156,6 @@ Defending against the turn into opponent escape requires maintaining all three l
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Turn into Opponent from Back (Defender) in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=lpgcKpIgClw)
-
-<p class="clip-credit"><strong>Why you keep losing back control</strong> — taught by Brandon McCaghren · 2:23 · <a href="https://www.youtube.com/watch?v=lpgcKpIgClw" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=BIeMBPBGb_k)
-
-<p class="clip-credit"><strong>StraitJacket system: left-right control to stop the turn</strong> — taught by John Danaher · 7:26 · <a href="https://www.youtube.com/watch?v=BIeMBPBGb_k" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="recognition-cues" class="content-section">

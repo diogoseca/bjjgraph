@@ -425,35 +425,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "i9rAyo8tRZw",
-        "title": "Hindulotine Breakdown",
-        "by": "Cordesgains BJJ",
-        "vertical": false,
-        "channel": "CordesgainsBJJ",
-        "duration": 87,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "YbOV4vESByc",
-        "title": "Hindulotine Submission Breakdown",
-        "by": "Ben Eddy",
-        "vertical": false,
-        "channel": "Control Jiu JItsu",
-        "duration": 97,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "NqAXUtNqYLk",
-        "title": "Two Hindulotines From ADCC Trials",
-        "by": "Ben Eddy",
-        "vertical": false,
-        "channel": "Ben Eddy Bravo",
-        "duration": 85,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   },
   "bottom": {
     "overview": "From the bottom perspective, the Hindulotine position represents an offensive attacking opportunity where you have secured a guillotine grip on your opponent while using your body position to create rotational pressure on their neck. This bottom perspective typically occurs when you've pulled guard or been taken down while maintaining head control, allowing you to establish the choke from your back with your legs either in closed guard, butterfly guard, or configured to control your opponent's hips.\n\nThe bottom Hindulotine differs from standard guard-based guillotines in the angle and mechanics of the finish. Rather than simply pulling your opponent's head down toward your chest, you create a perpendicular or angular hip position that generates torque on the neck. Your legs play a crucial role in preventing your opponent from posturing up or circling to relieve pressure, while your grip creates the direct choking force.\n\nFrom bottom Hindulotine, your primary goal is to finish the submission through precise angle adjustments and grip optimization. However, this position also offers excellent control that can be maintained while you adjust your attack or transition to other submissions. The key challenge from bottom is preventing your opponent from using their weight and pressure to flatten you out while maintaining the tight grip necessary for the choke.\n\nSuccess from bottom Hindulotine requires understanding the interplay between your grip, your hip angle, and your leg configuration. Beginners often make the mistake of trying to muscle the submission using arm strength alone, while advanced practitioners understand that small adjustments in body position can dramatically increase pressure. The bottom perspective also requires awareness of your opponent's passing attempts, as giving up the position while loosening your grip eliminates your attacking opportunity entirely.",
@@ -832,35 +804,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "8okq4cIHMO0",
-        "title": "Standing Guillotine Escape",
-        "by": "dogtownman",
-        "vertical": false,
-        "channel": "dogtownman",
-        "duration": 44,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "b5IOgmCdULw",
-        "title": "Rubber guard attack: the Hindulotine breakdown",
-        "by": "Brandon McCaghren",
-        "vertical": false,
-        "channel": "Brandon Mccaghren",
-        "duration": 239,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "Y5ZQNgG2hNc",
-        "title": "Hindu control to Hindulotine instructional",
-        "by": "Ben Eddy",
-        "vertical": false,
-        "channel": "Ben Eddy Bravo",
-        "duration": 566,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "flashcards_position": [
     {
@@ -976,24 +920,5 @@
       }
     }
   ],
-  "clips": [
-    {
-      "id": "h1XzZDsUxHQ",
-      "title": "Eddie Bravo Explains Rubber Guard",
-      "by": "Eddie Bravo",
-      "vertical": false,
-      "channel": "JAN FERNANDEZ ",
-      "duration": 111,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "58q16MnT8pM",
-      "title": "Hindulotine: Rubber Guard Guillotine",
-      "by": "Ben Eddy",
-      "vertical": false,
-      "channel": "BJJ Trickster",
-      "duration": 264,
-      "verified": "2026-07-14"
-    }
-  ]
+  "clips": []
 }

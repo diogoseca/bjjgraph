@@ -150,28 +150,6 @@ description: "How to defend against Seat Belt Control Back in BJJ. Recognition c
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Seat Belt Control Back (Defender) \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Quick fix for the seatbelt grip",
-      "description": "Seat Belt Control Back (Defender) film study: Quick fix for the seatbelt grip, taught by Ben Kool.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/MwxnveKrlxU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/MwxnveKrlxU",
-      "url": "https://www.youtube.com/watch?v=MwxnveKrlxU",
-      "creator": { "@type": "Person", "name": "Ben Kool" },
-      "duration": "PT62S"
-    }
-  ]
-}
-</script>
-
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -188,24 +166,6 @@ The defender's primary advantage is that this transition requires the attacker t
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Seat Belt Control Back (Defender) in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=MwxnveKrlxU)
-
-<p class="clip-credit"><strong>Quick fix for the seatbelt grip</strong> — taught by Ben Kool · 1:02 · <a href="https://www.youtube.com/watch?v=MwxnveKrlxU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="recognition-cues" class="content-section">

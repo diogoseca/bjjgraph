@@ -492,31 +492,11 @@
     ],
     "clips": [
       {
-        "id": "sztjmLZYxIQ",
-        "title": "Nicky Rod's body lock pass demo",
-        "by": "Professor Buck",
-        "vertical": false,
-        "channel": "Professor Buck",
-        "duration": 38,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "91Fgpe788no",
-        "title": "Body lock takedown from standing",
-        "by": "Sean Sherk",
-        "vertical": false,
-        "channel": "TAG Muay Thai",
-        "duration": 73,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "spB8qALp5rA",
-        "title": "Nicky Rod explains his body lock pass",
-        "by": "Nicky Rodriguez",
-        "vertical": false,
-        "channel": "Learn Faster BJJ - Jiu Jitsu Breakdowns",
-        "duration": 221,
-        "verified": "2026-07-14"
+        "id": "lF5kkB2rq5Y",
+        "title": "3 Wrestling Entries to a Standing Rear Body Lock | No-Gi Technique| Pearson…",
+        "channel": "Pearson Brazilian Jiu-Jitsu",
+        "duration": 194,
+        "front": true
       }
     ]
   },
@@ -934,31 +914,12 @@
     ],
     "clips": [
       {
-        "id": "Di-fJ06DSq8",
-        "title": "Body lock defense",
-        "by": "Peerless Jiu Jitsu",
+        "id": "DFXdqByRxNg",
+        "title": "Standing Rear Body Lock: Counters, Attacks and Defense (No Gi…",
+        "channel": "Brian Glick",
+        "duration": 318,
         "vertical": false,
-        "channel": "Peerless Jiu Jitsu Academy ",
-        "duration": 79,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "ZGgfRpUJvHU",
-        "title": "Body lock counter and submission",
-        "by": "Craig Jones",
-        "vertical": false,
-        "channel": "FreeChannelOpen",
-        "duration": 114,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "COMTE898ja8",
-        "title": "Don't get squashed: body lock defense",
-        "by": "Craig Jones",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 156,
-        "verified": "2026-07-14"
+        "front": true
       }
     ]
   },
@@ -1076,33 +1037,5 @@
       }
     }
   ],
-  "clips": [
-    {
-      "id": "sztjmLZYxIQ",
-      "title": "Nicky Rod's body lock pass concept",
-      "by": "Professor Buck",
-      "vertical": false,
-      "channel": "Professor Buck",
-      "duration": 38,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "spB8qALp5rA",
-      "title": "Nicky Rod explains the body lock pass",
-      "by": "Nicky Rodriguez",
-      "vertical": false,
-      "channel": "Learn Faster BJJ - Jiu Jitsu Breakdowns",
-      "duration": 221,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "2gknwIfTeN0",
-      "title": "4 body lock takedowns",
-      "by": "CSW Fullerton",
-      "vertical": false,
-      "channel": "CSW Fullerton",
-      "duration": 194,
-      "verified": "2026-07-14"
-    }
-  ]
+  "clips": []
 }

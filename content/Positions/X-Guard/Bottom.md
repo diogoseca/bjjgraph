@@ -156,50 +156,6 @@ description: "Master X-Guard Bottom in BJJ. Complete guide covering sweeps, entr
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "X-Guard (Bottom) \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "X-Guard sweep",
-      "description": "X-Guard (Bottom) film study: X-Guard sweep, taught by Marcelo Garcia.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/zbYb6sOYC8w/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/zbYb6sOYC8w",
-      "url": "https://www.youtube.com/watch?v=zbYb6sOYC8w",
-      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
-      "duration": "PT53S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "One-leg X-Guard sweep",
-      "description": "X-Guard (Bottom) film study: One-leg X-Guard sweep, taught by Marcelo Garcia.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/AhsXraebbdg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/AhsXraebbdg",
-      "url": "https://www.youtube.com/watch?v=AhsXraebbdg",
-      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
-      "duration": "PT47S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "X-Guard sweep and pass",
-      "description": "X-Guard (Bottom) film study: X-Guard sweep and pass, taught by Marcelo Garcia.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/7OnjPU1WjH4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/7OnjPU1WjH4",
-      "url": "https://www.youtube.com/watch?v=7OnjPU1WjH4",
-      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
-      "duration": "PT35S"
-    }
-  ]
-}
-</script>
-
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -213,40 +169,6 @@ X-Guard Bottom is a powerful open guard position where the bottom practitioner c
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch X-Guard (Bottom) in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=zbYb6sOYC8w)
-
-<p class="clip-credit"><strong>X-Guard sweep</strong> — taught by Marcelo Garcia · 0:53 · <a href="https://www.youtube.com/watch?v=zbYb6sOYC8w" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=AhsXraebbdg)
-
-<p class="clip-credit"><strong>One-leg X-Guard sweep</strong> — taught by Marcelo Garcia · 0:47 · <a href="https://www.youtube.com/watch?v=AhsXraebbdg" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=7OnjPU1WjH4)
-
-<p class="clip-credit"><strong>X-Guard sweep and pass</strong> — taught by Marcelo Garcia · 0:35 · <a href="https://www.youtube.com/watch?v=7OnjPU1WjH4" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="state-invariants" class="content-section">

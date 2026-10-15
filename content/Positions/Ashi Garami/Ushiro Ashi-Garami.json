@@ -461,22 +461,11 @@
     ],
     "clips": [
       {
-        "id": "g3j7TZYoW14",
-        "title": "Top Ushiro to knee bar",
-        "by": "Modesto Judo Club",
-        "vertical": false,
-        "channel": "Modesto Judo Club",
-        "duration": 115,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "lTsK9C_a6po",
-        "title": "V grip from top Ushiro transition",
-        "by": "Gordon Ryan",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 140,
-        "verified": "2026-07-14"
+        "id": "UDqDce6ydrM",
+        "title": "Ushiro Ashi Garami. Обратный узел бедра. Часть 1.",
+        "channel": "Vartan BJJ",
+        "duration": 1219,
+        "front": true
       }
     ]
   },
@@ -855,35 +844,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "AQbJMBiWYfU",
-        "title": "Escaping Ashi Garami: leg lock defense",
-        "by": "Scott Elliott",
-        "vertical": false,
-        "channel": "Coach Scott Elliott",
-        "duration": 141,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "JbRfIo1NTLk",
-        "title": "Clearing the Knee Line: Leglock Defense",
-        "by": "Craig Jones",
-        "vertical": false,
-        "channel": "BJJ focus camps",
-        "duration": 274,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "3xEmPci_szw",
-        "title": "Escaping the Inside Ashi Garami Heel Hook",
-        "by": "Eddie Cummings",
-        "vertical": false,
-        "channel": "Digitsu",
-        "duration": 164,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "flashcards_position": [
     {
@@ -999,33 +960,5 @@
       }
     }
   ],
-  "clips": [
-    {
-      "id": "eiI_4VBA-qA",
-      "title": "4 foot positions for leg locks",
-      "by": "Evo BJJ",
-      "vertical": false,
-      "channel": "Evo BJJ",
-      "duration": 162,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "E5Q5kQTNJuk",
-      "title": "Reverse Ashi Garami to Toe Hold and Knee Bar",
-      "by": "Crosstrain Fight Club coach",
-      "vertical": false,
-      "channel": "CrosstrainFightClub",
-      "duration": 77,
-      "verified": "2026-07-16"
-    },
-    {
-      "id": "Bf5cJNYCMcA",
-      "title": "Reverse X to Ashi Garami Concept",
-      "by": "The Sanctuary BJJ coach",
-      "vertical": false,
-      "channel": "The Sanctuary Brazilian JiuJitsu and Fitness",
-      "duration": 105,
-      "verified": "2026-07-16"
-    }
-  ]
+  "clips": []
 }

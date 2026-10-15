@@ -186,24 +186,12 @@ description: "Execute the Butterfly Guard Pull in BJJ. Master grip sequences, ti
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Belt grab guard pull",
-      "description": "Butterfly Guard Pull (Attacker) film study: Belt grab guard pull, taught by Mick Hall.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/L8JpDuYczgk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/L8JpDuYczgk",
-      "url": "https://www.youtube.com/watch?v=L8JpDuYczgk",
-      "creator": { "@type": "Person", "name": "Mick Hall" },
-      "duration": "PT98S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Marcelo Garcia butterfly guard sweep",
-      "description": "Butterfly Guard Pull (Attacker) film study: Marcelo Garcia butterfly guard sweep, taught by Marcelo Garcia.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/c8JBXJMc0Oc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/c8JBXJMc0Oc",
-      "url": "https://www.youtube.com/watch?v=c8JBXJMc0Oc",
-      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
-      "duration": "PT81S"
+      "name": "Butterfly guard - Guard pull to butterfly sweep (week 10)",
+      "description": "Butterfly Guard Pull (Attacker) film study: Butterfly guard - Guard pull to butterfly sweep (week 10).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5jFOssG9Gi0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5jFOssG9Gi0",
+      "url": "https://www.youtube.com/watch?v=5jFOssG9Gi0",
+      "duration": "PT296S"
     }
   ]
 }
@@ -231,17 +219,9 @@ As the attacker executing the Butterfly Guard Pull, your objective is to transit
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=L8JpDuYczgk)
+![](https://www.youtube.com/watch?v=5jFOssG9Gi0)
 
-<p class="clip-credit"><strong>Belt grab guard pull</strong> — taught by Mick Hall · 1:38 · <a href="https://www.youtube.com/watch?v=L8JpDuYczgk" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=c8JBXJMc0Oc)
-
-<p class="clip-credit"><strong>Marcelo Garcia butterfly guard sweep</strong> — taught by Marcelo Garcia · 1:21 · <a href="https://www.youtube.com/watch?v=c8JBXJMc0Oc" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Butterfly guard - Guard pull to butterfly sweep (week 10)</strong> · 4:56 · <a href="https://www.youtube.com/watch?v=5jFOssG9Gi0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -441,29 +441,17 @@
       {
         "id": "yDxtO6qzOL0",
         "title": "Belly Down Arm Bar Finish",
-        "by": "Brandoo",
-        "vertical": false,
         "channel": "Brandoo",
         "duration": 58,
-        "verified": "2026-07-14"
+        "vertical": false,
+        "front": true
       },
       {
         "id": "9wGAI_8zvBQ",
-        "title": "Belly Down Arm Bar to counter the stack",
-        "by": "The Art of Fighting",
-        "vertical": false,
+        "title": "The Belly Down Arm Bar to counter the stack!",
         "channel": "The Art of Fighting",
         "duration": 62,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "EdYFELAO6B0",
-        "title": "Belly Down Armbar from Guard",
-        "by": "Robert Hugus",
-        "vertical": false,
-        "channel": "Robert Hugus BJJ Videos",
-        "duration": 41,
-        "verified": "2026-07-14"
+        "vertical": false
       }
     ]
   },
@@ -646,31 +634,17 @@
     ],
     "clips": [
       {
-        "id": "kNdKfUdgO4I",
-        "title": "My favorite armbar escape",
-        "by": "Matt Arroyo",
-        "vertical": false,
-        "channel": "Matt Arroyo Jiu Jitsu ",
-        "duration": 92,
-        "verified": "2026-07-14"
+        "id": "AApmPQUUmYI",
+        "title": "Belly down arm bar escape breakdown",
+        "channel": "Anchorlinefitness",
+        "duration": 61,
+        "front": true
       },
       {
-        "id": "AfDEN3uK3W0",
-        "title": "Low effort armbar escape via foot capture",
-        "by": "Patrick Donabedian",
-        "vertical": false,
-        "channel": "Patrick Donabedian BJJ",
-        "duration": 55,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "eO6dA9Cq6aY",
-        "title": "Boogie Man Arm Bar Defense & Escape",
-        "by": "grpplng",
-        "vertical": false,
-        "channel": "grpplng",
-        "duration": 70,
-        "verified": "2026-07-14"
+        "id": "FlFGsSpqYdE",
+        "title": "Belly Down Arm Bar Escape:Basic",
+        "channel": "Submissions101",
+        "duration": 84
       }
     ]
   }

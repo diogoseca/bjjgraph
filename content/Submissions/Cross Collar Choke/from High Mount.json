@@ -449,35 +449,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "dfP-Ov8FBUo",
-        "title": "Cross Collar Chokes breakdown",
-        "by": "Roger Gracie",
-        "vertical": false,
-        "channel": "Jiu Jitsu Moves",
-        "duration": 80,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "7QjuXzCgfro",
-        "title": "Mounted Helio Gracie cross choke",
-        "by": "Gracie Charlottesville",
-        "vertical": false,
-        "channel": "Gracie Charlottesville",
-        "duration": 38,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "pXcCvjwjPHw",
-        "title": "Cross collar choke from mount",
-        "by": "Chad Lyman",
-        "vertical": false,
-        "channel": "Rich Castro",
-        "duration": 56,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Cross Collar Choke from High Mount Defender",
@@ -669,25 +641,6 @@
         "description": "Positional sparring starting in high mount with partner actively attacking cross collar choke at full resistance. Defend and escape using all available tools. Track success rate over multiple rounds and identify recurring defensive failures for targeted improvement."
       }
     ],
-    "clips": [
-      {
-        "id": "keDSMGdKu8Q",
-        "title": "Defending the choke while mounted",
-        "by": "Fit To Fight",
-        "vertical": false,
-        "channel": "Fit To Fight Republic",
-        "duration": 82,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "F1qoGHKy_uE",
-        "title": "Defend the cross choke into armbar",
-        "by": "Edgar Kruyning",
-        "vertical": false,
-        "channel": "Edgar Kruyning Official",
-        "duration": 22,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   }
 }

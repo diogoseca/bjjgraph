@@ -430,31 +430,12 @@
     "safety_considerations": "When practicing the 100% Sweep, execute with control to avoid injuring your partner when they fall. The sweep can result in a hard landing if done too explosively, particularly in beginner settings where partners may not know how to breakfall properly. Ensure your training partner understands how to fall safely by tucking their chin and using breakfall techniques. Always practice in a controlled environment with proper mats to prevent injury from falls. When learning the technique, use slower speeds and progressive resistance to develop proper mechanics before attempting at full intensity. Be prepared to adjust if the sweep fails or your opponent counters, as forcing a failed sweep can leave you vulnerable to guard passing. In competition, be aware of the rules regarding slamming, as following through too aggressively on the sweep could be interpreted as a slam in some rule sets.",
     "clips": [
       {
-        "id": "dMcMblcXhF0",
-        "title": "Roger Gracie: sweep from closed guard",
-        "by": "Roger Gracie",
-        "vertical": false,
-        "channel": "Gentle Art Media",
-        "duration": 73,
-        "verified": "2026-07-15"
-      },
-      {
         "id": "KizFNjw2h18",
-        "title": "100% sweep to mounted guillotine",
-        "by": "Grappling How to",
-        "vertical": false,
+        "title": "The 100% sweep to a mounted guillotine",
         "channel": "Grappling How to",
-        "duration": 67,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "L0k94Lnww84",
-        "title": "Bait Choi bar to 100%'er from half guard",
-        "by": "Charles Allan Price",
+        "duration": 66,
         "vertical": false,
-        "channel": "Charles Allan Price",
-        "duration": 70,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },
@@ -636,31 +617,11 @@
     ],
     "clips": [
       {
-        "id": "kNfVYhZbgrg",
-        "title": "Four levels of sweep defense",
-        "by": "Wim Deputter",
-        "vertical": false,
-        "channel": "Wim Deputter BJJ",
-        "duration": 87,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "Hihm3-SaySI",
-        "title": "Escaping the arm trap from closed guard",
-        "by": "MMA Leech",
-        "vertical": false,
-        "channel": "MMA Leech",
-        "duration": 372,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "dOxpP-ikSk8",
-        "title": "Defending the arm-trapped-behind-back closed guard attack",
-        "by": "BJJ After Forty",
-        "vertical": false,
-        "channel": "BJJ After Forty",
-        "duration": 103,
-        "verified": "2026-07-15"
+        "id": "20u9c6mOy4A",
+        "title": "UNIQUE Counter to 100% Sweep!",
+        "channel": "TeachMeGrappling Coach Brian",
+        "duration": 775,
+        "front": true
       }
     ]
   },

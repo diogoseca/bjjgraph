@@ -462,31 +462,19 @@
     ],
     "clips": [
       {
-        "id": "ruk0kdlr-Qw",
-        "title": "Alexandre Vieira's Famous Loop Choke",
-        "by": "Alexandre Vieira",
+        "id": "hBKRP0Ss8qk",
+        "title": "34 - Loop Choke from  Close guard",
+        "channel": "ICON JIU-JITSU TEAM",
+        "duration": 14,
         "vertical": false,
-        "channel": "FloGrappling",
-        "duration": 85,
-        "verified": "2026-07-14"
+        "front": true
       },
       {
         "id": "7MTvWfHIHtc",
         "title": "Loop Choke from Closed Guard",
-        "by": "Mat Life Training Center",
-        "vertical": false,
         "channel": "Mat Life Training Center",
-        "duration": 89,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "hBKRP0Ss8qk",
-        "title": "Loop Choke from Closed Guard",
-        "by": "ICON Jiu-Jitsu Team",
-        "vertical": false,
-        "channel": "ICON JIU-JITSU TEAM",
-        "duration": 15,
-        "verified": "2026-07-14"
+        "duration": 88,
+        "vertical": false
       }
     ]
   },
@@ -680,26 +668,7 @@
         "description": "Start in closed guard top against a partner hunting the loop choke along with other closed guard attacks. Balance guard opening attempts with collar defense, maintaining awareness of the loop choke threat throughout your passing sequence. Partner uses full resistance and chains the loop choke with hip bump sweeps, cross collar chokes, and guillotine threats. Track how often you prevent the grip versus how often the choke reaches the turning phase."
       }
     ],
-    "clips": [
-      {
-        "id": "pZmJpXSwRTk",
-        "title": "Loop choke escape",
-        "by": "Ninja Pinto",
-        "vertical": false,
-        "channel": "Ninja Pinto BJJ",
-        "duration": 60,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "CO1cWjtlsFw",
-        "title": "Loop choke defense: countering before the legs come",
-        "by": "Maxum Brazilian Jiu Jitsu",
-        "vertical": false,
-        "channel": "Maxum Brazilian Jiu Jitsu",
-        "duration": 166,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "variations_and_setups": [
     {

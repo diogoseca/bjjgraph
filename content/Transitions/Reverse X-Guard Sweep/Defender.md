@@ -160,24 +160,12 @@ description: "How to defend against Reverse X-Guard Sweep in BJJ. Recognition cu
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Berimbolo counter to reverse X guard",
-      "description": "Reverse X-Guard Sweep (Defender) film study: Berimbolo counter to reverse X guard, taught by Pantheon Promotions.",
+      "name": "Berimbolo Counter to Reverse X",
+      "description": "Reverse X-Guard Sweep (Defender) film study: Berimbolo Counter to Reverse X.",
       "thumbnailUrl": "https://i.ytimg.com/vi/hGAJrQP3QDs/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/hGAJrQP3QDs",
       "url": "https://www.youtube.com/watch?v=hGAJrQP3QDs",
-      "creator": { "@type": "Person", "name": "Pantheon Promotions" },
       "duration": "PT95S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "How to pass X guard",
-      "description": "Reverse X-Guard Sweep (Defender) film study: How to pass X guard, taught by Kaynan Duarte.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/C1lYVhDXwvw/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/C1lYVhDXwvw",
-      "url": "https://www.youtube.com/watch?v=C1lYVhDXwvw",
-      "creator": { "@type": "Person", "name": "Kaynan Duarte" },
-      "duration": "PT116S"
     }
   ]
 }
@@ -211,15 +199,7 @@ The defender must recognize that static defense against Reverse X-Guard is a los
 
 ![](https://www.youtube.com/watch?v=hGAJrQP3QDs)
 
-<p class="clip-credit"><strong>Berimbolo counter to reverse X guard</strong> — taught by Pantheon Promotions · 1:35 · <a href="https://www.youtube.com/watch?v=hGAJrQP3QDs" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=C1lYVhDXwvw)
-
-<p class="clip-credit"><strong>How to pass X guard</strong> — taught by Kaynan Duarte · 1:56 · <a href="https://www.youtube.com/watch?v=C1lYVhDXwvw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Berimbolo Counter to Reverse X</strong> · 1:35 · <a href="https://www.youtube.com/watch?v=hGAJrQP3QDs" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

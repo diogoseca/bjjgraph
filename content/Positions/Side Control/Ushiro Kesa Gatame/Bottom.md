@@ -166,35 +166,22 @@ description: "Master Ushiro Kesa Gatame Bottom escape techniques. Complete defen
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Escaping Kesa Gatame Position",
-      "description": "Ushiro Kesa Gatame (Bottom) film study: Escaping Kesa Gatame Position, taught by Full Metal Jiu Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/O9H8V9BL_b0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/O9H8V9BL_b0",
-      "url": "https://www.youtube.com/watch?v=O9H8V9BL_b0",
-      "creator": { "@type": "Person", "name": "Full Metal Jiu Jitsu" },
-      "duration": "PT79S"
+      "name": "\u5f8c\u8888\u88df\u56fa\u306e\u9003\u308c\u65b9 /  Ushiro-kesa-gatame Escapes",
+      "description": "Ushiro Kesa Gatame (Bottom) film study: \u5f8c\u8888\u88df\u56fa\u306e\u9003\u308c\u65b9 /  Ushiro-kesa-gatame Escapes.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4QuzAAucQsA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4QuzAAucQsA",
+      "url": "https://www.youtube.com/watch?v=4QuzAAucQsA",
+      "duration": "PT60S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Reverse Hip Escape from Side Control",
-      "description": "Ushiro Kesa Gatame (Bottom) film study: Reverse Hip Escape from Side Control, taught by Fox Den Martial Arts.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/4L25UQntnPg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/4L25UQntnPg",
-      "url": "https://www.youtube.com/watch?v=4L25UQntnPg",
-      "creator": { "@type": "Person", "name": "Fox Den Martial Arts" },
-      "duration": "PT25S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Kesa Gatame Escape",
-      "description": "Ushiro Kesa Gatame (Bottom) film study: Kesa Gatame Escape, taught by SBG Australia.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/2M_6VytUaus/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/2M_6VytUaus",
-      "url": "https://www.youtube.com/watch?v=2M_6VytUaus",
-      "creator": { "@type": "Person", "name": "SBG Australia" },
-      "duration": "PT43S"
+      "name": "Ushiro Kesa Gatame Escapes",
+      "description": "Ushiro Kesa Gatame (Bottom) film study: Ushiro Kesa Gatame Escapes.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9kdzSOMmtMo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9kdzSOMmtMo",
+      "url": "https://www.youtube.com/watch?v=9kdzSOMmtMo",
+      "duration": "PT60S"
     }
   ]
 }
@@ -227,25 +214,17 @@ From a strategic perspective, Ushiro Kesa Gatame Bottom requires immediate defen
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=O9H8V9BL_b0)
+![](https://www.youtube.com/watch?v=4QuzAAucQsA)
 
-<p class="clip-credit"><strong>Escaping Kesa Gatame Position</strong> — taught by Full Metal Jiu Jitsu · 1:19 · <a href="https://www.youtube.com/watch?v=O9H8V9BL_b0" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=4L25UQntnPg)
-
-<p class="clip-credit"><strong>Reverse Hip Escape from Side Control</strong> — taught by Fox Den Martial Arts · 0:25 · <a href="https://www.youtube.com/watch?v=4L25UQntnPg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>後袈裟固の逃れ方 /  Ushiro-kesa-gatame Escapes</strong> · 1:00 · <a href="https://www.youtube.com/watch?v=4QuzAAucQsA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=2M_6VytUaus)
+![](https://www.youtube.com/watch?v=9kdzSOMmtMo)
 
-<p class="clip-credit"><strong>Kesa Gatame Escape</strong> — taught by SBG Australia · 0:43 · <a href="https://www.youtube.com/watch?v=2M_6VytUaus" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Ushiro Kesa Gatame Escapes</strong> · 1:00 · <a href="https://www.youtube.com/watch?v=9kdzSOMmtMo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

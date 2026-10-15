@@ -370,21 +370,11 @@
     "clips": [
       {
         "id": "sM2SRp7XxOY",
-        "title": "Side control to knee on belly transition",
-        "by": "Cary BJJ coach",
-        "vertical": false,
+        "title": "Side control to a knee on belly transition",
         "channel": "Cary Brazilian Jiu-Jitsu",
-        "duration": 198,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "jV_z0mC4SNw",
-        "title": "Knee on belly quick demo",
-        "by": "bjjtaro",
+        "duration": 197,
         "vertical": false,
-        "channel": "bjjtaro",
-        "duration": 16,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },
@@ -551,30 +541,18 @@
     "clips": [
       {
         "id": "Wn01Ynw7O28",
-        "title": "How to escape the knee on belly position",
-        "by": "Evolve MMA coach",
-        "vertical": false,
+        "title": "BJJ | How To Escape The Knee On Belly Position",
         "channel": "Evolve Mixed Martial Arts",
         "duration": 40,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "I9_3u9AcwAg",
-        "title": "First principles knee-on-belly escape",
-        "by": "40 Plus BJJ coach",
         "vertical": false,
-        "channel": "40 Plus BJJ",
-        "duration": 59,
-        "verified": "2026-07-15"
+        "front": true
       },
       {
         "id": "WIYwi1fKisU",
-        "title": "Sneaky knee on belly escape, gi and no-gi",
-        "by": "Zebulon Miller",
-        "vertical": false,
+        "title": "Sneaky knee on belly escape (gi and no gi)",
         "channel": "Zebulon Miller",
         "duration": 78,
-        "verified": "2026-07-15"
+        "vertical": false
       }
     ]
   }

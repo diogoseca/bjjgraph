@@ -156,39 +156,6 @@ description: "Master K-Guard Top in BJJ. Navigate inverted hook systems while ma
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "K-Guard (Top) \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "K Guard Defense and Pass",
-      "description": "K-Guard (Top) film study: K Guard Defense and Pass, taught by Pure Grappling.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/91eO9lV-sVE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/91eO9lV-sVE",
-      "url": "https://www.youtube.com/watch?v=91eO9lV-sVE",
-      "creator": { "@type": "Person", "name": "Pure Grappling" },
-      "duration": "PT281S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "K Guard Defense",
-      "description": "K-Guard (Top) film study: K Guard Defense, taught by Rodrigo Lopes.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/JxDViUC4xhk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/JxDViUC4xhk",
-      "url": "https://www.youtube.com/watch?v=JxDViUC4xhk",
-      "creator": { "@type": "Person", "name": "Rodrigo Lopes" },
-      "duration": "PT289S"
-    }
-  ]
-}
-</script>
-
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -206,32 +173,6 @@ Strategically, K-Guard Top represents a transitional position where the top play
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch K-Guard (Top) in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=91eO9lV-sVE)
-
-<p class="clip-credit"><strong>K Guard Defense and Pass</strong> — taught by Pure Grappling · 4:41 · <a href="https://www.youtube.com/watch?v=91eO9lV-sVE" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=JxDViUC4xhk)
-
-<p class="clip-credit"><strong>K Guard Defense</strong> — taught by Rodrigo Lopes · 4:49 · <a href="https://www.youtube.com/watch?v=JxDViUC4xhk" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="state-invariants" class="content-section">

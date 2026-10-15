@@ -46,24 +46,12 @@ description: "Master the Backstep Pass from Reverse X-Guard in BJJ. Complete gui
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Backstep pass against X-guard",
-      "description": "Backstep Pass from Reverse X-Guard film study: Backstep pass against X-guard, taught by Wakizashi Jiu Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/WsQy2bzQqL8/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/WsQy2bzQqL8",
-      "url": "https://www.youtube.com/watch?v=WsQy2bzQqL8",
-      "creator": { "@type": "Person", "name": "Wakizashi Jiu Jitsu" },
-      "duration": "PT76S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "No-gi back step pass from headquarters",
-      "description": "Backstep Pass from Reverse X-Guard film study: No-gi back step pass from headquarters, taught by TAPS BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/VDiS4NaIv8A/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/VDiS4NaIv8A",
-      "url": "https://www.youtube.com/watch?v=VDiS4NaIv8A",
-      "creator": { "@type": "Person", "name": "TAPS BJJ" },
-      "duration": "PT191S"
+      "name": "Imanari Roll to Counter Backstep from Reverse X | Grappler Alex Fialho",
+      "description": "Backstep Pass from Reverse X-Guard film study: Imanari Roll to Counter Backstep from Reverse X | Grappler Alex Fialho.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/UYSDyiPraRQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/UYSDyiPraRQ",
+      "url": "https://www.youtube.com/watch?v=UYSDyiPraRQ",
+      "duration": "PT115S"
     }
   ]
 }
@@ -117,17 +105,9 @@ This technique has become a staple in modern passing systems against inverted gu
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=WsQy2bzQqL8)
+![](https://www.youtube.com/watch?v=UYSDyiPraRQ)
 
-<p class="clip-credit"><strong>Backstep pass against X-guard</strong> — taught by Wakizashi Jiu Jitsu · 1:16 · <a href="https://www.youtube.com/watch?v=WsQy2bzQqL8" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=VDiS4NaIv8A)
-
-<p class="clip-credit"><strong>No-gi back step pass from headquarters</strong> — taught by TAPS BJJ · 3:11 · <a href="https://www.youtube.com/watch?v=VDiS4NaIv8A" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Imanari Roll to Counter Backstep from Reverse X | Grappler Alex Fialho</strong> · 1:55 · <a href="https://www.youtube.com/watch?v=UYSDyiPraRQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -46,24 +46,12 @@ description: "Learn the Twister entry from Cross Body Ride in BJJ. Step-by-step 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Entering twister side control",
-      "description": "Twister Entry film study: Entering twister side control, taught by Eddie Bravo.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/R55lmkc6Mus/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/R55lmkc6Mus",
-      "url": "https://www.youtube.com/watch?v=R55lmkc6Mus",
-      "creator": { "@type": "Person", "name": "Eddie Bravo" },
-      "duration": "PT87S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Grace\u0027s twister entry",
-      "description": "Twister Entry film study: Grace\u0027s twister entry, taught by Eddie Bravo.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/nnphEk5pmjk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/nnphEk5pmjk",
-      "url": "https://www.youtube.com/watch?v=nnphEk5pmjk",
-      "creator": { "@type": "Person", "name": "Eddie Bravo" },
-      "duration": "PT61S"
+      "name": "Escape and counter the Twister! - Matrix Jiu Jitsu",
+      "description": "Twister Entry film study: Escape and counter the Twister! - Matrix Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Va1YNgx2E6M/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Va1YNgx2E6M",
+      "url": "https://www.youtube.com/watch?v=Va1YNgx2E6M",
+      "duration": "PT165S"
     }
   ]
 }
@@ -117,17 +105,9 @@ The transition demands precise coordination between maintaining upper body press
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=R55lmkc6Mus)
+![](https://www.youtube.com/watch?v=Va1YNgx2E6M)
 
-<p class="clip-credit"><strong>Entering twister side control</strong> — taught by Eddie Bravo · 1:27 · <a href="https://www.youtube.com/watch?v=R55lmkc6Mus" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=nnphEk5pmjk)
-
-<p class="clip-credit"><strong>Grace&#39;s twister entry</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=nnphEk5pmjk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Escape and counter the Twister! - Matrix Jiu Jitsu</strong> · 2:45 · <a href="https://www.youtube.com/watch?v=Va1YNgx2E6M" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

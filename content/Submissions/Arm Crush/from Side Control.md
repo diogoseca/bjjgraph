@@ -46,35 +46,12 @@ description: "Master the Arm Crush submission in BJJ. Learn shoulder lock mechan
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Cradle from side control to armbar shoulder lock",
-      "description": "Arm Crush from Side Control film study: Cradle from side control to armbar shoulder lock, taught by Andy Tong.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/lN8yn5YaMi0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/lN8yn5YaMi0",
-      "url": "https://www.youtube.com/watch?v=lN8yn5YaMi0",
-      "creator": { "@type": "Person", "name": "Andy Tong" },
-      "duration": "PT42S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Arm crush armbar",
-      "description": "Arm Crush from Side Control film study: Arm crush armbar, taught by AMAZIN BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/RFkSf7gQ18E/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/RFkSf7gQ18E",
-      "url": "https://www.youtube.com/watch?v=RFkSf7gQ18E",
-      "creator": { "@type": "Person", "name": "AMAZIN BJJ" },
-      "duration": "PT65S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Killing the near side arm from side control",
-      "description": "Arm Crush from Side Control film study: Killing the near side arm from side control, taught by Inverted Gear.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/LUxMvOFbxIY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/LUxMvOFbxIY",
-      "url": "https://www.youtube.com/watch?v=LUxMvOFbxIY",
-      "creator": { "@type": "Person", "name": "Inverted Gear" },
-      "duration": "PT123S"
+      "name": "Arm Crush Armlock from Side Mount",
+      "description": "Arm Crush from Side Control film study: Arm Crush Armlock from Side Mount.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/01b2neRtr6k/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/01b2neRtr6k",
+      "url": "https://www.youtube.com/watch?v=01b2neRtr6k",
+      "duration": "PT87S"
     }
   ]
 }
@@ -133,25 +110,9 @@ The Arm Crush is a powerful shoulder lock submission that combines crushing pres
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=lN8yn5YaMi0)
+![](https://www.youtube.com/watch?v=01b2neRtr6k)
 
-<p class="clip-credit"><strong>Cradle from side control to armbar shoulder lock</strong> — taught by Andy Tong · 0:42 · <a href="https://www.youtube.com/watch?v=lN8yn5YaMi0" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=RFkSf7gQ18E)
-
-<p class="clip-credit"><strong>Arm crush armbar</strong> — taught by AMAZIN BJJ · 1:05 · <a href="https://www.youtube.com/watch?v=RFkSf7gQ18E" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=LUxMvOFbxIY)
-
-<p class="clip-credit"><strong>Killing the near side arm from side control</strong> — taught by Inverted Gear · 2:03 · <a href="https://www.youtube.com/watch?v=LUxMvOFbxIY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Arm Crush Armlock from Side Mount</strong> · 1:27 · <a href="https://www.youtube.com/watch?v=01b2neRtr6k" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

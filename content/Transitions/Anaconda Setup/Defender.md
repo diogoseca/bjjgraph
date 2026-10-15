@@ -168,35 +168,12 @@ description: "How to defend against Anaconda Setup in BJJ. Recognition cues, def
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Anaconda choke defense and counter",
-      "description": "Anaconda Setup (Defender) film study: Anaconda choke defense and counter, taught by Cyril Robert.",
+      "name": "BJJ defense anaconda plus counter",
+      "description": "Anaconda Setup (Defender) film study: BJJ defense anaconda plus counter.",
       "thumbnailUrl": "https://i.ytimg.com/vi/s94GexEkoQ0/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/s94GexEkoQ0",
       "url": "https://www.youtube.com/watch?v=s94GexEkoQ0",
-      "creator": { "@type": "Person", "name": "Cyril Robert" },
       "duration": "PT43S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Standing front headlock choke defense",
-      "description": "Anaconda Setup (Defender) film study: Standing front headlock choke defense, taught by Empower Gym Tampa.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/J-MaOIfDHXk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/J-MaOIfDHXk",
-      "url": "https://www.youtube.com/watch?v=J-MaOIfDHXk",
-      "creator": { "@type": "Person", "name": "Empower Gym Tampa" },
-      "duration": "PT60S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Sucker drag and peek out counters to front headlock",
-      "description": "Anaconda Setup (Defender) film study: Sucker drag and peek out counters to front headlock, taught by Black and Gold MMA.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/F_cW7ETcTPg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/F_cW7ETcTPg",
-      "url": "https://www.youtube.com/watch?v=F_cW7ETcTPg",
-      "creator": { "@type": "Person", "name": "Black and Gold MMA" },
-      "duration": "PT103S"
     }
   ]
 }
@@ -230,23 +207,7 @@ Successful defense depends on maintaining composure and avoiding the common pani
 
 ![](https://www.youtube.com/watch?v=s94GexEkoQ0)
 
-<p class="clip-credit"><strong>Anaconda choke defense and counter</strong> — taught by Cyril Robert · 0:43 · <a href="https://www.youtube.com/watch?v=s94GexEkoQ0" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=J-MaOIfDHXk)
-
-<p class="clip-credit"><strong>Standing front headlock choke defense</strong> — taught by Empower Gym Tampa · 1:00 · <a href="https://www.youtube.com/watch?v=J-MaOIfDHXk" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=F_cW7ETcTPg)
-
-<p class="clip-credit"><strong>Sucker drag and peek out counters to front headlock</strong> — taught by Black and Gold MMA · 1:43 · <a href="https://www.youtube.com/watch?v=F_cW7ETcTPg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>BJJ defense anaconda plus counter</strong> · 0:43 · <a href="https://www.youtube.com/watch?v=s94GexEkoQ0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

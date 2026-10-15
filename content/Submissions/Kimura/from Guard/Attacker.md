@@ -182,24 +182,12 @@ description: "How to execute Kimura from Guard in BJJ. Attacking perspective wit
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Kimura from Guard",
-      "description": "Kimura from Guard (Attacker) film study: Kimura from Guard, taught by Gracie Charlottesville.",
+      "name": "Kimura from Guard by Gracie Charlottesville",
+      "description": "Kimura from Guard (Attacker) film study: Kimura from Guard by Gracie Charlottesville.",
       "thumbnailUrl": "https://i.ytimg.com/vi/KAxTmcxGc60/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/KAxTmcxGc60",
       "url": "https://www.youtube.com/watch?v=KAxTmcxGc60",
-      "creator": { "@type": "Person", "name": "Gracie Charlottesville" },
-      "duration": "PT36S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "The Perfect Kimura (Gracie Breakdown)",
-      "description": "Kimura from Guard (Attacker) film study: The Perfect Kimura (Gracie Breakdown), taught by Gracie Breakdown.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Y1ubVWKdbXU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Y1ubVWKdbXU",
-      "url": "https://www.youtube.com/watch?v=Y1ubVWKdbXU",
-      "creator": { "@type": "Person", "name": "Gracie Breakdown" },
-      "duration": "PT30S"
+      "duration": "PT35S"
     }
   ]
 }
@@ -230,15 +218,7 @@ The Kimura from Guard is a fundamental shoulder lock that can be applied from mu
 
 ![](https://www.youtube.com/watch?v=KAxTmcxGc60)
 
-<p class="clip-credit"><strong>Kimura from Guard</strong> — taught by Gracie Charlottesville · 0:36 · <a href="https://www.youtube.com/watch?v=KAxTmcxGc60" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=Y1ubVWKdbXU)
-
-<p class="clip-credit"><strong>The Perfect Kimura (Gracie Breakdown)</strong> — taught by Gracie Breakdown · 0:30 · <a href="https://www.youtube.com/watch?v=Y1ubVWKdbXU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Kimura from Guard by Gracie Charlottesville</strong> · 0:35 · <a href="https://www.youtube.com/watch?v=KAxTmcxGc60" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

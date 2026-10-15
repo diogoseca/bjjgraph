@@ -152,35 +152,12 @@ description: "Defend and counter the Electric Chair entry from Deep Half Guard. 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Lockdown and Electric Chair Counters and Escapes",
-      "description": "Electric Chair Entry from Deep Half (Defender) film study: Lockdown and Electric Chair Counters and Escapes, taught by Coach Dennis.",
+      "name": "Lockdown and Electric Chair counters and escapes for Jiu-Jitsu, MMA and\u2026",
+      "description": "Electric Chair Entry from Deep Half (Defender) film study: Lockdown and Electric Chair counters and escapes for Jiu-Jitsu, MMA and\u2026.",
       "thumbnailUrl": "https://i.ytimg.com/vi/3A6oRsDf3oU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/3A6oRsDf3oU",
       "url": "https://www.youtube.com/watch?v=3A6oRsDf3oU",
-      "creator": { "@type": "Person", "name": "Coach Dennis" },
-      "duration": "PT286S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Passing the Lockdown: shutting down the entry",
-      "description": "Electric Chair Entry from Deep Half (Defender) film study: Passing the Lockdown: shutting down the entry, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/gtsKv_sDRnw/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/gtsKv_sDRnw",
-      "url": "https://www.youtube.com/watch?v=gtsKv_sDRnw",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT359S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "The Best Lockdown Counter",
-      "description": "Electric Chair Entry from Deep Half (Defender) film study: The Best Lockdown Counter, taught by Keenan Cornelius.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/O6HinOc-zvA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/O6HinOc-zvA",
-      "url": "https://www.youtube.com/watch?v=O6HinOc-zvA",
-      "creator": { "@type": "Person", "name": "Keenan Cornelius" },
-      "duration": "PT538S"
+      "duration": "PT285S"
     }
   ]
 }
@@ -210,23 +187,7 @@ As the defender in deep half guard top when your opponent attempts the Electric 
 
 ![](https://www.youtube.com/watch?v=3A6oRsDf3oU)
 
-<p class="clip-credit"><strong>Lockdown and Electric Chair Counters and Escapes</strong> — taught by Coach Dennis · 4:46 · <a href="https://www.youtube.com/watch?v=3A6oRsDf3oU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=gtsKv_sDRnw)
-
-<p class="clip-credit"><strong>Passing the Lockdown: shutting down the entry</strong> — taught by Lachlan Giles · 5:59 · <a href="https://www.youtube.com/watch?v=gtsKv_sDRnw" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=O6HinOc-zvA)
-
-<p class="clip-credit"><strong>The Best Lockdown Counter</strong> — taught by Keenan Cornelius · 8:58 · <a href="https://www.youtube.com/watch?v=O6HinOc-zvA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Lockdown and Electric Chair counters and escapes for Jiu-Jitsu, MMA and…</strong> · 4:45 · <a href="https://www.youtube.com/watch?v=3A6oRsDf3oU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

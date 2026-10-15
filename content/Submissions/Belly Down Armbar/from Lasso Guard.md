@@ -46,35 +46,12 @@ description: "Master the belly down armbar finish from lasso guard. Learn grip t
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Lasso Tripod Finish with Armbar",
-      "description": "Belly Down Armbar from Lasso Guard film study: Lasso Tripod Finish with Armbar, taught by Marcos Tinoco.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/0Szhzt-o9Cs/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/0Szhzt-o9Cs",
-      "url": "https://www.youtube.com/watch?v=0Szhzt-o9Cs",
-      "creator": { "@type": "Person", "name": "Marcos Tinoco" },
-      "duration": "PT37S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Lasso Sweep to Armbar",
-      "description": "Belly Down Armbar from Lasso Guard film study: Lasso Sweep to Armbar, taught by BJJ Recap.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/tb4J2D6Wm28/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/tb4J2D6Wm28",
-      "url": "https://www.youtube.com/watch?v=tb4J2D6Wm28",
-      "creator": { "@type": "Person", "name": "BJJ Recap" },
-      "duration": "PT37S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Lasso Guard to Armbar",
-      "description": "Belly Down Armbar from Lasso Guard film study: Lasso Guard to Armbar, taught by Sickness Ferro.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/RdSVo5wesuE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/RdSVo5wesuE",
-      "url": "https://www.youtube.com/watch?v=RdSVo5wesuE",
-      "creator": { "@type": "Person", "name": "Sickness Ferro" },
-      "duration": "PT115S"
+      "name": "Nathiely De Jesus - Lasso of Truth - Lasso to Armlock / Belly Down Armbar\u2026",
+      "description": "Belly Down Armbar from Lasso Guard film study: Nathiely De Jesus - Lasso of Truth - Lasso to Armlock / Belly Down Armbar\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/tWjTkBq_Fgc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/tWjTkBq_Fgc",
+      "url": "https://www.youtube.com/watch?v=tWjTkBq_Fgc",
+      "duration": "PT425S"
     }
   ]
 }
@@ -137,25 +114,9 @@ From a strategic perspective, this submission works best when the opponent is fo
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=0Szhzt-o9Cs)
+![](https://www.youtube.com/watch?v=tWjTkBq_Fgc)
 
-<p class="clip-credit"><strong>Lasso Tripod Finish with Armbar</strong> — taught by Marcos Tinoco · 0:37 · <a href="https://www.youtube.com/watch?v=0Szhzt-o9Cs" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=tb4J2D6Wm28)
-
-<p class="clip-credit"><strong>Lasso Sweep to Armbar</strong> — taught by BJJ Recap · 0:37 · <a href="https://www.youtube.com/watch?v=tb4J2D6Wm28" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=RdSVo5wesuE)
-
-<p class="clip-credit"><strong>Lasso Guard to Armbar</strong> — taught by Sickness Ferro · 1:55 · <a href="https://www.youtube.com/watch?v=RdSVo5wesuE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Nathiely De Jesus - Lasso of Truth - Lasso to Armlock / Belly Down Armbar…</strong> · 7:05 · <a href="https://www.youtube.com/watch?v=tWjTkBq_Fgc" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

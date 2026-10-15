@@ -383,31 +383,12 @@
     "safety_considerations": "This transition involves controlled leg manipulation and carries low injury risk when performed with proper technique. Avoid explosive hooking motions that could hyperextend your own knee or ankle during the threading sequence. When drilling, ensure the standing partner maintains safe balance and has adequate space to step or fall safely if swept unexpectedly during the transition. Communicate with training partners about knee sensitivity before practicing repeated hook insertions behind the knee joint, as the back of the knee can be sensitive to pressure from the hooking calf.",
     "clips": [
       {
-        "id": "AhsXraebbdg",
-        "title": "Marcelo Garcia single leg X to X-guard sweep",
-        "by": "Marcelo Garcia",
+        "id": "XELDoBTfGpM",
+        "title": "Emily Kwok Teaches a Single Leg X to X Guard Drill",
+        "channel": "Kingston Jiu Jitsu",
+        "duration": 176,
         "vertical": false,
-        "channel": "jen jitsu",
-        "duration": 47,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "zbYb6sOYC8w",
-        "title": "X-guard sweep demonstration",
-        "by": "Marcelo Garcia",
-        "vertical": false,
-        "channel": "CHOKE LABORATORY",
-        "duration": 53,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "EcxCadpBePk",
-        "title": "Single leg X to X-guard and reverse X options",
-        "by": "Steven Kaloustian",
-        "vertical": false,
-        "channel": "Steven Kaloustian",
-        "duration": 97,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },
@@ -572,25 +553,6 @@
         "description": "Full positional sparring starting from SLX with partner free to attempt any attack including X-Guard transitions, sweeps, and leg lock entries. Practice reading their intentions through recognition cues and selecting the appropriate defensive response. Competition-pace rounds with full resistance."
       }
     ],
-    "clips": [
-      {
-        "id": "VtBYEY7UvZ8",
-        "title": "Technical stand to escape X-guard",
-        "by": "Elevate Jiu Jitsu coach",
-        "vertical": false,
-        "channel": "Elevate Jiu Jitsu MAG",
-        "duration": 49,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "qStfwTHPxLw",
-        "title": "X-guard defence for the standing passer",
-        "by": "Bermuda Martial Arts coach",
-        "vertical": false,
-        "channel": "Bermuda Martial Arts",
-        "duration": 136,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

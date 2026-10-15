@@ -473,22 +473,12 @@
     ],
     "clips": [
       {
-        "id": "GQeS3xTXlb0",
-        "title": "Z-Guard pass to the back",
-        "by": "Animal",
-        "vertical": false,
-        "channel": "Animal",
-        "duration": 48,
-        "verified": "2026-07-14"
-      },
-      {
         "id": "39EhiiW-p6o",
-        "title": "How to pass the Z-Guard (no-gi)",
-        "by": "Zach LeCates",
-        "vertical": false,
+        "title": "How to pass the Z guard No-Gi",
         "channel": "Zach LeCates BJJ",
         "duration": 151,
-        "verified": "2026-07-14"
+        "vertical": false,
+        "front": true
       }
     ]
   },
@@ -915,31 +905,17 @@
     ],
     "clips": [
       {
-        "id": "T3Gwg-ABsZA",
-        "title": "Three attacks from the Z-Guard",
-        "by": "Way of BJJ",
-        "vertical": false,
-        "channel": "Way of BJJ",
-        "duration": 67,
-        "verified": "2026-07-14"
+        "id": "L6X-zOwKKCw",
+        "title": "Z Guard Basics",
+        "channel": "5th Element BJJ/MMA",
+        "duration": 218,
+        "front": true
       },
       {
-        "id": "TrVf9YzEe0E",
-        "title": "Reverse Z-Guard options, Craig Jones style",
-        "by": "Craig Jones",
-        "vertical": false,
-        "channel": "Phantom Punch Breakdowns",
-        "duration": 139,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "vMqDIi10z4k",
-        "title": "Dog Bar from Z-Guard",
-        "by": "Craig Jones",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 61,
-        "verified": "2026-07-14"
+        "id": "j2Yo87312cg",
+        "title": "Z Guard Fundamentals",
+        "channel": "New World Jiu Jitsu",
+        "duration": 765
       }
     ]
   },
@@ -1057,33 +1033,5 @@
       }
     }
   ],
-  "clips": [
-    {
-      "id": "T3Gwg-ABsZA",
-      "title": "Use the Z-Guard: three options",
-      "by": "Way of BJJ",
-      "vertical": false,
-      "channel": "Way of BJJ",
-      "duration": 67,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "TrVf9YzEe0E",
-      "title": "Reverse Z-Guard options, Craig Jones style",
-      "by": "Craig Jones",
-      "vertical": false,
-      "channel": "Phantom Punch Breakdowns",
-      "duration": 139,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "cnW27eV9H8U",
-      "title": "Triangle from the Z-Guard",
-      "by": "Evolve MMA",
-      "vertical": false,
-      "channel": "Evolve Mixed Martial Arts",
-      "duration": 95,
-      "verified": "2026-07-14"
-    }
-  ]
+  "clips": []
 }

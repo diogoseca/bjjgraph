@@ -421,35 +421,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "Sb-atqD_TqQ",
-        "title": "Short Choke from Back Position",
-        "by": "Cosens MMA",
-        "vertical": false,
-        "channel": "Cosens MMA LLC",
-        "duration": 55,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "F5o8VrMw1SE",
-        "title": "Back Take and Rear Naked Choke",
-        "by": "Dr. Deng",
-        "vertical": false,
-        "channel": "Dr. Deng",
-        "duration": 27,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "-lMabjvtaLk",
-        "title": "Entries Into Rear Triangle Back Position",
-        "by": "John Danaher",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 252,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "from Rear Triangle Defender",
@@ -620,34 +592,6 @@
         "description": "Positional sparring starting in rear triangle bottom with partner attacking the RNC at full intensity. Defender earns points for preventing the choke for 60 seconds, additional points for escaping the position entirely. Build the composure and technical precision needed for real defensive scenarios."
       }
     ],
-    "clips": [
-      {
-        "id": "X1pU1OdFhtU",
-        "title": "Escaping the Rear Naked Choke",
-        "by": "Usher BJJ",
-        "vertical": false,
-        "channel": "USHER BJJ",
-        "duration": 89,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "ALOnfwB5yGQ",
-        "title": "Escaping the body triangle from the back",
-        "by": "Jiu-Jitsu Times",
-        "vertical": false,
-        "channel": "Jiu-Jitsu Times",
-        "duration": 216,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "RscLPT0F-DE",
-        "title": "Best way to escape the body triangle",
-        "by": "Gordon Ryan",
-        "vertical": false,
-        "channel": "Bernardo Faria BJJ Fanatics",
-        "duration": 595,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

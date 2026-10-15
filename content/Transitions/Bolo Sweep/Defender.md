@@ -150,39 +150,6 @@ description: "How to defend and counter the Bolo Sweep in BJJ. Recognition cues,
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Bolo Sweep (Defender) \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "De La Riva counter into back take",
-      "description": "Bolo Sweep (Defender) film study: De La Riva counter into back take, taught by Vicente Cavalcanti.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/bdD496w3erA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/bdD496w3erA",
-      "url": "https://www.youtube.com/watch?v=bdD496w3erA",
-      "creator": { "@type": "Person", "name": "Vicente Cavalcanti" },
-      "duration": "PT56S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Passing De La Riva with your pant controlled",
-      "description": "Bolo Sweep (Defender) film study: Passing De La Riva with your pant controlled, taught by Alec Baulding.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/QSZEm0Y0KIg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/QSZEm0Y0KIg",
-      "url": "https://www.youtube.com/watch?v=QSZEm0Y0KIg",
-      "creator": { "@type": "Person", "name": "Alec Baulding" },
-      "duration": "PT174S"
-    }
-  ]
-}
-</script>
-
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -197,32 +164,6 @@ Effective Bolo defense transforms the attacker's commitment into your passing op
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Bolo Sweep (Defender) in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=bdD496w3erA)
-
-<p class="clip-credit"><strong>De La Riva counter into back take</strong> — taught by Vicente Cavalcanti · 0:56 · <a href="https://www.youtube.com/watch?v=bdD496w3erA" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=QSZEm0Y0KIg)
-
-<p class="clip-credit"><strong>Passing De La Riva with your pant controlled</strong> — taught by Alec Baulding · 2:54 · <a href="https://www.youtube.com/watch?v=QSZEm0Y0KIg" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="recognition-cues" class="content-section">

@@ -796,30 +796,18 @@
     "clips": [
       {
         "id": "d1YBV8UTKds",
-        "title": "Darce choke defense",
-        "by": "Animal",
-        "vertical": false,
+        "title": "Darce Choke defense",
         "channel": "Animal",
-        "duration": 53,
-        "verified": "2026-07-14"
+        "duration": 52,
+        "vertical": false,
+        "front": true
       },
       {
         "id": "iNZpCbutyrM",
-        "title": "Darce escape",
-        "by": "Thunderdome BJJ",
-        "vertical": false,
+        "title": "Darce Escape",
         "channel": "Thunderdome BJJ",
-        "duration": 54,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "rgf9QUebMWE",
-        "title": "Darce killer: the defense you need",
-        "by": "Malachy Friedman",
-        "vertical": false,
-        "channel": "Malachy Friedman",
-        "duration": 78,
-        "verified": "2026-07-14"
+        "duration": 53,
+        "vertical": false
       }
     ]
   },

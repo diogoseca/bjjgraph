@@ -46,35 +46,12 @@ description: "Master the High Elbow Guillotine from Front Headlock with elevated
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "The Marcelotine Choke",
-      "description": "High Elbow Guillotine from Front Headlock film study: The Marcelotine Choke, taught by Marcelo Garcia.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/NUnTxPvjCa0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/NUnTxPvjCa0",
-      "url": "https://www.youtube.com/watch?v=NUnTxPvjCa0",
-      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
-      "duration": "PT73S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Double Elbow to High Elbow Guillotine",
-      "description": "High Elbow Guillotine from Front Headlock film study: Double Elbow to High Elbow Guillotine, taught by Marcelo Garcia.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/IvSVZuezQGo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/IvSVZuezQGo",
-      "url": "https://www.youtube.com/watch?v=IvSVZuezQGo",
-      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
-      "duration": "PT171S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "High Elbow Guillotine (Marcelotine)",
-      "description": "High Elbow Guillotine from Front Headlock film study: High Elbow Guillotine (Marcelotine), taught by Wrecking Crew BJJ.",
+      "name": "High Elbow Guillotine aka Marcelotine",
+      "description": "High Elbow Guillotine from Front Headlock film study: High Elbow Guillotine aka Marcelotine.",
       "thumbnailUrl": "https://i.ytimg.com/vi/9U5nyBImGj4/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/9U5nyBImGj4",
       "url": "https://www.youtube.com/watch?v=9U5nyBImGj4",
-      "creator": { "@type": "Person", "name": "Wrecking Crew BJJ" },
-      "duration": "PT45S"
+      "duration": "PT44S"
     }
   ]
 }
@@ -137,25 +114,9 @@ The submission's effectiveness at high levels stems from its two-phase attack st
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=NUnTxPvjCa0)
-
-<p class="clip-credit"><strong>The Marcelotine Choke</strong> — taught by Marcelo Garcia · 1:13 · <a href="https://www.youtube.com/watch?v=NUnTxPvjCa0" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=IvSVZuezQGo)
-
-<p class="clip-credit"><strong>Double Elbow to High Elbow Guillotine</strong> — taught by Marcelo Garcia · 2:51 · <a href="https://www.youtube.com/watch?v=IvSVZuezQGo" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=9U5nyBImGj4)
 
-<p class="clip-credit"><strong>High Elbow Guillotine (Marcelotine)</strong> — taught by Wrecking Crew BJJ · 0:45 · <a href="https://www.youtube.com/watch?v=9U5nyBImGj4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>High Elbow Guillotine aka Marcelotine</strong> · 0:44 · <a href="https://www.youtube.com/watch?v=9U5nyBImGj4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

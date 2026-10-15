@@ -180,24 +180,12 @@ description: "How to execute Kneebar from Ushiro in BJJ. Attacking perspective w
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Top ushiro to kneebar",
-      "description": "Kneebar from Ushiro (Attacker) film study: Top ushiro to kneebar, taught by Modesto Judo Club coach.",
+      "name": "Top Ushiro To Knee Bar #877",
+      "description": "Kneebar from Ushiro (Attacker) film study: Top Ushiro To Knee Bar #877.",
       "thumbnailUrl": "https://i.ytimg.com/vi/g3j7TZYoW14/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/g3j7TZYoW14",
       "url": "https://www.youtube.com/watch?v=g3j7TZYoW14",
-      "creator": { "@type": "Person", "name": "Modesto Judo Club coach" },
       "duration": "PT115S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Two ways to attack a kneebar from cross ashi",
-      "description": "Kneebar from Ushiro (Attacker) film study: Two ways to attack a kneebar from cross ashi, taught by King Kneebar.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/0wHq6PZVGfI/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/0wHq6PZVGfI",
-      "url": "https://www.youtube.com/watch?v=0wHq6PZVGfI",
-      "creator": { "@type": "Person", "name": "King Kneebar" },
-      "duration": "PT140S"
     }
   ]
 }
@@ -231,15 +219,7 @@ Strategically, the kneebar from ushiro functions as a chain attack within the le
 
 ![](https://www.youtube.com/watch?v=g3j7TZYoW14)
 
-<p class="clip-credit"><strong>Top ushiro to kneebar</strong> — taught by Modesto Judo Club coach · 1:55 · <a href="https://www.youtube.com/watch?v=g3j7TZYoW14" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=0wHq6PZVGfI)
-
-<p class="clip-credit"><strong>Two ways to attack a kneebar from cross ashi</strong> — taught by King Kneebar · 2:20 · <a href="https://www.youtube.com/watch?v=0wHq6PZVGfI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Top Ushiro To Knee Bar #877</strong> · 1:55 · <a href="https://www.youtube.com/watch?v=g3j7TZYoW14" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

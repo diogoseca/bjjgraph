@@ -160,35 +160,22 @@ description: "Learn to defend the Stack Pass from Double Unders in BJJ. Recognit
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Double under stack pass counter to triangle",
-      "description": "Stack Pass from Double Unders (Defender) film study: Double under stack pass counter to triangle, taught by Adam Bradley.",
+      "name": "Double Under Stack Pass Counter - Triangle",
+      "description": "Stack Pass from Double Unders (Defender) film study: Double Under Stack Pass Counter - Triangle.",
       "thumbnailUrl": "https://i.ytimg.com/vi/1UOj60dc540/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/1UOj60dc540",
       "url": "https://www.youtube.com/watch?v=1UOj60dc540",
-      "creator": { "@type": "Person", "name": "Adam Bradley" },
-      "duration": "PT69S"
+      "duration": "PT68S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Double under stack defense and counter",
-      "description": "Stack Pass from Double Unders (Defender) film study: Double under stack defense and counter, taught by Wim Deputter.",
+      "name": "Very Effective Double Under Stack Defense And Counter",
+      "description": "Stack Pass from Double Unders (Defender) film study: Very Effective Double Under Stack Defense And Counter.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Ad0qtay9IVQ/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Ad0qtay9IVQ",
       "url": "https://www.youtube.com/watch?v=Ad0qtay9IVQ",
-      "creator": { "@type": "Person", "name": "Wim Deputter" },
       "duration": "PT130S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Defensive sweep from the double under pass",
-      "description": "Stack Pass from Double Unders (Defender) film study: Defensive sweep from the double under pass, taught by Smith.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/uILaTRBgpG0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/uILaTRBgpG0",
-      "url": "https://www.youtube.com/watch?v=uILaTRBgpG0",
-      "creator": { "@type": "Person", "name": "Smith" },
-      "duration": "PT28S"
     }
   ]
 }
@@ -218,7 +205,7 @@ Defending the Stack Pass from Double Unders requires immediate recognition and d
 
 ![](https://www.youtube.com/watch?v=1UOj60dc540)
 
-<p class="clip-credit"><strong>Double under stack pass counter to triangle</strong> — taught by Adam Bradley · 1:09 · <a href="https://www.youtube.com/watch?v=1UOj60dc540" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Double Under Stack Pass Counter - Triangle</strong> · 1:08 · <a href="https://www.youtube.com/watch?v=1UOj60dc540" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -226,15 +213,7 @@ Defending the Stack Pass from Double Unders requires immediate recognition and d
 
 ![](https://www.youtube.com/watch?v=Ad0qtay9IVQ)
 
-<p class="clip-credit"><strong>Double under stack defense and counter</strong> — taught by Wim Deputter · 2:10 · <a href="https://www.youtube.com/watch?v=Ad0qtay9IVQ" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=uILaTRBgpG0)
-
-<p class="clip-credit"><strong>Defensive sweep from the double under pass</strong> — taught by Smith · 0:28 · <a href="https://www.youtube.com/watch?v=uILaTRBgpG0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Very Effective Double Under Stack Defense And Counter</strong> · 2:10 · <a href="https://www.youtube.com/watch?v=Ad0qtay9IVQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

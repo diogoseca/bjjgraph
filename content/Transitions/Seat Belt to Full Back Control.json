@@ -371,35 +371,7 @@
       }
     ],
     "safety_considerations": "Seat Belt to Full Back Control is a positional transition with low injury risk compared to submissions, but practitioners should be aware of several safety factors. The seat belt grip can create rib compression discomfort when combined with aggressive chest-to-back pressure—adjust intensity during drilling to prevent rib bruising. Hook insertion should be performed with controlled foot placement rather than aggressive stamping that could strike the defender's groin or inner thigh. During live training, the defender should tap if rib compression or breathing restriction from combined seat belt and hook pressure becomes excessive rather than enduring dangerous levels of pressure. Partners should communicate clearly about intensity levels during positional sparring from this configuration.",
-    "clips": [
-      {
-        "id": "t_5HZQV-Xmo",
-        "title": "Seatbelt control and attacks from the back",
-        "by": "Royal Grappling Academy",
-        "vertical": false,
-        "channel": "Royal Grappling Academy BJJ Dublin",
-        "duration": 275,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "NUMXYYjEszU",
-        "title": "Establishing Hooks and Rear Mount - Near Side Entries",
-        "by": "John Danaher",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 509,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "8xNRxgQ9MGU",
-        "title": "Seat Belt and Rear Naked Choke",
-        "by": "Marcelo Garcia",
-        "vertical": false,
-        "channel": "Marcelo Garcia Jiu-Jitsu",
-        "duration": 444,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Seat Belt to Full Back Control Defender",
@@ -558,34 +530,6 @@
         "description": "Full resistance positional sparring starting from seat belt control. Defender uses all available tools: knee clamp, timed escapes, grip fighting, and bridge-and-turn sequences. Success is measured by preventing full back control establishment within 30-second rounds."
       }
     ],
-    "clips": [
-      {
-        "id": "wDSd5Qy8Kac",
-        "title": "Babybridge back-defense posture",
-        "by": "Priit Mihkelson",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 231,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "hGzykDrlskc",
-        "title": "Escaping Back Control Seatbelt with No Hooks",
-        "by": "Dinu Bucalet",
-        "vertical": false,
-        "channel": "Dinu Bucalet BJJ",
-        "duration": 139,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "9TRErC6vbKo",
-        "title": "Back Escape - No Gi",
-        "by": "Lachlan Giles",
-        "vertical": false,
-        "channel": "Absolute MMA St Kilda - Melbourne",
-        "duration": 334,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

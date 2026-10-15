@@ -165,35 +165,12 @@ description: "Master Single Leg X-Guard Top in BJJ. Control, pass, and attack fr
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Single Leg X sweep defense (no-gi)",
-      "description": "Single Leg X-Guard (Top) film study: Single Leg X sweep defense (no-gi), taught by Tiger Muay Thai.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/gwEmeb9RSk4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/gwEmeb9RSk4",
-      "url": "https://www.youtube.com/watch?v=gwEmeb9RSk4",
-      "creator": { "@type": "Person", "name": "Tiger Muay Thai" },
-      "duration": "PT227S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Single Leg X sweep defense: forcing a back step pass",
-      "description": "Single Leg X-Guard (Top) film study: Single Leg X sweep defense: forcing a back step pass, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/FAlfIHm3Vqg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/FAlfIHm3Vqg",
-      "url": "https://www.youtube.com/watch?v=FAlfIHm3Vqg",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT205S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Passing Single Leg X",
-      "description": "Single Leg X-Guard (Top) film study: Passing Single Leg X, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/XzILYmERAV8/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/XzILYmERAV8",
-      "url": "https://www.youtube.com/watch?v=XzILYmERAV8",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT453S"
+      "name": "Escaping Ashi Garami- Leg Lock Defense. Scott Elliott, 10th Planet Richmond",
+      "description": "Single Leg X-Guard (Top) film study: Escaping Ashi Garami- Leg Lock Defense. Scott Elliott, 10th Planet Richmond.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/AQbJMBiWYfU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/AQbJMBiWYfU",
+      "url": "https://www.youtube.com/watch?v=AQbJMBiWYfU",
+      "duration": "PT140S"
     }
   ]
 }
@@ -219,25 +196,9 @@ Single Leg X-Guard Top represents the controlling position when facing an oppone
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=gwEmeb9RSk4)
+![](https://www.youtube.com/watch?v=AQbJMBiWYfU)
 
-<p class="clip-credit"><strong>Single Leg X sweep defense (no-gi)</strong> — taught by Tiger Muay Thai · 3:47 · <a href="https://www.youtube.com/watch?v=gwEmeb9RSk4" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=FAlfIHm3Vqg)
-
-<p class="clip-credit"><strong>Single Leg X sweep defense: forcing a back step pass</strong> — taught by Lachlan Giles · 3:25 · <a href="https://www.youtube.com/watch?v=FAlfIHm3Vqg" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=XzILYmERAV8)
-
-<p class="clip-credit"><strong>Passing Single Leg X</strong> — taught by Lachlan Giles · 7:33 · <a href="https://www.youtube.com/watch?v=XzILYmERAV8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Escaping Ashi Garami- Leg Lock Defense. Scott Elliott, 10th Planet Richmond</strong> · 2:20 · <a href="https://www.youtube.com/watch?v=AQbJMBiWYfU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

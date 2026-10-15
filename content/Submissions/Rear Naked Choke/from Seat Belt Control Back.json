@@ -453,30 +453,11 @@
     "clips": [
       {
         "id": "3H5ZyHEHfpI",
-        "title": "RNC details from the seatbelt",
-        "by": "Coach Brian",
-        "vertical": false,
+        "title": "TMG Clips #9 - RNC Details From Seatbelt",
         "channel": "TeachMeGrappling Coach Brian",
         "duration": 133,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "eMbkVDRreIQ",
-        "title": "3 favorite chokes from the back",
-        "by": "Matt Arroyo",
         "vertical": false,
-        "channel": "Matt Arroyo Jiu Jitsu ",
-        "duration": 87,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "Sb-atqD_TqQ",
-        "title": "Short choke from back position",
-        "by": "Cosens MMA",
-        "vertical": false,
-        "channel": "Cosens MMA LLC",
-        "duration": 55,
-        "verified": "2026-07-14"
+        "front": true
       }
     ]
   },
@@ -666,25 +647,6 @@
         "description": "Defend against full-speed back attacks from an experienced training partner. Focus on surviving for defined time periods — start with 30 seconds and build to 2 minutes. Develop awareness of when to continue defending versus when to tap. Build composure under maximum pressure."
       }
     ],
-    "clips": [
-      {
-        "id": "L1KeviYu1FQ",
-        "title": "Back escape and RNC defence",
-        "by": "Arete BJJ Malta",
-        "vertical": false,
-        "channel": "Arete Brazilian Jiu Jitsu Malta",
-        "duration": 25,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "ylLO80PM4zg",
-        "title": "Rear naked choke escape",
-        "by": "Renato Migliaccio",
-        "vertical": false,
-        "channel": "Renato Migliaccio",
-        "duration": 16,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   }
 }

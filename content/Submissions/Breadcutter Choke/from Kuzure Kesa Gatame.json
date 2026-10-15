@@ -424,35 +424,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "xab75xOnHqk",
-        "title": "Bread Cutter Choke, Roger Gracie Style",
-        "by": "Andy Hagans",
-        "vertical": false,
-        "channel": "Guardian Jiu-Jitsu - Holland, Michigan",
-        "duration": 70,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "AKfEIInO9Tk",
-        "title": "Kesa Gatame Paper Cutter Choke",
-        "by": "AMAG Fight Team",
-        "vertical": false,
-        "channel": "AMAGFightTeam",
-        "duration": 38,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "gYyapPk-Ib8",
-        "title": "Squeeze the Bread Choke Detail",
-        "by": "Ray Griffin",
-        "vertical": false,
-        "channel": "Ray Griffin",
-        "duration": 78,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "from Kuzure Kesa Gatame Defender",
@@ -627,34 +599,6 @@
         "description": "Start from established Kuzure Kesa Gatame with partner at full resistance. Defend the breadcutter while also managing other submission threats. Practice decision-making about when to prioritize collar defense versus positional escape. Tap early when caught to build safe training habits."
       }
     ],
-    "clips": [
-      {
-        "id": "fvp5_BVEtLg",
-        "title": "Kesa Gatame Pressure Defense with Framing",
-        "by": "Kohbukan Sisu",
-        "vertical": false,
-        "channel": "Kohbukan Sisu",
-        "duration": 84,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "5eAmcE9UXNc",
-        "title": "Modified Kesa-Gatame Escape",
-        "by": "Shane Moore",
-        "vertical": false,
-        "channel": "Shane Moore Jiu Jitsu",
-        "duration": 126,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "2okf5X17jeg",
-        "title": "Scarf Hold (Kesa Gatame) Escape",
-        "by": "Bruce Fowler",
-        "vertical": false,
-        "channel": "Renzo Gracie Jiu Jitsu DFW",
-        "duration": 230,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   }
 }

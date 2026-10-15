@@ -373,35 +373,7 @@
       }
     ],
     "safety_considerations": "The Sweep from New York is a positional reversal rather than a joint lock or choke, making it relatively low-risk compared to submission techniques. However, practitioners should be aware of several safety concerns: the explosive bridge can strain the lower back if performed with poor mechanics—drive through the hips rather than arching the lumbar spine. The overhook can create shoulder strain on the trapped opponent if maintained too aggressively during the reversal, so release pressure once mount is established. During training, communicate with your partner about the intensity of the bridge to prevent unexpected impacts when landing in mount. Partners with shoulder injuries should be cautious about the overhook pressure during the sweep rotation.",
-    "clips": [
-      {
-        "id": "htWNfAakkAY",
-        "title": "Mexican dead orchard from rubber guard",
-        "by": "Eddie Bravo",
-        "vertical": false,
-        "channel": "Eddie Bravo",
-        "duration": 61,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "Cllvkg2qg-w",
-        "title": "Rubber guard live drills",
-        "by": "Eddie Bravo",
-        "vertical": false,
-        "channel": "Eddie Bravo",
-        "duration": 61,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "jT4wPY2Dc_U",
-        "title": "Dead orchard armbar from rubber guard",
-        "by": "Eddie Bravo",
-        "vertical": false,
-        "channel": "James O'Brien",
-        "duration": 88,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Sweep from New York Defender",
@@ -564,34 +536,6 @@
         "description": "Start in New York Top at full competition intensity. Partner works all New York attacks—sweeps, submissions, and positional advances. Defend everything while working systematic escape. The sweep defense becomes one component of complete New York Top defensive strategy. Track position retention and escape success across 5-minute rounds."
       }
     ],
-    "clips": [
-      {
-        "id": "QzT5BsOqrMk",
-        "title": "Elbow position to shut down rubber guard attacks",
-        "by": "Brandon McCaghren",
-        "vertical": false,
-        "channel": "Brandon Mccaghren",
-        "duration": 57,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "iwcfKUPNZNs",
-        "title": "Why rubber guard doesn't work — beating the position",
-        "by": "Brandon Mccaghren",
-        "vertical": false,
-        "channel": "Brandon Mccaghren",
-        "duration": 792,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "Yct0FnRjGP8",
-        "title": "Pillory counter used against rubber guard",
-        "by": "Gabriel Raindog",
-        "vertical": false,
-        "channel": "gabrielraindog",
-        "duration": 133,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

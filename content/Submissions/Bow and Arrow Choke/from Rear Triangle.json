@@ -425,35 +425,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "xqNhZVNhxnE",
-        "title": "Bow and arrow choke from back control",
-        "by": "Evolve MMA",
-        "vertical": false,
-        "channel": "Evolve Mixed Martial Arts",
-        "duration": 45,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "rc77idEskwo",
-        "title": "Bow and arrow choke",
-        "by": "Helena Crevar",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 55,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "R5LFNqtx1ps",
-        "title": "Bow & arrow choke",
-        "by": "Gracie Barra",
-        "vertical": false,
-        "channel": "Gracie Barra Jiu-jitsu",
-        "duration": 66,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "from Rear Triangle Defender",
@@ -628,34 +600,6 @@
         "description": "Start in rear triangle with partner working full-speed bow and arrow attempts. Defend using all available options including grip fighting, chin defense, and rolling escapes. Practice recognizing when to tap rather than continuing to defend a fully locked submission. 2-minute rounds with reset after finish or successful escape to guard. Track defensive success rate to measure improvement."
       }
     ],
-    "clips": [
-      {
-        "id": "_sBB-O8fqP4",
-        "title": "Back escape — standing up",
-        "by": "Priit Mihkelson",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 114,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "6PP0y4ael7w",
-        "title": "Escaping the bow and arrow choke late",
-        "by": "Henry Akins",
-        "vertical": false,
-        "channel": "Henry Akins' Hidden Jiu-Jitsu",
-        "duration": 134,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "QVUP7U8W-0c",
-        "title": "Bow and arrow choke defense fundamentals",
-        "by": "Stephan Kesting",
-        "vertical": false,
-        "channel": "Stephan Kesting",
-        "duration": 246,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

@@ -405,26 +405,7 @@
       }
     ],
     "safety_considerations": "The Standing Escape from X-Guard carries moderate injury risk primarily during the extraction phase. Avoid explosive jerking motions when removing the inside hook, as sudden forceful extraction can hyperextend the bottom player's knee when their leg is deeply entangled. Maintain controlled movement throughout all phases of the escape. If hooks resist extraction through mechanical means, reassess your sequence rather than forcing through muscular effort, which risks knee ligament strain for the bottom player and ankle injuries for both practitioners. When practicing the sit-down variant, descend in a controlled manner to avoid landing on the bottom player's legs or face.",
-    "clips": [
-      {
-        "id": "JSOM86_1lRo",
-        "title": "Single leg X guard escapes and footlock counters",
-        "by": "James O'Connor",
-        "vertical": false,
-        "channel": "James O’Connor",
-        "duration": 111,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "C1lYVhDXwvw",
-        "title": "How to Pass X-Guard",
-        "by": "Kaynan Duarte",
-        "vertical": false,
-        "channel": "The Grapple Club",
-        "duration": 116,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Standing Escape from X-Guard Defender",
@@ -615,25 +596,6 @@
         "description": "Positional sparring starting in X-Guard with full resistance from both players. Bottom player scores for sweeps, maintained guard at the end of the round, or successful transitions to alternative guards. Top player scores for achieving standing position or completing a guard pass. Build the complete defensive chain under realistic conditions."
       }
     ],
-    "clips": [
-      {
-        "id": "7OnjPU1WjH4",
-        "title": "X-guard sweep against a standing opponent",
-        "by": "Marcelo Garcia",
-        "vertical": false,
-        "channel": "Gentle Art Media",
-        "duration": 35,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "c8JBXJMc0Oc",
-        "title": "X-guard sweep detail",
-        "by": "Marcelo Garcia",
-        "vertical": false,
-        "channel": "Butterfly The World",
-        "duration": 81,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

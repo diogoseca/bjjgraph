@@ -46,35 +46,12 @@ description: "Master Sit Through Escape from Crab Ride. Wrestling-based hip rota
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Escaping the crab ride",
-      "description": "Sit Through Escape film study: Escaping the crab ride, taught by Brian Hawkins.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/-S6bU0mQp1Y/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/-S6bU0mQp1Y",
-      "url": "https://www.youtube.com/watch?v=-S6bU0mQp1Y",
-      "creator": { "@type": "Person", "name": "Brian Hawkins" },
-      "duration": "PT78S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Getting out from crab ride",
-      "description": "Sit Through Escape film study: Getting out from crab ride, taught by Iron Faith Wrestling.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/cUpVFqRUXY4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/cUpVFqRUXY4",
-      "url": "https://www.youtube.com/watch?v=cUpVFqRUXY4",
-      "creator": { "@type": "Person", "name": "Iron Faith Wrestling" },
-      "duration": "PT92S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Crab ride defense to low leg cradle",
-      "description": "Sit Through Escape film study: Crab ride defense to low leg cradle, taught by Michael Trasso.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/jdUhyICbKSM/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/jdUhyICbKSM",
-      "url": "https://www.youtube.com/watch?v=jdUhyICbKSM",
-      "creator": { "@type": "Person", "name": "Michael Trasso" },
-      "duration": "PT33S"
+      "name": "How to score with a CRAB RIDE when your opponent sits out",
+      "description": "Sit Through Escape film study: How to score with a CRAB RIDE when your opponent sits out.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/X06h6EJpV24/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/X06h6EJpV24",
+      "url": "https://www.youtube.com/watch?v=X06h6EJpV24",
+      "duration": "PT52S"
     }
   ]
 }
@@ -128,25 +105,9 @@ Strategically, the Sit Through Escape represents a high-percentage option when t
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=-S6bU0mQp1Y)
+![](https://www.youtube.com/watch?v=X06h6EJpV24)
 
-<p class="clip-credit"><strong>Escaping the crab ride</strong> — taught by Brian Hawkins · 1:18 · <a href="https://www.youtube.com/watch?v=-S6bU0mQp1Y" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=cUpVFqRUXY4)
-
-<p class="clip-credit"><strong>Getting out from crab ride</strong> — taught by Iron Faith Wrestling · 1:32 · <a href="https://www.youtube.com/watch?v=cUpVFqRUXY4" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=jdUhyICbKSM)
-
-<p class="clip-credit"><strong>Crab ride defense to low leg cradle</strong> — taught by Michael Trasso · 0:33 · <a href="https://www.youtube.com/watch?v=jdUhyICbKSM" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How to score with a CRAB RIDE when your opponent sits out</strong> · 0:52 · <a href="https://www.youtube.com/watch?v=X06h6EJpV24" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -164,24 +164,12 @@ description: "Defend the straight ankle lock from ankle lock control. Boot defen
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Ankle Lock Escape: Put On the Boot",
-      "description": "Straight Ankle Lock from Straight Ankle Lock Control (Defender) film study: Ankle Lock Escape: Put On the Boot, taught by Ritchie Yip.",
+      "name": "Ankle lock escape  put on the boot",
+      "description": "Straight Ankle Lock from Straight Ankle Lock Control (Defender) film study: Ankle lock escape  put on the boot.",
       "thumbnailUrl": "https://i.ytimg.com/vi/CUnX7TOpb-A/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/CUnX7TOpb-A",
       "url": "https://www.youtube.com/watch?v=CUnX7TOpb-A",
-      "creator": { "@type": "Person", "name": "Ritchie Yip" },
       "duration": "PT16S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Straight Ankle Lock: Defence \u0026 Escapes",
-      "description": "Straight Ankle Lock from Straight Ankle Lock Control (Defender) film study: Straight Ankle Lock: Defence \u0026 Escapes, taught by Jiu Jitsu Brotherhood.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/vg-Luhls7yE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/vg-Luhls7yE",
-      "url": "https://www.youtube.com/watch?v=vg-Luhls7yE",
-      "creator": { "@type": "Person", "name": "Jiu Jitsu Brotherhood" },
-      "duration": "PT164S"
     }
   ]
 }
@@ -212,15 +200,7 @@ Defending the straight ankle lock from ankle lock control requires immediate rec
 
 ![](https://www.youtube.com/watch?v=CUnX7TOpb-A)
 
-<p class="clip-credit"><strong>Ankle Lock Escape: Put On the Boot</strong> — taught by Ritchie Yip · 0:16 · <a href="https://www.youtube.com/watch?v=CUnX7TOpb-A" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=vg-Luhls7yE)
-
-<p class="clip-credit"><strong>Straight Ankle Lock: Defence &amp; Escapes</strong> — taught by Jiu Jitsu Brotherhood · 2:44 · <a href="https://www.youtube.com/watch?v=vg-Luhls7yE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Ankle lock escape  put on the boot</strong> · 0:16 · <a href="https://www.youtube.com/watch?v=CUnX7TOpb-A" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

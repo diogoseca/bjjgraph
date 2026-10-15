@@ -399,31 +399,19 @@
     "safety_considerations": "Deashi Harai is generally one of the safer takedown techniques for both the thrower and the person being thrown, but several safety considerations remain important. First, maintain grip connection throughout the entire technique to control the speed and direction of your partner's fall—never execute the sweep and then release grips, as this can result in uncontrolled backward falls that risk head injury. Second, ensure adequate mat space behind the opponent before attempting the technique in training. Third, both practitioners should have basic understanding of breakfall techniques (ukemi), particularly the backward breakfall, as this is the primary falling pattern from this throw. When first learning, practice on soft mats or crash pads until the mechanics are reliable. For the person being thrown, resist the urge to post backward with your hands during the fall, as this can result in wrist or elbow injuries—instead, execute proper breakfall by slapping the mat with your arms. Finally, when drilling with newer partners, control the speed and force of the throw to match their skill level and falling ability.",
     "clips": [
       {
-        "id": "9pUI4_Nrg9Q",
-        "title": "Deashi harai foot sweep",
-        "by": "B King",
-        "vertical": false,
-        "channel": "B King",
-        "duration": 39,
-        "verified": "2026-07-15"
-      },
-      {
         "id": "Ckv5xkIoWUk",
-        "title": "De ashi harai foot sweep on Giancarlo Bodoni",
-        "by": "John Danaher",
-        "vertical": false,
+        "title": "John Danaher Shows a Beautiful Foot Sweep on Giancarlo Bodoni! (De Ashi Harai)",
         "channel": "Dohn Janaher ",
         "duration": 34,
-        "verified": "2026-07-15"
+        "vertical": false,
+        "front": true
       },
       {
-        "id": "rU6zeS9abRc",
-        "title": "Textbook foot sweep",
-        "by": "Grappler Kingdom",
-        "vertical": false,
-        "channel": "Grappler Kingdom",
-        "duration": 48,
-        "verified": "2026-07-15"
+        "id": "9pUI4_Nrg9Q",
+        "title": "Deashi Harai Foot Sweep",
+        "channel": "B King",
+        "duration": 38,
+        "vertical": false
       }
     ]
   },
@@ -604,30 +592,11 @@
     "clips": [
       {
         "id": "klXnE1xnfKI",
-        "title": "De ashi barai counter",
-        "by": "FL Jiu Jitsu Studies coach",
-        "vertical": false,
+        "title": "De Ashi Barai  counter",
         "channel": "FL Jiu Jitsu Studies",
         "duration": 12,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "KkJv2CefDDU",
-        "title": "How Not to Get Thrown in Judo",
-        "by": "Shintaro Higashi",
         "vertical": false,
-        "channel": "Shintaro Higashi",
-        "duration": 233,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "C7HnA1zd5Rs",
-        "title": "Judo Throw Counter-Attacks",
-        "by": "Shintaro Higashi",
-        "vertical": false,
-        "channel": "Shintaro Higashi",
-        "duration": 161,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },

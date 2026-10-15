@@ -46,23 +46,11 @@ description: "Learn the Triangle to Omoplata transition in BJJ. Convert failed t
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Chaining Together Triangle and Omoplata",
-      "description": "Triangle to Omoplata film study: Chaining Together Triangle and Omoplata, taught by Mikey Musumeci.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/OGq21nmoG1g/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/OGq21nmoG1g",
-      "url": "https://www.youtube.com/watch?v=OGq21nmoG1g",
-      "creator": { "@type": "Person", "name": "Mikey Musumeci" },
-      "duration": "PT127S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Finishing the Triangle or Switching to Omoplata",
-      "description": "Triangle to Omoplata film study: Finishing the Triangle or Switching to Omoplata, taught by Inverted Gear.",
+      "name": "Finishing the triangle or transitioning to the omplata",
+      "description": "Triangle to Omoplata film study: Finishing the triangle or transitioning to the omplata.",
       "thumbnailUrl": "https://i.ytimg.com/vi/ELRgwbUyZ1U/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/ELRgwbUyZ1U",
       "url": "https://www.youtube.com/watch?v=ELRgwbUyZ1U",
-      "creator": { "@type": "Person", "name": "Inverted Gear" },
       "duration": "PT155S"
     }
   ]
@@ -117,17 +105,9 @@ At the highest levels, this transition functions as part of a three-way attackin
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=OGq21nmoG1g)
-
-<p class="clip-credit"><strong>Chaining Together Triangle and Omoplata</strong> — taught by Mikey Musumeci · 2:07 · <a href="https://www.youtube.com/watch?v=OGq21nmoG1g" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=ELRgwbUyZ1U)
 
-<p class="clip-credit"><strong>Finishing the Triangle or Switching to Omoplata</strong> — taught by Inverted Gear · 2:35 · <a href="https://www.youtube.com/watch?v=ELRgwbUyZ1U" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Finishing the triangle or transitioning to the omplata</strong> · 2:35 · <a href="https://www.youtube.com/watch?v=ELRgwbUyZ1U" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

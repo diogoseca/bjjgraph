@@ -380,35 +380,7 @@
       }
     ],
     "safety_considerations": "This transition involves significant pressure changes on the bottom player's chest, ribs, and diaphragm during the positional shift. In training, control the speed of the leg swing to avoid accidentally driving a knee into the training partner's face, ribs, or groin during the arc. The bottom player should communicate immediately if breathing becomes severely compromised under sustained chest pressure before the transition. Be aware that the swinging leg's trajectory must clear the partner's head safely. When drilling at higher intensity, ensure the landing into mount is controlled rather than dropping full weight abruptly onto the partner's midsection.",
-    "clips": [
-      {
-        "id": "XDBq3B6_P2Y",
-        "title": "Kesa gatame position, transition and submission",
-        "by": "Merge Grappling",
-        "vertical": false,
-        "channel": "Merge Grappling",
-        "duration": 138,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "QEu2mgUsukA",
-        "title": "Kesa Gatame to Mount Transition",
-        "by": "Amy Campo",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 207,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "Xv02YMCdbwQ",
-        "title": "Kesa Gatame to Mount Instruction",
-        "by": "Mark Massey",
-        "vertical": false,
-        "channel": "Mark Massey",
-        "duration": 162,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Kuzure Kesa Gatame to Mount Defender",
@@ -586,34 +558,6 @@
         "description": "Start from Kuzure Kesa Gatame bottom with full resistance. Partner attempts mount transition among other attacks and transitions. Defend the mount entry when it appears while maintaining overall defensive integrity against other threats. Goal is preventing at least 40% of transition attempts under full resistance while preserving energy for sustained defense."
       }
     ],
-    "clips": [
-      {
-        "id": "NBBNLMCFvWM",
-        "title": "Bridge and roll defense to scarf hold",
-        "by": "Satori BJJ",
-        "vertical": false,
-        "channel": "Satori BJJ",
-        "duration": 43,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "chpoSczCLTI",
-        "title": "Scarf hold escape: low underhook ghost escape",
-        "by": "Mat Life Training Center",
-        "vertical": false,
-        "channel": "Mat Life Training Center",
-        "duration": 20,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "2M_6VytUaus",
-        "title": "Kesa Gatame escape",
-        "by": "SBG Australia",
-        "vertical": false,
-        "channel": "SBG Australia",
-        "duration": 43,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

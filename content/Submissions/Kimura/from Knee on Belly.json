@@ -438,29 +438,10 @@
       {
         "id": "mEmlkI3zbeE",
         "title": "Kimura from Knee on Belly",
-        "by": "Mauricio Gomes",
-        "vertical": false,
         "channel": "Mauricio Gomes BJJ",
-        "duration": 50,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "MEc9jBx5M14",
-        "title": "Knee on Belly to Kimura via North South",
-        "by": "Nikos Kalivas",
+        "duration": 49,
         "vertical": false,
-        "channel": "Nikos Kalivas BJJ",
-        "duration": 38,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "bKEhbrZaS7Y",
-        "title": "Kimura Setup From Knee on Belly, Arm Trap",
-        "by": "Jiu Jitsu Five-O",
-        "vertical": false,
-        "channel": "Jiu Jitsu Five-O // Street-Ready BJJ Training",
-        "duration": 32,
-        "verified": "2026-07-14"
+        "front": true
       }
     ]
   },
@@ -633,34 +614,6 @@
         "description": "Start from KOB bottom with partner attacking kimura at full competition pace. Develop automatic defensive reactions and escape timing under pressure. Focus on survival composure and technical execution under respiratory distress."
       }
     ],
-    "clips": [
-      {
-        "id": "Wn01Ynw7O28",
-        "title": "How To Escape the Knee on Belly Position",
-        "by": "Evolve MMA",
-        "vertical": false,
-        "channel": "Evolve Mixed Martial Arts",
-        "duration": 40,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "I9_3u9AcwAg",
-        "title": "First Principles Escapes: Knee-on-Belly",
-        "by": "40 Plus BJJ",
-        "vertical": false,
-        "channel": "40 Plus BJJ",
-        "duration": 59,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "52LxBaUJdcw",
-        "title": "Knee on Belly Escape to Technical Standup",
-        "by": "Lucas Lepri",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 131,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   }
 }

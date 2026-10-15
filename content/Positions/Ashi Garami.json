@@ -397,22 +397,12 @@
     ],
     "clips": [
       {
-        "id": "m4sGDhukUmk",
-        "title": "Nasty heel hook from outside ashi garami",
-        "by": "Craig Jones",
+        "id": "AQbJMBiWYfU",
+        "title": "Escaping Ashi Garami- Leg Lock Defense. Scott Elliott, 10th Planet Richmond",
+        "channel": "Coach Scott Elliott",
+        "duration": 140,
         "vertical": false,
-        "channel": "The Bear's Den BJJ & MMA  熊派巴西柔術及MMA學院",
-        "duration": 141,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "D9_e_d6WpyU",
-        "title": "Reverse achilles lock from ashi garami",
-        "by": "Corey K",
-        "vertical": false,
-        "channel": "Corey K",
-        "duration": 84,
-        "verified": "2026-07-14"
+        "front": true
       }
     ]
   },
@@ -809,31 +799,19 @@
     ],
     "clips": [
       {
-        "id": "cRXsNPAgVLU",
-        "title": "Irimi ashi garami counter",
-        "by": "John Danaher",
+        "id": "pYnp2_gJIoM",
+        "title": "Ashi Garami 101: Basic Mechanics and Drills for Leglocks (No Gi Jiu-Jitsu)",
+        "channel": "Brian Glick",
+        "duration": 330,
         "vertical": false,
-        "channel": "Dohn Janaher ",
-        "duration": 29,
-        "verified": "2026-07-14"
+        "front": true
       },
       {
-        "id": "mycu_0dRZg8",
-        "title": "Stop Getting Leg Locked: Ashi Garami Defense Tips",
-        "by": "Brandon Mccaghren",
-        "vertical": false,
-        "channel": "Brandon Mccaghren",
-        "duration": 331,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "R7lPdQWLOus",
-        "title": "50/50 Defense: Protecting Your Leg",
-        "by": "Lachlan Giles",
-        "vertical": false,
-        "channel": "The Grapplers Guide by Jason Scully",
-        "duration": 161,
-        "verified": "2026-07-15"
+        "id": "hhOOwMNfV-0",
+        "title": "Ashi Garami Explained: The Control System Behind Modern No-Gi",
+        "channel": "Grappling Theory",
+        "duration": 606,
+        "vertical": false
       }
     ]
   },
@@ -1051,33 +1029,5 @@
       }
     }
   ],
-  "clips": [
-    {
-      "id": "_4jDUxFg7uU",
-      "title": "De La Riva knee bump ashi entry",
-      "by": "Gordon Ryan",
-      "vertical": false,
-      "channel": "BJJ Fanatics",
-      "duration": 165,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "hhOOwMNfV-0",
-      "title": "Ashi Garami Explained: The Modern No-Gi Control System",
-      "by": "Grappling Theory",
-      "vertical": false,
-      "channel": "Grappling Theory",
-      "duration": 606,
-      "verified": "2026-07-15"
-    },
-    {
-      "id": "pYnp2_gJIoM",
-      "title": "Ashi Garami 101: Basic Mechanics and Drills",
-      "by": "Brian Glick",
-      "vertical": false,
-      "channel": "Brian Glick",
-      "duration": 331,
-      "verified": "2026-07-15"
-    }
-  ]
+  "clips": []
 }

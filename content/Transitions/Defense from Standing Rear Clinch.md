@@ -46,23 +46,21 @@ description: "Master Defense from Standing Rear Clinch in BJJ. Essential escape 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Bear hug defense into rear clinch takedown",
-      "description": "Defense from Standing Rear Clinch film study: Bear hug defense into rear clinch takedown, taught by Jiu Jitsu Five-O.",
+      "name": "Bear Hug Defense to Rear Clinch Takedown",
+      "description": "Defense from Standing Rear Clinch film study: Bear Hug Defense to Rear Clinch Takedown.",
       "thumbnailUrl": "https://i.ytimg.com/vi/fnkewg_4NJ4/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/fnkewg_4NJ4",
       "url": "https://www.youtube.com/watch?v=fnkewg_4NJ4",
-      "creator": { "@type": "Person", "name": "Jiu Jitsu Five-O" },
       "duration": "PT48S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Leg switch cutback from the rear bodylock",
-      "description": "Defense from Standing Rear Clinch film study: Leg switch cutback from the rear bodylock, taught by Procel Brazilian Jiu-Jitsu.",
+      "name": "Leg Switch Cutback From Rear Bodylock",
+      "description": "Defense from Standing Rear Clinch film study: Leg Switch Cutback From Rear Bodylock.",
       "thumbnailUrl": "https://i.ytimg.com/vi/2VCyaassiRI/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/2VCyaassiRI",
       "url": "https://www.youtube.com/watch?v=2VCyaassiRI",
-      "creator": { "@type": "Person", "name": "Procel Brazilian Jiu-Jitsu" },
       "duration": "PT52S"
     }
   ]
@@ -119,7 +117,7 @@ From a competitive perspective, standing rear clinch defense bridges wrestling a
 
 ![](https://www.youtube.com/watch?v=fnkewg_4NJ4)
 
-<p class="clip-credit"><strong>Bear hug defense into rear clinch takedown</strong> — taught by Jiu Jitsu Five-O · 0:48 · <a href="https://www.youtube.com/watch?v=fnkewg_4NJ4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Bear Hug Defense to Rear Clinch Takedown</strong> · 0:48 · <a href="https://www.youtube.com/watch?v=fnkewg_4NJ4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -127,7 +125,7 @@ From a competitive perspective, standing rear clinch defense bridges wrestling a
 
 ![](https://www.youtube.com/watch?v=2VCyaassiRI)
 
-<p class="clip-credit"><strong>Leg switch cutback from the rear bodylock</strong> — taught by Procel Brazilian Jiu-Jitsu · 0:52 · <a href="https://www.youtube.com/watch?v=2VCyaassiRI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Leg Switch Cutback From Rear Bodylock</strong> · 0:52 · <a href="https://www.youtube.com/watch?v=2VCyaassiRI" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

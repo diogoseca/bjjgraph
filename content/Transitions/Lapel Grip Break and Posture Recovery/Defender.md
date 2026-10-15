@@ -150,28 +150,6 @@ description: "How to defend against Lapel Grip Break and Posture Recovery in BJJ
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Lapel Grip Break and Posture Recovery (Defender) \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Countering the Worm and Lapel Guard",
-      "description": "Lapel Grip Break and Posture Recovery (Defender) film study: Countering the Worm and Lapel Guard, taught by Kevin Nguyen.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/wB2JljlB1Rg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/wB2JljlB1Rg",
-      "url": "https://www.youtube.com/watch?v=wB2JljlB1Rg",
-      "creator": { "@type": "Person", "name": "Kevin Nguyen" },
-      "duration": "PT210S"
-    }
-  ]
-}
-</script>
-
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -188,24 +166,6 @@ Defensive success depends on reading the top player's weight distribution and ti
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Lapel Grip Break and Posture Recovery (Defender) in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=wB2JljlB1Rg)
-
-<p class="clip-credit"><strong>Countering the Worm and Lapel Guard</strong> — taught by Kevin Nguyen · 3:30 · <a href="https://www.youtube.com/watch?v=wB2JljlB1Rg" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="recognition-cues" class="content-section">

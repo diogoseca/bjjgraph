@@ -46,24 +46,12 @@ description: "Master passing the feet on hips guard in BJJ. Complete guide to br
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Monitoring the Feet While Passing Guard",
-      "description": "Pass Feet on Hips Guard film study: Monitoring the Feet While Passing Guard, taught by Gordon Ryan.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/YLPNsyHtREs/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/YLPNsyHtREs",
-      "url": "https://www.youtube.com/watch?v=YLPNsyHtREs",
-      "creator": { "@type": "Person", "name": "Gordon Ryan" },
-      "duration": "PT50S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Footwork Passing vs the Supine Guard: 3 Zones",
-      "description": "Pass Feet on Hips Guard film study: Footwork Passing vs the Supine Guard: 3 Zones, taught by Doederlein JJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/7lBIkzah1gg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/7lBIkzah1gg",
-      "url": "https://www.youtube.com/watch?v=7lBIkzah1gg",
-      "creator": { "@type": "Person", "name": "Doederlein JJ" },
-      "duration": "PT129S"
+      "name": "Passing the guard when feet on the hips.",
+      "description": "Pass Feet on Hips Guard film study: Passing the guard when feet on the hips..",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fqC0g2NEbq0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fqC0g2NEbq0",
+      "url": "https://www.youtube.com/watch?v=fqC0g2NEbq0",
+      "duration": "PT52S"
     }
   ]
 }
@@ -117,17 +105,9 @@ This pass integrates into the broader guard passing system as the entry point fo
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=YLPNsyHtREs)
+![](https://www.youtube.com/watch?v=fqC0g2NEbq0)
 
-<p class="clip-credit"><strong>Monitoring the Feet While Passing Guard</strong> — taught by Gordon Ryan · 0:50 · <a href="https://www.youtube.com/watch?v=YLPNsyHtREs" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=7lBIkzah1gg)
-
-<p class="clip-credit"><strong>Footwork Passing vs the Supine Guard: 3 Zones</strong> — taught by Doederlein JJ · 2:09 · <a href="https://www.youtube.com/watch?v=7lBIkzah1gg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Passing the guard when feet on the hips.</strong> · 0:52 · <a href="https://www.youtube.com/watch?v=fqC0g2NEbq0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

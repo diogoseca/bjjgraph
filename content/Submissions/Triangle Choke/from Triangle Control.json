@@ -447,29 +447,10 @@
       {
         "id": "YVHyDfE6L3w",
         "title": "Triangle Tips - Finishing",
-        "by": "RMNU",
-        "vertical": false,
         "channel": "RMNUFanPageVideos",
         "duration": 57,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "RkRhoJcLKh8",
-        "title": "Finish the Triangle on Any Body Type",
-        "by": "Chad Hardy",
         "vertical": false,
-        "channel": "Chad The Beast Hardy",
-        "duration": 129,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "rsNtpxKVn5M",
-        "title": "The Triangle - Stomp and Curl",
-        "by": "Ryan Hall",
-        "vertical": false,
-        "channel": "WorldMartialArts",
-        "duration": 261,
-        "verified": "2026-07-14"
+        "front": true
       }
     ]
   },
@@ -653,31 +634,12 @@
     ],
     "clips": [
       {
-        "id": "sR2rS2dwpNY",
-        "title": "How to Escape a Triangle Choke",
-        "by": "Rener & Ryron Gracie",
-        "vertical": false,
-        "channel": "Hayabusa",
-        "duration": 117,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "YG1S8nMIdjY",
-        "title": "Triangle Defense from Closed Guard",
-        "by": "Andy",
-        "vertical": false,
-        "channel": "Jiu Jitsu With Andy ",
-        "duration": 61,
-        "verified": "2026-07-14"
-      },
-      {
         "id": "iFoVuZVus44",
-        "title": "Triangle Defense",
-        "by": "Renzo Gracie",
-        "vertical": false,
+        "title": "Defense triangle  by Renzo Gracie brazilian jiu jitsu",
         "channel": "RED LIONS INTERNATIONAL BJJ",
-        "duration": 83,
-        "verified": "2026-07-14"
+        "duration": 82,
+        "vertical": false,
+        "front": true
       }
     ]
   }

@@ -463,26 +463,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "91eO9lV-sVE",
-        "title": "K Guard Defense and Pass",
-        "by": "Pure Grappling",
-        "vertical": false,
-        "channel": "Pure Grappling",
-        "duration": 281,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "JxDViUC4xhk",
-        "title": "K Guard Defense",
-        "by": "Rodrigo Lopes",
-        "vertical": false,
-        "channel": "Pathfinder Jiu-Jitsu Team",
-        "duration": 289,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   },
   "bottom": {
     "name": "K-Guard Bottom",
@@ -931,35 +912,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "L7OCTtMGt4M",
-        "title": "K Guard entry to knee bar",
-        "by": "Marshall Stamper",
-        "vertical": false,
-        "channel": "The Bear's Den BJJ & MMA  熊派巴西柔術及MMA學院",
-        "duration": 55,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "wkPHi2q1Cbo",
-        "title": "K guard to 411 saddle",
-        "by": "10th Planet St Louis",
-        "vertical": false,
-        "channel": "10th Planet St Louis",
-        "duration": 41,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "LAKiTjpAQ9g",
-        "title": "K-Guard entry to backside heel hook",
-        "by": "Leg Lock Systems",
-        "vertical": false,
-        "channel": "Leg Lock Systems",
-        "duration": 47,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   },
   "flashcards_position": [
     {
@@ -1075,33 +1028,5 @@
       }
     }
   ],
-  "clips": [
-    {
-      "id": "KBkoWJtMeNA",
-      "title": "K guard entry to saddle",
-      "by": "bjj doug",
-      "vertical": false,
-      "channel": "bjj doug",
-      "duration": 28,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "ieR8CJ1EUM8",
-      "title": "K Guard 50/50 entry to inside heel hook",
-      "by": "BJJ GeekOut",
-      "vertical": false,
-      "channel": "BJJ GeekOut",
-      "duration": 14,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "ottOBmhsyP8",
-      "title": "K guard alternative entry",
-      "by": "Morto BJJ",
-      "vertical": false,
-      "channel": "Morto BJJ",
-      "duration": 92,
-      "verified": "2026-07-14"
-    }
-  ]
+  "clips": []
 }

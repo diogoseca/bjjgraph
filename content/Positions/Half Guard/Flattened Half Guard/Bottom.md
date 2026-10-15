@@ -165,35 +165,12 @@ description: "Learn defensive tactics for surviving and escaping flattened half 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Stop the half guard underhook",
-      "description": "Flattened Half Guard (Bottom) film study: Stop the half guard underhook, taught by Malachy Friedman.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/dOdO6xJ-TcU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/dOdO6xJ-TcU",
-      "url": "https://www.youtube.com/watch?v=dOdO6xJ-TcU",
-      "creator": { "@type": "Person", "name": "Malachy Friedman" },
-      "duration": "PT98S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Guard recovery when getting smashed",
-      "description": "Flattened Half Guard (Bottom) film study: Guard recovery when getting smashed, taught by Finesse Jiujitsu HTX.",
+      "name": "Basic Guard Recovery Trick When Your Getting Smashed",
+      "description": "Flattened Half Guard (Bottom) film study: Basic Guard Recovery Trick When Your Getting Smashed.",
       "thumbnailUrl": "https://i.ytimg.com/vi/BhNZGloJ56c/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/BhNZGloJ56c",
       "url": "https://www.youtube.com/watch?v=BhNZGloJ56c",
-      "creator": { "@type": "Person", "name": "Finesse Jiujitsu HTX" },
-      "duration": "PT103S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Reclaim closed guard from half guard",
-      "description": "Flattened Half Guard (Bottom) film study: Reclaim closed guard from half guard, taught by Daniel Lima.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/5sdZak2bil4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/5sdZak2bil4",
-      "url": "https://www.youtube.com/watch?v=5sdZak2bil4",
-      "creator": { "@type": "Person", "name": "Daniel Lima" },
-      "duration": "PT26S"
+      "duration": "PT102S"
     }
   ]
 }
@@ -227,25 +204,9 @@ Understanding the position's risks is equally important. The primary danger is n
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=dOdO6xJ-TcU)
-
-<p class="clip-credit"><strong>Stop the half guard underhook</strong> — taught by Malachy Friedman · 1:38 · <a href="https://www.youtube.com/watch?v=dOdO6xJ-TcU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=BhNZGloJ56c)
 
-<p class="clip-credit"><strong>Guard recovery when getting smashed</strong> — taught by Finesse Jiujitsu HTX · 1:43 · <a href="https://www.youtube.com/watch?v=BhNZGloJ56c" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=5sdZak2bil4)
-
-<p class="clip-credit"><strong>Reclaim closed guard from half guard</strong> — taught by Daniel Lima · 0:26 · <a href="https://www.youtube.com/watch?v=5sdZak2bil4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Basic Guard Recovery Trick When Your Getting Smashed</strong> · 1:42 · <a href="https://www.youtube.com/watch?v=BhNZGloJ56c" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -182,24 +182,12 @@ description: "Step-by-step guide to finishing the North-South Choke from Kuzure 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Kuzure Kesa Gatame North/South choke",
-      "description": "North-South Choke from Kuzure Kesa Gatame (Attacker) film study: Kuzure Kesa Gatame North/South choke, taught by Todd Blatchley.",
+      "name": "Modified Scarf Hold North/South choke",
+      "description": "North-South Choke from Kuzure Kesa Gatame (Attacker) film study: Modified Scarf Hold North/South choke.",
       "thumbnailUrl": "https://i.ytimg.com/vi/LurZB_PfUmA/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/LurZB_PfUmA",
       "url": "https://www.youtube.com/watch?v=LurZB_PfUmA",
-      "creator": { "@type": "Person", "name": "Todd Blatchley" },
-      "duration": "PT121S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Marcelo Garcia - North South Choke",
-      "description": "North-South Choke from Kuzure Kesa Gatame (Attacker) film study: Marcelo Garcia - North South Choke, taught by Marcelo Garcia.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/z3RNUfHfiSM/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/z3RNUfHfiSM",
-      "url": "https://www.youtube.com/watch?v=z3RNUfHfiSM",
-      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
-      "duration": "PT20S"
+      "duration": "PT120S"
     }
   ]
 }
@@ -230,15 +218,7 @@ Attacking with the North-South Choke from Kuzure Kesa Gatame requires understand
 
 ![](https://www.youtube.com/watch?v=LurZB_PfUmA)
 
-<p class="clip-credit"><strong>Kuzure Kesa Gatame North/South choke</strong> — taught by Todd Blatchley · 2:01 · <a href="https://www.youtube.com/watch?v=LurZB_PfUmA" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=z3RNUfHfiSM)
-
-<p class="clip-credit"><strong>Marcelo Garcia - North South Choke</strong> — taught by Marcelo Garcia · 0:20 · <a href="https://www.youtube.com/watch?v=z3RNUfHfiSM" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Modified Scarf Hold North/South choke</strong> · 2:00 · <a href="https://www.youtube.com/watch?v=LurZB_PfUmA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

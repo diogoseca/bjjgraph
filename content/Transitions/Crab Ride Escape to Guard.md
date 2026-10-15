@@ -46,35 +46,12 @@ description: "Master the Crab Ride Escape to Guard in BJJ. Complete guide to hoo
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Escape the crab ride",
-      "description": "Crab Ride Escape to Guard film study: Escape the crab ride, taught by Brian Hawkins.",
+      "name": "Escape Crab Ride",
+      "description": "Crab Ride Escape to Guard film study: Escape Crab Ride.",
       "thumbnailUrl": "https://i.ytimg.com/vi/-S6bU0mQp1Y/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/-S6bU0mQp1Y",
       "url": "https://www.youtube.com/watch?v=-S6bU0mQp1Y",
-      "creator": { "@type": "Person", "name": "Brian Hawkins" },
-      "duration": "PT78S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "No-gi De La Riva counter to crab ride",
-      "description": "Crab Ride Escape to Guard film study: No-gi De La Riva counter to crab ride, taught by The Base Jiu Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/PPiiUtZSIfQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/PPiiUtZSIfQ",
-      "url": "https://www.youtube.com/watch?v=PPiiUtZSIfQ",
-      "creator": { "@type": "Person", "name": "The Base Jiu Jitsu" },
-      "duration": "PT60S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Crab ride defense: head hunt to low leg cradle",
-      "description": "Crab Ride Escape to Guard film study: Crab ride defense: head hunt to low leg cradle, taught by Michael Trasso.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/jdUhyICbKSM/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/jdUhyICbKSM",
-      "url": "https://www.youtube.com/watch?v=jdUhyICbKSM",
-      "creator": { "@type": "Person", "name": "Michael Trasso" },
-      "duration": "PT33S"
+      "duration": "PT77S"
     }
   ]
 }
@@ -130,23 +107,7 @@ The technique is particularly valuable against opponents who employ patient crab
 
 ![](https://www.youtube.com/watch?v=-S6bU0mQp1Y)
 
-<p class="clip-credit"><strong>Escape the crab ride</strong> — taught by Brian Hawkins · 1:18 · <a href="https://www.youtube.com/watch?v=-S6bU0mQp1Y" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=PPiiUtZSIfQ)
-
-<p class="clip-credit"><strong>No-gi De La Riva counter to crab ride</strong> — taught by The Base Jiu Jitsu · 1:00 · <a href="https://www.youtube.com/watch?v=PPiiUtZSIfQ" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=jdUhyICbKSM)
-
-<p class="clip-credit"><strong>Crab ride defense: head hunt to low leg cradle</strong> — taught by Michael Trasso · 0:33 · <a href="https://www.youtube.com/watch?v=jdUhyICbKSM" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Escape Crab Ride</strong> · 1:17 · <a href="https://www.youtube.com/watch?v=-S6bU0mQp1Y" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

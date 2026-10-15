@@ -165,35 +165,12 @@ description: "Master Lasso Guard from bottom position. Learn sweep mechanics, su
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Open Guard to Lasso Sweep",
-      "description": "Lasso Guard (Bottom) film study: Open Guard to Lasso Sweep, taught by Lucas Lepri.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/LwnoWDFJlN0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/LwnoWDFJlN0",
-      "url": "https://www.youtube.com/watch?v=LwnoWDFJlN0",
-      "creator": { "@type": "Person", "name": "Lucas Lepri" },
-      "duration": "PT44S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Lasso Guard to Arm Drag Sweep",
-      "description": "Lasso Guard (Bottom) film study: Lasso Guard to Arm Drag Sweep, taught by Xande Ribeiro.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/K4n_MQnR08c/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/K4n_MQnR08c",
-      "url": "https://www.youtube.com/watch?v=K4n_MQnR08c",
-      "creator": { "@type": "Person", "name": "Xande Ribeiro" },
-      "duration": "PT150S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Lasso Guard Arm Drag to the Back",
-      "description": "Lasso Guard (Bottom) film study: Lasso Guard Arm Drag to the Back, taught by OMJJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/nHW1Sxvh_rI/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/nHW1Sxvh_rI",
-      "url": "https://www.youtube.com/watch?v=nHW1Sxvh_rI",
-      "creator": { "@type": "Person", "name": "OMJJJ" },
-      "duration": "PT79S"
+      "name": "The ONLY Lasso Guard Guide You\u2019ll Ever Need",
+      "description": "Lasso Guard (Bottom) film study: The ONLY Lasso Guard Guide You\u2019ll Ever Need.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ZPfD3rgEYmM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ZPfD3rgEYmM",
+      "url": "https://www.youtube.com/watch?v=ZPfD3rgEYmM",
+      "duration": "PT1045S"
     }
   ]
 }
@@ -231,25 +208,9 @@ Training Lasso Guard Bottom develops several fundamental skills that transfer ac
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=LwnoWDFJlN0)
+![](https://www.youtube.com/watch?v=ZPfD3rgEYmM)
 
-<p class="clip-credit"><strong>Open Guard to Lasso Sweep</strong> — taught by Lucas Lepri · 0:44 · <a href="https://www.youtube.com/watch?v=LwnoWDFJlN0" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=K4n_MQnR08c)
-
-<p class="clip-credit"><strong>Lasso Guard to Arm Drag Sweep</strong> — taught by Xande Ribeiro · 2:30 · <a href="https://www.youtube.com/watch?v=K4n_MQnR08c" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=nHW1Sxvh_rI)
-
-<p class="clip-credit"><strong>Lasso Guard Arm Drag to the Back</strong> — taught by OMJJJ · 1:19 · <a href="https://www.youtube.com/watch?v=nHW1Sxvh_rI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>The ONLY Lasso Guard Guide You’ll Ever Need</strong> · 17:25 · <a href="https://www.youtube.com/watch?v=ZPfD3rgEYmM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

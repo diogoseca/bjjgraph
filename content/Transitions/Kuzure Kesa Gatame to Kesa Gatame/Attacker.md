@@ -182,39 +182,6 @@ description: "Master the Kuzure Kesa Gatame to Kesa Gatame transition. Complete 
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Kuzure Kesa Gatame to Kesa Gatame (Attacker) \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Kesa Gatame basic scarf hold control",
-      "description": "Kuzure Kesa Gatame to Kesa Gatame (Attacker) film study: Kesa Gatame basic scarf hold control, taught by Grappler Station.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/TfNpVcekHGg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/TfNpVcekHGg",
-      "url": "https://www.youtube.com/watch?v=TfNpVcekHGg",
-      "creator": { "@type": "Person", "name": "Grappler Station" },
-      "duration": "PT121S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Turnover into Kesa Gatame from prone",
-      "description": "Kuzure Kesa Gatame to Kesa Gatame (Attacker) film study: Turnover into Kesa Gatame from prone, taught by Nigel Bowley.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/PPA_xYZEFDU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/PPA_xYZEFDU",
-      "url": "https://www.youtube.com/watch?v=PPA_xYZEFDU",
-      "creator": { "@type": "Person", "name": "Nigel Bowley" },
-      "duration": "PT37S"
-    }
-  ]
-}
-</script>
-
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -227,32 +194,6 @@ Executing the Kuzure Kesa Gatame to Kesa Gatame transition requires precise coor
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Kuzure Kesa Gatame to Kesa Gatame (Attacker) in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=TfNpVcekHGg)
-
-<p class="clip-credit"><strong>Kesa Gatame basic scarf hold control</strong> — taught by Grappler Station · 2:01 · <a href="https://www.youtube.com/watch?v=TfNpVcekHGg" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=PPA_xYZEFDU)
-
-<p class="clip-credit"><strong>Turnover into Kesa Gatame from prone</strong> — taught by Nigel Bowley · 0:37 · <a href="https://www.youtube.com/watch?v=PPA_xYZEFDU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="key-principles" class="content-section">

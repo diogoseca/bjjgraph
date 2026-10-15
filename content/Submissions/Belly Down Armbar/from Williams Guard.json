@@ -394,35 +394,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "xfrzFDc5PGw",
-        "title": "Williams Guard Armbar in Competition",
-        "by": "Sam Wilkinson",
-        "vertical": false,
-        "channel": "Sam Wilkinson MMA",
-        "duration": 10,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "dkuNBLWny9A",
-        "title": "Far armbar from the Williams guard",
-        "by": "Shawn Williams",
-        "vertical": false,
-        "channel": "JiuJitsuMag",
-        "duration": 161,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "O9yHOpMRgtU",
-        "title": "The Williams guard armbar",
-        "by": "Shawn Williams",
-        "vertical": false,
-        "channel": "Bernardo Faria BJJ Fanatics",
-        "duration": 217,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Belly Down Armbar from Williams Guard Defender",
@@ -601,25 +573,6 @@
         "description": "Start in Williams Guard with full resistance. Partner attacks with belly down armbar, omoplata, triangle, and other options. Practice recognizing which attack is developing and applying the correct defensive response. Builds pattern recognition under pressure and integrates individual defensive techniques into a complete defensive system. 3-minute rounds."
       }
     ],
-    "clips": [
-      {
-        "id": "kNdKfUdgO4I",
-        "title": "My Favorite Armbar Escape",
-        "by": "Matt Arroyo",
-        "vertical": false,
-        "channel": "Matt Arroyo Jiu Jitsu ",
-        "duration": 92,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "58eCiNxdOiI",
-        "title": "Why Your Armbar from Guard Always Fails",
-        "by": "Wim Deputter",
-        "vertical": false,
-        "channel": "Wim Deputter BJJ",
-        "duration": 76,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   }
 }

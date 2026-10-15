@@ -447,30 +447,11 @@
     "clips": [
       {
         "id": "UXPfzHTSCDE",
-        "title": "Belly Down Armbar from Turtle",
-        "by": "Ashland Hero Academy",
-        "vertical": false,
+        "title": "Belly Down Arm bar from turtle",
         "channel": "Ashland Hero Academy & Standing Monkey Tai Chi",
         "duration": 25,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "GGlY1B7Ys78",
-        "title": "Pass to Belly Down Armbar",
-        "by": "Mick Hall",
         "vertical": false,
-        "channel": "Mick Hall",
-        "duration": 15,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "TPUiYC4-g70",
-        "title": "Armbar from Turtle",
-        "by": "Anthony Anderson",
-        "vertical": false,
-        "channel": "Anthony Anderson",
-        "duration": 14,
-        "verified": "2026-07-14"
+        "front": true
       }
     ]
   },
@@ -651,25 +632,6 @@
         "description": "Three-minute positional rounds starting from turtle. Attacker can attempt any turtle top attack including belly-down armbar. Defender must apply appropriate defense based on the specific attack. Full resistance from both partners. Alternate roles each round to develop both perspectives."
       }
     ],
-    "clips": [
-      {
-        "id": "i_SeG9B_Znc",
-        "title": "Inverted Armbar from Turtle Escape",
-        "by": "LBJJ TV",
-        "vertical": false,
-        "channel": "LBJJ TV",
-        "duration": 96,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "mZ0EFbfDP_E",
-        "title": "Arm Bar Escape",
-        "by": "Wesley Chapel MMA",
-        "vertical": false,
-        "channel": "Wesley Chapel MMA",
-        "duration": 74,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   }
 }

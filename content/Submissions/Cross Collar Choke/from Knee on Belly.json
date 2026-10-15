@@ -436,30 +436,18 @@
     "clips": [
       {
         "id": "hfwzbS9va6M",
-        "title": "Cross choke from knee on belly",
-        "by": "TEAM BERT",
-        "vertical": false,
+        "title": "Cross Choke from Knee on Belly",
         "channel": "TEAM BERT",
-        "duration": 47,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "7N0smA14MFU",
-        "title": "Far lapel cross collar choke from knee on belly",
-        "by": "Martial Arts Institute",
+        "duration": 46,
         "vertical": false,
-        "channel": "Team Martial Arts Institute",
-        "duration": 140,
-        "verified": "2026-07-14"
+        "front": true
       },
       {
         "id": "bnHem44kqeA",
-        "title": "Cross collar choke from knee on belly",
-        "by": "Evan Cutts",
-        "vertical": false,
+        "title": "Cross Collar Choke Knee On Belly ft. Evan Cutts",
         "channel": "Evan Cutts",
-        "duration": 157,
-        "verified": "2026-07-14"
+        "duration": 156,
+        "vertical": false
       }
     ]
   },
@@ -643,34 +631,6 @@
         "description": "Partner attacks the cross collar choke from KOB at full speed. Practice the complete defensive chain: recognize the setup, strip or prevent grips, create angle, and recover guard. Include the last-resort sit-up escape for scenarios where both grips are established. Build up to full-resistance positional sparring from bottom of KOB."
       }
     ],
-    "clips": [
-      {
-        "id": "Wn01Ynw7O28",
-        "title": "How to escape the knee on belly position",
-        "by": "Evolve MMA",
-        "vertical": false,
-        "channel": "Evolve Mixed Martial Arts",
-        "duration": 40,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "52LxBaUJdcw",
-        "title": "Knee on belly escape to ankle pick",
-        "by": "Lucas Lepri",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 131,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "XgcesjuXZq4",
-        "title": "Escape the knee on belly before it's too late",
-        "by": "Ryan Robinson",
-        "vertical": false,
-        "channel": "Ryan Robinson BJJ",
-        "duration": 169,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   }
 }

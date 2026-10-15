@@ -186,35 +186,12 @@ description: "How to execute Double Under Pass in BJJ. Attacking perspective wit
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "No-gi double under guard pass",
-      "description": "Double Under Pass (Attacker) film study: No-gi double under guard pass, taught by Garden State BJJ.",
+      "name": "No-Gi Double Under Guard Pass | Brazilian Jiu-Jitsu BJJ Middletown",
+      "description": "Double Under Pass (Attacker) film study: No-Gi Double Under Guard Pass | Brazilian Jiu-Jitsu BJJ Middletown.",
       "thumbnailUrl": "https://i.ytimg.com/vi/wBZrTpuXV50/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/wBZrTpuXV50",
       "url": "https://www.youtube.com/watch?v=wBZrTpuXV50",
-      "creator": { "@type": "Person", "name": "Garden State BJJ" },
-      "duration": "PT63S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Stack pass mechanics",
-      "description": "Double Under Pass (Attacker) film study: Stack pass mechanics, taught by Kenny Kim.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/2KcAEYsaHAg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/2KcAEYsaHAg",
-      "url": "https://www.youtube.com/watch?v=2KcAEYsaHAg",
-      "creator": { "@type": "Person", "name": "Kenny Kim" },
-      "duration": "PT88S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Double unders pass breakdown",
-      "description": "Double Under Pass (Attacker) film study: Double unders pass breakdown, taught by Nicky Ryan.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/N4PxPPv98k4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/N4PxPPv98k4",
-      "url": "https://www.youtube.com/watch?v=N4PxPPv98k4",
-      "creator": { "@type": "Person", "name": "Nicky Ryan" },
-      "duration": "PT91S"
+      "duration": "PT62S"
     }
   ]
 }
@@ -248,23 +225,7 @@ The Double Under Pass is particularly effective in gi grappling where grips can 
 
 ![](https://www.youtube.com/watch?v=wBZrTpuXV50)
 
-<p class="clip-credit"><strong>No-gi double under guard pass</strong> — taught by Garden State BJJ · 1:03 · <a href="https://www.youtube.com/watch?v=wBZrTpuXV50" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=2KcAEYsaHAg)
-
-<p class="clip-credit"><strong>Stack pass mechanics</strong> — taught by Kenny Kim · 1:28 · <a href="https://www.youtube.com/watch?v=2KcAEYsaHAg" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=N4PxPPv98k4)
-
-<p class="clip-credit"><strong>Double unders pass breakdown</strong> — taught by Nicky Ryan · 1:31 · <a href="https://www.youtube.com/watch?v=N4PxPPv98k4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>No-Gi Double Under Guard Pass | Brazilian Jiu-Jitsu BJJ Middletown</strong> · 1:02 · <a href="https://www.youtube.com/watch?v=wBZrTpuXV50" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

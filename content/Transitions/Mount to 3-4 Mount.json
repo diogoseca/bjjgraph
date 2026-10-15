@@ -391,26 +391,7 @@
       }
     ],
     "safety_considerations": "The Transition to 3-4 Mount is a positional adjustment with low inherent injury risk. However, practitioners should avoid driving the posted knee into training partners with excessive force during the consolidation phase, as concentrated knee pressure on the ribcage can cause bruising or rib injuries. During drilling, communicate with your partner about pressure levels and avoid full competition intensity on the knee drive until both practitioners are comfortable with the position. The primary safety concern is the bottom player's breathing—heavy chest pressure combined with a tight mounted knee can restrict breathing significantly, so monitor your partner for distress signals and allow breathing space during extended drilling sessions.",
-    "clips": [
-      {
-        "id": "OI73kR-gvbQ",
-        "title": "Clearing the foot between mount and 3/4 mount",
-        "by": "Mack Training Academy",
-        "vertical": false,
-        "channel": "Mack Training Academy ",
-        "duration": 94,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "r3YtZkGq29Q",
-        "title": "Consolidating and Passing 3/4 Mount with the Pry",
-        "by": "Double Phoenix coach",
-        "vertical": false,
-        "channel": "Double Phoenix Jiu Jitsu",
-        "duration": 220,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Mount to 3-4 Mount Defender",
@@ -559,34 +540,6 @@
         "description": "Start from standard mount with full resistance. Top player attempts to transition to 3-4 Mount using any method. Bottom player defends using trained responses. Score: bottom player earns points for preventing the transition or recovering guard, top player earns points for completing the transition and consolidating. Rotate partners to experience different body types and transition styles."
       }
     ],
-    "clips": [
-      {
-        "id": "NHrpJdU8wCQ",
-        "title": "Technical mount escape out the back",
-        "by": "smallmanbjj coach",
-        "vertical": false,
-        "channel": "smallmanbjj",
-        "duration": 58,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "PnBb1hxjCkw",
-        "title": "Escaping the mount, part 1",
-        "by": "10th Planet West LA coach",
-        "vertical": false,
-        "channel": "10th Planet Jiu Jitsu - West LA",
-        "duration": 94,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "hyQouCv4tDs",
-        "title": "Stiff arm escape from full mount",
-        "by": "Andy Tong",
-        "vertical": false,
-        "channel": "Andy Tong",
-        "duration": 13,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

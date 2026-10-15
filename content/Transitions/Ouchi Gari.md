@@ -47,35 +47,22 @@ description: "Master Ouchi Gari inner reap takedown in BJJ. Step-by-step executi
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Misdirection Ouchi Gari setup",
-      "description": "Ouchi Gari film study: Misdirection Ouchi Gari setup, taught by Shintaro Higashi.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/XdOuXj1H0ok/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/XdOuXj1H0ok",
-      "url": "https://www.youtube.com/watch?v=XdOuXj1H0ok",
-      "creator": { "@type": "Person", "name": "Shintaro Higashi" },
-      "duration": "PT99S"
+      "name": "Ouchi Gari counter with Uki Waza/Yoko Otoshi",
+      "description": "Ouchi Gari film study: Ouchi Gari counter with Uki Waza/Yoko Otoshi.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hVv4saQm5Do/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hVv4saQm5Do",
+      "url": "https://www.youtube.com/watch?v=hVv4saQm5Do",
+      "duration": "PT21S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Circular Ouchi Gari breakdown",
-      "description": "Ouchi Gari film study: Circular Ouchi Gari breakdown, taught by Matt D\u0027Aquino.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/7GwpZmQOJqU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/7GwpZmQOJqU",
-      "url": "https://www.youtube.com/watch?v=7GwpZmQOJqU",
-      "creator": { "@type": "Person", "name": "Matt D\u0027Aquino" },
-      "duration": "PT90S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Parlati\u0027s drop Ouchi Gari",
-      "description": "Ouchi Gari film study: Parlati\u0027s drop Ouchi Gari, taught by JudoCrazy.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/cd7Qv244XEA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/cd7Qv244XEA",
-      "url": "https://www.youtube.com/watch?v=cd7Qv244XEA",
-      "creator": { "@type": "Person", "name": "JudoCrazy" },
-      "duration": "PT32S"
+      "name": "Counter To Ouchi Gari | Grappling University",
+      "description": "Ouchi Gari film study: Counter To Ouchi Gari | Grappling University.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/qEV8CKGqwWE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/qEV8CKGqwWE",
+      "url": "https://www.youtube.com/watch?v=qEV8CKGqwWE",
+      "duration": "PT186S"
     }
   ]
 }
@@ -128,25 +115,17 @@ Ouchi Gari (major inner reaping throw) is a fundamental judo technique that has 
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=XdOuXj1H0ok)
+![](https://www.youtube.com/watch?v=hVv4saQm5Do)
 
-<p class="clip-credit"><strong>Misdirection Ouchi Gari setup</strong> — taught by Shintaro Higashi · 1:39 · <a href="https://www.youtube.com/watch?v=XdOuXj1H0ok" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=7GwpZmQOJqU)
-
-<p class="clip-credit"><strong>Circular Ouchi Gari breakdown</strong> — taught by Matt D&#39;Aquino · 1:30 · <a href="https://www.youtube.com/watch?v=7GwpZmQOJqU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Ouchi Gari counter with Uki Waza/Yoko Otoshi</strong> · 0:21 · <a href="https://www.youtube.com/watch?v=hVv4saQm5Do" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=cd7Qv244XEA)
+![](https://www.youtube.com/watch?v=qEV8CKGqwWE)
 
-<p class="clip-credit"><strong>Parlati&#39;s drop Ouchi Gari</strong> — taught by JudoCrazy · 0:32 · <a href="https://www.youtube.com/watch?v=cd7Qv244XEA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Counter To Ouchi Gari | Grappling University</strong> · 3:06 · <a href="https://www.youtube.com/watch?v=qEV8CKGqwWE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -401,31 +401,19 @@
     "safety_considerations": "Posture recovery during triangle escapes involves direct resistance against an active choking mechanism that compresses the carotid arteries and can cause unconsciousness within 4-8 seconds without warning. Never attempt to fight through a fully locked triangle past the point where you feel tunnel vision, lightheadedness, or bilateral neck pressure distortion. Tap immediately when consciousness is threatened rather than risking loss of consciousness during the posture attempt. The stacking component places compressive force on the opponent's cervical spine, so stack gradually rather than explosively during training to protect your partner. Training partners should communicate openly about pressure levels and release immediately upon tap. Never explosively jerk your head upward against locked triangle pressure, as this risks cervical vertebrae compression injuries.",
     "clips": [
       {
-        "id": "dJOw0ZEyXXc",
-        "title": "Posture up escape from the triangle choke",
-        "by": "Cosens MMA",
+        "id": "HLWwfq8FNMI",
+        "title": "Triangle Choke Escape #3 Hips Down, Posture Up",
+        "channel": "Mat Life Training Center",
+        "duration": 18,
         "vertical": false,
+        "front": true
+      },
+      {
+        "id": "dJOw0ZEyXXc",
+        "title": "Triangle choke from Guard \"Posture Up Escape",
         "channel": "Cosens MMA LLC",
         "duration": 73,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "HLWwfq8FNMI",
-        "title": "Triangle escape: hips down, posture up",
-        "by": "Mat Life Training Center",
-        "vertical": false,
-        "channel": "Mat Life Training Center",
-        "duration": 19,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "wuu5WWcNfY0",
-        "title": "Posturing up inside a gi triangle",
-        "by": "Simple JiuJitsu",
-        "vertical": false,
-        "channel": "Simple JiuJitsu",
-        "duration": 88,
-        "verified": "2026-07-15"
+        "vertical": false
       }
     ]
   },
@@ -604,34 +592,6 @@
         "description": "Full resistance positional sparring from locked triangle with partner using all available posture recovery techniques including standing posture, kneeling stack, and combat base variants. Apply all defensive mechanisms and transitions under genuine competitive pressure. Track triangle finish rate versus escape rate across multiple rounds to identify retention weaknesses."
       }
     ],
-    "clips": [
-      {
-        "id": "M3_VDLm6PoE",
-        "title": "Finishing the triangle against good posture",
-        "by": "Inverted Gear",
-        "vertical": false,
-        "channel": "Inverted Gear",
-        "duration": 142,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "0BQpXYOU4FI",
-        "title": "5 counters to your opponent standing in your triangle",
-        "by": "Stephan Kesting",
-        "vertical": false,
-        "channel": "Stephan Kesting",
-        "duration": 310,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "ypwHsHoUgw4",
-        "title": "Triangle stack counters for posture and pressure",
-        "by": "Knight Jiu-Jitsu",
-        "vertical": false,
-        "channel": "Knight Jiu-Jitsu",
-        "duration": 368,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

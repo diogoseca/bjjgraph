@@ -391,30 +391,11 @@
     "clips": [
       {
         "id": "Y6fBPjHzfv4",
-        "title": "De La Riva crab ride back take",
-        "by": "Moncaio Brothers",
-        "vertical": false,
+        "title": "Dlr crab ride back take: Moncaio Brothers JiuJitsu",
         "channel": "Moncaio Brothers Jiujitsu",
-        "duration": 28,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "aSrT9fosH-s",
-        "title": "50/50 escape to back take using crab ride",
-        "by": "Samuel Braga",
+        "duration": 27,
         "vertical": false,
-        "channel": "Samuel Braga",
-        "duration": 65,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "fDyL_vlCuDs",
-        "title": "Crab ride to the back",
-        "by": "Chris Newman",
-        "vertical": false,
-        "channel": "Two Times Photography UK",
-        "duration": 18,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },
@@ -599,26 +580,7 @@
         "description": "Positional rounds starting from established Crab Ride with full resistance from both partners. Bottom player works to escape to any neutral or guard position. Top player works to complete back take. Track success rates and identify which defensive timing and technique combinations are most effective against different partners and body types. Gradually extend round length to develop endurance under pressure."
       }
     ],
-    "clips": [
-      {
-        "id": "cUpVFqRUXY4",
-        "title": "Getting out from the crab ride",
-        "by": "Iron Faith Wrestling",
-        "vertical": false,
-        "channel": "Iron Faith Wrestling",
-        "duration": 92,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "6MvcCZw_lIk",
-        "title": "Crab and half to fall breakdown",
-        "by": "Josh Dziewa",
-        "vertical": false,
-        "channel": "Josh Dziewa",
-        "duration": 54,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "variants_and_adaptations": [
     {

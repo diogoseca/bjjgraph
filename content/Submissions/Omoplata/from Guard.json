@@ -506,31 +506,11 @@
     ],
     "clips": [
       {
-        "id": "zM4_rXU-riA",
-        "title": "Short and Sweet Closed Guard Omoplata",
-        "by": "2nd Gear Jiu Jitsu",
-        "vertical": false,
-        "channel": "2nd Gear Jiu Jitsu",
-        "duration": 71,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "z49W3g4M6vM",
-        "title": "Closed Guard Omoplata to Triangle Choke",
-        "by": "Ritchie Yip",
-        "vertical": false,
-        "channel": "Ritchie Yip",
-        "duration": 34,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "U87WJbHqdQU",
-        "title": "Omoplata Setup",
-        "by": "Mikey Musumeci",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 141,
-        "verified": "2026-07-14"
+        "id": "KHXE9dSqa4M",
+        "title": "Overhook Omoplata Entry and Three Finishes",
+        "channel": "Foundation Chicago",
+        "duration": 149,
+        "front": true
       }
     ]
   },
@@ -741,26 +721,7 @@
         "description": "Positional sparring starting in closed guard where partner attacks with Omoplata system at 70-80% intensity. Defend using the full spectrum of options: prevention through posture, arm extraction, stack, forward roll, and tapping when appropriate. Partner chains Omoplata with sweeps and back takes to train complete defensive decision-making. Track which defensive windows you most frequently miss and drill those specifically."
       }
     ],
-    "clips": [
-      {
-        "id": "ocIHY3jBYIQ",
-        "title": "Best Way to Escape the Omoplata Shoulder Lock",
-        "by": "John Connors",
-        "vertical": false,
-        "channel": "John Connors, Old Man BJJ Black Belt",
-        "duration": 62,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "HszTUEYJ-xE",
-        "title": "Quick Omoplata Escape",
-        "by": "Adam Bradley",
-        "vertical": false,
-        "channel": "Adam Bradley",
-        "duration": 36,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   },
   "variations_and_setups": [
     {

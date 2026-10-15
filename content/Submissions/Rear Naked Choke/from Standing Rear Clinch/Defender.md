@@ -170,35 +170,22 @@ description: "Master defensive strategies against the Standing RNC from Rear Cli
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Defense to rear choke from behind",
-      "description": "Rear Naked Choke from Standing Rear Clinch (Defender) film study: Defense to rear choke from behind, taught by Gracie Charlottesville.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/dTIDRA-0YY0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/dTIDRA-0YY0",
-      "url": "https://www.youtube.com/watch?v=dTIDRA-0YY0",
-      "creator": { "@type": "Person", "name": "Gracie Charlottesville" },
-      "duration": "PT38S"
+      "name": "Standing Rear Naked Choke Defense",
+      "description": "Rear Naked Choke from Standing Rear Clinch (Defender) film study: Standing Rear Naked Choke Defense.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rlJlNeccbEw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/rlJlNeccbEw",
+      "url": "https://www.youtube.com/watch?v=rlJlNeccbEw",
+      "duration": "PT20S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "How to escape a rear choke hold",
-      "description": "Rear Naked Choke from Standing Rear Clinch (Defender) film study: How to escape a rear choke hold, taught by The Martial Way Dojo.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/F9NRcVxEo8w/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/F9NRcVxEo8w",
-      "url": "https://www.youtube.com/watch?v=F9NRcVxEo8w",
-      "creator": { "@type": "Person", "name": "The Martial Way Dojo" },
-      "duration": "PT60S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Rear choke release",
-      "description": "Rear Naked Choke from Standing Rear Clinch (Defender) film study: Rear choke release, taught by Allen\u0027s American Martial Arts.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/QQFbYx_ARQo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/QQFbYx_ARQo",
-      "url": "https://www.youtube.com/watch?v=QQFbYx_ARQo",
-      "creator": { "@type": "Person", "name": "Allen\u0027s American Martial Arts" },
-      "duration": "PT34S"
+      "name": "Jiu-Jitsu Defense to the Rear Choke From Behind While Being Dragged by Gracie\u2026",
+      "description": "Rear Naked Choke from Standing Rear Clinch (Defender) film study: Jiu-Jitsu Defense to the Rear Choke From Behind While Being Dragged by Gracie\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dTIDRA-0YY0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dTIDRA-0YY0",
+      "url": "https://www.youtube.com/watch?v=dTIDRA-0YY0",
+      "duration": "PT38S"
     }
   ]
 }
@@ -227,25 +214,17 @@ Defending the Standing RNC from Rear Clinch demands immediate recognition of the
 
 <div class="film-clip">
 
+![](https://www.youtube.com/watch?v=rlJlNeccbEw)
+
+<p class="clip-credit"><strong>Standing Rear Naked Choke Defense</strong> · 0:20 · <a href="https://www.youtube.com/watch?v=rlJlNeccbEw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
 ![](https://www.youtube.com/watch?v=dTIDRA-0YY0)
 
-<p class="clip-credit"><strong>Defense to rear choke from behind</strong> — taught by Gracie Charlottesville · 0:38 · <a href="https://www.youtube.com/watch?v=dTIDRA-0YY0" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=F9NRcVxEo8w)
-
-<p class="clip-credit"><strong>How to escape a rear choke hold</strong> — taught by The Martial Way Dojo · 1:00 · <a href="https://www.youtube.com/watch?v=F9NRcVxEo8w" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=QQFbYx_ARQo)
-
-<p class="clip-credit"><strong>Rear choke release</strong> — taught by Allen&#39;s American Martial Arts · 0:34 · <a href="https://www.youtube.com/watch?v=QQFbYx_ARQo" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Jiu-Jitsu Defense to the Rear Choke From Behind While Being Dragged by Gracie…</strong> · 0:38 · <a href="https://www.youtube.com/watch?v=dTIDRA-0YY0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

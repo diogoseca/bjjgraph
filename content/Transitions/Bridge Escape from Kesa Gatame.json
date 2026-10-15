@@ -375,22 +375,12 @@
     "safety_considerations": "Bridge escapes involve significant spinal loading and neck pressure during the explosive hip extension phase. Always warm up the neck, spine, and hips thoroughly before drilling. When training, the top player should allow escape completion at lower resistance levels rather than applying maximum counterforce to bridge attempts, as forced bridges against immovable resistance can strain the lower back and cervical spine. Both partners should communicate about pressure levels throughout drilling. The bottom player should never force a bridge that produces sharp pain in the neck or lower back—abandon the attempt and reset rather than risking injury.",
     "clips": [
       {
-        "id": "2M_6VytUaus",
-        "title": "Kesa gatame escape",
-        "by": "SBG Australia",
-        "vertical": false,
-        "channel": "SBG Australia",
-        "duration": 43,
-        "verified": "2026-07-15"
-      },
-      {
         "id": "PfkG6R7bbeo",
-        "title": "Kesa gatame bridge escape to armbar",
-        "by": "Ivan Chumakov",
-        "vertical": false,
+        "title": "Kesa-gatame bridge escape to armbar",
         "channel": "Ivan Chumakov",
         "duration": 171,
-        "verified": "2026-07-15"
+        "vertical": false,
+        "front": true
       }
     ]
   },
@@ -555,25 +545,6 @@
         "description": "Start in Kesa Gatame with full resistance from both players. Top player maintains position and defends all escape attempts including bridge escapes, ghost escapes, and back takes. Track position maintenance time and transition success rate. 2-minute rounds alternating roles."
       }
     ],
-    "clips": [
-      {
-        "id": "5_TS0YHdxcQ",
-        "title": "Kesa Gatame Escapes",
-        "by": "Kodokan instructors",
-        "vertical": false,
-        "channel": "KODOKAN",
-        "duration": 139,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "ZMSfqiFWgiI",
-        "title": "Kuzure kesa gatame pin mechanics",
-        "by": "Poraka Nova",
-        "vertical": false,
-        "channel": "Poraka Nova",
-        "duration": 37,
-        "verified": "2026-07-16"
-      }
-    ]
+    "clips": []
   }
 }

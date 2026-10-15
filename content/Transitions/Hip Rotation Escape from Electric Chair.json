@@ -358,35 +358,7 @@
       }
     ],
     "safety_considerations": "The hip rotation involves significant torque on both knees and the lower back during the transition from lockdown configuration to turtle position. Practitioners must ensure the lockdown is properly released before rotating to avoid knee ligament strain from the figure-four being torqued during rotation. The exposed neck during mid-rotation is vulnerable to front headlock attacks, so always tuck the chin and protect the neck throughout the movement. Train this technique progressively with cooperative partners before adding resistance, and never force the rotation against a fully committed opponent pinning you flat, as this risks shoulder and neck injury.",
-    "clips": [
-      {
-        "id": "3A6oRsDf3oU",
-        "title": "Lockdown and electric chair counters and escapes",
-        "by": "Street Jitsu",
-        "vertical": false,
-        "channel": "Street Jitsu",
-        "duration": 286,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "lwwIfCAA7Zc",
-        "title": "Top Lockdown Turk Counter",
-        "by": "Craig Jones",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 207,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "pzpqHP-xx0I",
-        "title": "Electric Chair: The 3 Micro Battles",
-        "by": "Patrick Donabedian",
-        "vertical": false,
-        "channel": "Patrick Donabedian BJJ",
-        "duration": 630,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Hip Rotation Escape from Electric Chair Defender",
@@ -550,25 +522,6 @@
         "description": "Start in electric chair top position with partner having full grip establishment. Partner chooses between continuing the attack or bailing out to hip rotation escape. Practice defending the electric chair while staying ready to capitalize on any escape attempt. Reset after pass, sweep, or escape to guard."
       }
     ],
-    "clips": [
-      {
-        "id": "9CxxyZEd7-E",
-        "title": "Electric chair sweep technique breakdown",
-        "by": "Asaf Mich",
-        "vertical": false,
-        "channel": "Asaf Mich",
-        "duration": 76,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "adarj-QUB4Y",
-        "title": "Electric chair sweep from lockdown",
-        "by": "Moncaio Brothers Jiujitsu",
-        "vertical": false,
-        "channel": "Moncaio Brothers Jiujitsu",
-        "duration": 47,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

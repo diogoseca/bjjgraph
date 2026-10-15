@@ -166,35 +166,22 @@ description: "Master Z-Guard Bottom position in BJJ. Complete guide covering kne
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Three attacks from the Z-Guard",
-      "description": "Z-Guard (Bottom) film study: Three attacks from the Z-Guard, taught by Way of BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/T3Gwg-ABsZA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/T3Gwg-ABsZA",
-      "url": "https://www.youtube.com/watch?v=T3Gwg-ABsZA",
-      "creator": { "@type": "Person", "name": "Way of BJJ" },
-      "duration": "PT67S"
+      "name": "Z Guard Basics",
+      "description": "Z-Guard (Bottom) film study: Z Guard Basics.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/L6X-zOwKKCw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/L6X-zOwKKCw",
+      "url": "https://www.youtube.com/watch?v=L6X-zOwKKCw",
+      "duration": "PT218S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Reverse Z-Guard options, Craig Jones style",
-      "description": "Z-Guard (Bottom) film study: Reverse Z-Guard options, Craig Jones style, taught by Craig Jones.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/TrVf9YzEe0E/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/TrVf9YzEe0E",
-      "url": "https://www.youtube.com/watch?v=TrVf9YzEe0E",
-      "creator": { "@type": "Person", "name": "Craig Jones" },
-      "duration": "PT139S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Dog Bar from Z-Guard",
-      "description": "Z-Guard (Bottom) film study: Dog Bar from Z-Guard, taught by Craig Jones.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/vMqDIi10z4k/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/vMqDIi10z4k",
-      "url": "https://www.youtube.com/watch?v=vMqDIi10z4k",
-      "creator": { "@type": "Person", "name": "Craig Jones" },
-      "duration": "PT61S"
+      "name": "Z Guard Fundamentals",
+      "description": "Z-Guard (Bottom) film study: Z Guard Fundamentals.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/j2Yo87312cg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/j2Yo87312cg",
+      "url": "https://www.youtube.com/watch?v=j2Yo87312cg",
+      "duration": "PT765S"
     }
   ]
 }
@@ -227,25 +214,17 @@ From a strategic perspective, Z-Guard Bottom represents a critical position in t
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=T3Gwg-ABsZA)
+![](https://www.youtube.com/watch?v=L6X-zOwKKCw)
 
-<p class="clip-credit"><strong>Three attacks from the Z-Guard</strong> — taught by Way of BJJ · 1:07 · <a href="https://www.youtube.com/watch?v=T3Gwg-ABsZA" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=TrVf9YzEe0E)
-
-<p class="clip-credit"><strong>Reverse Z-Guard options, Craig Jones style</strong> — taught by Craig Jones · 2:19 · <a href="https://www.youtube.com/watch?v=TrVf9YzEe0E" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Z Guard Basics</strong> · 3:38 · <a href="https://www.youtube.com/watch?v=L6X-zOwKKCw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=vMqDIi10z4k)
+![](https://www.youtube.com/watch?v=j2Yo87312cg)
 
-<p class="clip-credit"><strong>Dog Bar from Z-Guard</strong> — taught by Craig Jones · 1:01 · <a href="https://www.youtube.com/watch?v=vMqDIi10z4k" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Z Guard Fundamentals</strong> · 12:45 · <a href="https://www.youtube.com/watch?v=j2Yo87312cg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

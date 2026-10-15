@@ -916,31 +916,11 @@
     ],
     "clips": [
       {
-        "id": "oyBedW2q0Qo",
-        "title": "Half butterfly sweep",
-        "by": "StadiumMMA",
-        "vertical": false,
-        "channel": "StadiumMMA",
-        "duration": 30,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "_PJ9H2B8us8",
-        "title": "Half butterfly sweep from head wrap",
-        "by": "Six Blades JJ",
-        "vertical": false,
-        "channel": "Six Blades JJ Yorktown ",
-        "duration": 43,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "X3M6JUqr1Bo",
-        "title": "Windmill half guard sweep",
-        "by": "SBG Australia",
-        "vertical": false,
-        "channel": "SBG Australia",
-        "duration": 16,
-        "verified": "2026-07-14"
+        "id": "IPe_nWt17bg",
+        "title": "Half Butterfly Guard For Oldies",
+        "channel": "Ebsayz",
+        "duration": 628,
+        "front": true
       }
     ]
   },

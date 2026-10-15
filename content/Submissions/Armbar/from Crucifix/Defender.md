@@ -160,61 +160,6 @@ description: "How to defend against Armbar from Crucifix in BJJ. Recognition, es
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Armbar from Crucifix (Defender) \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Crucifix escape",
-      "description": "Armbar from Crucifix (Defender) film study: Crucifix escape, taught by Mick Hall.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Wt2NW_hfTd0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Wt2NW_hfTd0",
-      "url": "https://www.youtube.com/watch?v=Wt2NW_hfTd0",
-      "creator": { "@type": "Person", "name": "Mick Hall" },
-      "duration": "PT228S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "How to escape the crucifix",
-      "description": "Armbar from Crucifix (Defender) film study: How to escape the crucifix, taught by Stephan Kesting.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/EcXue-cD12Q/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/EcXue-cD12Q",
-      "url": "https://www.youtube.com/watch?v=EcXue-cD12Q",
-      "creator": { "@type": "Person", "name": "Stephan Kesting" },
-      "duration": "PT339S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Simple crucifix escape",
-      "description": "Armbar from Crucifix (Defender) film study: Simple crucifix escape, taught by Coach Brian.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Wrg5Tx-88yM/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Wrg5Tx-88yM",
-      "url": "https://www.youtube.com/watch?v=Wrg5Tx-88yM",
-      "creator": { "@type": "Person", "name": "Coach Brian" },
-      "duration": "PT149S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 4,
-      "name": "Underused Armbar Escape Direction",
-      "description": "Armbar from Crucifix (Defender) film study: Underused Armbar Escape Direction, taught by Priit Mihkelson.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/oLccpWCMh70/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/oLccpWCMh70",
-      "url": "https://www.youtube.com/watch?v=oLccpWCMh70",
-      "creator": { "@type": "Person", "name": "Priit Mihkelson" },
-      "duration": "PT585S"
-    }
-  ]
-}
-</script>
-
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -228,48 +173,6 @@ Defending the armbar from crucifix is one of the most technically demanding defe
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Armbar from Crucifix (Defender) in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=Wt2NW_hfTd0)
-
-<p class="clip-credit"><strong>Crucifix escape</strong> — taught by Mick Hall · 3:48 · <a href="https://www.youtube.com/watch?v=Wt2NW_hfTd0" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=EcXue-cD12Q)
-
-<p class="clip-credit"><strong>How to escape the crucifix</strong> — taught by Stephan Kesting · 5:39 · <a href="https://www.youtube.com/watch?v=EcXue-cD12Q" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=Wrg5Tx-88yM)
-
-<p class="clip-credit"><strong>Simple crucifix escape</strong> — taught by Coach Brian · 2:29 · <a href="https://www.youtube.com/watch?v=Wrg5Tx-88yM" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=oLccpWCMh70)
-
-<p class="clip-credit"><strong>Underused Armbar Escape Direction</strong> — taught by Priit Mihkelson · 9:45 · <a href="https://www.youtube.com/watch?v=oLccpWCMh70" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="recognition-cues" class="content-section">

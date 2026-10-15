@@ -347,26 +347,7 @@
       }
     ],
     "safety_considerations": "This transition involves significant pressure application through crossface and chest-to-chest contact. Be mindful of the opponent's neck position during crossface application to avoid excessive lateral neck pressure. During training, apply flattening pressure gradually rather than explosively to allow your partner to tap or verbally signal if the pressure becomes uncomfortable. Avoid driving crossface pressure directly into the throat—target the jaw and cheekbone area instead. When extracting legs from entanglements, move deliberately to avoid torquing your partner's knee or ankle joints.",
-    "clips": [
-      {
-        "id": "kXdw4YnLJnE",
-        "title": "Standing Pass to North-South Matrix",
-        "by": "Greg Hamilton",
-        "vertical": false,
-        "channel": "Renzo Gracie Jiu Jitsu DFW",
-        "duration": 323,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "uo8-ZJyba08",
-        "title": "Craig Jones Matrix to Top Position Compilation",
-        "by": "Craig Jones",
-        "vertical": false,
-        "channel": "FreeChannelOpen",
-        "duration": 63,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Matrix to Side Control Defender",
@@ -530,34 +511,6 @@
         "description": "Positional sparring from Matrix bottom after a blocked rotation. Top player attempts side control consolidation at full intensity while defender works complete defensive sequences including secondary rotation attempts, frame creation, guard recovery, and sweep attempts. Position resets after side control is established or defender recovers guard. Six rounds of 90 seconds each."
       }
     ],
-    "clips": [
-      {
-        "id": "qZFnfPF6N9o",
-        "title": "Stiff arm escape timing and speed drill",
-        "by": "Matrix Jiu Jitsu",
-        "vertical": false,
-        "channel": "Matrix Jiu Jitsu",
-        "duration": 71,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "61unSJ7vu4I",
-        "title": "Recovering Guard from the Turtle",
-        "by": "Lachlan Giles",
-        "vertical": false,
-        "channel": "Absolute MMA St Kilda - Melbourne",
-        "duration": 413,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "CA1uP2THJdY",
-        "title": "Escaping Side Control",
-        "by": "Lachlan Giles",
-        "vertical": false,
-        "channel": "Absolute MMA St Kilda - Melbourne",
-        "duration": 588,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

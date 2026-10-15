@@ -461,26 +461,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "vSmRbpNmf-E",
-        "title": "Roger Gracie armbars",
-        "by": "Roger Gracie",
-        "vertical": false,
-        "channel": "Jiu Jitsu Moves",
-        "duration": 102,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "gDn6uThIABM",
-        "title": "Armbar from mount when they bump you off",
-        "by": "Kyle Dimmitt",
-        "vertical": false,
-        "channel": "Kyle Dimmitt",
-        "duration": 76,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "from Armbar Control Defender",
@@ -687,30 +668,11 @@
     "clips": [
       {
         "id": "kNdKfUdgO4I",
-        "title": "My favorite armbar escape",
-        "by": "Matt Arroyo",
-        "vertical": false,
+        "title": "THIS is my favorite armbar escape! #jiujitsu #jiujitsutips",
         "channel": "Matt Arroyo Jiu Jitsu ",
         "duration": 92,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "gWfgCEvGZTo",
-        "title": "Hitchhiker armbar escape",
-        "by": "Evolve MMA",
         "vertical": false,
-        "channel": "Evolve Mixed Martial Arts",
-        "duration": 58,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "w6M0NpTMkeU",
-        "title": "Quickest armbar escape: the Hitchhiker",
-        "by": "Peter Mettler",
-        "vertical": false,
-        "channel": "Peter Mettler Martial Arts",
-        "duration": 55,
-        "verified": "2026-07-14"
+        "front": true
       }
     ]
   }

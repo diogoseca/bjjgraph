@@ -365,26 +365,7 @@
       }
     ],
     "safety_considerations": "This escape involves intense jaw and temporomandibular joint pressure that can cause discomfort and potential injury if the top player applies excessive force. During training, communicate with your partner about pressure intensity levels and establish clear verbal or tap signals to reduce pressure when needed. Practitioners with pre-existing TMJ conditions, cervical spine issues, or jaw injuries should exercise caution and inform training partners before drilling this position. Never attempt explosive escapes without proper warmup of the neck and jaw muscles.",
-    "clips": [
-      {
-        "id": "HO877lE69nM",
-        "title": "Escaping the shoulder of justice from cross sides",
-        "by": "SBG New Braunfels coach",
-        "vertical": false,
-        "channel": "SBG New Braunfels BJJ",
-        "duration": 145,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "TAJy-rlPqsg",
-        "title": "Cross Sides Zero Points Escape Concept",
-        "by": "Priit Mihkelson",
-        "vertical": false,
-        "channel": "SBG Montana Martial Arts - Yoga - Gym Kalispell",
-        "duration": 328,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Escape Shoulder of Justice Defender",
@@ -561,25 +542,6 @@
         "description": "Full resistance positional sparring starting in Shoulder of Justice. Top player scores for maintaining position beyond two minutes, advancing to mount, or securing submission. Bottom player scores for escaping to half guard or better. Progressive resistance from 50% to 100% across rounds to develop automatic counter responses."
       }
     ],
-    "clips": [
-      {
-        "id": "XaYoAcTeKkk",
-        "title": "Maintaining side control shoulder pressure",
-        "by": "Thunderdome BJJ",
-        "vertical": false,
-        "channel": "Thunderdome BJJ",
-        "duration": 32,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "mWimgVQrsMU",
-        "title": "Far side underhook pin retention",
-        "by": "Craig Jones",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 137,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

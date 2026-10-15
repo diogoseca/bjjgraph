@@ -432,35 +432,7 @@
       }
     ],
     "safety_considerations": "The turtle to standing transition is generally low-risk but requires awareness of several safety considerations. The primary injury risk is to the neck: rising with poor chin tuck mechanics can result in being caught in a guillotine or front headlock choke, and practitioners should tap immediately if a choke tightens during drilling rather than trying to power through. When training the explosive stand-up, ensure adequate warm-up of quadriceps, hip flexors, and shoulders, as the movement demands sudden power generation from a compressed starting position. Partners applying top pressure during resistance drills should avoid suddenly dropping their full bodyweight, as this can cause wrist, shoulder, or cervical spine injuries to the person posting. On hard or thin mat surfaces, be cautious of knee impact when driving the lead leg forward into the lunge position. Communication between training partners about intensity levels is essential, particularly during the transition from cooperative to resistant drilling phases. When practicing guillotine defense during stand-up drills, always tap early and reset rather than testing neck durability.",
-    "clips": [
-      {
-        "id": "_sBB-O8fqP4",
-        "title": "Standing up from turtle, step 5",
-        "by": "Priit Mihkelson",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 114,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "d312j3n9fIw",
-        "title": "Sit out from turtle with head on back",
-        "by": "Mjølnir Fight Club",
-        "vertical": false,
-        "channel": "Mjølnir Fight Club",
-        "duration": 30,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "TsBQBAp5o_I",
-        "title": "Standing up without exposing your back",
-        "by": "Brandon McCaghren",
-        "vertical": false,
-        "channel": "Brandon Mccaghren",
-        "duration": 146,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Turtle to Standing Defender",
@@ -626,22 +598,19 @@
     ],
     "clips": [
       {
-        "id": "JX0HL0WpYPs",
-        "title": "Front headlock to stop the turtle standup",
-        "by": "Gordon Ryan",
+        "id": "v37tHX8oKuY",
+        "title": "Attacking When They Stand Up from Turtle: the 4-Point Position (No Gi…",
+        "channel": "Brian Glick",
+        "duration": 355,
         "vertical": false,
-        "channel": "Bernardo Faria BJJ Fanatics",
-        "duration": 478,
-        "verified": "2026-07-15"
+        "front": true
       },
       {
-        "id": "0xYFYI9LkUQ",
-        "title": "Riding the turtle roll to the far side with a near hook",
-        "by": "Priit Mihkelson",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 144,
-        "verified": "2026-07-16"
+        "id": "7QBW031Crmg",
+        "title": "Dealing With An Opponent Trying to Stand Up From Turtle Position - Matt Inman",
+        "channel": "London Grapple",
+        "duration": 415,
+        "vertical": false
       }
     ]
   }

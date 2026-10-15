@@ -448,35 +448,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "pyZ65EYfirU",
-        "title": "Crucifix Smother to Rear Choke",
-        "by": "Josh Leduc",
-        "vertical": false,
-        "channel": "Josh Star-Lord Leduc",
-        "duration": 67,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "amVyOvT2yJs",
-        "title": "Rear Naked Choke from Crucifix Position",
-        "by": "Mat Life Training Center",
-        "vertical": false,
-        "channel": "Mat Life Training Center",
-        "duration": 14,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "3t6j9HT6Mr8",
-        "title": "Crucifix to Rear Naked Choke",
-        "by": "Greg Ferguson",
-        "vertical": false,
-        "channel": "Greg Ferguson",
-        "duration": 43,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "from Mounted Crucifix Defender",
@@ -665,34 +637,6 @@
         "description": "Start in mounted crucifix with partner attacking RNC at full intensity. Defender applies all learned defensive skills under pressure. Develop the composure and timing needed to survive and escape when all techniques are being applied against active resistance. Track escape success rate to measure improvement."
       }
     ],
-    "clips": [
-      {
-        "id": "0FP7BLHdArw",
-        "title": "D'arce escape from the crucifix",
-        "by": "Breylor \"JR\" Grout",
-        "vertical": false,
-        "channel": "Gold BJJ",
-        "duration": 84,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "N6lKNqUOZoY",
-        "title": "Complete back escape system",
-        "by": "Matt Arroyo",
-        "vertical": false,
-        "channel": "Matt Arroyo Jiu Jitsu ",
-        "duration": 675,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "PARsvWFmssI",
-        "title": "Chaining escapes from bottom pin",
-        "by": "Gordon Ryan",
-        "vertical": false,
-        "channel": "Gordon Ryan",
-        "duration": 273,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

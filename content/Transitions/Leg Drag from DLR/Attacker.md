@@ -186,34 +186,31 @@ description: "Execute the leg drag pass from De La Riva Guard. Step-by-step grip
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "De La Riva to leg drag",
-      "description": "Leg Drag from DLR (Attacker) film study: De La Riva to leg drag, taught by Alavanca.",
+      "name": "De La Riva to Leg Drag #shorts",
+      "description": "Leg Drag from DLR (Attacker) film study: De La Riva to Leg Drag #shorts.",
       "thumbnailUrl": "https://i.ytimg.com/vi/H9hckrLXcRQ/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/H9hckrLXcRQ",
       "url": "https://www.youtube.com/watch?v=H9hckrLXcRQ",
-      "creator": { "@type": "Person", "name": "Alavanca" },
       "duration": "PT29S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Bullfighter counter to De La Riva into leg drag",
-      "description": "Leg Drag from DLR (Attacker) film study: Bullfighter counter to De La Riva into leg drag, taught by King Mo.",
+      "name": "Bull Fighting: De La Riva Counter to Leg Drag",
+      "description": "Leg Drag from DLR (Attacker) film study: Bull Fighting: De La Riva Counter to Leg Drag.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Mtwz27161ZI/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Mtwz27161ZI",
       "url": "https://www.youtube.com/watch?v=Mtwz27161ZI",
-      "creator": { "@type": "Person", "name": "King Mo" },
       "duration": "PT41S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "De La Riva to leg drag pass",
-      "description": "Leg Drag from DLR (Attacker) film study: De La Riva to leg drag pass, taught by Sickness Ferro.",
+      "name": "De la riva to leg drag",
+      "description": "Leg Drag from DLR (Attacker) film study: De la riva to leg drag.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Mag1e96DQuY/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Mag1e96DQuY",
       "url": "https://www.youtube.com/watch?v=Mag1e96DQuY",
-      "creator": { "@type": "Person", "name": "Sickness Ferro" },
       "duration": "PT108S"
     }
   ]
@@ -244,7 +241,7 @@ The leg drag from DLR is a high-percentage passing technique that converts the b
 
 ![](https://www.youtube.com/watch?v=H9hckrLXcRQ)
 
-<p class="clip-credit"><strong>De La Riva to leg drag</strong> — taught by Alavanca · 0:29 · <a href="https://www.youtube.com/watch?v=H9hckrLXcRQ" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>De La Riva to Leg Drag #shorts</strong> · 0:29 · <a href="https://www.youtube.com/watch?v=H9hckrLXcRQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -252,7 +249,7 @@ The leg drag from DLR is a high-percentage passing technique that converts the b
 
 ![](https://www.youtube.com/watch?v=Mtwz27161ZI)
 
-<p class="clip-credit"><strong>Bullfighter counter to De La Riva into leg drag</strong> — taught by King Mo · 0:41 · <a href="https://www.youtube.com/watch?v=Mtwz27161ZI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Bull Fighting: De La Riva Counter to Leg Drag</strong> · 0:41 · <a href="https://www.youtube.com/watch?v=Mtwz27161ZI" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -260,7 +257,7 @@ The leg drag from DLR is a high-percentage passing technique that converts the b
 
 ![](https://www.youtube.com/watch?v=Mag1e96DQuY)
 
-<p class="clip-credit"><strong>De La Riva to leg drag pass</strong> — taught by Sickness Ferro · 1:48 · <a href="https://www.youtube.com/watch?v=Mag1e96DQuY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>De la riva to leg drag</strong> · 1:48 · <a href="https://www.youtube.com/watch?v=Mag1e96DQuY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

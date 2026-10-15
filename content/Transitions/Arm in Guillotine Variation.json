@@ -361,31 +361,12 @@
     "safety_considerations": "The arm-in guillotine applies intense bilateral pressure to both carotid arteries simultaneously, with the opponent's own trapped shoulder assisting the compression. This can accelerate unconsciousness faster than standard guillotine variations—full blood flow restriction can occur within three to five seconds under proper compression. Always apply finishing pressure gradually and progressively, never with sudden jerking or spiking motions. Release immediately upon tap or any verbal signal. Monitor for signs of unconsciousness including body going limp, face color changes, or failure to respond. Ensure the trapped arm retains enough mobility for the defender to tap—never pin both arms simultaneously. During training, communicate with your partner about pressure levels and maintain awareness that the arm-in configuration restricts their ability to signal distress with the trapped hand.",
     "clips": [
       {
-        "id": "NUnTxPvjCa0",
-        "title": "Marcelotine: Marcelo Garcia's arm-in guillotine",
-        "by": "Marcelo Garcia",
-        "vertical": false,
-        "channel": "stuartcooperfilms",
-        "duration": 73,
-        "verified": "2026-07-15"
-      },
-      {
         "id": "8AGCNn4ElSA",
-        "title": "Lapel-assisted arm-in guillotine finish",
-        "by": "Johnny Jitsu",
-        "vertical": true,
+        "title": "Arm-in Guillotine (Lapel-assisted) #shorts #bjj #jiujitsu #brazilianjiujitsu…",
         "channel": "Johnny Jitsu",
-        "duration": 61,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "Dg1dvtWkXhE",
-        "title": "Marcelotine guillotine breakdown",
-        "by": "Half The Battle",
-        "vertical": false,
-        "channel": "Half The Battle",
-        "duration": 110,
-        "verified": "2026-07-15"
+        "duration": 60,
+        "vertical": true,
+        "front": true
       }
     ]
   },
@@ -565,31 +546,12 @@
     ],
     "clips": [
       {
-        "id": "dyTKKiajgzQ",
-        "title": "Escaping single and double arm guillotines",
-        "by": "Cobrinha",
-        "vertical": false,
-        "channel": "Cobrinha Brazilian Jiu-Jitsu & Fitness",
-        "duration": 44,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "Qb8gtundzPg",
-        "title": "Guillotine escape from inside the guard",
-        "by": "Ground Zero MMA",
-        "vertical": false,
-        "channel": "Ground Zero MMA,BJJ,Wresting,No Gi,Bridgend.",
-        "duration": 57,
-        "verified": "2026-07-15"
-      },
-      {
         "id": "IdHNqDoxlGE",
-        "title": "Arm-in guillotine defence from closed guard",
-        "by": "Essence BJJ",
-        "vertical": false,
+        "title": "Arm in Guillotine Defence from Closed Guard",
         "channel": "Essence BJJ",
-        "duration": 158,
-        "verified": "2026-07-15"
+        "duration": 157,
+        "vertical": false,
+        "front": true
       }
     ]
   }

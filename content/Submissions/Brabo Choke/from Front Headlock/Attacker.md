@@ -182,35 +182,22 @@ description: "How to execute Brabo Choke in BJJ. Attacking perspective with setu
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Darce Choke from the Front Headlock",
-      "description": "Brabo Choke from Front Headlock (Attacker) film study: Darce Choke from the Front Headlock, taught by Procel BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/BMU1_wfjYTw/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/BMU1_wfjYTw",
-      "url": "https://www.youtube.com/watch?v=BMU1_wfjYTw",
-      "creator": { "@type": "Person", "name": "Procel BJJ" },
-      "duration": "PT101S"
+      "name": "RUSTAM KHABILOV. BRABO CHOKE FROM FRONT HEADLOCK - STAR TECHNIQUES # 4",
+      "description": "Brabo Choke from Front Headlock (Attacker) film study: RUSTAM KHABILOV. BRABO CHOKE FROM FRONT HEADLOCK - STAR TECHNIQUES # 4.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/HUiCQHRTsPk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/HUiCQHRTsPk",
+      "url": "https://www.youtube.com/watch?v=HUiCQHRTsPk",
+      "duration": "PT58S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Half Nelson to D\u0027Arce/Brabo Choke",
-      "description": "Brabo Choke from Front Headlock (Attacker) film study: Half Nelson to D\u0027Arce/Brabo Choke, taught by Joshua Clements.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/dS5HQNSyuXs/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/dS5HQNSyuXs",
-      "url": "https://www.youtube.com/watch?v=dS5HQNSyuXs",
-      "creator": { "@type": "Person", "name": "Joshua Clements" },
-      "duration": "PT94S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Brabo Choke from Turtle",
-      "description": "Brabo Choke from Front Headlock (Attacker) film study: Brabo Choke from Turtle, taught by Thiago Stefanutti.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/pad9c-Ldljg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/pad9c-Ldljg",
-      "url": "https://www.youtube.com/watch?v=pad9c-Ldljg",
-      "creator": { "@type": "Person", "name": "Thiago Stefanutti" },
-      "duration": "PT46S"
+      "name": "Front Headlock to Brabo Choke",
+      "description": "Brabo Choke from Front Headlock (Attacker) film study: Front Headlock to Brabo Choke.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xl14mmXhFCo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/xl14mmXhFCo",
+      "url": "https://www.youtube.com/watch?v=xl14mmXhFCo",
+      "duration": "PT283S"
     }
   ]
 }
@@ -239,25 +226,17 @@ The Brabo Choke is a powerful blood choke from the front headlock position, clos
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=BMU1_wfjYTw)
+![](https://www.youtube.com/watch?v=HUiCQHRTsPk)
 
-<p class="clip-credit"><strong>Darce Choke from the Front Headlock</strong> — taught by Procel BJJ · 1:41 · <a href="https://www.youtube.com/watch?v=BMU1_wfjYTw" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=dS5HQNSyuXs)
-
-<p class="clip-credit"><strong>Half Nelson to D&#39;Arce/Brabo Choke</strong> — taught by Joshua Clements · 1:34 · <a href="https://www.youtube.com/watch?v=dS5HQNSyuXs" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>RUSTAM KHABILOV. BRABO CHOKE FROM FRONT HEADLOCK - STAR TECHNIQUES # 4</strong> · 0:58 · <a href="https://www.youtube.com/watch?v=HUiCQHRTsPk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=pad9c-Ldljg)
+![](https://www.youtube.com/watch?v=xl14mmXhFCo)
 
-<p class="clip-credit"><strong>Brabo Choke from Turtle</strong> — taught by Thiago Stefanutti · 0:46 · <a href="https://www.youtube.com/watch?v=pad9c-Ldljg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Front Headlock to Brabo Choke</strong> · 4:43 · <a href="https://www.youtube.com/watch?v=xl14mmXhFCo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

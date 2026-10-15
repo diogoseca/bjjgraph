@@ -453,22 +453,17 @@
     ],
     "clips": [
       {
-        "id": "cajDQH-ZiH8",
-        "title": "Arm bar from the Mount",
-        "by": "Cosens MMA",
-        "vertical": false,
-        "channel": "Cosens MMA LLC",
-        "duration": 44,
-        "verified": "2026-07-14"
+        "id": "d2bpsh45KQE",
+        "title": "Super tight Armbar from high mount",
+        "channel": "Carlson Gracie Jiu-Jitsu Team Melbourne FL",
+        "duration": 109,
+        "front": true
       },
       {
-        "id": "vSmRbpNmf-E",
-        "title": "Armbar breakdown",
-        "by": "Roger Gracie",
-        "vertical": false,
-        "channel": "Jiu Jitsu Moves",
-        "duration": 102,
-        "verified": "2026-07-14"
+        "id": "8yYKRJJANa8",
+        "title": "3 ways to finish the Arm bar from high mount",
+        "channel": "Sticks and Stones BJJ",
+        "duration": 309
       }
     ]
   },
@@ -660,25 +655,6 @@
         "description": "Positional sparring from high mount bottom against full resistance. Defender works to prevent the armbar and escape to guard; attacker works to finish. Track success rate over multiple rounds and identify which phase of defense needs the most improvement."
       }
     ],
-    "clips": [
-      {
-        "id": "KuhIFZMNIKs",
-        "title": "Fix your armbar defense",
-        "by": "Michael Currier",
-        "vertical": false,
-        "channel": "Michael Currier BJJ",
-        "duration": 105,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "sDdqvh_1kbA",
-        "title": "Armbar escape",
-        "by": "ZombieProofBJJ",
-        "vertical": false,
-        "channel": "ZombieProofBJJ",
-        "duration": 63,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   }
 }

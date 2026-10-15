@@ -362,31 +362,12 @@
     "safety_considerations": "This transition involves leg entanglements that create significant risk of knee and ankle ligament damage to both practitioners. During the reconfiguration phase, the attacker's hip switch can inadvertently apply rotational force on the opponent's knee before either practitioner recognizes the danger. Always execute the transition with controlled, deliberate movements in training. Never attempt the hip switch explosively, as the positional change can accidentally engage heel hook mechanics during reconfiguration. If the defender signals distress or taps at any point during the transition, release all control immediately. Partners should establish clear communication protocols and agree on tap-and-release expectations before drilling this technique. Beginners should learn the movement pattern without any submission grip engagement until the mechanics are automatic.",
     "clips": [
       {
-        "id": "hcw1zaEizxw",
-        "title": "Deep half guard to honey hole",
-        "by": "Mission Tristan",
+        "id": "5hhSK86xBFc",
+        "title": "Controlling the Saddle position: Overlooked details that will improve your leg…",
+        "channel": "Mads H. BJJ",
+        "duration": 259,
         "vertical": false,
-        "channel": "Mission Tristan",
-        "duration": 68,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "rldppvn1WTg",
-        "title": "Honey hole entry from half guard",
-        "by": "JitzLive",
-        "vertical": false,
-        "channel": "JitzLive",
-        "duration": 89,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "eRQVlYxFx1Y",
-        "title": "Shoulder roll to cross ashi / saddle",
-        "by": "bjj doug",
-        "vertical": false,
-        "channel": "bjj doug",
-        "duration": 42,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },
@@ -566,31 +547,12 @@
     ],
     "clips": [
       {
-        "id": "DF2AYLPbeHc",
-        "title": "Defending and countering the inside heel hook",
-        "by": "Jahred Dell",
-        "vertical": false,
-        "channel": "Jahred Dell",
-        "duration": 70,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "CFTLb8iywJg",
-        "title": "Defending and Escaping the Saddle",
-        "by": "Lachlan Giles",
-        "vertical": false,
-        "channel": "Absolute MMA St Kilda - Melbourne",
-        "duration": 383,
-        "verified": "2026-07-15"
-      },
-      {
         "id": "VSTMOIkVMAk",
-        "title": "Basic Defense and Escape from Inside Sankaku",
-        "by": "BJJ4Breakfast",
-        "vertical": false,
+        "title": "Basic defense and escape from inside sankaku",
         "channel": "BJJ4Breakfast",
-        "duration": 217,
-        "verified": "2026-07-15"
+        "duration": 216,
+        "vertical": false,
+        "front": true
       }
     ]
   }

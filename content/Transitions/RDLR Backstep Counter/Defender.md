@@ -160,24 +160,12 @@ description: "Defend against the RDLR Backstep Counter in BJJ. Learn recognition
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Defending the backstep pass to de la riva",
-      "description": "RDLR Backstep Counter (Defender) film study: Defending the backstep pass to de la riva, taught by Inverted Gear.",
+      "name": "Defending against backstep pass to De la Riva",
+      "description": "RDLR Backstep Counter (Defender) film study: Defending against backstep pass to De la Riva.",
       "thumbnailUrl": "https://i.ytimg.com/vi/a3ModDEKY6s/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/a3ModDEKY6s",
       "url": "https://www.youtube.com/watch?v=a3ModDEKY6s",
-      "creator": { "@type": "Person", "name": "Inverted Gear" },
       "duration": "PT145S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Defense to reverse de la riva and foot lock",
-      "description": "RDLR Backstep Counter (Defender) film study: Defense to reverse de la riva and foot lock, taught by Ninja Pinto.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/hdSw-ZmcBRA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/hdSw-ZmcBRA",
-      "url": "https://www.youtube.com/watch?v=hdSw-ZmcBRA",
-      "creator": { "@type": "Person", "name": "Ninja Pinto" },
-      "duration": "PT31S"
     }
   ]
 }
@@ -207,15 +195,7 @@ Defending against the RDLR Backstep Counter requires early recognition of the to
 
 ![](https://www.youtube.com/watch?v=a3ModDEKY6s)
 
-<p class="clip-credit"><strong>Defending the backstep pass to de la riva</strong> — taught by Inverted Gear · 2:25 · <a href="https://www.youtube.com/watch?v=a3ModDEKY6s" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=hdSw-ZmcBRA)
-
-<p class="clip-credit"><strong>Defense to reverse de la riva and foot lock</strong> — taught by Ninja Pinto · 0:31 · <a href="https://www.youtube.com/watch?v=hdSw-ZmcBRA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Defending against backstep pass to De la Riva</strong> · 2:25 · <a href="https://www.youtube.com/watch?v=a3ModDEKY6s" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

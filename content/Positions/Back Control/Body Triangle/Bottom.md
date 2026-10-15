@@ -165,23 +165,11 @@ description: "Defend and escape body triangle position in BJJ. Strategic guide c
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Escaping the Body Triangle",
-      "description": "Body Triangle (Bottom) film study: Escaping the Body Triangle, taught by Coach Brian.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/hgaULMND3ag/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/hgaULMND3ag",
-      "url": "https://www.youtube.com/watch?v=hgaULMND3ag",
-      "creator": { "@type": "Person", "name": "Coach Brian" },
-      "duration": "PT129S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Body Triangle Escape",
-      "description": "Body Triangle (Bottom) film study: Body Triangle Escape, taught by Art of War MMA.",
+      "name": "Body Triangle Escape (BJJ Instructional)",
+      "description": "Body Triangle (Bottom) film study: Body Triangle Escape (BJJ Instructional).",
       "thumbnailUrl": "https://i.ytimg.com/vi/XXnVvrZXGOs/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/XXnVvrZXGOs",
       "url": "https://www.youtube.com/watch?v=XXnVvrZXGOs",
-      "creator": { "@type": "Person", "name": "Art of War MMA" },
       "duration": "PT173S"
     }
   ]
@@ -212,17 +200,9 @@ Successful defense from body triangle bottom requires calm breathing management,
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=hgaULMND3ag)
-
-<p class="clip-credit"><strong>Escaping the Body Triangle</strong> — taught by Coach Brian · 2:09 · <a href="https://www.youtube.com/watch?v=hgaULMND3ag" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=XXnVvrZXGOs)
 
-<p class="clip-credit"><strong>Body Triangle Escape</strong> — taught by Art of War MMA · 2:53 · <a href="https://www.youtube.com/watch?v=XXnVvrZXGOs" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Body Triangle Escape (BJJ Instructional)</strong> · 2:53 · <a href="https://www.youtube.com/watch?v=XXnVvrZXGOs" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

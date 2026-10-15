@@ -47,35 +47,12 @@ description: "Master Ippon Seoi Nage in BJJ. Complete judo-to-BJJ adaptation cov
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Sambo-style ippon seoi nage",
-      "description": "Ippon Seoi Nage film study: Sambo-style ippon seoi nage, taught by Shintaro Higashi.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/A6u812Rxuag/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/A6u812Rxuag",
-      "url": "https://www.youtube.com/watch?v=A6u812Rxuag",
-      "creator": { "@type": "Person", "name": "Shintaro Higashi" },
-      "duration": "PT47S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Timing for ippon seoi nage",
-      "description": "Ippon Seoi Nage film study: Timing for ippon seoi nage, taught by Shintaro Higashi.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/u-AiRGPSnEg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/u-AiRGPSnEg",
-      "url": "https://www.youtube.com/watch?v=u-AiRGPSnEg",
-      "creator": { "@type": "Person", "name": "Shintaro Higashi" },
-      "duration": "PT53S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "No-gi ippon seoi nage",
-      "description": "Ippon Seoi Nage film study: No-gi ippon seoi nage, taught by Shintaro Higashi.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/wx6ewN6-b4Y/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/wx6ewN6-b4Y",
-      "url": "https://www.youtube.com/watch?v=wx6ewN6-b4Y",
-      "creator": { "@type": "Person", "name": "Shintaro Higashi" },
-      "duration": "PT92S"
+      "name": "Mechanic of Ippon-seoi-nage",
+      "description": "Ippon Seoi Nage film study: Mechanic of Ippon-seoi-nage.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pkiShFuNC14/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/pkiShFuNC14",
+      "url": "https://www.youtube.com/watch?v=pkiShFuNC14",
+      "duration": "PT59S"
     }
   ]
 }
@@ -132,25 +109,9 @@ The modern application of Ippon Seoi Nage in BJJ emphasizes grip control, timing
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=A6u812Rxuag)
+![](https://www.youtube.com/watch?v=pkiShFuNC14)
 
-<p class="clip-credit"><strong>Sambo-style ippon seoi nage</strong> — taught by Shintaro Higashi · 0:47 · <a href="https://www.youtube.com/watch?v=A6u812Rxuag" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=u-AiRGPSnEg)
-
-<p class="clip-credit"><strong>Timing for ippon seoi nage</strong> — taught by Shintaro Higashi · 0:53 · <a href="https://www.youtube.com/watch?v=u-AiRGPSnEg" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=wx6ewN6-b4Y)
-
-<p class="clip-credit"><strong>No-gi ippon seoi nage</strong> — taught by Shintaro Higashi · 1:32 · <a href="https://www.youtube.com/watch?v=wx6ewN6-b4Y" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Mechanic of Ippon-seoi-nage</strong> · 0:59 · <a href="https://www.youtube.com/watch?v=pkiShFuNC14" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

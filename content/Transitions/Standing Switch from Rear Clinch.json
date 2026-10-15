@@ -386,31 +386,12 @@
     "safety_considerations": "The standing switch involves rapid rotational forces on the spine and hips that require gradual training progression. Practice the pivot motion at low intensity initially and build toward explosive speed over time. Avoid forcing the rotation against extremely tight grips as this can strain the lower back or shoulder of the reaching arm. When drilling with partners, communicate clearly before explosive switch attempts to prevent collision injuries. On hard surfaces, be cautious of the mat return counter where the opponent drives you down during the switch—falling awkwardly during rotation can cause neck or shoulder injuries. Always warm up the hips, lower back, and shoulders thoroughly before switch practice.",
     "clips": [
       {
-        "id": "2VCyaassiRI",
-        "title": "Leg switch cutback from rear bodylock",
-        "by": "Procel BJJ",
-        "vertical": false,
-        "channel": "Procel Brazilian Jiu-Jitsu",
-        "duration": 52,
-        "verified": "2026-07-15"
-      },
-      {
         "id": "NJfpYHK2N2I",
-        "title": "The standing switch for wrestling and MMA",
-        "by": "Danny Mitchell",
-        "vertical": false,
+        "title": "The Standing Switch - Wrestling for MMA",
         "channel": "Danny Mitchell MMA",
         "duration": 114,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "qCGs54kGvQo",
-        "title": "Wrestling reversals: switch from bottom",
-        "by": "American University Wrestling",
         "vertical": false,
-        "channel": "American University Wrestling",
-        "duration": 31,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },
@@ -575,25 +556,6 @@
         "description": "Start from standing rear clinch with partner working all available escapes including the switch at full intensity. Maintain control while reading and countering switch attempts in real time. Develop the ability to distinguish between feints and committed attempts while sustaining offensive pressure."
       }
     ],
-    "clips": [
-      {
-        "id": "8l-W5VTZC3E",
-        "title": "Rear bodylock: kimura counter to the sweep",
-        "by": "SBG Australia",
-        "vertical": false,
-        "channel": "SBG Australia",
-        "duration": 21,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "DFXdqByRxNg",
-        "title": "Standing Rear Body Lock: Counters, Attacks and Defense",
-        "by": "Brian Glick",
-        "vertical": false,
-        "channel": "Brian Glick",
-        "duration": 318,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

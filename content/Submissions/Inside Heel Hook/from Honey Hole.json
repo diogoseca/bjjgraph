@@ -448,31 +448,12 @@
     ],
     "clips": [
       {
-        "id": "3KAO2Ck4HRg",
-        "title": "Honey Hole Heel Hook Finish",
-        "by": "JitzLive",
+        "id": "n6EoUkDwUVc",
+        "title": "4 Variations Of Heel Hook Finish From Saddle",
+        "channel": "The Grappling Bloke",
+        "duration": 101,
         "vertical": false,
-        "channel": "JitzLive",
-        "duration": 52,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "PGQ7YYfu76Q",
-        "title": "Honey Hole to Heel Hook Finish",
-        "by": "Ilya Bodnya",
-        "vertical": false,
-        "channel": "Ilya Bodnya",
-        "duration": 65,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "sIYeSMSkqeE",
-        "title": "Inside Heel Hook Finish",
-        "by": "Craig Jones",
-        "vertical": false,
-        "channel": "Professor Buck",
-        "duration": 18,
-        "verified": "2026-07-14"
+        "front": true
       }
     ]
   },
@@ -658,34 +639,6 @@
         "description": "Positional sparring starting from Honey Hole bottom. Defender works to escape or survive, attacker works to finish. Full resistance with strict safety protocols—tap early when submission is locked. Reset on escape or submission. Build realistic defensive timing, composure under pressure, and appropriate tap recognition."
       }
     ],
-    "clips": [
-      {
-        "id": "DF2AYLPbeHc",
-        "title": "Defending & Countering the Inside Heel Hook",
-        "by": "Jahred Dell",
-        "vertical": false,
-        "channel": "Jahred Dell",
-        "duration": 70,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "AsGMkATAqqw",
-        "title": "Heel Hook Defense When Ambushed",
-        "by": "John Danaher",
-        "vertical": false,
-        "channel": "Dohn Janaher ",
-        "duration": 53,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "v3w0qXLKxug",
-        "title": "Defending Heel Hooks",
-        "by": "Lachlan Giles",
-        "vertical": false,
-        "channel": "Absolute MMA St Kilda - Melbourne",
-        "duration": 92,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   }
 }

@@ -443,35 +443,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "CuhFzPhwvQA",
-        "title": "Advanced Arm Triangle from Twister Side",
-        "by": "Eddie Bravo",
-        "vertical": false,
-        "channel": "Eddie Bravo",
-        "duration": 61,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "odT3-cVWXdc",
-        "title": "Twister Side Control Attacks",
-        "by": "Eddie Bravo",
-        "vertical": false,
-        "channel": "Eddie Bravo",
-        "duration": 61,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "R55lmkc6Mus",
-        "title": "Twister Side Control",
-        "by": "Eddie Bravo",
-        "vertical": false,
-        "channel": "Eddie Bravo",
-        "duration": 87,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "from Twister Side Control Defender",
@@ -658,25 +630,6 @@
         "description": "Partner starts in Twister Side Control top with full offensive options. Defend all attacks including the arm triangle transition. Focus on arm positioning awareness to prevent the arm triangle setup while still defending the shoulder pressure. 5-minute rounds, reset on escape or submission."
       }
     ],
-    "clips": [
-      {
-        "id": "D2vkZGTD78I",
-        "title": "The Fastest Escape Out of the Arm Triangle",
-        "by": "Adam Bradley",
-        "vertical": false,
-        "channel": "Adam Bradley",
-        "duration": 31,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "Fx6qjR6a_xE",
-        "title": "3 Arm Triangle Choke Defenses",
-        "by": "MMA Leech",
-        "vertical": false,
-        "channel": "MMA Leech",
-        "duration": 274,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   }
 }

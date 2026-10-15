@@ -46,24 +46,22 @@ description: "Master mount control in BJJ. Maintain dominant position against es
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Maintaining full mount top control",
-      "description": "Mount Control film study: Maintaining full mount top control, taught by Formidable Combat coach.",
+      "name": "Full Mount/Top Control",
+      "description": "Mount Control film study: Full Mount/Top Control.",
       "thumbnailUrl": "https://i.ytimg.com/vi/SGZ5wD3z73Q/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/SGZ5wD3z73Q",
       "url": "https://www.youtube.com/watch?v=SGZ5wD3z73Q",
-      "creator": { "@type": "Person", "name": "Formidable Combat coach" },
       "duration": "PT106S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Top mount control fundamentals",
-      "description": "Mount Control film study: Top mount control fundamentals, taught by Todd Hendrickson.",
+      "name": "Top Mount",
+      "description": "Mount Control film study: Top Mount.",
       "thumbnailUrl": "https://i.ytimg.com/vi/4eDtPYQ0bps/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/4eDtPYQ0bps",
       "url": "https://www.youtube.com/watch?v=4eDtPYQ0bps",
-      "creator": { "@type": "Person", "name": "Todd Hendrickson" },
-      "duration": "PT152S"
+      "duration": "PT151S"
     }
   ]
 }
@@ -115,7 +113,7 @@ Mount Control represents the ongoing process of maintaining dominant position ag
 
 ![](https://www.youtube.com/watch?v=SGZ5wD3z73Q)
 
-<p class="clip-credit"><strong>Maintaining full mount top control</strong> — taught by Formidable Combat coach · 1:46 · <a href="https://www.youtube.com/watch?v=SGZ5wD3z73Q" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Full Mount/Top Control</strong> · 1:46 · <a href="https://www.youtube.com/watch?v=SGZ5wD3z73Q" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -123,7 +121,7 @@ Mount Control represents the ongoing process of maintaining dominant position ag
 
 ![](https://www.youtube.com/watch?v=4eDtPYQ0bps)
 
-<p class="clip-credit"><strong>Top mount control fundamentals</strong> — taught by Todd Hendrickson · 2:32 · <a href="https://www.youtube.com/watch?v=4eDtPYQ0bps" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Top Mount</strong> · 2:31 · <a href="https://www.youtube.com/watch?v=4eDtPYQ0bps" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

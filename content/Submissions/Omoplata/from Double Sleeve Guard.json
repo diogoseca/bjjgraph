@@ -452,26 +452,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "P_Utuxeq7uo",
-        "title": "Lasso guard to omoplata",
-        "by": "Adam Wardzinski",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 37,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "kKaLqMKJBt0",
-        "title": "Omoplata sweep",
-        "by": "Furo Channel",
-        "vertical": false,
-        "channel": "Furo Channel",
-        "duration": 89,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Omoplata from Double Sleeve Guard Defender",
@@ -658,34 +639,6 @@
         "description": "Positional sparring starting from double sleeve guard with partner attacking omoplata at 70-80% intensity. Practice the full defensive chain: early prevention, mid-phase escapes, and late-phase survival. Score based on whether you escape without conceding the tap or sweep points."
       }
     ],
-    "clips": [
-      {
-        "id": "tOnP_QiviyU",
-        "title": "Omoplata step-over escape drill",
-        "by": "Brandon Quick",
-        "vertical": false,
-        "channel": "Brandon Quick",
-        "duration": 71,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "Y4TxL4mDSKg",
-        "title": "Defending the omoplata sweep",
-        "by": "Ninja Pinto",
-        "vertical": false,
-        "channel": "Ninja Pinto BJJ",
-        "duration": 47,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "UaZdeo4ro3E",
-        "title": "Highly effective omoplata escape",
-        "by": "Queixinho",
-        "vertical": false,
-        "channel": "Quiexinho Online Ares BJJ Goodyear",
-        "duration": 141,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   }
 }

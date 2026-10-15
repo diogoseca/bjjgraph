@@ -396,21 +396,18 @@
     "clips": [
       {
         "id": "XYBC7viDFnU",
-        "title": "Armbar to back take transition",
-        "by": "Força Martial Arts",
-        "vertical": false,
+        "title": "Armbar to Back Take Transition",
         "channel": "Força Martial Arts & Fitness",
         "duration": 98,
-        "verified": "2026-07-15"
+        "vertical": false,
+        "front": true
       },
       {
         "id": "9upGcbIutvs",
-        "title": "Belly-down armbar to back take from closed guard",
-        "by": "Revolution BJJ",
-        "vertical": false,
+        "title": "Belly-Down Armbar to Back Take (Closed Guard)",
         "channel": "Revolution BJJ",
-        "duration": 138,
-        "verified": "2026-07-15"
+        "duration": 137,
+        "vertical": false
       }
     ]
   },
@@ -615,25 +612,6 @@
         "description": "Positional sparring from armbar control. Defender must simultaneously manage armbar defense and back take prevention based on attacker's choices. Full resistance with resets. Track how often the back is successfully taken versus defended to measure improvement."
       }
     ],
-    "clips": [
-      {
-        "id": "s7Nrm5czeOU",
-        "title": "Failed armbar to back take",
-        "by": "Alliance Coral Springs coach",
-        "vertical": false,
-        "channel": "Alliance Coral Springs",
-        "duration": 67,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "kNdKfUdgO4I",
-        "title": "Armbar escape before the back take",
-        "by": "Matt Arroyo",
-        "vertical": false,
-        "channel": "Matt Arroyo Jiu Jitsu ",
-        "duration": 92,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

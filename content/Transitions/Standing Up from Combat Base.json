@@ -370,35 +370,7 @@
       }
     ],
     "safety_considerations": "Standing up from combat base carries relatively low injury risk compared to submission techniques but requires attention to knee mechanics during the kneeling-to-standing transition. Ensure the posted knee rises smoothly without lateral torque, particularly if the opponent has any hooks or entanglements that resist the movement. Avoid explosively extending the knees if the opponent has established a deep hook that could cause knee hyperextension. In training, communicate with your partner if they maintain grips that create awkward joint angles during the elevation. On slippery mats, plant the foot firmly before committing weight to avoid slipping during the transition.",
-    "clips": [
-      {
-        "id": "S0rB1ddNifk",
-        "title": "How to stand up in base",
-        "by": "Chris Savarese",
-        "vertical": false,
-        "channel": "Chris Savarese",
-        "duration": 74,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "k_s3ccPFU5g",
-        "title": "5 Guard Passes from Combat Base",
-        "by": "MMA Leech",
-        "vertical": false,
-        "channel": "MMA Leech",
-        "duration": 349,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "BGeCVaLJinQ",
-        "title": "Standing Guard Break with Cross Grip",
-        "by": "Utopia Martial Arts",
-        "vertical": false,
-        "channel": "Utopia Martial Arts",
-        "duration": 188,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Standing Up from Combat Base Defender",
@@ -575,34 +547,6 @@
         "description": "Start with top player in combat base and bottom player in open guard at full resistance. Top player decides when to stand and bottom player must prevent the stand or establish effective guard. Score based on whether the top player achieves a clean standing position versus being pulled back down or caught in entanglement."
       }
     ],
-    "clips": [
-      {
-        "id": "Grlx4UvAHDE",
-        "title": "Three counters to a standing guard passer",
-        "by": "Força Martial Arts",
-        "vertical": false,
-        "channel": "Força Martial Arts & Fitness",
-        "duration": 221,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "N2SZ9sJ_IlQ",
-        "title": "Butterfly Guard Against a Standing Passer",
-        "by": "Adam Wardzinski",
-        "vertical": false,
-        "channel": "Bernardo Faria BJJ Fanatics",
-        "duration": 447,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "iTrQzYeCvHM",
-        "title": "Top 5 Guard Retention Mistakes",
-        "by": "Lachlan Giles",
-        "vertical": false,
-        "channel": "Bernardo Faria BJJ Fanatics",
-        "duration": 436,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

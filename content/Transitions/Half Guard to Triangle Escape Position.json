@@ -360,35 +360,7 @@
       }
     ],
     "safety_considerations": "Triangle chokes restrict blood flow to the brain and can cause unconsciousness in seconds when fully locked. During training drills for this transition, partners must apply triangle pressure progressively and tap immediately when the escape is not working. Never hold a fully locked triangle at maximum pressure during transition drilling. Communicate clearly with your training partner about pressure levels and always err on the side of releasing early rather than late. Training partners applying the triangle should watch for signs of distress including facial color changes, loss of coordination, or failure to respond to verbal cues.",
-    "clips": [
-      {
-        "id": "HLWwfq8FNMI",
-        "title": "Triangle escape: hips down, posture up",
-        "by": "Mat Life Training Center",
-        "vertical": false,
-        "channel": "Mat Life Training Center",
-        "duration": 19,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "dJOw0ZEyXXc",
-        "title": "Posture-up escape from the triangle choke",
-        "by": "Cosens MMA",
-        "vertical": false,
-        "channel": "Cosens MMA LLC",
-        "duration": 73,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "sR2rS2dwpNY",
-        "title": "How to escape a triangle choke",
-        "by": "Rener & Ryron Gracie",
-        "vertical": false,
-        "channel": "Hayabusa",
-        "duration": 117,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Half Guard to Triangle Escape Position Defender",
@@ -542,34 +514,6 @@
         "description": "Start with triangle caught during half guard pass. Top player attempts full escape sequence. Bottom player works to finish or maintain control. Progressive resistance building to full competition intensity."
       }
     ],
-    "clips": [
-      {
-        "id": "l-HhOV9UjJU",
-        "title": "Preventing the mounted triangle",
-        "by": "Justen Hamilton",
-        "vertical": false,
-        "channel": "Justen Hamilton",
-        "duration": 104,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "Z-CsRn4K0vg",
-        "title": "Escaping triangles against bigger opponents",
-        "by": "John Danaher",
-        "vertical": false,
-        "channel": "Dohn Janaher ",
-        "duration": 48,
-        "verified": "2026-07-16"
-      },
-      {
-        "id": "sR2rS2dwpNY",
-        "title": "How to escape a triangle choke",
-        "by": "Rener and Ryron Gracie",
-        "vertical": false,
-        "channel": "Hayabusa",
-        "duration": 117,
-        "verified": "2026-07-16"
-      }
-    ]
+    "clips": []
   }
 }

@@ -397,20 +397,10 @@
       {
         "id": "Op44Sijyotw",
         "title": "Knee cut pass from seated guard",
-        "by": "BJJ4Breakfast",
-        "vertical": false,
         "channel": "BJJ4Breakfast",
-        "duration": 141,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "Q_kqgSU9ZAs",
-        "title": "Knee cut pass from open guard",
-        "by": "Affinity Academy",
+        "duration": 140,
         "vertical": false,
-        "channel": "Affinity Academy",
-        "duration": 129,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },
@@ -578,30 +568,18 @@
     "clips": [
       {
         "id": "RvIIpXaPyJM",
-        "title": "Basic knee slide recovery",
-        "by": "Vision Brazilian Jiu Jitsu",
-        "vertical": false,
+        "title": "Basic Knee Slide Recovery",
         "channel": "Vision Brazilian Jiu Jitsu",
         "duration": 96,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "P4JGqlSKGek",
-        "title": "Guard retention against the knee cut pass",
-        "by": "Lachlan Giles",
         "vertical": false,
-        "channel": "Absolute MMA St Kilda - Melbourne",
-        "duration": 348,
-        "verified": "2026-07-15"
+        "front": true
       },
       {
         "id": "1kikzEqPZPQ",
-        "title": "Defending the knee cut before it starts",
-        "by": "Brian Glick",
-        "vertical": false,
+        "title": "Defending The \"Knee Cut\" Guard in BJJ",
         "channel": "Brian Glick",
-        "duration": 179,
-        "verified": "2026-07-15"
+        "duration": 178,
+        "vertical": false
       }
     ]
   }

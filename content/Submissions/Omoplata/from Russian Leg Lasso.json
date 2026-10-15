@@ -434,35 +434,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "X38VbqKI8dY",
-        "title": "Lasso to Omoplata",
-        "by": "Ninja Pinto",
-        "vertical": false,
-        "channel": "Ninja Pinto BJJ",
-        "duration": 56,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "P_Utuxeq7uo",
-        "title": "Lasso Guard to Omoplata",
-        "by": "Adam Wardzinski",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 37,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "FCdFl9aAiUg",
-        "title": "No-Gi Lasso Omoplata",
-        "by": "Asaf Mich",
-        "vertical": false,
-        "channel": "Asaf Mich",
-        "duration": 49,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "from Russian Leg Lasso Defender",
@@ -648,25 +620,6 @@
         "description": "Full resistance positional sparring starting from Russian Leg Lasso. Top player must defend all attacks including omoplata, triangle, and sweep threats. Bottom player uses full offensive system. Develops the ability to distinguish omoplata attempts from other attacks and apply the correct defensive response under pressure."
       }
     ],
-    "clips": [
-      {
-        "id": "ocIHY3jBYIQ",
-        "title": "Best Way to Escape the Omoplata Shoulder Lock",
-        "by": "John Connors",
-        "vertical": false,
-        "channel": "John Connors, Old Man BJJ Black Belt",
-        "duration": 62,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "Y4TxL4mDSKg",
-        "title": "Defending the Omoplata Sweep",
-        "by": "Ninja Pinto",
-        "vertical": false,
-        "channel": "Ninja Pinto BJJ",
-        "duration": 47,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   }
 }

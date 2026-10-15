@@ -188,24 +188,12 @@ description: "How to execute the Loop Choke from Turtle in BJJ. Attacking perspe
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Loop Choke from Turtle Position",
-      "description": "Loop Choke from Turtle (Attacker) film study: Loop Choke from Turtle Position, taught by ICON Jiu-Jitsu Team.",
+      "name": "36 - Loop Choke from Turtle Position",
+      "description": "Loop Choke from Turtle (Attacker) film study: 36 - Loop Choke from Turtle Position.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Vvsa0a3Wzkw/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Vvsa0a3Wzkw",
       "url": "https://www.youtube.com/watch?v=Vvsa0a3Wzkw",
-      "creator": { "@type": "Person", "name": "ICON Jiu-Jitsu Team" },
       "duration": "PT36S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Alexandre Vieira\u0027s Famous Loop Choke",
-      "description": "Loop Choke from Turtle (Attacker) film study: Alexandre Vieira\u0027s Famous Loop Choke, taught by Alexandre Vieira.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/ruk0kdlr-Qw/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/ruk0kdlr-Qw",
-      "url": "https://www.youtube.com/watch?v=ruk0kdlr-Qw",
-      "creator": { "@type": "Person", "name": "Alexandre Vieira" },
-      "duration": "PT85S"
     }
   ]
 }
@@ -236,15 +224,7 @@ The loop choke from turtle leverages the attacker's positional advantage over a 
 
 ![](https://www.youtube.com/watch?v=Vvsa0a3Wzkw)
 
-<p class="clip-credit"><strong>Loop Choke from Turtle Position</strong> — taught by ICON Jiu-Jitsu Team · 0:36 · <a href="https://www.youtube.com/watch?v=Vvsa0a3Wzkw" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=ruk0kdlr-Qw)
-
-<p class="clip-credit"><strong>Alexandre Vieira&#39;s Famous Loop Choke</strong> — taught by Alexandre Vieira · 1:25 · <a href="https://www.youtube.com/watch?v=ruk0kdlr-Qw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>36 - Loop Choke from Turtle Position</strong> · 0:36 · <a href="https://www.youtube.com/watch?v=Vvsa0a3Wzkw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -165,35 +165,12 @@ description: "Master inverted guard from bottom perspective. Dynamic defensive p
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Jiu Jitsu Inversion Mechanics",
-      "description": "Inverted Guard (Bottom) film study: Jiu Jitsu Inversion Mechanics, taught by Mikey Musumeci.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/KNz5AkZ4jrg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/KNz5AkZ4jrg",
-      "url": "https://www.youtube.com/watch?v=KNz5AkZ4jrg",
-      "creator": { "@type": "Person", "name": "Mikey Musumeci" },
-      "duration": "PT72S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Inverting under top pressure",
-      "description": "Inverted Guard (Bottom) film study: Inverting under top pressure, taught by Mikey Musumeci.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/ErsvmCAGxnA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/ErsvmCAGxnA",
-      "url": "https://www.youtube.com/watch?v=ErsvmCAGxnA",
-      "creator": { "@type": "Person", "name": "Mikey Musumeci" },
-      "duration": "PT78S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Standing Alternative to Circle Hand",
-      "description": "Inverted Guard (Bottom) film study: Standing Alternative to Circle Hand, taught by Mikey Musumeci.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/SCfmkmD4PYA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/SCfmkmD4PYA",
-      "url": "https://www.youtube.com/watch?v=SCfmkmD4PYA",
-      "creator": { "@type": "Person", "name": "Mikey Musumeci" },
-      "duration": "PT119S"
+      "name": "BJJ guard maintenance drill #3:  basic inversion",
+      "description": "Inverted Guard (Bottom) film study: BJJ guard maintenance drill #3:  basic inversion.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Ez4LvZ2PtRk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Ez4LvZ2PtRk",
+      "url": "https://www.youtube.com/watch?v=Ez4LvZ2PtRk",
+      "duration": "PT17S"
     }
   ]
 }
@@ -219,25 +196,9 @@ From the bottom perspective, Inverted Guard represents a highly mobile defensive
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=KNz5AkZ4jrg)
+![](https://www.youtube.com/watch?v=Ez4LvZ2PtRk)
 
-<p class="clip-credit"><strong>Jiu Jitsu Inversion Mechanics</strong> — taught by Mikey Musumeci · 1:12 · <a href="https://www.youtube.com/watch?v=KNz5AkZ4jrg" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=ErsvmCAGxnA)
-
-<p class="clip-credit"><strong>Inverting under top pressure</strong> — taught by Mikey Musumeci · 1:18 · <a href="https://www.youtube.com/watch?v=ErsvmCAGxnA" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=SCfmkmD4PYA)
-
-<p class="clip-credit"><strong>Standing Alternative to Circle Hand</strong> — taught by Mikey Musumeci · 1:59 · <a href="https://www.youtube.com/watch?v=SCfmkmD4PYA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>BJJ guard maintenance drill #3:  basic inversion</strong> · 0:17 · <a href="https://www.youtube.com/watch?v=Ez4LvZ2PtRk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

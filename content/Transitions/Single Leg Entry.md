@@ -46,35 +46,12 @@ description: "Master the Single Leg Entry in BJJ. Complete guide to level change
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Entry into the single leg takedown",
-      "description": "Single Leg Entry film study: Entry into the single leg takedown, taught by Grappler Station.",
+      "name": "Entry into Single Leg Takedown",
+      "description": "Single Leg Entry film study: Entry into Single Leg Takedown.",
       "thumbnailUrl": "https://i.ytimg.com/vi/cqqrha_4Jy4/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/cqqrha_4Jy4",
       "url": "https://www.youtube.com/watch?v=cqqrha_4Jy4",
-      "creator": { "@type": "Person", "name": "Grappler Station" },
       "duration": "PT65S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Sweep single leg takedown entry and finish",
-      "description": "Single Leg Entry film study: Sweep single leg takedown entry and finish, taught by Jarrod Goode.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/YBG9LkoAMoo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/YBG9LkoAMoo",
-      "url": "https://www.youtube.com/watch?v=YBG9LkoAMoo",
-      "creator": { "@type": "Person", "name": "Jarrod Goode" },
-      "duration": "PT87S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Single leg takedown entry option",
-      "description": "Single Leg Entry film study: Single leg takedown entry option, taught by Sickness Ferro.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/riQ0SFuNWlw/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/riQ0SFuNWlw",
-      "url": "https://www.youtube.com/watch?v=riQ0SFuNWlw",
-      "creator": { "@type": "Person", "name": "Sickness Ferro" },
-      "duration": "PT103S"
     }
   ]
 }
@@ -130,23 +107,7 @@ From a strategic perspective, the single leg entry represents a crucial bridge b
 
 ![](https://www.youtube.com/watch?v=cqqrha_4Jy4)
 
-<p class="clip-credit"><strong>Entry into the single leg takedown</strong> — taught by Grappler Station · 1:05 · <a href="https://www.youtube.com/watch?v=cqqrha_4Jy4" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=YBG9LkoAMoo)
-
-<p class="clip-credit"><strong>Sweep single leg takedown entry and finish</strong> — taught by Jarrod Goode · 1:27 · <a href="https://www.youtube.com/watch?v=YBG9LkoAMoo" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=riQ0SFuNWlw)
-
-<p class="clip-credit"><strong>Single leg takedown entry option</strong> — taught by Sickness Ferro · 1:43 · <a href="https://www.youtube.com/watch?v=riQ0SFuNWlw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Entry into Single Leg Takedown</strong> · 1:05 · <a href="https://www.youtube.com/watch?v=cqqrha_4Jy4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

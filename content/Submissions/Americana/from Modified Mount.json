@@ -418,35 +418,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "uPazS4MJiDc",
-        "title": "How To Perform An Americana From Top Mount",
-        "by": "Evolve MMA",
-        "vertical": false,
-        "channel": "Evolve Mixed Martial Arts",
-        "duration": 71,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "Tgj7ZVWheog",
-        "title": "Americana from Mount",
-        "by": "Thunderdome BJJ",
-        "vertical": false,
-        "channel": "Thunderdome BJJ",
-        "duration": 21,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "SkFE9CBKvsA",
-        "title": "Modified Americana Grip",
-        "by": "BJJ After Forty",
-        "vertical": false,
-        "channel": "BJJ After Forty",
-        "duration": 61,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Americana from Modified Mount Defender",
@@ -601,25 +573,6 @@
         "description": "Start in Modified Mount with full live resistance. Bottom player focuses on preventing the Americana while working general Modified Mount escapes. Top player has full submission intent. 3-minute rounds with reset to Modified Mount. Track how many Americanas are prevented versus escaped versus tapped to, and identify which stage of the defense is breaking down."
       }
     ],
-    "clips": [
-      {
-        "id": "FNyL93v5fGs",
-        "title": "Defending The Americana",
-        "by": "Lachlan Giles",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 91,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "NZjUCo8os8Q",
-        "title": "Simple Americana Armlock Escape",
-        "by": "Eddie Kone",
-        "vertical": false,
-        "channel": "Eddie Kone Academy Of Jiu-Jitsu",
-        "duration": 61,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   }
 }

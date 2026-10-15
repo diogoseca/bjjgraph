@@ -192,35 +192,12 @@ description: "Learn to execute posture recovery from Mission Control as the top 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Rubber guard escape and posture recovery",
-      "description": "Posture Recovery from Mission Control (Attacker) film study: Rubber guard escape and posture recovery, taught by BJJ4Breakfast.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/AvivOVuYcCk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/AvivOVuYcCk",
-      "url": "https://www.youtube.com/watch?v=AvivOVuYcCk",
-      "creator": { "@type": "Person", "name": "BJJ4Breakfast" },
-      "duration": "PT131S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Rubber Guard: Mission Control position breakdown",
-      "description": "Posture Recovery from Mission Control (Attacker) film study: Rubber Guard: Mission Control position breakdown, taught by JitsHappens.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/hc5zImDLQ7k/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/hc5zImDLQ7k",
-      "url": "https://www.youtube.com/watch?v=hc5zImDLQ7k",
-      "creator": { "@type": "Person", "name": "JitsHappens" },
-      "duration": "PT47S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Rubber Guard back up plan when control fails",
-      "description": "Posture Recovery from Mission Control (Attacker) film study: Rubber Guard back up plan when control fails, taught by Eddie Bravo.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/kajcUNpjGho/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/kajcUNpjGho",
-      "url": "https://www.youtube.com/watch?v=kajcUNpjGho",
-      "creator": { "@type": "Person", "name": "Eddie Bravo" },
-      "duration": "PT61S"
+      "name": "Passing Rubber Guard: Posture Preservation",
+      "description": "Posture Recovery from Mission Control (Attacker) film study: Passing Rubber Guard: Posture Preservation.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3RAXSx1a4OA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3RAXSx1a4OA",
+      "url": "https://www.youtube.com/watch?v=3RAXSx1a4OA",
+      "duration": "PT411S"
     }
   ]
 }
@@ -248,25 +225,9 @@ Executing posture recovery from Mission Control requires understanding that this
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=AvivOVuYcCk)
+![](https://www.youtube.com/watch?v=3RAXSx1a4OA)
 
-<p class="clip-credit"><strong>Rubber guard escape and posture recovery</strong> — taught by BJJ4Breakfast · 2:11 · <a href="https://www.youtube.com/watch?v=AvivOVuYcCk" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=hc5zImDLQ7k)
-
-<p class="clip-credit"><strong>Rubber Guard: Mission Control position breakdown</strong> — taught by JitsHappens · 0:47 · <a href="https://www.youtube.com/watch?v=hc5zImDLQ7k" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=kajcUNpjGho)
-
-<p class="clip-credit"><strong>Rubber Guard back up plan when control fails</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=kajcUNpjGho" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Passing Rubber Guard: Posture Preservation</strong> · 6:51 · <a href="https://www.youtube.com/watch?v=3RAXSx1a4OA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

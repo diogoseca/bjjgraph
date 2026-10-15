@@ -457,31 +457,12 @@
     ],
     "clips": [
       {
-        "id": "Jw8PSPrR8-E",
-        "title": "BJJ Buggy Choke",
-        "by": "Judoka",
+        "id": "ZBOagHWTCFw",
+        "title": "Buggy choke from half guard: Moncaio Brothers JiuJitsu",
+        "channel": "Moncaio Brothers Jiujitsu",
+        "duration": 33,
         "vertical": false,
-        "channel": "Judoka",
-        "duration": 41,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "Rlk8WXQrj4Q",
-        "title": "Buggy Choke from North South",
-        "by": "Jaezee Jiujitsu",
-        "vertical": false,
-        "channel": "JaezeeJiujitsu",
-        "duration": 48,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "0_3YYrWEGoU",
-        "title": "3 Buggy Choke Concepts",
-        "by": "Kade and Tye Ruotolo",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 201,
-        "verified": "2026-07-14"
+        "front": true
       }
     ]
   },
@@ -657,34 +638,6 @@
         "description": "Pass half guard at full resistance against a partner hunting the Buggy Choke, keeping your head up and arm tight, and either defusing the choke or completing the pass to side control."
       }
     ],
-    "clips": [
-      {
-        "id": "Huv5wYwC3_o",
-        "title": "How To Defend the Buggy Choke",
-        "by": "Jansen Gomes",
-        "vertical": false,
-        "channel": "FloGrappling",
-        "duration": 52,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "6VmI-HMAQso",
-        "title": "How To Defend the Dreaded Buggy Choke",
-        "by": "MMA Leech",
-        "vertical": false,
-        "channel": "MMA Leech",
-        "duration": 239,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "jMIn4CQ3khE",
-        "title": "Buggy Choke Recovery",
-        "by": "Zach Maslany",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 153,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   }
 }

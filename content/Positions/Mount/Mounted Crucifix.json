@@ -501,35 +501,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "rh7TUm0ysww",
-        "title": "Isolating the near arm in crucifix",
-        "by": "Gordon Ryan",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 151,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "WFCq8CASHeA",
-        "title": "Crucifix attack chain",
-        "by": "Johnny Jitsu",
-        "vertical": false,
-        "channel": "Johnny Jitsu",
-        "duration": 106,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "JT4v_EQyq5k",
-        "title": "Top crucifix breakdown",
-        "by": "Thomas Kincaid",
-        "vertical": false,
-        "channel": "Thomas Kincaid MMA",
-        "duration": 60,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   },
   "bottom": {
     "name": "Mounted Crucifix Bottom",
@@ -935,35 +907,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "Wt2NW_hfTd0",
-        "title": "Escaping the crucifix",
-        "by": "Mick Hall",
-        "vertical": false,
-        "channel": "Mick Hall",
-        "duration": 228,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "PARsvWFmssI",
-        "title": "Chaining Escapes From Bottom Pin",
-        "by": "Gordon Ryan",
-        "vertical": false,
-        "channel": "Gordon Ryan",
-        "duration": 273,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "QpryBex1AXA",
-        "title": "The Hawking Defensive Structure",
-        "by": "Priit Mihkelson",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 322,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "flashcards_position": [
     {
@@ -1065,33 +1009,5 @@
       }
     }
   ],
-  "clips": [
-    {
-      "id": "pwyBJLfBbpY",
-      "title": "Crucifix position overview",
-      "by": "Animal",
-      "vertical": false,
-      "channel": "Animal",
-      "duration": 56,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "4QlWJFhI7i8",
-      "title": "No-gi mounted crucifix",
-      "by": "Esteem Jiujitsu",
-      "vertical": false,
-      "channel": "Esteem Jiujitsu HQ",
-      "duration": 124,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "rh7TUm0ysww",
-      "title": "Isolating the near arm in crucifix",
-      "by": "Gordon Ryan",
-      "vertical": false,
-      "channel": "BJJ Fanatics",
-      "duration": 151,
-      "verified": "2026-07-14"
-    }
-  ]
+  "clips": []
 }

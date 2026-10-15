@@ -152,24 +152,12 @@ description: "Learn to defend and prevent the reversal from flattened half guard
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Keeping the flat half and passing it",
-      "description": "Reversal from Flattened Half Guard (Defender) film study: Keeping the flat half and passing it, taught by Malachy Friedman.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/8WbQvytyCX0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/8WbQvytyCX0",
-      "url": "https://www.youtube.com/watch?v=8WbQvytyCX0",
-      "creator": { "@type": "Person", "name": "Malachy Friedman" },
-      "duration": "PT63S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Staying on top of half guard",
-      "description": "Reversal from Flattened Half Guard (Defender) film study: Staying on top of half guard, taught by Trapp Martial Arts.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/WMcD-_R-To0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/WMcD-_R-To0",
-      "url": "https://www.youtube.com/watch?v=WMcD-_R-To0",
-      "creator": { "@type": "Person", "name": "Trapp Martial Arts" },
-      "duration": "PT35S"
+      "name": "Stop the half guard underhook with this simple Jiu Jitsu tip!",
+      "description": "Reversal from Flattened Half Guard (Defender) film study: Stop the half guard underhook with this simple Jiu Jitsu tip!.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dOdO6xJ-TcU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dOdO6xJ-TcU",
+      "url": "https://www.youtube.com/watch?v=dOdO6xJ-TcU",
+      "duration": "PT97S"
     }
   ]
 }
@@ -197,17 +185,9 @@ As the defender against this reversal, you are the top player in flattened half 
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=8WbQvytyCX0)
+![](https://www.youtube.com/watch?v=dOdO6xJ-TcU)
 
-<p class="clip-credit"><strong>Keeping the flat half and passing it</strong> — taught by Malachy Friedman · 1:03 · <a href="https://www.youtube.com/watch?v=8WbQvytyCX0" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=WMcD-_R-To0)
-
-<p class="clip-credit"><strong>Staying on top of half guard</strong> — taught by Trapp Martial Arts · 0:35 · <a href="https://www.youtube.com/watch?v=WMcD-_R-To0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Stop the half guard underhook with this simple Jiu Jitsu tip!</strong> · 1:37 · <a href="https://www.youtube.com/watch?v=dOdO6xJ-TcU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

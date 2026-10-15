@@ -467,35 +467,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "uPazS4MJiDc",
-        "title": "How To Perform An Americana From Top Mount",
-        "by": "Evolve MMA",
-        "vertical": false,
-        "channel": "Evolve Mixed Martial Arts",
-        "duration": 71,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "Z44VF9pmJBg",
-        "title": "Americana from Mount",
-        "by": "Chelsea Ozer",
-        "vertical": false,
-        "channel": "Alain Pozo",
-        "duration": 52,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "mk4jR6Anm8g",
-        "title": "Finishing the Americana",
-        "by": "The Muscular Octopus",
-        "vertical": false,
-        "channel": "The Muscular Octopus",
-        "duration": 71,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Americana from High Mount Defender",
@@ -682,34 +654,6 @@
         "description": "Positional sparring starting from high mount bottom against a partner who attacks Americana along with other submissions. Defend all attacks with full resistance. Track how often you prevent the Americana versus how often you need to tap. Goal is preventing figure-four establishment in 70% of attempts against same-skill-level partners."
       }
     ],
-    "clips": [
-      {
-        "id": "FNyL93v5fGs",
-        "title": "Defending The Americana",
-        "by": "Lachlan Giles",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 91,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "qnRj5DpzGmc",
-        "title": "Americana Defense with Wrist Lock",
-        "by": "Jiu-Jitsu Channel",
-        "vertical": false,
-        "channel": "Jiu-Jitsu Channel",
-        "duration": 51,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "qfoEZtys84k",
-        "title": "BJJ Defense Against the Americana",
-        "by": "Kevin Conan Bankens",
-        "vertical": false,
-        "channel": "Kevin Conan Bankens",
-        "duration": 42,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   }
 }

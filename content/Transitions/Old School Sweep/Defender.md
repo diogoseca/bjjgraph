@@ -174,24 +174,22 @@ description: "Complete guide to defending the Old School Sweep from half guard t
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Breaking the lockdown half guard",
-      "description": "Old School Sweep (Defender) film study: Breaking the lockdown half guard, taught by Superhero Jiu Jitsu Academy.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/-49CypLW9aM/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/-49CypLW9aM",
-      "url": "https://www.youtube.com/watch?v=-49CypLW9aM",
-      "creator": { "@type": "Person", "name": "Superhero Jiu Jitsu Academy" },
-      "duration": "PT61S"
+      "name": "Old school sweep counter",
+      "description": "Old School Sweep (Defender) film study: Old school sweep counter.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/bTt-zpZCWos/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/bTt-zpZCWos",
+      "url": "https://www.youtube.com/watch?v=bTt-zpZCWos",
+      "duration": "PT16S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Stopping the half guard underhook",
-      "description": "Old School Sweep (Defender) film study: Stopping the half guard underhook, taught by Malachy Friedman.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/dOdO6xJ-TcU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/dOdO6xJ-TcU",
-      "url": "https://www.youtube.com/watch?v=dOdO6xJ-TcU",
-      "creator": { "@type": "Person", "name": "Malachy Friedman" },
-      "duration": "PT98S"
+      "name": "BJJ Basics: Counter Old School Sweep",
+      "description": "Old School Sweep (Defender) film study: BJJ Basics: Counter Old School Sweep.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3CM7prP1kzc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3CM7prP1kzc",
+      "url": "https://www.youtube.com/watch?v=3CM7prP1kzc",
+      "duration": "PT60S"
     }
   ]
 }
@@ -219,17 +217,17 @@ Defending the Old School Sweep requires immediate recognition of the sweep threa
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=-49CypLW9aM)
+![](https://www.youtube.com/watch?v=bTt-zpZCWos)
 
-<p class="clip-credit"><strong>Breaking the lockdown half guard</strong> — taught by Superhero Jiu Jitsu Academy · 1:01 · <a href="https://www.youtube.com/watch?v=-49CypLW9aM" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Old school sweep counter</strong> · 0:16 · <a href="https://www.youtube.com/watch?v=bTt-zpZCWos" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=dOdO6xJ-TcU)
+![](https://www.youtube.com/watch?v=3CM7prP1kzc)
 
-<p class="clip-credit"><strong>Stopping the half guard underhook</strong> — taught by Malachy Friedman · 1:38 · <a href="https://www.youtube.com/watch?v=dOdO6xJ-TcU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>BJJ Basics: Counter Old School Sweep</strong> · 1:00 · <a href="https://www.youtube.com/watch?v=3CM7prP1kzc" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

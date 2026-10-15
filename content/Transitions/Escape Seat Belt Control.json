@@ -389,12 +389,11 @@
     "clips": [
       {
         "id": "_X1ZpmEswzI",
-        "title": "Escaping back mount seatbelt",
-        "by": "Julie Bond",
-        "vertical": false,
+        "title": "Bjj-Escape back mount-seatbelt",
         "channel": "Julie Bond",
         "duration": 18,
-        "verified": "2026-07-15"
+        "vertical": false,
+        "front": true
       }
     ]
   },
@@ -563,30 +562,11 @@
     "clips": [
       {
         "id": "MwxnveKrlxU",
-        "title": "Seatbelt grip quick fix",
-        "by": "Ben Kool",
-        "vertical": false,
+        "title": "Jiu Jitsu Quick Fix #1: Seatbelt Grip",
         "channel": "Ben Kool Tech",
-        "duration": 62,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "Wga4PfuShEg",
-        "title": "Maintaining the seatbelt grip in back control",
-        "by": "Academy Jiu Jitsu coach",
+        "duration": 61,
         "vertical": false,
-        "channel": "Academy Jiu Jitsu",
-        "duration": 114,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "70jECxFfCSA",
-        "title": "Rear naked choke from seatbelt control",
-        "by": "Gordon Ryan",
-        "vertical": false,
-        "channel": "Control Jiu JItsu",
-        "duration": 73,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   }

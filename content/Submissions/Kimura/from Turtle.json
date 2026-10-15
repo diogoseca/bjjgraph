@@ -519,31 +519,11 @@
     ],
     "clips": [
       {
-        "id": "rj3LRhRCtCA",
-        "title": "Kimura Trap to Attack the Turtle",
-        "by": "Paul Stolyar",
-        "vertical": false,
-        "channel": "boomdunker",
-        "duration": 52,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "R_2_oKfgvfw",
-        "title": "Stepover Kimura Top Finish",
-        "by": "Revolution BJJ",
-        "vertical": false,
-        "channel": "Revolution BJJ",
-        "duration": 45,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "IA4laaUMfD8",
-        "title": "Kimura Sweep to Kimura Finish",
-        "by": "BJJ4Breakfast",
-        "vertical": false,
-        "channel": "BJJ4Breakfast",
-        "duration": 70,
-        "verified": "2026-07-14"
+        "id": "axrl5lhbE-A",
+        "title": "Kimura From Turtle Guard Catch Wrestling Style by Neil Melanson",
+        "channel": "Neil Melanson",
+        "duration": 309,
+        "front": true
       }
     ]
   },
@@ -741,22 +721,11 @@
     ],
     "clips": [
       {
-        "id": "_sBB-O8fqP4",
-        "title": "Standing Up from Turtle",
-        "by": "Priit Mihkelson",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 114,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "g6yf2oyTix4",
-        "title": "Turtle Counters and Escapes",
-        "by": "BJJ After Forty",
-        "vertical": false,
-        "channel": "BJJ After Forty",
-        "duration": 62,
-        "verified": "2026-07-14"
+        "id": "Il__jkzGDJg",
+        "title": "Move of the Day: Escaping the Turtle - 3 - What if they Kimura me",
+        "channel": "JitzLive",
+        "duration": 371,
+        "front": true
       }
     ]
   },

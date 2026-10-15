@@ -46,35 +46,22 @@ description: "Master North-South to Kimura transition in BJJ. Step-by-step arm i
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Colossus kimura finishes from north-south",
-      "description": "North-South to Kimura film study: Colossus kimura finishes from north-south, taught by Utopia Martial Arts.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/-aEJ1gdSyIM/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/-aEJ1gdSyIM",
-      "url": "https://www.youtube.com/watch?v=-aEJ1gdSyIM",
-      "creator": { "@type": "Person", "name": "Utopia Martial Arts" },
-      "duration": "PT86S"
+      "name": "Kimura Escape from North South Position",
+      "description": "North-South to Kimura film study: Kimura Escape from North South Position.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ZT4QcOFksxs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ZT4QcOFksxs",
+      "url": "https://www.youtube.com/watch?v=ZT4QcOFksxs",
+      "duration": "PT25S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "North-south kimura grip to step-over armbar",
-      "description": "North-South to Kimura film study: North-south kimura grip to step-over armbar, taught by Raven Jiu Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/MQvTMVMiLl4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/MQvTMVMiLl4",
-      "url": "https://www.youtube.com/watch?v=MQvTMVMiLl4",
-      "creator": { "@type": "Person", "name": "Raven Jiu Jitsu" },
-      "duration": "PT131S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "North-south kimura from kesa",
-      "description": "North-South to Kimura film study: North-south kimura from kesa, taught by CORE MMA.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/MEGPKR9ctWY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/MEGPKR9ctWY",
-      "url": "https://www.youtube.com/watch?v=MEGPKR9ctWY",
-      "creator": { "@type": "Person", "name": "CORE MMA" },
-      "duration": "PT178S"
+      "name": "North-South Kimura Defense",
+      "description": "North-South to Kimura film study: North-South Kimura Defense.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/n-qXtiqiCho/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/n-qXtiqiCho",
+      "url": "https://www.youtube.com/watch?v=n-qXtiqiCho",
+      "duration": "PT180S"
     }
   ]
 }
@@ -128,25 +115,17 @@ Once the Kimura Trap is established from North-South, the position offers branch
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=-aEJ1gdSyIM)
+![](https://www.youtube.com/watch?v=ZT4QcOFksxs)
 
-<p class="clip-credit"><strong>Colossus kimura finishes from north-south</strong> — taught by Utopia Martial Arts · 1:26 · <a href="https://www.youtube.com/watch?v=-aEJ1gdSyIM" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=MQvTMVMiLl4)
-
-<p class="clip-credit"><strong>North-south kimura grip to step-over armbar</strong> — taught by Raven Jiu Jitsu · 2:11 · <a href="https://www.youtube.com/watch?v=MQvTMVMiLl4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Kimura Escape from North South Position</strong> · 0:25 · <a href="https://www.youtube.com/watch?v=ZT4QcOFksxs" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=MEGPKR9ctWY)
+![](https://www.youtube.com/watch?v=n-qXtiqiCho)
 
-<p class="clip-credit"><strong>North-south kimura from kesa</strong> — taught by CORE MMA · 2:58 · <a href="https://www.youtube.com/watch?v=MEGPKR9ctWY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>North-South Kimura Defense</strong> · 3:00 · <a href="https://www.youtube.com/watch?v=n-qXtiqiCho" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

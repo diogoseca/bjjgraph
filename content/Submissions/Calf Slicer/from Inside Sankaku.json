@@ -440,22 +440,12 @@
     ],
     "clips": [
       {
-        "id": "6M0HvIFfc-w",
-        "title": "Bear Trap into Calf Slicer",
-        "by": "Revolution BJJ",
+        "id": "FDCL7MV5G7s",
+        "title": "Calf Slicer from the Saddle",
+        "channel": "Scott Ryan Chiriboga",
+        "duration": 77,
         "vertical": false,
-        "channel": "Revolution BJJ",
-        "duration": 119,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "VXmaDAUt-BU",
-        "title": "Inside Ashi Garami Calf Slicer",
-        "by": "Hicham",
-        "vertical": false,
-        "channel": "Hicham bjj",
-        "duration": 172,
-        "verified": "2026-07-14"
+        "front": true
       }
     ]
   },
@@ -638,34 +628,6 @@
         "description": "Positional sparring starting in inside sankaku. Attacker works heel hook and calf slicer chains while defender practices recognition and appropriate defensive responses at gradually increasing intensity. Emphasize tapping when caught to build safe training habits that carry into competition."
       }
     ],
-    "clips": [
-      {
-        "id": "bjXLOFlO7us",
-        "title": "Slicer vs Honey Hole Leg Retraction",
-        "by": "ZombieProofBJJ",
-        "vertical": false,
-        "channel": "ZombieProofBJJ",
-        "duration": 115,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "Ah9XvwmTF9w",
-        "title": "3 Leglock Counters / Rolling Back-Takes",
-        "by": "Éire Grapple",
-        "vertical": false,
-        "channel": "Éire Grapple",
-        "duration": 34,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "VGNTi2hEvfc",
-        "title": "Defend & Escape the Leg-Lace/Cloverleaf",
-        "by": "jamielovesmartialarts",
-        "vertical": false,
-        "channel": "jamielovesmartialarts",
-        "duration": 78,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   }
 }

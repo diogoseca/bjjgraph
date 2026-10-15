@@ -160,35 +160,22 @@ description: "How to defend against Underhook Sweep from Half in BJJ. Recognitio
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Stop the half guard underhook before the sweep",
-      "description": "Underhook Sweep from Half (Defender) film study: Stop the half guard underhook before the sweep, taught by Malachy Friedman.",
+      "name": "Stop the half guard underhook with this simple Jiu Jitsu tip!",
+      "description": "Underhook Sweep from Half (Defender) film study: Stop the half guard underhook with this simple Jiu Jitsu tip!.",
       "thumbnailUrl": "https://i.ytimg.com/vi/dOdO6xJ-TcU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/dOdO6xJ-TcU",
       "url": "https://www.youtube.com/watch?v=dOdO6xJ-TcU",
-      "creator": { "@type": "Person", "name": "Malachy Friedman" },
-      "duration": "PT98S"
+      "duration": "PT97S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Countering the half guard underhook",
-      "description": "Underhook Sweep from Half (Defender) film study: Countering the half guard underhook, taught by Holy Grail BJJ coach.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Zy88ds_RDG4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Zy88ds_RDG4",
-      "url": "https://www.youtube.com/watch?v=Zy88ds_RDG4",
-      "creator": { "@type": "Person", "name": "Holy Grail BJJ coach" },
-      "duration": "PT126S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "How to beat the underhook in half guard",
-      "description": "Underhook Sweep from Half (Defender) film study: How to beat the underhook in half guard, taught by Rituals Jiu Jitsu coach.",
+      "name": "How to Beat the Underhook in Half Guard | NO GI Jiu Jitsu",
+      "description": "Underhook Sweep from Half (Defender) film study: How to Beat the Underhook in Half Guard | NO GI Jiu Jitsu.",
       "thumbnailUrl": "https://i.ytimg.com/vi/BoPodHPmDYY/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/BoPodHPmDYY",
       "url": "https://www.youtube.com/watch?v=BoPodHPmDYY",
-      "creator": { "@type": "Person", "name": "Rituals Jiu Jitsu coach" },
-      "duration": "PT235S"
+      "duration": "PT234S"
     }
   ]
 }
@@ -218,15 +205,7 @@ Defending the Underhook Sweep from Half Guard requires the top player to recogni
 
 ![](https://www.youtube.com/watch?v=dOdO6xJ-TcU)
 
-<p class="clip-credit"><strong>Stop the half guard underhook before the sweep</strong> — taught by Malachy Friedman · 1:38 · <a href="https://www.youtube.com/watch?v=dOdO6xJ-TcU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=Zy88ds_RDG4)
-
-<p class="clip-credit"><strong>Countering the half guard underhook</strong> — taught by Holy Grail BJJ coach · 2:06 · <a href="https://www.youtube.com/watch?v=Zy88ds_RDG4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Stop the half guard underhook with this simple Jiu Jitsu tip!</strong> · 1:37 · <a href="https://www.youtube.com/watch?v=dOdO6xJ-TcU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -234,7 +213,7 @@ Defending the Underhook Sweep from Half Guard requires the top player to recogni
 
 ![](https://www.youtube.com/watch?v=BoPodHPmDYY)
 
-<p class="clip-credit"><strong>How to beat the underhook in half guard</strong> — taught by Rituals Jiu Jitsu coach · 3:55 · <a href="https://www.youtube.com/watch?v=BoPodHPmDYY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How to Beat the Underhook in Half Guard | NO GI Jiu Jitsu</strong> · 3:54 · <a href="https://www.youtube.com/watch?v=BoPodHPmDYY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -186,35 +186,22 @@ description: "How to execute Triangle to Armbar in BJJ. Attacking perspective wi
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Triangle to Armbar Transition",
-      "description": "Triangle to Armbar (Attacker) film study: Triangle to Armbar Transition, taught by Keith Florian.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/5fuUTE9QN3U/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/5fuUTE9QN3U",
-      "url": "https://www.youtube.com/watch?v=5fuUTE9QN3U",
-      "creator": { "@type": "Person", "name": "Keith Florian" },
-      "duration": "PT52S"
+      "name": "Armory - Blue Belt Series - Transition from Triangle to Armbar  II",
+      "description": "Triangle to Armbar (Attacker) film study: Armory - Blue Belt Series - Transition from Triangle to Armbar  II.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/r8rBt5Mp3B4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/r8rBt5Mp3B4",
+      "url": "https://www.youtube.com/watch?v=r8rBt5Mp3B4",
+      "duration": "PT47S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Transition from Triangle to Armbar",
-      "description": "Triangle to Armbar (Attacker) film study: Transition from Triangle to Armbar, taught by ArmoryTraining.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/r8rBt5Mp3B4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/r8rBt5Mp3B4",
-      "url": "https://www.youtube.com/watch?v=r8rBt5Mp3B4",
-      "creator": { "@type": "Person", "name": "ArmoryTraining" },
-      "duration": "PT48S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Triangle Armbar",
-      "description": "Triangle to Armbar (Attacker) film study: Triangle Armbar, taught by Ramsey Dewey.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/yrl903y9jbg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/yrl903y9jbg",
-      "url": "https://www.youtube.com/watch?v=yrl903y9jbg",
-      "creator": { "@type": "Person", "name": "Ramsey Dewey" },
-      "duration": "PT64S"
+      "name": "Triangle to Arm Bar Transition with Professor Keith Florian",
+      "description": "Triangle to Armbar (Attacker) film study: Triangle to Arm Bar Transition with Professor Keith Florian.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5fuUTE9QN3U/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5fuUTE9QN3U",
+      "url": "https://www.youtube.com/watch?v=5fuUTE9QN3U",
+      "duration": "PT51S"
     }
   ]
 }
@@ -242,25 +229,17 @@ The Triangle to Armbar transition represents one of the most fundamental and hig
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=5fuUTE9QN3U)
-
-<p class="clip-credit"><strong>Triangle to Armbar Transition</strong> — taught by Keith Florian · 0:52 · <a href="https://www.youtube.com/watch?v=5fuUTE9QN3U" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=r8rBt5Mp3B4)
 
-<p class="clip-credit"><strong>Transition from Triangle to Armbar</strong> — taught by ArmoryTraining · 0:48 · <a href="https://www.youtube.com/watch?v=r8rBt5Mp3B4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Armory - Blue Belt Series - Transition from Triangle to Armbar  II</strong> · 0:47 · <a href="https://www.youtube.com/watch?v=r8rBt5Mp3B4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=yrl903y9jbg)
+![](https://www.youtube.com/watch?v=5fuUTE9QN3U)
 
-<p class="clip-credit"><strong>Triangle Armbar</strong> — taught by Ramsey Dewey · 1:04 · <a href="https://www.youtube.com/watch?v=yrl903y9jbg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Triangle to Arm Bar Transition with Professor Keith Florian</strong> · 0:51 · <a href="https://www.youtube.com/watch?v=5fuUTE9QN3U" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

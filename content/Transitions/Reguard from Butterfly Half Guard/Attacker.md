@@ -186,35 +186,12 @@ description: "Learn to execute the reguard from butterfly half guard. Step-by-st
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Guard Recovery Variation",
-      "description": "Reguard from Butterfly Half Guard (Attacker) film study: Guard Recovery Variation, taught by Marcelo Garcia.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/SMTORT8NDGw/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/SMTORT8NDGw",
-      "url": "https://www.youtube.com/watch?v=SMTORT8NDGw",
-      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
-      "duration": "PT185S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Half Butterfly Guard: Retaining Butterfly and Sweeping",
-      "description": "Reguard from Butterfly Half Guard (Attacker) film study: Half Butterfly Guard: Retaining Butterfly and Sweeping, taught by Aaron Benzrihem.",
+      "name": "Half Butterfly Guard - Retaining Butterfly and Butterfly Sweep",
+      "description": "Reguard from Butterfly Half Guard (Attacker) film study: Half Butterfly Guard - Retaining Butterfly and Butterfly Sweep.",
       "thumbnailUrl": "https://i.ytimg.com/vi/MBBwCFkk3aQ/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/MBBwCFkk3aQ",
       "url": "https://www.youtube.com/watch?v=MBBwCFkk3aQ",
-      "creator": { "@type": "Person", "name": "Aaron Benzrihem" },
       "duration": "PT495S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Transition from Half Guard to Butterfly Hook Sweep",
-      "description": "Reguard from Butterfly Half Guard (Attacker) film study: Transition from Half Guard to Butterfly Hook Sweep, taught by MMA Leech coach.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/mo1EkNQGVr8/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/mo1EkNQGVr8",
-      "url": "https://www.youtube.com/watch?v=mo1EkNQGVr8",
-      "creator": { "@type": "Person", "name": "MMA Leech coach" },
-      "duration": "PT418S"
     }
   ]
 }
@@ -242,25 +219,9 @@ Executing the reguard from butterfly half guard requires precise coordination of
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=SMTORT8NDGw)
-
-<p class="clip-credit"><strong>Guard Recovery Variation</strong> — taught by Marcelo Garcia · 3:05 · <a href="https://www.youtube.com/watch?v=SMTORT8NDGw" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=MBBwCFkk3aQ)
 
-<p class="clip-credit"><strong>Half Butterfly Guard: Retaining Butterfly and Sweeping</strong> — taught by Aaron Benzrihem · 8:15 · <a href="https://www.youtube.com/watch?v=MBBwCFkk3aQ" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=mo1EkNQGVr8)
-
-<p class="clip-credit"><strong>Transition from Half Guard to Butterfly Hook Sweep</strong> — taught by MMA Leech coach · 6:58 · <a href="https://www.youtube.com/watch?v=mo1EkNQGVr8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Half Butterfly Guard - Retaining Butterfly and Butterfly Sweep</strong> · 8:15 · <a href="https://www.youtube.com/watch?v=MBBwCFkk3aQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

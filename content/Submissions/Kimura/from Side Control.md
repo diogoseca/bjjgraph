@@ -46,24 +46,12 @@ description: "Master the Kimura from Side Control in BJJ. Comprehensive guide co
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Set up Kimura from side control",
-      "description": "Kimura from Side Control film study: Set up Kimura from side control, taught by Heiho Dojo.",
+      "name": "Set up Kimura from Side control",
+      "description": "Kimura from Side Control film study: Set up Kimura from Side control.",
       "thumbnailUrl": "https://i.ytimg.com/vi/g-e2ZrNsoNQ/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/g-e2ZrNsoNQ",
       "url": "https://www.youtube.com/watch?v=g-e2ZrNsoNQ",
-      "creator": { "@type": "Person", "name": "Heiho Dojo" },
       "duration": "PT61S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Kimura finish from side control",
-      "description": "Kimura from Side Control film study: Kimura finish from side control, taught by ZombieProofBJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/FYKc-hep22I/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/FYKc-hep22I",
-      "url": "https://www.youtube.com/watch?v=FYKc-hep22I",
-      "creator": { "@type": "Person", "name": "ZombieProofBJJ" },
-      "duration": "PT31S"
     }
   ]
 }
@@ -124,15 +112,7 @@ The Kimura from Side Control is one of the most fundamental and high-percentage 
 
 ![](https://www.youtube.com/watch?v=g-e2ZrNsoNQ)
 
-<p class="clip-credit"><strong>Set up Kimura from side control</strong> — taught by Heiho Dojo · 1:01 · <a href="https://www.youtube.com/watch?v=g-e2ZrNsoNQ" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=FYKc-hep22I)
-
-<p class="clip-credit"><strong>Kimura finish from side control</strong> — taught by ZombieProofBJJ · 0:31 · <a href="https://www.youtube.com/watch?v=FYKc-hep22I" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Set up Kimura from Side control</strong> · 1:01 · <a href="https://www.youtube.com/watch?v=g-e2ZrNsoNQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

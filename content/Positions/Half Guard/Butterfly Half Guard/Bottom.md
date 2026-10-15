@@ -165,35 +165,12 @@ description: "Master bottom butterfly half guard - hybrid position combining but
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Marcelo Garcia Short Hook Sweep",
-      "description": "Butterfly Half Guard (Bottom) film study: Marcelo Garcia Short Hook Sweep, taught by Marcelo Garcia.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/MlMwtCvfYlQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/MlMwtCvfYlQ",
-      "url": "https://www.youtube.com/watch?v=MlMwtCvfYlQ",
-      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
-      "duration": "PT57S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Marcelo Garcia Butterfly Sweep",
-      "description": "Butterfly Half Guard (Bottom) film study: Marcelo Garcia Butterfly Sweep, taught by Marcelo Garcia.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/c8JBXJMc0Oc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/c8JBXJMc0Oc",
-      "url": "https://www.youtube.com/watch?v=c8JBXJMc0Oc",
-      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
-      "duration": "PT81S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Butterfly Hook Back Take from Half Guard",
-      "description": "Butterfly Half Guard (Bottom) film study: Butterfly Hook Back Take from Half Guard, taught by Procel BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/WoSyrVZ1VvY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/WoSyrVZ1VvY",
-      "url": "https://www.youtube.com/watch?v=WoSyrVZ1VvY",
-      "creator": { "@type": "Person", "name": "Procel BJJ" },
-      "duration": "PT55S"
+      "name": "Half Butterfly Guard For Oldies",
+      "description": "Butterfly Half Guard (Bottom) film study: Half Butterfly Guard For Oldies.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/IPe_nWt17bg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/IPe_nWt17bg",
+      "url": "https://www.youtube.com/watch?v=IPe_nWt17bg",
+      "duration": "PT628S"
     }
   ]
 }
@@ -225,25 +202,9 @@ Success in butterfly half guard bottom requires mastering several key technical 
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=MlMwtCvfYlQ)
+![](https://www.youtube.com/watch?v=IPe_nWt17bg)
 
-<p class="clip-credit"><strong>Marcelo Garcia Short Hook Sweep</strong> — taught by Marcelo Garcia · 0:57 · <a href="https://www.youtube.com/watch?v=MlMwtCvfYlQ" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=c8JBXJMc0Oc)
-
-<p class="clip-credit"><strong>Marcelo Garcia Butterfly Sweep</strong> — taught by Marcelo Garcia · 1:21 · <a href="https://www.youtube.com/watch?v=c8JBXJMc0Oc" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=WoSyrVZ1VvY)
-
-<p class="clip-credit"><strong>Butterfly Hook Back Take from Half Guard</strong> — taught by Procel BJJ · 0:55 · <a href="https://www.youtube.com/watch?v=WoSyrVZ1VvY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Half Butterfly Guard For Oldies</strong> · 10:28 · <a href="https://www.youtube.com/watch?v=IPe_nWt17bg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

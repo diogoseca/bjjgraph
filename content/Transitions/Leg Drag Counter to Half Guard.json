@@ -357,35 +357,7 @@
       }
     ],
     "safety_considerations": "This technique is relatively low-risk compared to other escapes as it does not involve explosive bridging or inversion. The primary injury concern is knee strain from forcing the leg extraction against strong resistance—never yank your trapped leg straight back against a locked grip. If your leg feels torqued during the escape attempt, stop and reset. Training partners should allow controlled practice by providing graduated resistance rather than death-gripping the leg drag. Practitioners with existing knee or hip injuries should work the technique at reduced intensity and avoid forcing leg position against resistance. Ensure proper warm-up focusing on hip mobility before drilling leg drag defense sequences.",
-    "clips": [
-      {
-        "id": "fFqoFDE2yyw",
-        "title": "Guard retention against the leg drag",
-        "by": "Brandon Quick",
-        "vertical": false,
-        "channel": "Brandon Quick",
-        "duration": 90,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "PeRFLNak-1U",
-        "title": "Side Kipping to Retain Guard and Defeat the Leg Drag",
-        "by": "Brian Glick",
-        "vertical": false,
-        "channel": "Brian Glick",
-        "duration": 233,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "lVLAROiSjNU",
-        "title": "Guard Retention: When to Sit Up Escape",
-        "by": "Lachlan Giles",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 136,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Leg Drag Counter to Half Guard Defender",
@@ -553,26 +525,7 @@
         "description": "Positional sparring starting in leg drag control. You must advance to a consolidated position or submit before partner recovers half guard. Track advancement rate and identify which escape variations give you the most trouble for targeted improvement."
       }
     ],
-    "clips": [
-      {
-        "id": "LmPBnck5SS4",
-        "title": "Leg drag answer to the bolo counter",
-        "by": "Grapplers Planet",
-        "vertical": false,
-        "channel": "Grapplers Planet",
-        "duration": 51,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "RRgLRw-fRM0",
-        "title": "Weave pass: keep the trapped leg to stop half guard recovery",
-        "by": "Lachlan Giles",
-        "vertical": false,
-        "channel": "Absolute MMA St Kilda - Melbourne",
-        "duration": 65,
-        "verified": "2026-07-16"
-      }
-    ]
+    "clips": []
   },
   "variants_and_adaptations": [
     {

@@ -500,31 +500,11 @@
     ],
     "clips": [
       {
-        "id": "D2tutut1zio",
-        "title": "Armbar from Closed Guard",
-        "by": "Gracie Barra Boston",
-        "vertical": false,
-        "channel": "Gracie Barra Boston",
-        "duration": 103,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "F4Ns40AnI3Q",
-        "title": "Closed Guard Pull to Armbar",
-        "by": "Satori BJJ",
-        "vertical": false,
-        "channel": "Satori BJJ",
-        "duration": 41,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "FBDG7u5lOjk",
-        "title": "Armbar from Closed Guard: Hand Positioning",
-        "by": "Jean Jacques Machado",
-        "vertical": false,
-        "channel": "JeanJacquesMachado",
-        "duration": 138,
-        "verified": "2026-07-14"
+        "id": "yuVO-422A0g",
+        "title": "Spin Under Armbar from Closed Guard Position",
+        "channel": "Pendergrass Academy of Martial Arts",
+        "duration": 153,
+        "front": true
       }
     ]
   },
@@ -720,26 +700,7 @@
         "description": "Positional sparring starting from positions where spinning armbars are common (closed guard, mount attacks). Attacker works spinning armbars at full speed while defender applies trained defensive responses. Track which defenses succeed most frequently and which attack setups are hardest to defend. Refine recognition timing and defensive selection based on live results."
       }
     ],
-    "clips": [
-      {
-        "id": "kNdKfUdgO4I",
-        "title": "My Favorite Armbar Escape",
-        "by": "Matt Arroyo",
-        "vertical": false,
-        "channel": "Matt Arroyo Jiu Jitsu ",
-        "duration": 92,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "_ntIcP_zf4s",
-        "title": "Best Armbar Escape When They're Close to Finishing",
-        "by": "Chewjitsu",
-        "vertical": false,
-        "channel": "Chewjitsu",
-        "duration": 245,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   },
   "variations_and_setups": [
     {

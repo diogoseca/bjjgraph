@@ -461,31 +461,18 @@
     ],
     "clips": [
       {
+        "id": "RbuQjr3-F2I",
+        "title": "Intro to Saddle | 411 | Honey Hole | Inside Sankaku",
+        "channel": "Fat Snake Jiu Jitsu",
+        "duration": 290,
+        "front": true
+      },
+      {
         "id": "HniaoFWTsmI",
-        "title": "Easy entry to the saddle",
-        "by": "Ilya",
-        "vertical": false,
+        "title": "Easy Entry to Saddle (411, inside sankaku, cross ashi garami)",
         "channel": "Ilya's Jiu-Jitsu",
         "duration": 53,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "lr7rlj7WV-E",
-        "title": "X guard to heel hook",
-        "by": "Craig Jones",
-        "vertical": false,
-        "channel": "The Bear's Den BJJ & MMA  熊派巴西柔術及MMA學院",
-        "duration": 94,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "P-rkPE4bjdE",
-        "title": "Saddle transition from top half guard",
-        "by": "Thunderdome BJJ",
-        "vertical": false,
-        "channel": "Thunderdome BJJ",
-        "duration": 31,
-        "verified": "2026-07-14"
+        "vertical": false
       }
     ]
   },
@@ -922,22 +909,12 @@
     ],
     "clips": [
       {
-        "id": "C3bPRoMwGPo",
-        "title": "Saddle escape / leg drag flow",
-        "by": "Travis Anderson",
+        "id": "PhS9Xj-4KbA",
+        "title": "Escaping Honey Hole (Inside Sankaku)",
+        "channel": "OneontaJiuJitsu Academy",
+        "duration": 56,
         "vertical": false,
-        "channel": "Travis Anderson",
-        "duration": 70,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "3a9k8-ZcYrk",
-        "title": "How to escape from the toehold",
-        "by": "Gordon Ryan",
-        "vertical": false,
-        "channel": "The King Life",
-        "duration": 106,
-        "verified": "2026-07-14"
+        "front": true
       }
     ]
   },
@@ -1055,33 +1032,5 @@
       }
     }
   ],
-  "clips": [
-    {
-      "id": "VmxgqU-ScTM",
-      "title": "Honey hole from Single Leg X",
-      "by": "Danny Mitchell",
-      "vertical": false,
-      "channel": "Danny Mitchell MMA",
-      "duration": 34,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "IFuZ5o48t8I",
-      "title": "Single Leg X to honey hole drill",
-      "by": "Gracie Westchase",
-      "vertical": false,
-      "channel": "Gracie Westchase ",
-      "duration": 70,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "eRQVlYxFx1Y",
-      "title": "Shoulder roll to cross ashi (saddle)",
-      "by": "bjj doug",
-      "vertical": false,
-      "channel": "bjj doug",
-      "duration": 42,
-      "verified": "2026-07-14"
-    }
-  ]
+  "clips": []
 }

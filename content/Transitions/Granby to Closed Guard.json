@@ -398,35 +398,7 @@
       }
     ],
     "safety_considerations": "The Granby to Closed Guard is generally a safe technique when executed with proper mechanics, but practitioners must be mindful of several safety considerations. Most importantly, never allow your head to bear weight during the roll - the movement should occur exclusively across the shoulders and upper back. Rolling onto the head or neck can cause serious cervical spine injuries. Always keep the chin tucked tightly to the chest throughout the movement. Practitioners with neck, shoulder, or upper back injuries should consult with medical professionals before practicing this technique. When training, ensure adequate mat space is available to complete the roll without obstruction, as collisions with walls or other practitioners during rotation can cause injury. Partners should provide appropriate resistance levels based on the practitioner's skill level and training phase. Beginners should master the solo movement mechanics before adding partner resistance. The rapid rotational movement can cause dizziness in some practitioners initially; if this occurs, reduce repetition frequency until vestibular adaptation occurs. Proper warm-up of the shoulders, neck, and hips is essential before practicing this technique intensively.",
-    "clips": [
-      {
-        "id": "vyphbya8ZVQ",
-        "title": "Basic granby roll technique",
-        "by": "Danny Mitchell",
-        "vertical": false,
-        "channel": "Danny Mitchell MMA",
-        "duration": 44,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "Ww3UlhG2GzI",
-        "title": "Progression of the granby roll",
-        "by": "Ryan Loder",
-        "vertical": false,
-        "channel": "UFC Fighter Ryan Loder",
-        "duration": 59,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "W0TCGKRcniA",
-        "title": "Turtle escape with the shoulder roll",
-        "by": "BJJake",
-        "vertical": false,
-        "channel": "BJJake",
-        "duration": 21,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Granby to Closed Guard Defender",
@@ -602,35 +574,7 @@
         "description": "Full live rolling with specific attention to turtle top scenarios. Bottom player uses all Granby variants (standard, reverse, double, standing) and chains them with other escapes. Top player must recognize and defend each variant appropriately while maintaining offensive initiative. Review performance after each session and identify which variants create the most difficulty for targeted drilling."
       }
     ],
-    "clips": [
-      {
-        "id": "oijKoS9siS4",
-        "title": "Rolling back take from turtle",
-        "by": "JiuJitsu.com coach",
-        "vertical": false,
-        "channel": "JiuJitsu.com",
-        "duration": 41,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "6ns9XP2BsjQ",
-        "title": "Back take from the turtle position",
-        "by": "Evolve MMA coach",
-        "vertical": false,
-        "channel": "Evolve Mixed Martial Arts",
-        "duration": 66,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "9eP5msv3Qsk",
-        "title": "Crab ride to counter granby rolls",
-        "by": "Duck-Jitsu coach",
-        "vertical": false,
-        "channel": "Duck_Jitsu",
-        "duration": 234,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "variants_and_adaptations": [
     {

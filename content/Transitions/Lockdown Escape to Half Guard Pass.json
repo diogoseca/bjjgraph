@@ -403,30 +403,11 @@
     "clips": [
       {
         "id": "PptkZQh_MFA",
-        "title": "Quick lockdown escape from top",
-        "by": "Thunderdome BJJ",
-        "vertical": false,
+        "title": "Lockdown Escape",
         "channel": "Thunderdome BJJ",
-        "duration": 31,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "-49CypLW9aM",
-        "title": "Lockdown break to half guard pass",
-        "by": "Superhero Jiu Jitsu Academy",
+        "duration": 30,
         "vertical": false,
-        "channel": "Superhero Jiu Jitsu Academy ",
-        "duration": 61,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "rHT8G14Gbb8",
-        "title": "Strategy-based lockdown escape",
-        "by": "Jean Jacques Machado",
-        "vertical": false,
-        "channel": "JeanJacquesMachado",
-        "duration": 159,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },
@@ -610,35 +591,7 @@
         "description": "Positional sparring starting in lockdown bottom against partners who have trained the extraction sequence. Work the complete defensive decision tree including retention, counter-attacks, and transitions under full resistance. Develop real-time recognition and appropriate response selection."
       }
     ],
-    "clips": [
-      {
-        "id": "AmOMN0S1v8Q",
-        "title": "Advanced lockdown details to stop the escape",
-        "by": "Eddie Bravo",
-        "vertical": false,
-        "channel": "Eddie Bravo",
-        "duration": 61,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "OIr4wDxl-Ys",
-        "title": "Lockdown clinches to keep the passer trapped",
-        "by": "Eddie Bravo",
-        "vertical": false,
-        "channel": "Eddie Bravo",
-        "duration": 60,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "oSQ7BHerIow",
-        "title": "Lockdown strategies from bottom",
-        "by": "Eddie Bravo",
-        "vertical": false,
-        "channel": "Eddie Bravo",
-        "duration": 61,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "variants_and_adaptations": [
     {

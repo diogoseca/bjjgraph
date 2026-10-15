@@ -165,35 +165,12 @@ description: "Master Leg Entanglement positions in BJJ. Complete guide to ashi g
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Leg Entanglement Escapes Fundamentals",
-      "description": "Leg Entanglement (Bottom) film study: Leg Entanglement Escapes Fundamentals, taught by Jeremy Skinner.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/c-LUX8aDBUE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/c-LUX8aDBUE",
-      "url": "https://www.youtube.com/watch?v=c-LUX8aDBUE",
-      "creator": { "@type": "Person", "name": "Jeremy Skinner" },
-      "duration": "PT35S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "50/50 Leg Lock Escape",
-      "description": "Leg Entanglement (Bottom) film study: 50/50 Leg Lock Escape, taught by Elite Team Monterey.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/cYEzCp2l4rQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/cYEzCp2l4rQ",
-      "url": "https://www.youtube.com/watch?v=cYEzCp2l4rQ",
-      "creator": { "@type": "Person", "name": "Elite Team Monterey" },
-      "duration": "PT46S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Leg Lock Defense Basics",
-      "description": "Leg Entanglement (Bottom) film study: Leg Lock Defense Basics, taught by Kuwy Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/m0NLphEuFoc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/m0NLphEuFoc",
-      "url": "https://www.youtube.com/watch?v=m0NLphEuFoc",
-      "creator": { "@type": "Person", "name": "Kuwy Jitsu" },
-      "duration": "PT61S"
+      "name": "Escaping Ashi Garami- Leg Lock Defense. Scott Elliott, 10th Planet Richmond",
+      "description": "Leg Entanglement (Bottom) film study: Escaping Ashi Garami- Leg Lock Defense. Scott Elliott, 10th Planet Richmond.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/AQbJMBiWYfU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/AQbJMBiWYfU",
+      "url": "https://www.youtube.com/watch?v=AQbJMBiWYfU",
+      "duration": "PT140S"
     }
   ]
 }
@@ -219,25 +196,9 @@ Leg Entanglement represents a comprehensive positional system in modern Brazilia
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=c-LUX8aDBUE)
+![](https://www.youtube.com/watch?v=AQbJMBiWYfU)
 
-<p class="clip-credit"><strong>Leg Entanglement Escapes Fundamentals</strong> — taught by Jeremy Skinner · 0:35 · <a href="https://www.youtube.com/watch?v=c-LUX8aDBUE" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=cYEzCp2l4rQ)
-
-<p class="clip-credit"><strong>50/50 Leg Lock Escape</strong> — taught by Elite Team Monterey · 0:46 · <a href="https://www.youtube.com/watch?v=cYEzCp2l4rQ" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=m0NLphEuFoc)
-
-<p class="clip-credit"><strong>Leg Lock Defense Basics</strong> — taught by Kuwy Jitsu · 1:01 · <a href="https://www.youtube.com/watch?v=m0NLphEuFoc" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Escaping Ashi Garami- Leg Lock Defense. Scott Elliott, 10th Planet Richmond</strong> · 2:20 · <a href="https://www.youtube.com/watch?v=AQbJMBiWYfU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

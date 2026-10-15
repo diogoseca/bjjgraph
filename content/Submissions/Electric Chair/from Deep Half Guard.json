@@ -521,21 +521,11 @@
     "clips": [
       {
         "id": "O18n2Z5HISI",
-        "title": "Electric Chair from Deep Half",
-        "by": "Heart & Dagger BJJ",
-        "vertical": false,
+        "title": "Electric Chair From Deep Half- Mineral Wells BJJ",
         "channel": "Heart & Dagger  BJJ - Mineral Wells Jiu Jitsu",
         "duration": 43,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "sMbaY4vG2mM",
-        "title": "Electric Chair from Lockdown Half Guard",
-        "by": "Brandon Mccaghren",
         "vertical": false,
-        "channel": "Brandon Mccaghren",
-        "duration": 42,
-        "verified": "2026-07-14"
+        "front": true
       }
     ]
   },
@@ -731,26 +721,7 @@
         "description": "Positional sparring starting from lockdown with partner working full Electric Chair game. Defender applies complete defensive progression: early prevention, mid-stage resistance, scramble transitions, and safe tapping. Track success rate across defensive windows to identify which stages need additional drilling. Integrate into rolling sessions with partner using lockdown as primary offensive platform."
       }
     ],
-    "clips": [
-      {
-        "id": "3A6oRsDf3oU",
-        "title": "Lockdown and Electric Chair counters and escapes",
-        "by": "Street Jitsu",
-        "vertical": false,
-        "channel": "Street Jitsu",
-        "duration": 286,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "2mom9Urqxa4",
-        "title": "How to pass the deep half guard",
-        "by": "Dimitrius Souza",
-        "vertical": false,
-        "channel": "Bernardo Faria BJJ Fanatics",
-        "duration": 237,
-        "verified": "2026-07-16"
-      }
-    ]
+    "clips": []
   },
   "variations_and_setups": [
     {

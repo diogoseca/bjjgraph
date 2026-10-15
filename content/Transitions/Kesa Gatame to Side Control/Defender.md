@@ -136,50 +136,6 @@ description: "Defend against the Kesa Gatame to Side Control transition in BJJ. 
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Kesa Gatame to Side Control (Defender) \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Kesa Gatame escape",
-      "description": "Kesa Gatame to Side Control (Defender) film study: Kesa Gatame escape, taught by SBG Australia.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/2M_6VytUaus/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/2M_6VytUaus",
-      "url": "https://www.youtube.com/watch?v=2M_6VytUaus",
-      "creator": { "@type": "Person", "name": "SBG Australia" },
-      "duration": "PT43S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Kuzure-kesa-gatame escapes",
-      "description": "Kesa Gatame to Side Control (Defender) film study: Kuzure-kesa-gatame escapes, taught by Kodokan.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/-zFQ6h4yKT4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/-zFQ6h4yKT4",
-      "url": "https://www.youtube.com/watch?v=-zFQ6h4yKT4",
-      "creator": { "@type": "Person", "name": "Kodokan" },
-      "duration": "PT70S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Kesa Gatame pressure defense using proper framing",
-      "description": "Kesa Gatame to Side Control (Defender) film study: Kesa Gatame pressure defense using proper framing, taught by Kohbukan Sisu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/fvp5_BVEtLg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/fvp5_BVEtLg",
-      "url": "https://www.youtube.com/watch?v=fvp5_BVEtLg",
-      "creator": { "@type": "Person", "name": "Kohbukan Sisu" },
-      "duration": "PT84S"
-    }
-  ]
-}
-</script>
-
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -192,40 +148,6 @@ As the defender against Kesa Gatame to Side Control, you face a critical decisio
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Kesa Gatame to Side Control (Defender) in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=2M_6VytUaus)
-
-<p class="clip-credit"><strong>Kesa Gatame escape</strong> — taught by SBG Australia · 0:43 · <a href="https://www.youtube.com/watch?v=2M_6VytUaus" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=-zFQ6h4yKT4)
-
-<p class="clip-credit"><strong>Kuzure-kesa-gatame escapes</strong> — taught by Kodokan · 1:10 · <a href="https://www.youtube.com/watch?v=-zFQ6h4yKT4" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=fvp5_BVEtLg)
-
-<p class="clip-credit"><strong>Kesa Gatame pressure defense using proper framing</strong> — taught by Kohbukan Sisu · 1:24 · <a href="https://www.youtube.com/watch?v=fvp5_BVEtLg" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="recognition-cues" class="content-section">

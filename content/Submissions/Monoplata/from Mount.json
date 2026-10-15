@@ -492,22 +492,17 @@
     ],
     "clips": [
       {
-        "id": "DeVb2R8SQL4",
-        "title": "Omoplata From Mount",
-        "by": "Jiu Jitsu With Andy",
-        "vertical": false,
-        "channel": "Jiu Jitsu With Andy ",
-        "duration": 18,
-        "verified": "2026-07-14"
+        "id": "Js6AH2v78Qo",
+        "title": "MONOPLATA FINISHES FROM MOUNT",
+        "channel": "Courage Training Centre",
+        "duration": 149,
+        "front": true
       },
       {
-        "id": "kXwTSv13ATw",
-        "title": "Omoplata to Monoplata",
-        "by": "Ninjuh Moves",
-        "vertical": false,
-        "channel": "Ninjuh Moves",
-        "duration": 50,
-        "verified": "2026-07-14"
+        "id": "bBxjErpbBy8",
+        "title": "Monoplata from Mount",
+        "channel": "Esaki Jiu Jitsu",
+        "duration": 252
       }
     ]
   },
@@ -678,31 +673,11 @@
     ],
     "clips": [
       {
-        "id": "hLkVj_sBens",
-        "title": "Omoplata vs Posture: Escape Fundamentals",
-        "by": "Lucas C Santana",
-        "vertical": false,
-        "channel": "Lucas C Santana",
-        "duration": 81,
-        "verified": "2026-07-14"
-      },
-      {
         "id": "U2KNBtO1NxU",
-        "title": "Monoplata Counter",
-        "by": "Waza BJJ Coach",
-        "vertical": false,
+        "title": "WazaTube: Monoplata Counter",
         "channel": "Waza Brazilian Jiu Jitsu",
-        "duration": 123,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "MvZ3fKl6rtk",
-        "title": "The Importance of Posture in Escapes",
-        "by": "Ante Dzolic",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 170,
-        "verified": "2026-07-15"
+        "duration": 122,
+        "vertical": false
       }
     ]
   },

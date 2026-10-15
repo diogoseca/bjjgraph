@@ -46,24 +46,12 @@ description: "Master the Sweep from Inverted Guard in BJJ. Learn how inverted hi
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Tornado guard sweep and back take options",
-      "description": "Sweep from Inverted Guard film study: Tornado guard sweep and back take options, taught by Moncaio Brothers.",
+      "name": "Tornado / inverted  guard to back or sweep options Moncaio Brothers Jiujitsu",
+      "description": "Sweep from Inverted Guard film study: Tornado / inverted  guard to back or sweep options Moncaio Brothers Jiujitsu.",
       "thumbnailUrl": "https://i.ytimg.com/vi/HbgjJXhLIYk/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/HbgjJXhLIYk",
       "url": "https://www.youtube.com/watch?v=HbgjJXhLIYk",
-      "creator": { "@type": "Person", "name": "Moncaio Brothers" },
       "duration": "PT73S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Inverted half guard sweep to Ezequiel from the back",
-      "description": "Sweep from Inverted Guard film study: Inverted half guard sweep to Ezequiel from the back, taught by Carpio Jiu Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/iwcRISvtG3g/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/iwcRISvtG3g",
-      "url": "https://www.youtube.com/watch?v=iwcRISvtG3g",
-      "creator": { "@type": "Person", "name": "Carpio Jiu Jitsu" },
-      "duration": "PT116S"
     }
   ]
 }
@@ -119,15 +107,7 @@ This sweep integrates naturally into the modern guard retention and back attack 
 
 ![](https://www.youtube.com/watch?v=HbgjJXhLIYk)
 
-<p class="clip-credit"><strong>Tornado guard sweep and back take options</strong> — taught by Moncaio Brothers · 1:13 · <a href="https://www.youtube.com/watch?v=HbgjJXhLIYk" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=iwcRISvtG3g)
-
-<p class="clip-credit"><strong>Inverted half guard sweep to Ezequiel from the back</strong> — taught by Carpio Jiu Jitsu · 1:56 · <a href="https://www.youtube.com/watch?v=iwcRISvtG3g" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Tornado / inverted  guard to back or sweep options Moncaio Brothers Jiujitsu</strong> · 1:13 · <a href="https://www.youtube.com/watch?v=HbgjJXhLIYk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

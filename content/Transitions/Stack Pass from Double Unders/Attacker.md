@@ -186,24 +186,22 @@ description: "Learn to execute the Stack Pass from Double Unders in BJJ. Step-by
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Double unders stack pass",
-      "description": "Stack Pass from Double Unders (Attacker) film study: Double unders stack pass, taught by Nicky Ryan.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/N4PxPPv98k4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/N4PxPPv98k4",
-      "url": "https://www.youtube.com/watch?v=N4PxPPv98k4",
-      "creator": { "@type": "Person", "name": "Nicky Ryan" },
-      "duration": "PT91S"
+      "name": "No-Gi Double Under Guard Pass | Brazilian Jiu-Jitsu BJJ Middletown",
+      "description": "Stack Pass from Double Unders (Attacker) film study: No-Gi Double Under Guard Pass | Brazilian Jiu-Jitsu BJJ Middletown.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wBZrTpuXV50/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/wBZrTpuXV50",
+      "url": "https://www.youtube.com/watch?v=wBZrTpuXV50",
+      "duration": "PT63S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Over under to double under pass transition",
-      "description": "Stack Pass from Double Unders (Attacker) film study: Over under to double under pass transition, taught by Paragon Jiu-Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/C1owQwRAOkw/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/C1owQwRAOkw",
-      "url": "https://www.youtube.com/watch?v=C1owQwRAOkw",
-      "creator": { "@type": "Person", "name": "Paragon Jiu-Jitsu" },
-      "duration": "PT136S"
+      "name": "Double Under Pass",
+      "description": "Stack Pass from Double Unders (Attacker) film study: Double Under Pass.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0qu9a0a3ozQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/0qu9a0a3ozQ",
+      "url": "https://www.youtube.com/watch?v=0qu9a0a3ozQ",
+      "duration": "PT70S"
     }
   ]
 }
@@ -231,17 +229,17 @@ The Stack Pass from Double Unders represents one of the most dominant pressure p
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=N4PxPPv98k4)
+![](https://www.youtube.com/watch?v=wBZrTpuXV50)
 
-<p class="clip-credit"><strong>Double unders stack pass</strong> — taught by Nicky Ryan · 1:31 · <a href="https://www.youtube.com/watch?v=N4PxPPv98k4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>No-Gi Double Under Guard Pass | Brazilian Jiu-Jitsu BJJ Middletown</strong> · 1:03 · <a href="https://www.youtube.com/watch?v=wBZrTpuXV50" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=C1owQwRAOkw)
+![](https://www.youtube.com/watch?v=0qu9a0a3ozQ)
 
-<p class="clip-credit"><strong>Over under to double under pass transition</strong> — taught by Paragon Jiu-Jitsu · 2:16 · <a href="https://www.youtube.com/watch?v=C1owQwRAOkw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Double Under Pass</strong> · 1:10 · <a href="https://www.youtube.com/watch?v=0qu9a0a3ozQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -160,35 +160,12 @@ description: "How to defend the Knee Through pass in BJJ. Recognition cues, defe
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Basic knee slide recovery",
-      "description": "Knee Through (Defender) film study: Basic knee slide recovery, taught by Vision BJJ coach.",
+      "name": "Basic Knee Slide Recovery",
+      "description": "Knee Through (Defender) film study: Basic Knee Slide Recovery.",
       "thumbnailUrl": "https://i.ytimg.com/vi/RvIIpXaPyJM/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/RvIIpXaPyJM",
       "url": "https://www.youtube.com/watch?v=RvIIpXaPyJM",
-      "creator": { "@type": "Person", "name": "Vision BJJ coach" },
       "duration": "PT96S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Top 5 guard retention mistakes",
-      "description": "Knee Through (Defender) film study: Top 5 guard retention mistakes, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/iTrQzYeCvHM/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/iTrQzYeCvHM",
-      "url": "https://www.youtube.com/watch?v=iTrQzYeCvHM",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT436S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Defend and counter the knee slide pass",
-      "description": "Knee Through (Defender) film study: Defend and counter the knee slide pass, taught by Jordan Preisinger.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/iq5Ng9kFD2A/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/iq5Ng9kFD2A",
-      "url": "https://www.youtube.com/watch?v=iq5Ng9kFD2A",
-      "creator": { "@type": "Person", "name": "Jordan Preisinger" },
-      "duration": "PT678S"
     }
   ]
 }
@@ -218,23 +195,7 @@ Defending the Knee Through pass requires recognizing the attack early and disrup
 
 ![](https://www.youtube.com/watch?v=RvIIpXaPyJM)
 
-<p class="clip-credit"><strong>Basic knee slide recovery</strong> — taught by Vision BJJ coach · 1:36 · <a href="https://www.youtube.com/watch?v=RvIIpXaPyJM" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=iTrQzYeCvHM)
-
-<p class="clip-credit"><strong>Top 5 guard retention mistakes</strong> — taught by Lachlan Giles · 7:16 · <a href="https://www.youtube.com/watch?v=iTrQzYeCvHM" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=iq5Ng9kFD2A)
-
-<p class="clip-credit"><strong>Defend and counter the knee slide pass</strong> — taught by Jordan Preisinger · 11:18 · <a href="https://www.youtube.com/watch?v=iq5Ng9kFD2A" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Basic Knee Slide Recovery</strong> · 1:36 · <a href="https://www.youtube.com/watch?v=RvIIpXaPyJM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

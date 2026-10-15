@@ -447,30 +447,11 @@
     "clips": [
       {
         "id": "n6EoUkDwUVc",
-        "title": "4 heel hook finishes from the saddle",
-        "by": "The Grappling Bloke",
-        "vertical": false,
+        "title": "4 Variations Of Heel Hook Finish From Saddle",
         "channel": "The Grappling Bloke",
-        "duration": 102,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "PGQ7YYfu76Q",
-        "title": "Single leg X to honey hole heel hook",
-        "by": "Ilya Bodnya",
+        "duration": 101,
         "vertical": false,
-        "channel": "Ilya Bodnya",
-        "duration": 65,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "lr7rlj7WV-E",
-        "title": "X guard to heel hook",
-        "by": "Craig Jones",
-        "vertical": false,
-        "channel": "The Bear's Den BJJ & MMA  熊派巴西柔術及MMA學院",
-        "duration": 94,
-        "verified": "2026-07-14"
+        "front": true
       }
     ]
   },
@@ -663,31 +644,11 @@
     ],
     "clips": [
       {
-        "id": "gEEHqiSznS4",
-        "title": "How to escape the honey hole",
-        "by": "Vagner Rocha",
-        "vertical": false,
-        "channel": "Vagner Rocha Martial Arts - MMA Gym, BJJ School, Jiu Jitsu, Mixed Martial Arts, Kickboxing, Boxing Gym",
-        "duration": 60,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "PhS9Xj-4KbA",
-        "title": "Escaping honey hole (inside sankaku)",
-        "by": "Oneonta Jiu Jitsu",
-        "vertical": false,
-        "channel": "OneontaJiuJitsu Academy",
-        "duration": 56,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "i54XMDe--qI",
-        "title": "Honey hole escape",
-        "by": "10th Planet Colorado Springs",
-        "vertical": false,
-        "channel": "10th Planet Colorado Springs",
-        "duration": 105,
-        "verified": "2026-07-14"
+        "id": "1-17BEM8qgI",
+        "title": "Escaping inside sankaku and countering the heel hook.",
+        "channel": "BJJ4Breakfast",
+        "duration": 282,
+        "front": true
       }
     ]
   }

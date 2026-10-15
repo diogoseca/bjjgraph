@@ -453,31 +453,12 @@
     ],
     "clips": [
       {
-        "id": "92INP2YJIMg",
-        "title": "Anatomy of the Arm Bar",
-        "by": "Tim Trevail",
+        "id": "4zVQ4maQdB0",
+        "title": "Armbar from the Technical Mount",
+        "channel": "Mauricio Gomes BJJ",
+        "duration": 42,
         "vertical": false,
-        "channel": "Tim Trevail",
-        "duration": 81,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "PE61YGNeYzU",
-        "title": "Finishing arm-bars from mount",
-        "by": "Sanabul",
-        "vertical": false,
-        "channel": "Sanabul",
-        "duration": 82,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "55Ux8giP_PY",
-        "title": "Wrist Control to Arm Bar",
-        "by": "Gordon Ryan",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 226,
-        "verified": "2026-07-14"
+        "front": true
       }
     ]
   },
@@ -667,34 +648,6 @@
         "description": "Positional sparring from Technical Mount bottom against full-resistance armbar attacks. Goal is either escape or survival for a specified time period. Partner attacks with competition intensity while you apply all defensive skills. Track success rate over multiple rounds and identify which defensive phase needs improvement."
       }
     ],
-    "clips": [
-      {
-        "id": "kNdKfUdgO4I",
-        "title": "My favorite armbar escape",
-        "by": "Matt Arroyo",
-        "vertical": false,
-        "channel": "Matt Arroyo Jiu Jitsu ",
-        "duration": 92,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "sDdqvh_1kbA",
-        "title": "Armbar Escape",
-        "by": "ZombieProofBJJ",
-        "vertical": false,
-        "channel": "ZombieProofBJJ",
-        "duration": 63,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "AfDEN3uK3W0",
-        "title": "Low effort armbar escape via foot capture",
-        "by": "Patrick Donabedian",
-        "vertical": false,
-        "channel": "Patrick Donabedian BJJ",
-        "duration": 55,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   }
 }

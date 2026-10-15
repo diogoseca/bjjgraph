@@ -530,31 +530,18 @@
     ],
     "clips": [
       {
-        "id": "YLPNsyHtREs",
-        "title": "Monitoring Feet in Guard Passing",
-        "by": "Gordon Ryan",
+        "id": "fqC0g2NEbq0",
+        "title": "Passing the guard when feet on the hips.",
+        "channel": "URBANA ACADEMY",
+        "duration": 52,
         "vertical": false,
-        "channel": "Michael Wong",
-        "duration": 50,
-        "verified": "2026-07-14"
+        "front": true
       },
       {
-        "id": "JL4Bimt-Y0I",
-        "title": "Foot on Your Hip? No Problem!",
-        "by": "Rickson Gracie",
-        "vertical": false,
-        "channel": "Rickson Gracie Jiu-Jitsu Academy",
-        "duration": 139,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "kTSMGYlVJKY",
-        "title": "Free Your Foot While Passing",
-        "by": "Kameron Ross",
-        "vertical": false,
-        "channel": "Kameron Ross",
-        "duration": 55,
-        "verified": "2026-07-14"
+        "id": "_vUNYRbf-fo",
+        "title": "Passing feet on hips double sleeve guard",
+        "channel": "brent littell",
+        "duration": 190
       }
     ]
   },
@@ -1077,22 +1064,12 @@
     ],
     "clips": [
       {
-        "id": "WzT_DVarJGE",
-        "title": "Foot in Hip Sweep",
-        "by": "Mark VanSchuyver",
+        "id": "yrU-DdcJBgY",
+        "title": "[Volume 1] AMAZING Open Guard (Feet On The Hips) Series **2 Key Steps** |…",
+        "channel": "Nemesis Jiu Jitsu",
+        "duration": 377,
         "vertical": false,
-        "channel": "Mark VanSchuyver",
-        "duration": 59,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "Ung3A0olxus",
-        "title": "X-Choke from Feet on Hips Guard",
-        "by": "RKBJJ",
-        "vertical": false,
-        "channel": "RKBJJ Class Archive",
-        "duration": 145,
-        "verified": "2026-07-14"
+        "front": true
       }
     ]
   },
@@ -1212,22 +1189,12 @@
   ],
   "clips": [
     {
-      "id": "OEzteWy4psQ",
-      "title": "Basic Guard: Feet to Hips",
-      "by": "Martial Arts Concepts",
-      "vertical": false,
-      "channel": "Martial Arts Concepts",
-      "duration": 102,
-      "verified": "2026-07-15"
-    },
-    {
       "id": "yrU-DdcJBgY",
-      "title": "Open Guard Feet On The Hips Series: 2 Key Steps",
-      "by": "Nemesis Jiu Jitsu",
-      "vertical": false,
+      "title": "[Volume 1] AMAZING Open Guard (Feet On The Hips) Series **2 Key Steps** |…",
       "channel": "Nemesis Jiu Jitsu",
-      "duration": 378,
-      "verified": "2026-07-15"
+      "duration": 377,
+      "vertical": false,
+      "half": "bottom"
     }
   ]
 }

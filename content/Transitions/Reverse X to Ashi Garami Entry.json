@@ -395,31 +395,19 @@
     "safety_considerations": "When training this transition, be aware of the inherent risks associated with leg entanglements. The Ashi Garami position threatens heel hooks, which can cause serious knee ligament damage (MCL, LCL, ACL) if applied forcefully without proper control. Always tap early when caught in heel hook positions during training. Beginners should train this technique without heel hook finishes until they develop sensitivity to knee torque. Communicate clearly with training partners about leg lock rules and experience levels. Avoid explosive entries that could hyperextend knees. The transition itself is relatively safe, but once in Ashi Garami, both practitioners must exercise caution and respect the tap.",
     "clips": [
       {
-        "id": "GqE4UobpkMs",
-        "title": "Butterfly to reverse X to cross ashi garami",
-        "by": "Bowerhouse MMA",
-        "vertical": false,
-        "channel": "BOWERHOUSE MMA",
-        "duration": 88,
-        "verified": "2026-07-15"
-      },
-      {
         "id": "Bf5cJNYCMcA",
-        "title": "Reverse X to ashi garami",
-        "by": "The Sanctuary BJJ",
-        "vertical": false,
+        "title": "Reverse X  ashi garami",
         "channel": "The Sanctuary Brazilian JiuJitsu and Fitness",
-        "duration": 105,
-        "verified": "2026-07-15"
+        "duration": 104,
+        "vertical": false,
+        "front": true
       },
       {
         "id": "RIo0PSEgxSg",
-        "title": "Reverse X-guard to cross ashi garami",
-        "by": "Ascend Institute",
-        "vertical": false,
+        "title": "Reverse X-Guard to Cross Ashi Garami",
         "channel": "Ascend Institute",
         "duration": 257,
-        "verified": "2026-07-15"
+        "vertical": false
       }
     ]
   },
@@ -598,35 +586,7 @@
         "description": "Full positional sparring starting from Reverse X-Guard. Defender works to prevent Ashi Garami entries while also pursuing passing opportunities. Focus on maintaining composure under sweep threats and recognizing the transition-to-Ashi window for timely intervention."
       }
     ],
-    "clips": [
-      {
-        "id": "M82CDkEzxlQ",
-        "title": "Reverse X-guard defense into rolling back take",
-        "by": "Effortless Jiu Jitsu",
-        "vertical": false,
-        "channel": "EffortlessJiuJitsu",
-        "duration": 121,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "L417yCl_-dc",
-        "title": "Leg defense from ashi garami",
-        "by": "The Coop BJJ",
-        "vertical": false,
-        "channel": "The Coop BJJ",
-        "duration": 48,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "mZp355NAIYk",
-        "title": "Ashi garami defense and counter pass",
-        "by": "The Grappling Bloke",
-        "vertical": false,
-        "channel": "The Grappling Bloke",
-        "duration": 111,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "variants_and_adaptations": [
     {

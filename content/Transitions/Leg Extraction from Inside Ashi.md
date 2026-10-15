@@ -46,24 +46,12 @@ description: "Learn the leg extraction escape from Inside Ashi-Garami in BJJ. St
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Escaping the honey hole (inside sankaku)",
-      "description": "Leg Extraction from Inside Ashi film study: Escaping the honey hole (inside sankaku), taught by Oneonta Jiu Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/PhS9Xj-4KbA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/PhS9Xj-4KbA",
-      "url": "https://www.youtube.com/watch?v=PhS9Xj-4KbA",
-      "creator": { "@type": "Person", "name": "Oneonta Jiu Jitsu" },
-      "duration": "PT56S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Leg defense from ashi garami",
-      "description": "Leg Extraction from Inside Ashi film study: Leg defense from ashi garami, taught by The Coop BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/L417yCl_-dc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/L417yCl_-dc",
-      "url": "https://www.youtube.com/watch?v=L417yCl_-dc",
-      "creator": { "@type": "Person", "name": "The Coop BJJ" },
-      "duration": "PT48S"
+      "name": "Escaping Ashi Garami- Leg Lock Defense. Scott Elliott, 10th Planet Richmond",
+      "description": "Leg Extraction from Inside Ashi film study: Escaping Ashi Garami- Leg Lock Defense. Scott Elliott, 10th Planet Richmond.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/AQbJMBiWYfU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/AQbJMBiWYfU",
+      "url": "https://www.youtube.com/watch?v=AQbJMBiWYfU",
+      "duration": "PT140S"
     }
   ]
 }
@@ -117,17 +105,9 @@ Strategically, leg extraction occupies a critical role in the defensive leg lock
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=PhS9Xj-4KbA)
+![](https://www.youtube.com/watch?v=AQbJMBiWYfU)
 
-<p class="clip-credit"><strong>Escaping the honey hole (inside sankaku)</strong> — taught by Oneonta Jiu Jitsu · 0:56 · <a href="https://www.youtube.com/watch?v=PhS9Xj-4KbA" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=L417yCl_-dc)
-
-<p class="clip-credit"><strong>Leg defense from ashi garami</strong> — taught by The Coop BJJ · 0:48 · <a href="https://www.youtube.com/watch?v=L417yCl_-dc" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Escaping Ashi Garami- Leg Lock Defense. Scott Elliott, 10th Planet Richmond</strong> · 2:20 · <a href="https://www.youtube.com/watch?v=AQbJMBiWYfU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

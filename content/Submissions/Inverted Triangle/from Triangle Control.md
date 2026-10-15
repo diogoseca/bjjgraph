@@ -46,35 +46,22 @@ description: "Master the Inverted Triangle from Triangle Control. Learn setup me
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Inverted Triangle",
-      "description": "Inverted Triangle from Triangle Control film study: Inverted Triangle, taught by Bristol Jiu Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/xAW3spYg9vE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/xAW3spYg9vE",
-      "url": "https://www.youtube.com/watch?v=xAW3spYg9vE",
-      "creator": { "@type": "Person", "name": "Bristol Jiu Jitsu" },
-      "duration": "PT51S"
+      "name": "Relson Gracie Jiu-Jitsu Team HK: Inverted Triangle Choke Escape",
+      "description": "Inverted Triangle from Triangle Control film study: Relson Gracie Jiu-Jitsu Team HK: Inverted Triangle Choke Escape.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/AptNwQLD_EQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/AptNwQLD_EQ",
+      "url": "https://www.youtube.com/watch?v=AptNwQLD_EQ",
+      "duration": "PT117S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Inverted Triangle Finish",
-      "description": "Inverted Triangle from Triangle Control film study: Inverted Triangle Finish, taught by BJJ Lotus Club.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/i2l9Gx72DU0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/i2l9Gx72DU0",
-      "url": "https://www.youtube.com/watch?v=i2l9Gx72DU0",
-      "creator": { "@type": "Person", "name": "BJJ Lotus Club" },
-      "duration": "PT25S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Inverted Triangle Choke Finish",
-      "description": "Inverted Triangle from Triangle Control film study: Inverted Triangle Choke Finish, taught by MMAYHEM.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/RCzCmK7AeVU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/RCzCmK7AeVU",
-      "url": "https://www.youtube.com/watch?v=RCzCmK7AeVU",
-      "creator": { "@type": "Person", "name": "MMAYHEM" },
-      "duration": "PT60S"
+      "name": "Counter to the Inverted Triangle",
+      "description": "Inverted Triangle from Triangle Control film study: Counter to the Inverted Triangle.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/EaZA0UUXIq8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/EaZA0UUXIq8",
+      "url": "https://www.youtube.com/watch?v=EaZA0UUXIq8",
+      "duration": "PT186S"
     }
   ]
 }
@@ -137,25 +124,17 @@ Strategically, the inverted triangle adds a critical dimension to the triangle s
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=xAW3spYg9vE)
+![](https://www.youtube.com/watch?v=AptNwQLD_EQ)
 
-<p class="clip-credit"><strong>Inverted Triangle</strong> — taught by Bristol Jiu Jitsu · 0:51 · <a href="https://www.youtube.com/watch?v=xAW3spYg9vE" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=i2l9Gx72DU0)
-
-<p class="clip-credit"><strong>Inverted Triangle Finish</strong> — taught by BJJ Lotus Club · 0:25 · <a href="https://www.youtube.com/watch?v=i2l9Gx72DU0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Relson Gracie Jiu-Jitsu Team HK: Inverted Triangle Choke Escape</strong> · 1:57 · <a href="https://www.youtube.com/watch?v=AptNwQLD_EQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=RCzCmK7AeVU)
+![](https://www.youtube.com/watch?v=EaZA0UUXIq8)
 
-<p class="clip-credit"><strong>Inverted Triangle Choke Finish</strong> — taught by MMAYHEM · 1:00 · <a href="https://www.youtube.com/watch?v=RCzCmK7AeVU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Counter to the Inverted Triangle</strong> · 3:06 · <a href="https://www.youtube.com/watch?v=EaZA0UUXIq8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

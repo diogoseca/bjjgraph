@@ -404,21 +404,11 @@
     "clips": [
       {
         "id": "XaLBmGnHm78",
-        "title": "North-south inverted spin escape",
-        "by": "SBG Australia",
-        "vertical": false,
+        "title": "4th stripe - North South inverted spin escape",
         "channel": "SBG Australia",
-        "duration": 37,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "4WBfhnf2mJI",
-        "title": "Escaping switch-base side control pin",
-        "by": "Renegade BJJ",
+        "duration": 36,
         "vertical": false,
-        "channel": "Renegade BJJ",
-        "duration": 68,
-        "verified": "2026-07-16"
+        "front": true
       }
     ]
   },
@@ -606,35 +596,7 @@
         "description": "Incorporate kimura, armbar, and north-south choke threats into your retention game. Practice threatening submissions to disrupt escape sequences without fully committing weight shifts that compromise control. Develop the timing to attack when they frame, then immediately reconsolidate when they retract. Full resistance positional sparring rounds starting from north-south."
       }
     ],
-    "clips": [
-      {
-        "id": "Yzd35ezo2OQ",
-        "title": "North-south counter to the underhook escape",
-        "by": "Paul McVeigh",
-        "vertical": false,
-        "channel": "Paul Mcveigh",
-        "duration": 76,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "LdjrPT6Wt7c",
-        "title": "How to hold north-south",
-        "by": "Inverted Gear",
-        "vertical": false,
-        "channel": "Inverted Gear",
-        "duration": 121,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "SPXanCnoBYA",
-        "title": "North-south choke as a pinning tool",
-        "by": "Craig Jones",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 135,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "variants_and_adaptations": [
     {

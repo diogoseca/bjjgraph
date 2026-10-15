@@ -46,35 +46,12 @@ description: "Master the complete guard pass from flattened half guard to side c
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Passing the flat half guard",
-      "description": "Complete Pass from Flattened Half film study: Passing the flat half guard, taught by Malachy Friedman.",
+      "name": "This is how to pass the flat half!",
+      "description": "Complete Pass from Flattened Half film study: This is how to pass the flat half!.",
       "thumbnailUrl": "https://i.ytimg.com/vi/8WbQvytyCX0/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/8WbQvytyCX0",
       "url": "https://www.youtube.com/watch?v=8WbQvytyCX0",
-      "creator": { "@type": "Person", "name": "Malachy Friedman" },
-      "duration": "PT63S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Half guard pass to full mount",
-      "description": "Complete Pass from Flattened Half film study: Half guard pass to full mount, taught by Carlos Machado.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/YcNppdGtt6c/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/YcNppdGtt6c",
-      "url": "https://www.youtube.com/watch?v=YcNppdGtt6c",
-      "creator": { "@type": "Person", "name": "Carlos Machado" },
-      "duration": "PT92S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Gordon Ryan\u0027s half guard passing details",
-      "description": "Complete Pass from Flattened Half film study: Gordon Ryan\u0027s half guard passing details, taught by Gordon Ryan.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Zo6aygjOgcQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Zo6aygjOgcQ",
-      "url": "https://www.youtube.com/watch?v=Zo6aygjOgcQ",
-      "creator": { "@type": "Person", "name": "Gordon Ryan" },
-      "duration": "PT188S"
+      "duration": "PT62S"
     }
   ]
 }
@@ -130,23 +107,7 @@ From a systems perspective, the complete pass connects the pressure-passing chai
 
 ![](https://www.youtube.com/watch?v=8WbQvytyCX0)
 
-<p class="clip-credit"><strong>Passing the flat half guard</strong> — taught by Malachy Friedman · 1:03 · <a href="https://www.youtube.com/watch?v=8WbQvytyCX0" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=YcNppdGtt6c)
-
-<p class="clip-credit"><strong>Half guard pass to full mount</strong> — taught by Carlos Machado · 1:32 · <a href="https://www.youtube.com/watch?v=YcNppdGtt6c" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=Zo6aygjOgcQ)
-
-<p class="clip-credit"><strong>Gordon Ryan&#39;s half guard passing details</strong> — taught by Gordon Ryan · 3:08 · <a href="https://www.youtube.com/watch?v=Zo6aygjOgcQ" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>This is how to pass the flat half!</strong> · 1:02 · <a href="https://www.youtube.com/watch?v=8WbQvytyCX0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

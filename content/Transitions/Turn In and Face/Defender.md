@@ -150,39 +150,6 @@ description: "How to defend against Turn In and Face in BJJ. Recognition cues, d
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Turn In and Face (Defender) \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "No-gi buggy choke counter and defense",
-      "description": "Turn In and Face (Defender) film study: No-gi buggy choke counter and defense, taught by SD BJJ Australia.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/6na3oiDkWek/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/6na3oiDkWek",
-      "url": "https://www.youtube.com/watch?v=6na3oiDkWek",
-      "creator": { "@type": "Person", "name": "SD BJJ Australia" },
-      "duration": "PT81S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "How to defend the buggy choke",
-      "description": "Turn In and Face (Defender) film study: How to defend the buggy choke, taught by Less Impressed More Involved.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/CD1PBfMol-k/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/CD1PBfMol-k",
-      "url": "https://www.youtube.com/watch?v=CD1PBfMol-k",
-      "creator": { "@type": "Person", "name": "Less Impressed More Involved" },
-      "duration": "PT253S"
-    }
-  ]
-}
-</script>
-
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -199,32 +166,6 @@ Advanced buggy choke players treat the Turn In and Face attempt as a transition 
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Turn In and Face (Defender) in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=6na3oiDkWek)
-
-<p class="clip-credit"><strong>No-gi buggy choke counter and defense</strong> — taught by SD BJJ Australia · 1:21 · <a href="https://www.youtube.com/watch?v=6na3oiDkWek" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=CD1PBfMol-k)
-
-<p class="clip-credit"><strong>How to defend the buggy choke</strong> — taught by Less Impressed More Involved · 4:13 · <a href="https://www.youtube.com/watch?v=CD1PBfMol-k" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="recognition-cues" class="content-section">

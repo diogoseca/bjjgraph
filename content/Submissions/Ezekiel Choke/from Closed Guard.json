@@ -442,22 +442,23 @@
     ],
     "clips": [
       {
-        "id": "U0bEVMh07b0",
-        "title": "Ezekiel Choke from Closed Guard with a Twist",
-        "by": "BJJ After Forty",
-        "vertical": false,
-        "channel": "BJJ After Forty",
-        "duration": 149,
-        "verified": "2026-07-14"
+        "id": "5vLZ1RB10fU",
+        "title": "Ezekiel Choke from Inside Closed Guard",
+        "channel": "Revolution BJJ",
+        "duration": 77,
+        "front": true
       },
       {
-        "id": "B7_MjC4WAoI",
-        "title": "The Ezekiel To End All Ezekiels (No Gi)",
-        "by": "Henry Akins",
-        "vertical": false,
-        "channel": "Henry Akins' Hidden Jiu-Jitsu",
-        "duration": 87,
-        "verified": "2026-07-14"
+        "id": "fSipr-4-G0E",
+        "title": "Ezekiel Choke • Inside Closed Guard",
+        "channel": "Gorilla BJJ Academy Mahwah, NJ",
+        "duration": 98
+      },
+      {
+        "id": "I3aJL0VttX4",
+        "title": "Ezekiel Choke from Inside the Closed Guard",
+        "channel": "Revolution BJJ",
+        "duration": 114
       }
     ]
   },
@@ -634,34 +635,6 @@
         "description": "Combine defensive recognition with counter-attacks including hip bump sweeps and triangle setups. Partner attempts the Ezekiel at increasing speed and intensity while you defend and immediately transition to counter-offense. Progress from isolated drilling to positional sparring rounds starting in closed guard with the Ezekiel as the attacker's primary goal."
       }
     ],
-    "clips": [
-      {
-        "id": "2_lXwrT3Ci0",
-        "title": "Ezekiel (bread) choke defense from guard",
-        "by": "Gracie Charlottesville",
-        "vertical": false,
-        "channel": "Gracie Charlottesville",
-        "duration": 14,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "AaZPuF7ppY8",
-        "title": "Defense to the ezekiel choke",
-        "by": "Gracie Ohio Jiu-Jitsu",
-        "vertical": false,
-        "channel": "Gracie Ohio Jiu-Jitsu Academy",
-        "duration": 176,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "9J9JTB17-Sk",
-        "title": "Ezekiel choke defense via wrist lock",
-        "by": "Gracie Ohio Jiu-Jitsu",
-        "vertical": false,
-        "channel": "Gracie Ohio Jiu-Jitsu Academy",
-        "duration": 135,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

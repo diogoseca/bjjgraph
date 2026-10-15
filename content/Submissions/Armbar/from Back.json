@@ -487,31 +487,12 @@
     ],
     "clips": [
       {
-        "id": "4aQQqz-6Baw",
-        "title": "Armbar from back control",
-        "by": "Evolve MMA",
-        "vertical": false,
-        "channel": "Evolve Mixed Martial Arts",
-        "duration": 54,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "nsLJ8AiGZ5A",
-        "title": "Rolling armbar from back mount",
-        "by": "Hammer Jiu-Jitsu",
-        "vertical": false,
-        "channel": "American Top Team - Palm Beach Gardens",
-        "duration": 40,
-        "verified": "2026-07-14"
-      },
-      {
         "id": "jf1kPefTmm0",
-        "title": "Armbar from the back variation",
-        "by": "Malachy Friedman",
-        "vertical": false,
+        "title": "If You Practice Jiu Jitsu Try This New Variation Of Armbar From The Back!",
         "channel": "Malachy Friedman",
-        "duration": 80,
-        "verified": "2026-07-14"
+        "duration": 79,
+        "vertical": false,
+        "front": true
       }
     ]
   },
@@ -709,22 +690,12 @@
     ],
     "clips": [
       {
-        "id": "kNdKfUdgO4I",
-        "title": "My favorite armbar escape",
-        "by": "Matt Arroyo",
+        "id": "s_X84S_o8_A",
+        "title": "The Armbar From the Back and How to Stop It",
+        "channel": "Stephan Kesting",
+        "duration": 246,
         "vertical": false,
-        "channel": "Matt Arroyo Jiu Jitsu ",
-        "duration": 92,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "sDdqvh_1kbA",
-        "title": "Armbar escape vs back attack",
-        "by": "ZombieProofBJJ",
-        "vertical": false,
-        "channel": "ZombieProofBJJ",
-        "duration": 63,
-        "verified": "2026-07-14"
+        "front": true
       }
     ]
   },

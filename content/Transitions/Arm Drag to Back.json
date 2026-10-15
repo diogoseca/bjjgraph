@@ -397,30 +397,11 @@
     "clips": [
       {
         "id": "MFed9IE8afA",
-        "title": "Reverse Arm Drag from Butterfly to Back Take",
-        "by": "Jerry Musquiz",
-        "vertical": false,
+        "title": "Reverse Armdrag (Marcelo Garcia style) from Butterfly to Back Take Gi",
         "channel": "Jerry Musquiz",
-        "duration": 42,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "PCPrbetHf4U",
-        "title": "Arm Drag from Butterfly Guard",
-        "by": "Procel BJJ",
+        "duration": 41,
         "vertical": false,
-        "channel": "Procel Brazilian Jiu-Jitsu",
-        "duration": 60,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "OgyVXBXFpdA",
-        "title": "Three Back Takes from Guard: Arm Drag, Wrist Drag, Swim Under",
-        "by": "AMAZIN BJJ",
-        "vertical": false,
-        "channel": "AMAZIN BJJ",
-        "duration": 53,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },
@@ -585,35 +566,7 @@
         "description": "Focus on recognizing arm drag setups during full sparring rounds, not just positional sparring. Work on maintaining proper arm positioning and weight distribution habits throughout entire rounds. Debrief after each session to identify moments where arm drag defense succeeded or failed and adjust training focus accordingly. Chain defensive responses with offensive counter-attacks when defense is successful."
       }
     ],
-    "clips": [
-      {
-        "id": "bmCjXADzgo4",
-        "title": "How to Defend the Arm Drag",
-        "by": "Matt Arroyo",
-        "vertical": false,
-        "channel": "Matt Arroyo Jiu Jitsu ",
-        "duration": 103,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "epMcg6nvik8",
-        "title": "The simplest counter to the arm drag",
-        "by": "Stephan Kesting",
-        "vertical": false,
-        "channel": "Stephan Kesting",
-        "duration": 72,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "6bocwKQC8Oo",
-        "title": "Four arm drag counters against seated guard",
-        "by": "MMA Leech",
-        "vertical": false,
-        "channel": "MMA Leech",
-        "duration": 261,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "variants_and_adaptations": [
     {

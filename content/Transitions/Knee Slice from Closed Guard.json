@@ -396,30 +396,18 @@
     "clips": [
       {
         "id": "V6Q79fPuJHQ",
-        "title": "Guard break into knee cut pass",
-        "by": "Underground Gym",
-        "vertical": false,
+        "title": "Guard Break and Knee Cut Pass",
         "channel": "Underground Gym, LLC",
-        "duration": 29,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "Yhy-QVscGq8",
-        "title": "Knee wedge guard break to knee through pass",
-        "by": "Procel BJJ",
+        "duration": 28,
         "vertical": false,
-        "channel": "Procel Brazilian Jiu-Jitsu",
-        "duration": 40,
-        "verified": "2026-07-15"
+        "front": true
       },
       {
         "id": "l4CEu9xW9Vo",
-        "title": "Knee cut closed guard pass from the knees",
-        "by": "BJJ4Breakfast",
-        "vertical": false,
+        "title": "Knee cut closed guard pass from knees",
         "channel": "BJJ4Breakfast",
-        "duration": 150,
-        "verified": "2026-07-15"
+        "duration": 149,
+        "vertical": false
       }
     ]
   },
@@ -615,30 +603,18 @@
     "clips": [
       {
         "id": "rP8SOouke1s",
-        "title": "Knee-elbow connection response to the knee cut",
-        "by": "Cal McDonald",
-        "vertical": false,
+        "title": "101 Retention - Knee Elbow Connection, Facing Your Opponent, Knee Cut Response",
         "channel": "Cal McDonald",
         "duration": 57,
-        "verified": "2026-07-15"
+        "vertical": false,
+        "front": true
       },
       {
         "id": "yiIHeo7NgsE",
-        "title": "Countering the knee slice pass",
-        "by": "Kohbukan Sisu",
-        "vertical": false,
+        "title": "Knee Slice Pass Counter",
         "channel": "Kohbukan Sisu",
         "duration": 58,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "lVLAROiSjNU",
-        "title": "Guard retention: when to sit up escape",
-        "by": "Lachlan Giles",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 136,
-        "verified": "2026-07-15"
+        "vertical": false
       }
     ]
   }

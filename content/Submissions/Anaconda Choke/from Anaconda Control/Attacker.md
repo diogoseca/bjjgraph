@@ -188,35 +188,32 @@ description: "How to execute Anaconda Choke in BJJ. Attacking perspective with s
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Anaconda choke finish",
-      "description": "Anaconda Choke from Anaconda Control (Attacker) film study: Anaconda choke finish, taught by Marcelo Garcia.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/DHYmDsncdS8/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/DHYmDsncdS8",
-      "url": "https://www.youtube.com/watch?v=DHYmDsncdS8",
-      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
-      "duration": "PT126S"
+      "name": "Anaconda Choke BJJ",
+      "description": "Anaconda Choke from Anaconda Control (Attacker) film study: Anaconda Choke BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/RbkOnRb2lvA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/RbkOnRb2lvA",
+      "url": "https://www.youtube.com/watch?v=RbkOnRb2lvA",
+      "duration": "PT48S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Anaconda choke",
-      "description": "Anaconda Choke from Anaconda Control (Attacker) film study: Anaconda choke, taught by Ninja Pinto.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/RbkOnRb2lvA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/RbkOnRb2lvA",
-      "url": "https://www.youtube.com/watch?v=RbkOnRb2lvA",
-      "creator": { "@type": "Person", "name": "Ninja Pinto" },
-      "duration": "PT49S"
+      "name": "How to do an Anaconda Choke - 10th Planet Jiu Jitsu Decatur",
+      "description": "Anaconda Choke from Anaconda Control (Attacker) film study: How to do an Anaconda Choke - 10th Planet Jiu Jitsu Decatur.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/EbhWFWp-B6s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/EbhWFWp-B6s",
+      "url": "https://www.youtube.com/watch?v=EbhWFWp-B6s",
+      "duration": "PT81S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "Fix your anaconda chokes",
-      "description": "Anaconda Choke from Anaconda Control (Attacker) film study: Fix your anaconda chokes, taught by Lycan.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/1e2GPOUYR-o/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/1e2GPOUYR-o",
-      "url": "https://www.youtube.com/watch?v=1e2GPOUYR-o",
-      "creator": { "@type": "Person", "name": "Lycan" },
-      "duration": "PT41S"
+      "name": "Marcelo Garcia anaconda choke finish",
+      "description": "Anaconda Choke from Anaconda Control (Attacker) film study: Marcelo Garcia anaconda choke finish.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DHYmDsncdS8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DHYmDsncdS8",
+      "url": "https://www.youtube.com/watch?v=DHYmDsncdS8",
+      "duration": "PT126S"
     }
   ]
 }
@@ -247,25 +244,25 @@ The submission's effectiveness comes from the combined pressure of the choking a
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=DHYmDsncdS8)
-
-<p class="clip-credit"><strong>Anaconda choke finish</strong> — taught by Marcelo Garcia · 2:06 · <a href="https://www.youtube.com/watch?v=DHYmDsncdS8" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=RbkOnRb2lvA)
 
-<p class="clip-credit"><strong>Anaconda choke</strong> — taught by Ninja Pinto · 0:49 · <a href="https://www.youtube.com/watch?v=RbkOnRb2lvA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Anaconda Choke BJJ</strong> · 0:48 · <a href="https://www.youtube.com/watch?v=RbkOnRb2lvA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=1e2GPOUYR-o)
+![](https://www.youtube.com/watch?v=EbhWFWp-B6s)
 
-<p class="clip-credit"><strong>Fix your anaconda chokes</strong> — taught by Lycan · 0:41 · <a href="https://www.youtube.com/watch?v=1e2GPOUYR-o" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How to do an Anaconda Choke - 10th Planet Jiu Jitsu Decatur</strong> · 1:21 · <a href="https://www.youtube.com/watch?v=EbhWFWp-B6s" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=DHYmDsncdS8)
+
+<p class="clip-credit"><strong>Marcelo Garcia anaconda choke finish</strong> · 2:06 · <a href="https://www.youtube.com/watch?v=DHYmDsncdS8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

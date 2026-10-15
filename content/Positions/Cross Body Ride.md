@@ -36,39 +36,6 @@ description: "Master Cross Body Ride position in BJJ. Advanced back attack contr
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Cross Body Ride \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Back-taking concepts from turtle",
-      "description": "Cross Body Ride film study: Back-taking concepts from turtle, taught by Chase Namba.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/-OJPjHh2F7A/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/-OJPjHh2F7A",
-      "url": "https://www.youtube.com/watch?v=-OJPjHh2F7A",
-      "creator": { "@type": "Person", "name": "Chase Namba" },
-      "duration": "PT245S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Peel back: leg riding from the sit-out",
-      "description": "Cross Body Ride film study: Peel back: leg riding from the sit-out, taught by WrestlingTournaments.com.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/P47fz4EuVWQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/P47fz4EuVWQ",
-      "url": "https://www.youtube.com/watch?v=P47fz4EuVWQ",
-      "creator": { "@type": "Person", "name": "WrestlingTournaments.com" },
-      "duration": "PT103S"
-    }
-  ]
-}
-</script>
-
 
 
 <script type="application/ld+json">
@@ -106,32 +73,6 @@ From a systematic perspective, Cross Body Ride functions as a forcing position w
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Cross Body Ride in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=-OJPjHh2F7A)
-
-<p class="clip-credit"><strong>Back-taking concepts from turtle</strong> — taught by Chase Namba · 4:05 · <a href="https://www.youtube.com/watch?v=-OJPjHh2F7A" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=P47fz4EuVWQ)
-
-<p class="clip-credit"><strong>Peel back: leg riding from the sit-out</strong> — taught by WrestlingTournaments.com · 1:43 · <a href="https://www.youtube.com/watch?v=P47fz4EuVWQ" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="key-principles" class="content-section">

@@ -441,26 +441,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "M-xjYAPgKVU",
-        "title": "Kimura and armbar from side control",
-        "by": "BJJ Recap",
-        "vertical": false,
-        "channel": "BJJ Recap",
-        "duration": 51,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "MIPeuSLIaKQ",
-        "title": "North-south kimura grip to armbar",
-        "by": "Raven Jiu Jitsu",
-        "vertical": false,
-        "channel": "Raven Jiu Jitsu",
-        "duration": 214,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "from Armbar Control Defender",
@@ -634,25 +615,6 @@
         "description": "Start in armbar control bottom. Attacker uses full armbar-to-kimura chain at competition intensity. Defender applies complete defensive repertoire including prevention, escape, and tap awareness. Track escape rate and time to escape for measurable improvement over training sessions."
       }
     ],
-    "clips": [
-      {
-        "id": "TuaopPUakM8",
-        "title": "Defending the kimura",
-        "by": "Eddie Kone",
-        "vertical": false,
-        "channel": "Eddie Kone Academy Of Jiu-Jitsu",
-        "duration": 61,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "gvRGrvtKd1U",
-        "title": "Kimura defense",
-        "by": "Jon Satava",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 142,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   }
 }

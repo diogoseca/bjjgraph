@@ -165,24 +165,12 @@ description: "Master Crab Ride Top attacks in BJJ. Complete guide covering back 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "DLR to crab ride back take",
-      "description": "Crab Ride (Top) film study: DLR to crab ride back take, taught by Moncaio Brothers.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Y6fBPjHzfv4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Y6fBPjHzfv4",
-      "url": "https://www.youtube.com/watch?v=Y6fBPjHzfv4",
-      "creator": { "@type": "Person", "name": "Moncaio Brothers" },
-      "duration": "PT28S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Leg drag to crab ride back attack",
-      "description": "Crab Ride (Top) film study: Leg drag to crab ride back attack, taught by Factory Fresh Jiu Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/oxkUTA1yf-o/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/oxkUTA1yf-o",
-      "url": "https://www.youtube.com/watch?v=oxkUTA1yf-o",
-      "creator": { "@type": "Person", "name": "Factory Fresh Jiu Jitsu" },
-      "duration": "PT24S"
+      "name": "Crab Ride-  Claw Ride Set Up",
+      "description": "Crab Ride (Top) film study: Crab Ride-  Claw Ride Set Up.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/tsxvdEE_qCY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/tsxvdEE_qCY",
+      "url": "https://www.youtube.com/watch?v=tsxvdEE_qCY",
+      "duration": "PT86S"
     }
   ]
 }
@@ -216,17 +204,9 @@ Crab Ride Top is particularly valued in modern no-gi grappling and MMA contexts,
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=Y6fBPjHzfv4)
+![](https://www.youtube.com/watch?v=tsxvdEE_qCY)
 
-<p class="clip-credit"><strong>DLR to crab ride back take</strong> — taught by Moncaio Brothers · 0:28 · <a href="https://www.youtube.com/watch?v=Y6fBPjHzfv4" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=oxkUTA1yf-o)
-
-<p class="clip-credit"><strong>Leg drag to crab ride back attack</strong> — taught by Factory Fresh Jiu Jitsu · 0:24 · <a href="https://www.youtube.com/watch?v=oxkUTA1yf-o" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Crab Ride-  Claw Ride Set Up</strong> · 1:26 · <a href="https://www.youtube.com/watch?v=tsxvdEE_qCY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

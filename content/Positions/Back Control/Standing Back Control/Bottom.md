@@ -165,24 +165,12 @@ description: "Master defensive strategies for standing back control bottom posit
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Standing Up from Back Control",
-      "description": "Standing Back Control (Bottom) film study: Standing Up from Back Control, taught by Priit Mihkelson.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/_sBB-O8fqP4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/_sBB-O8fqP4",
-      "url": "https://www.youtube.com/watch?v=_sBB-O8fqP4",
-      "creator": { "@type": "Person", "name": "Priit Mihkelson" },
-      "duration": "PT114S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Escape the Back into Attack",
-      "description": "Standing Back Control (Bottom) film study: Escape the Back into Attack, taught by JW Wright.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/sPM2i6b5Ufw/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/sPM2i6b5Ufw",
-      "url": "https://www.youtube.com/watch?v=sPM2i6b5Ufw",
-      "creator": { "@type": "Person", "name": "JW Wright" },
-      "duration": "PT196S"
+      "name": "Standing Rear Body Lock: Counters, Attacks and Defense (No Gi\u2026",
+      "description": "Standing Back Control (Bottom) film study: Standing Rear Body Lock: Counters, Attacks and Defense (No Gi\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DFXdqByRxNg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DFXdqByRxNg",
+      "url": "https://www.youtube.com/watch?v=DFXdqByRxNg",
+      "duration": "PT318S"
     }
   ]
 }
@@ -212,17 +200,9 @@ Success in this position relies on understanding the mechanical principles of ba
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=_sBB-O8fqP4)
+![](https://www.youtube.com/watch?v=DFXdqByRxNg)
 
-<p class="clip-credit"><strong>Standing Up from Back Control</strong> — taught by Priit Mihkelson · 1:54 · <a href="https://www.youtube.com/watch?v=_sBB-O8fqP4" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=sPM2i6b5Ufw)
-
-<p class="clip-credit"><strong>Escape the Back into Attack</strong> — taught by JW Wright · 3:16 · <a href="https://www.youtube.com/watch?v=sPM2i6b5Ufw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Standing Rear Body Lock: Counters, Attacks and Defense (No Gi…</strong> · 5:18 · <a href="https://www.youtube.com/watch?v=DFXdqByRxNg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

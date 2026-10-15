@@ -621,29 +621,17 @@
       {
         "id": "0Iv9WUpKb4E",
         "title": "Side Control to Von Flue Choke",
-        "by": "Fenrir Thorvaldsen",
-        "vertical": false,
         "channel": "Fenrir Thorvaldsen",
         "duration": 88,
-        "verified": "2026-07-14"
+        "vertical": false,
+        "front": true
       },
       {
         "id": "ExQHrRPcvLM",
-        "title": "The Von Flue Choke",
-        "by": "Coach Brian",
-        "vertical": false,
+        "title": "TMG Clips #24 - The Von Flue Choke",
         "channel": "TeachMeGrappling Coach Brian",
         "duration": 88,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "xpWNlOoalKs",
-        "title": "Von Flue Pressure Choke",
-        "by": "Stafford MMA",
-        "vertical": false,
-        "channel": "Stafford MMA",
-        "duration": 119,
-        "verified": "2026-07-14"
+        "vertical": false
       }
     ]
   },
@@ -902,22 +890,17 @@
     ],
     "clips": [
       {
-        "id": "4eVRpNHz4cc",
-        "title": "Escaping the Von Flue choke",
-        "by": "Grappling Mastery coach",
-        "vertical": false,
-        "channel": "Grappling Mastery: BJJ & Muay Thai Academy",
-        "duration": 37,
-        "verified": "2026-07-16"
+        "id": "sVTvrJqnXww",
+        "title": "TMG Clips #197 - Learn To Defend The Von Flue Choke!",
+        "channel": "TeachMeGrappling Coach Brian",
+        "duration": 158,
+        "front": true
       },
       {
-        "id": "GmGrD1Zltw0",
-        "title": "Guillotine grip release vs Von Flue",
-        "by": "Haven BJJ coach",
-        "vertical": false,
-        "channel": "Haven BJJ",
-        "duration": 143,
-        "verified": "2026-07-16"
+        "id": "xYDGYbZXvw0",
+        "title": "Von Flue Defense (Huge Update to the System)",
+        "channel": "Elevate MMA Academy",
+        "duration": 175
       }
     ]
   },

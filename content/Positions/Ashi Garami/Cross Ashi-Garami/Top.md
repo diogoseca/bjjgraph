@@ -165,35 +165,22 @@ description: "Master Cross Ashi-Garami from top position. Outside leg entangleme
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Cross Ashi Belly-Down Heel Hook",
-      "description": "Cross Ashi-Garami (Top) film study: Cross Ashi Belly-Down Heel Hook, taught by Bowerhouse MMA.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/h_SRARh0B6U/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/h_SRARh0B6U",
-      "url": "https://www.youtube.com/watch?v=h_SRARh0B6U",
-      "creator": { "@type": "Person", "name": "Bowerhouse MMA" },
-      "duration": "PT68S"
+      "name": "Intro to Saddle | 411 | Honey Hole | Inside Sankaku",
+      "description": "Cross Ashi-Garami (Top) film study: Intro to Saddle | 411 | Honey Hole | Inside Sankaku.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/RbuQjr3-F2I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/RbuQjr3-F2I",
+      "url": "https://www.youtube.com/watch?v=RbuQjr3-F2I",
+      "duration": "PT290S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Cross Ashi Garami vs the Counter",
-      "description": "Cross Ashi-Garami (Top) film study: Cross Ashi Garami vs the Counter, taught by Raymond Tan.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/EzS4k5JXLRY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/EzS4k5JXLRY",
-      "url": "https://www.youtube.com/watch?v=EzS4k5JXLRY",
-      "creator": { "@type": "Person", "name": "Raymond Tan" },
-      "duration": "PT116S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Ashi Garami and Heel Hook",
-      "description": "Cross Ashi-Garami (Top) film study: Ashi Garami and Heel Hook, taught by The Coop BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/pRqoNs4K7cI/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/pRqoNs4K7cI",
-      "url": "https://www.youtube.com/watch?v=pRqoNs4K7cI",
-      "creator": { "@type": "Person", "name": "The Coop BJJ" },
-      "duration": "PT83S"
+      "name": "How to go from X-Guard to Saddle (cross ashi)",
+      "description": "Cross Ashi-Garami (Top) film study: How to go from X-Guard to Saddle (cross ashi).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/HVc2CKdAfN0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/HVc2CKdAfN0",
+      "url": "https://www.youtube.com/watch?v=HVc2CKdAfN0",
+      "duration": "PT120S"
     }
   ]
 }
@@ -223,25 +210,17 @@ This position is fundamental to modern leg lock systems and serves as both a pow
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=h_SRARh0B6U)
+![](https://www.youtube.com/watch?v=RbuQjr3-F2I)
 
-<p class="clip-credit"><strong>Cross Ashi Belly-Down Heel Hook</strong> — taught by Bowerhouse MMA · 1:08 · <a href="https://www.youtube.com/watch?v=h_SRARh0B6U" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=EzS4k5JXLRY)
-
-<p class="clip-credit"><strong>Cross Ashi Garami vs the Counter</strong> — taught by Raymond Tan · 1:56 · <a href="https://www.youtube.com/watch?v=EzS4k5JXLRY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Intro to Saddle | 411 | Honey Hole | Inside Sankaku</strong> · 4:50 · <a href="https://www.youtube.com/watch?v=RbuQjr3-F2I" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=pRqoNs4K7cI)
+![](https://www.youtube.com/watch?v=HVc2CKdAfN0)
 
-<p class="clip-credit"><strong>Ashi Garami and Heel Hook</strong> — taught by The Coop BJJ · 1:23 · <a href="https://www.youtube.com/watch?v=pRqoNs4K7cI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How to go from X-Guard to Saddle (cross ashi)</strong> · 2:00 · <a href="https://www.youtube.com/watch?v=HVc2CKdAfN0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

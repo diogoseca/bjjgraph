@@ -401,35 +401,7 @@
       }
     ],
     "safety_considerations": "When training Ouchi Gari, controlled execution is paramount to prevent injury to both partners. The person being thrown should practice proper ukemi (breakfall techniques) before drilling this technique extensively, as improper landing can result in head injury or impact trauma. Start all drilling at slow speed with cooperative partners and gradually increase intensity only as both partners become comfortable with the mechanics. The thrower must be prepared to support their partner's weight and control the descent to the mat, especially during initial learning phases. In live training, be mindful of the training surface—always practice takedowns on proper grappling mats, never on hard surfaces. When defending against Ouchi Gari, avoid posting with a straight arm to break your fall, as this can lead to shoulder, elbow, or wrist injury; instead, use proper breakfall techniques. Communication between training partners is essential, particularly when one partner is learning or when fatigue sets in. Both practitioners should agree on the intensity level before each round and should not hesitate to tap or verbally signal if they feel unsafe during the technique's execution or landing.",
-    "clips": [
-      {
-        "id": "XdOuXj1H0ok",
-        "title": "Misdirection Ouchi Gari setup",
-        "by": "Shintaro Higashi",
-        "vertical": false,
-        "channel": "Shintaro Higashi",
-        "duration": 99,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "7GwpZmQOJqU",
-        "title": "Circular Ouchi Gari breakdown",
-        "by": "Matt D'Aquino",
-        "vertical": false,
-        "channel": "JudoFanatics",
-        "duration": 90,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "cd7Qv244XEA",
-        "title": "Parlati's drop Ouchi Gari",
-        "by": "JudoCrazy",
-        "vertical": false,
-        "channel": "JudoCrazy",
-        "duration": 32,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Ouchi Gari Defender",
@@ -609,30 +581,18 @@
     "clips": [
       {
         "id": "hVv4saQm5Do",
-        "title": "Ouchi Gari counter with Uki Waza / Yoko Otoshi",
-        "by": "emultia",
-        "vertical": false,
+        "title": "Ouchi Gari counter with Uki Waza/Yoko Otoshi",
         "channel": "emultia",
         "duration": 21,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "lyGzPirYRxM",
-        "title": "Countering Ouchi Gari with Tai Otoshi",
-        "by": "Judo PSG Club Australia",
         "vertical": false,
-        "channel": " Judo PSG Club Australia ",
-        "duration": 13,
-        "verified": "2026-07-15"
+        "front": true
       },
       {
         "id": "qEV8CKGqwWE",
-        "title": "Counter to Ouchi Gari",
-        "by": "Grappling University",
-        "vertical": false,
+        "title": "Counter To Ouchi Gari | Grappling University",
         "channel": "Grappling University",
         "duration": 186,
-        "verified": "2026-07-15"
+        "vertical": false
       }
     ]
   },

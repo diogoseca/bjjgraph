@@ -648,26 +648,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "9BHfe_ar48Q",
-        "title": "Flying Armbar Using an Ese",
-        "by": "CholoMMA",
-        "vertical": false,
-        "channel": "CholoMMA",
-        "duration": 19,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "3-vgPXKmuS0",
-        "title": "Flying Overhook Armbar",
-        "by": "Mica Galvao",
-        "vertical": false,
-        "channel": "Jiu Jitsu Moves",
-        "duration": 14,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Flying Armbar Defender",
@@ -935,35 +916,7 @@
         "description": "Positional sparring where partner attempts flying armbars at 60-80% intensity while you implement the complete defensive sequence: grip denial, sprawl/stack reactions, and post-landing escapes. Begin with partner announcing their intention, then progress to unannounced attempts. This phase develops the pattern recognition and automatic defensive responses needed for competition and live rolling scenarios."
       }
     ],
-    "clips": [
-      {
-        "id": "kNdKfUdgO4I",
-        "title": "Favorite Armbar Escape",
-        "by": "Matt Arroyo",
-        "vertical": false,
-        "channel": "Matt Arroyo Jiu Jitsu ",
-        "duration": 92,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "L2q__Z6hogQ",
-        "title": "How to defeat a juji-gatame armbar",
-        "by": "Travis Stevens",
-        "vertical": false,
-        "channel": "JudoFanatics",
-        "duration": 241,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "CDpv10qYFLo",
-        "title": "Armbar defense fundamentals",
-        "by": "Gordon Ryan",
-        "vertical": false,
-        "channel": "Gordon Ryan",
-        "duration": 274,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "variations_and_setups": [
     {

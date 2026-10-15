@@ -46,24 +46,22 @@ description: "Master the S Mount Armbar Setup in BJJ. Complete guide to transiti
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Switch-side armbar from S-mount",
-      "description": "S Mount Armbar Setup film study: Switch-side armbar from S-mount, taught by Darrin Lillian.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/5UtNLw7usQk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/5UtNLw7usQk",
-      "url": "https://www.youtube.com/watch?v=5UtNLw7usQk",
-      "creator": { "@type": "Person", "name": "Darrin Lillian" },
-      "duration": "PT50S"
+      "name": "S-Mount Armbar, Kimura, + Far side Armbar",
+      "description": "S Mount Armbar Setup film study: S-Mount Armbar, Kimura, + Far side Armbar.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/nH4ly3vk7WI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/nH4ly3vk7WI",
+      "url": "https://www.youtube.com/watch?v=nH4ly3vk7WI",
+      "duration": "PT24S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "S-mount armbar, kimura and far-side armbar",
-      "description": "S Mount Armbar Setup film study: S-mount armbar, kimura and far-side armbar, taught by GB Costa Mesa coach.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/nH4ly3vk7WI/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/nH4ly3vk7WI",
-      "url": "https://www.youtube.com/watch?v=nH4ly3vk7WI",
-      "creator": { "@type": "Person", "name": "GB Costa Mesa coach" },
-      "duration": "PT24S"
+      "name": "Technique of the week - switch side armbar from S mount",
+      "description": "S Mount Armbar Setup film study: Technique of the week - switch side armbar from S mount.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5UtNLw7usQk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5UtNLw7usQk",
+      "url": "https://www.youtube.com/watch?v=5UtNLw7usQk",
+      "duration": "PT50S"
     }
   ]
 }
@@ -117,17 +115,17 @@ The critical decision in executing this setup is timing: commit too early before
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=5UtNLw7usQk)
+![](https://www.youtube.com/watch?v=nH4ly3vk7WI)
 
-<p class="clip-credit"><strong>Switch-side armbar from S-mount</strong> — taught by Darrin Lillian · 0:50 · <a href="https://www.youtube.com/watch?v=5UtNLw7usQk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>S-Mount Armbar, Kimura, + Far side Armbar</strong> · 0:24 · <a href="https://www.youtube.com/watch?v=nH4ly3vk7WI" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=nH4ly3vk7WI)
+![](https://www.youtube.com/watch?v=5UtNLw7usQk)
 
-<p class="clip-credit"><strong>S-mount armbar, kimura and far-side armbar</strong> — taught by GB Costa Mesa coach · 0:24 · <a href="https://www.youtube.com/watch?v=nH4ly3vk7WI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Technique of the week - switch side armbar from S mount</strong> · 0:50 · <a href="https://www.youtube.com/watch?v=5UtNLw7usQk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

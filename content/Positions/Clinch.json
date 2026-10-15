@@ -532,31 +532,11 @@
     ],
     "clips": [
       {
-        "id": "4C0kv9zfvjQ",
-        "title": "Two high percentage takedowns",
-        "by": "Chad Lyman",
-        "vertical": false,
-        "channel": "Code 4 Concepts Chad Lyman",
-        "duration": 75,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "f6o0MecKxOU",
-        "title": "The Dagestani drag",
-        "by": "Wrestling University",
-        "vertical": false,
-        "channel": "Wrestling University - Takedowns for Jiu Jitsu",
-        "duration": 84,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "O0340yiXx_8",
-        "title": "Over under clinch takedown (no-gi)",
-        "by": "Training Jiu Jitsu",
-        "vertical": false,
-        "channel": "Training Jiu Jitsu",
-        "duration": 24,
-        "verified": "2026-07-14"
+        "id": "WU31d086kQc",
+        "title": "Grappling Basics - Pummeling",
+        "channel": "Comet MMA",
+        "duration": 86,
+        "front": true
       }
     ]
   },
@@ -983,22 +963,11 @@
     ],
     "clips": [
       {
-        "id": "jTk5AaZd1Rc",
-        "title": "Break any collar grip with technique",
-        "by": "Travis Stevens",
-        "vertical": false,
-        "channel": "Travis Stevens",
-        "duration": 113,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "KBcwWBEdCUQ",
-        "title": "Grip break when opponent stiff-arms",
-        "by": "Kathy Hubble",
-        "vertical": false,
-        "channel": "Kathy Hubble",
-        "duration": 107,
-        "verified": "2026-07-14"
+        "id": "WU31d086kQc",
+        "title": "Grappling Basics - Pummeling",
+        "channel": "Comet MMA",
+        "duration": 86,
+        "front": true
       }
     ]
   },
@@ -1116,33 +1085,5 @@
       }
     }
   ],
-  "clips": [
-    {
-      "id": "KFhiz7dcEkM",
-      "title": "5 basic judo throws everyone should know",
-      "by": "Shintaro Higashi",
-      "vertical": false,
-      "channel": "Shintaro Higashi",
-      "duration": 160,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "FWocYMtjDgI",
-      "title": "First 3 judo throws to learn for BJJ",
-      "by": "Shintaro Higashi",
-      "vertical": false,
-      "channel": "Shintaro Higashi",
-      "duration": 216,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "BRuZgVW3SGQ",
-      "title": "3 massive no-gi judo throws",
-      "by": "Shintaro Higashi",
-      "vertical": false,
-      "channel": "Shintaro Higashi",
-      "duration": 135,
-      "verified": "2026-07-14"
-    }
-  ]
+  "clips": []
 }

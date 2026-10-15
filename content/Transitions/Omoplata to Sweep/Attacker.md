@@ -186,35 +186,32 @@ description: "How to execute Omoplata to Sweep in BJJ. Attacking perspective wit
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Omoplata sweep demonstration",
-      "description": "Omoplata to Sweep (Attacker) film study: Omoplata sweep demonstration, taught by Thunderdome BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Ar2oa-jV9-Y/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Ar2oa-jV9-Y",
-      "url": "https://www.youtube.com/watch?v=Ar2oa-jV9-Y",
-      "creator": { "@type": "Person", "name": "Thunderdome BJJ" },
-      "duration": "PT50S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
       "name": "Omoplata sweep variations",
-      "description": "Omoplata to Sweep (Attacker) film study: Omoplata sweep variations, taught by Gracie Barra Newcastle City.",
+      "description": "Omoplata to Sweep (Attacker) film study: Omoplata sweep variations.",
       "thumbnailUrl": "https://i.ytimg.com/vi/VFW27i7jHmI/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/VFW27i7jHmI",
       "url": "https://www.youtube.com/watch?v=VFW27i7jHmI",
-      "creator": { "@type": "Person", "name": "Gracie Barra Newcastle City" },
       "duration": "PT44S"
     },
     {
       "@type": "VideoObject",
+      "position": 2,
+      "name": "Omoplata Sweep",
+      "description": "Omoplata to Sweep (Attacker) film study: Omoplata Sweep.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Ar2oa-jV9-Y/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Ar2oa-jV9-Y",
+      "url": "https://www.youtube.com/watch?v=Ar2oa-jV9-Y",
+      "duration": "PT50S"
+    },
+    {
+      "@type": "VideoObject",
       "position": 3,
-      "name": "Omoplata sweep vs standing opponent",
-      "description": "Omoplata to Sweep (Attacker) film study: Omoplata sweep vs standing opponent, taught by Paramount Brazilian Jiu-Jitsu.",
+      "name": "Omoplata Sweep vs Standing Opponent | BJJ in Chester County PA",
+      "description": "Omoplata to Sweep (Attacker) film study: Omoplata Sweep vs Standing Opponent | BJJ in Chester County PA.",
       "thumbnailUrl": "https://i.ytimg.com/vi/IYbdBR0ilb4/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/IYbdBR0ilb4",
       "url": "https://www.youtube.com/watch?v=IYbdBR0ilb4",
-      "creator": { "@type": "Person", "name": "Paramount Brazilian Jiu-Jitsu" },
-      "duration": "PT58S"
+      "duration": "PT57S"
     }
   ]
 }
@@ -242,17 +239,17 @@ The Omoplata to Sweep is a high-percentage transition that converts your opponen
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=Ar2oa-jV9-Y)
+![](https://www.youtube.com/watch?v=VFW27i7jHmI)
 
-<p class="clip-credit"><strong>Omoplata sweep demonstration</strong> — taught by Thunderdome BJJ · 0:50 · <a href="https://www.youtube.com/watch?v=Ar2oa-jV9-Y" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Omoplata sweep variations</strong> · 0:44 · <a href="https://www.youtube.com/watch?v=VFW27i7jHmI" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=VFW27i7jHmI)
+![](https://www.youtube.com/watch?v=Ar2oa-jV9-Y)
 
-<p class="clip-credit"><strong>Omoplata sweep variations</strong> — taught by Gracie Barra Newcastle City · 0:44 · <a href="https://www.youtube.com/watch?v=VFW27i7jHmI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Omoplata Sweep</strong> · 0:50 · <a href="https://www.youtube.com/watch?v=Ar2oa-jV9-Y" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -260,7 +257,7 @@ The Omoplata to Sweep is a high-percentage transition that converts your opponen
 
 ![](https://www.youtube.com/watch?v=IYbdBR0ilb4)
 
-<p class="clip-credit"><strong>Omoplata sweep vs standing opponent</strong> — taught by Paramount Brazilian Jiu-Jitsu · 0:58 · <a href="https://www.youtube.com/watch?v=IYbdBR0ilb4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Omoplata Sweep vs Standing Opponent | BJJ in Chester County PA</strong> · 0:57 · <a href="https://www.youtube.com/watch?v=IYbdBR0ilb4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

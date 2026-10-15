@@ -46,35 +46,12 @@ description: "Master the Banana Split compression submission from the truck in B
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Banana Split",
-      "description": "Banana Split from Truck film study: Banana Split, taught by Bowerhouse MMA.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/OUDbEh7cr4k/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/OUDbEh7cr4k",
-      "url": "https://www.youtube.com/watch?v=OUDbEh7cr4k",
-      "creator": { "@type": "Person", "name": "Bowerhouse MMA" },
-      "duration": "PT57S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "The Truck In Transition",
-      "description": "Banana Split from Truck film study: The Truck In Transition, taught by Eddie Bravo.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/sCBGkcJCQYY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/sCBGkcJCQYY",
-      "url": "https://www.youtube.com/watch?v=sCBGkcJCQYY",
-      "creator": { "@type": "Person", "name": "Eddie Bravo" },
-      "duration": "PT61S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Turtle attacks: calf slicer to banana split",
-      "description": "Banana Split from Truck film study: Turtle attacks: calf slicer to banana split, taught by Renzo Gracie Holland.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/W6rQi-vPhsw/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/W6rQi-vPhsw",
-      "url": "https://www.youtube.com/watch?v=W6rQi-vPhsw",
-      "creator": { "@type": "Person", "name": "Renzo Gracie Holland" },
-      "duration": "PT61S"
+      "name": "Banana split from the truck - Learn to Grapple",
+      "description": "Banana Split from Truck film study: Banana split from the truck - Learn to Grapple.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/AKmsVbDMo6o/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/AKmsVbDMo6o",
+      "url": "https://www.youtube.com/watch?v=AKmsVbDMo6o",
+      "duration": "PT120S"
     }
   ]
 }
@@ -137,25 +114,9 @@ The Banana Split integrates naturally into the truck attacking system alongside 
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=OUDbEh7cr4k)
+![](https://www.youtube.com/watch?v=AKmsVbDMo6o)
 
-<p class="clip-credit"><strong>Banana Split</strong> — taught by Bowerhouse MMA · 0:57 · <a href="https://www.youtube.com/watch?v=OUDbEh7cr4k" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=sCBGkcJCQYY)
-
-<p class="clip-credit"><strong>The Truck In Transition</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=sCBGkcJCQYY" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=W6rQi-vPhsw)
-
-<p class="clip-credit"><strong>Turtle attacks: calf slicer to banana split</strong> — taught by Renzo Gracie Holland · 1:01 · <a href="https://www.youtube.com/watch?v=W6rQi-vPhsw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Banana split from the truck - Learn to Grapple</strong> · 2:00 · <a href="https://www.youtube.com/watch?v=AKmsVbDMo6o" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

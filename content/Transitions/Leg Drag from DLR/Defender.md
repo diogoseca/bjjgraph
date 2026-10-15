@@ -152,35 +152,12 @@ description: "Defend the leg drag from De La Riva Guard. Recognition cues, timin
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Guard retention against the leg drag",
-      "description": "Leg Drag from DLR (Defender) film study: Guard retention against the leg drag, taught by Brandon Quick.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/fFqoFDE2yyw/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/fFqoFDE2yyw",
-      "url": "https://www.youtube.com/watch?v=fFqoFDE2yyw",
-      "creator": { "@type": "Person", "name": "Brandon Quick" },
-      "duration": "PT90S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Matrix defense against the leg drag",
-      "description": "Leg Drag from DLR (Defender) film study: Matrix defense against the leg drag, taught by BJJ Lab Zurich.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/QCEdvqfWZMI/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/QCEdvqfWZMI",
-      "url": "https://www.youtube.com/watch?v=QCEdvqfWZMI",
-      "creator": { "@type": "Person", "name": "BJJ Lab Zurich" },
-      "duration": "PT96S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Guard retention: when to sit up and escape",
-      "description": "Leg Drag from DLR (Defender) film study: Guard retention: when to sit up and escape, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/lVLAROiSjNU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/lVLAROiSjNU",
-      "url": "https://www.youtube.com/watch?v=lVLAROiSjNU",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT136S"
+      "name": "LEANDRO Lo -  Leg drag defense with technical stand up",
+      "description": "Leg Drag from DLR (Defender) film study: LEANDRO Lo -  Leg drag defense with technical stand up.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fO9mvIlh4Yw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fO9mvIlh4Yw",
+      "url": "https://www.youtube.com/watch?v=fO9mvIlh4Yw",
+      "duration": "PT200S"
     }
   ]
 }
@@ -208,25 +185,9 @@ Defending the leg drag from DLR requires early recognition and proactive prevent
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=fFqoFDE2yyw)
+![](https://www.youtube.com/watch?v=fO9mvIlh4Yw)
 
-<p class="clip-credit"><strong>Guard retention against the leg drag</strong> — taught by Brandon Quick · 1:30 · <a href="https://www.youtube.com/watch?v=fFqoFDE2yyw" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=QCEdvqfWZMI)
-
-<p class="clip-credit"><strong>Matrix defense against the leg drag</strong> — taught by BJJ Lab Zurich · 1:36 · <a href="https://www.youtube.com/watch?v=QCEdvqfWZMI" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=lVLAROiSjNU)
-
-<p class="clip-credit"><strong>Guard retention: when to sit up and escape</strong> — taught by Lachlan Giles · 2:16 · <a href="https://www.youtube.com/watch?v=lVLAROiSjNU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>LEANDRO Lo -  Leg drag defense with technical stand up</strong> · 3:20 · <a href="https://www.youtube.com/watch?v=fO9mvIlh4Yw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

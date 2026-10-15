@@ -366,35 +366,7 @@
       }
     ],
     "safety_considerations": "The kneebar to 50-50 transition involves leg entanglement near the knee joint. During training, execute the transition with controlled speed to prevent accidental knee torque during leg threading. Communicate with your partner before drilling, especially when threading legs around their knee. Be aware that 50-50 position opens heel hook opportunities that can damage the knee if applied suddenly. Always maintain awareness of both practitioners' knee alignment throughout the transition sequence and release immediately upon tap.",
-    "clips": [
-      {
-        "id": "DBbSqQf6iCo",
-        "title": "Roll under to backside 50/50",
-        "by": "Lachlan Giles",
-        "vertical": false,
-        "channel": "BJJ focus camps",
-        "duration": 110,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "-5BXaxHLsyo",
-        "title": "Spinning kneebar from 50/50",
-        "by": "Andrew Smith",
-        "vertical": false,
-        "channel": "Revolution BJJ",
-        "duration": 97,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "ucAwPgTLSpQ",
-        "title": "Getting to backside 50/50",
-        "by": "Lachlan Giles",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 121,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Kneebar to 50-50 Transition Defender",
@@ -562,25 +534,6 @@
         "description": "Start with partner completing the transition to 50-50. Practice inside position fighting, heel protection, and position reversal from bottom 50-50. Develop the ability to transition from failed prevention directly into 50-50 defensive protocol without mental reset or panic."
       }
     ],
-    "clips": [
-      {
-        "id": "uZbUhFapIhg",
-        "title": "Leglock defense from 50/50",
-        "by": "Craig Jones",
-        "vertical": false,
-        "channel": "BJJ focus camps",
-        "duration": 163,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "4V3sDIXGfJs",
-        "title": "50/50 counter to taking the back",
-        "by": "Thunderdome BJJ coach",
-        "vertical": false,
-        "channel": "Thunderdome BJJ",
-        "duration": 24,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

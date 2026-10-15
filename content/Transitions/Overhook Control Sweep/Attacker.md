@@ -192,35 +192,12 @@ description: "Master executing the Overhook Control Sweep from bottom position. 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Overhook Sweep from Butterfly Guard",
-      "description": "Overhook Control Sweep (Attacker) film study: Overhook Sweep from Butterfly Guard, taught by Satori BJJ.",
+      "name": "Overhook Sweep | Butterfly Guard",
+      "description": "Overhook Control Sweep (Attacker) film study: Overhook Sweep | Butterfly Guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/2hc9sl1hEkE/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/2hc9sl1hEkE",
       "url": "https://www.youtube.com/watch?v=2hc9sl1hEkE",
-      "creator": { "@type": "Person", "name": "Satori BJJ" },
-      "duration": "PT36S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Leg Assisted Overhook Sweep from Butterfly Guard",
-      "description": "Overhook Control Sweep (Attacker) film study: Leg Assisted Overhook Sweep from Butterfly Guard, taught by Jean Jacques Machado.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/vIa1iE-WJpo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/vIa1iE-WJpo",
-      "url": "https://www.youtube.com/watch?v=vIa1iE-WJpo",
-      "creator": { "@type": "Person", "name": "Jean Jacques Machado" },
-      "duration": "PT79S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Butterfly Guard overhook sweep options",
-      "description": "Overhook Control Sweep (Attacker) film study: Butterfly Guard overhook sweep options, taught by Elevate MMA Academy.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/myygiNlQQK8/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/myygiNlQQK8",
-      "url": "https://www.youtube.com/watch?v=myygiNlQQK8",
-      "creator": { "@type": "Person", "name": "Elevate MMA Academy" },
-      "duration": "PT116S"
+      "duration": "PT35S"
     }
   ]
 }
@@ -250,23 +227,7 @@ Executing the Overhook Control Sweep requires precise coordination between your 
 
 ![](https://www.youtube.com/watch?v=2hc9sl1hEkE)
 
-<p class="clip-credit"><strong>Overhook Sweep from Butterfly Guard</strong> — taught by Satori BJJ · 0:36 · <a href="https://www.youtube.com/watch?v=2hc9sl1hEkE" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=vIa1iE-WJpo)
-
-<p class="clip-credit"><strong>Leg Assisted Overhook Sweep from Butterfly Guard</strong> — taught by Jean Jacques Machado · 1:19 · <a href="https://www.youtube.com/watch?v=vIa1iE-WJpo" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=myygiNlQQK8)
-
-<p class="clip-credit"><strong>Butterfly Guard overhook sweep options</strong> — taught by Elevate MMA Academy · 1:56 · <a href="https://www.youtube.com/watch?v=myygiNlQQK8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Overhook Sweep | Butterfly Guard</strong> · 0:35 · <a href="https://www.youtube.com/watch?v=2hc9sl1hEkE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

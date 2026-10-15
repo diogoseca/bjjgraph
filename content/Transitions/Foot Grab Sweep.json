@@ -401,30 +401,18 @@
     "clips": [
       {
         "id": "pF7jaKzHra0",
-        "title": "Ankle pick sweep from seated guard",
-        "by": "Fox Den Martial Arts",
-        "vertical": false,
+        "title": "Ankle pick from Seated Guard - Seated Wrestling Series 2",
         "channel": "Fox Den Martial Arts",
         "duration": 54,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "howeq420rME",
-        "title": "Tripod sweep from open guard",
-        "by": "Kenneth Tay",
         "vertical": false,
-        "channel": "Kenneth Tay",
-        "duration": 91,
-        "verified": "2026-07-15"
+        "front": true
       },
       {
         "id": "XJxo3E7brlk",
-        "title": "Sit up guard to ankle pick sweep",
-        "by": "Carpio Jiu Jitsu",
-        "vertical": false,
+        "title": "Sit Up Guard to Ankle Pick",
         "channel": "Carpio Jiu Jitsu",
-        "duration": 114,
-        "verified": "2026-07-15"
+        "duration": 113,
+        "vertical": false
       }
     ]
   },
@@ -608,35 +596,7 @@
         "description": "Full resistance sparring from standing over seated guard. Partner uses foot grab sweep as part of their complete game. Practice integrating sweep defense with your overall passing strategy. Track how often the sweep lands versus how often you successfully defend or counter-pass."
       }
     ],
-    "clips": [
-      {
-        "id": "2QWHX4NpMvs",
-        "title": "Ankle pick defense",
-        "by": "Kennelly Wrestling",
-        "vertical": false,
-        "channel": "Kennelly Wrestling Experience",
-        "duration": 23,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "EJr6xXsTiiM",
-        "title": "Ankle Sweep Defense",
-        "by": "Thomas Lisboa",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 208,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "IPwFGc4_9do",
-        "title": "Seated Ankle Grip Counter",
-        "by": "Artechoke Media",
-        "vertical": false,
-        "channel": "Artechoke Media",
-        "duration": 211,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "variants_and_adaptations": [
     {

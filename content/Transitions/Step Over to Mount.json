@@ -388,35 +388,7 @@
       }
     ],
     "safety_considerations": "The Step Over to Mount involves rapid weight transfer onto the bottom player's torso, which can cause rib compression or breathing difficulty if performed with excessive force during training. The bottom player's inverted position makes their neck vulnerable if the top player's weight drives their shoulders into the mat at an awkward angle. During drilling, the top player should control their descent speed and not slam into mount. The bottom player should tap or signal if they feel neck compression during the transition. When the bottom player attempts to catch legs for entanglements mid-step, both players should avoid explosive movements that could hyperextend the knee of the stepping leg. In live rolling, be aware that the step-over motion places your knee near the bottom player's face - control your movement to avoid accidental strikes.",
-    "clips": [
-      {
-        "id": "CkX_FzPFw8M",
-        "title": "Passing off the defensive roll",
-        "by": "Gordon Ryan",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 111,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "yPK7EmnEeug",
-        "title": "Open Guard Step Over Pass",
-        "by": "Luigi Mondelli",
-        "vertical": false,
-        "channel": "PitBlackBelt",
-        "duration": 164,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "NnJicKKBXds",
-        "title": "Step Around Pass",
-        "by": "Braulio Estima",
-        "vertical": false,
-        "channel": "JiuJitsuMag",
-        "duration": 90,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Step Over to Mount Defender",
@@ -608,35 +580,7 @@
         "description": "Partner uses the full three-option passing system of step over, back step, and leg drag against your grasshopper guard at full resistance. You must read which pass is being attempted and select the appropriate defense in real time. Track success rates for each defensive option and identify which pass consistently beats your guard. Extend rounds to include mount escape sequences when the step over succeeds to build the complete defensive chain."
       }
     ],
-    "clips": [
-      {
-        "id": "cyegyon5hVg",
-        "title": "Two mount escape options to half guard",
-        "by": "Revolution BJJ",
-        "vertical": false,
-        "channel": "Revolution BJJ",
-        "duration": 54,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "r3ryggpYhb0",
-        "title": "Roger Gracie's Best Advice on Escaping Mount",
-        "by": "Roger Gracie",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 233,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "UUfzOO0JouI",
-        "title": "Folding Technical Mount Escape",
-        "by": "Inverted Gear",
-        "vertical": false,
-        "channel": "Inverted Gear",
-        "duration": 50,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "variants_and_adaptations": [
     {

@@ -136,39 +136,6 @@ description: "Defend against the bridge escape from Ushiro Kesa Gatame. Learn to
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Bridge from Ushiro Kesa Gatame (Defender) \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Holding reverse kesa gatame and attacking the kimura",
-      "description": "Bridge from Ushiro Kesa Gatame (Defender) film study: Holding reverse kesa gatame and attacking the kimura, taught by BJJ4Breakfast.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/RYo2TWEnOiY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/RYo2TWEnOiY",
-      "url": "https://www.youtube.com/watch?v=RYo2TWEnOiY",
-      "creator": { "@type": "Person", "name": "BJJ4Breakfast" },
-      "duration": "PT234S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Reverse kesa gatame escape",
-      "description": "Bridge from Ushiro Kesa Gatame (Defender) film study: Reverse kesa gatame escape, taught by Inverted Gear.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/xROpHA3sNlY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/xROpHA3sNlY",
-      "url": "https://www.youtube.com/watch?v=xROpHA3sNlY",
-      "creator": { "@type": "Person", "name": "Inverted Gear" },
-      "duration": "PT109S"
-    }
-  ]
-}
-</script>
-
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -181,32 +148,6 @@ Defending against the bridge escape from Ushiro Kesa Gatame requires the top pla
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Bridge from Ushiro Kesa Gatame (Defender) in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=RYo2TWEnOiY)
-
-<p class="clip-credit"><strong>Holding reverse kesa gatame and attacking the kimura</strong> — taught by BJJ4Breakfast · 3:54 · <a href="https://www.youtube.com/watch?v=RYo2TWEnOiY" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=xROpHA3sNlY)
-
-<p class="clip-credit"><strong>Reverse kesa gatame escape</strong> — taught by Inverted Gear · 1:49 · <a href="https://www.youtube.com/watch?v=xROpHA3sNlY" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="recognition-cues" class="content-section">

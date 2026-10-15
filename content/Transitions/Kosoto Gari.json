@@ -418,31 +418,12 @@
     "safety_considerations": "When practicing Kosoto Gari, both partners must maintain control throughout the falling motion to prevent injury. The person being thrown should practice proper ukemi (breakfall) by slapping the mat with their arm to dissipate impact force and protect their head. Never release grips completely during static drilling as this can cause uncontrolled falls. When drilling at speed, use crash mats or soft surfaces until breakfall mechanics are reflexive. Avoid practicing on hard surfaces until both partners have developed proper falling technique. If you feel yourself being thrown and cannot escape, do not attempt to post with extended arm as this can cause elbow, wrist, or shoulder injuries. Instead, tuck chin to chest and execute proper breakfall. Beginners should practice falling mechanics separately before integrating live throws.",
     "clips": [
       {
-        "id": "9nFKizOUCdI",
-        "title": "Minor outer reap kosoto gari for judo and BJJ",
-        "by": "Conway",
-        "vertical": false,
-        "channel": "ConwayToe2Toe Jiu-Jitsu",
-        "duration": 21,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "sX02CGHnOag",
-        "title": "Fast ko soto gari entry",
-        "by": "Grappler Kingdom",
-        "vertical": false,
-        "channel": "Grappler Kingdom",
-        "duration": 42,
-        "verified": "2026-07-15"
-      },
-      {
         "id": "H5lOkLcs1tM",
-        "title": "Kosoto gari demonstration",
-        "by": "Casimiro Bento",
-        "vertical": false,
+        "title": "Kosoto gari",
         "channel": "Casimiro Bento",
-        "duration": 40,
-        "verified": "2026-07-15"
+        "duration": 39,
+        "vertical": false,
+        "front": true
       }
     ]
   },
@@ -624,21 +605,11 @@
     "clips": [
       {
         "id": "KG3kJoh57uk",
-        "title": "Counter kosoto gari with ouchi gari",
-        "by": "Mick",
-        "vertical": false,
+        "title": "#2 counter ko soto gari with ouchi gari",
         "channel": "Mick",
         "duration": 158,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "C7HnA1zd5Rs",
-        "title": "Judo throw counter-attacks",
-        "by": "Shintaro Higashi",
         "vertical": false,
-        "channel": "Shintaro Higashi",
-        "duration": 161,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },

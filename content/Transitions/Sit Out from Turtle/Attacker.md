@@ -192,34 +192,31 @@ description: "Learn to execute the sit out from turtle position in BJJ. Step-by-
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Sit out from turtle with head on back",
-      "description": "Sit Out from Turtle (Attacker) film study: Sit out from turtle with head on back, taught by Mjolnir Fight Club.",
+      "name": "Turtle up Defence | Sit out head on back",
+      "description": "Sit Out from Turtle (Attacker) film study: Turtle up Defence | Sit out head on back.",
       "thumbnailUrl": "https://i.ytimg.com/vi/d312j3n9fIw/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/d312j3n9fIw",
       "url": "https://www.youtube.com/watch?v=d312j3n9fIw",
-      "creator": { "@type": "Person", "name": "Mjolnir Fight Club" },
-      "duration": "PT30S"
+      "duration": "PT29S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "How to do the turtle sit out escape",
-      "description": "Sit Out from Turtle (Attacker) film study: How to do the turtle sit out escape, taught by Diaz Combat Sports.",
+      "name": "How To Do A Turtle Sit Out Escape In Brazilian Jiu-Jitsu",
+      "description": "Sit Out from Turtle (Attacker) film study: How To Do A Turtle Sit Out Escape In Brazilian Jiu-Jitsu.",
       "thumbnailUrl": "https://i.ytimg.com/vi/7biwctrcRck/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/7biwctrcRck",
       "url": "https://www.youtube.com/watch?v=7biwctrcRck",
-      "creator": { "@type": "Person", "name": "Diaz Combat Sports" },
       "duration": "PT48S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "Peek out / sit out from bottom turtle",
-      "description": "Sit Out from Turtle (Attacker) film study: Peek out / sit out from bottom turtle, taught by Scott Ryan Chiriboga.",
+      "name": "Peek Out (Sometimes Called Sit Out in BJJ) from Bottom Turtle Position",
+      "description": "Sit Out from Turtle (Attacker) film study: Peek Out (Sometimes Called Sit Out in BJJ) from Bottom Turtle Position.",
       "thumbnailUrl": "https://i.ytimg.com/vi/_OPv4LuzgW0/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/_OPv4LuzgW0",
       "url": "https://www.youtube.com/watch?v=_OPv4LuzgW0",
-      "creator": { "@type": "Person", "name": "Scott Ryan Chiriboga" },
       "duration": "PT94S"
     }
   ]
@@ -250,7 +247,7 @@ Executing the sit out from turtle requires explosive hip rotation through a stab
 
 ![](https://www.youtube.com/watch?v=d312j3n9fIw)
 
-<p class="clip-credit"><strong>Sit out from turtle with head on back</strong> — taught by Mjolnir Fight Club · 0:30 · <a href="https://www.youtube.com/watch?v=d312j3n9fIw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Turtle up Defence | Sit out head on back</strong> · 0:29 · <a href="https://www.youtube.com/watch?v=d312j3n9fIw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -258,7 +255,7 @@ Executing the sit out from turtle requires explosive hip rotation through a stab
 
 ![](https://www.youtube.com/watch?v=7biwctrcRck)
 
-<p class="clip-credit"><strong>How to do the turtle sit out escape</strong> — taught by Diaz Combat Sports · 0:48 · <a href="https://www.youtube.com/watch?v=7biwctrcRck" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How To Do A Turtle Sit Out Escape In Brazilian Jiu-Jitsu</strong> · 0:48 · <a href="https://www.youtube.com/watch?v=7biwctrcRck" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -266,7 +263,7 @@ Executing the sit out from turtle requires explosive hip rotation through a stab
 
 ![](https://www.youtube.com/watch?v=_OPv4LuzgW0)
 
-<p class="clip-credit"><strong>Peek out / sit out from bottom turtle</strong> — taught by Scott Ryan Chiriboga · 1:34 · <a href="https://www.youtube.com/watch?v=_OPv4LuzgW0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Peek Out (Sometimes Called Sit Out in BJJ) from Bottom Turtle Position</strong> · 1:34 · <a href="https://www.youtube.com/watch?v=_OPv4LuzgW0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

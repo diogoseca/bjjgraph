@@ -46,35 +46,12 @@ description: "Master the Gift Wrap setup from Mount in BJJ. Complete guide to ar
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Gift wrap to taking the back",
-      "description": "Gift Wrap film study: Gift wrap to taking the back, taught by Henry Akins.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/eKTd-9SkrVk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/eKTd-9SkrVk",
-      "url": "https://www.youtube.com/watch?v=eKTd-9SkrVk",
-      "creator": { "@type": "Person", "name": "Henry Akins" },
-      "duration": "PT81S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Mount to gift wrap to the finish",
-      "description": "Gift Wrap film study: Mount to gift wrap to the finish, taught by Henry Akins.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/X3yIMfhGHnk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/X3yIMfhGHnk",
-      "url": "https://www.youtube.com/watch?v=X3yIMfhGHnk",
-      "creator": { "@type": "Person", "name": "Henry Akins" },
-      "duration": "PT92S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "The gift wrap in two minutes, no-gi",
-      "description": "Gift Wrap film study: The gift wrap in two minutes, no-gi, taught by Brian Glick.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/5bw7poxVJ1E/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/5bw7poxVJ1E",
-      "url": "https://www.youtube.com/watch?v=5bw7poxVJ1E",
-      "creator": { "@type": "Person", "name": "Brian Glick" },
-      "duration": "PT112S"
+      "name": "Escaping the Gift Wrap in jiu jitsu",
+      "description": "Gift Wrap film study: Escaping the Gift Wrap in jiu jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/OMzki0Uu7vA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/OMzki0Uu7vA",
+      "url": "https://www.youtube.com/watch?v=OMzki0Uu7vA",
+      "duration": "PT47S"
     }
   ]
 }
@@ -128,25 +105,9 @@ The key to successful Gift Wrap entries lies in understanding opponent reactions
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=eKTd-9SkrVk)
+![](https://www.youtube.com/watch?v=OMzki0Uu7vA)
 
-<p class="clip-credit"><strong>Gift wrap to taking the back</strong> — taught by Henry Akins · 1:21 · <a href="https://www.youtube.com/watch?v=eKTd-9SkrVk" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=X3yIMfhGHnk)
-
-<p class="clip-credit"><strong>Mount to gift wrap to the finish</strong> — taught by Henry Akins · 1:32 · <a href="https://www.youtube.com/watch?v=X3yIMfhGHnk" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=5bw7poxVJ1E)
-
-<p class="clip-credit"><strong>The gift wrap in two minutes, no-gi</strong> — taught by Brian Glick · 1:52 · <a href="https://www.youtube.com/watch?v=5bw7poxVJ1E" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Escaping the Gift Wrap in jiu jitsu</strong> · 0:47 · <a href="https://www.youtube.com/watch?v=OMzki0Uu7vA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -384,35 +384,7 @@
       }
     ],
     "safety_considerations": "The forward rolling motion involves cervical spine loading that requires proper technique to execute safely. Always roll diagonally over the shoulder rather than straight over the head to avoid neck compression injuries. Never force the roll if your neck feels jammed or your head is pinned to the mat. If the trapped leg does not extract during the roll, do not repeatedly crank or twist the knee joint - reset and attempt a different escape. Practice solo rolling drills extensively before attempting the technique with resistance. Tap immediately if a submission locks in during a failed escape attempt.",
-    "clips": [
-      {
-        "id": "WEpVDP7MRpo",
-        "title": "Rolling out of the truck back to guard",
-        "by": "Brian Glick",
-        "vertical": false,
-        "channel": "Brian Glick",
-        "duration": 209,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "PARsvWFmssI",
-        "title": "Chaining escapes from bottom pins back to guard",
-        "by": "Gordon Ryan",
-        "vertical": false,
-        "channel": "Gordon Ryan",
-        "duration": 273,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "i08uQgulYmc",
-        "title": "Five ways to recover guard from turtle",
-        "by": "Big Oss Jiu-Jitsu",
-        "vertical": false,
-        "channel": "BIG OSS Jiu-Jitsu Channel",
-        "duration": 504,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Roll to Guard from Truck Defender",
@@ -570,16 +542,6 @@
         "description": "Full-speed positional sparring from truck position. Top player works to maintain truck and finish submissions while defending against all escape attempts including the Roll to Guard. Bottom player uses full resistance. Develop real-time decision making for prevention versus following the roll to back control."
       }
     ],
-    "clips": [
-      {
-        "id": "sCBGkcJCQYY",
-        "title": "MTS 178: The Truck In Transition",
-        "by": "Eddie Bravo",
-        "vertical": false,
-        "channel": "Eddie Bravo",
-        "duration": 61,
-        "verified": "2026-07-16"
-      }
-    ]
+    "clips": []
   }
 }

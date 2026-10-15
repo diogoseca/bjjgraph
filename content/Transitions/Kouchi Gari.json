@@ -379,31 +379,19 @@
     "safety_considerations": "Kouchi Gari is one of the safer takedown techniques when executed properly, as the falling direction is controlled and predictable. However, training partners should be aware of proper breakfall techniques, particularly falling backward with the chin tucked to avoid head impact. When drilling, ensure mat space is clear of obstacles and other rolling pairs. The person executing the technique should maintain grips and control throughout the fall to prevent the partner from landing awkwardly on their shoulder or neck. In competition or live sparring, be mindful of the edge of the mat area, as the backward motion can carry both practitioners out of bounds. For older practitioners or those with knee issues, the reaping motion should be executed smoothly rather than explosively to avoid strain on the base leg's knee joint.",
     "clips": [
       {
-        "id": "4FDRR9ukLjc",
-        "title": "Kouchi gari small inner reap breakdown",
-        "by": "Ben Stark",
+        "id": "4Kgcm3TthAg",
+        "title": "Kouchi Gari in NoGi Grappling",
+        "channel": "CombatLife Soft",
+        "duration": 45,
         "vertical": false,
+        "front": true
+      },
+      {
+        "id": "4FDRR9ukLjc",
+        "title": "Kouchi Gari (Small inner reap) - Hammer Jiu Jitsu",
         "channel": "Ben Stark",
         "duration": 52,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "4Kgcm3TthAg",
-        "title": "Kouchi gari in no-gi grappling",
-        "by": "CombatLife",
-        "vertical": false,
-        "channel": "CombatLife Soft",
-        "duration": 46,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "_osQlpT8mTE",
-        "title": "Sumi gaeshi into drop kouchi gari",
-        "by": "Shintaro Higashi",
-        "vertical": false,
-        "channel": "Shintaro Higashi",
-        "duration": 95,
-        "verified": "2026-07-15"
+        "vertical": false
       }
     ]
   },
@@ -580,26 +568,7 @@
         "description": "Integrate Kouchi Gari defense into live stand-up sparring rounds. Partner actively attacks with Kouchi Gari and its common combinations. Focus on reading attacks in real-time, selecting appropriate defense, and converting to counter offense. Track which defensive responses work best against different setups."
       }
     ],
-    "clips": [
-      {
-        "id": "NBj5D2KHdvw",
-        "title": "Leg block to stop inside trip attacks",
-        "by": "Shintaro Higashi",
-        "vertical": false,
-        "channel": "Shintaro Higashi",
-        "duration": 140,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "C7HnA1zd5Rs",
-        "title": "Countering judo throw attempts",
-        "by": "Shintaro Higashi",
-        "vertical": false,
-        "channel": "Shintaro Higashi",
-        "duration": 161,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "variants_and_adaptations": [
     {

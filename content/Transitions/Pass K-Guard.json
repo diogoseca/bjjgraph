@@ -372,35 +372,7 @@
       }
     ],
     "safety_considerations": "When passing K-Guard, be mindful of knee torque on both your trapped leg and your partner's legs during hook neutralization. Avoid sudden explosive movements that could twist the knee joint while it is entangled in the hook system. If your partner's foot catches during the pass and they signal discomfort, stop immediately and carefully extract before continuing. During drilling, establish clear communication protocols for knee discomfort, especially when working with the inverted hook configuration where unexpected angles can stress the joint.",
-    "clips": [
-      {
-        "id": "JxDViUC4xhk",
-        "title": "K Guard Defense and Pass",
-        "by": "Rodrigo Lopes",
-        "vertical": false,
-        "channel": "Pathfinder Jiu-Jitsu Team",
-        "duration": 289,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "VA_csQEmYXc",
-        "title": "Passing K-guard without getting leglocked",
-        "by": "B-Team coach",
-        "vertical": false,
-        "channel": "The B-Team",
-        "duration": 357,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "EPfM9pTRivE",
-        "title": "Kill K-guard with the kick spin",
-        "by": "Keenan Cornelius",
-        "vertical": false,
-        "channel": "Keenan Cornelius",
-        "duration": 196,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Pass K-Guard Defender",
@@ -563,25 +535,6 @@
         "description": "Full positional sparring from K-Guard bottom against partners of varying sizes and passing styles. Apply retention, counter-attacks, and guard transitions in combination against unpredictable full resistance. Track which passes give you the most difficulty and develop specific counter-strategies for each."
       }
     ],
-    "clips": [
-      {
-        "id": "lVLAROiSjNU",
-        "title": "Guard Retention: When To Use the Sit Up Escape",
-        "by": "Lachlan Giles",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 136,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "fQ1z2RLYz4Q",
-        "title": "Shallow K Guard Retention",
-        "by": "Lachlan Giles",
-        "vertical": false,
-        "channel": "Absolute MMA St Kilda - Melbourne",
-        "duration": 42,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

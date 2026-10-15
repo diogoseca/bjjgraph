@@ -338,35 +338,7 @@
       }
     ],
     "safety_considerations": "The standing switch defense involves dynamic movement with both practitioners on their feet, creating fall risk if either player loses balance during the exchange. Practice on mats with adequate space and clear surroundings. Ensure both partners understand the drill intensity level before beginning. Avoid explosive movements during initial learning phases. When the switch partially completes, do not attempt to hold your partner in compromised positions that could strain their neck or spine during the rotation. Communicate clearly about resistance levels to prevent injuries during transitions between standing and ground positions.",
-    "clips": [
-      {
-        "id": "GKrJsIYmycM",
-        "title": "Mat return drill against the stand-up",
-        "by": "Nicky Rodriguez",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 84,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "bt_NT5AwjvA",
-        "title": "Standing Wrestler's Switch from a Rear Clinch",
-        "by": "Joe Scioli",
-        "vertical": false,
-        "channel": "Joe Scioli",
-        "duration": 110,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "87LyJ3zsShY",
-        "title": "Wrestling Reversals: The Switch",
-        "by": "DICK'S Sporting Goods",
-        "vertical": false,
-        "channel": "DICK'S",
-        "duration": 54,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Standing Switch Defense Defender",
@@ -528,25 +500,6 @@
         "description": "Positional sparring from standing rear clinch with full resistance from both partners. Bottom person works all escape options including switches from both sides while top person defends. Track success rates across rounds to measure improvement and identify technical weaknesses."
       }
     ],
-    "clips": [
-      {
-        "id": "X4IskvtkBY4",
-        "title": "Stand up to switch from bottom",
-        "by": "Adam Wheeler",
-        "vertical": false,
-        "channel": "Adam Wheeler",
-        "duration": 11,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "x2MR4OIb0vI",
-        "title": "Change over from the bottom position",
-        "by": "The School of Wrestling",
-        "vertical": false,
-        "channel": "The School of Wrestling",
-        "duration": 116,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

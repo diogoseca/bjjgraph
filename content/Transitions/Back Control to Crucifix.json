@@ -390,31 +390,19 @@
     "safety_considerations": "The back control to crucifix transition involves significant pressure on the opponent's shoulders, arms, and neck area, requiring controlled execution to prevent injury. When training this transition, communicate clearly with your partner and move through positions deliberately rather than explosively, especially during the shin insertion phase where sudden pressure can stress shoulder joints. The opponent's arms are placed in vulnerable positions during this transition, particularly the far arm which can be at risk for shoulder or elbow hyperextension if cranked aggressively. Always allow your partner to tap before completing armbars or shoulder locks from crucifix, and release pressure immediately upon any tap signal. When being controlled in crucifix yourself, tap early if you feel joint stress rather than attempting to muscle out of the position. Newer practitioners should drill this transition at slow speeds until mechanics are ingrained, as rushing the movement can result in neck compression or shoulder strain for both parties.",
     "clips": [
       {
-        "id": "VEhXnr55SOU",
-        "title": "3 crucifix entries from the back",
-        "by": "Jean Jacques Machado",
-        "vertical": false,
-        "channel": "JeanJacquesMachado",
-        "duration": 46,
-        "verified": "2026-07-15"
-      },
-      {
         "id": "iwVX3CUXEKM",
         "title": "Back control to crucifix choke",
-        "by": "Jay jay19xx",
-        "vertical": false,
         "channel": "Jay jay19xx",
         "duration": 126,
-        "verified": "2026-07-15"
+        "vertical": false,
+        "front": true
       },
       {
         "id": "56LdXtFc_ek",
-        "title": "Back mount to crucifix and back again",
-        "by": "Pendergrass Academy",
-        "vertical": false,
+        "title": "Transitioning from Back Mount to Crucifix and back to the Back…",
         "channel": "Pendergrass Academy of Martial Arts",
         "duration": 176,
-        "verified": "2026-07-15"
+        "vertical": false
       }
     ]
   },
@@ -598,35 +586,7 @@
         "description": "Full sparring rounds starting from back control where partner actively hunts crucifix alongside other back attacks. Practice reading which attack is coming and deploying the appropriate defense. Develop the ability to transition between choke defense and crucifix prevention fluidly under competition-level pressure."
       }
     ],
-    "clips": [
-      {
-        "id": "6vb_D-aobfg",
-        "title": "Crucifix escape via back roll",
-        "by": "Adam Bradley",
-        "vertical": false,
-        "channel": "Adam Bradley",
-        "duration": 189,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "h2lCF7jLT_w",
-        "title": "5 mistakes defending the back take from turtle",
-        "by": "Priit Mihkelson",
-        "vertical": false,
-        "channel": "Defensive BJJ",
-        "duration": 456,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "zxSKKUroV6Q",
-        "title": "Many ways to escape the turtle",
-        "by": "Jean Jacques Machado",
-        "vertical": false,
-        "channel": "JeanJacquesMachado",
-        "duration": 214,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "variants_and_adaptations": [
     {

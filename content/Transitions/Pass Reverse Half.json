@@ -374,31 +374,12 @@
     "safety_considerations": "Reverse half guard passing involves significant pressure on the bottom player's spine and hips from the reverse angle. Apply chest pressure gradually and avoid sudden weight drops that could injure the lower back or ribs. Be mindful of knee strain on both players when extracting the trapped leg, particularly if the bottom player maintains a tight leg clamp—forcing extraction against maximum resistance risks knee ligament injury. In training, communicate with your partner about pressure levels and release immediately if they indicate discomfort. Avoid cranking the neck during crossface application and be aware that the reverse angle creates unusual spinal loading that requires controlled technique.",
     "clips": [
       {
-        "id": "qqheiIgQrfY",
-        "title": "Guard pass against deep half",
-        "by": "Koji Shibamoto",
+        "id": "4mHVpST5lLw",
+        "title": "Jiu Jitsu Fundamentals - Reverse Half Guard Passing - Shotgun Pass",
+        "channel": "The Base Jiu Jitsu",
+        "duration": 86,
         "vertical": false,
-        "channel": "トライフォース柔術アカデミー / Tri-force Jiu-jitsu Academy",
-        "duration": 33,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "kTSMGYlVJKY",
-        "title": "Freeing your foot while passing half guard",
-        "by": "Kameron Ross",
-        "vertical": false,
-        "channel": "Kameron Ross",
-        "duration": 55,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "f2K9q9nQV1Y",
-        "title": "Back step pass from half guard",
-        "by": "Bowerhouse MMA",
-        "vertical": false,
-        "channel": "BOWERHOUSE MMA",
-        "duration": 136,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },
@@ -577,34 +558,6 @@
         "description": "Start in reverse half guard bottom with partner at full resistance attempting to pass. Defend for 2-minute rounds, scoring points for successful guard recovery, sweeps, or back exposure prevention. Partner scores for pass completion. Build automatic defensive reactions under competitive pressure."
       }
     ],
-    "clips": [
-      {
-        "id": "VsPTkiq_OM4",
-        "title": "Reverse half guard sweep to leg drag",
-        "by": "Fernando Reis",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 62,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "gRtCwqjwYhc",
-        "title": "Reverse half guard to reverse electric chair",
-        "by": "Attic Jiu-Jitsu",
-        "vertical": false,
-        "channel": "ATTIC JIU-JITSU",
-        "duration": 99,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "iwcRISvtG3g",
-        "title": "Inverted half guard sweep to back take",
-        "by": "Carpio Jiu Jitsu",
-        "vertical": false,
-        "channel": "Carpio Jiu Jitsu",
-        "duration": 116,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

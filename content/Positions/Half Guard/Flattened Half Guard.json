@@ -407,22 +407,11 @@
     ],
     "clips": [
       {
-        "id": "0FxFdqZ8mus",
-        "title": "Late correction to flatten opponent",
-        "by": "Paul Schreiner",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 153,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "lwwIfCAA7Zc",
-        "title": "Top lockdown turk",
-        "by": "Craig Jones",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 207,
-        "verified": "2026-07-14"
+        "id": "y9MAxM0jRzw",
+        "title": "Henry Akins No Gi Half Guard Passing - 2 Methods to Flatten out your Opponent…",
+        "channel": "Black Dragon BJJ  / Cobra Kai Karate Dungannon",
+        "duration": 533,
+        "front": true
       }
     ]
   },
@@ -846,31 +835,12 @@
     ],
     "clips": [
       {
-        "id": "dOdO6xJ-TcU",
-        "title": "Stop the half guard underhook",
-        "by": "Malachy Friedman",
-        "vertical": false,
-        "channel": "Malachy Friedman",
-        "duration": 98,
-        "verified": "2026-07-14"
-      },
-      {
         "id": "BhNZGloJ56c",
-        "title": "Guard recovery when getting smashed",
-        "by": "Finesse Jiujitsu HTX",
-        "vertical": false,
+        "title": "Basic Guard Recovery Trick When Your Getting Smashed",
         "channel": "FINESSE JIUJITSU HTX",
-        "duration": 103,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "5sdZak2bil4",
-        "title": "Reclaim closed guard from half guard",
-        "by": "Daniel Lima",
+        "duration": 102,
         "vertical": false,
-        "channel": "Daniel Lima",
-        "duration": 26,
-        "verified": "2026-07-14"
+        "front": true
       }
     ]
   },
@@ -988,33 +958,5 @@
       }
     }
   ],
-  "clips": [
-    {
-      "id": "0FxFdqZ8mus",
-      "title": "Late correction to flatten the half guard player",
-      "by": "Paul Schreiner",
-      "vertical": false,
-      "channel": "BJJ Fanatics",
-      "duration": 153,
-      "verified": "2026-07-15"
-    },
-    {
-      "id": "mWimgVQrsMU",
-      "title": "Far side underhook pin on a flattened half guard",
-      "by": "Craig Jones",
-      "vertical": false,
-      "channel": "BJJ Fanatics",
-      "duration": 137,
-      "verified": "2026-07-15"
-    },
-    {
-      "id": "NWie1oi3JSg",
-      "title": "Recovering after getting flattened in half guard",
-      "by": "Inverted Gear",
-      "vertical": false,
-      "channel": "Inverted Gear",
-      "duration": 274,
-      "verified": "2026-07-15"
-    }
-  ]
+  "clips": []
 }

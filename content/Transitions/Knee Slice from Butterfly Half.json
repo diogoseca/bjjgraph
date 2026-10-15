@@ -434,31 +434,12 @@
     "safety_considerations": "When drilling the knee slice from butterfly half guard, exercise caution with the lateral pressure your slicing knee applies to the bottom player's inner thigh and knee joint. Excessive force or incorrect angle during the slice can stress the MCL and meniscus of the bottom player's trapped leg. Control your speed during the slicing phase, especially when the bottom player's leg is entangled and cannot move freely. The crossface should apply firm but controlled pressure—avoid driving forcefully into the jaw or neck in a way that could cause cervical spine discomfort. Both partners should communicate about pressure levels throughout the drill. During live sparring, be particularly aware of knee position when the bottom player is actively defending, as unexpected directional changes can create dangerous twisting forces on trapped joints. If the bottom player taps or verbally indicates discomfort at any point during the pass, release pressure immediately.",
     "clips": [
       {
-        "id": "Pk_6CrydIRQ",
-        "title": "Half butterfly guard pass for no-gi",
-        "by": "Factory Fresh Jiu Jitsu",
-        "vertical": false,
-        "channel": "Factory Fresh Jiu Jitsu",
-        "duration": 110,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "yo6xI2LammA",
-        "title": "Passing butterfly guard with the knee slide",
-        "by": "Coach William",
-        "vertical": false,
-        "channel": "Coach William",
-        "duration": 98,
-        "verified": "2026-07-15"
-      },
-      {
         "id": "jsy9oRpq998",
-        "title": "Half butterfly guard pass to knee slice",
-        "by": "Factory Fresh Jiu Jitsu",
-        "vertical": false,
+        "title": "Half Butterfly Guard Pass to Knee Slice.",
         "channel": "Factory Fresh Jiu Jitsu",
         "duration": 183,
-        "verified": "2026-07-15"
+        "vertical": false,
+        "front": true
       }
     ]
   },
@@ -646,30 +627,18 @@
     "clips": [
       {
         "id": "86KseinKoSY",
-        "title": "Knee slide recovery into butterfly sweep",
-        "by": "Italiano BJJ",
-        "vertical": false,
+        "title": "knee Slide Pass Recovery to Butterfly Guard Sweep",
         "channel": "Italiano BJJ",
-        "duration": 37,
-        "verified": "2026-07-15"
+        "duration": 36,
+        "vertical": false,
+        "front": true
       },
       {
         "id": "yiIHeo7NgsE",
-        "title": "Countering the knee slice pass",
-        "by": "Kohbukan Sisu",
-        "vertical": false,
+        "title": "Knee Slice Pass Counter",
         "channel": "Kohbukan Sisu",
         "duration": 58,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "Da5PAZooedU",
-        "title": "Knee slice defense counter",
-        "by": "A Day In A Life",
-        "vertical": false,
-        "channel": "A DAY IN A LIFE",
-        "duration": 86,
-        "verified": "2026-07-15"
+        "vertical": false
       }
     ]
   }

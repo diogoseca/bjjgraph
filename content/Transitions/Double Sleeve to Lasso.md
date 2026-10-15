@@ -46,35 +46,12 @@ description: "Master the Double Sleeve to Lasso guard transition in BJJ. Learn g
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Open guard to lasso sweep attempt to ankle lock",
-      "description": "Double Sleeve to Lasso film study: Open guard to lasso sweep attempt to ankle lock, taught by Lucas Lepri.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/LwnoWDFJlN0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/LwnoWDFJlN0",
-      "url": "https://www.youtube.com/watch?v=LwnoWDFJlN0",
-      "creator": { "@type": "Person", "name": "Lucas Lepri" },
-      "duration": "PT44S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Lasso guard variations",
-      "description": "Double Sleeve to Lasso film study: Lasso guard variations, taught by Felipe Costa.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/n4ddjzGemrw/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/n4ddjzGemrw",
-      "url": "https://www.youtube.com/watch?v=n4ddjzGemrw",
-      "creator": { "@type": "Person", "name": "Felipe Costa" },
-      "duration": "PT28S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Deep lasso guard vs a standing opponent",
-      "description": "Double Sleeve to Lasso film study: Deep lasso guard vs a standing opponent, taught by John Michael DeVall.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/_YD7fgAFOsI/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/_YD7fgAFOsI",
-      "url": "https://www.youtube.com/watch?v=_YD7fgAFOsI",
-      "creator": { "@type": "Person", "name": "John Michael DeVall" },
-      "duration": "PT31S"
+      "name": "Lasso \u0026 Spider Guard Defense | Binder BJJ Technique Breakdown",
+      "description": "Double Sleeve to Lasso film study: Lasso \u0026 Spider Guard Defense | Binder BJJ Technique Breakdown.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/GOzoDB10XkY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/GOzoDB10XkY",
+      "url": "https://www.youtube.com/watch?v=GOzoDB10XkY",
+      "duration": "PT244S"
     }
   ]
 }
@@ -128,25 +105,9 @@ From a systems perspective, the Double Sleeve to Lasso transition serves as a cr
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=LwnoWDFJlN0)
+![](https://www.youtube.com/watch?v=GOzoDB10XkY)
 
-<p class="clip-credit"><strong>Open guard to lasso sweep attempt to ankle lock</strong> — taught by Lucas Lepri · 0:44 · <a href="https://www.youtube.com/watch?v=LwnoWDFJlN0" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=n4ddjzGemrw)
-
-<p class="clip-credit"><strong>Lasso guard variations</strong> — taught by Felipe Costa · 0:28 · <a href="https://www.youtube.com/watch?v=n4ddjzGemrw" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=_YD7fgAFOsI)
-
-<p class="clip-credit"><strong>Deep lasso guard vs a standing opponent</strong> — taught by John Michael DeVall · 0:31 · <a href="https://www.youtube.com/watch?v=_YD7fgAFOsI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Lasso &amp; Spider Guard Defense | Binder BJJ Technique Breakdown</strong> · 4:04 · <a href="https://www.youtube.com/watch?v=GOzoDB10XkY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

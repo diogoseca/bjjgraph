@@ -188,35 +188,12 @@ description: "Learn to finish the toe hold from saddle with precise grip mechani
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "411 to Toe Hold",
-      "description": "Toe Hold from Saddle (Attacker) film study: 411 to Toe Hold, taught by Bowerhouse MMA.",
+      "name": "411 to toe hold",
+      "description": "Toe Hold from Saddle (Attacker) film study: 411 to toe hold.",
       "thumbnailUrl": "https://i.ytimg.com/vi/srg8HLCGzHU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/srg8HLCGzHU",
       "url": "https://www.youtube.com/watch?v=srg8HLCGzHU",
-      "creator": { "@type": "Person", "name": "Bowerhouse MMA" },
-      "duration": "PT43S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Crossover Toe Hold",
-      "description": "Toe Hold from Saddle (Attacker) film study: Crossover Toe Hold, taught by Craig Jones.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Kx8gZ3QdO8s/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Kx8gZ3QdO8s",
-      "url": "https://www.youtube.com/watch?v=Kx8gZ3QdO8s",
-      "creator": { "@type": "Person", "name": "Craig Jones" },
-      "duration": "PT51S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Attacking the Toe Hold from the Saddle",
-      "description": "Toe Hold from Saddle (Attacker) film study: Attacking the Toe Hold from the Saddle, taught by Kieran Davern.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/eHl1rNrv_k0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/eHl1rNrv_k0",
-      "url": "https://www.youtube.com/watch?v=eHl1rNrv_k0",
-      "creator": { "@type": "Person", "name": "Kieran Davern" },
-      "duration": "PT232S"
+      "duration": "PT42S"
     }
   ]
 }
@@ -247,23 +224,7 @@ Attacking with the toe hold from saddle requires understanding its role as a sec
 
 ![](https://www.youtube.com/watch?v=srg8HLCGzHU)
 
-<p class="clip-credit"><strong>411 to Toe Hold</strong> — taught by Bowerhouse MMA · 0:43 · <a href="https://www.youtube.com/watch?v=srg8HLCGzHU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=Kx8gZ3QdO8s)
-
-<p class="clip-credit"><strong>Crossover Toe Hold</strong> — taught by Craig Jones · 0:51 · <a href="https://www.youtube.com/watch?v=Kx8gZ3QdO8s" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=eHl1rNrv_k0)
-
-<p class="clip-credit"><strong>Attacking the Toe Hold from the Saddle</strong> — taught by Kieran Davern · 3:52 · <a href="https://www.youtube.com/watch?v=eHl1rNrv_k0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>411 to toe hold</strong> · 0:42 · <a href="https://www.youtube.com/watch?v=srg8HLCGzHU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -516,26 +516,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "nH4ly3vk7WI",
-        "title": "S-Mount armbar, kimura & far-side armbar",
-        "by": "GBCostaMesa",
-        "vertical": false,
-        "channel": "GBCostaMesa",
-        "duration": 24,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "N-fwXASdMCQ",
-        "title": "Brutal armbar from S-Mount",
-        "by": "Lux's Jiu Jitsu",
-        "vertical": false,
-        "channel": "Lux’s jiu jitsu channel",
-        "duration": 80,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   },
   "bottom": {
     "name": "S Mount Bottom",

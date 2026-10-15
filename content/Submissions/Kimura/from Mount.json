@@ -503,21 +503,11 @@
     "clips": [
       {
         "id": "Lkh8kQG8ArA",
-        "title": "Kimura from Mount",
-        "by": "Tom Dinklage",
-        "vertical": false,
+        "title": "Kimura from mount. Kids BJJ April 15",
         "channel": "Tom Dinklage",
         "duration": 66,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "nH4ly3vk7WI",
-        "title": "S-Mount Armbar, Kimura + Far Side Armbar",
-        "by": "GB Costa Mesa",
         "vertical": false,
-        "channel": "GBCostaMesa",
-        "duration": 24,
-        "verified": "2026-07-14"
+        "front": true
       }
     ]
   },
@@ -712,26 +702,7 @@
         "description": "Full-resistance positional sparring starting from mount with the top player specifically hunting the Kimura. Bottom player works all defensive options including prevention, grip defense, bridge-and-roll, hip escape, and rolling defense. Track escape rate and identify which defensive stage fails most frequently. 3-minute rounds with role switching. Debrief after each round to analyze defensive decision-making."
       }
     ],
-    "clips": [
-      {
-        "id": "qVINUjefot8",
-        "title": "Bent Armlock (Kimura) Escape from Mount",
-        "by": "Soma Academy",
-        "vertical": false,
-        "channel": "Soma Academy",
-        "duration": 72,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "qQZI-_SRLM4",
-        "title": "How To Escape The Kimura",
-        "by": "Inverted Gear",
-        "vertical": false,
-        "channel": "Inverted Gear",
-        "duration": 219,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   },
   "variations_and_setups": [
     {

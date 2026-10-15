@@ -243,7 +243,16 @@
         "answer": "Both the arm attack and the triangle entanglement, immediately."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "yrl903y9jbg",
+        "title": "BJJ: triangle armbar",
+        "channel": "Ramsey Dewey",
+        "duration": 63,
+        "vertical": false,
+        "front": true
+      }
+    ]
   },
   "defender": {
     "name": "Armbar from Triangle Control Defender",

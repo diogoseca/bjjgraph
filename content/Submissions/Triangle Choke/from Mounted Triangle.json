@@ -444,35 +444,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "8f6rsOtI_HU",
-        "title": "Mounted Triangle from the Mount",
-        "by": "Way of BJJ",
-        "vertical": false,
-        "channel": "Way of BJJ",
-        "duration": 96,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "8ys-uZnBgYM",
-        "title": "Mounted Triangle Armbar",
-        "by": "Thunderdome BJJ",
-        "vertical": false,
-        "channel": "Thunderdome BJJ",
-        "duration": 26,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "XWR8C2xp1SU",
-        "title": "Triangle to Reverse Triangle Finish",
-        "by": "Renzo Gracie Holland",
-        "vertical": false,
-        "channel": "RENZO GRACIE HOLLAND",
-        "duration": 51,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Triangle Choke from Mounted Triangle Defender",
@@ -660,31 +632,11 @@
     ],
     "clips": [
       {
-        "id": "sR2rS2dwpNY",
-        "title": "How To Escape a Triangle Choke",
-        "by": "Rener & Ryron Gracie",
-        "vertical": false,
-        "channel": "Hayabusa",
-        "duration": 117,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "Ss49jnCob0w",
-        "title": "Avoiding and defending the triangle choke",
-        "by": "Lachlan Giles",
-        "vertical": false,
-        "channel": "Absolute MMA St Kilda - Melbourne",
-        "duration": 775,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "szAvJFvIzx4",
-        "title": "How to escape the triangle choke",
-        "by": "Stephan Kesting",
-        "vertical": false,
-        "channel": "Stephan Kesting",
-        "duration": 591,
-        "verified": "2026-07-15"
+        "id": "0Cife1Nv_9c",
+        "title": "Escaping Mounted And Front Triangle(intheclassroom.nickortizjiujitsu.com)",
+        "channel": "Nick Ortiz Jiu Jitsu",
+        "duration": 427,
+        "front": true
       }
     ]
   }

@@ -46,35 +46,22 @@ description: "Master the Americana from Side Control in BJJ. Complete guide to s
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Finishing the Americana",
-      "description": "Americana from Side Control film study: Finishing the Americana, taught by The Muscular Octopus.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/mk4jR6Anm8g/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/mk4jR6Anm8g",
-      "url": "https://www.youtube.com/watch?v=mk4jR6Anm8g",
-      "creator": { "@type": "Person", "name": "The Muscular Octopus" },
+      "name": "Escape americana/key lock from side to chest lock.",
+      "description": "Americana from Side Control film study: Escape americana/key lock from side to chest lock..",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Unz1euhI2y8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Unz1euhI2y8",
+      "url": "https://www.youtube.com/watch?v=Unz1euhI2y8",
       "duration": "PT71S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Americana from side control",
-      "description": "Americana from Side Control film study: Americana from side control, taught by Absolute MMA.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/swst0VGRr44/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/swst0VGRr44",
-      "url": "https://www.youtube.com/watch?v=swst0VGRr44",
-      "creator": { "@type": "Person", "name": "Absolute MMA" },
-      "duration": "PT96S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Americana from side control",
-      "description": "Americana from Side Control film study: Americana from side control, taught by Roy Dean.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/wckW_4r7vbk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/wckW_4r7vbk",
-      "url": "https://www.youtube.com/watch?v=wckW_4r7vbk",
-      "creator": { "@type": "Person", "name": "Roy Dean" },
-      "duration": "PT194S"
+      "name": "Americana Escape From Side Control",
+      "description": "Americana from Side Control film study: Americana Escape From Side Control.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sf-qacbOTZI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sf-qacbOTZI",
+      "url": "https://www.youtube.com/watch?v=sf-qacbOTZI",
+      "duration": "PT180S"
     }
   ]
 }
@@ -137,25 +124,17 @@ The Americana from Side Control exemplifies the principle of positional dominanc
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=mk4jR6Anm8g)
+![](https://www.youtube.com/watch?v=Unz1euhI2y8)
 
-<p class="clip-credit"><strong>Finishing the Americana</strong> — taught by The Muscular Octopus · 1:11 · <a href="https://www.youtube.com/watch?v=mk4jR6Anm8g" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=swst0VGRr44)
-
-<p class="clip-credit"><strong>Americana from side control</strong> — taught by Absolute MMA · 1:36 · <a href="https://www.youtube.com/watch?v=swst0VGRr44" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Escape americana/key lock from side to chest lock.</strong> · 1:11 · <a href="https://www.youtube.com/watch?v=Unz1euhI2y8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=wckW_4r7vbk)
+![](https://www.youtube.com/watch?v=sf-qacbOTZI)
 
-<p class="clip-credit"><strong>Americana from side control</strong> — taught by Roy Dean · 3:14 · <a href="https://www.youtube.com/watch?v=wckW_4r7vbk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Americana Escape From Side Control</strong> · 3:00 · <a href="https://www.youtube.com/watch?v=sf-qacbOTZI" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

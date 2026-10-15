@@ -165,24 +165,22 @@ description: "Master Leg Entanglement positions in BJJ. Complete guide to ashi g
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "3 Paths to Backside 50/50 from Single Leg-X",
-      "description": "Leg Entanglement (Top) film study: 3 Paths to Backside 50/50 from Single Leg-X, taught by Gustavo Gomes Firmino.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/yT3euuWRWXw/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/yT3euuWRWXw",
-      "url": "https://www.youtube.com/watch?v=yT3euuWRWXw",
-      "creator": { "@type": "Person", "name": "Gustavo Gomes Firmino" },
-      "duration": "PT56S"
+      "name": "Ashi Garami 101: Basic Mechanics and Drills for Leglocks (No Gi Jiu-Jitsu)",
+      "description": "Leg Entanglement (Top) film study: Ashi Garami 101: Basic Mechanics and Drills for Leglocks (No Gi Jiu-Jitsu).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pYnp2_gJIoM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/pYnp2_gJIoM",
+      "url": "https://www.youtube.com/watch?v=pYnp2_gJIoM",
+      "duration": "PT330S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Top Lockdown Turk Entry",
-      "description": "Leg Entanglement (Top) film study: Top Lockdown Turk Entry, taught by Craig Jones.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/lwwIfCAA7Zc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/lwwIfCAA7Zc",
-      "url": "https://www.youtube.com/watch?v=lwwIfCAA7Zc",
-      "creator": { "@type": "Person", "name": "Craig Jones" },
-      "duration": "PT207S"
+      "name": "Ashi Garami Explained: The Control System Behind Modern No-Gi",
+      "description": "Leg Entanglement (Top) film study: Ashi Garami Explained: The Control System Behind Modern No-Gi.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hhOOwMNfV-0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hhOOwMNfV-0",
+      "url": "https://www.youtube.com/watch?v=hhOOwMNfV-0",
+      "duration": "PT606S"
     }
   ]
 }
@@ -208,17 +206,17 @@ Leg Entanglement represents a comprehensive positional system in modern Brazilia
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=yT3euuWRWXw)
+![](https://www.youtube.com/watch?v=pYnp2_gJIoM)
 
-<p class="clip-credit"><strong>3 Paths to Backside 50/50 from Single Leg-X</strong> — taught by Gustavo Gomes Firmino · 0:56 · <a href="https://www.youtube.com/watch?v=yT3euuWRWXw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Ashi Garami 101: Basic Mechanics and Drills for Leglocks (No Gi Jiu-Jitsu)</strong> · 5:30 · <a href="https://www.youtube.com/watch?v=pYnp2_gJIoM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=lwwIfCAA7Zc)
+![](https://www.youtube.com/watch?v=hhOOwMNfV-0)
 
-<p class="clip-credit"><strong>Top Lockdown Turk Entry</strong> — taught by Craig Jones · 3:27 · <a href="https://www.youtube.com/watch?v=lwwIfCAA7Zc" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Ashi Garami Explained: The Control System Behind Modern No-Gi</strong> · 10:06 · <a href="https://www.youtube.com/watch?v=hhOOwMNfV-0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

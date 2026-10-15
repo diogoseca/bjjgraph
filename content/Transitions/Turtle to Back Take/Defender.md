@@ -160,24 +160,12 @@ description: "How to defend against Turtle to Back Take in BJJ. Recognition cues
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Turtle hand fighting, sit out and back prevention",
-      "description": "Turtle to Back Take (Defender) film study: Turtle hand fighting, sit out and back prevention, taught by SBG Rossendale.",
+      "name": "Turtle hand fighting, sit out and back prevention @Burybjj",
+      "description": "Turtle to Back Take (Defender) film study: Turtle hand fighting, sit out and back prevention @Burybjj.",
       "thumbnailUrl": "https://i.ytimg.com/vi/4XBkuhgMhUI/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/4XBkuhgMhUI",
       "url": "https://www.youtube.com/watch?v=4XBkuhgMhUI",
-      "creator": { "@type": "Person", "name": "SBG Rossendale" },
-      "duration": "PT155S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Standing up from turtle to deny the back",
-      "description": "Turtle to Back Take (Defender) film study: Standing up from turtle to deny the back, taught by Priit Mihkelson.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/_sBB-O8fqP4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/_sBB-O8fqP4",
-      "url": "https://www.youtube.com/watch?v=_sBB-O8fqP4",
-      "creator": { "@type": "Person", "name": "Priit Mihkelson" },
-      "duration": "PT114S"
+      "duration": "PT154S"
     }
   ]
 }
@@ -209,15 +197,7 @@ The defender's priority hierarchy is clear: first prevent seatbelt grip establis
 
 ![](https://www.youtube.com/watch?v=4XBkuhgMhUI)
 
-<p class="clip-credit"><strong>Turtle hand fighting, sit out and back prevention</strong> — taught by SBG Rossendale · 2:35 · <a href="https://www.youtube.com/watch?v=4XBkuhgMhUI" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=_sBB-O8fqP4)
-
-<p class="clip-credit"><strong>Standing up from turtle to deny the back</strong> — taught by Priit Mihkelson · 1:54 · <a href="https://www.youtube.com/watch?v=_sBB-O8fqP4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Turtle hand fighting, sit out and back prevention @Burybjj</strong> · 2:34 · <a href="https://www.youtube.com/watch?v=4XBkuhgMhUI" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

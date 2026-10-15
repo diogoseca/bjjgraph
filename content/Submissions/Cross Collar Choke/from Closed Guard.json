@@ -441,35 +441,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "dfP-Ov8FBUo",
-        "title": "Cross Collar Chokes breakdown",
-        "by": "Roger Gracie",
-        "vertical": false,
-        "channel": "Jiu Jitsu Moves",
-        "duration": 80,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "X93MdMlmrUg",
-        "title": "The one thing that makes the cross collar choke easy",
-        "by": "Henry Akins",
-        "vertical": false,
-        "channel": "Henry Akins' Hidden Jiu-Jitsu",
-        "duration": 77,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "TDBe1SHzHKo",
-        "title": "Finishing when you can't pull them in",
-        "by": "Henry Akins",
-        "vertical": false,
-        "channel": "Henry Akins' Hidden Jiu-Jitsu",
-        "duration": 51,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "from Closed Guard Defender",
@@ -658,21 +630,11 @@
     "clips": [
       {
         "id": "QIRF2B9riAA",
-        "title": "Cross choke defense from guard: two tips",
-        "by": "Wayne Sniffen",
-        "vertical": false,
+        "title": "Cross Choke Defense from Guard - Two Quick Tips",
         "channel": "Wayne Sniffen",
         "duration": 105,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "be-iHHhJGng",
-        "title": "Juji Jime escape: cross collar choke defense",
-        "by": "Peter Mettler",
         "vertical": false,
-        "channel": "Peter Mettler Martial Arts",
-        "duration": 130,
-        "verified": "2026-07-14"
+        "front": true
       }
     ]
   }

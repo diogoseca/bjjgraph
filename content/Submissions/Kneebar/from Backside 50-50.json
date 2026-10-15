@@ -472,26 +472,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "v4lhLkKgVvU",
-        "title": "Go Behind Kneebar",
-        "by": "Craig Jones",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 129,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "DBbSqQf6iCo",
-        "title": "Roll Under to Backside 50/50",
-        "by": "Lachlan Giles",
-        "vertical": false,
-        "channel": "BJJ focus camps",
-        "duration": 110,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "from Backside 50-50 Defender",
@@ -674,25 +655,6 @@
         "description": "Positional sparring rounds starting from Backside 50-50 bottom while your partner attacks with heel hooks and kneebars at progressive intensity. Integrate recognition, transition window exploitation, grip defense, and escape sequences into live rolling. Track which defensive responses work at each stage of the kneebar entry and develop your personal defensive hierarchy based on your reaction time and flexibility."
       }
     ],
-    "clips": [
-      {
-        "id": "wBRG0fY94fs",
-        "title": "How to Defend a Kneebar",
-        "by": "Revolution BJJ",
-        "vertical": false,
-        "channel": "Revolution BJJ",
-        "duration": 59,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "4V3sDIXGfJs",
-        "title": "Backside 50/50 Counter to the Back",
-        "by": "Thunderdome BJJ",
-        "vertical": false,
-        "channel": "Thunderdome BJJ",
-        "duration": 24,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   }
 }

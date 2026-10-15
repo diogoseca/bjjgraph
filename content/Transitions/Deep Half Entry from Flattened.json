@@ -403,35 +403,7 @@
       }
     ],
     "safety_considerations": "The Deep Half Entry from Flattened involves significant spinal flexion and neck positioning during the dive underneath the opponent. Practitioners should develop adequate neck strength and flexibility before attempting this technique under resistance. The transition places your head and neck between the opponent's legs, creating risk of neck compression if the top player drives their weight downward during the entry. Always practice with a cooperative partner first to establish safe movement patterns. Tap immediately if you feel any neck or cervical spine pressure during the entry attempt.",
-    "clips": [
-      {
-        "id": "Dalv3UtxCZ0",
-        "title": "Entering deep half guard from under knee on belly",
-        "by": "Team Daruma Dojo",
-        "vertical": false,
-        "channel": "Team Daruma Dojo",
-        "duration": 68,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "_IGB9jEvXfo",
-        "title": "Low grip and high grip for deep half guard",
-        "by": "Jeff Glover",
-        "vertical": false,
-        "channel": "The Jiu Jitsu Encyclopedia",
-        "duration": 42,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "ZQzg3TnzMJI",
-        "title": "Deep half guard sweep from under pressure",
-        "by": "Kyle Dimmitt",
-        "vertical": false,
-        "channel": "Kyle Dimmitt",
-        "duration": 42,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Deep Half Entry from Flattened Defender",
@@ -610,22 +582,12 @@
     ],
     "clips": [
       {
-        "id": "qqheiIgQrfY",
-        "title": "Passing the guard against a deep half entry",
-        "by": "Koji Shibamoto",
-        "vertical": false,
-        "channel": "トライフォース柔術アカデミー / Tri-force Jiu-jitsu Academy",
-        "duration": 33,
-        "verified": "2026-07-15"
-      },
-      {
         "id": "K0XMj9BNJ8U",
-        "title": "Knee slide pass counter to deep half entry",
-        "by": "Scott Ryan Chiriboga",
-        "vertical": false,
+        "title": "Knee Slide Pass Counter to Deep Half Guard Entry",
         "channel": "Scott Ryan Chiriboga",
         "duration": 133,
-        "verified": "2026-07-15"
+        "vertical": false,
+        "front": true
       }
     ]
   }

@@ -155,39 +155,6 @@ description: "Master Backside 50-50 Bottom in BJJ. Complete guide covering defen
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Backside 50-50 (Bottom) \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Roll Under Counter to Backside 50/50",
-      "description": "Backside 50-50 (Bottom) film study: Roll Under Counter to Backside 50/50, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/DBbSqQf6iCo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/DBbSqQf6iCo",
-      "url": "https://www.youtube.com/watch?v=DBbSqQf6iCo",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT110S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Escape and Counter the Backside 50/50",
-      "description": "Backside 50-50 (Bottom) film study: Escape and Counter the Backside 50/50, taught by Matrix Jiu Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/RTzSOGlxSWg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/RTzSOGlxSWg",
-      "url": "https://www.youtube.com/watch?v=RTzSOGlxSWg",
-      "creator": { "@type": "Person", "name": "Matrix Jiu Jitsu" },
-      "duration": "PT240S"
-    }
-  ]
-}
-</script>
-
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -202,32 +169,6 @@ Backside 50-50 Bottom is common in no-gi grappling and leg lock-focused competit
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Backside 50-50 (Bottom) in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=DBbSqQf6iCo)
-
-<p class="clip-credit"><strong>Roll Under Counter to Backside 50/50</strong> — taught by Lachlan Giles · 1:50 · <a href="https://www.youtube.com/watch?v=DBbSqQf6iCo" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=RTzSOGlxSWg)
-
-<p class="clip-credit"><strong>Escape and Counter the Backside 50/50</strong> — taught by Matrix Jiu Jitsu · 4:00 · <a href="https://www.youtube.com/watch?v=RTzSOGlxSWg" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="state-invariants" class="content-section">

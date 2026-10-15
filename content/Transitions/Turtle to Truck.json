@@ -420,35 +420,7 @@
       }
     ],
     "safety_considerations": "When practicing the Truck transition, ensure controlled execution to avoid knee injuries to both yourself and your training partner. The leg triangle configuration can create significant torque on the knee joint, so apply pressure gradually and release immediately when partner taps. During drilling, communicate clearly about resistance levels to prevent sudden explosive movements that could cause injury during the leg insertion phase. Be particularly careful when rolling or adjusting position while your legs are triangled, as awkward weight distribution can strain your own knee ligaments. Never force the leg triangle if the angle is wrong - reset and try again rather than cranking it into place. Partners in turtle should tap early if they feel knee pressure during the entry to prevent injury before the position is fully established. The transition itself is relatively safe when executed properly, but the subsequent submissions (Twister and calf slicers) require additional safety awareness and should only be practiced with experienced partners who understand the dangers.",
-    "clips": [
-      {
-        "id": "sCBGkcJCQYY",
-        "title": "The truck in transition from turtle",
-        "by": "Eddie Bravo",
-        "vertical": false,
-        "channel": "Eddie Bravo",
-        "duration": 61,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "XLvbK52hzqM",
-        "title": "Truck back take against a stubborn turtle",
-        "by": "Patrick Donabedian",
-        "vertical": false,
-        "channel": "Patrick Donabedian BJJ",
-        "duration": 63,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "aeD1fb1X6Oc",
-        "title": "Basic truck entry demo",
-        "by": "Firas Zahabi & Georges St-Pierre",
-        "vertical": false,
-        "channel": "Tristar Gym",
-        "duration": 93,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Turtle to Truck Defender",
@@ -634,21 +606,11 @@
     "clips": [
       {
         "id": "_0TeNLuarPU",
-        "title": "Hip lock to counter the truck",
-        "by": "Christopher Hendrick",
-        "vertical": false,
+        "title": "Hip Lock Countering the Truck",
         "channel": "Christopher Hendrick",
         "duration": 35,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "Y-asW9hrB3o",
-        "title": "Truck vs the knee-elbow escape",
-        "by": "Matrix Jiu Jitsu",
         "vertical": false,
-        "channel": "Matrix Jiu Jitsu",
-        "duration": 129,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },

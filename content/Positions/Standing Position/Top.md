@@ -165,35 +165,12 @@ description: "Master standing position in BJJ. Complete guide covering grips, ta
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Signature Double Leg",
-      "description": "Standing Position (Top) film study: Signature Double Leg, taught by Jordan Burroughs.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Wy-a8VfNsVo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Wy-a8VfNsVo",
-      "url": "https://www.youtube.com/watch?v=Wy-a8VfNsVo",
-      "creator": { "@type": "Person", "name": "Jordan Burroughs" },
-      "duration": "PT73S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Double Leg Takedown Technique",
-      "description": "Standing Position (Top) film study: Double Leg Takedown Technique, taught by Predators MMA and BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/dhZgpDHCARw/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/dhZgpDHCARw",
-      "url": "https://www.youtube.com/watch?v=dhZgpDHCARw",
-      "creator": { "@type": "Person", "name": "Predators MMA and BJJ" },
-      "duration": "PT15S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Favorite Takedowns for BJJ",
-      "description": "Standing Position (Top) film study: Favorite Takedowns for BJJ, taught by Chewjitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/RLU7Yt1jN7s/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/RLU7Yt1jN7s",
-      "url": "https://www.youtube.com/watch?v=RLU7Yt1jN7s",
-      "creator": { "@type": "Person", "name": "Chewjitsu" },
-      "duration": "PT61S"
+      "name": "Judo Basic Grip fighting 101: right vs right",
+      "description": "Standing Position (Top) film study: Judo Basic Grip fighting 101: right vs right.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/67RpDNWRPDU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/67RpDNWRPDU",
+      "url": "https://www.youtube.com/watch?v=67RpDNWRPDU",
+      "duration": "PT356S"
     }
   ]
 }
@@ -219,25 +196,9 @@ The Standing Position represents the fundamental neutral starting state in BJJ a
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=Wy-a8VfNsVo)
+![](https://www.youtube.com/watch?v=67RpDNWRPDU)
 
-<p class="clip-credit"><strong>Signature Double Leg</strong> — taught by Jordan Burroughs · 1:13 · <a href="https://www.youtube.com/watch?v=Wy-a8VfNsVo" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=dhZgpDHCARw)
-
-<p class="clip-credit"><strong>Double Leg Takedown Technique</strong> — taught by Predators MMA and BJJ · 0:15 · <a href="https://www.youtube.com/watch?v=dhZgpDHCARw" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=RLU7Yt1jN7s)
-
-<p class="clip-credit"><strong>Favorite Takedowns for BJJ</strong> — taught by Chewjitsu · 1:01 · <a href="https://www.youtube.com/watch?v=RLU7Yt1jN7s" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Judo Basic Grip fighting 101: right vs right</strong> · 5:56 · <a href="https://www.youtube.com/watch?v=67RpDNWRPDU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -144,35 +144,12 @@ description: "Master defending against the bottom player's framing attempts from
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Dealing with frames from top side control",
-      "description": "Frame from Side Control (Defender) film study: Dealing with frames from top side control, taught by Fox Den Martial Arts.",
+      "name": "Side Control - Dealing with Frames and Establishing a Chest to Chest Pin",
+      "description": "Frame from Side Control (Defender) film study: Side Control - Dealing with Frames and Establishing a Chest to Chest Pin.",
       "thumbnailUrl": "https://i.ytimg.com/vi/e8OUw05ZBwo/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/e8OUw05ZBwo",
       "url": "https://www.youtube.com/watch?v=e8OUw05ZBwo",
-      "creator": { "@type": "Person", "name": "Fox Den Martial Arts" },
       "duration": "PT245S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Killing the near side arm from side control",
-      "description": "Frame from Side Control (Defender) film study: Killing the near side arm from side control, taught by Inverted Gear.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/LUxMvOFbxIY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/LUxMvOFbxIY",
-      "url": "https://www.youtube.com/watch?v=LUxMvOFbxIY",
-      "creator": { "@type": "Person", "name": "Inverted Gear" },
-      "duration": "PT123S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Passing against the elbow and knee frame",
-      "description": "Frame from Side Control (Defender) film study: Passing against the elbow and knee frame, taught by Eric DeVere.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/AErzgTWDSnE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/AErzgTWDSnE",
-      "url": "https://www.youtube.com/watch?v=AErzgTWDSnE",
-      "creator": { "@type": "Person", "name": "Eric DeVere" },
-      "duration": "PT287S"
     }
   ]
 }
@@ -202,23 +179,7 @@ As the defender, you are the top player in Side Control attempting to complete y
 
 ![](https://www.youtube.com/watch?v=e8OUw05ZBwo)
 
-<p class="clip-credit"><strong>Dealing with frames from top side control</strong> — taught by Fox Den Martial Arts · 4:05 · <a href="https://www.youtube.com/watch?v=e8OUw05ZBwo" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=LUxMvOFbxIY)
-
-<p class="clip-credit"><strong>Killing the near side arm from side control</strong> — taught by Inverted Gear · 2:03 · <a href="https://www.youtube.com/watch?v=LUxMvOFbxIY" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=AErzgTWDSnE)
-
-<p class="clip-credit"><strong>Passing against the elbow and knee frame</strong> — taught by Eric DeVere · 4:47 · <a href="https://www.youtube.com/watch?v=AErzgTWDSnE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Side Control - Dealing with Frames and Establishing a Chest to Chest Pin</strong> · 4:05 · <a href="https://www.youtube.com/watch?v=e8OUw05ZBwo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

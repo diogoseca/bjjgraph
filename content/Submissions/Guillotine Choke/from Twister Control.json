@@ -432,26 +432,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "odT3-cVWXdc",
-        "title": "Twister side attacks (MTS 207)",
-        "by": "Eddie Bravo",
-        "vertical": false,
-        "channel": "Eddie Bravo",
-        "duration": 61,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "k3GU_7rKFYk",
-        "title": "Alternate guillotine / twister entry",
-        "by": "Catch Wrestling Alliance",
-        "vertical": false,
-        "channel": "Catch Wrestling Alliance",
-        "duration": 193,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Guillotine Choke from Twister Control Defender",
@@ -630,34 +611,6 @@
         "description": "Full positional sparring starting from Twister Control bottom. Partner attacks freely with Twister, guillotine, and other options. Practice the full defensive sequence: prevent the Twister, protect chin on turn-in, fight the guillotine grip, escape or tap. Builds complete defensive pattern recognition."
       }
     ],
-    "clips": [
-      {
-        "id": "8okq4cIHMO0",
-        "title": "Standing guillotine escape",
-        "by": "dogtownman",
-        "vertical": false,
-        "channel": "dogtownman",
-        "duration": 44,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "v-CRBRea_KY",
-        "title": "Guillotine choke escape and defense",
-        "by": "Chewjitsu",
-        "vertical": false,
-        "channel": "Chewjitsu",
-        "duration": 319,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "46LaXNe6rJo",
-        "title": "Guillotine defence details",
-        "by": "Wim Deputter",
-        "vertical": false,
-        "channel": "Wim Deputter BJJ",
-        "duration": 594,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

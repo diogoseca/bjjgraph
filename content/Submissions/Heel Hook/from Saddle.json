@@ -466,31 +466,12 @@
     ],
     "clips": [
       {
-        "id": "QfNKQzy3V_w",
-        "title": "Arm Saddle to Inside Heel Hook Flow Drill",
-        "by": "Factory Fresh Jiu Jitsu",
-        "vertical": false,
-        "channel": "Factory Fresh Jiu Jitsu",
-        "duration": 21,
-        "verified": "2026-07-14"
-      },
-      {
         "id": "n6EoUkDwUVc",
-        "title": "4 Variations of Heel Hook Finish From Saddle",
-        "by": "The Grappling Bloke",
-        "vertical": false,
+        "title": "4 Variations Of Heel Hook Finish From Saddle",
         "channel": "The Grappling Bloke",
-        "duration": 102,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "6gu-n4P9JXo",
-        "title": "Heel Hook Breaking Mechanics",
-        "by": "Craig Jones",
+        "duration": 101,
         "vertical": false,
-        "channel": "Altay Pirge",
-        "duration": 77,
-        "verified": "2026-07-14"
+        "front": true
       }
     ]
   },
@@ -682,31 +663,11 @@
     ],
     "clips": [
       {
-        "id": "pCX38nCUGD0",
-        "title": "Saddle Heel Hook Escape to 50/50",
-        "by": "ZombieProofBJJ",
-        "vertical": false,
-        "channel": "ZombieProofBJJ",
-        "duration": 65,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "upCoem5F0cU",
-        "title": "Saddle Heel Hook Escape Options",
-        "by": "ZombieProofBJJ",
-        "vertical": false,
-        "channel": "ZombieProofBJJ",
-        "duration": 92,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "v3w0qXLKxug",
-        "title": "Defending Heel Hooks",
-        "by": "Lachlan Giles",
-        "vertical": false,
-        "channel": "Absolute MMA St Kilda - Melbourne",
-        "duration": 92,
-        "verified": "2026-07-14"
+        "id": "1-17BEM8qgI",
+        "title": "Escaping inside sankaku and countering the heel hook.",
+        "channel": "BJJ4Breakfast",
+        "duration": 282,
+        "front": true
       }
     ]
   }

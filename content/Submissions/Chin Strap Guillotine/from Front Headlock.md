@@ -46,35 +46,12 @@ description: "Master the Chin Strap Guillotine in BJJ. High-control choke target
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Guillotine From Front Headlock",
-      "description": "Chin Strap Guillotine from Front Headlock film study: Guillotine From Front Headlock, taught by Chris Jones.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/GgXRLKAm9pY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/GgXRLKAm9pY",
-      "url": "https://www.youtube.com/watch?v=GgXRLKAm9pY",
-      "creator": { "@type": "Person", "name": "Chris Jones" },
-      "duration": "PT97S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Chin Strap Basics",
-      "description": "Chin Strap Guillotine from Front Headlock film study: Chin Strap Basics, taught by Dante Leon.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/7be6L0alFug/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/7be6L0alFug",
-      "url": "https://www.youtube.com/watch?v=7be6L0alFug",
-      "creator": { "@type": "Person", "name": "Dante Leon" },
-      "duration": "PT166S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Diving Guillotine",
-      "description": "Chin Strap Guillotine from Front Headlock film study: Diving Guillotine, taught by Marcelo Garcia.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/ihbFhV4DA-M/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/ihbFhV4DA-M",
-      "url": "https://www.youtube.com/watch?v=ihbFhV4DA-M",
-      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
-      "duration": "PT179S"
+      "name": "Chin Strap Guillotine(Front headlock)",
+      "description": "Chin Strap Guillotine from Front Headlock film study: Chin Strap Guillotine(Front headlock).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/KE57Jr4MerA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/KE57Jr4MerA",
+      "url": "https://www.youtube.com/watch?v=KE57Jr4MerA",
+      "duration": "PT129S"
     }
   ]
 }
@@ -135,25 +112,9 @@ The submission works exceptionally well in no-gi situations where collar grips a
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=GgXRLKAm9pY)
+![](https://www.youtube.com/watch?v=KE57Jr4MerA)
 
-<p class="clip-credit"><strong>Guillotine From Front Headlock</strong> — taught by Chris Jones · 1:37 · <a href="https://www.youtube.com/watch?v=GgXRLKAm9pY" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=7be6L0alFug)
-
-<p class="clip-credit"><strong>Chin Strap Basics</strong> — taught by Dante Leon · 2:46 · <a href="https://www.youtube.com/watch?v=7be6L0alFug" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=ihbFhV4DA-M)
-
-<p class="clip-credit"><strong>Diving Guillotine</strong> — taught by Marcelo Garcia · 2:59 · <a href="https://www.youtube.com/watch?v=ihbFhV4DA-M" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Chin Strap Guillotine(Front headlock)</strong> · 2:09 · <a href="https://www.youtube.com/watch?v=KE57Jr4MerA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

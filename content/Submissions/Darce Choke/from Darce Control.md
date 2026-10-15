@@ -46,24 +46,32 @@ description: "Master the Darce Choke finish from Darce Control position. Learn g
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Side Control D\u0027Arce Choke (No Gi)",
-      "description": "Darce Choke from Darce Control film study: Side Control D\u0027Arce Choke (No Gi), taught by ZombieProofBJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/ukb_hx28qsM/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/ukb_hx28qsM",
-      "url": "https://www.youtube.com/watch?v=ukb_hx28qsM",
-      "creator": { "@type": "Person", "name": "ZombieProofBJJ" },
-      "duration": "PT74S"
+      "name": "Move of the Day: D\u0027arce Defense - Belly Down",
+      "description": "Darce Choke from Darce Control film study: Move of the Day: D\u0027arce Defense - Belly Down.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/cmaIzjv3QG8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/cmaIzjv3QG8",
+      "url": "https://www.youtube.com/watch?v=cmaIzjv3QG8",
+      "duration": "PT38S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Side control to north-south D\u0027Arce",
-      "description": "Darce Choke from Darce Control film study: Side control to north-south D\u0027Arce, taught by Gracie Westchase.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/22EYQ2uhxQw/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/22EYQ2uhxQw",
-      "url": "https://www.youtube.com/watch?v=22EYQ2uhxQw",
-      "creator": { "@type": "Person", "name": "Gracie Westchase" },
-      "duration": "PT75S"
+      "name": "Darce Choke defense",
+      "description": "Darce Choke from Darce Control film study: Darce Choke defense.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/d1YBV8UTKds/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/d1YBV8UTKds",
+      "url": "https://www.youtube.com/watch?v=d1YBV8UTKds",
+      "duration": "PT52S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Darce Escape",
+      "description": "Darce Choke from Darce Control film study: Darce Escape.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/iNZpCbutyrM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/iNZpCbutyrM",
+      "url": "https://www.youtube.com/watch?v=iNZpCbutyrM",
+      "duration": "PT53S"
     }
   ]
 }
@@ -126,17 +134,25 @@ From a strategic standpoint, the Darce finish from established control carries a
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=ukb_hx28qsM)
+![](https://www.youtube.com/watch?v=cmaIzjv3QG8)
 
-<p class="clip-credit"><strong>Side Control D&#39;Arce Choke (No Gi)</strong> — taught by ZombieProofBJJ · 1:14 · <a href="https://www.youtube.com/watch?v=ukb_hx28qsM" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Move of the Day: D&#39;arce Defense - Belly Down</strong> · 0:38 · <a href="https://www.youtube.com/watch?v=cmaIzjv3QG8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=22EYQ2uhxQw)
+![](https://www.youtube.com/watch?v=d1YBV8UTKds)
 
-<p class="clip-credit"><strong>Side control to north-south D&#39;Arce</strong> — taught by Gracie Westchase · 1:15 · <a href="https://www.youtube.com/watch?v=22EYQ2uhxQw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Darce Choke defense</strong> · 0:52 · <a href="https://www.youtube.com/watch?v=d1YBV8UTKds" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=iNZpCbutyrM)
+
+<p class="clip-credit"><strong>Darce Escape</strong> · 0:53 · <a href="https://www.youtube.com/watch?v=iNZpCbutyrM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

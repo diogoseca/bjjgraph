@@ -160,24 +160,12 @@ description: "Complete guide to defending the Honey Hole to Saddle transition. L
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Three escapes from the saddle / honey hole",
-      "description": "Honey Hole to Saddle (Defender) film study: Three escapes from the saddle / honey hole, taught by Because Jitsu.",
+      "name": "3 Escapes To Saddle, 4-11, Honey hole, Inside Sankaku",
+      "description": "Honey Hole to Saddle (Defender) film study: 3 Escapes To Saddle, 4-11, Honey hole, Inside Sankaku.",
       "thumbnailUrl": "https://i.ytimg.com/vi/8D4EFJ3kG9w/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/8D4EFJ3kG9w",
       "url": "https://www.youtube.com/watch?v=8D4EFJ3kG9w",
-      "creator": { "@type": "Person", "name": "Because Jitsu" },
       "duration": "PT200S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Saddle escape to leg drag drill",
-      "description": "Honey Hole to Saddle (Defender) film study: Saddle escape to leg drag drill, taught by Travis Anderson.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/C3bPRoMwGPo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/C3bPRoMwGPo",
-      "url": "https://www.youtube.com/watch?v=C3bPRoMwGPo",
-      "creator": { "@type": "Person", "name": "Travis Anderson" },
-      "duration": "PT70S"
     }
   ]
 }
@@ -207,15 +195,7 @@ Defending the Honey Hole to Saddle transition requires recognizing the narrow wi
 
 ![](https://www.youtube.com/watch?v=8D4EFJ3kG9w)
 
-<p class="clip-credit"><strong>Three escapes from the saddle / honey hole</strong> — taught by Because Jitsu · 3:20 · <a href="https://www.youtube.com/watch?v=8D4EFJ3kG9w" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=C3bPRoMwGPo)
-
-<p class="clip-credit"><strong>Saddle escape to leg drag drill</strong> — taught by Travis Anderson · 1:10 · <a href="https://www.youtube.com/watch?v=C3bPRoMwGPo" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>3 Escapes To Saddle, 4-11, Honey hole, Inside Sankaku</strong> · 3:20 · <a href="https://www.youtube.com/watch?v=8D4EFJ3kG9w" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

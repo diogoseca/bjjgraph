@@ -447,35 +447,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "5POG6rDBVLM",
-        "title": "Ushiro Kesa Gatame Arm Attack Roll Over",
-        "by": "Carlos Machado",
-        "vertical": false,
-        "channel": "Carlos Machado",
-        "duration": 113,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "PSgn9TBgwfc",
-        "title": "Side Guard to Te Gatame (Arm Triangle)",
-        "by": "Gordon Ryan",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 77,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "tfykooWW-xk",
-        "title": "Triangle Attacks From Kuzure Kesa Gatame",
-        "by": "Chokes And More",
-        "vertical": false,
-        "channel": "Chokes And More",
-        "duration": 66,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "from Ushiro Kesa Gatame Defender",
@@ -662,34 +634,6 @@
         "description": "Partner starts in Ushiro Kesa Gatame top with full offensive options including arm triangle, Americana, Kimura, and positional transitions. Defend all threats with emphasis on far-arm awareness to prevent the arm triangle setup while still working standard escape sequences. Tap early when caught to build good safety habits. 5-minute rounds, reset on escape or submission."
       }
     ],
-    "clips": [
-      {
-        "id": "D2vkZGTD78I",
-        "title": "The Fastest Escape Out of the Arm Triangle",
-        "by": "Adam Bradley",
-        "vertical": false,
-        "channel": "Adam Bradley",
-        "duration": 31,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "Nspz2EAIQ_k",
-        "title": "Arm Triangle Escape",
-        "by": "Crucifix Mike",
-        "vertical": false,
-        "channel": "Crucifix Mike",
-        "duration": 27,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "CmXniIPFMhU",
-        "title": "Two Arm Triangle (Kata Gatame) Escapes",
-        "by": "Adam Urbanski",
-        "vertical": false,
-        "channel": "Adam Urbanski MMA",
-        "duration": 89,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   }
 }

@@ -362,26 +362,7 @@
       }
     ],
     "safety_considerations": "Guillotine chokes compress the trachea and carotid arteries, posing risk of unconsciousness within seconds. During drilling, tap early and often when caught in tight guillotines rather than risking injury by fighting through deep chokes. Partners should apply controlled pressure during training progressions and release immediately upon tap. Never attempt to muscle through a fully locked guillotine with violent posture extension, as this can cause cervical spine strain or neck injury. If you feel lightheadedness, tingling, or vision changes, tap immediately regardless of escape progress. When practicing the posture escape at full resistance, communicate with your partner about pressure levels.",
-    "clips": [
-      {
-        "id": "8okq4cIHMO0",
-        "title": "Standing guillotine escape",
-        "by": "dogtownman",
-        "vertical": false,
-        "channel": "dogtownman",
-        "duration": 44,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "8TsrMk-cwHs",
-        "title": "Standing guillotine defense with two takedowns",
-        "by": "Chewjitsu",
-        "vertical": false,
-        "channel": "Chewjitsu",
-        "duration": 215,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Guillotine Escape via Posture Defender",
@@ -537,25 +518,6 @@
         "description": "Positional sparring starting in guillotine control bottom with the opponent attempting to escape using any method. Work to finish the guillotine, sweep to mount, or retain guard if the choke is escaped. Track success rate across rounds and identify which defensive adjustments are most effective."
       }
     ],
-    "clips": [
-      {
-        "id": "9U5nyBImGj4",
-        "title": "High elbow guillotine (Marcelotine) mechanics",
-        "by": "Wrecking Crew BJJ",
-        "vertical": false,
-        "channel": "Wrecking Crew BJJ",
-        "duration": 45,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "NUnTxPvjCa0",
-        "title": "Marcelotine choke demonstration",
-        "by": "Marcelo Garcia",
-        "vertical": false,
-        "channel": "stuartcooperfilms",
-        "duration": 73,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

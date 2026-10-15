@@ -162,35 +162,12 @@ description: "Defend against the heel hook from Honey Hole with early recognitio
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "How to escape the honey hole",
-      "description": "Heel Hook from Honey Hole (Defender) film study: How to escape the honey hole, taught by Vagner Rocha.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/gEEHqiSznS4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/gEEHqiSznS4",
-      "url": "https://www.youtube.com/watch?v=gEEHqiSznS4",
-      "creator": { "@type": "Person", "name": "Vagner Rocha" },
-      "duration": "PT60S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Escaping honey hole (inside sankaku)",
-      "description": "Heel Hook from Honey Hole (Defender) film study: Escaping honey hole (inside sankaku), taught by Oneonta Jiu Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/PhS9Xj-4KbA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/PhS9Xj-4KbA",
-      "url": "https://www.youtube.com/watch?v=PhS9Xj-4KbA",
-      "creator": { "@type": "Person", "name": "Oneonta Jiu Jitsu" },
-      "duration": "PT56S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Honey hole escape",
-      "description": "Heel Hook from Honey Hole (Defender) film study: Honey hole escape, taught by 10th Planet Colorado Springs.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/i54XMDe--qI/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/i54XMDe--qI",
-      "url": "https://www.youtube.com/watch?v=i54XMDe--qI",
-      "creator": { "@type": "Person", "name": "10th Planet Colorado Springs" },
-      "duration": "PT105S"
+      "name": "Escaping inside sankaku and countering the heel hook.",
+      "description": "Heel Hook from Honey Hole (Defender) film study: Escaping inside sankaku and countering the heel hook..",
+      "thumbnailUrl": "https://i.ytimg.com/vi/1-17BEM8qgI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/1-17BEM8qgI",
+      "url": "https://www.youtube.com/watch?v=1-17BEM8qgI",
+      "duration": "PT282S"
     }
   ]
 }
@@ -219,25 +196,9 @@ Defending the heel hook from Honey Hole is one of the most urgent defensive chal
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=gEEHqiSznS4)
+![](https://www.youtube.com/watch?v=1-17BEM8qgI)
 
-<p class="clip-credit"><strong>How to escape the honey hole</strong> — taught by Vagner Rocha · 1:00 · <a href="https://www.youtube.com/watch?v=gEEHqiSznS4" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=PhS9Xj-4KbA)
-
-<p class="clip-credit"><strong>Escaping honey hole (inside sankaku)</strong> — taught by Oneonta Jiu Jitsu · 0:56 · <a href="https://www.youtube.com/watch?v=PhS9Xj-4KbA" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=i54XMDe--qI)
-
-<p class="clip-credit"><strong>Honey hole escape</strong> — taught by 10th Planet Colorado Springs · 1:45 · <a href="https://www.youtube.com/watch?v=i54XMDe--qI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Escaping inside sankaku and countering the heel hook.</strong> · 4:42 · <a href="https://www.youtube.com/watch?v=1-17BEM8qgI" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
