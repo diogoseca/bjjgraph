@@ -1,6 +1,15 @@
 import { test, expect, type Page } from "@playwright/test"
 import { journey } from "../dsl"
 
+// STALE TIMING — reading-back-race.md (fixbots, 2026-10-15): the unchanged
+// Back case failed 3/20 on dc72b958c, before escape, and 0/20 on f006d73b8.
+// Quartz remounts the app after the outgoing cached reader publishes its path;
+// the old path check and the next global state read could name different apps.
+// Holding HTML, then the new graph, reproduced it on both heads; all 6 traced
+// cases converged after the replacement reader became ready.
+// Observe real nav + replacement-reader publication, then assert that SAME
+// instance's state once. Intent and pause are never readiness predicates.
+
 /** Complete article journeys for #289. Published HTML is real; the DSL controls
  * gameplay only. Historical PRE-OWNERQ1 controls, 2026-10-09: 24 final variants
  * rejected by 44 assertion failures, with emitted-byte differentials checked.
@@ -135,7 +144,38 @@ test("@curated reading interaction waits past the question window without a miss
   expect(await state(page), "article keys never activate or resume the game").toEqual(reading)
 })
 
-test("@curated reading perspectives and Back retain canonical content without gameplay", async ({ page }) => {
+async function observeReadingBack(page: Page) {
+  await page.evaluate(() => {
+    const w = window as any
+    const observation = w.__readingBack = { outgoing: w.__neural, outgoingRoot: w.__neural._readerEl, published: false, url: null }
+    document.addEventListener('nav', (event: any) => {
+      observation.published = true
+      observation.url = event.detail.url
+    }, { once: true })
+  })
+}
+
+async function replacementReadingSnapshot(page: Page) {
+  const ready = await page.waitForFunction(path => {
+    const w = window as any, nav = w.__readingBack, app = w.__neural, root = app?._readerEl
+    return nav?.published && '/' + nav.url === path && app !== nav.outgoing && !app?.__ngDestroyed &&
+      root?.isConnected && root === app._reader?.root && root.dataset.readerReady === 'true' && root.dataset.readerPath === path
+      ? { app, root } : false
+  }, KNEE, { timeout: 5000 }) // Same bound as the original toHaveAttribute assertion.
+  // Retain the app and root returned by readiness. A later global assignment
+  // cannot silently substitute a different generation in this single snapshot.
+  const snapshot = await ready.evaluate(({ app, root }: any) => ({
+    current: app === (window as any).__neural,
+    replacement: app !== (window as any).__readingBack.outgoing,
+    connected: root.isConnected && root === app._readerEl && root === app._reader.root,
+    path: root.dataset.readerPath, ready: root.dataset.readerReady,
+    intent: !!app._readerIntent, paused: app.paused, clock: app._decision?.remaining ?? null,
+  }))
+  await ready.dispose()
+  return snapshot
+}
+
+for (const forced of [false, true]) test("@curated reading perspectives and Back retain canonical content without gameplay" + (forced ? " with HTML then graph held" : ""), async ({ page }) => {
   const j = journey(page)
   await j.boot(KNEE, { initialState: { v: 2, settings: { readingFocus: true }, settingsAt: { readingFocus: Date.now() } } })
   await j.advance(5000)
@@ -152,9 +192,42 @@ test("@curated reading perspectives and Back retain canonical content without ga
   }, KNEE + "/Defender")
   expect(missing, "navigation cannot reuse the previous page's HTML under a new path").toEqual([])
   expect(await state(page)).toMatchObject({ intent: true, paused: true, clock: null })
-  await page.goBack()
-  await expect(page.locator(READY)).toHaveAttribute("data-reader-path", KNEE)
-  expect(await state(page)).toMatchObject({ intent: true, paused: true, clock: null })
+  let releaseHTML!: () => void, releaseGraph!: () => void, htmlRequests = 0, graphRequests = 0
+  if (forced) {
+    const html = new Promise<void>(resolve => { releaseHTML = resolve })
+    const graph = new Promise<void>(resolve => { releaseGraph = resolve })
+    // Install only after the perspective/content assertions. These are Back's
+    // actual Quartz HTML request and the replacement app's actual graph fetch.
+    // Match paths, including Back's original boot query/seed URL.
+    await page.route(url => url.pathname === KNEE, async route => { htmlRequests++; await html; await route.fallback() })
+    await page.route(url => url.pathname.endsWith('/graph-data.json'), async route => { graphRequests++; await graph; await route.fallback() })
+  }
+  await observeReadingBack(page)
+  try {
+    await page.goBack()
+    if (forced) {
+      await expect.poll(() => htmlRequests).toBe(1)
+      await page.waitForFunction(path => {
+        const w = window as any, old = w.__readingBack.outgoing, root = w.__readingBack.outgoingRoot
+        return w.__neural === old && root?.isConnected && root.dataset.readerReady === 'true' && root.dataset.readerPath === path
+      }, KNEE, { timeout: 5000 })
+      releaseHTML()
+      await expect.poll(() => graphRequests).toBe(1)
+      const loading = await page.evaluate(() => {
+        const w = window as any, app = w.__neural, oldRoot = w.__readingBack.outgoingRoot
+        return { nav: w.__readingBack.published, replacement: app !== w.__readingBack.outgoing,
+          oldPublished: oldRoot.dataset.readerReady === 'true' && oldRoot.dataset.readerPath === '/Transitions/Knee-Slice-Pass',
+          connected: !!app._readerEl?.isConnected, nodes: app.nodes?.length ?? 0 }
+      })
+      expect(loading, 'the outgoing article is not evidence that the replacement has loaded').toEqual({ nav: true, replacement: true, oldPublished: true, connected: false, nodes: 0 })
+      releaseGraph()
+    }
+    const restored = await replacementReadingSnapshot(page)
+    expect(restored).toMatchObject({ current: true, replacement: true, connected: true, path: KNEE, ready: 'true' })
+    expect(restored).toMatchObject({ intent: true, paused: true, clock: null })
+  } finally {
+    releaseHTML?.(); releaseGraph?.()
+  }
 })
 
 test("@curated an automatic game article follows the bottom player's perspective", async ({ page }) => {

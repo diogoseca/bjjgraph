@@ -49,6 +49,11 @@
   ],
   "assertion_migrations": [
     {
+      "file": "e2e/journeys/reading-mode.spec.ts",
+      "test": "reading perspectives and Back retain canonical content without gameplay",
+      "change": "STALE TIMING, fixbots reading-back-race.md: the unchanged test failed 3/20 before escape on dc72b958c and 0/20 on f006d73b8. Preserve the original perspective click, complete content checks and Back order. Observe Quartz's real nav publication and the outgoing app; wait only for the replacement instance's own connected reader to publish the canonical ready path, then snapshot that same instance once and assert unchanged intent:true, paused:true, clock:null. A forced HTML-then-graph hold reproduces the old-ready/new-loading boundary. No sleep, retry, widened bound or wait on the asserted state."
+    },
+    {
       "file": "e2e/journeys/film-row-arrows.spec.ts",
       "test": "all film-row cases",
       "change": "Use keepTutorial:true so boot does not artificially complete all White objectives and mint an unrelated reward. The 390px native trace measured that reward's deliberate dismiss button at x336..366,y110.969..154.969 over the next arrow at x337..381,y108..152; dismissal restored native arrow scrolling. KNOWN UI ISSUE: a real earned reward still collides there; the orchestrator tracks the follow-up. Real new-user progression remains enabled. No hit-test, fade, inset, keyboard, end-state or reduced-motion assertion changes."
