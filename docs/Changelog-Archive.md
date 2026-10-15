@@ -29,6 +29,10 @@ people actually arrive here. Index A answers *"what shipped in vN?"*.
 
 ## Index A — by version
 
+- **v1.227.1** — [A lean reading vault and scoped content provenance](#v12271--a-lean-reading-vault-and-scoped-content-provenance)
+- **v1.227.0** — [Calm defending arrivals and one land card](#v12270--calm-defending-arrivals-and-one-land-card)
+- **v1.227.0 review** — [Defending review corrections](#v12270--defending-review-corrections)
+
 - **v1.225.0** — [A reading-first way through the content](#v12250--a-reading-first-way-through-the-content-issue-289)
 
 - [Integrated Roll documentation consolidation](#integrated-roll-documentation-consolidation-v11980-candidate)
@@ -10953,3 +10957,98 @@ could demote them twice. The full local CI replay passed all 24 executable steps
 including 1,260 unit tests with no skips. The generated ledger still has zero known-reds.
 
 v1.225.2: slugify strength; fail misses.
+
+
+## v1.227.0 — Calm defending arrivals and one land card
+
+Owner 2026-10-15 supersedes v1.134.0: navigation always starts a calm journey. Danger requires
+an opponent catch from another state in the same active journey; cold input cannot create it.
+Async choices retain provenance and reject stale arrivals.
+
+All defenders use `renderLandCard` with their own deck, stack, paging and films. Loop Choke
+shows five defender cards/two clips, not ten attacker cards. Set `_landIdx` before selecting
+films and preserve them through reader intent sync: Kuzure Kesa Gatame Defender gets three
+clips; Knee Slice gets two versus Attacker's three. Five clip gaps show no reel; no clips added.
+
+Permanent/default-on `dangerAnimation` lives beside Answer time. Off/reduced motion retain
+static catch status, countdown and mechanics; audio is unchanged. A real-catch differential
+pins MC, timing, grading, odds and choices. Paging retains spent time/shuffle. Corpus replay
+caught a cold-deck odds mismatch: preserve `_panicKey`'s frozen residency rule independently
+of the displayed deck.
+
+Headers name non-kills (wait tokens/empty reels); synthetic reels pin fallback and immediate
+storage checks catch pagehide-masked saves. Execution holds the card's dock and preview
+through its result. Retired panic code/skin, activation, state and `.pAns` trim
+bytes; no ceiling changed.
+
+
+## v1.227.0 — Defending review corrections
+
+The independent review found that the shared cold recall used current visibility as its
+warm-upgrade guard. Reveal then Space hid the answer and let the pending pool replace an
+already exposed question with fresh MC credit. Recall truth now keeps a monotonic `seen`
+bit across hiding and cached paging; detached recall teardown stays unchanged. Real mouse
+and Space pins fail on the reviewed build both directly and after paging away/back
+(`cardsToday`/`mc_correct` 0 → 1), then pass with no upgrade or credit. Untouched recall still
+upgrades exactly once and can earn its one MC credit.
+
+Wrong and expiry renderer differentials now start both arms at combo 3 and compare all four
+published escape-card percentages by choice identity. Removing the new wrong break, or
+suppressing the break only for the new expiry arm, fails the outcome comparison: combo 3
+instead of 0, no break beat, 64/67% instead of 59/62%. Suppressing the new path's displayed
+percentage writes after grading also fails: 59/62% remains instead of 72/75%, despite equal
+recomputed odds. Deleting only the redundant `refreshEscapeOdds` call is a recorded non-kill.
+The exact old renderer shares head grading/expiry helpers; the differential does not compare
+the beacon, clock DOM disconnection or the full persisted SRS record. Cold fallback is now
+included; paging is a new-renderer pin because the old renderer had no pager.
+
+Danger synchronization leaves the frame loop. Pressure, setting, progress receipt and cached
+motion-query change events update visuals only when the effective state changes; unmount
+removes the listener. The clock remains live. A unit counts zero DOM work on 610 unchanged
+ticks (the reviewed calm case made 610 style/class operations in 122 ticks), and one media
+query. The cloud pin fails before the fix and proves immediate changes without a clock tick.
+Reusing that query also removes three duplicate reduced-motion queries in the app.
+
+Local review gates: 76 focused browser cases, including the reviewer's unchanged momentum
+control and recall-hide; 24/24 CI replay checks, 1,277 unit passes, no skips. The owner assigns
+the full-core gate to the new head's four CI shards. Measured against dev dc72b958c: eager
+gzip +250 B, first-hand gzip +246 B (core +247 B), deferred raw +460 B. No payload allowance
+or accepted checkpoint changes. Earlier archive entries, including the original v1.227.0
+entry, remain verbatim; the approved general archive ceiling stays 913,038.
+
+The first review-fix full CI gate (bd87d42d4) had 907 passes, two failures and five skips.
+J6 was a STALE SPEC: it read frozen entry-time `_panicKey` as the grading identity. Holding
+the real Defender chunk reproduces the same null assertion on 79f7e09c4 and bd87d42d4;
+both render and credit the Defender correctly. J6 now controls cold and warm order and
+checks the exact authored question, mounted MC key and real mouse grade. An attacker-deck
+mutant fails both arms, including the exact rendered-key comparison in the warm arm.
+The 1440px concept failure was a PRE-EXISTING FLAKE: all ten unchanged trials passed on
+each head, but late body/Systems publication detaches the summary on both. Progress
+hydration and motion synchronization do not replace it. The spec waits for publication,
+including the harness's bounded empty-body retry, before its unchanged interaction and
+geometry assertions. Ten delayed-publication stress trials pass. No action retry or
+production change was added for these two CI failures.
+
+
+## v1.227.1 — A lean reading vault and scoped content provenance
+
+Keep `content/` as a browsing vault: new tabs use Reading view, Wikilinks use paths
+from the vault root, and rename/move operations do not rewrite links automatically.
+Remove the vendored Git plugin and its enablement; turn off note-writing plugins in
+both core-plugin snapshots. Desktop/mobile workspace state stays local and ignored.
+Reading view is a default, not filesystem write protection; author content in JSON.
+
+The provenance guard excludes only the root `content/.obsidian` entry. Receipts keep
+the existing envelope for Quartz observers and declare
+`content_scope: content-excluding-obsidian-v1`; their tree hash and counts exclude
+vault metadata. Older receipts must validate their original full tree/counts before
+comparing that verified subset. All other content, including ignored inputs, remains
+guarded. No emitted content or payload change is intended.
+
+Ten disposable-Git scope tests cover vault changes, real Markdown/JSON drift,
+ignored inputs, trust flags and legacy receipts. The existing provenance self-test
+now runs in the unit suite; its tag fixture includes the required listing/link.
+Four gate mutants fail named tests: removing the vault exclusion, excluding all
+JSON, dropping committed-tree comparison, and hiding ignored inputs with
+`--exclude-standard`. The real Quartz observer and 15 capture-driver fixture cases
+also pass. Production gates and ceilings are unchanged.

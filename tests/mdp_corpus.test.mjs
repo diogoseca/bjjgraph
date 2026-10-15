@@ -1,6 +1,9 @@
 // Real corpus target. Default emits current bound metadata from required Neural
 // assets; explicit BJJ_MDP_METADATA_DIR/BJJ_MDP_WIRE_DIR select a measured snapshot.
 // No synthetic fallback, truncation or silently skipped missing input.
+// v1.227.0: the displayed defender deck is independent of the frozen odds bonus.
+// M16 (unconditionally assigning its key to _panicKey) fails the live routing
+// replay below on a cold opponent catch; the original residency rule passes.
 import {test,after} from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync,mkdtempSync,rmSync} from 'node:fs';
@@ -136,7 +139,7 @@ test('live routing replay covers every legal entry, outcome row and defense dest
     const adapter=M.ngMdpCreateGameAdapter(graph,profile,K,{deckReady:{}}),seen=new Set();
     function fork(snapshot){
       const a=Object.create(base);Object.assign(a,{currentPos:base.nodes.findIndex(n=>n.id===snapshot.nodeId),playerRole:snapshot.role,moveCount:snapshot.moveCount,maxMoves:9,_combo:snapshot.combo,_qMod:snapshot.qMod,_posKey:snapshot.positionKey,_panicKey:snapshot.panicKey,_sharp:{},_testAge:0,phase:snapshot.phase,rollLog:[],evRef:{current:null},optionsRef:{current:null}});
-      for(const k of ['fx','setEvent','flashFx','bumpBounce','flare','clearTimers','clearOptions','clearLandCard','_flushSave','applyDeckVisibility','_syncUrl','_prefetchLandDeck','_prefetchDefendDeck','_endArrival','hideCenter','showCenter','setStatus','_saveFlowSoon','_flushLandSkipDebt','_declineLandQ','setPaused','frameNodes','showVignette','killVignette','_syncHandLayer','buildPanicCard','releaseCamera','_disarmLandClock','_noteFlow','renderChoiceGroups'])a[k]=()=>{};
+      for(const k of ['fx','setEvent','flashFx','bumpBounce','flare','clearTimers','clearOptions','clearLandCard','_flushSave','applyDeckVisibility','_syncUrl','_prefetchLandDeck','_prefetchDefendDeck','_endArrival','hideCenter','showCenter','setStatus','_saveFlowSoon','_flushLandSkipDebt','_declineLandQ','setPaused','frameNodes','showVignette','killVignette','_syncHandLayer','renderLandCard','releaseCamera','_disarmLandClock','_noteFlow','renderChoiceGroups'])a[k]=()=>{};
       a.cfg=()=>({signalSpeed:1});a.pairMid=()=>null;a.waitForSubmissionChoices=()=>false;a.hydrateDeck=()=>null;
       a._deckHasCards=()=>false;a.startTravel=(_path,done)=>done();a.after=(_delay,done)=>done();
       a.decaySharp=()=>{a._testAge++;Component.prototype.decaySharp.call(a);};

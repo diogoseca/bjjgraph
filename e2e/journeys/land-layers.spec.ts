@@ -3,6 +3,8 @@ import { journey } from "../dsl"
 
 /**
  * THE THREE BOTTOM LAYERS ARE STICKY (v1.171.0, owner).
+ * v1.227.0: the owner's 2026-10-15 journey rule supersedes v1.134.0.
+ * The catch fixture supplies prior-play provenance; a navigation alone stays calm.
  *
  * "When he closes that he now only sees the outcomes … if he clicks another node at that
  * instance, then another row of videos and another row of multiple-choice cards will show up
@@ -346,7 +348,8 @@ test("caught with the hand put away: the escape tray stays away too, and a colla
   expect((await read(page)).trayVis).toBe("hidden")
   await page.evaluate(() => {
     const a = (window as any).__neural
-    a.enterDefense(a.nodes.findIndex((n: any) => n.ty === "submissions"))
+    a._rollActed = true
+    a.enterDefense(a.nodes.findIndex((n: any) => n.ty === "submissions"), a._catchProvenance())
   })
   // Cold submission choices load over the network; a simulated frame advance does not
   // await that response. Observe the completed catch before checking its hidden layers.
@@ -359,7 +362,7 @@ test("caught with the hand put away: the escape tray stays away too, and a colla
       escapes: a.optionsRef.current.children.length,
       defend: a._defendSub != null,
       handX: a._handCloseEl ? getComputedStyle(a._handCloseEl).visibility : "none",
-      panic: !!(a._landEl && a._landEl.hasAttribute("data-panic")),
+      panic: a._landEl?.getAttribute("data-landcard") === "defense",
       skipped: (a.beats || []).filter((b: any) => b.beat === "panic_skipped").map((b: any) => b.reason),
     }
   })

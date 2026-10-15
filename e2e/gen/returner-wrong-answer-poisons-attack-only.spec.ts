@@ -131,7 +131,7 @@ test("wrong landing answer drops every clear option's moveChance by exactly 0.04
   await j.pick(midTitle)
   await j.advanceUntil("caught", 25000)
 
-  await expect(page.locator("[data-panic]"), "panic surface up while caught").toBeVisible()
+  await expect(page.locator("[data-landcard=defense]"), "panic surface up while caught").toBeVisible()
 
   // ── the core measurement: ONE evaluate, save/restore, differential control ──
   const m = await page.evaluate(() => {

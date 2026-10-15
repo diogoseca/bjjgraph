@@ -617,6 +617,11 @@ test("@curated a mouse can drag the option row, and a drag is not a pick", async
  * and zoom out a little." Click 1: the card CLOSES (question declined, free) and the hand
  * stays. Click 2: FREE ROAM — tray cleared, camera pulled back on where you stood. A node
  * click from roam stages fresh, exactly like roam-and-stage always did.
+ * v1.227.0: the owner's 2026-10-15 journey rule supersedes v1.134.0's same-node
+ * restore. Every orb click starts a new journey, including the current position
+ * after dismissal. Its legal hand membership stays exact; the new deal can rank
+ * those choices using the latest odds. M17 restores the old card-only branch and
+ * fails the fresh-journey assertion below.
  */
 test("@curated background taps: close the card, then free roam — and a node click stages fresh", async ({
   page,
@@ -678,11 +683,21 @@ test("@curated background taps: close the card, then free roam — and a node cl
   expect(after1.beats, "the dismissal is named").toContain("land_dismissed")
   expect(after1.roam).toBe(false)
 
-  // Returning after just a dismissal restores the card without ending the hand.
-  const hand = await page.evaluate(() => (window as any).__neural.optionIdxs.slice())
+  // The same-node orb starts a fresh journey with exactly the same legal choices.
+  const beforeRestage = await page.evaluate(() => {
+    const a = (window as any).__neural
+    return { journey: a._journeyId, hand: a.optionIdxs.slice() }
+  })
   await clickCurrentNode()
   await expect(page.locator("[data-landcard]")).toBeVisible()
-  expect(await page.evaluate(() => (window as any).__neural.optionIdxs)).toEqual(hand)
+  const restaged = await page.evaluate(() => {
+    const a = (window as any).__neural
+    return { journey: a._journeyId, hand: a.optionIdxs.slice(), paused: a.paused, played: a._played }
+  })
+  expect(restaged.journey, "the orb click starts a fresh journey").toBeGreaterThan(beforeRestage.journey)
+  expect(restaged.hand.sort((a: number, b: number) => a - b), "exact legal hand membership survives the restage")
+    .toEqual(beforeRestage.hand.sort((a: number, b: number) => a - b))
+  expect({ paused: restaged.paused, played: restaged.played }).toEqual({ paused: true, played: false })
   await clickBackground()
 
   // tap 2: free roam — tray gone, camera pulled back

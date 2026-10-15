@@ -54,6 +54,16 @@ import { journey } from "../dsl";
  * assertions ("the board is seeded from the page", "the roll stands where the principle teaches")
  * were CORRECT for their contract and are deliberately inverted below.
  *
+ * CI bd87d42d4, 1440px overview classification: PRE-EXISTING FLAKE. The unchanged test
+ * passed 10/10 on each of bd87d42d4 and 79f7e09c4 (concept-{current,reviewed}-10.log).
+ * Controlled late body and Systems publications detach the summary on BOTH heads;
+ * progress hydration and the motion callback do not (ci-red-{current,reviewed}.log).
+ * Wait for those publications and the DSL's bounded missing-body retry to settle,
+ * preserving every geometry, count, open-state, scroll and mouse assertion. The fixed
+ * test passes 10/10 with body and Systems delayed (concept-delayed-fixed-10.log).
+ * There is no action retry; an element handle models the locate-before-repaint race
+ * in the diagnostic probe, not a claimed failure of the 20 unchanged repetitions.
+ *
  * NON-KILLS, recorded so nobody reads this spec as covering them (CLAUDE.md section 6.3):
  *  · Learning's complete 26-page inventory, native disclosures and three migrated guide routes
  *    are covered by learning-reader.spec.ts and tests/learning_content.py.
@@ -1029,6 +1039,18 @@ for (const viewport of [
     await expect(
       page.locator('[data-concept-detail="Principles/Compression-Locks"]'),
     ).toBeVisible();
+    // CI bd87d42d4 raced a late payload repaint between locate and scroll. Unmodified
+    // 1440px trials passed 10/10 on both bd87d42d4 and 79f7e09c4; held body/Systems
+    // responses detach the summary on BOTH heads. Progress hydration and motion sync
+    // do not replace it. Wait for publication, not a delay or an action retry.
+    // The DSL supplies {} for bodies: wait for its bounded missing-body retry too.
+    await page.waitForFunction(() => {
+      const w = window as any, a = w.__neural;
+      const c = a._conceptsById?.[a._conceptId], p = a._conceptPaint;
+      return c && !a._systemsLoading && a.systems?.length > 0 &&
+        a._docRetried?.[c.key] && w.NG_CONTENT?.decks?.[c.key] === null &&
+        p?.id === c.id && p.body === null && p.retry;
+    });
     await j.advance(10000); // beyond the intro AND the camera lease
     const result = await page.evaluate(() => {
       const a = (window as any).__neural;
