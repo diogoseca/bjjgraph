@@ -10951,3 +10951,5 @@ evaluation failed the named spec in 3 of 20 loaded runs with the same raw CDP er
 Post-failure reads found all 16 cards already at stage 2, so retrying that evaluation
 could demote them twice. The full local CI replay passed all 24 executable steps,
 including 1,260 unit tests with no skips. The generated ledger still has zero known-reds.
+
+v1.225.2: slugify strength; fail misses.
