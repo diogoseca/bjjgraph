@@ -123,6 +123,9 @@ test("@curated a threat is the opponent's move: a mouse click inspects it and ne
   const j = journey(page)
   await j.boot("/Submissions/Triangle-Choke/from-Triangle-Control/Attacker")
   await j.advance(4000)
+  // A reading-first arrival prepares the real hand asynchronously; pumped game
+  // time cannot complete its HTTP request. Require the actual threat to arrive.
+  await expect.poll(() => page.evaluate(() => ((window as any).__neural._optionCards || []).some((c: any) => c.opt.threat))).toBe(true)
   const title = await page.evaluate(() => {
     const a = (window as any).__neural
     a._handTouched = true

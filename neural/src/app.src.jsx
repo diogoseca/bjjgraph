@@ -11,15 +11,6 @@ function ngAuthIsGuest(auth) {
   try { redirect = NG_AUTH_REDIRECT.test(window.location.search + window.location.hash); } catch (e) { /* no location */ }
   try { return !redirect && !auth.isAuthenticated(); } catch (e) { return false; }
 }
-// Resting colour of the landing card's More/Less toggle. ONE source, because the two sites that
-// write it (the button's own cssText, and expandLandCard restoring it on collapse) drifted apart
-// once already — see v1.104.2. NB `build.mjs` throws on duplicated top-level names.
-// THE CONTENTS ROW'S LABELS FOR THE SECTIONS THAT HAVE NONE (v1.194.0). `def`, `aka` and
-// `safety-notice` are emitted without an <h3> — they are the document's opening voice — but a
-// contents list that cannot address the first thing in the document is not a contents list.
-// `def` is present on 100% of seats and `safety-notice` is first on every submission.
-const NG_READ_NAV = { def: "Definition", aka: "Names", "safety-notice": "Safety notice" };
-const NG_LAND_MORE_COL = "#7e8aa3";
 // THE OUTCOME'S CAUSE, ONCE (v1.218.0). false = variant A: per-card hits plus a one-word cause tag
 // rising above "Your options". true = variant B: the same hits plus a central bubble over the hand.
 // The owner chooses from the demo; both paths are the same seam (`_outcomeCause`).
@@ -42,16 +33,6 @@ const NG_LAND_ANSWER_STEPS = Object.freeze([
   Object.freeze({ correct: 0.02, wrong: -0.02, trap: -0.04 }),
   Object.freeze({ correct: 0.01, wrong: -0.01, trap: -0.02 }),
 ]);
-// The head is two nested bars and both are laid out INLINE, because `reading.css` is deferred:
-// the collapsed More pill is drawn before the stylesheet arrives. One string so the two cannot
-// drift. `justify-content:center` is what centres the COLLAPSED pill (v1.195.7): shut, the inner
-// bar holds the pill alone, and a lone flex item with `margin-left:auto` is pushed to the far
-// edge whatever the bar's own alignment says — the owner: "the More button, when it's collapsed,
-// seems to show too much to the right. It doesn't seem to be centered." Measured before the fix:
-// pill centre 114px right of the row's at 390 wide, 251px at 1440. The auto margin therefore
-// exists ONLY while the fold is open (`_landMoreAlign`), where it right-aligns the ✕ past the
-// contents row; the collapsed pill is centred by this bar, exactly as it was before v1.194.0.
-const NG_READ_BAR_CSS = "display:flex;align-items:center;justify-content:center;gap:12px;";
 // The option tray's own horizontal inset, both ends (`updateUiShift` writes it; the pane's reserve is
 // added on the left only). The template's inline 24px is the same value for the first paint.
 const NG_TRAY_INSET = 24;
@@ -121,6 +102,9 @@ const NG_LAND_DECK_MIN_H = 236;
 //   · hand OFF  = DEALT but hidden (`_syncHandLayer`): the deal IS the roll state and its order
 //                 is frozen at deal time (§5), so expanding shows the same hand, instantly.
 //                 The ESCAPE tray obeys it too (v1.171.1, owner: nothing shows that was not asked for).
+// OWNERQ1: content URLs select their node with dormant game controls. A move or
+// landing-card answer starts play; reading and minimizing never arm the clock.
+const NG_READING_DEFAULT_ON_CONTENT_URL = true;
 const NG_LAYER_KEYS = { film: "landFilm", card: "landCard", hand: "landHand" };
 const NG_LAYER_ORDER = ["film", "card", "hand"];
 // THE CAMERA'S MOTION (v1.219.0; see `_camStep`). Module scope, so an app built without its
@@ -209,6 +193,9 @@ const NG_RESIDENCY_MAX_HOLD_MS = 2000;
 // eye sees is a pager that moves the wrong way, and nothing would go red. "Last rolls" is display
 // copy for `history` — the view ids never migrated (v1.95.0).
 const NG_PANE_TABS = ["explore", "challenges", "history"];
+// Owner's default-mix decision remains one line. False preserves the historical
+// representative-only overview until masteryGold is enabled.
+const NG_MIX_SITES_BY_DEFAULT = false;
 // THE SETTINGS TABS, IN ROW ORDER: [id, label]. The row, its one click handler and its arrow keys
 // all read this, and nothing else names a tab (v1.196.1). It replaced five hand-built spans with
 // five class names (.t-fc .t-rl .t-md .t-nt .t-kb) and five listeners, i.e. the same list written
@@ -354,6 +341,7 @@ class Component extends DCLogic {
   componentDidMount() { return this.boot(); }
   componentWillUnmount() {
     this.__ngDestroyed = true;
+    this._reader?.destroy();
     if (this._settingsRowRO) this._settingsRowRO.disconnect();
     this._destroyGameplanStudy();
     if (this._systemsLoader) this._systemsLoader.dispose();
@@ -640,19 +628,20 @@ class Component extends DCLogic {
   }
   /** A HAND ON THE CLOCK VOIDS EVERY SURFACE'S CLAIM TO IT (v1.113.4).
    *
-   * Four surfaces auto-pause behind their own latch (pane, dossier, unfolded card, replay) and
+   * Surfaces auto-pause behind their own latch (pane, dossier, replay) and
    * each releases only what it took — that is the rule CLAUDE.md states as "a hand-paused roll
    * stays paused when you close the pane". But `setPaused` never cleared a latch, so a manual
    * toggle left a stale one behind, and the sequence was reachable from the keyboard in three
    * presses: open the pane (latches `_paneAutoPaused`), press Space to resume — the roll now runs
    * BEHIND an open pane, which pane law forbids — press Space again to hand-pause, then close the
    * pane, and the stale latch resumes a roll the user had just paused by hand. The promise
-   * inverted. Any deliberate pause/resume now voids all four claims. */
+   * inverted. A deliberate pause/resume clears the pane, dossier and background claims. */
   _clearPauseLatches() {
     this._paneAutoPaused = false; this._dossierAutoPaused = false;
-    this._landAutoPaused = false; this._bgAutoPaused = false;
+    this._bgAutoPaused = false;
   }
   setPaused(p) {
+    if (!p && this._readerIntent) return; // reading/minimizing never resumes a dormant board
     if (this.paused === p) return;
     // PRESSING PLAY ENDS THE FILM. A replay holds the clock on purpose; resuming the roll under it
     // would leave two things moving the same camera and the same pulse. `stopReplay` nulls
@@ -684,6 +673,7 @@ class Component extends DCLogic {
     // rollFromPosition that starts it. Cancellation is explicit (startRoll / endRound).
     this._decision = null; this._optPick = null; this._optList = null;
     this._defendSub = null; this._panicKey = null; this._stagedDefense = null;
+    this._readingDefense = false;
     this._sweep = null; this._hitStop = null; this._shake = null;
     this.killVignette(false);
   }
@@ -764,12 +754,10 @@ class Component extends DCLogic {
       this._trayGlideBy(orow, d);
     }, { passive: false });
     if (orow) orow.addEventListener("scroll", () => this._syncEdgeFade(orow), { passive: true });
-    // ── WHILE MORE IS OPEN, THE VERTICAL WHEEL SCROLLS THE SCREEN (v1.175.0, owner: "I have to
-    // scroll the screen and what moves up is this new card … the land card and the videos
-    // row") ── ONE document-level capture listener for the column's fixed siblings:
-    // over the graph, the film, the timed card or the More card the wheel moves the column.
+    // One document-level capture listener moves the overflowing question column
+    // over the graph, film or timed card.
     // Surfaces that scroll THEMSELVES keep it — the hand (its own horizontal glide, above), the
-    // pane and the modal (`_readOwnScroll`). Long questions use this same column.
+    // pane, article and modal (`_readOwnScroll`).
     document.addEventListener("wheel", (e) => {
       if (this._landHidden(true) || !this._readMax || this._readOwnScroll(e.target)) return;
       if (Math.abs(e.deltaX) > Math.abs(e.deltaY) || !e.deltaY) return;   // a trackpad's real horizontal gesture is not ours
@@ -865,7 +853,7 @@ class Component extends DCLogic {
         else if (this.deckShown) {
           if (this._dossierIdx != null) this.showExplorerList();
           else this.setDeckOpen(false);
-        } else if (this._landOpen) { e.preventDefault(); this.expandLandCard(false); }
+        }
       } else if ((e.key === "Enter" || e.key === "x" || e.key === "X") && this._detailCtx && !typing) {
         if (e.key === "Enter" && t?.closest?.("button,summary,a[href],select") && this.optDetailRef.current?.contains(t)) return;
         e.preventDefault(); const ctx = this._detailCtx;
@@ -1224,6 +1212,7 @@ class Component extends DCLogic {
     try {
       this._onNeuralPopstate = () => {
         if (!this._progressCurrent()) return;
+        if (history.state?.ngReading || this._readerIntent || this.get("readingFocus", false)) { this._readArticle(location.pathname + location.hash, true, false); return; }
         const hit = this._nodeAndRoleForPath(location.pathname);
         if (hit.idx >= 0 && hit.idx !== this.currentPos) this.rollFromPosition(hit.idx, true, hit.role);
         // ...and Back onto a concept or system page re-opens that page, the same way arriving on
@@ -1938,6 +1927,7 @@ class Component extends DCLogic {
     this.cam = { cx, cy, vw: vw0, lvw: Math.log(vw0) };
     this.camTarget = { cx, cy, vw: vw0 };
     this.phaseVW = this.graphW * 0.34;
+    this._rebuildMapPaint();
   }
 
   // ---------- travel primitive ----------
@@ -1973,11 +1963,11 @@ class Component extends DCLogic {
     const p = this.pulse;
     const ly = this._LY || ((q) => q.y);
     if (!p) { const n = this.nodes[this.focusIdx] || { x: this.gcx, y: this.gcy }; return { x: n.x, y: ly(n), col: { r: 255, g: 255, b: 255 } }; }
-    if (p.seg >= p.path.length - 1) { const n = this.nodes[p.path[p.path.length - 1]]; return { x: n.x, y: ly(n), col: n.col }; }
+    if (p.seg >= p.path.length - 1) { const n = this.nodes[p.path[p.path.length - 1]]; return { x: n.x, y: ly(n), col: this._mapColor(n) }; }
     const a = this.nodes[p.path[p.seg]], b = this.nodes[p.path[p.seg + 1]];
     const tt = this.ease(p.t);
     const ay = ly(a), by = ly(b);
-    return { x: a.x + (b.x - a.x) * tt, y: ay + (by - ay) * tt, col: this.lerpCol(a.col, b.col, tt) };
+    return { x: a.x + (b.x - a.x) * tt, y: ay + (by - ay) * tt, col: this.lerpCol(this._mapColor(a), this._mapColor(b), tt) };
   }
   updateTravel(dt) {
     const p = this.pulse; if (!p || p.done) return;
@@ -2553,6 +2543,7 @@ class Component extends DCLogic {
     this._knowledgeRevision = revision == null ? (this._knowledgeRevision || 0) + 1 : revision;
     this._stageVer = (this._stageVer || 0) + 1;
     this._scoreCache = null; this._flowScoreCache = null; this._flowCache = null;
+    this._knowledgeEffect("map-paint", () => this._rebuildMapPaint());
     // the belt BEFORE the tab repaints, so the tab never paints a belt that is not yet persisted
     this._knowledgeEffect("belt-sync", () => this._syncBelt(reason));
     if (this.renderTabSubtitles) this._knowledgeEffect("renderTabSubtitles", () => this.renderTabSubtitles());
@@ -2985,7 +2976,6 @@ class Component extends DCLogic {
       // re-latched onto the film, which gives it back when it ends or is stopped. Desktop takes
       // the same branch and reads the same way: the film keeps holding the clock it was given.
       if (this._paneAutoPaused && this._replay) { this._paneAutoPaused = false; this._replayAutoPaused = true; }
-      if (this._paneAutoPaused && this._landOpen) { this._paneAutoPaused = false; this._landAutoPaused = true; }
       if (this._paneAutoPaused) { this._paneAutoPaused = false; this.setPaused(false); this.fx("pane_resumed", {}); }
       this._pathDim = false;
       // ── ON A PHONE, CLOSING THE DRAWER IS HOW YOU LOOK AT THE GRAPH ──────────────────────
@@ -3653,7 +3643,14 @@ class Component extends DCLogic {
   _conceptBody(c) {
     if (!c || !c.key) return null;
     return this._docBody(c.key, () => {
-      if (this._conceptId === c.id && this.deckShown && this._viewMode === "explore") this.renderExplorer();
+      if (this.__ngDestroyed || this._conceptId !== c.id || !this.deckShown || this._viewMode !== "explore") return;
+      // Opening and painting can subscribe to the same cold chunk. Mount each
+      // result once: duplicate callbacks otherwise detach controls under a press.
+      // Keep missing-body and retry transitions distinct so their UI still updates.
+      const painted = this._conceptPaint, body = ((window.NG_CONTENT && window.NG_CONTENT.decks) || {})[c.key];
+      const retry = !!(this._docRetried || {})[c.key];
+      const failures = (this._contentFails || {})[c.key] || 0;
+      if (!painted || painted.id !== c.id || painted.body !== body || painted.retry !== retry || painted.failures !== failures) this.renderExplorer();
     });
   }
   /** The System's readable body — the overview, key principles, components, obstacles, metrics,
@@ -3902,7 +3899,7 @@ class Component extends DCLogic {
     const saved = this._progressHost.persist(this, this._progressBlob());
     if (saved.status === "saved" && this._pushCloud) this._pushCloud();
   }
-  set(k, v) { this.settings = this.settings || {}; this.settings[k] = v; (this._settingsAt = this._settingsAt || {})[k] = Date.now(); this._saveProgress(); }
+  set(k, v) { this.settings = this.settings || {}; this.settings[k] = v; (this._settingsAt = this._settingsAt || {})[k] = Date.now(); this._saveProgress(); if (k === "masteryGold") this._rebuildMapPaint(); }
   // deferred-payload hooks: refresh whatever is open when the heavy files land post-boot
   onFlashcardsReady() {
     try {
@@ -3935,33 +3932,6 @@ class Component extends DCLogic {
   /** Content completion is not a new question. Keep the scored DOM and all gameplay clocks
    * intact, and touch only the reader whose current owner requested this key. */
   _refreshReadingContent(keys) {
-    const owner = this._landReadOwner;
-    if (owner && owner.card === this._landEl && this._layerOn("card") && (!keys || keys.includes(owner.key))) {
-      const sections = this._landMoreSections(owner.node, owner.side);
-      let row = this._landMoreEl;
-      if (!sections.length) {
-        if (row) { if (this._landOpen) this.expandLandCard(false); this._clearLandMore(); }
-      } else if (!row) {
-        this._renderLandMore(owner.node, owner.side);
-      } else {
-        const body = row.lastChild, focused = body.contains(document.activeElement);
-        const offset = this._readS || 0;
-        const anchor = Array.from(body.children).find((el) => el.getBoundingClientRect().bottom > 0);
-        const marker = anchor && Array.from(anchor.attributes).find((a) => a.name.startsWith("data-land-"));
-        const top = anchor && anchor.getBoundingClientRect().top;
-        body._ngMoreSections = sections;
-        // A collapsed body is invalidated without doing the long render nobody asked for.
-        if (this._landOpen) this._paintRead(row, body); else body.innerHTML = "";
-        this._dockLandMore(owner.card);
-        if (this._landOpen) {
-          this._readApply(offset);
-          const next = marker && body.querySelector("[" + marker.name + "]");
-          if (next) this._readApply(offset + next.getBoundingClientRect().top - top);
-          if (focused) body.focus({ preventScroll: true });
-        }
-      }
-      if (this._landEl) this._dockLandCard(this._landEl);
-    }
     // A hidden card can still own a visible film; never fetch for two hidden layers.
     const n = this.nodes && this.nodes[this._landIdx];
     const key = n && (n.ty === "positions" ? this.deckKeyFor(n).key : n.t);
@@ -5050,11 +5020,8 @@ class Component extends DCLogic {
     // wrap-relative absolute and viewport-fixed coordinates coincide.
     const root = this.__ngRoot || document.body;
     if (panel.parentElement !== root) { root.appendChild(panel); panel.style.position = "fixed"; panel.style.zIndex = "50"; }
-    // PICKING UP A CARD ENDS THE READ (v1.175.0). The hand is reachable at the foot of the
-    // reading column, and this sheet would otherwise open UNDER the More card (root plane, z:90)
-    // with the hand's `bottom` still pushed. Close the column first — it returns only its own
-    // pause, and the sheet takes a fresh one on the next line.
-    if (this._landOpen) this.expandLandCard(false);
+    // The option sheet takes its own pause and declines the question while the
+    // player inspects a move. Closing it restores the pause state it received.
     if (!this._detailCtx) this._detailWasPaused = this.paused;
     this.setPaused(true);           // freeze MOTION while the player reads/confirms (the question clock never pauses — it was declined on the line below)
     this._declineLandQ("sheet");    // reading a move instead of answering = declining (v1.134.0)
@@ -5286,11 +5253,9 @@ class Component extends DCLogic {
       head.querySelector("[data-sheet-alias-slot]").innerHTML = aliases.length ? this._readingHTML([{ key: "aka", kind: "aliases", value: aliases }], "sheet") : "";
     };
     renderBody();
-    // THE SHEET IS THE SECOND CONSUMER OF THE READING RENDERER, so it needs the same deferred
-    // stylesheet (v1.194.0). It is reached mid-roll by tapping a move in the hand, which may
-    // happen before the fold has ever been opened — the shared `_ensureReadCSS` guard means one
-    // fetch serves both surfaces whichever is opened first. The sheet has its own scroller and
-    // its own close, so it gets the reading SYSTEM but not the fold's contents row.
+    // The option sheet shares the deferred reading stylesheet with the article.
+    // `_ensureReadCSS` fetches it once, whichever surface opens first; the sheet
+    // keeps its own scroller and close control.
     this._ensureReadCSS();
     scroller.appendChild(body);
     // film-first: auto-open the first Short (muted) once the sheet settles — the film row is
@@ -5334,7 +5299,7 @@ class Component extends DCLogic {
       if (bedit) bedit.addEventListener("click", (e) => { e.stopPropagation(); bedit.style.display = "none"; if (bsteps) { bsteps.style.display = "flex"; requestAnimationFrame(() => bsteps.style.opacity = "1"); } });
       if (bdn) bdn.addEventListener("click", (e) => { e.stopPropagation(); this.bumpCardSuccess(n, -1); bupd(); });
       if (bup) bup.addEventListener("click", (e) => { e.stopPropagation(); this.bumpCardSuccess(n, 1); bupd(); }); }
-    go.addEventListener("click", () => { this._setDetailCtx(null); this.hideOptDetail(); this.setPaused(false); onPick(opt); });
+    go.addEventListener("click", () => { this._setDetailCtx(null); this.hideOptDetail(); this._reader?.beginPlay(); this.setPaused(false); onPick(opt); });
     // the two actions lifted out of the head (v1.102.1) land here, on their own row above the
     // primary pair — grouped with the other things you can DO, not stacked over the name
     if (!sc) {   // perspective and Play from here belong to a technique, not to a response in an exchange
@@ -7810,9 +7775,8 @@ class Component extends DCLogic {
   // position, so any mass cutoff is meaningless).
   //
   // Per-deck mastery is min(stage,3)/3 averaged over its cards, so a multiple-choice answer is
-  // worth 2/3 of a card and recognition alone tops out at 0.67 — enough for purple, never enough
-  // for brown or black. Recall is the only route past 0.7, by construction, which is exactly the
-  // "white belts recognise, black belts recall" rule.
+  // worth 2/3 of a card and recognition alone tops out at 0.67. Recall is the only route
+  // past 0.7 and to full gold. The worn belt depends on proven challenge units, not this score.
   get BELT_SCORE() { return [["white", 0.2], ["blue", 0.4], ["purple", 0.6], ["brown", 0.7], ["black", 0.8]]; }
   deckMastery(key) {
     const d = (this.flashcards && this.flashcards.decks) ? this.flashcards.decks[key] : null;
@@ -7922,7 +7886,7 @@ class Component extends DCLogic {
     return out;
   }
   // a lesson's crown: the ring fills with deckMastery, and the numeral is the crown level 0-4.
-  // Same numbers that drive the belt score — grinding a bubble to gold IS moving your belt.
+  // Same deck mastery as Game Knowledge and map gold; the worn belt follows proven challenge units.
   crownBadge(frac, tint, locked) {
     const f = Math.max(0, Math.min(1, frac));
     const lvl = Math.floor(f * 4);
@@ -8260,7 +8224,7 @@ class Component extends DCLogic {
     // live DOM before rebuilding so hydration cannot lose a just-opened section. Only
     // the current visit's state object may be updated; openConcept starts a fresh one.
     for (const details of list.querySelectorAll("[data-concept-disclosure]")) {
-      if (this._conceptId && details._conceptDisclosureState === this._conceptDisclosureOpen)
+      if (this._conceptId && this._conceptDisclosureOpen && details._conceptDisclosureState === this._conceptDisclosureOpen)
         this._conceptDisclosureOpen[details.getAttribute("data-concept-disclosure")] = details.open;
     }
     // Snapshot native disclosure state before replacing the DOM. A toggle event can still be
@@ -8384,7 +8348,7 @@ class Component extends DCLogic {
       const systems = (this.systems || []).filter((s) => [s.name, s.display_title, ...(s.aliases || []),
         ...(s.products || []).flatMap((p) => [p.name, p.instructor])].filter(Boolean).join(" ").toLowerCase().includes(q));
       for (const s of systems) {
-        const hit = mk('<span>' + this.escHTML(s.display_title || s.name) + '</span><small style="margin-left:auto;">System</small>', 12, () => this.openSystem(s.id));
+        const hit = mk('<span>' + this.escHTML(s.display_title || s.name) + '</span><small style="margin-left:auto;">System</small>', 12, () => this._readArticle("/" + s.id));
         hit.setAttribute("data-system-row", s.id); hit.style.pointerEvents = "auto"; list.appendChild(hit);
       }
       if (!matches.length && systems.length) return;
@@ -8392,7 +8356,7 @@ class Component extends DCLogic {
       list.appendChild(mk('<span style="font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:#7b8aa8;font-weight:700;">' + matches.length + ' result' + (matches.length === 1 ? "" : "s") + '</span>', 12));
       for (const n of matches) {
         const cat = ({ positions: "Pos", transitions: "Trans", submissions: "Sub" })[n.ty];
-        const hit = mk(this.nodeGlyph(n.ty, this.hex(n.col), 9) + '<span style="font-size:13px;color:#dbe2f0;">' + this.hl(this.graphName(n), q) + (this.nodeQual(n) ? ' <span style="color:#6b7691;font-size:11px;">' + this.escHTML(this.nodeQual(n)) + '</span>' : "") + '</span><span style="margin-left:auto;font-size:10px;color:#7e8aa3;">' + cat + '</span>', 12, () => this.openDossier(n.idx));
+        const hit = mk(this.nodeGlyph(n.ty, this.hex(n.col), 9) + '<span style="font-size:13px;color:#dbe2f0;">' + this.hl(this.graphName(n), q) + (this.nodeQual(n) ? ' <span style="color:#6b7691;font-size:11px;">' + this.escHTML(this.nodeQual(n)) + '</span>' : "") + '</span><span style="margin-left:auto;font-size:10px;color:#7e8aa3;">' + cat + '</span>', 12, () => this._readArticle(this._nodeUrlPath(n.idx)));
         list.appendChild(this._withListAdd(hit, n, "explore"));
       }
       return;
@@ -8432,7 +8396,7 @@ class Component extends DCLogic {
       list.appendChild(hdr);
       if (!open) return;
       for (const c of all) {
-        const row = mk('<span style="font-size:13px;color:#c4cde0;">' + this.escHTML(c.title || c.name) + '</span>' + (c.meta ? '<span style="margin-left:auto;font-size:10px;color:#7e8aa3;white-space:nowrap;">' + this.escHTML(c.meta) + '</span>' : ""), 22, () => this.openConcept(c.id));
+        const row = mk('<span style="font-size:13px;color:#c4cde0;">' + this.escHTML(c.title || c.name) + '</span>' + (c.meta ? '<span style="margin-left:auto;font-size:10px;color:#7e8aa3;white-space:nowrap;">' + this.escHTML(c.meta) + '</span>' : ""), 22, () => this._readArticle("/" + c.id));
         row.style.paddingRight = "12px";
         row.setAttribute("data-concept-row", c.id);
         row.setAttribute("data-concept-cat", c.cat);
@@ -8484,7 +8448,7 @@ class Component extends DCLogic {
           children.replaceChildren();
           if (!expanded) return;
           for (const s of [...systems].sort((a, b) => a.name.localeCompare(b.name) || a.id.localeCompare(b.id))) {
-            const leaf = mk('<span style="min-width:0;font-size:12px;color:#9aa6bd;">' + this.escHTML(s.display_title || s.name) + '</span>' + (s.difficulty ? '<span style="margin-left:auto;font-size:10px;color:#7e8aa3;">' + this.escHTML(s.difficulty) + '</span>' : ""), 38, () => this.openSystem(s.id));
+            const leaf = mk('<span style="min-width:0;font-size:12px;color:#9aa6bd;">' + this.escHTML(s.display_title || s.name) + '</span>' + (s.difficulty ? '<span style="margin-left:auto;font-size:10px;color:#7e8aa3;">' + this.escHTML(s.difficulty) + '</span>' : ""), 38, () => this._readArticle("/" + s.id));
             leaf.style.paddingRight = "12px";
             leaf.setAttribute("data-system-row", s.id);
             leaf.style.pointerEvents = "auto";
@@ -8516,12 +8480,12 @@ class Component extends DCLogic {
           // glyph at all, so a technique inside a family fold was the one place in Explore that
           // did not say what it was. `nodeGlyph` is the same vocabulary `draw()` puts on the
           // canvas — circle = position, triangle = submission, diamond = transition (:9516-9518).
-          if (fOpen) for (const n of nodes) list.appendChild(this._withListAdd(mk(this.nodeGlyph(n.ty, col, 7) + '<span style="font-size:12px;color:#9aa6bd;">' + this.graphName(n) + (this.nodeQual(n) ? ' <span style="color:#6b7691;">' + this.escHTML(this.nodeQual(n)) + '</span>' : "") + '</span>', 38, () => this.openDossier(n.idx)), n, "explore"));
+          if (fOpen) for (const n of nodes) list.appendChild(this._withListAdd(mk(this.nodeGlyph(n.ty, col, 7) + '<span style="font-size:12px;color:#9aa6bd;">' + this.graphName(n) + (this.nodeQual(n) ? ' <span style="color:#6b7691;">' + this.escHTML(this.nodeQual(n)) + '</span>' : "") + '</span>', 38, () => this._readArticle(this._nodeUrlPath(n.idx))), n, "explore"));
         } else {
           // A one-site family already identifies its representative. Probing role dossiers here
           // used to fetch both seats for every visible singleton just to choose that same node.
           const solo = nodes[0], qual = this.nodeQual(solo);
-          list.appendChild(this._withListAdd(mk(this.nodeGlyph(solo.ty, col, 8) + '<span style="font-size:13px;color:#c4cde0;">' + fam + (qual ? ' <span style="color:#6b7691;font-size:11px;">' + this.escHTML(qual) + '</span>' : '') + '</span>', 22, () => this.openDossier(solo.idx)), solo, "explore"));
+          list.appendChild(this._withListAdd(mk(this.nodeGlyph(solo.ty, col, 8) + '<span style="font-size:13px;color:#c4cde0;">' + fam + (qual ? ' <span style="color:#6b7691;font-size:11px;">' + this.escHTML(qual) + '</span>' : '') + '</span>', 22, () => this._readArticle(this._nodeUrlPath(solo.idx))), solo, "explore"));
         }
       }
     };
@@ -8599,7 +8563,9 @@ class Component extends DCLogic {
   }
   async openSystem(id, retry = false) {
     if (this.__ngDestroyed) return null;
-    const changedSystem = this._systemId !== id;
+    // Reading can already own the graph highlight. A newly opened study pane
+    // still starts a visit at the top, even when it shows that same System.
+    const changedSystem = !this.deckShown || this._viewMode !== "explore" || this._systemViewId !== id;
     this._leaveRollForReference();
     if (!this.deckShown || this._viewMode !== "explore") this.openPane("explore");
     this.clearFocus();
@@ -9243,7 +9209,7 @@ class Component extends DCLogic {
         // them. Measured on the real app at 1440 (dev and this branch): a pair label drawn behind the
         // landing deck's next chevron put its star exactly on the chevron, and three mouse clicks in
         // a row opened the list menu instead of paging. Inside the wrap, z:3 sits under the hand (4),
-        // the landing card, its chevrons, film and More (5) and the pane (8). `[data-seat-star]` is
+        // the landing card, its chevrons, film and article (5) and the pane (8). `[data-seat-star]` is
         // already in attachInput's pointerdown early-return list, so it stays live to the mouse.
         b.style.zIndex = "3";
         b.style.left = "0"; b.style.top = "0";
@@ -10941,6 +10907,7 @@ class Component extends DCLogic {
     const E = (v) => this.escHTML(v);
     const principle = c.cat === "Principle";
     const body = this._conceptBody(c);
+    this._conceptPaint = { id, body: ((window.NG_CONTENT && window.NG_CONTENT.decks) || {})[c.key], retry: !!(this._docRetried || {})[c.key], failures: (this._contentFails || {})[c.key] || 0 };
     const idxs = this.conceptNodeIdxs(c);
     const back = mk('<span style="color:#9ab0e0;font-size:12.5px;font-weight:600;">\u2039 ' + (c.cat === "Learning" ? "All learning" : "All principles") + '</span>', 12, () => this.closeConcept());
     back.setAttribute("data-concept-back", c.cat);
@@ -11172,9 +11139,9 @@ class Component extends DCLogic {
     // the node dialog we just practiced now should show instead". So the sheet never opens, on
     // any form factor, and `openDossier` has exactly two jobs:
     //
-    //   · the node you are on   -> make sure its timed card and folded More sibling are there
+    //   · the node you are on   -> rebuild its timed card if dismissed
     //   · any other node        -> STAGE the roll there (fly, land, deal, clock held) with the
-    //     same timed card + detached More sibling. This is already what tapping a node on the
+    //     same timed card and independent article. This is already what tapping a node on the
     //     graph does; `rollFromPosition` hops a technique to its adjacent position, so it is safe for both
     //     node kinds. NB it archives a roll that has actually been PLAYED (`_played`); a staged
     //     roll nobody played is never recorded.
@@ -11190,9 +11157,7 @@ class Component extends DCLogic {
       // NAVIGATE TO IT (v1.132.0, owner: "when you click on a transition or on a submission, you
       // navigate to it. The URL changes to it, and the landcard is standard."). A technique lands
       // ON the technique — rollFromPosition keeps the chosen node's camera/URL/focus and seats
-      // the roll at its origin; play runs the exchange. Nothing auto-expands any more (owner:
-      // "it automatically shows more instead of showing less") — More is one tap away, folded,
-      // exactly as a position's card.
+      // the roll at its origin; play runs the exchange. The complete article stays independent.
       this.stageRollAt(idx);
     } else if (!this._landEl) {
       this.renderLandCard(n, "land", null);
@@ -11238,7 +11203,7 @@ class Component extends DCLogic {
   }
   /**
    * RETIRED (v1.101.0): the in-node "fuller container". Zooming into a node used to mount the
-   * whole dossier inside the node's own shape; the standard timed card and its detached More
+   * whole dossier inside the node's own shape; the standard timed card and independent article
    * sibling now carry that material without either growing inside the graph. The method stays as
    * the ONE place that guarantees the retired surface stays down — `draw()` calls it every frame,
    * and a hidden element with a stale `_nodeCardOn` would keep the options tray faded and the canvas
@@ -11291,9 +11256,6 @@ class Component extends DCLogic {
     this.closeNodeDossier();
     this.closeDossierSheet();
     this.closeDeckIfStudying();        // mobile-only by design (the drawer owns the screen there)
-    // More is its own card and therefore its own background step. Closing the timed card first
-    // would remove the sibling while leaving `_landOpen` and its owned pause latched.
-    if (this._landOpen) { this.expandLandCard(false); return; }
     if (this._landEl) {
       const n = this._landIdx != null && this.nodes ? this.nodes[this._landIdx] : null;
       this._declineLandQ("bg");
@@ -11347,10 +11309,10 @@ class Component extends DCLogic {
    * Same treatment (inline opacity + pointer-events) the option-detail sheet uses, and
    * _landBackfill already knows to preserve an inline hide across a re-render.
    */
-  /** The landing card, deck backs, swipe guides, film and More share the pane's stacking context. Keep every overlay consumer on this list:
-   * the floating More row owns controls just as the card and film strip do. */
+  /** The landing card, deck backs, swipe guides and film share a stacking context.
+   * Keep every question-column overlay consumer on this list. */
   _landSurfaces() {
-    return [this._landEl, this._landStackEl, this._landNavEl, this._landFilmEl, this._landMoreEl].filter(Boolean);
+    return [this._landEl, this._landStackEl, this._landNavEl, this._landFilmEl].filter(Boolean);
   }
   _landTarget(target) { return !!target && this._landSurfaces().some((el) => el.contains(target)); }
   _landHidden(exposedPointer = false) {
@@ -11373,7 +11335,7 @@ class Component extends DCLogic {
     // inline opacity "0", computed 0.99, card fully painted over the node. `!important` outranks
     // an animation; `style.opacity` still reads "0", which is what _landBackfill detects.
     // ...AND `visibility`, WHICH IS THE ONLY ONE OF THE THREE THAT ACTUALLY DISARMS THE CARD.
-    // `pointer-events` on a root is INHERITED, so the floating More button can re-enable itself
+    // `pointer-events` on a root is INHERITED, so the question close button can re-enable itself
     // inline. Hit-testing ignores `opacity`: before the landing footer was retired, a "hidden"
     // card left that fully INVISIBLE sticky strip live across the bottom of its box, and whatever
     // sat under it was dead to the mouse. `elementFromPoint` measured `<div data-land-foot="1">`
@@ -11409,7 +11371,7 @@ class Component extends DCLogic {
    * early-return keeps absorbing the tap and no geometry code is needed in §6.1's most dangerous,
    * hand-maintained list. `inert` on the children is what actually disarms them: it is the only
    * primitive a descendant cannot re-enable inline, which matters because the familiarity
-   * control and the floating More button both set `pointer-events:auto` on purpose; it takes
+   * control and the question close button both set `pointer-events:auto` on purpose; it takes
    * focus and the a11y tree with them.
    *
    * The dim itself is a STYLESHEET rule keyed on `data-behind-sheet` (helmet.html), not an inline
@@ -11492,7 +11454,7 @@ class Component extends DCLogic {
     }
     const persp = rc ? rc.perspectives.attacker : null;
     const isCur = n.idx === this.currentPos;
-    // the dossier is the landing card's `More ▸`, so it must not name the other side either: for the
+    // the dossier is shared by option/reference sheets, so it must not name the other side: for the
     // state in play `playedRole` is the true side, and for anything else the title is all there is
     let role = this.playedRole(n);
     // authored copy is side-specific; if it came from the other side, don't contradict it with a badge
@@ -11691,6 +11653,7 @@ class Component extends DCLogic {
     this.fx("url_fault", { kind: kind, path: String(path || "").slice(0, 200), error: (e && e.name) || String(e), n: this._urlFaults });
   }
   _syncUrl(idx, replace = false) {
+    if (this._readerIntent) return; // the reader owns one canonical history entry, including its seat/hash
     const path = this._nodeUrlPath(idx); if (!path) return;
     this._pushUrl(path, { ngNode: this.nodes[idx].id }, replace);
   }
@@ -11804,6 +11767,26 @@ class Component extends DCLogic {
    */
   _seedFromUrl() {
     if (/^\/l\//.test(location.pathname)) return false;
+    if (/^\/(Positions|Transitions|Submissions|Principles|Learning|Systems)\/?$/i.test(location.pathname))
+      return this._seedPageFromUrl(location.pathname);
+    const content = /^\/(Positions|Transitions|Submissions|Principles|Learning|Systems)(?:\/|$)/i.test(location.pathname);
+    if (content) {
+      this._readerInitialPath = location.pathname + location.hash;
+      if (NG_READING_DEFAULT_ON_CONTENT_URL || this.get("readingFocus", false) ||
+          /^(?:\/(Principles|Learning|Systems))(?:\/|$)/i.test(location.pathname) || this._nodeAndRoleForPath(location.pathname).idx < 0) {
+        const hit = this._nodeAndRoleForPath(location.pathname);
+        if (hit.idx >= 0) {
+          // Before the first paint, reserve the dormant controls' band in the
+          // initial overview. The reading arrival has no intro runway to do it.
+          this.cam = this._liftForLanding(this.cam, hit.idx);
+          this.camTarget = { ...this.cam };
+          this.introDone = true;
+        }
+        this._readArticle(this._readerInitialPath, true, false);
+        this._readerInitialPath = null;
+        return true;
+      }
+    }
     const hit = this._nodeAndRoleForPath(location.pathname);
     if (hit.idx < 0) return this._seedPageFromUrl(location.pathname);
     this._urlSeedIdx = hit.idx; this._urlSeedRole = hit.role;
@@ -12359,8 +12342,8 @@ class Component extends DCLogic {
   get MC_LINE() { return 36; } // one-line option cap; keep in sync with regenerate_neural_data MC_LINE_BUDGET
   // HOW MANY WRONG OPTIONS AN MC ASKS (v1.148.0). 2 distractors + the correct one = THREE
   // options, down from four: on a phone a fourth ~44px answer row pushed the live question under
-  // the card's scrollport while its 9s decision clock kept running. `More` now floats outside the
-  // card, but three still preserves the visible question and sits below the decision-fatigue
+  // the card's scrollport while its 9s decision clock kept running. The independent article does not
+  // enlarge the question, and three options preserve it below the decision-fatigue
   // threshold, which is the owner's reason for the number.
   //
   // ONE SEAM, TWO CALLERS, AND THEY MUST NEVER DISAGREE. _mcBlock draws for real and
@@ -13092,11 +13075,12 @@ class Component extends DCLogic {
     // travel as a group, so there is no horizontal slack; the pane covers its left column.
     const center = compact ? W * .28 : anchor ? fit(anchor) : 0;
     const chromeAt = chrome.map((el) => (anchor && !compact ? center : fit(el)));
-    for (const el of [card, this._landStackEl, this._landNavEl, this._landMoreEl]) {
+    for (const el of [card, this._landStackEl, this._landNavEl]) {
       if (el) el.style.left = center + "px";
     }
     if (film) film.style.left = (compact ? W * .78 : center) + "px";
     chrome.forEach((el, i) => { el.style.left = chromeAt[i] + "px"; });
+    this._reader?.layout();
   }
   updateUiShift(dt) {
     const tgt = this.deckShown ? 1 : 0;
@@ -13190,7 +13174,7 @@ class Component extends DCLogic {
     // the text/sub in with inline opacity, and `_centerHandoff` stretches the box's fade to the
     // hand-off length; if a verdict or capstone writes next while either is mid-flight, it must
     // get the stock instant text and .55s box fade back, not the arrival's leftovers.
-    if (box) { box.style.transitionDuration = ""; box.style.top = "0px"; box.style.bottom = "0px"; }
+    if (box) { box.style.transitionDuration = ""; box.style.top = "0px"; box.style.bottom = "0px"; box.firstElementChild.style.transform = ""; }
     for (const el of [t, s]) if (el) { el.style.transition = ""; el.style.opacity = ""; }
     if (k) { k.textContent = kicker; k.style.color = col; }
     if (t) { t.textContent = text; t.style.color = tone === "good" ? "#cfe6ff" : tone === "bad" ? "#ffd6d6" : "#eef1f6"; t.style.fontSize = small ? "clamp(26px,3.2vw,38px)" : "clamp(40px,6vw,68px)"; }
@@ -13205,9 +13189,13 @@ class Component extends DCLogic {
     const band = this._viewRect();
     box.style.top = band.top + "px";
     box.style.bottom = ((this.H || 800) - band.bottom) + "px";
+    // Keep the whole name/role block inside the measured band on a short phone.
+    // Its natural height includes the kicker and spacing; shrinking one label
+    // alone still let the role overlap the film. showCenter releases this fit.
+    const block = box.firstElementChild;
+    block.style.transform = "scale(" + Math.min(1, Math.max(1, band.height - 8) / Math.max(1, block.offsetHeight)) + ")";
   }
   _centerReveal(text, sub) {
-    this._frameArrivalHeading();
     for (const [el, val] of [[this.evcTextRef.current, text], [this.evcSubRef.current, sub]]) {
       if (!el) continue;
       el.textContent = val;
@@ -13215,6 +13203,7 @@ class Component extends DCLogic {
       el.style.opacity = "0";
       requestAnimationFrame(() => requestAnimationFrame(() => { el.style.opacity = "1"; }));
     }
+    this._frameArrivalHeading();
   }
   /** Beat 3: the centre block fades out over the whole hand-off while the canvas label ramps in
    *  (draw() reads `_arriveLabelT`) — the state is never named twice at full strength. */
@@ -14300,7 +14289,7 @@ class Component extends DCLogic {
   // question — then your options. A right answer pays through the ordinary credit path (mastery
   // + sharpness already move the odds; no second bonus stacked on top) and buys clock. A wrong
   // answer costs THIS exchange's odds and is forgotten on the next arrival. Everything else the
-  // page knows — decision trees, principles, mistakes — stays behind "More".
+  // page knows — decision trees, principles, mistakes — lives in the independent article.
 
   // the one card this state still owes you: its first unproven (stage < 2) card. A proven deck
   // asks nothing, and the card degrades to identity + film.
@@ -14641,24 +14630,14 @@ class Component extends DCLogic {
     waits[key] = p;
     return p;
   }
-  /** The More reading card is subordinate to the question-card LAYER, never the film layer.
-   * Removing its DOM preserves `_landOpen` across a same-landing backfill; the caller that
-   * actually turns the card layer off closes the state and returns its pause first. */
-  _clearLandMore() {
-    // No reading card, nothing pushes the hand: the column goes home even on a raw unmount, so a
-    // rebuild that arrives with `_landOpen` kept re-measures from the same frame every time.
-    this._readClear();
-    if (this._landMoreEl) { try { this._landMoreEl.remove(); } catch (e) {} this._landMoreEl = null; }
-  }
   /** The CARD only — `_landIdx` / `_landMode` and the film strip survive. This is what the card
    *  LAYER uses (`_applyLayers`): a card put away by preference still belongs to a landing, so
    *  `_dockLandFilm` knows what it serves and a late chunk (`_landBackfill`) can still dock the
    *  film under it. INVARIANT since v1.171.0: `_landIdx` MAY be set while `_landEl` is null.
    *  Every reader that matters already asks `_landEl` (or `_landHidden()`, which reads a null
-   *  `_landEl` as hidden), so the keys, the clock and the backfill all stay inert. More follows
-   *  this layer: no question card means no orphan More pill or reading card. */
+   *  `_landEl` as hidden), so the keys, the clock and the backfill all stay inert.
+   *  The complete article has its own lifetime and Book preference. */
   _clearLandCardOnly() {
-    this._landReadOwner = null;
     this._landQ = null; this._landWarmP = null;   // no card, nothing outstanding (see landSettled)
     this._landClockEl = null; // the bar dies with the card; a still-armed window rebinds on rebuild
     // The truth for a destroyed surface must not linger: `this._mc` is what a keypress grades
@@ -14672,22 +14651,15 @@ class Component extends DCLogic {
     if (this._landNavEl) { this._landNavEl.remove(); this._landNavEl = null; }
     this._readStop(); this._readMax = 0; this._landOverflow = 0;
     (this.__ngRoot || document.body).classList.remove("ng-has-land-deck");
-    this._clearLandMore();
+    this._readClear();
   }
   // the film strip is an INDEPENDENT layer sibling (v1.171.0)
   _clearLandFilm() {
     if (this._landFilmEl) { this.clearClipLoops(); if (this._landFilmEl._ngRO) this._landFilmEl._ngRO.disconnect(); try { this._landFilmEl.remove(); } catch (e) {} this._landFilmEl = null; }
   }
-  /** Full card-slot teardown. A normal teardown closes the independent reading card and returns
-   * only its owned pause; `renderLandCard` passes `true` to this method on the one same-landing
-   * rebuild path that keeps that state while replacing both DOM roots around a re-parented question. */
-  clearLandCard(preserveMoreState) {
-    if (!preserveMoreState) {
-      this._readS = 0;
-      if (this._landOpen && this._landEl && this._landMoreEl) this.expandLandCard(false);
-      else this._releaseLandPause();
-      this._landOpen = false;
-    }
+  /** Full card-slot teardown; a same-question repaint preserves its scroll offset. */
+  clearLandCard(preserveScroll) {
+    if (!preserveScroll) this._readS = 0;
     this._clearLandCardOnly();
     this._landIdx = null; this._landMode = null;
     this._clearLandFilm();
@@ -14750,19 +14722,11 @@ class Component extends DCLogic {
     // ride the surviving DOM nodes) kept working. The exact bug class j.clickByMouse exists for,
     // inverted.
     const reuse = this._landQ ? { q: this._landQ, el: this._landEl.querySelector("[data-land-q]"), pending: !!this._landPending, mc: (this._mc && this._mc.surface === "land") ? this._mc : null } : null;
-    // keyboard users: if focus was on the independent More control, put it back after rebuild
-    const act = document.activeElement;
-    const held = act && this._landSurfaces().some((surface) => surface.contains(act))
-      && act.hasAttribute("data-land-more") ? "[data-land-more]" : null;
     // (v1.136.0: the sheet no longer hides the card inline, so a rebuilt card inherits nothing —
     // the opacity-inheritance dance that lived here died with the hide-site)
     this._landLate = true;                       // the beat says "this question arrived late"
     try { this.renderLandCard(pos, stTech ? "attempt" : "land", null, reuse); } finally { this._landLate = false; }
-    if (held && this._landEl) {
-      let t = null;
-      for (const surface of this._landSurfaces()) { t = surface.querySelector(held); if (t) break; }
-      if (t && t.focus) try { t.focus(); } catch (e) {}
-    }
+
   }
   // ═══ LANDING-CARD PAGING (v1.130.0; the reveal/hide rung shipped here and was retired the
   // next day — owner: "I don't like that hide answers part" — along with the visible ‹dots›
@@ -14936,11 +14900,15 @@ class Component extends DCLogic {
     // If it exceeds the available band, start at the top and move the entire column to read.
     // Expanding a video keeps the thumbnail's reservation; playback must not squash the deck.
     const film = this._landFilmEl;
-    const filmHeight = film ? (this._expandedClip ? (this._expandedClip._bh || 92) + 6 : film.offsetHeight) : 0;
+    const filmHeight = film ? (this._expandedClip ? (this._expandedClip._bh || 92) + 6 : Math.ceil(film.getBoundingClientRect().height)) : 0;
     const filmSpace = !this._compactLandDeck() && filmHeight ? filmHeight + 8 : 0;
-    const available = Math.max(80, (window.innerHeight || 800) - bottom - filmSpace - 16);
-    el.style.minHeight = Math.min(this._compactLandDeck() ? (window.innerHeight - 112) : NG_LAND_DECK_MIN_H, available) + "px";
-    this._landOverflow = Math.max(0, el.offsetHeight - available);
+    // The persistent article/shelf can make the full phone stack taller than the
+    // viewport. Keep a visible graph band and use the existing column scroll for
+    // the overflow, rather than letting a returning preview cover its node.
+    const columnTop = this._reader && this._graphInputOn() ? 96 : 16;
+    const available = (window.innerHeight || 800) - bottom - filmSpace - columnTop;
+    el.style.minHeight = Math.min(this._compactLandDeck() ? (window.innerHeight - 112) : NG_LAND_DECK_MIN_H, Math.max(80, available)) + "px";
+    this._landOverflow = Math.max(0, Math.ceil(el.getBoundingClientRect().height - available));
     el.style.setProperty("bottom", (bottom - this._landOverflow) + "px", "important");
     stack.style.left = cs.left;
     stack.style.width = el.offsetWidth + "px";
@@ -14966,7 +14934,7 @@ class Component extends DCLogic {
   // ── PAGING: prev/next flashcard of THIS node ── (owner: "scroll left or right on the land
   // card, and it should show the previous or the next card" = the same node's deck.) Replaces
   // the [data-land-q] block ONLY — never a re-render: rebuilding the card replays ngCardInX and
-  // races _suppressLand, and the film sibling + the More fold (node-level content) stay put.
+  // races _suppressLand, and the film sibling and independent article stay put.
   // Clamp at the ends: an edge is an edge, and the mini-deck's modulo wrap loses the reader's
   // place in a deck they are browsing.
   _landPageTo(dir) {
@@ -15059,7 +15027,7 @@ class Component extends DCLogic {
     // or a different card is now due, the card must genuinely re-render.
     // …but NEVER when the caller passes `reuse` (v1.106.6): a backfill re-render carries the
     // mounted question across verbatim BY CONSTRUCTION, and its whole point is to complete the
-    // card AROUND it — the More affordance, film, definition — which this early return threw
+    // card AROUND it — its corner and film — which this early return threw
     // away. With reuse in hand there is no reshuffle to prevent.
     if (!reuse && this._landQ && this._landEl && this._landQ.key === key0 && this._landQ.mode === (mode || "land")) {
       // a PAGED cursor is "the question this state would ask" (v1.130.0): the player chose it,
@@ -15073,16 +15041,13 @@ class Component extends DCLogic {
       const want = this.get("landQuestions", true) ? this.questionFor(key0) : null;
       if (want && this._landQ.card && want.q === this._landQ.card.q) return this._landEl;
     }
-    // A NEW landing starts folded; a re-render of the SAME one (a late payload backfilling film
-    // or the question) keeps whatever the reader opened and the pause it owns.
+    // A late film/question backfill preserves the current landing's reader.
     const sameLanding = this._landIdx === node.idx;
     if (sameLanding) this.clearLandCard(true);
     else {
-      // A navigation/teardown is not a backfill. Close the old reading card before resetting its
-      // state, or its auto-pause loses its owner and the new landing starts frozen.
+      // Navigation retires the old question before the new landing is rendered.
       this.clearLandCard();
     }
-    if (this._landOpenNext) { this._landOpen = true; this._landOpenNext = false; } // opened to be read
     // ── PER-LANDING PAGING + RUNG STATE (v1.130.0) ── a backfill re-render (`reuse`) is the
     // SAME landing completing itself around the mounted question: the cursor, the answered set
     // and the page cache must survive it (the re-parented block lives in that cache). Everything
@@ -15130,6 +15095,7 @@ class Component extends DCLogic {
       card = null;                                     // ask nothing until the pool is resident
       warmKind = "pool";                               // the card EXISTS — this is pending, not skipped
     }
+    this._queueReader(node, this._landPerspSide(node));
     const readVisible = this._layerOn("card") || this._layerOn("film");
     const info = readVisible ? this.ngContentFor(node) : null;
     const filmClips = this._layerOn("film") ? this._landFilmClips(node, info) : null;
@@ -15168,8 +15134,8 @@ class Component extends DCLogic {
     // 1 — THE LANDING CARD HAS NO HEADER OR FOOTER (v1.174.0).
     // The graph names the state and side beside the node. The deck count is a quiet line under
     // the corner's two buttons (v1.175.0, `_landCardChrome`) — it opens nothing; the pane's Last
-    // rolls tab is the study route — and More is its own root-plane sibling below the dealt
-    // choices, so neither adds content or scroll state to this timed card.
+    // rolls tab is the study route. The independent article adds no content or scroll state
+    // to this timed card.
     //
     // An ATTEMPT card keeps its headline: it names the technique the question is ABOUT, and the
     // graph only labels that one while the sweep is animating.
@@ -15179,12 +15145,8 @@ class Component extends DCLogic {
     // the position card's header in v1.101.1), and clicking the node already set the board —
     // the play button is the one "go" control. Only the border skin distinguishes the modes.
 
-    // 2 — the one-phrase definition MOVED BEHIND `More` (v1.101.0). Owner, reading "Master Deep
-    // Half Guard Top with defensive counters, pressure maintenance, and systematic passing
-    // strategies" above their hand: "unnecessary — please remove those, or push the intro if SEO
-    // needs it to the content after clicking More". It is marketing prose written for the static
-    // page; the roll wants film and a question. It is not deleted, because the static article is
-    // where the SEO value actually lives — it is one fold lower, in `_landMore`.
+    // 2 — Definitions belong to the complete article in the independent reader;
+    // the question card keeps the question and its answers.
 
     // 3 — FILM RIDES ITS OWN STRIP, OUTSIDE THE CARD (v1.101.1, owner: "place the film study row
     // aka the videos outside the ng-landcard ... should be outside, immediately above it").
@@ -15238,9 +15200,8 @@ class Component extends DCLogic {
       else this._landQSkip(key, reason, mode);
     }
 
-    // 5 + 6 — the independent More card and the in-card corner are ONE shared seam for ordinary
-    // landings and the panic drill. The helper preserves the minimized card layer: More follows
-    // that layer, while film and hand remain independently collapsible.
+    // Ordinary landings and panic drills share question chrome. The article, film and
+    // hand retain their own lifetimes and preferences.
     this._landCardChrome(el, node, key, this._landPerspSide(node));
     this._updateLandDeck();
     // ── GESTURES: the card pages its own deck (v1.130.0) ── bound per element, so they die with
@@ -15303,7 +15264,7 @@ class Component extends DCLogic {
         }
       }, { passive: false });
     }
-    // A vertical drag moves the whole column when a long answer or More exceeds the screen.
+    // A vertical drag moves the question column when a long answer exceeds the screen.
     this._readTouch(el);
     // deck/pool still landing: come back once, for THIS card only (`_landEl === el` proves the
     // player has not moved on), and never loop — after the warm, questionFor either has a card
@@ -15359,7 +15320,6 @@ class Component extends DCLogic {
     // Dock the independent pieces only after the landing card has taken its final measured
     // clearance above the dealt choices.
     this._dockLandCard(el);
-    if (this._landOpen) this.expandLandCard(true);
     // a fresh card born while the reading sheet owns the screen must not pop over it
     if (this._traySup || this._dossierIdx != null) this._suppressLand(true);
     // ...and one born under an OPEN OPTION SHEET is born stood down. Unconditional on purpose: it
@@ -15369,75 +15329,50 @@ class Component extends DCLogic {
     this._syncDetailDim();
     return el;
   }
-  /** Build the More surface as a sibling of the timed card — ONLY when this state has
-   * something behind More (`_landMoreHTML` non-empty; owner v1.102.0: "if there is nothing to
-   * show by clicking More then don't show the More"). Collapsed, it is the measured row below the
-   * dealt hand holding the More pill and nothing else (v1.175.0 — the familiarity count moved
-   * into the timed card's corner, `_landCardChrome`). Expanded, this same element becomes the
-   * long, unclipped second card of the reading column (`expandLandCard`). `_landCardChrome` is
-   * shared by ordinary and panic cards, so `side` must travel with it for defender content. */
-  _renderLandMore(node, side) {
-    this._clearLandMore();
-    const sections = this._landMoreSections(node, side);
-    if (!sections.length) return;
-    const moreRow = document.createElement("div");
-    moreRow.className = "ng-landmore";
-    // THE HEAD IS NAMED, AND EVERY LOOKUP RESOLVES BY ATTRIBUTE (v1.194.0). It used to be
-    // `row.firstChild.firstChild` in expandLandCard — put anything beside the button and that
-    // expression returns the wrapper, and the `textContent` write below it deletes the button
-    // AND the contents row. Reproduced during review: 0 buttons and 0 navs survived opening.
-    // THE HEAD IS TWO BARS, AND THE INNER ONE IS THE ONE THAT PINS (v1.194.1). The OUTER bar
-    // owns the row's 38px and the collapsed dock's `translateX(90px)`; the INNER bar owns the
-    // counter-translate that holds the contents row still while the document travels under it
-    // (`_readPin`). It cannot be one element: `helmet.html:243` writes `transform:none!important`
-    // on `.ng-landmore.open > div:first-child` — that is what clears the collapsed dock's nudge
-    // when the fold opens — and an `!important` stylesheet declaration beats an inline style.
-    // WHAT PUTS THE FLOATING HEAD IN FRONT OF THE PROSE is the inner bar's own transform: a
-    // transformed element makes a stacking context and paints as if positioned at z-index 0,
-    // above the body's in-flow content. NOT the outer bar's `position:relative` — dropping that
-    // was tried as a mutant and the mouse gate stayed green, so it is not what carries this.
-    moreRow.innerHTML = '<div class=r-bar data-read-bar><div class=r-pin data-read-pin><button data-land-more aria-expanded="false" aria-controls="ng-land-more">More</button></div></div>' +
-      '<div id="ng-land-more" data-land-more-body role="region" aria-label="More about this state" tabindex="0" style="display:none;outline-offset:4px;"></div>';
-    const moreHead = moreRow.querySelector("[data-read-bar]"), more = moreRow.querySelector("[data-land-more]");
-    moreHead.style.cssText = "position:relative;height:38px;" + NG_READ_BAR_CSS;
-    // Held on the element, not on `this`: the row is rebuilt whenever the seat changes, and a
-    // cached node on the app outlives the row it was read from.
-    moreRow._ngPin = moreRow.querySelector("[data-read-pin]");
-    moreRow._ngPin.style.cssText = "flex:1 1 auto;min-width:0;" + NG_READ_BAR_CSS;
-    moreRow.querySelector("[data-land-more-body]")._ngMoreSections = sections;
-    // The control in a root-plane overlay must re-enable hit-testing INLINE (§6.1).
-    more.style.cssText = NG_GHOST_BTN_CSS + "width:auto;height:38px;padding:0 15px;color:" + NG_LAND_MORE_COL + ";background:rgba(19,22,37,.9);border-radius:999px;";
-    this._landMoreAlign(more, false);   // shut: centred by the bar. Open: `expandLandCard` right-aligns it.
-    more.onclick = (e) => {
-      e.stopPropagation(); this.expandLandCard();
-      if (e.detail === 0 && this._landOpen) moreRow.querySelector("[data-land-more-body]").focus({ preventScroll: true });
-    };
-    // ONE DELEGATED LISTENER on the row itself. The row is already in `_landSurfaces()`, so
-    // `attachInput`'s pointerdown guard covers everything inside it — a control on a NEW
-    // root-plane sibling would be dead to a real mouse while `locator.click()` still passed.
-    // The buttons also carry `pointer-events:auto` inline, because the row rests at "none".
-    moreRow.addEventListener("click", (e) => {
-      const t = e.target && e.target.closest && e.target.closest("[data-read-to]");
-      if (!t) return;
-      e.stopPropagation();
-      this._navJump(t.getAttribute("data-read-to"));
-    });
-    this.wrapRef.current.appendChild(moreRow);
-    this._landMoreEl = moreRow;
-    this._readTouch(moreRow);   // a phone reads by dragging the card it is reading
+  // The deferred reader owns a page, never the question DOM. Automatic game arrivals
+  // request it after the real hand mounts; content arrivals prepare dormant controls.
+  _queueReader(node, side) {
+    if (this._readerIntent || this._reader?.interacting || !node) return;
+    let path = this._nodeUrlPath(node.idx);
+    if (path && !/\/(Top|Bottom|Attacker|Defender)$/i.test(path))
+      path += "/" + (node.ty === "positions" ? (this.playerRole === "bottom" ? "Bottom" : "Top") : (side === "defender" ? "Defender" : "Attacker"));
+    const request = this._readerQueued = { path: this._readerInitialPath || path };
+    requestAnimationFrame(() => setTimeout(() => {
+      if (this.__ngDestroyed || this._readerIntent || this._reader?.interacting || request !== this._readerQueued) return;
+      if (!this.optionsRef.current?.querySelector("[data-tech]") && !this._urlSeeded) return;
+      this._readerInitialPath = null;
+      this._readArticle(request.path, false, false);
+    }, 0));
   }
-  /**
-   * SHARED CARD CHROME. The question card owns only its top-right corner: capture, the
-   * card-layer ✕, and under them the deck count. `_renderLandMore` creates the fuller reading
-   * surface beside it. Keeping both calls in this helper makes the ordinary landing and panic
-   * drill share one anatomy without putting the More body back inside either timed card.
-   *
-   * `side` picks the perspective the sibling reads from: a technique's defending seat uses its
-   * authored DEFENDER block (see `_landMoreHTML`).
-   */
+  _readArticle(path, intent = true, push = true) {
+    if (!path) return;
+    if (intent) {
+      this._readerIntent = true;
+      this._declineLandQ("reading");
+      this._leaveRollForReference();
+      this.setDeckOpen(false);
+    }
+    const request = this._readerRequest = { path, intent, push };
+    if (!this._readerLoad) this._readerLoad = import(this._appAsset("reader.js") + (this._readerRetry ? "&retry=" + this._readerRetry : ""))
+      .then((m) => { if (!this.__ngDestroyed) return m.installReader(this); })
+      .catch((error) => {
+        this._readerLoad = null; this._readerRetry = (this._readerRetry || 0) + 1;
+        console.warn("[reader] load failed", error);
+        if (this.__ngDestroyed) return;
+        const r = this._readerRequest, card = this.modalCardRef.current;
+        card.innerHTML = '<p style="padding:20px" role="alert">Reading could not load. Please try again.</p>';
+        const retry = this.segBtn("Retry reading", true, false, () => { this.closeModal(); this._readArticle(r.path, r.intent, r.push); });
+        retry.setAttribute("data-reader-load-retry", ""); card.append(retry); this.openModal();
+      });
+    return this._readerLoad.then(() => {
+      if (!this.__ngDestroyed && request === this._readerRequest) return this._reader?.open(request);
+    });
+  }
+
+  /** Question chrome has its own lifetime; panic cards also request the full
+   * defender article, independently of the question and deferred dossiers. */
   _landCardChrome(el, node, key, side) {
-    this._landReadOwner = { node, side, card: el, key: node.ty === "positions" ? this.deckKeyFor(node).key : node.t };
-    this._renderLandMore(node, side);
+    if (el.hasAttribute("data-panic")) this._queueReader(node, side);
     // The question card owns its close button and deck count. The capture star belongs
     // to the graph's seat label, and remains available when this card is hidden.
     const corner = document.createElement("div");
@@ -15480,102 +15415,15 @@ class Component extends DCLogic {
     }
     el.appendChild(corner);
   }
-  /**
-   * MORE ▸ GROWS INTO THE SECOND CARD OF A READING COLUMN (v1.174.0; column v1.175.0).
-   *
-   * The control begins in the measured row below the dealt choices. Opening morphs that SAME
-   * sibling into a landcard-shaped container docked 6px under the timed card at its
-   * full content height — no scrollport, so a long read runs under the fold. The timed card
-   * remains the exact surface it was before the click, and the hand is PUSHED below the new
-   * card rather than covered (owner: "I wasn't expecting the choices row to disappear behind
-   * the card"). Reading is then a scroll of the whole column — film, timed card, More, hand —
-   * by `_readApply`, back to this exact frame at offset 0.
-   *
-   * Reading pauses the roll on its OWN latch (`_landAutoPaused`), so closing can never resume a
-   * roll the player paused by hand. Less, Esc, a background tap and picking a card close only
-   * the reading column; scrolling never closes it.
-   */
-  expandLandCard(open) {
-    const el = this._landEl, row = this._landMoreEl;
-    if (!el || !row) return false;
-    const body = row.querySelector("[data-land-more-body]"), btn = row.querySelector("[data-land-more]");
-    if (!body || !btn) return false;
-    const want = open == null ? !this._landOpen : !!open;
-    if (want && !this._landOpen) this._readS = 0;   // a fresh read starts at the top; a rebuild keeps its place
-    this._landOpen = want;
-    row.classList.toggle("open", want);
-    // AWAIT THE DEFERRED STYLESHEET BEFORE WRITING THE BODY, or the reader gets a frame of
-    // browser-default 16px black text on a dark card. Re-check on resolve: the reader may have
-    // closed, or the seat may have changed, while the fetch was in flight.
-    if (want && !body.firstChild && body._ngMoreSections) this._ensureReadCSS().then(() => {
-      if (!this._landOpen || body.firstChild || !body._ngMoreSections || row !== this._landMoreEl) return;
-      this._paintRead(row, body);
-      this._dockLandCard(this._landEl);
-    });
-    // THE CONTENTS ROW EXISTS ONLY WHILE THE FOLD IS OPEN (v1.195.6). It used to be left in the
-    // head on close: laid out beside the collapsed pill at opacity 1, its entries still carrying
-    // their inline `pointer-events:auto` under a row reset to `none` — CLAUDE.md §6.1's trap, in
-    // its click-EATING form. Measured: `elementFromPoint` at an entry returned the entry, and a
-    // mouse click there ran `_navJump` against a `display:none` body (no visible effect, the
-    // click swallowed). Owner: "those tabs remain there like ghosts … I can't click them either".
-    // Removal, not `visibility:hidden`: a collapsed strip holds the pill and nothing else, so
-    // there is nothing to keep laid out. `_paintNav` puts the row back on reopen from the same
-    // section list the body was painted from, WITHOUT repainting the body (which is built once
-    // and reused — `landcard-more-content.spec.ts`, "builds its HTML on first open").
-    this._paintNav(row, body);
-    body.style.display = want ? "block" : "none";
-    row._ngRestPointerEvents = row.style.pointerEvents = want ? "auto" : "none";
-    if (want) {
-      if (!this.paused) { this.setPaused(true); this._landAutoPaused = true; }
-      const node = this.nodes && this._landIdx != null ? this.nodes[this._landIdx] : null;
-      this.fx("land_more_opened", { node: node ? node.t : null });
-    } else {
-      if (body.contains(document.activeElement)) btn.focus({ preventScroll: true });
-      this._readStop(); this._readS = 0; this._readMax = 0;
-      this._readClear();
-      this._releaseLandPause();
-    }
-    btn.setAttribute("aria-expanded", String(want));
-    // Named for the CONTENT, not for what pressing it does to itself. Owner: "The Less button
-    // sounds weird." The words live in the accessible name; the glyph is the app's one close
-    // idiom, the same ghost ✕ the question card's own corner uses.
-    btn.textContent = want ? "\u2715" : "More";
-    btn.setAttribute("aria-label", want ? "Close the reading panel" : "Read more about this state");
-    this._landMoreAlign(btn, want);
-    // Restore the declared resting colour rather than deleting the inline declaration.
-    btn.style.color = want ? "#cdd5e6" : NG_LAND_MORE_COL;
-    this._dockLandCard(el);
-    return true;
-  }
-  // ═══ THE READING COLUMN (v1.175.0, owner: "what moves up is this new card that showed, the
-  // land card and the videos row. Basically everything moves up and the background … gets
-  // hidden behind it") ═════════════════════════════════════════════════════════════════════
-  // Nothing here is a scroll container. The film, the timed card and the More card are fixed
-  // root-plane siblings that keep every dock rule they have; the hand is a wrap-plane absolute
-  // element whose `transform` belongs to the option sheet (`expandOption`), so it moves on
-  // `bottom` instead — and its ✕ needs nothing: `_dockHandClose` re-reads the row's rect every
-  // frame, so it rides the pushed row by itself. `_readS` is the one offset, `_readMax` how far
-  // the column may travel: measured in `_dockLandMore` as the distance the More card's bottom
-  // overhangs the hand's slot (or the fold when the hand is put away). At `_readS = 0` the hand
-  // sits `_readMax` below its home, just under the More card; at `_readS = _readMax` it is back
-  // home and the whole read has passed through the viewport. Every dock measures in the HOME
-  // frame (`_readClear` first, `_readApply` after) so no rect is read through its own
-  // translation — the two readers that run between docks (`_dockLandFilm`, the camera band)
-  // add `_readOffset()` back explicitly.
+  // Tall questions scroll the landing column. Docks measure in its home frame;
+  // `_readApply` restores the offset and returns the hand to its tray at the end.
   _readOffset() { return this._readMax ? (this._readS || 0) : 0; }
-  _releaseLandPause() {
-    if (!this._landAutoPaused) return;
-    this._landAutoPaused = false;
-    if (this.deckShown) this._paneAutoPaused = true;
-    else if (this._replay) this._replayAutoPaused = true;
-    else this.setPaused(false);
-  }
   _readKey(e) {
     const target = e.target;
     if (this.deckShown || !this._readMax || this._landHidden() || e.metaKey || e.ctrlKey || e.altKey || !target ||
         !target.closest || target.closest("input,textarea,select,[contenteditable]")) return false;
     const pageKey = this._landOverflow && /^(PageUp|PageDown|Home|End)$/.test(e.key);
-    if (!pageKey && (!target.closest("[data-land-more-body]") || target.closest("button,a[href]"))) return false;
+    if (!pageKey) return false;
     const page = (window.innerHeight || 800) * .85;
     const deltas = { ArrowUp: -40, ArrowDown: 40, PageUp: -page, PageDown: page, " ": e.shiftKey ? -page : page };
     if (Object.prototype.hasOwnProperty.call(deltas, e.key)) this._readScrollBy(deltas[e.key]);
@@ -15587,7 +15435,6 @@ class Component extends DCLogic {
   /** The home frame: every column member where its dock put it, the hand at the tray datum. */
   _readClear() {
     for (const t of this._landSurfaces()) t.style.transform = "translateX(-50%)";
-    this._readPin(0);   // the head comes home with the column, or the docks measure a lifted rect
     const tray = this.optionsRef && this.optionsRef.current;
     if (tray) tray.style.bottom = this._landDatum().tray + "px";   // WRITE the template's value, never delete it (§6.1)
   }
@@ -15601,8 +15448,7 @@ class Component extends DCLogic {
       // ends — a member positioned off its home frame gives up the entry motion
       if (s) t.style.animation = "none";
     }
-    // Keep the guides beside the visible part of an exceptionally tall answer. Once the
-    // whole card leaves the viewport during a More read, its guides leave with it.
+    // Keep the guides beside the visible part of an exceptionally tall answer.
     const nav = this._landNavEl, card = this._landEl;
     if (nav && card) {
       const H = window.innerHeight || 800, height = card.offsetHeight;
@@ -15610,43 +15456,9 @@ class Component extends DCLogic {
       const middle = (Math.max(16, top) + Math.min(H - 16, top + height)) / 2 - top;
       nav.style.setProperty("--guide-y", Math.max(22, Math.min(height - 22, middle)) + "px");
     }
-    this._readPin(s);  // ...and the head stays where the reader can reach it
-    this._navMark();   // the column moved: the contents row says where the reader now is
     const push = max - s;
     const tray = this.optionsRef && this.optionsRef.current;
     if (tray) tray.style.bottom = (this._landDatum().tray - push) + "px";
-  }
-  /**
-   * THE PINNED HEAD (v1.194.1) — the contents row holds while the document travels under it.
-   *
-   * `position:sticky` is dead on this surface and it was measured three separate times: the fold
-   * is not a scrollport, so a sticky child of a `transform`-moved fixed card travels the full
-   * offset with it. What holds instead is arithmetic. The head is counter-translated by exactly
-   * what `_readApply` just took away, starting the moment its natural top would cross the card's
-   * own side padding — the token `reading.css`'s whole rhythm is already built on, rather than a
-   * new number — and it never travels past the bottom of the card it indexes.
-   *
-   * It is the INNER bar that moves; see `_renderLandMore` for why it cannot be the outer one.
-   *
-   * THIS IS THE ONE WRITER of the head's transform: `_readApply` for a frame of the read,
-   * `_readClear` for the home frame every dock measures in. The three inputs are measured once
-   * per dock in `_dockLandMore`, in that same home frame, so no frame of the read pays a layout
-   * read for it and no rect is ever read through its own translation.
-   *
-   * IT ADDS NO DISPLACEMENT. `_readMax` is `rowBottom - limit` off the row's own `offsetHeight`,
-   * which a transform does not change, so the hand is pushed exactly as far as the same body
-   * unpinned would push it (`landcard-more-content.spec.ts`, "the pinned head costs the hand
-   * nothing").
-   */
-  _readPin(s) {
-    const pin = this._landMoreEl && this._landMoreEl._ngPin;
-    if (!pin) return;
-    const start = Math.max(0, (this._readPinTop || 0) - (this._readPinInset || 12));
-    const lift = Math.max(0, Math.min(this._readPinCap || 0, s - start));
-    pin.style.transform = lift ? "translateY(" + lift + "px)" : "";
-    // Floating over the prose it indexes, the head has to be opaque; standing in its own place at
-    // the top of the card it must not be. The class is the only thing that says which it is.
-    pin.classList.toggle("pinned", lift > 0);
   }
   _readScrollBy(dy) {
     if (this._landHidden(true) || !this._readMax) return false;
@@ -15720,20 +15532,6 @@ class Component extends DCLogic {
     el.addEventListener("touchcancel", end, { passive: true });
     el.addEventListener("click", (e) => { if (moved > 6) { e.stopPropagation(); e.preventDefault(); } moved = 0; }, true);
   }
-  /**
-   * The sections the retired in-node container carried, at the game card's own text size:
-   * the useful definition, principles, where it leads and what beats it. Film is not repeated
-   * here; it owns the independent film layer. The dealt hand is already the complete answer to
-   * "attacks from here", so raw adjacency never appears as a second, dishonest option list.
-   */
-  /**
-   * The fuller sections as HTML, or "" when this state has none — and "" is the whole point:
-   * `More ▸` is only rendered when this returns something. Owner: "if there is nothing to show
-   * by clicking More then don't show the More". A control that opens onto "nothing more is
-   * authored for this state yet" is a dead affordance; the card should just be the card.
-   * ONE function for the predicate and the content, so the button and the panel can never
-   * disagree about whether there is anything behind it.
-   */
   /**
    * The DEFINITION, with the page-title sentence taken off the front.
    *
@@ -15879,29 +15677,13 @@ class Component extends DCLogic {
       }
       // tabindex="-1" is load-bearing: a contents click calls focus({preventScroll:true}) on
       // the section, and without it focus moves nothing. The data-<prefix>-<key> hook stays
-      // exactly as it was — `_refreshReadingContent` reads that attribute NAME to keep the
-      // reader's place across a late dossier, so renaming or nesting it breaks place-keeping.
+      // stable for the shared option/reference sheet consumers.
       return '<section class="r-s' + (s.key === "safety" || s.key === "safety-notice" ? ' r-w' : '') + '" tabindex="-1" data-' + prefix + '-' + s.key + '="1">' + (s.label ? '<h3>' + E(s.label) + '</h3>' : '') + body + '</section>';
     }).join('');
   }
-  /**
-   * THE DEFERRED READING STYLESHEET'S LOADER.
-   *
-   * reading.css is not in the boot payload (see neural/src/reading.css). This fetches it on the
-   * first deliberate press of More, which is always after the first hand.
-   *
-   * IT DOES NOT COPY `_ensureSystems`/`_ensureConcepts`, WHICH CACHE FAILURE: those guard on a
-   * stored promise and fold a failed fetch into a resolved one, so a single network blip makes
-   * the fold unstyled for the rest of the session. This copies `_hydrateContent`'s posture
-   * instead — a failure DROPS the wait so the next open refetches. An answer and a failure must
-   * not look the same (§6.6).
-   *
-   * HONEST ABOUT THE COST: the dossier is already warm by this point (it is read at landing and
-   * cached on the body when the More control is built), so this is a genuinely NEW wait on the
-   * first press, not one hidden behind an existing fetch. It is one small same-origin file, and
-   * awaiting it is what buys no unstyled frame. Prefetching it at landing would put it back on
-   * the first-hand payload bill, which is the whole thing the deferral exists to avoid.
-   */
+  /** Article and shared sheet styles load on reading intent, or after the real
+   * hand for a game preview. A failed fetch drops the promise so retry can work;
+   * callers await this before painting prose to avoid an unstyled frame. */
   _ensureReadCSS() {
     if (this._readCssP) return this._readCssP;
     return (this._readCssP = new Promise((res) => {
@@ -15914,123 +15696,6 @@ class Component extends DCLogic {
       document.head.appendChild(l);
     }));
   }
-  /**
-   * THE CONTENTS ROW — one emitter, beside the body's.
-   *
-   * The owner's model, verbatim: "a long list like it used to happen with quartz. the toc clicks
-   * would scroll to the appropriate position ... in mobile that will probably mean tabs in a
-   * single row, with horizontal scrolling". One continuous document; nothing is paged or hidden.
-   *
-   * ONE ENTRY PER TOP-LEVEL SECTION, NO OMISSIONS. Filtering to sections that happen to carry a
-   * label drops `def` (100% of seats) and a submission's `safety-notice`, i.e. the first thing
-   * the reader sees. `safety`'s five subgroups stay INSIDE safety rather than competing in this
-   * row — five more entries would make a submission's contents 40% safety.
-   *
-   * WHY THIS LIVES HERE AND NOT IN `expandLandCard`: "what are this document's sections" must be
-   * answered in ONE place. `_refreshReadingContent` re-renders the body when a late dossier
-   * lands; it calls this too, so the index can never describe a document the body no longer
-   * shows, and no handler is left on a detached node. Collapse before the third caller (§6.5).
-   */
-  _readingNav(sections) {
-    if (sections.length < 3) return "";
-    return '<nav class=r-toc data-read-nav aria-label="Guide contents">' + sections.map((x) =>
-      '<button class=r-t type=button data-read-to="' + this.escHTML(x.key) + '" style="pointer-events:auto;">' +
-      this.escHTML(x.label || NG_READ_NAV[x.key] || x.key) + "</button>").join("") + "</nav>";
-  }
-  /**
-   * THE ONE PAINT. The body and its index are written together, from the same section list, by
-   * this function and nothing else — `expandLandCard` on first open and `_refreshReadingContent`
-   * when a late dossier lands. Two writers would let the index describe a document the body no
-   * longer shows; a delayed chunk that adds a section is the ordinary case, not an edge one.
-   */
-  _paintRead(row, body) {
-    const sections = body._ngMoreSections || [];
-    body.innerHTML = this._readingHTML(sections, "land");
-    this._paintNav(row, body);
-  }
-  /**
-   * THE ONE WRITER OF THE CONTENTS ROW (v1.195.6). The row is derived from `body._ngMoreSections`
-   * — the list the body was last painted from — so the index can never describe a document the
-   * body does not show, whichever of its two callers ran: `_paintRead` when the body is written,
-   * `expandLandCard` when the fold opens or shuts. It is PRESENT only while the fold is open AND
-   * the body is painted: a shut fold gets its row removed (never faded — §6.1), and an open fold
-   * still awaiting `reading.css` gets nothing yet, so no unstyled row flashes before the body.
-   */
-  _paintNav(row, body) {
-    const bar = row.querySelector("[data-read-bar]"), btn = row.querySelector("[data-land-more]");
-    if (!bar || !btn) return;
-    const old = bar.querySelector("[data-read-nav]");
-    if (old) old.remove();
-    if (!this._landOpen || !body.firstChild) return;
-    btn.insertAdjacentHTML("beforebegin", this._readingNav(body._ngMoreSections || []));
-    this._navMark();
-  }
-  /**
-   * The More control's alignment inside the inner bar, ONE writer for both states (§6.1: a value
-   * two sites restore is a constant, and `style.x = ""` deletes rather than restores). Open, the
-   * ✕ right-aligns past the contents row on its own auto margin — `order` cannot do that under
-   * the bar's centring, measured 131px each side. Shut, the margin is WRITTEN back to 0 so the
-   * bar's `justify-content:center` centres the lone pill; the stylesheet mirror in reading.css
-   * is scoped to `.ng-landmore.open` for the same reason.
-   */
-  _landMoreAlign(btn, open) { btn.style.marginLeft = open ? "auto" : "0"; }
-  /** Where the head is STANDING, plus one rhythm unit — the line `_navMark` calls "being read".
-   *  It measures the inner bar because that is the one the pin moves; the outer one stays put. */
-  _navPin() {
-    const pin = this._landMoreEl && this._landMoreEl._ngPin;
-    return pin ? Math.round(pin.getBoundingClientRect().bottom) + 12 : 0;
-  }
-  /**
-   * Where a jumped-to section comes to REST — the head's pinned line, not wherever it is standing
-   * when the click lands. The two differ, and aiming at the live one misses: every entry's target
-   * offset is at or past the offset where the head pins (the FIRST entry's lands exactly on it,
-   * since the head is one head-height plus one unit above it), so the head is always pinned by
-   * the time the jump settles. Aiming at a line that is about to move is the fixed-point bug.
-   */
-  _navRest() {
-    return this._readPinH ? (this._readPinInset || 12) + this._readPinH + 12 : this._navPin();
-  }
-  /**
-   * `scrollIntoView` DOES NOTHING HERE. The open fold is `overflow:visible` with no scrollport —
-   * reading TRANSLATES the whole landing column via `_readApply`. This is the same arithmetic
-   * `_refreshReadingContent` already uses to keep the reader's place, with a click on it.
-   */
-  _navJump(key) {
-    const row = this._landMoreEl; if (!row) return;
-    const body = row.querySelector("[data-land-more-body]");
-    const el = body && body.querySelector("[data-land-" + key + "]"); if (!el) return;
-    this._readStop();
-    this._readApply((this._readS || 0) + el.getBoundingClientRect().top - this._navRest());
-    if (el.focus) try { el.focus({ preventScroll: true }); } catch (e) {}
-    this._navMark();
-  }
-  /**
-   * Which section is being read. Quartz's own TOC does this by weighting each entry's opacity by
-   * how much of its section is on screen; that is its reference and the idea is the same, but the
-   * implementation cannot be — Quartz listens to `scroll` and this column has no scroll events,
-   * only a transform. So it is driven from `_readApply`, off rects the frame already settled.
-   */
-  _navMark() {
-    const row = this._landMoreEl; if (!row) return;
-    const nav = row.querySelector("[data-read-nav]"), body = row.querySelector("[data-land-more-body]");
-    if (!nav || !body) return;
-    const pin = this._navPin();
-    let best = null, bestTop = -Infinity;
-    for (const sec of body.children) {
-      const t = sec.getBoundingClientRect().top;
-      if (t <= pin + 4 && t > bestTop) { bestTop = t; best = sec; }
-    }
-    const attr = best && Array.from(best.attributes).find((a) => a.name.indexOf("data-land-") === 0);
-    const key = attr ? attr.name.slice(10) : null;
-    for (const b of nav.children) {
-      b.setAttribute("aria-current", key && b.getAttribute("data-read-to") === key ? "location" : "false");
-    }
-    const on = nav.querySelector('[aria-current="location"]');
-    if (on) nav.scrollLeft = on.offsetLeft - nav.clientWidth / 2 + on.clientWidth / 2;
-  }
-  _landMoreSections(node, side) { return this._readingSections(node, this.ngContentFor(node), side, false); }
-  _landMoreHTML(node, side) { return this._readingHTML(this._landMoreSections(node, side), "land"); }
-
   /** Is the landing question settled — mounted, or definitively not coming? */
   landQuestionReady() { return !this._landWarmP; }
   /**
@@ -16070,7 +15735,10 @@ class Component extends DCLogic {
    * inside a scrollport. If it would climb off the top it pins to a 16px inset instead.
    */
   // ═══ THE THREE BOTTOM LAYERS (v1.171.0) — see NG_LAYER_KEYS for the design ═══════════════════
-  _layerOn(name) { const k = NG_LAYER_KEYS[name]; return !k || this.get(k, true) !== false; }
+  _layerOn(name) {
+    const k = NG_LAYER_KEYS[name];
+    return !k || this.get(this.get("readingFocus", false) ? "reading" + k.slice(4) : k, true) !== false;
+  }
   /** A put-away hand stays away, CAUGHT OR NOT (v1.171.1, owner — a Defender URL arrival with
    *  only the videos on showed the escape tray: "if I didn't ask to see outcomes don't show them
    *  to me"). v1.171.0 forced the escapes visible under attack on the theory that hiding the
@@ -16082,7 +15750,7 @@ class Component extends DCLogic {
     if (!NG_LAYER_KEYS[name]) return false;
     on = on !== false;
     if (this._layerOn(name) === on) return false;
-    this.set(NG_LAYER_KEYS[name], on);
+    this.set(this.get("readingFocus", false) ? "reading" + NG_LAYER_KEYS[name].slice(4) : NG_LAYER_KEYS[name], on);
     this.fx("land_layer", { layer: name, on: on, src: src || "api" });
     // A layer toggle invalidates the cached teardown framing; the next frame measures
     // the newly docked surfaces, including any space this toggle has freed.
@@ -16096,14 +15764,11 @@ class Component extends DCLogic {
     const n = this._landIdx != null && this.nodes ? this.nodes[this._landIdx] : null;
     const inDefense = this._defendSub != null;
     if (!this._layerOn("card")) {
-      // More belongs to the card layer. A cloud/settings change can put that layer away while
-      // its reading card owns the pause, so close it first and return only that owned pause.
-      if (this._landOpen && this._landMoreEl) this.expandLandCard(false);
       if (this._landEl) {
         this._declineLandQ("collapsed");
         this.fx("land_dismissed", { node: n ? n.t : null, answered: !!(this._landQ && this._landQ.answered) });
         this._clearLandCardOnly();
-      } else this._clearLandMore();
+      } else this._readClear();
     } else if (!this._landEl && n && this._decision && !inDefense && (this._landMode === "land" || this._landMode === "attempt")) {
       // EXPANDING MID-LANDING ASKS (owner). A truthy `reuse` skips the per-landing reset, so
       // this landing's answered set and page cache survive: a question answered BEFORE the card
@@ -16138,13 +15803,31 @@ class Component extends DCLogic {
    *  the tray's slot (the screen the player asked back). ONE seam (§6.5) for the three dockers
    *  that each used to carry their own `TRAY_BOTTOM = 84`. */
   _landDatum() {
-    const TRAY_BOTTOM = 84; // matches .ng-optionrow's own `bottom` in xdc-template.html
+    // Reserve the preview before its deferred module arrives, so loading prose
+    // does not move an already-dealt hand or its camera target. The shelf's cold
+    // footprint is its six fixed buttons + gaps/padding; the reader measures it
+    // once mounted. Both paths measure the same existing bottom chrome.
+    const W = this.W || 1200, H = this.H || 800, center = this._paneLayout().center;
+    const half = (W <= 640 ? 318 : 360) / 2;
+    const cold = this.get("readerBook", true) ? this._readerShelfBottom({ left: center - half, right: center + half }) + 78 + Math.min(128, H * .15) : 84;
+    const TRAY_BOTTOM = this._reader?.trayBottom || cold;
     const row = this.optionsRef.current;
+    if (!this._reader && row && !this._readMax) row.style.bottom = TRAY_BOTTOM + "px";
     const h = row && this._handShown() ? row.getBoundingClientRect().height : 0;
     return { tray: TRAY_BOTTOM, h: h > 0 ? h : 0 };
   }
+  _readerShelfBottom(horizontal) {
+    let bottom = 12;
+    for (const el of [this.accountRef.current, this.shareCueRef.current, this.wrapRef.current.querySelector(".ng-winbar")]) {
+      if (!el || getComputedStyle(el).visibility === "hidden") continue;
+      const box = el.getBoundingClientRect();
+      if (box.height && box.top > 0 && box.left < horizontal.right && box.right > horizontal.left)
+        bottom = Math.max(bottom, (this.H || 800) - box.top + 8);
+    }
+    return Math.round(bottom);
+  }
   /** WHICH PERSPECTIVE THIS CARD SPEAKS FROM — one seam, because two callers ask it (v1.173.0).
-   *  The film picks its reel with it and `_landCardChrome` picks the block `More ▸` unfolds; when
+   *  The film picks its reel with it and the automatic article picks its guide; when
    *  the film extraction moved the expression out of renderLandCard, the chrome call was left
    *  reading a `perspSide` that no longer existed there — a ReferenceError on every landing, from
    *  a merge that compiled clean (§6.5: collapse to ONE named seam before a second caller exists).
@@ -16261,6 +15944,7 @@ class Component extends DCLogic {
    *  `_layoutLandHorizontal` (every frame, and once here so the first frame is already right),
    *  which is what keeps it under the card while the pane is open or animating (v1.196.1). */
   _renderLayerDock() {
+    if (this._reader) { this._reader.shelf(); return; }
     const wrap = this.wrapRef && this.wrapRef.current; if (!wrap) return;
     const off = NG_LAYER_ORDER.filter((l) => !this._layerOn(l));
     let dock = this._layerDockEl;
@@ -16325,7 +16009,7 @@ class Component extends DCLogic {
     else if (c) cardTop = H - parseFloat(getComputedStyle(c).bottom) - c.offsetHeight;
     else if (this._layerOn("card")) cardTop = H - 236;
     else { const d = this._landDatum(); cardTop = H - (d.tray + (d.h ? d.h + 12 : 0)); }
-    const h = f.offsetHeight || 0;
+    const h = Math.ceil(f.getBoundingClientRect().height);
     // THE ✕ HUGS THE LAST THUMBNAIL (v1.171.1, owner: "sometimes appears far away from the last
     // video"). Measured, never a constant: 4px right of the last clip's box, top-aligned to it,
     // and clamped inside the strip when the row overflows and scrolls.
@@ -16379,79 +16063,9 @@ class Component extends DCLogic {
       row.scrollLeft = Math.max(0, Math.min(row.scrollWidth - row.clientWidth, row.scrollLeft + delta));
     } else this.tweenScroll(row, delta);
   }
-  _dockLandMore(card, tray) {
-    const moreRow = this._landMoreEl;
+  _dockLandMore(card) {
     if (card !== this._landEl) return;
     this._readMax = this._landOverflow || 0;
-    if (!moreRow) { this._readApply(this._readS || 0); return; }
-    // ── OPEN: the second card of the reading column (v1.175.0) ──
-    // Measure in the HOME frame, dock 6px under the timed card at content height, then find how
-    // far the column must travel: the More card's bottom against the hand's slot (the same
-    // clearance the timed card keeps above the tray — 8 on a phone, 12 on desktop), or against
-    // the fold when the hand is put away. That distance is `_readMax`;
-    // `_readApply` pushes the hand down by it and the offset the reader had is kept, clamped.
-    if (this._landOpen) {
-      this._readClear();
-      const cr = card.getBoundingClientRect();
-      if (!(cr.width > 0)) return;
-      const H = window.innerHeight || 800;
-      // LAYOUT, NOT RECTS, for the two edges the travel is measured between. Both cards carry
-      // `ngCardInX`, whose first keyframe is `translate(-50%, 8px)`, and a rect read on the frame
-      // the class lands includes that 8px — measured: the More card docked 16px above the hand
-      // at the end of every read instead of 8. The card's used `bottom` and the row's own
-      // `top` + `offsetHeight` are what the animation settles to.
-      const cardBottom = H - parseFloat(getComputedStyle(card).bottom);
-      const top = Math.round(cardBottom + 6);
-      moreRow.style.width = Math.round(cr.width) + "px";
-      moreRow.style.top = top + "px";
-      moreRow.style.bottom = "auto";
-      const rowBottom = top + moreRow.offsetHeight;
-      // THE PINNED HEAD's home geometry, read in the home frame `_readClear` restored above:
-      // where the head rests at offset 0, how far it may travel inside its own card, and the
-      // inset it pins to — the card's own side padding, measured rather than assumed because it
-      // is 12 on a phone and 15 above it.
-      const pin = moreRow._ngPin;
-      if (pin) {
-        // AND LAYOUT HERE TOO, for the same reason as the two edges above — but expressed as a
-        // DIFFERENCE of rects, which is the cheapest way to get it: `ngCardInX`'s first keyframe
-        // translates the whole row by 8px, and a transform on the row moves the row's rect and
-        // the head's rect by the same amount, so `pinTop - rowTop` is immune to it while
-        // `pinTop` alone is not. Measured on the frame the class lands: 645 by the raw rect
-        // against 637 by this, i.e. the head pinned 8px above the inset it was asked for.
-        const rr = moreRow.getBoundingClientRect(), pr = pin.getBoundingClientRect();
-        const home = top + (pr.top - rr.top);
-        this._readPinInset = Math.round(parseFloat(getComputedStyle(moreRow).paddingLeft)) || 12;
-        this._readPinTop = Math.round(home);
-        this._readPinH = Math.round(pr.height);
-        this._readPinCap = Math.max(0, Math.round(rowBottom - home - pr.height));
-      }
-      let limit = H - 16;
-      if (this._handShown()) {
-        const choiceRow = this.optionsRef.current;
-        const tr = choiceRow && choiceRow.getBoundingClientRect();
-        if (tr && tr.height > 0) limit = tr.top - (this.isMobile() ? 8 : 12);
-      }
-      this._readMax = Math.max(0, Math.round(rowBottom - limit));
-      this._readApply(this._readS || 0);
-      return;
-    }
-    const cr = card.getBoundingClientRect();
-    if (!(cr.width > 0)) return;
-    moreRow.style.width = Math.round(cr.width) + "px";
-    let tr = tray;
-    if (!tr && this._handShown()) {
-      const choiceRow = this.optionsRef.current;
-      if (choiceRow) tr = choiceRow.getBoundingClientRect();
-    }
-    moreRow.style.top = Math.round(tr && tr.height > 0 ? tr.bottom + 6 + this._readMax : cr.bottom + 6) + "px";
-    moreRow.style.bottom = "auto";
-    // The minimized-content dock owns bottom-centre whenever another layer is off. With a visible
-    // hand both controls share that band, so move only the pill inside its full-width inert row;
-    // expanded More resets this transform in CSS.
-    const head = moreRow.firstChild;
-    this._readPinCap = 0;   // nothing to pin while the fold is shut: the head IS the row
-    const dockSharesBand = this._handShown() && NG_LAYER_ORDER.some((l) => !this._layerOn(l));
-    head.style.transform = dockSharesBand ? "translateX(90px)" : "";
     this._readApply(this._readS || 0);
   }
   _dockLandCard(el) {
@@ -16463,26 +16077,21 @@ class Component extends DCLogic {
   _layoutLandCard(el) {
     if (!el) return;
     // Every rect below is read in the HOME frame; `_dockLandMore` re-applies the column after.
-    if (this._landOpen || this._readMax) this._readClear();
+    if (this._readMax) this._readClear();
     const row = this.optionsRef.current;
     if (!row) { this._dockLandMore(el); return; }
     const { tray: TRAY_BOTTOM, h } = this._landDatum();
     // Short landscape screens use two columns: deck on the left, film and choices on the
     // right. A long question grows down into the reading column.
     if (el === this._landEl && this._compactLandDeck()) {
-      el.style.setProperty("bottom", (TRAY_BOTTOM + 12) + "px", "important");
+      el.style.setProperty("bottom", ((this._reader?.cardBottom || TRAY_BOTTOM) + 12) + "px", "important");
       this._dockLandStack();
       this._dockLandMore(el);
       return;
     }
     const rb = row.getBoundingClientRect();
     if (!(h > 0)) {
-      // A hidden hand frees its slot, except for the independent More pill subordinate to this
-      // card. Reserve that measured row above the minimized-layer dock.
-      if (!this._handShown()) {
-        const moreGap = this._landMoreEl && !this._landOpen ? 50 : 0;
-        el.style.setProperty("bottom", (TRAY_BOTTOM + moreGap) + "px", "important");
-      }
+      if (!this._handShown()) el.style.setProperty("bottom", TRAY_BOTTOM + "px", "important");
       this._dockLandStack();
       this._dockLandMore(el);
       return;
@@ -16920,18 +16529,12 @@ class Component extends DCLogic {
       // riding the card's top edge exactly like a landing.
       card.innerHTML =
         '<div data-land-clock-track="1" style="position:absolute;left:0;top:0;height:5px;width:100%;border-radius:15px 15px 0 0;overflow:hidden;background:rgba(255,110,110,.12);"><div data-land-clock="1" style="height:100%;width:100%;background:#ff8585;transform-origin:left;transform:scaleX(1);"></div></div>' +
-        '<div style="font-size:9.5px;letter-spacing:.14em;text-transform:uppercase;font-weight:700;color:#ff9c9c;margin-bottom:7px;">Defend it \u2014 beat the clock</div>' +
+        '<div data-defense-prompt style="font-size:9.5px;letter-spacing:.14em;text-transform:uppercase;font-weight:700;color:#ff9c9c;margin-bottom:7px;">' + (this._readerIntent ? 'Defender question' : 'Defend it \u2014 beat the clock') + '</div>' +
         '<div style="padding-right:54px;font-size:12.5px;font-weight:600;color:#eef1f6;line-height:1.35;margin-bottom:8px;">' + fc.q + '</div>';
-      // THE LANDING CARD'S SHARED CHROME, ON THE DRILL TOO. The timed question keeps only the
-      // card-layer corner; More builds as its own sibling and reads the submission's DEFENDER
-      // block. Rebuilt on every question because `innerHTML` replaces the card, while `_landOpen`
-      // preserves an already-open reading card across that rebuild.
-      // Dossier completion refreshes the reading sibling independently through its owner,
-      // including after this question has been answered.
+      // Question chrome can repaint while the independent defender article stays open.
       const chrome = () => {
         const oldCorner = card.querySelector("[data-land-corner]"); if (oldCorner) oldCorner.remove();
         this._landCardChrome(card, sub, pk, "defender");
-        if (this._landOpen) this.expandLandCard(true);
       };
       // THE DRILL IS MULTIPLE CHOICE, LIKE THE LANDING (v1.135.0, owner: "It should look much
       // more similar to the ng-landcard with multiple choice"). Same block, same grading choke
@@ -16939,6 +16542,7 @@ class Component extends DCLogic {
       // what is panic's own: the escape-odds pump on a right answer, the next card, the beacon.
       const done = (ok) => {
         this._disarmLandClock();        // resolved, well or badly — the window is spent
+        this._reader?.beginPlay();
         if (ok) {
           this.refreshEscapeOdds();     // the payoff: every escape's % climbs before your eyes
           this.fx("escape_odds_pumped", { deck_key: pk });
@@ -16980,6 +16584,7 @@ class Component extends DCLogic {
         // Same qualification repair as JIT: this is recall evidence, including SRS/proof.
         this.gradeRecall(pk, fc, true, null, "panic");
         this._disarmLandClock();        // drilled in time — the window is spent well
+        this._reader?.beginPlay();
         this.refreshEscapeOdds();
         this.fx("escape_odds_pumped", { deck_key: pk });
         this._jitIdx[pk] = idx + 1;
@@ -16999,10 +16604,7 @@ class Component extends DCLogic {
         });
       }
     };
-    // a fresh landing (the drill is one): folded, and its own auto-pause latch clean — the same
-    // reset renderLandCard applies when `_landIdx` changes. Set BEFORE render() so the chrome
-    // (expandLandCard reads `_landIdx` for its beat) and the background-tap dismissal name it.
-    this._landOpen = false; this._landAutoPaused = false;
+    // A fresh defensive question belongs to this submission.
     this._landIdx = sub.idx; this._landMode = "defense";
     render();
     this.wrapRef.current.appendChild(card);
@@ -17411,7 +17013,7 @@ class Component extends DCLogic {
       // deck via deckKeyFor), the hand is yours from the defending side, the camera is
       // `rollCamTarget`'s band-aware composition, and play waits for the button like any other.
       const st = this._stagedTech;
-      if (st && st.side === "defender" && this.nodes[st.idx] && this.nodes[st.idx].ty === "submissions") {
+      if (!this._readerIntent && st && st.side === "defender" && this.nodes[st.idx] && this.nodes[st.idx].ty === "submissions") {
         this._stagedTech = null;
         this._prefetchDefendDeck(st.idx);   // same warm as the opponent-finish path
         this.setPaused(false);
@@ -17442,13 +17044,13 @@ class Component extends DCLogic {
       eyebrow.style.letterSpacing = ".08em";
     }
     const row = this.optionsRef.current;
-    if (row) {
+    if (row && !this._readerIntent) {
       const want = oc.card.offsetLeft - (row.clientWidth - oc.card.offsetWidth) / 2;
       this._trayGlideBy(row, want - row.scrollLeft);
     }
   }
-  stageRollAt(nodeIdx) {
-    this.rollFromPosition(nodeIdx, true);
+  stageRollAt(nodeIdx, roleOverride) {
+    this.rollFromPosition(nodeIdx, true, roleOverride);
     this._staged = this.currentPos;
     this.fx("roll_staged", { position: this.nodes[this.currentPos] ? this.nodes[this.currentPos].t : null, technique: this._stagedTech && this.nodes[this._stagedTech.idx] ? this.nodes[this._stagedTech.idx].t : null });
   }
@@ -17464,8 +17066,8 @@ class Component extends DCLogic {
   //   1. IT CREDITS NOTHING. No grade, no stage, no srs, no score, no combo, no challenge
   //      evidence — its beats deliberately bypass `fx()` (see `_replayBeat`). Watching is not
   //      doing, and a progress number that moved because you watched a recording would be a lie.
-  //   2. THE CLOCK IS HELD THROUGHOUT, on its own latch (`_replayAutoPaused`, the pane/dossier/
-  //      More pattern) — so stopping the film gives back only a pause the film itself took.
+  //   2. THE CLOCK IS HELD THROUGHOUT, on its own latch (`_replayAutoPaused`, the pane/dossier
+  //      pattern) — so stopping the film gives back only a pause the film itself took.
   //   3. ANY REAL INPUT CANCELS IT. Pan, pinch, wheel, a tap on the graph, Esc, or pressing play:
   //      never fight the user's camera, and never make them wait out a recording.
   //   4. IT NEVER TOUCHES THE PANE (pane law). On a phone the drawer IS the screen, so closing it
@@ -17711,7 +17313,6 @@ class Component extends DCLogic {
     if (this._replayAutoPaused) {
       this._replayAutoPaused = false;
       if (this.deckShown) this._paneAutoPaused = true;
-      else if (this._landOpen) this._landAutoPaused = true;
       else this.setPaused(false);
     }
     this._replayBeat("roll_replay_end", { reason: reason || "stopped", step: Math.max(0, R.i), steps: R.steps.length });
@@ -18254,7 +17855,7 @@ class Component extends DCLogic {
     const opts = this.optionsFor(this.currentPos);
     if (!opts.length) { this.after(1.0, () => this.startRoll()); return; }
     this.optionIdxs = opts.map((o) => o.idx);
-    this.fx("options_dealt", { count: opts.length });
+    if (!this._readerIntent) this.fx("options_dealt", { count: opts.length });
     // WARM THE NEIGHBOURHOOD (v1.80.4) — one macrotask LATER, so it cannot compete with drawing
     // the hand. These are the decks the player is about to need: this state's own, and one per
     // option card (the JIT drill behind each option, and the landing question wherever they go
@@ -18283,7 +17884,7 @@ class Component extends DCLogic {
         ),
       );
     }, 0);
-    this.startLandRipple(this.currentPos, this.optionIdxs);
+    if (!this._readerIntent) this.startLandRipple(this.currentPos, this.optionIdxs);
     // ── THE CLOCK MOVED TO THE QUESTION (v1.133.0, owner) ─────────────────────────────────────
     // "Pressure should not be on the choices … the choices are fun to click." The HAND is never
     // timed: the window arms when a QUESTION mounts (_armLandClock — from _mountLandQ and the
@@ -18298,7 +17899,7 @@ class Component extends DCLogic {
     if (el) el.style.pointerEvents = "auto";
     this._syncHandLayer();               // the hand LAYER (v1.171.0): dealt either way, shown by preference
     this._optPick = pick; this._optList = opts;
-    this._highlightStagedCard();
+    this._highlightStagedCard(); // a dormant choice keeps its static accent, without moving the tray
     // the landing's decision CONTEXT — pick/opts for the hand, plus the QUESTION window's timer
     // fields, disarmed until a question mounts (_armLandClock). gdt-driven, so pauses freeze it.
     this._decision = { remaining: null, total: null, warned: 0, pick: pick, opts: opts };
@@ -18329,11 +17930,12 @@ class Component extends DCLogic {
   // before that parks in `_cwArm` and fires from `_engage`/`_tickDecision` the moment both
   // are true. The pressure itself is untouched — once engaged, the full window runs.
   _engage() {
+    if (this._readerIntent) return;
     if (!this._engaged) { this._engaged = true; this.fx("engaged", {}); }
     this._tryArmClock();
   }
   _clockGate() {
-    return !!this._engaged && !this.deckShown && !!this._landEl && !this._landHidden();
+    return !this._readerIntent && !!this._engaged && !this.deckShown && !!this._landEl && !this._landHidden();
   }
   _tryArmClock() {
     if (!this._cwArm || !this._clockGate()) return;
@@ -18475,6 +18077,8 @@ class Component extends DCLogic {
   // sites and the ~5s frame-loop age-out — retired in v1.218.0: no outcome writes the announcer
   // any more, and a card hit cannot pin, it is gone in ~1.3s of wall clock.)
   _tickDecision(gdt) {
+    if (this._readerIntent) return;
+    if (this._reader?.interacting) { this._declineLandQ("reading"); return; }
     if (this._cwArm) this._tryArmClock(); // the card can become visible after engagement
     const d = this._decision;
     if (!d || d.remaining == null || this._checkpoint) return; // Q002 lives on: the checkpoint quiz is untimed — and so is every HAND now (v1.133.0); this window times the QUESTION only
@@ -19154,6 +18758,22 @@ class Component extends DCLogic {
     this.enterDefense(sd);
     return true;
   }
+  // The catch has one pressure writer, whether reached during play or activated
+  // by the first deliberate action on a dormant defender arrival. Activating it
+  // must preserve the existing question, its grade and the identity of the hand.
+  _startDefensePressure() {
+    const sub = this.nodes[this._defendSub];
+    if (!sub) return;
+    this._readingDefense = false;
+    const escapes = this._optList || [];
+    this.fx("defend_start", { submission: sub.t });
+    this.fx("caught", { submission: sub.t });
+    this.fx("options_dealt", { count: escapes.length, kind: "defense" });
+    this.setEvent("Caught", this.splitName(sub.t).main + " locked in", "bad");
+    this.showVignette();
+    const prompt = this._landEl?.querySelector("[data-defense-prompt]");
+    if (prompt) prompt.textContent = "Defend it — beat the clock";
+  }
   enterDefense(subIdx) {
     this._stagedDefense = null; // any defense entry supersedes a deferred catch (enterLand)
     this.clearExecution();
@@ -19165,14 +18785,13 @@ class Component extends DCLogic {
     }
     this._declineLandQ("defense"); // the rush owns the screen — the landing question stands down, free
     this.clearLandCard();
-    this.fx("defend_start", { submission: sub ? sub.t : null });
-    this.fx("caught", { submission: sub ? sub.t : null });
+    this._readingDefense = !!this._readerIntent;
     this._stagedTech = null;
     this.setPaused(false);
     subIdx = this.submissionNode(sub).idx;
     this.playerRole = this.nodes[subIdx].fromRole === "top" ? "bottom" : "top";
     this.currentPos = this.nodes[subIdx].pi >= 0 ? this.nodes[subIdx].pi : subIdx;
-    this.focusIdx = this.currentPos;
+    this.focusIdx = this._readingDefense ? this._lastChosenIdx : this.currentPos;
     this._syncUrl(this.focusIdx, true);
     const key = this.deckKeyFor(this.nodes[this.currentPos]).key;
     const log = this.rollLog = this.rollLog || [];
@@ -19188,13 +18807,8 @@ class Component extends DCLogic {
     this._pendingIntent = null;
     const escapes = this.submissionDefenses(this.nodes[subIdx]);
     if (!escapes.length) throw new Error("Submission has no available defensive responses: " + sub.t);
-    this.fx("options_dealt", { count: escapes.length, kind: "defense" });
     this.optionIdxs = escapes.map((e) => e.res);
     const dsec = this.get("decisionSec", 9); // the DRILL's window (v1.133.0) — the escapes are untimed
-    this.setEvent("Caught", this.splitName(sub.t).main + " locked in", "bad"); // v1.171.1, owner: no "drill to loosen it" tail
-    // the danger owns the camera and the field: frame the exchange, fog everything else
-    this._dangerSet = new Set([subIdx, this.currentPos].concat(escapes.map((e) => e.res)));
-    this.frameNodes([subIdx, this.currentPos].concat(escapes.map((e) => e.res)));
     this._defendSub = subIdx;
     // the panic drill credits the authored Defender deck when it exists, else your position deck
     // NAMED, NEVER SILENT (§6.6): escapeChance falls back to the old flat 0.4 when this submission
@@ -19204,7 +18818,6 @@ class Component extends DCLogic {
     const dk = this.defendKeyFor(sub);
     this._panicKey = this._deckHasCards(dk) ? dk : (this._deckHasCards(this._posKey) ? this._posKey : null);
     this.buildDrillPanel(this.currentPos, dk); // surfaces the Defender deck via the tab; respects the user's open/closed choice (no auto-open)
-    this.showVignette(); // heartbeat — you are IN TROUBLE, and the screen says so
 
     const el = this.optionsRef.current; if (el) el.innerHTML = "";
     let picked = false;
@@ -19213,6 +18826,7 @@ class Component extends DCLogic {
       this.after(0.5, () => this.endRound("lose", sub.t, subIdx)); };
     const pick = (opt) => {
       if (picked || opt.threat) return; picked = true;
+      if (this.camHeld()) this.holdCamera(); // a live catch keeps its frame through the chosen escape
       const chance = this.escapeChance(opt); // computed BEFORE teardown (needs _defendSub/_panicKey)
       // THE CHOSEN ESCAPE STAYS ON THE TABLE (v1.218.1, owner 2026-10-05: "sometimes clicking a choice
       // card causes it to vanish (maybe only in submissions case?)"). Every other pick leaves a
@@ -19266,7 +18880,13 @@ class Component extends DCLogic {
     this.renderChoiceGroups(el, escapes, this.opponentThreats(this.currentPos), pick, dsec, true);
     if (el) el.style.pointerEvents = "auto";
     this._syncHandLayer();               // the escapes obey the hand layer too (v1.171.1, owner)
+    // The passive defender arrival may show its escape neighbourhood. Starting
+    // pressure must not reframe it under the first deliberate escape click.
+    const nodes = [sub.idx, this.currentPos, ...escapes.map(e => e.res)];
+    this._dangerSet = new Set(nodes);
+    this.frameNodes(nodes);
     this._optPick = pick; this._optList = escapes;
+    if (!this._readingDefense) this._startDefensePressure();
     this.buildPanicCard(el, sub);
     // the DRILL runs on the question clock (v1.133.0, armed by buildPanicCard); the ESCAPES are
     // untimed — expiry no longer taps you out, it reveals the drill's answer as a miss and the
@@ -19429,16 +19049,25 @@ class Component extends DCLogic {
   //  mount when it lands find the node already clear of them: travel (`moving`) and an exchange
   //  in flight (`executionCameraTarget`) always pass it.
   rollCamTarget(f, moving, nodeIdx, ahead) {
-    const vw = moving
+    let vw = moving
       ? Math.max(this.graphW * 0.3, this.graphR * 0.7)
       : this.graphW * this.ROLL_ZOOM;
     const H = this.H || 800, W = this.W || 1200;
     const R = this._viewRect(moving || ahead != null ? { ahead: ahead != null ? ahead : true } : null);
     const top = R.top, bot = R.bottom;
     const wantY = (top + bot) / 2;
-    const scale = W / vw;
     const ni = nodeIdx == null ? this.focusIdx : nodeIdx;
     const n = this.nodes && ni >= 0 ? this.nodes[ni] : null;
+    // Fit both drawn seats in the actual remaining band. A full article preview
+    // and film can make it smaller even on a deliberately staged game board.
+    if (!moving && (this._readerIntent || this.paused) && n) {
+      const mid = this.pairMid(n), ly = this._LY || (q => q.y);
+      const k = Math.max(0.4, Math.min(1, vw / (this.graphW * 0.5)));
+      const pair = [n, n.pi >= 0 ? this.nodes[n.pi] : null].filter(Boolean);
+      const half = Math.max(...pair.map(q => Math.abs(ly(q) - mid.y) + q.r * k * 1.6));
+      vw = Math.max(vw, 2 * half * W / Math.max(16, R.height - 16));
+    }
+    const scale = W / vw;
     if (!moving && n) f = this.pairMid(n);
     const nodeK = Math.max(0.4, Math.min(1, vw / (this.graphW * 0.5)));
     // a PAIR is aimed at its midpoint, where the name is now drawn — the triangle nudge that
@@ -19521,17 +19150,18 @@ class Component extends DCLogic {
       } catch (e) { /* non-fatal */ }
     }
     let bottom = H - 16, measured = false, rows = "";
-    for (const el of [this._landFilmEl, this._landEl, this._handShown() && this.optionsRef?.current]) {
+    const surfaces = [this._landFilmEl, this._landEl, this._handShown() && this.optionsRef?.current, this._readerEl, this._layerDockEl];
+    for (const [i, el] of surfaces.entries()) {
       let on = false;
       if (el && el.offsetHeight) {
         const css = getComputedStyle(el);
-        if (css.display !== "none") {
+        if (css.display !== "none" && css.visibility !== "hidden") {
           const dock = parseFloat(css.bottom);
           const y = Number.isFinite(dock) ? H - dock - el.offsetHeight : el.getBoundingClientRect().top;
           if (y > top + 32) { bottom = Math.min(bottom, y - 12); measured = on = true; }
         }
       }
-      rows += on ? "1" : "0";
+      if (i < 3) rows += on ? "1" : "0";
     }
     if (!this._landEl && this._layerOn("card") && this._bandBot?.h === H) {
       bottom = this._bandBot.y; // the landing is being rebuilt, even if its hand still exists
@@ -19539,20 +19169,21 @@ class Component extends DCLogic {
       this._bandBot = { h: H, y: bottom };
       const k = W + "x" + H + "|" + rows, memo = this._bandMemo || (this._bandMemo = {});
       if (!(memo[k] <= bottom)) memo[k] = bottom;   // the TIGHTEST ever measured: a prediction errs high
-    } else if (this._layerOn("card") || this._layerOn("film") || this._handShown()) {
+    } else if (this._layerOn("card") || (!this._readerIntent && this._layerOn("film")) || this._handShown()) {
       bottom = this._bandBot?.h === H ? this._bandBot.y : Math.max(120, H * 0.42);
     }
     let predicted = false;
     if (opts && opts.ahead != null && opts.ahead !== false) { bottom = this._predictBottom(opts.ahead); predicted = true; }
-    bottom = Math.max(top + 32, bottom);
+    bottom = Math.max(top + 16, bottom);
     const pane = this._paneLayout();
     return { left: pane.left, top, right: W, bottom, width: Math.max(1, W - pane.left), height: bottom - top, measured, predicted };
   }
   /** The bottom of the band a landing will have (see `_viewRect`'s `ahead`). An exact memo for the
    *  rows it will show, else the tightest memo of any combination that includes them (an error
    *  that lifts too high, never too low), else a guess for the session's first landing at this
-   *  viewport: 19% of the height when the card or film shows, tighter than every composition
-   *  measured at 1440x900 (27.6%) and 390x844 (20.4%). Every remaining miss is a row the camera
+   *  viewport: reserve the article preview before its deferred module arrives. The phone's
+   *  full stack can start at 13% of its height; 10% leaves the landing clear during hydration.
+   *  Without the book, the original 19% reservation suffices. Every remaining miss is a row the camera
    *  could not see coming, and the lift's eased edge (`NG_CAM_EDGE_SEC`) clears it. */
   _predictBottom(ahead) {
     const W = this.W || 1200, H = this.H || 800;
@@ -19561,17 +19192,20 @@ class Component extends DCLogic {
     if (film && n) { try { film = !!this._landFilmClips(n); } catch (e) { film = true; } }
     const want = [film, this._layerOn("card"), this._handShown()];
     if (!want[0] && !want[1] && !want[2]) return H - 16;
+    // A later question can need more space than any one already measured. Keep
+    // the book's conservative reserve when forecasting the next landing.
+    const prior = (want[0] || want[1]) && this.get("readerBook", true) ? H * .1 : Infinity;
     const memo = this._bandMemo || {}, pre = W + "x" + H + "|";
     const exact = memo[pre + want.map((w) => (w ? "1" : "0")).join("")];
-    if (exact != null) return exact;
-    let best = null;
+    if (exact != null) return Math.min(exact, prior);
+    let best = Number.isFinite(prior) ? prior : null;
     for (const k in memo) {
       if (k.slice(0, pre.length) !== pre) continue;
       const rows = k.slice(pre.length);
       if (want.every((w, i) => !w || rows[i] === "1")) best = best == null ? memo[k] : Math.min(best, memo[k]);
     }
     if (best != null) return best;
-    return want[0] || want[1] ? H * 0.19 : H * 0.6;
+    return want[0] || want[1] ? H * (this.get("readerBook", true) ? 0.1 : 0.19) : H * 0.6;
   }
   /** Make room for a landing that has not mounted yet: move framing `t` the least distance that
    *  puts node `idx` (both pair members, drawn size) inside the band that landing will have. The
@@ -19741,7 +19375,7 @@ class Component extends DCLogic {
     const arriveGlide = this._arriveGlideUntil != null && this.now < this._arriveGlideUntil
       && !this.camHeld() && !this.userActiveNow();
     const clamp = (v, lo, hi) => Math.max(lo, Math.min(hi, v));
-    const ctx = {};
+    const ctx = { holdLift: this.paused && !execution && !this.camHeld() && !this._conceptId };
     if (!this.introDone) {
       // the intro's parting overview must have landed before it hands over at 3.2s
       ctx.trackW = 3; ctx.dur = () => clamp(3.0 - el, 0.6, 1.4);
@@ -19760,9 +19394,9 @@ class Component extends DCLogic {
     // exchange landing at 390x844 250px, which is what the owner saw (see `_camStep`).
     const follow = !execution && tgt && this.introDone && !this.endZoom && !this._arriveWide
       && this.cfg().cameraMode !== "Overview" && this.camFocus;
-    if (follow && this.focusIdx >= 0 && !this._landOpen) {
+    if (follow && this.focusIdx >= 0) {
       const R = this._viewRect(this.pulse ? { ahead: true } : null);
-      ctx.lift = { f: this.camFocus, n: this.nodes[this.focusIdx], top: 16, bottom: R.bottom };
+      ctx.lift = { f: this.camFocus, n: this.nodes[this.focusIdx], top: this.paused ? R.top : 16, bottom: R.bottom };
     }
     this._camStep(dt, ctx);
   }
@@ -19860,7 +19494,11 @@ class Component extends DCLogic {
       const sx = (TV.x - base.x) / base.w * W + W / 2, sy = (TV.y - base.y) / base.w * W + H / 2;
       const kind = sx >= -0.25 * W && sx <= 1.25 * W && sy >= -0.25 * H && sy <= 1.25 * H ? "pivot" : "arc";
       const S = this._camPath(base, TV, "arc").S;
-      const dur = ctx.dur ? ctx.dur(S) : Math.max(0.6, Math.min(1.4, 0.5 + 0.25 * S));
+      // A narrow reading band can demand a much larger zoom than the old landing.
+      // Preserve the path and easing, but give its log-zoom distance enough time:
+      // sine easing peaks at pi/2; the arc's log-width slope is bounded by rho*S.
+      const zoomTravel = kind === "pivot" ? Math.abs(Math.log(TV.w / base.w)) : NG_CAM_RHO * S;
+      const dur = Math.max(ctx.dur ? ctx.dur(S) : Math.max(0.6, Math.min(1.4, 0.5 + 0.25 * S)), Math.PI / 2 * zoomTravel / 3.2);
       m.flight = { a: { ...base }, t: 0, dur, v0: { ...m.v }, kind,
         goal: { x: TV.x, y: TV.y, l: Math.log(TV.w), vx: 0, vy: 0, vl: 0 } };
       this._camFlights = (this._camFlights || 0) + 1;
@@ -19906,7 +19544,8 @@ class Component extends DCLogic {
       const s = W / next.w, n = lf.n;
       const nodeK = Math.max(0.4, Math.min(1, next.w / (this.graphW * 0.5)));
       const ly = n ? (this._LY ? this._LY(n) : n.y) : lf.f.y;
-      const margin = Math.max(30, (Math.abs(ly - lf.f.y) + (n ? n.r : 6) * nodeK * 1.6) * s);
+      const margin = Math.max(Math.min(30, Math.max(0, (lf.bottom - lf.top) / 2 - 8)),
+        (Math.abs(ly - lf.f.y) + (n ? n.r : 6) * nodeK * 1.6) * s);
       const fy = H / 2 + (lf.f.y - next.y) * s, fx = W / 2 + (lf.f.x - next.x + frac * next.w) * s;
       if (!E || this.now - E.seen > 0.5) E = m.edge = { from: lf.bottom, to: lf.bottom, t: 1 };
       if (Math.abs(lf.bottom - E.to) > 1) {
@@ -19930,9 +19569,8 @@ class Component extends DCLogic {
       const hi = fy - margin + up, dn = lf.top + sp(hi - lf.top) - hi; // >= 0: back down if it now pokes above
       want = -(up + dn) * gate;                                        // screen px; positive moves the node up
     }
-    // While the lift stays engaged its target is already continuous (a continuous pose against an
-    // eased edge), so it is followed exactly — a spring here would only add lag under a row. The
-    // spring smooths the two discontinuities left: the lift engaging and letting go.
+    // Follow small continuous lift changes exactly to avoid lag under a row. Larger changes
+    // from a newly measured band use the spring, as do engagement and release.
     const L = m.lift, was = L.on, prevWant = L.w, prevSubj = L.subj;
     L.on = !!(lf && lf.f); L.subj = lf && lf.n ? lf.n.idx : -1;
     // THE LIFT HOLDS, IT NEVER YANKS. Its target is continuous while it holds (a continuous pose
@@ -19941,13 +19579,17 @@ class Component extends DCLogic {
     // lands) — means the band-aware target is already moving the node out. So it waits until that
     // motion has the node (nearly) clear, then holds. Measured: yanking at 157-177px under the card
     // kicked 13-16px in one frame at 390x844.
-    // no jump in the target itself, and the SAME node: a landing hands the lift a new subject, whose
-    // want is a different quantity (measured: 7.4 -> 0.9px in one frame on an escape's landing)
+    // Only a new subject waits for its flight. A changed band around the current node must
+    // clear promptly; spring larger changes rather than waiting for a flight that may not exist.
     const continuous = was && L.on && L.subj === prevSubj && Math.abs(want - prevWant) < 24;
-    if (L.on && !continuous && want > 6) L.wait = true;
+    if (L.on && (!was || L.subj !== prevSubj) && want > 6) L.wait = true;
     if (L.wait) { if (!L.on || want <= 6) L.wait = false; else want = 0; }
     L.w = want;
-    if (continuous && !L.wait && (L.exact || Math.abs(want - L.o) < 1.5)) {
+    if (!lf && ctx.holdLift) {
+      // Pausing freezes the framing, including its screen-space clearance. A
+      // manual camera write adopts a fresh integrator with zero lift as usual.
+      L.v = 0;
+    } else if (continuous && Math.abs(want - prevWant) < (W <= 640 ? 4 : 12) && !L.wait && (L.exact || Math.abs(want - L.o) < 1.5)) {
       L.v = dt > 0 ? (want - L.o) / dt : 0; L.o = want; L.exact = true;
     } else {
       const LS = this._camSpring(L.o, L.v, want, 18, dt);
@@ -20080,7 +19722,9 @@ class Component extends DCLogic {
     this.setPaused(true);            // freeze with a fresh decision timer; Play resumes
     this.enterLand(false);           // build options for the new state (no restart toast)
   }
+  _graphInputOn() { return !this._reader || this._reader.on("map"); }
   _updateHover(e) {
+    if (!this._graphInputOn()) { this._hover = null; return; }
     if (!this.cam || !this.nodes) return;
     const rect = this.canvas.getBoundingClientRect();
     if (e.type === "pointermove") {
@@ -20124,9 +19768,15 @@ class Component extends DCLogic {
     let dragging = false, lx = 0, ly = 0, dsx = 0, dsy = 0, moved = 0;
     const ptrs = new Map();
     let pinch = null;
+    this._cancelGraphInput = () => {
+      for (const id of ptrs.keys()) { try { el.releasePointerCapture(id); } catch (err) {} }
+      ptrs.clear(); pinch = null; dragging = false; moved = 0;
+      this._hover = null; el.style.cursor = "grab";
+    };
     const dist = () => { const a = [...ptrs.values()]; return Math.hypot(a[0].x - a[1].x, a[0].y - a[1].y); };
     const mid = () => { const a = [...ptrs.values()]; return { x: (a[0].x + a[1].x) / 2, y: (a[0].y + a[1].y) / 2 }; };
     el.addEventListener("pointerdown", (e) => {
+      if (!this._graphInputOn()) { this._cancelGraphInput(); return; }
       // ── the in-node dossier owns gestures that START inside it ──
       // Below, pointerdown calls el.setPointerCapture(). Capture RETARGETS every later pointer
       // event to `el`, so (a) pointerup's `inCard` guard saw the wrap div instead of the card
@@ -20151,11 +19801,11 @@ class Component extends DCLogic {
       const dsh = this.dossierSheetRef && this.dossierSheetRef.current;
       if (dsh && dsh.style.display === "block" && e.target && dsh.contains(e.target)) return;
       // ...AND EVERY GAME-CARD SIBLING. `_landSurfaces()` is the one list for the
-      // timed card, film and More card; a new sibling cannot fix suppression while remaining
+      // timed card and film; a new sibling cannot fix suppression while remaining
       // dead to a real mouse. The option sheet, minimized-layer dock and hand ✕ complete the
       // current fixed-control set.
       for (const ov of [...this._landSurfaces(), this.optDetailRef && this.optDetailRef.current,
-        this._layerDockEl, this._handCloseEl]) {
+        this._layerDockEl, this._handCloseEl, this._readerEl]) {
         if (ov && e.target && ov.contains(e.target)) return;
       }
       this.closeDeckIfStudying();
@@ -20174,6 +19824,7 @@ class Component extends DCLogic {
       this.lastInteract = this.now;
     });
     el.addEventListener("pointermove", (e) => {
+      if (!this._graphInputOn()) { this._cancelGraphInput(); return; }
       if (ptrs.has(e.pointerId)) ptrs.set(e.pointerId, { x: e.clientX, y: e.clientY });
       if (pinch && ptrs.size >= 2 && this.cam) {
         const rect = this.canvas.getBoundingClientRect();
@@ -20208,6 +19859,7 @@ class Component extends DCLogic {
       lx = e.clientX; ly = e.clientY; this.lastInteract = this.now;
     });
     const end = (e) => {
+      if (!this._graphInputOn()) { this._cancelGraphInput(); return; }
       if (e && this._landTarget(e.target)) return;
       if (e) { ptrs.delete(e.pointerId); try { el.releasePointerCapture(e.pointerId); } catch (err) {} }
       if (ptrs.size < 2) pinch = null;
@@ -20253,6 +19905,7 @@ class Component extends DCLogic {
     el.addEventListener("pointerup", end); el.addEventListener("pointercancel", end);
     el.addEventListener("pointerleave", () => { this._hover = null; });
     el.addEventListener("wheel", (e) => {
+      if (!this._graphInputOn()) { this._cancelGraphInput(); return; }
       if (this._landTarget(e.target)) return;
       e.preventDefault(); if (!this.cam) return;
       const rect = this.canvas.getBoundingClientRect();
@@ -20280,6 +19933,30 @@ class Component extends DCLogic {
     if (ty === "positions") { ctx.moveTo(x + r, y); ctx.arc(x, y, r, 0, 6.2832); }
     else if (ty === "submissions") { const h = r * 1.35; ctx.moveTo(x, y - h); ctx.lineTo(x + h * 0.92, y + h * 0.72); ctx.lineTo(x - h * 0.92, y + h * 0.72); ctx.closePath(); }
     else { const h = r * 1.18; ctx.moveTo(x, y - h); ctx.lineTo(x + h, y); ctx.lineTo(x, y + h); ctx.lineTo(x - h, y); ctx.closePath(); }
+  }
+
+  // Rebuild at ingest, toggle, and knowledge publication (manifest/hydration,
+  // grades, load and merged progress). An import holds no owner/progress snapshot:
+  // completion re-reads the CURRENT setting and evidence, including a late Off.
+  // Failed imports retain base paint and retry on the next enable/publication.
+  _rebuildMapPaint() {
+    const on = this.get("masteryGold", false);
+    if ((!on && !NG_MIX_SITES_BY_DEFAULT) || !this.nodes || this.__ngDestroyed) { this._mapPaint = null; return; }
+    if (this._goldModule) { this._mapPaint = this._goldModule.ngGoldCache(this, on); return; }
+    this._mapPaint = null;
+    if (!this._goldLoading) {
+      this._goldLoading = this._fetchMasteryGold(this._goldAttempt = (this._goldAttempt || 0) + 1).then(module => {
+        this._goldModule = module; this._goldLoading = null; this._rebuildMapPaint();
+      }).catch(error => { this._goldLoading = null; console.warn("[neural] mastery gold unavailable", error); });
+    }
+  }
+  // Only cached endpoint interpolation belongs in a frame. DOM glyphs and
+  // advantage labels keep n.col/myColor; base colour objects are never overwritten.
+  _mapColor(n, lower = false) {
+    const e = this._mapPaint && this._mapPaint[n.idx];
+    if (!e) return lower && n.colU ? n.colU : n.col;
+    const half = lower ? e.lowerPaint : e.halfPaint, k = this._lodK == null ? 1 : this._lodK;
+    return k === 1 ? half : k === 0 ? e.sitePaint : this.lerp3(e.sitePaint, half, k);
   }
 
   draw() {
@@ -20469,8 +20146,8 @@ class Component extends DCLogic {
           const rel = mw > 0 ? w / mw : 0;
           ctx.lineWidth = (0.8 + 1.4 * rel) / scale;
           const g2 = ctx.createLinearGradient(cn.x, cn.y, o.x, o.y);
-          g2.addColorStop(0, this.rgba(o.col, (0.04 + 0.06 * rel) * A * dim));
-          g2.addColorStop(1, this.rgba(o.col, (0.10 + 0.28 * rel) * A * dim));
+          g2.addColorStop(0, this.rgba(this._mapColor(o), (0.04 + 0.06 * rel) * A * dim));
+          g2.addColorStop(1, this.rgba(this._mapColor(o), (0.10 + 0.28 * rel) * A * dim));
           ctx.strokeStyle = g2;
           ctx.beginPath(); ctx.moveTo(cn.x, cn.y); ctx.lineTo(o.x, o.y); ctx.stroke();
         }
@@ -20483,7 +20160,7 @@ class Component extends DCLogic {
         const k = aAge / 0.38;
         const pa = this.nodes[this.pulse.path[0]], pb = this.nodes[this.pulse.path[1]];
         if (pa && pb) {
-          ctx.strokeStyle = this.rgba(pb.col, (0.12 + 0.55 * k) * A);
+          ctx.strokeStyle = this.rgba(this._mapColor(pb), (0.12 + 0.55 * k) * A);
           ctx.lineWidth = (3.4 - 2.2 * k) / scale;
           ctx.beginPath(); ctx.moveTo(pa.x, pa.y); ctx.lineTo(pb.x, pb.y); ctx.stroke();
         }
@@ -20492,7 +20169,7 @@ class Component extends DCLogic {
     // path ahead
     if (this.pulse && !this.pulse.done) {
       const p = this.pulse, head = this.headPos();
-      ctx.strokeStyle = this.rgba(this.nodes[p.path[p.path.length - 1]].col, 0.16 * glow * A);
+      ctx.strokeStyle = this.rgba(this._mapColor(this.nodes[p.path[p.path.length - 1]]), 0.16 * glow * A);
       ctx.lineWidth = 1.2 / scale;
       ctx.beginPath(); ctx.moveTo(head.x, head.y);
       for (let i = p.seg + 1; i < p.path.length; i++) { const n = this.nodes[p.path[i]]; ctx.lineTo(n.x, LY(n)); }
@@ -20502,7 +20179,7 @@ class Component extends DCLogic {
     for (const e of this.trail) {
       const age = this.now - e.time; const k = Math.max(0, 1 - age / 2.6); if (k <= 0) continue;
       const na = this.nodes[e.a], nb = this.nodes[e.b];
-      const tc = e.tint ? this.lerpCol(nb.col, e.tint, 0.6) : nb.col;
+      const tc = e.tint ? this.lerpCol(this._mapColor(nb), e.tint, 0.6) : this._mapColor(nb);
       ctx.strokeStyle = this.rgba(tc, 0.6 * k * glow * A);
       ctx.lineWidth = (0.8 + 2.4 * k) / scale;
       ctx.beginPath(); ctx.moveTo(na.x, LY(na)); ctx.lineTo(nb.x, LY(nb)); ctx.stroke();
@@ -20520,7 +20197,7 @@ class Component extends DCLogic {
         // birth: ease the pulse into existence over the first stretch so it doesn't pop
         const birth = Math.min(1, tt / 0.22);
         const fade = tt <= 1 ? 1 : Math.max(0, 1 - (tt - 1) / 0.35);
-        ctx.strokeStyle = this.rgba(b.col, 0.5 * fade * birth * A);
+        ctx.strokeStyle = this.rgba(this._mapColor(b), 0.5 * fade * birth * A);
         ctx.lineWidth = 1.6 / scale;
         ctx.beginPath(); ctx.moveTo(a.x, LY(a)); ctx.lineTo(a.x + (b.x - a.x) * e, LY(a) + (LY(b) - LY(a)) * e); ctx.stroke();
         if (tt <= 1) {
@@ -20528,8 +20205,8 @@ class Component extends DCLogic {
           const hr = (2 + 4.5 * birth) * (tt > 0.85 ? Math.max(0.4, (1 - tt) / 0.15) : 1);
           const g = ctx.createRadialGradient(hx, hy, 0, hx, hy, hr);
           g.addColorStop(0, this.rgba({ r: 255, g: 255, b: 255 }, 0.9 * birth * A));
-          g.addColorStop(0.4, this.rgba(b.col, 0.7 * birth * A));
-          g.addColorStop(1, this.rgba(b.col, 0));
+          g.addColorStop(0.4, this.rgba(this._mapColor(b), 0.7 * birth * A));
+          g.addColorStop(1, this.rgba(this._mapColor(b), 0));
           ctx.fillStyle = g; ctx.beginPath(); ctx.arc(hx, hy, hr, 0, 6.2832); ctx.fill();
         }
       }
@@ -20548,10 +20225,10 @@ class Component extends DCLogic {
       const pulse = 0.5 + 0.5 * Math.sin(this.now * 2.6);
       for (const k of this._sessionNodes) {
         const n = this.nodes[k]; if (!n) continue;
-        ctx.strokeStyle = this.rgba(n.col, (0.45 + 0.4 * pulse) * A);
+        ctx.strokeStyle = this.rgba(this._mapColor(n), (0.45 + 0.4 * pulse) * A);
         ctx.lineWidth = 2 / scale;
         ctx.beginPath(); ctx.arc(n.x, LY(n), n.r * nodeK * 3, 0, 6.2832); ctx.stroke();
-        ctx.fillStyle = this.rgba(n.col, 0.1 * A);
+        ctx.fillStyle = this.rgba(this._mapColor(n), 0.1 * A);
         ctx.beginPath(); ctx.arc(n.x, LY(n), n.r * nodeK * 3, 0, 6.2832); ctx.fill();
       }
     }
@@ -20564,7 +20241,7 @@ class Component extends DCLogic {
         const n = this.nodes[k]; if (!n) continue;
         // At overview zoom both roles share one visible site; avoid drawing the same ring twice.
         if (n.pairId && !n.rep && kLOD < 0.02) continue;
-        ctx.strokeStyle = this.rgba(n.col, (0.4 + 0.35 * pulse) * A);
+        ctx.strokeStyle = this.rgba(this._mapColor(n), (0.4 + 0.35 * pulse) * A);
         ctx.lineWidth = 1.8 / scale;
         ctx.beginPath(); ctx.arc(n.x, LY(n), n.r * nodeK * 2.7, 0, 6.2832); ctx.stroke();
       }
@@ -20575,7 +20252,7 @@ class Component extends DCLogic {
       const pulse = 0.5 + 0.5 * Math.sin(this.now * 3);
       for (const k of this.optionIdxs) {
         const n = this.nodes[k];
-        ctx.strokeStyle = this.rgba(n.col, (0.3 + 0.35 * pulse) * A);
+        ctx.strokeStyle = this.rgba(this._mapColor(n), (0.3 + 0.35 * pulse) * A);
         ctx.lineWidth = 1.4 / scale;
         ctx.beginPath(); ctx.arc(n.x, LY(n), n.r * nodeK * 2.4, 0, 6.2832); ctx.stroke();
       }
@@ -20614,7 +20291,7 @@ class Component extends DCLogic {
       const bk = br ? 1 + br * Math.sin(this.now * 1.4 + n.idx * 0.83) : 1;
       const fogK = fogSet && !fogSet.has(n.idx) ? 0.3 : 1;
       const rD = rr * nodeK * bk;
-      ctx.fillStyle = this.rgba(n.z < 0 && n.colU ? n.colU : n.col, 0.62 * A * dim * fogK * aK);
+      ctx.fillStyle = this.rgba(this._mapColor(n, true), 0.62 * A * dim * fogK * aK);
       ctx.beginPath(); this.shapePath(ctx, n.ty, n.x, ny, rD); ctx.fill();
       // one light direction for the whole scene — collected here, painted in a single batch below
       if (spec && rD * scale > 7 && aK > 0.55 && fogK > 0.5) spec.push(n.x - rD * 0.3, ny - rD * 0.3, rD * 0.4);
@@ -20653,7 +20330,7 @@ class Component extends DCLogic {
     // and the light is spent where it means something: the moment the move lands.
     if (this.focusIdx >= 0 && !this.pulse) {
       const n = this.nodes[this.focusIdx];
-      const pc = this.myColor(n);
+      const pc = this._mapPaint ? this._mapColor(n) : this.myColor(n);
       // landing settle: damped overshoot when the roll arrives
       let settle = 1;
       if (this.anim("landingSettle", true) && this._settleT) {
@@ -20687,9 +20364,9 @@ class Component extends DCLogic {
       const amp = n.litK || 1;
       const gr = Math.max(n.r * nodeK * (1.8 + 4.2 * k) * amp, (34 * k * amp) / scale);
       const g = ctx.createRadialGradient(n.x, LY(n), 0, n.x, LY(n), gr);
-      g.addColorStop(0, this.rgba(n.col, 0.9 * k * glow * A));
-      g.addColorStop(0.4, this.rgba(n.col, 0.32 * k * glow * A));
-      g.addColorStop(1, this.rgba(n.col, 0));
+      g.addColorStop(0, this.rgba(this._mapColor(n), 0.9 * k * glow * A));
+      g.addColorStop(0.4, this.rgba(this._mapColor(n), 0.32 * k * glow * A));
+      g.addColorStop(1, this.rgba(this._mapColor(n), 0));
       ctx.fillStyle = g; ctx.beginPath(); ctx.arc(n.x, LY(n), gr, 0, 6.2832); ctx.fill();
       ctx.fillStyle = this.rgba({ r: 255, g: 255, b: 255 }, 0.8 * k * A);
       ctx.beginPath(); this.shapePath(ctx, n.ty, n.x, LY(n), n.r * nodeK * (1 + 0.7 * k * amp)); ctx.fill();
@@ -20720,7 +20397,7 @@ class Component extends DCLogic {
       }
       if (dep > 0.01) {
         const kR = this.REST_GLOW * (0.86 + 0.14 * Math.sin(this.now * 1.6)) * dep * dim;
-        const col2 = this.myColor(cur);
+        const col2 = this._mapPaint ? this._mapColor(cur) : this.myColor(cur);
         const gr = Math.max(cur.r * nodeK * 2.6, 44 / scale);
         const g2 = ctx.createRadialGradient(cur.x, LY(cur), 0, cur.x, LY(cur), gr);
         g2.addColorStop(0, this.rgba(col2, 0.62 * kR * glow * A));

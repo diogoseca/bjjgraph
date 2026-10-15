@@ -573,11 +573,11 @@ test.describe("in the 390px drawer", () => {
     // on a phone its temporary View Collection button can cover the upper seat label.
     const rewardClose = page.locator("[data-reward-close]");
     if (await rewardClose.isVisible()) await rewardClose.click();
-    const optAdd = page.locator('[data-list-add][data-list-surface="seat"]').first();
+    const optAdd = page.locator('[data-list-add="Positions/Mount"][data-list-surface="seat"]');
     await expect(optAdd).toBeVisible();
-    const ab = await j.boxOf('[data-list-add][data-list-surface="seat"]', "the land + control");
+    const ab = await j.boxOf('[data-list-add="Positions/Mount"][data-list-surface="seat"]', "the land + control");
     expect(await page.evaluate(({ x, y, width, height }) => {
-      const b = document.querySelector('[data-list-add][data-list-surface="seat"]')!;
+      const b = document.querySelector('[data-list-add="Positions/Mount"][data-list-surface="seat"]')!;
       const hit = document.elementFromPoint(x + width / 2, y + height / 2);
       return b === hit || b.contains(hit);
     }, ab), "the seat star owns the touch target").toBe(true);

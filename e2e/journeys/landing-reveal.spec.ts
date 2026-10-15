@@ -152,9 +152,11 @@ for (const viewport of [{ width: 1440, height: 900 }, { width: 390, height: 844 
         await j.advance(6500);
         const m = await page.evaluate(() => {
           const a = (window as any).__neural, n = a.nodes[a.focusIdx], mid = a.pairMid(n);
-          const surfaces = [a._landEl, a._landFilmEl, a._handShown() && a.optionsRef.current].filter((el: HTMLElement) => el && el.offsetHeight && getComputedStyle(el).display !== 'none');
+          const surfaces = [a._landEl, a._landFilmEl, a._handShown() && a.optionsRef.current, a._readerEl, a._layerDockEl].filter((el: HTMLElement) => el && el.offsetHeight && getComputedStyle(el).display !== 'none' && getComputedStyle(el).visibility !== 'hidden');
           const bottom = Math.min(a.H - 16, ...surfaces.map((el: HTMLElement) => a.H - parseFloat(getComputedStyle(el).bottom) - el.offsetHeight - 12));
-          return { y: a.H / 2 + (mid.y - a.cam.cy) * a.W / a.cam.vw, want: (16 + bottom) / 2, path: location.pathname, id: n.id };
+          const ev = a.evRef.current;
+          const top = ev && getComputedStyle(ev).opacity !== "0" ? Math.max(16, ev.getBoundingClientRect().bottom + 12) : 16;
+          return { y: a.H / 2 + (mid.y - a.cam.cy) * a.W / a.cam.vw, want: (top + bottom) / 2, path: location.pathname, id: n.id };
         });
         expect(m.path).toBe('/' + m.id);
         expect(Math.abs(m.y - m.want), JSON.stringify({ layers, ...m })).toBeLessThan(5);
@@ -167,6 +169,8 @@ test('a played transition replaces the URL with its revealed landing', async ({ 
   const j = journey(page);
   await j.boot('/Positions/Mount');
   await j.advance(8000);
+  // Simulated time does not await the deferred reader that prepares this hand.
+  await expect(page.locator('[data-tech]').first()).toBeVisible();
   const pick = await page.evaluate(() => {
     const a = (window as any).__neural;
     const opt = a._optList.find((o: any) => o.node.ty === 'transitions' && o.res >= 0 && o.res !== a.currentPos);
@@ -188,7 +192,9 @@ test('a played transition replaces the URL with its revealed landing', async ({ 
 
 test('a defensive arrival names the highlighted defending seat in the URL', async ({ page }) => {
   const j = journey(page);
-  await j.boot('/Positions/Mount');
+  // This is a catch during play. Content URLs now prepare a dormant reading seat;
+  // the home route starts the live roll whose defensive transition is exercised.
+  await j.boot('/');
   await j.advance(8000);
   await page.evaluate(() => {
     const a = (window as any).__neural;

@@ -166,16 +166,16 @@ test("cold start: the deck payload landing mid-turn gives the CURRENT state its 
   ).toContain("question_answered");
 });
 
-test("cold start: the dossier payload landing mid-turn gives the current state its definition", async ({
+test("cold start: a late dossier adds film without replacing the complete article", async ({
   page,
 }) => {
   const j = journey(page);
   await j.boot("/", { keepTutorial: true });
   await withoutDecks(page); // both heavy payloads are outstanding
   await j.land("Mount Top");
-  expect((await read(page)).hasDef, "no dossier payload, no definition").toBe(
-    false,
-  );
+  const article = page.locator('[data-reader-ready="true"] [data-reader-body]');
+  await expect(article).toContainText("Mount");
+  const published = await article.textContent();
 
   // technique-content.js lands (the harness aborts the real 21MB file, so inject the shape it
   // defines for exactly the state being played) and calls its ready hook
@@ -183,31 +183,14 @@ test("cold start: the dossier payload landing mid-turn gives the current state i
     const a = (window as any).__neural;
     const key = a.deckKeyFor(a.nodes[a.currentPos]).key;
     (window as any).NG_CONTENT = {
-      decks: { [key]: { def: "A one-line definition of where you are." } },
+      decks: { [key]: { def: "A one-line definition of where you are.", clips: [{ id: "aQ2vFXXBn-o", title: "Late film" }] } },
     };
     a.onContentReady();
   });
 
-  // v1.101.x: the definition lives BEHIND `More ▸` (owner: "push the intro… to the content after
-  // clicking More"), built lazily on first open. The backfilled render's job is to make `More`
-  // APPEAR (the card had nothing to unfold before the payload); the definition is inside it.
-  await expect(
-    page.locator("[data-land-more]"),
-    "the backfill gives the card its More affordance",
-  ).toHaveCount(1);
-  await page.evaluate(() => (window as any).__neural.expandLandCard());
-  await expect(
-    page.locator("[data-land-def]").first(),
-    "the deferred reading surface paints the backfilled definition",
-  ).toContainText("A one-line definition of where you are.");
-  const after = await read(page);
-  expect(after.hasDef, "the definition backfills onto the live card").toBe(
-    true,
-  );
-  expect(
-    await page.locator("[data-land-def]").first().innerText(),
-    "in the page's own words",
-  ).toContain("definition of where you are");
+  await expect(page.locator('[data-land-film]')).toContainText("Late film");
+  expect(await article.textContent(), "dossier completion leaves the published article intact").toBe(published);
+  await expect(page.locator('[data-land-more]')).toHaveCount(0);
 });
 
 test("cold start: a payload arriving behind the expand sheet renders BEHIND it, visible", async ({
@@ -328,7 +311,7 @@ test("cold start: the FIRST landing carries its question, and a late payload rea
   await j.expectBeat("land_q_answered");
 });
 
-test("cold start: the dossier payload backfills a definition onto a question not yet answered", async ({
+test("cold start: a late dossier preserves both the unanswered question and the complete article", async ({
   page,
 }) => {
   // The measured production ordering is decks @25.3s then content @27.0s — 1.7s apart. v1.82.1's
@@ -340,6 +323,9 @@ test("cold start: the dossier payload backfills a definition onto a question not
   await j.boot("/", { keepTutorial: true });
   await j.land("Mount Top"); // decks present: the question is on the table, unanswered
   await expect(page.locator("[data-land-q]")).toHaveCount(1);
+  const article = page.locator('[data-reader-ready="true"] [data-reader-body]');
+  await expect(article).toContainText("Mount");
+  const published = await article.textContent();
   const before = await page.evaluate(() => ({
     q: document.querySelector("[data-land-q]")!.textContent,
     opts: Array.from(document.querySelectorAll("[data-land-mc-opt]")).map(
@@ -360,21 +346,7 @@ test("cold start: the dossier payload backfills a definition onto a question not
     a.onContentReady();
   });
 
-  // v1.101.x: the definition unfolds behind `More ▸` — the backfill's visible effect on the card
-  // face is the More affordance appearing; the words are one deliberate click lower.
-  await expect(
-    page.locator("[data-land-more]"),
-    "the second payload gives the card its More affordance",
-  ).toHaveCount(1);
-  await page.evaluate(() => (window as any).__neural.expandLandCard());
-  await expect(
-    page.locator("[data-land-def]").first(),
-    "the deferred reading surface paints while the question stays mounted",
-  ).toContainText("Knee-through pin; hips heavy, elbows in.");
-  expect(
-    (await read(page)).hasDef,
-    "the definition arrives on the card being read",
-  ).toBe(true);
+  expect(await article.textContent(), "the dossier cannot overwrite published prose").toBe(published);
   const after = await page.evaluate(() => ({
     q: document.querySelector("[data-land-q]")!.textContent,
     opts: Array.from(document.querySelectorAll("[data-land-mc-opt]")).map(

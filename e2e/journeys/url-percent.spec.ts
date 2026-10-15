@@ -13,6 +13,7 @@ import { journey } from "../dsl"
 test("100% Sweep: arrive on its page, leave it, come back, leave again — the address follows", async ({ page }) => {
   const j = journey(page)
   await j.boot("/Transitions/100-percent-Sweep")
+  await expect(page.locator('[data-reader-ready="true"]')).toHaveAttribute('data-reader-path', '/Transitions/100-percent-Sweep')
   await j.advance(6500)
   const at = () => page.evaluate(() => decodeURIComponent(location.pathname))
   const seeded = await page.evaluate(() => {

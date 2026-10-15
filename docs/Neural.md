@@ -5,7 +5,7 @@ code carries the mechanism, `CLAUDE.md` §6 carries the traps, and `docs/Changel
 carries the story of how each rule was arrived at. When those disagree with this file, the code
 wins and this file is the bug.
 
-Scope: `neural/src/app.src.jsx` (one imperative component, ~13,000 lines, deliberately not split),
+Scope: `neural/src/app.src.jsx` (one imperative component),
 plus `challenge-*.src.js`, `sound.src.js`, `lists.src.js`, `lists-codec.src.js` and `helmet.html`,
 composed by `neural/build/build.mjs`.
 
@@ -62,7 +62,7 @@ No `cache: "no-cache"` anywhere — the edge serves these with real Cache-Contro
 ### Landing
 
 `renderLandCard(node, mode, hooks)` docks `.ng-landcard` above the options tray:
-**film → one three-option question → your options → More**. The timed card has no header,
+**film → one three-option question → your options → complete article**. The timed card has no header,
 footer, name or side. Top-right: card-layer ✕, then noninteractive grey `done/total` text.
 
 The star beside each graph seat label opens the list picker: outline if unsaved, gold if listed.
@@ -77,34 +77,32 @@ anatomy under the danger skin (v1.133.0), asked **above** the escape hand. The D
 question clock; the ESCAPES are untimed — expiry no longer taps you out, it reveals the drill's
 answer with no pump and the player still chooses. While caught, the field fogs to the exchange
 (`_dangerSet`), `frameNodes` frames threat + seat + escapes, and the brand yields to the
-vignette. Nothing auto-expands: every card arrives folded, `More` one tap away.
+vignette. The complete linked article appears automatically below the game controls.
 
-**Three layers, one preference each** (v1.173.0, owner: "it should still be collapsed"). The
-film row, the timed card and the hand each collapse from their own ghost ✕ and come back from a
-dock at bottom-centre (the retired transport's seat) that shows one muted glyph per collapsed
-layer and nothing when all are open. Its centre is the column's, not the viewport's: with the
-pane open it sits under the card, as does the replay bar (`_layoutLandHorizontal`, v1.196.1). The choice is a setting — `landFilm` · `landCard` ·
-`landHand`, mirrored in Settings › Rolling — so it holds across landings, reloads and devices. A
-collapsed card is **not built**: no question, no clock, no miss,
-`land_q_skipped {reason:"collapsed"}` (the panic drill skips the same way, `panic_skipped`);
-expanding it mid-landing asks then. A collapsed hand is **dealt and hidden** — the roll waits,
-digits are dead — escapes included (v1.173.0, owner: "if I didn't ask to see outcomes don't show
-them to me"; the catch is announced as "<name> locked in", nothing more). All three collapsed is
-a graph browser: click a node, the ripple lights what it connects to, nothing docks. `setLayer`
-is the one writer (`_applyLayers` follows a cloud pull too).
+**Reading and minimizing.** The complete published article replaces More and survives
+question replacement, grading and hiding the practice card. It uses native scrolling, 16px
+prose, perspective links and a contents row. Hubs include the full Top/Attacker guide; role pages
+include shared hub safety without the other seat’s instructions. Failed loads offer Retry.
 
-**More is subordinate to the card layer.** Its pill appears only for readable content and
-opens a separate full-height card at z:90, 6px under the timed card. The question stays intact;
-the hand moves below the read. `_dockLandMore` measures that overhang (`_readMax`), and
-`_readApply` translates the whole column by `_readS`. Docks measure the home frame via
-`_readClear`; film/camera readers add `_readOffset()` back. Wheel and touch scroll the column;
-the final offset brings the hand home. No nested scrollport or height cap.
+The labeled shelf exposes Videos, Practice questions, Moves, Map, Game feedback and Book.
+Targets are at least 44px; the shelf clears corner controls and follows the article beside Browse. `landFilm`, `landCard`, `landHand`, `landMap` and
+`landFeedback` store normal visibility; `readerBook` stores article visibility. A hidden
+question is not built, while a hidden game hand remains dealt and untimed.
 
-More builds its seat-specific body on opening. Aliases retain family attribution; submission
-safety is complete. Focused reading keys: arrows, Page Up/Down, Space and Home/End. Escape returns
-focus to More. Less, background dismissal and a move close the read and return only its owned
-pause. Hiding the card removes More; restoring it starts folded. Content arrival preserves the
-question. See [Reading delivery](Architecture.md#reading-delivery) for sections and loading rules.
+**Focus on reading** is one action. It persists `readingFocus` and scalar `readingFilm`,
+`readingCard`, `readingHand`, `readingMap`, `readingFeedback` overrides, leaving game preferences
+intact. Only Focus reapplies the preset; navigation, reload and cloud merge retain individual
+restores. Restoring parts or leaving Focus starts no play. Reference pages offer Study tools.
+
+Content URLs, Browse and article links select the node and prepare its dormant game controls.
+`NG_READING_DEFAULT_ON_CONTENT_URL` is true (OWNERQ1). There is no Practice gate: choosing a move
+or answering the landing card starts play. Until then there is no question clock or miss.
+Principle, Learning, System and content-only pages have no game seat. Automatic articles during
+play never pause a move; scrolling, selecting or focusing prose declines the live question and
+pauses play without a miss. Reading keys, links and minimizing never start play. Escape closes
+an overlaid pane without discarding the article.
+
+See [Reading delivery](Architecture.md#reading-delivery) for source identity and payload ownership.
 
 **A revealed answer can be put back.** `_recallBlock` builds Show / Hide / Review again / Got it
 once and `paint()`s the pair the state calls for, so revealing is not destructive: you can cover
@@ -148,9 +146,8 @@ start. `roll_staged` carries a `technique` prop when an exchange is staged; the 
 
 The corner's sticky ✕ persists `landCard`, while a background tap remains a per-landing gesture;
 the count opens nothing — the pane's Last rolls tab is the study route. The panic drill is a
-landing card on the same seam (`_landCardChrome`): its More reads the submission's DEFENDER
-block, while `✕` hides the card layer and the catch and escapes stay
-live. On a URL arrival the Defender deck is late-bound — the drill opens when its chunk lands.
+landing card on the same seam (`_landCardChrome`): its independent article reads the submission's
+Defender guide, while `✕` hides the question and the catch and escapes stay live. On a URL arrival the Defender deck is late-bound — the drill opens when its chunk lands.
 
 **Paging (v1.131.0; chrome-free since v1.132.0): the card browses its own deck.** Swipe
 left/right (drill-panel thresholds: 40px / 700ms, horizontal-dominant only), trackpad `deltaX`
@@ -455,93 +452,105 @@ under authored rates, not validated on real rolls.
 
 ## 4b. FLOW — what a DECK is worth (v1.138.0)
 
-**`GAIN(deck) = V₀(you, that deck mastered) − V₀(you, now)`**
+**`GAIN(deck) = V₀(you, that deck mastered) − V₀(you, now)`** ranks weak spots, the daily
+dose and study queue. EDGE prices a move; FLOW evaluates the played policy π, not EDGE's
+argmax policy. Kernel: `neural/src/flow.src.js`; reference: `scripts/solve_flow.py`
+(`npm run validate:flow`).
 
-EDGE prices *a move from where you stand*. FLOW prices *a deck across your whole game*, and it is
-what ranks weak spots, the daily dose and the study queue. Kernel: `neural/src/flow.src.js`;
-reference and gate: `scripts/solve_flow.py` (`npm run validate:flow`).
+The kernel uses the ruleset's hands (`cal.ev` / `cal.evGi`), rates and outcomes, renormalised
+per state. Start: uniform for Anywhere/My weak spots, both Standing seats otherwise.
+An adjoint sweep estimates derivatives; the displayed shortlist is re-solved exactly.
+Negative gain is a backfiring class. Tiers share current recoverable value; mastered decks
+score zero. Personalisation shrinks to the prior (`pseudo_count = 8`); `resolve()` records
+per-device G-Counters. Game Knowledge weights attackers, defenders and positions.
 
-**It is a POLICY EVALUATION, not the argmax solve EDGE ships.** Same recursion, `argmax → π`.
-The two value functions are measurably different objects — under argmax every dominant state
-compresses to `p_win ≈ 0.98`, under the played policy `mount/bottom` is −0.281 and
-`back-control/bottom` −0.479 — so `sol.v` cannot be reused for this and is not emitted.
-
-**Your ruleset, from your start (v1.209.0).** The browser rebuilds the kernel from the hands
-(`cal.ev` no-gi, `cal.evGi` gi at +2,598 B gzip, keyed `posIdx/role`) at the frame's own rate, and
-`cal.outcomes`. Shares renormalise per state. V₀ starts where your rolls do: uniform for
-Anywhere and My weak spots, standing's two seats for Standing.
-
-**All 1,500 deck derivatives come from one backward and one forward sweep** — the adjoint. The
-forward occupancy `ρ` *is* "how often you are there", exactly rather than as a metaphor. ~50ms for
-the whole corpus; verified against finite differences to 1.9e-09. The linearisation only recovers
-93–107% of the true change, so the **shown shortlist is re-solved exactly and no sign is ever
-taken from the tail**.
-
-**The score is SIGNED, and that is the point.** 18 decks LOWER your game when you drill them,
-because their success branch lands somewhere your own play leaks while their miss branch returns
-you somewhere you are strong. The list is the rubber-guard ladder — `New York to Invisible
-Collar` and its neighbours. Backfiring is a **class, never a tier**, and only ever from an exact
-re-solve.
-
-**Tiers are cumulative shares of the CURRENT recoverable total**, not a fixed one. Measured and
-counter-intuitive: mastering decks makes every *remaining* deck worth MORE (a better game reaches
-further and survives longer — V₀ 0.079 → 0.385 over the top 37), so a fixed denominator lets the
-called-out count grow from 37 to 570. Against the current total the list stays stable, a mastered
-deck scores exactly 0 and leaves it, and **recoverable value falls 0.862 → 0.425** as you close
-gaps. That figure, not the tier count, is the honest "how much is left".
-
-**Personalisation is a continuous deformation, never a second path.** At 5.23 decisions per roll,
-0 of 1,246 (state, move) cells reach n≥8 at 50 rolls — but the 8 states that do carry 43% of all
-traffic. So: a global execution offset, a conditional-logit tilt on the authored attempt
-distribution, per-state Dirichlet refinement where counts allow, and per-technique rates pooled
-across states — all shrinking to the prior at n=0, at the repo's own `pseudo_count = 8`. The
-ledger feeding it is written at ONE hook, `resolve()`, and stored as a per-device G-Counter
-(counters are the one thing the blob's per-key MAX merge cannot carry: two devices at 30 rolls
-each are 60, and MAX reads 30).
-
-**What it inherits, and the copy says so:** the opponent it prices is `opponentDefend`, which filters neither role nor
-origin, compounded over 11 plies; the 1,326 Defender decks are unscored because your drilling does
-not change the opponent's rates — that was about the ODDS model, and this is a KNOWLEDGE score, so
-since v1.145.13 both seats and all 272 position decks are weighted.
-
-> **RULED AND CLOSED (v1.145.13).** This file used to call the Defender and position zeros "on
-> purpose"; no human had. The owner's ruling: score the whole corpus and let scores fall, while
-> nobody yet holds a belt worth losing. `gameScore` now weights all three blocks — the FLOW
-> disagreement above is resolved in FLOW's favour, and the sentence before this one describes
-> what `gameScore` no longer does.
+History: [archive](Changelog-Archive.md), v1.138.0, v1.145.13, v1.209.0.
 
 ## 5. The pair
 
-Every state draws as **two orbs** — the two sides of one exchange.
+Visual glossary; game states: GraphSemantics §12.
 
-| phase | what you see | value |
-|---|---|---|
-| **merged** (a *site*) | one orb, no role distinction | `kLOD == 0` |
-| **mitosis** | one orb shrinking, two growing out of it | `0 < kLOD < 1` |
-| **split** (a *pair*) | two orbs | `kLOD == 1` |
+| Term | Meaning |
+|---|---|
+| **Site** | Named position/technique at one ground point; exchange, joint node or visual hub. |
+| **Pair** | Its two perspectives; also dual pair, twins or sides. |
+| **Half / member / role-node** | Runtime node with fixed role, base colour and deck; role-node is the model term. No half-circle implied. |
+| **Seat** | Contextual position role (`playerRole`), resolved through `fromRole` for a technique choice. |
+| **Performer / opponent** | Performer attempts; defender receives; either may be on top. Opponent is player-relative. |
+| **Representative / partner** | `rep` is top/attacker; `pi` joins its bottom/defender partner. No strength ordering implied. |
+| **Upper / lower** | Rep above, partner below with depth shade `colU`. `seatWord`'s “primary” means rep. |
+| **Hub** | Qualify: edgeless `graph.json` content aggregator, collapsed layout input, or zoomed-out site orb. |
+| **Orb / glyph** | Rendered half/site: circle = position, diamond = transition, triangle = submission. |
+| **Pole / base strength** | `n.dom`: own `s[si]` when present, else title heuristic `dominance()`. Positive blue, negative red, zero grey; fixed strength, not live Win chance or knowledge. `n.col = domColor(n.dom)` remains the base. |
+| **Mastery** | `deckMastery`: mean `min(stage,3)/3` over cards, not P3 bonus `mastery(key)`. Gold is knowledge. |
+| **Site mix** | Equal pigment weights from both halves, regardless of deck size, degree or rep. |
 
-It is **derived at ingest** (`_deriveDualPairs`) from data already in the model, so it costs zero
-wire bytes. `?dual=legacy` is the only escape hatch; every other value falls through to the pair.
+| Category | Rep role / deck suffix | Partner role / deck suffix | Existing pair words |
+|---|---|---|---|
+| Position | top / Top | bottom / Bottom | TOP / BOTTOM |
+| Transition | attacker / Attacker | defender / Defender | ATTEMPTING / DEFENDING |
+| Submission | attacker / Attacker | defender / Defender | FINISHING / ESCAPING |
 
-**The rep member IS the hub** — same id, same share ordinal, same URL — so every id-keyed consumer
-(lists, systems, curriculum, ordinals) lands on it unchanged. The partner mints `<hub>/Bottom` or
-`<hub>/Defender` and carries **no ordinal**.
+Role fixes perspective, not pole. `seatWord` owns pair copy; travel words name posture.
+Chooser/article wording is unchanged.
+Merged = one orb (`kLOD=0`); mitosis = separation (`0<kLOD<1`); split = two (`kLOD=1`).
 
-**Two kinds of link.** Kind 1 is the real edge, re-keyed one-for-one to the member it belongs to —
-one-for-one is load-bearing, because `rSite` recovers the hub radius from the two members' degrees.
-Kind 2 is **site adjacency**: the other half gets the technique too, so `adj[<either member>]` is
-byte-for-byte the hub's. **Do not role-split `adj`** — several readers walk it role-agnostically on
-purpose, because they are asking about the exchange, not about your hand.
+`_deriveDualPairs` runs at ingest. Rep keeps hub id/ordinal/URL; partner adds `/Bottom` or
+`/Defender`, no ordinal. Kind-1 edges re-key to members; `rSite` recovers radius. Kind-2
+`adj` shares site techniques (ties/order may differ); never role-split it. `deg` is geometry,
+`siteDeg` the site. Both halves retain `cal.ev`. `?dual=legacy` is retired; only test rail
+`noPairs` keeps the control.
 
-`deg` is geometry and stays split; `siteDeg` is the state and is the hub's. `cal.ev` goes on
-**both** halves whole, because the side you are playing can differ from the half you stand on.
+**Strength/coverage register.** Recompute:
+`npm run regenerate:neural && node tests/artifacts/mastery_gold_survey.mjs`.
+v1.225.2 exceptions: **empty**. All 2,896 halves / 1,448 sites have strength and decks;
+no unresolved/duplicate keys. The survey names missing halves/keys.
 
-**Labels.** `pairGroup` renders one label group for the pair: the name block pinned to the midline,
-the qualifier beneath the headline, and the role on the side of whichever half you point at. A
-qualified lower role joins that subtitle stack at the same row lead; all other split roles ride
-their orb. `richLabel` keeps the headline and qualifier separate after the pair merges. Role words
-are per category — positions **TOP/BOTTOM**, submissions **FINISHING/ESCAPING**, transitions
-**ATTEMPTING/DEFENDING**. The graph never bakes a role into a name (`graphName`).
+| Category | With deck | Without | Cards |
+|---|---:|---:|---:|
+| Positions | 266 | 0 | 2,608 |
+| Transitions | 2,050 | 0 | 14,547 |
+| Submissions | 580 | 0 | 4,606 |
+| Total | 2,896 | 0 | 21,761 |
+
+The survey's visible position/transition/submission halves: gi 242/2,050/580, no-gi 220/1,872/510.
+All have decks and shared knowledge. Resolved heuristic entries:
+
+| Former attacker entry | Former defender entry |
+|---|---|
+| Fireman's Carry — Attacker | Fireman's Carry — Defender |
+| Counter Entry to Opponent's Leg — Attacker | Counter Entry to Opponent's Leg — Defender |
+| 100% Sweep — Attacker | 100% Sweep — Defender |
+
+All now use strength; no application allowlist.
+
+**Mastery gold.** Flashcards → **Turn what you know gold** (`masteryGold`, default false), helper:
+“The map turns gold as you master each side's flashcards. Full gold needs recall.”
+Persists/merges per key. Half key: `ngWireDeckName(node) + "|" + capitalized(node.role)`,
+never played seat. Missing/empty deck = `null`, unstudied = `0`; manifest counts work unhydrated.
+
+`mastery-gold.src.js` uses a quadratic Bernstein palette of the existing grey/blue/red
+pigments and crown gold `#F0C05A`. Blue/gold and red/gold controls produce green/orange;
+blue/red stays purple/grey. For clamped strength `d` and mastery `m`, weights are
+`[(1−|d|)(1−m), max(d,0)(1−m), max(−d,0)(1−m), m]`. Sites average weights, never final RGB.
+Zero/missing mastery returns runtime `n.col` directly, including fallbacks.
+
+Off keeps base/lower/focus paint and the rep-only overview. On mixes the site, then `kLOD`
+hands over smoothly to each half/depth shade. Zero mastery keeps the half; its mixed site
+can differ. Default-mix switch: `NG_MIX_SITES_BY_DEFAULT = false`.
+
+The deferred cache rebuilds at ingest, toggle and `_publishKnowledge` (manifest/hydration,
+grades, progress load/merge). Late imports use current evidence/settings; frames interpolate
+cached endpoints only. Canvas material, node-derived edges and focus/resting glow use paint.
+DOM glyphs, labels, advantage chrome and underlying `n.col`/`n.colU`/`myColor` stay unchanged;
+so do belt, Win-chance, Suggested, posture, success and tension meanings.
+
+`tests/mastery_gold.test.mjs` pins OKLCH anchors at 1/3, 1/2, 2/3: blue/gold 125–170°,
+chroma ≥0.10; red/gold 40–80°, ≥0.12. Journeys pin mouse/draw/reload and default boot bytes.
+
+**Labels.** `pairGroup` pins name/qualifier at the midline; roles ride their halves except
+qualified lower roles join the subtitle stack. `richLabel` retains name/qualifier at merge;
+`graphName` never bakes in role.
 
 ---
 
@@ -577,8 +586,8 @@ drawn inside a node at any zoom; zoom changes how many nodes you can see, never 
 One pane, anchored left, 360px, opened by the logo. Three tabs: **Explore · Challenges · Last
 rolls**.
 
-The card, videos, More and camera shift beside the pane with the choices. Readable widths stay
-fixed; overlap paints beneath the pane. Phones retain the overlay drawer, and short landscape
+The card, videos, article and camera shift beside the pane with the choices. The article fits
+the free width; game-control overlap paints beneath the pane. Phones retain the overlay drawer, and short landscape
 retains its two columns. Closing restores the layout without resetting the card or reading position.
 
 **Pane law: the pane is manual-only.** Nothing in the roll loop opens or closes it. **Open = the
@@ -586,9 +595,9 @@ game stops. Close = the game resumes, but only if the pane is what stopped it** 
 (`_paneAutoPaused`) for the whole pane, taken in `applyDeckVisibility` rather than `setDeckOpen`,
 because several study entry points assign `deckOpen` directly. A hand-paused roll stays paused.
 
-Every pauser owns its own latch — `_landAutoPaused`, `_paneAutoPaused`, `_replayAutoPaused`,
+Every pauser owns its own latch — `_paneAutoPaused`, `_replayAutoPaused`,
 `_dossierAutoPaused` — so releasing gives back only the pause you took, transferring it to any
-still-open pane, More read or replay.
+still-open pane or replay. Reading holds play until a move or landing-card answer.
 
 On a phone the pane is an 88vw drawer and **is** the screen, so closing it is how you look at the
 graph: a list focus survives a mobile close, and closing it during a replay hands the clock to the
@@ -835,7 +844,7 @@ number.
 
 **Fixed chrome docks off a measurement**, never a CSS constant — the tray has no fixed height and
 grows upward as names wrap. `_landDatum` is the shared hand measurement; `_dockLandCard`,
-`_dockLandFilm` and `_dockLandMore` place the landing surfaces from it (the hand ✕ docks inside
+`_dockLandFilm` place the game surfaces from it; the reader measures its shelf (the hand ✕ docks inside
 the row beside its last card; the film ✕ off the last thumbnail). `_bandBot` keeps the tightest
 observed play band.
 
@@ -850,7 +859,7 @@ and focus-visible states belong in CSS, never JS hover painting, which cannot ex
 **A row of tabs never decides its panel's width** (v1.196.1). Settings' tabs are one declared list
 (`NG_SETTINGS_TABS`), rendered as a real tablist by `_settingsTabRow`. ←/→ wrap and Home/End jump,
 each selecting on arrival, and none of these keys reaches `_onKey`. Opening Settings focuses the
-active tab, and Esc still closes it. The row is the More fold's single scrolling row: all five tabs
+active tab, and Esc still closes it. The tabs use one scrolling row: all five tabs
 fit the 440px card, and a phone scrolls, centring the active tab. An edge fade (`data-fade`) dims
 a side only while a tab is hidden past it. A new tab row copies this, not the pane's fixed
 three-column grid, which cannot take a sixth tab.

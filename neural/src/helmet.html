@@ -122,10 +122,10 @@
      Owner, with a desktop screenshot: "settings doesnt have room for all tabs". The row was five
      bare spans with NO overflow behaviour, so "Shortcuts" ran 22.5px past the 440px card's
      content box and was clipped by its edge; at 390 it sat wholly outside the card.
-     THE IDIOM IS THE MORE FOLD'S CONTENTS ROW (`.r-toc` in reading.css, the owner's "tabs in a
+     THE IDIOM IS A CONTENTS ROW (the owner's "tabs in a
      single row, with horizontal scrolling"): one row, scroll when it must, the active entry
      centred. It is NOT shared by class because reading.css is deferred and this is boot chrome.
-     What `.r-toc` lacks and this row needs is added here, and only here:
+     This row adds:
        - HIT BOX vs LABEL: the <button> is the 44px hit area; its <span> is exactly the old visual
          tab (text, 11px, 2px underline). The button pads 16px UP into the gap above the row and
          7px each side, and the row takes a matching -7px margin, so the labels still align with
@@ -138,7 +138,7 @@
        - SPACE-BETWEEN, so a row that fits is flush with BOTH edges of the content column (the
          title's left edge, the notice box's right edge) and the leftover goes into the gaps. It
          cannot cause overflow: free space that is negative makes space-between act as
-         flex-start, and the row scrolls from its first tab. The 14px `.r-toc` rhythm is the
+         flex-start, and the row scrolls from its first tab. The 14px tab rhythm is the
          FLOOR, set by the hit padding.
      At 440px (every viewport >= 478) the five labels fit with ~18px gaps, so desktop and tablet
      never scroll; a phone does. That is one design, and only the content decides between the
@@ -185,7 +185,7 @@
     .ng-winbar{width:104px!important;}
     .ng-legend{left:14px!important;bottom:27px!important;gap:0!important;}
     .ng-landcard{bottom:206px!important;max-height:34vh!important;}
-    .ng-landcard,.ng-landmore.open{width:calc(100vw - 20px)!important;padding:11px 12px 10px!important;}
+    .ng-landcard{width:calc(100vw - 20px)!important;padding:11px 12px 10px!important;}
     /* the replay bar shares the card's dock, at every width — see its rule above */
     .ng-replaybar{bottom:206px!important;width:calc(100vw - 20px)!important;padding:8px 10px!important;}
     /* ── THE BOTTOM THUMB BAND HAS THREE TENANTS ──────────────────────────────────────────
@@ -263,8 +263,8 @@
   @media (prefers-reduced-motion: reduce){.ng-cause,.ng-hitpop{animation:ngRiseFade 1.3s linear both!important;}.ng-hit-bad,.ng-hit-good{animation:ngHitStill .42s ease-out!important;}}
   /* ══ THE Z LADDER (v1.95.1) — root overlay plane: direct children of #neural-root. ══
      The app wrap is position:fixed = its OWN stacking context, so its internal z values
-     (pane 8, tray/backs 4, landing card/film/More/guides 5, logo 9, seat stars 3) never compete out here;
-     landing content stays below the pane even when More is expanded. The wrap paints at level 0 and
+     (pane 8, tray/backs 4, landing card/film/guides 5, logo 9, seat stars 3) never compete out here;
+     landing content stays below the pane. The wrap paints at level 0 and
      any root-level sibling with z ≥ 1 covers ALL of it — which is why graph chrome that must stay
      UNDER the cards (the seat stars, v1.221.0) lives in the wrap, not out here. Bands, bottom to top:
         1-9    ambient state chrome beside gameplay   — momentum 6 · tut/cue 7 ·
@@ -296,7 +296,7 @@
   @media(prefers-reduced-motion:reduce){.ng-seat-star,.ng-seat-star svg{transition:none;}}
   /* P1b: the question-first landing card — docked directly above the options tray, so the
      read order is identity -> film -> question -> your hand, top to bottom. */
-  .ng-landcard,.ng-landmore.open{pointer-events:auto;position:fixed;left:50%;bottom:236px;transform:translateX(-50%);z-index:5;width:min(520px,calc(100vw - 32px));max-height:min(420px,50vh);overflow-y:auto;background:linear-gradient(180deg,rgba(24,28,46,.97),rgba(17,20,34,.97));border:1px solid rgba(130,150,190,.24);border-radius:15px;padding:13px 15px 12px;box-shadow:0 14px 44px rgba(0,0,0,.5);animation:ngCardInX .28s cubic-bezier(.2,.7,.2,1);}
+  .ng-landcard{pointer-events:auto;position:fixed;left:50%;bottom:236px;transform:translateX(-50%);z-index:5;width:min(520px,calc(100vw - 32px));max-height:min(420px,50vh);overflow-y:auto;background:linear-gradient(180deg,rgba(24,28,46,.97),rgba(17,20,34,.97));border:1px solid rgba(130,150,190,.24);border-radius:15px;padding:13px 15px 12px;box-shadow:0 14px 44px rgba(0,0,0,.5);animation:ngCardInX .28s cubic-bezier(.2,.7,.2,1);}
   /* Reserve side gutters for the swipe guides. The face grows with its content; an unusually
      tall answer moves with the whole reading column, never inside a nested scrollport.
      THE FOOT IS 1.5x THE SIDE GUTTER (owner: "just a little bit more than the left and right
@@ -336,22 +336,11 @@
     .ng-has-land-deck .ng-landcard.ng-land-deck{left:28vw;width:calc(56vw - 104px)!important;min-height:calc(100dvh - 112px);padding:12px 14px 21px;}
     .ng-has-land-deck .ng-optionrow{left:56vw!important;padding-left:12px!important;padding-right:12px!important;}
     .ng-has-land-deck .ng-landfilm{left:78vw!important;width:calc(44vw - 24px)!important;}
-    .ng-has-land-deck .ng-landmore{left:28vw;}
-    .ng-has-land-deck .ng-landmore.open{width:calc(56vw - 40px)!important;}
     .ng-has-land-deck .ng-landfilm .ng-clip{height:64px!important;}
   }
   .ng-landstack{--back-step-x:3px;position:fixed;left:50%;transform:translateX(-50%);z-index:4;pointer-events:none;}
   .ng-landstack>div{transform:translate(calc(var(--back-index)*var(--back-step-x)),calc(var(--back-index)*3px));position:absolute;inset:0;border:1px solid rgba(130,150,190,.3);border-radius:15px;background:linear-gradient(180deg,#20263b,#171c2e);box-shadow:1px 2px 3px rgba(0,0,0,.22);}
   @media(max-width:640px){.ng-landstack{--back-step-x:2px;}}
-  /* More starts as a pill below the hand, then that SAME root-plane sibling takes the real
-     .ng-landcard shell. Open, it is NOT a scrollport (v1.175.0, owner: "when I scroll this card
-     should go under the fold too so it should be long"): no max-height, no overflow, top-docked
-     under the timed card at its content height, and the whole reading column — film, timed card,
-     this card, the pushed-down hand — translates together (`_readApply`). touch-action:none so a
-     phone drag reaches that column instead of rubber-banding the document. */
-  .ng-landmore{position:fixed;left:50%;transform:translateX(-50%);z-index:5;pointer-events:none;}
-  .ng-landmore.open{bottom:auto!important;max-height:none!important;overflow:visible!important;touch-action:none;}
-  .ng-landmore.open>div:first-child{padding-bottom:9px;transform:none!important;}
   .ng-landcard[data-landcard="attempt"]{border-color:rgba(126,160,255,.4);}
   /* the last three seconds are FELT (v1.134.0): the card itself pulses with the countdown */
   /* .ng-clock-hot is a MARKER CLASS with no rule (v1.135.1). It used to carry
@@ -440,6 +429,6 @@
   .ng-clip{isolation:isolate;}
   .ng-clip::after{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(105deg,transparent 42%,rgba(255,255,255,.13) 50%,transparent 58%);background-size:230% 100%;background-position:120% 0;animation:ngShimmer 2.2s ease-out .4s 2;pointer-events:none;}
   @keyframes ngShimmer{to{background-position:-130% 0}}
-  @media (prefers-reduced-motion: reduce){.ng-beacon,.ng-vignette,.ng-clip::after,.ng-landcard,.ng-landmore.open,.ng-combo-pop,.ng-momentum,.ng-challenge-continue,.ng-challenge-lesson[data-frontier],.ng-belt-bar>b,.ng-belt-bar>b[data-new],.ng-account-menu,.ng-replaybar,.ng-replaybar .ng-replay-dot{animation:none!important}}
+  @media (prefers-reduced-motion: reduce){.ng-beacon,.ng-vignette,.ng-clip::after,.ng-landcard,.ng-combo-pop,.ng-momentum,.ng-challenge-continue,.ng-challenge-lesson[data-frontier],.ng-belt-bar>b,.ng-belt-bar>b[data-new],.ng-account-menu,.ng-replaybar,.ng-replaybar .ng-replay-dot{animation:none!important}}
 </style>
 <script src="technique-content.js"></script>

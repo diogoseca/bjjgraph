@@ -5,6 +5,11 @@ probability, the content or an emitter. Every number carries its set definition 
 that recomputes it; where the maths admits more than one defensible choice, both are computed and
 the difference is the result.
 
+The app's visual **site, pair, half, representative/partner, hub, pole and mastery colour**
+vocabulary lives in [Neural §5, The pair](Neural.md#5-the-pair). Its informal “state” is distinct
+from this document's Markov state (seat plus whose move it is). This cross-reference is outside
+the generated §12 glossary so glossary regeneration preserves it.
+
 **TL;DR.** Read as the corpus describes it, `graph.json` is an absorbing Markov chain of a
 two-player exchange: 532 states. With no clock every roll ends in a finish; a 9–12-ply clock (the
 app's clock length) leaves 29–31% of rolls from standing undecided. This document writes the chain down once

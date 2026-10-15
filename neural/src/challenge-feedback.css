@@ -3,6 +3,7 @@
 }
 
 .ng-challenge-reward {
+  pointer-events: none;
   position: fixed;
   top: 74px;
   right: 20px;
@@ -51,6 +52,9 @@
 }
 
 .ng-challenge-reward [data-reward-collection] {
+  pointer-events: auto;
+  /* The label takes input; the unused grid width must not cover article tools. */
+  justify-self: start;
   min-height: 44px;
   padding: 0;
   border: 0;
@@ -63,6 +67,7 @@
 }
 
 .ng-challenge-reward [data-reward-close] {
+  pointer-events: auto;
   width: 30px;
   height: 44px;
   border: 0;

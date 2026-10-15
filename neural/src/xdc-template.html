@@ -203,9 +203,11 @@
 
   <!-- round-end verdict (center) -->
   <div ref="{{ evCenterRef }}" style="position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;pointer-events:none;opacity:0;transition:opacity .55s ease;text-align:center;padding:0 24px;">
+    <div style="display:flex;flex-direction:column;align-items:center;flex-shrink:0;">
     <div ref="{{ evcKickerRef }}" style="font-size:13px;letter-spacing:.42em;text-transform:uppercase;font-weight:700;color:#8ba0c0;margin-bottom:14px;">&nbsp;</div>
     <div ref="{{ evcTextRef }}" style="font-size:clamp(40px,6vw,68px);font-weight:700;color:#eef1f6;letter-spacing:-.02em;line-height:1;text-shadow:0 4px 30px rgba(0,0,0,.6);">&nbsp;</div>
     <div ref="{{ evcSubRef }}" style="font-size:16px;font-weight:500;color:#aab4ca;margin-top:16px;letter-spacing:.01em;">&nbsp;</div>
+    </div>
   </div>
 
   <!-- legend (bottom left) -->

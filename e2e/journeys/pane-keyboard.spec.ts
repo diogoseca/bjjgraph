@@ -14,7 +14,7 @@ async function addMore(page: Page) {
       principles: ["Maintain your base while your partner changes direction."] }
     a.onContentReady(key)
   })
-  await expect(page.locator("[data-land-more]")).toBeVisible()
+  await expect(page.locator('[data-reader-ready="true"]')).toBeVisible()
 }
 
 async function settle(page: Page, j: Journey) {
@@ -43,20 +43,21 @@ async function study(page: Page, j: Journey) {
   await settle(page, j)
 }
 
-test("@curated Esc closes the pane before the expanded reading column", async ({ page }) => {
+test("@curated Esc closes Browse and leaves the independent article reading", async ({ page }) => {
   const j = await setup(page)
   await addMore(page)
-  await settle(page, j)
-  await j.clickByMouse("[data-land-more]", "open More")
-  await j.clickByMouse(".ng-logo", "open the pane above More")
+  await j.clickByMouse("[data-reading-focus]", "Focus on reading")
+  await expect(page.locator('[data-reader-ready="true"]')).toBeVisible()
+  await j.clickByMouse(".ng-logo", "open Browse above the article")
   await page.keyboard.press("Escape")
   await expect(page.locator(".ng-drill")).toBeHidden()
-  await expect(page.locator("[data-land-more]")).toHaveAttribute("aria-expanded", "true")
-  expect(await page.evaluate(() => (window as any).__neural.paused)).toBe(true)
-
+  await expect(page.locator('[data-reader-ready="true"]')).toBeVisible()
   await page.keyboard.press("Escape")
-  await expect(page.locator("[data-land-more]")).toHaveAttribute("aria-expanded", "false")
-  expect(await page.evaluate(() => (window as any).__neural.paused)).toBe(false)
+  await expect(page.locator('[data-reader-ready="true"]')).toBeVisible()
+  expect(await page.evaluate(() => {
+    const a = (window as any).__neural
+    return { reading: a._readerIntent, clock: a._decision?.remaining ?? null, paused: a.paused }
+  })).toEqual({ reading: true, clock: null, paused: true })
 })
 
 test("@curated fresh, cached and backfilled landing pages preserve the pane's answer keys", async ({ page }) => {
@@ -118,26 +119,19 @@ test("@curated a recall page mounted under the pane receives Space when the pane
   await expect(page.locator("[data-land-answer]")).toBeVisible()
 })
 
-test("@curated ending replay preserves an expanded More pause after the pane closes", async ({ page }) => {
+test("@curated leaving Focus preserves the stopped reading intent until a move", async ({ page }) => {
   const j = await setup(page)
   await addMore(page)
-  await settle(page, j)
-  await j.clickByMouse(".ng-logo", "the pane takes the pause")
-  await settle(page, j)
-  await j.clickByMouse("[data-land-more]", "open the exposed More control")
-  // A one-state history fixture is enough to exercise replay ownership; replay itself
-  // uses the production entry point, and its close control gets a real mouse below.
+  await j.clickByMouse("[data-reading-focus]")
+  await expect(page.locator('[data-reader-ready="true"]')).toBeVisible()
+  await j.clickByMouse("[data-reading-focus]", "leave Focus without starting a roll")
+  await j.advance(12000)
   expect(await page.evaluate(() => {
     const a = (window as any).__neural
-    return a.startReplay({ ts: 123, log: a.rollLog.slice(0, 1), outcome: "scramble" })
-  })).toBe(true)
-  await j.clickByMouse(".ng-explorer-close", "close the pane while replay runs")
-  expect(await page.evaluate(() => !!(window as any).__neural._replay)).toBe(true)
-  await page.waitForTimeout(350)
-  await j.clickByMouse("[data-replay-stop]", "stop replay")
-  await expect(page.locator("[data-land-more]")).toHaveAttribute("aria-expanded", "true")
-  expect(await page.evaluate(() => (window as any).__neural.paused)).toBe(true)
-  await page.waitForTimeout(350)
-  await j.clickByMouse("[data-land-more]", "close the final pause holder")
-  expect(await page.evaluate(() => (window as any).__neural.paused)).toBe(false)
+    return { focus: a.get("readingFocus", false), reading: a._readerIntent, paused: a.paused }
+  })).toEqual({ focus: false, reading: true, paused: true })
+  await page.evaluate(() => (window as any).__neural._optionCards.find((c: any) => !c.opt.threat).card.setAttribute("data-reading-choice", ""))
+  await j.clickByMouse("[data-reading-choice]", "choose a move directly")
+  await j.advance(1500)
+  expect(await page.evaluate(() => (window as any).__neural._readerIntent)).toBe(false)
 })

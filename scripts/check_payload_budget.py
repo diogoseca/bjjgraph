@@ -166,6 +166,7 @@ DEFERRED = (
     "concepts.json",
     "aliases.json",
     "app/reading.css",
+    "app/reader.js",
     "app/reference.css",
     # Model code is real deferred JS, still charged to the aggregate raw cap.
     # Mechanics data lives in bounded mdp/ shards; the entire path is boot-banned.
@@ -176,6 +177,7 @@ DEFERRED = (
     "app/game-study.js",
     "app/game-study.worker.js",
     "app/settings-ui.js",
+    "app/mastery-gold.js",
 )
 
 # Ordinary worker JavaScript, shared between two independently created workers.

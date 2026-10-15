@@ -29,6 +29,8 @@ people actually arrive here. Index A answers *"what shipped in vN?"*.
 
 ## Index A — by version
 
+- **v1.225.0** — [A reading-first way through the content](#v12250--a-reading-first-way-through-the-content-issue-289)
+
 - [Integrated Roll documentation consolidation](#integrated-roll-documentation-consolidation-v11980-candidate)
 
 Newest first. Where a narrative's own label disagrees with git, the real shipping version is
@@ -10890,6 +10892,67 @@ that resolver; the deep and fast tiers and reasoning effort are unchanged.
 The offline CLI test pins the configured and missing-file paths and their agreement,
 with the environment override unset. It fails by name on the old `claude-opus-5`
 default. Verification makes no paid inference calls.
+
+## v1.224.16 — The deep model tier moves to Claude Opus 5.5 (2026-10-14)
+
+The owner's October 14 follow-up also selects `claude-opus-5-5` for the deep tier,
+in both `models.env` and the resolver's fallback. Its callers are `draft_curriculum.py`
+and `regen_mc_answers.py`; no workflow selects this tier. The default, fast tier,
+and effort keep their existing values. The offline CLI test now checks default and
+deep with and without the config file. The old deep value fails the named deep case
+while the default case stays green. Verification makes no paid inference calls.
+
+## v1.225.0 — A reading-first way through the content (issue #289)
+
+The deferred reader replaces More with complete articles, role isolation, shared
+safety and stale guards. Six controls restore hidden parts; Focus persists. Content
+arrivals are dormant; moves and answers start play without a Practice gate. Reading
+never scores a miss. References light techniques. The Question form ships separately.
+Payload limits stay fixed; reader.js is deferred and banned from first-hand requests.
+D-297's capture is reused.
+
+Full CI found 26 core and two generated failures missed by curated. The migration
+record maps 49 E2E declarations to 80 references, plus one unit rename. Generated
+remounts assert exact dormant beats; no known reds. Map gates input and clears captures.
+Camera fixes preserve 1.07 and phone bounds. Dead More code is gone; shared renderers
+remain. Fourteen mutants produced 23 assertion failures. CI298B waits for reader/camera
+readiness. S3 requires finite title/role coordinates with +5 and filmTop - 2; the NaN
+role mutant kills the corrected oracle. Full core: 880 passed, 5 existing skips;
+generated: 101 passed; CI: 24/24, 1,260 units.
+
+## v1.225.1 — Await Browse hydration before the stale-reader mouse journey
+
+Deploy 38624002553 failed before releasing the old Knee Slice Pass/Defender request:
+late Browse hydration moved Mount's measured centre onto Mount to Armbar. The mouse selected
+that row; no stale reader painted. Await alias and Systems-index readiness before
+measuring the same Mount selector. Await the old reader operation through its paint
+instead of 100 ms, then require the exact Mount path and Top guide. Isolated mutant
+m55_late_article_wins removes abort and serial guards and must fail the named stale
+paint assertion. App source and numeric bounds are unchanged.
+Family URLs await reader readiness; m56_family_hub_wrong_family fails the unchanged family check.
+
+## v1.224.18 — Generated demotion waits for resident decks (2026-10-14)
+
+PR #297's endgame-score journey failed inside its asynchronous hydration/demotion
+evaluation. There was no navigation: a repeat against that CI artifact recorded
+Chromium's `Promise was collected` protocol error, which Playwright 1.61.1 rewrites
+as `Execution context was destroyed, most likely because of a navigation`. The
+document and execution context survived. The unchanged spec passed 10 serial runs
+and failed 7 of 40 parallel runs under six CPU burners, always at that evaluation.
+
+The test now starts hydration once, polls the two decks' actual residency, and
+demotes and reads back synchronously. No app behavior changes and no demotion retry
+is added. All 16 stage transitions, score and crown drops, challenge ratchets,
+reward key sets and the empty economy-beat window retain their original assertions.
+
+The fixed spec passed 110 repeats: 50 serial, 50 parallel under CPU load, and 10
+under the same protocol diagnostics as the mutant. Restoring the original async
+evaluation failed the named spec in 3 of 20 loaded runs with the same raw CDP error.
+Post-failure reads found all 16 cards already at stage 2, so retrying that evaluation
+could demote them twice. The full local CI replay passed all 24 executable steps,
+including 1,260 unit tests with no skips. The generated ledger still has zero known-reds.
+
+v1.225.2: slugify strength; fail misses.
 
 ## v1.224.17 — Keep Obsidian workspace state local (2026-10-14)
 

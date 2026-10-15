@@ -1,4 +1,4 @@
-/* THE READING SYSTEM — the More fold and the option-detail sheet (v1.194.0)
+/* THE READING SYSTEM — complete articles and the option-detail sheet
    ============================================================================================
    WHY THIS FILE EXISTS, AND WHY IT IS NOT IN neural.css
    ============================================================================================
@@ -11,20 +11,16 @@
    smallest, dimmest text on it. Four of its colours appeared exactly once each in 17,938 lines.
 
    THIS FILE IS DELIBERATELY NOT PART OF `cssJoined` IN build.mjs. It is emitted as its own
-   artifact (`dist/reading.css` -> `static/neural/app/reading.css`), declared in
-   `check_payload_budget.py`'s DEFERRED tuple, and fetched by `_ensureReadCSS()` on the first
-   deliberate press of More — which is always after the first hand is dealt. That keeps ~237 gzip
-   bytes of rules off the eager boot payload, which matters because the eager ceiling had 196
-   bytes of headroom when this shipped.
-     - A <link> in the shell is NOT an alternative: `payload-first-hand.spec.ts`'s BANNED_ON_BOOT
-       fails on a boot-time request for this file, deliberately.
-     - Do NOT prefetch it at landing either. `app.src.jsx`'s deck-prefetch comment says it: a
-       prefetch is on the first-hand payload bill, which would defeat the whole point.
-     - build.mjs asserts BOTH halves: these rules present here AND absent from neural.css.
-       Absence alone is also satisfied by an empty file, which is why both are checked.
+   artifact (`dist/reading.css` -> `static/neural/app/reading.css`) in the DEFERRED budget.
+   `_ensureReadCSS()` runs when the deferred reader or an option detail sheet needs it. Automatic
+   game articles wait for the first real hand; content arrivals keep the controls dormant. The first-hand
+   browser gate bans this request before the hand, and build.mjs asserts that the section styles
+   are present here and absent from neural.css. Both conditions matter: an empty file passes an
+   absence-only check.
 
    ============================================================================================
-   THE SYSTEM
+   THE SECTION SYSTEM (retained for option sheets and reference study controls;
+   complete articles use the .ng-reader rules below)
    ============================================================================================
    TYPE — three sizes plus a micro tier. Both faces are already in the boot font request
    (helmet.html), so this costs no font bytes.
@@ -45,8 +41,7 @@
        #e8956b  the mistake      #7ee0a8  the correction     #ffb45a  hazard
 
    RHYTHM — 1 : 2 : 4 : 8 on u = 12px = the card's own phone side padding (helmet.html), so it is
-   a ratio of a token already on screen rather than a new number. THE TEST PINS THE RATIO, NOT
-   THE PX (e2e/journeys/landcard-more-content.spec.ts).
+   a ratio of a token already on screen rather than a new number.
        s1  3px  u/4   a term to its own second line
        s2  6px  u/2   between items in one list
        s3 12px  1u    between compound items; a title to its body
@@ -140,78 +135,97 @@
 .r-s:focus { outline: none; }
 .r-s:focus-visible { outline: 2px solid #7e9bff; outline-offset: 4px; }
 
-/* ── THE CONTENTS ROW ───────────────────────────────────────────────────────────────────── */
-/* The owner's model, in his words: "a long list like it used to happen with quartz. the toc
-   clicks would scroll to the appropriate position ... in mobile that will probably mean tabs in
-   a single row, with horizontal scrolling". One continuous document; nothing is paged or hidden.
-
-   ONE ROW AT EVERY WIDTH. Not a left rail: at >=1024 the fold shifts to left:28vw and
-   width:calc(56vw - 40px), so a rail that fits at one width eats the column at another, and
-   761-1023 is a third layout again.
-
-   `touch-action:pan-x` is load-bearing, not a hint — the fold sets `touch-action:none` and the
-   row needs its own axis back. `_readTouch`'s axis lock already drops the column drag once
-   |dx| > |dy|, so the row and the read do not fight. */
-.r-toc {
-  display: flex;
-  gap: 14px;
-  margin: 0;
-  padding: 0 0 6px;
-  overflow-x: auto;
-  scrollbar-width: none;
-  touch-action: pan-x;
-  -webkit-overflow-scrolling: touch;
+/* The complete article has native selection, scrolling and links. Its measured
+   bottom boundary is the shelf; the browser never scrolls the fixed app wrap. */
+.ng-reader {
+  position: absolute; z-index: 5; transform: translateX(-50%);
+  box-sizing: border-box; overflow: auto; overscroll-behavior: contain;
+  touch-action: pan-y; cursor: auto; scrollbar-gutter: stable;
+  background: #1b2034; color: #d6def0; border: 1px solid #414c68;
+  border-radius: 14px; --reader-unit: 20px; --reader-inset: 16px; padding: var(--reader-inset) var(--reader-unit); font-size: 16px; line-height: 1.65;
+  box-shadow: 0 12px 32px #080b1680;
 }
-.r-toc::-webkit-scrollbar { height: 0; display: none; }
-
-/* A real <button>, not the settings strip's bare <span> — that has no role, no aria-selected and
-   no tabindex, and copying it would put a keyboard-inaccessible control inside a fixed overlay.
-   `pointer-events:auto` is ALSO set inline by the renderer: a control inside a root-plane overlay
-   must re-enable hit-testing inline or it is dead to a real mouse while locator.click() passes. */
-.r-t {
-  flex: 0 0 auto;
-  padding: 0 0 4px;
-  border: none;
-  border-bottom: 2px solid transparent;
-  background: none;
-  color: #6b7691;
-  font: 700 10px/1.3 "Space Grotesk", sans-serif;
-  letter-spacing: 0.09em;
-  text-transform: uppercase;
-  white-space: nowrap;
-  cursor: pointer;
+.ng-reader[hidden] { display: none !important; }
+.ng-reader-dormant [data-land-clock-track] { visibility: hidden; }
+.ng-reader[data-reading-compact] { padding: 3px 8px; }
+.ng-reader h1 { font: 600 23px/1.3 "Space Grotesk", sans-serif; color: #f0f3fa; margin: 0 0 12px; }
+.ng-reader h2 { font-size: 21px; line-height: 1.4; color: #f0f3fa; margin: 0 0 var(--reader-unit); }
+.ng-reader h3 { font-size: 18px; color: #e7edf8; margin: var(--reader-unit) 0 calc(var(--reader-unit) / 2); }
+.ng-reader h4 { font-size: 17px; color: #dbe2f0; }
+/* Section : item rhythm is 4 : 1, tied to the reader's own side padding. */
+.ng-reader .content-section { margin: 0 0 calc(var(--reader-unit) * 2); }
+.ng-reader .content-section:last-child { margin-bottom: 0; }
+.ng-reader p { margin: 12px 0; }
+.ng-reader a { color: #adc9ff; text-decoration: underline; text-underline-offset: 3px; }
+.ng-reader article { all: revert; display: block; color: inherit; font: inherit; overflow-wrap: break-word; }
+.ng-reader article img, .ng-reader iframe { max-width: 100%; }
+.ng-reader table { display: block; overflow-x: auto; font-size: 14px; }
+.ng-reader th, .ng-reader td { padding: 8px; border-bottom: 1px solid #414c68; }
+.ng-reader ul, .ng-reader ol { padding-left: 24px; display: grid; gap: calc(var(--reader-unit) / 2); }
+.ng-reader li { margin: 0; }
+.ng-reader button { min-height: 44px; padding: 8px 10px; font: inherit; font-size: 13px; cursor: pointer; color: #e4ebfa; background: #29334d; border: 1px solid #596782; border-radius: 8px; }
+.ng-reader [data-reading-focus] { background: #344f7a; font-weight: 600; }
+.ng-reader :focus-visible, .ng-reader-shelf :focus-visible { outline: 2px solid #afcfff; outline-offset: 3px; }
+.ng-reader-head { display: block; margin: calc(-1 * var(--reader-inset)) calc(-1 * var(--reader-unit)) 0; position: sticky; top: 0; background: #1b2034; z-index: 1; padding: var(--reader-inset) var(--reader-unit) 10px; box-shadow: 0 -20px 0 #1b2034; }
+.ng-reader-tools, .ng-reader-roles { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
+.ng-reader-roles a { display: inline-flex; align-items: center; min-height: 44px; padding: 0 8px; }
+.ng-reader-roles [aria-current] { font-weight: 700; background: #2c3853; border-radius: 6px; }
+.ng-reader-contents { display: flex; gap: 14px; overflow-x: auto; white-space: nowrap; margin-top: 8px; font-size: 12px; }
+.ng-reader-contents a { display: inline-flex; align-items: center; min-height: 44px; }
+.ng-reader:not([data-reading-expanded]) .ng-reader-contents { display: none; }
+.ng-reader:not([data-reading-expanded]) .ng-reader-roles { display: none; }
+.ng-reader:not([data-reading-expanded]) { display: grid; grid-template-columns: minmax(0, 1fr) max-content; gap: 8px; align-items: start; }
+.ng-reader:not([data-reading-expanded]) .ng-reader-head { grid-column: 2; grid-row: 1; position: sticky; top: 0; margin: 0; padding: 0; }
+.ng-reader:not([data-reading-expanded]) h1 { display: none; }
+.ng-reader:not([data-reading-expanded]) [data-reader-body] { grid-column: 1; grid-row: 1; }
+/* The actual overview leads the narrow mixed view. All source nodes remain in
+   the native scrollport; reading expands them back into their authored order. */
+.ng-reader:not([data-reading-expanded]) [data-source-id="overview"] { order: -1; }
+.ng-reader:not([data-reading-expanded]) [data-source-id="overview"] > h2 { display: none; }
+.ng-reader:not([data-reading-expanded]) [data-source-id="overview"] > p { margin-top: 0; }
+.ng-reader:not([data-reading-expanded]) .ng-reader-tools { flex: none; }
+.ng-reader:not([data-reading-expanded]) [data-reader-browse] { display: none; }
+.ng-reader [data-reader-body] { outline-offset: -2px; }
+.ng-reader[data-videos="false"] [data-reader-film] { display: none; }
+.ng-reader-shelf {
+  position: absolute; z-index: 6; display: flex; gap: 4px; transform: translateX(-50%);
+  box-sizing: border-box; padding: 4px; border: 1px solid #414c68; border-radius: 12px;
+  background: #161c30; cursor: auto; touch-action: manipulation;
 }
-.r-t:hover { color: #c4cde0; }
-.r-t[aria-current="location"] { color: #eef1f6; border-bottom-color: #7e9bff; }
-.r-t:focus-visible { outline: 2px solid #7e9bff; outline-offset: 2px; }
-
-/* the head that carries the row and the close control */
-.r-bar { display: flex; align-items: center; justify-content: center; gap: 12px; height: 38px; }
-/* THE CLOSE CONTROL'S ALIGNMENT IS NOT DECIDED HERE (v1.195.7). This file used to carry
-   `.r-pin > [data-land-more] { margin-left: auto }` — `order` cannot right-align under the bar's
-   centring, an auto margin can — but shut, the inner bar holds the More pill ALONE, and an auto
-   margin on a lone flex item pushes it to the far edge whatever the bar's centring says. That is
-   the collapsed pill the owner saw "too much to the right". The margin now exists only while the
-   fold is open and is written INLINE by `_landMoreAlign` in app.src.jsx, one writer for both
-   states; a stylesheet copy would be a second decision that can drift, so there is none. The
-   button also keeps its own inline colour (NG_LAND_MORE_COL): never clear it to "". */
-
-/* ── THE PINNED HEAD ────────────────────────────────────────────────────────────────────── */
-/* The INNER bar, the one `_readPin` counter-translates so the contents row holds while the
-   document travels under it. `position:sticky` cannot do this — the fold is not a scrollport,
-   and a sticky child of a transform-moved fixed card travels the full offset with it — and the
-   OUTER bar cannot carry the transform either, because helmet.html:243 writes
-   `transform:none!important` on `.ng-landmore.open > div:first-child` and `!important` beats an
-   inline style. These rules are a mirror of what `_renderLandMore` already writes inline: the
-   stylesheet is deferred and the collapsed More pill is drawn before it arrives. */
-.r-pin { display: flex; align-items: center; justify-content: center; gap: 12px; flex: 1 1 auto; min-width: 0; }
-
-/* Standing in its own place at the top of the card the head is transparent, exactly as it was.
-   FLOATING, it is in front of the prose it indexes, so it has to be opaque and it has to say so.
-   The first shadow is not decoration: with no blur and a -20px offset it paints the same solid
-   over the strip between the card's top edge and the head, which is otherwise a sliver of text
-   peeking above a floating bar. The second is the only thing that says "this is in front". */
-.r-pin.pinned {
-  background: #1b2034;
-  box-shadow: 0 -20px 0 #1b2034, 0 14px 16px -12px rgba(0, 0, 0, .8);
+.ng-reader-shelf button {
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  min-width: 44px; min-height: 48px; width: 55px; margin: 0; padding: 4px 2px; gap: 3px;
+  border: 1px solid transparent; border-radius: 7px; background: transparent;
+  color: #b6c5df; font: 10px/1.2 "Plus Jakarta Sans", sans-serif; cursor: pointer;
+}
+.ng-reader-shelf button > span:first-child { font-size: 18px; }
+.ng-reader-shelf [aria-pressed="false"] { background: #2c3e60; color: #eff5ff; border-color: #718ab0; }
+.ng-reader-no-map > canvas, .ng-reader-no-map .ng-legendkey,
+.ng-reader-no-map [data-seat-star], .ng-reader-no-map [data-reader-map],
+.ng-reader-no-feedback .ng-evtoast, .ng-reader-no-feedback .ng-winbar,
+.ng-reader-no-feedback .ng-challenge-reward, .ng-reader-no-feedback .ng-combo-pop,
+.ng-reader-no-feedback .ng-momentum, .ng-reader-no-feedback .ng-vignette,
+.ng-reader-no-feedback .ng-tut,
+.ng-reader-no-feedback [data-reader-feedback],
+.ng-reader-active .ng-landcard, .ng-reader-active .ng-landfilm,
+.ng-reader-active .ng-landstack, .ng-reader-active [data-land-nav],
+.ng-reader-active .ng-optionrow, .ng-reader-active [data-hand-close] {
+  visibility: hidden !important;
+}
+@media (max-width: 640px) {
+  .ng-reader { --reader-unit: 14px; --reader-inset: 14px; font-size: 16px; }
+  .ng-reader[data-reading-compact] { padding: 3px 8px; }
+  /* Keep the phone's graph and full-size answer targets clear above the book.
+     Expanded playback keeps its inline dimensions and borrows the preview. */
+  .ng-has-land-deck:has(.ng-reader:not([hidden])) .ng-landfilm .ng-clip { height: 64px !important; }
+  .ng-reader h1 { font-size: 21px; }
+  .ng-reader-shelf button { width: 48px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .ng-reader, .ng-reader * { scroll-behavior: auto !important; animation: none !important; transition: none !important; }
+}
+@media (min-width: 641px) and (max-height: 800px) {
+  /* The same compact film target as a phone leaves the node title room above
+     the question on a short desktop, without shrinking its answer targets. */
+  .ng-has-land-deck:has(.ng-reader:not([hidden])) .ng-landfilm .ng-clip { height: 64px !important; }
 }

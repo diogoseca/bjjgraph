@@ -38,6 +38,10 @@ LAYOUT_JSON = os.path.join(_REPO_ROOT, "source", "quartz", "static", "globalGrap
 
 _ROLE_SUFFIXES = ("/top", "/bottom", "/attacker", "/defender")
 
+# Every current layout node represents scored content. A genuinely unscored node
+# must be named here with a reason; a new prefix must not silently bypass the join.
+LAYOUT_STRENGTH_EXEMPTIONS: dict[str, str] = {}
+
 
 def _round(x: float) -> float:
     return round(float(x), 3)
@@ -215,7 +219,10 @@ def _layout_id_to_lookup(node_id: str) -> tuple[str, list[str]]:
         if lower.startswith(prefix):
             rest = lower[len(prefix):]
             # Full flatten is the real key for compound submission/transition ids.
-            candidates = [rest.replace("/", "-")]
+            # Use the graph key's constructor AFTER flattening: slugify drops slashes.
+            # Lowercasing alone left apostrophes and '%' in three ids, silently sending
+            # both pair members through the app's plausible dominance() fallback.
+            candidates = [slugify(rest.replace("/", "-"))]
             # LEAF SLUG, for positions only. A nested position variation registers under its OWN
             # `slug` ("rear-triangle"), not under the flattened path ("triangle-control-rear-
             # triangle") — so without this the flatten misses, the parent fallback fires, and the
@@ -224,28 +231,33 @@ def _layout_id_to_lookup(node_id: str) -> tuple[str, list[str]]:
             # Positions only: a submission id like `Kimura/from-Mount` has a leaf ("from-mount")
             # that is not a slug at all, and giving it a chance to collide buys nothing.
             if section == "positions" and "/" in rest:
-                candidates.append(rest.rsplit("/", 1)[1])
+                candidates.append(slugify(rest.rsplit("/", 1)[1]))
             # Parent fallback (drop the last "/" segment) for variations with no metrics of their own.
             if "/" in rest:
-                candidates.append(rest.rsplit("/", 1)[0].replace("/", "-"))
+                candidates.append(slugify(rest.rsplit("/", 1)[0].replace("/", "-")))
             return section, candidates
     return "", []
 
 
 def enrich_layout(layout_strength: dict) -> tuple[int, int]:
-    if not os.path.exists(LAYOUT_JSON):
-        print(f"  WARN: {LAYOUT_JSON} not found; skipping layout enrichment", file=sys.stderr)
-        return 0, 0
+    """Write only a fully covered layout; a miss must fail the regeneration chain."""
     with open(LAYOUT_JSON, encoding="utf-8") as fh:
         layout = json.load(fh)
     matched = 0
     misses: list[str] = []
+    exempted = 0
     nodes = layout.get("nodes", [])
     for n in nodes:
-        section, candidates = _layout_id_to_lookup(n.get("id", ""))
-        if not candidates:
+        node_id = n.get("id", "")
+        if node_id in LAYOUT_STRENGTH_EXEMPTIONS:
+            reason = LAYOUT_STRENGTH_EXEMPTIONS[node_id]
+            if not reason.strip():
+                raise ValueError(f"strength exemption needs a reason: {node_id}")
+            print(f"[enrich_graph_strength] exempt: {node_id}: {reason}")
             n.pop("s", None)
+            exempted += 1
             continue
+        section, candidates = _layout_id_to_lookup(node_id)
         # Prefer the prefix-indicated section, but the layout's prefix can be
         # stale or mis-sectioned (a submission-entry filed under transitions/),
         # so try every candidate slug across every section before giving up.
@@ -262,11 +274,16 @@ def enrich_layout(layout_strength: dict) -> tuple[int, int]:
             n["s"] = pair
             matched += 1
         else:
-            n.pop("s", None)  # keep idempotent: drop stale strength on misses
-            misses.append(n.get("id", "?"))
+            misses.append(node_id or "<missing id>")
+    print(f"[enrich_graph_strength] globalGraphLayout.json: {matched}/{len(nodes)} nodes carry strength; "
+          f"{exempted} exempt, {len(misses)} missing")
+    if misses:
+        raise ValueError("layout nodes missing strength:\n" + "\n".join(f"  {node_id}" for node_id in misses))
+    if matched == 0:
+        raise ValueError("layout strength join matched zero nodes")
     with open(LAYOUT_JSON, "w", encoding="utf-8") as fh:
         json.dump(layout, fh, separators=(",", ":"))
-    return matched, len(nodes), misses
+    return matched, len(nodes)
 
 
 def main() -> int:
@@ -279,12 +296,11 @@ def main() -> int:
     n_tr = len(layout_strength["transitions"])
     n_sub = len(layout_strength["submissions"])
     print(f"[enrich_graph_strength] graph.json: {n_pos} positions, {n_tr} transitions, {n_sub} submissions scored")
-    matched, total, misses = enrich_layout(layout_strength)
-    print(f"[enrich_graph_strength] globalGraphLayout.json: {matched}/{total} nodes carry strength")
-    if misses:
-        shown = ", ".join(misses[:12])
-        print(f"[enrich_graph_strength] {len(misses)} node(s) fall back to default colour "
-              f"(stale/merged or punctuation-slug): {shown}")
+    try:
+        enrich_layout(layout_strength)
+    except (OSError, ValueError) as exc:
+        print(f"[enrich_graph_strength] ERROR: {exc}", file=sys.stderr)
+        return 1
     return 0
 
 

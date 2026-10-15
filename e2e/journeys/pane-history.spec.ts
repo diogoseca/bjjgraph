@@ -280,10 +280,9 @@ test("a direct submission finish archives its one-state roll", async ({ page }) 
   const key = title + "|Attacker"
   await j.boot("/Submissions/Triangle-Choke/from-Triangle-Control/Attacker")
   await j.advance(4000)
+  await expect(page.locator('[data-reader-ready="true"]')).toBeVisible()
   expect(await page.evaluate(() => (window as any).__neural.rollLog.map((r: any) => r.key))).toEqual([key])
-  // URL arrivals stage a paused board; the transport Play action makes it an actual roll.
-  await page.evaluate(() => (window as any).__neural.setPaused(false))
-  await j.advance(900)
+  expect(await page.evaluate(() => { const a = (window as any).__neural; return { paused: a.paused, intent: a._readerIntent, clock: a._decision?.remaining ?? null } })).toEqual({ paused: true, intent: true, clock: null })
   await j.rig("resolve", [0.01])
   await j.rig("outcome", [0.01])
   await j.rig("start-pos", [0.5])
@@ -292,7 +291,8 @@ test("a direct submission finish archives its one-state roll", async ({ page }) 
   await j.rig("max-moves", [0.5])
   const finish = page.locator('[data-choice-group="you"] [data-choice-action="finish"]')
   await expect(finish).toHaveCount(1)
-  await finish.click() // own-card click commits Finish
+  await j.clickByMouse('[data-choice-group="you"] [data-choice-action="finish"]', "Finish is the first deliberate game action")
+  expect(await page.evaluate(() => (window as any).__neural.rollLog.map((r: any) => r.key))).toEqual([key])
   await j.advanceUntil("roll_archived", 20000, 500)
   const past = await page.evaluate(() => {
     const a = (window as any).__neural, p = a._pastRolls[0]

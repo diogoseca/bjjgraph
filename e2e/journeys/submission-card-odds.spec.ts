@@ -57,6 +57,7 @@ const faces = (page: Page) => page.evaluate(() => {
 test("a submission card prints the finish it leads to, never its certain step, and the Finish card agrees", async ({ page }) => {
   const j = journey(page)
   await j.boot("/Positions/Closed-Guard/Bottom", { initialState: PRACTISED })
+  await expect(page.locator('[data-reader-ready="true"]')).toHaveAttribute('data-reader-path', '/Positions/Closed-Guard/Bottom')
   await j.advance(4000)
   const seat = await page.evaluate(() => { const a = (window as any).__neural; return { at: a.nodes[a.currentPos].t, role: a.playerRole, posKey: a._posKey, prep: a.prep } })
   expect(seat.role, "seated on the bottom of closed guard").toBe("bottom")
