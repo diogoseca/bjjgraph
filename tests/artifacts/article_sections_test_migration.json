@@ -49,6 +49,24 @@
   ],
   "assertion_migrations": [
     {
+      "file": "e2e/journeys/landcard-modes.spec.ts",
+      "test": "the generic defending card pages its own deck with the same arrows",
+      "change": "STALE TIMING: the original full core read zero beats while _landPageTo had accepted ArrowRight and was warming the defender pool. The unchanged-bundle native trace recorded true, then _landWarmP, then page 1 and exactly one land_q_paged. Await the existing landSettled promise after the same key; retain the exact one-beat assertion. No sleep, polling the claimed beat, retry or widened bound."
+    },
+    {
+      "files": [
+        "e2e/journeys/camera-continuity.spec.ts",
+        "e2e/journeys/landing-reveal.spec.ts"
+      ],
+      "test": "DOM-derived available band",
+      "change": "The approved fixed TOC frames the complete current node in the free left gutter when needed. Original full-core/diagnostic samples place the node there while the centred article spans x380..1060. Count the article as a vertical blocker only when its actual horizontal interval intersects the drawn orb/label footprint. Add the real article and shelf to the continuity sampler, which formerly omitted them; phone all-game-hidden now measures the actual article above the old film location. Preserve every MOVE/KICK/ZOOM, clearance and exact 5px centre bound."
+    },
+    {
+      "file": "e2e/journeys/defending-arrivals.spec.ts",
+      "test": "caught orb restaging; article links and Back/Forward",
+      "change": "The old right-side pan target is occupied by the approved TOC. Find a free left-gutter target and require both ends of each native drag to hit the real canvas; preserve the 16-gesture bound, separately drawn defender, app hover identity and native orb click. The transparent reader scrollport is no longer a click target: use the actual Overview TOC link before the unchanged authored-link/wheel/Back/Forward sequence."
+    },
+    {
       "file": "e2e/journeys/reading-mode.spec.ts",
       "test": "reading perspectives and Back retain canonical content without gameplay",
       "change": "STALE TIMING, fixbots reading-back-race.md: the unchanged test failed 3/20 before escape on dc72b958c and 0/20 on f006d73b8. Preserve the original perspective click, complete content checks and Back order. Observe Quartz's real nav publication and the outgoing app; wait only for the replacement instance's own connected reader to publish the canonical ready path, then snapshot that same instance once and assert unchanged intent:true, paused:true, clock:null. A forced HTML-then-graph hold reproduces the old-ready/new-loading boundary. No sleep, retry, widened bound or wait on the asserted state."
@@ -129,7 +147,7 @@
     {
       "file": "e2e/journeys/camera-continuity.spec.ts",
       "test": "CLEAR_SEC card restore and late film",
-      "change": "Hide Book as well as the game surfaces to establish the existing empty-band premise, then let the real Book click’s four-second camera input lease expire. The late-film case hides practice and the hand so the actual existing media owner changes an unbounded band without a fabricated height. The original per-frame motion and 0.35s clearance bounds remain unchanged."
+      "change": "Hide Book as well as the game surfaces to establish the existing empty-band premise, then let the real Book click\u2019s four-second camera input lease expire. The late-film case hides practice and the hand so the actual existing media owner changes an unbounded band without a fabricated height. The original per-frame motion and 0.35s clearance bounds remain unchanged."
     },
     {
       "file": "e2e/journeys/landing-reveal.spec.ts",
@@ -144,7 +162,7 @@
     {
       "file": "e2e/journeys/article-sections.spec.ts",
       "test": "choices precede section cards; optional chrome frame",
-      "change": "The orchestrator’s option A ruling puts the whole no-hook head before section one, with 6px before and after it. The hook replaces ownTop only: unclamped movement = headBottom - ownTop + offset, with no map-band head reservation. Existing node-band, practice-to-hand, article gap, section-gap and authoritative bottomReserve clamps remain pinned. New desktop/phone tests keep the same tools in the approved homes; null/undefined preserve fallback/reference geometry."
+      "change": "The orchestrator\u2019s option A ruling puts the whole no-hook head before section one, with 6px before and after it. The hook replaces ownTop only: unclamped movement = headBottom - ownTop + offset, with no map-band head reservation. Existing node-band, practice-to-hand, article gap, section-gap and authoritative bottomReserve clamps remain pinned. New desktop/phone tests keep the same tools in the approved homes; null/undefined preserve fallback/reference geometry."
     },
     {
       "file": "e2e/journeys/coldstart-backfill.spec.ts",

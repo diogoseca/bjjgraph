@@ -365,8 +365,10 @@ and keys own their input. Navigation/loading, Book hiding and teardown also hide
 Its rectangle also excludes camera space. The deferred reader extends `_paneCameraTarget`,
 using the shared `_nodeHalfW` silhouette, `pairMid`/`_LY` and measured headline width. When
 the article covers the node band, a fitting side gutter holds the node and its label; an
-exceptionally long label still clears the TOC. The existing pane fraction applies this to
-paused and leased cameras without accumulating shifts or moving the article. The journey
+exceptionally long label still clears the TOC. Its own correction stamp prevents accumulation;
+the existing camera integrator eases the move, while the pane fraction retains its separate
+instantaneous inset. No correction runs when the current node is clear of occupied rectangles,
+so a deliberate selection or execution keeps its subject. The journey
 measures drawn label baselines and both orbs at 1152, 1200, 1280, 1366 and 1440px; its mutation
 removes the TOC from the occupied set. Link colour inherits the row immediately (including
 hover), keeping a collapsed label and its eye equally grey despite the site's anchor styles.
@@ -392,7 +394,10 @@ Previous arrow with its 8px clearance, and 52px is reserved after the face for N
 media is 358px and the deck face keeps its viewport-minus-104 width (286px), stacked 12px below
 media. The arrows stay outside the face. The desktop pair stacks when its 902px footprint cannot fit.
 Layout is coalesced to one animation frame and writes changed geometry only; fixed docking writers leave
-both media slots alone. The execution card's `_ngDock.reader` carries measured `{rowTop, height}`
+both media slots alone. The article and shelf share this sole layout writer; fixed replay keeps
+its existing writer. An eager pointer latch covers game presses before the reader loads. Adoption
+and layout defer during that press, then resume on the animation frame after release and its native
+click, so a late layout cannot move an answer away from the pointer. The execution card's `_ngDock.reader` carries measured `{rowTop, height}`
 for the native flow, replacing the old fixed preview's `{height, push}`. The shared `_executionDock()`
 gates that reservation through result display and releases it on arrival, resize or reading;
 `_landDatum()` still serves fixed callers. The native row has one top-position writer and never

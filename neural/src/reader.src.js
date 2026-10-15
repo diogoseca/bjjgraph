@@ -740,7 +740,7 @@ class Reader {
     this.layoutFrame = requestAnimationFrame(() => { this.layoutFrame = 0; this.layoutNow(); });
   }
   layoutNow() {
-    if (!this.dock || this.app.__ngDestroyed || this.laying) return;
+    if (!this.dock || this.app.__ngDestroyed || this.app._readerPress || this.laying) return;
     this.laying = true;
     const style = (el, key, value, priority = "") => {
       const old = el.style.getPropertyValue(key);
@@ -868,6 +868,9 @@ class Reader {
     } finally { this.laying = false; }
   }
   frameCamera(target) {
+    // Undo only this reader's previous correction. Keep it out of _paneFraction:
+    // pane insets are applied after easing, but an occupied-area move must fly.
+    target = { ...target, cx: target.cx + (target._tocFraction || 0) * target.vw, _tocFraction: 0 };
     const a = this.app, n = a.nodes?.[a.focusIdx], toc = this.contents;
     if (!n || !a._LY || !toc || toc.hidden || !this.on("map")) return target;
     const W = a.W, H = a.H, scale = W / target.vw, mid = a.pairMid(n);
@@ -882,6 +885,9 @@ class Reader {
     // the TOC. Once the article covers the node band, use a fitting side gutter.
     const occupied = [toc, this.articleEl].map(el => el.getBoundingClientRect())
       .filter(r => r.width && r.top < bottom && r.bottom > top).sort((a, b) => a.left - b.left);
+    // A deliberate view can leave the current node off-screen. Exclude actual
+    // intersections; bringing that node back would steal the selected subject.
+    if (!occupied.some(r => r.left < right && r.right > left)) return target;
     let edge = a._paneLayout().left + 12;
     const gaps = [];
     for (const r of occupied) { gaps.push([edge, r.left - 12]); edge = Math.max(edge, r.right + 12); }
@@ -892,9 +898,7 @@ class Reader {
     // behind the article, but never under the controls. Preserve its full name.
     const shift = shifts.length ? shifts.sort((a, b) => Math.abs(a) - Math.abs(b))[0]
       : Math.min(0, toc.getBoundingClientRect().left - 12 - right);
-    // Use the existing pane transform, including paused/leased cameras. The
-    // original seam removes the old fraction before each call: no accumulation.
-    return { ...target, cx: target.cx - shift / scale, _paneFraction: target._paneFraction + shift / W };
+    return { ...target, cx: target.cx - shift / scale, _tocFraction: shift / W };
   }
   destroy() {
     cancelAnimationFrame(this.layoutFrame);

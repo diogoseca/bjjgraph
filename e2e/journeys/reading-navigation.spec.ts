@@ -92,6 +92,46 @@ test('@curated a late full article preserves the answered question and never pay
   expect(before.answers).toBe(1)
 })
 
+// A real app race, not stale assertion timing: the integrated failure was
+// reproduced by first adoption during pointerdown. The correct option received
+// down, another option (or blank space) received up, and no answer was recorded.
+// Native moveBefore also failed: preserving DOM identity cannot preserve a
+// moving hit target. Force that ordering against the actual installed reader.
+for (const width of [390, 1440]) {
+  test(`@curated ${width}px reader adoption during a mouse press preserves the first answer`, async ({ page }) => {
+    await page.setViewportSize({ width, height: width === 390 ? 844 : 900 })
+    const j = journey(page)
+    await j.boot(KNEE)
+    await expect(page.locator(READY)).toBeVisible()
+    const q = await j.landQuestion()
+    expect(q).not.toBeNull()
+    await page.evaluate(() => {
+      const w = window as any, a = w.__neural, reader = a._reader;
+      const layout = reader.layoutNow;
+      reader.layoutNow = () => {}; // hold the same pending first-layout boundary
+      reader.restoreGame();
+      const question = document.querySelector('[data-land-q]');
+      w.__pressedReader = { question, card: a._landEl };
+      window.addEventListener('pointerdown', event => {
+        const target = event.target as HTMLElement;
+        if (!target.closest('[data-land-mc-opt]')) throw Error('the forced press must target an answer');
+        const before = target.getBoundingClientRect(), parent = a._landEl.parentElement;
+        reader.layoutNow = layout;
+        reader.layoutNow(); // asynchronous adoption lands during this native press
+        const after = target.getBoundingClientRect();
+        w.__pressedReader.held = { sameParent: parent === a._landEl.parentElement, dx: after.x - before.x, dy: after.y - before.y };
+      }, { once: true, capture: true });
+    })
+    await j.clickByMouse(`[data-land-mc-opt="${q!.correct}"]`)
+    expect(await page.evaluate(() => {
+      const w = window as any, a = w.__neural, old = w.__pressedReader;
+      return { held: old.held, sameQuestion: old.question === document.querySelector('[data-land-q]'),
+        sameCard: old.card === a._landEl, answers: a.beats.filter((b: any) => b.beat === 'land_q_answered').length };
+    })).toEqual({ held: { sameParent: true, dx: 0, dy: 0 }, sameQuestion: true, sameCard: true, answers: 1 })
+    await expect(page.locator('.ng-reader-game [data-land-q]')).toBeVisible()
+  })
+}
+
 test('@curated successful article responses are reused across seat navigation and Book restores', async ({ page }) => {
   const j = journey(page), requests: string[] = []
   page.on('request', r => { if (r.resourceType() === 'fetch' && /Knee-Slice-Pass\/(Attacker|Defender)$/.test(new URL(r.url()).pathname)) requests.push(new URL(r.url()).pathname) })

@@ -69,6 +69,7 @@ const mutants = [
   ['native-game-touch-blocked', 'landcard-deck.spec.ts', 'long mobile choices', s => s, css => replace(css, '[data-reader-game-part=card]{touch-action:pan-y}', '[data-reader-game-part=card]{touch-action:none}')],
   ['native-game-keys-lost', 'landcard-deck.spec.ts', 'long recall answers', s => replace(s, 'return reader.gameKey(event) || readKey.call(this, event);', 'return readKey.call(this, event);')],
   ['native-page-scroll-lost', 'landcard-deck.spec.ts', 'long recall answers', s => replace(s, 'reader.gamePage !== this._landPage) reader.root.scrollTop = 0;', 'reader.gamePage !== this._landPage) {}')],
+  ['pressed-answer-moved', 'reading-navigation.spec.ts', '1440px reader adoption during a mouse press', s => replace(s, ' || this.app._readerPress', '')],
 ]
 const selection = process.env.SECTIONS_MUTANT_ONLY;
 const selected = selection ? mutants.filter(([name]) => new RegExp(selection).test(name)) : mutants;

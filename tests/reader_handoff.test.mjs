@@ -125,4 +125,38 @@ test("startExecution uses the shared bottom only for the fixed home", () => {
   }
 });
 
-console.log("reader handoff: 7 behavioral cases; real browser geometry remains pending");
+test("the article and shelf have one frame writer while fixed replay keeps its own writer", () => {
+  const { a, r } = fixture();
+  window.innerWidth = a.W = 1440;
+  a.isMobile = () => false; a._compactLandDeck = () => false;
+  let center = 800;
+  a._paneLayout = () => ({ center, width: 2 * (1440 - center) });
+  a._layerDockEl = r.dock; r.dock.style.left = "720px";
+  const replay = a._replayEl = node(); replay.offsetWidth = 360;
+  let pending, queued = 0;
+  const original = globalThis.requestAnimationFrame;
+  globalThis.requestAnimationFrame = callback => { pending = callback; queued++; return 1; };
+  try {
+    for (let i = 0; i < 4; i++) a._layoutLandHorizontal();
+    assert.equal(r.dock.style.left, "720px", "legacy positioning cannot move the shelf ahead of its article");
+    assert.equal(replay.style.left, "800px", "fixed replay still follows the pane immediately");
+    assert.equal(queued, 1, "one coalesced native layout");
+    pending();
+    assert.equal(parseFloat(r.dock.style.left), center);
+    assert.equal(parseFloat(r.articleEl.style["margin-left"]) + parseFloat(r.articleEl.style.width) / 2, center);
+    // A reference or hidden game can leave only the reader-owned shelf. That
+    // must still schedule layout after excluding it from the legacy writers.
+    a._replayEl = null; center = 860;
+    a._layoutLandHorizontal();
+    assert.equal(queued, 2);
+    assert.equal(r.dock.style.left, "800px");
+    pending();
+    assert.equal(parseFloat(r.dock.style.left), center);
+    assert.equal(parseFloat(r.articleEl.style["margin-left"]) + parseFloat(r.articleEl.style.width) / 2, center);
+  } finally {
+    if (original) globalThis.requestAnimationFrame = original;
+    else delete globalThis.requestAnimationFrame;
+  }
+});
+
+console.log("reader handoff: 8 behavioral cases; real browser geometry is pinned separately");

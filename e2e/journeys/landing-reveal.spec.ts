@@ -156,7 +156,13 @@ for (const viewport of [{ width: 1440, height: 900 }, { width: 390, height: 844 
           const a = (window as any).__neural, n = a.nodes[a.focusIdx], mid = a.pairMid(n);
           // The reader root is a transparent game scrollport. Only its article
           // blocks the map; child bottom coordinates are now container-relative.
-          const surfaces = [a._landEl, a._landFilmEl, a._handShown() && a.optionsRef.current, a._reader?.articleEl || a._readerEl, a._layerDockEl].filter((el: HTMLElement) => el && el.offsetHeight && getComputedStyle(el).display !== 'none' && getComputedStyle(el).visibility !== 'hidden');
+          // The approved TOC exclusion can place the complete drawn node in
+          // the left gutter. Article text does not occupy that gutter's band.
+          const article = a._reader?.articleEl || a._readerEl, s = a.W / a.cam.vw;
+          const x = a.W / 2 + (mid.x - a.cam.cx) * s, k = Math.max(.4, Math.min(1, a.cam.vw / (a.graphW * .5)));
+          const half = Math.max(...[n, n.pi >= 0 ? a.nodes[n.pi] : null].filter(Boolean).map(q => a._nodeHalfW(q, s, k, a._lodK ?? 1)));
+          const ar = article?.getBoundingClientRect(), blocks = ar && x - half < ar.right && x + half + 11 + a._labelWidthPx(n) > ar.left;
+          const surfaces = [a._landEl, a._landFilmEl, a._handShown() && a.optionsRef.current, blocks && article, a._layerDockEl].filter((el: HTMLElement) => el && el.offsetHeight && getComputedStyle(el).display !== 'none' && getComputedStyle(el).visibility !== 'hidden');
           const bottom = Math.min(a.H - 16, ...surfaces.map((el: HTMLElement) => el.getBoundingClientRect().top - 12));
           const ev = a.evRef.current;
           const top = ev && getComputedStyle(ev).opacity !== "0" ? Math.max(16, ev.getBoundingClientRect().bottom + 12) : 16;

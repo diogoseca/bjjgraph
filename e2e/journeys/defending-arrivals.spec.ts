@@ -75,7 +75,7 @@ const leaf = `div:has(> [data-list-surface="explore"][data-list-add="${ID}"]) > 
 async function defenderLink(page: Page) {
   const j = journey(page)
   await expect(page.locator(READY)).toBeVisible()
-  if (!(await page.locator('[aria-label="Reading perspectives"] a[href$="/Defender"]').isVisible())) await j.clickByMouse('[data-reader]')
+  if (!(await page.locator('[aria-label="Reading perspectives"] a[href$="/Defender"]').isVisible())) await j.clickByMouse('.ng-reader-toc-row:has([data-toc-eye="overview"]) a')
   await j.clickByMouse('[aria-label="Reading perspectives"] a[href$="/Defender"]', 'read the defending half')
 }
 
@@ -142,9 +142,27 @@ test('@curated clicking the caught defender orb manually restages a calm journey
       await page.mouse.wheel(0, -400)
       await page.waitForTimeout(70)
     } else {
-      await page.mouse.move(1200, 120)
+      // The right gutter is now occupied by the fixed TOC. Find an exposed
+      // point in the actual left gutter and a native drag whose endpoints are
+      // both canvas, instead of panning toward the former right-side target.
+      const drag = await page.evaluate(hit => {
+        const a = (window as any).__neural, canvas = a.canvas;
+        const edges = [a._reader.articleEl, a._reader.contents, a._landEl, a._landFilmEl]
+          .filter(el => el && el.offsetHeight && getComputedStyle(el).visibility !== 'hidden')
+          .map(el => el.getBoundingClientRect()).filter(r => r.left > 0 && r.top < 330 && r.bottom > 330);
+        const edge = Math.min(a.W / 2, ...edges.map(r => r.left));
+        const goal = [edge / 2, edge / 3, edge * .75].find(x => document.elementFromPoint(x, 330) === canvas);
+        if (goal == null) return null;
+        const dx = Math.max(-180, Math.min(180, goal - hit.x)), dy = Math.max(-100, Math.min(100, 330 - hit.y));
+        for (const x of [edge - 20, 20, edge / 2]) for (const y of [120, 220, 400]) {
+          if (document.elementFromPoint(x, y) === canvas && document.elementFromPoint(x + dx, y + dy) === canvas) return { x, y, dx, dy };
+        }
+        return null;
+      }, hit)
+      expect(drag, 'a native pan has exposed canvas at both ends').toBeTruthy()
+      await page.mouse.move(drag!.x, drag!.y)
       await page.mouse.down()
-      await page.mouse.move(1200 + Math.max(-180, Math.min(180, 1120 - hit.x)), 120 + Math.max(-100, Math.min(100, 330 - hit.y)), { steps: 8 })
+      await page.mouse.move(drag!.x + drag!.dx, drag!.y + drag!.dy, { steps: 8 })
       await page.mouse.up()
     }
     await j.advance(100)
@@ -199,7 +217,7 @@ test('@curated a shared list link opens its defending item without a catch', asy
 
 test('@curated article links, Back and Forward start fresh journeys after a catch', async ({ page }) => {
   const { j, previous } = await caught(page)
-  await j.clickByMouse('[data-reader]', 'expand the caught submission article')
+  await j.clickByMouse('.ng-reader-toc-row:has([data-toc-eye="overview"]) a', 'read the caught submission article')
   const link = page.locator('[data-reader-body] a[href*="/Positions/"]').first()
   await link.evaluate(e => e.setAttribute('data-arrival-article-link', ''))
   await wheelTo(page, '[data-arrival-article-link]', '[data-reader]')

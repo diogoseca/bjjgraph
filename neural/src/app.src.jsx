@@ -986,7 +986,17 @@ class Component extends DCLogic {
     // it — several overlays swallow pointerdown on purpose (§6.1). Read by the pane's focus
     // restore above; keep it that cheap, it runs on every event.
     window.addEventListener("keydown", () => { this._kbNav = true; }, true);
-    window.addEventListener("pointerdown", () => { this._kbNav = false; }, true);
+    window.addEventListener("pointerdown", (event) => {
+      this._kbNav = false;
+      // Track before the deferred reader exists too: adopting or resizing a
+      // pressed control changes pointerup's target and loses the native click.
+      this._readerPress = this._landEl?.contains(event.target) || this.optionsRef.current?.contains(event.target);
+    }, true);
+    for (const type of ["pointerup", "pointercancel", "blur"]) window.addEventListener(type, () => {
+      if (!this._readerPress) return;
+      this._readerPress = false;
+      this._reader?.layout(); // RAF runs after this release's native click.
+    }, true);
     // ── PANE GESTURES ── TWO pagers, ONE binding, because they share one element and the pane is
     // only ever in one of the two modes (`_layoutPane` hides the nav for the other):
     //   · a STUDY surface (`isDrillOpen`) pages its CARD deck — left/right = prev/next,
@@ -13057,8 +13067,11 @@ class Component extends DCLogic {
   // instead, which is the viewport's centre whenever the pane is shut, i.e. where they were.
   // Pinned by `e2e/journeys/layer-dock-centre.spec.ts`.
   _layoutLandHorizontal() {
+    // The native article and its shelf share one coalesced layout writer. The
+    // fixed replay bar still follows this frame's legacy column geometry.
+    this._reader?.layout();
     const W = this.W || window.innerWidth, card = this._landEl, film = this._landFilmEl;
-    const chrome = [this._layerDockEl, this._replayEl].filter(Boolean);
+    const chrome = [this._layerDockEl, this._replayEl].filter(el => el && el !== this._reader?.dock);
     if (!card && !film && !chrome.length) return;
     const compact = this._compactLandDeck();
     const anchor = card || film;
@@ -13077,7 +13090,6 @@ class Component extends DCLogic {
     }
     if (film && !this._reader?.placesMedia(film)) film.style.left = (compact ? W * .78 : center) + "px";
     chrome.forEach((el, i) => { el.style.left = chromeAt[i] + "px"; });
-    this._reader?.layout();
   }
   updateUiShift(dt) {
     const tgt = this.deckShown ? 1 : 0;

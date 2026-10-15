@@ -11084,8 +11084,10 @@ per-key account sync and Settings editor; missing keys mean shown.
 The first 1152px screenshot exposed the current node's label crossing the new TOC.
 The reader now extends `_paneCameraTarget` with the article and TOC occupied rectangles.
 It uses `pairMid`, `_LY`, the shared `_nodeHalfW` silhouette and measured label width to
-frame the current pair in a fitting free gutter. It preserves the existing pane fraction
-so paused or leased cameras do not accumulate correction. Measurements at 1152, 1200,
+frame the current pair in a fitting free gutter. Its correction has a separate idempotence
+stamp and moves through the existing camera integrator, preserving the pane fraction's
+inset. A current node already clear of occupied rectangles never displaces a deliberate
+selection or execution subject. Measurements at 1152, 1200,
 1280, 1366 and 1440px show zero label/orb intersections before and after entering reading;
 the article remains independently centered. Dropping the TOC from the occupied set fails
 the 1152px journey. All seven TOC mutation controls fail their intended assertions,
@@ -11101,7 +11103,12 @@ calling `collapseClip`. Desktop reserves 400px media, a 60px gap, a 390px practi
 Below the 902px composition fit, media stacks above practice with 12px clearance; at 390px
 the media is 358px and the deck face is 286px. Width is set before measuring
 `currentFilmHeight()` or the current host rectangle. A single requestAnimationFrame
-coalesces layout and unchanged geometry is not rewritten.
+coalesces layout and unchanged geometry is not rewritten. The shelf and article share that
+single writer; fixed replay retains its own. A pointer latch established before reader
+loading holds adoption/layout through a game press and resumes after the native click.
+The integrated first-answer race reproduced with both append and moveBefore: the element
+survived, but its geometry moved between pointerdown and pointerup. The regression forces
+that order at phone and desktop widths, preserving question identity and one paid answer.
 
 Without chrome's optional `readerChromeFrame` hook, the whole head lives in the article
 flow above section one. No head height is reserved in the map band. With the hook,
