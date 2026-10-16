@@ -70,50 +70,50 @@ description: "Rear Naked Choke from Invisible Collar (attacker): Connect to the 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Rear Naked Choke from Invisible Collar (attacker): What matters when you establish rear attachment?",
+      "name": "Rear naked choke after Invisible Collar: what should be established before reaching across the neck?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Connect to the torso from behind before reaching across the neck."
+        "text": "Secure torso attachment from behind. Connect to the torso from behind before reaching across the neck."
       }
     },
     {
       "@type": "Question",
-      "name": "Rear Naked Choke from Invisible Collar (attacker): What matters when you win hand access?",
+      "name": "Rear naked choke attack: what is the purpose of winning the defending-hand exchange?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Control the defending hands without bending individual fingers or scraping the face."
+        "text": "Clear access for the arm to wrap the neck. Control the defending hands without bending individual fingers or scraping the face."
       }
     },
     {
       "@type": "Question",
-      "name": "Rear Naked Choke from Invisible Collar (attacker): What matters when you place the choking arm?",
+      "name": "Rear naked choke attack: which parts of the choking arm flank the neck?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Arrange the forearm and upper arm beside the neck while preserving head alignment."
+        "text": "The choking forearm and upper arm. Arrange the forearm and upper arm beside the neck while preserving head alignment."
       }
     },
     {
       "@type": "Question",
-      "name": "Rear Naked Choke from Invisible Collar (attacker): What matters when you add the supporting hand?",
+      "name": "Rear naked choke attack: what should the supporting hand behind the head do?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Connect the arm loop with the support hand behind the head without levering the neck forward."
+        "text": "Complete the arm loop without levering the neck forward. Connect the arm loop with the support hand behind the head without levering the neck forward."
       }
     },
     {
       "@type": "Question",
-      "name": "Rear Naked Choke from Invisible Collar (attacker): What matters when you remove space gradually?",
+      "name": "Rear naked choke attack: which elbow movement reduces space while the head stays aligned?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Use connected arms and torso instead of pulling the head into a crank."
+        "text": "Draw the elbows toward one another gradually. Kesting describes bringing the elbows together as one component of closing the choke. Keep the head aligned, use gradual pressure and release the entire connection immediately on a signal."
       }
     },
     {
       "@type": "Question",
-      "name": "Rear Naked Choke from Invisible Collar (attacker): What matters when you release completely?",
+      "name": "Rear naked choke attack: what must open when the partner taps or becomes unresponsive?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Open the choking arm and supporting hand immediately on any tap or change in responsiveness."
+        "text": "The choking arm and supporting hand. Open the choking arm and supporting hand immediately on any tap or change in responsiveness."
       }
     }
   ]

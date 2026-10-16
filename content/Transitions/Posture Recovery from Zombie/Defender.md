@@ -56,42 +56,42 @@ description: "Posture Recovery from Zombie (defender): Maintain posture control 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Posture Recovery from Zombie (defender): What matters when you keep Mission Control?",
+      "name": "Posture Recovery from Zombie (bottom): What must your high leg do while the free hand pummels?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Maintain posture control while freeing the other arm for the pummel."
+        "text": "The high Mission Control connection supports the pummel; letting posture escape removes the base for arm isolation."
       }
     },
     {
       "@type": "Question",
-      "name": "Posture Recovery from Zombie (defender): What matters when you find inside space?",
+      "name": "Posture Recovery from Zombie (bottom): In the hand-first pummel, where is the opening?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Work through the opening near the hand rather than forcing a tightly clamped elbow straight outward."
+        "text": "Eddy's demonstrated option attacks beneath the hand rather than forcing the strongly clamped elbow open."
       }
     },
     {
       "@type": "Question",
-      "name": "Posture Recovery from Zombie (defender): What matters when you move the hand to the mat?",
+      "name": "Posture Recovery from Zombie (bottom): What should you move to clear the inside frame?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Guide the wrist and forearm through the available space without bending individual fingers."
+        "text": "Guide the whole wrist-and-forearm line toward the mat instead of pulling individual fingers or forcing a fixed elbow."
       }
     },
     {
       "@type": "Question",
-      "name": "Posture Recovery from Zombie (defender): What matters when you prevent the return pummel?",
+      "name": "Posture Recovery from Zombie (bottom): What closes the gap after their hand reaches the mat?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Cover the cleared arm and close the knee hug as the hand reaches the mat."
+        "text": "Follow the hand clearance by wrapping the isolated arm and hugging the supported knee so the hand cannot simply return inside."
       }
     },
     {
       "@type": "Question",
-      "name": "Posture Recovery from Zombie (defender): What matters when you recognize New York?",
+      "name": "Posture Recovery from Zombie (bottom): If their posture escapes completely, what should you recover?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Once the arm is isolated, maintain that new control instead of repeatedly treating Zombie as a separate leg entanglement."
+        "text": "When the upper-body connection is lost, release the failing high leg and recover ordinary guard behind the frame."
       }
     }
   ]

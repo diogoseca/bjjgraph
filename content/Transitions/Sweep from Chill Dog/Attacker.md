@@ -68,50 +68,50 @@ description: "Sweep from Chill Dog (attacker): Keep the opposing hand on the mat
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Sweep from Chill Dog (attacker): What matters when you retain comfortable posture control?",
+      "name": "Sweep from Chill Dog (bottom): What upper-body connection can help control one post?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Keep the opposing hand on the mat and hug the knee before changing the head-side grip."
+        "text": "Chill Dog can retain one arm outside through the New York wrap; that provides one control but not a complete sweep setup."
       }
     },
     {
       "@type": "Question",
-      "name": "Sweep from Chill Dog (attacker): What matters when you identify the posting arm?",
+      "name": "Sweep from Chill Dog (bottom): What must you check before choosing a tipping direction?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Determine which arm can prevent the intended reversal; do not assume an isolated arm removes every post."
+        "text": "One isolated arm does not remove every post. Assess the remaining supports before selecting a separately taught sweep."
       }
     },
     {
       "@type": "Question",
-      "name": "Sweep from Chill Dog (attacker): What matters when you control the available post?",
+      "name": "Sweep from Chill Dog (bottom): Their free hand can stop the tip; how should your wrist grip work?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Use a safe wrist or arm connection without manipulating individual fingers."
+        "text": "Use wrist or arm control to deny the hand a weight-bearing post in the chosen tipping direction. Mere wrist contact is insufficient if the palm can still reach the mat; do not substitute individual finger manipulation. This is a posting-control prerequisite for a separately established sweep, not a complete Chill Dog sweep sequence."
       }
     },
     {
       "@type": "Question",
-      "name": "Sweep from Chill Dog (attacker): What matters when you test the base without forcing?",
+      "name": "Sweep from Chill Dog (bottom): What should a small hip movement test?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Use a small hip movement to check balance while retaining a stable guard."
+        "text": "A controlled balance check helps identify a usable opening without committing to an unsupported reversal."
       }
     },
     {
       "@type": "Question",
-      "name": "Sweep from Chill Dog (attacker): What matters when you require a defined sweep setup?",
+      "name": "Sweep from Chill Dog (bottom): A chosen sweep stalls on their free hand; why?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Proceed only after a coach has established the leg placement and direction for the chosen sweep."
+        "text": "The isolated arm is only one removed post. If the other hand supports their weight along the chosen sweep direction, the base remains."
       }
     },
     {
       "@type": "Question",
-      "name": "Sweep from Chill Dog (attacker): What matters when you stabilize the actual landing?",
+      "name": "Sweep from Chill Dog (bottom): What must be checked after a separately established sweep?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Release dangerous arm tension and establish the top position that actually results; mount requires additional leg clearance."
+        "text": "Coming on top is not automatically mount; stabilize the position actually reached and clear legs as needed."
       }
     }
   ]

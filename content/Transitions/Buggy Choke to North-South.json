@@ -202,114 +202,114 @@
     ],
     "flashcards": [
       {
-        "question": "Buggy Choke to North-South (attacker): What matters when you recognize the bottom-player choke?",
+        "question": "Buggy Choke to North-South (top): Which connection forms the Buggy loop you must clear?",
         "answer": "Watch for an arm reaching past your head and connecting to the same-side leg.",
-        "answer_line": "Recognize the bottom-player choke",
+        "answer_line": "Their arm connects to a leg around your head and arm",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Their arm circles your head without reaching the leg",
+            "Their hand holds their knee with your head outside"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Their arm joins the leg around your shoulder alone"
           ]
         }
       },
       {
-        "question": "Buggy Choke to North-South (attacker): What matters when you keep a stable base?",
-        "answer": "Avoid lifting, dropping, or twisting the partner's trapped leg to force an escape.",
-        "answer_line": "Keep a stable base",
+        "question": "Buggy Choke to North-South (top): What should support your weight during early defense?",
+        "answer": "Keep supported weight on the mat; lifting or wrenching the connected leg is not a sound escape.",
+        "answer_line": "A stable mat base while you address the loop",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Your shoulder inside the loop as you remove both knee posts",
+            "Your toes as you raise the attached partner's hips"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Your far hand alone as your hips drift over their head"
           ]
         }
       },
       {
-        "question": "Buggy Choke to North-South (attacker): What matters when you interrupt the connection early?",
+        "question": "Buggy Choke to North-South (top): When is an inside frame useful against the connection?",
         "answer": "Use safe inside frames before the arm-to-leg loop fully closes; do not pull or twist the partner's knee.",
-        "answer_line": "Interrupt the connection early",
+        "answer_line": "Before the hand and leg close the neck loop",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "After the neck is tight but before you begin circling",
+            "After your first step around the shoulders with the loop shut"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Once the hand grip locks and their elbow meets the knee"
           ]
         }
       },
       {
-        "question": "Buggy Choke to North-South (attacker): What matters when you free the head and arm?",
+        "question": "Buggy Choke to North-South (top): Which clearance must precede the circle to north-south?",
         "answer": "Move only through available space after the loop opens; tap if the neck is already enclosed.",
-        "answer_line": "Free the head and arm",
+        "answer_line": "Head and arm released from the loop",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Near knee past the opponent's hip only",
+            "Chin pressed down while the loop stays shut"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "One hand freed while the neck stays enclosed"
           ]
         }
       },
       {
-        "question": "Buggy Choke to North-South (attacker): What matters when you verify the next configuration?",
+        "question": "Buggy Choke to North-South (top): After release, what keeps their knees from following you?",
         "answer": "Establish North-South only after the head is free. Keep the shoulders and hips controlled while moving outside the legs.",
-        "answer_line": "Verify the next configuration",
+        "answer_line": "Control their hip line as you circle outside the legs",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Chase their head while leaving the hips mobile",
+            "Release the hip block as soon as the head clears"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Keep only shoulder pressure while their pelvis turns"
           ]
         }
       },
       {
-        "question": "Buggy Choke to North-South (attacker): What matters when you settle without neck loading?",
-        "answer": "Use balanced positional pressure and let the opponent communicate throughout the reset.",
-        "answer_line": "Settle without neck loading",
+        "question": "Buggy Choke to North-South (top): In the new pin, what should carry upper-body control?",
+        "answer": "After release and repositioning, supported chest pressure controls the upper body while the hips are managed.",
+        "answer_line": "Supported chest contact over the opponent's upper body",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Chest beside the shoulder with a wide gap above the ribs",
+            "Hands bearing the weight while the chest stays lifted"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Weight beyond their head with the shoulder line uncontained"
           ]
         }
       },
       {
-        "question": "Buggy Choke to North-South (attacker): What configuration must exist before this sequence?",
+        "question": "Buggy Choke to North-South (top): Whose head starts endangered in this transition?",
         "answer": "The top player is the choke defender even though this transition calls the moving player its attacker.",
-        "answer_line": "Check the starting configuration",
+        "answer_line": "The top player's head inside the bottom player's loop",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "The bottom player's head inside their own arm-leg loop",
+            "The top player's head outside the loop beside their hip"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "The top player's shoulder alone with the head free"
           ]
         }
       },
       {
-        "question": "Buggy Choke to North-South (attacker): Check the defining controls?",
+        "question": "Buggy Choke to North-South (top): What would make the pin change an unsafe escape attempt?",
         "answer": "Changing pins does not itself prove that the choke is gone. Clear the arm-and-leg loop first, and do not lift or slam the partner to escape.",
-        "answer_line": "Check the defining controls",
+        "answer_line": "Circling while the head remains inside a closed loop",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Repositioning after the whole enclosure is open",
+            "Maintaining hip control with the head already free"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Letting go before moving around the shoulders"
           ]
         }
       }
@@ -408,58 +408,58 @@
     ],
     "flashcards": [
       {
-        "question": "Buggy Choke to North-South (defender): What matters when you build the angle?",
+        "question": "Buggy Choke to North-South (bottom): What body position reduces your reach to the linking leg?",
         "answer": "Use safe shoulder and hip frames to turn partly onto the side before reaching for the leg.",
-        "answer_line": "Build the angle",
+        "answer_line": "Partly on your side with shoulder and hip frames",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Flat-backed with the elbow stretched away",
+            "Partly on your side with the raised knee drifting away"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Flat-backed with your hips extended away from the shoulder"
           ]
         }
       },
       {
-        "question": "Buggy Choke to North-South (defender): What matters when you enclose head and arm?",
-        "answer": "Check that the loop contains the necessary upper-body configuration rather than merely hugging your leg.",
-        "answer_line": "Enclose head and arm",
+        "question": "Buggy Choke to North-South (bottom): Which enclosure gives the top player a choke to clear?",
+        "answer": "The Buggy loop encloses the top player's head and one arm; a grip on the leg alone does not suffice.",
+        "answer_line": "Your same-side arm and leg around head and one arm",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Same-side arm and leg holding the head with both arms out",
+            "Same-side arm and leg holding an arm with the head out"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "A grip on your leg with their head beyond your elbow"
           ]
         }
       },
       {
-        "question": "Buggy Choke to North-South (defender): What matters when you keep elbow near knee?",
-        "answer": "Shorten the connection through body position, not by pulling the foot hard toward the face.",
-        "answer_line": "Keep elbow near knee",
+        "question": "Buggy Choke to North-South (bottom): With the elbow near the knee, what replaces pulling the foot?",
+        "answer": "Close the enclosure through torso position, keeping the elbow near the knee instead of levering the foot.",
+        "answer_line": "Shortening the shoulder-to-hip distance",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Moving the shoulder away while drawing the toes inward",
+            "Extending the torso to make the reach longer"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Raising the elbow away while leaving your torso flat"
           ]
         }
       },
       {
-        "question": "Buggy Choke to North-South (defender): What matters when you use the torso connection?",
-        "answer": "Close space with the arm, leg, and torso while avoiding twisting force on your own knee.",
-        "answer_line": "Use the torso connection",
+        "question": "Buggy Choke to North-South (bottom): The loop is lost as they circle. How do you recover space?",
+        "answer": "Once the loop fails, abandon it and use a framed hip escape while knee space remains available.",
+        "answer_line": "Frame, shift the hips and bring the knees inside",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Chase the old foot grip with both arms",
+            "Turn the knees away from their path"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Push with straight arms while leaving the hips still"
           ]
         }
       }

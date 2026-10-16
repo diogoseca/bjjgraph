@@ -58,42 +58,42 @@ description: "Bow and Arrow Choke from Invisible Collar (defender): Hand fight b
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Bow and Arrow Choke from Invisible Collar (defender): Protect the collar early?",
+      "name": "Bow-and-arrow defense: what is the earliest hand-fighting priority from rear control?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Hand fight before the attacker obtains a deep grip from behind."
+        "text": "Prevent a deep grip entering your collar. Hand fight before the attacker obtains a deep grip from behind."
       }
     },
     {
       "@type": "Question",
-      "name": "Bow and Arrow Choke from Invisible Collar (defender): What matters when you keep the bodies aligned?",
+      "name": "Bow-and-arrow defense: what alignment should you preserve while the collar is still held?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Avoid giving the attacker a large sideways angle while the collar remains fixed."
+        "text": "Keep your torso from giving a large sideways angle. Avoid giving the attacker a large sideways angle while the collar remains fixed."
       }
     },
     {
       "@type": "Question",
-      "name": "Bow and Arrow Choke from Invisible Collar (defender): What matters when you slide before tightening?",
+      "name": "Bow-and-arrow defense: when is an early downward body slide appropriate?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Use an early downward body adjustment only while the neck has space and the grip is not loaded."
+        "text": "While the neck has space and the collar is unloaded. Use an early downward body adjustment only while the neck has space and the grip is not loaded."
       }
     },
     {
       "@type": "Question",
-      "name": "Bow and Arrow Choke from Invisible Collar (defender): Control the attacking elbow?",
+      "name": "Bow-and-arrow defense: which upper-body lever should you address instead of tugging only at fabric?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Work at the elbow lever while protecting the neck instead of merely tugging at the sleeve."
+        "text": "The attacking elbow while protecting neck space. Work at the elbow lever while protecting the neck instead of merely tugging at the sleeve."
       }
     },
     {
       "@type": "Question",
-      "name": "Bow and Arrow Choke from Invisible Collar (defender): What matters when you tap before neck loading?",
+      "name": "Bow-and-arrow defense: why is a violent turn dangerous once the collar is fixed?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Stop when the choke is established; do not attempt a violent turn against a fixed collar."
+        "text": "Your neck can rotate against the restrained cloth. Stop when the choke is established; do not attempt a violent turn against a fixed collar."
       }
     }
   ]

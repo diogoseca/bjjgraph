@@ -68,50 +68,50 @@ description: "Posture Recovery to Closed Guard (attacker): Avoid extending an ar
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Posture Recovery to Closed Guard (attacker): What matters when you recognize the upper-body trap?",
+      "name": "Posture Recovery to Closed Guard (top): How do you avoid offering an arm-lock lever?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Avoid extending an arm between the high legs where it can be isolated."
+        "text": "Keep the elbows compact while addressing the high clinch instead of straightening them to force posture."
       }
     },
     {
       "@type": "Question",
-      "name": "Posture Recovery to Closed Guard (attacker): What matters when you protect the captured limb?",
+      "name": "Posture Recovery to Closed Guard (top): What reinforces Crackhead's restriction on your head?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "A second leg climbing behind your head increases the posture-control problem."
+        "text": "The added high leg reinforces upper-body posture control; the lower guard must be assessed separately after release."
       }
     },
     {
       "@type": "Question",
-      "name": "Posture Recovery to Closed Guard (attacker): What matters when you work before pressure engages?",
+      "name": "Posture Recovery to Closed Guard (top): What can preserve space before high closure?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Keep a balanced base and early inside frames; tap instead of moving against a completed choke or joint lock."
+        "text": "Early inside frames manage the hip line before the upper-body clinch closes tightly."
       }
     },
     {
       "@type": "Question",
-      "name": "Posture Recovery to Closed Guard (attacker): What matters when you open the high enclosure?",
+      "name": "Posture Recovery to Closed Guard (top): How do you create slack without twisting a trapped arm?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Create slack at the hip and thigh while keeping the head and captured arm aligned."
+        "text": "Create space at the hip and thigh with the head and arm aligned, then use the released opening."
       }
     },
     {
       "@type": "Question",
-      "name": "Posture Recovery to Closed Guard (attacker): What matters when you recover the elbow and posture?",
+      "name": "Posture Recovery to Closed Guard (top): What must happen before the shoulder withdraws?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Withdraw the shoulder and elbow only after the high leg connection has opened."
+        "text": "Clear both the high-leg connection and any upper-arm overhook before withdrawing the shoulder and elbow."
       }
     },
     {
       "@type": "Question",
-      "name": "Posture Recovery to Closed Guard (attacker): What matters when you confirm the next position?",
+      "name": "Posture Recovery to Closed Guard (top): What confirms the named destination after release?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Establish upright posture inside closed guard if the ankles close below the waist only when the upper-body enclosure and relevant leg hooks have cleared."
+        "text": "After upper-body clearance, closed guard exists only if the bottom player's legs reclose lower around the torso."
       }
     }
   ]

@@ -68,7 +68,7 @@ description: "Kimura Switch (attacker): The opposing foot is turned outward and 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Kimura Switch (attacker): What matters when you identify the starting enclosure?",
+      "name": "Kimura Switch (attacker): What is held in the initial Aoki configuration?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The opposing foot is turned outward and enclosed near the armpit, upper arm, and forearm."
@@ -76,7 +76,7 @@ description: "Kimura Switch (attacker): The opposing foot is turned outward and 
     },
     {
       "@type": "Question",
-      "name": "Kimura Switch (attacker): What matters when you remove finishing pressure?",
+      "name": "Kimura Switch (attacker): Why unload the first capture before reaching for an arm?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Rotational foot locks can injure the ankle or knee before pain provides useful warning. Use cooperative capture-and-release practice, no spinning escapes, and the event's actual division rules."
@@ -84,7 +84,7 @@ description: "Kimura Switch (attacker): The opposing foot is turned outward and 
     },
     {
       "@type": "Question",
-      "name": "Kimura Switch (attacker): What matters when you release before repositioning?",
+      "name": "Kimura Switch (attacker): What must open before the target limb changes?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Open the original connection before either partner turns, rises or changes the captured limb."
@@ -92,7 +92,7 @@ description: "Kimura Switch (attacker): The opposing foot is turned outward and 
     },
     {
       "@type": "Question",
-      "name": "Kimura Switch (attacker): What matters when you require wrist and elbow access?",
+      "name": "Kimura Switch (attacker): What access is needed for the new kimura grip?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Obtain a separate arm-control position before attempting a figure-four grip."
@@ -100,7 +100,7 @@ description: "Kimura Switch (attacker): The opposing foot is turned outward and 
     },
     {
       "@type": "Question",
-      "name": "Kimura Switch (attacker): What matters when you connect the arm figure-four?",
+      "name": "Kimura Switch (attacker): How is the arm figure-four connected?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Hold the opposing wrist and your own wrist while keeping the captured elbow controlled."
@@ -108,7 +108,7 @@ description: "Kimura Switch (attacker): The opposing foot is turned outward and 
     },
     {
       "@type": "Question",
-      "name": "Kimura Switch (attacker): What matters when you stop at shoulder control?",
+      "name": "Kimura Switch (attacker): In a positional kimura drill, what is the intended endpoint?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use the grip as a positional handle without forcing the wrist behind the back."

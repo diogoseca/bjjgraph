@@ -58,42 +58,42 @@ description: "Kneebar from Carni (defender): A knee trapped at the attacker's hi
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Kneebar from Carni (defender): What matters when you recognize the straight-leg line?",
+      "name": "Kneebar defense: which arrangement warns of an extension threat?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "A knee trapped at the attacker's hips with the ankle held indicates the extension threat."
+        "text": "Your knee at their hip fulcrum with your ankle held. A knee trapped at the attacker's hips with the ankle held indicates the extension threat."
       }
     },
     {
       "@type": "Question",
-      "name": "Kneebar from Carni (defender): What matters when you deny ankle control early?",
+      "name": "Kneebar defense: what should you deny before the leg capture closes?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Hand fight and keep the lower leg free before the attacker completes the capture."
+        "text": "A secure grip on your ankle and lower leg. Hand fight and keep the lower leg free before the attacker completes the capture."
       }
     },
     {
       "@type": "Question",
-      "name": "Kneebar from Carni (defender): What matters when you recover the knee line early?",
+      "name": "Kneebar defense: when should you recover the knee away from the fulcrum?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Move the knee away from the fulcrum only while the leg can still move freely."
+        "text": "While the leg still has freedom to move. Move the knee away from the fulcrum only while the leg can still move freely."
       }
     },
     {
       "@type": "Question",
-      "name": "Kneebar from Carni (defender): What matters when you keep the foot aligned?",
+      "name": "Kneebar defense: why is a twisting escape risky when ankle and thigh are both restrained?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Avoid a twisting escape against a held ankle and trapped thigh."
+        "text": "The knee can take rotation between the fixed contacts. Avoid a twisting escape against a held ankle and trapped thigh."
       }
     },
     {
       "@type": "Question",
-      "name": "Kneebar from Carni (defender): What matters when you tap at controlled extension?",
+      "name": "Kneebar defense: why should a secure extension capture be stopped before testing it for pain?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Do not wait for severe pain or test how far the knee can bend backward."
+        "text": "Joint load can increase before a useful pain warning. Treat established extension control as the stop point in practice. Do not use pain or remaining range as a test of whether the joint is safe to load farther."
       }
     }
   ]

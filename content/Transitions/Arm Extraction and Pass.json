@@ -184,170 +184,170 @@
     ],
     "flashcards": [
       {
-        "question": "Arm Extraction and Pass (attacker): What matters when you recognize the upper-body trap?",
-        "answer": "Avoid extending an arm between the high legs where it can be isolated.",
-        "answer_line": "Recognize the upper-body trap",
+        "question": "Arm Extraction and Pass (top): Which arm shape avoids offering a long lever to the high legs?",
+        "answer": "Keep the elbow compact while opening the high clinch; extending it between the legs can invite isolation.",
+        "answer_line": "Keep the elbow bent near your ribs",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Reach a straight arm between the high knees",
+            "Post the hand far behind the opponent's head"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Grip the ankle and straighten the trapped elbow"
           ]
         }
       },
       {
-        "question": "Arm Extraction and Pass (attacker): What matters when you protect the captured limb?",
-        "answer": "A second leg climbing behind your head increases the posture-control problem.",
-        "answer_line": "Protect the captured limb",
+        "question": "Arm Extraction and Pass (top): Your wrist moves but the extra leg holds you low; what must clear?",
+        "answer": "The second high leg reinforces the facing upper-body clinch and makes posture recovery harder. A mobile wrist does not prove that the shoulder has escaped this restraint; clear the high connection before withdrawing the arm.",
+        "answer_line": "The high-leg restraint around your shoulder line",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Only the grip on the wrist that already moves",
+            "Only the lower foot resting at your waist"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Only your hand contact with the opponent's hip"
           ]
         }
       },
       {
-        "question": "Arm Extraction and Pass (attacker): What matters when you work before pressure engages?",
-        "answer": "Keep a balanced base and early inside frames; tap instead of moving against a completed choke or joint lock.",
-        "answer_line": "Work before pressure engages",
+        "question": "Arm Extraction and Pass (top): Before high closure, how should the hip-side framing arm sit?",
+        "answer": "Use an early inside forearm at the hip or thigh while maintaining a balanced base. Keep the arm compact rather than reaching across the outside of the thigh. This is a preventive frame, not permission to move through a completed lock.",
+        "answer_line": "A bent forearm inside the hip or thigh line",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "A straight elbow extending past the outside of the thigh",
+            "A flared elbow with only the wrist touching the thigh"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "An elbow pinned outside the knee while the hand reaches inward"
           ]
         }
       },
       {
-        "question": "Arm Extraction and Pass (attacker): What matters when you open the high enclosure?",
-        "answer": "Create slack at the hip and thigh while keeping the head and captured arm aligned.",
-        "answer_line": "Open the high enclosure",
+        "question": "Arm Extraction and Pass (top): How should your head and captured arm move as slack appears?",
+        "answer": "Create slack at the hip and thigh with the head and captured arm aligned, then use the opening rather than wrenching a trapped limb.",
+        "answer_line": "Stay aligned while opening space at hip and thigh",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Turn the head away while the elbow stays fixed",
+            "Pull the wrist out while the shoulder stays pinned"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Raise the chest before the shoulder can follow"
           ]
         }
       },
       {
-        "question": "Arm Extraction and Pass (attacker): What matters when you recover the elbow and posture?",
-        "answer": "Withdraw the shoulder and elbow only after the high leg connection has opened.",
-        "answer_line": "Recover the elbow and posture",
+        "question": "Arm Extraction and Pass (top): What must open before your elbow is withdrawn?",
+        "answer": "Withdraw the shoulder and elbow after the high leg connection opens around them, not by pulling a wrist through a fixed shoulder trap.",
+        "answer_line": "The high-leg connection around the shoulder",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "The wrist grip while the upper arm stays enclosed",
+            "The second high leg while the first still clamps"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "A gap below the knee with the shoulder still caught"
           ]
         }
       },
       {
-        "question": "Arm Extraction and Pass (attacker): What matters when you confirm the next position?",
-        "answer": "Establish side control after a completed guard pass only when the upper-body enclosure and relevant leg hooks have cleared.",
-        "answer_line": "Confirm the next position",
+        "question": "Arm Extraction and Pass (top): What establishes side control after your arm comes free?",
+        "answer": "Side control requires a completed leg clearance and stable chest contact beside the torso after the arm and high clinch are free.",
+        "answer_line": "Clear both knees; settle beside the chest",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Raise the head while remaining between both knees",
+            "Clear one knee but leave the other leg hooking"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Clear both knees but leave the chest out of contact"
           ]
         }
       },
       {
-        "question": "Arm Extraction and Pass (attacker): What configuration must exist before this sequence?",
-        "answer": "The top player faces a bottom guard player using Crackhead Control; the head, shoulder or arm may still be enclosed.",
-        "answer_line": "Check the starting configuration",
+        "question": "Arm Extraction and Pass (top): In the starting Crackhead clinch, where is the opponent?",
+        "answer": "The performer is the top player facing a bottom guard player whose two high legs restrict the upper body.",
+        "answer_line": "Facing you from below, legs behind your head",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Facing you below with the legs at waist level",
+            "Facing you below with one high shin and a low foot"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Facing you below with one shoulder in a leg triangle"
           ]
         }
       },
       {
-        "question": "Arm Extraction and Pass (attacker): What distinguishes this control from a similar-looking position?",
-        "answer": "The arm must come free before passing. The two-leg clinch does not guarantee either a shoulder lock or an immediate side-control opening.",
-        "answer_line": "Check the defining controls",
+        "question": "Arm Extraction and Pass (top): What must clear before you turn to begin the guard pass?",
+        "answer": "Recover the elbow from the high-leg connection and any overhook before organizing hip control for the separate pass.",
+        "answer_line": "Free the elbow from the high clinch and overhook",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Pin the hips while leaving the elbow enclosed",
+            "Crossface while your shoulder remains clamped"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Remove the wrist grip but leave the overhook intact"
           ]
         }
       },
       {
-        "question": "Arm Extraction and Pass (attacker): When should the partners stop or reset?",
-        "answer": "Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.",
-        "answer_line": "Release before unsafe loading",
+        "question": "Arm Extraction and Pass (top): Your shoulder is fixed as you start circling; what now?",
+        "answer": "Do not circle around a fixed shoulder. Pause the passing movement and address the remaining high-leg or arm connection.",
+        "answer_line": "Release the shoulder before circling",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Keep the elbow still and rotate the torso",
+            "Pull the hand farther behind your hip"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Shift your knees around before opening the clamp"
           ]
         }
       },
       {
-        "question": "Arm Extraction and Pass (attacker): What should a cooperative first drill establish?",
-        "answer": "Identify the starting configuration and rehearse the first connection without finishing pressure. Avoid extending an arm between the high legs where it can be isolated.",
-        "answer_line": "Rehearse the first connection",
+        "question": "Arm Extraction and Pass (top): What shows successful arm clearance in a cooperative drill?",
+        "answer": "Check that the shoulder and elbow can move together outside the upper-body trap without loading the joint before rehearsing a pass.",
+        "answer_line": "Shoulder and elbow both clear the high trap",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "The hand moves while the upper arm stays pinned",
+            "The head lifts while the elbow remains caught"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "One high leg drops while the other retains the arm"
           ]
         }
       },
       {
-        "question": "Arm Extraction and Pass (attacker): What should be checked before changing direction?",
-        "answer": "Confirm that the captured neck or limb can move freely. Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.",
-        "answer_line": "Free the captured neck or limb",
+        "question": "Arm Extraction and Pass (top): After knee clearance, which contact blocks their return at the hip?",
+        "answer": "Once the legs are cleared, a hip block and balanced chest contact help prevent the knees returning between the bodies.",
+        "answer_line": "A hip block beside stable chest contact",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Chest contact with the hip-side elbow lifted",
+            "A hip block with the chest pulled away"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "A crossface with both arms above the shoulder line"
           ]
         }
       },
       {
-        "question": "Arm Extraction and Pass (attacker): How should the next position be confirmed?",
-        "answer": "Check the actual body relationship rather than assuming the technique name guarantees a destination. The arm must come free before passing. The two-leg clinch does not guarantee either a shoulder lock or an immediate side-control opening.",
-        "answer_line": "Confirm the actual position",
+        "question": "Arm Extraction and Pass (top): How does an elbow-knee barrier show the pass is incomplete?",
+        "answer": "Even with the arm free, an inside knee connected to the defender's elbow preserves a guard barrier that must be cleared before side control.",
+        "answer_line": "The defender still has a knee between your torsos",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "The defender's knees stay outside your hip line",
+            "The defender's forearm frames with both knees cleared"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "The defender's elbow touches a knee behind your hips"
           ]
         }
       }
@@ -450,72 +450,72 @@
     ],
     "flashcards": [
       {
-        "question": "Arm Extraction and Pass (defender): What matters when you start with broken posture?",
-        "answer": "Establish the first high leg and its hand support before adding the second leg.",
-        "answer_line": "Start with broken posture",
+        "question": "Arm Extraction and Pass (bottom): What supports the clinch before adding your second leg?",
+        "answer": "Build the first high-leg and hand connection before adding the second leg behind the opponent's head.",
+        "answer_line": "The first high shin joined to its supporting hand",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "The first high shin with its hand already released",
+            "The second high leg before the first shin is secured"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "A low ankle crossing beneath the shoulder line"
           ]
         }
       },
       {
-        "question": "Arm Extraction and Pass (defender): What matters when you bring the second leg high?",
-        "answer": "Reinforce the clinch without forcing the knees beyond a comfortable hip angle.",
-        "answer_line": "Bring the second leg high",
+        "question": "Arm Extraction and Pass (bottom): How can the second high leg reinforce the clinch?",
+        "answer": "The reinforcing leg should follow a comfortable hip angle; do not force the foot against a fixed knee to retain the top player.",
+        "answer_line": "Lift it within a hip angle that supports the knee",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Hold the knee still and haul the foot inward",
+            "Let the knee fall away as the foot climbs"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Lift the foot higher while keeping the hips flat"
           ]
         }
       },
       {
-        "question": "Arm Extraction and Pass (defender): What matters when you track both elbows?",
-        "answer": "Do not assume that high legs alone have isolated an arm or completed Dead Orchard.",
-        "answer_line": "Track both elbows",
+        "question": "Arm Extraction and Pass (bottom): What must you check before treating the clinch as Dead Orchard?",
+        "answer": "Track both opposing elbows and the actual leg closure. Crackhead's reinforced clinch does not automatically become Dead Orchard.",
+        "answer_line": "Both arms are enclosed by a high leg figure-four",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Only that both feet are above the shoulders",
+            "Only that one hand has reached the mat"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Only that the opponent cannot raise the chin"
           ]
         }
       },
       {
-        "question": "Arm Extraction and Pass (defender): What matters when you keep knees close?",
-        "answer": "Use hip position and connected leg pressure rather than pulling the feet against fixed knees.",
-        "answer_line": "Keep knees close",
+        "question": "Arm Extraction and Pass (bottom): How do you retain space when the passer frees the arm?",
+        "answer": "As the clinch opens, frame the shoulder, make a short hip escape and reconnect elbow and knee before the passer fills the gap.",
+        "answer_line": "Frame the shoulder and reconnect elbow to knee",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Chase the freed wrist with both arms extended",
+            "Keep both knees outside the passing torso"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Frame the shoulder but leave the hip-side knee behind"
           ]
         }
       },
       {
-        "question": "Arm Extraction and Pass (defender): What matters when you return to one-leg control?",
-        "answer": "Lower the reinforcing leg while preserving the first shin connection if you need Mission Control again.",
-        "answer_line": "Return to one-leg control",
+        "question": "Arm Extraction and Pass (bottom): How do you return to Mission Control during the extraction?",
+        "answer": "Return to one-leg control by lowering the reinforcing leg while keeping the original high shin and hand connected.",
+        "answer_line": "Lower the second leg while retaining the first shin grip",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Drop both high legs before finding hand support",
+            "Keep the second leg high and release the first shin"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Lower the second leg while opening the first knee hug"
           ]
         }
       }

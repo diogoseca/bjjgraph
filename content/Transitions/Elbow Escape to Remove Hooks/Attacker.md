@@ -68,50 +68,50 @@ description: "Elbow Escape to Remove Hooks (attacker): The bottom player faces t
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Elbow Escape to Remove Hooks (attacker): What matters when you recognize the actual control?",
+      "name": "Invisible Collar elbow reset (bottom): Which barrier replaces the opened high clinch?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The bottom player faces the kneeling or leaning top player in a high guard. One arm has been isolated through the New York and neck-clearing sequence."
+        "text": "After opening Invisible Collar, restore inside forearms and knees to protect the space the high legs previously controlled."
       }
     },
     {
       "@type": "Question",
-      "name": "Elbow Escape to Remove Hooks (attacker): What matters when you remove submission pressure?",
+      "name": "Invisible Collar elbow reset (bottom): What must release before you lower the high legs?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Release any wrist, neck or elbow loading before opening the high-leg enclosure."
+        "text": "Unload the neck and isolated arm before changing the high-leg geometry; lowering the legs must not drag a fixed shoulder."
       }
     },
     {
       "@type": "Question",
-      "name": "Elbow Escape to Remove Hooks (attacker): What matters when you open the high connection?",
+      "name": "Invisible Collar elbow reset (bottom): How should the raised knee come down?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Lower the controlling leg through a comfortable hip angle rather than pulling the foot against the knee."
+        "text": "Use hip movement to lower the high leg through free space while keeping the knee comfortable."
       }
     },
     {
       "@type": "Question",
-      "name": "Elbow Escape to Remove Hooks (attacker): What matters when you restore inside frames?",
+      "name": "Invisible Collar elbow reset (bottom): Where does the near knee return during recovery?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Bring the forearms and knees between the bodies as space becomes available."
+        "text": "A returning knee closes the torso gap alongside the forearm, helping prevent chest-to-chest access."
       }
     },
     {
       "@type": "Question",
-      "name": "Elbow Escape to Remove Hooks (attacker): What matters when you face the opponent?",
+      "name": "Invisible Collar elbow reset (bottom): How should the torso face during this reset?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Keep the shoulders and hips oriented toward the opponent while re-establishing a comfortable facing guard."
+        "text": "Maintain a facing guard as the high legs lower; turning away exposes space instead of rebuilding the inside barrier."
       }
     },
     {
       "@type": "Question",
-      "name": "Elbow Escape to Remove Hooks (attacker): What matters when you stabilize before moving again?",
+      "name": "Invisible Collar elbow reset (bottom): What makes another high-guard entry available?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Check posture, knee comfort and inside space before resuming a sweep or submission attack."
+        "text": "Re-establish posture control and comfortable inside knee space before lifting the leg for another rubber-guard attempt."
       }
     }
   ]

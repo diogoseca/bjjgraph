@@ -58,42 +58,42 @@ description: "Cross Collar Choke from Invisible Collar (defender): Fight collar 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Cross Collar Choke from Invisible Collar (defender): What matters when you stop the first deep grip?",
+      "name": "Cross-collar defense: how many grips are complete when you first contest the entering hand?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Fight collar access while the attacker has only a shallow connection."
+        "text": "Neither grip is complete; contest the first entering hand. Stop it gaining depth before the second hand crosses. Early hand fighting is preferable to treating two secured collar grips as the starting point."
       }
     },
     {
       "@type": "Question",
-      "name": "Cross Collar Choke from Invisible Collar (defender): What matters when you deny the second hand?",
+      "name": "Cross-collar defense: what can an inside frame deny before the choke is complete?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Keep an inside frame before the hands cross into a complete choke."
+        "text": "The second hand crossing to the opposite collar. Keep an inside frame before the hands cross into a complete choke."
       }
     },
     {
       "@type": "Question",
-      "name": "Cross Collar Choke from Invisible Collar (defender): What matters when you maintain posture early?",
+      "name": "Cross-collar defense: before any cloth grip is caught, what distance can posture preserve?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Manage the distance before both collar grips are fixed; do not jerk backward against a loaded choke."
+        "text": "Distance between your neck and the reaching hands. Use posture and distance while the jacket connections are still available to deny. Once the neck is secured, do not try to force posture against a loaded choke."
       }
     },
     {
       "@type": "Question",
-      "name": "Cross Collar Choke from Invisible Collar (defender): What matters when you address cloth tension?",
+      "name": "Cross-collar defense: what must you create in the cloth enclosure before a larger body escape?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Work on a grip and neck space while the enclosure remains loose."
+        "text": "Slack between the collar restraint and your neck. Address the grips while space remains so body movement is not made against a fixed neck restraint. A secured choke calls for an early tap."
       }
     },
     {
       "@type": "Question",
-      "name": "Cross Collar Choke from Invisible Collar (defender): What matters when you tap before symptoms?",
+      "name": "Cross-collar defense: why is tucking the chin not a guarantee against the secured choke?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Do not assume chin position prevents the collar from compressing the neck."
+        "text": "Tight cloth can still compress the neck. Do not assume chin position prevents the collar from compressing the neck."
       }
     }
   ]

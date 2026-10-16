@@ -236,144 +236,144 @@
     ],
     "flashcards": [
       {
-        "question": "Anaconda Choke from Dead Orchard (attacker): What matters when you establish front headlock?",
-        "answer": "Contain the opponent's head and one arm while keeping a balanced base.",
-        "answer_line": "Establish front headlock",
+        "question": "Anaconda after Dead Orchard: how many opposing arms belong inside the new neck enclosure?",
+        "answer": "Exactly one opposing arm inside the loop. The Anaconda encloses the neck and a single shoulder. Dead Orchard instead captures both arms with a high leg triangle, so the new arm loop must be established separately.",
+        "answer_line": "Exactly one opposing arm inside the loop",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Both opposing arms inside the same arm loop",
+            "Neither opposing arm inside the loop"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Any number if the head is pulled hard enough"
           ]
         }
       },
       {
-        "question": "Anaconda Choke from Dead Orchard (attacker): What matters when you thread under the neck?",
-        "answer": "Pass the choking arm beneath the neck and toward the far armpit, enclosing one shoulder.",
-        "answer_line": "Thread under the neck",
+        "question": "Anaconda attack: which route should the choking arm follow?",
+        "answer": "Under the neck toward the far armpit. Pass the choking arm beneath the neck and toward the far armpit, enclosing one shoulder.",
+        "answer_line": "Under the neck toward the far armpit",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Under the armpit toward the far side of the neck",
+            "Around the waist beneath both elbows"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Across the face without including a shoulder"
           ]
         }
       },
       {
-        "question": "Anaconda Choke from Dead Orchard (attacker): What matters when you connect the arm loop?",
-        "answer": "Join to the supporting arm without pulling the neck into a twist.",
-        "answer_line": "Connect the arm loop",
+        "question": "Anaconda attack: what should connecting your supporting arm accomplish?",
+        "answer": "Close the head-and-arm loop without twisting the neck. Join to the supporting arm without pulling the neck into a twist.",
+        "answer_line": "Close the head-and-arm loop without twisting the neck",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Pull the chin sideways while leaving the arm outside",
+            "Straighten the opponent's elbow behind their back"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Lift their face while leaving space beside the shoulder"
           ]
         }
       },
       {
-        "question": "Anaconda Choke from Dead Orchard (attacker): What matters when you choose a controlled angle?",
-        "answer": "Use the taught shoulder-led angle only when both partners can roll safely; do not dive onto the neck.",
-        "answer_line": "Choose a controlled angle",
+        "question": "Anaconda attack: which part of your body leads the rehearsed rolling entry onto the mat?",
+        "answer": "Your own shoulder, with space for your body to follow. Use a practiced shoulder-led path rather than posting the head. Rehearse with an unloaded enclosure and room for both partners to move.",
+        "answer_line": "Your own shoulder, with space for your body to follow",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "The crown of the head as a fixed pivot",
+            "The trapped wrist pulled ahead of the body"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "The neck planted beneath the rotating torso"
           ]
         }
       },
       {
-        "question": "Anaconda Choke from Dead Orchard (attacker): What matters when you close the shoulder gap?",
-        "answer": "Bring the trapped shoulder toward the neck with gradual whole-body connection rather than a violent head pull.",
-        "answer_line": "Close the shoulder gap",
+        "question": "Anaconda attack: which part of the opponent is brought beside their neck to close the remaining gap?",
+        "answer": "The opponent's trapped shoulder. Bring the trapped shoulder toward the neck with gradual whole-body connection rather than a violent head pull.",
+        "answer_line": "The opponent's trapped shoulder",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Their trapped wrist",
+            "Their far forearm"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Their chin pulled sideways"
           ]
         }
       },
       {
-        "question": "Anaconda Choke from Dead Orchard (attacker): What matters when you release the loop?",
-        "answer": "Open both arms immediately on a tap or any loss of normal responsiveness.",
-        "answer_line": "Release the loop",
+        "question": "Anaconda attack: how do you release a tapped partner from the enclosure?",
+        "answer": "Open both arms and remove the neck pressure. Open both arms immediately on a tap or any loss of normal responsiveness.",
+        "answer_line": "Open both arms and remove the neck pressure",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Loosen one hand while keeping the shoulder squeezed",
+            "Stop rolling but retain the connected arm loop"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Pull the head out while the supporting grip stays closed"
           ]
         },
         "safety_critical": true
       },
       {
-        "question": "Anaconda Choke from Dead Orchard (attacker): What configuration must exist before this sequence?",
-        "answer": "The attacker controls the head and one arm from in front of the opponent, with room to establish the arm enclosure and a safe rolling angle.",
-        "answer_line": "Check the starting configuration",
+        "question": "Anaconda after Dead Orchard: where must your torso be for the new headlock?",
+        "answer": "In front of the opponent's shoulder line. Establish front-headlock access separately after releasing Dead Orchard; the original bottom leg triangle is not this body position.",
+        "answer_line": "In front of the opponent's shoulder line",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Underneath them with both arms still in your leg triangle",
+            "Behind their hips with both feet hooked inside"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Across their legs while holding the nearest ankle"
           ]
         }
       },
       {
-        "question": "Anaconda Choke from Dead Orchard (attacker): Check the defining controls?",
-        "answer": "Dead Orchard is a bottom-player high leg triangle containing both arms. Its leg enclosure does not supply an Anaconda grip; a separate front-headlock exchange must occur first.",
-        "answer_line": "Check the defining controls",
+        "question": "Anaconda after Dead Orchard: why is squeezing the existing high leg triangle insufficient?",
+        "answer": "That leg trap does not provide the required arm enclosure. Dead Orchard is a bottom-player high leg triangle containing both arms. Its leg enclosure does not supply an Anaconda grip; a separate front-headlock exchange must occur first.",
+        "answer_line": "That leg trap does not provide the required arm enclosure",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Any high guard automatically includes an Anaconda grip",
+            "The submission is defined by squeezing both calves"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "A collar grip is the only missing requirement"
           ]
         }
       },
       {
-        "question": "Anaconda Choke from Dead Orchard (attacker): When should the partners stop or reset?",
-        "answer": "Introduce the arm loop without pressure and rehearse any roll cooperatively. Never drive onto the cervical spine or continue squeezing after a tap.",
-        "answer_line": "Release before unsafe loading",
+        "question": "Anaconda practice: how much finishing pressure belongs in the first cooperative rolling repetitions?",
+        "answer": "None; establish the path with an unloaded enclosure. Begin with cooperative movement and no choke load. The first drill checks the route and space, and both partners can stop and release at any point.",
+        "answer_line": "None; establish the path with an unloaded enclosure",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Enough to make the partner resist the neck pressure",
+            "A tightening squeeze through the first half of the roll"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Full pressure until the partner finds the landing"
           ]
         },
         "safety_critical": true
       },
       {
-        "question": "Anaconda Choke from Dead Orchard (attacker): What should a cooperative first drill establish?",
-        "answer": "Identify the starting configuration and rehearse the first connection without finishing pressure. Contain the opponent's head and one arm while keeping a balanced base.",
-        "answer_line": "Rehearse the first connection",
+        "question": "Anaconda practice: where does Kesting place the holder's head during the controlled roll?",
+        "answer": "Beside the opponent's torso, off their back. Kesting identifies a head position to the side of the opponent's body during the roll. Practice the angle cooperatively with an unloaded enclosure and room for both partners to move.",
+        "answer_line": "Beside the opponent's torso, off their back",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "On top of the opponent's spine",
+            "Planted on the crown as the rolling pivot"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Across the throat to force the head around"
           ]
         }
       }
@@ -484,72 +484,72 @@
     ],
     "flashcards": [
       {
-        "question": "Anaconda Choke from Dead Orchard (defender): What matters when you recognize the thread?",
-        "answer": "An arm passing beneath the neck toward the armpit signals the Anaconda enclosure.",
-        "answer_line": "Recognize the thread",
+        "question": "Anaconda defense: which arm path identifies the approaching enclosure?",
+        "answer": "Beneath your neck toward your armpit. An arm passing beneath the neck toward the armpit signals the Anaconda enclosure.",
+        "answer_line": "Beneath your neck toward your armpit",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Beneath your thigh toward your far hip",
+            "Around your waist below both elbows"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Behind your back toward the opposite wrist"
           ]
         }
       },
       {
-        "question": "Anaconda Choke from Dead Orchard (defender): What matters when you keep an early frame?",
-        "answer": "Preserve space between the shoulder and neck before the attacker closes the arm loop.",
-        "answer_line": "Keep an early frame",
+        "question": "Anaconda defense: where should an early frame preserve space?",
+        "answer": "Between your trapped shoulder and neck. Preserve space between the shoulder and neck before the attacker closes the arm loop.",
+        "answer_line": "Between your trapped shoulder and neck",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Only between your knees and their hips",
+            "Behind your own lower back"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Across the opponent's ankle beneath the roll"
           ]
         }
       },
       {
-        "question": "Anaconda Choke from Dead Orchard (defender): What matters when you protect head alignment?",
-        "answer": "Do not fight a secured loop by twisting the neck or planting the head against a roll.",
-        "answer_line": "Protect head alignment",
+        "question": "Anaconda defense: what becomes a load-bearing brace if you plant your head during their roll?",
+        "answer": "The neck beneath the turning body. A planted head can leave the neck carrying force as the torso rotates. Do not use it to resist a secured head-and-arm enclosure.",
+        "answer_line": "The neck beneath the turning body",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "The shoulder with the head freely following",
+            "The forearm supporting the opponent's hips"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "The hip line while the head remains unloaded"
           ]
         }
       },
       {
-        "question": "Anaconda Choke from Dead Orchard (defender): What matters when you address the grip?",
-        "answer": "Hand fight before the enclosure becomes tight, while keeping the trapped elbow connected to the torso.",
-        "answer_line": "Address the grip",
+        "question": "Anaconda defense: how should you hand fight before the loop tightens?",
+        "answer": "Address the grip with your trapped elbow near your torso. Hand fight before the enclosure becomes tight, while keeping the trapped elbow connected to the torso.",
+        "answer_line": "Address the grip with your trapped elbow near your torso",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Extend the trapped arm far away to pull their wrist",
+            "Turn the head first while leaving both hands on the mat"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Post the captured hand behind your own shoulder"
           ]
         }
       },
       {
-        "question": "Anaconda Choke from Dead Orchard (defender): What matters when you tap before symptoms?",
-        "answer": "Stop if the neck enclosure is secure rather than relying on a last-second roll.",
-        "answer_line": "Tap before symptoms",
+        "question": "Anaconda defense: why is a last-second roll not a reliable response to a secured choke?",
+        "answer": "The head-and-arm loop may stay closed through the roll. Stop if the neck enclosure is secure rather than relying on a last-second roll.",
+        "answer_line": "The head-and-arm loop may stay closed through the roll",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Rolling always separates the hands before pressure develops",
+            "Their shoulder control requires you to remain perfectly still"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "A neck loop cannot remain tight once your hips turn"
           ]
         }
       }

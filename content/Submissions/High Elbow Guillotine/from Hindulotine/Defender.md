@@ -58,34 +58,34 @@ description: "High Elbow Guillotine from Hindulotine (defender): A support elbow
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "High Elbow Guillotine from Hindulotine (defender): What matters when you recognize the raised elbow?",
+      "name": "High-elbow guillotine defense: what movement identifies the variation as the hands connect?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "A support elbow traveling above the shoulder signals the high-elbow variation."
+        "text": "The support elbow rises above your shoulder. A support elbow traveling above the shoulder signals the high-elbow variation."
       }
     },
     {
       "@type": "Question",
-      "name": "High Elbow Guillotine from Hindulotine (defender): What matters when you deny the hand connection?",
+      "name": "High-elbow guillotine defense: what should your early hand fight interrupt?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Hand fight before the support hand locks into place."
+        "text": "The support hand locking onto the neck-wrapping arm. Hand fight before the support hand locks into place."
       }
     },
     {
       "@type": "Question",
-      "name": "High Elbow Guillotine from Hindulotine (defender): What matters when you maintain neck alignment?",
+      "name": "High-elbow guillotine defense: why should you not force the head backward inside the closed loop?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Do not force the head backward against the closed arm loop."
+        "text": "The arm restraint can turn that movement into neck extension. Do not force the head backward against the closed arm loop."
       }
     },
     {
       "@type": "Question",
-      "name": "High Elbow Guillotine from Hindulotine (defender): Address the enclosure early?",
+      "name": "High-elbow guillotine defense: when is an inside shoulder frame most useful?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Use inside frames before the raised elbow blocks the shoulder space."
+        "text": "Before the raised elbow closes off the shoulder space. Use inside frames before the raised elbow blocks the shoulder space."
       }
     }
   ]

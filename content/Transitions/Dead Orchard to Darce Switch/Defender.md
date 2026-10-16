@@ -56,42 +56,42 @@ description: "Dead Orchard to Darce Switch (defender): An arm passing beneath th
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Dead Orchard to Darce Switch (defender): What matters when you recognize the thread?",
+      "name": "Dead Orchard to Darce (defender): Which incoming arm path signals the new Darce threat?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "An arm passing beneath the neck toward the armpit signals the Anaconda enclosure."
+        "text": "Recognize the armpit-to-neck Darce thread. The old card's Anaconda description does not identify the intended new choke."
       }
     },
     {
       "@type": "Question",
-      "name": "Dead Orchard to Darce Switch (defender): What matters when you keep an early frame?",
+      "name": "Dead Orchard to Darce (defender): What space matters before the new arm loop closes?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Preserve space between the shoulder and neck before the attacker closes the arm loop."
+        "text": "Preserve shoulder-to-neck space early before the Darce arm loop brings them together."
       }
     },
     {
       "@type": "Question",
-      "name": "Dead Orchard to Darce Switch (defender): What matters when you protect head alignment?",
+      "name": "Dead Orchard to Darce (defender): How should your head stay during early grip defense?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Do not fight a secured loop by twisting the neck or planting the head against a roll."
+        "text": "Maintain head alignment; do not resist a secured loop by twisting or planting the head."
       }
     },
     {
       "@type": "Question",
-      "name": "Dead Orchard to Darce Switch (defender): What matters when you address the grip?",
+      "name": "Dead Orchard to Darce (defender): When does hand fighting have its best preventive window?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Hand fight before the enclosure becomes tight, while keeping the trapped elbow connected to the torso."
+        "text": "Address the approaching grip before the neck loop tightens, keeping the trapped arm compact."
       }
     },
     {
       "@type": "Question",
-      "name": "Dead Orchard to Darce Switch (defender): What matters when you tap before symptoms?",
+      "name": "Dead Orchard to Darce (defender): The neck loop is secured; what response precedes recovery?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Stop if the neck enclosure is secure rather than relying on a last-second roll."
+        "text": "Once the choke is secure, tap. Guard recovery belongs after the head and arm are released."
       }
     }
   ]

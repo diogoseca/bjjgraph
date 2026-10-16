@@ -70,50 +70,50 @@ description: "Kneebar from Carni (attacker): Confirm control of the opponent's t
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Kneebar from Carni (attacker): What matters when you capture the leg separately?",
+      "name": "Kneebar after Carni: which new controls must you establish before attacking knee extension?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Confirm control of the opponent's thigh and ankle before considering a knee-extension attack."
+        "text": "The opponent's thigh and ankle. Confirm control of the opponent's thigh and ankle before considering a knee-extension attack."
       }
     },
     {
       "@type": "Question",
-      "name": "Kneebar from Carni (attacker): What matters when you manage the hip?",
+      "name": "Kneebar attack: what should your legs prevent the opponent's hip from doing?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Use the legs to keep the opponent's hip from moving freely away."
+        "text": "Moving freely away from the isolated leg. Use the legs to keep the opponent's hip from moving freely away."
       }
     },
     {
       "@type": "Question",
-      "name": "Kneebar from Carni (attacker): What matters when you align the knee?",
+      "name": "Kneebar attack: how should the target knee meet your hips?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Place the knee at the hip fulcrum with the leg in a straight, non-twisted line."
+        "text": "At the hip fulcrum in a straight, untwisted line. Place the knee at the hip fulcrum with the leg in a straight, non-twisted line."
       }
     },
     {
       "@type": "Question",
-      "name": "Kneebar from Carni (attacker): What matters when you secure the ankle?",
+      "name": "Kneebar attack: what should the ankle grip preserve?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Hold the lower leg close without turning the foot into a rotational lock."
+        "text": "A close lower leg without turning the foot. Hold the lower leg close without turning the foot into a rotational lock."
       }
     },
     {
       "@type": "Question",
-      "name": "Kneebar from Carni (attacker): What matters when you stop before extension?",
+      "name": "Kneebar practice: what should a stable capture drill leave out?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Practice the stable capture without bridging into the knee's end range."
+        "text": "Bridging into the knee's extension limit. Practice the stable capture without bridging into the knee's end range."
       }
     },
     {
       "@type": "Question",
-      "name": "Kneebar from Carni (attacker): What matters when you open the entire hold?",
+      "name": "Kneebar attack: when should release begin after the partner taps?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Release ankle and thigh control immediately on a tap before either partner turns."
+        "text": "Immediately, before more extension or either partner turns. Open ankle and thigh control promptly so the leg can move as a whole. Retaining either end while the bodies turn can still load the knee."
       }
     }
   ]

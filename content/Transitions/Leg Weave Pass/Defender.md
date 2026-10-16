@@ -56,7 +56,7 @@ description: "Leg Weave Pass (defender): The passer's arm connecting your legs i
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Leg Weave Pass (defender): What matters when you recognize the arm weave?",
+      "name": "Leg Weave Pass (bottom): What is the control you must recognize between your legs?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The passer's arm connecting your legs is the relevant control, not a leg threaded across your hip."
@@ -64,7 +64,7 @@ description: "Leg Weave Pass (defender): The passer's arm connecting your legs i
     },
     {
       "@type": "Question",
-      "name": "Leg Weave Pass (defender): What matters when you keep the shield supported?",
+      "name": "Leg Weave Pass (bottom): What helps the knee shield resist folding?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Maintain a useful knee angle and upper-body frame before the passer folds the legs together."
@@ -72,7 +72,7 @@ description: "Leg Weave Pass (defender): The passer's arm connecting your legs i
     },
     {
       "@type": "Question",
-      "name": "Leg Weave Pass (defender): What matters when you recover inside space?",
+      "name": "Leg Weave Pass (bottom): When the connection is still loose, how do you recover guard space?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Move the hips and pummel the knee back between the bodies while the weave is still loose."
@@ -80,7 +80,7 @@ description: "Leg Weave Pass (defender): The passer's arm connecting your legs i
     },
     {
       "@type": "Question",
-      "name": "Leg Weave Pass (defender): What matters when you deny upper-body collapse?",
+      "name": "Leg Weave Pass (bottom): What upper-body change makes the leg control harder to escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Prevent the passer from flattening your shoulders while controlling the legs."
@@ -88,10 +88,10 @@ description: "Leg Weave Pass (defender): The passer's arm connecting your legs i
     },
     {
       "@type": "Question",
-      "name": "Leg Weave Pass (defender): What matters when you use an available underhook?",
+      "name": "Leg Weave Pass (bottom): If an underhook opens a sit-up, what must stay connected?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "An underhook can help you face the passer and rebuild half guard when the shoulder line is not already pinned."
+        "text": "Use the available underhook while the shoulder is free, keeping a stable facing base against an overhook response."
       }
     }
   ]

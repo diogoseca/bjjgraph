@@ -70,50 +70,50 @@ description: "Suloev Stretch from Half Guard (attacker): Control the torso from 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Suloev Stretch from Half Guard (attacker): What matters when you establish rear attachment?",
+      "name": "Suloev Stretch after Half Guard: what must you control before reaching below the opponent's hips?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Control the torso from behind before reaching below the hips."
+        "text": "Their torso from behind. Control the torso from behind before reaching below the hips."
       }
     },
     {
       "@type": "Question",
-      "name": "Suloev Stretch from Half Guard (attacker): What matters when you recognize the tripod?",
+      "name": "Suloev Stretch attack: what opportunity does the opponent's tripod create?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Work only when the opponent's raised hips expose an ankle without sacrificing your balance."
+        "text": "Raised hips expose an ankle to your rear reach. Work only when the opponent's raised hips expose an ankle without sacrificing your balance."
       }
     },
     {
       "@type": "Question",
-      "name": "Suloev Stretch from Half Guard (attacker): What matters when you capture the ankle?",
+      "name": "Suloev Stretch attack: which hand reaches for the available ankle in the reviewed finish?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Reach down with the opposite hand and secure the lower leg while maintaining rear torso control."
+        "text": "The hand opposite the captured leg. Reach down with the opposite hand and secure the lower leg while maintaining rear torso control."
       }
     },
     {
       "@type": "Question",
-      "name": "Suloev Stretch from Half Guard (attacker): What matters when you keep the leg aligned?",
+      "name": "Suloev Stretch attack: what line should the captured leg follow?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Arrange the leg so it extends in its natural line rather than rotating sideways at the knee."
+        "text": "Its natural extension line without sideways knee rotation. Arrange the leg so it extends in its natural line rather than rotating sideways at the knee."
       }
     },
     {
       "@type": "Question",
-      "name": "Suloev Stretch from Half Guard (attacker): What matters when you limit the extension?",
+      "name": "Suloev Stretch practice: how far toward the leg's extension limit should a control-only drill go?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "In practice, identify the stretch geometry without dropping body weight or driving the leg to end range."
+        "text": "Stop short of end range after the aligned capture. Identify the aligned stretch configuration without testing the partner's available range or adding a weight drop. Rehearse prompt release and a supported reset."
       }
     },
     {
       "@type": "Question",
-      "name": "Suloev Stretch from Half Guard (attacker): What matters when you release and support the landing?",
+      "name": "Suloev Stretch attack: when must you remove the ankle restraint after a tap?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Let the ankle go immediately on a tap and help the partner return to a stable base."
+        "text": "At once, before adding extension or changing direction. Let the ankle go immediately, then help the partner regain a supported base. Do not retain the capture while turning or extending farther."
       }
     }
   ]

@@ -56,42 +56,42 @@ description: "Kneebar Finish (defender): A knee trapped at the attacker's hips w
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Kneebar Finish (defender): What matters when you recognize the straight-leg line?",
+      "name": "Kneebar Finish (defender): Which alignment warns of the straight-leg attack?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "A knee trapped at the attacker's hips with the ankle held indicates the extension threat."
+        "text": "Recognize the knee at the attacker's hip fulcrum with the ankle controlled as an extension threat."
       }
     },
     {
       "@type": "Question",
-      "name": "Kneebar Finish (defender): What matters when you deny ankle control early?",
+      "name": "Kneebar Finish (defender): What do you deny before the lower-leg capture closes?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Hand fight and keep the lower leg free before the attacker completes the capture."
+        "text": "Hand fight early to keep the lower leg free before the attacker completes hip, knee and ankle control."
       }
     },
     {
       "@type": "Question",
-      "name": "Kneebar Finish (defender): What matters when you recover the knee line early?",
+      "name": "Kneebar Finish (defender): While the leg is still free, what removes the knee's fulcrum contact?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Move the knee away from the fulcrum only while the leg can still move freely."
+        "text": "Recover the knee line early while it can move freely; a secured extension lock calls for release rather than a forced escape."
       }
     },
     {
       "@type": "Question",
-      "name": "Kneebar Finish (defender): What matters when you keep the foot aligned?",
+      "name": "Kneebar Finish (defender): Why avoid turning with your ankle and thigh fixed?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Avoid a twisting escape against a held ankle and trapped thigh."
+        "text": "Do not twist against a held ankle and trapped thigh; obtain release before changing direction."
       }
     },
     {
       "@type": "Question",
-      "name": "Kneebar Finish (defender): What matters when you tap at controlled extension?",
+      "name": "Kneebar Finish (defender): The knee is securely captured for extension; when should you tap?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Do not wait for severe pain or test how far the knee can bend backward."
+        "text": "Tap to the controlled extension threat instead of testing the knee's backward range or waiting for severe pain."
       }
     }
   ]

@@ -58,42 +58,42 @@ description: "Heel Hook from Carni (defender): An exposed heel captured while th
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Heel Hook from Carni (defender): What matters when you recognize the heel catch?",
+      "name": "Heel-hook defense: which combination is a serious warning even before pain?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "An exposed heel captured while the knee is contained is a joint-lock threat even without pain."
+        "text": "Your heel caught while the knee line is contained. An exposed heel captured while the knee is contained is a joint-lock threat even without pain."
       }
     },
     {
       "@type": "Question",
-      "name": "Heel Hook from Carni (defender): What matters when you deny exposure early?",
+      "name": "Heel-hook defense: while the grip is still open, what should you contest?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Manage foot position and hand fight while the attacker still lacks a closed grip."
+        "text": "Foot exposure and the hands collecting the heel. Manage foot position and hand fight while the attacker still lacks a closed grip."
       }
     },
     {
       "@type": "Question",
-      "name": "Heel Hook from Carni (defender): What matters when you recover the knee line early?",
+      "name": "Heel-hook defense: when is early knee-line withdrawal available?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Withdraw the leg only while the foot is not fixed and there is space in the entanglement."
+        "text": "When the foot is unfixed and the entanglement has space. Withdraw the leg only while the foot is not fixed and there is space in the entanglement."
       }
     },
     {
       "@type": "Question",
-      "name": "Heel Hook from Carni (defender): What matters when you avoid blind rotation?",
+      "name": "Heel-hook defense: why is guessing an escape direction by spinning dangerous?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Never spin the torso against a held heel in an attempt to guess an escape direction."
+        "text": "The held heel can make the knee absorb your body's turn. Never spin the torso against a held heel in an attempt to guess an escape direction."
       }
     },
     {
       "@type": "Question",
-      "name": "Heel Hook from Carni (defender): What matters when you tap before pain?",
+      "name": "Heel-hook defense: what warning should you not wait for once the rotational capture is secure?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Stop at a secured rotational capture rather than testing the joint's remaining range."
+        "text": "Pain or a test of the joint's remaining range. Tap early to a secured rotational capture instead of testing how far it can move. Absence of pain is not evidence of a safe escape direction."
       }
     }
   ]

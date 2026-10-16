@@ -68,50 +68,50 @@ description: "Escape Dead Orchard Control (attacker): The bottom player faces th
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Escape Dead Orchard Control (attacker): What matters when you recognize the actual control?",
+      "name": "Escape Dead Orchard Control (bottom): What are you releasing at the start?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The bottom player faces the opponent and keeps the hips close beneath the shoulders. The legs form a high figure-four around the shoulder line, with both opposing arms inside."
+        "text": "The bottom performer holds Dead Orchard and is resetting the both-arm leg triangle."
       }
     },
     {
       "@type": "Question",
-      "name": "Escape Dead Orchard Control (attacker): What matters when you remove submission pressure?",
+      "name": "Escape Dead Orchard Control (bottom): What should end before opening the legs?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Release any wrist, neck or elbow loading before opening the high-leg enclosure."
+        "text": "Remove wrist and elbow loading before opening the high enclosure and allowing the arms to move."
       }
     },
     {
       "@type": "Question",
-      "name": "Escape Dead Orchard Control (attacker): What matters when you open the high connection?",
+      "name": "Escape Dead Orchard Control (bottom): How should the high leg return lower?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Lower the controlling leg through a comfortable hip angle rather than pulling the foot against the knee."
+        "text": "Open the figure-four and lower the leg through the hip instead of wrenching the foot."
       }
     },
     {
       "@type": "Question",
-      "name": "Escape Dead Orchard Control (attacker): What matters when you restore inside frames?",
+      "name": "Escape Dead Orchard Control (bottom): What replaces the high leg barrier as space opens?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Bring the forearms and knees between the bodies as space becomes available."
+        "text": "Restore inside forearms and knees during the released guard-recovery phase."
       }
     },
     {
       "@type": "Question",
-      "name": "Escape Dead Orchard Control (attacker): What matters when you face the opponent?",
+      "name": "Escape Dead Orchard Control (bottom): Where should your shoulders and hips remain directed?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Keep the shoulders and hips oriented toward the opponent while re-establishing a comfortable facing guard."
+        "text": "Keep facing the opponent while rebuilding guard; turning away is not the stated reset."
       }
     },
     {
       "@type": "Question",
-      "name": "Escape Dead Orchard Control (attacker): What matters when you stabilize before moving again?",
+      "name": "Escape Dead Orchard Control (bottom): What permits a new attack after the reset?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Check posture, knee comfort and inside space before resuming a sweep or submission attack."
+        "text": "Re-establish usable inside knee space and comfortable posture before starting another attack."
       }
     }
   ]

@@ -236,144 +236,144 @@
     ],
     "flashcards": [
       {
-        "question": "Arm Triangle from Hindulotine (attacker): What matters when you obtain head-and-arm access?",
-        "answer": "Establish a stable pin or equivalent control with one opposing arm across the neck.",
-        "answer_line": "Obtain head-and-arm access",
+        "question": "Arm Triangle after Hindu Control: which direction should the opponent's trapped arm cross?",
+        "answer": "Across the front of their neck. Establish a stable pin or equivalent control with one opposing arm crossing toward the other side. Their shoulder and your upper arm must then enclose the neck without twisting it.",
+        "answer_line": "Across the front of their neck",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Your high guard leg stays between their chin and shoulder",
+            "Their two arms remain outside a head-only loop"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Their wrist is held near their hip with the head free"
           ]
         }
       },
       {
-        "question": "Arm Triangle from Hindulotine (attacker): What matters when you wrap the head?",
-        "answer": "Place the attacking upper arm beside one side of the neck without levering the head backward.",
-        "answer_line": "Wrap the head",
+        "question": "Arm Triangle attack: where does your upper arm lie relative to the trapped shoulder?",
+        "answer": "On the opposite side of the neck. The attacking upper arm and the opponent's own shoulder form the two sides of the enclosure. Preserve head alignment when placing the arm.",
+        "answer_line": "On the opposite side of the neck",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "On the same side as the trapped shoulder",
+            "Below the chest, clear of both sides of the neck"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Across the jaw to turn the head away from the shoulder"
           ]
         }
       },
       {
-        "question": "Arm Triangle from Hindulotine (attacker): What matters when you keep the shoulder enclosed?",
-        "answer": "Prevent the trapped arm from returning between the bodies while keeping the elbow comfortable.",
-        "answer_line": "Keep the shoulder enclosed",
+        "question": "Arm Triangle attack: what must you prevent the trapped arm from doing?",
+        "answer": "Returning between your two bodies. Prevent the trapped arm from returning between the bodies while keeping the elbow comfortable.",
+        "answer_line": "Returning between your two bodies",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Remaining across the opponent's neck",
+            "Keeping its elbow at a comfortable bend"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Staying enclosed beside the head"
           ]
         }
       },
       {
-        "question": "Arm Triangle from Hindulotine (attacker): What matters when you connect the support hand?",
-        "answer": "Close the arm loop without changing the neck into a twisting position.",
-        "answer_line": "Connect the support hand",
+        "question": "Arm Triangle attack: what should joining the supporting hand preserve?",
+        "answer": "A closed arm loop with the neck aligned. Close the arm loop without changing the neck into a twisting position.",
+        "answer_line": "A closed arm loop with the neck aligned",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "A sideways head twist against the shoulder",
+            "A head-only loop with the opposing arm outside"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "A long gap between the shoulder and neck"
           ]
         }
       },
       {
-        "question": "Arm Triangle from Hindulotine (attacker): What matters when you adjust the body angle?",
-        "answer": "Remove space around the shoulder through a small positional adjustment rather than a forceful squeeze.",
-        "answer_line": "Adjust the body angle",
+        "question": "Arm Triangle attack: how should you reduce space around the trapped shoulder?",
+        "answer": "Adjust your body angle in a small controlled movement. Remove space around the shoulder through a small positional adjustment rather than a forceful squeeze.",
+        "answer_line": "Adjust your body angle in a small controlled movement",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Squeeze harder while keeping the same loose angle",
+            "Pull the chin backward to replace the shoulder contact"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Straighten the trapped elbow as far as possible"
           ]
         }
       },
       {
-        "question": "Arm Triangle from Hindulotine (attacker): What matters when you release at the first signal?",
-        "answer": "Open the arm loop and take pressure off the trapped shoulder immediately.",
-        "answer_line": "Release at the first signal",
+        "question": "Arm Triangle attack: how do you remove the restraint on a tap?",
+        "answer": "Open the arm loop and unload the trapped shoulder. Open the arm loop and take pressure off the trapped shoulder immediately.",
+        "answer_line": "Open the arm loop and unload the trapped shoulder",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Loosen one finger while keeping chest pressure fixed",
+            "Stop moving but retain the closed head-and-arm grip"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Lift their head while their shoulder stays compressed"
           ]
         },
         "safety_critical": true
       },
       {
-        "question": "Arm Triangle from Hindulotine (attacker): What configuration must exist before this sequence?",
-        "answer": "The attacker has an arm around the head and the opponent's arm across the neck, commonly after establishing a top pin.",
-        "answer_line": "Check the starting configuration",
+        "question": "Arm Triangle after Hindu Control: what common upper-body position supports the new choke?",
+        "answer": "A settled top pin beside the opponent's torso. Establish the new pin and head-and-arm access separately. Hindu Control does not already supply the arm-triangle configuration.",
+        "answer_line": "A settled top pin beside the opponent's torso",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Facing high guard with only the old raised-foot loop",
+            "A rear ride with both of their arms outside"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "A loose seated leg entanglement away from the shoulders"
           ]
         }
       },
       {
-        "question": "Arm Triangle from Hindulotine (attacker): Check the defining controls?",
-        "answer": "Hindu Control supplies a leg-in guillotine enclosure. An Arm Triangle requires a newly positioned head-and-arm loop; the high rubber-guard leg is not its defining choking surface.",
-        "answer_line": "Check the defining controls",
+        "question": "Arm Triangle after Hindu Control: which old limb is not part of the new choking structure?",
+        "answer": "The raised rubber-guard leg from the original hold. The new choke uses an arm loop and the opponent's shoulder. The original high leg must be released or rearranged during the separately established position change.",
+        "answer_line": "The raised rubber-guard leg from the original hold",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "The opponent's shoulder beside the neck",
+            "The attacking upper arm forming one side"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "The supporting arm completing the head enclosure"
           ]
         }
       },
       {
-        "question": "Arm Triangle from Hindulotine (attacker): When should the partners stop or reset?",
-        "answer": "Use positional closure rather than a neck crank, practice the control without pressure, and release the shoulder and neck at any tap.",
-        "answer_line": "Release before unsafe loading",
+        "question": "Arm Triangle practice: which head movement must be avoided as the enclosure closes?",
+        "answer": "Twisting the head away from its spinal alignment. Remove space by positioning the enclosing arm and shoulder, not by cranking the neck. Keep the practice unloaded until the geometry and release are clear.",
+        "answer_line": "Twisting the head away from its spinal alignment",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Letting the head follow a small aligned torso adjustment",
+            "Keeping the face neutral as the shoulder space narrows"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Allowing the partner's head to move with the shoulders"
           ]
         },
         "safety_critical": true
       },
       {
-        "question": "Arm Triangle from Hindulotine (attacker): What should a cooperative first drill establish?",
-        "answer": "Identify the starting configuration and rehearse the first connection without finishing pressure. Establish a stable pin or equivalent control with one opposing arm across the neck.",
-        "answer_line": "Rehearse the first connection",
+        "question": "Arm Triangle practice: what supplies compression opposite your attacking upper arm?",
+        "answer": "The opponent's own shoulder beside their neck. The attacking upper arm closes one side of the neck while the opponent's own shoulder closes the other. Establish this separate arm-and-shoulder arrangement after releasing the original leg-in enclosure.",
+        "answer_line": "The opponent's own shoulder beside their neck",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Your raised shin replacing the head-and-arm connection",
+            "The opponent's jaw as a twisting lever"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Your free hand pulling the forehead backward"
           ]
         }
       }
@@ -488,72 +488,72 @@
     ],
     "flashcards": [
       {
-        "question": "Arm Triangle from Hindulotine (defender): What matters when you keep the elbow inside?",
-        "answer": "Recover the arm before it crosses the neck and becomes enclosed.",
-        "answer_line": "Keep the elbow inside",
+        "question": "Arm Triangle defense: what is the early recovery target before your arm crosses the neck?",
+        "answer": "Bring the elbow back into the space between you. Recover the arm before it crosses the neck and becomes enclosed.",
+        "answer_line": "Bring the elbow back into the space between you",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Reach the same elbow farther across your face",
+            "Post the captured hand beyond the attacker's shoulder"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Hold the elbow overhead while turning the head away"
           ]
         }
       },
       {
-        "question": "Arm Triangle from Hindulotine (defender): What matters when you preserve neck space?",
-        "answer": "Maintain an early frame between the shoulder and head while the loop is still open.",
-        "answer_line": "Preserve neck space",
+        "question": "Arm Triangle defense: where should an early frame maintain a gap?",
+        "answer": "Between your shoulder and the side of your head. Maintain an early frame between the shoulder and head while the loop is still open.",
+        "answer_line": "Between your shoulder and the side of your head",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Only beneath the attacker's far knee",
+            "Behind your own lower back"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Across the opponent's foot by your hip"
           ]
         }
       },
       {
-        "question": "Arm Triangle from Hindulotine (defender): What matters when you track the attacking arm?",
-        "answer": "An upper arm beside the neck plus your own shoulder on the other side is the key threat.",
-        "answer_line": "Track the attacking arm",
+        "question": "Arm Triangle defense: which two surfaces form the threat at your neck?",
+        "answer": "Their upper arm on one side and your shoulder on the other. An upper arm beside the neck plus your own shoulder on the other side is the key threat.",
+        "answer_line": "Their upper arm on one side and your shoulder on the other",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Both of their shins beneath your jaw",
+            "Your calf against their forearm"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Two collar grips behind the same ear"
           ]
         }
       },
       {
-        "question": "Arm Triangle from Hindulotine (defender): What matters when you prevent the final angle?",
-        "answer": "Move the hips and shoulders together while space remains; do not turn the head alone.",
-        "answer_line": "Prevent the final angle",
+        "question": "Arm Triangle defense: while space remains, how should you change the angle?",
+        "answer": "Move hips and shoulders together. Move the hips and shoulders together while space remains; do not turn the head alone.",
+        "answer_line": "Move hips and shoulders together",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Turn only the head against the fixed shoulder",
+            "Pull the neck backward while the torso stays pinned"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Straighten the trapped arm to lift the chin"
           ]
         }
       },
       {
-        "question": "Arm Triangle from Hindulotine (defender): What matters when you tap to a secured choke?",
-        "answer": "Stop before dizziness or impaired awareness instead of treating top position as a prerequisite for danger.",
-        "answer_line": "Tap to a secured choke",
+        "question": "Arm Triangle defense: what should you do once the neck enclosure is secure?",
+        "answer": "Tap before dizziness or impaired awareness. Stop before dizziness or impaired awareness instead of treating top position as a prerequisite for danger.",
+        "answer_line": "Tap before dizziness or impaired awareness",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Wait for the attacker to occupy full mount",
+            "Continue until the trapped shoulder becomes painful"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Assume it is harmless unless the attacker is standing"
           ]
         }
       }

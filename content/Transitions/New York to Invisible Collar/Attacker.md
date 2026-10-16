@@ -68,50 +68,50 @@ description: "New York to Invisible Collar (attacker): Keep the elbow separated 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "New York to Invisible Collar (attacker): What matters when you retain the isolated arm?",
+      "name": "New York to Invisible Collar (bottom): What must remain isolated during the leg change?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Keep the elbow separated from an inside frame before closing the second leg."
+        "text": "The overhook and knee hug keep one arm from returning inside while you add the reinforcing leg."
       }
     },
     {
       "@type": "Question",
-      "name": "New York to Invisible Collar (attacker): What matters when you preserve neck clearance?",
+      "name": "New York to Invisible Collar (bottom): Which support must you retain when freeing the other leg?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Maintain the cleared hand position and knee hug as the free leg comes higher."
+        "text": "Keep the raised knee supported over the isolated arm as the other leg begins to climb."
       }
     },
     {
       "@type": "Question",
-      "name": "New York to Invisible Collar (attacker): What matters when you close without knee torque?",
+      "name": "New York to Invisible Collar (bottom): Where does the reinforcing leg close?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Bring the second leg into the high clinch through hip motion; do not pull the foot into position against resistance."
+        "text": "The second leg joins the high clinch behind the head rather than closing low around the waist or capturing a calf."
       }
     },
     {
       "@type": "Question",
-      "name": "New York to Invisible Collar (attacker): What matters when you use connected leg pressure?",
+      "name": "New York to Invisible Collar (bottom): How do you keep posture down without losing the arm trap?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Hold the upper body close with the whole leg configuration rather than squeezing or wrenching the neck."
+        "text": "The whole high-leg and arm configuration retains posture; avoid substituting a separate wrench on the neck."
       }
     },
     {
       "@type": "Question",
-      "name": "New York to Invisible Collar (attacker): What matters when you read the free arm?",
+      "name": "New York to Invisible Collar (bottom): What change warns that the arm trap is opening?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Monitor frames and posture so an arm extraction does not silently undo the control."
+        "text": "Track the elbow as the legs move; a recovered inside frame can undo the isolation even if the ankles remain high."
       }
     },
     {
       "@type": "Question",
-      "name": "New York to Invisible Collar (attacker): What matters when you open to recover guard?",
+      "name": "New York to Invisible Collar (bottom): If the high knee loses support, what is the fallback?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Release the high clinch and rebuild ordinary frames if the position becomes a stack or causes knee discomfort."
+        "text": "Recover ordinary guard with an inside knee and forearm when the supported high connection fails."
       }
     }
   ]

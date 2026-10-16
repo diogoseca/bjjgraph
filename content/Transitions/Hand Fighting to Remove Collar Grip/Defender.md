@@ -56,42 +56,42 @@ description: "Hand Fighting to Remove Collar Grip (defender): The free leg movin
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Hand Fighting to Remove Collar Grip (defender): What matters when you recognize the high closure?",
+      "name": "Invisible Collar hand fight (top): What can hold your head down without a jacket grip?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The free leg moving behind your head is an attempt to reinforce posture control, even without a collar grip."
+        "text": "The second high leg reinforces upper-body posture control even when no fabric is held."
       }
     },
     {
       "@type": "Question",
-      "name": "Hand Fighting to Remove Collar Grip (defender): What matters when you protect the neck and arm?",
+      "name": "Invisible Collar hand fight (top): How should head and shoulder move while still enclosed?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Keep the head aligned and the captured elbow compact rather than twisting against the enclosure."
+        "text": "Avoid turning the head or torso away from a captured shoulder; maintain alignment while creating early slack."
       }
     },
     {
       "@type": "Question",
-      "name": "Hand Fighting to Remove Collar Grip (defender): What matters when you keep a balanced base?",
+      "name": "Invisible Collar hand fight (top): What does opening the grip need to achieve?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Avoid driving all weight onto the partner's shoulders while the legs are locked high."
+        "text": "The relevant release opens the enclosure around the upper body; simply finding no fabric does not free the head."
       }
     },
     {
       "@type": "Question",
-      "name": "Hand Fighting to Remove Collar Grip (defender): What matters when you address the leg enclosure?",
+      "name": "Invisible Collar hand fight (top): Which early space matters for head recovery?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Create space at the hip and thigh before trying to raise the head or extract the arm."
+        "text": "Create slack at the high-leg connection before lifting the head, while keeping the shoulder and neck aligned."
       }
     },
     {
       "@type": "Question",
-      "name": "Hand Fighting to Remove Collar Grip (defender): What matters when you recover inside position?",
+      "name": "Invisible Collar hand fight (top): When the loop opens, where should the elbow go?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Bring the elbow back between the bodies after the high closure opens."
+        "text": "Recover an inside elbow as the high closure opens so the arm cannot remain isolated outside the guard player's frame."
       }
     }
   ]

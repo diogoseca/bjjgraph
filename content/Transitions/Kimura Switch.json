@@ -180,142 +180,142 @@
     ],
     "flashcards": [
       {
-        "question": "Kimura Switch (attacker): What matters when you identify the starting enclosure?",
+        "question": "Kimura Switch (attacker): What is held in the initial Aoki configuration?",
         "answer": "The opposing foot is turned outward and enclosed near the armpit, upper arm, and forearm.",
-        "answer_line": "Identify the starting enclosure",
+        "answer_line": "An outward-turned foot beside the armpit",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "An inward-turned foot beside the armpit",
+            "A straight ankle with the instep outside the upper arm"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "An outward heel with the forefoot outside both arms"
           ]
         }
       },
       {
-        "question": "Kimura Switch (attacker): What matters when you remove finishing pressure?",
+        "question": "Kimura Switch (attacker): Why unload the first capture before reaching for an arm?",
         "answer": "Rotational foot locks can injure the ankle or knee before pain provides useful warning. Use cooperative capture-and-release practice, no spinning escapes, and the event's actual division rules.",
-        "answer_line": "Remove finishing pressure",
+        "answer_line": "Body movement can rotate the restrained foot and knee",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "The foot enclosure unloads as soon as one hand reaches for the wrist",
+            "Hip movement transfers force into calf muscle without rotating the knee"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "The lower-leg grip can stay loaded if the new wrist grip is secure"
           ]
         }
       },
       {
-        "question": "Kimura Switch (attacker): What matters when you release before repositioning?",
+        "question": "Kimura Switch (attacker): What must open before the target limb changes?",
         "answer": "Open the original connection before either partner turns, rises or changes the captured limb.",
-        "answer_line": "Release before repositioning",
+        "answer_line": "The foot enclosure and its hip connection",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Only the hand reaching for the new wrist",
+            "Only the leg on the hip, keeping the instep clamped"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Only the heel support, keeping the hip and upper arm tight"
           ]
         }
       },
       {
-        "question": "Kimura Switch (attacker): What matters when you require wrist and elbow access?",
+        "question": "Kimura Switch (attacker): What access is needed for the new kimura grip?",
         "answer": "Obtain a separate arm-control position before attempting a figure-four grip.",
-        "answer_line": "Require wrist and elbow access",
+        "answer_line": "The opponent's wrist and elbow from an arm-control position",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Their wrist with the elbow hidden tight behind the torso",
+            "Their elbow while their wrist stays out of reach"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Their hand alone with your second arm outside the elbow"
           ]
         }
       },
       {
-        "question": "Kimura Switch (attacker): What matters when you connect the arm figure-four?",
+        "question": "Kimura Switch (attacker): How is the arm figure-four connected?",
         "answer": "Hold the opposing wrist and your own wrist while keeping the captured elbow controlled.",
-        "answer_line": "Connect the arm figure-four",
+        "answer_line": "Hold their wrist and your own wrist around their arm",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Hold their wrist with both hands side by side",
+            "Hold your own wrist with both arms outside their elbow"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Hold their wrist and upper arm with unconnected hands"
           ]
         }
       },
       {
-        "question": "Kimura Switch (attacker): What matters when you stop at shoulder control?",
+        "question": "Kimura Switch (attacker): In a positional kimura drill, what is the intended endpoint?",
         "answer": "Use the grip as a positional handle without forcing the wrist behind the back.",
-        "answer_line": "Stop at shoulder control",
+        "answer_line": "Secure wrist-and-elbow control without forcing the shoulder",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Move the wrist behind the back to confirm shoulder pressure",
+            "Keep the wrist but release the wrap to let the elbow travel"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Use torso rotation to test whether the shoulder can follow"
           ]
         }
       },
       {
-        "question": "Kimura Switch (attacker): What configuration must exist before this sequence?",
-        "answer": "The initial Aoki Lock Control configuration must be identified before considering Kimura Trap.",
-        "answer_line": "Check the starting configuration",
+        "question": "Kimura Switch (attacker): Which lower-body connection belongs to the initial setup?",
+        "answer": "The initial Aoki setup manages foot and hip; those lower-body controls are dismantled before arm capture.",
+        "answer_line": "A leg attachment managing the captured foot's hip",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "A grip on the foot with both legs outside the hip",
+            "A knee touching the thigh while the hip moves freely"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Both ankles crossed without enclosing the opposing leg"
           ]
         }
       },
       {
-        "question": "Kimura Switch (attacker): What distinguishes this control from a similar-looking position?",
+        "question": "Kimura Switch (attacker): Why is the old Aoki grip not already a kimura?",
         "answer": "The captured limb is the foot and lower leg. This is distinct from an omoplata-style shoulder trap and from a bent-knee calf slicer. Either player can become the foot-lock attacker during an entanglement exchange. The reviewed instruction does not establish a direct Aoki Lock Control-to-Kimura Trap connection. Release the original lock safely and establish the destination's own prerequisites; do not treat these checkpoints as a demonstrated continuous entry.",
-        "answer_line": "Check the defining controls",
+        "answer_line": "It encloses a foot rather than controlling wrist and elbow",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "The same upper-arm grip already surrounds the opposing elbow",
+            "A palm-to-palm foot grip supplies the required self-wrist connection"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "The foot enclosure restrains the shoulder through the shared grip shape"
           ]
         }
       },
       {
-        "question": "Kimura Switch (attacker): When should the partners stop or reset?",
+        "question": "Kimura Switch (attacker): Your partner turns while the wrist and shoulder remain fixed. What next?",
         "answer": "Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.",
-        "answer_line": "Release before unsafe loading",
+        "answer_line": "Release the arm restraint before allowing the turn",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Open the wrist grip but leave the elbow wrap wedged",
+            "Turn with the partner before releasing the figure-four"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Relax the hand pressure while keeping the wrist fixed"
           ]
         }
       },
       {
-        "question": "Kimura Switch (attacker): What should a cooperative first drill establish?",
-        "answer": "Identify the starting configuration and rehearse the first connection without finishing pressure. The opposing foot is turned outward and enclosed near the armpit, upper arm, and forearm.",
-        "answer_line": "Rehearse the first connection",
+        "question": "Kimura Switch (attacker): With one hand on their wrist, how does the other complete the figure-four?",
+        "answer": "Keep the first hand on the opposing wrist. The second arm wraps around their elbow and connects to your own wrist, securing the figure-four before any shoulder pressure.",
+        "answer_line": "Circle their elbow and take your own wrist",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Place the second hand beside the first on their wrist",
+            "Wrap their forearm without passing around the elbow"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Grip their upper arm with the second hand and release the wrist"
           ]
         }
       }
@@ -427,72 +427,72 @@
     ],
     "flashcards": [
       {
-        "question": "Kimura Switch (defender): What matters when you keep the wrist connected?",
+        "question": "Kimura Switch (defender): Before the figure-four closes, where should you keep the arm?",
         "answer": "Hold the arm close to the torso before a figure-four grip closes.",
-        "answer_line": "Keep the wrist connected",
+        "answer_line": "Wrist and elbow close to the torso",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Wrist extended far behind your shoulder",
+            "Elbow flared while the hand reaches across their back"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Hand on the floor with the shoulder turned away"
           ]
         }
       },
       {
-        "question": "Kimura Switch (defender): What matters when you deny the elbow wrap?",
+        "question": "Kimura Switch (defender): With only your wrist held, how do you deny the next grip?",
         "answer": "Recover inside arm position while the attacker has only one point of control.",
-        "answer_line": "Deny the elbow wrap",
+        "answer_line": "Recover inside arm position before the elbow wrap",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Extend the elbow farther beyond their shoulder",
+            "Turn the torso away while leaving the wrist fixed"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Wait for both grips to close before hand fighting"
           ]
         }
       },
       {
-        "question": "Kimura Switch (defender): What matters when you recognize the new target?",
+        "question": "Kimura Switch (defender): Which limb relationship signals the new threat after Aoki release?",
         "answer": "A Kimura threatens the shoulder and elbow, unlike the preceding foot lock.",
-        "answer_line": "Recognize the new target",
+        "answer_line": "Wrist-and-elbow control isolating the shoulder",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Two hands holding your wrist with your elbow free",
+            "An elbow held while your wrist can withdraw freely"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "A forearm wrap leaving the elbow outside"
           ]
         }
       },
       {
-        "question": "Kimura Switch (defender): What matters when you avoid a forced roll?",
+        "question": "Kimura Switch (defender): Why should you not roll with the wrist and shoulder fixed?",
         "answer": "Do not roll against a fixed wrist and shoulder. Create slack in the existing control before changing the body angle.",
-        "answer_line": "Avoid a forced roll",
+        "answer_line": "Your torso can rotate against the isolated shoulder",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "The wrist grip slides free before the shoulder follows the torso",
+            "The retained elbow wrap lets the upper arm rotate with the chest"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "The forearm absorbs the turn without transmitting load to the shoulder"
           ]
         }
       },
       {
-        "question": "Kimura Switch (defender): What matters when you tap before shoulder loading?",
+        "question": "Kimura Switch (defender): What should end a cooperative positional hold?",
         "answer": "Stop before the arm is driven behind the back. Create slack in the existing control before changing the body angle.",
-        "answer_line": "Tap before shoulder loading",
+        "answer_line": "Capture before the wrist is driven behind the back",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "A small wrist lift to check shoulder resistance",
+            "A turn that proves the elbow cannot escape"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "A hand reaching the spine while the elbow stays held"
           ]
         }
       }

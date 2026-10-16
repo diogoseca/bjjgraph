@@ -68,50 +68,50 @@ description: "Posture from Chill Dog (attacker): Keep the free hand available fo
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Posture from Chill Dog (attacker): What matters when you recognize the upper-body trap?",
+      "name": "Posture from Chill Dog (top): How should your free hand help the trapped arm?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Keep the free hand available for framing while preventing the isolated elbow from being pulled further away from your torso."
+        "text": "The free hand preserves inside space while you prevent the isolated elbow being drawn farther from your ribs."
       }
     },
     {
       "@type": "Question",
-      "name": "Posture from Chill Dog (attacker): What matters when you protect the captured limb?",
+      "name": "Posture from Chill Dog (top): Which cue identifies their neck-cleared control?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The opponent changing the hand around your head signals the move beyond New York, not a turtle escape."
+        "text": "Chill Dog changes the head-side hand and forearm position while retaining the New York arm isolation."
       }
     },
     {
       "@type": "Question",
-      "name": "Posture from Chill Dog (attacker): What matters when you work before pressure engages?",
+      "name": "Posture from Chill Dog (top): What should support the early escape attempt?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Keep a balanced base and early inside frames; tap instead of moving against a completed choke or joint lock."
+        "text": "Use early inside space with stable supports while the neck and shoulder are still free enough to move."
       }
     },
     {
       "@type": "Question",
-      "name": "Posture from Chill Dog (attacker): What matters when you open the high enclosure?",
+      "name": "Posture from Chill Dog (top): Where should you seek slack before lifting posture?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Create slack at the hip and thigh while keeping the head and captured arm aligned."
+        "text": "Open the high-leg attachment while keeping head and shoulder aligned before trying to lift the chest."
       }
     },
     {
       "@type": "Question",
-      "name": "Posture from Chill Dog (attacker): What matters when you recover the elbow and posture?",
+      "name": "Posture from Chill Dog (top): What happens before the chest rises?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Withdraw the shoulder and elbow only after the high leg connection has opened."
+        "text": "Free the shoulder and recover the elbow toward your ribs through slack before lifting upright."
       }
     },
     {
       "@type": "Question",
-      "name": "Posture from Chill Dog (attacker): What matters when you confirm the next position?",
+      "name": "Posture from Chill Dog (top): Head free, their ankles crossed behind your waist: what remains?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Establish a stable posture inside the guard that actually remains only when the upper-body enclosure and relevant leg hooks have cleared."
+        "text": "Posture recovery changes upper-body control. With the opponent's ankles crossed behind your waist, closed guard still remains; a free head does not complete a pass. Check the actual leg relationship rather than inferring a destination from the posture change."
       }
     }
   ]

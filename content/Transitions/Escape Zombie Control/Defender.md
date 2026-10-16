@@ -56,42 +56,42 @@ description: "Escape Zombie Control (defender): Keep a useful forearm between th
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Escape Zombie Control (defender): What matters when you maintain inside frames?",
+      "name": "Escape Zombie Control (top): Where should your forearm resist the pummel early?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Keep a useful forearm between the bodies before the bottom player gains the hand-clearing path."
+        "text": "Maintain an inside forearm so the bottom player's hand cannot easily lift yours out toward the mat."
       }
     },
     {
       "@type": "Question",
-      "name": "Escape Zombie Control (defender): What matters when you keep elbow and hand connected?",
+      "name": "Escape Zombie Control (top): How should the hand and elbow recover together?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Move the whole arm rather than leaving the wrist exposed while the elbow remains fixed."
+        "text": "Recover hand and elbow together instead of leaving the wrist exposed beyond a fixed elbow."
       }
     },
     {
       "@type": "Question",
-      "name": "Escape Zombie Control (defender): What matters when you notice the pummel early?",
+      "name": "Escape Zombie Control (top): Which cue calls for an early inside-hand recovery?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The free hand working under yours is the cue to recover inside position before the knee hug closes."
+        "text": "The hand-first pummel attacks the opening under your hand; respond before the bottom player's knee hug encloses the arm."
       }
     },
     {
       "@type": "Question",
-      "name": "Escape Zombie Control (defender): What matters when you recover without yanking?",
+      "name": "Escape Zombie Control (top): Where should the recovered elbow finish?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Retract the elbow toward your ribs through available space, stopping if the shoulder is caught."
+        "text": "An elbow recovered toward the ribs can frame inside before the New York knee hug fixes it outside."
       }
     },
     {
       "@type": "Question",
-      "name": "Escape Zombie Control (defender): What matters when you rebuild posture gradually?",
+      "name": "Escape Zombie Control (top): What must happen before you lift the chest?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Raise the chest after freeing the arm and reducing the high-leg control."
+        "text": "Posture recovery follows arm clearance and an opened high leg; the hand pummel alone does not release the upper body."
       }
     }
   ]

@@ -68,7 +68,7 @@ description: "Buggy Choke to Side Control (attacker): Watch for an arm reaching 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Buggy Choke to Side Control (attacker): What matters when you recognize the bottom-player choke?",
+      "name": "Buggy Choke to Side Control (top): Which reach starts the Buggy enclosure from below?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Watch for an arm reaching past your head and connecting to the same-side leg."
@@ -76,15 +76,15 @@ description: "Buggy Choke to Side Control (attacker): Watch for an arm reaching 
     },
     {
       "@type": "Question",
-      "name": "Buggy Choke to Side Control (attacker): What matters when you keep a stable base?",
+      "name": "Buggy Choke to Side Control (top): Which base supports defense with the partner grounded?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Avoid lifting, dropping, or twisting the partner's trapped leg to force an escape."
+        "text": "Keep a balanced base and avoid using the partner's knee or a lift as the means of escape."
       }
     },
     {
       "@type": "Question",
-      "name": "Buggy Choke to Side Control (attacker): What matters when you interrupt the connection early?",
+      "name": "Buggy Choke to Side Control (top): Before their grip closes, how do you interrupt the entry?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use safe inside frames before the arm-to-leg loop fully closes; do not pull or twist the partner's knee."
@@ -92,7 +92,7 @@ description: "Buggy Choke to Side Control (attacker): Watch for an arm reaching 
     },
     {
       "@type": "Question",
-      "name": "Buggy Choke to Side Control (attacker): What matters when you free the head and arm?",
+      "name": "Buggy Choke to Side Control (top): What clearance permits you to rebuild the side pin?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Move only through available space after the loop opens; tap if the neck is already enclosed."
@@ -100,7 +100,7 @@ description: "Buggy Choke to Side Control (attacker): Watch for an arm reaching 
     },
     {
       "@type": "Question",
-      "name": "Buggy Choke to Side Control (attacker): What matters when you verify the next configuration?",
+      "name": "Buggy Choke to Side Control (top): After release, which controls stabilize side control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Establish Side Control only after the head is free. Keep the shoulders and hips controlled while moving outside the legs."
@@ -108,10 +108,10 @@ description: "Buggy Choke to Side Control (attacker): Watch for an arm reaching 
     },
     {
       "@type": "Question",
-      "name": "Buggy Choke to Side Control (attacker): What matters when you settle without neck loading?",
+      "name": "Buggy Choke to Side Control (top): When should you apply settling chest and shoulder pressure?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Use balanced positional pressure and let the opponent communicate throughout the reset."
+        "text": "Use balanced pin pressure after clearance; pressure is not a substitute for opening the neck enclosure."
       }
     }
   ]

@@ -228,114 +228,114 @@
     ],
     "flashcards": [
       {
-        "question": "Hindulotine (top): What matters when you read the arm path?",
+        "question": "Hindulotine defense: which arm movement signals the developing Hindu Control enclosure?",
         "answer": "An elbow traveling over the opponent's raised foot toward your shoulder signals Hindu Control.",
-        "answer_line": "Read the arm path",
+        "answer_line": "Their elbow passes over the raised foot toward your shoulder",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Their elbow remains below the raised foot as the hand reaches up",
+            "Their hand stays outside your shoulder instead of circling toward the head"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Their forearm stays across your waist below the high leg"
           ]
         }
       },
       {
-        "question": "Hindulotine (top): What matters when you keep the neck aligned?",
+        "question": "Hindulotine defense: what makes turning your head against the closed enclosure hazardous?",
         "answer": "Avoid twisting the head against a fixed leg-and-arm enclosure.",
-        "answer_line": "Keep the neck aligned",
+        "answer_line": "The arm and leg can hold the neck while the body rotates",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "The foot follows the head before the connected arms move",
+            "Turning the jaw past the forearm opens the hand connection"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "The knee hug diverts the turning force into the chest"
           ]
         }
       },
       {
-        "question": "Hindulotine (top): What matters when you fight the hand connection early?",
+        "question": "Hindulotine defense: before the finishing hands join, where should your frame work?",
         "answer": "Use an inside hand frame before the attacker connects the finishing grip.",
-        "answer_line": "Fight the hand connection early",
+        "answer_line": "Inside the developing hand connection",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Outside their wrists while the hands remain free to meet",
+            "On the raised foot alone while the hand-joining route stays open"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "On the mat behind you before interrupting the supporting hand"
           ]
         }
       },
       {
-        "question": "Hindulotine (top): What matters when you do not pass blindly?",
-        "answer": "Clearing the lower leg alone may leave the neck caught; address the upper enclosure first.",
-        "answer_line": "Do not pass blindly",
+        "question": "Hindulotine defense: why doesn't clearing the lower leg prove the choke has opened?",
+        "answer": "The lower-body pass can leave the hands and raised leg enclosing the neck. Check that connection rather than treating a new hip position as a release.",
+        "answer_line": "The upper arm-and-leg connection can remain around the neck",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "The low hook was the only connection keeping the hands joined",
+            "Moving beside the ribs stops the high foot reaching the head"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "The new side position forces the supporting hand to separate"
           ]
         }
       },
       {
-        "question": "Hindulotine (top): What matters when you recover posture only with space?",
+        "question": "Hindulotine defense: what must loosen before you withdraw your head and raise your shoulders?",
         "answer": "Move the head and shoulders free after the hand and high-leg controls have loosened.",
-        "answer_line": "Recover posture only with space",
+        "answer_line": "The hand grip and the high-leg control",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Only the low leg crossing while the upper enclosure stays closed",
+            "Only one wrist while the other arm and raised foot retain the head"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Only the hip angle without changing the hand-and-foot enclosure"
           ]
         }
       },
       {
-        "question": "Hindulotine (top): What matters when you tap before symptoms?",
+        "question": "Hindulotine defense: why should a secured choke be stopped before dizziness?",
         "answer": "Do not wait for dizziness or severe pain before stopping a choke attempt.",
-        "answer_line": "Tap before symptoms",
+        "answer_line": "Neck compression can impair responsiveness",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Normal breathing proves that the secured loop cannot affect circulation",
+            "Passing the hips prevents the joined hands from compressing the neck"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "A free hand proves you can pull the head out after symptoms begin"
           ]
         }
       },
       {
-        "question": "Hindulotine (top): What configuration must exist before this sequence?",
+        "question": "Hindulotine defense: where is the attacker's raised knee as the arm circles toward you?",
         "answer": "The bottom player is on the back or hip with the raised rubber-guard knee close to the torso.",
-        "answer_line": "Check the starting configuration",
+        "answer_line": "Close to their torso in high guard",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Flat between your knees on the mat",
+            "Extended away behind your shoulder"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Locked straight against your lower back"
           ]
         }
       },
       {
-        "question": "Hindulotine (top): What distinguishes this control from a similar-looking position?",
+        "question": "Hindulotine defense: what separates this enclosure from an ordinary front-headlock guillotine?",
         "answer": "Hindu Control is the holding configuration; Hindulotine names the choke applied from it. The raised leg contributes to head control, so an ordinary front-headlock guillotine does not by itself establish this position.",
-        "answer_line": "Check the defining controls",
+        "answer_line": "A raised guard leg participates in controlling the head",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "A neck loop formed only by the arms with no raised foot involved",
+            "A high supporting elbow over the shoulder without a leg in the loop"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "An opposing arm included beside the neck within an arm-only enclosure"
           ]
         }
       }
@@ -581,114 +581,114 @@
     ],
     "flashcards": [
       {
-        "question": "Hindulotine (bottom): What matters when you keep the knee supported?",
+        "question": "Hindu Control: how do you make room for the arm while supporting the raised knee?",
         "answer": "Hug the knee and turn onto the hip to create room for the arm path.",
-        "answer_line": "Keep the knee supported",
+        "answer_line": "Hug the knee and turn onto your hip",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Pull the ankle sideways with the knee fixed",
+            "Flatten both hips and extend the raised leg"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Let the knee fall away while reaching overhead"
           ]
         }
       },
       {
-        "question": "Hindulotine (bottom): What matters when you loop around the foot?",
+        "question": "Hindu Control: which route does your controlling arm take?",
         "answer": "Bring the elbow above the raised foot and the hand around the shoulder rather than forcing it straight through a closed gap.",
-        "answer_line": "Loop around the foot",
+        "answer_line": "Elbow over the foot, hand around the shoulder",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Elbow below the raised foot while the hand reaches for the shoulder",
+            "Hand forced through the closed foot-to-head gap without clearing the elbow"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Elbow outside the high leg with the forearm still across the waist"
           ]
         }
       },
       {
-        "question": "Hindulotine (bottom): What matters when you establish Hindu Control?",
+        "question": "Hindu Control: before reaching for the second hand, what should already be stable?",
         "answer": "Hold the head and leg enclosure without finishing pressure before seeking the second hand.",
-        "answer_line": "Establish Hindu Control",
+        "answer_line": "The head held within the arm-and-leg enclosure",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "A high shin near the head with the elbow still below the foot",
+            "Both hands pulling while the high leg stays loose"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "The head contact alone after the knee hug has been released"
           ]
         }
       },
       {
-        "question": "Hindulotine (bottom): What matters when you connect a controlled grip?",
+        "question": "Hindulotine: how do Ben Eddy's early and later demonstrations differ in their hand connection?",
         "answer": "Use the grip taught by your instructor; Ben Eddy's later S-grip teaching differs from his early reverse-gable demonstration.",
-        "answer_line": "Connect a controlled grip",
+        "answer_line": "Early reverse-gable; later S-grip",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "First finger hooks, then palms joined without hooking fingers",
+            "The same reverse-gable connection in both lessons"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Early double-wrist connection; later plain palm-to-palm grip"
           ]
         }
       },
       {
-        "question": "Hindulotine (bottom): What matters when you treat a pass as a new check?",
-        "answer": "Do not assume the choke has disappeared merely because the opponent clears the lower leg.",
-        "answer_line": "Treat a pass as a new check",
+        "question": "Hindu Control: which connection decides whether the neck stays restrained after the lower-leg pass?",
+        "answer": "Check the retained high leg-and-arm connection. A lower-body pass can occur while this upper enclosure remains closed.",
+        "answer_line": "The upper enclosure around the head",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "The low ankle crossing that the opponent has already passed",
+            "The location of the lower foot on the mat by itself"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "The passing knee moving beyond the hip without checking the hands"
           ]
         }
       },
       {
-        "question": "Hindulotine (bottom): What matters when you release the entire enclosure?",
+        "question": "Hindulotine: what must you release when your partner taps?",
         "answer": "Open the hands and move the controlling leg away immediately when a partner taps or stops responding normally.",
-        "answer_line": "Release the entire enclosure",
+        "answer_line": "Separate the hands and move the controlling leg away",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Open one hand while keeping the leg clamped",
+            "Relax your fingers but keep pulling with the elbow"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Move the low leg while leaving the head enclosure closed"
           ]
         }
       },
       {
-        "question": "Hindulotine (bottom): What configuration must exist before this sequence?",
+        "question": "Hindu Control: where should your raised knee stay relative to your trunk?",
         "answer": "The bottom player is on the back or hip with the raised rubber-guard knee close to the torso.",
-        "answer_line": "Check the starting configuration",
+        "answer_line": "Close enough to support beside the torso",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Fully straight above the opponent's head",
+            "Resting flat beneath the opponent's hip"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Spread wide while the ankle is pulled inward"
           ]
         }
       },
       {
-        "question": "Hindulotine (bottom): What distinguishes this control from a similar-looking position?",
+        "question": "Hindu Control: what changes when the holding configuration becomes a Hindulotine attempt?",
         "answer": "Hindu Control is the holding configuration; Hindulotine names the choke applied from it. The raised leg contributes to head control, so an ordinary front-headlock guillotine does not by itself establish this position.",
-        "answer_line": "Check the defining controls",
+        "answer_line": "The connected enclosure applies choking pressure",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "The hands separate while the high leg remains in place",
+            "The lower leg changes position without loading the neck enclosure"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "The knee loses support while the foot is pulled away from the torso"
           ]
         }
       }

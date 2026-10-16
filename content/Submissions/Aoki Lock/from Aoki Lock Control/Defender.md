@@ -58,50 +58,50 @@ description: "Aoki Lock from Aoki Lock Control (defender): Treat an outward-turn
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Aoki Lock from Aoki Lock Control (defender): What matters when you recognize rotation?",
+      "name": "Aoki from Control defense: what warns you that a straight-ankle response may be inadequate?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Treat an outward-turned foot caught by the upper body as a rotational lock rather than an ordinary straight ankle lock."
+        "text": "Your outward-turned foot is enclosed by their upper body. Treat an outward-turned foot caught by the upper body as a rotational lock rather than an ordinary straight ankle lock."
       }
     },
     {
       "@type": "Question",
-      "name": "Aoki Lock from Aoki Lock Control (defender): What matters when you deny the enclosure?",
+      "name": "Aoki from Control defense: before their grip closes, what should you contest?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Hand fight and recover foot position before the attacker connects around the foot."
+        "text": "The arm wrapping your foot while recovering its position. Hand fight and recover foot position before the attacker connects around the foot."
       }
     },
     {
       "@type": "Question",
-      "name": "Aoki Lock from Aoki Lock Control (defender): What matters when you keep the leg aligned?",
+      "name": "Aoki from Control defense: what should not rotate independently once the foot is fixed?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Do not rotate the torso independently of a captured foot and knee."
+        "text": "Your torso relative to the captured knee and foot. Do not rotate the torso independently of a captured foot and knee."
       }
     },
     {
       "@type": "Question",
-      "name": "Aoki Lock from Aoki Lock Control (defender): What matters when you free the connection early?",
+      "name": "Aoki from Control defense: how does Kesting protect the outside foot while holding standard ashi?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Create slack in the hand and hip controls before withdrawing the leg."
+        "text": "Keep the inside knee close to that outside foot. His preventive detail closes access to the outside foot before an Aoki grip is established. It is not an escape to apply after the foot is already locked."
       }
     },
     {
       "@type": "Question",
-      "name": "Aoki Lock from Aoki Lock Control (defender): What matters when you tap before pain?",
+      "name": "Aoki from Control defense: what is the problem with testing a secure lock for remaining movement?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Stop at a secure rotational capture rather than testing whether the joint still tolerates movement."
+        "text": "Joint load may rise before pain provides a warning. Stop at a secure rotational capture rather than testing whether the joint still tolerates movement."
       }
     },
     {
       "@type": "Question",
-      "name": "Aoki Lock from Aoki Lock Control (defender): What matters when you reset after release?",
+      "name": "Aoki from Control defense: what should be free before you stand or turn after release?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Wait for the entire enclosure to open before standing, turning, or restarting the exchange."
+        "text": "The entire foot enclosure and leg restraint. Wait for the entire enclosure to open before standing, turning, or restarting the exchange."
       }
     }
   ]

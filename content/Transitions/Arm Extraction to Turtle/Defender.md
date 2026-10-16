@@ -56,7 +56,7 @@ description: "Arm Extraction to Turtle (defender): Recognize the foot orientatio
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Arm Extraction to Turtle (defender): What matters when you identify the turned foot?",
+      "name": "Arm Extraction to Turtle (foot-locker): What foot orientation do you recognize before enclosing it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Recognize the foot orientation without twisting it into position against resistance."
@@ -64,7 +64,7 @@ description: "Arm Extraction to Turtle (defender): Recognize the foot orientatio
     },
     {
       "@type": "Question",
-      "name": "Arm Extraction to Turtle (defender): What matters when you enclose the foot?",
+      "name": "Arm Extraction to Turtle (foot-locker): What upper-body contact retains the captured foot?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Hold the instep and heel region securely beside the upper body rather than relying on calf compression."
@@ -72,7 +72,7 @@ description: "Arm Extraction to Turtle (defender): Recognize the foot orientatio
     },
     {
       "@type": "Question",
-      "name": "Arm Extraction to Turtle (defender): What matters when you control the hip connection?",
+      "name": "Arm Extraction to Turtle (foot-locker): What does your hip connection accomplish?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use the entanglement or foot-on-hip frame to manage distance before considering a finish."
@@ -80,7 +80,7 @@ description: "Arm Extraction to Turtle (defender): Recognize the foot orientatio
     },
     {
       "@type": "Question",
-      "name": "Arm Extraction to Turtle (defender): What matters when you keep pressure neutral?",
+      "name": "Arm Extraction to Turtle (foot-locker): Why pause at capture during an escape drill?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Stop the drill at a secure capture; the control can become a damaging rotation with very little movement."
@@ -88,7 +88,7 @@ description: "Arm Extraction to Turtle (defender): Recognize the foot orientatio
     },
     {
       "@type": "Question",
-      "name": "Arm Extraction to Turtle (defender): What matters when you respect counterattacks?",
+      "name": "Arm Extraction to Turtle (foot-locker): Which exposed limb also needs attention during the exchange?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Keep track of your own exposed feet while concentrating on the captured foot."

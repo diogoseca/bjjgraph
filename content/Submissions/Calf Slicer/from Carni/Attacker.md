@@ -70,50 +70,50 @@ description: "Calf Slicer from Carni (attacker): Control the opposing thigh and 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Calf Slicer from Carni (attacker): What matters when you establish a bent-leg capture?",
+      "name": "Calf slicer after Carni: what must you newly capture before the compression setup exists?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Control the opposing thigh and lower leg in a genuine leg-entanglement position."
+        "text": "The opposing thigh and bent lower leg. Control the opposing thigh and lower leg in a genuine leg-entanglement position."
       }
     },
     {
       "@type": "Question",
-      "name": "Calf Slicer from Carni (attacker): What matters when you place the fulcrum?",
+      "name": "Calf slicer attack: where should the compression fulcrum sit?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Position the shin or forearm behind the knee without forcing the joint sideways."
+        "text": "A shin or forearm in the fold behind the knee. Position the shin or forearm behind the knee without forcing the joint sideways."
       }
     },
     {
       "@type": "Question",
-      "name": "Calf Slicer from Carni (attacker): What matters when you support your own leg?",
+      "name": "Calf slicer attack: why should your own attacking leg remain supported?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Keep the attacking leg stable so resistance does not twist your own knee."
+        "text": "Resistance can twist the attacker's unsupported knee. Keep your attacking leg stable so resistance does not turn it against a fixed foot."
       }
     },
     {
       "@type": "Question",
-      "name": "Calf Slicer from Carni (attacker): What matters when you control the heel distance?",
+      "name": "Calf slicer attack: which movement does heel containment limit?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Identify how the lower leg folds toward the thigh without pulling it to end range."
+        "text": "The lower leg moving away from the thigh. Identify how the lower leg folds toward the thigh without pulling it to end range."
       }
     },
     {
       "@type": "Question",
-      "name": "Calf Slicer from Carni (attacker): What matters when you stop at the configuration?",
+      "name": "Calf slicer practice: how much squeeze belongs in the first control-only repetition?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Practice the capture without squeezing the calf or separating the knee joint."
+        "text": "Contact around the fulcrum without squeezing pressure. Practice the bent-leg capture without compressing the calf or separating the knee joint."
       }
     },
     {
       "@type": "Question",
-      "name": "Calf Slicer from Carni (attacker): What matters when you unfold before disengaging?",
+      "name": "Calf slicer attack: what should happen before either partner rotates or stands after release?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Release the heel and remove the fulcrum before either partner rotates or stands."
+        "text": "Let the heel go and remove the knee-fold fulcrum. Release the heel and remove the fulcrum before either partner rotates or stands."
       }
     }
   ]

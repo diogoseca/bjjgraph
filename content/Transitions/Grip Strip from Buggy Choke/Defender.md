@@ -56,7 +56,7 @@ description: "Grip Strip from Buggy Choke (defender): Use safe shoulder and hip 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Grip Strip from Buggy Choke (defender): What matters when you build the angle?",
+      "name": "Grip Strip from Buggy Choke (bottom): What body angle makes your hand-leg connection easier?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use safe shoulder and hip frames to turn partly onto the side before reaching for the leg."
@@ -64,15 +64,15 @@ description: "Grip Strip from Buggy Choke (defender): Use safe shoulder and hip 
     },
     {
       "@type": "Question",
-      "name": "Grip Strip from Buggy Choke (defender): What matters when you enclose head and arm?",
+      "name": "Grip Strip from Buggy Choke (bottom): What must remain enclosed for the Buggy threat to exist?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Check that the loop contains the necessary upper-body configuration rather than merely hugging your leg."
+        "text": "The loop must contain the top player's head and one arm, not merely connect your hand to your leg."
       }
     },
     {
       "@type": "Question",
-      "name": "Grip Strip from Buggy Choke (defender): What matters when you keep elbow near knee?",
+      "name": "Grip Strip from Buggy Choke (bottom): How should you preserve a compact elbow-knee connection?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Shorten the connection through body position, not by pulling the foot hard toward the face."
@@ -80,15 +80,15 @@ description: "Grip Strip from Buggy Choke (defender): Use safe shoulder and hip 
     },
     {
       "@type": "Question",
-      "name": "Grip Strip from Buggy Choke (defender): What matters when you use the torso connection?",
+      "name": "Grip Strip from Buggy Choke (bottom): What action closes space as you hold the loop?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Close space with the arm, leg, and torso while avoiding twisting force on your own knee."
+        "text": "Shoulder-to-hip shortening supplies closure while the arm and leg enclose the opponent."
       }
     },
     {
       "@type": "Question",
-      "name": "Grip Strip from Buggy Choke (defender): What matters when you recover guard when space opens?",
+      "name": "Grip Strip from Buggy Choke (bottom): Your grip is stripped. What should replace the lost loop?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use a disengaging opponent's movement to insert frames and knees if the choke is lost."

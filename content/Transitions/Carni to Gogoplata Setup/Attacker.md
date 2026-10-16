@@ -68,50 +68,50 @@ description: "Carni to Gogoplata Setup (attacker): Remove wrist and triceps fini
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Carni to Gogoplata Setup (attacker): What matters when you ease the shoulder lock?",
+      "name": "Carni to Gogoplata (bottom): Which pressure must end before the leg changes position?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Remove wrist and triceps finishing pressure before changing the leg angle."
+        "text": "Remove the Carni shoulder-lock pressure before changing the high leg toward the neck."
       }
     },
     {
       "@type": "Question",
-      "name": "Carni to Gogoplata Setup (attacker): What matters when you retain posture control?",
+      "name": "Carni to Gogoplata (bottom): What helps keep the opponent close as the arm is released?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Keep a comfortable knee hug and hip connection as the opponent's arm is released."
+        "text": "Retain comfortable knee support and hip connection as the Carni arm is released."
       }
     },
     {
       "@type": "Question",
-      "name": "Carni to Gogoplata Setup (attacker): What matters when you rebuild the neck-cleared angle?",
+      "name": "Carni to Gogoplata (bottom): How do you preserve room for the shin to move?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Use a forearm frame and hip turn to make room for the high leg."
+        "text": "An inside forearm frame blocks incoming chest pressure while hip rotation creates room for the high leg."
       }
     },
     {
       "@type": "Question",
-      "name": "Carni to Gogoplata Setup (attacker): What matters when you move the foot under the chin?",
+      "name": "Carni to Gogoplata (bottom): The knee is fixed and the foot cannot enter; what changes first?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Use the available path without hauling the foot against a fixed knee."
+        "text": "Move through available space with a supported knee; if the foot cannot enter, release and adjust rather than hauling it."
       }
     },
     {
       "@type": "Question",
-      "name": "Carni to Gogoplata Setup (attacker): What matters when you confirm shin placement?",
+      "name": "Carni to Gogoplata (bottom): Where must the shin lie for the intended neck enclosure?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Stop at a controlled shin-under-chin enclosure; do not substitute jaw pressure."
+        "text": "The setup requires actual shin placement beneath the chin; the training checkpoint omits finishing pressure."
       }
     },
     {
       "@type": "Question",
-      "name": "Carni to Gogoplata Setup (attacker): What matters when you reset when blocked?",
+      "name": "Carni to Gogoplata (bottom): The opponent sits upright before shin entry; what do you rebuild?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Return to guard if the opponent recovers posture or the shin cannot enter comfortably."
+        "text": "If posture escapes or comfortable shin entry is unavailable, return to guard instead of forcing the switch."
       }
     }
   ]

@@ -70,50 +70,50 @@ description: "Aoki Lock from Ashi Garami (attacker): Identify the turned-out foo
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Aoki Lock from Ashi Garami (attacker): What matters when you confirm the foot orientation?",
+      "name": "Aoki from Ashi: what should you look for in the foot presented near your hip?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Identify the turned-out foot without forcing it to rotate against resistance."
+        "text": "Toes already turned outward into an enclosing angle. Identify the turned-out foot without forcing it to rotate against resistance."
       }
     },
     {
       "@type": "Question",
-      "name": "Aoki Lock from Ashi Garami (attacker): What matters when you enclose the foot?",
+      "name": "Aoki from Ashi: where do you bring the instep when collecting the offered foot?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Bring the instep under the upper arm and support the heel/Achilles region with the forearm."
+        "text": "Beneath your upper arm close to your ribs. Bring the instep under the upper arm and support the heel/Achilles region with the forearm."
       }
     },
     {
       "@type": "Question",
-      "name": "Aoki Lock from Ashi Garami (attacker): What matters when you connect the hands?",
+      "name": "Aoki from Ashi: what should the forearm-and-hand enclosure avoid during a capture drill?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Secure the upper-body enclosure while leaving the foot unloaded during practice."
+        "text": "Applying finishing rotation to the foot. Secure the upper-body enclosure while leaving the foot unloaded during practice."
       }
     },
     {
       "@type": "Question",
-      "name": "Aoki Lock from Ashi Garami (attacker): What matters when you manage the hip?",
+      "name": "Aoki from Ashi: why retain a connection to the opponent's hip?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Use the legs and hip connection to limit free movement without twisting a planted knee."
+        "text": "To limit the proximal end of the captured leg moving freely. Use the legs and hip connection to limit free movement without twisting a planted knee."
       }
     },
     {
       "@type": "Question",
-      "name": "Aoki Lock from Ashi Garami (attacker): What matters when you stop at controlled capture?",
+      "name": "Aoki from Ashi: what can a small extension of your body do once the foot is enclosed?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Recognize that a small body extension can create rotational ankle and knee pressure; do not search for a large finishing movement."
+        "text": "Load a rotational lock at the ankle and knee. Recognize that a small body extension can create rotational ankle and knee pressure; do not search for a large finishing movement."
       }
     },
     {
       "@type": "Question",
-      "name": "Aoki Lock from Ashi Garami (attacker): What matters when you release before movement?",
+      "name": "Aoki from Ashi: the partner starts turning while caught; what is your immediate response?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Open the arms and leg connection on a tap, sudden turn, or loss of communication."
+        "text": "Open the foot grip and release the hip restraint. Open the arms and leg connection on a tap, sudden turn, or loss of communication."
       }
     }
   ]

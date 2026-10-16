@@ -68,7 +68,7 @@ description: "X Pass (attacker): Stay balanced over the open guard with the feet
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "X Pass (attacker): What matters when you establish a standing base?",
+      "name": "X Pass (top): What starting base supports the kick-pass action?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Stay balanced over the open guard with the feet able to move."
@@ -76,7 +76,7 @@ description: "X Pass (attacker): Stay balanced over the open guard with the feet
     },
     {
       "@type": "Question",
-      "name": "X Pass (attacker): What matters when you control shoulders and knees?",
+      "name": "X Pass (top): What controls manage both the shoulders and knee line?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use appropriate upper-body and knee-line grips or posts to limit the guard player following the pass."
@@ -84,7 +84,7 @@ description: "X Pass (attacker): Stay balanced over the open guard with the feet
     },
     {
       "@type": "Question",
-      "name": "X Pass (attacker): What matters when you make the trapped leg light?",
+      "name": "X Pass (top): How do you make the passing leg light?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Shift weight onto the supporting leg without leaning the head beyond the base."
@@ -92,7 +92,7 @@ description: "X Pass (attacker): Stay balanced over the open guard with the feet
     },
     {
       "@type": "Question",
-      "name": "X Pass (attacker): What matters when you kick the leg back?",
+      "name": "X Pass (top): Which leg movement clears a loose guard connection?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Retract the leg through available space rather than twisting a foot caught in a fixed entanglement."
@@ -100,7 +100,7 @@ description: "X Pass (attacker): Stay balanced over the open guard with the feet
     },
     {
       "@type": "Question",
-      "name": "X Pass (attacker): What matters when you circle outside the knee line?",
+      "name": "X Pass (top): After leg retraction, where do you move?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Move around the cleared legs while keeping the opponent's hips from tracking your path."
@@ -108,7 +108,7 @@ description: "X Pass (attacker): Stay balanced over the open guard with the feet
     },
     {
       "@type": "Question",
-      "name": "X Pass (attacker): What matters when you settle the top control?",
+      "name": "X Pass (top): What must be established at the finish?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Establish knee on belly or side control with balanced weight after the knees are fully passed."

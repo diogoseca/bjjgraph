@@ -56,42 +56,42 @@ description: "Progression to Zombie (defender): Keep a useful forearm between th
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Progression to Zombie (defender): What matters when you maintain inside frames?",
+      "name": "Progression to Zombie (top): What should you retain after regaining your inside hand?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Keep a useful forearm between the bodies before the bottom player gains the hand-clearing path."
+        "text": "Retain the recovered frame so the guard player cannot immediately clear the hand out again."
       }
     },
     {
       "@type": "Question",
-      "name": "Progression to Zombie (defender): What matters when you keep elbow and hand connected?",
+      "name": "Progression to Zombie (top): Your hand starts inside; how do you finish recovering that arm?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Move the whole arm rather than leaving the wrist exposed while the elbow remains fixed."
+        "text": "Coordinated arm recovery prevents the wrist being left exposed while the elbow remains trapped outside."
       }
     },
     {
       "@type": "Question",
-      "name": "Progression to Zombie (defender): What matters when you notice the pummel early?",
+      "name": "Progression to Zombie (top): When should you react to the pummeling hand?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The free hand working under yours is the cue to recover inside position before the knee hug closes."
+        "text": "The under-hand entry is an early cue to recover inside position before the knee hug secures the arm outside."
       }
     },
     {
       "@type": "Question",
-      "name": "Progression to Zombie (defender): What matters when you recover without yanking?",
+      "name": "Progression to Zombie (top): How can a caught elbow return to your side?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Retract the elbow toward your ribs through available space, stopping if the shoulder is caught."
+        "text": "Draw the elbow beside the ribs when the shoulder has room; stop if the arm is already loaded."
       }
     },
     {
       "@type": "Question",
-      "name": "Progression to Zombie (defender): What matters when you rebuild posture gradually?",
+      "name": "Progression to Zombie (top): What must change before a strong posture recovery?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Raise the chest after freeing the arm and reducing the high-leg control."
+        "text": "Recover chest height only after the arm can move and the high leg no longer fixes the neck and shoulder."
       }
     }
   ]

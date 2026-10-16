@@ -202,142 +202,142 @@
     ],
     "flashcards": [
       {
-        "question": "Crackhead Control Entry (attacker): What matters when you start with broken posture?",
-        "answer": "Establish the first high leg and its hand support before adding the second leg.",
-        "answer_line": "Start with broken posture",
+        "question": "Crackhead Control Entry (bottom): What connection comes before the second leg rises?",
+        "answer": "Establish the first supported high leg and broken posture before bringing up the reinforcing leg.",
+        "answer_line": "A supported high shin in Mission Control",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Both feet crossed low behind the waist",
+            "An unsupported foot lifted beside the head"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "A high shin with the opponent still sitting beyond reach"
           ]
         }
       },
       {
-        "question": "Crackhead Control Entry (attacker): What matters when you bring the second leg high?",
-        "answer": "Reinforce the clinch without forcing the knees beyond a comfortable hip angle.",
-        "answer_line": "Bring the second leg high",
+        "question": "Crackhead Control Entry (bottom): Where does the reinforcing leg go?",
+        "answer": "The second leg rises behind the head to reinforce the facing upper-body clinch.",
+        "answer_line": "High behind the opponent's head",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Across the upper arm below the shoulder",
+            "On the hip beneath the opponent's elbow"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Beside the head with the shin outside the shoulder"
           ]
         }
       },
       {
-        "question": "Crackhead Control Entry (attacker): What matters when you track both elbows?",
-        "answer": "Do not assume that high legs alone have isolated an arm or completed Dead Orchard.",
-        "answer_line": "Track both elbows",
+        "question": "Crackhead Control Entry (bottom): What extra feature would identify Dead Orchard?",
+        "answer": "High legs alone do not complete Dead Orchard; confirm the both-arm leg figure-four separately.",
+        "answer_line": "A high leg figure-four enclosing both arms",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Two high legs without a locked both-arm triangle",
+            "One wrist cleared to the mat and covered"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "A single shin held behind the head"
           ]
         }
       },
       {
-        "question": "Crackhead Control Entry (attacker): What matters when you keep knees close?",
-        "answer": "Use hip position and connected leg pressure rather than pulling the feet against fixed knees.",
-        "answer_line": "Keep knees close",
+        "question": "Crackhead Control Entry (bottom): What supplies the angle for comfortable high-leg control?",
+        "answer": "Use hip positioning and a connected knee rather than forcing the foot against a fixed knee.",
+        "answer_line": "Hip positioning that brings the supported knee close",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "A pull on the foot while the knee stays fixed",
+            "Flat hips with the knee drifting outward"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "More foot height without bringing the hips closer"
           ]
         }
       },
       {
-        "question": "Crackhead Control Entry (attacker): What matters when you return to one-leg control?",
-        "answer": "Lower the reinforcing leg while preserving the first shin connection if you need Mission Control again.",
-        "answer_line": "Return to one-leg control",
+        "question": "Crackhead Control Entry (bottom): How can you return to one-leg control?",
+        "answer": "Keep the original high shin supported while lowering the second leg to return toward Mission Control.",
+        "answer_line": "Lower the reinforcing leg and keep the first shin grip",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Release the first shin while both legs stay high",
+            "Lower both legs before restoring the shin grip"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Lower the first leg and retain only the second"
           ]
         }
       },
       {
-        "question": "Crackhead Control Entry (attacker): What matters when you open against a stack?",
-        "answer": "Release and frame when the opponent compresses your upper back or you cannot comfortably maintain the clinch.",
-        "answer_line": "Open against a stack",
+        "question": "Crackhead Control Entry (bottom): The opponent folds your upper back; how do you reset?",
+        "answer": "Release the high clinch and recover frames when the upper back is compressed or the position becomes uncomfortable.",
+        "answer_line": "Open the clinch and insert inside frames",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Keep the high feet connected and push the chest",
+            "Lower one leg but keep pulling the head down"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Shift the hips underneath the closed high clinch"
           ]
         }
       },
       {
-        "question": "Crackhead Control Entry (attacker): What configuration must exist before this sequence?",
-        "answer": "The bottom guard player begins in Rubber Guard with Mission Control established, facing a top player whose posture is controlled.",
-        "answer_line": "Check the starting configuration",
+        "question": "Crackhead Control Entry (bottom): What must the opponent's posture allow at entry?",
+        "answer": "The entry starts from broken posture and a supported Mission Control connection, not a distant upright opponent.",
+        "answer_line": "Head and shoulders close to your supported knee",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "An upright torso beyond your supported knee",
+            "A nearby head with both shoulders drawn back"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Shoulders close while the raised knee drifts away"
           ]
         }
       },
       {
-        "question": "Crackhead Control Entry (attacker): What distinguishes this control from a similar-looking position?",
-        "answer": "The opponent still faces the guard player. Both arms may remain inside; this does not automatically complete Dead Orchard or Invisible Collar.",
-        "answer_line": "Check the defining controls",
+        "question": "Crackhead Control Entry (bottom): How do you check arm isolation after adding the second leg?",
+        "answer": "The second leg reinforces posture control; it does not by itself prove New York isolation or a completed both-arm triangle.",
+        "answer_line": "Locate both elbows relative to the high legs",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Check only whether both feet are above the head",
+            "Check only whether the head stays below the knee"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Check only whether the second leg touches the first"
           ]
         }
       },
       {
-        "question": "Crackhead Control Entry (attacker): When should the partners stop or reset?",
-        "answer": "Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.",
-        "answer_line": "Release before unsafe loading",
+        "question": "Crackhead Control Entry (bottom): Your foot rises but the knee twists; what should change?",
+        "answer": "Stop the foot pull when the knee is fixed or twisting; use a comfortable hip angle or abandon the entry.",
+        "answer_line": "Release the foot pull and reposition through the hip",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Pull the foot higher to finish the closure",
+            "Keep the knee planted and move the ankle inward"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Release the hand briefly but keep the knee wedged"
           ]
         }
       },
       {
-        "question": "Crackhead Control Entry (attacker): What should a cooperative first drill establish?",
-        "answer": "Identify the starting configuration and rehearse the first connection without finishing pressure. Establish the first high leg and its hand support before adding the second leg.",
-        "answer_line": "Rehearse the first connection",
+        "question": "Crackhead Control Entry (bottom): After losing the high clinch, what protects your ribs?",
+        "answer": "If the opponent frees the upper body, frame inside against chest pressure and rebuild ordinary guard.",
+        "answer_line": "An inside forearm frame as the knees recover",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Both hands chasing the opponent's head",
+            "Both legs reaching high with no upper-body contact"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "An overextended wrist grip outside the knees"
           ]
         }
       }
@@ -449,72 +449,72 @@
     ],
     "flashcards": [
       {
-        "question": "Crackhead Control Entry (defender): What matters when you keep the elbows compact?",
-        "answer": "Avoid extending an arm between the high legs where it can be isolated.",
-        "answer_line": "Keep the elbows compact",
+        "question": "Crackhead Control Entry (top): Which elbow position limits easy arm isolation?",
+        "answer": "Avoid straightening an arm between the high legs; keep the elbow compact while responding to the entry.",
+        "answer_line": "Bent near the ribs inside the guard space",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Straight between the opponent's high legs",
+            "Flared wide while the wrist stays pinned"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Reaching behind the opponent's head"
           ]
         }
       },
       {
-        "question": "Crackhead Control Entry (defender): What matters when you recognize the reinforcement?",
-        "answer": "A second leg climbing behind your head increases the posture-control problem.",
-        "answer_line": "Recognize the reinforcement",
+        "question": "Crackhead Control Entry (top): What does the second high leg add to the first shin grip?",
+        "answer": "Recognize the second leg as reinforcement of upper-body posture control before trying to lift.",
+        "answer_line": "More restraint on head-and-shoulder lift",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "A separate pin that fixes both wrists to the chest",
+            "A completed trap around both extended elbows"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "A one-arm isolation with the other shoulder released"
           ]
         }
       },
       {
-        "question": "Crackhead Control Entry (defender): What matters when you control the hip line early?",
-        "answer": "Build a balanced base and an early hip frame before the high clinch closes.",
-        "answer_line": "Control the hip line early",
+        "question": "Crackhead Control Entry (top): When can a hip or thigh frame interrupt the second-leg climb?",
+        "answer": "An early hip or thigh frame with balanced base can preserve space before the high clinch closes.",
+        "answer_line": "Before the high clinch closes around the shoulders",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "After both high legs have closed around the shoulders",
+            "After an extended arm has been isolated in the high legs"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "When forward stacking has folded the bottom player's neck"
           ]
         }
       },
       {
-        "question": "Crackhead Control Entry (defender): What matters when you clear the upper enclosure?",
-        "answer": "Undo the high-leg connection before attempting to stand tall or extract an arm.",
-        "answer_line": "Clear the upper enclosure",
+        "question": "Crackhead Control Entry (top): What precedes standing tall or extracting an arm?",
+        "answer": "Clear the high enclosure before posture recovery or arm extraction; do not pull against a retained shoulder connection.",
+        "answer_line": "Opening the high legs around the shoulders",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Only releasing a waist-level ankle crossing",
+            "Only lifting your chin above one foot"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Only stepping one foot farther back"
           ]
         }
       },
       {
-        "question": "Crackhead Control Entry (defender): What matters when you keep a safe spine?",
-        "answer": "Do not answer the clinch by driving the partner onto the neck.",
-        "answer_line": "Keep a safe spine",
+        "question": "Crackhead Control Entry (top): What can forward stacking do while the high clinch stays closed?",
+        "answer": "Do not use a neck stack to answer the high clinch. Address the upper-body connection with balanced control.",
+        "answer_line": "It loads their neck without releasing your shoulder trap",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "The forward fold makes the reinforcing leg slide below your elbow",
+            "Stacking moves your shoulder through the knee hug"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Head pressure substitutes for opening the high-leg connection"
           ]
         }
       }

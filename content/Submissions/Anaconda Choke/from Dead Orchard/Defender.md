@@ -58,42 +58,42 @@ description: "Anaconda Choke from Dead Orchard (defender): An arm passing beneat
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Anaconda Choke from Dead Orchard (defender): What matters when you recognize the thread?",
+      "name": "Anaconda defense: which arm path identifies the approaching enclosure?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "An arm passing beneath the neck toward the armpit signals the Anaconda enclosure."
+        "text": "Beneath your neck toward your armpit. An arm passing beneath the neck toward the armpit signals the Anaconda enclosure."
       }
     },
     {
       "@type": "Question",
-      "name": "Anaconda Choke from Dead Orchard (defender): What matters when you keep an early frame?",
+      "name": "Anaconda defense: where should an early frame preserve space?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Preserve space between the shoulder and neck before the attacker closes the arm loop."
+        "text": "Between your trapped shoulder and neck. Preserve space between the shoulder and neck before the attacker closes the arm loop."
       }
     },
     {
       "@type": "Question",
-      "name": "Anaconda Choke from Dead Orchard (defender): What matters when you protect head alignment?",
+      "name": "Anaconda defense: what becomes a load-bearing brace if you plant your head during their roll?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Do not fight a secured loop by twisting the neck or planting the head against a roll."
+        "text": "The neck beneath the turning body. A planted head can leave the neck carrying force as the torso rotates. Do not use it to resist a secured head-and-arm enclosure."
       }
     },
     {
       "@type": "Question",
-      "name": "Anaconda Choke from Dead Orchard (defender): What matters when you address the grip?",
+      "name": "Anaconda defense: how should you hand fight before the loop tightens?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Hand fight before the enclosure becomes tight, while keeping the trapped elbow connected to the torso."
+        "text": "Address the grip with your trapped elbow near your torso. Hand fight before the enclosure becomes tight, while keeping the trapped elbow connected to the torso."
       }
     },
     {
       "@type": "Question",
-      "name": "Anaconda Choke from Dead Orchard (defender): What matters when you tap before symptoms?",
+      "name": "Anaconda defense: why is a last-second roll not a reliable response to a secured choke?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Stop if the neck enclosure is secure rather than relying on a last-second roll."
+        "text": "The head-and-arm loop may stay closed through the roll. Stop if the neck enclosure is secure rather than relying on a last-second roll."
       }
     }
   ]

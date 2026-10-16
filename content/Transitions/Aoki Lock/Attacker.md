@@ -68,7 +68,7 @@ description: "Aoki Lock (attacker): Identify the turned-out foot without forcing
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Aoki Lock (attacker): What matters when you confirm the foot orientation?",
+      "name": "Aoki Lock (attacker): Which foot orientation supplies this capture?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Identify the turned-out foot without forcing it to rotate against resistance."
@@ -76,7 +76,7 @@ description: "Aoki Lock (attacker): Identify the turned-out foot without forcing
     },
     {
       "@type": "Question",
-      "name": "Aoki Lock (attacker): What matters when you enclose the foot?",
+      "name": "Aoki Lock (attacker): Where do the upper arm and forearm contact the foot?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Bring the instep under the upper arm and support the heel/Achilles region with the forearm."
@@ -84,7 +84,7 @@ description: "Aoki Lock (attacker): Identify the turned-out foot without forcing
     },
     {
       "@type": "Question",
-      "name": "Aoki Lock (attacker): What matters when you connect the hands?",
+      "name": "Aoki Lock (attacker): What is the purpose of connecting the arms around the foot?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Secure the upper-body enclosure while leaving the foot unloaded during practice."
@@ -92,7 +92,7 @@ description: "Aoki Lock (attacker): Identify the turned-out foot without forcing
     },
     {
       "@type": "Question",
-      "name": "Aoki Lock (attacker): What matters when you manage the hip?",
+      "name": "Aoki Lock (attacker): What do your legs control in addition to the foot grip?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use the legs and hip connection to limit free movement without twisting a planted knee."
@@ -100,7 +100,7 @@ description: "Aoki Lock (attacker): Identify the turned-out foot without forcing
     },
     {
       "@type": "Question",
-      "name": "Aoki Lock (attacker): What matters when you stop at controlled capture?",
+      "name": "Aoki Lock (attacker): Why can a small bridge already load this lock?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Recognize that a small body extension can create rotational ankle and knee pressure; do not search for a large finishing movement."
@@ -108,7 +108,7 @@ description: "Aoki Lock (attacker): Identify the turned-out foot without forcing
     },
     {
       "@type": "Question",
-      "name": "Aoki Lock (attacker): What matters when you release before movement?",
+      "name": "Aoki Lock (attacker): The partner taps while their leg is entangled. What opens?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Open the arms and leg connection on a tap, sudden turn, or loss of communication."

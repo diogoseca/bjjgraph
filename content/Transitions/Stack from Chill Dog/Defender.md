@@ -56,42 +56,42 @@ description: "Stack from Chill Dog (defender): Keep the opposing hand on the mat
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Stack from Chill Dog (defender): What matters when you secure New York first?",
+      "name": "Stack from Chill Dog (bottom): What connection retains the arm while pressure is mild?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Keep the opposing hand on the mat and hug the knee before changing the head-side grip."
+        "text": "When the position remains comfortable, keep the arm isolated with the knee supported; do not retain it through harmful stacking."
       }
     },
     {
       "@type": "Question",
-      "name": "Stack from Chill Dog (defender): What matters when you turn onto the hip?",
+      "name": "Stack from Chill Dog (bottom): How should you adjust the high leg through available space?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Bring the knee toward the chest through hip movement so the neck-clearing motion does not twist the knee."
+        "text": "A hip-angle change supports the raised knee without pulling the foot against a fixed joint."
       }
     },
     {
       "@type": "Question",
-      "name": "Stack from Chill Dog (defender): What matters when you clear the neck?",
+      "name": "Stack from Chill Dog (bottom): When the stack becomes neck-loading, what should you do?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Move the controlling arm around the head while keeping the leg and trapped arm connected."
+        "text": "Release the unsustainable high connection and obtain an unloaded reset rather than trying to preserve Chill Dog at the neck's expense."
       }
     },
     {
       "@type": "Question",
-      "name": "Stack from Chill Dog (defender): What matters when you place the inside frame?",
+      "name": "Stack from Chill Dog (bottom): Where should the early forearm barrier sit?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Use the forearm near the shoulder line to manage forward pressure; do not let the frame collapse across your own wrist."
+        "text": "An inside forearm manages forward shoulder pressure while there is still space; it should not collapse across your wrist."
       }
     },
     {
       "@type": "Question",
-      "name": "Stack from Chill Dog (defender): What matters when you maintain the arm trap?",
+      "name": "Stack from Chill Dog (bottom): After releasing the stack, what rebuilds guard?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Keep the knee hug while choosing further control such as Invisible Collar or an omoplata setup."
+        "text": "Once the high connection and harmful load are gone, move the hips behind an inside shoulder frame and recover knee space."
       }
     }
   ]

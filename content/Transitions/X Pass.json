@@ -199,142 +199,142 @@
     ],
     "flashcards": [
       {
-        "question": "X Pass (attacker): What matters when you establish a standing base?",
+        "question": "X Pass (top): What starting base supports the kick-pass action?",
         "answer": "Stay balanced over the open guard with the feet able to move.",
-        "answer_line": "Establish a standing base",
+        "answer_line": "Standing over open guard with feet free to move",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Kneeling chest-to-chest inside a locked half guard",
+            "Standing with the passing ankle fixed in a tight hook"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Seated outside the knees with both feet off the mat"
           ]
         }
       },
       {
-        "question": "X Pass (attacker): What matters when you control shoulders and knees?",
+        "question": "X Pass (top): What controls manage both the shoulders and knee line?",
         "answer": "Use appropriate upper-body and knee-line grips or posts to limit the guard player following the pass.",
-        "answer_line": "Control shoulders and knees",
+        "answer_line": "Upper-body and knee-line grips or posts",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Both hands pulling the head with knees uncontrolled",
+            "Both hands at the knees with the shoulders unrestrained"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "A shoulder grip with the other hand resting on your own thigh"
           ]
         }
       },
       {
-        "question": "X Pass (attacker): What matters when you make the trapped leg light?",
+        "question": "X Pass (top): How do you make the passing leg light?",
         "answer": "Shift weight onto the supporting leg without leaning the head beyond the base.",
-        "answer_line": "Make the trapped leg light",
+        "answer_line": "Shift weight onto the supporting leg",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Put all weight on the leg you intend to retract",
+            "Keep weight equal on both feet as the kick starts"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Transfer weight forward beyond the supporting foot"
           ]
         }
       },
       {
-        "question": "X Pass (attacker): What matters when you kick the leg back?",
+        "question": "X Pass (top): Which leg movement clears a loose guard connection?",
         "answer": "Retract the leg through available space rather than twisting a foot caught in a fixed entanglement.",
-        "answer_line": "Kick the leg back",
+        "answer_line": "Retract the passing leg backward through available space",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Turn the knee while the foot stays firmly trapped",
+            "Drive the foot farther into the opponent's locked legs"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Lift the knee only while leaving the ankle hooked"
           ]
         }
       },
       {
-        "question": "X Pass (attacker): What matters when you circle outside the knee line?",
+        "question": "X Pass (top): After leg retraction, where do you move?",
         "answer": "Move around the cleared legs while keeping the opponent's hips from tracking your path.",
-        "answer_line": "Circle outside the knee line",
+        "answer_line": "Around the outside of the opponent's knee line",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Straight back between both knees",
+            "Across the upper knee while the far knee remains between you"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Directly toward the chest through the remaining knee frame"
           ]
         }
       },
       {
-        "question": "X Pass (attacker): What matters when you settle the top control?",
+        "question": "X Pass (top): What must be established at the finish?",
         "answer": "Establish knee on belly or side control with balanced weight after the knees are fully passed.",
-        "answer_line": "Settle the top control",
+        "answer_line": "A balanced knee-on-belly or side-control pin",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Chest pressure while both knees remain between you",
+            "A grip on both ankles with no torso contact"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "A kick followed by standing out of contact"
           ]
         }
       },
       {
-        "question": "X Pass (attacker): What configuration must exist before this sequence?",
+        "question": "X Pass (top): What space is required before starting the kick back?",
         "answer": "The passer stands over a seated or supine open guard with a manageable knee line and room to retract one leg.",
-        "answer_line": "Check the starting configuration",
+        "answer_line": "Room to retract a leg from a loose connection",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Hip room while the passing ankle remains clamped",
+            "A free upper knee with the lower foot still caught"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Space beside the torso while both knees retain your leg"
           ]
         }
       },
       {
-        "question": "X Pass (attacker): What distinguishes this control from a similar-looking position?",
+        "question": "X Pass (top): Why is grinding chest pressure through locked half guard different?",
         "answer": "The kick-back action clears a loose leg connection. A firmly locked half guard must be released first; chest-to-chest crossface pressure alone is a different pass.",
-        "answer_line": "Check the defining controls",
+        "answer_line": "It lacks the standing backward leg-clearance action",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Chest pressure releases the trapped ankle before any backward step",
+            "Crossing the controlling hands supplies the same leg-clearance mechanism"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Finishing beside the ribs establishes the same pass regardless of leg motion"
           ]
         }
       },
       {
-        "question": "X Pass (attacker): When should the partners stop or reset?",
+        "question": "X Pass (top): Your ankle remains fixed as you start to kick. What next?",
         "answer": "Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.",
-        "answer_line": "Release before unsafe loading",
+        "answer_line": "Stop and free the entanglement before retracting",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Shift more weight onto the support leg and continue kicking",
+            "Move your hips around while leaving the foot inside the hook"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Release the upper-body grip but keep retracting the caught leg"
           ]
         }
       },
       {
-        "question": "X Pass (attacker): What should a cooperative first drill establish?",
-        "answer": "Identify the starting configuration and rehearse the first connection without finishing pressure. Stay balanced over the open guard with the feet able to move.",
-        "answer_line": "Rehearse the first connection",
+        "question": "X Pass (top): Why must hip control continue after the knees are passed?",
+        "answer": "Use the circling angle and hip control to prevent the knees recovering before the upper-body pin settles.",
+        "answer_line": "The guard player can turn and reinsert a knee",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "The first cleared knee leaves no inside route for the far knee",
+            "Chest contact prevents the pelvis from turning beneath the pin"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Holding the old ankle keeps the hips from rotating toward you"
           ]
         }
       }
@@ -437,72 +437,72 @@
     ],
     "flashcards": [
       {
-        "question": "X Pass (defender): What matters when you read the standing grips?",
+        "question": "X Pass (bottom): What cue suggests the passer is preparing a kick back?",
         "answer": "Control on the knee line plus a light passing leg signals a kick-pass attempt.",
-        "answer_line": "Read the standing grips",
+        "answer_line": "Knee-line control with one passing leg becoming light",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Their weight settling onto the leg caught in your guard",
+            "Their knees settling while chest pressure closes the distance"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Their hands lifting off your knee line as both feet retreat"
           ]
         }
       },
       {
-        "question": "X Pass (defender): What matters when you keep the knees tracking?",
+        "question": "X Pass (bottom): How do you keep your guard facing the passing angle?",
         "answer": "Turn the hips so the knees continue facing the passer before the leg retracts.",
-        "answer_line": "Keep the knees tracking",
+        "answer_line": "Turn the hips so the knees track the passer",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Leave the knees behind while reaching with both arms",
+            "Turn the shoulders toward them while leaving the hips still"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Extend both legs away while keeping the hip angle fixed"
           ]
         }
       },
       {
-        "question": "X Pass (defender): What matters when you maintain distance frames?",
+        "question": "X Pass (bottom): What helps prevent the passer collapsing onto your upper body?",
         "answer": "Use safe hand and foot frames to prevent upper-body collapse.",
-        "answer_line": "Maintain distance frames",
+        "answer_line": "Hand and foot frames maintaining distance",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Both hands stretched behind the passer's back",
+            "Knees pointed away while you pull the head close"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Both hands on their knee with the shoulder line unframed"
           ]
         }
       },
       {
-        "question": "X Pass (defender): What matters when you recover the leg connection?",
+        "question": "X Pass (bottom): When can a knee or hook restore your leg connection?",
         "answer": "Pummel a knee or hook back inside while the passer is still outside the hip line.",
-        "answer_line": "Recover the leg connection",
+        "answer_line": "While inside space remains before hip clearance",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "After a fully settled pin with no frame or space",
+            "Once the chest pin closes while your knees stay outside"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "After the hips are passed, without first rebuilding a frame"
           ]
         }
       },
       {
-        "question": "X Pass (defender): What matters when you protect the landing?",
+        "question": "X Pass (bottom): If the passer reaches your side, what should you rebuild first?",
         "answer": "Frame at the shoulders and hips if the passer reaches knee on belly or side control.",
-        "answer_line": "Protect the landing",
+        "answer_line": "Frames at the shoulder and hip to make knee space",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Both arms chasing their far ankle",
+            "A head pull with your near elbow flared away"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "The original guard grip without any body frame"
           ]
         }
       }

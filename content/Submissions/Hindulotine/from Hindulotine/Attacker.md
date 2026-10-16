@@ -70,50 +70,50 @@ description: "Hindulotine from Hindulotine (attacker): Turn onto the hip and kee
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Hindulotine from Hindulotine (attacker): What matters when you support the high knee?",
+      "name": "Hindulotine attack: what hip orientation helps bring the raised foot within reach?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Turn onto the hip and keep the knee close so the foot is reached through body position."
+        "text": "Rolled onto one side rather than flat on the back. Use the hip angle to bring the supported leg within reach. Keep the knee close and avoid hauling the foot against a fixed knee."
       }
     },
     {
       "@type": "Question",
-      "name": "Hindulotine from Hindulotine (attacker): What matters when you loop over the foot?",
+      "name": "Hindulotine attack: after your elbow passes the raised foot, where does that hand travel?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Bring the elbow above the raised foot and the hand around the shoulder into the head-control space."
+        "text": "Around the opponent's shoulder toward the head. Route the hand around the shoulder into the head-control space after the elbow clears the foot. Keep the knee supported rather than pulling the foot against a fixed knee."
       }
     },
     {
       "@type": "Question",
-      "name": "Hindulotine from Hindulotine (attacker): What matters when you establish Hindu Control?",
+      "name": "Hindulotine attack: where must the controlling elbow pass relative to your raised foot?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Retain the leg-and-arm enclosure without adding neck pressure while locating the second hand."
+        "text": "Above the supported foot. The controlling elbow passes over the raised foot, then the hand travels around the shoulder. Preserve an unloaded leg-and-arm connection while finding the second hand."
       }
     },
     {
       "@type": "Question",
-      "name": "Hindulotine from Hindulotine (attacker): What matters when you connect the finishing grip?",
+      "name": "Hindulotine attack: which two connections appear in Ben Eddy's early and later teaching?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Use the demonstrated S-grip or the earlier reverse-gable variation without wrenching the wrist or knee."
+        "text": "Reverse-gable in the early lesson; S-grip later. Use the demonstrated S-grip or the earlier reverse-gable variation without wrenching the wrist or knee."
       }
     },
     {
       "@type": "Question",
-      "name": "Hindulotine from Hindulotine (attacker): What matters when you remove slack gradually?",
+      "name": "Hindulotine attack: how should connected elbow movement remove the last slack?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Lift the connected elbows only enough to close space; stop immediately if the pressure becomes a neck twist."
+        "text": "Lift to close space while keeping the neck aligned. Lift the connected elbows only enough to close space; stop immediately if the pressure becomes a neck twist."
       }
     },
     {
       "@type": "Question",
-      "name": "Hindulotine from Hindulotine (attacker): What matters when you open hands and leg?",
+      "name": "Hindulotine attack: what must release on a tap even if the opponent passed your lower leg?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Release the whole enclosure at the first tap or change in responsiveness, including if the opponent has passed the lower leg."
+        "text": "Both hands and the raised-leg enclosure. Release the whole enclosure at the first tap or change in responsiveness, including if the opponent has passed the lower leg."
       }
     }
   ]

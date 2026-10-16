@@ -290,114 +290,114 @@
     ],
     "flashcards": [
       {
-        "question": "Dead Orchard Control (top): What matters when you recognize both-arm capture?",
+        "question": "Dead Orchard defense: both arms are inside the high leg triangle; what is the immediate threat?",
         "answer": "Treat a high leg triangle containing both your arms as an arm-lock threat even when the neck is not being choked.",
-        "answer_line": "Recognize both-arm capture",
+        "answer_line": "An isolated elbow can be extended",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Neck compression while both elbows stay safe from extension",
+            "The high legs opening as a captured wrist is pulled away"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "The shoulder slipping free as the trapped elbow straightens"
           ]
         }
       },
       {
-        "question": "Dead Orchard Control (top): What matters when you protect the elbows?",
+        "question": "Dead Orchard defense: what arm position avoids offering an easy straight-arm lever?",
         "answer": "Keep the arms compact and avoid offering a straight arm while trying to force posture.",
-        "answer_line": "Protect the elbows",
+        "answer_line": "Keep your elbows bent and compact",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Straighten both elbows to push their hips",
+            "Reach one arm far behind their back"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Lock both arms overhead to lift your chest"
           ]
         }
       },
       {
-        "question": "Dead Orchard Control (top): What matters when you prevent the leg closure?",
+        "question": "Dead Orchard defense: before the legs close high, where can an early frame interrupt the climb?",
         "answer": "Maintain an early frame at the hip or thigh before the figure-four closes around the shoulders.",
-        "answer_line": "Prevent the leg closure",
+        "answer_line": "Against the hip or approaching thigh",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "On the mat beyond their head while the hips remain unframed",
+            "Against their far shoulder with the climbing-side elbow flared"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Across your own chest without contacting the approaching thigh"
           ]
         }
       },
       {
-        "question": "Dead Orchard Control (top): What matters when you clear a shoulder safely?",
+        "question": "Dead Orchard defense: what is the order for withdrawing a shoulder from the enclosure?",
         "answer": "Work on opening the leg enclosure before withdrawing the shoulder and elbow together; stop if an arm is already loaded.",
-        "answer_line": "Clear a shoulder safely",
+        "answer_line": "Open the legs, then clear shoulder and elbow together",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Pull the elbow out while the shoulder stays trapped",
+            "Raise your chest before the leg triangle opens"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Twist the wrist while leaving both shoulders enclosed"
           ]
         }
       },
       {
-        "question": "Dead Orchard Control (top): What matters when you recover base in stages?",
+        "question": "Dead Orchard defense: when can you safely begin rebuilding upright posture?",
         "answer": "Only raise posture after the shoulder line is free; a sudden pull can extend a captured elbow.",
-        "answer_line": "Recover base in stages",
+        "answer_line": "After the controlling shoulder line is free",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "As soon as your neck no longer feels pressure",
+            "While both elbows remain above the leg line"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "When one hand reaches the opponent's hip"
           ]
         }
       },
       {
-        "question": "Dead Orchard Control (top): What matters when you tap with any free signal?",
+        "question": "Dead Orchard defense: with both hands trapped, how can you signal the attacker to stop?",
         "answer": "Use a verbal tap or foot tap if both hands are trapped, and do not rely on pain to judge remaining range.",
-        "answer_line": "Tap with any free signal",
+        "answer_line": "Use a clear verbal or foot tap immediately",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Delay the signal until one hand can be pulled through the legs",
+            "Keep the grips and try to straighten a trapped arm first"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Give only an ambiguous head movement without an agreed stop signal"
           ]
         }
       },
       {
-        "question": "Dead Orchard Control (top): What configuration must exist before this sequence?",
+        "question": "Dead Orchard defense: what lets the bottom player keep your shoulders within leg reach?",
         "answer": "The bottom player faces the opponent and keeps the hips close beneath the shoulders.",
-        "answer_line": "Check the starting configuration",
+        "answer_line": "Their hips stay close beneath your shoulders",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Their hips retreat far beyond your knees",
+            "Their pelvis stays distant while only the hands pull your head closer"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Their knees straighten while their hips slide away from your chest"
           ]
         }
       },
       {
-        "question": "Dead Orchard Control (top): What distinguishes this control from a similar-looking position?",
+        "question": "Dead Orchard defense: what distinguishes this trap from an anaconda front headlock?",
         "answer": "The defining feature is both shoulders and arms enclosed by the legs. An anaconda instead uses an arm loop around the neck and one arm from a front headlock; the two controls require different body configurations.",
-        "answer_line": "Check the defining controls",
+        "answer_line": "Their legs surround both shoulders and arms",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "An arm loop surrounds your neck and one shoulder",
+            "One arm stays outside a leg triangle around the neck"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Two high legs restrict posture while both elbows remain free"
           ]
         }
       }
@@ -675,114 +675,114 @@
     ],
     "flashcards": [
       {
-        "question": "Dead Orchard Control (bottom): What matters when you break posture first?",
+        "question": "Dead Orchard control: what must happen before you climb the legs around the shoulders?",
         "answer": "Bring the shoulders close before climbing the legs; reaching for a distant head leaves the guard loose.",
-        "answer_line": "Break posture first",
+        "answer_line": "Bring the opponent's upper body close",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Push their chest away to straighten your knees",
+            "Reach for the head with your hips far back"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Let their posture rise while you cross your ankles"
           ]
         }
       },
       {
-        "question": "Dead Orchard Control (bottom): What matters when you enclose both arms?",
+        "question": "Dead Orchard control: how many opposing arms belong inside your high leg figure-four?",
         "answer": "Confirm that both shoulders remain inside the high leg triangle rather than treating a one-arm triangle as Dead Orchard.",
-        "answer_line": "Enclose both arms",
+        "answer_line": "Both arms, with both shoulders enclosed",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "One arm, with the other shoulder fully outside",
+            "Neither arm, with the legs only around the neck"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "One wrist, with both shoulders below your knees"
           ]
         }
       },
       {
-        "question": "Dead Orchard Control (bottom): What matters when you keep the knee supported?",
+        "question": "Dead Orchard control: how do you bring the leg high without twisting a planted knee?",
         "answer": "Turn the hips and bring the knee toward the torso instead of hauling the foot across a fixed knee.",
-        "answer_line": "Keep the knee supported",
+        "answer_line": "Turn your hips and bring the knee toward your torso",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Pull your foot across while the knee stays fixed",
+            "Flatten your hips and haul the ankle upward"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Straighten your knee while forcing the toes inward"
           ]
         }
       },
       {
-        "question": "Dead Orchard Control (bottom): What matters when you control an elbow?",
+        "question": "Dead Orchard control: what should maintain posture control while your hands isolate an elbow?",
         "answer": "Hold an exposed arm without straightening it to its limit; leg control should carry the posture work.",
-        "answer_line": "Control an elbow",
+        "answer_line": "The high leg enclosure around the shoulders",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "A hard pull that straightens the captured arm",
+            "Your feet pushing on the opponent's hips"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Both hands pulling only on the opponent's head"
           ]
         }
       },
       {
-        "question": "Dead Orchard Control (bottom): What matters when you follow the shoulder line?",
+        "question": "Dead Orchard control: the opponent starts withdrawing a shoulder; how should you respond?",
         "answer": "Adjust the hip angle if the opponent starts withdrawing a shoulder, and recover guard if the enclosure opens.",
-        "answer_line": "Follow the shoulder line",
+        "answer_line": "Adjust your hips to follow the shoulder line",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Keep your hips fixed and pull only the wrist",
+            "Squeeze the neck while letting both arms escape"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Extend the trapped elbow to stop all movement"
           ]
         }
       },
       {
-        "question": "Dead Orchard Control (bottom): What matters when you release before loading?",
+        "question": "Dead Orchard control: what releases the partner when they tap during arm isolation?",
         "answer": "Uncross the legs and let the arm go immediately on a tap, pain, or unsafe stacking pressure.",
-        "answer_line": "Release before loading",
+        "answer_line": "Uncross your legs and let the arm go",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Release the wrist but keep the high triangle tight",
+            "Open one hand while straightening the elbow"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Pull their shoulder closer before opening the legs"
           ]
         }
       },
       {
-        "question": "Dead Orchard Control (bottom): What configuration must exist before this sequence?",
+        "question": "Dead Orchard control: where should your pelvis be while you build the high guard?",
         "answer": "The bottom player faces the opponent and keeps the hips close beneath the shoulders.",
-        "answer_line": "Check the starting configuration",
+        "answer_line": "Close underneath the opponent's shoulder line",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Back near their knees with the legs reaching up at full length",
+            "Far to one side so the opposite shoulder lies outside the leg reach"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Away from their torso while only the hands pull the head closer"
           ]
         }
       },
       {
-        "question": "Dead Orchard Control (bottom): What distinguishes this control from a similar-looking position?",
+        "question": "Dead Orchard control: what changes if one opposing shoulder escapes outside your legs?",
         "answer": "The defining feature is both shoulders and arms enclosed by the legs. An anaconda instead uses an arm loop around the neck and one arm from a front headlock; the two controls require different body configurations.",
-        "answer_line": "Check the defining controls",
+        "answer_line": "The defining two-arm enclosure is lost",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "The remaining shoulder alone preserves the two-arm trap",
+            "Crossed ankles at the waist replace the high triangle"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "A wrist grip outside the legs keeps both shoulders enclosed"
           ]
         }
       }

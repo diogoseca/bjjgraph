@@ -202,114 +202,114 @@
     ],
     "flashcards": [
       {
-        "question": "Sweep from Chill Dog (attacker): What matters when you retain comfortable posture control?",
-        "answer": "Keep the opposing hand on the mat and hug the knee before changing the head-side grip.",
-        "answer_line": "Retain comfortable posture control",
+        "question": "Sweep from Chill Dog (bottom): What upper-body connection can help control one post?",
+        "answer": "Chill Dog can retain one arm outside through the New York wrap; that provides one control but not a complete sweep setup.",
+        "answer_line": "The overhook and knee hug around the isolated arm",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Only a loose leg hanging behind the head",
+            "Both hands pulling the head with the arm free"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "The knee held high after the overhook opens"
           ]
         }
       },
       {
-        "question": "Sweep from Chill Dog (attacker): What matters when you identify the posting arm?",
-        "answer": "Determine which arm can prevent the intended reversal; do not assume an isolated arm removes every post.",
-        "answer_line": "Identify the posting arm",
+        "question": "Sweep from Chill Dog (bottom): What must you check before choosing a tipping direction?",
+        "answer": "One isolated arm does not remove every post. Assess the remaining supports before selecting a separately taught sweep.",
+        "answer_line": "Which hand or leg can still support their base",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Only which arm the knee hug has already isolated",
+            "Only the width of their knees, ignoring the free hand"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Whether the head stays low, treating both arms as unavailable"
           ]
         }
       },
       {
-        "question": "Sweep from Chill Dog (attacker): What matters when you control the available post?",
-        "answer": "Use a safe wrist or arm connection without manipulating individual fingers.",
-        "answer_line": "Control the available post",
+        "question": "Sweep from Chill Dog (bottom): Their free hand can stop the tip; how should your wrist grip work?",
+        "answer": "Use wrist or arm control to deny the hand a weight-bearing post in the chosen tipping direction. Mere wrist contact is insufficient if the palm can still reach the mat; do not substitute individual finger manipulation. This is a posting-control prerequisite for a separately established sweep, not a complete Chill Dog sweep sequence.",
+        "answer_line": "Keep that hand from taking weight on the mat",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Hold the wrist low while leaving the palm planted",
+            "Keep wrist contact while letting the arm extend to post"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Release the wrist as soon as your hips begin tipping"
           ]
         }
       },
       {
-        "question": "Sweep from Chill Dog (attacker): What matters when you test the base without forcing?",
-        "answer": "Use a small hip movement to check balance while retaining a stable guard.",
-        "answer_line": "Test the base without forcing",
+        "question": "Sweep from Chill Dog (bottom): What should a small hip movement test?",
+        "answer": "A controlled balance check helps identify a usable opening without committing to an unsupported reversal.",
+        "answer_line": "Whether their base shifts while you retain guard",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Whether their head lowers while both knees stay planted",
+            "Whether the knee hug feels tighter without their weight moving"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Whether your hips move even as their posts hold firm"
           ]
         }
       },
       {
-        "question": "Sweep from Chill Dog (attacker): What matters when you require a defined sweep setup?",
-        "answer": "Proceed only after a coach has established the leg placement and direction for the chosen sweep.",
-        "answer_line": "Require a defined sweep setup",
+        "question": "Sweep from Chill Dog (bottom): A chosen sweep stalls on their free hand; why?",
+        "answer": "The isolated arm is only one removed post. If the other hand supports their weight along the chosen sweep direction, the base remains.",
+        "answer_line": "That hand still supports weight in the tipping direction",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "The knee hug has already disabled that free hand",
+            "The hand cannot carry weight while their head stays low"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "The free hand is irrelevant once the first arm is trapped"
           ]
         }
       },
       {
-        "question": "Sweep from Chill Dog (attacker): What matters when you stabilize the actual landing?",
-        "answer": "Release dangerous arm tension and establish the top position that actually results; mount requires additional leg clearance.",
-        "answer_line": "Stabilize the actual landing",
+        "question": "Sweep from Chill Dog (bottom): What must be checked after a separately established sweep?",
+        "answer": "Coming on top is not automatically mount; stabilize the position actually reached and clear legs as needed.",
+        "answer_line": "The actual top pin and remaining leg entanglements",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Only whether their shoulders touch, without checking the legs",
+            "Only whether you are above them, assuming both legs cleared"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Only whether the overhook survives, assuming the pin is settled"
           ]
         }
       },
       {
-        "question": "Sweep from Chill Dog (attacker): What configuration must exist before this sequence?",
-        "answer": "The bottom player faces the opponent in Chill Dog, with a high leg controlling posture.",
-        "answer_line": "Check the starting configuration",
+        "question": "Sweep from Chill Dog (bottom): Their base stays stable as your high guard opens; what next?",
+        "answer": "If a sweep is unavailable and the high connection fails, retain guard with a frame and hip escape rather than forcing the reversal.",
+        "answer_line": "Recover a knee behind an inside shoulder frame",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Continue pulling the head while both knees fall outside",
+            "Treat the knee hug alone as proof of a sweep"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Keep testing the tip while letting their shoulder fill the gap"
           ]
         }
       },
       {
-        "question": "Sweep from Chill Dog (attacker): What distinguishes this control from a similar-looking position?",
-        "answer": "The reviewed rubber-guard instruction supports controlling posture and a posting arm. It does not establish this node's unspecified direct sweep to mount; a specific sweep setup must be chosen before live practice.",
-        "answer_line": "Check the defining controls",
+        "question": "Sweep from Chill Dog (bottom): Why does keeping their hand outside not guarantee mount?",
+        "answer": "A posting-arm restriction is only part of a sweep; leg work, direction and the resulting top configuration still need establishment.",
+        "answer_line": "It controls one arm but leaves base and landing unresolved",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Because a low head alone determines the landing angle",
+            "Because the overhook also removes the far hand post"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Because getting above the hips already clears both legs"
           ]
         }
       }
@@ -412,72 +412,72 @@
     ],
     "flashcards": [
       {
-        "question": "Sweep from Chill Dog (defender): What matters when you track the trapped elbow?",
-        "answer": "Keep the free hand available for framing while preventing the isolated elbow from being pulled further away from your torso.",
-        "answer_line": "Track the trapped elbow",
+        "question": "Sweep from Chill Dog (top): Which limb remains useful while the other arm is isolated?",
+        "answer": "Keep the available arm useful while avoiding further separation of the captured elbow; one trapped arm does not remove every support.",
+        "answer_line": "Your free arm for inside framing and balance",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "The trapped arm as a rigid, extended post",
+            "Both hands reaching for their controlling ankle"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "The free arm tucked tight behind your hip"
           ]
         }
       },
       {
-        "question": "Sweep from Chill Dog (defender): What matters when you recognize neck clearing?",
-        "answer": "The opponent changing the hand around your head signals the move beyond New York, not a turtle escape.",
-        "answer_line": "Recognize neck clearing",
+        "question": "Sweep from Chill Dog (top): What does the head-side grip change prove by itself?",
+        "answer": "A Chill Dog grip change concerns upper-body control; it does not establish that your base has been overturned.",
+        "answer_line": "Their neck-clearing control, not a completed reversal",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Both of your hand posts have been removed",
+            "Your knees have lost their supporting contact"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Your weight has moved beyond the remaining leg base"
           ]
         }
       },
       {
-        "question": "Sweep from Chill Dog (defender): What matters when you deny the second leg?",
-        "answer": "Keep a safe base and prevent the free leg from closing high behind your head.",
-        "answer_line": "Deny the second leg",
+        "question": "Sweep from Chill Dog (top): What should you deny before their high clinch strengthens?",
+        "answer": "An early inside barrier can prevent the second leg reinforcing posture control while you preserve a balanced base.",
+        "answer_line": "The free leg closing behind your head",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Their free foot settling on the floor",
+            "Their knee returning below your chest"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Their free foot resting against your hip below the ribs"
           ]
         }
       },
       {
-        "question": "Sweep from Chill Dog (defender): What matters when you undo the arm isolation?",
-        "answer": "Recover the elbow toward your ribs only when the leg enclosure has slack, rather than jerking the shoulder.",
-        "answer_line": "Undo the arm isolation",
+        "question": "Sweep from Chill Dog (top): What must happen before a large balance adjustment?",
+        "answer": "If the arm is fixed under the knee hug, release the shoulder connection before a large turn so it is not used as a lever.",
+        "answer_line": "The captured shoulder must be free to move",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Only the free hand needs to find the floor",
+            "Only your feet need a wider stance"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "The wrist must move even if the elbow stays under the knee"
           ]
         }
       },
       {
-        "question": "Sweep from Chill Dog (defender): What matters when you posture after release?",
-        "answer": "Bring the head and chest upright in stages after clearing the upper-body control.",
-        "answer_line": "Posture after release",
+        "question": "Sweep from Chill Dog (top): When can you lift posture during the sweep threat?",
+        "answer": "Posture recovery follows release of the upper-body hold. Raising the chest against a fixed loop is not a reliable balance solution.",
+        "answer_line": "After the high neck-and-arm enclosure opens",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Whenever the free hand is on the mat",
+            "Whenever the opponent's hips move sideways"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "After their free leg moves but the original high shin stays tight"
           ]
         }
       }

@@ -68,50 +68,50 @@ description: "Back Take (attacker): The second leg rises high to reinforce the u
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Back Take (attacker): What matters when you identify the starting enclosure?",
+      "name": "Back Take (attacker): Where does the second leg sit in the starting Crackhead clinch?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The second leg rises high to reinforce the upper-body clinch behind the head."
+        "text": "The starting control is a facing high guard reinforced by a second leg behind the head."
       }
     },
     {
       "@type": "Question",
-      "name": "Back Take (attacker): What matters when you remove finishing pressure?",
+      "name": "Back Take (attacker): The high clinch twists your knee; what releases that load?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The high clinch is optional: release if the knee is twisted, the neck is stacked, or either partner signals discomfort. Do not use high-leg closure as a neck crank."
+        "text": "Release the optional high clinch when the knee is twisted; do not preserve it through the turn."
       }
     },
     {
       "@type": "Question",
-      "name": "Back Take (attacker): What matters when you release before repositioning?",
+      "name": "Back Take (attacker): What must happen before turning out of the facing high clinch?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Open the original connection before either partner turns, rises or changes the captured limb."
+        "text": "Release the original upper-body connection before changing orientation. The source does not demonstrate a continuous rear entry."
       }
     },
     {
       "@type": "Question",
-      "name": "Back Take (attacker): What matters when you require rear torso access?",
+      "name": "Back Take (attacker): Which contact is needed before adding rear hooks?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Establish a separate chest-to-back connection before reaching for hooks or a seatbelt."
+        "text": "Rear torso access is a separate prerequisite; the starting Crackhead clinch does not provide it."
       }
     },
     {
       "@type": "Question",
-      "name": "Back Take (attacker): What matters when you contain the shoulder and hip lines?",
+      "name": "Back Take (attacker): Which combination retains shoulders and hips after separate rear access?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Use controlled upper-body and leg attachment while preserving neck alignment."
+        "text": "After separately obtaining rear access, coordinate upper-body and leg attachment to contain shoulders and hips."
       }
     },
     {
       "@type": "Question",
-      "name": "Back Take (attacker): What matters when you stabilize rear control?",
+      "name": "Back Take (attacker): What indicates rear control is not yet stable?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Confirm that the opponent cannot simply turn to face you before considering a back attack."
+        "text": "If the opponent can simply turn to face you, stabilize the rear attachment before considering a back attack."
       }
     }
   ]

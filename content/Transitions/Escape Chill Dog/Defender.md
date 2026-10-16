@@ -56,42 +56,42 @@ description: "Escape Chill Dog (defender): Keep the free hand available for fram
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Escape Chill Dog (defender): What matters when you track the trapped elbow?",
+      "name": "Escape Chill Dog (top): Which arm should stay available as the guard opens?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Keep the free hand available for framing while preventing the isolated elbow from being pulled further away from your torso."
+        "text": "Use the free arm to maintain inside space while keeping the previously isolated elbow from drifting farther away."
       }
     },
     {
       "@type": "Question",
-      "name": "Escape Chill Dog (defender): What matters when you recognize neck clearing?",
+      "name": "Escape Chill Dog (top): Which cue means the upper-body control still exists?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The opponent changing the hand around your head signals the move beyond New York, not a turtle escape."
+        "text": "A remaining knee hug and cleared head-side arm can still retain Chill Dog even if the free leg has moved."
       }
     },
     {
       "@type": "Question",
-      "name": "Escape Chill Dog (defender): What matters when you deny the second leg?",
+      "name": "Escape Chill Dog (top): What should you deny before their free leg climbs?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Keep a safe base and prevent the free leg from closing high behind your head."
+        "text": "Keep early inside space so the free leg cannot reinforce the high clinch behind your head."
       }
     },
     {
       "@type": "Question",
-      "name": "Escape Chill Dog (defender): What matters when you undo the arm isolation?",
+      "name": "Escape Chill Dog (top): How should you retrieve the isolated arm?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Recover the elbow toward your ribs only when the leg enclosure has slack, rather than jerking the shoulder."
+        "text": "The opening must free the shoulder enough for a controlled elbow recovery; pulling against a fixed leg is not a release."
       }
     },
     {
       "@type": "Question",
-      "name": "Escape Chill Dog (defender): What matters when you posture after release?",
+      "name": "Escape Chill Dog (top): When is upright posture available?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Bring the head and chest upright in stages after clearing the upper-body control."
+        "text": "Raise head and chest progressively once the upper-body control is clear, then address the guard that remains."
       }
     }
   ]

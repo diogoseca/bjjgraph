@@ -56,7 +56,7 @@ description: "Aoki Lock (defender): Treat an outward-turned foot caught by the u
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Aoki Lock (defender): What matters when you recognize rotation?",
+      "name": "Aoki Lock (defender): What threat does a turned-out foot under the armpit indicate?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Treat an outward-turned foot caught by the upper body as a rotational lock rather than an ordinary straight ankle lock."
@@ -64,7 +64,7 @@ description: "Aoki Lock (defender): Treat an outward-turned foot caught by the u
     },
     {
       "@type": "Question",
-      "name": "Aoki Lock (defender): What matters when you deny the enclosure?",
+      "name": "Aoki Lock (defender): Before the arms close, what should you address?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Hand fight and recover foot position before the attacker connects around the foot."
@@ -72,7 +72,7 @@ description: "Aoki Lock (defender): Treat an outward-turned foot caught by the u
     },
     {
       "@type": "Question",
-      "name": "Aoki Lock (defender): What matters when you keep the leg aligned?",
+      "name": "Aoki Lock (defender): Why avoid turning your torso with the foot immobilized?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Do not rotate the torso independently of a captured foot and knee."
@@ -80,7 +80,7 @@ description: "Aoki Lock (defender): Treat an outward-turned foot caught by the u
     },
     {
       "@type": "Question",
-      "name": "Aoki Lock (defender): What matters when you free the connection early?",
+      "name": "Aoki Lock (defender): Before withdrawing the leg, what needs slack?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Create slack in the hand and hip controls before withdrawing the leg."
@@ -88,7 +88,7 @@ description: "Aoki Lock (defender): Treat an outward-turned foot caught by the u
     },
     {
       "@type": "Question",
-      "name": "Aoki Lock (defender): What matters when you tap before pain?",
+      "name": "Aoki Lock (defender): What is the stop point in a cooperative recognition drill?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Stop at a secure rotational capture rather than testing whether the joint still tolerates movement."

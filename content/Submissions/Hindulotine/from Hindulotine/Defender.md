@@ -58,42 +58,42 @@ description: "Hindulotine from Hindulotine (defender): An elbow passing over the
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Hindulotine from Hindulotine (defender): What matters when you notice the arm path?",
+      "name": "Hindulotine defense: which approach of the opponent's arm signals the leg-in guillotine?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "An elbow passing over the raised foot toward your shoulder signals the leg-in guillotine setup."
+        "text": "Elbow over their raised foot toward your shoulder. An elbow passing over the raised foot toward your shoulder signals the leg-in guillotine setup."
       }
     },
     {
       "@type": "Question",
-      "name": "Hindulotine from Hindulotine (defender): What matters when you block hand connection?",
+      "name": "Hindulotine defense: what should an early inside frame obstruct?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Use an early inside frame before both hands close around the neck enclosure."
+        "text": "The two hands joining around the neck enclosure. Use an early inside frame before both hands close around the neck enclosure."
       }
     },
     {
       "@type": "Question",
-      "name": "Hindulotine from Hindulotine (defender): What matters when you keep the neck aligned?",
+      "name": "Hindulotine defense: why should you avoid a sharp head turn against the secured grip?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Avoid turning the head sharply against the fixed leg and forearm."
+        "text": "The fixed leg and forearm restrain the neck during a turn. Avoid turning the head sharply against the fixed leg and forearm."
       }
     },
     {
       "@type": "Question",
-      "name": "Hindulotine from Hindulotine (defender): What matters when you clear the upper enclosure?",
+      "name": "Hindulotine defense: does clearing the lower leg alone establish that the choke has opened?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Address the head-and-leg connection instead of assuming a lower-body guard pass solves the choke."
+        "text": "No; the upper enclosure can remain closed. The hands and raised leg may retain the head even after a lower-body pass. Continue to recognize that enclosure and tap if it is secured."
       }
     },
     {
       "@type": "Question",
-      "name": "Hindulotine from Hindulotine (defender): What matters when you tap early?",
+      "name": "Hindulotine defense: what must the partner do after your tap before you move away?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Stop before neck pain, dizziness, or reduced awareness; positional progress does not cancel the choke."
+        "text": "Open both hands and lower the raised leg. The whole enclosure must open before the bodies turn or separate. A positional pass is not itself evidence that the neck has been released."
       }
     }
   ]

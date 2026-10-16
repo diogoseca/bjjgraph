@@ -70,50 +70,50 @@ description: "Cross Collar Choke from Invisible Collar (attacker): Keep the oppo
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Cross Collar Choke from Invisible Collar (attacker): What matters when you control posture?",
+      "name": "Cross-collar after Invisible Collar: how close should the opponent be before you reach?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Keep the opponent close enough to reach the collar without extending both arms unsupported."
+        "text": "Within collar reach without extending both arms unsupported. Keep the opponent close enough to reach the collar without extending both arms unsupported."
       }
     },
     {
       "@type": "Question",
-      "name": "Cross Collar Choke from Invisible Collar (attacker): What matters when you establish the first grip?",
+      "name": "Cross-collar attack: what makes the first collar grip useful?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Take a secure collar grip beside the neck rather than a shallow handful of cloth."
+        "text": "Secure cloth contact beside the neck. Take a secure collar grip beside the neck rather than a shallow handful of cloth."
       }
     },
     {
       "@type": "Question",
-      "name": "Cross Collar Choke from Invisible Collar (attacker): What matters when you add the crossing grip?",
+      "name": "Cross-collar attack: where should the second hand go for the chosen crossing variation?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Bring the second hand to the opposite collar using the grip orientation taught for the chosen variation."
+        "text": "To the opposite collar with the taught grip orientation. Bring the second hand to the opposite collar using the grip orientation taught for the chosen variation."
       }
     },
     {
       "@type": "Question",
-      "name": "Cross Collar Choke from Invisible Collar (attacker): What matters when you align the forearms?",
+      "name": "Cross-collar attack: what alignment should the forearms establish?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Place the forearms beside the neck without dragging across the jaw or bending the wrists painfully."
+        "text": "Beside the neck with the wrists comfortably aligned. Place the forearms beside the neck without dragging across the jaw or bending the wrists painfully."
       }
     },
     {
       "@type": "Question",
-      "name": "Cross Collar Choke from Invisible Collar (attacker): What matters when you remove collar slack?",
+      "name": "Cross-collar attack: how should you remove remaining cloth slack?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Bring the elbows and torso into a connected position with gradual tension."
+        "text": "Connect elbows and torso with gradual tension. Bring the elbows and torso into a connected position with gradual tension."
       }
     },
     {
       "@type": "Question",
-      "name": "Cross Collar Choke from Invisible Collar (attacker): What matters when you release both grips?",
+      "name": "Cross-collar attack: what must your hands do at the first tap?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Open the hands at the first tap or change in normal responsiveness."
+        "text": "Open both collar grips. Open the hands at the first tap or change in normal responsiveness."
       }
     }
   ]

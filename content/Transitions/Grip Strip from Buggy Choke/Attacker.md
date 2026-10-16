@@ -68,7 +68,7 @@ description: "Grip Strip from Buggy Choke (attacker): Watch for an arm reaching 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Grip Strip from Buggy Choke (attacker): What matters when you recognize the bottom-player choke?",
+      "name": "Grip Strip from Buggy Choke (top): Which connection is the early grip-fighting target?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Watch for an arm reaching past your head and connecting to the same-side leg."
@@ -76,15 +76,15 @@ description: "Grip Strip from Buggy Choke (attacker): Watch for an arm reaching 
     },
     {
       "@type": "Question",
-      "name": "Grip Strip from Buggy Choke (attacker): What matters when you keep a stable base?",
+      "name": "Grip Strip from Buggy Choke (top): Why keep your base on the mat during the strip?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Avoid lifting, dropping, or twisting the partner's trapped leg to force an escape."
+        "text": "Maintain grounded support and address the early connection without lifting or using the linked knee as leverage."
       }
     },
     {
       "@type": "Question",
-      "name": "Grip Strip from Buggy Choke (attacker): What matters when you interrupt the connection early?",
+      "name": "Grip Strip from Buggy Choke (top): What is the useful timing for an inside frame?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use safe inside frames before the arm-to-leg loop fully closes; do not pull or twist the partner's knee."
@@ -92,15 +92,15 @@ description: "Grip Strip from Buggy Choke (attacker): Watch for an arm reaching 
     },
     {
       "@type": "Question",
-      "name": "Grip Strip from Buggy Choke (attacker): What matters when you free the head and arm?",
+      "name": "Grip Strip from Buggy Choke (top): The grip opens but the loop stays snug. What must you verify?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Move only through available space after the loop opens; tap if the neck is already enclosed."
+        "text": "A change in hand grip does not itself establish escape; verify release of the head-and-arm enclosure."
       }
     },
     {
       "@type": "Question",
-      "name": "Grip Strip from Buggy Choke (attacker): What matters when you verify the next configuration?",
+      "name": "Grip Strip from Buggy Choke (top): After clearance, where should side-control attachment act?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Establish Side Control only after the head is free. Keep the shoulders and hips controlled while moving outside the legs."
@@ -108,10 +108,10 @@ description: "Grip Strip from Buggy Choke (attacker): Watch for an arm reaching 
     },
     {
       "@type": "Question",
-      "name": "Grip Strip from Buggy Choke (attacker): What matters when you settle without neck loading?",
+      "name": "Grip Strip from Buggy Choke (top): What should precede settling a crossface?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Use balanced positional pressure and let the opponent communicate throughout the reset."
+        "text": "Chest and shoulder pressure belong to the new side pin after loop release, not to forcing the old choke apart."
       }
     }
   ]

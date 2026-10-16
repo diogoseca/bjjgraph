@@ -56,34 +56,34 @@ description: "Roll from Dead Orchard (defender): Treat a high leg triangle conta
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Roll from Dead Orchard (defender): What matters when you recognize both-arm capture?",
+      "name": "Roll from Dead Orchard (top): What is threatened if you pull a trapped wrist away?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Treat a high leg triangle containing both your arms as an arm-lock threat even when the neck is not being choked."
+        "text": "Pulling the wrist while the shoulder remains captured can create an elbow-extension lever."
       }
     },
     {
       "@type": "Question",
-      "name": "Roll from Dead Orchard (defender): What matters when you protect the elbows?",
+      "name": "Roll from Dead Orchard (top): What should you avoid while the bottom player resets?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Keep the arms compact and avoid offering a straight arm while trying to force posture."
+        "text": "Do not force posture with a long arm inside the high legs; keep the elbows compact during release."
       }
     },
     {
       "@type": "Question",
-      "name": "Roll from Dead Orchard (defender): What matters when you prevent the leg closure?",
+      "name": "Roll from Dead Orchard (top): Which event closes the early hip-framing window?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Maintain an early frame at the hip or thigh before the figure-four closes around the shoulders."
+        "text": "Use hip or thigh frames before the shoulder-level figure-four closes. Once both shoulders are enclosed, the preventive window has passed; obtain an actual opening before withdrawing the arms."
       }
     },
     {
       "@type": "Question",
-      "name": "Roll from Dead Orchard (defender): What matters when you clear a shoulder safely?",
+      "name": "Roll from Dead Orchard (top): When is turning safe enough to resume the positional drill?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Work on opening the leg enclosure before withdrawing the shoulder and elbow together; stop if an arm is already loaded."
+        "text": "Resume turning only after the relevant shoulder and elbow are released; a free hand alone is insufficient."
       }
     }
   ]

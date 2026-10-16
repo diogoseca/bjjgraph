@@ -56,42 +56,42 @@ description: "Standing Escape (defender): The free leg moving behind your head i
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Standing Escape (defender): What matters when you recognize the high closure?",
+      "name": "Invisible Collar stand-up (top): What can still restrain you as they prepare to sit up?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The free leg moving behind your head is an attempt to reinforce posture control, even without a collar grip."
+        "text": "A bottom player changing posture does not prove their Invisible Collar has opened; check the remaining head and shoulder connection."
       }
     },
     {
       "@type": "Question",
-      "name": "Standing Escape (defender): What matters when you protect the neck and arm?",
+      "name": "Invisible Collar stand-up (top): How should you remain aligned during their reset?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Keep the head aligned and the captured elbow compact rather than twisting against the enclosure."
+        "text": "Avoid turning the head or torso away while the arm remains caught; wait for usable slack in the upper-body enclosure."
       }
     },
     {
       "@type": "Question",
-      "name": "Standing Escape (defender): What matters when you keep a balanced base?",
+      "name": "Invisible Collar stand-up (top): If the high loop is applying choke pressure, what first?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Avoid driving all weight onto the partner's shoulders while the legs are locked high."
+        "text": "A loaded neck enclosure needs immediate release, even if the bottom player has started a posture change toward standing."
       }
     },
     {
       "@type": "Question",
-      "name": "Standing Escape (defender): What matters when you address the leg enclosure?",
+      "name": "Invisible Collar stand-up (top): What should create room before you lift your head?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Create space at the hip and thigh before trying to raise the head or extract the arm."
+        "text": "Use early balanced positioning to open the high connection before head extraction; do not force an already loaded neck."
       }
     },
     {
       "@type": "Question",
-      "name": "Standing Escape (defender): What matters when you recover inside position?",
+      "name": "Invisible Collar stand-up (top): Where should the freed arm return as they disengage?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Bring the elbow back between the bodies after the high closure opens."
+        "text": "Recover a compact inside elbow after the high closure opens so the arm is not left outside for renewed isolation."
       }
     }
   ]

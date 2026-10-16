@@ -58,42 +58,42 @@ description: "Rear Naked Choke from Invisible Collar (defender): Keep the attack
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Rear Naked Choke from Invisible Collar (defender): What matters when you protect neck access?",
+      "name": "Rear naked choke defense: what should you stop the attacking wrist from completing?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Keep the attacking wrist from crossing into a complete neck enclosure."
+        "text": "A wrap across the neck into a closed arm loop. Keep the attacking wrist from crossing into a complete neck enclosure."
       }
     },
     {
       "@type": "Question",
-      "name": "Rear Naked Choke from Invisible Collar (defender): What matters when you use both hands early?",
+      "name": "Rear naked choke defense: when should both hands contest the choking arm?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Hand fight before the supporting hand joins the choke."
+        "text": "Before the supporting hand joins the loop. Hand fight before the supporting hand joins the choke."
       }
     },
     {
       "@type": "Question",
-      "name": "Rear Naked Choke from Invisible Collar (defender): What matters when you manage rear attachment?",
+      "name": "Rear naked choke defense: how should torso-position work relate to hand fighting?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Work on torso position only while maintaining protection against the choking arm."
+        "text": "Keep protecting the neck while adjusting rear attachment. Work on torso position only while maintaining protection against the choking arm."
       }
     },
     {
       "@type": "Question",
-      "name": "Rear Naked Choke from Invisible Collar (defender): What matters when you keep the neck aligned?",
+      "name": "Rear naked choke defense: why is a violent head turn not a dependable escape from the closed loop?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Do not rely on chin tucking or a violent head turn against the completed loop."
+        "text": "The arm enclosure can hold the neck during the turn. Do not rely on chin tucking or a violent head turn against the completed loop."
       }
     },
     {
       "@type": "Question",
-      "name": "Rear Naked Choke from Invisible Collar (defender): What matters when you tap promptly?",
+      "name": "Rear naked choke defense: which symptoms must an early tap prevent?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Stop before dizziness, visual changes or loss of normal awareness."
+        "text": "Dizziness, visual changes or impaired awareness. Tap before any of these symptoms; stop before a secured choke impairs normal awareness."
       }
     }
   ]

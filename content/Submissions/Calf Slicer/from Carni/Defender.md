@@ -52,42 +52,42 @@ description: "Calf Slicer from Carni (defender): A shin or forearm behind the be
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Calf Slicer from Carni (defender): What matters when you recognize the fulcrum?",
+      "name": "Calf slicer defense: what turns an ordinary bent leg into a compression-lock warning?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "A shin or forearm behind the bent knee changes the position into a compression-lock threat."
+        "text": "A shin or forearm lodged in the knee fold. A shin or forearm behind the bent knee changes the position into a compression-lock threat."
       }
     },
     {
       "@type": "Question",
-      "name": "Calf Slicer from Carni (defender): What matters when you deny heel containment?",
+      "name": "Calf slicer defense: what should remain mobile before the attacker folds the leg tightly?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Keep the lower leg mobile before the attacker folds it against the thigh."
+        "text": "The heel and lower leg away from the thigh. Keep the lower leg mobile before the attacker folds it against the thigh."
       }
     },
     {
       "@type": "Question",
-      "name": "Calf Slicer from Carni (defender): What matters when you create space early?",
+      "name": "Calf slicer defense: when is controlled space-making available?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Use controlled movement while the knee fold is still open, never an explosive extension against a fixed leg."
+        "text": "Before the knee fold closes tightly around the fulcrum. Use controlled movement while the knee fold is still open, never an explosive extension against a fixed leg."
       }
     },
     {
       "@type": "Question",
-      "name": "Calf Slicer from Carni (defender): What matters when you avoid sideways escape?",
+      "name": "Calf slicer defense: why should you avoid spinning while both heel and thigh are held?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Keep the knee aligned rather than spinning while the heel and thigh are captured."
+        "text": "The restrained leg can transmit sideways load to the knee. Keep the knee aligned rather than spinning while the heel and thigh are captured."
       }
     },
     {
       "@type": "Question",
-      "name": "Calf Slicer from Carni (defender): What matters when you tap before compression?",
+      "name": "Calf slicer defense: what is the appropriate response to a secure compression threat?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Do not treat calf pain as harmless or assume the knee cannot be damaged."
+        "text": "Tap before testing how much calf pressure you can tolerate. Do not treat calf pain as harmless or assume the knee cannot be damaged."
       }
     }
   ]

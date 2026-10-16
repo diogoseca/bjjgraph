@@ -56,42 +56,42 @@ description: "Posture from Chill Dog (defender): Keep the opposing hand on the m
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Posture from Chill Dog (defender): What matters when you secure New York first?",
+      "name": "Posture from Chill Dog (bottom): What denies their elbow an easy return inside?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Keep the opposing hand on the mat and hug the knee before changing the head-side grip."
+        "text": "The connected arm wrap and knee support retain New York isolation while the opponent attempts to recover posture."
       }
     },
     {
       "@type": "Question",
-      "name": "Posture from Chill Dog (defender): What matters when you turn onto the hip?",
+      "name": "Posture from Chill Dog (bottom): How can you support the high leg as they lift?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Bring the knee toward the chest through hip movement so the neck-clearing motion does not twist the knee."
+        "text": "Use hip angle and knee support to retain posture control while it remains comfortable; avoid pulling a distant foot."
       }
     },
     {
       "@type": "Question",
-      "name": "Posture from Chill Dog (defender): What matters when you clear the neck?",
+      "name": "Posture from Chill Dog (bottom): What should remain cleared during their posture attempt?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Move the controlling arm around the head while keeping the leg and trapped arm connected."
+        "text": "Retain the cleared head-side connection along with the arm trap; allowing the head back inside can undo the Chill Dog checkpoint."
       }
     },
     {
       "@type": "Question",
-      "name": "Posture from Chill Dog (defender): What matters when you place the inside frame?",
+      "name": "Posture from Chill Dog (bottom): Where does your forearm resist their return to center?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Use the forearm near the shoulder line to manage forward pressure; do not let the frame collapse across your own wrist."
+        "text": "The inside forearm acts as a supported barrier against the opponent returning their head and shoulder into the space."
       }
     },
     {
       "@type": "Question",
-      "name": "Posture from Chill Dog (defender): What matters when you maintain the arm trap?",
+      "name": "Posture from Chill Dog (bottom): Their elbow is free and the high leg falls; what now?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Keep the knee hug while choosing further control such as Invisible Collar or an omoplata setup."
+        "text": "Switch to guard retention as the old control opens, using the frame and hip movement to rebuild knee space."
       }
     }
   ]

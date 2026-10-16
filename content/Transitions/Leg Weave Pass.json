@@ -190,156 +190,156 @@
     ],
     "flashcards": [
       {
-        "question": "Leg Weave Pass (attacker): What matters when you weave the arm?",
+        "question": "Leg Weave Pass (top): What is the defining weaving connection?",
         "answer": "Thread the arm through the available leg gap and connect to the lower thigh or knee.",
-        "answer_line": "Weave the arm",
+        "answer_line": "An arm between the legs controlling the lower thigh or knee",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "An arm around the outside of both knees without entering the gap",
+            "Both arms scooping below the thighs with the knees separated"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "A palm on the upper shin with no connection to the lower knee"
           ]
         }
       },
       {
-        "question": "Leg Weave Pass (attacker): What matters when you manage the knee shield?",
+        "question": "Leg Weave Pass (top): How should you fold a supported knee shield?",
         "answer": "Use aligned shoulder pressure and chest pressure to bring the knees together without twisting the knee joint.",
-        "answer_line": "Manage the knee shield",
+        "answer_line": "Join the knees with aligned shoulder and chest pressure",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Press the upper shin down while letting the lower knee move away",
+            "Pull the upper knee farther away from the lower leg"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Move your chest past the upper knee while the lower leg stays free"
           ]
         }
       },
       {
-        "question": "Leg Weave Pass (attacker): What matters when you keep the elbow protected?",
+        "question": "Leg Weave Pass (top): What makes the weaving arm vulnerable to a kimura?",
         "answer": "Avoid leaving the weaving arm extended where the bottom player can sit up into a kimura.",
-        "answer_line": "Keep the elbow protected",
+        "answer_line": "An extended reach that exposes its wrist and elbow",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "A connected elbow with the feet supporting movement",
+            "Releasing a blocked weave to reset distance"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "A flexed elbow held near the ribs with the wrist protected"
           ]
         }
       },
       {
-        "question": "Leg Weave Pass (attacker): What matters when you maintain an outside base?",
+        "question": "Leg Weave Pass (top): How do you retain balance while circling the leg frame?",
         "answer": "Move the hips and feet without collapsing all weight over the woven arm.",
-        "answer_line": "Maintain an outside base",
+        "answer_line": "Move the hips and feet from a supported outside base",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Lean all weight over the threaded wrist",
+            "Draw both feet together and reach farther"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Leave your knees behind while your shoulders circle alone"
           ]
         }
       },
       {
-        "question": "Leg Weave Pass (attacker): What matters when you clear the legs before settling?",
+        "question": "Leg Weave Pass (top): Which remaining leg connection blocks completion?",
         "answer": "Remove the remaining foot or half-guard hook before establishing side control.",
-        "answer_line": "Clear the legs before settling",
+        "answer_line": "A foot or half-guard hook retaining your leg",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "A loose shin beside your thigh with no hook attached",
+            "A foot on the mat after your ankle has cleared it"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Both knees folded away with your lower leg already free"
           ]
         }
       },
       {
-        "question": "Leg Weave Pass (attacker): What matters when you follow the hips?",
+        "question": "Leg Weave Pass (top): The bottom player turns and inserts a frame. What is useful?",
         "answer": "If the bottom player turns or inserts a frame, keep control of distance and reset the pass rather than forcing a fixed angle.",
-        "answer_line": "Follow the hips",
+        "answer_line": "Adjust distance and angle while following their hips",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Drive unchanged through the obstructing knee",
+            "Hold the same hip angle while extending your weaving elbow"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Reach only for the neck while releasing all hip control"
           ]
         }
       },
       {
-        "question": "Leg Weave Pass (attacker): What configuration must exist before this sequence?",
+        "question": "Leg Weave Pass (top): Which starting guard presents the relevant leg frame?",
         "answer": "The top passer begins in Half Guard, facing a knee shield or linked leg frame.",
-        "answer_line": "Check the starting configuration",
+        "answer_line": "Top half guard facing a knee shield",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Top inside closed guard with both ankles crossed behind you",
+            "Seated facing the standing opponent with your own knee shield"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Bottom half guard with your knee framing the opponent"
           ]
         }
       },
       {
-        "question": "Leg Weave Pass (attacker): What distinguishes this control from a similar-looking position?",
+        "question": "Leg Weave Pass (top): Why is a crossface alone not this pass?",
         "answer": "The weaving limb is the arm. Securing that control is the entry checkpoint; a pass is complete only after the hips and remaining leg hooks are cleared.",
-        "answer_line": "Check the defining controls",
+        "answer_line": "It does not supply the arm weave or clear the leg hooks",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "The shoulder turn places the weaving arm between the legs by itself",
+            "Head rotation releases the lower ankle from half guard"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Pinning the shoulders removes the need to fold the knees together"
           ]
         }
       },
       {
-        "question": "Leg Weave Pass (attacker): When should the partners stop or reset?",
+        "question": "Leg Weave Pass (top): Your foot is fixed in the last hook. What precedes circling harder?",
         "answer": "Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.",
-        "answer_line": "Release before unsafe loading",
+        "answer_line": "Release that restraint before changing the leg's direction",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Turn the knee while the ankle stays trapped",
+            "Shift your hips past the hook while leaving the ankle behind"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Withdraw the weave first and turn the caught leg outward"
           ]
         }
       },
       {
-        "question": "Leg Weave Pass (attacker): What should a cooperative first drill establish?",
-        "answer": "Identify the starting configuration and rehearse the first connection without finishing pressure. Thread the arm through the available leg gap and connect to the lower thigh or knee.",
-        "answer_line": "Rehearse the first connection",
+        "question": "Leg Weave Pass (top): What should an entry drill verify before circling?",
+        "answer": "Pause with the arm correctly threaded and the feet supporting balance before beginning the pass movement.",
+        "answer_line": "The arm joins the leg frame with a supported base",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "The opponent's shoulders are already fully pinned",
+            "The weaving elbow can bear all your weight"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Chest pressure is sufficient even with the threading arm outside"
           ]
         }
       },
       {
-        "question": "Leg Weave Pass (attacker): What should be checked before changing direction?",
-        "answer": "Confirm that the captured neck or limb can move freely. Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.",
-        "answer_line": "Free the captured neck or limb",
+        "question": "Leg Weave Pass (top): After clearing the legs, what replaces the folded-knee control?",
+        "answer": "Once the knee line and last hook clear, transfer to supported shoulder and hip control for side control.",
+        "answer_line": "Head-and-hip controls of the side pin",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Keep only the old knee grip while the shoulders remain free",
+            "A crossface with no replacement hip barrier"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "A hip block with the chest lifted off the shoulder line"
           ]
         }
       }
@@ -442,72 +442,72 @@
     ],
     "flashcards": [
       {
-        "question": "Leg Weave Pass (defender): What matters when you recognize the arm weave?",
+        "question": "Leg Weave Pass (bottom): What is the control you must recognize between your legs?",
         "answer": "The passer's arm connecting your legs is the relevant control, not a leg threaded across your hip.",
-        "answer_line": "Recognize the arm weave",
+        "answer_line": "The passer's woven arm linking the knee frame",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Their palm on your upper shin with the lower leg separate",
+            "Their two forearms scooping beneath both thighs"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Their arm outside both knees with no passage between them"
           ]
         }
       },
       {
-        "question": "Leg Weave Pass (defender): What matters when you keep the shield supported?",
+        "question": "Leg Weave Pass (bottom): What helps the knee shield resist folding?",
         "answer": "Maintain a useful knee angle and upper-body frame before the passer folds the legs together.",
-        "answer_line": "Keep the shield supported",
+        "answer_line": "A useful knee angle supported by an upper-body frame",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "An isolated knee with both shoulders flat",
+            "An upright knee while both hands reach toward the far ankle"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "A shoulder frame after the upper knee folds onto the lower"
           ]
         }
       },
       {
-        "question": "Leg Weave Pass (defender): What matters when you recover inside space?",
+        "question": "Leg Weave Pass (bottom): When the connection is still loose, how do you recover guard space?",
         "answer": "Move the hips and pummel the knee back between the bodies while the weave is still loose.",
-        "answer_line": "Recover inside space",
+        "answer_line": "Shrimp behind a frame and pummel the knee inside",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Stay flat and pull only on the passer's wrist",
+            "Reach over their back with both knees pointed away"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Lift the shield alone while your hips remain pinned"
           ]
         }
       },
       {
-        "question": "Leg Weave Pass (defender): What matters when you deny upper-body collapse?",
+        "question": "Leg Weave Pass (bottom): What upper-body change makes the leg control harder to escape?",
         "answer": "Prevent the passer from flattening your shoulders while controlling the legs.",
-        "answer_line": "Deny upper-body collapse",
+        "answer_line": "Your shoulders being flattened beneath the passer",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Your shoulder frame preserving room to turn",
+            "Your near elbow staying connected to the returning knee"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Your hips shifting while a frame holds distance"
           ]
         }
       },
       {
-        "question": "Leg Weave Pass (defender): What matters when you use an available underhook?",
-        "answer": "An underhook can help you face the passer and rebuild half guard when the shoulder line is not already pinned.",
-        "answer_line": "Use an available underhook",
+        "question": "Leg Weave Pass (bottom): If an underhook opens a sit-up, what must stay connected?",
+        "answer": "Use the available underhook while the shoulder is free, keeping a stable facing base against an overhook response.",
+        "answer_line": "Your underhooking arm and hip as you face the passer",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Your wrist behind you with the elbow pulled away",
+            "Your shoulders turned away while the knee stays pinned"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Your elbow high above the shoulder as your hips move away"
           ]
         }
       }

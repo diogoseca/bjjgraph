@@ -68,7 +68,7 @@ description: "Granby Roll to Guard (attacker): Let go when the partner begins li
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Granby Roll to Guard (attacker): What matters when you release the Buggy loop?",
+      "name": "Granby Roll to Guard (bottom): What must you do if lifted while holding the Buggy loop?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Let go when the partner begins lifting you from the mat; do not hang from the choke or invite a slam."
@@ -76,15 +76,15 @@ description: "Granby Roll to Guard (attacker): Let go when the partner begins li
     },
     {
       "@type": "Question",
-      "name": "Granby Roll to Guard (attacker): What matters when you restore shoulder and hip frames?",
+      "name": "Granby Roll to Guard (bottom): After release, what creates space for a knee to return?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Create distance while keeping the head free and the knees available to return inside."
+        "text": "Use forearm frames and lateral hip movement to make space before bringing a knee between the bodies."
       }
     },
     {
       "@type": "Question",
-      "name": "Granby Roll to Guard (attacker): What matters when you check the rolling prerequisite?",
+      "name": "Granby Roll to Guard (bottom): What separate condition is needed before a shoulder roll?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use a shoulder roll only if a coach has established safe space and an untrapped upper back."
@@ -92,7 +92,7 @@ description: "Granby Roll to Guard (attacker): Let go when the partner begins li
     },
     {
       "@type": "Question",
-      "name": "Granby Roll to Guard (attacker): What matters when you keep weight off the neck?",
+      "name": "Granby Roll to Guard (bottom): Which surface should carry a permitted shoulder roll?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Do not plant the head or roll over the cervical spine to force guard recovery."
@@ -100,7 +100,7 @@ description: "Granby Roll to Guard (attacker): Let go when the partner begins li
     },
     {
       "@type": "Question",
-      "name": "Granby Roll to Guard (attacker): What matters when you bring the knees back inside?",
+      "name": "Granby Roll to Guard (bottom): What do you insert when facing space opens?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Face the opponent and insert the legs when the space opens."
@@ -108,10 +108,10 @@ description: "Granby Roll to Guard (attacker): Let go when the partner begins li
     },
     {
       "@type": "Question",
-      "name": "Granby Roll to Guard (attacker): What matters when you settle the recovered guard?",
+      "name": "Granby Roll to Guard (bottom): What confirms a basic closed-guard landing after recovery?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Stabilize open or closed guard according to the available leg connection rather than assuming either result."
+        "text": "Stabilize open or closed guard according to the available leg connection rather than assuming either result. In a basic closed-guard landing you face the opponent with your legs enclosing the torso and your ankles crossed behind. Knees inside with unjoined feet establish an open guard instead; neither landing follows automatically from a roll."
       }
     }
   ]

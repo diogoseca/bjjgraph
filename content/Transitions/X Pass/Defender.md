@@ -56,7 +56,7 @@ description: "X Pass (defender): Control on the knee line plus a light passing l
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "X Pass (defender): What matters when you read the standing grips?",
+      "name": "X Pass (bottom): What cue suggests the passer is preparing a kick back?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Control on the knee line plus a light passing leg signals a kick-pass attempt."
@@ -64,7 +64,7 @@ description: "X Pass (defender): Control on the knee line plus a light passing l
     },
     {
       "@type": "Question",
-      "name": "X Pass (defender): What matters when you keep the knees tracking?",
+      "name": "X Pass (bottom): How do you keep your guard facing the passing angle?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Turn the hips so the knees continue facing the passer before the leg retracts."
@@ -72,7 +72,7 @@ description: "X Pass (defender): Control on the knee line plus a light passing l
     },
     {
       "@type": "Question",
-      "name": "X Pass (defender): What matters when you maintain distance frames?",
+      "name": "X Pass (bottom): What helps prevent the passer collapsing onto your upper body?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use safe hand and foot frames to prevent upper-body collapse."
@@ -80,7 +80,7 @@ description: "X Pass (defender): Control on the knee line plus a light passing l
     },
     {
       "@type": "Question",
-      "name": "X Pass (defender): What matters when you recover the leg connection?",
+      "name": "X Pass (bottom): When can a knee or hook restore your leg connection?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Pummel a knee or hook back inside while the passer is still outside the hip line."
@@ -88,7 +88,7 @@ description: "X Pass (defender): Control on the knee line plus a light passing l
     },
     {
       "@type": "Question",
-      "name": "X Pass (defender): What matters when you protect the landing?",
+      "name": "X Pass (bottom): If the passer reaches your side, what should you rebuild first?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Frame at the shoulders and hips if the passer reaches knee on belly or side control."

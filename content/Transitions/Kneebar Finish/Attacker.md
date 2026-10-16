@@ -68,50 +68,50 @@ description: "Kneebar Finish (attacker): Confirm control of the opponent's thigh
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Kneebar Finish (attacker): What matters when you capture the leg separately?",
+      "name": "Kneebar Finish (attacker): Which controls bracket the knee before extension is possible?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Confirm control of the opponent's thigh and ankle before considering a knee-extension attack."
+        "text": "A kneebar requires separate control above and below the knee, including the thigh and ankle."
       }
     },
     {
       "@type": "Question",
-      "name": "Kneebar Finish (attacker): What matters when you manage the hip?",
+      "name": "Kneebar Finish (attacker): What prevents the captured leg's hip from sliding freely away?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Use the legs to keep the opponent's hip from moving freely away."
+        "text": "Use the legs to restrain the hip and thigh so the captured knee does not simply move away from the fulcrum."
       }
     },
     {
       "@type": "Question",
-      "name": "Kneebar Finish (attacker): What matters when you align the knee?",
+      "name": "Kneebar Finish (attacker): Where is the knee positioned in the straight-leg alignment?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Place the knee at the hip fulcrum with the leg in a straight, non-twisted line."
+        "text": "Align the captured knee at the hip fulcrum in a straight, untwisted leg line."
       }
     },
     {
       "@type": "Question",
-      "name": "Kneebar Finish (attacker): What matters when you secure the ankle?",
+      "name": "Kneebar Finish (attacker): How should the ankle be controlled in the straight-leg capture?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Hold the lower leg close without turning the foot into a rotational lock."
+        "text": "Hold the lower leg close while preserving alignment; do not turn the foot into a rotational lock."
       }
     },
     {
       "@type": "Question",
-      "name": "Kneebar Finish (attacker): What matters when you stop before extension?",
+      "name": "Kneebar Finish (attacker): Where should a cooperative capture drill stop?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Practice the stable capture without bridging into the knee's end range."
+        "text": "Practice aligned hip-and-ankle capture without bridging the knee into its end range."
       }
     },
     {
       "@type": "Question",
-      "name": "Kneebar Finish (attacker): What matters when you open the entire hold?",
+      "name": "Kneebar Finish (attacker): Which controls release on a tap before either partner turns?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Release ankle and thigh control immediately on a tap before either partner turns."
+        "text": "Open ankle and thigh control promptly so the whole leg can move before either partner changes direction."
       }
     }
   ]

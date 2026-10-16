@@ -56,34 +56,34 @@ description: "Posture Recovery from Carni (defender): Use the guard and shoulder
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Posture Recovery from Carni (defender): What matters when you set the upper-body angle?",
+      "name": "Posture Recovery from Carni (bottom): What keeps the opponent close while you arrange the leg?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Use the guard and shoulder connection to bring the opponent close before moving the high leg."
+        "text": "Use the guard and close shoulder relationship before moving the high leg."
       }
     },
     {
       "@type": "Question",
-      "name": "Posture Recovery from Carni (defender): What matters when you frame before clearing?",
+      "name": "Posture Recovery from Carni (bottom): Where does the forearm prevent incoming chest pressure?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Manage the shoulder and neck line with a forearm frame as the leg clears the head."
+        "text": "The neck-side forearm frame creates room while the head-side leg clears."
       }
     },
     {
       "@type": "Question",
-      "name": "Posture Recovery from Carni (defender): What matters when you anchor through the hips?",
+      "name": "Posture Recovery from Carni (bottom): Which anchor helps keep the shoulder from rising?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Turn partly belly down with the knee close and foot supported rather than wrenching the leg across the head."
+        "text": "Martinez's supported foot and close knee anchor the partly belly-down shoulder-control angle."
       }
     },
     {
       "@type": "Question",
-      "name": "Posture Recovery from Carni (defender): What matters when you hold the triceps?",
+      "name": "Posture Recovery from Carni (bottom): The shoulder has escaped; how do you protect guard?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Keep the captured arm connected so the opponent cannot freely roll or withdraw the shoulder."
+        "text": "Once the clamp opens, use an inside frame and hip movement to return a knee shield rather than chasing the freed arm."
       }
     }
   ]

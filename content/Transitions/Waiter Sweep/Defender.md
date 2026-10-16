@@ -56,7 +56,7 @@ description: "Waiter Sweep (defender): A deep-half player supporting your elevat
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Waiter Sweep (defender): What matters when you recognize the leg shelf?",
+      "name": "Waiter Sweep (top): Which cue identifies the waiter threat?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A deep-half player supporting your elevated leg is setting the waiter mechanism."
@@ -64,7 +64,7 @@ description: "Waiter Sweep (defender): A deep-half player supporting your elevat
     },
     {
       "@type": "Question",
-      "name": "Waiter Sweep (defender): What matters when you keep an available post?",
+      "name": "Waiter Sweep (top): What must you preserve before the tipping direction is controlled?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Preserve hand or foot support before the opponent controls the tipping direction."
@@ -72,7 +72,7 @@ description: "Waiter Sweep (defender): A deep-half player supporting your elevat
     },
     {
       "@type": "Question",
-      "name": "Waiter Sweep (defender): What matters when you manage hip position?",
+      "name": "Waiter Sweep (top): Which hip position feeds the established shelf?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Avoid leaving the hips directly above an established deep-half shoulder connection."
@@ -80,7 +80,7 @@ description: "Waiter Sweep (defender): A deep-half player supporting your elevat
     },
     {
       "@type": "Question",
-      "name": "Waiter Sweep (defender): What matters when you recover the leg early?",
+      "name": "Waiter Sweep (top): When can you safely recover the elevated leg?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Return the elevated leg only while the knee can move without twisting."
@@ -88,7 +88,7 @@ description: "Waiter Sweep (defender): A deep-half player supporting your elevat
     },
     {
       "@type": "Question",
-      "name": "Waiter Sweep (defender): What matters when you fall without a locked-arm post?",
+      "name": "Waiter Sweep (top): Once the reversal removes your base, what is appropriate?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Accept a controlled reversal if balance is lost rather than risking a shoulder or knee."

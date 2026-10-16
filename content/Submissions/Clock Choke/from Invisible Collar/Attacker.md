@@ -70,50 +70,50 @@ description: "Clock Choke from Invisible Collar (attacker): Stay beside the shou
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Clock Choke from Invisible Collar (attacker): What matters when you control the turtle?",
+      "name": "Clock choke after Invisible Collar: where should you establish control relative to the turtle?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Stay beside the shoulder line with a balanced base rather than climbing onto the neck."
+        "text": "Beside the opponent's shoulder line with a balanced base. Stay beside the shoulder line with a balanced base rather than climbing onto the neck."
       }
     },
     {
       "@type": "Question",
-      "name": "Clock Choke from Invisible Collar (attacker): What matters when you secure the collar?",
+      "name": "Clock choke attack: where should the jacket grip contact as you feed it across?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Feed the jacket grip across the neck without scraping or compressing the face."
+        "text": "Beside the neck without dragging over the face. Feed the jacket grip across the neck without scraping or compressing the face."
       }
     },
     {
       "@type": "Question",
-      "name": "Clock Choke from Invisible Collar (attacker): What matters when you contain the far side?",
+      "name": "Clock choke attack: what should your second hand and torso keep from following freely?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Use the second hand and body position to limit the opponent's free shoulder movement."
+        "text": "The opponent's shoulders. Use the second hand and body position to limit the opponent's free shoulder movement."
       }
     },
     {
       "@type": "Question",
-      "name": "Clock Choke from Invisible Collar (attacker): What matters when you set a safe base?",
+      "name": "Clock choke attack: which supports should carry your balance instead of posting on the head?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Keep the legs able to circle while avoiding unsupported weight on the partner's head."
+        "text": "Your feet and leg posts around the turtle. Maintain supported balance while the feet reposition around the shoulder line. Do not replace a stable base with a head post or a fall onto the collar."
       }
     },
     {
       "@type": "Question",
-      "name": "Clock Choke from Invisible Collar (attacker): What matters when you circle in small steps?",
+      "name": "Clock choke attack: what should take slack out of the collar as you move?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Let the body angle take slack from the collar, stopping before a neck twist develops."
+        "text": "Small circling steps that change your body angle. Let the body angle take slack from the collar, stopping before a neck twist develops."
       }
     },
     {
       "@type": "Question",
-      "name": "Clock Choke from Invisible Collar (attacker): What matters when you release the collar?",
+      "name": "Clock choke attack: how do you release a tapped opponent?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Open the grip and remove upper-body pressure immediately on a tap."
+        "text": "Open the collar grip and remove upper-body pressure. Open the grip and remove upper-body pressure immediately on a tap."
       }
     }
   ]

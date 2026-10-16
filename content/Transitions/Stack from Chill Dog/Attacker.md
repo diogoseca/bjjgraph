@@ -68,50 +68,50 @@ description: "Stack from Chill Dog (attacker): Keep the free hand available for 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Stack from Chill Dog (attacker): What matters when you recognize the upper-body trap?",
+      "name": "Stack from Chill Dog (top): What must be controlled before seeking leg slack?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Keep the free hand available for framing while preventing the isolated elbow from being pulled further away from your torso."
+        "text": "Use balanced supports and an inside free arm while keeping the isolated elbow compact before attempting upper-body release."
       }
     },
     {
       "@type": "Question",
-      "name": "Stack from Chill Dog (attacker): What matters when you protect the captured limb?",
+      "name": "Stack from Chill Dog (top): What does their cleared head-side arm mean for you?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The opponent changing the hand around your head signals the move beyond New York, not a turtle escape."
+        "text": "The neck-cleared hand position and knee hug can still hold the arm and posture; do not mistake a grip change for release."
       }
     },
     {
       "@type": "Question",
-      "name": "Stack from Chill Dog (attacker): What matters when you work before pressure engages?",
+      "name": "Stack from Chill Dog (top): What should replace pressure that folds them onto the neck?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Keep a balanced base and early inside frames; tap instead of moving against a completed choke or joint lock."
+        "text": "Reduce the forward load and recover balanced space; neck-folding pressure does not substitute for releasing the enclosure."
       }
     },
     {
       "@type": "Question",
-      "name": "Stack from Chill Dog (attacker): What matters when you open the high enclosure?",
+      "name": "Stack from Chill Dog (top): Where should you create slack to free the upper body?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Create slack at the hip and thigh while keeping the head and captured arm aligned."
+        "text": "Open space in the high-leg connection while keeping the head and captured arm aligned."
       }
     },
     {
       "@type": "Question",
-      "name": "Stack from Chill Dog (attacker): What matters when you recover the elbow and posture?",
+      "name": "Stack from Chill Dog (top): When should the shoulder be pulled out?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Withdraw the shoulder and elbow only after the high leg connection has opened."
+        "text": "Retrieve shoulder and elbow only after sufficient slack exists, rather than trying to pull a fixed joint through pressure."
       }
     },
     {
       "@type": "Question",
-      "name": "Stack from Chill Dog (attacker): What matters when you confirm the next position?",
+      "name": "Stack from Chill Dog (top): What is the first useful passing checkpoint?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Establish a safe posture with the high enclosure open only when the upper-body enclosure and relevant leg hooks have cleared."
+        "text": "Upper-body clearance and inside arm position prepare later passing. They do not by themselves clear the remaining knees."
       }
     }
   ]

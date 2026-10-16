@@ -56,42 +56,42 @@ description: "Escape from Dead Orchard (defender): Treat a high leg triangle con
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Escape from Dead Orchard (defender): What matters when you recognize both-arm capture?",
+      "name": "Escape from Dead Orchard (top): What can happen if one trapped arm straightens?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Treat a high leg triangle containing both your arms as an arm-lock threat even when the neck is not being choked."
+        "text": "The both-arm triangle can support short arm isolation when a captured elbow straightens."
       }
     },
     {
       "@type": "Question",
-      "name": "Escape from Dead Orchard (defender): What matters when you protect the elbows?",
+      "name": "Escape from Dead Orchard (top): What arm posture should you preserve while seeking release?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Keep the arms compact and avoid offering a straight arm while trying to force posture."
+        "text": "Keep the arms compact while addressing the actual leg enclosure rather than forcing posture through extended arms."
       }
     },
     {
       "@type": "Question",
-      "name": "Escape from Dead Orchard (defender): What matters when you prevent the leg closure?",
+      "name": "Escape from Dead Orchard (top): When can a hip frame help prevent the triangle?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Maintain an early frame at the hip or thigh before the figure-four closes around the shoulders."
+        "text": "Use hip or thigh framing early; once the triangle and arm lock are secured, obtain release rather than relying on the same frame."
       }
     },
     {
       "@type": "Question",
-      "name": "Escape from Dead Orchard (defender): What matters when you clear a shoulder safely?",
+      "name": "Escape from Dead Orchard (top): What should follow an opening around one shoulder?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Work on opening the leg enclosure before withdrawing the shoulder and elbow together; stop if an arm is already loaded."
+        "text": "Use the opening to recover shoulder and elbow as a unit; stop if another retained connection prevents free movement."
       }
     },
     {
       "@type": "Question",
-      "name": "Escape from Dead Orchard (defender): What matters when you recover base in stages?",
+      "name": "Escape from Dead Orchard (top): What confirms that upright posture is available?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Only raise posture after the shoulder line is free; a sudden pull can extend a captured elbow."
+        "text": "Raise the chest only after clearing the shoulder line, with no trapped arm being pulled into extension."
       }
     }
   ]

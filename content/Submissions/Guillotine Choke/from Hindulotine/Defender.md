@@ -58,34 +58,34 @@ description: "Guillotine Choke from Hindulotine (defender): Manage posture and i
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Guillotine Choke from Hindulotine (defender): Keep the head from being wrapped?",
+      "name": "Guillotine defense: what should you manage before the choking arm wraps your neck?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Manage posture and inside hands before the choking arm circles the neck."
+        "text": "Posture and inside hand position. Manage posture and inside hands before the choking arm circles the neck."
       }
     },
     {
       "@type": "Question",
-      "name": "Guillotine Choke from Hindulotine (defender): What matters when you fight the support hand?",
+      "name": "Guillotine defense: which hand connection is the early hand-fighting target?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Interrupt the hand connection before it becomes a closed enclosure."
+        "text": "The supporting hand joining the choking arm. Interrupt the hand connection before it becomes a closed enclosure."
       }
     },
     {
       "@type": "Question",
-      "name": "Guillotine Choke from Hindulotine (defender): What matters when you protect neck alignment?",
+      "name": "Guillotine defense: why should you avoid wrenching the head backward?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Do not wrench the head backward or rotate it against a fixed forearm."
+        "text": "A fixed forearm can hold the neck as you extend it. Do not wrench the head backward or rotate it against a fixed forearm."
       }
     },
     {
       "@type": "Question",
-      "name": "Guillotine Choke from Hindulotine (defender): What matters when you control the body angle early?",
+      "name": "Guillotine defense: when can frames and base help control the angle?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Use frames and base before the attacker fixes the relationship between both torsos."
+        "text": "Before both torso positions are fixed. Use frames and base before the attacker fixes the relationship between both torsos."
       }
     }
   ]

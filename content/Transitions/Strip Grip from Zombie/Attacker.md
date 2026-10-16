@@ -68,50 +68,50 @@ description: "Strip Grip from Zombie (attacker): Keep a useful forearm between t
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Strip Grip from Zombie (attacker): What matters when you recognize the upper-body trap?",
+      "name": "Strip Grip from Zombie (top): What is the early grip-defense objective?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Keep a useful forearm between the bodies before the bottom player gains the hand-clearing path."
+        "text": "Zombie seeks to clear the hand outside and close the knee hug; deny that arm relationship before the trap forms."
       }
     },
     {
       "@type": "Question",
-      "name": "Strip Grip from Zombie (attacker): What matters when you protect the captured limb?",
+      "name": "Strip Grip from Zombie (top): What should move as the wrist comes inward?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Move the whole arm rather than leaving the wrist exposed while the elbow remains fixed."
+        "text": "Recover the entire arm through available space rather than pulling the wrist while leaving the elbow fixed outside."
       }
     },
     {
       "@type": "Question",
-      "name": "Strip Grip from Zombie (attacker): What matters when you work before pressure engages?",
+      "name": "Strip Grip from Zombie (top): Which frame helps before the knee hug closes?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Keep a balanced base and early inside frames; tap instead of moving against a completed choke or joint lock."
+        "text": "The early inside forearm occupies the space the pummeling hand needs and limits outside arm isolation."
       }
     },
     {
       "@type": "Question",
-      "name": "Strip Grip from Zombie (attacker): What matters when you open the high enclosure?",
+      "name": "Strip Grip from Zombie (top): Where must the high leg loosen for later posture?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Create slack at the hip and thigh while keeping the head and captured arm aligned."
+        "text": "Opening the high-leg attachment creates slack for aligned head and shoulder recovery after the hand defense."
       }
     },
     {
       "@type": "Question",
-      "name": "Strip Grip from Zombie (attacker): What matters when you recover the elbow and posture?",
+      "name": "Strip Grip from Zombie (top): When should you extract an already captured shoulder?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Withdraw the shoulder and elbow only after the high leg connection has opened."
+        "text": "An arm caught under a closed knee hug needs slack before elbow withdrawal; stop if joint pressure has already developed."
       }
     },
     {
       "@type": "Question",
-      "name": "Strip Grip from Zombie (attacker): What matters when you confirm the next position?",
+      "name": "Strip Grip from Zombie (top): What completes the useful arm-recovery checkpoint?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Establish inside arm position with safe posture only when the upper-body enclosure and relevant leg hooks have cleared."
+        "text": "Restore inside arm position and safe posture after the high attachment opens; this prepares the next guard exchange."
       }
     }
   ]

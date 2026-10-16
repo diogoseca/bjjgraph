@@ -68,50 +68,50 @@ description: "Anaconda Control to Dead Orchard Control (attacker): Confirm the f
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Anaconda Control to Dead Orchard Control (attacker): Identify the Anaconda enclosure?",
+      "name": "Anaconda to Dead Orchard (attacker): What does the starting arm loop contain?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Confirm the front-headlock arm loop around the neck and one shoulder."
+        "text": "The initial Anaconda uses the attacker's arms to enclose the neck and one opposing arm; Dead Orchard uses the legs."
       }
     },
     {
       "@type": "Question",
-      "name": "Anaconda Control to Dead Orchard Control (attacker): What matters when you remove choke pressure?",
+      "name": "Anaconda to Dead Orchard (attacker): What releases the neck before changing seats?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Open the arm loop before either partner changes the body relationship."
+        "text": "Open the enclosing arms completely before changing the body relationship; merely easing the squeeze leaves the neck captured."
       }
     },
     {
       "@type": "Question",
-      "name": "Anaconda Control to Dead Orchard Control (attacker): Require a separate guard exchange?",
+      "name": "Anaconda to Dead Orchard (attacker): Which seat is needed for the new leg enclosure?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The intended Dead Orchard attacker must obtain a facing bottom-guard position; no direct transition is established here."
+        "text": "Dead Orchard requires a separate facing bottom-guard position. The sources do not demonstrate a direct switch from the top front headlock."
       }
     },
     {
       "@type": "Question",
-      "name": "Anaconda Control to Dead Orchard Control (attacker): Establish Mission Control separately?",
+      "name": "Anaconda to Dead Orchard (attacker): In the new guard, how do you support the raised knee?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Bring the opponent close and support the high rubber-guard knee without pulling the foot."
+        "text": "In the separate Mission Control phase, keep the hips close and support the raised knee rather than hauling the foot against it."
       }
     },
     {
       "@type": "Question",
-      "name": "Anaconda Control to Dead Orchard Control (attacker): Capture both arms with the legs?",
+      "name": "Anaconda to Dead Orchard (attacker): What must the new leg triangle surround?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Only from that new guard position can the high leg triangle enclose both shoulders and arms."
+        "text": "The Dead Orchard checkpoint is a high leg figure-four containing both opposing arms at the shoulder line."
       }
     },
     {
       "@type": "Question",
-      "name": "Anaconda Control to Dead Orchard Control (attacker): What matters when you stop at the new control?",
+      "name": "Anaconda to Dead Orchard (attacker): Where does the cooperative capture drill stop?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Confirm the Dead Orchard enclosure without loading a captured elbow or stacking the neck."
+        "text": "Check the both-arm enclosure without extending a captured elbow or compressing the partner's neck."
       }
     }
   ]

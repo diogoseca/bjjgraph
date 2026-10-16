@@ -68,50 +68,50 @@ description: "Posture Recovery from Carni (attacker): A leg clearing the head wi
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Posture Recovery from Carni (attacker): What matters when you recognize the upper-body trap?",
+      "name": "Posture Recovery from Carni (top): Which structure must be freed before you lift the chest?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "A leg clearing the head with an overhook is an upper-body trap, even if a butterfly hook remains below."
+        "text": "Carni threatens the shoulder; free the triceps and head-side leg connection before raising posture."
       }
     },
     {
       "@type": "Question",
-      "name": "Posture Recovery from Carni (attacker): What matters when you protect the captured limb?",
+      "name": "Posture Recovery from Carni (top): Where should the elbow stay before triceps control closes?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Avoid reaching away while the opponent sets the triceps control."
+        "text": "Keep the elbow compact early rather than reaching into the developing shoulder clamp."
       }
     },
     {
       "@type": "Question",
-      "name": "Posture Recovery from Carni (attacker): What matters when you work before pressure engages?",
+      "name": "Posture Recovery from Carni (top): What forms an inside barrier before the shoulder clamp closes?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Keep a balanced base and early inside frames; tap instead of moving against a completed choke or joint lock."
+        "text": "Use early inside frames while the shoulder can still move; a completed shoulder lock requires release."
       }
     },
     {
       "@type": "Question",
-      "name": "Posture Recovery from Carni (attacker): What matters when you open the high enclosure?",
+      "name": "Posture Recovery from Carni (top): How do you move while creating slack around the clamp?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Create slack at the hip and thigh while keeping the head and captured arm aligned."
+        "text": "Keep the head and captured arm aligned while opening space at the hip and thigh, rather than twisting through the clamp."
       }
     },
     {
       "@type": "Question",
-      "name": "Posture Recovery from Carni (attacker): What matters when you recover the elbow and posture?",
+      "name": "Posture Recovery from Carni (top): When should the elbow withdraw from the high leg?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Withdraw the shoulder and elbow only after the high leg connection has opened."
+        "text": "Free the upper-body connection before withdrawing the shoulder and elbow together."
       }
     },
     {
       "@type": "Question",
-      "name": "Posture Recovery from Carni (attacker): What matters when you confirm the next position?",
+      "name": "Posture Recovery from Carni (top): What confirms successful posture recovery?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Establish upright posture with the shoulder free only when the upper-body enclosure and relevant leg hooks have cleared."
+        "text": "Posture recovery requires actual shoulder release, not merely getting the head higher."
       }
     }
   ]

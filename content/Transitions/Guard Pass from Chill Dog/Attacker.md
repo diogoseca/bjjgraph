@@ -68,50 +68,50 @@ description: "Guard Pass from Chill Dog (attacker): Keep the free hand available
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Guard Pass from Chill Dog (attacker): What matters when you recognize the upper-body trap?",
+      "name": "Guard Pass from Chill Dog (top): What needs freeing before you begin the pass?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Keep the free hand available for framing while preventing the isolated elbow from being pulled further away from your torso."
+        "text": "Clear the upper-body leg-and-arm enclosure before committing to a separate pass around the remaining knees."
       }
     },
     {
       "@type": "Question",
-      "name": "Guard Pass from Chill Dog (attacker): What matters when you protect the captured limb?",
+      "name": "Guard Pass from Chill Dog (top): What does their arm moving around your head indicate?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The opponent changing the hand around your head signals the move beyond New York, not a turtle escape."
+        "text": "The head-side grip change advances New York toward Chill Dog; it is an upper-body guard-control cue."
       }
     },
     {
       "@type": "Question",
-      "name": "Guard Pass from Chill Dog (attacker): What matters when you work before pressure engages?",
+      "name": "Guard Pass from Chill Dog (top): How should the free arm help before clearance?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Keep a balanced base and early inside frames; tap instead of moving against a completed choke or joint lock."
+        "text": "Early inside framing helps preserve space while the isolated arm is released; pressure is not a substitute for clearance."
       }
     },
     {
       "@type": "Question",
-      "name": "Guard Pass from Chill Dog (attacker): What matters when you open the high enclosure?",
+      "name": "Guard Pass from Chill Dog (top): Where should you make space to loosen the high leg?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Create slack at the hip and thigh while keeping the head and captured arm aligned."
+        "text": "Create slack at the high-leg connection with balanced positioning before extracting the head or shoulder."
       }
     },
     {
       "@type": "Question",
-      "name": "Guard Pass from Chill Dog (attacker): What matters when you recover the elbow and posture?",
+      "name": "Guard Pass from Chill Dog (top): When can the shoulder leave the leg enclosure?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Withdraw the shoulder and elbow only after the high leg connection has opened."
+        "text": "Withdraw shoulder and elbow through slack in the high leg rather than pulling an isolated arm through resistance."
       }
     },
     {
       "@type": "Question",
-      "name": "Guard Pass from Chill Dog (attacker): What matters when you confirm the next position?",
+      "name": "Guard Pass from Chill Dog (top): What confirms a completed side-control pass?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Establish side control after both legs and hips have been passed only when the upper-body enclosure and relevant leg hooks have cleared."
+        "text": "Side control requires clearing the legs and hips and establishing a stable pin beside the torso after the high enclosure releases."
       }
     }
   ]

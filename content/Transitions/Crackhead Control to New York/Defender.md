@@ -56,42 +56,42 @@ description: "Crackhead Control to New York (defender): Keep a useful forearm be
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Crackhead Control to New York (defender): What matters when you maintain inside frames?",
+      "name": "Crackhead to New York (top): What should stay between the bodies before the pummel?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Keep a useful forearm between the bodies before the bottom player gains the hand-clearing path."
+        "text": "Keep a useful inside forearm before the bottom player gains the path beneath your hand."
       }
     },
     {
       "@type": "Question",
-      "name": "Crackhead Control to New York (defender): What matters when you keep elbow and hand connected?",
+      "name": "Crackhead to New York (top): How should your hand and elbow recover from a partial pummel?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Move the whole arm rather than leaving the wrist exposed while the elbow remains fixed."
+        "text": "Recover the wrist, forearm and elbow as a connected unit through available space."
       }
     },
     {
       "@type": "Question",
-      "name": "Crackhead Control to New York (defender): What matters when you notice the pummel early?",
+      "name": "Crackhead to New York (top): Which cue marks the start of Eddy's hand-first pummel?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The free hand working under yours is the cue to recover inside position before the knee hug closes."
+        "text": "The hand entering beneath yours is an early cue to recover inside position before arm coverage and the knee hug close."
       }
     },
     {
       "@type": "Question",
-      "name": "Crackhead Control to New York (defender): What matters when you recover without yanking?",
+      "name": "Crackhead to New York (top): Where should the elbow return while the shoulder is still free?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Retract the elbow toward your ribs through available space, stopping if the shoulder is caught."
+        "text": "Retract the elbow inward while space remains; stop pulling if the shoulder becomes caught."
       }
     },
     {
       "@type": "Question",
-      "name": "Crackhead Control to New York (defender): What matters when you rebuild posture gradually?",
+      "name": "Crackhead to New York (top): What allows you to raise the chest after defending the pummel?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Raise the chest after freeing the arm and reducing the high-leg control."
+        "text": "Rebuild upright posture after freeing the arm and reducing the high-leg connection, not by lifting through the retained trap."
       }
     }
   ]

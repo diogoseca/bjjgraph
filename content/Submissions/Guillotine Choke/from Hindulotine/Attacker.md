@@ -70,50 +70,50 @@ description: "Guillotine Choke from Hindulotine (attacker): Establish a chin-str
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Guillotine Choke from Hindulotine (attacker): What matters when you control the head?",
+      "name": "Guillotine after Hindu Control: what first front-head connection should you establish?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Establish a chin-strap or equivalent front head control without twisting the jaw."
+        "text": "A chin strap or equivalent control of the lowered head. Establish a chin-strap or equivalent front head control without twisting the jaw."
       }
     },
     {
       "@type": "Question",
-      "name": "Guillotine Choke from Hindulotine (attacker): What matters when you place the choking forearm?",
+      "name": "Guillotine attack: where should the choking forearm be placed?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Bring the forearm into the neck space while keeping the head aligned."
+        "text": "In the neck space with the head aligned. Bring the forearm into the neck space while keeping the head aligned."
       }
     },
     {
       "@type": "Question",
-      "name": "Guillotine Choke from Hindulotine (attacker): What matters when you connect the support hand?",
+      "name": "Guillotine attack: what should the support hand secure?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Secure the selected grip without pulling the head backward."
+        "text": "The neck-enclosing grip without a backward head pull. Secure the selected grip without pulling the head backward."
       }
     },
     {
       "@type": "Question",
-      "name": "Guillotine Choke from Hindulotine (attacker): What matters when you control the body relationship?",
+      "name": "Guillotine attack: what prevents the opponent freely circling around your arms?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Use a stable base or guard connection so the opponent cannot freely circle around the choke."
+        "text": "A stable base or guard connection between the bodies. Use a stable base or guard connection so the opponent cannot freely circle around the choke."
       }
     },
     {
       "@type": "Question",
-      "name": "Guillotine Choke from Hindulotine (attacker): What matters when you close space gradually?",
+      "name": "Guillotine attack: how should you remove slack in the enclosure?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Use the torso and elbows to remove slack; reset if the pressure becomes a neck crank."
+        "text": "Connect torso and elbows gradually. Use the torso and elbows to remove slack; reset if the pressure becomes a neck crank."
       }
     },
     {
       "@type": "Question",
-      "name": "Guillotine Choke from Hindulotine (attacker): What matters when you release the neck?",
+      "name": "Guillotine attack: what releases a partner at the first tap?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Open both hands and remove body pressure immediately on a tap."
+        "text": "Open both hands and remove body pressure from the neck. Open both hands and remove body pressure immediately on a tap."
       }
     }
   ]

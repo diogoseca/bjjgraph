@@ -68,7 +68,7 @@ description: "Half Guard to Leg Weave (attacker): Thread the arm through the ava
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Half Guard to Leg Weave (attacker): What matters when you weave the arm?",
+      "name": "Half Guard to Leg Weave (top): Which route should your arm take to establish the weave?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Thread the arm through the available leg gap and connect to the lower thigh or knee."
@@ -76,7 +76,7 @@ description: "Half Guard to Leg Weave (attacker): Thread the arm through the ava
     },
     {
       "@type": "Question",
-      "name": "Half Guard to Leg Weave (attacker): What matters when you manage the knee shield?",
+      "name": "Half Guard to Leg Weave (top): How do you reduce the knee shield's separation?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use aligned shoulder pressure and chest pressure to bring the knees together without twisting the knee joint."
@@ -84,7 +84,7 @@ description: "Half Guard to Leg Weave (attacker): Thread the arm through the ava
     },
     {
       "@type": "Question",
-      "name": "Half Guard to Leg Weave (attacker): What matters when you keep the elbow protected?",
+      "name": "Half Guard to Leg Weave (top): Why should the weaving elbow avoid a long, exposed reach?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Avoid leaving the weaving arm extended where the bottom player can sit up into a kimura."
@@ -92,7 +92,7 @@ description: "Half Guard to Leg Weave (attacker): Thread the arm through the ava
     },
     {
       "@type": "Question",
-      "name": "Half Guard to Leg Weave (attacker): What matters when you maintain an outside base?",
+      "name": "Half Guard to Leg Weave (top): What supports movement around the joined knees?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Move the hips and feet without collapsing all weight over the woven arm."
@@ -100,7 +100,7 @@ description: "Half Guard to Leg Weave (attacker): Thread the arm through the ava
     },
     {
       "@type": "Question",
-      "name": "Half Guard to Leg Weave (attacker): What matters when you clear the legs before settling?",
+      "name": "Half Guard to Leg Weave (top): Why is the arm connection only an entry checkpoint?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Remove the remaining foot or half-guard hook before establishing side control."
@@ -108,7 +108,7 @@ description: "Half Guard to Leg Weave (attacker): Thread the arm through the ava
     },
     {
       "@type": "Question",
-      "name": "Half Guard to Leg Weave (attacker): What matters when you follow the hips?",
+      "name": "Half Guard to Leg Weave (top): The opponent inserts a fresh frame. How should you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If the bottom player turns or inserts a frame, keep control of distance and reset the pass rather than forcing a fixed angle."

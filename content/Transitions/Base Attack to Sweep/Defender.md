@@ -56,7 +56,7 @@ description: "Base Attack to Sweep (defender): Recognize the foot orientation wi
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Base Attack to Sweep (defender): What matters when you identify the turned foot?",
+      "name": "Base Attack to Sweep (foot-locker): What lower-limb cue makes Aoki capture available?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Recognize the foot orientation without twisting it into position against resistance."
@@ -64,7 +64,7 @@ description: "Base Attack to Sweep (defender): Recognize the foot orientation wi
     },
     {
       "@type": "Question",
-      "name": "Base Attack to Sweep (defender): What matters when you enclose the foot?",
+      "name": "Base Attack to Sweep (foot-locker): What distinguishes your grip from calf compression?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Hold the instep and heel region securely beside the upper body rather than relying on calf compression."
@@ -72,7 +72,7 @@ description: "Base Attack to Sweep (defender): Recognize the foot orientation wi
     },
     {
       "@type": "Question",
-      "name": "Base Attack to Sweep (defender): What matters when you control the hip connection?",
+      "name": "Base Attack to Sweep (foot-locker): What stops the opponent freely following the captured foot?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use the entanglement or foot-on-hip frame to manage distance before considering a finish."
@@ -80,7 +80,7 @@ description: "Base Attack to Sweep (defender): Recognize the foot orientation wi
     },
     {
       "@type": "Question",
-      "name": "Base Attack to Sweep (defender): What matters when you keep pressure neutral?",
+      "name": "Base Attack to Sweep (foot-locker): Why avoid adding extension as the opponent attempts to bridge?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Stop the drill at a secure capture; the control can become a damaging rotation with very little movement."
@@ -88,7 +88,7 @@ description: "Base Attack to Sweep (defender): Recognize the foot orientation wi
     },
     {
       "@type": "Question",
-      "name": "Base Attack to Sweep (defender): What matters when you respect counterattacks?",
+      "name": "Base Attack to Sweep (foot-locker): What counterattack can your hip-posting foot invite?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Keep track of your own exposed feet while concentrating on the captured foot."

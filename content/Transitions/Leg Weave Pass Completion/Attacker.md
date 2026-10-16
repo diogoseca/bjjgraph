@@ -68,7 +68,7 @@ description: "Leg Weave Pass Completion (attacker): Thread the arm through the a
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Leg Weave Pass Completion (attacker): What matters when you weave the arm?",
+      "name": "Leg Weave Pass Completion (top): Which arm route supplies the weave at the start?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Thread the arm through the available leg gap and connect to the lower thigh or knee."
@@ -76,7 +76,7 @@ description: "Leg Weave Pass Completion (attacker): Thread the arm through the a
     },
     {
       "@type": "Question",
-      "name": "Leg Weave Pass Completion (attacker): What matters when you manage the knee shield?",
+      "name": "Leg Weave Pass Completion (top): What should the shoulder and chest do to the leg frame?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use aligned shoulder pressure and chest pressure to bring the knees together without twisting the knee joint."
@@ -84,7 +84,7 @@ description: "Leg Weave Pass Completion (attacker): Thread the arm through the a
     },
     {
       "@type": "Question",
-      "name": "Leg Weave Pass Completion (attacker): What matters when you keep the elbow protected?",
+      "name": "Leg Weave Pass Completion (top): Why keep the weaving arm from hanging far from your torso?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Avoid leaving the weaving arm extended where the bottom player can sit up into a kimura."
@@ -92,7 +92,7 @@ description: "Leg Weave Pass Completion (attacker): Thread the arm through the a
     },
     {
       "@type": "Question",
-      "name": "Leg Weave Pass Completion (attacker): What matters when you maintain an outside base?",
+      "name": "Leg Weave Pass Completion (top): What should support your weight while your feet circle?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Move the hips and feet without collapsing all weight over the woven arm."
@@ -100,7 +100,7 @@ description: "Leg Weave Pass Completion (attacker): Thread the arm through the a
     },
     {
       "@type": "Question",
-      "name": "Leg Weave Pass Completion (attacker): What matters when you clear the legs before settling?",
+      "name": "Leg Weave Pass Completion (top): What must clear before transferring to a side-control hip block?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Remove the remaining foot or half-guard hook before establishing side control."
@@ -108,7 +108,7 @@ description: "Leg Weave Pass Completion (attacker): Thread the arm through the a
     },
     {
       "@type": "Question",
-      "name": "Leg Weave Pass Completion (attacker): What matters when you follow the hips?",
+      "name": "Leg Weave Pass Completion (top): A new inside frame stops your angle. What is the next task?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If the bottom player turns or inserts a frame, keep control of distance and reset the pass rather than forcing a fixed angle."

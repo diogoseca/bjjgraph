@@ -50,42 +50,42 @@ description: "New York Control to Invisible Collar (defender): The free leg movi
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "New York Control to Invisible Collar (defender): What matters when you recognize the high closure?",
+      "name": "New York Control to Invisible Collar (top): Which cue marks the extra reinforcement?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The free leg moving behind your head is an attempt to reinforce posture control, even without a collar grip."
+        "text": "The second leg closing high reinforces the existing arm-and-leg clinch, so recognize it before it completes."
       }
     },
     {
       "@type": "Question",
-      "name": "New York Control to Invisible Collar (defender): What matters when you protect the neck and arm?",
+      "name": "New York Control to Invisible Collar (top): How should the caught shoulder stay aligned?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Keep the head aligned and the captured elbow compact rather than twisting against the enclosure."
+        "text": "Keep the captured elbow compact and avoid rotating your torso away from a fixed shoulder while seeking slack."
       }
     },
     {
       "@type": "Question",
-      "name": "New York Control to Invisible Collar (defender): What matters when you keep a balanced base?",
+      "name": "New York Control to Invisible Collar (top): Which response addresses the high closure early?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Avoid driving all weight onto the partner's shoulders while the legs are locked high."
+        "text": "Early inside space and a balanced base can deny the reinforcing leg before it closes; do not rely on late forced extraction."
       }
     },
     {
       "@type": "Question",
-      "name": "New York Control to Invisible Collar (defender): What matters when you address the leg enclosure?",
+      "name": "New York Control to Invisible Collar (top): What should open before you raise your head?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Create space at the hip and thigh before trying to raise the head or extract the arm."
+        "text": "Create slack in the high enclosure before recovering head height so the movement does not pull against a fixed loop."
       }
     },
     {
       "@type": "Question",
-      "name": "New York Control to Invisible Collar (defender): What matters when you recover inside position?",
+      "name": "New York Control to Invisible Collar (top): Where should the arm return as the loop opens?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Bring the elbow back between the bodies after the high closure opens."
+        "text": "When the shoulder can move, return the elbow between the bodies to prevent renewed outside-arm isolation."
       }
     }
   ]

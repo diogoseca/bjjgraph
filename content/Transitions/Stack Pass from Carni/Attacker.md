@@ -68,50 +68,50 @@ description: "Stack Pass from Carni (attacker): A leg clearing the head with an 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Stack Pass from Carni (attacker): What matters when you recognize the upper-body trap?",
+      "name": "Stack Pass from Carni (top): Which control has priority before any passing pressure?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "A leg clearing the head with an overhook is an upper-body trap, even if a butterfly hook remains below."
+        "text": "Clear the shoulder clamp first; the route name does not authorize driving into a loaded Carni."
       }
     },
     {
       "@type": "Question",
-      "name": "Stack Pass from Carni (attacker): What matters when you protect the captured limb?",
+      "name": "Stack Pass from Carni (top): Where should the elbow stay before the triceps grip settles?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Avoid reaching away while the opponent sets the triceps control."
+        "text": "Avoid reaching away into the developing triceps control before the shoulder is clamped."
       }
     },
     {
       "@type": "Question",
-      "name": "Stack Pass from Carni (attacker): What matters when you work before pressure engages?",
+      "name": "Stack Pass from Carni (top): What is the useful early response before the shoulder lock closes?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Keep a balanced base and early inside frames; tap instead of moving against a completed choke or joint lock."
+        "text": "Work through available inside space with balanced support before the shoulder connection becomes a completed lock."
       }
     },
     {
       "@type": "Question",
-      "name": "Stack Pass from Carni (attacker): What matters when you open the high enclosure?",
+      "name": "Stack Pass from Carni (top): Your torso circles while the captured elbow stays behind; what loads?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Create slack at the hip and thigh while keeping the head and captured arm aligned."
+        "text": "Keep head, torso and captured upper arm aligned while opening space at the hip and thigh. Circling the torso while the elbow stays behind can rotate the retained shoulder; use actual release before turning."
       }
     },
     {
       "@type": "Question",
-      "name": "Stack Pass from Carni (attacker): What matters when you recover the elbow and posture?",
+      "name": "Stack Pass from Carni (top): What permits shoulder and elbow extraction?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Withdraw the shoulder and elbow only after the high leg connection has opened."
+        "text": "Withdraw the shoulder and elbow after the upper-body enclosure releases, not by forcing posture or circling through it."
       }
     },
     {
       "@type": "Question",
-      "name": "Stack Pass from Carni (attacker): What matters when you confirm the next position?",
+      "name": "Stack Pass from Carni (top): What establishes side control after the shoulder releases?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Establish side control only after shoulder release and a complete guard pass only when the upper-body enclosure and relevant leg hooks have cleared."
+        "text": "After complete shoulder release, separately clear the legs and settle balanced chest contact in side control."
       }
     }
   ]

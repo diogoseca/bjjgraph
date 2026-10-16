@@ -56,7 +56,7 @@ description: "Aoki Lock to Back Control (defender): Keep the shoulders facing th
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Aoki Lock to Back Control (defender): What matters when you deny rear torso access?",
+      "name": "Aoki Lock to Back Control (defender): After foot release, how do you deny rear torso access?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Keep the shoulders facing the opponent before a seatbelt closes."
@@ -64,7 +64,7 @@ description: "Aoki Lock to Back Control (defender): Keep the shoulders facing th
     },
     {
       "@type": "Question",
-      "name": "Aoki Lock to Back Control (defender): What matters when you protect the neck?",
+      "name": "Aoki Lock to Back Control (defender): After release, how do you address an arm nearing your neck?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Hand fight any arm approaching the neck while maintaining a stable base."
@@ -72,23 +72,23 @@ description: "Aoki Lock to Back Control (defender): Keep the shoulders facing th
     },
     {
       "@type": "Question",
-      "name": "Aoki Lock to Back Control (defender): What matters when you keep elbows connected?",
+      "name": "Aoki Lock to Back Control (defender): After release, where is your elbow as you turn to face?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Avoid exposing an isolated arm while turning to face the opponent."
+        "text": "A compact elbow beside the ribs and knee protects the arm and closes space for rear access."
       }
     },
     {
       "@type": "Question",
-      "name": "Aoki Lock to Back Control (defender): What matters when you recover facing frames?",
+      "name": "Aoki Lock to Back Control (defender): After the lock opens, what barrier helps recover facing guard?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Insert elbows and knees when space opens after the original control is released."
+        "text": "Bring the knee inside behind a frame and keep the elbow connected as you face the opponent."
       }
     },
     {
       "@type": "Question",
-      "name": "Aoki Lock to Back Control (defender): What matters when you do not roll against a lock?",
+      "name": "Aoki Lock to Back Control (defender): Your torso can turn but the foot is fixed. What comes first?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Wait for a trapped foot or arm to be released before changing direction."

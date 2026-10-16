@@ -56,7 +56,7 @@ description: "Buggy Choke to North-South (defender): Use safe shoulder and hip f
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Buggy Choke to North-South (defender): What matters when you build the angle?",
+      "name": "Buggy Choke to North-South (bottom): What body position reduces your reach to the linking leg?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use safe shoulder and hip frames to turn partly onto the side before reaching for the leg."
@@ -64,26 +64,26 @@ description: "Buggy Choke to North-South (defender): Use safe shoulder and hip f
     },
     {
       "@type": "Question",
-      "name": "Buggy Choke to North-South (defender): What matters when you enclose head and arm?",
+      "name": "Buggy Choke to North-South (bottom): Which enclosure gives the top player a choke to clear?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Check that the loop contains the necessary upper-body configuration rather than merely hugging your leg."
+        "text": "The Buggy loop encloses the top player's head and one arm; a grip on the leg alone does not suffice."
       }
     },
     {
       "@type": "Question",
-      "name": "Buggy Choke to North-South (defender): What matters when you keep elbow near knee?",
+      "name": "Buggy Choke to North-South (bottom): With the elbow near the knee, what replaces pulling the foot?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Shorten the connection through body position, not by pulling the foot hard toward the face."
+        "text": "Close the enclosure through torso position, keeping the elbow near the knee instead of levering the foot."
       }
     },
     {
       "@type": "Question",
-      "name": "Buggy Choke to North-South (defender): What matters when you use the torso connection?",
+      "name": "Buggy Choke to North-South (bottom): The loop is lost as they circle. How do you recover space?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Close space with the arm, leg, and torso while avoiding twisting force on your own knee."
+        "text": "Once the loop fails, abandon it and use a framed hip escape while knee space remains available."
       }
     }
   ]

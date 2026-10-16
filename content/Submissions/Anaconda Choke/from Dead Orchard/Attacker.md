@@ -70,50 +70,50 @@ description: "Anaconda Choke from Dead Orchard (attacker): Contain the opponent'
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Anaconda Choke from Dead Orchard (attacker): What matters when you establish front headlock?",
+      "name": "Anaconda after Dead Orchard: how many opposing arms belong inside the new neck enclosure?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Contain the opponent's head and one arm while keeping a balanced base."
+        "text": "Exactly one opposing arm inside the loop. The Anaconda encloses the neck and a single shoulder. Dead Orchard instead captures both arms with a high leg triangle, so the new arm loop must be established separately."
       }
     },
     {
       "@type": "Question",
-      "name": "Anaconda Choke from Dead Orchard (attacker): What matters when you thread under the neck?",
+      "name": "Anaconda attack: which route should the choking arm follow?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Pass the choking arm beneath the neck and toward the far armpit, enclosing one shoulder."
+        "text": "Under the neck toward the far armpit. Pass the choking arm beneath the neck and toward the far armpit, enclosing one shoulder."
       }
     },
     {
       "@type": "Question",
-      "name": "Anaconda Choke from Dead Orchard (attacker): What matters when you connect the arm loop?",
+      "name": "Anaconda attack: what should connecting your supporting arm accomplish?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Join to the supporting arm without pulling the neck into a twist."
+        "text": "Close the head-and-arm loop without twisting the neck. Join to the supporting arm without pulling the neck into a twist."
       }
     },
     {
       "@type": "Question",
-      "name": "Anaconda Choke from Dead Orchard (attacker): What matters when you choose a controlled angle?",
+      "name": "Anaconda attack: which part of your body leads the rehearsed rolling entry onto the mat?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Use the taught shoulder-led angle only when both partners can roll safely; do not dive onto the neck."
+        "text": "Your own shoulder, with space for your body to follow. Use a practiced shoulder-led path rather than posting the head. Rehearse with an unloaded enclosure and room for both partners to move."
       }
     },
     {
       "@type": "Question",
-      "name": "Anaconda Choke from Dead Orchard (attacker): What matters when you close the shoulder gap?",
+      "name": "Anaconda attack: which part of the opponent is brought beside their neck to close the remaining gap?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Bring the trapped shoulder toward the neck with gradual whole-body connection rather than a violent head pull."
+        "text": "The opponent's trapped shoulder. Bring the trapped shoulder toward the neck with gradual whole-body connection rather than a violent head pull."
       }
     },
     {
       "@type": "Question",
-      "name": "Anaconda Choke from Dead Orchard (attacker): What matters when you release the loop?",
+      "name": "Anaconda attack: how do you release a tapped partner from the enclosure?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Open both arms immediately on a tap or any loss of normal responsiveness."
+        "text": "Open both arms and remove the neck pressure. Open both arms immediately on a tap or any loss of normal responsiveness."
       }
     }
   ]

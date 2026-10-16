@@ -68,7 +68,7 @@ description: "Complete Leg Weave Pass (attacker): Thread the arm through the ava
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Complete Leg Weave Pass (attacker): What matters when you weave the arm?",
+      "name": "Complete Leg Weave Pass (top): What should the weaving arm connect to?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Thread the arm through the available leg gap and connect to the lower thigh or knee."
@@ -76,7 +76,7 @@ description: "Complete Leg Weave Pass (attacker): Thread the arm through the ava
     },
     {
       "@type": "Question",
-      "name": "Complete Leg Weave Pass (attacker): What matters when you manage the knee shield?",
+      "name": "Complete Leg Weave Pass (top): What pressure direction reduces the shield?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use aligned shoulder pressure and chest pressure to bring the knees together without twisting the knee joint."
@@ -84,7 +84,7 @@ description: "Complete Leg Weave Pass (attacker): Thread the arm through the ava
     },
     {
       "@type": "Question",
-      "name": "Complete Leg Weave Pass (attacker): What matters when you keep the elbow protected?",
+      "name": "Complete Leg Weave Pass (top): What arm exposure invites a kimura counter?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Avoid leaving the weaving arm extended where the bottom player can sit up into a kimura."
@@ -92,7 +92,7 @@ description: "Complete Leg Weave Pass (attacker): Thread the arm through the ava
     },
     {
       "@type": "Question",
-      "name": "Complete Leg Weave Pass (attacker): What matters when you maintain an outside base?",
+      "name": "Complete Leg Weave Pass (top): What lets you move without tipping over the woven arm?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Move the hips and feet without collapsing all weight over the woven arm."
@@ -100,7 +100,7 @@ description: "Complete Leg Weave Pass (attacker): Thread the arm through the ava
     },
     {
       "@type": "Question",
-      "name": "Complete Leg Weave Pass (attacker): What matters when you clear the legs before settling?",
+      "name": "Complete Leg Weave Pass (top): A half-guard hook still catches your foot. What remains?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Remove the remaining foot or half-guard hook before establishing side control."
@@ -108,7 +108,7 @@ description: "Complete Leg Weave Pass (attacker): Thread the arm through the ava
     },
     {
       "@type": "Question",
-      "name": "Complete Leg Weave Pass (attacker): What matters when you follow the hips?",
+      "name": "Complete Leg Weave Pass (top): The opponent turns their hips and adds a frame. What now?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If the bottom player turns or inserts a frame, keep control of distance and reset the pass rather than forcing a fixed angle."

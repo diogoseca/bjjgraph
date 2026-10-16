@@ -58,42 +58,42 @@ description: "Arm Triangle from Hindulotine (defender): Recover the arm before i
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Arm Triangle from Hindulotine (defender): What matters when you keep the elbow inside?",
+      "name": "Arm Triangle defense: what is the early recovery target before your arm crosses the neck?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Recover the arm before it crosses the neck and becomes enclosed."
+        "text": "Bring the elbow back into the space between you. Recover the arm before it crosses the neck and becomes enclosed."
       }
     },
     {
       "@type": "Question",
-      "name": "Arm Triangle from Hindulotine (defender): What matters when you preserve neck space?",
+      "name": "Arm Triangle defense: where should an early frame maintain a gap?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Maintain an early frame between the shoulder and head while the loop is still open."
+        "text": "Between your shoulder and the side of your head. Maintain an early frame between the shoulder and head while the loop is still open."
       }
     },
     {
       "@type": "Question",
-      "name": "Arm Triangle from Hindulotine (defender): What matters when you track the attacking arm?",
+      "name": "Arm Triangle defense: which two surfaces form the threat at your neck?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "An upper arm beside the neck plus your own shoulder on the other side is the key threat."
+        "text": "Their upper arm on one side and your shoulder on the other. An upper arm beside the neck plus your own shoulder on the other side is the key threat."
       }
     },
     {
       "@type": "Question",
-      "name": "Arm Triangle from Hindulotine (defender): What matters when you prevent the final angle?",
+      "name": "Arm Triangle defense: while space remains, how should you change the angle?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Move the hips and shoulders together while space remains; do not turn the head alone."
+        "text": "Move hips and shoulders together. Move the hips and shoulders together while space remains; do not turn the head alone."
       }
     },
     {
       "@type": "Question",
-      "name": "Arm Triangle from Hindulotine (defender): What matters when you tap to a secured choke?",
+      "name": "Arm Triangle defense: what should you do once the neck enclosure is secure?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Stop before dizziness or impaired awareness instead of treating top position as a prerequisite for danger."
+        "text": "Tap before dizziness or impaired awareness. Stop before dizziness or impaired awareness instead of treating top position as a prerequisite for danger."
       }
     }
   ]

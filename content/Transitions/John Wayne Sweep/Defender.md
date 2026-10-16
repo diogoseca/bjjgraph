@@ -56,7 +56,7 @@ description: "John Wayne Sweep (defender): A shallow lower-leg anchor with the o
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "John Wayne Sweep (defender): What matters when you recognize the knee lever?",
+      "name": "John Wayne Sweep (top): Which lower-body pairing signals the knee lever?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A shallow lower-leg anchor with the opposing knee entering your hip signals the sweep."
@@ -64,7 +64,7 @@ description: "John Wayne Sweep (defender): A shallow lower-leg anchor with the o
     },
     {
       "@type": "Question",
-      "name": "John Wayne Sweep (defender): What matters when you preserve an available post?",
+      "name": "John Wayne Sweep (top): What support matters before the sweep controls your posts?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Keep a hand or foot able to support the tipping direction before the upper body is captured."
@@ -72,7 +72,7 @@ description: "John Wayne Sweep (defender): A shallow lower-leg anchor with the o
     },
     {
       "@type": "Question",
-      "name": "John Wayne Sweep (defender): What matters when you manage the underhook?",
+      "name": "John Wayne Sweep (top): What upper-body connection should you deny early?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Avoid letting the bottom player connect their upper body directly under your base."
@@ -80,7 +80,7 @@ description: "John Wayne Sweep (defender): A shallow lower-leg anchor with the o
     },
     {
       "@type": "Question",
-      "name": "John Wayne Sweep (defender): What matters when you free the ankle early?",
+      "name": "John Wayne Sweep (top): When is removing the ankle anchor most appropriate?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Address the shallow foot anchor while the knee and hip can still move safely."
@@ -88,7 +88,7 @@ description: "John Wayne Sweep (defender): A shallow lower-leg anchor with the o
     },
     {
       "@type": "Question",
-      "name": "John Wayne Sweep (defender): What matters when you follow the fall safely?",
+      "name": "John Wayne Sweep (top): Your base is already lost. How should you follow the reversal?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Do not post a locked arm or twist a trapped knee to resist a completed reversal."

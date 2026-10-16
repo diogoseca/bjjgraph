@@ -68,7 +68,7 @@ description: "Hook Leg and Take Back (attacker): The bottom player has turned pa
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Hook Leg and Take Back (attacker): What matters when you identify the starting enclosure?",
+      "name": "Hook Leg and Take Back (Buggy holder): Where is the holder in the initial choke setup?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The bottom player has turned partly toward the opponent and brought an arm past the head."
@@ -76,7 +76,7 @@ description: "Hook Leg and Take Back (attacker): The bottom player has turned pa
     },
     {
       "@type": "Question",
-      "name": "Hook Leg and Take Back (attacker): What matters when you remove finishing pressure?",
+      "name": "Hook Leg and Take Back (Buggy holder): What should you release if the opponent begins lifting?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Protect both the defender's neck and the attacker's knee. Do not pull the foot against a fixed knee, use a slam, or remain attached when lifted. Open the whole loop on any stop signal."
@@ -84,7 +84,7 @@ description: "Hook Leg and Take Back (attacker): The bottom player has turned pa
     },
     {
       "@type": "Question",
-      "name": "Hook Leg and Take Back (attacker): What matters when you release before repositioning?",
+      "name": "Hook Leg and Take Back (Buggy holder): What must open before a separate turn toward rear access?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Open the original connection before either partner turns, rises or changes the captured limb."
@@ -92,7 +92,7 @@ description: "Hook Leg and Take Back (attacker): The bottom player has turned pa
     },
     {
       "@type": "Question",
-      "name": "Hook Leg and Take Back (attacker): What matters when you require rear torso access?",
+      "name": "Hook Leg and Take Back (Buggy holder): What attachment must be acquired for an actual back take?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Establish a separate chest-to-back connection before reaching for hooks or a seatbelt."
@@ -100,7 +100,7 @@ description: "Hook Leg and Take Back (attacker): The bottom player has turned pa
     },
     {
       "@type": "Question",
-      "name": "Hook Leg and Take Back (attacker): What matters when you contain the shoulder and hip lines?",
+      "name": "Hook Leg and Take Back (Buggy holder): Once behind, what helps contain their hip line?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use controlled upper-body and leg attachment while preserving neck alignment."
@@ -108,7 +108,7 @@ description: "Hook Leg and Take Back (attacker): The bottom player has turned pa
     },
     {
       "@type": "Question",
-      "name": "Hook Leg and Take Back (attacker): What matters when you stabilize rear control?",
+      "name": "Hook Leg and Take Back (Buggy holder): What response shows the new rear attachment is incomplete?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Confirm that the opponent cannot simply turn to face you before considering a back attack."

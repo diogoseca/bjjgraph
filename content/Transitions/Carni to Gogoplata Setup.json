@@ -198,128 +198,128 @@
     ],
     "flashcards": [
       {
-        "question": "Carni to Gogoplata Setup (attacker): What matters when you ease the shoulder lock?",
-        "answer": "Remove wrist and triceps finishing pressure before changing the leg angle.",
-        "answer_line": "Ease the shoulder lock",
+        "question": "Carni to Gogoplata (bottom): Which pressure must end before the leg changes position?",
+        "answer": "Remove the Carni shoulder-lock pressure before changing the high leg toward the neck.",
+        "answer_line": "Wrist-and-triceps shoulder loading",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Only the foot pressure on the mat",
+            "Only your lower butterfly hook"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Only the forearm frame beside the neck"
           ]
         }
       },
       {
-        "question": "Carni to Gogoplata Setup (attacker): What matters when you retain posture control?",
-        "answer": "Keep a comfortable knee hug and hip connection as the opponent's arm is released.",
-        "answer_line": "Retain posture control",
+        "question": "Carni to Gogoplata (bottom): What helps keep the opponent close as the arm is released?",
+        "answer": "Retain comfortable knee support and hip connection as the Carni arm is released.",
+        "answer_line": "A supported knee hug with close hip connection",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "An extended arm pulling the trapped wrist",
+            "Flat hips with the high knee drifting away"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "An ankle pulled upward against a fixed knee"
           ]
         }
       },
       {
-        "question": "Carni to Gogoplata Setup (attacker): What matters when you rebuild the neck-cleared angle?",
-        "answer": "Use a forearm frame and hip turn to make room for the high leg.",
-        "answer_line": "Rebuild the neck-cleared angle",
+        "question": "Carni to Gogoplata (bottom): How do you preserve room for the shin to move?",
+        "answer": "An inside forearm frame blocks incoming chest pressure while hip rotation creates room for the high leg.",
+        "answer_line": "Place the forearm inside and turn the hips",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Lay the forearm outside the incoming chest",
+            "Stay flat and pull harder on the foot"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Drop the inside frame before making room for the shin"
           ]
         }
       },
       {
-        "question": "Carni to Gogoplata Setup (attacker): What matters when you move the foot under the chin?",
-        "answer": "Use the available path without hauling the foot against a fixed knee.",
-        "answer_line": "Move the foot under the chin",
+        "question": "Carni to Gogoplata (bottom): The knee is fixed and the foot cannot enter; what changes first?",
+        "answer": "Move through available space with a supported knee; if the foot cannot enter, release and adjust rather than hauling it.",
+        "answer_line": "Release tension and adjust the hips",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Pull the foot inward without moving the hips",
+            "Raise the foot while keeping the same hip angle"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Release the hand grip but keep the knee wedged"
           ]
         }
       },
       {
-        "question": "Carni to Gogoplata Setup (attacker): What matters when you confirm shin placement?",
-        "answer": "Stop at a controlled shin-under-chin enclosure; do not substitute jaw pressure.",
-        "answer_line": "Confirm shin placement",
+        "question": "Carni to Gogoplata (bottom): Where must the shin lie for the intended neck enclosure?",
+        "answer": "The setup requires actual shin placement beneath the chin; the training checkpoint omits finishing pressure.",
+        "answer_line": "Under the chin against the front of the neck",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Across the closed jaw in front of the neck",
+            "Behind the head against the upper neck"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Across the upper chest below the throat"
           ]
         }
       },
       {
-        "question": "Carni to Gogoplata Setup (attacker): What matters when you reset when blocked?",
-        "answer": "Return to guard if the opponent recovers posture or the shin cannot enter comfortably.",
-        "answer_line": "Reset when blocked",
+        "question": "Carni to Gogoplata (bottom): The opponent sits upright before shin entry; what do you rebuild?",
+        "answer": "If posture escapes or comfortable shin entry is unavailable, return to guard instead of forcing the switch.",
+        "answer_line": "Facing guard with frames between the bodies",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "A head grip with both knees left outside",
+            "The old wrist grip with the shoulder already free"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "A shin reach toward the chin from distant hips"
           ]
         }
       },
       {
-        "question": "Carni to Gogoplata Setup (attacker): What configuration must exist before this sequence?",
-        "answer": "The bottom player has a Carni shoulder connection and must reorganize the high leg while keeping posture close.",
-        "answer_line": "Check the starting configuration",
+        "question": "Carni to Gogoplata (bottom): Which connection describes the starting Carni position?",
+        "answer": "The starting threat is a shoulder clamp; release its load before building a different neck enclosure.",
+        "answer_line": "A leg-assisted shoulder clamp with arm control",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "A high shin grip with the opposing arm still free",
+            "A shin beneath the chin with the shoulder released"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "A both-arm leg triangle around the shoulder line"
           ]
         }
       },
       {
-        "question": "Carni to Gogoplata Setup (attacker): Check the defining controls?",
-        "answer": "The shin must actually pass under the chin. Carni shoulder pressure alone is not a Gogoplata, and a blocked chin is a reason to reset rather than grind the face.",
-        "answer_line": "Check the defining controls",
+        "question": "Carni to Gogoplata (bottom): Which target changes when the new setup is established?",
+        "answer": "Carni controls the shoulder; Gogoplata requires a separate shin-under-chin neck enclosure.",
+        "answer_line": "The shoulder lock becomes a shin-based neck enclosure",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "The shin keeps levering the upper arm against the overhook",
+            "The crossed legs compress the torso while the neck stays free"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "The supported foot pushes the captured shoulder farther behind the back"
           ]
         }
       },
       {
-        "question": "Carni to Gogoplata Setup (attacker): When should the partners stop or reset?",
-        "answer": "Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.",
-        "answer_line": "Release before unsafe loading",
+        "question": "Carni to Gogoplata (bottom): In the setup-only drill, the shin stays on the jaw; what next?",
+        "answer": "A blocked chin is a failed entry for this drill. Reset without grinding the jaw or restoring shoulder-lock pressure.",
+        "answer_line": "Abandon the choke setup and recover guard space",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Keep the head grip and increase pressure on the jaw",
+            "Keep the shin on the jaw and pull the head lower"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Reapply wrist pressure while leaving the shin on the jaw"
           ]
         }
       }
@@ -431,72 +431,72 @@
     ],
     "flashcards": [
       {
-        "question": "Carni to Gogoplata Setup (defender): What matters when you protect the chin line early?",
-        "answer": "Use an inside forearm frame before the shin enters under the chin.",
-        "answer_line": "Protect the chin line early",
+        "question": "Carni to Gogoplata (top): What blocks the shin's entry before it reaches your chin?",
+        "answer": "Use an inside forearm early to preserve space before the shin and head control form a neck enclosure.",
+        "answer_line": "An inside forearm frame between the bodies",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "A forearm outside the high knee and chest gap",
+            "A palm on the hip with the elbow outside the gap"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "A wrist grip with the forearm pulled behind the torso"
           ]
         }
       },
       {
-        "question": "Carni to Gogoplata Setup (defender): What matters when you avoid a forced posture pull?",
-        "answer": "Do not jerk the head upward while the high leg remains fixed.",
-        "answer_line": "Avoid a forced posture pull",
+        "question": "Carni to Gogoplata (top): Your head-side leg connection is still fixed; how do you regain height?",
+        "answer": "Rebuild posture after the head-side leg connection opens, not by pulling upward through it.",
+        "answer_line": "Clear that connection before raising the head",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Raise the chest while the head-side leg stays connected",
+            "Turn the chin away before the shoulder clears"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Lower the opponent's free leg and then lift the head"
           ]
         }
       },
       {
-        "question": "Carni to Gogoplata Setup (defender): What matters when you track the arm release?",
-        "answer": "Recover the elbow as the shoulder lock opens, without yanking against remaining control.",
-        "answer_line": "Track the arm release",
+        "question": "Carni to Gogoplata (top): When can your elbow return toward the ribs?",
+        "answer": "Recover the elbow during the released shoulder phase, before the new neck enclosure closes.",
+        "answer_line": "As the clamp opens and the arm frees",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "While the triceps and wrist remain fixed",
+            "Only after the shin closes under the chin"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "By straightening the elbow against the clamp"
           ]
         }
       },
       {
-        "question": "Carni to Gogoplata Setup (defender): What matters when you keep a safe base?",
-        "answer": "Avoid driving the partner into a neck stack during the leg change.",
-        "answer_line": "Keep a safe base",
+        "question": "Carni to Gogoplata (top): Which support avoids folding the partner onto the neck during the change?",
+        "answer": "Keep balanced support and allow the shoulder and leg connections to clear without stacking the partner.",
+        "answer_line": "Balanced support without driving their hips over the neck",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Forward weight carrying their hips beyond their shoulders",
+            "Pressure through their knees toward their forehead"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Circling while their raised hips rest on the neck"
           ]
         }
       },
       {
-        "question": "Carni to Gogoplata Setup (defender): What matters when you tap to an enclosed choke?",
-        "answer": "Stop if the shin and head control already close the neck space.",
-        "answer_line": "Tap to an enclosed choke",
+        "question": "Carni to Gogoplata (top): The shin and head grip have closed the neck space; what now?",
+        "answer": "Once the neck enclosure is secure, tap and obtain release rather than relying on late head movement.",
+        "answer_line": "Tap and have the neck enclosure released",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Keep lifting the chin inside the closed grip",
+            "Turn the head beneath the retained shin"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Continue hand fighting as if the entry were still open"
           ]
         }
       }

@@ -68,50 +68,50 @@ description: "Roll from Chill Dog (attacker): The bottom player is on the back o
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Roll from Chill Dog (attacker): What matters when you recognize the actual control?",
+      "name": "Roll from Chill Dog (bottom): What relationship exists before this proposed roll?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The bottom player is on the back or hip with a high rubber-guard leg across the upper back. One of the top player's arms is isolated beside the bottom player rather than framing inside."
+        "text": "Chill Dog begins with the bottom player facing the opponent in a neck-cleared high guard, not underneath a rear ride."
       }
     },
     {
       "@type": "Question",
-      "name": "Roll from Chill Dog (attacker): What matters when you remove submission pressure?",
+      "name": "Roll from Chill Dog (bottom): What must open before changing the facing direction?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Release any wrist, neck or elbow loading before opening the high-leg enclosure."
+        "text": "Release neck and shoulder tension before changing direction so a turn does not carry a captured joint through rotation."
       }
     },
     {
       "@type": "Question",
-      "name": "Roll from Chill Dog (attacker): What matters when you open the high connection?",
+      "name": "Roll from Chill Dog (bottom): How should the high leg lower for a reset?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Lower the controlling leg through a comfortable hip angle rather than pulling the foot against the knee."
+        "text": "Open the connection and move the hip so the leg lowers through available space without dragging the ankle across the knee."
       }
     },
     {
       "@type": "Question",
-      "name": "Roll from Chill Dog (attacker): What matters when you restore inside frames?",
+      "name": "Roll from Chill Dog (bottom): What should replace the high-leg connection?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Bring the forearms and knees between the bodies as space becomes available."
+        "text": "Restore a facing guard barrier after release instead of leaving both legs outside while the opponent advances."
       }
     },
     {
       "@type": "Question",
-      "name": "Roll from Chill Dog (attacker): What matters when you face the opponent?",
+      "name": "Roll from Chill Dog (bottom): Which movement creates knee room after release?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Keep the shoulders and hips oriented toward the opponent while re-establishing a comfortable facing guard."
+        "text": "The supported hip escape creates room for a knee after the high connection opens; it does not require a somersault."
       }
     },
     {
       "@type": "Question",
-      "name": "Roll from Chill Dog (attacker): What matters when you stabilize before moving again?",
+      "name": "Roll from Chill Dog (bottom): What can happen if you roll with their arm still fixed?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Check posture, knee comfort and inside space before resuming a sweep or submission attack."
+        "text": "A torso turn can load a shoulder that remains fixed by the knee hug. Release that arm before any separately established roll."
       }
     }
   ]

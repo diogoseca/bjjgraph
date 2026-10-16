@@ -56,42 +56,42 @@ description: "Anaconda Control to Dead Orchard Control (defender): Treat a high 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Anaconda Control to Dead Orchard Control (defender): Recognize both-arm capture?",
+      "name": "Anaconda to Dead Orchard (defender): What can follow straightening an arm inside the new trap?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Treat a high leg triangle containing both your arms as an arm-lock threat even when the neck is not being choked."
+        "text": "Once the exchange reaches Dead Orchard, both-arm capture exposes short arm locks even when the neck is not being choked."
       }
     },
     {
       "@type": "Question",
-      "name": "Anaconda Control to Dead Orchard Control (defender): What matters when you protect the elbows?",
+      "name": "Anaconda to Dead Orchard (defender): How should your arms stay during the high-guard phase?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Keep the arms compact and avoid offering a straight arm while trying to force posture."
+        "text": "Keep the arms compact; Nathan Orchard's demonstration shows how a straightened arm assists the both-arm triangle and arm isolation."
       }
     },
     {
       "@type": "Question",
-      "name": "Anaconda Control to Dead Orchard Control (defender): What matters when you prevent the leg closure?",
+      "name": "Anaconda to Dead Orchard (defender): Where can an early frame slow the new leg closure?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Maintain an early frame at the hip or thigh before the figure-four closes around the shoulders."
+        "text": "Before the high figure-four closes, a frame at the hip or thigh can preserve space. It is not a guaranteed escape after closure."
       }
     },
     {
       "@type": "Question",
-      "name": "Anaconda Control to Dead Orchard Control (defender): What matters when you clear a shoulder safely?",
+      "name": "Anaconda to Dead Orchard (defender): When may you withdraw a captured shoulder and elbow?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Work on opening the leg enclosure before withdrawing the shoulder and elbow together; stop if an arm is already loaded."
+        "text": "Open the leg enclosure first, then withdraw the shoulder and elbow together through available space; stop if the arm is loaded."
       }
     },
     {
       "@type": "Question",
-      "name": "Anaconda Control to Dead Orchard Control (defender): What matters when you recover base in stages?",
+      "name": "Anaconda to Dead Orchard (defender): What must be free before you raise your chest?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Only raise posture after the shoulder line is free; a sudden pull can extend a captured elbow."
+        "text": "Raise posture only after the shoulder line clears the high legs. Pulling upright with an arm still trapped can extend its elbow."
       }
     }
   ]

@@ -68,50 +68,50 @@ description: "New York Control to Zombie (attacker): Maintain posture control wh
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "New York Control to Zombie (attacker): What matters when you keep Mission Control?",
+      "name": "New York Control to Zombie (bottom): When is another Zombie pummel actually needed?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Maintain posture control while freeing the other arm for the pummel."
+        "text": "Completed New York already contains the cleared arm. Re-pummel only if that isolation is lost and the hand comes back inside."
       }
     },
     {
       "@type": "Question",
-      "name": "New York Control to Zombie (attacker): What matters when you find inside space?",
+      "name": "New York Control to Zombie (bottom): Which control must survive while your free hand works?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Work through the opening near the hand rather than forcing a tightly clamped elbow straight outward."
+        "text": "Restore Mission Control posture control before using the free hand for the renewed pummel."
       }
     },
     {
       "@type": "Question",
-      "name": "New York Control to Zombie (attacker): What matters when you move the hand to the mat?",
+      "name": "New York Control to Zombie (bottom): In Eddy's hand-first version, where do you enter?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Guide the wrist and forearm through the available space without bending individual fingers."
+        "text": "Ben Eddy works under the hand rather than trying to pry beneath the strongly clamped elbow; this is one demonstrated version."
       }
     },
     {
       "@type": "Question",
-      "name": "New York Control to Zombie (attacker): What matters when you prevent the return pummel?",
+      "name": "New York Control to Zombie (bottom): What should you guide as the pummel clears the frame?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Cover the cleared arm and close the knee hug as the hand reaches the mat."
+        "text": "Move the arm through available space and guide the hand outside, rather than manipulating individual fingers."
       }
     },
     {
       "@type": "Question",
-      "name": "New York Control to Zombie (attacker): What matters when you recognize New York?",
+      "name": "New York Control to Zombie (bottom): What follows as the hand reaches the mat?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Once the arm is isolated, maintain that new control instead of repeatedly treating Zombie as a separate leg entanglement."
+        "text": "The cleared hand must be followed by the arm wrap and supported knee hug to restore New York isolation."
       }
     },
     {
       "@type": "Question",
-      "name": "New York Control to Zombie (attacker): What matters when you reset a blocked attempt?",
+      "name": "New York Control to Zombie (bottom): The hand is cleared and the knee hugged; what now?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Keep a safe guard and look for another opening when the opponent maintains inside frames."
+        "text": "Once the hand-clearing goal is reached, retain the resulting control rather than repeating an unnecessary pummel."
       }
     }
   ]

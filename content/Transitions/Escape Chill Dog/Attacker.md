@@ -68,50 +68,50 @@ description: "Escape Chill Dog (attacker): The bottom player is on the back or h
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Escape Chill Dog (attacker): What matters when you recognize the actual control?",
+      "name": "Escape Chill Dog (bottom): What are you releasing in this bottom-seat escape?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The bottom player is on the back or hip with a high rubber-guard leg across the upper back. One of the top player's arms is isolated beside the bottom player rather than framing inside."
+        "text": "The bottom player owns Chill Dog. This reset opens that facing high guard rather than escaping from a turtle ride."
       }
     },
     {
       "@type": "Question",
-      "name": "Escape Chill Dog (attacker): What matters when you remove submission pressure?",
+      "name": "Escape Chill Dog (bottom): Which load must come off before the leg lowers?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Release any wrist, neck or elbow loading before opening the high-leg enclosure."
+        "text": "Release the loaded arm-and-neck connection before lowering the high leg so the movement does not drag a fixed joint."
       }
     },
     {
       "@type": "Question",
-      "name": "Escape Chill Dog (attacker): What matters when you open the high connection?",
+      "name": "Escape Chill Dog (bottom): How do you lower the high leg without twisting the knee?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Lower the controlling leg through a comfortable hip angle rather than pulling the foot against the knee."
+        "text": "Lower the leg through a comfortable hip angle; avoid pulling the foot while the knee is fixed against the opponent."
       }
     },
     {
       "@type": "Question",
-      "name": "Escape Chill Dog (attacker): What matters when you restore inside frames?",
+      "name": "Escape Chill Dog (bottom): What replaces the leg as their shoulder comes forward?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Bring the forearms and knees between the bodies as space becomes available."
+        "text": "As Chill Dog opens, put the forearm inside the approaching shoulder and recover knee space to resist chest access."
       }
     },
     {
       "@type": "Question",
-      "name": "Escape Chill Dog (attacker): What matters when you face the opponent?",
+      "name": "Escape Chill Dog (bottom): How should chest and knees align during the facing reset?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Keep the shoulders and hips oriented toward the opponent while re-establishing a comfortable facing guard."
+        "text": "Maintain a facing orientation while recovering the knees, so the reset remains guard retention rather than back exposure."
       }
     },
     {
       "@type": "Question",
-      "name": "Escape Chill Dog (attacker): What matters when you stabilize before moving again?",
+      "name": "Escape Chill Dog (bottom): Their chest enters as the leg drops; what is missing?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Check posture, knee comfort and inside space before resuming a sweep or submission attack."
+        "text": "Opening the high leg is incomplete if chest pressure fills the gap; restore the shoulder frame and make space with the hips."
       }
     }
   ]

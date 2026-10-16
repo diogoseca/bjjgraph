@@ -202,142 +202,142 @@
     ],
     "flashcards": [
       {
-        "question": "Roll from Chill Dog (attacker): What matters when you recognize the actual control?",
-        "answer": "The bottom player is on the back or hip with a high rubber-guard leg across the upper back. One of the top player's arms is isolated beside the bottom player rather than framing inside.",
-        "answer_line": "Recognize the actual control",
+        "question": "Roll from Chill Dog (bottom): What relationship exists before this proposed roll?",
+        "answer": "Chill Dog begins with the bottom player facing the opponent in a neck-cleared high guard, not underneath a rear ride.",
+        "answer_line": "Facing high guard with one opposing arm isolated",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Facing Mission Control with both forearms still inside",
+            "Facing closed guard with both legs low at the waist"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Facing high guard with the head-side arm still uncleared"
           ]
         }
       },
       {
-        "question": "Roll from Chill Dog (attacker): What matters when you remove submission pressure?",
-        "answer": "Release any wrist, neck or elbow loading before opening the high-leg enclosure.",
-        "answer_line": "Remove submission pressure",
+        "question": "Roll from Chill Dog (bottom): What must open before changing the facing direction?",
+        "answer": "Release neck and shoulder tension before changing direction so a turn does not carry a captured joint through rotation.",
+        "answer_line": "The loaded high leg-and-arm enclosure",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Only the free foot while the arm stays fixed",
+            "Only your mat post while the neck loop stays tight"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Only the head-side hand while the knee hug fixes the shoulder"
           ]
         }
       },
       {
-        "question": "Roll from Chill Dog (attacker): What matters when you open the high connection?",
-        "answer": "Lower the controlling leg through a comfortable hip angle rather than pulling the foot against the knee.",
-        "answer_line": "Open the high connection",
+        "question": "Roll from Chill Dog (bottom): How should the high leg lower for a reset?",
+        "answer": "Open the connection and move the hip so the leg lowers through available space without dragging the ankle across the knee.",
+        "answer_line": "Through hip movement with the knee supported",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "By holding the knee still and hauling the foot",
+            "By straightening into the opponent's shoulder"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "By flattening the hip before releasing the high foot grip"
           ]
         }
       },
       {
-        "question": "Roll from Chill Dog (attacker): What matters when you restore inside frames?",
-        "answer": "Bring the forearms and knees between the bodies as space becomes available.",
-        "answer_line": "Restore inside frames",
+        "question": "Roll from Chill Dog (bottom): What should replace the high-leg connection?",
+        "answer": "Restore a facing guard barrier after release instead of leaving both legs outside while the opponent advances.",
+        "answer_line": "Inside forearms and knees protecting the torso",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "A pair of hands clasped behind their head",
+            "Both knees drawn behind you"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Inside forearms with both knees kept outside their hips"
           ]
         }
       },
       {
-        "question": "Roll from Chill Dog (attacker): What matters when you face the opponent?",
-        "answer": "Keep the shoulders and hips oriented toward the opponent while re-establishing a comfortable facing guard.",
-        "answer_line": "Face the opponent",
+        "question": "Roll from Chill Dog (bottom): Which movement creates knee room after release?",
+        "answer": "The supported hip escape creates room for a knee after the high connection opens; it does not require a somersault.",
+        "answer_line": "A short lateral hip escape behind the frame",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "A backward roll while the high leg stays attached",
+            "A straight sit-up into the opponent's chest"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "A lateral hip slide after dropping the shoulder frame"
           ]
         }
       },
       {
-        "question": "Roll from Chill Dog (attacker): What matters when you stabilize before moving again?",
-        "answer": "Check posture, knee comfort and inside space before resuming a sweep or submission attack.",
-        "answer_line": "Stabilize before moving again",
+        "question": "Roll from Chill Dog (bottom): What can happen if you roll with their arm still fixed?",
+        "answer": "A torso turn can load a shoulder that remains fixed by the knee hug. Release that arm before any separately established roll.",
+        "answer_line": "Their torso turns around a shoulder that cannot follow",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "The upper arm slips through the knee hug as your hips turn",
+            "The head-side hand connection opens before the shoulder loads"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "The captured elbow follows the torso despite the retained clamp"
           ]
         }
       },
       {
-        "question": "Roll from Chill Dog (attacker): What configuration must exist before this sequence?",
-        "answer": "The bottom player is already facing the opponent in Chill Dog, with a high rubber-guard leg connection.",
-        "answer_line": "Check the starting configuration",
+        "question": "Roll from Chill Dog (bottom): Where should the forearm frame sit while your inside knee returns?",
+        "answer": "Keep the forearm inside the approaching shoulder while the hips make knee room. This barrier keeps the passer from filling the recovery gap with a crossface and chest control.",
+        "answer_line": "Inside the approaching shoulder to deny the crossface",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Outside the approaching upper arm, leaving a path to your head",
+            "Low against their belt while the shoulder crosses your face"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Across your chest after their shoulder has passed inside"
           ]
         }
       },
       {
-        "question": "Roll from Chill Dog (attacker): What distinguishes this control from a similar-looking position?",
-        "answer": "No direct roll from the named high-guard configuration was established by the reviewed instruction. Do not roll onto the neck while retaining a loaded shoulder connection.",
-        "answer_line": "Check the defining controls",
+        "question": "Roll from Chill Dog (bottom): Why does a free hand alone not authorize a roll?",
+        "answer": "Check the actual upper-body enclosure; hand freedom does not establish that captured joints can rotate safely.",
+        "answer_line": "The shoulder or neck may still be fixed by the leg",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Hand mobility shows the elbow can also follow the turn",
+            "A lowered free leg releases the remaining head enclosure"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "A supported hip makes shoulder clearance unnecessary"
           ]
         }
       },
       {
-        "question": "Roll from Chill Dog (attacker): When should the partners stop or reset?",
-        "answer": "Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.",
-        "answer_line": "Release before unsafe loading",
+        "question": "Roll from Chill Dog (bottom): Your neck takes weight during the turn; what now?",
+        "answer": "Do not continue a turn that transfers weight onto the neck; unload and reopen the high connection before recovery.",
+        "answer_line": "Stop the turn and unload before resetting guard",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Complete the roll before lowering the high leg",
+            "Pull the opponent tighter to increase momentum"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Pause the hips but retain the folded high-leg tension"
           ]
         }
       },
       {
-        "question": "Roll from Chill Dog (attacker): What should a cooperative first drill establish?",
-        "answer": "Identify the starting configuration and rehearse the first connection without finishing pressure. The bottom player is on the back or hip with a high rubber-guard leg across the upper back. One of the top player's arms is isolated beside the bottom player rather than framing inside.",
-        "answer_line": "Rehearse the first connection",
+        "question": "Roll from Chill Dog (bottom): What verifies the supported reset at the end?",
+        "answer": "The documented recovery checkpoint is the restored guard barrier after the high connection opens, not a guaranteed rolling destination.",
+        "answer_line": "Facing guard with an inside knee and forearm barrier",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "A roll completed with both knees still outside",
+            "An overhook kept while the chest is pinned"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "A knee inside with the shoulder frame folded onto your chest"
           ]
         }
       }
@@ -440,72 +440,72 @@
     ],
     "flashcards": [
       {
-        "question": "Roll from Chill Dog (defender): What matters when you track the trapped elbow?",
-        "answer": "Keep the free hand available for framing while preventing the isolated elbow from being pulled further away from your torso.",
-        "answer_line": "Track the trapped elbow",
+        "question": "Roll from Chill Dog (top): How should you protect the isolated arm as they shift?",
+        "answer": "Preserve inside space with the free arm and avoid letting the isolated elbow drift farther from your torso.",
+        "answer_line": "Keep the elbow compact and the free arm framing",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Flare the caught elbow to follow their hips",
+            "Reach both hands behind their back"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Post the free hand wide and leave the captured elbow extended"
           ]
         }
       },
       {
-        "question": "Roll from Chill Dog (defender): What matters when you recognize neck clearing?",
-        "answer": "The opponent changing the hand around your head signals the move beyond New York, not a turtle escape.",
-        "answer_line": "Recognize neck clearing",
+        "question": "Roll from Chill Dog (top): What does their head-side grip change actually signal?",
+        "answer": "The arm moving around your head indicates the Chill Dog checkpoint, not proof that either player has a rear ride.",
+        "answer_line": "A neck-cleared rubber-guard connection",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Their original arm trap has released during the hand change",
+            "Their high leg is being lowered into ordinary guard"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Their wrist pummel has just begun under your hand"
           ]
         }
       },
       {
-        "question": "Roll from Chill Dog (defender): What matters when you deny the second leg?",
-        "answer": "Keep a safe base and prevent the free leg from closing high behind your head.",
-        "answer_line": "Deny the second leg",
+        "question": "Roll from Chill Dog (top): Which free-leg movement can deepen the clinch?",
+        "answer": "A second leg joining behind the head reinforces the upper-body enclosure; maintain early inside space to prevent it.",
+        "answer_line": "Its closure high behind your head",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "The leg lowering toward the mat",
+            "The knee returning between the two chests"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "The free foot settling against your hip below the waist"
           ]
         }
       },
       {
-        "question": "Roll from Chill Dog (defender): What matters when you undo the arm isolation?",
-        "answer": "Recover the elbow toward your ribs only when the leg enclosure has slack, rather than jerking the shoulder.",
-        "answer_line": "Undo the arm isolation",
+        "question": "Roll from Chill Dog (top): When is a backward elbow withdrawal appropriate?",
+        "answer": "Recover the elbow toward the ribs only through an opened high-leg connection rather than pulling against a fixed shoulder.",
+        "answer_line": "After slack lets the shoulder move with it",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "As soon as their free leg shifts sideways",
+            "Whenever you can post the other hand"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "When your wrist moves but the knee hug still holds the elbow"
           ]
         }
       },
       {
-        "question": "Roll from Chill Dog (defender): What matters when you posture after release?",
-        "answer": "Bring the head and chest upright in stages after clearing the upper-body control.",
-        "answer_line": "Posture after release",
+        "question": "Roll from Chill Dog (top): What should precede lifting your head after their reset?",
+        "answer": "Recover posture after the high leg and arm trap open; a change of direction alone does not establish clearance.",
+        "answer_line": "Clearance of the neck and upper-arm enclosure",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Only their hand touching the mat",
+            "Only your hips turning away"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Only the second leg moving away from your upper back"
           ]
         }
       }

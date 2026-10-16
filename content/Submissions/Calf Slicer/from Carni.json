@@ -223,129 +223,129 @@
     ],
     "flashcards": [
       {
-        "question": "Calf Slicer from Carni (attacker): What matters when you establish a bent-leg capture?",
-        "answer": "Control the opposing thigh and lower leg in a genuine leg-entanglement position.",
-        "answer_line": "Establish a bent-leg capture",
+        "question": "Calf slicer after Carni: what must you newly capture before the compression setup exists?",
+        "answer": "The opposing thigh and bent lower leg. Control the opposing thigh and lower leg in a genuine leg-entanglement position.",
+        "answer_line": "The opposing thigh and bent lower leg",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "The wrist and triceps already held in the shoulder trap",
+            "The head inside your high guard leg"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "The far sleeve while leaving both legs free"
           ]
         }
       },
       {
-        "question": "Calf Slicer from Carni (attacker): What matters when you place the fulcrum?",
-        "answer": "Position the shin or forearm behind the knee without forcing the joint sideways.",
-        "answer_line": "Place the fulcrum",
+        "question": "Calf slicer attack: where should the compression fulcrum sit?",
+        "answer": "A shin or forearm in the fold behind the knee. Position the shin or forearm behind the knee without forcing the joint sideways.",
+        "answer_line": "A shin or forearm in the fold behind the knee",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "A forearm beside the outside of a straight ankle",
+            "A shin across the front of the kneecap"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "A wrist under the heel with the knee fully straight"
           ]
         }
       },
       {
-        "question": "Calf Slicer from Carni (attacker): What matters when you support your own leg?",
-        "answer": "Keep the attacking leg stable so resistance does not twist your own knee.",
-        "answer_line": "Support your own leg",
+        "question": "Calf slicer attack: why should your own attacking leg remain supported?",
+        "answer": "Resistance can twist the attacker's unsupported knee. Keep your attacking leg stable so resistance does not turn it against a fixed foot.",
+        "answer_line": "Resistance can twist the attacker's unsupported knee",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "An unsupported foot automatically deepens the opponent's bend",
+            "Your knee cannot be loaded because you are attacking"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Keeping your leg loose removes the need for a fulcrum"
           ]
         }
       },
       {
-        "question": "Calf Slicer from Carni (attacker): What matters when you control the heel distance?",
-        "answer": "Identify how the lower leg folds toward the thigh without pulling it to end range.",
-        "answer_line": "Control the heel distance",
+        "question": "Calf slicer attack: which movement does heel containment limit?",
+        "answer": "The lower leg moving away from the thigh. Identify how the lower leg folds toward the thigh without pulling it to end range.",
+        "answer_line": "The lower leg moving away from the thigh",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "The opponent's wrist moving across their chest",
+            "Their head rotating away from your shoulder"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Their free ankle turning outside your hip"
           ]
         }
       },
       {
-        "question": "Calf Slicer from Carni (attacker): What matters when you stop at the configuration?",
-        "answer": "Practice the capture without squeezing the calf or separating the knee joint.",
-        "answer_line": "Stop at the configuration",
+        "question": "Calf slicer practice: how much squeeze belongs in the first control-only repetition?",
+        "answer": "Contact around the fulcrum without squeezing pressure. Practice the bent-leg capture without compressing the calf or separating the knee joint.",
+        "answer_line": "Contact around the fulcrum without squeezing pressure",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "A calf squeeze until pain first appears",
+            "A heel pull to the knee's end range"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "A sideways knee opening over the attacking shin"
           ]
         }
       },
       {
-        "question": "Calf Slicer from Carni (attacker): What matters when you unfold before disengaging?",
-        "answer": "Release the heel and remove the fulcrum before either partner rotates or stands.",
-        "answer_line": "Unfold before disengaging",
+        "question": "Calf slicer attack: what should happen before either partner rotates or stands after release?",
+        "answer": "Let the heel go and remove the knee-fold fulcrum. Release the heel and remove the fulcrum before either partner rotates or stands.",
+        "answer_line": "Let the heel go and remove the knee-fold fulcrum",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Release the heel but keep the shin wedged behind the knee",
+            "Move the torso while retaining the folded leg"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Straighten the partner's leg forcibly over the fixed fulcrum"
           ]
         },
         "safety_critical": true
       },
       {
-        "question": "Calf Slicer from Carni (attacker): What configuration must exist before this sequence?",
-        "answer": "The attacker controls a bent opposing leg with a shin or forearm in the knee fold and a connection that limits the heel moving away.",
-        "answer_line": "Check the starting configuration",
+        "question": "Calf slicer attack: why must the captured partner avoid turning with the heel and thigh fixed?",
+        "answer": "Turning the defender's fixed leg can load their knee. Their fixed heel and thigh restrain the leg while the torso turns. Open the heel control and remove the knee-fold fulcrum before either partner rotates.",
+        "answer_line": "Turning the defender's fixed leg can load their knee",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "The heel grip automatically opens when the hips turn",
+            "A bent knee cannot receive sideways force"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Only calf muscle can take load inside a compression lock"
           ]
         }
       },
       {
-        "question": "Calf Slicer from Carni (attacker): What distinguishes this control from a similar-looking position?",
-        "answer": "Carni controls an upper-body shoulder. A slicer requires a separate lower-body capture; the fold behind the opponent's knee cannot be inferred from a rubber-guard shoulder clamp.",
-        "answer_line": "Check the defining controls",
+        "question": "Calf slicer after Carni: why does tightening the original wrist grip not establish the slicer?",
+        "answer": "It still restrains a shoulder rather than a bent leg. Carni controls an upper-body shoulder. A slicer requires a separate lower-body capture; the fold behind the opponent's knee cannot be inferred from a rubber-guard shoulder clamp.",
+        "answer_line": "It still restrains a shoulder rather than a bent leg",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Wrist pressure automatically creates a fulcrum behind the knee",
+            "Every high guard leg already folds the opponent's calf"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "The slicer is defined by pulling the triceps downward"
           ]
         }
       },
       {
-        "question": "Calf Slicer from Carni (attacker): When should the partners stop or reset?",
-        "answer": "A calf slicer can injure the knee as well as hurt the calf. Use control-only drilling, protect both partners' knees and respect division restrictions.",
-        "answer_line": "Release before unsafe loading",
+        "question": "Calf slicer practice: why is calf discomfort not the only risk to manage?",
+        "answer": "The compressed fold can also injure the knee. A calf slicer can injure the knee as well as hurt the calf. Use control-only drilling, protect both partners' knees and respect division restrictions.",
+        "answer_line": "The compressed fold can also injure the knee",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "A bent knee cannot be injured under compression",
+            "Only the attacker's forearm can be damaged"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "A shin fulcrum prevents joint loading by absorbing force"
           ]
         },
         "safety_critical": true
@@ -441,72 +441,72 @@
     ],
     "flashcards": [
       {
-        "question": "Calf Slicer from Carni (defender): What matters when you recognize the fulcrum?",
-        "answer": "A shin or forearm behind the bent knee changes the position into a compression-lock threat.",
-        "answer_line": "Recognize the fulcrum",
+        "question": "Calf slicer defense: what turns an ordinary bent leg into a compression-lock warning?",
+        "answer": "A shin or forearm lodged in the knee fold. A shin or forearm behind the bent knee changes the position into a compression-lock threat.",
+        "answer_line": "A shin or forearm lodged in the knee fold",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "A loose ankle with no contact behind the knee",
+            "A hand on the thigh while the lower leg is free"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "A collar grip above your shoulder line"
           ]
         }
       },
       {
-        "question": "Calf Slicer from Carni (defender): What matters when you deny heel containment?",
-        "answer": "Keep the lower leg mobile before the attacker folds it against the thigh.",
-        "answer_line": "Deny heel containment",
+        "question": "Calf slicer defense: what should remain mobile before the attacker folds the leg tightly?",
+        "answer": "The heel and lower leg away from the thigh. Keep the lower leg mobile before the attacker folds it against the thigh.",
+        "answer_line": "The heel and lower leg away from the thigh",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Only your free wrist outside the entanglement",
+            "The opponent's far ankle beside your hip"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Your head while the trapped heel stays fixed"
           ]
         }
       },
       {
-        "question": "Calf Slicer from Carni (defender): What matters when you create space early?",
-        "answer": "Use controlled movement while the knee fold is still open, never an explosive extension against a fixed leg.",
-        "answer_line": "Create space early",
+        "question": "Calf slicer defense: when is controlled space-making available?",
+        "answer": "Before the knee fold closes tightly around the fulcrum. Use controlled movement while the knee fold is still open, never an explosive extension against a fixed leg.",
+        "answer_line": "Before the knee fold closes tightly around the fulcrum",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "After the heel is pinned fully toward the thigh",
+            "Only once compression produces strong calf pain"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "During an explosive kick against the fixed shin"
           ]
         }
       },
       {
-        "question": "Calf Slicer from Carni (defender): What matters when you avoid sideways escape?",
-        "answer": "Keep the knee aligned rather than spinning while the heel and thigh are captured.",
-        "answer_line": "Avoid sideways escape",
+        "question": "Calf slicer defense: why should you avoid spinning while both heel and thigh are held?",
+        "answer": "The restrained leg can transmit sideways load to the knee. Keep the knee aligned rather than spinning while the heel and thigh are captured.",
+        "answer_line": "The restrained leg can transmit sideways load to the knee",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "A torso spin always removes the fulcrum first",
+            "Heel containment affects only the calf muscle"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Rotation makes the trapped knee independent of the hip"
           ]
         }
       },
       {
-        "question": "Calf Slicer from Carni (defender): What matters when you tap before compression?",
-        "answer": "Do not treat calf pain as harmless or assume the knee cannot be damaged.",
-        "answer_line": "Tap before compression",
+        "question": "Calf slicer defense: what is the appropriate response to a secure compression threat?",
+        "answer": "Tap before testing how much calf pressure you can tolerate. Do not treat calf pain as harmless or assume the knee cannot be damaged.",
+        "answer_line": "Tap before testing how much calf pressure you can tolerate",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Wait for the knee to feel pain separately from the calf",
+            "Kick harder because calf pain cannot signal joint danger"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Turn the torso until the trapped heel slips"
           ]
         }
       }

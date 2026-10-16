@@ -68,7 +68,7 @@ description: "Aoki Lock to Back Control (attacker): The opposing foot is turned 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Aoki Lock to Back Control (attacker): What matters when you identify the starting enclosure?",
+      "name": "Aoki Lock to Back Control (attacker): What does the initial grip enclose?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The opposing foot is turned outward and enclosed near the armpit, upper arm, and forearm."
@@ -76,7 +76,7 @@ description: "Aoki Lock to Back Control (attacker): The opposing foot is turned 
     },
     {
       "@type": "Question",
-      "name": "Aoki Lock to Back Control (attacker): What matters when you remove finishing pressure?",
+      "name": "Aoki Lock to Back Control (attacker): Why unload the foot before changing sides?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Rotational foot locks can injure the ankle or knee before pain provides useful warning. Use cooperative capture-and-release practice, no spinning escapes, and the event's actual division rules."
@@ -84,7 +84,7 @@ description: "Aoki Lock to Back Control (attacker): The opposing foot is turned 
     },
     {
       "@type": "Question",
-      "name": "Aoki Lock to Back Control (attacker): What matters when you release before repositioning?",
+      "name": "Aoki Lock to Back Control (attacker): What must open before turning toward the back?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Open the original connection before either partner turns, rises or changes the captured limb."
@@ -92,7 +92,7 @@ description: "Aoki Lock to Back Control (attacker): The opposing foot is turned 
     },
     {
       "@type": "Question",
-      "name": "Aoki Lock to Back Control (attacker): What matters when you require rear torso access?",
+      "name": "Aoki Lock to Back Control (attacker): After release, what contact begins a separate back take?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Establish a separate chest-to-back connection before reaching for hooks or a seatbelt."
@@ -100,7 +100,7 @@ description: "Aoki Lock to Back Control (attacker): The opposing foot is turned 
     },
     {
       "@type": "Question",
-      "name": "Aoki Lock to Back Control (attacker): What matters when you contain the shoulder and hip lines?",
+      "name": "Aoki Lock to Back Control (attacker): What secures both shoulder and hip lines from behind?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use controlled upper-body and leg attachment while preserving neck alignment."
@@ -108,7 +108,7 @@ description: "Aoki Lock to Back Control (attacker): The opposing foot is turned 
     },
     {
       "@type": "Question",
-      "name": "Aoki Lock to Back Control (attacker): What matters when you stabilize rear control?",
+      "name": "Aoki Lock to Back Control (attacker): What shows rear control still needs work?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Confirm that the opponent cannot simply turn to face you before considering a back attack."

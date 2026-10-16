@@ -180,142 +180,142 @@
     ],
     "flashcards": [
       {
-        "question": "Aoki Lock to Crucifix (attacker): What matters when you identify the starting enclosure?",
+        "question": "Aoki Lock to Crucifix (attacker): Which limb is controlled before any new arm traps?",
         "answer": "The opposing foot is turned outward and enclosed near the armpit, upper arm, and forearm.",
-        "answer_line": "Identify the starting enclosure",
+        "answer_line": "The outward-turned foot and lower leg",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "A straight foot aligned with the forearm",
+            "An inward-turned foot beside the ribs"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "The calf alone with the heel left outside"
           ]
         }
       },
       {
-        "question": "Aoki Lock to Crucifix (attacker): What matters when you remove finishing pressure?",
-        "answer": "Rotational foot locks can injure the ankle or knee before pain provides useful warning. Use cooperative capture-and-release practice, no spinning escapes, and the event's actual division rules.",
-        "answer_line": "Remove finishing pressure",
+        "question": "Aoki Lock to Crucifix (attacker): Why can a small bridge load the initial capture?",
+        "answer": "The upper-body enclosure fixes the outward-turned foot while the leg connection restrains the hip, so even a small bridge can create rotational load. Rotational foot locks can injure the ankle or knee before pain provides useful warning. Use cooperative capture-and-release practice, no spinning escapes, and the event's actual division rules.",
+        "answer_line": "The enclosed foot rotates against the restrained hip",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "The knee straightens over a fulcrum at your hip",
+            "The bent calf compresses around a knee-fold fulcrum"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "The foot extends in a straight line without rotation"
           ]
         }
       },
       {
-        "question": "Aoki Lock to Crucifix (attacker): What matters when you release before repositioning?",
+        "question": "Aoki Lock to Crucifix (attacker): Before reallocating your legs to an arm trap, what releases?",
         "answer": "Open the original connection before either partner turns, rises or changes the captured limb.",
-        "answer_line": "Release before repositioning",
+        "answer_line": "The original foot and hip controls",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Only the hand clasp while the instep stays wedged",
+            "Only the hip frame while the heel stays enclosed"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Only the heel support while the instep stays pinned"
           ]
         }
       },
       {
-        "question": "Aoki Lock to Crucifix (attacker): What matters when you require rear-side arm access?",
+        "question": "Aoki Lock to Crucifix (attacker): Where must you gain access to build the crucifix separately?",
         "answer": "Obtain a separate position behind or beside the shoulders with both arms accessible.",
-        "answer_line": "Require rear-side arm access",
+        "answer_line": "Behind or beside the shoulders, with both arms accessible",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "In front of the hips, retaining the lower-leg enclosure",
+            "Beside the near knee while the opponent keeps both elbows inside"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Facing the chest with only the near wrist available"
           ]
         }
       },
       {
-        "question": "Aoki Lock to Crucifix (attacker): What matters when you verify both arm controls?",
+        "question": "Aoki Lock to Crucifix (attacker): How are the two opposing arms divided in crucifix control?",
         "answer": "One arm must be contained by the legs and the other by an upper-body connection.",
-        "answer_line": "Verify both arm controls",
+        "answer_line": "One held by your legs, the other by your arms",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Both held by your legs with your arms free",
+            "One wrist held while the other arm stays free"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "A leg-held arm with the other elbow free"
           ]
         }
       },
       {
-        "question": "Aoki Lock to Crucifix (attacker): What matters when you hold without joint loading?",
+        "question": "Aoki Lock to Crucifix (attacker): Both arms are held. How can a training partner signal stop?",
         "answer": "Stabilize the crucifix while keeping both shoulders comfortable and an agreed verbal tap available.",
-        "answer_line": "Hold without joint loading",
+        "answer_line": "Use the agreed verbal tap",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Keep trying to reach the mat with a trapped hand",
+            "Wait for the holder to notice a change in breathing"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Wait for an arm to slip free before calling stop"
           ]
         }
       },
       {
-        "question": "Aoki Lock to Crucifix (attacker): What configuration must exist before this sequence?",
-        "answer": "The initial Aoki Lock Control configuration must be identified before considering Crucifix.",
-        "answer_line": "Check the starting configuration",
+        "question": "Aoki Lock to Crucifix (attacker): What keeps the captured leg from freely following the foot?",
+        "answer": "The initial Aoki enclosure works with a leg/hip connection; no crucifix arm control exists yet.",
+        "answer_line": "Your leg attachment at the opponent's hip",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Your arm grip around the ankle alone",
+            "Your crossed ankles without contact at their hip"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Your heel resting near the knee without a hip block"
           ]
         }
       },
       {
-        "question": "Aoki Lock to Crucifix (attacker): What distinguishes this control from a similar-looking position?",
+        "question": "Aoki Lock to Crucifix (attacker): What is missing if only the Aoki foot grip is present?",
         "answer": "The captured limb is the foot and lower leg. This is distinct from an omoplata-style shoulder trap and from a bent-knee calf slicer. Either player can become the foot-lock attacker during an entanglement exchange. The reviewed instruction does not establish a direct Aoki Lock Control-to-Crucifix connection. Release the original lock safely and establish the destination's own prerequisites; do not treat these checkpoints as a demonstrated continuous entry.",
-        "answer_line": "Check the defining controls",
+        "answer_line": "Both separate crucifix arm controls",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Only the leg-held arm; the foot grip controls the other",
+            "Only the upper-body arm trap; the hip clamp traps an arm"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Only tighter leg pressure; both arms are already captured"
           ]
         }
       },
       {
-        "question": "Aoki Lock to Crucifix (attacker): When should the partners stop or reset?",
+        "question": "Aoki Lock to Crucifix (attacker): An arm stays fixed during repositioning. What must change?",
         "answer": "Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.",
-        "answer_line": "Release before unsafe loading",
+        "answer_line": "Open that arm restraint before changing direction",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Release the hand clasp but leave the arm wedged",
+            "Move the shoulders first and release the arm afterward"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Rotate the hips while keeping the shoulder stationary"
           ]
         }
       },
       {
-        "question": "Aoki Lock to Crucifix (attacker): What should a cooperative first drill establish?",
-        "answer": "Identify the starting configuration and rehearse the first connection without finishing pressure. The opposing foot is turned outward and enclosed near the armpit, upper arm, and forearm.",
-        "answer_line": "Rehearse the first connection",
+        "question": "Aoki Lock to Crucifix (attacker): In the initial foot capture, where does the instep sit?",
+        "answer": "Recognize the instep-under-upper-arm relationship without applying rotational finishing pressure.",
+        "answer_line": "Under the upper arm beside the armpit",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Above the upper arm with the heel under the armpit",
+            "In the elbow fold with the armpit left open"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Between the palms with no upper-arm contact"
           ]
         }
       }
@@ -427,72 +427,72 @@
     ],
     "flashcards": [
       {
-        "question": "Aoki Lock to Crucifix (defender): What matters when you deny rear torso access?",
+        "question": "Aoki Lock to Crucifix (defender): After the foot is free, what denies access behind your shoulders?",
         "answer": "Keep the shoulders facing the opponent before a seatbelt closes.",
-        "answer_line": "Deny rear torso access",
+        "answer_line": "Turn to face the opponent with elbows close",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Turn your hips while leaving your shoulders exposed",
+            "Face the opponent with both elbows reaching wide"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Keep shoulders turned away while tucking both elbows"
           ]
         }
       },
       {
-        "question": "Aoki Lock to Crucifix (defender): What matters when you protect the neck?",
+        "question": "Aoki Lock to Crucifix (defender): After release, which hand-fight takes priority near your neck?",
         "answer": "Hand fight any arm approaching the neck while maintaining a stable base.",
-        "answer_line": "Protect the neck",
+        "answer_line": "Catch the arm coming over your shoulder",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Hold the wrist below your far armpit first",
+            "Press the opponent's upper arm toward your chest"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Use both hands to push the hip-side knee away"
           ]
         }
       },
       {
-        "question": "Aoki Lock to Crucifix (defender): What matters when you keep elbows connected?",
-        "answer": "Avoid exposing an isolated arm while turning to face the opponent.",
-        "answer_line": "Keep elbows connected",
+        "question": "Aoki Lock to Crucifix (defender): What early arm position makes a leg trap harder to acquire?",
+        "answer": "Keep the elbow connected before the opponent's legs isolate the arm; do not wrench out of a secured trap.",
+        "answer_line": "Elbow tucked beside your torso",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Arm posted long behind your hip",
+            "Wrist reaching across both opposing knees"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Both arms extended so the opponent must choose"
           ]
         }
       },
       {
-        "question": "Aoki Lock to Crucifix (defender): What matters when you recover facing frames?",
+        "question": "Aoki Lock to Crucifix (defender): After release, how can your knee help block the new entry?",
         "answer": "Insert elbows and knees when space opens after the original control is released.",
-        "answer_line": "Recover facing frames",
+        "answer_line": "Return it inside beside the near elbow",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Point it away while reaching with a straight arm",
+            "Keep it outside the opponent's hip as your elbow returns"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Bring it inside while lifting the elbow off your ribs"
           ]
         }
       },
       {
-        "question": "Aoki Lock to Crucifix (defender): What matters when you do not roll against a lock?",
+        "question": "Aoki Lock to Crucifix (defender): Why is rolling unsafe while an old foot or new arm trap is fixed?",
         "answer": "Wait for a trapped foot or arm to be released before changing direction.",
-        "answer_line": "Do not roll against a lock",
+        "answer_line": "The torso can turn against an immobilized joint",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "The grips open before the torso has rotated far enough to load them",
+            "The fixed joint follows the shoulder line through the turn"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "The direction of the landing matters more than the retained restraint"
           ]
         }
       }

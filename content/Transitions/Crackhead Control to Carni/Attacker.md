@@ -68,50 +68,50 @@ description: "Crackhead Control to Carni (attacker): Use the guard and shoulder 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Crackhead Control to Carni (attacker): What matters when you set the upper-body angle?",
+      "name": "Crackhead to Carni (bottom): What must be added beyond the two-leg posture clinch?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Use the guard and shoulder connection to bring the opponent close before moving the high leg."
+        "text": "Crackhead reinforcement does not supply Carni's arm isolation; the shoulder clamp requires its own setup."
       }
     },
     {
       "@type": "Question",
-      "name": "Crackhead Control to Carni (attacker): What matters when you frame before clearing?",
+      "name": "Crackhead to Carni (bottom): What blocks forward chest pressure while the leg clears?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Manage the shoulder and neck line with a forearm frame as the leg clears the head."
+        "text": "The inside neck-side forearm maintains room as the high leg clears the head."
       }
     },
     {
       "@type": "Question",
-      "name": "Crackhead Control to Carni (attacker): What matters when you anchor through the hips?",
+      "name": "Crackhead to Carni (bottom): Which hip position supports the new shoulder clamp?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Turn partly belly down with the knee close and foot supported rather than wrenching the leg across the head."
+        "text": "Martinez anchors through the hips and supported foot, drawing the knee close while turning partly belly down."
       }
     },
     {
       "@type": "Question",
-      "name": "Crackhead Control to Carni (attacker): What matters when you hold the triceps?",
+      "name": "Crackhead to Carni (bottom): Which movement does the retained triceps grip directly obstruct?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Keep the captured arm connected so the opponent cannot freely roll or withdraw the shoulder."
+        "text": "The triceps connection retains the upper arm and limits rolling or shoulder withdrawal from the Carni clamp."
       }
     },
     {
       "@type": "Question",
-      "name": "Crackhead Control to Carni (attacker): What matters when you control before finishing?",
+      "name": "Crackhead to Carni (bottom): What should the first shoulder-capture drill omit?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Hold the wrist and elbow at a comfortable angle; a small change can load the shoulder rapidly."
+        "text": "Rehearse the arm capture and supported angle without adding wrist leverage into a shoulder finish."
       }
     },
     {
       "@type": "Question",
-      "name": "Crackhead Control to Carni (attacker): What matters when you let the lock go?",
+      "name": "Crackhead to Carni (bottom): Your partner must roll to relieve the shoulder; what releases?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Release the wrist and leg clamp immediately on a tap or when the partner needs to roll safely."
+        "text": "Release wrist and leg control before a necessary roll; do not hold the shoulder fixed while the body turns."
       }
     }
   ]

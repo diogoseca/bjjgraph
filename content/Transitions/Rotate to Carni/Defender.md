@@ -56,42 +56,42 @@ description: "Rotate to Carni (defender): A leg clearing the head with an overho
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Rotate to Carni (defender): What matters when you identify the shoulder threat?",
+      "name": "Rotate to Carni (top): Which combination signals the emerging shoulder trap?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "A leg clearing the head with an overhook is an upper-body trap, even if a butterfly hook remains below."
+        "text": "Recognize the overhook and head-side leg as upper-body shoulder-control geometry."
       }
     },
     {
       "@type": "Question",
-      "name": "Rotate to Carni (defender): What matters when you keep the elbow close early?",
+      "name": "Rotate to Carni (top): How do you avoid giving the triceps grip a long arm?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Avoid reaching away while the opponent sets the triceps control."
+        "text": "Keep the elbow compact early rather than reaching away as the opponent establishes triceps control."
       }
     },
     {
       "@type": "Question",
-      "name": "Rotate to Carni (defender): What matters when you deny the belly-down angle?",
+      "name": "Rotate to Carni (top): What can oppose the angle before your shoulder is immobilized?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Maintain a balanced base and a safe inside frame before the shoulder becomes clamped."
+        "text": "Use frames while space remains; once the shoulder is fixed, seek release rather than forcing the angle."
       }
     },
     {
       "@type": "Question",
-      "name": "Rotate to Carni (defender): What matters when you free the arm before passing?",
+      "name": "Rotate to Carni (top): What needs to open before you move around the legs?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Create slack around the shoulder and elbow before moving the hips past the legs."
+        "text": "Release the upper-body clamp before turning the hips into a separate passing exchange."
       }
     },
     {
       "@type": "Question",
-      "name": "Rotate to Carni (defender): What matters when you avoid rolling against the lock?",
+      "name": "Rotate to Carni (top): Why can rolling forward increase the lock?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Do not force a forward roll when the triceps and wrist are fixed; tap if pressure has already engaged."
+        "text": "A forward roll is not a reliable release when wrist and triceps stay fixed. Obtain release or tap before moving through the lock."
       }
     }
   ]

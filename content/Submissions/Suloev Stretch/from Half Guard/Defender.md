@@ -58,50 +58,50 @@ description: "Suloev Stretch from Half Guard (defender): A hand reaching from yo
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Suloev Stretch from Half Guard (defender): What matters when you recognize ankle access?",
+      "name": "Suloev Stretch defense: what reach from the player on your back should alert you early?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "A hand reaching from your back toward the ankle is an early cue to protect the leg."
+        "text": "A hand descending toward one ankle. A hand reaching from your back toward the ankle is an early cue to protect the leg."
       }
     },
     {
       "@type": "Question",
-      "name": "Suloev Stretch from Half Guard (defender): What matters when you deny the grip early?",
+      "name": "Suloev Stretch defense: when is hand fighting the low reach most useful?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Use hand fighting before the ankle and torso are controlled together."
+        "text": "Before the ankle and torso are restrained together. Use hand fighting before the ankle and torso are controlled together."
       }
     },
     {
       "@type": "Question",
-      "name": "Suloev Stretch from Half Guard (defender): What matters when you avoid an exposed tripod?",
+      "name": "Suloev Stretch defense: what should you address before lifting your hips into an exposed tripod?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Maintain a stable base and address the rear attachment before raising the hips with a leg available."
+        "text": "Rear attachment while maintaining a stable base. Maintain a stable base and address the rear attachment before raising the hips with a leg available."
       }
     },
     {
       "@type": "Question",
-      "name": "Suloev Stretch from Half Guard (defender): What matters when you do not twist away?",
+      "name": "Suloev Stretch defense: why should you avoid rolling sideways with the ankle held?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Keep the captured leg aligned instead of rolling sideways against the ankle grip."
+        "text": "The restrained leg can transmit the roll into knee rotation. Keep the captured leg aligned instead of rolling sideways against the ankle grip."
       }
     },
     {
       "@type": "Question",
-      "name": "Suloev Stretch from Half Guard (defender): What matters when you tap to the capture?",
+      "name": "Suloev Stretch defense: what should prompt an early stop?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Stop before a forced hamstring stretch or knee rotation develops."
+        "text": "Secure capture before forced extension or knee rotation. Stop before a forced hamstring stretch or knee rotation develops."
       }
     },
     {
       "@type": "Question",
-      "name": "Suloev Stretch from Half Guard (defender): What matters when you move after the release?",
+      "name": "Suloev Stretch defense: when should you move to rebuild your base after tapping?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Recover the base only after the attacker has opened the ankle and torso controls."
+        "text": "After the ankle and torso controls have opened. Recover the base only after the attacker has opened the ankle and torso controls."
       }
     }
   ]

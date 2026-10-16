@@ -56,42 +56,42 @@ description: "Posture Recovery to Closed Guard (defender): Establish the first h
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Posture Recovery to Closed Guard (defender): What matters when you start with broken posture?",
+      "name": "Posture Recovery to Closed Guard (bottom): What is retained before adding the high reinforcement?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Establish the first high leg and its hand support before adding the second leg."
+        "text": "The first high leg and its supporting hand form the foundation before the second leg reinforces it."
       }
     },
     {
       "@type": "Question",
-      "name": "Posture Recovery to Closed Guard (defender): What matters when you bring the second leg high?",
+      "name": "Posture Recovery to Closed Guard (bottom): How should a reinforcing leg follow the opponent?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Reinforce the clinch without forcing the knees beyond a comfortable hip angle."
+        "text": "Use a comfortable hip-supported angle; release the high clinch if posture cannot be followed safely."
       }
     },
     {
       "@type": "Question",
-      "name": "Posture Recovery to Closed Guard (defender): What matters when you track both elbows?",
+      "name": "Posture Recovery to Closed Guard (bottom): What separates high posture control from Dead Orchard?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Do not assume that high legs alone have isolated an arm or completed Dead Orchard."
+        "text": "Check actual elbow positions and leg closure rather than equating a two-leg clinch with Dead Orchard."
       }
     },
     {
       "@type": "Question",
-      "name": "Posture Recovery to Closed Guard (defender): What matters when you keep knees close?",
+      "name": "Posture Recovery to Closed Guard (bottom): As the legs lower, how do you protect space for a knee?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Use hip position and connected leg pressure rather than pulling the feet against fixed knees."
+        "text": "Frame inside against chest pressure and move the hips enough to return the knees around the torso."
       }
     },
     {
       "@type": "Question",
-      "name": "Posture Recovery to Closed Guard (defender): What matters when you return to one-leg control?",
+      "name": "Posture Recovery to Closed Guard (bottom): If the second high leg lowers, what remains possible?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Lower the reinforcing leg while preserving the first shin connection if you need Mission Control again."
+        "text": "Lowering the reinforcement can leave Mission Control; closed guard requires a separate lower leg closure."
       }
     }
   ]

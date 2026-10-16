@@ -68,50 +68,50 @@ description: "Posture Recovery from Zombie (attacker): Keep a useful forearm bet
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Posture Recovery from Zombie (attacker): What matters when you recognize the upper-body trap?",
+      "name": "Posture Recovery from Zombie (top): What should block their hand-clearing path early?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Keep a useful forearm between the bodies before the bottom player gains the hand-clearing path."
+        "text": "Keep a useful forearm between the bodies so the free hand cannot easily lift yours outside into New York."
       }
     },
     {
       "@type": "Question",
-      "name": "Posture Recovery from Zombie (attacker): What matters when you protect the captured limb?",
+      "name": "Posture Recovery from Zombie (top): How should the hand return to the inside?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Move the whole arm rather than leaving the wrist exposed while the elbow remains fixed."
+        "text": "Recover hand and elbow together through available space, rather than leaving the wrist exposed outside a fixed elbow."
       }
     },
     {
       "@type": "Question",
-      "name": "Posture Recovery from Zombie (attacker): What matters when you work before pressure engages?",
+      "name": "Posture Recovery from Zombie (top): What should you do if the shoulder is already locked?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Keep a balanced base and early inside frames; tap instead of moving against a completed choke or joint lock."
+        "text": "Early pummel defense requires free movement; when a shoulder lock is loaded, signal and obtain release before trying to posture."
       }
     },
     {
       "@type": "Question",
-      "name": "Posture Recovery from Zombie (attacker): What matters when you open the high enclosure?",
+      "name": "Posture Recovery from Zombie (top): Where should the high-leg connection loosen?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Create slack at the hip and thigh while keeping the head and captured arm aligned."
+        "text": "Open space at the high-leg connection while keeping head and arm aligned, then recover posture through the slack."
       }
     },
     {
       "@type": "Question",
-      "name": "Posture Recovery from Zombie (attacker): What matters when you recover the elbow and posture?",
+      "name": "Posture Recovery from Zombie (top): When should you withdraw a captured shoulder?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Withdraw the shoulder and elbow only after the high leg connection has opened."
+        "text": "Use the slack to retrieve shoulder and elbow before lifting upright, rather than dragging an arm through the enclosure."
       }
     },
     {
       "@type": "Question",
-      "name": "Posture Recovery from Zombie (attacker): What matters when you confirm the next position?",
+      "name": "Zombie posture recovery (top): Chest up, their knees still inside: what have you regained?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Establish a stable base facing the guard player only when the upper-body enclosure and relevant leg hooks have cleared."
+        "text": "With the upper-body enclosure cleared, you can face the guard from a stable posture; the remaining legs still need assessment."
       }
     }
   ]

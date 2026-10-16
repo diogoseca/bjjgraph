@@ -56,34 +56,34 @@ description: "Stack Pass from Carni (defender): Use the guard and shoulder conne
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Stack Pass from Carni (defender): What matters when you set the upper-body angle?",
+      "name": "Stack Pass from Carni (bottom): What retains the shoulder before the opponent can posture?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Use the guard and shoulder connection to bring the opponent close before moving the high leg."
+        "text": "The close knee and upper-arm connection retain the shoulder; do not substitute extra torque for lost control."
       }
     },
     {
       "@type": "Question",
-      "name": "Stack Pass from Carni (defender): What matters when you frame before clearing?",
+      "name": "Stack Pass from Carni (bottom): Where does the forearm preserve room against forward pressure?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Manage the shoulder and neck line with a forearm frame as the leg clears the head."
+        "text": "Use the inside neck-side frame to manage incoming chest pressure during the leg arrangement."
       }
     },
     {
       "@type": "Question",
-      "name": "Stack Pass from Carni (defender): What matters when you anchor through the hips?",
+      "name": "Stack Pass from Carni (bottom): Which anchor supports the clamp without hauling the foot?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Turn partly belly down with the knee close and foot supported rather than wrenching the leg across the head."
+        "text": "The supported foot and close knee work with the hip angle; do not force the position by pulling against the knee."
       }
     },
     {
       "@type": "Question",
-      "name": "Stack Pass from Carni (defender): What matters when you hold the triceps?",
+      "name": "Stack Pass from Carni (bottom): The shoulder connection is gone; what should you recover first?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Keep the captured arm connected so the opponent cannot freely roll or withdraw the shoulder."
+        "text": "Release the old shoulder grip and use frames plus hip movement to restore a knee barrier before the passer fills the space."
       }
     }
   ]

@@ -184,142 +184,142 @@
     ],
     "flashcards": [
       {
-        "question": "Base Attack to Sweep (attacker): What matters when you distinguish the foot lock?",
-        "answer": "A turned-out foot enclosed beside the armpit is a rotational threat, not simply a straight ankle-lock grip.",
-        "answer_line": "Distinguish the foot lock",
+        "question": "Base Attack to Sweep (escaping player): What makes a bridge risky in the initial Aoki capture?",
+        "answer": "Do not bridge into a reversal while a turned foot and hip remain controlled by the Aoki enclosure.",
+        "answer_line": "The foot is rotated while the hip is restrained",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "The heel remains free to turn inside a straight foot enclosure",
+            "The hip is mobile and the sole can follow the rising pelvis"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "The only restraint is pressure against the calf with no heel rotation"
           ]
         }
       },
       {
-        "question": "Base Attack to Sweep (attacker): What matters when you hand fight before capture?",
+        "question": "Base Attack to Sweep (escaping player): What is the early hand-fighting target?",
         "answer": "Prevent the foot enclosure and recover leg position while the opponent still lacks a secure connection.",
-        "answer_line": "Hand fight before capture",
+        "answer_line": "The arms closing around your turned foot",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "The palm controlling your uncaptured knee",
+            "The leg framing your hip while their hands join"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Their joined hands after you begin the reversal"
           ]
         }
       },
       {
-        "question": "Base Attack to Sweep (attacker): What matters when you keep foot and knee aligned?",
+        "question": "Base Attack to Sweep (escaping player): Which body relationship must remain aligned?",
         "answer": "Do not spin the torso while the foot remains fixed.",
-        "answer_line": "Keep foot and knee aligned",
+        "answer_line": "The knee and foot as the torso changes position",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "The hips and shoulders while the heel stays fixed",
+            "The knee turning inward while the foot stays outward"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "The foot held still while the pelvis moves around it"
           ]
         }
       },
       {
-        "question": "Base Attack to Sweep (attacker): What matters when you free the foot first?",
-        "answer": "Address the upper-body grip before withdrawing the leg through a tight entanglement.",
-        "answer_line": "Free the foot first",
+        "question": "Base Attack to Sweep (escaping player): Before trying a reversal, what must be dismantled?",
+        "answer": "Reversal mechanics come later; first remove the hand enclosure and leg/hip restraint without twisting.",
+        "answer_line": "The foot enclosure and restraining hip connection",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Only the hip frame while the heel remains enclosed",
+            "Only the clasp while the instep remains clamped"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Only the free leg's hook, leaving the attacked leg held"
           ]
         }
       },
       {
-        "question": "Base Attack to Sweep (attacker): What matters when you avoid pain testing?",
+        "question": "Base Attack to Sweep (escaping player): Why is lack of pain insufficient permission to sweep?",
         "answer": "Tap early to a secure rotational lock rather than treating the absence of pain as safety.",
-        "answer_line": "Avoid pain testing",
+        "answer_line": "A captured rotational lock can load before warning pain",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "An unloaded knee stays unloaded throughout a hip turn",
+            "A relaxed calf means the ankle is free to rotate"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Pain-free capture leaves room for one trial bridge"
           ]
         }
       },
       {
-        "question": "Base Attack to Sweep (attacker): What matters when you reset after release?",
-        "answer": "Separate the feet and restore a stable guard or standing base before resuming movement.",
-        "answer_line": "Reset after release",
+        "question": "Base Attack to Sweep (escaping player): After release, which movement rebuilds a guard barrier?",
+        "answer": "After opening the foot and hip controls, recover the knee and a facing frame before considering a new attack.",
+        "answer_line": "Bring the freed knee toward your torso and frame",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Leave the knee behind while reaching for a distant sleeve",
+            "Turn the knees away while reaching over the opponent"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Move your hips back while leaving the knee outside"
           ]
         }
       },
       {
-        "question": "Base Attack to Sweep (attacker): What configuration must exist before this sequence?",
-        "answer": "The endangered player has a turned-out foot enclosed by the opponent's upper body during a leg-entanglement exchange.",
-        "answer_line": "Check the starting configuration",
+        "question": "Base Attack to Sweep (escaping player): Why must a mobile hip not be used to turn a trapped heel?",
+        "answer": "Hip freedom does not establish foot freedom. Release the foot enclosure and leg restraint before any separately established reversal so the knee can follow the foot.",
+        "answer_line": "The knee can rotate between the moving pelvis and fixed foot",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Hip movement opens the upper-arm enclosure before the heel rotates",
+            "The ankle angle absorbs the movement without involving the knee"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "The proximal leg clamp makes the trapped foot track the pelvis"
           ]
         }
       },
       {
-        "question": "Base Attack to Sweep (attacker): What distinguishes this control from a similar-looking position?",
-        "answer": "An Aoki lock does not trap the arm in an omoplata. Do not rotate to turtle or bridge into a reversal while the foot remains fixed; these named destinations are not established by the reviewed foot-lock instruction.",
-        "answer_line": "Check the defining controls",
+        "question": "Base Attack to Sweep (escaping player): What does release of Aoki still leave unestablished?",
+        "answer": "A released foot does not supply a sweep. A new base-breaking setup must be established separately.",
+        "answer_line": "A sweep's off-balance and control of supporting posts",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Only a hand post; the opponent is already off-balanced",
+            "Only a top landing; their supporting posts are already controlled"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Only hip elevation; the freed foot supplies the sweep lever"
           ]
         }
       },
       {
-        "question": "Base Attack to Sweep (attacker): When should the partners stop or reset?",
-        "answer": "Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.",
-        "answer_line": "Release before unsafe loading",
+        "question": "Base Attack to Sweep (escaping player): Your hips can move but the heel stays caught. What now?",
+        "answer": "Hip mobility alone does not free a captured heel; do not use it to force a reversal.",
+        "answer_line": "Stop the turn and have the foot enclosure opened",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Continue the bridge while rotating the shoulders",
+            "Pull the knee away before clearing the upper-arm clamp"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Release your own leg hook and continue the turn"
           ]
         }
       },
       {
-        "question": "Base Attack to Sweep (attacker): What should a cooperative first drill establish?",
+        "question": "Base Attack to Sweep (escaping player): What should a recognition drill identify first?",
         "answer": "Identify the starting configuration and rehearse the first connection without finishing pressure. A turned-out foot enclosed beside the armpit is a rotational threat, not simply a straight ankle-lock grip.",
-        "answer_line": "Rehearse the first connection",
+        "answer_line": "The outward-turned foot held near the armpit",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "A straight foot resting loosely on the forearm",
+            "A heel cupped in the palm with the instep outside"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "A calf resting on the forearm with the heel below it"
           ]
         }
       }
@@ -422,72 +422,72 @@
     ],
     "flashcards": [
       {
-        "question": "Base Attack to Sweep (defender): What matters when you identify the turned foot?",
+        "question": "Base Attack to Sweep (foot-locker): What lower-limb cue makes Aoki capture available?",
         "answer": "Recognize the foot orientation without twisting it into position against resistance.",
-        "answer_line": "Identify the turned foot",
+        "answer_line": "An outward-turned foot within upper-arm reach",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "An inward-turned foot beside your upper arm",
+            "A straight ankle with the instep outside your arm"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "An outward foot beyond the elbow with the heel hidden"
           ]
         }
       },
       {
-        "question": "Base Attack to Sweep (defender): What matters when you enclose the foot?",
+        "question": "Base Attack to Sweep (foot-locker): What distinguishes your grip from calf compression?",
         "answer": "Hold the instep and heel region securely beside the upper body rather than relying on calf compression.",
-        "answer_line": "Enclose the foot",
+        "answer_line": "It encloses the instep and heel near the armpit",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "It folds the calf over a shin in the knee crease",
+            "It squeezes the calf while leaving the instep outside"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "It holds the toes while the heel remains free"
           ]
         }
       },
       {
-        "question": "Base Attack to Sweep (defender): What matters when you control the hip connection?",
+        "question": "Base Attack to Sweep (foot-locker): What stops the opponent freely following the captured foot?",
         "answer": "Use the entanglement or foot-on-hip frame to manage distance before considering a finish.",
-        "answer_line": "Control the hip connection",
+        "answer_line": "A leg connection controlling their hip",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "A loose hand resting on the uncaptured knee",
+            "Both hands on the toes with legs disengaged"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "A shin touching the thigh without blocking the hip"
           ]
         }
       },
       {
-        "question": "Base Attack to Sweep (defender): What matters when you keep pressure neutral?",
+        "question": "Base Attack to Sweep (foot-locker): Why avoid adding extension as the opponent attempts to bridge?",
         "answer": "Stop the drill at a secure capture; the control can become a damaging rotation with very little movement.",
-        "answer_line": "Keep pressure neutral",
+        "answer_line": "Their movement may already load the fixed foot",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "The bridge reduces the leg lever enough to require added extension",
+            "Extension unloads the knee while the opponent raises the hips"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "The upper-body grip must tighten to keep an escape drill aligned"
           ]
         }
       },
       {
-        "question": "Base Attack to Sweep (defender): What matters when you respect counterattacks?",
+        "question": "Base Attack to Sweep (foot-locker): What counterattack can your hip-posting foot invite?",
         "answer": "Keep track of your own exposed feet while concentrating on the captured foot.",
-        "answer_line": "Respect counterattacks",
+        "answer_line": "An Aoki enclosure by the opponent",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "A foot enclosure that can load only the Achilles linearly",
+            "A heel-only grip without capturing the instep"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "An ankle grip that leaves the foot free to rotate"
           ]
         }
       }

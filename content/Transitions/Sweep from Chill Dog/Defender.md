@@ -56,42 +56,42 @@ description: "Sweep from Chill Dog (defender): Keep the free hand available for 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Sweep from Chill Dog (defender): What matters when you track the trapped elbow?",
+      "name": "Sweep from Chill Dog (top): Which limb remains useful while the other arm is isolated?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Keep the free hand available for framing while preventing the isolated elbow from being pulled further away from your torso."
+        "text": "Keep the available arm useful while avoiding further separation of the captured elbow; one trapped arm does not remove every support."
       }
     },
     {
       "@type": "Question",
-      "name": "Sweep from Chill Dog (defender): What matters when you recognize neck clearing?",
+      "name": "Sweep from Chill Dog (top): What does the head-side grip change prove by itself?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The opponent changing the hand around your head signals the move beyond New York, not a turtle escape."
+        "text": "A Chill Dog grip change concerns upper-body control; it does not establish that your base has been overturned."
       }
     },
     {
       "@type": "Question",
-      "name": "Sweep from Chill Dog (defender): What matters when you deny the second leg?",
+      "name": "Sweep from Chill Dog (top): What should you deny before their high clinch strengthens?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Keep a safe base and prevent the free leg from closing high behind your head."
+        "text": "An early inside barrier can prevent the second leg reinforcing posture control while you preserve a balanced base."
       }
     },
     {
       "@type": "Question",
-      "name": "Sweep from Chill Dog (defender): What matters when you undo the arm isolation?",
+      "name": "Sweep from Chill Dog (top): What must happen before a large balance adjustment?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Recover the elbow toward your ribs only when the leg enclosure has slack, rather than jerking the shoulder."
+        "text": "If the arm is fixed under the knee hug, release the shoulder connection before a large turn so it is not used as a lever."
       }
     },
     {
       "@type": "Question",
-      "name": "Sweep from Chill Dog (defender): What matters when you posture after release?",
+      "name": "Sweep from Chill Dog (top): When can you lift posture during the sweep threat?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Bring the head and chest upright in stages after clearing the upper-body control."
+        "text": "Posture recovery follows release of the upper-body hold. Raising the chest against a fixed loop is not a reliable balance solution."
       }
     }
   ]

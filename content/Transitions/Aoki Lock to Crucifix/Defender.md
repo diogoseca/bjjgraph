@@ -56,7 +56,7 @@ description: "Aoki Lock to Crucifix (defender): Keep the shoulders facing the op
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Aoki Lock to Crucifix (defender): What matters when you deny rear torso access?",
+      "name": "Aoki Lock to Crucifix (defender): After the foot is free, what denies access behind your shoulders?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Keep the shoulders facing the opponent before a seatbelt closes."
@@ -64,7 +64,7 @@ description: "Aoki Lock to Crucifix (defender): Keep the shoulders facing the op
     },
     {
       "@type": "Question",
-      "name": "Aoki Lock to Crucifix (defender): What matters when you protect the neck?",
+      "name": "Aoki Lock to Crucifix (defender): After release, which hand-fight takes priority near your neck?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Hand fight any arm approaching the neck while maintaining a stable base."
@@ -72,15 +72,15 @@ description: "Aoki Lock to Crucifix (defender): Keep the shoulders facing the op
     },
     {
       "@type": "Question",
-      "name": "Aoki Lock to Crucifix (defender): What matters when you keep elbows connected?",
+      "name": "Aoki Lock to Crucifix (defender): What early arm position makes a leg trap harder to acquire?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Avoid exposing an isolated arm while turning to face the opponent."
+        "text": "Keep the elbow connected before the opponent's legs isolate the arm; do not wrench out of a secured trap."
       }
     },
     {
       "@type": "Question",
-      "name": "Aoki Lock to Crucifix (defender): What matters when you recover facing frames?",
+      "name": "Aoki Lock to Crucifix (defender): After release, how can your knee help block the new entry?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Insert elbows and knees when space opens after the original control is released."
@@ -88,7 +88,7 @@ description: "Aoki Lock to Crucifix (defender): Keep the shoulders facing the op
     },
     {
       "@type": "Question",
-      "name": "Aoki Lock to Crucifix (defender): What matters when you do not roll against a lock?",
+      "name": "Aoki Lock to Crucifix (defender): Why is rolling unsafe while an old foot or new arm trap is fixed?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Wait for a trapped foot or arm to be released before changing direction."

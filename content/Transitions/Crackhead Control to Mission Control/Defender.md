@@ -56,42 +56,42 @@ description: "Crackhead Control to Mission Control (defender): Avoid extending a
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Crackhead Control to Mission Control (defender): What matters when you keep the elbows compact?",
+      "name": "Crackhead to Mission (top): As the second leg lowers, how should your elbow recover?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Avoid extending an arm between the high legs where it can be isolated."
+        "text": "Use the changing leg configuration to recover an inside elbow while the shoulder is still free to move."
       }
     },
     {
       "@type": "Question",
-      "name": "Crackhead Control to Mission Control (defender): What matters when you recognize the reinforcement?",
+      "name": "Crackhead to Mission (top): Why can lowering one high leg leave posture restricted?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "A second leg climbing behind your head increases the posture-control problem."
+        "text": "Removal of the second leg does not remove the original Mission Control connection."
       }
     },
     {
       "@type": "Question",
-      "name": "Crackhead Control to Mission Control (defender): What matters when you control the hip line early?",
+      "name": "Crackhead to Mission (top): Which opening lets an early frame check the hip line as a leg lowers?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Build a balanced base and an early hip frame before the high clinch closes."
+        "text": "Use early inside space at the hip or thigh while preserving a balanced base."
       }
     },
     {
       "@type": "Question",
-      "name": "Crackhead Control to Mission Control (defender): What matters when you clear the upper enclosure?",
+      "name": "Crackhead to Mission (top): What must release before you stand tall after the leg lowers?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Undo the high-leg connection before attempting to stand tall or extract an arm."
+        "text": "Clear the retained high connection before lifting the head and chest through it."
       }
     },
     {
       "@type": "Question",
-      "name": "Crackhead Control to Mission Control (defender): What matters when you keep a safe spine?",
+      "name": "Crackhead to Mission (top): What can forward pressure do while the first leg still traps your arm?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Do not answer the clinch by driving the partner onto the neck."
+        "text": "Retained arm control must be addressed directly; stacking the partner is not evidence that the high connection has opened."
       }
     }
   ]

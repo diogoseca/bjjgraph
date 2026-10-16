@@ -189,142 +189,142 @@
     ],
     "flashcards": [
       {
-        "question": "Buggy Choke to Front Headlock (attacker): What matters when you recognize the bottom-player choke?",
+        "question": "Buggy Choke to Front Headlock (top): Which bottom-player connection threatens your neck?",
         "answer": "Watch for an arm reaching past your head and connecting to the same-side leg.",
-        "answer_line": "Recognize the bottom-player choke",
+        "answer_line": "An arm joining the same-side leg around head and arm",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Their arm grips the leg with your head outside",
+            "Their arm loops your head while their leg stays low"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Their arm joins the leg around only your upper arm"
           ]
         }
       },
       {
-        "question": "Buggy Choke to Front Headlock (attacker): What matters when you keep a stable base?",
-        "answer": "Avoid lifting, dropping, or twisting the partner's trapped leg to force an escape.",
-        "answer_line": "Keep a stable base",
+        "question": "Buggy Choke to Front Headlock (top): While the loop is forming, where should your base remain?",
+        "answer": "Retain a stable base and address the loop early; do not lift, drop or wrench the partner to escape.",
+        "answer_line": "Supported on the mat without lifting the partner",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "On narrow toes as you raise the attached partner",
+            "On the trapped shoulder as both knees leave the mat"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "On one distant hand while your hips tilt over the loop"
           ]
         }
       },
       {
-        "question": "Buggy Choke to Front Headlock (attacker): What matters when you interrupt the connection early?",
+        "question": "Buggy Choke to Front Headlock (top): What early action obstructs the hand-leg connection?",
         "answer": "Use safe inside frames before the arm-to-leg loop fully closes; do not pull or twist the partner's knee.",
-        "answer_line": "Interrupt the connection early",
+        "answer_line": "Place an inside frame before the loop closes",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Keep both forearms outside their reaching arm",
+            "Reach over their shoulder before blocking the leg link"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Wait to insert the frame until the clasp is fully tight"
           ]
         }
       },
       {
-        "question": "Buggy Choke to Front Headlock (attacker): What matters when you free the head and arm?",
-        "answer": "Move only through available space after the loop opens; tap if the neck is already enclosed.",
-        "answer_line": "Free the head and arm",
+        "question": "Buggy Choke to Front Headlock (top): What must be free before you seek the next head control?",
+        "answer": "Clear the head-and-arm enclosure before moving toward another control; tap if it is already secured.",
+        "answer_line": "Your head and arm from the Buggy enclosure",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Your chin, with the back of the neck still enclosed",
+            "Your outside arm, with the trapped head still contained"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Your shoulders, with your head still caught by arm and leg"
           ]
         }
       },
       {
-        "question": "Buggy Choke to Front Headlock (attacker): What matters when you verify the next configuration?",
+        "question": "Buggy Choke to Front Headlock (top): After release, what makes front-headlock access possible?",
         "answer": "Establish Front Headlock only after the head is free. Front headlock additionally requires the opponent to turn or rise with the head accessible.",
-        "answer_line": "Verify the next configuration",
+        "answer_line": "The opponent turns or rises with their head exposed",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "The opponent stays flat with their head protected",
+            "The opponent stays chest-up with your arm outside their head"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "You reach their shoulder while their head stays hidden"
           ]
         }
       },
       {
-        "question": "Buggy Choke to Front Headlock (attacker): What matters when you settle without neck loading?",
-        "answer": "Use balanced positional pressure and let the opponent communicate throughout the reset.",
-        "answer_line": "Settle without neck loading",
+        "question": "Buggy Choke to Front Headlock (top): When can you shift toward a head-control position?",
+        "answer": "The positional change follows loop release and requires a supported base, not a pivot through the trapped neck.",
+        "answer_line": "Once the old loop is open and your base is stable",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "As soon as one foot can circle the shoulders",
+            "Once the partner loosens their hip frame only"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Once your shoulders move while your head remains held"
           ]
         }
       },
       {
-        "question": "Buggy Choke to Front Headlock (attacker): What configuration must exist before this sequence?",
-        "answer": "The top player is the choke defender even though this transition calls the moving player its attacker.",
-        "answer_line": "Check the starting configuration",
+        "question": "Buggy to Front Headlock (top): Why does a flat opponent not yet offer the intended new control?",
+        "answer": "After your own head and arm clear the Buggy loop, the opponent must separately turn or rise with their head accessible. A flat side-control opponent does not automatically supply front-headlock access.",
+        "answer_line": "Their head lacks access for your front headlock",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Chest contact alone places their neck under your arm",
+            "A wrist grip beside their head supplies the neck enclosure"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Their near shoulder being pinned exposes the head underneath"
           ]
         }
       },
       {
-        "question": "Buggy Choke to Front Headlock (attacker): Check the defining controls?",
+        "question": "Buggy Choke to Front Headlock (top): Why does reaching for the opponent's head not prove escape?",
         "answer": "Changing pins does not itself prove that the choke is gone. Clear the arm-and-leg loop first, and do not lift or slam the partner to escape.",
-        "answer_line": "Check the defining controls",
+        "answer_line": "Their arm-leg loop may still enclose your neck",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Reaching the head proves their elbow has separated from the knee",
+            "The head grip moves your neck outside their arm-leg connection"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Their raised leg must open before you can touch their head"
           ]
         }
       },
       {
-        "question": "Buggy Choke to Front Headlock (attacker): When should the partners stop or reset?",
-        "answer": "Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.",
-        "answer_line": "Release before unsafe loading",
+        "question": "Buggy Choke to Front Headlock (top): Your neck stays caught as you try to rise. What is appropriate?",
+        "answer": "If the neck is securely enclosed, stop and signal release rather than forcing the transition through it.",
+        "answer_line": "Stop and tap rather than lever on the neck",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Continue rising until your shoulders clear their ribs",
+            "Turn the shoulders first to make room for the head"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Keep the head still and circle the hips to finish the escape"
           ]
         }
       },
       {
-        "question": "Buggy Choke to Front Headlock (attacker): What should a cooperative first drill establish?",
+        "question": "Buggy Choke to Front Headlock (top): What visible action warns you before the loop closes?",
         "answer": "Identify the starting configuration and rehearse the first connection without finishing pressure. Watch for an arm reaching past your head and connecting to the same-side leg.",
-        "answer_line": "Rehearse the first connection",
+        "answer_line": "Their arm passes your head toward their own leg",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Their hands frame on your hip without reaching upward",
+            "Their hand cups your head while their leg stays on the mat"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Their arm hugs their knee while your head stays outside"
           ]
         }
       }
@@ -427,72 +427,72 @@
     ],
     "flashcards": [
       {
-        "question": "Buggy Choke to Front Headlock (defender): What matters when you build the angle?",
+        "question": "Buggy Choke to Front Headlock (bottom): How do you shorten the reach to your own leg?",
         "answer": "Use safe shoulder and hip frames to turn partly onto the side before reaching for the leg.",
-        "answer_line": "Build the angle",
+        "answer_line": "Frame and turn partly onto your ribs",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Stay flat and pull your foot toward your face",
+            "Turn away while leaving the linking knee on the mat"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Extend your ribs away from the raised knee"
           ]
         }
       },
       {
-        "question": "Buggy Choke to Front Headlock (defender): What matters when you enclose head and arm?",
-        "answer": "Check that the loop contains the necessary upper-body configuration rather than merely hugging your leg.",
-        "answer_line": "Enclose head and arm",
+        "question": "Buggy Choke to Front Headlock (bottom): What must your arm-leg loop contain?",
+        "answer": "A Buggy connection must enclose the opponent's head and one arm; hugging your own leg is insufficient.",
+        "answer_line": "The top player's head and one arm",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Just your own thigh with their head outside",
+            "Their head alone with both arms outside"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Their near arm with the head outside"
           ]
         }
       },
       {
-        "question": "Buggy Choke to Front Headlock (defender): What matters when you keep elbow near knee?",
+        "question": "Buggy Choke to Front Headlock (bottom): What body adjustment closes the elbow-knee gap?",
         "answer": "Shorten the connection through body position, not by pulling the foot hard toward the face.",
-        "answer_line": "Keep elbow near knee",
+        "answer_line": "Bring your body angle closer on your side",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Pull your foot across a fixed knee",
+            "Straighten the linking arm away from your knee"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Stay flat and rely only on grip strength"
           ]
         }
       },
       {
-        "question": "Buggy Choke to Front Headlock (defender): What matters when you use the torso connection?",
-        "answer": "Close space with the arm, leg, and torso while avoiding twisting force on your own knee.",
-        "answer_line": "Use the torso connection",
+        "question": "Buggy Choke to Front Headlock (bottom): Which torso movement closes the Buggy enclosure?",
+        "answer": "Shoulder-to-hip shortening reduces space in the loop without using the foot as a twisting lever.",
+        "answer_line": "Bring your shoulder toward your hip",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Pull the heel toward your face with both hands",
+            "Extend the shoulder away from your hip"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Move your hip away while keeping the shoulder high"
           ]
         }
       },
       {
-        "question": "Buggy Choke to Front Headlock (defender): What matters when you recover guard when space opens?",
+        "question": "Buggy Choke to Front Headlock (bottom): If the choke opens, what helps avoid exposing your head?",
         "answer": "Use a disengaging opponent's movement to insert frames and knees if the choke is lost.",
-        "answer_line": "Recover guard when space opens",
+        "answer_line": "Frame and recover facing guard before rising",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Turn headfirst onto your knees immediately",
+            "Keep reaching for the lost foot while turning away"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Bring your chest up while leaving the knees outside"
           ]
         }
       }

@@ -56,42 +56,42 @@ description: "Turn to Face from Zombie (defender): Keep a useful forearm between
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Turn to Face from Zombie (defender): What matters when you maintain inside frames?",
+      "name": "Turn to Face from Zombie (top): Where should your forearm stay before the renewed pummel?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Keep a useful forearm between the bodies before the bottom player gains the hand-clearing path."
+        "text": "A useful inside forearm denies the hand-clearing path before the bottom player can isolate the arm under the knee hug."
       }
     },
     {
       "@type": "Question",
-      "name": "Turn to Face from Zombie (defender): What matters when you keep elbow and hand connected?",
+      "name": "Turn to Face from Zombie (top): How should you recover the hand without leaving a lever?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Move the whole arm rather than leaving the wrist exposed while the elbow remains fixed."
+        "text": "Coordinate the whole arm so the wrist is not left exposed beyond a fixed elbow while the bottom player rebuilds guard."
       }
     },
     {
       "@type": "Question",
-      "name": "Turn to Face from Zombie (defender): What matters when you notice the pummel early?",
+      "name": "Turn to Face from Zombie (top): Which movement identifies their next arm-clearing attempt?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The free hand working under yours is the cue to recover inside position before the knee hug closes."
+        "text": "The under-hand entry is the cue to recover inside arm position before the knee hug covers the cleared arm."
       }
     },
     {
       "@type": "Question",
-      "name": "Turn to Face from Zombie (defender): What matters when you recover without yanking?",
+      "name": "Turn to Face from Zombie (top): When should the elbow return toward your ribs?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Retract the elbow toward your ribs through available space, stopping if the shoulder is caught."
+        "text": "Recover the elbow through available slack; do not pull against a fixed shoulder in the high enclosure."
       }
     },
     {
       "@type": "Question",
-      "name": "Turn to Face from Zombie (defender): What matters when you rebuild posture gradually?",
+      "name": "Turn to Face from Zombie (top): What must release before you raise the chest?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Raise the chest after freeing the arm and reducing the high-leg control."
+        "text": "Posture recovery follows upper-body clearance; the opponent turning their hips or recovering a knee does not alone free your neck."
       }
     }
   ]

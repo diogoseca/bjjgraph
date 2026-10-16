@@ -235,144 +235,144 @@
     ],
     "flashcards": [
       {
-        "question": "Rear Naked Choke from Invisible Collar (attacker): What matters when you establish rear attachment?",
-        "answer": "Connect to the torso from behind before reaching across the neck.",
-        "answer_line": "Establish rear attachment",
+        "question": "Rear naked choke after Invisible Collar: what should be established before reaching across the neck?",
+        "answer": "Secure torso attachment from behind. Connect to the torso from behind before reaching across the neck.",
+        "answer_line": "Secure torso attachment from behind",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "The original facing high guard alone",
+            "A neck reach while your chest stays detached"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "A grip on the far ankle from beside the hips"
           ]
         }
       },
       {
-        "question": "Rear Naked Choke from Invisible Collar (attacker): What matters when you win hand access?",
-        "answer": "Control the defending hands without bending individual fingers or scraping the face.",
-        "answer_line": "Win hand access",
+        "question": "Rear naked choke attack: what is the purpose of winning the defending-hand exchange?",
+        "answer": "Clear access for the arm to wrap the neck. Control the defending hands without bending individual fingers or scraping the face.",
+        "answer_line": "Clear access for the arm to wrap the neck",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Force the chin upward by bending a finger",
+            "Keep both of your arms outside the head permanently"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Replace torso attachment with a distant wrist pull"
           ]
         }
       },
       {
-        "question": "Rear Naked Choke from Invisible Collar (attacker): What matters when you place the choking arm?",
-        "answer": "Arrange the forearm and upper arm beside the neck while preserving head alignment.",
-        "answer_line": "Place the choking arm",
+        "question": "Rear naked choke attack: which parts of the choking arm flank the neck?",
+        "answer": "The choking forearm and upper arm. Arrange the forearm and upper arm beside the neck while preserving head alignment.",
+        "answer_line": "The choking forearm and upper arm",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "The wrist across the mouth and the back of the skull",
+            "Both palms pulling the chin sideways"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "The forearm behind the head with the elbow on the jaw"
           ]
         }
       },
       {
-        "question": "Rear Naked Choke from Invisible Collar (attacker): What matters when you add the supporting hand?",
-        "answer": "Connect the arm loop with the support hand behind the head without levering the neck forward.",
-        "answer_line": "Add the supporting hand",
+        "question": "Rear naked choke attack: what should the supporting hand behind the head do?",
+        "answer": "Complete the arm loop without levering the neck forward. Connect the arm loop with the support hand behind the head without levering the neck forward.",
+        "answer_line": "Complete the arm loop without levering the neck forward",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Push the skull forward as the main finishing lever",
+            "Pull the chin upward through the choking arm"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Remain separate while the choking fingers squeeze alone"
           ]
         }
       },
       {
-        "question": "Rear Naked Choke from Invisible Collar (attacker): What matters when you remove space gradually?",
-        "answer": "Use connected arms and torso instead of pulling the head into a crank.",
-        "answer_line": "Remove space gradually",
+        "question": "Rear naked choke attack: which elbow movement reduces space while the head stays aligned?",
+        "answer": "Draw the elbows toward one another gradually. Kesting describes bringing the elbows together as one component of closing the choke. Keep the head aligned, use gradual pressure and release the entire connection immediately on a signal.",
+        "answer_line": "Draw the elbows toward one another gradually",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Spread the elbows away from each other",
+            "Lift one elbow while twisting the chin across the chest"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Drive both elbows behind the head to fold the neck"
           ]
         }
       },
       {
-        "question": "Rear Naked Choke from Invisible Collar (attacker): What matters when you release completely?",
-        "answer": "Open the choking arm and supporting hand immediately on any tap or change in responsiveness.",
-        "answer_line": "Release completely",
+        "question": "Rear naked choke attack: what must open when the partner taps or becomes unresponsive?",
+        "answer": "The choking arm and supporting hand. Open the choking arm and supporting hand immediately on any tap or change in responsiveness.",
+        "answer_line": "The choking arm and supporting hand",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Only the hand that is easiest to move",
+            "Only the back hooks while the arms keep squeezing"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Only the support fingers while the forearm stays tight"
           ]
         },
         "safety_critical": true
       },
       {
-        "question": "Rear Naked Choke from Invisible Collar (attacker): Check the starting configuration?",
-        "answer": "The attacker is behind the opponent with a secure torso connection and an arm able to pass around the neck.",
-        "answer_line": "Check the starting configuration",
+        "question": "Rear naked choke attack: which paired leg action helps maintain the rear-mount connection?",
+        "answer": "Knees drawing inward as heels draw toward you. Kesting describes coordinated knee closure and heel retraction to retain rear mount. Keep the upper-body connection while organizing this leg control before the neck attack.",
+        "answer_line": "Knees drawing inward as heels draw toward you",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Knees flared while the heels drift away",
+            "Both legs extended away from the opponent's hips"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Feet pulling the head while the torso stays disconnected"
           ]
         }
       },
       {
-        "question": "Rear Naked Choke from Invisible Collar (attacker): Check the defining controls?",
-        "answer": "Invisible Collar is a facing guard clinch. Reaching the back is a separate positional change; the high legs do not themselves establish rear torso access.",
-        "answer_line": "Check the defining controls",
+        "question": "Rear naked choke after Invisible Collar: why doesn't closing the high legs establish this attack?",
+        "answer": "Facing guard does not establish access behind the torso. Invisible Collar is a facing guard clinch. Reaching the back is a separate positional change; the high legs do not themselves establish rear torso access.",
+        "answer_line": "Facing guard does not establish access behind the torso",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Any high leg automatically acts as a rear choking arm",
+            "High legs behind the head provide chest-to-back attachment"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "A knee hug already joins the two choking hands"
           ]
         }
       },
       {
-        "question": "Rear Naked Choke from Invisible Collar (attacker): When should the partners stop or reset?",
-        "answer": "Never squeeze through the jaw or continue after a tap. Agree on verbal signals when the hands are occupied, and open the whole arm loop immediately.",
-        "answer_line": "Release before unsafe loading",
+        "question": "Rear naked choke practice: if the jaw blocks your forearm, what is the appropriate reset?",
+        "answer": "Unload and hand fight to regain neck access. Never squeeze through the jaw or continue after a tap. Agree on verbal signals when the hands are occupied, and open the whole arm loop immediately.",
+        "answer_line": "Unload and hand fight to regain neck access",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Squeeze through the jaw until the chin lifts",
+            "Turn the head sharply while holding the support grip"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Push the skull forward to force the jaw past your arm"
           ]
         },
         "safety_critical": true
       },
       {
-        "question": "Rear Naked Choke from Invisible Collar (attacker): What should a cooperative first drill establish?",
-        "answer": "Identify the starting configuration and rehearse the first connection without finishing pressure. Connect to the torso from behind before reaching across the neck.",
-        "answer_line": "Rehearse the first connection",
+        "question": "Rear naked choke practice: which arm routes form the harness before progressing toward the neck?",
+        "answer": "One under an armpit, the other over the opposite shoulder. The rear harness uses one underarm and one over-shoulder connection, with the hands joined. It retains torso attachment while hand fighting creates a later neck entry.",
+        "answer_line": "One under an armpit, the other over the opposite shoulder",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Both over the shoulders with the underarm space abandoned",
+            "Both under the thighs while your chest stays behind the knees"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "One around the foot and the other behind your own neck"
           ]
         }
       }
@@ -474,72 +474,72 @@
     ],
     "flashcards": [
       {
-        "question": "Rear Naked Choke from Invisible Collar (defender): What matters when you protect neck access?",
-        "answer": "Keep the attacking wrist from crossing into a complete neck enclosure.",
-        "answer_line": "Protect neck access",
+        "question": "Rear naked choke defense: what should you stop the attacking wrist from completing?",
+        "answer": "A wrap across the neck into a closed arm loop. Keep the attacking wrist from crossing into a complete neck enclosure.",
+        "answer_line": "A wrap across the neck into a closed arm loop",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "A grip on the trouser cuff beside your ankle",
+            "A post on the mat behind the attacker"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "A touch on the outside of your own elbow"
           ]
         }
       },
       {
-        "question": "Rear Naked Choke from Invisible Collar (defender): What matters when you use both hands early?",
-        "answer": "Hand fight before the supporting hand joins the choke.",
-        "answer_line": "Use both hands early",
+        "question": "Rear naked choke defense: when should both hands contest the choking arm?",
+        "answer": "Before the supporting hand joins the loop. Hand fight before the supporting hand joins the choke.",
+        "answer_line": "Before the supporting hand joins the loop",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Only after the grip is complete and symptoms appear",
+            "After using both hands to peel back hooks alone"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Once the opponent has already released the neck"
           ]
         }
       },
       {
-        "question": "Rear Naked Choke from Invisible Collar (defender): What matters when you manage rear attachment?",
-        "answer": "Work on torso position only while maintaining protection against the choking arm.",
-        "answer_line": "Manage rear attachment",
+        "question": "Rear naked choke defense: how should torso-position work relate to hand fighting?",
+        "answer": "Keep protecting the neck while adjusting rear attachment. Work on torso position only while maintaining protection against the choking arm.",
+        "answer_line": "Keep protecting the neck while adjusting rear attachment",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Use both hands on the hooks and ignore the choking wrist",
+            "Turn the body first while leaving the neck fully exposed"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Wait for a completed choke before changing any torso contact"
           ]
         }
       },
       {
-        "question": "Rear Naked Choke from Invisible Collar (defender): What matters when you keep the neck aligned?",
-        "answer": "Do not rely on chin tucking or a violent head turn against the completed loop.",
-        "answer_line": "Keep the neck aligned",
+        "question": "Rear naked choke defense: why is a violent head turn not a dependable escape from the closed loop?",
+        "answer": "The arm enclosure can hold the neck during the turn. Do not rely on chin tucking or a violent head turn against the completed loop.",
+        "answer_line": "The arm enclosure can hold the neck during the turn",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Turning always unhooks the supporting fingers",
+            "A tucked chin makes every neck turn harmless"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "The forearm loses contact whenever the face rotates"
           ]
         }
       },
       {
-        "question": "Rear Naked Choke from Invisible Collar (defender): What matters when you tap promptly?",
-        "answer": "Stop before dizziness, visual changes or loss of normal awareness.",
-        "answer_line": "Tap promptly",
+        "question": "Rear naked choke defense: which symptoms must an early tap prevent?",
+        "answer": "Dizziness, visual changes or impaired awareness. Tap before any of these symptoms; stop before a secured choke impairs normal awareness.",
+        "answer_line": "Dizziness, visual changes or impaired awareness",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Only when both legs can no longer move",
+            "Only after the opponent changes to a collar grip"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "After testing one last head twist against the loop"
           ]
         }
       }

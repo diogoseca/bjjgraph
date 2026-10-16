@@ -68,50 +68,50 @@ description: "Double Underhook Pass (attacker): Avoid extending an arm between t
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Double Underhook Pass (attacker): What matters when you recognize the upper-body trap?",
+      "name": "Double Underhook Pass (top): What must clear before reaching beneath both thighs?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Avoid extending an arm between the high legs where it can be isolated."
+        "text": "The double-under passing setup begins after the head, shoulders and arms clear the high rubber-guard enclosure."
       }
     },
     {
       "@type": "Question",
-      "name": "Double Underhook Pass (attacker): What matters when you protect the captured limb?",
+      "name": "Double Underhook Pass (top): In the completed hip-clasp setup, where are both arms routed?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "A second leg climbing behind your head increases the posture-control problem."
+        "text": "After opening guard and clearing the high clinch, place both arms beneath the thighs."
       }
     },
     {
       "@type": "Question",
-      "name": "Double Underhook Pass (attacker): What matters when you work before pressure engages?",
+      "name": "Double Underhook Pass (top): Where do the hands clasp in the demonstrated leg-gathering setup?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Keep a balanced base and early inside frames; tap instead of moving against a completed choke or joint lock."
+        "text": "The primary demonstration clasps near the hips and hugs the legs together."
       }
     },
     {
       "@type": "Question",
-      "name": "Double Underhook Pass (attacker): What matters when you open the high enclosure?",
+      "name": "Double Underhook Pass (top): What supports the opponent's hips as you sit back and posture?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Create slack at the hip and thigh while keeping the head and captured arm aligned."
+        "text": "With the legs gathered, the demonstrated setup brings the opponent's hips onto the passer's thighs without using the neck as a fulcrum."
       }
     },
     {
       "@type": "Question",
-      "name": "Double Underhook Pass (attacker): What matters when you recover the elbow and posture?",
+      "name": "Double Underhook Pass (top): What contact does the shown pass add while one hand supports the hips?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Withdraw the shoulder and elbow only after the high leg connection has opened."
+        "text": "The demonstration retains hip support and uses the opposite shoulder to guide the passing direction."
       }
     },
     {
       "@type": "Question",
-      "name": "Double Underhook Pass (attacker): What matters when you confirm the next position?",
+      "name": "Double Underhook Pass (top): What must clear before you settle a side pin?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Establish a stable passing base after the head clears, then side control if both legs pass only when the upper-body enclosure and relevant leg hooks have cleared."
+        "text": "After releasing high guard, complete the leg clearance before settling beside the torso."
       }
     }
   ]

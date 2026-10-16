@@ -68,50 +68,50 @@ description: "Roll from Dead Orchard (attacker): The bottom player faces the opp
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Roll from Dead Orchard (attacker): What matters when you recognize the actual control?",
+      "name": "Roll from Dead Orchard (bottom): What holds the opponent at the start?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The bottom player faces the opponent and keeps the hips close beneath the shoulders. The legs form a high figure-four around the shoulder line, with both opposing arms inside."
+        "text": "The starting control is a bottom-player both-arm leg triangle, despite the route's rolling-escape wording."
       }
     },
     {
       "@type": "Question",
-      "name": "Roll from Dead Orchard (attacker): What matters when you remove submission pressure?",
+      "name": "Roll from Dead Orchard (bottom): What must release before you turn or shrimp?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Release any wrist, neck or elbow loading before opening the high-leg enclosure."
+        "text": "Release both arms from the high triangle and remove any wrist leverage before changing hip direction."
       }
     },
     {
       "@type": "Question",
-      "name": "Roll from Dead Orchard (attacker): What matters when you open the high connection?",
+      "name": "Roll from Dead Orchard (bottom): How do you lower a leg during the released reset?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Lower the controlling leg through a comfortable hip angle rather than pulling the foot against the knee."
+        "text": "Lower the controlling leg through a comfortable hip angle after opening the enclosure."
       }
     },
     {
       "@type": "Question",
-      "name": "Roll from Dead Orchard (attacker): What matters when you restore inside frames?",
+      "name": "Roll from Dead Orchard (bottom): Which movement restores space for an inside knee?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Bring the forearms and knees between the bodies as space becomes available."
+        "text": "After release, a short lateral hip escape behind a frame brings a knee between the bodies."
       }
     },
     {
       "@type": "Question",
-      "name": "Roll from Dead Orchard (attacker): What matters when you face the opponent?",
+      "name": "Roll from Dead Orchard (bottom): Which orientation should the reset preserve?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Keep the shoulders and hips oriented toward the opponent while re-establishing a comfortable facing guard."
+        "text": "The recovery restores facing guard rather than promising a roll into turtle."
       }
     },
     {
       "@type": "Question",
-      "name": "Roll from Dead Orchard (attacker): What matters when you stabilize before moving again?",
+      "name": "Roll from Dead Orchard (bottom): What blocks incoming chest pressure as the knee returns?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Check posture, knee comfort and inside space before resuming a sweep or submission attack."
+        "text": "Keep an inside forearm barrier against crossface and chest pressure while the released knee returns."
       }
     }
   ]

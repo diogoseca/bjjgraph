@@ -68,7 +68,7 @@ description: "Aoki Lock to Crucifix (attacker): The opposing foot is turned outw
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Aoki Lock to Crucifix (attacker): What matters when you identify the starting enclosure?",
+      "name": "Aoki Lock to Crucifix (attacker): Which limb is controlled before any new arm traps?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The opposing foot is turned outward and enclosed near the armpit, upper arm, and forearm."
@@ -76,15 +76,15 @@ description: "Aoki Lock to Crucifix (attacker): The opposing foot is turned outw
     },
     {
       "@type": "Question",
-      "name": "Aoki Lock to Crucifix (attacker): What matters when you remove finishing pressure?",
+      "name": "Aoki Lock to Crucifix (attacker): Why can a small bridge load the initial capture?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Rotational foot locks can injure the ankle or knee before pain provides useful warning. Use cooperative capture-and-release practice, no spinning escapes, and the event's actual division rules."
+        "text": "The upper-body enclosure fixes the outward-turned foot while the leg connection restrains the hip, so even a small bridge can create rotational load. Rotational foot locks can injure the ankle or knee before pain provides useful warning. Use cooperative capture-and-release practice, no spinning escapes, and the event's actual division rules."
       }
     },
     {
       "@type": "Question",
-      "name": "Aoki Lock to Crucifix (attacker): What matters when you release before repositioning?",
+      "name": "Aoki Lock to Crucifix (attacker): Before reallocating your legs to an arm trap, what releases?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Open the original connection before either partner turns, rises or changes the captured limb."
@@ -92,7 +92,7 @@ description: "Aoki Lock to Crucifix (attacker): The opposing foot is turned outw
     },
     {
       "@type": "Question",
-      "name": "Aoki Lock to Crucifix (attacker): What matters when you require rear-side arm access?",
+      "name": "Aoki Lock to Crucifix (attacker): Where must you gain access to build the crucifix separately?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Obtain a separate position behind or beside the shoulders with both arms accessible."
@@ -100,7 +100,7 @@ description: "Aoki Lock to Crucifix (attacker): The opposing foot is turned outw
     },
     {
       "@type": "Question",
-      "name": "Aoki Lock to Crucifix (attacker): What matters when you verify both arm controls?",
+      "name": "Aoki Lock to Crucifix (attacker): How are the two opposing arms divided in crucifix control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "One arm must be contained by the legs and the other by an upper-body connection."
@@ -108,7 +108,7 @@ description: "Aoki Lock to Crucifix (attacker): The opposing foot is turned outw
     },
     {
       "@type": "Question",
-      "name": "Aoki Lock to Crucifix (attacker): What matters when you hold without joint loading?",
+      "name": "Aoki Lock to Crucifix (attacker): Both arms are held. How can a training partner signal stop?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Stabilize the crucifix while keeping both shoulders comfortable and an agreed verbal tap available."

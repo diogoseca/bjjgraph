@@ -68,50 +68,50 @@ description: "Advance to Chill Dog (attacker): Keep the opposing hand on the mat
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Advance to Chill Dog (attacker): What matters when you secure New York first?",
+      "name": "Advance to Chill Dog (bottom): What secures the arm before the head-side grip changes?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Keep the opposing hand on the mat and hug the knee before changing the head-side grip."
+        "text": "Keep the opponent's hand outside on the mat and hug your knee over that arm before changing the grip around the head."
       }
     },
     {
       "@type": "Question",
-      "name": "Advance to Chill Dog (attacker): What matters when you turn onto the hip?",
+      "name": "Advance to Chill Dog (bottom): How do you make room to clear the head?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Bring the knee toward the chest through hip movement so the neck-clearing motion does not twist the knee."
+        "text": "The hip angle brings the supported knee forward so the hand can clear the head without hauling the foot across a fixed knee."
       }
     },
     {
       "@type": "Question",
-      "name": "Advance to Chill Dog (attacker): What matters when you clear the neck?",
+      "name": "Advance to Chill Dog (bottom): Which arm moves around the head?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Move the controlling arm around the head while keeping the leg and trapped arm connected."
+        "text": "The head-side arm changes position around the head while the other arm retains the New York overhook and knee support."
       }
     },
     {
       "@type": "Question",
-      "name": "Advance to Chill Dog (attacker): What matters when you place the inside frame?",
+      "name": "Advance to Chill Dog (bottom): Where should the forearm resist forward pressure?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Use the forearm near the shoulder line to manage forward pressure; do not let the frame collapse across your own wrist."
+        "text": "An inside forearm near the shoulder line keeps forward pressure from folding the frame onto your own wrist."
       }
     },
     {
       "@type": "Question",
-      "name": "Advance to Chill Dog (attacker): What matters when you maintain the arm trap?",
+      "name": "Advance to Chill Dog (bottom): What keeps the isolated arm from returning inside?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Keep the knee hug while choosing further control such as Invisible Collar or an omoplata setup."
+        "text": "Retain the arm wrap and knee hug as you consider the next control; a cleared head alone does not secure the elbow."
       }
     },
     {
       "@type": "Question",
-      "name": "Advance to Chill Dog (attacker): What matters when you recover when control opens?",
+      "name": "Advance to Chill Dog (bottom): Their elbow escapes as posture rises; what comes next?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Return the legs to a comfortable guard if the opponent withdraws the elbow or stacks your upper back."
+        "text": "Once the elbow and posture control are lost, recover knees and forearms between the bodies instead of chasing the high connection."
       }
     }
   ]

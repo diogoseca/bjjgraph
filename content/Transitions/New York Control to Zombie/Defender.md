@@ -56,42 +56,42 @@ description: "New York Control to Zombie (defender): Keep a useful forearm betwe
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "New York Control to Zombie (defender): What matters when you maintain inside frames?",
+      "name": "New York Control to Zombie (top): What must your recovered arm retain?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Keep a useful forearm between the bodies before the bottom player gains the hand-clearing path."
+        "text": "After escaping the New York isolation, keep the recovered forearm inside so the bottom player cannot immediately re-pummel."
       }
     },
     {
       "@type": "Question",
-      "name": "New York Control to Zombie (defender): What matters when you keep elbow and hand connected?",
+      "name": "New York Control to Zombie (top): How should you avoid leaving the wrist exposed?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Move the whole arm rather than leaving the wrist exposed while the elbow remains fixed."
+        "text": "Move the arm as a coordinated unit; an inside elbow with the hand left outside still gives the pummeler an opening."
       }
     },
     {
       "@type": "Question",
-      "name": "New York Control to Zombie (defender): What matters when you notice the pummel early?",
+      "name": "New York Control to Zombie (top): Which action signals a renewed attempt?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The free hand working under yours is the cue to recover inside position before the knee hug closes."
+        "text": "Watch the second hand under your recovered hand, because that is the early cue for the renewed hand-clearing pummel."
       }
     },
     {
       "@type": "Question",
-      "name": "New York Control to Zombie (defender): What matters when you recover without yanking?",
+      "name": "New York Control to Zombie (top): When can the elbow be drawn back safely?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Retract the elbow toward your ribs through available space, stopping if the shoulder is caught."
+        "text": "Use the open path to recover the elbow beside the ribs; do not jerk against a completed arm enclosure."
       }
     },
     {
       "@type": "Question",
-      "name": "New York Control to Zombie (defender): What matters when you rebuild posture gradually?",
+      "name": "New York Control to Zombie (top): What must clear before you raise the chest?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Raise the chest after freeing the arm and reducing the high-leg control."
+        "text": "Upright posture follows release of the upper-body connection; escaping the hand alone may leave the leg attached."
       }
     }
   ]

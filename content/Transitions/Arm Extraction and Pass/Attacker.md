@@ -68,50 +68,50 @@ description: "Arm Extraction and Pass (attacker): Avoid extending an arm between
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Arm Extraction and Pass (attacker): What matters when you recognize the upper-body trap?",
+      "name": "Arm Extraction and Pass (top): Which arm shape avoids offering a long lever to the high legs?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Avoid extending an arm between the high legs where it can be isolated."
+        "text": "Keep the elbow compact while opening the high clinch; extending it between the legs can invite isolation."
       }
     },
     {
       "@type": "Question",
-      "name": "Arm Extraction and Pass (attacker): What matters when you protect the captured limb?",
+      "name": "Arm Extraction and Pass (top): Your wrist moves but the extra leg holds you low; what must clear?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "A second leg climbing behind your head increases the posture-control problem."
+        "text": "The second high leg reinforces the facing upper-body clinch and makes posture recovery harder. A mobile wrist does not prove that the shoulder has escaped this restraint; clear the high connection before withdrawing the arm."
       }
     },
     {
       "@type": "Question",
-      "name": "Arm Extraction and Pass (attacker): What matters when you work before pressure engages?",
+      "name": "Arm Extraction and Pass (top): Before high closure, how should the hip-side framing arm sit?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Keep a balanced base and early inside frames; tap instead of moving against a completed choke or joint lock."
+        "text": "Use an early inside forearm at the hip or thigh while maintaining a balanced base. Keep the arm compact rather than reaching across the outside of the thigh. This is a preventive frame, not permission to move through a completed lock."
       }
     },
     {
       "@type": "Question",
-      "name": "Arm Extraction and Pass (attacker): What matters when you open the high enclosure?",
+      "name": "Arm Extraction and Pass (top): How should your head and captured arm move as slack appears?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Create slack at the hip and thigh while keeping the head and captured arm aligned."
+        "text": "Create slack at the hip and thigh with the head and captured arm aligned, then use the opening rather than wrenching a trapped limb."
       }
     },
     {
       "@type": "Question",
-      "name": "Arm Extraction and Pass (attacker): What matters when you recover the elbow and posture?",
+      "name": "Arm Extraction and Pass (top): What must open before your elbow is withdrawn?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Withdraw the shoulder and elbow only after the high leg connection has opened."
+        "text": "Withdraw the shoulder and elbow after the high leg connection opens around them, not by pulling a wrist through a fixed shoulder trap."
       }
     },
     {
       "@type": "Question",
-      "name": "Arm Extraction and Pass (attacker): What matters when you confirm the next position?",
+      "name": "Arm Extraction and Pass (top): What establishes side control after your arm comes free?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Establish side control after a completed guard pass only when the upper-body enclosure and relevant leg hooks have cleared."
+        "text": "Side control requires a completed leg clearance and stable chest contact beside the torso after the arm and high clinch are free."
       }
     }
   ]

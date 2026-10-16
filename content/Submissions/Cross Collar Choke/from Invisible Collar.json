@@ -235,173 +235,173 @@
     ],
     "flashcards": [
       {
-        "question": "Cross Collar Choke from Invisible Collar (attacker): What matters when you control posture?",
-        "answer": "Keep the opponent close enough to reach the collar without extending both arms unsupported.",
-        "answer_line": "Control posture",
+        "question": "Cross-collar after Invisible Collar: how close should the opponent be before you reach?",
+        "answer": "Within collar reach without extending both arms unsupported. Keep the opponent close enough to reach the collar without extending both arms unsupported.",
+        "answer_line": "Within collar reach without extending both arms unsupported",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Far enough away that both elbows lock straight",
+            "Beyond leg contact while you pull only the lapel tips"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Close only at the hips with the shoulders held far back"
           ]
         }
       },
       {
-        "question": "Cross Collar Choke from Invisible Collar (attacker): What matters when you establish the first grip?",
-        "answer": "Take a secure collar grip beside the neck rather than a shallow handful of cloth.",
-        "answer_line": "Establish the first grip",
+        "question": "Cross-collar attack: what makes the first collar grip useful?",
+        "answer": "Secure cloth contact beside the neck. Take a secure collar grip beside the neck rather than a shallow handful of cloth.",
+        "answer_line": "Secure cloth contact beside the neck",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "A shallow pinch at the loose end of the lapel",
+            "A handful of fabric below the chest"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "A grip across the mouth instead of the neck"
           ]
         }
       },
       {
-        "question": "Cross Collar Choke from Invisible Collar (attacker): What matters when you add the crossing grip?",
-        "answer": "Bring the second hand to the opposite collar using the grip orientation taught for the chosen variation.",
-        "answer_line": "Add the crossing grip",
+        "question": "Cross-collar attack: where should the second hand go for the chosen crossing variation?",
+        "answer": "To the opposite collar with the taught grip orientation. Bring the second hand to the opposite collar using the grip orientation taught for the chosen variation.",
+        "answer_line": "To the opposite collar with the taught grip orientation",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Onto the same wrist without reaching the other collar",
+            "Behind the opponent's knee with no second cloth contact"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Back onto the same low lapel hem"
           ]
         }
       },
       {
-        "question": "Cross Collar Choke from Invisible Collar (attacker): What matters when you align the forearms?",
-        "answer": "Place the forearms beside the neck without dragging across the jaw or bending the wrists painfully.",
-        "answer_line": "Align the forearms",
+        "question": "Cross-collar attack: what alignment should the forearms establish?",
+        "answer": "Beside the neck with the wrists comfortably aligned. Place the forearms beside the neck without dragging across the jaw or bending the wrists painfully.",
+        "answer_line": "Beside the neck with the wrists comfortably aligned",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Across the jaw with both wrists folded inward",
+            "Against the cheeks while the collar remains loose"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Under the chin with the head forced backward"
           ]
         }
       },
       {
-        "question": "Cross Collar Choke from Invisible Collar (attacker): What matters when you remove collar slack?",
-        "answer": "Bring the elbows and torso into a connected position with gradual tension.",
-        "answer_line": "Remove collar slack",
+        "question": "Cross-collar attack: how should you remove remaining cloth slack?",
+        "answer": "Connect elbows and torso with gradual tension. Bring the elbows and torso into a connected position with gradual tension.",
+        "answer_line": "Connect elbows and torso with gradual tension",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Pull both hands outward at full arm extension",
+            "Snap the wrists while the shoulders stay distant"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Twist the head between two fixed collar grips"
           ]
         }
       },
       {
-        "question": "Cross Collar Choke from Invisible Collar (attacker): What matters when you release both grips?",
-        "answer": "Open the hands at the first tap or change in normal responsiveness.",
-        "answer_line": "Release both grips",
+        "question": "Cross-collar attack: what must your hands do at the first tap?",
+        "answer": "Open both collar grips. Open the hands at the first tap or change in normal responsiveness.",
+        "answer_line": "Open both collar grips",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Release only the shallower grip",
+            "Keep one grip tight while lifting the head"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Loosen the fingers while still retracting the elbows"
           ]
         },
         "safety_critical": true
       },
       {
-        "question": "Cross Collar Choke from Invisible Collar (attacker): Check the starting configuration?",
-        "answer": "The attacker faces the opponent with access to both jacket collars and enough posture control to establish the grips.",
-        "answer_line": "Check the starting configuration",
+        "question": "Cross-collar after Invisible Collar: what garment must provide the actual gripping material?",
+        "answer": "A gi jacket with usable lapels. The attack requires real jacket cloth at the neck. The old high-leg clinch is not itself a collar grip.",
+        "answer_line": "A gi jacket with usable lapels",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "A rashguard stretched across the upper chest",
+            "The attacker's belt wrapped behind the neck"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "A bare arm placed where a collar would be"
           ]
         }
       },
       {
-        "question": "Cross Collar Choke from Invisible Collar (attacker): Check the defining controls?",
-        "answer": "Invisible Collar names a high leg clinch, not a cloth grip. Releasing that clinch and arranging actual collar access is necessary; the reviewed primary lesson demonstrates mount rather than a direct Invisible Collar entry.",
-        "answer_line": "Check the defining controls",
+        "question": "Cross-collar after Invisible Collar: what must change before the cloth-based attack is available?",
+        "answer": "Rearrange the leg clinch to obtain real collar grips. Invisible Collar names a high leg clinch, not a cloth grip. Releasing that clinch and arranging actual collar access is necessary; the reviewed primary lesson demonstrates mount rather than a direct Invisible Collar entry.",
+        "answer_line": "Rearrange the leg clinch to obtain real collar grips",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Treat the existing leg closure as two jacket grips",
+            "Keep both hands on the shin instead of taking crossed lapel grips"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Move the opponent's heel closer without changing upper-body access"
           ]
         }
       },
       {
-        "question": "Cross Collar Choke from Invisible Collar (attacker): When should the partners stop or reset?",
-        "answer": "The collar must be used as a controlled choking surface, never to grind the face. Release both grips promptly and do not test how long a partner can tolerate the choke.",
-        "answer_line": "Release before unsafe loading",
+        "question": "Cross-collar practice: what should you do if the cloth bears on the jaw instead of the neck?",
+        "answer": "Release tension and reset the grip placement. The collar must be used as a controlled choking surface, never to grind the face. Release both grips promptly and do not test how long a partner can tolerate the choke.",
+        "answer_line": "Release tension and reset the grip placement",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Pull until the chin is forced above the collar",
+            "Keep the grips and twist the head to expose the neck"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Add wrist flexion to grind through the jaw barrier"
           ]
         },
         "safety_critical": true
       },
       {
-        "question": "Cross Collar Choke from Invisible Collar (attacker): Rehearse the first connection?",
-        "answer": "Identify the starting configuration and rehearse the first connection without finishing pressure. Keep the opponent close enough to reach the collar without extending both arms unsupported.",
-        "answer_line": "Rehearse the first connection",
+        "question": "Cross-collar practice: why does a shallow first grip demand more pulling later?",
+        "answer": "Loose cloth leaves extra space beside the neck. A shallow handful of cloth can leave slack between the collar and the neck. Establish a supported grip and check its placement without finishing pressure, rather than compensating with a sudden pull.",
+        "answer_line": "Loose cloth leaves extra space beside the neck",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "The shallow grip automatically crosses both forearms",
+            "Less cloth contact keeps the elbow closer without adjustment"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Pulling the jaw replaces the need to remove collar slack"
           ]
         }
       },
       {
-        "question": "Cross Collar Choke from Invisible Collar (attacker): Free the captured neck or limb?",
-        "answer": "Confirm that the captured neck or limb can move freely. The collar must be used as a controlled choking surface, never to grind the face. Release both grips promptly and do not test how long a partner can tolerate the choke.",
-        "answer_line": "Free the captured neck or limb",
+        "question": "Cross-collar from mount: what reversal threatens an attacker reaching with both arms unsupported?",
+        "answer": "The bottom player's bridge. Kesting warns that the defender can bridge the attacker over during a poorly supported mounted choke. Keep a stable base while establishing grip depth; the lesson does not demonstrate a direct Invisible Collar entry.",
+        "answer_line": "The bottom player's bridge",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "A standing ankle pick while both players remain grounded",
+            "A leg pummel that keeps the top player centered"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "A collar pull that leaves the attacker's base unchanged"
           ]
         },
         "safety_critical": true
       },
       {
-        "question": "Cross Collar Choke from Invisible Collar (attacker): How should the next position be confirmed?",
-        "answer": "Check the actual body relationship rather than assuming the technique name guarantees a destination. Invisible Collar names a high leg clinch, not a cloth grip. Releasing that clinch and arranging actual collar access is necessary; the reviewed primary lesson demonstrates mount rather than a direct Invisible Collar entry.",
-        "answer_line": "Confirm the actual position",
+        "question": "Cross-collar after Invisible Collar: what does the reviewed primary lesson establish about origin?",
+        "answer": "A mounted demonstration, not a direct high-guard entry. Invisible Collar names a high leg clinch, not a cloth grip. Releasing that clinch and arranging actual collar access is necessary; the reviewed primary lesson demonstrates mount rather than a direct Invisible Collar entry.",
+        "answer_line": "A mounted demonstration, not a direct high-guard entry",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Every Invisible Collar hold already includes both cloth grips",
+            "The choke can use the same grips without any jacket"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "A mandatory turtle position before either hand enters"
           ]
         }
       }
@@ -516,72 +516,72 @@
     ],
     "flashcards": [
       {
-        "question": "Cross Collar Choke from Invisible Collar (defender): What matters when you stop the first deep grip?",
-        "answer": "Fight collar access while the attacker has only a shallow connection.",
-        "answer_line": "Stop the first deep grip",
+        "question": "Cross-collar defense: how many grips are complete when you first contest the entering hand?",
+        "answer": "Neither grip is complete; contest the first entering hand. Stop it gaining depth before the second hand crosses. Early hand fighting is preferable to treating two secured collar grips as the starting point.",
+        "answer_line": "Neither grip is complete; contest the first entering hand",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Both hands have already crossed and tightened",
+            "The second hand is deep while the first remains outside"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Both wrists are fixed against the neck under pressure"
           ]
         }
       },
       {
-        "question": "Cross Collar Choke from Invisible Collar (defender): What matters when you deny the second hand?",
-        "answer": "Keep an inside frame before the hands cross into a complete choke.",
-        "answer_line": "Deny the second hand",
+        "question": "Cross-collar defense: what can an inside frame deny before the choke is complete?",
+        "answer": "The second hand crossing to the opposite collar. Keep an inside frame before the hands cross into a complete choke.",
+        "answer_line": "The second hand crossing to the opposite collar",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "All movement of the opponent's far ankle",
+            "Your own shoulder returning toward the neck"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "The attacker's free knee moving on the mat"
           ]
         }
       },
       {
-        "question": "Cross Collar Choke from Invisible Collar (defender): What matters when you maintain posture early?",
-        "answer": "Manage the distance before both collar grips are fixed; do not jerk backward against a loaded choke.",
-        "answer_line": "Maintain posture early",
+        "question": "Cross-collar defense: before any cloth grip is caught, what distance can posture preserve?",
+        "answer": "Distance between your neck and the reaching hands. Use posture and distance while the jacket connections are still available to deny. Once the neck is secured, do not try to force posture against a loaded choke.",
+        "answer_line": "Distance between your neck and the reaching hands",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "A gap between your own knees while the neck stays captured",
+            "More slack at the belt without changing the upper body"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Space behind the attacker's heels only"
           ]
         }
       },
       {
-        "question": "Cross Collar Choke from Invisible Collar (defender): What matters when you address cloth tension?",
-        "answer": "Work on a grip and neck space while the enclosure remains loose.",
-        "answer_line": "Address cloth tension",
+        "question": "Cross-collar defense: what must you create in the cloth enclosure before a larger body escape?",
+        "answer": "Slack between the collar restraint and your neck. Address the grips while space remains so body movement is not made against a fixed neck restraint. A secured choke calls for an early tap.",
+        "answer_line": "Slack between the collar restraint and your neck",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "A tighter crossing of the attacker's wrists",
+            "A lower chin without changing either cloth grip"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "A sideways head angle inside the same tight collar loop"
           ]
         }
       },
       {
-        "question": "Cross Collar Choke from Invisible Collar (defender): What matters when you tap before symptoms?",
-        "answer": "Do not assume chin position prevents the collar from compressing the neck.",
-        "answer_line": "Tap before symptoms",
+        "question": "Cross-collar defense: why is tucking the chin not a guarantee against the secured choke?",
+        "answer": "Tight cloth can still compress the neck. Do not assume chin position prevents the collar from compressing the neck.",
+        "answer_line": "Tight cloth can still compress the neck",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "The collar always slides off a tucked jaw",
+            "Two deep grips need the mouth open to work"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "The forearms cannot transmit pressure below the chin"
           ]
         }
       }

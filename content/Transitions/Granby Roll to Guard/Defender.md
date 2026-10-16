@@ -56,7 +56,7 @@ description: "Granby Roll to Guard (defender): Watch for an arm reaching past yo
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Granby Roll to Guard (defender): What matters when you recognize the loop early?",
+      "name": "Granby Roll to Guard (top): Which bottom-player motion needs early attention?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Watch for an arm reaching past your head and connecting to the same-side leg."
@@ -64,7 +64,7 @@ description: "Granby Roll to Guard (defender): Watch for an arm reaching past yo
     },
     {
       "@type": "Question",
-      "name": "Granby Roll to Guard (defender): What matters when you prevent hand-leg connection?",
+      "name": "Granby Roll to Guard (top): Before the loop closes, what can obstruct it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use balanced posture and safe inside frames before the loop closes."
@@ -72,7 +72,7 @@ description: "Granby Roll to Guard (defender): Watch for an arm reaching past yo
     },
     {
       "@type": "Question",
-      "name": "Granby Roll to Guard (defender): What matters when you protect the neck?",
+      "name": "Granby Roll to Guard (top): Why is your neck still a concern while you are on top?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Treat the choke as live even though you hold top side control."
@@ -80,7 +80,7 @@ description: "Granby Roll to Guard (defender): Watch for an arm reaching past yo
     },
     {
       "@type": "Question",
-      "name": "Granby Roll to Guard (defender): What matters when you clear before circling?",
+      "name": "Granby Roll to Guard (top): What must happen before following their movement to a new pin?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Free the head-and-arm enclosure before changing to north-south or chasing another pin."
@@ -88,7 +88,7 @@ description: "Granby Roll to Guard (defender): Watch for an arm reaching past yo
     },
     {
       "@type": "Question",
-      "name": "Granby Roll to Guard (defender): What matters when you do not slam or wrench?",
+      "name": "Granby Roll to Guard (top): How should you respond if the loop is secured?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Avoid lifting, dropping, or twisting the partner's trapped leg to force an escape."

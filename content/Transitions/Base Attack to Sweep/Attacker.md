@@ -68,15 +68,15 @@ description: "Base Attack to Sweep (attacker): A turned-out foot enclosed beside
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Base Attack to Sweep (attacker): What matters when you distinguish the foot lock?",
+      "name": "Base Attack to Sweep (escaping player): What makes a bridge risky in the initial Aoki capture?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "A turned-out foot enclosed beside the armpit is a rotational threat, not simply a straight ankle-lock grip."
+        "text": "Do not bridge into a reversal while a turned foot and hip remain controlled by the Aoki enclosure."
       }
     },
     {
       "@type": "Question",
-      "name": "Base Attack to Sweep (attacker): What matters when you hand fight before capture?",
+      "name": "Base Attack to Sweep (escaping player): What is the early hand-fighting target?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Prevent the foot enclosure and recover leg position while the opponent still lacks a secure connection."
@@ -84,7 +84,7 @@ description: "Base Attack to Sweep (attacker): A turned-out foot enclosed beside
     },
     {
       "@type": "Question",
-      "name": "Base Attack to Sweep (attacker): What matters when you keep foot and knee aligned?",
+      "name": "Base Attack to Sweep (escaping player): Which body relationship must remain aligned?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Do not spin the torso while the foot remains fixed."
@@ -92,15 +92,15 @@ description: "Base Attack to Sweep (attacker): A turned-out foot enclosed beside
     },
     {
       "@type": "Question",
-      "name": "Base Attack to Sweep (attacker): What matters when you free the foot first?",
+      "name": "Base Attack to Sweep (escaping player): Before trying a reversal, what must be dismantled?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Address the upper-body grip before withdrawing the leg through a tight entanglement."
+        "text": "Reversal mechanics come later; first remove the hand enclosure and leg/hip restraint without twisting."
       }
     },
     {
       "@type": "Question",
-      "name": "Base Attack to Sweep (attacker): What matters when you avoid pain testing?",
+      "name": "Base Attack to Sweep (escaping player): Why is lack of pain insufficient permission to sweep?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Tap early to a secure rotational lock rather than treating the absence of pain as safety."
@@ -108,10 +108,10 @@ description: "Base Attack to Sweep (attacker): A turned-out foot enclosed beside
     },
     {
       "@type": "Question",
-      "name": "Base Attack to Sweep (attacker): What matters when you reset after release?",
+      "name": "Base Attack to Sweep (escaping player): After release, which movement rebuilds a guard barrier?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Separate the feet and restore a stable guard or standing base before resuming movement."
+        "text": "After opening the foot and hip controls, recover the knee and a facing frame before considering a new attack."
       }
     }
   ]

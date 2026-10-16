@@ -52,42 +52,42 @@ description: "Clock Choke from Invisible Collar (defender): Keep an early hand b
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Clock Choke from Invisible Collar (defender): What matters when you deny collar access?",
+      "name": "Clock choke defense: what should your early hand barrier prevent?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Keep an early hand barrier before the attacker feeds the collar grip."
+        "text": "The attacker feeding a deep collar grip. Keep an early hand barrier before the attacker feeds the collar grip."
       }
     },
     {
       "@type": "Question",
-      "name": "Clock Choke from Invisible Collar (defender): What matters when you notice the circling base?",
+      "name": "Clock choke defense: what does the attacker walking beside your head indicate?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "An attacker beside the turtle starting to walk around the head is changing the choke angle."
+        "text": "A changing angle that can tighten the collar. An attacker beside the turtle starting to walk around the head is changing the choke angle."
       }
     },
     {
       "@type": "Question",
-      "name": "Clock Choke from Invisible Collar (defender): What matters when you keep neck alignment?",
+      "name": "Clock choke defense: while space remains, how should you adjust head position?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Move shoulders and head together while space remains, rather than twisting under a fixed collar."
+        "text": "Move the head and shoulders together. Move shoulders and head together while space remains, rather than twisting under a fixed collar."
       }
     },
     {
       "@type": "Question",
-      "name": "Clock Choke from Invisible Collar (defender): What matters when you fight the grip early?",
+      "name": "Clock choke defense: what should you create before a larger positional escape?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Create collar slack before attempting to change the entire position."
+        "text": "Slack in the collar connection. Create collar slack before attempting to change the entire position."
       }
     },
     {
       "@type": "Question",
-      "name": "Clock Choke from Invisible Collar (defender): What matters when you tap when enclosed?",
+      "name": "Clock choke defense: why should you tap rather than rely on a late roll against a tight grip?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Stop promptly if the collar becomes tight; a roll is not a guaranteed late escape."
+        "text": "The collar can remain fixed as your body rotates. Stop promptly if the collar becomes tight; a roll is not a guaranteed late escape."
       }
     }
   ]

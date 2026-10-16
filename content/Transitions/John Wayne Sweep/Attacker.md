@@ -68,7 +68,7 @@ description: "John Wayne Sweep (attacker): Contain one opposing leg while keepin
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "John Wayne Sweep (attacker): What matters when you set half-guard connection?",
+      "name": "John Wayne Sweep (bottom): What must your half-guard leg connection leave available?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Contain one opposing leg while keeping your own knee free to act as a lever."
@@ -76,15 +76,15 @@ description: "John Wayne Sweep (attacker): Contain one opposing leg while keepin
     },
     {
       "@type": "Question",
-      "name": "John Wayne Sweep (attacker): What matters when you manage the upper body?",
+      "name": "John Wayne Sweep (bottom): Against a whizzer, where should the underhooking elbow stay?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Use an underhook and control the whizzer or posting arm without leaving the elbow exposed to a front-headlock attack."
+        "text": "Williams keeps the underhooking elbow outside the hip to preserve leverage and reduce Darce exposure."
       }
     },
     {
       "@type": "Question",
-      "name": "John Wayne Sweep (attacker): What matters when you anchor the lower leg?",
+      "name": "John Wayne Sweep (bottom): Where does the shallow lower-leg anchor sit?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Place a shallow foot connection over the ankle or shin rather than locking the knee into a deep hook."
@@ -92,7 +92,7 @@ description: "John Wayne Sweep (attacker): Contain one opposing leg while keepin
     },
     {
       "@type": "Question",
-      "name": "John Wayne Sweep (attacker): What matters when you load the hip with the knee?",
+      "name": "John Wayne Sweep (bottom): Where does the levering knee act?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Bring the knee into the hip line as the other foot supplies a controlled post."
@@ -100,7 +100,7 @@ description: "John Wayne Sweep (attacker): Contain one opposing leg while keepin
     },
     {
       "@type": "Question",
-      "name": "John Wayne Sweep (attacker): What matters when you turn the base together?",
+      "name": "John Wayne Sweep (bottom): What coordinates the reversal?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Rotate the hips and upper body so the leg anchor and controlled post cooperate."
@@ -108,7 +108,7 @@ description: "John Wayne Sweep (attacker): Contain one opposing leg while keepin
     },
     {
       "@type": "Question",
-      "name": "John Wayne Sweep (attacker): What matters when you come up and stabilize?",
+      "name": "John Wayne Sweep (bottom): Where does Williams settle immediately after the sweep?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Establish top half guard before attempting to free the remaining leg or advance to mount."

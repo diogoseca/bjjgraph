@@ -56,42 +56,42 @@ description: "Carni to Gogoplata Setup (defender): Use an inside forearm frame b
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Carni to Gogoplata Setup (defender): What matters when you protect the chin line early?",
+      "name": "Carni to Gogoplata (top): What blocks the shin's entry before it reaches your chin?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Use an inside forearm frame before the shin enters under the chin."
+        "text": "Use an inside forearm early to preserve space before the shin and head control form a neck enclosure."
       }
     },
     {
       "@type": "Question",
-      "name": "Carni to Gogoplata Setup (defender): What matters when you avoid a forced posture pull?",
+      "name": "Carni to Gogoplata (top): Your head-side leg connection is still fixed; how do you regain height?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Do not jerk the head upward while the high leg remains fixed."
+        "text": "Rebuild posture after the head-side leg connection opens, not by pulling upward through it."
       }
     },
     {
       "@type": "Question",
-      "name": "Carni to Gogoplata Setup (defender): What matters when you track the arm release?",
+      "name": "Carni to Gogoplata (top): When can your elbow return toward the ribs?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Recover the elbow as the shoulder lock opens, without yanking against remaining control."
+        "text": "Recover the elbow during the released shoulder phase, before the new neck enclosure closes."
       }
     },
     {
       "@type": "Question",
-      "name": "Carni to Gogoplata Setup (defender): What matters when you keep a safe base?",
+      "name": "Carni to Gogoplata (top): Which support avoids folding the partner onto the neck during the change?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Avoid driving the partner into a neck stack during the leg change."
+        "text": "Keep balanced support and allow the shoulder and leg connections to clear without stacking the partner."
       }
     },
     {
       "@type": "Question",
-      "name": "Carni to Gogoplata Setup (defender): What matters when you tap to an enclosed choke?",
+      "name": "Carni to Gogoplata (top): The shin and head grip have closed the neck space; what now?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Stop if the shin and head control already close the neck space."
+        "text": "Once the neck enclosure is secure, tap and obtain release rather than relying on late head movement."
       }
     }
   ]

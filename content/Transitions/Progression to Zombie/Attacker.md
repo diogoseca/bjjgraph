@@ -68,50 +68,50 @@ description: "Progression to Zombie (attacker): Maintain posture control while f
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Progression to Zombie (attacker): What matters when you keep Mission Control?",
+      "name": "Progression to Zombie (bottom): What has to be lost before New York needs Zombie again?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Maintain posture control while freeing the other arm for the pummel."
+        "text": "Zombie normally creates New York. A renewed attempt requires the opponent to have recovered the hand or forearm inside."
       }
     },
     {
       "@type": "Question",
-      "name": "Progression to Zombie (attacker): What matters when you find inside space?",
+      "name": "Progression to Zombie (bottom): What holds posture while you re-pummel?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Work through the opening near the hand rather than forcing a tightly clamped elbow straight outward."
+        "text": "Keep posture broken with a supported high leg so the free arm can work on the hand opening."
       }
     },
     {
       "@type": "Question",
-      "name": "Progression to Zombie (attacker): What matters when you move the hand to the mat?",
+      "name": "Progression to Zombie (bottom): Where does Eddy begin against a tight elbow clamp?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Guide the wrist and forearm through the available space without bending individual fingers."
+        "text": "The hand-first version seeks the weaker opening under the hand rather than prying directly beneath the clamped elbow."
       }
     },
     {
       "@type": "Question",
-      "name": "Progression to Zombie (attacker): What matters when you prevent the return pummel?",
+      "name": "Progression to Zombie (bottom): How should the cleared hand travel?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Cover the cleared arm and close the knee hug as the hand reaches the mat."
+        "text": "The pummel moves the wrist and forearm through available space so the inside frame becomes an outside arm."
       }
     },
     {
       "@type": "Question",
-      "name": "Progression to Zombie (attacker): What matters when you recognize New York?",
+      "name": "Progression to Zombie (bottom): What locks in the pummel's positional gain?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Once the arm is isolated, maintain that new control instead of repeatedly treating Zombie as a separate leg entanglement."
+        "text": "The hand reaching the mat is followed by arm coverage and knee support so the opponent cannot easily re-pummel inside."
       }
     },
     {
       "@type": "Question",
-      "name": "Progression to Zombie (attacker): What matters when you reset a blocked attempt?",
+      "name": "Progression to Zombie (bottom): Their hand circles back inside; what was missing?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Keep a safe guard and look for another opening when the opponent maintains inside frames."
+        "text": "The pummel must close the return path with the arm wrap and supported knee; lifting the hand alone can leave it recoverable."
       }
     }
   ]

@@ -224,142 +224,142 @@
     ],
     "flashcards": [
       {
-        "question": "Escape Dead Orchard Control (attacker): What matters when you recognize the actual control?",
-        "answer": "The bottom player faces the opponent and keeps the hips close beneath the shoulders. The legs form a high figure-four around the shoulder line, with both opposing arms inside.",
-        "answer_line": "Recognize the actual control",
+        "question": "Escape Dead Orchard Control (bottom): What are you releasing at the start?",
+        "answer": "The bottom performer holds Dead Orchard and is resetting the both-arm leg triangle.",
+        "answer_line": "A high leg triangle around both arms",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "A high triangle with one opposing arm outside",
+            "A low ankle crossing around the waist"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Two high shins without a figure-four connection"
           ]
         }
       },
       {
-        "question": "Escape Dead Orchard Control (attacker): What matters when you remove submission pressure?",
-        "answer": "Release any wrist, neck or elbow loading before opening the high-leg enclosure.",
-        "answer_line": "Remove submission pressure",
+        "question": "Escape Dead Orchard Control (bottom): What should end before opening the legs?",
+        "answer": "Remove wrist and elbow loading before opening the high enclosure and allowing the arms to move.",
+        "answer_line": "Any wrist leverage loading a captured elbow",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Only your grip supporting the high shin",
+            "Only the squeeze from the high legs"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Only the head pull while retaining the wrist lever"
           ]
         }
       },
       {
-        "question": "Escape Dead Orchard Control (attacker): What matters when you open the high connection?",
-        "answer": "Lower the controlling leg through a comfortable hip angle rather than pulling the foot against the knee.",
-        "answer_line": "Open the high connection",
+        "question": "Escape Dead Orchard Control (bottom): How should the high leg return lower?",
+        "answer": "Open the figure-four and lower the leg through the hip instead of wrenching the foot.",
+        "answer_line": "Through a comfortable hip angle with the knee supported",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "By pulling the foot while the knee stays fixed",
+            "By turning the ankle while the thigh stays still"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "By rotating the torso before opening the figure-four"
           ]
         }
       },
       {
-        "question": "Escape Dead Orchard Control (attacker): What matters when you restore inside frames?",
-        "answer": "Bring the forearms and knees between the bodies as space becomes available.",
-        "answer_line": "Restore inside frames",
+        "question": "Escape Dead Orchard Control (bottom): What replaces the high leg barrier as space opens?",
+        "answer": "Restore inside forearms and knees during the released guard-recovery phase.",
+        "answer_line": "Forearms and knees between the bodies",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Forearms inside with both knees left outside",
+            "Knees inside with both elbows reaching away"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Hands chasing wrists as the knees drop wide"
           ]
         }
       },
       {
-        "question": "Escape Dead Orchard Control (attacker): What matters when you face the opponent?",
-        "answer": "Keep the shoulders and hips oriented toward the opponent while re-establishing a comfortable facing guard.",
-        "answer_line": "Face the opponent",
+        "question": "Escape Dead Orchard Control (bottom): Where should your shoulders and hips remain directed?",
+        "answer": "Keep facing the opponent while rebuilding guard; turning away is not the stated reset.",
+        "answer_line": "Toward the opponent as facing guard reforms",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Shoulders away while the hips still face the opponent",
+            "Hips away while the shoulders still face the opponent"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Both turned away before the knee barrier is rebuilt"
           ]
         }
       },
       {
-        "question": "Escape Dead Orchard Control (attacker): What matters when you stabilize before moving again?",
-        "answer": "Check posture, knee comfort and inside space before resuming a sweep or submission attack.",
-        "answer_line": "Stabilize before moving again",
+        "question": "Escape Dead Orchard Control (bottom): What permits a new attack after the reset?",
+        "answer": "Re-establish usable inside knee space and comfortable posture before starting another attack.",
+        "answer_line": "Restored knee space and comfortable posture",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "A loose wrist grip with both knees bypassed",
+            "A shoulder frame with the knees left outside"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Both feet raised before the hips are comfortably aligned"
           ]
         }
       },
       {
-        "question": "Escape Dead Orchard Control (attacker): What configuration must exist before this sequence?",
-        "answer": "The bottom player is already facing the opponent in Dead Orchard Control, with a high rubber-guard leg connection.",
-        "answer_line": "Check the starting configuration",
+        "question": "Escape Dead Orchard: which parts of the top opponent are inside your high triangle?",
+        "answer": "The bottom player owns the leg trap, and the top player's arms are the captured limbs.",
+        "answer_line": "Both upper arms and shoulders",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Only their near arm",
+            "Only their forearms"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Their head alone"
           ]
         }
       },
       {
-        "question": "Escape Dead Orchard Control (attacker): Check the defining controls?",
-        "answer": "The listed bottom seat is the holder of the real guard. Headlock arm extraction is not a direct defense against the both-arm leg triangle.",
-        "answer_line": "Check the defining controls",
+        "question": "Escape Dead Orchard Control (bottom): Which restraint must open for this reset?",
+        "answer": "This reset opens a high leg triangle; a front-headlock hand-grip escape addresses a different structure.",
+        "answer_line": "The trap is made with legs around both arms",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "The restraint is one high shin with both elbows free",
+            "The restraint is a waist-level ankle crossing"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "The restraint is a one-arm triangle at the neck"
           ]
         }
       },
       {
-        "question": "Escape Dead Orchard Control (attacker): When should the partners stop or reset?",
-        "answer": "Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.",
-        "answer_line": "Release before unsafe loading",
+        "question": "Escape Dead Orchard Control (bottom): With both hands trapped, how can your partner tap?",
+        "answer": "Both-arm capture can remove hand-tap access; agree on verbal and foot signals and release promptly.",
+        "answer_line": "A verbal stop or a foot tap",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Try to withdraw a trapped hand before signaling",
+            "Wait to tap by hand when the legs begin to open"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Use a hand tap against the mat from the fixed arm"
           ]
         }
       },
       {
-        "question": "Escape Dead Orchard Control (attacker): What should a cooperative first drill establish?",
-        "answer": "Identify the starting configuration and rehearse the first connection without finishing pressure. The bottom player faces the opponent and keeps the hips close beneath the shoulders. The legs form a high figure-four around the shoulder line, with both opposing arms inside.",
-        "answer_line": "Rehearse the first connection",
+        "question": "Escape Dead Orchard Control (bottom): What keeps a crossface from filling the recovery space?",
+        "answer": "After full arm release, use a forearm barrier and a small hip escape to recover inside knee space.",
+        "answer_line": "An inside forearm on their shoulder",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "A hand on their wrist with the elbow outside",
+            "A forearm outside their approaching upper arm"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Both hands at their hip with no upper frame"
           ]
         }
       }
@@ -475,72 +475,72 @@
     ],
     "flashcards": [
       {
-        "question": "Escape Dead Orchard Control (defender): What matters when you recognize both-arm capture?",
-        "answer": "Treat a high leg triangle containing both your arms as an arm-lock threat even when the neck is not being choked.",
-        "answer_line": "Recognize both-arm capture",
+        "question": "Escape Dead Orchard Control (top): What threat persists even without neck pressure?",
+        "answer": "A comfortable neck does not make the captured elbows safe in Dead Orchard.",
+        "answer_line": "A short arm lock from the both-arm capture",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Only a neck attack requiring one arm outside",
+            "Only a wrist attack with no elbow leverage"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "No arm lock until the shoulders leave the legs"
           ]
         }
       },
       {
-        "question": "Escape Dead Orchard Control (defender): What matters when you protect the elbows?",
-        "answer": "Keep the arms compact and avoid offering a straight arm while trying to force posture.",
-        "answer_line": "Protect the elbows",
+        "question": "Escape Dead Orchard Control (top): Which action offers the attacker an elbow lever?",
+        "answer": "Orchard's demonstration exploits a straightened arm; do not offer that lever while forcing posture.",
+        "answer_line": "Straightening an arm between the high legs",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Keeping the elbow bent near the torso",
+            "Waiting for the shoulder enclosure to open"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Moving the shoulder and elbow together after release"
           ]
         }
       },
       {
-        "question": "Escape Dead Orchard Control (defender): What matters when you prevent the leg closure?",
-        "answer": "Maintain an early frame at the hip or thigh before the figure-four closes around the shoulders.",
-        "answer_line": "Prevent the leg closure",
+        "question": "Escape Dead Orchard Control (top): What is an early hip frame meant to interrupt?",
+        "answer": "Before the high figure-four closes, a hip or thigh frame can preserve space against the shoulder-level climb. It is not a late escape guarantee after both arms are trapped.",
+        "answer_line": "The high legs closing around both shoulders",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "An elbow extending after the high figure-four is closed",
+            "The hands adding wrist control after both shoulders are fixed"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "The head rising after both arms have already cleared the legs"
           ]
         }
       },
       {
-        "question": "Escape Dead Orchard Control (defender): What matters when you clear a shoulder safely?",
-        "answer": "Work on opening the leg enclosure before withdrawing the shoulder and elbow together; stop if an arm is already loaded.",
-        "answer_line": "Clear a shoulder safely",
+        "question": "Escape Dead Orchard Control (top): What lets the shoulder and elbow withdraw together?",
+        "answer": "Use actual shoulder clearance through the opened legs, stopping if the arm is already loaded.",
+        "answer_line": "An opening in the leg enclosure around that shoulder",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "A wrist pulled forward while the shoulder stays fixed",
+            "A chin lifted above the opponent's shin"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "One foot lowered while the other still pins the arm"
           ]
         }
       },
       {
-        "question": "Escape Dead Orchard Control (defender): What matters when you recover base in stages?",
-        "answer": "Only raise posture after the shoulder line is free; a sudden pull can extend a captured elbow.",
-        "answer_line": "Recover base in stages",
+        "question": "Escape Dead Orchard Control (top): What is the checkpoint before lifting your chest?",
+        "answer": "Recover upright posture after the shoulder line clears, not by dragging the trapped elbows upward.",
+        "answer_line": "The shoulders clear the high leg triangle",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "One fingertip reaches outside the legs",
+            "The opponent releases only their wrist grip"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Your feet step backward while the arms stay fixed"
           ]
         }
       }

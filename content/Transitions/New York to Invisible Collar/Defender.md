@@ -56,42 +56,42 @@ description: "New York to Invisible Collar (defender): The free leg moving behin
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "New York to Invisible Collar (defender): What matters when you recognize the high closure?",
+      "name": "New York to Invisible Collar (top): Which movement should you prevent before it closes?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The free leg moving behind your head is an attempt to reinforce posture control, even without a collar grip."
+        "text": "The extra high leg reinforces the existing clinch; early inside space can interrupt it before full closure."
       }
     },
     {
       "@type": "Question",
-      "name": "New York to Invisible Collar (defender): What matters when you protect the neck and arm?",
+      "name": "New York to Invisible Collar (top): How should the trapped elbow relate to your torso?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Keep the head aligned and the captured elbow compact rather than twisting against the enclosure."
+        "text": "Keeping the elbow near the ribs limits further arm separation while the high loop is being opened."
       }
     },
     {
       "@type": "Question",
-      "name": "New York to Invisible Collar (defender): What matters when you keep a balanced base?",
+      "name": "New York to Invisible Collar (top): What is the useful response to increasing stack pressure?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Avoid driving all weight onto the partner's shoulders while the legs are locked high."
+        "text": "If your pressure folds the partner onto the neck, reduce that load and seek slack rather than driving through."
       }
     },
     {
       "@type": "Question",
-      "name": "New York to Invisible Collar (defender): What matters when you address the leg enclosure?",
+      "name": "New York to Invisible Collar (top): What must be available before head withdrawal?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Create space at the hip and thigh before trying to raise the head or extract the arm."
+        "text": "Head extraction needs an opened high-leg connection; moving the head while the shoulder remains fixed can load both."
       }
     },
     {
       "@type": "Question",
-      "name": "New York to Invisible Collar (defender): What matters when you recover inside position?",
+      "name": "New York to Invisible Collar (top): How do you avoid immediate re-isolation after release?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Bring the elbow back between the bodies after the high closure opens."
+        "text": "Use the opened connection to recover an inside frame rather than leaving the arm outside for another knee hug."
       }
     }
   ]

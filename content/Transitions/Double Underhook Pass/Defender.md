@@ -56,42 +56,42 @@ description: "Double Underhook Pass (defender): Establish the first high leg and
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Double Underhook Pass (defender): What matters when you start with broken posture?",
+      "name": "Double Underhook Pass (bottom): Before release, what anchors your original high guard?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Establish the first high leg and its hand support before adding the second leg."
+        "text": "The first supported high leg is the foundation before any second-leg reinforcement."
       }
     },
     {
       "@type": "Question",
-      "name": "Double Underhook Pass (defender): What matters when you bring the second leg high?",
+      "name": "Double Underhook Pass (bottom): Before both underhooks close, how can you recover a knee?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Reinforce the clinch without forcing the knees beyond a comfortable hip angle."
+        "text": "Once high guard opens, use shoulder frames and hip movement to bring a knee inside before both underhooks settle."
       }
     },
     {
       "@type": "Question",
-      "name": "Double Underhook Pass (defender): What matters when you track both elbows?",
+      "name": "Double Underhook Pass (bottom): What would Dead Orchard require beyond arms beneath your thighs?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Do not assume that high legs alone have isolated an arm or completed Dead Orchard."
+        "text": "Track the actual shoulder-level enclosure. Arms under the thighs in a pass are not both arms trapped in Dead Orchard."
       }
     },
     {
       "@type": "Question",
-      "name": "Double Underhook Pass (defender): What matters when you keep knees close?",
+      "name": "Double Underhook Pass (bottom): Your thighs are held; why avoid wrenching one knee sideways?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Use hip position and connected leg pressure rather than pulling the feet against fixed knees."
+        "text": "If the thighs are fixed, reset the drill rather than forcing a knee sideways against the grips."
       }
     },
     {
       "@type": "Question",
-      "name": "Double Underhook Pass (defender): What matters when you return to one-leg control?",
+      "name": "Double Underhook Pass (bottom): Before the clinch opens fully, how can you keep one high leg?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Lower the reinforcing leg while preserving the first shin connection if you need Mission Control again."
+        "text": "When comfortable and still available, retain the first high shin and hand while lowering the reinforcing leg."
       }
     }
   ]

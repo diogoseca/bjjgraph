@@ -68,7 +68,7 @@ description: "Buggy Choke to North-South (attacker): Watch for an arm reaching p
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Buggy Choke to North-South (attacker): What matters when you recognize the bottom-player choke?",
+      "name": "Buggy Choke to North-South (top): Which connection forms the Buggy loop you must clear?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Watch for an arm reaching past your head and connecting to the same-side leg."
@@ -76,15 +76,15 @@ description: "Buggy Choke to North-South (attacker): Watch for an arm reaching p
     },
     {
       "@type": "Question",
-      "name": "Buggy Choke to North-South (attacker): What matters when you keep a stable base?",
+      "name": "Buggy Choke to North-South (top): What should support your weight during early defense?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Avoid lifting, dropping, or twisting the partner's trapped leg to force an escape."
+        "text": "Keep supported weight on the mat; lifting or wrenching the connected leg is not a sound escape."
       }
     },
     {
       "@type": "Question",
-      "name": "Buggy Choke to North-South (attacker): What matters when you interrupt the connection early?",
+      "name": "Buggy Choke to North-South (top): When is an inside frame useful against the connection?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use safe inside frames before the arm-to-leg loop fully closes; do not pull or twist the partner's knee."
@@ -92,7 +92,7 @@ description: "Buggy Choke to North-South (attacker): Watch for an arm reaching p
     },
     {
       "@type": "Question",
-      "name": "Buggy Choke to North-South (attacker): What matters when you free the head and arm?",
+      "name": "Buggy Choke to North-South (top): Which clearance must precede the circle to north-south?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Move only through available space after the loop opens; tap if the neck is already enclosed."
@@ -100,7 +100,7 @@ description: "Buggy Choke to North-South (attacker): Watch for an arm reaching p
     },
     {
       "@type": "Question",
-      "name": "Buggy Choke to North-South (attacker): What matters when you verify the next configuration?",
+      "name": "Buggy Choke to North-South (top): After release, what keeps their knees from following you?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Establish North-South only after the head is free. Keep the shoulders and hips controlled while moving outside the legs."
@@ -108,10 +108,10 @@ description: "Buggy Choke to North-South (attacker): Watch for an arm reaching p
     },
     {
       "@type": "Question",
-      "name": "Buggy Choke to North-South (attacker): What matters when you settle without neck loading?",
+      "name": "Buggy Choke to North-South (top): In the new pin, what should carry upper-body control?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Use balanced positional pressure and let the opponent communicate throughout the reset."
+        "text": "After release and repositioning, supported chest pressure controls the upper body while the hips are managed."
       }
     }
   ]

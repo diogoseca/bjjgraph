@@ -56,7 +56,7 @@ description: "Hook Leg and Take Back (defender): Keep the shoulders facing the o
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Hook Leg and Take Back (defender): What matters when you deny rear torso access?",
+      "name": "Hook Leg and Take Back (defender): After Buggy release, what denies the new rear connection?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Keep the shoulders facing the opponent before a seatbelt closes."
@@ -64,7 +64,7 @@ description: "Hook Leg and Take Back (defender): Keep the shoulders facing the o
     },
     {
       "@type": "Question",
-      "name": "Hook Leg and Take Back (defender): What matters when you protect the neck?",
+      "name": "Hook Leg and Take Back (defender): An arm approaches your neck after release. What do you control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Hand fight any arm approaching the neck while maintaining a stable base."
@@ -72,15 +72,15 @@ description: "Hook Leg and Take Back (defender): Keep the shoulders facing the o
     },
     {
       "@type": "Question",
-      "name": "Hook Leg and Take Back (defender): What matters when you keep elbows connected?",
+      "name": "Hook Leg and Take Back (defender): What arm position avoids easy isolation during the turn?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Avoid exposing an isolated arm while turning to face the opponent."
+        "text": "Keep the arm compact as you face the opponent; do not leave it separated while the new rear attack develops."
       }
     },
     {
       "@type": "Question",
-      "name": "Hook Leg and Take Back (defender): What matters when you recover facing frames?",
+      "name": "Hook Leg and Take Back (defender): What can occupy the space they need beside your torso?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Insert elbows and knees when space opens after the original control is released."
@@ -88,10 +88,10 @@ description: "Hook Leg and Take Back (defender): Keep the shoulders facing the o
     },
     {
       "@type": "Question",
-      "name": "Hook Leg and Take Back (defender): What matters when you do not roll against a lock?",
+      "name": "Hook Leg and Take Back (defender): Why delay a turn while the Buggy loop still holds your head?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Wait for a trapped foot or arm to be released before changing direction."
+        "text": "Clear the head-and-arm enclosure before changing direction; do not rotate through the old choke."
       }
     }
   ]

@@ -56,42 +56,42 @@ description: "Elbow Escape to Remove Hooks (defender): The free leg moving behin
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Elbow Escape to Remove Hooks (defender): What matters when you recognize the high closure?",
+      "name": "Invisible Collar elbow reset (top): What does their second leg behind your head add?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The free leg moving behind your head is an attempt to reinforce posture control, even without a collar grip."
+        "text": "The free leg closing high reinforces the leg-and-arm enclosure around your upper body, even without jacket grips."
       }
     },
     {
       "@type": "Question",
-      "name": "Elbow Escape to Remove Hooks (defender): What matters when you protect the neck and arm?",
+      "name": "Invisible Collar elbow reset (top): How should the captured elbow stay while you wait for slack?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Keep the head aligned and the captured elbow compact rather than twisting against the enclosure."
+        "text": "Keep the caught elbow compact and avoid twisting the torso away while the high enclosure remains attached."
       }
     },
     {
       "@type": "Question",
-      "name": "Elbow Escape to Remove Hooks (defender): What matters when you keep a balanced base?",
+      "name": "Invisible Collar elbow reset (top): How should you relieve a stack as their legs open?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Avoid driving all weight onto the partner's shoulders while the legs are locked high."
+        "text": "Unload the forward pressure that folds the partner onto the neck before continuing the high-guard release."
       }
     },
     {
       "@type": "Question",
-      "name": "Elbow Escape to Remove Hooks (defender): What matters when you address the leg enclosure?",
+      "name": "Invisible Collar elbow reset (top): Where should slack develop before head extraction?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Create space at the hip and thigh before trying to raise the head or extract the arm."
+        "text": "Use early frames and balanced positioning to open the high-leg connection before trying to pull your head free."
       }
     },
     {
       "@type": "Question",
-      "name": "Elbow Escape to Remove Hooks (defender): What matters when you recover inside position?",
+      "name": "Invisible Collar elbow reset (top): Where should the freed elbow return?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Bring the elbow back between the bodies after the high closure opens."
+        "text": "Once the high closure opens, bring the elbow back inside so it can act as a frame rather than remain isolated."
       }
     }
   ]

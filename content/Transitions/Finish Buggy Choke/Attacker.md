@@ -68,7 +68,7 @@ description: "Finish Buggy Choke (attacker): Use safe shoulder and hip frames to
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Finish Buggy Choke (attacker): What matters when you build the angle?",
+      "name": "Finish Buggy Choke (bottom): How can you shorten the initial reach to your leg?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use safe shoulder and hip frames to turn partly onto the side before reaching for the leg."
@@ -76,31 +76,31 @@ description: "Finish Buggy Choke (attacker): Use safe shoulder and hip frames to
     },
     {
       "@type": "Question",
-      "name": "Finish Buggy Choke (attacker): What matters when you enclose head and arm?",
+      "name": "Finish Buggy Choke (bottom): What belongs inside your same-side arm-leg loop?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Check that the loop contains the necessary upper-body configuration rather than merely hugging your leg."
+        "text": "Verify the head-and-one-arm configuration instead of assuming a grip on your own leg is enough."
       }
     },
     {
       "@type": "Question",
-      "name": "Finish Buggy Choke (attacker): What matters when you keep elbow near knee?",
+      "name": "Finish Buggy Choke (bottom): What keeps the connecting reach compact?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Shorten the connection through body position, not by pulling the foot hard toward the face."
+        "text": "Bring elbow and knee close through body position, not by forcing the foot inward."
       }
     },
     {
       "@type": "Question",
-      "name": "Finish Buggy Choke (attacker): What matters when you use the torso connection?",
+      "name": "Finish Buggy Choke (bottom): Which movement tightens the enclosure through the torso?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Close space with the arm, leg, and torso while avoiding twisting force on your own knee."
+        "text": "The closing action draws the shoulder toward the hip while the arm-leg connection contains head and arm."
       }
     },
     {
       "@type": "Question",
-      "name": "Finish Buggy Choke (attacker): What matters when you recover guard when space opens?",
+      "name": "Finish Buggy Choke (bottom): After they disengage and the loop fails, what do you recover first?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use a disengaging opponent's movement to insert frames and knees if the choke is lost."
@@ -108,7 +108,7 @@ description: "Finish Buggy Choke (attacker): Use safe shoulder and hip frames to
     },
     {
       "@type": "Question",
-      "name": "Finish Buggy Choke (attacker): What matters when you release if lifted?",
+      "name": "Finish Buggy Choke (bottom): What should you do when the partner lifts you off the mat?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Let go when the partner begins lifting you from the mat; do not hang from the choke or invite a slam."

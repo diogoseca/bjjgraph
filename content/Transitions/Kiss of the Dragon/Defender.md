@@ -56,7 +56,7 @@ description: "Kiss of the Dragon (defender): A bottom player turning under the n
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Kiss of the Dragon (defender): What matters when you recognize the reverse hook?",
+      "name": "Kiss of the Dragon (top): What does the reverse hook plus an inward turn threaten?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A bottom player turning under the near leg from reverse De La Riva is seeking backside access."
@@ -64,7 +64,7 @@ description: "Kiss of the Dragon (defender): A bottom player turning under the n
     },
     {
       "@type": "Question",
-      "name": "Kiss of the Dragon (defender): What matters when you keep a mobile base?",
+      "name": "Kiss of the Dragon (top): What helps preserve base before their off-balance succeeds?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Redistribute weight before the far leg and posting arm are loaded."
@@ -72,7 +72,7 @@ description: "Kiss of the Dragon (defender): A bottom player turning under the n
     },
     {
       "@type": "Question",
-      "name": "Kiss of the Dragon (defender): What matters when you manage the hook early?",
+      "name": "Kiss of the Dragon (top): When should you address the reverse hook?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Clear the reverse hook before the opponent has inverted under the knee line."
@@ -80,7 +80,7 @@ description: "Kiss of the Dragon (defender): A bottom player turning under the n
     },
     {
       "@type": "Question",
-      "name": "Kiss of the Dragon (defender): What matters when you track the hips?",
+      "name": "Kiss of the Dragon (top): How do you turn to follow without twisting a trapped foot?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Turn with the opponent while keeping the knee aligned rather than spinning on a trapped foot."

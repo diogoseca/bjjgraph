@@ -68,50 +68,50 @@ description: "Hand Fighting to Remove Collar Grip (attacker): The bottom player 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Hand Fighting to Remove Collar Grip (attacker): What matters when you recognize the actual control?",
+      "name": "Invisible Collar hand fight (bottom): What connection defines the named collar here?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The bottom player faces the kneeling or leaning top player in a high guard. One arm has been isolated through the New York and neck-clearing sequence."
+        "text": "Invisible Collar is a facing rubber-guard clinch reinforced by a second high leg; its name does not establish a cloth grip."
       }
     },
     {
       "@type": "Question",
-      "name": "Hand Fighting to Remove Collar Grip (attacker): What matters when you remove submission pressure?",
+      "name": "Invisible Collar hand fight (bottom): What must precede opening a loaded high clinch?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Release any wrist, neck or elbow loading before opening the high-leg enclosure."
+        "text": "Unload the neck and arm before changing the high-leg geometry so the reset does not drag a fixed joint."
       }
     },
     {
       "@type": "Question",
-      "name": "Hand Fighting to Remove Collar Grip (attacker): What matters when you open the high connection?",
+      "name": "Invisible Collar hand fight (bottom): How should the high leg leave the shoulder line?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Lower the controlling leg through a comfortable hip angle rather than pulling the foot against the knee."
+        "text": "Use the hips to create space for the leg to lower instead of pulling the foot across a fixed knee."
       }
     },
     {
       "@type": "Question",
-      "name": "Hand Fighting to Remove Collar Grip (attacker): What matters when you restore inside frames?",
+      "name": "Invisible Collar hand fight (bottom): After hand clearance, what still needs recovery?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Bring the forearms and knees between the bodies as space becomes available."
+        "text": "A freed hand does not prevent chest pressure. Recover inside forearms and knees as the high clinch opens."
       }
     },
     {
       "@type": "Question",
-      "name": "Hand Fighting to Remove Collar Grip (attacker): What matters when you face the opponent?",
+      "name": "Invisible Collar hand fight (bottom): How do you protect facing posture during the reset?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Keep the shoulders and hips oriented toward the opponent while re-establishing a comfortable facing guard."
+        "text": "An inside shoulder frame helps prevent a crossface turning your head away while the hips create knee room."
       }
     },
     {
       "@type": "Question",
-      "name": "Hand Fighting to Remove Collar Grip (attacker): What matters when you stabilize before moving again?",
+      "name": "Invisible Collar hand fight (bottom): What makes a renewed high-leg attack supportable?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Check posture, knee comfort and inside space before resuming a sweep or submission attack."
+        "text": "Rebuild posture control and knee space before raising the leg again; hand access alone does not restore the clinch."
       }
     }
   ]

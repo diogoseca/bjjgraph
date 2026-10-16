@@ -198,114 +198,114 @@
     ],
     "flashcards": [
       {
-        "question": "Rolling Escape from Anaconda (attacker): What matters when you recognize the thread?",
-        "answer": "An arm passing beneath the neck toward the armpit signals the Anaconda enclosure.",
-        "answer_line": "Recognize the thread",
+        "question": "Anaconda rolling escape (escaper): Which arm path signals the incoming enclosure?",
+        "answer": "The Anaconda arm passes beneath the neck toward the armpit, enclosing the head and one arm.",
+        "answer_line": "Under your neck toward the far armpit",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Through the armpit and around the neck",
+            "Under the neck with both shoulders left outside"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Across the upper arm without passing beneath the neck"
           ]
         }
       },
       {
-        "question": "Rolling Escape from Anaconda (attacker): What matters when you keep an early frame?",
-        "answer": "Preserve space between the shoulder and neck before the attacker closes the arm loop.",
-        "answer_line": "Keep an early frame",
+        "question": "Anaconda rolling escape (escaper): What space matters before the grip closes?",
+        "answer": "Preserve neck-to-shoulder space early rather than treating a later roll as a guaranteed release.",
+        "answer_line": "The neck-to-shoulder gap",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "The chin-to-chest gap alone",
+            "The outer elbow-to-rib gap"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "The free shoulder-to-ear gap"
           ]
         }
       },
       {
-        "question": "Rolling Escape from Anaconda (attacker): What matters when you protect head alignment?",
-        "answer": "Do not fight a secured loop by twisting the neck or planting the head against a roll.",
-        "answer_line": "Protect head alignment",
+        "question": "Anaconda rolling escape (escaper): Why avoid planting your head to resist a roll?",
+        "answer": "Do not plant the head or twist the neck against a secured head-and-arm loop.",
+        "answer_line": "The neck becomes a brace beneath the rotating body",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Head posting transfers the turning force into the shoulders alone",
+            "Keeping the forehead fixed stops the neck loop tightening"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "The arm loop must open before the torso rotates around the head"
           ]
         }
       },
       {
-        "question": "Rolling Escape from Anaconda (attacker): What matters when you address the grip?",
-        "answer": "Hand fight before the enclosure becomes tight, while keeping the trapped elbow connected to the torso.",
-        "answer_line": "Address the grip",
+        "question": "Anaconda rolling escape (escaper): What do your hands address before the loop tightens?",
+        "answer": "Hand fight the developing grip early while keeping the trapped elbow connected to the torso.",
+        "answer_line": "Fight the grip with the trapped elbow close",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Pull the threading wrist while extending the trapped elbow",
+            "Reach past the supporting arm to post on the mat"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Pull the captured elbow out before addressing hand closure"
           ]
         }
       },
       {
-        "question": "Rolling Escape from Anaconda (attacker): What matters when you tap before symptoms?",
-        "answer": "Stop if the neck enclosure is secure rather than relying on a last-second roll.",
-        "answer_line": "Tap before symptoms",
+        "question": "Anaconda rolling escape (escaper): The choke is secured; what replaces a last-second roll?",
+        "answer": "A secured choke calls for a tap and release, not a blind rolling attempt.",
+        "answer_line": "Tap and obtain release of the arm loop",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Roll while keeping the head braced on the mat",
+            "Turn the chin while the shoulder stays fixed"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Keep grip fighting as if the neck gap were still open"
           ]
         }
       },
       {
-        "question": "Rolling Escape from Anaconda (attacker): What matters when you rebuild base after release?",
-        "answer": "Recover posture and guard or turtle only when the head and shoulder can move freely.",
-        "answer_line": "Rebuild base after release",
+        "question": "Anaconda rolling escape (escaper): What must move freely before guard or base recovery?",
+        "answer": "Recover posture and use framed hip movement only after head-and-shoulder release.",
+        "answer_line": "The head and trapped shoulder",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Only the chin above the threading forearm",
+            "Only the captured wrist beyond the arm loop"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Only the free shoulder outside the supporting arm"
           ]
         }
       },
       {
-        "question": "Rolling Escape from Anaconda (attacker): What configuration must exist before this sequence?",
-        "answer": "The defender is beneath a front-headlock attacker whose arm encloses the neck and one shoulder.",
-        "answer_line": "Check the starting configuration",
+        "question": "Anaconda rolling escape (escaper): What is your actual starting body relationship?",
+        "answer": "Although stored in the attacker role, this deck teaches the player escaping from beneath the Anaconda front headlock.",
+        "answer_line": "Beneath a front headlock enclosing your head and one arm",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Beneath a neck-only front headlock with both arms outside",
+            "Beside a headlock threaded from your armpit to the neck"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Beneath a high leg triangle containing both shoulders"
           ]
         }
       },
       {
-        "question": "Rolling Escape from Anaconda (attacker): Check the defining controls?",
-        "answer": "A secured choke is a tap situation. Dead Orchard is a separate high guard, not the continuation of an Anaconda roll, and no blind rolling escape is guaranteed.",
-        "answer_line": "Check the defining controls",
+        "question": "Anaconda rolling escape (escaper): What would be required for a later Dead Orchard attack?",
+        "answer": "Dead Orchard is a separate both-arm high-guard configuration; it is not an automatic continuation of an escape roll.",
+        "answer_line": "Bottom guard with a both-arm leg triangle",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Bottom guard with only one arm in the leg triangle",
+            "Bottom guard with two high legs but no figure-four"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Bottom guard with both wrists held below the knees"
           ]
         }
       }
@@ -408,58 +408,58 @@
     ],
     "flashcards": [
       {
-        "question": "Rolling Escape from Anaconda (defender): What matters when you establish front headlock?",
-        "answer": "Contain the opponent's head and one arm while keeping a balanced base.",
-        "answer_line": "Establish front headlock",
+        "question": "Anaconda rolling escape (holder): What does your initial arm enclosure contain?",
+        "answer": "This retained defender deck belongs to the front-headlock holder, whose Anaconda contains the head and one arm.",
+        "answer_line": "The opponent's head and one arm",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "The neck alone with both arms outside",
+            "The head and both opposing arms"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "One upper arm with the head outside"
           ]
         }
       },
       {
-        "question": "Rolling Escape from Anaconda (defender): What matters when you thread under the neck?",
-        "answer": "Pass the choking arm beneath the neck and toward the far armpit, enclosing one shoulder.",
-        "answer_line": "Thread under the neck",
+        "question": "Anaconda rolling escape (holder): Where does the choking arm pass first?",
+        "answer": "Thread beneath the neck and toward the far armpit to enclose one shoulder.",
+        "answer_line": "Beneath the neck toward the far armpit",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Through the armpit toward the neck",
+            "Over the shoulder toward the upper back"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Under the neck but outside the upper arm"
           ]
         }
       },
       {
-        "question": "Rolling Escape from Anaconda (defender): What matters when you connect the arm loop?",
-        "answer": "Join to the supporting arm without pulling the neck into a twist.",
-        "answer_line": "Connect the arm loop",
+        "question": "Anaconda rolling escape (holder): Where does the threading hand grip in the arm figure-four?",
+        "answer": "The threading hand grips the supporting arm's biceps to close the figure-four. Connect without twisting the opponent's neck; the drill can stop at the unloaded enclosure. Kesting emphasizes sufficient threading depth rather than a shallow fingertip contact.",
+        "answer_line": "On the supporting arm's biceps",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Clasp both palms in front of the enclosed shoulder",
+            "Grip the supporting wrist beside the opponent's shoulder"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Rest the threading fingertips against the supporting biceps"
           ]
         }
       },
       {
-        "question": "Rolling Escape from Anaconda (defender): What matters when you choose a controlled angle?",
-        "answer": "Use the taught shoulder-led angle only when both partners can roll safely; do not dive onto the neck.",
-        "answer_line": "Choose a controlled angle",
+        "question": "Anaconda rolling escape (holder): Where does your head belong during the taught controlled roll?",
+        "answer": "Kesting's account places the holder's head to the side of the body during the roll. Use the angle only with free, controlled movement and immediate release on a tap.",
+        "answer_line": "Beside the opponent's torso",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "On the opponent's upper back",
+            "Above the back of their neck"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "In front of their face"
           ]
         }
       }

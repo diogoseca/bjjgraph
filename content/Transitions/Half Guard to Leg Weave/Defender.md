@@ -56,7 +56,7 @@ description: "Half Guard to Leg Weave (defender): The passer's arm connecting yo
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Half Guard to Leg Weave (defender): What matters when you recognize the arm weave?",
+      "name": "Half Guard to Leg Weave (bottom): What contact signals the pass entry?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The passer's arm connecting your legs is the relevant control, not a leg threaded across your hip."
@@ -64,7 +64,7 @@ description: "Half Guard to Leg Weave (defender): The passer's arm connecting yo
     },
     {
       "@type": "Question",
-      "name": "Half Guard to Leg Weave (defender): What matters when you keep the shield supported?",
+      "name": "Half Guard to Leg Weave (bottom): How can you support the shield before it folds?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Maintain a useful knee angle and upper-body frame before the passer folds the legs together."
@@ -72,7 +72,7 @@ description: "Half Guard to Leg Weave (defender): The passer's arm connecting yo
     },
     {
       "@type": "Question",
-      "name": "Half Guard to Leg Weave (defender): What matters when you recover inside space?",
+      "name": "Half Guard to Leg Weave (bottom): While the weave is loose, how do you regain inside space?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Move the hips and pummel the knee back between the bodies while the weave is still loose."
@@ -80,7 +80,7 @@ description: "Half Guard to Leg Weave (defender): The passer's arm connecting yo
     },
     {
       "@type": "Question",
-      "name": "Half Guard to Leg Weave (defender): What matters when you deny upper-body collapse?",
+      "name": "Half Guard to Leg Weave (bottom): What does a shoulder-line frame help prevent?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Prevent the passer from flattening your shoulders while controlling the legs."

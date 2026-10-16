@@ -68,50 +68,50 @@ description: "Rolling Escape from Anaconda (attacker): An arm passing beneath th
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Rolling Escape from Anaconda (attacker): What matters when you recognize the thread?",
+      "name": "Anaconda rolling escape (escaper): Which arm path signals the incoming enclosure?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "An arm passing beneath the neck toward the armpit signals the Anaconda enclosure."
+        "text": "The Anaconda arm passes beneath the neck toward the armpit, enclosing the head and one arm."
       }
     },
     {
       "@type": "Question",
-      "name": "Rolling Escape from Anaconda (attacker): What matters when you keep an early frame?",
+      "name": "Anaconda rolling escape (escaper): What space matters before the grip closes?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Preserve space between the shoulder and neck before the attacker closes the arm loop."
+        "text": "Preserve neck-to-shoulder space early rather than treating a later roll as a guaranteed release."
       }
     },
     {
       "@type": "Question",
-      "name": "Rolling Escape from Anaconda (attacker): What matters when you protect head alignment?",
+      "name": "Anaconda rolling escape (escaper): Why avoid planting your head to resist a roll?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Do not fight a secured loop by twisting the neck or planting the head against a roll."
+        "text": "Do not plant the head or twist the neck against a secured head-and-arm loop."
       }
     },
     {
       "@type": "Question",
-      "name": "Rolling Escape from Anaconda (attacker): What matters when you address the grip?",
+      "name": "Anaconda rolling escape (escaper): What do your hands address before the loop tightens?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Hand fight before the enclosure becomes tight, while keeping the trapped elbow connected to the torso."
+        "text": "Hand fight the developing grip early while keeping the trapped elbow connected to the torso."
       }
     },
     {
       "@type": "Question",
-      "name": "Rolling Escape from Anaconda (attacker): What matters when you tap before symptoms?",
+      "name": "Anaconda rolling escape (escaper): The choke is secured; what replaces a last-second roll?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Stop if the neck enclosure is secure rather than relying on a last-second roll."
+        "text": "A secured choke calls for a tap and release, not a blind rolling attempt."
       }
     },
     {
       "@type": "Question",
-      "name": "Rolling Escape from Anaconda (attacker): What matters when you rebuild base after release?",
+      "name": "Anaconda rolling escape (escaper): What must move freely before guard or base recovery?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Recover posture and guard or turtle only when the head and shoulder can move freely."
+        "text": "Recover posture and use framed hip movement only after head-and-shoulder release."
       }
     }
   ]

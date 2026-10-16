@@ -68,50 +68,50 @@ description: "Escape Zombie Control (attacker): The bottom player has broken pos
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Escape Zombie Control (attacker): What matters when you recognize the actual control?",
+      "name": "Escape Zombie Control (bottom): The hand pummel stalls; what can you recover first?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The bottom player has broken posture and supports a high Mission Control leg. The top player's hand or forearm is still obstructing the intended arm isolation."
+        "text": "Withdraw the failed pummel and preserve guard with an inside frame and short hip escape rather than forcing the clamped arm."
       }
     },
     {
       "@type": "Question",
-      "name": "Escape Zombie Control (attacker): What matters when you remove submission pressure?",
+      "name": "Escape Zombie Control (bottom): What must loosen before lowering the Mission Control leg?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Release any wrist, neck or elbow loading before opening the high-leg enclosure."
+        "text": "Release any loaded neck or arm connection before lowering the controlling leg into an ordinary guard reset."
       }
     },
     {
       "@type": "Question",
-      "name": "Escape Zombie Control (attacker): What matters when you open the high connection?",
+      "name": "Escape Zombie Control (bottom): What lets the high knee lower comfortably?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Lower the controlling leg through a comfortable hip angle rather than pulling the foot against the knee."
+        "text": "Change your hip angle so the leg lowers through space rather than dragging the ankle against a stationary knee."
       }
     },
     {
       "@type": "Question",
-      "name": "Escape Zombie Control (attacker): What matters when you restore inside frames?",
+      "name": "Escape Zombie Control (bottom): Where should the pummeling forearm go during recovery?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Bring the forearms and knees between the bodies as space becomes available."
+        "text": "The withdrawn hand becomes a useful inside frame so chest pressure cannot replace the failed arm exchange."
       }
     },
     {
       "@type": "Question",
-      "name": "Escape Zombie Control (attacker): What matters when you face the opponent?",
+      "name": "Escape Zombie Control (bottom): What should the hip escape recover?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Keep the shoulders and hips oriented toward the opponent while re-establishing a comfortable facing guard."
+        "text": "A short shrimp behind the frame admits the inside knee and rebuilds a facing guard barrier."
       }
     },
     {
       "@type": "Question",
-      "name": "Escape Zombie Control (attacker): What matters when you stabilize before moving again?",
+      "name": "Escape Zombie Control (bottom): When is another Zombie attempt well set up?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Check posture, knee comfort and inside space before resuming a sweep or submission attack."
+        "text": "Re-establish Mission Control posture control and a supported knee before using the free hand for another pummel."
       }
     }
   ]

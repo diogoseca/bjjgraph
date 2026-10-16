@@ -68,50 +68,50 @@ description: "Guard Recovery from Zombie (attacker): The bottom player has broke
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Guard Recovery from Zombie (attacker): What matters when you recognize the actual control?",
+      "name": "Guard Recovery from Zombie (bottom): What has failed when their forearm stays inside?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The bottom player has broken posture and supports a high Mission Control leg. The top player's hand or forearm is still obstructing the intended arm isolation."
+        "text": "An inside forearm still obstructs New York arm isolation; treat the stalled Zombie as a guard-recovery problem."
       }
     },
     {
       "@type": "Question",
-      "name": "Guard Recovery from Zombie (attacker): What matters when you remove submission pressure?",
+      "name": "Guard Recovery from Zombie (bottom): What releases before a hip turn out of the high guard?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Release any wrist, neck or elbow loading before opening the high-leg enclosure."
+        "text": "Unload captured joints and open the high connection before turning the hips for recovery."
       }
     },
     {
       "@type": "Question",
-      "name": "Guard Recovery from Zombie (attacker): What matters when you open the high connection?",
+      "name": "Guard Recovery from Zombie (bottom): How can your raised leg return without foot traction?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Lower the controlling leg through a comfortable hip angle rather than pulling the foot against the knee."
+        "text": "Use the hip to make a free path for the high leg instead of dragging the ankle across a fixed knee."
       }
     },
     {
       "@type": "Question",
-      "name": "Guard Recovery from Zombie (attacker): What matters when you restore inside frames?",
+      "name": "Guard Recovery from Zombie (bottom): What should fill the space as the high leg drops?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Bring the forearms and knees between the bodies as space becomes available."
+        "text": "The forearm holds off chest pressure while the knee returns between the bodies, replacing the high-leg barrier."
       }
     },
     {
       "@type": "Question",
-      "name": "Guard Recovery from Zombie (attacker): What matters when you face the opponent?",
+      "name": "Guard Recovery from Zombie (bottom): How should the hip escape relate to the shoulder frame?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Keep the shoulders and hips oriented toward the opponent while re-establishing a comfortable facing guard."
+        "text": "A small lateral hip movement behind the shoulder frame creates knee room without letting chest pressure close the space."
       }
     },
     {
       "@type": "Question",
-      "name": "Guard Recovery from Zombie (attacker): What matters when you stabilize before moving again?",
+      "name": "Guard Recovery from Zombie (bottom): What restores the base before another rubber-guard pummel?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Check posture, knee comfort and inside space before resuming a sweep or submission attack."
+        "text": "The arm wrap can be rebuilt only after guard structure and posture control are restored, not while the passer occupies the torso gap."
       }
     }
   ]

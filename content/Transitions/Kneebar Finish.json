@@ -198,142 +198,142 @@
     ],
     "flashcards": [
       {
-        "question": "Kneebar Finish (attacker): What matters when you capture the leg separately?",
-        "answer": "Confirm control of the opponent's thigh and ankle before considering a knee-extension attack.",
-        "answer_line": "Capture the leg separately",
+        "question": "Kneebar Finish (attacker): Which controls bracket the knee before extension is possible?",
+        "answer": "A kneebar requires separate control above and below the knee, including the thigh and ankle.",
+        "answer_line": "The same leg's thigh and ankle",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "The same leg's ankle and heel only",
+            "The same leg's thigh with the foot free"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "One thigh and the opposite ankle"
           ]
         }
       },
       {
-        "question": "Kneebar Finish (attacker): What matters when you manage the hip?",
-        "answer": "Use the legs to keep the opponent's hip from moving freely away.",
-        "answer_line": "Manage the hip",
+        "question": "Kneebar Finish (attacker): What prevents the captured leg's hip from sliding freely away?",
+        "answer": "Use the legs to restrain the hip and thigh so the captured knee does not simply move away from the fulcrum.",
+        "answer_line": "Your legs containing the opponent's hip and thigh",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Your hands holding the foot without upper-leg contact",
+            "Your legs squeezing only below the captured knee"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Your ankle grip tightened while the thighs separate"
           ]
         }
       },
       {
-        "question": "Kneebar Finish (attacker): What matters when you align the knee?",
-        "answer": "Place the knee at the hip fulcrum with the leg in a straight, non-twisted line.",
-        "answer_line": "Align the knee",
+        "question": "Kneebar Finish (attacker): Where is the knee positioned in the straight-leg alignment?",
+        "answer": "Align the captured knee at the hip fulcrum in a straight, untwisted leg line.",
+        "answer_line": "At your hip fulcrum with the leg untwisted",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Above your hip line with the thigh able to slide",
+            "Bent around a shin behind the knee"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "At your hip line with the foot turned sideways"
           ]
         }
       },
       {
-        "question": "Kneebar Finish (attacker): What matters when you secure the ankle?",
-        "answer": "Hold the lower leg close without turning the foot into a rotational lock.",
-        "answer_line": "Secure the ankle",
+        "question": "Kneebar Finish (attacker): How should the ankle be controlled in the straight-leg capture?",
+        "answer": "Hold the lower leg close while preserving alignment; do not turn the foot into a rotational lock.",
+        "answer_line": "Held close with the leg untwisted",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Turned outward while the thigh remains fixed",
+            "Left free while only the knee is squeezed"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Twisted inward to make the knee straighten"
           ]
         }
       },
       {
-        "question": "Kneebar Finish (attacker): What matters when you stop before extension?",
-        "answer": "Practice the stable capture without bridging into the knee's end range.",
-        "answer_line": "Stop before extension",
+        "question": "Kneebar Finish (attacker): Where should a cooperative capture drill stop?",
+        "answer": "Practice aligned hip-and-ankle capture without bridging the knee into its end range.",
+        "answer_line": "Before hip extension drives the knee toward its limit",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "After a small bridge tests the knee's backward range",
+            "After turning the foot to confirm rotational control"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Before gripping the ankle or containing the thigh"
           ]
         }
       },
       {
-        "question": "Kneebar Finish (attacker): What matters when you open the entire hold?",
-        "answer": "Release ankle and thigh control immediately on a tap before either partner turns.",
-        "answer_line": "Open the entire hold",
+        "question": "Kneebar Finish (attacker): Which controls release on a tap before either partner turns?",
+        "answer": "Open ankle and thigh control promptly so the whole leg can move before either partner changes direction.",
+        "answer_line": "Both ankle grip and thigh restraint",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Only the ankle grip while keeping the thigh clamped",
+            "Only the thigh clamp while keeping the ankle held"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Only the hip extension while retaining both grips"
           ]
         }
       },
       {
-        "question": "Kneebar Finish (attacker): What configuration must exist before this sequence?",
-        "answer": "The attacker has isolated one leg between the legs, with the opponent's knee aligned at the hip fulcrum and the ankle controlled.",
-        "answer_line": "Check the starting configuration",
+        "question": "Kneebar Finish (attacker): What geometry identifies a knee-extension threat rather than Carni?",
+        "answer": "The kneebar's separate lower-body capture places the knee at a hip fulcrum and controls the ankle.",
+        "answer_line": "Ankle held, knee aligned at the hips",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Ankle held with the knee beyond your hip line",
+            "Knee bent around your shin with the foot tucked"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Heel rotated while the thigh stays immobilized"
           ]
         }
       },
       {
-        "question": "Kneebar Finish (attacker): What distinguishes this control from a similar-looking position?",
-        "answer": "Carni is a shoulder-lock configuration. A kneebar needs a separately captured leg and a new hip-to-knee alignment; neither the Carni leg clamp nor its name supplies that alignment.",
-        "answer_line": "Check the defining controls",
+        "question": "Kneebar Finish (attacker): Why does the Carni clamp not supply this finishing position?",
+        "answer": "Release the shoulder configuration and separately capture a leg; the sources do not establish a direct Carni-to-kneebar finish.",
+        "answer_line": "It captures the shoulder, not the leg",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "It already contains the knee but lacks ankle pressure",
+            "It already holds the ankle but lacks hip extension"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "It already brackets the leg but needs a straighter knee"
           ]
         }
       },
       {
-        "question": "Kneebar Finish (attacker): When should the partners stop or reset?",
-        "answer": "Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.",
-        "answer_line": "Release before unsafe loading",
+        "question": "Kneebar Finish (attacker): A partner starts turning with the ankle fixed; what must you do?",
+        "answer": "Release the captured leg before allowing rotation against a fixed ankle and thigh.",
+        "answer_line": "Release ankle and thigh before turning",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Keep the ankle fixed and follow with the hips",
+            "Open the thigh clamp but retain the ankle grip"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Release the ankle but keep the thigh pinned"
           ]
         }
       },
       {
-        "question": "Kneebar Finish (attacker): What should a cooperative first drill establish?",
-        "answer": "Identify the starting configuration and rehearse the first connection without finishing pressure. Confirm control of the opponent's thigh and ankle before considering a knee-extension attack.",
-        "answer_line": "Rehearse the first connection",
+        "question": "Kneebar Finish (attacker): Which loading pattern identifies the intended straight-leg attack?",
+        "answer": "The captured knee lies at the hip fulcrum. The thigh and ankle are controlled on either side, and hip extension would load the knee; stop the cooperative drill before its end range.",
+        "answer_line": "Knee extension between controlled thigh and ankle",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Knee rotation between a fixed thigh and turned foot",
+            "Ankle extension with the forearm behind the heel"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Calf compression as the knee folds over a shin"
           ]
         }
       }
@@ -445,72 +445,72 @@
     ],
     "flashcards": [
       {
-        "question": "Kneebar Finish (defender): What matters when you recognize the straight-leg line?",
-        "answer": "A knee trapped at the attacker's hips with the ankle held indicates the extension threat.",
-        "answer_line": "Recognize the straight-leg line",
+        "question": "Kneebar Finish (defender): Which alignment warns of the straight-leg attack?",
+        "answer": "Recognize the knee at the attacker's hip fulcrum with the ankle controlled as an extension threat.",
+        "answer_line": "Your knee at their hips with your ankle held",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Your knee beyond their hips with your ankle held",
+            "Your bent knee folded around their shin"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Your foot turned sideways while the thigh is held"
           ]
         }
       },
       {
-        "question": "Kneebar Finish (defender): What matters when you deny ankle control early?",
-        "answer": "Hand fight and keep the lower leg free before the attacker completes the capture.",
-        "answer_line": "Deny ankle control early",
+        "question": "Kneebar Finish (defender): What do you deny before the lower-leg capture closes?",
+        "answer": "Hand fight early to keep the lower leg free before the attacker completes hip, knee and ankle control.",
+        "answer_line": "A secure grip controlling your ankle",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Only a grip on the other ankle",
+            "Only contact on the thigh while the ankle stays held"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Only their hand contact with the outside of your hip"
           ]
         }
       },
       {
-        "question": "Kneebar Finish (defender): What matters when you recover the knee line early?",
-        "answer": "Move the knee away from the fulcrum only while the leg can still move freely.",
-        "answer_line": "Recover the knee line early",
+        "question": "Kneebar Finish (defender): While the leg is still free, what removes the knee's fulcrum contact?",
+        "answer": "Recover the knee line early while it can move freely; a secured extension lock calls for release rather than a forced escape.",
+        "answer_line": "Move the knee away from the attacker's hip line",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Move the foot sideways while the knee stays at their hips",
+            "Straighten the leg while keeping the knee at their hips"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Pull the ankle back while leaving the knee line fixed"
           ]
         }
       },
       {
-        "question": "Kneebar Finish (defender): What matters when you keep the foot aligned?",
-        "answer": "Avoid a twisting escape against a held ankle and trapped thigh.",
-        "answer_line": "Keep the foot aligned",
+        "question": "Kneebar Finish (defender): Why avoid turning with your ankle and thigh fixed?",
+        "answer": "Do not twist against a held ankle and trapped thigh; obtain release before changing direction.",
+        "answer_line": "Rotation can load the knee between those fixed points",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "The ankle can follow the torso while the thigh remains pinned",
+            "The hip restraint prevents sideways load reaching the knee"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "The extended leg can spin without changing knee alignment"
           ]
         }
       },
       {
-        "question": "Kneebar Finish (defender): What matters when you tap at controlled extension?",
-        "answer": "Do not wait for severe pain or test how far the knee can bend backward.",
-        "answer_line": "Tap at controlled extension",
+        "question": "Kneebar Finish (defender): The knee is securely captured for extension; when should you tap?",
+        "answer": "Tap to the controlled extension threat instead of testing the knee's backward range or waiting for severe pain.",
+        "answer_line": "Before testing how far the knee bends backward",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "After their hip extension tests the knee's backward range",
+            "Only when ankle rotation joins the straight-leg hold"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "After a last knee-line escape against the secured capture"
           ]
         }
       }

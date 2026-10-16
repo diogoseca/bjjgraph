@@ -189,142 +189,142 @@
     ],
     "flashcards": [
       {
-        "question": "Posture Recovery to Closed Guard (attacker): What matters when you recognize the upper-body trap?",
-        "answer": "Avoid extending an arm between the high legs where it can be isolated.",
-        "answer_line": "Recognize the upper-body trap",
+        "question": "Posture Recovery to Closed Guard (top): How do you avoid offering an arm-lock lever?",
+        "answer": "Keep the elbows compact while addressing the high clinch instead of straightening them to force posture.",
+        "answer_line": "Keep the elbow compact inside the high guard",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Straighten the arm between both high legs",
+            "Reach the hand far behind the opponent"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Pull only the wrist while the shoulder stays trapped"
           ]
         }
       },
       {
-        "question": "Posture Recovery to Closed Guard (attacker): What matters when you protect the captured limb?",
-        "answer": "A second leg climbing behind your head increases the posture-control problem.",
-        "answer_line": "Protect the captured limb",
+        "question": "Posture Recovery to Closed Guard (top): What reinforces Crackhead's restriction on your head?",
+        "answer": "The added high leg reinforces upper-body posture control; the lower guard must be assessed separately after release.",
+        "answer_line": "The second leg rising behind it",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "A low ankle crossing at your waist",
+            "A foot on your hip below the elbow"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "A high foot beside your shoulder but outside the head"
           ]
         }
       },
       {
-        "question": "Posture Recovery to Closed Guard (attacker): What matters when you work before pressure engages?",
-        "answer": "Keep a balanced base and early inside frames; tap instead of moving against a completed choke or joint lock.",
-        "answer_line": "Work before pressure engages",
+        "question": "Posture Recovery to Closed Guard (top): What can preserve space before high closure?",
+        "answer": "Early inside frames manage the hip line before the upper-body clinch closes tightly.",
+        "answer_line": "An inside hip or thigh frame with balanced base",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "A wrist grip with no contact at the climbing thigh",
+            "An outside thigh push with the elbow flared"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "A straight-arm post beyond the opponent's head"
           ]
         }
       },
       {
-        "question": "Posture Recovery to Closed Guard (attacker): What matters when you open the high enclosure?",
-        "answer": "Create slack at the hip and thigh while keeping the head and captured arm aligned.",
-        "answer_line": "Open the high enclosure",
+        "question": "Posture Recovery to Closed Guard (top): How do you create slack without twisting a trapped arm?",
+        "answer": "Create space at the hip and thigh with the head and arm aligned, then use the released opening.",
+        "answer_line": "Align head and arm as hip space opens",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Turn the torso away from the retained elbow",
+            "Pull the hand behind the hip before shoulder release"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Lift the head before the upper arm can follow"
           ]
         }
       },
       {
-        "question": "Posture Recovery to Closed Guard (attacker): What matters when you recover the elbow and posture?",
-        "answer": "Withdraw the shoulder and elbow only after the high leg connection has opened.",
-        "answer_line": "Recover the elbow and posture",
+        "question": "Posture Recovery to Closed Guard (top): What must happen before the shoulder withdraws?",
+        "answer": "Clear both the high-leg connection and any upper-arm overhook before withdrawing the shoulder and elbow.",
+        "answer_line": "The high legs and overhook must open",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Only the second high leg must lower",
+            "Only the opponent's lower ankles must open"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Only your chin must rise above the shin"
           ]
         }
       },
       {
-        "question": "Posture Recovery to Closed Guard (attacker): What matters when you confirm the next position?",
-        "answer": "Establish upright posture inside closed guard if the ankles close below the waist only when the upper-body enclosure and relevant leg hooks have cleared.",
-        "answer_line": "Confirm the next position",
+        "question": "Posture Recovery to Closed Guard (top): What confirms the named destination after release?",
+        "answer": "After upper-body clearance, closed guard exists only if the bottom player's legs reclose lower around the torso.",
+        "answer_line": "Free shoulders, upright torso, ankles closed low",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Head free but both arms trapped high",
+            "Both knees passed with your chest beside their torso"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "One leg under your arm with their ankles apart"
           ]
         }
       },
       {
-        "question": "Posture Recovery to Closed Guard (attacker): What configuration must exist before this sequence?",
-        "answer": "The top player faces a bottom guard player using Crackhead Control; the head, shoulder or arm may still be enclosed.",
-        "answer_line": "Check the starting configuration",
+        "question": "Posture Recovery to Closed Guard (top): What body region is trapped at the start?",
+        "answer": "This recovery starts inside Crackhead's upper-body clinch, not solely a low leg entanglement.",
+        "answer_line": "Head and shoulders inside the high legs",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Only the waist inside a low ankle crossing",
+            "Only the wrist below a free shoulder line"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Only one elbow below legs already lowered to the hips"
           ]
         }
       },
       {
-        "question": "Posture Recovery to Closed Guard (attacker): Check the defining controls?",
-        "answer": "The top player must free the shoulder line first; a high clinch is not safely defeated by suddenly standing or stacking.",
-        "answer_line": "Check the defining controls",
+        "question": "Posture Recovery to Closed Guard (top): Why is getting your chin higher insufficient?",
+        "answer": "Confirm shoulder and arm freedom before interpreting head movement as recovered posture.",
+        "answer_line": "A shoulder or overhook can remain trapped below it",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "The elbow follows the chin out of the high-leg enclosure",
+            "Head height proves the knee hug has slipped below the shoulder"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "An upright head means the overhook has lost the upper arm"
           ]
         }
       },
       {
-        "question": "Posture Recovery to Closed Guard (attacker): When should the partners stop or reset?",
-        "answer": "Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.",
-        "answer_line": "Release before unsafe loading",
+        "question": "Posture Recovery to Closed Guard (top): Why avoid suddenly standing against the clinch?",
+        "answer": "Sudden elevation through the retained enclosure is not controlled release; clear the upper connection first.",
+        "answer_line": "The retained legs can load neck and arm",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Standing opens the high connection before it takes load",
+            "The knee hug slides down the arm as body height increases"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "The raised shin follows the shoulders without neck tension"
           ]
         }
       },
       {
-        "question": "Posture Recovery to Closed Guard (attacker): What should a cooperative first drill establish?",
-        "answer": "Identify the starting configuration and rehearse the first connection without finishing pressure. Avoid extending an arm between the high legs where it can be isolated.",
-        "answer_line": "Rehearse the first connection",
+        "question": "Posture Recovery to Closed Guard (top): What still separates recovered posture from a guard pass?",
+        "answer": "Upright posture inside closed guard leaves the lower guard to address in a separate passing exchange.",
+        "answer_line": "The opponent's lower legs still encircle your torso",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "The shoulder release leaves only a wrist grip blocking side control",
+            "The lower ankle crossing releases when the spine straightens"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "The hips have passed both knees when the head clears"
           ]
         }
       }
@@ -427,72 +427,72 @@
     ],
     "flashcards": [
       {
-        "question": "Posture Recovery to Closed Guard (defender): What matters when you start with broken posture?",
-        "answer": "Establish the first high leg and its hand support before adding the second leg.",
-        "answer_line": "Start with broken posture",
+        "question": "Posture Recovery to Closed Guard (bottom): What is retained before adding the high reinforcement?",
+        "answer": "The first high leg and its supporting hand form the foundation before the second leg reinforces it.",
+        "answer_line": "The supported first shin controlling posture",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Only both feet crossed behind the waist",
+            "Only the opponent's wrist with both knees low"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "A neck pull with the raised knee unsupported"
           ]
         }
       },
       {
-        "question": "Posture Recovery to Closed Guard (defender): What matters when you bring the second leg high?",
-        "answer": "Reinforce the clinch without forcing the knees beyond a comfortable hip angle.",
-        "answer_line": "Bring the second leg high",
+        "question": "Posture Recovery to Closed Guard (bottom): How should a reinforcing leg follow the opponent?",
+        "answer": "Use a comfortable hip-supported angle; release the high clinch if posture cannot be followed safely.",
+        "answer_line": "Through a comfortable hip angle with knee support",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Drag the foot while the knee stays fixed",
+            "Hold the foot still while twisting the torso"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Lift the foot farther while the knee drifts away"
           ]
         }
       },
       {
-        "question": "Posture Recovery to Closed Guard (defender): What matters when you track both elbows?",
-        "answer": "Do not assume that high legs alone have isolated an arm or completed Dead Orchard.",
-        "answer_line": "Track both elbows",
+        "question": "Posture Recovery to Closed Guard (bottom): What separates high posture control from Dead Orchard?",
+        "answer": "Check actual elbow positions and leg closure rather than equating a two-leg clinch with Dead Orchard.",
+        "answer_line": "Dead Orchard also needs both arms inside a high leg triangle",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Any second leg above the shoulders completes the same capture",
+            "Any two-arm contact below the knees completes the same trap"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "A one-arm triangle with the far shoulder free is the same control"
           ]
         }
       },
       {
-        "question": "Posture Recovery to Closed Guard (defender): What matters when you keep knees close?",
-        "answer": "Use hip position and connected leg pressure rather than pulling the feet against fixed knees.",
-        "answer_line": "Keep knees close",
+        "question": "Posture Recovery to Closed Guard (bottom): As the legs lower, how do you protect space for a knee?",
+        "answer": "Frame inside against chest pressure and move the hips enough to return the knees around the torso.",
+        "answer_line": "Use an inside arm frame and a small hip escape",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Follow the retreating head with both hands",
+            "Move the hips but leave both knees outside"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Frame the shoulder while leaving the hips pinned"
           ]
         }
       },
       {
-        "question": "Posture Recovery to Closed Guard (defender): What matters when you return to one-leg control?",
-        "answer": "Lower the reinforcing leg while preserving the first shin connection if you need Mission Control again.",
-        "answer_line": "Return to one-leg control",
+        "question": "Posture Recovery to Closed Guard (bottom): If the second high leg lowers, what remains possible?",
+        "answer": "Lowering the reinforcement can leave Mission Control; closed guard requires a separate lower leg closure.",
+        "answer_line": "Mission Control if the first shin connection still holds",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Closed guard while the ankles still remain apart",
+            "Dead Orchard with no both-arm figure-four"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "A completed pass while the first high shin still holds"
           ]
         }
       }

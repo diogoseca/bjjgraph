@@ -189,142 +189,142 @@
     ],
     "flashcards": [
       {
-        "question": "Buggy Choke to Side Control (attacker): What matters when you recognize the bottom-player choke?",
+        "question": "Buggy Choke to Side Control (top): Which reach starts the Buggy enclosure from below?",
         "answer": "Watch for an arm reaching past your head and connecting to the same-side leg.",
-        "answer_line": "Recognize the bottom-player choke",
+        "answer_line": "Their arm passes your head toward their same-side leg",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Their hand holds your head while their knee stays low",
+            "Their arm reaches their knee with your head outside"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Their knee rises while both hands remain on your hips"
           ]
         }
       },
       {
-        "question": "Buggy Choke to Side Control (attacker): What matters when you keep a stable base?",
-        "answer": "Avoid lifting, dropping, or twisting the partner's trapped leg to force an escape.",
-        "answer_line": "Keep a stable base",
+        "question": "Buggy Choke to Side Control (top): Which base supports defense with the partner grounded?",
+        "answer": "Keep a balanced base and avoid using the partner's knee or a lift as the means of escape.",
+        "answer_line": "Stay supported on the mat while addressing the connection",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Raise your hips until their shoulders follow off the mat",
+            "Pull the linked shin outward while narrowing your base"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Lean across their raised thigh with your feet close together"
           ]
         }
       },
       {
-        "question": "Buggy Choke to Side Control (attacker): What matters when you interrupt the connection early?",
+        "question": "Buggy Choke to Side Control (top): Before their grip closes, how do you interrupt the entry?",
         "answer": "Use safe inside frames before the arm-to-leg loop fully closes; do not pull or twist the partner's knee.",
-        "answer_line": "Interrupt the connection early",
+        "answer_line": "Place a safe inside frame between the bodies",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Keep your near forearm outside their linking arm",
+            "Chase a crossface while ignoring the leg connection"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Control their hip with both hands while their arm links"
           ]
         }
       },
       {
-        "question": "Buggy Choke to Side Control (attacker): What matters when you free the head and arm?",
+        "question": "Buggy Choke to Side Control (top): What clearance permits you to rebuild the side pin?",
         "answer": "Move only through available space after the loop opens; tap if the neck is already enclosed.",
-        "answer_line": "Free the head and arm",
+        "answer_line": "Your head and arm are outside the choking loop",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Your chest already touches their chest",
+            "Their hips stop moving for a moment"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Your chin is hidden inside the closed enclosure"
           ]
         }
       },
       {
-        "question": "Buggy Choke to Side Control (attacker): What matters when you verify the next configuration?",
+        "question": "Buggy Choke to Side Control (top): After release, which controls stabilize side control?",
         "answer": "Establish Side Control only after the head is free. Keep the shoulders and hips controlled while moving outside the legs.",
-        "answer_line": "Verify the next configuration",
+        "answer_line": "Upper-body attachment and a block on the hip line",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "A crossface with the hip left free to turn",
+            "A hip block while the shoulders turn away from your chest"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Chest contact with their inside knee still between the bodies"
           ]
         }
       },
       {
-        "question": "Buggy Choke to Side Control (attacker): What matters when you settle without neck loading?",
-        "answer": "Use balanced positional pressure and let the opponent communicate throughout the reset.",
-        "answer_line": "Settle without neck loading",
+        "question": "Buggy Choke to Side Control (top): When should you apply settling chest and shoulder pressure?",
+        "answer": "Use balanced pin pressure after clearance; pressure is not a substitute for opening the neck enclosure.",
+        "answer_line": "After the neck loop and remaining leg barrier clear",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "While forcing your head out of a closed loop",
+            "Before checking whether their knee is still inside"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Once one hand releases but the elbow still hooks the leg"
           ]
         }
       },
       {
-        "question": "Buggy Choke to Side Control (attacker): What configuration must exist before this sequence?",
-        "answer": "The top player is the choke defender even though this transition calls the moving player its attacker.",
-        "answer_line": "Check the starting configuration",
+        "question": "Buggy Choke to Side Control (top): Who supplies the choking loop in the starting position?",
+        "answer": "The bottom player joins an arm and same-side leg around the top player's head and one arm.",
+        "answer_line": "The player underneath side control",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "The top player joining an arm to the bottom player's leg",
+            "The bottom player joining only the top player's limbs"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "The top player connecting their own knee to their elbow"
           ]
         }
       },
       {
-        "question": "Buggy Choke to Side Control (attacker): Check the defining controls?",
-        "answer": "Changing pins does not itself prove that the choke is gone. Clear the arm-and-leg loop first, and do not lift or slam the partner to escape.",
-        "answer_line": "Check the defining controls",
+        "question": "Buggy Choke to Side Control (top): Why can chest-to-chest contact coexist with danger?",
+        "answer": "Existing pin contact does not establish release; check the actual arm-leg enclosure.",
+        "answer_line": "The bottom loop can still surround your head and arm",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "The chest pin forces their elbow away from the raised knee",
+            "A flat bottom shoulder prevents the leg from reaching the arm"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Your crossface places the neck outside their arm-leg loop"
           ]
         }
       },
       {
-        "question": "Buggy Choke to Side Control (attacker): When should the partners stop or reset?",
-        "answer": "Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.",
-        "answer_line": "Release before unsafe loading",
+        "question": "Buggy Choke to Side Control (top): Your neck is secured despite stable top balance. What next?",
+        "answer": "If the choke is securely established, stable top balance does not justify forcing an escape.",
+        "answer_line": "Tap and have the whole loop released",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Keep the pin while waiting for their grip to fatigue",
+            "Open only the hand clasp while leaving the leg hooked"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Circle your knees while keeping the enclosed head still"
           ]
         }
       },
       {
-        "question": "Buggy Choke to Side Control (attacker): What should a cooperative first drill establish?",
-        "answer": "Identify the starting configuration and rehearse the first connection without finishing pressure. Watch for an arm reaching past your head and connecting to the same-side leg.",
-        "answer_line": "Rehearse the first connection",
+        "question": "Buggy Choke to Side Control (top): After clearance, what stops a fresh knee returning inside?",
+        "answer": "The completed side pin combines upper-body attachment with a hip block that limits knee reinsertion.",
+        "answer_line": "Hip control paired with the upper-body pin",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "A distant ankle grip with the hip unblocked",
+            "A crossface alone with the near hip unblocked"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Chest pressure while the hips remain beyond your reach"
           ]
         }
       }
@@ -436,72 +436,72 @@
     ],
     "flashcards": [
       {
-        "question": "Buggy Choke to Side Control (defender): What matters when you build the angle?",
+        "question": "Buggy Choke to Side Control (bottom): Which frames help you turn onto your side for the entry?",
         "answer": "Use safe shoulder and hip frames to turn partly onto the side before reaching for the leg.",
-        "answer_line": "Build the angle",
+        "answer_line": "Frames at the shoulder and hip",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Both forearms outside the shoulders as your back stays flat",
+            "Both hands low at the hip while the shoulders stay pinned"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Both hands on the linking leg before making space"
           ]
         }
       },
       {
-        "question": "Buggy Choke to Side Control (defender): What matters when you enclose head and arm?",
-        "answer": "Check that the loop contains the necessary upper-body configuration rather than merely hugging your leg.",
-        "answer_line": "Enclose head and arm",
+        "question": "Buggy Choke to Side Control (bottom): Why is hugging your thigh alone insufficient?",
+        "answer": "The effective loop contains the opponent's head and one arm rather than only your own thigh.",
+        "answer_line": "Their head and one arm must be inside the loop",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Their head must stay outside while one arm is enclosed",
+            "Their head goes inside while both shoulders stay outside"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Their wrist alone must cross the front of your thigh"
           ]
         }
       },
       {
-        "question": "Buggy Choke to Side Control (defender): What matters when you keep elbow near knee?",
-        "answer": "Shorten the connection through body position, not by pulling the foot hard toward the face.",
-        "answer_line": "Keep elbow near knee",
+        "question": "Buggy Choke to Side Control (bottom): What should stay close as you link arm and leg?",
+        "answer": "Elbow-knee proximity comes from body angle; do not manufacture it by pulling the foot against a fixed knee.",
+        "answer_line": "Your elbow and same-side knee",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Your elbow and hip with the knee remaining distant",
+            "Your hand and shin with the elbow flared away"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Your two knees while the linking elbow stays extended"
           ]
         }
       },
       {
-        "question": "Buggy Choke to Side Control (defender): What matters when you use the torso connection?",
-        "answer": "Close space with the arm, leg, and torso while avoiding twisting force on your own knee.",
-        "answer_line": "Use the torso connection",
+        "question": "Buggy Choke to Side Control (bottom): Which action uses your torso to close the loop?",
+        "answer": "Shortening shoulder-to-hip distance closes space in the head-and-arm enclosure without wrenching the foot.",
+        "answer_line": "Draw the shoulder down toward the hip",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Arch the shoulder away from the hip",
+            "Lift the shoulder while keeping the hip low"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Move the hips away and maintain the same shoulder height"
           ]
         }
       },
       {
-        "question": "Buggy Choke to Side Control (defender): What matters when you recover guard when space opens?",
+        "question": "Buggy Choke to Side Control (bottom): When the grip fails, how do you resist the new pin?",
         "answer": "Use a disengaging opponent's movement to insert frames and knees if the choke is lost.",
-        "answer_line": "Recover guard when space opens",
+        "answer_line": "Frame and hip-escape to return a knee inside",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Reach back for the old foot with both hands",
+            "Leave the near elbow flared behind your head"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Shrimp away without returning the near knee"
           ]
         }
       }

@@ -56,7 +56,7 @@ description: "Buggy Choke to Side Control (defender): Use safe shoulder and hip 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Buggy Choke to Side Control (defender): What matters when you build the angle?",
+      "name": "Buggy Choke to Side Control (bottom): Which frames help you turn onto your side for the entry?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use safe shoulder and hip frames to turn partly onto the side before reaching for the leg."
@@ -64,31 +64,31 @@ description: "Buggy Choke to Side Control (defender): Use safe shoulder and hip 
     },
     {
       "@type": "Question",
-      "name": "Buggy Choke to Side Control (defender): What matters when you enclose head and arm?",
+      "name": "Buggy Choke to Side Control (bottom): Why is hugging your thigh alone insufficient?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Check that the loop contains the necessary upper-body configuration rather than merely hugging your leg."
+        "text": "The effective loop contains the opponent's head and one arm rather than only your own thigh."
       }
     },
     {
       "@type": "Question",
-      "name": "Buggy Choke to Side Control (defender): What matters when you keep elbow near knee?",
+      "name": "Buggy Choke to Side Control (bottom): What should stay close as you link arm and leg?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Shorten the connection through body position, not by pulling the foot hard toward the face."
+        "text": "Elbow-knee proximity comes from body angle; do not manufacture it by pulling the foot against a fixed knee."
       }
     },
     {
       "@type": "Question",
-      "name": "Buggy Choke to Side Control (defender): What matters when you use the torso connection?",
+      "name": "Buggy Choke to Side Control (bottom): Which action uses your torso to close the loop?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Close space with the arm, leg, and torso while avoiding twisting force on your own knee."
+        "text": "Shortening shoulder-to-hip distance closes space in the head-and-arm enclosure without wrenching the foot."
       }
     },
     {
       "@type": "Question",
-      "name": "Buggy Choke to Side Control (defender): What matters when you recover guard when space opens?",
+      "name": "Buggy Choke to Side Control (bottom): When the grip fails, how do you resist the new pin?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use a disengaging opponent's movement to insert frames and knees if the choke is lost."

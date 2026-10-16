@@ -68,50 +68,50 @@ description: "Turn to Face from Zombie (attacker): The bottom player has broken 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Turn to Face from Zombie (attacker): What matters when you recognize the actual control?",
+      "name": "Turn to Face from Zombie (bottom): Which way are the players facing before this reset?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The bottom player has broken posture and supports a high Mission Control leg. The top player's hand or forearm is still obstructing the intended arm isolation."
+        "text": "The basic Zombie pummel already occurs in facing guard; no rear-control escape is established by this node's name."
       }
     },
     {
       "@type": "Question",
-      "name": "Turn to Face from Zombie (attacker): What matters when you remove submission pressure?",
+      "name": "Turn to Face from Zombie (bottom): What must open before turning out of the high connection?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Release any wrist, neck or elbow loading before opening the high-leg enclosure."
+        "text": "Release joint or neck loading and open the high leg before changing the hip angle for guard recovery."
       }
     },
     {
       "@type": "Question",
-      "name": "Turn to Face from Zombie (attacker): What matters when you open the high connection?",
+      "name": "Turn to Face from Zombie (bottom): How should the high leg return toward the floor?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Lower the controlling leg through a comfortable hip angle rather than pulling the foot against the knee."
+        "text": "Use the hip to guide the leg down comfortably instead of pulling the ankle across a stationary knee."
       }
     },
     {
       "@type": "Question",
-      "name": "Turn to Face from Zombie (attacker): What matters when you restore inside frames?",
+      "name": "Turn to Face from Zombie (bottom): What should move inside as the high leg opens?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Bring the forearms and knees between the bodies as space becomes available."
+        "text": "Replace the high connection with a facing guard barrier so the opponent cannot fill the gap with chest pressure."
       }
     },
     {
       "@type": "Question",
-      "name": "Turn to Face from Zombie (attacker): What matters when you face the opponent?",
+      "name": "Turn to Face from Zombie (bottom): What should stay oriented toward the opponent?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Keep the shoulders and hips oriented toward the opponent while re-establishing a comfortable facing guard."
+        "text": "Keep a facing torso while the hips make space and the knee returns; turning only the head does not rebuild guard."
       }
     },
     {
       "@type": "Question",
-      "name": "Turn to Face from Zombie (attacker): What matters when you stabilize before moving again?",
+      "name": "Turn to Face from Zombie (bottom): Their shoulder reaches across your face; where frame?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Check posture, knee comfort and inside space before resuming a sweep or submission attack."
+        "text": "An inside forearm blocks the developing crossface while you recover knee room with a small hip escape."
       }
     }
   ]

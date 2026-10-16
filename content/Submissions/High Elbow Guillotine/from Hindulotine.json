@@ -223,144 +223,144 @@
     ],
     "flashcards": [
       {
-        "question": "High Elbow Guillotine from Hindulotine (attacker): Establish front head control?",
-        "answer": "Control the lowered head with a stable base before seeking the finishing grip.",
-        "answer_line": "Establish front head control",
+        "question": "High-elbow guillotine after Hindu Control: what should precede seeking the final hand grip?",
+        "answer": "A lowered head controlled from a stable base. Control the lowered head with a stable base before seeking the finishing grip.",
+        "answer_line": "A lowered head controlled from a stable base",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "An upright head beyond your arm's reach",
+            "A supported high foot with no neck-wrapping arm"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Both hands pulling while your hips remain detached"
           ]
         }
       },
       {
-        "question": "High Elbow Guillotine from Hindulotine (attacker): What matters when you seat the neck-wrapping arm?",
-        "answer": "Place the choking forearm beside the neck without pulling the head into extension.",
-        "answer_line": "Seat the neck-wrapping arm",
+        "question": "High-elbow guillotine attack: how should the head align as the choking forearm is positioned?",
+        "answer": "With the spine, without a backward neck bend. Place the forearm beside the neck while maintaining alignment. Do not substitute cervical extension or twisting for a close enclosure.",
+        "answer_line": "With the spine, without a backward neck bend",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Tilted backward away from the shoulder line",
+            "Twisted across the chest toward the free shoulder"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Levered sideways while the torso stays fixed"
           ]
         }
       },
       {
-        "question": "High Elbow Guillotine from Hindulotine (attacker): What matters when you connect the support hand?",
-        "answer": "Close the hand connection while leaving space during the learning drill.",
-        "answer_line": "Connect the support hand",
+        "question": "High-elbow guillotine practice: how much finishing load belongs in initial hand-connection drills?",
+        "answer": "None during the first grip-placement repetitions. Join the support hand cooperatively with the neck unloaded. Establish the grip and comfortable elbow path before any controlled finishing practice.",
+        "answer_line": "None during the first grip-placement repetitions",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "A full squeeze before the supporting elbow rises",
+            "Enough pressure to hold the head while the partner turns"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "A neck-extension load to create room for the hands"
           ]
         }
       },
       {
-        "question": "High Elbow Guillotine from Hindulotine (attacker): What matters when you raise the support elbow?",
-        "answer": "Bring the supporting elbow over the shoulder through a comfortable arm path.",
-        "answer_line": "Raise the support elbow",
+        "question": "High-elbow guillotine attack: which elbow rises over the opponent's shoulder?",
+        "answer": "The elbow of the supporting arm. Bring the supporting elbow over the shoulder through a comfortable arm path.",
+        "answer_line": "The elbow of the supporting arm",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "The elbow of the neck-wrapping arm only",
+            "The opponent's trapped elbow"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Both elbows must remain below the shoulder line"
           ]
         }
       },
       {
-        "question": "High Elbow Guillotine from Hindulotine (attacker): What matters when you close the enclosure?",
-        "answer": "Adjust body position and elbow connection gradually rather than cranking the neck upward.",
-        "answer_line": "Close the enclosure",
+        "question": "High-elbow guillotine attack: how should you complete the enclosure?",
+        "answer": "Adjust the torso and connected elbows gradually. Adjust body position and elbow connection gradually rather than cranking the neck upward.",
+        "answer_line": "Adjust the torso and connected elbows gradually",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Lift the chin sharply against the choking forearm",
+            "Rotate the head while the shoulders remain fixed"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Extend both arms away from your ribs"
           ]
         }
       },
       {
-        "question": "High Elbow Guillotine from Hindulotine (attacker): What matters when you release the grip?",
-        "answer": "Open the hands and remove all neck pressure on the first stop signal.",
-        "answer_line": "Release the grip",
+        "question": "High-elbow guillotine attack: what releases a partner who taps?",
+        "answer": "Open the hands and remove the neck restraint. Open the hands and remove all neck pressure on the first stop signal.",
+        "answer_line": "Open the hands and remove the neck restraint",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Lower the elbow while keeping both hands tight",
+            "Stop adjusting while the forearm stays loaded"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Pull the head free through the still-closed loop"
           ]
         },
         "safety_critical": true
       },
       {
-        "question": "High Elbow Guillotine from Hindulotine (attacker): Check the starting configuration?",
-        "answer": "The attacker is in front of the lowered head with a neck-wrapping arm and a supporting hand whose elbow can rise over the shoulder.",
-        "answer_line": "Check the starting configuration",
+        "question": "High-elbow guillotine attack: which arm stays around the neck while the other elbow rises?",
+        "answer": "The arm carrying the choking forearm. The choking arm retains the neck contact while the support elbow rises over the shoulder. The two arms have different jobs.",
+        "answer_line": "The arm carrying the choking forearm",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "The supporting arm that raises its elbow",
+            "The arm released to post on the floor"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Both arms above the head with no forearm at the neck"
           ]
         }
       },
       {
-        "question": "High Elbow Guillotine from Hindulotine (attacker): Check the defining controls?",
-        "answer": "The high elbow belongs to the supporting arm in this guillotine configuration. Hindu Control instead routes an arm over a raised foot; a separate re-grip is needed to change between the two.",
-        "answer_line": "Check the defining controls",
+        "question": "High-elbow guillotine after Hindu Control: what old limb leaves the enclosure during the switch?",
+        "answer": "Your own raised foot and leg. Hindu Control routes an arm over a raised foot. The new guillotine uses the choking and supporting arms without that raised-foot enclosure, requiring a separate re-grip and leg clearance.",
+        "answer_line": "Your own raised foot and leg",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "The choking forearm while the foot stays in place",
+            "The opponent's shoulder while both hands let go"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "The support arm instead of the high rubber-guard leg"
           ]
         }
       },
       {
-        "question": "High Elbow Guillotine from Hindulotine (attacker): When should the partners stop or reset?",
-        "answer": "Raise the elbow through available space, never by wrenching the shoulder or neck. Stop at a controlled enclosure in drills and release immediately on any tap.",
-        "answer_line": "Release before unsafe loading",
+        "question": "High-elbow guillotine practice: what should you do if the support elbow cannot rise comfortably?",
+        "answer": "Reset the angle rather than wrench the arm or neck. Raise the elbow through available space, never by wrenching the shoulder or neck. Stop at a controlled enclosure in drills and release immediately on any tap.",
+        "answer_line": "Reset the angle rather than wrench the arm or neck",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Force the elbow upward while the shoulder stays pinned",
+            "Pull the partner's head down to drag your elbow higher"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Increase neck pressure until the blocked arm moves"
           ]
         },
         "safety_critical": true
       },
       {
-        "question": "High Elbow Guillotine from Hindulotine (attacker): What should a cooperative first drill establish?",
-        "answer": "Identify the starting configuration and rehearse the first connection without finishing pressure. Control the lowered head with a stable base before seeking the finishing grip.",
-        "answer_line": "Rehearse the first connection",
+        "question": "High-elbow guillotine practice: what space does the raised support elbow help close?",
+        "answer": "The route beside the grip for the opponent's shoulder. The high support elbow limits the shoulder space beside the connected grip. Learn the arm path without forcing the neck or shoulder; an early inside frame works before that space closes.",
+        "answer_line": "The route beside the grip for the opponent's shoulder",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "The gap between the opponent's knees at the mat",
+            "The space behind your own hips for a rear hook"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "The partner's jaw by driving the head into extension"
           ]
         }
       }
@@ -471,58 +471,58 @@
     ],
     "flashcards": [
       {
-        "question": "High Elbow Guillotine from Hindulotine (defender): What matters when you recognize the raised elbow?",
-        "answer": "A support elbow traveling above the shoulder signals the high-elbow variation.",
-        "answer_line": "Recognize the raised elbow",
+        "question": "High-elbow guillotine defense: what movement identifies the variation as the hands connect?",
+        "answer": "The support elbow rises above your shoulder. A support elbow traveling above the shoulder signals the high-elbow variation.",
+        "answer_line": "The support elbow rises above your shoulder",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "The choking elbow drops toward your hip",
+            "The support hand reaches below your knee"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Both elbows separate away from the neck"
           ]
         }
       },
       {
-        "question": "High Elbow Guillotine from Hindulotine (defender): What matters when you deny the hand connection?",
-        "answer": "Hand fight before the support hand locks into place.",
-        "answer_line": "Deny the hand connection",
+        "question": "High-elbow guillotine defense: what should your early hand fight interrupt?",
+        "answer": "The support hand locking onto the neck-wrapping arm. Hand fight before the support hand locks into place.",
+        "answer_line": "The support hand locking onto the neck-wrapping arm",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "The opponent's free foot changing its base",
+            "Your own far knee returning to the floor"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "The elbow rising only after you concede both grips"
           ]
         }
       },
       {
-        "question": "High Elbow Guillotine from Hindulotine (defender): What matters when you maintain neck alignment?",
-        "answer": "Do not force the head backward against the closed arm loop.",
-        "answer_line": "Maintain neck alignment",
+        "question": "High-elbow guillotine defense: why should you not force the head backward inside the closed loop?",
+        "answer": "The arm restraint can turn that movement into neck extension. Do not force the head backward against the closed arm loop.",
+        "answer_line": "The arm restraint can turn that movement into neck extension",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Backward force always opens the support hand",
+            "The raised elbow removes all pressure from the forearm"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "The neck is free whenever the chin points upward"
           ]
         }
       },
       {
-        "question": "High Elbow Guillotine from Hindulotine (defender): Address the enclosure early?",
-        "answer": "Use inside frames before the raised elbow blocks the shoulder space.",
-        "answer_line": "Address the enclosure early",
+        "question": "High-elbow guillotine defense: when is an inside shoulder frame most useful?",
+        "answer": "Before the raised elbow closes off the shoulder space. Use inside frames before the raised elbow blocks the shoulder space.",
+        "answer_line": "Before the raised elbow closes off the shoulder space",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Only after the forearm has fully compressed the neck",
+            "While turning the head alone against the fixed loop"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "After removing both hands from the upper-body exchange"
           ]
         }
       }

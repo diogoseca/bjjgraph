@@ -70,50 +70,50 @@ description: "High Elbow Guillotine from Hindulotine (attacker): Control the low
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "High Elbow Guillotine from Hindulotine (attacker): Establish front head control?",
+      "name": "High-elbow guillotine after Hindu Control: what should precede seeking the final hand grip?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Control the lowered head with a stable base before seeking the finishing grip."
+        "text": "A lowered head controlled from a stable base. Control the lowered head with a stable base before seeking the finishing grip."
       }
     },
     {
       "@type": "Question",
-      "name": "High Elbow Guillotine from Hindulotine (attacker): What matters when you seat the neck-wrapping arm?",
+      "name": "High-elbow guillotine attack: how should the head align as the choking forearm is positioned?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Place the choking forearm beside the neck without pulling the head into extension."
+        "text": "With the spine, without a backward neck bend. Place the forearm beside the neck while maintaining alignment. Do not substitute cervical extension or twisting for a close enclosure."
       }
     },
     {
       "@type": "Question",
-      "name": "High Elbow Guillotine from Hindulotine (attacker): What matters when you connect the support hand?",
+      "name": "High-elbow guillotine practice: how much finishing load belongs in initial hand-connection drills?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Close the hand connection while leaving space during the learning drill."
+        "text": "None during the first grip-placement repetitions. Join the support hand cooperatively with the neck unloaded. Establish the grip and comfortable elbow path before any controlled finishing practice."
       }
     },
     {
       "@type": "Question",
-      "name": "High Elbow Guillotine from Hindulotine (attacker): What matters when you raise the support elbow?",
+      "name": "High-elbow guillotine attack: which elbow rises over the opponent's shoulder?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Bring the supporting elbow over the shoulder through a comfortable arm path."
+        "text": "The elbow of the supporting arm. Bring the supporting elbow over the shoulder through a comfortable arm path."
       }
     },
     {
       "@type": "Question",
-      "name": "High Elbow Guillotine from Hindulotine (attacker): What matters when you close the enclosure?",
+      "name": "High-elbow guillotine attack: how should you complete the enclosure?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Adjust body position and elbow connection gradually rather than cranking the neck upward."
+        "text": "Adjust the torso and connected elbows gradually. Adjust body position and elbow connection gradually rather than cranking the neck upward."
       }
     },
     {
       "@type": "Question",
-      "name": "High Elbow Guillotine from Hindulotine (attacker): What matters when you release the grip?",
+      "name": "High-elbow guillotine attack: what releases a partner who taps?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Open the hands and remove all neck pressure on the first stop signal."
+        "text": "Open the hands and remove the neck restraint. Open the hands and remove all neck pressure on the first stop signal."
       }
     }
   ]

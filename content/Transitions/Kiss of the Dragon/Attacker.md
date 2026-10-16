@@ -68,7 +68,7 @@ description: "Kiss of the Dragon (attacker): Use the reverse hook and lower-leg 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Kiss of the Dragon (attacker): What matters when you establish reverse De La Riva?",
+      "name": "Kiss of the Dragon (bottom): What guard connection begins the inversion?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use the reverse hook and lower-leg connection while facing the standing passer."
@@ -76,7 +76,7 @@ description: "Kiss of the Dragon (attacker): Use the reverse hook and lower-leg 
     },
     {
       "@type": "Question",
-      "name": "Kiss of the Dragon (attacker): What matters when you off-balance the passer?",
+      "name": "Kiss of the Dragon (bottom): Where should the off-balance shift their weight?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Load weight onto the far leg or available post to create space beside the near leg."
@@ -84,7 +84,7 @@ description: "Kiss of the Dragon (attacker): Use the reverse hook and lower-leg 
     },
     {
       "@type": "Question",
-      "name": "Kiss of the Dragon (attacker): What matters when you set a shoulder-supported angle?",
+      "name": "Kiss of the Dragon (bottom): What supports your body as you invert?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Turn onto the shoulder and upper back, keeping weight off the neck."
@@ -92,7 +92,7 @@ description: "Kiss of the Dragon (attacker): Use the reverse hook and lower-leg 
     },
     {
       "@type": "Question",
-      "name": "Kiss of the Dragon (attacker): What matters when you invert beneath the near leg?",
+      "name": "Kiss of the Dragon (bottom): What should travel under the near leg together?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Bring the head and tucked knee through the space with a controlled pendulum action."
@@ -100,7 +100,7 @@ description: "Kiss of the Dragon (attacker): Use the reverse hook and lower-leg 
     },
     {
       "@type": "Question",
-      "name": "Kiss of the Dragon (attacker): What matters when you reach the backside?",
+      "name": "Kiss of the Dragon (bottom): After the lat connection, where does the guiding hand move?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Connect behind the thigh while bringing the knees behind the opponent's leg line."
@@ -108,7 +108,7 @@ description: "Kiss of the Dragon (attacker): Use the reverse hook and lower-leg 
     },
     {
       "@type": "Question",
-      "name": "Kiss of the Dragon (attacker): What matters when you secure rear attachment separately?",
+      "name": "Kiss of the Dragon (bottom): What remains after you reach behind the legs?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Establish torso and leg control before calling the result back control; return to guard if the connection is lost."

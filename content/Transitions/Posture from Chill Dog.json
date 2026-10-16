@@ -210,128 +210,128 @@
     ],
     "flashcards": [
       {
-        "question": "Posture from Chill Dog (attacker): What matters when you recognize the upper-body trap?",
-        "answer": "Keep the free hand available for framing while preventing the isolated elbow from being pulled further away from your torso.",
-        "answer_line": "Recognize the upper-body trap",
+        "question": "Posture from Chill Dog (top): How should your free hand help the trapped arm?",
+        "answer": "The free hand preserves inside space while you prevent the isolated elbow being drawn farther from your ribs.",
+        "answer_line": "Keep an inside frame while the elbow stays compact",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Reach behind their back and flare the elbow",
+            "Post both hands wide beyond their hips"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Keep the free hand on the mat while pulling the elbow inward"
           ]
         }
       },
       {
-        "question": "Posture from Chill Dog (attacker): What matters when you protect the captured limb?",
-        "answer": "The opponent changing the hand around your head signals the move beyond New York, not a turtle escape.",
-        "answer_line": "Protect the captured limb",
+        "question": "Posture from Chill Dog (top): Which cue identifies their neck-cleared control?",
+        "answer": "Chill Dog changes the head-side hand and forearm position while retaining the New York arm isolation.",
+        "answer_line": "Their head-side arm has circled around your head",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Their hand has only begun lifting your wrist",
+            "Their ankles are crossed low around your waist"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Their knee hug closes before any head-side grip change"
           ]
         }
       },
       {
-        "question": "Posture from Chill Dog (attacker): What matters when you work before pressure engages?",
-        "answer": "Keep a balanced base and early inside frames; tap instead of moving against a completed choke or joint lock.",
-        "answer_line": "Work before pressure engages",
+        "question": "Posture from Chill Dog (top): What should support the early escape attempt?",
+        "answer": "Use early inside space with stable supports while the neck and shoulder are still free enough to move.",
+        "answer_line": "A balanced base and an inside forearm",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "A narrow base with both hands behind their back",
+            "An extended arm pinned outside their knee"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "A wide knee base with the free forearm outside the shoulder"
           ]
         }
       },
       {
-        "question": "Posture from Chill Dog (attacker): What matters when you open the high enclosure?",
-        "answer": "Create slack at the hip and thigh while keeping the head and captured arm aligned.",
-        "answer_line": "Open the high enclosure",
+        "question": "Posture from Chill Dog (top): Where should you seek slack before lifting posture?",
+        "answer": "Open the high-leg attachment while keeping head and shoulder aligned before trying to lift the chest.",
+        "answer_line": "At the high leg's hip-and-thigh connection",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Only at your free wrist while the leg stays tight",
+            "Only at the floor by widening your knees"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "At their free foot while the controlling leg stays tight"
           ]
         }
       },
       {
-        "question": "Posture from Chill Dog (attacker): What matters when you recover the elbow and posture?",
-        "answer": "Withdraw the shoulder and elbow only after the high leg connection has opened.",
-        "answer_line": "Recover the elbow and posture",
+        "question": "Posture from Chill Dog (top): What happens before the chest rises?",
+        "answer": "Free the shoulder and recover the elbow toward your ribs through slack before lifting upright.",
+        "answer_line": "The isolated elbow returns through the opened leg",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Raise the chest while leaving the elbow outside their knee",
+            "Withdraw the free inside frame before opening the high leg"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Pull the head upward while the knee hug still holds the arm"
           ]
         }
       },
       {
-        "question": "Posture from Chill Dog (attacker): What matters when you confirm the next position?",
-        "answer": "Establish a stable posture inside the guard that actually remains only when the upper-body enclosure and relevant leg hooks have cleared.",
-        "answer_line": "Confirm the next position",
+        "question": "Posture from Chill Dog (top): Head free, their ankles crossed behind your waist: what remains?",
+        "answer": "Posture recovery changes upper-body control. With the opponent's ankles crossed behind your waist, closed guard still remains; a free head does not complete a pass. Check the actual leg relationship rather than inferring a destination from the posture change.",
+        "answer_line": "Closed guard around your waist",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Half guard trapping one of your thighs",
+            "Side control beyond both of their knees"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Open guard with their feet separated"
           ]
         }
       },
       {
-        "question": "Posture from Chill Dog (attacker): What configuration must exist before this sequence?",
-        "answer": "The top player faces a bottom guard player using Chill Dog; the head, shoulder or arm may still be enclosed.",
-        "answer_line": "Check the starting configuration",
+        "question": "Chill Dog posture recovery: which starting enclosure must you escape?",
+        "answer": "The top player is freeing the head and arm from a bottom-player leg-and-arm clinch, not removing their own rear hooks.",
+        "answer_line": "Facing high guard with an isolated arm and neck clearance",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Their low crossed ankles with both arms framing inside",
+            "Their second-leg closure with no arm isolated"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Their head clasp after both high legs have lowered"
           ]
         }
       },
       {
-        "question": "Posture from Chill Dog (attacker): What distinguishes this control from a similar-looking position?",
-        "answer": "This is defense inside facing rubber guard. Closed or half guard depends on which lower-body connections remain; neither is guaranteed by raising the head.",
-        "answer_line": "Check the defining controls",
+        "question": "Posture from Chill Dog (top): What separates posturing from passing here?",
+        "answer": "A free head and elbow allow posture, but passing also requires moving beyond the guard player's remaining leg barriers.",
+        "answer_line": "The remaining knees and hips still need clearance",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "The inside elbow has already cleared their near knee",
+            "Head height determines whether the far hip is passed"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Shoulder pressure replaces clearing the remaining leg hook"
           ]
         }
       },
       {
-        "question": "Posture from Chill Dog (attacker): When should the partners stop or reset?",
-        "answer": "Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.",
-        "answer_line": "Release before unsafe loading",
+        "question": "Posture from Chill Dog (top): Your shoulder cannot move in the hug; what comes first?",
+        "answer": "A fixed shoulder must be released before elbow extraction; stop if joint pressure is already being applied.",
+        "answer_line": "Open the arm-and-leg connection before pulling back",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Pull farther until the elbow passes the knee",
+            "Raise the chest first to stretch the loop"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Draw only the wrist in while the knee hug stays tight"
           ]
         }
       }
@@ -434,72 +434,72 @@
     ],
     "flashcards": [
       {
-        "question": "Posture from Chill Dog (defender): What matters when you secure New York first?",
-        "answer": "Keep the opposing hand on the mat and hug the knee before changing the head-side grip.",
-        "answer_line": "Secure New York first",
+        "question": "Posture from Chill Dog (bottom): What denies their elbow an easy return inside?",
+        "answer": "The connected arm wrap and knee support retain New York isolation while the opponent attempts to recover posture.",
+        "answer_line": "Your overhook with the knee hugged over the arm",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Only a grip on the back of their head",
+            "A free foot on their hip with the arm uncovered"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "A knee held high after the overhook has loosened"
           ]
         }
       },
       {
-        "question": "Posture from Chill Dog (defender): What matters when you turn onto the hip?",
-        "answer": "Bring the knee toward the chest through hip movement so the neck-clearing motion does not twist the knee.",
-        "answer_line": "Turn onto the hip",
+        "question": "Posture from Chill Dog (bottom): How can you support the high leg as they lift?",
+        "answer": "Use hip angle and knee support to retain posture control while it remains comfortable; avoid pulling a distant foot.",
+        "answer_line": "Bring the knee forward by adjusting the hip",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Stay flat and haul the ankle toward your face",
+            "Let the knee drift backward while gripping higher"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Raise the ankle first and leave the knee behind"
           ]
         }
       },
       {
-        "question": "Posture from Chill Dog (defender): What matters when you clear the neck?",
-        "answer": "Move the controlling arm around the head while keeping the leg and trapped arm connected.",
-        "answer_line": "Clear the neck",
+        "question": "Posture from Chill Dog (bottom): What should remain cleared during their posture attempt?",
+        "answer": "Retain the cleared head-side connection along with the arm trap; allowing the head back inside can undo the Chill Dog checkpoint.",
+        "answer_line": "The head-side arm position around their head",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Their trapped hand moving onto your chest",
+            "Your forearm sliding outside their returning shoulder"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Your knee hug alone while the head-side grip returns across"
           ]
         }
       },
       {
-        "question": "Posture from Chill Dog (defender): What matters when you place the inside frame?",
-        "answer": "Use the forearm near the shoulder line to manage forward pressure; do not let the frame collapse across your own wrist.",
-        "answer_line": "Place the inside frame",
+        "question": "Posture from Chill Dog (bottom): Where does your forearm resist their return to center?",
+        "answer": "The inside forearm acts as a supported barrier against the opponent returning their head and shoulder into the space.",
+        "answer_line": "Inside near their shoulder and collarbone",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Outside the shoulder with your wrist folded",
+            "Along their outer upper arm with your elbow away"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Against their collarbone with your wrist folded beneath it"
           ]
         }
       },
       {
-        "question": "Posture from Chill Dog (defender): What matters when you maintain the arm trap?",
-        "answer": "Keep the knee hug while choosing further control such as Invisible Collar or an omoplata setup.",
-        "answer_line": "Maintain the arm trap",
+        "question": "Posture from Chill Dog (bottom): Their elbow is free and the high leg falls; what now?",
+        "answer": "Switch to guard retention as the old control opens, using the frame and hip movement to rebuild knee space.",
+        "answer_line": "Recover a knee behind an inside shoulder frame",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Keep reaching for the head with both hands",
+            "Leave the fallen leg outside while holding the wrist"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Regrip the fallen ankle before recovering the near knee"
           ]
         }
       }

@@ -68,50 +68,50 @@ description: "Crackhead Control to Mission Control (attacker): Maintain the orig
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Crackhead Control to Mission Control (attacker): Check the first shin connection?",
+      "name": "Crackhead to Mission (bottom): Which connection stays while the second leg opens?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Maintain the original high leg and supporting hand before opening the second leg."
+        "text": "Maintain the first high-leg and hand connection as the second-leg reinforcement is removed."
       }
     },
     {
       "@type": "Question",
-      "name": "Crackhead Control to Mission Control (attacker): What matters when you keep the hips close?",
+      "name": "Crackhead to Mission (bottom): How do you support the raised knee during the change?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Use the hip angle to support the raised knee without pulling on the foot."
+        "text": "Use hip angle to support the raised knee instead of pulling on the foot."
       }
     },
     {
       "@type": "Question",
-      "name": "Crackhead Control to Mission Control (attacker): What matters when you open the reinforcing leg?",
+      "name": "Crackhead to Mission (bottom): Which leg moves down in the return?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Lower the second leg deliberately while keeping the upper-body connection."
+        "text": "Lower the reinforcing leg deliberately while keeping the original high shin connected."
       }
     },
     {
       "@type": "Question",
-      "name": "Crackhead Control to Mission Control (attacker): What matters when you place a useful lower frame?",
+      "name": "Crackhead to Mission (bottom): Where should the newly freed leg become useful?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Return the free foot or leg to a comfortable guard frame instead of leaving both hips uncontrolled."
+        "text": "Return the free leg or foot to a comfortable lower guard frame while maintaining the upper connection."
       }
     },
     {
       "@type": "Question",
-      "name": "Crackhead Control to Mission Control (attacker): What matters when you track the inside arms?",
+      "name": "Crackhead to Mission (bottom): What can the opponent's remaining inside arms do?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Recognize that the opponent may still have both arms inside and can rebuild posture."
+        "text": "Both arms may still be inside after the reinforcing leg lowers; track them because they can help recover posture."
       }
     },
     {
       "@type": "Question",
-      "name": "Crackhead Control to Mission Control (attacker): What matters when you reset if posture is lost?",
+      "name": "Crackhead to Mission (bottom): The first shin no longer controls posture; what next?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Recover ordinary guard if the first high-leg connection no longer holds safely."
+        "text": "If the remaining high connection fails, rebuild ordinary guard instead of forcing the leg back into place."
       }
     }
   ]

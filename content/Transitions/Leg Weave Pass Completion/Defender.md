@@ -56,7 +56,7 @@ description: "Leg Weave Pass Completion (defender): The passer's arm connecting 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Leg Weave Pass Completion (defender): What matters when you recognize the arm weave?",
+      "name": "Leg Weave Pass Completion (bottom): Which early contact should you identify as the weave?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The passer's arm connecting your legs is the relevant control, not a leg threaded across your hip."
@@ -64,7 +64,7 @@ description: "Leg Weave Pass Completion (defender): The passer's arm connecting 
     },
     {
       "@type": "Question",
-      "name": "Leg Weave Pass Completion (defender): What matters when you keep the shield supported?",
+      "name": "Leg Weave Pass Completion (bottom): What prevents the shield becoming an unsupported knee?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Maintain a useful knee angle and upper-body frame before the passer folds the legs together."
@@ -72,7 +72,7 @@ description: "Leg Weave Pass Completion (defender): The passer's arm connecting 
     },
     {
       "@type": "Question",
-      "name": "Leg Weave Pass Completion (defender): What matters when you recover inside space?",
+      "name": "Leg Weave Pass Completion (bottom): With the weave loosening, how do you restore the knee barrier?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Move the hips and pummel the knee back between the bodies while the weave is still loose."
@@ -80,10 +80,10 @@ description: "Leg Weave Pass Completion (defender): The passer's arm connecting 
     },
     {
       "@type": "Question",
-      "name": "Leg Weave Pass Completion (defender): What matters when you deny upper-body collapse?",
+      "name": "Leg Weave Pass Completion (bottom): Why keep your shoulder free during late recovery?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Prevent the passer from flattening your shoulders while controlling the legs."
+        "text": "Avoid combining folded legs with a flat shoulder pin; keep a frame to recover facing space."
       }
     }
   ]

@@ -70,50 +70,50 @@ description: "Bow and Arrow Choke from Invisible Collar (attacker): Keep the tor
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Bow and Arrow Choke from Invisible Collar (attacker): What matters when you establish rear control?",
+      "name": "Bow-and-arrow after Invisible Collar: what should precede reaching for the jacket?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Keep the torso connected from behind before reaching for the collar."
+        "text": "Connect to the opponent's torso from behind. Keep the torso connected from behind before reaching for the collar."
       }
     },
     {
       "@type": "Question",
-      "name": "Bow and Arrow Choke from Invisible Collar (attacker): What matters when you take the collar grip?",
+      "name": "Bow-and-arrow attack: where should the choking hand establish its cloth grip?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Place the hand securely in the jacket collar without dragging the cloth across the face."
+        "text": "Securely in the jacket collar beside the neck. Place the hand securely in the jacket collar without dragging the cloth across the face."
       }
     },
     {
       "@type": "Question",
-      "name": "Bow and Arrow Choke from Invisible Collar (attacker): What matters when you control the lower body?",
+      "name": "Bow-and-arrow attack: what does the leg or trouser control restrain?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Use the available leg or trouser control to manage the opponent's hips."
+        "text": "The opponent's hips and lower body. Use the available leg or trouser control to manage the opponent's hips."
       }
     },
     {
       "@type": "Question",
-      "name": "Bow and Arrow Choke from Invisible Collar (attacker): What matters when you change the angle?",
+      "name": "Bow-and-arrow attack: how should your body angle change after the controls are established?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Turn the body gradually to create opposing collar and lower-body tension."
+        "text": "Turn gradually to oppose collar and lower-body tension. Turn the body gradually to create opposing collar and lower-body tension."
       }
     },
     {
       "@type": "Question",
-      "name": "Bow and Arrow Choke from Invisible Collar (attacker): What matters when you remove slack slowly?",
+      "name": "Bow-and-arrow attack: where does the arm hook for the stronger lower-body grip Kesting describes?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Use the connection to the torso rather than a sudden arm pull or neck twist."
+        "text": "Behind the opponent's knee. The primary explanation contrasts a knee grip with an arm hooked behind it. This lower-body restraint prevents the defender preserving easy alignment with the attacker."
       }
     },
     {
       "@type": "Question",
-      "name": "Bow and Arrow Choke from Invisible Collar (attacker): What matters when you open both controls?",
+      "name": "Bow-and-arrow attack: when should the collar and leg restraints open after a stop signal?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Release the collar and lower-body restraint immediately on any stop signal."
+        "text": "At the first signal, before any further body turn. Immediately release both the collar grip and the lower-body restraint. Do not keep turning while the partner remains connected to the choke."
       }
     }
   ]

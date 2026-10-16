@@ -202,114 +202,114 @@
     ],
     "flashcards": [
       {
-        "question": "Posture Recovery from Carni (attacker): What matters when you recognize the upper-body trap?",
-        "answer": "A leg clearing the head with an overhook is an upper-body trap, even if a butterfly hook remains below.",
-        "answer_line": "Recognize the upper-body trap",
+        "question": "Posture Recovery from Carni (top): Which structure must be freed before you lift the chest?",
+        "answer": "Carni threatens the shoulder; free the triceps and head-side leg connection before raising posture.",
+        "answer_line": "The shoulder in the leg-and-triceps clamp",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Only the wrist below the retained triceps",
+            "Only the head above the high knee"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Only the lower butterfly hook"
           ]
         }
       },
       {
-        "question": "Posture Recovery from Carni (attacker): What matters when you protect the captured limb?",
-        "answer": "Avoid reaching away while the opponent sets the triceps control.",
-        "answer_line": "Protect the captured limb",
+        "question": "Posture Recovery from Carni (top): Where should the elbow stay before triceps control closes?",
+        "answer": "Keep the elbow compact early rather than reaching into the developing shoulder clamp.",
+        "answer_line": "Close to the ribs rather than reaching away",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Straight across the opponent's torso",
+            "Behind your back while you turn out"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Above the opponent's head as a long post"
           ]
         }
       },
       {
-        "question": "Posture Recovery from Carni (attacker): What matters when you work before pressure engages?",
-        "answer": "Keep a balanced base and early inside frames; tap instead of moving against a completed choke or joint lock.",
-        "answer_line": "Work before pressure engages",
+        "question": "Posture Recovery from Carni (top): What forms an inside barrier before the shoulder clamp closes?",
+        "answer": "Use early inside frames while the shoulder can still move; a completed shoulder lock requires release.",
+        "answer_line": "Inside frames supported by a balanced base",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "A chest lift against the retained head-side leg",
+            "A wide post that leaves the upper arm outside"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "A wrist grip with the forearm outside the chest gap"
           ]
         }
       },
       {
-        "question": "Posture Recovery from Carni (attacker): What matters when you open the high enclosure?",
-        "answer": "Create slack at the hip and thigh while keeping the head and captured arm aligned.",
-        "answer_line": "Open the high enclosure",
+        "question": "Posture Recovery from Carni (top): How do you move while creating slack around the clamp?",
+        "answer": "Keep the head and captured arm aligned while opening space at the hip and thigh, rather than twisting through the clamp.",
+        "answer_line": "Keep the head and upper arm aligned",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Turn the head away while the elbow stays pinned",
+            "Pull the wrist behind your hip"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Rotate the chest before the shoulder can follow"
           ]
         }
       },
       {
-        "question": "Posture Recovery from Carni (attacker): What matters when you recover the elbow and posture?",
-        "answer": "Withdraw the shoulder and elbow only after the high leg connection has opened.",
-        "answer_line": "Recover the elbow and posture",
+        "question": "Posture Recovery from Carni (top): When should the elbow withdraw from the high leg?",
+        "answer": "Free the upper-body connection before withdrawing the shoulder and elbow together.",
+        "answer_line": "After the leg and triceps connection opens",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "While the wrist alone can move",
+            "As soon as a lower butterfly hook loosens"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "When the head can rise despite the arm trap"
           ]
         }
       },
       {
-        "question": "Posture Recovery from Carni (attacker): What matters when you confirm the next position?",
-        "answer": "Establish upright posture with the shoulder free only when the upper-body enclosure and relevant leg hooks have cleared.",
-        "answer_line": "Confirm the next position",
+        "question": "Posture Recovery from Carni (top): What confirms successful posture recovery?",
+        "answer": "Posture recovery requires actual shoulder release, not merely getting the head higher.",
+        "answer_line": "Chest upright with the shoulder freed",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "An upright head with the elbow still pinned",
+            "A lowered head-side leg with the triceps still fixed"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "A free wrist with the upper arm still clamped"
           ]
         }
       },
       {
-        "question": "Posture Recovery from Carni (attacker): What configuration must exist before this sequence?",
-        "answer": "The top player faces a bottom guard player using Carni; the head, shoulder or arm may still be enclosed.",
-        "answer_line": "Check the starting configuration",
+        "question": "Posture Recovery from Carni (top): What does the head-clearing leg plus overhook indicate?",
+        "answer": "Recognize the overhook and head-side leg as shoulder-control geometry even if a butterfly hook remains below.",
+        "answer_line": "An upper-body shoulder trap",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "A posture clinch with the upper arm free",
+            "A wrist-only grip with the elbow unrestrained"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "A head-only connection with the shoulder free"
           ]
         }
       },
       {
-        "question": "Posture Recovery from Carni (attacker): Check the defining controls?",
-        "answer": "Carni attacks the shoulder. A Saddle counter or lower-leg extraction is not implied by the configuration.",
-        "answer_line": "Check the defining controls",
+        "question": "Posture Recovery from Carni (top): Why can lifting before arm release worsen the position?",
+        "answer": "Lifting against the retained upper arm can increase shoulder rotation; clear that connection first.",
+        "answer_line": "Your torso moves while the clamped shoulder cannot follow",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Head height draws the triceps out of the clamp first",
+            "The captured elbow follows the chest through the high leg"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "The lower hook takes the load while the shoulder stays neutral"
           ]
         }
       }
@@ -412,58 +412,58 @@
     ],
     "flashcards": [
       {
-        "question": "Posture Recovery from Carni (defender): What matters when you set the upper-body angle?",
-        "answer": "Use the guard and shoulder connection to bring the opponent close before moving the high leg.",
-        "answer_line": "Set the upper-body angle",
+        "question": "Posture Recovery from Carni (bottom): What keeps the opponent close while you arrange the leg?",
+        "answer": "Use the guard and close shoulder relationship before moving the high leg.",
+        "answer_line": "A close knee and shoulder connection",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Only a distant wrist grip with straight arms",
+            "Flat hips with the high knee reaching away"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "A head grip while the knee drifts outside the shoulder"
           ]
         }
       },
       {
-        "question": "Posture Recovery from Carni (defender): What matters when you frame before clearing?",
-        "answer": "Manage the shoulder and neck line with a forearm frame as the leg clears the head.",
-        "answer_line": "Frame before clearing",
+        "question": "Posture Recovery from Carni (bottom): Where does the forearm prevent incoming chest pressure?",
+        "answer": "The neck-side forearm frame creates room while the head-side leg clears.",
+        "answer_line": "Inside at the side of the opponent's neck",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Outside their upper arm with no torso barrier",
+            "On their near wrist with the forearm low"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Behind their shoulder with the elbow outside"
           ]
         }
       },
       {
-        "question": "Posture Recovery from Carni (defender): What matters when you anchor through the hips?",
-        "answer": "Turn partly belly down with the knee close and foot supported rather than wrenching the leg across the head.",
-        "answer_line": "Anchor through the hips",
+        "question": "Posture Recovery from Carni (bottom): Which anchor helps keep the shoulder from rising?",
+        "answer": "Martinez's supported foot and close knee anchor the partly belly-down shoulder-control angle.",
+        "answer_line": "Close knee, supported foot, hips partly down",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "A floating foot with the knee wide",
+            "Both feet crossed below the opponent's waist"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "A neck pull with the hips far away"
           ]
         }
       },
       {
-        "question": "Posture Recovery from Carni (defender): What matters when you hold the triceps?",
-        "answer": "Keep the captured arm connected so the opponent cannot freely roll or withdraw the shoulder.",
-        "answer_line": "Hold the triceps",
+        "question": "Posture Recovery from Carni (bottom): The shoulder has escaped; how do you protect guard?",
+        "answer": "Once the clamp opens, use an inside frame and hip movement to return a knee shield rather than chasing the freed arm.",
+        "answer_line": "Release the arm chase and frame while returning a knee",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Follow the free wrist with both arms extended",
+            "Keep turning while a remnant wrist grip stays fixed"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Leave both knees outside as chest pressure settles"
           ]
         }
       }

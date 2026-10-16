@@ -50,42 +50,42 @@ description: "Guard Recovery from Zombie (defender): Keep a useful forearm betwe
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Guard Recovery from Zombie (defender): What matters when you maintain inside frames?",
+      "name": "Guard Recovery from Zombie (top): How can you deny the next hand-clearing attempt?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Keep a useful forearm between the bodies before the bottom player gains the hand-clearing path."
+        "text": "The inside forearm blocks the bottom player's path under your hand before the knee hug can fix the arm outside."
       }
     },
     {
       "@type": "Question",
-      "name": "Guard Recovery from Zombie (defender): What matters when you keep elbow and hand connected?",
+      "name": "Guard Recovery from Zombie (top): How do you restore the whole forearm as the hand returns?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Move the whole arm rather than leaving the wrist exposed while the elbow remains fixed."
+        "text": "Recover hand and elbow as one arm through available space; leaving the elbow fixed keeps the shoulder exposed."
       }
     },
     {
       "@type": "Question",
-      "name": "Guard Recovery from Zombie (defender): What matters when you notice the pummel early?",
+      "name": "Guard Recovery from Zombie (top): When is the early hand-recovery window?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The free hand working under yours is the cue to recover inside position before the knee hug closes."
+        "text": "The pummeling hand under yours signals the early window; recover inside before the overhook and knee hug close."
       }
     },
     {
       "@type": "Question",
-      "name": "Guard Recovery from Zombie (defender): What matters when you recover without yanking?",
+      "name": "Guard Recovery from Zombie (top): Which elbow position limits renewed arm isolation?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Retract the elbow toward your ribs through available space, stopping if the shoulder is caught."
+        "text": "Bringing the elbow toward the ribs restores an inside frame if the high-leg connection permits the shoulder to move."
       }
     },
     {
       "@type": "Question",
-      "name": "Guard Recovery from Zombie (defender): What matters when you rebuild posture gradually?",
+      "name": "Guard Recovery from Zombie (top): What separates posture recovery from a guard pass?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Raise the chest after freeing the arm and reducing the high-leg control."
+        "text": "After the high connection opens, raising your chest recovers posture; you still need to clear the remaining guard to pass."
       }
     }
   ]

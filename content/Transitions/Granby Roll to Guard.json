@@ -192,170 +192,170 @@
     ],
     "flashcards": [
       {
-        "question": "Granby Roll to Guard (attacker): What matters when you release the Buggy loop?",
+        "question": "Granby Roll to Guard (bottom): What must you do if lifted while holding the Buggy loop?",
         "answer": "Let go when the partner begins lifting you from the mat; do not hang from the choke or invite a slam.",
-        "answer_line": "Release the Buggy loop",
+        "answer_line": "Open the arm-leg connection and disengage",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Unclasp the hands but retain the hooked elbow",
+            "Remove the hip frame while keeping the leg loop shut"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Wait until your torso is level before releasing"
           ]
         }
       },
       {
-        "question": "Granby Roll to Guard (attacker): What matters when you restore shoulder and hip frames?",
-        "answer": "Create distance while keeping the head free and the knees available to return inside.",
-        "answer_line": "Restore shoulder and hip frames",
+        "question": "Granby Roll to Guard (bottom): After release, what creates space for a knee to return?",
+        "answer": "Use forearm frames and lateral hip movement to make space before bringing a knee between the bodies.",
+        "answer_line": "Shoulder and hip frames with a short hip escape",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Both hands chasing the lost foot grip",
+            "A straight-arm push with the hips left pinned"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Move the shoulders while keeping both hips pinned"
           ]
         }
       },
       {
-        "question": "Granby Roll to Guard (attacker): What matters when you check the rolling prerequisite?",
+        "question": "Granby Roll to Guard (bottom): What separate condition is needed before a shoulder roll?",
         "answer": "Use a shoulder roll only if a coach has established safe space and an untrapped upper back.",
-        "answer_line": "Check the rolling prerequisite",
+        "answer_line": "Free head and limbs with an unobstructed shoulder path",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "A free head while one arm remains pinned beneath the chest",
+            "Free limbs while the near shoulder stays pinned flat"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "An open shoulder path with the old arm-leg loop still linked"
           ]
         }
       },
       {
-        "question": "Granby Roll to Guard (attacker): What matters when you keep weight off the neck?",
+        "question": "Granby Roll to Guard (bottom): Which surface should carry a permitted shoulder roll?",
         "answer": "Do not plant the head or roll over the cervical spine to force guard recovery.",
-        "answer_line": "Keep weight off the neck",
+        "answer_line": "The shoulder and upper back",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "The neck first, then the far shoulder",
+            "The point of the elbow beneath your ribs"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "The lower back with both shoulders kept flat"
           ]
         }
       },
       {
-        "question": "Granby Roll to Guard (attacker): What matters when you bring the knees back inside?",
+        "question": "Granby Roll to Guard (bottom): What do you insert when facing space opens?",
         "answer": "Face the opponent and insert the legs when the space opens.",
-        "answer_line": "Bring the knees back inside",
+        "answer_line": "Knees and legs between your torso and the opponent",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Feet outside their hips with both knees pointing away",
+            "Both knees beside their ribs rather than between the bodies"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Hands on their shoulders with the knees still outside"
           ]
         }
       },
       {
-        "question": "Granby Roll to Guard (attacker): What matters when you settle the recovered guard?",
-        "answer": "Stabilize open or closed guard according to the available leg connection rather than assuming either result.",
-        "answer_line": "Settle the recovered guard",
+        "question": "Granby Roll to Guard (bottom): What confirms a basic closed-guard landing after recovery?",
+        "answer": "Stabilize open or closed guard according to the available leg connection rather than assuming either result. In a basic closed-guard landing you face the opponent with your legs enclosing the torso and your ankles crossed behind. Knees inside with unjoined feet establish an open guard instead; neither landing follows automatically from a roll.",
+        "answer_line": "Legs around their torso with your ankles crossed behind",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Knees inside with both feet separate on their hips",
+            "Ankles crossed around only one of their thighs"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Knees beside their ribs with both feet dangling apart"
           ]
         }
       },
       {
-        "question": "Granby Roll to Guard (attacker): What configuration must exist before this sequence?",
+        "question": "Granby Roll to Guard (bottom): What prevents forcing a roll from the original setup?",
         "answer": "The bottom player must have space to move over the shoulder without a trapped neck, arm or knee.",
-        "answer_line": "Check the starting configuration",
+        "answer_line": "A neck, arm or knee still fixed in the exchange",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "A free arm beside an unpinned shoulder",
+            "Space between the hips after the loop opens"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "The head and arms moving freely with the upper back"
           ]
         }
       },
       {
-        "question": "Granby Roll to Guard (attacker): What distinguishes this control from a similar-looking position?",
-        "answer": "Buggy Choke bottom is the holder of the choke, not a turtle defender under an upper-body ride. The reviewed Buggy instruction supports framing and recovering guard when the opponent disengages; it does not establish a direct Granby entry.",
-        "answer_line": "Check the defining controls",
+        "question": "Granby reset after Buggy (bottom): Why use a hip escape when the shoulder path remains blocked?",
+        "answer": "The sourced fallback is framed guard recovery when the choke opens. If chest pressure blocks a freely moving shoulder path, use a short hip escape and recover knee space instead of forcing the proposed roll.",
+        "answer_line": "Frames make knee space without rolling the pinned torso",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Hip movement clears the pinned shoulder without any frame",
+            "Knee recovery requires rolling over the blocked shoulder first"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "The closed Buggy grip supplies the frame needed for a hip escape"
           ]
         }
       },
       {
-        "question": "Granby Roll to Guard (attacker): When should the partners stop or reset?",
-        "answer": "Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.",
-        "answer_line": "Release before unsafe loading",
+        "question": "Granby Roll to Guard (bottom): The shoulder path closes under chest pressure. What is appropriate?",
+        "answer": "A shoulder roll remains conditional; when space closes, return to framed guard recovery.",
+        "answer_line": "Rebuild frames and knee space instead of forcing the roll",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Start the roll before the shoulder pin settles fully",
+            "Move the hips over while leaving the blocked arm underneath"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Keep the old leg grip and try the opposite rolling direction"
           ]
         }
       },
       {
-        "question": "Granby Roll to Guard (attacker): What should a cooperative first drill establish?",
-        "answer": "Identify the starting configuration and rehearse the first connection without finishing pressure. Let go when the partner begins lifting you from the mat; do not hang from the choke or invite a slam.",
-        "answer_line": "Rehearse the first connection",
+        "question": "Granby Roll to Guard (bottom): What is the first grounded recovery checkpoint after releasing?",
+        "answer": "Re-establish frames and hip mobility before considering any shoulder roll or guard closure.",
+        "answer_line": "Forearms between the bodies with room to move the hips",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "A hip shift with both forearms still outside the opponent",
+            "A hand on the shoulder with the near hip still pinned"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "A returning knee while both hands chase the released leg"
           ]
         }
       },
       {
-        "question": "Granby Roll to Guard (attacker): What should be checked before changing direction?",
+        "question": "Granby Roll to Guard (bottom): One arm is still pinned. What must happen before rolling?",
         "answer": "Confirm that the captured neck or limb can move freely. Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.",
-        "answer_line": "Free the captured neck or limb",
+        "answer_line": "Free the arm so it can follow the body",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Rotate the chest while leaving the wrist fixed",
+            "Shift your hips first and let the pinned arm follow later"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Free the head while leaving the arm beneath their chest"
           ]
         }
       },
       {
-        "question": "Granby Roll to Guard (attacker): How should the next position be confirmed?",
-        "answer": "Check the actual body relationship rather than assuming the technique name guarantees a destination. Buggy Choke bottom is the holder of the choke, not a turtle defender under an upper-body ride. The reviewed Buggy instruction supports framing and recovering guard when the opponent disengages; it does not establish a direct Granby entry.",
-        "answer_line": "Confirm the actual position",
+        "question": "Granby Roll to Guard (bottom): What confirms guard recovery after any allowed movement?",
+        "answer": "Check the final body relationship: the opponent should face your frames and legs, not have unobstructed torso access.",
+        "answer_line": "Facing the opponent with a usable leg barrier",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Landing on the knees while facing away",
+            "Passing the head under them with no knee inside"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Completing one roll regardless of where the legs land"
           ]
         }
       }
@@ -467,72 +467,72 @@
     ],
     "flashcards": [
       {
-        "question": "Granby Roll to Guard (defender): What matters when you recognize the loop early?",
+        "question": "Granby Roll to Guard (top): Which bottom-player motion needs early attention?",
         "answer": "Watch for an arm reaching past your head and connecting to the same-side leg.",
-        "answer_line": "Recognize the loop early",
+        "answer_line": "Their arm reaches around your head toward their leg",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Their arm cups your head while their leg stays low",
+            "Their knee rises with the linking arm still below your chest"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Their hand grips their knee with your head outside"
           ]
         }
       },
       {
-        "question": "Granby Roll to Guard (defender): What matters when you prevent hand-leg connection?",
+        "question": "Granby Roll to Guard (top): Before the loop closes, what can obstruct it?",
         "answer": "Use balanced posture and safe inside frames before the loop closes.",
-        "answer_line": "Prevent hand-leg connection",
+        "answer_line": "Supported posture and a safe inside frame",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "A frame outside their linking arm with the inside path open",
+            "A crossface reach while both knees drift off the mat"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "A hand checking the hip after the head loop closes"
           ]
         }
       },
       {
-        "question": "Granby Roll to Guard (defender): What matters when you protect the neck?",
+        "question": "Granby Roll to Guard (top): Why is your neck still a concern while you are on top?",
         "answer": "Treat the choke as live even though you hold top side control.",
-        "answer_line": "Protect the neck",
+        "answer_line": "The bottom arm-leg loop can enclose it",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "The top shoulder pin keeps the linking elbow away",
+            "Their hip movement proves the hand-leg connection has opened"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "The hip pin stops the raised leg reaching your head"
           ]
         }
       },
       {
-        "question": "Granby Roll to Guard (defender): What matters when you clear before circling?",
+        "question": "Granby Roll to Guard (top): What must happen before following their movement to a new pin?",
         "answer": "Free the head-and-arm enclosure before changing to north-south or chasing another pin.",
-        "answer_line": "Clear before circling",
+        "answer_line": "Your head and arm clear the existing loop",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Only their hips turn toward the mat",
+            "Your far knee steps outside their leg"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Your chin presses tightly into the chest"
           ]
         }
       },
       {
-        "question": "Granby Roll to Guard (defender): What matters when you do not slam or wrench?",
+        "question": "Granby Roll to Guard (top): How should you respond if the loop is secured?",
         "answer": "Avoid lifting, dropping, or twisting the partner's trapped leg to force an escape.",
-        "answer_line": "Do not slam or wrench",
+        "answer_line": "Keep a stable base and tap for release",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Keep the base and wait for the hand grip to tire",
+            "Circle toward the head with your neck held in place"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Open only the hand clasp and continue turning"
           ]
         }
       }

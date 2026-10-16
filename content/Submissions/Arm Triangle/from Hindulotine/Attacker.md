@@ -70,50 +70,50 @@ description: "Arm Triangle from Hindulotine (attacker): Establish a stable pin o
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Arm Triangle from Hindulotine (attacker): What matters when you obtain head-and-arm access?",
+      "name": "Arm Triangle after Hindu Control: which direction should the opponent's trapped arm cross?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Establish a stable pin or equivalent control with one opposing arm across the neck."
+        "text": "Across the front of their neck. Establish a stable pin or equivalent control with one opposing arm crossing toward the other side. Their shoulder and your upper arm must then enclose the neck without twisting it."
       }
     },
     {
       "@type": "Question",
-      "name": "Arm Triangle from Hindulotine (attacker): What matters when you wrap the head?",
+      "name": "Arm Triangle attack: where does your upper arm lie relative to the trapped shoulder?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Place the attacking upper arm beside one side of the neck without levering the head backward."
+        "text": "On the opposite side of the neck. The attacking upper arm and the opponent's own shoulder form the two sides of the enclosure. Preserve head alignment when placing the arm."
       }
     },
     {
       "@type": "Question",
-      "name": "Arm Triangle from Hindulotine (attacker): What matters when you keep the shoulder enclosed?",
+      "name": "Arm Triangle attack: what must you prevent the trapped arm from doing?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Prevent the trapped arm from returning between the bodies while keeping the elbow comfortable."
+        "text": "Returning between your two bodies. Prevent the trapped arm from returning between the bodies while keeping the elbow comfortable."
       }
     },
     {
       "@type": "Question",
-      "name": "Arm Triangle from Hindulotine (attacker): What matters when you connect the support hand?",
+      "name": "Arm Triangle attack: what should joining the supporting hand preserve?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Close the arm loop without changing the neck into a twisting position."
+        "text": "A closed arm loop with the neck aligned. Close the arm loop without changing the neck into a twisting position."
       }
     },
     {
       "@type": "Question",
-      "name": "Arm Triangle from Hindulotine (attacker): What matters when you adjust the body angle?",
+      "name": "Arm Triangle attack: how should you reduce space around the trapped shoulder?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Remove space around the shoulder through a small positional adjustment rather than a forceful squeeze."
+        "text": "Adjust your body angle in a small controlled movement. Remove space around the shoulder through a small positional adjustment rather than a forceful squeeze."
       }
     },
     {
       "@type": "Question",
-      "name": "Arm Triangle from Hindulotine (attacker): What matters when you release at the first signal?",
+      "name": "Arm Triangle attack: how do you remove the restraint on a tap?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Open the arm loop and take pressure off the trapped shoulder immediately."
+        "text": "Open the arm loop and unload the trapped shoulder. Open the arm loop and take pressure off the trapped shoulder immediately."
       }
     }
   ]

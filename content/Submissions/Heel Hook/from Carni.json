@@ -224,115 +224,115 @@
     ],
     "flashcards": [
       {
-        "question": "Heel Hook from Carni (attacker): What matters when you verify the entanglement?",
-        "answer": "Confirm that the opponent's leg, rather than an arm or shoulder, is enclosed.",
-        "answer_line": "Verify the entanglement",
+        "question": "Heel hook after Carni: which opposing limb replaces the original arm as the captured target?",
+        "answer": "A single opposing lower limb in leg control. A genuine leg entanglement must be established after leaving Carni's shoulder control. The original wrist-and-triceps clamp does not provide the heel hook.",
+        "answer_line": "A single opposing lower limb in leg control",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "The same upper arm without a lower-body capture",
+            "Both arms within the high guard triangle"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "The near shoulder inside the existing overhook"
           ]
         }
       },
       {
-        "question": "Heel Hook from Carni (attacker): What matters when you control the hip?",
-        "answer": "Manage distance so the leg cannot move freely through the hold.",
-        "answer_line": "Control the hip",
+        "question": "Heel-hook attack: what is the purpose of controlling the opponent's hip?",
+        "answer": "Limit the leg sliding freely through the entanglement. Hip control manages distance and limits the leg moving freely through the hold. It works with knee-line containment and heel control; it does not replace either of them.",
+        "answer_line": "Limit the leg sliding freely through the entanglement",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Let the knee travel while you hold only the heel",
+            "Pull the foot away while leaving their pelvis free"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Twist the knee sideways to replace proximal control"
           ]
         }
       },
       {
-        "question": "Heel Hook from Carni (attacker): What matters when you contain the knee line?",
-        "answer": "Keep the knee connected to the entanglement without forcing sideways pressure in a drill.",
-        "answer_line": "Contain the knee line",
+        "question": "Heel-hook attack: what should happen to the knee line in an unloaded control drill?",
+        "answer": "Stay contained without sideways knee pressure. Keep the knee connected to the entanglement without forcing sideways pressure in a drill.",
+        "answer_line": "Stay contained without sideways knee pressure",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Be pulled sideways while the foot stays fixed",
+            "Slide freely beyond the entangling legs"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Be ignored once a fingertip touches the heel"
           ]
         }
       },
       {
-        "question": "Heel Hook from Carni (attacker): What matters when you identify the exposed heel?",
-        "answer": "Locate the heel lever without cranking the foot to expose it.",
-        "answer_line": "Identify the exposed heel",
+        "question": "Heel-hook attack: how should you locate the heel lever?",
+        "answer": "Use an exposed heel without cranking the foot into view. Locate the heel lever without cranking the foot to expose it.",
+        "answer_line": "Use an exposed heel without cranking the foot into view",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Twist the toes until the heel emerges against resistance",
+            "Turn the captured knee while holding the ankle still"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Pull the foot sideways from a planted kneecap"
           ]
         }
       },
       {
-        "question": "Heel Hook from Carni (attacker): What matters when you practice capture only?",
-        "answer": "Connect the grip with no finishing rotation; a secure heel catch is the stopping point in cooperative practice.",
-        "answer_line": "Practice capture only",
+        "question": "Heel-hook practice: where should a cooperative repetition stop?",
+        "answer": "At a secure heel catch with no finishing rotation. Connect the grip with no finishing rotation; a secure heel catch is the stopping point in cooperative practice.",
+        "answer_line": "At a secure heel catch with no finishing rotation",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "After the heel has turned far enough to move the knee",
+            "At the first report of sharp joint pain"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Once the opponent must spin to follow the lock"
           ]
         }
       },
       {
-        "question": "Heel Hook from Carni (attacker): What matters when you release before turning?",
-        "answer": "Open the heel grip and leg connection before either partner changes direction.",
-        "answer_line": "Release before turning",
+        "question": "Heel-hook attack: what must release before either partner changes turning direction?",
+        "answer": "The heel grip and leg connection. Open the heel grip and leg connection before either partner changes direction.",
+        "answer_line": "The heel grip and leg connection",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Only the outside hand while the heel stays trapped",
+            "Only the free foot while the knee remains contained"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Only the pressure on the calf"
           ]
         },
         "safety_critical": true
       },
       {
-        "question": "Heel Hook from Carni (attacker): What configuration must exist before this sequence?",
-        "answer": "The attacker has a genuine leg entanglement with the knee line contained and the heel accessible to a controlled upper-body grip.",
-        "answer_line": "Check the starting configuration",
+        "question": "Heel-hook attack: which joint at the upper end of the leg needs proximal control?",
+        "answer": "The hip above the captured knee. Proximal control manages movement near the pelvis while knee and foot controls act farther along the leg. The three contacts serve different roles.",
+        "answer_line": "The hip above the captured knee",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "The ankle below the enclosed heel",
+            "The foot beyond the knee line"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "The knee alone with the thigh free to travel"
           ]
         }
       },
       {
-        "question": "Heel Hook from Carni (attacker): What distinguishes this control from a similar-looking position?",
-        "answer": "Carni isolates a shoulder with a high leg. A heel-hook attack requires releasing or leaving that configuration and establishing separate hip, knee and heel control.",
-        "answer_line": "Check the defining controls",
+        "question": "Heel hook after Carni: which joint did the original wrist-and-triceps clamp threaten?",
+        "answer": "The shoulder within the upper-body clamp. Carni is a shoulder attack. Release or leave that structure before separately establishing hip, knee and heel controls for a heel hook.",
+        "answer_line": "The shoulder within the upper-body clamp",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "The knee behind a compression fulcrum",
+            "The ankle within a rotated foot enclosure"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "The hip inside a lower-leg triangle"
           ]
         }
       }
@@ -443,72 +443,72 @@
     ],
     "flashcards": [
       {
-        "question": "Heel Hook from Carni (defender): What matters when you recognize the heel catch?",
-        "answer": "An exposed heel captured while the knee is contained is a joint-lock threat even without pain.",
-        "answer_line": "Recognize the heel catch",
+        "question": "Heel-hook defense: which combination is a serious warning even before pain?",
+        "answer": "Your heel caught while the knee line is contained. An exposed heel captured while the knee is contained is a joint-lock threat even without pain.",
+        "answer_line": "Your heel caught while the knee line is contained",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Your calf touched while the foot and knee remain free",
+            "Your free ankle resting on the mat"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "The opponent's hands detached from your foot"
           ]
         }
       },
       {
-        "question": "Heel Hook from Carni (defender): What matters when you deny exposure early?",
-        "answer": "Manage foot position and hand fight while the attacker still lacks a closed grip.",
-        "answer_line": "Deny exposure early",
+        "question": "Heel-hook defense: while the grip is still open, what should you contest?",
+        "answer": "Foot exposure and the hands collecting the heel. Manage foot position and hand fight while the attacker still lacks a closed grip.",
+        "answer_line": "Foot exposure and the hands collecting the heel",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Only the opponent's far shoulder",
+            "Only your own free knee behind their hips"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "The mat with both hands while offering the heel"
           ]
         }
       },
       {
-        "question": "Heel Hook from Carni (defender): What matters when you recover the knee line early?",
-        "answer": "Withdraw the leg only while the foot is not fixed and there is space in the entanglement.",
-        "answer_line": "Recover the knee line early",
+        "question": "Heel-hook defense: when is early knee-line withdrawal available?",
+        "answer": "When the foot is unfixed and the entanglement has space. Withdraw the leg only while the foot is not fixed and there is space in the entanglement.",
+        "answer_line": "When the foot is unfixed and the entanglement has space",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "While the heel is held tightly and the knee cannot move",
+            "After spinning the torso against the fixed foot"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Only after the knee reaches its rotational limit"
           ]
         }
       },
       {
-        "question": "Heel Hook from Carni (defender): What matters when you avoid blind rotation?",
-        "answer": "Never spin the torso against a held heel in an attempt to guess an escape direction.",
-        "answer_line": "Avoid blind rotation",
+        "question": "Heel-hook defense: why is guessing an escape direction by spinning dangerous?",
+        "answer": "The held heel can make the knee absorb your body's turn. Never spin the torso against a held heel in an attempt to guess an escape direction.",
+        "answer_line": "The held heel can make the knee absorb your body's turn",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Every spin peels the heel grip before the knee moves",
+            "A captured heel disconnects the ankle from the knee"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "The lock becomes harmless if you turn fast enough"
           ]
         }
       },
       {
-        "question": "Heel Hook from Carni (defender): What matters when you tap before pain?",
-        "answer": "Stop at a secured rotational capture rather than testing the joint's remaining range.",
-        "answer_line": "Tap before pain",
+        "question": "Heel-hook defense: what warning should you not wait for once the rotational capture is secure?",
+        "answer": "Pain or a test of the joint's remaining range. Tap early to a secured rotational capture instead of testing how far it can move. Absence of pain is not evidence of a safe escape direction.",
+        "answer_line": "Pain or a test of the joint's remaining range",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Recognition that the heel is already contained",
+            "The first sign that the leg cannot follow your torso"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "The attacker establishing the rotation-controlling grip"
           ]
         }
       }

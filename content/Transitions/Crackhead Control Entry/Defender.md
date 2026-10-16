@@ -56,42 +56,42 @@ description: "Crackhead Control Entry (defender): Avoid extending an arm between
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Crackhead Control Entry (defender): What matters when you keep the elbows compact?",
+      "name": "Crackhead Control Entry (top): Which elbow position limits easy arm isolation?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Avoid extending an arm between the high legs where it can be isolated."
+        "text": "Avoid straightening an arm between the high legs; keep the elbow compact while responding to the entry."
       }
     },
     {
       "@type": "Question",
-      "name": "Crackhead Control Entry (defender): What matters when you recognize the reinforcement?",
+      "name": "Crackhead Control Entry (top): What does the second high leg add to the first shin grip?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "A second leg climbing behind your head increases the posture-control problem."
+        "text": "Recognize the second leg as reinforcement of upper-body posture control before trying to lift."
       }
     },
     {
       "@type": "Question",
-      "name": "Crackhead Control Entry (defender): What matters when you control the hip line early?",
+      "name": "Crackhead Control Entry (top): When can a hip or thigh frame interrupt the second-leg climb?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Build a balanced base and an early hip frame before the high clinch closes."
+        "text": "An early hip or thigh frame with balanced base can preserve space before the high clinch closes."
       }
     },
     {
       "@type": "Question",
-      "name": "Crackhead Control Entry (defender): What matters when you clear the upper enclosure?",
+      "name": "Crackhead Control Entry (top): What precedes standing tall or extracting an arm?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Undo the high-leg connection before attempting to stand tall or extract an arm."
+        "text": "Clear the high enclosure before posture recovery or arm extraction; do not pull against a retained shoulder connection."
       }
     },
     {
       "@type": "Question",
-      "name": "Crackhead Control Entry (defender): What matters when you keep a safe spine?",
+      "name": "Crackhead Control Entry (top): What can forward stacking do while the high clinch stays closed?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Do not answer the clinch by driving the partner onto the neck."
+        "text": "Do not use a neck stack to answer the high clinch. Address the upper-body connection with balanced control."
       }
     }
   ]

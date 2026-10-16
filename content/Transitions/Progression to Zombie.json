@@ -189,142 +189,142 @@
     ],
     "flashcards": [
       {
-        "question": "Progression to Zombie (attacker): What matters when you keep Mission Control?",
-        "answer": "Maintain posture control while freeing the other arm for the pummel.",
-        "answer_line": "Keep Mission Control",
+        "question": "Progression to Zombie (bottom): What has to be lost before New York needs Zombie again?",
+        "answer": "Zombie normally creates New York. A renewed attempt requires the opponent to have recovered the hand or forearm inside.",
+        "answer_line": "The arm isolation, with their hand back inside",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Only your free foot's contact with the mat",
+            "The second leg's high closure behind the head"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "The head-side grip while the hand stays under the knee hug"
           ]
         }
       },
       {
-        "question": "Progression to Zombie (attacker): What matters when you find inside space?",
-        "answer": "Work through the opening near the hand rather than forcing a tightly clamped elbow straight outward.",
-        "answer_line": "Find inside space",
+        "question": "Progression to Zombie (bottom): What holds posture while you re-pummel?",
+        "answer": "Keep posture broken with a supported high leg so the free arm can work on the hand opening.",
+        "answer_line": "The supported Mission Control leg-and-hand connection",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Both hands pulling the wrist with the leg down",
+            "A high ankle hold with the knee drifting behind"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "A supported knee with the head-side hand released"
           ]
         }
       },
       {
-        "question": "Progression to Zombie (attacker): What matters when you move the hand to the mat?",
-        "answer": "Guide the wrist and forearm through the available space without bending individual fingers.",
-        "answer_line": "Move the hand to the mat",
+        "question": "Progression to Zombie (bottom): Where does Eddy begin against a tight elbow clamp?",
+        "answer": "The hand-first version seeks the weaker opening under the hand rather than prying directly beneath the clamped elbow.",
+        "answer_line": "Beneath the opponent's hand",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "At the tight underside of the elbow",
+            "Over the top of their wrist"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Between the elbow and your ribs"
           ]
         }
       },
       {
-        "question": "Progression to Zombie (attacker): What matters when you prevent the return pummel?",
-        "answer": "Cover the cleared arm and close the knee hug as the hand reaches the mat.",
-        "answer_line": "Prevent the return pummel",
+        "question": "Progression to Zombie (bottom): How should the cleared hand travel?",
+        "answer": "The pummel moves the wrist and forearm through available space so the inside frame becomes an outside arm.",
+        "answer_line": "Outside toward the mat with the forearm guided",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Straight back onto the opponent's own chest",
+            "Straight upward with the forearm still inside"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Toward your centerline beneath the opponent's chest"
           ]
         }
       },
       {
-        "question": "Progression to Zombie (attacker): What matters when you recognize New York?",
-        "answer": "Once the arm is isolated, maintain that new control instead of repeatedly treating Zombie as a separate leg entanglement.",
-        "answer_line": "Recognize New York",
+        "question": "Progression to Zombie (bottom): What locks in the pummel's positional gain?",
+        "answer": "The hand reaching the mat is followed by arm coverage and knee support so the opponent cannot easily re-pummel inside.",
+        "answer_line": "Cover the arm and hug the raised knee",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Leave the arm uncovered while changing both grips",
+            "Drop the high leg before securing the arm"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Hold the wrist down without closing over the elbow"
           ]
         }
       },
       {
-        "question": "Progression to Zombie (attacker): What matters when you reset a blocked attempt?",
-        "answer": "Keep a safe guard and look for another opening when the opponent maintains inside frames.",
-        "answer_line": "Reset a blocked attempt",
+        "question": "Progression to Zombie (bottom): Their hand circles back inside; what was missing?",
+        "answer": "The pummel must close the return path with the arm wrap and supported knee; lifting the hand alone can leave it recoverable.",
+        "answer_line": "Arm coverage as the knee hug closed",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "A higher ankle grip while the elbow stayed uncovered",
+            "A tighter head pull with the knee away from the arm"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "A wrist lift that stopped before covering the forearm"
           ]
         }
       },
       {
-        "question": "Progression to Zombie (attacker): What configuration must exist before this sequence?",
-        "answer": "The bottom guard player begins in New York, facing a top player whose posture is controlled.",
-        "answer_line": "Check the starting configuration",
+        "question": "Progression to Zombie (bottom): Their inside frames stay intact; what is a sound reset?",
+        "answer": "A blocked hand path calls for retaining guard and waiting for another opening, rather than forcing the elbow clamp.",
+        "answer_line": "Preserve guard and rebuild an opening near the hand",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Abandon the guard while pulling the elbow outward",
+            "Circle both arms behind their back"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Keep digging beneath the elbow after the hand opening closes"
           ]
         }
       },
       {
-        "question": "Progression to Zombie (attacker): What distinguishes this control from a similar-looking position?",
-        "answer": "Completed New York already contains the result of the Zombie pummel. First recognize a lost arm isolation and re-establish Mission Control rather than treating Zombie as a later static lockdown.",
-        "answer_line": "Check the defining controls",
+        "question": "Progression to Zombie (bottom): What configuration confirms the pummel succeeded?",
+        "answer": "The success checkpoint is New York arm isolation supported by the high leg; Zombie is the action that creates it.",
+        "answer_line": "Hand on mat with the arm wrapped under the knee hug",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Both forearms framing inside against your chest",
+            "Hand on the mat with the elbow still across your chest"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Wrist held outside while the knee floats clear of the arm"
           ]
         }
       },
       {
-        "question": "Progression to Zombie (attacker): When should the partners stop or reset?",
-        "answer": "Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.",
-        "answer_line": "Release before unsafe loading",
+        "question": "Progression to Zombie (bottom): Posture breaks free during the pummel; what comes first?",
+        "answer": "Recover guard structure when the high connection fails, rather than continuing to chase the arm while the torso gap opens.",
+        "answer_line": "Inside frames and knee recovery",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "The next neck-clearing grip before knee space",
+            "A two-handed wrist pull with both knees outside"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "A fresh ankle grip before the near knee returns"
           ]
         }
       },
       {
-        "question": "Progression to Zombie (attacker): What should a cooperative first drill establish?",
-        "answer": "Identify the starting configuration and rehearse the first connection without finishing pressure. Maintain posture control while freeing the other arm for the pummel.",
-        "answer_line": "Rehearse the first connection",
+        "question": "Progression to Zombie (bottom): Which support should a first pummel drill preserve?",
+        "answer": "Practice the hand-clearing path with the high knee supported and posture controlled before adding resistance or follow-up attacks.",
+        "answer_line": "The high knee close to the torso as the hand clears",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "The foot high while the knee drifts away",
+            "The opponent fully upright throughout the pummel"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "The knee forward but the supporting hand chasing the wrist"
           ]
         }
       }
@@ -427,72 +427,72 @@
     ],
     "flashcards": [
       {
-        "question": "Progression to Zombie (defender): What matters when you maintain inside frames?",
-        "answer": "Keep a useful forearm between the bodies before the bottom player gains the hand-clearing path.",
-        "answer_line": "Maintain inside frames",
+        "question": "Progression to Zombie (top): What should you retain after regaining your inside hand?",
+        "answer": "Retain the recovered frame so the guard player cannot immediately clear the hand out again.",
+        "answer_line": "An inside elbow and useful forearm frame",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "A hand outside on the mat with the elbow wide",
+            "A long reach behind their far shoulder"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "The wrist against the chest with the elbow outside the thigh"
           ]
         }
       },
       {
-        "question": "Progression to Zombie (defender): What matters when you keep elbow and hand connected?",
-        "answer": "Move the whole arm rather than leaving the wrist exposed while the elbow remains fixed.",
-        "answer_line": "Keep elbow and hand connected",
+        "question": "Progression to Zombie (top): Your hand starts inside; how do you finish recovering that arm?",
+        "answer": "Coordinated arm recovery prevents the wrist being left exposed while the elbow remains trapped outside.",
+        "answer_line": "Draw the elbow to the ribs with the hand",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Leave the elbow outside and plant the palm on the chest",
+            "Move the elbow forward toward the opponent's head"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Repost the recovered hand wide to regain balance"
           ]
         }
       },
       {
-        "question": "Progression to Zombie (defender): What matters when you notice the pummel early?",
-        "answer": "The free hand working under yours is the cue to recover inside position before the knee hug closes.",
-        "answer_line": "Notice the pummel early",
+        "question": "Progression to Zombie (top): When should you react to the pummeling hand?",
+        "answer": "The under-hand entry is an early cue to recover inside position before the knee hug secures the arm outside.",
+        "answer_line": "As it starts working underneath yours",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "After their knee hug fully fixes your elbow",
+            "Only when they lower the high leg completely"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "When their cleared hand first reaches the outside mat"
           ]
         }
       },
       {
-        "question": "Progression to Zombie (defender): What matters when you recover without yanking?",
-        "answer": "Retract the elbow toward your ribs through available space, stopping if the shoulder is caught.",
-        "answer_line": "Recover without yanking",
+        "question": "Progression to Zombie (top): How can a caught elbow return to your side?",
+        "answer": "Draw the elbow beside the ribs when the shoulder has room; stop if the arm is already loaded.",
+        "answer_line": "Through slack after the high connection loosens",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "By pulling harder while their knee hug stays fixed",
+            "By extending the elbow against the leg"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "By drawing the wrist inside before the shoulder can move"
           ]
         }
       },
       {
-        "question": "Progression to Zombie (defender): What matters when you rebuild posture gradually?",
-        "answer": "Raise the chest after freeing the arm and reducing the high-leg control.",
-        "answer_line": "Rebuild posture gradually",
+        "question": "Progression to Zombie (top): What must change before a strong posture recovery?",
+        "answer": "Recover chest height only after the arm can move and the high leg no longer fixes the neck and shoulder.",
+        "answer_line": "The arm and high leg must release their upper-body hold",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Only your palm needs to face upward",
+            "Only the free knee needs to move wider"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "The wrist must clear while the high thigh remains attached"
           ]
         }
       }

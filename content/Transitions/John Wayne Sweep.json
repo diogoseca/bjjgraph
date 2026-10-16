@@ -185,142 +185,142 @@
     ],
     "flashcards": [
       {
-        "question": "John Wayne Sweep (attacker): What matters when you set half-guard connection?",
+        "question": "John Wayne Sweep (bottom): What must your half-guard leg connection leave available?",
         "answer": "Contain one opposing leg while keeping your own knee free to act as a lever.",
-        "answer_line": "Set half-guard connection",
+        "answer_line": "A knee free to act on the opponent's hip",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "A knee buried beneath the opponent's trapped thigh",
+            "A free foot while your knee remains clamped underneath"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "A knee held against your own chest below their hip line"
           ]
         }
       },
       {
-        "question": "John Wayne Sweep (attacker): What matters when you manage the upper body?",
-        "answer": "Use an underhook and control the whizzer or posting arm without leaving the elbow exposed to a front-headlock attack.",
-        "answer_line": "Manage the upper body",
+        "question": "John Wayne Sweep (bottom): Against a whizzer, where should the underhooking elbow stay?",
+        "answer": "Williams keeps the underhooking elbow outside the hip to preserve leverage and reduce Darce exposure.",
+        "answer_line": "Outside your hip line",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Folded inward across your belly",
+            "Behind your hip with the arm stretched"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Pressed inside against your abdomen"
           ]
         }
       },
       {
-        "question": "John Wayne Sweep (attacker): What matters when you anchor the lower leg?",
+        "question": "John Wayne Sweep (bottom): Where does the shallow lower-leg anchor sit?",
         "answer": "Place a shallow foot connection over the ankle or shin rather than locking the knee into a deep hook.",
-        "answer_line": "Anchor the lower leg",
+        "answer_line": "The foot just over the opponent's ankle or shin",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Deep behind the knee with your knee buried",
+            "High around the upper thigh with your knee tucked beneath"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Beyond the toes with no ankle or shin contact"
           ]
         }
       },
       {
-        "question": "John Wayne Sweep (attacker): What matters when you load the hip with the knee?",
+        "question": "John Wayne Sweep (bottom): Where does the levering knee act?",
         "answer": "Bring the knee into the hip line as the other foot supplies a controlled post.",
-        "answer_line": "Load the hip with the knee",
+        "answer_line": "Into the opponent's hip line",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Below the hip against the lower thigh",
+            "Across the upper ribs above the waist"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Into the lower shin near the ankle"
           ]
         }
       },
       {
-        "question": "John Wayne Sweep (attacker): What matters when you turn the base together?",
+        "question": "John Wayne Sweep (bottom): What coordinates the reversal?",
         "answer": "Rotate the hips and upper body so the leg anchor and controlled post cooperate.",
-        "answer_line": "Turn the base together",
+        "answer_line": "Knee lever and leg anchor with upper-body post control",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "A straight-arm bench press without moving the hips",
+            "A kick upward while releasing the anchored leg"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "A knee lift while allowing the near hand to post"
           ]
         }
       },
       {
-        "question": "John Wayne Sweep (attacker): What matters when you come up and stabilize?",
+        "question": "John Wayne Sweep (bottom): Where does Williams settle immediately after the sweep?",
         "answer": "Establish top half guard before attempting to free the remaining leg or advance to mount.",
-        "answer_line": "Come up and stabilize",
+        "answer_line": "On top in half guard",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Directly in mount with both legs clear",
+            "On top in side control, legs free"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Still underneath in half guard"
           ]
         }
       },
       {
-        "question": "John Wayne Sweep (attacker): What configuration must exist before this sequence?",
+        "question": "John Wayne Sweep (bottom): What guard supplies the demonstrated starting position?",
         "answer": "The bottom player has half guard around one leg, with a usable underhook/whizzer relationship and a lower-leg anchor.",
-        "answer_line": "Check the starting configuration",
+        "answer_line": "Half guard with an underhook and shallow leg anchor",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Deep half with the lower leg shelved on your shoulder",
+            "Butterfly guard with both insteps beneath the thighs"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Half guard with the levering knee buried in a deep hook"
           ]
         }
       },
       {
-        "question": "John Wayne Sweep (attacker): What distinguishes this control from a similar-looking position?",
-        "answer": "Shawn Williams demonstrates a shallow foot anchor and knee lever, finishing on top in half guard. A butterfly-hook position and direct mount are not the demonstrated start and finish.",
-        "answer_line": "Check the defining controls",
+        "question": "John Wayne Sweep (bottom): Why avoid a deep lower-leg hook in this version?",
+        "answer": "A shallow ankle/shin connection leaves the knee free to rise into the opponent's hip.",
+        "answer_line": "It can trap your knee and remove the hip lever",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "The deeper lower-leg entanglement frees the knee to lead the bridge",
+            "The sweep depends on fixing the knee below the opposing ankle"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "The lower-leg hook replaces the hip contact used to tilt the pelvis"
           ]
         }
       },
       {
-        "question": "John Wayne Sweep (attacker): When should the partners stop or reset?",
+        "question": "John Wayne Sweep (bottom): The knee becomes fixed during the turn. What should change?",
         "answer": "Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.",
-        "answer_line": "Release before unsafe loading",
+        "answer_line": "Stop the forced turn and release the leg restraint",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Rotate the torso farther while holding the foot",
+            "Continue raising the hip before changing the trapped hook"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Pull the anchored foot free while the knee stays fixed"
           ]
         }
       },
       {
-        "question": "John Wayne Sweep (attacker): What should a cooperative first drill establish?",
-        "answer": "Identify the starting configuration and rehearse the first connection without finishing pressure. Contain one opposing leg while keeping your own knee free to act as a lever.",
-        "answer_line": "Rehearse the first connection",
+        "question": "John Wayne Sweep (bottom): What follows stabilization in top half guard?",
+        "answer": "The near-side underhook and shoulder connection can support a later pass, but the reversal itself ends in half guard.",
+        "answer_line": "A separate attempt to clear the remaining leg",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Counting mount before either leg is released",
+            "Release the upper-body connection before freeing the leg"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Assuming chest pressure alone removes the hook"
           ]
         }
       }
@@ -423,72 +423,72 @@
     ],
     "flashcards": [
       {
-        "question": "John Wayne Sweep (defender): What matters when you recognize the knee lever?",
+        "question": "John Wayne Sweep (top): Which lower-body pairing signals the knee lever?",
         "answer": "A shallow lower-leg anchor with the opposing knee entering your hip signals the sweep.",
-        "answer_line": "Recognize the knee lever",
+        "answer_line": "A shallow ankle anchor with their knee entering your hip",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "A deep hook with their levering knee buried below your thigh",
+            "A shallow ankle hook with their knee pointing away from your hip"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "A knee against your hip with your lower leg completely free"
           ]
         }
       },
       {
-        "question": "John Wayne Sweep (defender): What matters when you preserve an available post?",
+        "question": "John Wayne Sweep (top): What support matters before the sweep controls your posts?",
         "answer": "Keep a hand or foot able to support the tipping direction before the upper body is captured.",
-        "answer_line": "Preserve an available post",
+        "answer_line": "A usable hand or foot in the tipping direction",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Both hands reaching across the opponent's far shoulder",
+            "The trapped ankle as your only support point"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "A hand posted on the side opposite the tipping line"
           ]
         }
       },
       {
-        "question": "John Wayne Sweep (defender): What matters when you manage the underhook?",
+        "question": "John Wayne Sweep (top): What upper-body connection should you deny early?",
         "answer": "Avoid letting the bottom player connect their upper body directly under your base.",
-        "answer_line": "Manage the underhook",
+        "answer_line": "Their underhook connecting the torso beneath your base",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Their palm checking your biceps with no underhook beneath you",
+            "Their forearm framing your shoulder while the torso stays distant"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Their wrist gripping your ankle with the shoulder outside your hip"
           ]
         }
       },
       {
-        "question": "John Wayne Sweep (defender): What matters when you free the ankle early?",
+        "question": "John Wayne Sweep (top): When is removing the ankle anchor most appropriate?",
         "answer": "Address the shallow foot anchor while the knee and hip can still move safely.",
-        "answer_line": "Free the ankle early",
+        "answer_line": "Before the knee and hip are fixed under the lever",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Once the knee is wedged but before your shoulders reach the mat",
+            "After the hip begins rotating against the anchored foot"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Only after the opponent lands and settles on top"
           ]
         }
       },
       {
-        "question": "John Wayne Sweep (defender): What matters when you follow the fall safely?",
+        "question": "John Wayne Sweep (top): Your base is already lost. How should you follow the reversal?",
         "answer": "Do not post a locked arm or twist a trapped knee to resist a completed reversal.",
-        "answer_line": "Follow the fall safely",
+        "answer_line": "Accept the fall and rebuild frames from the landing",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Keep the old top posture while reaching behind for a post",
+            "Hold the anchored ankle still while your torso continues turning"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Turn the trapped knee outward to remain chest-down"
           ]
         }
       }

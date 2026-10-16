@@ -58,42 +58,42 @@ description: "Aoki Lock from Ashi Garami (defender): Treat an outward-turned foo
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Aoki Lock from Ashi Garami (defender): What matters when you recognize rotation?",
+      "name": "Aoki from Ashi defense: which foot change should make you reassess a straight-ankle defense?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Treat an outward-turned foot caught by the upper body as a rotational lock rather than an ordinary straight ankle lock."
+        "text": "The captured toes turn outward beneath the upper arm. Treat an outward-turned foot caught by the upper body as a rotational lock rather than an ordinary straight ankle lock."
       }
     },
     {
       "@type": "Question",
-      "name": "Aoki Lock from Ashi Garami (defender): What matters when you deny the enclosure?",
+      "name": "Aoki from Ashi defense: what is the early hand-fighting target as your foot is collected?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Hand fight and recover foot position before the attacker connects around the foot."
+        "text": "The arm trying to close around the instep. Hand fight and recover foot position before the attacker connects around the foot."
       }
     },
     {
       "@type": "Question",
-      "name": "Aoki Lock from Ashi Garami (defender): What matters when you keep the leg aligned?",
+      "name": "Aoki from Ashi defense: why should you avoid spinning away while the foot remains held?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Do not rotate the torso independently of a captured foot and knee."
+        "text": "The fixed foot can transmit the turn into your knee. Do not rotate the torso independently of a captured foot and knee."
       }
     },
     {
       "@type": "Question",
-      "name": "Aoki Lock from Ashi Garami (defender): What matters when you free the connection early?",
+      "name": "Aoki from Ashi defense: what should you loosen before retracting the captured leg?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Create slack in the hand and hip controls before withdrawing the leg."
+        "text": "The upper-body grip together with the hip connection. Create slack in the hand and hip controls before withdrawing the leg."
       }
     },
     {
       "@type": "Question",
-      "name": "Aoki Lock from Ashi Garami (defender): What matters when you tap before pain?",
+      "name": "Aoki from Ashi defense: when is stopping preferable to testing another rotational escape?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Stop at a secure rotational capture rather than testing whether the joint still tolerates movement."
+        "text": "When the foot is securely captured even without pain. Stop at a secure rotational capture rather than testing whether the joint still tolerates movement."
       }
     }
   ]

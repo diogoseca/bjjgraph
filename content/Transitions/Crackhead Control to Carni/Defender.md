@@ -56,42 +56,42 @@ description: "Crackhead Control to Carni (defender): A leg clearing the head wit
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Crackhead Control to Carni (defender): What matters when you identify the shoulder threat?",
+      "name": "Crackhead to Carni (top): A leg clears your head while an overhook holds you; what is threatened?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "A leg clearing the head with an overhook is an upper-body trap, even if a butterfly hook remains below."
+        "text": "Recognize the shoulder-lock setup even when a lower butterfly hook remains."
       }
     },
     {
       "@type": "Question",
-      "name": "Crackhead Control to Carni (defender): What matters when you keep the elbow close early?",
+      "name": "Crackhead to Carni (top): Before triceps control closes, where should the elbow stay?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Avoid reaching away while the opponent sets the triceps control."
+        "text": "Avoid reaching away while the opponent establishes triceps control; keep the arm compact before the clamp closes."
       }
     },
     {
       "@type": "Question",
-      "name": "Crackhead Control to Carni (defender): What matters when you deny the belly-down angle?",
+      "name": "Crackhead to Carni (top): What preserves inside forearm space before the shoulder clamp closes?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Maintain a balanced base and a safe inside frame before the shoulder becomes clamped."
+        "text": "Use an early inside frame and balance before the leg and triceps immobilize the shoulder."
       }
     },
     {
       "@type": "Question",
-      "name": "Crackhead Control to Carni (defender): What matters when you free the arm before passing?",
+      "name": "Crackhead to Carni (top): What must clear before your hips move past the legs?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Create slack around the shoulder and elbow before moving the hips past the legs."
+        "text": "Create slack and free the shoulder and elbow before treating the exchange as a pass."
       }
     },
     {
       "@type": "Question",
-      "name": "Crackhead Control to Carni (defender): What matters when you avoid rolling against the lock?",
+      "name": "Crackhead to Carni (top): Why can a forward roll fail with wrist and triceps fixed?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Do not force a forward roll when the triceps and wrist are fixed; tap if pressure has already engaged."
+        "text": "Do not roll against a fixed wrist and triceps. Obtain release, or tap if the shoulder lock is engaged."
       }
     }
   ]

@@ -70,50 +70,50 @@ description: "Aoki Lock from Aoki Lock Control (attacker): Identify the turned-o
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Aoki Lock from Aoki Lock Control (attacker): What matters when you confirm the foot orientation?",
+      "name": "Aoki from Control: which direction are the offered toes facing before you collect the foot?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Identify the turned-out foot without forcing it to rotate against resistance."
+        "text": "Outward, away from the leg's neutral line. Identify an already outward-oriented foot rather than forcing a reluctant foot into the angle. The resulting enclosure can load both ankle and knee."
       }
     },
     {
       "@type": "Question",
-      "name": "Aoki Lock from Aoki Lock Control (attacker): What matters when you enclose the foot?",
+      "name": "Aoki from Control: which surface of the foot rests under your upper arm?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Bring the instep under the upper arm and support the heel/Achilles region with the forearm."
+        "text": "The instep against the biceps-and-armpit region. The instep meets the upper arm while the forearm supports the heel/Achilles region. Keep the capture unloaded in a control drill."
       }
     },
     {
       "@type": "Question",
-      "name": "Aoki Lock from Aoki Lock Control (attacker): What matters when you connect the hands?",
+      "name": "Aoki from Control: where does Kesting place the looping hand for a deep arm connection?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Secure the upper-body enclosure while leaving the foot unloaded during practice."
+        "text": "Around the back of the opposite triceps. The written lesson distinguishes a deep hold behind the other upper arm from merely resting the hand on the biceps. Learn the connection without adding finishing rotation."
       }
     },
     {
       "@type": "Question",
-      "name": "Aoki Lock from Aoki Lock Control (attacker): What matters when you manage the hip?",
+      "name": "Aoki from Control: what role do your legs play around the opponent's hip?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Use the legs and hip connection to limit free movement without twisting a planted knee."
+        "text": "Limit free hip movement without twisting a planted knee. Use the legs and hip connection to limit free movement without twisting a planted knee."
       }
     },
     {
       "@type": "Question",
-      "name": "Aoki Lock from Aoki Lock Control (attacker): What matters when you stop at controlled capture?",
+      "name": "Aoki from Control: why is a large finishing motion unnecessary and hazardous?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Recognize that a small body extension can create rotational ankle and knee pressure; do not search for a large finishing movement."
+        "text": "Small body extension can load ankle and knee rotation. Recognize that a small body extension can create rotational ankle and knee pressure; do not search for a large finishing movement."
       }
     },
     {
       "@type": "Question",
-      "name": "Aoki Lock from Aoki Lock Control (attacker): What matters when you release before movement?",
+      "name": "Aoki from Control: what must you open if the partner suddenly turns or taps?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Open the arms and leg connection on a tap, sudden turn, or loss of communication."
+        "text": "Both the arm enclosure and the leg connection. Open the arms and leg connection on a tap, sudden turn, or loss of communication."
       }
     }
   ]

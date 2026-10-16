@@ -56,34 +56,34 @@ description: "Rolling Escape from Anaconda (defender): Contain the opponent's he
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Rolling Escape from Anaconda (defender): What matters when you establish front headlock?",
+      "name": "Anaconda rolling escape (holder): What does your initial arm enclosure contain?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Contain the opponent's head and one arm while keeping a balanced base."
+        "text": "This retained defender deck belongs to the front-headlock holder, whose Anaconda contains the head and one arm."
       }
     },
     {
       "@type": "Question",
-      "name": "Rolling Escape from Anaconda (defender): What matters when you thread under the neck?",
+      "name": "Anaconda rolling escape (holder): Where does the choking arm pass first?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Pass the choking arm beneath the neck and toward the far armpit, enclosing one shoulder."
+        "text": "Thread beneath the neck and toward the far armpit to enclose one shoulder."
       }
     },
     {
       "@type": "Question",
-      "name": "Rolling Escape from Anaconda (defender): What matters when you connect the arm loop?",
+      "name": "Anaconda rolling escape (holder): Where does the threading hand grip in the arm figure-four?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Join to the supporting arm without pulling the neck into a twist."
+        "text": "The threading hand grips the supporting arm's biceps to close the figure-four. Connect without twisting the opponent's neck; the drill can stop at the unloaded enclosure. Kesting emphasizes sufficient threading depth rather than a shallow fingertip contact."
       }
     },
     {
       "@type": "Question",
-      "name": "Rolling Escape from Anaconda (defender): What matters when you choose a controlled angle?",
+      "name": "Anaconda rolling escape (holder): Where does your head belong during the taught controlled roll?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Use the taught shoulder-led angle only when both partners can roll safely; do not dive onto the neck."
+        "text": "Kesting's account places the holder's head to the side of the body during the roll. Use the angle only with free, controlled movement and immediate release on a tap."
       }
     }
   ]

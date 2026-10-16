@@ -56,50 +56,50 @@ description: "Advance to Chill Dog (defender): Keep the free hand available for 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Advance to Chill Dog (defender): What matters when you track the trapped elbow?",
+      "name": "Advance to Chill Dog (top): How should you use the free hand early?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Keep the free hand available for framing while preventing the isolated elbow from being pulled further away from your torso."
+        "text": "Keep the available hand useful as an inside frame without letting the isolated elbow drift farther away from your ribs."
       }
     },
     {
       "@type": "Question",
-      "name": "Advance to Chill Dog (defender): What matters when you recognize neck clearing?",
+      "name": "Advance to Chill Dog (top): Which movement signals the shift beyond New York?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The opponent changing the hand around your head signals the move beyond New York, not a turtle escape."
+        "text": "The bottom player's grip change around your head while the knee hug stays connected is the neck-clearing cue."
       }
     },
     {
       "@type": "Question",
-      "name": "Advance to Chill Dog (defender): What matters when you deny the second leg?",
+      "name": "Advance to Chill Dog (top): Which leg movement would reinforce their high control?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Keep a safe base and prevent the free leg from closing high behind your head."
+        "text": "An approaching second leg behind your head reinforces the existing high clinch; use an early frame and balanced base to deny it."
       }
     },
     {
       "@type": "Question",
-      "name": "Advance to Chill Dog (defender): What matters when you undo the arm isolation?",
+      "name": "Advance to Chill Dog (top): When can the isolated elbow return toward your ribs?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Recover the elbow toward your ribs only when the leg enclosure has slack, rather than jerking the shoulder."
+        "text": "Recover the elbow through available slack rather than pulling a captured shoulder against the high-leg connection."
       }
     },
     {
       "@type": "Question",
-      "name": "Advance to Chill Dog (defender): What matters when you posture after release?",
+      "name": "Advance to Chill Dog (top): What should precede raising the head and chest?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Bring the head and chest upright in stages after clearing the upper-body control."
+        "text": "Lift posture in stages after the head and isolated shoulder are free to move through the opened control."
       }
     },
     {
       "@type": "Question",
-      "name": "Advance to Chill Dog (defender): What matters when you avoid forced stacking?",
+      "name": "Advance to Chill Dog (top): Their high guard folds onto the neck; what should change?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Do not drive the partner onto the neck or force the bent leg sideways to escape the control."
+        "text": "When pressure folds the partner onto the neck, stop driving forward and unload so the high leg can be released safely."
       }
     }
   ]

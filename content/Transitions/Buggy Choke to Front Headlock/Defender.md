@@ -56,7 +56,7 @@ description: "Buggy Choke to Front Headlock (defender): Use safe shoulder and hi
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Buggy Choke to Front Headlock (defender): What matters when you build the angle?",
+      "name": "Buggy Choke to Front Headlock (bottom): How do you shorten the reach to your own leg?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use safe shoulder and hip frames to turn partly onto the side before reaching for the leg."
@@ -64,15 +64,15 @@ description: "Buggy Choke to Front Headlock (defender): Use safe shoulder and hi
     },
     {
       "@type": "Question",
-      "name": "Buggy Choke to Front Headlock (defender): What matters when you enclose head and arm?",
+      "name": "Buggy Choke to Front Headlock (bottom): What must your arm-leg loop contain?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Check that the loop contains the necessary upper-body configuration rather than merely hugging your leg."
+        "text": "A Buggy connection must enclose the opponent's head and one arm; hugging your own leg is insufficient."
       }
     },
     {
       "@type": "Question",
-      "name": "Buggy Choke to Front Headlock (defender): What matters when you keep elbow near knee?",
+      "name": "Buggy Choke to Front Headlock (bottom): What body adjustment closes the elbow-knee gap?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Shorten the connection through body position, not by pulling the foot hard toward the face."
@@ -80,15 +80,15 @@ description: "Buggy Choke to Front Headlock (defender): Use safe shoulder and hi
     },
     {
       "@type": "Question",
-      "name": "Buggy Choke to Front Headlock (defender): What matters when you use the torso connection?",
+      "name": "Buggy Choke to Front Headlock (bottom): Which torso movement closes the Buggy enclosure?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Close space with the arm, leg, and torso while avoiding twisting force on your own knee."
+        "text": "Shoulder-to-hip shortening reduces space in the loop without using the foot as a twisting lever."
       }
     },
     {
       "@type": "Question",
-      "name": "Buggy Choke to Front Headlock (defender): What matters when you recover guard when space opens?",
+      "name": "Buggy Choke to Front Headlock (bottom): If the choke opens, what helps avoid exposing your head?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use a disengaging opponent's movement to insert frames and knees if the choke is lost."

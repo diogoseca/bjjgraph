@@ -56,34 +56,34 @@ description: "Strip Grip from Zombie (defender): Maintain posture control while 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Strip Grip from Zombie (defender): What matters when you keep Mission Control?",
+      "name": "Strip Grip from Zombie (bottom): What supports your pummel while they recover their hand?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Maintain posture control while freeing the other arm for the pummel."
+        "text": "Maintain the Mission Control posture connection while the free hand works; a loose high foot is insufficient."
       }
     },
     {
       "@type": "Question",
-      "name": "Strip Grip from Zombie (defender): What matters when you find inside space?",
+      "name": "Strip Grip from Zombie (bottom): Where can the hand-first pummel seek another opening?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Work through the opening near the hand rather than forcing a tightly clamped elbow straight outward."
+        "text": "Eddy's version works near the hand because the opponent can clamp more strongly directly at the elbow."
       }
     },
     {
       "@type": "Question",
-      "name": "Strip Grip from Zombie (defender): What matters when you move the hand to the mat?",
+      "name": "Strip Grip from Zombie (bottom): What should you guide instead of grabbing fingers?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Guide the wrist and forearm through the available space without bending individual fingers."
+        "text": "Move the wrist-and-forearm line through available space to clear the inside frame without manipulating individual fingers."
       }
     },
     {
       "@type": "Question",
-      "name": "Strip Grip from Zombie (defender): What matters when you prevent the return pummel?",
+      "name": "Strip Grip from Zombie (bottom): Their hand reaches the mat; what prevents its return?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Cover the cleared arm and close the knee hug as the hand reaches the mat."
+        "text": "Follow the clearance by securing the arm wrap and supported knee so the opponent cannot easily bring the frame back inside."
       }
     }
   ]

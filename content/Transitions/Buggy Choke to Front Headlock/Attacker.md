@@ -68,7 +68,7 @@ description: "Buggy Choke to Front Headlock (attacker): Watch for an arm reachin
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Buggy Choke to Front Headlock (attacker): What matters when you recognize the bottom-player choke?",
+      "name": "Buggy Choke to Front Headlock (top): Which bottom-player connection threatens your neck?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Watch for an arm reaching past your head and connecting to the same-side leg."
@@ -76,15 +76,15 @@ description: "Buggy Choke to Front Headlock (attacker): Watch for an arm reachin
     },
     {
       "@type": "Question",
-      "name": "Buggy Choke to Front Headlock (attacker): What matters when you keep a stable base?",
+      "name": "Buggy Choke to Front Headlock (top): While the loop is forming, where should your base remain?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Avoid lifting, dropping, or twisting the partner's trapped leg to force an escape."
+        "text": "Retain a stable base and address the loop early; do not lift, drop or wrench the partner to escape."
       }
     },
     {
       "@type": "Question",
-      "name": "Buggy Choke to Front Headlock (attacker): What matters when you interrupt the connection early?",
+      "name": "Buggy Choke to Front Headlock (top): What early action obstructs the hand-leg connection?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use safe inside frames before the arm-to-leg loop fully closes; do not pull or twist the partner's knee."
@@ -92,15 +92,15 @@ description: "Buggy Choke to Front Headlock (attacker): Watch for an arm reachin
     },
     {
       "@type": "Question",
-      "name": "Buggy Choke to Front Headlock (attacker): What matters when you free the head and arm?",
+      "name": "Buggy Choke to Front Headlock (top): What must be free before you seek the next head control?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Move only through available space after the loop opens; tap if the neck is already enclosed."
+        "text": "Clear the head-and-arm enclosure before moving toward another control; tap if it is already secured."
       }
     },
     {
       "@type": "Question",
-      "name": "Buggy Choke to Front Headlock (attacker): What matters when you verify the next configuration?",
+      "name": "Buggy Choke to Front Headlock (top): After release, what makes front-headlock access possible?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Establish Front Headlock only after the head is free. Front headlock additionally requires the opponent to turn or rise with the head accessible."
@@ -108,10 +108,10 @@ description: "Buggy Choke to Front Headlock (attacker): Watch for an arm reachin
     },
     {
       "@type": "Question",
-      "name": "Buggy Choke to Front Headlock (attacker): What matters when you settle without neck loading?",
+      "name": "Buggy Choke to Front Headlock (top): When can you shift toward a head-control position?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Use balanced positional pressure and let the opponent communicate throughout the reset."
+        "text": "The positional change follows loop release and requires a supported base, not a pivot through the trapped neck."
       }
     }
   ]

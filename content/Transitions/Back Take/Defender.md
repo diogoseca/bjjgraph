@@ -56,42 +56,42 @@ description: "Back Take (defender): Keep the shoulders facing the opponent befor
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Back Take (defender): What matters when you deny rear torso access?",
+      "name": "Back Take (defender): Before a seatbelt closes, how do you deny rear access?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Keep the shoulders facing the opponent before a seatbelt closes."
+        "text": "While still free to turn, keep the shoulder line facing the opponent instead of offering chest-to-back contact."
       }
     },
     {
       "@type": "Question",
-      "name": "Back Take (defender): What matters when you protect the neck?",
+      "name": "Back Take (defender): An arm approaches your neck during rear entry; what do you address?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Hand fight any arm approaching the neck while maintaining a stable base."
+        "text": "Address the approaching neck arm early with hand fighting while maintaining balance."
       }
     },
     {
       "@type": "Question",
-      "name": "Back Take (defender): What matters when you keep elbows connected?",
+      "name": "Back Take (defender): How should your elbows move while turning to face?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Avoid exposing an isolated arm while turning to face the opponent."
+        "text": "Turn with compact elbows rather than leaving an isolated arm behind the torso."
       }
     },
     {
       "@type": "Question",
-      "name": "Back Take (defender): What matters when you recover facing frames?",
+      "name": "Back Take (defender): What barrier can you restore after the high clinch opens?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Insert elbows and knees when space opens after the original control is released."
+        "text": "Once the original control opens, use hip movement to reconnect elbow and knee and deny rear shoulder-and-hip access."
       }
     },
     {
       "@type": "Question",
-      "name": "Back Take (defender): What matters when you do not roll against a lock?",
+      "name": "Back Take (defender): A foot or arm remains fixed during your turn; what comes first?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Wait for a trapped foot or arm to be released before changing direction."
+        "text": "A positional escape must wait for limb release; do not rotate against a fixed foot or arm."
       }
     }
   ]

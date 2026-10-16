@@ -68,50 +68,50 @@ description: "Crackhead Control Entry (attacker): Establish the first high leg a
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Crackhead Control Entry (attacker): What matters when you start with broken posture?",
+      "name": "Crackhead Control Entry (bottom): What connection comes before the second leg rises?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Establish the first high leg and its hand support before adding the second leg."
+        "text": "Establish the first supported high leg and broken posture before bringing up the reinforcing leg."
       }
     },
     {
       "@type": "Question",
-      "name": "Crackhead Control Entry (attacker): What matters when you bring the second leg high?",
+      "name": "Crackhead Control Entry (bottom): Where does the reinforcing leg go?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Reinforce the clinch without forcing the knees beyond a comfortable hip angle."
+        "text": "The second leg rises behind the head to reinforce the facing upper-body clinch."
       }
     },
     {
       "@type": "Question",
-      "name": "Crackhead Control Entry (attacker): What matters when you track both elbows?",
+      "name": "Crackhead Control Entry (bottom): What extra feature would identify Dead Orchard?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Do not assume that high legs alone have isolated an arm or completed Dead Orchard."
+        "text": "High legs alone do not complete Dead Orchard; confirm the both-arm leg figure-four separately."
       }
     },
     {
       "@type": "Question",
-      "name": "Crackhead Control Entry (attacker): What matters when you keep knees close?",
+      "name": "Crackhead Control Entry (bottom): What supplies the angle for comfortable high-leg control?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Use hip position and connected leg pressure rather than pulling the feet against fixed knees."
+        "text": "Use hip positioning and a connected knee rather than forcing the foot against a fixed knee."
       }
     },
     {
       "@type": "Question",
-      "name": "Crackhead Control Entry (attacker): What matters when you return to one-leg control?",
+      "name": "Crackhead Control Entry (bottom): How can you return to one-leg control?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Lower the reinforcing leg while preserving the first shin connection if you need Mission Control again."
+        "text": "Keep the original high shin supported while lowering the second leg to return toward Mission Control."
       }
     },
     {
       "@type": "Question",
-      "name": "Crackhead Control Entry (attacker): What matters when you open against a stack?",
+      "name": "Crackhead Control Entry (bottom): The opponent folds your upper back; how do you reset?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Release and frame when the opponent compresses your upper back or you cannot comfortably maintain the clinch."
+        "text": "Release the high clinch and recover frames when the upper back is compressed or the position becomes uncomfortable."
       }
     }
   ]

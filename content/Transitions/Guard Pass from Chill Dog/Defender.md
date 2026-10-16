@@ -56,42 +56,42 @@ description: "Guard Pass from Chill Dog (defender): Keep the opposing hand on th
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Guard Pass from Chill Dog (defender): What matters when you secure New York first?",
+      "name": "Guard Pass from Chill Dog (bottom): What preserves the existing trap during their first escape?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Keep the opposing hand on the mat and hug the knee before changing the head-side grip."
+        "text": "Retain the New York arm isolation and knee support while they seek slack, provided the position remains comfortable."
       }
     },
     {
       "@type": "Question",
-      "name": "Guard Pass from Chill Dog (defender): What matters when you turn onto the hip?",
+      "name": "Guard Pass from Chill Dog (bottom): How should you adjust if your high knee drifts away?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Bring the knee toward the chest through hip movement so the neck-clearing motion does not twist the knee."
+        "text": "A hip-angle correction brings the knee toward the torso and supports the high leg without dragging the foot."
       }
     },
     {
       "@type": "Question",
-      "name": "Guard Pass from Chill Dog (defender): What matters when you clear the neck?",
+      "name": "Guard Pass from Chill Dog (bottom): Their shoulder approaches as Chill Dog opens; where frame?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Move the controlling arm around the head while keeping the leg and trapped arm connected."
+        "text": "An inside forearm protects space while the hip moves and the knee returns, reducing the passer's crossface access."
       }
     },
     {
       "@type": "Question",
-      "name": "Guard Pass from Chill Dog (defender): What matters when you place the inside frame?",
+      "name": "Guard Pass from Chill Dog (bottom): What follows when the isolated elbow has escaped?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Use the forearm near the shoulder line to manage forward pressure; do not let the frame collapse across your own wrist."
+        "text": "Once the elbow and high connection fail, prioritize guard retention behind a shoulder frame rather than reaching for the lost grip."
       }
     },
     {
       "@type": "Question",
-      "name": "Guard Pass from Chill Dog (defender): What matters when you maintain the arm trap?",
+      "name": "Guard Pass from Chill Dog (bottom): What prevents their head clearance becoming a pass?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Keep the knee hug while choosing further control such as Invisible Collar or an omoplata setup."
+        "text": "The passer still has to clear your knees and hips; maintain the inside barrier as the upper-body control opens."
       }
     }
   ]

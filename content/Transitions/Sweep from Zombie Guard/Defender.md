@@ -56,34 +56,34 @@ description: "Sweep from Zombie Guard (defender): Keep a useful forearm between 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Sweep from Zombie Guard (defender): What matters when you maintain inside frames?",
+      "name": "Sweep from Zombie Guard (top): What limits the initial posting-arm capture?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Keep a useful forearm between the bodies before the bottom player gains the hand-clearing path."
+        "text": "Early inside position can deny the Zombie pummel and preserve usable arm support before the knee hug closes."
       }
     },
     {
       "@type": "Question",
-      "name": "Sweep from Zombie Guard (defender): What matters when you keep elbow and hand connected?",
+      "name": "Sweep from Zombie Guard (top): What should accompany a wrist recovery?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Move the whole arm rather than leaving the wrist exposed while the elbow remains fixed."
+        "text": "Move hand and elbow together so the wrist is not left outside a fixed arm line during balance recovery."
       }
     },
     {
       "@type": "Question",
-      "name": "Sweep from Zombie Guard (defender): What matters when you notice the pummel early?",
+      "name": "Sweep from Zombie Guard (top): Which cue warns your posting arm may be removed?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The free hand working under yours is the cue to recover inside position before the knee hug closes."
+        "text": "Recognize the under-hand pummel before the opponent covers the arm and secures the knee hug."
       }
     },
     {
       "@type": "Question",
-      "name": "Sweep from Zombie Guard (defender): What matters when you recover without yanking?",
+      "name": "Sweep from Zombie Guard (top): What must precede a large turn with the arm already fixed?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Retract the elbow toward your ribs through available space, stopping if the shoulder is caught."
+        "text": "If the knee hug fixes the arm, open that connection before a large balance-recovery turn rather than rotating through the joint."
       }
     }
   ]

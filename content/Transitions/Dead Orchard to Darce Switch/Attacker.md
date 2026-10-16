@@ -68,50 +68,50 @@ description: "Dead Orchard to Darce Switch (attacker): The legs form a high figu
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Dead Orchard to Darce Switch (attacker): What matters when you identify the starting enclosure?",
+      "name": "Dead Orchard to Darce (attacker): What contains the arms at the starting checkpoint?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The legs form a high figure-four around the shoulder line, with both opposing arms inside."
+        "text": "Dead Orchard encloses both opposing arms with the legs at the shoulder line."
       }
     },
     {
       "@type": "Question",
-      "name": "Dead Orchard to Darce Switch (attacker): What matters when you remove finishing pressure?",
+      "name": "Dead Orchard to Darce (attacker): Both hands are trapped in the initial control; how can they tap?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Both arms may be trapped, so agree on verbal and foot taps. Never stack the neck, wrench a knee into the leg triangle, or test a captured elbow by pulling hard."
+        "text": "Agree on verbal and foot taps before drilling the both-arm capture, and release immediately on either signal."
       }
     },
     {
       "@type": "Question",
-      "name": "Dead Orchard to Darce Switch (attacker): What matters when you release before repositioning?",
+      "name": "Dead Orchard to Darce (attacker): What opens before changing from the high guard to a headlock?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Open the original connection before either partner turns, rises or changes the captured limb."
+        "text": "Release the old leg enclosure and arm loading before seeking the separate head-and-arm position."
       }
     },
     {
       "@type": "Question",
-      "name": "Dead Orchard to Darce Switch (attacker): What matters when you require a new head-and-arm position?",
+      "name": "Dead Orchard to Darce (attacker): Which separate position permits the new arm thread?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Establish a separate front or side head-and-arm configuration after the high guard has ended."
+        "text": "A Darce needs its own front or side head-and-arm relationship after the high guard ends; no direct switch is established."
       }
     },
     {
       "@type": "Question",
-      "name": "Dead Orchard to Darce Switch (attacker): What matters when you identify Darce arm threading?",
+      "name": "Dead Orchard to Darce (attacker): Which direction does the Darce arm travel?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The arm enters through the armpit and travels around the neck before joining the supporting arm."
+        "text": "The Darce thread enters at the armpit and travels around the neck before connecting to the supporting arm."
       }
     },
     {
       "@type": "Question",
-      "name": "Dead Orchard to Darce Switch (attacker): What matters when you stop at control?",
+      "name": "Dead Orchard to Darce (attacker): How is the new enclosure checked in a capture drill?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Keep the head aligned and leave the choke unloaded while checking the new enclosure."
+        "text": "Check the new head-and-arm enclosure with the neck aligned and no finishing squeeze."
       }
     }
   ]

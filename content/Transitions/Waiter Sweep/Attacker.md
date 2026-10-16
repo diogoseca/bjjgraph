@@ -68,7 +68,7 @@ description: "Waiter Sweep (attacker): Bring the shoulder under the hip while co
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Waiter Sweep (attacker): What matters when you establish deep half?",
+      "name": "Waiter Sweep (bottom): Where should your shoulder go to establish deep half?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Bring the shoulder under the hip while controlling the leg and protecting the exposed arm."
@@ -76,7 +76,7 @@ description: "Waiter Sweep (attacker): Bring the shoulder under the hip while co
     },
     {
       "@type": "Question",
-      "name": "Waiter Sweep (attacker): What matters when you create a balance reaction?",
+      "name": "Waiter Sweep (bottom): Why shift the opponent's weight before lifting the leg?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Shift the opponent's weight enough to make the controlled leg available for elevation."
@@ -84,7 +84,7 @@ description: "Waiter Sweep (attacker): Bring the shoulder under the hip while co
     },
     {
       "@type": "Question",
-      "name": "Waiter Sweep (attacker): What matters when you build the waiter shelf?",
+      "name": "Waiter Sweep (bottom): What forms the waiter shelf?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Support the lower leg with the arm and shoulder connection while using the legs to help lift."
@@ -92,7 +92,7 @@ description: "Waiter Sweep (attacker): Bring the shoulder under the hip while co
     },
     {
       "@type": "Question",
-      "name": "Waiter Sweep (attacker): What matters when you manage the posting arm?",
+      "name": "Waiter Sweep (bottom): In Valle's gi version, which grip captures the posting arm?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use an appropriate sleeve grip in gi or a suitable arm connection without assuming the same grip exists in no-gi."
@@ -100,7 +100,7 @@ description: "Waiter Sweep (attacker): Bring the shoulder under the hip while co
     },
     {
       "@type": "Question",
-      "name": "Waiter Sweep (attacker): What matters when you tip the controlled base?",
+      "name": "Waiter Sweep (bottom): What must cooperate to tip the base?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Coordinate leg elevation and post control rather than trying to bench-press the opponent."
@@ -108,7 +108,7 @@ description: "Waiter Sweep (attacker): Bring the shoulder under the hip while co
     },
     {
       "@type": "Question",
-      "name": "Waiter Sweep (attacker): What matters when you come up and settle?",
+      "name": "Waiter Sweep (bottom): You come on top with a leg still caught. What next?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Follow the hips to a stable top position; pass the remaining leg only if that separate opening exists."

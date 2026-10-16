@@ -68,7 +68,7 @@ description: "Arm Extraction to Turtle (attacker): A turned-out foot enclosed be
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Arm Extraction to Turtle (attacker): What matters when you distinguish the foot lock?",
+      "name": "Arm Extraction to Turtle (escaping player): Which limb is actually threatened in this Aoki setup?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A turned-out foot enclosed beside the armpit is a rotational threat, not simply a straight ankle-lock grip."
@@ -76,7 +76,7 @@ description: "Arm Extraction to Turtle (attacker): A turned-out foot enclosed be
     },
     {
       "@type": "Question",
-      "name": "Arm Extraction to Turtle (attacker): What matters when you hand fight before capture?",
+      "name": "Arm Extraction to Turtle (escaping player): Before capture, which connection do you interrupt?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Prevent the foot enclosure and recover leg position while the opponent still lacks a secure connection."
@@ -84,7 +84,7 @@ description: "Arm Extraction to Turtle (attacker): A turned-out foot enclosed be
     },
     {
       "@type": "Question",
-      "name": "Arm Extraction to Turtle (attacker): What matters when you keep foot and knee aligned?",
+      "name": "Arm Extraction to Turtle (escaping player): Why avoid turning to your knees with the foot fixed?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Do not spin the torso while the foot remains fixed."
@@ -92,7 +92,7 @@ description: "Arm Extraction to Turtle (attacker): A turned-out foot enclosed be
     },
     {
       "@type": "Question",
-      "name": "Arm Extraction to Turtle (attacker): What matters when you free the foot first?",
+      "name": "Arm Extraction to Turtle (escaping player): What must loosen before you withdraw the captured leg?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Address the upper-body grip before withdrawing the leg through a tight entanglement."
@@ -100,7 +100,7 @@ description: "Arm Extraction to Turtle (attacker): A turned-out foot enclosed be
     },
     {
       "@type": "Question",
-      "name": "Arm Extraction to Turtle (attacker): What matters when you avoid pain testing?",
+      "name": "Arm Extraction to Turtle (escaping player): With secure rotation already captured, when do you stop?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Tap early to a secure rotational lock rather than treating the absence of pain as safety."
@@ -108,7 +108,7 @@ description: "Arm Extraction to Turtle (attacker): A turned-out foot enclosed be
     },
     {
       "@type": "Question",
-      "name": "Arm Extraction to Turtle (attacker): What matters when you reset after release?",
+      "name": "Arm Extraction to Turtle (escaping player): After full release, what comes before resuming movement?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Separate the feet and restore a stable guard or standing base before resuming movement."

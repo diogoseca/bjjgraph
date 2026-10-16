@@ -189,142 +189,142 @@
     ],
     "flashcards": [
       {
-        "question": "Arm Extraction to Turtle (attacker): What matters when you distinguish the foot lock?",
+        "question": "Arm Extraction to Turtle (escaping player): Which limb is actually threatened in this Aoki setup?",
         "answer": "A turned-out foot enclosed beside the armpit is a rotational threat, not simply a straight ankle-lock grip.",
-        "answer_line": "Distinguish the foot lock",
+        "answer_line": "The turned-out foot enclosed by the upper body",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "The straight foot with only Achilles pressure",
+            "The calf compressed behind a deeply bent knee"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "The knee straightened across the opponent's hips"
           ]
         }
       },
       {
-        "question": "Arm Extraction to Turtle (attacker): What matters when you hand fight before capture?",
+        "question": "Arm Extraction to Turtle (escaping player): Before capture, which connection do you interrupt?",
         "answer": "Prevent the foot enclosure and recover leg position while the opponent still lacks a secure connection.",
-        "answer_line": "Hand fight before capture",
+        "answer_line": "The opponent's arms enclosing your foot",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "The hand resting on your uncaptured shin",
+            "Only the opponent's hip-side foot"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "The joined hands after your heel is immobilized"
           ]
         }
       },
       {
-        "question": "Arm Extraction to Turtle (attacker): What matters when you keep foot and knee aligned?",
+        "question": "Arm Extraction to Turtle (escaping player): Why avoid turning to your knees with the foot fixed?",
         "answer": "Do not spin the torso while the foot remains fixed.",
-        "answer_line": "Keep foot and knee aligned",
+        "answer_line": "Your torso can rotate against the captured leg",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Knee recovery releases the upper-arm foot enclosure first",
+            "The pelvis can turn while the restrained knee stays aligned"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Posting on both forearms takes the rotation away from the captured leg"
           ]
         }
       },
       {
-        "question": "Arm Extraction to Turtle (attacker): What matters when you free the foot first?",
+        "question": "Arm Extraction to Turtle (escaping player): What must loosen before you withdraw the captured leg?",
         "answer": "Address the upper-body grip before withdrawing the leg through a tight entanglement.",
-        "answer_line": "Free the foot first",
+        "answer_line": "The upper-body foot grip and leg entanglement",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Only the hands, with the instep still wedged",
+            "Only the hip frame, with the heel still cupped"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Only the free leg, leaving the captured leg bound"
           ]
         }
       },
       {
-        "question": "Arm Extraction to Turtle (attacker): What matters when you avoid pain testing?",
+        "question": "Arm Extraction to Turtle (escaping player): With secure rotation already captured, when do you stop?",
         "answer": "Tap early to a secure rotational lock rather than treating the absence of pain as safety.",
-        "answer_line": "Avoid pain testing",
+        "answer_line": "Before testing whether the knee tolerates a turn",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "After a small bridge checks for resistance",
+            "After the heel starts sliding against the grip"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "After one knee turn confirms that escape is blocked"
           ]
         }
       },
       {
-        "question": "Arm Extraction to Turtle (attacker): What matters when you reset after release?",
+        "question": "Arm Extraction to Turtle (escaping player): After full release, what comes before resuming movement?",
         "answer": "Separate the feet and restore a stable guard or standing base before resuming movement.",
-        "answer_line": "Reset after release",
+        "answer_line": "Separate the feet and rebuild a facing base",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Recover a hand post while leaving the knees turned away",
+            "Bring the chest upright with both feet still crossed together"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Reach for the next grip before replacing your leg support"
           ]
         }
       },
       {
-        "question": "Arm Extraction to Turtle (attacker): What configuration must exist before this sequence?",
+        "question": "Arm Extraction to Turtle (escaping player): Where is your endangered foot at the initial checkpoint?",
         "answer": "The endangered player has a turned-out foot enclosed by the opponent's upper body during a leg-entanglement exchange.",
-        "answer_line": "Check the starting configuration",
+        "answer_line": "Turned outward beside the opponent's armpit",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Straight along the opponent's forearm, instep outside",
+            "Turned inward beneath the opponent's upper arm"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Beside the opponent's elbow with the heel hanging free"
           ]
         }
       },
       {
-        "question": "Arm Extraction to Turtle (attacker): Check the defining controls?",
+        "question": "Arm Extraction to Turtle (escaping player): Why does freeing an elbow not establish this escape?",
         "answer": "An Aoki lock does not trap the arm in an omoplata. Do not rotate to turtle or bridge into a reversal while the foot remains fixed; these named destinations are not established by the reviewed foot-lock instruction.",
-        "answer_line": "Check the defining controls",
+        "answer_line": "The foot and hip restraints can still remain",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Withdrawing the elbow also removes the leg control at the hip",
+            "The free hand proves the trapped heel can follow a turn"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "The foot enclosure depends on the escaper keeping an elbow trapped"
           ]
         }
       },
       {
-        "question": "Arm Extraction to Turtle (attacker): When should the partners stop or reset?",
+        "question": "Arm Extraction to Turtle (escaping player): What clearance is needed before a directional reset?",
         "answer": "Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.",
-        "answer_line": "Release before unsafe loading",
+        "answer_line": "The captured foot and knee can move without restraint",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "The shoulders can rotate while the heel stays fixed",
+            "One hand can post while both legs stay bound"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Only the arm clasp opens while the instep remains pinned"
           ]
         }
       },
       {
-        "question": "Arm Extraction to Turtle (attacker): What should a cooperative first drill establish?",
-        "answer": "Identify the starting configuration and rehearse the first connection without finishing pressure. A turned-out foot enclosed beside the armpit is a rotational threat, not simply a straight ankle-lock grip.",
-        "answer_line": "Rehearse the first connection",
+        "question": "Arm Extraction to Turtle (escaping player): What does a successful release alone establish?",
+        "answer": "The reviewed foot-lock instruction does not establish a direct turtle route; any new base needs its own setup.",
+        "answer_line": "Freedom to rebuild position, not a completed turtle",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "A kneeling base with both knees already underneath",
+            "A standing base with your weight already over both feet"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "A facing guard with the inside knee already restored"
           ]
         }
       }
@@ -418,72 +418,72 @@
     ],
     "flashcards": [
       {
-        "question": "Arm Extraction to Turtle (defender): What matters when you identify the turned foot?",
+        "question": "Arm Extraction to Turtle (foot-locker): What foot orientation do you recognize before enclosing it?",
         "answer": "Recognize the foot orientation without twisting it into position against resistance.",
-        "answer_line": "Identify the turned foot",
+        "answer_line": "Outward rotation available without forcing the knee",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Toes pointing straight along your forearm",
+            "Foot turned inward against your ribs"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Outward orientation obtained by turning a resisted knee"
           ]
         }
       },
       {
-        "question": "Arm Extraction to Turtle (defender): What matters when you enclose the foot?",
+        "question": "Arm Extraction to Turtle (foot-locker): What upper-body contact retains the captured foot?",
         "answer": "Hold the instep and heel region securely beside the upper body rather than relying on calf compression.",
-        "answer_line": "Enclose the foot",
+        "answer_line": "Instep beneath upper arm, heel supported by forearm",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Instep outside upper arm, heel under forearm",
+            "Instep under upper arm, forearm high on calf"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Both palms on the forefoot, heel free beside ribs"
           ]
         }
       },
       {
-        "question": "Arm Extraction to Turtle (defender): What matters when you control the hip connection?",
+        "question": "Arm Extraction to Turtle (foot-locker): What does your hip connection accomplish?",
         "answer": "Use the entanglement or foot-on-hip frame to manage distance before considering a finish.",
-        "answer_line": "Control the hip connection",
+        "answer_line": "Limits the opponent's leg and hip movement",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Locks the heel without needing the upper-arm enclosure",
+            "Controls knee bend while leaving the hip free to travel"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Lets the hip follow while only the ankle remains fixed"
           ]
         }
       },
       {
-        "question": "Arm Extraction to Turtle (defender): What matters when you keep pressure neutral?",
+        "question": "Arm Extraction to Turtle (foot-locker): Why pause at capture during an escape drill?",
         "answer": "Stop the drill at a secure capture; the control can become a damaging rotation with very little movement.",
-        "answer_line": "Keep pressure neutral",
+        "answer_line": "Tiny movement can rotate the trapped ankle and knee",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "The grip needs a full bridge before rotation begins",
+            "The opponent must turn before the capture can be recognized"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "A seated partner cannot load the trapped foot"
           ]
         }
       },
       {
-        "question": "Arm Extraction to Turtle (defender): What matters when you respect counterattacks?",
+        "question": "Arm Extraction to Turtle (foot-locker): Which exposed limb also needs attention during the exchange?",
         "answer": "Keep track of your own exposed feet while concentrating on the captured foot.",
-        "answer_line": "Respect counterattacks",
+        "answer_line": "Your own foot near the opponent's hands",
         "distractors": {
           "plausible": [
-            "Advance without checking control",
-            "Choose the route by name alone"
+            "Your posted hand, because the foot stays out of reach",
+            "Your free knee, because only proximal joints are available"
           ],
           "trap": [
-            "Force a trapped joint to move"
+            "Your ankle only after the opponent releases their leg"
           ]
         }
       }

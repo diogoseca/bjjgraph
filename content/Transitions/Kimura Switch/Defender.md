@@ -56,7 +56,7 @@ description: "Kimura Switch (defender): Hold the arm close to the torso before a
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Kimura Switch (defender): What matters when you keep the wrist connected?",
+      "name": "Kimura Switch (defender): Before the figure-four closes, where should you keep the arm?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Hold the arm close to the torso before a figure-four grip closes."
@@ -64,7 +64,7 @@ description: "Kimura Switch (defender): Hold the arm close to the torso before a
     },
     {
       "@type": "Question",
-      "name": "Kimura Switch (defender): What matters when you deny the elbow wrap?",
+      "name": "Kimura Switch (defender): With only your wrist held, how do you deny the next grip?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Recover inside arm position while the attacker has only one point of control."
@@ -72,7 +72,7 @@ description: "Kimura Switch (defender): Hold the arm close to the torso before a
     },
     {
       "@type": "Question",
-      "name": "Kimura Switch (defender): What matters when you recognize the new target?",
+      "name": "Kimura Switch (defender): Which limb relationship signals the new threat after Aoki release?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A Kimura threatens the shoulder and elbow, unlike the preceding foot lock."
@@ -80,7 +80,7 @@ description: "Kimura Switch (defender): Hold the arm close to the torso before a
     },
     {
       "@type": "Question",
-      "name": "Kimura Switch (defender): What matters when you avoid a forced roll?",
+      "name": "Kimura Switch (defender): Why should you not roll with the wrist and shoulder fixed?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Do not roll against a fixed wrist and shoulder. Create slack in the existing control before changing the body angle."
@@ -88,7 +88,7 @@ description: "Kimura Switch (defender): Hold the arm close to the torso before a
     },
     {
       "@type": "Question",
-      "name": "Kimura Switch (defender): What matters when you tap before shoulder loading?",
+      "name": "Kimura Switch (defender): What should end a cooperative positional hold?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Stop before the arm is driven behind the back. Create slack in the existing control before changing the body angle."

@@ -56,42 +56,42 @@ description: "Roll from Chill Dog (defender): Keep the free hand available for f
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Roll from Chill Dog (defender): What matters when you track the trapped elbow?",
+      "name": "Roll from Chill Dog (top): How should you protect the isolated arm as they shift?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Keep the free hand available for framing while preventing the isolated elbow from being pulled further away from your torso."
+        "text": "Preserve inside space with the free arm and avoid letting the isolated elbow drift farther from your torso."
       }
     },
     {
       "@type": "Question",
-      "name": "Roll from Chill Dog (defender): What matters when you recognize neck clearing?",
+      "name": "Roll from Chill Dog (top): What does their head-side grip change actually signal?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The opponent changing the hand around your head signals the move beyond New York, not a turtle escape."
+        "text": "The arm moving around your head indicates the Chill Dog checkpoint, not proof that either player has a rear ride."
       }
     },
     {
       "@type": "Question",
-      "name": "Roll from Chill Dog (defender): What matters when you deny the second leg?",
+      "name": "Roll from Chill Dog (top): Which free-leg movement can deepen the clinch?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Keep a safe base and prevent the free leg from closing high behind your head."
+        "text": "A second leg joining behind the head reinforces the upper-body enclosure; maintain early inside space to prevent it."
       }
     },
     {
       "@type": "Question",
-      "name": "Roll from Chill Dog (defender): What matters when you undo the arm isolation?",
+      "name": "Roll from Chill Dog (top): When is a backward elbow withdrawal appropriate?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Recover the elbow toward your ribs only when the leg enclosure has slack, rather than jerking the shoulder."
+        "text": "Recover the elbow toward the ribs only through an opened high-leg connection rather than pulling against a fixed shoulder."
       }
     },
     {
       "@type": "Question",
-      "name": "Roll from Chill Dog (defender): What matters when you posture after release?",
+      "name": "Roll from Chill Dog (top): What should precede lifting your head after their reset?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Bring the head and chest upright in stages after clearing the upper-body control."
+        "text": "Recover posture after the high leg and arm trap open; a change of direction alone does not establish clearance."
       }
     }
   ]

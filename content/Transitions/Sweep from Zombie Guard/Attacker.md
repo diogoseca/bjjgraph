@@ -68,50 +68,50 @@ description: "Sweep from Zombie Guard (attacker): Maintain posture control while
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Sweep from Zombie Guard (attacker): What matters when you retain comfortable posture control?",
+      "name": "Sweep from Zombie Guard (bottom): What does the Zombie action contribute to a sweep setup?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Maintain posture control while freeing the other arm for the pummel."
+        "text": "Zombie works on a posting arm from supported high guard; the resulting isolation is one possible ingredient in a separate sweep."
       }
     },
     {
       "@type": "Question",
-      "name": "Sweep from Zombie Guard (attacker): What matters when you identify the posting arm?",
+      "name": "Sweep from Zombie Guard (bottom): What must remain while the free hand pummels?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Determine which arm can prevent the intended reversal; do not assume an isolated arm removes every post."
+        "text": "Keep the Mission Control connection while clearing the hand; without posture control the arm entry may not remain available."
       }
     },
     {
       "@type": "Question",
-      "name": "Sweep from Zombie Guard (attacker): What matters when you control the available post?",
+      "name": "Sweep from Zombie Guard (bottom): What should you assess after isolating one arm?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Use a safe wrist or arm connection without manipulating individual fingers."
+        "text": "The other hand and the legs may still maintain base. Determine which support blocks the intended reversal before selecting a sweep."
       }
     },
     {
       "@type": "Question",
-      "name": "Sweep from Zombie Guard (attacker): What matters when you test the base without forcing?",
+      "name": "Sweep from Zombie Guard (bottom): Which control denies the free hand a post for the chosen tip?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Use a small hip movement to check balance while retaining a stable guard."
+        "text": "Manage the arm as a whole so the hand cannot support weight in the chosen tipping direction. A grip alone is insufficient if the hand can still post; do not substitute individual finger leverage. This posting control supports a separately established sweep, not a complete Zombie sweep sequence."
       }
     },
     {
       "@type": "Question",
-      "name": "Sweep from Zombie Guard (attacker): What matters when you require a defined sweep setup?",
+      "name": "Sweep from Zombie Guard (bottom): What can a small hip shift check before commitment?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Proceed only after a coach has established the leg placement and direction for the chosen sweep."
+        "text": "A gentle balance check can reveal whether the base reacts while you still retain guard; it does not specify a full sweep."
       }
     },
     {
       "@type": "Question",
-      "name": "Sweep from Zombie Guard (attacker): What matters when you stabilize the actual landing?",
+      "name": "Sweep from Zombie Guard (bottom): What can the overhook restrict after the hand clears?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Release dangerous arm tension and establish the top position that actually results; mount requires additional leg clearance."
+        "text": "The New York overhook can restrict the cleared arm. The other hand and the legs can still support weight, so a sweep needs its own setup."
       }
     }
   ]

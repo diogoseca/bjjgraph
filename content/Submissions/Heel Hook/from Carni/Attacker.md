@@ -70,50 +70,50 @@ description: "Heel Hook from Carni (attacker): Confirm that the opponent's leg, 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Heel Hook from Carni (attacker): What matters when you verify the entanglement?",
+      "name": "Heel hook after Carni: which opposing limb replaces the original arm as the captured target?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Confirm that the opponent's leg, rather than an arm or shoulder, is enclosed."
+        "text": "A single opposing lower limb in leg control. A genuine leg entanglement must be established after leaving Carni's shoulder control. The original wrist-and-triceps clamp does not provide the heel hook."
       }
     },
     {
       "@type": "Question",
-      "name": "Heel Hook from Carni (attacker): What matters when you control the hip?",
+      "name": "Heel-hook attack: what is the purpose of controlling the opponent's hip?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Manage distance so the leg cannot move freely through the hold."
+        "text": "Limit the leg sliding freely through the entanglement. Hip control manages distance and limits the leg moving freely through the hold. It works with knee-line containment and heel control; it does not replace either of them."
       }
     },
     {
       "@type": "Question",
-      "name": "Heel Hook from Carni (attacker): What matters when you contain the knee line?",
+      "name": "Heel-hook attack: what should happen to the knee line in an unloaded control drill?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Keep the knee connected to the entanglement without forcing sideways pressure in a drill."
+        "text": "Stay contained without sideways knee pressure. Keep the knee connected to the entanglement without forcing sideways pressure in a drill."
       }
     },
     {
       "@type": "Question",
-      "name": "Heel Hook from Carni (attacker): What matters when you identify the exposed heel?",
+      "name": "Heel-hook attack: how should you locate the heel lever?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Locate the heel lever without cranking the foot to expose it."
+        "text": "Use an exposed heel without cranking the foot into view. Locate the heel lever without cranking the foot to expose it."
       }
     },
     {
       "@type": "Question",
-      "name": "Heel Hook from Carni (attacker): What matters when you practice capture only?",
+      "name": "Heel-hook practice: where should a cooperative repetition stop?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Connect the grip with no finishing rotation; a secure heel catch is the stopping point in cooperative practice."
+        "text": "At a secure heel catch with no finishing rotation. Connect the grip with no finishing rotation; a secure heel catch is the stopping point in cooperative practice."
       }
     },
     {
       "@type": "Question",
-      "name": "Heel Hook from Carni (attacker): What matters when you release before turning?",
+      "name": "Heel-hook attack: what must release before either partner changes turning direction?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Open the heel grip and leg connection before either partner changes direction."
+        "text": "The heel grip and leg connection. Open the heel grip and leg connection before either partner changes direction."
       }
     }
   ]

@@ -56,42 +56,42 @@ description: "Arm Extraction and Pass (defender): Establish the first high leg a
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Arm Extraction and Pass (defender): What matters when you start with broken posture?",
+      "name": "Arm Extraction and Pass (bottom): What supports the clinch before adding your second leg?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Establish the first high leg and its hand support before adding the second leg."
+        "text": "Build the first high-leg and hand connection before adding the second leg behind the opponent's head."
       }
     },
     {
       "@type": "Question",
-      "name": "Arm Extraction and Pass (defender): What matters when you bring the second leg high?",
+      "name": "Arm Extraction and Pass (bottom): How can the second high leg reinforce the clinch?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Reinforce the clinch without forcing the knees beyond a comfortable hip angle."
+        "text": "The reinforcing leg should follow a comfortable hip angle; do not force the foot against a fixed knee to retain the top player."
       }
     },
     {
       "@type": "Question",
-      "name": "Arm Extraction and Pass (defender): What matters when you track both elbows?",
+      "name": "Arm Extraction and Pass (bottom): What must you check before treating the clinch as Dead Orchard?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Do not assume that high legs alone have isolated an arm or completed Dead Orchard."
+        "text": "Track both opposing elbows and the actual leg closure. Crackhead's reinforced clinch does not automatically become Dead Orchard."
       }
     },
     {
       "@type": "Question",
-      "name": "Arm Extraction and Pass (defender): What matters when you keep knees close?",
+      "name": "Arm Extraction and Pass (bottom): How do you retain space when the passer frees the arm?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Use hip position and connected leg pressure rather than pulling the feet against fixed knees."
+        "text": "As the clinch opens, frame the shoulder, make a short hip escape and reconnect elbow and knee before the passer fills the gap."
       }
     },
     {
       "@type": "Question",
-      "name": "Arm Extraction and Pass (defender): What matters when you return to one-leg control?",
+      "name": "Arm Extraction and Pass (bottom): How do you return to Mission Control during the extraction?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Lower the reinforcing leg while preserving the first shin connection if you need Mission Control again."
+        "text": "Return to one-leg control by lowering the reinforcing leg while keeping the original high shin and hand connected."
       }
     }
   ]

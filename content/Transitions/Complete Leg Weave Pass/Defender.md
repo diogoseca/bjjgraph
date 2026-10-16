@@ -56,7 +56,7 @@ description: "Complete Leg Weave Pass (defender): The passer's arm connecting yo
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Complete Leg Weave Pass (defender): What matters when you recognize the arm weave?",
+      "name": "Complete Leg Weave Pass (bottom): Which control is bringing your knees together?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The passer's arm connecting your legs is the relevant control, not a leg threaded across your hip."
@@ -64,7 +64,7 @@ description: "Complete Leg Weave Pass (defender): The passer's arm connecting yo
     },
     {
       "@type": "Question",
-      "name": "Complete Leg Weave Pass (defender): What matters when you keep the shield supported?",
+      "name": "Complete Leg Weave Pass (bottom): Before the shield collapses, what keeps it useful?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Maintain a useful knee angle and upper-body frame before the passer folds the legs together."
@@ -72,7 +72,7 @@ description: "Complete Leg Weave Pass (defender): The passer's arm connecting yo
     },
     {
       "@type": "Question",
-      "name": "Complete Leg Weave Pass (defender): What matters when you recover inside space?",
+      "name": "Complete Leg Weave Pass (bottom): What creates room for the inside knee before the final clearance?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Move the hips and pummel the knee back between the bodies while the weave is still loose."
@@ -80,15 +80,15 @@ description: "Complete Leg Weave Pass (defender): The passer's arm connecting yo
     },
     {
       "@type": "Question",
-      "name": "Complete Leg Weave Pass (defender): What matters when you deny upper-body collapse?",
+      "name": "Complete Leg Weave Pass (bottom): Why resist being flattened while the legs are controlled?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Prevent the passer from flattening your shoulders while controlling the legs."
+        "text": "Preserve a shoulder frame and side angle so leg control does not become a settled upper-body pin."
       }
     },
     {
       "@type": "Question",
-      "name": "Complete Leg Weave Pass (defender): What matters when you use an available underhook?",
+      "name": "Complete Leg Weave Pass (bottom): When can an underhook help recover half guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "An underhook can help you face the passer and rebuild half guard when the shoulder line is not already pinned."

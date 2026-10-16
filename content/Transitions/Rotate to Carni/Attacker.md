@@ -68,50 +68,50 @@ description: "Rotate to Carni (attacker): Use the guard and shoulder connection 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Rotate to Carni (attacker): What matters when you set the upper-body angle?",
+      "name": "Rotate to Carni (bottom): What should be close before you clear the high leg?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Use the guard and shoulder connection to bring the opponent close before moving the high leg."
+        "text": "Bring the opponent close through the guard and shoulder connection before moving the head-side leg."
       }
     },
     {
       "@type": "Question",
-      "name": "Rotate to Carni (attacker): What matters when you frame before clearing?",
+      "name": "Rotate to Carni (bottom): What preserves space as the leg travels around the head?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Manage the shoulder and neck line with a forearm frame as the leg clears the head."
+        "text": "The neck-side forearm frame manages incoming chest pressure while the high leg clears."
       }
     },
     {
       "@type": "Question",
-      "name": "Rotate to Carni (attacker): What matters when you anchor through the hips?",
+      "name": "Rotate to Carni (bottom): Which torso angle helps anchor the shoulder clamp?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Turn partly belly down with the knee close and foot supported rather than wrenching the leg across the head."
+        "text": "The shown Carni angle combines a partial belly-down turn, a close knee and a supported foot."
       }
     },
     {
       "@type": "Question",
-      "name": "Rotate to Carni (attacker): What matters when you hold the triceps?",
+      "name": "Rotate to Carni (bottom): What stops the opponent freely rolling out of the shoulder clamp?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Keep the captured arm connected so the opponent cannot freely roll or withdraw the shoulder."
+        "text": "Martinez retains the triceps so the arm cannot simply withdraw or roll freely from the clamp."
       }
     },
     {
       "@type": "Question",
-      "name": "Rotate to Carni (attacker): What matters when you control before finishing?",
+      "name": "Rotate to Carni (bottom): What should be checked before any wrist leverage is added?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Hold the wrist and elbow at a comfortable angle; a small change can load the shoulder rapidly."
+        "text": "Verify the supported capture without finishing pressure; small wrist-and-elbow changes can load the fixed shoulder."
       }
     },
     {
       "@type": "Question",
-      "name": "Rotate to Carni (attacker): What matters when you let the lock go?",
+      "name": "Rotate to Carni (bottom): Which connections must open when the partner taps?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Release the wrist and leg clamp immediately on a tap or when the partner needs to roll safely."
+        "text": "Release wrist leverage and the leg clamp immediately so the shoulder can move freely."
       }
     }
   ]

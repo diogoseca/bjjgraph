@@ -68,50 +68,50 @@ description: "Standing Escape (attacker): The bottom player faces the kneeling o
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Standing Escape (attacker): What matters when you recognize the actual control?",
+      "name": "Invisible Collar stand-up (bottom): What must open before you prepare to rise?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The bottom player faces the kneeling or leaning top player in a high guard. One arm has been isolated through the New York and neck-clearing sequence."
+        "text": "The bottom player must release the facing Invisible Collar enclosure before creating space and posts for standing."
       }
     },
     {
       "@type": "Question",
-      "name": "Standing Escape (attacker): What matters when you remove submission pressure?",
+      "name": "Invisible Collar stand-up (bottom): Which loading must end before the leg comes down?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Release any wrist, neck or elbow loading before opening the high-leg enclosure."
+        "text": "Unload captured neck and shoulder connections before lowering the high legs into the guard reset."
       }
     },
     {
       "@type": "Question",
-      "name": "Standing Escape (attacker): What matters when you open the high connection?",
+      "name": "Invisible Collar stand-up (bottom): How does the high knee return toward ordinary guard?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Lower the controlling leg through a comfortable hip angle rather than pulling the foot against the knee."
+        "text": "Create a free path with the hips rather than dragging the foot against the knee while the upper body remains entangled."
       }
     },
     {
       "@type": "Question",
-      "name": "Standing Escape (attacker): What matters when you restore inside frames?",
+      "name": "Invisible Collar stand-up (bottom): What should you keep between you while creating distance?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Bring the forearms and knees between the bodies as space becomes available."
+        "text": "Guard retention comes first: keep forearm and knee between the bodies until the opponent's chest pressure no longer reaches you."
       }
     },
     {
       "@type": "Question",
-      "name": "Standing Escape (attacker): What matters when you face the opponent?",
+      "name": "Invisible Collar stand-up (bottom): Which orientation helps you preserve that distance?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Keep the shoulders and hips oriented toward the opponent while re-establishing a comfortable facing guard."
+        "text": "Keep shoulders and hips oriented toward the opponent while the framed hip escape creates room."
       }
     },
     {
       "@type": "Question",
-      "name": "Standing Escape (attacker): What matters when you stabilize before moving again?",
+      "name": "Invisible Collar stand-up (bottom): When can supporting posts be established?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Check posture, knee comfort and inside space before resuming a sweep or submission attack."
+        "text": "Create distance after releasing the clinch, then establish stable hand and foot posts for standing."
       }
     }
   ]

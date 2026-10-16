@@ -56,7 +56,7 @@ description: "Finish Buggy Choke (defender): Watch for an arm reaching past your
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Finish Buggy Choke (defender): What matters when you recognize the loop early?",
+      "name": "Finish Buggy Choke (top): What early reach signals the bottom player's attack?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Watch for an arm reaching past your head and connecting to the same-side leg."
@@ -64,7 +64,7 @@ description: "Finish Buggy Choke (defender): Watch for an arm reaching past your
     },
     {
       "@type": "Question",
-      "name": "Finish Buggy Choke (defender): What matters when you prevent hand-leg connection?",
+      "name": "Finish Buggy Choke (top): How can you deny the connection before it closes?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use balanced posture and safe inside frames before the loop closes."
@@ -72,7 +72,7 @@ description: "Finish Buggy Choke (defender): Watch for an arm reaching past your
     },
     {
       "@type": "Question",
-      "name": "Finish Buggy Choke (defender): What matters when you protect the neck?",
+      "name": "Finish Buggy Choke (top): Why must you respect the choke from top side control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Treat the choke as live even though you hold top side control."
@@ -80,7 +80,7 @@ description: "Finish Buggy Choke (defender): Watch for an arm reaching past your
     },
     {
       "@type": "Question",
-      "name": "Finish Buggy Choke (defender): What matters when you clear before circling?",
+      "name": "Finish Buggy Choke (top): What comes before circling to another pin?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Free the head-and-arm enclosure before changing to north-south or chasing another pin."
@@ -88,7 +88,7 @@ description: "Finish Buggy Choke (defender): Watch for an arm reaching past your
     },
     {
       "@type": "Question",
-      "name": "Finish Buggy Choke (defender): What matters when you do not slam or wrench?",
+      "name": "Finish Buggy Choke (top): Which response avoids turning defense into a fall or knee injury?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Avoid lifting, dropping, or twisting the partner's trapped leg to force an escape."

@@ -68,50 +68,50 @@ description: "Crackhead Control to New York (attacker): Keep the first high leg 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Crackhead Control to New York (attacker): What matters when you preserve Mission Control?",
+      "name": "Crackhead to New York (bottom): What retains posture while you prepare the pummel?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Keep the first high leg and hand connected while adjusting the second leg."
+        "text": "Preserve the Mission Control shin-and-hand connection while adjusting the reinforcing leg."
       }
     },
     {
       "@type": "Question",
-      "name": "Crackhead Control to New York (attacker): What matters when you create pummeling space?",
+      "name": "Crackhead to New York (bottom): What creates room for your free arm to pummel?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Open the reinforcing leg as needed without losing all posture control."
+        "text": "Adjust the reinforcing leg enough to access the hand-clearing path without losing all posture control."
       }
     },
     {
       "@type": "Question",
-      "name": "Crackhead Control to New York (attacker): What matters when you find inside space?",
+      "name": "Crackhead to New York (bottom): In Ben Eddy's hand-first pummel, where do you enter?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Work through the opening near the hand rather than forcing a tightly clamped elbow straight outward."
+        "text": "Eddy's variation works beneath the hand rather than forcing under the tightly clamped elbow; it is not claimed as the only version."
       }
     },
     {
       "@type": "Question",
-      "name": "Crackhead Control to New York (attacker): What matters when you move the hand to the mat?",
+      "name": "Crackhead to New York (bottom): What part of the arm do you guide toward the mat?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Guide the wrist and forearm through the available space without bending individual fingers."
+        "text": "Guide the hand using the wrist and forearm through available space, not individual finger bending."
       }
     },
     {
       "@type": "Question",
-      "name": "Crackhead Control to New York (attacker): What matters when you prevent the return pummel?",
+      "name": "Crackhead to New York (bottom): What stops the cleared hand from pummeling back inside?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Cover the cleared arm and close the knee hug as the hand reaches the mat."
+        "text": "As the hand reaches the mat, cover the arm and connect the knee hug to retain isolation."
       }
     },
     {
       "@type": "Question",
-      "name": "Crackhead Control to New York (attacker): What matters when you recognize New York?",
+      "name": "Crackhead to New York (bottom): What should remain after the Zombie succeeds?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Once the arm is isolated, maintain that new control instead of repeatedly treating Zombie as a separate leg entanglement."
+        "text": "New York is the retained arm-isolation checkpoint after the pummel, not a separate lower-body entanglement."
       }
     }
   ]
