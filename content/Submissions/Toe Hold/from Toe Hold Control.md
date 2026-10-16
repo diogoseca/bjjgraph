@@ -46,35 +46,22 @@ description: "Master the toe hold finish from Toe Hold Control. Complete guide t
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Crossover Toe Hold",
-      "description": "Toe Hold from Toe Hold Control film study: Crossover Toe Hold, taught by Craig Jones.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Kx8gZ3QdO8s/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Kx8gZ3QdO8s",
-      "url": "https://www.youtube.com/watch?v=Kx8gZ3QdO8s",
-      "creator": { "@type": "Person", "name": "Craig Jones" },
-      "duration": "PT51S"
+      "name": "attack toe hold from top half guard. #bjj #jiujitsu #nogi",
+      "description": "Toe Hold from Toe Hold Control film study: attack toe hold from top half guard. #bjj #jiujitsu #nogi.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/esC22tIGI94/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/esC22tIGI94",
+      "url": "https://www.youtube.com/watch?v=esC22tIGI94",
+      "duration": "PT45S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Toe Hold from 50/50",
-      "description": "Toe Hold from Toe Hold Control film study: Toe Hold from 50/50, taught by John Danaher.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/B_StkmaI3Nc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/B_StkmaI3Nc",
-      "url": "https://www.youtube.com/watch?v=B_StkmaI3Nc",
-      "creator": { "@type": "Person", "name": "John Danaher" },
-      "duration": "PT17S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Attack the Toe Hold from Top Half Guard",
-      "description": "Toe Hold from Toe Hold Control film study: Attack the Toe Hold from Top Half Guard, taught by Maven Martial Arts.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/esC22tIGI94/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/esC22tIGI94",
-      "url": "https://www.youtube.com/watch?v=esC22tIGI94",
-      "creator": { "@type": "Person", "name": "Maven Martial Arts" },
-      "duration": "PT45S"
+      "name": "Crossover (Craig Jones) Toe Hold (Brazilian Jiu Jitsu)",
+      "description": "Toe Hold from Toe Hold Control film study: Crossover (Craig Jones) Toe Hold (Brazilian Jiu Jitsu).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Kx8gZ3QdO8s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Kx8gZ3QdO8s",
+      "url": "https://www.youtube.com/watch?v=Kx8gZ3QdO8s",
+      "duration": "PT51S"
     }
   ]
 }
@@ -137,25 +124,17 @@ Within the modern leg lock hierarchy, the toe hold from Toe Hold Control functio
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=Kx8gZ3QdO8s)
-
-<p class="clip-credit"><strong>Crossover Toe Hold</strong> — taught by Craig Jones · 0:51 · <a href="https://www.youtube.com/watch?v=Kx8gZ3QdO8s" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=B_StkmaI3Nc)
-
-<p class="clip-credit"><strong>Toe Hold from 50/50</strong> — taught by John Danaher · 0:17 · <a href="https://www.youtube.com/watch?v=B_StkmaI3Nc" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=esC22tIGI94)
 
-<p class="clip-credit"><strong>Attack the Toe Hold from Top Half Guard</strong> — taught by Maven Martial Arts · 0:45 · <a href="https://www.youtube.com/watch?v=esC22tIGI94" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>attack toe hold from top half guard. #bjj #jiujitsu #nogi</strong> · 0:45 · <a href="https://www.youtube.com/watch?v=esC22tIGI94" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Kx8gZ3QdO8s)
+
+<p class="clip-credit"><strong>Crossover (Craig Jones) Toe Hold (Brazilian Jiu Jitsu)</strong> · 0:51 · <a href="https://www.youtube.com/watch?v=Kx8gZ3QdO8s" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

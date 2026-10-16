@@ -450,20 +450,10 @@
       {
         "id": "l5E5EYTOkYI",
         "title": "Ezekiel Choke from Side Control",
-        "by": "United BJJ Hawaii",
-        "vertical": false,
         "channel": "United BJJ Hawaii",
         "duration": 123,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "sObgbF1uXTo",
-        "title": "Ezekiel from Side Control Top and Mount",
-        "by": "Jean Jacques Machado",
         "vertical": false,
-        "channel": "JeanJacquesMachado",
-        "duration": 252,
-        "verified": "2026-07-14"
+        "front": true
       }
     ]
   },
@@ -636,25 +626,6 @@
         "description": "Combine defensive recognition with immediate escape transitions. After blocking the blade forearm, immediately chain into hip escape to half guard recovery. Partner attempts the Ezekiel at increasing speed and intensity while you defend and transition. Progress from isolated drilling to positional sparring rounds starting in side control with the Ezekiel as the attacker's primary goal."
       }
     ],
-    "clips": [
-      {
-        "id": "9QA0L4aOOKk",
-        "title": "Two-Hand Choke Defense with Hip Throw",
-        "by": "Gracie Charlottesville",
-        "vertical": false,
-        "channel": "Gracie Charlottesville",
-        "duration": 23,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "uzDPYRi92D0",
-        "title": "Escaping side control as opponent switches base",
-        "by": "Jean Jacques Machado",
-        "vertical": false,
-        "channel": "JeanJacquesMachado",
-        "duration": 136,
-        "verified": "2026-07-16"
-      }
-    ]
+    "clips": []
   }
 }

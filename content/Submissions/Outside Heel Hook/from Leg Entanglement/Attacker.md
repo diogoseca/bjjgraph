@@ -188,34 +188,21 @@ description: "Learn to attack with the outside heel hook from leg entanglement. 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Finishing the outside heel hook from ashi",
-      "description": "Outside Heel Hook from Leg Entanglement (Attacker) film study: Finishing the outside heel hook from ashi, taught by Fox Den Martial Arts.",
+      "name": "Finishing Mechanics for the Outside Heel Hook from Irimi Ashi Garami and\u2026",
+      "description": "Outside Heel Hook from Leg Entanglement (Attacker) film study: Finishing Mechanics for the Outside Heel Hook from Irimi Ashi Garami and\u2026.",
       "thumbnailUrl": "https://i.ytimg.com/vi/tLcHN042w48/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/tLcHN042w48",
       "url": "https://www.youtube.com/watch?v=tLcHN042w48",
-      "creator": { "@type": "Person", "name": "Fox Den Martial Arts" },
-      "duration": "PT86S"
+      "duration": "PT85S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Ashi garami to heel hook",
-      "description": "Outside Heel Hook from Leg Entanglement (Attacker) film study: Ashi garami to heel hook, taught by The Coop BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/pRqoNs4K7cI/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/pRqoNs4K7cI",
-      "url": "https://www.youtube.com/watch?v=pRqoNs4K7cI",
-      "creator": { "@type": "Person", "name": "The Coop BJJ" },
-      "duration": "PT83S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Nasty heel hook from outside ashi",
-      "description": "Outside Heel Hook from Leg Entanglement (Attacker) film study: Nasty heel hook from outside ashi, taught by Craig Jones.",
+      "name": "Craig Jones - Nasty Heel Hook from Outside Ashi Garami",
+      "description": "Outside Heel Hook from Leg Entanglement (Attacker) film study: Craig Jones - Nasty Heel Hook from Outside Ashi Garami.",
       "thumbnailUrl": "https://i.ytimg.com/vi/m4sGDhukUmk/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/m4sGDhukUmk",
       "url": "https://www.youtube.com/watch?v=m4sGDhukUmk",
-      "creator": { "@type": "Person", "name": "Craig Jones" },
       "duration": "PT141S"
     }
   ]
@@ -247,15 +234,7 @@ Attacking with the outside heel hook from leg entanglement requires establishing
 
 ![](https://www.youtube.com/watch?v=tLcHN042w48)
 
-<p class="clip-credit"><strong>Finishing the outside heel hook from ashi</strong> — taught by Fox Den Martial Arts · 1:26 · <a href="https://www.youtube.com/watch?v=tLcHN042w48" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=pRqoNs4K7cI)
-
-<p class="clip-credit"><strong>Ashi garami to heel hook</strong> — taught by The Coop BJJ · 1:23 · <a href="https://www.youtube.com/watch?v=pRqoNs4K7cI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Finishing Mechanics for the Outside Heel Hook from Irimi Ashi Garami and…</strong> · 1:25 · <a href="https://www.youtube.com/watch?v=tLcHN042w48" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -263,7 +242,7 @@ Attacking with the outside heel hook from leg entanglement requires establishing
 
 ![](https://www.youtube.com/watch?v=m4sGDhukUmk)
 
-<p class="clip-credit"><strong>Nasty heel hook from outside ashi</strong> — taught by Craig Jones · 2:21 · <a href="https://www.youtube.com/watch?v=m4sGDhukUmk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Craig Jones - Nasty Heel Hook from Outside Ashi Garami</strong> · 2:21 · <a href="https://www.youtube.com/watch?v=m4sGDhukUmk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

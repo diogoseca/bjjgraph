@@ -46,35 +46,32 @@ description: "Master Knee Shield Retention in BJJ. Essential half guard defensiv
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Getting the underhook from knee shield half guard",
-      "description": "Knee Shield Retention film study: Getting the underhook from knee shield half guard, taught by Bowerhouse MMA.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/R0P8BvcJLAs/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/R0P8BvcJLAs",
-      "url": "https://www.youtube.com/watch?v=R0P8BvcJLAs",
-      "creator": { "@type": "Person", "name": "Bowerhouse MMA" },
-      "duration": "PT131S"
+      "name": "Half Guard / Knee Shield Pass #4",
+      "description": "Knee Shield Retention film study: Half Guard / Knee Shield Pass #4.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Y815hmtzGZA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Y815hmtzGZA",
+      "url": "https://www.youtube.com/watch?v=Y815hmtzGZA",
+      "duration": "PT29S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "How to build and hold a perfect knee shield",
-      "description": "Knee Shield Retention film study: How to build and hold a perfect knee shield, taught by Bernardo Faria.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/mPDafcPeF7s/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/mPDafcPeF7s",
-      "url": "https://www.youtube.com/watch?v=mPDafcPeF7s",
-      "creator": { "@type": "Person", "name": "Bernardo Faria" },
-      "duration": "PT247S"
+      "name": "How to pass Half Guard Knee Shield with an inside Knee Cut - JiuJitsu Class\u2026",
+      "description": "Knee Shield Retention film study: How to pass Half Guard Knee Shield with an inside Knee Cut - JiuJitsu Class\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/yj_6xcl2emA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/yj_6xcl2emA",
+      "url": "https://www.youtube.com/watch?v=yj_6xcl2emA",
+      "duration": "PT70S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "Holding half guard against the switch base",
-      "description": "Knee Shield Retention film study: Holding half guard against the switch base, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/rja-2KKDGb0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/rja-2KKDGb0",
-      "url": "https://www.youtube.com/watch?v=rja-2KKDGb0",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT284S"
+      "name": "Passing Knee Shield from Over Under Position",
+      "description": "Knee Shield Retention film study: Passing Knee Shield from Over Under Position.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MvsgiCFdQPA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/MvsgiCFdQPA",
+      "url": "https://www.youtube.com/watch?v=MvsgiCFdQPA",
+      "duration": "PT115S"
     }
   ]
 }
@@ -128,25 +125,25 @@ This technique serves as the foundation for modern half guard systems, providing
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=R0P8BvcJLAs)
+![](https://www.youtube.com/watch?v=Y815hmtzGZA)
 
-<p class="clip-credit"><strong>Getting the underhook from knee shield half guard</strong> — taught by Bowerhouse MMA · 2:11 · <a href="https://www.youtube.com/watch?v=R0P8BvcJLAs" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=mPDafcPeF7s)
-
-<p class="clip-credit"><strong>How to build and hold a perfect knee shield</strong> — taught by Bernardo Faria · 4:07 · <a href="https://www.youtube.com/watch?v=mPDafcPeF7s" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Half Guard / Knee Shield Pass #4</strong> · 0:29 · <a href="https://www.youtube.com/watch?v=Y815hmtzGZA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=rja-2KKDGb0)
+![](https://www.youtube.com/watch?v=yj_6xcl2emA)
 
-<p class="clip-credit"><strong>Holding half guard against the switch base</strong> — taught by Lachlan Giles · 4:44 · <a href="https://www.youtube.com/watch?v=rja-2KKDGb0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How to pass Half Guard Knee Shield with an inside Knee Cut - JiuJitsu Class…</strong> · 1:10 · <a href="https://www.youtube.com/watch?v=yj_6xcl2emA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=MvsgiCFdQPA)
+
+<p class="clip-credit"><strong>Passing Knee Shield from Over Under Position</strong> · 1:55 · <a href="https://www.youtube.com/watch?v=MvsgiCFdQPA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

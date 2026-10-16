@@ -46,24 +46,12 @@ description: "Master Far Side Armbar from top positions. Complete guide with saf
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Far Side Armbar from Side Control",
-      "description": "Far Side Armbar from Side Control film study: Far Side Armbar from Side Control, taught by Fox Den Martial Arts.",
+      "name": "Side Control - Far Side Armbar",
+      "description": "Far Side Armbar from Side Control film study: Side Control - Far Side Armbar.",
       "thumbnailUrl": "https://i.ytimg.com/vi/XxdFHCKd568/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/XxdFHCKd568",
       "url": "https://www.youtube.com/watch?v=XxdFHCKd568",
-      "creator": { "@type": "Person", "name": "Fox Den Martial Arts" },
       "duration": "PT49S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Straight Armlock from Side Control",
-      "description": "Far Side Armbar from Side Control film study: Straight Armlock from Side Control, taught by Roger Gracie.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/iPnQx-6RYpU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/iPnQx-6RYpU",
-      "url": "https://www.youtube.com/watch?v=iPnQx-6RYpU",
-      "creator": { "@type": "Person", "name": "Roger Gracie" },
-      "duration": "PT198S"
     }
   ]
 }
@@ -128,15 +116,7 @@ This submission appears frequently in both gi and no-gi competition at all level
 
 ![](https://www.youtube.com/watch?v=XxdFHCKd568)
 
-<p class="clip-credit"><strong>Far Side Armbar from Side Control</strong> — taught by Fox Den Martial Arts · 0:49 · <a href="https://www.youtube.com/watch?v=XxdFHCKd568" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=iPnQx-6RYpU)
-
-<p class="clip-credit"><strong>Straight Armlock from Side Control</strong> — taught by Roger Gracie · 3:18 · <a href="https://www.youtube.com/watch?v=iPnQx-6RYpU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Side Control - Far Side Armbar</strong> · 0:49 · <a href="https://www.youtube.com/watch?v=XxdFHCKd568" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

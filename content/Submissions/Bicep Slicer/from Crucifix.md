@@ -46,24 +46,12 @@ description: "Master the Bicep Slicer in BJJ. Complete guide with safety protoco
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Crucifix to bicep slicer finish",
-      "description": "Bicep Slicer from Crucifix film study: Crucifix to bicep slicer finish, taught by Ashraf Shishani.",
+      "name": "Crucifix to biceps slicer",
+      "description": "Bicep Slicer from Crucifix film study: Crucifix to biceps slicer.",
       "thumbnailUrl": "https://i.ytimg.com/vi/u9bpAwBgPVo/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/u9bpAwBgPVo",
       "url": "https://www.youtube.com/watch?v=u9bpAwBgPVo",
-      "creator": { "@type": "Person", "name": "Ashraf Shishani" },
       "duration": "PT70S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "The crucifix bicep crush",
-      "description": "Bicep Slicer from Crucifix film study: The crucifix bicep crush, taught by Matt Darcy.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/5AqIY_6jfQ0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/5AqIY_6jfQ0",
-      "url": "https://www.youtube.com/watch?v=5AqIY_6jfQ0",
-      "creator": { "@type": "Person", "name": "Matt Darcy" },
-      "duration": "PT25S"
     }
   ]
 }
@@ -124,15 +112,7 @@ The Bicep Slicer is a devastating compression lock that applies crushing pressur
 
 ![](https://www.youtube.com/watch?v=u9bpAwBgPVo)
 
-<p class="clip-credit"><strong>Crucifix to bicep slicer finish</strong> — taught by Ashraf Shishani · 1:10 · <a href="https://www.youtube.com/watch?v=u9bpAwBgPVo" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=5AqIY_6jfQ0)
-
-<p class="clip-credit"><strong>The crucifix bicep crush</strong> — taught by Matt Darcy · 0:25 · <a href="https://www.youtube.com/watch?v=5AqIY_6jfQ0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Crucifix to biceps slicer</strong> · 1:10 · <a href="https://www.youtube.com/watch?v=u9bpAwBgPVo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -46,12 +46,11 @@ description: "Master the Standing RNC from Rear Clinch in BJJ. Expert guide to f
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Takedown to rear naked choke setup",
-      "description": "Rear Naked Choke from Standing Rear Clinch film study: Takedown to rear naked choke setup, taught by Fit To Fight Republic.",
+      "name": "Takedown to Rear Naked Choke - BJJ Submission Set Up",
+      "description": "Rear Naked Choke from Standing Rear Clinch film study: Takedown to Rear Naked Choke - BJJ Submission Set Up.",
       "thumbnailUrl": "https://i.ytimg.com/vi/FvT_Ffy68OI/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/FvT_Ffy68OI",
       "url": "https://www.youtube.com/watch?v=FvT_Ffy68OI",
-      "creator": { "@type": "Person", "name": "Fit To Fight Republic" },
       "duration": "PT38S"
     }
   ]
@@ -117,7 +116,7 @@ From a competition perspective, the standing RNC appears most frequently in no-g
 
 ![](https://www.youtube.com/watch?v=FvT_Ffy68OI)
 
-<p class="clip-credit"><strong>Takedown to rear naked choke setup</strong> — taught by Fit To Fight Republic · 0:38 · <a href="https://www.youtube.com/watch?v=FvT_Ffy68OI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Takedown to Rear Naked Choke - BJJ Submission Set Up</strong> · 0:38 · <a href="https://www.youtube.com/watch?v=FvT_Ffy68OI" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

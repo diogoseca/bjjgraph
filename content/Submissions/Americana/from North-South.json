@@ -429,31 +429,26 @@
     ],
     "clips": [
       {
-        "id": "eBD320q32IA",
-        "title": "North South Kimura to Americana",
-        "by": "PAC Enumclaw",
-        "vertical": false,
-        "channel": "PAC Enumclaw",
-        "duration": 79,
-        "verified": "2026-07-14"
-      },
-      {
         "id": "xwp0G1-2p-Q",
         "title": "North South Americana",
-        "by": "Cauliflower Ear Family",
-        "vertical": false,
         "channel": "Cauliflower Ear Family",
         "duration": 165,
-        "verified": "2026-07-14"
+        "vertical": false,
+        "front": true
       },
       {
         "id": "nbiGqgXoYxE",
         "title": "North South to Americana",
-        "by": "Fenrir Thorvaldsen",
-        "vertical": false,
         "channel": "Fenrir Thorvaldsen",
         "duration": 177,
-        "verified": "2026-07-14"
+        "vertical": false
+      },
+      {
+        "id": "eBD320q32IA",
+        "title": "North South Kimura to Americana",
+        "channel": "PAC Enumclaw",
+        "duration": 78,
+        "vertical": false
       }
     ]
   },
@@ -644,21 +639,10 @@
     "clips": [
       {
         "id": "bN9pxIdCiPU",
-        "title": "Americana Defense with the Legs",
-        "by": "ROBAL BJJ",
-        "vertical": false,
+        "title": "Americana with legs defense",
         "channel": "ROBAL BJJ / MRF",
         "duration": 17,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "jDbywpDs3Tw",
-        "title": "Preventing the Hand Moving Across (North South)",
-        "by": "Lachlan Giles",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 129,
-        "verified": "2026-07-14"
+        "vertical": false
       }
     ]
   }

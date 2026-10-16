@@ -953,31 +953,12 @@
     ],
     "clips": [
       {
-        "id": "_sBB-O8fqP4",
-        "title": "Standing Up From Turtle/Back Defense",
-        "by": "Priit Mihkelson",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
+        "id": "Wga4PfuShEg",
+        "title": "Back Control (Defending) Seatbelt Grip",
+        "channel": "Academy Jiu Jitsu",
         "duration": 114,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "BL0RhUlKPQs",
-        "title": "Simple Standing Rear Naked Choke Escape",
-        "by": "Henry Akins",
         "vertical": false,
-        "channel": "Henry Akins' Hidden Jiu-Jitsu",
-        "duration": 205,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "3Jd2llamfl8",
-        "title": "Back Control Escape Explained Simply",
-        "by": "Jean Jacques Machado",
-        "vertical": false,
-        "channel": "JeanJacquesMachado",
-        "duration": 189,
-        "verified": "2026-07-14"
+        "front": true
       }
     ]
   },

@@ -366,26 +366,7 @@
       }
     ],
     "safety_considerations": "When practicing the X-Guard Elevation Sweep, both partners must prioritize controlled execution throughout the movement. The sweep generates significant vertical and rotational force that can cause unexpected falls. The landing partner should be proficient in backward breakfalls before drilling at any meaningful speed. The sweeping partner must guide the opponent's descent rather than simply dumping them. Avoid full-power execution until both partners are comfortable with the landing mechanics. Be cautious of knee strain on both the sweeping player's hooks and the swept player's trapped leg - release immediately if either partner feels compression or torque on the knee joint. The inverted grasshopper position places load on the cervical spine, so practitioners with neck issues should approach cautiously and avoid forcing the inversion. During live training, tap immediately if the position feels compromised rather than fighting through structural failure.",
-    "clips": [
-      {
-        "id": "zbYb6sOYC8w",
-        "title": "X guard elevation sweep",
-        "by": "Marcelo Garcia",
-        "vertical": false,
-        "channel": "CHOKE LABORATORY",
-        "duration": 53,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "m-ueyJXiShY",
-        "title": "No-gi X-guard sweep",
-        "by": "Marcelo Garcia",
-        "vertical": false,
-        "channel": "GRACIEMAG - The original BJJ magazine. ",
-        "duration": 126,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "X-Guard Elevation Sweep Defender",
@@ -561,35 +542,7 @@
         "description": "Live positional rounds starting with the attacker in grasshopper guard. Defender practices the complete defensive toolkit against unrestricted sweep attempts, including recognizing when the attacker chains from failed elevation to leg entanglements. Integrate all defensive layers - early denial, mid-sequence extraction, and late-stage emergency recovery - into fluid defensive responses."
       }
     ],
-    "clips": [
-      {
-        "id": "kNfVYhZbgrg",
-        "title": "Four levels of sweep defense",
-        "by": "Wim Deputter",
-        "vertical": false,
-        "channel": "Wim Deputter BJJ",
-        "duration": 87,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "C1lYVhDXwvw",
-        "title": "How to pass and shut down X-Guard",
-        "by": "Kaynan Duarte",
-        "vertical": false,
-        "channel": "The Grapple Club",
-        "duration": 116,
-        "verified": "2026-07-16"
-      },
-      {
-        "id": "LNyXkfENU5c",
-        "title": "X-Guard counter while standing",
-        "by": "Samy Aljamal",
-        "vertical": false,
-        "channel": "FIT Jiu Jitsu Jordan/ Samy Aljamal",
-        "duration": 79,
-        "verified": "2026-07-16"
-      }
-    ]
+    "clips": []
   },
   "variants_and_adaptations": [
     {

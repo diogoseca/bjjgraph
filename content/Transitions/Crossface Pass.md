@@ -46,24 +46,12 @@ description: "Master the Crossface Pass from half guard top to side control. Ste
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Half guard top cross body pass",
-      "description": "Crossface Pass film study: Half guard top cross body pass, taught by SBG New Braunfels.",
+      "name": "12. Half Guard Top Cross Body Pass",
+      "description": "Crossface Pass film study: 12. Half Guard Top Cross Body Pass.",
       "thumbnailUrl": "https://i.ytimg.com/vi/qqaMVmLxklI/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/qqaMVmLxklI",
       "url": "https://www.youtube.com/watch?v=qqaMVmLxklI",
-      "creator": { "@type": "Person", "name": "SBG New Braunfels" },
-      "duration": "PT121S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "How to create an insanely tight cross face",
-      "description": "Crossface Pass film study: How to create an insanely tight cross face, taught by Escapology BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/gHD03vpWGSM/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/gHD03vpWGSM",
-      "url": "https://www.youtube.com/watch?v=gHD03vpWGSM",
-      "creator": { "@type": "Person", "name": "Escapology BJJ" },
-      "duration": "PT119S"
+      "duration": "PT120S"
     }
   ]
 }
@@ -119,15 +107,7 @@ When executed correctly, the crossface pass is one of the highest percentage met
 
 ![](https://www.youtube.com/watch?v=qqaMVmLxklI)
 
-<p class="clip-credit"><strong>Half guard top cross body pass</strong> — taught by SBG New Braunfels · 2:01 · <a href="https://www.youtube.com/watch?v=qqaMVmLxklI" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=gHD03vpWGSM)
-
-<p class="clip-credit"><strong>How to create an insanely tight cross face</strong> — taught by Escapology BJJ · 1:59 · <a href="https://www.youtube.com/watch?v=gHD03vpWGSM" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>12. Half Guard Top Cross Body Pass</strong> · 2:00 · <a href="https://www.youtube.com/watch?v=qqaMVmLxklI" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

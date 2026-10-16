@@ -368,26 +368,7 @@
       }
     ],
     "safety_considerations": "Guard recovery from reverse half guard involves rotational movement under an opponent's weight that can stress the cervical spine and lower back. Avoid explosive bridging when the opponent has significant chest pressure on your back, as this can compress the spine. The half guard hook must be maintained with leg strength rather than twisting the knee—ensure the hook comes from hip and thigh engagement, not knee rotation. During training, communicate with your partner about pressure levels, particularly when practicing the rotation under crossface pressure, to prevent neck compression injuries.",
-    "clips": [
-      {
-        "id": "5sdZak2bil4",
-        "title": "Reclaiming closed guard from half guard",
-        "by": "Daniel Lima",
-        "vertical": false,
-        "channel": "Daniel Lima",
-        "duration": 26,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "BhNZGloJ56c",
-        "title": "Guard recovery when you are getting smashed",
-        "by": "Finesse Jiujitsu HTX",
-        "vertical": false,
-        "channel": "FINESSE JIUJITSU HTX",
-        "duration": 103,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Guard Recovery from Reverse Half Guard Defender",
@@ -558,25 +539,6 @@
         "description": "Start each round in reverse half guard with the bottom player working recovery and you choosing between rotation denial, back take, or leg extraction. Full resistance with rotating partners to develop decision-making and adaptability against different recovery strategies."
       }
     ],
-    "clips": [
-      {
-        "id": "Zo6aygjOgcQ",
-        "title": "Passing half guard before the recovery",
-        "by": "Gordon Ryan",
-        "vertical": false,
-        "channel": "Nina Drama Clips",
-        "duration": 188,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "NlrI7ZiECXM",
-        "title": "Guard Retention: Linking Reverse Half Guard",
-        "by": "Lachlan Giles",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 80,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

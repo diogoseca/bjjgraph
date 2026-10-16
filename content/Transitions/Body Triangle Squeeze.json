@@ -424,31 +424,12 @@
     "safety_considerations": "The body triangle squeeze creates genuine rib compression that can cause rib fractures, costochondral separation, and diaphragm compromise. Always apply pressure progressively rather than explosively. Release immediately upon any tap signal including verbal tap, hand tap, or distressed body language. In training, communicate with your partner about pressure intensity and agree on maximum levels before drilling. Never apply finishing-level squeeze force on partners with known rib injuries, breathing conditions, or recent thoracic surgery. Tap early when drilling this technique, as rib injuries from compression can be slow-healing and significantly impact training capacity.",
     "clips": [
       {
-        "id": "8JwxpgWGsFU",
-        "title": "How to properly use the body triangle",
-        "by": "Gordon Ryan",
-        "vertical": false,
-        "channel": "Less Impressed More Involved BJJ",
-        "duration": 294,
-        "verified": "2026-07-15"
-      },
-      {
         "id": "8gNZDH1RvyQ",
-        "title": "Scorpion Rib Crusher Body Triangle Breakdown",
-        "by": "Bloom BJJ",
-        "vertical": false,
+        "title": "Scorpion Rib Crusher (Body Triangle) Breakdown",
         "channel": "Bloom BJJ",
         "duration": 271,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "yxOGv7-dBg4",
-        "title": "Body Triangle Concepts",
-        "by": "RVV BJJ",
         "vertical": false,
-        "channel": "RVV BJJ",
-        "duration": 488,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },
@@ -677,21 +658,18 @@
     "clips": [
       {
         "id": "hgaULMND3ag",
-        "title": "Escaping the body triangle squeeze",
-        "by": "Coach Brian",
-        "vertical": false,
+        "title": "TMG Clips #78 - Escaping The Body Triangle",
         "channel": "TeachMeGrappling Coach Brian",
         "duration": 129,
-        "verified": "2026-07-15"
+        "vertical": false,
+        "front": true
       },
       {
         "id": "VYef5MPcNZA",
-        "title": "Body triangle ankle trap escape",
-        "by": "Garry Tonon and Gordon Ryan",
-        "vertical": false,
+        "title": "Garry Tonon & Gordon Ryan SHow a  Body Triangle Ankle Trap Escape",
         "channel": "MastersmokeABUSE",
-        "duration": 144,
-        "verified": "2026-07-15"
+        "duration": 143,
+        "vertical": false
       }
     ]
   }

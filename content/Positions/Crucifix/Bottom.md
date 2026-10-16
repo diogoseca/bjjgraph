@@ -165,24 +165,12 @@ description: "Master defensive strategies from Crucifix Bottom in BJJ. Complete 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Simple crucifix escape",
-      "description": "Crucifix (Bottom) film study: Simple crucifix escape, taught by Coach Brian.",
+      "name": "TMG Clips #143 - Simple Crucifix Escape",
+      "description": "Crucifix (Bottom) film study: TMG Clips #143 - Simple Crucifix Escape.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Wrg5Tx-88yM/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Wrg5Tx-88yM",
       "url": "https://www.youtube.com/watch?v=Wrg5Tx-88yM",
-      "creator": { "@type": "Person", "name": "Coach Brian" },
       "duration": "PT149S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Escaping the mounted crucifix",
-      "description": "Crucifix (Bottom) film study: Escaping the mounted crucifix, taught by Shem Rock.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/41koUZWmeHE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/41koUZWmeHE",
-      "url": "https://www.youtube.com/watch?v=41koUZWmeHE",
-      "creator": { "@type": "Person", "name": "Shem Rock" },
-      "duration": "PT146S"
     }
   ]
 }
@@ -214,15 +202,7 @@ Survival from this position requires immediate recognition, calm systematic defe
 
 ![](https://www.youtube.com/watch?v=Wrg5Tx-88yM)
 
-<p class="clip-credit"><strong>Simple crucifix escape</strong> — taught by Coach Brian · 2:29 · <a href="https://www.youtube.com/watch?v=Wrg5Tx-88yM" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=41koUZWmeHE)
-
-<p class="clip-credit"><strong>Escaping the mounted crucifix</strong> — taught by Shem Rock · 2:26 · <a href="https://www.youtube.com/watch?v=41koUZWmeHE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>TMG Clips #143 - Simple Crucifix Escape</strong> · 2:29 · <a href="https://www.youtube.com/watch?v=Wrg5Tx-88yM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

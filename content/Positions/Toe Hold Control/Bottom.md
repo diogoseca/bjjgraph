@@ -165,35 +165,12 @@ description: "Master Toe Hold Control Bottom defense in BJJ. Systematic guide co
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "How to escape the toe hold",
-      "description": "Toe Hold Control (Bottom) film study: How to escape the toe hold, taught by Gordon Ryan.",
+      "name": "How to escape from toehold by Gordon Ryan",
+      "description": "Toe Hold Control (Bottom) film study: How to escape from toehold by Gordon Ryan.",
       "thumbnailUrl": "https://i.ytimg.com/vi/3a9k8-ZcYrk/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/3a9k8-ZcYrk",
       "url": "https://www.youtube.com/watch?v=3a9k8-ZcYrk",
-      "creator": { "@type": "Person", "name": "Gordon Ryan" },
-      "duration": "PT106S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Leg lock / toe hold defense",
-      "description": "Toe Hold Control (Bottom) film study: Leg lock / toe hold defense, taught by Kuwy Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/m0NLphEuFoc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/m0NLphEuFoc",
-      "url": "https://www.youtube.com/watch?v=m0NLphEuFoc",
-      "creator": { "@type": "Person", "name": "Kuwy Jitsu" },
-      "duration": "PT61S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Leglock counters from ashi garami",
-      "description": "Toe Hold Control (Bottom) film study: Leglock counters from ashi garami, taught by BJJBlackBeltDad.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/QMgsMSTRSBI/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/QMgsMSTRSBI",
-      "url": "https://www.youtube.com/watch?v=QMgsMSTRSBI",
-      "creator": { "@type": "Person", "name": "BJJBlackBeltDad" },
-      "duration": "PT93S"
+      "duration": "PT105S"
     }
   ]
 }
@@ -221,23 +198,7 @@ Toe Hold Control Bottom represents a defensive position within the leg entanglem
 
 ![](https://www.youtube.com/watch?v=3a9k8-ZcYrk)
 
-<p class="clip-credit"><strong>How to escape the toe hold</strong> — taught by Gordon Ryan · 1:46 · <a href="https://www.youtube.com/watch?v=3a9k8-ZcYrk" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=m0NLphEuFoc)
-
-<p class="clip-credit"><strong>Leg lock / toe hold defense</strong> — taught by Kuwy Jitsu · 1:01 · <a href="https://www.youtube.com/watch?v=m0NLphEuFoc" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=QMgsMSTRSBI)
-
-<p class="clip-credit"><strong>Leglock counters from ashi garami</strong> — taught by BJJBlackBeltDad · 1:33 · <a href="https://www.youtube.com/watch?v=QMgsMSTRSBI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How to escape from toehold by Gordon Ryan</strong> · 1:45 · <a href="https://www.youtube.com/watch?v=3a9k8-ZcYrk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

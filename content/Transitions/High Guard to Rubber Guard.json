@@ -376,20 +376,10 @@
       {
         "id": "WliTCjEDA-8",
         "title": "Basic entries into rubber guard",
-        "by": "BJJ4Breakfast",
-        "vertical": false,
         "channel": "BJJ4Breakfast",
-        "duration": 106,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "h1XzZDsUxHQ",
-        "title": "Eddie Bravo explains the rubber guard",
-        "by": "Eddie Bravo",
+        "duration": 105,
         "vertical": false,
-        "channel": "JAN FERNANDEZ ",
-        "duration": 111,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },
@@ -571,21 +561,11 @@
     "clips": [
       {
         "id": "AvivOVuYcCk",
-        "title": "Simple rubber guard escape for the passer",
-        "by": "BJJ4Breakfast",
-        "vertical": false,
+        "title": "Simple (but risky) rubber guard escape",
         "channel": "BJJ4Breakfast",
         "duration": 131,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "RCnDWdAWXQs",
-        "title": "Recovering Posture vs the Overhook Closed Guard",
-        "by": "Lachlan Giles",
         "vertical": false,
-        "channel": "Absolute MMA St Kilda - Melbourne",
-        "duration": 559,
-        "verified": "2026-07-16"
+        "front": true
       }
     ]
   }

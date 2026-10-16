@@ -46,24 +46,22 @@ description: "Learn the Basic Butterfly Sweep in BJJ. Step-by-step execution fro
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Marcelo Garcia butterfly sweep demonstration",
-      "description": "Basic Butterfly Sweep film study: Marcelo Garcia butterfly sweep demonstration, taught by Marcelo Garcia.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/c8JBXJMc0Oc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/c8JBXJMc0Oc",
-      "url": "https://www.youtube.com/watch?v=c8JBXJMc0Oc",
-      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
-      "duration": "PT81S"
+      "name": "half butterfly sweep (Half Guard)",
+      "description": "Basic Butterfly Sweep film study: half butterfly sweep (Half Guard).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/oyBedW2q0Qo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/oyBedW2q0Qo",
+      "url": "https://www.youtube.com/watch?v=oyBedW2q0Qo",
+      "duration": "PT29S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Butterfly sweep breakdown, version 2",
-      "description": "Basic Butterfly Sweep film study: Butterfly sweep breakdown, version 2, taught by Marcelo Garcia.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Mo2vJ0_xb1U/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Mo2vJ0_xb1U",
-      "url": "https://www.youtube.com/watch?v=Mo2vJ0_xb1U",
-      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
-      "duration": "PT239S"
+      "name": "Technique Tuesday: half butterfly guard sweep from head wrap",
+      "description": "Basic Butterfly Sweep film study: Technique Tuesday: half butterfly guard sweep from head wrap.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_PJ9H2B8us8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_PJ9H2B8us8",
+      "url": "https://www.youtube.com/watch?v=_PJ9H2B8us8",
+      "duration": "PT43S"
     }
   ]
 }
@@ -117,17 +115,17 @@ This is considered an essential technique for all BJJ practitioners and forms th
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=c8JBXJMc0Oc)
+![](https://www.youtube.com/watch?v=oyBedW2q0Qo)
 
-<p class="clip-credit"><strong>Marcelo Garcia butterfly sweep demonstration</strong> — taught by Marcelo Garcia · 1:21 · <a href="https://www.youtube.com/watch?v=c8JBXJMc0Oc" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>half butterfly sweep (Half Guard)</strong> · 0:29 · <a href="https://www.youtube.com/watch?v=oyBedW2q0Qo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=Mo2vJ0_xb1U)
+![](https://www.youtube.com/watch?v=_PJ9H2B8us8)
 
-<p class="clip-credit"><strong>Butterfly sweep breakdown, version 2</strong> — taught by Marcelo Garcia · 3:59 · <a href="https://www.youtube.com/watch?v=Mo2vJ0_xb1U" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Technique Tuesday: half butterfly guard sweep from head wrap</strong> · 0:43 · <a href="https://www.youtube.com/watch?v=_PJ9H2B8us8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

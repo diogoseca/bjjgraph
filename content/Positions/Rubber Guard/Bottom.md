@@ -155,50 +155,6 @@ description: "Master Rubber Guard bottom using the 10th Planet system. Learn Mis
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Rubber Guard (Bottom) \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Prison guard breakdown from rubber guard",
-      "description": "Rubber Guard (Bottom) film study: Prison guard breakdown from rubber guard, taught by Eddie Bravo.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/gFYyMkaMz34/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/gFYyMkaMz34",
-      "url": "https://www.youtube.com/watch?v=gFYyMkaMz34",
-      "creator": { "@type": "Person", "name": "Eddie Bravo" },
-      "duration": "PT59S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Meathook options from rubber guard",
-      "description": "Rubber Guard (Bottom) film study: Meathook options from rubber guard, taught by Eddie Bravo.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/KN7ww-OyaxQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/KN7ww-OyaxQ",
-      "url": "https://www.youtube.com/watch?v=KN7ww-OyaxQ",
-      "creator": { "@type": "Person", "name": "Eddie Bravo" },
-      "duration": "PT60S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Invisible collar from rubber guard",
-      "description": "Rubber Guard (Bottom) film study: Invisible collar from rubber guard, taught by Eddie Bravo.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/KCyIwacRKu8/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/KCyIwacRKu8",
-      "url": "https://www.youtube.com/watch?v=KCyIwacRKu8",
-      "creator": { "@type": "Person", "name": "Eddie Bravo" },
-      "duration": "PT61S"
-    }
-  ]
-}
-</script>
-
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -209,40 +165,6 @@ The Rubber Guard from the bottom perspective represents one of the most innovati
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Rubber Guard (Bottom) in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=gFYyMkaMz34)
-
-<p class="clip-credit"><strong>Prison guard breakdown from rubber guard</strong> — taught by Eddie Bravo · 0:59 · <a href="https://www.youtube.com/watch?v=gFYyMkaMz34" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=KN7ww-OyaxQ)
-
-<p class="clip-credit"><strong>Meathook options from rubber guard</strong> — taught by Eddie Bravo · 1:00 · <a href="https://www.youtube.com/watch?v=KN7ww-OyaxQ" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=KCyIwacRKu8)
-
-<p class="clip-credit"><strong>Invisible collar from rubber guard</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=KCyIwacRKu8" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="state-invariants" class="content-section">

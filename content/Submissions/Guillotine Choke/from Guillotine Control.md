@@ -46,35 +46,22 @@ description: "Master the guillotine choke finish from guillotine control. Comple
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "The Marcelotine high-elbow guillotine",
-      "description": "Guillotine Choke from Guillotine Control film study: The Marcelotine high-elbow guillotine, taught by Marcelo Garcia.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/NUnTxPvjCa0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/NUnTxPvjCa0",
-      "url": "https://www.youtube.com/watch?v=NUnTxPvjCa0",
-      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
-      "duration": "PT73S"
+      "name": "Guillotine Escape from Closed Guard to Side Control",
+      "description": "Guillotine Choke from Guillotine Control film study: Guillotine Escape from Closed Guard to Side Control.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lvjRNWzKMPc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lvjRNWzKMPc",
+      "url": "https://www.youtube.com/watch?v=lvjRNWzKMPc",
+      "duration": "PT27S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Arm-in guillotine to high wrist",
-      "description": "Guillotine Choke from Guillotine Control film study: Arm-in guillotine to high wrist, taught by Gordon Ryan.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/-wLHOB-KlGE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/-wLHOB-KlGE",
-      "url": "https://www.youtube.com/watch?v=-wLHOB-KlGE",
-      "creator": { "@type": "Person", "name": "Gordon Ryan" },
-      "duration": "PT17S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Arm-in guillotine vs double leg",
-      "description": "Guillotine Choke from Guillotine Control film study: Arm-in guillotine vs double leg, taught by Everythingbjj.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/SKjFomPMar0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/SKjFomPMar0",
-      "url": "https://www.youtube.com/watch?v=SKjFomPMar0",
-      "creator": { "@type": "Person", "name": "Everythingbjj" },
-      "duration": "PT70S"
+      "name": "Guillotine Choke Defense",
+      "description": "Guillotine Choke from Guillotine Control film study: Guillotine Choke Defense.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/OQYU2BXdEEw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/OQYU2BXdEEw",
+      "url": "https://www.youtube.com/watch?v=OQYU2BXdEEw",
+      "duration": "PT51S"
     }
   ]
 }
@@ -137,25 +124,17 @@ Strategically, the guillotine finish from control forces a binary defensive dile
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=NUnTxPvjCa0)
+![](https://www.youtube.com/watch?v=lvjRNWzKMPc)
 
-<p class="clip-credit"><strong>The Marcelotine high-elbow guillotine</strong> — taught by Marcelo Garcia · 1:13 · <a href="https://www.youtube.com/watch?v=NUnTxPvjCa0" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=-wLHOB-KlGE)
-
-<p class="clip-credit"><strong>Arm-in guillotine to high wrist</strong> — taught by Gordon Ryan · 0:17 · <a href="https://www.youtube.com/watch?v=-wLHOB-KlGE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Guillotine Escape from Closed Guard to Side Control</strong> · 0:27 · <a href="https://www.youtube.com/watch?v=lvjRNWzKMPc" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=SKjFomPMar0)
+![](https://www.youtube.com/watch?v=OQYU2BXdEEw)
 
-<p class="clip-credit"><strong>Arm-in guillotine vs double leg</strong> — taught by Everythingbjj · 1:10 · <a href="https://www.youtube.com/watch?v=SKjFomPMar0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Guillotine Choke Defense</strong> · 0:51 · <a href="https://www.youtube.com/watch?v=OQYU2BXdEEw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

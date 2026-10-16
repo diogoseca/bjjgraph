@@ -186,24 +186,12 @@ description: "Learn to execute the Standing Guard Pull as the attacker. Step-by-
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Open guard pull from standing",
-      "description": "Standing Guard Pull (Attacker) film study: Open guard pull from standing, taught by Absolute MMA.",
+      "name": "Kids BJJ Yellow / White Belt - Open Guard Pull",
+      "description": "Standing Guard Pull (Attacker) film study: Kids BJJ Yellow / White Belt - Open Guard Pull.",
       "thumbnailUrl": "https://i.ytimg.com/vi/P7mhNq9atUo/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/P7mhNq9atUo",
       "url": "https://www.youtube.com/watch?v=P7mhNq9atUo",
-      "creator": { "@type": "Person", "name": "Absolute MMA" },
       "duration": "PT79S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Competition-tested ways to pull guard",
-      "description": "Standing Guard Pull (Attacker) film study: Competition-tested ways to pull guard, taught by Jon Thomas.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/B4_5rH7Vae0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/B4_5rH7Vae0",
-      "url": "https://www.youtube.com/watch?v=B4_5rH7Vae0",
-      "creator": { "@type": "Person", "name": "Jon Thomas" },
-      "duration": "PT207S"
     }
   ]
 }
@@ -233,15 +221,7 @@ As the attacker executing the Standing Guard Pull, your objective is to transiti
 
 ![](https://www.youtube.com/watch?v=P7mhNq9atUo)
 
-<p class="clip-credit"><strong>Open guard pull from standing</strong> — taught by Absolute MMA · 1:19 · <a href="https://www.youtube.com/watch?v=P7mhNq9atUo" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=B4_5rH7Vae0)
-
-<p class="clip-credit"><strong>Competition-tested ways to pull guard</strong> — taught by Jon Thomas · 3:27 · <a href="https://www.youtube.com/watch?v=B4_5rH7Vae0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Kids BJJ Yellow / White Belt - Open Guard Pull</strong> · 1:19 · <a href="https://www.youtube.com/watch?v=P7mhNq9atUo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

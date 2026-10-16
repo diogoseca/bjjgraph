@@ -180,35 +180,32 @@ description: "How to execute Flower Sweep in BJJ. Attacking perspective with set
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Flower sweep from closed guard",
-      "description": "Flower Sweep (Attacker) film study: Flower sweep from closed guard, taught by Alberto Serrano.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/HptsGRf7PX0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/HptsGRf7PX0",
-      "url": "https://www.youtube.com/watch?v=HptsGRf7PX0",
-      "creator": { "@type": "Person", "name": "Alberto Serrano" },
-      "duration": "PT70S"
+      "name": "Deep Flower Sweep",
+      "description": "Flower Sweep (Attacker) film study: Deep Flower Sweep.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/guLR_4msTH4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/guLR_4msTH4",
+      "url": "https://www.youtube.com/watch?v=guLR_4msTH4",
+      "duration": "PT29S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Flower sweep basics (pendulum sweep)",
-      "description": "Flower Sweep (Attacker) film study: Flower sweep basics (pendulum sweep), taught by Gorilla BJJ Academy.",
+      "name": "BJJ Basics \u2022 Flower sweep aka Pendulum sweep",
+      "description": "Flower Sweep (Attacker) film study: BJJ Basics \u2022 Flower sweep aka Pendulum sweep.",
       "thumbnailUrl": "https://i.ytimg.com/vi/VPuRGIFaWz4/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/VPuRGIFaWz4",
       "url": "https://www.youtube.com/watch?v=VPuRGIFaWz4",
-      "creator": { "@type": "Person", "name": "Gorilla BJJ Academy" },
-      "duration": "PT50S"
+      "duration": "PT49S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "Deep flower sweep",
-      "description": "Flower Sweep (Attacker) film study: Deep flower sweep, taught by American Top Team coach.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/guLR_4msTH4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/guLR_4msTH4",
-      "url": "https://www.youtube.com/watch?v=guLR_4msTH4",
-      "creator": { "@type": "Person", "name": "American Top Team coach" },
-      "duration": "PT29S"
+      "name": "Flower Sweep",
+      "description": "Flower Sweep (Attacker) film study: Flower Sweep.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/HptsGRf7PX0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/HptsGRf7PX0",
+      "url": "https://www.youtube.com/watch?v=HptsGRf7PX0",
+      "duration": "PT70S"
     }
   ]
 }
@@ -236,9 +233,9 @@ The Flower Sweep is a fundamental closed guard sweep that exploits the opponent'
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=HptsGRf7PX0)
+![](https://www.youtube.com/watch?v=guLR_4msTH4)
 
-<p class="clip-credit"><strong>Flower sweep from closed guard</strong> — taught by Alberto Serrano · 1:10 · <a href="https://www.youtube.com/watch?v=HptsGRf7PX0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Deep Flower Sweep</strong> · 0:29 · <a href="https://www.youtube.com/watch?v=guLR_4msTH4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -246,15 +243,15 @@ The Flower Sweep is a fundamental closed guard sweep that exploits the opponent'
 
 ![](https://www.youtube.com/watch?v=VPuRGIFaWz4)
 
-<p class="clip-credit"><strong>Flower sweep basics (pendulum sweep)</strong> — taught by Gorilla BJJ Academy · 0:50 · <a href="https://www.youtube.com/watch?v=VPuRGIFaWz4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>BJJ Basics • Flower sweep aka Pendulum sweep</strong> · 0:49 · <a href="https://www.youtube.com/watch?v=VPuRGIFaWz4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=guLR_4msTH4)
+![](https://www.youtube.com/watch?v=HptsGRf7PX0)
 
-<p class="clip-credit"><strong>Deep flower sweep</strong> — taught by American Top Team coach · 0:29 · <a href="https://www.youtube.com/watch?v=guLR_4msTH4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Flower Sweep</strong> · 1:10 · <a href="https://www.youtube.com/watch?v=HptsGRf7PX0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

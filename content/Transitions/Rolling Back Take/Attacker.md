@@ -186,35 +186,22 @@ description: "How to execute Rolling Back Take in BJJ. Attacking perspective wit
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Rolling back take from turtle",
-      "description": "Rolling Back Take (Attacker) film study: Rolling back take from turtle, taught by JiuJitsu.com.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/oijKoS9siS4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/oijKoS9siS4",
-      "url": "https://www.youtube.com/watch?v=oijKoS9siS4",
-      "creator": { "@type": "Person", "name": "JiuJitsu.com" },
-      "duration": "PT41S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Gator roll back take from turtle",
-      "description": "Rolling Back Take (Attacker) film study: Gator roll back take from turtle, taught by Gracie Barra Pymble.",
+      "name": "Gator Roll Back Take from Turtle",
+      "description": "Rolling Back Take (Attacker) film study: Gator Roll Back Take from Turtle.",
       "thumbnailUrl": "https://i.ytimg.com/vi/o_7f8c64YrY/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/o_7f8c64YrY",
       "url": "https://www.youtube.com/watch?v=o_7f8c64YrY",
-      "creator": { "@type": "Person", "name": "Gracie Barra Pymble" },
       "duration": "PT37S"
     },
     {
       "@type": "VideoObject",
-      "position": 3,
-      "name": "Ninja roll back take",
-      "description": "Rolling Back Take (Attacker) film study: Ninja roll back take, taught by bjjtaro.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/7rE8Y4XyHno/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/7rE8Y4XyHno",
-      "url": "https://www.youtube.com/watch?v=7rE8Y4XyHno",
-      "creator": { "@type": "Person", "name": "bjjtaro" },
-      "duration": "PT11S"
+      "position": 2,
+      "name": "Rolling Back Take from Turtle",
+      "description": "Rolling Back Take (Attacker) film study: Rolling Back Take from Turtle.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/oijKoS9siS4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/oijKoS9siS4",
+      "url": "https://www.youtube.com/watch?v=oijKoS9siS4",
+      "duration": "PT41S"
     }
   ]
 }
@@ -242,25 +229,17 @@ The Rolling Back Take is a dynamic and highly effective transition from top turt
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=oijKoS9siS4)
-
-<p class="clip-credit"><strong>Rolling back take from turtle</strong> — taught by JiuJitsu.com · 0:41 · <a href="https://www.youtube.com/watch?v=oijKoS9siS4" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=o_7f8c64YrY)
 
-<p class="clip-credit"><strong>Gator roll back take from turtle</strong> — taught by Gracie Barra Pymble · 0:37 · <a href="https://www.youtube.com/watch?v=o_7f8c64YrY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Gator Roll Back Take from Turtle</strong> · 0:37 · <a href="https://www.youtube.com/watch?v=o_7f8c64YrY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=7rE8Y4XyHno)
+![](https://www.youtube.com/watch?v=oijKoS9siS4)
 
-<p class="clip-credit"><strong>Ninja roll back take</strong> — taught by bjjtaro · 0:11 · <a href="https://www.youtube.com/watch?v=7rE8Y4XyHno" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Rolling Back Take from Turtle</strong> · 0:41 · <a href="https://www.youtube.com/watch?v=oijKoS9siS4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

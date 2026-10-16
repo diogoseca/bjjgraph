@@ -370,30 +370,18 @@
     "clips": [
       {
         "id": "i9rAyo8tRZw",
-        "title": "Hindulotine breakdown from rubber guard",
-        "by": "CordesgainsBJJ",
-        "vertical": false,
+        "title": "Hindulotine Breakdown",
         "channel": "CordesgainsBJJ",
-        "duration": 87,
-        "verified": "2026-07-15"
+        "duration": 86,
+        "vertical": false,
+        "front": true
       },
       {
         "id": "YbOV4vESByc",
-        "title": "Hindulotine submission of the week",
-        "by": "Ben Eddy",
-        "vertical": false,
+        "title": "Ben Eddy - Hindulotine (Control Jiu-Jitsu Submission of The Week)",
         "channel": "Control Jiu JItsu",
-        "duration": 97,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "6UwoAQt6u6o",
-        "title": "Hindulotine finish in competition",
-        "by": "Ben Eddy",
-        "vertical": false,
-        "channel": "Rubber Guard Assassins",
-        "duration": 60,
-        "verified": "2026-07-15"
+        "duration": 96,
+        "vertical": false
       }
     ]
   },
@@ -572,34 +560,6 @@
         "description": "Positional sparring starting from established Hindulotine control. Attacker works to finish while defender uses full repertoire of defenses and escapes. Track escape rate over rounds and identify which finishing variations cause the most difficulty for targeted drilling. 2-minute rounds with position resets."
       }
     ],
-    "clips": [
-      {
-        "id": "q6efGUnLu9s",
-        "title": "Guillotine defense from inside the guard",
-        "by": "Soma Academy",
-        "vertical": false,
-        "channel": "Soma Academy",
-        "duration": 52,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "OI_18KI8_jg",
-        "title": "Defending the guillotine from closed guard",
-        "by": "Double Phoenix Jiu Jitsu",
-        "vertical": false,
-        "channel": "Double Phoenix Jiu Jitsu",
-        "duration": 48,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "ra6bs8YwYGc",
-        "title": "Escaping a guillotine choke from guard",
-        "by": "Cosens MMA",
-        "vertical": false,
-        "channel": "Cosens MMA LLC",
-        "duration": 88,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

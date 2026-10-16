@@ -378,35 +378,7 @@
       }
     ],
     "safety_considerations": "Matrix escapes involve rapid directional changes from partially inverted positions, creating meaningful risk of neck strain and cervical spine compression. Practitioners should develop comfort with inversions progressively through months of dedicated drilling before attempting the Matrix system in live training. Never force the escape against strong resistance in unfamiliar positions, and communicate immediately with training partners if neck pressure becomes excessive. Drill at controlled speeds before adding resistance. Partners applying top pressure during escape drilling should be attentive to the practitioner's neck position and avoid driving into a compromised cervical spine.",
-    "clips": [
-      {
-        "id": "W0TCGKRcniA",
-        "title": "Turtle Escape: Shoulder Roll",
-        "by": "BJJake",
-        "vertical": false,
-        "channel": "BJJake",
-        "duration": 21,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "waVFl1Ip6VU",
-        "title": "Turtle Back Escape by Shrugging",
-        "by": "Andy Tong",
-        "vertical": false,
-        "channel": "Andy Tong",
-        "duration": 33,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "bDZntPrcLpg",
-        "title": "Escaping Back Control from Turtle",
-        "by": "BJJ101",
-        "vertical": false,
-        "channel": "BJJ101",
-        "duration": 37,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Escape Matrix Position Defender",
@@ -583,25 +555,6 @@
         "description": "Start from stalled Matrix position. Opponent attempts escape while defender attempts to capitalize. Track success rates for back control establishment versus opponent reaching turtle. Reset after outcome is determined. Alternate roles every three rounds."
       }
     ],
-    "clips": [
-      {
-        "id": "lpgcKpIgClw",
-        "title": "Why You Keep Losing the Back: Retaining Back Control",
-        "by": "Brandon McCaghren",
-        "vertical": false,
-        "channel": "Brandon Mccaghren",
-        "duration": 143,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "cd6QGWceb7c",
-        "title": "Sitting back to guard from turtle",
-        "by": "Mark Mullen",
-        "vertical": false,
-        "channel": "Mark Mullen Bjj",
-        "duration": 84,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

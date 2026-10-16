@@ -1612,13 +1612,12 @@
  },
  "Transitions/Armbar-from-Back-Transition.html": {
   "canonical": "https://bjjgraph.org/Transitions/Armbar-from-Back-Transition",
-  "content_floor": 9149,
-  "content_hash": "b0178f55051b81c426a1111587a6370056f3968b604f74100df361ae64006091",
-  "content_len": 10764,
+  "content_floor": 8861,
+  "content_hash": "8c9a0cffddfa2174b5b2d7a61586521b83b5342b6f1e4f57cc77d10a3448357a",
+  "content_len": 10425,
   "ldjson": [
    "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"item\": \"https://bjjgraph.org/\", \"name\": \"Home\", \"position\": 1}, {\"@type\": \"ListItem\", \"item\": \"https://bjjgraph.org/Transitions/\", \"name\": \"Transitions\", \"position\": 2}, {\"@type\": \"ListItem\", \"item\": \"https://bjjgraph.org/Transitions/Armbar-from-Back-Transition\", \"name\": \"Armbar from Back Transition\", \"position\": 3}]}",
    "{\"@context\": \"https://schema.org\", \"@type\": \"DefinedTerm\", \"description\": \"The Armbar from Back Transition is a submission setup that converts standing back control into an armbar by isolating the arm an opponent commits to neck defense, then rotating to the ground to attack the exposed elbow joint.\", \"inDefinedTermSet\": \"https://bjjgraph.org/Transitions/\", \"name\": \"Armbar from Back Transition\"}",
-   "{\"@context\": \"https://schema.org\", \"@type\": \"ItemList\", \"itemListElement\": [{\"@type\": \"VideoObject\", \"creator\": {\"@type\": \"Person\", \"name\": \"Hammer Jiu-Jitsu\"}, \"description\": \"Armbar from Back Transition film study: Rolling armbar from back mount, taught by Hammer Jiu-Jitsu.\", \"duration\": \"PT40S\", \"embedUrl\": \"https://www.youtube.com/embed/nsLJ8AiGZ5A\", \"name\": \"Rolling armbar from back mount\", \"position\": 1, \"thumbnailUrl\": \"https://i.ytimg.com/vi/nsLJ8AiGZ5A/hqdefault.jpg\", \"url\": \"https://www.youtube.com/watch?v=nsLJ8AiGZ5A\"}, {\"@type\": \"VideoObject\", \"creator\": {\"@type\": \"Person\", \"name\": \"Malachy Friedman\"}, \"description\": \"Armbar from Back Transition film study: Armbar from the back variation, taught by Malachy Friedman.\", \"duration\": \"PT80S\", \"embedUrl\": \"https://www.youtube.com/embed/jf1kPefTmm0\", \"name\": \"Armbar from the back variation\", \"position\": 2, \"thumbnailUrl\": \"https://i.ytimg.com/vi/jf1kPefTmm0/hqdefault.jpg\", \"url\": \"https://www.youtube.com/watch?v=jf1kPefTmm0\"}, {\"@type\": \"VideoObject\", \"creator\": {\"@type\": \"Person\", \"name\": \"CholoMMA\"}, \"description\": \"Armbar from Back Transition film study: Armbar from the back off the RNC threat, taught by CholoMMA.\", \"duration\": \"PT39S\", \"embedUrl\": \"https://www.youtube.com/embed/fPV5aCm4uIE\", \"name\": \"Armbar from the back off the RNC threat\", \"position\": 3, \"thumbnailUrl\": \"https://i.ytimg.com/vi/fPV5aCm4uIE/hqdefault.jpg\", \"url\": \"https://www.youtube.com/watch?v=fPV5aCm4uIE\"}], \"name\": \"Armbar from Back Transition — Film Study\"}",
    "{\"@context\": \"https://schema.org\", \"@type\": \"Organization\", \"description\": \"Free Brazilian jiu-jitsu study app with an interactive technique map, flashcards, and simulated rolls\", \"logo\": \"https://bjjgraph.org/static/icon.png\", \"name\": \"BJJ Graph\", \"sameAs\": [\"https://github.com/diogoseca/bjjgraph\"], \"url\": \"https://bjjgraph.org\"}",
    "{\"@context\": \"https://schema.org\", \"@type\": \"WebPage\", \"dateModified\": \"<volatile>\", \"datePublished\": \"<volatile>\", \"description\": \"Master the Armbar from Back Transition in BJJ. Step-by-step guide from Standing Back Control to Armbar Control with timing cues, counters, and defensive strategies.\", \"isPartOf\": {\"@type\": \"WebSite\", \"name\": \"BJJ Graph\", \"url\": \"https://bjjgraph.org\"}, \"name\": \"Armbar from Back Transition\", \"publisher\": {\"@type\": \"Organization\", \"name\": \"BJJ Graph\", \"url\": \"https://bjjgraph.org\"}}"
   ],
@@ -1627,7 +1626,6 @@
    "#common-mistakes",
    "#defensive-options",
    "#execution-steps",
-   "#film-study",
    "#key-principles",
    "#key-principles-1",
    "#playing-as-attacker",
@@ -1652,10 +1650,7 @@
    "../../Systems/Submission-Clinic-System",
    "../../Transitions/Armbar-from-Back-Transition/Attacker",
    "../../Transitions/Armbar-from-Back-Transition/Defender",
-   "../../Transitions/Hitchhiker-Escape-from-Armbar",
-   "https://www.youtube.com/watch?v=fPV5aCm4uIE",
-   "https://www.youtube.com/watch?v=jf1kPefTmm0",
-   "https://www.youtube.com/watch?v=nsLJ8AiGZ5A"
+   "../../Transitions/Hitchhiker-Escape-from-Armbar"
   ],
   "meta": {
    "article:modified_time": "<volatile>",
@@ -1675,14 +1670,13 @@
  },
  "Transitions/Armbar-from-Back-Transition/Attacker.html": {
   "canonical": "https://bjjgraph.org/Transitions/Armbar-from-Back-Transition/Attacker",
-  "content_floor": 9730,
-  "content_hash": "e72f8e717f0c624bfc5e793b19d8d8c927a69b74dab401415ef9637976155ac4",
-  "content_len": 11448,
+  "content_floor": 9433,
+  "content_hash": "6201a1057a85ab3d026b4a68d9b6ba23b454dd185c6fb8ea4e1f0efc3072d820",
+  "content_len": 11098,
   "ldjson": [
    "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"item\": \"https://bjjgraph.org/\", \"name\": \"Home\", \"position\": 1}, {\"@type\": \"ListItem\", \"item\": \"https://bjjgraph.org/Transitions/\", \"name\": \"Transitions\", \"position\": 2}, {\"@type\": \"ListItem\", \"item\": \"https://bjjgraph.org/Transitions/Armbar-from-Back-Transition\", \"name\": \"Armbar from Back Transition\", \"position\": 3}, {\"@type\": \"ListItem\", \"item\": \"https://bjjgraph.org/Transitions/Armbar-from-Back-Transition/Attacker\", \"name\": \"Attacker\", \"position\": 4}]}",
    "{\"@context\": \"https://schema.org\", \"@type\": \"FAQPage\", \"mainEntity\": [{\"@type\": \"Question\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"The primary goal is to transition from back control to a secured armbar position when the opponent defends the rear naked choke. This technique converts their defensive hand positioning into a submission opportunity by attacking the arms they commit to neck defense.\"}, \"name\": \"What is the primary goal of the Armbar from Back Transition?\"}, {\"@type\": \"Question\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"The optimal timing occurs when the opponent commits both hands to defending your choking arm, typically in a two-on-one grip configuration to prevent the rear naked choke. This defensive commitment exposes their arm structure and makes retraction difficult when you initiate the armbar transition.\"}, \"name\": \"What specific defensive behavior creates the optimal timing window for this transition?\"}, {\"@type\": \"Question\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"The leg across the face serves multiple critical functions: it prevents the opponent from turning to face you, controls their posture to prevent stacking, acts as a pivot point for your rotation during descent, and ultimately controls their head position to prevent escape once the armbar is secured.\"}, \"name\": \"What is the critical function of the leg that crosses over the opponent's face during transition?\"}, {\"@type\": \"Question\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"If the arm retracts early in the transition, immediately return to rear naked choke attack since their arm retraction opens neck access. If you are mid-transition, consider switching to the opposite arm if exposed, or completing the transition and attacking the other arm from armbar position.\"}, \"name\": \"Your opponent begins retracting their arm as you initiate the transition - how should you respond?\"}, {\"@type\": \"Question\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"The wrist must be controlled with thumbs facing toward the ceiling (supinated grip). This orientation provides superior grip strength, prevents the hitchhiker escape where opponent rotates their thumb toward you, and positions the elbow correctly in your hip crease for proper breaking mechanics.\"}, \"name\": \"What grip orientation is required for the wrist control and why?\"}, {\"@type\": \"Question\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Maintain heavy leg pressure across the opponent's face throughout the descent and landing. If they begin stacking, use the leg to push their face away while scooting your hips out. Alternatively, continue rotation to belly-down armbar if they commit fully to the stack.\"}, \"name\": \"How do you prevent the stack counter where opponent drives forward during the transition?\"}]}",
    "{\"@context\": \"https://schema.org\", \"@type\": \"HowTo\", \"description\": \"Step-by-step guide for executing Armbar from Back Transition from Standing Back Control/Top.\", \"name\": \"How to Execute Armbar from Back Transition in BJJ\", \"step\": [{\"@type\": \"HowToStep\", \"name\": \"Identify target arm\", \"position\": 1, \"text\": \"While maintaining back control, observe opponent's defensive hand positioning. Target the arm that is most extended or committed to defending your choking arm, typically the hand fighting your over-the-shoulder grip.\"}, {\"@type\": \"HowToStep\", \"name\": \"Secure wrist control\", \"position\": 2, \"text\": \"With your choking arm (over-the-shoulder arm), transition from choke threat to wrist control on the target arm. Grip at the wrist firmly, pulling the arm across your centerline to begin isolating the limb.\"}, {\"@type\": \"HowToStep\", \"name\": \"Reinforce with second hand\", \"position\": 3, \"text\": \"Bring your underhook arm up to assist in controlling the isolated arm, establishing two-on-one control on the wrist or a wrist-and-elbow grip. This double control prevents the opponent from retracting the arm during the rotation.\"}, {\"@type\": \"HowToStep\", \"name\": \"Thread leg across face\", \"position\": 4, \"text\": \"On the same side as the trapped arm, swing your leg over opponent's shoulder and across their face/neck. This leg will control their posture and prevent them from turning into you or stacking during the transition.\"}, {\"@type\": \"HowToStep\", \"name\": \"Rotate and descend\", \"position\": 5, \"text\": \"Using your leg across their face as a pivot point, rotate your hips away from opponent while maintaining wrist control. Allow gravity and your rotation to bring both bodies to the ground with you landing on your back.\"}, {\"@type\": \"HowToStep\", \"name\": \"Secure armbar position\", \"position\": 6, \"text\": \"As you land, immediately pinch your knees together around the trapped arm, keeping the elbow joint positioned against your hip crease. Your top leg should remain heavy across opponent's face to control their posture.\"}, {\"@type\": \"HowToStep\", \"name\": \"Finish the armbar\", \"position\": 7, \"text\": \"Control the wrist with both hands, thumb side facing up. Elevate your hips into the elbow joint while pulling the wrist toward your chest. Maintain knee pressure and posture control throughout the extension for the tap.\"}], \"tool\": [\"BJJ Gi or No-Gi attire\", \"Training partner\", \"Mat space\"], \"totalTime\": \"PT5M\"}",
-   "{\"@context\": \"https://schema.org\", \"@type\": \"ItemList\", \"itemListElement\": [{\"@type\": \"VideoObject\", \"creator\": {\"@type\": \"Person\", \"name\": \"Hammer Jiu-Jitsu\"}, \"description\": \"Armbar from Back Transition (Attacker) film study: Rolling armbar from back mount, taught by Hammer Jiu-Jitsu.\", \"duration\": \"PT40S\", \"embedUrl\": \"https://www.youtube.com/embed/nsLJ8AiGZ5A\", \"name\": \"Rolling armbar from back mount\", \"position\": 1, \"thumbnailUrl\": \"https://i.ytimg.com/vi/nsLJ8AiGZ5A/hqdefault.jpg\", \"url\": \"https://www.youtube.com/watch?v=nsLJ8AiGZ5A\"}, {\"@type\": \"VideoObject\", \"creator\": {\"@type\": \"Person\", \"name\": \"Malachy Friedman\"}, \"description\": \"Armbar from Back Transition (Attacker) film study: Armbar from the back variation, taught by Malachy Friedman.\", \"duration\": \"PT80S\", \"embedUrl\": \"https://www.youtube.com/embed/jf1kPefTmm0\", \"name\": \"Armbar from the back variation\", \"position\": 2, \"thumbnailUrl\": \"https://i.ytimg.com/vi/jf1kPefTmm0/hqdefault.jpg\", \"url\": \"https://www.youtube.com/watch?v=jf1kPefTmm0\"}, {\"@type\": \"VideoObject\", \"creator\": {\"@type\": \"Person\", \"name\": \"CholoMMA\"}, \"description\": \"Armbar from Back Transition (Attacker) film study: Armbar from the back off the RNC threat, taught by CholoMMA.\", \"duration\": \"PT39S\", \"embedUrl\": \"https://www.youtube.com/embed/fPV5aCm4uIE\", \"name\": \"Armbar from the back off the RNC threat\", \"position\": 3, \"thumbnailUrl\": \"https://i.ytimg.com/vi/fPV5aCm4uIE/hqdefault.jpg\", \"url\": \"https://www.youtube.com/watch?v=fPV5aCm4uIE\"}], \"name\": \"Armbar from Back Transition (Attacker) — Film Study\"}",
    "{\"@context\": \"https://schema.org\", \"@type\": \"Organization\", \"description\": \"Free Brazilian jiu-jitsu study app with an interactive technique map, flashcards, and simulated rolls\", \"logo\": \"https://bjjgraph.org/static/icon.png\", \"name\": \"BJJ Graph\", \"sameAs\": [\"https://github.com/diogoseca/bjjgraph\"], \"url\": \"https://bjjgraph.org\"}",
    "{\"@context\": \"https://schema.org\", \"@type\": \"WebPage\", \"dateModified\": \"<volatile>\", \"datePublished\": \"<volatile>\", \"description\": \"How to execute the Armbar from Back Transition in BJJ. Complete attacking guide with setup from standing back control, execution steps, timing cues, and counter responses.\", \"isPartOf\": {\"@type\": \"WebSite\", \"name\": \"BJJ Graph\", \"url\": \"https://bjjgraph.org\"}, \"name\": \"Armbar from Back Transition Attacker\", \"publisher\": {\"@type\": \"Organization\", \"name\": \"BJJ Graph\", \"url\": \"https://bjjgraph.org\"}}"
   ],
@@ -1695,7 +1689,6 @@
    "#6-attempting-the-transition-without-first-threatening-the-choke",
    "#common-attacking-mistakes",
    "#execution-steps",
-   "#film-study",
    "#key-attacking-principles",
    "#opponent-counters",
    "#possible-outcomes",
@@ -1708,10 +1701,7 @@
    "../../../Positions/Turtle",
    "../../../Systems/Back-Attack-System",
    "../../../Systems/Danaher-Straight-Jacket-System",
-   "../../../Systems/Submission-Clinic-System",
-   "https://www.youtube.com/watch?v=fPV5aCm4uIE",
-   "https://www.youtube.com/watch?v=jf1kPefTmm0",
-   "https://www.youtube.com/watch?v=nsLJ8AiGZ5A"
+   "../../../Systems/Submission-Clinic-System"
   ],
   "meta": {
    "article:modified_time": "<volatile>",
@@ -1731,13 +1721,14 @@
  },
  "_meta": {
   "content_provenance": {
-   "capture_git_head": "75b323227fcaa4cb24c48472c8715fb969b1201f",
-   "capture_id": "b0f94acd8c0e46fab6c89ffea31053af",
+   "capture_git_head": "bda0b2b714e2ccb394bcb46a1f47fc98fa194f73",
+   "capture_id": "c7959a74c7574d9e963761bd0e313e52",
    "content_clean_at_end": true,
    "content_clean_at_start": true,
-   "content_files": 6412,
+   "content_files": 6401,
    "content_md": 4601,
-   "content_tree": "1bc475940b941d320bf97d71b09de9c20b35b734",
+   "content_scope": "content-excluding-obsidian-v1",
+   "content_tree": "6ce5ec91fb18264d3ac571d2ad943cb314e5b487",
    "dirty_paths_end": [],
    "dirty_paths_start": [],
    "environment_assertions": {
@@ -1761,12 +1752,12 @@
     }
    },
    "output_identity": {
-    "files": 16001,
-    "sha256": "c2210efd31f8b660d0a6baae5c8749ef1a8897c51b9f64248fc2b457e1e776b8"
+    "files": 16003,
+    "sha256": "29f9a3fd4f25d094348bc8e2788e78548394bdd6ec73698c1c9512b3c3f9d371"
    },
    "output_roots": [
     "/home/user/bjj-orchestrator/qz/capture-origin-coherence-p2b/source/public",
-    "/home/user/bjj-orchestrator/golden/pr-dead-clips-75b323227/pr-dead-clips-75b323227"
+    "/home/user/bjj-orchestrator/scratch/clip-curation/pr1-review-fixes-d313/capture/pr-clip-curation-bda0b2b71"
    ],
    "schema": "quartz-content-provenance-v1",
    "state": "complete"

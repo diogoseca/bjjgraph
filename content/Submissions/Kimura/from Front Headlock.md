@@ -46,23 +46,21 @@ description: "Master the Kimura shoulder lock from front headlock in BJJ. Learn 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Front headlock to turtle to kimura",
-      "description": "Kimura from Front Headlock film study: Front headlock to turtle to kimura, taught by Josh Presley.",
+      "name": "Front Headlock to Turtle to Kimura",
+      "description": "Kimura from Front Headlock film study: Front Headlock to Turtle to Kimura.",
       "thumbnailUrl": "https://i.ytimg.com/vi/H8falUKaNMQ/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/H8falUKaNMQ",
       "url": "https://www.youtube.com/watch?v=H8falUKaNMQ",
-      "creator": { "@type": "Person", "name": "Josh Presley" },
-      "duration": "PT126S"
+      "duration": "PT125S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Modified kimura against the underhook",
-      "description": "Kimura from Front Headlock film study: Modified kimura against the underhook, taught by Nate Cason.",
+      "name": "Beat the Under hook (Modified Kimura)",
+      "description": "Kimura from Front Headlock film study: Beat the Under hook (Modified Kimura).",
       "thumbnailUrl": "https://i.ytimg.com/vi/fgJhHt03Klk/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/fgJhHt03Klk",
       "url": "https://www.youtube.com/watch?v=fgJhHt03Klk",
-      "creator": { "@type": "Person", "name": "Nate Cason" },
       "duration": "PT173S"
     }
   ]
@@ -128,7 +126,7 @@ This submission integrates naturally into front headlock attack systems. When yo
 
 ![](https://www.youtube.com/watch?v=H8falUKaNMQ)
 
-<p class="clip-credit"><strong>Front headlock to turtle to kimura</strong> — taught by Josh Presley · 2:06 · <a href="https://www.youtube.com/watch?v=H8falUKaNMQ" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Front Headlock to Turtle to Kimura</strong> · 2:05 · <a href="https://www.youtube.com/watch?v=H8falUKaNMQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -136,7 +134,7 @@ This submission integrates naturally into front headlock attack systems. When yo
 
 ![](https://www.youtube.com/watch?v=fgJhHt03Klk)
 
-<p class="clip-credit"><strong>Modified kimura against the underhook</strong> — taught by Nate Cason · 2:53 · <a href="https://www.youtube.com/watch?v=fgJhHt03Klk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Beat the Under hook (Modified Kimura)</strong> · 2:53 · <a href="https://www.youtube.com/watch?v=fgJhHt03Klk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

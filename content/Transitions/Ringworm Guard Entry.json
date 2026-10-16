@@ -359,35 +359,7 @@
       }
     ],
     "safety_considerations": "Ringworm guard entry involves complex lapel configurations that create significant tension on joints and the gi fabric itself. Practice with controlled intensity to avoid shoulder strain from the arm wrap component. Ensure the gi is in good condition before drilling—worn lapels can tear under the stress of dual configurations. Communicate clearly with training partners about tension levels, as the compounding controls can quickly become uncomfortable. Avoid forcing the configuration against explosive resistance, as sudden movements while entangled can cause finger injuries or shoulder tweaks. When escaping ringworm, tap early if you feel joint pressure rather than fighting through compromised positions.",
-    "clips": [
-      {
-        "id": "_lzJebmY_v8",
-        "title": "Reverse de la worm and shin-to-shin to the back",
-        "by": "BJJ Online",
-        "vertical": false,
-        "channel": "BJJ ONLINE",
-        "duration": 60,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "MnwwXVXP-hE",
-        "title": "Ringworm guard tilt sweep to mount",
-        "by": "Revolution BJJ",
-        "vertical": false,
-        "channel": "Revolution BJJ",
-        "duration": 116,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "ZjD5NyNULUQ",
-        "title": "Ringworm guard to single leg and back take",
-        "by": "The Fight Coach",
-        "vertical": false,
-        "channel": "The Fight Coach",
-        "duration": 135,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Ringworm Guard Entry Defender",
@@ -589,35 +561,7 @@
         "description": "Positional sparring starting from worm guard with partner actively working toward ringworm. Defend the entry in real time against full resistance. Track success rates at preventing the configuration versus escaping after establishment. Refine personal defensive game plan based on patterns identified in live training."
       }
     ],
-    "clips": [
-      {
-        "id": "U6h4HKtwqU4",
-        "title": "Passing the fio dental lapel guard",
-        "by": "Ninja Pinto",
-        "vertical": false,
-        "channel": "Ninja Pinto BJJ",
-        "duration": 109,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "Apdhlgpalgc",
-        "title": "Stopping and passing the worm guard",
-        "by": "Jon Thomas",
-        "vertical": false,
-        "channel": "JonThomasBJJ Plus",
-        "duration": 202,
-        "verified": "2026-07-16"
-      },
-      {
-        "id": "kMybfbRxsPg",
-        "title": "Lapel slayer: single grip to shut down lapel guards",
-        "by": "Keenan Cornelius",
-        "vertical": false,
-        "channel": "Keenan Cornelius",
-        "duration": 512,
-        "verified": "2026-07-16"
-      }
-    ]
+    "clips": []
   },
   "variants_and_adaptations": [
     {

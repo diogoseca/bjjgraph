@@ -451,30 +451,17 @@
     "clips": [
       {
         "id": "RVr67Kb-6ec",
-        "title": "Twister from Turtle",
-        "by": "Thunderdome BJJ",
-        "vertical": false,
+        "title": "Twister from Turtle (Try it out Tuesday)",
         "channel": "Thunderdome BJJ",
         "duration": 24,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "muUDBt0i944",
-        "title": "Twister Hook Drills and Movements",
-        "by": "DS Martial Arts",
-        "vertical": false,
-        "channel": "DS Martial Arts",
-        "duration": 49,
-        "verified": "2026-07-14"
+        "vertical": false
       },
       {
         "id": "lv15-NuoiUc",
-        "title": "Twister Grappling Submission",
-        "by": "Emil Montes",
-        "vertical": false,
+        "title": "Twister (Grappling Submission)",
         "channel": "Emil montes",
         "duration": 137,
-        "verified": "2026-07-14"
+        "vertical": false
       }
     ]
   },
@@ -665,30 +652,18 @@
     "clips": [
       {
         "id": "Va1YNgx2E6M",
-        "title": "Escaping and countering the twister",
-        "by": "Matrix Jiu Jitsu",
-        "vertical": false,
+        "title": "Escape and counter the Twister! - Matrix Jiu Jitsu",
         "channel": "Matrix Jiu Jitsu",
         "duration": 165,
-        "verified": "2026-07-15"
+        "vertical": false,
+        "front": true
       },
       {
         "id": "oNCcwLYDM_g",
-        "title": "Twister defense and escape breakdown",
-        "by": "Unknown",
-        "vertical": false,
+        "title": "Breakdown DEFENSE ESCAPE TWISTER Korean Zombie  first  HISTORY of UFC…",
         "channel": "m mill",
         "duration": 201,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "hxMggfwKx-I",
-        "title": "Advanced back and truck escapes",
-        "by": "Eddie Bravo",
-        "vertical": false,
-        "channel": "Eddie Bravo",
-        "duration": 61,
-        "verified": "2026-07-15"
+        "vertical": false
       }
     ]
   }

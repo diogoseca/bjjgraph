@@ -364,26 +364,7 @@
       }
     ],
     "safety_considerations": "Double Jump to Mount is a positional transition without direct submission threat, making it relatively safe during training. Primary safety concerns involve maintaining controlled weight transfer during the step-over to avoid dropping weight suddenly on the opponent's spine or ribs. The transition from belly-down to face-up position can stress the defender's lower back if executed with excessive speed or force. Partners should communicate during drilling to ensure comfortable pressure levels, and the top player should settle weight gradually rather than slamming into mount position. During live sparring, practitioners should be aware that the rapid position change can disorient the defender, so monitor for any signs of discomfort in the cervical spine area from crossface pressure maintained throughout the transition.",
-    "clips": [
-      {
-        "id": "4zfbOxHi-Ps",
-        "title": "Flattening the Turtle to Rear Mount",
-        "by": "Força Martial Arts & Fitness",
-        "vertical": false,
-        "channel": "Força Martial Arts & Fitness",
-        "duration": 308,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "KYzylIe6OEw",
-        "title": "Dead Man's Pass: Flat Opponent to Mount",
-        "by": "GrapplingMechanics",
-        "vertical": false,
-        "channel": "GrapplingMechanics",
-        "duration": 76,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Double Jump to Mount Defender",
@@ -556,34 +537,6 @@
         "description": "Positional rounds starting from Double Jump Bottom with attacker pursuing mount. Defend at full resistance for 2-minute rounds, tracking successful defenses versus mount establishments. Integrate recognition, timing, and option selection into fluid defensive responses under competition-intensity pressure."
       }
     ],
-    "clips": [
-      {
-        "id": "hyQouCv4tDs",
-        "title": "Stiff arm escape from full mount",
-        "by": "Andy Tong",
-        "vertical": false,
-        "channel": "Andy Tong",
-        "duration": 13,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "zgvlMKLWxAI",
-        "title": "Sitting Turtle to Running Man Defense",
-        "by": "Priit Mihkelson",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 224,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "Ft6OyIZ6vPs",
-        "title": "Turtle Escape & Back-Exposure System",
-        "by": "Jozef Chen",
-        "vertical": false,
-        "channel": "BJJ focus camps",
-        "duration": 149,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

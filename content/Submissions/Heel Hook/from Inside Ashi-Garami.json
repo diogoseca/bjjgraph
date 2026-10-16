@@ -602,31 +602,19 @@
     ],
     "clips": [
       {
-        "id": "chtDbrmYQo8",
-        "title": "Inversion to inside heel hook",
-        "by": "Gordon Ryan",
+        "id": "FfkVEt5YHbY",
+        "title": "Inside Ashi Garami Heel Hook #890",
+        "channel": "Modesto Judo Club",
+        "duration": 59,
         "vertical": false,
-        "channel": "Control Jiu JItsu",
-        "duration": 62,
-        "verified": "2026-07-14"
+        "front": true
       },
       {
         "id": "mZ4Q3PL9iZ4",
-        "title": "WNO inversion heel hook breakdown",
-        "by": "Gordon Ryan",
-        "vertical": false,
+        "title": "Gordon Ryan’s WNO Inversion Heelhook - ZombieProofBJJ (BreakDown)",
         "channel": "ZombieProofBJJ",
         "duration": 53,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "FfkVEt5YHbY",
-        "title": "Inside ashi garami heel hook",
-        "by": "Modesto Judo Club",
-        "vertical": false,
-        "channel": "Modesto Judo Club",
-        "duration": 59,
-        "verified": "2026-07-14"
+        "vertical": false
       }
     ]
   },
@@ -876,22 +864,12 @@
     ],
     "clips": [
       {
-        "id": "cRXsNPAgVLU",
-        "title": "Irimi ashi garami counter",
-        "by": "John Danaher",
-        "vertical": false,
-        "channel": "Dohn Janaher ",
-        "duration": 29,
-        "verified": "2026-07-14"
-      },
-      {
         "id": "gpg88DFH9D4",
-        "title": "Defending and countering the 50/50 heel hook",
-        "by": "Revolution BJJ",
-        "vertical": false,
+        "title": "Defending and Countering 50/50 Heel Hook and Backsteps with Your Own Submissions",
         "channel": "Revolution BJJ",
         "duration": 81,
-        "verified": "2026-07-14"
+        "vertical": false,
+        "front": true
       }
     ]
   }

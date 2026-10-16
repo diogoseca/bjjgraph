@@ -406,35 +406,7 @@
       }
     ],
     "safety_considerations": "When practicing Morote Seoi Nage, safety is paramount due to the potential for impact injuries. Both practitioners must understand proper breakfall techniques before live drilling. The person executing the throw must maintain control of both sleeves throughout the technique to prevent the opponent from landing directly on their head or neck. Practice on appropriate mats with sufficient padding. Begin with slow, controlled repetitions and gradually increase speed only after both partners are comfortable. The throwing partner should guide the landing by maintaining grip pressure and not releasing too early. Training partners should communicate clearly about their comfort level with resistance and speed. Avoid attempting this technique against significantly larger opponents until technical proficiency is established, as improper execution can result in back or shoulder injuries for the thrower.",
-    "clips": [
-      {
-        "id": "Z8ZJ159pIIk",
-        "title": "Morote-seoi-nage from same stance position",
-        "by": "Shintaro Higashi",
-        "vertical": false,
-        "channel": "Shintaro Higashi",
-        "duration": 94,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "wvE1-TVqzzY",
-        "title": "Morote Seoi Nage instructional trailer",
-        "by": "Shintaro Higashi",
-        "vertical": false,
-        "channel": "Shintaro Higashi",
-        "duration": 45,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "klwnsvq4RJc",
-        "title": "Seoi Nage dropping to both knees",
-        "by": "Revolution BJJ",
-        "vertical": false,
-        "channel": "Revolution BJJ",
-        "duration": 65,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Morote Seoi Nage Defender",
@@ -612,30 +584,11 @@
     "clips": [
       {
         "id": "qEE09xFbu8I",
-        "title": "Counter seoi-nage with a quick foot sweep",
-        "by": "Judoroland",
-        "vertical": false,
+        "title": "Learn how to counter seoi-nage with a quick foot sweep",
         "channel": "Judoroland",
         "duration": 28,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "KfXpH1BHhnk",
-        "title": "Judo against a defensive opponent",
-        "by": "Shintaro Higashi",
         "vertical": false,
-        "channel": "Shintaro Higashi",
-        "duration": 80,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "VGy3imISlaA",
-        "title": "Beating the stiff arm defense",
-        "by": "Travis Stevens",
-        "vertical": false,
-        "channel": "Travis Stevens",
-        "duration": 95,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },

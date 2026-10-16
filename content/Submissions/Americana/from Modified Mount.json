@@ -420,31 +420,18 @@
     ],
     "clips": [
       {
-        "id": "uPazS4MJiDc",
-        "title": "How To Perform An Americana From Top Mount",
-        "by": "Evolve MMA",
-        "vertical": false,
-        "channel": "Evolve Mixed Martial Arts",
-        "duration": 71,
-        "verified": "2026-07-14"
-      },
-      {
         "id": "Tgj7ZVWheog",
-        "title": "Americana from Mount",
-        "by": "Thunderdome BJJ",
-        "vertical": false,
+        "title": "Americana Ezekiel from Mount (Try it out Tuesday)",
         "channel": "Thunderdome BJJ",
         "duration": 21,
-        "verified": "2026-07-14"
+        "vertical": false
       },
       {
         "id": "SkFE9CBKvsA",
         "title": "Modified Americana Grip",
-        "by": "BJJ After Forty",
-        "vertical": false,
         "channel": "BJJ After Forty",
         "duration": 61,
-        "verified": "2026-07-14"
+        "vertical": false
       }
     ]
   },
@@ -603,22 +590,19 @@
     ],
     "clips": [
       {
-        "id": "FNyL93v5fGs",
-        "title": "Defending The Americana",
-        "by": "Lachlan Giles",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 91,
-        "verified": "2026-07-14"
-      },
-      {
         "id": "NZjUCo8os8Q",
         "title": "Simple Americana Armlock Escape",
-        "by": "Eddie Kone",
-        "vertical": false,
         "channel": "Eddie Kone Academy Of Jiu-Jitsu",
         "duration": 61,
-        "verified": "2026-07-14"
+        "vertical": false,
+        "front": true
+      },
+      {
+        "id": "FNyL93v5fGs",
+        "title": "Defending The Americana - BJJ Move by Lachlan Giles",
+        "channel": "BJJ Fanatics",
+        "duration": 91,
+        "vertical": false
       }
     ]
   }

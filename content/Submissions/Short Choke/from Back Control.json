@@ -433,26 +433,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "Sb-atqD_TqQ",
-        "title": "Short Choke from Back Position",
-        "by": "Cosens MMA",
-        "vertical": false,
-        "channel": "Cosens MMA LLC",
-        "duration": 55,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "E_M4Y0_hxsk",
-        "title": "Shirt Choke From Back Mount",
-        "by": "Defender Combatives",
-        "vertical": false,
-        "channel": "Defender Combatives",
-        "duration": 14,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Short Choke from Back Control Defender",
@@ -626,25 +607,6 @@
         "description": "Full resistance positional sparring starting from back control. Partner uses complete back attack system including RNC, Short Choke, and Bow and Arrow. Practice defensive threat identification and appropriate response selection under pressure. Track successful defenses and escapes across rounds."
       }
     ],
-    "clips": [
-      {
-        "id": "bDZntPrcLpg",
-        "title": "Escaping Back Control - Turtle Escape",
-        "by": "BJJ101",
-        "vertical": false,
-        "channel": "BJJ101",
-        "duration": 37,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "_sBB-O8fqP4",
-        "title": "Standing Up Back Escape",
-        "by": "Priit Mihkelson",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 114,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   }
 }

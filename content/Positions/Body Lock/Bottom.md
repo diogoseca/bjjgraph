@@ -165,35 +165,12 @@ description: "Defensive strategies and escape techniques when opponent has estab
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Body lock defense",
-      "description": "Body Lock (Bottom) film study: Body lock defense, taught by Peerless Jiu Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Di-fJ06DSq8/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Di-fJ06DSq8",
-      "url": "https://www.youtube.com/watch?v=Di-fJ06DSq8",
-      "creator": { "@type": "Person", "name": "Peerless Jiu Jitsu" },
-      "duration": "PT79S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Body lock counter and submission",
-      "description": "Body Lock (Bottom) film study: Body lock counter and submission, taught by Craig Jones.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/ZGgfRpUJvHU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/ZGgfRpUJvHU",
-      "url": "https://www.youtube.com/watch?v=ZGgfRpUJvHU",
-      "creator": { "@type": "Person", "name": "Craig Jones" },
-      "duration": "PT114S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Don\u0027t get squashed: body lock defense",
-      "description": "Body Lock (Bottom) film study: Don\u0027t get squashed: body lock defense, taught by Craig Jones.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/COMTE898ja8/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/COMTE898ja8",
-      "url": "https://www.youtube.com/watch?v=COMTE898ja8",
-      "creator": { "@type": "Person", "name": "Craig Jones" },
-      "duration": "PT156S"
+      "name": "Standing Rear Body Lock: Counters, Attacks and Defense (No Gi\u2026",
+      "description": "Body Lock (Bottom) film study: Standing Rear Body Lock: Counters, Attacks and Defense (No Gi\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DFXdqByRxNg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DFXdqByRxNg",
+      "url": "https://www.youtube.com/watch?v=DFXdqByRxNg",
+      "duration": "PT318S"
     }
   ]
 }
@@ -223,25 +200,9 @@ The body lock bottom position appears frequently in no-gi competition when oppon
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=Di-fJ06DSq8)
+![](https://www.youtube.com/watch?v=DFXdqByRxNg)
 
-<p class="clip-credit"><strong>Body lock defense</strong> — taught by Peerless Jiu Jitsu · 1:19 · <a href="https://www.youtube.com/watch?v=Di-fJ06DSq8" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=ZGgfRpUJvHU)
-
-<p class="clip-credit"><strong>Body lock counter and submission</strong> — taught by Craig Jones · 1:54 · <a href="https://www.youtube.com/watch?v=ZGgfRpUJvHU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=COMTE898ja8)
-
-<p class="clip-credit"><strong>Don&#39;t get squashed: body lock defense</strong> — taught by Craig Jones · 2:36 · <a href="https://www.youtube.com/watch?v=COMTE898ja8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Standing Rear Body Lock: Counters, Attacks and Defense (No Gi…</strong> · 5:18 · <a href="https://www.youtube.com/watch?v=DFXdqByRxNg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

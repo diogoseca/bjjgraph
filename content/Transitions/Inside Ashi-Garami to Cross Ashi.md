@@ -46,35 +46,12 @@ description: "Master the Inside Ashi-Garami to Cross Ashi transition in BJJ. Ste
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Simple fix for your cross ashi leg lock",
-      "description": "Inside Ashi-Garami to Cross Ashi film study: Simple fix for your cross ashi leg lock, taught by Factory Fresh Jiu Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/nVfqMfVpTVk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/nVfqMfVpTVk",
-      "url": "https://www.youtube.com/watch?v=nVfqMfVpTVk",
-      "creator": { "@type": "Person", "name": "Factory Fresh Jiu Jitsu" },
-      "duration": "PT55S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Easy entry to the saddle (411, cross ashi)",
-      "description": "Inside Ashi-Garami to Cross Ashi film study: Easy entry to the saddle (411, cross ashi), taught by Ilya\u0027s Jiu-Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/HniaoFWTsmI/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/HniaoFWTsmI",
-      "url": "https://www.youtube.com/watch?v=HniaoFWTsmI",
-      "creator": { "@type": "Person", "name": "Ilya\u0027s Jiu-Jitsu" },
-      "duration": "PT53S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Cross ashi to double cross ashi drill",
-      "description": "Inside Ashi-Garami to Cross Ashi film study: Cross ashi to double cross ashi drill, taught by Factory Fresh Jiu Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/SLYKgVORsxk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/SLYKgVORsxk",
-      "url": "https://www.youtube.com/watch?v=SLYKgVORsxk",
-      "creator": { "@type": "Person", "name": "Factory Fresh Jiu Jitsu" },
-      "duration": "PT28S"
+      "name": "basic escape from the saddle (cross ashi) - berimbolo skills",
+      "description": "Inside Ashi-Garami to Cross Ashi film study: basic escape from the saddle (cross ashi) - berimbolo skills.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0T4T2so40C4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/0T4T2so40C4",
+      "url": "https://www.youtube.com/watch?v=0T4T2so40C4",
+      "duration": "PT171S"
     }
   ]
 }
@@ -128,25 +105,9 @@ Strategically, this transition serves as an essential response when opponents su
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=nVfqMfVpTVk)
+![](https://www.youtube.com/watch?v=0T4T2so40C4)
 
-<p class="clip-credit"><strong>Simple fix for your cross ashi leg lock</strong> — taught by Factory Fresh Jiu Jitsu · 0:55 · <a href="https://www.youtube.com/watch?v=nVfqMfVpTVk" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=HniaoFWTsmI)
-
-<p class="clip-credit"><strong>Easy entry to the saddle (411, cross ashi)</strong> — taught by Ilya&#39;s Jiu-Jitsu · 0:53 · <a href="https://www.youtube.com/watch?v=HniaoFWTsmI" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=SLYKgVORsxk)
-
-<p class="clip-credit"><strong>Cross ashi to double cross ashi drill</strong> — taught by Factory Fresh Jiu Jitsu · 0:28 · <a href="https://www.youtube.com/watch?v=SLYKgVORsxk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>basic escape from the saddle (cross ashi) - berimbolo skills</strong> · 2:51 · <a href="https://www.youtube.com/watch?v=0T4T2so40C4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

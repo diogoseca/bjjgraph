@@ -400,35 +400,7 @@
       }
     ],
     "safety_considerations": "The primary injury risk during this technique is hyperextension of the trapped elbow if the arm extends during the bridging motion. Never attempt the trap and roll if your arm is already significantly extended — tap and reset rather than risk joint damage. In training, communicate with your partner about arm security before drilling at full speed. The explosive bridging motion can strain the lower back, neck, and cervical spine, so ensure proper warm-up before high-repetition drilling. Start all drilling at controlled resistance and gradually increase intensity. If your collar grip begins to fail during live training, abort the escape immediately and defend the arm rather than forcing a compromised attempt.",
-    "clips": [
-      {
-        "id": "HZ8TVKYg9x0",
-        "title": "Trap and roll from mounted punches",
-        "by": "Gabriel Toribio",
-        "vertical": false,
-        "channel": "Gabriel “Monsta” Toribio",
-        "duration": 26,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "00YumUON6to",
-        "title": "Mount escape: trap, bump and roll",
-        "by": "Daniel Gracie Academy",
-        "vertical": false,
-        "channel": "Daniel Gracie Academy of Northborough",
-        "duration": 106,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "LRAIOE7QNWM",
-        "title": "Trap and roll variation against the cross face",
-        "by": "Houston Karate Dojo",
-        "vertical": false,
-        "channel": "Houston Karate Dojo",
-        "duration": 127,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Trap and Roll from S Mount Defender",
@@ -605,34 +577,6 @@
         "description": "Full positional sparring from S Mount with partner making genuine escape attempts. Practice reading and responding to all escape methods — trap and roll, hip escape, framing — while maintaining offensive pressure and submission threat throughout."
       }
     ],
-    "clips": [
-      {
-        "id": "2Xm_mLp8xwk",
-        "title": "S-mount troubleshooting when the escape starts",
-        "by": "ZombieProofBJJ",
-        "vertical": false,
-        "channel": "ZombieProofBJJ",
-        "duration": 67,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "hQyl8hQln00",
-        "title": "Mount maintenance: countering the bridge",
-        "by": "Zero Point GJJ coach",
-        "vertical": false,
-        "channel": "Zero Point GJJ",
-        "duration": 60,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "zv3gCvoUrN4",
-        "title": "Limiting the power of the opponent's bridge",
-        "by": "RVV BJJ coach",
-        "vertical": false,
-        "channel": "RVV BJJ",
-        "duration": 275,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

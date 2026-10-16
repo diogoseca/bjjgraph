@@ -405,21 +405,11 @@
     "clips": [
       {
         "id": "0AnyD7w2wQE",
-        "title": "Collar and sleeve tripod sweep",
-        "by": "Alberto Serrano",
-        "vertical": false,
+        "title": "Collar and Sleeve Tripod Sweep | How to BJJ techniques",
         "channel": "Alberto Serrano BJJ",
         "duration": 89,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "jAZ2IxJI-7E",
-        "title": "The tripod sweep",
-        "by": "Thomas Mietz",
         "vertical": false,
-        "channel": "Carpe Diem BJJ Jiyugaoka",
-        "duration": 96,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },
@@ -599,13 +589,11 @@
     ],
     "clips": [
       {
-        "id": "kNfVYhZbgrg",
-        "title": "Four levels of sweep defense",
-        "by": "Wim Deputter",
-        "vertical": false,
-        "channel": "Wim Deputter BJJ",
-        "duration": 87,
-        "verified": "2026-07-15"
+        "id": "HbJrdjEZk-8",
+        "title": "NEVER get Tripod swept again! The ultimate tripod sweep defense.",
+        "channel": "Sticks and Stones BJJ",
+        "duration": 310,
+        "front": true
       }
     ]
   },

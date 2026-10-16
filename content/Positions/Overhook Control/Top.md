@@ -165,35 +165,22 @@ description: "Master overhook control from top positions. Wrestling-based whizze
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Using an overhook",
-      "description": "Overhook Control (Top) film study: Using an overhook, taught by Patrick Spano.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/DfUHvTQpzCg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/DfUHvTQpzCg",
-      "url": "https://www.youtube.com/watch?v=DfUHvTQpzCg",
-      "creator": { "@type": "Person", "name": "Patrick Spano" },
-      "duration": "PT40S"
+      "name": "Powerful Overhook to counter Underhook Control",
+      "description": "Overhook Control (Top) film study: Powerful Overhook to counter Underhook Control.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/IQJ2k2Nbst8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/IQJ2k2Nbst8",
+      "url": "https://www.youtube.com/watch?v=IQJ2k2Nbst8",
+      "duration": "PT54S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Whizzer from half guard: win the dogfight",
-      "description": "Overhook Control (Top) film study: Whizzer from half guard: win the dogfight, taught by Wrecking Crew BJJ.",
+      "name": "Whizzer from Half Guard.  How to win \"Dog Fight\"",
+      "description": "Overhook Control (Top) film study: Whizzer from Half Guard.  How to win \"Dog Fight\".",
       "thumbnailUrl": "https://i.ytimg.com/vi/8mXBDHXrAu4/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/8mXBDHXrAu4",
       "url": "https://www.youtube.com/watch?v=8mXBDHXrAu4",
-      "creator": { "@type": "Person", "name": "Wrecking Crew BJJ" },
-      "duration": "PT60S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Russian tie whizzer kick",
-      "description": "Overhook Control (Top) film study: Russian tie whizzer kick, taught by Craig Jones.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/GgWOa1nEeu8/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/GgWOa1nEeu8",
-      "url": "https://www.youtube.com/watch?v=GgWOa1nEeu8",
-      "creator": { "@type": "Person", "name": "Craig Jones" },
-      "duration": "PT147S"
+      "duration": "PT59S"
     }
   ]
 }
@@ -225,9 +212,9 @@ The transitional nature of top overhook distinguishes it from static control pos
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=DfUHvTQpzCg)
+![](https://www.youtube.com/watch?v=IQJ2k2Nbst8)
 
-<p class="clip-credit"><strong>Using an overhook</strong> — taught by Patrick Spano · 0:40 · <a href="https://www.youtube.com/watch?v=DfUHvTQpzCg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Powerful Overhook to counter Underhook Control</strong> · 0:54 · <a href="https://www.youtube.com/watch?v=IQJ2k2Nbst8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -235,15 +222,7 @@ The transitional nature of top overhook distinguishes it from static control pos
 
 ![](https://www.youtube.com/watch?v=8mXBDHXrAu4)
 
-<p class="clip-credit"><strong>Whizzer from half guard: win the dogfight</strong> — taught by Wrecking Crew BJJ · 1:00 · <a href="https://www.youtube.com/watch?v=8mXBDHXrAu4" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=GgWOa1nEeu8)
-
-<p class="clip-credit"><strong>Russian tie whizzer kick</strong> — taught by Craig Jones · 2:27 · <a href="https://www.youtube.com/watch?v=GgWOa1nEeu8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Whizzer from Half Guard.  How to win &#34;Dog Fight&#34;</strong> · 0:59 · <a href="https://www.youtube.com/watch?v=8mXBDHXrAu4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

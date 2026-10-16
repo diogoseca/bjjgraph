@@ -428,31 +428,19 @@
     ],
     "clips": [
       {
-        "id": "4TSu2ySVQk4",
-        "title": "Triangle Choke from Collar Sleeve Open Guard",
-        "by": "Josh Presley",
-        "vertical": false,
-        "channel": "Josh Presley",
-        "duration": 150,
-        "verified": "2026-07-14"
-      },
-      {
         "id": "yQVALraYswM",
-        "title": "Triangle setup from Z guard",
-        "by": "Danny Brown",
-        "vertical": false,
+        "title": "Z guard//Craig Jones triangle set up// dannybrownbjj",
         "channel": "UNC_CynX",
         "duration": 331,
-        "verified": "2026-07-15"
+        "vertical": false,
+        "front": true
       },
       {
         "id": "UGp6VzbkReA",
-        "title": "Triangle choke complete guide and key details",
-        "by": "Jon Thomas",
-        "vertical": false,
+        "title": "Triangle Choke: The Detail That Changes Everything ( Complete Guide )",
         "channel": "JonThomasBJJ",
         "duration": 735,
-        "verified": "2026-07-15"
+        "vertical": false
       }
     ]
   },
@@ -637,30 +625,25 @@
     "clips": [
       {
         "id": "XE7KCUjLpqg",
-        "title": "Triangle Escape to Side Control",
-        "by": "Valdir Rodrigues",
-        "vertical": false,
+        "title": "Triangle Escape To Side Control With BJJ Champion Valdir Rodrigues!",
         "channel": "Evolve Mixed Martial Arts",
         "duration": 72,
-        "verified": "2026-07-14"
+        "vertical": false,
+        "front": true
       },
       {
         "id": "DLmrzSs1hWI",
-        "title": "Triangle Defense / Escape",
-        "by": "Daniel Frank",
-        "vertical": false,
+        "title": "Triangle defense/escape",
         "channel": "Daniel Frank",
-        "duration": 24,
-        "verified": "2026-07-14"
+        "duration": 23,
+        "vertical": false
       },
       {
         "id": "Z-CsRn4K0vg",
-        "title": "Escaping Triangles vs Big Opponents",
-        "by": "John Danaher",
-        "vertical": false,
+        "title": "John Danaher:  on escaping triangles vs big opponents (Gordon Ryan)",
         "channel": "Dohn Janaher ",
         "duration": 48,
-        "verified": "2026-07-14"
+        "vertical": false
       }
     ]
   }

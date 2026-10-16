@@ -162,35 +162,22 @@ description: "Defend against the kneebar from Honey Hole in BJJ. Recognition cue
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "How to Escape the Honey Hole",
-      "description": "Kneebar from Honey Hole (Defender) film study: How to Escape the Honey Hole, taught by Vagner Rocha.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/gEEHqiSznS4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/gEEHqiSznS4",
-      "url": "https://www.youtube.com/watch?v=gEEHqiSznS4",
-      "creator": { "@type": "Person", "name": "Vagner Rocha" },
-      "duration": "PT60S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "How to Defend a Kneebar",
-      "description": "Kneebar from Honey Hole (Defender) film study: How to Defend a Kneebar, taught by Revolution BJJ.",
+      "name": "How to Defend a Kneebar (and Prevent a Backstep Pass)",
+      "description": "Kneebar from Honey Hole (Defender) film study: How to Defend a Kneebar (and Prevent a Backstep Pass).",
       "thumbnailUrl": "https://i.ytimg.com/vi/wBRG0fY94fs/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/wBRG0fY94fs",
       "url": "https://www.youtube.com/watch?v=wBRG0fY94fs",
-      "creator": { "@type": "Person", "name": "Revolution BJJ" },
       "duration": "PT59S"
     },
     {
       "@type": "VideoObject",
-      "position": 3,
-      "name": "Kneebar Defense + Take the Back",
-      "description": "Kneebar from Honey Hole (Defender) film study: Kneebar Defense + Take the Back, taught by Bicudo BJJ.",
+      "position": 2,
+      "name": "Knee Bar defense + take the back",
+      "description": "Kneebar from Honey Hole (Defender) film study: Knee Bar defense + take the back.",
       "thumbnailUrl": "https://i.ytimg.com/vi/NuWBh3LN-SY/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/NuWBh3LN-SY",
       "url": "https://www.youtube.com/watch?v=NuWBh3LN-SY",
-      "creator": { "@type": "Person", "name": "Bicudo BJJ" },
-      "duration": "PT22S"
+      "duration": "PT21S"
     }
   ]
 }
@@ -219,17 +206,9 @@ Defending the kneebar from Honey Hole requires recognizing the transition from h
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=gEEHqiSznS4)
-
-<p class="clip-credit"><strong>How to Escape the Honey Hole</strong> — taught by Vagner Rocha · 1:00 · <a href="https://www.youtube.com/watch?v=gEEHqiSznS4" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=wBRG0fY94fs)
 
-<p class="clip-credit"><strong>How to Defend a Kneebar</strong> — taught by Revolution BJJ · 0:59 · <a href="https://www.youtube.com/watch?v=wBRG0fY94fs" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How to Defend a Kneebar (and Prevent a Backstep Pass)</strong> · 0:59 · <a href="https://www.youtube.com/watch?v=wBRG0fY94fs" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -237,7 +216,7 @@ Defending the kneebar from Honey Hole requires recognizing the transition from h
 
 ![](https://www.youtube.com/watch?v=NuWBh3LN-SY)
 
-<p class="clip-credit"><strong>Kneebar Defense + Take the Back</strong> — taught by Bicudo BJJ · 0:22 · <a href="https://www.youtube.com/watch?v=NuWBh3LN-SY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Knee Bar defense + take the back</strong> · 0:21 · <a href="https://www.youtube.com/watch?v=NuWBh3LN-SY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

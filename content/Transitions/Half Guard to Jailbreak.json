@@ -283,22 +283,12 @@
     "safety_considerations": "This entry involves an inverting, granby-style rotation, so neck safety is the foremost concern. The chin must be tucked to the chest and the load carried on the rounded upper back and shoulders, never on the crown of the head or an extended neck. Beginners should build the inversion gradually with a compliant partner before adding explosive speed or resistance, and should never force the turn if the neck feels compressed. Both partners should communicate during drilling, and the bottom player should abort the inversion if the underhook is lost rather than rolling through blind.",
     "clips": [
       {
-        "id": "kFEDU0DVQ7I",
-        "title": "Jailbreak frame escape into a reversal sweep",
-        "by": "Redmond Fit coach",
-        "vertical": false,
-        "channel": "Redmond Fit",
-        "duration": 77,
-        "verified": "2026-07-15"
-      },
-      {
         "id": "j25mgRF9wE4",
-        "title": "Framed jailbreak drill from half guard",
-        "by": "JitzLive coach",
-        "vertical": false,
+        "title": "Drill: Framed Jailbreak from Halfguard",
         "channel": "JitzLive",
         "duration": 153,
-        "verified": "2026-07-15"
+        "vertical": false,
+        "front": true
       }
     ]
   },
@@ -431,26 +421,7 @@
         "description": "Start in top half guard with the bottom player actively hunting the Jailbreak entry. Defend by controlling the underhook and base width, and score by passing to side control or stalling them flat. 4-5 minute rounds with increasing resistance."
       }
     ],
-    "clips": [
-      {
-        "id": "aQ2vFXXBn-o",
-        "title": "Countering a full inversion from half guard",
-        "by": "Gordon Ryan",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 61,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "h26GaRXjSHo",
-        "title": "Counter to the half guard underhook",
-        "by": "Revolution Fitness Center",
-        "vertical": false,
-        "channel": "Revolution Fitness Center",
-        "duration": 55,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "variants_and_adaptations": [
     {

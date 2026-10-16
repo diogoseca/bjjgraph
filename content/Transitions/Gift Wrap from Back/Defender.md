@@ -150,28 +150,6 @@ description: "Defensive guide for surviving and escaping the Gift Wrap from Back
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Gift Wrap from Back (Defender) \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Basic back control escape",
-      "description": "Gift Wrap from Back (Defender) film study: Basic back control escape, taught by AMAZIN BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/jv_nitah_-s/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/jv_nitah_-s",
-      "url": "https://www.youtube.com/watch?v=jv_nitah_-s",
-      "creator": { "@type": "Person", "name": "AMAZIN BJJ" },
-      "duration": "PT41S"
-    }
-  ]
-}
-</script>
-
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -184,24 +162,6 @@ As the defender against the Gift Wrap from Back, you face a critical moment wher
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Gift Wrap from Back (Defender) in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=jv_nitah_-s)
-
-<p class="clip-credit"><strong>Basic back control escape</strong> — taught by AMAZIN BJJ · 0:41 · <a href="https://www.youtube.com/watch?v=jv_nitah_-s" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="recognition-cues" class="content-section">

@@ -152,24 +152,12 @@ description: "Defend against the grip fight escape from your rear triangle top p
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Troubleshooting the rear triangle (ushiro sankaku)",
-      "description": "Grip Fight Escape from Rear Triangle (Defender) film study: Troubleshooting the rear triangle (ushiro sankaku), taught by kangchenjj.",
+      "name": "Troubleshooting Ushiro Sankaku (rear triangle)",
+      "description": "Grip Fight Escape from Rear Triangle (Defender) film study: Troubleshooting Ushiro Sankaku (rear triangle).",
       "thumbnailUrl": "https://i.ytimg.com/vi/kpUNco4wp0U/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/kpUNco4wp0U",
       "url": "https://www.youtube.com/watch?v=kpUNco4wp0U",
-      "creator": { "@type": "Person", "name": "kangchenjj" },
-      "duration": "PT90S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Maintaining back control with hooks",
-      "description": "Grip Fight Escape from Rear Triangle (Defender) film study: Maintaining back control with hooks, taught by Gracie Charlottesville.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Rlk4mGg7vW4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Rlk4mGg7vW4",
-      "url": "https://www.youtube.com/watch?v=Rlk4mGg7vW4",
-      "creator": { "@type": "Person", "name": "Gracie Charlottesville" },
-      "duration": "PT84S"
+      "duration": "PT89S"
     }
   ]
 }
@@ -199,15 +187,7 @@ As the defender against the grip fight escape, you are the practitioner maintain
 
 ![](https://www.youtube.com/watch?v=kpUNco4wp0U)
 
-<p class="clip-credit"><strong>Troubleshooting the rear triangle (ushiro sankaku)</strong> — taught by kangchenjj · 1:30 · <a href="https://www.youtube.com/watch?v=kpUNco4wp0U" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=Rlk4mGg7vW4)
-
-<p class="clip-credit"><strong>Maintaining back control with hooks</strong> — taught by Gracie Charlottesville · 1:24 · <a href="https://www.youtube.com/watch?v=Rlk4mGg7vW4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Troubleshooting Ushiro Sankaku (rear triangle)</strong> · 1:29 · <a href="https://www.youtube.com/watch?v=kpUNco4wp0U" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

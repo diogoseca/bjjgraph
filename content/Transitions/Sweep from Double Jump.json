@@ -396,26 +396,7 @@
       }
     ],
     "safety_considerations": "The Sweep from Double Jump involves explosive hip extension and bilateral leg mechanics that can stress knee and ankle joints if executed with poor alignment. Always warm up hip flexors, hamstrings, and groin thoroughly before drilling this technique. When completing the sweep, control your opponent's descent to prevent them from landing with uncontrolled impact. During training, communicate with your partner about entry intensity and avoid full-force sweeps against significantly lighter training partners. If you feel any sharp pain in your knees during the leg insertion or elevation phase, stop immediately and reassess your hook positioning.",
-    "clips": [
-      {
-        "id": "zbYb6sOYC8w",
-        "title": "X guard sweep",
-        "by": "Marcelo Garcia",
-        "vertical": false,
-        "channel": "CHOKE LABORATORY",
-        "duration": 53,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "is7gMf-wYuA",
-        "title": "2-on-1 hook sweep from butterfly guard",
-        "by": "grpplng",
-        "vertical": false,
-        "channel": "grpplng",
-        "duration": 14,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Sweep from Double Jump Defender",
@@ -590,25 +571,6 @@
         "description": "Positional sparring starting with partner in established Double Jump bottom. Your goal is to defend all sweep attempts and pass to side control within 60 seconds. Partner has full freedom to attempt sweeps, chain attacks, and alternative transitions. Track defensive success rate across 10 rounds."
       }
     ],
-    "clips": [
-      {
-        "id": "_KSsEY6Yhb4",
-        "title": "Defending the shoulder crunch sweep from guard",
-        "by": "10th Planet Colorado Springs",
-        "vertical": false,
-        "channel": "10th Planet Colorado Springs",
-        "duration": 155,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "jx120fTdOfA",
-        "title": "Common guard player mistake",
-        "by": "Rickson Gracie",
-        "vertical": false,
-        "channel": "Rickson Gracie Jiu-Jitsu Academy",
-        "duration": 58,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

@@ -477,26 +477,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "NZEf9jXzCYA",
-        "title": "Williams Guard cartwheel escape counter",
-        "by": "Sam Wilkinson",
-        "vertical": false,
-        "channel": "Sam Wilkinson MMA",
-        "duration": 80,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "M__MeC_XCIM",
-        "title": "Williams Guard armbar counter",
-        "by": "Sam Wilkinson",
-        "vertical": false,
-        "channel": "Sam Wilkinson MMA",
-        "duration": 66,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   },
   "bottom": {
     "overview": "Williams Guard Bottom is an innovative open guard position characterized by controlling the opponent's arm with a shoulder lock grip while maintaining guard structure. Named after creator Roy Williams, this position combines elements of traditional guard retention with a unique shoulder manipulation that creates both offensive and defensive opportunities. The practitioner on bottom secures the opponent's arm in a shoulder lock configuration while using their legs to maintain distance and create angles for sweeps and submissions. This guard is particularly effective against opponents who attempt aggressive passing strategies, as it neutralizes their posting ability and creates immediate submission threats. Williams Guard exemplifies the evolution of modern BJJ guard systems by integrating joint manipulation with positional control, forcing opponents into defensive reactions that open sweep opportunities. The position functions as a systematic approach where the shoulder lock serves as both submission threat and positional control mechanism, channeling opponent responses into predictable patterns that each open specific attacking opportunities. Understanding the relationship between shoulder lock pressure and hip angle creates a dynamic threat environment where opponents can never settle into defensive posture.",
@@ -870,31 +851,19 @@
     ],
     "clips": [
       {
-        "id": "vcO2z_awL5k",
-        "title": "Williams Guard sweep variations",
-        "by": "UFAI Grappling",
-        "vertical": false,
-        "channel": "UFAI GRAPPLING",
-        "duration": 36,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "Mfw8-mXM_JY",
-        "title": "Williams Guard shoulder pin options",
-        "by": "Cross Fight",
-        "vertical": false,
-        "channel": "Cross Fight ",
-        "duration": 38,
-        "verified": "2026-07-14"
-      },
-      {
         "id": "1Ceb4MC3foM",
-        "title": "Williams Guard attacks breakdown",
-        "by": "Chad Lyman",
-        "vertical": false,
+        "title": "Williams Guard BJJ",
         "channel": "Code 4 Concepts Chad Lyman",
         "duration": 89,
-        "verified": "2026-07-14"
+        "vertical": false,
+        "front": true
+      },
+      {
+        "id": "9H9AoNHN8mU",
+        "title": "Guarda Williams, detalhes",
+        "channel": "Puro Academy",
+        "duration": 100,
+        "vertical": false
       }
     ]
   },
@@ -1015,30 +984,11 @@
   "clips": [
     {
       "id": "9H9AoNHN8mU",
-      "title": "Williams Guard details",
-      "by": "Puro Academy",
-      "vertical": false,
+      "title": "Guarda Williams, detalhes",
       "channel": "Puro Academy",
-      "duration": 101,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "vcO2z_awL5k",
-      "title": "Williams Guard sweep variations",
-      "by": "UFAI Grappling",
+      "duration": 100,
       "vertical": false,
-      "channel": "UFAI GRAPPLING",
-      "duration": 36,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "nDDWcu1JALo",
-      "title": "Williams Guard shoulder lock in 60 seconds",
-      "by": "Usher BJJ",
-      "vertical": false,
-      "channel": "USHER BJJ",
-      "duration": 50,
-      "verified": "2026-07-14"
+      "half": "bottom"
     }
   ]
 }

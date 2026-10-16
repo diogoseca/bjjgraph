@@ -351,17 +351,26 @@ def iter_clips_arrays(data):
 
 def validate_clips(data, category):
     """Semantic checks on curated YouTube clips that the schema can't express.
-    Returns (errors, warnings): inverted start/end loop bounds are blocking
-    (the player would never play); end-past-duration and duplicate ids are
-    warnings — clips are machine-verified externally by verify_clips.py."""
+    Returns (errors, warnings): inverted loop bounds, conflicting front
+    selections, and half tags outside position hubs are blocking.
+    End-past-duration and duplicate ids are warnings — clips are
+    machine-verified externally by verify_clips.py."""
     errors = []
     warnings = []
     seen_ids = {}
     for loc, clips in iter_clips_arrays(data):
+        fronts = [i for i, clip in enumerate(clips)
+                  if isinstance(clip, dict) and clip.get("front") is True]
+        if len(fronts) > 1:
+            errors.append(f"{loc}: at most one clip may have front: true")
+        if fronts and fronts[0] != 0:
+            errors.append(f"{loc}: the front: true clip must be first")
         for i, clip in enumerate(clips):
             if not isinstance(clip, dict):
                 continue
             where = f"{loc}[{i}]"
+            if "half" in clip and (category != "Positions" or loc != "clips"):
+                errors.append(f"{where}: half is allowed only on position hub clips")
             cid = clip.get("id")
             start = clip.get("start")
             end = clip.get("end")
@@ -1297,7 +1306,7 @@ def validate_json_file(json_path, schema, category, strict=False):
     warnings.extend(product_warnings)
     categories["non_blocking"].extend(product_warnings)
 
-    # Curated YouTube clips → inverted loop bounds blocking, the rest warnings
+    # Curated YouTube clips → loop/front/role contract blocking, provenance warnings
     clip_errors, clip_warnings = validate_clips(data, category)
     errors.extend(clip_errors)
     categories["blocking"].extend(clip_errors)

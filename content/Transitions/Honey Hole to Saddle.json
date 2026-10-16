@@ -375,31 +375,12 @@
     "safety_considerations": "This transition involves leg entanglement reconfiguration that can inadvertently apply torque to the opponent's knee joint during adjustment. Both practitioners must communicate clearly during training and establish tap protocols before drilling. If the defender feels unexpected rotational pressure on their knee during the attacker's reconfiguration, they should tap immediately rather than waiting to assess whether the pressure is intentional. Training should begin at slow speed with cooperative partners before adding resistance. Never force the transition against a partner who is verbally indicating discomfort.",
     "clips": [
       {
-        "id": "eRQVlYxFx1Y",
-        "title": "Shoulder roll to cross ashi (saddle/411) to back",
-        "by": "BJJ Doug",
+        "id": "5hhSK86xBFc",
+        "title": "Controlling the Saddle position: Overlooked details that will improve your leg…",
+        "channel": "Mads H. BJJ",
+        "duration": 259,
         "vertical": false,
-        "channel": "bjj doug",
-        "duration": 42,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "6PkbyGnn2w4",
-        "title": "Easiest entry to the honey hole",
-        "by": "Robot Dolphin Jiu-Jitsu",
-        "vertical": false,
-        "channel": "Robot Dolphin Jiu-Jitsu ",
-        "duration": 147,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "ratNiM2lx5U",
-        "title": "Transitioning to honey hole from outside ashi",
-        "by": "Robot Dolphin Jiu-Jitsu",
-        "vertical": false,
-        "channel": "Robot Dolphin Jiu-Jitsu ",
-        "duration": 155,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },
@@ -581,21 +562,11 @@
     "clips": [
       {
         "id": "8D4EFJ3kG9w",
-        "title": "Three escapes from the saddle / honey hole",
-        "by": "Because Jitsu",
-        "vertical": false,
+        "title": "3 Escapes To Saddle, 4-11, Honey hole, Inside Sankaku",
         "channel": "Because Jitsu",
         "duration": 200,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "C3bPRoMwGPo",
-        "title": "Saddle escape to leg drag drill",
-        "by": "Travis Anderson",
         "vertical": false,
-        "channel": "Travis Anderson",
-        "duration": 70,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   }

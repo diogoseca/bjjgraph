@@ -376,26 +376,7 @@
       }
     ],
     "safety_considerations": "The Sprawl and Disengage is inherently a safety-focused technique designed to avoid dangerous leg entanglements. However, proper execution requires attention to several safety factors. When sprawling explosively, avoid hyperextending your own knees by maintaining slight bend throughout. If opponent has any grip on your ankle, do not attempt to explosively rip away as this can cause ankle or knee injury—instead use controlled circular extraction. Be aware of training partners' faces when posting hands, as errant hand placement during explosive sprawl can cause accidental contact. In drilling, start with controlled speed until both partners understand the timing and spacing involved.",
-    "clips": [
-      {
-        "id": "Adz0whT8wBc",
-        "title": "Basic sprawl drill",
-        "by": "Gaelforce BJJ",
-        "vertical": false,
-        "channel": "Gaelforce BJJ",
-        "duration": 35,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "DvoaiDQaLDA",
-        "title": "Sit out to disengage from the inversion",
-        "by": "Spear Jiu Jitsu",
-        "vertical": false,
-        "channel": "Spear Jiu Jitsu",
-        "duration": 74,
-        "verified": "2026-07-16"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Sprawl and Disengage Defender",
@@ -571,26 +552,7 @@
         "description": "Full resistance positional sparring starting from grasshopper guard. Top player is instructed to use sprawl and disengage as primary defense. Bottom player practices the full defensive decision tree—hook retention, ankle catch to SLX, inversion pursuit, or reset acceptance based on live conditions."
       }
     ],
-    "clips": [
-      {
-        "id": "FYs8bJ4Olc4",
-        "title": "Recovering from a failed single leg after the sprawl",
-        "by": "LI MMA",
-        "vertical": false,
-        "channel": "LI MMA",
-        "duration": 94,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "lBOQ0KCygp4",
-        "title": "Finishing the single leg when the opponent sprawls hard",
-        "by": "CMPTV",
-        "vertical": false,
-        "channel": "CMPTV",
-        "duration": 183,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "variants_and_adaptations": [
     {

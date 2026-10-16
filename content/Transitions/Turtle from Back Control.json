@@ -371,31 +371,19 @@
     "safety_considerations": "During the turtle escape, avoid explosive bridging or turning movements that could strain the neck or spine under the opponent's body weight. The seatbelt grip across the chest can compress the ribcage during escape attempts, so communicate immediately if experiencing breathing difficulty. When drilling, the back controller should release hooks progressively to allow safe technique development. In live training, never attempt to stand up explosively with an opponent fully attached to your back, as uncontrolled falls can cause head and neck injuries to both practitioners.",
     "clips": [
       {
-        "id": "dHanNAj6B80",
-        "title": "Turtle escape from back control",
-        "by": "Adnan Sadiq",
-        "vertical": false,
-        "channel": "Adnan Sadiq",
-        "duration": 38,
-        "verified": "2026-07-15"
-      },
-      {
         "id": "waVFl1Ip6VU",
-        "title": "Back escape to turtle by shrugging",
-        "by": "Andy Tong",
-        "vertical": false,
+        "title": "Turtle back escape by shrugging Jiu Jitsu",
         "channel": "Andy Tong",
         "duration": 33,
-        "verified": "2026-07-15"
+        "vertical": false,
+        "front": true
       },
       {
-        "id": "wwa4llL0E1s",
-        "title": "Escaping back control with both hooks in",
-        "by": "Dinu Bucalet",
-        "vertical": false,
-        "channel": "Dinu Bucalet BJJ",
-        "duration": 159,
-        "verified": "2026-07-15"
+        "id": "dHanNAj6B80",
+        "title": "Turtle Escape from Back",
+        "channel": "Adnan Sadiq",
+        "duration": 37,
+        "vertical": false
       }
     ]
   },
@@ -574,34 +562,6 @@
         "description": "Full resistance positional sparring starting from back control. Maintain position or improve to mount while opponent works full escape sequences. Integrate all defensive tools: hook retention, submission attacks during hand transitions, mount transitions, and body triangle switches. Evaluate success rate of retention versus escapes allowed."
       }
     ],
-    "clips": [
-      {
-        "id": "Rlk4mGg7vW4",
-        "title": "Maintaining back control with hooks",
-        "by": "Gracie Charlottesville",
-        "vertical": false,
-        "channel": "Gracie Charlottesville",
-        "duration": 84,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "JWwNMbkmzsM",
-        "title": "Keeping a strong hook when they turtle out",
-        "by": "Ben Egli",
-        "vertical": false,
-        "channel": "Ben Egli",
-        "duration": 225,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "8qQrZ1b_Omw",
-        "title": "Stopping the turtle and retaking the back",
-        "by": "Gold BJJ",
-        "vertical": false,
-        "channel": "RVV BJJ",
-        "duration": 318,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

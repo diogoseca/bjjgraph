@@ -384,35 +384,7 @@
       }
     ],
     "safety_considerations": "This transition involves significant chest pressure changes that can temporarily restrict the bottom player's breathing. Maintain awareness of your training partner's comfort level during drilling, particularly when establishing north-south pressure after the rotation completes. Avoid dropping weight suddenly onto the chest upon arrival. During progressive resistance phases, communicate with your partner about pressure intensity. In competition the transition is generally low-risk for joint injuries, but sustained heavy pressure requires conditioning from both practitioners to train safely over extended sessions.",
-    "clips": [
-      {
-        "id": "2AiDW2rNJxg",
-        "title": "Transitioning from failed kesa gatame",
-        "by": "ceedublyew",
-        "vertical": false,
-        "channel": "ceedublyew",
-        "duration": 47,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "9WHh3xu6Apo",
-        "title": "Reverse kesa gatame control",
-        "by": "Alex Kennedy",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 175,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "LdjrPT6Wt7c",
-        "title": "How to hold north south",
-        "by": "Inverted Gear",
-        "vertical": false,
-        "channel": "Inverted Gear",
-        "duration": 121,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Ushiro Kesa Gatame to North-South Defender",
@@ -616,34 +588,6 @@
         "description": "Begin in reverse kesa with the top player free to transition to north-south or attack from reverse kesa. Defender must defend all threats while specifically looking for the north-south transition to intercept. This integrates transition defense with broader positional escape work and develops the ability to recognize and respond to the transition amid other offensive threats."
       }
     ],
-    "clips": [
-      {
-        "id": "ORpUBUxK1QE",
-        "title": "Reverse kesa gatame escape to back take",
-        "by": "Gymnanigains",
-        "vertical": false,
-        "channel": "Gymnanigains",
-        "duration": 26,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "2EZfzJb_-tA",
-        "title": "North south escape",
-        "by": "Moncaio Brothers",
-        "vertical": false,
-        "channel": "Moncaio Brothers Jiujitsu",
-        "duration": 24,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "rmT52A--V3Q",
-        "title": "How to escape north south",
-        "by": "Jon Thomas",
-        "vertical": false,
-        "channel": "JonThomasBJJ Plus",
-        "duration": 203,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

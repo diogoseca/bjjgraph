@@ -36,28 +36,6 @@ description: "Master the Rolling Escape to Guard from Aoki Lock. Complete guide 
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Rolling Escape to Guard \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Turtle no-grips escape rolling to guard",
-      "description": "Rolling Escape to Guard film study: Turtle no-grips escape rolling to guard, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Ly89G4iCTSQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Ly89G4iCTSQ",
-      "url": "https://www.youtube.com/watch?v=Ly89G4iCTSQ",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT108S"
-    }
-  ]
-}
-</script>
-
 
 
 <script type="application/ld+json">
@@ -96,24 +74,6 @@ The Rolling Escape represents the primary high-percentage escape from Aoki Lock,
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Rolling Escape to Guard in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=Ly89G4iCTSQ)
-
-<p class="clip-credit"><strong>Turtle no-grips escape rolling to guard</strong> — taught by Lachlan Giles · 1:48 · <a href="https://www.youtube.com/watch?v=Ly89G4iCTSQ" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="possible-outcomes" class="content-section">

@@ -162,24 +162,12 @@ description: "Defend the toe hold from Backside 50-50 in BJJ. Recognition cues, 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "How to escape the toe hold",
-      "description": "Toe Hold from Backside 50-50 (Defender) film study: How to escape the toe hold, taught by Gordon Ryan.",
+      "name": "How to escape from toehold by Gordon Ryan",
+      "description": "Toe Hold from Backside 50-50 (Defender) film study: How to escape from toehold by Gordon Ryan.",
       "thumbnailUrl": "https://i.ytimg.com/vi/3a9k8-ZcYrk/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/3a9k8-ZcYrk",
       "url": "https://www.youtube.com/watch?v=3a9k8-ZcYrk",
-      "creator": { "@type": "Person", "name": "Gordon Ryan" },
-      "duration": "PT106S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Toe Hold escape from 50/50",
-      "description": "Toe Hold from Backside 50-50 (Defender) film study: Toe Hold escape from 50/50, taught by Catch Wrestling Alliance.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/ydWFAUrv8Ns/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/ydWFAUrv8Ns",
-      "url": "https://www.youtube.com/watch?v=ydWFAUrv8Ns",
-      "creator": { "@type": "Person", "name": "Catch Wrestling Alliance" },
-      "duration": "PT150S"
+      "duration": "PT105S"
     }
   ]
 }
@@ -210,15 +198,7 @@ Defending the toe hold from Backside 50-50 requires early recognition and immedi
 
 ![](https://www.youtube.com/watch?v=3a9k8-ZcYrk)
 
-<p class="clip-credit"><strong>How to escape the toe hold</strong> — taught by Gordon Ryan · 1:46 · <a href="https://www.youtube.com/watch?v=3a9k8-ZcYrk" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=ydWFAUrv8Ns)
-
-<p class="clip-credit"><strong>Toe Hold escape from 50/50</strong> — taught by Catch Wrestling Alliance · 2:30 · <a href="https://www.youtube.com/watch?v=ydWFAUrv8Ns" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How to escape from toehold by Gordon Ryan</strong> · 1:45 · <a href="https://www.youtube.com/watch?v=3a9k8-ZcYrk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

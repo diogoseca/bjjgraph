@@ -371,26 +371,7 @@
       }
     ],
     "safety_considerations": "The collar drag from worm guard is a positional transition rather than a submission, so the primary safety concerns relate to collision during the explosive movement. When drilling, the attacker should control the speed of the pull to prevent the opponent from face-planting into the mat. Both partners should communicate clearly during initial practice to avoid neck strain from unexpected jerking forces on the collar grip. The transition to front headlock should be controlled to prevent inadvertent neck cranking. Always practice on matted surfaces and ensure the opponent can tap if any submission threat develops during the scramble to front headlock.",
-    "clips": [
-      {
-        "id": "_iV0LtOiXNY",
-        "title": "Lapel guard takedown one minute breakdown",
-        "by": "Legion AJJ",
-        "vertical": false,
-        "channel": "Legion AJJ",
-        "duration": 64,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "U6HzzQ0lO0M",
-        "title": "Worm guard single leg takedown",
-        "by": "Revolution BJJ",
-        "vertical": false,
-        "channel": "Revolution BJJ",
-        "duration": 105,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Collar Drag from Worm Guard Defender",
@@ -553,25 +534,6 @@
         "description": "Positional sparring starting from opponent's worm guard with collar drag available. Defender must defend all worm guard attacks including the collar drag while working to pass. Builds realistic defensive reactions under live conditions."
       }
     ],
-    "clips": [
-      {
-        "id": "kMybfbRxsPg",
-        "title": "Single grip to shut down lapel guards",
-        "by": "Keenan Cornelius",
-        "vertical": false,
-        "channel": "Keenan Cornelius",
-        "duration": 512,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "KDDab88J--g",
-        "title": "Cross collar grip counters",
-        "by": "BJJ Scout",
-        "vertical": false,
-        "channel": "BJJSCOUT",
-        "duration": 145,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

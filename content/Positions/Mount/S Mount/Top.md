@@ -155,39 +155,6 @@ description: "Dominate with S Mount attacks in BJJ. Master arm isolation, armbar
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "S Mount (Top) \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "S-Mount armbar, kimura \u0026 far-side armbar",
-      "description": "S Mount (Top) film study: S-Mount armbar, kimura \u0026 far-side armbar, taught by GBCostaMesa.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/nH4ly3vk7WI/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/nH4ly3vk7WI",
-      "url": "https://www.youtube.com/watch?v=nH4ly3vk7WI",
-      "creator": { "@type": "Person", "name": "GBCostaMesa" },
-      "duration": "PT24S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Brutal armbar from S-Mount",
-      "description": "S Mount (Top) film study: Brutal armbar from S-Mount, taught by Lux\u0027s Jiu Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/N-fwXASdMCQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/N-fwXASdMCQ",
-      "url": "https://www.youtube.com/watch?v=N-fwXASdMCQ",
-      "creator": { "@type": "Person", "name": "Lux\u0027s Jiu Jitsu" },
-      "duration": "PT80S"
-    }
-  ]
-}
-</script>
-
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -206,32 +173,6 @@ S Mount appears throughout BJJ history as a signature position of submission spe
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch S Mount (Top) in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=nH4ly3vk7WI)
-
-<p class="clip-credit"><strong>S-Mount armbar, kimura &amp; far-side armbar</strong> — taught by GBCostaMesa · 0:24 · <a href="https://www.youtube.com/watch?v=nH4ly3vk7WI" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=N-fwXASdMCQ)
-
-<p class="clip-credit"><strong>Brutal armbar from S-Mount</strong> — taught by Lux&#39;s Jiu Jitsu · 1:20 · <a href="https://www.youtube.com/watch?v=N-fwXASdMCQ" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="state-invariants" class="content-section">

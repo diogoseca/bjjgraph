@@ -381,26 +381,7 @@
       }
     ],
     "safety_considerations": "This transition involves controlled positional movement without direct joint manipulation or choking mechanics, making it relatively low risk. The primary safety concern is rib compression on the bottom player during the weight transfer phase of the rotation, particularly if the top player drops weight suddenly rather than maintaining smooth continuous pressure. Both practitioners should communicate if experiencing breathing difficulty under chest pressure. During training, rotate smoothly rather than explosively to prevent accidental knee or elbow strikes to the partner's face or ribs. Partners with rib injuries should communicate before drilling, and the top player should moderate pressure accordingly.",
-    "clips": [
-      {
-        "id": "XQ4fwGrXV2Q",
-        "title": "Reverse mount to unorthodox positions and scrambles",
-        "by": "Jamie",
-        "vertical": false,
-        "channel": "jamielovesmartialarts",
-        "duration": 23,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "uinRYdbcpCw",
-        "title": "Side Reversal: Bottom Side Control to Top Control",
-        "by": "Avant-Garde BJJ",
-        "vertical": false,
-        "channel": "Avant-Garde BJJ",
-        "duration": 39,
-        "verified": "2026-07-16"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Reverse Mount to Side Control Defender",
@@ -582,25 +563,6 @@
         "description": "Start from reverse mount bottom with top player attempting any positional conversion. Defender practices full resistance defense, targeting either reversal or prevention. Track success rates across multiple rounds to measure improvement and identify which conversion approaches cause the most difficulty."
       }
     ],
-    "clips": [
-      {
-        "id": "uSrYAzVADsw",
-        "title": "Mount escapes for blue belts and ADCC champions",
-        "by": "Gordon Ryan",
-        "vertical": false,
-        "channel": "Gordon Ryan",
-        "duration": 291,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "0xYFYI9LkUQ",
-        "title": "Rolling opponent to far side with near hook",
-        "by": "Priit Mihkelson",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 144,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

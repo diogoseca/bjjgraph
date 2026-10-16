@@ -393,30 +393,25 @@
     "clips": [
       {
         "id": "4L25UQntnPg",
-        "title": "Side control escape with the reverse hip escape",
-        "by": "Fox Den Martial Arts",
-        "vertical": false,
+        "title": "Side Control Escapes Series - Reverse Hip Escape",
         "channel": "Fox Den Martial Arts",
-        "duration": 25,
-        "verified": "2026-07-15"
+        "duration": 24,
+        "vertical": false,
+        "front": true
       },
       {
         "id": "br0-osUjx7c",
-        "title": "Side control recovery to guard",
-        "by": "Science Of JiuJitsu",
-        "vertical": false,
+        "title": "Side Control recovery to guard",
         "channel": "Science Of JiuJitsu",
         "duration": 42,
-        "verified": "2026-07-15"
+        "vertical": false
       },
       {
         "id": "QH9-1I5XqO4",
-        "title": "Guard recovery from bottom side control",
-        "by": "Academy Jiu Jitsu",
-        "vertical": false,
+        "title": "Side Control (Bottom): Guard Recovery (Cross Face)",
         "channel": "Academy Jiu Jitsu",
-        "duration": 105,
-        "verified": "2026-07-15"
+        "duration": 104,
+        "vertical": false
       }
     ]
   },
@@ -584,30 +579,11 @@
     "clips": [
       {
         "id": "XaYoAcTeKkk",
-        "title": "Maintaining side control with pressure",
-        "by": "Thunderdome BJJ",
-        "vertical": false,
+        "title": "Maintain Side Control with Pressure",
         "channel": "Thunderdome BJJ",
         "duration": 32,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "_JPZaIcr90c",
-        "title": "Side control escape vs a bigger stronger opponent",
-        "by": "Matt Arroyo",
         "vertical": false,
-        "channel": "Matt Arroyo Jiu Jitsu ",
-        "duration": 69,
-        "verified": "2026-07-16"
-      },
-      {
-        "id": "Ia_-udzOJ18",
-        "title": "Gordon Ryan pin escape principles reviewed",
-        "by": "Review Fanatics",
-        "vertical": false,
-        "channel": "ReviewFanatics",
-        "duration": 124,
-        "verified": "2026-07-16"
+        "front": true
       }
     ]
   },

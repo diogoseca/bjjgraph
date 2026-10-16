@@ -46,34 +46,21 @@ description: "Master the Twister submission from Twister Control. Complete guide
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Twister Side Attacks",
-      "description": "Twister from Twister Control film study: Twister Side Attacks, taught by Eddie Bravo.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/odT3-cVWXdc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/odT3-cVWXdc",
-      "url": "https://www.youtube.com/watch?v=odT3-cVWXdc",
-      "creator": { "@type": "Person", "name": "Eddie Bravo" },
-      "duration": "PT61S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Eddie Bravo\u0027s Twister",
-      "description": "Twister from Twister Control film study: Eddie Bravo\u0027s Twister, taught by Eddie Bravo.",
+      "name": "Eddie Bravo\u0027s Twister - With 3 Flores",
+      "description": "Twister from Twister Control film study: Eddie Bravo\u0027s Twister - With 3 Flores.",
       "thumbnailUrl": "https://i.ytimg.com/vi/FjWN_aBp2eE/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/FjWN_aBp2eE",
       "url": "https://www.youtube.com/watch?v=FjWN_aBp2eE",
-      "creator": { "@type": "Person", "name": "Eddie Bravo" },
       "duration": "PT49S"
     },
     {
       "@type": "VideoObject",
-      "position": 3,
-      "name": "Grace\u0027s Twister",
-      "description": "Twister from Twister Control film study: Grace\u0027s Twister, taught by Eddie Bravo.",
+      "position": 2,
+      "name": "MTS 199 Graces Twister",
+      "description": "Twister from Twister Control film study: MTS 199 Graces Twister.",
       "thumbnailUrl": "https://i.ytimg.com/vi/nnphEk5pmjk/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/nnphEk5pmjk",
       "url": "https://www.youtube.com/watch?v=nnphEk5pmjk",
-      "creator": { "@type": "Person", "name": "Eddie Bravo" },
       "duration": "PT61S"
     }
   ]
@@ -137,17 +124,9 @@ Strategically, the Twister requires patience and precise sequencing rather than 
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=odT3-cVWXdc)
-
-<p class="clip-credit"><strong>Twister Side Attacks</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=odT3-cVWXdc" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=FjWN_aBp2eE)
 
-<p class="clip-credit"><strong>Eddie Bravo&#39;s Twister</strong> — taught by Eddie Bravo · 0:49 · <a href="https://www.youtube.com/watch?v=FjWN_aBp2eE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Eddie Bravo&#39;s Twister - With 3 Flores</strong> · 0:49 · <a href="https://www.youtube.com/watch?v=FjWN_aBp2eE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -155,7 +134,7 @@ Strategically, the Twister requires patience and precise sequencing rather than 
 
 ![](https://www.youtube.com/watch?v=nnphEk5pmjk)
 
-<p class="clip-credit"><strong>Grace&#39;s Twister</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=nnphEk5pmjk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>MTS 199 Graces Twister</strong> · 1:01 · <a href="https://www.youtube.com/watch?v=nnphEk5pmjk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -159,35 +159,12 @@ description: "Master Estima Lock Top Position in BJJ. Control opponent's foot an
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Estima Lock Breaking Mechanics",
-      "description": "Estima Lock Control (Top) film study: Estima Lock Breaking Mechanics, taught by Josh Star-Lord Leduc.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/7hajltIw4kI/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/7hajltIw4kI",
-      "url": "https://www.youtube.com/watch?v=7hajltIw4kI",
-      "creator": { "@type": "Person", "name": "Josh Star-Lord Leduc" },
-      "duration": "PT82S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Estima Lock from 50/50",
-      "description": "Estima Lock Control (Top) film study: Estima Lock from 50/50, taught by The Jiu-Jitsu Foundry.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/1I7Nlm1IhgQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/1I7Nlm1IhgQ",
-      "url": "https://www.youtube.com/watch?v=1I7Nlm1IhgQ",
-      "creator": { "@type": "Person", "name": "The Jiu-Jitsu Foundry" },
-      "duration": "PT33S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Estima Lock Finish",
-      "description": "Estima Lock Control (Top) film study: Estima Lock Finish, taught by Leandro Dos Santos Flores.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Ao0IatSHEi0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Ao0IatSHEi0",
-      "url": "https://www.youtube.com/watch?v=Ao0IatSHEi0",
-      "creator": { "@type": "Person", "name": "Leandro Dos Santos Flores" },
-      "duration": "PT27S"
+      "name": "Estima lock explained - De Groot BJJ",
+      "description": "Estima Lock Control (Top) film study: Estima lock explained - De Groot BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lGnr1JIew0A/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lGnr1JIew0A",
+      "url": "https://www.youtube.com/watch?v=lGnr1JIew0A",
+      "duration": "PT310S"
     }
   ]
 }
@@ -217,25 +194,9 @@ Success from the top position requires precise technical execution including pro
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=7hajltIw4kI)
+![](https://www.youtube.com/watch?v=lGnr1JIew0A)
 
-<p class="clip-credit"><strong>Estima Lock Breaking Mechanics</strong> — taught by Josh Star-Lord Leduc · 1:22 · <a href="https://www.youtube.com/watch?v=7hajltIw4kI" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=1I7Nlm1IhgQ)
-
-<p class="clip-credit"><strong>Estima Lock from 50/50</strong> — taught by The Jiu-Jitsu Foundry · 0:33 · <a href="https://www.youtube.com/watch?v=1I7Nlm1IhgQ" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=Ao0IatSHEi0)
-
-<p class="clip-credit"><strong>Estima Lock Finish</strong> — taught by Leandro Dos Santos Flores · 0:27 · <a href="https://www.youtube.com/watch?v=Ao0IatSHEi0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Estima lock explained - De Groot BJJ</strong> · 5:10 · <a href="https://www.youtube.com/watch?v=lGnr1JIew0A" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

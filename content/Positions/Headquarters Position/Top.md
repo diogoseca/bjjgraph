@@ -166,35 +166,12 @@ description: "Master Headquarters Position in BJJ. Strategic passing control pos
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Knee Cut Pass With Underhook",
-      "description": "Headquarters Position (Top) film study: Knee Cut Pass With Underhook, taught by Jiu Jitsu Curriculum.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/EFEgiEekLNY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/EFEgiEekLNY",
-      "url": "https://www.youtube.com/watch?v=EFEgiEekLNY",
-      "creator": { "@type": "Person", "name": "Jiu Jitsu Curriculum" },
-      "duration": "PT62S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Headquarters to Knee-Cut When Long Step Fails",
-      "description": "Headquarters Position (Top) film study: Headquarters to Knee-Cut When Long Step Fails, taught by Tony Casarez.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/IUvwQc_Y6RA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/IUvwQc_Y6RA",
-      "url": "https://www.youtube.com/watch?v=IUvwQc_Y6RA",
-      "creator": { "@type": "Person", "name": "Tony Casarez" },
-      "duration": "PT109S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Knee Shield Pass From Headquarters",
-      "description": "Headquarters Position (Top) film study: Knee Shield Pass From Headquarters, taught by Jiu Jitsu Curriculum.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/k4pZYVOwmbI/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/k4pZYVOwmbI",
-      "url": "https://www.youtube.com/watch?v=k4pZYVOwmbI",
-      "creator": { "@type": "Person", "name": "Jiu Jitsu Curriculum" },
-      "duration": "PT117S"
+      "name": "The \"Headquarters\" Position in BJJ: Everything You Need to Know",
+      "description": "Headquarters Position (Top) film study: The \"Headquarters\" Position in BJJ: Everything You Need to Know.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aWgHbWcaEpQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aWgHbWcaEpQ",
+      "url": "https://www.youtube.com/watch?v=aWgHbWcaEpQ",
+      "duration": "PT325S"
     }
   ]
 }
@@ -227,25 +204,9 @@ This position represents a fundamental evolution in guard passing theory, moving
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=EFEgiEekLNY)
+![](https://www.youtube.com/watch?v=aWgHbWcaEpQ)
 
-<p class="clip-credit"><strong>Knee Cut Pass With Underhook</strong> — taught by Jiu Jitsu Curriculum · 1:02 · <a href="https://www.youtube.com/watch?v=EFEgiEekLNY" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=IUvwQc_Y6RA)
-
-<p class="clip-credit"><strong>Headquarters to Knee-Cut When Long Step Fails</strong> — taught by Tony Casarez · 1:49 · <a href="https://www.youtube.com/watch?v=IUvwQc_Y6RA" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=k4pZYVOwmbI)
-
-<p class="clip-credit"><strong>Knee Shield Pass From Headquarters</strong> — taught by Jiu Jitsu Curriculum · 1:57 · <a href="https://www.youtube.com/watch?v=k4pZYVOwmbI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>The &#34;Headquarters&#34; Position in BJJ: Everything You Need to Know</strong> · 5:25 · <a href="https://www.youtube.com/watch?v=aWgHbWcaEpQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

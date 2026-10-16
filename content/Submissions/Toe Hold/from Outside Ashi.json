@@ -451,22 +451,19 @@
     ],
     "clips": [
       {
-        "id": "tUKGafnOlJo",
-        "title": "Slide into Ashi to Straight Toe Hold",
-        "by": "Josh Star-Lord Leduc",
+        "id": "zsnGef5-N2g",
+        "title": "Attacking the Toehold from Outside Ashi Garami (No Gi BJJ/Jiu-Jitsu)",
+        "channel": "Brian Glick",
+        "duration": 201,
         "vertical": false,
-        "channel": "Josh Star-Lord Leduc",
-        "duration": 58,
-        "verified": "2026-07-14"
+        "front": true
       },
       {
-        "id": "zsnGef5-N2g",
-        "title": "Attacking the Toe Hold from Outside Ashi",
-        "by": "Brian Glick",
-        "vertical": false,
-        "channel": "Brian Glick",
-        "duration": 202,
-        "verified": "2026-07-14"
+        "id": "tUKGafnOlJo",
+        "title": "Slide into Ashi to Straight Toe Hold",
+        "channel": "Josh Star-Lord Leduc",
+        "duration": 58,
+        "vertical": false
       }
     ]
   },
@@ -703,21 +700,11 @@
     "clips": [
       {
         "id": "3a9k8-ZcYrk",
-        "title": "How to Escape the Toe Hold",
-        "by": "Gordon Ryan",
-        "vertical": false,
+        "title": "How to escape from toehold by Gordon Ryan",
         "channel": "The King Life",
-        "duration": 106,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "f4OOg_35Xjk",
-        "title": "How to Defend Against Toe Holds",
-        "by": "The Grappling Academy",
+        "duration": 105,
         "vertical": false,
-        "channel": "The Grappling Academy",
-        "duration": 203,
-        "verified": "2026-07-14"
+        "front": true
       }
     ]
   }

@@ -379,30 +379,18 @@
     "clips": [
       {
         "id": "4yc0Swz_El0",
-        "title": "How to do the technical standup",
-        "by": "Ritchie Yip",
-        "vertical": false,
+        "title": "How To Do The Most Important Technique In BJJ - The Technical Standup",
         "channel": "Ritchie Yip",
-        "duration": 40,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "MFm_-kqmE8U",
-        "title": "Technical stand up drill",
-        "by": "The Jiu-jitsu Ronin",
+        "duration": 39,
         "vertical": false,
-        "channel": "The Jiu-jitsu Ronin",
-        "duration": 31,
-        "verified": "2026-07-15"
+        "front": true
       },
       {
         "id": "bRMQRElVLho",
-        "title": "Technical stand up movement breakdown",
-        "by": "Stasis Jiu Jitsu & Yoga",
-        "vertical": false,
+        "title": "Technical Stand Up | Jiu Jitsu Movement Library",
         "channel": "Stasis Jiu Jitsu & Yoga",
         "duration": 108,
-        "verified": "2026-07-15"
+        "vertical": false
       }
     ]
   },
@@ -566,25 +554,6 @@
         "description": "Start with partner in seated position and you standing or in combat base. Partner may attempt technical stand up, guard pull, or other escapes at any time. Defend the stand up attempt while maintaining top position. Practice for 2-minute rounds with full resistance and positional resets after each successful stand up or guard recovery."
       }
     ],
-    "clips": [
-      {
-        "id": "Xj_MVwk2jq0",
-        "title": "When they don't let go of your guard retention",
-        "by": "Jean Jacques Machado",
-        "vertical": false,
-        "channel": "JeanJacquesMachado",
-        "duration": 46,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "1JROabJi6yE",
-        "title": "Countering the just stand up defense",
-        "by": "Jiu-Jitsu Times",
-        "vertical": false,
-        "channel": "Jiu-Jitsu Times",
-        "duration": 48,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

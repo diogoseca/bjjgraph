@@ -165,35 +165,12 @@ description: "Master defensive strategies from top of straight ankle lock contro
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Finish the Ankle Lock vs the Roll Out",
-      "description": "Straight Ankle Lock Control (Top) film study: Finish the Ankle Lock vs the Roll Out, taught by James O\u0027Connor.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/akB_o9gaNuc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/akB_o9gaNuc",
-      "url": "https://www.youtube.com/watch?v=akB_o9gaNuc",
-      "creator": { "@type": "Person", "name": "James O\u0027Connor" },
-      "duration": "PT61S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "The Ankle Lock Roll Control Drill",
-      "description": "Straight Ankle Lock Control (Top) film study: The Ankle Lock Roll Control Drill, taught by Escapology BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/pspIS0i2G2U/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/pspIS0i2G2U",
-      "url": "https://www.youtube.com/watch?v=pspIS0i2G2U",
-      "creator": { "@type": "Person", "name": "Escapology BJJ" },
-      "duration": "PT95S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Always Finish the Ankle Lock",
-      "description": "Straight Ankle Lock Control (Top) film study: Always Finish the Ankle Lock, taught by Jon Thomas.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/z3ILKAQN_i8/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/z3ILKAQN_i8",
-      "url": "https://www.youtube.com/watch?v=z3ILKAQN_i8",
-      "creator": { "@type": "Person", "name": "Jon Thomas" },
-      "duration": "PT143S"
+      "name": "How to defend the butterfly ashi footlock / Mikey Musumeci ankle lock \u2014 ft.\u2026",
+      "description": "Straight Ankle Lock Control (Top) film study: How to defend the butterfly ashi footlock / Mikey Musumeci ankle lock \u2014 ft.\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/l7u1ce88jqM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/l7u1ce88jqM",
+      "url": "https://www.youtube.com/watch?v=l7u1ce88jqM",
+      "duration": "PT211S"
     }
   ]
 }
@@ -229,25 +206,9 @@ The psychological dimension of defending straight ankle lock control cannot be u
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=akB_o9gaNuc)
+![](https://www.youtube.com/watch?v=l7u1ce88jqM)
 
-<p class="clip-credit"><strong>Finish the Ankle Lock vs the Roll Out</strong> — taught by James O&#39;Connor · 1:01 · <a href="https://www.youtube.com/watch?v=akB_o9gaNuc" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=pspIS0i2G2U)
-
-<p class="clip-credit"><strong>The Ankle Lock Roll Control Drill</strong> — taught by Escapology BJJ · 1:35 · <a href="https://www.youtube.com/watch?v=pspIS0i2G2U" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=z3ILKAQN_i8)
-
-<p class="clip-credit"><strong>Always Finish the Ankle Lock</strong> — taught by Jon Thomas · 2:23 · <a href="https://www.youtube.com/watch?v=z3ILKAQN_i8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How to defend the butterfly ashi footlock / Mikey Musumeci ankle lock — ft.…</strong> · 3:31 · <a href="https://www.youtube.com/watch?v=l7u1ce88jqM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

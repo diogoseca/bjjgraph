@@ -367,35 +367,7 @@
       }
     ],
     "safety_considerations": "The back door escape is generally low-risk for joint injuries since it does not involve submission mechanics or extreme joint manipulation. The primary safety concern is cervical spine protection during the turning motion. Maintain chin tucked firmly to chest throughout to prevent awkward neck positioning if opponent applies crossface pressure during the turn. Avoid explosive attempts if you have existing neck or shoulder injuries that could be aggravated by rapid rotation under load. In training, partners should allow the escape at reduced speed until the escaper has developed sufficient technique and speed to protect their back during the full-speed transition.",
-    "clips": [
-      {
-        "id": "mhX-XlDDj7w",
-        "title": "Back door sweep from deep half guard",
-        "by": "Revolution BJJ",
-        "vertical": false,
-        "channel": "Revolution BJJ",
-        "duration": 50,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "hoaB4Cx4bOU",
-        "title": "Deep half guard back door escape to back take",
-        "by": "Greg Lew",
-        "vertical": false,
-        "channel": "Greg Lew - Grapple Academy",
-        "duration": 251,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "yoqrHWRQcdM",
-        "title": "Deep half back door exit to turtle or north south",
-        "by": "Greg Hamilton",
-        "vertical": false,
-        "channel": "Renzo Gracie Jiu Jitsu DFW",
-        "duration": 162,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Back Door Escape from Half Guard Defender",
@@ -551,25 +523,6 @@
         "description": "Full positional sparring from half guard top where partner mixes conventional escapes with back door attempts at full speed. Practice reading which escape is being attempted and selecting the appropriate defensive response. Develop automatic decision-making: stuff early-stage attempts, follow late-stage attempts to back control."
       }
     ],
-    "clips": [
-      {
-        "id": "hHbb7ywVTwU",
-        "title": "Countering the deep half back take from top",
-        "by": "JiuJitsu.com",
-        "vertical": false,
-        "channel": "JiuJitsu.com",
-        "duration": 63,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "JEDoJOZWQHY",
-        "title": "Three ways to defend deep half guard",
-        "by": "Six Blades Jiu-Jitsu",
-        "vertical": false,
-        "channel": "Six Blades Jiu-Jitsu Fort Worth",
-        "duration": 207,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

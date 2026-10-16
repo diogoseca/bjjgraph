@@ -156,34 +156,21 @@ description: "Defend the toe hold from Inside Sankaku with grip fighting, body r
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "How to escape the toe hold",
-      "description": "Toe Hold from Inside Sankaku (Defender) film study: How to escape the toe hold, taught by Gordon Ryan.",
+      "name": "How to escape from toehold by Gordon Ryan",
+      "description": "Toe Hold from Inside Sankaku (Defender) film study: How to escape from toehold by Gordon Ryan.",
       "thumbnailUrl": "https://i.ytimg.com/vi/3a9k8-ZcYrk/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/3a9k8-ZcYrk",
       "url": "https://www.youtube.com/watch?v=3a9k8-ZcYrk",
-      "creator": { "@type": "Person", "name": "Gordon Ryan" },
-      "duration": "PT106S"
+      "duration": "PT105S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Toe hold counters",
-      "description": "Toe Hold from Inside Sankaku (Defender) film study: Toe hold counters, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/8pCKbDQt3_8/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/8pCKbDQt3_8",
-      "url": "https://www.youtube.com/watch?v=8pCKbDQt3_8",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT326S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "K guard vs toe hold and straight foot lock",
-      "description": "Toe Hold from Inside Sankaku (Defender) film study: K guard vs toe hold and straight foot lock, taught by Lachlan Giles.",
+      "name": "K guard vs toe hold and straight foot lock (Lachlan Giles)",
+      "description": "Toe Hold from Inside Sankaku (Defender) film study: K guard vs toe hold and straight foot lock (Lachlan Giles).",
       "thumbnailUrl": "https://i.ytimg.com/vi/6-HYU8Pbngg/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/6-HYU8Pbngg",
       "url": "https://www.youtube.com/watch?v=6-HYU8Pbngg",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
       "duration": "PT152S"
     }
   ]
@@ -215,15 +202,7 @@ Defending the toe hold from Inside Sankaku demands immediate recognition and pro
 
 ![](https://www.youtube.com/watch?v=3a9k8-ZcYrk)
 
-<p class="clip-credit"><strong>How to escape the toe hold</strong> — taught by Gordon Ryan · 1:46 · <a href="https://www.youtube.com/watch?v=3a9k8-ZcYrk" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=8pCKbDQt3_8)
-
-<p class="clip-credit"><strong>Toe hold counters</strong> — taught by Lachlan Giles · 5:26 · <a href="https://www.youtube.com/watch?v=8pCKbDQt3_8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How to escape from toehold by Gordon Ryan</strong> · 1:45 · <a href="https://www.youtube.com/watch?v=3a9k8-ZcYrk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -231,7 +210,7 @@ Defending the toe hold from Inside Sankaku demands immediate recognition and pro
 
 ![](https://www.youtube.com/watch?v=6-HYU8Pbngg)
 
-<p class="clip-credit"><strong>K guard vs toe hold and straight foot lock</strong> — taught by Lachlan Giles · 2:32 · <a href="https://www.youtube.com/watch?v=6-HYU8Pbngg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>K guard vs toe hold and straight foot lock (Lachlan Giles)</strong> · 2:32 · <a href="https://www.youtube.com/watch?v=6-HYU8Pbngg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

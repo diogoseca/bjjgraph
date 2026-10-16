@@ -459,31 +459,12 @@
     ],
     "clips": [
       {
-        "id": "InGMvIP5tqg",
-        "title": "3 Submissions from the Dog Fight",
-        "by": "Geo Martinez",
-        "vertical": true,
-        "channel": "Bernardo Faria BJJ Fanatics",
-        "duration": 61,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "vMqDIi10z4k",
-        "title": "Dog Bar",
-        "by": "Craig Jones",
+        "id": "8mXBDHXrAu4",
+        "title": "Whizzer from Half Guard.  How to win \"Dog Fight\"",
+        "channel": "Wrecking Crew BJJ",
+        "duration": 59,
         "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 61,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "4rXi8YQ3o5k",
-        "title": "Pass the Dog Fight to Mount",
-        "by": "Christian Diaz",
-        "vertical": false,
-        "channel": "Bernardo Faria BJJ Fanatics",
-        "duration": 241,
-        "verified": "2026-07-14"
+        "front": true
       }
     ]
   },

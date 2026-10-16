@@ -387,30 +387,11 @@
     "clips": [
       {
         "id": "SONTST7yTT8",
-        "title": "Closed Guard Overhook Scissor Sweep",
-        "by": "Fight Sports Charlotte",
-        "vertical": false,
+        "title": "Closed Guard - Overhook - Scissor Sweep",
         "channel": "Fight Sports Charlotte",
-        "duration": 89,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "vIa1iE-WJpo",
-        "title": "Leg Assisted Overhook Sweep from Butterfly Guard",
-        "by": "Jean Jacques Machado",
+        "duration": 88,
         "vertical": false,
-        "channel": "JeanJacquesMachado",
-        "duration": 79,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "2hc9sl1hEkE",
-        "title": "Overhook Sweep from Butterfly Guard",
-        "by": "Satori BJJ",
-        "vertical": false,
-        "channel": "Satori BJJ",
-        "duration": 36,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },
@@ -588,25 +569,6 @@
         "description": "Positional sparring starting with the bottom player in established overhook guard. Full resistance from both players. Top player wins by passing guard or stripping all controls. Bottom player wins by sweep or submission. Analyze which defensive interventions are most effective under pressure and refine timing based on live training results."
       }
     ],
-    "clips": [
-      {
-        "id": "IQ2mviobbI0",
-        "title": "How To Defend Against the Whizzer or an Overhook",
-        "by": "Pendergrass Academy",
-        "vertical": false,
-        "channel": "Pendergrass Academy of Martial Arts",
-        "duration": 138,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "7-yF3fzcA0k",
-        "title": "Basing against closed guard sweeps when head is hugged",
-        "by": "Darkness Jiu-Jitsu",
-        "vertical": false,
-        "channel": "Darkness Jiu-Jitsu",
-        "duration": 126,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

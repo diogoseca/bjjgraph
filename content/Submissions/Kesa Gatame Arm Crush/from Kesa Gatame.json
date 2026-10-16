@@ -400,26 +400,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "fB7gGDIm1i8",
-        "title": "12 Kesa Gatame attacks",
-        "by": "Johnny Jitsu",
-        "vertical": false,
-        "channel": "Johnny Jitsu",
-        "duration": 88,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "nKITSItbeyM",
-        "title": "High-percentage Kesa Gatame submissions",
-        "by": "Stephan Kesting",
-        "vertical": false,
-        "channel": "Stephan Kesting",
-        "duration": 220,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Kesa Gatame Arm Crush Defender",
@@ -601,25 +582,6 @@
         "description": "Full-resistance positional sparring from kesa gatame where the attacker chains between arm crush, americana, and kimura attempts. Defender must recognize each threat and adjust arm positioning accordingly while seeking escape opportunities. Track survival time and successful escapes."
       }
     ],
-    "clips": [
-      {
-        "id": "2M_6VytUaus",
-        "title": "Kesa Gatame escape",
-        "by": "SBG Australia",
-        "vertical": false,
-        "channel": "SBG Australia",
-        "duration": 43,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "fvp5_BVEtLg",
-        "title": "Kesa Gatame pressure defense with framing",
-        "by": "Kohbukan Sisu",
-        "vertical": false,
-        "channel": "Kohbukan Sisu",
-        "duration": 84,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   }
 }

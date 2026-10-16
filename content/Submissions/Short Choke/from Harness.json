@@ -413,35 +413,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "Sb-atqD_TqQ",
-        "title": "Short choke from the back position",
-        "by": "Cosens MMA",
-        "vertical": false,
-        "channel": "Cosens MMA LLC",
-        "duration": 55,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "eMbkVDRreIQ",
-        "title": "Three favorite chokes from the back",
-        "by": "Matt Arroyo",
-        "vertical": false,
-        "channel": "Matt Arroyo Jiu Jitsu ",
-        "duration": 87,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "ld80o7n_DFU",
-        "title": "When and how to apply the short choke from the back",
-        "by": "MMA Leech",
-        "vertical": false,
-        "channel": "MMA Leech",
-        "duration": 165,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Short Choke from Harness Defender",
@@ -603,25 +575,6 @@
         "description": "Start from harness bottom against a partner actively attacking with the Short Choke at full intensity. Defend and escape under realistic resistance. Track success rates at each defensive stage to identify where your defense breaks down and focus future training on those specific checkpoints."
       }
     ],
-    "clips": [
-      {
-        "id": "93Bw5abRDiU",
-        "title": "3 powerful back escapes",
-        "by": "Stephan Kesting",
-        "vertical": false,
-        "channel": "Stephan Kesting",
-        "duration": 216,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "Nhca-P5Uj20",
-        "title": "Escaping back control",
-        "by": "Absolute MMA St Kilda",
-        "vertical": false,
-        "channel": "Absolute MMA St Kilda - Melbourne",
-        "duration": 482,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

@@ -406,31 +406,12 @@
     "safety_considerations": "The transition to Kesa Gatame is generally safe but requires awareness of several factors. The shoulder pressure and breathing restriction inherent in Kesa Gatame can be intense, especially for smaller training partners or those unfamiliar with the position. When drilling, apply pressure gradually rather than slamming into the full scarf hold. The arm trap must be controlled to avoid hyperextending the opponent's shoulder joint, particularly during the americana threat that naturally exists in the position. Partners should communicate immediately if they feel excessive pressure on their neck from the head wrap, as the combination of head pull and shoulder drive can create uncomfortable cervical compression. When training the bridge-and-roll counter, both partners should be aware of mat boundaries to avoid rolling off the training surface. Weight class differences should be considered, with heavier practitioners using less active pressure during early drilling phases.",
     "clips": [
       {
-        "id": "fB7gGDIm1i8",
-        "title": "Kesa gatame attacks",
-        "by": "Johnny Jitsu",
-        "vertical": false,
-        "channel": "Johnny Jitsu",
-        "duration": 88,
-        "verified": "2026-07-15"
-      },
-      {
         "id": "k5V2_rdKXW8",
-        "title": "Side control to kesa gatame series",
-        "by": "Edward Anthony",
-        "vertical": false,
+        "title": "Side Control - Kesa-gatame Series",
         "channel": "Edward “Scissorhands” Anthony Jiu Jitsu ",
         "duration": 172,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "jwArJKRlJ8o",
-        "title": "Basic judo hold downs including kesa gatame",
-        "by": "Shintaro Higashi",
         "vertical": false,
-        "channel": "Shintaro Higashi",
-        "duration": 211,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },
@@ -612,30 +593,18 @@
     "clips": [
       {
         "id": "2M_6VytUaus",
-        "title": "Kesa gatame escape",
-        "by": "SBG Australia",
-        "vertical": false,
+        "title": "Kesa Gatame escape",
         "channel": "SBG Australia",
-        "duration": 43,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "O9H8V9BL_b0",
-        "title": "Escaping the kesa gatame position",
-        "by": "Full Metal Jiu Jitsu",
+        "duration": 42,
         "vertical": false,
-        "channel": "Full Metal Jiu Jitsu",
-        "duration": 79,
-        "verified": "2026-07-15"
+        "front": true
       },
       {
         "id": "fvp5_BVEtLg",
-        "title": "Framing defense against kesa gatame pressure",
-        "by": "Kohbukan Sisu",
-        "vertical": false,
+        "title": "Troubleshooting Tuesday - Kesa Gatame Pressure Defense Using Proper Framing",
         "channel": "Kohbukan Sisu",
         "duration": 84,
-        "verified": "2026-07-15"
+        "vertical": false
       }
     ]
   }

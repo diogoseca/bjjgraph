@@ -390,31 +390,12 @@
     "safety_considerations": "The knee cut pass applies significant lateral pressure across the opponent's knee and hip joints during the cutting phase. Controlled application is essential—sudden explosive entries can cause MCL strain or hip flexor injury in training partners. When drilling, reduce speed during the cutting phase and allow the bottom player time to adjust their leg position. Avoid driving the knee through a fully locked defensive structure with maximum force, as this can injure both the knee joint of the bottom player and the hip of the passer. Communicate with training partners about knee sensitivity and tap immediately if any joint pain is felt during the extraction phase.",
     "clips": [
       {
-        "id": "k4pZYVOwmbI",
-        "title": "Knee shield pass from headquarters, no-gi",
-        "by": "Jiu Jitsu Curriculum",
+        "id": "IUvwQc_Y6RA",
+        "title": "Long step failed? - Headquarters position to Knee-cut",
+        "channel": "Tony Casarez",
+        "duration": 108,
         "vertical": false,
-        "channel": "Jiu Jitsu Curriculum",
-        "duration": 117,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "3r093piKEr4",
-        "title": "Smash into knee cut pass in competition",
-        "by": "Ross Nicholls",
-        "vertical": false,
-        "channel": "London Grapple",
-        "duration": 116,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "1FG1o31-mMc",
-        "title": "Knee side smash passes in 90 seconds",
-        "by": "The ROL Radio Podcast",
-        "vertical": false,
-        "channel": "The ROL Radio Podcast",
-        "duration": 91,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },
@@ -601,21 +582,11 @@
     "clips": [
       {
         "id": "yiIHeo7NgsE",
-        "title": "Countering the knee slice pass",
-        "by": "Kohbukan Sisu",
-        "vertical": false,
+        "title": "Knee Slice Pass Counter",
         "channel": "Kohbukan Sisu",
         "duration": 58,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "xDZucxFVK48",
-        "title": "Defending the knee slice from quarter guard",
-        "by": "Jean Jacques Machado",
         "vertical": false,
-        "channel": "JeanJacquesMachado",
-        "duration": 275,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   }

@@ -357,35 +357,7 @@
       }
     ],
     "safety_considerations": "The stack pass applies significant compression to the opponent's spine and neck region. Never drive the opponent's weight directly onto their cervical spine - control the stacking angle to distribute pressure across the upper back and shoulder blades. Release stacking pressure immediately if the opponent signals discomfort or if you observe their neck bearing excessive load. In training, communicate with your partner about pressure intensity and build stacking force gradually across sessions. Avoid sudden explosive drives that could cause cervical compression injuries. Be especially cautious with training partners who have limited flexibility or pre-existing neck conditions.",
-    "clips": [
-      {
-        "id": "aQ2vFXXBn-o",
-        "title": "Countering a full inversion",
-        "by": "Gordon Ryan",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 61,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "M6gK8yjDFGE",
-        "title": "How to pass the inverted guard",
-        "by": "Wim Deputter",
-        "vertical": false,
-        "channel": "Wim Deputter BJJ",
-        "duration": 91,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "bq_WmrzAMgs",
-        "title": "Stack pass to back take",
-        "by": "Tony Casarez",
-        "vertical": false,
-        "channel": "Tony Casarez",
-        "duration": 139,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Stack from Inverted Defender",
@@ -561,34 +533,6 @@
         "description": "Partner applies full stacking pressure while you practice hooking their legs for sweeps, redirecting momentum with collar grips for berimbolo counters, and transitioning to leg entanglement entries. Combine defensive survival with offensive counter-attacks in live positional sparring."
       }
     ],
-    "clips": [
-      {
-        "id": "Ad0qtay9IVQ",
-        "title": "Double under stack defense and counter",
-        "by": "Wim Deputter",
-        "vertical": false,
-        "channel": "Wim Deputter BJJ",
-        "duration": 130,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "mOvf60z4HS0",
-        "title": "Stack Pass Defense to Triangle Trap Position",
-        "by": "Mark Cerrone",
-        "vertical": false,
-        "channel": "Mark Cerrone",
-        "duration": 61,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "KFYuvpewSaw",
-        "title": "Stack Pass and Defense Tips",
-        "by": "Jimmy Thompson",
-        "vertical": false,
-        "channel": "Jimmy Thompson",
-        "duration": 67,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

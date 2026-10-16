@@ -165,24 +165,12 @@ description: "Master the clinch position in BJJ with comprehensive grip fighting
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Break any collar grip with technique",
-      "description": "Clinch (Bottom) film study: Break any collar grip with technique, taught by Travis Stevens.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/jTk5AaZd1Rc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/jTk5AaZd1Rc",
-      "url": "https://www.youtube.com/watch?v=jTk5AaZd1Rc",
-      "creator": { "@type": "Person", "name": "Travis Stevens" },
-      "duration": "PT113S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Grip break when opponent stiff-arms",
-      "description": "Clinch (Bottom) film study: Grip break when opponent stiff-arms, taught by Kathy Hubble.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/KBcwWBEdCUQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/KBcwWBEdCUQ",
-      "url": "https://www.youtube.com/watch?v=KBcwWBEdCUQ",
-      "creator": { "@type": "Person", "name": "Kathy Hubble" },
-      "duration": "PT107S"
+      "name": "Grappling Basics - Pummeling",
+      "description": "Clinch (Bottom) film study: Grappling Basics - Pummeling.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WU31d086kQc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/WU31d086kQc",
+      "url": "https://www.youtube.com/watch?v=WU31d086kQc",
+      "duration": "PT86S"
     }
   ]
 }
@@ -210,17 +198,9 @@ In modern Brazilian Jiu-Jitsu, the clinch has evolved beyond simple takedown set
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=jTk5AaZd1Rc)
+![](https://www.youtube.com/watch?v=WU31d086kQc)
 
-<p class="clip-credit"><strong>Break any collar grip with technique</strong> — taught by Travis Stevens · 1:53 · <a href="https://www.youtube.com/watch?v=jTk5AaZd1Rc" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=KBcwWBEdCUQ)
-
-<p class="clip-credit"><strong>Grip break when opponent stiff-arms</strong> — taught by Kathy Hubble · 1:47 · <a href="https://www.youtube.com/watch?v=KBcwWBEdCUQ" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Grappling Basics - Pummeling</strong> · 1:26 · <a href="https://www.youtube.com/watch?v=WU31d086kQc" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

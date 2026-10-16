@@ -370,26 +370,7 @@
       }
     ],
     "safety_considerations": "The heel strip must NEVER be attempted once heel hook rotation has begun—tap immediately if you feel rotational pressure on your knee. Knee ligament injuries from heel hooks can be career-ending, with damage to the LCL, MCL, and meniscus occurring within fractions of a second once rotation is applied. In training, always communicate clearly with your partner about resistance levels and establish clear tap signals before drilling. If you cannot strip the grip within two controlled attempts, strongly consider tapping rather than fighting through increasing danger. Progressive training from zero resistance to full resistance is essential—never jump to live resistance before mastering the mechanical sequence. Partners applying heel hooks in drill scenarios must maintain controlled grip pressure and immediately release upon any tap signal.",
-    "clips": [
-      {
-        "id": "MqtG9kuVt-Q",
-        "title": "Leg lock escape: rolling through out of ashi garami",
-        "by": "Gordon Ryan",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 103,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "AQbJMBiWYfU",
-        "title": "Escaping ashi garami — leg lock defense",
-        "by": "Scott Elliott",
-        "vertical": false,
-        "channel": "Coach Scott Elliott",
-        "duration": 141,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Heel Strip from Ashi Garami Defender",
@@ -538,25 +519,6 @@
         "description": "Positional sparring from Ashi Garami where attacker practices maintaining complete offensive system while partner uses full escape toolkit including heel strip, boot defense, and counter-entanglement. Track submission completion rate and identify patterns."
       }
     ],
-    "clips": [
-      {
-        "id": "AQbJMBiWYfU",
-        "title": "Escaping Ashi Garami: leg lock defense details",
-        "by": "Scott Elliott",
-        "vertical": false,
-        "channel": "Coach Scott Elliott",
-        "duration": 141,
-        "verified": "2026-07-16"
-      },
-      {
-        "id": "yUdB-EJaXgQ",
-        "title": "Heel hook defense vs ankle lock defense",
-        "by": "Craig Jones",
-        "vertical": false,
-        "channel": "The Grapplers Guide by Jason Scully",
-        "duration": 133,
-        "verified": "2026-07-16"
-      }
-    ]
+    "clips": []
   }
 }

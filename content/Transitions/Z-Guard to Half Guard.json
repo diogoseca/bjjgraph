@@ -379,21 +379,11 @@
     "clips": [
       {
         "id": "K7U2uBUfq-c",
-        "title": "Knee shield to underhook half guard to dogfight",
-        "by": "Kaboom BJJ coach",
-        "vertical": false,
+        "title": "Half Guard - Primary Attack - Kneeshield to Underhook to Dogfight to Knee Tap",
         "channel": "Kaboom Brazilian Jiu-Jitsu",
-        "duration": 129,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "T3Gwg-ABsZA",
-        "title": "Z-Guard with 3 attack options",
-        "by": "Way of BJJ coach",
+        "duration": 128,
         "vertical": false,
-        "channel": "Way of BJJ",
-        "duration": 67,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },
@@ -564,21 +554,18 @@
     "clips": [
       {
         "id": "h26GaRXjSHo",
-        "title": "Countering the underhook in half guard",
-        "by": "Revolution Fitness coach",
-        "vertical": false,
+        "title": "Counter to an Underhook in the Half Guard",
         "channel": "Revolution Fitness Center",
         "duration": 55,
-        "verified": "2026-07-15"
+        "vertical": false,
+        "front": true
       },
       {
         "id": "dOdO6xJ-TcU",
-        "title": "Stopping the half guard underhook",
-        "by": "Malachy Friedman",
-        "vertical": false,
+        "title": "Stop the half guard underhook with this simple Jiu Jitsu tip!",
         "channel": "Malachy Friedman",
-        "duration": 98,
-        "verified": "2026-07-15"
+        "duration": 97,
+        "vertical": false
       }
     ]
   }

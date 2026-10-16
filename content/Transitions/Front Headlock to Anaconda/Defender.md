@@ -160,34 +160,31 @@ description: "How to defend against Front Headlock to Anaconda in BJJ. Recogniti
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Escaping the Anaconda Choke",
-      "description": "Front Headlock to Anaconda (Defender) film study: Escaping the Anaconda Choke, taught by ArtOfSayingGoodbye.",
+      "name": "How to escape from an anaconda",
+      "description": "Front Headlock to Anaconda (Defender) film study: How to escape from an anaconda.",
       "thumbnailUrl": "https://i.ytimg.com/vi/At1_GDu4hSc/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/At1_GDu4hSc",
       "url": "https://www.youtube.com/watch?v=At1_GDu4hSc",
-      "creator": { "@type": "Person", "name": "ArtOfSayingGoodbye" },
-      "duration": "PT23S"
+      "duration": "PT22S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Anaconda Choke Defense Plus Counter",
-      "description": "Front Headlock to Anaconda (Defender) film study: Anaconda Choke Defense Plus Counter, taught by Cyril Robert.",
+      "name": "BJJ defense anaconda plus counter",
+      "description": "Front Headlock to Anaconda (Defender) film study: BJJ defense anaconda plus counter.",
       "thumbnailUrl": "https://i.ytimg.com/vi/s94GexEkoQ0/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/s94GexEkoQ0",
       "url": "https://www.youtube.com/watch?v=s94GexEkoQ0",
-      "creator": { "@type": "Person", "name": "Cyril Robert" },
       "duration": "PT43S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "Anaconda Choke Defense",
-      "description": "Front Headlock to Anaconda (Defender) film study: Anaconda Choke Defense, taught by SFS MMA.",
+      "name": "Anaconda choke defense (BJJ) - SFS MMA",
+      "description": "Front Headlock to Anaconda (Defender) film study: Anaconda choke defense (BJJ) - SFS MMA.",
       "thumbnailUrl": "https://i.ytimg.com/vi/SXm9wA1HcvM/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/SXm9wA1HcvM",
       "url": "https://www.youtube.com/watch?v=SXm9wA1HcvM",
-      "creator": { "@type": "Person", "name": "SFS MMA" },
       "duration": "PT64S"
     }
   ]
@@ -222,7 +219,7 @@ Strategically, the defender should recognize that the attacker must accomplish m
 
 ![](https://www.youtube.com/watch?v=At1_GDu4hSc)
 
-<p class="clip-credit"><strong>Escaping the Anaconda Choke</strong> — taught by ArtOfSayingGoodbye · 0:23 · <a href="https://www.youtube.com/watch?v=At1_GDu4hSc" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How to escape from an anaconda</strong> · 0:22 · <a href="https://www.youtube.com/watch?v=At1_GDu4hSc" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -230,7 +227,7 @@ Strategically, the defender should recognize that the attacker must accomplish m
 
 ![](https://www.youtube.com/watch?v=s94GexEkoQ0)
 
-<p class="clip-credit"><strong>Anaconda Choke Defense Plus Counter</strong> — taught by Cyril Robert · 0:43 · <a href="https://www.youtube.com/watch?v=s94GexEkoQ0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>BJJ defense anaconda plus counter</strong> · 0:43 · <a href="https://www.youtube.com/watch?v=s94GexEkoQ0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -238,7 +235,7 @@ Strategically, the defender should recognize that the attacker must accomplish m
 
 ![](https://www.youtube.com/watch?v=SXm9wA1HcvM)
 
-<p class="clip-credit"><strong>Anaconda Choke Defense</strong> — taught by SFS MMA · 1:04 · <a href="https://www.youtube.com/watch?v=SXm9wA1HcvM" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Anaconda choke defense (BJJ) - SFS MMA</strong> · 1:04 · <a href="https://www.youtube.com/watch?v=SXm9wA1HcvM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -392,26 +392,7 @@
       }
     ],
     "safety_considerations": "This transition is a positional adjustment rather than a submission, so injury risk is primarily related to the rotation mechanics. Avoid cranking the opponent's trapped near arm during the pivot, as the rotational force can stress the shoulder joint. In training, perform the rotation at controlled speed and check that your partner's trapped arm has sufficient slack to accommodate the directional change. If your partner reports shoulder discomfort during drilling, adjust your arm release timing to free their near arm earlier in the rotation sequence. The chest pressure applied after settling into Ushiro Kesa Gatame can restrict breathing, so be attentive to tap signals during positional sparring.",
-    "clips": [
-      {
-        "id": "SBapox2M2dE",
-        "title": "Ushiro kesa gatame (reverse scarf hold)",
-        "by": "Kodokan instructor",
-        "vertical": false,
-        "channel": "KODOKAN",
-        "duration": 54,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "fB7gGDIm1i8",
-        "title": "12 attacks from kesa gatame",
-        "by": "Johnny Jitsu",
-        "vertical": false,
-        "channel": "Johnny Jitsu",
-        "duration": 88,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Kesa Gatame to Ushiro Kesa Gatame Defender",
@@ -591,22 +572,12 @@
     ],
     "clips": [
       {
-        "id": "ORpUBUxK1QE",
-        "title": "Reverse kesa gatame escape to back take",
-        "by": "Gymnanigains coach",
-        "vertical": false,
-        "channel": "Gymnanigains",
-        "duration": 26,
-        "verified": "2026-07-15"
-      },
-      {
         "id": "QzegNgUUfZs",
-        "title": "Reverse kesa gatame escape",
-        "by": "Coach Paul",
-        "vertical": false,
+        "title": "Positional Escapes - Reverse Kesa Gatame Side Control Escape",
         "channel": "Coach Paul - War Fork Jiu-Jitsu Academy",
-        "duration": 81,
-        "verified": "2026-07-15"
+        "duration": 80,
+        "vertical": false,
+        "front": true
       }
     ]
   }

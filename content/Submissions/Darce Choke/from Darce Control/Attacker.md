@@ -188,23 +188,11 @@ description: "Learn to finish the Darce Choke from established Darce Control. St
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Side Control D\u0027Arce Choke (No Gi)",
-      "description": "Darce Choke from Darce Control (Attacker) film study: Side Control D\u0027Arce Choke (No Gi), taught by ZombieProofBJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/ukb_hx28qsM/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/ukb_hx28qsM",
-      "url": "https://www.youtube.com/watch?v=ukb_hx28qsM",
-      "creator": { "@type": "Person", "name": "ZombieProofBJJ" },
-      "duration": "PT74S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Side control to north-south D\u0027Arce",
-      "description": "Darce Choke from Darce Control (Attacker) film study: Side control to north-south D\u0027Arce, taught by Gracie Westchase.",
+      "name": "Side control to north south D\u2019ARCE!!! #graciewestchase #jiujitsu #darce #bjj",
+      "description": "Darce Choke from Darce Control (Attacker) film study: Side control to north south D\u2019ARCE!!! #graciewestchase #jiujitsu #darce #bjj.",
       "thumbnailUrl": "https://i.ytimg.com/vi/22EYQ2uhxQw/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/22EYQ2uhxQw",
       "url": "https://www.youtube.com/watch?v=22EYQ2uhxQw",
-      "creator": { "@type": "Person", "name": "Gracie Westchase" },
       "duration": "PT75S"
     }
   ]
@@ -234,17 +222,9 @@ Attacking with the Darce Choke from Darce Control means you have already won the
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=ukb_hx28qsM)
-
-<p class="clip-credit"><strong>Side Control D&#39;Arce Choke (No Gi)</strong> — taught by ZombieProofBJJ · 1:14 · <a href="https://www.youtube.com/watch?v=ukb_hx28qsM" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=22EYQ2uhxQw)
 
-<p class="clip-credit"><strong>Side control to north-south D&#39;Arce</strong> — taught by Gracie Westchase · 1:15 · <a href="https://www.youtube.com/watch?v=22EYQ2uhxQw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Side control to north south D’ARCE!!! #graciewestchase #jiujitsu #darce #bjj</strong> · 1:15 · <a href="https://www.youtube.com/watch?v=22EYQ2uhxQw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

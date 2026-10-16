@@ -155,39 +155,6 @@ description: "Master Piranha Guard Top in BJJ. Complete guide covering passing s
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Piranha Guard (Top) \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "How To Pass Half Guard",
-      "description": "Piranha Guard (Top) film study: How To Pass Half Guard, taught by Jordan Teaches Jiujitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/GYq1cv9mCdg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/GYq1cv9mCdg",
-      "url": "https://www.youtube.com/watch?v=GYq1cv9mCdg",
-      "creator": { "@type": "Person", "name": "Jordan Teaches Jiujitsu" },
-      "duration": "PT426S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Passing the Half Guard No-Gi",
-      "description": "Piranha Guard (Top) film study: Passing the Half Guard No-Gi, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/qrlXfEOk_44/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/qrlXfEOk_44",
-      "url": "https://www.youtube.com/watch?v=qrlXfEOk_44",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT443S"
-    }
-  ]
-}
-</script>
-
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -200,32 +167,6 @@ The Piranha Guard Top position requires excellent grip fighting skills, strong b
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Piranha Guard (Top) in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=GYq1cv9mCdg)
-
-<p class="clip-credit"><strong>How To Pass Half Guard</strong> — taught by Jordan Teaches Jiujitsu · 7:06 · <a href="https://www.youtube.com/watch?v=GYq1cv9mCdg" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=qrlXfEOk_44)
-
-<p class="clip-credit"><strong>Passing the Half Guard No-Gi</strong> — taught by Lachlan Giles · 7:23 · <a href="https://www.youtube.com/watch?v=qrlXfEOk_44" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="state-invariants" class="content-section">

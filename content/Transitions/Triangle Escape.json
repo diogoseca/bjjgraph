@@ -382,31 +382,19 @@
     "safety_considerations": "Triangle escapes involve defending against a choke that restricts blood flow to the brain, making safety paramount. Never ignore signs of loss of consciousness including tunnel vision, ringing in ears, or feeling faint—tap immediately if these occur. During training, partners should monitor each other for color changes in face or eyes and release immediately if verbal tap is not possible. Aggressive stacking can cause neck and spine injuries to the person applying triangle, so control your pressure and avoid dropping full body weight suddenly. The can opener variant specifically can cause serious cervical spine injury and should only be practiced with experienced partners at controlled intensity. Newer practitioners should focus on early prevention rather than late-stage desperate escapes, as panic under choking pressure leads to injury-causing explosive movements. Always communicate with training partners about acceptable pressure levels and never train triangle escapes with partners significantly less experienced than yourself.",
     "clips": [
       {
-        "id": "dJOw0ZEyXXc",
-        "title": "Posture up escape from the triangle choke",
-        "by": "Cosens MMA",
-        "vertical": false,
-        "channel": "Cosens MMA LLC",
-        "duration": 73,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "wuu5WWcNfY0",
-        "title": "Beating the triangle when you posture up",
-        "by": "Simple JiuJitsu",
-        "vertical": false,
-        "channel": "Simple JiuJitsu",
-        "duration": 88,
-        "verified": "2026-07-15"
-      },
-      {
         "id": "MdsD3i8l3ao",
-        "title": "Triangle choke escape: knee in butt",
-        "by": "Mat Life Training Center",
-        "vertical": false,
+        "title": "Triangle Choke Escape #4 Knee in Butt",
         "channel": "Mat Life Training Center",
         "duration": 16,
-        "verified": "2026-07-15"
+        "vertical": false,
+        "front": true
+      },
+      {
+        "id": "dJOw0ZEyXXc",
+        "title": "Triangle choke from Guard \"Posture Up Escape",
+        "channel": "Cosens MMA LLC",
+        "duration": 73,
+        "vertical": false
       }
     ]
   },
@@ -586,31 +574,12 @@
     ],
     "clips": [
       {
-        "id": "M3_VDLm6PoE",
-        "title": "Finishing the triangle against good posture",
-        "by": "Inverted Gear",
-        "vertical": false,
-        "channel": "Inverted Gear",
-        "duration": 142,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "gY6xxakffp4",
-        "title": "Avoiding the stack while triangling",
-        "by": "Rituals Jiu Jitsu",
-        "vertical": false,
-        "channel": "Rituals Jiu Jitsu",
-        "duration": 162,
-        "verified": "2026-07-15"
-      },
-      {
         "id": "B4Vhf6atOBY",
-        "title": "Triangle stack defence",
-        "by": "Anton Minenko",
-        "vertical": false,
+        "title": "TRIANGLE STACK DEFENCE",
         "channel": "Anton Minenko BJJ",
-        "duration": 145,
-        "verified": "2026-07-15"
+        "duration": 144,
+        "vertical": false,
+        "front": true
       }
     ]
   },

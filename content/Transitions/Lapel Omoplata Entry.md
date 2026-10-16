@@ -36,39 +36,6 @@ description: "Master Lapel Omoplata Entry from Lapel Guard bottom. Complete guid
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Lapel Omoplata Entry \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Lapeloplata guard to lapeloplata sweep",
-      "description": "Lapel Omoplata Entry film study: Lapeloplata guard to lapeloplata sweep, taught by Street Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/GqeeDnherWw/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/GqeeDnherWw",
-      "url": "https://www.youtube.com/watch?v=GqeeDnherWw",
-      "creator": { "@type": "Person", "name": "Street Jitsu" },
-      "duration": "PT44S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Lapeloplata sweep demonstration",
-      "description": "Lapel Omoplata Entry film study: Lapeloplata sweep demonstration, taught by Moncaio Brothers.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/zCuJSvlosbA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/zCuJSvlosbA",
-      "url": "https://www.youtube.com/watch?v=zCuJSvlosbA",
-      "creator": { "@type": "Person", "name": "Moncaio Brothers" },
-      "duration": "PT25S"
-    }
-  ]
-}
-</script>
-
 
 
 <script type="application/ld+json">
@@ -107,32 +74,6 @@ Strategically, this entry creates a true dilemma for the top player. When threat
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Lapel Omoplata Entry in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=GqeeDnherWw)
-
-<p class="clip-credit"><strong>Lapeloplata guard to lapeloplata sweep</strong> — taught by Street Jitsu · 0:44 · <a href="https://www.youtube.com/watch?v=GqeeDnherWw" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=zCuJSvlosbA)
-
-<p class="clip-credit"><strong>Lapeloplata sweep demonstration</strong> — taught by Moncaio Brothers · 0:25 · <a href="https://www.youtube.com/watch?v=zCuJSvlosbA" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="possible-outcomes" class="content-section">

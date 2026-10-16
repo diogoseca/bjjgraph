@@ -395,35 +395,7 @@
       }
     ],
     "safety_considerations": "Guard pull from combat base carries low injury risk compared to most BJJ transitions, but practitioners should observe several safety considerations. Avoid explosive jerking movements when breaking posture, as sudden neck loading can cause cervical strain in your training partner. When closing guard, ensure ankle crossing is at the lower back rather than directly on the spine to prevent uncomfortable vertebral pressure. If the opponent resists guard closure by driving forward aggressively, do not fight the pass with straight locked-out arms as this risks elbow hyperextension. During drilling, communicate with your partner about pressure levels and release immediately if either person experiences sharp pain in the neck, lower back, or knees. Beginners should practice at slow speeds to develop proper mechanics before adding resistance.",
-    "clips": [
-      {
-        "id": "CI1w02grvCs",
-        "title": "Pulling closed guard",
-        "by": "Team Daruma Dojo",
-        "vertical": false,
-        "channel": "Team Daruma Dojo",
-        "duration": 44,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "FWGgMhm0z3Q",
-        "title": "Explanation of Combat Base",
-        "by": "BJJSchool101",
-        "vertical": false,
-        "channel": "BJJSchool101",
-        "duration": 147,
-        "verified": "2026-07-16"
-      },
-      {
-        "id": "kQDj3mFVIc0",
-        "title": "Easy Sweep When Opponent Goes to Combat Base",
-        "by": "Double Gold BJJ",
-        "vertical": false,
-        "channel": "Double Gold",
-        "duration": 55,
-        "verified": "2026-07-16"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Pull Guard from Combat Base Defender",
@@ -586,25 +558,6 @@
         "description": "Three-minute positional rounds starting with defender in combat base. Bottom player attempts guard closure by any means while top player defends closure and attempts to pass. Both at full competition intensity. Reset and restart if guard closes successfully or pass completes to side control."
       }
     ],
-    "clips": [
-      {
-        "id": "njy6DpglJTU",
-        "title": "How to Avoid Getting Pulled into Closed Guard",
-        "by": "Ffion Davies",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 430,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "URGwWYwdoAs",
-        "title": "Guard Retention and Avoiding the Guard Pull Trap",
-        "by": "Gordon Ryan",
-        "vertical": false,
-        "channel": "Bernardo Faria BJJ Fanatics",
-        "duration": 782,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

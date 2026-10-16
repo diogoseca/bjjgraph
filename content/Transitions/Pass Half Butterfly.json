@@ -383,30 +383,25 @@
     "clips": [
       {
         "id": "LIITsrlsAaI",
-        "title": "Passing Half Butterfly Guard",
-        "by": "Morto BJJ",
-        "vertical": false,
+        "title": "Passing half butterfly guard",
         "channel": "Morto BJJ",
         "duration": 70,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "Pk_6CrydIRQ",
-        "title": "Half Butterfly Guard Pass for No-Gi",
-        "by": "Factory Fresh Jiu Jitsu",
         "vertical": false,
-        "channel": "Factory Fresh Jiu Jitsu",
-        "duration": 110,
-        "verified": "2026-07-15"
+        "front": true
       },
       {
         "id": "FyQToVSEOKk",
-        "title": "Half Butterfly Guard Passing",
-        "by": "Michael Hoffman",
-        "vertical": false,
+        "title": "Half butterfly guard passing",
         "channel": "Michael Hoffman",
         "duration": 94,
-        "verified": "2026-07-15"
+        "vertical": false
+      },
+      {
+        "id": "Pk_6CrydIRQ",
+        "title": "Effective Half Butterfly Guard Pass for NoGi #nogi #bjj #jiujitsu",
+        "channel": "Factory Fresh Jiu Jitsu",
+        "duration": 109,
+        "vertical": false
       }
     ]
   },
@@ -590,25 +585,6 @@
         "description": "Positional sparring from half butterfly bottom with full resistance. Score points for successful sweeps, guard retention beyond two minutes, or transitions to offensive guard positions. Develop composure and reliable defensive responses under competitive pressure and fatigue."
       }
     ],
-    "clips": [
-      {
-        "id": "ADwKEjvhX-U",
-        "title": "Butterfly Guard Framing and Retention Concepts",
-        "by": "ZeGrapplez",
-        "vertical": false,
-        "channel": "ZeGrapplez",
-        "duration": 62,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "uH2MxHMNDo0",
-        "title": "Half Butterfly: Entering The Trade Off a Failed Sweep",
-        "by": "Revolution BJJ",
-        "vertical": false,
-        "channel": "Revolution BJJ",
-        "duration": 74,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

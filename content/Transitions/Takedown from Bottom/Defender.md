@@ -160,35 +160,12 @@ description: "Defend takedown attempts from standing in BJJ. Complete guide cove
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Sprawl technique to stop the takedown",
-      "description": "Takedown from Bottom (Defender) film study: Sprawl technique to stop the takedown, taught by Jordan Burroughs.",
+      "name": "Jordan Burroughs: Sprawl Technique",
+      "description": "Takedown from Bottom (Defender) film study: Jordan Burroughs: Sprawl Technique.",
       "thumbnailUrl": "https://i.ytimg.com/vi/LiRrlPGboK8/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/LiRrlPGboK8",
       "url": "https://www.youtube.com/watch?v=LiRrlPGboK8",
-      "creator": { "@type": "Person", "name": "Jordan Burroughs" },
       "duration": "PT122S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Sprawling to stop the shot and counter",
-      "description": "Takedown from Bottom (Defender) film study: Sprawling to stop the shot and counter, taught by WrestlingTournaments.com.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/RKRfwAAw1Gs/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/RKRfwAAw1Gs",
-      "url": "https://www.youtube.com/watch?v=RKRfwAAw1Gs",
-      "creator": { "@type": "Person", "name": "WrestlingTournaments.com" },
-      "duration": "PT75S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Sprawling on a double leg",
-      "description": "Takedown from Bottom (Defender) film study: Sprawling on a double leg, taught by WrestlingTournaments.com.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/q_jaym269dU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/q_jaym269dU",
-      "url": "https://www.youtube.com/watch?v=q_jaym269dU",
-      "creator": { "@type": "Person", "name": "WrestlingTournaments.com" },
-      "duration": "PT145S"
     }
   ]
 }
@@ -218,23 +195,7 @@ Defending a takedown attempt from a standing opponent requires early recognition
 
 ![](https://www.youtube.com/watch?v=LiRrlPGboK8)
 
-<p class="clip-credit"><strong>Sprawl technique to stop the takedown</strong> — taught by Jordan Burroughs · 2:02 · <a href="https://www.youtube.com/watch?v=LiRrlPGboK8" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=RKRfwAAw1Gs)
-
-<p class="clip-credit"><strong>Sprawling to stop the shot and counter</strong> — taught by WrestlingTournaments.com · 1:15 · <a href="https://www.youtube.com/watch?v=RKRfwAAw1Gs" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=q_jaym269dU)
-
-<p class="clip-credit"><strong>Sprawling on a double leg</strong> — taught by WrestlingTournaments.com · 2:25 · <a href="https://www.youtube.com/watch?v=q_jaym269dU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Jordan Burroughs: Sprawl Technique</strong> · 2:02 · <a href="https://www.youtube.com/watch?v=LiRrlPGboK8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

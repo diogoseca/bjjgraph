@@ -139,34 +139,31 @@ description: "How to defend the Double Unders entry from Open Guard bottom in BJ
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Simple double under guard pass defense",
-      "description": "Open Guard to Double Unders (Defender) film study: Simple double under guard pass defense, taught by Ancient City Martial Arts.",
+      "name": "Jiu-Jitsu SUPER EASY double under guard pass defense!",
+      "description": "Open Guard to Double Unders (Defender) film study: Jiu-Jitsu SUPER EASY double under guard pass defense!.",
       "thumbnailUrl": "https://i.ytimg.com/vi/4k-D0Q8DeGQ/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/4k-D0Q8DeGQ",
       "url": "https://www.youtube.com/watch?v=4k-D0Q8DeGQ",
-      "creator": { "@type": "Person", "name": "Ancient City Martial Arts" },
       "duration": "PT56S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Double under stack pass counter to triangle",
-      "description": "Open Guard to Double Unders (Defender) film study: Double under stack pass counter to triangle, taught by Adam Bradley.",
+      "name": "Double Under Stack Pass Counter - Triangle",
+      "description": "Open Guard to Double Unders (Defender) film study: Double Under Stack Pass Counter - Triangle.",
       "thumbnailUrl": "https://i.ytimg.com/vi/1UOj60dc540/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/1UOj60dc540",
       "url": "https://www.youtube.com/watch?v=1UOj60dc540",
-      "creator": { "@type": "Person", "name": "Adam Bradley" },
-      "duration": "PT69S"
+      "duration": "PT68S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "Double under stack defense and counter",
-      "description": "Open Guard to Double Unders (Defender) film study: Double under stack defense and counter, taught by Wim Deputter.",
+      "name": "Very Effective Double Under Stack Defense And Counter",
+      "description": "Open Guard to Double Unders (Defender) film study: Very Effective Double Under Stack Defense And Counter.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Ad0qtay9IVQ/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Ad0qtay9IVQ",
       "url": "https://www.youtube.com/watch?v=Ad0qtay9IVQ",
-      "creator": { "@type": "Person", "name": "Wim Deputter" },
       "duration": "PT130S"
     }
   ]
@@ -204,7 +201,7 @@ If the stack is already forming, shift to escape-oriented defense rather than pu
 
 ![](https://www.youtube.com/watch?v=4k-D0Q8DeGQ)
 
-<p class="clip-credit"><strong>Simple double under guard pass defense</strong> — taught by Ancient City Martial Arts · 0:56 · <a href="https://www.youtube.com/watch?v=4k-D0Q8DeGQ" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Jiu-Jitsu SUPER EASY double under guard pass defense!</strong> · 0:56 · <a href="https://www.youtube.com/watch?v=4k-D0Q8DeGQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -212,7 +209,7 @@ If the stack is already forming, shift to escape-oriented defense rather than pu
 
 ![](https://www.youtube.com/watch?v=1UOj60dc540)
 
-<p class="clip-credit"><strong>Double under stack pass counter to triangle</strong> — taught by Adam Bradley · 1:09 · <a href="https://www.youtube.com/watch?v=1UOj60dc540" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Double Under Stack Pass Counter - Triangle</strong> · 1:08 · <a href="https://www.youtube.com/watch?v=1UOj60dc540" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -220,7 +217,7 @@ If the stack is already forming, shift to escape-oriented defense rather than pu
 
 ![](https://www.youtube.com/watch?v=Ad0qtay9IVQ)
 
-<p class="clip-credit"><strong>Double under stack defense and counter</strong> — taught by Wim Deputter · 2:10 · <a href="https://www.youtube.com/watch?v=Ad0qtay9IVQ" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Very Effective Double Under Stack Defense And Counter</strong> · 2:10 · <a href="https://www.youtube.com/watch?v=Ad0qtay9IVQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

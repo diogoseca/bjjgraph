@@ -46,24 +46,12 @@ description: "Master the Knee Slice from Z-Guard in BJJ. Complete guide covering
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "No-gi knee cut pass",
-      "description": "Knee Slice from Z-Guard film study: No-gi knee cut pass, taught by Daniel Frank.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/qjnhpw1lijU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/qjnhpw1lijU",
-      "url": "https://www.youtube.com/watch?v=qjnhpw1lijU",
-      "creator": { "@type": "Person", "name": "Daniel Frank" },
-      "duration": "PT44S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Passing the Z-guard",
-      "description": "Knee Slice from Z-Guard film study: Passing the Z-guard, taught by Zachary Maslany.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/bvyNozyr7Ow/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/bvyNozyr7Ow",
-      "url": "https://www.youtube.com/watch?v=bvyNozyr7Ow",
-      "creator": { "@type": "Person", "name": "Zachary Maslany" },
-      "duration": "PT177S"
+      "name": "Z Guard//counter to knee slide attempt//dannybrownbjj",
+      "description": "Knee Slice from Z-Guard film study: Z Guard//counter to knee slide attempt//dannybrownbjj.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wZ-QdL6wPPI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/wZ-QdL6wPPI",
+      "url": "https://www.youtube.com/watch?v=wZ-QdL6wPPI",
+      "duration": "PT142S"
     }
   ]
 }
@@ -117,17 +105,9 @@ Strategically, this technique occupies a central role in the top player's half g
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=qjnhpw1lijU)
+![](https://www.youtube.com/watch?v=wZ-QdL6wPPI)
 
-<p class="clip-credit"><strong>No-gi knee cut pass</strong> — taught by Daniel Frank · 0:44 · <a href="https://www.youtube.com/watch?v=qjnhpw1lijU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=bvyNozyr7Ow)
-
-<p class="clip-credit"><strong>Passing the Z-guard</strong> — taught by Zachary Maslany · 2:57 · <a href="https://www.youtube.com/watch?v=bvyNozyr7Ow" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Z Guard//counter to knee slide attempt//dannybrownbjj</strong> · 2:22 · <a href="https://www.youtube.com/watch?v=wZ-QdL6wPPI" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

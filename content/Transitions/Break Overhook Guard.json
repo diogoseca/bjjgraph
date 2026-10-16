@@ -396,21 +396,11 @@
     "clips": [
       {
         "id": "58LkTy6v3KQ",
-        "title": "Breaking the overhook clamp from closed guard",
-        "by": "The Grappling Bloke",
-        "vertical": false,
+        "title": "Closed Guard Defense and Counter to the Clamp (Over Hook Position)",
         "channel": "The Grappling Bloke",
-        "duration": 109,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "21-ZmD25pMs",
-        "title": "Overhook escape and half guard sweep",
-        "by": "JiuJitsu.com",
+        "duration": 108,
         "vertical": false,
-        "channel": "JiuJitsu.com",
-        "duration": 197,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },
@@ -575,25 +565,6 @@
         "description": "Start from situations where the overhook is partially compromised (shallow grip, opponent has wrist control). Practice recovering full overhook depth or transitioning to alternative attacks when the overhook is being lost. Builds adaptability for real competition scenarios where positions are rarely perfect."
       }
     ],
-    "clips": [
-      {
-        "id": "8mXBDHXrAu4",
-        "title": "Whizzer from half guard: winning the dogfight",
-        "by": "Wrecking Crew BJJ",
-        "vertical": false,
-        "channel": "Wrecking Crew BJJ",
-        "duration": 60,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "gE-B0IMK1CI",
-        "title": "Scissor sweep from overhook closed guard",
-        "by": "Cobrinha",
-        "vertical": false,
-        "channel": "Cobrinha Brazilian Jiu-Jitsu & Fitness",
-        "duration": 130,
-        "verified": "2026-07-16"
-      }
-    ]
+    "clips": []
   }
 }

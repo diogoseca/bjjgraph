@@ -46,35 +46,32 @@ description: "Master the Americana shoulder lock from North-South position. Comp
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "North South Kimura to Americana",
-      "description": "Americana from North-South film study: North South Kimura to Americana, taught by PAC Enumclaw.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/eBD320q32IA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/eBD320q32IA",
-      "url": "https://www.youtube.com/watch?v=eBD320q32IA",
-      "creator": { "@type": "Person", "name": "PAC Enumclaw" },
-      "duration": "PT79S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
       "name": "North South Americana",
-      "description": "Americana from North-South film study: North South Americana, taught by Cauliflower Ear Family.",
+      "description": "Americana from North-South film study: North South Americana.",
       "thumbnailUrl": "https://i.ytimg.com/vi/xwp0G1-2p-Q/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/xwp0G1-2p-Q",
       "url": "https://www.youtube.com/watch?v=xwp0G1-2p-Q",
-      "creator": { "@type": "Person", "name": "Cauliflower Ear Family" },
       "duration": "PT165S"
     },
     {
       "@type": "VideoObject",
-      "position": 3,
+      "position": 2,
       "name": "North South to Americana",
-      "description": "Americana from North-South film study: North South to Americana, taught by Fenrir Thorvaldsen.",
+      "description": "Americana from North-South film study: North South to Americana.",
       "thumbnailUrl": "https://i.ytimg.com/vi/nbiGqgXoYxE/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/nbiGqgXoYxE",
       "url": "https://www.youtube.com/watch?v=nbiGqgXoYxE",
-      "creator": { "@type": "Person", "name": "Fenrir Thorvaldsen" },
       "duration": "PT177S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "North South Kimura to Americana",
+      "description": "Americana from North-South film study: North South Kimura to Americana.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/eBD320q32IA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/eBD320q32IA",
+      "url": "https://www.youtube.com/watch?v=eBD320q32IA",
+      "duration": "PT78S"
     }
   ]
 }
@@ -137,17 +134,9 @@ Strategically, this submission functions as a natural chain attack from North-So
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=eBD320q32IA)
-
-<p class="clip-credit"><strong>North South Kimura to Americana</strong> — taught by PAC Enumclaw · 1:19 · <a href="https://www.youtube.com/watch?v=eBD320q32IA" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=xwp0G1-2p-Q)
 
-<p class="clip-credit"><strong>North South Americana</strong> — taught by Cauliflower Ear Family · 2:45 · <a href="https://www.youtube.com/watch?v=xwp0G1-2p-Q" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>North South Americana</strong> · 2:45 · <a href="https://www.youtube.com/watch?v=xwp0G1-2p-Q" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -155,7 +144,15 @@ Strategically, this submission functions as a natural chain attack from North-So
 
 ![](https://www.youtube.com/watch?v=nbiGqgXoYxE)
 
-<p class="clip-credit"><strong>North South to Americana</strong> — taught by Fenrir Thorvaldsen · 2:57 · <a href="https://www.youtube.com/watch?v=nbiGqgXoYxE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>North South to Americana</strong> · 2:57 · <a href="https://www.youtube.com/watch?v=nbiGqgXoYxE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=eBD320q32IA)
+
+<p class="clip-credit"><strong>North South Kimura to Americana</strong> · 1:18 · <a href="https://www.youtube.com/watch?v=eBD320q32IA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

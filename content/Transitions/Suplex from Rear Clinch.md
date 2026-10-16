@@ -46,24 +46,22 @@ description: "Master the Suplex from Rear Clinch in BJJ. High-impact takedown co
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Belly to belly suplex from the rear body lock",
-      "description": "Suplex from Rear Clinch film study: Belly to belly suplex from the rear body lock, taught by Pat Downey.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/7wQOgSA4eXE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/7wQOgSA4eXE",
-      "url": "https://www.youtube.com/watch?v=7wQOgSA4eXE",
-      "creator": { "@type": "Person", "name": "Pat Downey" },
-      "duration": "PT272S"
+      "name": "Foundations Rear Body Lock Defense 4: Suplex defense",
+      "description": "Suplex from Rear Clinch film study: Foundations Rear Body Lock Defense 4: Suplex defense.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/LXn4w_Gq8a4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/LXn4w_Gq8a4",
+      "url": "https://www.youtube.com/watch?v=LXn4w_Gq8a4",
+      "duration": "PT78S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Body lock takedown from the clinch",
-      "description": "Suplex from Rear Clinch film study: Body lock takedown from the clinch, taught by James Johnson.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/iWYGLiFAiT4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/iWYGLiFAiT4",
-      "url": "https://www.youtube.com/watch?v=iWYGLiFAiT4",
-      "creator": { "@type": "Person", "name": "James Johnson" },
-      "duration": "PT162S"
+      "name": "5 Ways to Defend the Suplex",
+      "description": "Suplex from Rear Clinch film study: 5 Ways to Defend the Suplex.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gbTSgq2M4ns/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/gbTSgq2M4ns",
+      "url": "https://www.youtube.com/watch?v=gbTSgq2M4ns",
+      "duration": "PT279S"
     }
   ]
 }
@@ -117,17 +115,17 @@ The suplex demands significant attention to safety protocols in training, as the
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=7wQOgSA4eXE)
+![](https://www.youtube.com/watch?v=LXn4w_Gq8a4)
 
-<p class="clip-credit"><strong>Belly to belly suplex from the rear body lock</strong> — taught by Pat Downey · 4:32 · <a href="https://www.youtube.com/watch?v=7wQOgSA4eXE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Foundations Rear Body Lock Defense 4: Suplex defense</strong> · 1:18 · <a href="https://www.youtube.com/watch?v=LXn4w_Gq8a4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=iWYGLiFAiT4)
+![](https://www.youtube.com/watch?v=gbTSgq2M4ns)
 
-<p class="clip-credit"><strong>Body lock takedown from the clinch</strong> — taught by James Johnson · 2:42 · <a href="https://www.youtube.com/watch?v=iWYGLiFAiT4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>5 Ways to Defend the Suplex</strong> · 4:39 · <a href="https://www.youtube.com/watch?v=gbTSgq2M4ns" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

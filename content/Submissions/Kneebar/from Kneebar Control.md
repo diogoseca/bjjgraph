@@ -46,35 +46,22 @@ description: "Master the kneebar finish from kneebar control in BJJ. Step-by-ste
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Dog Bar Kneebar Finish",
-      "description": "Kneebar from Kneebar Control film study: Dog Bar Kneebar Finish, taught by Craig Jones.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/vMqDIi10z4k/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/vMqDIi10z4k",
-      "url": "https://www.youtube.com/watch?v=vMqDIi10z4k",
-      "creator": { "@type": "Person", "name": "Craig Jones" },
-      "duration": "PT61S"
+      "name": "Master the Standing Grapevine to Kneebar | Billy Robinson\u2019s Catch Wrestling\u2026",
+      "description": "Kneebar from Kneebar Control film study: Master the Standing Grapevine to Kneebar | Billy Robinson\u2019s Catch Wrestling\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/NzkSekbRmZ4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/NzkSekbRmZ4",
+      "url": "https://www.youtube.com/watch?v=NzkSekbRmZ4",
+      "duration": "PT63S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Go Behind Kneebar",
-      "description": "Kneebar from Kneebar Control film study: Go Behind Kneebar, taught by Craig Jones.",
+      "name": "Go Behind Kneebar by Craig Jones",
+      "description": "Kneebar from Kneebar Control film study: Go Behind Kneebar by Craig Jones.",
       "thumbnailUrl": "https://i.ytimg.com/vi/v4lhLkKgVvU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/v4lhLkKgVvU",
       "url": "https://www.youtube.com/watch?v=v4lhLkKgVvU",
-      "creator": { "@type": "Person", "name": "Craig Jones" },
       "duration": "PT129S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Standing Grapevine to Kneebar",
-      "description": "Kneebar from Kneebar Control film study: Standing Grapevine to Kneebar, taught by Scientific Wrestling.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/NzkSekbRmZ4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/NzkSekbRmZ4",
-      "url": "https://www.youtube.com/watch?v=NzkSekbRmZ4",
-      "creator": { "@type": "Person", "name": "Scientific Wrestling" },
-      "duration": "PT63S"
     }
   ]
 }
@@ -137,9 +124,9 @@ Strategically, the kneebar from kneebar control functions as the terminal submis
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=vMqDIi10z4k)
+![](https://www.youtube.com/watch?v=NzkSekbRmZ4)
 
-<p class="clip-credit"><strong>Dog Bar Kneebar Finish</strong> — taught by Craig Jones · 1:01 · <a href="https://www.youtube.com/watch?v=vMqDIi10z4k" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Master the Standing Grapevine to Kneebar | Billy Robinson’s Catch Wrestling…</strong> · 1:03 · <a href="https://www.youtube.com/watch?v=NzkSekbRmZ4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -147,15 +134,7 @@ Strategically, the kneebar from kneebar control functions as the terminal submis
 
 ![](https://www.youtube.com/watch?v=v4lhLkKgVvU)
 
-<p class="clip-credit"><strong>Go Behind Kneebar</strong> — taught by Craig Jones · 2:09 · <a href="https://www.youtube.com/watch?v=v4lhLkKgVvU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=NzkSekbRmZ4)
-
-<p class="clip-credit"><strong>Standing Grapevine to Kneebar</strong> — taught by Scientific Wrestling · 1:03 · <a href="https://www.youtube.com/watch?v=NzkSekbRmZ4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Go Behind Kneebar by Craig Jones</strong> · 2:09 · <a href="https://www.youtube.com/watch?v=v4lhLkKgVvU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

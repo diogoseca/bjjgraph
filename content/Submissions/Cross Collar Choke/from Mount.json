@@ -439,31 +439,26 @@
     ],
     "clips": [
       {
-        "id": "dfP-Ov8FBUo",
-        "title": "Cross Collar Chokes breakdown",
-        "by": "Roger Gracie",
+        "id": "pXcCvjwjPHw",
+        "title": "Cross Collar Choke from Mount with Chad Lyman",
+        "channel": "Rich Castro",
+        "duration": 55,
         "vertical": false,
-        "channel": "Jiu Jitsu Moves",
-        "duration": 80,
-        "verified": "2026-07-14"
+        "front": true
       },
       {
         "id": "wA1QP2bpENA",
-        "title": "Finishing the cross choke from mount",
-        "by": "Saulo Ribeiro",
-        "vertical": false,
+        "title": "How To Finish From Mount With The Cross Choke By BJJ Legend SAULO RIBEIRO",
         "channel": "Riccardo Ammendolia",
-        "duration": 112,
-        "verified": "2026-07-14"
+        "duration": 111,
+        "vertical": false
       },
       {
         "id": "DrAxA8KUxbo",
-        "title": "Palm-up palm-up cross choke (Helio variation)",
-        "by": "Avant-Garde BJJ",
-        "vertical": false,
+        "title": "Palm up Palm up CROSS CHOKE BJJ | Helio Gracie Variation",
         "channel": "Avant-Garde BJJ",
         "duration": 61,
-        "verified": "2026-07-14"
+        "vertical": false
       }
     ]
   },
@@ -647,30 +642,18 @@
     "clips": [
       {
         "id": "6rMCDkWRlgg",
-        "title": "Cross collar choke defense: down and over",
-        "by": "Emil Takeuchi",
-        "vertical": false,
+        "title": "Cross Collar Choke Defense Part 1: “Down and Over”",
         "channel": "Six Blades NOVA Emil Takeuchi",
-        "duration": 94,
-        "verified": "2026-07-14"
+        "duration": 93,
+        "vertical": false,
+        "front": true
       },
       {
         "id": "be-iHHhJGng",
-        "title": "Juji Jime escape: cross collar choke defense",
-        "by": "Peter Mettler",
-        "vertical": false,
+        "title": "Juji Jime Escape - Cross Collar Choke Defense - Advanced BJJ",
         "channel": "Peter Mettler Martial Arts",
         "duration": 130,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "tl4kP4edemE",
-        "title": "Great way to escape the collar choke from mount",
-        "by": "Todd Margolis",
-        "vertical": false,
-        "channel": "Bernardo Faria BJJ Fanatics",
-        "duration": 246,
-        "verified": "2026-07-14"
+        "vertical": false
       }
     ]
   }

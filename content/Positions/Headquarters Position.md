@@ -37,39 +37,6 @@ description: "Master Headquarters Position in BJJ. Strategic passing control pos
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Headquarters Position \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Passing a Seated Guard With Underhooks",
-      "description": "Headquarters Position film study: Passing a Seated Guard With Underhooks, taught by John Danaher.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/zT3JjOR838w/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/zT3JjOR838w",
-      "url": "https://www.youtube.com/watch?v=zT3JjOR838w",
-      "creator": { "@type": "Person", "name": "John Danaher" },
-      "duration": "PT143S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Gordon Ryan Style Guard Pass",
-      "description": "Headquarters Position film study: Gordon Ryan Style Guard Pass, taught by Danny Brown.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/ACWzSbjbo2g/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/ACWzSbjbo2g",
-      "url": "https://www.youtube.com/watch?v=ACWzSbjbo2g",
-      "creator": { "@type": "Person", "name": "Danny Brown" },
-      "duration": "PT209S"
-    }
-  ]
-}
-</script>
-
 
 
 <script type="application/ld+json">
@@ -108,32 +75,6 @@ This position represents a fundamental evolution in guard passing theory, moving
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Headquarters Position in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=zT3JjOR838w)
-
-<p class="clip-credit"><strong>Passing a Seated Guard With Underhooks</strong> — taught by John Danaher · 2:23 · <a href="https://www.youtube.com/watch?v=zT3JjOR838w" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=ACWzSbjbo2g)
-
-<p class="clip-credit"><strong>Gordon Ryan Style Guard Pass</strong> — taught by Danny Brown · 3:29 · <a href="https://www.youtube.com/watch?v=ACWzSbjbo2g" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="key-principles" class="content-section">

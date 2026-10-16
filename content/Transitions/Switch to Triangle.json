@@ -399,30 +399,18 @@
     "clips": [
       {
         "id": "z49W3g4M6vM",
-        "title": "Closed Guard Omoplata to Triangle Choke",
-        "by": "Ritchie Yip",
-        "vertical": false,
+        "title": "Closed Guard Omoplata To Triangle Choke",
         "channel": "Ritchie Yip",
         "duration": 34,
-        "verified": "2026-07-15"
+        "vertical": false,
+        "front": true
       },
       {
         "id": "6cCiEfzsmNI",
-        "title": "Switching to the triangle off a failed armbar",
-        "by": "BJJ After Forty",
-        "vertical": false,
+        "title": "Triangle Choke Transition off Arm Bar from guard",
         "channel": "BJJ After Forty",
         "duration": 37,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "_hxa6n1dxKM",
-        "title": "Armbar, omoplata and triangle chain from closed guard",
-        "by": "MMA Leech",
-        "vertical": false,
-        "channel": "MMA Leech",
-        "duration": 283,
-        "verified": "2026-07-15"
+        "vertical": false
       }
     ]
   },
@@ -590,21 +578,18 @@
     "clips": [
       {
         "id": "HLWwfq8FNMI",
-        "title": "Triangle Choke Escape: Hips Down, Posture Up",
-        "by": "Mat Life Training Center",
-        "vertical": false,
+        "title": "Triangle Choke Escape #3 Hips Down, Posture Up",
         "channel": "Mat Life Training Center",
-        "duration": 19,
-        "verified": "2026-07-15"
+        "duration": 18,
+        "vertical": false,
+        "front": true
       },
       {
         "id": "dJOw0ZEyXXc",
-        "title": "Triangle Choke from Guard: Posture Up Escape",
-        "by": "Cosens MMA",
-        "vertical": false,
+        "title": "Triangle choke from Guard \"Posture Up Escape",
         "channel": "Cosens MMA LLC",
         "duration": 73,
-        "verified": "2026-07-15"
+        "vertical": false
       }
     ]
   },

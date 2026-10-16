@@ -456,31 +456,19 @@
     ],
     "clips": [
       {
-        "id": "8tdVE2zgjXw",
-        "title": "Details on Finishing the Rear Naked Choke",
-        "by": "Craig Jones",
+        "id": "3H5ZyHEHfpI",
+        "title": "TMG Clips #9 - RNC Details From Seatbelt",
+        "channel": "TeachMeGrappling Coach Brian",
+        "duration": 133,
         "vertical": false,
+        "front": true
+      },
+      {
+        "id": "8tdVE2zgjXw",
+        "title": "Craig Jones: details on finishing the rear naked choke",
         "channel": "Wrecking Crew BJJ",
         "duration": 57,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "70jECxFfCSA",
-        "title": "Rear Naked Choke from the Back",
-        "by": "Gordon Ryan",
-        "vertical": false,
-        "channel": "Control Jiu JItsu",
-        "duration": 73,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "eMbkVDRreIQ",
-        "title": "3 Favorite Jiu-Jitsu Chokes from the Back",
-        "by": "Matt Arroyo",
-        "vertical": false,
-        "channel": "Matt Arroyo Jiu Jitsu ",
-        "duration": 87,
-        "verified": "2026-07-14"
+        "vertical": false
       }
     ]
   },
@@ -672,21 +660,10 @@
     "clips": [
       {
         "id": "ylLO80PM4zg",
-        "title": "Rear Naked Choke Escape",
-        "by": "Renato Migliaccio",
-        "vertical": false,
+        "title": "Rear naked choke escape",
         "channel": "Renato Migliaccio",
         "duration": 16,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "Cwry6GEfi8I",
-        "title": "Rear Naked Choke Defense on the Ground",
-        "by": "Jiu Jitsu Cop",
-        "vertical": false,
-        "channel": "Jiu Jitsu Cop",
-        "duration": 98,
-        "verified": "2026-07-14"
+        "vertical": false
       }
     ]
   }

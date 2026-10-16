@@ -536,25 +536,6 @@
         "description": "Positional sparring starting from Half Guard with partner attempting to establish Pocket Half Guard. Defender uses all available tools against full resistance. Success measured by preventing the transition or recovering within 30 seconds if it is established. Partner chains the transition with passing attempts for realistic pressure."
       }
     ],
-    "clips": [
-      {
-        "id": "h26GaRXjSHo",
-        "title": "Countering the underhook in half guard",
-        "by": "Revolution Fitness Center",
-        "vertical": false,
-        "channel": "Revolution Fitness Center",
-        "duration": 55,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "dOdO6xJ-TcU",
-        "title": "Stopping the half guard underhook",
-        "by": "Malachy Friedman",
-        "vertical": false,
-        "channel": "Malachy Friedman",
-        "duration": 98,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

@@ -960,22 +960,12 @@
     ],
     "clips": [
       {
-        "id": "_sBB-O8fqP4",
-        "title": "Standing Up from Back Control",
-        "by": "Priit Mihkelson",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
+        "id": "Wga4PfuShEg",
+        "title": "Back Control (Defending) Seatbelt Grip",
+        "channel": "Academy Jiu Jitsu",
         "duration": 114,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "_1jEnlqZgS0",
-        "title": "Makikomi Roll vs Seat Belt/Harness",
-        "by": "Corey McWilliams",
         "vertical": false,
-        "channel": "Corey McWilliams",
-        "duration": 264,
-        "verified": "2026-07-14"
+        "front": true
       }
     ]
   },

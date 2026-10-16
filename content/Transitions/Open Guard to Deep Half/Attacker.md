@@ -180,35 +180,12 @@ description: "How to execute Open Guard to Deep Half in BJJ. Attacking perspecti
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Low grip and high grip for deep half guard",
-      "description": "Open Guard to Deep Half (Attacker) film study: Low grip and high grip for deep half guard, taught by Jeff Glover.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/_IGB9jEvXfo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/_IGB9jEvXfo",
-      "url": "https://www.youtube.com/watch?v=_IGB9jEvXfo",
-      "creator": { "@type": "Person", "name": "Jeff Glover" },
-      "duration": "PT42S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Deep half guard sweep",
-      "description": "Open Guard to Deep Half (Attacker) film study: Deep half guard sweep, taught by Kyle Dimmitt.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/ZQzg3TnzMJI/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/ZQzg3TnzMJI",
-      "url": "https://www.youtube.com/watch?v=ZQzg3TnzMJI",
-      "creator": { "@type": "Person", "name": "Kyle Dimmitt" },
-      "duration": "PT42S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Deep half guard entry from knee on belly",
-      "description": "Open Guard to Deep Half (Attacker) film study: Deep half guard entry from knee on belly, taught by Team Daruma Dojo.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Dalv3UtxCZ0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Dalv3UtxCZ0",
-      "url": "https://www.youtube.com/watch?v=Dalv3UtxCZ0",
-      "creator": { "@type": "Person", "name": "Team Daruma Dojo" },
-      "duration": "PT68S"
+      "name": "Knee Slide Pass Counter to Deep Half Guard Entry",
+      "description": "Open Guard to Deep Half (Attacker) film study: Knee Slide Pass Counter to Deep Half Guard Entry.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/K0XMj9BNJ8U/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/K0XMj9BNJ8U",
+      "url": "https://www.youtube.com/watch?v=K0XMj9BNJ8U",
+      "duration": "PT133S"
     }
   ]
 }
@@ -238,25 +215,9 @@ This transition emphasizes proper hip movement, head positioning, and timing to 
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=_IGB9jEvXfo)
+![](https://www.youtube.com/watch?v=K0XMj9BNJ8U)
 
-<p class="clip-credit"><strong>Low grip and high grip for deep half guard</strong> — taught by Jeff Glover · 0:42 · <a href="https://www.youtube.com/watch?v=_IGB9jEvXfo" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=ZQzg3TnzMJI)
-
-<p class="clip-credit"><strong>Deep half guard sweep</strong> — taught by Kyle Dimmitt · 0:42 · <a href="https://www.youtube.com/watch?v=ZQzg3TnzMJI" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=Dalv3UtxCZ0)
-
-<p class="clip-credit"><strong>Deep half guard entry from knee on belly</strong> — taught by Team Daruma Dojo · 1:08 · <a href="https://www.youtube.com/watch?v=Dalv3UtxCZ0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Knee Slide Pass Counter to Deep Half Guard Entry</strong> · 2:13 · <a href="https://www.youtube.com/watch?v=K0XMj9BNJ8U" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -142,39 +142,6 @@ description: "Defend against the Escape from Reverse Half Guard in BJJ. Learn to
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Escape Reverse Half Guard (Defender) \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Half guard escape",
-      "description": "Escape Reverse Half Guard (Defender) film study: Half guard escape, taught by Unknown coach.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/G1gAIOZ3sbc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/G1gAIOZ3sbc",
-      "url": "https://www.youtube.com/watch?v=G1gAIOZ3sbc",
-      "creator": { "@type": "Person", "name": "Unknown coach" },
-      "duration": "PT31S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Freeing your foot while passing half guard",
-      "description": "Escape Reverse Half Guard (Defender) film study: Freeing your foot while passing half guard, taught by Kameron Ross.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/kTSMGYlVJKY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/kTSMGYlVJKY",
-      "url": "https://www.youtube.com/watch?v=kTSMGYlVJKY",
-      "creator": { "@type": "Person", "name": "Kameron Ross" },
-      "duration": "PT55S"
-    }
-  ]
-}
-</script>
-
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -187,32 +154,6 @@ As the top player in Reverse Half Guard, your opponent's escape attempt represen
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Escape Reverse Half Guard (Defender) in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=G1gAIOZ3sbc)
-
-<p class="clip-credit"><strong>Half guard escape</strong> — taught by Unknown coach · 0:31 · <a href="https://www.youtube.com/watch?v=G1gAIOZ3sbc" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=kTSMGYlVJKY)
-
-<p class="clip-credit"><strong>Freeing your foot while passing half guard</strong> — taught by Kameron Ross · 0:55 · <a href="https://www.youtube.com/watch?v=kTSMGYlVJKY" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="recognition-cues" class="content-section">

@@ -36,39 +36,6 @@ description: "Master the Roll Forward from Omoplata in BJJ. Complete guide cover
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Roll Forward from Omoplata \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Omoplata em Giro (Rolling Omoplata)",
-      "description": "Roll Forward from Omoplata film study: Omoplata em Giro (Rolling Omoplata), taught by Clark Gracie.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/HCuRfqaM0tM/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/HCuRfqaM0tM",
-      "url": "https://www.youtube.com/watch?v=HCuRfqaM0tM",
-      "creator": { "@type": "Person", "name": "Clark Gracie" },
-      "duration": "PT96S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Clark Gracie Omoplata Breakdown",
-      "description": "Roll Forward from Omoplata film study: Clark Gracie Omoplata Breakdown, taught by Clark Gracie.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/oQAP8nARiHU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/oQAP8nARiHU",
-      "url": "https://www.youtube.com/watch?v=oQAP8nARiHU",
-      "creator": { "@type": "Person", "name": "Clark Gracie" },
-      "duration": "PT100S"
-    }
-  ]
-}
-</script>
-
 
 
 <script type="application/ld+json">
@@ -107,32 +74,6 @@ This technique is particularly valuable in competition settings where the omopla
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Roll Forward from Omoplata in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=HCuRfqaM0tM)
-
-<p class="clip-credit"><strong>Omoplata em Giro (Rolling Omoplata)</strong> — taught by Clark Gracie · 1:36 · <a href="https://www.youtube.com/watch?v=HCuRfqaM0tM" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=oQAP8nARiHU)
-
-<p class="clip-credit"><strong>Clark Gracie Omoplata Breakdown</strong> — taught by Clark Gracie · 1:40 · <a href="https://www.youtube.com/watch?v=oQAP8nARiHU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="possible-outcomes" class="content-section">

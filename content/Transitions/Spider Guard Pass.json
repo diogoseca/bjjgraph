@@ -351,30 +351,11 @@
     "clips": [
       {
         "id": "18F7wxj6xqg",
-        "title": "Passing the spider guard",
-        "by": "Performance MA Academy coach",
-        "vertical": false,
+        "title": "Passing the Spider Guard | Performance Martial Arts Academy | Roseburg BJJ",
         "channel": "Performance Martial Arts Academy",
         "duration": 72,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "v9Fyn7YEddk",
-        "title": "Stacking spider guard pass",
-        "by": "Chris Haueter",
         "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 231,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "IiQhyeU2iZI",
-        "title": "Method to pass spider guard",
-        "by": "Samuel Nagai",
-        "vertical": false,
-        "channel": "Bernardo Faria BJJ Fanatics",
-        "duration": 297,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },
@@ -567,30 +548,11 @@
     "clips": [
       {
         "id": "P0MjwfaMlFE",
-        "title": "Spider guard retention drill, feet in biceps",
-        "by": "Denise Houle",
-        "vertical": false,
+        "title": "Spider Guard Retention Drill with feet in the Biceps",
         "channel": "Denise Houle",
         "duration": 185,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "T_GhZe_MOWI",
-        "title": "Grip chain for guard retention",
-        "by": "Xande Ribeiro",
         "vertical": false,
-        "channel": "XANDE RIBEIRO",
-        "duration": 174,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "rH8oYjlBsZg",
-        "title": "Guard retention 101: defending the X-pass",
-        "by": "Ostap Manastyrski",
-        "vertical": false,
-        "channel": "OpenMat MMA",
-        "duration": 275,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },

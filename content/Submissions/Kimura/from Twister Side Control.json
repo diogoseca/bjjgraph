@@ -423,22 +423,11 @@
     ],
     "clips": [
       {
-        "id": "odT3-cVWXdc",
-        "title": "Twister Side Control Attacks",
-        "by": "Eddie Bravo",
-        "vertical": false,
-        "channel": "Eddie Bravo",
-        "duration": 61,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "R55lmkc6Mus",
-        "title": "Twister Side Control",
-        "by": "Eddie Bravo",
-        "vertical": false,
-        "channel": "Eddie Bravo",
-        "duration": 87,
-        "verified": "2026-07-14"
+        "id": "hJ2dxqPNfRI",
+        "title": "BJJ Tips: Kimura from Twister Side Control",
+        "channel": "UMMAH BJJ",
+        "duration": 231,
+        "front": true
       }
     ]
   },
@@ -629,31 +618,11 @@
     ],
     "clips": [
       {
-        "id": "gawKiLxmZbc",
-        "title": "Spinning back door escape from side control",
-        "by": "Science of JiuJitsu",
-        "vertical": false,
-        "channel": "Science Of JiuJitsu",
-        "duration": 48,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "gL-eAA7EsSU",
-        "title": "Escaping reverse kesa or twister side control",
-        "by": "Chosen Few BJJ",
-        "vertical": false,
-        "channel": "Chosen Few BJJ",
-        "duration": 199,
-        "verified": "2026-07-15"
-      },
-      {
         "id": "LdHCMIMM380",
-        "title": "North-south kimura defense",
-        "by": "Stephen Whittier",
-        "vertical": false,
+        "title": "North South Kimura Defense by Stephen Whittier",
         "channel": "BJJ Fanatics",
         "duration": 195,
-        "verified": "2026-07-15"
+        "vertical": false
       }
     ]
   }

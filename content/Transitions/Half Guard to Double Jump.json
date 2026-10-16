@@ -368,35 +368,7 @@
       }
     ],
     "safety_considerations": "The Transition to Double Jump involves explosive movement during a dynamic positional change and carries risk of knee strain for both practitioners. The top player should avoid forcing hooks against locked-out legs to prevent MCL or LCL stress on the opponent. During training, partners should communicate clearly about hook depth and pressure levels. Avoid explosive entries at full speed until both partners are comfortable with the movement pattern. The transition should be drilled progressively from zero resistance to full speed over multiple sessions.",
-    "clips": [
-      {
-        "id": "WoSyrVZ1VvY",
-        "title": "Half guard butterfly hook back take",
-        "by": "Procel BJJ",
-        "vertical": false,
-        "channel": "Procel Brazilian Jiu-Jitsu",
-        "duration": 55,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "-lMabjvtaLk",
-        "title": "Entries into the rear triangle back position",
-        "by": "John Danaher",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 252,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "6-pEzvhvr-Q",
-        "title": "Getting your hooks in from the turtle",
-        "by": "Brian (TeachMeGrappling)",
-        "vertical": false,
-        "channel": "TeachMeGrappling Coach Brian",
-        "duration": 156,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Half Guard to Double Jump Defender",
@@ -559,34 +531,6 @@
         "description": "Positional sparring starting from half guard bottom with the explicit agreement that the top player will attempt Double Jump when opportunities arise. Defender must recognize and address the threat while simultaneously managing the broader half guard passing battle. Full resistance rounds with scoring for successful prevention or escape."
       }
     ],
-    "clips": [
-      {
-        "id": "dOdO6xJ-TcU",
-        "title": "Stopping the half guard underhook",
-        "by": "Malachy Friedman",
-        "vertical": false,
-        "channel": "Malachy Friedman",
-        "duration": 98,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "zgvlMKLWxAI",
-        "title": "Sitting turtle to running man defense",
-        "by": "Priit Mihkelson",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 224,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "h2lCF7jLT_w",
-        "title": "Five defensive mistakes during the turtle back take",
-        "by": "Priit Mihkelson",
-        "vertical": false,
-        "channel": "Defensive BJJ",
-        "duration": 456,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

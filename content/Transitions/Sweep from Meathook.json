@@ -371,30 +371,11 @@
     "clips": [
       {
         "id": "pJ4G8hW6dIE",
-        "title": "Near-side meathook sweep from rubber guard",
-        "by": "10th Planet Colorado Springs coach",
-        "vertical": false,
+        "title": "No Gi BJJ - Rubberguard Near-side Meathook Sweep",
         "channel": "10th Planet Colorado Springs",
         "duration": 93,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "KN7ww-OyaxQ",
-        "title": "Meathook options from rubber guard",
-        "by": "Eddie Bravo",
         "vertical": false,
-        "channel": "Eddie Bravo",
-        "duration": 60,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "0w0642zFqWo",
-        "title": "Troubleshooting the rubber guard meathook",
-        "by": "Brandon McCaghren",
-        "vertical": false,
-        "channel": "Brandon Mccaghren",
-        "duration": 61,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },
@@ -559,34 +540,6 @@
         "description": "Positional sparring starting in Meathook with bottom player attacking with complete system including sweeps, gogoplata, triangle, and omoplata. Top player must defend all threats while working toward escape. Track sweep prevention rate and escape success rate across multiple rounds."
       }
     ],
-    "clips": [
-      {
-        "id": "QzT5BsOqrMk",
-        "title": "Elbow position to beat rubber guard control",
-        "by": "Brandon McCaghren",
-        "vertical": false,
-        "channel": "Brandon Mccaghren",
-        "duration": 57,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "iwcfKUPNZNs",
-        "title": "Why the rubber guard fails — passer's counters",
-        "by": "Brandon Mccaghren",
-        "vertical": false,
-        "channel": "Brandon Mccaghren",
-        "duration": 792,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "5jKZpFnxYbE",
-        "title": "Common rubber guard breakdowns and how to exploit them",
-        "by": "Brandon Mccaghren",
-        "vertical": false,
-        "channel": "Brandon Mccaghren",
-        "duration": 307,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

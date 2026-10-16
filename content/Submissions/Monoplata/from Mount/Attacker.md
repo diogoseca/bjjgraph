@@ -182,23 +182,31 @@ description: "How to execute Monoplata from Mount in BJJ. Attacking perspective 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Omoplata From Mount",
-      "description": "Monoplata from Mount (Attacker) film study: Omoplata From Mount, taught by Jiu Jitsu With Andy.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/DeVb2R8SQL4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/DeVb2R8SQL4",
-      "url": "https://www.youtube.com/watch?v=DeVb2R8SQL4",
-      "creator": { "@type": "Person", "name": "Jiu Jitsu With Andy" },
-      "duration": "PT18S"
+      "name": "MONOPLATA FINISHES FROM MOUNT",
+      "description": "Monoplata from Mount (Attacker) film study: MONOPLATA FINISHES FROM MOUNT.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Js6AH2v78Qo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Js6AH2v78Qo",
+      "url": "https://www.youtube.com/watch?v=Js6AH2v78Qo",
+      "duration": "PT149S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Omoplata to Monoplata",
-      "description": "Monoplata from Mount (Attacker) film study: Omoplata to Monoplata, taught by Ninjuh Moves.",
+      "name": "Monoplata from Mount",
+      "description": "Monoplata from Mount (Attacker) film study: Monoplata from Mount.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/bBxjErpbBy8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/bBxjErpbBy8",
+      "url": "https://www.youtube.com/watch?v=bBxjErpbBy8",
+      "duration": "PT252S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Omoplata Monoplata",
+      "description": "Monoplata from Mount (Attacker) film study: Omoplata Monoplata.",
       "thumbnailUrl": "https://i.ytimg.com/vi/kXwTSv13ATw/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/kXwTSv13ATw",
       "url": "https://www.youtube.com/watch?v=kXwTSv13ATw",
-      "creator": { "@type": "Person", "name": "Ninjuh Moves" },
       "duration": "PT50S"
     }
   ]
@@ -228,9 +236,17 @@ The Monoplata from Mount is an advanced shoulder lock submission that combines e
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=DeVb2R8SQL4)
+![](https://www.youtube.com/watch?v=Js6AH2v78Qo)
 
-<p class="clip-credit"><strong>Omoplata From Mount</strong> — taught by Jiu Jitsu With Andy · 0:18 · <a href="https://www.youtube.com/watch?v=DeVb2R8SQL4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>MONOPLATA FINISHES FROM MOUNT</strong> · 2:29 · <a href="https://www.youtube.com/watch?v=Js6AH2v78Qo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=bBxjErpbBy8)
+
+<p class="clip-credit"><strong>Monoplata from Mount</strong> · 4:12 · <a href="https://www.youtube.com/watch?v=bBxjErpbBy8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -238,7 +254,7 @@ The Monoplata from Mount is an advanced shoulder lock submission that combines e
 
 ![](https://www.youtube.com/watch?v=kXwTSv13ATw)
 
-<p class="clip-credit"><strong>Omoplata to Monoplata</strong> — taught by Ninjuh Moves · 0:50 · <a href="https://www.youtube.com/watch?v=kXwTSv13ATw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Omoplata Monoplata</strong> · 0:50 · <a href="https://www.youtube.com/watch?v=kXwTSv13ATw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

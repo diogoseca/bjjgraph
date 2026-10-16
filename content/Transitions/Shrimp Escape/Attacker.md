@@ -180,35 +180,22 @@ description: "How to execute Shrimp Escape in BJJ. Attacking perspective with se
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Shrimping from side mount",
-      "description": "Shrimp Escape (Attacker) film study: Shrimping from side mount, taught by Kinesiology College.",
+      "name": "Shrimping from Side Mount",
+      "description": "Shrimp Escape (Attacker) film study: Shrimping from Side Mount.",
       "thumbnailUrl": "https://i.ytimg.com/vi/nf8lVz7bKvw/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/nf8lVz7bKvw",
       "url": "https://www.youtube.com/watch?v=nf8lVz7bKvw",
-      "creator": { "@type": "Person", "name": "Kinesiology College" },
       "duration": "PT35S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Shrimp and recover guard from bottom side control",
-      "description": "Shrimp Escape (Attacker) film study: Shrimp and recover guard from bottom side control, taught by Concept BJJ.",
+      "description": "Shrimp Escape (Attacker) film study: Shrimp and recover guard from bottom side control.",
       "thumbnailUrl": "https://i.ytimg.com/vi/CifmPSV7aXY/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/CifmPSV7aXY",
       "url": "https://www.youtube.com/watch?v=CifmPSV7aXY",
-      "creator": { "@type": "Person", "name": "Concept BJJ" },
       "duration": "PT141S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Shrimp escape from bottom mount",
-      "description": "Shrimp Escape (Attacker) film study: Shrimp escape from bottom mount, taught by Kovar\u0027s Satori Academy.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/RRfU3YxQ2Sw/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/RRfU3YxQ2Sw",
-      "url": "https://www.youtube.com/watch?v=RRfU3YxQ2Sw",
-      "creator": { "@type": "Person", "name": "Kovar\u0027s Satori Academy" },
-      "duration": "PT172S"
     }
   ]
 }
@@ -238,7 +225,7 @@ The Shrimp Escape, also known as the hip escape, is one of the most fundamental 
 
 ![](https://www.youtube.com/watch?v=nf8lVz7bKvw)
 
-<p class="clip-credit"><strong>Shrimping from side mount</strong> — taught by Kinesiology College · 0:35 · <a href="https://www.youtube.com/watch?v=nf8lVz7bKvw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Shrimping from Side Mount</strong> · 0:35 · <a href="https://www.youtube.com/watch?v=nf8lVz7bKvw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -246,15 +233,7 @@ The Shrimp Escape, also known as the hip escape, is one of the most fundamental 
 
 ![](https://www.youtube.com/watch?v=CifmPSV7aXY)
 
-<p class="clip-credit"><strong>Shrimp and recover guard from bottom side control</strong> — taught by Concept BJJ · 2:21 · <a href="https://www.youtube.com/watch?v=CifmPSV7aXY" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=RRfU3YxQ2Sw)
-
-<p class="clip-credit"><strong>Shrimp escape from bottom mount</strong> — taught by Kovar&#39;s Satori Academy · 2:52 · <a href="https://www.youtube.com/watch?v=RRfU3YxQ2Sw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Shrimp and recover guard from bottom side control</strong> · 2:21 · <a href="https://www.youtube.com/watch?v=CifmPSV7aXY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -527,35 +527,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "RrD643OqTao",
-        "title": "Basic Standing Guard Pass",
-        "by": "Rickson Gracie",
-        "vertical": false,
-        "channel": "Gallerr",
-        "duration": 66,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "yXNfYoZszss",
-        "title": "Standing Guard Pass",
-        "by": "10th Planet Costa Mesa",
-        "vertical": false,
-        "channel": "10th Planet Costa Mesa",
-        "duration": 11,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "o3PZRQSZStQ",
-        "title": "Easy Guard Passing Tip / Concept",
-        "by": "Henry Akins",
-        "vertical": false,
-        "channel": "Henry Akins' Hidden Jiu-Jitsu",
-        "duration": 84,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   },
   "bottom": {
     "overview": "Standing Guard Bottom represents the defensive perspective where the practitioner maintains upright posture while managing distance and preventing the opponent from establishing advantageous grips or positions. This position requires constant vigilance in grip fighting, strategic footwork to maintain optimal distance, and decisive timing for transitions to guard or counter-attacks. The bottom player must balance defensive responsibility with offensive threat, using the standing position to create opportunities for favorable guard entries or takedown attempts while preventing the opponent from scoring or establishing dominant positions.\n\nThe position is particularly critical in competition scenarios where understanding when to pull guard versus when to engage in standup exchanges can determine match outcomes. Bottom players must develop sophisticated grip fighting skills to break opponent grips, establish their own controls, and create the positional advantages needed for successful guard pulls or offensive techniques. Success requires reading opponent intentions through grip attempts and weight distribution, maintaining defensive posture against snap-downs and takedowns, and executing clean transitions to ground positions when opportunities arise.\n\nModern guard players use Standing Guard Bottom as a tactical platform for entering their preferred guard systems with favorable grip configurations and positioning. Rather than viewing it as purely defensive, advanced practitioners treat this position as an offensive launching point where they control the pace, dictate engagement terms, and transition to ground fighting only when circumstances favor their game. The position demands both technical precision and strategic thinking about match flow and positional hierarchy.",
@@ -960,35 +932,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "lVLAROiSjNU",
-        "title": "Guard Retention: When To Sit Up Escape",
-        "by": "Lachlan Giles",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 136,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "fpu-rDbLM_0",
-        "title": "Bottom Postures in Open Guard",
-        "by": "Ultra Jiu Jitsu Academy",
-        "vertical": false,
-        "channel": "Ultra Jiu Jitsu Academy",
-        "duration": 80,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "Bp0v7c_MrbY",
-        "title": "Feet on Biceps Guard Position",
-        "by": "Lachlan Giles",
-        "vertical": false,
-        "channel": "Absolute MMA St Kilda - Melbourne",
-        "duration": 125,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   },
   "flashcards_position": [
     {
@@ -1090,24 +1034,5 @@
       }
     }
   ],
-  "clips": [
-    {
-      "id": "OZ54F0L1ikY",
-      "title": "Standing Guard Passing for Competition",
-      "by": "BJJTube",
-      "vertical": false,
-      "channel": "BJJTube",
-      "duration": 105,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "CrB2ifj730g",
-      "title": "Why We Standing Guard Pass",
-      "by": "Chattanooga Jiu-Jitsu Academy",
-      "vertical": false,
-      "channel": "Chattanooga Jiu-Jitsu Academy",
-      "duration": 177,
-      "verified": "2026-07-14"
-    }
-  ]
+  "clips": []
 }

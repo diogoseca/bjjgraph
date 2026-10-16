@@ -386,31 +386,12 @@
     ],
     "clips": [
       {
-        "id": "ZLlkimwLb_Q",
-        "title": "Mounted Triangle Armbar Variation",
-        "by": "Tommy",
-        "vertical": false,
-        "channel": "Before The Mats Jiu Jitsu",
-        "duration": 103,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "vSmRbpNmf-E",
-        "title": "Roger Gracie Armbars",
-        "by": "Roger Gracie",
-        "vertical": false,
-        "channel": "Jiu Jitsu Moves",
-        "duration": 102,
-        "verified": "2026-07-14"
-      },
-      {
         "id": "T8lhwzwE__c",
-        "title": "Arm Triangle to Armbar to Belly Down",
-        "by": "Sukrit Chandra",
-        "vertical": false,
+        "title": "arm triangle from guard to armbar to belly down",
         "channel": "Sukrit Chandra",
         "duration": 40,
-        "verified": "2026-07-14"
+        "vertical": false,
+        "front": true
       }
     ]
   },
@@ -592,25 +573,6 @@
         "description": "Start in mounted triangle bottom against a partner who may attempt triangle choke, standard armbar, or belly down armbar. Defender must read the attack, select appropriate defense, and either escape or tap safely. Progressive resistance up to full competition intensity."
       }
     ],
-    "clips": [
-      {
-        "id": "sR2rS2dwpNY",
-        "title": "How To Escape a Triangle Choke",
-        "by": "Rener & Ryron Gracie",
-        "vertical": false,
-        "channel": "Hayabusa",
-        "duration": 117,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "kNdKfUdgO4I",
-        "title": "Favorite Armbar Escape",
-        "by": "Matt Arroyo",
-        "vertical": false,
-        "channel": "Matt Arroyo Jiu Jitsu ",
-        "duration": 92,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   }
 }

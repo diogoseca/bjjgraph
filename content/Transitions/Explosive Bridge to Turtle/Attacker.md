@@ -170,28 +170,6 @@ description: "How to execute Explosive Bridge to Turtle in BJJ. Attacking perspe
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Explosive Bridge to Turtle (Attacker) \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Turtle no-grips escape rolling to guard",
-      "description": "Explosive Bridge to Turtle (Attacker) film study: Turtle no-grips escape rolling to guard, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Ly89G4iCTSQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Ly89G4iCTSQ",
-      "url": "https://www.youtube.com/watch?v=Ly89G4iCTSQ",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT108S"
-    }
-  ]
-}
-</script>
-
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -208,24 +186,6 @@ The technique requires precise timing and total commitment - half-hearted attemp
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Explosive Bridge to Turtle (Attacker) in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=Ly89G4iCTSQ)
-
-<p class="clip-credit"><strong>Turtle no-grips escape rolling to guard</strong> — taught by Lachlan Giles · 1:48 · <a href="https://www.youtube.com/watch?v=Ly89G4iCTSQ" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="key-principles" class="content-section">

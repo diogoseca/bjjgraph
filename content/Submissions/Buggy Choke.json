@@ -457,31 +457,33 @@
     ],
     "clips": [
       {
-        "id": "Jw8PSPrR8-E",
-        "title": "BJJ Buggy Choke",
-        "by": "Judoka",
+        "id": "ZBOagHWTCFw",
+        "title": "Buggy choke from half guard: Moncaio Brothers JiuJitsu",
+        "channel": "Moncaio Brothers Jiujitsu",
+        "duration": 33,
         "vertical": false,
-        "channel": "Judoka",
-        "duration": 41,
-        "verified": "2026-07-14"
+        "front": true
       },
       {
         "id": "Rlk8WXQrj4Q",
-        "title": "Buggy Choke from North South",
-        "by": "Jaezee Jiujitsu",
-        "vertical": false,
+        "title": "BUGGYCHOKE From the north south position",
         "channel": "JaezeeJiujitsu",
         "duration": 48,
-        "verified": "2026-07-14"
+        "vertical": false
       },
       {
         "id": "0_3YYrWEGoU",
-        "title": "3 Buggy Choke Concepts",
-        "by": "Kade and Tye Ruotolo",
-        "vertical": false,
+        "title": "3 Buggy Choke Concepts by Kade and Tye Ruotolo",
         "channel": "BJJ Fanatics",
         "duration": 201,
-        "verified": "2026-07-14"
+        "vertical": false
+      },
+      {
+        "id": "Jw8PSPrR8-E",
+        "title": "BJJ Buggy Choke",
+        "channel": "Judoka",
+        "duration": 41,
+        "vertical": false
       }
     ]
   },
@@ -660,30 +662,18 @@
     "clips": [
       {
         "id": "Huv5wYwC3_o",
-        "title": "How To Defend the Buggy Choke",
-        "by": "Jansen Gomes",
-        "vertical": false,
+        "title": "Who's Next Ep. 5 | How To Defend the Buggy Choke, with Jansen Gomes",
         "channel": "FloGrappling",
         "duration": 52,
-        "verified": "2026-07-14"
+        "vertical": false,
+        "front": true
       },
       {
         "id": "6VmI-HMAQso",
-        "title": "How To Defend the Dreaded Buggy Choke",
-        "by": "MMA Leech",
-        "vertical": false,
+        "title": "How To Defend Against The Dreaded Buggy Choke",
         "channel": "MMA Leech",
-        "duration": 239,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "jMIn4CQ3khE",
-        "title": "Buggy Choke Recovery",
-        "by": "Zach Maslany",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 153,
-        "verified": "2026-07-14"
+        "duration": 238,
+        "vertical": false
       }
     ]
   }

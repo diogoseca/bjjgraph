@@ -431,31 +431,19 @@
     ],
     "clips": [
       {
-        "id": "dfP-Ov8FBUo",
-        "title": "Cross Collar Chokes breakdown",
-        "by": "Roger Gracie",
+        "id": "5cYvd0U5IQQ",
+        "title": "Cross Choke from mount",
+        "channel": "Blue Springs Jiu-Jitsu",
+        "duration": 29,
         "vertical": false,
-        "channel": "Jiu Jitsu Moves",
-        "duration": 80,
-        "verified": "2026-07-14"
+        "front": true
       },
       {
         "id": "pXcCvjwjPHw",
-        "title": "Cross collar choke from mount",
-        "by": "Chad Lyman",
-        "vertical": false,
+        "title": "Cross Collar Choke from Mount with Chad Lyman",
         "channel": "Rich Castro",
-        "duration": 56,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "5cYvd0U5IQQ",
-        "title": "Cross choke from mount",
-        "by": "Blue Springs Jiu-Jitsu",
-        "vertical": false,
-        "channel": "Blue Springs Jiu-Jitsu",
-        "duration": 29,
-        "verified": "2026-07-14"
+        "duration": 55,
+        "vertical": false
       }
     ]
   },
@@ -626,21 +614,11 @@
     "clips": [
       {
         "id": "QIRF2B9riAA",
-        "title": "Cross choke defense: two quick tips",
-        "by": "Wayne Sniffen",
-        "vertical": false,
+        "title": "Cross Choke Defense from Guard - Two Quick Tips",
         "channel": "Wayne Sniffen",
         "duration": 105,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "j2qf5q7PChY",
-        "title": "Defending the mount cross choke",
-        "by": "Ninja Pinto",
         "vertical": false,
-        "channel": "Ninja Pinto BJJ",
-        "duration": 23,
-        "verified": "2026-07-14"
+        "front": true
       }
     ]
   }

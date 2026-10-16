@@ -440,26 +440,7 @@
       }
     ],
     "safety_considerations": "The Whizzer is generally a safe technique when applied properly, as it focuses on positional control rather than joint manipulation or choking. However, practitioners should be aware that over-rotating the opponent's shoulder while maintaining the Whizzer can place stress on their rotator cuff and shoulder joint. Release pressure if your partner taps or indicates discomfort in their shoulder. When drilling Whizzer transitions to kimura, ensure smooth transition between controls without cranking the shoulder suddenly. In live training, avoid using the Whizzer to force opponent's arm into dangerous positions - the control should be based on leverage and position, not raw shoulder torque. Be particularly careful when combining Whizzer control with leg entanglements, as this can create unusual joint angles.",
-    "clips": [
-      {
-        "id": "DfUHvTQpzCg",
-        "title": "Using an overhook to attack",
-        "by": "Patrick Spano",
-        "vertical": false,
-        "channel": "FANATIC WRESTLING",
-        "duration": 40,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "VopGHIx2g4w",
-        "title": "Darkside whizzer entry",
-        "by": "Craig Jones",
-        "vertical": false,
-        "channel": "DARKSIDE | Team Strela",
-        "duration": 29,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Whizzer Defender",
@@ -637,30 +618,11 @@
     "clips": [
       {
         "id": "pYljJ1yRXO4",
-        "title": "Dip under sweep as a whizzer counter",
-        "by": "JiuJitsu.com",
-        "vertical": false,
+        "title": "Dip Under Sweep - Whizzer Counter!",
         "channel": "JiuJitsu.com",
         "duration": 169,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "1JH5gqQnG8M",
-        "title": "Beating the whizzer on a takedown",
-        "by": "M&A BJJ",
         "vertical": false,
-        "channel": "M&A BJJ & Strength and Conditioning",
-        "duration": 45,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "D3D1m7XZtkg",
-        "title": "Dealing with the whizzer",
-        "by": "Jay Rodriguez",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 178,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   }

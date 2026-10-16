@@ -436,22 +436,11 @@
     ],
     "clips": [
       {
-        "id": "VbLlhI0aZC8",
-        "title": "How to do the gogoplata",
-        "by": "jamielovesmartialarts",
-        "vertical": false,
-        "channel": "jamielovesmartialarts",
-        "duration": 68,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "PqAJraYllQI",
-        "title": "Gogoplata variations from a high guard",
-        "by": "SpringHill BJJ",
-        "vertical": false,
-        "channel": "SpringHillBjj",
-        "duration": 88,
-        "verified": "2026-07-14"
+        "id": "7WcJK3B-Gwc",
+        "title": "gogoplata defense",
+        "channel": "kenprimo",
+        "duration": 101,
+        "front": true
       }
     ]
   },
@@ -807,22 +796,11 @@
     ],
     "clips": [
       {
-        "id": "4Opp0j7UmlU",
-        "title": "Gogoplata from guard",
-        "by": "Kinesiology College",
-        "vertical": false,
-        "channel": "Kinesiology College",
-        "duration": 21,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "uOW0otO9MPI",
-        "title": "Gogo clinch submission (10th Planet)",
-        "by": "Jeremiah Vance",
-        "vertical": false,
-        "channel": "Jeremiah Vance",
-        "duration": 57,
-        "verified": "2026-07-14"
+        "id": "DLQvIjijQlc",
+        "title": "The Reaper (gogoplata set up)",
+        "channel": "Submissions101",
+        "duration": 62,
+        "front": true
       }
     ]
   },
@@ -940,24 +918,5 @@
       }
     }
   ],
-  "clips": [
-    {
-      "id": "X73jEbuUaxQ",
-      "title": "7 submissions from rubber guard",
-      "by": "Felipe Cavalcante",
-      "vertical": false,
-      "channel": "Felipe Cavalcante BJJ",
-      "duration": 51,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "h1XzZDsUxHQ",
-      "title": "Eddie Bravo explains rubber guard",
-      "by": "Eddie Bravo",
-      "vertical": false,
-      "channel": "JAN FERNANDEZ ",
-      "duration": 111,
-      "verified": "2026-07-14"
-    }
-  ]
+  "clips": []
 }

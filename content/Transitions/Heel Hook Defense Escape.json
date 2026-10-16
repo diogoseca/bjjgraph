@@ -411,35 +411,7 @@
       }
     ],
     "safety_considerations": "Heel hook defense training carries significant injury risk to the knee joint, including ACL, MCL, and meniscus tears that may require surgical reconstruction. Always tap immediately when heel hook pressure reaches the point of ligament tension — never attempt to tough through rotational pressure on the knee. Train with progressive resistance and trusted partners who demonstrate consistent respect for tap signals. Begin all drilling at reduced intensity and speed, only increasing resistance as escape mechanics become automatic. Injury from heel hooks can require 6-12 months of rehabilitation and may permanently limit athletic capability. Communicate clearly with training partners about intensity levels and establish verbal tap protocols for positions where hand tapping is restricted.",
-    "clips": [
-      {
-        "id": "v3w0qXLKxug",
-        "title": "Defending heel hooks - core escape concepts",
-        "by": "Lachlan Giles",
-        "vertical": false,
-        "channel": "Absolute MMA St Kilda - Melbourne",
-        "duration": 92,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "Z0WDtUMkBP8",
-        "title": "The one key idea for defending heel hooks",
-        "by": "Lachlan Giles",
-        "vertical": false,
-        "channel": "Absolute MMA St Kilda - Melbourne",
-        "duration": 170,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "2RLgyzWN71Y",
-        "title": "Double outside ashi heel hook running man escape",
-        "by": "Grappling Game Changer",
-        "vertical": false,
-        "channel": "GRAPPLING GAME CHANGER",
-        "duration": 54,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Heel Hook Defense Escape Defender",
@@ -616,25 +588,6 @@
         "description": "Positional sparring from Honey Hole top at 100% intensity. 30-second rounds where partner attempts escape and you attempt to finish or maintain. Track retention rate and submission rate across rounds. Develop realistic timing for when to finish versus when to focus on control."
       }
     ],
-    "clips": [
-      {
-        "id": "m4sGDhukUmk",
-        "title": "Heel hook from outside ashi garami",
-        "by": "Craig Jones",
-        "vertical": false,
-        "channel": "The Bear's Den BJJ & MMA  熊派巴西柔術及MMA學院",
-        "duration": 141,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "ZqkMQMUoL6w",
-        "title": "Proper heel hook and preventing the escape",
-        "by": "Pantera Jiujitsu",
-        "vertical": false,
-        "channel": "Pantera Jiujitsu",
-        "duration": 154,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

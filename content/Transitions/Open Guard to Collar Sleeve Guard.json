@@ -366,35 +366,7 @@
       }
     ],
     "safety_considerations": "Transition to Collar Sleeve Guard is a low-risk positional transition with minimal injury potential. The primary safety concern involves finger and grip strain from aggressive collar gripping against resistance. Tape fingers before training sessions focused on grip-intensive guard work. Avoid death-gripping the collar with a single hand for extended periods, which can cause finger flexor tendon inflammation. Release grips periodically during drilling to allow blood flow recovery. Partners should communicate clearly during grip fighting exchanges to prevent accidental finger bending or joint hyperextension.",
-    "clips": [
-      {
-        "id": "s1l1pyN6DsE",
-        "title": "One-grip guard pull into collar sleeve",
-        "by": "Carpio Jiu Jitsu",
-        "vertical": false,
-        "channel": "Carpio Jiu Jitsu",
-        "duration": 139,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "DOy6y-Z-wK4",
-        "title": "Getting to inside collar sleeve",
-        "by": "Mikey Musumeci",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 123,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "1piAnOs7xpA",
-        "title": "Modified collar sleeve introduction",
-        "by": "Mikey Musumeci",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 158,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Open Guard to Collar Sleeve Guard Defender",
@@ -548,22 +520,12 @@
     ],
     "clips": [
       {
-        "id": "N4M0VWhDkMA",
-        "title": "Two ways to pass the collar and sleeve",
-        "by": "Carpio Jiu Jitsu",
-        "vertical": false,
-        "channel": "Carpio Jiu Jitsu",
-        "duration": 103,
-        "verified": "2026-07-15"
-      },
-      {
         "id": "zuLPD05QWKI",
-        "title": "Breaking collar and sleeve grips",
-        "by": "Martial Arts Unlimited",
-        "vertical": false,
+        "title": "How to Break those BJJ/Grappling Grips (Collar & Sleeve)",
         "channel": "Martial Arts Unlimited",
-        "duration": 216,
-        "verified": "2026-07-15"
+        "duration": 215,
+        "vertical": false,
+        "front": true
       }
     ]
   }

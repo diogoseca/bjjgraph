@@ -643,31 +643,11 @@
     ],
     "clips": [
       {
-        "id": "GgXRLKAm9pY",
-        "title": "Guillotine From Front Headlock",
-        "by": "Chris Jones",
-        "vertical": false,
-        "channel": "Chris Jones",
-        "duration": 97,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "7be6L0alFug",
-        "title": "Chin Strap Basics",
-        "by": "Dante Leon",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 166,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "ihbFhV4DA-M",
-        "title": "Diving Guillotine",
-        "by": "Marcelo Garcia",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 179,
-        "verified": "2026-07-14"
+        "id": "KE57Jr4MerA",
+        "title": "Chin Strap Guillotine(Front headlock)",
+        "channel": "Garrett Goldsberry",
+        "duration": 129,
+        "front": true
       }
     ]
   },
@@ -935,35 +915,7 @@
         "description": "Positional sparring starting from front headlock with partner attacking the chin strap at full speed. Practice implementing the full defensive hierarchy under realistic conditions. Emphasize tapping early and often when the choke is locked rather than fighting lost positions. Develop judgment for when to defend versus when to tap, prioritizing safety over ego in training."
       }
     ],
-    "clips": [
-      {
-        "id": "dyTKKiajgzQ",
-        "title": "Master the Guillotine Escape",
-        "by": "Cobrinha",
-        "vertical": false,
-        "channel": "Cobrinha Brazilian Jiu-Jitsu & Fitness",
-        "duration": 44,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "8okq4cIHMO0",
-        "title": "Standing Guillotine Escape",
-        "by": "dogtownman",
-        "vertical": false,
-        "channel": "dogtownman",
-        "duration": 44,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "a7L1JP7_rgE",
-        "title": "Front Headlock Choke Defense",
-        "by": "Peter Mettler",
-        "vertical": false,
-        "channel": "Peter Mettler Martial Arts",
-        "duration": 153,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   },
   "variations_and_setups": [
     {

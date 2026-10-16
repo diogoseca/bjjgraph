@@ -165,24 +165,12 @@ description: "Navigate leg drag control from bottom position. Master defensive t
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Guard Retention: When to Sit Up Escape",
-      "description": "Leg Drag Control (Bottom) film study: Guard Retention: When to Sit Up Escape, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/lVLAROiSjNU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/lVLAROiSjNU",
-      "url": "https://www.youtube.com/watch?v=lVLAROiSjNU",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT136S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Guard Recovery When Getting Smashed",
-      "description": "Leg Drag Control (Bottom) film study: Guard Recovery When Getting Smashed, taught by Finesse Jiujitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/BhNZGloJ56c/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/BhNZGloJ56c",
-      "url": "https://www.youtube.com/watch?v=BhNZGloJ56c",
-      "creator": { "@type": "Person", "name": "Finesse Jiujitsu" },
-      "duration": "PT103S"
+      "name": "VI: Leg drag defense - Guard Retention - De Groot BJJ",
+      "description": "Leg Drag Control (Bottom) film study: VI: Leg drag defense - Guard Retention - De Groot BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/IhRQp9IUhKU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/IhRQp9IUhKU",
+      "url": "https://www.youtube.com/watch?v=IhRQp9IUhKU",
+      "duration": "PT330S"
     }
   ]
 }
@@ -214,17 +202,9 @@ Defensive success in this position requires recognizing the leg drag early in th
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=lVLAROiSjNU)
+![](https://www.youtube.com/watch?v=IhRQp9IUhKU)
 
-<p class="clip-credit"><strong>Guard Retention: When to Sit Up Escape</strong> — taught by Lachlan Giles · 2:16 · <a href="https://www.youtube.com/watch?v=lVLAROiSjNU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=BhNZGloJ56c)
-
-<p class="clip-credit"><strong>Guard Recovery When Getting Smashed</strong> — taught by Finesse Jiujitsu · 1:43 · <a href="https://www.youtube.com/watch?v=BhNZGloJ56c" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>VI: Leg drag defense - Guard Retention - De Groot BJJ</strong> · 5:30 · <a href="https://www.youtube.com/watch?v=IhRQp9IUhKU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

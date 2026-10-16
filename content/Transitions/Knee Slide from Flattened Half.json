@@ -366,26 +366,7 @@
       }
     ],
     "safety_considerations": "The knee slide from flattened half guard carries low injury risk compared to submission techniques but requires awareness of knee safety for both practitioners. The top player should avoid hyperextending the trapped knee by maintaining a controlled slide angle rather than forcing the knee through excessive resistance. The bottom player's knee can be stressed if the top player drives lateral pressure against the hook while the foot is trapped. Both players should communicate if knee pressure becomes uncomfortable. In training, use controlled speed during the slide phase to prevent unexpected torque on either player's knee joints.",
-    "clips": [
-      {
-        "id": "yj_6xcl2emA",
-        "title": "Inside knee cut through the knee shield",
-        "by": "War Room Jiu Jitsu coach",
-        "vertical": false,
-        "channel": "War Room Jiu Jitsu",
-        "duration": 70,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "MHkLdz5_qsw",
-        "title": "Knee slide pass to mount",
-        "by": "Matt McCormick",
-        "vertical": false,
-        "channel": "Matt McCormick",
-        "duration": 79,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Knee Slide from Flattened Half Defender",
@@ -562,34 +543,6 @@
         "description": "Positional sparring from flattened half guard. Top player attempts any pass including knee slides. Defender applies defensive recognition and response in real time with full resistance. Track success rate of preventing the pass over multiple rounds. Identify which defensive option works best against each partner's passing style."
       }
     ],
-    "clips": [
-      {
-        "id": "lVLAROiSjNU",
-        "title": "Guard retention: when to sit up to escape",
-        "by": "Lachlan Giles",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 136,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "tcS7oBdpRW0",
-        "title": "Lockdown escape when flattened by a half guard smasher",
-        "by": "Chewjitsu",
-        "vertical": false,
-        "channel": "Chewjitsu",
-        "duration": 305,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "kiNDEW0H16E",
-        "title": "Half guard escape and defense fundamentals",
-        "by": "Coventry BJJ coach",
-        "vertical": false,
-        "channel": "Coventry Bjj",
-        "duration": 426,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

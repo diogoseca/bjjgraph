@@ -46,24 +46,22 @@ description: "Master the North-South Choke from North-South in BJJ. Expert guide
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Marcelo Garcia - North South Choke",
-      "description": "North-South Choke from North-South film study: Marcelo Garcia - North South Choke, taught by Marcelo Garcia.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/z3RNUfHfiSM/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/z3RNUfHfiSM",
-      "url": "https://www.youtube.com/watch?v=z3RNUfHfiSM",
-      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
-      "duration": "PT20S"
+      "name": "Defending the north south choke.",
+      "description": "North-South Choke from North-South film study: Defending the north south choke..",
+      "thumbnailUrl": "https://i.ytimg.com/vi/AyL9eW7ytq4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/AyL9eW7ytq4",
+      "url": "https://www.youtube.com/watch?v=AyL9eW7ytq4",
+      "duration": "PT59S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "North South Choke as a Pinning Tool",
-      "description": "North-South Choke from North-South film study: North South Choke as a Pinning Tool, taught by Craig Jones.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/SPXanCnoBYA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/SPXanCnoBYA",
-      "url": "https://www.youtube.com/watch?v=SPXanCnoBYA",
-      "creator": { "@type": "Person", "name": "Craig Jones" },
-      "duration": "PT135S"
+      "name": "\u201cHook-Plata\u201d  (North-South Choke Escape)",
+      "description": "North-South Choke from North-South film study: \u201cHook-Plata\u201d  (North-South Choke Escape).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/O-2iSvT8zDk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/O-2iSvT8zDk",
+      "url": "https://www.youtube.com/watch?v=O-2iSvT8zDk",
+      "duration": "PT59S"
     }
   ]
 }
@@ -126,17 +124,17 @@ Strategically, the North-South Choke creates a powerful dilemma when combined wi
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=z3RNUfHfiSM)
+![](https://www.youtube.com/watch?v=AyL9eW7ytq4)
 
-<p class="clip-credit"><strong>Marcelo Garcia - North South Choke</strong> — taught by Marcelo Garcia · 0:20 · <a href="https://www.youtube.com/watch?v=z3RNUfHfiSM" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Defending the north south choke.</strong> · 0:59 · <a href="https://www.youtube.com/watch?v=AyL9eW7ytq4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=SPXanCnoBYA)
+![](https://www.youtube.com/watch?v=O-2iSvT8zDk)
 
-<p class="clip-credit"><strong>North South Choke as a Pinning Tool</strong> — taught by Craig Jones · 2:15 · <a href="https://www.youtube.com/watch?v=SPXanCnoBYA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>“Hook-Plata”  (North-South Choke Escape)</strong> · 0:59 · <a href="https://www.youtube.com/watch?v=O-2iSvT8zDk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -160,24 +160,12 @@ description: "Complete guide to defending the Knee Cut from Headquarters in BJJ.
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Countering the knee slice pass",
-      "description": "Knee Cut from Headquarters (Defender) film study: Countering the knee slice pass, taught by Kohbukan Sisu.",
+      "name": "Knee Slice Pass Counter",
+      "description": "Knee Cut from Headquarters (Defender) film study: Knee Slice Pass Counter.",
       "thumbnailUrl": "https://i.ytimg.com/vi/yiIHeo7NgsE/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/yiIHeo7NgsE",
       "url": "https://www.youtube.com/watch?v=yiIHeo7NgsE",
-      "creator": { "@type": "Person", "name": "Kohbukan Sisu" },
       "duration": "PT58S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Defending the knee slice from quarter guard",
-      "description": "Knee Cut from Headquarters (Defender) film study: Defending the knee slice from quarter guard, taught by Jean Jacques Machado.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/xDZucxFVK48/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/xDZucxFVK48",
-      "url": "https://www.youtube.com/watch?v=xDZucxFVK48",
-      "creator": { "@type": "Person", "name": "Jean Jacques Machado" },
-      "duration": "PT275S"
     }
   ]
 }
@@ -207,15 +195,7 @@ Defending the Knee Cut from Headquarters requires early recognition of the pass 
 
 ![](https://www.youtube.com/watch?v=yiIHeo7NgsE)
 
-<p class="clip-credit"><strong>Countering the knee slice pass</strong> — taught by Kohbukan Sisu · 0:58 · <a href="https://www.youtube.com/watch?v=yiIHeo7NgsE" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=xDZucxFVK48)
-
-<p class="clip-credit"><strong>Defending the knee slice from quarter guard</strong> — taught by Jean Jacques Machado · 4:35 · <a href="https://www.youtube.com/watch?v=xDZucxFVK48" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Knee Slice Pass Counter</strong> · 0:58 · <a href="https://www.youtube.com/watch?v=yiIHeo7NgsE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

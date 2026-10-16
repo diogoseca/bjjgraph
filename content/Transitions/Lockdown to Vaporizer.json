@@ -378,30 +378,11 @@
     "clips": [
       {
         "id": "8ZgEL2zU_jg",
-        "title": "Lockdown to vaporizer entry",
-        "by": "Axel Collazo",
-        "vertical": false,
+        "title": "Lockdown to Vaporizer",
         "channel": "Axel Collazo",
         "duration": 98,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "dLIqO90Ix7o",
-        "title": "Quarter guard to vaporizer breakdown",
-        "by": "Superhero Jiu Jitsu",
         "vertical": false,
-        "channel": "Superhero Jiu Jitsu Academy ",
-        "duration": 113,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "OIr4wDxl-Ys",
-        "title": "Lockdown clinch details",
-        "by": "Eddie Bravo",
-        "vertical": false,
-        "channel": "Eddie Bravo",
-        "duration": 60,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },
@@ -571,25 +552,6 @@
         "description": "Positional sparring starting from lockdown. Bottom player attempts Vaporizer transition and all follow-up attacks. Top player must deny the Vaporizer, extract the trapped leg, and begin passing. Track success rates to identify remaining weaknesses in the defensive chain."
       }
     ],
-    "clips": [
-      {
-        "id": "Y4eC_7dtzOA",
-        "title": "Passing and shutting down the lockdown",
-        "by": "Peter Mettler",
-        "vertical": false,
-        "channel": "Peter Mettler Martial Arts",
-        "duration": 73,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "acUhM7o4YKI",
-        "title": "How to stop the half guard lockdown",
-        "by": "Wim Deputter",
-        "vertical": false,
-        "channel": "Wim Deputter BJJ",
-        "duration": 719,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

@@ -160,35 +160,12 @@ description: "Learn to defend the Lasso Guard Stack Pass in BJJ. Recognition cue
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Grip chain for guard retention",
-      "description": "Lasso Guard Stack Pass (Defender) film study: Grip chain for guard retention, taught by Xande Ribeiro.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/T_GhZe_MOWI/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/T_GhZe_MOWI",
-      "url": "https://www.youtube.com/watch?v=T_GhZe_MOWI",
-      "creator": { "@type": "Person", "name": "Xande Ribeiro" },
-      "duration": "PT174S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
       "name": "Guard Retention Against Stack Passing",
-      "description": "Lasso Guard Stack Pass (Defender) film study: Guard Retention Against Stack Passing, taught by Jon Thomas.",
+      "description": "Lasso Guard Stack Pass (Defender) film study: Guard Retention Against Stack Passing.",
       "thumbnailUrl": "https://i.ytimg.com/vi/DMUuThQPX4M/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/DMUuThQPX4M",
       "url": "https://www.youtube.com/watch?v=DMUuThQPX4M",
-      "creator": { "@type": "Person", "name": "Jon Thomas" },
-      "duration": "PT303S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Top 5 Guard Retention Mistakes",
-      "description": "Lasso Guard Stack Pass (Defender) film study: Top 5 Guard Retention Mistakes, taught by Lachlan Giles and Ariel Tabak.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/iTrQzYeCvHM/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/iTrQzYeCvHM",
-      "url": "https://www.youtube.com/watch?v=iTrQzYeCvHM",
-      "creator": { "@type": "Person", "name": "Lachlan Giles and Ariel Tabak" },
-      "duration": "PT436S"
+      "duration": "PT302S"
     }
   ]
 }
@@ -216,25 +193,9 @@ Defending the Lasso Guard Stack Pass requires early recognition of the passer's 
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=T_GhZe_MOWI)
-
-<p class="clip-credit"><strong>Grip chain for guard retention</strong> — taught by Xande Ribeiro · 2:54 · <a href="https://www.youtube.com/watch?v=T_GhZe_MOWI" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=DMUuThQPX4M)
 
-<p class="clip-credit"><strong>Guard Retention Against Stack Passing</strong> — taught by Jon Thomas · 5:03 · <a href="https://www.youtube.com/watch?v=DMUuThQPX4M" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=iTrQzYeCvHM)
-
-<p class="clip-credit"><strong>Top 5 Guard Retention Mistakes</strong> — taught by Lachlan Giles and Ariel Tabak · 7:16 · <a href="https://www.youtube.com/watch?v=iTrQzYeCvHM" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Guard Retention Against Stack Passing</strong> · 5:02 · <a href="https://www.youtube.com/watch?v=DMUuThQPX4M" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

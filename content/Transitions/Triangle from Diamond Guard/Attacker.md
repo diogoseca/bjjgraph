@@ -186,35 +186,12 @@ description: "Execute the triangle setup from Diamond Guard. Step-by-step guide 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "High guard attacks with no escape",
-      "description": "Triangle from Diamond Guard (Attacker) film study: High guard attacks with no escape, taught by Avant-Garde BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/VtSbv2sWvEw/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/VtSbv2sWvEw",
-      "url": "https://www.youtube.com/watch?v=VtSbv2sWvEw",
-      "creator": { "@type": "Person", "name": "Avant-Garde BJJ" },
-      "duration": "PT83S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "High guard attack entry",
-      "description": "Triangle from Diamond Guard (Attacker) film study: High guard attack entry, taught by Animal.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/4yoxzSAXe3A/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/4yoxzSAXe3A",
-      "url": "https://www.youtube.com/watch?v=4yoxzSAXe3A",
-      "creator": { "@type": "Person", "name": "Animal" },
-      "duration": "PT51S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Diamond guard setup and two attacks",
-      "description": "Triangle from Diamond Guard (Attacker) film study: Diamond guard setup and two attacks, taught by Caron Jiu Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/oqR6MLjUrd4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/oqR6MLjUrd4",
-      "url": "https://www.youtube.com/watch?v=oqR6MLjUrd4",
-      "creator": { "@type": "Person", "name": "Caron Jiu Jitsu" },
-      "duration": "PT252S"
+      "name": "TOTW: Diamond Guard Triangle",
+      "description": "Triangle from Diamond Guard (Attacker) film study: TOTW: Diamond Guard Triangle.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8Ur9ZQekGXo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8Ur9ZQekGXo",
+      "url": "https://www.youtube.com/watch?v=8Ur9ZQekGXo",
+      "duration": "PT76S"
     }
   ]
 }
@@ -242,25 +219,9 @@ As the attacker executing the triangle from Diamond Guard, you are leveraging an
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=VtSbv2sWvEw)
+![](https://www.youtube.com/watch?v=8Ur9ZQekGXo)
 
-<p class="clip-credit"><strong>High guard attacks with no escape</strong> — taught by Avant-Garde BJJ · 1:23 · <a href="https://www.youtube.com/watch?v=VtSbv2sWvEw" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=4yoxzSAXe3A)
-
-<p class="clip-credit"><strong>High guard attack entry</strong> — taught by Animal · 0:51 · <a href="https://www.youtube.com/watch?v=4yoxzSAXe3A" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=oqR6MLjUrd4)
-
-<p class="clip-credit"><strong>Diamond guard setup and two attacks</strong> — taught by Caron Jiu Jitsu · 4:12 · <a href="https://www.youtube.com/watch?v=oqR6MLjUrd4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>TOTW: Diamond Guard Triangle</strong> · 1:16 · <a href="https://www.youtube.com/watch?v=8Ur9ZQekGXo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

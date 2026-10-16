@@ -389,30 +389,11 @@
     "clips": [
       {
         "id": "aX87dPPVcGU",
-        "title": "Cross body ride back take vs turtle",
-        "by": "Paul McVeigh",
-        "vertical": false,
+        "title": "Cross body ride back take vs turtle 1440p",
         "channel": "Paul Mcveigh",
-        "duration": 107,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "h3C7rZzKHVY",
-        "title": "Cross body ride entry from knee shield",
-        "by": "Bowerhouse MMA",
+        "duration": 106,
         "vertical": false,
-        "channel": "BOWERHOUSE MMA",
-        "duration": 25,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "4U7fN1DNk4A",
-        "title": "Cross body ride entry vs seated opponent",
-        "by": "Bowerhouse MMA",
-        "vertical": false,
-        "channel": "BOWERHOUSE MMA",
-        "duration": 38,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },
@@ -592,34 +573,6 @@
         "description": "Positional sparring starting from cross body ride bottom. Defender scores points for preventing back take or escaping to guard. Attacker scores for completing the back take. Full resistance with realistic intensity and scrambling. Develops the timing, explosiveness, and decision-making needed for live application."
       }
     ],
-    "clips": [
-      {
-        "id": "waVFl1Ip6VU",
-        "title": "Turtle back escape by shrugging",
-        "by": "Andy Tong",
-        "vertical": false,
-        "channel": "Andy Tong",
-        "duration": 33,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "dHanNAj6B80",
-        "title": "Turtle escape from back control",
-        "by": "Adnan Sadiq",
-        "vertical": false,
-        "channel": "Adnan Sadiq",
-        "duration": 38,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "OltjLaTW3wQ",
-        "title": "Three ways to defend the back take",
-        "by": "Roberto \"Cyborg\" Abreu",
-        "vertical": false,
-        "channel": "Cyborg BJJ",
-        "duration": 89,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

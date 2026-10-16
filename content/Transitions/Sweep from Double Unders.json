@@ -375,21 +375,11 @@
     "clips": [
       {
         "id": "uILaTRBgpG0",
-        "title": "Sweep from the bottom of the double under pass",
-        "by": "Smith",
-        "vertical": false,
+        "title": "Defense sweep from the double under pass",
         "channel": "Smith ♞ | Brazilian Jiu-jitsu",
         "duration": 28,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "ueOxMz2wlRo",
-        "title": "Double under pass counter with hooks on the thighs",
-        "by": "Smith",
         "vertical": false,
-        "channel": "Smith ♞ | Brazilian Jiu-jitsu",
-        "duration": 19,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },
@@ -568,25 +558,6 @@
         "description": "Positional sparring from double unders with partner fully committed to sweep attempts. Top player works to complete the pass while defending sweeps. Track success rates for sweep defense and passing completion. Develop comfort maintaining offensive pressure while remaining defensively aware of sweep threats."
       }
     ],
-    "clips": [
-      {
-        "id": "vXSyHH514Gs",
-        "title": "Three ways to counter the double under pass",
-        "by": "Dom",
-        "vertical": false,
-        "channel": "Dubious Dom",
-        "duration": 115,
-        "verified": "2026-07-16"
-      },
-      {
-        "id": "HoFMu4LXLt4",
-        "title": "Double unders pass defense with elbow push",
-        "by": "Satori BJJ coach",
-        "vertical": false,
-        "channel": "Satori BJJ",
-        "duration": 53,
-        "verified": "2026-07-16"
-      }
-    ]
+    "clips": []
   }
 }

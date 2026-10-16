@@ -46,23 +46,11 @@ description: "Master the Guillotine Choke from Butterfly Guard. Learn hook eleva
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Guillotine from Butterfly Guard",
-      "description": "Guillotine Choke from Butterfly Guard film study: Guillotine from Butterfly Guard, taught by Jake Shields.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/SAWvSovVk4A/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/SAWvSovVk4A",
-      "url": "https://www.youtube.com/watch?v=SAWvSovVk4A",
-      "creator": { "@type": "Person", "name": "Jake Shields" },
-      "duration": "PT64S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
       "name": "Guillotine Choke from Butterfly Guard",
-      "description": "Guillotine Choke from Butterfly Guard film study: Guillotine Choke from Butterfly Guard, taught by Modesto Judo Club.",
+      "description": "Guillotine Choke from Butterfly Guard film study: Guillotine Choke from Butterfly Guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Z75kDSCIeN4/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Z75kDSCIeN4",
       "url": "https://www.youtube.com/watch?v=Z75kDSCIeN4",
-      "creator": { "@type": "Person", "name": "Modesto Judo Club" },
       "duration": "PT76S"
     }
   ]
@@ -126,17 +114,9 @@ Strategically, the butterfly guillotine serves as a critical deterrent against a
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=SAWvSovVk4A)
-
-<p class="clip-credit"><strong>Guillotine from Butterfly Guard</strong> — taught by Jake Shields · 1:04 · <a href="https://www.youtube.com/watch?v=SAWvSovVk4A" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=Z75kDSCIeN4)
 
-<p class="clip-credit"><strong>Guillotine Choke from Butterfly Guard</strong> — taught by Modesto Judo Club · 1:16 · <a href="https://www.youtube.com/watch?v=Z75kDSCIeN4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Guillotine Choke from Butterfly Guard</strong> · 1:16 · <a href="https://www.youtube.com/watch?v=Z75kDSCIeN4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -323,21 +323,18 @@
     "clips": [
       {
         "id": "dJOw0ZEyXXc",
-        "title": "Triangle choke posture-up escape",
-        "by": "Cosens MMA",
-        "vertical": false,
+        "title": "Triangle choke from Guard \"Posture Up Escape",
         "channel": "Cosens MMA LLC",
-        "duration": 73,
-        "verified": "2026-07-14"
+        "duration": 72,
+        "vertical": false,
+        "front": true
       },
       {
         "id": "sR2rS2dwpNY",
-        "title": "How to escape the triangle choke",
-        "by": "Rener & Ryron Gracie",
-        "vertical": false,
+        "title": "How To Escape a Triangle Choke w/ Rener & Ryron Gracie",
         "channel": "Hayabusa",
         "duration": 117,
-        "verified": "2026-07-14"
+        "vertical": false
       }
     ]
   },
@@ -627,22 +624,12 @@
     ],
     "clips": [
       {
-        "id": "rQz3tjQZzjY",
-        "title": "Closed guard triangle inside entry",
-        "by": "Ritchie Yip",
+        "id": "UGp6VzbkReA",
+        "title": "Triangle Choke: The Detail That Changes Everything ( Complete Guide )",
+        "channel": "JonThomasBJJ",
+        "duration": 735,
         "vertical": false,
-        "channel": "Ritchie Yip",
-        "duration": 44,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "Gz1lhRuIQHk",
-        "title": "Wristlock triangle finish",
-        "by": "ZombieProofBJJ",
-        "vertical": false,
-        "channel": "ZombieProofBJJ",
-        "duration": 47,
-        "verified": "2026-07-14"
+        "front": true
       }
     ]
   },
@@ -860,24 +847,5 @@
       }
     }
   ],
-  "clips": [
-    {
-      "id": "OC8IOTnsETk",
-      "title": "Triangle attack overview",
-      "by": "Craig Jones",
-      "vertical": false,
-      "channel": "Denver Seminars",
-      "duration": 61,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "8-hYlvwOqgU",
-      "title": "Triangle choke for short legs (S-mount)",
-      "by": "Submission Radio",
-      "vertical": false,
-      "channel": "Submission Radio",
-      "duration": 105,
-      "verified": "2026-07-14"
-    }
-  ]
+  "clips": []
 }

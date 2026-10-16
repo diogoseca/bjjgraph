@@ -46,24 +46,12 @@ description: "Master the Sweep from Double Unders in BJJ. Learn to use your oppo
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Sweep from the bottom of the double under pass",
-      "description": "Sweep from Double Unders film study: Sweep from the bottom of the double under pass, taught by Smith.",
+      "name": "Defense sweep from the double under pass",
+      "description": "Sweep from Double Unders film study: Defense sweep from the double under pass.",
       "thumbnailUrl": "https://i.ytimg.com/vi/uILaTRBgpG0/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/uILaTRBgpG0",
       "url": "https://www.youtube.com/watch?v=uILaTRBgpG0",
-      "creator": { "@type": "Person", "name": "Smith" },
       "duration": "PT28S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Double under pass counter with hooks on the thighs",
-      "description": "Sweep from Double Unders film study: Double under pass counter with hooks on the thighs, taught by Smith.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/ueOxMz2wlRo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/ueOxMz2wlRo",
-      "url": "https://www.youtube.com/watch?v=ueOxMz2wlRo",
-      "creator": { "@type": "Person", "name": "Smith" },
-      "duration": "PT19S"
     }
   ]
 }
@@ -119,15 +107,7 @@ This sweep occupies a unique position in the double unders defensive hierarchy. 
 
 ![](https://www.youtube.com/watch?v=uILaTRBgpG0)
 
-<p class="clip-credit"><strong>Sweep from the bottom of the double under pass</strong> — taught by Smith · 0:28 · <a href="https://www.youtube.com/watch?v=uILaTRBgpG0" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=ueOxMz2wlRo)
-
-<p class="clip-credit"><strong>Double under pass counter with hooks on the thighs</strong> — taught by Smith · 0:19 · <a href="https://www.youtube.com/watch?v=ueOxMz2wlRo" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Defense sweep from the double under pass</strong> · 0:28 · <a href="https://www.youtube.com/watch?v=uILaTRBgpG0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

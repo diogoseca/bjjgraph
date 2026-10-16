@@ -46,35 +46,22 @@ description: "Master posture recovery to escape triangle chokes in BJJ. Step-by-
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Posture up escape from the triangle choke",
-      "description": "Posture in Triangle Escape film study: Posture up escape from the triangle choke, taught by Cosens MMA.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/dJOw0ZEyXXc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/dJOw0ZEyXXc",
-      "url": "https://www.youtube.com/watch?v=dJOw0ZEyXXc",
-      "creator": { "@type": "Person", "name": "Cosens MMA" },
-      "duration": "PT73S"
+      "name": "Triangle Choke Escape #3 Hips Down, Posture Up",
+      "description": "Posture in Triangle Escape film study: Triangle Choke Escape #3 Hips Down, Posture Up.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/HLWwfq8FNMI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/HLWwfq8FNMI",
+      "url": "https://www.youtube.com/watch?v=HLWwfq8FNMI",
+      "duration": "PT18S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Triangle escape: hips down, posture up",
-      "description": "Posture in Triangle Escape film study: Triangle escape: hips down, posture up, taught by Mat Life Training Center.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/HLWwfq8FNMI/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/HLWwfq8FNMI",
-      "url": "https://www.youtube.com/watch?v=HLWwfq8FNMI",
-      "creator": { "@type": "Person", "name": "Mat Life Training Center" },
-      "duration": "PT19S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Posturing up inside a gi triangle",
-      "description": "Posture in Triangle Escape film study: Posturing up inside a gi triangle, taught by Simple JiuJitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/wuu5WWcNfY0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/wuu5WWcNfY0",
-      "url": "https://www.youtube.com/watch?v=wuu5WWcNfY0",
-      "creator": { "@type": "Person", "name": "Simple JiuJitsu" },
-      "duration": "PT88S"
+      "name": "Triangle choke from Guard \"Posture Up Escape",
+      "description": "Posture in Triangle Escape film study: Triangle choke from Guard \"Posture Up Escape.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dJOw0ZEyXXc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dJOw0ZEyXXc",
+      "url": "https://www.youtube.com/watch?v=dJOw0ZEyXXc",
+      "duration": "PT73S"
     }
   ]
 }
@@ -128,25 +115,17 @@ Timing is the primary determinant of success rate, outweighing physical attribut
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=dJOw0ZEyXXc)
-
-<p class="clip-credit"><strong>Posture up escape from the triangle choke</strong> — taught by Cosens MMA · 1:13 · <a href="https://www.youtube.com/watch?v=dJOw0ZEyXXc" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=HLWwfq8FNMI)
 
-<p class="clip-credit"><strong>Triangle escape: hips down, posture up</strong> — taught by Mat Life Training Center · 0:19 · <a href="https://www.youtube.com/watch?v=HLWwfq8FNMI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Triangle Choke Escape #3 Hips Down, Posture Up</strong> · 0:18 · <a href="https://www.youtube.com/watch?v=HLWwfq8FNMI" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=wuu5WWcNfY0)
+![](https://www.youtube.com/watch?v=dJOw0ZEyXXc)
 
-<p class="clip-credit"><strong>Posturing up inside a gi triangle</strong> — taught by Simple JiuJitsu · 1:28 · <a href="https://www.youtube.com/watch?v=wuu5WWcNfY0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Triangle choke from Guard &#34;Posture Up Escape</strong> · 1:13 · <a href="https://www.youtube.com/watch?v=dJOw0ZEyXXc" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

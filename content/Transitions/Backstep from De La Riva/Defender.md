@@ -154,35 +154,22 @@ description: "Complete guide to defending the backstep from your De La Riva Guar
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Defending the backstep pass from De La Riva",
-      "description": "Backstep from De La Riva (Defender) film study: Defending the backstep pass from De La Riva, taught by Inverted Gear.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/a3ModDEKY6s/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/a3ModDEKY6s",
-      "url": "https://www.youtube.com/watch?v=a3ModDEKY6s",
-      "creator": { "@type": "Person", "name": "Inverted Gear" },
-      "duration": "PT145S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Countering the Back Step with the Waiter Position",
-      "description": "Backstep from De La Riva (Defender) film study: Countering the Back Step with the Waiter Position, taught by Factory Fresh Jiu Jitsu.",
+      "name": "DLR to Back | They Back Step | We go to Waiter Position | Then to Modified\u2026",
+      "description": "Backstep from De La Riva (Defender) film study: DLR to Back | They Back Step | We go to Waiter Position | Then to Modified\u2026.",
       "thumbnailUrl": "https://i.ytimg.com/vi/CT0Q1hDPeWQ/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/CT0Q1hDPeWQ",
       "url": "https://www.youtube.com/watch?v=CT0Q1hDPeWQ",
-      "creator": { "@type": "Person", "name": "Factory Fresh Jiu Jitsu" },
       "duration": "PT23S"
     },
     {
       "@type": "VideoObject",
-      "position": 3,
-      "name": "Deep De La Riva Counter to the Long Step",
-      "description": "Backstep from De La Riva (Defender) film study: Deep De La Riva Counter to the Long Step, taught by Carpio Jiu Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/6td9ZiochpY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/6td9ZiochpY",
-      "url": "https://www.youtube.com/watch?v=6td9ZiochpY",
-      "creator": { "@type": "Person", "name": "Carpio Jiu Jitsu" },
-      "duration": "PT80S"
+      "position": 2,
+      "name": "Defending against backstep pass to De la Riva",
+      "description": "Backstep from De La Riva (Defender) film study: Defending against backstep pass to De la Riva.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/a3ModDEKY6s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/a3ModDEKY6s",
+      "url": "https://www.youtube.com/watch?v=a3ModDEKY6s",
+      "duration": "PT145S"
     }
   ]
 }
@@ -210,25 +197,17 @@ As the defender in the backstep from De La Riva scenario, you are the DLR guard 
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=a3ModDEKY6s)
-
-<p class="clip-credit"><strong>Defending the backstep pass from De La Riva</strong> — taught by Inverted Gear · 2:25 · <a href="https://www.youtube.com/watch?v=a3ModDEKY6s" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=CT0Q1hDPeWQ)
 
-<p class="clip-credit"><strong>Countering the Back Step with the Waiter Position</strong> — taught by Factory Fresh Jiu Jitsu · 0:23 · <a href="https://www.youtube.com/watch?v=CT0Q1hDPeWQ" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>DLR to Back | They Back Step | We go to Waiter Position | Then to Modified…</strong> · 0:23 · <a href="https://www.youtube.com/watch?v=CT0Q1hDPeWQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=6td9ZiochpY)
+![](https://www.youtube.com/watch?v=a3ModDEKY6s)
 
-<p class="clip-credit"><strong>Deep De La Riva Counter to the Long Step</strong> — taught by Carpio Jiu Jitsu · 1:20 · <a href="https://www.youtube.com/watch?v=6td9ZiochpY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Defending against backstep pass to De la Riva</strong> · 2:25 · <a href="https://www.youtube.com/watch?v=a3ModDEKY6s" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

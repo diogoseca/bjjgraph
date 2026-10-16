@@ -194,23 +194,21 @@ description: "Complete attacking guide for finishing the Americana shoulder lock
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Scarf Hold Americana",
-      "description": "Americana from Kesa Gatame (Attacker) film study: Scarf Hold Americana, taught by Fensom Jiu Jitsu.",
+      "name": "Scarf hold Americana",
+      "description": "Americana from Kesa Gatame (Attacker) film study: Scarf hold Americana.",
       "thumbnailUrl": "https://i.ytimg.com/vi/M7KvRNUC7FE/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/M7KvRNUC7FE",
       "url": "https://www.youtube.com/watch?v=M7KvRNUC7FE",
-      "creator": { "@type": "Person", "name": "Fensom Jiu Jitsu" },
-      "duration": "PT105S"
+      "duration": "PT104S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Modified Americana Grip",
-      "description": "Americana from Kesa Gatame (Attacker) film study: Modified Americana Grip, taught by BJJ After Forty.",
+      "description": "Americana from Kesa Gatame (Attacker) film study: Modified Americana Grip.",
       "thumbnailUrl": "https://i.ytimg.com/vi/SkFE9CBKvsA/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/SkFE9CBKvsA",
       "url": "https://www.youtube.com/watch?v=SkFE9CBKvsA",
-      "creator": { "@type": "Person", "name": "BJJ After Forty" },
       "duration": "PT61S"
     }
   ]
@@ -242,7 +240,7 @@ Executing the Americana from Kesa Gatame requires precise sequencing of grip tra
 
 ![](https://www.youtube.com/watch?v=M7KvRNUC7FE)
 
-<p class="clip-credit"><strong>Scarf Hold Americana</strong> — taught by Fensom Jiu Jitsu · 1:45 · <a href="https://www.youtube.com/watch?v=M7KvRNUC7FE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Scarf hold Americana</strong> · 1:44 · <a href="https://www.youtube.com/watch?v=M7KvRNUC7FE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -250,7 +248,7 @@ Executing the Americana from Kesa Gatame requires precise sequencing of grip tra
 
 ![](https://www.youtube.com/watch?v=SkFE9CBKvsA)
 
-<p class="clip-credit"><strong>Modified Americana Grip</strong> — taught by BJJ After Forty · 1:01 · <a href="https://www.youtube.com/watch?v=SkFE9CBKvsA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Modified Americana Grip</strong> · 1:01 · <a href="https://www.youtube.com/watch?v=SkFE9CBKvsA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

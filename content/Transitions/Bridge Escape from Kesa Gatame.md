@@ -46,23 +46,11 @@ description: "Master the bridge escape from Kesa Gatame in BJJ. Complete guide t
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Kesa gatame escape",
-      "description": "Bridge Escape from Kesa Gatame film study: Kesa gatame escape, taught by SBG Australia.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/2M_6VytUaus/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/2M_6VytUaus",
-      "url": "https://www.youtube.com/watch?v=2M_6VytUaus",
-      "creator": { "@type": "Person", "name": "SBG Australia" },
-      "duration": "PT43S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Kesa gatame bridge escape to armbar",
-      "description": "Bridge Escape from Kesa Gatame film study: Kesa gatame bridge escape to armbar, taught by Ivan Chumakov.",
+      "name": "Kesa-gatame bridge escape to armbar",
+      "description": "Bridge Escape from Kesa Gatame film study: Kesa-gatame bridge escape to armbar.",
       "thumbnailUrl": "https://i.ytimg.com/vi/PfkG6R7bbeo/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/PfkG6R7bbeo",
       "url": "https://www.youtube.com/watch?v=PfkG6R7bbeo",
-      "creator": { "@type": "Person", "name": "Ivan Chumakov" },
       "duration": "PT171S"
     }
   ]
@@ -117,17 +105,9 @@ Within the broader Kesa Gatame escape framework, the bridge escape creates a val
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=2M_6VytUaus)
-
-<p class="clip-credit"><strong>Kesa gatame escape</strong> — taught by SBG Australia · 0:43 · <a href="https://www.youtube.com/watch?v=2M_6VytUaus" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=PfkG6R7bbeo)
 
-<p class="clip-credit"><strong>Kesa gatame bridge escape to armbar</strong> — taught by Ivan Chumakov · 2:51 · <a href="https://www.youtube.com/watch?v=PfkG6R7bbeo" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Kesa-gatame bridge escape to armbar</strong> · 2:51 · <a href="https://www.youtube.com/watch?v=PfkG6R7bbeo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

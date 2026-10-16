@@ -382,35 +382,7 @@
       }
     ],
     "safety_considerations": "The mounted triangle squeeze involves significant cervical compression and carotid artery pressure. Apply squeeze progressively and never explosively jerk or spike the compression. In training, squeeze incrementally and give your partner time to tap. Be aware that the combination of mount weight and triangle squeeze can create tracheal pressure in addition to carotid compression. Release immediately upon tap, verbal submission, or any sign of loss of consciousness. Avoid cranking the neck laterally during angle adjustments. Partners should tap early when they feel the squeeze take effect rather than fighting through significant pressure.",
-    "clips": [
-      {
-        "id": "yBHU4resLgc",
-        "title": "Triangle squeeze finishing mechanics",
-        "by": "Daniel Wanderley",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 93,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "zuJkiUU2djs",
-        "title": "Triangle choke finish with the arm in",
-        "by": "Thunderdome BJJ",
-        "vertical": false,
-        "channel": "Thunderdome BJJ",
-        "duration": 47,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "uE8JGma_Y80",
-        "title": "Finishing the triangle without closing the legs",
-        "by": "Mr. NogiJiujitsu",
-        "vertical": false,
-        "channel": "Mr. NogiJiujitsu",
-        "duration": 90,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Mounted Triangle Squeeze Defender",
@@ -574,34 +546,6 @@
         "description": "Start in mounted triangle with attacker working full squeeze-to-finish sequence. Defender practices survival and escape against unrestricted technique. Track time survived and escapes achieved. Build the confidence and technical resilience needed to defend the squeeze in live rolling."
       }
     ],
-    "clips": [
-      {
-        "id": "sR2rS2dwpNY",
-        "title": "How to escape a triangle choke",
-        "by": "Rener and Ryron Gracie",
-        "vertical": false,
-        "channel": "Hayabusa",
-        "duration": 117,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "djm7BIQksOQ",
-        "title": "How to defend the mounted triangle",
-        "by": "RVV BJJ",
-        "vertical": false,
-        "channel": "RVV BJJ",
-        "duration": 194,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "Ss49jnCob0w",
-        "title": "Avoiding and defending the triangle choke",
-        "by": "Lachlan Giles",
-        "vertical": false,
-        "channel": "Absolute MMA St Kilda - Melbourne",
-        "duration": 775,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

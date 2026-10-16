@@ -156,24 +156,12 @@ description: "Defend against the kneebar from Inside Sankaku. Recognition cues, 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "How to Defend a Kneebar",
-      "description": "Kneebar from Inside Sankaku (Defender) film study: How to Defend a Kneebar, taught by Revolution BJJ.",
+      "name": "How to Defend a Kneebar (and Prevent a Backstep Pass)",
+      "description": "Kneebar from Inside Sankaku (Defender) film study: How to Defend a Kneebar (and Prevent a Backstep Pass).",
       "thumbnailUrl": "https://i.ytimg.com/vi/wBRG0fY94fs/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/wBRG0fY94fs",
       "url": "https://www.youtube.com/watch?v=wBRG0fY94fs",
-      "creator": { "@type": "Person", "name": "Revolution BJJ" },
       "duration": "PT59S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Leg Lock Defense from the Saddle",
-      "description": "Kneebar from Inside Sankaku (Defender) film study: Leg Lock Defense from the Saddle, taught by Kuwy Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/m0NLphEuFoc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/m0NLphEuFoc",
-      "url": "https://www.youtube.com/watch?v=m0NLphEuFoc",
-      "creator": { "@type": "Person", "name": "Kuwy Jitsu" },
-      "duration": "PT61S"
     }
   ]
 }
@@ -204,15 +192,7 @@ Defending the kneebar from Inside Sankaku requires recognizing the grip transiti
 
 ![](https://www.youtube.com/watch?v=wBRG0fY94fs)
 
-<p class="clip-credit"><strong>How to Defend a Kneebar</strong> — taught by Revolution BJJ · 0:59 · <a href="https://www.youtube.com/watch?v=wBRG0fY94fs" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=m0NLphEuFoc)
-
-<p class="clip-credit"><strong>Leg Lock Defense from the Saddle</strong> — taught by Kuwy Jitsu · 1:01 · <a href="https://www.youtube.com/watch?v=m0NLphEuFoc" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How to Defend a Kneebar (and Prevent a Backstep Pass)</strong> · 0:59 · <a href="https://www.youtube.com/watch?v=wBRG0fY94fs" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

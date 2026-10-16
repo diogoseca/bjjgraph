@@ -46,24 +46,12 @@ description: "Master the Russian Tie to Back Take in BJJ. Step-by-step execution
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "2-on-1 drag behind to the back",
-      "description": "Russian Tie to Back Take film study: 2-on-1 drag behind to the back, taught by Alec Pantaleo.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/iE9Ap8vUYWQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/iE9Ap8vUYWQ",
-      "url": "https://www.youtube.com/watch?v=iE9Ap8vUYWQ",
-      "creator": { "@type": "Person", "name": "Alec Pantaleo" },
-      "duration": "PT169S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Russian 2-on-1 mechanics and common errors",
-      "description": "Russian Tie to Back Take film study: Russian 2-on-1 mechanics and common errors, taught by Shintaro Higashi.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/RtJPzUBgCIs/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/RtJPzUBgCIs",
-      "url": "https://www.youtube.com/watch?v=RtJPzUBgCIs",
-      "creator": { "@type": "Person", "name": "Shintaro Higashi" },
-      "duration": "PT177S"
+      "name": "Cody Floyd teaches Russian Tie Back Take \ud83d\udc40",
+      "description": "Russian Tie to Back Take film study: Cody Floyd teaches Russian Tie Back Take \ud83d\udc40.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/NFRtUW5ZIvo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/NFRtUW5ZIvo",
+      "url": "https://www.youtube.com/watch?v=NFRtUW5ZIvo",
+      "duration": "PT55S"
     }
   ]
 }
@@ -117,17 +105,9 @@ The technique bridges standing wrestling and ground-based jiu-jitsu by convertin
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=iE9Ap8vUYWQ)
+![](https://www.youtube.com/watch?v=NFRtUW5ZIvo)
 
-<p class="clip-credit"><strong>2-on-1 drag behind to the back</strong> — taught by Alec Pantaleo · 2:49 · <a href="https://www.youtube.com/watch?v=iE9Ap8vUYWQ" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=RtJPzUBgCIs)
-
-<p class="clip-credit"><strong>Russian 2-on-1 mechanics and common errors</strong> — taught by Shintaro Higashi · 2:57 · <a href="https://www.youtube.com/watch?v=RtJPzUBgCIs" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Cody Floyd teaches Russian Tie Back Take 👀</strong> · 0:55 · <a href="https://www.youtube.com/watch?v=NFRtUW5ZIvo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

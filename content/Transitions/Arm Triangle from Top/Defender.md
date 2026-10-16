@@ -160,24 +160,12 @@ description: "How to defend against Arm Triangle from Top in BJJ. Recognition cu
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Fastest escape out of the arm triangle",
-      "description": "Arm Triangle from Top (Defender) film study: Fastest escape out of the arm triangle, taught by Adam Bradley.",
+      "name": "The Fastest Escape Out Of The Arm Triangle",
+      "description": "Arm Triangle from Top (Defender) film study: The Fastest Escape Out Of The Arm Triangle.",
       "thumbnailUrl": "https://i.ytimg.com/vi/D2vkZGTD78I/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/D2vkZGTD78I",
       "url": "https://www.youtube.com/watch?v=D2vkZGTD78I",
-      "creator": { "@type": "Person", "name": "Adam Bradley" },
       "duration": "PT31S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Best arm triangle escape",
-      "description": "Arm Triangle from Top (Defender) film study: Best arm triangle escape, taught by ZombieProofBJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/n_2zR6BaF8A/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/n_2zR6BaF8A",
-      "url": "https://www.youtube.com/watch?v=n_2zR6BaF8A",
-      "creator": { "@type": "Person", "name": "ZombieProofBJJ" },
-      "duration": "PT58S"
     }
   ]
 }
@@ -211,15 +199,7 @@ Once the choke is fully locked with the attacker sprawled on the finishing side,
 
 ![](https://www.youtube.com/watch?v=D2vkZGTD78I)
 
-<p class="clip-credit"><strong>Fastest escape out of the arm triangle</strong> — taught by Adam Bradley · 0:31 · <a href="https://www.youtube.com/watch?v=D2vkZGTD78I" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=n_2zR6BaF8A)
-
-<p class="clip-credit"><strong>Best arm triangle escape</strong> — taught by ZombieProofBJJ · 0:58 · <a href="https://www.youtube.com/watch?v=n_2zR6BaF8A" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>The Fastest Escape Out Of The Arm Triangle</strong> · 0:31 · <a href="https://www.youtube.com/watch?v=D2vkZGTD78I" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

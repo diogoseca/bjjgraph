@@ -395,30 +395,18 @@
     "clips": [
       {
         "id": "ynFpOlFWdLw",
-        "title": "Passing reverse de la riva",
-        "by": "Ronin Training Center",
-        "vertical": false,
+        "title": "RTC | Passing Reverse De La Riva",
         "channel": "Ronin Training Center",
         "duration": 68,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "F5S-CtME6_U",
-        "title": "Reverse de la riva passing drills",
-        "by": "Carlos Miller",
         "vertical": false,
-        "channel": "Flow Academy Bjj ",
-        "duration": 67,
-        "verified": "2026-07-15"
+        "front": true
       },
       {
         "id": "IdfQWVHikws",
-        "title": "Passing reverse de la riva with a shin slice",
-        "by": "BJJ4Breakfast",
-        "vertical": false,
+        "title": "Passing the reverse de la riva with a shin slice",
         "channel": "BJJ4Breakfast",
         "duration": 86,
-        "verified": "2026-07-15"
+        "vertical": false
       }
     ]
   },
@@ -602,35 +590,7 @@
         "description": "Full resistance positional sparring from RDLR guard with 2-3 minute rounds. Both players compete at 100% with the bottom player working to sweep, submit, or take the back while the top player works to pass. Review rounds to identify patterns in defensive decision-making and timing."
       }
     ],
-    "clips": [
-      {
-        "id": "l5KLz636hyo",
-        "title": "Off-balance drill to recover de la riva guard",
-        "by": "BJJ4Breakfast",
-        "vertical": false,
-        "channel": "BJJ4Breakfast",
-        "duration": 99,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "eO0iX_6Whaw",
-        "title": "Tip to improve your de la riva",
-        "by": "Absolute MMA St Kilda",
-        "vertical": false,
-        "channel": "Absolute MMA St Kilda - Melbourne",
-        "duration": 71,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "wLSe23vSbP0",
-        "title": "Tips to make your de la riva unpassable",
-        "by": "Juanjo",
-        "vertical": false,
-        "channel": "Juanjo BJJ Tecnicas y Drills",
-        "duration": 102,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "variants_and_adaptations": [
     {

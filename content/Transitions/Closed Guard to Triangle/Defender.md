@@ -160,35 +160,22 @@ description: "How to defend against Closed Guard to Triangle in BJJ. Recognition
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Posture up escape from the triangle choke",
-      "description": "Closed Guard to Triangle (Defender) film study: Posture up escape from the triangle choke, taught by Cosens MMA.",
+      "name": "Triangle choke from Guard \"Posture Up Escape",
+      "description": "Closed Guard to Triangle (Defender) film study: Triangle choke from Guard \"Posture Up Escape.",
       "thumbnailUrl": "https://i.ytimg.com/vi/dJOw0ZEyXXc/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/dJOw0ZEyXXc",
       "url": "https://www.youtube.com/watch?v=dJOw0ZEyXXc",
-      "creator": { "@type": "Person", "name": "Cosens MMA" },
-      "duration": "PT73S"
+      "duration": "PT72S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Triangle escape driving the knee to the floor",
-      "description": "Closed Guard to Triangle (Defender) film study: Triangle escape driving the knee to the floor, taught by Kei Shin.",
+      "name": "Triangle Escape (Knee to floor)",
+      "description": "Closed Guard to Triangle (Defender) film study: Triangle Escape (Knee to floor).",
       "thumbnailUrl": "https://i.ytimg.com/vi/DAmqUAPPYTc/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/DAmqUAPPYTc",
       "url": "https://www.youtube.com/watch?v=DAmqUAPPYTc",
-      "creator": { "@type": "Person", "name": "Kei Shin" },
       "duration": "PT86S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "How to escape a triangle choke",
-      "description": "Closed Guard to Triangle (Defender) film study: How to escape a triangle choke, taught by Rener and Ryron Gracie.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/sR2rS2dwpNY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/sR2rS2dwpNY",
-      "url": "https://www.youtube.com/watch?v=sR2rS2dwpNY",
-      "creator": { "@type": "Person", "name": "Rener and Ryron Gracie" },
-      "duration": "PT117S"
     }
   ]
 }
@@ -220,7 +207,7 @@ The defender's primary strategic framework centers on posture maintenance and ar
 
 ![](https://www.youtube.com/watch?v=dJOw0ZEyXXc)
 
-<p class="clip-credit"><strong>Posture up escape from the triangle choke</strong> — taught by Cosens MMA · 1:13 · <a href="https://www.youtube.com/watch?v=dJOw0ZEyXXc" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Triangle choke from Guard &#34;Posture Up Escape</strong> · 1:12 · <a href="https://www.youtube.com/watch?v=dJOw0ZEyXXc" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -228,15 +215,7 @@ The defender's primary strategic framework centers on posture maintenance and ar
 
 ![](https://www.youtube.com/watch?v=DAmqUAPPYTc)
 
-<p class="clip-credit"><strong>Triangle escape driving the knee to the floor</strong> — taught by Kei Shin · 1:26 · <a href="https://www.youtube.com/watch?v=DAmqUAPPYTc" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=sR2rS2dwpNY)
-
-<p class="clip-credit"><strong>How to escape a triangle choke</strong> — taught by Rener and Ryron Gracie · 1:57 · <a href="https://www.youtube.com/watch?v=sR2rS2dwpNY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Triangle Escape (Knee to floor)</strong> · 1:26 · <a href="https://www.youtube.com/watch?v=DAmqUAPPYTc" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

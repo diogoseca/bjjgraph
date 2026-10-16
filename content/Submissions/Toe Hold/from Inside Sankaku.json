@@ -438,22 +438,19 @@
     ],
     "clips": [
       {
-        "id": "lyF2GxQrLoQ",
-        "title": "Inside Sankaku Toe Hold and Heel Hook Finishes",
-        "by": "Professor Buck",
+        "id": "srg8HLCGzHU",
+        "title": "411 to toe hold",
+        "channel": "BOWERHOUSE MMA",
+        "duration": 42,
         "vertical": false,
-        "channel": "Professor Buck",
-        "duration": 106,
-        "verified": "2026-07-14"
+        "front": true
       },
       {
-        "id": "Jn_JST6ZJ3o",
-        "title": "Inside Sankaku Entries",
-        "by": "Dynamic Martial Arts Roseburg",
-        "vertical": false,
-        "channel": "Dynamic Martial Arts Roseburg",
-        "duration": 138,
-        "verified": "2026-07-14"
+        "id": "lyF2GxQrLoQ",
+        "title": "Imanari roll to inside sankaku and ashi garami, toe hold and heel hook finishes",
+        "channel": "Professor Buck",
+        "duration": 106,
+        "vertical": false
       }
     ]
   },
@@ -633,30 +630,18 @@
     "clips": [
       {
         "id": "3a9k8-ZcYrk",
-        "title": "How to escape the toe hold",
-        "by": "Gordon Ryan",
-        "vertical": false,
+        "title": "How to escape from toehold by Gordon Ryan",
         "channel": "The King Life",
-        "duration": 106,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "8pCKbDQt3_8",
-        "title": "Toe hold counters",
-        "by": "Lachlan Giles",
+        "duration": 105,
         "vertical": false,
-        "channel": "Absolute MMA St Kilda - Melbourne",
-        "duration": 326,
-        "verified": "2026-07-15"
+        "front": true
       },
       {
         "id": "6-HYU8Pbngg",
-        "title": "K guard vs toe hold and straight foot lock",
-        "by": "Lachlan Giles",
-        "vertical": false,
+        "title": "K guard vs toe hold and straight foot lock (Lachlan Giles)",
         "channel": "Absolute MMA St Kilda - Melbourne",
         "duration": 152,
-        "verified": "2026-07-15"
+        "vertical": false
       }
     ]
   }

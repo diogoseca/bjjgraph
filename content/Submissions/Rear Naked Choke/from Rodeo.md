@@ -46,24 +46,12 @@ description: "Master the Rear Naked Choke from Rodeo Ride in BJJ. Complete guide
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Details on finishing the rear naked choke",
-      "description": "Rear Naked Choke from Rodeo film study: Details on finishing the rear naked choke, taught by Craig Jones.",
+      "name": "Craig Jones: details on finishing the rear naked choke",
+      "description": "Rear Naked Choke from Rodeo film study: Craig Jones: details on finishing the rear naked choke.",
       "thumbnailUrl": "https://i.ytimg.com/vi/8tdVE2zgjXw/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/8tdVE2zgjXw",
       "url": "https://www.youtube.com/watch?v=8tdVE2zgjXw",
-      "creator": { "@type": "Person", "name": "Craig Jones" },
       "duration": "PT57S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Rodeo choke from the back",
-      "description": "Rear Naked Choke from Rodeo film study: Rodeo choke from the back, taught by Ethos Jiu-Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/6MhcPYISQDU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/6MhcPYISQDU",
-      "url": "https://www.youtube.com/watch?v=6MhcPYISQDU",
-      "creator": { "@type": "Person", "name": "Ethos Jiu-Jitsu" },
-      "duration": "PT85S"
     }
   ]
 }
@@ -128,15 +116,7 @@ This submission represents a high-level integration of positional control and fi
 
 ![](https://www.youtube.com/watch?v=8tdVE2zgjXw)
 
-<p class="clip-credit"><strong>Details on finishing the rear naked choke</strong> — taught by Craig Jones · 0:57 · <a href="https://www.youtube.com/watch?v=8tdVE2zgjXw" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=6MhcPYISQDU)
-
-<p class="clip-credit"><strong>Rodeo choke from the back</strong> — taught by Ethos Jiu-Jitsu · 1:25 · <a href="https://www.youtube.com/watch?v=6MhcPYISQDU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Craig Jones: details on finishing the rear naked choke</strong> · 0:57 · <a href="https://www.youtube.com/watch?v=8tdVE2zgjXw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

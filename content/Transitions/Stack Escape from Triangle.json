@@ -367,31 +367,12 @@
     "safety_considerations": "Stack escapes involve driving significant weight onto an opponent's neck and spine. Always control stacking pressure gradually and never slam or drop weight explosively onto a stacked opponent. Monitor your own neck throughout for signs of blood flow restriction including lightheadedness, tunnel vision, or tingling—tap immediately if you experience these symptoms before the escape is established. Communicate with training partners about neck discomfort during drilling. Partners being stacked should tap if they experience pain in the cervical spine, and the stacking player must release pressure immediately upon any tap signal.",
     "clips": [
       {
-        "id": "sR2rS2dwpNY",
-        "title": "How to escape a triangle choke",
-        "by": "Rener and Ryron Gracie",
-        "vertical": false,
-        "channel": "Hayabusa",
-        "duration": 117,
-        "verified": "2026-07-15"
-      },
-      {
         "id": "AdH5zyhp-jc",
-        "title": "Triangle defense: stacking escape",
-        "by": "Piotr Zawadzki",
-        "vertical": false,
+        "title": "Triangle defence (part 4). Stacking escape.",
         "channel": "Piotr Zawadzki Jiu Jitsu",
-        "duration": 126,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "dJOw0ZEyXXc",
-        "title": "Posture up escape from the triangle",
-        "by": "Cosens MMA coach",
+        "duration": 125,
         "vertical": false,
-        "channel": "Cosens MMA LLC",
-        "duration": 73,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },
@@ -565,22 +546,19 @@
     ],
     "clips": [
       {
-        "id": "1aiZKV5RmKs",
-        "title": "Countering the common triangle defense",
-        "by": "Athlas coach",
+        "id": "-QXaB5Sl2VQ",
+        "title": "Swim to Triangle, defend Triangle stack to arm bar",
+        "channel": "JJPA APEX",
+        "duration": 19,
         "vertical": false,
-        "channel": "ATHLAS TRAINING TEAM",
-        "duration": 136,
-        "verified": "2026-07-15"
+        "front": true
       },
       {
-        "id": "-QXaB5Sl2VQ",
-        "title": "Defending the triangle stack into an armbar",
-        "by": "JJPA Apex coach",
-        "vertical": false,
-        "channel": "JJPA APEX",
-        "duration": 20,
-        "verified": "2026-07-15"
+        "id": "RiVzzip_7ls",
+        "title": "The EDGE Technique 5: How to Stop from being Stacked off a Triangle Choke.mp4",
+        "channel": "sergiovargas2006",
+        "duration": 110,
+        "vertical": false
       }
     ]
   }

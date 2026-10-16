@@ -429,35 +429,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "NjpsGcUIo9Y",
-        "title": "Overhook guard pass",
-        "by": "Eric Laporte",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 167,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "nyZwifeL_Do",
-        "title": "Shoulder crunch pass",
-        "by": "Gordon Ryan",
-        "vertical": false,
-        "channel": "Jiu Jitsu Moves",
-        "duration": 106,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "aAd6OIq94X0",
-        "title": "Body lock guard pass off the underhook",
-        "by": "Gordon Ryan",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 205,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   },
   "bottom": {
     "name": "Overhook Guard Bottom",
@@ -853,31 +825,12 @@
     ],
     "clips": [
       {
-        "id": "QPL5y0hIVV4",
-        "title": "Closed guard overhook sweep",
-        "by": "David Morris",
+        "id": "5J92PJO-dEo",
+        "title": "Overhook from Closed Guard",
+        "channel": "6am jiu jitsu, try it, it’s fun they said 🥋",
+        "duration": 114,
         "vertical": false,
-        "channel": "David Morris Jiu Jitsu ",
-        "duration": 17,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "ljmJ9xP6N7U",
-        "title": "Overhook guard to reverse triangle + kimura",
-        "by": "ZeGrapplez",
-        "vertical": false,
-        "channel": "ZeGrapplez",
-        "duration": 45,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "PAVo91SaisY",
-        "title": "Overhook closed guard to triangle attack",
-        "by": "Hellfish MMA",
-        "vertical": false,
-        "channel": "Hellfish Mixed Martial Arts",
-        "duration": 174,
-        "verified": "2026-07-14"
+        "front": true
       }
     ]
   },
@@ -997,31 +950,12 @@
   ],
   "clips": [
     {
-      "id": "DfUHvTQpzCg",
-      "title": "Using an overhook",
-      "by": "Patrick Spano",
-      "vertical": false,
-      "channel": "FANATIC WRESTLING",
-      "duration": 40,
-      "verified": "2026-07-14"
-    },
-    {
       "id": "5J92PJO-dEo",
-      "title": "Overhook from closed guard",
-      "by": "6am Jiu Jitsu",
-      "vertical": false,
+      "title": "Overhook from Closed Guard",
       "channel": "6am jiu jitsu, try it, it’s fun they said 🥋",
       "duration": 114,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "XVxTzuJ1F60",
-      "title": "Overhook closed guard to rolling armbar",
-      "by": "BOWERHOUSE MMA",
       "vertical": false,
-      "channel": "BOWERHOUSE MMA",
-      "duration": 60,
-      "verified": "2026-07-14"
+      "half": "bottom"
     }
   ]
 }

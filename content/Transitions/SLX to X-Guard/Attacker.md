@@ -186,35 +186,22 @@ description: "Learn to execute the SLX to X-Guard transition. Step-by-step leg t
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Marcelo Garcia single leg X to X-guard sweep",
-      "description": "SLX to X-Guard (Attacker) film study: Marcelo Garcia single leg X to X-guard sweep, taught by Marcelo Garcia.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/AhsXraebbdg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/AhsXraebbdg",
-      "url": "https://www.youtube.com/watch?v=AhsXraebbdg",
-      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
-      "duration": "PT47S"
+      "name": "Emily Kwok Teaches a Single Leg X to X Guard Drill",
+      "description": "SLX to X-Guard (Attacker) film study: Emily Kwok Teaches a Single Leg X to X Guard Drill.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XELDoBTfGpM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/XELDoBTfGpM",
+      "url": "https://www.youtube.com/watch?v=XELDoBTfGpM",
+      "duration": "PT176S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "X-guard sweep demonstration",
-      "description": "SLX to X-Guard (Attacker) film study: X-guard sweep demonstration, taught by Marcelo Garcia.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/zbYb6sOYC8w/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/zbYb6sOYC8w",
-      "url": "https://www.youtube.com/watch?v=zbYb6sOYC8w",
-      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
-      "duration": "PT53S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Single leg X to X-guard and reverse X options",
-      "description": "SLX to X-Guard (Attacker) film study: Single leg X to X-guard and reverse X options, taught by Steven Kaloustian.",
+      "name": "Single leg X Guard Options, X Guard, Reverse X Guard",
+      "description": "SLX to X-Guard (Attacker) film study: Single leg X Guard Options, X Guard, Reverse X Guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/EcxCadpBePk/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/EcxCadpBePk",
       "url": "https://www.youtube.com/watch?v=EcxCadpBePk",
-      "creator": { "@type": "Person", "name": "Steven Kaloustian" },
-      "duration": "PT97S"
+      "duration": "PT96S"
     }
   ]
 }
@@ -242,17 +229,9 @@ The SLX to X-Guard transition is executed by the bottom player who already has S
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=AhsXraebbdg)
+![](https://www.youtube.com/watch?v=XELDoBTfGpM)
 
-<p class="clip-credit"><strong>Marcelo Garcia single leg X to X-guard sweep</strong> — taught by Marcelo Garcia · 0:47 · <a href="https://www.youtube.com/watch?v=AhsXraebbdg" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=zbYb6sOYC8w)
-
-<p class="clip-credit"><strong>X-guard sweep demonstration</strong> — taught by Marcelo Garcia · 0:53 · <a href="https://www.youtube.com/watch?v=zbYb6sOYC8w" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Emily Kwok Teaches a Single Leg X to X Guard Drill</strong> · 2:56 · <a href="https://www.youtube.com/watch?v=XELDoBTfGpM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -260,7 +239,7 @@ The SLX to X-Guard transition is executed by the bottom player who already has S
 
 ![](https://www.youtube.com/watch?v=EcxCadpBePk)
 
-<p class="clip-credit"><strong>Single leg X to X-guard and reverse X options</strong> — taught by Steven Kaloustian · 1:37 · <a href="https://www.youtube.com/watch?v=EcxCadpBePk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Single leg X Guard Options, X Guard, Reverse X Guard</strong> · 1:36 · <a href="https://www.youtube.com/watch?v=EcxCadpBePk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

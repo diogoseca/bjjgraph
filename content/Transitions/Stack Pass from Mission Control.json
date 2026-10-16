@@ -355,26 +355,7 @@
       }
     ],
     "safety_considerations": "The stack pass creates significant compressive forces on the opponent's spine, neck, and shoulder joints. Apply stacking pressure progressively rather than explosively to allow the bottom player time to adjust and tap if necessary. Never drive a stack with your head posted on the mat as this creates dangerous cervical spine compression on both players. Release immediately if the opponent indicates discomfort in their neck or spine. In training, communicate with your partner about pressure levels and avoid stacking opponents with known neck or back injuries.",
-    "clips": [
-      {
-        "id": "7ALyGgRAjmU",
-        "title": "Full guard top to stacked guard switch",
-        "by": "Generative James",
-        "vertical": false,
-        "channel": "Generative James's Games's",
-        "duration": 37,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "QJQcGbxpR0c",
-        "title": "Closed guard stack pass exploration",
-        "by": "Roll 247",
-        "vertical": false,
-        "channel": "Roll 247",
-        "duration": 45,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Stack Pass from Mission Control Defender",
@@ -551,25 +532,6 @@
         "description": "Full resistance positional sparring starting in Mission Control. Top player uses any escape including stack pass. Bottom player must maintain control or transition to offensive positions. Develops the integrated defensive game that handles stack passes alongside other escape attempts."
       }
     ],
-    "clips": [
-      {
-        "id": "5fJM5bIk8Fw",
-        "title": "Mission control to zombie and double bag",
-        "by": "10th Planet Orange Park",
-        "vertical": false,
-        "channel": "10th Planet Orange Park",
-        "duration": 108,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "gFYyMkaMz34",
-        "title": "Prison guard breakdown",
-        "by": "Eddie Bravo",
-        "vertical": false,
-        "channel": "Eddie Bravo",
-        "duration": 59,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

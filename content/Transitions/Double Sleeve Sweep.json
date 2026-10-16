@@ -369,30 +369,18 @@
     "clips": [
       {
         "id": "RHe0Is-Ax6M",
-        "title": "Double sleeve guard sweep breakdown",
-        "by": "Black Dragon BJJ coach",
-        "vertical": false,
+        "title": "Double Sleeve Guard System - Setting up Double Sleeve from  De La Riva Guard -…",
         "channel": "Black Dragon BJJ  / Cobra Kai Karate Dungannon",
         "duration": 198,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "kqRa84RqJXM",
-        "title": "Double Sleeve Guard Attacks and Sweeps",
-        "by": "Jay Wadsworth",
         "vertical": false,
-        "channel": "Bernardo Faria BJJ Fanatics",
-        "duration": 324,
-        "verified": "2026-07-15"
+        "front": true
       },
       {
         "id": "zAz7Zu5Nf58",
-        "title": "Double Sleeve Scissor Sweep Breakdown",
-        "by": "Andrew Riddles",
-        "vertical": false,
+        "title": "Double Sleeve Scissor Sweep Instructional with Andrew Riddles of SJBJJ - Nogi…",
         "channel": "Amateur and Professional Grappling League",
-        "duration": 257,
-        "verified": "2026-07-15"
+        "duration": 256,
+        "vertical": false
       }
     ]
   },
@@ -556,25 +544,6 @@
         "description": "Full resistance positional sparring where successful sweep defense launches directly into guard passing sequences. After defending the sweep and breaking bilateral grips, immediately transition to your preferred passing strategy before opponent can re-establish double sleeve control."
       }
     ],
-    "clips": [
-      {
-        "id": "wdvJF6S68TI",
-        "title": "Defending the overhead sweep from sleeve grips",
-        "by": "Luciana Marcos",
-        "vertical": false,
-        "channel": "luciana MARCOS",
-        "duration": 68,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "N4M0VWhDkMA",
-        "title": "Two ways to pass the collar and sleeve guard",
-        "by": "Carpio Jiu Jitsu coach",
-        "vertical": false,
-        "channel": "Carpio Jiu Jitsu",
-        "duration": 103,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

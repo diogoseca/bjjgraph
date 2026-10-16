@@ -160,24 +160,12 @@ description: "How to defend against Turtle to Truck in BJJ. Recognition cues, de
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Hip lock to counter the truck",
-      "description": "Turtle to Truck (Defender) film study: Hip lock to counter the truck, taught by Christopher Hendrick.",
+      "name": "Hip Lock Countering the Truck",
+      "description": "Turtle to Truck (Defender) film study: Hip Lock Countering the Truck.",
       "thumbnailUrl": "https://i.ytimg.com/vi/_0TeNLuarPU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/_0TeNLuarPU",
       "url": "https://www.youtube.com/watch?v=_0TeNLuarPU",
-      "creator": { "@type": "Person", "name": "Christopher Hendrick" },
       "duration": "PT35S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Truck vs the knee-elbow escape",
-      "description": "Turtle to Truck (Defender) film study: Truck vs the knee-elbow escape, taught by Matrix Jiu Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Y-asW9hrB3o/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Y-asW9hrB3o",
-      "url": "https://www.youtube.com/watch?v=Y-asW9hrB3o",
-      "creator": { "@type": "Person", "name": "Matrix Jiu Jitsu" },
-      "duration": "PT129S"
     }
   ]
 }
@@ -207,15 +195,7 @@ Defending the Turtle to Truck transition requires early recognition and immediat
 
 ![](https://www.youtube.com/watch?v=_0TeNLuarPU)
 
-<p class="clip-credit"><strong>Hip lock to counter the truck</strong> — taught by Christopher Hendrick · 0:35 · <a href="https://www.youtube.com/watch?v=_0TeNLuarPU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=Y-asW9hrB3o)
-
-<p class="clip-credit"><strong>Truck vs the knee-elbow escape</strong> — taught by Matrix Jiu Jitsu · 2:09 · <a href="https://www.youtube.com/watch?v=Y-asW9hrB3o" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Hip Lock Countering the Truck</strong> · 0:35 · <a href="https://www.youtube.com/watch?v=_0TeNLuarPU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

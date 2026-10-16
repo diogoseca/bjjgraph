@@ -707,31 +707,11 @@
     ],
     "clips": [
       {
-        "id": "Wy-a8VfNsVo",
-        "title": "Signature Double Leg",
-        "by": "Jordan Burroughs",
-        "vertical": false,
-        "channel": "United World Wrestling",
-        "duration": 73,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "dhZgpDHCARw",
-        "title": "Double Leg Takedown Technique",
-        "by": "Predators MMA and BJJ",
-        "vertical": false,
-        "channel": "Predators MMA and BJJ Academy Manchester",
-        "duration": 15,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "RLU7Yt1jN7s",
-        "title": "Favorite Takedowns for BJJ",
-        "by": "Chewjitsu",
-        "vertical": false,
-        "channel": "Chewjitsu",
-        "duration": 61,
-        "verified": "2026-07-14"
+        "id": "67RpDNWRPDU",
+        "title": "Judo Basic Grip fighting 101: right vs right",
+        "channel": "Shintaro Higashi",
+        "duration": 356,
+        "front": true
       }
     ]
   },
@@ -1165,31 +1145,11 @@
     ],
     "clips": [
       {
-        "id": "VGy3imISlaA",
-        "title": "Beat the Stiff Arm Grip",
-        "by": "Travis Stevens",
-        "vertical": false,
-        "channel": "Travis Stevens",
-        "duration": 95,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "jTk5AaZd1Rc",
-        "title": "Break Any Collar Grip with Technique",
-        "by": "Travis Stevens",
-        "vertical": false,
-        "channel": "Travis Stevens",
-        "duration": 113,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "yjQHCaCmhyo",
-        "title": "Deal With an Opponent Who Stiff Arms",
-        "by": "Travis Stevens",
-        "vertical": false,
-        "channel": "Travis Stevens",
-        "duration": 114,
-        "verified": "2026-07-14"
+        "id": "67RpDNWRPDU",
+        "title": "Judo Basic Grip fighting 101: right vs right",
+        "channel": "Shintaro Higashi",
+        "duration": 356,
+        "front": true
       }
     ]
   },
@@ -1307,24 +1267,5 @@
       }
     }
   ],
-  "clips": [
-    {
-      "id": "qMupz9qrbxc",
-      "title": "Breaking Down the Double Leg",
-      "by": "Jordan Burroughs",
-      "vertical": false,
-      "channel": "United World Wrestling",
-      "duration": 47,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "dhZgpDHCARw",
-      "title": "Double Leg Takedown Technique",
-      "by": "Predators MMA and BJJ",
-      "vertical": false,
-      "channel": "Predators MMA and BJJ Academy Manchester",
-      "duration": 15,
-      "verified": "2026-07-14"
-    }
-  ]
+  "clips": []
 }

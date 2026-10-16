@@ -192,24 +192,12 @@ description: "Learn to recover guard position from triangle control as the trapp
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Triangle escape: hips down, posture up",
-      "description": "Guard Recovery from Triangle Control (Attacker) film study: Triangle escape: hips down, posture up, taught by Mat Life Training Center.",
+      "name": "Triangle Choke Escape #3 Hips Down, Posture Up",
+      "description": "Guard Recovery from Triangle Control (Attacker) film study: Triangle Choke Escape #3 Hips Down, Posture Up.",
       "thumbnailUrl": "https://i.ytimg.com/vi/HLWwfq8FNMI/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/HLWwfq8FNMI",
       "url": "https://www.youtube.com/watch?v=HLWwfq8FNMI",
-      "creator": { "@type": "Person", "name": "Mat Life Training Center" },
-      "duration": "PT19S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "How to escape a triangle choke",
-      "description": "Guard Recovery from Triangle Control (Attacker) film study: How to escape a triangle choke, taught by Rener and Ryron Gracie.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/sR2rS2dwpNY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/sR2rS2dwpNY",
-      "url": "https://www.youtube.com/watch?v=sR2rS2dwpNY",
-      "creator": { "@type": "Person", "name": "Rener and Ryron Gracie" },
-      "duration": "PT117S"
+      "duration": "PT18S"
     }
   ]
 }
@@ -239,15 +227,7 @@ As the top player caught in triangle control, you face one of the most dangerous
 
 ![](https://www.youtube.com/watch?v=HLWwfq8FNMI)
 
-<p class="clip-credit"><strong>Triangle escape: hips down, posture up</strong> — taught by Mat Life Training Center · 0:19 · <a href="https://www.youtube.com/watch?v=HLWwfq8FNMI" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=sR2rS2dwpNY)
-
-<p class="clip-credit"><strong>How to escape a triangle choke</strong> — taught by Rener and Ryron Gracie · 1:57 · <a href="https://www.youtube.com/watch?v=sR2rS2dwpNY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Triangle Choke Escape #3 Hips Down, Posture Up</strong> · 0:18 · <a href="https://www.youtube.com/watch?v=HLWwfq8FNMI" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

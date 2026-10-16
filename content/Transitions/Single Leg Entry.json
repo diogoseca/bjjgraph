@@ -435,30 +435,11 @@
     "clips": [
       {
         "id": "cqqrha_4Jy4",
-        "title": "Entry into the single leg takedown",
-        "by": "Grappler Station",
-        "vertical": false,
+        "title": "Entry into Single Leg Takedown",
         "channel": "Grappler Station",
         "duration": 65,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "YBG9LkoAMoo",
-        "title": "Sweep single leg takedown entry and finish",
-        "by": "Jarrod Goode",
         "vertical": false,
-        "channel": "Jarrod Goode",
-        "duration": 87,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "riQ0SFuNWlw",
-        "title": "Single leg takedown entry option",
-        "by": "Sickness Ferro",
-        "vertical": false,
-        "channel": "Sickness Ferro",
-        "duration": 103,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },
@@ -645,31 +626,12 @@
     ],
     "clips": [
       {
-        "id": "pfNtYzw97Ew",
-        "title": "Sprawl and spin defense to the leg attack",
-        "by": "USA Wrestling",
-        "vertical": false,
-        "channel": "USA Wrestling",
-        "duration": 55,
-        "verified": "2026-07-15"
-      },
-      {
         "id": "OYZfgkzjFEg",
-        "title": "Harai goshi counter to the single leg",
-        "by": "Gracie Barra Colorado Springs",
-        "vertical": false,
+        "title": "Harai Goshi Counter to Single Leg",
         "channel": "Gracie Barra Colorado Springs",
         "duration": 70,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "qE9U8UnuQcE",
-        "title": "Leg curl sprawl against the leg attack",
-        "by": "Jason Nolf",
         "vertical": false,
-        "channel": "Todd Adamczyk",
-        "duration": 29,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },

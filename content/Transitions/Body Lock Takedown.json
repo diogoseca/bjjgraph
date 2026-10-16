@@ -350,30 +350,18 @@
     "clips": [
       {
         "id": "GOwulE_PIMg",
-        "title": "Body lock takedown from standing",
-        "by": "Blue Base Jiu Jitsu",
-        "vertical": false,
+        "title": "Body Lock Clinch Take Down",
         "channel": "Blue Base Jiu Jitsu",
-        "duration": 74,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "91Fgpe788no",
-        "title": "Body lock from the standing position",
-        "by": "Sean Sherk",
-        "vertical": false,
-        "channel": "TAG Muay Thai",
         "duration": 73,
-        "verified": "2026-07-15"
+        "vertical": false,
+        "front": true
       },
       {
         "id": "2gknwIfTeN0",
-        "title": "Four body lock takedowns",
-        "by": "CSW Fullerton",
-        "vertical": false,
+        "title": "4 Body Lock Takedowns",
         "channel": "CSW Fullerton",
-        "duration": 194,
-        "verified": "2026-07-15"
+        "duration": 193,
+        "vertical": false
       }
     ]
   },
@@ -548,21 +536,11 @@
     "clips": [
       {
         "id": "Fxpu62evbwk",
-        "title": "Breaking the body lock with a kimura grip",
-        "by": "SBG Australia",
-        "vertical": false,
+        "title": "Body lock break - Kimura",
         "channel": "SBG Australia",
         "duration": 44,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "4HaZwBmkFgk",
-        "title": "Defending the body lock takedown",
-        "by": "TJ Dillashaw",
         "vertical": false,
-        "channel": "Dynamic Striking",
-        "duration": 207,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   }

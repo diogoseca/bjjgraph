@@ -933,22 +933,12 @@
     ],
     "clips": [
       {
-        "id": "DBbSqQf6iCo",
-        "title": "Roll Under Counter to Backside 50/50",
-        "by": "Lachlan Giles",
-        "vertical": false,
-        "channel": "BJJ focus camps",
-        "duration": 110,
-        "verified": "2026-07-14"
-      },
-      {
         "id": "RTzSOGlxSWg",
-        "title": "Escape and Counter the Backside 50/50",
-        "by": "Matrix Jiu Jitsu",
-        "vertical": false,
+        "title": "How to Escape and Counter the Backside 50/50 - Matrix Jiu Jitsu",
         "channel": "Matrix Jiu Jitsu",
         "duration": 240,
-        "verified": "2026-07-14"
+        "vertical": false,
+        "front": true
       }
     ]
   },

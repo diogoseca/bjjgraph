@@ -160,35 +160,12 @@ description: "Defend against the Saddle Entry counter-entanglement from Outside 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Saddle escape to leg drag flow drill",
-      "description": "Saddle Entry from Outside Ashi (Defender) film study: Saddle escape to leg drag flow drill, taught by Travis Anderson.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/C3bPRoMwGPo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/C3bPRoMwGPo",
-      "url": "https://www.youtube.com/watch?v=C3bPRoMwGPo",
-      "creator": { "@type": "Person", "name": "Travis Anderson" },
-      "duration": "PT70S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Defending and Escaping the Saddle",
-      "description": "Saddle Entry from Outside Ashi (Defender) film study: Defending and Escaping the Saddle, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/CFTLb8iywJg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/CFTLb8iywJg",
-      "url": "https://www.youtube.com/watch?v=CFTLb8iywJg",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT383S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Keeping and Regaining the Knee Line from the Saddle",
-      "description": "Saddle Entry from Outside Ashi (Defender) film study: Keeping and Regaining the Knee Line from the Saddle, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/2SgSWoUjD4o/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/2SgSWoUjD4o",
-      "url": "https://www.youtube.com/watch?v=2SgSWoUjD4o",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT872S"
+      "name": "3 Ways To Escape The Saddle - Drew Weatherhead Brazilian Jiu Jitsu",
+      "description": "Saddle Entry from Outside Ashi (Defender) film study: 3 Ways To Escape The Saddle - Drew Weatherhead Brazilian Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Cu3cDBeOxsg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Cu3cDBeOxsg",
+      "url": "https://www.youtube.com/watch?v=Cu3cDBeOxsg",
+      "duration": "PT353S"
     }
   ]
 }
@@ -216,25 +193,9 @@ As the defender against the Saddle Entry from Outside Ashi, you are the practiti
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=C3bPRoMwGPo)
+![](https://www.youtube.com/watch?v=Cu3cDBeOxsg)
 
-<p class="clip-credit"><strong>Saddle escape to leg drag flow drill</strong> — taught by Travis Anderson · 1:10 · <a href="https://www.youtube.com/watch?v=C3bPRoMwGPo" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=CFTLb8iywJg)
-
-<p class="clip-credit"><strong>Defending and Escaping the Saddle</strong> — taught by Lachlan Giles · 6:23 · <a href="https://www.youtube.com/watch?v=CFTLb8iywJg" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=2SgSWoUjD4o)
-
-<p class="clip-credit"><strong>Keeping and Regaining the Knee Line from the Saddle</strong> — taught by Lachlan Giles · 14:32 · <a href="https://www.youtube.com/watch?v=2SgSWoUjD4o" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>3 Ways To Escape The Saddle - Drew Weatherhead Brazilian Jiu Jitsu</strong> · 5:53 · <a href="https://www.youtube.com/watch?v=Cu3cDBeOxsg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

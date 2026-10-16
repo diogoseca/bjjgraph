@@ -46,35 +46,32 @@ description: "Learn to finish and defend the rear naked choke from mounted cruci
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Crucifix Smother to Rear Choke",
-      "description": "Rear Naked Choke from Mounted Crucifix film study: Crucifix Smother to Rear Choke, taught by Josh Leduc.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/pyZ65EYfirU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/pyZ65EYfirU",
-      "url": "https://www.youtube.com/watch?v=pyZ65EYfirU",
-      "creator": { "@type": "Person", "name": "Josh Leduc" },
-      "duration": "PT67S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
       "name": "Rear Naked Choke from Crucifix Position",
-      "description": "Rear Naked Choke from Mounted Crucifix film study: Rear Naked Choke from Crucifix Position, taught by Mat Life Training Center.",
+      "description": "Rear Naked Choke from Mounted Crucifix film study: Rear Naked Choke from Crucifix Position.",
       "thumbnailUrl": "https://i.ytimg.com/vi/amVyOvT2yJs/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/amVyOvT2yJs",
       "url": "https://www.youtube.com/watch?v=amVyOvT2yJs",
-      "creator": { "@type": "Person", "name": "Mat Life Training Center" },
       "duration": "PT14S"
     },
     {
       "@type": "VideoObject",
-      "position": 3,
-      "name": "Crucifix to Rear Naked Choke",
-      "description": "Rear Naked Choke from Mounted Crucifix film study: Crucifix to Rear Naked Choke, taught by Greg Ferguson.",
+      "position": 2,
+      "name": "Crucifix to rear naked choke",
+      "description": "Rear Naked Choke from Mounted Crucifix film study: Crucifix to rear naked choke.",
       "thumbnailUrl": "https://i.ytimg.com/vi/3t6j9HT6Mr8/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/3t6j9HT6Mr8",
       "url": "https://www.youtube.com/watch?v=3t6j9HT6Mr8",
-      "creator": { "@type": "Person", "name": "Greg Ferguson" },
-      "duration": "PT43S"
+      "duration": "PT42S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Crucifix Smother to Rear Choke",
+      "description": "Rear Naked Choke from Mounted Crucifix film study: Crucifix Smother to Rear Choke.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pyZ65EYfirU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/pyZ65EYfirU",
+      "url": "https://www.youtube.com/watch?v=pyZ65EYfirU",
+      "duration": "PT67S"
     }
   ]
 }
@@ -137,17 +134,9 @@ Strategically, this submission serves as the primary finishing threat from mount
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=pyZ65EYfirU)
-
-<p class="clip-credit"><strong>Crucifix Smother to Rear Choke</strong> — taught by Josh Leduc · 1:07 · <a href="https://www.youtube.com/watch?v=pyZ65EYfirU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=amVyOvT2yJs)
 
-<p class="clip-credit"><strong>Rear Naked Choke from Crucifix Position</strong> — taught by Mat Life Training Center · 0:14 · <a href="https://www.youtube.com/watch?v=amVyOvT2yJs" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Rear Naked Choke from Crucifix Position</strong> · 0:14 · <a href="https://www.youtube.com/watch?v=amVyOvT2yJs" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -155,7 +144,15 @@ Strategically, this submission serves as the primary finishing threat from mount
 
 ![](https://www.youtube.com/watch?v=3t6j9HT6Mr8)
 
-<p class="clip-credit"><strong>Crucifix to Rear Naked Choke</strong> — taught by Greg Ferguson · 0:43 · <a href="https://www.youtube.com/watch?v=3t6j9HT6Mr8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Crucifix to rear naked choke</strong> · 0:42 · <a href="https://www.youtube.com/watch?v=3t6j9HT6Mr8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=pyZ65EYfirU)
+
+<p class="clip-credit"><strong>Crucifix Smother to Rear Choke</strong> · 1:07 · <a href="https://www.youtube.com/watch?v=pyZ65EYfirU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

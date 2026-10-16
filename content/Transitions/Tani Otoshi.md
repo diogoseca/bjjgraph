@@ -47,34 +47,21 @@ description: "Master Tani Otoshi (Valley Drop) in BJJ. Step-by-step sacrifice th
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Tani Otoshi throw",
-      "description": "Tani Otoshi film study: Tani Otoshi throw, taught by Travis Stevens.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/z1mirCkei_s/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/z1mirCkei_s",
-      "url": "https://www.youtube.com/watch?v=z1mirCkei_s",
-      "creator": { "@type": "Person", "name": "Travis Stevens" },
-      "duration": "PT12S"
+      "name": "Tani Otoshi - Valley Drop",
+      "description": "Tani Otoshi film study: Tani Otoshi - Valley Drop.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/AndVGmS5KR8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/AndVGmS5KR8",
+      "url": "https://www.youtube.com/watch?v=AndVGmS5KR8",
+      "duration": "PT78S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Tani Otoshi valley drop breakdown",
-      "description": "Tani Otoshi film study: Tani Otoshi valley drop breakdown, taught by Grappler Station.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/AndVGmS5KR8/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/AndVGmS5KR8",
-      "url": "https://www.youtube.com/watch?v=AndVGmS5KR8",
-      "creator": { "@type": "Person", "name": "Grappler Station" },
-      "duration": "PT79S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Tani Otoshi judo takedown",
-      "description": "Tani Otoshi film study: Tani Otoshi judo takedown, taught by Unknown.",
+      "name": "Tani-o-toshi | Judo takedown",
+      "description": "Tani Otoshi film study: Tani-o-toshi | Judo takedown.",
       "thumbnailUrl": "https://i.ytimg.com/vi/MYF56XYb-nc/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/MYF56XYb-nc",
       "url": "https://www.youtube.com/watch?v=MYF56XYb-nc",
-      "creator": { "@type": "Person", "name": "Unknown" },
       "duration": "PT87S"
     }
   ]
@@ -132,17 +119,9 @@ Strategically, Tani Otoshi fits into a broader standing game as a counter-offens
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=z1mirCkei_s)
-
-<p class="clip-credit"><strong>Tani Otoshi throw</strong> — taught by Travis Stevens · 0:12 · <a href="https://www.youtube.com/watch?v=z1mirCkei_s" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=AndVGmS5KR8)
 
-<p class="clip-credit"><strong>Tani Otoshi valley drop breakdown</strong> — taught by Grappler Station · 1:19 · <a href="https://www.youtube.com/watch?v=AndVGmS5KR8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Tani Otoshi - Valley Drop</strong> · 1:18 · <a href="https://www.youtube.com/watch?v=AndVGmS5KR8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -150,7 +129,7 @@ Strategically, Tani Otoshi fits into a broader standing game as a counter-offens
 
 ![](https://www.youtube.com/watch?v=MYF56XYb-nc)
 
-<p class="clip-credit"><strong>Tani Otoshi judo takedown</strong> — taught by Unknown · 1:27 · <a href="https://www.youtube.com/watch?v=MYF56XYb-nc" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Tani-o-toshi | Judo takedown</strong> · 1:27 · <a href="https://www.youtube.com/watch?v=MYF56XYb-nc" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

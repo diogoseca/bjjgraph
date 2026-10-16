@@ -186,24 +186,12 @@ description: "Learn to execute the Z-Guard to Half Guard transition as the botto
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Knee shield to underhook half guard to dogfight",
-      "description": "Z-Guard to Half Guard (Attacker) film study: Knee shield to underhook half guard to dogfight, taught by Kaboom BJJ coach.",
+      "name": "Half Guard - Primary Attack - Kneeshield to Underhook to Dogfight to Knee Tap",
+      "description": "Z-Guard to Half Guard (Attacker) film study: Half Guard - Primary Attack - Kneeshield to Underhook to Dogfight to Knee Tap.",
       "thumbnailUrl": "https://i.ytimg.com/vi/K7U2uBUfq-c/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/K7U2uBUfq-c",
       "url": "https://www.youtube.com/watch?v=K7U2uBUfq-c",
-      "creator": { "@type": "Person", "name": "Kaboom BJJ coach" },
-      "duration": "PT129S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Z-Guard with 3 attack options",
-      "description": "Z-Guard to Half Guard (Attacker) film study: Z-Guard with 3 attack options, taught by Way of BJJ coach.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/T3Gwg-ABsZA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/T3Gwg-ABsZA",
-      "url": "https://www.youtube.com/watch?v=T3Gwg-ABsZA",
-      "creator": { "@type": "Person", "name": "Way of BJJ coach" },
-      "duration": "PT67S"
+      "duration": "PT128S"
     }
   ]
 }
@@ -233,15 +221,7 @@ As the bottom player executing the Z-Guard to Half Guard transition, your primar
 
 ![](https://www.youtube.com/watch?v=K7U2uBUfq-c)
 
-<p class="clip-credit"><strong>Knee shield to underhook half guard to dogfight</strong> — taught by Kaboom BJJ coach · 2:09 · <a href="https://www.youtube.com/watch?v=K7U2uBUfq-c" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=T3Gwg-ABsZA)
-
-<p class="clip-credit"><strong>Z-Guard with 3 attack options</strong> — taught by Way of BJJ coach · 1:07 · <a href="https://www.youtube.com/watch?v=T3Gwg-ABsZA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Half Guard - Primary Attack - Kneeshield to Underhook to Dogfight to Knee Tap</strong> · 2:08 · <a href="https://www.youtube.com/watch?v=K7U2uBUfq-c" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

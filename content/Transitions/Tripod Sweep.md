@@ -46,24 +46,12 @@ description: "Master the Tripod Sweep from Spider Guard in BJJ. Technical breakd
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Collar and sleeve tripod sweep",
-      "description": "Tripod Sweep film study: Collar and sleeve tripod sweep, taught by Alberto Serrano.",
+      "name": "Collar and Sleeve Tripod Sweep | How to BJJ techniques",
+      "description": "Tripod Sweep film study: Collar and Sleeve Tripod Sweep | How to BJJ techniques.",
       "thumbnailUrl": "https://i.ytimg.com/vi/0AnyD7w2wQE/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/0AnyD7w2wQE",
       "url": "https://www.youtube.com/watch?v=0AnyD7w2wQE",
-      "creator": { "@type": "Person", "name": "Alberto Serrano" },
       "duration": "PT89S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "The tripod sweep",
-      "description": "Tripod Sweep film study: The tripod sweep, taught by Thomas Mietz.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/jAZ2IxJI-7E/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/jAZ2IxJI-7E",
-      "url": "https://www.youtube.com/watch?v=jAZ2IxJI-7E",
-      "creator": { "@type": "Person", "name": "Thomas Mietz" },
-      "duration": "PT96S"
     }
   ]
 }
@@ -115,15 +103,7 @@ The Tripod Sweep is a fundamental open guard technique that creates a mechanical
 
 ![](https://www.youtube.com/watch?v=0AnyD7w2wQE)
 
-<p class="clip-credit"><strong>Collar and sleeve tripod sweep</strong> — taught by Alberto Serrano · 1:29 · <a href="https://www.youtube.com/watch?v=0AnyD7w2wQE" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=jAZ2IxJI-7E)
-
-<p class="clip-credit"><strong>The tripod sweep</strong> — taught by Thomas Mietz · 1:36 · <a href="https://www.youtube.com/watch?v=jAZ2IxJI-7E" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Collar and Sleeve Tripod Sweep | How to BJJ techniques</strong> · 1:29 · <a href="https://www.youtube.com/watch?v=0AnyD7w2wQE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

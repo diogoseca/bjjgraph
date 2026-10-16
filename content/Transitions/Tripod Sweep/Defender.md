@@ -160,13 +160,12 @@ description: "How to defend against Tripod Sweep in BJJ. Recognition cues, defen
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Four levels of sweep defense",
-      "description": "Tripod Sweep (Defender) film study: Four levels of sweep defense, taught by Wim Deputter.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/kNfVYhZbgrg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/kNfVYhZbgrg",
-      "url": "https://www.youtube.com/watch?v=kNfVYhZbgrg",
-      "creator": { "@type": "Person", "name": "Wim Deputter" },
-      "duration": "PT87S"
+      "name": "NEVER get Tripod swept again! The ultimate tripod sweep defense.",
+      "description": "Tripod Sweep (Defender) film study: NEVER get Tripod swept again! The ultimate tripod sweep defense..",
+      "thumbnailUrl": "https://i.ytimg.com/vi/HbJrdjEZk-8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/HbJrdjEZk-8",
+      "url": "https://www.youtube.com/watch?v=HbJrdjEZk-8",
+      "duration": "PT310S"
     }
   ]
 }
@@ -194,9 +193,9 @@ Defending the Tripod Sweep requires the standing player to maintain constant awa
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=kNfVYhZbgrg)
+![](https://www.youtube.com/watch?v=HbJrdjEZk-8)
 
-<p class="clip-credit"><strong>Four levels of sweep defense</strong> — taught by Wim Deputter · 1:27 · <a href="https://www.youtube.com/watch?v=kNfVYhZbgrg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>NEVER get Tripod swept again! The ultimate tripod sweep defense.</strong> · 5:10 · <a href="https://www.youtube.com/watch?v=HbJrdjEZk-8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

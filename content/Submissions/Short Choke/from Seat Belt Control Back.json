@@ -434,35 +434,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "Sb-atqD_TqQ",
-        "title": "Short Choke from Back Position",
-        "by": "Cosens MMA",
-        "vertical": false,
-        "channel": "Cosens MMA LLC",
-        "duration": 55,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "Vikee5w07E0",
-        "title": "Short Choke Finish",
-        "by": "Alex Reyes",
-        "vertical": false,
-        "channel": "Alex Reyes",
-        "duration": 60,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "ld80o7n_DFU",
-        "title": "When & How to Apply the Short Choke from the Back (No-Gi)",
-        "by": "MMA Leech",
-        "vertical": false,
-        "channel": "MMA Leech",
-        "duration": 165,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "from Seat Belt Control Back Defender",
@@ -647,25 +619,6 @@
         "description": "Start in seat belt back control with full resistance. Attacker uses the complete RNC and Short Choke two-threat system. Defender must recognize and defend both attacks while working escape sequences. Reset on submission or successful escape. Focus on staying calm under pressure and making correct defensive reads."
       }
     ],
-    "clips": [
-      {
-        "id": "_sBB-O8fqP4",
-        "title": "Standing Up: Escaping Back/Turtle Pressure",
-        "by": "Priit Mihkelson",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 114,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "d312j3n9fIw",
-        "title": "Turtle Defence: Sit Out with Head on Back",
-        "by": "Mjolnir Fight Club",
-        "vertical": false,
-        "channel": "Mjølnir Fight Club",
-        "duration": 30,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   }
 }

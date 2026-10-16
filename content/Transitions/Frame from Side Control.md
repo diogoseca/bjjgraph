@@ -46,23 +46,11 @@ description: "Master the defensive frame from Side Control in BJJ. Complete guid
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Babybridge frames from bottom side control",
-      "description": "Frame from Side Control film study: Babybridge frames from bottom side control, taught by Priit Mihkelson.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/wDSd5Qy8Kac/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/wDSd5Qy8Kac",
-      "url": "https://www.youtube.com/watch?v=wDSd5Qy8Kac",
-      "creator": { "@type": "Person", "name": "Priit Mihkelson" },
-      "duration": "PT231S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Sticky hands framing from bottom side control",
-      "description": "Frame from Side Control film study: Sticky hands framing from bottom side control, taught by Select Jiu Jitsu Academy.",
+      "name": "\u201cSticky Hands\u201d Framing Punch Defense and Escapes from bottom Side Mount",
+      "description": "Frame from Side Control film study: \u201cSticky Hands\u201d Framing Punch Defense and Escapes from bottom Side Mount.",
       "thumbnailUrl": "https://i.ytimg.com/vi/dlIH3VjvDRo/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/dlIH3VjvDRo",
       "url": "https://www.youtube.com/watch?v=dlIH3VjvDRo",
-      "creator": { "@type": "Person", "name": "Select Jiu Jitsu Academy" },
       "duration": "PT220S"
     }
   ]
@@ -117,17 +105,9 @@ Strategically, this technique creates the prerequisite conditions for all higher
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=wDSd5Qy8Kac)
-
-<p class="clip-credit"><strong>Babybridge frames from bottom side control</strong> — taught by Priit Mihkelson · 3:51 · <a href="https://www.youtube.com/watch?v=wDSd5Qy8Kac" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=dlIH3VjvDRo)
 
-<p class="clip-credit"><strong>Sticky hands framing from bottom side control</strong> — taught by Select Jiu Jitsu Academy · 3:40 · <a href="https://www.youtube.com/watch?v=dlIH3VjvDRo" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>“Sticky Hands” Framing Punch Defense and Escapes from bottom Side Mount</strong> · 3:40 · <a href="https://www.youtube.com/watch?v=dlIH3VjvDRo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

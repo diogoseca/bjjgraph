@@ -46,35 +46,12 @@ description: "Master the Rear Clinch to Body Lock transition in BJJ. Convert sea
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Rear body lock takedown",
-      "description": "Rear Clinch to Body Lock film study: Rear body lock takedown, taught by 3 Strikes Jujitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/CEVgl3pTii4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/CEVgl3pTii4",
-      "url": "https://www.youtube.com/watch?v=CEVgl3pTii4",
-      "creator": { "@type": "Person", "name": "3 Strikes Jujitsu" },
-      "duration": "PT44S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Body lock clinch takedown",
-      "description": "Rear Clinch to Body Lock film study: Body lock clinch takedown, taught by Blue Base Jiu Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/GOwulE_PIMg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/GOwulE_PIMg",
-      "url": "https://www.youtube.com/watch?v=GOwulE_PIMg",
-      "creator": { "@type": "Person", "name": "Blue Base Jiu Jitsu" },
-      "duration": "PT74S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Body lock rear trip against the wall",
-      "description": "Rear Clinch to Body Lock film study: Body lock rear trip against the wall, taught by SBG Australia.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/KXf8Jr3a9zg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/KXf8Jr3a9zg",
-      "url": "https://www.youtube.com/watch?v=KXf8Jr3a9zg",
-      "creator": { "@type": "Person", "name": "SBG Australia" },
-      "duration": "PT12S"
+      "name": "2 Rear BODY LOCK Counters for MMA; GRANBY ROLL and KNEE BAR #GFAMMA",
+      "description": "Rear Clinch to Body Lock film study: 2 Rear BODY LOCK Counters for MMA; GRANBY ROLL and KNEE BAR #GFAMMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aW0nNv2UWh0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aW0nNv2UWh0",
+      "url": "https://www.youtube.com/watch?v=aW0nNv2UWh0",
+      "duration": "PT170S"
     }
   ]
 }
@@ -128,25 +105,9 @@ Elite competitors execute this transition in under one second, maintaining const
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=CEVgl3pTii4)
+![](https://www.youtube.com/watch?v=aW0nNv2UWh0)
 
-<p class="clip-credit"><strong>Rear body lock takedown</strong> — taught by 3 Strikes Jujitsu · 0:44 · <a href="https://www.youtube.com/watch?v=CEVgl3pTii4" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=GOwulE_PIMg)
-
-<p class="clip-credit"><strong>Body lock clinch takedown</strong> — taught by Blue Base Jiu Jitsu · 1:14 · <a href="https://www.youtube.com/watch?v=GOwulE_PIMg" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=KXf8Jr3a9zg)
-
-<p class="clip-credit"><strong>Body lock rear trip against the wall</strong> — taught by SBG Australia · 0:12 · <a href="https://www.youtube.com/watch?v=KXf8Jr3a9zg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>2 Rear BODY LOCK Counters for MMA; GRANBY ROLL and KNEE BAR #GFAMMA</strong> · 2:50 · <a href="https://www.youtube.com/watch?v=aW0nNv2UWh0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

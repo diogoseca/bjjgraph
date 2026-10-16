@@ -46,35 +46,22 @@ description: "Master the technical standup from turtle bottom in BJJ. Step-by-st
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Technical stand-up in base solo drills",
-      "description": "Standing up in Base film study: Technical stand-up in base solo drills, taught by Gracie Charlottesville.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/DO0nHTCk_jY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/DO0nHTCk_jY",
-      "url": "https://www.youtube.com/watch?v=DO0nHTCk_jY",
-      "creator": { "@type": "Person", "name": "Gracie Charlottesville" },
-      "duration": "PT46S"
+      "name": "Attacking When They Stand Up from Turtle: the 4-Point Position (No Gi\u2026",
+      "description": "Standing up in Base film study: Attacking When They Stand Up from Turtle: the 4-Point Position (No Gi\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/v37tHX8oKuY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/v37tHX8oKuY",
+      "url": "https://www.youtube.com/watch?v=v37tHX8oKuY",
+      "duration": "PT355S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Standing up in base breakdown",
-      "description": "Standing up in Base film study: Standing up in base breakdown, taught by Priit Mihkelson.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/_sBB-O8fqP4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/_sBB-O8fqP4",
-      "url": "https://www.youtube.com/watch?v=_sBB-O8fqP4",
-      "creator": { "@type": "Person", "name": "Priit Mihkelson" },
-      "duration": "PT114S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Seated escape to technical stand-up",
-      "description": "Standing up in Base film study: Seated escape to technical stand-up, taught by Andre Galvao.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/YNcEX5v0bcs/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/YNcEX5v0bcs",
-      "url": "https://www.youtube.com/watch?v=YNcEX5v0bcs",
-      "creator": { "@type": "Person", "name": "Andre Galvao" },
-      "duration": "PT70S"
+      "name": "Dealing With An Opponent Trying to Stand Up From Turtle Position - Matt Inman",
+      "description": "Standing up in Base film study: Dealing With An Opponent Trying to Stand Up From Turtle Position - Matt Inman.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/7QBW031Crmg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/7QBW031Crmg",
+      "url": "https://www.youtube.com/watch?v=7QBW031Crmg",
+      "duration": "PT415S"
     }
   ]
 }
@@ -128,25 +115,17 @@ This technique serves as a gateway movement that connects various bottom positio
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=DO0nHTCk_jY)
+![](https://www.youtube.com/watch?v=v37tHX8oKuY)
 
-<p class="clip-credit"><strong>Technical stand-up in base solo drills</strong> — taught by Gracie Charlottesville · 0:46 · <a href="https://www.youtube.com/watch?v=DO0nHTCk_jY" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=_sBB-O8fqP4)
-
-<p class="clip-credit"><strong>Standing up in base breakdown</strong> — taught by Priit Mihkelson · 1:54 · <a href="https://www.youtube.com/watch?v=_sBB-O8fqP4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Attacking When They Stand Up from Turtle: the 4-Point Position (No Gi…</strong> · 5:55 · <a href="https://www.youtube.com/watch?v=v37tHX8oKuY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=YNcEX5v0bcs)
+![](https://www.youtube.com/watch?v=7QBW031Crmg)
 
-<p class="clip-credit"><strong>Seated escape to technical stand-up</strong> — taught by Andre Galvao · 1:10 · <a href="https://www.youtube.com/watch?v=YNcEX5v0bcs" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Dealing With An Opponent Trying to Stand Up From Turtle Position - Matt Inman</strong> · 6:55 · <a href="https://www.youtube.com/watch?v=7QBW031Crmg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

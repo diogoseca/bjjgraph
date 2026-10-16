@@ -380,35 +380,7 @@
       }
     ],
     "safety_considerations": "The body lock pass is generally safe for both practitioners when executed with awareness. The passer should apply chest pressure gradually rather than explosively to avoid causing rib injuries or breathing difficulties in their partner. When flattening the opponent, avoid driving your head into their jaw with excessive force, as this can cause TMJ issues or cervical strain. For the bottom player, tap early if you experience any breathing difficulty, rib pain, or neck discomfort from the crossface pressure. When training partners have significant size differences, the larger practitioner must modulate pressure appropriately. During drilling, communicate clearly about pressure levels and establish tap protocols before beginning.",
-    "clips": [
-      {
-        "id": "sztjmLZYxIQ",
-        "title": "Nicky Rod's body lock pass explained",
-        "by": "Professor Buck",
-        "vertical": false,
-        "channel": "Professor Buck",
-        "duration": 38,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "aAd6OIq94X0",
-        "title": "Body lock guard pass off their underhook",
-        "by": "Gordon Ryan",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 205,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "jbCjWHAU9Rc",
-        "title": "Body lock pass from butterfly guard",
-        "by": "Pagano BJJ",
-        "vertical": false,
-        "channel": "Pagano BJJ",
-        "duration": 126,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Body Lock Pass Defender",
@@ -591,31 +563,12 @@
     ],
     "clips": [
       {
-        "id": "YVeeiNy43j4",
-        "title": "Body lock pass defense: inside position and elevator sweep",
-        "by": "Brian Glick",
-        "vertical": false,
-        "channel": "Brian Glick",
-        "duration": 123,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "9DXogw_sChY",
-        "title": "Countering a failed body lock pass",
-        "by": "Factory Fresh Jiu Jitsu",
-        "vertical": false,
-        "channel": "Factory Fresh Jiu Jitsu",
-        "duration": 139,
-        "verified": "2026-07-15"
-      },
-      {
         "id": "eL2tHbzAe68",
-        "title": "Body lock pass counter",
-        "by": "Adam Wardzinski",
-        "vertical": false,
+        "title": "Adam Wardziński Demos His Body Lock Pass Counter | Sweatbox, Bristol",
         "channel": "Roaming Rolls",
         "duration": 232,
-        "verified": "2026-07-15"
+        "vertical": false,
+        "front": true
       }
     ]
   },

@@ -47,23 +47,21 @@ description: "Master the toe hold from Inside Ashi-Garami. Complete guide to gri
       "@type": "VideoObject",
       "position": 1,
       "name": "Heel Hook to Toe Hold from Guard",
-      "description": "Toe Hold from Inside Ashi-Garami film study: Heel Hook to Toe Hold from Guard, taught by Kinesiology College.",
+      "description": "Toe Hold from Inside Ashi-Garami film study: Heel Hook to Toe Hold from Guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/h3f04mxXQ8M/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/h3f04mxXQ8M",
       "url": "https://www.youtube.com/watch?v=h3f04mxXQ8M",
-      "creator": { "@type": "Person", "name": "Kinesiology College" },
       "duration": "PT43S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Attacking the Toe Hold from Ashi Garami",
-      "description": "Toe Hold from Inside Ashi-Garami film study: Attacking the Toe Hold from Ashi Garami, taught by Brian Glick.",
+      "name": "Attacking the Toehold from Outside Ashi Garami (No Gi BJJ/Jiu-Jitsu)",
+      "description": "Toe Hold from Inside Ashi-Garami film study: Attacking the Toehold from Outside Ashi Garami (No Gi BJJ/Jiu-Jitsu).",
       "thumbnailUrl": "https://i.ytimg.com/vi/zsnGef5-N2g/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/zsnGef5-N2g",
       "url": "https://www.youtube.com/watch?v=zsnGef5-N2g",
-      "creator": { "@type": "Person", "name": "Brian Glick" },
-      "duration": "PT202S"
+      "duration": "PT201S"
     }
   ]
 }
@@ -128,7 +126,7 @@ Inside Ashi-Garami provides a tactically valuable platform for the toe hold beca
 
 ![](https://www.youtube.com/watch?v=h3f04mxXQ8M)
 
-<p class="clip-credit"><strong>Heel Hook to Toe Hold from Guard</strong> — taught by Kinesiology College · 0:43 · <a href="https://www.youtube.com/watch?v=h3f04mxXQ8M" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Heel Hook to Toe Hold from Guard</strong> · 0:43 · <a href="https://www.youtube.com/watch?v=h3f04mxXQ8M" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -136,7 +134,7 @@ Inside Ashi-Garami provides a tactically valuable platform for the toe hold beca
 
 ![](https://www.youtube.com/watch?v=zsnGef5-N2g)
 
-<p class="clip-credit"><strong>Attacking the Toe Hold from Ashi Garami</strong> — taught by Brian Glick · 3:22 · <a href="https://www.youtube.com/watch?v=zsnGef5-N2g" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Attacking the Toehold from Outside Ashi Garami (No Gi BJJ/Jiu-Jitsu)</strong> · 3:21 · <a href="https://www.youtube.com/watch?v=zsnGef5-N2g" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

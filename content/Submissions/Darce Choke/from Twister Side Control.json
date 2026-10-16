@@ -425,21 +425,11 @@
     "clips": [
       {
         "id": "EW9QdDZBmrU",
-        "title": "Twister Side to Darce (quick tip)",
-        "by": "Underground Alliance",
-        "vertical": false,
+        "title": "Twister Side to Darce (Quick Tip)",
         "channel": "UNDERGROUND ALLIANCE TV",
-        "duration": 64,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "R55lmkc6Mus",
-        "title": "Twister Side Control setup",
-        "by": "Eddie Bravo",
+        "duration": 63,
         "vertical": false,
-        "channel": "Eddie Bravo",
-        "duration": 87,
-        "verified": "2026-07-14"
+        "front": true
       }
     ]
   },
@@ -631,30 +621,24 @@
     "clips": [
       {
         "id": "FMAWiNfgp74",
-        "title": "Defending the Darce choke, stack escape",
-        "by": "BJJ101",
-        "vertical": false,
+        "title": "DEFENDING THE FRONT HEAD LOCK CHOKE - DARCE CHOKE - CHOKE - SUBMISSION - ESCAPE…",
         "channel": "BJJ101",
         "duration": 30,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "ug2Kxs54GuU",
-        "title": "D'arce choke defense breakdown",
-        "by": "Lachlan Giles",
-        "vertical": false,
-        "channel": "Absolute MMA St Kilda - Melbourne",
-        "duration": 714,
-        "verified": "2026-07-15"
+        "vertical": false
       },
       {
         "id": "rAY6Me3rNBE",
-        "title": "Defending head and arm chokes: anaconda, darce",
-        "by": "Knight Jiu-Jitsu",
-        "vertical": false,
+        "title": "How To Defend Head & Arm Chokes - Anaconda, Darce & Arm Triangle",
         "channel": "Knight Jiu-Jitsu",
         "duration": 523,
-        "verified": "2026-07-15"
+        "vertical": false
+      },
+      {
+        "id": "ug2Kxs54GuU",
+        "title": "D'arce Defense",
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 714,
+        "vertical": false
       }
     ]
   }

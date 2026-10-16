@@ -162,34 +162,31 @@ description: "Defend and escape the Triangle Choke from Open Guard. Recognition 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Triangle Escape to Side Control",
-      "description": "Triangle Choke from Open Guard (Defender) film study: Triangle Escape to Side Control, taught by Valdir Rodrigues.",
+      "name": "Triangle Escape To Side Control With BJJ Champion Valdir Rodrigues!",
+      "description": "Triangle Choke from Open Guard (Defender) film study: Triangle Escape To Side Control With BJJ Champion Valdir Rodrigues!.",
       "thumbnailUrl": "https://i.ytimg.com/vi/XE7KCUjLpqg/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/XE7KCUjLpqg",
       "url": "https://www.youtube.com/watch?v=XE7KCUjLpqg",
-      "creator": { "@type": "Person", "name": "Valdir Rodrigues" },
       "duration": "PT72S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Triangle Defense / Escape",
-      "description": "Triangle Choke from Open Guard (Defender) film study: Triangle Defense / Escape, taught by Daniel Frank.",
+      "name": "Triangle defense/escape",
+      "description": "Triangle Choke from Open Guard (Defender) film study: Triangle defense/escape.",
       "thumbnailUrl": "https://i.ytimg.com/vi/DLmrzSs1hWI/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/DLmrzSs1hWI",
       "url": "https://www.youtube.com/watch?v=DLmrzSs1hWI",
-      "creator": { "@type": "Person", "name": "Daniel Frank" },
-      "duration": "PT24S"
+      "duration": "PT23S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "Escaping Triangles vs Big Opponents",
-      "description": "Triangle Choke from Open Guard (Defender) film study: Escaping Triangles vs Big Opponents, taught by John Danaher.",
+      "name": "John Danaher:  on escaping triangles vs big opponents (Gordon Ryan)",
+      "description": "Triangle Choke from Open Guard (Defender) film study: John Danaher:  on escaping triangles vs big opponents (Gordon Ryan).",
       "thumbnailUrl": "https://i.ytimg.com/vi/Z-CsRn4K0vg/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Z-CsRn4K0vg",
       "url": "https://www.youtube.com/watch?v=Z-CsRn4K0vg",
-      "creator": { "@type": "Person", "name": "John Danaher" },
       "duration": "PT48S"
     }
   ]
@@ -221,7 +218,7 @@ Defending the Triangle from Open Guard requires early recognition of the setup c
 
 ![](https://www.youtube.com/watch?v=XE7KCUjLpqg)
 
-<p class="clip-credit"><strong>Triangle Escape to Side Control</strong> — taught by Valdir Rodrigues · 1:12 · <a href="https://www.youtube.com/watch?v=XE7KCUjLpqg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Triangle Escape To Side Control With BJJ Champion Valdir Rodrigues!</strong> · 1:12 · <a href="https://www.youtube.com/watch?v=XE7KCUjLpqg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -229,7 +226,7 @@ Defending the Triangle from Open Guard requires early recognition of the setup c
 
 ![](https://www.youtube.com/watch?v=DLmrzSs1hWI)
 
-<p class="clip-credit"><strong>Triangle Defense / Escape</strong> — taught by Daniel Frank · 0:24 · <a href="https://www.youtube.com/watch?v=DLmrzSs1hWI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Triangle defense/escape</strong> · 0:23 · <a href="https://www.youtube.com/watch?v=DLmrzSs1hWI" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -237,7 +234,7 @@ Defending the Triangle from Open Guard requires early recognition of the setup c
 
 ![](https://www.youtube.com/watch?v=Z-CsRn4K0vg)
 
-<p class="clip-credit"><strong>Escaping Triangles vs Big Opponents</strong> — taught by John Danaher · 0:48 · <a href="https://www.youtube.com/watch?v=Z-CsRn4K0vg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>John Danaher:  on escaping triangles vs big opponents (Gordon Ryan)</strong> · 0:48 · <a href="https://www.youtube.com/watch?v=Z-CsRn4K0vg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

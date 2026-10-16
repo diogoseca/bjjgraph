@@ -166,23 +166,11 @@ description: "Master Z-Guard Top in BJJ. Complete guide covering passing strateg
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Z-Guard pass to the back",
-      "description": "Z-Guard (Top) film study: Z-Guard pass to the back, taught by Animal.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/GQeS3xTXlb0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/GQeS3xTXlb0",
-      "url": "https://www.youtube.com/watch?v=GQeS3xTXlb0",
-      "creator": { "@type": "Person", "name": "Animal" },
-      "duration": "PT48S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "How to pass the Z-Guard (no-gi)",
-      "description": "Z-Guard (Top) film study: How to pass the Z-Guard (no-gi), taught by Zach LeCates.",
+      "name": "How to pass the Z guard No-Gi",
+      "description": "Z-Guard (Top) film study: How to pass the Z guard No-Gi.",
       "thumbnailUrl": "https://i.ytimg.com/vi/39EhiiW-p6o/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/39EhiiW-p6o",
       "url": "https://www.youtube.com/watch?v=39EhiiW-p6o",
-      "creator": { "@type": "Person", "name": "Zach LeCates" },
       "duration": "PT151S"
     }
   ]
@@ -216,17 +204,9 @@ From a competitive perspective, mastering Z-Guard Top passing is essential for a
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=GQeS3xTXlb0)
-
-<p class="clip-credit"><strong>Z-Guard pass to the back</strong> — taught by Animal · 0:48 · <a href="https://www.youtube.com/watch?v=GQeS3xTXlb0" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=39EhiiW-p6o)
 
-<p class="clip-credit"><strong>How to pass the Z-Guard (no-gi)</strong> — taught by Zach LeCates · 2:31 · <a href="https://www.youtube.com/watch?v=39EhiiW-p6o" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How to pass the Z guard No-Gi</strong> · 2:31 · <a href="https://www.youtube.com/watch?v=39EhiiW-p6o" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

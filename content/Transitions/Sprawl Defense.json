@@ -499,30 +499,25 @@
     "clips": [
       {
         "id": "8AaRLOSM61U",
-        "title": "Sprawl technique to defend the shot",
-        "by": "Coach Lang",
-        "vertical": false,
+        "title": "Best Wrestling Defense Sprawl Technique",
         "channel": "Coach Lang",
-        "duration": 55,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "LiRrlPGboK8",
-        "title": "Sprawl technique breakdown",
-        "by": "Jordan Burroughs",
+        "duration": 54,
         "vertical": false,
-        "channel": "CreightonWrestling",
-        "duration": 122,
-        "verified": "2026-07-15"
+        "front": true
       },
       {
         "id": "Io79xaXZx_c",
-        "title": "How to sprawl against a double leg",
-        "by": "ateambjj",
-        "vertical": false,
+        "title": "How to Sprawl against a Double Leg!",
         "channel": "ateambjj",
         "duration": 56,
-        "verified": "2026-07-15"
+        "vertical": false
+      },
+      {
+        "id": "LiRrlPGboK8",
+        "title": "Jordan Burroughs: Sprawl Technique",
+        "channel": "CreightonWrestling",
+        "duration": 122,
+        "vertical": false
       }
     ]
   },
@@ -778,31 +773,19 @@
     ],
     "clips": [
       {
-        "id": "suLByvCIBN4",
-        "title": "Double leg finish when they sprawl",
-        "by": "Infliction Derby",
-        "vertical": false,
-        "channel": "Infliction Derby",
-        "duration": 146,
-        "verified": "2026-07-15"
-      },
-      {
         "id": "CZ-TUSCkvSs",
-        "title": "Beating the sprawl: double leg to back attacks",
-        "by": "Modern Combat Arts",
-        "vertical": false,
+        "title": "Double Leg Take Down to Back Attacks! Never Get Sprawled on Again!",
         "channel": "Modern Combat Arts",
         "duration": 127,
-        "verified": "2026-07-15"
+        "vertical": false,
+        "front": true
       },
       {
-        "id": "U3T0fy6-iNE",
-        "title": "Chain wrestling: shot recovery after the sprawl",
-        "by": "Jordan Burroughs",
-        "vertical": false,
-        "channel": "FCA Wrestling",
-        "duration": 244,
-        "verified": "2026-07-15"
+        "id": "suLByvCIBN4",
+        "title": "Move of the week - Double leg when they sprawl",
+        "channel": "Infliction Derby",
+        "duration": 145,
+        "vertical": false
       }
     ]
   },

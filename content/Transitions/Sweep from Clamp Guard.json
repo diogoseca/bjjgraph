@@ -354,31 +354,17 @@
     "safety_considerations": "The Sweep from Clamp Guard involves significant momentum and rotational force during the rolling motion. Control sweep speed during training to allow your partner to safely post or roll with the movement. Avoid explosive sweep attempts when drilling with lighter or less experienced partners, as the sudden weight transfer and rotational force can cause shoulder or wrist injuries on landing. When following through to mount, place weight gradually rather than dropping full body weight onto your partner's torso. Communicate with your training partner about intensity level before drilling and during live rolling. The clamp itself can generate uncomfortable pressure on the trapped arm's bicep — check in with your partner periodically during extended drilling sessions.",
     "clips": [
       {
-        "id": "KLwqvzhW3A8",
-        "title": "Shoulder crunch sweep from butterfly guard",
-        "by": "Gordon Ryan",
-        "vertical": false,
-        "channel": "Coach Ben BJJ",
-        "duration": 19,
-        "verified": "2026-07-15"
+        "id": "GFCYfh1c72Q",
+        "title": "Details to attack sweeps and submissions from the clamp guard",
+        "channel": "Hellfish Mixed Martial Arts",
+        "duration": 97,
+        "front": true
       },
       {
-        "id": "nyZwifeL_Do",
-        "title": "Shoulder crunch sweep breakdown",
-        "by": "Gordon Ryan",
-        "vertical": false,
-        "channel": "Jiu Jitsu Moves",
-        "duration": 106,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "A6OG_3e1srY",
-        "title": "The clamp guard: control and sweep mechanics",
-        "by": "Fenrir Jiu-Jitsu",
-        "vertical": false,
-        "channel": "Fenrir Jiu-Jitsu Academy",
-        "duration": 137,
-        "verified": "2026-07-15"
+        "id": "5nxG_35bTvY",
+        "title": "Submission and sweep Attacks from the clamp guard",
+        "channel": "Hellfish Mixed Martial Arts",
+        "duration": 156
       }
     ]
   },
@@ -554,21 +540,11 @@
     "clips": [
       {
         "id": "58LkTy6v3KQ",
-        "title": "Defending and countering the clamp from closed guard",
-        "by": "The Grappling Bloke",
-        "vertical": false,
+        "title": "Closed Guard Defense and Counter to the Clamp (Over Hook Position)",
         "channel": "The Grappling Bloke",
-        "duration": 109,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "21BYfWzw6HI",
-        "title": "The Wrists As the First Layer of Defense",
-        "by": "John Danaher",
+        "duration": 108,
         "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 220,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   }

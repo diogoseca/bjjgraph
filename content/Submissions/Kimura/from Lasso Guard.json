@@ -425,26 +425,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "Uu4h-eTOU5w",
-        "title": "Kimura with the Legs from Guard",
-        "by": "Jaime Jara",
-        "vertical": false,
-        "channel": "Jaime Jara",
-        "duration": 31,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "Afz-rE1YYE0",
-        "title": "Kimura with the Legs",
-        "by": "Brendan Smitke",
-        "vertical": false,
-        "channel": "Brendan Smitke",
-        "duration": 31,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Kimura from Lasso Guard Defender",
@@ -632,22 +613,11 @@
     ],
     "clips": [
       {
-        "id": "FNyL93v5fGs",
-        "title": "Defending the Americana/Kimura",
-        "by": "Lachlan Giles",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 91,
-        "verified": "2026-07-14"
-      },
-      {
         "id": "LdHCMIMM380",
-        "title": "North South Kimura Defense",
-        "by": "Stephen Whittier",
-        "vertical": false,
+        "title": "North South Kimura Defense by Stephen Whittier",
         "channel": "BJJ Fanatics",
         "duration": 195,
-        "verified": "2026-07-14"
+        "vertical": false
       }
     ]
   }

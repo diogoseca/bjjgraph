@@ -160,24 +160,12 @@ description: "Learn to defend against the Trap and Roll reversal from top mount.
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Trap and roll defense with double wrist pin",
-      "description": "Trap and Roll from Mount (Defender) film study: Trap and roll defense with double wrist pin, taught by Next Level Martial Arts.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/cxAYK5yx8Ws/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/cxAYK5yx8Ws",
-      "url": "https://www.youtube.com/watch?v=cxAYK5yx8Ws",
-      "creator": { "@type": "Person", "name": "Next Level Martial Arts" },
-      "duration": "PT40S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Three must-know mount escapes",
-      "description": "Trap and Roll from Mount (Defender) film study: Three must-know mount escapes, taught by Legion AJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/dPkkcUtsymw/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/dPkkcUtsymw",
-      "url": "https://www.youtube.com/watch?v=dPkkcUtsymw",
-      "creator": { "@type": "Person", "name": "Legion AJJ" },
-      "duration": "PT96S"
+      "name": "maintaining mount - preventing the bridge escape",
+      "description": "Trap and Roll from Mount (Defender) film study: maintaining mount - preventing the bridge escape.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0dzzXGjWKWI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/0dzzXGjWKWI",
+      "url": "https://www.youtube.com/watch?v=0dzzXGjWKWI",
+      "duration": "PT337S"
     }
   ]
 }
@@ -205,17 +193,9 @@ Defending the Trap and Roll from the top mount position requires awareness of th
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=cxAYK5yx8Ws)
+![](https://www.youtube.com/watch?v=0dzzXGjWKWI)
 
-<p class="clip-credit"><strong>Trap and roll defense with double wrist pin</strong> — taught by Next Level Martial Arts · 0:40 · <a href="https://www.youtube.com/watch?v=cxAYK5yx8Ws" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=dPkkcUtsymw)
-
-<p class="clip-credit"><strong>Three must-know mount escapes</strong> — taught by Legion AJJ · 1:36 · <a href="https://www.youtube.com/watch?v=dPkkcUtsymw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>maintaining mount - preventing the bridge escape</strong> · 5:37 · <a href="https://www.youtube.com/watch?v=0dzzXGjWKWI" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

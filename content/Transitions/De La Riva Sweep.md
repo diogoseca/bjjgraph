@@ -46,24 +46,12 @@ description: "Learn De La Riva Sweep in BJJ. Step-by-step execution from De La R
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "De La Riva sweep matrix",
-      "description": "De La Riva Sweep film study: De La Riva sweep matrix, taught by Unknown coach.",
+      "name": "Jiu Jitsu De La Riva Sweep Matrix \ud83e\udd4b",
+      "description": "De La Riva Sweep film study: Jiu Jitsu De La Riva Sweep Matrix \ud83e\udd4b.",
       "thumbnailUrl": "https://i.ytimg.com/vi/pcOF-B4y09Q/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/pcOF-B4y09Q",
       "url": "https://www.youtube.com/watch?v=pcOF-B4y09Q",
-      "creator": { "@type": "Person", "name": "Unknown coach" },
-      "duration": "PT36S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "De la X sweep from De La Riva",
-      "description": "De La Riva Sweep film study: De la X sweep from De La Riva, taught by IronHide Academy coach.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/H_q0fvsywO0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/H_q0fvsywO0",
-      "url": "https://www.youtube.com/watch?v=H_q0fvsywO0",
-      "creator": { "@type": "Person", "name": "IronHide Academy coach" },
-      "duration": "PT69S"
+      "duration": "PT35S"
     }
   ]
 }
@@ -119,15 +107,7 @@ This technique represents a cornerstone of modern sport jiu-jitsu, particularly 
 
 ![](https://www.youtube.com/watch?v=pcOF-B4y09Q)
 
-<p class="clip-credit"><strong>De La Riva sweep matrix</strong> — taught by Unknown coach · 0:36 · <a href="https://www.youtube.com/watch?v=pcOF-B4y09Q" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=H_q0fvsywO0)
-
-<p class="clip-credit"><strong>De la X sweep from De La Riva</strong> — taught by IronHide Academy coach · 1:09 · <a href="https://www.youtube.com/watch?v=H_q0fvsywO0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Jiu Jitsu De La Riva Sweep Matrix 🥋</strong> · 0:35 · <a href="https://www.youtube.com/watch?v=pcOF-B4y09Q" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

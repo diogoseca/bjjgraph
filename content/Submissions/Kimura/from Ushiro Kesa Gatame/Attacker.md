@@ -182,23 +182,11 @@ description: "Complete attacking guide for the Kimura from Ushiro Kesa Gatame co
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Kimura from Ushiro Kesa Gatame",
-      "description": "Kimura from Ushiro Kesa Gatame (Attacker) film study: Kimura from Ushiro Kesa Gatame, taught by Raymond Tan.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/waWC7ARiESc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/waWC7ARiESc",
-      "url": "https://www.youtube.com/watch?v=waWC7ARiESc",
-      "creator": { "@type": "Person", "name": "Raymond Tan" },
-      "duration": "PT170S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Kimura trap from reverse kesa gatame",
-      "description": "Kimura from Ushiro Kesa Gatame (Attacker) film study: Kimura trap from reverse kesa gatame, taught by Smith BJJ.",
+      "name": "Kimura trap from reverse kesa-katame.#jiujitsulifestyle #smithbjj\u2026",
+      "description": "Kimura from Ushiro Kesa Gatame (Attacker) film study: Kimura trap from reverse kesa-katame.#jiujitsulifestyle #smithbjj\u2026.",
       "thumbnailUrl": "https://i.ytimg.com/vi/xLCWZaGPW0g/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/xLCWZaGPW0g",
       "url": "https://www.youtube.com/watch?v=xLCWZaGPW0g",
-      "creator": { "@type": "Person", "name": "Smith BJJ" },
       "duration": "PT140S"
     }
   ]
@@ -228,17 +216,9 @@ Attacking the Kimura from Ushiro Kesa Gatame leverages your dominant chest press
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=waWC7ARiESc)
-
-<p class="clip-credit"><strong>Kimura from Ushiro Kesa Gatame</strong> — taught by Raymond Tan · 2:50 · <a href="https://www.youtube.com/watch?v=waWC7ARiESc" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=xLCWZaGPW0g)
 
-<p class="clip-credit"><strong>Kimura trap from reverse kesa gatame</strong> — taught by Smith BJJ · 2:20 · <a href="https://www.youtube.com/watch?v=xLCWZaGPW0g" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Kimura trap from reverse kesa-katame.#jiujitsulifestyle #smithbjj…</strong> · 2:20 · <a href="https://www.youtube.com/watch?v=xLCWZaGPW0g" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -46,24 +46,22 @@ description: "Master kneebar control maintenance in BJJ. Learn grip adjustments,
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Dog Bar Kneebar Control",
-      "description": "Kneebar Control Maintenance film study: Dog Bar Kneebar Control, taught by Craig Jones.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/vMqDIi10z4k/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/vMqDIi10z4k",
-      "url": "https://www.youtube.com/watch?v=vMqDIi10z4k",
-      "creator": { "@type": "Person", "name": "Craig Jones" },
-      "duration": "PT61S"
+      "name": "Knee Bar defense + take the back",
+      "description": "Kneebar Control Maintenance film study: Knee Bar defense + take the back.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/NuWBh3LN-SY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/NuWBh3LN-SY",
+      "url": "https://www.youtube.com/watch?v=NuWBh3LN-SY",
+      "duration": "PT21S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Go Behind Kneebar",
-      "description": "Kneebar Control Maintenance film study: Go Behind Kneebar, taught by Craig Jones.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/v4lhLkKgVvU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/v4lhLkKgVvU",
-      "url": "https://www.youtube.com/watch?v=v4lhLkKgVvU",
-      "creator": { "@type": "Person", "name": "Craig Jones" },
-      "duration": "PT129S"
+      "name": "How to Defend a Kneebar (and Prevent a Backstep Pass)",
+      "description": "Kneebar Control Maintenance film study: How to Defend a Kneebar (and Prevent a Backstep Pass).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wBRG0fY94fs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/wBRG0fY94fs",
+      "url": "https://www.youtube.com/watch?v=wBRG0fY94fs",
+      "duration": "PT59S"
     }
   ]
 }
@@ -117,17 +115,17 @@ From a systems perspective, kneebar control maintenance serves as the stabilizat
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=vMqDIi10z4k)
+![](https://www.youtube.com/watch?v=NuWBh3LN-SY)
 
-<p class="clip-credit"><strong>Dog Bar Kneebar Control</strong> — taught by Craig Jones · 1:01 · <a href="https://www.youtube.com/watch?v=vMqDIi10z4k" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Knee Bar defense + take the back</strong> · 0:21 · <a href="https://www.youtube.com/watch?v=NuWBh3LN-SY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=v4lhLkKgVvU)
+![](https://www.youtube.com/watch?v=wBRG0fY94fs)
 
-<p class="clip-credit"><strong>Go Behind Kneebar</strong> — taught by Craig Jones · 2:09 · <a href="https://www.youtube.com/watch?v=v4lhLkKgVvU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How to Defend a Kneebar (and Prevent a Backstep Pass)</strong> · 0:59 · <a href="https://www.youtube.com/watch?v=wBRG0fY94fs" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

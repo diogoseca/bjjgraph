@@ -162,24 +162,32 @@ description: "How to defend against Armbar from Back in BJJ. Recognition, escape
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "My favorite armbar escape",
-      "description": "Armbar from Back (Defender) film study: My favorite armbar escape, taught by Matt Arroyo.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/kNdKfUdgO4I/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/kNdKfUdgO4I",
-      "url": "https://www.youtube.com/watch?v=kNdKfUdgO4I",
-      "creator": { "@type": "Person", "name": "Matt Arroyo" },
-      "duration": "PT92S"
+      "name": "The Armbar From the Back and How to Stop It",
+      "description": "Armbar from Back (Defender) film study: The Armbar From the Back and How to Stop It.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/s_X84S_o8_A/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/s_X84S_o8_A",
+      "url": "https://www.youtube.com/watch?v=s_X84S_o8_A",
+      "duration": "PT246S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Armbar escape vs back attack",
-      "description": "Armbar from Back (Defender) film study: Armbar escape vs back attack, taught by ZombieProofBJJ.",
+      "name": "THIS is my favorite armbar escape! #jiujitsu #jiujitsutips",
+      "description": "Armbar from Back (Defender) film study: THIS is my favorite armbar escape! #jiujitsu #jiujitsutips.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kNdKfUdgO4I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kNdKfUdgO4I",
+      "url": "https://www.youtube.com/watch?v=kNdKfUdgO4I",
+      "duration": "PT92S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Armbar Escape: RNC",
+      "description": "Armbar from Back (Defender) film study: Armbar Escape: RNC.",
       "thumbnailUrl": "https://i.ytimg.com/vi/sDdqvh_1kbA/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/sDdqvh_1kbA",
       "url": "https://www.youtube.com/watch?v=sDdqvh_1kbA",
-      "creator": { "@type": "Person", "name": "ZombieProofBJJ" },
-      "duration": "PT63S"
+      "duration": "PT62S"
     }
   ]
 }
@@ -208,9 +216,17 @@ Defending the armbar from back control is one of the most challenging defensive 
 
 <div class="film-clip">
 
+![](https://www.youtube.com/watch?v=s_X84S_o8_A)
+
+<p class="clip-credit"><strong>The Armbar From the Back and How to Stop It</strong> · 4:06 · <a href="https://www.youtube.com/watch?v=s_X84S_o8_A" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
 ![](https://www.youtube.com/watch?v=kNdKfUdgO4I)
 
-<p class="clip-credit"><strong>My favorite armbar escape</strong> — taught by Matt Arroyo · 1:32 · <a href="https://www.youtube.com/watch?v=kNdKfUdgO4I" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>THIS is my favorite armbar escape! #jiujitsu #jiujitsutips</strong> · 1:32 · <a href="https://www.youtube.com/watch?v=kNdKfUdgO4I" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -218,7 +234,7 @@ Defending the armbar from back control is one of the most challenging defensive 
 
 ![](https://www.youtube.com/watch?v=sDdqvh_1kbA)
 
-<p class="clip-credit"><strong>Armbar escape vs back attack</strong> — taught by ZombieProofBJJ · 1:03 · <a href="https://www.youtube.com/watch?v=sDdqvh_1kbA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Armbar Escape: RNC</strong> · 1:02 · <a href="https://www.youtube.com/watch?v=sDdqvh_1kbA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

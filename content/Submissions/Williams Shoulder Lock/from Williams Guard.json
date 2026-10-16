@@ -451,35 +451,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "CbhMCaKPYA4",
-        "title": "Neil Knot shoulder lock from Williams Guard",
-        "by": "UFAI Grappling",
-        "vertical": false,
-        "channel": "UFAI GRAPPLING",
-        "duration": 36,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "YXaJU4DVUUc",
-        "title": "Shoulder Pin to Neil Knot",
-        "by": "Control Jiu-Jitsu",
-        "vertical": false,
-        "channel": "Control Jiu JItsu",
-        "duration": 70,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "URqmSVOr9Qw",
-        "title": "Shoulder Pin Series",
-        "by": "Heritage JuJitsu",
-        "vertical": false,
-        "channel": "Heritage JuJitsu",
-        "duration": 137,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Williams Shoulder Lock from Williams Guard Defender",
@@ -663,34 +635,6 @@
         "description": "Defend the full Williams Guard attack chain including shoulder lock, omoplata transitions, triangle setups, and armbar entries under competitive resistance. Focus on reading which attack the opponent selects and countering appropriately."
       }
     ],
-    "clips": [
-      {
-        "id": "NZEf9jXzCYA",
-        "title": "Williams Guard cartwheel escape counter",
-        "by": "Sam Wilkinson",
-        "vertical": false,
-        "channel": "Sam Wilkinson MMA",
-        "duration": 80,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "p_GndPm6n0g",
-        "title": "Beating no-gi closed guard: head up, hips in posture",
-        "by": "Neil Melanson",
-        "vertical": false,
-        "channel": "Bernardo Faria BJJ Fanatics",
-        "duration": 410,
-        "verified": "2026-07-16"
-      },
-      {
-        "id": "M__MeC_XCIM",
-        "title": "Williams guard armbar counter",
-        "by": "Sam Wilkinson",
-        "vertical": false,
-        "channel": "Sam Wilkinson MMA",
-        "duration": 66,
-        "verified": "2026-07-16"
-      }
-    ]
+    "clips": []
   }
 }

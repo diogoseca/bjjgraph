@@ -566,35 +566,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "HPAWgC8qxFY",
-        "title": "Marcelotine guillotine from front headlock",
-        "by": "Marcelo Garcia",
-        "vertical": false,
-        "channel": "Miguel Garcia",
-        "duration": 47,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "9QCJFDsDQmk",
-        "title": "Front headlock snap down to spin behind",
-        "by": "Procel BJJ",
-        "vertical": false,
-        "channel": "Procel Brazilian Jiu-Jitsu",
-        "duration": 66,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "87l6l0dmPWM",
-        "title": "Front headlock to the back",
-        "by": "Coach Casey",
-        "vertical": false,
-        "channel": "Coach “Coach Casey” Casey",
-        "duration": 52,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   },
   "bottom": {
     "name": "Front Headlock Bottom",
@@ -1023,31 +995,19 @@
     ],
     "clips": [
       {
-        "id": "t4xBYQ1VauU",
-        "title": "Front headlock sit-out reversal",
-        "by": "Takada Dojo",
-        "vertical": false,
-        "channel": "takadadojokeith",
-        "duration": 28,
-        "verified": "2026-07-14"
-      },
-      {
         "id": "OZkTT8kT1G8",
-        "title": "Clearing the front headlock",
-        "by": "The School of Wrestling",
-        "vertical": false,
+        "title": "Clearing The Front Headlock - The School of Wrestling Technique",
         "channel": "The School of Wrestling",
         "duration": 86,
-        "verified": "2026-07-14"
+        "vertical": false,
+        "front": true
       },
       {
         "id": "ry5lH-N7O-0",
-        "title": "Basic front headlock defense",
-        "by": "Ben Askren",
-        "vertical": false,
+        "title": "Basic Front Head Lock defense!",
         "channel": "Askren Wrestling Academy",
         "duration": 108,
-        "verified": "2026-07-14"
+        "vertical": false
       }
     ]
   },
@@ -1165,24 +1125,5 @@
       }
     }
   ],
-  "clips": [
-    {
-      "id": "Oa4LFTysBdo",
-      "title": "5 basic submissions from front headlock",
-      "by": "Elevate MMA Academy",
-      "vertical": false,
-      "channel": "Elevate MMA Academy",
-      "duration": 165,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "jJQ8r8nR5a4",
-      "title": "Front headlock fundamentals",
-      "by": "David Taylor",
-      "vertical": false,
-      "channel": "Live Trained",
-      "duration": 236,
-      "verified": "2026-07-14"
-    }
-  ]
+  "clips": []
 }

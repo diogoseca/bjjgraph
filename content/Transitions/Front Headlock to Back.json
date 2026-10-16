@@ -380,31 +380,26 @@
     "safety_considerations": "The front headlock to back take is generally a safe positional transition when practiced with proper control and awareness. Practitioners should maintain constant communication with training partners, especially during the early learning phases. The primary safety concern involves neck and spine safety during the front headlock control phase: excessive cranking or sudden jerking motions should be avoided, and pressure should be applied gradually and controlled. When the opponent attempts defensive rolls or explosive escapes, both practitioners must be aware of potential collision with the ground or mat boundaries. Partners should agree on intensity levels before drilling, particularly regarding how much resistance will be applied during the transition phases. As the technique often leads directly to back control and submission attempts (particularly the rear naked choke), practitioners should be well-versed in proper tapping protocols and immediately release all control when a tap is given. Beginners should work this transition under supervision to ensure proper mechanics and avoid developing bad habits that could lead to injury in live training.",
     "clips": [
       {
-        "id": "87l6l0dmPWM",
-        "title": "Front Headlock to the Back Take",
-        "by": "Coach Casey",
+        "id": "m1zVrv0CQ_E",
+        "title": "MJC #709 Front Headlock To Back Take",
+        "channel": "Modesto Judo Club",
+        "duration": 28,
         "vertical": false,
+        "front": true
+      },
+      {
+        "id": "87l6l0dmPWM",
+        "title": "Front headlock to the back",
         "channel": "Coach “Coach Casey” Casey",
         "duration": 52,
-        "verified": "2026-07-15"
+        "vertical": false
       },
       {
         "id": "9QCJFDsDQmk",
-        "title": "Front Headlock Snap Down to Spin Behind",
-        "by": "Procel BJJ",
-        "vertical": false,
+        "title": "Front Headlock Snap Down To Spin Behind",
         "channel": "Procel Brazilian Jiu-Jitsu",
         "duration": 66,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "m1zVrv0CQ_E",
-        "title": "Front Headlock to Back Take",
-        "by": "Modesto Judo Club",
-        "vertical": false,
-        "channel": "Modesto Judo Club",
-        "duration": 28,
-        "verified": "2026-07-15"
+        "vertical": false
       }
     ]
   },
@@ -589,31 +584,19 @@
     ],
     "clips": [
       {
-        "id": "lV4cgzaVhb8",
-        "title": "Front Headlock Defense: Farside Peek Out",
-        "by": "Procel BJJ",
+        "id": "t4xBYQ1VauU",
+        "title": "Front Headlock Sit out Reversal",
+        "channel": "takadadojokeith",
+        "duration": 27,
         "vertical": false,
+        "front": true
+      },
+      {
+        "id": "lV4cgzaVhb8",
+        "title": "Front Headlock Defense - Farside Peek Out",
         "channel": "Procel Brazilian Jiu-Jitsu",
         "duration": 64,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "c8N4F3EgOZk",
-        "title": "Sucker Drag Defense Against the Front Headlock",
-        "by": "Procel BJJ",
-        "vertical": false,
-        "channel": "Procel Brazilian Jiu-Jitsu",
-        "duration": 71,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "t4xBYQ1VauU",
-        "title": "Front Headlock Sit Out Reversal",
-        "by": "Keith Takada",
-        "vertical": false,
-        "channel": "takadadojokeith",
-        "duration": 28,
-        "verified": "2026-07-15"
+        "vertical": false
       }
     ]
   },

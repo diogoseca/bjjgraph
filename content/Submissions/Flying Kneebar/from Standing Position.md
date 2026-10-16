@@ -47,23 +47,11 @@ description: "Master the Flying Kneebar in BJJ. Complete guide with safety proto
       "@type": "VideoObject",
       "position": 1,
       "name": "3 Steps to a Flying Kneebar",
-      "description": "Flying Kneebar from Standing Position film study: 3 Steps to a Flying Kneebar, taught by Bermuda Martial Arts.",
+      "description": "Flying Kneebar from Standing Position film study: 3 Steps to a Flying Kneebar.",
       "thumbnailUrl": "https://i.ytimg.com/vi/IuBrliVbU24/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/IuBrliVbU24",
       "url": "https://www.youtube.com/watch?v=IuBrliVbU24",
-      "creator": { "@type": "Person", "name": "Bermuda Martial Arts" },
-      "duration": "PT25S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Flying Kneebar Attack",
-      "description": "Flying Kneebar from Standing Position film study: Flying Kneebar Attack, taught by High Rollerz.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/l9qAHPNbCfM/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/l9qAHPNbCfM",
-      "url": "https://www.youtube.com/watch?v=l9qAHPNbCfM",
-      "creator": { "@type": "Person", "name": "High Rollerz" },
-      "duration": "PT16S"
+      "duration": "PT24S"
     }
   ]
 }
@@ -124,15 +112,7 @@ The Flying Kneebar combines athleticism, timing, and technical precision to catc
 
 ![](https://www.youtube.com/watch?v=IuBrliVbU24)
 
-<p class="clip-credit"><strong>3 Steps to a Flying Kneebar</strong> — taught by Bermuda Martial Arts · 0:25 · <a href="https://www.youtube.com/watch?v=IuBrliVbU24" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=l9qAHPNbCfM)
-
-<p class="clip-credit"><strong>Flying Kneebar Attack</strong> — taught by High Rollerz · 0:16 · <a href="https://www.youtube.com/watch?v=l9qAHPNbCfM" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>3 Steps to a Flying Kneebar</strong> · 0:24 · <a href="https://www.youtube.com/watch?v=IuBrliVbU24" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

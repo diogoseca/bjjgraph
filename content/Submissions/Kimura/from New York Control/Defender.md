@@ -156,34 +156,31 @@ description: "Defend against the Kimura from New York Control position. Recognit
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Counter Kimuras",
-      "description": "Kimura from New York Control (Defender) film study: Counter Kimuras, taught by Chewjitsu.",
+      "name": "3 Sneaky Ways to Counter Kimuras from Half Guard Top (Using 1 Grip)",
+      "description": "Kimura from New York Control (Defender) film study: 3 Sneaky Ways to Counter Kimuras from Half Guard Top (Using 1 Grip).",
       "thumbnailUrl": "https://i.ytimg.com/vi/FoAYceaEPLc/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/FoAYceaEPLc",
       "url": "https://www.youtube.com/watch?v=FoAYceaEPLc",
-      "creator": { "@type": "Person", "name": "Chewjitsu" },
       "duration": "PT277S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "10th Planet kimura grip break",
-      "description": "Kimura from New York Control (Defender) film study: 10th Planet kimura grip break, taught by 10th Planet West LA.",
+      "name": "10th Planet Jiu Jitsu Secret Kimura Grip Break - 10th Planet Jiu Jitsu - West LA",
+      "description": "Kimura from New York Control (Defender) film study: 10th Planet Jiu Jitsu Secret Kimura Grip Break - 10th Planet Jiu Jitsu - West LA.",
       "thumbnailUrl": "https://i.ytimg.com/vi/bUZmy2Gu7jo/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/bUZmy2Gu7jo",
       "url": "https://www.youtube.com/watch?v=bUZmy2Gu7jo",
-      "creator": { "@type": "Person", "name": "10th Planet West LA" },
       "duration": "PT87S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "Kimura escape and counters",
-      "description": "Kimura from New York Control (Defender) film study: Kimura escape and counters, taught by BJJ After Forty.",
+      "name": "Kimura Escape / Counters and More",
+      "description": "Kimura from New York Control (Defender) film study: Kimura Escape / Counters and More.",
       "thumbnailUrl": "https://i.ytimg.com/vi/mQc4mxtDGUo/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/mQc4mxtDGUo",
       "url": "https://www.youtube.com/watch?v=mQc4mxtDGUo",
-      "creator": { "@type": "Person", "name": "BJJ After Forty" },
       "duration": "PT201S"
     }
   ]
@@ -215,7 +212,7 @@ Defending the Kimura from New York Control requires recognizing the transition f
 
 ![](https://www.youtube.com/watch?v=FoAYceaEPLc)
 
-<p class="clip-credit"><strong>Counter Kimuras</strong> — taught by Chewjitsu · 4:37 · <a href="https://www.youtube.com/watch?v=FoAYceaEPLc" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>3 Sneaky Ways to Counter Kimuras from Half Guard Top (Using 1 Grip)</strong> · 4:37 · <a href="https://www.youtube.com/watch?v=FoAYceaEPLc" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -223,7 +220,7 @@ Defending the Kimura from New York Control requires recognizing the transition f
 
 ![](https://www.youtube.com/watch?v=bUZmy2Gu7jo)
 
-<p class="clip-credit"><strong>10th Planet kimura grip break</strong> — taught by 10th Planet West LA · 1:27 · <a href="https://www.youtube.com/watch?v=bUZmy2Gu7jo" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>10th Planet Jiu Jitsu Secret Kimura Grip Break - 10th Planet Jiu Jitsu - West LA</strong> · 1:27 · <a href="https://www.youtube.com/watch?v=bUZmy2Gu7jo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -231,7 +228,7 @@ Defending the Kimura from New York Control requires recognizing the transition f
 
 ![](https://www.youtube.com/watch?v=mQc4mxtDGUo)
 
-<p class="clip-credit"><strong>Kimura escape and counters</strong> — taught by BJJ After Forty · 3:21 · <a href="https://www.youtube.com/watch?v=mQc4mxtDGUo" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Kimura Escape / Counters and More</strong> · 3:21 · <a href="https://www.youtube.com/watch?v=mQc4mxtDGUo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

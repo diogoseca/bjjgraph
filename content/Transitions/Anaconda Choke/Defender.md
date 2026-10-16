@@ -160,35 +160,22 @@ description: "How to defend against Anaconda Choke in BJJ. Recognition cues, def
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Anaconda choke defense",
-      "description": "Anaconda Choke (Defender) film study: Anaconda choke defense, taught by SFS MMA coach.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/SXm9wA1HcvM/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/SXm9wA1HcvM",
-      "url": "https://www.youtube.com/watch?v=SXm9wA1HcvM",
-      "creator": { "@type": "Person", "name": "SFS MMA coach" },
-      "duration": "PT64S"
+      "name": "Anaconda Choke Defense",
+      "description": "Anaconda Choke (Defender) film study: Anaconda Choke Defense.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/N9MbEtAv_Lw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/N9MbEtAv_Lw",
+      "url": "https://www.youtube.com/watch?v=N9MbEtAv_Lw",
+      "duration": "PT61S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Anaconda choke defense",
-      "description": "Anaconda Choke (Defender) film study: Anaconda choke defense, taught by Mamba BJJ coach.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/N9MbEtAv_Lw/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/N9MbEtAv_Lw",
-      "url": "https://www.youtube.com/watch?v=N9MbEtAv_Lw",
-      "creator": { "@type": "Person", "name": "Mamba BJJ coach" },
-      "duration": "PT62S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Standing front headlock choke defense",
-      "description": "Anaconda Choke (Defender) film study: Standing front headlock choke defense, taught by Empower Gym Tampa coach.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/J-MaOIfDHXk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/J-MaOIfDHXk",
-      "url": "https://www.youtube.com/watch?v=J-MaOIfDHXk",
-      "creator": { "@type": "Person", "name": "Empower Gym Tampa coach" },
-      "duration": "PT60S"
+      "name": "Anaconda choke defense (BJJ) - SFS MMA",
+      "description": "Anaconda Choke (Defender) film study: Anaconda choke defense (BJJ) - SFS MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/SXm9wA1HcvM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/SXm9wA1HcvM",
+      "url": "https://www.youtube.com/watch?v=SXm9wA1HcvM",
+      "duration": "PT64S"
     }
   ]
 }
@@ -218,25 +205,17 @@ The critical window for successful defense occurs before the attacker connects t
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=SXm9wA1HcvM)
-
-<p class="clip-credit"><strong>Anaconda choke defense</strong> — taught by SFS MMA coach · 1:04 · <a href="https://www.youtube.com/watch?v=SXm9wA1HcvM" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=N9MbEtAv_Lw)
 
-<p class="clip-credit"><strong>Anaconda choke defense</strong> — taught by Mamba BJJ coach · 1:02 · <a href="https://www.youtube.com/watch?v=N9MbEtAv_Lw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Anaconda Choke Defense</strong> · 1:01 · <a href="https://www.youtube.com/watch?v=N9MbEtAv_Lw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=J-MaOIfDHXk)
+![](https://www.youtube.com/watch?v=SXm9wA1HcvM)
 
-<p class="clip-credit"><strong>Standing front headlock choke defense</strong> — taught by Empower Gym Tampa coach · 1:00 · <a href="https://www.youtube.com/watch?v=J-MaOIfDHXk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Anaconda choke defense (BJJ) - SFS MMA</strong> · 1:04 · <a href="https://www.youtube.com/watch?v=SXm9wA1HcvM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

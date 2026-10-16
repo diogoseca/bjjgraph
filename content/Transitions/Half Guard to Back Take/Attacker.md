@@ -192,23 +192,11 @@ description: "How to execute Half Guard to Back Take in BJJ. Attacking perspecti
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Back take from half guard using a butterfly hook",
-      "description": "Half Guard to Back Take (Attacker) film study: Back take from half guard using a butterfly hook, taught by Procel.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/WoSyrVZ1VvY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/WoSyrVZ1VvY",
-      "url": "https://www.youtube.com/watch?v=WoSyrVZ1VvY",
-      "creator": { "@type": "Person", "name": "Procel" },
-      "duration": "PT55S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Back take from half guard bottom",
-      "description": "Half Guard to Back Take (Attacker) film study: Back take from half guard bottom, taught by BJJ Recap coach.",
+      "name": "Joe Rogan inspired backtake from half guard | BJJ passes",
+      "description": "Half Guard to Back Take (Attacker) film study: Joe Rogan inspired backtake from half guard | BJJ passes.",
       "thumbnailUrl": "https://i.ytimg.com/vi/XqH1Bt0-AgY/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/XqH1Bt0-AgY",
       "url": "https://www.youtube.com/watch?v=XqH1Bt0-AgY",
-      "creator": { "@type": "Person", "name": "BJJ Recap coach" },
       "duration": "PT39S"
     }
   ]
@@ -237,17 +225,9 @@ Half Guard to Back Take represents an advanced positional transition that transf
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=WoSyrVZ1VvY)
-
-<p class="clip-credit"><strong>Back take from half guard using a butterfly hook</strong> — taught by Procel · 0:55 · <a href="https://www.youtube.com/watch?v=WoSyrVZ1VvY" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=XqH1Bt0-AgY)
 
-<p class="clip-credit"><strong>Back take from half guard bottom</strong> — taught by BJJ Recap coach · 0:39 · <a href="https://www.youtube.com/watch?v=XqH1Bt0-AgY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Joe Rogan inspired backtake from half guard | BJJ passes</strong> · 0:39 · <a href="https://www.youtube.com/watch?v=XqH1Bt0-AgY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

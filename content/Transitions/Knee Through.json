@@ -389,26 +389,7 @@
       }
     ],
     "safety_considerations": "The Knee Through pass is a relatively safe technique for both practitioners when performed correctly. The primary safety concern is excessive crossface pressure on the opponent's neck and jaw, which should be firm but controlled to avoid cervical strain. Avoid driving the crossface upward into the throat, keeping pressure lateral across the face instead. When extracting your leg, be mindful not to drag your shin forcefully across the opponent's thigh or knee, which can cause bruising or ligament stress. If the pass is not working after two or three attempts, reset rather than forcing movement, as forcing can lead to awkward leg positions where knee injuries occur. Practitioners with existing knee injuries should communicate with their partner about controlling the extraction phase.",
-    "clips": [
-      {
-        "id": "zQXG0nOceks",
-        "title": "Shin to shin knee slice pass",
-        "by": "Jake Shields",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 100,
-        "verified": "2026-07-16"
-      },
-      {
-        "id": "wDnDzslTMk8",
-        "title": "Knee slice pass to shin staple",
-        "by": "Clark Gracie",
-        "vertical": false,
-        "channel": "Clark Gracie Allegiance Jiu Jitsu",
-        "duration": 75,
-        "verified": "2026-07-16"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Knee Through Defender",
@@ -593,30 +574,11 @@
     "clips": [
       {
         "id": "RvIIpXaPyJM",
-        "title": "Basic knee slide recovery",
-        "by": "Vision BJJ coach",
-        "vertical": false,
+        "title": "Basic Knee Slide Recovery",
         "channel": "Vision Brazilian Jiu Jitsu",
         "duration": 96,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "iTrQzYeCvHM",
-        "title": "Top 5 guard retention mistakes",
-        "by": "Lachlan Giles",
         "vertical": false,
-        "channel": "Bernardo Faria BJJ Fanatics",
-        "duration": 436,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "iq5Ng9kFD2A",
-        "title": "Defend and counter the knee slide pass",
-        "by": "Jordan Preisinger",
-        "vertical": false,
-        "channel": "Jordan Teaches Jiujitsu",
-        "duration": 678,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },

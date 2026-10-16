@@ -165,35 +165,12 @@ description: "Master body lock control from top position. Dominant standing cont
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Nicky Rod\u0027s body lock pass demo",
-      "description": "Body Lock (Top) film study: Nicky Rod\u0027s body lock pass demo, taught by Professor Buck.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/sztjmLZYxIQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/sztjmLZYxIQ",
-      "url": "https://www.youtube.com/watch?v=sztjmLZYxIQ",
-      "creator": { "@type": "Person", "name": "Professor Buck" },
-      "duration": "PT38S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Body lock takedown from standing",
-      "description": "Body Lock (Top) film study: Body lock takedown from standing, taught by Sean Sherk.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/91Fgpe788no/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/91Fgpe788no",
-      "url": "https://www.youtube.com/watch?v=91Fgpe788no",
-      "creator": { "@type": "Person", "name": "Sean Sherk" },
-      "duration": "PT73S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Nicky Rod explains his body lock pass",
-      "description": "Body Lock (Top) film study: Nicky Rod explains his body lock pass, taught by Nicky Rodriguez.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/spB8qALp5rA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/spB8qALp5rA",
-      "url": "https://www.youtube.com/watch?v=spB8qALp5rA",
-      "creator": { "@type": "Person", "name": "Nicky Rodriguez" },
-      "duration": "PT221S"
+      "name": "3 Wrestling Entries to a Standing Rear Body Lock | No-Gi Technique| Pearson\u2026",
+      "description": "Body Lock (Top) film study: 3 Wrestling Entries to a Standing Rear Body Lock | No-Gi Technique| Pearson\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lF5kkB2rq5Y/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lF5kkB2rq5Y",
+      "url": "https://www.youtube.com/watch?v=lF5kkB2rq5Y",
+      "duration": "PT194S"
     }
   ]
 }
@@ -223,25 +200,9 @@ Modern no-gi competition has elevated the body lock to a primary offensive weapo
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=sztjmLZYxIQ)
+![](https://www.youtube.com/watch?v=lF5kkB2rq5Y)
 
-<p class="clip-credit"><strong>Nicky Rod&#39;s body lock pass demo</strong> — taught by Professor Buck · 0:38 · <a href="https://www.youtube.com/watch?v=sztjmLZYxIQ" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=91Fgpe788no)
-
-<p class="clip-credit"><strong>Body lock takedown from standing</strong> — taught by Sean Sherk · 1:13 · <a href="https://www.youtube.com/watch?v=91Fgpe788no" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=spB8qALp5rA)
-
-<p class="clip-credit"><strong>Nicky Rod explains his body lock pass</strong> — taught by Nicky Rodriguez · 3:41 · <a href="https://www.youtube.com/watch?v=spB8qALp5rA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>3 Wrestling Entries to a Standing Rear Body Lock | No-Gi Technique| Pearson…</strong> · 3:14 · <a href="https://www.youtube.com/watch?v=lF5kkB2rq5Y" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

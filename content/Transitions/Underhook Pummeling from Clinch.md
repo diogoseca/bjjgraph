@@ -46,24 +46,12 @@ description: "Master underhook pummeling from the clinch in BJJ. Complete guide 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Pummel to underhook in the clinch",
-      "description": "Underhook Pummeling from Clinch film study: Pummel to underhook in the clinch, taught by Matt Brown.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/S4Ghvm7FZeI/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/S4Ghvm7FZeI",
-      "url": "https://www.youtube.com/watch?v=S4Ghvm7FZeI",
-      "creator": { "@type": "Person", "name": "Matt Brown" },
-      "duration": "PT223S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Pummel to side clinch drill",
-      "description": "Underhook Pummeling from Clinch film study: Pummel to side clinch drill, taught by Fargo BJJ coach.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/SKj1Lc16y6I/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/SKj1Lc16y6I",
-      "url": "https://www.youtube.com/watch?v=SKj1Lc16y6I",
-      "creator": { "@type": "Person", "name": "Fargo BJJ coach" },
-      "duration": "PT50S"
+      "name": "mauthai muppets, how to escape underhooks in the clinch option 2",
+      "description": "Underhook Pummeling from Clinch film study: mauthai muppets, how to escape underhooks in the clinch option 2.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/i5pNuC1_uyA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/i5pNuC1_uyA",
+      "url": "https://www.youtube.com/watch?v=i5pNuC1_uyA",
+      "duration": "PT74S"
     }
   ]
 }
@@ -117,17 +105,9 @@ At the highest levels, pummeling transcends simple arm swimming and becomes an i
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=S4Ghvm7FZeI)
+![](https://www.youtube.com/watch?v=i5pNuC1_uyA)
 
-<p class="clip-credit"><strong>Pummel to underhook in the clinch</strong> — taught by Matt Brown · 3:43 · <a href="https://www.youtube.com/watch?v=S4Ghvm7FZeI" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=SKj1Lc16y6I)
-
-<p class="clip-credit"><strong>Pummel to side clinch drill</strong> — taught by Fargo BJJ coach · 0:50 · <a href="https://www.youtube.com/watch?v=SKj1Lc16y6I" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>mauthai muppets, how to escape underhooks in the clinch option 2</strong> · 1:14 · <a href="https://www.youtube.com/watch?v=i5pNuC1_uyA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

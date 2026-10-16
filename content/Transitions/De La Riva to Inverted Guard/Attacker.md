@@ -181,35 +181,22 @@ description: "How to invert from De La Riva Guard in BJJ. Attacking perspective 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Berimbolo breakdown at Art of Jiu Jitsu",
-      "description": "De La Riva to Inverted Guard (Attacker) film study: Berimbolo breakdown at Art of Jiu Jitsu, taught by Art of Jiu Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/zQ2DK_uMK_8/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/zQ2DK_uMK_8",
-      "url": "https://www.youtube.com/watch?v=zQ2DK_uMK_8",
-      "creator": { "@type": "Person", "name": "Art of Jiu Jitsu" },
-      "duration": "PT63S"
+      "name": "De La Riva to Berimbolo to Leg Drag.",
+      "description": "De La Riva to Inverted Guard (Attacker) film study: De La Riva to Berimbolo to Leg Drag..",
+      "thumbnailUrl": "https://i.ytimg.com/vi/BG3c7JlQbow/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/BG3c7JlQbow",
+      "url": "https://www.youtube.com/watch?v=BG3c7JlQbow",
+      "duration": "PT27S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "De La Riva guard into berimbolo",
-      "description": "De La Riva to Inverted Guard (Attacker) film study: De La Riva guard into berimbolo, taught by Vinicius Amaral.",
+      "name": "Guarda dela riva com berimbolo",
+      "description": "De La Riva to Inverted Guard (Attacker) film study: Guarda dela riva com berimbolo.",
       "thumbnailUrl": "https://i.ytimg.com/vi/2BHshl7AeGU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/2BHshl7AeGU",
       "url": "https://www.youtube.com/watch?v=2BHshl7AeGU",
-      "creator": { "@type": "Person", "name": "Vinicius Amaral" },
       "duration": "PT34S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "De La Riva to berimbolo to leg drag",
-      "description": "De La Riva to Inverted Guard (Attacker) film study: De La Riva to berimbolo to leg drag, taught by Ground Fighter.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/BG3c7JlQbow/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/BG3c7JlQbow",
-      "url": "https://www.youtube.com/watch?v=BG3c7JlQbow",
-      "creator": { "@type": "Person", "name": "Ground Fighter" },
-      "duration": "PT27S"
     }
   ]
 }
@@ -242,9 +229,9 @@ This is a flexibility- and timing-dependent transition. The attacker must load w
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=zQ2DK_uMK_8)
+![](https://www.youtube.com/watch?v=BG3c7JlQbow)
 
-<p class="clip-credit"><strong>Berimbolo breakdown at Art of Jiu Jitsu</strong> — taught by Art of Jiu Jitsu · 1:03 · <a href="https://www.youtube.com/watch?v=zQ2DK_uMK_8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>De La Riva to Berimbolo to Leg Drag.</strong> · 0:27 · <a href="https://www.youtube.com/watch?v=BG3c7JlQbow" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -252,15 +239,7 @@ This is a flexibility- and timing-dependent transition. The attacker must load w
 
 ![](https://www.youtube.com/watch?v=2BHshl7AeGU)
 
-<p class="clip-credit"><strong>De La Riva guard into berimbolo</strong> — taught by Vinicius Amaral · 0:34 · <a href="https://www.youtube.com/watch?v=2BHshl7AeGU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=BG3c7JlQbow)
-
-<p class="clip-credit"><strong>De La Riva to berimbolo to leg drag</strong> — taught by Ground Fighter · 0:27 · <a href="https://www.youtube.com/watch?v=BG3c7JlQbow" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Guarda dela riva com berimbolo</strong> · 0:34 · <a href="https://www.youtube.com/watch?v=2BHshl7AeGU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

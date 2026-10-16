@@ -161,34 +161,11 @@ description: "How to defend against the Ankle Pick takedown in BJJ. Recognition 
       "@type": "VideoObject",
       "position": 1,
       "name": "Ankle pick defense",
-      "description": "Ankle Pick (Defender) film study: Ankle pick defense, taught by Kennelly Wrestling Experience.",
+      "description": "Ankle Pick (Defender) film study: Ankle pick defense.",
       "thumbnailUrl": "https://i.ytimg.com/vi/2QWHX4NpMvs/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/2QWHX4NpMvs",
       "url": "https://www.youtube.com/watch?v=2QWHX4NpMvs",
-      "creator": { "@type": "Person", "name": "Kennelly Wrestling Experience" },
-      "duration": "PT23S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Sprawl defense against leg attacks",
-      "description": "Ankle Pick (Defender) film study: Sprawl defense against leg attacks, taught by Coach Lang.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/8AaRLOSM61U/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/8AaRLOSM61U",
-      "url": "https://www.youtube.com/watch?v=8AaRLOSM61U",
-      "creator": { "@type": "Person", "name": "Coach Lang" },
-      "duration": "PT55S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Best sprawl position to stop the leg attack",
-      "description": "Ankle Pick (Defender) film study: Best sprawl position to stop the leg attack, taught by Cary Kolat.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/QMVavyxjlNU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/QMVavyxjlNU",
-      "url": "https://www.youtube.com/watch?v=QMVavyxjlNU",
-      "creator": { "@type": "Person", "name": "Cary Kolat" },
-      "duration": "PT67S"
+      "duration": "PT22S"
     }
   ]
 }
@@ -220,23 +197,7 @@ The defensive hierarchy against the ankle pick follows three stages: prevention 
 
 ![](https://www.youtube.com/watch?v=2QWHX4NpMvs)
 
-<p class="clip-credit"><strong>Ankle pick defense</strong> — taught by Kennelly Wrestling Experience · 0:23 · <a href="https://www.youtube.com/watch?v=2QWHX4NpMvs" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=8AaRLOSM61U)
-
-<p class="clip-credit"><strong>Sprawl defense against leg attacks</strong> — taught by Coach Lang · 0:55 · <a href="https://www.youtube.com/watch?v=8AaRLOSM61U" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=QMVavyxjlNU)
-
-<p class="clip-credit"><strong>Best sprawl position to stop the leg attack</strong> — taught by Cary Kolat · 1:07 · <a href="https://www.youtube.com/watch?v=QMVavyxjlNU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Ankle pick defense</strong> · 0:22 · <a href="https://www.youtube.com/watch?v=2QWHX4NpMvs" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

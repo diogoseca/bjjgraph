@@ -150,39 +150,6 @@ description: "How to defend against Mission Control Recovery in BJJ. Recognition
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Mission Control Recovery (Defender) \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "The 4 Core Principles of Guard Passing",
-      "description": "Mission Control Recovery (Defender) film study: The 4 Core Principles of Guard Passing, taught by Jon Thomas.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/4RNjb6jeRcQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/4RNjb6jeRcQ",
-      "url": "https://www.youtube.com/watch?v=4RNjb6jeRcQ",
-      "creator": { "@type": "Person", "name": "Jon Thomas" },
-      "duration": "PT292S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Complete Guard Passing System in 6 Min",
-      "description": "Mission Control Recovery (Defender) film study: Complete Guard Passing System in 6 Min, taught by Jon Thomas.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/tk48nvbT7go/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/tk48nvbT7go",
-      "url": "https://www.youtube.com/watch?v=tk48nvbT7go",
-      "creator": { "@type": "Person", "name": "Jon Thomas" },
-      "duration": "PT360S"
-    }
-  ]
-}
-</script>
-
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -199,32 +166,6 @@ Strategically, preventing Mission Control Recovery breaks the rubber guard cycle
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Mission Control Recovery (Defender) in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=4RNjb6jeRcQ)
-
-<p class="clip-credit"><strong>The 4 Core Principles of Guard Passing</strong> — taught by Jon Thomas · 4:52 · <a href="https://www.youtube.com/watch?v=4RNjb6jeRcQ" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=tk48nvbT7go)
-
-<p class="clip-credit"><strong>Complete Guard Passing System in 6 Min</strong> — taught by Jon Thomas · 6:00 · <a href="https://www.youtube.com/watch?v=tk48nvbT7go" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="recognition-cues" class="content-section">

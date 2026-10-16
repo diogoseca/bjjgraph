@@ -160,23 +160,11 @@ description: "How to defend against Leg Drag to Back Take in BJJ. Recognition cu
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Three ways to defend the back take",
-      "description": "Leg Drag to Back Take (Defender) film study: Three ways to defend the back take, taught by Roberto Cyborg Abreu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/OltjLaTW3wQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/OltjLaTW3wQ",
-      "url": "https://www.youtube.com/watch?v=OltjLaTW3wQ",
-      "creator": { "@type": "Person", "name": "Roberto Cyborg Abreu" },
-      "duration": "PT89S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Leg drag defense with technical stand up",
-      "description": "Leg Drag to Back Take (Defender) film study: Leg drag defense with technical stand up, taught by Leandro Lo.",
+      "name": "LEANDRO Lo -  Leg drag defense with technical stand up",
+      "description": "Leg Drag to Back Take (Defender) film study: LEANDRO Lo -  Leg drag defense with technical stand up.",
       "thumbnailUrl": "https://i.ytimg.com/vi/fO9mvIlh4Yw/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/fO9mvIlh4Yw",
       "url": "https://www.youtube.com/watch?v=fO9mvIlh4Yw",
-      "creator": { "@type": "Person", "name": "Leandro Lo" },
       "duration": "PT200S"
     }
   ]
@@ -209,17 +197,9 @@ Successful defense requires proactive recognition of the back take attempt befor
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=OltjLaTW3wQ)
-
-<p class="clip-credit"><strong>Three ways to defend the back take</strong> — taught by Roberto Cyborg Abreu · 1:29 · <a href="https://www.youtube.com/watch?v=OltjLaTW3wQ" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=fO9mvIlh4Yw)
 
-<p class="clip-credit"><strong>Leg drag defense with technical stand up</strong> — taught by Leandro Lo · 3:20 · <a href="https://www.youtube.com/watch?v=fO9mvIlh4Yw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>LEANDRO Lo -  Leg drag defense with technical stand up</strong> · 3:20 · <a href="https://www.youtube.com/watch?v=fO9mvIlh4Yw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

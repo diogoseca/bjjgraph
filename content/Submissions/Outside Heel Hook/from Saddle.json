@@ -443,22 +443,11 @@
     ],
     "clips": [
       {
-        "id": "6gu-n4P9JXo",
-        "title": "Heel Hook Breaking Mechanics",
-        "by": "Craig Jones",
-        "vertical": false,
-        "channel": "Altay Pirge",
-        "duration": 77,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "lr7rlj7WV-E",
-        "title": "X Guard to Heel Hook",
-        "by": "Craig Jones",
-        "vertical": false,
-        "channel": "The Bear's Den BJJ & MMA  熊派巴西柔術及MMA學院",
-        "duration": 94,
-        "verified": "2026-07-14"
+        "id": "7ZrKaOZhGnU",
+        "title": "GE Online Series - Episode 29 - Saddle To Outside Heel Hook",
+        "channel": "Mat Morris",
+        "duration": 170,
+        "front": true
       }
     ]
   },
@@ -646,34 +635,6 @@
         "description": "Partner alternates between inside and outside heel hook setups from saddle, switching based on your defensive posture. Practice identifying which direction they are attacking and deploying the appropriate defensive response while maintaining protection against the alternate threat. Develop the ability to manage the submission dilemma rather than defending only one direction."
       }
     ],
-    "clips": [
-      {
-        "id": "pCX38nCUGD0",
-        "title": "Saddle Heel Hook Escape to 50/50",
-        "by": "ZombieProofBJJ",
-        "vertical": false,
-        "channel": "ZombieProofBJJ",
-        "duration": 65,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "AsGMkATAqqw",
-        "title": "Heel Hook Defense If You Are Ambushed",
-        "by": "John Danaher",
-        "vertical": false,
-        "channel": "Dohn Janaher ",
-        "duration": 53,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "upCoem5F0cU",
-        "title": "Saddle Heel Hook Escape Options",
-        "by": "ZombieProofBJJ",
-        "vertical": false,
-        "channel": "ZombieProofBJJ",
-        "duration": 92,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   }
 }

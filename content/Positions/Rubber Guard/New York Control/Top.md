@@ -155,39 +155,6 @@ description: "Master defensive strategies against New York Control from top posi
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "New York Control (Top) \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Stoner Control from rubber guard top-side pressure",
-      "description": "New York Control (Top) film study: Stoner Control from rubber guard top-side pressure, taught by Eddie Bravo.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/wEedvmB_878/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/wEedvmB_878",
-      "url": "https://www.youtube.com/watch?v=wEedvmB_878",
-      "creator": { "@type": "Person", "name": "Eddie Bravo" },
-      "duration": "PT191S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Rubber Guard system overview for the top player",
-      "description": "New York Control (Top) film study: Rubber Guard system overview for the top player, taught by Eddie Bravo.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/RJ7Iutti8cY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/RJ7Iutti8cY",
-      "url": "https://www.youtube.com/watch?v=RJ7Iutti8cY",
-      "creator": { "@type": "Person", "name": "Eddie Bravo" },
-      "duration": "PT521S"
-    }
-  ]
-}
-</script>
-
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -208,32 +175,6 @@ Competition preparation requires specific drilling of New York defensive protoco
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch New York Control (Top) in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=wEedvmB_878)
-
-<p class="clip-credit"><strong>Stoner Control from rubber guard top-side pressure</strong> — taught by Eddie Bravo · 3:11 · <a href="https://www.youtube.com/watch?v=wEedvmB_878" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=RJ7Iutti8cY)
-
-<p class="clip-credit"><strong>Rubber Guard system overview for the top player</strong> — taught by Eddie Bravo · 8:41 · <a href="https://www.youtube.com/watch?v=RJ7Iutti8cY" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="state-invariants" class="content-section">

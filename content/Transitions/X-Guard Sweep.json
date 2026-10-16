@@ -401,30 +401,18 @@
     "clips": [
       {
         "id": "zbYb6sOYC8w",
-        "title": "X guard sweep",
-        "by": "Marcelo Garcia",
-        "vertical": false,
+        "title": "Marcelo Garcia | X Guard Sweep | Choke_lab",
         "channel": "CHOKE LABORATORY",
         "duration": 53,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "7OnjPU1WjH4",
-        "title": "X-guard sweep and pass",
-        "by": "Marcelo Garcia",
         "vertical": false,
-        "channel": "Gentle Art Media",
-        "duration": 35,
-        "verified": "2026-07-15"
+        "front": true
       },
       {
         "id": "m-ueyJXiShY",
-        "title": "No-gi X-guard sweep",
-        "by": "Marcelo Garcia",
-        "vertical": false,
+        "title": "Marcelo Garcia: No-Gi X-Guard sweep",
         "channel": "GRACIEMAG - The original BJJ magazine. ",
         "duration": 126,
-        "verified": "2026-07-15"
+        "vertical": false
       }
     ]
   },
@@ -608,35 +596,7 @@
         "description": "Positional sparring starting from X-Guard top. Defend sweeps, leg entanglement transitions, and Single Leg X variations. Work on maintaining composure when caught in deep X-Guard and executing defensive sequences under full resistance. Integrate successful defenses into immediate passing attempts."
       }
     ],
-    "clips": [
-      {
-        "id": "kNfVYhZbgrg",
-        "title": "Four levels of sweep defense",
-        "by": "Wim Deputter",
-        "vertical": false,
-        "channel": "Wim Deputter BJJ",
-        "duration": 87,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "C1lYVhDXwvw",
-        "title": "How to pass X guard",
-        "by": "Kaynan Duarte",
-        "vertical": false,
-        "channel": "The Grapple Club",
-        "duration": 116,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "7X2lmPZ4EdI",
-        "title": "Four ways to shut down X guard",
-        "by": "Big Oss",
-        "vertical": false,
-        "channel": "BIG OSS Jiu-Jitsu Channel",
-        "duration": 731,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "variants_and_adaptations": [
     {

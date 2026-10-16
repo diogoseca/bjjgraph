@@ -193,34 +193,11 @@ description: "Learn to execute the push sweep from feet on hips guard. Step-by-s
       "@type": "VideoObject",
       "position": 1,
       "name": "Foot in hip sweep",
-      "description": "Push Sweep from Feet on Hips (Attacker) film study: Foot in hip sweep, taught by Mark VanSchuyver.",
+      "description": "Push Sweep from Feet on Hips (Attacker) film study: Foot in hip sweep.",
       "thumbnailUrl": "https://i.ytimg.com/vi/WzT_DVarJGE/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/WzT_DVarJGE",
       "url": "https://www.youtube.com/watch?v=WzT_DVarJGE",
-      "creator": { "@type": "Person", "name": "Mark VanSchuyver" },
       "duration": "PT59S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Foot to Bicep Guard Sweep",
-      "description": "Push Sweep from Feet on Hips (Attacker) film study: Foot to Bicep Guard Sweep, taught by Prodigy MMA coach.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/QiWXoez9cPI/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/QiWXoez9cPI",
-      "url": "https://www.youtube.com/watch?v=QiWXoez9cPI",
-      "creator": { "@type": "Person", "name": "Prodigy MMA coach" },
-      "duration": "PT47S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "The Right Way to Get Feet on Biceps Position",
-      "description": "Push Sweep from Feet on Hips (Attacker) film study: The Right Way to Get Feet on Biceps Position, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Bp0v7c_MrbY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Bp0v7c_MrbY",
-      "url": "https://www.youtube.com/watch?v=Bp0v7c_MrbY",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT125S"
     }
   ]
 }
@@ -250,23 +227,7 @@ The push sweep from feet on hips guard requires the attacking guard player to co
 
 ![](https://www.youtube.com/watch?v=WzT_DVarJGE)
 
-<p class="clip-credit"><strong>Foot in hip sweep</strong> — taught by Mark VanSchuyver · 0:59 · <a href="https://www.youtube.com/watch?v=WzT_DVarJGE" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=QiWXoez9cPI)
-
-<p class="clip-credit"><strong>Foot to Bicep Guard Sweep</strong> — taught by Prodigy MMA coach · 0:47 · <a href="https://www.youtube.com/watch?v=QiWXoez9cPI" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=Bp0v7c_MrbY)
-
-<p class="clip-credit"><strong>The Right Way to Get Feet on Biceps Position</strong> — taught by Lachlan Giles · 2:05 · <a href="https://www.youtube.com/watch?v=Bp0v7c_MrbY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Foot in hip sweep</strong> · 0:59 · <a href="https://www.youtube.com/watch?v=WzT_DVarJGE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

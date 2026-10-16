@@ -386,26 +386,7 @@
       }
     ],
     "safety_considerations": "The primary safety concern during this escape involves the trapped arm. Never allow the trapped arm to extend during framing or hip escape attempts, as this creates immediate armbar risk. If the opponent aggressively attacks a submission during the escape, immediately abandon the escape and address the submission threat. Tap promptly if any shoulder lock reaches full extension before you can reset your defensive arm position. During training, communicate with your partner about pressure levels and trapped arm comfort to prevent unnecessary shoulder or elbow injuries.",
-    "clips": [
-      {
-        "id": "fvp5_BVEtLg",
-        "title": "Kesa gatame pressure defense using proper framing",
-        "by": "Kohbukan Sisu",
-        "vertical": false,
-        "channel": "Kohbukan Sisu",
-        "duration": 84,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "2okf5X17jeg",
-        "title": "Scarf hold escape from kesa gatame",
-        "by": "Bruce Fowler",
-        "vertical": false,
-        "channel": "Renzo Gracie Jiu Jitsu DFW",
-        "duration": 230,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Frame Escape from Kuzure Kesa Gatame Defender",
@@ -567,34 +548,6 @@
         "description": "Positional sparring where partner attempts all available escapes including frame escape, bridge-and-roll, and Granby Roll. Maintain position or advance for the duration of each round. Develop integrated defensive responses across multiple escape threats."
       }
     ],
-    "clips": [
-      {
-        "id": "TfNpVcekHGg",
-        "title": "Kesa gatame: holding the scarf hold",
-        "by": "Grappler Station",
-        "vertical": false,
-        "channel": "Grappler Station",
-        "duration": 121,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "v_0JUOxAnpU",
-        "title": "Kuzure kesa gatame: holding the broken scarf pin",
-        "by": "JBBA Judo Education",
-        "vertical": false,
-        "channel": "JBBA Judo Education Channel",
-        "duration": 79,
-        "verified": "2026-07-16"
-      },
-      {
-        "id": "JIiuJC7s7n0",
-        "title": "Kuzure-kesa-gatame pin fundamentals",
-        "by": "International Judo Federation",
-        "vertical": false,
-        "channel": "International Judo Federation",
-        "duration": 63,
-        "verified": "2026-07-16"
-      }
-    ]
+    "clips": []
   }
 }

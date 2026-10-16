@@ -46,24 +46,22 @@ description: "Master the omoplata shoulder lock from double sleeve guard. Learn 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Lasso guard to omoplata",
-      "description": "Omoplata from Double Sleeve Guard film study: Lasso guard to omoplata, taught by Adam Wardzinski.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/P_Utuxeq7uo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/P_Utuxeq7uo",
-      "url": "https://www.youtube.com/watch?v=P_Utuxeq7uo",
-      "creator": { "@type": "Person", "name": "Adam Wardzinski" },
-      "duration": "PT37S"
+      "name": "Omoplata Step Over Escape Drill 2",
+      "description": "Omoplata from Double Sleeve Guard film study: Omoplata Step Over Escape Drill 2.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/tOnP_QiviyU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/tOnP_QiviyU",
+      "url": "https://www.youtube.com/watch?v=tOnP_QiviyU",
+      "duration": "PT71S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Omoplata sweep",
-      "description": "Omoplata from Double Sleeve Guard film study: Omoplata sweep, taught by Furo Channel.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/kKaLqMKJBt0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/kKaLqMKJBt0",
-      "url": "https://www.youtube.com/watch?v=kKaLqMKJBt0",
-      "creator": { "@type": "Person", "name": "Furo Channel" },
-      "duration": "PT89S"
+      "name": "Professor Queixinho Teaches a Highly Effective Omoplata Escape!",
+      "description": "Omoplata from Double Sleeve Guard film study: Professor Queixinho Teaches a Highly Effective Omoplata Escape!.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/UaZdeo4ro3E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/UaZdeo4ro3E",
+      "url": "https://www.youtube.com/watch?v=UaZdeo4ro3E",
+      "duration": "PT141S"
     }
   ]
 }
@@ -124,17 +122,17 @@ Strategically, this submission sits at the intersection of the triangle and armb
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=P_Utuxeq7uo)
+![](https://www.youtube.com/watch?v=tOnP_QiviyU)
 
-<p class="clip-credit"><strong>Lasso guard to omoplata</strong> — taught by Adam Wardzinski · 0:37 · <a href="https://www.youtube.com/watch?v=P_Utuxeq7uo" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Omoplata Step Over Escape Drill 2</strong> · 1:11 · <a href="https://www.youtube.com/watch?v=tOnP_QiviyU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=kKaLqMKJBt0)
+![](https://www.youtube.com/watch?v=UaZdeo4ro3E)
 
-<p class="clip-credit"><strong>Omoplata sweep</strong> — taught by Furo Channel · 1:29 · <a href="https://www.youtube.com/watch?v=kKaLqMKJBt0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Professor Queixinho Teaches a Highly Effective Omoplata Escape!</strong> · 2:21 · <a href="https://www.youtube.com/watch?v=UaZdeo4ro3E" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -46,24 +46,22 @@ description: "Learn the Estima Lock from Saddle position with expert finishing m
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Estima Lock",
-      "description": "Estima Lock from Saddle film study: Estima Lock, taught by Blacklist MMA.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/kZL3SjFwZNw/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/kZL3SjFwZNw",
-      "url": "https://www.youtube.com/watch?v=kZL3SjFwZNw",
-      "creator": { "@type": "Person", "name": "Blacklist MMA" },
-      "duration": "PT38S"
+      "name": "AET Head Coach Ninos: 50/50 Estima Lock",
+      "description": "Estima Lock from Saddle film study: AET Head Coach Ninos: 50/50 Estima Lock.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/I-Jb4qHOFZA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/I-Jb4qHOFZA",
+      "url": "https://www.youtube.com/watch?v=I-Jb4qHOFZA",
+      "duration": "PT86S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "50/50 Estima Lock",
-      "description": "Estima Lock from Saddle film study: 50/50 Estima Lock, taught by Coach Ninos.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/I-Jb4qHOFZA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/I-Jb4qHOFZA",
-      "url": "https://www.youtube.com/watch?v=I-Jb4qHOFZA",
-      "creator": { "@type": "Person", "name": "Coach Ninos" },
-      "duration": "PT86S"
+      "name": "Estima Lock \uc5d0\uc2a4\ud2f0\ub9c8 \ub77d",
+      "description": "Estima Lock from Saddle film study: Estima Lock \uc5d0\uc2a4\ud2f0\ub9c8 \ub77d.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kZL3SjFwZNw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kZL3SjFwZNw",
+      "url": "https://www.youtube.com/watch?v=kZL3SjFwZNw",
+      "duration": "PT38S"
     }
   ]
 }
@@ -126,17 +124,17 @@ Strategically, the Estima Lock from Saddle occupies a critical role in modern le
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=kZL3SjFwZNw)
+![](https://www.youtube.com/watch?v=I-Jb4qHOFZA)
 
-<p class="clip-credit"><strong>Estima Lock</strong> — taught by Blacklist MMA · 0:38 · <a href="https://www.youtube.com/watch?v=kZL3SjFwZNw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>AET Head Coach Ninos: 50/50 Estima Lock</strong> · 1:26 · <a href="https://www.youtube.com/watch?v=I-Jb4qHOFZA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=I-Jb4qHOFZA)
+![](https://www.youtube.com/watch?v=kZL3SjFwZNw)
 
-<p class="clip-credit"><strong>50/50 Estima Lock</strong> — taught by Coach Ninos · 1:26 · <a href="https://www.youtube.com/watch?v=I-Jb4qHOFZA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Estima Lock 에스티마 락</strong> · 0:38 · <a href="https://www.youtube.com/watch?v=kZL3SjFwZNw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

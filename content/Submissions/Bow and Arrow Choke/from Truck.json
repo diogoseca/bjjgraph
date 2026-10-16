@@ -416,22 +416,12 @@
     ],
     "clips": [
       {
-        "id": "YqlKl-La88s",
-        "title": "Mastering the Truck",
-        "by": "10th Planet Newport",
-        "vertical": false,
-        "channel": "10th Planet Newport",
-        "duration": 216,
-        "verified": "2026-07-14"
-      },
-      {
         "id": "PsmALCcIBic",
-        "title": "Kimura grip to bow and arrow finish",
-        "by": "Brandon Quick",
-        "vertical": false,
+        "title": "Kimura to Bow and Arrow",
         "channel": "Brandon Quick",
         "duration": 131,
-        "verified": "2026-07-16"
+        "vertical": false,
+        "front": true
       }
     ]
   },
@@ -620,25 +610,6 @@
         "description": "Partner alternates between twister, calf slicer, and bow and arrow from truck. Defender must read which attack is coming and adjust defensive priorities accordingly. Develops the split-attention awareness needed to survive the truck's multi-threat system."
       }
     ],
-    "clips": [
-      {
-        "id": "WEpVDP7MRpo",
-        "title": "Defending the truck roll back take",
-        "by": "Brian Glick",
-        "vertical": false,
-        "channel": "Brian Glick",
-        "duration": 209,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "NhxDerwXxSU",
-        "title": "Countering the truck by flipping it",
-        "by": "Brandon McCaghren",
-        "vertical": false,
-        "channel": "Brandon Mccaghren",
-        "duration": 640,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

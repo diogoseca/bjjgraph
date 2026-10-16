@@ -36,39 +36,6 @@ description: "Master the Turn In escape from Ushiro Kesa Gatame. Learn hip mecha
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Turn In from Ushiro Kesa Gatame \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Ushiro Kesa Gatame escape to back take, gi and no-gi",
-      "description": "Turn In from Ushiro Kesa Gatame film study: Ushiro Kesa Gatame escape to back take, gi and no-gi, taught by Gymnanigains.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/ORpUBUxK1QE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/ORpUBUxK1QE",
-      "url": "https://www.youtube.com/watch?v=ORpUBUxK1QE",
-      "creator": { "@type": "Person", "name": "Gymnanigains" },
-      "duration": "PT26S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Ushiro Kesa Gatame side control escape",
-      "description": "Turn In from Ushiro Kesa Gatame film study: Ushiro Kesa Gatame side control escape, taught by Coach Paul.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/QzegNgUUfZs/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/QzegNgUUfZs",
-      "url": "https://www.youtube.com/watch?v=QzegNgUUfZs",
-      "creator": { "@type": "Person", "name": "Coach Paul" },
-      "duration": "PT81S"
-    }
-  ]
-}
-</script>
-
 
 
 <script type="application/ld+json">
@@ -107,32 +74,6 @@ Strategically, the Turn In complements other Reverse Kesa escape methods. When t
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Turn In from Ushiro Kesa Gatame in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=ORpUBUxK1QE)
-
-<p class="clip-credit"><strong>Ushiro Kesa Gatame escape to back take, gi and no-gi</strong> — taught by Gymnanigains · 0:26 · <a href="https://www.youtube.com/watch?v=ORpUBUxK1QE" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=QzegNgUUfZs)
-
-<p class="clip-credit"><strong>Ushiro Kesa Gatame side control escape</strong> — taught by Coach Paul · 1:21 · <a href="https://www.youtube.com/watch?v=QzegNgUUfZs" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="possible-outcomes" class="content-section">

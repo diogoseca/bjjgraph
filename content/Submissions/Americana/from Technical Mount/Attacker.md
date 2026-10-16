@@ -188,34 +188,21 @@ description: "Execute the Americana shoulder lock from Technical Mount. Step-by-
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Americana from top mount",
-      "description": "Americana from Technical Mount (Attacker) film study: Americana from top mount, taught by Evolve MMA.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/uPazS4MJiDc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/uPazS4MJiDc",
-      "url": "https://www.youtube.com/watch?v=uPazS4MJiDc",
-      "creator": { "@type": "Person", "name": "Evolve MMA" },
-      "duration": "PT71S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Americana from mount explained",
-      "description": "Americana from Technical Mount (Attacker) film study: Americana from mount explained, taught by Gabriel Gonzaga.",
+      "name": "\ud83d\udee1\ufe0f Americana from Mount Explained | BJJ Submission Guide",
+      "description": "Americana from Technical Mount (Attacker) film study: \ud83d\udee1\ufe0f Americana from Mount Explained | BJJ Submission Guide.",
       "thumbnailUrl": "https://i.ytimg.com/vi/N-bZMbI2jSo/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/N-bZMbI2jSo",
       "url": "https://www.youtube.com/watch?v=N-bZMbI2jSo",
-      "creator": { "@type": "Person", "name": "Gabriel Gonzaga" },
       "duration": "PT110S"
     },
     {
       "@type": "VideoObject",
-      "position": 3,
+      "position": 2,
       "name": "Americana to armbar from mount",
-      "description": "Americana from Technical Mount (Attacker) film study: Americana to armbar from mount, taught by Renato Migliaccio.",
+      "description": "Americana from Technical Mount (Attacker) film study: Americana to armbar from mount.",
       "thumbnailUrl": "https://i.ytimg.com/vi/IGcqUUmdi3A/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/IGcqUUmdi3A",
       "url": "https://www.youtube.com/watch?v=IGcqUUmdi3A",
-      "creator": { "@type": "Person", "name": "Renato Migliaccio" },
       "duration": "PT17S"
     }
   ]
@@ -245,17 +232,9 @@ The Americana from Technical Mount leverages the asymmetric leg positioning to c
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=uPazS4MJiDc)
-
-<p class="clip-credit"><strong>Americana from top mount</strong> — taught by Evolve MMA · 1:11 · <a href="https://www.youtube.com/watch?v=uPazS4MJiDc" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=N-bZMbI2jSo)
 
-<p class="clip-credit"><strong>Americana from mount explained</strong> — taught by Gabriel Gonzaga · 1:50 · <a href="https://www.youtube.com/watch?v=N-bZMbI2jSo" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>🛡️ Americana from Mount Explained | BJJ Submission Guide</strong> · 1:50 · <a href="https://www.youtube.com/watch?v=N-bZMbI2jSo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -263,7 +242,7 @@ The Americana from Technical Mount leverages the asymmetric leg positioning to c
 
 ![](https://www.youtube.com/watch?v=IGcqUUmdi3A)
 
-<p class="clip-credit"><strong>Americana to armbar from mount</strong> — taught by Renato Migliaccio · 0:17 · <a href="https://www.youtube.com/watch?v=IGcqUUmdi3A" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Americana to armbar from mount</strong> · 0:17 · <a href="https://www.youtube.com/watch?v=IGcqUUmdi3A" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

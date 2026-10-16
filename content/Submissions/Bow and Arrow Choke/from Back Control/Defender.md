@@ -154,23 +154,21 @@ description: "Learn to defend and escape the Bow and Arrow Choke from back contr
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Bow and Arrow Choke Escape",
-      "description": "Bow and Arrow Choke from Back Control (Defender) film study: Bow and Arrow Choke Escape, taught by Revolution BJJ.",
+      "name": "Bow and arrow choke escape",
+      "description": "Bow and Arrow Choke from Back Control (Defender) film study: Bow and arrow choke escape.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Iz0aesx6cKk/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Iz0aesx6cKk",
       "url": "https://www.youtube.com/watch?v=Iz0aesx6cKk",
-      "creator": { "@type": "Person", "name": "Revolution BJJ" },
-      "duration": "PT36S"
+      "duration": "PT35S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Bow \u0026 Arrow Choke Defense Drill",
-      "description": "Bow and Arrow Choke from Back Control (Defender) film study: Bow \u0026 Arrow Choke Defense Drill, taught by Henry Akins.",
+      "name": "Bow \u0026 Arrow Choke Defense Drill (simple head/shoulder detail)",
+      "description": "Bow and Arrow Choke from Back Control (Defender) film study: Bow \u0026 Arrow Choke Defense Drill (simple head/shoulder detail).",
       "thumbnailUrl": "https://i.ytimg.com/vi/J91GRsql-ZA/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/J91GRsql-ZA",
       "url": "https://www.youtube.com/watch?v=J91GRsql-ZA",
-      "creator": { "@type": "Person", "name": "Henry Akins" },
       "duration": "PT114S"
     }
   ]
@@ -202,7 +200,7 @@ Defending the Bow and Arrow Choke from back control requires recognizing the att
 
 ![](https://www.youtube.com/watch?v=Iz0aesx6cKk)
 
-<p class="clip-credit"><strong>Bow and Arrow Choke Escape</strong> — taught by Revolution BJJ · 0:36 · <a href="https://www.youtube.com/watch?v=Iz0aesx6cKk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Bow and arrow choke escape</strong> · 0:35 · <a href="https://www.youtube.com/watch?v=Iz0aesx6cKk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -210,7 +208,7 @@ Defending the Bow and Arrow Choke from back control requires recognizing the att
 
 ![](https://www.youtube.com/watch?v=J91GRsql-ZA)
 
-<p class="clip-credit"><strong>Bow &amp; Arrow Choke Defense Drill</strong> — taught by Henry Akins · 1:54 · <a href="https://www.youtube.com/watch?v=J91GRsql-ZA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Bow &amp; Arrow Choke Defense Drill (simple head/shoulder detail)</strong> · 1:54 · <a href="https://www.youtube.com/watch?v=J91GRsql-ZA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

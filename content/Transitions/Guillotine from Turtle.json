@@ -401,30 +401,18 @@
     "clips": [
       {
         "id": "6mHJ8Mh6fDs",
-        "title": "High elbow guillotine from front turtle",
-        "by": "Michael Hoffman",
-        "vertical": false,
+        "title": "High elbow guillotine from front turtle.",
         "channel": "Michael Hoffman",
         "duration": 22,
-        "verified": "2026-07-15"
+        "vertical": false,
+        "front": true
       },
       {
         "id": "Mw5qLLzjay4",
-        "title": "Guillotine choke from turtle",
-        "by": "Cavalo Jiu-Jitsu",
-        "vertical": false,
+        "title": "Guillotine Choke from Turtle",
         "channel": "Cavalo Jiu-Jitsu",
         "duration": 49,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "bVNnVVnAWnU",
-        "title": "Arm-in guillotine attacking the front headlock",
-        "by": "BJJ101",
-        "vertical": false,
-        "channel": "BJJ101",
-        "duration": 35,
-        "verified": "2026-07-15"
+        "vertical": false
       }
     ]
   },
@@ -603,35 +591,7 @@
         "description": "Positional sparring starting from turtle with partner hunting guillotine as primary attack. Defender wins by escaping to guard or standing. Attacker wins by establishing guillotine control or submitting. Full resistance with progressive intensity increases. Develop ability to recognize and defend guillotine attempts while simultaneously working other turtle escape sequences. Review and refine weak points after each round."
       }
     ],
-    "clips": [
-      {
-        "id": "nGpAcI79frk",
-        "title": "Positional check against the guillotine",
-        "by": "Priit Mihkelson",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 116,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "8okq4cIHMO0",
-        "title": "Standing guillotine escape",
-        "by": "dogtownman",
-        "vertical": false,
-        "channel": "dogtownman",
-        "duration": 44,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "a7L1JP7_rgE",
-        "title": "Front headlock choke defense: guillotine escape",
-        "by": "Peter Mettler",
-        "vertical": false,
-        "channel": "Peter Mettler Martial Arts",
-        "duration": 153,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "variants_and_adaptations": [
     {

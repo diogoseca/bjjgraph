@@ -467,35 +467,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "m7i-COxDMb0",
-        "title": "Top Half Guard Pass - Donkey Pass",
-        "by": "Cosens Martial Arts",
-        "vertical": false,
-        "channel": "Cosens MMA LLC",
-        "duration": 64,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "8WbQvytyCX0",
-        "title": "How to pass the flat half guard",
-        "by": "Malachy Friedman",
-        "vertical": false,
-        "channel": "Malachy Friedman",
-        "duration": 63,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "kTSMGYlVJKY",
-        "title": "Free Your Foot While Passing Half Guard",
-        "by": "Kameron Ross",
-        "vertical": false,
-        "channel": "Kameron Ross",
-        "duration": 55,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   },
   "bottom": {
     "name": "Jailbreak Bottom",
@@ -871,26 +843,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "Ij2aFpcJiFU",
-        "title": "Jailbreak Escape from Side Control",
-        "by": "CORE MMA",
-        "vertical": false,
-        "channel": "CORE MMA",
-        "duration": 175,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "gFYyMkaMz34",
-        "title": "Prison Guard Breakdown (MTS 201)",
-        "by": "Eddie Bravo",
-        "vertical": false,
-        "channel": "Eddie Bravo",
-        "duration": 59,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   },
   "flashcards_position": [
     {
@@ -1006,33 +959,5 @@
       }
     }
   ],
-  "clips": [
-    {
-      "id": "gFYyMkaMz34",
-      "title": "Prison Guard Breakdown (MTS 201)",
-      "by": "Eddie Bravo",
-      "vertical": false,
-      "channel": "Eddie Bravo",
-      "duration": 59,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "Ij2aFpcJiFU",
-      "title": "Jailbreak Escape from Side Control",
-      "by": "CORE MMA",
-      "vertical": false,
-      "channel": "CORE MMA",
-      "duration": 175,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "kFEDU0DVQ7I",
-      "title": "Jailbreak to reversal sweep",
-      "by": "Redmond Fit",
-      "vertical": false,
-      "channel": "Redmond Fit",
-      "duration": 77,
-      "verified": "2026-07-14"
-    }
-  ]
+  "clips": []
 }

@@ -422,22 +422,25 @@
     ],
     "clips": [
       {
-        "id": "w8vzr24_n0s",
-        "title": "Back Triangle Choke",
-        "by": "Dr. Deng",
-        "vertical": false,
-        "channel": "Dr. Deng",
-        "duration": 30,
-        "verified": "2026-07-14"
+        "id": "c4wN4z41c9o",
+        "title": "Back Attacks 2.0 - Part 5: Back Triangle // Tom Halpin",
+        "channel": "Tom Halpin",
+        "duration": 328,
+        "front": true
       },
       {
         "id": "-lMJHL8SXlA",
-        "title": "Back Triangle Choke",
-        "by": "Dr. Deng",
-        "vertical": false,
+        "title": "9. Back Triangle Choke",
         "channel": "Dr. Deng",
         "duration": 23,
-        "verified": "2026-07-14"
+        "vertical": false
+      },
+      {
+        "id": "w8vzr24_n0s",
+        "title": "6. Back Triangle Choke",
+        "channel": "Dr. Deng",
+        "duration": 30,
+        "vertical": false
       }
     ]
   },
@@ -657,25 +660,6 @@
         "description": "Positional rounds starting from locked rear triangle with full resistance. Defender earns points for arm extraction and escape; attacker earns points for submission or maintained control. Builds the ability to execute escapes under fatigue and adrenaline."
       }
     ],
-    "clips": [
-      {
-        "id": "sR2rS2dwpNY",
-        "title": "How To Escape a Triangle Choke",
-        "by": "Rener & Ryron Gracie",
-        "vertical": false,
-        "channel": "Hayabusa",
-        "duration": 117,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "L1KeviYu1FQ",
-        "title": "Back Escape + RNC Defence",
-        "by": "Arete BJJ Malta",
-        "vertical": false,
-        "channel": "Arete Brazilian Jiu Jitsu Malta",
-        "duration": 25,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   }
 }

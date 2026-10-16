@@ -450,31 +450,11 @@
     ],
     "clips": [
       {
-        "id": "NUnTxPvjCa0",
-        "title": "The Marcelotine Arm-In Guillotine",
-        "by": "Marcelo Garcia",
-        "vertical": false,
-        "channel": "stuartcooperfilms",
-        "duration": 73,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "8AGCNn4ElSA",
-        "title": "Arm-in Guillotine (Lapel-assisted)",
-        "by": "Johnny Jitsu",
-        "vertical": true,
-        "channel": "Johnny Jitsu",
-        "duration": 61,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "Dg1dvtWkXhE",
-        "title": "Marcelo Garcia Marcelotine Guillotine",
-        "by": "Marcelo Garcia",
-        "vertical": false,
-        "channel": "Half The Battle",
-        "duration": 110,
-        "verified": "2026-07-14"
+        "id": "6mk44HMm720",
+        "title": "The Merge Ep. 36 - Front Headlock Setup to Arm In Guillotine Choke Finish",
+        "channel": "Merge Grappling",
+        "duration": 233,
+        "front": true
       }
     ]
   },
@@ -656,34 +636,6 @@
         "description": "Begin rounds with partner establishing arm-in guillotine from front headlock at full competition intensity. Defender must escape to a neutral or favorable position. Track success rate and identify which escape paths work best against different attacker styles. 2-minute rounds, reset after each resolution."
       }
     ],
-    "clips": [
-      {
-        "id": "8okq4cIHMO0",
-        "title": "Standing Guillotine Escape",
-        "by": "dogtownman",
-        "vertical": false,
-        "channel": "dogtownman",
-        "duration": 44,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "dyTKKiajgzQ",
-        "title": "Master the Guillotine Escape",
-        "by": "Cobrinha",
-        "vertical": false,
-        "channel": "Cobrinha Brazilian Jiu-Jitsu & Fitness",
-        "duration": 44,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "ZCTAYYZMVUo",
-        "title": "Escaping the Front Headlock",
-        "by": "Satori BJJ",
-        "vertical": false,
-        "channel": "Satori BJJ",
-        "duration": 36,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   }
 }

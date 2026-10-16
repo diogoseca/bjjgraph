@@ -451,21 +451,11 @@
     "clips": [
       {
         "id": "PAbRHZXGr8Q",
-        "title": "Loop Choke from Side Control",
-        "by": "Goulburn Martial Arts Academy",
-        "vertical": false,
+        "title": "Loop choke from side control",
         "channel": "Goulburn Martial Arts Academy",
-        "duration": 79,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "Er-26kb4wss",
-        "title": "Alexandre Vieira Loop Choke",
-        "by": "Alexandre Vieira",
+        "duration": 78,
         "vertical": false,
-        "channel": "Control Jiu JItsu",
-        "duration": 50,
-        "verified": "2026-07-14"
+        "front": true
       }
     ]
   },
@@ -663,20 +653,17 @@
       {
         "id": "pZmJpXSwRTk",
         "title": "Loop choke escape",
-        "by": "Ninja Pinto",
-        "vertical": false,
-        "channel": "Ninja Pinto BJJ",
+        "channel": "Ninja Pinto",
         "duration": 60,
-        "verified": "2026-07-15"
+        "vertical": false,
+        "front": true
       },
       {
         "id": "11PEV0xVadQ",
-        "title": "Loop choke escape, second variation",
-        "by": "Ninja Pinto",
-        "vertical": false,
-        "channel": "Ninja Pinto BJJ",
+        "title": "Loop choke escape",
+        "channel": "Ninja Pinto",
         "duration": 99,
-        "verified": "2026-07-15"
+        "vertical": false
       }
     ]
   },

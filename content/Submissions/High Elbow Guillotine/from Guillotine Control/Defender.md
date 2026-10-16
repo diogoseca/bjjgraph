@@ -162,34 +162,11 @@ description: "Defend against the High Elbow Guillotine from Guillotine Control. 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Guillotine Escape from Single \u0026 Double",
-      "description": "High Elbow Guillotine from Guillotine Control (Defender) film study: Guillotine Escape from Single \u0026 Double, taught by Cobrinha.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/dyTKKiajgzQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/dyTKKiajgzQ",
-      "url": "https://www.youtube.com/watch?v=dyTKKiajgzQ",
-      "creator": { "@type": "Person", "name": "Cobrinha" },
-      "duration": "PT44S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Standing Guillotine Escape",
-      "description": "High Elbow Guillotine from Guillotine Control (Defender) film study: Standing Guillotine Escape, taught by dogtownman.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/8okq4cIHMO0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/8okq4cIHMO0",
-      "url": "https://www.youtube.com/watch?v=8okq4cIHMO0",
-      "creator": { "@type": "Person", "name": "dogtownman" },
-      "duration": "PT44S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
       "name": "Guillotine Escape from Closed Guard to Side Control",
-      "description": "High Elbow Guillotine from Guillotine Control (Defender) film study: Guillotine Escape from Closed Guard to Side Control, taught by Street Jitsu.",
+      "description": "High Elbow Guillotine from Guillotine Control (Defender) film study: Guillotine Escape from Closed Guard to Side Control.",
       "thumbnailUrl": "https://i.ytimg.com/vi/lvjRNWzKMPc/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/lvjRNWzKMPc",
       "url": "https://www.youtube.com/watch?v=lvjRNWzKMPc",
-      "creator": { "@type": "Person", "name": "Street Jitsu" },
       "duration": "PT27S"
     }
   ]
@@ -219,25 +196,9 @@ Defending the High Elbow Guillotine from Guillotine Control requires recognizing
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=dyTKKiajgzQ)
-
-<p class="clip-credit"><strong>Guillotine Escape from Single &amp; Double</strong> — taught by Cobrinha · 0:44 · <a href="https://www.youtube.com/watch?v=dyTKKiajgzQ" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=8okq4cIHMO0)
-
-<p class="clip-credit"><strong>Standing Guillotine Escape</strong> — taught by dogtownman · 0:44 · <a href="https://www.youtube.com/watch?v=8okq4cIHMO0" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=lvjRNWzKMPc)
 
-<p class="clip-credit"><strong>Guillotine Escape from Closed Guard to Side Control</strong> — taught by Street Jitsu · 0:27 · <a href="https://www.youtube.com/watch?v=lvjRNWzKMPc" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Guillotine Escape from Closed Guard to Side Control</strong> · 0:27 · <a href="https://www.youtube.com/watch?v=lvjRNWzKMPc" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

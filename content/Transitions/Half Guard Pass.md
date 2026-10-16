@@ -46,35 +46,32 @@ description: "Master the Half Guard Pass in BJJ. Systematic approach to passing 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Free your foot while passing half guard",
-      "description": "Half Guard Pass film study: Free your foot while passing half guard, taught by Kameron Ross.",
+      "name": "EASY Way to Free Your Foot While Passing Half Guard",
+      "description": "Half Guard Pass film study: EASY Way to Free Your Foot While Passing Half Guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/kTSMGYlVJKY/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/kTSMGYlVJKY",
       "url": "https://www.youtube.com/watch?v=kTSMGYlVJKY",
-      "creator": { "@type": "Person", "name": "Kameron Ross" },
-      "duration": "PT55S"
+      "duration": "PT54S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "How to pass the flat half guard",
-      "description": "Half Guard Pass film study: How to pass the flat half guard, taught by Malachy Friedman.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/8WbQvytyCX0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/8WbQvytyCX0",
-      "url": "https://www.youtube.com/watch?v=8WbQvytyCX0",
-      "creator": { "@type": "Person", "name": "Malachy Friedman" },
-      "duration": "PT63S"
+      "name": "1 Minute Jiu Jitsu Hack - Belly Up Half Guard Pass",
+      "description": "Half Guard Pass film study: 1 Minute Jiu Jitsu Hack - Belly Up Half Guard Pass.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ftsB4fpRROk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ftsB4fpRROk",
+      "url": "https://www.youtube.com/watch?v=ftsB4fpRROk",
+      "duration": "PT60S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "Belly-up half guard pass",
-      "description": "Half Guard Pass film study: Belly-up half guard pass, taught by Brandon McCaghren.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/ftsB4fpRROk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/ftsB4fpRROk",
-      "url": "https://www.youtube.com/watch?v=ftsB4fpRROk",
-      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
-      "duration": "PT60S"
+      "name": "This is how to pass the flat half!",
+      "description": "Half Guard Pass film study: This is how to pass the flat half!.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8WbQvytyCX0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8WbQvytyCX0",
+      "url": "https://www.youtube.com/watch?v=8WbQvytyCX0",
+      "duration": "PT62S"
     }
   ]
 }
@@ -130,15 +127,7 @@ Successful half guard passing requires a combination of technical precision, pre
 
 ![](https://www.youtube.com/watch?v=kTSMGYlVJKY)
 
-<p class="clip-credit"><strong>Free your foot while passing half guard</strong> — taught by Kameron Ross · 0:55 · <a href="https://www.youtube.com/watch?v=kTSMGYlVJKY" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=8WbQvytyCX0)
-
-<p class="clip-credit"><strong>How to pass the flat half guard</strong> — taught by Malachy Friedman · 1:03 · <a href="https://www.youtube.com/watch?v=8WbQvytyCX0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>EASY Way to Free Your Foot While Passing Half Guard</strong> · 0:54 · <a href="https://www.youtube.com/watch?v=kTSMGYlVJKY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -146,7 +135,15 @@ Successful half guard passing requires a combination of technical precision, pre
 
 ![](https://www.youtube.com/watch?v=ftsB4fpRROk)
 
-<p class="clip-credit"><strong>Belly-up half guard pass</strong> — taught by Brandon McCaghren · 1:00 · <a href="https://www.youtube.com/watch?v=ftsB4fpRROk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>1 Minute Jiu Jitsu Hack - Belly Up Half Guard Pass</strong> · 1:00 · <a href="https://www.youtube.com/watch?v=ftsB4fpRROk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8WbQvytyCX0)
+
+<p class="clip-credit"><strong>This is how to pass the flat half!</strong> · 1:02 · <a href="https://www.youtube.com/watch?v=8WbQvytyCX0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

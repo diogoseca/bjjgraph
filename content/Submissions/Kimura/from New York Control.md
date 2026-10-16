@@ -46,24 +46,12 @@ description: "Master the Kimura shoulder lock from New York Control rubber guard
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Meathook to Kimura / Ultimate Kimura",
-      "description": "Kimura from New York Control film study: Meathook to Kimura / Ultimate Kimura, taught by Marshall Stamper.",
+      "name": "Marshall Stamper ~ Meathook\u2192Chilldog\u2192Carnie/Kimura/Ultimate Kimura",
+      "description": "Kimura from New York Control film study: Marshall Stamper ~ Meathook\u2192Chilldog\u2192Carnie/Kimura/Ultimate Kimura.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Q2aYW-20B44/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Q2aYW-20B44",
       "url": "https://www.youtube.com/watch?v=Q2aYW-20B44",
-      "creator": { "@type": "Person", "name": "Marshall Stamper" },
       "duration": "PT73S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Dead Orchard finish: clearing the elbow",
-      "description": "Kimura from New York Control film study: Dead Orchard finish: clearing the elbow, taught by Ben Eddy.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/p6M-9BVuWqs/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/p6M-9BVuWqs",
-      "url": "https://www.youtube.com/watch?v=p6M-9BVuWqs",
-      "creator": { "@type": "Person", "name": "Ben Eddy" },
-      "duration": "PT79S"
     }
   ]
 }
@@ -128,15 +116,7 @@ The finishing mechanics require precise hip escape movement to create the rotati
 
 ![](https://www.youtube.com/watch?v=Q2aYW-20B44)
 
-<p class="clip-credit"><strong>Meathook to Kimura / Ultimate Kimura</strong> — taught by Marshall Stamper · 1:13 · <a href="https://www.youtube.com/watch?v=Q2aYW-20B44" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=p6M-9BVuWqs)
-
-<p class="clip-credit"><strong>Dead Orchard finish: clearing the elbow</strong> — taught by Ben Eddy · 1:19 · <a href="https://www.youtube.com/watch?v=p6M-9BVuWqs" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Marshall Stamper ~ Meathook→Chilldog→Carnie/Kimura/Ultimate Kimura</strong> · 1:13 · <a href="https://www.youtube.com/watch?v=Q2aYW-20B44" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

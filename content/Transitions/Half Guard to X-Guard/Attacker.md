@@ -186,35 +186,12 @@ description: "Complete attacking guide for the Half Guard to X-Guard transition.
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "X-guard sweep",
-      "description": "Half Guard to X-Guard (Attacker) film study: X-guard sweep, taught by Marcelo Garcia.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/zbYb6sOYC8w/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/zbYb6sOYC8w",
-      "url": "https://www.youtube.com/watch?v=zbYb6sOYC8w",
-      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
-      "duration": "PT53S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Single leg X-guard sweep",
-      "description": "Half Guard to X-Guard (Attacker) film study: Single leg X-guard sweep, taught by Marcelo Garcia.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/AhsXraebbdg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/AhsXraebbdg",
-      "url": "https://www.youtube.com/watch?v=AhsXraebbdg",
-      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
-      "duration": "PT47S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "X-guard sweep and pass",
-      "description": "Half Guard to X-Guard (Attacker) film study: X-guard sweep and pass, taught by Marcelo Garcia.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/7OnjPU1WjH4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/7OnjPU1WjH4",
-      "url": "https://www.youtube.com/watch?v=7OnjPU1WjH4",
-      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
-      "duration": "PT35S"
+      "name": "X-Guard Entry from Half Guard",
+      "description": "Half Guard to X-Guard (Attacker) film study: X-Guard Entry from Half Guard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MVpjF7Pd8IA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/MVpjF7Pd8IA",
+      "url": "https://www.youtube.com/watch?v=MVpjF7Pd8IA",
+      "duration": "PT341S"
     }
   ]
 }
@@ -242,25 +219,9 @@ As the attacker executing the Half Guard to X-Guard transition, your objective i
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=zbYb6sOYC8w)
+![](https://www.youtube.com/watch?v=MVpjF7Pd8IA)
 
-<p class="clip-credit"><strong>X-guard sweep</strong> — taught by Marcelo Garcia · 0:53 · <a href="https://www.youtube.com/watch?v=zbYb6sOYC8w" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=AhsXraebbdg)
-
-<p class="clip-credit"><strong>Single leg X-guard sweep</strong> — taught by Marcelo Garcia · 0:47 · <a href="https://www.youtube.com/watch?v=AhsXraebbdg" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=7OnjPU1WjH4)
-
-<p class="clip-credit"><strong>X-guard sweep and pass</strong> — taught by Marcelo Garcia · 0:35 · <a href="https://www.youtube.com/watch?v=7OnjPU1WjH4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>X-Guard Entry from Half Guard</strong> · 5:41 · <a href="https://www.youtube.com/watch?v=MVpjF7Pd8IA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

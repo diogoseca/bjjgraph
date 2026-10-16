@@ -428,22 +428,12 @@
     "safety_considerations": "The 50-50 Pass is performed from one of BJJ's most dangerous positions for leg injuries. Always protect your heel before attempting to pass - inside heel hooks can cause catastrophic knee and ankle damage if applied suddenly. When training this technique, partners must agree on submission threat levels and tap immediately to any heel pressure. Never force the pass if opponent has secured a heel hook grip; break the grip first or abandon the pass. During extraction, move smoothly without jerking motions that could damage your own knee. Build conditioning gradually as the position is physically demanding. In competition, be aware that some 50-50 positions may result in referee resets if neither player advances position. Practice with experienced leg lock practitioners who understand safety protocols.",
     "clips": [
       {
-        "id": "gRTPtnZgdKA",
-        "title": "50/50 pass to back take",
-        "by": "BJJ Recap coach",
-        "vertical": false,
-        "channel": "BJJ Recap",
-        "duration": 38,
-        "verified": "2026-07-15"
-      },
-      {
         "id": "dFTRdgvZoPU",
-        "title": "50/50 to leg drag pass",
-        "by": "Muny Munoz",
-        "vertical": false,
+        "title": "50/50 to leg drag",
         "channel": "Muny Munoz",
-        "duration": 17,
-        "verified": "2026-07-15"
+        "duration": 16,
+        "vertical": false,
+        "front": true
       }
     ]
   },
@@ -622,35 +612,7 @@
         "description": "Positional sparring from 50-50 with passer working at full intensity. Practice complete defensive game including recognition, retention, counter-attack, and fallback to half guard when pass is nearly completed. Develop competitive timing and conditioning for extended 50-50 exchanges."
       }
     ],
-    "clips": [
-      {
-        "id": "DBbSqQf6iCo",
-        "title": "Roll under to backside 50/50",
-        "by": "Lachlan Giles",
-        "vertical": false,
-        "channel": "BJJ focus camps",
-        "duration": 110,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "ucAwPgTLSpQ",
-        "title": "Getting to backside 50/50",
-        "by": "Lachlan Giles",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 121,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "i5KlsZLgKGs",
-        "title": "50/50 to back using berimbolo",
-        "by": "Silva jiujutieros coach",
-        "vertical": false,
-        "channel": "Silva_jiujutieros_",
-        "duration": 23,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "variants_and_adaptations": [
     {

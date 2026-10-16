@@ -368,26 +368,7 @@
       }
     ],
     "safety_considerations": "This transition involves lapel manipulation with minimal joint stress or direct submission danger. The primary safety concern is maintaining awareness of your threading leg position during the reconfiguration to avoid exposing it to leg lock entries from an alert opponent. Ensure the lapel is not wrapped around your own fingers during rethreading, as sudden opponent movement could cause finger sprains or dislocations. Practice at controlled speeds until the reconfiguration pattern becomes automatic. Communicate with training partners about the guard change to prevent confusion during drilling.",
-    "clips": [
-      {
-        "id": "CdPHu-ly6t8",
-        "title": "Lapel guard examples: worm, reverse de la worm, ringworm",
-        "by": "Greg Hamilton",
-        "vertical": false,
-        "channel": "Renzo Gracie Jiu Jitsu DFW",
-        "duration": 287,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "541H63KeHD4",
-        "title": "Lapel guard introduction and entries",
-        "by": "Keenan Cornelius",
-        "vertical": false,
-        "channel": "Keenan Cornelius",
-        "duration": 293,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Squid to Ringworm Guard Defender",
@@ -564,34 +545,6 @@
         "description": "Start in Squid Guard Top position and spar with full resistance. Partner uses the Squid to Ringworm transition as one of their offensive options alongside sweeps and back takes. Practice integrating your recognition and defensive responses into your overall guard passing strategy without tunnel-visioning on the transition threat."
       }
     ],
-    "clips": [
-      {
-        "id": "Apdhlgpalgc",
-        "title": "How to pass the worm guard",
-        "by": "Jon Thomas",
-        "vertical": false,
-        "channel": "JonThomasBJJ Plus",
-        "duration": 202,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "kMybfbRxsPg",
-        "title": "Single grip to slice through lapel guards",
-        "by": "Keenan Cornelius",
-        "vertical": false,
-        "channel": "Keenan Cornelius",
-        "duration": 512,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "4v0oVPOz80s",
-        "title": "Passing lapel guards with leg pummel",
-        "by": "Adam Wardzinski",
-        "vertical": false,
-        "channel": "Adam Wardziński",
-        "duration": 524,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

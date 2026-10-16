@@ -166,24 +166,12 @@ description: "Master closed guard top with defensive posture strategies, systema
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Great Detail to Open the Closed Guard",
-      "description": "Closed Guard (Top) film study: Great Detail to Open the Closed Guard, taught by Dan McCarthy.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/r2Zj80AQJuQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/r2Zj80AQJuQ",
-      "url": "https://www.youtube.com/watch?v=r2Zj80AQJuQ",
-      "creator": { "@type": "Person", "name": "Dan McCarthy" },
-      "duration": "PT220S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Passing Closed Guard with the Sao Paulo Pass",
-      "description": "Closed Guard (Top) film study: Passing Closed Guard with the Sao Paulo Pass, taught by Leonardo Nogueira.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/r3oI5TvaWg0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/r3oI5TvaWg0",
-      "url": "https://www.youtube.com/watch?v=r3oI5TvaWg0",
-      "creator": { "@type": "Person", "name": "Leonardo Nogueira" },
-      "duration": "PT340S"
+      "name": "The Closed Guard Passing Video That Will Keep On Giving",
+      "description": "Closed Guard (Top) film study: The Closed Guard Passing Video That Will Keep On Giving.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/1XBRElmmJ5E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/1XBRElmmJ5E",
+      "url": "https://www.youtube.com/watch?v=1XBRElmmJ5E",
+      "duration": "PT349S"
     }
   ]
 }
@@ -216,17 +204,9 @@ The closed guard top position exemplifies the strategic complexity of Brazilian 
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=r2Zj80AQJuQ)
+![](https://www.youtube.com/watch?v=1XBRElmmJ5E)
 
-<p class="clip-credit"><strong>Great Detail to Open the Closed Guard</strong> — taught by Dan McCarthy · 3:40 · <a href="https://www.youtube.com/watch?v=r2Zj80AQJuQ" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=r3oI5TvaWg0)
-
-<p class="clip-credit"><strong>Passing Closed Guard with the Sao Paulo Pass</strong> — taught by Leonardo Nogueira · 5:40 · <a href="https://www.youtube.com/watch?v=r3oI5TvaWg0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>The Closed Guard Passing Video That Will Keep On Giving</strong> · 5:49 · <a href="https://www.youtube.com/watch?v=1XBRElmmJ5E" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -362,31 +362,26 @@
     "safety_considerations": "Guard pulling is generally a safe technique when executed properly, but several precautions ensure training safety. Always check surroundings before pulling to ensure adequate mat space behind you, as landing near walls or other training pairs can cause collisions. When drilling, communicate with partner about resistance level to prevent unexpected reactions. Maintain grip control throughout to prevent partner from falling awkwardly if they lose balance during the off-balancing phase. For newer practitioners, practice on softer surfaces initially and avoid pulling with excessive backward momentum until sitting mechanics are solid. In competition settings, be aware of mat boundaries to avoid pulling near edges where landing on hard surfaces is possible. Never pull guard if opponent is not engaged and prepared, as this can cause them to stumble forward awkwardly. When learning sacrifice pull variations, ensure you can safely break-fall and that partner understands the dynamic nature of the technique.",
     "clips": [
       {
-        "id": "sWK9QdT0I_M",
-        "title": "Pulling closed guard from standing",
-        "by": "UAE Jiu Jitsu Federation",
+        "id": "nw8Psj0tm5k",
+        "title": "Standing Guard Pull",
+        "channel": "Daniel Frank",
+        "duration": 20,
         "vertical": false,
+        "front": true
+      },
+      {
+        "id": "sWK9QdT0I_M",
+        "title": "06 - Pulling Closed Guard from Standing",
         "channel": "UAE Jiu Jitsu Federation",
-        "duration": 37,
-        "verified": "2026-07-15"
+        "duration": 36,
+        "vertical": false
       },
       {
         "id": "CI1w02grvCs",
-        "title": "Pulling closed guard - setup and entry",
-        "by": "Team Daruma Dojo",
-        "vertical": false,
+        "title": "Pulling Closed Guard",
         "channel": "Team Daruma Dojo",
         "duration": 44,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "nw8Psj0tm5k",
-        "title": "Standing guard pull",
-        "by": "Daniel Frank",
-        "vertical": false,
-        "channel": "Daniel Frank",
-        "duration": 20,
-        "verified": "2026-07-15"
+        "vertical": false
       }
     ]
   },
@@ -553,31 +548,12 @@
     ],
     "clips": [
       {
-        "id": "aaE1IFqvknI",
-        "title": "Countering the guard pull",
-        "by": "Seymour Yang",
-        "vertical": false,
-        "channel": "Meerkatsu's BJJ Videos",
-        "duration": 93,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "oaOB2XovGYE",
-        "title": "Intercepting the guard pull",
-        "by": "Riccardo Ammendolia",
-        "vertical": false,
-        "channel": "Riccardo Ammendolia",
-        "duration": 49,
-        "verified": "2026-07-15"
-      },
-      {
         "id": "3vrSYH0xbxg",
-        "title": "Drill: countering the guard pull",
-        "by": "Seymour Yang",
-        "vertical": false,
+        "title": "Drill: Countering the Guard Pull",
         "channel": "Meerkatsu's BJJ Videos",
-        "duration": 184,
-        "verified": "2026-07-15"
+        "duration": 183,
+        "vertical": false,
+        "front": true
       }
     ]
   },

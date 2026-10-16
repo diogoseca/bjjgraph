@@ -156,24 +156,12 @@ description: "Defend the toe hold from kneebar control in BJJ. Recognition cues,
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Defending the Kneebar to Toe Hold",
-      "description": "Toe Hold from Kneebar Control (Defender) film study: Defending the Kneebar to Toe Hold, taught by Garden State BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/hze1WyTvkzA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/hze1WyTvkzA",
-      "url": "https://www.youtube.com/watch?v=hze1WyTvkzA",
-      "creator": { "@type": "Person", "name": "Garden State BJJ" },
-      "duration": "PT24S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "How to Escape the Toe Hold",
-      "description": "Toe Hold from Kneebar Control (Defender) film study: How to Escape the Toe Hold, taught by Gordon Ryan.",
+      "name": "How to escape from toehold by Gordon Ryan",
+      "description": "Toe Hold from Kneebar Control (Defender) film study: How to escape from toehold by Gordon Ryan.",
       "thumbnailUrl": "https://i.ytimg.com/vi/3a9k8-ZcYrk/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/3a9k8-ZcYrk",
       "url": "https://www.youtube.com/watch?v=3a9k8-ZcYrk",
-      "creator": { "@type": "Person", "name": "Gordon Ryan" },
-      "duration": "PT106S"
+      "duration": "PT105S"
     }
   ]
 }
@@ -202,17 +190,9 @@ Defending the toe hold from kneebar control demands early recognition of the gri
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=hze1WyTvkzA)
-
-<p class="clip-credit"><strong>Defending the Kneebar to Toe Hold</strong> — taught by Garden State BJJ · 0:24 · <a href="https://www.youtube.com/watch?v=hze1WyTvkzA" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=3a9k8-ZcYrk)
 
-<p class="clip-credit"><strong>How to Escape the Toe Hold</strong> — taught by Gordon Ryan · 1:46 · <a href="https://www.youtube.com/watch?v=3a9k8-ZcYrk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How to escape from toehold by Gordon Ryan</strong> · 1:45 · <a href="https://www.youtube.com/watch?v=3a9k8-ZcYrk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

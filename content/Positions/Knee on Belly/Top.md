@@ -166,35 +166,12 @@ description: "Master Knee on Belly Top control in BJJ. Dynamic offensive positio
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Ryron Gracie\u0027s Favorite Knee-on-Belly Attack",
-      "description": "Knee on Belly (Top) film study: Ryron Gracie\u0027s Favorite Knee-on-Belly Attack, taught by Ryron Gracie.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/pa6Z7mP9VKU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/pa6Z7mP9VKU",
-      "url": "https://www.youtube.com/watch?v=pa6Z7mP9VKU",
-      "creator": { "@type": "Person", "name": "Ryron Gracie" },
-      "duration": "PT52S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "3 Knee-on-Belly Attacks for Beginners",
-      "description": "Knee on Belly (Top) film study: 3 Knee-on-Belly Attacks for Beginners, taught by Lucas Lepri.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/XNhDD7N4JNY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/XNhDD7N4JNY",
-      "url": "https://www.youtube.com/watch?v=XNhDD7N4JNY",
-      "creator": { "@type": "Person", "name": "Lucas Lepri" },
-      "duration": "PT68S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Knee on Belly to Brabo Choke",
-      "description": "Knee on Belly (Top) film study: Knee on Belly to Brabo Choke, taught by Edward Anthony.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/johFGyE29pY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/johFGyE29pY",
-      "url": "https://www.youtube.com/watch?v=johFGyE29pY",
-      "creator": { "@type": "Person", "name": "Edward Anthony" },
-      "duration": "PT51S"
+      "name": "Mauricio explains the knee on belly position",
+      "description": "Knee on Belly (Top) film study: Mauricio explains the knee on belly position.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/7vz2X2cGiOs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/7vz2X2cGiOs",
+      "url": "https://www.youtube.com/watch?v=7vz2X2cGiOs",
+      "duration": "PT79S"
     }
   ]
 }
@@ -223,25 +200,9 @@ Knee on Belly Top is a highly effective transitional control position where the 
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=pa6Z7mP9VKU)
+![](https://www.youtube.com/watch?v=7vz2X2cGiOs)
 
-<p class="clip-credit"><strong>Ryron Gracie&#39;s Favorite Knee-on-Belly Attack</strong> — taught by Ryron Gracie · 0:52 · <a href="https://www.youtube.com/watch?v=pa6Z7mP9VKU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=XNhDD7N4JNY)
-
-<p class="clip-credit"><strong>3 Knee-on-Belly Attacks for Beginners</strong> — taught by Lucas Lepri · 1:08 · <a href="https://www.youtube.com/watch?v=XNhDD7N4JNY" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=johFGyE29pY)
-
-<p class="clip-credit"><strong>Knee on Belly to Brabo Choke</strong> — taught by Edward Anthony · 0:51 · <a href="https://www.youtube.com/watch?v=johFGyE29pY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Mauricio explains the knee on belly position</strong> · 1:19 · <a href="https://www.youtube.com/watch?v=7vz2X2cGiOs" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

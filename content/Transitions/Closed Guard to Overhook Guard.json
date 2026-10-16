@@ -359,22 +359,12 @@
     "safety_considerations": "This transition involves capturing and controlling the opponent's arm through an overhook grip. While generally low-risk compared to joint locks, be aware that aggressive overhook control combined with hip rotation can create shoulder pressure on the trapped arm. Release overhook pressure immediately if your partner indicates discomfort or taps. During drilling, establish the overhook smoothly without jerking the arm into position. Avoid excessive rotational force on the shoulder when combining overhook control with sweep attempts at full speed.",
     "clips": [
       {
-        "id": "UhYqXfpluYs",
-        "title": "Key detail to strengthen your closed guard",
-        "by": "Jean Jacques Machado",
-        "vertical": false,
-        "channel": "JeanJacquesMachado",
-        "duration": 75,
-        "verified": "2026-07-15"
-      },
-      {
         "id": "5J92PJO-dEo",
-        "title": "Overhook control from closed guard",
-        "by": "6am Jiu Jitsu",
-        "vertical": false,
+        "title": "Overhook from Closed Guard",
         "channel": "6am jiu jitsu, try it, it’s fun they said 🥋",
         "duration": 114,
-        "verified": "2026-07-15"
+        "vertical": false,
+        "front": true
       }
     ]
   },
@@ -549,21 +539,11 @@
     "clips": [
       {
         "id": "58LkTy6v3KQ",
-        "title": "Closed guard defense and counter to the overhook clamp",
-        "by": "The Grappling Bloke",
-        "vertical": false,
+        "title": "Closed Guard Defense and Counter to the Clamp (Over Hook Position)",
         "channel": "The Grappling Bloke",
-        "duration": 109,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "RCnDWdAWXQs",
-        "title": "Recovering posture and opening guard vs the overhook",
-        "by": "Lachlan Giles",
+        "duration": 108,
         "vertical": false,
-        "channel": "Absolute MMA St Kilda - Melbourne",
-        "duration": 559,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   }

@@ -162,23 +162,11 @@ description: "Defend the Cross Collar Choke from High Mount in BJJ. Recognition 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Defending the choke while mounted",
-      "description": "Cross Collar Choke from High Mount (Defender) film study: Defending the choke while mounted, taught by Fit To Fight.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/keDSMGdKu8Q/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/keDSMGdKu8Q",
-      "url": "https://www.youtube.com/watch?v=keDSMGdKu8Q",
-      "creator": { "@type": "Person", "name": "Fit To Fight" },
-      "duration": "PT82S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Defend the cross choke into armbar",
-      "description": "Cross Collar Choke from High Mount (Defender) film study: Defend the cross choke into armbar, taught by Edgar Kruyning.",
+      "name": "Defend cross choke - armbar",
+      "description": "Cross Collar Choke from High Mount (Defender) film study: Defend cross choke - armbar.",
       "thumbnailUrl": "https://i.ytimg.com/vi/F1qoGHKy_uE/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/F1qoGHKy_uE",
       "url": "https://www.youtube.com/watch?v=F1qoGHKy_uE",
-      "creator": { "@type": "Person", "name": "Edgar Kruyning" },
       "duration": "PT22S"
     }
   ]
@@ -208,17 +196,9 @@ Defending the Cross Collar Choke from High Mount requires early recognition, dis
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=keDSMGdKu8Q)
-
-<p class="clip-credit"><strong>Defending the choke while mounted</strong> — taught by Fit To Fight · 1:22 · <a href="https://www.youtube.com/watch?v=keDSMGdKu8Q" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=F1qoGHKy_uE)
 
-<p class="clip-credit"><strong>Defend the cross choke into armbar</strong> — taught by Edgar Kruyning · 0:22 · <a href="https://www.youtube.com/watch?v=F1qoGHKy_uE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Defend cross choke - armbar</strong> · 0:22 · <a href="https://www.youtube.com/watch?v=F1qoGHKy_uE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -397,30 +397,11 @@
     "clips": [
       {
         "id": "MFed9IE8afA",
-        "title": "Reverse Arm Drag from Butterfly to Back Take",
-        "by": "Jerry Musquiz",
-        "vertical": false,
+        "title": "Reverse Armdrag (Marcelo Garcia style) from Butterfly to Back Take Gi",
         "channel": "Jerry Musquiz",
-        "duration": 42,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "PCPrbetHf4U",
-        "title": "Arm Drag from Butterfly Guard",
-        "by": "Procel BJJ",
+        "duration": 41,
         "vertical": false,
-        "channel": "Procel Brazilian Jiu-Jitsu",
-        "duration": 60,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "OgyVXBXFpdA",
-        "title": "Three Back Takes from Guard: Arm Drag, Wrist Drag, Swim Under",
-        "by": "AMAZIN BJJ",
-        "vertical": false,
-        "channel": "AMAZIN BJJ",
-        "duration": 53,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },
@@ -588,30 +569,18 @@
     "clips": [
       {
         "id": "bmCjXADzgo4",
-        "title": "How to Defend the Arm Drag",
-        "by": "Matt Arroyo",
-        "vertical": false,
+        "title": "The BEST Way To Defend The Arm Drag in Jiu Jitsu Based On My Story With Marcelo…",
         "channel": "Matt Arroyo Jiu Jitsu ",
-        "duration": 103,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "epMcg6nvik8",
-        "title": "The simplest counter to the arm drag",
-        "by": "Stephan Kesting",
+        "duration": 102,
         "vertical": false,
-        "channel": "Stephan Kesting",
-        "duration": 72,
-        "verified": "2026-07-15"
+        "front": true
       },
       {
         "id": "6bocwKQC8Oo",
-        "title": "Four arm drag counters against seated guard",
-        "by": "MMA Leech",
-        "vertical": false,
+        "title": "4 Arm Drag Counters Against Seated Guard (No Gi BJJ)",
         "channel": "MMA Leech",
-        "duration": 261,
-        "verified": "2026-07-15"
+        "duration": 260,
+        "vertical": false
       }
     ]
   },

@@ -385,35 +385,7 @@
       }
     ],
     "safety_considerations": "The pummeling escape involves dynamic rotational movements under pressure that can stress shoulder joints if arms are forced through tight spaces without proper technique. Always warm up shoulder joints thoroughly before drilling. During training, partners should release the body lock if the escaping player signals pain or discomfort in their shoulders. Avoid using explosive jerking motions to force pummels through extremely tight grips, as this can cause shoulder impingement or rotator cuff strain. Progress resistance gradually during drilling phases.",
-    "clips": [
-      {
-        "id": "nuSiGy6dw6Y",
-        "title": "Re-pummel to head control",
-        "by": "Chad Lyman",
-        "vertical": false,
-        "channel": "Code 4 Concepts Chad Lyman",
-        "duration": 42,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "0DqO9-LfJZo",
-        "title": "BJJ fundamentals: the pummel",
-        "by": "Daniel Gracie",
-        "vertical": false,
-        "channel": "DANIEL GRACIE University City",
-        "duration": 88,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "lGGo0H8ems4",
-        "title": "Breaking a body lock by pummeling",
-        "by": "Nick Diaz",
-        "vertical": false,
-        "channel": "Moments in MMA",
-        "duration": 62,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Pummeling Escape from Body Lock Defender",
@@ -562,25 +534,6 @@
         "description": "Start from body lock position with both players using their full toolsets. Defender works to maintain control and advance position while partner uses pummeling and all other escape options. Develop the ability to read which escape is being attempted and select the appropriate counter in real-time."
       }
     ],
-    "clips": [
-      {
-        "id": "mWimgVQrsMU",
-        "title": "Far side underhook pin",
-        "by": "Craig Jones",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 137,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "w5qnEO1r-lY",
-        "title": "Leg Pummeling Inside Control",
-        "by": "Charles Harriott",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 113,
-        "verified": "2026-07-16"
-      }
-    ]
+    "clips": []
   }
 }

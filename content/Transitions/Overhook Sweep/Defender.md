@@ -160,24 +160,12 @@ description: "How to defend against the Overhook Sweep in BJJ. Recognition cues,
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Defending and countering the closed guard overhook clamp",
-      "description": "Overhook Sweep (Defender) film study: Defending and countering the closed guard overhook clamp, taught by The Grappling Bloke.",
+      "name": "Closed Guard Defense and Counter to the Clamp (Over Hook Position)",
+      "description": "Overhook Sweep (Defender) film study: Closed Guard Defense and Counter to the Clamp (Over Hook Position).",
       "thumbnailUrl": "https://i.ytimg.com/vi/58LkTy6v3KQ/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/58LkTy6v3KQ",
       "url": "https://www.youtube.com/watch?v=58LkTy6v3KQ",
-      "creator": { "@type": "Person", "name": "The Grappling Bloke" },
-      "duration": "PT109S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Recovering posture when they have the overhook",
-      "description": "Overhook Sweep (Defender) film study: Recovering posture when they have the overhook, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/RCnDWdAWXQs/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/RCnDWdAWXQs",
-      "url": "https://www.youtube.com/watch?v=RCnDWdAWXQs",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT559S"
+      "duration": "PT108S"
     }
   ]
 }
@@ -207,15 +195,7 @@ Defending the overhook sweep requires understanding both the mechanical prerequi
 
 ![](https://www.youtube.com/watch?v=58LkTy6v3KQ)
 
-<p class="clip-credit"><strong>Defending and countering the closed guard overhook clamp</strong> — taught by The Grappling Bloke · 1:49 · <a href="https://www.youtube.com/watch?v=58LkTy6v3KQ" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=RCnDWdAWXQs)
-
-<p class="clip-credit"><strong>Recovering posture when they have the overhook</strong> — taught by Lachlan Giles · 9:19 · <a href="https://www.youtube.com/watch?v=RCnDWdAWXQs" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Closed Guard Defense and Counter to the Clamp (Over Hook Position)</strong> · 1:48 · <a href="https://www.youtube.com/watch?v=58LkTy6v3KQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

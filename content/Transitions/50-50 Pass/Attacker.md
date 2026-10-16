@@ -186,24 +186,12 @@ description: "How to execute 50-50 Pass in BJJ. Attacking perspective with setup
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "50/50 pass to back take",
-      "description": "50-50 Pass (Attacker) film study: 50/50 pass to back take, taught by BJJ Recap coach.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/gRTPtnZgdKA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/gRTPtnZgdKA",
-      "url": "https://www.youtube.com/watch?v=gRTPtnZgdKA",
-      "creator": { "@type": "Person", "name": "BJJ Recap coach" },
-      "duration": "PT38S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "50/50 to leg drag pass",
-      "description": "50-50 Pass (Attacker) film study: 50/50 to leg drag pass, taught by Muny Munoz.",
+      "name": "50/50 to leg drag",
+      "description": "50-50 Pass (Attacker) film study: 50/50 to leg drag.",
       "thumbnailUrl": "https://i.ytimg.com/vi/dFTRdgvZoPU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/dFTRdgvZoPU",
       "url": "https://www.youtube.com/watch?v=dFTRdgvZoPU",
-      "creator": { "@type": "Person", "name": "Muny Munoz" },
-      "duration": "PT17S"
+      "duration": "PT16S"
     }
   ]
 }
@@ -231,17 +219,9 @@ The 50-50 Pass is a critical escape and passing sequence from one of Brazilian J
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=gRTPtnZgdKA)
-
-<p class="clip-credit"><strong>50/50 pass to back take</strong> — taught by BJJ Recap coach · 0:38 · <a href="https://www.youtube.com/watch?v=gRTPtnZgdKA" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=dFTRdgvZoPU)
 
-<p class="clip-credit"><strong>50/50 to leg drag pass</strong> — taught by Muny Munoz · 0:17 · <a href="https://www.youtube.com/watch?v=dFTRdgvZoPU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>50/50 to leg drag</strong> · 0:16 · <a href="https://www.youtube.com/watch?v=dFTRdgvZoPU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

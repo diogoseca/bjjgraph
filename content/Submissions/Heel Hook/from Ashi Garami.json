@@ -459,31 +459,26 @@
     ],
     "clips": [
       {
-        "id": "m4sGDhukUmk",
-        "title": "Nasty heel hook from outside ashi garami",
-        "by": "Craig Jones",
+        "id": "pRqoNs4K7cI",
+        "title": "Ashi Garami + Heel Hook",
+        "channel": "The Coop BJJ",
+        "duration": 82,
         "vertical": false,
-        "channel": "The Bear's Den BJJ & MMA  熊派巴西柔術及MMA學院",
-        "duration": 141,
-        "verified": "2026-07-14"
+        "front": true
       },
       {
         "id": "FfkVEt5YHbY",
-        "title": "Inside ashi garami heel hook",
-        "by": "Modesto Judo Club",
-        "vertical": false,
+        "title": "Inside Ashi Garami Heel Hook #890",
         "channel": "Modesto Judo Club",
         "duration": 59,
-        "verified": "2026-07-14"
+        "vertical": false
       },
       {
-        "id": "pRqoNs4K7cI",
-        "title": "Ashi garami + heel hook",
-        "by": "The Coop BJJ",
-        "vertical": false,
-        "channel": "The Coop BJJ",
-        "duration": 83,
-        "verified": "2026-07-14"
+        "id": "m4sGDhukUmk",
+        "title": "Craig Jones - Nasty Heel Hook from Outside Ashi Garami",
+        "channel": "The Bear's Den BJJ & MMA  熊派巴西柔術及MMA學院",
+        "duration": 141,
+        "vertical": false
       }
     ]
   },
@@ -673,31 +668,19 @@
     ],
     "clips": [
       {
-        "id": "2RLgyzWN71Y",
-        "title": "Double outside ashi heel hook escape",
-        "by": "Grappling Game Changer",
+        "id": "KmGhb2j68Ng",
+        "title": "escaping outside ashi heel hook to rolling back take, bjj flow grappling drills…",
+        "channel": "Grapple Box llc",
+        "duration": 33,
         "vertical": false,
+        "front": true
+      },
+      {
+        "id": "2RLgyzWN71Y",
+        "title": "Double outside ashi heel hook escape / running man escape",
         "channel": "GRAPPLING GAME CHANGER",
         "duration": 54,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "L417yCl_-dc",
-        "title": "Leg defense from ashi garami",
-        "by": "The Coop BJJ",
-        "vertical": false,
-        "channel": "The Coop BJJ",
-        "duration": 48,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "KmGhb2j68Ng",
-        "title": "Outside ashi heel hook escape to back take",
-        "by": "Grapple Box",
-        "vertical": false,
-        "channel": "Grapple Box llc",
-        "duration": 34,
-        "verified": "2026-07-14"
+        "vertical": false
       }
     ]
   }

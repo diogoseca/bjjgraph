@@ -182,24 +182,22 @@ description: "Learn to execute the belly down armbar finish from Spider Guard. S
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "From Spider Guard to Arm Bar",
-      "description": "Belly Down Armbar from Spider Guard (Attacker) film study: From Spider Guard to Arm Bar, taught by Thamires Acquino.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/M6B2-c6cyog/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/M6B2-c6cyog",
-      "url": "https://www.youtube.com/watch?v=M6B2-c6cyog",
-      "creator": { "@type": "Person", "name": "Thamires Acquino" },
-      "duration": "PT221S"
+      "name": "Monday Morning Technique: Belly Down Armbar from Spider Guard",
+      "description": "Belly Down Armbar from Spider Guard (Attacker) film study: Monday Morning Technique: Belly Down Armbar from Spider Guard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CqiU-5v9JX0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/CqiU-5v9JX0",
+      "url": "https://www.youtube.com/watch?v=CqiU-5v9JX0",
+      "duration": "PT270S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Quick Armbar from the Shin Trap",
-      "description": "Belly Down Armbar from Spider Guard (Attacker) film study: Quick Armbar from the Shin Trap, taught by Langaker BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Rle6wKSOeEA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Rle6wKSOeEA",
-      "url": "https://www.youtube.com/watch?v=Rle6wKSOeEA",
-      "creator": { "@type": "Person", "name": "Langaker BJJ" },
-      "duration": "PT98S"
+      "name": "BJJ - Belly down armbar from spider guard",
+      "description": "Belly Down Armbar from Spider Guard (Attacker) film study: BJJ - Belly down armbar from spider guard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/HiHDLJkQgBA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/HiHDLJkQgBA",
+      "url": "https://www.youtube.com/watch?v=HiHDLJkQgBA",
+      "duration": "PT296S"
     }
   ]
 }
@@ -228,17 +226,17 @@ Executing the belly down armbar finish from Spider Guard requires converting you
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=M6B2-c6cyog)
+![](https://www.youtube.com/watch?v=CqiU-5v9JX0)
 
-<p class="clip-credit"><strong>From Spider Guard to Arm Bar</strong> — taught by Thamires Acquino · 3:41 · <a href="https://www.youtube.com/watch?v=M6B2-c6cyog" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Monday Morning Technique: Belly Down Armbar from Spider Guard</strong> · 4:30 · <a href="https://www.youtube.com/watch?v=CqiU-5v9JX0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=Rle6wKSOeEA)
+![](https://www.youtube.com/watch?v=HiHDLJkQgBA)
 
-<p class="clip-credit"><strong>Quick Armbar from the Shin Trap</strong> — taught by Langaker BJJ · 1:38 · <a href="https://www.youtube.com/watch?v=Rle6wKSOeEA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>BJJ - Belly down armbar from spider guard</strong> · 4:56 · <a href="https://www.youtube.com/watch?v=HiHDLJkQgBA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

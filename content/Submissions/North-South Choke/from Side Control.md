@@ -46,35 +46,12 @@ description: "Master the North-South Choke from Side Control in BJJ. Learn the t
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Marcelo Garcia - North South Choke",
-      "description": "North-South Choke from Side Control film study: Marcelo Garcia - North South Choke, taught by Marcelo Garcia.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/z3RNUfHfiSM/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/z3RNUfHfiSM",
-      "url": "https://www.youtube.com/watch?v=z3RNUfHfiSM",
-      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
-      "duration": "PT20S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "North South choke attack from side control",
-      "description": "North-South Choke from Side Control film study: North South choke attack from side control, taught by Fighting Techniques Collection.",
+      "name": "Attack from side control 1. North South Choke. Techniques Jiu-jitsu, Grappling,\u2026",
+      "description": "North-South Choke from Side Control film study: Attack from side control 1. North South Choke. Techniques Jiu-jitsu, Grappling,\u2026.",
       "thumbnailUrl": "https://i.ytimg.com/vi/TkdKbLp5Ugo/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/TkdKbLp5Ugo",
       "url": "https://www.youtube.com/watch?v=TkdKbLp5Ugo",
-      "creator": { "@type": "Person", "name": "Fighting Techniques Collection" },
       "duration": "PT78S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Side control to north south lapel choke",
-      "description": "North-South Choke from Side Control film study: Side control to north south lapel choke, taught by JMA BKNY.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/HEocenfcpKg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/HEocenfcpKg",
-      "url": "https://www.youtube.com/watch?v=HEocenfcpKg",
-      "creator": { "@type": "Person", "name": "JMA BKNY" },
-      "duration": "PT62S"
     }
   ]
 }
@@ -137,25 +114,9 @@ This submission is particularly effective against opponents who defend side cont
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=z3RNUfHfiSM)
-
-<p class="clip-credit"><strong>Marcelo Garcia - North South Choke</strong> — taught by Marcelo Garcia · 0:20 · <a href="https://www.youtube.com/watch?v=z3RNUfHfiSM" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=TkdKbLp5Ugo)
 
-<p class="clip-credit"><strong>North South choke attack from side control</strong> — taught by Fighting Techniques Collection · 1:18 · <a href="https://www.youtube.com/watch?v=TkdKbLp5Ugo" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=HEocenfcpKg)
-
-<p class="clip-credit"><strong>Side control to north south lapel choke</strong> — taught by JMA BKNY · 1:02 · <a href="https://www.youtube.com/watch?v=HEocenfcpKg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Attack from side control 1. North South Choke. Techniques Jiu-jitsu, Grappling,…</strong> · 1:18 · <a href="https://www.youtube.com/watch?v=TkdKbLp5Ugo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

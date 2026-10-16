@@ -186,24 +186,12 @@ description: "Execute the collar drag from open guard to achieve front headlock 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Collar drag to back triangle",
-      "description": "Collar Drag from Open Guard (Attacker) film study: Collar drag to back triangle, taught by Dojo Outfitters.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/kl7ZQxvcY-0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/kl7ZQxvcY-0",
-      "url": "https://www.youtube.com/watch?v=kl7ZQxvcY-0",
-      "creator": { "@type": "Person", "name": "Dojo Outfitters" },
-      "duration": "PT51S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Collar drag takedown breakdown",
-      "description": "Collar Drag from Open Guard (Attacker) film study: Collar drag takedown breakdown, taught by Bianca Basilio.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/ch4tXv7Y4Jw/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/ch4tXv7Y4Jw",
-      "url": "https://www.youtube.com/watch?v=ch4tXv7Y4Jw",
-      "creator": { "@type": "Person", "name": "Bianca Basilio" },
-      "duration": "PT60S"
+      "name": "Open guard - Renzo\u0027s techniques: Back-take via collar drag | Renzo Gracie\u2026",
+      "description": "Collar Drag from Open Guard (Attacker) film study: Open guard - Renzo\u0027s techniques: Back-take via collar drag | Renzo Gracie\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hOM67NwKXqE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hOM67NwKXqE",
+      "url": "https://www.youtube.com/watch?v=hOM67NwKXqE",
+      "duration": "PT93S"
     }
   ]
 }
@@ -233,17 +221,9 @@ The collar drag rewards patience and reading ability over explosiveness. The bes
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=kl7ZQxvcY-0)
+![](https://www.youtube.com/watch?v=hOM67NwKXqE)
 
-<p class="clip-credit"><strong>Collar drag to back triangle</strong> — taught by Dojo Outfitters · 0:51 · <a href="https://www.youtube.com/watch?v=kl7ZQxvcY-0" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=ch4tXv7Y4Jw)
-
-<p class="clip-credit"><strong>Collar drag takedown breakdown</strong> — taught by Bianca Basilio · 1:00 · <a href="https://www.youtube.com/watch?v=ch4tXv7Y4Jw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Open guard - Renzo&#39;s techniques: Back-take via collar drag | Renzo Gracie…</strong> · 1:33 · <a href="https://www.youtube.com/watch?v=hOM67NwKXqE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

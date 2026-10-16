@@ -370,30 +370,11 @@
     "clips": [
       {
         "id": "2hc9sl1hEkE",
-        "title": "Overhook Sweep from Butterfly Guard",
-        "by": "Satori BJJ",
-        "vertical": false,
+        "title": "Overhook Sweep | Butterfly Guard",
         "channel": "Satori BJJ",
-        "duration": 36,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "vIa1iE-WJpo",
-        "title": "Leg Assisted Overhook Sweep from Butterfly Guard",
-        "by": "Jean Jacques Machado",
+        "duration": 35,
         "vertical": false,
-        "channel": "JeanJacquesMachado",
-        "duration": 79,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "myygiNlQQK8",
-        "title": "Butterfly Guard overhook sweep options",
-        "by": "Elevate MMA Academy",
-        "vertical": false,
-        "channel": "Elevate MMA Academy",
-        "duration": 116,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },
@@ -573,34 +554,6 @@
         "description": "Full-resistance positional sparring starting in overhook control. Bottom player attempts all sweeps and chain attacks while top player works to defend sweeps and strip the overhook to advance passing position. Track sweep defense success rate and identify which defensive reactions need refinement."
       }
     ],
-    "clips": [
-      {
-        "id": "58LkTy6v3KQ",
-        "title": "Closed Guard Defense and Counter to the Overhook",
-        "by": "The Grappling Bloke",
-        "vertical": false,
-        "channel": "The Grappling Bloke",
-        "duration": 109,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "O3YoK7uDtHI",
-        "title": "Hip Flick Defense to the Hook Sweep",
-        "by": "Satori BJJ",
-        "vertical": false,
-        "channel": "Satori BJJ",
-        "duration": 80,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "hgup3-KphBM",
-        "title": "Counter to the Whizzer in Dogfight",
-        "by": "The Base Jiu Jitsu",
-        "vertical": false,
-        "channel": "The Base Jiu Jitsu",
-        "duration": 119,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

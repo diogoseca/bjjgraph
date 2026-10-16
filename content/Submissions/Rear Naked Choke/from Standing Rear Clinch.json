@@ -475,12 +475,10 @@
     "clips": [
       {
         "id": "FvT_Ffy68OI",
-        "title": "Takedown to rear naked choke setup",
-        "by": "Fit To Fight Republic",
-        "vertical": false,
+        "title": "Takedown to Rear Naked Choke - BJJ Submission Set Up",
         "channel": "Fit To Fight Republic",
         "duration": 38,
-        "verified": "2026-07-14"
+        "vertical": false
       }
     ]
   },
@@ -717,31 +715,33 @@
     ],
     "clips": [
       {
-        "id": "dTIDRA-0YY0",
-        "title": "Defense to rear choke from behind",
-        "by": "Gracie Charlottesville",
+        "id": "rlJlNeccbEw",
+        "title": "Standing Rear Naked Choke Defense",
+        "channel": "SAMA Self Defense",
+        "duration": 20,
         "vertical": false,
-        "channel": "Gracie Charlottesville",
-        "duration": 38,
-        "verified": "2026-07-14"
+        "front": true
       },
       {
-        "id": "F9NRcVxEo8w",
-        "title": "How to escape a rear choke hold",
-        "by": "The Martial Way Dojo",
-        "vertical": false,
-        "channel": "The Martial Way Dojo",
-        "duration": 60,
-        "verified": "2026-07-14"
+        "id": "dTIDRA-0YY0",
+        "title": "Jiu-Jitsu Defense to the Rear Choke From Behind While Being Dragged by Gracie…",
+        "channel": "Gracie Charlottesville",
+        "duration": 38,
+        "vertical": false
       },
       {
         "id": "QQFbYx_ARQo",
-        "title": "Rear choke release",
-        "by": "Allen's American Martial Arts",
-        "vertical": false,
+        "title": "Rear Choke Release",
         "channel": "Allen's American Martial Arts",
         "duration": 34,
-        "verified": "2026-07-14"
+        "vertical": false
+      },
+      {
+        "id": "F9NRcVxEo8w",
+        "title": "How To Escape A Choke Hold | Front Choke | Rear Choke | MMA Choke Hold | Day 1…",
+        "channel": "The Martial Way Dojo",
+        "duration": 60,
+        "vertical": false
       }
     ]
   }

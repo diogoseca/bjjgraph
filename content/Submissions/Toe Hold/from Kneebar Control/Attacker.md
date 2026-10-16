@@ -188,24 +188,22 @@ description: "Learn to attack with the toe hold from kneebar control. Step-by-st
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Toe Hold from Failed Kneebar",
-      "description": "Toe Hold from Kneebar Control (Attacker) film study: Toe Hold from Failed Kneebar, taught by Jaime Jara.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/uDoUFh3gXxo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/uDoUFh3gXxo",
-      "url": "https://www.youtube.com/watch?v=uDoUFh3gXxo",
-      "creator": { "@type": "Person", "name": "Jaime Jara" },
-      "duration": "PT67S"
+      "name": "Kneebar to Toe Hold from Guard",
+      "description": "Toe Hold from Kneebar Control (Attacker) film study: Kneebar to Toe Hold from Guard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0Ikomr3uYBU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/0Ikomr3uYBU",
+      "url": "https://www.youtube.com/watch?v=0Ikomr3uYBU",
+      "duration": "PT14S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Kneebar to Toe Hold from Guard",
-      "description": "Toe Hold from Kneebar Control (Attacker) film study: Kneebar to Toe Hold from Guard, taught by Kinesiology College.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/0Ikomr3uYBU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/0Ikomr3uYBU",
-      "url": "https://www.youtube.com/watch?v=0Ikomr3uYBU",
-      "creator": { "@type": "Person", "name": "Kinesiology College" },
-      "duration": "PT14S"
+      "name": "toe hold from failed kneebar",
+      "description": "Toe Hold from Kneebar Control (Attacker) film study: toe hold from failed kneebar.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/uDoUFh3gXxo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/uDoUFh3gXxo",
+      "url": "https://www.youtube.com/watch?v=uDoUFh3gXxo",
+      "duration": "PT67S"
     }
   ]
 }
@@ -234,17 +232,17 @@ Attacking with the toe hold from kneebar control exploits a fundamental defensiv
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=uDoUFh3gXxo)
+![](https://www.youtube.com/watch?v=0Ikomr3uYBU)
 
-<p class="clip-credit"><strong>Toe Hold from Failed Kneebar</strong> — taught by Jaime Jara · 1:07 · <a href="https://www.youtube.com/watch?v=uDoUFh3gXxo" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Kneebar to Toe Hold from Guard</strong> · 0:14 · <a href="https://www.youtube.com/watch?v=0Ikomr3uYBU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=0Ikomr3uYBU)
+![](https://www.youtube.com/watch?v=uDoUFh3gXxo)
 
-<p class="clip-credit"><strong>Kneebar to Toe Hold from Guard</strong> — taught by Kinesiology College · 0:14 · <a href="https://www.youtube.com/watch?v=0Ikomr3uYBU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>toe hold from failed kneebar</strong> · 1:07 · <a href="https://www.youtube.com/watch?v=uDoUFh3gXxo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

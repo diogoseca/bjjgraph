@@ -180,35 +180,32 @@ description: "How to execute Kimura to Back Take in BJJ. Attacking perspective w
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Kimura trap back take from half guard",
-      "description": "Kimura to Back Take (Attacker) film study: Kimura trap back take from half guard, taught by BJJ4Breakfast.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/xpEueRuYcnM/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/xpEueRuYcnM",
-      "url": "https://www.youtube.com/watch?v=xpEueRuYcnM",
-      "creator": { "@type": "Person", "name": "BJJ4Breakfast" },
-      "duration": "PT69S"
+      "name": "Kimura Trap Flow \u2014 Control, Invert, and Take the Back",
+      "description": "Kimura to Back Take (Attacker) film study: Kimura Trap Flow \u2014 Control, Invert, and Take the Back.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MGotqppgD0w/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/MGotqppgD0w",
+      "url": "https://www.youtube.com/watch?v=MGotqppgD0w",
+      "duration": "PT59S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Kimura trap to back take to RNC",
-      "description": "Kimura to Back Take (Attacker) film study: Kimura trap to back take to RNC, taught by Focused Fight Team.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/OoCf7ukKR54/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/OoCf7ukKR54",
-      "url": "https://www.youtube.com/watch?v=OoCf7ukKR54",
-      "creator": { "@type": "Person", "name": "Focused Fight Team" },
-      "duration": "PT89S"
+      "name": "Escape the half guard with a kimura trap back take.",
+      "description": "Kimura to Back Take (Attacker) film study: Escape the half guard with a kimura trap back take..",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xpEueRuYcnM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/xpEueRuYcnM",
+      "url": "https://www.youtube.com/watch?v=xpEueRuYcnM",
+      "duration": "PT69S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "Kimura trap flow: control, invert, take the back",
-      "description": "Kimura to Back Take (Attacker) film study: Kimura trap flow: control, invert, take the back, taught by Mr. NogiJiujitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/MGotqppgD0w/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/MGotqppgD0w",
-      "url": "https://www.youtube.com/watch?v=MGotqppgD0w",
-      "creator": { "@type": "Person", "name": "Mr. NogiJiujitsu" },
-      "duration": "PT59S"
+      "name": "Kimura Trap - Backtake - RNC",
+      "description": "Kimura to Back Take (Attacker) film study: Kimura Trap - Backtake - RNC.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/OoCf7ukKR54/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/OoCf7ukKR54",
+      "url": "https://www.youtube.com/watch?v=OoCf7ukKR54",
+      "duration": "PT89S"
     }
   ]
 }
@@ -236,9 +233,17 @@ The Kimura to Back Take from the attacker's perspective is about converting an e
 
 <div class="film-clip">
 
+![](https://www.youtube.com/watch?v=MGotqppgD0w)
+
+<p class="clip-credit"><strong>Kimura Trap Flow — Control, Invert, and Take the Back</strong> · 0:59 · <a href="https://www.youtube.com/watch?v=MGotqppgD0w" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
 ![](https://www.youtube.com/watch?v=xpEueRuYcnM)
 
-<p class="clip-credit"><strong>Kimura trap back take from half guard</strong> — taught by BJJ4Breakfast · 1:09 · <a href="https://www.youtube.com/watch?v=xpEueRuYcnM" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Escape the half guard with a kimura trap back take.</strong> · 1:09 · <a href="https://www.youtube.com/watch?v=xpEueRuYcnM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -246,15 +251,7 @@ The Kimura to Back Take from the attacker's perspective is about converting an e
 
 ![](https://www.youtube.com/watch?v=OoCf7ukKR54)
 
-<p class="clip-credit"><strong>Kimura trap to back take to RNC</strong> — taught by Focused Fight Team · 1:29 · <a href="https://www.youtube.com/watch?v=OoCf7ukKR54" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=MGotqppgD0w)
-
-<p class="clip-credit"><strong>Kimura trap flow: control, invert, take the back</strong> — taught by Mr. NogiJiujitsu · 0:59 · <a href="https://www.youtube.com/watch?v=MGotqppgD0w" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Kimura Trap - Backtake - RNC</strong> · 1:29 · <a href="https://www.youtube.com/watch?v=OoCf7ukKR54" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

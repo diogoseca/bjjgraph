@@ -162,34 +162,21 @@ description: "Defend against the Kimura from flattened half guard. Recognition c
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Kimura defense grip breaks",
-      "description": "Kimura from Flattened Half Guard (Defender) film study: Kimura defense grip breaks, taught by Dirtball BJJ.",
+      "name": "The Daily Dirtball: \"Kimura Defense Grip Breaks\"",
+      "description": "Kimura from Flattened Half Guard (Defender) film study: The Daily Dirtball: \"Kimura Defense Grip Breaks\".",
       "thumbnailUrl": "https://i.ytimg.com/vi/GOLwVNTVcnY/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/GOLwVNTVcnY",
       "url": "https://www.youtube.com/watch?v=GOLwVNTVcnY",
-      "creator": { "@type": "Person", "name": "Dirtball BJJ" },
       "duration": "PT81S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Kimura defense",
-      "description": "Kimura from Flattened Half Guard (Defender) film study: Kimura defense, taught by Jon Satava.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/gvRGrvtKd1U/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/gvRGrvtKd1U",
-      "url": "https://www.youtube.com/watch?v=gvRGrvtKd1U",
-      "creator": { "@type": "Person", "name": "Jon Satava" },
-      "duration": "PT142S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Late kimura defense from bottom",
-      "description": "Kimura from Flattened Half Guard (Defender) film study: Late kimura defense from bottom, taught by Fox Den Martial Arts.",
+      "name": "Late Kimura Defense from Bottom Side Control",
+      "description": "Kimura from Flattened Half Guard (Defender) film study: Late Kimura Defense from Bottom Side Control.",
       "thumbnailUrl": "https://i.ytimg.com/vi/uRn3DRICpeY/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/uRn3DRICpeY",
       "url": "https://www.youtube.com/watch?v=uRn3DRICpeY",
-      "creator": { "@type": "Person", "name": "Fox Den Martial Arts" },
       "duration": "PT100S"
     }
   ]
@@ -221,15 +208,7 @@ Defending the Kimura from flattened half guard bottom is among the most difficul
 
 ![](https://www.youtube.com/watch?v=GOLwVNTVcnY)
 
-<p class="clip-credit"><strong>Kimura defense grip breaks</strong> — taught by Dirtball BJJ · 1:21 · <a href="https://www.youtube.com/watch?v=GOLwVNTVcnY" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=gvRGrvtKd1U)
-
-<p class="clip-credit"><strong>Kimura defense</strong> — taught by Jon Satava · 2:22 · <a href="https://www.youtube.com/watch?v=gvRGrvtKd1U" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>The Daily Dirtball: &#34;Kimura Defense Grip Breaks&#34;</strong> · 1:21 · <a href="https://www.youtube.com/watch?v=GOLwVNTVcnY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -237,7 +216,7 @@ Defending the Kimura from flattened half guard bottom is among the most difficul
 
 ![](https://www.youtube.com/watch?v=uRn3DRICpeY)
 
-<p class="clip-credit"><strong>Late kimura defense from bottom</strong> — taught by Fox Den Martial Arts · 1:40 · <a href="https://www.youtube.com/watch?v=uRn3DRICpeY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Late Kimura Defense from Bottom Side Control</strong> · 1:40 · <a href="https://www.youtube.com/watch?v=uRn3DRICpeY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

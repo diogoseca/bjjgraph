@@ -374,21 +374,11 @@
     "clips": [
       {
         "id": "uyW7SqD63SQ",
-        "title": "Collar sleeve to deep De La Riva crab ride",
-        "by": "Luciana Marcos",
-        "vertical": false,
+        "title": "COLLAR SLEEVE DEEP DELARIVA CRAB RIDE",
         "channel": "luciana MARCOS",
-        "duration": 60,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "bGhNA5ZuTnQ",
-        "title": "Collar sleeve into reverse De La Riva hook",
-        "by": "Elite Team Monterey",
+        "duration": 59,
         "vertical": false,
-        "channel": "ELITE TEAM MONTEREY",
-        "duration": 64,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },
@@ -539,25 +529,6 @@
         "description": "Positional sparring starting in collar sleeve guard with the objective of preventing the DLR transition. Partner uses full speed and deception to initiate the transition. If prevention fails, immediately implement DLR-specific passing strategies. Develops the complete defensive response under realistic conditions."
       }
     ],
-    "clips": [
-      {
-        "id": "6td9ZiochpY",
-        "title": "Counter to deep De La Riva with long step",
-        "by": "Carpio Jiu Jitsu",
-        "vertical": false,
-        "channel": "Carpio Jiu Jitsu",
-        "duration": 80,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "bdD496w3erA",
-        "title": "De La Riva counter into back take",
-        "by": "Vicente Cavalcanti",
-        "vertical": false,
-        "channel": "VICENTE CAVALCANTI",
-        "duration": 56,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

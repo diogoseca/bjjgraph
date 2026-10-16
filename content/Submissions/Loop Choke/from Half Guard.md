@@ -46,35 +46,22 @@ description: "Master the Loop Choke from Half Guard Top in BJJ. Learn deep colla
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Loop Choke from Half Guard",
-      "description": "Loop Choke from Half Guard film study: Loop Choke from Half Guard, taught by Sickness Ferro.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/3sprDpHbCdM/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/3sprDpHbCdM",
-      "url": "https://www.youtube.com/watch?v=3sprDpHbCdM",
-      "creator": { "@type": "Person", "name": "Sickness Ferro" },
-      "duration": "PT197S"
+      "name": "BJJ: Loop Choke from Halfguard Top",
+      "description": "Loop Choke from Half Guard film study: BJJ: Loop Choke from Halfguard Top.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/TcX0ZzZib-I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/TcX0ZzZib-I",
+      "url": "https://www.youtube.com/watch?v=TcX0ZzZib-I",
+      "duration": "PT59S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Loop choke from half guard",
-      "description": "Loop Choke from Half Guard film study: Loop choke from half guard, taught by Jean Jacques Machado.",
+      "description": "Loop Choke from Half Guard film study: Loop choke from half guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/MeewDSMPwA0/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/MeewDSMPwA0",
       "url": "https://www.youtube.com/watch?v=MeewDSMPwA0",
-      "creator": { "@type": "Person", "name": "Jean Jacques Machado" },
       "duration": "PT310S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Loop choke from half guard top",
-      "description": "Loop Choke from Half Guard film study: Loop choke from half guard top, taught by terasankka.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/TcX0ZzZib-I/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/TcX0ZzZib-I",
-      "url": "https://www.youtube.com/watch?v=TcX0ZzZib-I",
-      "creator": { "@type": "Person", "name": "terasankka" },
-      "duration": "PT59S"
     }
   ]
 }
@@ -137,9 +124,9 @@ The attacker must balance commitment to the choke against maintaining top positi
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=3sprDpHbCdM)
+![](https://www.youtube.com/watch?v=TcX0ZzZib-I)
 
-<p class="clip-credit"><strong>Loop Choke from Half Guard</strong> — taught by Sickness Ferro · 3:17 · <a href="https://www.youtube.com/watch?v=3sprDpHbCdM" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>BJJ: Loop Choke from Halfguard Top</strong> · 0:59 · <a href="https://www.youtube.com/watch?v=TcX0ZzZib-I" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -147,15 +134,7 @@ The attacker must balance commitment to the choke against maintaining top positi
 
 ![](https://www.youtube.com/watch?v=MeewDSMPwA0)
 
-<p class="clip-credit"><strong>Loop choke from half guard</strong> — taught by Jean Jacques Machado · 5:10 · <a href="https://www.youtube.com/watch?v=MeewDSMPwA0" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=TcX0ZzZib-I)
-
-<p class="clip-credit"><strong>Loop choke from half guard top</strong> — taught by terasankka · 0:59 · <a href="https://www.youtube.com/watch?v=TcX0ZzZib-I" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Loop choke from half guard</strong> · 5:10 · <a href="https://www.youtube.com/watch?v=MeewDSMPwA0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

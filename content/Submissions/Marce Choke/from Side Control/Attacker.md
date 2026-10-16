@@ -182,34 +182,31 @@ description: "How to execute the Marce Choke in BJJ. Attacking perspective with 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "1 Minute Jiu-Jitsu Hack: Marce Choke",
-      "description": "Marce Choke from Side Control (Attacker) film study: 1 Minute Jiu-Jitsu Hack: Marce Choke, taught by Brandon McCaghren.",
+      "name": "1 MINUTE JIU JITSU HACK - Marce Choke",
+      "description": "Marce Choke from Side Control (Attacker) film study: 1 MINUTE JIU JITSU HACK - Marce Choke.",
       "thumbnailUrl": "https://i.ytimg.com/vi/hCiHjCbhGyE/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/hCiHjCbhGyE",
       "url": "https://www.youtube.com/watch?v=hCiHjCbhGyE",
-      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
-      "duration": "PT67S"
+      "duration": "PT66S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Marce Choke",
-      "description": "Marce Choke from Side Control (Attacker) film study: Marce Choke, taught by Colemans Electric.",
+      "name": "Marce choke",
+      "description": "Marce Choke from Side Control (Attacker) film study: Marce choke.",
       "thumbnailUrl": "https://i.ytimg.com/vi/1jsDC-jaPoU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/1jsDC-jaPoU",
       "url": "https://www.youtube.com/watch?v=1jsDC-jaPoU",
-      "creator": { "@type": "Person", "name": "Colemans Electric" },
       "duration": "PT78S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "Knee Flare Marce Choke Detail",
-      "description": "Marce Choke from Side Control (Attacker) film study: Knee Flare Marce Choke Detail, taught by Drew Darce.",
+      "name": "Knee flare marce",
+      "description": "Marce Choke from Side Control (Attacker) film study: Knee flare marce.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Mp7Ffm85k0A/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Mp7Ffm85k0A",
       "url": "https://www.youtube.com/watch?v=Mp7Ffm85k0A",
-      "creator": { "@type": "Person", "name": "Drew Darce" },
       "duration": "PT113S"
     }
   ]
@@ -241,7 +238,7 @@ Executing the Marce Choke requires mastery of lapel manipulation from dominant t
 
 ![](https://www.youtube.com/watch?v=hCiHjCbhGyE)
 
-<p class="clip-credit"><strong>1 Minute Jiu-Jitsu Hack: Marce Choke</strong> — taught by Brandon McCaghren · 1:07 · <a href="https://www.youtube.com/watch?v=hCiHjCbhGyE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>1 MINUTE JIU JITSU HACK - Marce Choke</strong> · 1:06 · <a href="https://www.youtube.com/watch?v=hCiHjCbhGyE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -249,7 +246,7 @@ Executing the Marce Choke requires mastery of lapel manipulation from dominant t
 
 ![](https://www.youtube.com/watch?v=1jsDC-jaPoU)
 
-<p class="clip-credit"><strong>Marce Choke</strong> — taught by Colemans Electric · 1:18 · <a href="https://www.youtube.com/watch?v=1jsDC-jaPoU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Marce choke</strong> · 1:18 · <a href="https://www.youtube.com/watch?v=1jsDC-jaPoU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -257,7 +254,7 @@ Executing the Marce Choke requires mastery of lapel manipulation from dominant t
 
 ![](https://www.youtube.com/watch?v=Mp7Ffm85k0A)
 
-<p class="clip-credit"><strong>Knee Flare Marce Choke Detail</strong> — taught by Drew Darce · 1:53 · <a href="https://www.youtube.com/watch?v=Mp7Ffm85k0A" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Knee flare marce</strong> · 1:53 · <a href="https://www.youtube.com/watch?v=Mp7Ffm85k0A" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

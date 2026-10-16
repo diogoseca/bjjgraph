@@ -180,24 +180,22 @@ description: "How to execute Arm Extraction in BJJ. Attacking perspective with s
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Limp arm escape from side control",
-      "description": "Arm Extraction (Attacker) film study: Limp arm escape from side control, taught by United BJJ Hawaii.",
+      "name": "LIMP ARM escape from Side Control !!",
+      "description": "Arm Extraction (Attacker) film study: LIMP ARM escape from Side Control !!.",
       "thumbnailUrl": "https://i.ytimg.com/vi/YhkVpXhiAho/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/YhkVpXhiAho",
       "url": "https://www.youtube.com/watch?v=YhkVpXhiAho",
-      "creator": { "@type": "Person", "name": "United BJJ Hawaii" },
-      "duration": "PT128S"
+      "duration": "PT127S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "How to free the trapped arm",
-      "description": "Arm Extraction (Attacker) film study: How to free the trapped arm, taught by The Fight Centre.",
+      "name": "How To Free The Trapped Arm MMA | MMA Grappling",
+      "description": "Arm Extraction (Attacker) film study: How To Free The Trapped Arm MMA | MMA Grappling.",
       "thumbnailUrl": "https://i.ytimg.com/vi/aw_eTRRuDz8/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/aw_eTRRuDz8",
       "url": "https://www.youtube.com/watch?v=aw_eTRRuDz8",
-      "creator": { "@type": "Person", "name": "The Fight Centre" },
-      "duration": "PT207S"
+      "duration": "PT206S"
     }
   ]
 }
@@ -231,7 +229,7 @@ This escape is particularly effective against pressure-based top players who pri
 
 ![](https://www.youtube.com/watch?v=YhkVpXhiAho)
 
-<p class="clip-credit"><strong>Limp arm escape from side control</strong> — taught by United BJJ Hawaii · 2:08 · <a href="https://www.youtube.com/watch?v=YhkVpXhiAho" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>LIMP ARM escape from Side Control !!</strong> · 2:07 · <a href="https://www.youtube.com/watch?v=YhkVpXhiAho" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -239,7 +237,7 @@ This escape is particularly effective against pressure-based top players who pri
 
 ![](https://www.youtube.com/watch?v=aw_eTRRuDz8)
 
-<p class="clip-credit"><strong>How to free the trapped arm</strong> — taught by The Fight Centre · 3:27 · <a href="https://www.youtube.com/watch?v=aw_eTRRuDz8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How To Free The Trapped Arm MMA | MMA Grappling</strong> · 3:26 · <a href="https://www.youtube.com/watch?v=aw_eTRRuDz8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

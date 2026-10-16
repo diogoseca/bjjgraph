@@ -165,35 +165,12 @@ description: "Master Guillotine Control Top position in BJJ. Dominant control wi
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Marcelo Garcia\u0027s Marcelotine Choke",
-      "description": "Guillotine Control (Top) film study: Marcelo Garcia\u0027s Marcelotine Choke, taught by Marcelo Garcia.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/NUnTxPvjCa0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/NUnTxPvjCa0",
-      "url": "https://www.youtube.com/watch?v=NUnTxPvjCa0",
-      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
-      "duration": "PT73S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Marcelotine high-elbow guillotine demo",
-      "description": "Guillotine Control (Top) film study: Marcelotine high-elbow guillotine demo, taught by Half The Battle.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Dg1dvtWkXhE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Dg1dvtWkXhE",
-      "url": "https://www.youtube.com/watch?v=Dg1dvtWkXhE",
-      "creator": { "@type": "Person", "name": "Half The Battle" },
-      "duration": "PT110S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "High Elbow Guillotine (Marcelotine)",
-      "description": "Guillotine Control (Top) film study: High Elbow Guillotine (Marcelotine), taught by Wrecking Crew BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/9U5nyBImGj4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/9U5nyBImGj4",
-      "url": "https://www.youtube.com/watch?v=9U5nyBImGj4",
-      "creator": { "@type": "Person", "name": "Wrecking Crew BJJ" },
-      "duration": "PT45S"
+      "name": "Guillotine System and Front Head Lock Overview",
+      "description": "Guillotine Control (Top) film study: Guillotine System and Front Head Lock Overview.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/VvkYx4zEWNo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/VvkYx4zEWNo",
+      "url": "https://www.youtube.com/watch?v=VvkYx4zEWNo",
+      "duration": "PT956S"
     }
   ]
 }
@@ -221,25 +198,9 @@ The strategic value of Guillotine Control Top lies in its versatility—the top 
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=NUnTxPvjCa0)
+![](https://www.youtube.com/watch?v=VvkYx4zEWNo)
 
-<p class="clip-credit"><strong>Marcelo Garcia&#39;s Marcelotine Choke</strong> — taught by Marcelo Garcia · 1:13 · <a href="https://www.youtube.com/watch?v=NUnTxPvjCa0" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=Dg1dvtWkXhE)
-
-<p class="clip-credit"><strong>Marcelotine high-elbow guillotine demo</strong> — taught by Half The Battle · 1:50 · <a href="https://www.youtube.com/watch?v=Dg1dvtWkXhE" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=9U5nyBImGj4)
-
-<p class="clip-credit"><strong>High Elbow Guillotine (Marcelotine)</strong> — taught by Wrecking Crew BJJ · 0:45 · <a href="https://www.youtube.com/watch?v=9U5nyBImGj4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Guillotine System and Front Head Lock Overview</strong> · 15:56 · <a href="https://www.youtube.com/watch?v=VvkYx4zEWNo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -347,26 +347,7 @@
       }
     ],
     "safety_considerations": "This escape involves rapid spinal rotation under compressive pressure and carries risk of neck strain if the chin is not properly tucked during the turn. The back exposure during rotation creates vulnerability to chokes if the opponent follows with arm-in attacks. Ensure training partners understand the defensive nature of this transition and avoid applying excessive downward pressure during the turning phase. When drilling, the top player should follow at controlled speed initially. Tap immediately if a choke is applied during the rotation before you can establish defensive turtle posture.",
-    "clips": [
-      {
-        "id": "IU-kgtU5ng0",
-        "title": "Turning out of knee on belly to reverse",
-        "by": "South Island BJJ",
-        "vertical": false,
-        "channel": "South Island Bjj",
-        "duration": 45,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "Wn01Ynw7O28",
-        "title": "How to escape the knee on belly position",
-        "by": "Evolve MMA",
-        "vertical": false,
-        "channel": "Evolve Mixed Martial Arts",
-        "duration": 40,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Turn to Turtle from Knee on Belly Defender",
@@ -522,34 +503,6 @@
         "description": "Live positional rounds starting from Knee on Belly. Top player must maintain position or advance against all escape attempts including turns, frames, shrimps, and stand-ups. Develops automatic reactions and real-time decision making across the full defensive repertoire."
       }
     ],
-    "clips": [
-      {
-        "id": "6_4uK_c0-cI",
-        "title": "Preventing the turtle as the opponent turns away",
-        "by": "Inverted Gear",
-        "vertical": false,
-        "channel": "Inverted Gear",
-        "duration": 79,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "8qQrZ1b_Omw",
-        "title": "Stopping the turtle when they turn away",
-        "by": "Gold BJJ",
-        "vertical": false,
-        "channel": "RVV BJJ",
-        "duration": 318,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "qpngRyjHghI",
-        "title": "Wrestling pin to shut down the turtle",
-        "by": "Chewjitsu",
-        "vertical": false,
-        "channel": "Chewjitsu",
-        "duration": 386,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

@@ -176,50 +176,6 @@ description: "Master the Ushiro Kesa Gatame to Side Control transition from the 
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Ushiro Kesa Gatame to Side Control (Attacker) \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Side control to scarf hold hip switch",
-      "description": "Ushiro Kesa Gatame to Side Control (Attacker) film study: Side control to scarf hold hip switch, taught by Raven Jiu Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/aAKcSjzX4to/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/aAKcSjzX4to",
-      "url": "https://www.youtube.com/watch?v=aAKcSjzX4to",
-      "creator": { "@type": "Person", "name": "Raven Jiu Jitsu" },
-      "duration": "PT115S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Osaekomi waza: pinning and transitioning between pins",
-      "description": "Ushiro Kesa Gatame to Side Control (Attacker) film study: Osaekomi waza: pinning and transitioning between pins, taught by Samir Seif.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/9Q6g6Jx27qg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/9Q6g6Jx27qg",
-      "url": "https://www.youtube.com/watch?v=9Q6g6Jx27qg",
-      "creator": { "@type": "Person", "name": "Samir Seif" },
-      "duration": "PT222S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "How to mount reverse kesa gatame",
-      "description": "Ushiro Kesa Gatame to Side Control (Attacker) film study: How to mount reverse kesa gatame, taught by David Webster.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Z24JmX5e51A/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Z24JmX5e51A",
-      "url": "https://www.youtube.com/watch?v=Z24JmX5e51A",
-      "creator": { "@type": "Person", "name": "David Webster" },
-      "duration": "PT134S"
-    }
-  ]
-}
-</script>
-
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -232,40 +188,6 @@ As the top player executing the Ushiro Kesa Gatame to Side Control transition, y
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Ushiro Kesa Gatame to Side Control (Attacker) in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=aAKcSjzX4to)
-
-<p class="clip-credit"><strong>Side control to scarf hold hip switch</strong> — taught by Raven Jiu Jitsu · 1:55 · <a href="https://www.youtube.com/watch?v=aAKcSjzX4to" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=9Q6g6Jx27qg)
-
-<p class="clip-credit"><strong>Osaekomi waza: pinning and transitioning between pins</strong> — taught by Samir Seif · 3:42 · <a href="https://www.youtube.com/watch?v=9Q6g6Jx27qg" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=Z24JmX5e51A)
-
-<p class="clip-credit"><strong>How to mount reverse kesa gatame</strong> — taught by David Webster · 2:14 · <a href="https://www.youtube.com/watch?v=Z24JmX5e51A" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="key-principles" class="content-section">

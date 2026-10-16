@@ -46,35 +46,12 @@ description: "Master the smash pass from butterfly half guard. Learn to kill the
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Half butterfly guard pass for no-gi",
-      "description": "Smash from Butterfly Half film study: Half butterfly guard pass for no-gi, taught by Factory Fresh coach.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Pk_6CrydIRQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Pk_6CrydIRQ",
-      "url": "https://www.youtube.com/watch?v=Pk_6CrydIRQ",
-      "creator": { "@type": "Person", "name": "Factory Fresh coach" },
-      "duration": "PT110S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Smash pass baiting the butterfly hook",
-      "description": "Smash from Butterfly Half film study: Smash pass baiting the butterfly hook, taught by JT Torres.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/s5MYmM58Ipg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/s5MYmM58Ipg",
-      "url": "https://www.youtube.com/watch?v=s5MYmM58Ipg",
-      "creator": { "@type": "Person", "name": "JT Torres" },
-      "duration": "PT198S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Half butterfly guard pass, no-gi",
-      "description": "Smash from Butterfly Half film study: Half butterfly guard pass, no-gi, taught by Kieran Davern.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Ll3fkZ2oQD0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Ll3fkZ2oQD0",
-      "url": "https://www.youtube.com/watch?v=Ll3fkZ2oQD0",
-      "creator": { "@type": "Person", "name": "Kieran Davern" },
-      "duration": "PT170S"
+      "name": "Passing Butterfly Half with a Side Smash",
+      "description": "Smash from Butterfly Half film study: Passing Butterfly Half with a Side Smash.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/TaiXKQlwj3g/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/TaiXKQlwj3g",
+      "url": "https://www.youtube.com/watch?v=TaiXKQlwj3g",
+      "duration": "PT153S"
     }
   ]
 }
@@ -128,25 +105,9 @@ Execution requires precise sequencing: establish dominant upper body control fir
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=Pk_6CrydIRQ)
+![](https://www.youtube.com/watch?v=TaiXKQlwj3g)
 
-<p class="clip-credit"><strong>Half butterfly guard pass for no-gi</strong> — taught by Factory Fresh coach · 1:50 · <a href="https://www.youtube.com/watch?v=Pk_6CrydIRQ" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=s5MYmM58Ipg)
-
-<p class="clip-credit"><strong>Smash pass baiting the butterfly hook</strong> — taught by JT Torres · 3:18 · <a href="https://www.youtube.com/watch?v=s5MYmM58Ipg" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=Ll3fkZ2oQD0)
-
-<p class="clip-credit"><strong>Half butterfly guard pass, no-gi</strong> — taught by Kieran Davern · 2:50 · <a href="https://www.youtube.com/watch?v=Ll3fkZ2oQD0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Passing Butterfly Half with a Side Smash</strong> · 2:33 · <a href="https://www.youtube.com/watch?v=TaiXKQlwj3g" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

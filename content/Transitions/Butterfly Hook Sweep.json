@@ -396,31 +396,19 @@
     "safety_considerations": "The butterfly hook sweep is generally low-risk but requires controlled execution to prevent training injuries. Maintain grip contact throughout the sweep to guide your partner's descent and prevent them from landing on their head or shoulder. Avoid explosive jerking motions that could strain your partner's neck during off-balancing. Be mindful of knee pressure on your own hooking leg—ensure proper hook placement on the inner thigh crease rather than directly on the knee joint to prevent MCL strain during elevation.",
     "clips": [
       {
-        "id": "c8JBXJMc0Oc",
-        "title": "Marcelo Garcia butterfly hook sweep",
-        "by": "Marcelo Garcia",
+        "id": "is7gMf-wYuA",
+        "title": "2 on 1 Hook Sweep From Butterfly Guard",
+        "channel": "grpplng",
+        "duration": 13,
         "vertical": false,
-        "channel": "Butterfly The World",
-        "duration": 81,
-        "verified": "2026-07-15"
+        "front": true
       },
       {
         "id": "2hc9sl1hEkE",
-        "title": "Overhook sweep from butterfly guard",
-        "by": "Satori BJJ coach",
-        "vertical": false,
+        "title": "Overhook Sweep | Butterfly Guard",
         "channel": "Satori BJJ",
-        "duration": 36,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "is7gMf-wYuA",
-        "title": "2-on-1 hook sweep from butterfly guard",
-        "by": "grpplng coach",
-        "vertical": false,
-        "channel": "grpplng",
-        "duration": 14,
-        "verified": "2026-07-15"
+        "duration": 35,
+        "vertical": false
       }
     ]
   },
@@ -604,34 +592,6 @@
         "description": "Positional sparring starting in opponent's butterfly guard with full resistance. Defender works to prevent sweeps and pass guard while attacker works full offensive game. Track sweep defense success rate and identify defensive gaps requiring additional drilling."
       }
     ],
-    "clips": [
-      {
-        "id": "9miuP4-v0EE",
-        "title": "Passing half butterfly guard",
-        "by": "John Danaher",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 192,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "m4FyrWlQ68k",
-        "title": "Efficient butterfly guard pass to beat the hooks",
-        "by": "Chris Yonkers",
-        "vertical": false,
-        "channel": "Bernardo Faria BJJ Fanatics",
-        "duration": 318,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "HqdBh__Rxy0",
-        "title": "Passing half butterfly guard before the sweep",
-        "by": "Jay Rodriguez",
-        "vertical": false,
-        "channel": "Bernardo Faria BJJ Fanatics",
-        "duration": 272,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

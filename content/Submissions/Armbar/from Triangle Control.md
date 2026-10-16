@@ -36,6 +36,27 @@ description: "Learn Armbar from Triangle Control: retain the triangle entangleme
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Armbar from Triangle Control \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "BJJ: triangle armbar",
+      "description": "Armbar from Triangle Control film study: BJJ: triangle armbar.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/yrl903y9jbg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/yrl903y9jbg",
+      "url": "https://www.youtube.com/watch?v=yrl903y9jbg",
+      "duration": "PT63S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -79,6 +100,24 @@ Armbar from Triangle Control is a distinct submission state: the bottom player r
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Armbar from Triangle Control in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=yrl903y9jbg)
+
+<p class="clip-credit"><strong>BJJ: triangle armbar</strong> · 1:03 · <a href="https://www.youtube.com/watch?v=yrl903y9jbg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="outcomes" class="content-section">

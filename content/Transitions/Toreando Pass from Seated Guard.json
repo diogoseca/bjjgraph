@@ -397,30 +397,11 @@
     "clips": [
       {
         "id": "mrnOBANY1JE",
-        "title": "Toreando passing against seated guard",
-        "by": "Unknown",
-        "vertical": false,
+        "title": "6 Passing to Leglocks - Toreando passing vs opponent's seated guard",
         "channel": "Siam Denmark",
         "duration": 97,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "7bOS9uAFN6Y",
-        "title": "Toreando pass series: hip and knee to back step",
-        "by": "Kris Kim",
         "vertical": false,
-        "channel": "BJJ Joe",
-        "duration": 141,
-        "verified": "2026-07-16"
-      },
-      {
-        "id": "zT3JjOR838w",
-        "title": "Passing a seated guard with underhooks",
-        "by": "John Danaher",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 143,
-        "verified": "2026-07-16"
+        "front": true
       }
     ]
   },
@@ -602,21 +583,11 @@
     "clips": [
       {
         "id": "guEr6TkpBOQ",
-        "title": "Guard retention principles vs toreando passing",
-        "by": "Mads H.",
-        "vertical": false,
+        "title": "Nogi guard retention: Fundamental principles vs. Toreando passing",
         "channel": "Mads H. BJJ",
         "duration": 190,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "xPrj169c-rM",
-        "title": "Prevent stack and toreando grips, connect to DLR",
-        "by": "Mads H.",
         "vertical": false,
-        "channel": "Mads H. BJJ",
-        "duration": 230,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   }

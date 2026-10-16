@@ -448,31 +448,12 @@
     ],
     "clips": [
       {
-        "id": "xqNhZVNhxnE",
-        "title": "Bow and Arrow Choke from Back Control",
-        "by": "Evolve MMA",
-        "vertical": false,
-        "channel": "Evolve Mixed Martial Arts",
-        "duration": 45,
-        "verified": "2026-07-14"
-      },
-      {
         "id": "rc77idEskwo",
-        "title": "Bow and Arrow Choke",
-        "by": "Helena Crevar",
-        "vertical": false,
+        "title": "Bow and Arrow Choke by Helena Crevar",
         "channel": "BJJ Fanatics",
         "duration": 55,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "vlydEGpl50k",
-        "title": "Bow and Arrow Choke from the Back",
-        "by": "Procel BJJ",
         "vertical": false,
-        "channel": "Procel Brazilian Jiu-Jitsu",
-        "duration": 52,
-        "verified": "2026-07-14"
+        "front": true
       }
     ]
   },
@@ -649,21 +630,18 @@
     "clips": [
       {
         "id": "Iz0aesx6cKk",
-        "title": "Bow and Arrow Choke Escape",
-        "by": "Revolution BJJ",
-        "vertical": false,
+        "title": "Bow and arrow choke escape",
         "channel": "Revolution BJJ",
-        "duration": 36,
-        "verified": "2026-07-14"
+        "duration": 35,
+        "vertical": false,
+        "front": true
       },
       {
         "id": "J91GRsql-ZA",
-        "title": "Bow & Arrow Choke Defense Drill",
-        "by": "Henry Akins",
-        "vertical": false,
+        "title": "Bow & Arrow Choke Defense Drill (simple head/shoulder detail)",
         "channel": "Henry Akins' Hidden Jiu-Jitsu",
         "duration": 114,
-        "verified": "2026-07-14"
+        "vertical": false
       }
     ]
   }

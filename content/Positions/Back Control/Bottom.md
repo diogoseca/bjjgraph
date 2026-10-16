@@ -166,23 +166,11 @@ description: "Master escaping back control in BJJ. Learn defensive frames, hand 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Standing Up from Back Control",
-      "description": "Back Control (Bottom) film study: Standing Up from Back Control, taught by Priit Mihkelson.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/_sBB-O8fqP4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/_sBB-O8fqP4",
-      "url": "https://www.youtube.com/watch?v=_sBB-O8fqP4",
-      "creator": { "@type": "Person", "name": "Priit Mihkelson" },
-      "duration": "PT114S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Running Man Back Escape",
-      "description": "Back Control (Bottom) film study: Running Man Back Escape, taught by Jiu Jitsu Modern.",
+      "name": "Back Escape- Running Man- BJJ",
+      "description": "Back Control (Bottom) film study: Back Escape- Running Man- BJJ.",
       "thumbnailUrl": "https://i.ytimg.com/vi/3RbOD9fhi20/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/3RbOD9fhi20",
       "url": "https://www.youtube.com/watch?v=3RbOD9fhi20",
-      "creator": { "@type": "Person", "name": "Jiu Jitsu Modern" },
       "duration": "PT210S"
     }
   ]
@@ -218,17 +206,9 @@ The escape hierarchy follows a strict sequence: neck defense first through chin 
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=_sBB-O8fqP4)
-
-<p class="clip-credit"><strong>Standing Up from Back Control</strong> — taught by Priit Mihkelson · 1:54 · <a href="https://www.youtube.com/watch?v=_sBB-O8fqP4" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=3RbOD9fhi20)
 
-<p class="clip-credit"><strong>Running Man Back Escape</strong> — taught by Jiu Jitsu Modern · 3:30 · <a href="https://www.youtube.com/watch?v=3RbOD9fhi20" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Back Escape- Running Man- BJJ</strong> · 3:30 · <a href="https://www.youtube.com/watch?v=3RbOD9fhi20" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

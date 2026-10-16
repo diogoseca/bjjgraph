@@ -466,31 +466,18 @@
     ],
     "clips": [
       {
-        "id": "lN8yn5YaMi0",
-        "title": "Cradle from side control to armbar shoulder lock",
-        "by": "Andy Tong",
-        "vertical": false,
-        "channel": "Andy Tong",
-        "duration": 42,
-        "verified": "2026-07-14"
+        "id": "01b2neRtr6k",
+        "title": "Arm Crush Armlock from Side Mount",
+        "channel": "Soma Academy",
+        "duration": 87,
+        "front": true
       },
       {
         "id": "RFkSf7gQ18E",
-        "title": "Arm crush armbar",
-        "by": "AMAZIN BJJ",
-        "vertical": false,
+        "title": "Arm Crush Arm Bar from Mount",
         "channel": "AMAZIN BJJ",
         "duration": 65,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "LUxMvOFbxIY",
-        "title": "Killing the near side arm from side control",
-        "by": "Inverted Gear",
-        "vertical": false,
-        "channel": "Inverted Gear",
-        "duration": 123,
-        "verified": "2026-07-14"
+        "vertical": false
       }
     ]
   },
@@ -671,35 +658,7 @@
         "description": "Start from side control with partner attacking the Arm Crush among other submissions. Defender uses full defensive toolkit including early extraction, bridge defense, and positional escapes. Emphasize tapping immediately when the submission is fully locked rather than fighting through dangerous pressure. Review each round for recognition timing and decision quality."
       }
     ],
-    "clips": [
-      {
-        "id": "vg8z-4ENucg",
-        "title": "Side control escape to submission",
-        "by": "Fit To Fight",
-        "vertical": false,
-        "channel": "Fit To Fight Republic",
-        "duration": 122,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "lvAmtGuetEI",
-        "title": "Side control escape when you're getting crushed",
-        "by": "AMAZIN BJJ",
-        "vertical": false,
-        "channel": "AMAZIN BJJ",
-        "duration": 174,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "RnXjO_-Ayr8",
-        "title": "Side control escape - grips in detail",
-        "by": "Wim Deputter",
-        "vertical": false,
-        "channel": "Wim Deputter BJJ",
-        "duration": 286,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   },
   "variations_and_setups": [
     {

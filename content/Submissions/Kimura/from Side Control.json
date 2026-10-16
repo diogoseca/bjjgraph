@@ -504,21 +504,18 @@
     "clips": [
       {
         "id": "g-e2ZrNsoNQ",
-        "title": "Set up Kimura from side control",
-        "by": "Heiho Dojo",
-        "vertical": false,
+        "title": "Set up Kimura from Side control",
         "channel": "Heiho Dojo",
         "duration": 61,
-        "verified": "2026-07-14"
+        "vertical": false,
+        "front": true
       },
       {
         "id": "FYKc-hep22I",
-        "title": "Kimura finish from side control",
-        "by": "ZombieProofBJJ",
-        "vertical": false,
+        "title": "Kimura Finish - ZombieProofBJJ",
         "channel": "ZombieProofBJJ",
         "duration": 31,
-        "verified": "2026-07-14"
+        "vertical": false
       }
     ]
   },
@@ -714,22 +711,26 @@
     ],
     "clips": [
       {
-        "id": "GOLwVNTVcnY",
-        "title": "Kimura defense grip breaks",
-        "by": "Dirtball BJJ",
-        "vertical": false,
-        "channel": "Dirtball BJJ",
-        "duration": 81,
-        "verified": "2026-07-14"
-      },
-      {
         "id": "uRn3DRICpeY",
-        "title": "Late Kimura defense from bottom side control",
-        "by": "Fox Den Martial Arts",
-        "vertical": false,
+        "title": "Late Kimura Defense from Bottom Side Control",
         "channel": "Fox Den Martial Arts",
         "duration": 100,
-        "verified": "2026-07-14"
+        "vertical": false,
+        "front": true
+      },
+      {
+        "id": "MM9rddEgJ58",
+        "title": "KIMURA DEFENSE 101 From bottom side control! #graciewestchase #kimuradefense…",
+        "channel": "Gracie Westchase ",
+        "duration": 155,
+        "vertical": false
+      },
+      {
+        "id": "GOLwVNTVcnY",
+        "title": "The Daily Dirtball: \"Kimura Defense Grip Breaks\"",
+        "channel": "Dirtball BJJ",
+        "duration": 81,
+        "vertical": false
       }
     ]
   },

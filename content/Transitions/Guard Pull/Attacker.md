@@ -180,35 +180,32 @@ description: "How to execute Guard Pull in BJJ. Attacking perspective with setup
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Pulling closed guard from standing",
-      "description": "Guard Pull (Attacker) film study: Pulling closed guard from standing, taught by UAE Jiu Jitsu Federation.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/sWK9QdT0I_M/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/sWK9QdT0I_M",
-      "url": "https://www.youtube.com/watch?v=sWK9QdT0I_M",
-      "creator": { "@type": "Person", "name": "UAE Jiu Jitsu Federation" },
-      "duration": "PT37S"
+      "name": "Standing Guard Pull",
+      "description": "Guard Pull (Attacker) film study: Standing Guard Pull.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/nw8Psj0tm5k/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/nw8Psj0tm5k",
+      "url": "https://www.youtube.com/watch?v=nw8Psj0tm5k",
+      "duration": "PT20S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Pulling closed guard - setup and entry",
-      "description": "Guard Pull (Attacker) film study: Pulling closed guard - setup and entry, taught by Team Daruma Dojo.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/CI1w02grvCs/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/CI1w02grvCs",
-      "url": "https://www.youtube.com/watch?v=CI1w02grvCs",
-      "creator": { "@type": "Person", "name": "Team Daruma Dojo" },
-      "duration": "PT44S"
+      "name": "06 - Pulling Closed Guard from Standing",
+      "description": "Guard Pull (Attacker) film study: 06 - Pulling Closed Guard from Standing.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sWK9QdT0I_M/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sWK9QdT0I_M",
+      "url": "https://www.youtube.com/watch?v=sWK9QdT0I_M",
+      "duration": "PT36S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "Standing guard pull",
-      "description": "Guard Pull (Attacker) film study: Standing guard pull, taught by Daniel Frank.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/nw8Psj0tm5k/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/nw8Psj0tm5k",
-      "url": "https://www.youtube.com/watch?v=nw8Psj0tm5k",
-      "creator": { "@type": "Person", "name": "Daniel Frank" },
-      "duration": "PT20S"
+      "name": "Pulling Closed Guard",
+      "description": "Guard Pull (Attacker) film study: Pulling Closed Guard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CI1w02grvCs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/CI1w02grvCs",
+      "url": "https://www.youtube.com/watch?v=CI1w02grvCs",
+      "duration": "PT44S"
     }
   ]
 }
@@ -236,9 +233,17 @@ The Guard Pull is a fundamental BJJ transition that allows practitioners to move
 
 <div class="film-clip">
 
+![](https://www.youtube.com/watch?v=nw8Psj0tm5k)
+
+<p class="clip-credit"><strong>Standing Guard Pull</strong> · 0:20 · <a href="https://www.youtube.com/watch?v=nw8Psj0tm5k" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
 ![](https://www.youtube.com/watch?v=sWK9QdT0I_M)
 
-<p class="clip-credit"><strong>Pulling closed guard from standing</strong> — taught by UAE Jiu Jitsu Federation · 0:37 · <a href="https://www.youtube.com/watch?v=sWK9QdT0I_M" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>06 - Pulling Closed Guard from Standing</strong> · 0:36 · <a href="https://www.youtube.com/watch?v=sWK9QdT0I_M" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -246,15 +251,7 @@ The Guard Pull is a fundamental BJJ transition that allows practitioners to move
 
 ![](https://www.youtube.com/watch?v=CI1w02grvCs)
 
-<p class="clip-credit"><strong>Pulling closed guard - setup and entry</strong> — taught by Team Daruma Dojo · 0:44 · <a href="https://www.youtube.com/watch?v=CI1w02grvCs" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=nw8Psj0tm5k)
-
-<p class="clip-credit"><strong>Standing guard pull</strong> — taught by Daniel Frank · 0:20 · <a href="https://www.youtube.com/watch?v=nw8Psj0tm5k" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Pulling Closed Guard</strong> · 0:44 · <a href="https://www.youtube.com/watch?v=CI1w02grvCs" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

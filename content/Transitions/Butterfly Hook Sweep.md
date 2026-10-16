@@ -46,35 +46,22 @@ description: "Master the Butterfly Hook Sweep in BJJ. Complete guide covering ex
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Marcelo Garcia butterfly hook sweep",
-      "description": "Butterfly Hook Sweep film study: Marcelo Garcia butterfly hook sweep, taught by Marcelo Garcia.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/c8JBXJMc0Oc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/c8JBXJMc0Oc",
-      "url": "https://www.youtube.com/watch?v=c8JBXJMc0Oc",
-      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
-      "duration": "PT81S"
+      "name": "2 on 1 Hook Sweep From Butterfly Guard",
+      "description": "Butterfly Hook Sweep film study: 2 on 1 Hook Sweep From Butterfly Guard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/is7gMf-wYuA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/is7gMf-wYuA",
+      "url": "https://www.youtube.com/watch?v=is7gMf-wYuA",
+      "duration": "PT13S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Overhook sweep from butterfly guard",
-      "description": "Butterfly Hook Sweep film study: Overhook sweep from butterfly guard, taught by Satori BJJ coach.",
+      "name": "Overhook Sweep | Butterfly Guard",
+      "description": "Butterfly Hook Sweep film study: Overhook Sweep | Butterfly Guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/2hc9sl1hEkE/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/2hc9sl1hEkE",
       "url": "https://www.youtube.com/watch?v=2hc9sl1hEkE",
-      "creator": { "@type": "Person", "name": "Satori BJJ coach" },
-      "duration": "PT36S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "2-on-1 hook sweep from butterfly guard",
-      "description": "Butterfly Hook Sweep film study: 2-on-1 hook sweep from butterfly guard, taught by grpplng coach.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/is7gMf-wYuA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/is7gMf-wYuA",
-      "url": "https://www.youtube.com/watch?v=is7gMf-wYuA",
-      "creator": { "@type": "Person", "name": "grpplng coach" },
-      "duration": "PT14S"
+      "duration": "PT35S"
     }
   ]
 }
@@ -128,9 +115,9 @@ The Butterfly Hook Sweep functions as the primary threat from butterfly hook con
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=c8JBXJMc0Oc)
+![](https://www.youtube.com/watch?v=is7gMf-wYuA)
 
-<p class="clip-credit"><strong>Marcelo Garcia butterfly hook sweep</strong> — taught by Marcelo Garcia · 1:21 · <a href="https://www.youtube.com/watch?v=c8JBXJMc0Oc" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>2 on 1 Hook Sweep From Butterfly Guard</strong> · 0:13 · <a href="https://www.youtube.com/watch?v=is7gMf-wYuA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -138,15 +125,7 @@ The Butterfly Hook Sweep functions as the primary threat from butterfly hook con
 
 ![](https://www.youtube.com/watch?v=2hc9sl1hEkE)
 
-<p class="clip-credit"><strong>Overhook sweep from butterfly guard</strong> — taught by Satori BJJ coach · 0:36 · <a href="https://www.youtube.com/watch?v=2hc9sl1hEkE" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=is7gMf-wYuA)
-
-<p class="clip-credit"><strong>2-on-1 hook sweep from butterfly guard</strong> — taught by grpplng coach · 0:14 · <a href="https://www.youtube.com/watch?v=is7gMf-wYuA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Overhook Sweep | Butterfly Guard</strong> · 0:35 · <a href="https://www.youtube.com/watch?v=2hc9sl1hEkE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -186,34 +186,11 @@ description: "Execute the Smash Half Butterfly pass with systematic pressure to 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Passing half butterfly guard",
-      "description": "Smash Half Butterfly (Attacker) film study: Passing half butterfly guard, taught by Morto BJJ coach.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/LIITsrlsAaI/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/LIITsrlsAaI",
-      "url": "https://www.youtube.com/watch?v=LIITsrlsAaI",
-      "creator": { "@type": "Person", "name": "Morto BJJ coach" },
-      "duration": "PT70S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "No-gi half butterfly guard pass",
-      "description": "Smash Half Butterfly (Attacker) film study: No-gi half butterfly guard pass, taught by Factory Fresh Jiu Jitsu coach.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Pk_6CrydIRQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Pk_6CrydIRQ",
-      "url": "https://www.youtube.com/watch?v=Pk_6CrydIRQ",
-      "creator": { "@type": "Person", "name": "Factory Fresh Jiu Jitsu coach" },
-      "duration": "PT110S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Passing butterfly half with a side smash",
-      "description": "Smash Half Butterfly (Attacker) film study: Passing butterfly half with a side smash, taught by Andrew Smith.",
+      "name": "Passing Butterfly Half with a Side Smash",
+      "description": "Smash Half Butterfly (Attacker) film study: Passing Butterfly Half with a Side Smash.",
       "thumbnailUrl": "https://i.ytimg.com/vi/TaiXKQlwj3g/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/TaiXKQlwj3g",
       "url": "https://www.youtube.com/watch?v=TaiXKQlwj3g",
-      "creator": { "@type": "Person", "name": "Andrew Smith" },
       "duration": "PT153S"
     }
   ]
@@ -242,25 +219,9 @@ As the attacker executing the Smash Half Butterfly, your objective is to use hea
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=LIITsrlsAaI)
-
-<p class="clip-credit"><strong>Passing half butterfly guard</strong> — taught by Morto BJJ coach · 1:10 · <a href="https://www.youtube.com/watch?v=LIITsrlsAaI" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=Pk_6CrydIRQ)
-
-<p class="clip-credit"><strong>No-gi half butterfly guard pass</strong> — taught by Factory Fresh Jiu Jitsu coach · 1:50 · <a href="https://www.youtube.com/watch?v=Pk_6CrydIRQ" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=TaiXKQlwj3g)
 
-<p class="clip-credit"><strong>Passing butterfly half with a side smash</strong> — taught by Andrew Smith · 2:33 · <a href="https://www.youtube.com/watch?v=TaiXKQlwj3g" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Passing Butterfly Half with a Side Smash</strong> · 2:33 · <a href="https://www.youtube.com/watch?v=TaiXKQlwj3g" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -46,24 +46,22 @@ description: "Master the omoplata from Crackhead Control. Complete guide to this
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "La PataPlata from rubber guard",
-      "description": "Omoplata from Crackhead Control film study: La PataPlata from rubber guard, taught by Richie Martinez.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Nfkpn4Qup1o/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Nfkpn4Qup1o",
-      "url": "https://www.youtube.com/watch?v=Nfkpn4Qup1o",
-      "creator": { "@type": "Person", "name": "Richie Martinez" },
-      "duration": "PT31S"
+      "name": "Omoplata Escape to Front Headlock",
+      "description": "Omoplata from Crackhead Control film study: Omoplata Escape to Front Headlock.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0-SG9igq40E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/0-SG9igq40E",
+      "url": "https://www.youtube.com/watch?v=0-SG9igq40E",
+      "duration": "PT14S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Rubber guard omoplata to armbar chain",
-      "description": "Omoplata from Crackhead Control film study: Rubber guard omoplata to armbar chain, taught by Christopher Hendrick.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/EyP4hSdTzVE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/EyP4hSdTzVE",
-      "url": "https://www.youtube.com/watch?v=EyP4hSdTzVE",
-      "creator": { "@type": "Person", "name": "Christopher Hendrick" },
-      "duration": "PT57S"
+      "name": "Submission escape - omoplata",
+      "description": "Omoplata from Crackhead Control film study: Submission escape - omoplata.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xqBK1Y2BdSg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/xqBK1Y2BdSg",
+      "url": "https://www.youtube.com/watch?v=xqBK1Y2BdSg",
+      "duration": "PT17S"
     }
   ]
 }
@@ -126,17 +124,17 @@ The finishing mechanics follow established omoplata principles once the perpendi
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=Nfkpn4Qup1o)
+![](https://www.youtube.com/watch?v=0-SG9igq40E)
 
-<p class="clip-credit"><strong>La PataPlata from rubber guard</strong> — taught by Richie Martinez · 0:31 · <a href="https://www.youtube.com/watch?v=Nfkpn4Qup1o" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Omoplata Escape to Front Headlock</strong> · 0:14 · <a href="https://www.youtube.com/watch?v=0-SG9igq40E" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=EyP4hSdTzVE)
+![](https://www.youtube.com/watch?v=xqBK1Y2BdSg)
 
-<p class="clip-credit"><strong>Rubber guard omoplata to armbar chain</strong> — taught by Christopher Hendrick · 0:57 · <a href="https://www.youtube.com/watch?v=EyP4hSdTzVE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Submission escape - omoplata</strong> · 0:17 · <a href="https://www.youtube.com/watch?v=xqBK1Y2BdSg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -422,31 +422,12 @@
     "safety_considerations": "The Rear Naked Choke is a blood choke that restricts blood flow to the brain through compression of the carotid arteries. Unconsciousness can occur within 8-15 seconds of a properly applied choke, making immediate tap recognition and release essential. Training partners must tap clearly and early when the choke is secured—do not attempt to fight through a locked RNC to prove toughness. The choking practitioner must release immediately upon feeling the tap, as even a few additional seconds of pressure after unconsciousness begins can cause harm. When practicing, use controlled pressure and communicate clearly with your partner. If a partner goes unconscious, immediately release all pressure, position them on their side, and monitor their breathing—most will regain consciousness within 10-20 seconds. In training, establish clear tap protocols and never apply finishing pressure at full intensity unless your partner has explicitly consented to live finishing attempts.",
     "clips": [
       {
-        "id": "8tdVE2zgjXw",
-        "title": "Details on finishing the rear naked choke",
-        "by": "Craig Jones",
-        "vertical": false,
-        "channel": "Wrecking Crew BJJ",
-        "duration": 57,
-        "verified": "2026-07-15"
-      },
-      {
         "id": "3vCytl_OI-4",
-        "title": "Rear naked choke from back control",
-        "by": "Affinity Academy",
-        "vertical": false,
+        "title": "Rear Naked Choke From Back Control",
         "channel": "Affinity Academy",
         "duration": 75,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "FvT_Ffy68OI",
-        "title": "Takedown to rear naked choke setup",
-        "by": "Fit To Fight Republic",
         "vertical": false,
-        "channel": "Fit To Fight Republic",
-        "duration": 38,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },
@@ -630,26 +611,7 @@
         "description": "Positional sparring starting from back control with the attacker working full-speed RNC setup. Practice surviving the complete sequence, re-establishing grip defense after partial strips, and executing escapes when windows appear. Develop composure under realistic choke pressure and build the cardio endurance needed for extended defensive grip fighting."
       }
     ],
-    "clips": [
-      {
-        "id": "UQO3V3Uo3t4",
-        "title": "Three rear choke defenses everyone should know",
-        "by": "Ryron and Rener Gracie",
-        "vertical": false,
-        "channel": "GracieBreakdown",
-        "duration": 70,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "-Hu-8hJJ3lc",
-        "title": "Rear naked choke escape by attacking the shin",
-        "by": "SAMA Self Defense",
-        "vertical": false,
-        "channel": "SAMA Self Defense",
-        "duration": 17,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "variants_and_adaptations": [
     {

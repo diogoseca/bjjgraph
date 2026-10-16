@@ -152,35 +152,12 @@ description: "Master defending against the Leg Weave Pass Completion in BJJ. Rec
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Preventing the leg weave with the lasso",
-      "description": "Leg Weave Pass Completion (Defender) film study: Preventing the leg weave with the lasso, taught by Grand Union coach.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/tO5rPtjfsGE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/tO5rPtjfsGE",
-      "url": "https://www.youtube.com/watch?v=tO5rPtjfsGE",
-      "creator": { "@type": "Person", "name": "Grand Union coach" },
-      "duration": "PT54S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Countering the leg weave pass",
-      "description": "Leg Weave Pass Completion (Defender) film study: Countering the leg weave pass, taught by Stephan Kesting.",
+      "name": "Leg Weave Guard Pass Counter",
+      "description": "Leg Weave Pass Completion (Defender) film study: Leg Weave Guard Pass Counter.",
       "thumbnailUrl": "https://i.ytimg.com/vi/7gcVk4flYHo/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/7gcVk4flYHo",
       "url": "https://www.youtube.com/watch?v=7gcVk4flYHo",
-      "creator": { "@type": "Person", "name": "Stephan Kesting" },
-      "duration": "PT182S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Defeating the weave pass with the underhook",
-      "description": "Leg Weave Pass Completion (Defender) film study: Defeating the weave pass with the underhook, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/ZXt2yzy0BL0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/ZXt2yzy0BL0",
-      "url": "https://www.youtube.com/watch?v=ZXt2yzy0BL0",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT249S"
+      "duration": "PT181S"
     }
   ]
 }
@@ -208,25 +185,9 @@ Defending the Leg Weave Pass Completion requires recognizing the precise moment 
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=tO5rPtjfsGE)
-
-<p class="clip-credit"><strong>Preventing the leg weave with the lasso</strong> — taught by Grand Union coach · 0:54 · <a href="https://www.youtube.com/watch?v=tO5rPtjfsGE" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=7gcVk4flYHo)
 
-<p class="clip-credit"><strong>Countering the leg weave pass</strong> — taught by Stephan Kesting · 3:02 · <a href="https://www.youtube.com/watch?v=7gcVk4flYHo" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=ZXt2yzy0BL0)
-
-<p class="clip-credit"><strong>Defeating the weave pass with the underhook</strong> — taught by Lachlan Giles · 4:09 · <a href="https://www.youtube.com/watch?v=ZXt2yzy0BL0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Leg Weave Guard Pass Counter</strong> · 3:01 · <a href="https://www.youtube.com/watch?v=7gcVk4flYHo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -366,35 +366,7 @@
       }
     ],
     "safety_considerations": "The Sweep from Pocket Half Guard is a relatively low-risk technique since it involves no joint manipulation or choking mechanics. Primary safety concerns include controlling the sweep completion to prevent the opponent from landing awkwardly on their shoulder or neck. The sweeper must guide the opponent to the mat using the underhook connection rather than simply dumping them. During drilling, ensure adequate mat space for the full sweep arc and start with reduced speed until both partners understand the movement pattern. Partners should communicate about intensity level and the top player should tap or verbalize if they feel their neck is in a compromised position during the rotation.",
-    "clips": [
-      {
-        "id": "fCqC2CvOKt0",
-        "title": "Back pocket sweep from half guard",
-        "by": "Animal",
-        "vertical": false,
-        "channel": "Animal",
-        "duration": 51,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "W80zSgyOIuQ",
-        "title": "No-gi half guard sweep demonstration",
-        "by": "Precision Martial Arts",
-        "vertical": false,
-        "channel": "Precision Martial Arts ",
-        "duration": 46,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "oRHnXDK-xYE",
-        "title": "Z guard sweep breakdown",
-        "by": "Lake Effect Martial Arts",
-        "vertical": false,
-        "channel": "Lake Effect Martial Arts",
-        "duration": 79,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Sweep from Pocket Half Guard Defender",
@@ -557,43 +529,6 @@
         "description": "Start in pocket half guard top with opponent having established deep underhook and pocket frame. Full resistance sparring where opponent can attempt any attack from pocket half guard. Develop live defensive reactions and base management under realistic conditions."
       }
     ],
-    "clips": [
-      {
-        "id": "aAd6OIq94X0",
-        "title": "Body lock pass off their half guard underhook",
-        "by": "Gordon Ryan",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 205,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "n6W2voDUWAY",
-        "title": "Passing half guard and shutting down the sweep",
-        "by": "Gordon Ryan",
-        "vertical": false,
-        "channel": "Gordon Ryan",
-        "duration": 164,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "Zy88ds_RDG4",
-        "title": "Countering the underhook when passing half guard",
-        "by": "Holy Grail BJJ",
-        "vertical": false,
-        "channel": "Holy Grail BJJ",
-        "duration": 126,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "PxmQekq5Zow",
-        "title": "Defending the underhook from half guard top",
-        "by": "Great Grappling",
-        "vertical": false,
-        "channel": "Great Grappling",
-        "duration": 598,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

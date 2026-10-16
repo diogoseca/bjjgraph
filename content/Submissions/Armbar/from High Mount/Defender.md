@@ -163,23 +163,21 @@ description: "Defend and escape the Armbar from High Mount in BJJ. Recognition c
       "@type": "VideoObject",
       "position": 1,
       "name": "Fix your armbar defense",
-      "description": "Armbar from High Mount (Defender) film study: Fix your armbar defense, taught by Michael Currier.",
+      "description": "Armbar from High Mount (Defender) film study: Fix your armbar defense.",
       "thumbnailUrl": "https://i.ytimg.com/vi/KuhIFZMNIKs/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/KuhIFZMNIKs",
       "url": "https://www.youtube.com/watch?v=KuhIFZMNIKs",
-      "creator": { "@type": "Person", "name": "Michael Currier" },
       "duration": "PT105S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Armbar escape",
-      "description": "Armbar from High Mount (Defender) film study: Armbar escape, taught by ZombieProofBJJ.",
+      "name": "Armbar Escape: RNC",
+      "description": "Armbar from High Mount (Defender) film study: Armbar Escape: RNC.",
       "thumbnailUrl": "https://i.ytimg.com/vi/sDdqvh_1kbA/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/sDdqvh_1kbA",
       "url": "https://www.youtube.com/watch?v=sDdqvh_1kbA",
-      "creator": { "@type": "Person", "name": "ZombieProofBJJ" },
-      "duration": "PT63S"
+      "duration": "PT62S"
     }
   ]
 }
@@ -210,7 +208,7 @@ Defending the Armbar from High Mount requires a layered approach that begins wit
 
 ![](https://www.youtube.com/watch?v=KuhIFZMNIKs)
 
-<p class="clip-credit"><strong>Fix your armbar defense</strong> — taught by Michael Currier · 1:45 · <a href="https://www.youtube.com/watch?v=KuhIFZMNIKs" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Fix your armbar defense</strong> · 1:45 · <a href="https://www.youtube.com/watch?v=KuhIFZMNIKs" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -218,7 +216,7 @@ Defending the Armbar from High Mount requires a layered approach that begins wit
 
 ![](https://www.youtube.com/watch?v=sDdqvh_1kbA)
 
-<p class="clip-credit"><strong>Armbar escape</strong> — taught by ZombieProofBJJ · 1:03 · <a href="https://www.youtube.com/watch?v=sDdqvh_1kbA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Armbar Escape: RNC</strong> · 1:02 · <a href="https://www.youtube.com/watch?v=sDdqvh_1kbA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

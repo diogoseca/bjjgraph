@@ -46,23 +46,21 @@ description: "Master the Electric Chair from lockdown. Complete guide with compr
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Electric Chair from Deep Half",
-      "description": "Electric Chair from Deep Half Guard film study: Electric Chair from Deep Half, taught by Heart \u0026 Dagger BJJ.",
+      "name": "Electric Chair From Deep Half- Mineral Wells BJJ",
+      "description": "Electric Chair from Deep Half Guard film study: Electric Chair From Deep Half- Mineral Wells BJJ.",
       "thumbnailUrl": "https://i.ytimg.com/vi/O18n2Z5HISI/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/O18n2Z5HISI",
       "url": "https://www.youtube.com/watch?v=O18n2Z5HISI",
-      "creator": { "@type": "Person", "name": "Heart \u0026 Dagger BJJ" },
       "duration": "PT43S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Electric Chair from Lockdown Half Guard",
-      "description": "Electric Chair from Deep Half Guard film study: Electric Chair from Lockdown Half Guard, taught by Brandon Mccaghren.",
+      "name": "Electric Chair - Brandon Mccaghren - 10th Planet Jiu Jitsu - Lockdown Half Guard",
+      "description": "Electric Chair from Deep Half Guard film study: Electric Chair - Brandon Mccaghren - 10th Planet Jiu Jitsu - Lockdown Half Guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/sMbaY4vG2mM/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/sMbaY4vG2mM",
       "url": "https://www.youtube.com/watch?v=sMbaY4vG2mM",
-      "creator": { "@type": "Person", "name": "Brandon Mccaghren" },
       "duration": "PT42S"
     }
   ]
@@ -128,7 +126,7 @@ Historically developed and refined within the 10th Planet system, the Electric C
 
 ![](https://www.youtube.com/watch?v=O18n2Z5HISI)
 
-<p class="clip-credit"><strong>Electric Chair from Deep Half</strong> — taught by Heart &amp; Dagger BJJ · 0:43 · <a href="https://www.youtube.com/watch?v=O18n2Z5HISI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Electric Chair From Deep Half- Mineral Wells BJJ</strong> · 0:43 · <a href="https://www.youtube.com/watch?v=O18n2Z5HISI" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -136,7 +134,7 @@ Historically developed and refined within the 10th Planet system, the Electric C
 
 ![](https://www.youtube.com/watch?v=sMbaY4vG2mM)
 
-<p class="clip-credit"><strong>Electric Chair from Lockdown Half Guard</strong> — taught by Brandon Mccaghren · 0:42 · <a href="https://www.youtube.com/watch?v=sMbaY4vG2mM" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Electric Chair - Brandon Mccaghren - 10th Planet Jiu Jitsu - Lockdown Half Guard</strong> · 0:42 · <a href="https://www.youtube.com/watch?v=sMbaY4vG2mM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

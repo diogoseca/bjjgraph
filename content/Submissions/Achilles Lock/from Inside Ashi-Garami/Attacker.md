@@ -177,6 +177,27 @@ description: "Capturing the foot, placing the blade on the tendon, and extending
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Achilles Lock from Inside Ashi-Garami (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Finishing the Straight Ankle Lock (BJJ): Countering Defense to the Achilles\u2026",
+      "description": "Achilles Lock from Inside Ashi-Garami (Attacker) film study: Finishing the Straight Ankle Lock (BJJ): Countering Defense to the Achilles\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9jaSEuYbq_4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9jaSEuYbq_4",
+      "url": "https://www.youtube.com/watch?v=9jaSEuYbq_4",
+      "duration": "PT420S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -193,6 +214,24 @@ Your finish is decided by the order you do things in, not by how hard you extend
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Achilles Lock from Inside Ashi-Garami (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=9jaSEuYbq_4)
+
+<p class="clip-credit"><strong>Finishing the Straight Ankle Lock (BJJ): Countering Defense to the Achilles…</strong> · 7:00 · <a href="https://www.youtube.com/watch?v=9jaSEuYbq_4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

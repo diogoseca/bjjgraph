@@ -194,35 +194,12 @@ description: "Execute the Outside Heel Hook from Backside 50-50 with systematic 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Backside 50/50 heel hook finish",
-      "description": "Outside Heel Hook from Backside 50-50 (Attacker) film study: Backside 50/50 heel hook finish, taught by Craig Jones.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/sIYeSMSkqeE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/sIYeSMSkqeE",
-      "url": "https://www.youtube.com/watch?v=sIYeSMSkqeE",
-      "creator": { "@type": "Person", "name": "Craig Jones" },
-      "duration": "PT18S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Backside 50/50 to outside heel hook",
-      "description": "Outside Heel Hook from Backside 50-50 (Attacker) film study: Backside 50/50 to outside heel hook, taught by Marshall Stamper.",
+      "name": "K Guard entry to Backside 50/50 to 80/20 Outside Heel Hook~ Marshall Stamper",
+      "description": "Outside Heel Hook from Backside 50-50 (Attacker) film study: K Guard entry to Backside 50/50 to 80/20 Outside Heel Hook~ Marshall Stamper.",
       "thumbnailUrl": "https://i.ytimg.com/vi/7I0Lj1aSon4/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/7I0Lj1aSon4",
       "url": "https://www.youtube.com/watch?v=7I0Lj1aSon4",
-      "creator": { "@type": "Person", "name": "Marshall Stamper" },
-      "duration": "PT47S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "50/50 heel hook finishing details",
-      "description": "Outside Heel Hook from Backside 50-50 (Attacker) film study: 50/50 heel hook finishing details, taught by Thunderdome BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/fB3FYb-Jx_0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/fB3FYb-Jx_0",
-      "url": "https://www.youtube.com/watch?v=fB3FYb-Jx_0",
-      "creator": { "@type": "Person", "name": "Thunderdome BJJ" },
-      "duration": "PT27S"
+      "duration": "PT46S"
     }
   ]
 }
@@ -251,25 +228,9 @@ Executing the Outside Heel Hook from Backside 50-50 requires systematic control 
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=sIYeSMSkqeE)
-
-<p class="clip-credit"><strong>Backside 50/50 heel hook finish</strong> — taught by Craig Jones · 0:18 · <a href="https://www.youtube.com/watch?v=sIYeSMSkqeE" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=7I0Lj1aSon4)
 
-<p class="clip-credit"><strong>Backside 50/50 to outside heel hook</strong> — taught by Marshall Stamper · 0:47 · <a href="https://www.youtube.com/watch?v=7I0Lj1aSon4" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=fB3FYb-Jx_0)
-
-<p class="clip-credit"><strong>50/50 heel hook finishing details</strong> — taught by Thunderdome BJJ · 0:27 · <a href="https://www.youtube.com/watch?v=fB3FYb-Jx_0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>K Guard entry to Backside 50/50 to 80/20 Outside Heel Hook~ Marshall Stamper</strong> · 0:46 · <a href="https://www.youtube.com/watch?v=7I0Lj1aSon4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

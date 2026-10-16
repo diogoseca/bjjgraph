@@ -152,35 +152,22 @@ description: "How to defend and prevent the side control to Kuzure Kesa Gatame t
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Kuzure kesa-gatame escapes",
-      "description": "Side Control to Kuzure Kesa Gatame (Defender) film study: Kuzure kesa-gatame escapes, taught by Kodokan instructor.",
+      "name": "\u5d29\u8888\u88df\u56fa\u306e\u9003\u308c\u65b9 /  Kuzure-kesa-gatame Escapes",
+      "description": "Side Control to Kuzure Kesa Gatame (Defender) film study: \u5d29\u8888\u88df\u56fa\u306e\u9003\u308c\u65b9 /  Kuzure-kesa-gatame Escapes.",
       "thumbnailUrl": "https://i.ytimg.com/vi/-zFQ6h4yKT4/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/-zFQ6h4yKT4",
       "url": "https://www.youtube.com/watch?v=-zFQ6h4yKT4",
-      "creator": { "@type": "Person", "name": "Kodokan instructor" },
       "duration": "PT70S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Kuzure kesa gatame escapes",
-      "description": "Side Control to Kuzure Kesa Gatame (Defender) film study: Kuzure kesa gatame escapes, taught by Utah Shudokan instructor.",
+      "name": "Kuzure Kesa Gatame Escapes",
+      "description": "Side Control to Kuzure Kesa Gatame (Defender) film study: Kuzure Kesa Gatame Escapes.",
       "thumbnailUrl": "https://i.ytimg.com/vi/_HjmunOXVtY/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/_HjmunOXVtY",
       "url": "https://www.youtube.com/watch?v=_HjmunOXVtY",
-      "creator": { "@type": "Person", "name": "Utah Shudokan instructor" },
       "duration": "PT70S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Kesa gatame escape",
-      "description": "Side Control to Kuzure Kesa Gatame (Defender) film study: Kesa gatame escape, taught by SBG Australia coach.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/2M_6VytUaus/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/2M_6VytUaus",
-      "url": "https://www.youtube.com/watch?v=2M_6VytUaus",
-      "creator": { "@type": "Person", "name": "SBG Australia coach" },
-      "duration": "PT43S"
     }
   ]
 }
@@ -210,7 +197,7 @@ Defending the transition to Kuzure Kesa Gatame depends almost entirely on protec
 
 ![](https://www.youtube.com/watch?v=-zFQ6h4yKT4)
 
-<p class="clip-credit"><strong>Kuzure kesa-gatame escapes</strong> — taught by Kodokan instructor · 1:10 · <a href="https://www.youtube.com/watch?v=-zFQ6h4yKT4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>崩袈裟固の逃れ方 /  Kuzure-kesa-gatame Escapes</strong> · 1:10 · <a href="https://www.youtube.com/watch?v=-zFQ6h4yKT4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -218,15 +205,7 @@ Defending the transition to Kuzure Kesa Gatame depends almost entirely on protec
 
 ![](https://www.youtube.com/watch?v=_HjmunOXVtY)
 
-<p class="clip-credit"><strong>Kuzure kesa gatame escapes</strong> — taught by Utah Shudokan instructor · 1:10 · <a href="https://www.youtube.com/watch?v=_HjmunOXVtY" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=2M_6VytUaus)
-
-<p class="clip-credit"><strong>Kesa gatame escape</strong> — taught by SBG Australia coach · 0:43 · <a href="https://www.youtube.com/watch?v=2M_6VytUaus" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Kuzure Kesa Gatame Escapes</strong> · 1:10 · <a href="https://www.youtube.com/watch?v=_HjmunOXVtY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

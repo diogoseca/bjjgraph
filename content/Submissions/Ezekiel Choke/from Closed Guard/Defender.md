@@ -156,35 +156,22 @@ description: "Defend the Ezekiel Choke from closed guard bottom. Recognize sleev
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Ezekiel (bread) choke defense from guard",
-      "description": "Ezekiel Choke from Closed Guard (Defender) film study: Ezekiel (bread) choke defense from guard, taught by Gracie Charlottesville.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/2_lXwrT3Ci0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/2_lXwrT3Ci0",
-      "url": "https://www.youtube.com/watch?v=2_lXwrT3Ci0",
-      "creator": { "@type": "Person", "name": "Gracie Charlottesville" },
-      "duration": "PT14S"
+      "name": "Ezekiel Choke Defense - Wrist Lock",
+      "description": "Ezekiel Choke from Closed Guard (Defender) film study: Ezekiel Choke Defense - Wrist Lock.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9J9JTB17-Sk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9J9JTB17-Sk",
+      "url": "https://www.youtube.com/watch?v=9J9JTB17-Sk",
+      "duration": "PT135S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Defense to the ezekiel choke",
-      "description": "Ezekiel Choke from Closed Guard (Defender) film study: Defense to the ezekiel choke, taught by Gracie Ohio Jiu-Jitsu.",
+      "name": "Defense to the Ezekiel Choke",
+      "description": "Ezekiel Choke from Closed Guard (Defender) film study: Defense to the Ezekiel Choke.",
       "thumbnailUrl": "https://i.ytimg.com/vi/AaZPuF7ppY8/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/AaZPuF7ppY8",
       "url": "https://www.youtube.com/watch?v=AaZPuF7ppY8",
-      "creator": { "@type": "Person", "name": "Gracie Ohio Jiu-Jitsu" },
       "duration": "PT176S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Ezekiel choke defense via wrist lock",
-      "description": "Ezekiel Choke from Closed Guard (Defender) film study: Ezekiel choke defense via wrist lock, taught by Gracie Ohio Jiu-Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/9J9JTB17-Sk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/9J9JTB17-Sk",
-      "url": "https://www.youtube.com/watch?v=9J9JTB17-Sk",
-      "creator": { "@type": "Person", "name": "Gracie Ohio Jiu-Jitsu" },
-      "duration": "PT135S"
     }
   ]
 }
@@ -213,9 +200,9 @@ Defending the Ezekiel Choke from closed guard bottom requires early recognition 
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=2_lXwrT3Ci0)
+![](https://www.youtube.com/watch?v=9J9JTB17-Sk)
 
-<p class="clip-credit"><strong>Ezekiel (bread) choke defense from guard</strong> — taught by Gracie Charlottesville · 0:14 · <a href="https://www.youtube.com/watch?v=2_lXwrT3Ci0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Ezekiel Choke Defense - Wrist Lock</strong> · 2:15 · <a href="https://www.youtube.com/watch?v=9J9JTB17-Sk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -223,15 +210,7 @@ Defending the Ezekiel Choke from closed guard bottom requires early recognition 
 
 ![](https://www.youtube.com/watch?v=AaZPuF7ppY8)
 
-<p class="clip-credit"><strong>Defense to the ezekiel choke</strong> — taught by Gracie Ohio Jiu-Jitsu · 2:56 · <a href="https://www.youtube.com/watch?v=AaZPuF7ppY8" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=9J9JTB17-Sk)
-
-<p class="clip-credit"><strong>Ezekiel choke defense via wrist lock</strong> — taught by Gracie Ohio Jiu-Jitsu · 2:15 · <a href="https://www.youtube.com/watch?v=9J9JTB17-Sk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Defense to the Ezekiel Choke</strong> · 2:56 · <a href="https://www.youtube.com/watch?v=AaZPuF7ppY8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

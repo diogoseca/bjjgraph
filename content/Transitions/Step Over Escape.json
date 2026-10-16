@@ -398,35 +398,7 @@
       }
     ],
     "safety_considerations": "The Step Over Escape involves movement while a choke is actively applied, creating a window where practitioners must maintain composure under genuine submission threat. Always tap immediately if the choke reaches full depth before the escape is complete. Never sacrifice neck safety to force the technique. During training, the partner applying the Darce should release immediately when the training partner taps and should not chase the choke at full intensity during the learning phases. Be cautious of neck strain from the bridging and rotation under the opponent's weight. Warm up the neck and cervical spine thoroughly before drilling this technique. Partners should communicate clearly about resistance levels and any discomfort during progressive training phases.",
-    "clips": [
-      {
-        "id": "9Sk00Dj1LCk",
-        "title": "D'Arce choke escape",
-        "by": "Asaf Mich",
-        "vertical": false,
-        "channel": "Asaf Mich",
-        "duration": 61,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "JZP9YMFuIiY",
-        "title": "The Darce Defense Islam Makhachev Couldn't Beat",
-        "by": "Craig Jones",
-        "vertical": false,
-        "channel": "The B-Team",
-        "duration": 313,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "j8d4ozaA_h0",
-        "title": "Escaping the Bottom Side Darce",
-        "by": "Nick Ortiz",
-        "vertical": false,
-        "channel": "Nick Ortiz Jiu Jitsu",
-        "duration": 270,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Step Over Escape Defender",
@@ -602,35 +574,7 @@
         "description": "Full resistance positional rounds starting from Darce Control. The top player works to finish the choke while the bottom player chains all available escapes. Track finish rate versus escape rate across 10-attempt sets. Develop the ability to recognize and shut down the step over while maintaining submission pressure on other escape attempts."
       }
     ],
-    "clips": [
-      {
-        "id": "8Idnp8DpSHU",
-        "title": "Finishing the darce against a bigger defender",
-        "by": "Rener & Ryron Gracie",
-        "vertical": false,
-        "channel": "Hayabusa",
-        "duration": 151,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "UkJVsXqO7LM",
-        "title": "The Dagestani Darce Choke Explained",
-        "by": "Craig Jones",
-        "vertical": false,
-        "channel": "The B-Team",
-        "duration": 571,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "KkQemR09v4I",
-        "title": "Darce System: Entry, Finish and 2 Escapes",
-        "by": "10th Planet Colorado Springs",
-        "vertical": false,
-        "channel": "10th Planet Colorado Springs",
-        "duration": 539,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "variants_and_adaptations": [
     {

@@ -439,26 +439,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "xXb65zA1yzs",
-        "title": "Passing half guard and Z guard with tripod base",
-        "by": "Street Jitsu",
-        "vertical": false,
-        "channel": "Street Jitsu",
-        "duration": 91,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "WMcD-_R-To0",
-        "title": "Getting unstuck on top of half guard",
-        "by": "Trapp Martial Arts",
-        "vertical": false,
-        "channel": "Trapp Martial Arts",
-        "duration": 35,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   },
   "bottom": {
     "name": "Z-Lock Half Guard Bottom",
@@ -853,26 +834,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "sMbaY4vG2mM",
-        "title": "Electric chair from lockdown half guard",
-        "by": "Brandon Mccaghren",
-        "vertical": false,
-        "channel": "Brandon Mccaghren",
-        "duration": 42,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "_5FKNFuCp2E",
-        "title": "Lock drag setups from the lockdown",
-        "by": "Eddie Bravo",
-        "vertical": false,
-        "channel": "Eddie Bravo",
-        "duration": 61,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   },
   "flashcards_position": [
     {
@@ -988,42 +950,5 @@
       }
     }
   ],
-  "clips": [
-    {
-      "id": "pFlYpsbltZw",
-      "title": "Z lock sideways knee bar",
-      "by": "Junny Ocasio",
-      "vertical": false,
-      "channel": "BJJ Fanatics",
-      "duration": 396,
-      "verified": "2026-07-15"
-    },
-    {
-      "id": "q_3D98PnTWA",
-      "title": "Getting and Maintaining the Lockdown",
-      "by": "Submissions101 coach",
-      "vertical": false,
-      "channel": "Submissions101",
-      "duration": 83,
-      "verified": "2026-07-16"
-    },
-    {
-      "id": "gFYyMkaMz34",
-      "title": "Prison Guard Breakdown",
-      "by": "Eddie Bravo",
-      "vertical": false,
-      "channel": "Eddie Bravo",
-      "duration": 59,
-      "verified": "2026-07-16"
-    },
-    {
-      "id": "LYeQDaZhVL0",
-      "title": "Lockdown to Butterfly Guard with the Stomp",
-      "by": "Brandon McCaghren",
-      "vertical": false,
-      "channel": "Brandon Mccaghren",
-      "duration": 123,
-      "verified": "2026-07-16"
-    }
-  ]
+  "clips": []
 }

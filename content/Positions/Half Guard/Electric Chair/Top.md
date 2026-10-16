@@ -159,35 +159,12 @@ description: "Master Electric Chair Top defense in BJJ. Escape the lockdown, cou
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Electric Chair from lockdown half guard",
-      "description": "Electric Chair (Top) film study: Electric Chair from lockdown half guard, taught by Brandon McCaghren.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/sMbaY4vG2mM/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/sMbaY4vG2mM",
-      "url": "https://www.youtube.com/watch?v=sMbaY4vG2mM",
-      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
-      "duration": "PT42S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Electric Chair from deep half",
-      "description": "Electric Chair (Top) film study: Electric Chair from deep half, taught by Heart \u0026 Dagger BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/O18n2Z5HISI/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/O18n2Z5HISI",
-      "url": "https://www.youtube.com/watch?v=O18n2Z5HISI",
-      "creator": { "@type": "Person", "name": "Heart \u0026 Dagger BJJ" },
-      "duration": "PT43S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Electric Chair submission",
-      "description": "Electric Chair (Top) film study: Electric Chair submission, taught by Dan M..",
-      "thumbnailUrl": "https://i.ytimg.com/vi/X7JA72d-3vw/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/X7JA72d-3vw",
-      "url": "https://www.youtube.com/watch?v=X7JA72d-3vw",
-      "creator": { "@type": "Person", "name": "Dan M." },
-      "duration": "PT55S"
+      "name": "Lockdown and Electric Chair counters and escapes for Jiu-Jitsu, MMA and\u2026",
+      "description": "Electric Chair (Top) film study: Lockdown and Electric Chair counters and escapes for Jiu-Jitsu, MMA and\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3A6oRsDf3oU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3A6oRsDf3oU",
+      "url": "https://www.youtube.com/watch?v=3A6oRsDf3oU",
+      "duration": "PT285S"
     }
   ]
 }
@@ -217,25 +194,9 @@ The Electric Chair Top position is particularly common in 10th Planet Jiu-Jitsu 
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=sMbaY4vG2mM)
+![](https://www.youtube.com/watch?v=3A6oRsDf3oU)
 
-<p class="clip-credit"><strong>Electric Chair from lockdown half guard</strong> — taught by Brandon McCaghren · 0:42 · <a href="https://www.youtube.com/watch?v=sMbaY4vG2mM" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=O18n2Z5HISI)
-
-<p class="clip-credit"><strong>Electric Chair from deep half</strong> — taught by Heart &amp; Dagger BJJ · 0:43 · <a href="https://www.youtube.com/watch?v=O18n2Z5HISI" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=X7JA72d-3vw)
-
-<p class="clip-credit"><strong>Electric Chair submission</strong> — taught by Dan M. · 0:55 · <a href="https://www.youtube.com/watch?v=X7JA72d-3vw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Lockdown and Electric Chair counters and escapes for Jiu-Jitsu, MMA and…</strong> · 4:45 · <a href="https://www.youtube.com/watch?v=3A6oRsDf3oU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

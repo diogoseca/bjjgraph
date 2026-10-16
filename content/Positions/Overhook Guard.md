@@ -46,35 +46,12 @@ description: "Master Overhook Guard in BJJ. Strategic guide covering control mec
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Using an overhook",
-      "description": "Overhook Guard film study: Using an overhook, taught by Patrick Spano.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/DfUHvTQpzCg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/DfUHvTQpzCg",
-      "url": "https://www.youtube.com/watch?v=DfUHvTQpzCg",
-      "creator": { "@type": "Person", "name": "Patrick Spano" },
-      "duration": "PT40S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Overhook from closed guard",
-      "description": "Overhook Guard film study: Overhook from closed guard, taught by 6am Jiu Jitsu.",
+      "name": "Overhook from Closed Guard",
+      "description": "Overhook Guard film study: Overhook from Closed Guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/5J92PJO-dEo/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/5J92PJO-dEo",
       "url": "https://www.youtube.com/watch?v=5J92PJO-dEo",
-      "creator": { "@type": "Person", "name": "6am Jiu Jitsu" },
       "duration": "PT114S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Overhook closed guard to rolling armbar",
-      "description": "Overhook Guard film study: Overhook closed guard to rolling armbar, taught by BOWERHOUSE MMA.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/XVxTzuJ1F60/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/XVxTzuJ1F60",
-      "url": "https://www.youtube.com/watch?v=XVxTzuJ1F60",
-      "creator": { "@type": "Person", "name": "BOWERHOUSE MMA" },
-      "duration": "PT60S"
     }
   ]
 }
@@ -125,25 +102,9 @@ Overhook Guard represents a fundamental control concept that appears throughout 
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=DfUHvTQpzCg)
-
-<p class="clip-credit"><strong>Using an overhook</strong> — taught by Patrick Spano · 0:40 · <a href="https://www.youtube.com/watch?v=DfUHvTQpzCg" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=5J92PJO-dEo)
 
-<p class="clip-credit"><strong>Overhook from closed guard</strong> — taught by 6am Jiu Jitsu · 1:54 · <a href="https://www.youtube.com/watch?v=5J92PJO-dEo" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=XVxTzuJ1F60)
-
-<p class="clip-credit"><strong>Overhook closed guard to rolling armbar</strong> — taught by BOWERHOUSE MMA · 1:00 · <a href="https://www.youtube.com/watch?v=XVxTzuJ1F60" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Overhook from Closed Guard</strong> · 1:54 · <a href="https://www.youtube.com/watch?v=5J92PJO-dEo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

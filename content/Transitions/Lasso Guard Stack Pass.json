@@ -394,35 +394,7 @@
       }
     ],
     "safety_considerations": "The stack pass places significant pressure on the bottom player's cervical spine and neck as their hips are driven over their shoulders. Apply stacking pressure gradually and progressively rather than explosively dropping weight. Be especially cautious with less flexible training partners who may experience dangerous spinal compression before showing obvious discomfort. If your partner signals any pain in their neck or upper back during drilling, immediately reduce pressure and adjust your angle. Never force a deep stack against a partner who cannot tolerate the spinal flexion. During competition, be aware that aggressive stacking combined with the lasso control can create cervical compression that may lead to injury if the bottom player does not tap or verbally communicate distress.",
-    "clips": [
-      {
-        "id": "Q4LZBn5iIug",
-        "title": "Over under stack pass",
-        "by": "Bernardo Faria",
-        "vertical": false,
-        "channel": "Jiu Jitsu Moves",
-        "duration": 70,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "EdLPqtAm5yQ",
-        "title": "Pressure pass the Lasso Guard",
-        "by": "Alberto Serrano",
-        "vertical": false,
-        "channel": "Alberto Serrano BJJ",
-        "duration": 123,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "Cx53Xl0SGC4",
-        "title": "Lasso guard knee press pass exploration",
-        "by": "Roll 247",
-        "vertical": false,
-        "channel": "Roll 247",
-        "duration": 27,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Lasso Guard Stack Pass Defender",
@@ -600,31 +572,12 @@
     ],
     "clips": [
       {
-        "id": "T_GhZe_MOWI",
-        "title": "Grip chain for guard retention",
-        "by": "Xande Ribeiro",
-        "vertical": false,
-        "channel": "XANDE RIBEIRO",
-        "duration": 174,
-        "verified": "2026-07-15"
-      },
-      {
         "id": "DMUuThQPX4M",
         "title": "Guard Retention Against Stack Passing",
-        "by": "Jon Thomas",
-        "vertical": false,
         "channel": "JonThomasBJJ",
-        "duration": 303,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "iTrQzYeCvHM",
-        "title": "Top 5 Guard Retention Mistakes",
-        "by": "Lachlan Giles and Ariel Tabak",
+        "duration": 302,
         "vertical": false,
-        "channel": "Bernardo Faria BJJ Fanatics",
-        "duration": 436,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   }

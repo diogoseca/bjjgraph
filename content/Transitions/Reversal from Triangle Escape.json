@@ -363,31 +363,12 @@
     "safety_considerations": "Triangle escape scenarios involve active choking pressure on the neck and carotid arteries. Never continue attempting the reversal if you feel lightheaded, experience vision changes, or notice decreased awareness. Tap immediately if the triangle tightens beyond your ability to maintain adequate blood flow and breathing. During training, communicate clearly with your partner about pressure levels and always prioritize safety over completing the technique. Partners applying the triangle should release immediately upon tap and monitor for signs of consciousness changes. When drilling the reversal, begin with light triangle pressure and increase gradually as the escaping practitioner develops proficiency with the stacking and lateral passing mechanics.",
     "clips": [
       {
-        "id": "sR2rS2dwpNY",
-        "title": "Escaping the triangle choke",
-        "by": "Rener & Ryron Gracie",
-        "vertical": false,
-        "channel": "Hayabusa",
-        "duration": 117,
-        "verified": "2026-07-15"
-      },
-      {
         "id": "u_dZj30fLaU",
-        "title": "Escaping the triangle threat and passing",
-        "by": "John Connors",
-        "vertical": false,
+        "title": "HOW to ESCAPE THE TRIANGLE THREATENING POSITION and Pass #bjj #jiujitsu…",
         "channel": "John Connors, Old Man BJJ Black Belt",
         "duration": 145,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "AdH5zyhp-jc",
-        "title": "Triangle defense: stacking escape",
-        "by": "Piotr Zawadzki",
         "vertical": false,
-        "channel": "Piotr Zawadzki Jiu Jitsu",
-        "duration": 126,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },
@@ -554,31 +535,12 @@
     ],
     "clips": [
       {
-        "id": "-QXaB5Sl2VQ",
-        "title": "Defending the triangle stack escape into armbar",
-        "by": "JJPA APEX",
-        "vertical": false,
-        "channel": "JJPA APEX",
-        "duration": 20,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "ypwHsHoUgw4",
-        "title": "Triangle stack counters for posture and pressure",
-        "by": "Knight Jiu-Jitsu",
-        "vertical": false,
-        "channel": "Knight Jiu-Jitsu",
-        "duration": 368,
-        "verified": "2026-07-15"
-      },
-      {
         "id": "RiVzzip_7ls",
-        "title": "How to stop being stacked off a triangle choke",
-        "by": "Sergio Vargas",
-        "vertical": false,
+        "title": "The EDGE Technique 5: How to Stop from being Stacked off a Triangle Choke.mp4",
         "channel": "sergiovargas2006",
         "duration": 110,
-        "verified": "2026-07-15"
+        "vertical": false,
+        "front": true
       }
     ]
   }

@@ -342,26 +342,7 @@
       }
     ],
     "safety_considerations": "This is a positional chain technique with minimal inherent injury risk. The primary safety consideration is controlling the bridge during the initial mount escape to avoid injuring training partners. Bridge with controlled force during drilling and communicate with partners about intensity levels. During the back take phase, be careful not to crank the neck when driving your head into the opponent's armpit area. In competition, be aware that the multi-step nature of this technique requires sustained physical effort.",
-    "clips": [
-      {
-        "id": "cyegyon5hVg",
-        "title": "Two mount escape options into half guard",
-        "by": "Revolution BJJ coach",
-        "vertical": false,
-        "channel": "Revolution BJJ",
-        "duration": 54,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "XqH1Bt0-AgY",
-        "title": "Back take from half guard",
-        "by": "BJJ Recap coach",
-        "vertical": false,
-        "channel": "BJJ Recap",
-        "duration": 39,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Mount Escape to Half Guard Back Take Defender",
@@ -519,26 +500,7 @@
         "description": "Partner randomly uses either defensive half guard or bait half guard. You must read the situation and either pass or consolidate accordingly. Develop the decision-making to avoid the trap."
       }
     ],
-    "clips": [
-      {
-        "id": "hHbb7ywVTwU",
-        "title": "Countering the half guard back take from the top",
-        "by": "JiuJitsu.com coach",
-        "vertical": false,
-        "channel": "JiuJitsu.com",
-        "duration": 63,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "D_k_8C3UJ5Y",
-        "title": "Maintaining Top Mount Control Against Escapes",
-        "by": "Teach Me NoGi coach",
-        "vertical": false,
-        "channel": "Teach Me NoGi",
-        "duration": 199,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "variants_and_adaptations": [
     {

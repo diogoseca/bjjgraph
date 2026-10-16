@@ -182,35 +182,42 @@ description: "Complete attacking guide for the Kimura from Knee Shield Half Guar
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "How To Kimura From Bottom Half Guard",
-      "description": "Kimura from Knee Shield Half Guard (Attacker) film study: How To Kimura From Bottom Half Guard, taught by Evolve MMA.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/5F3ZM01oPVo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/5F3ZM01oPVo",
-      "url": "https://www.youtube.com/watch?v=5F3ZM01oPVo",
-      "creator": { "@type": "Person", "name": "Evolve MMA" },
-      "duration": "PT41S"
+      "name": "Knee Shield Kimura - Brazilian Jiu Jitsu Mineral Wells",
+      "description": "Kimura from Knee Shield Half Guard (Attacker) film study: Knee Shield Kimura - Brazilian Jiu Jitsu Mineral Wells.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/vLCPsXBLbyk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/vLCPsXBLbyk",
+      "url": "https://www.youtube.com/watch?v=vLCPsXBLbyk",
+      "duration": "PT147S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Gi Kimura From Half Guard",
-      "description": "Kimura from Knee Shield Half Guard (Attacker) film study: Gi Kimura From Half Guard, taught by Tiger Muay Thai.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/oZFPOBuz_w0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/oZFPOBuz_w0",
-      "url": "https://www.youtube.com/watch?v=oZFPOBuz_w0",
-      "creator": { "@type": "Person", "name": "Tiger Muay Thai" },
-      "duration": "PT75S"
+      "name": "Move of the Week \u27a1\ufe0f Knee Shield Half Guard Kimura",
+      "description": "Kimura from Knee Shield Half Guard (Attacker) film study: Move of the Week \u27a1\ufe0f Knee Shield Half Guard Kimura.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/EDAqI3pSOTU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/EDAqI3pSOTU",
+      "url": "https://www.youtube.com/watch?v=EDAqI3pSOTU",
+      "duration": "PT230S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "Knee Shield Kimura",
-      "description": "Kimura from Knee Shield Half Guard (Attacker) film study: Knee Shield Kimura, taught by Heart \u0026 Dagger BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/vLCPsXBLbyk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/vLCPsXBLbyk",
-      "url": "https://www.youtube.com/watch?v=vLCPsXBLbyk",
-      "creator": { "@type": "Person", "name": "Heart \u0026 Dagger BJJ" },
-      "duration": "PT147S"
+      "name": "BJJ | How To Kimura From Bottom Half Guard",
+      "description": "Kimura from Knee Shield Half Guard (Attacker) film study: BJJ | How To Kimura From Bottom Half Guard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5F3ZM01oPVo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5F3ZM01oPVo",
+      "url": "https://www.youtube.com/watch?v=5F3ZM01oPVo",
+      "duration": "PT41S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 4,
+      "name": "Gi BJJ Technique: Kimura From Half Guard",
+      "description": "Kimura from Knee Shield Half Guard (Attacker) film study: Gi BJJ Technique: Kimura From Half Guard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/oZFPOBuz_w0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/oZFPOBuz_w0",
+      "url": "https://www.youtube.com/watch?v=oZFPOBuz_w0",
+      "duration": "PT75S"
     }
   ]
 }
@@ -239,9 +246,25 @@ Attacking the Kimura from Knee Shield Half Guard requires patience in grip estab
 
 <div class="film-clip">
 
+![](https://www.youtube.com/watch?v=vLCPsXBLbyk)
+
+<p class="clip-credit"><strong>Knee Shield Kimura - Brazilian Jiu Jitsu Mineral Wells</strong> · 2:27 · <a href="https://www.youtube.com/watch?v=vLCPsXBLbyk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=EDAqI3pSOTU)
+
+<p class="clip-credit"><strong>Move of the Week ➡️ Knee Shield Half Guard Kimura</strong> · 3:50 · <a href="https://www.youtube.com/watch?v=EDAqI3pSOTU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
 ![](https://www.youtube.com/watch?v=5F3ZM01oPVo)
 
-<p class="clip-credit"><strong>How To Kimura From Bottom Half Guard</strong> — taught by Evolve MMA · 0:41 · <a href="https://www.youtube.com/watch?v=5F3ZM01oPVo" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>BJJ | How To Kimura From Bottom Half Guard</strong> · 0:41 · <a href="https://www.youtube.com/watch?v=5F3ZM01oPVo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -249,15 +272,7 @@ Attacking the Kimura from Knee Shield Half Guard requires patience in grip estab
 
 ![](https://www.youtube.com/watch?v=oZFPOBuz_w0)
 
-<p class="clip-credit"><strong>Gi Kimura From Half Guard</strong> — taught by Tiger Muay Thai · 1:15 · <a href="https://www.youtube.com/watch?v=oZFPOBuz_w0" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=vLCPsXBLbyk)
-
-<p class="clip-credit"><strong>Knee Shield Kimura</strong> — taught by Heart &amp; Dagger BJJ · 2:27 · <a href="https://www.youtube.com/watch?v=vLCPsXBLbyk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Gi BJJ Technique: Kimura From Half Guard</strong> · 1:15 · <a href="https://www.youtube.com/watch?v=oZFPOBuz_w0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

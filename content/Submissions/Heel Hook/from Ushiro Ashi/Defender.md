@@ -168,34 +168,31 @@ description: "Defend the Heel Hook from Ushiro Ashi-Garami. Recognition cues, es
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Outside Ashi Heel Hook Running Man Escape",
-      "description": "Heel Hook from Ushiro Ashi (Defender) film study: Outside Ashi Heel Hook Running Man Escape, taught by Grappling Game Changer.",
+      "name": "Double outside ashi heel hook escape / running man escape",
+      "description": "Heel Hook from Ushiro Ashi (Defender) film study: Double outside ashi heel hook escape / running man escape.",
       "thumbnailUrl": "https://i.ytimg.com/vi/2RLgyzWN71Y/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/2RLgyzWN71Y",
       "url": "https://www.youtube.com/watch?v=2RLgyzWN71Y",
-      "creator": { "@type": "Person", "name": "Grappling Game Changer" },
       "duration": "PT54S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Outside Heel Hook Defense to Inside Heel Hook",
-      "description": "Heel Hook from Ushiro Ashi (Defender) film study: Outside Heel Hook Defense to Inside Heel Hook, taught by Holy Grail BJJ.",
+      "name": "Outside heel hook defense to Inside Heel Hook",
+      "description": "Heel Hook from Ushiro Ashi (Defender) film study: Outside heel hook defense to Inside Heel Hook.",
       "thumbnailUrl": "https://i.ytimg.com/vi/clVAHxgRadE/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/clVAHxgRadE",
       "url": "https://www.youtube.com/watch?v=clVAHxgRadE",
-      "creator": { "@type": "Person", "name": "Holy Grail BJJ" },
-      "duration": "PT105S"
+      "duration": "PT104S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "The Heel Hook Escape (Burn His Rashguard)",
-      "description": "Heel Hook from Ushiro Ashi (Defender) film study: The Heel Hook Escape (Burn His Rashguard), taught by Stephan Kesting.",
+      "name": "The Heel Hook Escape That\u0027ll Make Your Opponent Burn His Rashguard",
+      "description": "Heel Hook from Ushiro Ashi (Defender) film study: The Heel Hook Escape That\u0027ll Make Your Opponent Burn His Rashguard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/EP49pafOr_I/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/EP49pafOr_I",
       "url": "https://www.youtube.com/watch?v=EP49pafOr_I",
-      "creator": { "@type": "Person", "name": "Stephan Kesting" },
       "duration": "PT172S"
     }
   ]
@@ -227,7 +224,7 @@ Defending the heel hook from ushiro ashi-garami requires immediate recognition o
 
 ![](https://www.youtube.com/watch?v=2RLgyzWN71Y)
 
-<p class="clip-credit"><strong>Outside Ashi Heel Hook Running Man Escape</strong> — taught by Grappling Game Changer · 0:54 · <a href="https://www.youtube.com/watch?v=2RLgyzWN71Y" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Double outside ashi heel hook escape / running man escape</strong> · 0:54 · <a href="https://www.youtube.com/watch?v=2RLgyzWN71Y" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -235,7 +232,7 @@ Defending the heel hook from ushiro ashi-garami requires immediate recognition o
 
 ![](https://www.youtube.com/watch?v=clVAHxgRadE)
 
-<p class="clip-credit"><strong>Outside Heel Hook Defense to Inside Heel Hook</strong> — taught by Holy Grail BJJ · 1:45 · <a href="https://www.youtube.com/watch?v=clVAHxgRadE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Outside heel hook defense to Inside Heel Hook</strong> · 1:44 · <a href="https://www.youtube.com/watch?v=clVAHxgRadE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -243,7 +240,7 @@ Defending the heel hook from ushiro ashi-garami requires immediate recognition o
 
 ![](https://www.youtube.com/watch?v=EP49pafOr_I)
 
-<p class="clip-credit"><strong>The Heel Hook Escape (Burn His Rashguard)</strong> — taught by Stephan Kesting · 2:52 · <a href="https://www.youtube.com/watch?v=EP49pafOr_I" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>The Heel Hook Escape That&#39;ll Make Your Opponent Burn His Rashguard</strong> · 2:52 · <a href="https://www.youtube.com/watch?v=EP49pafOr_I" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

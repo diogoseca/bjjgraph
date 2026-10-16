@@ -381,31 +381,12 @@
     ],
     "clips": [
       {
-        "id": "dfP-Ov8FBUo",
-        "title": "Cross Collar Chokes",
-        "by": "Roger Gracie",
-        "vertical": false,
-        "channel": "Jiu Jitsu Moves",
-        "duration": 80,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "ZHjfYIXgNpg",
-        "title": "Collar Choke from Back Control",
-        "by": "Team Daruma Dojo",
-        "vertical": false,
-        "channel": "Team Daruma Dojo",
-        "duration": 45,
-        "verified": "2026-07-14"
-      },
-      {
         "id": "nKIMxCzXvl0",
-        "title": "Cross Choke from the Back with Lapel",
-        "by": "Eduardo Fraga",
-        "vertical": false,
+        "title": "Use Your Own Lapel to Cross Choke from the Back",
         "channel": "Eduardo Fraga BJJ",
         "duration": 176,
-        "verified": "2026-07-14"
+        "vertical": false,
+        "front": true
       }
     ]
   },
@@ -641,31 +622,12 @@
     ],
     "clips": [
       {
-        "id": "kkAVJ3u7THM",
-        "title": "Back Collar Choke Escape",
-        "by": "Beto Vilanova",
-        "vertical": false,
-        "channel": "Beto Vilanova",
-        "duration": 166,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "SkCjPNSWzRM",
-        "title": "How to Defend the Back Choke",
-        "by": "Alpha Urban Krav Maga",
-        "vertical": false,
-        "channel": "Alpha Urban Krav Maga",
-        "duration": 132,
-        "verified": "2026-07-14"
-      },
-      {
         "id": "QIRF2B9riAA",
-        "title": "Cross Choke Defense from Guard",
-        "by": "Wayne Sniffen",
-        "vertical": false,
+        "title": "Cross Choke Defense from Guard - Two Quick Tips",
         "channel": "Wayne Sniffen",
         "duration": 105,
-        "verified": "2026-07-14"
+        "vertical": false,
+        "front": true
       }
     ]
   }

@@ -186,35 +186,12 @@ description: "How to execute the Arm Drag Sweep in BJJ. Attacking perspective wi
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Reverse Arm Drag from Butterfly to Back Take",
-      "description": "Arm Drag Sweep (Attacker) film study: Reverse Arm Drag from Butterfly to Back Take, taught by Jerry Musquiz.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/MFed9IE8afA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/MFed9IE8afA",
-      "url": "https://www.youtube.com/watch?v=MFed9IE8afA",
-      "creator": { "@type": "Person", "name": "Jerry Musquiz" },
-      "duration": "PT42S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Arm Drag and Sweep from Half Guard",
-      "description": "Arm Drag Sweep (Attacker) film study: Arm Drag and Sweep from Half Guard, taught by Moncaio Brothers.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/W_cyuuL5_MA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/W_cyuuL5_MA",
-      "url": "https://www.youtube.com/watch?v=W_cyuuL5_MA",
-      "creator": { "@type": "Person", "name": "Moncaio Brothers" },
-      "duration": "PT54S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
       "name": "Arm Drag from Scissor Sweep",
-      "description": "Arm Drag Sweep (Attacker) film study: Arm Drag from Scissor Sweep, taught by Scott Ryan Chiriboga.",
+      "description": "Arm Drag Sweep (Attacker) film study: Arm Drag from Scissor Sweep.",
       "thumbnailUrl": "https://i.ytimg.com/vi/VU5hNAnHzXA/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/VU5hNAnHzXA",
       "url": "https://www.youtube.com/watch?v=VU5hNAnHzXA",
-      "creator": { "@type": "Person", "name": "Scott Ryan Chiriboga" },
-      "duration": "PT103S"
+      "duration": "PT102S"
     }
   ]
 }
@@ -246,25 +223,9 @@ What makes the arm drag sweep particularly powerful in modern BJJ is its adaptab
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=MFed9IE8afA)
-
-<p class="clip-credit"><strong>Reverse Arm Drag from Butterfly to Back Take</strong> — taught by Jerry Musquiz · 0:42 · <a href="https://www.youtube.com/watch?v=MFed9IE8afA" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=W_cyuuL5_MA)
-
-<p class="clip-credit"><strong>Arm Drag and Sweep from Half Guard</strong> — taught by Moncaio Brothers · 0:54 · <a href="https://www.youtube.com/watch?v=W_cyuuL5_MA" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=VU5hNAnHzXA)
 
-<p class="clip-credit"><strong>Arm Drag from Scissor Sweep</strong> — taught by Scott Ryan Chiriboga · 1:43 · <a href="https://www.youtube.com/watch?v=VU5hNAnHzXA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Arm Drag from Scissor Sweep</strong> · 1:42 · <a href="https://www.youtube.com/watch?v=VU5hNAnHzXA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

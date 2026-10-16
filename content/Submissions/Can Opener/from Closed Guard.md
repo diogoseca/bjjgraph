@@ -46,24 +46,22 @@ description: "Understand Can Opener neck crank in BJJ: safety risks, legal statu
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "How to Do a Can Opener",
-      "description": "Can Opener from Closed Guard film study: How to Do a Can Opener, taught by MMA Submissions.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/_-NGlUCnHy0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/_-NGlUCnHy0",
-      "url": "https://www.youtube.com/watch?v=_-NGlUCnHy0",
-      "creator": { "@type": "Person", "name": "MMA Submissions" },
-      "duration": "PT126S"
+      "name": "Cervical Choke\"Can Opener\" \u0026 defense",
+      "description": "Can Opener from Closed Guard film study: Cervical Choke\"Can Opener\" \u0026 defense.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/FGPGkKnY_Mg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/FGPGkKnY_Mg",
+      "url": "https://www.youtube.com/watch?v=FGPGkKnY_Mg",
+      "duration": "PT73S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Can Opener Cervical Choke",
-      "description": "Can Opener from Closed Guard film study: Can Opener Cervical Choke, taught by Marcus Soares.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/FGPGkKnY_Mg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/FGPGkKnY_Mg",
-      "url": "https://www.youtube.com/watch?v=FGPGkKnY_Mg",
-      "creator": { "@type": "Person", "name": "Marcus Soares" },
-      "duration": "PT73S"
+      "name": "How to Do a Can Opener   MMA Submissions",
+      "description": "Can Opener from Closed Guard film study: How to Do a Can Opener   MMA Submissions.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_-NGlUCnHy0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_-NGlUCnHy0",
+      "url": "https://www.youtube.com/watch?v=_-NGlUCnHy0",
+      "duration": "PT126S"
     }
   ]
 }
@@ -122,17 +120,17 @@ The Can Opener is a neck crank technique applied from within an opponent's close
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=_-NGlUCnHy0)
+![](https://www.youtube.com/watch?v=FGPGkKnY_Mg)
 
-<p class="clip-credit"><strong>How to Do a Can Opener</strong> — taught by MMA Submissions · 2:06 · <a href="https://www.youtube.com/watch?v=_-NGlUCnHy0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Cervical Choke&#34;Can Opener&#34; &amp; defense</strong> · 1:13 · <a href="https://www.youtube.com/watch?v=FGPGkKnY_Mg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=FGPGkKnY_Mg)
+![](https://www.youtube.com/watch?v=_-NGlUCnHy0)
 
-<p class="clip-credit"><strong>Can Opener Cervical Choke</strong> — taught by Marcus Soares · 1:13 · <a href="https://www.youtube.com/watch?v=FGPGkKnY_Mg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How to Do a Can Opener   MMA Submissions</strong> · 2:06 · <a href="https://www.youtube.com/watch?v=_-NGlUCnHy0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

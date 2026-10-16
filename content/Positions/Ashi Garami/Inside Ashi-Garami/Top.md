@@ -165,35 +165,12 @@ description: "Foundational leg entanglement for ankle locks and heel hooks. Entr
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "3 paths to backside 50/50 from Single Leg X",
-      "description": "Inside Ashi-Garami (Top) film study: 3 paths to backside 50/50 from Single Leg X, taught by Gustavo Gomes Firmino.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/yT3euuWRWXw/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/yT3euuWRWXw",
-      "url": "https://www.youtube.com/watch?v=yT3euuWRWXw",
-      "creator": { "@type": "Person", "name": "Gustavo Gomes Firmino" },
-      "duration": "PT56S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Roll under to backside 50/50",
-      "description": "Inside Ashi-Garami (Top) film study: Roll under to backside 50/50, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/DBbSqQf6iCo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/DBbSqQf6iCo",
-      "url": "https://www.youtube.com/watch?v=DBbSqQf6iCo",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT110S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Reverse Achilles Lock from Ashi Garami",
-      "description": "Inside Ashi-Garami (Top) film study: Reverse Achilles Lock from Ashi Garami, taught by Corey K.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/D9_e_d6WpyU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/D9_e_d6WpyU",
-      "url": "https://www.youtube.com/watch?v=D9_e_d6WpyU",
-      "creator": { "@type": "Person", "name": "Corey K" },
-      "duration": "PT84S"
+      "name": "Ashi Garami 101: Basic Mechanics and Drills for Leglocks (No Gi Jiu-Jitsu)",
+      "description": "Inside Ashi-Garami (Top) film study: Ashi Garami 101: Basic Mechanics and Drills for Leglocks (No Gi Jiu-Jitsu).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pYnp2_gJIoM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/pYnp2_gJIoM",
+      "url": "https://www.youtube.com/watch?v=pYnp2_gJIoM",
+      "duration": "PT330S"
     }
   ]
 }
@@ -223,25 +200,9 @@ The position excels in no-gi grappling where leg attacks are permitted, offering
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=yT3euuWRWXw)
+![](https://www.youtube.com/watch?v=pYnp2_gJIoM)
 
-<p class="clip-credit"><strong>3 paths to backside 50/50 from Single Leg X</strong> — taught by Gustavo Gomes Firmino · 0:56 · <a href="https://www.youtube.com/watch?v=yT3euuWRWXw" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=DBbSqQf6iCo)
-
-<p class="clip-credit"><strong>Roll under to backside 50/50</strong> — taught by Lachlan Giles · 1:50 · <a href="https://www.youtube.com/watch?v=DBbSqQf6iCo" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=D9_e_d6WpyU)
-
-<p class="clip-credit"><strong>Reverse Achilles Lock from Ashi Garami</strong> — taught by Corey K · 1:24 · <a href="https://www.youtube.com/watch?v=D9_e_d6WpyU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Ashi Garami 101: Basic Mechanics and Drills for Leglocks (No Gi Jiu-Jitsu)</strong> · 5:30 · <a href="https://www.youtube.com/watch?v=pYnp2_gJIoM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

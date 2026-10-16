@@ -188,24 +188,32 @@ description: "Execute the Armbar from High Mount in BJJ. Step-by-step mechanics 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Arm bar from the Mount",
-      "description": "Armbar from High Mount (Attacker) film study: Arm bar from the Mount, taught by Cosens MMA.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/cajDQH-ZiH8/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/cajDQH-ZiH8",
-      "url": "https://www.youtube.com/watch?v=cajDQH-ZiH8",
-      "creator": { "@type": "Person", "name": "Cosens MMA" },
-      "duration": "PT44S"
+      "name": "Super tight Armbar from high mount",
+      "description": "Armbar from High Mount (Attacker) film study: Super tight Armbar from high mount.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/d2bpsh45KQE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/d2bpsh45KQE",
+      "url": "https://www.youtube.com/watch?v=d2bpsh45KQE",
+      "duration": "PT109S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Armbar breakdown",
-      "description": "Armbar from High Mount (Attacker) film study: Armbar breakdown, taught by Roger Gracie.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/vSmRbpNmf-E/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/vSmRbpNmf-E",
-      "url": "https://www.youtube.com/watch?v=vSmRbpNmf-E",
-      "creator": { "@type": "Person", "name": "Roger Gracie" },
-      "duration": "PT102S"
+      "name": "3 ways to finish the Arm bar from high mount",
+      "description": "Armbar from High Mount (Attacker) film study: 3 ways to finish the Arm bar from high mount.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8yYKRJJANa8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8yYKRJJANa8",
+      "url": "https://www.youtube.com/watch?v=8yYKRJJANa8",
+      "duration": "PT309S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Strikes to an Arm Bar from Mount Position (MMA)",
+      "description": "Armbar from High Mount (Attacker) film study: Strikes to an Arm Bar from Mount Position (MMA).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/cajDQH-ZiH8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/cajDQH-ZiH8",
+      "url": "https://www.youtube.com/watch?v=cajDQH-ZiH8",
+      "duration": "PT44S"
     }
   ]
 }
@@ -234,17 +242,25 @@ Attacking the Armbar from High Mount is a systematic process that begins well be
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=cajDQH-ZiH8)
+![](https://www.youtube.com/watch?v=d2bpsh45KQE)
 
-<p class="clip-credit"><strong>Arm bar from the Mount</strong> — taught by Cosens MMA · 0:44 · <a href="https://www.youtube.com/watch?v=cajDQH-ZiH8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Super tight Armbar from high mount</strong> · 1:49 · <a href="https://www.youtube.com/watch?v=d2bpsh45KQE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=vSmRbpNmf-E)
+![](https://www.youtube.com/watch?v=8yYKRJJANa8)
 
-<p class="clip-credit"><strong>Armbar breakdown</strong> — taught by Roger Gracie · 1:42 · <a href="https://www.youtube.com/watch?v=vSmRbpNmf-E" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>3 ways to finish the Arm bar from high mount</strong> · 5:09 · <a href="https://www.youtube.com/watch?v=8yYKRJJANa8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=cajDQH-ZiH8)
+
+<p class="clip-credit"><strong>Strikes to an Arm Bar from Mount Position (MMA)</strong> · 0:44 · <a href="https://www.youtube.com/watch?v=cajDQH-ZiH8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

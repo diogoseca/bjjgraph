@@ -383,31 +383,17 @@
     ],
     "clips": [
       {
-        "id": "Cx53Xl0SGC4",
-        "title": "Lasso Guard Knee Press Pass",
-        "by": "Roll 247",
-        "vertical": false,
-        "channel": "Roll 247",
-        "duration": 27,
-        "verified": "2026-07-14"
+        "id": "RmeptYbx1to",
+        "title": "HOW-TO: Pass the lasso guard with Guilherme Mendes",
+        "channel": "GRACIEMAG - The original BJJ magazine. ",
+        "duration": 105,
+        "front": true
       },
       {
-        "id": "qIESyGHwDgs",
-        "title": "Destroying the Lasso Guard - Pass Details",
-        "by": "Gustavo Batista",
-        "vertical": false,
-        "channel": "Bernardo Faria BJJ Fanatics",
-        "duration": 257,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "Cwpk8obMtkE",
-        "title": "Over Under Pass Against Spider Lasso Guard",
-        "by": "Bernardo Faria",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 286,
-        "verified": "2026-07-15"
+        "id": "ES5Kz7zHK5E",
+        "title": "part 1 breaking opponents grips lasso guard set pass",
+        "channel": "Bryce Nie",
+        "duration": 349
       }
     ]
   },
@@ -728,31 +714,11 @@
     ],
     "clips": [
       {
-        "id": "LwnoWDFJlN0",
-        "title": "Open Guard to Lasso Sweep",
-        "by": "Lucas Lepri",
-        "vertical": false,
-        "channel": "Lucas Lepri Brazilian Jiu Jitsu & Fitness",
-        "duration": 44,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "K4n_MQnR08c",
-        "title": "Lasso Guard to Arm Drag Sweep",
-        "by": "Xande Ribeiro",
-        "vertical": false,
-        "channel": "Riccardo Ammendolia",
-        "duration": 150,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "nHW1Sxvh_rI",
-        "title": "Lasso Guard Arm Drag to the Back",
-        "by": "OMJJJ",
-        "vertical": false,
-        "channel": "OMJJJ",
-        "duration": 79,
-        "verified": "2026-07-14"
+        "id": "ZPfD3rgEYmM",
+        "title": "The ONLY Lasso Guard Guide You’ll Ever Need",
+        "channel": "Precision MMA ",
+        "duration": 1045,
+        "front": true
       }
     ]
   },
@@ -970,33 +936,5 @@
       }
     }
   ],
-  "clips": [
-    {
-      "id": "LwnoWDFJlN0",
-      "title": "Open Guard to Lasso Sweep",
-      "by": "Lucas Lepri",
-      "vertical": false,
-      "channel": "Lucas Lepri Brazilian Jiu Jitsu & Fitness",
-      "duration": 44,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "3zM3gZsUPWc",
-      "title": "Lasso Sweep from Closed Guard",
-      "by": "Ralph Gracie BJJ",
-      "vertical": false,
-      "channel": "Ralph Gracie BJJ - San Jose & Santa Clara",
-      "duration": 39,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "K4n_MQnR08c",
-      "title": "Lasso Guard to Arm Drag Sweep",
-      "by": "Xande Ribeiro",
-      "vertical": false,
-      "channel": "Riccardo Ammendolia",
-      "duration": 150,
-      "verified": "2026-07-14"
-    }
-  ]
+  "clips": []
 }

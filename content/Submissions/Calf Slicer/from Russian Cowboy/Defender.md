@@ -154,34 +154,11 @@ description: "Defend against the calf slicer from Russian Cowboy in BJJ. Recogni
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Ankle Lock Counter to Calf Cutter",
-      "description": "Calf Slicer from Russian Cowboy (Defender) film study: Ankle Lock Counter to Calf Cutter, taught by Pathfinder Jiu-Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/VFM9JGQrLYk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/VFM9JGQrLYk",
-      "url": "https://www.youtube.com/watch?v=VFM9JGQrLYk",
-      "creator": { "@type": "Person", "name": "Pathfinder Jiu-Jitsu" },
-      "duration": "PT97S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Calf slicer and kneebar defense",
-      "description": "Calf Slicer from Russian Cowboy (Defender) film study: Calf slicer and kneebar defense, taught by Jesse Gough.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/5bACGsC8nVo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/5bACGsC8nVo",
-      "url": "https://www.youtube.com/watch?v=5bACGsC8nVo",
-      "creator": { "@type": "Person", "name": "Jesse Gough" },
-      "duration": "PT110S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Calf slicer counter from butterfly guard",
-      "description": "Calf Slicer from Russian Cowboy (Defender) film study: Calf slicer counter from butterfly guard, taught by No Limit Jiu Jitsu.",
+      "name": "Calf slicer from butterfly guard with counter-No Limit Jiu Jitsu",
+      "description": "Calf Slicer from Russian Cowboy (Defender) film study: Calf slicer from butterfly guard with counter-No Limit Jiu Jitsu.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Bhzai-ipuRo/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Bhzai-ipuRo",
       "url": "https://www.youtube.com/watch?v=Bhzai-ipuRo",
-      "creator": { "@type": "Person", "name": "No Limit Jiu Jitsu" },
       "duration": "PT17S"
     }
   ]
@@ -213,25 +190,9 @@ The critical defensive window is narrow — once the attacker has their shin ful
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=VFM9JGQrLYk)
-
-<p class="clip-credit"><strong>Ankle Lock Counter to Calf Cutter</strong> — taught by Pathfinder Jiu-Jitsu · 1:37 · <a href="https://www.youtube.com/watch?v=VFM9JGQrLYk" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=5bACGsC8nVo)
-
-<p class="clip-credit"><strong>Calf slicer and kneebar defense</strong> — taught by Jesse Gough · 1:50 · <a href="https://www.youtube.com/watch?v=5bACGsC8nVo" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=Bhzai-ipuRo)
 
-<p class="clip-credit"><strong>Calf slicer counter from butterfly guard</strong> — taught by No Limit Jiu Jitsu · 0:17 · <a href="https://www.youtube.com/watch?v=Bhzai-ipuRo" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Calf slicer from butterfly guard with counter-No Limit Jiu Jitsu</strong> · 0:17 · <a href="https://www.youtube.com/watch?v=Bhzai-ipuRo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

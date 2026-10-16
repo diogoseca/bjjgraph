@@ -186,24 +186,12 @@ description: "Complete guide to executing the systematic frame-and-hip escape fr
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Kesa Gatame Pressure Defense Using Proper Framing",
-      "description": "Escape Kuzure Kesa Gatame (Attacker) film study: Kesa Gatame Pressure Defense Using Proper Framing, taught by Kohbukan Sisu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/fvp5_BVEtLg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/fvp5_BVEtLg",
-      "url": "https://www.youtube.com/watch?v=fvp5_BVEtLg",
-      "creator": { "@type": "Person", "name": "Kohbukan Sisu" },
-      "duration": "PT84S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Kesa Gatame Scarf Hold Escape",
-      "description": "Escape Kuzure Kesa Gatame (Attacker) film study: Kesa Gatame Scarf Hold Escape, taught by Bruce Fowler.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/2okf5X17jeg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/2okf5X17jeg",
-      "url": "https://www.youtube.com/watch?v=2okf5X17jeg",
-      "creator": { "@type": "Person", "name": "Bruce Fowler" },
-      "duration": "PT230S"
+      "name": "\u5d29\u8888\u88df\u56fa\u306e\u9003\u308c\u65b9 /  Kuzure-kesa-gatame Escapes",
+      "description": "Escape Kuzure Kesa Gatame (Attacker) film study: \u5d29\u8888\u88df\u56fa\u306e\u9003\u308c\u65b9 /  Kuzure-kesa-gatame Escapes.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-zFQ6h4yKT4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/-zFQ6h4yKT4",
+      "url": "https://www.youtube.com/watch?v=-zFQ6h4yKT4",
+      "duration": "PT70S"
     }
   ]
 }
@@ -231,17 +219,9 @@ Executing the frame-and-hip escape from Kuzure Kesa Gatame requires disciplined,
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=fvp5_BVEtLg)
+![](https://www.youtube.com/watch?v=-zFQ6h4yKT4)
 
-<p class="clip-credit"><strong>Kesa Gatame Pressure Defense Using Proper Framing</strong> — taught by Kohbukan Sisu · 1:24 · <a href="https://www.youtube.com/watch?v=fvp5_BVEtLg" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=2okf5X17jeg)
-
-<p class="clip-credit"><strong>Kesa Gatame Scarf Hold Escape</strong> — taught by Bruce Fowler · 3:50 · <a href="https://www.youtube.com/watch?v=2okf5X17jeg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>崩袈裟固の逃れ方 /  Kuzure-kesa-gatame Escapes</strong> · 1:10 · <a href="https://www.youtube.com/watch?v=-zFQ6h4yKT4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -46,35 +46,12 @@ description: "Master the reversal from triangle escape position in BJJ. Learn st
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Escaping the triangle choke",
-      "description": "Reversal from Triangle Escape film study: Escaping the triangle choke, taught by Rener \u0026 Ryron Gracie.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/sR2rS2dwpNY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/sR2rS2dwpNY",
-      "url": "https://www.youtube.com/watch?v=sR2rS2dwpNY",
-      "creator": { "@type": "Person", "name": "Rener \u0026 Ryron Gracie" },
-      "duration": "PT117S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Escaping the triangle threat and passing",
-      "description": "Reversal from Triangle Escape film study: Escaping the triangle threat and passing, taught by John Connors.",
+      "name": "HOW to ESCAPE THE TRIANGLE THREATENING POSITION and Pass #bjj #jiujitsu\u2026",
+      "description": "Reversal from Triangle Escape film study: HOW to ESCAPE THE TRIANGLE THREATENING POSITION and Pass #bjj #jiujitsu\u2026.",
       "thumbnailUrl": "https://i.ytimg.com/vi/u_dZj30fLaU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/u_dZj30fLaU",
       "url": "https://www.youtube.com/watch?v=u_dZj30fLaU",
-      "creator": { "@type": "Person", "name": "John Connors" },
       "duration": "PT145S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Triangle defense: stacking escape",
-      "description": "Reversal from Triangle Escape film study: Triangle defense: stacking escape, taught by Piotr Zawadzki.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/AdH5zyhp-jc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/AdH5zyhp-jc",
-      "url": "https://www.youtube.com/watch?v=AdH5zyhp-jc",
-      "creator": { "@type": "Person", "name": "Piotr Zawadzki" },
-      "duration": "PT126S"
     }
   ]
 }
@@ -128,25 +105,9 @@ This reversal carries moderate risk because committing to the pass requires cont
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=sR2rS2dwpNY)
-
-<p class="clip-credit"><strong>Escaping the triangle choke</strong> — taught by Rener &amp; Ryron Gracie · 1:57 · <a href="https://www.youtube.com/watch?v=sR2rS2dwpNY" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=u_dZj30fLaU)
 
-<p class="clip-credit"><strong>Escaping the triangle threat and passing</strong> — taught by John Connors · 2:25 · <a href="https://www.youtube.com/watch?v=u_dZj30fLaU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=AdH5zyhp-jc)
-
-<p class="clip-credit"><strong>Triangle defense: stacking escape</strong> — taught by Piotr Zawadzki · 2:06 · <a href="https://www.youtube.com/watch?v=AdH5zyhp-jc" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>HOW to ESCAPE THE TRIANGLE THREATENING POSITION and Pass #bjj #jiujitsu…</strong> · 2:25 · <a href="https://www.youtube.com/watch?v=u_dZj30fLaU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

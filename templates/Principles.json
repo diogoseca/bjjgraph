@@ -562,6 +562,10 @@
           "minimum": 1,
           "description": "Provenance: full video duration in seconds"
         },
+        "front": {
+          "type": "boolean",
+          "description": "True only for the curated front clip; at most one per half, first in its array"
+        },
         "verified": {
           "type": "string",
           "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
