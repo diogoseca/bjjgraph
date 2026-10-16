@@ -216,7 +216,10 @@ class Reader {
     const url = new URL(path, location.href);
     path = cleanPath(url.href);
     if (!intent && this.path === path) return;
-    if (this.path !== path) { this.place(this.mediaHome); this.media = null; this.root.scrollTop = 0; }
+    if (this.path !== path) {
+      if (this.app._landFilmEl?.dataset.referenceFilm) this.app._clearLandFilm();
+      this.place(this.mediaHome); this.media = null; this.root.scrollTop = 0;
+    }
     this.path = path;
     this.intent = intent;
     const hit = this.app._nodeAndRoleForPath(path);
@@ -333,6 +336,18 @@ class Reader {
     // another player. Retain all authored prose, credits and source destinations.
     article.querySelectorAll("iframe").forEach((frame) => {
       const source = frame.getAttribute("src"), parent = frame.parentElement;
+      // Seatless pages have no landing dossier. Adapt their published embeds to
+      // the SAME media owner before retiring the source player, including clips
+      // in Learning/System pages. No game seat or second playback path is made.
+      if (/^\/(Principles|Learning|Systems)\//.test(path) && source) {
+        const url = new URL(source), id = url.pathname.match(/^\/embed\/([^/]+)/)?.[1];
+        if (id && /(^|\.)youtube(-nocookie)?\.com$/.test(url.hostname)) {
+          const clip = frame.closest(".film-clip");
+          this.referenceClips.push({ id, title: clip?.querySelector("strong")?.textContent || frame.title || "Instructional video",
+            start: Number(url.searchParams.get("start")) || 0, end: Number(url.searchParams.get("end")) || undefined,
+            vertical: clip?.classList.contains("film-clip--vertical") });
+        }
+      }
       if (source && !parent?.parentElement?.querySelector('a[href*="youtu"]')) {
         const link = element("a", { href: source, target: "_blank", rel: "noopener" }, "Watch video");
         frame.replaceWith(link);
@@ -342,6 +357,7 @@ class Reader {
   }
   render(title, record, path, context, hub) {
     this.place(this.mediaHome);
+    this.referenceClips = [];
     if (this.head) { this.resize.unobserve(this.head); this.head.remove(); }
     this.articleEl.replaceChildren();
     const head = this.head = element("header", { class: "ng-reader-head" });
@@ -455,6 +471,7 @@ class Reader {
       if (!buckets.has(key)) buckets.set(key, { type, title, parts: [] });
       buckets.get(key).parts.push(part);
     }
+    if (this.referenceClips.length && !buckets.has("videos")) buckets.set("videos", { type: "videos", title: "Videos", parts: [] });
     const ordered = [...buckets.values()].sort((a, b) => {
       const rank = x => SECTION_ORDER.includes(x.type) ? SECTION_ORDER.indexOf(x.type) : x.type === "related" ? 100 : x.type === "sources" && reference ? 101 : 50;
       return rank(a) - rank(b);
@@ -689,6 +706,8 @@ class Reader {
     const node = hit && a.nodes[hit.idx];
     const mediaRole = node?.ty === "positions" ? hit.role || a.playerRole : /\/Defender$/.test(this.path || "") || node?.role === "defender" ? "defender" : "attacker";
     const wants = this.wantsMedia() && !!this.mediaSlot;
+    const referencePath = hit?.idx < 0 ? this.path : undefined;
+    if (wants && referencePath && this.referenceClips?.length && a._landFilmEl?.dataset.referenceFilm !== referencePath) a._renderLandFilm(this.referenceClips, referencePath);
     // Clip supply belongs to the existing owner. A late/mismatched role never
     // becomes an alternative resolver in the reader (escape owns that feed).
     if (wants && !a._landFilmEl && hit?.idx >= 0 && a._landIdx === hit.idx) {
@@ -703,7 +722,8 @@ class Reader {
       this.place(this.mediaHome);
       this.media = host; this.mediaOrigin = host.parentElement; this.mediaNext = host.nextSibling;
     }
-    const correct = host && hit && host._ngMediaIdx === hit.idx && host._ngMediaRole === mediaRole;
+    const correct = host && hit && (referencePath ? host.dataset.referenceFilm === referencePath : host._ngMediaIdx === hit.idx && host._ngMediaRole === mediaRole);
+    if (referencePath && !wants) a.pauseLandFilm();
     if (wants && correct) this.place(this.mediaSlot);
     else this.place(this.mediaHome);
     if (host) host.hidden = this.wantsMedia() ? !correct : !a.get("landFilm", true);

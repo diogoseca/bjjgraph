@@ -381,7 +381,11 @@ the old player handles and callback generations. The same iframe is navigated to
 so its old autoplay URL cannot restart on reload. Only a deliberate normal play binds a fresh
 player. Section collapse calls the same pause seam and hides/inerts the body without destroying
 the player. Published iframe copies do not instantiate another player; every credit and source
-link remains. `reading-media-placement.spec.ts` is the shared placement/playback contract.
+link remains. Seatless Principle, Learning and System pages supply their published video IDs
+to `_renderLandFilm(clips, referencePath)`; the canonical path owns that same host without a
+landing index, question or hand. Navigation retires the old reference host; playing another
+clip uses the owner's existing single-player teardown. Reference playback awards no gameplay
+film beat. `reading-media-placement.spec.ts` is the shared placement/playback contract.
 
 **Fixed chrome docks off a measurement**, never a CSS constant — the tray has no fixed height and
 grows upward as names wrap. `_landDatum` is the shared hand measurement; `_dockLandCard`,

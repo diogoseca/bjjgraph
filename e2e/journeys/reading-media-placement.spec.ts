@@ -53,6 +53,89 @@ const snapshot = (page: Page) => page.evaluate(() => {
     slot: host?.parentElement === a._reader.mediaSlot, events: w.__mediaEvents.slice() }
 })
 
+// Review B1: the published Frames article has four videos but no game seat.
+// The built corpus currently has no Learning/System embeds; those two cases add
+// explicit video fixtures to real articles to cover their seatless media path.
+// Only provider transport is stubbed; Play, ownership and teardown are real.
+// reference-videos-removed restores unconditional source iframe removal with no
+// replacement: the published Frames Play-ID set is empty instead of four (B1).
+for (const [path, width, fixture] of [
+  ['/Principles/Frames', 1440, false], ['/Principles/Frames', 390, false],
+  ['/Learning/Position-Over-Submission', 1440, true],
+  ['/Systems/Danaher-Pin-Escape-Fundamentals-System', 1440, true],
+] as const) {
+  test(`@curated published reference videos remain playable without a seat: ${path} ${width}px${fixture ? ' (video fixture)' : ''}`, async ({ page }) => {
+    await page.setViewportSize({ width, height: width === 390 ? 844 : 900 })
+    const j = journey(page)
+    await j.boot(path, { keepTutorial: true, initialState: FOCUS, beforeNavigate: async () => {
+      await page.route('**/static/neural/content/*.json', route => route.continue())
+      await page.route(/https:\/\/(www\.)?youtube(-nocookie)?\.com\/embed\//, route => route.fulfill({ contentType: 'text/html', body: '<title>Source transport fixture</title>' }))
+      if (fixture) await page.route(url => url.pathname === path, async route => {
+        const response = await route.fetch(), html = await response.text()
+        expect(html).not.toContain('<iframe')
+        const film = '<section id="film-study"><h2>Film Study</h2>' + ['92lqcDuaiOw', 'F0XCE0lFIG8'].map(id =>
+          `<div class="film-clip"><p><iframe src="https://www.youtube.com/embed/${id}"></iframe></p><p class="clip-credit"><strong>Reference video fixture ${id}</strong></p></div>`).join('') + '</section>'
+        await route.fulfill({ response, body: html.replace('</article>', film + '</article>') })
+      })
+    } })
+    await expect(page.locator(READY)).toBeVisible()
+    const before = await page.evaluate(async path => {
+      const a = (window as any).__neural, doc = new DOMParser().parseFromString(await (await fetch(path)).text(), 'text/html')
+      const sources = [...doc.querySelectorAll('article iframe')].map(f => new URL(f.getAttribute('src')!).pathname.split('/').pop())
+      const clips = [...a._reader.root.querySelectorAll('.ng-clip')].map((c: any) => new URL(c.querySelector('img').src).pathname.split('/')[2])
+      return { sources, clips, seat: a._nodeAndRoleForPath(path).idx, owner: a._landFilmEl?.dataset.referenceFilm }
+    }, path)
+    expect(before.sources).toHaveLength(fixture ? 2 : 4)
+    expect(before.clips, 'every published reference video has an in-app Play control').toEqual(before.sources)
+    expect(before).toMatchObject({ seat: -1, owner: path })
+    await expect(page.locator('[data-reader] iframe')).toHaveCount(0)
+    await expect(page.locator('[data-land-film]')).toHaveCount(1)
+    const dormant = () => page.evaluate(() => {
+      const a = (window as any).__neural
+      return { current: a.currentPos, land: a._landIdx, hand: a._optList?.length || 0,
+        played: !!a._played, paused: a.paused, clock: a._decision ?? null,
+        beats: (a.beats || []).filter((b: any) => ['options_dealt', 'engaged', 'commit', 'land_q_shown', 'short_watched'].includes(b.beat)) }
+    })
+    const resting = await dormant()
+    expect(resting).toMatchObject({ hand: 0, played: false, paused: true, clock: null, beats: [] })
+    await installTransport(page)
+    await page.evaluate(() => { (window as any).__referenceHost = (window as any).__neural._landFilmEl })
+    for (const index of [0, 1]) {
+      const play = page.locator('[data-land-film] .ng-clip').nth(index)
+      await play.scrollIntoViewIfNeeded()
+      await play.evaluate(el => el.setAttribute('data-reference-play', ''))
+      await j.clickByMouse('[data-reference-play]', 'play the published reference through its media owner')
+      await play.evaluate(el => el.removeAttribute('data-reference-play'))
+      await expect(page.locator('[data-reader] iframe')).toHaveCount(1)
+      await expect.poll(() => page.evaluate(() => {
+        const f = document.querySelector('[data-land-film] iframe') as HTMLIFrameElement
+        return f?.contentDocument?.querySelector('video')?.currentTime || 0
+      })).toBeGreaterThan(.1)
+      expect(await dormant(), 'reference playback cannot borrow a seat or award gameplay').toEqual(resting)
+      expect(await page.evaluate(() => (window as any).__referenceHost === (window as any).__neural._landFilmEl)).toBe(true)
+    }
+    expect(await page.evaluate(() => (window as any).__mediaEvents.filter((x: string) => x === 'destroy').length)).toBe(1)
+    await j.clickByMouse('[data-layer-hide=book]', 'hiding a seatless article cannot leave hidden audio playing')
+    expect(await page.evaluate(() => (document.querySelector('[data-land-film] iframe') as HTMLIFrameElement).contentDocument!.querySelector('video')!.paused)).toBe(true)
+    await j.clickByMouse('[data-layer-show=book]')
+    await page.locator('[data-section-toggle=videos]').scrollIntoViewIfNeeded()
+    await j.clickByMouse('[data-section-toggle=videos]')
+    await expect(page.locator('[data-section-type=videos] .ng-section-body')).toBeHidden()
+    expect(await page.evaluate(() => (window as any).__mediaEvents.filter((x: string) => x === 'destroy').length)).toBe(1)
+    expect(await page.evaluate(() => (document.querySelector('[data-land-film] iframe') as HTMLIFrameElement).contentDocument!.querySelector('video')!.paused)).toBe(true)
+    if (!fixture) {
+      const link = page.locator('[data-reader-body] a[href*="/Principles/Distance-Control"]').first()
+      await link.scrollIntoViewIfNeeded(); await link.evaluate(el => el.setAttribute('data-reference-next', ''))
+      await j.clickByMouse('[data-reference-next]')
+      await expect(page.locator(READY)).toHaveAttribute('data-reader-path', '/Principles/Distance-Control')
+      expect(await page.evaluate(() => (window as any).__referenceHost.isConnected)).toBe(false)
+      await expect(page.locator('[data-land-film]')).toHaveCount(1)
+      await expect(page.locator('[data-reader] iframe')).toHaveCount(0)
+      expect(await dormant()).toEqual(resting)
+    }
+  })
+}
+
 for (const width of [1366, 390]) for (const native of [true, false]) {
   test(`@curated ${width}px media identity and ${native ? 'native playback continuity' : 'pause-before-append fallback'}`, async ({ page }) => {
     await page.setViewportSize({ width, height: width === 390 ? 844 : 768 })
@@ -209,7 +292,7 @@ for (const width of [1366, 390]) {
       a._reader.leaveReading(); a._applyLayers()
     }, width)
     await j.advance(500)
-    await page.waitForTimeout(400) // the existing clip/card entry transitions settle
+    await j.readerLayoutSettled()
     const geometry = () => page.evaluate(() => {
       const w = window as any, a = w.__neural, home = document.querySelector('[data-land-media-slot]')!, card = a._landEl
       const m = home.getBoundingClientRect(), c = card.getBoundingClientRect(), h = a.optionsRef.current.getBoundingClientRect()

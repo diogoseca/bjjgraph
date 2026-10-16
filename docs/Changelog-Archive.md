@@ -11154,22 +11154,43 @@ orchestrator assigns the final whole-suite gate to GitHub's four core shards plu
 generated suite, with an independent review before merge, instead of another local
 full core holding the shared build lock.
 
-All 47 named mutation controls are killed. Two initial survivors exposed coverage
+The initial mutation report overstated its result: 46 controls failed assertions,
+while the detached-target wheel case timed out before its ownership assertion.
+The delivery observer now runs in capture phase; that control reaches and fails
+`reader.interacting === false`. The runner accepts assertion failures only, rejecting
+wait/test timeouts. Two additional review controls fail independently: corrupt only
+the current TOC label/target, or remove reference playback while retaining article
+text. The aggregate is 49 verified assertion failures (46 retained, three rerun/new),
+not a fresh 49-control run. Two initial survivors exposed coverage
 gaps: identical CSSOM assignments emit no MutationObserver record in Chromium, so
 the media journey now counts owned style calls too (53 vs the expected zero); and
 the old orb fixture no longer crosses a misplaced reader head, so the existing
 approved-home assertion is its precise guard. The unchanged orb-tap journey remains
-green. The wheel mutant loses native delivery after a replaced face; its behavioral
-wait fails while the unmodified positive completes in 5.3 seconds. Mutations restore
+green. Mutations restore
 the exact original app hashes. No test tolerance was widened.
 
+Independent review found that removing published iframes had lost playable videos
+on seatless reference pages. The reader now passes their authored embed metadata to
+the existing media owner with a canonical reference path. It never assigns a game
+seat or pays a gameplay film beat; navigation retires the old host, and hiding Book
+or Videos pauses playback. Native playback passes for all four published Frames
+videos at desktop/phone sizes and explicit video fixtures on Learning and System
+pages. The current corpus has 199 embeds on 62 Principle pages and none on Learning
+or System pages; the latter checks are fixtures, not claims of published videos.
+The four new playback cases and 16 affected existing journeys pass. Readiness sleeps
+now observe coalesced layout and finite animation completion, with every original
+geometry/time bound retained. The late-response TOC check asserts the exact nonempty
+set of current labels and targets. Neural.md again explicitly promises one page per
+trackpad gesture and spent-time preservation when restoring a cached face.
+
 Against independently rebuilt dev 45cf1f9e1 on the same emitted corpus: eager gzip
-346,317 → 347,543 B (+1,226); first-hand core gzip 365,711 → 366,831 B (+1,120);
-deferred raw 480,054 → 500,939 B (+20,885); largest chunk remains 39,000 B. Both
+346,317 → 347,558 B (+1,241); first-hand core gzip 365,711 → 366,831 B (+1,120);
+deferred raw 480,054 → 501,938 B (+21,884); largest chunk remains 39,000 B. Both
 browser first-hand observations count 11 requests. Equivalent CSS grouping saves
 317 B, the duplicate stylesheet wait 91 B, unused generic film-map entries 35 B,
 and the header margin fix three B, totaling 446 B. No further safe feature-preserving
-trim was found in this lane. D-305 and the separate D-305a amendment set both deferred
-ceilings to exactly the measured 500,939 B, with no headroom; videos owns returning
-them to 500,000. Eager growth is 4,545 B against the unchanged 342,998 B checkpoint,
+trim was found in this lane. D-305 and D-305a remain separate historical commits;
+D-305b separately sets both deferred ceilings to the measured 501,938 B, with no
+headroom, for the review's reference-playback fix (+999 B). Videos owns returning
+them to 500,000. Eager growth is 4,560 B against the unchanged 342,998 B checkpoint,
 within its 5,000 B cap. No payload checkpoint was accepted or automatically updated.

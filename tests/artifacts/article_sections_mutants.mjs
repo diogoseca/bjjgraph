@@ -42,6 +42,8 @@ const mutants = [
   ['collapsed-contrast', sections, 'contents and header targets at 390x844', s => s, css => replace(css, 'color:#a8b0c2', 'color:#555b68')],
   ['defender-hub-leak', contract, 'defender reading excludes.*Rear-Naked-Choke', s => replace(s, 'shared.replaceChildren(...safety);', '/* mutant: keep the full attacker-rich hub */')],
   ['stale-response', contract, 'a late response cannot repaint', s => replace(replace(s, 'this.abort?.abort();', '/* mutant: no abort */'), 'if (serial !== this.serial || this.app.__ngDestroyed) return;', 'if (this.app.__ngDestroyed) return;')],
+  ['toc-current-targets', contract, 'a late response cannot repaint', s => replace(s, 'row.append(link, toggle);', 'if (section.type === "options") { link.textContent = "Decisions from bottom"; link.dataset.sectionLink = "stale-bottom"; } row.append(link, toggle);')],
+  ['reference-videos-removed', seam, 'published reference videos remain playable.*Principles/Frames', s => replace(s, 'if (/^\\/(Principles|Learning|Systems)\\//.test(path) && source)', 'if (false)')],
   ['native-reloads', seam, '1366px media identity and native', s => replace(s, 'if (typeof target.moveBefore === "function")', 'if (false)')],
   ['fallback-no-pause', seam, '1366px media identity and pause-before', s => replace(s, 'else { this.app.pauseLandFilm(); target.appendChild(host);', 'else { target.appendChild(host);')],
   ['fallback-stale-player', seam, '1366px media identity and pause-before', s => replace(s, 'target.appendChild(host); this.app._landFilmMoved();', 'target.appendChild(host);')],
@@ -80,11 +82,25 @@ try {
     for (const [path, bytes] of originals) writeFileSync(path, bytes)
     await build({ stdin: { contents: mutate(source), sourcefile: 'reader.src.js', resolveDir: resolve(root, 'neural/src'), loader: 'js' }, bundle: true, format: 'esm', target: 'es2019', minify: true, legalComments: 'none', outfile: readerPath, logLevel: 'silent' })
     if (css) writeFileSync(cssPath, css(originals.get(cssPath).toString()))
-    const run = spawnSync(resolve(root, 'node_modules/.bin/playwright'), ['test', '-c', config, spec, '--grep', grep, '--max-failures=1', '--timeout=30000'], { cwd: root, encoding: 'utf8', timeout: 120000, env: process.env })
+    const reportPath = resolve(out, name + '.json')
+    const run = spawnSync(resolve(root, 'node_modules/.bin/playwright'), ['test', '-c', config, spec, '--grep', grep, '--max-failures=1', '--timeout=30000', '--reporter=list,json'], { cwd: root, encoding: 'utf8', timeout: 120000, env: { ...process.env, PLAYWRIGHT_JSON_OUTPUT_FILE: reportPath } })
     const log = (run.stdout || '') + (run.stderr || '')
     writeFileSync(resolve(out, name + '.log'), log)
-    const killed = run.status === 1 && /1 failed/.test(log) && !/No tests found|already used|Executable doesn't exist|webServer.*not able/.test(log)
-    receipt.results.push({ name, spec, grep, exit: run.status, killed })
+    let failures = []
+    try {
+      const visit = suite => {
+        for (const spec of suite.specs || []) for (const test of spec.tests) for (const result of test.results) {
+          if (result.status !== 'passed') failures.push({ status: result.status, errors: (result.errors || []).map(e => (e.message || '').replace(/\u001b\[[0-9;]*m/g, '')) })
+        }
+        for (const child of suite.suites || []) visit(child)
+      }
+      visit(JSON.parse(readFileSync(reportPath, 'utf8')))
+    } catch {}
+    // A delivered stimulus must reach its assertion. A wait/test timeout or
+    // infrastructure error is NOT a claim-level kill, even with exit 1.
+    const killed = run.status === 1 && failures.length === 1 && failures[0].status === 'failed' &&
+      failures[0].errors.length > 0 && failures[0].errors.every(e => /expect\(/.test(e) && !/Test timeout|TimeoutError|page\.waitFor\w+:|locator\.\w+: Timeout/.test(e))
+    receipt.results.push({ name, spec, grep, exit: run.status, killed, failures })
     writeFileSync(resolve(out, 'receipt.json'), JSON.stringify(receipt, null, 2) + '\n')
     console.log(name + ': ' + (killed ? 'killed (inspect assertion in log)' : 'NOT KILLED'))
   }

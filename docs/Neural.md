@@ -147,10 +147,10 @@ Last rolls is the study route. The generic defending card uses `_landCardChrome`
 Defender article, and hydrates its own deck. Hiding the question leaves catch and escapes live.
 
 **Paging browses the current deck.** Horizontal swipes (40px / 700ms), accumulated trackpad
-`deltaX`, outside chevrons and `←`/`→` call `_landPageTo(dir)`. Keys yield to pane History and
+`deltaX` (one page per gesture), outside chevrons and `←`/`→` call `_landPageTo(dir)`. Keys yield to pane History and
 drill arrows and refuse `_landHidden()`. The retired dots/reveal pager and undeployed
 `landAnswers` setting have no reader. Paging replaces only `[data-land-q]`, clamped at the ends.
-The per-landing cache re-parents the same shuffle without another RNG draw; answered cards
+The per-landing cache restores spent time and re-parents the same shuffle without another RNG draw; answered cards
 return graded and disabled. Cold distractors warm through `_landWarmP` (replace-not-clear).
 A capture-phase suppressor swallows synthesized clicks after movement >6px. Live defense
 uses the same paging controls. Paging resets the native game scroll; Home/End read the question, while focused

@@ -9,6 +9,8 @@ import { journey } from '../dsl'
 // available during the catch. Pressure must still be live before every exit.
 // MUTANT M14 freezes clearEngagement's journey identity: sidebar search fails
 // its same-app journey-change assertion after the actual opponent catch.
+// STALE TIMING (PR 307 CI): the caught card can publish before its article/TOC.
+// Await that article and its layout before the native Overview click.
 const ID = 'Submissions/Loop-Choke/from-Half-Guard'
 const READY = '[data-reader-ready="true"]'
 const content = async (page: Page) => { await page.route('**/static/neural/content/*.json', r => r.continue()) }
@@ -217,6 +219,8 @@ test('@curated a shared list link opens its defending item without a catch', asy
 
 test('@curated article links, Back and Forward start fresh journeys after a catch', async ({ page }) => {
   const { j, previous } = await caught(page)
+  await expect(page.locator(READY)).toHaveAttribute('data-reader-path', '/' + ID + '/Defender')
+  await j.readerLayoutSettled()
   await j.clickByMouse('.ng-reader-toc-row:has([data-toc-eye="overview"]) a', 'read the caught submission article')
   const link = page.locator('[data-reader-body] a[href*="/Positions/"]').first()
   await link.evaluate(e => e.setAttribute('data-arrival-article-link', ''))

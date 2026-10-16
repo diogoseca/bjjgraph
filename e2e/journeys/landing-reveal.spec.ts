@@ -150,7 +150,7 @@ for (const viewport of [{ width: 1440, height: 900 }, { width: 390, height: 844 
         }, layers);
         await j.landSettled();
         await expect(page.locator('[data-reader-ready="true"]')).toBeVisible();
-        await page.waitForTimeout(400); // settle native layout and the existing 340ms film resize before pumping the camera
+        await j.readerLayoutSettled();
         await j.advance(6500);
         const m = await page.evaluate(() => {
           const a = (window as any).__neural, n = a.nodes[a.focusIdx], mid = a.pairMid(n);

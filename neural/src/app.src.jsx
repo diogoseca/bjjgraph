@@ -2337,7 +2337,7 @@ class Component extends DCLogic {
     { const fx = this._landFilmEl && this._landFilmEl.querySelector("[data-film-close]"); if (fx) fx.style.visibility = "hidden"; } // never beside the player's own ✕
     // Principle film is reference reading. This beat awards the gameplay film challenge,
     // so it belongs only to the existing position/technique study surfaces.
-    if (!card.closest("[data-concept-film]")) this.fx("short_watched", { id: clip.id });
+    if (!card.closest("[data-concept-film],[data-reference-film]")) this.fx("short_watched", { id: clip.id });
     const vertical = !!clip.vertical, start = clip.start || 0, end = clip.end || 0;
     const row = card.parentElement;
     const rw = (row && row.clientWidth) || 460;
@@ -15967,10 +15967,13 @@ class Component extends DCLogic {
   // a sibling anchored above the card it grows UPWARD into empty screen, which is also what
   // makes an expanded clip land top-centre. Since v1.171.0 it carries its own ghost ✕ — the
   // film LAYER's handle — hidden while a clip is expanded so it never sits beside the player's.
-  _renderLandFilm(filmClips) {
+  // A reference supplies a canonical path instead of borrowing a game seat.
+  // Playback, teardown and the one-host lifetime stay with this media owner.
+  _renderLandFilm(filmClips, referencePath) {
     if (!filmClips || !filmClips.length) return null;
-    const current = this._landFilmEl, node = this.nodes[this._landIdx];
-    if (current?.isConnected && current._ngMediaIdx === this._landIdx && current._ngMediaRole === (this._landPerspSide(node) || this.playerRole)) return current;
+    const current = this._landFilmEl, idx = referencePath ? -1 : this._landIdx, node = this.nodes[idx];
+    const role = node ? this._landPerspSide(node) || this.playerRole : null;
+    if (current?.isConnected && current._ngMediaIdx === idx && current._ngMediaRole === role && current.dataset.referenceFilm === referencePath) return current;
     this._clearLandFilm();
     const film = document.createElement("div");
     film.className = "ng-landfilm";
@@ -16010,9 +16013,8 @@ class Component extends DCLogic {
     film.appendChild(xb);
     this.wrapRef.current.appendChild(film);
     this._landFilmEl = film;
-    film._ngMediaIdx = this._landIdx;
-    const mediaNode = this.nodes[this._landIdx];
-    film._ngMediaRole = mediaNode ? this._landPerspSide(mediaNode) || this.playerRole : null;
+    film._ngMediaIdx = idx; film._ngMediaRole = role;
+    if (referencePath) film.dataset.referenceFilm = referencePath;
     // `_dockLandFilm`'s top clamp reads this strip's HEIGHT, so a height change without a dock left
     // it stale: a rotation resizes `.ng-clip` via a media rule while its inline .34s height
     // transition runs, the resize dock measured it mid-flight (98 of a settled 70 at 844x390),

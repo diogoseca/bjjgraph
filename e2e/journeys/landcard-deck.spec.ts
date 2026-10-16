@@ -57,7 +57,9 @@ function gestureWheel(page: Page) {
     await page.clock.setFixedTime(time)
     await page.evaluate(() => {
       (window as any).__deckWheelDelivered = false
-      document.addEventListener("wheel", () => { (window as any).__deckWheelDelivered = true }, { once: true })
+      // Capture observes native delivery even when a broken reader later stops
+      // bubbling after paging detaches the original target. Assert ownership below.
+      document.addEventListener("wheel", () => { (window as any).__deckWheelDelivered = true }, { once: true, capture: true })
     })
     await page.mouse.wheel(delta, 0)
     await page.waitForFunction(() => (window as any).__deckWheelDelivered)
@@ -222,9 +224,7 @@ test("@curated responsive deck stays readable in the shared scrollport and rotat
     { width: 844, height: 390 }, { width: 390, height: 844 },
   ]) {
     await page.setViewportSize(viewport)
-    // The existing clip row animates height for 340ms on rotation. Measure the
-    // settled resize, when the reader's coalesced observer must have redocked it.
-    await page.waitForTimeout(400)
+    await j.readerLayoutSettled()
     await j.advance(100)
     const layout = await page.evaluate(() => {
       const a = (window as any).__neural

@@ -24,6 +24,9 @@ import { journey } from "../dsl"
 // name before the clearance calculation, never disappear from its measurements.
 // These controls assert UI/state contracts, not external video playback or the
 // accuracy of authored safety advice. The renderer must preserve that advice.
+// Review S3: semantic labels made the old defensive-heading negative vacuous.
+// The current Top TOC is now checked independently of article content/path;
+// toc-current-targets corrupts only its labels/targets (not the guide).
 const READY = '[data-reader][data-reader-ready="true"]'
 const KNEE = '/Transitions/Knee-Slice-Pass'
 const RNC = '/Submissions/Rear-Naked-Choke/from-Back-Control'
@@ -249,8 +252,20 @@ test('@curated a late response cannot repaint the opposite seat in the same read
   await page.waitForTimeout(100)
   expect(await page.evaluate(() => (window as any).__seatReader === (window as any).__neural._reader)).toBe(true)
   expect(await page.locator('[data-reader-article="guide"]').evaluateAll(es => [...new Set(es.map(e => e.getAttribute("data-source-path")))])).toEqual(['/Positions/Mount/Top'])
-  const toc = await page.locator('[data-section-link]').evaluateAll(nodes => nodes.map(e => e.textContent))
-  expect(toc).not.toContain('Key Defensive Principles')
+  const toc = await page.locator('[data-section-link]').evaluateAll(nodes => nodes.map(e => {
+    const target = document.getElementById(e.getAttribute('data-section-link')!), card = target?.closest('.ng-section-card')
+    return { label: e.textContent, type: card?.getAttribute('data-section-type'),
+      current: !!card && !!document.querySelector('[data-reader-body]')?.contains(card) && e.getAttribute('href') === '#' + card.id,
+      heading: card?.querySelector('[data-section-toggle] > span')?.textContent }
+  }))
+  const expected = [
+    ['videos', 'Videos'], ['overview', 'Overview'], ['principles', 'Essential principles'],
+    ['prerequisites', 'Prerequisites'], ['options', 'Decisions from top'], ['mistakes', 'Common mistakes'],
+    ['role-comparison', 'Role comparison'], ['bottom-summary', 'Bottom overview'], ['top-summary', 'Top overview'],
+    ['training', 'Training'], ['statistics', 'Statistics'], ['related', 'Related'],
+  ]
+  expect(toc, 'every current Top label points to its own nonempty semantic section').toEqual(
+    expected.map(([type, label]) => ({ type, label, heading: label, current: true })))
 })
 
 for (const path of [RNC, '/Submissions/Triangle-Choke/from-Triangle-Control']) {

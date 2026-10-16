@@ -576,6 +576,27 @@ export class Journey {
     return this;
   }
 
+  /** Observe native reader layout and finite entry/resize animations settling.
+   * No elapsed-time readiness guess, camera pumping, or geometry assertion here.
+   * Two matching publications let ResizeObserver enqueue its coalesced frame. */
+  async readerLayoutSettled() {
+    await this.page.evaluate(async () => {
+      const a = (window as W).__neural, r = a._reader;
+      if (!r) throw Error("Reader must be ready before waiting for layout");
+      let previous = "";
+      for (;;) {
+        await new Promise(requestAnimationFrame);
+        const elements = [r.root, r.game, r.articleEl, r.mediaHome, a._landEl, a._landFilmEl, a.optionsRef.current].filter(Boolean);
+        const geometry = JSON.stringify(elements.map((el: HTMLElement) => el.getBoundingClientRect().toJSON()));
+        const animating = elements.some((el: HTMLElement) => el.getAnimations({ subtree: true }).some(animation =>
+          (animation.pending || animation.playState === "running") && Number.isFinite(animation.effect?.getComputedTiming().endTime)));
+        if (!r.layoutFrame && !r.laying && !animating && geometry === previous) return;
+        previous = !r.layoutFrame && !r.laying && !animating ? geometry : "";
+      }
+    });
+    return this;
+  }
+
   /** The live LANDING question's MC truth, once its block has settled (see landSettled).
    *  Returns null if this state asks nothing (a fully proven deck legitimately does). */
   async landQuestion(): Promise<{ correct: number; n: number } | null> {

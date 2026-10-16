@@ -3,8 +3,11 @@ import { journey } from '../dsl'
 
 // Sections are a view of the served article, not a second content pipeline.
 // Source equality is checked independently of the semantic order. Integrated
-// section/media/game controls: all 47 named mutants killed (2026-10-16), receipts
-// in orchestrator scratch/article-sections/verification-{2,3}-mutants.
+// section/media/game controls (2026-10-16): 46 retained assertion kills plus
+// the corrected wheel and two review controls, 49 total. The original wheel
+// delivery timeout was NOT a behavioral kill. Capture-phase delivery now reaches
+// the ownership assertion. Receipts: orchestrator scratch/article-sections/
+// verification-{2,3}-mutants and review-fixes-2-mutants; timeouts never count.
 // Initial non-kill: head-over-map survived the dual-pair orb fixture because its
 // orb was clear of the misplaced head. The approved-home assertion below rejects
 // it; the unchanged native orb-tap journey also passes. TOC geometry/screenshots:

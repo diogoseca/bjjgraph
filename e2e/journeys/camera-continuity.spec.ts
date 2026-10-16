@@ -465,7 +465,7 @@ for (const viewport of VIEWPORTS) {
       await expect(page.locator('[data-reader-ready="true"]')).toBeVisible();
       await page.evaluate(() => { const a = (window as any).__neural; for (const k of ["film", "card", "hand"]) a.setLayer(k, false, "test"); });
       await j.clickByMouse('[data-layer-hide="book"]', "put the article away too, leaving the graph unbounded");
-      await page.waitForTimeout(80); // apply the coalesced native layout before pumping the camera
+      await j.readerLayoutSettled();
       await j.advance(6000); // the real Book click's four-second input lease must expire first
       const before = await frame(page);
       expect(before.rows, "no rows while every layer is off").toBeNull();
@@ -488,7 +488,7 @@ for (const viewport of VIEWPORTS) {
       // other surfaces away so the late film alone changes an unbounded band.
       await page.evaluate(() => { const a = (window as any).__neural; a.setLayer("card", false, "test"); a.setLayer("hand", false, "test"); });
       await j.clickByMouse('[data-layer-hide="book"]', "make the late film own the clearance change");
-      await page.waitForTimeout(80);
+      await j.readerLayoutSettled();
       await j.advance(6000); // let the mouse-input camera lease and the resulting flight settle
       const before = await frame(page);
       expect(before.film, "no film row before its content arrives").toBeNull();
