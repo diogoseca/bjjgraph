@@ -11141,3 +11141,35 @@ dismiss button (x336–366, y110.969–154.969) overlaps the film next arrow
 the arrow scrolls normally. Film-only journeys use ordinary new-user progress instead of
 the harness's artificial White-track completion, preserving all existing arrow assertions.
 That fixture correction does not resolve the real transient collision.
+
+The integrated local full core ran 956 cases: 934 passed, five skipped, 17 unexpected
+failures. All 17 passed in the rebuilt 130-case focused run; two new camera-sampler
+failures were stale premises separating gameplay rows from the persistent shelf and
+were repaired without changing bounds. The next run passed all 13 focused cases,
+including the forced phone/desktop press ordering, and all 12 phone execution trials.
+Five final positive controls passed, including native orb tapping, wheel paging and
+both media widths. The original intermittent phone execution geometry did not recur
+in those 12 trials; that does not by itself establish its original cause. The
+orchestrator assigns the final whole-suite gate to GitHub's four core shards plus
+generated suite, with an independent review before merge, instead of another local
+full core holding the shared build lock.
+
+All 47 named mutation controls are killed. Two initial survivors exposed coverage
+gaps: identical CSSOM assignments emit no MutationObserver record in Chromium, so
+the media journey now counts owned style calls too (53 vs the expected zero); and
+the old orb fixture no longer crosses a misplaced reader head, so the existing
+approved-home assertion is its precise guard. The unchanged orb-tap journey remains
+green. The wheel mutant loses native delivery after a replaced face; its behavioral
+wait fails while the unmodified positive completes in 5.3 seconds. Mutations restore
+the exact original app hashes. No test tolerance was widened.
+
+Against independently rebuilt dev 45cf1f9e1 on the same emitted corpus: eager gzip
+346,317 → 347,543 B (+1,226); first-hand core gzip 365,711 → 366,831 B (+1,120);
+deferred raw 480,054 → 500,939 B (+20,885); largest chunk remains 39,000 B. Both
+browser first-hand observations count 11 requests. Equivalent CSS grouping saves
+317 B, the duplicate stylesheet wait 91 B, unused generic film-map entries 35 B,
+and the header margin fix three B, totaling 446 B. No further safe feature-preserving
+trim was found in this lane. D-305 and the separate D-305a amendment set both deferred
+ceilings to exactly the measured 500,939 B, with no headroom; videos owns returning
+them to 500,000. Eager growth is 4,545 B against the unchanged 342,998 B checkpoint,
+within its 5,000 B cap. No payload checkpoint was accepted or automatically updated.

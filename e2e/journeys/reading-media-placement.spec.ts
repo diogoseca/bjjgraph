@@ -5,7 +5,10 @@ import { journey } from '../dsl'
 // The real published clip row and app's expansion/lifecycle are exercised. Only
 // the external YouTube transport is replaced: its iframe plays a real local
 // canvas MediaStream. This proves browser move continuity, not YouTube service uptime.
-// Mutation receipts/non-kills are recorded after the final built run.
+// All nine seam mutants killed (2026-10-16): orchestrator scratch/article-sections/
+// verification-{2,3}-mutants. Initial non-kill: identical CSSOM writes produced no
+// MutationObserver records. The owned-style call counter below rejects that
+// style-churn mutant (53 sets vs 0); both unmodified viewport cases pass.
 const PATH = '/Transitions/Knee-Slice-Pass/Attacker'
 const READY = '[data-reader][data-reader-ready="true"]'
 const FOCUS = { v: 2, settings: { readingFocus: true, readingCard: false, readingHand: false, readingMap: true, readingFeedback: false }, settingsAt: {} }
@@ -229,18 +232,32 @@ for (const width of [1366, 390]) {
     await page.evaluate(async () => { await new Promise(requestAnimationFrame); await new Promise(requestAnimationFrame) })
     const churn = await page.evaluate(async () => {
       const a = (window as any).__neural, reader = a._reader, now = reader.layoutNow
-      let calls = 0, writes = 0
+      let calls = 0, writes = 0, sets = 0
       reader.layoutNow = function () { calls++; return now.call(this) }
+      const elements = [reader.root, reader.game, reader.mediaHome, reader.articleEl, reader.head,
+        reader.dock, reader.contents, a._landEl, a._landStackEl, a._landNavEl, a.optionsRef.current].filter(Boolean) as HTMLElement[]
+      // Chromium can suppress MutationObserver records for an identical CSSOM
+      // assignment. Count the owned style calls too: the first style-churn mutant
+      // survived the observer alone even though layout rewrote every property.
+      const styles = new Set(elements.map(el => el.style)), set = CSSStyleDeclaration.prototype.setProperty
+      CSSStyleDeclaration.prototype.setProperty = function (this: CSSStyleDeclaration, ...args: Parameters<typeof set>) {
+        if (styles.has(this)) sets++
+        return set.apply(this, args)
+      }
       const observer = new MutationObserver(ms => { writes += ms.length })
-      for (const el of [reader.root, reader.game, reader.mediaHome, reader.articleEl, reader.root.querySelector('.ng-reader-head'), a._landEl, a.optionsRef.current]) {
+      for (const el of elements) {
         observer.observe(el, { attributes: true, attributeFilter: ['style'] })
       }
-      for (let i = 0; i < 20; i++) reader.layout()
-      await new Promise(requestAnimationFrame); await new Promise(requestAnimationFrame)
-      observer.disconnect(); reader.layoutNow = now
-      return { calls, writes }
+      try {
+        for (let i = 0; i < 20; i++) reader.layout()
+        await new Promise(requestAnimationFrame); await new Promise(requestAnimationFrame)
+        return { calls, writes, sets }
+      } finally {
+        observer.disconnect(); reader.layoutNow = now
+        CSSStyleDeclaration.prototype.setProperty = set
+      }
     })
-    expect(churn).toEqual({ calls: 1, writes: 0 })
+    expect(churn).toEqual({ calls: 1, writes: 0, sets: 0 })
     for (const size of [{ width: 768, height: 1024 }, { width, height: width === 390 ? 844 : 768 }]) {
       await page.setViewportSize(size); await j.advance(100)
     }

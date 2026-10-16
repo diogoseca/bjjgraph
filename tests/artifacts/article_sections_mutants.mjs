@@ -54,7 +54,7 @@ const mutants = [
   ['chrome-hook-ignored', sections, 'optional chrome frame', s => replace(s, 'typeof a.readerChromeFrame === "function"', 'false')],
   ['chrome-node-band-lost', sections, 'optional chrome frame', s => replace(s, 'start += chrome.offset;', 'start = chrome.offset;')],
   ['chrome-bottom-reserve-ignored', sections, 'optional chrome frame', s => replace(s, 'chrome?.bottomReserve != null', 'false')],
-  ['head-over-map', 'dual-pair.spec.ts', 'hit-test reads where the orb is drawn', s => replace(s, 'const parent = chrome ? this.root : this.articleEl,', 'const parent = this.root,'), css => css + '\n.ng-reader>.ng-reader-head{left:calc(50% - 455px);top:0}\n'],
+  ['head-over-map', sections, '1366px chrome keeps', s => replace(s, 'const parent = chrome ? this.root : this.articleEl,', 'const parent = this.root,'), css => css + '\n.ng-reader>.ng-reader-head{left:calc(50% - 455px);top:0}\n'],
   ['phone-tools-in-header', sections, '390px chrome keeps', s => replace(s, 'chrome && W <= 640 ? this.articleEl : head', 'false ? this.articleEl : head')],
   ['execution-label-clearance-lost', 'card-presentation.spec.ts', '1440px.*chosen card rises', s => replace(s, 'card.style.marginTop = shown.getBoundingClientRect().top - box.top - parseFloat(getComputedStyle(row).paddingTop) + "px";', 'card.style.marginTop = "0px";')],
   ['execution-row-anchor-lost', 'card-click-contract.spec.ts', 'with the pane open the stand-in', s => replace(s, 'card._ngDock.reader = { rowTop: box.top - game.top, height: game.height };', '/* mutant: forget the selected row */')],

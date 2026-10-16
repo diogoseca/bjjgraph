@@ -2,11 +2,13 @@ import { expect, test, type Page } from '@playwright/test'
 import { journey } from '../dsl'
 
 // Sections are a view of the served article, not a second content pipeline.
-// Source equality is checked independently of the semantic order. Mutant receipts
-// and any non-kills are recorded here after the final built suite is exercised.
-// Floating TOC: 13 focused journeys pass; seven TOC mutations killed (2026-10-15).
-// Receipts: orchestrator scratch/article-sections/toc-mutants and toc2-shots.json.
-// The remaining section/media controls still await the post-escape full run.
+// Source equality is checked independently of the semantic order. Integrated
+// section/media/game controls: all 47 named mutants killed (2026-10-16), receipts
+// in orchestrator scratch/article-sections/verification-{2,3}-mutants.
+// Initial non-kill: head-over-map survived the dual-pair orb fixture because its
+// orb was clear of the misplaced head. The approved-home assertion below rejects
+// it; the unchanged native orb-tap journey also passes. TOC geometry/screenshots:
+// scratch/article-sections/toc2-shots.json, including five shown widths.
 const READY = '[data-reader][data-reader-ready="true"]'
 const KNEE = '/Transitions/Knee-Slice-Pass'
 const LOOP = '/Submissions/Loop-Choke/from-Half-Guard/Defender'
