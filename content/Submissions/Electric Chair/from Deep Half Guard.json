@@ -526,6 +526,13 @@
         "duration": 43,
         "vertical": false,
         "front": true
+      },
+      {
+        "id": "sMbaY4vG2mM",
+        "title": "Electric Chair - Brandon Mccaghren - 10th Planet Jiu Jitsu - Lockdown Half Guard",
+        "channel": "Brandon Mccaghren",
+        "duration": 42,
+        "vertical": false
       }
     ]
   },
@@ -721,7 +728,16 @@
         "description": "Positional sparring starting from lockdown with partner working full Electric Chair game. Defender applies complete defensive progression: early prevention, mid-stage resistance, scramble transitions, and safe tapping. Track success rate across defensive windows to identify which stages need additional drilling. Integrate into rolling sessions with partner using lockdown as primary offensive platform."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "3A6oRsDf3oU",
+        "title": "Lockdown and Electric Chair counters and escapes for Jiu-Jitsu, MMA and…",
+        "channel": "Street Jitsu",
+        "duration": 285,
+        "vertical": false,
+        "front": true
+      }
+    ]
   },
   "variations_and_setups": [
     {

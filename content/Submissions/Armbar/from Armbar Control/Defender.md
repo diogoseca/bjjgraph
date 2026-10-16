@@ -170,6 +170,16 @@ description: "How to defend against the Armbar Finish in BJJ. Recognition cues, 
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "BJJ | How To Hitchhiker Armbar Escape",
+      "description": "Armbar from Armbar Control (Defender) film study: BJJ | How To Hitchhiker Armbar Escape.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gWfgCEvGZTo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/gWfgCEvGZTo",
+      "url": "https://www.youtube.com/watch?v=gWfgCEvGZTo",
+      "duration": "PT58S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
       "name": "THIS is my favorite armbar escape! #jiujitsu #jiujitsutips",
       "description": "Armbar from Armbar Control (Defender) film study: THIS is my favorite armbar escape! #jiujitsu #jiujitsutips.",
       "thumbnailUrl": "https://i.ytimg.com/vi/kNdKfUdgO4I/hqdefault.jpg",
@@ -205,6 +215,14 @@ Strategically, the defender must recognize the difference between early-phase de
 
 <p class="section-subtitle">Watch Armbar from Armbar Control (Defender) in action — curated instructionals</p>
 
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=gWfgCEvGZTo)
+
+<p class="clip-credit"><strong>BJJ | How To Hitchhiker Armbar Escape</strong> · 0:58 · <a href="https://www.youtube.com/watch?v=gWfgCEvGZTo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
 
 <div class="film-clip">
 

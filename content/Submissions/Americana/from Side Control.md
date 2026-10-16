@@ -46,22 +46,12 @@ description: "Master the Americana from Side Control in BJJ. Complete guide to s
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Escape americana/key lock from side to chest lock.",
-      "description": "Americana from Side Control film study: Escape americana/key lock from side to chest lock..",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Unz1euhI2y8/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Unz1euhI2y8",
-      "url": "https://www.youtube.com/watch?v=Unz1euhI2y8",
+      "name": "Finishing the Americana",
+      "description": "Americana from Side Control film study: Finishing the Americana.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/mk4jR6Anm8g/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/mk4jR6Anm8g",
+      "url": "https://www.youtube.com/watch?v=mk4jR6Anm8g",
       "duration": "PT71S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Americana Escape From Side Control",
-      "description": "Americana from Side Control film study: Americana Escape From Side Control.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/sf-qacbOTZI/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/sf-qacbOTZI",
-      "url": "https://www.youtube.com/watch?v=sf-qacbOTZI",
-      "duration": "PT180S"
     }
   ]
 }
@@ -124,17 +114,9 @@ The Americana from Side Control exemplifies the principle of positional dominanc
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=Unz1euhI2y8)
+![](https://www.youtube.com/watch?v=mk4jR6Anm8g)
 
-<p class="clip-credit"><strong>Escape americana/key lock from side to chest lock.</strong> · 1:11 · <a href="https://www.youtube.com/watch?v=Unz1euhI2y8" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=sf-qacbOTZI)
-
-<p class="clip-credit"><strong>Americana Escape From Side Control</strong> · 3:00 · <a href="https://www.youtube.com/watch?v=sf-qacbOTZI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Finishing the Americana</strong> · 1:11 · <a href="https://www.youtube.com/watch?v=mk4jR6Anm8g" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

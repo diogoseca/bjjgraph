@@ -178,6 +178,47 @@ description: "Learn to execute the calf slicer from backside 50-50 with precise 
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Calf Slicer from Backside 50-50 (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "50/50 to Calf Slicer",
+      "description": "Calf Slicer from Backside 50-50 (Attacker) film study: 50/50 to Calf Slicer.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/UsEvrDzgbqE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/UsEvrDzgbqE",
+      "url": "https://www.youtube.com/watch?v=UsEvrDzgbqE",
+      "duration": "PT13S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "5050 Calf Slicer",
+      "description": "Calf Slicer from Backside 50-50 (Attacker) film study: 5050 Calf Slicer.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/d4KgnwWTkuk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/d4KgnwWTkuk",
+      "url": "https://www.youtube.com/watch?v=d4KgnwWTkuk",
+      "duration": "PT34S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Calf Slicer Positions: RDLR, 50/50, Z Guard",
+      "description": "Calf Slicer from Backside 50-50 (Attacker) film study: Calf Slicer Positions: RDLR, 50/50, Z Guard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/buBg-yzLTrY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/buBg-yzLTrY",
+      "url": "https://www.youtube.com/watch?v=buBg-yzLTrY",
+      "duration": "PT54S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -191,6 +232,40 @@ Attacking the calf slicer from backside 50-50 requires threading your shin behin
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Calf Slicer from Backside 50-50 (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=UsEvrDzgbqE)
+
+<p class="clip-credit"><strong>50/50 to Calf Slicer</strong> · 0:13 · <a href="https://www.youtube.com/watch?v=UsEvrDzgbqE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=d4KgnwWTkuk)
+
+<p class="clip-credit"><strong>5050 Calf Slicer</strong> · 0:34 · <a href="https://www.youtube.com/watch?v=d4KgnwWTkuk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=buBg-yzLTrY)
+
+<p class="clip-credit"><strong>Calf Slicer Positions: RDLR, 50/50, Z Guard</strong> · 0:54 · <a href="https://www.youtube.com/watch?v=buBg-yzLTrY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

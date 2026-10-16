@@ -158,6 +158,47 @@ description: "Defend the Heel Hook from Ushiro Ashi-Garami. Recognition cues, es
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Heel Hook from Ushiro Ashi (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Double outside ashi heel hook escape / running man escape",
+      "description": "Heel Hook from Ushiro Ashi (Defender) film study: Double outside ashi heel hook escape / running man escape.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2RLgyzWN71Y/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2RLgyzWN71Y",
+      "url": "https://www.youtube.com/watch?v=2RLgyzWN71Y",
+      "duration": "PT54S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Outside heel hook defense to Inside Heel Hook",
+      "description": "Heel Hook from Ushiro Ashi (Defender) film study: Outside heel hook defense to Inside Heel Hook.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/clVAHxgRadE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/clVAHxgRadE",
+      "url": "https://www.youtube.com/watch?v=clVAHxgRadE",
+      "duration": "PT104S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "The Heel Hook Escape That\u0027ll Make Your Opponent Burn His Rashguard",
+      "description": "Heel Hook from Ushiro Ashi (Defender) film study: The Heel Hook Escape That\u0027ll Make Your Opponent Burn His Rashguard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/EP49pafOr_I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/EP49pafOr_I",
+      "url": "https://www.youtube.com/watch?v=EP49pafOr_I",
+      "duration": "PT172S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -171,6 +212,40 @@ Defending the heel hook from ushiro ashi-garami requires immediate recognition o
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Heel Hook from Ushiro Ashi (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2RLgyzWN71Y)
+
+<p class="clip-credit"><strong>Double outside ashi heel hook escape / running man escape</strong> · 0:54 · <a href="https://www.youtube.com/watch?v=2RLgyzWN71Y" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=clVAHxgRadE)
+
+<p class="clip-credit"><strong>Outside heel hook defense to Inside Heel Hook</strong> · 1:44 · <a href="https://www.youtube.com/watch?v=clVAHxgRadE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=EP49pafOr_I)
+
+<p class="clip-credit"><strong>The Heel Hook Escape That&#39;ll Make Your Opponent Burn His Rashguard</strong> · 2:52 · <a href="https://www.youtube.com/watch?v=EP49pafOr_I" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

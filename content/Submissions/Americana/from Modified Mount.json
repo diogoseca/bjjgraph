@@ -418,7 +418,22 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "Tgj7ZVWheog",
+        "title": "Americana Ezekiel from Mount (Try it out Tuesday)",
+        "channel": "Thunderdome BJJ",
+        "duration": 21,
+        "vertical": false
+      },
+      {
+        "id": "SkFE9CBKvsA",
+        "title": "Modified Americana Grip",
+        "channel": "BJJ After Forty",
+        "duration": 61,
+        "vertical": false
+      }
+    ]
   },
   "defender": {
     "name": "Americana from Modified Mount Defender",
@@ -573,6 +588,22 @@
         "description": "Start in Modified Mount with full live resistance. Bottom player focuses on preventing the Americana while working general Modified Mount escapes. Top player has full submission intent. 3-minute rounds with reset to Modified Mount. Track how many Americanas are prevented versus escaped versus tapped to, and identify which stage of the defense is breaking down."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "NZjUCo8os8Q",
+        "title": "Simple Americana Armlock Escape",
+        "channel": "Eddie Kone Academy Of Jiu-Jitsu",
+        "duration": 61,
+        "vertical": false,
+        "front": true
+      },
+      {
+        "id": "FNyL93v5fGs",
+        "title": "Defending The Americana - BJJ Move by Lachlan Giles",
+        "channel": "BJJ Fanatics",
+        "duration": 91,
+        "vertical": false
+      }
+    ]
   }
 }

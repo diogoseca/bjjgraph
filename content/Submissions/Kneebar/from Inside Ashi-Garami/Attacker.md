@@ -178,6 +178,27 @@ description: "Execute the kneebar from inside ashi-garami with systematic hip po
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kneebar from Inside Ashi-Garami (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Single leg X to knee bar",
+      "description": "Kneebar from Inside Ashi-Garami (Attacker) film study: Single leg X to knee bar.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fZRfKh1B53o/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fZRfKh1B53o",
+      "url": "https://www.youtube.com/watch?v=fZRfKh1B53o",
+      "duration": "PT76S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -191,6 +212,24 @@ Executing the kneebar from inside ashi-garami requires transitioning from standa
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kneebar from Inside Ashi-Garami (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fZRfKh1B53o)
+
+<p class="clip-credit"><strong>Single leg X to knee bar</strong> · 1:16 · <a href="https://www.youtube.com/watch?v=fZRfKh1B53o" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

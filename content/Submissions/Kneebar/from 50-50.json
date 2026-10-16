@@ -508,6 +508,13 @@
         "channel": "Revolution BJJ",
         "duration": 126,
         "vertical": false
+      },
+      {
+        "id": "hn5ts5EWZ1A",
+        "title": "5. Kneebar from Bottom",
+        "channel": "Dr. Deng",
+        "duration": 17,
+        "vertical": false
       }
     ]
   },
@@ -690,7 +697,23 @@
         "description": "Partner establishes partial kneebar control (foot captured, hip partially positioned) at 50-70% resistance. Practice bridge and roll escapes, knee rotation escapes, and counter-attack entries to opponent's exposed leg. Integrate decision-making between escape paths based on attacker's control quality. Begin live positional sparring from kneebar defense position."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "wBRG0fY94fs",
+        "title": "How to Defend a Kneebar (and Prevent a Backstep Pass)",
+        "channel": "Revolution BJJ",
+        "duration": 59,
+        "vertical": false,
+        "front": true
+      },
+      {
+        "id": "NuWBh3LN-SY",
+        "title": "Knee Bar defense + take the back",
+        "channel": "Bicudo BJJ",
+        "duration": 21,
+        "vertical": false
+      }
+    ]
   },
   "variations_and_setups": [
     {

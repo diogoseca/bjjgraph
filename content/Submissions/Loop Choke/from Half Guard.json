@@ -448,6 +448,13 @@
         "duration": 59,
         "vertical": false,
         "front": true
+      },
+      {
+        "id": "MeewDSMPwA0",
+        "title": "Loop choke from half guard",
+        "channel": "JeanJacquesMachado",
+        "duration": 310,
+        "vertical": false
       }
     ]
   },
@@ -642,7 +649,16 @@
         "description": "Start in half guard bottom against a partner specifically hunting the loop choke along with standard half guard passes. Defend using all trained responses: collar prevention, grip stripping, guard closing, and modified offensive movement. Partner chains the loop choke with pressure passes and other submissions. Track how often you prevent the choke from being established versus needing to escape a partially locked choke."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "pZmJpXSwRTk",
+        "title": "Loop choke escape",
+        "channel": "Ninja Pinto",
+        "duration": 60,
+        "vertical": false,
+        "front": true
+      }
+    ]
   },
   "variations_and_setups": [
     {

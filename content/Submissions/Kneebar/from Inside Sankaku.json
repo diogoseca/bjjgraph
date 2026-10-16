@@ -411,6 +411,13 @@
         "duration": 88,
         "vertical": false,
         "front": true
+      },
+      {
+        "id": "H7nUDNYPavw",
+        "title": "Knee bar from 411",
+        "channel": "BOWERHOUSE MMA",
+        "duration": 42,
+        "vertical": false
       }
     ]
   },
@@ -591,6 +598,15 @@
         "description": "Start in Inside Sankaku bottom with partner free to attack heel hooks and kneebars at full intensity. Practice recognizing which attack is developing, selecting the correct defensive response, and executing under pressure. Includes tap awareness training and energy management."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "wBRG0fY94fs",
+        "title": "How to Defend a Kneebar (and Prevent a Backstep Pass)",
+        "channel": "Revolution BJJ",
+        "duration": 59,
+        "vertical": false,
+        "front": true
+      }
+    ]
   }
 }

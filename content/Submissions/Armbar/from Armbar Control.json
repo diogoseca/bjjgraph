@@ -461,7 +461,22 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "gDn6uThIABM",
+        "title": "Armbar from mount when they bump you off",
+        "channel": "Kyle Dimmitt",
+        "duration": 75,
+        "vertical": false
+      },
+      {
+        "id": "vSmRbpNmf-E",
+        "title": "Roger Gracie | ARM BARS",
+        "channel": "Jiu Jitsu Moves",
+        "duration": 102,
+        "vertical": false
+      }
+    ]
   },
   "defender": {
     "name": "from Armbar Control Defender",
@@ -667,12 +682,19 @@
     ],
     "clips": [
       {
+        "id": "gWfgCEvGZTo",
+        "title": "BJJ | How To Hitchhiker Armbar Escape",
+        "channel": "Evolve Mixed Martial Arts",
+        "duration": 58,
+        "vertical": false,
+        "front": true
+      },
+      {
         "id": "kNdKfUdgO4I",
         "title": "THIS is my favorite armbar escape! #jiujitsu #jiujitsutips",
         "channel": "Matt Arroyo Jiu Jitsu ",
         "duration": 92,
-        "vertical": false,
-        "front": true
+        "vertical": false
       }
     ]
   }

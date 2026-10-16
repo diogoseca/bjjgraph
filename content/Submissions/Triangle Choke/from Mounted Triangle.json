@@ -444,7 +444,23 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "8f6rsOtI_HU",
+        "title": "Escape the Mount and Punish Your Opponent with a Mounted Triangle - Brazilian…",
+        "channel": "Way of BJJ",
+        "duration": 96,
+        "vertical": false,
+        "front": true
+      },
+      {
+        "id": "XWR8C2xp1SU",
+        "title": "Triangle to reverse triangle and back to finish   short",
+        "channel": "RENZO GRACIE HOLLAND",
+        "duration": 51,
+        "vertical": false
+      }
+    ]
   },
   "defender": {
     "name": "Triangle Choke from Mounted Triangle Defender",
@@ -637,6 +653,27 @@
         "channel": "Nick Ortiz Jiu Jitsu",
         "duration": 427,
         "front": true
+      },
+      {
+        "id": "sR2rS2dwpNY",
+        "title": "How To Escape a Triangle Choke w/ Rener & Ryron Gracie",
+        "channel": "Hayabusa",
+        "duration": 117,
+        "vertical": false
+      },
+      {
+        "id": "szAvJFvIzx4",
+        "title": "How to Escape the Triangle Choke from Guard",
+        "channel": "Stephan Kesting",
+        "duration": 591,
+        "vertical": false
+      },
+      {
+        "id": "Ss49jnCob0w",
+        "title": "Avoiding and Defending the Triangle Choke (Lachlan Giles)",
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 775,
+        "vertical": false
       }
     ]
   }

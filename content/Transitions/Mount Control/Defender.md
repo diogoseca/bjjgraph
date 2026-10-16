@@ -166,6 +166,16 @@ description: "How to defend against Mount Control in BJJ. Recognition cues, defe
       "embedUrl": "https://www.youtube.com/embed/2uuP147GoBk",
       "url": "https://www.youtube.com/watch?v=2uuP147GoBk",
       "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "How to Escape the Mount: Knee and Elbow Escape",
+      "description": "Mount Control (Defender) film study: How to Escape the Mount: Knee and Elbow Escape.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pUZcLTWHAzk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/pUZcLTWHAzk",
+      "url": "https://www.youtube.com/watch?v=pUZcLTWHAzk",
+      "duration": "PT71S"
     }
   ]
 }
@@ -196,6 +206,14 @@ Defending against Mount Control requires understanding that the top player's pri
 ![](https://www.youtube.com/watch?v=2uuP147GoBk)
 
 <p class="clip-credit"><strong>Mount (Bottom) Bridge &amp; Roll Escape #2</strong> · 1:01 · <a href="https://www.youtube.com/watch?v=2uuP147GoBk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=pUZcLTWHAzk)
+
+<p class="clip-credit"><strong>How to Escape the Mount: Knee and Elbow Escape</strong> · 1:11 · <a href="https://www.youtube.com/watch?v=pUZcLTWHAzk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

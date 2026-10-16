@@ -596,12 +596,19 @@
     ],
     "clips": [
       {
+        "id": "uILaTRBgpG0",
+        "title": "Defense sweep from the double under pass",
+        "channel": "Smith ♞ | Brazilian Jiu-jitsu",
+        "duration": 28,
+        "vertical": false,
+        "front": true
+      },
+      {
         "id": "1UOj60dc540",
         "title": "Double Under Stack Pass Counter - Triangle",
         "channel": "Adam Bradley",
         "duration": 68,
-        "vertical": false,
-        "front": true
+        "vertical": false
       },
       {
         "id": "Ad0qtay9IVQ",

@@ -442,7 +442,30 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "hSo_Km-MOtQ",
+        "title": "Professor Aaron head and arm triangle from closed guard",
+        "channel": "The Jiujitsu Project Foundation",
+        "duration": 91,
+        "vertical": false,
+        "front": true
+      },
+      {
+        "id": "QGiT5mFu_Qo",
+        "title": "Head and Arm Choke Variations - Arm Triangles",
+        "channel": "War Room Jiu Jitsu",
+        "duration": 122,
+        "vertical": false
+      },
+      {
+        "id": "wrZCRBlAB3Y",
+        "title": "Head and Arm Choke from Mount Finishing Details",
+        "channel": "Roger Gracie TV",
+        "duration": 265,
+        "vertical": false
+      }
+    ]
   },
   "defender": {
     "name": "from Shoulder of Justice Defender",
@@ -629,6 +652,22 @@
         "description": "Partner starts in Shoulder of Justice top with full offensive options including the arm triangle transition. Defend all attacks with focus on far arm positioning awareness to prevent the arm triangle setup while still managing jaw pressure. 5-minute rounds, reset on escape or submission."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "D2vkZGTD78I",
+        "title": "The Fastest Escape Out Of The Arm Triangle",
+        "channel": "Adam Bradley",
+        "duration": 31,
+        "vertical": false,
+        "front": true
+      },
+      {
+        "id": "Fx6qjR6a_xE",
+        "title": "3 Arm Triangle Choke Defenses - From Prevention To Late Defense",
+        "channel": "MMA Leech",
+        "duration": 273,
+        "vertical": false
+      }
+    ]
   }
 }

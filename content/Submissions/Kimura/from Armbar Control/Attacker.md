@@ -178,6 +178,27 @@ description: "Learn to attack with the Kimura from Armbar Control. Step-by-step 
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kimura from Armbar Control (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Kimura/Armbar from side control | BJJ submissions",
+      "description": "Kimura from Armbar Control (Attacker) film study: Kimura/Armbar from side control | BJJ submissions.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/M-xjYAPgKVU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/M-xjYAPgKVU",
+      "url": "https://www.youtube.com/watch?v=M-xjYAPgKVU",
+      "duration": "PT51S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -191,6 +212,24 @@ Attacking with the Kimura from Armbar Control requires recognizing the precise m
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kimura from Armbar Control (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=M-xjYAPgKVU)
+
+<p class="clip-credit"><strong>Kimura/Armbar from side control | BJJ submissions</strong> · 0:51 · <a href="https://www.youtube.com/watch?v=M-xjYAPgKVU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

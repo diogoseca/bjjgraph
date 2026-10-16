@@ -425,7 +425,23 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "rc77idEskwo",
+        "title": "Bow and Arrow Choke by Helena Crevar",
+        "channel": "BJJ Fanatics",
+        "duration": 55,
+        "vertical": false,
+        "front": true
+      },
+      {
+        "id": "R5LFNqtx1ps",
+        "title": "Bow & Arrow Choke",
+        "channel": "Gracie Barra Jiu-jitsu",
+        "duration": 66,
+        "vertical": false
+      }
+    ]
   },
   "defender": {
     "name": "from Rear Triangle Defender",
@@ -600,6 +616,22 @@
         "description": "Start in rear triangle with partner working full-speed bow and arrow attempts. Defend using all available options including grip fighting, chin defense, and rolling escapes. Practice recognizing when to tap rather than continuing to defend a fully locked submission. 2-minute rounds with reset after finish or successful escape to guard. Track defensive success rate to measure improvement."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "6PP0y4ael7w",
+        "title": "Escape The Bow & Arrow Choke Even After They Grab Your Pants!",
+        "channel": "Henry Akins' Hidden Jiu-Jitsu",
+        "duration": 134,
+        "vertical": false,
+        "front": true
+      },
+      {
+        "id": "QVUP7U8W-0c",
+        "title": "Bow and Arrow Choke Defense",
+        "channel": "Stephan Kesting",
+        "duration": 246,
+        "vertical": false
+      }
+    ]
   }
 }

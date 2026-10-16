@@ -178,6 +178,47 @@ description: "Learn to execute the Inverted Triangle from Triangle Control. Step
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Inverted Triangle from Triangle Control (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Tap everyone with this inverted triangle #bjj #brazillianjiujitsu #triangle",
+      "description": "Inverted Triangle from Triangle Control (Attacker) film study: Tap everyone with this inverted triangle #bjj #brazillianjiujitsu #triangle.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/i2l9Gx72DU0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/i2l9Gx72DU0",
+      "url": "https://www.youtube.com/watch?v=i2l9Gx72DU0",
+      "duration": "PT25S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Inverted Triangle",
+      "description": "Inverted Triangle from Triangle Control (Attacker) film study: Inverted Triangle.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xAW3spYg9vE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/xAW3spYg9vE",
+      "url": "https://www.youtube.com/watch?v=xAW3spYg9vE",
+      "duration": "PT51S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Inverted triangle choke finish",
+      "description": "Inverted Triangle from Triangle Control (Attacker) film study: Inverted triangle choke finish.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/RCzCmK7AeVU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/RCzCmK7AeVU",
+      "url": "https://www.youtube.com/watch?v=RCzCmK7AeVU",
+      "duration": "PT60S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -191,6 +232,40 @@ Executing the inverted triangle from triangle control requires precise hip rotat
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Inverted Triangle from Triangle Control (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=i2l9Gx72DU0)
+
+<p class="clip-credit"><strong>Tap everyone with this inverted triangle #bjj #brazillianjiujitsu #triangle</strong> · 0:25 · <a href="https://www.youtube.com/watch?v=i2l9Gx72DU0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=xAW3spYg9vE)
+
+<p class="clip-credit"><strong>Inverted Triangle</strong> · 0:51 · <a href="https://www.youtube.com/watch?v=xAW3spYg9vE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=RCzCmK7AeVU)
+
+<p class="clip-credit"><strong>Inverted triangle choke finish</strong> · 1:00 · <a href="https://www.youtube.com/watch?v=RCzCmK7AeVU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

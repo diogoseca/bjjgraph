@@ -653,12 +653,19 @@
     ],
     "clips": [
       {
+        "id": "5F3ZM01oPVo",
+        "title": "BJJ | How To Kimura From Bottom Half Guard",
+        "channel": "Evolve Mixed Martial Arts",
+        "duration": 41,
+        "vertical": false,
+        "front": true
+      },
+      {
         "id": "dgYwflmcxKk",
         "title": "Georges St-Pierre | Technique Breakdown: Kimura Half Guard Bottom | The Gentle…",
         "channel": "Hayabusa",
         "duration": 72,
-        "vertical": false,
-        "front": true
+        "vertical": false
       }
     ]
   },
@@ -940,6 +947,20 @@
         "duration": 52,
         "vertical": false,
         "front": true
+      },
+      {
+        "id": "7dU6lsfyowU",
+        "title": "Escaping & Preventing the Kimura from Half Guard | BJJ Submission Defence",
+        "channel": "KD Grappling | Kieran Davern",
+        "duration": 258,
+        "vertical": false
+      },
+      {
+        "id": "GOLwVNTVcnY",
+        "title": "The Daily Dirtball: \"Kimura Defense Grip Breaks\"",
+        "channel": "Dirtball BJJ",
+        "duration": 81,
+        "vertical": false
       }
     ]
   }

@@ -36,6 +36,27 @@ description: "Master the Kimura shoulder lock from flattened half guard top. Exp
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kimura from Flattened Half Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Very Effective Kimura from Reverse Half Guard!",
+      "description": "Kimura from Flattened Half Guard film study: Very Effective Kimura from Reverse Half Guard!.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WS4OuwGvi9Y/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/WS4OuwGvi9Y",
+      "url": "https://www.youtube.com/watch?v=WS4OuwGvi9Y",
+      "duration": "PT41S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -83,6 +104,24 @@ The finishing mechanics differ from standard Kimura applications because the fla
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kimura from Flattened Half Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=WS4OuwGvi9Y)
+
+<p class="clip-credit"><strong>Very Effective Kimura from Reverse Half Guard!</strong> · 0:41 · <a href="https://www.youtube.com/watch?v=WS4OuwGvi9Y" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="outcomes" class="content-section">

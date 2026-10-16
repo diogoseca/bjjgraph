@@ -152,6 +152,37 @@ description: "Defend the Guillotine Choke from Butterfly Guard. Recognition cues
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Guillotine Choke from Butterfly Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Late Arm in Guillotine Defense by Noel Danforth",
+      "description": "Guillotine Choke from Butterfly Guard (Defender) film study: Late Arm in Guillotine Defense by Noel Danforth.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fYE1jgWfIgY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fYE1jgWfIgY",
+      "url": "https://www.youtube.com/watch?v=fYE1jgWfIgY",
+      "duration": "PT188S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Guillotine Defense: The Vaulting Method (BJJ No Gi)",
+      "description": "Guillotine Choke from Butterfly Guard (Defender) film study: Guillotine Defense: The Vaulting Method (BJJ No Gi).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/VUaJgz4FzY0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/VUaJgz4FzY0",
+      "url": "https://www.youtube.com/watch?v=VUaJgz4FzY0",
+      "duration": "PT282S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -165,6 +196,32 @@ Defending the Guillotine Choke from Butterfly Guard requires early recognition o
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Guillotine Choke from Butterfly Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fYE1jgWfIgY)
+
+<p class="clip-credit"><strong>Late Arm in Guillotine Defense by Noel Danforth</strong> · 3:08 · <a href="https://www.youtube.com/watch?v=fYE1jgWfIgY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=VUaJgz4FzY0)
+
+<p class="clip-credit"><strong>Guillotine Defense: The Vaulting Method (BJJ No Gi)</strong> · 4:42 · <a href="https://www.youtube.com/watch?v=VUaJgz4FzY0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

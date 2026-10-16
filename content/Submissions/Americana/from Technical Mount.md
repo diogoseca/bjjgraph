@@ -36,6 +36,37 @@ description: "Master the Americana shoulder lock from Technical Mount in BJJ. Co
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Americana from Technical Mount \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "\ud83d\udee1\ufe0f Americana from Mount Explained | BJJ Submission Guide",
+      "description": "Americana from Technical Mount film study: \ud83d\udee1\ufe0f Americana from Mount Explained | BJJ Submission Guide.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/N-bZMbI2jSo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/N-bZMbI2jSo",
+      "url": "https://www.youtube.com/watch?v=N-bZMbI2jSo",
+      "duration": "PT110S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Americana to armbar from mount",
+      "description": "Americana from Technical Mount film study: Americana to armbar from mount.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/IGcqUUmdi3A/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/IGcqUUmdi3A",
+      "url": "https://www.youtube.com/watch?v=IGcqUUmdi3A",
+      "duration": "PT17S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -83,6 +114,32 @@ The finishing mechanics require a slow, paint-brush rotation of the opponent's e
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Americana from Technical Mount in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=N-bZMbI2jSo)
+
+<p class="clip-credit"><strong>🛡️ Americana from Mount Explained | BJJ Submission Guide</strong> · 1:50 · <a href="https://www.youtube.com/watch?v=N-bZMbI2jSo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=IGcqUUmdi3A)
+
+<p class="clip-credit"><strong>Americana to armbar from mount</strong> · 0:17 · <a href="https://www.youtube.com/watch?v=IGcqUUmdi3A" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="outcomes" class="content-section">

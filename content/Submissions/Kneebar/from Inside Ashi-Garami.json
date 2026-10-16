@@ -445,7 +445,16 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "fZRfKh1B53o",
+        "title": "Single leg X to knee bar",
+        "channel": "Fernaldi Jonatan",
+        "duration": 76,
+        "vertical": false,
+        "front": true
+      }
+    ]
   },
   "defender": {
     "name": "from Inside Ashi-Garami Defender",
@@ -608,6 +617,15 @@
         "description": "Start from inside ashi-garami with partner at full resistance. Practice recognizing and defending kneebar transitions in real-time while also addressing other leg lock threats. Focus on early recognition and immediate defensive response. Debrief after each round on whether defensive timing was appropriate and whether tap decisions were correct."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "3zJthP57wXw",
+        "title": "Kneebar Escape by Darren Branch | High Rollerz Academy - Jiu Jitsu…",
+        "channel": "High Rollerz Jiu Jitsu 💨🥋",
+        "duration": 73,
+        "vertical": false,
+        "front": true
+      }
+    ]
   }
 }

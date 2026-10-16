@@ -471,7 +471,23 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "KbOkHMVhnT8",
+        "title": "Renzo Gracie: Americana from the mount | Renzo Gracie Online Academy",
+        "channel": "Gallerr",
+        "duration": 91,
+        "vertical": false,
+        "front": true
+      },
+      {
+        "id": "mhpeVqdfZgQ",
+        "title": "Learn A Hidden Detail To Finish The Americana by Henry Akins (Rickson Gracie…",
+        "channel": "Bernardo Faria BJJ Fanatics",
+        "duration": 696,
+        "vertical": false
+      }
+    ]
   },
   "defender": {
     "name": "from 3-4 Mount Defender",
@@ -657,6 +673,29 @@
         "description": "Full-speed defensive drilling where successful defense must lead to immediate positional improvement—recover half guard, insert knee shield, or begin hip escape sequence. Never defend and stay flat. Every successful defense transitions into an escape attempt. Track which defensive responses create the best positional outcomes."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "NZjUCo8os8Q",
+        "title": "Simple Americana Armlock Escape",
+        "channel": "Eddie Kone Academy Of Jiu-Jitsu",
+        "duration": 61,
+        "vertical": false,
+        "front": true
+      },
+      {
+        "id": "FNyL93v5fGs",
+        "title": "Defending The Americana - BJJ Move by Lachlan Giles",
+        "channel": "BJJ Fanatics",
+        "duration": 91,
+        "vertical": false
+      },
+      {
+        "id": "Ht5OdSQG3BY",
+        "title": "Kipping Escape: Defend the Americana into the Heelhook (No Gi BJJ/Jiu-Jitsu)",
+        "channel": "Brian Glick",
+        "duration": 330,
+        "vertical": false
+      }
+    ]
   }
 }

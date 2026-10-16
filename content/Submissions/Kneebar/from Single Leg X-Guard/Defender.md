@@ -146,6 +146,27 @@ description: "How to defend against the kneebar from Single Leg X-Guard in BJJ. 
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kneebar from Single Leg X-Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How to Defend and Escape the Kneebar",
+      "description": "Kneebar from Single Leg X-Guard (Defender) film study: How to Defend and Escape the Kneebar.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/HwU4-0-JBUM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/HwU4-0-JBUM",
+      "url": "https://www.youtube.com/watch?v=HwU4-0-JBUM",
+      "duration": "PT533S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -159,6 +180,24 @@ Defending the kneebar from Single Leg X-Guard requires the bottom player to reco
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kneebar from Single Leg X-Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=HwU4-0-JBUM)
+
+<p class="clip-credit"><strong>How to Defend and Escape the Kneebar</strong> · 8:53 · <a href="https://www.youtube.com/watch?v=HwU4-0-JBUM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

@@ -178,6 +178,37 @@ description: "Learn to finish the triangle choke from mounted triangle. Step-by-
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Triangle Choke from Mounted Triangle (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Escape the Mount and Punish Your Opponent with a Mounted Triangle - Brazilian\u2026",
+      "description": "Triangle Choke from Mounted Triangle (Attacker) film study: Escape the Mount and Punish Your Opponent with a Mounted Triangle - Brazilian\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8f6rsOtI_HU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8f6rsOtI_HU",
+      "url": "https://www.youtube.com/watch?v=8f6rsOtI_HU",
+      "duration": "PT96S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Triangle to reverse triangle and back to finish   short",
+      "description": "Triangle Choke from Mounted Triangle (Attacker) film study: Triangle to reverse triangle and back to finish   short.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XWR8C2xp1SU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/XWR8C2xp1SU",
+      "url": "https://www.youtube.com/watch?v=XWR8C2xp1SU",
+      "duration": "PT51S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -191,6 +222,32 @@ Finishing the triangle choke from mounted triangle demands precise angle control
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Triangle Choke from Mounted Triangle (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8f6rsOtI_HU)
+
+<p class="clip-credit"><strong>Escape the Mount and Punish Your Opponent with a Mounted Triangle - Brazilian…</strong> · 1:36 · <a href="https://www.youtube.com/watch?v=8f6rsOtI_HU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=XWR8C2xp1SU)
+
+<p class="clip-credit"><strong>Triangle to reverse triangle and back to finish   short</strong> · 0:51 · <a href="https://www.youtube.com/watch?v=XWR8C2xp1SU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

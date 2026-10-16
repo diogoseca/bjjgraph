@@ -170,6 +170,16 @@ description: "Learn to defend and escape the Kimura from Kimura Trap. Recognitio
       "embedUrl": "https://www.youtube.com/embed/GOLwVNTVcnY",
       "url": "https://www.youtube.com/watch?v=GOLwVNTVcnY",
       "duration": "PT81S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Late Kimura Defense from Bottom Side Control",
+      "description": "Kimura from Kimura Trap (Defender) film study: Late Kimura Defense from Bottom Side Control.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/uRn3DRICpeY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/uRn3DRICpeY",
+      "url": "https://www.youtube.com/watch?v=uRn3DRICpeY",
+      "duration": "PT100S"
     }
   ]
 }
@@ -201,6 +211,14 @@ Defending the Kimura from Kimura Trap requires early recognition that the attack
 ![](https://www.youtube.com/watch?v=GOLwVNTVcnY)
 
 <p class="clip-credit"><strong>The Daily Dirtball: &#34;Kimura Defense Grip Breaks&#34;</strong> · 1:21 · <a href="https://www.youtube.com/watch?v=GOLwVNTVcnY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=uRn3DRICpeY)
+
+<p class="clip-credit"><strong>Late Kimura Defense from Bottom Side Control</strong> · 1:40 · <a href="https://www.youtube.com/watch?v=uRn3DRICpeY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

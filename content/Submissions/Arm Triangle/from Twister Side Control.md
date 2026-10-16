@@ -36,6 +36,27 @@ description: "Learn the Arm Triangle from Twister Side Control in BJJ. Complete 
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Arm Triangle from Twister Side Control \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "MTS 195 Advanced Arm Triangle",
+      "description": "Arm Triangle from Twister Side Control film study: MTS 195 Advanced Arm Triangle.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CuhFzPhwvQA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/CuhFzPhwvQA",
+      "url": "https://www.youtube.com/watch?v=CuhFzPhwvQA",
+      "duration": "PT61S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -83,6 +104,24 @@ The position integrates naturally into the Twister Side Control attack chain alo
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Arm Triangle from Twister Side Control in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=CuhFzPhwvQA)
+
+<p class="clip-credit"><strong>MTS 195 Advanced Arm Triangle</strong> · 1:01 · <a href="https://www.youtube.com/watch?v=CuhFzPhwvQA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="outcomes" class="content-section">

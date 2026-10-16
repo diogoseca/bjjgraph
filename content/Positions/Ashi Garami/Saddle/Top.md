@@ -175,6 +175,16 @@ description: "Master saddle position mechanics with systematic entries, control 
     {
       "@type": "VideoObject",
       "position": 2,
+      "name": "Saddle Transition from Top Half Guard",
+      "description": "Saddle (Top) film study: Saddle Transition from Top Half Guard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/P-rkPE4bjdE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/P-rkPE4bjdE",
+      "url": "https://www.youtube.com/watch?v=P-rkPE4bjdE",
+      "duration": "PT31S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
       "name": "Easy Entry to Saddle (411, inside sankaku, cross ashi garami)",
       "description": "Saddle (Top) film study: Easy Entry to Saddle (411, inside sankaku, cross ashi garami).",
       "thumbnailUrl": "https://i.ytimg.com/vi/HniaoFWTsmI/hqdefault.jpg",
@@ -217,6 +227,14 @@ From a strategic perspective, the Saddle functions differently depending on rule
 ![](https://www.youtube.com/watch?v=RbuQjr3-F2I)
 
 <p class="clip-credit"><strong>Intro to Saddle | 411 | Honey Hole | Inside Sankaku</strong> · 4:50 · <a href="https://www.youtube.com/watch?v=RbuQjr3-F2I" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=P-rkPE4bjdE)
+
+<p class="clip-credit"><strong>Saddle Transition from Top Half Guard</strong> · 0:31 · <a href="https://www.youtube.com/watch?v=P-rkPE4bjdE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

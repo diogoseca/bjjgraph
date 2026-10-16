@@ -449,6 +449,21 @@
         "title": "TMG Clips #128 - The Mounted Arm Triangle",
         "channel": "TeachMeGrappling Coach Brian",
         "duration": 145,
+        "vertical": false,
+        "front": true
+      },
+      {
+        "id": "wrZCRBlAB3Y",
+        "title": "Head and Arm Choke from Mount Finishing Details",
+        "channel": "Roger Gracie TV",
+        "duration": 265,
+        "vertical": false
+      },
+      {
+        "id": "YHCZ7SHep5k",
+        "title": "Finishing Head-And-Arm Chokes, The RIGHT Way",
+        "channel": "Henry Akins' Hidden Jiu-Jitsu",
+        "duration": 88,
         "vertical": false
       }
     ]
@@ -638,6 +653,22 @@
         "description": "Partner starts in high mount top with full offensive options including arm triangle, armbar, and choke attacks. Defend all submissions while maintaining safe arm positioning to prevent the arm triangle setup. Focus on recognizing which attack is being set up and responding with the appropriate defense. 5-minute rounds, reset on escape or submission."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "Nspz2EAIQ_k",
+        "title": "arm triangle escape using hawking",
+        "channel": "Crucifix Mike",
+        "duration": 27,
+        "vertical": false,
+        "front": true
+      },
+      {
+        "id": "N7SC93aEOIA",
+        "title": "Gracie Barra Jupiter- Head and arm choke escape",
+        "channel": "Gracie Barra Jupiter And Stuart",
+        "duration": 174,
+        "vertical": false
+      }
+    ]
   }
 }

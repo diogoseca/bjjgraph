@@ -149,6 +149,27 @@ description: "Master finishing the triangle from the attacking guard position in
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Triangle Escape Position (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How To Finish a Triangle When Someone Has Good Posture",
+      "description": "Triangle Escape Position (Bottom) film study: How To Finish a Triangle When Someone Has Good Posture.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/M3_VDLm6PoE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/M3_VDLm6PoE",
+      "url": "https://www.youtube.com/watch?v=M3_VDLm6PoE",
+      "duration": "PT142S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -163,6 +184,24 @@ Success from this seat means either a direct submission (triangle choke to game-
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Triangle Escape Position (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=M3_VDLm6PoE)
+
+<p class="clip-credit"><strong>How To Finish a Triangle When Someone Has Good Posture</strong> · 2:22 · <a href="https://www.youtube.com/watch?v=M3_VDLm6PoE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="state-invariants" class="content-section">

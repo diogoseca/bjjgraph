@@ -178,6 +178,27 @@ description: "Complete attacking guide for finishing the guillotine choke from e
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Guillotine Choke from Guillotine Control (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "gordon ryan converts an arm in guillotine to a high wrist using his hooks and a\u2026",
+      "description": "Guillotine Choke from Guillotine Control (Attacker) film study: gordon ryan converts an arm in guillotine to a high wrist using his hooks and a\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-wLHOB-KlGE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/-wLHOB-KlGE",
+      "url": "https://www.youtube.com/watch?v=-wLHOB-KlGE",
+      "duration": "PT17S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -191,6 +212,24 @@ Executing the guillotine choke from established guillotine control shifts the ch
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Guillotine Choke from Guillotine Control (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=-wLHOB-KlGE)
+
+<p class="clip-credit"><strong>gordon ryan converts an arm in guillotine to a high wrist using his hooks and a…</strong> · 0:17 · <a href="https://www.youtube.com/watch?v=-wLHOB-KlGE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

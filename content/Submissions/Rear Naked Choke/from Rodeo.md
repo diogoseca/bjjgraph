@@ -36,6 +36,27 @@ description: "Master the Rear Naked Choke from Rodeo Ride in BJJ. Complete guide
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Rear Naked Choke from Rodeo \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Craig Jones: details on finishing the rear naked choke",
+      "description": "Rear Naked Choke from Rodeo film study: Craig Jones: details on finishing the rear naked choke.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8tdVE2zgjXw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8tdVE2zgjXw",
+      "url": "https://www.youtube.com/watch?v=8tdVE2zgjXw",
+      "duration": "PT57S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -83,6 +104,24 @@ This submission represents a high-level integration of positional control and fi
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Rear Naked Choke from Rodeo in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8tdVE2zgjXw)
+
+<p class="clip-credit"><strong>Craig Jones: details on finishing the rear naked choke</strong> · 0:57 · <a href="https://www.youtube.com/watch?v=8tdVE2zgjXw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="outcomes" class="content-section">

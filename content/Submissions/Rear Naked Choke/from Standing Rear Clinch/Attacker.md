@@ -178,6 +178,27 @@ description: "Master the offensive Standing RNC from Rear Clinch. Learn seatbelt
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Rear Naked Choke from Standing Rear Clinch (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Takedown to Rear Naked Choke - BJJ Submission Set Up",
+      "description": "Rear Naked Choke from Standing Rear Clinch (Attacker) film study: Takedown to Rear Naked Choke - BJJ Submission Set Up.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/FvT_Ffy68OI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/FvT_Ffy68OI",
+      "url": "https://www.youtube.com/watch?v=FvT_Ffy68OI",
+      "duration": "PT38S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -191,6 +212,24 @@ Executing the Standing RNC from Rear Clinch requires seamless transition from se
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Rear Naked Choke from Standing Rear Clinch (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=FvT_Ffy68OI)
+
+<p class="clip-credit"><strong>Takedown to Rear Naked Choke - BJJ Submission Set Up</strong> · 0:38 · <a href="https://www.youtube.com/watch?v=FvT_Ffy68OI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

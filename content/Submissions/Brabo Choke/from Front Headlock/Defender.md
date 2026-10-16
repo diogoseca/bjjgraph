@@ -152,6 +152,27 @@ description: "How to defend against Brabo Choke in BJJ. Recognition, escape path
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Brabo Choke from Front Headlock (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Darce Choke defense",
+      "description": "Brabo Choke from Front Headlock (Defender) film study: Darce Choke defense.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/d1YBV8UTKds/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/d1YBV8UTKds",
+      "url": "https://www.youtube.com/watch?v=d1YBV8UTKds",
+      "duration": "PT52S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -165,6 +186,24 @@ Defending the Brabo Choke requires early recognition and immediate action, as th
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Brabo Choke from Front Headlock (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=d1YBV8UTKds)
+
+<p class="clip-credit"><strong>Darce Choke defense</strong> · 0:52 · <a href="https://www.youtube.com/watch?v=d1YBV8UTKds" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

@@ -438,7 +438,23 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "5eA_LJK-gJo",
+        "title": "Belly Down Attacks : Armbar and Rear Triangle",
+        "channel": "Kameron Ross",
+        "duration": 67,
+        "vertical": false,
+        "front": true
+      },
+      {
+        "id": "MIo1Q07Ng6U",
+        "title": "Belly Down/Side Armbar from Mount Against Push",
+        "channel": "Força Martial Arts & Fitness",
+        "duration": 110,
+        "vertical": false
+      }
+    ]
   },
   "defender": {
     "name": "from Mounted Crucifix Defender",

@@ -147,6 +147,16 @@ description: "Escape the Standing Rear Clinch in BJJ. Defensive guide to survivi
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "2 Rear BODY LOCK Counters for MMA; GRANBY ROLL and KNEE BAR #GFAMMA",
+      "description": "Standing Rear Clinch (Bottom) film study: 2 Rear BODY LOCK Counters for MMA; GRANBY ROLL and KNEE BAR #GFAMMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aW0nNv2UWh0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aW0nNv2UWh0",
+      "url": "https://www.youtube.com/watch?v=aW0nNv2UWh0",
+      "duration": "PT170S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
       "name": "Standing Rear Body Lock: Counters, Attacks and Defense (No Gi\u2026",
       "description": "Standing Rear Clinch (Bottom) film study: Standing Rear Body Lock: Counters, Attacks and Defense (No Gi\u2026.",
       "thumbnailUrl": "https://i.ytimg.com/vi/DFXdqByRxNg/hqdefault.jpg",
@@ -179,6 +189,14 @@ Time is the defining constraint. Every second the opponent spends consolidating�
 
 <p class="section-subtitle">Watch Standing Rear Clinch (Bottom) in action — curated instructionals</p>
 
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=aW0nNv2UWh0)
+
+<p class="clip-credit"><strong>2 Rear BODY LOCK Counters for MMA; GRANBY ROLL and KNEE BAR #GFAMMA</strong> · 2:50 · <a href="https://www.youtube.com/watch?v=aW0nNv2UWh0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
 
 <div class="film-clip">
 

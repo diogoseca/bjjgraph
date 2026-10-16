@@ -188,6 +188,16 @@ description: "Learn to attack with the Americana from Shoulder of Justice. Setup
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "The slickest way to setup an Americana.",
+      "description": "Americana from Shoulder of Justice (Attacker) film study: The slickest way to setup an Americana..",
+      "thumbnailUrl": "https://i.ytimg.com/vi/NFbf-Yi9BOU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/NFbf-Yi9BOU",
+      "url": "https://www.youtube.com/watch?v=NFbf-Yi9BOU",
+      "duration": "PT37S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
       "name": "Side Control Armlocks - 1 - Americana",
       "description": "Americana from Shoulder of Justice (Attacker) film study: Side Control Armlocks - 1 - Americana.",
       "thumbnailUrl": "https://i.ytimg.com/vi/wpZfDVXOeJw/hqdefault.jpg",
@@ -219,6 +229,14 @@ Attacking the Americana from Shoulder of Justice leverages the immense positiona
 
 <p class="section-subtitle">Watch Americana from Shoulder of Justice (Attacker) in action — curated instructionals</p>
 
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=NFbf-Yi9BOU)
+
+<p class="clip-credit"><strong>The slickest way to setup an Americana.</strong> · 0:37 · <a href="https://www.youtube.com/watch?v=NFbf-Yi9BOU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
 
 <div class="film-clip">
 

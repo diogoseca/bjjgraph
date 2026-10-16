@@ -389,7 +389,23 @@
       }
     ],
     "safety_considerations": "The Gift Wrap transition is generally low-risk when executed with proper technique. The primary safety concern is avoiding excessive force on the trapped arm, which could cause shoulder strain or rotator cuff injury. Pull the arm across the chest using positional pressure rather than cranking force. During training, communicate immediately if the shoulder position becomes uncomfortable—tap early rather than risking injury. Partners should release the trap immediately upon tap, as continued pressure on an isolated shoulder joint can cause lasting damage. Avoid explosive jerking movements when establishing the wrap; smooth, steady pressure is both more effective and safer for training partners.",
-    "clips": []
+    "clips": [
+      {
+        "id": "X3yIMfhGHnk",
+        "title": "Mount To Gift Wrap To Tap: MOUNT/GIFT WRAP",
+        "channel": "Henry Akins' Hidden Jiu-Jitsu",
+        "duration": 92,
+        "vertical": false,
+        "front": true
+      },
+      {
+        "id": "5bw7poxVJ1E",
+        "title": "The Gift Wrap in 2 Minutes - No GI BJJ",
+        "channel": "Brian Glick",
+        "duration": 111,
+        "vertical": false
+      }
+    ]
   },
   "defender": {
     "name": "Gift Wrap Defender",
@@ -579,6 +595,13 @@
         "duration": 47,
         "vertical": false,
         "front": true
+      },
+      {
+        "id": "j5y349B6Go8",
+        "title": "BJJ Giftwrap Escape So Easy You’ll Palm Your Face",
+        "channel": "Chewjitsu",
+        "duration": 160,
+        "vertical": false
       }
     ]
   },

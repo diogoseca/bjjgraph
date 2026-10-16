@@ -152,6 +152,27 @@ description: "Complete defensive guide against the Baseball Bat Choke from Knee 
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Baseball Bat Choke from Knee on Belly (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Baseball Choke defense in 60 seconds",
+      "description": "Baseball Bat Choke from Knee on Belly (Defender) film study: Baseball Choke defense in 60 seconds.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/nLtarv8APWA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/nLtarv8APWA",
+      "url": "https://www.youtube.com/watch?v=nLtarv8APWA",
+      "duration": "PT66S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -165,6 +186,24 @@ Defending the Baseball Bat Choke from Knee on Belly requires recognizing the thr
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Baseball Bat Choke from Knee on Belly (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=nLtarv8APWA)
+
+<p class="clip-credit"><strong>Baseball Choke defense in 60 seconds</strong> · 1:06 · <a href="https://www.youtube.com/watch?v=nLtarv8APWA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

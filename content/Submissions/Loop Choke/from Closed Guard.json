@@ -475,6 +475,13 @@
         "channel": "Mat Life Training Center",
         "duration": 88,
         "vertical": false
+      },
+      {
+        "id": "ruk0kdlr-Qw",
+        "title": "Alexandre Vieira Shows His Famous Loop Choke",
+        "channel": "FloGrappling",
+        "duration": 85,
+        "vertical": false
       }
     ]
   },
@@ -668,7 +675,23 @@
         "description": "Start in closed guard top against a partner hunting the loop choke along with other closed guard attacks. Balance guard opening attempts with collar defense, maintaining awareness of the loop choke threat throughout your passing sequence. Partner uses full resistance and chains the loop choke with hip bump sweeps, cross collar chokes, and guillotine threats. Track how often you prevent the grip versus how often the choke reaches the turning phase."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "pZmJpXSwRTk",
+        "title": "Loop choke escape",
+        "channel": "Ninja Pinto",
+        "duration": 60,
+        "vertical": false,
+        "front": true
+      },
+      {
+        "id": "CO1cWjtlsFw",
+        "title": "Loop Choke Defense Part 1: Countering Loop Before Legs Come Around You",
+        "channel": "Maxum Brazilian Jiu Jitsu",
+        "duration": 166,
+        "vertical": false
+      }
+    ]
   },
   "variations_and_setups": [
     {

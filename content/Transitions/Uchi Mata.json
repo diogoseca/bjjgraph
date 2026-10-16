@@ -393,7 +393,16 @@
       }
     ],
     "safety_considerations": "Uchi Mata is a high-impact throwing technique that requires proper safety protocols during training. Both partners must be competent in breakfalls (ukemi) before practicing this throw with any speed or power. The person being thrown should keep their chin tucked and slap the mat with their arm to dissipate impact force. Never practice on hard surfaces without proper mats (minimum 1.5 inch thickness recommended). When first learning, use crash pads or stacked mats for extra cushioning. The thrower must control the descent and not release grips until the throw is complete, as releasing mid-air can cause the opponent to land awkwardly on their head or neck. Start all training at slow speed with cooperative partners and gradually increase resistance over weeks. Avoid practicing throws when fatigued, as this leads to poor technique and increased injury risk. If you have pre-existing knee, hip, or ankle injuries, consult with a sports medicine professional before training Uchi Mata, as the rotational forces place significant stress on these joints. During competition, ensure proper warm-up and understand the rules regarding slamming versus controlled throws.",
-    "clips": []
+    "clips": [
+      {
+        "id": "mJnp6GdW8Ew",
+        "title": "How to do a deep step uchimata Right vs Left by Sam King",
+        "channel": "BeyondGrappling",
+        "duration": 104,
+        "vertical": false,
+        "front": true
+      }
+    ]
   },
   "defender": {
     "name": "Uchi Mata Defender",

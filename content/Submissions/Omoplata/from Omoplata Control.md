@@ -56,6 +56,16 @@ description: "Master the omoplata finish from omoplata control position. Complet
     {
       "@type": "VideoObject",
       "position": 2,
+      "name": "OMOPLATA EM GIRO BY CLARK GRACIE",
+      "description": "Omoplata from Omoplata Control film study: OMOPLATA EM GIRO BY CLARK GRACIE.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/HCuRfqaM0tM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/HCuRfqaM0tM",
+      "url": "https://www.youtube.com/watch?v=HCuRfqaM0tM",
+      "duration": "PT96S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
       "name": "Omoplata Finish w/Far Leg Control Closed Guard Entry",
       "description": "Omoplata from Omoplata Control film study: Omoplata Finish w/Far Leg Control Closed Guard Entry.",
       "thumbnailUrl": "https://i.ytimg.com/vi/w3_FCkkNQxU/hqdefault.jpg",
@@ -127,6 +137,14 @@ In competition, the omoplata from established control carries a significantly hi
 ![](https://www.youtube.com/watch?v=oQAP8nARiHU)
 
 <p class="clip-credit"><strong>Clark Gracie Omoplata: BJJ Technique Breakdown</strong> · 1:40 · <a href="https://www.youtube.com/watch?v=oQAP8nARiHU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=HCuRfqaM0tM)
+
+<p class="clip-credit"><strong>OMOPLATA EM GIRO BY CLARK GRACIE</strong> · 1:36 · <a href="https://www.youtube.com/watch?v=HCuRfqaM0tM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -168,6 +168,26 @@ description: "How to defend against Armbar from Guard in BJJ. Recognition, escap
       "embedUrl": "https://www.youtube.com/embed/vfKVCQ-tA9M",
       "url": "https://www.youtube.com/watch?v=vfKVCQ-tA9M",
       "duration": "PT84S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "THIS is my favorite armbar escape! #jiujitsu #jiujitsutips",
+      "description": "Armbar from Guard (Defender) film study: THIS is my favorite armbar escape! #jiujitsu #jiujitsutips.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kNdKfUdgO4I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kNdKfUdgO4I",
+      "url": "https://www.youtube.com/watch?v=kNdKfUdgO4I",
+      "duration": "PT92S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "EBI/Grappling Industries Rules: Defending the Arm Bar (Lachlan Giles)",
+      "description": "Armbar from Guard (Defender) film study: EBI/Grappling Industries Rules: Defending the Arm Bar (Lachlan Giles).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/zwNOXB8GQ3w/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/zwNOXB8GQ3w",
+      "url": "https://www.youtube.com/watch?v=zwNOXB8GQ3w",
+      "duration": "PT208S"
     }
   ]
 }
@@ -199,6 +219,22 @@ Defending the armbar from guard requires understanding the attacker's sequential
 ![](https://www.youtube.com/watch?v=vfKVCQ-tA9M)
 
 <p class="clip-credit"><strong>Arm Bar Escape Closed Guard 1/2</strong> · 1:24 · <a href="https://www.youtube.com/watch?v=vfKVCQ-tA9M" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kNdKfUdgO4I)
+
+<p class="clip-credit"><strong>THIS is my favorite armbar escape! #jiujitsu #jiujitsutips</strong> · 1:32 · <a href="https://www.youtube.com/watch?v=kNdKfUdgO4I" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=zwNOXB8GQ3w)
+
+<p class="clip-credit"><strong>EBI/Grappling Industries Rules: Defending the Arm Bar (Lachlan Giles)</strong> · 3:28 · <a href="https://www.youtube.com/watch?v=zwNOXB8GQ3w" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

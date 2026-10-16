@@ -424,7 +424,23 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "xab75xOnHqk",
+        "title": "The Timeless Bread Cutter Choke! (Roger Gracie Style) - Andy Hagans",
+        "channel": "Guardian Jiu-Jitsu - Holland, Michigan",
+        "duration": 70,
+        "vertical": false,
+        "front": true
+      },
+      {
+        "id": "AKfEIInO9Tk",
+        "title": "kasa Gatame Paper Cuter Choke",
+        "channel": "AMAGFightTeam",
+        "duration": 38,
+        "vertical": false
+      }
+    ]
   },
   "defender": {
     "name": "from Kuzure Kesa Gatame Defender",

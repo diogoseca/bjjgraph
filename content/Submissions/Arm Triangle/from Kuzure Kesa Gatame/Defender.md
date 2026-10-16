@@ -152,6 +152,27 @@ description: "Learn to defend the arm triangle from Kuzure Kesa Gatame. Recogniz
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Arm Triangle from Kuzure Kesa Gatame (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Two variations of arm triangle (kata gatame) escapes",
+      "description": "Arm Triangle from Kuzure Kesa Gatame (Defender) film study: Two variations of arm triangle (kata gatame) escapes.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CmXniIPFMhU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/CmXniIPFMhU",
+      "url": "https://www.youtube.com/watch?v=CmXniIPFMhU",
+      "duration": "PT89S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -165,6 +186,24 @@ Defending the arm triangle from Kuzure Kesa Gatame requires recognizing the crit
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Arm Triangle from Kuzure Kesa Gatame (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=CmXniIPFMhU)
+
+<p class="clip-credit"><strong>Two variations of arm triangle (kata gatame) escapes</strong> · 1:29 · <a href="https://www.youtube.com/watch?v=CmXniIPFMhU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

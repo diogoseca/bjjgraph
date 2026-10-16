@@ -429,7 +429,30 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "5cYvd0U5IQQ",
+        "title": "Cross Choke from mount",
+        "channel": "Blue Springs Jiu-Jitsu",
+        "duration": 29,
+        "vertical": false,
+        "front": true
+      },
+      {
+        "id": "pXcCvjwjPHw",
+        "title": "Cross Collar Choke from Mount with Chad Lyman",
+        "channel": "Rich Castro",
+        "duration": 55,
+        "vertical": false
+      },
+      {
+        "id": "dfP-Ov8FBUo",
+        "title": "Roger Gracie | CROSS COLLAR CHOKES",
+        "channel": "Jiu Jitsu Moves",
+        "duration": 80,
+        "vertical": false
+      }
+    ]
   },
   "defender": {
     "name": "from Modified Mount Defender",
@@ -595,6 +618,15 @@
         "description": "Partner actively attacks the Cross Collar Choke from Modified Mount with progressive resistance. Combine grip stripping, chin tucking, and hip escape sequences into fluid defensive chains. Practice recognizing when grip stripping has failed and transitioning immediately to positional escape rather than continuing a losing grip battle. Include tap recognition training where partner occasionally locks the choke fully to practice safe tapping reflexes."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "QIRF2B9riAA",
+        "title": "Cross Choke Defense from Guard - Two Quick Tips",
+        "channel": "Wayne Sniffen",
+        "duration": 105,
+        "vertical": false,
+        "front": true
+      }
+    ]
   }
 }

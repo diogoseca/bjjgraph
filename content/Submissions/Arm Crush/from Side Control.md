@@ -52,6 +52,16 @@ description: "Master the Arm Crush submission in BJJ. Learn shoulder lock mechan
       "embedUrl": "https://www.youtube.com/embed/01b2neRtr6k",
       "url": "https://www.youtube.com/watch?v=01b2neRtr6k",
       "duration": "PT87S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Arm Crush Arm Bar from Mount",
+      "description": "Arm Crush from Side Control film study: Arm Crush Arm Bar from Mount.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/RFkSf7gQ18E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/RFkSf7gQ18E",
+      "url": "https://www.youtube.com/watch?v=RFkSf7gQ18E",
+      "duration": "PT65S"
     }
   ]
 }
@@ -113,6 +123,14 @@ The Arm Crush is a powerful shoulder lock submission that combines crushing pres
 ![](https://www.youtube.com/watch?v=01b2neRtr6k)
 
 <p class="clip-credit"><strong>Arm Crush Armlock from Side Mount</strong> · 1:27 · <a href="https://www.youtube.com/watch?v=01b2neRtr6k" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=RFkSf7gQ18E)
+
+<p class="clip-credit"><strong>Arm Crush Arm Bar from Mount</strong> · 1:05 · <a href="https://www.youtube.com/watch?v=RFkSf7gQ18E" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

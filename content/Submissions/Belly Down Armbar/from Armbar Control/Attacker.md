@@ -188,12 +188,12 @@ description: "Learn to attack with the belly down armbar finish from armbar cont
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Belly Down Arm Bar Finish",
-      "description": "Belly Down Armbar from Armbar Control (Attacker) film study: Belly Down Arm Bar Finish.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/yDxtO6qzOL0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/yDxtO6qzOL0",
-      "url": "https://www.youtube.com/watch?v=yDxtO6qzOL0",
-      "duration": "PT58S"
+      "name": "Belly Down Armbar from Guard",
+      "description": "Belly Down Armbar from Armbar Control (Attacker) film study: Belly Down Armbar from Guard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/EdYFELAO6B0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/EdYFELAO6B0",
+      "url": "https://www.youtube.com/watch?v=EdYFELAO6B0",
+      "duration": "PT41S"
     },
     {
       "@type": "VideoObject",
@@ -232,9 +232,9 @@ Attacking with the belly down armbar finish from armbar control requires recogni
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=yDxtO6qzOL0)
+![](https://www.youtube.com/watch?v=EdYFELAO6B0)
 
-<p class="clip-credit"><strong>Belly Down Arm Bar Finish</strong> · 0:58 · <a href="https://www.youtube.com/watch?v=yDxtO6qzOL0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Belly Down Armbar from Guard</strong> · 0:41 · <a href="https://www.youtube.com/watch?v=EdYFELAO6B0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

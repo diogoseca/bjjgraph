@@ -194,6 +194,26 @@ description: "Step-by-step guide to finishing the arm triangle from high mount. 
       "embedUrl": "https://www.youtube.com/embed/tc-XXMg7v48",
       "url": "https://www.youtube.com/watch?v=tc-XXMg7v48",
       "duration": "PT145S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Head and Arm Choke from Mount Finishing Details",
+      "description": "Arm Triangle from High Mount (Attacker) film study: Head and Arm Choke from Mount Finishing Details.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wrZCRBlAB3Y/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/wrZCRBlAB3Y",
+      "url": "https://www.youtube.com/watch?v=wrZCRBlAB3Y",
+      "duration": "PT265S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Finishing Head-And-Arm Chokes, The RIGHT Way",
+      "description": "Arm Triangle from High Mount (Attacker) film study: Finishing Head-And-Arm Chokes, The RIGHT Way.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/YHCZ7SHep5k/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/YHCZ7SHep5k",
+      "url": "https://www.youtube.com/watch?v=YHCZ7SHep5k",
+      "duration": "PT88S"
     }
   ]
 }
@@ -225,6 +245,22 @@ The arm triangle from high mount leverages your dominant elevated position to is
 ![](https://www.youtube.com/watch?v=tc-XXMg7v48)
 
 <p class="clip-credit"><strong>TMG Clips #128 - The Mounted Arm Triangle</strong> · 2:25 · <a href="https://www.youtube.com/watch?v=tc-XXMg7v48" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=wrZCRBlAB3Y)
+
+<p class="clip-credit"><strong>Head and Arm Choke from Mount Finishing Details</strong> · 4:25 · <a href="https://www.youtube.com/watch?v=wrZCRBlAB3Y" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=YHCZ7SHep5k)
+
+<p class="clip-credit"><strong>Finishing Head-And-Arm Chokes, The RIGHT Way</strong> · 1:28 · <a href="https://www.youtube.com/watch?v=YHCZ7SHep5k" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

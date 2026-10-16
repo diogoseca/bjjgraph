@@ -648,7 +648,22 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "3-vgPXKmuS0",
+        "title": "Mica Galvao | FLYING OVERHOOK ARMBAR",
+        "channel": "Jiu Jitsu Moves",
+        "duration": 14,
+        "vertical": false
+      },
+      {
+        "id": "9BHfe_ar48Q",
+        "title": "Flying Armbar - Using an Ese",
+        "channel": "CholoMMA",
+        "duration": 19,
+        "vertical": false
+      }
+    ]
   },
   "defender": {
     "name": "Flying Armbar Defender",
@@ -916,7 +931,23 @@
         "description": "Positional sparring where partner attempts flying armbars at 60-80% intensity while you implement the complete defensive sequence: grip denial, sprawl/stack reactions, and post-landing escapes. Begin with partner announcing their intention, then progress to unannounced attempts. This phase develops the pattern recognition and automatic defensive responses needed for competition and live rolling scenarios."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "kNdKfUdgO4I",
+        "title": "THIS is my favorite armbar escape! #jiujitsu #jiujitsutips",
+        "channel": "Matt Arroyo Jiu Jitsu ",
+        "duration": 92,
+        "vertical": false,
+        "front": true
+      },
+      {
+        "id": "L2q__Z6hogQ",
+        "title": "How To Defeat A Juji-Gatame  By Travis Stevens",
+        "channel": "JudoFanatics",
+        "duration": 241,
+        "vertical": false
+      }
+    ]
   },
   "variations_and_setups": [
     {

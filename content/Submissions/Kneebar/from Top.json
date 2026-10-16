@@ -500,6 +500,13 @@
         "duration": 94,
         "vertical": false,
         "front": true
+      },
+      {
+        "id": "2mleTh3ZoBk",
+        "title": "Crazy Kneebar From Top Turtle Position: Charlie Cosens / Cosens MMA",
+        "channel": "Cosens MMA LLC",
+        "duration": 88,
+        "vertical": false
       }
     ]
   },
@@ -680,7 +687,23 @@
         "description": "Begin from live positions where partner hunts for top kneebar entries at 100% effort. Defender must recognize entries, select appropriate defensive response, and execute escapes under full resistance. Critically, develop judgment for when to tap versus when continued defense is viable—recognizing the point of no return and tapping before injury risk is essential. Include post-round analysis of defensive decision quality and areas where earlier intervention would have improved outcomes."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "NHyBpBC4apY",
+        "title": "Knee Bar Defense",
+        "channel": "Clark Gracie Allegiance Jiu Jitsu",
+        "duration": 138,
+        "vertical": false,
+        "front": true
+      },
+      {
+        "id": "NuWBh3LN-SY",
+        "title": "Knee Bar defense + take the back",
+        "channel": "Bicudo BJJ",
+        "duration": 21,
+        "vertical": false
+      }
+    ]
   },
   "variations_and_setups": [
     {

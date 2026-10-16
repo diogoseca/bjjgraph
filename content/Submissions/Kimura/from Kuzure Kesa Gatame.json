@@ -434,7 +434,23 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "u80GDGC1Yno",
+        "title": "Bjj kimura from scarf hold",
+        "channel": "Julie Bond",
+        "duration": 34,
+        "vertical": false,
+        "front": true
+      },
+      {
+        "id": "d7ucks8aHN0",
+        "title": "Technique on Command - Transition from Kesa Gatame to Kimura",
+        "channel": "Strong Hold Jiu Jitsu",
+        "duration": 70,
+        "vertical": false
+      }
+    ]
   },
   "defender": {
     "name": "from Kuzure Kesa Gatame Defender",

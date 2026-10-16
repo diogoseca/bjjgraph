@@ -52,6 +52,16 @@ description: "Master the Gift Wrap Armbar in BJJ. Complete guide to attacking th
       "embedUrl": "https://www.youtube.com/embed/2YWKQ0q2bCU",
       "url": "https://www.youtube.com/watch?v=2YWKQ0q2bCU",
       "duration": "PT194S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Derek Brunson: Gift Wrap from Guard to Armbar \u0026 Triangle Choke",
+      "description": "Gift Wrap Armbar from Gift Wrap film study: Derek Brunson: Gift Wrap from Guard to Armbar \u0026 Triangle Choke.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8KoRctBCxyo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8KoRctBCxyo",
+      "url": "https://www.youtube.com/watch?v=8KoRctBCxyo",
+      "duration": "PT39S"
     }
   ]
 }
@@ -117,6 +127,14 @@ Strategically, the Gift Wrap Armbar functions as part of a broader submission ch
 ![](https://www.youtube.com/watch?v=2YWKQ0q2bCU)
 
 <p class="clip-credit"><strong>Gift Wrap Arm Bar From Mount! - BJJ No Gi Techniques</strong> · 3:14 · <a href="https://www.youtube.com/watch?v=2YWKQ0q2bCU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8KoRctBCxyo)
+
+<p class="clip-credit"><strong>Derek Brunson: Gift Wrap from Guard to Armbar &amp; Triangle Choke</strong> · 0:39 · <a href="https://www.youtube.com/watch?v=8KoRctBCxyo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -468,7 +468,16 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "QfNKQzy3V_w",
+        "title": "Arm Saddle to Inside Heel Hook | Flow Drill",
+        "channel": "Factory Fresh Jiu Jitsu",
+        "duration": 21,
+        "vertical": false,
+        "front": true
+      }
+    ]
   },
   "defender": {
     "name": "from Ushiro Ashi Defender",
@@ -667,6 +676,29 @@
         "description": "Begin in ushiro ashi-garami with partner working full offensive heel hook sequences. Defend using all available tools with realistic intensity, practicing tap timing when the submission is fully established. Develop the judgment to distinguish between recoverable and unrecoverable submission positions under pressure."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "2RLgyzWN71Y",
+        "title": "Double outside ashi heel hook escape / running man escape",
+        "channel": "GRAPPLING GAME CHANGER",
+        "duration": 54,
+        "vertical": false,
+        "front": true
+      },
+      {
+        "id": "clVAHxgRadE",
+        "title": "Outside heel hook defense to Inside Heel Hook",
+        "channel": "Holy Grail BJJ",
+        "duration": 104,
+        "vertical": false
+      },
+      {
+        "id": "EP49pafOr_I",
+        "title": "The Heel Hook Escape That'll Make Your Opponent Burn His Rashguard",
+        "channel": "Stephan Kesting",
+        "duration": 172,
+        "vertical": false
+      }
+    ]
   }
 }

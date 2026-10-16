@@ -505,7 +505,15 @@
         "answer_line": "Calf crushed between shin and femur"
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "vTE4XQpRiqY",
+        "title": "The Vaporizer (Calf slicer)",
+        "channel": "Bobby Lee",
+        "duration": 17,
+        "vertical": false
+      }
+    ]
   },
   "defender": {
     "name": "Calf Slicer from Truck Defender",
@@ -696,7 +704,23 @@
         "description": "Full positional sparring from truck bottom against partner using the complete truck submission chain: calf slicer, Twister, Banana Split, and back control transitions. Defender must navigate the dilemma framework under realistic conditions, making real-time decisions about which defense to prioritize. Track tap rates and escape rates to measure improvement. Develop the composure to defend systematically under the psychological pressure of multiple threats."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "9l-XOzg5DCA",
+        "title": "Calf Slicer Defense Part 2 - Late Defense",
+        "channel": "RVV BJJ",
+        "duration": 346,
+        "vertical": false,
+        "front": true
+      },
+      {
+        "id": "zVi7DtAS76c",
+        "title": "Calf Slicer Defense Part 1 - Early Defense",
+        "channel": "RVV BJJ",
+        "duration": 462,
+        "vertical": false
+      }
+    ]
   },
   "variations_and_setups": [
     {

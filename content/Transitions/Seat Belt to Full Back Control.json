@@ -530,6 +530,15 @@
         "description": "Full resistance positional sparring starting from seat belt control. Defender uses all available tools: knee clamp, timed escapes, grip fighting, and bridge-and-turn sequences. Success is measured by preventing full back control establishment within 30-second rounds."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "hGzykDrlskc",
+        "title": "Escaping Back Control Seatbelt with no Hooks (Dinu Bucalet)",
+        "channel": "Dinu Bucalet BJJ",
+        "duration": 139,
+        "vertical": false,
+        "front": true
+      }
+    ]
   }
 }

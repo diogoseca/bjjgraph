@@ -52,6 +52,16 @@ description: "Master Technical Stand-up in BJJ. Essential escape from bottom to 
       "embedUrl": "https://www.youtube.com/embed/mr9HJep7zA0",
       "url": "https://www.youtube.com/watch?v=mr9HJep7zA0",
       "duration": "PT145S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "The Four Types of Technical Standup in BJJ and When to Use Them (with\u2026",
+      "description": "Technical Stand-up film study: The Four Types of Technical Standup in BJJ and When to Use Them (with\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/quMmk9Xs2HE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/quMmk9Xs2HE",
+      "url": "https://www.youtube.com/watch?v=quMmk9Xs2HE",
+      "duration": "PT444S"
     }
   ]
 }
@@ -108,6 +118,14 @@ Mastery of the technical stand-up provides a reliable escape option from comprom
 ![](https://www.youtube.com/watch?v=mr9HJep7zA0)
 
 <p class="clip-credit"><strong>How To Do The Technical Stand Up In Jiu Jitsu</strong> · 2:25 · <a href="https://www.youtube.com/watch?v=mr9HJep7zA0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=quMmk9Xs2HE)
+
+<p class="clip-credit"><strong>The Four Types of Technical Standup in BJJ and When to Use Them (with…</strong> · 7:24 · <a href="https://www.youtube.com/watch?v=quMmk9Xs2HE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -449,7 +449,23 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "pXcCvjwjPHw",
+        "title": "Cross Collar Choke from Mount with Chad Lyman",
+        "channel": "Rich Castro",
+        "duration": 55,
+        "vertical": false,
+        "front": true
+      },
+      {
+        "id": "dfP-Ov8FBUo",
+        "title": "Roger Gracie | CROSS COLLAR CHOKES",
+        "channel": "Jiu Jitsu Moves",
+        "duration": 80,
+        "vertical": false
+      }
+    ]
   },
   "defender": {
     "name": "Cross Collar Choke from High Mount Defender",
@@ -641,6 +657,14 @@
         "description": "Positional sparring starting in high mount with partner actively attacking cross collar choke at full resistance. Defend and escape using all available tools. Track success rate over multiple rounds and identify recurring defensive failures for targeted improvement."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "F1qoGHKy_uE",
+        "title": "Defend cross choke - armbar",
+        "channel": "Edgar Kruyning Official",
+        "duration": 22,
+        "vertical": false
+      }
+    ]
   }
 }

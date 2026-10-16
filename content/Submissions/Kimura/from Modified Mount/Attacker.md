@@ -178,6 +178,37 @@ description: "Learn to attack with the Kimura from Modified Mount. Step-by-step 
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kimura from Modified Mount (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Victory MMA - Kimura from Mount position",
+      "description": "Kimura from Modified Mount (Attacker) film study: Victory MMA - Kimura from Mount position.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/GDc3HlhB5rM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/GDc3HlhB5rM",
+      "url": "https://www.youtube.com/watch?v=GDc3HlhB5rM",
+      "duration": "PT90S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Kimura from mount. Kids BJJ April 15",
+      "description": "Kimura from Modified Mount (Attacker) film study: Kimura from mount. Kids BJJ April 15.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Lkh8kQG8ArA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Lkh8kQG8ArA",
+      "url": "https://www.youtube.com/watch?v=Lkh8kQG8ArA",
+      "duration": "PT66S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -191,6 +222,32 @@ Attacking the Kimura from Modified Mount gives you a structural advantage that s
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kimura from Modified Mount (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=GDc3HlhB5rM)
+
+<p class="clip-credit"><strong>Victory MMA - Kimura from Mount position</strong> · 1:30 · <a href="https://www.youtube.com/watch?v=GDc3HlhB5rM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Lkh8kQG8ArA)
+
+<p class="clip-credit"><strong>Kimura from mount. Kids BJJ April 15</strong> · 1:06 · <a href="https://www.youtube.com/watch?v=Lkh8kQG8ArA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

@@ -52,6 +52,26 @@ description: "Learn the calf slicer from saddle position with step-by-step finis
       "embedUrl": "https://www.youtube.com/embed/FDCL7MV5G7s",
       "url": "https://www.youtube.com/watch?v=FDCL7MV5G7s",
       "duration": "PT77S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Lapel guard #4 - Honey hole / Calf slicer",
+      "description": "Calf Slicer from Saddle film study: Lapel guard #4 - Honey hole / Calf slicer.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/7ni5VwepAbs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/7ni5VwepAbs",
+      "url": "https://www.youtube.com/watch?v=7ni5VwepAbs",
+      "duration": "PT72S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "MTS episode 100 connecting honey hole, kneebars, calf slicers, toe holds, and\u2026",
+      "description": "Calf Slicer from Saddle film study: MTS episode 100 connecting honey hole, kneebars, calf slicers, toe holds, and\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Io-zglFj2q0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Io-zglFj2q0",
+      "url": "https://www.youtube.com/watch?v=Io-zglFj2q0",
+      "duration": "PT299S"
     }
   ]
 }
@@ -117,6 +137,22 @@ At competition level, this submission serves as a critical complement to heel ho
 ![](https://www.youtube.com/watch?v=FDCL7MV5G7s)
 
 <p class="clip-credit"><strong>Calf Slicer from the Saddle</strong> · 1:17 · <a href="https://www.youtube.com/watch?v=FDCL7MV5G7s" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=7ni5VwepAbs)
+
+<p class="clip-credit"><strong>Lapel guard #4 - Honey hole / Calf slicer</strong> · 1:12 · <a href="https://www.youtube.com/watch?v=7ni5VwepAbs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Io-zglFj2q0)
+
+<p class="clip-credit"><strong>MTS episode 100 connecting honey hole, kneebars, calf slicers, toe holds, and…</strong> · 4:59 · <a href="https://www.youtube.com/watch?v=Io-zglFj2q0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -166,6 +166,16 @@ description: "How to defend against Gift Wrap in BJJ. Recognition cues, defensiv
       "embedUrl": "https://www.youtube.com/embed/OMzki0Uu7vA",
       "url": "https://www.youtube.com/watch?v=OMzki0Uu7vA",
       "duration": "PT47S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "BJJ Giftwrap Escape So Easy You\u2019ll Palm Your Face",
+      "description": "Gift Wrap (Defender) film study: BJJ Giftwrap Escape So Easy You\u2019ll Palm Your Face.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/j5y349B6Go8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/j5y349B6Go8",
+      "url": "https://www.youtube.com/watch?v=j5y349B6Go8",
+      "duration": "PT160S"
     }
   ]
 }
@@ -200,6 +210,14 @@ The defender must also recognize that the Gift Wrap is a gateway position—the 
 ![](https://www.youtube.com/watch?v=OMzki0Uu7vA)
 
 <p class="clip-credit"><strong>Escaping the Gift Wrap in jiu jitsu</strong> · 0:47 · <a href="https://www.youtube.com/watch?v=OMzki0Uu7vA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=j5y349B6Go8)
+
+<p class="clip-credit"><strong>BJJ Giftwrap Escape So Easy You’ll Palm Your Face</strong> · 2:40 · <a href="https://www.youtube.com/watch?v=j5y349B6Go8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

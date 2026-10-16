@@ -178,6 +178,27 @@ description: "Step-by-step guide to attacking the triangle choke from Crackhead 
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Triangle Choke from Crackhead Control (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Eddie Bravo Rubber Guard / MIssion Control /Meathook / Triangle / Double Bag /\u2026",
+      "description": "Triangle Choke from Crackhead Control (Attacker) film study: Eddie Bravo Rubber Guard / MIssion Control /Meathook / Triangle / Double Bag /\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/EhiPyX_s044/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/EhiPyX_s044",
+      "url": "https://www.youtube.com/watch?v=EhiPyX_s044",
+      "duration": "PT132S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -191,6 +212,24 @@ Attacking the triangle choke from Crackhead Control leverages the rubber guard s
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Triangle Choke from Crackhead Control (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=EhiPyX_s044)
+
+<p class="clip-credit"><strong>Eddie Bravo Rubber Guard / MIssion Control /Meathook / Triangle / Double Bag /…</strong> · 2:12 · <a href="https://www.youtube.com/watch?v=EhiPyX_s044" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

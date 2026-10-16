@@ -700,7 +700,23 @@
         "description": "Positional sparring starting from positions where spinning armbars are common (closed guard, mount attacks). Attacker works spinning armbars at full speed while defender applies trained defensive responses. Track which defenses succeed most frequently and which attack setups are hardest to defend. Refine recognition timing and defensive selection based on live results."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "kNdKfUdgO4I",
+        "title": "THIS is my favorite armbar escape! #jiujitsu #jiujitsutips",
+        "channel": "Matt Arroyo Jiu Jitsu ",
+        "duration": 92,
+        "vertical": false,
+        "front": true
+      },
+      {
+        "id": "_ntIcP_zf4s",
+        "title": "My Best Armbar Escape in BJJ When They’re Close To Finishing",
+        "channel": "Chewjitsu",
+        "duration": 244,
+        "vertical": false
+      }
+    ]
   },
   "variations_and_setups": [
     {

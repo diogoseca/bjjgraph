@@ -152,6 +152,37 @@ description: "Defend the Arm Triangle from Side Control. Recognize crossface set
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Arm Triangle from Side Control (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How to Escape the Head \u0026 Arm Triangle in Jiu Jitsu for all you Whiners",
+      "description": "Arm Triangle from Side Control (Defender) film study: How to Escape the Head \u0026 Arm Triangle in Jiu Jitsu for all you Whiners.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Jxd9UkmU5Co/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Jxd9UkmU5Co",
+      "url": "https://www.youtube.com/watch?v=Jxd9UkmU5Co",
+      "duration": "PT82S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "The Fastest Escape Out Of The Arm Triangle",
+      "description": "Arm Triangle from Side Control (Defender) film study: The Fastest Escape Out Of The Arm Triangle.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/D2vkZGTD78I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/D2vkZGTD78I",
+      "url": "https://www.youtube.com/watch?v=D2vkZGTD78I",
+      "duration": "PT31S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -165,6 +196,32 @@ Defending the arm triangle from side control requires awareness of your near arm
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Arm Triangle from Side Control (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Jxd9UkmU5Co)
+
+<p class="clip-credit"><strong>How to Escape the Head &amp; Arm Triangle in Jiu Jitsu for all you Whiners</strong> · 1:22 · <a href="https://www.youtube.com/watch?v=Jxd9UkmU5Co" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=D2vkZGTD78I)
+
+<p class="clip-credit"><strong>The Fastest Escape Out Of The Arm Triangle</strong> · 0:31 · <a href="https://www.youtube.com/watch?v=D2vkZGTD78I" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

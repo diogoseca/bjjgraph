@@ -46,22 +46,32 @@ description: "Master the Inverted Triangle from Triangle Control. Learn setup me
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Relson Gracie Jiu-Jitsu Team HK: Inverted Triangle Choke Escape",
-      "description": "Inverted Triangle from Triangle Control film study: Relson Gracie Jiu-Jitsu Team HK: Inverted Triangle Choke Escape.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/AptNwQLD_EQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/AptNwQLD_EQ",
-      "url": "https://www.youtube.com/watch?v=AptNwQLD_EQ",
-      "duration": "PT117S"
+      "name": "Tap everyone with this inverted triangle #bjj #brazillianjiujitsu #triangle",
+      "description": "Inverted Triangle from Triangle Control film study: Tap everyone with this inverted triangle #bjj #brazillianjiujitsu #triangle.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/i2l9Gx72DU0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/i2l9Gx72DU0",
+      "url": "https://www.youtube.com/watch?v=i2l9Gx72DU0",
+      "duration": "PT25S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Counter to the Inverted Triangle",
-      "description": "Inverted Triangle from Triangle Control film study: Counter to the Inverted Triangle.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/EaZA0UUXIq8/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/EaZA0UUXIq8",
-      "url": "https://www.youtube.com/watch?v=EaZA0UUXIq8",
-      "duration": "PT186S"
+      "name": "Inverted Triangle",
+      "description": "Inverted Triangle from Triangle Control film study: Inverted Triangle.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xAW3spYg9vE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/xAW3spYg9vE",
+      "url": "https://www.youtube.com/watch?v=xAW3spYg9vE",
+      "duration": "PT51S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Inverted triangle choke finish",
+      "description": "Inverted Triangle from Triangle Control film study: Inverted triangle choke finish.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/RCzCmK7AeVU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/RCzCmK7AeVU",
+      "url": "https://www.youtube.com/watch?v=RCzCmK7AeVU",
+      "duration": "PT60S"
     }
   ]
 }
@@ -124,17 +134,25 @@ Strategically, the inverted triangle adds a critical dimension to the triangle s
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=AptNwQLD_EQ)
+![](https://www.youtube.com/watch?v=i2l9Gx72DU0)
 
-<p class="clip-credit"><strong>Relson Gracie Jiu-Jitsu Team HK: Inverted Triangle Choke Escape</strong> · 1:57 · <a href="https://www.youtube.com/watch?v=AptNwQLD_EQ" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Tap everyone with this inverted triangle #bjj #brazillianjiujitsu #triangle</strong> · 0:25 · <a href="https://www.youtube.com/watch?v=i2l9Gx72DU0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=EaZA0UUXIq8)
+![](https://www.youtube.com/watch?v=xAW3spYg9vE)
 
-<p class="clip-credit"><strong>Counter to the Inverted Triangle</strong> · 3:06 · <a href="https://www.youtube.com/watch?v=EaZA0UUXIq8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Inverted Triangle</strong> · 0:51 · <a href="https://www.youtube.com/watch?v=xAW3spYg9vE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=RCzCmK7AeVU)
+
+<p class="clip-credit"><strong>Inverted triangle choke finish</strong> · 1:00 · <a href="https://www.youtube.com/watch?v=RCzCmK7AeVU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

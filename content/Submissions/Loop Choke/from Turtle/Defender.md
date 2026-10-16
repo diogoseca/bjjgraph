@@ -152,6 +152,27 @@ description: "How to defend the Loop Choke from Turtle in BJJ. Recognition cues,
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Loop Choke from Turtle (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Loop Choke Defense Part 2: Countering After Legs Come Around You",
+      "description": "Loop Choke from Turtle (Defender) film study: Loop Choke Defense Part 2: Countering After Legs Come Around You.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/eAQ7cCGdVXk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/eAQ7cCGdVXk",
+      "url": "https://www.youtube.com/watch?v=eAQ7cCGdVXk",
+      "duration": "PT224S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -165,6 +186,24 @@ Defending the loop choke from turtle requires immediate recognition and proactiv
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Loop Choke from Turtle (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=eAQ7cCGdVXk)
+
+<p class="clip-credit"><strong>Loop Choke Defense Part 2: Countering After Legs Come Around You</strong> · 3:44 · <a href="https://www.youtube.com/watch?v=eAQ7cCGdVXk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

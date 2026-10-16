@@ -42,7 +42,8 @@ import { legacyDefenseRenderer } from '../fixtures/legacy-defense-renderer'
 // Playback on YouTube is outside this contract; mounted reel identity is in it.
 const LOOP = '/Submissions/Loop-Choke/from-Half-Guard'
 const KEY = 'Loop Choke from Half Guard|Defender'
-const CLIPS = ['pZmJpXSwRTk', 'iv2YYbzYl-s']
+// D-307: one exact escape; the Whittier course/coupon promotion remains withheld.
+const CLIPS = ['pZmJpXSwRTk']
 const READY = '[data-reader-ready="true"]'
 const realContent = async (page: Page) => {
   await page.route('**/static/neural/content/*.json', route => route.continue())
@@ -120,6 +121,8 @@ async function catchLoop(page: Page, legacy = false, cold = false) {
   return j
 }
 
+// STALE SPEC (PR 305, owner D-307): link, reload and dormant answer keep the generic five-card defender landing calm.
+// Curated IDs/counts are fixed below; the Knee Slice pair remains a nonempty wrong-role control.
 test('@curated link, reload and dormant answer keep the generic five-card defender landing calm', async ({ page }) => {
   const j = journey(page)
   await j.boot(LOOP + '/Defender', { beforeNavigate: realContent })
@@ -136,6 +139,8 @@ test('@curated link, reload and dormant answer keep the generic five-card defend
   expect(await state(page)).toMatchObject({ caught: 0, remaining: null })
 })
 
+// STALE SPEC (PR 305, owner D-307): an orb arrival never retains the warm attacker deck.
+// Curated IDs/counts are fixed below; the Knee Slice pair remains a nonempty wrong-role control.
 test('@curated an orb arrival never retains the warm attacker deck', async ({ page }) => {
   const j = journey(page)
   await j.boot(LOOP + '/Attacker', { beforeNavigate: realContent })
@@ -156,23 +161,29 @@ test('@curated an orb arrival never retains the warm attacker deck', async ({ pa
   expect((await state(page)).caught).toBe(0)
 })
 
-test('@curated the transition defender renders its three authored clips on the first render', async ({ page }) => {
+// STALE SPEC (PR 305, owner D-307): the curated empty transition defender mounts no reel on the first render.
+// Curated IDs/counts are fixed below; the Knee Slice pair remains a nonempty wrong-role control.
+test('@curated the curated empty transition defender mounts no reel on the first render', async ({ page }) => {
   const j = journey(page)
   await j.boot('/Transitions/Kuzure-Kesa-Gatame-to-Kesa-Gatame/Defender', { beforeNavigate: realContent })
   await expect(page.locator(READY)).toBeVisible()
-  await expect.poll(async () => (await state(page)).clips).toEqual(['2M_6VytUaus', '-zFQ6h4yKT4', 'C98ztdlur4E'])
+  await expect.poll(async () => (await state(page)).clips).toEqual([])
+  await expect(page.locator('.ng-landfilm')).toHaveCount(0)
+  await expect(page.locator('.ng-landfilm .ng-clip')).toHaveCount(0)
   expect(await state(page)).toMatchObject({ pressure: false, vignette: false, cards: 4, key: 'Kuzure Kesa Gatame to Kesa Gatame|Defender' })
 })
 
+// STALE SPEC (PR 305, owner D-307): each Knee Slice Pass half mounts its own clips, including the reader perspective link.
+// Curated IDs/counts are fixed below; the Knee Slice pair remains a nonempty wrong-role control.
 test('@curated each Knee Slice Pass half mounts its own clips, including the reader perspective link', async ({ page }) => {
   const j = journey(page)
   await j.boot('/Transitions/Knee-Slice-Pass/Attacker', { beforeNavigate: realContent })
   await expect(page.locator(READY)).toBeVisible()
-  await expect.poll(async () => (await state(page)).clips).toEqual(['yj_6xcl2emA', 'TIsH40L5AVQ', 'p40WssWwJoY'])
+  await expect.poll(async () => (await state(page)).clips).toEqual(['yj_6xcl2emA'])
   await j.clickByMouse('[data-reader]', 'expand the article to reach its perspective links')
   await j.clickByMouse('[aria-label="Reading perspectives"] a[href$="/Defender"]', 'open the defending article perspective')
   await expect(page.locator(READY)).toHaveAttribute('data-reader-path', '/Transitions/Knee-Slice-Pass/Defender')
-  await expect.poll(async () => (await state(page)).clips).toEqual(['RvIIpXaPyJM', 'lVLAROiSjNU'])
+  await expect.poll(async () => (await state(page)).clips).toEqual(['RvIIpXaPyJM'])
   expect((await state(page)).key).toBe('Knee Slice Pass|Defender')
   expect((await state(page)).pressure).toBe(false)
 })
@@ -305,6 +316,8 @@ for (const paged of [false, true]) {
   })
 }
 
+// STALE SPEC (PR 305, owner D-307): a real catch keeps its generic stack and own films while danger is active.
+// Curated IDs/counts are fixed below; the Knee Slice pair remains a nonempty wrong-role control.
 test('@curated a real catch keeps its generic stack and own films while danger is active', async ({ page }) => {
   const j = await catchLoop(page)
   await settled(page)
@@ -337,6 +350,8 @@ async function dangerSettings(page: Page) {
   }
 }
 
+// STALE SPEC (PR 305, owner D-307): Danger animation toggles live visuals only and survives a reload.
+// Curated IDs/counts are fixed below; the Knee Slice pair remains a nonempty wrong-role control.
 test('@curated Danger animation toggles live visuals only and survives a reload', async ({ page }) => {
   const j = await catchLoop(page)
   await page.emulateMedia({ reducedMotion: 'no-preference' })

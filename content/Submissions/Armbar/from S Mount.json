@@ -463,6 +463,13 @@
         "duration": 50,
         "vertical": false,
         "front": true
+      },
+      {
+        "id": "nH4ly3vk7WI",
+        "title": "S-Mount Armbar, Kimura, + Far side Armbar",
+        "channel": "GBCostaMesa",
+        "duration": 24,
+        "vertical": false
       }
     ]
   },
@@ -670,6 +677,29 @@
         "description": "Start in S Mount bottom against full-resistance armbar attacks. Goal is either escape or survival for specified time period. Partner attacks with competition intensity while you apply all defensive skills. Build mental toughness and automatic defensive responses under maximum pressure."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "AfDEN3uK3W0",
+        "title": "The NoGi Minute: Low effort armbar escape via foot capture",
+        "channel": "Patrick Donabedian BJJ",
+        "duration": 55,
+        "vertical": false,
+        "front": true
+      },
+      {
+        "id": "kNdKfUdgO4I",
+        "title": "THIS is my favorite armbar escape! #jiujitsu #jiujitsutips",
+        "channel": "Matt Arroyo Jiu Jitsu ",
+        "duration": 92,
+        "vertical": false
+      },
+      {
+        "id": "sDdqvh_1kbA",
+        "title": "Armbar Escape: RNC",
+        "channel": "ZombieProofBJJ",
+        "duration": 62,
+        "vertical": false
+      }
+    ]
   }
 }

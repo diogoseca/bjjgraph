@@ -36,6 +36,27 @@ description: "Master the Bow and Arrow Choke from Russian Cowboy in BJJ. Learn c
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Bow and Arrow Choke from Russian Cowboy \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Armlock to Loop Choke/Bow and Arrow Choke Combo",
+      "description": "Bow and Arrow Choke from Russian Cowboy film study: Armlock to Loop Choke/Bow and Arrow Choke Combo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/U16fxDEJS6s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/U16fxDEJS6s",
+      "url": "https://www.youtube.com/watch?v=U16fxDEJS6s",
+      "duration": "PT63S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -83,6 +104,24 @@ Strategically, this choke fits naturally into the Russian Cowboy attack chain al
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Bow and Arrow Choke from Russian Cowboy in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=U16fxDEJS6s)
+
+<p class="clip-credit"><strong>Armlock to Loop Choke/Bow and Arrow Choke Combo</strong> · 1:03 · <a href="https://www.youtube.com/watch?v=U16fxDEJS6s" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="outcomes" class="content-section">

@@ -894,12 +894,19 @@
     },
     "clips": [
       {
+        "id": "aW0nNv2UWh0",
+        "title": "2 Rear BODY LOCK Counters for MMA; GRANBY ROLL and KNEE BAR #GFAMMA",
+        "channel": "𝐆𝐅𝐀𝐌𝐌𝐀 - 𝐆𝐋𝐀𝐃𝐈𝐀𝐓𝐎𝐑 𝐅𝐈𝐆𝐇𝐓 𝐀𝐂𝐀𝐃𝐄𝐌𝐘",
+        "duration": 170,
+        "vertical": false,
+        "front": true
+      },
+      {
         "id": "DFXdqByRxNg",
         "title": "Standing Rear Body Lock: Counters, Attacks and Defense (No Gi…",
         "channel": "Brian Glick",
         "duration": 318,
-        "vertical": false,
-        "front": true
+        "vertical": false
       }
     ]
   },

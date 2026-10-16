@@ -52,6 +52,26 @@ description: "Master the armbar from guard with systematic technique breakdown, 
       "embedUrl": "https://www.youtube.com/embed/I8f9wkX7n4Y",
       "url": "https://www.youtube.com/watch?v=I8f9wkX7n4Y",
       "duration": "PT29S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "BJJ - Armbar / Arm Drag from Guard",
+      "description": "Armbar from Guard film study: BJJ - Armbar / Arm Drag from Guard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/zpa_49EcTEA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/zpa_49EcTEA",
+      "url": "https://www.youtube.com/watch?v=zpa_49EcTEA",
+      "duration": "PT52S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Roger Gracie | ARM BARS",
+      "description": "Armbar from Guard film study: Roger Gracie | ARM BARS.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/vSmRbpNmf-E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/vSmRbpNmf-E",
+      "url": "https://www.youtube.com/watch?v=vSmRbpNmf-E",
+      "duration": "PT102S"
     }
   ]
 }
@@ -113,6 +133,22 @@ The armbar from guard is one of the most fundamental and highest-percentage subm
 ![](https://www.youtube.com/watch?v=I8f9wkX7n4Y)
 
 <p class="clip-credit"><strong>Straight Arm Lock From Guard (Armbar) by Gracie Charlottesville</strong> · 0:29 · <a href="https://www.youtube.com/watch?v=I8f9wkX7n4Y" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=zpa_49EcTEA)
+
+<p class="clip-credit"><strong>BJJ - Armbar / Arm Drag from Guard</strong> · 0:52 · <a href="https://www.youtube.com/watch?v=zpa_49EcTEA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=vSmRbpNmf-E)
+
+<p class="clip-credit"><strong>Roger Gracie | ARM BARS</strong> · 1:42 · <a href="https://www.youtube.com/watch?v=vSmRbpNmf-E" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

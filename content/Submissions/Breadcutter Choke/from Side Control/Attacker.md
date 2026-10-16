@@ -188,12 +188,42 @@ description: "Learn to attack with the Breadcutter Choke from Side Control. Step
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "Paper Cutter Choke with Lapel from Side Control",
+      "description": "Breadcutter Choke from Side Control (Attacker) film study: Paper Cutter Choke with Lapel from Side Control.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/vhFpxC1vCag/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/vhFpxC1vCag",
+      "url": "https://www.youtube.com/watch?v=vhFpxC1vCag",
+      "duration": "PT42S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
       "name": "Bread Cutter Choke From Side Control",
       "description": "Breadcutter Choke from Side Control (Attacker) film study: Bread Cutter Choke From Side Control.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Jh-Q1rYrQvA/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Jh-Q1rYrQvA",
       "url": "https://www.youtube.com/watch?v=Jh-Q1rYrQvA",
       "duration": "PT142S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Nino Schembri Side Control Breadcutter Choke to Far Side Armbar",
+      "description": "Breadcutter Choke from Side Control (Attacker) film study: Nino Schembri Side Control Breadcutter Choke to Far Side Armbar.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3SNZDysizY0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3SNZDysizY0",
+      "url": "https://www.youtube.com/watch?v=3SNZDysizY0",
+      "duration": "PT46S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 4,
+      "name": "The Timeless Bread Cutter Choke! (Roger Gracie Style) - Andy Hagans",
+      "description": "Breadcutter Choke from Side Control (Attacker) film study: The Timeless Bread Cutter Choke! (Roger Gracie Style) - Andy Hagans.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xab75xOnHqk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/xab75xOnHqk",
+      "url": "https://www.youtube.com/watch?v=xab75xOnHqk",
+      "duration": "PT70S"
     }
   ]
 }
@@ -222,9 +252,33 @@ The Breadcutter Choke from Side Control rewards methodical grip establishment an
 
 <div class="film-clip">
 
+![](https://www.youtube.com/watch?v=vhFpxC1vCag)
+
+<p class="clip-credit"><strong>Paper Cutter Choke with Lapel from Side Control</strong> · 0:42 · <a href="https://www.youtube.com/watch?v=vhFpxC1vCag" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
 ![](https://www.youtube.com/watch?v=Jh-Q1rYrQvA)
 
 <p class="clip-credit"><strong>Bread Cutter Choke From Side Control</strong> · 2:22 · <a href="https://www.youtube.com/watch?v=Jh-Q1rYrQvA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=3SNZDysizY0)
+
+<p class="clip-credit"><strong>Nino Schembri Side Control Breadcutter Choke to Far Side Armbar</strong> · 0:46 · <a href="https://www.youtube.com/watch?v=3SNZDysizY0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=xab75xOnHqk)
+
+<p class="clip-credit"><strong>The Timeless Bread Cutter Choke! (Roger Gracie Style) - Andy Hagans</strong> · 1:10 · <a href="https://www.youtube.com/watch?v=xab75xOnHqk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

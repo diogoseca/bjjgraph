@@ -160,6 +160,27 @@ description: "How to defend against Armbar from Crucifix in BJJ. Recognition, es
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Armbar from Crucifix (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Underused armbar escape direction",
+      "description": "Armbar from Crucifix (Defender) film study: Underused armbar escape direction.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/oLccpWCMh70/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/oLccpWCMh70",
+      "url": "https://www.youtube.com/watch?v=oLccpWCMh70",
+      "duration": "PT585S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -173,6 +194,24 @@ Defending the armbar from crucifix is one of the most technically demanding defe
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Armbar from Crucifix (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=oLccpWCMh70)
+
+<p class="clip-credit"><strong>Underused armbar escape direction</strong> · 9:45 · <a href="https://www.youtube.com/watch?v=oLccpWCMh70" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

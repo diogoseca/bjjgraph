@@ -178,6 +178,27 @@ description: "Master attacking with the belly down armbar from Mission Control. 
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Belly Down Armbar from Mission Control (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Lapel Guard: Gubber Guard to Belly Down Armbar",
+      "description": "Belly Down Armbar from Mission Control (Attacker) film study: Lapel Guard: Gubber Guard to Belly Down Armbar.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/bpzSfXme_eY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/bpzSfXme_eY",
+      "url": "https://www.youtube.com/watch?v=bpzSfXme_eY",
+      "duration": "PT77S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -191,6 +212,24 @@ Executing the belly down armbar from Mission Control requires precise arm isolat
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Belly Down Armbar from Mission Control (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=bpzSfXme_eY)
+
+<p class="clip-credit"><strong>Lapel Guard: Gubber Guard to Belly Down Armbar</strong> · 1:17 · <a href="https://www.youtube.com/watch?v=bpzSfXme_eY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

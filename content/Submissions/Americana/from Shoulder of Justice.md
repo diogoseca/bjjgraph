@@ -46,6 +46,16 @@ description: "Master the Americana from Shoulder of Justice in BJJ. Step-by-step
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "The slickest way to setup an Americana.",
+      "description": "Americana from Shoulder of Justice film study: The slickest way to setup an Americana..",
+      "thumbnailUrl": "https://i.ytimg.com/vi/NFbf-Yi9BOU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/NFbf-Yi9BOU",
+      "url": "https://www.youtube.com/watch?v=NFbf-Yi9BOU",
+      "duration": "PT37S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
       "name": "Side Control Armlocks - 1 - Americana",
       "description": "Americana from Shoulder of Justice film study: Side Control Armlocks - 1 - Americana.",
       "thumbnailUrl": "https://i.ytimg.com/vi/wpZfDVXOeJw/hqdefault.jpg",
@@ -111,6 +121,14 @@ Strategically, this submission functions as the centerpiece of the Shoulder of J
 
 <p class="section-subtitle">Watch Americana from Shoulder of Justice in action — curated instructionals</p>
 
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=NFbf-Yi9BOU)
+
+<p class="clip-credit"><strong>The slickest way to setup an Americana.</strong> · 0:37 · <a href="https://www.youtube.com/watch?v=NFbf-Yi9BOU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
 
 <div class="film-clip">
 

@@ -464,7 +464,16 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "Sb-atqD_TqQ",
+        "title": "Short Choke from Back Position (Jiu Jitsu)",
+        "channel": "Cosens MMA LLC",
+        "duration": 54,
+        "vertical": false,
+        "front": true
+      }
+    ]
   },
   "defender": {
     "name": "from Standing Back Control Defender",

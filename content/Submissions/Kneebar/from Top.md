@@ -52,6 +52,16 @@ description: "Master the Kneebar from Top positions in BJJ. Complete safety guid
       "embedUrl": "https://www.youtube.com/embed/5GOWKe9WTs8",
       "url": "https://www.youtube.com/watch?v=5GOWKe9WTs8",
       "duration": "PT94S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Crazy Kneebar From Top Turtle Position: Charlie Cosens / Cosens MMA",
+      "description": "Kneebar from Top film study: Crazy Kneebar From Top Turtle Position: Charlie Cosens / Cosens MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2mleTh3ZoBk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2mleTh3ZoBk",
+      "url": "https://www.youtube.com/watch?v=2mleTh3ZoBk",
+      "duration": "PT88S"
     }
   ]
 }
@@ -117,6 +127,14 @@ The top kneebar serves dual purposes: as a finishing submission and as a positio
 ![](https://www.youtube.com/watch?v=5GOWKe9WTs8)
 
 <p class="clip-credit"><strong>Knee Bar from Side control</strong> · 1:34 · <a href="https://www.youtube.com/watch?v=5GOWKe9WTs8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2mleTh3ZoBk)
+
+<p class="clip-credit"><strong>Crazy Kneebar From Top Turtle Position: Charlie Cosens / Cosens MMA</strong> · 1:28 · <a href="https://www.youtube.com/watch?v=2mleTh3ZoBk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -165,6 +165,16 @@ description: "Master Triangle Control defense from top in BJJ. Learn escape tech
       "embedUrl": "https://www.youtube.com/embed/dJOw0ZEyXXc",
       "url": "https://www.youtube.com/watch?v=dJOw0ZEyXXc",
       "duration": "PT72S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "How To Escape a Triangle Choke w/ Rener \u0026 Ryron Gracie",
+      "description": "Triangle Control (Top) film study: How To Escape a Triangle Choke w/ Rener \u0026 Ryron Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sR2rS2dwpNY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sR2rS2dwpNY",
+      "url": "https://www.youtube.com/watch?v=sR2rS2dwpNY",
+      "duration": "PT117S"
     }
   ]
 }
@@ -199,6 +209,14 @@ The defensive hierarchy from Triangle Control Top follows a clear priority seque
 ![](https://www.youtube.com/watch?v=dJOw0ZEyXXc)
 
 <p class="clip-credit"><strong>Triangle choke from Guard &#34;Posture Up Escape</strong> · 1:12 · <a href="https://www.youtube.com/watch?v=dJOw0ZEyXXc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sR2rS2dwpNY)
+
+<p class="clip-credit"><strong>How To Escape a Triangle Choke w/ Rener &amp; Ryron Gracie</strong> · 1:57 · <a href="https://www.youtube.com/watch?v=sR2rS2dwpNY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -52,6 +52,36 @@ description: "Master the Buggy Choke in BJJ. Powerful half guard compression cho
       "embedUrl": "https://www.youtube.com/embed/ZBOagHWTCFw",
       "url": "https://www.youtube.com/watch?v=ZBOagHWTCFw",
       "duration": "PT33S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "BUGGYCHOKE From the north south position",
+      "description": "Buggy Choke film study: BUGGYCHOKE From the north south position.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Rlk8WXQrj4Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Rlk8WXQrj4Q",
+      "url": "https://www.youtube.com/watch?v=Rlk8WXQrj4Q",
+      "duration": "PT48S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "3 Buggy Choke Concepts by Kade and Tye Ruotolo",
+      "description": "Buggy Choke film study: 3 Buggy Choke Concepts by Kade and Tye Ruotolo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0_3YYrWEGoU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/0_3YYrWEGoU",
+      "url": "https://www.youtube.com/watch?v=0_3YYrWEGoU",
+      "duration": "PT201S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 4,
+      "name": "BJJ Buggy Choke",
+      "description": "Buggy Choke film study: BJJ Buggy Choke.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Jw8PSPrR8-E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Jw8PSPrR8-E",
+      "url": "https://www.youtube.com/watch?v=Jw8PSPrR8-E",
+      "duration": "PT41S"
     }
   ]
 }
@@ -117,6 +147,30 @@ For the purple-to-brown belt grappler, the value of the Buggy Choke is less abou
 ![](https://www.youtube.com/watch?v=ZBOagHWTCFw)
 
 <p class="clip-credit"><strong>Buggy choke from half guard: Moncaio Brothers JiuJitsu</strong> · 0:33 · <a href="https://www.youtube.com/watch?v=ZBOagHWTCFw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Rlk8WXQrj4Q)
+
+<p class="clip-credit"><strong>BUGGYCHOKE From the north south position</strong> · 0:48 · <a href="https://www.youtube.com/watch?v=Rlk8WXQrj4Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=0_3YYrWEGoU)
+
+<p class="clip-credit"><strong>3 Buggy Choke Concepts by Kade and Tye Ruotolo</strong> · 3:21 · <a href="https://www.youtube.com/watch?v=0_3YYrWEGoU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Jw8PSPrR8-E)
+
+<p class="clip-credit"><strong>BJJ Buggy Choke</strong> · 0:41 · <a href="https://www.youtube.com/watch?v=Jw8PSPrR8-E" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

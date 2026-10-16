@@ -46,12 +46,32 @@ description: "Master the Tarikoplata shoulder lock in BJJ. Advanced guard submis
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Tarikoplata Defense Instructional (Donation Based)",
-      "description": "Tarikoplata from Closed Guard film study: Tarikoplata Defense Instructional (Donation Based).",
-      "thumbnailUrl": "https://i.ytimg.com/vi/3TIKkks6Uu4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/3TIKkks6Uu4",
-      "url": "https://www.youtube.com/watch?v=3TIKkks6Uu4",
-      "duration": "PT6902S"
+      "name": "tarikoplata",
+      "description": "Tarikoplata from Closed Guard film study: tarikoplata.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hVXGAvOrwyA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hVXGAvOrwyA",
+      "url": "https://www.youtube.com/watch?v=hVXGAvOrwyA",
+      "duration": "PT8S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Tarikoplata finishes + switch to Baratoplata",
+      "description": "Tarikoplata from Closed Guard film study: Tarikoplata finishes + switch to Baratoplata.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ZbFNUmyWQkM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ZbFNUmyWQkM",
+      "url": "https://www.youtube.com/watch?v=ZbFNUmyWQkM",
+      "duration": "PT60S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Do you know about the power of the TARIKOPLATA?",
+      "description": "Tarikoplata from Closed Guard film study: Do you know about the power of the TARIKOPLATA?.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/jpNqecvfuFg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/jpNqecvfuFg",
+      "url": "https://www.youtube.com/watch?v=jpNqecvfuFg",
+      "duration": "PT63S"
     }
   ]
 }
@@ -110,9 +130,25 @@ The Tarikoplata is an advanced shoulder lock submission that combines the mechan
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=3TIKkks6Uu4)
+![](https://www.youtube.com/watch?v=hVXGAvOrwyA)
 
-<p class="clip-credit"><strong>Tarikoplata Defense Instructional (Donation Based)</strong> · 115:02 · <a href="https://www.youtube.com/watch?v=3TIKkks6Uu4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>tarikoplata</strong> · 0:08 · <a href="https://www.youtube.com/watch?v=hVXGAvOrwyA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ZbFNUmyWQkM)
+
+<p class="clip-credit"><strong>Tarikoplata finishes + switch to Baratoplata</strong> · 1:00 · <a href="https://www.youtube.com/watch?v=ZbFNUmyWQkM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=jpNqecvfuFg)
+
+<p class="clip-credit"><strong>Do you know about the power of the TARIKOPLATA?</strong> · 1:03 · <a href="https://www.youtube.com/watch?v=jpNqecvfuFg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

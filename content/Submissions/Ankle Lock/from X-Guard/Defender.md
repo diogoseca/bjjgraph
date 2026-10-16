@@ -160,6 +160,16 @@ description: "Defend against the ankle lock from X-Guard in BJJ. Recognition cue
       "embedUrl": "https://www.youtube.com/embed/JSOM86_1lRo",
       "url": "https://www.youtube.com/watch?v=JSOM86_1lRo",
       "duration": "PT111S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "No Gi BJJ: Escaping the Straight Ankle Lock (Beginner)",
+      "description": "Ankle Lock from X-Guard (Defender) film study: No Gi BJJ: Escaping the Straight Ankle Lock (Beginner).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DqoqyOCli0I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DqoqyOCli0I",
+      "url": "https://www.youtube.com/watch?v=DqoqyOCli0I",
+      "duration": "PT169S"
     }
   ]
 }
@@ -191,6 +201,14 @@ Defending the ankle lock from X-Guard demands early recognition and systematic r
 ![](https://www.youtube.com/watch?v=JSOM86_1lRo)
 
 <p class="clip-credit"><strong>Foot lock and single leg X Guard escapes</strong> · 1:51 · <a href="https://www.youtube.com/watch?v=JSOM86_1lRo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=DqoqyOCli0I)
+
+<p class="clip-credit"><strong>No Gi BJJ: Escaping the Straight Ankle Lock (Beginner)</strong> · 2:49 · <a href="https://www.youtube.com/watch?v=DqoqyOCli0I" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

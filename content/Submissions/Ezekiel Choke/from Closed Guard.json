@@ -459,6 +459,13 @@
         "title": "Ezekiel Choke from Inside the Closed Guard",
         "channel": "Revolution BJJ",
         "duration": 114
+      },
+      {
+        "id": "U0bEVMh07b0",
+        "title": "Closed Guard fist Ezekiel Choke  with a Twist",
+        "channel": "BJJ After Forty",
+        "duration": 149,
+        "vertical": false
       }
     ]
   },
@@ -635,6 +642,22 @@
         "description": "Combine defensive recognition with counter-attacks including hip bump sweeps and triangle setups. Partner attempts the Ezekiel at increasing speed and intensity while you defend and immediately transition to counter-offense. Progress from isolated drilling to positional sparring rounds starting in closed guard with the Ezekiel as the attacker's primary goal."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "9J9JTB17-Sk",
+        "title": "Ezekiel Choke Defense - Wrist Lock",
+        "channel": "Gracie Ohio Jiu-Jitsu Academy",
+        "duration": 135,
+        "vertical": false,
+        "front": true
+      },
+      {
+        "id": "AaZPuF7ppY8",
+        "title": "Defense to the Ezekiel Choke",
+        "channel": "Gracie Ohio Jiu-Jitsu Academy",
+        "duration": 176,
+        "vertical": false
+      }
+    ]
   }
 }

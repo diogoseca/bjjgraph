@@ -582,6 +582,22 @@
         "description": "Full resistance positional sparring starting in half guard bottom. Top player's goal is to flatten and pass. Bottom player's goal is to prevent flattening and either maintain active half guard or sweep. Rounds of 2-3 minutes with position resets. Focus on early recognition, frame maintenance, and timely transitions between defensive layers."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "I05XdrbakZQ",
+        "title": "How to NOT Get Flattened, Cross-faced and Smashed in Half Guard",
+        "channel": "Stephan Kesting",
+        "duration": 338,
+        "vertical": false,
+        "front": true
+      },
+      {
+        "id": "ALhb8nFaFgA",
+        "title": "How To Stop Getting Smashed in Half Guard Bottom",
+        "channel": "Chewjitsu",
+        "duration": 369,
+        "vertical": false
+      }
+    ]
   }
 }

@@ -152,6 +152,37 @@ description: "Defend and escape the omoplata from double sleeve guard. Recogniti
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Omoplata from Double Sleeve Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Omoplata Step Over Escape Drill 2",
+      "description": "Omoplata from Double Sleeve Guard (Defender) film study: Omoplata Step Over Escape Drill 2.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/tOnP_QiviyU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/tOnP_QiviyU",
+      "url": "https://www.youtube.com/watch?v=tOnP_QiviyU",
+      "duration": "PT71S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Professor Queixinho Teaches a Highly Effective Omoplata Escape!",
+      "description": "Omoplata from Double Sleeve Guard (Defender) film study: Professor Queixinho Teaches a Highly Effective Omoplata Escape!.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/UaZdeo4ro3E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/UaZdeo4ro3E",
+      "url": "https://www.youtube.com/watch?v=UaZdeo4ro3E",
+      "duration": "PT141S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -165,6 +196,32 @@ Defending the omoplata from double sleeve guard requires recognizing the attack 
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Omoplata from Double Sleeve Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=tOnP_QiviyU)
+
+<p class="clip-credit"><strong>Omoplata Step Over Escape Drill 2</strong> · 1:11 · <a href="https://www.youtube.com/watch?v=tOnP_QiviyU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=UaZdeo4ro3E)
+
+<p class="clip-credit"><strong>Professor Queixinho Teaches a Highly Effective Omoplata Escape!</strong> · 2:21 · <a href="https://www.youtube.com/watch?v=UaZdeo4ro3E" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

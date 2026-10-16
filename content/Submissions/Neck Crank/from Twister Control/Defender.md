@@ -154,6 +154,27 @@ description: "Learn to defend and escape the neck crank from Twister Control. Re
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Neck Crank from Twister Control (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Escape and counter the Twister! - Matrix Jiu Jitsu",
+      "description": "Neck Crank from Twister Control (Defender) film study: Escape and counter the Twister! - Matrix Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Va1YNgx2E6M/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Va1YNgx2E6M",
+      "url": "https://www.youtube.com/watch?v=Va1YNgx2E6M",
+      "duration": "PT165S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -167,6 +188,24 @@ Defending the neck crank from Twister Control requires understanding that you ar
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Neck Crank from Twister Control (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Va1YNgx2E6M)
+
+<p class="clip-credit"><strong>Escape and counter the Twister! - Matrix Jiu Jitsu</strong> · 2:45 · <a href="https://www.youtube.com/watch?v=Va1YNgx2E6M" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

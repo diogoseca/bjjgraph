@@ -452,7 +452,23 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "iGVWSwxKCII",
+        "title": "This one handed Americana/keylock submission will surprise your opponents",
+        "channel": "Mastermind Martial Arts",
+        "duration": 141,
+        "vertical": false,
+        "front": true
+      },
+      {
+        "id": "SkFE9CBKvsA",
+        "title": "Modified Americana Grip",
+        "channel": "BJJ After Forty",
+        "duration": 61,
+        "vertical": false
+      }
+    ]
   },
   "defender": {
     "name": "from Kuzure Kesa Gatame Defender",

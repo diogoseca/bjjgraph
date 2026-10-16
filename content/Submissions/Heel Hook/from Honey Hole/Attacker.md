@@ -188,6 +188,26 @@ description: "Learn to finish the heel hook from Honey Hole with precise grip me
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "Single Leg X Entry + Honey Hole + Sweep + Heel Hook",
+      "description": "Heel Hook from Honey Hole (Attacker) film study: Single Leg X Entry + Honey Hole + Sweep + Heel Hook.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/PGQ7YYfu76Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/PGQ7YYfu76Q",
+      "url": "https://www.youtube.com/watch?v=PGQ7YYfu76Q",
+      "duration": "PT65S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Craig Jones - X Guard to Heel Hook",
+      "description": "Heel Hook from Honey Hole (Attacker) film study: Craig Jones - X Guard to Heel Hook.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lr7rlj7WV-E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lr7rlj7WV-E",
+      "url": "https://www.youtube.com/watch?v=lr7rlj7WV-E",
+      "duration": "PT94S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
       "name": "4 Variations Of Heel Hook Finish From Saddle",
       "description": "Heel Hook from Honey Hole (Attacker) film study: 4 Variations Of Heel Hook Finish From Saddle.",
       "thumbnailUrl": "https://i.ytimg.com/vi/n6EoUkDwUVc/hqdefault.jpg",
@@ -219,6 +239,22 @@ The heel hook from Honey Hole is the premier finishing technique in modern leg l
 
 <p class="section-subtitle">Watch Heel Hook from Honey Hole (Attacker) in action — curated instructionals</p>
 
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=PGQ7YYfu76Q)
+
+<p class="clip-credit"><strong>Single Leg X Entry + Honey Hole + Sweep + Heel Hook</strong> · 1:05 · <a href="https://www.youtube.com/watch?v=PGQ7YYfu76Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lr7rlj7WV-E)
+
+<p class="clip-credit"><strong>Craig Jones - X Guard to Heel Hook</strong> · 1:34 · <a href="https://www.youtube.com/watch?v=lr7rlj7WV-E" rel="noopener">Watch on YouTube</a></p>
+
+</div>
 
 <div class="film-clip">
 

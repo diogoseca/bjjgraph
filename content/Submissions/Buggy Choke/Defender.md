@@ -146,6 +146,37 @@ description: "Defend the Buggy Choke while passing half guard: keep your head up
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Buggy Choke (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Who\u0027s Next Ep. 5 | How To Defend the Buggy Choke, with Jansen Gomes",
+      "description": "Buggy Choke (Defender) film study: Who\u0027s Next Ep. 5 | How To Defend the Buggy Choke, with Jansen Gomes.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Huv5wYwC3_o/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Huv5wYwC3_o",
+      "url": "https://www.youtube.com/watch?v=Huv5wYwC3_o",
+      "duration": "PT52S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "How To Defend Against The Dreaded Buggy Choke",
+      "description": "Buggy Choke (Defender) film study: How To Defend Against The Dreaded Buggy Choke.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6VmI-HMAQso/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6VmI-HMAQso",
+      "url": "https://www.youtube.com/watch?v=6VmI-HMAQso",
+      "duration": "PT238S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -159,6 +190,32 @@ As the defender you are the top player passing half guard, and the Buggy Choke p
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Buggy Choke (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Huv5wYwC3_o)
+
+<p class="clip-credit"><strong>Who&#39;s Next Ep. 5 | How To Defend the Buggy Choke, with Jansen Gomes</strong> · 0:52 · <a href="https://www.youtube.com/watch?v=Huv5wYwC3_o" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=6VmI-HMAQso)
+
+<p class="clip-credit"><strong>How To Defend Against The Dreaded Buggy Choke</strong> · 3:58 · <a href="https://www.youtube.com/watch?v=6VmI-HMAQso" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

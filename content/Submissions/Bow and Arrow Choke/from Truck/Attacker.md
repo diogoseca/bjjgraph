@@ -178,6 +178,27 @@ description: "Attack the Bow and Arrow Choke from Truck. Collar grip setup from 
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Bow and Arrow Choke from Truck (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Kimura to Bow and Arrow",
+      "description": "Bow and Arrow Choke from Truck (Attacker) film study: Kimura to Bow and Arrow.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/PsmALCcIBic/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/PsmALCcIBic",
+      "url": "https://www.youtube.com/watch?v=PsmALCcIBic",
+      "duration": "PT131S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -191,6 +212,24 @@ Attacking with the Bow and Arrow Choke from the Truck requires understanding tha
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Bow and Arrow Choke from Truck (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=PsmALCcIBic)
+
+<p class="clip-credit"><strong>Kimura to Bow and Arrow</strong> · 2:11 · <a href="https://www.youtube.com/watch?v=PsmALCcIBic" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

@@ -437,7 +437,22 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "z3RNUfHfiSM",
+        "title": "Marcelo Garcia - North South Choke",
+        "channel": "Kon Ying",
+        "duration": 20,
+        "vertical": false
+      },
+      {
+        "id": "Fdq-j0AUVtc",
+        "title": "NORTH SOUTH PRESSURE CHOKE",
+        "channel": "Nick Unander",
+        "duration": 99,
+        "vertical": false
+      }
+    ]
   },
   "defender": {
     "name": "North-South Choke from Shoulder of Justice Defender",
@@ -624,6 +639,15 @@
         "description": "Full resistance positional sparring starting from Shoulder of Justice. Partner attempts the North-South Choke at realistic speed and pressure. Practice maintaining composure, recognizing the setup under duress, and choosing the appropriate defensive response. Tap early when the grip locks to build safe training habits."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "O-2iSvT8zDk",
+        "title": "“Hook-Plata”  (North-South Choke Escape)",
+        "channel": "Erik Koehne",
+        "duration": 59,
+        "vertical": false,
+        "front": true
+      }
+    ]
   }
 }

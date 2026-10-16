@@ -483,7 +483,23 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "N-bZMbI2jSo",
+        "title": "🛡️ Americana from Mount Explained | BJJ Submission Guide",
+        "channel": "Gabriel Gonzaga",
+        "duration": 110,
+        "vertical": false,
+        "front": true
+      },
+      {
+        "id": "IGcqUUmdi3A",
+        "title": "Americana to armbar from mount",
+        "channel": "Renato Migliaccio",
+        "duration": 17,
+        "vertical": false
+      }
+    ]
   },
   "defender": {
     "name": "Americana from Technical Mount Defender",
@@ -670,6 +686,29 @@
         "description": "Positional sparring starting from technical mount bottom. Partner works the Americana-armbar chain at full resistance while you defend freely. Track success rates and identify recurring failure points. Build the defensive instincts needed to survive the binary submission threat under realistic pressure."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "qfoEZtys84k",
+        "title": "Bjj defense against the americana",
+        "channel": "Kevin Conan Bankens",
+        "duration": 42,
+        "vertical": false,
+        "front": true
+      },
+      {
+        "id": "NZjUCo8os8Q",
+        "title": "Simple Americana Armlock Escape",
+        "channel": "Eddie Kone Academy Of Jiu-Jitsu",
+        "duration": 61,
+        "vertical": false
+      },
+      {
+        "id": "qVINUjefot8",
+        "title": "Bent Armlock Escape from Mount",
+        "channel": "Soma Academy",
+        "duration": 71,
+        "vertical": false
+      }
+    ]
   }
 }

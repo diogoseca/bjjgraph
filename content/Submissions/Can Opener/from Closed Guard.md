@@ -46,12 +46,22 @@ description: "Understand Can Opener neck crank in BJJ: safety risks, legal statu
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Can opener escape",
-      "description": "Can Opener from Closed Guard film study: Can opener escape.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/WKT2yF6R3Fs/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/WKT2yF6R3Fs",
-      "url": "https://www.youtube.com/watch?v=WKT2yF6R3Fs",
-      "duration": "PT57S"
+      "name": "Cervical Choke\"Can Opener\" \u0026 defense",
+      "description": "Can Opener from Closed Guard film study: Cervical Choke\"Can Opener\" \u0026 defense.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/FGPGkKnY_Mg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/FGPGkKnY_Mg",
+      "url": "https://www.youtube.com/watch?v=FGPGkKnY_Mg",
+      "duration": "PT73S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "How to Do a Can Opener   MMA Submissions",
+      "description": "Can Opener from Closed Guard film study: How to Do a Can Opener   MMA Submissions.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_-NGlUCnHy0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_-NGlUCnHy0",
+      "url": "https://www.youtube.com/watch?v=_-NGlUCnHy0",
+      "duration": "PT126S"
     }
   ]
 }
@@ -110,9 +120,17 @@ The Can Opener is a neck crank technique applied from within an opponent's close
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=WKT2yF6R3Fs)
+![](https://www.youtube.com/watch?v=FGPGkKnY_Mg)
 
-<p class="clip-credit"><strong>Can opener escape</strong> · 0:57 · <a href="https://www.youtube.com/watch?v=WKT2yF6R3Fs" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Cervical Choke&#34;Can Opener&#34; &amp; defense</strong> · 1:13 · <a href="https://www.youtube.com/watch?v=FGPGkKnY_Mg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_-NGlUCnHy0)
+
+<p class="clip-credit"><strong>How to Do a Can Opener   MMA Submissions</strong> · 2:06 · <a href="https://www.youtube.com/watch?v=_-NGlUCnHy0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

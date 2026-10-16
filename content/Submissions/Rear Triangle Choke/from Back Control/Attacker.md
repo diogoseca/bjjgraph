@@ -192,6 +192,16 @@ description: "How to execute Rear Triangle Choke in BJJ. Attacking perspective w
     {
       "@type": "VideoObject",
       "position": 2,
+      "name": "bjj drills ushiro sankaku rear triangle setup from seated back with hooks in by\u2026",
+      "description": "Rear Triangle Choke from Back Control (Attacker) film study: bjj drills ushiro sankaku rear triangle setup from seated back with hooks in by\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/LQUICOJ82xk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/LQUICOJ82xk",
+      "url": "https://www.youtube.com/watch?v=LQUICOJ82xk",
+      "duration": "PT40S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
       "name": "Rear triangle set up from back control",
       "description": "Rear Triangle Choke from Back Control (Attacker) film study: Rear triangle set up from back control.",
       "thumbnailUrl": "https://i.ytimg.com/vi/4h-lxaNIqzw/hqdefault.jpg",
@@ -233,6 +243,14 @@ The Triangle Choke from Back Control requires precise leg positioning, hip mobil
 ![](https://www.youtube.com/watch?v=l5ayCZh3W78)
 
 <p class="clip-credit"><strong>Rear Triangle from Back by Gracie Charlottesville</strong> · 0:32 · <a href="https://www.youtube.com/watch?v=l5ayCZh3W78" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=LQUICOJ82xk)
+
+<p class="clip-credit"><strong>bjj drills ushiro sankaku rear triangle setup from seated back with hooks in by…</strong> · 0:40 · <a href="https://www.youtube.com/watch?v=LQUICOJ82xk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -52,6 +52,16 @@ description: "Master the Darce Choke from Overhook Control with expert finishing
       "embedUrl": "https://www.youtube.com/embed/pJcwan8Mza4",
       "url": "https://www.youtube.com/watch?v=pJcwan8Mza4",
       "duration": "PT81S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Darce attack from inside of guard",
+      "description": "Darce Choke from Overhook Control film study: Darce attack from inside of guard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/HR6Bk9RY5W4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/HR6Bk9RY5W4",
+      "url": "https://www.youtube.com/watch?v=HR6Bk9RY5W4",
+      "duration": "PT74S"
     }
   ]
 }
@@ -117,6 +127,14 @@ Finishing from overhook control requires attention to body angle and hip positio
 ![](https://www.youtube.com/watch?v=pJcwan8Mza4)
 
 <p class="clip-credit"><strong>Dogfight Overhook Series- Part 1 Darce from the overhook.</strong> · 1:21 · <a href="https://www.youtube.com/watch?v=pJcwan8Mza4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=HR6Bk9RY5W4)
+
+<p class="clip-credit"><strong>Darce attack from inside of guard</strong> · 1:14 · <a href="https://www.youtube.com/watch?v=HR6Bk9RY5W4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

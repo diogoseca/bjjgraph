@@ -462,6 +462,20 @@
         "duration": 133,
         "vertical": false,
         "front": true
+      },
+      {
+        "id": "8tdVE2zgjXw",
+        "title": "Craig Jones: details on finishing the rear naked choke",
+        "channel": "Wrecking Crew BJJ",
+        "duration": 57,
+        "vertical": false
+      },
+      {
+        "id": "70jECxFfCSA",
+        "title": "Gordon Ryan - Rear Naked Choke (Control Jiu-Jitsu Submission of The Week)",
+        "channel": "Control Jiu JItsu",
+        "duration": 73,
+        "vertical": false
       }
     ]
   },
@@ -650,6 +664,14 @@
         "description": "Positional sparring starting from full harness with both hooks. Attacker works submissions at full intensity while defender applies all defensive tools. Rounds last until escape or submission. Track escape success rate and identify which stage of defense breaks down most frequently for targeted drilling."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "ylLO80PM4zg",
+        "title": "Rear naked choke escape",
+        "channel": "Renato Migliaccio",
+        "duration": 16,
+        "vertical": false
+      }
+    ]
   }
 }

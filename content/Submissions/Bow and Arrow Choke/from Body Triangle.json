@@ -420,7 +420,16 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "R5LFNqtx1ps",
+        "title": "Bow & Arrow Choke",
+        "channel": "Gracie Barra Jiu-jitsu",
+        "duration": 66,
+        "vertical": false,
+        "front": true
+      }
+    ]
   },
   "defender": {
     "name": "from Body Triangle Defender",

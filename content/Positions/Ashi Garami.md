@@ -36,6 +36,37 @@ description: "Master Ashi Garami leg entanglements in BJJ. Complete guide to sys
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Ashi Garami \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Ashi Garami 101: Basic Mechanics and Drills for Leglocks (No Gi Jiu-Jitsu)",
+      "description": "Ashi Garami film study: Ashi Garami 101: Basic Mechanics and Drills for Leglocks (No Gi Jiu-Jitsu).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pYnp2_gJIoM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/pYnp2_gJIoM",
+      "url": "https://www.youtube.com/watch?v=pYnp2_gJIoM",
+      "duration": "PT330S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Ashi Garami Explained: The Control System Behind Modern No-Gi",
+      "description": "Ashi Garami film study: Ashi Garami Explained: The Control System Behind Modern No-Gi.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hhOOwMNfV-0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hhOOwMNfV-0",
+      "url": "https://www.youtube.com/watch?v=hhOOwMNfV-0",
+      "duration": "PT606S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -75,6 +106,32 @@ Understanding Ashi Garami requires recognizing the position as a complete system
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Ashi Garami in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=pYnp2_gJIoM)
+
+<p class="clip-credit"><strong>Ashi Garami 101: Basic Mechanics and Drills for Leglocks (No Gi Jiu-Jitsu)</strong> · 5:30 · <a href="https://www.youtube.com/watch?v=pYnp2_gJIoM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=hhOOwMNfV-0)
+
+<p class="clip-credit"><strong>Ashi Garami Explained: The Control System Behind Modern No-Gi</strong> · 10:06 · <a href="https://www.youtube.com/watch?v=hhOOwMNfV-0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

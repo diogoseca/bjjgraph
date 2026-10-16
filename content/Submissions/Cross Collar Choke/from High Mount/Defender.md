@@ -152,6 +152,27 @@ description: "Defend the Cross Collar Choke from High Mount in BJJ. Recognition 
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Cross Collar Choke from High Mount (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Defend cross choke - armbar",
+      "description": "Cross Collar Choke from High Mount (Defender) film study: Defend cross choke - armbar.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/F1qoGHKy_uE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/F1qoGHKy_uE",
+      "url": "https://www.youtube.com/watch?v=F1qoGHKy_uE",
+      "duration": "PT22S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -165,6 +186,24 @@ Defending the Cross Collar Choke from High Mount requires early recognition, dis
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Cross Collar Choke from High Mount (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=F1qoGHKy_uE)
+
+<p class="clip-credit"><strong>Defend cross choke - armbar</strong> · 0:22 · <a href="https://www.youtube.com/watch?v=F1qoGHKy_uE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

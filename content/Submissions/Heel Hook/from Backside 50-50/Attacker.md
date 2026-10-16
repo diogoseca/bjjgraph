@@ -178,6 +178,37 @@ description: "Complete attacking guide for the heel hook from Backside 50-50 bot
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Heel Hook from Backside 50-50 (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Craig Jones Backside 50/50 inside Heel hook finish #short #bjj #footlock",
+      "description": "Heel Hook from Backside 50-50 (Attacker) film study: Craig Jones Backside 50/50 inside Heel hook finish #short #bjj #footlock.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sIYeSMSkqeE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sIYeSMSkqeE",
+      "url": "https://www.youtube.com/watch?v=sIYeSMSkqeE",
+      "duration": "PT18S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "50/50 Heelhook Finishing Details",
+      "description": "Heel Hook from Backside 50-50 (Attacker) film study: 50/50 Heelhook Finishing Details.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fB3FYb-Jx_0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fB3FYb-Jx_0",
+      "url": "https://www.youtube.com/watch?v=fB3FYb-Jx_0",
+      "duration": "PT27S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -191,6 +222,32 @@ Attacking the heel hook from Backside 50-50 bottom demands a fundamentally diffe
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Heel Hook from Backside 50-50 (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sIYeSMSkqeE)
+
+<p class="clip-credit"><strong>Craig Jones Backside 50/50 inside Heel hook finish #short #bjj #footlock</strong> · 0:18 · <a href="https://www.youtube.com/watch?v=sIYeSMSkqeE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fB3FYb-Jx_0)
+
+<p class="clip-credit"><strong>50/50 Heelhook Finishing Details</strong> · 0:27 · <a href="https://www.youtube.com/watch?v=fB3FYb-Jx_0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

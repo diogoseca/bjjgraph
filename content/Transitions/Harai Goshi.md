@@ -46,6 +46,16 @@ description: "Learn Harai Goshi in BJJ. Step-by-step judo throw execution from s
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "3 types of harai-goshi",
+      "description": "Harai Goshi film study: 3 types of harai-goshi.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aWPnGn9dthM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aWPnGn9dthM",
+      "url": "https://www.youtube.com/watch?v=aWPnGn9dthM",
+      "duration": "PT174S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
       "name": "Harai Goshi - Judo for Wrestling by Victoria Vortex Anthony",
       "description": "Harai Goshi film study: Harai Goshi - Judo for Wrestling by Victoria Vortex Anthony.",
       "thumbnailUrl": "https://i.ytimg.com/vi/hj1wTW5poro/hqdefault.jpg",
@@ -102,6 +112,14 @@ From a systems perspective, Harai Goshi functions as a high-reward option within
 
 <p class="section-subtitle">Watch Harai Goshi in action — curated instructionals</p>
 
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=aWPnGn9dthM)
+
+<p class="clip-credit"><strong>3 types of harai-goshi</strong> · 2:54 · <a href="https://www.youtube.com/watch?v=aWPnGn9dthM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
 
 <div class="film-clip">
 

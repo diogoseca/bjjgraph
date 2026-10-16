@@ -173,6 +173,16 @@ description: "Learn to defend the heel hook from Inside Sankaku. Recognition cue
       "embedUrl": "https://www.youtube.com/embed/1-17BEM8qgI",
       "url": "https://www.youtube.com/watch?v=1-17BEM8qgI",
       "duration": "PT282S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Rolling out of Heel Hooks (Craig Jones and Lachlan Giles)",
+      "description": "Heel Hook from Inside Sankaku (Defender) film study: Rolling out of Heel Hooks (Craig Jones and Lachlan Giles).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DrjbaXt-nTo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DrjbaXt-nTo",
+      "url": "https://www.youtube.com/watch?v=DrjbaXt-nTo",
+      "duration": "PT243S"
     }
   ]
 }
@@ -207,6 +217,14 @@ Defending the heel hook from Inside Sankaku is among the most urgent defensive s
 ![](https://www.youtube.com/watch?v=1-17BEM8qgI)
 
 <p class="clip-credit"><strong>Escaping inside sankaku and countering the heel hook.</strong> · 4:42 · <a href="https://www.youtube.com/watch?v=1-17BEM8qgI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=DrjbaXt-nTo)
+
+<p class="clip-credit"><strong>Rolling out of Heel Hooks (Craig Jones and Lachlan Giles)</strong> · 4:03 · <a href="https://www.youtube.com/watch?v=DrjbaXt-nTo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

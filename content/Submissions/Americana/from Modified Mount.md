@@ -36,6 +36,37 @@ description: "Master the Americana shoulder lock from Modified Mount. Learn grip
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Americana from Modified Mount \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Americana Ezekiel from Mount (Try it out Tuesday)",
+      "description": "Americana from Modified Mount film study: Americana Ezekiel from Mount (Try it out Tuesday).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Tgj7ZVWheog/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Tgj7ZVWheog",
+      "url": "https://www.youtube.com/watch?v=Tgj7ZVWheog",
+      "duration": "PT21S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Modified Americana Grip",
+      "description": "Americana from Modified Mount film study: Modified Americana Grip.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/SkFE9CBKvsA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/SkFE9CBKvsA",
+      "url": "https://www.youtube.com/watch?v=SkFE9CBKvsA",
+      "duration": "PT61S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -83,6 +114,32 @@ Competition data consistently shows the Americana from Modified Mount as a high-
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Americana from Modified Mount in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Tgj7ZVWheog)
+
+<p class="clip-credit"><strong>Americana Ezekiel from Mount (Try it out Tuesday)</strong> · 0:21 · <a href="https://www.youtube.com/watch?v=Tgj7ZVWheog" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=SkFE9CBKvsA)
+
+<p class="clip-credit"><strong>Modified Americana Grip</strong> · 1:01 · <a href="https://www.youtube.com/watch?v=SkFE9CBKvsA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="outcomes" class="content-section">

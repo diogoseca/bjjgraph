@@ -36,6 +36,37 @@ description: "Master the kneebar finish from kneebar control in BJJ. Step-by-ste
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kneebar from Kneebar Control \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Master the Standing Grapevine to Kneebar | Billy Robinson\u2019s Catch Wrestling\u2026",
+      "description": "Kneebar from Kneebar Control film study: Master the Standing Grapevine to Kneebar | Billy Robinson\u2019s Catch Wrestling\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/NzkSekbRmZ4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/NzkSekbRmZ4",
+      "url": "https://www.youtube.com/watch?v=NzkSekbRmZ4",
+      "duration": "PT63S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Go Behind Kneebar by Craig Jones",
+      "description": "Kneebar from Kneebar Control film study: Go Behind Kneebar by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/v4lhLkKgVvU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/v4lhLkKgVvU",
+      "url": "https://www.youtube.com/watch?v=v4lhLkKgVvU",
+      "duration": "PT129S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -83,6 +114,32 @@ Strategically, the kneebar from kneebar control functions as the terminal submis
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kneebar from Kneebar Control in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=NzkSekbRmZ4)
+
+<p class="clip-credit"><strong>Master the Standing Grapevine to Kneebar | Billy Robinson’s Catch Wrestling…</strong> · 1:03 · <a href="https://www.youtube.com/watch?v=NzkSekbRmZ4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=v4lhLkKgVvU)
+
+<p class="clip-credit"><strong>Go Behind Kneebar by Craig Jones</strong> · 2:09 · <a href="https://www.youtube.com/watch?v=v4lhLkKgVvU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="outcomes" class="content-section">

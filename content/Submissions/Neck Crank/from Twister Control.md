@@ -62,6 +62,16 @@ description: "Master the neck crank from Twister Control in BJJ. Learn cervical 
       "embedUrl": "https://www.youtube.com/embed/vHEYftsqG9Y",
       "url": "https://www.youtube.com/watch?v=vHEYftsqG9Y",
       "duration": "PT58S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "The Twister: From Twister Side Control (v2.0 redux)",
+      "description": "Neck Crank from Twister Control film study: The Twister: From Twister Side Control (v2.0 redux).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MxE2Jmkm-g4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/MxE2Jmkm-g4",
+      "url": "https://www.youtube.com/watch?v=MxE2Jmkm-g4",
+      "duration": "PT263S"
     }
   ]
 }
@@ -135,6 +145,14 @@ From a strategic perspective, the neck crank serves as a high-percentage finishi
 ![](https://www.youtube.com/watch?v=vHEYftsqG9Y)
 
 <p class="clip-credit"><strong>Neck crank from Twister</strong> · 0:58 · <a href="https://www.youtube.com/watch?v=vHEYftsqG9Y" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=MxE2Jmkm-g4)
+
+<p class="clip-credit"><strong>The Twister: From Twister Side Control (v2.0 redux)</strong> · 4:23 · <a href="https://www.youtube.com/watch?v=MxE2Jmkm-g4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

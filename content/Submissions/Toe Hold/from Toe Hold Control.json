@@ -423,12 +423,19 @@
     ],
     "clips": [
       {
+        "id": "esC22tIGI94",
+        "title": "attack toe hold from top half guard. #bjj #jiujitsu #nogi",
+        "channel": "Maven Martial Arts",
+        "duration": 45,
+        "vertical": false,
+        "front": true
+      },
+      {
         "id": "Kx8gZ3QdO8s",
         "title": "Crossover (Craig Jones) Toe Hold (Brazilian Jiu Jitsu)",
         "channel": "Bence Romanek",
         "duration": 51,
-        "vertical": false,
-        "front": true
+        "vertical": false
       }
     ]
   },

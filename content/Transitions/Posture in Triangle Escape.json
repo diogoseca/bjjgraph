@@ -592,6 +592,22 @@
         "description": "Full resistance positional sparring from locked triangle with partner using all available posture recovery techniques including standing posture, kneeling stack, and combat base variants. Apply all defensive mechanisms and transitions under genuine competitive pressure. Track triangle finish rate versus escape rate across multiple rounds to identify retention weaknesses."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "M3_VDLm6PoE",
+        "title": "How To Finish a Triangle When Someone Has Good Posture",
+        "channel": "Inverted Gear",
+        "duration": 142,
+        "vertical": false,
+        "front": true
+      },
+      {
+        "id": "0BQpXYOU4FI",
+        "title": "5 Counters to Your Opponent Standing in Your Triangle Choke",
+        "channel": "Stephan Kesting",
+        "duration": 309,
+        "vertical": false
+      }
+    ]
   }
 }

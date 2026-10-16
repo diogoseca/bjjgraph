@@ -608,6 +608,20 @@
         "duration": 59,
         "vertical": false,
         "front": true
+      },
+      {
+        "id": "mZ4Q3PL9iZ4",
+        "title": "Gordon Ryan’s WNO Inversion Heelhook - ZombieProofBJJ (BreakDown)",
+        "channel": "ZombieProofBJJ",
+        "duration": 53,
+        "vertical": false
+      },
+      {
+        "id": "chtDbrmYQo8",
+        "title": "Gordon Ryan - Inversion to Inside Heel Hook (Control Jiu-Jitsu Submission of…",
+        "channel": "Control Jiu JItsu",
+        "duration": 62,
+        "vertical": false
       }
     ]
   },
@@ -855,6 +869,15 @@
         "description": "Begin in Inside Ashi-Garami with partner attacking at 75% intensity. Practice full defensive repertoire including prevention, escape, and tactical tapping. Maintain strict safety protocols throughout with attacker applying finishing pressure slowly and defender tapping at first sign of committed rotational torque. Review each round to identify moments where earlier defense would have been more effective."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "gpg88DFH9D4",
+        "title": "Defending and Countering 50/50 Heel Hook and Backsteps with Your Own Submissions",
+        "channel": "Revolution BJJ",
+        "duration": 81,
+        "vertical": false,
+        "front": true
+      }
+    ]
   }
 }

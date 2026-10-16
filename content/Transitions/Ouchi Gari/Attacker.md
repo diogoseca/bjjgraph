@@ -177,6 +177,27 @@ description: "How to execute Ouchi Gari in BJJ. Attacking perspective with setup
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Ouchi Gari (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Misdirection Ouchi-Gari",
+      "description": "Ouchi Gari (Attacker) film study: Misdirection Ouchi-Gari.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XdOuXj1H0ok/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/XdOuXj1H0ok",
+      "url": "https://www.youtube.com/watch?v=XdOuXj1H0ok",
+      "duration": "PT99S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -192,6 +213,24 @@ Ouchi Gari (major inner reaping throw) is a fundamental judo technique that has 
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Ouchi Gari (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=XdOuXj1H0ok)
+
+<p class="clip-credit"><strong>Misdirection Ouchi-Gari</strong> · 1:39 · <a href="https://www.youtube.com/watch?v=XdOuXj1H0ok" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

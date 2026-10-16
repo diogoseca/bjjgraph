@@ -192,6 +192,16 @@ description: "Execute the Elbow Escape from Mount with systematic hip movement, 
       "embedUrl": "https://www.youtube.com/embed/KirbkTs_Bk4",
       "url": "https://www.youtube.com/watch?v=KirbkTs_Bk4",
       "duration": "PT29S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "How to Escape the Mount: Knee and Elbow Escape",
+      "description": "Elbow Escape from Mount (Attacker) film study: How to Escape the Mount: Knee and Elbow Escape.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pUZcLTWHAzk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/pUZcLTWHAzk",
+      "url": "https://www.youtube.com/watch?v=pUZcLTWHAzk",
+      "duration": "PT71S"
     }
   ]
 }
@@ -222,6 +232,14 @@ Executing the Elbow Escape from Mount requires systematic coordination of framin
 ![](https://www.youtube.com/watch?v=KirbkTs_Bk4)
 
 <p class="clip-credit"><strong>BJJ / Nogi Mount escape - heel drag elbow knee</strong> · 0:29 · <a href="https://www.youtube.com/watch?v=KirbkTs_Bk4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=pUZcLTWHAzk)
+
+<p class="clip-credit"><strong>How to Escape the Mount: Knee and Elbow Escape</strong> · 1:11 · <a href="https://www.youtube.com/watch?v=pUZcLTWHAzk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

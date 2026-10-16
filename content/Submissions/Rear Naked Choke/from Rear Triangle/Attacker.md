@@ -172,6 +172,37 @@ description: "Complete guide to finishing the Rear Naked Choke from Rear Triangl
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Rear Naked Choke from Rear Triangle (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Short Choke from Back Position (Jiu Jitsu)",
+      "description": "Rear Naked Choke from Rear Triangle (Attacker) film study: Short Choke from Back Position (Jiu Jitsu).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Sb-atqD_TqQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Sb-atqD_TqQ",
+      "url": "https://www.youtube.com/watch?v=Sb-atqD_TqQ",
+      "duration": "PT54S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "14. Back Take and Rear Naked Choke",
+      "description": "Rear Naked Choke from Rear Triangle (Attacker) film study: 14. Back Take and Rear Naked Choke.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/F5o8VrMw1SE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/F5o8VrMw1SE",
+      "url": "https://www.youtube.com/watch?v=F5o8VrMw1SE",
+      "duration": "PT27S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -185,6 +216,32 @@ Attacking with the RNC from rear triangle is fundamentally different from a stan
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Rear Naked Choke from Rear Triangle (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Sb-atqD_TqQ)
+
+<p class="clip-credit"><strong>Short Choke from Back Position (Jiu Jitsu)</strong> · 0:54 · <a href="https://www.youtube.com/watch?v=Sb-atqD_TqQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=F5o8VrMw1SE)
+
+<p class="clip-credit"><strong>14. Back Take and Rear Naked Choke</strong> · 0:27 · <a href="https://www.youtube.com/watch?v=F5o8VrMw1SE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

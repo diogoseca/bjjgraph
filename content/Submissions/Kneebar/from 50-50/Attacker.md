@@ -204,6 +204,16 @@ description: "How to execute Kneebar from 50-50 in BJJ. Attacking perspective wi
       "embedUrl": "https://www.youtube.com/embed/4DMk3pavYFA",
       "url": "https://www.youtube.com/watch?v=4DMk3pavYFA",
       "duration": "PT126S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "5. Kneebar from Bottom",
+      "description": "Kneebar from 50-50 (Attacker) film study: 5. Kneebar from Bottom.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hn5ts5EWZ1A/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hn5ts5EWZ1A",
+      "url": "https://www.youtube.com/watch?v=hn5ts5EWZ1A",
+      "duration": "PT17S"
     }
   ]
 }
@@ -247,6 +257,14 @@ This submission represents a critical component of modern leg lock systems and i
 ![](https://www.youtube.com/watch?v=4DMk3pavYFA)
 
 <p class="clip-credit"><strong>50/50 Kneebar from Top</strong> · 2:06 · <a href="https://www.youtube.com/watch?v=4DMk3pavYFA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=hn5ts5EWZ1A)
+
+<p class="clip-credit"><strong>5. Kneebar from Bottom</strong> · 0:17 · <a href="https://www.youtube.com/watch?v=hn5ts5EWZ1A" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

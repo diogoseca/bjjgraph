@@ -56,6 +56,16 @@ description: "Master the Guillotine Choke from Clinch in BJJ. Complete guide to 
     {
       "@type": "VideoObject",
       "position": 2,
+      "name": "Self Defense - Attacking the standing Guillotine - FargoBJJ Fundamentals",
+      "description": "Guillotine Choke from Clinch film study: Self Defense - Attacking the standing Guillotine - FargoBJJ Fundamentals.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-x0MJel3Ru0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/-x0MJel3Ru0",
+      "url": "https://www.youtube.com/watch?v=-x0MJel3Ru0",
+      "duration": "PT54S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
       "name": "Two Standing Guillotine variations",
       "description": "Guillotine Choke from Clinch film study: Two Standing Guillotine variations.",
       "thumbnailUrl": "https://i.ytimg.com/vi/ilxJA4hIEFE/hqdefault.jpg",
@@ -127,6 +137,14 @@ In competition, the standing guillotine creates a compelling strategic dilemma. 
 ![](https://www.youtube.com/watch?v=2Ioe4B7HF38)
 
 <p class="clip-credit"><strong>Special: guillotine choke from clinch</strong> · 0:42 · <a href="https://www.youtube.com/watch?v=2Ioe4B7HF38" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=-x0MJel3Ru0)
+
+<p class="clip-credit"><strong>Self Defense - Attacking the standing Guillotine - FargoBJJ Fundamentals</strong> · 0:54 · <a href="https://www.youtube.com/watch?v=-x0MJel3Ru0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

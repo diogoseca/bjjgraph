@@ -146,6 +146,37 @@ description: "Defend against the Bow and Arrow Choke from Rear Triangle. Recogni
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Bow and Arrow Choke from Rear Triangle (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Escape The Bow \u0026 Arrow Choke Even After They Grab Your Pants!",
+      "description": "Bow and Arrow Choke from Rear Triangle (Defender) film study: Escape The Bow \u0026 Arrow Choke Even After They Grab Your Pants!.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6PP0y4ael7w/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6PP0y4ael7w",
+      "url": "https://www.youtube.com/watch?v=6PP0y4ael7w",
+      "duration": "PT134S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Bow and Arrow Choke Defense",
+      "description": "Bow and Arrow Choke from Rear Triangle (Defender) film study: Bow and Arrow Choke Defense.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/QVUP7U8W-0c/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/QVUP7U8W-0c",
+      "url": "https://www.youtube.com/watch?v=QVUP7U8W-0c",
+      "duration": "PT246S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -159,6 +190,32 @@ Defending the Bow and Arrow Choke from Rear Triangle requires addressing two sim
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Bow and Arrow Choke from Rear Triangle (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=6PP0y4ael7w)
+
+<p class="clip-credit"><strong>Escape The Bow &amp; Arrow Choke Even After They Grab Your Pants!</strong> · 2:14 · <a href="https://www.youtube.com/watch?v=6PP0y4ael7w" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=QVUP7U8W-0c)
+
+<p class="clip-credit"><strong>Bow and Arrow Choke Defense</strong> · 4:06 · <a href="https://www.youtube.com/watch?v=QVUP7U8W-0c" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

@@ -36,6 +36,37 @@ description: "Master the Baratoplata from Crackhead Control. Complete guide to t
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Baratoplata from Crackhead Control \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Modern Jiu Jitsu Episode 1 - Baratoplata Basics.",
+      "description": "Baratoplata from Crackhead Control film study: Modern Jiu Jitsu Episode 1 - Baratoplata Basics..",
+      "thumbnailUrl": "https://i.ytimg.com/vi/1O-BoOWXhzY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/1O-BoOWXhzY",
+      "url": "https://www.youtube.com/watch?v=1O-BoOWXhzY",
+      "duration": "PT232S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Baratoplata from Spider Guard by Joao Miyao",
+      "description": "Baratoplata from Crackhead Control film study: Baratoplata from Spider Guard by Joao Miyao.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/7PzrTuuHzZ4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/7PzrTuuHzZ4",
+      "url": "https://www.youtube.com/watch?v=7PzrTuuHzZ4",
+      "duration": "PT362S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -83,6 +114,32 @@ What makes this variation particularly dangerous at the competitive level is the
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Baratoplata from Crackhead Control in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=1O-BoOWXhzY)
+
+<p class="clip-credit"><strong>Modern Jiu Jitsu Episode 1 - Baratoplata Basics.</strong> · 3:52 · <a href="https://www.youtube.com/watch?v=1O-BoOWXhzY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=7PzrTuuHzZ4)
+
+<p class="clip-credit"><strong>Baratoplata from Spider Guard by Joao Miyao</strong> · 6:02 · <a href="https://www.youtube.com/watch?v=7PzrTuuHzZ4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="outcomes" class="content-section">

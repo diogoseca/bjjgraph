@@ -512,6 +512,13 @@
         "duration": 60,
         "vertical": false,
         "front": true
+      },
+      {
+        "id": "vSmRbpNmf-E",
+        "title": "Roger Gracie | ARM BARS",
+        "channel": "Jiu Jitsu Moves",
+        "duration": 102,
+        "vertical": false
       }
     ]
   },
@@ -698,7 +705,23 @@
         "description": "Positional sparring rounds starting in closed guard where the bottom player is hunting specifically for rolling armbars. Defend using the full defensive toolkit: grip denial during setup, stacking or following during the roll, and escape mechanics during the finish. Track which phase of defense you most commonly rely on and work to improve earlier-phase interventions. Film rounds for technical review."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "kNdKfUdgO4I",
+        "title": "THIS is my favorite armbar escape! #jiujitsu #jiujitsutips",
+        "channel": "Matt Arroyo Jiu Jitsu ",
+        "duration": 92,
+        "vertical": false,
+        "front": true
+      },
+      {
+        "id": "yWmSp1_dOfI",
+        "title": "Armbar Defense Escape Brazilian Jiu Jitsu",
+        "channel": "Wesley Chapel MMA",
+        "duration": 172,
+        "vertical": false
+      }
+    ]
   },
   "variations_and_setups": [
     {

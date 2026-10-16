@@ -53,6 +53,26 @@ description: "Finish the Wrist Lock (mão de vaca) from closed guard top: flexio
       "embedUrl": "https://www.youtube.com/embed/4rpZgxQXNFM",
       "url": "https://www.youtube.com/watch?v=4rpZgxQXNFM",
       "duration": "PT96S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "The Best Wrist Lock From Closed Guard",
+      "description": "Wrist Lock film study: The Best Wrist Lock From Closed Guard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/nnhPrvpY9qM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/nnhPrvpY9qM",
+      "url": "https://www.youtube.com/watch?v=nnhPrvpY9qM",
+      "duration": "PT203S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Wrist lock inside closed guard.",
+      "description": "Wrist Lock film study: Wrist lock inside closed guard..",
+      "thumbnailUrl": "https://i.ytimg.com/vi/zJm3g60Expo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/zJm3g60Expo",
+      "url": "https://www.youtube.com/watch?v=zJm3g60Expo",
+      "duration": "PT47S"
     }
   ]
 }
@@ -117,6 +137,22 @@ The Wrist Lock, known in Portuguese as mão de vaca ('cow's hand') and in judo a
 ![](https://www.youtube.com/watch?v=4rpZgxQXNFM)
 
 <p class="clip-credit"><strong>Wrist Lock from Closed Guard when Opponent Controls Biceps</strong> · 1:36 · <a href="https://www.youtube.com/watch?v=4rpZgxQXNFM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=nnhPrvpY9qM)
+
+<p class="clip-credit"><strong>The Best Wrist Lock From Closed Guard</strong> · 3:23 · <a href="https://www.youtube.com/watch?v=nnhPrvpY9qM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=zJm3g60Expo)
+
+<p class="clip-credit"><strong>Wrist lock inside closed guard.</strong> · 0:47 · <a href="https://www.youtube.com/watch?v=zJm3g60Expo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

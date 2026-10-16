@@ -176,6 +176,26 @@ description: "How to defend against Kimura from Half Guard in BJJ. Recognition, 
       "embedUrl": "https://www.youtube.com/embed/urKU1BKZNXA",
       "url": "https://www.youtube.com/watch?v=urKU1BKZNXA",
       "duration": "PT52S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Escaping \u0026 Preventing the Kimura from Half Guard | BJJ Submission Defence",
+      "description": "Kimura from Half Guard (Defender) film study: Escaping \u0026 Preventing the Kimura from Half Guard | BJJ Submission Defence.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/7dU6lsfyowU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/7dU6lsfyowU",
+      "url": "https://www.youtube.com/watch?v=7dU6lsfyowU",
+      "duration": "PT258S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "The Daily Dirtball: \"Kimura Defense Grip Breaks\"",
+      "description": "Kimura from Half Guard (Defender) film study: The Daily Dirtball: \"Kimura Defense Grip Breaks\".",
+      "thumbnailUrl": "https://i.ytimg.com/vi/GOLwVNTVcnY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/GOLwVNTVcnY",
+      "url": "https://www.youtube.com/watch?v=GOLwVNTVcnY",
+      "duration": "PT81S"
     }
   ]
 }
@@ -207,6 +227,22 @@ Defending the **Kimura from Half Guard** requires early recognition, disciplined
 ![](https://www.youtube.com/watch?v=urKU1BKZNXA)
 
 <p class="clip-credit"><strong>Kimura Counter From Top Half Guard To Armlock</strong> · 0:52 · <a href="https://www.youtube.com/watch?v=urKU1BKZNXA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=7dU6lsfyowU)
+
+<p class="clip-credit"><strong>Escaping &amp; Preventing the Kimura from Half Guard | BJJ Submission Defence</strong> · 4:18 · <a href="https://www.youtube.com/watch?v=7dU6lsfyowU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=GOLwVNTVcnY)
+
+<p class="clip-credit"><strong>The Daily Dirtball: &#34;Kimura Defense Grip Breaks&#34;</strong> · 1:21 · <a href="https://www.youtube.com/watch?v=GOLwVNTVcnY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

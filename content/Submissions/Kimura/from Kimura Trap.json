@@ -886,6 +886,14 @@
         "title": "The Daily Dirtball: \"Kimura Defense Grip Breaks\"",
         "channel": "Dirtball BJJ",
         "duration": 81,
+        "vertical": false,
+        "front": true
+      },
+      {
+        "id": "uRn3DRICpeY",
+        "title": "Late Kimura Defense from Bottom Side Control",
+        "channel": "Fox Den Martial Arts",
+        "duration": 100,
         "vertical": false
       }
     ]

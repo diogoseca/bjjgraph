@@ -172,6 +172,37 @@ description: "Step-by-step guide to attacking with the Kimura from Kuzure Kesa G
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kimura from Kuzure Kesa Gatame (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Bjj kimura from scarf hold",
+      "description": "Kimura from Kuzure Kesa Gatame (Attacker) film study: Bjj kimura from scarf hold.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/u80GDGC1Yno/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/u80GDGC1Yno",
+      "url": "https://www.youtube.com/watch?v=u80GDGC1Yno",
+      "duration": "PT34S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Technique on Command - Transition from Kesa Gatame to Kimura",
+      "description": "Kimura from Kuzure Kesa Gatame (Attacker) film study: Technique on Command - Transition from Kesa Gatame to Kimura.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/d7ucks8aHN0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/d7ucks8aHN0",
+      "url": "https://www.youtube.com/watch?v=d7ucks8aHN0",
+      "duration": "PT70S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -185,6 +216,32 @@ Attacking with the Kimura from Kuzure Kesa Gatame leverages the position's built
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kimura from Kuzure Kesa Gatame (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=u80GDGC1Yno)
+
+<p class="clip-credit"><strong>Bjj kimura from scarf hold</strong> · 0:34 · <a href="https://www.youtube.com/watch?v=u80GDGC1Yno" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=d7ucks8aHN0)
+
+<p class="clip-credit"><strong>Technique on Command - Transition from Kesa Gatame to Kimura</strong> · 1:10 · <a href="https://www.youtube.com/watch?v=d7ucks8aHN0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

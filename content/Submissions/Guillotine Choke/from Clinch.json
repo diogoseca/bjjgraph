@@ -464,6 +464,13 @@
         "front": true
       },
       {
+        "id": "-x0MJel3Ru0",
+        "title": "Self Defense - Attacking the standing Guillotine - FargoBJJ Fundamentals",
+        "channel": "Fargo BJJ Academy",
+        "duration": 54,
+        "vertical": false
+      },
+      {
         "id": "ilxJA4hIEFE",
         "title": "Two Standing Guillotine variations",
         "channel": "Hellfish Mixed Martial Arts",
@@ -657,6 +664,22 @@
         "description": "Positional sparring starting from clinch. Attacker attempts standing guillotine at full speed and resistance. Defender uses all defensive tools—chin tuck, grip fighting, posture recovery, forward drive—in combination based on the attacker's execution. Reset after each escape or submission. Track success rate to measure improvement."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "I0aWHdgbJzI",
+        "title": "Mark Hatmaker Demos a Standing Guillotine Beat, Phase 3",
+        "channel": "Mark Hatmaker",
+        "duration": 19,
+        "vertical": false,
+        "front": true
+      },
+      {
+        "id": "3aSFiPLqXmo",
+        "title": "Best Way to Defend Guillotine Choke (MMA). Miesha Tate vs Raquel Pennington",
+        "channel": "Worldfightingnetwork",
+        "duration": 25,
+        "vertical": false
+      }
+    ]
   }
 }

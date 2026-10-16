@@ -172,6 +172,37 @@ description: "Learn to execute the Americana shoulder lock from S Mount. Detaile
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Americana from S Mount (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "BJJ technique with Chelsea Ozer: Americana from mount",
+      "description": "Americana from S Mount (Attacker) film study: BJJ technique with Chelsea Ozer: Americana from mount.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Z44VF9pmJBg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Z44VF9pmJBg",
+      "url": "https://www.youtube.com/watch?v=Z44VF9pmJBg",
+      "duration": "PT52S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "how to finish the Americana",
+      "description": "Americana from S Mount (Attacker) film study: how to finish the Americana.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9XZSamucGkg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9XZSamucGkg",
+      "url": "https://www.youtube.com/watch?v=9XZSamucGkg",
+      "duration": "PT131S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -185,6 +216,32 @@ Executing the Americana from S Mount requires precise figure-four grip mechanics
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Americana from S Mount (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Z44VF9pmJBg)
+
+<p class="clip-credit"><strong>BJJ technique with Chelsea Ozer: Americana from mount</strong> · 0:52 · <a href="https://www.youtube.com/watch?v=Z44VF9pmJBg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=9XZSamucGkg)
+
+<p class="clip-credit"><strong>how to finish the Americana</strong> · 2:11 · <a href="https://www.youtube.com/watch?v=9XZSamucGkg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

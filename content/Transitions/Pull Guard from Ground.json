@@ -534,7 +534,16 @@
       }
     ],
     "safety_considerations": "Guard pulls from ground carry risk of knee and ankle injuries if legs become trapped or twisted during the wrapping motion. Never force a guard pull when your legs are entangled in an awkward position that could stress the knee laterally. Practice hip bridges at controlled speed before adding resistance to avoid lower back strain. Ensure clear communication with training partners during guard pull drills to prevent collisions, particularly when bridging explosively toward a standing opponent. In competition, be aware that jumping closed guard is illegal at most belt levels due to knee injury risk - ground-based pulls avoid this concern but still require controlled leg placement.",
-    "clips": []
+    "clips": [
+      {
+        "id": "c9zYACjPEWo",
+        "title": "Pulling Closed Guard",
+        "channel": "The Paradigm Academy",
+        "duration": 53,
+        "vertical": false,
+        "front": true
+      }
+    ]
   },
   "defender": {
     "name": "Pull Guard from Ground Defender",

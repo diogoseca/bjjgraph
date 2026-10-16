@@ -178,6 +178,27 @@ description: "Learn to attack with the Kimura from New York Control rubber guard
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kimura from New York Control (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Marshall Stamper ~ Meathook\u2192Chilldog\u2192Carnie/Kimura/Ultimate Kimura",
+      "description": "Kimura from New York Control (Attacker) film study: Marshall Stamper ~ Meathook\u2192Chilldog\u2192Carnie/Kimura/Ultimate Kimura.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Q2aYW-20B44/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Q2aYW-20B44",
+      "url": "https://www.youtube.com/watch?v=Q2aYW-20B44",
+      "duration": "PT73S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -191,6 +212,24 @@ Attacking with the Kimura from New York Control capitalizes on the rubber guard 
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kimura from New York Control (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Q2aYW-20B44)
+
+<p class="clip-credit"><strong>Marshall Stamper ~ Meathook→Chilldog→Carnie/Kimura/Ultimate Kimura</strong> · 1:13 · <a href="https://www.youtube.com/watch?v=Q2aYW-20B44" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

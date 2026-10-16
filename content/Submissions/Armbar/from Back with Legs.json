@@ -508,13 +508,21 @@
         "title": "Cesar Lima BJJ - Arm Bar from Back Control",
         "channel": "The Grapple Club",
         "duration": 86,
-        "vertical": false
+        "vertical": false,
+        "front": true
       },
       {
         "id": "I4PhmMcJn_Y",
         "title": "Jiu Jitsu Armbar from Backmount by John Danaher Blackbelt Aaron Milam",
         "channel": "Matrix Jiu Jitsu",
         "duration": 170,
+        "vertical": false
+      },
+      {
+        "id": "jf1kPefTmm0",
+        "title": "If You Practice Jiu Jitsu Try This New Variation Of Armbar From The Back!",
+        "channel": "Malachy Friedman",
+        "duration": 79,
         "vertical": false
       }
     ]
@@ -717,6 +725,14 @@
         "title": "The Armbar From the Back and How to Stop It",
         "channel": "Stephan Kesting",
         "duration": 246,
+        "vertical": false,
+        "front": true
+      },
+      {
+        "id": "kNdKfUdgO4I",
+        "title": "THIS is my favorite armbar escape! #jiujitsu #jiujitsutips",
+        "channel": "Matt Arroyo Jiu Jitsu ",
+        "duration": 92,
         "vertical": false
       }
     ]

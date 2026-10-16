@@ -52,6 +52,26 @@ description: "Master the toe hold from Ashi Garami leg entanglement. Complete gu
       "embedUrl": "https://www.youtube.com/embed/tUKGafnOlJo",
       "url": "https://www.youtube.com/watch?v=tUKGafnOlJo",
       "duration": "PT58S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Crossover (Craig Jones) Toe Hold (Brazilian Jiu Jitsu)",
+      "description": "Toe Hold from Ashi Garami film study: Crossover (Craig Jones) Toe Hold (Brazilian Jiu Jitsu).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Kx8gZ3QdO8s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Kx8gZ3QdO8s",
+      "url": "https://www.youtube.com/watch?v=Kx8gZ3QdO8s",
+      "duration": "PT51S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "How to do a brutal toe hold from single leg x! \ud83d\udc80",
+      "description": "Toe Hold from Ashi Garami film study: How to do a brutal toe hold from single leg x! \ud83d\udc80.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/o-xpj81VZzE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/o-xpj81VZzE",
+      "url": "https://www.youtube.com/watch?v=o-xpj81VZzE",
+      "duration": "PT93S"
     }
   ]
 }
@@ -117,6 +137,22 @@ Competition-level application demands patience and precise timing. The toe hold 
 ![](https://www.youtube.com/watch?v=tUKGafnOlJo)
 
 <p class="clip-credit"><strong>Slide into Ashi to Straight Toe Hold</strong> · 0:58 · <a href="https://www.youtube.com/watch?v=tUKGafnOlJo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Kx8gZ3QdO8s)
+
+<p class="clip-credit"><strong>Crossover (Craig Jones) Toe Hold (Brazilian Jiu Jitsu)</strong> · 0:51 · <a href="https://www.youtube.com/watch?v=Kx8gZ3QdO8s" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=o-xpj81VZzE)
+
+<p class="clip-credit"><strong>How to do a brutal toe hold from single leg x! 💀</strong> · 1:33 · <a href="https://www.youtube.com/watch?v=o-xpj81VZzE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

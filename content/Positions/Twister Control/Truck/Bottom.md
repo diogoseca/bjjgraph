@@ -171,6 +171,16 @@ description: "Defensive survival position requiring systematic escape mechanics 
       "embedUrl": "https://www.youtube.com/embed/a6AMOyZ5cZA",
       "url": "https://www.youtube.com/watch?v=a6AMOyZ5cZA",
       "duration": "PT899S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Defending the Rolling Back Take (\"Truck Roll\") for BJJ/Jiu-Jitsu",
+      "description": "Truck (Bottom) film study: Defending the Rolling Back Take (\"Truck Roll\") for BJJ/Jiu-Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WEpVDP7MRpo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/WEpVDP7MRpo",
+      "url": "https://www.youtube.com/watch?v=WEpVDP7MRpo",
+      "duration": "PT209S"
     }
   ]
 }
@@ -203,6 +213,14 @@ The position emerged from wrestling's turk ride and was popularized in BJJ throu
 ![](https://www.youtube.com/watch?v=a6AMOyZ5cZA)
 
 <p class="clip-credit"><strong>WWW.SOULFIGHT.NET- The Truck Position &amp; How to Escape it</strong> · 14:59 · <a href="https://www.youtube.com/watch?v=a6AMOyZ5cZA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=WEpVDP7MRpo)
+
+<p class="clip-credit"><strong>Defending the Rolling Back Take (&#34;Truck Roll&#34;) for BJJ/Jiu-Jitsu</strong> · 3:29 · <a href="https://www.youtube.com/watch?v=WEpVDP7MRpo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

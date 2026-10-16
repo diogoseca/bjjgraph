@@ -188,6 +188,16 @@ description: "Learn to attack the kneebar from Inside Sankaku. Step-by-step exec
       "embedUrl": "https://www.youtube.com/embed/fig6JjjU-bE",
       "url": "https://www.youtube.com/watch?v=fig6JjjU-bE",
       "duration": "PT88S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Knee bar from 411",
+      "description": "Kneebar from Inside Sankaku (Attacker) film study: Knee bar from 411.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/H7nUDNYPavw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/H7nUDNYPavw",
+      "url": "https://www.youtube.com/watch?v=H7nUDNYPavw",
+      "duration": "PT42S"
     }
   ]
 }
@@ -219,6 +229,14 @@ Attacking the kneebar from Inside Sankaku requires transitioning from heel hook 
 ![](https://www.youtube.com/watch?v=fig6JjjU-bE)
 
 <p class="clip-credit"><strong>Knee Bar from Saddle</strong> · 1:28 · <a href="https://www.youtube.com/watch?v=fig6JjjU-bE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=H7nUDNYPavw)
+
+<p class="clip-credit"><strong>Knee bar from 411</strong> · 0:42 · <a href="https://www.youtube.com/watch?v=H7nUDNYPavw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

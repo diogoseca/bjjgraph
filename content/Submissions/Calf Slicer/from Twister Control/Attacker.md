@@ -178,6 +178,27 @@ description: "Learn to attack with the calf slicer from twister control. Step-by
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Calf Slicer from Twister Control (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "X-PASS - SIDE CONTROL - TWISTER ROLL - CALF SLICER",
+      "description": "Calf Slicer from Twister Control (Attacker) film study: X-PASS - SIDE CONTROL - TWISTER ROLL - CALF SLICER.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4gzXKLfRlYY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4gzXKLfRlYY",
+      "url": "https://www.youtube.com/watch?v=4gzXKLfRlYY",
+      "duration": "PT82S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -191,6 +212,24 @@ Attacking with the calf slicer from twister control leverages the position's inh
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Calf Slicer from Twister Control (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=4gzXKLfRlYY)
+
+<p class="clip-credit"><strong>X-PASS - SIDE CONTROL - TWISTER ROLL - CALF SLICER</strong> · 1:22 · <a href="https://www.youtube.com/watch?v=4gzXKLfRlYY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

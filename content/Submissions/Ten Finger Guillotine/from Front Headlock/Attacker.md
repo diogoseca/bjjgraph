@@ -194,6 +194,16 @@ description: "How to finish the Ten Finger Guillotine from Front Headlock. Grip 
       "embedUrl": "https://www.youtube.com/embed/GpP5UslUIGo",
       "url": "https://www.youtube.com/watch?v=GpP5UslUIGo",
       "duration": "PT130S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "10 finger grip Guillotine choke",
+      "description": "Ten Finger Guillotine from Front Headlock (Attacker) film study: 10 finger grip Guillotine choke.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rYKci9GFisg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/rYKci9GFisg",
+      "url": "https://www.youtube.com/watch?v=rYKci9GFisg",
+      "duration": "PT19S"
     }
   ]
 }
@@ -225,6 +235,14 @@ Attacking with the Ten Finger Guillotine from Front Headlock requires converting
 ![](https://www.youtube.com/watch?v=GpP5UslUIGo)
 
 <p class="clip-credit"><strong>Front headlock/ten finger guillotine</strong> · 2:10 · <a href="https://www.youtube.com/watch?v=GpP5UslUIGo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=rYKci9GFisg)
+
+<p class="clip-credit"><strong>10 finger grip Guillotine choke</strong> · 0:19 · <a href="https://www.youtube.com/watch?v=rYKci9GFisg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

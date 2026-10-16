@@ -198,6 +198,16 @@ description: "How to execute Monoplata from Mount in BJJ. Attacking perspective 
       "embedUrl": "https://www.youtube.com/embed/bBxjErpbBy8",
       "url": "https://www.youtube.com/watch?v=bBxjErpbBy8",
       "duration": "PT252S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Omoplata Monoplata",
+      "description": "Monoplata from Mount (Attacker) film study: Omoplata Monoplata.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kXwTSv13ATw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kXwTSv13ATw",
+      "url": "https://www.youtube.com/watch?v=kXwTSv13ATw",
+      "duration": "PT50S"
     }
   ]
 }
@@ -237,6 +247,14 @@ The Monoplata from Mount is an advanced shoulder lock submission that combines e
 ![](https://www.youtube.com/watch?v=bBxjErpbBy8)
 
 <p class="clip-credit"><strong>Monoplata from Mount</strong> · 4:12 · <a href="https://www.youtube.com/watch?v=bBxjErpbBy8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kXwTSv13ATw)
+
+<p class="clip-credit"><strong>Omoplata Monoplata</strong> · 0:50 · <a href="https://www.youtube.com/watch?v=kXwTSv13ATw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

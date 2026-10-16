@@ -152,6 +152,47 @@ description: "Learn to defend the Arm Triangle from Ushiro Kesa Gatame. Recogniz
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Arm Triangle from Ushiro Kesa Gatame (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "arm triangle escape using hawking",
+      "description": "Arm Triangle from Ushiro Kesa Gatame (Defender) film study: arm triangle escape using hawking.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Nspz2EAIQ_k/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Nspz2EAIQ_k",
+      "url": "https://www.youtube.com/watch?v=Nspz2EAIQ_k",
+      "duration": "PT27S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "The Fastest Escape Out Of The Arm Triangle",
+      "description": "Arm Triangle from Ushiro Kesa Gatame (Defender) film study: The Fastest Escape Out Of The Arm Triangle.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/D2vkZGTD78I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/D2vkZGTD78I",
+      "url": "https://www.youtube.com/watch?v=D2vkZGTD78I",
+      "duration": "PT31S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Two variations of arm triangle (kata gatame) escapes",
+      "description": "Arm Triangle from Ushiro Kesa Gatame (Defender) film study: Two variations of arm triangle (kata gatame) escapes.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CmXniIPFMhU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/CmXniIPFMhU",
+      "url": "https://www.youtube.com/watch?v=CmXniIPFMhU",
+      "duration": "PT89S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -165,6 +206,40 @@ Defending the Arm Triangle from Ushiro Kesa Gatame requires proactive management
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Arm Triangle from Ushiro Kesa Gatame (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Nspz2EAIQ_k)
+
+<p class="clip-credit"><strong>arm triangle escape using hawking</strong> · 0:27 · <a href="https://www.youtube.com/watch?v=Nspz2EAIQ_k" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=D2vkZGTD78I)
+
+<p class="clip-credit"><strong>The Fastest Escape Out Of The Arm Triangle</strong> · 0:31 · <a href="https://www.youtube.com/watch?v=D2vkZGTD78I" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=CmXniIPFMhU)
+
+<p class="clip-credit"><strong>Two variations of arm triangle (kata gatame) escapes</strong> · 1:29 · <a href="https://www.youtube.com/watch?v=CmXniIPFMhU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

@@ -188,6 +188,16 @@ description: "Learn to execute the Twister from Twister Control with step-by-ste
       "embedUrl": "https://www.youtube.com/embed/FjWN_aBp2eE",
       "url": "https://www.youtube.com/watch?v=FjWN_aBp2eE",
       "duration": "PT49S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "MTS 199 Graces Twister",
+      "description": "Twister from Twister Control (Attacker) film study: MTS 199 Graces Twister.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/nnphEk5pmjk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/nnphEk5pmjk",
+      "url": "https://www.youtube.com/watch?v=nnphEk5pmjk",
+      "duration": "PT61S"
     }
   ]
 }
@@ -219,6 +229,14 @@ Attacking with the Twister from Twister Control requires mastery of the sequenti
 ![](https://www.youtube.com/watch?v=FjWN_aBp2eE)
 
 <p class="clip-credit"><strong>Eddie Bravo&#39;s Twister - With 3 Flores</strong> · 0:49 · <a href="https://www.youtube.com/watch?v=FjWN_aBp2eE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=nnphEk5pmjk)
+
+<p class="clip-credit"><strong>MTS 199 Graces Twister</strong> · 1:01 · <a href="https://www.youtube.com/watch?v=nnphEk5pmjk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

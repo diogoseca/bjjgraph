@@ -36,6 +36,27 @@ description: "Master the inside heel hook from ushiro ashi-garami with detailed 
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Inside Heel Hook from Ushiro Ashi-Garami \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Arm Saddle to Inside Heel Hook | Flow Drill",
+      "description": "Inside Heel Hook from Ushiro Ashi-Garami film study: Arm Saddle to Inside Heel Hook | Flow Drill.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/QfNKQzy3V_w/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/QfNKQzy3V_w",
+      "url": "https://www.youtube.com/watch?v=QfNKQzy3V_w",
+      "duration": "PT21S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -83,6 +104,24 @@ Strategically, this submission serves as a high-percentage finishing option that
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Inside Heel Hook from Ushiro Ashi-Garami in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=QfNKQzy3V_w)
+
+<p class="clip-credit"><strong>Arm Saddle to Inside Heel Hook | Flow Drill</strong> · 0:21 · <a href="https://www.youtube.com/watch?v=QfNKQzy3V_w" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="outcomes" class="content-section">

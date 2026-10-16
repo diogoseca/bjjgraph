@@ -46,12 +46,12 @@ description: "Master the rear naked choke from standing back control in BJJ. Com
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Standing Rear Naked Choke Defense",
-      "description": "Rear Naked Choke from Standing Back Control film study: Standing Rear Naked Choke Defense.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/rlJlNeccbEw/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/rlJlNeccbEw",
-      "url": "https://www.youtube.com/watch?v=rlJlNeccbEw",
-      "duration": "PT20S"
+      "name": "Short Choke from Back Position (Jiu Jitsu)",
+      "description": "Rear Naked Choke from Standing Back Control film study: Short Choke from Back Position (Jiu Jitsu).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Sb-atqD_TqQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Sb-atqD_TqQ",
+      "url": "https://www.youtube.com/watch?v=Sb-atqD_TqQ",
+      "duration": "PT54S"
     }
   ]
 }
@@ -114,9 +114,9 @@ At the competition level, standing back control finishes appear frequently in bo
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=rlJlNeccbEw)
+![](https://www.youtube.com/watch?v=Sb-atqD_TqQ)
 
-<p class="clip-credit"><strong>Standing Rear Naked Choke Defense</strong> · 0:20 · <a href="https://www.youtube.com/watch?v=rlJlNeccbEw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Short Choke from Back Position (Jiu Jitsu)</strong> · 0:54 · <a href="https://www.youtube.com/watch?v=Sb-atqD_TqQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

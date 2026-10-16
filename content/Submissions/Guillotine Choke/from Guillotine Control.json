@@ -479,7 +479,16 @@
         "answer_line": "Shoulder pressure = release grip"
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "-wLHOB-KlGE",
+        "title": "gordon ryan converts an arm in guillotine to a high wrist using his hooks and a…",
+        "channel": "pico",
+        "duration": 17,
+        "vertical": false,
+        "front": true
+      }
+    ]
   },
   "defender": {
     "name": "from Guillotine Control Defender",
@@ -675,12 +684,19 @@
     ],
     "clips": [
       {
+        "id": "lvjRNWzKMPc",
+        "title": "Guillotine Escape from Closed Guard to Side Control",
+        "channel": "Street Jitsu",
+        "duration": 27,
+        "vertical": false,
+        "front": true
+      },
+      {
         "id": "OQYU2BXdEEw",
         "title": "Guillotine Choke Defense",
         "channel": "Hendrickson Combatives",
         "duration": 51,
-        "vertical": false,
-        "front": true
+        "vertical": false
       }
     ]
   }

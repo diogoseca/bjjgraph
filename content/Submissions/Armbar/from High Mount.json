@@ -464,6 +464,20 @@
         "title": "3 ways to finish the Arm bar from high mount",
         "channel": "Sticks and Stones BJJ",
         "duration": 309
+      },
+      {
+        "id": "cajDQH-ZiH8",
+        "title": "Strikes to an Arm Bar from Mount Position (MMA)",
+        "channel": "Cosens MMA LLC",
+        "duration": 44,
+        "vertical": false
+      },
+      {
+        "id": "vSmRbpNmf-E",
+        "title": "Roger Gracie | ARM BARS",
+        "channel": "Jiu Jitsu Moves",
+        "duration": 102,
+        "vertical": false
       }
     ]
   },
@@ -655,6 +669,22 @@
         "description": "Positional sparring from high mount bottom against full resistance. Defender works to prevent the armbar and escape to guard; attacker works to finish. Track success rate over multiple rounds and identify which phase of defense needs the most improvement."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "KuhIFZMNIKs",
+        "title": "Fix your armbar defense",
+        "channel": "Michael Currier BJJ",
+        "duration": 105,
+        "vertical": false,
+        "front": true
+      },
+      {
+        "id": "sDdqvh_1kbA",
+        "title": "Armbar Escape: RNC",
+        "channel": "ZombieProofBJJ",
+        "duration": 62,
+        "vertical": false
+      }
+    ]
   }
 }

@@ -52,6 +52,26 @@ description: "Master the rear triangle choke finish from rear triangle position.
       "embedUrl": "https://www.youtube.com/embed/c4wN4z41c9o",
       "url": "https://www.youtube.com/watch?v=c4wN4z41c9o",
       "duration": "PT328S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "9. Back Triangle Choke",
+      "description": "Rear Triangle Choke from Rear Triangle film study: 9. Back Triangle Choke.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-lMJHL8SXlA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/-lMJHL8SXlA",
+      "url": "https://www.youtube.com/watch?v=-lMJHL8SXlA",
+      "duration": "PT23S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "6. Back Triangle Choke",
+      "description": "Rear Triangle Choke from Rear Triangle film study: 6. Back Triangle Choke.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/w8vzr24_n0s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/w8vzr24_n0s",
+      "url": "https://www.youtube.com/watch?v=w8vzr24_n0s",
+      "duration": "PT30S"
     }
   ]
 }
@@ -117,6 +137,22 @@ Strategically, this finish sits at the apex of a submission chain from rear tria
 ![](https://www.youtube.com/watch?v=c4wN4z41c9o)
 
 <p class="clip-credit"><strong>Back Attacks 2.0 - Part 5: Back Triangle // Tom Halpin</strong> · 5:28 · <a href="https://www.youtube.com/watch?v=c4wN4z41c9o" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=-lMJHL8SXlA)
+
+<p class="clip-credit"><strong>9. Back Triangle Choke</strong> · 0:23 · <a href="https://www.youtube.com/watch?v=-lMJHL8SXlA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=w8vzr24_n0s)
+
+<p class="clip-credit"><strong>6. Back Triangle Choke</strong> · 0:30 · <a href="https://www.youtube.com/watch?v=w8vzr24_n0s" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

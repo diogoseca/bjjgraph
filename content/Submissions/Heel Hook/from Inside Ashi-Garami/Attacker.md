@@ -188,6 +188,26 @@ description: "Learn to attack with the heel hook from Inside Ashi-Garami includi
       "embedUrl": "https://www.youtube.com/embed/FfkVEt5YHbY",
       "url": "https://www.youtube.com/watch?v=FfkVEt5YHbY",
       "duration": "PT59S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Gordon Ryan\u2019s WNO Inversion Heelhook - ZombieProofBJJ (BreakDown)",
+      "description": "Heel Hook from Inside Ashi-Garami (Attacker) film study: Gordon Ryan\u2019s WNO Inversion Heelhook - ZombieProofBJJ (BreakDown).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/mZ4Q3PL9iZ4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/mZ4Q3PL9iZ4",
+      "url": "https://www.youtube.com/watch?v=mZ4Q3PL9iZ4",
+      "duration": "PT53S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Gordon Ryan - Inversion to Inside Heel Hook (Control Jiu-Jitsu Submission of\u2026",
+      "description": "Heel Hook from Inside Ashi-Garami (Attacker) film study: Gordon Ryan - Inversion to Inside Heel Hook (Control Jiu-Jitsu Submission of\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/chtDbrmYQo8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/chtDbrmYQo8",
+      "url": "https://www.youtube.com/watch?v=chtDbrmYQo8",
+      "duration": "PT62S"
     }
   ]
 }
@@ -219,6 +239,22 @@ Attacking the heel hook from Inside Ashi-Garami requires establishing secure leg
 ![](https://www.youtube.com/watch?v=FfkVEt5YHbY)
 
 <p class="clip-credit"><strong>Inside Ashi Garami Heel Hook #890</strong> · 0:59 · <a href="https://www.youtube.com/watch?v=FfkVEt5YHbY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=mZ4Q3PL9iZ4)
+
+<p class="clip-credit"><strong>Gordon Ryan’s WNO Inversion Heelhook - ZombieProofBJJ (BreakDown)</strong> · 0:53 · <a href="https://www.youtube.com/watch?v=mZ4Q3PL9iZ4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=chtDbrmYQo8)
+
+<p class="clip-credit"><strong>Gordon Ryan - Inversion to Inside Heel Hook (Control Jiu-Jitsu Submission of…</strong> · 1:02 · <a href="https://www.youtube.com/watch?v=chtDbrmYQo8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

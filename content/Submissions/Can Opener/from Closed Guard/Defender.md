@@ -168,6 +168,16 @@ description: "How to defend against Can Opener in BJJ. Recognition, escape paths
       "embedUrl": "https://www.youtube.com/embed/WKT2yF6R3Fs",
       "url": "https://www.youtube.com/watch?v=WKT2yF6R3Fs",
       "duration": "PT57S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Can Opener Counter With Omoplata",
+      "description": "Can Opener from Closed Guard (Defender) film study: Can Opener Counter With Omoplata.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fKA4O_RlXzk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fKA4O_RlXzk",
+      "url": "https://www.youtube.com/watch?v=fKA4O_RlXzk",
+      "duration": "PT91S"
     }
   ]
 }
@@ -199,6 +209,14 @@ Defending the Can Opener is among the most safety-critical defensive skills in B
 ![](https://www.youtube.com/watch?v=WKT2yF6R3Fs)
 
 <p class="clip-credit"><strong>Can opener escape</strong> · 0:57 · <a href="https://www.youtube.com/watch?v=WKT2yF6R3Fs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fKA4O_RlXzk)
+
+<p class="clip-credit"><strong>Can Opener Counter With Omoplata</strong> · 1:31 · <a href="https://www.youtube.com/watch?v=fKA4O_RlXzk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

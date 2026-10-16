@@ -445,7 +445,23 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "GDc3HlhB5rM",
+        "title": "Victory MMA - Kimura from Mount position",
+        "channel": "victorymmasandiego",
+        "duration": 90,
+        "vertical": false,
+        "front": true
+      },
+      {
+        "id": "Lkh8kQG8ArA",
+        "title": "Kimura from mount. Kids BJJ April 15",
+        "channel": "Tom Dinklage",
+        "duration": 66,
+        "vertical": false
+      }
+    ]
   },
   "defender": {
     "name": "Kimura from Modified Mount Defender",
@@ -643,6 +659,14 @@
         "description": "Full resistance positional sparring starting from Modified Mount. Partner attacks Kimura and chains to armbar and americana. Practice reading which submission is being threatened and applying the correct defense for each. Develop comfort with tapping early and resetting rather than risking injury."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "qQZI-_SRLM4",
+        "title": "How To Escape The Kimura When On Top",
+        "channel": "Inverted Gear",
+        "duration": 219,
+        "vertical": false
+      }
+    ]
   }
 }

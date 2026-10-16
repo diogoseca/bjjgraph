@@ -168,6 +168,16 @@ description: "Defend the cross collar choke from closed guard with early grip re
       "embedUrl": "https://www.youtube.com/embed/QIRF2B9riAA",
       "url": "https://www.youtube.com/watch?v=QIRF2B9riAA",
       "duration": "PT105S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Juji Jime Escape - Cross Collar Choke Defense - Advanced BJJ",
+      "description": "Cross Collar Choke from Closed Guard (Defender) film study: Juji Jime Escape - Cross Collar Choke Defense - Advanced BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/be-iHHhJGng/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/be-iHHhJGng",
+      "url": "https://www.youtube.com/watch?v=be-iHHhJGng",
+      "duration": "PT130S"
     }
   ]
 }
@@ -199,6 +209,14 @@ Defending the cross collar choke from closed guard demands constant awareness of
 ![](https://www.youtube.com/watch?v=QIRF2B9riAA)
 
 <p class="clip-credit"><strong>Cross Choke Defense from Guard - Two Quick Tips</strong> · 1:45 · <a href="https://www.youtube.com/watch?v=QIRF2B9riAA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=be-iHHhJGng)
+
+<p class="clip-credit"><strong>Juji Jime Escape - Cross Collar Choke Defense - Advanced BJJ</strong> · 2:10 · <a href="https://www.youtube.com/watch?v=be-iHHhJGng" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

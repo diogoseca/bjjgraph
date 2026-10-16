@@ -192,6 +192,16 @@ description: "How to execute Armbar from Crucifix in BJJ. Attacking perspective 
     {
       "@type": "VideoObject",
       "position": 2,
+      "name": "Short Arm Drag to Crucifix Armlock by John Gutta",
+      "description": "Armbar from Crucifix (Attacker) film study: Short Arm Drag to Crucifix Armlock by John Gutta.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/qq1LScm50Ow/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/qq1LScm50Ow",
+      "url": "https://www.youtube.com/watch?v=qq1LScm50Ow",
+      "duration": "PT151S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
       "name": "Crucifix Setup and Armbar Submission Nogi",
       "description": "Armbar from Crucifix (Attacker) film study: Crucifix Setup and Armbar Submission Nogi.",
       "thumbnailUrl": "https://i.ytimg.com/vi/nkAYVo9sMGE/hqdefault.jpg",
@@ -229,6 +239,14 @@ The Armbar from Crucifix represents one of the most dominant finishing positions
 ![](https://www.youtube.com/watch?v=JRaAEvCjz0A)
 
 <p class="clip-credit"><strong>opponent turtled – crucifix arm bar</strong> · 2:09 · <a href="https://www.youtube.com/watch?v=JRaAEvCjz0A" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=qq1LScm50Ow)
+
+<p class="clip-credit"><strong>Short Arm Drag to Crucifix Armlock by John Gutta</strong> · 2:31 · <a href="https://www.youtube.com/watch?v=qq1LScm50Ow" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

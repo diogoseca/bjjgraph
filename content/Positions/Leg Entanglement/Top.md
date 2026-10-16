@@ -175,6 +175,16 @@ description: "Master Leg Entanglement positions in BJJ. Complete guide to ashi g
     {
       "@type": "VideoObject",
       "position": 2,
+      "name": "3 paths to the backside 50/50 from  Single Leg-X (Ashi Garami)",
+      "description": "Leg Entanglement (Top) film study: 3 paths to the backside 50/50 from  Single Leg-X (Ashi Garami).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/yT3euuWRWXw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/yT3euuWRWXw",
+      "url": "https://www.youtube.com/watch?v=yT3euuWRWXw",
+      "duration": "PT55S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
       "name": "Ashi Garami Explained: The Control System Behind Modern No-Gi",
       "description": "Leg Entanglement (Top) film study: Ashi Garami Explained: The Control System Behind Modern No-Gi.",
       "thumbnailUrl": "https://i.ytimg.com/vi/hhOOwMNfV-0/hqdefault.jpg",
@@ -209,6 +219,14 @@ Leg Entanglement represents a comprehensive positional system in modern Brazilia
 ![](https://www.youtube.com/watch?v=pYnp2_gJIoM)
 
 <p class="clip-credit"><strong>Ashi Garami 101: Basic Mechanics and Drills for Leglocks (No Gi Jiu-Jitsu)</strong> · 5:30 · <a href="https://www.youtube.com/watch?v=pYnp2_gJIoM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=yT3euuWRWXw)
+
+<p class="clip-credit"><strong>3 paths to the backside 50/50 from  Single Leg-X (Ashi Garami)</strong> · 0:55 · <a href="https://www.youtube.com/watch?v=yT3euuWRWXw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

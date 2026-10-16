@@ -144,6 +144,37 @@ description: "Defend the Calf Slicer from Rodeo Ride in BJJ. Recognition cues, e
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Calf Slicer from Rodeo Ride (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Calf-Slicer Defense to The Lock Down - Indianapolis Jiu-Jitsu",
+      "description": "Calf Slicer from Rodeo Ride (Defender) film study: Calf-Slicer Defense to The Lock Down - Indianapolis Jiu-Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4zYNEvdgI2s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4zYNEvdgI2s",
+      "url": "https://www.youtube.com/watch?v=4zYNEvdgI2s",
+      "duration": "PT270S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Calf Slicer Defense Part 1 - Early Defense",
+      "description": "Calf Slicer from Rodeo Ride (Defender) film study: Calf Slicer Defense Part 1 - Early Defense.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/zVi7DtAS76c/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/zVi7DtAS76c",
+      "url": "https://www.youtube.com/watch?v=zVi7DtAS76c",
+      "duration": "PT462S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -157,6 +188,32 @@ Defending the Calf Slicer from Rodeo Ride requires immediate recognition of the 
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Calf Slicer from Rodeo Ride (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=4zYNEvdgI2s)
+
+<p class="clip-credit"><strong>Calf-Slicer Defense to The Lock Down - Indianapolis Jiu-Jitsu</strong> · 4:30 · <a href="https://www.youtube.com/watch?v=4zYNEvdgI2s" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=zVi7DtAS76c)
+
+<p class="clip-credit"><strong>Calf Slicer Defense Part 1 - Early Defense</strong> · 7:42 · <a href="https://www.youtube.com/watch?v=zVi7DtAS76c" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

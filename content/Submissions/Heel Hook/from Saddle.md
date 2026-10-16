@@ -46,6 +46,26 @@ description: "Master the heel hook from saddle position in BJJ. Complete guide t
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "Arm Saddle to Inside Heel Hook | Flow Drill",
+      "description": "Heel Hook from Saddle film study: Arm Saddle to Inside Heel Hook | Flow Drill.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/QfNKQzy3V_w/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/QfNKQzy3V_w",
+      "url": "https://www.youtube.com/watch?v=QfNKQzy3V_w",
+      "duration": "PT21S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Craig Jones  - Heel Hook Breaking Mechanics",
+      "description": "Heel Hook from Saddle film study: Craig Jones  - Heel Hook Breaking Mechanics.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6gu-n4P9JXo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6gu-n4P9JXo",
+      "url": "https://www.youtube.com/watch?v=6gu-n4P9JXo",
+      "duration": "PT77S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
       "name": "4 Variations Of Heel Hook Finish From Saddle",
       "description": "Heel Hook from Saddle film study: 4 Variations Of Heel Hook Finish From Saddle.",
       "thumbnailUrl": "https://i.ytimg.com/vi/n6EoUkDwUVc/hqdefault.jpg",
@@ -111,6 +131,22 @@ Strategically, the heel hook from saddle functions as the terminal threat within
 
 <p class="section-subtitle">Watch Heel Hook from Saddle in action — curated instructionals</p>
 
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=QfNKQzy3V_w)
+
+<p class="clip-credit"><strong>Arm Saddle to Inside Heel Hook | Flow Drill</strong> · 0:21 · <a href="https://www.youtube.com/watch?v=QfNKQzy3V_w" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=6gu-n4P9JXo)
+
+<p class="clip-credit"><strong>Craig Jones  - Heel Hook Breaking Mechanics</strong> · 1:17 · <a href="https://www.youtube.com/watch?v=6gu-n4P9JXo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
 
 <div class="film-clip">
 

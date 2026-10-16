@@ -36,6 +36,27 @@ description: "Master the bow and arrow choke from body triangle in BJJ. Learn de
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Bow and Arrow Choke from Body Triangle \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Bow \u0026 Arrow Choke",
+      "description": "Bow and Arrow Choke from Body Triangle film study: Bow \u0026 Arrow Choke.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/R5LFNqtx1ps/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/R5LFNqtx1ps",
+      "url": "https://www.youtube.com/watch?v=R5LFNqtx1ps",
+      "duration": "PT66S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -83,6 +104,24 @@ At the competition level, this combination represents one of the most dominant f
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Bow and Arrow Choke from Body Triangle in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=R5LFNqtx1ps)
+
+<p class="clip-credit"><strong>Bow &amp; Arrow Choke</strong> · 1:06 · <a href="https://www.youtube.com/watch?v=R5LFNqtx1ps" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="outcomes" class="content-section">

@@ -146,6 +146,37 @@ description: "Defend the Cross Collar Choke from Mount with grip stripping, post
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Cross Collar Choke from Mount (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Cross Collar Choke Defense Part 1: \u201cDown and Over\u201d",
+      "description": "Cross Collar Choke from Mount (Defender) film study: Cross Collar Choke Defense Part 1: \u201cDown and Over\u201d.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6rMCDkWRlgg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6rMCDkWRlgg",
+      "url": "https://www.youtube.com/watch?v=6rMCDkWRlgg",
+      "duration": "PT93S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Juji Jime Escape - Cross Collar Choke Defense - Advanced BJJ",
+      "description": "Cross Collar Choke from Mount (Defender) film study: Juji Jime Escape - Cross Collar Choke Defense - Advanced BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/be-iHHhJGng/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/be-iHHhJGng",
+      "url": "https://www.youtube.com/watch?v=be-iHHhJGng",
+      "duration": "PT130S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -159,6 +190,32 @@ Defending the Cross Collar Choke from Mount requires early recognition of grip e
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Cross Collar Choke from Mount (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=6rMCDkWRlgg)
+
+<p class="clip-credit"><strong>Cross Collar Choke Defense Part 1: “Down and Over”</strong> · 1:33 · <a href="https://www.youtube.com/watch?v=6rMCDkWRlgg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=be-iHHhJGng)
+
+<p class="clip-credit"><strong>Juji Jime Escape - Cross Collar Choke Defense - Advanced BJJ</strong> · 2:10 · <a href="https://www.youtube.com/watch?v=be-iHHhJGng" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

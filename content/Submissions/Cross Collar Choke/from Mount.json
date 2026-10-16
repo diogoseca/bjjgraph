@@ -452,6 +452,20 @@
         "channel": "Riccardo Ammendolia",
         "duration": 111,
         "vertical": false
+      },
+      {
+        "id": "DrAxA8KUxbo",
+        "title": "Palm up Palm up CROSS CHOKE BJJ | Helio Gracie Variation",
+        "channel": "Avant-Garde BJJ",
+        "duration": 61,
+        "vertical": false
+      },
+      {
+        "id": "dfP-Ov8FBUo",
+        "title": "Roger Gracie | CROSS COLLAR CHOKES",
+        "channel": "Jiu Jitsu Moves",
+        "duration": 80,
+        "vertical": false
       }
     ]
   },
@@ -632,6 +646,22 @@
         "description": "Start in mount with the opponent attacking the Cross Collar Choke. Defender works complete defensive sequences including grip prevention, stripping, bridging, and guard recovery against 100% resistance. Track success rate and identify which defensive window you are most effective at exploiting."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "6rMCDkWRlgg",
+        "title": "Cross Collar Choke Defense Part 1: “Down and Over”",
+        "channel": "Six Blades NOVA Emil Takeuchi",
+        "duration": 93,
+        "vertical": false,
+        "front": true
+      },
+      {
+        "id": "be-iHHhJGng",
+        "title": "Juji Jime Escape - Cross Collar Choke Defense - Advanced BJJ",
+        "channel": "Peter Mettler Martial Arts",
+        "duration": 130,
+        "vertical": false
+      }
+    ]
   }
 }

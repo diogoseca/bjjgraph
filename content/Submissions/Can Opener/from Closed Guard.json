@@ -494,7 +494,22 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "FGPGkKnY_Mg",
+        "title": "Cervical Choke\"Can Opener\" & defense",
+        "channel": "Marcus Soares Brazilian Jiu Jitsu Academy",
+        "duration": 73,
+        "vertical": false
+      },
+      {
+        "id": "_-NGlUCnHy0",
+        "title": "How to Do a Can Opener   MMA Submissions",
+        "channel": "thuật võ",
+        "duration": 126,
+        "vertical": false
+      }
+    ]
   },
   "defender": {
     "name": "Can Opener Defender",
@@ -695,6 +710,13 @@
         "duration": 57,
         "vertical": false,
         "front": true
+      },
+      {
+        "id": "fKA4O_RlXzk",
+        "title": "Can Opener Counter With Omoplata",
+        "channel": "The Grappling Bloke",
+        "duration": 91,
+        "vertical": false
       }
     ]
   },

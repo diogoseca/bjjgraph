@@ -138,6 +138,27 @@ description: "Defend and escape the kneebar from inside ashi-garami with early r
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kneebar from Inside Ashi-Garami (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Kneebar Escape by Darren Branch | High Rollerz Academy - Jiu Jitsu\u2026",
+      "description": "Kneebar from Inside Ashi-Garami (Defender) film study: Kneebar Escape by Darren Branch | High Rollerz Academy - Jiu Jitsu\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3zJthP57wXw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3zJthP57wXw",
+      "url": "https://www.youtube.com/watch?v=3zJthP57wXw",
+      "duration": "PT73S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -151,6 +172,24 @@ Defending the kneebar from inside ashi-garami requires early recognition of the 
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kneebar from Inside Ashi-Garami (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=3zJthP57wXw)
+
+<p class="clip-credit"><strong>Kneebar Escape by Darren Branch | High Rollerz Academy - Jiu Jitsu…</strong> · 1:13 · <a href="https://www.youtube.com/watch?v=3zJthP57wXw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

@@ -36,6 +36,27 @@ description: "Master the Kimura shoulder lock from S Mount in BJJ. Complete fini
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kimura from S Mount \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "S-Mount Armbar, Kimura, + Far side Armbar",
+      "description": "Kimura from S Mount film study: S-Mount Armbar, Kimura, + Far side Armbar.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/nH4ly3vk7WI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/nH4ly3vk7WI",
+      "url": "https://www.youtube.com/watch?v=nH4ly3vk7WI",
+      "duration": "PT24S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -83,6 +104,24 @@ This submission chains naturally with the armbar from S Mount, creating a powerf
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kimura from S Mount in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=nH4ly3vk7WI)
+
+<p class="clip-credit"><strong>S-Mount Armbar, Kimura, + Far side Armbar</strong> · 0:24 · <a href="https://www.youtube.com/watch?v=nH4ly3vk7WI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="outcomes" class="content-section">

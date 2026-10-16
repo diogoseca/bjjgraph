@@ -36,6 +36,37 @@ description: "Master the omoplata from Russian Leg Lasso. Complete guide coverin
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Omoplata from Russian Leg Lasso \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Nogi Lasso Omaplata",
+      "description": "Omoplata from Russian Leg Lasso film study: Nogi Lasso Omaplata.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/FCdFl9aAiUg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/FCdFl9aAiUg",
+      "url": "https://www.youtube.com/watch?v=FCdFl9aAiUg",
+      "duration": "PT49S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Lasso to Omoplata",
+      "description": "Omoplata from Russian Leg Lasso film study: Lasso to Omoplata.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/X38VbqKI8dY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/X38VbqKI8dY",
+      "url": "https://www.youtube.com/watch?v=X38VbqKI8dY",
+      "duration": "PT56S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -83,6 +114,32 @@ Elite practitioners chain this omoplata threat with triangle and sweep entries f
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Omoplata from Russian Leg Lasso in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=FCdFl9aAiUg)
+
+<p class="clip-credit"><strong>Nogi Lasso Omaplata</strong> · 0:49 · <a href="https://www.youtube.com/watch?v=FCdFl9aAiUg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=X38VbqKI8dY)
+
+<p class="clip-credit"><strong>Lasso to Omoplata</strong> · 0:56 · <a href="https://www.youtube.com/watch?v=X38VbqKI8dY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="outcomes" class="content-section">

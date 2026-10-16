@@ -436,6 +436,13 @@
         "duration": 67,
         "vertical": false,
         "front": true
+      },
+      {
+        "id": "frFaHeQJHTA",
+        "title": "Kneebar and Toehold from Guard Pass",
+        "channel": "Precision Martial Arts Academy",
+        "duration": 57,
+        "vertical": false
       }
     ]
   },
@@ -619,6 +626,22 @@
         "description": "During live rolling, actively put yourself in toe hold control situations and work your defensive protocols. Track which escape pathways succeed most often and which recognition cues you respond to fastest. Maintain strict tap-early discipline throughout and communicate with training partners about intensity levels for leg lock exchanges."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "wBRG0fY94fs",
+        "title": "How to Defend a Kneebar (and Prevent a Backstep Pass)",
+        "channel": "Revolution BJJ",
+        "duration": 59,
+        "vertical": false,
+        "front": true
+      },
+      {
+        "id": "hze1WyTvkzA",
+        "title": "Defending Kneebar To Toe Hold",
+        "channel": "Garden State Brazilian Jiu-Jitsu Academy",
+        "duration": 24,
+        "vertical": false
+      }
+    ]
   }
 }

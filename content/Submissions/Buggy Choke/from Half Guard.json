@@ -619,6 +619,20 @@
         "duration": 33,
         "vertical": false,
         "front": true
+      },
+      {
+        "id": "zixbOyLpoOc",
+        "title": "The OG Buggy Choke by Kade and Tye Ruotolo",
+        "channel": "BJJ Fanatics",
+        "duration": 138,
+        "vertical": false
+      },
+      {
+        "id": "0_3YYrWEGoU",
+        "title": "3 Buggy Choke Concepts by Kade and Tye Ruotolo",
+        "channel": "BJJ Fanatics",
+        "duration": 201,
+        "vertical": false
       }
     ]
   },
@@ -883,7 +897,23 @@
         "description": "Positional sparring starting in half guard top against a partner who actively hunts the Buggy Choke. Defend the choke while maintaining your passing offense. Track how often you get caught, at what stage you recognize the threat, and which escape paths succeed most frequently. Refine your defensive timing and develop the habit of monitoring arm position throughout half guard passing exchanges."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "6na3oiDkWek",
+        "title": "No Gi Buggy Choke & Counter/Defence BJJ",
+        "channel": "SD BJJ AUSTRALIA",
+        "duration": 81,
+        "vertical": false,
+        "front": true
+      },
+      {
+        "id": "6VmI-HMAQso",
+        "title": "How To Defend Against The Dreaded Buggy Choke",
+        "channel": "MMA Leech",
+        "duration": 238,
+        "vertical": false
+      }
+    ]
   },
   "variations_and_setups": [
     {

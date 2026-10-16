@@ -414,7 +414,16 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "PsmALCcIBic",
+        "title": "Kimura to Bow and Arrow",
+        "channel": "Brandon Quick",
+        "duration": 131,
+        "vertical": false,
+        "front": true
+      }
+    ]
   },
   "defender": {
     "name": "Bow and Arrow Choke from Truck Defender",

@@ -199,6 +199,26 @@ description: "Learn to attack the heel hook from outside Ashi Garami with proper
       "embedUrl": "https://www.youtube.com/embed/pRqoNs4K7cI",
       "url": "https://www.youtube.com/watch?v=pRqoNs4K7cI",
       "duration": "PT82S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Inside Ashi Garami Heel Hook #890",
+      "description": "Heel Hook from Ashi Garami (Attacker) film study: Inside Ashi Garami Heel Hook #890.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/FfkVEt5YHbY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/FfkVEt5YHbY",
+      "url": "https://www.youtube.com/watch?v=FfkVEt5YHbY",
+      "duration": "PT59S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Craig Jones - Nasty Heel Hook from Outside Ashi Garami",
+      "description": "Heel Hook from Ashi Garami (Attacker) film study: Craig Jones - Nasty Heel Hook from Outside Ashi Garami.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/m4sGDhukUmk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/m4sGDhukUmk",
+      "url": "https://www.youtube.com/watch?v=m4sGDhukUmk",
+      "duration": "PT141S"
     }
   ]
 }
@@ -233,6 +253,22 @@ Attacking the heel hook from outside Ashi Garami requires understanding that thi
 ![](https://www.youtube.com/watch?v=pRqoNs4K7cI)
 
 <p class="clip-credit"><strong>Ashi Garami + Heel Hook</strong> · 1:22 · <a href="https://www.youtube.com/watch?v=pRqoNs4K7cI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=FfkVEt5YHbY)
+
+<p class="clip-credit"><strong>Inside Ashi Garami Heel Hook #890</strong> · 0:59 · <a href="https://www.youtube.com/watch?v=FfkVEt5YHbY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=m4sGDhukUmk)
+
+<p class="clip-credit"><strong>Craig Jones - Nasty Heel Hook from Outside Ashi Garami</strong> · 2:21 · <a href="https://www.youtube.com/watch?v=m4sGDhukUmk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

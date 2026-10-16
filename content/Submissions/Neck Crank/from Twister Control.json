@@ -560,6 +560,13 @@
         "channel": "Brazil Toronto",
         "duration": 58,
         "vertical": false
+      },
+      {
+        "id": "MxE2Jmkm-g4",
+        "title": "The Twister: From Twister Side Control (v2.0 redux)",
+        "channel": "Submissions101",
+        "duration": 263,
+        "vertical": false
       }
     ]
   },
@@ -805,6 +812,15 @@
         "description": "Partner works the complete neck crank attack sequence while you defend the grip and simultaneously work leg extraction and scramble escapes. Practice reading when the attacker's leg control loosens during grip attempts and exploiting that window. Full defensive rounds from Twister Control bottom with reset after each submission or escape. Instructor supervision required for safety."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "Va1YNgx2E6M",
+        "title": "Escape and counter the Twister! - Matrix Jiu Jitsu",
+        "channel": "Matrix Jiu Jitsu",
+        "duration": 165,
+        "vertical": false,
+        "front": true
+      }
+    ]
   }
 }

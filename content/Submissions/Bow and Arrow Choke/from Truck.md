@@ -36,6 +36,27 @@ description: "Master the Bow and Arrow Choke from Truck. Learn collar grip setup
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Bow and Arrow Choke from Truck \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Kimura to Bow and Arrow",
+      "description": "Bow and Arrow Choke from Truck film study: Kimura to Bow and Arrow.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/PsmALCcIBic/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/PsmALCcIBic",
+      "url": "https://www.youtube.com/watch?v=PsmALCcIBic",
+      "duration": "PT131S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -83,6 +104,24 @@ The mechanical key to the bow and arrow is that its far-leg vector comes from a 
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Bow and Arrow Choke from Truck in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=PsmALCcIBic)
+
+<p class="clip-credit"><strong>Kimura to Bow and Arrow</strong> · 2:11 · <a href="https://www.youtube.com/watch?v=PsmALCcIBic" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="outcomes" class="content-section">

@@ -46,6 +46,16 @@ description: "Learn the Ankle Pick takedown in BJJ. Step-by-step execution from 
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "Over collar tie ankle pick",
+      "description": "Ankle Pick film study: Over collar tie ankle pick.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/TthX4S3rNgo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/TthX4S3rNgo",
+      "url": "https://www.youtube.com/watch?v=TthX4S3rNgo",
+      "duration": "PT55S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
       "name": "ANKLE PICK VARIATIONS",
       "description": "Ankle Pick film study: ANKLE PICK VARIATIONS.",
       "thumbnailUrl": "https://i.ytimg.com/vi/wpRBMQjteTs/hqdefault.jpg",
@@ -55,7 +65,7 @@ description: "Learn the Ankle Pick takedown in BJJ. Step-by-step execution from 
     },
     {
       "@type": "VideoObject",
-      "position": 2,
+      "position": 3,
       "name": "Ankle Pick from underhook",
       "description": "Ankle Pick film study: Ankle Pick from underhook.",
       "thumbnailUrl": "https://i.ytimg.com/vi/aKx2PKU-kCc/hqdefault.jpg",
@@ -112,6 +122,14 @@ In the modern BJJ meta-game, the Ankle Pick serves as both a primary offensive t
 
 <p class="section-subtitle">Watch Ankle Pick in action — curated instructionals</p>
 
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=TthX4S3rNgo)
+
+<p class="clip-credit"><strong>Over collar tie ankle pick</strong> · 0:55 · <a href="https://www.youtube.com/watch?v=TthX4S3rNgo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
 
 <div class="film-clip">
 

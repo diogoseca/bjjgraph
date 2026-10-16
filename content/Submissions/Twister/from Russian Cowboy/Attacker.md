@@ -178,6 +178,37 @@ description: "How to execute the Twister Finish in BJJ. Attacking perspective wi
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Twister from Russian Cowboy (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Twister from Turtle (Try it out Tuesday)",
+      "description": "Twister from Russian Cowboy (Attacker) film study: Twister from Turtle (Try it out Tuesday).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/RVr67Kb-6ec/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/RVr67Kb-6ec",
+      "url": "https://www.youtube.com/watch?v=RVr67Kb-6ec",
+      "duration": "PT24S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Twister (Grappling Submission)",
+      "description": "Twister from Russian Cowboy (Attacker) film study: Twister (Grappling Submission).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lv15-NuoiUc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lv15-NuoiUc",
+      "url": "https://www.youtube.com/watch?v=lv15-NuoiUc",
+      "duration": "PT137S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -195,6 +226,32 @@ The submission's danger profile demands extreme caution in training. The spinal 
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Twister from Russian Cowboy (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=RVr67Kb-6ec)
+
+<p class="clip-credit"><strong>Twister from Turtle (Try it out Tuesday)</strong> · 0:24 · <a href="https://www.youtube.com/watch?v=RVr67Kb-6ec" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lv15-NuoiUc)
+
+<p class="clip-credit"><strong>Twister (Grappling Submission)</strong> · 2:17 · <a href="https://www.youtube.com/watch?v=lv15-NuoiUc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

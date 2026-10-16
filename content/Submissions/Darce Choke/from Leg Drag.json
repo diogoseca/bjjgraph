@@ -479,7 +479,22 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "eEDKC2F3U2k",
+        "title": "Double stack pass to a darce choke #bjj #brazilianjiujitsu #blackwatergrappling",
+        "channel": "All Day MMA and Jiu Jitsu ",
+        "duration": 85,
+        "vertical": false
+      },
+      {
+        "id": "Rosmg5rjo_s",
+        "title": "Darce Choke to Guard Pass Technique - Presley BJJ",
+        "channel": "Josh Presley",
+        "duration": 121,
+        "vertical": false
+      }
+    ]
   },
   "defender": {
     "name": "Darce Choke from Leg Drag Defender",
@@ -656,6 +671,22 @@
         "description": "Positional sparring from leg drag bottom. Defender works normal leg drag escapes while maintaining awareness of Darce threats. Partner can attack Darce at any point. Builds the ability to defend submissions while working positional escapes simultaneously."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "cmaIzjv3QG8",
+        "title": "Move of the Day: D'arce Defense - Belly Down",
+        "channel": "JitzLive",
+        "duration": 38,
+        "vertical": false,
+        "front": true
+      },
+      {
+        "id": "FMAWiNfgp74",
+        "title": "DEFENDING THE FRONT HEAD LOCK CHOKE - DARCE CHOKE - CHOKE - SUBMISSION - ESCAPE…",
+        "channel": "BJJ101",
+        "duration": 30,
+        "vertical": false
+      }
+    ]
   }
 }

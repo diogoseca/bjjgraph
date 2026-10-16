@@ -178,6 +178,27 @@ description: "Learn to finish the Darce Choke from established Darce Control. St
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Darce Choke from Darce Control (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Side control to north south D\u2019ARCE!!! #graciewestchase #jiujitsu #darce #bjj",
+      "description": "Darce Choke from Darce Control (Attacker) film study: Side control to north south D\u2019ARCE!!! #graciewestchase #jiujitsu #darce #bjj.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/22EYQ2uhxQw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/22EYQ2uhxQw",
+      "url": "https://www.youtube.com/watch?v=22EYQ2uhxQw",
+      "duration": "PT75S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -191,6 +212,24 @@ Attacking with the Darce Choke from Darce Control means you have already won the
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Darce Choke from Darce Control (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=22EYQ2uhxQw)
+
+<p class="clip-credit"><strong>Side control to north south D’ARCE!!! #graciewestchase #jiujitsu #darce #bjj</strong> · 1:15 · <a href="https://www.youtube.com/watch?v=22EYQ2uhxQw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

@@ -178,6 +178,37 @@ description: "Learn to attack with the Ezekiel Choke from mount. Step-by-step sl
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Ezekiel Choke from Mount (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "SUPER SNEAKY \u0026 EASY EZEKIEL CHOKE",
+      "description": "Ezekiel Choke from Mount (Attacker) film study: SUPER SNEAKY \u0026 EASY EZEKIEL CHOKE.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/73ukcOj5s74/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/73ukcOj5s74",
+      "url": "https://www.youtube.com/watch?v=73ukcOj5s74",
+      "duration": "PT59S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Roger Gracie, Setting Up the Ezekiel Choke.",
+      "description": "Ezekiel Choke from Mount (Attacker) film study: Roger Gracie, Setting Up the Ezekiel Choke..",
+      "thumbnailUrl": "https://i.ytimg.com/vi/w-KCxVQFMOU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/w-KCxVQFMOU",
+      "url": "https://www.youtube.com/watch?v=w-KCxVQFMOU",
+      "duration": "PT221S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -191,6 +222,32 @@ Attacking with the Ezekiel Choke from mount combines the dominant position's cru
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Ezekiel Choke from Mount (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=73ukcOj5s74)
+
+<p class="clip-credit"><strong>SUPER SNEAKY &amp; EASY EZEKIEL CHOKE</strong> · 0:59 · <a href="https://www.youtube.com/watch?v=73ukcOj5s74" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=w-KCxVQFMOU)
+
+<p class="clip-credit"><strong>Roger Gracie, Setting Up the Ezekiel Choke.</strong> · 3:41 · <a href="https://www.youtube.com/watch?v=w-KCxVQFMOU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

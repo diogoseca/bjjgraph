@@ -194,6 +194,36 @@ description: "Execute the Electric Chair from lockdown half guard. Step-by-step 
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "Electric Chair",
+      "description": "Electric Chair from Electric Chair (Attacker) film study: Electric Chair.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/I8HLek9eCbg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/I8HLek9eCbg",
+      "url": "https://www.youtube.com/watch?v=I8HLek9eCbg",
+      "duration": "PT25S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Electric Chair - Brandon Mccaghren - 10th Planet Jiu Jitsu - Lockdown Half Guard",
+      "description": "Electric Chair from Electric Chair (Attacker) film study: Electric Chair - Brandon Mccaghren - 10th Planet Jiu Jitsu - Lockdown Half Guard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sMbaY4vG2mM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sMbaY4vG2mM",
+      "url": "https://www.youtube.com/watch?v=sMbaY4vG2mM",
+      "duration": "PT42S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Electric chair submission",
+      "description": "Electric Chair from Electric Chair (Attacker) film study: Electric chair submission.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pIoiYLBb_Vg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/pIoiYLBb_Vg",
+      "url": "https://www.youtube.com/watch?v=pIoiYLBb_Vg",
+      "duration": "PT76S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 4,
       "name": "Eddie Bravo Technique: How to do the Electric Chair submission",
       "description": "Electric Chair from Electric Chair (Attacker) film study: Eddie Bravo Technique: How to do the Electric Chair submission.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Mpy_9vGEbeE/hqdefault.jpg",
@@ -225,6 +255,30 @@ Executing the Electric Chair requires precise coordination of three control syst
 
 <p class="section-subtitle">Watch Electric Chair from Electric Chair (Attacker) in action — curated instructionals</p>
 
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=I8HLek9eCbg)
+
+<p class="clip-credit"><strong>Electric Chair</strong> · 0:25 · <a href="https://www.youtube.com/watch?v=I8HLek9eCbg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sMbaY4vG2mM)
+
+<p class="clip-credit"><strong>Electric Chair - Brandon Mccaghren - 10th Planet Jiu Jitsu - Lockdown Half Guard</strong> · 0:42 · <a href="https://www.youtube.com/watch?v=sMbaY4vG2mM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=pIoiYLBb_Vg)
+
+<p class="clip-credit"><strong>Electric chair submission</strong> · 1:16 · <a href="https://www.youtube.com/watch?v=pIoiYLBb_Vg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
 
 <div class="film-clip">
 

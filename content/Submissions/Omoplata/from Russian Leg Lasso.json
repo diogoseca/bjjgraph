@@ -434,7 +434,22 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "FCdFl9aAiUg",
+        "title": "Nogi Lasso Omaplata",
+        "channel": "Asaf Mich",
+        "duration": 49,
+        "vertical": false
+      },
+      {
+        "id": "X38VbqKI8dY",
+        "title": "Lasso to Omoplata",
+        "channel": "Ninja Pinto",
+        "duration": 56,
+        "vertical": false
+      }
+    ]
   },
   "defender": {
     "name": "from Russian Leg Lasso Defender",
@@ -620,6 +635,15 @@
         "description": "Full resistance positional sparring starting from Russian Leg Lasso. Top player must defend all attacks including omoplata, triangle, and sweep threats. Bottom player uses full offensive system. Develops the ability to distinguish omoplata attempts from other attacks and apply the correct defensive response under pressure."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "ocIHY3jBYIQ",
+        "title": "💯 BEST WAY to ESCAPE THE OMOPLATA Shoulder Lock",
+        "channel": "John Connors, Old Man BJJ Black Belt",
+        "duration": 61,
+        "vertical": false,
+        "front": true
+      }
+    ]
   }
 }

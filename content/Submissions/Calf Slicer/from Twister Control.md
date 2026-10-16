@@ -36,6 +36,27 @@ description: "Master the calf slicer from twister control in BJJ. Learn setup me
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Calf Slicer from Twister Control \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "X-PASS - SIDE CONTROL - TWISTER ROLL - CALF SLICER",
+      "description": "Calf Slicer from Twister Control film study: X-PASS - SIDE CONTROL - TWISTER ROLL - CALF SLICER.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4gzXKLfRlYY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4gzXKLfRlYY",
+      "url": "https://www.youtube.com/watch?v=4gzXKLfRlYY",
+      "duration": "PT82S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -83,6 +104,24 @@ The finishing mechanics require threading your shin behind the opponent's knee c
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Calf Slicer from Twister Control in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=4gzXKLfRlYY)
+
+<p class="clip-credit"><strong>X-PASS - SIDE CONTROL - TWISTER ROLL - CALF SLICER</strong> · 1:22 · <a href="https://www.youtube.com/watch?v=4gzXKLfRlYY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="outcomes" class="content-section">

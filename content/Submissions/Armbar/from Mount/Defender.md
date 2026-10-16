@@ -168,6 +168,36 @@ description: "How to defend against Armbar from Mount in BJJ. Recognition, escap
       "embedUrl": "https://www.youtube.com/embed/MnJ00En9COI",
       "url": "https://www.youtube.com/watch?v=MnJ00En9COI",
       "duration": "PT119S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "The NoGi Minute: Low effort armbar escape via foot capture",
+      "description": "Armbar from Mount (Defender) film study: The NoGi Minute: Low effort armbar escape via foot capture.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/AfDEN3uK3W0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/AfDEN3uK3W0",
+      "url": "https://www.youtube.com/watch?v=AfDEN3uK3W0",
+      "duration": "PT55S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "THIS is my favorite armbar escape! #jiujitsu #jiujitsutips",
+      "description": "Armbar from Mount (Defender) film study: THIS is my favorite armbar escape! #jiujitsu #jiujitsutips.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kNdKfUdgO4I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kNdKfUdgO4I",
+      "url": "https://www.youtube.com/watch?v=kNdKfUdgO4I",
+      "duration": "PT92S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 4,
+      "name": "Armbar Escape: RNC",
+      "description": "Armbar from Mount (Defender) film study: Armbar Escape: RNC.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sDdqvh_1kbA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sDdqvh_1kbA",
+      "url": "https://www.youtube.com/watch?v=sDdqvh_1kbA",
+      "duration": "PT62S"
     }
   ]
 }
@@ -203,6 +233,30 @@ Defensive hierarchy follows a strict sequence: prevent arm isolation first, disr
 ![](https://www.youtube.com/watch?v=MnJ00En9COI)
 
 <p class="clip-credit"><strong>Rodrigo Comprido shows the BEST Armbar Escape on the Mount</strong> · 1:59 · <a href="https://www.youtube.com/watch?v=MnJ00En9COI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=AfDEN3uK3W0)
+
+<p class="clip-credit"><strong>The NoGi Minute: Low effort armbar escape via foot capture</strong> · 0:55 · <a href="https://www.youtube.com/watch?v=AfDEN3uK3W0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kNdKfUdgO4I)
+
+<p class="clip-credit"><strong>THIS is my favorite armbar escape! #jiujitsu #jiujitsutips</strong> · 1:32 · <a href="https://www.youtube.com/watch?v=kNdKfUdgO4I" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sDdqvh_1kbA)
+
+<p class="clip-credit"><strong>Armbar Escape: RNC</strong> · 1:02 · <a href="https://www.youtube.com/watch?v=sDdqvh_1kbA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

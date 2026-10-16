@@ -150,6 +150,27 @@ description: "How to defend against Rolling to Guard in BJJ. Recognition cues, c
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Rolling to Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "This Helped Me Deal With The Roll From Turtle",
+      "description": "Rolling to Guard (Defender) film study: This Helped Me Deal With The Roll From Turtle.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WeKW5XTMUxY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/WeKW5XTMUxY",
+      "url": "https://www.youtube.com/watch?v=WeKW5XTMUxY",
+      "duration": "PT223S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -162,6 +183,24 @@ As the defender against Rolling to Guard, you are the top player in turtle who m
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Rolling to Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=WeKW5XTMUxY)
+
+<p class="clip-credit"><strong>This Helped Me Deal With The Roll From Turtle</strong> · 3:43 · <a href="https://www.youtube.com/watch?v=WeKW5XTMUxY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

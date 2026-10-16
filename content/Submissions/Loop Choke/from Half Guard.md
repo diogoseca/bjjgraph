@@ -52,6 +52,16 @@ description: "Master the Loop Choke from Half Guard Top in BJJ. Learn deep colla
       "embedUrl": "https://www.youtube.com/embed/TcX0ZzZib-I",
       "url": "https://www.youtube.com/watch?v=TcX0ZzZib-I",
       "duration": "PT59S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Loop choke from half guard",
+      "description": "Loop Choke from Half Guard film study: Loop choke from half guard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MeewDSMPwA0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/MeewDSMPwA0",
+      "url": "https://www.youtube.com/watch?v=MeewDSMPwA0",
+      "duration": "PT310S"
     }
   ]
 }
@@ -117,6 +127,14 @@ The attacker must balance commitment to the choke against maintaining top positi
 ![](https://www.youtube.com/watch?v=TcX0ZzZib-I)
 
 <p class="clip-credit"><strong>BJJ: Loop Choke from Halfguard Top</strong> · 0:59 · <a href="https://www.youtube.com/watch?v=TcX0ZzZib-I" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=MeewDSMPwA0)
+
+<p class="clip-credit"><strong>Loop choke from half guard</strong> · 5:10 · <a href="https://www.youtube.com/watch?v=MeewDSMPwA0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

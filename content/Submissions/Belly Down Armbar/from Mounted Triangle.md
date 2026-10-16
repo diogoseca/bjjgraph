@@ -36,6 +36,27 @@ description: "Master the belly down armbar finish from mounted triangle. Learn r
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Belly Down Armbar from Mounted Triangle \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "arm triangle from guard to armbar to belly down",
+      "description": "Belly Down Armbar from Mounted Triangle film study: arm triangle from guard to armbar to belly down.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/T8lhwzwE__c/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/T8lhwzwE__c",
+      "url": "https://www.youtube.com/watch?v=T8lhwzwE__c",
+      "duration": "PT40S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -83,6 +104,24 @@ Strategically, this finish represents a high-percentage option when the defender
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Belly Down Armbar from Mounted Triangle in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=T8lhwzwE__c)
+
+<p class="clip-credit"><strong>arm triangle from guard to armbar to belly down</strong> · 0:40 · <a href="https://www.youtube.com/watch?v=T8lhwzwE__c" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="outcomes" class="content-section">

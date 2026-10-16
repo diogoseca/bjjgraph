@@ -178,6 +178,37 @@ description: "How to execute the Armbar Finish in BJJ. Attacking perspective wit
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Armbar from Armbar Control (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Armbar from mount when they bump you off",
+      "description": "Armbar from Armbar Control (Attacker) film study: Armbar from mount when they bump you off.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gDn6uThIABM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/gDn6uThIABM",
+      "url": "https://www.youtube.com/watch?v=gDn6uThIABM",
+      "duration": "PT75S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Roger Gracie | ARM BARS",
+      "description": "Armbar from Armbar Control (Attacker) film study: Roger Gracie | ARM BARS.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/vSmRbpNmf-E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/vSmRbpNmf-E",
+      "url": "https://www.youtube.com/watch?v=vSmRbpNmf-E",
+      "duration": "PT102S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -195,6 +226,32 @@ The finish itself requires coordinated opposing vectors: hips drive toward the c
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Armbar from Armbar Control (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=gDn6uThIABM)
+
+<p class="clip-credit"><strong>Armbar from mount when they bump you off</strong> · 1:15 · <a href="https://www.youtube.com/watch?v=gDn6uThIABM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=vSmRbpNmf-E)
+
+<p class="clip-credit"><strong>Roger Gracie | ARM BARS</strong> · 1:42 · <a href="https://www.youtube.com/watch?v=vSmRbpNmf-E" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

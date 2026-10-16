@@ -152,6 +152,47 @@ description: "Defend and escape the Triangle Choke from Open Guard. Recognition 
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Triangle Choke from Open Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Triangle Escape To Side Control With BJJ Champion Valdir Rodrigues!",
+      "description": "Triangle Choke from Open Guard (Defender) film study: Triangle Escape To Side Control With BJJ Champion Valdir Rodrigues!.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XE7KCUjLpqg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/XE7KCUjLpqg",
+      "url": "https://www.youtube.com/watch?v=XE7KCUjLpqg",
+      "duration": "PT72S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Triangle defense/escape",
+      "description": "Triangle Choke from Open Guard (Defender) film study: Triangle defense/escape.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DLmrzSs1hWI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DLmrzSs1hWI",
+      "url": "https://www.youtube.com/watch?v=DLmrzSs1hWI",
+      "duration": "PT23S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "John Danaher:  on escaping triangles vs big opponents (Gordon Ryan)",
+      "description": "Triangle Choke from Open Guard (Defender) film study: John Danaher:  on escaping triangles vs big opponents (Gordon Ryan).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Z-CsRn4K0vg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Z-CsRn4K0vg",
+      "url": "https://www.youtube.com/watch?v=Z-CsRn4K0vg",
+      "duration": "PT48S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -165,6 +206,40 @@ Defending the Triangle from Open Guard requires early recognition of the setup c
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Triangle Choke from Open Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=XE7KCUjLpqg)
+
+<p class="clip-credit"><strong>Triangle Escape To Side Control With BJJ Champion Valdir Rodrigues!</strong> · 1:12 · <a href="https://www.youtube.com/watch?v=XE7KCUjLpqg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=DLmrzSs1hWI)
+
+<p class="clip-credit"><strong>Triangle defense/escape</strong> · 0:23 · <a href="https://www.youtube.com/watch?v=DLmrzSs1hWI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Z-CsRn4K0vg)
+
+<p class="clip-credit"><strong>John Danaher:  on escaping triangles vs big opponents (Gordon Ryan)</strong> · 0:48 · <a href="https://www.youtube.com/watch?v=Z-CsRn4K0vg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

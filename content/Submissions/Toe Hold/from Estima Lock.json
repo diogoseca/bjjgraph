@@ -491,7 +491,16 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "xwaJm1Ft5lc",
+        "title": "Paper Cutter Toehold From 50/50",
+        "channel": "Garden State Brazilian Jiu-Jitsu Academy",
+        "duration": 59,
+        "vertical": false,
+        "front": true
+      }
+    ]
   },
   "defender": {
     "name": "from Estima Lock Defender",
@@ -766,6 +775,15 @@
         "description": "Full resistance positional sparring starting from Estima Lock bottom. Defend against the complete two-attack chain, recognizing which submission the attacker is pursuing and selecting the appropriate defensive response. Practice transitioning between Estima Lock defense and toe hold defense as the attacker flows between attacks."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "3a9k8-ZcYrk",
+        "title": "How to escape from toehold by Gordon Ryan",
+        "channel": "The King Life",
+        "duration": 105,
+        "vertical": false,
+        "front": true
+      }
+    ]
   }
 }

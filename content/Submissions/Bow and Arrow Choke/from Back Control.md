@@ -46,12 +46,12 @@ description: "Master the Bow and Arrow Choke from back control. Learn collar gri
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Bow and arrow choke escape",
-      "description": "Bow and Arrow Choke from Back Control film study: Bow and arrow choke escape.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Iz0aesx6cKk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Iz0aesx6cKk",
-      "url": "https://www.youtube.com/watch?v=Iz0aesx6cKk",
-      "duration": "PT35S"
+      "name": "Bow and Arrow Choke by Helena Crevar",
+      "description": "Bow and Arrow Choke from Back Control film study: Bow and Arrow Choke by Helena Crevar.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rc77idEskwo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/rc77idEskwo",
+      "url": "https://www.youtube.com/watch?v=rc77idEskwo",
+      "duration": "PT55S"
     }
   ]
 }
@@ -114,9 +114,9 @@ Strategically, the bow and arrow choke serves as the premier gi-specific attack 
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=Iz0aesx6cKk)
+![](https://www.youtube.com/watch?v=rc77idEskwo)
 
-<p class="clip-credit"><strong>Bow and arrow choke escape</strong> · 0:35 · <a href="https://www.youtube.com/watch?v=Iz0aesx6cKk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Bow and Arrow Choke by Helena Crevar</strong> · 0:55 · <a href="https://www.youtube.com/watch?v=rc77idEskwo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

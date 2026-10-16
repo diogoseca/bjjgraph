@@ -188,6 +188,16 @@ description: "Step-by-step guide to finishing the North-South Choke from Kuzure 
       "embedUrl": "https://www.youtube.com/embed/LurZB_PfUmA",
       "url": "https://www.youtube.com/watch?v=LurZB_PfUmA",
       "duration": "PT120S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Marcelo Garcia - North South Choke",
+      "description": "North-South Choke from Kuzure Kesa Gatame (Attacker) film study: Marcelo Garcia - North South Choke.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/z3RNUfHfiSM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/z3RNUfHfiSM",
+      "url": "https://www.youtube.com/watch?v=z3RNUfHfiSM",
+      "duration": "PT20S"
     }
   ]
 }
@@ -219,6 +229,14 @@ Attacking with the North-South Choke from Kuzure Kesa Gatame requires understand
 ![](https://www.youtube.com/watch?v=LurZB_PfUmA)
 
 <p class="clip-credit"><strong>Modified Scarf Hold North/South choke</strong> · 2:00 · <a href="https://www.youtube.com/watch?v=LurZB_PfUmA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=z3RNUfHfiSM)
+
+<p class="clip-credit"><strong>Marcelo Garcia - North South Choke</strong> · 0:20 · <a href="https://www.youtube.com/watch?v=z3RNUfHfiSM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -52,6 +52,16 @@ description: "Master the kneebar from toe hold control in BJJ. Complete guide to
       "embedUrl": "https://www.youtube.com/embed/-HT8Vfiq5Pk",
       "url": "https://www.youtube.com/watch?v=-HT8Vfiq5Pk",
       "duration": "PT67S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Kneebar and Toehold from Guard Pass",
+      "description": "Kneebar from Toe Hold Control film study: Kneebar and Toehold from Guard Pass.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/frFaHeQJHTA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/frFaHeQJHTA",
+      "url": "https://www.youtube.com/watch?v=frFaHeQJHTA",
+      "duration": "PT57S"
     }
   ]
 }
@@ -117,6 +127,14 @@ The positional advantage is substantial because the leg is already isolated with
 ![](https://www.youtube.com/watch?v=-HT8Vfiq5Pk)
 
 <p class="clip-credit"><strong>Top Half Guard Toe Hold to Knee Bar Attack</strong> · 1:07 · <a href="https://www.youtube.com/watch?v=-HT8Vfiq5Pk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=frFaHeQJHTA)
+
+<p class="clip-credit"><strong>Kneebar and Toehold from Guard Pass</strong> · 0:57 · <a href="https://www.youtube.com/watch?v=frFaHeQJHTA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

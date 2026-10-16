@@ -457,6 +457,13 @@
         "duration": 252,
         "vertical": false,
         "front": true
+      },
+      {
+        "id": "3KAO2Ck4HRg",
+        "title": "Move of the Day: Bow and Arrow to Kneebar, Honey hole heel hook or reverse heel…",
+        "channel": "JitzLive",
+        "duration": 52,
+        "vertical": false
       }
     ]
   },
@@ -645,6 +652,22 @@
         "description": "Start in Honey Hole bottom with partner at full resistance. Defend both heel hook and kneebar threats while actively pursuing escape. Practice tap timing when escape fails and tap early then analyze what went wrong. Goal is building realistic defensive instincts and safe tap habits."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "wBRG0fY94fs",
+        "title": "How to Defend a Kneebar (and Prevent a Backstep Pass)",
+        "channel": "Revolution BJJ",
+        "duration": 59,
+        "vertical": false,
+        "front": true
+      },
+      {
+        "id": "NuWBh3LN-SY",
+        "title": "Knee Bar defense + take the back",
+        "channel": "Bicudo BJJ",
+        "duration": 21,
+        "vertical": false
+      }
+    ]
   }
 }

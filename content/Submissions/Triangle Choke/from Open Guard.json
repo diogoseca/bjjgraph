@@ -426,7 +426,23 @@
         "answer_line": "Kill rotation or ride to omoplata"
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "yQVALraYswM",
+        "title": "Z guard//Craig Jones triangle set up// dannybrownbjj",
+        "channel": "UNC_CynX",
+        "duration": 331,
+        "vertical": false,
+        "front": true
+      },
+      {
+        "id": "UGp6VzbkReA",
+        "title": "Triangle Choke: The Detail That Changes Everything ( Complete Guide )",
+        "channel": "JonThomasBJJ",
+        "duration": 735,
+        "vertical": false
+      }
+    ]
   },
   "defender": {
     "name": "from Open Guard Defender",
@@ -606,6 +622,29 @@
         "description": "Start from locked triangle position with partner applying progressive pressure. Practice posture recovery, stack escapes, and turning escapes at increasing resistance levels. Progress to converting successful escapes into immediate passing sequences to side control. Full-speed positional rounds with triangle as the starting position."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "XE7KCUjLpqg",
+        "title": "Triangle Escape To Side Control With BJJ Champion Valdir Rodrigues!",
+        "channel": "Evolve Mixed Martial Arts",
+        "duration": 72,
+        "vertical": false,
+        "front": true
+      },
+      {
+        "id": "DLmrzSs1hWI",
+        "title": "Triangle defense/escape",
+        "channel": "Daniel Frank",
+        "duration": 23,
+        "vertical": false
+      },
+      {
+        "id": "Z-CsRn4K0vg",
+        "title": "John Danaher:  on escaping triangles vs big opponents (Gordon Ryan)",
+        "channel": "Dohn Janaher ",
+        "duration": 48,
+        "vertical": false
+      }
+    ]
   }
 }

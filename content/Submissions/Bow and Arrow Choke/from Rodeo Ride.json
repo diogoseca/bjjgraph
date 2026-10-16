@@ -422,7 +422,23 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "iNKRhe39iT0",
+        "title": "Beginner Bow and Arrow choke",
+        "channel": "Scott Clawson Jiu-Jitsu",
+        "duration": 50,
+        "vertical": false,
+        "front": true
+      },
+      {
+        "id": "obschO_7Byw",
+        "title": "Female Bjj Bow and Arrow Choke",
+        "channel": "Halfguardmaster",
+        "duration": 62,
+        "vertical": false
+      }
+    ]
   },
   "defender": {
     "name": "from Rodeo Ride Defender",

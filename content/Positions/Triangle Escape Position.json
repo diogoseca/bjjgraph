@@ -828,7 +828,16 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "M3_VDLm6PoE",
+        "title": "How To Finish a Triangle When Someone Has Good Posture",
+        "channel": "Inverted Gear",
+        "duration": 142,
+        "vertical": false,
+        "front": true
+      }
+    ]
   },
   "flashcards_position": [
     {

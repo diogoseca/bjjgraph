@@ -639,6 +639,22 @@
         "description": "Positional sparring where partner starts in butterfly guard with guillotine as a primary weapon. Defend the guillotine under full resistance while also working to pass the guard. Develops realistic timing for when to strip grips, when to drive, and when to tap."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "fYE1jgWfIgY",
+        "title": "Late Arm in Guillotine Defense by Noel Danforth",
+        "channel": "BJJ Fanatics",
+        "duration": 188,
+        "vertical": false,
+        "front": true
+      },
+      {
+        "id": "VUaJgz4FzY0",
+        "title": "Guillotine Defense: The Vaulting Method (BJJ No Gi)",
+        "channel": "Brian Glick",
+        "duration": 282,
+        "vertical": false
+      }
+    ]
   }
 }

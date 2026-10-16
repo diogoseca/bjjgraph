@@ -386,7 +386,16 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "bpzSfXme_eY",
+        "title": "Lapel Guard: Gubber Guard to Belly Down Armbar",
+        "channel": "Revolution BJJ",
+        "duration": 77,
+        "vertical": false,
+        "front": true
+      }
+    ]
   },
   "defender": {
     "name": "from Mission Control Defender",

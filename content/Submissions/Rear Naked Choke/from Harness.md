@@ -52,6 +52,26 @@ description: "Master the Rear Naked Choke from Harness in BJJ. Complete guide to
       "embedUrl": "https://www.youtube.com/embed/3H5ZyHEHfpI",
       "url": "https://www.youtube.com/watch?v=3H5ZyHEHfpI",
       "duration": "PT133S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Craig Jones: details on finishing the rear naked choke",
+      "description": "Rear Naked Choke from Harness film study: Craig Jones: details on finishing the rear naked choke.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8tdVE2zgjXw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8tdVE2zgjXw",
+      "url": "https://www.youtube.com/watch?v=8tdVE2zgjXw",
+      "duration": "PT57S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Gordon Ryan - Rear Naked Choke (Control Jiu-Jitsu Submission of The Week)",
+      "description": "Rear Naked Choke from Harness film study: Gordon Ryan - Rear Naked Choke (Control Jiu-Jitsu Submission of The Week).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/70jECxFfCSA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/70jECxFfCSA",
+      "url": "https://www.youtube.com/watch?v=70jECxFfCSA",
+      "duration": "PT73S"
     }
   ]
 }
@@ -117,6 +137,22 @@ Strategically, this creates a cascading dilemma system. The opponent must commit
 ![](https://www.youtube.com/watch?v=3H5ZyHEHfpI)
 
 <p class="clip-credit"><strong>TMG Clips #9 - RNC Details From Seatbelt</strong> · 2:13 · <a href="https://www.youtube.com/watch?v=3H5ZyHEHfpI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8tdVE2zgjXw)
+
+<p class="clip-credit"><strong>Craig Jones: details on finishing the rear naked choke</strong> · 0:57 · <a href="https://www.youtube.com/watch?v=8tdVE2zgjXw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=70jECxFfCSA)
+
+<p class="clip-credit"><strong>Gordon Ryan - Rear Naked Choke (Control Jiu-Jitsu Submission of The Week)</strong> · 1:13 · <a href="https://www.youtube.com/watch?v=70jECxFfCSA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

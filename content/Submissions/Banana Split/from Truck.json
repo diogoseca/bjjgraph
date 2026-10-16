@@ -475,6 +475,20 @@
         "channel": "Precision Boxing & MMA",
         "duration": 120,
         "front": true
+      },
+      {
+        "id": "OUDbEh7cr4k",
+        "title": "Banana Split",
+        "channel": "BOWERHOUSE MMA",
+        "duration": 57,
+        "vertical": false
+      },
+      {
+        "id": "W6rQi-vPhsw",
+        "title": "No Gi Turtle Attacks   calfslicer to bananasplit to twister to armlock   short",
+        "channel": "RENZO GRACIE HOLLAND",
+        "duration": 61,
+        "vertical": false
       }
     ]
   },
@@ -658,6 +672,13 @@
       }
     ],
     "clips": [
+      {
+        "id": "BbpHFRU7Irs",
+        "title": "Duck Spladle Banana Split Escape",
+        "channel": "Triple Victory",
+        "duration": 62,
+        "vertical": false
+      },
       {
         "id": "E_4Qtm1I9T0",
         "title": "Banana Split and Defence",

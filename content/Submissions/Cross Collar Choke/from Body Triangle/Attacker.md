@@ -172,6 +172,37 @@ description: "Learn to execute the cross collar choke from body triangle. Step-b
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Cross Collar Choke from Body Triangle (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Use Your Own Lapel to Cross Choke from the Back",
+      "description": "Cross Collar Choke from Body Triangle (Attacker) film study: Use Your Own Lapel to Cross Choke from the Back.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/nKIMxCzXvl0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/nKIMxCzXvl0",
+      "url": "https://www.youtube.com/watch?v=nKIMxCzXvl0",
+      "duration": "PT176S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Roger Gracie | CROSS COLLAR CHOKES",
+      "description": "Cross Collar Choke from Body Triangle (Attacker) film study: Roger Gracie | CROSS COLLAR CHOKES.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dfP-Ov8FBUo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dfP-Ov8FBUo",
+      "url": "https://www.youtube.com/watch?v=dfP-Ov8FBUo",
+      "duration": "PT80S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -185,6 +216,32 @@ Attacking the cross collar choke from body triangle gives you an exceptionally s
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Cross Collar Choke from Body Triangle (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=nKIMxCzXvl0)
+
+<p class="clip-credit"><strong>Use Your Own Lapel to Cross Choke from the Back</strong> · 2:56 · <a href="https://www.youtube.com/watch?v=nKIMxCzXvl0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dfP-Ov8FBUo)
+
+<p class="clip-credit"><strong>Roger Gracie | CROSS COLLAR CHOKES</strong> · 1:20 · <a href="https://www.youtube.com/watch?v=dfP-Ov8FBUo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

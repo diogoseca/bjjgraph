@@ -475,6 +475,21 @@
         "title": "1 MINUTE JIU JITSU HACK - Marce Choke",
         "channel": "Brandon Mccaghren",
         "duration": 66,
+        "vertical": false,
+        "front": true
+      },
+      {
+        "id": "1jsDC-jaPoU",
+        "title": "Marce choke",
+        "channel": "Colemans Electric",
+        "duration": 78,
+        "vertical": false
+      },
+      {
+        "id": "Mp7Ffm85k0A",
+        "title": "Knee flare marce",
+        "channel": "Drew Darce",
+        "duration": 113,
         "vertical": false
       }
     ]

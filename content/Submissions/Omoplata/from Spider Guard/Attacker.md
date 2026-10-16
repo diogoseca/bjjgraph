@@ -178,6 +178,37 @@ description: "Master attacking the Omoplata from Spider Guard. Step-by-step entr
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Omoplata from Spider Guard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Spider Guard to Triangle or Omoplata",
+      "description": "Omoplata from Spider Guard (Attacker) film study: Spider Guard to Triangle or Omoplata.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wl48JJRddV8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/wl48JJRddV8",
+      "url": "https://www.youtube.com/watch?v=wl48JJRddV8",
+      "duration": "PT54S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Open Guard - Omoplata Variation",
+      "description": "Omoplata from Spider Guard (Attacker) film study: Open Guard - Omoplata Variation.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/k8b2GBVqcco/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/k8b2GBVqcco",
+      "url": "https://www.youtube.com/watch?v=k8b2GBVqcco",
+      "duration": "PT50S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -191,6 +222,32 @@ Attacking the Omoplata from Spider Guard requires converting your bilateral slee
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Omoplata from Spider Guard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=wl48JJRddV8)
+
+<p class="clip-credit"><strong>Spider Guard to Triangle or Omoplata</strong> · 0:54 · <a href="https://www.youtube.com/watch?v=wl48JJRddV8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=k8b2GBVqcco)
+
+<p class="clip-credit"><strong>Open Guard - Omoplata Variation</strong> · 0:50 · <a href="https://www.youtube.com/watch?v=k8b2GBVqcco" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

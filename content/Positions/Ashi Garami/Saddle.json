@@ -468,6 +468,13 @@
         "front": true
       },
       {
+        "id": "P-rkPE4bjdE",
+        "title": "Saddle Transition from Top Half Guard",
+        "channel": "Thunderdome BJJ",
+        "duration": 31,
+        "vertical": false
+      },
+      {
         "id": "HniaoFWTsmI",
         "title": "Easy Entry to Saddle (411, inside sankaku, cross ashi garami)",
         "channel": "Ilya's Jiu-Jitsu",
@@ -1032,5 +1039,14 @@
       }
     }
   ],
-  "clips": []
+  "clips": [
+    {
+      "id": "VmxgqU-ScTM",
+      "title": "HONEY HOLE FROM SINGLE LEG X - LEG LOCK ENTRY",
+      "channel": "Danny Mitchell MMA",
+      "duration": 33,
+      "vertical": false,
+      "half": "top"
+    }
+  ]
 }

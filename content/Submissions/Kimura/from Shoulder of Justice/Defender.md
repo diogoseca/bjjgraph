@@ -146,6 +146,37 @@ description: "Defend the Kimura from Shoulder of Justice in BJJ. Recognition cue
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kimura from Shoulder of Justice (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Late Kimura Defense from Bottom Side Control",
+      "description": "Kimura from Shoulder of Justice (Defender) film study: Late Kimura Defense from Bottom Side Control.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/uRn3DRICpeY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/uRn3DRICpeY",
+      "url": "https://www.youtube.com/watch?v=uRn3DRICpeY",
+      "duration": "PT100S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "KIMURA DEFENSE 101 From bottom side control! #graciewestchase #kimuradefense\u2026",
+      "description": "Kimura from Shoulder of Justice (Defender) film study: KIMURA DEFENSE 101 From bottom side control! #graciewestchase #kimuradefense\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MM9rddEgJ58/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/MM9rddEgJ58",
+      "url": "https://www.youtube.com/watch?v=MM9rddEgJ58",
+      "duration": "PT155S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -159,6 +190,32 @@ Defending the Kimura from Shoulder of Justice requires early recognition and dis
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kimura from Shoulder of Justice (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=uRn3DRICpeY)
+
+<p class="clip-credit"><strong>Late Kimura Defense from Bottom Side Control</strong> · 1:40 · <a href="https://www.youtube.com/watch?v=uRn3DRICpeY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=MM9rddEgJ58)
+
+<p class="clip-credit"><strong>KIMURA DEFENSE 101 From bottom side control! #graciewestchase #kimuradefense…</strong> · 2:35 · <a href="https://www.youtube.com/watch?v=MM9rddEgJ58" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

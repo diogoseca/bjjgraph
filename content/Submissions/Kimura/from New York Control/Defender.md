@@ -146,6 +146,47 @@ description: "Defend against the Kimura from New York Control position. Recognit
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kimura from New York Control (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "3 Sneaky Ways to Counter Kimuras from Half Guard Top (Using 1 Grip)",
+      "description": "Kimura from New York Control (Defender) film study: 3 Sneaky Ways to Counter Kimuras from Half Guard Top (Using 1 Grip).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/FoAYceaEPLc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/FoAYceaEPLc",
+      "url": "https://www.youtube.com/watch?v=FoAYceaEPLc",
+      "duration": "PT277S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "10th Planet Jiu Jitsu Secret Kimura Grip Break - 10th Planet Jiu Jitsu - West LA",
+      "description": "Kimura from New York Control (Defender) film study: 10th Planet Jiu Jitsu Secret Kimura Grip Break - 10th Planet Jiu Jitsu - West LA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/bUZmy2Gu7jo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/bUZmy2Gu7jo",
+      "url": "https://www.youtube.com/watch?v=bUZmy2Gu7jo",
+      "duration": "PT87S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Kimura Escape / Counters and More",
+      "description": "Kimura from New York Control (Defender) film study: Kimura Escape / Counters and More.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/mQc4mxtDGUo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/mQc4mxtDGUo",
+      "url": "https://www.youtube.com/watch?v=mQc4mxtDGUo",
+      "duration": "PT201S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -159,6 +200,40 @@ Defending the Kimura from New York Control requires recognizing the transition f
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kimura from New York Control (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=FoAYceaEPLc)
+
+<p class="clip-credit"><strong>3 Sneaky Ways to Counter Kimuras from Half Guard Top (Using 1 Grip)</strong> · 4:37 · <a href="https://www.youtube.com/watch?v=FoAYceaEPLc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=bUZmy2Gu7jo)
+
+<p class="clip-credit"><strong>10th Planet Jiu Jitsu Secret Kimura Grip Break - 10th Planet Jiu Jitsu - West LA</strong> · 1:27 · <a href="https://www.youtube.com/watch?v=bUZmy2Gu7jo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=mQc4mxtDGUo)
+
+<p class="clip-credit"><strong>Kimura Escape / Counters and More</strong> · 3:21 · <a href="https://www.youtube.com/watch?v=mQc4mxtDGUo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

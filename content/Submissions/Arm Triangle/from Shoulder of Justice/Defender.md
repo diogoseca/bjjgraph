@@ -152,6 +152,37 @@ description: "Learn to defend the Arm Triangle from Shoulder of Justice. Recogni
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Arm Triangle from Shoulder of Justice (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "The Fastest Escape Out Of The Arm Triangle",
+      "description": "Arm Triangle from Shoulder of Justice (Defender) film study: The Fastest Escape Out Of The Arm Triangle.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/D2vkZGTD78I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/D2vkZGTD78I",
+      "url": "https://www.youtube.com/watch?v=D2vkZGTD78I",
+      "duration": "PT31S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "3 Arm Triangle Choke Defenses - From Prevention To Late Defense",
+      "description": "Arm Triangle from Shoulder of Justice (Defender) film study: 3 Arm Triangle Choke Defenses - From Prevention To Late Defense.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Fx6qjR6a_xE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Fx6qjR6a_xE",
+      "url": "https://www.youtube.com/watch?v=Fx6qjR6a_xE",
+      "duration": "PT273S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -165,6 +196,32 @@ Defending the Arm Triangle from Shoulder of Justice begins with understanding th
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Arm Triangle from Shoulder of Justice (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=D2vkZGTD78I)
+
+<p class="clip-credit"><strong>The Fastest Escape Out Of The Arm Triangle</strong> · 0:31 · <a href="https://www.youtube.com/watch?v=D2vkZGTD78I" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Fx6qjR6a_xE)
+
+<p class="clip-credit"><strong>3 Arm Triangle Choke Defenses - From Prevention To Late Defense</strong> · 4:33 · <a href="https://www.youtube.com/watch?v=Fx6qjR6a_xE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

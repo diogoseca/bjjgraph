@@ -152,6 +152,37 @@ description: "Defend against the heel hook from 50-50 Guard. Recognition cues, h
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Heel Hook from 50-50 Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Heel hook escape from 50/50 to twister lock",
+      "description": "Heel Hook from 50-50 Guard (Defender) film study: Heel hook escape from 50/50 to twister lock.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pGfZotHVstE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/pGfZotHVstE",
+      "url": "https://www.youtube.com/watch?v=pGfZotHVstE",
+      "duration": "PT59S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Counter the 50/50 Heel hook with a wristlock",
+      "description": "Heel Hook from 50-50 Guard (Defender) film study: Counter the 50/50 Heel hook with a wristlock.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_hyZqLRwsWE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_hyZqLRwsWE",
+      "url": "https://www.youtube.com/watch?v=_hyZqLRwsWE",
+      "duration": "PT61S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -165,6 +196,32 @@ Defending the heel hook from 50-50 Guard requires immediate recognition and prio
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Heel Hook from 50-50 Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=pGfZotHVstE)
+
+<p class="clip-credit"><strong>Heel hook escape from 50/50 to twister lock</strong> · 0:59 · <a href="https://www.youtube.com/watch?v=pGfZotHVstE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_hyZqLRwsWE)
+
+<p class="clip-credit"><strong>Counter the 50/50 Heel hook with a wristlock</strong> · 1:01 · <a href="https://www.youtube.com/watch?v=_hyZqLRwsWE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

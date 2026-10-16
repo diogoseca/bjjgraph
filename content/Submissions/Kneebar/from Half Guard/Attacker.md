@@ -188,6 +188,26 @@ description: "How to execute Kneebar from Half Guard in BJJ. Attacking perspecti
       "embedUrl": "https://www.youtube.com/embed/IzKxUPKzr8A",
       "url": "https://www.youtube.com/watch?v=IzKxUPKzr8A",
       "duration": "PT57S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Half Guard to Kneebar",
+      "description": "Kneebar from Half Guard (Attacker) film study: Half Guard to Kneebar.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/uB23Ogno7DM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/uB23Ogno7DM",
+      "url": "https://www.youtube.com/watch?v=uB23Ogno7DM",
+      "duration": "PT24S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Knee Bar from Deep Half Guard with Miles Moudy | Brazilian Jiu Jitsu",
+      "description": "Kneebar from Half Guard (Attacker) film study: Knee Bar from Deep Half Guard with Miles Moudy | Brazilian Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ih_7aXNM6UU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ih_7aXNM6UU",
+      "url": "https://www.youtube.com/watch?v=ih_7aXNM6UU",
+      "duration": "PT25S"
     }
   ]
 }
@@ -219,6 +239,22 @@ The Kneebar from Half Guard represents a powerful offensive submission option th
 ![](https://www.youtube.com/watch?v=IzKxUPKzr8A)
 
 <p class="clip-credit"><strong>Helicopter Kneebar from Bottom Half Guard</strong> · 0:57 · <a href="https://www.youtube.com/watch?v=IzKxUPKzr8A" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=uB23Ogno7DM)
+
+<p class="clip-credit"><strong>Half Guard to Kneebar</strong> · 0:24 · <a href="https://www.youtube.com/watch?v=uB23Ogno7DM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ih_7aXNM6UU)
+
+<p class="clip-credit"><strong>Knee Bar from Deep Half Guard with Miles Moudy | Brazilian Jiu Jitsu</strong> · 0:25 · <a href="https://www.youtube.com/watch?v=ih_7aXNM6UU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

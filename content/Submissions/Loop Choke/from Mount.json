@@ -479,7 +479,16 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "Ku6XZn4SMEY",
+        "title": "Awesome \"Standing\" attack : Loop Choke",
+        "channel": "Johnny Jitsu",
+        "duration": 98,
+        "vertical": false,
+        "front": true
+      }
+    ]
   },
   "defender": {
     "name": "from Mount Defender",
@@ -672,7 +681,16 @@
         "description": "Start in mount bottom against a partner who is specifically hunting the loop choke along with other mount attacks. Defend using all trained responses: collar prevention, grip stripping, bridge timing, and turning escapes. Partner uses full resistance and chains the loop choke with cross collar chokes and arm attacks. Track how often you prevent the choke from being established versus how often you must escape a partially locked choke."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "pZmJpXSwRTk",
+        "title": "Loop choke escape",
+        "channel": "Ninja Pinto",
+        "duration": 60,
+        "vertical": false,
+        "front": true
+      }
+    ]
   },
   "variations_and_setups": [
     {

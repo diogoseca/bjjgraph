@@ -194,6 +194,16 @@ description: "Learn to attack the toe hold from ushiro ashi-garami with proper g
       "embedUrl": "https://www.youtube.com/embed/TkSFu08UXec",
       "url": "https://www.youtube.com/watch?v=TkSFu08UXec",
       "duration": "PT296S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Slide into Ashi to Straight Toe Hold",
+      "description": "Toe Hold from Ushiro Ashi-Garami (Attacker) film study: Slide into Ashi to Straight Toe Hold.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/tUKGafnOlJo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/tUKGafnOlJo",
+      "url": "https://www.youtube.com/watch?v=tUKGafnOlJo",
+      "duration": "PT58S"
     }
   ]
 }
@@ -225,6 +235,14 @@ Executing the toe hold from ushiro ashi-garami requires precise grip placement o
 ![](https://www.youtube.com/watch?v=TkSFu08UXec)
 
 <p class="clip-credit"><strong>The strongest leglock combo in BJJ?- Toehold/kneebar dillemma from reverse ashi</strong> · 4:56 · <a href="https://www.youtube.com/watch?v=TkSFu08UXec" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=tUKGafnOlJo)
+
+<p class="clip-credit"><strong>Slide into Ashi to Straight Toe Hold</strong> · 0:58 · <a href="https://www.youtube.com/watch?v=tUKGafnOlJo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

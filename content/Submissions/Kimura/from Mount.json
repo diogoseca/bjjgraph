@@ -508,6 +508,13 @@
         "duration": 66,
         "vertical": false,
         "front": true
+      },
+      {
+        "id": "nH4ly3vk7WI",
+        "title": "S-Mount Armbar, Kimura, + Far side Armbar",
+        "channel": "GBCostaMesa",
+        "duration": 24,
+        "vertical": false
       }
     ]
   },
@@ -702,7 +709,15 @@
         "description": "Full-resistance positional sparring starting from mount with the top player specifically hunting the Kimura. Bottom player works all defensive options including prevention, grip defense, bridge-and-roll, hip escape, and rolling defense. Track escape rate and identify which defensive stage fails most frequently. 3-minute rounds with role switching. Debrief after each round to analyze defensive decision-making."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "qQZI-_SRLM4",
+        "title": "How To Escape The Kimura When On Top",
+        "channel": "Inverted Gear",
+        "duration": 219,
+        "vertical": false
+      }
+    ]
   },
   "variations_and_setups": [
     {

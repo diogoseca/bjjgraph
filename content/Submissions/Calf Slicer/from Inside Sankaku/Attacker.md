@@ -188,6 +188,26 @@ description: "Learn to execute the calf slicer from inside sankaku. Step-by-step
       "embedUrl": "https://www.youtube.com/embed/FDCL7MV5G7s",
       "url": "https://www.youtube.com/watch?v=FDCL7MV5G7s",
       "duration": "PT77S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Leglocks: Bear Trap into Calf Slicer",
+      "description": "Calf Slicer from Inside Sankaku (Attacker) film study: Leglocks: Bear Trap into Calf Slicer.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6M0HvIFfc-w/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6M0HvIFfc-w",
+      "url": "https://www.youtube.com/watch?v=6M0HvIFfc-w",
+      "duration": "PT119S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Jiu-Jitsu br\u00e9silien /Inside Ashi garami / Calf slicer",
+      "description": "Calf Slicer from Inside Sankaku (Attacker) film study: Jiu-Jitsu br\u00e9silien /Inside Ashi garami / Calf slicer.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/VXmaDAUt-BU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/VXmaDAUt-BU",
+      "url": "https://www.youtube.com/watch?v=VXmaDAUt-BU",
+      "duration": "PT172S"
     }
   ]
 }
@@ -219,6 +239,22 @@ The calf slicer from inside sankaku represents one of the most effective seconda
 ![](https://www.youtube.com/watch?v=FDCL7MV5G7s)
 
 <p class="clip-credit"><strong>Calf Slicer from the Saddle</strong> · 1:17 · <a href="https://www.youtube.com/watch?v=FDCL7MV5G7s" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=6M0HvIFfc-w)
+
+<p class="clip-credit"><strong>Leglocks: Bear Trap into Calf Slicer</strong> · 1:59 · <a href="https://www.youtube.com/watch?v=6M0HvIFfc-w" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=VXmaDAUt-BU)
+
+<p class="clip-credit"><strong>Jiu-Jitsu brésilien /Inside Ashi garami / Calf slicer</strong> · 2:52 · <a href="https://www.youtube.com/watch?v=VXmaDAUt-BU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

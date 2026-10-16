@@ -510,11 +510,25 @@
     ],
     "clips": [
       {
+        "id": "fZRfKh1B53o",
+        "title": "Single leg X to knee bar",
+        "channel": "Fernaldi Jonatan",
+        "duration": 76,
+        "vertical": false,
+        "front": true
+      },
+      {
         "id": "8DI4o4LO7xM",
         "title": "Attacking Single Leg X Guard: Pressure Pass to Knee Bar (BULLET POINT)",
         "channel": "PFed BJJ",
-        "duration": 111,
-        "front": true
+        "duration": 111
+      },
+      {
+        "id": "V7ND4cpJ2_c",
+        "title": "Single Leg X Series | 5 of 5 | Reverse X to Kneebar",
+        "channel": "Combat by the Minute",
+        "duration": 117,
+        "vertical": false
       }
     ]
   },
@@ -698,6 +712,15 @@
         "description": "Positional sparring rounds where you play SLX Bottom while your partner has the kneebar counter-attack as their primary option alongside guard passing. Integrate recognition, early hook retraction, grip fighting, and escape sequences into live rolling at progressive intensity. Track which defensive responses work at each stage and develop your personal defensive hierarchy based on your timing and flexibility."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "HwU4-0-JBUM",
+        "title": "How to Defend and Escape the Kneebar",
+        "channel": "Stephan Kesting",
+        "duration": 533,
+        "vertical": false,
+        "front": true
+      }
+    ]
   }
 }

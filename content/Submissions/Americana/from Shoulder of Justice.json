@@ -472,6 +472,14 @@
     ],
     "clips": [
       {
+        "id": "NFbf-Yi9BOU",
+        "title": "The slickest way to setup an Americana.",
+        "channel": "JOEL BOUHEY",
+        "duration": 37,
+        "vertical": false,
+        "front": true
+      },
+      {
         "id": "wpZfDVXOeJw",
         "title": "Side Control Armlocks - 1 - Americana",
         "channel": "JitzLive",
@@ -661,6 +669,22 @@
         "description": "Partner attempts the americana at 50% speed and progresses to 75% over multiple rounds. Practice the full defensive sequence: recognition, prevention, grip defense, escape attempt, and tap decision. The focus is on making the correct decision at each stage — including tapping early when the defense fails rather than risking injury. Track which defenses succeed at each resistance level."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "FNyL93v5fGs",
+        "title": "Defending The Americana - BJJ Move by Lachlan Giles",
+        "channel": "BJJ Fanatics",
+        "duration": 91,
+        "vertical": false,
+        "front": true
+      },
+      {
+        "id": "Unz1euhI2y8",
+        "title": "Escape americana/key lock from side to chest lock.",
+        "channel": "Chuck Jack21",
+        "duration": 71,
+        "vertical": false
+      }
+    ]
   }
 }

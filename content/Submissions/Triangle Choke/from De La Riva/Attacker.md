@@ -182,6 +182,16 @@ description: "How to execute Triangle from De La Riva in BJJ. Attacking perspect
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "Easy De La Riva Triangle Choke #fastlanebjj #bjj #jiujitsu #jiujitsulifestyle\u2026",
+      "description": "Triangle Choke from De La Riva (Attacker) film study: Easy De La Riva Triangle Choke #fastlanebjj #bjj #jiujitsu #jiujitsulifestyle\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0EmXVus5m8o/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/0EmXVus5m8o",
+      "url": "https://www.youtube.com/watch?v=0EmXVus5m8o",
+      "duration": "PT89S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
       "name": "=Triangle from De La Riva Guard=",
       "description": "Triangle Choke from De La Riva (Attacker) film study: =Triangle from De La Riva Guard=.",
       "thumbnailUrl": "https://i.ytimg.com/vi/UOFZwIbz9zM/hqdefault.jpg",
@@ -191,13 +201,13 @@ description: "How to execute Triangle from De La Riva in BJJ. Attacking perspect
     },
     {
       "@type": "VideoObject",
-      "position": 2,
-      "name": "Easy De La Riva Triangle Choke #fastlanebjj #bjj #jiujitsu #jiujitsulifestyle\u2026",
-      "description": "Triangle Choke from De La Riva (Attacker) film study: Easy De La Riva Triangle Choke #fastlanebjj #bjj #jiujitsu #jiujitsulifestyle\u2026.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/0EmXVus5m8o/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/0EmXVus5m8o",
-      "url": "https://www.youtube.com/watch?v=0EmXVus5m8o",
-      "duration": "PT89S"
+      "position": 3,
+      "name": "Knee Shield with Reverse De La Riva to Triangle",
+      "description": "Triangle Choke from De La Riva (Attacker) film study: Knee Shield with Reverse De La Riva to Triangle.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gR54h1IXyGg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/gR54h1IXyGg",
+      "url": "https://www.youtube.com/watch?v=gR54h1IXyGg",
+      "duration": "PT22S"
     }
   ]
 }
@@ -226,6 +236,14 @@ The Triangle from De La Riva is a sophisticated blood choke that capitalizes on 
 
 <div class="film-clip">
 
+![](https://www.youtube.com/watch?v=0EmXVus5m8o)
+
+<p class="clip-credit"><strong>Easy De La Riva Triangle Choke #fastlanebjj #bjj #jiujitsu #jiujitsulifestyle…</strong> · 1:29 · <a href="https://www.youtube.com/watch?v=0EmXVus5m8o" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
 ![](https://www.youtube.com/watch?v=UOFZwIbz9zM)
 
 <p class="clip-credit"><strong>=Triangle from De La Riva Guard=</strong> · 0:25 · <a href="https://www.youtube.com/watch?v=UOFZwIbz9zM" rel="noopener">Watch on YouTube</a></p>
@@ -234,9 +252,9 @@ The Triangle from De La Riva is a sophisticated blood choke that capitalizes on 
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=0EmXVus5m8o)
+![](https://www.youtube.com/watch?v=gR54h1IXyGg)
 
-<p class="clip-credit"><strong>Easy De La Riva Triangle Choke #fastlanebjj #bjj #jiujitsu #jiujitsulifestyle…</strong> · 1:29 · <a href="https://www.youtube.com/watch?v=0EmXVus5m8o" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Knee Shield with Reverse De La Riva to Triangle</strong> · 0:22 · <a href="https://www.youtube.com/watch?v=gR54h1IXyGg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -445,6 +445,13 @@
         "title": "How To Do The Perfect Kimura From The Butterfly Guard",
         "channel": "Ritchie Yip",
         "duration": 135
+      },
+      {
+        "id": "dgYwflmcxKk",
+        "title": "Georges St-Pierre | Technique Breakdown: Kimura Half Guard Bottom | The Gentle…",
+        "channel": "Hayabusa",
+        "duration": 72,
+        "vertical": false
       }
     ]
   },
@@ -613,6 +620,15 @@
         "description": "Positional sparring where the attacker works Kimura attacks from butterfly guard and the defender practices the full defensive sequence: recognition, prevention, grip defense, and escape. Full resistance with emphasis on safe tapping when caught and controlled release protocol."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "GOLwVNTVcnY",
+        "title": "The Daily Dirtball: \"Kimura Defense Grip Breaks\"",
+        "channel": "Dirtball BJJ",
+        "duration": 81,
+        "vertical": false,
+        "front": true
+      }
+    ]
   }
 }

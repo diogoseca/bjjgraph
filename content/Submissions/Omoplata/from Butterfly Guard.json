@@ -434,6 +434,20 @@
         "duration": 38,
         "vertical": false,
         "front": true
+      },
+      {
+        "id": "O_uTvq4s3LQ",
+        "title": "Shoulder Crunch Omoplata",
+        "channel": "A BJJ Marriage",
+        "duration": 87,
+        "vertical": false
+      },
+      {
+        "id": "zjhkmmfU1gg",
+        "title": "TMG Clips #80 - Omoplata Details!",
+        "channel": "TeachMeGrappling Coach Brian",
+        "duration": 119,
+        "vertical": false
       }
     ]
   },
@@ -594,6 +608,22 @@
         "description": "Practice converting successful omoplata defenses into guard passes and positional advances. Focus on the stack-to-pass sequence and using the opponent's committed omoplata structure against them to achieve side control or advance position after defending."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "ocIHY3jBYIQ",
+        "title": "💯 BEST WAY to ESCAPE THE OMOPLATA Shoulder Lock",
+        "channel": "John Connors, Old Man BJJ Black Belt",
+        "duration": 61,
+        "vertical": false,
+        "front": true
+      },
+      {
+        "id": "xqBK1Y2BdSg",
+        "title": "Submission escape - omoplata",
+        "channel": "thiago stefanutti",
+        "duration": 17,
+        "vertical": false
+      }
+    ]
   }
 }

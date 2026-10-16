@@ -463,6 +463,20 @@
         "duration": 67,
         "vertical": false,
         "front": true
+      },
+      {
+        "id": "GqE4UobpkMs",
+        "title": "Butterfly to Reverse X to Cross Ashi to Inside Heel hook",
+        "channel": "BOWERHOUSE MMA",
+        "duration": 87,
+        "vertical": false
+      },
+      {
+        "id": "lr7rlj7WV-E",
+        "title": "Craig Jones - X Guard to Heel Hook",
+        "channel": "The Bear's Den BJJ & MMA  熊派巴西柔術及MMA學院",
+        "duration": 94,
+        "vertical": false
       }
     ]
   },
@@ -651,6 +665,15 @@
         "description": "Full positional sparring from Cross Ashi-Garami bottom against partner attacking at 80-90% intensity. Practice combining boot defense, hand fighting, escape recognition, and counter-attacks in real time. Heel hooks applied at controlled training speed only. Focus on making correct decisions under pressure."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "FUjlpGRjU44",
+        "title": "Escaping and countering cross ashi garami",
+        "channel": "Lux’s jiu jitsu channel",
+        "duration": 45,
+        "vertical": false,
+        "front": true
+      }
+    ]
   }
 }

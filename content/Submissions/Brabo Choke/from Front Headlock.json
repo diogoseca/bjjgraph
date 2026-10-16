@@ -509,10 +509,24 @@
         "front": true
       },
       {
+        "id": "BMU1_wfjYTw",
+        "title": "Procel BJJ | Darce Choke from the Front Headlock Position",
+        "channel": "Procel Brazilian Jiu-Jitsu",
+        "duration": 100,
+        "vertical": false
+      },
+      {
         "id": "xl14mmXhFCo",
         "title": "Front Headlock to Brabo Choke",
         "channel": "Troy Lives The Dream",
         "duration": 283
+      },
+      {
+        "id": "pad9c-Ldljg",
+        "title": "Submission from the turtle brabo choke",
+        "channel": "thiago stefanutti",
+        "duration": 46,
+        "vertical": false
       }
     ]
   },
@@ -707,7 +721,16 @@
         "description": "Positional sparring starting from front headlock or turtle where partner actively hunts the Brabo. Defend with full technique while partner applies at 70-80% intensity. Develop automatic recognition and response patterns. Practice both prevention and escape equally. Reinforce early tapping as a trained response rather than a last resort."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "d1YBV8UTKds",
+        "title": "Darce Choke defense",
+        "channel": "Animal",
+        "duration": 52,
+        "vertical": false,
+        "front": true
+      }
+    ]
   },
   "variations_and_setups": [
     {

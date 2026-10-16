@@ -52,6 +52,16 @@ description: "Master the SLX to X-Guard transition in BJJ. Learn leg threading m
       "embedUrl": "https://www.youtube.com/embed/XELDoBTfGpM",
       "url": "https://www.youtube.com/watch?v=XELDoBTfGpM",
       "duration": "PT176S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Single leg X Guard Options, X Guard, Reverse X Guard",
+      "description": "SLX to X-Guard film study: Single leg X Guard Options, X Guard, Reverse X Guard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/EcxCadpBePk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/EcxCadpBePk",
+      "url": "https://www.youtube.com/watch?v=EcxCadpBePk",
+      "duration": "PT96S"
     }
   ]
 }
@@ -108,6 +118,14 @@ Strategically, this transition serves as the bridge between SLX's leg-lock-orien
 ![](https://www.youtube.com/watch?v=XELDoBTfGpM)
 
 <p class="clip-credit"><strong>Emily Kwok Teaches a Single Leg X to X Guard Drill</strong> · 2:56 · <a href="https://www.youtube.com/watch?v=XELDoBTfGpM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=EcxCadpBePk)
+
+<p class="clip-credit"><strong>Single leg X Guard Options, X Guard, Reverse X Guard</strong> · 1:36 · <a href="https://www.youtube.com/watch?v=EcxCadpBePk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

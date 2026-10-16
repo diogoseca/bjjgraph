@@ -410,7 +410,23 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "PWvr1NUFxGs",
+        "title": "Neil Melanson Filthy Neck Crank",
+        "channel": "Neil Melanson",
+        "duration": 71,
+        "vertical": false,
+        "front": true
+      },
+      {
+        "id": "nw1iXWH7rP4",
+        "title": "Crucifix neck crank",
+        "channel": "Bicudo BJJ",
+        "duration": 40,
+        "vertical": false
+      }
+    ]
   },
   "defender": {
     "name": "from Mounted Crucifix Defender",

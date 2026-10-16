@@ -450,6 +450,14 @@
         "title": "Dogfight Overhook Series- Part 1 Darce from the overhook.",
         "channel": "Ashure Elbanna",
         "duration": 81,
+        "vertical": false,
+        "front": true
+      },
+      {
+        "id": "HR6Bk9RY5W4",
+        "title": "Darce attack from inside of guard",
+        "channel": "Clark Gracie Allegiance Jiu Jitsu",
+        "duration": 74,
         "vertical": false
       }
     ]
@@ -639,6 +647,29 @@
         "description": "Positional sparring starting from overhook control with partner actively pursuing the Darce. Defender uses full repertoire of prevention, early escape, and late escape techniques. Focus on chaining defensive responses when initial defense fails. Build confidence in survival under realistic attacking pressure."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "dM1xebWBFzc",
+        "title": "Underhook Half Guard vs Darce and Guillotine",
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 369,
+        "vertical": false,
+        "front": true
+      },
+      {
+        "id": "FMAWiNfgp74",
+        "title": "DEFENDING THE FRONT HEAD LOCK CHOKE - DARCE CHOKE - CHOKE - SUBMISSION - ESCAPE…",
+        "channel": "BJJ101",
+        "duration": 30,
+        "vertical": false
+      },
+      {
+        "id": "ug2Kxs54GuU",
+        "title": "D'arce Defense",
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 714,
+        "vertical": false
+      }
+    ]
   }
 }

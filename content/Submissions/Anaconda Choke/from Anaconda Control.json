@@ -560,25 +560,25 @@
     ],
     "clips": [
       {
+        "id": "1e2GPOUYR-o",
+        "title": "Fix your Anaconda Chokes (Quick)",
+        "channel": "Lycan",
+        "duration": 41,
+        "vertical": false,
+        "front": true
+      },
+      {
         "id": "RbkOnRb2lvA",
         "title": "Anaconda Choke BJJ",
         "channel": "Ninja Pinto",
         "duration": 48,
-        "vertical": false,
-        "front": true
+        "vertical": false
       },
       {
         "id": "EbhWFWp-B6s",
         "title": "How to do an Anaconda Choke - 10th Planet Jiu Jitsu Decatur",
         "channel": "Brandon Mccaghren",
         "duration": 81,
-        "vertical": false
-      },
-      {
-        "id": "DHYmDsncdS8",
-        "title": "Marcelo Garcia anaconda choke finish",
-        "channel": "forlogosVideos",
-        "duration": 126,
         "vertical": false
       }
     ]

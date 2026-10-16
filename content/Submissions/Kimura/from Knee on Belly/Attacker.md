@@ -182,6 +182,26 @@ description: "Learn to attack the Kimura from Knee on Belly. Step-by-step guide 
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "Kimura Setup From Knee on Belly Using the Arm Trap",
+      "description": "Kimura from Knee on Belly (Attacker) film study: Kimura Setup From Knee on Belly Using the Arm Trap.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/bKEhbrZaS7Y/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/bKEhbrZaS7Y",
+      "url": "https://www.youtube.com/watch?v=bKEhbrZaS7Y",
+      "duration": "PT31S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Knee on belly to Kimura from North South(KalivasTeam BJJ\u0026MMA)",
+      "description": "Kimura from Knee on Belly (Attacker) film study: Knee on belly to Kimura from North South(KalivasTeam BJJ\u0026MMA).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MEc9jBx5M14/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/MEc9jBx5M14",
+      "url": "https://www.youtube.com/watch?v=MEc9jBx5M14",
+      "duration": "PT38S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
       "name": "Kimura from Knee on Belly",
       "description": "Kimura from Knee on Belly (Attacker) film study: Kimura from Knee on Belly.",
       "thumbnailUrl": "https://i.ytimg.com/vi/mEmlkI3zbeE/hqdefault.jpg",
@@ -213,6 +233,22 @@ Attacking the Kimura from Knee on Belly requires understanding how to weaponize 
 
 <p class="section-subtitle">Watch Kimura from Knee on Belly (Attacker) in action — curated instructionals</p>
 
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=bKEhbrZaS7Y)
+
+<p class="clip-credit"><strong>Kimura Setup From Knee on Belly Using the Arm Trap</strong> · 0:31 · <a href="https://www.youtube.com/watch?v=bKEhbrZaS7Y" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=MEc9jBx5M14)
+
+<p class="clip-credit"><strong>Knee on belly to Kimura from North South(KalivasTeam BJJ&amp;MMA)</strong> · 0:38 · <a href="https://www.youtube.com/watch?v=MEc9jBx5M14" rel="noopener">Watch on YouTube</a></p>
+
+</div>
 
 <div class="film-clip">
 

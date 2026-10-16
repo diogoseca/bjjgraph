@@ -795,6 +795,13 @@
         "front": true
       },
       {
+        "id": "qq1LScm50Ow",
+        "title": "Short Arm Drag to Crucifix Armlock by John Gutta",
+        "channel": "BJJ Fanatics",
+        "duration": 151,
+        "vertical": false
+      },
+      {
         "id": "nkAYVo9sMGE",
         "title": "Crucifix Setup and Armbar Submission Nogi",
         "channel": "Revolution BJJ",
@@ -1134,7 +1141,16 @@
         "description": "Live situational sparring starting from crucifix position. Defender chains all defensive tools: early grip defense, arm extraction attempts during transitions, hitchhiker as last resort. Attacker provides full competition-level intensity. Defender focuses on decision-making about which defense to apply at each stage and when to accept positional regression versus continuing defense. 3-minute rounds with full reset between attempts."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "oLccpWCMh70",
+        "title": "Underused armbar escape direction",
+        "channel": "Defensive BJJ",
+        "duration": 585,
+        "vertical": false,
+        "front": true
+      }
+    ]
   },
   "variations_and_setups": [
     {

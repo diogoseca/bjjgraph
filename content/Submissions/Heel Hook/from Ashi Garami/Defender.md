@@ -157,6 +157,37 @@ description: "Defend against the heel hook from Ashi Garami with early recogniti
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Heel Hook from Ashi Garami (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "escaping outside ashi heel hook to rolling back take, bjj flow grappling drills\u2026",
+      "description": "Heel Hook from Ashi Garami (Defender) film study: escaping outside ashi heel hook to rolling back take, bjj flow grappling drills\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/KmGhb2j68Ng/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/KmGhb2j68Ng",
+      "url": "https://www.youtube.com/watch?v=KmGhb2j68Ng",
+      "duration": "PT33S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Double outside ashi heel hook escape / running man escape",
+      "description": "Heel Hook from Ashi Garami (Defender) film study: Double outside ashi heel hook escape / running man escape.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2RLgyzWN71Y/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2RLgyzWN71Y",
+      "url": "https://www.youtube.com/watch?v=2RLgyzWN71Y",
+      "duration": "PT54S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -173,6 +204,32 @@ Defending the heel hook from Ashi Garami demands early recognition and immediate
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Heel Hook from Ashi Garami (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=KmGhb2j68Ng)
+
+<p class="clip-credit"><strong>escaping outside ashi heel hook to rolling back take, bjj flow grappling drills…</strong> · 0:33 · <a href="https://www.youtube.com/watch?v=KmGhb2j68Ng" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2RLgyzWN71Y)
+
+<p class="clip-credit"><strong>Double outside ashi heel hook escape / running man escape</strong> · 0:54 · <a href="https://www.youtube.com/watch?v=2RLgyzWN71Y" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

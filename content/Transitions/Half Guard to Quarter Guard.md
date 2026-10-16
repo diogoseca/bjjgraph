@@ -36,27 +36,6 @@ description: "Master the Transition to Quarter Guard from Half Guard Top. Learn 
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Half Guard to Quarter Guard \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "How to pass Half Guard Knee Shield with an inside Knee Cut - JiuJitsu Class\u2026",
-      "description": "Half Guard to Quarter Guard film study: How to pass Half Guard Knee Shield with an inside Knee Cut - JiuJitsu Class\u2026.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/yj_6xcl2emA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/yj_6xcl2emA",
-      "url": "https://www.youtube.com/watch?v=yj_6xcl2emA",
-      "duration": "PT70S"
-    }
-  ]
-}
-</script>
-
 
 
 <script type="application/ld+json">
@@ -95,24 +74,6 @@ This transition appears constantly in high-level competition because half guard 
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Half Guard to Quarter Guard in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=yj_6xcl2emA)
-
-<p class="clip-credit"><strong>How to pass Half Guard Knee Shield with an inside Knee Cut - JiuJitsu Class…</strong> · 1:10 · <a href="https://www.youtube.com/watch?v=yj_6xcl2emA" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="possible-outcomes" class="content-section">

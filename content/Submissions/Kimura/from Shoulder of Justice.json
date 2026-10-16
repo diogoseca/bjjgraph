@@ -492,7 +492,22 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "awNPX8E6bf4",
+        "title": "Kimura from side control",
+        "channel": "Alavanca",
+        "duration": 16,
+        "vertical": false
+      },
+      {
+        "id": "qbKtgYa_wzk",
+        "title": "1 Minute Jiu Jitsu Hack - Controlling the Elbow in the Kimura",
+        "channel": "Brandon Mccaghren",
+        "duration": 68,
+        "vertical": false
+      }
+    ]
   },
   "defender": {
     "name": "from Shoulder of Justice Defender",
@@ -676,6 +691,22 @@
         "description": "Positional rounds starting from Shoulder of Justice bottom against unrestricted top player. Defender must survive all submission attempts including but not limited to the kimura. Track success rate of prevention versus late-stage escapes and work to increase the ratio of early prevention through arm discipline."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "uRn3DRICpeY",
+        "title": "Late Kimura Defense from Bottom Side Control",
+        "channel": "Fox Den Martial Arts",
+        "duration": 100,
+        "vertical": false,
+        "front": true
+      },
+      {
+        "id": "MM9rddEgJ58",
+        "title": "KIMURA DEFENSE 101 From bottom side control! #graciewestchase #kimuradefense…",
+        "channel": "Gracie Westchase ",
+        "duration": 155,
+        "vertical": false
+      }
+    ]
   }
 }

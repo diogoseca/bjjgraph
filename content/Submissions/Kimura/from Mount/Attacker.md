@@ -188,6 +188,16 @@ description: "How to execute Kimura from Mount in BJJ. Attacking perspective wit
       "embedUrl": "https://www.youtube.com/embed/Lkh8kQG8ArA",
       "url": "https://www.youtube.com/watch?v=Lkh8kQG8ArA",
       "duration": "PT66S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "S-Mount Armbar, Kimura, + Far side Armbar",
+      "description": "Kimura from Mount (Attacker) film study: S-Mount Armbar, Kimura, + Far side Armbar.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/nH4ly3vk7WI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/nH4ly3vk7WI",
+      "url": "https://www.youtube.com/watch?v=nH4ly3vk7WI",
+      "duration": "PT24S"
     }
   ]
 }
@@ -219,6 +229,14 @@ The Kimura from Mount represents one of the highest-percentage shoulder lock att
 ![](https://www.youtube.com/watch?v=Lkh8kQG8ArA)
 
 <p class="clip-credit"><strong>Kimura from mount. Kids BJJ April 15</strong> · 1:06 · <a href="https://www.youtube.com/watch?v=Lkh8kQG8ArA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=nH4ly3vk7WI)
+
+<p class="clip-credit"><strong>S-Mount Armbar, Kimura, + Far side Armbar</strong> · 0:24 · <a href="https://www.youtube.com/watch?v=nH4ly3vk7WI" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

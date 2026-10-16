@@ -152,6 +152,37 @@ description: "Defend and escape the omoplata from De La Riva Guard. Recognition 
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Omoplata from De La Riva Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Omoplata defense I learned from Delariva himself",
+      "description": "Omoplata from De La Riva Guard (Defender) film study: Omoplata defense I learned from Delariva himself.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/mC8Vc-n3twQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/mC8Vc-n3twQ",
+      "url": "https://www.youtube.com/watch?v=mC8Vc-n3twQ",
+      "duration": "PT24S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Ursinho Technique Breakdown - [Omoplata Defense]",
+      "description": "Omoplata from De La Riva Guard (Defender) film study: Ursinho Technique Breakdown - [Omoplata Defense].",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WpdIBfxbUbo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/WpdIBfxbUbo",
+      "url": "https://www.youtube.com/watch?v=WpdIBfxbUbo",
+      "duration": "PT160S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -165,6 +196,32 @@ Defending the omoplata from De La Riva Guard starts with recognizing the leg swi
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Omoplata from De La Riva Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=mC8Vc-n3twQ)
+
+<p class="clip-credit"><strong>Omoplata defense I learned from Delariva himself</strong> · 0:24 · <a href="https://www.youtube.com/watch?v=mC8Vc-n3twQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=WpdIBfxbUbo)
+
+<p class="clip-credit"><strong>Ursinho Technique Breakdown - [Omoplata Defense]</strong> · 2:40 · <a href="https://www.youtube.com/watch?v=WpdIBfxbUbo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

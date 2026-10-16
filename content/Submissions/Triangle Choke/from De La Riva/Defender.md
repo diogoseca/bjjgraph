@@ -152,6 +152,27 @@ description: "How to defend against Triangle from De La Riva in BJJ. Recognition
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Triangle Choke from De La Riva (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Triangle defense/escape",
+      "description": "Triangle Choke from De La Riva (Defender) film study: Triangle defense/escape.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DLmrzSs1hWI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DLmrzSs1hWI",
+      "url": "https://www.youtube.com/watch?v=DLmrzSs1hWI",
+      "duration": "PT23S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -165,6 +186,24 @@ Defending the Triangle from De La Riva requires understanding the attack's progr
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Triangle Choke from De La Riva (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=DLmrzSs1hWI)
+
+<p class="clip-credit"><strong>Triangle defense/escape</strong> · 0:23 · <a href="https://www.youtube.com/watch?v=DLmrzSs1hWI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

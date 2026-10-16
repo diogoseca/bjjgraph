@@ -458,6 +458,13 @@
         "duration": 133,
         "vertical": false,
         "front": true
+      },
+      {
+        "id": "Sb-atqD_TqQ",
+        "title": "Short Choke from Back Position (Jiu Jitsu)",
+        "channel": "Cosens MMA LLC",
+        "duration": 54,
+        "vertical": false
       }
     ]
   },
@@ -647,6 +654,21 @@
         "description": "Defend against full-speed back attacks from an experienced training partner. Focus on surviving for defined time periods — start with 30 seconds and build to 2 minutes. Develop awareness of when to continue defending versus when to tap. Build composure under maximum pressure."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "ylLO80PM4zg",
+        "title": "Rear naked choke escape",
+        "channel": "Renato Migliaccio",
+        "duration": 16,
+        "vertical": false
+      },
+      {
+        "id": "L1KeviYu1FQ",
+        "title": "Back Escape + RNC Defence | Arete BJJ Malta",
+        "channel": "Arete Brazilian Jiu Jitsu Malta",
+        "duration": 25,
+        "vertical": false
+      }
+    ]
   }
 }

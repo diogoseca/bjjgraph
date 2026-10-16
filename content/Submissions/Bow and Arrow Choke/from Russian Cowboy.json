@@ -403,7 +403,16 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "U16fxDEJS6s",
+        "title": "Armlock to Loop Choke/Bow and Arrow Choke Combo",
+        "channel": "South Jersey Brazilian Jiu Jitsu",
+        "duration": 63,
+        "vertical": false,
+        "front": true
+      }
+    ]
   },
   "defender": {
     "name": "from Russian Cowboy Defender",
@@ -568,6 +577,15 @@
         "description": "Positional sparring from Russian Cowboy bottom against full-speed Bow and Arrow attempts. Integrate all three defensive phases. Track which phase your defense succeeds in and work to push your defensive engagement earlier in the timeline with each round."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "fEWUEDI_ng4",
+        "title": "Bow and arrow choke escape",
+        "channel": "Revolution BJJ Ashland",
+        "duration": 73,
+        "vertical": false,
+        "front": true
+      }
+    ]
   }
 }

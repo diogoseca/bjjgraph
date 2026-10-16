@@ -459,6 +459,27 @@
         "duration": 42,
         "vertical": false,
         "front": true
+      },
+      {
+        "id": "PE61YGNeYzU",
+        "title": "Special technique to start finishing your arm-bars from mount! | SANABUL #shorts",
+        "channel": "Sanabul",
+        "duration": 82,
+        "vertical": false
+      },
+      {
+        "id": "55Ux8giP_PY",
+        "title": "BJJ Techniques: Wrist Control to Arm Bar by Gordon Ryan",
+        "channel": "BJJ Fanatics",
+        "duration": 226,
+        "vertical": false
+      },
+      {
+        "id": "92INP2YJIMg",
+        "title": "Anatomy of the Arm Bar | #shorts",
+        "channel": "Tim Trevail",
+        "duration": 81,
+        "vertical": false
       }
     ]
   },
@@ -648,6 +669,29 @@
         "description": "Positional sparring from Technical Mount bottom against full-resistance armbar attacks. Goal is either escape or survival for a specified time period. Partner attacks with competition intensity while you apply all defensive skills. Track success rate over multiple rounds and identify which defensive phase needs improvement."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "AfDEN3uK3W0",
+        "title": "The NoGi Minute: Low effort armbar escape via foot capture",
+        "channel": "Patrick Donabedian BJJ",
+        "duration": 55,
+        "vertical": false,
+        "front": true
+      },
+      {
+        "id": "kNdKfUdgO4I",
+        "title": "THIS is my favorite armbar escape! #jiujitsu #jiujitsutips",
+        "channel": "Matt Arroyo Jiu Jitsu ",
+        "duration": 92,
+        "vertical": false
+      },
+      {
+        "id": "sDdqvh_1kbA",
+        "title": "Armbar Escape: RNC",
+        "channel": "ZombieProofBJJ",
+        "duration": 62,
+        "vertical": false
+      }
+    ]
   }
 }

@@ -36,6 +36,37 @@ description: "Master the Monoplata from Guard in BJJ. Complete guide with safety
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Monoplata from Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "WazaTube: Monoplata from Triangle Choke",
+      "description": "Monoplata from Guard film study: WazaTube: Monoplata from Triangle Choke.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/u9fF8OCRDks/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/u9fF8OCRDks",
+      "url": "https://www.youtube.com/watch?v=u9fF8OCRDks",
+      "duration": "PT110S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "MONOPLATA \"TRAP SYSTEM\" for BJJ",
+      "description": "Monoplata from Guard film study: MONOPLATA \"TRAP SYSTEM\" for BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5J6Gtv1hAMo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5J6Gtv1hAMo",
+      "url": "https://www.youtube.com/watch?v=5J6Gtv1hAMo",
+      "duration": "PT160S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -79,6 +110,32 @@ Emerging from the rubber guard and omoplata systems of modern no-gi grappling, t
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Monoplata from Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=u9fF8OCRDks)
+
+<p class="clip-credit"><strong>WazaTube: Monoplata from Triangle Choke</strong> · 1:50 · <a href="https://www.youtube.com/watch?v=u9fF8OCRDks" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=5J6Gtv1hAMo)
+
+<p class="clip-credit"><strong>MONOPLATA &#34;TRAP SYSTEM&#34; for BJJ</strong> · 2:40 · <a href="https://www.youtube.com/watch?v=5J6Gtv1hAMo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="outcomes" class="content-section">

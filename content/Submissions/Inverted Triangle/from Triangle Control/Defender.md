@@ -162,6 +162,16 @@ description: "Learn to defend and escape the Inverted Triangle from Triangle Con
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "Triangle choke from Guard \"Posture Up Escape",
+      "description": "Inverted Triangle from Triangle Control (Defender) film study: Triangle choke from Guard \"Posture Up Escape.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dJOw0ZEyXXc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dJOw0ZEyXXc",
+      "url": "https://www.youtube.com/watch?v=dJOw0ZEyXXc",
+      "duration": "PT72S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
       "name": "Relson Gracie Jiu-Jitsu Team HK: Inverted Triangle Choke Escape",
       "description": "Inverted Triangle from Triangle Control (Defender) film study: Relson Gracie Jiu-Jitsu Team HK: Inverted Triangle Choke Escape.",
       "thumbnailUrl": "https://i.ytimg.com/vi/AptNwQLD_EQ/hqdefault.jpg",
@@ -171,7 +181,7 @@ description: "Learn to defend and escape the Inverted Triangle from Triangle Con
     },
     {
       "@type": "VideoObject",
-      "position": 2,
+      "position": 3,
       "name": "Counter to the Inverted Triangle",
       "description": "Inverted Triangle from Triangle Control (Defender) film study: Counter to the Inverted Triangle.",
       "thumbnailUrl": "https://i.ytimg.com/vi/EaZA0UUXIq8/hqdefault.jpg",
@@ -203,6 +213,14 @@ Defending the inverted triangle from triangle control requires recognizing the t
 
 <p class="section-subtitle">Watch Inverted Triangle from Triangle Control (Defender) in action — curated instructionals</p>
 
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dJOw0ZEyXXc)
+
+<p class="clip-credit"><strong>Triangle choke from Guard &#34;Posture Up Escape</strong> · 1:12 · <a href="https://www.youtube.com/watch?v=dJOw0ZEyXXc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
 
 <div class="film-clip">
 

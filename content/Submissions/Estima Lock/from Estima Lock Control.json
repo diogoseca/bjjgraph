@@ -413,7 +413,29 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "Ao0IatSHEi0",
+        "title": "Estima Lock",
+        "channel": "Sensei Leandro Dos Santos Flores",
+        "duration": 27,
+        "vertical": false
+      },
+      {
+        "id": "_6BC8d5B5Hs",
+        "title": "Estima Lock",
+        "channel": "bjjtaro",
+        "duration": 31,
+        "vertical": false
+      },
+      {
+        "id": "-RKlONkjanA",
+        "title": "Yao Nkromah ESTIMA LOCK finish #4",
+        "channel": "Yao TheTruth",
+        "duration": 50,
+        "vertical": false
+      }
+    ]
   },
   "defender": {
     "name": "from Estima Lock Defender",

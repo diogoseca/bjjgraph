@@ -47,12 +47,12 @@ description: "Master Uchi Mata in BJJ. Complete standing throw from Clinch to Si
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Over under uchi mata counter",
-      "description": "Uchi Mata film study: Over under uchi mata counter.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/AJZJhBoDOYA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/AJZJhBoDOYA",
-      "url": "https://www.youtube.com/watch?v=AJZJhBoDOYA",
-      "duration": "PT12S"
+      "name": "How to do a deep step uchimata Right vs Left by Sam King",
+      "description": "Uchi Mata film study: How to do a deep step uchimata Right vs Left by Sam King.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/mJnp6GdW8Ew/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/mJnp6GdW8Ew",
+      "url": "https://www.youtube.com/watch?v=mJnp6GdW8Ew",
+      "duration": "PT104S"
     }
   ]
 }
@@ -105,9 +105,9 @@ The Uchi Mata (inner thigh throw) is one of judo's most powerful and versatile t
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=AJZJhBoDOYA)
+![](https://www.youtube.com/watch?v=mJnp6GdW8Ew)
 
-<p class="clip-credit"><strong>Over under uchi mata counter</strong> · 0:12 · <a href="https://www.youtube.com/watch?v=AJZJhBoDOYA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How to do a deep step uchimata Right vs Left by Sam King</strong> · 1:44 · <a href="https://www.youtube.com/watch?v=mJnp6GdW8Ew" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

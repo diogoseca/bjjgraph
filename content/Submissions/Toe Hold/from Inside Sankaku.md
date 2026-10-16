@@ -52,6 +52,16 @@ description: "Master the toe hold from Inside Sankaku. Learn grip mechanics, rot
       "embedUrl": "https://www.youtube.com/embed/srg8HLCGzHU",
       "url": "https://www.youtube.com/watch?v=srg8HLCGzHU",
       "duration": "PT42S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Imanari roll to inside sankaku and ashi garami, toe hold and heel hook finishes",
+      "description": "Toe Hold from Inside Sankaku film study: Imanari roll to inside sankaku and ashi garami, toe hold and heel hook finishes.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lyF2GxQrLoQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lyF2GxQrLoQ",
+      "url": "https://www.youtube.com/watch?v=lyF2GxQrLoQ",
+      "duration": "PT106S"
     }
   ]
 }
@@ -117,6 +127,14 @@ Strategically, the toe hold from Inside Sankaku functions as part of a dilemma s
 ![](https://www.youtube.com/watch?v=srg8HLCGzHU)
 
 <p class="clip-credit"><strong>411 to toe hold</strong> · 0:42 · <a href="https://www.youtube.com/watch?v=srg8HLCGzHU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lyF2GxQrLoQ)
+
+<p class="clip-credit"><strong>Imanari roll to inside sankaku and ashi garami, toe hold and heel hook finishes</strong> · 1:46 · <a href="https://www.youtube.com/watch?v=lyF2GxQrLoQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

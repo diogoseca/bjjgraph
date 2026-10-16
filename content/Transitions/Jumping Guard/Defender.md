@@ -142,6 +142,27 @@ description: "How to defend against Jumping Guard in BJJ. Recognition cues, defe
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Jumping Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How To Block The Guard Jump in BJJ and Protect Your Knees",
+      "description": "Jumping Guard (Defender) film study: How To Block The Guard Jump in BJJ and Protect Your Knees.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/BSmG5ty4tHQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/BSmG5ty4tHQ",
+      "url": "https://www.youtube.com/watch?v=BSmG5ty4tHQ",
+      "duration": "PT267S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -154,6 +175,24 @@ Defending against Jumping Guard requires early recognition, proper stance mainte
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Jumping Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=BSmG5ty4tHQ)
+
+<p class="clip-credit"><strong>How To Block The Guard Jump in BJJ and Protect Your Knees</strong> · 4:27 · <a href="https://www.youtube.com/watch?v=BSmG5ty4tHQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

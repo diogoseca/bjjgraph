@@ -458,6 +458,13 @@
         "duration": 123,
         "vertical": false,
         "front": true
+      },
+      {
+        "id": "UuluKZKDt8w",
+        "title": "Lachlan Giles | HEEL HOOKS",
+        "channel": "Jiu Jitsu Moves",
+        "duration": 64,
+        "vertical": false
       }
     ]
   },
@@ -646,6 +653,22 @@
         "description": "Start from 50-50 bottom against trusted training partners with heel hook experience. The attacker uses full technique at controlled speed while you apply the complete defensive framework. Debrief after each repetition to identify defensive gaps and refine timing."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "pGfZotHVstE",
+        "title": "Heel hook escape from 50/50 to twister lock",
+        "channel": "Caio Terra Academy - Sterling | Piranha BJJ & MMA",
+        "duration": 59,
+        "vertical": false,
+        "front": true
+      },
+      {
+        "id": "_hyZqLRwsWE",
+        "title": "Counter the 50/50 Heel hook with a wristlock",
+        "channel": "Whangarei BJJ",
+        "duration": 61,
+        "vertical": false
+      }
+    ]
   }
 }

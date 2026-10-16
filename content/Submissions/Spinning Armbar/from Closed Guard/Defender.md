@@ -152,6 +152,37 @@ description: "How to defend against the Spinning Armbar from Closed Guard in BJJ
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Spinning Armbar from Closed Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "THIS is my favorite armbar escape! #jiujitsu #jiujitsutips",
+      "description": "Spinning Armbar from Closed Guard (Defender) film study: THIS is my favorite armbar escape! #jiujitsu #jiujitsutips.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kNdKfUdgO4I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kNdKfUdgO4I",
+      "url": "https://www.youtube.com/watch?v=kNdKfUdgO4I",
+      "duration": "PT92S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "My Best Armbar Escape in BJJ When They\u2019re Close To Finishing",
+      "description": "Spinning Armbar from Closed Guard (Defender) film study: My Best Armbar Escape in BJJ When They\u2019re Close To Finishing.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_ntIcP_zf4s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_ntIcP_zf4s",
+      "url": "https://www.youtube.com/watch?v=_ntIcP_zf4s",
+      "duration": "PT244S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -169,6 +200,32 @@ Defensive strategy follows a time-based hierarchy: prevent the initial arm isola
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Spinning Armbar from Closed Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kNdKfUdgO4I)
+
+<p class="clip-credit"><strong>THIS is my favorite armbar escape! #jiujitsu #jiujitsutips</strong> · 1:32 · <a href="https://www.youtube.com/watch?v=kNdKfUdgO4I" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_ntIcP_zf4s)
+
+<p class="clip-credit"><strong>My Best Armbar Escape in BJJ When They’re Close To Finishing</strong> · 4:04 · <a href="https://www.youtube.com/watch?v=_ntIcP_zf4s" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

@@ -1029,5 +1029,22 @@
       }
     }
   ],
-  "clips": []
+  "clips": [
+    {
+      "id": "pYnp2_gJIoM",
+      "title": "Ashi Garami 101: Basic Mechanics and Drills for Leglocks (No Gi Jiu-Jitsu)",
+      "channel": "Brian Glick",
+      "duration": 330,
+      "vertical": false,
+      "half": "both"
+    },
+    {
+      "id": "hhOOwMNfV-0",
+      "title": "Ashi Garami Explained: The Control System Behind Modern No-Gi",
+      "channel": "Grappling Theory",
+      "duration": 606,
+      "vertical": false,
+      "half": "both"
+    }
+  ]
 }

@@ -446,7 +446,29 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "i2l9Gx72DU0",
+        "title": "Tap everyone with this inverted triangle #bjj #brazillianjiujitsu #triangle",
+        "channel": "BJJ Lotus Club",
+        "duration": 25,
+        "vertical": false
+      },
+      {
+        "id": "xAW3spYg9vE",
+        "title": "Inverted Triangle",
+        "channel": "Bristol Jiu Jitsu",
+        "duration": 51,
+        "vertical": false
+      },
+      {
+        "id": "RCzCmK7AeVU",
+        "title": "Inverted triangle choke finish",
+        "channel": "MMAYHEM",
+        "duration": 60,
+        "vertical": false
+      }
+    ]
   },
   "defender": {
     "name": "Inverted Triangle from Triangle Control Defender",
@@ -628,6 +650,14 @@
       }
     ],
     "clips": [
+      {
+        "id": "dJOw0ZEyXXc",
+        "title": "Triangle choke from Guard \"Posture Up Escape",
+        "channel": "Cosens MMA LLC",
+        "duration": 72,
+        "vertical": false,
+        "front": true
+      },
       {
         "id": "AptNwQLD_EQ",
         "title": "Relson Gracie Jiu-Jitsu Team HK: Inverted Triangle Choke Escape",

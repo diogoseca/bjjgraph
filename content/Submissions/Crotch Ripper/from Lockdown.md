@@ -36,6 +36,37 @@ description: "Master the Crotch Ripper leg lock in BJJ. Groin compression submis
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Crotch Ripper from Lockdown \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Crotch Ripper",
+      "description": "Crotch Ripper from Lockdown film study: Crotch Ripper.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Bsj_vOLnNx4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Bsj_vOLnNx4",
+      "url": "https://www.youtube.com/watch?v=Bsj_vOLnNx4",
+      "duration": "PT59S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "3 Crotch Ripper Variations from Cross Body Ride",
+      "description": "Crotch Ripper from Lockdown film study: 3 Crotch Ripper Variations from Cross Body Ride.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/n5BLxIJKuHs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/n5BLxIJKuHs",
+      "url": "https://www.youtube.com/watch?v=n5BLxIJKuHs",
+      "duration": "PT61S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -81,6 +112,32 @@ The Crotch Ripper represents the offensive potential of the lockdown system, tra
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Crotch Ripper from Lockdown in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Bsj_vOLnNx4)
+
+<p class="clip-credit"><strong>Crotch Ripper</strong> · 0:59 · <a href="https://www.youtube.com/watch?v=Bsj_vOLnNx4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=n5BLxIJKuHs)
+
+<p class="clip-credit"><strong>3 Crotch Ripper Variations from Cross Body Ride</strong> · 1:01 · <a href="https://www.youtube.com/watch?v=n5BLxIJKuHs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="outcomes" class="content-section">

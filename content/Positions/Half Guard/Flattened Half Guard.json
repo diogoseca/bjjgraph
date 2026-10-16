@@ -958,5 +958,14 @@
       }
     }
   ],
-  "clips": []
+  "clips": [
+    {
+      "id": "NWie1oi3JSg",
+      "title": "How To Recover When You Get Flat In Half Guard",
+      "channel": "Inverted Gear",
+      "duration": 273,
+      "vertical": false,
+      "half": "bottom"
+    }
+  ]
 }

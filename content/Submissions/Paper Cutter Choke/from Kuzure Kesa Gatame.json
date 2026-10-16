@@ -407,7 +407,29 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "AKfEIInO9Tk",
+        "title": "kasa Gatame Paper Cuter Choke",
+        "channel": "AMAGFightTeam",
+        "duration": 38,
+        "vertical": false
+      },
+      {
+        "id": "vhFpxC1vCag",
+        "title": "Paper Cutter Choke with Lapel from Side Control",
+        "channel": "Robert Hugus BJJ Videos",
+        "duration": 42,
+        "vertical": false
+      },
+      {
+        "id": "5z7hF2YJxeo",
+        "title": "Kesa to paper cutter choke",
+        "channel": "global mma",
+        "duration": 112,
+        "vertical": false
+      }
+    ]
   },
   "defender": {
     "name": "from Kuzure Kesa Gatame Defender",
@@ -580,6 +602,21 @@
         "description": "Partner attacks with full intent and resistance. Combine recognition, early blocking, grip stripping, and timed escapes into a complete defensive chain. Emphasize knowing when to tap versus when to continue defending. Build realistic defensive confidence."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "JSQ2Hc6KQbA",
+        "title": "Paper Cutter Choke Escape",
+        "channel": "Beto Vilanova",
+        "duration": 155,
+        "vertical": false
+      },
+      {
+        "id": "iaHCShqMFvs",
+        "title": "Paper Cutter Choke Escape",
+        "channel": "Vilanova Brazilian Jiu Jitsu",
+        "duration": 228,
+        "vertical": false
+      }
+    ]
   }
 }

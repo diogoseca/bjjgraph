@@ -46,6 +46,16 @@ description: "Master the Anaconda Choke in BJJ. Complete guide covering setup fr
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "Fix your Anaconda Chokes (Quick)",
+      "description": "Anaconda Choke from Anaconda Control film study: Fix your Anaconda Chokes (Quick).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/1e2GPOUYR-o/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/1e2GPOUYR-o",
+      "url": "https://www.youtube.com/watch?v=1e2GPOUYR-o",
+      "duration": "PT41S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
       "name": "Anaconda Choke BJJ",
       "description": "Anaconda Choke from Anaconda Control film study: Anaconda Choke BJJ.",
       "thumbnailUrl": "https://i.ytimg.com/vi/RbkOnRb2lvA/hqdefault.jpg",
@@ -55,23 +65,13 @@ description: "Master the Anaconda Choke in BJJ. Complete guide covering setup fr
     },
     {
       "@type": "VideoObject",
-      "position": 2,
+      "position": 3,
       "name": "How to do an Anaconda Choke - 10th Planet Jiu Jitsu Decatur",
       "description": "Anaconda Choke from Anaconda Control film study: How to do an Anaconda Choke - 10th Planet Jiu Jitsu Decatur.",
       "thumbnailUrl": "https://i.ytimg.com/vi/EbhWFWp-B6s/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/EbhWFWp-B6s",
       "url": "https://www.youtube.com/watch?v=EbhWFWp-B6s",
       "duration": "PT81S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Marcelo Garcia anaconda choke finish",
-      "description": "Anaconda Choke from Anaconda Control film study: Marcelo Garcia anaconda choke finish.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/DHYmDsncdS8/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/DHYmDsncdS8",
-      "url": "https://www.youtube.com/watch?v=DHYmDsncdS8",
-      "duration": "PT126S"
     }
   ]
 }
@@ -134,6 +134,14 @@ The technique has become a staple in modern BJJ competition, with the Anaconda-t
 
 <div class="film-clip">
 
+![](https://www.youtube.com/watch?v=1e2GPOUYR-o)
+
+<p class="clip-credit"><strong>Fix your Anaconda Chokes (Quick)</strong> · 0:41 · <a href="https://www.youtube.com/watch?v=1e2GPOUYR-o" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
 ![](https://www.youtube.com/watch?v=RbkOnRb2lvA)
 
 <p class="clip-credit"><strong>Anaconda Choke BJJ</strong> · 0:48 · <a href="https://www.youtube.com/watch?v=RbkOnRb2lvA" rel="noopener">Watch on YouTube</a></p>
@@ -145,14 +153,6 @@ The technique has become a staple in modern BJJ competition, with the Anaconda-t
 ![](https://www.youtube.com/watch?v=EbhWFWp-B6s)
 
 <p class="clip-credit"><strong>How to do an Anaconda Choke - 10th Planet Jiu Jitsu Decatur</strong> · 1:21 · <a href="https://www.youtube.com/watch?v=EbhWFWp-B6s" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=DHYmDsncdS8)
-
-<p class="clip-credit"><strong>Marcelo Garcia anaconda choke finish</strong> · 2:06 · <a href="https://www.youtube.com/watch?v=DHYmDsncdS8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

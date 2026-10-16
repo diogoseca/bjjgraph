@@ -146,6 +146,37 @@ description: "Defend the Ezekiel Choke from closed guard bottom. Recognize sleev
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Ezekiel Choke from Closed Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Ezekiel Choke Defense - Wrist Lock",
+      "description": "Ezekiel Choke from Closed Guard (Defender) film study: Ezekiel Choke Defense - Wrist Lock.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9J9JTB17-Sk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9J9JTB17-Sk",
+      "url": "https://www.youtube.com/watch?v=9J9JTB17-Sk",
+      "duration": "PT135S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Defense to the Ezekiel Choke",
+      "description": "Ezekiel Choke from Closed Guard (Defender) film study: Defense to the Ezekiel Choke.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/AaZPuF7ppY8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/AaZPuF7ppY8",
+      "url": "https://www.youtube.com/watch?v=AaZPuF7ppY8",
+      "duration": "PT176S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -159,6 +190,32 @@ Defending the Ezekiel Choke from closed guard bottom requires early recognition 
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Ezekiel Choke from Closed Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=9J9JTB17-Sk)
+
+<p class="clip-credit"><strong>Ezekiel Choke Defense - Wrist Lock</strong> · 2:15 · <a href="https://www.youtube.com/watch?v=9J9JTB17-Sk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=AaZPuF7ppY8)
+
+<p class="clip-credit"><strong>Defense to the Ezekiel Choke</strong> · 2:56 · <a href="https://www.youtube.com/watch?v=AaZPuF7ppY8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

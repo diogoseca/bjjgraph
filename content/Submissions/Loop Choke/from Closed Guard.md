@@ -62,6 +62,16 @@ description: "Master the Loop Choke from Closed Guard in BJJ. Step-by-step guide
       "embedUrl": "https://www.youtube.com/embed/7MTvWfHIHtc",
       "url": "https://www.youtube.com/watch?v=7MTvWfHIHtc",
       "duration": "PT88S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Alexandre Vieira Shows His Famous Loop Choke",
+      "description": "Loop Choke from Closed Guard film study: Alexandre Vieira Shows His Famous Loop Choke.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ruk0kdlr-Qw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ruk0kdlr-Qw",
+      "url": "https://www.youtube.com/watch?v=ruk0kdlr-Qw",
+      "duration": "PT85S"
     }
   ]
 }
@@ -135,6 +145,14 @@ From a strategic standpoint, the Loop Choke pairs naturally with other closed gu
 ![](https://www.youtube.com/watch?v=7MTvWfHIHtc)
 
 <p class="clip-credit"><strong>Loop Choke from Closed Guard</strong> · 1:28 · <a href="https://www.youtube.com/watch?v=7MTvWfHIHtc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ruk0kdlr-Qw)
+
+<p class="clip-credit"><strong>Alexandre Vieira Shows His Famous Loop Choke</strong> · 1:25 · <a href="https://www.youtube.com/watch?v=ruk0kdlr-Qw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

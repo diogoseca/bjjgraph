@@ -142,6 +142,37 @@ description: "How to defend against Arm Drag to Back in BJJ. Recognition cues, d
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Arm Drag to Back (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "The BEST Way To Defend The Arm Drag in Jiu Jitsu Based On My Story With Marcelo\u2026",
+      "description": "Arm Drag to Back (Defender) film study: The BEST Way To Defend The Arm Drag in Jiu Jitsu Based On My Story With Marcelo\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/bmCjXADzgo4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/bmCjXADzgo4",
+      "url": "https://www.youtube.com/watch?v=bmCjXADzgo4",
+      "duration": "PT102S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "4 Arm Drag Counters Against Seated Guard (No Gi BJJ)",
+      "description": "Arm Drag to Back (Defender) film study: 4 Arm Drag Counters Against Seated Guard (No Gi BJJ).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6bocwKQC8Oo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6bocwKQC8Oo",
+      "url": "https://www.youtube.com/watch?v=6bocwKQC8Oo",
+      "duration": "PT260S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -154,6 +185,32 @@ Defending the arm drag to back requires understanding the attacker's mechanical 
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Arm Drag to Back (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=bmCjXADzgo4)
+
+<p class="clip-credit"><strong>The BEST Way To Defend The Arm Drag in Jiu Jitsu Based On My Story With Marcelo…</strong> · 1:42 · <a href="https://www.youtube.com/watch?v=bmCjXADzgo4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=6bocwKQC8Oo)
+
+<p class="clip-credit"><strong>4 Arm Drag Counters Against Seated Guard (No Gi BJJ)</strong> · 4:20 · <a href="https://www.youtube.com/watch?v=6bocwKQC8Oo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

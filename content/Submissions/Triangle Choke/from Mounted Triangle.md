@@ -46,12 +46,22 @@ description: "Master the triangle choke from mounted triangle position. Learn fi
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Escaping Mounted And Front Triangle(intheclassroom.nickortizjiujitsu.com)",
-      "description": "Triangle Choke from Mounted Triangle film study: Escaping Mounted And Front Triangle(intheclassroom.nickortizjiujitsu.com).",
-      "thumbnailUrl": "https://i.ytimg.com/vi/0Cife1Nv_9c/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/0Cife1Nv_9c",
-      "url": "https://www.youtube.com/watch?v=0Cife1Nv_9c",
-      "duration": "PT427S"
+      "name": "Escape the Mount and Punish Your Opponent with a Mounted Triangle - Brazilian\u2026",
+      "description": "Triangle Choke from Mounted Triangle film study: Escape the Mount and Punish Your Opponent with a Mounted Triangle - Brazilian\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8f6rsOtI_HU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8f6rsOtI_HU",
+      "url": "https://www.youtube.com/watch?v=8f6rsOtI_HU",
+      "duration": "PT96S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Triangle to reverse triangle and back to finish   short",
+      "description": "Triangle Choke from Mounted Triangle film study: Triangle to reverse triangle and back to finish   short.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XWR8C2xp1SU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/XWR8C2xp1SU",
+      "url": "https://www.youtube.com/watch?v=XWR8C2xp1SU",
+      "duration": "PT51S"
     }
   ]
 }
@@ -114,9 +124,17 @@ Strategically, this submission represents the culmination of a mount attack sequ
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=0Cife1Nv_9c)
+![](https://www.youtube.com/watch?v=8f6rsOtI_HU)
 
-<p class="clip-credit"><strong>Escaping Mounted And Front Triangle(intheclassroom.nickortizjiujitsu.com)</strong> · 7:07 · <a href="https://www.youtube.com/watch?v=0Cife1Nv_9c" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Escape the Mount and Punish Your Opponent with a Mounted Triangle - Brazilian…</strong> · 1:36 · <a href="https://www.youtube.com/watch?v=8f6rsOtI_HU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=XWR8C2xp1SU)
+
+<p class="clip-credit"><strong>Triangle to reverse triangle and back to finish   short</strong> · 0:51 · <a href="https://www.youtube.com/watch?v=XWR8C2xp1SU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

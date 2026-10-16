@@ -36,6 +36,37 @@ description: "Master the Kimura from Shoulder of Justice in BJJ. Complete guide 
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kimura from Shoulder of Justice \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Kimura from side control",
+      "description": "Kimura from Shoulder of Justice film study: Kimura from side control.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/awNPX8E6bf4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/awNPX8E6bf4",
+      "url": "https://www.youtube.com/watch?v=awNPX8E6bf4",
+      "duration": "PT16S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "1 Minute Jiu Jitsu Hack - Controlling the Elbow in the Kimura",
+      "description": "Kimura from Shoulder of Justice film study: 1 Minute Jiu Jitsu Hack - Controlling the Elbow in the Kimura.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/qbKtgYa_wzk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/qbKtgYa_wzk",
+      "url": "https://www.youtube.com/watch?v=qbKtgYa_wzk",
+      "duration": "PT68S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -83,6 +114,32 @@ Strategically, this submission creates a powerful dilemma: the opponent must cho
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kimura from Shoulder of Justice in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=awNPX8E6bf4)
+
+<p class="clip-credit"><strong>Kimura from side control</strong> · 0:16 · <a href="https://www.youtube.com/watch?v=awNPX8E6bf4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=qbKtgYa_wzk)
+
+<p class="clip-credit"><strong>1 Minute Jiu Jitsu Hack - Controlling the Elbow in the Kimura</strong> · 1:08 · <a href="https://www.youtube.com/watch?v=qbKtgYa_wzk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="outcomes" class="content-section">

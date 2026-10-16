@@ -160,6 +160,37 @@ description: "How to defend against Flying Armbar in BJJ. Recognition, escape pa
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Flying Armbar from Closed Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "THIS is my favorite armbar escape! #jiujitsu #jiujitsutips",
+      "description": "Flying Armbar from Closed Guard (Defender) film study: THIS is my favorite armbar escape! #jiujitsu #jiujitsutips.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kNdKfUdgO4I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kNdKfUdgO4I",
+      "url": "https://www.youtube.com/watch?v=kNdKfUdgO4I",
+      "duration": "PT92S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "How To Defeat A Juji-Gatame  By Travis Stevens",
+      "description": "Flying Armbar from Closed Guard (Defender) film study: How To Defeat A Juji-Gatame  By Travis Stevens.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/L2q__Z6hogQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/L2q__Z6hogQ",
+      "url": "https://www.youtube.com/watch?v=L2q__Z6hogQ",
+      "duration": "PT241S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -177,6 +208,32 @@ If the attacker does initiate the jump, your response depends on timing. During 
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Flying Armbar from Closed Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kNdKfUdgO4I)
+
+<p class="clip-credit"><strong>THIS is my favorite armbar escape! #jiujitsu #jiujitsutips</strong> · 1:32 · <a href="https://www.youtube.com/watch?v=kNdKfUdgO4I" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=L2q__Z6hogQ)
+
+<p class="clip-credit"><strong>How To Defeat A Juji-Gatame  By Travis Stevens</strong> · 4:01 · <a href="https://www.youtube.com/watch?v=L2q__Z6hogQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

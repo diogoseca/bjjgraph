@@ -194,6 +194,16 @@ description: "Execute the belly down armbar from turtle top. Master arm isolatio
       "embedUrl": "https://www.youtube.com/embed/UXPfzHTSCDE",
       "url": "https://www.youtube.com/watch?v=UXPfzHTSCDE",
       "duration": "PT25S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Pass to belly down armbar",
+      "description": "Belly Down Armbar from Turtle (Attacker) film study: Pass to belly down armbar.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/GGlY1B7Ys78/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/GGlY1B7Ys78",
+      "url": "https://www.youtube.com/watch?v=GGlY1B7Ys78",
+      "duration": "PT15S"
     }
   ]
 }
@@ -225,6 +235,14 @@ Attacking with the belly down armbar from turtle requires a fundamentally differ
 ![](https://www.youtube.com/watch?v=UXPfzHTSCDE)
 
 <p class="clip-credit"><strong>Belly Down Arm bar from turtle</strong> · 0:25 · <a href="https://www.youtube.com/watch?v=UXPfzHTSCDE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=GGlY1B7Ys78)
+
+<p class="clip-credit"><strong>Pass to belly down armbar</strong> · 0:15 · <a href="https://www.youtube.com/watch?v=GGlY1B7Ys78" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

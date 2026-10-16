@@ -160,6 +160,16 @@ description: "Learn to defend and escape the Bow and Arrow Choke from back contr
       "embedUrl": "https://www.youtube.com/embed/Iz0aesx6cKk",
       "url": "https://www.youtube.com/watch?v=Iz0aesx6cKk",
       "duration": "PT35S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Bow \u0026 Arrow Choke Defense Drill (simple head/shoulder detail)",
+      "description": "Bow and Arrow Choke from Back Control (Defender) film study: Bow \u0026 Arrow Choke Defense Drill (simple head/shoulder detail).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/J91GRsql-ZA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/J91GRsql-ZA",
+      "url": "https://www.youtube.com/watch?v=J91GRsql-ZA",
+      "duration": "PT114S"
     }
   ]
 }
@@ -191,6 +201,14 @@ Defending the Bow and Arrow Choke from back control requires recognizing the att
 ![](https://www.youtube.com/watch?v=Iz0aesx6cKk)
 
 <p class="clip-credit"><strong>Bow and arrow choke escape</strong> · 0:35 · <a href="https://www.youtube.com/watch?v=Iz0aesx6cKk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=J91GRsql-ZA)
+
+<p class="clip-credit"><strong>Bow &amp; Arrow Choke Defense Drill (simple head/shoulder detail)</strong> · 1:54 · <a href="https://www.youtube.com/watch?v=J91GRsql-ZA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -171,6 +171,16 @@ description: "Master Lockdown Top defense in BJJ. Strategic guide to countering 
       "embedUrl": "https://www.youtube.com/embed/3A6oRsDf3oU",
       "url": "https://www.youtube.com/watch?v=3A6oRsDf3oU",
       "duration": "PT285S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Lockdown half guard break #shorts",
+      "description": "Lockdown (Top) film study: Lockdown half guard break #shorts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-49CypLW9aM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/-49CypLW9aM",
+      "url": "https://www.youtube.com/watch?v=-49CypLW9aM",
+      "duration": "PT61S"
     }
   ]
 }
@@ -199,6 +209,14 @@ Lockdown Top represents the defensive perspective against 10th Planet's signatur
 ![](https://www.youtube.com/watch?v=3A6oRsDf3oU)
 
 <p class="clip-credit"><strong>Lockdown and Electric Chair counters and escapes for Jiu-Jitsu, MMA and…</strong> · 4:45 · <a href="https://www.youtube.com/watch?v=3A6oRsDf3oU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=-49CypLW9aM)
+
+<p class="clip-credit"><strong>Lockdown half guard break #shorts</strong> · 1:01 · <a href="https://www.youtube.com/watch?v=-49CypLW9aM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -36,6 +36,37 @@ description: "Master the Flying Armbar technique in BJJ. High-risk aerial submis
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Flying Armbar from Closed Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Mica Galvao | FLYING OVERHOOK ARMBAR",
+      "description": "Flying Armbar from Closed Guard film study: Mica Galvao | FLYING OVERHOOK ARMBAR.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3-vgPXKmuS0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3-vgPXKmuS0",
+      "url": "https://www.youtube.com/watch?v=3-vgPXKmuS0",
+      "duration": "PT14S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Flying Armbar - Using an Ese",
+      "description": "Flying Armbar from Closed Guard film study: Flying Armbar - Using an Ese.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9BHfe_ar48Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9BHfe_ar48Q",
+      "url": "https://www.youtube.com/watch?v=9BHfe_ar48Q",
+      "duration": "PT19S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -83,6 +114,32 @@ While spectacular when successful, the Flying Armbar carries significant risks i
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Flying Armbar from Closed Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=3-vgPXKmuS0)
+
+<p class="clip-credit"><strong>Mica Galvao | FLYING OVERHOOK ARMBAR</strong> · 0:14 · <a href="https://www.youtube.com/watch?v=3-vgPXKmuS0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=9BHfe_ar48Q)
+
+<p class="clip-credit"><strong>Flying Armbar - Using an Ese</strong> · 0:19 · <a href="https://www.youtube.com/watch?v=9BHfe_ar48Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="outcomes" class="content-section">

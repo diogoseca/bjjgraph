@@ -611,6 +611,22 @@
         "description": "Full positional sparring starting from Twister Control bottom. Partner attacks freely with Twister, guillotine, and other options. Practice the full defensive sequence: prevent the Twister, protect chin on turn-in, fight the guillotine grip, escape or tap. Builds complete defensive pattern recognition."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "v-CRBRea_KY",
+        "title": "BJJ Guillotine Choke Escape and Defense from Full Guard & with Takedowns",
+        "channel": "Chewjitsu",
+        "duration": 319,
+        "vertical": false,
+        "front": true
+      },
+      {
+        "id": "46LaXNe6rJo",
+        "title": "Guillotine Defence",
+        "channel": "Wim Deputter BJJ",
+        "duration": 594,
+        "vertical": false
+      }
+    ]
   }
 }

@@ -156,6 +156,16 @@ description: "How to defend against the Banana Split from the truck in BJJ. Reco
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "Duck Spladle Banana Split Escape",
+      "description": "Banana Split from Truck (Defender) film study: Duck Spladle Banana Split Escape.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/BbpHFRU7Irs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/BbpHFRU7Irs",
+      "url": "https://www.youtube.com/watch?v=BbpHFRU7Irs",
+      "duration": "PT62S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
       "name": "Banana Split and Defence",
       "description": "Banana Split from Truck (Defender) film study: Banana Split and Defence.",
       "thumbnailUrl": "https://i.ytimg.com/vi/E_4Qtm1I9T0/hqdefault.jpg",
@@ -187,6 +197,14 @@ Defending the Banana Split from the truck requires early recognition and immedia
 
 <p class="section-subtitle">Watch Banana Split from Truck (Defender) in action — curated instructionals</p>
 
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=BbpHFRU7Irs)
+
+<p class="clip-credit"><strong>Duck Spladle Banana Split Escape</strong> · 1:02 · <a href="https://www.youtube.com/watch?v=BbpHFRU7Irs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
 
 <div class="film-clip">
 

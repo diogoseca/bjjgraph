@@ -36,6 +36,37 @@ description: "Master the Americana shoulder lock from Ushiro Kesa Gatame. Comple
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Americana from Ushiro Kesa Gatame \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "This one handed Americana/keylock submission will surprise your opponents",
+      "description": "Americana from Ushiro Kesa Gatame film study: This one handed Americana/keylock submission will surprise your opponents.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/iGVWSwxKCII/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/iGVWSwxKCII",
+      "url": "https://www.youtube.com/watch?v=iGVWSwxKCII",
+      "duration": "PT141S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Inverted Americana",
+      "description": "Americana from Ushiro Kesa Gatame film study: Inverted Americana.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/uaHf3d_aCso/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/uaHf3d_aCso",
+      "url": "https://www.youtube.com/watch?v=uaHf3d_aCso",
+      "duration": "PT56S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -83,6 +114,32 @@ Strategically, this Americana integrates into a powerful submission chain from r
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Americana from Ushiro Kesa Gatame in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=iGVWSwxKCII)
+
+<p class="clip-credit"><strong>This one handed Americana/keylock submission will surprise your opponents</strong> · 2:21 · <a href="https://www.youtube.com/watch?v=iGVWSwxKCII" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=uaHf3d_aCso)
+
+<p class="clip-credit"><strong>Inverted Americana</strong> · 0:56 · <a href="https://www.youtube.com/watch?v=uaHf3d_aCso" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="outcomes" class="content-section">

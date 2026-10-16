@@ -36,6 +36,27 @@ description: "Master the Kimura shoulder lock from New York Control rubber guard
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kimura from New York Control \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Marshall Stamper ~ Meathook\u2192Chilldog\u2192Carnie/Kimura/Ultimate Kimura",
+      "description": "Kimura from New York Control film study: Marshall Stamper ~ Meathook\u2192Chilldog\u2192Carnie/Kimura/Ultimate Kimura.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Q2aYW-20B44/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Q2aYW-20B44",
+      "url": "https://www.youtube.com/watch?v=Q2aYW-20B44",
+      "duration": "PT73S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -83,6 +104,24 @@ The finishing mechanics require precise hip escape movement to create the rotati
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kimura from New York Control in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Q2aYW-20B44)
+
+<p class="clip-credit"><strong>Marshall Stamper ~ Meathook→Chilldog→Carnie/Kimura/Ultimate Kimura</strong> · 1:13 · <a href="https://www.youtube.com/watch?v=Q2aYW-20B44" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="outcomes" class="content-section">

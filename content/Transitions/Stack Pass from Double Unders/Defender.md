@@ -160,6 +160,16 @@ description: "Learn to defend the Stack Pass from Double Unders in BJJ. Recognit
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "Defense sweep from the double under pass",
+      "description": "Stack Pass from Double Unders (Defender) film study: Defense sweep from the double under pass.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/uILaTRBgpG0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/uILaTRBgpG0",
+      "url": "https://www.youtube.com/watch?v=uILaTRBgpG0",
+      "duration": "PT28S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
       "name": "Double Under Stack Pass Counter - Triangle",
       "description": "Stack Pass from Double Unders (Defender) film study: Double Under Stack Pass Counter - Triangle.",
       "thumbnailUrl": "https://i.ytimg.com/vi/1UOj60dc540/hqdefault.jpg",
@@ -169,7 +179,7 @@ description: "Learn to defend the Stack Pass from Double Unders in BJJ. Recognit
     },
     {
       "@type": "VideoObject",
-      "position": 2,
+      "position": 3,
       "name": "Very Effective Double Under Stack Defense And Counter",
       "description": "Stack Pass from Double Unders (Defender) film study: Very Effective Double Under Stack Defense And Counter.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Ad0qtay9IVQ/hqdefault.jpg",
@@ -200,6 +210,14 @@ Defending the Stack Pass from Double Unders requires immediate recognition and d
 
 <p class="section-subtitle">Watch Stack Pass from Double Unders (Defender) in action — curated instructionals</p>
 
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=uILaTRBgpG0)
+
+<p class="clip-credit"><strong>Defense sweep from the double under pass</strong> · 0:28 · <a href="https://www.youtube.com/watch?v=uILaTRBgpG0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
 
 <div class="film-clip">
 

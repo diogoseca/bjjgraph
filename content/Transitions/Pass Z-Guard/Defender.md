@@ -142,6 +142,27 @@ description: "Complete defensive guide against the Z-Guard pass. Recognition cue
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Pass Z-Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Knee Shield Guard Retention  Concepts | Cobrinha BJJ",
+      "description": "Pass Z-Guard (Defender) film study: Knee Shield Guard Retention  Concepts | Cobrinha BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aL8RfesQL5k/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aL8RfesQL5k",
+      "url": "https://www.youtube.com/watch?v=aL8RfesQL5k",
+      "duration": "PT254S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -154,6 +175,24 @@ As the defender against the Z-Guard pass, your primary objective is maintaining 
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Pass Z-Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=aL8RfesQL5k)
+
+<p class="clip-credit"><strong>Knee Shield Guard Retention  Concepts | Cobrinha BJJ</strong> · 4:14 · <a href="https://www.youtube.com/watch?v=aL8RfesQL5k" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

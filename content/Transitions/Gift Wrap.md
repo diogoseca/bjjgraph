@@ -46,12 +46,22 @@ description: "Master the Gift Wrap setup from Mount in BJJ. Complete guide to ar
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Escaping the Gift Wrap in jiu jitsu",
-      "description": "Gift Wrap film study: Escaping the Gift Wrap in jiu jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/OMzki0Uu7vA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/OMzki0Uu7vA",
-      "url": "https://www.youtube.com/watch?v=OMzki0Uu7vA",
-      "duration": "PT47S"
+      "name": "Mount To Gift Wrap To Tap: MOUNT/GIFT WRAP",
+      "description": "Gift Wrap film study: Mount To Gift Wrap To Tap: MOUNT/GIFT WRAP.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/X3yIMfhGHnk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/X3yIMfhGHnk",
+      "url": "https://www.youtube.com/watch?v=X3yIMfhGHnk",
+      "duration": "PT92S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "The Gift Wrap in 2 Minutes - No GI BJJ",
+      "description": "Gift Wrap film study: The Gift Wrap in 2 Minutes - No GI BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5bw7poxVJ1E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5bw7poxVJ1E",
+      "url": "https://www.youtube.com/watch?v=5bw7poxVJ1E",
+      "duration": "PT111S"
     }
   ]
 }
@@ -105,9 +115,17 @@ The key to successful Gift Wrap entries lies in understanding opponent reactions
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=OMzki0Uu7vA)
+![](https://www.youtube.com/watch?v=X3yIMfhGHnk)
 
-<p class="clip-credit"><strong>Escaping the Gift Wrap in jiu jitsu</strong> · 0:47 · <a href="https://www.youtube.com/watch?v=OMzki0Uu7vA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Mount To Gift Wrap To Tap: MOUNT/GIFT WRAP</strong> · 1:32 · <a href="https://www.youtube.com/watch?v=X3yIMfhGHnk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=5bw7poxVJ1E)
+
+<p class="clip-credit"><strong>The Gift Wrap in 2 Minutes - No GI BJJ</strong> · 1:51 · <a href="https://www.youtube.com/watch?v=5bw7poxVJ1E" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

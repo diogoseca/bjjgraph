@@ -52,6 +52,26 @@ description: "Master the Banana Split compression submission from the truck in B
       "embedUrl": "https://www.youtube.com/embed/AKmsVbDMo6o",
       "url": "https://www.youtube.com/watch?v=AKmsVbDMo6o",
       "duration": "PT120S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Banana Split",
+      "description": "Banana Split from Truck film study: Banana Split.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/OUDbEh7cr4k/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/OUDbEh7cr4k",
+      "url": "https://www.youtube.com/watch?v=OUDbEh7cr4k",
+      "duration": "PT57S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "No Gi Turtle Attacks   calfslicer to bananasplit to twister to armlock   short",
+      "description": "Banana Split from Truck film study: No Gi Turtle Attacks   calfslicer to bananasplit to twister to armlock   short.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/W6rQi-vPhsw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/W6rQi-vPhsw",
+      "url": "https://www.youtube.com/watch?v=W6rQi-vPhsw",
+      "duration": "PT61S"
     }
   ]
 }
@@ -117,6 +137,22 @@ The Banana Split integrates naturally into the truck attacking system alongside 
 ![](https://www.youtube.com/watch?v=AKmsVbDMo6o)
 
 <p class="clip-credit"><strong>Banana split from the truck - Learn to Grapple</strong> · 2:00 · <a href="https://www.youtube.com/watch?v=AKmsVbDMo6o" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=OUDbEh7cr4k)
+
+<p class="clip-credit"><strong>Banana Split</strong> · 0:57 · <a href="https://www.youtube.com/watch?v=OUDbEh7cr4k" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=W6rQi-vPhsw)
+
+<p class="clip-credit"><strong>No Gi Turtle Attacks   calfslicer to bananasplit to twister to armlock   short</strong> · 1:01 · <a href="https://www.youtube.com/watch?v=W6rQi-vPhsw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

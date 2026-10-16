@@ -413,7 +413,16 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "3OkCuU0B0UE",
+        "title": "BJJ drills, how to attack the back using a body triangle with x hands, straight…",
+        "channel": "Grapple Box llc",
+        "duration": 27,
+        "vertical": false,
+        "front": true
+      }
+    ]
   },
   "defender": {
     "name": "from Body Triangle Defender",

@@ -194,6 +194,16 @@ description: "How to finish the straight ankle lock from ankle lock control. Ste
       "embedUrl": "https://www.youtube.com/embed/2tEym-VSeMQ",
       "url": "https://www.youtube.com/watch?v=2tEym-VSeMQ",
       "duration": "PT52S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Straight Ankle Lock",
+      "description": "Straight Ankle Lock from Straight Ankle Lock Control (Attacker) film study: Straight Ankle Lock.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/PsyAVXfRhyY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/PsyAVXfRhyY",
+      "url": "https://www.youtube.com/watch?v=PsyAVXfRhyY",
+      "duration": "PT16S"
     }
   ]
 }
@@ -225,6 +235,14 @@ Finishing the straight ankle lock from established control requires mastering th
 ![](https://www.youtube.com/watch?v=2tEym-VSeMQ)
 
 <p class="clip-credit"><strong>Gordon Achilles Lock/Straight Ankle Lock Finishing Mechanics</strong> · 0:52 · <a href="https://www.youtube.com/watch?v=2tEym-VSeMQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=PsyAVXfRhyY)
+
+<p class="clip-credit"><strong>Straight Ankle Lock</strong> · 0:16 · <a href="https://www.youtube.com/watch?v=PsyAVXfRhyY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

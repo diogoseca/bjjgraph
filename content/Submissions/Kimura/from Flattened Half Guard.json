@@ -429,7 +429,15 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "WS4OuwGvi9Y",
+        "title": "Very Effective Kimura from Reverse Half Guard!",
+        "channel": "Kameron Ross",
+        "duration": 41,
+        "vertical": false
+      }
+    ]
   },
   "defender": {
     "name": "from Flattened Half Guard Defender",
@@ -611,6 +619,22 @@
         "description": "Three-minute rounds starting from flattened half guard with partner actively attacking the Kimura. Full resistance both directions. Track survival rate, escape rate, and time spent in danger. Develop the instinctive responses needed when the attack comes at full speed under real pressure."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "GOLwVNTVcnY",
+        "title": "The Daily Dirtball: \"Kimura Defense Grip Breaks\"",
+        "channel": "Dirtball BJJ",
+        "duration": 81,
+        "vertical": false,
+        "front": true
+      },
+      {
+        "id": "uRn3DRICpeY",
+        "title": "Late Kimura Defense from Bottom Side Control",
+        "channel": "Fox Den Martial Arts",
+        "duration": 100,
+        "vertical": false
+      }
+    ]
   }
 }

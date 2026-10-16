@@ -498,7 +498,15 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "8dFph1erRNE",
+        "title": "Knee Shield Series - Mir Lock",
+        "channel": "TAPS BJJ",
+        "duration": 168,
+        "vertical": false
+      }
+    ]
   },
   "defender": {
     "name": "Mir Lock Defender",

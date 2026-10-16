@@ -46,6 +46,26 @@ description: "Master the Armbar from Back Control in BJJ. Complete safety guide 
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "Rolling Armbar from the Back Mount - Hammer Jiu-Jitsu",
+      "description": "Armbar from Back film study: Rolling Armbar from the Back Mount - Hammer Jiu-Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/nsLJ8AiGZ5A/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/nsLJ8AiGZ5A",
+      "url": "https://www.youtube.com/watch?v=nsLJ8AiGZ5A",
+      "duration": "PT40S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "BJJ | How To Arm Bar from Back Control",
+      "description": "Armbar from Back film study: BJJ | How To Arm Bar from Back Control.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4aQQqz-6Baw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4aQQqz-6Baw",
+      "url": "https://www.youtube.com/watch?v=4aQQqz-6Baw",
+      "duration": "PT54S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
       "name": "If You Practice Jiu Jitsu Try This New Variation Of Armbar From The Back!",
       "description": "Armbar from Back film study: If You Practice Jiu Jitsu Try This New Variation Of Armbar From The Back!.",
       "thumbnailUrl": "https://i.ytimg.com/vi/jf1kPefTmm0/hqdefault.jpg",
@@ -107,6 +127,22 @@ The Armbar from Back Control represents one of the most devastating finishing se
 
 <p class="section-subtitle">Watch Armbar from Back in action — curated instructionals</p>
 
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=nsLJ8AiGZ5A)
+
+<p class="clip-credit"><strong>Rolling Armbar from the Back Mount - Hammer Jiu-Jitsu</strong> · 0:40 · <a href="https://www.youtube.com/watch?v=nsLJ8AiGZ5A" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=4aQQqz-6Baw)
+
+<p class="clip-credit"><strong>BJJ | How To Arm Bar from Back Control</strong> · 0:54 · <a href="https://www.youtube.com/watch?v=4aQQqz-6Baw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
 
 <div class="film-clip">
 

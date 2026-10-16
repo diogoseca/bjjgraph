@@ -172,6 +172,37 @@ description: "How to execute Crotch Ripper in BJJ. Attacking perspective with se
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Crotch Ripper from Lockdown (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Crotch Ripper",
+      "description": "Crotch Ripper from Lockdown (Attacker) film study: Crotch Ripper.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Bsj_vOLnNx4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Bsj_vOLnNx4",
+      "url": "https://www.youtube.com/watch?v=Bsj_vOLnNx4",
+      "duration": "PT59S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "3 Crotch Ripper Variations from Cross Body Ride",
+      "description": "Crotch Ripper from Lockdown (Attacker) film study: 3 Crotch Ripper Variations from Cross Body Ride.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/n5BLxIJKuHs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/n5BLxIJKuHs",
+      "url": "https://www.youtube.com/watch?v=n5BLxIJKuHs",
+      "duration": "PT61S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -185,6 +216,32 @@ The Crotch Ripper is a compression-based submission executed from the lockdown p
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Crotch Ripper from Lockdown (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Bsj_vOLnNx4)
+
+<p class="clip-credit"><strong>Crotch Ripper</strong> · 0:59 · <a href="https://www.youtube.com/watch?v=Bsj_vOLnNx4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=n5BLxIJKuHs)
+
+<p class="clip-credit"><strong>3 Crotch Ripper Variations from Cross Body Ride</strong> · 1:01 · <a href="https://www.youtube.com/watch?v=n5BLxIJKuHs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

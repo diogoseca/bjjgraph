@@ -434,7 +434,23 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "xwaJm1Ft5lc",
+        "title": "Paper Cutter Toehold From 50/50",
+        "channel": "Garden State Brazilian Jiu-Jitsu Academy",
+        "duration": 59,
+        "vertical": false,
+        "front": true
+      },
+      {
+        "id": "BbPdLSszYt8",
+        "title": "Fifty fifty toe hold",
+        "channel": "Ninja Pinto",
+        "duration": 69,
+        "vertical": false
+      }
+    ]
   },
   "defender": {
     "name": "Toe Hold from Backside 50-50 Defender",
@@ -621,6 +637,15 @@
         "description": "Positional sparring starting from Backside 50-50 with partner attacking legs freely. Practice all defensive tools under genuine pressure with partner working at competitive intensity. Focus on surviving and escaping rather than counter-attacking. Build confidence in recognizing and defending the toe hold in realistic conditions."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "3a9k8-ZcYrk",
+        "title": "How to escape from toehold by Gordon Ryan",
+        "channel": "The King Life",
+        "duration": 105,
+        "vertical": false,
+        "front": true
+      }
+    ]
   }
 }

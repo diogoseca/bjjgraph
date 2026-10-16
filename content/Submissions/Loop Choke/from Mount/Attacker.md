@@ -172,6 +172,27 @@ description: "How to execute Loop Choke from Mount in BJJ. Attacking perspective
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Loop Choke from Mount (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Awesome \"Standing\" attack : Loop Choke",
+      "description": "Loop Choke from Mount (Attacker) film study: Awesome \"Standing\" attack : Loop Choke.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Ku6XZn4SMEY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Ku6XZn4SMEY",
+      "url": "https://www.youtube.com/watch?v=Ku6XZn4SMEY",
+      "duration": "PT98S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -185,6 +206,24 @@ The Loop Choke from Mount is a devastating gi-based blood choke that leverages t
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Loop Choke from Mount (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Ku6XZn4SMEY)
+
+<p class="clip-credit"><strong>Awesome &#34;Standing&#34; attack : Loop Choke</strong> · 1:38 · <a href="https://www.youtube.com/watch?v=Ku6XZn4SMEY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

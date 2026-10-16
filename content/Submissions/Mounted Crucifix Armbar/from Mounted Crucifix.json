@@ -434,7 +434,23 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "hISwyzfmQr0",
+        "title": "Laura Sanko MMA Demo | Straight Armbar From Inverted Crucifix",
+        "channel": "One On One | MMA",
+        "duration": 281,
+        "vertical": false,
+        "front": true
+      },
+      {
+        "id": "VL8WcZaILow",
+        "title": "Black Belt Crucifix Attacks: Armbar & Rolling Reverse Omoplata",
+        "channel": "Legion Jiu Jitsu ",
+        "duration": 441,
+        "vertical": false
+      }
+    ]
   },
   "defender": {
     "name": "Mounted Crucifix Armbar Defender",

@@ -178,6 +178,27 @@ description: "Learn to execute the Twister from Cross Body Ride with step-by-ste
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Twister from Cross Body Ride (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Eddie Bravo\u0027s Twister - With 3 Flores",
+      "description": "Twister from Cross Body Ride (Attacker) film study: Eddie Bravo\u0027s Twister - With 3 Flores.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/FjWN_aBp2eE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/FjWN_aBp2eE",
+      "url": "https://www.youtube.com/watch?v=FjWN_aBp2eE",
+      "duration": "PT49S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -191,6 +212,24 @@ Attacking with the Twister from Cross Body Ride requires mastery of the sequenti
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Twister from Cross Body Ride (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=FjWN_aBp2eE)
+
+<p class="clip-credit"><strong>Eddie Bravo&#39;s Twister - With 3 Flores</strong> · 0:49 · <a href="https://www.youtube.com/watch?v=FjWN_aBp2eE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

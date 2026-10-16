@@ -506,6 +506,13 @@
         "channel": "Hurricane Jiu Jitsu",
         "duration": 59,
         "vertical": false
+      },
+      {
+        "id": "t03kY6knAkU",
+        "title": "=Triangle from the Spider Lasso Guard=",
+        "channel": "Nartay Kazhekov",
+        "duration": 11,
+        "vertical": false
       }
     ]
   },
@@ -699,7 +706,23 @@
         "description": "Start in spider guard with attacker having full grips. Attacker hunts the triangle and all chain attacks at full speed. Defender works prevention, early escapes, and locked-triangle escapes as the situation demands. 3-minute rounds with resets on submission, pass, or sweep. Track how often the triangle is locked versus prevented, and escape success rate when locked."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "dJOw0ZEyXXc",
+        "title": "Triangle choke from Guard \"Posture Up Escape",
+        "channel": "Cosens MMA LLC",
+        "duration": 72,
+        "vertical": false,
+        "front": true
+      },
+      {
+        "id": "sR2rS2dwpNY",
+        "title": "How To Escape a Triangle Choke w/ Rener & Ryron Gracie",
+        "channel": "Hayabusa",
+        "duration": 117,
+        "vertical": false
+      }
+    ]
   },
   "variations_and_setups": [
     {

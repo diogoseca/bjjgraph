@@ -487,12 +487,26 @@
     ],
     "clips": [
       {
+        "id": "nsLJ8AiGZ5A",
+        "title": "Rolling Armbar from the Back Mount - Hammer Jiu-Jitsu",
+        "channel": "American Top Team - Palm Beach Gardens",
+        "duration": 40,
+        "vertical": false,
+        "front": true
+      },
+      {
+        "id": "4aQQqz-6Baw",
+        "title": "BJJ | How To Arm Bar from Back Control",
+        "channel": "Evolve Mixed Martial Arts",
+        "duration": 54,
+        "vertical": false
+      },
+      {
         "id": "jf1kPefTmm0",
         "title": "If You Practice Jiu Jitsu Try This New Variation Of Armbar From The Back!",
         "channel": "Malachy Friedman",
         "duration": 79,
-        "vertical": false,
-        "front": true
+        "vertical": false
       }
     ]
   },
@@ -696,6 +710,20 @@
         "duration": 246,
         "vertical": false,
         "front": true
+      },
+      {
+        "id": "kNdKfUdgO4I",
+        "title": "THIS is my favorite armbar escape! #jiujitsu #jiujitsutips",
+        "channel": "Matt Arroyo Jiu Jitsu ",
+        "duration": 92,
+        "vertical": false
+      },
+      {
+        "id": "sDdqvh_1kbA",
+        "title": "Armbar Escape: RNC",
+        "channel": "ZombieProofBJJ",
+        "duration": 62,
+        "vertical": false
       }
     ]
   },

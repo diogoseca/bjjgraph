@@ -200,6 +200,16 @@ description: "Learn to execute the ankle lock from X-Guard with expert technique
       "embedUrl": "https://www.youtube.com/embed/aCh6WbFYkbk",
       "url": "https://www.youtube.com/watch?v=aCh6WbFYkbk",
       "duration": "PT44S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "X Guard to Ashi Garami (Saddle) to Straight Ankle Lock and Italian Footlock.",
+      "description": "Ankle Lock from X-Guard (Attacker) film study: X Guard to Ashi Garami (Saddle) to Straight Ankle Lock and Italian Footlock..",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lUeZ2AAbm7c/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lUeZ2AAbm7c",
+      "url": "https://www.youtube.com/watch?v=lUeZ2AAbm7c",
+      "duration": "PT82S"
     }
   ]
 }
@@ -231,6 +241,14 @@ Executing the ankle lock from X-Guard requires transitioning from sweep-based gu
 ![](https://www.youtube.com/watch?v=aCh6WbFYkbk)
 
 <p class="clip-credit"><strong>X Guard to straight ankle lock</strong> · 0:44 · <a href="https://www.youtube.com/watch?v=aCh6WbFYkbk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lUeZ2AAbm7c)
+
+<p class="clip-credit"><strong>X Guard to Ashi Garami (Saddle) to Straight Ankle Lock and Italian Footlock.</strong> · 1:22 · <a href="https://www.youtube.com/watch?v=lUeZ2AAbm7c" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

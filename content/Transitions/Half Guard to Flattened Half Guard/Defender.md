@@ -156,6 +156,37 @@ description: "Defend against being flattened from half guard bottom. Learn frame
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Half Guard to Flattened Half Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How to NOT Get Flattened, Cross-faced and Smashed in Half Guard",
+      "description": "Half Guard to Flattened Half Guard (Defender) film study: How to NOT Get Flattened, Cross-faced and Smashed in Half Guard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/I05XdrbakZQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/I05XdrbakZQ",
+      "url": "https://www.youtube.com/watch?v=I05XdrbakZQ",
+      "duration": "PT338S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "How To Stop Getting Smashed in Half Guard Bottom",
+      "description": "Half Guard to Flattened Half Guard (Defender) film study: How To Stop Getting Smashed in Half Guard Bottom.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ALhb8nFaFgA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ALhb8nFaFgA",
+      "url": "https://www.youtube.com/watch?v=ALhb8nFaFgA",
+      "duration": "PT369S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -168,6 +199,32 @@ As the bottom player in half guard, preventing your opponent from flattening you
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Half Guard to Flattened Half Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=I05XdrbakZQ)
+
+<p class="clip-credit"><strong>How to NOT Get Flattened, Cross-faced and Smashed in Half Guard</strong> · 5:38 · <a href="https://www.youtube.com/watch?v=I05XdrbakZQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ALhb8nFaFgA)
+
+<p class="clip-credit"><strong>How To Stop Getting Smashed in Half Guard Bottom</strong> · 6:09 · <a href="https://www.youtube.com/watch?v=ALhb8nFaFgA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

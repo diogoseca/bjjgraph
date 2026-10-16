@@ -36,6 +36,37 @@ description: "Master the guillotine choke from Twister Control. Learn setup mech
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Guillotine Choke from Twister Control \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "BJJ Guillotine Choke Escape and Defense from Full Guard \u0026 with Takedowns",
+      "description": "Guillotine Choke from Twister Control film study: BJJ Guillotine Choke Escape and Defense from Full Guard \u0026 with Takedowns.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/v-CRBRea_KY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/v-CRBRea_KY",
+      "url": "https://www.youtube.com/watch?v=v-CRBRea_KY",
+      "duration": "PT319S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Guillotine Defence",
+      "description": "Guillotine Choke from Twister Control film study: Guillotine Defence.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/46LaXNe6rJo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/46LaXNe6rJo",
+      "url": "https://www.youtube.com/watch?v=46LaXNe6rJo",
+      "duration": "PT594S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -83,6 +114,32 @@ Strategically, this submission functions as a trap within the broader Twister sy
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Guillotine Choke from Twister Control in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=v-CRBRea_KY)
+
+<p class="clip-credit"><strong>BJJ Guillotine Choke Escape and Defense from Full Guard &amp; with Takedowns</strong> · 5:19 · <a href="https://www.youtube.com/watch?v=v-CRBRea_KY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=46LaXNe6rJo)
+
+<p class="clip-credit"><strong>Guillotine Defence</strong> · 9:54 · <a href="https://www.youtube.com/watch?v=46LaXNe6rJo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="outcomes" class="content-section">

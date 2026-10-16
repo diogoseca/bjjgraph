@@ -52,6 +52,16 @@ description: "Master the kneebar from Honey Hole in BJJ. Complete guide to hip e
       "embedUrl": "https://www.youtube.com/embed/tm98rJZCvdc",
       "url": "https://www.youtube.com/watch?v=tm98rJZCvdc",
       "duration": "PT252S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Move of the Day: Bow and Arrow to Kneebar, Honey hole heel hook or reverse heel\u2026",
+      "description": "Kneebar from Honey Hole film study: Move of the Day: Bow and Arrow to Kneebar, Honey hole heel hook or reverse heel\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3KAO2Ck4HRg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3KAO2Ck4HRg",
+      "url": "https://www.youtube.com/watch?v=3KAO2Ck4HRg",
+      "duration": "PT52S"
     }
   ]
 }
@@ -117,6 +127,14 @@ In competition, this attack chain is a hallmark of systematic leg lock play. Eli
 ![](https://www.youtube.com/watch?v=tm98rJZCvdc)
 
 <p class="clip-credit"><strong>Knee bar from side saddle/honey hole position</strong> · 4:12 · <a href="https://www.youtube.com/watch?v=tm98rJZCvdc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=3KAO2Ck4HRg)
+
+<p class="clip-credit"><strong>Move of the Day: Bow and Arrow to Kneebar, Honey hole heel hook or reverse heel…</strong> · 0:52 · <a href="https://www.youtube.com/watch?v=3KAO2Ck4HRg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

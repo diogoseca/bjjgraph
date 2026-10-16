@@ -467,7 +467,23 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "Z44VF9pmJBg",
+        "title": "BJJ technique with Chelsea Ozer: Americana from mount",
+        "channel": "Alain Pozo",
+        "duration": 52,
+        "vertical": false,
+        "front": true
+      },
+      {
+        "id": "mk4jR6Anm8g",
+        "title": "Finishing the Americana",
+        "channel": "The Muscular Octopus",
+        "duration": 71,
+        "vertical": false
+      }
+    ]
   },
   "defender": {
     "name": "Americana from High Mount Defender",
@@ -654,6 +670,29 @@
         "description": "Positional sparring starting from high mount bottom against a partner who attacks Americana along with other submissions. Defend all attacks with full resistance. Track how often you prevent the Americana versus how often you need to tap. Goal is preventing figure-four establishment in 70% of attempts against same-skill-level partners."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "qfoEZtys84k",
+        "title": "Bjj defense against the americana",
+        "channel": "Kevin Conan Bankens",
+        "duration": 42,
+        "vertical": false,
+        "front": true
+      },
+      {
+        "id": "qnRj5DpzGmc",
+        "title": "Americana defense with wrist lock",
+        "channel": "Jiu-Jitsu Channel",
+        "duration": 51,
+        "vertical": false
+      },
+      {
+        "id": "FNyL93v5fGs",
+        "title": "Defending The Americana - BJJ Move by Lachlan Giles",
+        "channel": "BJJ Fanatics",
+        "duration": 91,
+        "vertical": false
+      }
+    ]
   }
 }

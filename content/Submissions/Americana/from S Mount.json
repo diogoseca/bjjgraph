@@ -394,7 +394,23 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "Z44VF9pmJBg",
+        "title": "BJJ technique with Chelsea Ozer: Americana from mount",
+        "channel": "Alain Pozo",
+        "duration": 52,
+        "vertical": false,
+        "front": true
+      },
+      {
+        "id": "9XZSamucGkg",
+        "title": "how to finish the Americana",
+        "channel": "BatuhanBjj",
+        "duration": 131,
+        "vertical": false
+      }
+    ]
   },
   "defender": {
     "name": "Americana from S Mount Defender",
@@ -580,6 +596,29 @@
         "description": "Positional sparring starting in S Mount bottom with partner allowed to attack any submission including Americana. Defend all threats and work to escape to guard. This phase integrates Americana defense with armbar defense and overall S Mount survival, building the ability to handle combined threats under realistic conditions."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "NZjUCo8os8Q",
+        "title": "Simple Americana Armlock Escape",
+        "channel": "Eddie Kone Academy Of Jiu-Jitsu",
+        "duration": 61,
+        "vertical": false,
+        "front": true
+      },
+      {
+        "id": "x5oNak2YANY",
+        "title": "Americana Defense to Armbar Finish",
+        "channel": "JiuJitsu.com",
+        "duration": 177,
+        "vertical": false
+      },
+      {
+        "id": "Ny_l7GHApo0",
+        "title": "Mounted Americana Defenses - Technique #1 - Prevention and Early Phase Escapes",
+        "channel": "Força Martial Arts & Fitness",
+        "duration": 199,
+        "vertical": false
+      }
+    ]
   }
 }

@@ -47,6 +47,16 @@ description: "Master Ippon Seoi Nage in BJJ. Complete judo-to-BJJ adaptation cov
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "Timing for ippon-seoi-nage",
+      "description": "Ippon Seoi Nage film study: Timing for ippon-seoi-nage.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/u-AiRGPSnEg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/u-AiRGPSnEg",
+      "url": "https://www.youtube.com/watch?v=u-AiRGPSnEg",
+      "duration": "PT52S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
       "name": "Mechanic of Ippon-seoi-nage",
       "description": "Ippon Seoi Nage film study: Mechanic of Ippon-seoi-nage.",
       "thumbnailUrl": "https://i.ytimg.com/vi/pkiShFuNC14/hqdefault.jpg",
@@ -106,6 +116,14 @@ The modern application of Ippon Seoi Nage in BJJ emphasizes grip control, timing
 
 <p class="section-subtitle">Watch Ippon Seoi Nage in action — curated instructionals</p>
 
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=u-AiRGPSnEg)
+
+<p class="clip-credit"><strong>Timing for ippon-seoi-nage</strong> · 0:52 · <a href="https://www.youtube.com/watch?v=u-AiRGPSnEg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
 
 <div class="film-clip">
 

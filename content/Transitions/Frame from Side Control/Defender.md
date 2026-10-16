@@ -150,6 +150,16 @@ description: "Master defending against the bottom player's framing attempts from
       "embedUrl": "https://www.youtube.com/embed/e8OUw05ZBwo",
       "url": "https://www.youtube.com/watch?v=e8OUw05ZBwo",
       "duration": "PT245S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Killing the near side arm from side control",
+      "description": "Frame from Side Control (Defender) film study: Killing the near side arm from side control.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/LUxMvOFbxIY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/LUxMvOFbxIY",
+      "url": "https://www.youtube.com/watch?v=LUxMvOFbxIY",
+      "duration": "PT123S"
     }
   ]
 }
@@ -180,6 +190,14 @@ As the defender, you are the top player in Side Control attempting to complete y
 ![](https://www.youtube.com/watch?v=e8OUw05ZBwo)
 
 <p class="clip-credit"><strong>Side Control - Dealing with Frames and Establishing a Chest to Chest Pin</strong> · 4:05 · <a href="https://www.youtube.com/watch?v=e8OUw05ZBwo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=LUxMvOFbxIY)
+
+<p class="clip-credit"><strong>Killing the near side arm from side control</strong> · 2:03 · <a href="https://www.youtube.com/watch?v=LUxMvOFbxIY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

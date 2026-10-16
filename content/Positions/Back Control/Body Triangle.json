@@ -844,12 +844,19 @@
     ],
     "clips": [
       {
+        "id": "hgaULMND3ag",
+        "title": "TMG Clips #78 - Escaping The Body Triangle",
+        "channel": "TeachMeGrappling Coach Brian",
+        "duration": 129,
+        "vertical": false,
+        "front": true
+      },
+      {
         "id": "XXnVvrZXGOs",
         "title": "Body Triangle Escape (BJJ Instructional)",
         "channel": "Art of War - MMA",
         "duration": 173,
-        "vertical": false,
-        "front": true
+        "vertical": false
       }
     ]
   },

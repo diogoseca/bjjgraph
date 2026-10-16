@@ -172,6 +172,27 @@ description: "Learn to finish the rear naked choke from standing back control. S
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Rear Naked Choke from Standing Back Control (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Short Choke from Back Position (Jiu Jitsu)",
+      "description": "Rear Naked Choke from Standing Back Control (Attacker) film study: Short Choke from Back Position (Jiu Jitsu).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Sb-atqD_TqQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Sb-atqD_TqQ",
+      "url": "https://www.youtube.com/watch?v=Sb-atqD_TqQ",
+      "duration": "PT54S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -185,6 +206,24 @@ Attacking the rear naked choke from standing back control requires coordinating 
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Rear Naked Choke from Standing Back Control (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Sb-atqD_TqQ)
+
+<p class="clip-credit"><strong>Short Choke from Back Position (Jiu Jitsu)</strong> · 0:54 · <a href="https://www.youtube.com/watch?v=Sb-atqD_TqQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

@@ -443,6 +443,20 @@
         "duration": 34,
         "vertical": false,
         "front": true
+      },
+      {
+        "id": "UsEvrDzgbqE",
+        "title": "50/50 to Calf Slicer",
+        "channel": "CaMiCho327",
+        "duration": 13,
+        "vertical": false
+      },
+      {
+        "id": "buBg-yzLTrY",
+        "title": "Calf Slicer Positions: RDLR, 50/50, Z Guard",
+        "channel": "Grappling with Insanity",
+        "duration": 54,
+        "vertical": false
       }
     ]
   },
@@ -617,6 +631,22 @@
         "description": "Start in 50-50 bottom with partner attacking freely using heel hook to calf slicer chains. Defend with all available techniques under full resistance. Emphasize tapping early when escapes fail rather than absorbing damage. Reset after tap, successful escape, or 60-second time limit."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "4zYNEvdgI2s",
+        "title": "Calf-Slicer Defense to The Lock Down - Indianapolis Jiu-Jitsu",
+        "channel": "James Clingerman",
+        "duration": 270,
+        "vertical": false,
+        "front": true
+      },
+      {
+        "id": "9l-XOzg5DCA",
+        "title": "Calf Slicer Defense Part 2 - Late Defense",
+        "channel": "RVV BJJ",
+        "duration": 346,
+        "vertical": false
+      }
+    ]
   }
 }

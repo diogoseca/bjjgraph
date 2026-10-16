@@ -188,6 +188,16 @@ description: "Learn to execute the toe hold from Toe Hold Control. Step-by-step 
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "attack toe hold from top half guard. #bjj #jiujitsu #nogi",
+      "description": "Toe Hold from Toe Hold Control (Attacker) film study: attack toe hold from top half guard. #bjj #jiujitsu #nogi.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/esC22tIGI94/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/esC22tIGI94",
+      "url": "https://www.youtube.com/watch?v=esC22tIGI94",
+      "duration": "PT45S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
       "name": "Crossover (Craig Jones) Toe Hold (Brazilian Jiu Jitsu)",
       "description": "Toe Hold from Toe Hold Control (Attacker) film study: Crossover (Craig Jones) Toe Hold (Brazilian Jiu Jitsu).",
       "thumbnailUrl": "https://i.ytimg.com/vi/Kx8gZ3QdO8s/hqdefault.jpg",
@@ -219,6 +229,14 @@ Attacking with the toe hold from an established Toe Hold Control position is the
 
 <p class="section-subtitle">Watch Toe Hold from Toe Hold Control (Attacker) in action — curated instructionals</p>
 
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=esC22tIGI94)
+
+<p class="clip-credit"><strong>attack toe hold from top half guard. #bjj #jiujitsu #nogi</strong> · 0:45 · <a href="https://www.youtube.com/watch?v=esC22tIGI94" rel="noopener">Watch on YouTube</a></p>
+
+</div>
 
 <div class="film-clip">
 

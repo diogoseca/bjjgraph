@@ -168,6 +168,26 @@ description: "How to defend against Kimura from Guard in BJJ. Recognition, escap
       "embedUrl": "https://www.youtube.com/embed/a6vbWASwse8",
       "url": "https://www.youtube.com/watch?v=a6vbWASwse8",
       "duration": "PT67S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "How to Escape the Kimura Armlock .",
+      "description": "Kimura from Guard (Defender) film study: How to Escape the Kimura Armlock ..",
+      "thumbnailUrl": "https://i.ytimg.com/vi/TIOgQ3N2a6Y/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/TIOgQ3N2a6Y",
+      "url": "https://www.youtube.com/watch?v=TIOgQ3N2a6Y",
+      "duration": "PT45S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Defending The Kimura",
+      "description": "Kimura from Guard (Defender) film study: Defending The Kimura.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/TuaopPUakM8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/TuaopPUakM8",
+      "url": "https://www.youtube.com/watch?v=TuaopPUakM8",
+      "duration": "PT61S"
     }
   ]
 }
@@ -203,6 +223,22 @@ A critical defensive principle is recognizing that the Kimura grip creates a con
 ![](https://www.youtube.com/watch?v=a6vbWASwse8)
 
 <p class="clip-credit"><strong>Kimura defense from guard</strong> · 1:07 · <a href="https://www.youtube.com/watch?v=a6vbWASwse8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=TIOgQ3N2a6Y)
+
+<p class="clip-credit"><strong>How to Escape the Kimura Armlock .</strong> · 0:45 · <a href="https://www.youtube.com/watch?v=TIOgQ3N2a6Y" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=TuaopPUakM8)
+
+<p class="clip-credit"><strong>Defending The Kimura</strong> · 1:01 · <a href="https://www.youtube.com/watch?v=TuaopPUakM8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

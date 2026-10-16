@@ -46,6 +46,16 @@ description: "Master the Kimura from Half Guard in BJJ. Complete guide with safe
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "BJJ | How To Kimura From Bottom Half Guard",
+      "description": "Kimura from Half Guard film study: BJJ | How To Kimura From Bottom Half Guard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5F3ZM01oPVo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5F3ZM01oPVo",
+      "url": "https://www.youtube.com/watch?v=5F3ZM01oPVo",
+      "duration": "PT41S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
       "name": "Georges St-Pierre | Technique Breakdown: Kimura Half Guard Bottom | The Gentle\u2026",
       "description": "Kimura from Half Guard film study: Georges St-Pierre | Technique Breakdown: Kimura Half Guard Bottom | The Gentle\u2026.",
       "thumbnailUrl": "https://i.ytimg.com/vi/dgYwflmcxKk/hqdefault.jpg",
@@ -107,6 +117,14 @@ The **Kimura from Half Guard** is one of the most versatile shoulder locks in Br
 
 <p class="section-subtitle">Watch Kimura from Half Guard in action — curated instructionals</p>
 
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=5F3ZM01oPVo)
+
+<p class="clip-credit"><strong>BJJ | How To Kimura From Bottom Half Guard</strong> · 0:41 · <a href="https://www.youtube.com/watch?v=5F3ZM01oPVo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
 
 <div class="film-clip">
 

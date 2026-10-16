@@ -160,6 +160,27 @@ description: "Learn to defend and escape the arm triangle choke from turtle. Rec
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Arm Triangle from Turtle (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "3 Arm Triangle Choke Defenses - From Prevention To Late Defense",
+      "description": "Arm Triangle from Turtle (Defender) film study: 3 Arm Triangle Choke Defenses - From Prevention To Late Defense.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Fx6qjR6a_xE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Fx6qjR6a_xE",
+      "url": "https://www.youtube.com/watch?v=Fx6qjR6a_xE",
+      "duration": "PT273S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -173,6 +194,24 @@ Defending the arm triangle from turtle requires early recognition and immediate 
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Arm Triangle from Turtle (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Fx6qjR6a_xE)
+
+<p class="clip-credit"><strong>3 Arm Triangle Choke Defenses - From Prevention To Late Defense</strong> · 4:33 · <a href="https://www.youtube.com/watch?v=Fx6qjR6a_xE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

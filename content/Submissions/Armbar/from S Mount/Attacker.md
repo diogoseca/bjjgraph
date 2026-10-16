@@ -194,6 +194,16 @@ description: "Execute the Armbar from S Mount with precision. Step-by-step finis
       "embedUrl": "https://www.youtube.com/embed/5UtNLw7usQk",
       "url": "https://www.youtube.com/watch?v=5UtNLw7usQk",
       "duration": "PT50S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "S-Mount Armbar, Kimura, + Far side Armbar",
+      "description": "Armbar from S Mount (Attacker) film study: S-Mount Armbar, Kimura, + Far side Armbar.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/nH4ly3vk7WI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/nH4ly3vk7WI",
+      "url": "https://www.youtube.com/watch?v=nH4ly3vk7WI",
+      "duration": "PT24S"
     }
   ]
 }
@@ -227,6 +237,14 @@ The key to high-percentage finishing from S Mount lies in maintaining continuous
 ![](https://www.youtube.com/watch?v=5UtNLw7usQk)
 
 <p class="clip-credit"><strong>Technique of the week - switch side armbar from S mount</strong> · 0:50 · <a href="https://www.youtube.com/watch?v=5UtNLw7usQk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=nH4ly3vk7WI)
+
+<p class="clip-credit"><strong>S-Mount Armbar, Kimura, + Far side Armbar</strong> · 0:24 · <a href="https://www.youtube.com/watch?v=nH4ly3vk7WI" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

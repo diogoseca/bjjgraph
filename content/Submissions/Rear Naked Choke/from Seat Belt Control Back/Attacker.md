@@ -194,6 +194,16 @@ description: "Learn to finish the Rear Naked Choke from Seat Belt Control Back. 
       "embedUrl": "https://www.youtube.com/embed/3H5ZyHEHfpI",
       "url": "https://www.youtube.com/watch?v=3H5ZyHEHfpI",
       "duration": "PT133S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Short Choke from Back Position (Jiu Jitsu)",
+      "description": "Rear Naked Choke from Seat Belt Control Back (Attacker) film study: Short Choke from Back Position (Jiu Jitsu).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Sb-atqD_TqQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Sb-atqD_TqQ",
+      "url": "https://www.youtube.com/watch?v=Sb-atqD_TqQ",
+      "duration": "PT54S"
     }
   ]
 }
@@ -225,6 +235,14 @@ The Rear Naked Choke from Seat Belt Control Back represents the single highest-p
 ![](https://www.youtube.com/watch?v=3H5ZyHEHfpI)
 
 <p class="clip-credit"><strong>TMG Clips #9 - RNC Details From Seatbelt</strong> · 2:13 · <a href="https://www.youtube.com/watch?v=3H5ZyHEHfpI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Sb-atqD_TqQ)
+
+<p class="clip-credit"><strong>Short Choke from Back Position (Jiu Jitsu)</strong> · 0:54 · <a href="https://www.youtube.com/watch?v=Sb-atqD_TqQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

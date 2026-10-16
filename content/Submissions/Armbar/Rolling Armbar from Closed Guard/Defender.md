@@ -152,6 +152,37 @@ description: "How to defend against Rolling Armbar in BJJ. Recognition, escape p
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Rolling Armbar from Closed Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "THIS is my favorite armbar escape! #jiujitsu #jiujitsutips",
+      "description": "Rolling Armbar from Closed Guard (Defender) film study: THIS is my favorite armbar escape! #jiujitsu #jiujitsutips.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kNdKfUdgO4I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kNdKfUdgO4I",
+      "url": "https://www.youtube.com/watch?v=kNdKfUdgO4I",
+      "duration": "PT92S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Armbar Defense Escape Brazilian Jiu Jitsu",
+      "description": "Rolling Armbar from Closed Guard (Defender) film study: Armbar Defense Escape Brazilian Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/yWmSp1_dOfI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/yWmSp1_dOfI",
+      "url": "https://www.youtube.com/watch?v=yWmSp1_dOfI",
+      "duration": "PT172S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -167,6 +198,32 @@ The defender must understand that the rolling armbar attack typically emerges fr
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Rolling Armbar from Closed Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kNdKfUdgO4I)
+
+<p class="clip-credit"><strong>THIS is my favorite armbar escape! #jiujitsu #jiujitsutips</strong> · 1:32 · <a href="https://www.youtube.com/watch?v=kNdKfUdgO4I" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=yWmSp1_dOfI)
+
+<p class="clip-credit"><strong>Armbar Defense Escape Brazilian Jiu Jitsu</strong> · 2:52 · <a href="https://www.youtube.com/watch?v=yWmSp1_dOfI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

@@ -36,6 +36,27 @@ description: "Master pulling guard from ground position in BJJ. Complete guide c
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Pull Guard from Ground \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Pulling Closed Guard",
+      "description": "Pull Guard from Ground film study: Pulling Closed Guard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/c9zYACjPEWo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/c9zYACjPEWo",
+      "url": "https://www.youtube.com/watch?v=c9zYACjPEWo",
+      "duration": "PT53S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -74,6 +95,24 @@ The key mechanical challenge lies in generating sufficient hip elevation and con
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Pull Guard from Ground in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=c9zYACjPEWo)
+
+<p class="clip-credit"><strong>Pulling Closed Guard</strong> · 0:53 · <a href="https://www.youtube.com/watch?v=c9zYACjPEWo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="possible-outcomes" class="content-section">

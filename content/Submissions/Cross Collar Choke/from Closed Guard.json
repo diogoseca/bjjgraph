@@ -441,7 +441,30 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "TDBe1SHzHKo",
+        "title": "Finishing Cross Collar Choke If You Can't Pull Them In",
+        "channel": "Henry Akins' Hidden Jiu-Jitsu",
+        "duration": 51,
+        "vertical": false,
+        "front": true
+      },
+      {
+        "id": "X93MdMlmrUg",
+        "title": "The ONE THING that makes your cross collar choke EASY",
+        "channel": "Henry Akins' Hidden Jiu-Jitsu",
+        "duration": 77,
+        "vertical": false
+      },
+      {
+        "id": "dfP-Ov8FBUo",
+        "title": "Roger Gracie | CROSS COLLAR CHOKES",
+        "channel": "Jiu Jitsu Moves",
+        "duration": 80,
+        "vertical": false
+      }
+    ]
   },
   "defender": {
     "name": "from Closed Guard Defender",
@@ -635,6 +658,13 @@
         "duration": 105,
         "vertical": false,
         "front": true
+      },
+      {
+        "id": "be-iHHhJGng",
+        "title": "Juji Jime Escape - Cross Collar Choke Defense - Advanced BJJ",
+        "channel": "Peter Mettler Martial Arts",
+        "duration": 130,
+        "vertical": false
       }
     ]
   }

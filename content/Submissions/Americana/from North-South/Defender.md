@@ -152,6 +152,27 @@ description: "Defend against the Americana shoulder lock from North-South. Recog
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Americana from North-South (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Americana with legs defense",
+      "description": "Americana from North-South (Defender) film study: Americana with legs defense.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/bN9pxIdCiPU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/bN9pxIdCiPU",
+      "url": "https://www.youtube.com/watch?v=bN9pxIdCiPU",
+      "duration": "PT17S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -165,6 +186,24 @@ Defending the Americana from North-South requires early recognition and immediat
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Americana from North-South (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=bN9pxIdCiPU)
+
+<p class="clip-credit"><strong>Americana with legs defense</strong> · 0:17 · <a href="https://www.youtube.com/watch?v=bN9pxIdCiPU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

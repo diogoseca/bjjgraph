@@ -62,6 +62,16 @@ description: "Master the Kimura from Butterfly Guard in BJJ. Learn grip setup, h
       "embedUrl": "https://www.youtube.com/embed/vCZsK0FL8o0",
       "url": "https://www.youtube.com/watch?v=vCZsK0FL8o0",
       "duration": "PT135S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Georges St-Pierre | Technique Breakdown: Kimura Half Guard Bottom | The Gentle\u2026",
+      "description": "Kimura from Butterfly Guard film study: Georges St-Pierre | Technique Breakdown: Kimura Half Guard Bottom | The Gentle\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dgYwflmcxKk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dgYwflmcxKk",
+      "url": "https://www.youtube.com/watch?v=dgYwflmcxKk",
+      "duration": "PT72S"
     }
   ]
 }
@@ -138,6 +148,14 @@ Advanced practitioners chain the Kimura attempt directly off failed or feinted b
 ![](https://www.youtube.com/watch?v=vCZsK0FL8o0)
 
 <p class="clip-credit"><strong>How To Do The Perfect Kimura From The Butterfly Guard</strong> · 2:15 · <a href="https://www.youtube.com/watch?v=vCZsK0FL8o0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dgYwflmcxKk)
+
+<p class="clip-credit"><strong>Georges St-Pierre | Technique Breakdown: Kimura Half Guard Bottom | The Gentle…</strong> · 1:12 · <a href="https://www.youtube.com/watch?v=dgYwflmcxKk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

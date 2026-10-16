@@ -186,6 +186,26 @@ description: "Master defensive strategies against the Standing RNC from Rear Cli
       "embedUrl": "https://www.youtube.com/embed/dTIDRA-0YY0",
       "url": "https://www.youtube.com/watch?v=dTIDRA-0YY0",
       "duration": "PT38S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Rear Choke Release",
+      "description": "Rear Naked Choke from Standing Rear Clinch (Defender) film study: Rear Choke Release.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/QQFbYx_ARQo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/QQFbYx_ARQo",
+      "url": "https://www.youtube.com/watch?v=QQFbYx_ARQo",
+      "duration": "PT34S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 4,
+      "name": "How To Escape A Choke Hold | Front Choke | Rear Choke | MMA Choke Hold | Day 1\u2026",
+      "description": "Rear Naked Choke from Standing Rear Clinch (Defender) film study: How To Escape A Choke Hold | Front Choke | Rear Choke | MMA Choke Hold | Day 1\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/F9NRcVxEo8w/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/F9NRcVxEo8w",
+      "url": "https://www.youtube.com/watch?v=F9NRcVxEo8w",
+      "duration": "PT60S"
     }
   ]
 }
@@ -225,6 +245,22 @@ Defending the Standing RNC from Rear Clinch demands immediate recognition of the
 ![](https://www.youtube.com/watch?v=dTIDRA-0YY0)
 
 <p class="clip-credit"><strong>Jiu-Jitsu Defense to the Rear Choke From Behind While Being Dragged by Gracie…</strong> · 0:38 · <a href="https://www.youtube.com/watch?v=dTIDRA-0YY0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=QQFbYx_ARQo)
+
+<p class="clip-credit"><strong>Rear Choke Release</strong> · 0:34 · <a href="https://www.youtube.com/watch?v=QQFbYx_ARQo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=F9NRcVxEo8w)
+
+<p class="clip-credit"><strong>How To Escape A Choke Hold | Front Choke | Rear Choke | MMA Choke Hold | Day 1…</strong> · 1:00 · <a href="https://www.youtube.com/watch?v=F9NRcVxEo8w" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

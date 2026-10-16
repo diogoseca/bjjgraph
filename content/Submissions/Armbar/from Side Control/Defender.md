@@ -152,6 +152,47 @@ description: "How to defend and escape the Armbar from Side Control in BJJ. Reco
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Armbar from Side Control (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Armbar Escape To Side Control With Valdir Rodrigues.",
+      "description": "Armbar from Side Control (Defender) film study: Armbar Escape To Side Control With Valdir Rodrigues..",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fRhm4gy-kxo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fRhm4gy-kxo",
+      "url": "https://www.youtube.com/watch?v=fRhm4gy-kxo",
+      "duration": "PT60S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "THIS is my favorite armbar escape! #jiujitsu #jiujitsutips",
+      "description": "Armbar from Side Control (Defender) film study: THIS is my favorite armbar escape! #jiujitsu #jiujitsutips.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kNdKfUdgO4I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kNdKfUdgO4I",
+      "url": "https://www.youtube.com/watch?v=kNdKfUdgO4I",
+      "duration": "PT92S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Armbar Escape: RNC",
+      "description": "Armbar from Side Control (Defender) film study: Armbar Escape: RNC.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sDdqvh_1kbA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sDdqvh_1kbA",
+      "url": "https://www.youtube.com/watch?v=sDdqvh_1kbA",
+      "duration": "PT62S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -165,6 +206,40 @@ Defending the Armbar from Side Control requires understanding the attack's seque
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Armbar from Side Control (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fRhm4gy-kxo)
+
+<p class="clip-credit"><strong>Armbar Escape To Side Control With Valdir Rodrigues.</strong> · 1:00 · <a href="https://www.youtube.com/watch?v=fRhm4gy-kxo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kNdKfUdgO4I)
+
+<p class="clip-credit"><strong>THIS is my favorite armbar escape! #jiujitsu #jiujitsutips</strong> · 1:32 · <a href="https://www.youtube.com/watch?v=kNdKfUdgO4I" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sDdqvh_1kbA)
+
+<p class="clip-credit"><strong>Armbar Escape: RNC</strong> · 1:02 · <a href="https://www.youtube.com/watch?v=sDdqvh_1kbA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

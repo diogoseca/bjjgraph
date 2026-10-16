@@ -380,11 +380,18 @@
     "safety_considerations": "When practicing Ippon Seoi Nage, ensure proper breakfall (ukemi) training before attempting live throws, as the technique generates significant rotational force and impact. Beginners should practice on crash mats and progress gradually to standard mats. The person being thrown must tuck their chin and execute a proper slapping breakfall to distribute impact and protect the head, neck, and shoulder. The thrower must control the speed and power of the throw to match their partner's breakfall ability. Never practice this technique against partners who cannot breakfall safely. In competition, landing with your weight on your opponent's neck or head risks serious cervical injury and disqualification. Always warm up shoulders, hips, and lower back thoroughly before throwing practice. If you feel sharp pain in your lower back during the loading phase, stop immediately as this indicates improper mechanics that risk disc injury.",
     "clips": [
       {
+        "id": "u-AiRGPSnEg",
+        "title": "Timing for ippon-seoi-nage",
+        "channel": "Shintaro Higashi",
+        "duration": 52,
+        "vertical": false,
+        "front": true
+      },
+      {
         "id": "pkiShFuNC14",
         "title": "Mechanic of Ippon-seoi-nage",
         "channel": "judomechanics",
-        "duration": 59,
-        "front": true
+        "duration": 59
       }
     ]
   },

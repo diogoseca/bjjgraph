@@ -152,6 +152,27 @@ description: "Defend against the Kimura from Twister Side Control. Recognition c
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kimura from Twister Side Control (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "North South Kimura Defense by Stephen Whittier",
+      "description": "Kimura from Twister Side Control (Defender) film study: North South Kimura Defense by Stephen Whittier.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/LdHCMIMM380/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/LdHCMIMM380",
+      "url": "https://www.youtube.com/watch?v=LdHCMIMM380",
+      "duration": "PT195S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -165,6 +186,24 @@ Defending the Kimura from Twister Side Control requires early recognition that t
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kimura from Twister Side Control (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=LdHCMIMM380)
+
+<p class="clip-credit"><strong>North South Kimura Defense by Stephen Whittier</strong> · 3:15 · <a href="https://www.youtube.com/watch?v=LdHCMIMM380" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

@@ -52,6 +52,16 @@ description: "Master the Americana shoulder lock from mount with safety protocol
       "embedUrl": "https://www.youtube.com/embed/6f9m9YmrzSQ",
       "url": "https://www.youtube.com/watch?v=6f9m9YmrzSQ",
       "duration": "PT89S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "\ud83d\udee1\ufe0f Americana from Mount Explained | BJJ Submission Guide",
+      "description": "Americana from Mount film study: \ud83d\udee1\ufe0f Americana from Mount Explained | BJJ Submission Guide.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/N-bZMbI2jSo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/N-bZMbI2jSo",
+      "url": "https://www.youtube.com/watch?v=N-bZMbI2jSo",
+      "duration": "PT110S"
     }
   ]
 }
@@ -117,6 +127,14 @@ The Americana from Mount serves as a cornerstone technique in any top game arsen
 ![](https://www.youtube.com/watch?v=6f9m9YmrzSQ)
 
 <p class="clip-credit"><strong>Americana from full mount</strong> · 1:29 · <a href="https://www.youtube.com/watch?v=6f9m9YmrzSQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=N-bZMbI2jSo)
+
+<p class="clip-credit"><strong>🛡️ Americana from Mount Explained | BJJ Submission Guide</strong> · 1:50 · <a href="https://www.youtube.com/watch?v=N-bZMbI2jSo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -194,6 +194,16 @@ description: "Learn to attack the kneebar from toe hold control. Step-by-step gu
       "embedUrl": "https://www.youtube.com/embed/-HT8Vfiq5Pk",
       "url": "https://www.youtube.com/watch?v=-HT8Vfiq5Pk",
       "duration": "PT67S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Kneebar and Toehold from Guard Pass",
+      "description": "Kneebar from Toe Hold Control (Attacker) film study: Kneebar and Toehold from Guard Pass.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/frFaHeQJHTA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/frFaHeQJHTA",
+      "url": "https://www.youtube.com/watch?v=frFaHeQJHTA",
+      "duration": "PT57S"
     }
   ]
 }
@@ -225,6 +235,14 @@ Executing the kneebar from toe hold control requires reading your opponent's def
 ![](https://www.youtube.com/watch?v=-HT8Vfiq5Pk)
 
 <p class="clip-credit"><strong>Top Half Guard Toe Hold to Knee Bar Attack</strong> · 1:07 · <a href="https://www.youtube.com/watch?v=-HT8Vfiq5Pk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=frFaHeQJHTA)
+
+<p class="clip-credit"><strong>Kneebar and Toehold from Guard Pass</strong> · 0:57 · <a href="https://www.youtube.com/watch?v=frFaHeQJHTA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

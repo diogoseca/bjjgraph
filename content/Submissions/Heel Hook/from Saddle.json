@@ -466,12 +466,26 @@
     ],
     "clips": [
       {
+        "id": "QfNKQzy3V_w",
+        "title": "Arm Saddle to Inside Heel Hook | Flow Drill",
+        "channel": "Factory Fresh Jiu Jitsu",
+        "duration": 21,
+        "vertical": false,
+        "front": true
+      },
+      {
+        "id": "6gu-n4P9JXo",
+        "title": "Craig Jones  - Heel Hook Breaking Mechanics",
+        "channel": "Altay Pirge",
+        "duration": 77,
+        "vertical": false
+      },
+      {
         "id": "n6EoUkDwUVc",
         "title": "4 Variations Of Heel Hook Finish From Saddle",
         "channel": "The Grappling Bloke",
         "duration": 101,
-        "vertical": false,
-        "front": true
+        "vertical": false
       }
     ]
   },

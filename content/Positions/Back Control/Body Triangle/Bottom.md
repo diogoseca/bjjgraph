@@ -165,6 +165,16 @@ description: "Defend and escape body triangle position in BJJ. Strategic guide c
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "TMG Clips #78 - Escaping The Body Triangle",
+      "description": "Body Triangle (Bottom) film study: TMG Clips #78 - Escaping The Body Triangle.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hgaULMND3ag/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hgaULMND3ag",
+      "url": "https://www.youtube.com/watch?v=hgaULMND3ag",
+      "duration": "PT129S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
       "name": "Body Triangle Escape (BJJ Instructional)",
       "description": "Body Triangle (Bottom) film study: Body Triangle Escape (BJJ Instructional).",
       "thumbnailUrl": "https://i.ytimg.com/vi/XXnVvrZXGOs/hqdefault.jpg",
@@ -197,6 +207,14 @@ Successful defense from body triangle bottom requires calm breathing management,
 
 <p class="section-subtitle">Watch Body Triangle (Bottom) in action — curated instructionals</p>
 
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=hgaULMND3ag)
+
+<p class="clip-credit"><strong>TMG Clips #78 - Escaping The Body Triangle</strong> · 2:09 · <a href="https://www.youtube.com/watch?v=hgaULMND3ag" rel="noopener">Watch on YouTube</a></p>
+
+</div>
 
 <div class="film-clip">
 

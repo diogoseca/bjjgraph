@@ -11063,62 +11063,75 @@ checkpoint, within its 5,000 B cap) and 480,054 B deferred raw (500,000 B ceilin
 
 ## v1.227.2 — Clips follow the authored move and role
 
-A clip could name the right family while teaching the opposite role, another origin, an
-isolated attack instead of a position curriculum, or a commercial preview. Four curation
-shards now review the authored position/technique halves against relevance, completeness,
-promotion, fallback, ordering, availability and naming rules. Exact subject and role take
-priority over length; among equally suitable lessons, the shorter one comes first.
+Clips now follow the actual submission, transition or position and the half's own role.
+D-307 clarifies that a same-submission lesson or defense qualifies across origins unless
+the origin changes named mechanics. Origin-exact lessons rank first. Transition entries
+remain exact. Ordinary channel, shop and social footers do not invalidate a complete lesson;
+actual course pitches, teasers and ads do. Eligibility and ordering are separate judgments.
 
-The first integration changes 1,352 JSON files and regenerates their article views. Across
-the whole content tree, clip placements change from 8,078 to 2,315: 6,051 references removed
-and 288 added. There are 854 marked fronts: 101 position halves, 174 submission halves and
-579 transition halves. The other 2,042 halves comprise 1,789 empty active gaps, 27 active
-arrays with unmarked fallback clips, and 226 preserved role arrays held for evidence or
-identity resolution. A gap is explicit; a related title alone does not justify a front.
+Four disjoint cached-evidence re-passes examine all 6,051 original removals. They qualify
+608 restorations; 606 are applied and two remain qualified alternates under the unchanged
+four-clip product cap. The Brabo/front-headlock attacker keeps its three explicit-origin
+lessons plus the shorter turtle Brabo lesson; the Half Nelson-to-Brabo lesson is a qualified
+alternate. The Ezekiel/closed-guard attacker keeps four origin-matching lessons; the shorter
+unspecified-origin no-gi lesson is a qualified alternate. Neither alternate is called wrong.
 
-The five owner-held position files remain byte-exact. Their linked holds and other evidence
-holds preserve the original arrays rather than rebuilding them from empty proposals. All
-56 held hub arrays, plus the 403 references on submission-family hubs and Principles outside
-the curation scope, are preserved. Approved position-hub clips carry only the reviewed
-`top`, `bottom` or `both` assignment; an unknown assignment does not acquire a guessed tag.
+The correction restores 557 submission references, 20 position references and 29 transition
+references. Of the submission restorations, 67 have an established exact origin and 490
+qualify with a different or unspecified origin under D-307. These counts overlap with the
+R3 correction: 48 restored occurrences explicitly cited R3 in their prior removal verdict,
+and the broader prose-aware R3 review set contributes 59. R4/R5 rank the selected four; an
+origin or quality uncertainty is stated precisely rather than inherited from another ID.
 
-The optional clip contract adds `front` and position-hub `half`; existing positive `duration`
-remains optional. Validation rejects multiple fronts or a marked front after the first clip,
-and rejects `half` outside a position hub. Raw title/channel/duration/availability evidence
-backs selected clips. Channel names are not inferred to be instructor credits; orientation
-and time segments are not guessed. Longer titles use the schema's existing length limit
-while full source metadata remains in the review evidence.
+Four selected occurrences are withheld on their own evidence: the turtle rolling-kneebar
+defense on the 50/50 Kneebar entry; a knee-cut lesson on Half Guard to Quarter Guard; and
+Belly Down Armbar / Anaconda competition footage without an established teaching breakdown.
+The knee-cut lesson remains on Knee Slice Pass. The 101-second Saddle heel-hook lesson
+retains its recorded complete-lesson exception after the existing five storyboard sheets
+were read; its optional merchandise-support footer is disclosed, not described as absent.
 
-Independent random samples, returned shards and bounded corrections are preserved in the
-review record. Metadata and sampled storyboard evidence do not claim continuous playback
-or audio review. The weighted second search is a separate follow-up: none of its proposed
-fronts is included in this first integration.
+Across 1,683 authored JSON files, the final clip changes affect 1,352 files and 2,732 arrays.
+Placements change from 8,078 to 2,917: 5,449 removed and 288 added, net -5,161. There are
+1,046 marked fronts: 106 position halves, 351 submission halves and 589 transition halves.
+The remaining 1,850 of 2,896 halves are 1,558 active empty gaps, 66 active arrays with
+unmarked qualified/fallback clips and 226 preserved role arrays held for evidence or identity.
+All 56 held hub arrays and the five owner-held position files remain byte-exact to the base.
+The 403 references on submission-family hubs and Principles remain outside this correction.
 
+The optional clip contract adds front and position-hub half. Validation permits at most one
+true front, first in the array, and half only on position hub clips; positive duration and
+all timing checks remain. All 3,150 clip arrays satisfy the unchanged maximum of four.
+Raw cached oEmbed title/channel and positive yt-dlp durations, including provenance-backed
+flat/search records, support each restored clip. Empty descriptions, absent full descriptions
+and sampled stills remain explicit evidence limits, with no continuous playback/audio claim.
+Only the two owner-named Loop Choke examples received authorized fresh metadata extraction.
+The Ninja Pinto escape returns on all four assigned defenders; the Whittier clip remains
+withheld for its actual course and coupon pitches. The independent review's Arm Triangle,
+standing Guillotine and Darren Branch Kneebar examples are restored using its cached evidence.
 
-The post-296 own build confirms the corrected full-emit projection, including folder copies:
-30,351 JSON-LD blocks, 2,802 ItemLists, 91,125 article headings, 199,250 article links and
-146,702 outside links. Across 5,408 checked article routes, the curation removes 3,166 Film
-Study sections and 10,700 displayed clip occurrences. Every other census field, all three
-root bundles and all 14 normalized app assets match the base. Eager gzip is 346,318 bytes
-(+3,320 against the 342,998 checkpoint); deferred raw remains 480,054 of 500,000 bytes.
+Fresh precommitted random QC checks 20 restorations and 10 retained removals. One ancillary
+footer rationale is wrong (1/30 = 3.33%); the two affected same-ID reasons are corrected in
+a separate lead ledger. No sampled restore/remove outcome is wrong. The sample is stratified
+by helper and is not presented as a uniform estimate for the whole corpus. Original proposals,
+QC files and evidence remain frozen. The second-search proposals stay in a separate PR.
 
-D-304 authorizes re-anchoring the collapse floors on those measured figures: payload
-JSON-LD 30,762 to 27,922 and article links 195,944 to 183,310, using the existing tool's
-int(0.92 * observed) rule; Tier-0 JSON-LD 30,000 to 27,000 and article links 200,000 to
-180,000. The four floor changes are isolated commits; other floors and all payload ceilings
-stay fixed. These coarse floors still reject a build that emits only a fraction of the site.
+Twelve stale content-pin specs are explicitly named in their headers and pin curated IDs and
+counts. Empty halves assert the exact no-reel state; the positive Knee Slice attacker/defender
+pair preserves the wrong-role check. The short desktop layout case now uses two real Kneebar
+entry clips and retains all finite-label and title/video-clearance assertions. The Back/Forward
+beats.filter failure is reproduced on unchanged dev by delaying the real flashcard index:
+beats is allocated lazily, before which an idle app has an empty event stream. The test reads
+that absence safely, asserts fresh journey and cleared pressure before releasing the payload,
+and waits only for landing content. No application runtime or source code changes.
 
-A preliminary own build exposed three stale, unreferenced MDP outputs. They are a recorded
-finding, not a census re-seed: a generated-output cleanup and full repeat restore the exact
-5,125-file static inventory. Two own-worktree tag text/order differences are traced to
-D-253 birthtimes by replaying all 73 listing groups against 26 unchanged Learning sources.
-The guarded capture reuses p2b and must preserve those tag samples; only the two declared
-Armbar-from-Back Film Study removals are expected to alter the SEO sample.
+D-308 changes only modified.max_day_share from 0.5 to 0.95 in its own commit, based on the
+measured 5,284/6,119 pages (86.35%) modified on 2026-10-15 by this bulk correction. All published
+policy values and both day/span minima stay fixed. Existing build-clock controls still fail
+all three spread checks; the three date-health unit tests pass.
 
-
-The D-306 guarded capture at `f842d88e6` on base `45cf1f9e1` confirms those exact five
-census movements and only the two Armbar-from-Back SEO excisions. Both Learning tag
-samples are unchanged under the reused checkout stamps. The receipt-bound census and
-SEO re-seed preserves all other measured fields, including 14 app assets, three root
-bundles, 66 MDP files and 290 submission-detail files. The two SEO text floors become
-8,861 and 9,433, with their remaining article text, metadata and non-video schema verified.
+The original D-306 capture at f842d88e6 on 45cf1f9e1 remains historical evidence for its tree:
+3,166 Film Study sections and 13,866 article links removed, with all other census leaves
+unchanged. D-304's four separate floor commits use its measured 30,351 JSON-LD blocks and
+199,250 article links. That capture is superseded for this corrected content. The final tree
+must be measured on post-identity dev and captured again with the exact confirmed refs;
+D-307 requires the same floor rule if either count moves more than 2% from the D-304 basis.

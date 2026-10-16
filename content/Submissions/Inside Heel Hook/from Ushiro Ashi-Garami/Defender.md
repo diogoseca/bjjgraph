@@ -152,6 +152,27 @@ description: "Defend against the inside heel hook from ushiro ashi-garami. Recog
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Inside Heel Hook from Ushiro Ashi-Garami (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Basic Inside/Inverted Heel Hook Escape",
+      "description": "Inside Heel Hook from Ushiro Ashi-Garami (Defender) film study: Basic Inside/Inverted Heel Hook Escape.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5jD4ByQUrDA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5jD4ByQUrDA",
+      "url": "https://www.youtube.com/watch?v=5jD4ByQUrDA",
+      "duration": "PT108S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -165,6 +186,24 @@ Defending the inside heel hook from ushiro ashi-garami requires immediate recogn
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Inside Heel Hook from Ushiro Ashi-Garami (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=5jD4ByQUrDA)
+
+<p class="clip-credit"><strong>Basic Inside/Inverted Heel Hook Escape</strong> · 1:48 · <a href="https://www.youtube.com/watch?v=5jD4ByQUrDA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

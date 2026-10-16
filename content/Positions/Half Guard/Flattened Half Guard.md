@@ -36,6 +36,27 @@ description: "Master the flattened half guard position in BJJ. Complete guide co
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Flattened Half Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How To Recover When You Get Flat In Half Guard",
+      "description": "Flattened Half Guard film study: How To Recover When You Get Flat In Half Guard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/NWie1oi3JSg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/NWie1oi3JSg",
+      "url": "https://www.youtube.com/watch?v=NWie1oi3JSg",
+      "duration": "PT273S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -75,6 +96,24 @@ The position's place in the BJJ positional hierarchy reflects its defensive natu
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Flattened Half Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=NWie1oi3JSg)
+
+<p class="clip-credit"><strong>How To Recover When You Get Flat In Half Guard</strong> · 4:33 · <a href="https://www.youtube.com/watch?v=NWie1oi3JSg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

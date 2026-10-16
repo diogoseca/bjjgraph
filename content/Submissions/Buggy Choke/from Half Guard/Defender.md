@@ -160,6 +160,37 @@ description: "How to defend against Buggy Choke in BJJ. Recognition, escape path
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Buggy Choke from Half Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "No Gi Buggy Choke \u0026 Counter/Defence BJJ",
+      "description": "Buggy Choke from Half Guard (Defender) film study: No Gi Buggy Choke \u0026 Counter/Defence BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6na3oiDkWek/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6na3oiDkWek",
+      "url": "https://www.youtube.com/watch?v=6na3oiDkWek",
+      "duration": "PT81S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "How To Defend Against The Dreaded Buggy Choke",
+      "description": "Buggy Choke from Half Guard (Defender) film study: How To Defend Against The Dreaded Buggy Choke.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6VmI-HMAQso/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6VmI-HMAQso",
+      "url": "https://www.youtube.com/watch?v=6VmI-HMAQso",
+      "duration": "PT238S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -173,6 +204,32 @@ Defending the Buggy Choke requires early recognition and immediate action, becau
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Buggy Choke from Half Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=6na3oiDkWek)
+
+<p class="clip-credit"><strong>No Gi Buggy Choke &amp; Counter/Defence BJJ</strong> · 1:21 · <a href="https://www.youtube.com/watch?v=6na3oiDkWek" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=6VmI-HMAQso)
+
+<p class="clip-credit"><strong>How To Defend Against The Dreaded Buggy Choke</strong> · 3:58 · <a href="https://www.youtube.com/watch?v=6VmI-HMAQso" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

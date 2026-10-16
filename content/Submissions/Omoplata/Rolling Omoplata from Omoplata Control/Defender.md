@@ -152,6 +152,47 @@ description: "How to defend against Rolling Omoplata in BJJ. Recognition, escape
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Rolling Omoplata from Omoplata Control (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "\ud83d\udcaf BEST WAY to ESCAPE THE OMOPLATA Shoulder Lock",
+      "description": "Rolling Omoplata from Omoplata Control (Defender) film study: \ud83d\udcaf BEST WAY to ESCAPE THE OMOPLATA Shoulder Lock.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ocIHY3jBYIQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ocIHY3jBYIQ",
+      "url": "https://www.youtube.com/watch?v=ocIHY3jBYIQ",
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "How to escape the omoplata when it\u2019s already in and he\u2019s ready to break your\u2026",
+      "description": "Rolling Omoplata from Omoplata Control (Defender) film study: How to escape the omoplata when it\u2019s already in and he\u2019s ready to break your\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/jKdERMTQqPY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/jKdERMTQqPY",
+      "url": "https://www.youtube.com/watch?v=jKdERMTQqPY",
+      "duration": "PT71S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Early Omoplata Escape - Opposite Shoulder Roll",
+      "description": "Rolling Omoplata from Omoplata Control (Defender) film study: Early Omoplata Escape - Opposite Shoulder Roll.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/YsSrfDmrVjs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/YsSrfDmrVjs",
+      "url": "https://www.youtube.com/watch?v=YsSrfDmrVjs",
+      "duration": "PT43S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -165,6 +206,40 @@ Defending the Rolling Omoplata requires understanding that this submission devel
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Rolling Omoplata from Omoplata Control (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ocIHY3jBYIQ)
+
+<p class="clip-credit"><strong>💯 BEST WAY to ESCAPE THE OMOPLATA Shoulder Lock</strong> · 1:01 · <a href="https://www.youtube.com/watch?v=ocIHY3jBYIQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=jKdERMTQqPY)
+
+<p class="clip-credit"><strong>How to escape the omoplata when it’s already in and he’s ready to break your…</strong> · 1:11 · <a href="https://www.youtube.com/watch?v=jKdERMTQqPY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=YsSrfDmrVjs)
+
+<p class="clip-credit"><strong>Early Omoplata Escape - Opposite Shoulder Roll</strong> · 0:43 · <a href="https://www.youtube.com/watch?v=YsSrfDmrVjs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

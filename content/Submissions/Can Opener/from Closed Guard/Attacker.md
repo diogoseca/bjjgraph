@@ -172,6 +172,37 @@ description: "How to execute Can Opener in BJJ. Attacking perspective with setup
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Can Opener from Closed Guard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Cervical Choke\"Can Opener\" \u0026 defense",
+      "description": "Can Opener from Closed Guard (Attacker) film study: Cervical Choke\"Can Opener\" \u0026 defense.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/FGPGkKnY_Mg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/FGPGkKnY_Mg",
+      "url": "https://www.youtube.com/watch?v=FGPGkKnY_Mg",
+      "duration": "PT73S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "How to Do a Can Opener   MMA Submissions",
+      "description": "Can Opener from Closed Guard (Attacker) film study: How to Do a Can Opener   MMA Submissions.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_-NGlUCnHy0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_-NGlUCnHy0",
+      "url": "https://www.youtube.com/watch?v=_-NGlUCnHy0",
+      "duration": "PT126S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -185,6 +216,32 @@ The Can Opener attack is documented here strictly for educational and defensive 
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Can Opener from Closed Guard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=FGPGkKnY_Mg)
+
+<p class="clip-credit"><strong>Cervical Choke&#34;Can Opener&#34; &amp; defense</strong> · 1:13 · <a href="https://www.youtube.com/watch?v=FGPGkKnY_Mg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_-NGlUCnHy0)
+
+<p class="clip-credit"><strong>How to Do a Can Opener   MMA Submissions</strong> · 2:06 · <a href="https://www.youtube.com/watch?v=_-NGlUCnHy0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

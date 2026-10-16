@@ -36,6 +36,27 @@ description: "Master the Kimura shoulder lock from High Mount. Complete finishin
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kimura from High Mount \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Kimura from the mount with Coach Matt",
+      "description": "Kimura from High Mount film study: Kimura from the mount with Coach Matt.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/oDVXJw48OMU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/oDVXJw48OMU",
+      "url": "https://www.youtube.com/watch?v=oDVXJw48OMU",
+      "duration": "PT131S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -83,6 +104,24 @@ In competition, the Kimura from High Mount frequently appears as part of submiss
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kimura from High Mount in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=oDVXJw48OMU)
+
+<p class="clip-credit"><strong>Kimura from the mount with Coach Matt</strong> · 2:11 · <a href="https://www.youtube.com/watch?v=oDVXJw48OMU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="outcomes" class="content-section">

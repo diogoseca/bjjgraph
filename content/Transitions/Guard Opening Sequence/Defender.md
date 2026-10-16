@@ -156,6 +156,27 @@ description: "How to defend against guard opening in BJJ. Recognition cues, guar
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Guard Opening Sequence (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Keeping a standing opponent inside your closed guard",
+      "description": "Guard Opening Sequence (Defender) film study: Keeping a standing opponent inside your closed guard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9PIbVkxs7I8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9PIbVkxs7I8",
+      "url": "https://www.youtube.com/watch?v=9PIbVkxs7I8",
+      "duration": "PT126S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -168,6 +189,24 @@ As the defender against the Guard Opening Sequence, you are the closed guard bot
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Guard Opening Sequence (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=9PIbVkxs7I8)
+
+<p class="clip-credit"><strong>Keeping a standing opponent inside your closed guard</strong> · 2:06 · <a href="https://www.youtube.com/watch?v=9PIbVkxs7I8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

@@ -468,10 +468,10 @@
     ],
     "clips": [
       {
-        "id": "3t6j9HT6Mr8",
-        "title": "Crucifix to rear naked choke",
-        "channel": "Greg Ferguson",
-        "duration": 42,
+        "id": "A6H5KUCB_0E",
+        "title": "Turn the crucifix into a BRUTAL assassin choke with this technique!",
+        "channel": "Malachy Friedman",
+        "duration": 84,
         "vertical": false,
         "front": true
       },
@@ -480,6 +480,13 @@
         "title": "Assassin choke from the back crucifix position",
         "channel": "Hellfish Mixed Martial Arts",
         "duration": 174,
+        "vertical": false
+      },
+      {
+        "id": "3t6j9HT6Mr8",
+        "title": "Crucifix to rear naked choke",
+        "channel": "Greg Ferguson",
+        "duration": 42,
         "vertical": false
       }
     ]

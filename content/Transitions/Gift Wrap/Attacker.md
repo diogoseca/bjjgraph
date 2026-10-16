@@ -176,6 +176,37 @@ description: "How to execute Gift Wrap in BJJ. Attacking perspective with setup,
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Gift Wrap (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Mount To Gift Wrap To Tap: MOUNT/GIFT WRAP",
+      "description": "Gift Wrap (Attacker) film study: Mount To Gift Wrap To Tap: MOUNT/GIFT WRAP.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/X3yIMfhGHnk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/X3yIMfhGHnk",
+      "url": "https://www.youtube.com/watch?v=X3yIMfhGHnk",
+      "duration": "PT92S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "The Gift Wrap in 2 Minutes - No GI BJJ",
+      "description": "Gift Wrap (Attacker) film study: The Gift Wrap in 2 Minutes - No GI BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5bw7poxVJ1E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5bw7poxVJ1E",
+      "url": "https://www.youtube.com/watch?v=5bw7poxVJ1E",
+      "duration": "PT111S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -192,6 +223,32 @@ The key to successful Gift Wrap entries lies in understanding opponent reactions
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Gift Wrap (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=X3yIMfhGHnk)
+
+<p class="clip-credit"><strong>Mount To Gift Wrap To Tap: MOUNT/GIFT WRAP</strong> · 1:32 · <a href="https://www.youtube.com/watch?v=X3yIMfhGHnk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=5bw7poxVJ1E)
+
+<p class="clip-credit"><strong>The Gift Wrap in 2 Minutes - No GI BJJ</strong> · 1:51 · <a href="https://www.youtube.com/watch?v=5bw7poxVJ1E" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

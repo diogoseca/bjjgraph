@@ -198,6 +198,16 @@ description: "How to execute Armbar from Back with Legs in BJJ. Attacking perspe
       "embedUrl": "https://www.youtube.com/embed/I4PhmMcJn_Y",
       "url": "https://www.youtube.com/watch?v=I4PhmMcJn_Y",
       "duration": "PT170S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "If You Practice Jiu Jitsu Try This New Variation Of Armbar From The Back!",
+      "description": "Armbar from Back with Legs (Attacker) film study: If You Practice Jiu Jitsu Try This New Variation Of Armbar From The Back!.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/jf1kPefTmm0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/jf1kPefTmm0",
+      "url": "https://www.youtube.com/watch?v=jf1kPefTmm0",
+      "duration": "PT79S"
     }
   ]
 }
@@ -237,6 +247,14 @@ The Armbar from Back with Legs is an advanced finishing technique that leverages
 ![](https://www.youtube.com/watch?v=I4PhmMcJn_Y)
 
 <p class="clip-credit"><strong>Jiu Jitsu Armbar from Backmount by John Danaher Blackbelt Aaron Milam</strong> · 2:50 · <a href="https://www.youtube.com/watch?v=I4PhmMcJn_Y" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=jf1kPefTmm0)
+
+<p class="clip-credit"><strong>If You Practice Jiu Jitsu Try This New Variation Of Armbar From The Back!</strong> · 1:19 · <a href="https://www.youtube.com/watch?v=jf1kPefTmm0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

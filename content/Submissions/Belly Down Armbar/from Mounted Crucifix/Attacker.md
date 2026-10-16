@@ -178,6 +178,37 @@ description: "Learn to execute the belly down armbar finish from mounted crucifi
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Belly Down Armbar from Mounted Crucifix (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Belly Down Attacks : Armbar and Rear Triangle",
+      "description": "Belly Down Armbar from Mounted Crucifix (Attacker) film study: Belly Down Attacks : Armbar and Rear Triangle.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5eA_LJK-gJo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5eA_LJK-gJo",
+      "url": "https://www.youtube.com/watch?v=5eA_LJK-gJo",
+      "duration": "PT67S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Belly Down/Side Armbar from Mount Against Push",
+      "description": "Belly Down Armbar from Mounted Crucifix (Attacker) film study: Belly Down/Side Armbar from Mount Against Push.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MIo1Q07Ng6U/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/MIo1Q07Ng6U",
+      "url": "https://www.youtube.com/watch?v=MIo1Q07Ng6U",
+      "duration": "PT110S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -191,6 +222,32 @@ Attacking with the belly down armbar from mounted crucifix combines the already 
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Belly Down Armbar from Mounted Crucifix (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=5eA_LJK-gJo)
+
+<p class="clip-credit"><strong>Belly Down Attacks : Armbar and Rear Triangle</strong> · 1:07 · <a href="https://www.youtube.com/watch?v=5eA_LJK-gJo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=MIo1Q07Ng6U)
+
+<p class="clip-credit"><strong>Belly Down/Side Armbar from Mount Against Push</strong> · 1:50 · <a href="https://www.youtube.com/watch?v=MIo1Q07Ng6U" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

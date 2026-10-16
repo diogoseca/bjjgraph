@@ -187,6 +187,16 @@ description: "How to execute Kosoto Gari in BJJ. Attacking perspective with setu
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "Minor Outer Reap (Kosoto Gari): An Easy and Effective Takedown for Judo and\u2026",
+      "description": "Kosoto Gari (Attacker) film study: Minor Outer Reap (Kosoto Gari): An Easy and Effective Takedown for Judo and\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9nFKizOUCdI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9nFKizOUCdI",
+      "url": "https://www.youtube.com/watch?v=9nFKizOUCdI",
+      "duration": "PT20S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
       "name": "Kosoto gari",
       "description": "Kosoto Gari (Attacker) film study: Kosoto gari.",
       "thumbnailUrl": "https://i.ytimg.com/vi/H5lOkLcs1tM/hqdefault.jpg",
@@ -220,6 +230,14 @@ Kosoto Gari (Minor Outer Reap) is a fundamental judo-derived foot sweep that has
 
 <p class="section-subtitle">Watch Kosoto Gari (Attacker) in action — curated instructionals</p>
 
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=9nFKizOUCdI)
+
+<p class="clip-credit"><strong>Minor Outer Reap (Kosoto Gari): An Easy and Effective Takedown for Judo and…</strong> · 0:20 · <a href="https://www.youtube.com/watch?v=9nFKizOUCdI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
 
 <div class="film-clip">
 

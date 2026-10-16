@@ -384,7 +384,16 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "T8lhwzwE__c",
+        "title": "arm triangle from guard to armbar to belly down",
+        "channel": "Sukrit Chandra",
+        "duration": 40,
+        "vertical": false,
+        "front": true
+      }
+    ]
   },
   "defender": {
     "name": "from Mounted Triangle Defender",

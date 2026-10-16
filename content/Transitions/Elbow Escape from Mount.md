@@ -52,6 +52,16 @@ description: "Master the Elbow Escape from Mount in BJJ. Systematic hip escape t
       "embedUrl": "https://www.youtube.com/embed/KirbkTs_Bk4",
       "url": "https://www.youtube.com/watch?v=KirbkTs_Bk4",
       "duration": "PT29S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "How to Escape the Mount: Knee and Elbow Escape",
+      "description": "Elbow Escape from Mount film study: How to Escape the Mount: Knee and Elbow Escape.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pUZcLTWHAzk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/pUZcLTWHAzk",
+      "url": "https://www.youtube.com/watch?v=pUZcLTWHAzk",
+      "duration": "PT71S"
     }
   ]
 }
@@ -108,6 +118,14 @@ This technique is strategically essential because mount is the highest-scoring a
 ![](https://www.youtube.com/watch?v=KirbkTs_Bk4)
 
 <p class="clip-credit"><strong>BJJ / Nogi Mount escape - heel drag elbow knee</strong> · 0:29 · <a href="https://www.youtube.com/watch?v=KirbkTs_Bk4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=pUZcLTWHAzk)
+
+<p class="clip-credit"><strong>How to Escape the Mount: Knee and Elbow Escape</strong> · 1:11 · <a href="https://www.youtube.com/watch?v=pUZcLTWHAzk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

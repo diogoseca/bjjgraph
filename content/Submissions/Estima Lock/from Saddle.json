@@ -425,7 +425,23 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "I-Jb4qHOFZA",
+        "title": "AET Head Coach Ninos: 50/50 Estima Lock",
+        "channel": "Renegade BJJ",
+        "duration": 86,
+        "vertical": false,
+        "front": true
+      },
+      {
+        "id": "kZL3SjFwZNw",
+        "title": "Estima Lock 에스티마 락",
+        "channel": "블랙리스트mma",
+        "duration": 38,
+        "vertical": false
+      }
+    ]
   },
   "defender": {
     "name": "Estima Lock from Saddle Defender",

@@ -144,6 +144,47 @@ description: "Defend the cross collar choke from 3-4 mount with proven grip-stri
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Cross Collar Choke from 3-4 Mount (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Cross Choke Defense | Arm Wrap Throw",
+      "description": "Cross Collar Choke from 3-4 Mount (Defender) film study: Cross Choke Defense | Arm Wrap Throw.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/quuT1NHbY6Y/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/quuT1NHbY6Y",
+      "url": "https://www.youtube.com/watch?v=quuT1NHbY6Y",
+      "duration": "PT70S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Cross Choke Defense from Guard - Two Quick Tips",
+      "description": "Cross Collar Choke from 3-4 Mount (Defender) film study: Cross Choke Defense from Guard - Two Quick Tips.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/QIRF2B9riAA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/QIRF2B9riAA",
+      "url": "https://www.youtube.com/watch?v=QIRF2B9riAA",
+      "duration": "PT105S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Defend cross choke - armbar",
+      "description": "Cross Collar Choke from 3-4 Mount (Defender) film study: Defend cross choke - armbar.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/F1qoGHKy_uE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/F1qoGHKy_uE",
+      "url": "https://www.youtube.com/watch?v=F1qoGHKy_uE",
+      "duration": "PT22S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -157,6 +198,40 @@ Defending the cross collar choke from 3-4 mount requires immediate recognition o
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Cross Collar Choke from 3-4 Mount (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=quuT1NHbY6Y)
+
+<p class="clip-credit"><strong>Cross Choke Defense | Arm Wrap Throw</strong> · 1:10 · <a href="https://www.youtube.com/watch?v=quuT1NHbY6Y" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=QIRF2B9riAA)
+
+<p class="clip-credit"><strong>Cross Choke Defense from Guard - Two Quick Tips</strong> · 1:45 · <a href="https://www.youtube.com/watch?v=QIRF2B9riAA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=F1qoGHKy_uE)
+
+<p class="clip-credit"><strong>Defend cross choke - armbar</strong> · 0:22 · <a href="https://www.youtube.com/watch?v=F1qoGHKy_uE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

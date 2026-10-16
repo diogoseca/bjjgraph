@@ -182,6 +182,27 @@ description: "Master executing guard pulls from ground position in BJJ. Step-by-
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Pull Guard from Ground (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Pulling Closed Guard",
+      "description": "Pull Guard from Ground (Attacker) film study: Pulling Closed Guard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/c9zYACjPEWo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/c9zYACjPEWo",
+      "url": "https://www.youtube.com/watch?v=c9zYACjPEWo",
+      "duration": "PT53S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -194,6 +215,24 @@ As the attacker executing Pull Guard from Ground, your objective is to transitio
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Pull Guard from Ground (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=c9zYACjPEWo)
+
+<p class="clip-credit"><strong>Pulling Closed Guard</strong> · 0:53 · <a href="https://www.youtube.com/watch?v=c9zYACjPEWo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

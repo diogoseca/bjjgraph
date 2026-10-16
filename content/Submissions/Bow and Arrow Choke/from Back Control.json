@@ -446,7 +446,16 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "rc77idEskwo",
+        "title": "Bow and Arrow Choke by Helena Crevar",
+        "channel": "BJJ Fanatics",
+        "duration": 55,
+        "vertical": false,
+        "front": true
+      }
+    ]
   },
   "defender": {
     "name": "from Back Control Defender",
@@ -626,6 +635,13 @@
         "duration": 35,
         "vertical": false,
         "front": true
+      },
+      {
+        "id": "J91GRsql-ZA",
+        "title": "Bow & Arrow Choke Defense Drill (simple head/shoulder detail)",
+        "channel": "Henry Akins' Hidden Jiu-Jitsu",
+        "duration": 114,
+        "vertical": false
       }
     ]
   }

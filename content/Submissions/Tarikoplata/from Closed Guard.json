@@ -489,7 +489,29 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "hVXGAvOrwyA",
+        "title": "tarikoplata",
+        "channel": "bjjtaro",
+        "duration": 8,
+        "vertical": false
+      },
+      {
+        "id": "ZbFNUmyWQkM",
+        "title": "Tarikoplata finishes + switch to Baratoplata",
+        "channel": "Sam Bahador",
+        "duration": 60,
+        "vertical": false
+      },
+      {
+        "id": "jpNqecvfuFg",
+        "title": "Do you know about the power of the TARIKOPLATA?",
+        "channel": "Miha Perhavec",
+        "duration": 63,
+        "vertical": false
+      }
+    ]
   },
   "defender": {
     "name": "Tarikoplata Defender",

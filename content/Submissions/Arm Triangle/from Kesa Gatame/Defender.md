@@ -152,6 +152,37 @@ description: "Learn to defend the Arm Triangle from Kesa Gatame. Recognize the g
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Arm Triangle from Kesa Gatame (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "arm triangle escape using hawking",
+      "description": "Arm Triangle from Kesa Gatame (Defender) film study: arm triangle escape using hawking.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Nspz2EAIQ_k/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Nspz2EAIQ_k",
+      "url": "https://www.youtube.com/watch?v=Nspz2EAIQ_k",
+      "duration": "PT27S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "How to Escape Arm Triangles (Head and Arm Chokes) and Return with a Scarf Hold",
+      "description": "Arm Triangle from Kesa Gatame (Defender) film study: How to Escape Arm Triangles (Head and Arm Chokes) and Return with a Scarf Hold.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/BuTIktWWudo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/BuTIktWWudo",
+      "url": "https://www.youtube.com/watch?v=BuTIktWWudo",
+      "duration": "PT129S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -165,6 +196,32 @@ Defending the Arm Triangle from Kesa Gatame requires recognizing the critical tr
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Arm Triangle from Kesa Gatame (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Nspz2EAIQ_k)
+
+<p class="clip-credit"><strong>arm triangle escape using hawking</strong> · 0:27 · <a href="https://www.youtube.com/watch?v=Nspz2EAIQ_k" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=BuTIktWWudo)
+
+<p class="clip-credit"><strong>How to Escape Arm Triangles (Head and Arm Chokes) and Return with a Scarf Hold</strong> · 2:09 · <a href="https://www.youtube.com/watch?v=BuTIktWWudo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

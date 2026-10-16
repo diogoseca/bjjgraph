@@ -463,7 +463,16 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "91eO9lV-sVE",
+        "title": "K Guard Defense | K Guard Pass",
+        "channel": "Pure Grappling",
+        "duration": 281,
+        "vertical": false,
+        "front": true
+      }
+    ]
   },
   "bottom": {
     "name": "K-Guard Bottom",

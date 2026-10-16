@@ -438,7 +438,23 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "1O-BoOWXhzY",
+        "title": "Modern Jiu Jitsu Episode 1 - Baratoplata Basics.",
+        "channel": "True Believer Jiu Jitsu",
+        "duration": 232,
+        "vertical": false,
+        "front": true
+      },
+      {
+        "id": "7PzrTuuHzZ4",
+        "title": "Baratoplata from Spider Guard by Joao Miyao",
+        "channel": "BJJ Fanatics",
+        "duration": 362,
+        "vertical": false
+      }
+    ]
   },
   "defender": {
     "name": "from Crackhead Control Defender",
@@ -621,6 +637,14 @@
         "description": "Start in crackhead control with the attacker free to attempt any submission including the baratoplata. Defender works all available escapes and defensive options against unpredictable attacks. Develops the ability to distinguish between different submission threats and apply the correct defensive response in real time."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "rx4XoCFWeq8",
+        "title": "Baratoplata Defense!!!                                            #jiujitsu…",
+        "channel": "Animal",
+        "duration": 74,
+        "vertical": false
+      }
+    ]
   }
 }

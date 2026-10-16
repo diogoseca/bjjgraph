@@ -406,7 +406,23 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "NzkSekbRmZ4",
+        "title": "Master the Standing Grapevine to Kneebar | Billy Robinson’s Catch Wrestling…",
+        "channel": "Scientific Wrestling",
+        "duration": 63,
+        "vertical": false,
+        "front": true
+      },
+      {
+        "id": "v4lhLkKgVvU",
+        "title": "Go Behind Kneebar by Craig Jones",
+        "channel": "BJJ Fanatics",
+        "duration": 129,
+        "vertical": false
+      }
+    ]
   },
   "defender": {
     "name": "from Kneebar Control Defender",
@@ -575,6 +591,29 @@
         "description": "Full defensive sequence from recognition through escape attempt. Partner attacks with realistic timing and pressure while defender chains recognition, bent-knee defense, hip rotation, and leg extraction into a cohesive escape. Progress to full positional sparring where defender starts in kneebar control and must escape or tap safely."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "3zJthP57wXw",
+        "title": "Kneebar Escape by Darren Branch | High Rollerz Academy - Jiu Jitsu…",
+        "channel": "High Rollerz Jiu Jitsu 💨🥋",
+        "duration": 73,
+        "vertical": false,
+        "front": true
+      },
+      {
+        "id": "hze1WyTvkzA",
+        "title": "Defending Kneebar To Toe Hold",
+        "channel": "Garden State Brazilian Jiu-Jitsu Academy",
+        "duration": 24,
+        "vertical": false
+      },
+      {
+        "id": "kUuJ03CcIUQ",
+        "title": "Crazy Kneebar Defense From AJ Agazarm against Garry Tonon",
+        "channel": "FloGrappling",
+        "duration": 23,
+        "vertical": false
+      }
+    ]
   }
 }

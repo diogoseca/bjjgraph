@@ -160,6 +160,27 @@ description: "Defend the heel hook from Inside Ashi-Garami with early recognitio
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Heel Hook from Inside Ashi-Garami (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Defending and Countering 50/50 Heel Hook and Backsteps with Your Own Submissions",
+      "description": "Heel Hook from Inside Ashi-Garami (Defender) film study: Defending and Countering 50/50 Heel Hook and Backsteps with Your Own Submissions.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gpg88DFH9D4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/gpg88DFH9D4",
+      "url": "https://www.youtube.com/watch?v=gpg88DFH9D4",
+      "duration": "PT81S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -175,6 +196,24 @@ The critical defensive window exists between the attacker's initial heel capture
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Heel Hook from Inside Ashi-Garami (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=gpg88DFH9D4)
+
+<p class="clip-credit"><strong>Defending and Countering 50/50 Heel Hook and Backsteps with Your Own Submissions</strong> · 1:21 · <a href="https://www.youtube.com/watch?v=gpg88DFH9D4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

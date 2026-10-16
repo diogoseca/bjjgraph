@@ -178,6 +178,37 @@ description: "Execute the Americana shoulder lock from High Mount. Attacking gui
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Americana from High Mount (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "BJJ technique with Chelsea Ozer: Americana from mount",
+      "description": "Americana from High Mount (Attacker) film study: BJJ technique with Chelsea Ozer: Americana from mount.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Z44VF9pmJBg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Z44VF9pmJBg",
+      "url": "https://www.youtube.com/watch?v=Z44VF9pmJBg",
+      "duration": "PT52S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Finishing the Americana",
+      "description": "Americana from High Mount (Attacker) film study: Finishing the Americana.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/mk4jR6Anm8g/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/mk4jR6Anm8g",
+      "url": "https://www.youtube.com/watch?v=mk4jR6Anm8g",
+      "duration": "PT71S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -191,6 +222,32 @@ Attacking the Americana from high mount gives you a structural advantage unmatch
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Americana from High Mount (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Z44VF9pmJBg)
+
+<p class="clip-credit"><strong>BJJ technique with Chelsea Ozer: Americana from mount</strong> · 0:52 · <a href="https://www.youtube.com/watch?v=Z44VF9pmJBg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=mk4jR6Anm8g)
+
+<p class="clip-credit"><strong>Finishing the Americana</strong> · 1:11 · <a href="https://www.youtube.com/watch?v=mk4jR6Anm8g" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

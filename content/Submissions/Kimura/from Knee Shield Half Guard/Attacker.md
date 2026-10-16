@@ -198,6 +198,26 @@ description: "Complete attacking guide for the Kimura from Knee Shield Half Guar
       "embedUrl": "https://www.youtube.com/embed/EDAqI3pSOTU",
       "url": "https://www.youtube.com/watch?v=EDAqI3pSOTU",
       "duration": "PT230S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "BJJ | How To Kimura From Bottom Half Guard",
+      "description": "Kimura from Knee Shield Half Guard (Attacker) film study: BJJ | How To Kimura From Bottom Half Guard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5F3ZM01oPVo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5F3ZM01oPVo",
+      "url": "https://www.youtube.com/watch?v=5F3ZM01oPVo",
+      "duration": "PT41S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 4,
+      "name": "Gi BJJ Technique: Kimura From Half Guard",
+      "description": "Kimura from Knee Shield Half Guard (Attacker) film study: Gi BJJ Technique: Kimura From Half Guard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/oZFPOBuz_w0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/oZFPOBuz_w0",
+      "url": "https://www.youtube.com/watch?v=oZFPOBuz_w0",
+      "duration": "PT75S"
     }
   ]
 }
@@ -237,6 +257,22 @@ Attacking the Kimura from Knee Shield Half Guard requires patience in grip estab
 ![](https://www.youtube.com/watch?v=EDAqI3pSOTU)
 
 <p class="clip-credit"><strong>Move of the Week ➡️ Knee Shield Half Guard Kimura</strong> · 3:50 · <a href="https://www.youtube.com/watch?v=EDAqI3pSOTU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=5F3ZM01oPVo)
+
+<p class="clip-credit"><strong>BJJ | How To Kimura From Bottom Half Guard</strong> · 0:41 · <a href="https://www.youtube.com/watch?v=5F3ZM01oPVo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=oZFPOBuz_w0)
+
+<p class="clip-credit"><strong>Gi BJJ Technique: Kimura From Half Guard</strong> · 1:15 · <a href="https://www.youtube.com/watch?v=oZFPOBuz_w0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

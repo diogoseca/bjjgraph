@@ -609,6 +609,15 @@
         "description": "Start in kneebar control with attacker working the kneebar-toe hold chain at competition pace. Defender uses all available tools - grip prevention, leg straightening, hip rotation, guard recovery. Track escape rate and tap timing to measure defensive development."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "3a9k8-ZcYrk",
+        "title": "How to escape from toehold by Gordon Ryan",
+        "channel": "The King Life",
+        "duration": 105,
+        "vertical": false,
+        "front": true
+      }
+    ]
   }
 }

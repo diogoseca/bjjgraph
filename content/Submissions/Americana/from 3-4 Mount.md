@@ -36,6 +36,37 @@ description: "Master the Americana from 3-4 Mount in BJJ. Step-by-step shoulder 
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Americana from 3-4 Mount \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Renzo Gracie: Americana from the mount | Renzo Gracie Online Academy",
+      "description": "Americana from 3-4 Mount film study: Renzo Gracie: Americana from the mount | Renzo Gracie Online Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/KbOkHMVhnT8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/KbOkHMVhnT8",
+      "url": "https://www.youtube.com/watch?v=KbOkHMVhnT8",
+      "duration": "PT91S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Learn A Hidden Detail To Finish The Americana by Henry Akins (Rickson Gracie\u2026",
+      "description": "Americana from 3-4 Mount film study: Learn A Hidden Detail To Finish The Americana by Henry Akins (Rickson Gracie\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/mhpeVqdfZgQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/mhpeVqdfZgQ",
+      "url": "https://www.youtube.com/watch?v=mhpeVqdfZgQ",
+      "duration": "PT696S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -83,6 +114,32 @@ Strategically, the Americana from 3-4 Mount functions as the centerpiece of a su
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Americana from 3-4 Mount in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=KbOkHMVhnT8)
+
+<p class="clip-credit"><strong>Renzo Gracie: Americana from the mount | Renzo Gracie Online Academy</strong> · 1:31 · <a href="https://www.youtube.com/watch?v=KbOkHMVhnT8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=mhpeVqdfZgQ)
+
+<p class="clip-credit"><strong>Learn A Hidden Detail To Finish The Americana by Henry Akins (Rickson Gracie…</strong> · 11:36 · <a href="https://www.youtube.com/watch?v=mhpeVqdfZgQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="outcomes" class="content-section">

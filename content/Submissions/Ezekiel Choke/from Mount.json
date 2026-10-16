@@ -440,7 +440,22 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "73ukcOj5s74",
+        "title": "SUPER SNEAKY & EASY EZEKIEL CHOKE",
+        "channel": "Johnny Jitsu",
+        "duration": 59,
+        "vertical": false
+      },
+      {
+        "id": "w-KCxVQFMOU",
+        "title": "Roger Gracie, Setting Up the Ezekiel Choke.",
+        "channel": "JiuJitsuMag",
+        "duration": 221,
+        "vertical": false
+      }
+    ]
   },
   "defender": {
     "name": "Ezekiel Choke from Mount Defender",

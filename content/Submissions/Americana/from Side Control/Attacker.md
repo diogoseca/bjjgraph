@@ -172,6 +172,27 @@ description: "How to execute Americana from Side Control in BJJ. Attacking persp
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Americana from Side Control (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Finishing the Americana",
+      "description": "Americana from Side Control (Attacker) film study: Finishing the Americana.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/mk4jR6Anm8g/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/mk4jR6Anm8g",
+      "url": "https://www.youtube.com/watch?v=mk4jR6Anm8g",
+      "duration": "PT71S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -189,6 +210,24 @@ The Americana from Side Control exemplifies the principle of positional dominanc
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Americana from Side Control (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=mk4jR6Anm8g)
+
+<p class="clip-credit"><strong>Finishing the Americana</strong> · 1:11 · <a href="https://www.youtube.com/watch?v=mk4jR6Anm8g" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

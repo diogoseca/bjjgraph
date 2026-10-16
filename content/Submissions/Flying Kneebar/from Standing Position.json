@@ -710,7 +710,23 @@
         "description": "Full positional sparring where attacker attempts flying kneebar from standing against active defender. Start at 60% intensity and build to 80%. Defender practices the complete defensive sequence: recognition, stance change, and if caught, immediate escape attempts with correct rotation and knee bend. Critically, practice recognizing when escape has failed and tapping early - drill the tap decision as a positive defensive skill rather than a failure. Track recognition rate, escape rate, and appropriate tap timing across sessions."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "NuWBh3LN-SY",
+        "title": "Knee Bar defense + take the back",
+        "channel": "Bicudo BJJ",
+        "duration": 21,
+        "vertical": false,
+        "front": true
+      },
+      {
+        "id": "wBRG0fY94fs",
+        "title": "How to Defend a Kneebar (and Prevent a Backstep Pass)",
+        "channel": "Revolution BJJ",
+        "duration": 59,
+        "vertical": false
+      }
+    ]
   },
   "variations_and_setups": [
     {

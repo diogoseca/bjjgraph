@@ -36,6 +36,27 @@ description: "Master the Rear Naked Choke from Body Triangle with expert finishi
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Rear Naked Choke from Body Triangle \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "BJJ drills, how to attack the back using a body triangle with x hands, straight\u2026",
+      "description": "Rear Naked Choke from Body Triangle film study: BJJ drills, how to attack the back using a body triangle with x hands, straight\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3OkCuU0B0UE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3OkCuU0B0UE",
+      "url": "https://www.youtube.com/watch?v=3OkCuU0B0UE",
+      "duration": "PT27S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -83,6 +104,24 @@ The finishing mechanics remain identical to the standard RNC — the choking arm
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Rear Naked Choke from Body Triangle in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=3OkCuU0B0UE)
+
+<p class="clip-credit"><strong>BJJ drills, how to attack the back using a body triangle with x hands, straight…</strong> · 0:27 · <a href="https://www.youtube.com/watch?v=3OkCuU0B0UE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="outcomes" class="content-section">

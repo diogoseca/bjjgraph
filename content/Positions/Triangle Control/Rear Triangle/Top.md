@@ -171,6 +171,16 @@ description: "Master Rear Triangle Top position in BJJ. Control opponent's back 
       "embedUrl": "https://www.youtube.com/embed/EchKKSAYMqM",
       "url": "https://www.youtube.com/watch?v=EchKKSAYMqM",
       "duration": "PT1559S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Rear Triangle from Back by Gracie Charlottesville",
+      "description": "Rear Triangle (Top) film study: Rear Triangle from Back by Gracie Charlottesville.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/l5ayCZh3W78/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/l5ayCZh3W78",
+      "url": "https://www.youtube.com/watch?v=l5ayCZh3W78",
+      "duration": "PT32S"
     }
   ]
 }
@@ -199,6 +209,14 @@ Rear Triangle Top is an advanced back control variation where the top practition
 ![](https://www.youtube.com/watch?v=EchKKSAYMqM)
 
 <p class="clip-credit"><strong>Arizona Camp Nov 2022: The Rear Triangle - A Triangle for everyone with Rob Cole</strong> · 25:59 · <a href="https://www.youtube.com/watch?v=EchKKSAYMqM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=l5ayCZh3W78)
+
+<p class="clip-credit"><strong>Rear Triangle from Back by Gracie Charlottesville</strong> · 0:32 · <a href="https://www.youtube.com/watch?v=l5ayCZh3W78" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

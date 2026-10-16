@@ -47,22 +47,12 @@ description: "Master Ouchi Gari inner reap takedown in BJJ. Step-by-step executi
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Ouchi Gari counter with Uki Waza/Yoko Otoshi",
-      "description": "Ouchi Gari film study: Ouchi Gari counter with Uki Waza/Yoko Otoshi.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/hVv4saQm5Do/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/hVv4saQm5Do",
-      "url": "https://www.youtube.com/watch?v=hVv4saQm5Do",
-      "duration": "PT21S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Counter To Ouchi Gari | Grappling University",
-      "description": "Ouchi Gari film study: Counter To Ouchi Gari | Grappling University.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/qEV8CKGqwWE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/qEV8CKGqwWE",
-      "url": "https://www.youtube.com/watch?v=qEV8CKGqwWE",
-      "duration": "PT186S"
+      "name": "Misdirection Ouchi-Gari",
+      "description": "Ouchi Gari film study: Misdirection Ouchi-Gari.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XdOuXj1H0ok/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/XdOuXj1H0ok",
+      "url": "https://www.youtube.com/watch?v=XdOuXj1H0ok",
+      "duration": "PT99S"
     }
   ]
 }
@@ -115,17 +105,9 @@ Ouchi Gari (major inner reaping throw) is a fundamental judo technique that has 
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=hVv4saQm5Do)
+![](https://www.youtube.com/watch?v=XdOuXj1H0ok)
 
-<p class="clip-credit"><strong>Ouchi Gari counter with Uki Waza/Yoko Otoshi</strong> · 0:21 · <a href="https://www.youtube.com/watch?v=hVv4saQm5Do" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=qEV8CKGqwWE)
-
-<p class="clip-credit"><strong>Counter To Ouchi Gari | Grappling University</strong> · 3:06 · <a href="https://www.youtube.com/watch?v=qEV8CKGqwWE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Misdirection Ouchi-Gari</strong> · 1:39 · <a href="https://www.youtube.com/watch?v=XdOuXj1H0ok" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

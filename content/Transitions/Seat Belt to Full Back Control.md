@@ -36,6 +36,27 @@ description: "Master the Seat Belt to Full Back Control transition in BJJ. Secur
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Seat Belt to Full Back Control \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Escaping Back Control Seatbelt with no Hooks (Dinu Bucalet)",
+      "description": "Seat Belt to Full Back Control film study: Escaping Back Control Seatbelt with no Hooks (Dinu Bucalet).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hGzykDrlskc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hGzykDrlskc",
+      "url": "https://www.youtube.com/watch?v=hGzykDrlskc",
+      "duration": "PT139S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -74,6 +95,24 @@ Strategically, this transition distinguishes practitioners who simply arrive at 
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Seat Belt to Full Back Control in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=hGzykDrlskc)
+
+<p class="clip-credit"><strong>Escaping Back Control Seatbelt with no Hooks (Dinu Bucalet)</strong> · 2:19 · <a href="https://www.youtube.com/watch?v=hGzykDrlskc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="possible-outcomes" class="content-section">

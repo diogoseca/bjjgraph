@@ -178,6 +178,37 @@ description: "Attack the toe hold from Backside 50-50 with precision. Step-by-st
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Toe Hold from Backside 50-50 (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Paper Cutter Toehold From 50/50",
+      "description": "Toe Hold from Backside 50-50 (Attacker) film study: Paper Cutter Toehold From 50/50.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xwaJm1Ft5lc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/xwaJm1Ft5lc",
+      "url": "https://www.youtube.com/watch?v=xwaJm1Ft5lc",
+      "duration": "PT59S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Fifty fifty toe hold",
+      "description": "Toe Hold from Backside 50-50 (Attacker) film study: Fifty fifty toe hold.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/BbPdLSszYt8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/BbPdLSszYt8",
+      "url": "https://www.youtube.com/watch?v=BbPdLSszYt8",
+      "duration": "PT69S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -191,6 +222,32 @@ Attacking the toe hold from Backside 50-50 leverages your dominant chest-to-back
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Toe Hold from Backside 50-50 (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=xwaJm1Ft5lc)
+
+<p class="clip-credit"><strong>Paper Cutter Toehold From 50/50</strong> · 0:59 · <a href="https://www.youtube.com/watch?v=xwaJm1Ft5lc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=BbPdLSszYt8)
+
+<p class="clip-credit"><strong>Fifty fifty toe hold</strong> · 1:09 · <a href="https://www.youtube.com/watch?v=BbPdLSszYt8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

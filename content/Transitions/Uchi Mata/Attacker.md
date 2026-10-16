@@ -177,6 +177,27 @@ description: "How to execute Uchi Mata in BJJ. Attacking perspective with setup,
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Uchi Mata (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How to do a deep step uchimata Right vs Left by Sam King",
+      "description": "Uchi Mata (Attacker) film study: How to do a deep step uchimata Right vs Left by Sam King.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/mJnp6GdW8Ew/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/mJnp6GdW8Ew",
+      "url": "https://www.youtube.com/watch?v=mJnp6GdW8Ew",
+      "duration": "PT104S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -192,6 +213,24 @@ The Uchi Mata (inner thigh throw) is one of judo's most powerful and versatile t
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Uchi Mata (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=mJnp6GdW8Ew)
+
+<p class="clip-credit"><strong>How to do a deep step uchimata Right vs Left by Sam King</strong> · 1:44 · <a href="https://www.youtube.com/watch?v=mJnp6GdW8Ew" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

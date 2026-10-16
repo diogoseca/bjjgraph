@@ -152,6 +152,27 @@ description: "How to defend against Electric Chair in BJJ. Recognition, escape p
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Electric Chair from Deep Half Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Lockdown and Electric Chair counters and escapes for Jiu-Jitsu, MMA and\u2026",
+      "description": "Electric Chair from Deep Half Guard (Defender) film study: Lockdown and Electric Chair counters and escapes for Jiu-Jitsu, MMA and\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3A6oRsDf3oU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3A6oRsDf3oU",
+      "url": "https://www.youtube.com/watch?v=3A6oRsDf3oU",
+      "duration": "PT285S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -169,6 +190,24 @@ When defense fails to prevent the submission entry, the defender must recognize 
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Electric Chair from Deep Half Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=3A6oRsDf3oU)
+
+<p class="clip-credit"><strong>Lockdown and Electric Chair counters and escapes for Jiu-Jitsu, MMA and…</strong> · 4:45 · <a href="https://www.youtube.com/watch?v=3A6oRsDf3oU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

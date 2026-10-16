@@ -52,6 +52,16 @@ description: "Master the Backstep Pass from Reverse X-Guard in BJJ. Complete gui
       "embedUrl": "https://www.youtube.com/embed/UYSDyiPraRQ",
       "url": "https://www.youtube.com/watch?v=UYSDyiPraRQ",
       "duration": "PT115S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Reverse X Saddle Entry | Backstep Counter | Leg Locks",
+      "description": "Backstep Pass from Reverse X-Guard film study: Reverse X Saddle Entry | Backstep Counter | Leg Locks.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2hJO3DwdFK4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2hJO3DwdFK4",
+      "url": "https://www.youtube.com/watch?v=2hJO3DwdFK4",
+      "duration": "PT198S"
     }
   ]
 }
@@ -108,6 +118,14 @@ This technique has become a staple in modern passing systems against inverted gu
 ![](https://www.youtube.com/watch?v=UYSDyiPraRQ)
 
 <p class="clip-credit"><strong>Imanari Roll to Counter Backstep from Reverse X | Grappler Alex Fialho</strong> · 1:55 · <a href="https://www.youtube.com/watch?v=UYSDyiPraRQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2hJO3DwdFK4)
+
+<p class="clip-credit"><strong>Reverse X Saddle Entry | Backstep Counter | Leg Locks</strong> · 3:18 · <a href="https://www.youtube.com/watch?v=2hJO3DwdFK4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

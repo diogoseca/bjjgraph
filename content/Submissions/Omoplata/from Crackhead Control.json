@@ -590,6 +590,21 @@
         "description": "Defend against live omoplata attempts from the complete Rubber Guard system with full resistance. Integrate all defensive options based on real-time position reading and develop the judgment to tap early when escape windows have closed."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "0-SG9igq40E",
+        "title": "Omoplata Escape to Front Headlock",
+        "channel": "Asaf Mich",
+        "duration": 14,
+        "vertical": false
+      },
+      {
+        "id": "xqBK1Y2BdSg",
+        "title": "Submission escape - omoplata",
+        "channel": "thiago stefanutti",
+        "duration": 17,
+        "vertical": false
+      }
+    ]
   }
 }

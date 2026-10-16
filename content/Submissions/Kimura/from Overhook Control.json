@@ -437,7 +437,15 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "ljmJ9xP6N7U",
+        "title": "Overhook guard to reverse triangle + Kimura",
+        "channel": "ZeGrapplez",
+        "duration": 45,
+        "vertical": false
+      }
+    ]
   },
   "defender": {
     "name": "from Overhook Control Defender",
@@ -623,6 +631,22 @@
         "description": "Start positional rounds in overhook control bottom. Defend the full attack sequence including chains to Darce, Anaconda, and back takes. Practice making defensive decisions in real time against fully resisting partners. Track which defensive responses work most consistently and refine your primary defense."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "GOLwVNTVcnY",
+        "title": "The Daily Dirtball: \"Kimura Defense Grip Breaks\"",
+        "channel": "Dirtball BJJ",
+        "duration": 81,
+        "vertical": false,
+        "front": true
+      },
+      {
+        "id": "uRn3DRICpeY",
+        "title": "Late Kimura Defense from Bottom Side Control",
+        "channel": "Fox Den Martial Arts",
+        "duration": 100,
+        "vertical": false
+      }
+    ]
   }
 }

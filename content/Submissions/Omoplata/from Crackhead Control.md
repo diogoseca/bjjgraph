@@ -36,6 +36,37 @@ description: "Master the omoplata from Crackhead Control. Complete guide to this
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Omoplata from Crackhead Control \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Omoplata Escape to Front Headlock",
+      "description": "Omoplata from Crackhead Control film study: Omoplata Escape to Front Headlock.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0-SG9igq40E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/0-SG9igq40E",
+      "url": "https://www.youtube.com/watch?v=0-SG9igq40E",
+      "duration": "PT14S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Submission escape - omoplata",
+      "description": "Omoplata from Crackhead Control film study: Submission escape - omoplata.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xqBK1Y2BdSg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/xqBK1Y2BdSg",
+      "url": "https://www.youtube.com/watch?v=xqBK1Y2BdSg",
+      "duration": "PT17S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -83,6 +114,32 @@ The finishing mechanics follow established omoplata principles once the perpendi
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Omoplata from Crackhead Control in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=0-SG9igq40E)
+
+<p class="clip-credit"><strong>Omoplata Escape to Front Headlock</strong> · 0:14 · <a href="https://www.youtube.com/watch?v=0-SG9igq40E" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=xqBK1Y2BdSg)
+
+<p class="clip-credit"><strong>Submission escape - omoplata</strong> · 0:17 · <a href="https://www.youtube.com/watch?v=xqBK1Y2BdSg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="outcomes" class="content-section">

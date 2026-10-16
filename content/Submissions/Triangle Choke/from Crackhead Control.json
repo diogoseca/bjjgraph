@@ -411,7 +411,15 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "EhiPyX_s044",
+        "title": "Eddie Bravo Rubber Guard / MIssion Control /Meathook / Triangle / Double Bag /…",
+        "channel": "ABEL BJJ: 5 Minutes Alone",
+        "duration": 132,
+        "vertical": false
+      }
+    ]
   },
   "defender": {
     "name": "from Crackhead Control Defender",
@@ -571,6 +579,15 @@
         "description": "Positional sparring starting from Crackhead Control. Partner works full-speed triangle attempts while defender applies all defensive tools from recognition through prevention to escape. Integrate all phases into fluid defensive responses under competition-level intensity."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "ATHDA-De4FE",
+        "title": "4 Ways to Escape Triangle ( Everyone Must Know)",
+        "channel": "BIG OSS Jiu-Jitsu Channel",
+        "duration": 570,
+        "vertical": false,
+        "front": true
+      }
+    ]
   }
 }

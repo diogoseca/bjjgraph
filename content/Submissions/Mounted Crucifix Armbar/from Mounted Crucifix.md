@@ -36,6 +36,37 @@ description: "Master the Mounted Crucifix Armbar in BJJ. Complete guide to arm i
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Mounted Crucifix Armbar from Mounted Crucifix \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Laura Sanko MMA Demo | Straight Armbar From Inverted Crucifix",
+      "description": "Mounted Crucifix Armbar from Mounted Crucifix film study: Laura Sanko MMA Demo | Straight Armbar From Inverted Crucifix.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hISwyzfmQr0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hISwyzfmQr0",
+      "url": "https://www.youtube.com/watch?v=hISwyzfmQr0",
+      "duration": "PT281S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Black Belt Crucifix Attacks: Armbar \u0026 Rolling Reverse Omoplata",
+      "description": "Mounted Crucifix Armbar from Mounted Crucifix film study: Black Belt Crucifix Attacks: Armbar \u0026 Rolling Reverse Omoplata.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/VL8WcZaILow/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/VL8WcZaILow",
+      "url": "https://www.youtube.com/watch?v=VL8WcZaILow",
+      "duration": "PT441S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -83,6 +114,32 @@ Mechanically, the armbar requires the attacker to pivot their hips toward the ta
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Mounted Crucifix Armbar from Mounted Crucifix in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=hISwyzfmQr0)
+
+<p class="clip-credit"><strong>Laura Sanko MMA Demo | Straight Armbar From Inverted Crucifix</strong> · 4:41 · <a href="https://www.youtube.com/watch?v=hISwyzfmQr0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=VL8WcZaILow)
+
+<p class="clip-credit"><strong>Black Belt Crucifix Attacks: Armbar &amp; Rolling Reverse Omoplata</strong> · 7:21 · <a href="https://www.youtube.com/watch?v=VL8WcZaILow" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="outcomes" class="content-section">

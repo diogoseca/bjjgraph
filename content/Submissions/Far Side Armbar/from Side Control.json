@@ -707,7 +707,30 @@
         "description": "Start in side control bottom with partner actively hunting the far side armbar at full competition intensity. Practice the complete defensive chain from prevention through grip fighting through escape. Track success rates and identify which stage your defense most commonly fails at. Include rounds starting with the armbar already partially locked to build comfort in late-stage defense."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "sDdqvh_1kbA",
+        "title": "Armbar Escape: RNC",
+        "channel": "ZombieProofBJJ",
+        "duration": 62,
+        "vertical": false,
+        "front": true
+      },
+      {
+        "id": "AfDEN3uK3W0",
+        "title": "The NoGi Minute: Low effort armbar escape via foot capture",
+        "channel": "Patrick Donabedian BJJ",
+        "duration": 55,
+        "vertical": false
+      },
+      {
+        "id": "kNdKfUdgO4I",
+        "title": "THIS is my favorite armbar escape! #jiujitsu #jiujitsutips",
+        "channel": "Matt Arroyo Jiu Jitsu ",
+        "duration": 92,
+        "vertical": false
+      }
+    ]
   },
   "variations_and_setups": [
     {

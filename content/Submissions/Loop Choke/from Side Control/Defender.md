@@ -152,6 +152,37 @@ description: "How to defend the Loop Choke from Side Control in BJJ. Recognition
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Loop Choke from Side Control (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Loop choke escape",
+      "description": "Loop Choke from Side Control (Defender) film study: Loop choke escape.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pZmJpXSwRTk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/pZmJpXSwRTk",
+      "url": "https://www.youtube.com/watch?v=pZmJpXSwRTk",
+      "duration": "PT60S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Loop choke escape",
+      "description": "Loop Choke from Side Control (Defender) film study: Loop choke escape.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/11PEV0xVadQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/11PEV0xVadQ",
+      "url": "https://www.youtube.com/watch?v=11PEV0xVadQ",
+      "duration": "PT99S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -167,6 +198,32 @@ Successful defense prioritizes early grip prevention over late-stage escape. The
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Loop Choke from Side Control (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=pZmJpXSwRTk)
+
+<p class="clip-credit"><strong>Loop choke escape</strong> · 1:00 · <a href="https://www.youtube.com/watch?v=pZmJpXSwRTk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=11PEV0xVadQ)
+
+<p class="clip-credit"><strong>Loop choke escape</strong> · 1:39 · <a href="https://www.youtube.com/watch?v=11PEV0xVadQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

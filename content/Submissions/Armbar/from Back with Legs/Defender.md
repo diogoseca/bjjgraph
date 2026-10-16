@@ -168,6 +168,16 @@ description: "How to defend against Armbar from Back with Legs in BJJ. Recogniti
       "embedUrl": "https://www.youtube.com/embed/s_X84S_o8_A",
       "url": "https://www.youtube.com/watch?v=s_X84S_o8_A",
       "duration": "PT246S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "THIS is my favorite armbar escape! #jiujitsu #jiujitsutips",
+      "description": "Armbar from Back with Legs (Defender) film study: THIS is my favorite armbar escape! #jiujitsu #jiujitsutips.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kNdKfUdgO4I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kNdKfUdgO4I",
+      "url": "https://www.youtube.com/watch?v=kNdKfUdgO4I",
+      "duration": "PT92S"
     }
   ]
 }
@@ -203,6 +213,14 @@ The most critical defensive principle is urgency during the transition combined 
 ![](https://www.youtube.com/watch?v=s_X84S_o8_A)
 
 <p class="clip-credit"><strong>The Armbar From the Back and How to Stop It</strong> · 4:06 · <a href="https://www.youtube.com/watch?v=s_X84S_o8_A" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kNdKfUdgO4I)
+
+<p class="clip-credit"><strong>THIS is my favorite armbar escape! #jiujitsu #jiujitsutips</strong> · 1:32 · <a href="https://www.youtube.com/watch?v=kNdKfUdgO4I" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

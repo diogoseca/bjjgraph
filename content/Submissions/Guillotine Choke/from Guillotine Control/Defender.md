@@ -162,6 +162,16 @@ description: "Complete defensive guide against the guillotine choke from guillot
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "Guillotine Escape from Closed Guard to Side Control",
+      "description": "Guillotine Choke from Guillotine Control (Defender) film study: Guillotine Escape from Closed Guard to Side Control.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lvjRNWzKMPc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lvjRNWzKMPc",
+      "url": "https://www.youtube.com/watch?v=lvjRNWzKMPc",
+      "duration": "PT27S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
       "name": "Guillotine Choke Defense",
       "description": "Guillotine Choke from Guillotine Control (Defender) film study: Guillotine Choke Defense.",
       "thumbnailUrl": "https://i.ytimg.com/vi/OQYU2BXdEEw/hqdefault.jpg",
@@ -195,6 +205,14 @@ The most critical defensive principle is that prevention is vastly easier than e
 
 <p class="section-subtitle">Watch Guillotine Choke from Guillotine Control (Defender) in action — curated instructionals</p>
 
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lvjRNWzKMPc)
+
+<p class="clip-credit"><strong>Guillotine Escape from Closed Guard to Side Control</strong> · 0:27 · <a href="https://www.youtube.com/watch?v=lvjRNWzKMPc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
 
 <div class="film-clip">
 

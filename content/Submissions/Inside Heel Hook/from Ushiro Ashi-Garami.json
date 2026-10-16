@@ -444,7 +444,15 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "QfNKQzy3V_w",
+        "title": "Arm Saddle to Inside Heel Hook | Flow Drill",
+        "channel": "Factory Fresh Jiu Jitsu",
+        "duration": 21,
+        "vertical": false
+      }
+    ]
   },
   "defender": {
     "name": "Inside Heel Hook from Ushiro Ashi-Garami Defender",
@@ -635,6 +643,15 @@
         "description": "Begin rounds in established ushiro ashi-garami bottom with both practitioners at full intensity. Practice selecting between escape, defense, and counter-attack based on real-time conditions. Emphasize tap discipline—tap early and without hesitation when rotational pressure is felt. Review each round to identify decision points."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "5jD4ByQUrDA",
+        "title": "Basic Inside/Inverted Heel Hook Escape",
+        "channel": "Scott Ryan Chiriboga",
+        "duration": 108,
+        "vertical": false,
+        "front": true
+      }
+    ]
   }
 }

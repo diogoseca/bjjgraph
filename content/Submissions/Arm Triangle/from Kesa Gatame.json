@@ -641,6 +641,22 @@
         "description": "Partner starts in Kesa Gatame top with full offensive options including arm triangle, americana, and kimura attacks. Defend all attacks with emphasis on near-arm positioning awareness to prevent the arm triangle setup. 5-minute rounds, reset on escape or submission."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "Nspz2EAIQ_k",
+        "title": "arm triangle escape using hawking",
+        "channel": "Crucifix Mike",
+        "duration": 27,
+        "vertical": false,
+        "front": true
+      },
+      {
+        "id": "BuTIktWWudo",
+        "title": "How to Escape Arm Triangles (Head and Arm Chokes) and Return with a Scarf Hold",
+        "channel": "War Room Jiu Jitsu",
+        "duration": 129,
+        "vertical": false
+      }
+    ]
   }
 }

@@ -194,6 +194,26 @@ description: "Learn to attack with the Bow and Arrow Choke from Seat Belt back c
       "embedUrl": "https://www.youtube.com/embed/rsrA1GOcywM",
       "url": "https://www.youtube.com/watch?v=rsrA1GOcywM",
       "duration": "PT154S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Turtle back take Bow and Arrow choke",
+      "description": "Bow and Arrow Choke from Seat Belt Control Back (Attacker) film study: Turtle back take Bow and Arrow choke.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ejXJPx128qs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ejXJPx128qs",
+      "url": "https://www.youtube.com/watch?v=ejXJPx128qs",
+      "duration": "PT28S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "How To FINISH Your Bow \u0026 Arrow Chokes (KEY Detail)",
+      "description": "Bow and Arrow Choke from Seat Belt Control Back (Attacker) film study: How To FINISH Your Bow \u0026 Arrow Chokes (KEY Detail).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6yx5No7AKU0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6yx5No7AKU0",
+      "url": "https://www.youtube.com/watch?v=6yx5No7AKU0",
+      "duration": "PT42S"
     }
   ]
 }
@@ -225,6 +245,22 @@ Attacking with the Bow and Arrow Choke from Seat Belt Control Back requires a pr
 ![](https://www.youtube.com/watch?v=rsrA1GOcywM)
 
 <p class="clip-credit"><strong>Kyle fogel - bow and arrow - seatbelt</strong> · 2:34 · <a href="https://www.youtube.com/watch?v=rsrA1GOcywM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ejXJPx128qs)
+
+<p class="clip-credit"><strong>Turtle back take Bow and Arrow choke</strong> · 0:28 · <a href="https://www.youtube.com/watch?v=ejXJPx128qs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=6yx5No7AKU0)
+
+<p class="clip-credit"><strong>How To FINISH Your Bow &amp; Arrow Chokes (KEY Detail)</strong> · 0:42 · <a href="https://www.youtube.com/watch?v=6yx5No7AKU0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

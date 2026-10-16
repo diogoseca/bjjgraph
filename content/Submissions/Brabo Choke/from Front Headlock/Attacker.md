@@ -192,12 +192,32 @@ description: "How to execute Brabo Choke in BJJ. Attacking perspective with setu
     {
       "@type": "VideoObject",
       "position": 2,
+      "name": "Procel BJJ | Darce Choke from the Front Headlock Position",
+      "description": "Brabo Choke from Front Headlock (Attacker) film study: Procel BJJ | Darce Choke from the Front Headlock Position.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/BMU1_wfjYTw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/BMU1_wfjYTw",
+      "url": "https://www.youtube.com/watch?v=BMU1_wfjYTw",
+      "duration": "PT100S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
       "name": "Front Headlock to Brabo Choke",
       "description": "Brabo Choke from Front Headlock (Attacker) film study: Front Headlock to Brabo Choke.",
       "thumbnailUrl": "https://i.ytimg.com/vi/xl14mmXhFCo/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/xl14mmXhFCo",
       "url": "https://www.youtube.com/watch?v=xl14mmXhFCo",
       "duration": "PT283S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 4,
+      "name": "Submission from the turtle brabo choke",
+      "description": "Brabo Choke from Front Headlock (Attacker) film study: Submission from the turtle brabo choke.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pad9c-Ldljg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/pad9c-Ldljg",
+      "url": "https://www.youtube.com/watch?v=pad9c-Ldljg",
+      "duration": "PT46S"
     }
   ]
 }
@@ -234,9 +254,25 @@ The Brabo Choke is a powerful blood choke from the front headlock position, clos
 
 <div class="film-clip">
 
+![](https://www.youtube.com/watch?v=BMU1_wfjYTw)
+
+<p class="clip-credit"><strong>Procel BJJ | Darce Choke from the Front Headlock Position</strong> · 1:40 · <a href="https://www.youtube.com/watch?v=BMU1_wfjYTw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
 ![](https://www.youtube.com/watch?v=xl14mmXhFCo)
 
 <p class="clip-credit"><strong>Front Headlock to Brabo Choke</strong> · 4:43 · <a href="https://www.youtube.com/watch?v=xl14mmXhFCo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=pad9c-Ldljg)
+
+<p class="clip-credit"><strong>Submission from the turtle brabo choke</strong> · 0:46 · <a href="https://www.youtube.com/watch?v=pad9c-Ldljg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

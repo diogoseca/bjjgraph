@@ -160,6 +160,27 @@ description: "Defend and escape the North-South Choke from Ushiro Kesa Gatame Ho
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "North-South Choke from Ushiro Kesa Gatame (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "\u201cHook-Plata\u201d  (North-South Choke Escape)",
+      "description": "North-South Choke from Ushiro Kesa Gatame (Defender) film study: \u201cHook-Plata\u201d  (North-South Choke Escape).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/O-2iSvT8zDk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/O-2iSvT8zDk",
+      "url": "https://www.youtube.com/watch?v=O-2iSvT8zDk",
+      "duration": "PT59S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -173,6 +194,24 @@ Defending the North-South Choke from Ushiro Kesa Gatame Hold requires early reco
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch North-South Choke from Ushiro Kesa Gatame (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=O-2iSvT8zDk)
+
+<p class="clip-credit"><strong>“Hook-Plata”  (North-South Choke Escape)</strong> · 0:59 · <a href="https://www.youtube.com/watch?v=O-2iSvT8zDk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

@@ -150,27 +150,6 @@ description: "How to defend against Kneebar entry in BJJ. Recognition cues, defe
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Kneebar entry (Defender) \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Knee Bar Defense to Leg\ufffc Drag\ufffc",
-      "description": "Kneebar entry (Defender) film study: Knee Bar Defense to Leg\ufffc Drag\ufffc.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/-1c4KyEfZ9Y/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/-1c4KyEfZ9Y",
-      "url": "https://www.youtube.com/watch?v=-1c4KyEfZ9Y",
-      "duration": "PT234S"
-    }
-  ]
-}
-</script>
-
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -185,24 +164,6 @@ Your defensive priority hierarchy is: first, prevent the foot trap by maintainin
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Kneebar entry (Defender) in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=-1c4KyEfZ9Y)
-
-<p class="clip-credit"><strong>Knee Bar Defense to Leg￼ Drag￼</strong> · 3:54 · <a href="https://www.youtube.com/watch?v=-1c4KyEfZ9Y" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="recognition-cues" class="content-section">

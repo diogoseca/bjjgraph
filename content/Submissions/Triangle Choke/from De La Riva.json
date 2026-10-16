@@ -458,18 +458,25 @@
     ],
     "clips": [
       {
-        "id": "UOFZwIbz9zM",
-        "title": "=Triangle from De La Riva Guard=",
-        "channel": "Nartay Kazhekov",
-        "duration": 25,
-        "vertical": false,
-        "front": true
-      },
-      {
         "id": "0EmXVus5m8o",
         "title": "Easy De La Riva Triangle Choke #fastlanebjj #bjj #jiujitsu #jiujitsulifestyle…",
         "channel": "Alex Lane",
         "duration": 89,
+        "vertical": false,
+        "front": true
+      },
+      {
+        "id": "UOFZwIbz9zM",
+        "title": "=Triangle from De La Riva Guard=",
+        "channel": "Nartay Kazhekov",
+        "duration": 25,
+        "vertical": false
+      },
+      {
+        "id": "gR54h1IXyGg",
+        "title": "Knee Shield with Reverse De La Riva to Triangle",
+        "channel": "Lucas Lepri Brazilian Jiu Jitsu & Fitness",
+        "duration": 22,
         "vertical": false
       }
     ]
@@ -665,7 +672,15 @@
         "description": "Open sparring rounds starting from DLR where attacker can use any technique. Defender must address triangle threat while also defending sweeps and other submissions. Develops the ability to defend the triangle without creating openings for other attacks. Full competition intensity with focus on maintaining composure and defensive structure across multiple threat vectors."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "DLmrzSs1hWI",
+        "title": "Triangle defense/escape",
+        "channel": "Daniel Frank",
+        "duration": 23,
+        "vertical": false
+      }
+    ]
   },
   "variations_and_setups": [
     {

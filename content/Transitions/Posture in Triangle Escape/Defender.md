@@ -150,6 +150,37 @@ description: "Prevent posture recovery against your triangle choke in BJJ. Maint
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Posture in Triangle Escape (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How To Finish a Triangle When Someone Has Good Posture",
+      "description": "Posture in Triangle Escape (Defender) film study: How To Finish a Triangle When Someone Has Good Posture.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/M3_VDLm6PoE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/M3_VDLm6PoE",
+      "url": "https://www.youtube.com/watch?v=M3_VDLm6PoE",
+      "duration": "PT142S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "5 Counters to Your Opponent Standing in Your Triangle Choke",
+      "description": "Posture in Triangle Escape (Defender) film study: 5 Counters to Your Opponent Standing in Your Triangle Choke.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0BQpXYOU4FI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/0BQpXYOU4FI",
+      "url": "https://www.youtube.com/watch?v=0BQpXYOU4FI",
+      "duration": "PT309S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -162,6 +193,32 @@ As the triangle holder, your primary defensive objective against the posture rec
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Posture in Triangle Escape (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=M3_VDLm6PoE)
+
+<p class="clip-credit"><strong>How To Finish a Triangle When Someone Has Good Posture</strong> · 2:22 · <a href="https://www.youtube.com/watch?v=M3_VDLm6PoE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=0BQpXYOU4FI)
+
+<p class="clip-credit"><strong>5 Counters to Your Opponent Standing in Your Triangle Choke</strong> · 5:09 · <a href="https://www.youtube.com/watch?v=0BQpXYOU4FI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

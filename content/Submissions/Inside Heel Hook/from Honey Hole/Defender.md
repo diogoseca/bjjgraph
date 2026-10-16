@@ -152,6 +152,27 @@ description: "Defend the Inside Heel Hook from Honey Hole in BJJ. Recognition cu
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Inside Heel Hook from Honey Hole (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "70 second Breakdown: Defending \u0026 Countering the Inside Heel Hook",
+      "description": "Inside Heel Hook from Honey Hole (Defender) film study: 70 second Breakdown: Defending \u0026 Countering the Inside Heel Hook.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DF2AYLPbeHc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DF2AYLPbeHc",
+      "url": "https://www.youtube.com/watch?v=DF2AYLPbeHc",
+      "duration": "PT70S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -165,6 +186,24 @@ Defending the Inside Heel Hook from Honey Hole is one of the most critical survi
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Inside Heel Hook from Honey Hole (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=DF2AYLPbeHc)
+
+<p class="clip-credit"><strong>70 second Breakdown: Defending &amp; Countering the Inside Heel Hook</strong> · 1:10 · <a href="https://www.youtube.com/watch?v=DF2AYLPbeHc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

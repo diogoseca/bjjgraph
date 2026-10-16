@@ -138,6 +138,27 @@ description: "Defensive guide against the Bow and Arrow Choke from Russian Cowbo
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Bow and Arrow Choke from Russian Cowboy (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Bow and arrow choke escape",
+      "description": "Bow and Arrow Choke from Russian Cowboy (Defender) film study: Bow and arrow choke escape.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fEWUEDI_ng4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fEWUEDI_ng4",
+      "url": "https://www.youtube.com/watch?v=fEWUEDI_ng4",
+      "duration": "PT73S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -153,6 +174,24 @@ Effective defense operates on a timeline: early-phase defense focuses on grip pr
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Bow and Arrow Choke from Russian Cowboy (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fEWUEDI_ng4)
+
+<p class="clip-credit"><strong>Bow and arrow choke escape</strong> · 1:13 · <a href="https://www.youtube.com/watch?v=fEWUEDI_ng4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

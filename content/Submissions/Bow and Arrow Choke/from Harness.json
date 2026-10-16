@@ -471,6 +471,20 @@
         "channel": "Tyson T. / Cammy T.",
         "duration": 154,
         "front": true
+      },
+      {
+        "id": "6yx5No7AKU0",
+        "title": "How To FINISH Your Bow & Arrow Chokes (KEY Detail)",
+        "channel": "Henry Akins' Hidden Jiu-Jitsu",
+        "duration": 42,
+        "vertical": false
+      },
+      {
+        "id": "rc77idEskwo",
+        "title": "Bow and Arrow Choke by Helena Crevar",
+        "channel": "BJJ Fanatics",
+        "duration": 55,
+        "vertical": false
       }
     ]
   },
@@ -644,6 +658,22 @@
         "description": "Live positional sparring from back control where the attacker can use any back attack. Defender practices reading which attack is being set up and applying the appropriate defense — RNC defense versus collar grip stripping versus turn escapes. Builds pattern recognition under live conditions."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "Iz0aesx6cKk",
+        "title": "Bow and arrow choke escape",
+        "channel": "Revolution BJJ",
+        "duration": 35,
+        "vertical": false,
+        "front": true
+      },
+      {
+        "id": "fEWUEDI_ng4",
+        "title": "Bow and arrow choke escape",
+        "channel": "Revolution BJJ Ashland",
+        "duration": 73,
+        "vertical": false
+      }
+    ]
   }
 }

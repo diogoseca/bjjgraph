@@ -505,6 +505,13 @@
         "duration": 35,
         "vertical": false,
         "front": true
+      },
+      {
+        "id": "Y1ubVWKdbXU",
+        "title": "The Perfect Kimura! (Gracie Breakdown)",
+        "channel": "GracieBreakdown",
+        "duration": 30,
+        "vertical": false
       }
     ]
   },
@@ -708,6 +715,20 @@
         "duration": 67,
         "vertical": false,
         "front": true
+      },
+      {
+        "id": "TIOgQ3N2a6Y",
+        "title": "How to Escape the Kimura Armlock .",
+        "channel": "Eddie Kone Academy Of Jiu-Jitsu",
+        "duration": 45,
+        "vertical": false
+      },
+      {
+        "id": "TuaopPUakM8",
+        "title": "Defending The Kimura",
+        "channel": "Eddie Kone Academy Of Jiu-Jitsu",
+        "duration": 61,
+        "vertical": false
       }
     ]
   },

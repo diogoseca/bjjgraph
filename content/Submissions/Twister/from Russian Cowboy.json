@@ -448,7 +448,22 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "RVr67Kb-6ec",
+        "title": "Twister from Turtle (Try it out Tuesday)",
+        "channel": "Thunderdome BJJ",
+        "duration": 24,
+        "vertical": false
+      },
+      {
+        "id": "lv15-NuoiUc",
+        "title": "Twister (Grappling Submission)",
+        "channel": "Emil montes",
+        "duration": 137,
+        "vertical": false
+      }
+    ]
   },
   "defender": {
     "name": "Twister from Russian Cowboy Defender",
@@ -634,6 +649,22 @@
         "description": "Incorporate Twister defense into live rolling scenarios starting from Russian Cowboy bottom. Partner attacks at full speed with genuine commitment to the finish. Practice the complete defensive decision tree: early prevention, mid-stage escape, and timely tap when caught. Develop automatic defensive reactions that fire on recognition cues without conscious thought. Review each repetition for defensive timing accuracy."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "Va1YNgx2E6M",
+        "title": "Escape and counter the Twister! - Matrix Jiu Jitsu",
+        "channel": "Matrix Jiu Jitsu",
+        "duration": 165,
+        "vertical": false,
+        "front": true
+      },
+      {
+        "id": "oNCcwLYDM_g",
+        "title": "Breakdown DEFENSE ESCAPE TWISTER Korean Zombie  first  HISTORY of UFC…",
+        "channel": "m mill",
+        "duration": 201,
+        "vertical": false
+      }
+    ]
   }
 }

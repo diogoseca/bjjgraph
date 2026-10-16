@@ -178,6 +178,27 @@ description: "Step-by-step guide to finishing the Arm Triangle from Twister Side
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Arm Triangle from Twister Side Control (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "MTS 195 Advanced Arm Triangle",
+      "description": "Arm Triangle from Twister Side Control (Attacker) film study: MTS 195 Advanced Arm Triangle.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CuhFzPhwvQA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/CuhFzPhwvQA",
+      "url": "https://www.youtube.com/watch?v=CuhFzPhwvQA",
+      "duration": "PT61S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -191,6 +212,24 @@ The Arm Triangle from Twister Side Control attacks the carotid arteries using th
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Arm Triangle from Twister Side Control (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=CuhFzPhwvQA)
+
+<p class="clip-credit"><strong>MTS 195 Advanced Arm Triangle</strong> · 1:01 · <a href="https://www.youtube.com/watch?v=CuhFzPhwvQA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

@@ -62,6 +62,26 @@ description: "Master the Armbar from High Mount in BJJ. Complete guide to setup 
       "embedUrl": "https://www.youtube.com/embed/8yYKRJJANa8",
       "url": "https://www.youtube.com/watch?v=8yYKRJJANa8",
       "duration": "PT309S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Strikes to an Arm Bar from Mount Position (MMA)",
+      "description": "Armbar from High Mount film study: Strikes to an Arm Bar from Mount Position (MMA).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/cajDQH-ZiH8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/cajDQH-ZiH8",
+      "url": "https://www.youtube.com/watch?v=cajDQH-ZiH8",
+      "duration": "PT44S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 4,
+      "name": "Roger Gracie | ARM BARS",
+      "description": "Armbar from High Mount film study: Roger Gracie | ARM BARS.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/vSmRbpNmf-E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/vSmRbpNmf-E",
+      "url": "https://www.youtube.com/watch?v=vSmRbpNmf-E",
+      "duration": "PT102S"
     }
   ]
 }
@@ -135,6 +155,22 @@ Strategically, the Armbar from High Mount functions as the centerpiece of mount 
 ![](https://www.youtube.com/watch?v=8yYKRJJANa8)
 
 <p class="clip-credit"><strong>3 ways to finish the Arm bar from high mount</strong> · 5:09 · <a href="https://www.youtube.com/watch?v=8yYKRJJANa8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=cajDQH-ZiH8)
+
+<p class="clip-credit"><strong>Strikes to an Arm Bar from Mount Position (MMA)</strong> · 0:44 · <a href="https://www.youtube.com/watch?v=cajDQH-ZiH8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=vSmRbpNmf-E)
+
+<p class="clip-credit"><strong>Roger Gracie | ARM BARS</strong> · 1:42 · <a href="https://www.youtube.com/watch?v=vSmRbpNmf-E" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -427,7 +427,15 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "Q2aYW-20B44",
+        "title": "Marshall Stamper ~ Meathook→Chilldog→Carnie/Kimura/Ultimate Kimura",
+        "channel": "The Bear's Den BJJ & MMA  熊派巴西柔術及MMA學院",
+        "duration": 73,
+        "vertical": false
+      }
+    ]
   },
   "defender": {
     "name": "from New York Control Defender",
@@ -597,6 +605,29 @@
         "description": "Begin in New York Control with the bottom player actively hunting the Kimura and chain submissions. Defend with full resistance, implementing recognition, grip defense, and posture recovery under pressure. Track escape rate and identify which defensive stage breaks down most frequently."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "FoAYceaEPLc",
+        "title": "3 Sneaky Ways to Counter Kimuras from Half Guard Top (Using 1 Grip)",
+        "channel": "Chewjitsu",
+        "duration": 277,
+        "vertical": false,
+        "front": true
+      },
+      {
+        "id": "bUZmy2Gu7jo",
+        "title": "10th Planet Jiu Jitsu Secret Kimura Grip Break - 10th Planet Jiu Jitsu - West LA",
+        "channel": "10th Planet Jiu Jitsu - West LA",
+        "duration": 87,
+        "vertical": false
+      },
+      {
+        "id": "mQc4mxtDGUo",
+        "title": "Kimura Escape / Counters and More",
+        "channel": "BJJ After Forty",
+        "duration": 201,
+        "vertical": false
+      }
+    ]
   }
 }

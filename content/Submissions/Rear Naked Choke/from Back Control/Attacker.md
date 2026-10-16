@@ -188,6 +188,16 @@ description: "Learn to finish the rear naked choke from back control. Step-by-st
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "Rear Naked Choke From Back Control",
+      "description": "Rear Naked Choke from Back Control (Attacker) film study: Rear Naked Choke From Back Control.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3vCytl_OI-4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3vCytl_OI-4",
+      "url": "https://www.youtube.com/watch?v=3vCytl_OI-4",
+      "duration": "PT75S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
       "name": "Gordon Ryan - Rear Naked Choke (Control Jiu-Jitsu Submission of The Week)",
       "description": "Rear Naked Choke from Back Control (Attacker) film study: Gordon Ryan - Rear Naked Choke (Control Jiu-Jitsu Submission of The Week).",
       "thumbnailUrl": "https://i.ytimg.com/vi/70jECxFfCSA/hqdefault.jpg",
@@ -197,13 +207,13 @@ description: "Learn to finish the rear naked choke from back control. Step-by-st
     },
     {
       "@type": "VideoObject",
-      "position": 2,
-      "name": "Rear Naked Choke From Back Control",
-      "description": "Rear Naked Choke from Back Control (Attacker) film study: Rear Naked Choke From Back Control.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/3vCytl_OI-4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/3vCytl_OI-4",
-      "url": "https://www.youtube.com/watch?v=3vCytl_OI-4",
-      "duration": "PT75S"
+      "position": 3,
+      "name": "Rear Naked Choke: You\u0027re doing it wrong. (It\u0027s in the SQueeZe)",
+      "description": "Rear Naked Choke from Back Control (Attacker) film study: Rear Naked Choke: You\u0027re doing it wrong. (It\u0027s in the SQueeZe).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rPRORaAiJAs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/rPRORaAiJAs",
+      "url": "https://www.youtube.com/watch?v=rPRORaAiJAs",
+      "duration": "PT95S"
     }
   ]
 }
@@ -232,6 +242,14 @@ Attacking with the rear naked choke from back control requires systematic progre
 
 <div class="film-clip">
 
+![](https://www.youtube.com/watch?v=3vCytl_OI-4)
+
+<p class="clip-credit"><strong>Rear Naked Choke From Back Control</strong> · 1:15 · <a href="https://www.youtube.com/watch?v=3vCytl_OI-4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
 ![](https://www.youtube.com/watch?v=70jECxFfCSA)
 
 <p class="clip-credit"><strong>Gordon Ryan - Rear Naked Choke (Control Jiu-Jitsu Submission of The Week)</strong> · 1:13 · <a href="https://www.youtube.com/watch?v=70jECxFfCSA" rel="noopener">Watch on YouTube</a></p>
@@ -240,9 +258,9 @@ Attacking with the rear naked choke from back control requires systematic progre
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=3vCytl_OI-4)
+![](https://www.youtube.com/watch?v=rPRORaAiJAs)
 
-<p class="clip-credit"><strong>Rear Naked Choke From Back Control</strong> · 1:15 · <a href="https://www.youtube.com/watch?v=3vCytl_OI-4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Rear Naked Choke: You&#39;re doing it wrong. (It&#39;s in the SQueeZe)</strong> · 1:35 · <a href="https://www.youtube.com/watch?v=rPRORaAiJAs" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

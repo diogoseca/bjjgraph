@@ -184,6 +184,37 @@ description: "Execute the North-South Choke from Ushiro Kesa Gatame Hold. Comple
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "North-South Choke from Ushiro Kesa Gatame (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Marcelo Garcia - North South Choke",
+      "description": "North-South Choke from Ushiro Kesa Gatame (Attacker) film study: Marcelo Garcia - North South Choke.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/z3RNUfHfiSM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/z3RNUfHfiSM",
+      "url": "https://www.youtube.com/watch?v=z3RNUfHfiSM",
+      "duration": "PT20S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "North South Choke for BJJ \u0026 MMA",
+      "description": "North-South Choke from Ushiro Kesa Gatame (Attacker) film study: North South Choke for BJJ \u0026 MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/SfUhu8rbz68/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/SfUhu8rbz68",
+      "url": "https://www.youtube.com/watch?v=SfUhu8rbz68",
+      "duration": "PT86S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -197,6 +228,32 @@ Attacking the North-South Choke from Ushiro Kesa Gatame Hold requires understand
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch North-South Choke from Ushiro Kesa Gatame (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=z3RNUfHfiSM)
+
+<p class="clip-credit"><strong>Marcelo Garcia - North South Choke</strong> · 0:20 · <a href="https://www.youtube.com/watch?v=z3RNUfHfiSM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=SfUhu8rbz68)
+
+<p class="clip-credit"><strong>North South Choke for BJJ &amp; MMA</strong> · 1:26 · <a href="https://www.youtube.com/watch?v=SfUhu8rbz68" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

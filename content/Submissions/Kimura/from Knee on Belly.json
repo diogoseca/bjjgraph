@@ -436,12 +436,26 @@
     ],
     "clips": [
       {
+        "id": "bKEhbrZaS7Y",
+        "title": "Kimura Setup From Knee on Belly Using the Arm Trap",
+        "channel": "Jiu Jitsu Five-O // BJJ Training for the Street",
+        "duration": 31,
+        "vertical": false,
+        "front": true
+      },
+      {
+        "id": "MEc9jBx5M14",
+        "title": "Knee on belly to Kimura from North South(KalivasTeam BJJ&MMA)",
+        "channel": "Nikos Kalivas BJJ",
+        "duration": 38,
+        "vertical": false
+      },
+      {
         "id": "mEmlkI3zbeE",
         "title": "Kimura from Knee on Belly",
         "channel": "Mauricio Gomes BJJ",
         "duration": 49,
-        "vertical": false,
-        "front": true
+        "vertical": false
       }
     ]
   },

@@ -188,6 +188,26 @@ description: "Learn to attack with the calf slicer from Honey Hole. Step-by-step
       "embedUrl": "https://www.youtube.com/embed/FDCL7MV5G7s",
       "url": "https://www.youtube.com/watch?v=FDCL7MV5G7s",
       "duration": "PT77S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "The Calf Slicer: How to bait, enter and finish from a failed leg lock",
+      "description": "Calf Slicer from Honey Hole (Attacker) film study: The Calf Slicer: How to bait, enter and finish from a failed leg lock.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/IX7ABEXpMVw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/IX7ABEXpMVw",
+      "url": "https://www.youtube.com/watch?v=IX7ABEXpMVw",
+      "duration": "PT164S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Ham Sandwich to Honeyhole #10thplanethendersonnc #leglocks #calfslicer\u2026",
+      "description": "Calf Slicer from Honey Hole (Attacker) film study: Ham Sandwich to Honeyhole #10thplanethendersonnc #leglocks #calfslicer\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4hjnzSE-VgY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4hjnzSE-VgY",
+      "url": "https://www.youtube.com/watch?v=4hjnzSE-VgY",
+      "duration": "PT113S"
     }
   ]
 }
@@ -219,6 +239,22 @@ Attacking with the calf slicer from Honey Hole requires recognizing when heel ho
 ![](https://www.youtube.com/watch?v=FDCL7MV5G7s)
 
 <p class="clip-credit"><strong>Calf Slicer from the Saddle</strong> · 1:17 · <a href="https://www.youtube.com/watch?v=FDCL7MV5G7s" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=IX7ABEXpMVw)
+
+<p class="clip-credit"><strong>The Calf Slicer: How to bait, enter and finish from a failed leg lock</strong> · 2:44 · <a href="https://www.youtube.com/watch?v=IX7ABEXpMVw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=4hjnzSE-VgY)
+
+<p class="clip-credit"><strong>Ham Sandwich to Honeyhole #10thplanethendersonnc #leglocks #calfslicer…</strong> · 1:53 · <a href="https://www.youtube.com/watch?v=4hjnzSE-VgY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

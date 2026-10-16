@@ -188,6 +188,26 @@ description: "Execute the Omoplata from Butterfly Guard with hook elevation setu
       "embedUrl": "https://www.youtube.com/embed/mXI1NZ5L3eA",
       "url": "https://www.youtube.com/watch?v=mXI1NZ5L3eA",
       "duration": "PT38S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Shoulder Crunch Omoplata",
+      "description": "Omoplata from Butterfly Guard (Attacker) film study: Shoulder Crunch Omoplata.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/O_uTvq4s3LQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/O_uTvq4s3LQ",
+      "url": "https://www.youtube.com/watch?v=O_uTvq4s3LQ",
+      "duration": "PT87S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "TMG Clips #80 - Omoplata Details!",
+      "description": "Omoplata from Butterfly Guard (Attacker) film study: TMG Clips #80 - Omoplata Details!.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/zjhkmmfU1gg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/zjhkmmfU1gg",
+      "url": "https://www.youtube.com/watch?v=zjhkmmfU1gg",
+      "duration": "PT119S"
     }
   ]
 }
@@ -219,6 +239,22 @@ Attacking the Omoplata from Butterfly Guard requires mastery of the transition f
 ![](https://www.youtube.com/watch?v=mXI1NZ5L3eA)
 
 <p class="clip-credit"><strong>Omoplata from butterfly guard | BJJ submission</strong> · 0:38 · <a href="https://www.youtube.com/watch?v=mXI1NZ5L3eA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=O_uTvq4s3LQ)
+
+<p class="clip-credit"><strong>Shoulder Crunch Omoplata</strong> · 1:27 · <a href="https://www.youtube.com/watch?v=O_uTvq4s3LQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=zjhkmmfU1gg)
+
+<p class="clip-credit"><strong>TMG Clips #80 - Omoplata Details!</strong> · 1:59 · <a href="https://www.youtube.com/watch?v=zjhkmmfU1gg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

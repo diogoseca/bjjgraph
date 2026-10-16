@@ -168,6 +168,16 @@ description: "How to defend against Americana from Mount in BJJ. Recognition, es
       "embedUrl": "https://www.youtube.com/embed/Ny_l7GHApo0",
       "url": "https://www.youtube.com/watch?v=Ny_l7GHApo0",
       "duration": "PT199S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Simple Americana Armlock Escape",
+      "description": "Americana from Mount (Defender) film study: Simple Americana Armlock Escape.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/NZjUCo8os8Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/NZjUCo8os8Q",
+      "url": "https://www.youtube.com/watch?v=NZjUCo8os8Q",
+      "duration": "PT61S"
     }
   ]
 }
@@ -203,6 +213,14 @@ From a strategic perspective, the most effective americana defense creates offen
 ![](https://www.youtube.com/watch?v=Ny_l7GHApo0)
 
 <p class="clip-credit"><strong>Mounted Americana Defenses - Technique #1 - Prevention and Early Phase Escapes</strong> · 3:19 · <a href="https://www.youtube.com/watch?v=Ny_l7GHApo0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=NZjUCo8os8Q)
+
+<p class="clip-credit"><strong>Simple Americana Armlock Escape</strong> · 1:01 · <a href="https://www.youtube.com/watch?v=NZjUCo8os8Q" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

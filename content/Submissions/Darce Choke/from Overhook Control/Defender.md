@@ -152,6 +152,47 @@ description: "Defend the Darce Choke from Overhook Control with recognition cues
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Darce Choke from Overhook Control (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Underhook Half Guard vs Darce and Guillotine",
+      "description": "Darce Choke from Overhook Control (Defender) film study: Underhook Half Guard vs Darce and Guillotine.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dM1xebWBFzc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dM1xebWBFzc",
+      "url": "https://www.youtube.com/watch?v=dM1xebWBFzc",
+      "duration": "PT369S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "DEFENDING THE FRONT HEAD LOCK CHOKE - DARCE CHOKE - CHOKE - SUBMISSION - ESCAPE\u2026",
+      "description": "Darce Choke from Overhook Control (Defender) film study: DEFENDING THE FRONT HEAD LOCK CHOKE - DARCE CHOKE - CHOKE - SUBMISSION - ESCAPE\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/FMAWiNfgp74/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/FMAWiNfgp74",
+      "url": "https://www.youtube.com/watch?v=FMAWiNfgp74",
+      "duration": "PT30S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "D\u0027arce Defense",
+      "description": "Darce Choke from Overhook Control (Defender) film study: D\u0027arce Defense.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ug2Kxs54GuU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ug2Kxs54GuU",
+      "url": "https://www.youtube.com/watch?v=ug2Kxs54GuU",
+      "duration": "PT714S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -165,6 +206,40 @@ Defending the Darce Choke from Overhook Control demands early recognition of the
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Darce Choke from Overhook Control (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dM1xebWBFzc)
+
+<p class="clip-credit"><strong>Underhook Half Guard vs Darce and Guillotine</strong> · 6:09 · <a href="https://www.youtube.com/watch?v=dM1xebWBFzc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=FMAWiNfgp74)
+
+<p class="clip-credit"><strong>DEFENDING THE FRONT HEAD LOCK CHOKE - DARCE CHOKE - CHOKE - SUBMISSION - ESCAPE…</strong> · 0:30 · <a href="https://www.youtube.com/watch?v=FMAWiNfgp74" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ug2Kxs54GuU)
+
+<p class="clip-credit"><strong>D&#39;arce Defense</strong> · 11:54 · <a href="https://www.youtube.com/watch?v=ug2Kxs54GuU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

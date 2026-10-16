@@ -152,6 +152,37 @@ description: "Defend against the Americana from Shoulder of Justice. Recognition
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Americana from Shoulder of Justice (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Defending The Americana - BJJ Move by Lachlan Giles",
+      "description": "Americana from Shoulder of Justice (Defender) film study: Defending The Americana - BJJ Move by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/FNyL93v5fGs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/FNyL93v5fGs",
+      "url": "https://www.youtube.com/watch?v=FNyL93v5fGs",
+      "duration": "PT91S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Escape americana/key lock from side to chest lock.",
+      "description": "Americana from Shoulder of Justice (Defender) film study: Escape americana/key lock from side to chest lock..",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Unz1euhI2y8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Unz1euhI2y8",
+      "url": "https://www.youtube.com/watch?v=Unz1euhI2y8",
+      "duration": "PT71S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -165,6 +196,32 @@ Defending the Americana from Shoulder of Justice requires discipline under extre
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Americana from Shoulder of Justice (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=FNyL93v5fGs)
+
+<p class="clip-credit"><strong>Defending The Americana - BJJ Move by Lachlan Giles</strong> · 1:31 · <a href="https://www.youtube.com/watch?v=FNyL93v5fGs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Unz1euhI2y8)
+
+<p class="clip-credit"><strong>Escape americana/key lock from side to chest lock.</strong> · 1:11 · <a href="https://www.youtube.com/watch?v=Unz1euhI2y8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

@@ -469,7 +469,15 @@
         "id": "01b2neRtr6k",
         "title": "Arm Crush Armlock from Side Mount",
         "channel": "Soma Academy",
-        "duration": 87
+        "duration": 87,
+        "front": true
+      },
+      {
+        "id": "RFkSf7gQ18E",
+        "title": "Arm Crush Arm Bar from Mount",
+        "channel": "AMAZIN BJJ",
+        "duration": 65,
+        "vertical": false
       }
     ]
   },

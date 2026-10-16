@@ -456,7 +456,30 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "ieR8CJ1EUM8",
+        "title": "K Guard 50/50 Entry into Inside Heelhook Finish",
+        "channel": "BJJ GeekOut",
+        "duration": 14,
+        "vertical": false,
+        "front": true
+      },
+      {
+        "id": "X6KPR3Nt2bA",
+        "title": "K-Guard Inversions to 50/50 Inside Heel Hooks - Joao Miyao, Jason Rau, Lachlan…",
+        "channel": "No Quarter Grappling",
+        "duration": 99,
+        "vertical": false
+      },
+      {
+        "id": "S8ZH_9F18jw",
+        "title": "Lachlan Giles shows how to use hips and get inverted heel hook",
+        "channel": "grapplerINFO",
+        "duration": 103,
+        "vertical": false
+      }
+    ]
   },
   "defender": {
     "name": "from Grasshopper Guard Defender",

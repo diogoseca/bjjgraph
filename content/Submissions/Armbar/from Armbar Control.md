@@ -46,12 +46,22 @@ description: "Learn the Armbar Finish from Armbar Control in BJJ. Step-by-step e
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "THIS is my favorite armbar escape! #jiujitsu #jiujitsutips",
-      "description": "Armbar from Armbar Control film study: THIS is my favorite armbar escape! #jiujitsu #jiujitsutips.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/kNdKfUdgO4I/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/kNdKfUdgO4I",
-      "url": "https://www.youtube.com/watch?v=kNdKfUdgO4I",
-      "duration": "PT92S"
+      "name": "Armbar from mount when they bump you off",
+      "description": "Armbar from Armbar Control film study: Armbar from mount when they bump you off.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gDn6uThIABM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/gDn6uThIABM",
+      "url": "https://www.youtube.com/watch?v=gDn6uThIABM",
+      "duration": "PT75S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Roger Gracie | ARM BARS",
+      "description": "Armbar from Armbar Control film study: Roger Gracie | ARM BARS.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/vSmRbpNmf-E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/vSmRbpNmf-E",
+      "url": "https://www.youtube.com/watch?v=vSmRbpNmf-E",
+      "duration": "PT102S"
     }
   ]
 }
@@ -114,9 +124,17 @@ The finish itself requires coordinated opposing vectors: hips drive toward the c
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=kNdKfUdgO4I)
+![](https://www.youtube.com/watch?v=gDn6uThIABM)
 
-<p class="clip-credit"><strong>THIS is my favorite armbar escape! #jiujitsu #jiujitsutips</strong> · 1:32 · <a href="https://www.youtube.com/watch?v=kNdKfUdgO4I" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Armbar from mount when they bump you off</strong> · 1:15 · <a href="https://www.youtube.com/watch?v=gDn6uThIABM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=vSmRbpNmf-E)
+
+<p class="clip-credit"><strong>Roger Gracie | ARM BARS</strong> · 1:42 · <a href="https://www.youtube.com/watch?v=vSmRbpNmf-E" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

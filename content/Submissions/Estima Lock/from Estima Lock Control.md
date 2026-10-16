@@ -36,6 +36,47 @@ description: "Master the Estima Lock finish from Estima Lock control. Complete g
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Estima Lock from Estima Lock Control \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Estima Lock",
+      "description": "Estima Lock from Estima Lock Control film study: Estima Lock.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Ao0IatSHEi0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Ao0IatSHEi0",
+      "url": "https://www.youtube.com/watch?v=Ao0IatSHEi0",
+      "duration": "PT27S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Estima Lock",
+      "description": "Estima Lock from Estima Lock Control film study: Estima Lock.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_6BC8d5B5Hs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_6BC8d5B5Hs",
+      "url": "https://www.youtube.com/watch?v=_6BC8d5B5Hs",
+      "duration": "PT31S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Yao Nkromah ESTIMA LOCK finish #4",
+      "description": "Estima Lock from Estima Lock Control film study: Yao Nkromah ESTIMA LOCK finish #4.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-RKlONkjanA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/-RKlONkjanA",
+      "url": "https://www.youtube.com/watch?v=-RKlONkjanA",
+      "duration": "PT50S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -83,6 +124,40 @@ This position-specific finish demands particular attention to safety due to the 
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Estima Lock from Estima Lock Control in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Ao0IatSHEi0)
+
+<p class="clip-credit"><strong>Estima Lock</strong> · 0:27 · <a href="https://www.youtube.com/watch?v=Ao0IatSHEi0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_6BC8d5B5Hs)
+
+<p class="clip-credit"><strong>Estima Lock</strong> · 0:31 · <a href="https://www.youtube.com/watch?v=_6BC8d5B5Hs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=-RKlONkjanA)
+
+<p class="clip-credit"><strong>Yao Nkromah ESTIMA LOCK finish #4</strong> · 0:50 · <a href="https://www.youtube.com/watch?v=-RKlONkjanA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="outcomes" class="content-section">

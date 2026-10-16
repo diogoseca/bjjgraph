@@ -144,6 +144,37 @@ description: "Defend and escape the Darce choke from leg drag position. Recognit
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Darce Choke from Leg Drag (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Move of the Day: D\u0027arce Defense - Belly Down",
+      "description": "Darce Choke from Leg Drag (Defender) film study: Move of the Day: D\u0027arce Defense - Belly Down.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/cmaIzjv3QG8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/cmaIzjv3QG8",
+      "url": "https://www.youtube.com/watch?v=cmaIzjv3QG8",
+      "duration": "PT38S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "DEFENDING THE FRONT HEAD LOCK CHOKE - DARCE CHOKE - CHOKE - SUBMISSION - ESCAPE\u2026",
+      "description": "Darce Choke from Leg Drag (Defender) film study: DEFENDING THE FRONT HEAD LOCK CHOKE - DARCE CHOKE - CHOKE - SUBMISSION - ESCAPE\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/FMAWiNfgp74/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/FMAWiNfgp74",
+      "url": "https://www.youtube.com/watch?v=FMAWiNfgp74",
+      "duration": "PT30S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -157,6 +188,32 @@ Defending the Darce choke from leg drag requires understanding that your defensi
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Darce Choke from Leg Drag (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=cmaIzjv3QG8)
+
+<p class="clip-credit"><strong>Move of the Day: D&#39;arce Defense - Belly Down</strong> · 0:38 · <a href="https://www.youtube.com/watch?v=cmaIzjv3QG8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=FMAWiNfgp74)
+
+<p class="clip-credit"><strong>DEFENDING THE FRONT HEAD LOCK CHOKE - DARCE CHOKE - CHOKE - SUBMISSION - ESCAPE…</strong> · 0:30 · <a href="https://www.youtube.com/watch?v=FMAWiNfgp74" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

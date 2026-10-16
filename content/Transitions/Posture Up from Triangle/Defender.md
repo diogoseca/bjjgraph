@@ -158,6 +158,16 @@ description: "Defend against the Posture Up from Triangle in BJJ. Maintain trian
       "embedUrl": "https://www.youtube.com/embed/wuu5WWcNfY0",
       "url": "https://www.youtube.com/watch?v=wuu5WWcNfY0",
       "duration": "PT88S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "How To Finish a Triangle When Someone Has Good Posture",
+      "description": "Posture Up from Triangle (Defender) film study: How To Finish a Triangle When Someone Has Good Posture.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/M3_VDLm6PoE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/M3_VDLm6PoE",
+      "url": "https://www.youtube.com/watch?v=M3_VDLm6PoE",
+      "duration": "PT142S"
     }
   ]
 }
@@ -188,6 +198,14 @@ As the triangle holder, your primary defensive objective against the posture-up 
 ![](https://www.youtube.com/watch?v=wuu5WWcNfY0)
 
 <p class="clip-credit"><strong>What to do when someone posture up in a Triangle for GI Jiu Jitsu... 🤔🤔</strong> · 1:28 · <a href="https://www.youtube.com/watch?v=wuu5WWcNfY0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=M3_VDLm6PoE)
+
+<p class="clip-credit"><strong>How To Finish a Triangle When Someone Has Good Posture</strong> · 2:22 · <a href="https://www.youtube.com/watch?v=M3_VDLm6PoE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -931,7 +931,16 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "RTzSOGlxSWg",
+        "title": "How to Escape and Counter the Backside 50/50 - Matrix Jiu Jitsu",
+        "channel": "Matrix Jiu Jitsu",
+        "duration": 240,
+        "vertical": false,
+        "front": true
+      }
+    ]
   },
   "flashcards_position": [
     {

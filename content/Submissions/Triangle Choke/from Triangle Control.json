@@ -634,12 +634,26 @@
     ],
     "clips": [
       {
+        "id": "YG1S8nMIdjY",
+        "title": "TRIANGLE DEFENSE FROM CLOSED GUARD",
+        "channel": "Jiu Jitsu With Andy ",
+        "duration": 61,
+        "vertical": false,
+        "front": true
+      },
+      {
         "id": "iFoVuZVus44",
         "title": "Defense triangle  by Renzo Gracie brazilian jiu jitsu",
         "channel": "RED LIONS INTERNATIONAL BJJ",
         "duration": 82,
-        "vertical": false,
-        "front": true
+        "vertical": false
+      },
+      {
+        "id": "sR2rS2dwpNY",
+        "title": "How To Escape a Triangle Choke w/ Rener & Ryron Gracie",
+        "channel": "Hayabusa",
+        "duration": 117,
+        "vertical": false
       }
     ]
   }

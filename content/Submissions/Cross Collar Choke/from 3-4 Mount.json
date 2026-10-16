@@ -421,7 +421,30 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "DrAxA8KUxbo",
+        "title": "Palm up Palm up CROSS CHOKE BJJ | Helio Gracie Variation",
+        "channel": "Avant-Garde BJJ",
+        "duration": 61,
+        "vertical": false,
+        "front": true
+      },
+      {
+        "id": "dfP-Ov8FBUo",
+        "title": "Roger Gracie | CROSS COLLAR CHOKES",
+        "channel": "Jiu Jitsu Moves",
+        "duration": 80,
+        "vertical": false
+      },
+      {
+        "id": "zSSw_fUcNxU",
+        "title": "Roger Gracie Cross Choke",
+        "channel": "Jiu-Jitsu Channel",
+        "duration": 134,
+        "vertical": false
+      }
+    ]
   },
   "defender": {
     "name": "from 3-4 Mount Defender",
@@ -587,6 +610,29 @@
         "description": "Full resistance positional sparring from 3-4 mount bottom. Bottom player scores for successful escapes, top player scores for submission or position advancement. Two-minute rounds with the choke as a genuine threat combined with other attacks to simulate competition pressure."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "quuT1NHbY6Y",
+        "title": "Cross Choke Defense | Arm Wrap Throw",
+        "channel": "Valente BrothersTV",
+        "duration": 70,
+        "vertical": false,
+        "front": true
+      },
+      {
+        "id": "QIRF2B9riAA",
+        "title": "Cross Choke Defense from Guard - Two Quick Tips",
+        "channel": "Wayne Sniffen",
+        "duration": 105,
+        "vertical": false
+      },
+      {
+        "id": "F1qoGHKy_uE",
+        "title": "Defend cross choke - armbar",
+        "channel": "Edgar Kruyning Official",
+        "duration": 22,
+        "vertical": false
+      }
+    ]
   }
 }

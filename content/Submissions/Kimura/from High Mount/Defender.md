@@ -152,6 +152,37 @@ description: "Defend the Kimura from High Mount with early recognition cues, gri
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kimura from High Mount (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Kimura Escape from North South Position",
+      "description": "Kimura from High Mount (Defender) film study: Kimura Escape from North South Position.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ZT4QcOFksxs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ZT4QcOFksxs",
+      "url": "https://www.youtube.com/watch?v=ZT4QcOFksxs",
+      "duration": "PT25S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Defending The Kimura",
+      "description": "Kimura from High Mount (Defender) film study: Defending The Kimura.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/TuaopPUakM8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/TuaopPUakM8",
+      "url": "https://www.youtube.com/watch?v=TuaopPUakM8",
+      "duration": "PT61S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -167,6 +198,32 @@ Timing is critical because the top-down angle makes late-stage Kimura defense fa
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kimura from High Mount (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ZT4QcOFksxs)
+
+<p class="clip-credit"><strong>Kimura Escape from North South Position</strong> · 0:25 · <a href="https://www.youtube.com/watch?v=ZT4QcOFksxs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=TuaopPUakM8)
+
+<p class="clip-credit"><strong>Defending The Kimura</strong> · 1:01 · <a href="https://www.youtube.com/watch?v=TuaopPUakM8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

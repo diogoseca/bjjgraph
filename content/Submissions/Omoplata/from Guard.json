@@ -506,11 +506,25 @@
     ],
     "clips": [
       {
+        "id": "zM4_rXU-riA",
+        "title": "Short and Sweet Closed Guard Omoplata Lesson",
+        "channel": "2nd Gear Jiu Jitsu",
+        "duration": 70,
+        "vertical": false,
+        "front": true
+      },
+      {
         "id": "KHXE9dSqa4M",
         "title": "Overhook Omoplata Entry and Three Finishes",
         "channel": "Foundation Chicago",
-        "duration": 149,
-        "front": true
+        "duration": 149
+      },
+      {
+        "id": "U87WJbHqdQU",
+        "title": "Omoplata Setup by Mikey Musumeci",
+        "channel": "BJJ Fanatics",
+        "duration": 141,
+        "vertical": false
       }
     ]
   },
@@ -721,7 +735,16 @@
         "description": "Positional sparring starting in closed guard where partner attacks with Omoplata system at 70-80% intensity. Defend using the full spectrum of options: prevention through posture, arm extraction, stack, forward roll, and tapping when appropriate. Partner chains Omoplata with sweeps and back takes to train complete defensive decision-making. Track which defensive windows you most frequently miss and drill those specifically."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "ocIHY3jBYIQ",
+        "title": "💯 BEST WAY to ESCAPE THE OMOPLATA Shoulder Lock",
+        "channel": "John Connors, Old Man BJJ Black Belt",
+        "duration": 61,
+        "vertical": false,
+        "front": true
+      }
+    ]
   },
   "variations_and_setups": [
     {

@@ -146,6 +146,37 @@ description: "Defend the toe hold from Inside Sankaku with grip fighting, body r
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Toe Hold from Inside Sankaku (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How to escape from toehold by Gordon Ryan",
+      "description": "Toe Hold from Inside Sankaku (Defender) film study: How to escape from toehold by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3a9k8-ZcYrk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3a9k8-ZcYrk",
+      "url": "https://www.youtube.com/watch?v=3a9k8-ZcYrk",
+      "duration": "PT105S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "K guard vs toe hold and straight foot lock (Lachlan Giles)",
+      "description": "Toe Hold from Inside Sankaku (Defender) film study: K guard vs toe hold and straight foot lock (Lachlan Giles).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6-HYU8Pbngg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6-HYU8Pbngg",
+      "url": "https://www.youtube.com/watch?v=6-HYU8Pbngg",
+      "duration": "PT152S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -159,6 +190,32 @@ Defending the toe hold from Inside Sankaku demands immediate recognition and pro
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Toe Hold from Inside Sankaku (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=3a9k8-ZcYrk)
+
+<p class="clip-credit"><strong>How to escape from toehold by Gordon Ryan</strong> · 1:45 · <a href="https://www.youtube.com/watch?v=3a9k8-ZcYrk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=6-HYU8Pbngg)
+
+<p class="clip-credit"><strong>K guard vs toe hold and straight foot lock (Lachlan Giles)</strong> · 2:32 · <a href="https://www.youtube.com/watch?v=6-HYU8Pbngg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

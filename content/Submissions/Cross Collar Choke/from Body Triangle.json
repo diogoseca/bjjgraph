@@ -379,7 +379,23 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "nKIMxCzXvl0",
+        "title": "Use Your Own Lapel to Cross Choke from the Back",
+        "channel": "Eduardo Fraga BJJ",
+        "duration": 176,
+        "vertical": false,
+        "front": true
+      },
+      {
+        "id": "dfP-Ov8FBUo",
+        "title": "Roger Gracie | CROSS COLLAR CHOKES",
+        "channel": "Jiu Jitsu Moves",
+        "duration": 80,
+        "vertical": false
+      }
+    ]
   },
   "defender": {
     "name": "Cross Collar Choke from Body Triangle Defender",
@@ -611,6 +627,15 @@
         "description": "Partner attacks freely with cross collar choke, RNC, and other submissions from body triangle at full intensity. Practice surviving the attack chain, making intelligent defensive choices, and finding escape opportunities under realistic conditions."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "QIRF2B9riAA",
+        "title": "Cross Choke Defense from Guard - Two Quick Tips",
+        "channel": "Wayne Sniffen",
+        "duration": 105,
+        "vertical": false,
+        "front": true
+      }
+    ]
   }
 }

@@ -420,6 +420,20 @@
         "title": "Move of the Week ➡️ Knee Shield Half Guard Kimura",
         "channel": "Shark Pit BJJ",
         "duration": 230
+      },
+      {
+        "id": "5F3ZM01oPVo",
+        "title": "BJJ | How To Kimura From Bottom Half Guard",
+        "channel": "Evolve Mixed Martial Arts",
+        "duration": 41,
+        "vertical": false
+      },
+      {
+        "id": "oZFPOBuz_w0",
+        "title": "Gi BJJ Technique: Kimura From Half Guard",
+        "channel": "Tiger Muay Thai and MMA Training Camp, Phuket, Thailand",
+        "duration": 75,
+        "vertical": false
       }
     ]
   },
@@ -576,6 +590,14 @@
         "description": "Positional sparring from knee shield half guard where the partner actively hunts the kimura. Defender works on arm discipline prevention, early-stage defense when the wrist is grabbed, mid-stage gable grip defense, and late-stage rolling escapes. Track which defensive stage you reach most often to identify where your prevention is breaking down."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "2gJ7XDPyOLQ",
+        "title": "How To Defend Kimura Lock On Closed and Half Guard",
+        "channel": "Francisco Lima",
+        "duration": 114,
+        "vertical": false
+      }
+    ]
   }
 }

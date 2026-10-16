@@ -52,6 +52,36 @@ description: "Master the Armbar from Technical Mount in BJJ. Complete guide to s
       "embedUrl": "https://www.youtube.com/embed/4zVQ4maQdB0",
       "url": "https://www.youtube.com/watch?v=4zVQ4maQdB0",
       "duration": "PT42S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Special technique to start finishing your arm-bars from mount! | SANABUL #shorts",
+      "description": "Armbar from Technical Mount film study: Special technique to start finishing your arm-bars from mount! | SANABUL #shorts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/PE61YGNeYzU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/PE61YGNeYzU",
+      "url": "https://www.youtube.com/watch?v=PE61YGNeYzU",
+      "duration": "PT82S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "BJJ Techniques: Wrist Control to Arm Bar by Gordon Ryan",
+      "description": "Armbar from Technical Mount film study: BJJ Techniques: Wrist Control to Arm Bar by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/55Ux8giP_PY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/55Ux8giP_PY",
+      "url": "https://www.youtube.com/watch?v=55Ux8giP_PY",
+      "duration": "PT226S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 4,
+      "name": "Anatomy of the Arm Bar | #shorts",
+      "description": "Armbar from Technical Mount film study: Anatomy of the Arm Bar | #shorts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/92INP2YJIMg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/92INP2YJIMg",
+      "url": "https://www.youtube.com/watch?v=92INP2YJIMg",
+      "duration": "PT81S"
     }
   ]
 }
@@ -117,6 +147,30 @@ Strategic deployment of this armbar centers on reading the defender's reactions 
 ![](https://www.youtube.com/watch?v=4zVQ4maQdB0)
 
 <p class="clip-credit"><strong>Armbar from the Technical Mount</strong> · 0:42 · <a href="https://www.youtube.com/watch?v=4zVQ4maQdB0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=PE61YGNeYzU)
+
+<p class="clip-credit"><strong>Special technique to start finishing your arm-bars from mount! | SANABUL #shorts</strong> · 1:22 · <a href="https://www.youtube.com/watch?v=PE61YGNeYzU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=55Ux8giP_PY)
+
+<p class="clip-credit"><strong>BJJ Techniques: Wrist Control to Arm Bar by Gordon Ryan</strong> · 3:46 · <a href="https://www.youtube.com/watch?v=55Ux8giP_PY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=92INP2YJIMg)
+
+<p class="clip-credit"><strong>Anatomy of the Arm Bar | #shorts</strong> · 1:21 · <a href="https://www.youtube.com/watch?v=92INP2YJIMg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -465,6 +465,20 @@
         "duration": 82,
         "vertical": false,
         "front": true
+      },
+      {
+        "id": "FfkVEt5YHbY",
+        "title": "Inside Ashi Garami Heel Hook #890",
+        "channel": "Modesto Judo Club",
+        "duration": 59,
+        "vertical": false
+      },
+      {
+        "id": "m4sGDhukUmk",
+        "title": "Craig Jones - Nasty Heel Hook from Outside Ashi Garami",
+        "channel": "The Bear's Den BJJ & MMA  熊派巴西柔術及MMA學院",
+        "duration": 141,
+        "vertical": false
       }
     ]
   },
@@ -652,6 +666,22 @@
         "description": "Positional sparring starting in Ashi Garami with the partner attacking heel hooks at increasing intensity levels. Practice maintaining composure under pressure, reading attack timing, selecting appropriate defensive responses based on the attack stage, and escaping to safe positions. Include scenarios where tapping is the correct and intelligent defensive choice to reinforce safety-first awareness."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "KmGhb2j68Ng",
+        "title": "escaping outside ashi heel hook to rolling back take, bjj flow grappling drills…",
+        "channel": "Grapple Box llc",
+        "duration": 33,
+        "vertical": false,
+        "front": true
+      },
+      {
+        "id": "2RLgyzWN71Y",
+        "title": "Double outside ashi heel hook escape / running man escape",
+        "channel": "GRAPPLING GAME CHANGER",
+        "duration": 54,
+        "vertical": false
+      }
+    ]
   }
 }

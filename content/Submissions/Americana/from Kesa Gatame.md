@@ -52,6 +52,16 @@ description: "Master the Americana shoulder lock from Kesa Gatame in BJJ. Comple
       "embedUrl": "https://www.youtube.com/embed/M7KvRNUC7FE",
       "url": "https://www.youtube.com/watch?v=M7KvRNUC7FE",
       "duration": "PT104S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Modified Americana Grip",
+      "description": "Americana from Kesa Gatame film study: Modified Americana Grip.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/SkFE9CBKvsA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/SkFE9CBKvsA",
+      "url": "https://www.youtube.com/watch?v=SkFE9CBKvsA",
+      "duration": "PT61S"
     }
   ]
 }
@@ -117,6 +127,14 @@ From a competitive standpoint, the Americana from Kesa Gatame is particularly ef
 ![](https://www.youtube.com/watch?v=M7KvRNUC7FE)
 
 <p class="clip-credit"><strong>Scarf hold Americana</strong> · 1:44 · <a href="https://www.youtube.com/watch?v=M7KvRNUC7FE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=SkFE9CBKvsA)
+
+<p class="clip-credit"><strong>Modified Americana Grip</strong> · 1:01 · <a href="https://www.youtube.com/watch?v=SkFE9CBKvsA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

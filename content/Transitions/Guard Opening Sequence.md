@@ -36,6 +36,27 @@ description: "Master guard opening in BJJ. Systematic approaches to opening clos
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Guard Opening Sequence \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Keeping a standing opponent inside your closed guard",
+      "description": "Guard Opening Sequence film study: Keeping a standing opponent inside your closed guard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9PIbVkxs7I8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9PIbVkxs7I8",
+      "url": "https://www.youtube.com/watch?v=9PIbVkxs7I8",
+      "duration": "PT126S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -74,6 +95,24 @@ At the competitive level, guard opening efficiency separates effective passers f
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Guard Opening Sequence in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=9PIbVkxs7I8)
+
+<p class="clip-credit"><strong>Keeping a standing opponent inside your closed guard</strong> · 2:06 · <a href="https://www.youtube.com/watch?v=9PIbVkxs7I8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="possible-outcomes" class="content-section">

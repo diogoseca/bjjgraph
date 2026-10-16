@@ -36,6 +36,37 @@ description: "Master the Neck Crank from Mounted Crucifix in BJJ. Learn the cerv
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Neck Crank from Mounted Crucifix \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Neil Melanson Filthy Neck Crank",
+      "description": "Neck Crank from Mounted Crucifix film study: Neil Melanson Filthy Neck Crank.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/PWvr1NUFxGs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/PWvr1NUFxGs",
+      "url": "https://www.youtube.com/watch?v=PWvr1NUFxGs",
+      "duration": "PT71S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Crucifix neck crank",
+      "description": "Neck Crank from Mounted Crucifix film study: Crucifix neck crank.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/nw1iXWH7rP4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/nw1iXWH7rP4",
+      "url": "https://www.youtube.com/watch?v=nw1iXWH7rP4",
+      "duration": "PT40S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -83,6 +114,32 @@ Strategically, the neck crank serves dual purpose from this position. As a prima
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Neck Crank from Mounted Crucifix in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=PWvr1NUFxGs)
+
+<p class="clip-credit"><strong>Neil Melanson Filthy Neck Crank</strong> · 1:11 · <a href="https://www.youtube.com/watch?v=PWvr1NUFxGs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=nw1iXWH7rP4)
+
+<p class="clip-credit"><strong>Crucifix neck crank</strong> · 0:40 · <a href="https://www.youtube.com/watch?v=nw1iXWH7rP4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="outcomes" class="content-section">

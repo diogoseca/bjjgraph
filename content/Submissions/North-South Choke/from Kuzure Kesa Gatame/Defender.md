@@ -152,6 +152,37 @@ description: "Complete defensive guide against the North-South Choke from Kuzure
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "North-South Choke from Kuzure Kesa Gatame (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "\u201cHook-Plata\u201d  (North-South Choke Escape)",
+      "description": "North-South Choke from Kuzure Kesa Gatame (Defender) film study: \u201cHook-Plata\u201d  (North-South Choke Escape).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/O-2iSvT8zDk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/O-2iSvT8zDk",
+      "url": "https://www.youtube.com/watch?v=O-2iSvT8zDk",
+      "duration": "PT59S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Defending the north south choke.",
+      "description": "North-South Choke from Kuzure Kesa Gatame (Defender) film study: Defending the north south choke..",
+      "thumbnailUrl": "https://i.ytimg.com/vi/AyL9eW7ytq4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/AyL9eW7ytq4",
+      "url": "https://www.youtube.com/watch?v=AyL9eW7ytq4",
+      "duration": "PT59S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -165,6 +196,32 @@ Defending the North-South Choke from Kuzure Kesa Gatame demands early recognitio
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch North-South Choke from Kuzure Kesa Gatame (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=O-2iSvT8zDk)
+
+<p class="clip-credit"><strong>“Hook-Plata”  (North-South Choke Escape)</strong> · 0:59 · <a href="https://www.youtube.com/watch?v=O-2iSvT8zDk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=AyL9eW7ytq4)
+
+<p class="clip-credit"><strong>Defending the north south choke.</strong> · 0:59 · <a href="https://www.youtube.com/watch?v=AyL9eW7ytq4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

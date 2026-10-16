@@ -144,6 +144,27 @@ description: "Learn to recognize and defend the Cross Collar Choke from Modified
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Cross Collar Choke from Modified Mount (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Cross Choke Defense from Guard - Two Quick Tips",
+      "description": "Cross Collar Choke from Modified Mount (Defender) film study: Cross Choke Defense from Guard - Two Quick Tips.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/QIRF2B9riAA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/QIRF2B9riAA",
+      "url": "https://www.youtube.com/watch?v=QIRF2B9riAA",
+      "duration": "PT105S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -157,6 +178,24 @@ Defending the Cross Collar Choke from Modified Mount requires early recognition 
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Cross Collar Choke from Modified Mount (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=QIRF2B9riAA)
+
+<p class="clip-credit"><strong>Cross Choke Defense from Guard - Two Quick Tips</strong> · 1:45 · <a href="https://www.youtube.com/watch?v=QIRF2B9riAA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

@@ -414,7 +414,22 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "grDZ5vo84bg",
+        "title": "Turtle Control & Clock Choke",
+        "channel": "CVL BJJ",
+        "duration": 135,
+        "vertical": false
+      },
+      {
+        "id": "vX8n_1YUZJs",
+        "title": "Wallid Ismail clock choke (week 14)",
+        "channel": "Black Dragon BJJ  / Cobra Kai Karate Dungannon",
+        "duration": 171,
+        "vertical": false
+      }
+    ]
   },
   "defender": {
     "name": "Clock Choke from Rodeo Ride Defender",
@@ -586,6 +601,28 @@
         "description": "Positional sparring where attacker is instructed to prioritize Clock Choke from Rodeo Ride. Defender practices the full defensive timeline under competition-level resistance. Debrief after each round to identify the moment where defense succeeded or failed and which recognition cue was present."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "bHIR07WZ8yI",
+        "title": "Clock Choke from Turtle Escape Jiu Jitsu",
+        "channel": "Andy Tong",
+        "duration": 16,
+        "vertical": false
+      },
+      {
+        "id": "vckXustqtpQ",
+        "title": "BJJ Clock Choke Defense",
+        "channel": "Revolution BJJ Ashland",
+        "duration": 63,
+        "vertical": false
+      },
+      {
+        "id": "Ivs8Lt1oI0I",
+        "title": "Clock Choke Escape #1",
+        "channel": "Vilanova Brazilian Jiu Jitsu",
+        "duration": 103,
+        "vertical": false
+      }
+    ]
   }
 }

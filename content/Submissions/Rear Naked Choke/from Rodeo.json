@@ -455,7 +455,16 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "8tdVE2zgjXw",
+        "title": "Craig Jones: details on finishing the rear naked choke",
+        "channel": "Wrecking Crew BJJ",
+        "duration": 57,
+        "vertical": false,
+        "front": true
+      }
+    ]
   },
   "defender": {
     "name": "Rear Naked Choke from Rodeo Defender",

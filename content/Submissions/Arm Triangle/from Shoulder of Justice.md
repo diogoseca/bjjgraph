@@ -36,6 +36,47 @@ description: "Master the Arm Triangle from Shoulder of Justice. Learn how intens
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Arm Triangle from Shoulder of Justice \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Professor Aaron head and arm triangle from closed guard",
+      "description": "Arm Triangle from Shoulder of Justice film study: Professor Aaron head and arm triangle from closed guard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hSo_Km-MOtQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hSo_Km-MOtQ",
+      "url": "https://www.youtube.com/watch?v=hSo_Km-MOtQ",
+      "duration": "PT91S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Head and Arm Choke Variations - Arm Triangles",
+      "description": "Arm Triangle from Shoulder of Justice film study: Head and Arm Choke Variations - Arm Triangles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/QGiT5mFu_Qo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/QGiT5mFu_Qo",
+      "url": "https://www.youtube.com/watch?v=QGiT5mFu_Qo",
+      "duration": "PT122S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Head and Arm Choke from Mount Finishing Details",
+      "description": "Arm Triangle from Shoulder of Justice film study: Head and Arm Choke from Mount Finishing Details.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wrZCRBlAB3Y/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/wrZCRBlAB3Y",
+      "url": "https://www.youtube.com/watch?v=wrZCRBlAB3Y",
+      "duration": "PT265S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -83,6 +124,40 @@ The finishing sequence involves locking the head-and-arm grip, walking to a perp
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Arm Triangle from Shoulder of Justice in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=hSo_Km-MOtQ)
+
+<p class="clip-credit"><strong>Professor Aaron head and arm triangle from closed guard</strong> · 1:31 · <a href="https://www.youtube.com/watch?v=hSo_Km-MOtQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=QGiT5mFu_Qo)
+
+<p class="clip-credit"><strong>Head and Arm Choke Variations - Arm Triangles</strong> · 2:02 · <a href="https://www.youtube.com/watch?v=QGiT5mFu_Qo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=wrZCRBlAB3Y)
+
+<p class="clip-credit"><strong>Head and Arm Choke from Mount Finishing Details</strong> · 4:25 · <a href="https://www.youtube.com/watch?v=wrZCRBlAB3Y" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="outcomes" class="content-section">

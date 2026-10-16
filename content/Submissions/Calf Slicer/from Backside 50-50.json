@@ -422,7 +422,29 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "UsEvrDzgbqE",
+        "title": "50/50 to Calf Slicer",
+        "channel": "CaMiCho327",
+        "duration": 13,
+        "vertical": false
+      },
+      {
+        "id": "d4KgnwWTkuk",
+        "title": "5050 Calf Slicer",
+        "channel": "The Jiu-Jitsu Foundry",
+        "duration": 34,
+        "vertical": false
+      },
+      {
+        "id": "buBg-yzLTrY",
+        "title": "Calf Slicer Positions: RDLR, 50/50, Z Guard",
+        "channel": "Grappling with Insanity",
+        "duration": 54,
+        "vertical": false
+      }
+    ]
   },
   "defender": {
     "name": "Calf Slicer from Backside 50-50 Defender",

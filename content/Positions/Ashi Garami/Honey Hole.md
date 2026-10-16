@@ -46,6 +46,16 @@ description: "Master Honey Hole position in BJJ. Advanced leg entanglement with 
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "HONEY HOLE FROM SINGLE LEG X - LEG LOCK ENTRY",
+      "description": "Honey Hole film study: HONEY HOLE FROM SINGLE LEG X - LEG LOCK ENTRY.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/VmxgqU-ScTM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/VmxgqU-ScTM",
+      "url": "https://www.youtube.com/watch?v=VmxgqU-ScTM",
+      "duration": "PT33S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
       "name": "INSIDE SANKAKU ENTRIES  | Dynamic Martial Arts Roseburg",
       "description": "Honey Hole film study: INSIDE SANKAKU ENTRIES  | Dynamic Martial Arts Roseburg.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Jn_JST6ZJ3o/hqdefault.jpg",
@@ -99,6 +109,14 @@ From a competitive standpoint, Honey Hole has revolutionized modern no-gi grappl
 
 <p class="section-subtitle">Watch Honey Hole in action — curated instructionals</p>
 
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=VmxgqU-ScTM)
+
+<p class="clip-credit"><strong>HONEY HOLE FROM SINGLE LEG X - LEG LOCK ENTRY</strong> · 0:33 · <a href="https://www.youtube.com/watch?v=VmxgqU-ScTM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
 
 <div class="film-clip">
 

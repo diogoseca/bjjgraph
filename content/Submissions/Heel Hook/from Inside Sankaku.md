@@ -52,6 +52,26 @@ description: "Master the heel hook from Inside Sankaku position. Complete guide 
       "embedUrl": "https://www.youtube.com/embed/mBjjFZy-w-0",
       "url": "https://www.youtube.com/watch?v=mBjjFZy-w-0",
       "duration": "PT130S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Craig Jones Backside 50/50 inside Heel hook finish #short #bjj #footlock",
+      "description": "Heel Hook from Inside Sankaku film study: Craig Jones Backside 50/50 inside Heel hook finish #short #bjj #footlock.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sIYeSMSkqeE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sIYeSMSkqeE",
+      "url": "https://www.youtube.com/watch?v=sIYeSMSkqeE",
+      "duration": "PT18S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Craig Jones  - Heel Hook Breaking Mechanics",
+      "description": "Heel Hook from Inside Sankaku film study: Craig Jones  - Heel Hook Breaking Mechanics.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6gu-n4P9JXo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6gu-n4P9JXo",
+      "url": "https://www.youtube.com/watch?v=6gu-n4P9JXo",
+      "duration": "PT77S"
     }
   ]
 }
@@ -120,6 +140,22 @@ The critical distinction from other leg lock positions is the degree of rotation
 ![](https://www.youtube.com/watch?v=mBjjFZy-w-0)
 
 <p class="clip-credit"><strong>Inside Sankaku Double Trouble Heelhook - Matrix Jiu Jitsu Headcoach Rene Becker</strong> · 2:10 · <a href="https://www.youtube.com/watch?v=mBjjFZy-w-0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sIYeSMSkqeE)
+
+<p class="clip-credit"><strong>Craig Jones Backside 50/50 inside Heel hook finish #short #bjj #footlock</strong> · 0:18 · <a href="https://www.youtube.com/watch?v=sIYeSMSkqeE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=6gu-n4P9JXo)
+
+<p class="clip-credit"><strong>Craig Jones  - Heel Hook Breaking Mechanics</strong> · 1:17 · <a href="https://www.youtube.com/watch?v=6gu-n4P9JXo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

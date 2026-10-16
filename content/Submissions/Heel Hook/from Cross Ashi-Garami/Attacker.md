@@ -194,6 +194,26 @@ description: "Learn to attack with the heel hook from Cross Ashi-Garami. Step-by
       "embedUrl": "https://www.youtube.com/embed/h_SRARh0B6U",
       "url": "https://www.youtube.com/watch?v=h_SRARh0B6U",
       "duration": "PT67S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Butterfly to Reverse X to Cross Ashi to Inside Heel hook",
+      "description": "Heel Hook from Cross Ashi-Garami (Attacker) film study: Butterfly to Reverse X to Cross Ashi to Inside Heel hook.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/GqE4UobpkMs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/GqE4UobpkMs",
+      "url": "https://www.youtube.com/watch?v=GqE4UobpkMs",
+      "duration": "PT87S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Craig Jones - X Guard to Heel Hook",
+      "description": "Heel Hook from Cross Ashi-Garami (Attacker) film study: Craig Jones - X Guard to Heel Hook.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lr7rlj7WV-E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lr7rlj7WV-E",
+      "url": "https://www.youtube.com/watch?v=lr7rlj7WV-E",
+      "duration": "PT94S"
     }
   ]
 }
@@ -225,6 +245,22 @@ Attacking the heel hook from Cross Ashi-Garami requires precise control of the o
 ![](https://www.youtube.com/watch?v=h_SRARh0B6U)
 
 <p class="clip-credit"><strong>Cross Ashi belly down heel hook</strong> · 1:07 · <a href="https://www.youtube.com/watch?v=h_SRARh0B6U" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=GqE4UobpkMs)
+
+<p class="clip-credit"><strong>Butterfly to Reverse X to Cross Ashi to Inside Heel hook</strong> · 1:27 · <a href="https://www.youtube.com/watch?v=GqE4UobpkMs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lr7rlj7WV-E)
+
+<p class="clip-credit"><strong>Craig Jones - X Guard to Heel Hook</strong> · 1:34 · <a href="https://www.youtube.com/watch?v=lr7rlj7WV-E" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -36,6 +36,37 @@ description: "Master the Bow and Arrow Choke from Rodeo Ride. Learn gi lapel cho
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Bow and Arrow Choke from Rodeo Ride \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Beginner Bow and Arrow choke",
+      "description": "Bow and Arrow Choke from Rodeo Ride film study: Beginner Bow and Arrow choke.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/iNKRhe39iT0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/iNKRhe39iT0",
+      "url": "https://www.youtube.com/watch?v=iNKRhe39iT0",
+      "duration": "PT50S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Female Bjj Bow and Arrow Choke",
+      "description": "Bow and Arrow Choke from Rodeo Ride film study: Female Bjj Bow and Arrow Choke.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/obschO_7Byw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/obschO_7Byw",
+      "url": "https://www.youtube.com/watch?v=obschO_7Byw",
+      "duration": "PT62S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -83,6 +114,32 @@ This variant is particularly effective in competition because it chains naturall
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Bow and Arrow Choke from Rodeo Ride in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=iNKRhe39iT0)
+
+<p class="clip-credit"><strong>Beginner Bow and Arrow choke</strong> · 0:50 · <a href="https://www.youtube.com/watch?v=iNKRhe39iT0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=obschO_7Byw)
+
+<p class="clip-credit"><strong>Female Bjj Bow and Arrow Choke</strong> · 1:02 · <a href="https://www.youtube.com/watch?v=obschO_7Byw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="outcomes" class="content-section">

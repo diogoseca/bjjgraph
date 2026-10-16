@@ -52,6 +52,26 @@ description: "Master Kneebar from Guard in BJJ. Complete guide with safety proto
       "embedUrl": "https://www.youtube.com/embed/AdsspiCkSMg",
       "url": "https://www.youtube.com/watch?v=AdsspiCkSMg",
       "duration": "PT84S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "BJJ No-Gi Kneebar Technique \ud83e\udd4b | Jiu Jitsu Matrix Tutorial \ud83c\udfc6",
+      "description": "Kneebar from Guard film study: BJJ No-Gi Kneebar Technique \ud83e\udd4b | Jiu Jitsu Matrix Tutorial \ud83c\udfc6.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/12rNXPlqVXo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/12rNXPlqVXo",
+      "url": "https://www.youtube.com/watch?v=12rNXPlqVXo",
+      "duration": "PT20S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Matrix-Kneebar-Heel Hook by Mickey Musumeci",
+      "description": "Kneebar from Guard film study: Matrix-Kneebar-Heel Hook by Mickey Musumeci.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/HQSxxYL1Aew/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/HQSxxYL1Aew",
+      "url": "https://www.youtube.com/watch?v=HQSxxYL1Aew",
+      "duration": "PT26S"
     }
   ]
 }
@@ -113,6 +133,22 @@ The Kneebar from Guard represents a powerful attacking option from bottom positi
 ![](https://www.youtube.com/watch?v=AdsspiCkSMg)
 
 <p class="clip-credit"><strong>Knee bar from closed guard</strong> · 1:24 · <a href="https://www.youtube.com/watch?v=AdsspiCkSMg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=12rNXPlqVXo)
+
+<p class="clip-credit"><strong>BJJ No-Gi Kneebar Technique 🥋 | Jiu Jitsu Matrix Tutorial 🏆</strong> · 0:20 · <a href="https://www.youtube.com/watch?v=12rNXPlqVXo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=HQSxxYL1Aew)
+
+<p class="clip-credit"><strong>Matrix-Kneebar-Heel Hook by Mickey Musumeci</strong> · 0:26 · <a href="https://www.youtube.com/watch?v=HQSxxYL1Aew" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

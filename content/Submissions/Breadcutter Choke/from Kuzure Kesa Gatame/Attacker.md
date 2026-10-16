@@ -178,6 +178,37 @@ description: "Learn to attack with the Breadcutter Choke from Kuzure Kesa Gatame
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Breadcutter Choke from Kuzure Kesa Gatame (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "The Timeless Bread Cutter Choke! (Roger Gracie Style) - Andy Hagans",
+      "description": "Breadcutter Choke from Kuzure Kesa Gatame (Attacker) film study: The Timeless Bread Cutter Choke! (Roger Gracie Style) - Andy Hagans.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xab75xOnHqk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/xab75xOnHqk",
+      "url": "https://www.youtube.com/watch?v=xab75xOnHqk",
+      "duration": "PT70S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "kasa Gatame Paper Cuter Choke",
+      "description": "Breadcutter Choke from Kuzure Kesa Gatame (Attacker) film study: kasa Gatame Paper Cuter Choke.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/AKfEIInO9Tk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/AKfEIInO9Tk",
+      "url": "https://www.youtube.com/watch?v=AKfEIInO9Tk",
+      "duration": "PT38S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -191,6 +222,32 @@ Attacking with the Breadcutter Choke from Kuzure Kesa Gatame leverages the exist
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Breadcutter Choke from Kuzure Kesa Gatame (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=xab75xOnHqk)
+
+<p class="clip-credit"><strong>The Timeless Bread Cutter Choke! (Roger Gracie Style) - Andy Hagans</strong> · 1:10 · <a href="https://www.youtube.com/watch?v=xab75xOnHqk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=AKfEIInO9Tk)
+
+<p class="clip-credit"><strong>kasa Gatame Paper Cuter Choke</strong> · 0:38 · <a href="https://www.youtube.com/watch?v=AKfEIInO9Tk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

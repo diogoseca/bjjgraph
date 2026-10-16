@@ -415,6 +415,13 @@
         "duration": 120,
         "vertical": false,
         "front": true
+      },
+      {
+        "id": "z3RNUfHfiSM",
+        "title": "Marcelo Garcia - North South Choke",
+        "channel": "Kon Ying",
+        "duration": 20,
+        "vertical": false
       }
     ]
   },
@@ -603,6 +610,22 @@
         "description": "Full resistance positional sparring starting from Kuzure Kesa Gatame. Defender must read whether the opponent is attacking the choke or other submissions and respond appropriately. Practice tapping early when caught and resetting rather than fighting through locked chokes. 3-minute rounds with position reset on escape or submission."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "O-2iSvT8zDk",
+        "title": "“Hook-Plata”  (North-South Choke Escape)",
+        "channel": "Erik Koehne",
+        "duration": 59,
+        "vertical": false,
+        "front": true
+      },
+      {
+        "id": "AyL9eW7ytq4",
+        "title": "Defending the north south choke.",
+        "channel": "JOEL BOUHEY",
+        "duration": 59,
+        "vertical": false
+      }
+    ]
   }
 }

@@ -178,6 +178,27 @@ description: "Learn to attack with the Kimura from overhook control. Step-by-ste
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kimura from Overhook Control (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Overhook guard to reverse triangle + Kimura",
+      "description": "Kimura from Overhook Control (Attacker) film study: Overhook guard to reverse triangle + Kimura.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ljmJ9xP6N7U/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ljmJ9xP6N7U",
+      "url": "https://www.youtube.com/watch?v=ljmJ9xP6N7U",
+      "duration": "PT45S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -191,6 +212,24 @@ Attacking with the Kimura from Overhook Control requires converting your existin
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kimura from Overhook Control (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ljmJ9xP6N7U)
+
+<p class="clip-credit"><strong>Overhook guard to reverse triangle + Kimura</strong> · 0:45 · <a href="https://www.youtube.com/watch?v=ljmJ9xP6N7U" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

@@ -489,7 +489,23 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "u9fF8OCRDks",
+        "title": "WazaTube: Monoplata from Triangle Choke",
+        "channel": "Waza Brazilian Jiu Jitsu",
+        "duration": 110,
+        "vertical": false,
+        "front": true
+      },
+      {
+        "id": "5J6Gtv1hAMo",
+        "title": "MONOPLATA \"TRAP SYSTEM\" for BJJ",
+        "channel": "Johnny Jitsu",
+        "duration": 160,
+        "vertical": false
+      }
+    ]
   },
   "defender": {
     "name": "Monoplata from Guard Defender",

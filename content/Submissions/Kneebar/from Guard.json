@@ -522,6 +522,20 @@
         "channel": "Alberto Serrano BJJ",
         "duration": 84,
         "front": true
+      },
+      {
+        "id": "12rNXPlqVXo",
+        "title": "BJJ No-Gi Kneebar Technique 🥋 | Jiu Jitsu Matrix Tutorial 🏆",
+        "channel": "FreeChannelOpen",
+        "duration": 20,
+        "vertical": false
+      },
+      {
+        "id": "HQSxxYL1Aew",
+        "title": "Matrix-Kneebar-Heel Hook by Mickey Musumeci",
+        "channel": "DARKSIDE | Team Strela",
+        "duration": 26,
+        "vertical": false
       }
     ]
   },
@@ -706,6 +720,29 @@
         "description": "Positional sparring rounds where you work guard passing while your partner has the kneebar as their primary attack. Integrate recognition, early defense, grip fighting, and escape sequences into live rolling at progressive intensity. Track which defensive responses work at each stage of the kneebar entry and develop your personal defensive hierarchy based on your body type and flexibility."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "wBRG0fY94fs",
+        "title": "How to Defend a Kneebar (and Prevent a Backstep Pass)",
+        "channel": "Revolution BJJ",
+        "duration": 59,
+        "vertical": false,
+        "front": true
+      },
+      {
+        "id": "NuWBh3LN-SY",
+        "title": "Knee Bar defense + take the back",
+        "channel": "Bicudo BJJ",
+        "duration": 21,
+        "vertical": false
+      },
+      {
+        "id": "kUuJ03CcIUQ",
+        "title": "Crazy Kneebar Defense From AJ Agazarm against Garry Tonon",
+        "channel": "FloGrappling",
+        "duration": 23,
+        "vertical": false
+      }
+    ]
   }
 }
