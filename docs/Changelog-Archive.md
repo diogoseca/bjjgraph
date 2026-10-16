@@ -11061,7 +11061,7 @@ The integrated payload passes at 346,317 B eager gzip (+3,319 B against the 342,
 checkpoint, within its 5,000 B cap) and 480,054 B deferred raw (500,000 B ceiling).
 
 
-## v1.227.2 — Clips follow the authored move and role
+## v1.227.5 — Clips follow the authored move and role
 
 Clips now follow the actual submission, transition or position and the half's own role.
 D-307 clarifies that a same-submission lesson or defense qualifies across origins unless
