@@ -4,13 +4,13 @@
 
 ---
 title: "Arm Triangle from Hindulotine Attacker | BJJ Submission Guide | BJJ Graph"
-description: "Step-by-step guide to finishing the Arm Triangle from Hindulotine. Learn grip transitions, finishing angles, and how to capitalize on guillotine defense."
+description: "Arm Triangle from Hindulotine (attacker): Establish a stable pin or equivalent control with one opposing arm across the neck. Place the attacking upper arm beside one side of the neck without levering the head backward."
 ---
 
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Arm Triangle from Hindulotine targets the Carotid arteries (compressed by opponent's own shoulder and your arm). Risk: Loss of consciousness from blood choke. Release immediately upon tap.
+> **SAFETY**: Arm Triangle from Hindulotine targets the Sides of the neck. Risk: Neck injury from twisting or excessive shoulder pressure. Release immediately upon tap.
 
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
@@ -22,45 +22,39 @@ description: "Step-by-step guide to finishing the Arm Triangle from Hindulotine.
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Recognize the frame defense",
-      "text": "From your Hindulotine grip, feel the opponent push their near-side arm across their own neck to create a frame against your choking pressure. This arm crossing their neck is your trigger to transition. Do not fight the frame - instead, welcome it as the setup for the arm triangle.",
+      "name": "Obtain head-and-arm access",
+      "text": "Establish a stable pin or equivalent control with one opposing arm across the neck.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Pin the trapped arm with chest pressure",
-      "text": "Before releasing any part of your guillotine grip, drive your chest forward and down onto the opponent's framing arm, pinning it tight against their neck. Your body weight secures the arm in place while you prepare the grip transition. The arm must have no space between their shoulder and their neck.",
+      "name": "Wrap the head",
+      "text": "Place the attacking upper arm beside one side of the neck without levering the head backward.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Swim to head-and-arm control",
-      "text": "Release your guillotine grip and immediately thread your choking arm over the opponent's trapped arm and behind the back of their neck. Your forearm crosses behind their neck with the blade pressing against the far-side carotid. Move smoothly without creating any gap that would allow head extraction.",
+      "name": "Keep the shoulder enclosed",
+      "text": "Prevent the trapped arm from returning between the bodies while keeping the elbow comfortable.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Lock the figure-four or gable grip",
-      "text": "Connect your hands by gripping your own bicep with the choking hand while your free hand cups behind the opponent's head, or use a tight gable grip. The grip must lock the opponent's head and trapped arm together as a unit with no slack in the configuration.",
+      "name": "Connect the support hand",
+      "text": "Close the arm loop without changing the neck into a twisting position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Walk to the finishing angle",
-      "text": "Disengage your legs from the Hindulotine configuration and walk your hips around toward the opponent's trapped-arm side until you are perpendicular to their body. Your chest should be directly over their face. Each step tightens the choke by removing available space between your bodies.",
+      "name": "Adjust the body angle",
+      "text": "Remove space around the shoulder through a small positional adjustment rather than a forceful squeeze.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Drop hip and seal the position",
-      "text": "Drop your hip closest to their trapped arm to the mat, sprawling your weight onto the opponent. Your head drops low to the mat on the far side of their head. This seals the position and removes the space opponents use to breathe or create defensive frames. Your body acts as a wall.",
+      "name": "Release at the first signal",
+      "text": "Open the arm loop and take pressure off the trapped shoulder immediately.",
       "position": 6
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Apply progressive squeeze",
-      "text": "Expand your chest while pulling your elbows together toward your own centerline. The opponent's trapped shoulder compresses one carotid artery while your forearm compresses the other. Apply slow, steady, progressive pressure rather than explosive squeezing. Wait for the tap or feel the resistance fade.",
-      "position": 7
     }
   ],
   "tool": ["BJJ Gi or No-Gi attire", "Training partner", "Mat space"],
@@ -76,50 +70,50 @@ description: "Step-by-step guide to finishing the Arm Triangle from Hindulotine.
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What anatomical structures does the Arm Triangle from Hindulotine attack?",
+      "name": "Arm Triangle from Hindulotine (attacker): What matters when you obtain head-and-arm access?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The arm triangle compresses both carotid arteries simultaneously. The opponent's own trapped shoulder presses into one carotid from the near side, while your forearm blade crosses behind their neck and presses into the opposite carotid from the far side. This bilateral compression restricts blood flow to the brain, causing unconsciousness in 6-8 seconds if not released."
+        "text": "Establish a stable pin or equivalent control with one opposing arm across the neck."
       }
     },
     {
       "@type": "Question",
-      "name": "What defensive reaction from Hindulotine signals the arm triangle is available?",
+      "name": "Arm Triangle from Hindulotine (attacker): What matters when you wrap the head?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The trigger is the opponent creating a near-side arm frame across their own neck to relieve guillotine pressure. You will feel their forearm or hand pushing against your choking arm or their own neck. This frame positions their arm exactly where it needs to be for the arm triangle. The moment you feel this defensive frame, begin the transition rather than fighting to maintain the guillotine."
+        "text": "Place the attacking upper arm beside one side of the neck without levering the head backward."
       }
     },
     {
       "@type": "Question",
-      "name": "What grip change takes you from the Hindulotine to the arm triangle?",
+      "name": "Arm Triangle from Hindulotine (attacker): What matters when you keep the shoulder enclosed?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Release the guillotine grip only after chest pressure secures the trapped arm against the opponent's neck. Thread your choking arm over the top of their trapped arm and behind the back of their neck so your forearm blade crosses the far-side carotid. Lock a figure-four grip by grabbing your own bicep with the choking hand while your free hand cups behind their head, or use a gable grip for a tighter configuration."
+        "text": "Prevent the trapped arm from returning between the bodies while keeping the elbow comfortable."
       }
     },
     {
       "@type": "Question",
-      "name": "They frame with the near arm against your Hindulotine grip — how do you capitalize?",
+      "name": "Arm Triangle from Hindulotine (attacker): What matters when you connect the support hand?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Drive your chest down onto their framing arm to pin it against their own neck. Once the arm is secured by your body weight, smoothly transition your choking arm over the trapped arm and behind their neck to establish the head-and-arm lock. Do not try to strip the frame - instead, use it as the foundation for the arm triangle. Their defensive action becomes the setup for your next submission."
+        "text": "Close the arm loop without changing the neck into a twisting position."
       }
     },
     {
       "@type": "Question",
-      "name": "What body angle creates maximum finishing pressure once the arm triangle is locked from Hindulotine?",
+      "name": "Arm Triangle from Hindulotine (attacker): What matters when you adjust the body angle?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Walk your hips until they are perpendicular (90 degrees) to the opponent's body on the trapped-arm side. Drop your near hip to the mat and place your head on the mat on the far side of their head. Your chest should be directly over their face. This angle allows your expanding chest and body weight to drive the opponent's shoulder into their own carotid while your forearm compresses the other side."
+        "text": "Remove space around the shoulder through a small positional adjustment rather than a forceful squeeze."
       }
     },
     {
       "@type": "Question",
-      "name": "With the arm triangle locked from Hindulotine, what shows they're past the point of no escape?",
+      "name": "Arm Triangle from Hindulotine (attacker): What matters when you release at the first signal?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The choke is properly locked when you can feel the opponent's trapped shoulder bone pressing firmly into their neck with no space between your chest and their body. Their face will begin changing color as blood flow restricts. Their defensive movements become weaker and less coordinated. If they cannot create any frame with their free hand and cannot bridge effectively, they have passed the point of no escape."
+        "text": "Open the arm loop and take pressure off the trapped shoulder immediately."
       }
     }
   ]
@@ -132,7 +126,7 @@ description: "Step-by-step guide to finishing the Arm Triangle from Hindulotine.
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Arm Triangle from Hindulotine Attacker",
-  "description": "Step-by-step guide to finishing the Arm Triangle from Hindulotine. Learn grip transitions, finishing angles, and how to capitalize on guillotine defense.",
+  "description": "Arm Triangle from Hindulotine (attacker): Establish a stable pin or equivalent control with one opposing arm across the neck. Place the attacking upper arm beside one side of the neck without levering the head backward.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -228,7 +222,15 @@ description: "Step-by-step guide to finishing the Arm Triangle from Hindulotine.
 
 <section id="overview" class="content-section">
 
-The Arm Triangle from Hindulotine attacks the carotid arteries using the opponent's own trapped shoulder combined with your forearm pressure. This finish capitalizes on one of the most common guillotine defenses: the near-side arm frame. When your opponent pushes their arm across to relieve guillotine pressure, they inadvertently position their arm against their own neck, creating the head-and-arm configuration. Your task is to recognize this moment, smoothly transition your grip from guillotine to arm triangle, and finish with progressive chest-to-chest compression while controlling the angle. The key advantage of entering from Hindulotine is that the rotational torque already breaks the opponent's posture and alignment, making the arm triangle finish more accessible than from a standard front headlock.
+The attacker has an arm around the head and the opponent's arm across the neck, commonly after establishing a top pin. Hindu Control supplies a leg-in guillotine enclosure. An Arm Triangle requires a newly positioned head-and-arm loop; the high rubber-guard leg is not its defining choking surface.
+
+Establish a stable pin or equivalent control with one opposing arm across the neck. Place the attacking upper arm beside one side of the neck without levering the head backward. Prevent the trapped arm from returning between the bodies while keeping the elbow comfortable.
+
+Close the arm loop without changing the neck into a twisting position. Remove space around the shoulder through a small positional adjustment rather than a forceful squeeze. Open the arm loop and take pressure off the trapped shoulder immediately.
+
+Use positional closure rather than a neck crank, practice the control without pressure, and release the shoulder and neck at any tap.
+
+For a separately established top-side finish, chest pressure helps keep the trapped shoulder from withdrawing while the neck enclosure is adjusted. Balance on a stable base; pinning the torso is support for the choke, not a reason to drive harder into the neck.
 
 **From Position**: [[Positions/Hindulotine]] (Top)
 
@@ -277,12 +279,12 @@ The Arm Triangle from Hindulotine attacks the carotid arteries using the opponen
 
 <p class="section-subtitle">What are the key principles for executing Arm Triangle from Hindulotine?</p>
 
-- Recognize the frame defense as the trigger to transition from guillotine to arm triangle rather than fighting the defense
-- Maintain constant head control throughout the grip switch to prevent posture recovery during the vulnerable transition moment
-- Drive the opponent's trapped arm tight against their own neck using chest pressure before attempting the squeeze
-- Walk your hips perpendicular to the opponent's body toward their trapped-arm side to create the optimal finishing angle
-- Use progressive chest-to-chest compression rather than arm squeezing to generate the choking pressure
-- Keep your head low and glued to the mat on the far side of opponent's head to seal the choke and prevent frame escapes
+- Obtain head-and-arm access: Establish a stable pin or equivalent control with one opposing arm across the neck.
+- Wrap the head: Place the attacking upper arm beside one side of the neck without levering the head backward.
+- Keep the shoulder enclosed: Prevent the trapped arm from returning between the bodies while keeping the elbow comfortable.
+- Connect the support hand: Close the arm loop without changing the neck into a twisting position.
+- Adjust the body angle: Remove space around the shoulder through a small positional adjustment rather than a forceful squeeze.
+- Release at the first signal: Open the arm loop and take pressure off the trapped shoulder immediately.
 
 
 </section>
@@ -293,11 +295,10 @@ The Arm Triangle from Hindulotine attacks the carotid arteries using the opponen
 
 <p class="section-subtitle">What do you need before attempting Arm Triangle from Hindulotine?</p>
 
-- Established Hindulotine position with guillotine grip secured on opponent's neck from top or bottom
-- Opponent has created a near-side arm frame across their own neck as a defensive response to the guillotine pressure
-- Your hips are positioned to allow disengagement from Hindulotine configuration and transition to side control angle
-- Sufficient control of opponent's posture to prevent them from standing up or extracting their head during the grip switch
-- Opponent's trapped arm is loaded against their own carotid with no space between their shoulder and neck
+- The attacker has an arm around the head and the opponent's arm across the neck, commonly after establishing a top pin.
+- Establish a stable pin or equivalent control with one opposing arm across the neck.
+- Place the attacking upper arm beside one side of the neck without levering the head backward.
+- Hindu Control supplies a leg-in guillotine enclosure. An Arm Triangle requires a newly positioned head-and-arm loop; the high rubber-guard leg is not its defining choking surface.
 
 
 </section>
@@ -308,13 +309,12 @@ The Arm Triangle from Hindulotine attacks the carotid arteries using the opponen
 
 <p class="section-subtitle">How do you execute Arm Triangle from Hindulotine step by step?</p>
 
-1. **Recognize the frame defense**: From your Hindulotine grip, feel the opponent push their near-side arm across their own neck to create a frame against your choking pressure. This arm crossing their neck is your trigger to transition. Do not fight the frame - instead, welcome it as the setup for the arm triangle. (Timing: Immediate recognition, 0-1 seconds)
-2. **Pin the trapped arm with chest pressure**: Before releasing any part of your guillotine grip, drive your chest forward and down onto the opponent's framing arm, pinning it tight against their neck. Your body weight secures the arm in place while you prepare the grip transition. The arm must have no space between their shoulder and their neck. (Timing: 1-2 seconds)
-3. **Swim to head-and-arm control**: Release your guillotine grip and immediately thread your choking arm over the opponent's trapped arm and behind the back of their neck. Your forearm crosses behind their neck with the blade pressing against the far-side carotid. Move smoothly without creating any gap that would allow head extraction. (Timing: 1-2 seconds, must be fluid)
-4. **Lock the figure-four or gable grip**: Connect your hands by gripping your own bicep with the choking hand while your free hand cups behind the opponent's head, or use a tight gable grip. The grip must lock the opponent's head and trapped arm together as a unit with no slack in the configuration. (Timing: 1 second)
-5. **Walk to the finishing angle**: Disengage your legs from the Hindulotine configuration and walk your hips around toward the opponent's trapped-arm side until you are perpendicular to their body. Your chest should be directly over their face. Each step tightens the choke by removing available space between your bodies. (Timing: 2-4 seconds)
-6. **Drop hip and seal the position**: Drop your hip closest to their trapped arm to the mat, sprawling your weight onto the opponent. Your head drops low to the mat on the far side of their head. This seals the position and removes the space opponents use to breathe or create defensive frames. Your body acts as a wall. (Timing: 1-2 seconds)
-7. **Apply progressive squeeze**: Expand your chest while pulling your elbows together toward your own centerline. The opponent's trapped shoulder compresses one carotid artery while your forearm compresses the other. Apply slow, steady, progressive pressure rather than explosive squeezing. Wait for the tap or feel the resistance fade. (Timing: 3-8 seconds to finish)
+1. **Obtain head-and-arm access**: Establish a stable pin or equivalent control with one opposing arm across the neck.
+2. **Wrap the head**: Place the attacking upper arm beside one side of the neck without levering the head backward.
+3. **Keep the shoulder enclosed**: Prevent the trapped arm from returning between the bodies while keeping the elbow comfortable.
+4. **Connect the support hand**: Close the arm loop without changing the neck into a twisting position.
+5. **Adjust the body angle**: Remove space around the shoulder through a small positional adjustment rather than a forceful squeeze.
+6. **Release at the first signal**: Open the arm loop and take pressure off the trapped shoulder immediately.
 
 
 </section>
@@ -338,10 +338,10 @@ The Arm Triangle from Hindulotine attacks the carotid arteries using the opponen
 
 <p class="section-subtitle">How might your opponent defend against Arm Triangle from Hindulotine?</p>
 
-- **Opponent extracts trapped arm before grip is locked** (Effectiveness: High) - Your Response: If the arm clears, immediately return to the Hindulotine guillotine grip since the opponent removed their own defense. Reset and wait for the frame to reappear. → Leads to [[Positions/Hindulotine]]
-- **Opponent bridges and rolls toward the choking arm side** (Effectiveness: Medium) - Your Response: Post your far-side hand and widen your base on the rolling side. If rolled, maintain the grip and finish from bottom using a guard arm triangle configuration. → Leads to [[Positions/Hindulotine]]
-- **Opponent frames with far arm to create space and prevent chest-to-chest pressure** (Effectiveness: Medium) - Your Response: Use your free hand to strip their far-side frame by swimming inside their elbow. Walk further toward their head to collapse the space their frame creates. → Leads to [[Positions/Hindulotine]]
-- **Opponent pulls guard and locks closed guard to prevent hip walk-around** (Effectiveness: Low) - Your Response: Maintain the head-and-arm grip and work to open their guard by posting your knee into their tailbone. Once the guard opens, immediately walk to the finishing angle. → Leads to [[Positions/Closed Guard]]
+- **Recover the arm before it crosses the neck and becomes enclosed.** (Effectiveness: High) - Your Response: Re-check the prerequisite before continuing. Establish a stable pin or equivalent control with one opposing arm across the neck. → Leads to [[Positions/Hindulotine]]
+- **Maintain an early frame between the shoulder and head while the loop is still open.** (Effectiveness: Medium) - Your Response: Re-check the prerequisite before continuing. Place the attacking upper arm beside one side of the neck without levering the head backward. → Leads to [[Positions/Hindulotine]]
+- **An upper arm beside the neck plus your own shoulder on the other side is the key threat.** (Effectiveness: Medium) - Your Response: Re-check the prerequisite before continuing. Prevent the trapped arm from returning between the bodies while keeping the elbow comfortable. → Leads to [[Positions/Hindulotine]]
+- **Move the hips and shoulders together while space remains; do not turn the head alone.** (Effectiveness: Low) - Your Response: Re-check the prerequisite before continuing. Close the arm loop without changing the neck into a twisting position. → Leads to [[Positions/Closed Guard]]
 
 
 </section>
@@ -352,35 +352,30 @@ The Arm Triangle from Hindulotine attacks the carotid arteries using the opponen
 
 <p class="section-subtitle">What mistakes should you avoid when executing Arm Triangle from Hindulotine?</p>
 
-### 1. Releasing guillotine grip too early before chest pressure secures the trapped arm
+### 1. Skipping the checkpoint: obtain head-and-arm access
 
-- **Consequence**: Opponent pulls their arm free during the transition, escaping both the guillotine and the arm triangle attempt, returning to a neutral position
-- **Correction**: Pin the opponent's framing arm with your chest weight before releasing any part of the guillotine grip. The arm must be immobilized by body pressure before you initiate the grip switch.
+- **Consequence**: The intended control is not established before the next movement; the missing requirement is: Establish a stable pin or equivalent control with one opposing arm across the neck.
+- **Correction**: Establish a stable pin or equivalent control with one opposing arm across the neck.
 
-### 2. Squeezing with arms instead of using chest compression and body angle
+### 2. Skipping the checkpoint: wrap the head
 
-- **Consequence**: Arms fatigue rapidly, the choke becomes ineffective, and the opponent can endure the pressure long enough to work an escape or wait for you to gas out
-- **Correction**: Walk to a perpendicular angle and use your dropping hip and expanding chest to generate pressure. Your arms lock the configuration in place while your body creates the compressive force.
+- **Consequence**: The intended control is not established before the next movement; the missing requirement is: Place the attacking upper arm beside one side of the neck without levering the head backward.
+- **Correction**: Place the attacking upper arm beside one side of the neck without levering the head backward.
 
-### 3. Leaving space between your chest and the opponent's trapped shoulder
+### 3. Skipping the checkpoint: keep the shoulder enclosed
 
-- **Consequence**: The opponent can breathe through the choke and create incremental space to extract their arm or work defensive frames
-- **Correction**: Drop your weight directly onto the opponent's face and trapped shoulder. Your chest must be flush against their body with zero gap. Think about melting your weight through them rather than hovering above.
+- **Consequence**: The intended control is not established before the next movement; the missing requirement is: Prevent the trapped arm from returning between the bodies while keeping the elbow comfortable.
+- **Correction**: Prevent the trapped arm from returning between the bodies while keeping the elbow comfortable.
 
-### 4. Failing to walk hips to perpendicular angle before squeezing
+### 4. Skipping the checkpoint: connect the support hand
 
-- **Consequence**: The choke is applied at a suboptimal angle where the opponent's shoulder does not properly compress the carotid, resulting in a neck crank rather than a blood choke
-- **Correction**: Complete the full hip walk-around until you are at a 90-degree angle to the opponent's body. The chest-to-face alignment is what makes the opponent's own shoulder do the choking work.
+- **Consequence**: The intended control is not established before the next movement; the missing requirement is: Close the arm loop without changing the neck into a twisting position.
+- **Correction**: Close the arm loop without changing the neck into a twisting position.
 
-### 5. Keeping head high instead of dropping it to the mat on the far side
+### 5. Skipping the checkpoint: adjust the body angle
 
-- **Consequence**: Creates a gap on the far side that the opponent can use to turn their head and relieve pressure, or work their arm free through the space
-- **Correction**: Drop your head to the mat on the far side of the opponent's head immediately after walking to the finishing angle. Your head acts as a seal that prevents the opponent from turning away from the choke.
-
-### 6. Rushing the transition and losing the Hindulotine position entirely
-
-- **Consequence**: A sloppy transition gives the opponent time to recover posture, extract their head, and potentially counter to a dominant position
-- **Correction**: The transition should be smooth and deliberate, not explosive. Maintain constant pressure throughout. If the transition stalls, return to the Hindulotine guillotine grip rather than forcing a bad arm triangle.
+- **Consequence**: The intended control is not established before the next movement; the missing requirement is: Remove space around the shoulder through a small positional adjustment rather than a forceful squeeze.
+- **Correction**: Remove space around the shoulder through a small positional adjustment rather than a forceful squeeze.
 
 
 
@@ -392,17 +387,17 @@ The Arm Triangle from Hindulotine attacks the carotid arteries using the opponen
 
 <p class="section-subtitle">How do you train Arm Triangle from Hindulotine (Attacker)?</p>
 
-**Phase 1: Grip transition mechanics** - Developing the smooth switch from guillotine to head-and-arm configuration
-Partner starts in Hindulotine bottom with their near arm across their neck in frame position. Practice the grip switch from guillotine to arm triangle with zero resistance, focusing on maintaining chest pressure on the trapped arm throughout the transition. Repeat 20 times per side. No finishing attempts.
+**Phase 1** - Identify the configuration
+Work cooperatively on obtain head-and-arm access. Establish a stable pin or equivalent control with one opposing arm across the neck. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.
 
-**Phase 2: Finishing angle and compression** - Walking to the correct angle and generating choke pressure through body mechanics
-Start with the arm triangle grip already established. Partner gives 30% resistance. Practice walking your hips to the perpendicular angle, dropping your hip, and applying progressive chest compression. Partner provides feedback on pressure location and when the choke becomes effective. Alternate sides.
+**Phase 2** - Rehearse the connection
+Work cooperatively on wrap the head. Place the attacking upper arm beside one side of the neck without levering the head backward. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.
 
-**Phase 3: Transition chain from Hindulotine** - Recognizing the frame defense and flowing from guillotine to arm triangle in live motion
-Partner starts in Hindulotine bottom and alternates between defending with frames (triggering arm triangle) and defending without frames (staying in guillotine). Practice recognizing which defense is being used and flowing to the appropriate attack. 50% resistance, 3-minute rounds.
+**Phase 3** - Add an early response
+Work cooperatively on keep the shoulder enclosed. Prevent the trapped arm from returning between the bodies while keeping the elbow comfortable. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.
 
-**Phase 4: Live positional sparring** - Applying the full technique chain against progressive resistance
-Start from Hindulotine top position. Partner gives 70-100% resistance with all defensive options available. Practice the full sequence: recognize frame, transition grip, walk to angle, finish. If the arm triangle fails, return to guillotine and try again. 5-minute rounds with full reset on escape.
+**Phase 4** - Link only verified checkpoints
+Work cooperatively on connect the support hand. Close the arm loop without changing the neck into a twisting position. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.
 
 
 

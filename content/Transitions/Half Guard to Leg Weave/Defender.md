@@ -4,7 +4,7 @@
 
 ---
 title: "Half Guard to Leg Weave Defender | BJJ Defense Guide | BJJ Graph"
-description: "How to defend the Leg Weave entry from half guard bottom in BJJ. Recognition cues, knee shield, underhook, and deep half counters to stop the threading pass."
+description: "Half Guard to Leg Weave (defender): The passer's arm connecting your legs is the relevant control, not a leg threaded across your hip. Maintain a useful knee angle and upper-body frame before the passer folds the legs together."
 ---
 
 
@@ -20,26 +20,26 @@ description: "How to defend the Leg Weave entry from half guard bottom in BJJ. R
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Re-insert your knee shield, driving your bottom-leg knee across the passer's chest or hip to block the threading knee",
-      "text": "When the passer's thread is shallow or slow and you still have room to wedge your knee between your bodies before their knee passes your hipline If successful: The knee shield re-establishes your defensive frame, halts the weave, and forces the passer to restart the entry from a contested half guard",
+      "name": "The passer's arm connecting your legs is the relevant control, not a leg threaded across your hip.",
+      "text": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded. If successful: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Dive your shoulders under the passer's advancing leg to enter deep half guard",
-      "text": "When the passer rises onto their hips or drives forward and high during the thread, giving you a window to get your head and shoulders under their base If successful: You invert the position into deep half guard, getting under the passer's center of gravity and threatening sweeps from below the weave",
+      "name": "Maintain a useful knee angle and upper-body frame before the passer folds the legs together.",
+      "text": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded. If successful: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Win the underhook and come up on your elbow toward the dogfight or sweep",
-      "text": "When the passer's cross-face goes slack or they over-focus on the leg, leaving their upper body controllable on your underhook side If successful: Coming up on the underhook stalls the entry, forces the passer to re-flatten you, and can develop into a dogfight or underhook sweep that reverses position",
+      "name": "Move the hips and pummel the knee back between the bodies while the weave is still loose.",
+      "text": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded. If successful: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Frame against the cross-face and shrimp your hips away to create space and reset the half guard",
-      "text": "Early in the entry when the cross-face is being established but before the knee has threaded, while you still have hip mobility If successful: Shrimping away preserves the distance and angle you need to re-shield or recover a more neutral half guard, denying the passer the flat, square target the weave requires",
+      "name": "Prevent the passer from flattening your shoulders while controlling the legs.",
+      "text": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded. If successful: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
       "position": 4
     }
   ],
@@ -56,34 +56,34 @@ description: "How to defend the Leg Weave entry from half guard bottom in BJJ. R
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "When is the critical moment to react to the leg weave entry, and why?",
+      "name": "Half Guard to Leg Weave (defender): What matters when you recognize the arm weave?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The critical moment is the instant you feel the passer's knee advance forward and low between your legs. The entry is defeated during the thread, before the weave sets - once your legs are stapled flat and your knee shield is gone, you are left only with the difficult frame-and-shrimp recovery. Reacting early lets you re-shield, dive into deep half, or come up on the underhook while you still have the leg connection and hip mobility to make those counters work."
+        "text": "The passer's arm connecting your legs is the relevant control, not a leg threaded across your hip."
       }
     },
     {
       "@type": "Question",
-      "name": "How can you use the passer's forward commitment against them during the entry?",
+      "name": "Half Guard to Leg Weave (defender): What matters when you keep the shield supported?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "When the passer rises onto their hips or drives forward and high to thread the knee, they expose a gap under their base. Dive your head and shoulders under their advancing leg to enter deep half guard, getting beneath their center of gravity. This turns their over-commitment into your sweep platform - the same forward drive that powers the weave is what lets you get underneath when you read it early enough."
+        "text": "Maintain a useful knee angle and upper-body frame before the passer folds the legs together."
       }
     },
     {
       "@type": "Question",
-      "name": "Why is the underhook battle your first line of defense against the leg weave entry?",
+      "name": "Half Guard to Leg Weave (defender): What matters when you recover inside space?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The leg weave entry depends on the passer first winning the underhook and cross-face to flatten your shoulders; only then can they safely commit the knee. If you win or neutralize the underhook and frame against the cross-face, the passer cannot flatten you, and any knee thread they attempt is vulnerable to your sit-up, deep half dive, or knee shield re-insertion. Stopping the upper body control is what makes the leg thread defendable rather than automatic."
+        "text": "Move the hips and pummel the knee back between the bodies while the weave is still loose."
       }
     },
     {
       "@type": "Question",
-      "name": "What is the risk of coming up on the underhook to defend the entry, and how do you manage it?",
+      "name": "Half Guard to Leg Weave (defender): What matters when you deny upper-body collapse?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Coming up on the underhook to reach a dogfight or sweep risks exposing your back if you turn too far or lose the underhook, letting the passer take the back or re-establish the weave with you turned away. Manage it by keeping your inside shoulder connected to the passer's chest, coming up on your elbow first rather than leading with a turn, and abandoning the come-up to flatten back down if you feel an arm starting to snake around your back."
+        "text": "Prevent the passer from flattening your shoulders while controlling the legs."
       }
     }
   ]
@@ -96,7 +96,7 @@ description: "How to defend the Leg Weave entry from half guard bottom in BJJ. R
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Half Guard to Leg Weave Defender",
-  "description": "How to defend the Leg Weave entry from half guard bottom in BJJ. Recognition cues, knee shield, underhook, and deep half counters to stop the threading pass.",
+  "description": "Half Guard to Leg Weave (defender): The passer's arm connecting your legs is the relevant control, not a leg threaded across your hip. Maintain a useful knee angle and upper-body frame before the passer folds the legs together.",
   "alternateName": ["Knee Weave Entry from Half Guard", "Leg Weave Pass Entry"],
   "isPartOf": {
     "@type": "WebSite",
@@ -196,11 +196,17 @@ description: "How to defend the Leg Weave entry from half guard bottom in BJJ. R
 </aside>
 <section id="overview" class="content-section">
 
-Defending the half guard to leg weave entry is the half guard bottom player's task of preventing the top player from threading their knee deep enough to staple your legs and kill your knee shield. The defender wins by interrupting the entry at its prerequisites - denying the underhook, framing against the cross-face, and keeping an active knee shield or far-leg hook so the threading knee never gets under your bottom leg.
+The top passer begins in Half Guard, facing a knee shield or linked leg frame. The weaving limb is the arm. Securing that control is the entry checkpoint; a pass is complete only after the hips and remaining leg hooks are cleared.
 
-The critical defensive window opens the instant you feel the top player commit the knee forward between your legs. Before that, your job is the underhook and frame battle; the moment the knee advances, you must either re-insert your knee shield to block the thread, dive under the advancing leg to enter deep half guard, or come up on your own underhook to threaten the sweep or dogfight. Each response exploits a different mistake by the passer: the knee shield punishes a shallow thread, the deep half punishes a passer who rises onto their hips, and the underhook sit-up punishes a slack cross-face.
+The passer's arm connecting your legs is the relevant control, not a leg threaded across your hip. Maintain a useful knee angle and upper-body frame before the passer folds the legs together. Move the hips and pummel the knee back between the bodies while the weave is still loose.
 
-The worst outcome is letting the weave fully set, after which your legs are stapled flat and your knee shield is gone, leaving only the difficult frame-and-shrimp recovery. The best defense is preventive: win or neutralize the underhook, keep your bottom-leg knee pointed across the passer's body as a constant frame, and react decisively the moment the knee threatens to thread, choosing deep half if the passer is forward and high or the knee shield if they are flat and shallow.
+Prevent the passer from flattening your shoulders while controlling the legs. An underhook can help you face the passer and rebuild half guard when the shoulder line is not already pinned. Do not wrench a knee out of a fixed weave; create room with the hips and frames first.
+
+Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
+
+Use hip movement and the upper-body frame to recover an inside knee while the arm weave remains loose. Move the whole leg with the hips instead of twisting a knee held between the passer's grips.
+
+Frame across the passer's shoulder line to turn the head away while keeping the knee shield supported. A short shrimp creates room for the knee to return as an early escape; if you sit up to an underhook, expect an overhook response and maintain the base needed to face it.
 
 **Opponent's Starting Position**: [[Positions/Half Guard]] (Top)
 
@@ -248,10 +254,9 @@ The worst outcome is letting the weave fully set, after which your legs are stap
 
 <p class="section-subtitle">How do you know when someone is attempting Half Guard to Leg Weave?</p>
 
-- The top player secures a deep underhook on your near side and drives a cross-face across your jaw, flattening your shoulders to the mat
-- You feel your knee shield being peeled down past the passer's hipline or pinned toward the mat as they clear your frame
-- The passer's knee begins sliding forward and angling across your centerline, with their shin lowering toward the mat between your legs
-- Pressure shifts toward your head and far hip as the passer drives their weight forward to staple your legs flat
+- The top passer begins in Half Guard, facing a knee shield or linked leg frame.
+- Use aligned shoulder pressure and chest pressure to bring the knees together without twisting the knee joint.
+- Move the hips and feet without collapsing all weight over the woven arm.
 
 
 </section>
@@ -262,12 +267,12 @@ The worst outcome is letting the weave fully set, after which your legs are stap
 
 <p class="section-subtitle">What are the key principles for defending Half Guard to Leg Weave?</p>
 
-- Fight the underhook battle first - if the passer cannot secure the underhook and cross-face, the knee thread is far harder to commit
-- Keep an active knee shield or far-leg frame pointed across the passer's body to block the threading knee
-- React the instant you feel the knee advance - the entry is defeated before the weave sets, not after
-- Use the passer's forward commitment against them by diving under the advancing leg into deep half guard
-- Frame against the cross-face to preserve the hip mobility you need to shrimp, re-shield, or come up
-- Protect your back - when coming up on the underhook, keep your shoulder connected and avoid turning so far you expose your back
+- Recognize the arm weave: The passer's arm connecting your legs is the relevant control, not a leg threaded across your hip.
+- Keep the shield supported: Maintain a useful knee angle and upper-body frame before the passer folds the legs together.
+- Recover inside space: Move the hips and pummel the knee back between the bodies while the weave is still loose.
+- Deny upper-body collapse: Prevent the passer from flattening your shoulders while controlling the legs.
+- Use an available underhook: An underhook can help you face the passer and rebuild half guard when the shoulder line is not already pinned.
+- Move the whole leg: Do not wrench a knee out of a fixed weave; create room with the hips and frames first.
 
 
 </section>
@@ -278,33 +283,33 @@ The worst outcome is letting the weave fully set, after which your legs are stap
 
 <p class="section-subtitle">What can you do to defend against Half Guard to Leg Weave?</p>
 
-### 1. Re-insert your knee shield, driving your bottom-leg knee across the passer's chest or hip to block the threading knee
+### 1. The passer's arm connecting your legs is the relevant control, not a leg threaded across your hip.
 
-- **When to use**: When the passer's thread is shallow or slow and you still have room to wedge your knee between your bodies before their knee passes your hipline
+- **When to use**: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
 - **Targets**: [[Positions/Half Guard]]
-- **If successful**: The knee shield re-establishes your defensive frame, halts the weave, and forces the passer to restart the entry from a contested half guard
-- **Risk**: If you are too late and the passer's knee is already past your hipline, reaching for the shield exposes space they can drive through to complete the weave
+- **If successful**: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.
+- **Risk**: Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
 
-### 2. Dive your shoulders under the passer's advancing leg to enter deep half guard
+### 2. Maintain a useful knee angle and upper-body frame before the passer folds the legs together.
 
-- **When to use**: When the passer rises onto their hips or drives forward and high during the thread, giving you a window to get your head and shoulders under their base
+- **When to use**: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
 - **Targets**: [[Positions/Half Guard/Deep Half Guard]]
-- **If successful**: You invert the position into deep half guard, getting under the passer's center of gravity and threatening sweeps from below the weave
-- **Risk**: If you commit to the dive but cannot get under their base, you turn into the pass and may hand them the back or a completed leg weave
+- **If successful**: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.
+- **Risk**: Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
 
-### 3. Win the underhook and come up on your elbow toward the dogfight or sweep
+### 3. Move the hips and pummel the knee back between the bodies while the weave is still loose.
 
-- **When to use**: When the passer's cross-face goes slack or they over-focus on the leg, leaving their upper body controllable on your underhook side
+- **When to use**: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
 - **Targets**: [[Positions/Half Guard]]
-- **If successful**: Coming up on the underhook stalls the entry, forces the passer to re-flatten you, and can develop into a dogfight or underhook sweep that reverses position
-- **Risk**: Coming up exposes your back if you turn too far or lose the underhook, allowing the passer to take the back or re-establish the weave with you turned away
+- **If successful**: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.
+- **Risk**: Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
 
-### 4. Frame against the cross-face and shrimp your hips away to create space and reset the half guard
+### 4. Prevent the passer from flattening your shoulders while controlling the legs.
 
-- **When to use**: Early in the entry when the cross-face is being established but before the knee has threaded, while you still have hip mobility
+- **When to use**: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
 - **Targets**: [[Positions/Half Guard]]
-- **If successful**: Shrimping away preserves the distance and angle you need to re-shield or recover a more neutral half guard, denying the passer the flat, square target the weave requires
-- **Risk**: Shrimping uses energy and, if mistimed, can turn your hips in a way that actually helps the passer thread the knee on the new angle
+- **If successful**: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.
+- **Risk**: Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
 
 
 
@@ -318,11 +323,11 @@ The worst outcome is letting the weave fully set, after which your legs are stap
 
 ### → [[Positions/Half Guard]]
 
-Win the underhook and frame battle so the passer never locks the cross-face, and re-insert your knee shield the instant the knee advances. Denying the prerequisites keeps the position in contested half guard rather than letting the weave set, which is the highest-percentage defensive result.
+Interrupt the next connection while preserving a safe base. Establish any new guard or pin separately rather than assuming this response guarantees it. The passer's arm connecting your legs is the relevant control, not a leg threaded across your hip.
 
 ### → [[Positions/Half Guard/Deep Half Guard]]
 
-When the passer drives forward and rises onto their hips, dive your head and shoulders under their advancing leg to get beneath their center of gravity. Secure their leg and consolidate deep half guard, turning their over-commitment into your sweep platform from underneath.
+Interrupt the next connection while preserving a safe base. Establish any new guard or pin separately rather than assuming this response guarantees it. Maintain a useful knee angle and upper-body frame before the passer folds the legs together.
 
 
 
@@ -334,20 +339,20 @@ When the passer drives forward and rises onto their hips, dive your head and sho
 
 <p class="section-subtitle">What mistakes should you avoid when defending Half Guard to Leg Weave?</p>
 
-### 1. Conceding the underhook and cross-face without a fight
+### 1. Skipping the checkpoint: recognize the arm weave
 
-- **Consequence**: Once the passer flattens your shoulders with the underhook and cross-face, the knee thread becomes nearly automatic and the weave sets before you can react.
-- **Correction**: Treat the underhook battle as the first line of defense. Fight to win or neutralize the underhook and frame against the cross-face immediately, because preventing the upper body control is what makes the leg thread defendable.
+- **Consequence**: The intended control is not established before the next movement; the missing requirement is: The passer's arm connecting your legs is the relevant control, not a leg threaded across your hip.
+- **Correction**: The passer's arm connecting your legs is the relevant control, not a leg threaded across your hip.
 
-### 2. Reacting only after the weave has already set
+### 2. Skipping the checkpoint: keep the shield supported
 
-- **Consequence**: Once your legs are stapled flat and your knee shield is gone, you are left with the difficult frame-and-shrimp recovery and a high chance of being passed.
-- **Correction**: React the instant you feel the knee advance forward and low. The entry is defeated during the thread, not after the staple - re-shield, dive deep half, or come up the moment the knee threatens, never waiting to assess the finished position.
+- **Consequence**: The intended control is not established before the next movement; the missing requirement is: Maintain a useful knee angle and upper-body frame before the passer folds the legs together.
+- **Correction**: Maintain a useful knee angle and upper-body frame before the passer folds the legs together.
 
-### 3. Releasing your far-leg hook or flattening your knee shield prematurely
+### 3. Skipping the checkpoint: recover inside space
 
-- **Consequence**: Giving up your remaining leg connection lets the passer thread and staple unopposed, accelerating the loss of position to a completed weave.
-- **Correction**: Keep your knee shield active or your far-leg hook engaged until you have committed to a specific counter. The leg frame is what blocks the thread, so maintain it as long as possible while choosing your escape.
+- **Consequence**: The intended control is not established before the next movement; the missing requirement is: Move the hips and pummel the knee back between the bodies while the weave is still loose.
+- **Correction**: Move the hips and pummel the knee back between the bodies while the weave is still loose.
 
 
 
@@ -359,17 +364,14 @@ When the passer drives forward and rises onto their hips, dive your head and sho
 
 <p class="section-subtitle">How do you train defense against Half Guard to Leg Weave?</p>
 
-**Week 1-2: Recognition and Underhook Defense** - Identifying the entry cues and fighting the upper body battle
-Partner attempts the leg weave entry at 30% speed while you practice recognizing the cues - underhook, cross-face, knee advance - and fighting to win or neutralize the underhook before any leg commitment. 15-20 repetitions per session focused on denying the prerequisites rather than reacting to the leg.
+**Phase 1** - Identify the configuration
+Work cooperatively on recognize the arm weave. The passer's arm connecting your legs is the relevant control, not a leg threaded across your hip. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.
 
-**Week 3-4: Knee Shield and Frame Timing** - Re-inserting the knee shield and framing the cross-face under light resistance
-Partner commits the knee thread at 50% speed. Practice re-inserting your knee shield the moment the knee advances and framing against the cross-face to preserve hip mobility. 10-15 repetitions of each defense per session, developing the timing to block the thread before it passes your hipline.
+**Phase 2** - Rehearse the connection
+Work cooperatively on keep the shield supported. Maintain a useful knee angle and upper-body frame before the passer folds the legs together. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.
 
-**Week 5-8: Deep Half and Underhook Counters** - Diving deep half and coming up on the underhook against committed entries
-Partner enters at 60-70% intensity and is allowed to vary forward-high versus flat-shallow thread mechanics. Practice diving deep half when they rise forward and coming up on the underhook when their cross-face goes slack, while protecting your back throughout. Develop reading which counter the passer's mistake invites.
-
-**Month 3+: Live Half Guard Bottom Sparring** - Full-resistance defense of the entry from half guard bottom
-Start in half guard bottom with full resistance. The top player works the complete leg weave entry and passing chain. Defend by winning the underhook, blocking the thread, and choosing deep half, knee shield, or come-up counters under live pressure. 5-minute rounds with reset after each completed pass or successful defense.
+**Phase 3** - Add an early response
+Work cooperatively on recover inside space. Move the hips and pummel the knee back between the bodies while the weave is still loose. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.
 
 
 

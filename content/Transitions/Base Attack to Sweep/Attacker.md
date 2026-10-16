@@ -4,7 +4,7 @@
 
 ---
 title: "Base Attack to Sweep Attacker | BJJ Technique Guide | BJJ Graph"
-description: "How to execute Base Attack to Sweep in BJJ. Attacking perspective with setup, execution steps, and counters from Aoki Lock bottom."
+description: "Base Attack to Sweep (attacker): A turned-out foot enclosed beside the armpit is a rotational threat, not simply a straight ankle-lock grip. Prevent the foot enclosure and recover leg position while the opponent still lacks a secure connection."
 ---
 
 
@@ -20,38 +20,38 @@ description: "How to execute Base Attack to Sweep in BJJ. Attacking perspective 
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Identify posted leg",
-      "text": "Locate opponent's posted leg that provides their primary base stability for shoulder pressure application. This is typically the leg closest to your hips, posted on the mat to prevent being rolled.",
+      "name": "Distinguish the foot lock",
+      "text": "A turned-out foot enclosed beside the armpit is a rotational threat, not simply a straight ankle-lock grip.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Protect shoulder",
-      "text": "Internally rotate your trapped shoulder to resist external rotation pressure while preparing the attack. Keep elbow bent when possible to maintain safe joint angle throughout the sweep attempt.",
+      "name": "Hand fight before capture",
+      "text": "Prevent the foot enclosure and recover leg position while the opponent still lacks a secure connection.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Attack posted leg",
-      "text": "Use your free hand to hook behind opponent's posted ankle or grab their pants at the knee, preparing to pull their base out from under them when they commit forward pressure.",
+      "name": "Keep foot and knee aligned",
+      "text": "Do not spin the torso while the foot remains fixed.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Generate hip drive",
-      "text": "Explosively bridge your hips toward opponent while simultaneously pulling their posted leg off the mat. The combination of upward hip force and base removal creates rotational momentum.",
+      "name": "Free the foot first",
+      "text": "Address the upper-body grip before withdrawing the leg through a tight entanglement.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Follow rotation",
-      "text": "Continue the rotational momentum as opponent loses balance, following their fall while extracting your trapped arm from the loosening leg entanglement during the transition.",
+      "name": "Avoid pain testing",
+      "text": "Tap early to a secure rotational lock rather than treating the absence of pain as safety.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Establish mount",
-      "text": "Complete the sweep by establishing mount position with hips heavy on opponent's torso, knees wide for base, and hands posted for control. Immediately address any remaining grip threats.",
+      "name": "Reset after release",
+      "text": "Separate the feet and restore a stable guard or standing base before resuming movement.",
       "position": 6
     }
   ],
@@ -68,50 +68,50 @@ description: "How to execute Base Attack to Sweep in BJJ. Attacking perspective 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the primary goal of Base Attack to Sweep?",
+      "name": "Base Attack to Sweep (attacker): What matters when you distinguish the foot lock?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The primary goal is to convert a dangerous defensive position into dominant top control by destabilizing the opponent's posted leg base during their pressure commitment, creating a sweep to mount while simultaneously escaping the shoulder lock threat."
+        "text": "A turned-out foot enclosed beside the armpit is a rotational threat, not simply a straight ankle-lock grip."
       }
     },
     {
       "@type": "Question",
-      "name": "What position do you start Base Attack to Sweep from?",
+      "name": "Base Attack to Sweep (attacker): What matters when you hand fight before capture?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "This technique starts from Aoki Lock Bottom position, where the opponent has leg entanglement control over your shoulder with a posted leg for base stability. You are typically on your side or stomach with your shoulder under rotational pressure."
+        "text": "Prevent the foot enclosure and recover leg position while the opponent still lacks a secure connection."
       }
     },
     {
       "@type": "Question",
-      "name": "What are the key grips needed for Base Attack to Sweep?",
+      "name": "Base Attack to Sweep (attacker): What matters when you keep foot and knee aligned?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Your free hand hooks behind opponent's posted ankle or grabs their pants at the knee. This grip must be secure enough to pull their base out during your hip bridge. No grip is needed on your trapped arm side - focus on shoulder protection rather than grip fighting."
+        "text": "Do not spin the torso while the foot remains fixed."
       }
     },
     {
       "@type": "Question",
-      "name": "How do you counter Base Attack to Sweep when applying Aoki Lock?",
+      "name": "Base Attack to Sweep (attacker): What matters when you free the foot first?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The primary counters are widening your base before committing to pressure, using a secondary hand post when leg is attacked, or transitioning immediately to back control when you sense the sweep attempt. Forcing the finish when base is compromised is dangerous."
+        "text": "Address the upper-body grip before withdrawing the leg through a tight entanglement."
       }
     },
     {
       "@type": "Question",
-      "name": "When is the best time to attempt Base Attack to Sweep?",
+      "name": "Base Attack to Sweep (attacker): What matters when you avoid pain testing?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The optimal timing window is when your opponent commits to increasing shoulder pressure with forward weight shift. At this moment they cannot simultaneously defend their posted leg, creating the vulnerability you exploit. Attacking during static control phases is less effective."
+        "text": "Tap early to a secure rotational lock rather than treating the absence of pain as safety."
       }
     },
     {
       "@type": "Question",
-      "name": "Your opponent widens their base when you reach for their posted leg - how do you adjust?",
+      "name": "Base Attack to Sweep (attacker): What matters when you reset after release?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Switch to arm extraction escape when base is too wide to attack effectively. Alternatively, use hip escape to create angle that brings their posted leg back into range. The threat of base attack often creates openings for other escapes even when the sweep itself is blocked."
+        "text": "Separate the feet and restore a stable guard or standing base before resuming movement."
       }
     }
   ]
@@ -124,7 +124,7 @@ description: "How to execute Base Attack to Sweep in BJJ. Attacking perspective 
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Base Attack to Sweep Attacker",
-  "description": "How to execute Base Attack to Sweep in BJJ. Attacking perspective with setup, execution steps, and counters from Aoki Lock bottom.",
+  "description": "Base Attack to Sweep (attacker): A turned-out foot enclosed beside the armpit is a rotational threat, not simply a straight ankle-lock grip. Prevent the foot enclosure and recover leg position while the opponent still lacks a secure connection.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -209,11 +209,15 @@ description: "How to execute Base Attack to Sweep in BJJ. Attacking perspective 
 
 <section id="overview" class="content-section">
 
-The Base Attack to Sweep represents a critical offensive escape option from the Aoki Lock bottom position, targeting the top player's posted leg to destabilize their base and create a sweeping opportunity. When caught in Aoki Lock bottom, most practitioners focus purely on defensive arm extraction, but the base attack approach exploits a fundamental vulnerability in the position - the top player must maintain a posted leg for stability while applying shoulder pressure, and attacking this base creates immediate positional crisis.
+The endangered player has a turned-out foot enclosed by the opponent's upper body during a leg-entanglement exchange. An Aoki lock does not trap the arm in an omoplata. Do not rotate to turtle or bridge into a reversal while the foot remains fixed; these named destinations are not established by the reviewed foot-lock instruction.
 
-This technique operates on the principle that the Aoki Lock top player cannot simultaneously maintain maximum shoulder pressure and defend their posted leg. By timing your attack to coincide with their pressure application, you catch them committed to the finish and vulnerable to base disruption. The sweep typically ends in mount position, converting a highly dangerous defensive situation into dominant top control.
+A turned-out foot enclosed beside the armpit is a rotational threat, not simply a straight ankle-lock grip. Prevent the foot enclosure and recover leg position while the opponent still lacks a secure connection. Do not spin the torso while the foot remains fixed.
 
-The base attack is particularly effective because it addresses both survival and advancement simultaneously. Rather than simply escaping the shoulder lock, you create a dilemma where the opponent must choose between maintaining the submission or protecting their position. Advanced practitioners chain this with arm extraction attempts, using the threat of one to create openings for the other. This technique requires precise timing, hip mobility, and the ability to read when opponents are committed to finishing rather than maintaining position.
+Address the upper-body grip before withdrawing the leg through a tight entanglement. Tap early to a secure rotational lock rather than treating the absence of pain as safety. Separate the feet and restore a stable guard or standing base before resuming movement.
+
+Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
+
+Address the Aoki leg entanglement as a submission threat before attempting any reversal. The early escape releases the rotated-foot enclosure and the attacker's hip control; only a free foot and restored base allow a separately established sweep to begin.
 
 **From Position**: [[Positions/Aoki Lock Control]] (Bottom)
 
@@ -253,13 +257,12 @@ The base attack is particularly effective because it addresses both survival and
 
 <p class="section-subtitle">What are the key principles for executing Base Attack to Sweep?</p>
 
-- Attack opponent's posted leg when they commit to increasing shoulder pressure
-- Time the sweep to coincide with their forward weight shift during pressure application
-- Use your free hand as the primary weapon for disrupting their base stability
-- Create continuous hip movement to reduce shoulder pressure angle during the attack
-- Chain base attacks with arm extraction attempts to create offensive-defensive dilemmas
-- Maintain shoulder protection throughout the sweep attempt to prevent finish during transition
-- Follow through completely to mount rather than stopping at position escape
+- Distinguish the foot lock: A turned-out foot enclosed beside the armpit is a rotational threat, not simply a straight ankle-lock grip.
+- Hand fight before capture: Prevent the foot enclosure and recover leg position while the opponent still lacks a secure connection.
+- Keep foot and knee aligned: Do not spin the torso while the foot remains fixed.
+- Free the foot first: Address the upper-body grip before withdrawing the leg through a tight entanglement.
+- Avoid pain testing: Tap early to a secure rotational lock rather than treating the absence of pain as safety.
+- Reset after release: Separate the feet and restore a stable guard or standing base before resuming movement.
 
 
 </section>
@@ -270,11 +273,10 @@ The base attack is particularly effective because it addresses both survival and
 
 <p class="section-subtitle">What do you need before attempting Base Attack to Sweep?</p>
 
-- Opponent has established Aoki Lock control with posted leg for base stability
-- Your free hand has access to attack opponent's posted leg or hip
-- You have identified the timing window when opponent increases pressure commitment
-- Your shoulder remains in safe rotation range allowing movement without injury risk
-- Hip mobility exists to generate sweeping force despite leg entanglement constraint
+- The endangered player has a turned-out foot enclosed by the opponent's upper body during a leg-entanglement exchange.
+- A turned-out foot enclosed beside the armpit is a rotational threat, not simply a straight ankle-lock grip.
+- Prevent the foot enclosure and recover leg position while the opponent still lacks a secure connection.
+- An Aoki lock does not trap the arm in an omoplata. Do not rotate to turtle or bridge into a reversal while the foot remains fixed; these named destinations are not established by the reviewed foot-lock instruction.
 
 
 </section>
@@ -285,12 +287,12 @@ The base attack is particularly effective because it addresses both survival and
 
 <p class="section-subtitle">How do you execute Base Attack to Sweep step by step?</p>
 
-1. **Identify posted leg**: Locate opponent's posted leg that provides their primary base stability for shoulder pressure application. This is typically the leg closest to your hips, posted on the mat to prevent being rolled.
-2. **Protect shoulder**: Internally rotate your trapped shoulder to resist external rotation pressure while preparing the attack. Keep elbow bent when possible to maintain safe joint angle throughout the sweep attempt.
-3. **Attack posted leg**: Use your free hand to hook behind opponent's posted ankle or grab their pants at the knee, preparing to pull their base out from under them when they commit forward pressure.
-4. **Generate hip drive**: Explosively bridge your hips toward opponent while simultaneously pulling their posted leg off the mat. The combination of upward hip force and base removal creates rotational momentum.
-5. **Follow rotation**: Continue the rotational momentum as opponent loses balance, following their fall while extracting your trapped arm from the loosening leg entanglement during the transition.
-6. **Establish mount**: Complete the sweep by establishing mount position with hips heavy on opponent's torso, knees wide for base, and hands posted for control. Immediately address any remaining grip threats.
+1. **Distinguish the foot lock**: A turned-out foot enclosed beside the armpit is a rotational threat, not simply a straight ankle-lock grip.
+2. **Hand fight before capture**: Prevent the foot enclosure and recover leg position while the opponent still lacks a secure connection.
+3. **Keep foot and knee aligned**: Do not spin the torso while the foot remains fixed.
+4. **Free the foot first**: Address the upper-body grip before withdrawing the leg through a tight entanglement.
+5. **Avoid pain testing**: Tap early to a secure rotational lock rather than treating the absence of pain as safety.
+6. **Reset after release**: Separate the feet and restore a stable guard or standing base before resuming movement.
 
 
 </section>
@@ -314,10 +316,10 @@ The base attack is particularly effective because it addresses both survival and
 
 <p class="section-subtitle">How might your opponent counter Base Attack to Sweep?</p>
 
-- **Opponent widens base before committing to pressure, making posted leg unreachable** (Effectiveness: High) - Your Response: Switch to arm extraction escape when base is too wide, or create angle through hip escape to reach posted leg → Leads to [[Positions/Aoki Lock Control]]
-- **Opponent releases shoulder pressure and transitions to back control when base is threatened** (Effectiveness: High) - Your Response: Accept the position change and immediately address back control defense rather than continuing sweep → Leads to [[Positions/Back Control]]
-- **Opponent posts free hand on mat to create secondary base when leg is attacked** (Effectiveness: Medium) - Your Response: Continue sweep attempt as hand post provides inferior base, or transition to attacking posted hand instead → Leads to [[Positions/Aoki Lock Control]]
-- **Opponent drives weight forward explosively to finish before sweep completes** (Effectiveness: Medium) - Your Response: Tap immediately if shoulder pressure reaches dangerous threshold - no sweep is worth injury → Leads to [[Positions/Aoki Lock Control]]
+- **Recognize the foot orientation without twisting it into position against resistance.** (Effectiveness: High) - Your Response: Re-check the prerequisite before continuing. A turned-out foot enclosed beside the armpit is a rotational threat, not simply a straight ankle-lock grip. → Leads to [[Positions/Aoki Lock Control]]
+- **Hold the instep and heel region securely beside the upper body rather than relying on calf compression.** (Effectiveness: High) - Your Response: Re-check the prerequisite before continuing. Prevent the foot enclosure and recover leg position while the opponent still lacks a secure connection. → Leads to [[Positions/Back Control]]
+- **Use the entanglement or foot-on-hip frame to manage distance before considering a finish.** (Effectiveness: Medium) - Your Response: Re-check the prerequisite before continuing. Do not spin the torso while the foot remains fixed. → Leads to [[Positions/Aoki Lock Control]]
+- **Stop the drill at a secure capture; the control can become a damaging rotation with very little movement.** (Effectiveness: Medium) - Your Response: Re-check the prerequisite before continuing. Address the upper-body grip before withdrawing the leg through a tight entanglement. → Leads to [[Positions/Aoki Lock Control]]
 
 
 </section>
@@ -328,35 +330,30 @@ The base attack is particularly effective because it addresses both survival and
 
 <p class="section-subtitle">What mistakes should you avoid when executing Base Attack to Sweep?</p>
 
-### 1. Attacking posted leg without protecting shoulder first
+### 1. Skipping the checkpoint: distinguish the foot lock
 
-- **Consequence**: Opponent finishes shoulder lock during your attack attempt causing injury
-- **Correction**: Always maintain internal shoulder rotation and safe elbow angle before initiating base attack
+- **Consequence**: The intended control is not established before the next movement; the missing requirement is: A turned-out foot enclosed beside the armpit is a rotational threat, not simply a straight ankle-lock grip.
+- **Correction**: A turned-out foot enclosed beside the armpit is a rotational threat, not simply a straight ankle-lock grip.
 
-### 2. Attempting sweep when opponent has already widened their base
+### 2. Skipping the checkpoint: hand fight before capture
 
-- **Consequence**: Wasted energy on low-percentage attempt while remaining trapped in submission
-- **Correction**: Only attack base when opponent commits to tight positioning for pressure application
+- **Consequence**: The intended control is not established before the next movement; the missing requirement is: Prevent the foot enclosure and recover leg position while the opponent still lacks a secure connection.
+- **Correction**: Prevent the foot enclosure and recover leg position while the opponent still lacks a secure connection.
 
-### 3. Pulling posted leg without simultaneous hip bridge
+### 3. Skipping the checkpoint: keep foot and knee aligned
 
-- **Consequence**: Insufficient force to actually sweep, opponent simply repositions leg
-- **Correction**: Coordinate hip drive with leg pull - the combination creates necessary rotational force
+- **Consequence**: The intended control is not established before the next movement; the missing requirement is: Do not spin the torso while the foot remains fixed.
+- **Correction**: Do not spin the torso while the foot remains fixed.
 
-### 4. Stopping after breaking base instead of following through to mount
+### 4. Skipping the checkpoint: free the foot first
 
-- **Consequence**: Opponent recovers position and reestablishes Aoki Lock or transitions to back
-- **Correction**: Commit fully to sweep completion, following rotation until mount is established
+- **Consequence**: The intended control is not established before the next movement; the missing requirement is: Address the upper-body grip before withdrawing the leg through a tight entanglement.
+- **Correction**: Address the upper-body grip before withdrawing the leg through a tight entanglement.
 
-### 5. Releasing shoulder protection during sweep transition
+### 5. Skipping the checkpoint: avoid pain testing
 
-- **Consequence**: Opponent adjusts grip and finishes lock during position change
-- **Correction**: Maintain shoulder defense until arm is fully extracted and you have positional control
-
-### 6. Attempting sweep when shoulder is already in dangerous rotation range
-
-- **Consequence**: Injury occurs during the movement as position shifts apply additional torque
-- **Correction**: Tap first if shoulder is compromised - establish safe position before attempting sweep
+- **Consequence**: The intended control is not established before the next movement; the missing requirement is: Tap early to a secure rotational lock rather than treating the absence of pain as safety.
+- **Correction**: Tap early to a secure rotational lock rather than treating the absence of pain as safety.
 
 
 
@@ -368,17 +365,17 @@ The base attack is particularly effective because it addresses both survival and
 
 <p class="section-subtitle">How do you train Base Attack to Sweep (Attacker)?</p>
 
-**Week 1-2** - Posted leg identification and grip mechanics
-Practice identifying opponent's posted leg from Aoki Lock bottom with compliant partner. Develop muscle memory for free hand grip positions that effectively attack base stability without compromising shoulder defense.
+**Phase 1** - Identify the configuration
+Work cooperatively on distinguish the foot lock. A turned-out foot enclosed beside the armpit is a rotational threat, not simply a straight ankle-lock grip. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.
 
-**Week 3-4** - Timing and coordination
-Partner applies light Aoki Lock pressure in cycles. Practice timing your base attack to coincide with their pressure commitment. Focus on coordinating hip bridge with leg pull for synchronized force generation.
+**Phase 2** - Rehearse the connection
+Work cooperatively on hand fight before capture. Prevent the foot enclosure and recover leg position while the opponent still lacks a secure connection. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.
 
-**Week 5-6** - Chaining with escapes
-Combine base attack with arm extraction attempts against moderate resistance. Practice switching between techniques based on opponent's defensive reactions. Develop sensitivity to when each option is available.
+**Phase 3** - Add an early response
+Work cooperatively on keep foot and knee aligned. Do not spin the torso while the foot remains fixed. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.
 
-**Week 7+** - Live application
-Implement base attack in positional sparring from Aoki Lock scenarios. Focus on real-time decision making about when to attack versus when to prioritize pure escape. Develop competition-ready timing.
+**Phase 4** - Link only verified checkpoints
+Work cooperatively on free the foot first. Address the upper-body grip before withdrawing the leg through a tight entanglement. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.
 
 
 
@@ -392,7 +389,7 @@ Implement base attack in positional sparring from Aoki Lock scenarios. Focus on 
 
 <p class="section-subtitle">What are the safety concerns for Base Attack to Sweep?</p>
 
-This technique is executed from a position that places your shoulder at significant injury risk. Before attempting any sweep, ensure your shoulder remains in safe rotation range with internal rotation maintained. Never sacrifice shoulder safety for sweep success - tap immediately if pressure reaches uncomfortable levels during any phase of the technique. Practice with partners who understand the dangers of Aoki Lock and will respect tap signals instantly. Beginners should drill this technique at very low resistance until the coordination between shoulder protection and sweep mechanics becomes automatic. The sweep should feel like a bonus when available, not a desperate attempt to avoid tapping. Shoulder injuries from this position include rotator cuff tears, labrum damage, and dislocation - none are worth a sweep in training.
+Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
 
 </section>
 

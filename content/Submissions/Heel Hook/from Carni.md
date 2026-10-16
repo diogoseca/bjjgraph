@@ -4,7 +4,7 @@
 
 ---
 title: "Heel Hook from Carni | BJJ Submission | BJJ Graph"
-description: "Master the heel hook from Carni position in BJJ. Expert finishing guide covering rotational mechanics, leg control, defensive escapes, and safe training methods."
+description: "Heel Hook from Carni requires a separate leg entanglement. Carni traps an arm; heel rotation needs controlled hips and knee position before any pressure."
 ---
 
 
@@ -16,7 +16,7 @@ description: "Master the heel hook from Carni position in BJJ. Expert finishing 
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Heel Hook from Carni",
-  "description": "Master the heel hook from Carni position in BJJ. Expert finishing guide covering rotational mechanics, leg control, defensive escapes, and safe training methods.",
+  "description": "Heel Hook from Carni requires a separate leg entanglement. Carni traps an arm; heel rotation needs controlled hips and knee position before any pressure.",
   "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
 }
 </script>
@@ -87,7 +87,7 @@ description: "Master the heel hook from Carni position in BJJ. Expert finishing 
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Heel Hook from Carni",
-  "description": "The heel hook from Carni is an inside-position leg-lock finish that rotates the trapped leg's heel to attack the knee ligaments (ACL, MCL, LCL), using the Carni entanglement to block extraction while threatening saddle and back-take transitions.",
+  "description": "The Heel Hook is a rotational leg lock that controls the hip and knee while using an exposed heel as a lever, transmitting rotation through the lower leg.",
   "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
 }
 </script>
@@ -97,16 +97,16 @@ description: "Master the heel hook from Carni position in BJJ. Expert finishing 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 
-**The heel hook from Carni is an inside-position leg-lock finish that rotates the trapped leg's heel to attack the knee ligaments (ACL, MCL, LCL), using the Carni entanglement to block extraction while threatening saddle and back-take transitions.**
+**The Heel Hook is a rotational leg lock that controls the hip and knee while using an exposed heel as a lever, transmitting rotation through the lower leg.**
 <div class="principle-meta">
 <span class="meta-chip">Joint Lock</span>
-<span class="meta-chip">Leg Lock</span>
-<span class="meta-chip">Targets Ankle joint, knee ligaments (ACL/MCL/LCL), and lower leg structural integrity</span>
+<span class="meta-chip">Rotational leg lock</span>
+<span class="meta-chip">Targets Knee and ankle</span>
 <span class="meta-chip">45% success</span>
 </div>
 
 > [!danger] Safety
-> Heel Hook from Carni targets the Ankle joint, knee ligaments (ACL/MCL/LCL), and lower leg structural integrity. Primary risk: ACL tear (anterior cruciate ligament rupture). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
+> Heel Hook from Carni targets the Knee and ankle. Primary risk: Knee ligament injury from rotation with a fixed heel. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -117,11 +117,13 @@ description: "Master the heel hook from Carni position in BJJ. Expert finishing 
 
 <section id="overview" class="content-section">
 
-The heel hook from Carni exploits the unique inside positioning of this advanced leg entanglement to generate devastating rotational force on the opponent's knee joint. The Carni configuration traps the opponent's leg in a figure-four while an inside hook over the hip prevents extraction, creating sustained control to methodically work the heel grip into finishing position. This variant is distinguished from heel hooks in other ashi garami positions by the dynamic nature of the Carni, which allows the attacker to follow defensive movement and maintain finishing pressure through transitions to the saddle or back control.
+The attacker has a genuine leg entanglement with the knee line contained and the heel accessible to a controlled upper-body grip. Carni isolates a shoulder with a high leg. A heel-hook attack requires releasing or leaving that configuration and establishing separate hip, knee and heel control.
 
-What makes this finish particularly dangerous is the combination of strong positional control and rotational mechanics that attack the ACL, MCL, and LCL simultaneously. The inside positioning means the attacker's body is already angled to generate torque on the heel, requiring less adjustment than entries from outside ashi or standard ashi garami. The opponent faces a true dilemma: defending the heel exposes them to saddle transitions or back takes, while attempting to escape the entanglement often extends the leg into a better finishing angle for the heel hook.
+Confirm that the opponent's leg, rather than an arm or shoulder, is enclosed. Manage distance so the leg cannot move freely through the hold. Keep the knee connected to the entanglement without forcing sideways pressure in a drill. Locate the heel lever without cranking the foot to expose it.
 
-Competition results demonstrate the heel hook from Carni as one of the highest-percentage finishes in modern no-gi grappling when all control points are properly established. The technique demands precise understanding of rotational mechanics, knee line control, and progressive force application to be both effective and safe in training environments.
+Use only supervised capture-and-release practice with no rotational finish. Check the actual event division; no-gi clothing alone does not make heel hooks legal.
+
+Instructional sources: [Stephan Kesting and Rob Biernacki — three leg-lock control points](https://www.grapplearts.com/three-critical-control-points-leglock/); [Richie Martinez — Carni shoulder lock from Z guard](https://www.youtube.com/watch?v=iClQ2Np-n30).
 
 **Starting Position**: [[Positions/Rubber Guard/Carni]] · **From**: [[Positions/Rubber Guard/Carni]] (Bottom)
 
@@ -183,8 +185,8 @@ Competition results demonstrate the heel hook from Carni as one of the highest-p
 | &nbsp; | Attacker | Defender |
 |--------|----------|----------|
 | **Focus** | Execute and finish | Escape and survive |
-| **Key Principles** | Control the knee line by pinching your knees together before... | Protect the heel immediately by dorsiflexing your ankle and ... |
-| **Options** | 7 execution steps | 4 defensive options |
+| **Key Principles** | Verify the entanglement: Confirm that the opponent's leg, ra... | Recognize the heel catch: An exposed heel captured while the... |
+| **Options** | 6 execution steps | 4 defensive options |
 
 </section>
 
@@ -197,51 +199,49 @@ Competition results demonstrate the heel hook from Carni as one of the highest-p
 ### Key Principles
 
 
-- Control the knee line by pinching your knees together before attempting any rotational force on the heel
+- Verify the entanglement: Confirm that the opponent's leg, rather than an arm or shoulder, is enclosed.
 
-- Maintain inside leg positioning with your top hook over the opponent's hip throughout the entire finishing sequence
+- Control the hip: Manage distance so the leg cannot move freely through the hold.
 
-- Apply rotational pressure gradually and progressively, never using sudden explosive force on the heel
+- Contain the knee line: Keep the knee connected to the entanglement without forcing sideways pressure in a drill.
 
-- Keep your hips angled toward the opponent's hip to maximize torque generation through your entire body
+- Identify the exposed heel: Locate the heel lever without cranking the foot to expose it.
 
-- Prioritize two-on-one heel control with blade of wrist seated against the Achilles tendon for optimal grip
+- Practice capture only: Connect the grip with no finishing rotation; a secure heel catch is the stopping point in cooperative practice.
 
-- Stay ready to transition to saddle or back take if opponent successfully defends the initial heel attack
+- Release before turning: Open the heel grip and leg connection before either partner changes direction.
 
 
 ### Execution Steps
 
 
-- **Confirm Carni Control**: Verify your inside leg is hooking over the opponent's hip with your figure-four locked around their ...
+- **Verify the entanglement**: Confirm that the opponent's leg, rather than an arm or shoulder, is enclosed....
 
-- **Secure Two-on-One Heel Grip**: With both hands, secure the opponent's heel by placing the blade of your wrist (the one closest to t...
+- **Control the hip**: Manage distance so the leg cannot move freely through the hold....
 
-- **Clamp the Knee Line**: Pinch your knees tightly together around the opponent's leg just above their knee joint. This knee c...
+- **Contain the knee line**: Keep the knee connected to the entanglement without forcing sideways pressure in a drill....
 
-- **Angle Your Body for Torque**: Rotate your torso slightly so your chest faces the opponent's trapped knee rather than straight up a...
+- **Identify the exposed heel**: Locate the heel lever without cranking the foot to expose it....
 
-- **Apply Progressive Rotational Pressure**: Begin rotating the heel toward the opponent's buttock using a slow, controlled arcing motion. Drive ...
+- **Practice capture only**: Connect the grip with no finishing rotation; a secure heel catch is the stopping point in cooperativ...
 
-- **Maintain Pressure Through Defensive Adjustments**: As the opponent begins defensive reactions like trying to straighten the leg, roll, or grab your han...
-
-- **Complete the Finish or Transition**: Continue steady rotational pressure until the opponent taps. If the opponent successfully hides the ...
+- **Release before turning**: Open the heel grip and leg connection before either partner changes direction....
 
 
 ### Common Mistakes
 
 
-- **Applying explosive or jerking rotational force on the heel**
-  - Consequence: Causes catastrophic knee ligament damage before the opponent can tap, potentially ending their training career and creating serious liability
-  - Correction: Always apply pressure gradually over 3-5 seconds minimum, giving the opponent clear time to recognize the danger and submit safely
+- **Skipping the checkpoint: verify the entanglement**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Confirm that the opponent's leg, rather than an arm or shoulder, is enclosed.
+  - Correction: Confirm that the opponent's leg, rather than an arm or shoulder, is enclosed.
 
-- **Neglecting knee line control by failing to pinch knees together**
-  - Consequence: Opponent rotates their entire body with the heel hook, relieving pressure on the knee ligaments and escaping the submission
-  - Correction: Establish tight knee clamp before any rotational pressure, treating the knee pinch as the foundation of the entire finishing sequence
+- **Skipping the checkpoint: control the hip**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Manage distance so the leg cannot move freely through the hold.
+  - Correction: Manage distance so the leg cannot move freely through the hold.
 
-- **Gripping too high on the shin or calf instead of securing the heel directly**
-  - Consequence: Lose mechanical advantage and allow the opponent to slip their foot free or successfully employ boot defense with minimal effort
-  - Correction: Position the blade of your wrist directly against the Achilles tendon with your grip cupping the heel bone, creating a secure fulcrum point
+- **Skipping the checkpoint: contain the knee line**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Keep the knee connected to the entanglement without forcing sideways pressure in a drill.
+  - Correction: Keep the knee connected to the entanglement without forcing sideways pressure in a drill.
 
 
 </section>
@@ -255,41 +255,35 @@ Competition results demonstrate the heel hook from Carni as one of the highest-p
 ### Key Principles
 
 
-- Protect the heel immediately by dorsiflexing your ankle and pointing your toes away from the attacker before attempting any escape
+- Recognize the heel catch: An exposed heel captured while the knee is contained is a joint-lock threat even without pain.
 
-- Maintain boot defense throughout the entire escape sequence rather than abandoning it to accelerate extraction
+- Deny exposure early: Manage foot position and hand fight while the attacker still lacks a closed grip.
 
-- Address the leg entanglement systematically by clearing the inside hook first, then extracting the trapped leg
+- Recover the knee line early: Withdraw the leg only while the foot is not fixed and there is space in the entanglement.
 
-- Never extend your trapped leg forcefully as this presents the heel perfectly for the attacker's grip
+- Avoid blind rotation: Never spin the torso against a held heel in an attempt to guess an escape direction.
 
-- Recognize when the submission is locked and tap early rather than risking catastrophic knee injury
+- Tap before pain: Stop at a secured rotational capture rather than testing the joint's remaining range.
 
-- Use your free leg and upper body to create frames and distance before attempting leg extraction
+- Reset cooperatively: Wait for the attacker to open the entire connection before standing or rolling.
 
 
 ### Recognition Cues
 
 
-- Opponent secures figure-four leg configuration around your leg with their inside leg hooking over your hip
+- The attacker has a genuine leg entanglement with the knee line contained and the heel accessible to a controlled upper-body grip.
 
-- Both of the opponent's hands move to your heel and ankle area, establishing a two-on-one grip against your Achilles tendon
+- Manage distance so the leg cannot move freely through the hold.
 
-- Opponent angles their hips toward your centerline and begins pinching their knees together around your leg above the knee
-
-- You feel rotational pressure beginning on your ankle or heel, even if mild, indicating the finishing sequence has started
-
-- Opponent's chest turns to face your trapped knee rather than the ceiling, signaling they are positioning for maximum torque
+- Locate the heel lever without cranking the foot to expose it.
 
 
 ### Escape Paths
 
 
-- Boot defense combined with inside hook clearance and systematic leg extraction to standing position or combat base
+- Manage foot position and hand fight while the attacker still lacks a closed grip.
 
-- Stacking forward to compress the attacker's entanglement, clearing hooks, and passing to side control or establishing top position
-
-- Rolling toward the attacker to relieve rotational pressure, then recovering to half guard or closed guard
+- Withdraw the leg only while the foot is not fixed and there is space in the entanglement.
 
 
 </section>
@@ -310,18 +304,9 @@ Competition results demonstrate the heel hook from Carni as one of the highest-p
 <section id="related" class="content-section">
 
 ## Related
-- [[Submissions/Heel Hook]]
-- [[Submissions/Inside Heel Hook]]
-- [[Submissions/Calf Slicer]]
-- [[Positions/Aoki Lock Control]]
-- [[Submissions/Banana Split]]
-- [[Submissions/Achilles Lock]]
-- [[Positions/Rubber Guard/Carni]] - Starting position for this submission variant
-- [[Positions/Ashi Garami/Saddle]] - Primary transition target when opponent defends the heel
-- [[Positions/Back Control]] - Alternative path when opponent rolls to defend leg attack
-- [[Positions/Twister Control/Truck]] - Transition target when opponent turns belly down to hide heel
-- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Related leg entanglement sharing inside positioning mechanics
-- [[Positions/Ashi Garami/Honey Hole]] - Alternative finishing position for heel hook attacks
+- [[Transitions/Aoki Lock]]
+- [[Transitions/Kneebar]]
+- [[Submissions/Straight Ankle Lock]]
 
 </section>
 
@@ -333,42 +318,28 @@ Competition results demonstrate the heel hook from Carni as one of the highest-p
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
-| ACL tear (anterior cruciate ligament rupture) | CRITICAL | 6-12 months with surgical reconstruction, extensive rehabilitation |
-| MCL/LCL tear (medial/lateral collateral ligament damage) | CRITICAL | 3-6 months for grade 3 tears, potential permanent instability |
-| Meniscus tear (cartilage damage in knee joint) | High | 4-8 weeks to 6 months depending on severity and treatment |
-| Ankle ligament damage and joint capsule injury | High | 6-12 weeks, potential chronic instability |
-| Tibial/fibular fracture from extreme rotational force | CRITICAL | 3-6 months, potential permanent mobility issues |
+| Knee ligament injury from rotation with a fixed heel | High | Variable; stop training and seek appropriate clinical assessment after an injury or concerning symptoms. |
+| Ankle injury from uncontrolled lower-leg torque | High | Variable; stop training and seek appropriate clinical assessment after an injury or concerning symptoms. |
 
 
-**Application Speed**: EXTREMELY SLOW and progressive - minimum 5-7 seconds from initial pressure to maximum force in training. NEVER apply sudden rotational force. The knee ligaments provide almost no pain warning before catastrophic failure, meaning damage occurs before the defender feels significant discomfort.
+**Application Speed**: Use only supervised capture-and-release practice with no rotational finish. Check the actual event division; no-gi clothing alone does not make heel hooks legal. No fixed number of seconds makes a locked submission safe.
 
 **Tap Signals**:
-- Verbal tap (saying 'tap' or any distress vocalization)
-- Physical hand tap on opponent or mat
-- Physical foot tap with free leg on partner or mat
-- Any unusual vocalization, screaming, or distress sound
-- Frantic slapping or waving with hands
-- Leg stiffening or immediate panicked defensive reaction
+- Repeated hand taps anywhere the partner can feel them
+- A clear verbal tap or stop, including when the hands are trapped
+- Foot taps or any agreed stop signal; release immediately if normal responsiveness changes
 
 
 **Release Protocol**:
-1. Immediately stop all rotational pressure upon any tap signal
-2. Release heel grip completely before releasing leg entanglement
-3. Slowly unwrap leg configuration while maintaining awareness of opponent's joint alignment
-4. Allow opponent to extract their leg at their own pace without rushing disengagement
-5. Check with training partner about their knee and ankle status before resuming
-6. Report any joint discomfort to instructor immediately, even if minor
+1. Open the finishing grip immediately at the first signal; do not wait for repeated confirmation
+2. Remove the leg, arm or body restraint without forcing the captured joint or neck through another movement
+3. Check the partner can respond normally and allow a safe reset; end practice and obtain help if there is an injury or concerning symptom
 
 
 **Training Restrictions**:
-- NEVER apply sudden or explosive rotational force in training
-- NEVER practice at competition speed with training partners
-- NEVER continue pressure if partner's leg begins rotating with the submission
-- Always allow immediate tap access for both hands
-- Only train with partners who have explicit experience with heel hook defense
-- Prohibited for practitioners below brown belt in most traditional academies
-- Never train heel hooks without instructor supervision during initial learning phases
-- Stop immediately if any popping, clicking, or unusual sensations occur in opponent's leg
+- Start with supervised, cooperative control-and-release drilling rather than a loaded finish
+- Check the event's current rules for the specific age, experience and clothing division before live use
+- Use only supervised capture-and-release practice with no rotational finish. Check the actual event division; no-gi clothing alone does not make heel hooks legal.
 
 
 </section>

@@ -4,7 +4,7 @@
 
 ---
 title: "Double Underhook Pass Defender | BJJ Defense Guide | BJJ Graph"
-description: "How to defend against Double Underhook Pass in BJJ. Recognition cues, defensive options, and escape strategies."
+description: "Double Underhook Pass (defender): Establish the first high leg and its hand support before adding the second leg. Reinforce the clinch without forcing the knees beyond a comfortable hip angle."
 ---
 
 
@@ -20,26 +20,26 @@ description: "How to defend against Double Underhook Pass in BJJ. Recognition cu
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Sit back into the attacker during the single-to-double underhook transition by dropping your hips toward them and collapsing your turtle base toward their lap",
-      "text": "When you feel the first underhook establish and the attacker shifts weight to thread the second - this is the highest-percentage defensive window before the grip consolidates If successful: Resets the position to neutral Crackhead Control where the attacker must restart their attack sequence, and may expose back take opportunities if they lose hip position",
+      "name": "Establish the first high leg and its hand support before adding the second leg.",
+      "text": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded. If successful: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute a granby roll toward the side of the first underhook, using the attacker's forward pressure to fuel the rotation and ending facing them in guard position",
-      "text": "When the attacker commits to the forward drive with both underhooks locked - their committed weight makes them unable to change direction and you can redirect their momentum If successful: Recover to Half Guard or Closed Guard by using the rotation to insert your legs between you and the attacker, converting a passing situation into a guard position",
+      "name": "Reinforce the clinch without forcing the knees beyond a comfortable hip angle.",
+      "text": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded. If successful: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Insert near-side knee between yourself and the attacker by collapsing to your hip and threading your knee across their centerline as they attempt to flatten you",
-      "text": "When the flattening drive begins but before your shoulders reach the mat - the transitional moment where space still exists between your hip and the mat If successful: Establish Half Guard by trapping the attacker's leg with your inserted knee, converting the turtle pass into a Half Guard situation where you have established defensive frames",
+      "name": "Do not assume that high legs alone have isolated an arm or completed Dead Orchard.",
+      "text": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded. If successful: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Strip the Gable grip by swimming your near arm free using a circular motion toward the mat, breaking the palm-to-palm connection before the drive phase begins",
-      "text": "Immediately after you feel both hands connect at your chest in the Gable grip but before the attacker initiates the forward drive - there is a brief window where the grip is not yet loaded If successful: Breaks the pass sequence entirely. Without the connected grip, the attacker cannot generate sufficient leverage to flatten you and must reset to single underhook or abandon the pass attempt",
+      "name": "Use hip position and connected leg pressure rather than pulling the feet against fixed knees.",
+      "text": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded. If successful: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
       "position": 4
     }
   ],
@@ -56,42 +56,42 @@ description: "How to defend against Double Underhook Pass in BJJ. Recognition cu
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the most critical defensive window during the Double Underhook Pass sequence?",
+      "name": "Double Underhook Pass (defender): What matters when you start with broken posture?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The most critical window is during the transition from single to double underhook, when the attacker must shift their hip pressure to create the threading angle. At this moment, the attacker has only one underhook established and their weight distribution is temporarily compromised. Defensive actions like sitting back or stripping the first underhook are most effective here because the attacker cannot simultaneously maintain hip pressure, control the first underhook, and thread the second."
+        "text": "Establish the first high leg and its hand support before adding the second leg."
       }
     },
     {
       "@type": "Question",
-      "name": "They lock a Gable grip at your sternum with both underhooks deep: immediate priority?",
+      "name": "Double Underhook Pass (defender): What matters when you bring the second leg high?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Immediately attempt to swim one arm free using a circular motion toward the mat to break the Gable grip before the forward drive loads it. If the grip strip fails, instantly transition to granby roll preparation by shifting your hips to the side and preparing to rotate with their drive. Do not waste time trying to stand or push the attacker off - the locked grip makes both of those options ineffective and dangerous. Your window before the drive begins is approximately one to two seconds."
+        "text": "Reinforce the clinch without forcing the knees beyond a comfortable hip angle."
       }
     },
     {
       "@type": "Question",
-      "name": "How do you tell a back take setup from a double underhook pass setup?",
+      "name": "Double Underhook Pass (defender): What matters when you track both elbows?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Back take setups involve the attacker's hands working toward your collar, neck, or seatbelt position on your upper chest and shoulder area. The Double Underhook Pass setup is signaled by the attacker's hands diving under your armpits with upward lifting pressure against your shoulder from below. The tactile difference is unmistakable: back takes attack from above and around your shoulders, while the pass attacks from underneath through your armpit space. Additionally, back take setups typically involve the attacker trying to insert hooks, while the pass setup keeps their legs behind you in the chair-sit."
+        "text": "Do not assume that high legs alone have isolated an arm or completed Dead Orchard."
       }
     },
     {
       "@type": "Question",
-      "name": "They drive forward with the Gable grip and your shoulders near the mat: last-resort defense?",
+      "name": "Double Underhook Pass (defender): What matters when you keep knees close?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Insert your near-side knee between yourself and the attacker as your hip contacts the mat. Thread your shin across their centerline and immediately lock your legs around their near leg to establish Half Guard. This must happen during the flattening transition before your shoulders are fully pinned. Once in Half Guard, immediately establish a knee shield or underhook to prevent them from simply completing the pass through the half guard position. This is the final checkpoint before Side Control."
+        "text": "Use hip position and connected leg pressure rather than pulling the feet against fixed knees."
       }
     },
     {
       "@type": "Question",
-      "name": "Why is elbow position more important than grip fighting when defending the underhook entries?",
+      "name": "Double Underhook Pass (defender): What matters when you return to one-leg control?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Your elbow pinched tight to your ribs creates a physical barrier that blocks the underhook pathway entirely. No amount of grip fighting can thread an underhook through a closed armpit. Grip fighting with your hands means your arms are extended and active, which paradoxically opens the armpit space the attacker needs. The elbow-to-rib connection is a structural defense that requires minimal energy to maintain, while grip fighting is a dynamic battle that fatigues your arms and creates timing windows for the attacker to exploit between your grip breaks."
+        "text": "Lower the reinforcing leg while preserving the first shin connection if you need Mission Control again."
       }
     }
   ]
@@ -104,7 +104,7 @@ description: "How to defend against Double Underhook Pass in BJJ. Recognition cu
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Double Underhook Pass Defender",
-  "description": "How to defend against Double Underhook Pass in BJJ. Recognition cues, defensive options, and escape strategies.",
+  "description": "Double Underhook Pass (defender): Establish the first high leg and its hand support before adding the second leg. Reinforce the clinch without forcing the knees beyond a comfortable hip angle.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -200,11 +200,15 @@ description: "How to defend against Double Underhook Pass in BJJ. Recognition cu
 
 <section id="overview" class="content-section">
 
-Defending the Double Underhook Pass requires understanding that the technique follows a predictable mechanical sequence: single underhook entry, second underhook threading, Gable grip lock, and forward drive to flatten. Each phase presents a distinct defensive window, and the defender's success depends on recognizing the attempt early and disrupting the sequence before the attacker consolidates the double underhook grip. The most critical defensive moment occurs during the transition from single to double underhook, where the attacker must momentarily shift their hip pressure to create the threading angle.
+The top player faces a bottom guard player using Crackhead Control; the head, shoulder or arm may still be enclosed. Do not thread both arms beneath the legs while the head and shoulders remain trapped in Crackhead Control. A double-under pass is a new configuration after release.
 
-The fundamental defensive strategy centers on preventing the attacker from establishing both underhooks simultaneously. A single underhook from Crackhead Control is manageable and even expected. The danger escalates dramatically when both underhooks connect and the Gable grip locks. Defensive priorities should follow this hierarchy: first, prevent the second underhook by controlling elbow position and maintaining tight arm connection to your ribs; second, if both underhooks establish, prevent the Gable grip from locking by swimming one arm free; third, if the grip locks, immediately initiate a counter before the forward drive begins.
+Establish the first high leg and its hand support before adding the second leg. Reinforce the clinch without forcing the knees beyond a comfortable hip angle. Do not assume that high legs alone have isolated an arm or completed Dead Orchard.
 
-The defender's positional advantages include proximity to the mat for base, the ability to use their own bodyweight by sitting back into the attacker, and access to granby roll mechanics that can redirect the attacker's forward momentum. Successful defense transforms the attacker's committed forward pressure into a liability by using their own momentum against them, either recovering guard through hip insertion or creating enough scramble chaos to reset to a more neutral turtle position.
+Use hip position and connected leg pressure rather than pulling the feet against fixed knees. Lower the reinforcing leg while preserving the first shin connection if you need Mission Control again. Release and frame when the opponent compresses your upper back or you cannot comfortably maintain the clinch.
+
+Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
+
+Make the early escape by framing against the shoulders and using hip movement to recover a knee before the passer closes both underhooks. After the legs are lifted together, reset rather than trying to wrench a knee sideways against the fixed grips.
 
 **Opponent's Starting Position**: [[Positions/Rubber Guard/Crackhead Control]] (Top)
 
@@ -252,10 +256,9 @@ The defender's positional advantages include proximity to the mat for base, the 
 
 <p class="section-subtitle">How do you know when someone is attempting Double Underhook Pass?</p>
 
-- Attacker's hands shift from collar tie, seatbelt, or neck attacks to swimming under your armpits - you feel pressure moving from your upper back and neck area to your ribcage and armpit
-- Hip pressure from the chair-sit position intensifies and shifts forward slightly as the attacker adjusts their weight to create the threading angle for the second underhook
-- You feel one arm being controlled from underneath with upward lifting pressure against your shoulder, followed by the attacker's opposite hand beginning to probe under your far armpit
-- The attacker's chest drops lower against your upper back as they commit to the driving position, and you feel their head lower against your shoulder blade or hip rather than staying upright
+- The top player faces a bottom guard player using Crackhead Control; the head, shoulder or arm may still be enclosed.
+- A second leg climbing behind your head increases the posture-control problem.
+- Create slack at the hip and thigh while keeping the head and captured arm aligned.
 
 
 </section>
@@ -266,11 +269,12 @@ The defender's positional advantages include proximity to the mat for base, the 
 
 <p class="section-subtitle">What are the key principles for defending Double Underhook Pass?</p>
 
-- Defend the second underhook aggressively by keeping elbows pinched tight to your ribs and swimming your arm back inside whenever you feel the threading attempt
-- Maintain active hip movement to prevent the attacker from settling their weight and committing to the pass sequence
-- Recognize the transition from back attack defense to pass attempt immediately - the shift in the attacker's arm placement from your collar to your armpits signals the change
-- Use the attacker's forward commitment against them by timing sit-back escapes or granby rolls to coincide with their drive phase
-- Keep at least one arm available for posting and framing rather than committing both arms to neck defense, which opens the underhook pathways
+- Start with broken posture: Establish the first high leg and its hand support before adding the second leg.
+- Bring the second leg high: Reinforce the clinch without forcing the knees beyond a comfortable hip angle.
+- Track both elbows: Do not assume that high legs alone have isolated an arm or completed Dead Orchard.
+- Keep knees close: Use hip position and connected leg pressure rather than pulling the feet against fixed knees.
+- Return to one-leg control: Lower the reinforcing leg while preserving the first shin connection if you need Mission Control again.
+- Open against a stack: Release and frame when the opponent compresses your upper back or you cannot comfortably maintain the clinch.
 
 
 </section>
@@ -281,33 +285,33 @@ The defender's positional advantages include proximity to the mat for base, the 
 
 <p class="section-subtitle">What can you do to defend against Double Underhook Pass?</p>
 
-### 1. Sit back into the attacker during the single-to-double underhook transition by dropping your hips toward them and collapsing your turtle base toward their lap
+### 1. Establish the first high leg and its hand support before adding the second leg.
 
-- **When to use**: When you feel the first underhook establish and the attacker shifts weight to thread the second - this is the highest-percentage defensive window before the grip consolidates
+- **When to use**: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
 - **Targets**: [[Positions/Rubber Guard/Crackhead Control]]
-- **If successful**: Resets the position to neutral Crackhead Control where the attacker must restart their attack sequence, and may expose back take opportunities if they lose hip position
-- **Risk**: If poorly timed, you may flatten yourself and make the pass easier. Must maintain base through your posting hand to control the sit-back speed.
+- **If successful**: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.
+- **Risk**: Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
 
-### 2. Execute a granby roll toward the side of the first underhook, using the attacker's forward pressure to fuel the rotation and ending facing them in guard position
+### 2. Reinforce the clinch without forcing the knees beyond a comfortable hip angle.
 
-- **When to use**: When the attacker commits to the forward drive with both underhooks locked - their committed weight makes them unable to change direction and you can redirect their momentum
+- **When to use**: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
 - **Targets**: [[Positions/Half Guard]]
-- **If successful**: Recover to Half Guard or Closed Guard by using the rotation to insert your legs between you and the attacker, converting a passing situation into a guard position
-- **Risk**: If the attacker follows the roll while maintaining the Gable grip, they may land directly in Side Control. Requires explosive commitment and proper hip rotation timing.
+- **If successful**: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.
+- **Risk**: Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
 
-### 3. Insert near-side knee between yourself and the attacker by collapsing to your hip and threading your knee across their centerline as they attempt to flatten you
+### 3. Do not assume that high legs alone have isolated an arm or completed Dead Orchard.
 
-- **When to use**: When the flattening drive begins but before your shoulders reach the mat - the transitional moment where space still exists between your hip and the mat
+- **When to use**: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
 - **Targets**: [[Positions/Half Guard]]
-- **If successful**: Establish Half Guard by trapping the attacker's leg with your inserted knee, converting the turtle pass into a Half Guard situation where you have established defensive frames
-- **Risk**: If your knee insertion is too late, the attacker drives through to Side Control. If too early, they may redirect around the knee before committing to the pass.
+- **If successful**: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.
+- **Risk**: Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
 
-### 4. Strip the Gable grip by swimming your near arm free using a circular motion toward the mat, breaking the palm-to-palm connection before the drive phase begins
+### 4. Use hip position and connected leg pressure rather than pulling the feet against fixed knees.
 
-- **When to use**: Immediately after you feel both hands connect at your chest in the Gable grip but before the attacker initiates the forward drive - there is a brief window where the grip is not yet loaded
+- **When to use**: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
 - **Targets**: [[Positions/Rubber Guard/Crackhead Control]]
-- **If successful**: Breaks the pass sequence entirely. Without the connected grip, the attacker cannot generate sufficient leverage to flatten you and must reset to single underhook or abandon the pass attempt
-- **Risk**: Swimming the arm may briefly expose your back if the attacker transitions to a back take instead of re-establishing the grip. Must immediately return elbow to ribs after stripping.
+- **If successful**: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.
+- **Risk**: Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
 
 
 
@@ -321,11 +325,11 @@ The defender's positional advantages include proximity to the mat for base, the 
 
 ### → [[Positions/Rubber Guard/Crackhead Control]]
 
-Disrupt the pass early by sitting back into the attacker during the underhook threading phase or by stripping the Gable grip before the drive. This resets to neutral Crackhead Control where the attacker must restart their sequence. Maintain active hip movement and tight elbows after the reset to prevent immediate re-entry.
+Interrupt the next connection while preserving a safe base. Establish any new guard or pin separately rather than assuming this response guarantees it. Establish the first high leg and its hand support before adding the second leg.
 
 ### → [[Positions/Half Guard]]
 
-If the pass progresses past the grip establishment phase, immediately insert your near-side knee as a frame during the flattening drive. Time the knee insertion for the moment your hip contacts the mat, threading your shin across the attacker's centerline and locking your legs around their near leg. This converts a turtle pass into a Half Guard recovery where you have legitimate offensive options.
+Interrupt the next connection while preserving a safe base. Establish any new guard or pin separately rather than assuming this response guarantees it. Reinforce the clinch without forcing the knees beyond a comfortable hip angle.
 
 
 
@@ -337,25 +341,20 @@ If the pass progresses past the grip establishment phase, immediately insert you
 
 <p class="section-subtitle">What mistakes should you avoid when defending Double Underhook Pass?</p>
 
-### 1. Committing both arms to defending the neck while leaving armpits completely unprotected
+### 1. Skipping the checkpoint: start with broken posture
 
-- **Consequence**: Creates clear underhook pathways on both sides simultaneously, allowing the attacker to thread both underhooks rapidly without resistance and lock the Gable grip before you can react
-- **Correction**: Dedicate one arm to neck defense and the other to elbow-pinch armpit defense. Alternate which arm defends which threat based on which side the attacker threatens first. Your elbow pinched to your ribs blocks the underhook entry far more effectively than any grip fight.
+- **Consequence**: The intended control is not established before the next movement; the missing requirement is: Establish the first high leg and its hand support before adding the second leg.
+- **Correction**: Establish the first high leg and its hand support before adding the second leg.
 
-### 2. Staying completely static in turtle hoping the attacker will abandon the pass
+### 2. Skipping the checkpoint: bring the second leg high
 
-- **Consequence**: Gives the attacker unlimited time to methodically thread underhooks, establish the grip, and execute a controlled drive without any timing pressure or disruption
-- **Correction**: Maintain constant hip movement and weight shifts throughout the defensive sequence. Even small circles and directional changes force the attacker to continuously adjust their threading angle, buying time and creating defensive windows.
+- **Consequence**: The intended control is not established before the next movement; the missing requirement is: Reinforce the clinch without forcing the knees beyond a comfortable hip angle.
+- **Correction**: Reinforce the clinch without forcing the knees beyond a comfortable hip angle.
 
-### 3. Attempting to stand up after the double underhook grip is already locked
+### 3. Skipping the checkpoint: track both elbows
 
-- **Consequence**: The Gable grip configuration gives the attacker enormous leverage to pull you back down. Standing attempts with a locked Gable grip underneath load your shoulders dangerously and often result in being slammed or driven directly to your back in an even worse position
-- **Correction**: If the grip is locked, commit to granby roll or knee insertion rather than attempting to stand. Standing is only viable before the double underhook establishes. Once locked, your defensive options are rotational escapes and guard recovery, not elevation.
-
-### 4. Granby rolling too early before the attacker commits their weight forward
-
-- **Consequence**: The attacker has not yet loaded their weight into the drive, so they can easily follow your rotation, maintain the grip, and end up in Side Control with zero resistance
-- **Correction**: Wait for the attacker to begin the forward drive phase before initiating the granby. You need their committed forward momentum to fuel the escape. The roll should redirect their existing force, not create movement against a balanced opponent.
+- **Consequence**: The intended control is not established before the next movement; the missing requirement is: Do not assume that high legs alone have isolated an arm or completed Dead Orchard.
+- **Correction**: Do not assume that high legs alone have isolated an arm or completed Dead Orchard.
 
 
 
@@ -367,17 +366,14 @@ If the pass progresses past the grip establishment phase, immediately insert you
 
 <p class="section-subtitle">How do you train defense against Double Underhook Pass?</p>
 
-**Week 1-2** - Recognition and underhook prevention
-Partner drills single underhook threading from Crackhead Control at 30% speed. Defender focuses on recognizing the tactile cues of underhook entry and practicing elbow pinch defense. Track how often the attacker successfully threads the first underhook. Goal is recognition within one second of the attempt beginning.
+**Phase 1** - Identify the configuration
+Work cooperatively on start with broken posture. Establish the first high leg and its hand support before adding the second leg. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.
 
-**Week 3-4** - Sit-back timing and grip strip mechanics
-Partner attempts full double underhook sequence at 50% speed. Defender practices timing the sit-back escape during the single-to-double transition window, and drilling the circular arm swim to strip the Gable grip. Partner provides feedback on timing accuracy. Alternate between both defensive options each round.
+**Phase 2** - Rehearse the connection
+Work cooperatively on bring the second leg high. Reinforce the clinch without forcing the knees beyond a comfortable hip angle. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.
 
-**Week 5-6** - Granby roll and guard recovery integration
-Partner completes the full pass sequence including the forward drive at 70% resistance. Defender practices granby roll escapes timed to the drive phase and knee insertion for Half Guard recovery. Focus on reading which escape is available based on how far the pass has progressed. Chain defensive options together when the first attempt fails.
-
-**Week 7+** - Live positional sparring from Crackhead Control
-Full resistance rounds starting from Crackhead Control. Defender scores points for successful guard recovery, neutral reset, or position improvement. Track defensive success rate and identify which phase of the pass most commonly succeeds against you. Adjust defensive emphasis based on your specific failure points.
+**Phase 3** - Add an early response
+Work cooperatively on track both elbows. Do not assume that high legs alone have isolated an arm or completed Dead Orchard. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.
 
 
 

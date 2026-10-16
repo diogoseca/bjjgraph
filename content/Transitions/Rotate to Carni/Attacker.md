@@ -4,7 +4,7 @@
 
 ---
 title: "Rotate to Carni Attacker | BJJ Technique Guide | BJJ Graph"
-description: "How to execute Rotate to Carni in BJJ. Attacking perspective with setup, execution steps, and counters from the Rubber Guard system."
+description: "Rotate to Carni (attacker): Use the guard and shoulder connection to bring the opponent close before moving the high leg. Manage the shoulder and neck line with a forearm frame as the leg clears the head."
 ---
 
 
@@ -20,38 +20,38 @@ description: "How to execute Rotate to Carni in BJJ. Attacking perspective with 
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Recognize rotation window",
-      "text": "Identify when opponent widens base laterally or begins circling away from overhook side, creating the space needed for hip rotation. This defensive movement is your trigger to initiate. Feel for their weight shifting away from your overhook side.",
+      "name": "Set the upper-body angle",
+      "text": "Use the guard and shoulder connection to bring the opponent close before moving the high leg.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Tighten overhook grip",
-      "text": "Before initiating rotation, deepen overhook control by pulling elbow tighter to your body and ensuring shoulder-to-armpit connection. This prevents arm extraction during the transition and is the most critical preparatory step.",
+      "name": "Frame before clearing",
+      "text": "Manage the shoulder and neck line with a forearm frame as the leg clears the head.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Release shin grip",
-      "text": "Release your grip on your shin while maintaining the leg position across opponent's back momentarily. Your hand will need to be free to post on the mat and assist the rotational movement. Do not release until overhook is secured.",
+      "name": "Anchor through the hips",
+      "text": "Turn partly belly down with the knee close and foot supported rather than wrenching the leg across the head.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Initiate hip rotation",
-      "text": "Drive your hips in a 90-degree arc toward the overhook side, swinging your legs from behind opponent's back to perpendicular position. Use core engagement and the posting hand to power this movement. Your hips must stay elevated throughout.",
+      "name": "Hold the triceps",
+      "text": "Keep the captured arm connected so the opponent cannot freely roll or withdraw the shoulder.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Establish leg hook",
-      "text": "As rotation completes, hook your leg (the one previously across their back) over opponent's shoulder and behind their head, establishing the characteristic Carni leg position that threatens the omoplata. This must happen immediately as the rotation finishes.",
+      "name": "Control before finishing",
+      "text": "Hold the wrist and elbow at a comfortable angle; a small change can load the shoulder rapidly.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Consolidate Carni control",
-      "text": "Secure final Carni position by controlling opponent's trapped arm at the wrist with your free hand while your leg hook and overhook create the triangulated shoulder attack structure. Pull their wrist toward your hip to load the shoulder.",
+      "name": "Let the lock go",
+      "text": "Release the wrist and leg clamp immediately on a tap or when the partner needs to roll safely.",
       "position": 6
     }
   ],
@@ -68,50 +68,50 @@ description: "How to execute Rotate to Carni in BJJ. Attacking perspective with 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the primary trigger that tells you to initiate Rotate to Carni?",
+      "name": "Rotate to Carni (attacker): What matters when you set the upper-body angle?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The primary trigger is when the opponent widens their base laterally or begins circling away from your overhook side. This defensive movement creates the space needed for your hip rotation. You feel their weight shifting away from the overhook side, which means they cannot resist the perpendicular angle change. Attempting against a compact, forward-weighted base typically fails because there is no lateral space to rotate into."
+        "text": "Use the guard and shoulder connection to bring the opponent close before moving the high leg."
       }
     },
     {
       "@type": "Question",
-      "name": "What position do you start Rotate to Carni from and what controls must be established?",
+      "name": "Rotate to Carni (attacker): What matters when you frame before clearing?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "This technique starts from New York Bottom, a Rubber Guard position where you have a deep overhook around opponent's tricep with shoulder-to-armpit connection, and your shin controlled across their back using your same-side hand gripping near the ankle. Both the overhook depth and the shin position must be fully established before any rotation attempt, as the overhook is the control that must survive the transition."
+        "text": "Manage the shoulder and neck line with a forearm frame as the leg clears the head."
       }
     },
     {
       "@type": "Question",
-      "name": "What is the critical grip sequence during the rotation itself?",
+      "name": "Rotate to Carni (attacker): What matters when you anchor through the hips?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "First, deepen the overhook by pulling your elbow tighter to your body before anything else. Then release the shin grip to free your posting hand. Use the free hand to post on the mat and power the rotation. As the 90-degree rotation completes, immediately thread your leg over opponent's shoulder to establish the Carni hook. Finally, your posting hand transitions to wrist control on the trapped arm. The overhook never releases throughout this entire sequence."
+        "text": "Turn partly belly down with the knee close and foot supported rather than wrenching the leg across the head."
       }
     },
     {
       "@type": "Question",
-      "name": "Your opponent drives forward aggressively as you begin the rotation - how do you adjust?",
+      "name": "Rotate to Carni (attacker): What matters when you hold the triceps?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Abort the Carni rotation immediately and redirect to Chill Dog or Invisible Collar instead. Their forward drive actually assists both of those transitions because it brings their head closer and compresses the space needed for those controls. Forcing a Carni rotation against forward pressure will fail because you need lateral space, not forward compression. Accept the pressure and use their momentum for a higher-percentage pathway."
+        "text": "Keep the captured arm connected so the opponent cannot freely roll or withdraw the shoulder."
       }
     },
     {
       "@type": "Question",
-      "name": "What is the most critical mechanical detail that determines rotation success or failure?",
+      "name": "Rotate to Carni (attacker): What matters when you control before finishing?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The most critical detail is completing the full 90-degree hip rotation without pause or hesitation. Partial rotations stopping at 45-60 degrees leave you in a weak intermediate angle where you cannot establish the Carni leg hook but have already compromised your New York control. The rotation must be committed and complete, powered by core engagement and the posting hand, with the leg hook threading over the shoulder immediately upon completion."
+        "text": "Hold the wrist and elbow at a comfortable angle; a small change can load the shoulder rapidly."
       }
     },
     {
       "@type": "Question",
-      "name": "Your opponent starts extracting their arm during your rotation - how do you chain to another attack?",
+      "name": "Rotate to Carni (attacker): What matters when you let the lock go?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "If arm extraction begins during rotation, immediately transition to triangle setup rather than forcing the Carni. Their extracting arm creates the inside position needed for triangle because as the arm pulls free, it ends up positioned between your legs. Shoot your leg over their shoulder as their arm comes free and lock triangle control. The extraction actually opens a higher percentage attack than the Carni itself in many cases."
+        "text": "Release the wrist and leg clamp immediately on a tap or when the partner needs to roll safely."
       }
     }
   ]
@@ -124,7 +124,7 @@ description: "How to execute Rotate to Carni in BJJ. Attacking perspective with 
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Rotate to Carni Attacker",
-  "description": "How to execute Rotate to Carni in BJJ. Attacking perspective with setup, execution steps, and counters from the Rubber Guard system.",
+  "description": "Rotate to Carni (attacker): Use the guard and shoulder connection to bring the opponent close before moving the high leg. Manage the shoulder and neck line with a forearm frame as the leg clears the head.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -209,9 +209,15 @@ description: "How to execute Rotate to Carni in BJJ. Attacking perspective with 
 
 <section id="overview" class="content-section">
 
-Executing the Rotate to Carni requires the bottom player to convert their established New York overhook and shin control into a perpendicular hip angle that threatens the opponent's shoulder. The attacker initiates this transition by recognizing when the opponent widens their base or circles laterally, then driving a 90-degree hip rotation powered by core engagement and a posting hand. The overhook must remain deep throughout the entire movement to prevent arm extraction, and the leg hook over the opponent's shoulder must be established immediately upon rotation completion.
+The bottom guard player begins in New York with a safe neck-clearing angle, facing a top player whose posture is controlled. Richie Martinez demonstrates the shoulder-lock mechanics through Jersey from Z guard. A direct New York entry is a positional adaptation, not established by that lesson alone.
 
-The attacker's primary advantage is that this transition exploits a natural defensive reaction. Opponents trapped in New York frequently widen their base to resist sweeps or circle away from the overhook to reduce shoulder pressure. Both reactions create the lateral space that makes the rotation possible. By reading these defensive patterns, the attacker can time the rotation to coincide with the opponent's movement, effectively using their energy against them and dramatically increasing success rate.
+Use the guard and shoulder connection to bring the opponent close before moving the high leg. Manage the shoulder and neck line with a forearm frame as the leg clears the head. Turn partly belly down with the knee close and foot supported rather than wrenching the leg across the head.
+
+Keep the captured arm connected so the opponent cannot freely roll or withdraw the shoulder. Hold the wrist and elbow at a comfortable angle; a small change can load the shoulder rapidly. Release the wrist and leg clamp immediately on a tap or when the partner needs to roll safely.
+
+Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
+
+Hip movement turns the supported knee and torso into the shoulder clamp while the neck frame blocks forward chest pressure. Carni is a rotational lock and a new submission entry: the triceps connection must prevent the arm withdrawing before any finishing angle is considered.
 
 **From Position**: [[Positions/Rubber Guard/New York]] (Bottom)
 
@@ -251,12 +257,12 @@ The attacker's primary advantage is that this transition exploits a natural defe
 
 <p class="section-subtitle">What are the key principles for executing Rotate to Carni?</p>
 
-- Opponent's base widening or lateral movement creates the rotation window - never force against strong compact base
-- Maintain overhook control throughout rotation to prevent arm extraction during transition
-- Hip rotation leads the movement - shoulders and upper body follow the hip angle change
-- Shin control must transfer smoothly from back control to leg hooking during rotation
-- Angle of rotation is 90 degrees perpendicular - incomplete rotation fails to secure Carni properly
-- Timing rotation with opponent's defensive movement multiplies effectiveness by using their energy
+- Set the upper-body angle: Use the guard and shoulder connection to bring the opponent close before moving the high leg.
+- Frame before clearing: Manage the shoulder and neck line with a forearm frame as the leg clears the head.
+- Anchor through the hips: Turn partly belly down with the knee close and foot supported rather than wrenching the leg across the head.
+- Hold the triceps: Keep the captured arm connected so the opponent cannot freely roll or withdraw the shoulder.
+- Control before finishing: Hold the wrist and elbow at a comfortable angle; a small change can load the shoulder rapidly.
+- Let the lock go: Release the wrist and leg clamp immediately on a tap or when the partner needs to roll safely.
 
 
 </section>
@@ -267,11 +273,10 @@ The attacker's primary advantage is that this transition exploits a natural defe
 
 <p class="section-subtitle">What do you need before attempting Rotate to Carni?</p>
 
-- Established New York control with deep overhook and shin across opponent's back
-- Opponent has begun widening base or circling away from overhook side
-- Overhook arm has sufficient depth to maintain control during rotational movement
-- Hip flexibility adequate to swing legs perpendicular while maintaining upper body connection
-- Core engagement sufficient to power the rotation without losing structural integrity
+- The bottom guard player begins in New York with a safe neck-clearing angle, facing a top player whose posture is controlled.
+- Use the guard and shoulder connection to bring the opponent close before moving the high leg.
+- Manage the shoulder and neck line with a forearm frame as the leg clears the head.
+- Richie Martinez demonstrates the shoulder-lock mechanics through Jersey from Z guard. A direct New York entry is a positional adaptation, not established by that lesson alone.
 
 
 </section>
@@ -282,12 +287,12 @@ The attacker's primary advantage is that this transition exploits a natural defe
 
 <p class="section-subtitle">How do you execute Rotate to Carni step by step?</p>
 
-1. **Recognize rotation window**: Identify when opponent widens base laterally or begins circling away from overhook side, creating the space needed for hip rotation. This defensive movement is your trigger to initiate. Feel for their weight shifting away from your overhook side.
-2. **Tighten overhook grip**: Before initiating rotation, deepen overhook control by pulling elbow tighter to your body and ensuring shoulder-to-armpit connection. This prevents arm extraction during the transition and is the most critical preparatory step.
-3. **Release shin grip**: Release your grip on your shin while maintaining the leg position across opponent's back momentarily. Your hand will need to be free to post on the mat and assist the rotational movement. Do not release until overhook is secured.
-4. **Initiate hip rotation**: Drive your hips in a 90-degree arc toward the overhook side, swinging your legs from behind opponent's back to perpendicular position. Use core engagement and the posting hand to power this movement. Your hips must stay elevated throughout.
-5. **Establish leg hook**: As rotation completes, hook your leg (the one previously across their back) over opponent's shoulder and behind their head, establishing the characteristic Carni leg position that threatens the omoplata. This must happen immediately as the rotation finishes.
-6. **Consolidate Carni control**: Secure final Carni position by controlling opponent's trapped arm at the wrist with your free hand while your leg hook and overhook create the triangulated shoulder attack structure. Pull their wrist toward your hip to load the shoulder.
+1. **Set the upper-body angle**: Use the guard and shoulder connection to bring the opponent close before moving the high leg.
+2. **Frame before clearing**: Manage the shoulder and neck line with a forearm frame as the leg clears the head.
+3. **Anchor through the hips**: Turn partly belly down with the knee close and foot supported rather than wrenching the leg across the head.
+4. **Hold the triceps**: Keep the captured arm connected so the opponent cannot freely roll or withdraw the shoulder.
+5. **Control before finishing**: Hold the wrist and elbow at a comfortable angle; a small change can load the shoulder rapidly.
+6. **Let the lock go**: Release the wrist and leg clamp immediately on a tap or when the partner needs to roll safely.
 
 
 </section>
@@ -311,10 +316,10 @@ The attacker's primary advantage is that this transition exploits a natural defe
 
 <p class="section-subtitle">How might your opponent counter Rotate to Carni?</p>
 
-- **Opponent drives forward before rotation completes to flatten position** (Effectiveness: High) - Your Response: If they drive early, accept the forward pressure and transition to Chill Dog or Invisible Collar instead - their forward drive actually assists those transitions → Leads to [[Positions/Rubber Guard/New York]]
-- **Opponent extracts trapped arm during rotation when overhook loosens** (Effectiveness: Medium) - Your Response: Maintain maximum overhook depth throughout rotation and be ready to transition to triangle setup if arm begins escaping - their extraction creates inside arm position for triangle → Leads to [[Positions/Closed Guard]]
-- **Opponent postures up and creates distance before rotation can complete** (Effectiveness: Medium) - Your Response: If they create significant distance, abort Carni attempt and use the space to reguard to closed guard with strong posture break, then re-establish New York → Leads to [[Positions/Closed Guard]]
-- **Opponent stacks aggressively to prevent perpendicular angle** (Effectiveness: Low) - Your Response: Use the stacking pressure to sweep them forward over your body, converting their defensive stacking into an omoplata sweep opportunity from the partial Carni angle → Leads to [[Positions/Rubber Guard/New York]]
+- **A leg clearing the head with an overhook is an upper-body trap, even if a butterfly hook remains below.** (Effectiveness: High) - Your Response: Re-check the prerequisite before continuing. Use the guard and shoulder connection to bring the opponent close before moving the high leg. → Leads to [[Positions/Rubber Guard/New York]]
+- **Avoid reaching away while the opponent sets the triceps control.** (Effectiveness: Medium) - Your Response: Re-check the prerequisite before continuing. Manage the shoulder and neck line with a forearm frame as the leg clears the head. → Leads to [[Positions/Closed Guard]]
+- **Maintain a balanced base and a safe inside frame before the shoulder becomes clamped.** (Effectiveness: Medium) - Your Response: Re-check the prerequisite before continuing. Turn partly belly down with the knee close and foot supported rather than wrenching the leg across the head. → Leads to [[Positions/Closed Guard]]
+- **Create slack around the shoulder and elbow before moving the hips past the legs.** (Effectiveness: Low) - Your Response: Re-check the prerequisite before continuing. Keep the captured arm connected so the opponent cannot freely roll or withdraw the shoulder. → Leads to [[Positions/Rubber Guard/New York]]
 
 
 </section>
@@ -325,35 +330,30 @@ The attacker's primary advantage is that this transition exploits a natural defe
 
 <p class="section-subtitle">What mistakes should you avoid when executing Rotate to Carni?</p>
 
-### 1. Initiating rotation against opponent with compact, strong base
+### 1. Skipping the checkpoint: set the upper-body angle
 
-- **Consequence**: Rotation fails and position degrades to basic closed guard with lost attacking position
-- **Correction**: Wait for opponent to widen base or circle before attempting rotation - never force against compact base
+- **Consequence**: The intended control is not established before the next movement; the missing requirement is: Use the guard and shoulder connection to bring the opponent close before moving the high leg.
+- **Correction**: Use the guard and shoulder connection to bring the opponent close before moving the high leg.
 
-### 2. Releasing overhook control during rotation
+### 2. Skipping the checkpoint: frame before clearing
 
-- **Consequence**: Opponent extracts arm and escapes to neutral position or passes guard
-- **Correction**: Maintain deep overhook throughout entire rotation by keeping elbow tight to body and shoulder connected to armpit
+- **Consequence**: The intended control is not established before the next movement; the missing requirement is: Manage the shoulder and neck line with a forearm frame as the leg clears the head.
+- **Correction**: Manage the shoulder and neck line with a forearm frame as the leg clears the head.
 
-### 3. Incomplete 90-degree rotation stopping at 45-60 degrees
+### 3. Skipping the checkpoint: anchor through the hips
 
-- **Consequence**: Cannot establish proper Carni leg hook position, stuck in weak intermediate angle
-- **Correction**: Commit fully to complete rotation using core power and posting hand - partial rotations fail
+- **Consequence**: The intended control is not established before the next movement; the missing requirement is: Turn partly belly down with the knee close and foot supported rather than wrenching the leg across the head.
+- **Correction**: Turn partly belly down with the knee close and foot supported rather than wrenching the leg across the head.
 
-### 4. Failing to establish leg hook immediately after rotation
+### 4. Skipping the checkpoint: hold the triceps
 
-- **Consequence**: Opponent recovers posture and escapes before Carni control can be consolidated
-- **Correction**: Thread leg over shoulder and behind head immediately as rotation completes - hook establishment must be instantaneous
+- **Consequence**: The intended control is not established before the next movement; the missing requirement is: Keep the captured arm connected so the opponent cannot freely roll or withdraw the shoulder.
+- **Correction**: Keep the captured arm connected so the opponent cannot freely roll or withdraw the shoulder.
 
-### 5. Losing hip elevation during rotation allowing opponent to flatten
+### 5. Skipping the checkpoint: control before finishing
 
-- **Consequence**: Position collapses and opponent achieves top pressure, forcing restart from defensive position
-- **Correction**: Maintain core engagement and hip elevation throughout rotation - never let hips drop to mat during transition
-
-### 6. Releasing shin grip before deepening overhook
-
-- **Consequence**: Both control points compromised simultaneously, opponent easily postures and escapes New York entirely
-- **Correction**: Always deepen overhook first as step two, then release shin grip as step three - never reverse this sequence
+- **Consequence**: The intended control is not established before the next movement; the missing requirement is: Hold the wrist and elbow at a comfortable angle; a small change can load the shoulder rapidly.
+- **Correction**: Hold the wrist and elbow at a comfortable angle; a small change can load the shoulder rapidly.
 
 
 
@@ -365,20 +365,17 @@ The attacker's primary advantage is that this transition exploits a natural defe
 
 <p class="section-subtitle">How do you train Rotate to Carni (Attacker)?</p>
 
-**Week 1-2** - Rotation mechanics
-Practice rotation movement in isolation without partner. Focus on hip rotation path, core engagement, and maintaining simulated overhook position throughout movement. Drill 50 rotations per session building muscle memory.
+**Phase 1** - Identify the configuration
+Work cooperatively on set the upper-body angle. Use the guard and shoulder connection to bring the opponent close before moving the high leg. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.
 
-**Week 3-4** - Partner drilling
-Partner holds static New York top position while you execute rotation to Carni. Partner does not resist but maintains position. Focus on smooth transition, proper leg hook establishment, and timing of grip changes. 30 repetitions per session.
+**Phase 2** - Rehearse the connection
+Work cooperatively on frame before clearing. Manage the shoulder and neck line with a forearm frame as the leg clears the head. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.
 
-**Week 5-6** - Reaction timing
-Partner randomly chooses between widening base, driving forward, or maintaining static position from New York top. React appropriately - rotate to Carni when they widen, switch to Chill Dog when they drive, maintain New York when static. Build recognition patterns.
+**Phase 3** - Add an early response
+Work cooperatively on anchor through the hips. Turn partly belly down with the knee close and foot supported rather than wrenching the leg across the head. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.
 
-**Week 7-8** - Counter integration
-Partner actively counters rotation attempts by driving forward, extracting arm, or stacking. Practice recognizing failed rotation early and transitioning to alternative attacks (triangle, Invisible Collar, Chill Dog) rather than forcing the Carni.
-
-**Week 9+** - Live application
-Full resistance positional sparring starting from New York. Attempt Rotate to Carni and complete omoplata attacks against fully resisting partner. Track success rate and identify failure patterns for targeted improvement.
+**Phase 4** - Link only verified checkpoints
+Work cooperatively on hold the triceps. Keep the captured arm connected so the opponent cannot freely roll or withdraw the shoulder. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.
 
 
 
@@ -392,7 +389,7 @@ Full resistance positional sparring starting from New York. Attempt Rotate to Ca
 
 <p class="section-subtitle">What are the safety concerns for Rotate to Carni?</p>
 
-Rotate to Carni involves shoulder joint manipulation that can cause injury if executed explosively on an unprepared training partner. Always communicate with your partner before drilling omoplata-based positions. During rotation, avoid jerking or explosive movements that could hyperextend your partner's shoulder. Partners should tap early when shoulder pressure begins - do not wait for pain. Practitioners with shoulder injuries should avoid being the recipient during drilling. When completing the transition to Carni, control the shoulder angle gradually rather than cranking immediately. In competition, be prepared to release if opponent taps during any phase of the transition.
+Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
 
 </section>
 

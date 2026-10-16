@@ -4,7 +4,7 @@
 
 ---
 title: "Elbow Escape to Remove Hooks | BJJ Technique | BJJ Graph"
-description: "Master Elbow Escape to Remove Hooks from back control. Step-by-step hook removal mechanics with elbow wedge framing and systematic hip escape sequences."
+description: "An Invisible Collar guard reset opens the high leg clinch and restores inside elbows and knees; removing rear hooks belongs to a separate back-control escape."
 ---
 
 
@@ -16,7 +16,7 @@ description: "Master Elbow Escape to Remove Hooks from back control. Step-by-ste
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Elbow Escape to Remove Hooks",
-  "description": "Master Elbow Escape to Remove Hooks from back control. Step-by-step hook removal mechanics with elbow wedge framing and systematic hip escape sequences.",
+  "description": "An Invisible Collar guard reset opens the high leg clinch and restores inside elbows and knees; removing rear hooks belongs to a separate back-control escape.",
   "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
 }
 </script>
@@ -76,7 +76,7 @@ description: "Master Elbow Escape to Remove Hooks from back control. Step-by-ste
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Elbow Escape to Remove Hooks",
-  "description": "The Elbow Escape to Remove Hooks is a systematic back-control escape where the bottom player wedges an elbow against each hook and shrimps free one hook at a time, clearing leg control to recover guard while keeping the neck defended.",
+  "description": "An Invisible Collar guard reset opens the high leg clinch and restores inside elbows and knees; removing rear hooks belongs to a separate back-control escape.",
   "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
 }
 </script>
@@ -94,13 +94,15 @@ description: "Master Elbow Escape to Remove Hooks from back control. Step-by-ste
 
 <section id="overview" class="content-section">
 
-**The Elbow Escape to Remove Hooks is a systematic back-control escape where the bottom player wedges an elbow against each hook and shrimps free one hook at a time, clearing leg control to recover guard while keeping the neck defended.**
+**An Invisible Collar guard reset opens the high leg clinch and restores inside elbows and knees; removing rear hooks belongs to a separate back-control escape.**
 
-Because back control rests on the opponent's hooks anchoring your hips, no rotation or guard recovery is possible until those hooks are cleared—this escape attacks that foundation first. When trapped in the invisible collar position, the defender faces both positional disadvantage and immediate submission threat, so this escape addresses the hook control that anchors back position before dealing with upper body attacks.
+The bottom player is already facing the opponent in Invisible Collar, with a high rubber-guard leg connection. Invisible Collar contains no required rear hooks. Its bottom player controls the facing high guard rather than defending a back mount.
 
-The fundamental concept involves using your elbows as wedges against your opponent's hooks while creating space through hip escapes. Rather than fighting the choking grip directly, this technique attacks the foundation of their control—the hooks that prevent you from turning. By systematically removing hooks one at a time, you create rotational freedom that eventually allows guard recovery.
+The bottom player faces the kneeling or leaning top player in a high guard. One arm has been isolated through the New York and neck-clearing sequence. Release any wrist, neck or elbow loading before opening the high-leg enclosure. Lower the controlling leg through a comfortable hip angle rather than pulling the foot against the knee.
 
-This escape is particularly effective against the invisible collar because it doesn't require you to remove your hands from neck defense to fight hooks. The elbow mechanics allow you to address both threats simultaneously—protecting your neck while dismantling their lower body control. Successful execution requires patience, proper sequencing, and the discipline to complete each phase fully before moving to the next. Rushing any step typically results in the opponent simply re-establishing the cleared hook.
+Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
+
+Instructional sources: [Eddie Bravo — MTS 134 Invisible Collar in Austin](https://www.youtube.com/watch?v=KCyIwacRKu8); [Eddie Bravo — Chill Dog / Invisible Collar clarification](https://www.10thplanetjj.com/forum/threads/17657-Chill-Dog-Invisible-Collar-Question).
 
 **From Position**: [[Positions/Rubber Guard/Invisible Collar]] (Bottom)
 **Success Rate**: 23%
@@ -155,8 +157,8 @@ This escape is particularly effective against the invisible collar because it do
 | &nbsp; | Attacker | Defender |
 |--------|----------|----------|
 | **Focus** | Execute technique | Prevent or counter |
-| **Key Principles** | Attack hooks systematically one at a time rather than both s... | Maintain constant forward chest pressure against opponent's ... |
-| **Options** | 7 execution steps | 4 defensive options |
+| **Key Principles** | Recognize the actual control: The bottom player faces the kn... | Recognize the high closure: The free leg moving behind your ... |
+| **Options** | 6 execution steps | 4 defensive options |
 
 </section>
 
@@ -169,53 +171,49 @@ This escape is particularly effective against the invisible collar because it do
 ### Key Principles
 
 
-- Attack hooks systematically one at a time rather than both simultaneously to prevent opponent from simply switching focus
+- Recognize the actual control: The bottom player faces the kneeling or leaning top player in a high guard. One arm has been isolated through the New York and neck-clearing sequence.
 
-- Use elbow as a wedge against opponent's ankle or instep to create mechanical leverage for hook removal
+- Remove submission pressure: Release any wrist, neck or elbow loading before opening the high-leg enclosure.
 
-- Hip escape away from the hook you're removing to create space and prevent re-insertion
+- Open the high connection: Lower the controlling leg through a comfortable hip angle rather than pulling the foot against the knee.
 
-- Maintain neck protection throughout—never sacrifice collar defense to speed hook removal
+- Restore inside frames: Bring the forearms and knees between the bodies as space becomes available.
 
-- Complete each hook removal fully before addressing the next to prevent opponent from simply cycling back
+- Face the opponent: Keep the shoulders and hips oriented toward the opponent while re-establishing a comfortable facing guard.
 
-- Turn incrementally toward opponent as each hook clears rather than attempting explosive rotation
-
-- Trap cleared hook with your leg to prevent immediate re-insertion while addressing second hook
+- Stabilize before moving again: Check posture, knee comfort and inside space before resuming a sweep or submission attack.
 
 
 ### Execution Steps
 
 
-- **Secure neck defense**: Tuck your chin aggressively to your chest and bring both hands to your collar area to control oppone...
+- **Recognize the actual control**: The bottom player faces the kneeling or leaning top player in a high guard. One arm has been isolate...
 
-- **Identify vulnerable hook**: Determine which hook is more exposed based on opponent's weight distribution and body angle. The hoo...
+- **Remove submission pressure**: Release any wrist, neck or elbow loading before opening the high-leg enclosure....
 
-- **Position elbow wedge**: Drop your elbow on the targeted side down inside your hip, creating a frame between your elbow and h...
+- **Open the high connection**: Lower the controlling leg through a comfortable hip angle rather than pulling the foot against the k...
 
-- **Hip escape and clear hook**: Execute a strong hip escape away from the hook you're removing—shrimp your hips laterally while simu...
+- **Restore inside frames**: Bring the forearms and knees between the bodies as space becomes available....
 
-- **Secure cleared position**: Triangle your legs to trap opponent's cleared leg between your thighs, preventing re-insertion while...
+- **Face the opponent**: Keep the shoulders and hips oriented toward the opponent while re-establishing a comfortable facing ...
 
-- **Address second hook**: With the first hook trapped, begin turning your torso toward your opponent while dropping your oppos...
-
-- **Complete rotation to guard**: Once both hooks are cleared, complete your rotation to face your opponent. Frame on their hips with ...
+- **Stabilize before moving again**: Check posture, knee comfort and inside space before resuming a sweep or submission attack....
 
 
 ### Common Mistakes
 
 
-- **Abandoning neck defense to use both hands on hook removal**
-  - Consequence: Opponent finishes choke or collar strangle while you focus exclusively on hooks—they simply wait for the opening and finish the submission
-  - Correction: Keep at least one hand protecting your neck throughout the entire escape. The elbow escape allows you to address hooks without removing hands from neck defense
+- **Skipping the checkpoint: recognize the actual control**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: The bottom player faces the kneeling or leaning top player in a high guard. One arm has been isolated through the New York and neck-clearing sequence.
+  - Correction: The bottom player faces the kneeling or leaning top player in a high guard. One arm has been isolated through the New York and neck-clearing sequence.
 
-- **Attempting to clear both hooks simultaneously rather than one at a time**
-  - Consequence: Neither hook fully clears and opponent easily maintains position by shifting weight—you waste energy without making progress
-  - Correction: Focus entirely on one hook first, trap it completely, then address the second. Systematic removal is slower but far more effective
+- **Skipping the checkpoint: remove submission pressure**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Release any wrist, neck or elbow loading before opening the high-leg enclosure.
+  - Correction: Release any wrist, neck or elbow loading before opening the high-leg enclosure.
 
-- **Hip escaping toward the hook instead of away from it**
-  - Consequence: Creates no space for hook to clear and may actually help opponent sink the hook deeper or transition to tighter control
-  - Correction: Always hip escape away from the hook you're removing—this creates the space necessary for the hook to pass your leg
+- **Skipping the checkpoint: open the high connection**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Lower the controlling leg through a comfortable hip angle rather than pulling the foot against the knee.
+  - Correction: Lower the controlling leg through a comfortable hip angle rather than pulling the foot against the knee.
 
 
 </section>
@@ -229,41 +227,37 @@ This escape is particularly effective against the invisible collar because it do
 ### Key Principles
 
 
-- Maintain constant forward chest pressure against opponent's back to limit their hip mobility and escape angles
+- Recognize the high closure: The free leg moving behind your head is an attempt to reinforce posture control, even without a collar grip.
 
-- Keep hooks active with heels driving toward opponent's far hip rather than passive foot placement inside thighs
+- Protect the neck and arm: Keep the head aligned and the captured elbow compact rather than twisting against the enclosure.
 
-- Respond to elbow wedge attempts by deepening the threatened hook or switching to body triangle before leverage is established
+- Keep a balanced base: Avoid driving all weight onto the partner's shoulders while the legs are locked high.
 
-- Apply submission pressure whenever opponent diverts attention to hook fighting to force them back to neck defense
+- Address the leg enclosure: Create space at the hip and thigh before trying to raise the head or extract the arm.
 
-- Distribute weight toward the hook being attacked to increase the force required for clearance
+- Recover inside position: Bring the elbow back between the bodies after the high closure opens.
 
-- Monitor both hooks simultaneously—when opponent focuses on one hook, ensure the other is positioned to prevent rotation even if the first clears
+- Stop on compression: Tap immediately to a choke or joint pressure; posture recovery is an early defense, not a late escape guarantee.
 
 
 ### Recognition Cues
 
 
-- Opponent's elbow drops inside their hip toward your ankle or instep, creating the wedge frame that initiates hook removal
+- The bottom player is already facing the opponent in Invisible Collar, with a high rubber-guard leg connection.
 
-- Subtle hip shift away from one of your hooks—the opponent is creating space on that side to begin the shrimping motion
+- Release any wrist, neck or elbow loading before opening the high-leg enclosure.
 
-- Opponent's legs begin clamping together or their knees angle inward, preparing to trap your hook once it is cleared
-
-- One of opponent's hands moves from neck defense to their hip area, indicating they may be switching to heel drag variation
-
-- Opponent's breathing pattern changes from defensive rapid breathing to slower, more controlled rhythm indicating they are preparing a systematic escape attempt
+- Bring the forearms and knees between the bodies as space becomes available.
 
 
 ### Defensive Options
 
 
-- **Deepen threatened hook and increase choking pressure simultaneously** - When: When you feel opponent's elbow beginning to wedge against your hook but before they execute the hip escape
+- **The free leg moving behind your head is an attempt to reinforce posture control, even without a collar grip.** - When: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
 
-- **Switch to body triangle before first hook is cleared** - When: When you recognize the elbow escape pattern starting and have time to transition your leg configuration before they gain leverage
+- **Keep the head aligned and the captured elbow compact rather than twisting against the enclosure.** - When: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
 
-- **Drive forward and flatten opponent while re-pummel hooks deeper** - When: When opponent begins the hip escape phase and creates lateral space—drive your chest weight forward to collapse the space they created
+- **Avoid driving all weight onto the partner's shoulders while the legs are locked high.** - When: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
 
 
 </section>
@@ -274,13 +268,10 @@ This escape is particularly effective against the invisible collar because it do
 ## Variations
 
 
-**Heel drag variation**: Instead of using elbow against the hook, grab opponent's heel directly and drag it across your hip line. More direct but requires removing a hand from neck defense. Use when opponent's hooks are shallow or when you have a moment without immediate choking pressure. (When to use: When hooks are shallow and you can briefly release neck defense safely)
+**Cooperative checkpoint drill**: The bottom player faces the kneeling or leaning top player in a high guard. One arm has been isolated through the New York and neck-clearing sequence. Release any wrist, neck or elbow loading before opening the high-leg enclosure. (When to use: Learning the control without submission pressure)
 
 
-**Leg pry variation**: Use your same-side leg to hook under opponent's ankle and pry the hook free by straightening your leg. This keeps both hands available for neck defense but requires more hip flexibility and may be harder against tight hooks. Particularly effective when opponent has one shallow hook. (When to use: When maintaining both hands for neck defense is critical and you have good hip mobility)
-
-
-**Sit-up escape integration**: Combine hook removal with sit-up motion when opponent's hooks are partially cleared. As first hook clears, immediately sit up and turn toward opponent rather than continuing to work second hook from bottom. Creates more scramble but may be necessary against persistent re-hooking. (When to use: When opponent keeps re-inserting hooks and flat escape isn't working)
+**Response and reset drill**: The free leg moving behind your head is an attempt to reinforce posture control, even without a collar grip. Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route. (When to use: Adding one early response after both partners recognize the configuration)
 
 
 
@@ -292,7 +283,7 @@ This escape is particularly effective against the invisible collar because it do
 
 ## Position Integration
 
-The Elbow Escape to Remove Hooks is a critical defensive transition in the back control escape system. It connects directly to the broader back defense sequence that begins with hand fighting against choking grips and progresses through hook removal to guard recovery. This technique specifically addresses situations where you've established minimal neck defense but cannot prevent the opponent from maintaining back control through their hooks. Successfully executing this escape transitions you to open guard where you regain offensive and defensive options. The technique integrates with other back escapes—if elbow escape is being countered, you may need to switch to granby roll, seat belt escape, or standing escape methods. Understanding when to use elbow escape versus alternatives is crucial for complete back defense development. This escape also teaches fundamental defensive concepts that apply across BJJ: systematic problem-solving, attacking the foundation of opponent's control, and maintaining protection of vital areas while escaping.
+The bottom player is already facing the opponent in Invisible Collar, with a high rubber-guard leg connection. Invisible Collar contains no required rear hooks. Its bottom player controls the facing high guard rather than defending a back mount. A destination is established by its actual body configuration, not by completing an isolated grip or by the name of the route.
 
 </section>
 
@@ -302,25 +293,13 @@ The Elbow Escape to Remove Hooks is a critical defensive transition in the back 
 ## Related Techniques
 
 
-- [[Positions/Rubber Guard/Invisible Collar]] - Starting position for this escape
+- [[Positions/Rubber Guard/Chill Dog]] - Related configuration; establish its own prerequisites: compare the configuration and required controls for Chill Dog.
 
-- [[Positions/Back Control]] - Counter position if escape fails and opponent retakes deeper control
+- [[Positions/Rubber Guard/New York]] - Related configuration; establish its own prerequisites: compare the configuration and required controls for New York.
 
-- [[Positions/Open Guard]] - Target position after successful escape and guard recovery
+- [[Positions/Rubber Guard]] - Related configuration; establish its own prerequisites: compare the configuration and required controls for Rubber Guard.
 
-- [[Positions/Half Guard]] - Alternative recovery position if full open guard cannot be established
-
-- [[Positions/Turtle]] - Transitional position during some escape variations
-
-- [[Transitions/Granby Roll to Guard]] - Alternative escape method when elbow escape is being countered
-
-- [[Transitions/Back Door Escape]] - Parent escape system containing multiple back escape options
-
-- [[Submissions/Rear Naked Choke]] - Primary submission threat that must be defended during escape
-
-- [[Transitions/Hand Fighting from Back]] - Prerequisite defensive transition establishing neck safety before hook removal
-
-- [[Transitions/Hip Escape to Turtle]] - Alternative escape pathway when full guard recovery is blocked
+- [[Positions/Rubber Guard/Crackhead Control]] - Related configuration; establish its own prerequisites: compare the configuration and required controls for Crackhead Control.
 
 
 </section>

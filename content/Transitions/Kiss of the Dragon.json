@@ -1,15 +1,11 @@
 {
   "name": "Kiss of the Dragon",
-  "summary": "The Kiss of the Dragon is an advanced rolling back take from turtle top in which the attacker somersaults forward beneath the opponent's hips to surface behind them, bypassing the frames that stop conventional seatbelt entries.",
-  "description": "Learn Kiss of the Dragon in BJJ. Advanced rolling back take from turtle that bypasses defensive layers through inversion to establish back control.",
+  "summary": "Kiss of the Dragon is a reverse De La Riva inversion that takes the bottom player underneath the opponent's near leg to reach the backside and pursue rear control.",
+  "description": "Kiss of the Dragon is a reverse De La Riva inversion that takes the bottom player underneath the opponent's near leg to reach the backside and pursue rear control.",
   "tags": [
     "bjj",
     "transition",
-    "back-take",
-    "turtle",
-    "rolling",
-    "advanced-technique",
-    "inversion"
+    "position-change"
   ],
   "from_position": "Turtle/Top",
   "outcomes": [
@@ -42,352 +38,289 @@
     "gi": 50,
     "nogi": 50
   },
-  "overview": "The Kiss of the Dragon is an advanced rolling back take technique that allows the top player to bypass the turtle position's defensive structure and directly establish back control. The practitioner uses a forward somersault while maintaining grip control on the opponent's hips or belt, rolling underneath and behind the turtle position to emerge directly on the back. This dynamic movement is particularly effective against opponents who are skilled at defending traditional back take attempts such as seatbelt entries and crab rides, as it circumvents the typical defensive frames and hand fighting that occur during standard back attacks.\n\nThe technique exploits the moment when an opponent commits weight forward into their turtle shell. By entering from a 45-degree angle and rolling tightly underneath the opponent's center of gravity, the practitioner arrives at the back before defensive reactions can engage. The key mechanical insight is that most turtle defenses are oriented to resist attacks coming from behind and above, while the Kiss of the Dragon attacks from underneath, rendering those defensive layers irrelevant.\n\nThe technique requires excellent spatial awareness, timing, and the ability to maintain connection throughout the inversion. The hip grip serves as the anchor that keeps the rolling practitioner's body tracing a tight arc around the opponent rather than rolling into empty space. When executed properly, the Kiss of the Dragon provides one of the most direct paths from turtle top to full back control with hooks. The technique has gained prominence in modern competition grappling as a complement to traditional turtle attacks, creating a three-dimensional threat system that is extremely difficult to defend comprehensively.",
+  "overview": "The bottom player has a reverse De La Riva hook against a standing or crouching passer, with space for shoulder-supported inversion. It begins from guard below the opponent, not from a top turtle ride. Reaching behind the legs is a checkpoint; complete back control still requires torso attachment and leg control.\n\nUse the reverse hook and lower-leg connection while facing the standing passer. Load weight onto the far leg or available post to create space beside the near leg. Turn onto the shoulder and upper back, keeping weight off the neck.\n\nMove through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.\n\nInstructional sources: [Giancarlo Bodoni — reverse De La Riva inversion](https://www.youtube.com/watch?v=vkT6Mpn5uLY); [Rob Biernacki and Stephan Kesting — no-gi De La Riva](https://www.grapplearts.com/no-gi-de-la-riva/).",
   "related_content": [
     {
-      "name": "Turtle",
-      "relationship": "Starting position where technique is initiated from top"
+      "name": "Reverse De La Riva Guard",
+      "relationship": "Related configuration; establish its own prerequisites: compare the configuration and required controls for Reverse De La Riva Guard."
     },
     {
       "name": "Back Control",
-      "relationship": "Primary target position upon successful execution"
+      "relationship": "Related configuration; establish its own prerequisites: compare the configuration and required controls for Back Control."
     },
     {
-      "name": "Crab Ride to Back",
-      "relationship": "Alternative back take method from turtle top"
-    },
-    {
-      "name": "Rolling Back Take",
-      "relationship": "Similar rolling mechanics for back take entry"
-    },
-    {
-      "name": "Truck",
-      "relationship": "Alternative ending position via Kiss of the Dragon to Truck variant"
-    },
-    {
-      "name": "Granby Roll to Guard",
-      "relationship": "Related inversion movement pattern used by defender"
-    },
-    {
-      "name": "Berimbolo Entry",
-      "relationship": "Similar rolling mechanics and inversion principles"
-    },
-    {
-      "name": "Rear Naked Choke",
-      "relationship": "Primary follow-up submission from back control"
-    },
-    {
-      "name": "Bow and Arrow Choke",
-      "relationship": "High-percentage gi follow-up submission from back control"
-    },
-    {
-      "name": "Armbar from Back Transition",
-      "relationship": "Follow-up submission option from back control"
-    },
-    {
-      "name": "Crab Ride",
-      "relationship": "Alternative back take control position from turtle"
-    },
-    {
-      "name": "Front Headlock",
-      "relationship": "Alternative turtle control position when Kiss of the Dragon is unavailable"
-    },
-    {
-      "name": "Crucifix from Turtle",
-      "relationship": "Alternative advanced attack from turtle top position"
+      "name": "Open Guard",
+      "relationship": "Related configuration; establish its own prerequisites: compare the configuration and required controls for Open Guard."
     }
   ],
   "attacker": {
     "name": "Kiss of the Dragon Attacker",
-    "description": "How to execute Kiss of the Dragon in BJJ. Complete attacking guide with setup, rolling mechanics, grip management, and back control finishing.",
-    "overview": "The Kiss of the Dragon is an advanced rolling back take that allows the top player to bypass turtle defensive structure entirely through an inverted forward roll. Rather than fighting through hand fighting, frames, and seated guard transitions that characterize traditional back take attempts, this technique uses a controlled somersault underneath the opponent to arrive directly behind them. The practitioner maintains constant hip grip connection throughout the roll, emerging behind the turtle with chest-to-back proximity and immediate access to seatbelt and hooks. The technique is most effective when the opponent has committed weight forward into their defensive turtle shell, creating the space needed to insert your head and shoulders below their hip line. Threatening traditional back takes first forces this forward weight commitment, making the Kiss of the Dragon a powerful second-layer attack that punishes sound turtle defense.",
+    "description": "Kiss of the Dragon (attacker): Use the reverse hook and lower-leg connection while facing the standing passer. Load weight onto the far leg or available post to create space beside the near leg.",
+    "overview": "The bottom player has a reverse De La Riva hook against a standing or crouching passer, with space for shoulder-supported inversion. It begins from guard below the opponent, not from a top turtle ride. Reaching behind the legs is a checkpoint; complete back control still requires torso attachment and leg control.\n\nUse the reverse hook and lower-leg connection while facing the standing passer. Load weight onto the far leg or available post to create space beside the near leg. Turn onto the shoulder and upper back, keeping weight off the neck.\n\nBring the head and tucked knee through the space with a controlled pendulum action. Connect behind the thigh while bringing the knees behind the opponent's leg line. Establish torso and leg control before calling the result back control; return to guard if the connection is lost.\n\nMove through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.\n\nKeep the inside elbow close to the knee as the reverse De La Riva hook and grips create the opening for inversion. The foot on the hip supplies hip control for a compact pivot while the knee follows the head under the near leg. Preserve guard retention if the backside opening closes; release an unsafe leg capture and rebuild facing frames rather than forcing the roll.",
     "key_principles": [
-      "Maintain constant connection to opponent's hips throughout the roll using active pulling tension on your grip",
-      "Forward roll must be tight and controlled, tracing an arc around the opponent's body rather than rolling through empty space",
-      "Time the entry when opponent commits weight forward into their turtle defensive structure",
-      "Keep head tucked and spine rounded during inversion to maintain smooth rotation and prevent neck injury",
-      "Establish seatbelt grip immediately upon completing the roll before opponent can react",
-      "Use momentum from the roll to penetrate hooks before opponent can mount back defense",
-      "Position at a 45-degree angle to one side before initiating to create proper rolling trajectory"
+      "Establish reverse De La Riva: Use the reverse hook and lower-leg connection while facing the standing passer.",
+      "Off-balance the passer: Load weight onto the far leg or available post to create space beside the near leg.",
+      "Set a shoulder-supported angle: Turn onto the shoulder and upper back, keeping weight off the neck.",
+      "Invert beneath the near leg: Bring the head and tucked knee through the space with a controlled pendulum action.",
+      "Reach the backside: Connect behind the thigh while bringing the knees behind the opponent's leg line.",
+      "Secure rear attachment separately: Establish torso and leg control before calling the result back control; return to guard if the connection is lost."
     ],
     "setup_requirements": [
-      "Opponent in turtle position with weight distributed forward into their defensive shell",
-      "Strong grip on opponent's belt, back of pants, or hip control firmly established",
-      "Top position with ability to lower head below opponent's hip level from a side angle",
-      "Clear mat space to execute forward roll without obstruction from walls or other practitioners",
-      "Opponent's defensive posture oriented toward preventing traditional back takes from behind",
-      "Control of at least one side of opponent's body to anchor the roll and maintain connection"
+      "The bottom player has a reverse De La Riva hook against a standing or crouching passer, with space for shoulder-supported inversion.",
+      "Use the reverse hook and lower-leg connection while facing the standing passer.",
+      "Load weight onto the far leg or available post to create space beside the near leg.",
+      "It begins from guard below the opponent, not from a top turtle ride. Reaching behind the legs is a checkpoint; complete back control still requires torso attachment and leg control."
     ],
     "execution_steps": [
       {
         "step_number": 1,
-        "action": "Establish hip control from top turtle at an angle",
-        "description": "From top turtle position, secure a firm grip on opponent's belt or the back of their pants at the hip level. Position yourself at approximately 45 degrees to one side of the turtle position rather than directly behind. This angle is critical because it creates the proper arc trajectory for your roll to travel around their body. The grip must be strong enough to maintain connection throughout dynamic movement."
+        "action": "Establish reverse De La Riva",
+        "description": "Use the reverse hook and lower-leg connection while facing the standing passer."
       },
       {
         "step_number": 2,
-        "action": "Threaten traditional back take to load opponent's weight forward",
-        "description": "Before committing to the roll, briefly threaten a standard seatbelt back take or attempt to insert hooks in the conventional manner. This forces the opponent to commit their weight forward and tighten their defensive turtle structure, which creates the space underneath their hips that you need for your entry. Without this setup, alert opponents may sit their weight back and collapse the entry space."
+        "action": "Off-balance the passer",
+        "description": "Load weight onto the far leg or available post to create space beside the near leg."
       },
       {
         "step_number": 3,
-        "action": "Drop head below opponent's hip line",
-        "description": "Lower your head and shoulders beneath the level of your opponent's hips while maintaining your grip. Your forehead should be pointing toward the mat with your spine beginning to round in preparation for the somersault. This positioning creates the proper axis for your forward roll. The transition from upright to this lowered position should be smooth and committed rather than tentative."
+        "action": "Set a shoulder-supported angle",
+        "description": "Turn onto the shoulder and upper back, keeping weight off the neck."
       },
       {
         "step_number": 4,
-        "action": "Initiate forward roll under opponent",
-        "description": "Execute a tight forward somersault while pulling on the hip grip to maintain connection. Tuck your chin firmly to your chest and roll over your shoulder, directing your momentum to pass underneath the opponent's center of gravity. The roll should be compact and controlled, with your body staying connected to the opponent's hips throughout the rotation. Think of your body tracing the curve of their torso rather than rolling in a straight line."
+        "action": "Invert beneath the near leg",
+        "description": "Bring the head and tucked knee through the space with a controlled pendulum action."
       },
       {
         "step_number": 5,
-        "action": "Maintain hip connection through the inversion phase",
-        "description": "As you roll inverted underneath your opponent, actively pull on your hip grip to keep your body connected to theirs. This pulling tension is what prevents separation and ensures you emerge in the correct position relative to their back. Your legs may briefly pass over your head during this phase. Resist the instinct to release the grip even momentarily, as any separation during inversion causes you to roll past the target position."
+        "action": "Reach the backside",
+        "description": "Connect behind the thigh while bringing the knees behind the opponent's leg line."
       },
       {
         "step_number": 6,
-        "action": "Emerge behind opponent and transition to seatbelt",
-        "description": "Complete the forward roll to emerge directly behind your opponent's back. Immediately transition your grip from their hips to the seatbelt position by threading one arm over the opponent's shoulder and the other under their armpit, clasping your hands together. This grip transition must happen within one second of completing the rotation. The opponent is momentarily disoriented by your sudden appearance behind them, and this window must be exploited before they can react."
-      },
-      {
-        "step_number": 7,
-        "action": "Insert hooks and consolidate back control",
-        "description": "With seatbelt control established, use your legs to insert both hooks inside your opponent's thighs, establishing full back control. The momentum from your roll and the surprise of your position makes hook insertion significantly easier than during traditional back takes. Pull your opponent's weight back onto you to flatten them and consolidate your dominant position. Prioritize the bottom hook first, then secure the top hook once your base is stable."
+        "action": "Secure rear attachment separately",
+        "description": "Establish torso and leg control before calling the result back control; return to guard if the connection is lost."
       }
     ],
     "common_counters": [
       {
-        "counter": "Opponent follows your roll by turning with you",
+        "counter": "A bottom player turning under the near leg from reverse De La Riva is seeking backside access.",
         "effectiveness": "Medium",
-        "your_response": "If you recognize their turn early, accelerate your roll and rapidly transition grips to complete the technique before they fully track your movement. If they are successfully matching your rotation, abort the complete somersault and transition to a leg entanglement or scramble position rather than forcing a compromised back take.",
+        "your_response": "Re-check the prerequisite before continuing. Use the reverse hook and lower-leg connection while facing the standing passer.",
         "targets_outcome": "Turtle/Top"
       },
       {
-        "counter": "Opponent sprawls weight back to prevent you from getting underneath",
+        "counter": "Redistribute weight before the far leg and posting arm are loaded.",
         "effectiveness": "High",
-        "your_response": "Abandon the technique and transition to traditional back take methods like the crab ride, seatbelt entry, or cross body ride. The Kiss of the Dragon requires forward weight commitment from the opponent, so when they shift backward, switch to attacks that exploit that rearward weight distribution instead.",
+        "your_response": "Re-check the prerequisite before continuing. Load weight onto the far leg or available post to create space beside the near leg.",
         "targets_outcome": "Turtle/Top"
       },
       {
-        "counter": "Opponent sits to guard as you initiate the roll",
+        "counter": "Clear the reverse hook before the opponent has inverted under the knee line.",
         "effectiveness": "Medium",
-        "your_response": "Continue your roll and use your momentum to establish a leg entanglement position such as ashi garami or single leg X, converting your rolling motion into a sweep or leg attack entry. Your body positioning naturally favors lower body attacks when the back take is denied by guard recovery.",
+        "your_response": "Re-check the prerequisite before continuing. Turn onto the shoulder and upper back, keeping weight off the neck.",
         "targets_outcome": "Turtle/Bottom"
       },
       {
-        "counter": "Opponent breaks your hip grip during the roll",
+        "counter": "Turn with the opponent while keeping the knee aligned rather than spinning on a trapped foot.",
         "effectiveness": "High",
-        "your_response": "If the grip breaks early in the roll, abort immediately and return to top turtle control to re-establish your attacking position. If it breaks late in the rotation when you are already behind them, complete the roll and immediately work to establish seatbelt or any upper body connection rather than trying to re-grip the hips.",
+        "your_response": "Re-check the prerequisite before continuing. Bring the head and tucked knee through the space with a controlled pendulum action.",
         "targets_outcome": "Turtle/Top"
       }
     ],
     "common_errors": [
       {
-        "error": "Rolling too far away from opponent without maintaining connection",
-        "consequence": "You complete the somersault but emerge too far from the opponent's back, giving them time to turn and face you or escape entirely",
-        "correction": "Maintain constant pulling tension on your hip grip throughout the roll, actively drawing yourself along a tight arc around their body. The grip should pull you into the opponent rather than allowing you to roll into empty space."
+        "error": "Skipping the checkpoint: establish reverse de la riva",
+        "consequence": "The intended control is not established before the next movement; the missing requirement is: Use the reverse hook and lower-leg connection while facing the standing passer.",
+        "correction": "Use the reverse hook and lower-leg connection while facing the standing passer."
       },
       {
-        "error": "Attempting technique when opponent's weight is posted back on their heels",
-        "consequence": "Unable to get head and shoulders under opponent's hips, resulting in incomplete roll or getting crushed as opponent drives weight onto you",
-        "correction": "Only attempt Kiss of the Dragon when opponent has committed weight forward into defensive turtle. Create this condition by threatening traditional back takes to draw their defensive weight forward before switching to the roll."
+        "error": "Skipping the checkpoint: off-balance the passer",
+        "consequence": "The intended control is not established before the next movement; the missing requirement is: Load weight onto the far leg or available post to create space beside the near leg.",
+        "correction": "Load weight onto the far leg or available post to create space beside the near leg."
       },
       {
-        "error": "Rolling with flat back instead of rounded spine",
-        "consequence": "Painful impact on spine, slower rotation, and loss of control during the technique, potentially resulting in neck or back injury",
-        "correction": "Tuck chin to chest and maintain rounded spine throughout the roll. Think of making your back into a wheel shape that rolls smoothly. Practice the rolling motion in isolation before adding opponent resistance."
+        "error": "Skipping the checkpoint: set a shoulder-supported angle",
+        "consequence": "The intended control is not established before the next movement; the missing requirement is: Turn onto the shoulder and upper back, keeping weight off the neck.",
+        "correction": "Turn onto the shoulder and upper back, keeping weight off the neck."
       },
       {
-        "error": "Failing to establish seatbelt immediately upon completing roll",
-        "consequence": "Opponent turns into you and escapes to guard or reverses position before you can secure back control",
-        "correction": "Program a clear mental sequence: as soon as you emerge from the roll, your hands must transition to seatbelt position. The hip grip must convert to upper body control within one second of completing the rotation."
+        "error": "Skipping the checkpoint: invert beneath the near leg",
+        "consequence": "The intended control is not established before the next movement; the missing requirement is: Bring the head and tucked knee through the space with a controlled pendulum action.",
+        "correction": "Bring the head and tucked knee through the space with a controlled pendulum action."
       },
       {
-        "error": "Initiating roll from directly behind opponent instead of at an angle",
-        "consequence": "Roll trajectory carries you past the opponent or results in incomplete rotation that leaves you in poor position",
-        "correction": "Position yourself at a 45-degree angle to one side of the turtle before initiating. This angle allows your roll to arc properly around the opponent's body rather than traveling straight past them."
-      },
-      {
-        "error": "Using too slow or too fast rolling speed",
-        "consequence": "Too slow allows opponent to track and counter your movement; too fast causes you to overshoot position and lose connection",
-        "correction": "Roll speed should be controlled and deliberate, fast enough to prevent reaction but smooth enough to maintain connection. Develop consistent timing by drilling the motion at progressive speeds before adding full resistance."
+        "error": "Skipping the checkpoint: reach the backside",
+        "consequence": "The intended control is not established before the next movement; the missing requirement is: Connect behind the thigh while bringing the knees behind the opponent's leg line.",
+        "correction": "Connect behind the thigh while bringing the knees behind the opponent's leg line."
       }
     ],
     "training_progressions": [
       {
-        "phase": "Phase 1: Rolling Mechanics",
-        "focus": "Master the forward roll motion without an opponent",
-        "description": "Practice forward rolls in isolation, focusing on tucked chin, rounded spine, and smooth rotation. Start from kneeling position and gradually add speed. Perform 20-30 repetitions per session to build muscle memory and comfort with inversion. Include rolls over both shoulders to develop bilateral competence."
+        "phase": "Phase 1",
+        "focus": "Identify the configuration",
+        "description": "Work cooperatively on establish reverse de la riva. Use the reverse hook and lower-leg connection while facing the standing passer. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance."
       },
       {
-        "phase": "Phase 2: Static Position Drilling",
-        "focus": "Execute technique from frozen turtle position",
-        "description": "Partner holds static turtle position while you practice the complete technique sequence from grip establishment through back control. Partner remains stationary to allow you to refine movement patterns and timing. Focus on maintaining hip connection throughout the roll and achieving immediate seatbelt upon emergence. Perform 10-15 repetitions per training session."
+        "phase": "Phase 2",
+        "focus": "Rehearse the connection",
+        "description": "Work cooperatively on off-balance the passer. Load weight onto the far leg or available post to create space beside the near leg. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance."
       },
       {
-        "phase": "Phase 3: Limited Resistance Entry",
-        "focus": "Navigate defensive frames and posture adjustments",
-        "description": "Partner maintains turtle but can adjust their posture and use frames to create realistic defensive structure. They do not actively counter your technique but present obstacles you must navigate. Practice timing your entry when they shift weight forward. Perform 8-10 repetitions focusing on reading weight distribution cues."
+        "phase": "Phase 3",
+        "focus": "Add an early response",
+        "description": "Work cooperatively on set a shoulder-supported angle. Turn onto the shoulder and upper back, keeping weight off the neck. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance."
       },
       {
-        "phase": "Phase 4: Progressive Counters",
-        "focus": "Respond to specific defensive reactions one at a time",
-        "description": "Partner applies one predetermined counter technique (following your roll, breaking grip, sitting to guard, or sprawling back). Practice recognizing and responding to each counter type before combining them. Cycle through each counter type for 5 repetitions, developing the decision tree for when to commit and when to abort."
-      },
-      {
-        "phase": "Phase 5: Full Resistance from Turtle",
-        "focus": "Execute technique during live positional sparring",
-        "description": "Start from top turtle position with partner defending at full resistance using any methods they choose. Attempt Kiss of the Dragon when opportunity presents itself. Reset to starting position after each attempt regardless of success. 5-minute rounds with multiple partners of varying skill levels and body types."
-      },
-      {
-        "phase": "Phase 6: Integration into Open Rolling",
-        "focus": "Apply technique during unrestricted sparring",
-        "description": "Use Kiss of the Dragon during normal training rolls when opponent assumes turtle position. No starting position restrictions. Track success rate and identify common scenarios where technique works best. Develop the ability to set up the technique by threatening traditional back takes first to manipulate weight distribution."
+        "phase": "Phase 4",
+        "focus": "Link only verified checkpoints",
+        "description": "Work cooperatively on invert beneath the near leg. Bring the head and tucked knee through the space with a controlled pendulum action. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance."
       }
     ],
     "flashcards": [
       {
-        "question": "What is the primary purpose of the hip grip during the Kiss of the Dragon?",
-        "answer": "The hip grip serves as the anchor point that maintains connection to the opponent throughout the forward roll. It prevents separation during the inversion phase and ensures you emerge in the correct position relative to their back. Without this constant pulling tension, you would roll into empty space rather than tracing a tight arc around their body. The grip must be maintained with active tension throughout the entire technique, pulling you into the opponent rather than simply holding on passively.",
-        "answer_line": "Anchor point, prevents separation",
+        "question": "Kiss of the Dragon (attacker): What matters when you establish reverse De La Riva?",
+        "answer": "Use the reverse hook and lower-leg connection while facing the standing passer.",
+        "answer_line": "Establish reverse De La Riva",
         "distractors": {
           "plausible": [
-            "Sets up a hip-bump sweep",
-            "Controls hip for pressure only"
+            "Advance without checking control",
+            "Choose the route by name alone"
           ],
           "trap": [
-            "Release grip once rotation starts"
+            "Force a trapped joint to move"
           ]
         }
       },
       {
-        "question": "Top turtle: their weight sits back on their heels—should you attempt Kiss of the Dragon?",
-        "answer": "No — when their weight sits back on their heels, the space under their hips collapses, so the Kiss of the Dragon entry is not available. You cannot get your head and shoulders below their hip line without that space. Instead, threaten traditional back take attempts like seatbelt entry or crab ride first, which forces the opponent to commit weight forward into their defensive shell to resist. Once they shift forward, the space opens and the Kiss of the Dragon becomes viable. Reading and manipulating weight distribution is essential for consistent success with this technique.",
+        "question": "Kiss of the Dragon (attacker): What matters when you off-balance the passer?",
+        "answer": "Load weight onto the far leg or available post to create space beside the near leg.",
+        "answer_line": "Off-balance the passer",
         "distractors": {
           "plausible": [
-            "Yes, roll anyway",
-            "Wait for them to sit to guard"
+            "Advance without checking control",
+            "Choose the route by name alone"
           ],
           "trap": [
-            "Yes, force the roll through"
-          ]
-        },
-        "answer_line": "No, space is closed"
-      },
-      {
-        "question": "Why must you position at a 45-degree angle to one side rather than directly behind the turtle?",
-        "answer": "Starting at a 45-degree angle creates the proper trajectory for your rolling arc to travel around the opponent's body rather than straight past them. When positioned directly behind, the forward roll tends to carry you beyond the opponent because the geometric path does not account for their body as an obstacle to roll around. The angled approach allows your roll to follow the curvature of their torso, keeping you connected throughout and depositing you in the optimal position behind their back for seatbelt and hook establishment.",
-        "answer_line": "Creates arc around their body",
-        "distractors": {
-          "plausible": [
-            "Better grip on the far hip",
-            "Avoids their peripheral vision"
-          ],
-          "trap": [
-            "Roll straight over their back"
+            "Force a trapped joint to move"
           ]
         }
       },
       {
-        "question": "You initiate the roll but feel your hip grip breaking mid-rotation. What should you do?",
-        "answer": "Your response depends on the timing. If the grip breaks early in the roll before you have passed underneath the opponent, abort the technique immediately and return to top turtle control to re-establish your attacking position. If the grip breaks late when you have already emerged behind them, complete the rotation and immediately reach for seatbelt or any available upper body connection rather than attempting to re-grip the hips. Never try to hold a failing grip during mid-roll, as this can cause you to land awkwardly and risk injury.",
-        "answer_line": "Abort if early, finish if late",
+        "question": "Kiss of the Dragon (attacker): What matters when you set a shoulder-supported angle?",
+        "answer": "Turn onto the shoulder and upper back, keeping weight off the neck.",
+        "answer_line": "Set a shoulder-supported angle",
         "distractors": {
           "plausible": [
-            "Always bail and reset to turtle",
-            "Always push the roll to the end"
+            "Advance without checking control",
+            "Choose the route by name alone"
           ],
           "trap": [
-            "Post on your head and bridge over"
+            "Force a trapped joint to move"
           ]
         }
       },
       {
-        "question": "What is the critical timing window between completing the roll and establishing seatbelt control?",
-        "answer": "You have approximately one to two seconds after completing the roll before the opponent processes your position change and begins defensive reactions. This window exists because the rolling motion disorients the opponent, who cannot see behind them and must rely on tactile feedback to understand what happened. Your hip grips must transition to seatbelt within this window. If you spend time adjusting your base or positioning before reaching for seatbelt, the opponent will turn to face you, establish frames, or sit to guard, negating the advantage the technique provides.",
-        "answer_line": "1-2 seconds to seatbelt",
+        "question": "Kiss of the Dragon (attacker): What matters when you invert beneath the near leg?",
+        "answer": "Bring the head and tucked knee through the space with a controlled pendulum action.",
+        "answer_line": "Invert beneath the near leg",
         "distractors": {
           "plausible": [
-            "Adjust base first, then grip",
-            "Several seconds to settle"
+            "Advance without checking control",
+            "Choose the route by name alone"
           ],
           "trap": [
-            "Pause to secure hooks first"
+            "Force a trapped joint to move"
           ]
         }
       },
       {
-        "question": "Kiss of the Dragon: they turn to follow your roll—how do you adjust?",
-        "answer": "If you catch the tracking early, accelerate your roll and rapidly switch grips to complete the back take before they match your rotation. If they are successfully keeping pace with your movement, abort the complete somersault and transition to alternative positions such as leg entanglements or a scramble position. Forcing a back take against an opponent who is rotating with you typically results in a neutral scramble where you have lost your positional advantage from top turtle.",
+        "question": "Kiss of the Dragon (attacker): What matters when you reach the backside?",
+        "answer": "Connect behind the thigh while bringing the knees behind the opponent's leg line.",
+        "answer_line": "Reach the backside",
         "distractors": {
           "plausible": [
-            "Always finish the somersault",
-            "Slow down to reassess"
+            "Advance without checking control",
+            "Choose the route by name alone"
           ],
           "trap": [
-            "Force the back take anyway"
-          ]
-        },
-        "answer_line": "Accelerate early, abort if matched"
-      },
-      {
-        "question": "What grip options are available for the Kiss of the Dragon in no-gi situations?",
-        "answer": "In no-gi, the primary grips are cupping under the opponent's hips with both hands or gripping the back of their thighs near the hip crease. Some practitioners use a front headlock position to initiate before transitioning to hip control for the roll. The rolling motion remains the same but requires stronger arm engagement and tighter body connection to compensate for the absence of fabric grips. Wrist control of the opponent's near arm can also serve as a secondary anchor point during the rotation.",
-        "distractors": {
-          "plausible": [
-            "Grip the far wrist only",
-            "Underhook both arms"
-          ],
-          "trap": [
-            "Grip the gi lapel for control"
-          ]
-        },
-        "answer_line": "Cup hips or grip thigh crease"
-      },
-      {
-        "question": "How does the Kiss of the Dragon to Truck variant differ in grip requirements and finishing position?",
-        "answer": "The Truck variant requires controlling one of the opponent's ankles in addition to the hip grip before initiating the roll. You grip one ankle and the opposite hip, then execute the somersault while maintaining leg control throughout the rotation. Instead of emerging to standard back control with seatbelt and hooks, you finish in the truck position with your legs controlling one of the opponent's legs in a figure-four configuration. This opens leg lock opportunities including calf slicers and banana splits in addition to traditional back attacks, making it particularly effective in submission-only rule sets.",
-        "answer_line": "Ankle grip plus opposite hip",
-        "distractors": {
-          "plausible": [
-            "Both ankles, no hip grip",
-            "Hip grip only, no ankle"
-          ],
-          "trap": [
-            "Release ankle after the roll"
+            "Force a trapped joint to move"
           ]
         }
       },
       {
-        "question": "Kiss of the Dragon: what is the key mechanical detail for a safe, smooth inversion?",
-        "answer": "The most critical mechanical detail is maintaining a tucked chin with a fully rounded spine throughout the entire rotation. This creates a wheel-like shape that allows smooth rolling over your shoulder and upper back. A flat back causes jarring impact, slower rotation, and risks serious neck or spine injury. The rounded shape also facilitates maintaining grip connection because your body follows a smooth arc rather than bouncing or catching during the somersault. Practitioners should master comfortable forward rolls in isolation before ever attempting this technique with a partner.",
-        "answer_line": "Tuck chin, round the spine",
+        "question": "Kiss of the Dragon (attacker): What matters when you secure rear attachment separately?",
+        "answer": "Establish torso and leg control before calling the result back control; return to guard if the connection is lost.",
+        "answer_line": "Secure rear attachment separately",
         "distractors": {
           "plausible": [
-            "Rotate faster to beat the grip",
-            "Pull with the arms to spin"
+            "Advance without checking control",
+            "Choose the route by name alone"
           ],
           "trap": [
-            "Post on top of your head to turn"
+            "Force a trapped joint to move"
           ]
         }
       },
       {
-        "question": "Kiss of the Dragon back take is defended into a scramble—what positions do you seek?",
-        "answer": "When the clean back take is denied, your rolling momentum naturally positions you for several alternative attacks. Leg entanglements such as single leg X or inside ashi garami are accessible because your body is already below your opponent's hips. If the opponent has sat to guard, your forward momentum can carry you into a top passing position. If you end up chest-to-chest, immediately work to re-establish top turtle control or transition to front headlock. The key principle is never accepting a neutral scramble when your initial rolling momentum gives you an advantage in reaching one of these secondary positions.",
-        "answer_line": "Leg entanglement or headlock",
+        "question": "Kiss of the Dragon (attacker): What configuration must exist before this sequence?",
+        "answer": "The bottom player has a reverse De La Riva hook against a standing or crouching passer, with space for shoulder-supported inversion.",
+        "answer_line": "Check the starting configuration",
         "distractors": {
           "plausible": [
-            "Sit back to open guard",
-            "Reset to standing"
+            "Advance without checking control",
+            "Choose the route by name alone"
           ],
           "trap": [
-            "Accept a neutral scramble"
+            "Force a trapped joint to move"
+          ]
+        }
+      },
+      {
+        "question": "Kiss of the Dragon (attacker): What distinguishes this control from a similar-looking position?",
+        "answer": "It begins from guard below the opponent, not from a top turtle ride. Reaching behind the legs is a checkpoint; complete back control still requires torso attachment and leg control.",
+        "answer_line": "Check the defining controls",
+        "distractors": {
+          "plausible": [
+            "Advance without checking control",
+            "Choose the route by name alone"
+          ],
+          "trap": [
+            "Force a trapped joint to move"
+          ]
+        }
+      },
+      {
+        "question": "Kiss of the Dragon (attacker): When should the partners stop or reset?",
+        "answer": "Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.",
+        "answer_line": "Release before unsafe loading",
+        "distractors": {
+          "plausible": [
+            "Advance without checking control",
+            "Choose the route by name alone"
+          ],
+          "trap": [
+            "Force a trapped joint to move"
+          ]
+        }
+      },
+      {
+        "question": "Kiss of the Dragon (attacker): What should a cooperative first drill establish?",
+        "answer": "Identify the starting configuration and rehearse the first connection without finishing pressure. Use the reverse hook and lower-leg connection while facing the standing passer.",
+        "answer_line": "Rehearse the first connection",
+        "distractors": {
+          "plausible": [
+            "Advance without checking control",
+            "Choose the route by name alone"
+          ],
+          "trap": [
+            "Force a trapped joint to move"
           ]
         }
       }
     ],
-    "safety_considerations": "The Kiss of the Dragon involves spinal inversion and rolling while attached to an opponent, creating specific safety concerns. Practitioners must have competent forward rolling ability before attempting this technique with a partner to prevent neck and spine injuries. Always tuck the chin tightly to the chest and maintain a rounded spine throughout the roll. Rolling with a flat back can cause serious injury to cervical and thoracic vertebrae. Start training at slow speed with lightweight partners and progress gradually to full resistance over multiple sessions. Be aware of mat space and obstacles before initiating the roll. If you feel your grip breaking during the rotation, release completely rather than attempting to hold on, as this can cause you to land awkwardly or spike onto your head. Partners should not drive forward into someone executing this technique, as it can cause the rolling practitioner to spike onto their head or neck. Individuals with existing neck, spine, or shoulder injuries should consult medical professionals before training this technique.",
+    "safety_considerations": "Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.",
     "clips": [
       {
         "id": "WUWYA0GXByQ",
@@ -420,161 +353,151 @@
   },
   "defender": {
     "name": "Kiss of the Dragon Defender",
-    "description": "How to defend against Kiss of the Dragon in BJJ. Recognition cues, defensive options, and escape strategies from this rolling back take.",
-    "overview": "Defending the Kiss of the Dragon requires understanding that this technique exploits the gap underneath your turtle position by rolling beneath your center of gravity. As the defender in turtle, your primary vulnerability is committing too much weight forward while focusing on traditional back take defenses, which creates the space the attacker needs to insert their head and shoulders below your hips. The defense hierarchy begins with prevention through weight distribution awareness, moves to disruption if the roll is initiated, and finally addresses recovery if the attacker completes the rotation and arrives at your back. The most effective defense is never allowing the entry conditions to exist, but when the technique is already in motion, specific tactical responses can prevent or mitigate the back take. Understanding the attacker's mechanical requirements, particularly their need for a hip grip anchor and forward weight commitment, allows you to deny those conditions systematically.",
+    "description": "Kiss of the Dragon (defender): A bottom player turning under the near leg from reverse De La Riva is seeking backside access. Redistribute weight before the far leg and posting arm are loaded.",
+    "overview": "The bottom player has a reverse De La Riva hook against a standing or crouching passer, with space for shoulder-supported inversion. It begins from guard below the opponent, not from a top turtle ride. Reaching behind the legs is a checkpoint; complete back control still requires torso attachment and leg control.\n\nA bottom player turning under the near leg from reverse De La Riva is seeking backside access. Redistribute weight before the far leg and posting arm are loaded. Clear the reverse hook before the opponent has inverted under the knee line.\n\nTurn with the opponent while keeping the knee aligned rather than spinning on a trapped foot. Face the guard player again before their torso and legs secure the back. Never drive the inverted partner onto the neck to stop the movement.\n\nMove through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.\n\nAn early escape recovers the knee line and turns the hips to face the inverting guard player before rear attachment forms. Keep the captured foot free to follow that turn; do not spin against an ankle that remains fixed.",
     "key_principles": [
-      "Monitor opponent's positioning angle and head level relative to your hips as primary early warning indicators",
-      "Maintain balanced weight distribution in turtle rather than committing fully forward, keeping hips loaded toward heels",
-      "Protect hip grips aggressively since the attacker's connection to your hips is the anchor for their entire technique",
-      "Follow the attacker's rotation direction rather than freezing when you feel the roll initiate underneath you",
-      "Transition immediately to guard recovery or scramble once you detect the rolling entry rather than remaining in turtle"
+      "Recognize the reverse hook: A bottom player turning under the near leg from reverse De La Riva is seeking backside access.",
+      "Keep a mobile base: Redistribute weight before the far leg and posting arm are loaded.",
+      "Manage the hook early: Clear the reverse hook before the opponent has inverted under the knee line.",
+      "Track the hips: Turn with the opponent while keeping the knee aligned rather than spinning on a trapped foot.",
+      "Deny rear attachment: Face the guard player again before their torso and legs secure the back.",
+      "Protect the inversion: Never drive the inverted partner onto the neck to stop the movement."
     ],
     "recognition_cues": [
-      "Opponent shifts from directly behind you to a 45-degree angle on one side while maintaining hip grip, indicating entry angle setup",
-      "Opponent's head drops below your hip level and their weight shifts downward rather than pressing into your back from above",
-      "Opponent's grip on your belt or pants transitions from controlling pressure to pulling tension, indicating they are preparing to use the grip as a rolling anchor",
-      "Sudden loss of chest-to-back pressure from above accompanied by a feeling of the opponent's body passing underneath your hips"
+      "The bottom player has a reverse De La Riva hook against a standing or crouching passer, with space for shoulder-supported inversion.",
+      "Load weight onto the far leg or available post to create space beside the near leg.",
+      "Bring the head and tucked knee through the space with a controlled pendulum action."
     ],
     "defensive_options": [
       {
-        "action": "Sit hips back to heels and sprawl weight rearward to collapse entry space",
-        "when_to_use": "When you recognize opponent positioning at an angle with their head dropping below your hips, before the roll has initiated",
+        "action": "A bottom player turning under the near leg from reverse De La Riva is seeking backside access.",
+        "when_to_use": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.",
         "targets_outcome": "Turtle/Top",
-        "if_successful": "Opponent cannot get underneath your hips and must abandon the technique, returning to standard turtle top attacks where you maintain your defensive shell",
-        "risk": "Sitting weight back opens you to front headlock attacks or traditional back take methods that exploit rearward weight distribution"
+        "if_successful": "The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
+        "risk": "Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route."
       },
       {
-        "action": "Strip opponent's hip grip by prying their hand off your belt or pants with both hands",
-        "when_to_use": "When you feel the opponent establishing the anchor grip on your hips before they initiate the roll",
+        "action": "Redistribute weight before the far leg and posting arm are loaded.",
+        "when_to_use": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.",
         "targets_outcome": "Turtle/Top",
-        "if_successful": "Without the hip anchor, the opponent cannot maintain connection during the roll and the technique fails completely, forcing them to re-establish control",
-        "risk": "Using both hands to strip grips momentarily compromises your defensive turtle posture and may expose your neck to front headlock attacks"
+        "if_successful": "The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
+        "risk": "Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route."
       },
       {
-        "action": "Turn and follow the opponent's rotation direction, sitting through to guard recovery",
-        "when_to_use": "When the roll has already begun and you feel the opponent passing underneath you",
+        "action": "Clear the reverse hook before the opponent has inverted under the knee line.",
+        "when_to_use": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.",
         "targets_outcome": "Turtle/Bottom",
-        "if_successful": "By matching the rotation, you prevent the attacker from arriving behind you and instead end up in a scramble or guard position where back control is denied",
-        "risk": "If you turn too late, the opponent has already completed the roll and your turning motion may actually help them establish seatbelt control faster"
+        "if_successful": "The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
+        "risk": "Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route."
       },
       {
-        "action": "Post far arm and drive forward to flatten opponent during their roll",
-        "when_to_use": "When you feel the opponent's body beginning to pass underneath you during the mid-roll phase",
+        "action": "Turn with the opponent while keeping the knee aligned rather than spinning on a trapped foot.",
+        "when_to_use": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.",
         "targets_outcome": "Turtle/Bottom",
-        "if_successful": "Your forward drive pins the opponent underneath you during their inversion, preventing them from completing the rotation and potentially reversing the position",
-        "risk": "Driving forward commits your weight in the direction the opponent wants to travel, and if timed poorly can accelerate their roll completion"
+        "if_successful": "The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
+        "risk": "Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route."
       }
     ],
     "favorable_outcomes": [
       {
         "outcome": "Turtle/Top",
-        "how": "Prevent the roll entirely by sitting weight back to collapse entry space or stripping the hip grip before the opponent can initiate the somersault. This maintains the original positional dynamic with you in defensive turtle and denies the attacker their technique."
+        "how": "Interrupt the next connection while preserving a safe base. Establish any new guard or pin separately rather than assuming this response guarantees it. A bottom player turning under the near leg from reverse De La Riva is seeking backside access."
       },
       {
         "outcome": "Turtle/Bottom",
-        "how": "If the roll has initiated but is not yet complete, follow the rotation direction by turning your body to match the opponent's movement. Sit through to a guard recovery position or scramble before they can establish seatbelt and hooks. Even arriving in a neutral scramble is preferable to conceding full back control."
+        "how": "Interrupt the next connection while preserving a safe base. Establish any new guard or pin separately rather than assuming this response guarantees it. Redistribute weight before the far leg and posting arm are loaded."
       }
     ],
     "common_errors": [
       {
-        "error": "Freezing in turtle when feeling the opponent's body pass underneath rather than reacting immediately",
-        "consequence": "The opponent completes the roll unopposed and arrives at your back with time to establish seatbelt and hooks without resistance",
-        "correction": "Train the defensive response as a reflex: any sensation of the opponent moving underneath your hips should trigger an immediate sit-through or rotation to follow their movement direction. Drill this stimulus-response pairing repeatedly."
+        "error": "Skipping the checkpoint: recognize the reverse hook",
+        "consequence": "The intended control is not established before the next movement; the missing requirement is: A bottom player turning under the near leg from reverse De La Riva is seeking backside access.",
+        "correction": "A bottom player turning under the near leg from reverse De La Riva is seeking backside access."
       },
       {
-        "error": "Committing weight too far forward in turtle while defending traditional back take attempts",
-        "consequence": "Creates excessive space underneath your hips that the opponent exploits to insert their head and shoulders for the roll entry",
-        "correction": "Maintain balanced weight distribution in turtle with hips loaded toward your heels rather than driving forward onto your hands. You can defend traditional back takes through hand fighting and elbow positioning without needing to commit weight forward."
+        "error": "Skipping the checkpoint: keep a mobile base",
+        "consequence": "The intended control is not established before the next movement; the missing requirement is: Redistribute weight before the far leg and posting arm are loaded.",
+        "correction": "Redistribute weight before the far leg and posting arm are loaded."
       },
       {
-        "error": "Attempting to stand up explosively when feeling the roll begin underneath you",
-        "consequence": "Standing up disconnects you from the opponent and actually helps them complete the rotation, as your upward movement creates more space for their somersault. You often end up standing with the opponent already attached to your back.",
-        "correction": "Instead of standing, sit through laterally and turn to face the opponent. The defensive movement should be rotational and downward to match the attacker's motion, not vertical. Standing is only effective if you can do so before the roll begins and move away from the turtle entirely."
-      },
-      {
-        "error": "Ignoring the opponent's angle change from directly behind to 45 degrees as a warning sign",
-        "consequence": "Fails to recognize the setup phase, allowing the attacker to complete their entry positioning unopposed before initiating the roll",
-        "correction": "Treat any angle change from your opponent while in turtle as a significant tactical indicator. When you feel them shift to one side while maintaining hip grips, immediately adjust your weight distribution by sitting back and actively fighting the grip on that side."
+        "error": "Skipping the checkpoint: manage the hook early",
+        "consequence": "The intended control is not established before the next movement; the missing requirement is: Clear the reverse hook before the opponent has inverted under the knee line.",
+        "correction": "Clear the reverse hook before the opponent has inverted under the knee line."
       }
     ],
     "flashcards": [
       {
-        "question": "Turtle defense: earliest cue they are setting up Kiss of the Dragon, not a standard back take?",
-        "answer": "The earliest cue is the opponent shifting from directly behind your turtle to a 45-degree angle on one side while their head begins to drop below your hip level. Traditional back takes involve pressure from above and behind, while the Kiss of the Dragon requires the attacker to position at an angle and lower their center of gravity. Additionally, their grip transitions from downward pressing control to lateral pulling tension, indicating they are preparing to use the grip as a rolling anchor rather than for standard back take mechanics.",
-        "answer_line": "45° angle, head drops below hip",
+        "question": "Kiss of the Dragon (defender): What matters when you recognize the reverse hook?",
+        "answer": "A bottom player turning under the near leg from reverse De La Riva is seeking backside access.",
+        "answer_line": "Recognize the reverse hook",
         "distractors": {
           "plausible": [
-            "Grip shifts to underhook control",
-            "Sudden forward pressure increase"
+            "Advance without checking control",
+            "Choose the route by name alone"
           ],
           "trap": [
-            "Downward pressing grip appears"
+            "Force a trapped joint to move"
           ]
         }
       },
       {
-        "question": "Why does sitting your weight back on your heels best prevent the Kiss of the Dragon?",
-        "answer": "The Kiss of the Dragon requires the attacker to get their head and shoulders underneath the defender's hips. When you sit your weight back toward your heels, you collapse the space between your hips and the mat, eliminating the entry path the attacker needs for their somersault. This is the most effective prevention because it denies the fundamental mechanical requirement of the technique. The trade-off is increased vulnerability to front headlock attacks, but this represents a less dangerous exchange than conceding full back control.",
-        "answer_line": "Denies space under the hips",
+        "question": "Kiss of the Dragon (defender): What matters when you keep a mobile base?",
+        "answer": "Redistribute weight before the far leg and posting arm are loaded.",
+        "answer_line": "Keep a mobile base",
         "distractors": {
           "plausible": [
-            "Makes seatbelt harder to grip",
-            "Improves posture for standing"
+            "Advance without checking control",
+            "Choose the route by name alone"
           ],
           "trap": [
-            "Sit forward on your hands"
+            "Force a trapped joint to move"
           ]
         }
       },
       {
-        "question": "They have begun rolling under your turtle—stop their rotation or follow it?",
-        "answer": "Once the roll has initiated, attempting to stop it by posting or bracing is generally ineffective because the attacker's momentum and grip connection make the somersault difficult to halt mid-rotation. Instead, follow the rotation direction by turning your body to match their movement and sitting through to guard recovery. By matching their rotational direction, you prevent them from arriving behind you and convert the situation into a scramble where back control is denied. The critical timing distinction is that prevention works before the roll starts, but once rolling begins, flowing with the movement produces better outcomes than resisting it.",
-        "answer_line": "Follow rotation, sit to guard",
+        "question": "Kiss of the Dragon (defender): What matters when you manage the hook early?",
+        "answer": "Clear the reverse hook before the opponent has inverted under the knee line.",
+        "answer_line": "Manage the hook early",
         "distractors": {
           "plausible": [
-            "Brace and post to stop it",
-            "Stay still and wait it out"
+            "Advance without checking control",
+            "Choose the route by name alone"
           ],
           "trap": [
-            "Fight the rotation directly"
+            "Force a trapped joint to move"
           ]
         }
       },
       {
-        "question": "How do you adjust your turtle when you know they use the Kiss of the Dragon?",
-        "answer": "When facing a known Kiss of the Dragon practitioner, modify your turtle strategy in several ways. Keep your weight distributed more toward your heels rather than forward on your hands. Prioritize stripping any hip or belt grips immediately rather than focusing solely on defending seatbelt entries from above. Stay aware of the opponent's angle relative to your body and react to any shift from directly behind to a side angle. Consider transitioning from turtle more quickly to guard recovery or standing, reducing the time the opponent has to set up the technique. You can also keep one arm posted on the mat on the opponent's side, blocking their ability to lower their head past your hip line.",
-        "answer_line": "Weight back, strip hip grips",
+        "question": "Kiss of the Dragon (defender): What matters when you track the hips?",
+        "answer": "Turn with the opponent while keeping the knee aligned rather than spinning on a trapped foot.",
+        "answer_line": "Track the hips",
         "distractors": {
           "plausible": [
-            "Focus only on seatbelt defense",
-            "Keep hands forward for base"
+            "Advance without checking control",
+            "Choose the route by name alone"
           ],
           "trap": [
-            "Post weight forward on hands"
+            "Force a trapped joint to move"
           ]
         }
       }
     ],
     "training_progressions": [
       {
-        "phase": "Phase 1: Recognition Drilling",
-        "focus": "Identify setup cues without resistance",
-        "description": "Partner slowly demonstrates the Kiss of the Dragon setup sequence while you practice recognizing each warning cue: angle change, head drop, grip transition. Call out each cue as you feel it. Partner does not complete the technique. Build the pattern recognition that triggers defensive responses. 10-15 repetitions per session."
+        "phase": "Phase 1",
+        "focus": "Identify the configuration",
+        "description": "Work cooperatively on recognize the reverse hook. A bottom player turning under the near leg from reverse De La Riva is seeking backside access. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance."
       },
       {
-        "phase": "Phase 2: Prevention Responses",
-        "focus": "Practice weight adjustment and grip stripping before roll initiates",
-        "description": "Partner sets up the Kiss of the Dragon at moderate speed. Practice the preventive defenses: sitting weight back to collapse entry space and stripping hip grips with two-on-one hand fighting. Partner pauses if prevention succeeds and resets. Focus on timing the defensive response to the earliest recognition cue. 8-10 repetitions per defense type."
+        "phase": "Phase 2",
+        "focus": "Rehearse the connection",
+        "description": "Work cooperatively on keep a mobile base. Redistribute weight before the far leg and posting arm are loaded. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance."
       },
       {
-        "phase": "Phase 3: Mid-Roll Recovery",
-        "focus": "Respond correctly when the roll has already begun",
-        "description": "Partner initiates the full roll at controlled speed. Practice following the rotation direction, sitting through, and recovering to guard or scramble position. Partner completes the roll at reduced speed to allow you to develop the rotational defensive response. Gradually increase speed as comfort improves. 8-10 repetitions per session."
-      },
-      {
-        "phase": "Phase 4: Full Resistance Defense",
-        "focus": "Defend against live Kiss of the Dragon attempts in positional sparring",
-        "description": "Start in turtle with partner attempting the Kiss of the Dragon at full speed and commitment. Use all defensive tools: prevention, mid-roll disruption, and recovery. Partner may chain to traditional back takes if Kiss of the Dragon is defended. 5-minute rounds focusing on maintaining awareness of all attack vectors simultaneously."
+        "phase": "Phase 3",
+        "focus": "Add an early response",
+        "description": "Work cooperatively on manage the hook early. Clear the reverse hook before the opponent has inverted under the knee line. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance."
       }
     ],
     "clips": [
@@ -609,31 +532,20 @@
   },
   "variants_and_adaptations": [
     {
-      "variant_name": "No-Gi Kiss of the Dragon",
-      "description": "Without belt or gi pants to grip, establish control by cupping underneath the opponent's hips with both hands or gripping the back of their thighs near the hip crease. The rolling motion remains the same but requires stronger arm engagement to maintain connection without fabric grips. Often combined with a front headlock position before transitioning to hip control for the roll.",
-      "when_to_use": "No-gi competition or training when traditional gi grips are unavailable"
+      "variant_name": "Cooperative checkpoint drill",
+      "description": "Use the reverse hook and lower-leg connection while facing the standing passer. Load weight onto the far leg or available post to create space beside the near leg.",
+      "when_to_use": "Learning the control without submission pressure"
     },
     {
-      "variant_name": "Single Arm Kiss of the Dragon",
-      "description": "Execute the technique with only one hand maintaining hip contact while the other arm threads under the opponent's body to pre-position for seatbelt control during the roll. This variant reduces grip dependence but requires more precise timing and body positioning. The free arm can establish upper body control before you even complete the rotation, making the finishing position faster to secure.",
-      "when_to_use": "When opponent's hand fighting prevents two-handed hip grip or when transitioning from front headlock control"
-    },
-    {
-      "variant_name": "Kiss of the Dragon to Truck",
-      "description": "Instead of emerging directly to back control, grip one ankle and the opposite hip before initiating the roll, maintaining leg control throughout the somersault to finish in the truck position. This creates leg lock opportunities including calf slicers and banana splits in addition to traditional back attacks, and is particularly effective in submission-only formats.",
-      "when_to_use": "Against opponents who defend back takes well but are vulnerable to leg entanglements, or in rule sets that favor submissions over positional dominance"
-    },
-    {
-      "variant_name": "Matrix Style Entry",
-      "description": "From a more upright position behind a turtled opponent, perform an arcing cartwheel or matrix-style bridge motion rather than a forward somersault, traveling over and around the opponent in a wider arc. This variation generates more momentum and can be executed from greater distance but requires higher athleticism and spatial awareness.",
-      "when_to_use": "When opponent is in low flat turtle and you have space to execute the more athletic entry, or when surprise and speed are paramount"
+      "variant_name": "Response and reset drill",
+      "description": "A bottom player turning under the near leg from reverse De La Riva is seeking backside access. Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.",
+      "when_to_use": "Adding one early response after both partners recognize the configuration"
     }
   ],
   "conditions": [
-    "Opponent must be in turtle position with weight distributed forward",
-    "Attacker must have established a firm hip or belt grip as anchor point",
-    "Sufficient mat space must be available to complete the forward roll safely",
-    "Attacker must be positioned at an angle to one side of the turtle rather than directly behind"
+    "The bottom player has a reverse De La Riva hook against a standing or crouching passer, with space for shoulder-supported inversion.",
+    "Use the reverse hook and lower-leg connection while facing the standing passer.",
+    "It begins from guard below the opponent, not from a top turtle ride. Reaching behind the legs is a checkpoint; complete back control still requires torso attachment and leg control."
   ],
-  "position_integration": "The Kiss of the Dragon is a specialized back take technique that fits within the turtle top attacking system as an advanced second-layer option. It serves as a complement to traditional back attacks like the crab ride, seatbelt back take, and front headlock entries. When an opponent successfully defends standard back takes by committing weight forward into their defensive shell, this forward commitment actually creates the conditions needed for the Kiss of the Dragon entry. The technique is particularly valuable in no-gi grappling where turtle escapes are more effective due to the absence of controlling gi grips. In the broader positional hierarchy, successful execution transitions from turtle top (0 points) to back control (4 points in IBJJF rules), representing one of the highest-value position transitions available. The Kiss of the Dragon to Truck variant bridges traditional positional grappling and modern leg entanglement systems, providing additional finishing pathways through calf slicers and banana splits."
+  "position_integration": "The bottom player has a reverse De La Riva hook against a standing or crouching passer, with space for shoulder-supported inversion. It begins from guard below the opponent, not from a top turtle ride. Reaching behind the legs is a checkpoint; complete back control still requires torso attachment and leg control. A destination is established by its actual body configuration, not by completing an isolated grip or by the name of the route."
 }

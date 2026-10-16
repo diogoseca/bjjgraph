@@ -4,7 +4,7 @@
 
 ---
 title: "Crackhead Control to New York | BJJ Technique | BJJ Graph"
-description: "Master the Crackhead Control to New York transition in 10th Planet Rubber Guard. Adjust overhook angle for submission chains. Success: Beginner 30%, Advanced 65%."
+description: "Reaching New York from Crackhead Control requires preserving Mission Control, clearing an opposing hand to the mat with a Zombie pummel and closing the knee hug."
 ---
 
 
@@ -16,7 +16,7 @@ description: "Master the Crackhead Control to New York transition in 10th Planet
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Crackhead Control to New York",
-  "description": "Master the Crackhead Control to New York transition in 10th Planet Rubber Guard. Adjust overhook angle for submission chains. Success: Beginner 30%, Advanced 65%.",
+  "description": "Reaching New York from Crackhead Control requires preserving Mission Control, clearing an opposing hand to the mat with a Zombie pummel and closing the knee hug.",
   "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
 }
 </script>
@@ -87,7 +87,7 @@ description: "Master the Crackhead Control to New York transition in 10th Planet
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Crackhead Control to New York",
-  "description": "Crackhead Control to New York is a 10th Planet rubber guard transition where the bottom player slides the controlling shin from neck pressure to across the shoulder blades, keeping the deep overhook to trade submission threat for positional stability and fresh attack chains.",
+  "description": "Reaching New York from Crackhead Control requires preserving Mission Control, clearing an opposing hand to the mat with a Zombie pummel and closing the knee hug.",
   "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
 }
 </script>
@@ -105,15 +105,15 @@ description: "Master the Crackhead Control to New York transition in 10th Planet
 
 <section id="overview" class="content-section">
 
-**Crackhead Control to New York is a 10th Planet rubber guard transition where the bottom player slides the controlling shin from neck pressure to across the shoulder blades, keeping the deep overhook to trade submission threat for positional stability and fresh attack chains.**
+**Reaching New York from Crackhead Control requires preserving Mission Control, clearing an opposing hand to the mat with a Zombie pummel and closing the knee hug.**
 
-The Crackhead Control to New York transition represents a fundamental angle adjustment within the 10th Planet Rubber Guard system, allowing practitioners to shift from the high-risk, submission-dense Crackhead Control to the more stable New York position. This transition becomes essential when the deep overhook of Crackhead Control creates excessive back exposure, when the opponent's defensive posture makes Crackhead submissions difficult, or when you need to reset your offensive chain from a different angle.
+The bottom player faces the opponent in a high two-leg clinch with the target arm still inside. Opening enough of the second-leg reinforcement to pummel is a prerequisite. New York is defined by arm isolation, not a collar grip.
 
-The mechanical distinction between Crackhead Control and New York centers on overhook depth and leg positioning. Crackhead Control features the deepest overhook penetration with aggressive forward leg pressure, creating maximum submission threat but significant back exposure. New York maintains a strong overhook while repositioning the controlling leg from aggressive neck pressure to a more sustainable shin-across-back configuration. This adjustment trades some immediate submission threat for improved positional stability and access to different attack chains including Invisible Collar, Zombie, and Carni progressions.
+Keep the first high leg and hand connected while adjusting the second leg. Open the reinforcing leg as needed without losing all posture control. Work through the opening near the hand rather than forcing a tightly clamped elbow straight outward.
 
-Strategically, this transition serves as a positional reset that maintains offensive momentum while reducing defensive vulnerability. When opponents begin recognizing Crackhead Control patterns and timing their back take attempts during your submission extensions, transitioning to New York disrupts their defensive timing while keeping your overhook anchor intact. The transition also opens different submission pathways that may be more appropriate for the opponent's specific defensive reactions - fighters who defend gogoplata effectively often become vulnerable to the triangle and omoplata chains more accessible from New York.
+Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
 
-Energy management considerations make this transition particularly valuable during extended guard exchanges. Crackhead Control's aggressive positioning requires significant hip flexor engagement and core tension, leading to fatigue over time. New York offers a more sustainable control structure that allows brief recovery periods while maintaining offensive threat. Experienced rubber guard players cycle between these positions strategically, using Crackhead Control for submission bursts and New York for positional consolidation.
+Instructional sources: [Ben Eddy — the Zombie pummel](https://www.youtube.com/watch?v=JzSxFvNA5Uo); [10th Planet Costa Mesa — basic path with double bagger](https://www.youtube.com/watch?v=W2OFKidf9lE).
 
 **From Position**: [[Positions/Rubber Guard/Crackhead Control]] (Bottom)
 **Success Rate**: 58%
@@ -176,8 +176,8 @@ Energy management considerations make this transition particularly valuable duri
 | &nbsp; | Attacker | Defender |
 |--------|----------|----------|
 | **Focus** | Execute technique | Prevent or counter |
-| **Key Principles** | Maintain overhook depth throughout the transition - never al... | Exploit the transitional window when shin grip is released -... |
-| **Options** | 7 execution steps | 4 defensive options |
+| **Key Principles** | Preserve Mission Control: Keep the first high leg and hand c... | Maintain inside frames: Keep a useful forearm between the bo... |
+| **Options** | 6 execution steps | 4 defensive options |
 
 </section>
 
@@ -190,53 +190,49 @@ Energy management considerations make this transition particularly valuable duri
 ### Key Principles
 
 
-- Maintain overhook depth throughout the transition - never allow the arm to slip during angle adjustment
+- Preserve Mission Control: Keep the first high leg and hand connected while adjusting the second leg.
 
-- Control the hip connection with your free leg as primary safety mechanism during transition
+- Create pummeling space: Open the reinforcing leg as needed without losing all posture control.
 
-- Use your shin grip hand to guide leg repositioning from neck pressure to shoulder blade position
+- Find inside space: Work through the opening near the hand rather than forcing a tightly clamped elbow straight outward.
 
-- Timing the transition when opponent drives forward provides momentum assistance for leg repositioning
+- Move the hand to the mat: Guide the wrist and forearm through the available space without bending individual fingers.
 
-- Keep continuous core engagement to prevent opponent from capitalizing on transitional instability
+- Prevent the return pummel: Cover the cleared arm and close the knee hug as the hand reaches the mat.
 
-- Monitor opponent's free arm throughout - double underhooks during transition signal immediate danger
-
-- Adjust hip angle simultaneously with leg repositioning to create new attack angles in New York
+- Recognize New York: Once the arm is isolated, maintain that new control instead of repeatedly treating Zombie as a separate leg entanglement.
 
 
 ### Execution Steps
 
 
-- **Secure overhook anchor**: Confirm your deep overhook is locked with hand gripping behind opponent's shoulder blade or lat, elb...
+- **Preserve Mission Control**: Keep the first high leg and hand connected while adjusting the second leg....
 
-- **Engage free leg**: Establish strong butterfly hook or hip post with your non-controlling leg to maintain hip connection...
+- **Create pummeling space**: Open the reinforcing leg as needed without losing all posture control....
 
-- **Release shin grip**: While maintaining overhook pressure, release the hand gripping your own shin near the ankle. Keep yo...
+- **Find inside space**: Work through the opening near the hand rather than forcing a tightly clamped elbow straight outward....
 
-- **Reposition controlling leg**: Slide your controlling leg from its position across opponent's neck or upper back down to the standa...
+- **Move the hand to the mat**: Guide the wrist and forearm through the available space without bending individual fingers....
 
-- **Re-establish shin grip**: Immediately grip your own shin near the ankle with the same hand that released it, positioning your ...
+- **Prevent the return pummel**: Cover the cleared arm and close the knee hug as the hand reaches the mat....
 
-- **Adjust hip angle**: Rotate your hips slightly toward the overhook side to establish the characteristic New York angle th...
-
-- **Consolidate control**: Apply downward pressure with the repositioned leg while maintaining deep overhook. Verify opponent's...
+- **Recognize New York**: Once the arm is isolated, maintain that new control instead of repeatedly treating Zombie as a separ...
 
 
 ### Common Mistakes
 
 
-- **Releasing overhook depth during leg repositioning**
-  - Consequence: Opponent extracts trapped arm and either passes or postures up, collapsing the entire rubber guard position
-  - Correction: Keep overhook as absolute constant throughout transition - never adjust overhook grip while leg is moving
+- **Skipping the checkpoint: preserve mission control**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Keep the first high leg and hand connected while adjusting the second leg.
+  - Correction: Keep the first high leg and hand connected while adjusting the second leg.
 
-- **Neglecting free leg hip connection during transitional moment**
-  - Consequence: Opponent immediately begins passing toward back control as bottom player has no mechanism to prevent hip rotation during transition
-  - Correction: Establish strong butterfly hook or hip post with free leg before initiating any transition movement
+- **Skipping the checkpoint: create pummeling space**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Open the reinforcing leg as needed without losing all posture control.
+  - Correction: Open the reinforcing leg as needed without losing all posture control.
 
-- **Swinging leg wide during repositioning rather than sliding along back**
-  - Consequence: Creates space and opportunity for opponent to posture, insert underhooks, or begin passing sequence
-  - Correction: Keep controlling leg in contact with opponent's body throughout transition - slide rather than swing
+- **Skipping the checkpoint: find inside space**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Work through the opening near the hand rather than forcing a tightly clamped elbow straight outward.
+  - Correction: Work through the opening near the hand rather than forcing a tightly clamped elbow straight outward.
 
 
 </section>
@@ -250,41 +246,37 @@ Energy management considerations make this transition particularly valuable duri
 ### Key Principles
 
 
-- Exploit the transitional window when shin grip is released - this is your highest percentage escape moment
+- Maintain inside frames: Keep a useful forearm between the bodies before the bottom player gains the hand-clearing path.
 
-- Posture recovery attempts must begin the instant you feel the controlling leg shift from your neck
+- Keep elbow and hand connected: Move the whole arm rather than leaving the wrist exposed while the elbow remains fixed.
 
-- Drive forward into the bottom player during transition to disrupt their leg repositioning mechanics
+- Notice the pummel early: The free hand working under yours is the cue to recover inside position before the knee hug closes.
 
-- Grip fight the overhook continuously - the transition requires the bottom player's attention on leg mechanics, creating overhook extraction opportunities
+- Recover without yanking: Retract the elbow toward your ribs through available space, stopping if the shoulder is caught.
 
-- Widen your base immediately when you sense the transition beginning to prevent being swept during the positional adjustment
+- Rebuild posture gradually: Raise the chest after freeing the arm and reducing the high-leg control.
 
-- Never allow the New York shin grip to consolidate - contest the re-grip aggressively with your free hand
+- Respect the high guard: Do not confuse an arm pummel with lockdown defense or apply twisting leg escapes to this upper-body exchange.
 
 
 ### Recognition Cues
 
 
-- Controlling leg pressure shifts from your neck or upper back downward toward your shoulder blades, signaling the beginning of leg repositioning
+- The bottom player faces the opponent in a high two-leg clinch with the target arm still inside.
 
-- Bottom player's shin-gripping hand releases its grip on their own ankle, creating a momentary gap in their control circuit
+- Open the reinforcing leg as needed without losing all posture control.
 
-- Brief lightening of overall downward pressure as the bottom player's core engagement redirects from maintaining Crackhead position to facilitating the leg slide
-
-- Subtle hip rotation from the bottom player as they begin adjusting their angle toward the New York configuration
-
-- Bottom player's free leg increases pressure or adjusts position to compensate for the transitional instability of the primary controlling leg
+- Guide the wrist and forearm through the available space without bending individual fingers.
 
 
 ### Defensive Options
 
 
-- **Explosive posture recovery during shin grip release - drive chest up and hips back the instant you feel the controlling leg lighten** - When: The moment you feel the shin grip release and the controlling leg begins to shift - this is the highest percentage window for escape
+- **Keep a useful forearm between the bodies before the bottom player gains the hand-clearing path.** - When: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
 
-- **Forward drive and stack pressure during leg repositioning - drive your weight forward and down to flatten the bottom player before they complete the transition** - When: When you feel the leg sliding but the shin grip has not been re-established yet, typically 0.5-1 second into the transition
+- **Move the whole arm rather than leaving the wrist exposed while the elbow remains fixed.** - When: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
 
-- **Overhook extraction by pulling elbow sharply toward your hip while the bottom player's attention is divided between leg mechanics and arm control** - When: During the mid-transition phase when the bottom player is focused on repositioning their leg and their overhook maintenance is at its weakest
+- **The free hand working under yours is the cue to recover inside position before the knee hug closes.** - When: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
 
 
 </section>
@@ -295,13 +287,10 @@ Energy management considerations make this transition particularly valuable duri
 ## Variations
 
 
-**Quick-switch New York entry**: Instead of sliding the leg, perform a quick hip bump that momentarily elevates opponent, then immediately drop leg into New York position. Faster execution but requires precise timing. (When to use: When opponent is stacking forward and you need rapid positional change)
+**Cooperative checkpoint drill**: Keep the first high leg and hand connected while adjusting the second leg. Open the reinforcing leg as needed without losing all posture control. (When to use: Learning the control without submission pressure)
 
 
-**Two-on-one grip transition**: Briefly use both hands to control the overhook while repositioning the leg, then re-establish shin grip. Provides extra security on trapped arm during transition. (When to use: When opponent has been fighting the overhook and you're concerned about arm extraction during transition)
-
-
-**Hip-scoot New York entry**: Rather than repositioning the leg, scoot your hips away from opponent slightly to create New York angle while keeping leg in same position. Changes angle without moving the controlling leg. (When to use: When flexibility limitations make leg repositioning difficult or when you want to minimize transitional vulnerability)
+**Response and reset drill**: Keep a useful forearm between the bodies before the bottom player gains the hand-clearing path. Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route. (When to use: Adding one early response after both partners recognize the configuration)
 
 
 
@@ -313,7 +302,7 @@ Energy management considerations make this transition particularly valuable duri
 
 ## Position Integration
 
-The Crackhead Control to New York transition represents a fundamental angle adjustment within the 10th Planet Rubber Guard system, serving as a positional reset that maintains offensive momentum while changing attack angles. This transition connects directly to the New York attack chains including Invisible Collar, Zombie, and Carni progressions. It also provides a strategic recovery option when Crackhead Control becomes untenable due to opponent's defensive adjustments or practitioner fatigue. Mastery of this transition, combined with the reverse movement from New York back to Crackhead Control, allows practitioners to cycle between positions strategically, disrupting opponent timing while maintaining continuous control. The transition exemplifies 10th Planet's systematic approach where positions flow into each other rather than existing as isolated techniques, creating a coherent guard system rather than a collection of independent attacks.
+The bottom player faces the opponent in a high two-leg clinch with the target arm still inside. Opening enough of the second-leg reinforcement to pummel is a prerequisite. New York is defined by arm isolation, not a collar grip. A destination is established by its actual body configuration, not by completing an isolated grip or by the name of the route.
 
 </section>
 
@@ -323,25 +312,13 @@ The Crackhead Control to New York transition represents a fundamental angle adju
 ## Related Techniques
 
 
-- [[Positions/Rubber Guard/Crackhead Control]] - Starting position - high-risk submission-dense rubber guard variant
+- [[Positions/Rubber Guard/Crackhead Control]] - Related configuration; establish its own prerequisites: compare the configuration and required controls for Crackhead Control.
 
-- [[Positions/Rubber Guard/New York]] - Target position - stable rubber guard control with different attack chains
+- [[Positions/Rubber Guard/Mission Control]] - Related configuration; establish its own prerequisites: compare the configuration and required controls for Mission Control.
 
-- [[Positions/Rubber Guard/Mission Control]] - Alternative transition target for positional consolidation
+- [[Positions/Rubber Guard/Zombie]] - Related configuration; establish its own prerequisites: compare the configuration and required controls for Zombie.
 
-- [[Transitions/New York to Invisible Collar]] - Follow-up attack available from New York position
-
-- [[Transitions/Progression to Zombie]] - Follow-up transition available from New York position
-
-- [[Transitions/Advance to Chill Dog]] - Alternative follow-up for gogoplata setups
-
-- [[Transitions/Crackhead Control to Carni]] - Omoplata pathway available from Crackhead Control
-
-- [[Positions/Rubber Guard]] - Parent system containing both positions
-
-- [[Transitions/Crackhead Control to Mission Control]] - Alternative transition from Crackhead Control
-
-- [[Positions/Closed Guard]] - Safety fallback if transition fails
+- [[Positions/Rubber Guard/New York]] - Related configuration; establish its own prerequisites: compare the configuration and required controls for New York.
 
 
 </section>

@@ -4,7 +4,7 @@
 
 ---
 title: "Rolling Escape from Anaconda Defender | BJJ Defense Guide | BJJ Graph"
-description: "Learn to defend against the Rolling Escape from Anaconda as the controlling practitioner. Guide covering escape recognition, grip maintenance, and transitions to dead orchard control."
+description: "Rolling Escape from Anaconda (defender): Contain the opponent's head and one arm while keeping a balanced base. Pass the choking arm beneath the neck and toward the far armpit, enclosing one shoulder."
 ---
 
 
@@ -20,26 +20,26 @@ description: "Learn to defend against the Rolling Escape from Anaconda as the co
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Drive chest pressure and sprawl hips back to flatten opponent and eliminate rolling space",
-      "text": "When you detect lateral hip movement or free hand posting that signals early roll setup, before the roll has been initiated If successful: Opponent is flattened with no rolling angle, grip remains tight, and you can continue tightening toward finish",
+      "name": "Contain the opponent's head and one arm while keeping a balanced base.",
+      "text": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded. If successful: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Follow the roll with your hips while maintaining grip and transition to dead orchard finishing position",
-      "text": "When the opponent has committed to the roll and stopping it is no longer viable - use their momentum to advance your position If successful: You arrive in dead orchard control with an even tighter anaconda grip at an optimal finishing angle, significantly increasing submission probability",
+      "name": "Pass the choking arm beneath the neck and toward the far armpit, enclosing one shoulder.",
+      "text": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded. If successful: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Step over opponent's head during roll attempt to establish dominant side finishing angle",
-      "text": "When you feel the roll beginning but the opponent's free hand is not blocking your leg path over their head If successful: The step-over combined with the roll creates the dead orchard position with your body weight optimally placed for the anaconda finish",
+      "name": "Join to the supporting arm without pulling the neck into a twist.",
+      "text": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded. If successful: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Squeeze elbows together and tighten grip progressively to finish the choke before the roll develops",
-      "text": "When you detect escape preparation but believe the choke is deep enough to finish within the next few seconds before the roll is executed If successful: The opponent is forced to tap before completing the rolling escape, ending the exchange",
+      "name": "Use the taught shoulder-led angle only when both partners can roll safely; do not dive onto the neck.",
+      "text": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded. If successful: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
       "position": 4
     }
   ],
@@ -56,34 +56,34 @@ description: "Learn to defend against the Rolling Escape from Anaconda as the co
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the earliest signs your opponent is setting up a rolling escape from your anaconda?",
+      "name": "Rolling Escape from Anaconda (defender): What matters when you establish front headlock?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The earliest indicators are lateral hip walking where the opponent shifts their hips away from your body to create a rolling angle, and repositioning of their free hand from grip fighting at your wrist to posting on the mat beside their trapped shoulder. You may also notice a sudden increase in body tension, a shift in breathing pattern, or the trapped shoulder beginning to drop toward the mat as they load weight for the roll."
+        "text": "Contain the opponent's head and one arm while keeping a balanced base."
       }
     },
     {
       "@type": "Question",
-      "name": "Should you try to stop the roll or follow it when your opponent commits to the rolling escape?",
+      "name": "Rolling Escape from Anaconda (defender): What matters when you thread under the neck?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Once the opponent has fully committed to the roll with explosive momentum, following the roll while maintaining your grip is generally superior to trying to stop it with pure resistance. Fighting against committed rotational force risks breaking your grip entirely. Following the roll and transitioning to dead orchard control often puts you in a stronger finishing position than you had before the escape attempt. The key is maintaining grip integrity throughout the transition."
+        "text": "Pass the choking arm beneath the neck and toward the far armpit, enclosing one shoulder."
       }
     },
     {
       "@type": "Question",
-      "name": "How do you prevent the opponent from extracting their trapped arm during the rolling motion?",
+      "name": "Rolling Escape from Anaconda (defender): What matters when you connect the arm loop?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Keep your elbows squeezed tightly together throughout the entire roll to maintain the smallest possible loop around their neck and arm. The extraction window occurs when the rolling angle creates slack in the grip - counteract this by pulling your choking elbow toward your own hip as they roll, maintaining the constriction angle. If following the roll to dead orchard, the transition itself re-tightens the loop from the new angle, closing the extraction window."
+        "text": "Join to the supporting arm without pulling the neck into a twist."
       }
     },
     {
       "@type": "Question",
-      "name": "You follow their anaconda roll but your grip loosened slightly; what is the best response?",
+      "name": "Rolling Escape from Anaconda (defender): What matters when you choose a controlled angle?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Immediately re-establish chest-to-shoulder pressure in the new dead orchard position while squeezing your elbows back together. The dead orchard finishing position allows you to use your body weight to re-tighten the grip through positioning rather than muscular effort. Walk your hips slightly to adjust the finishing angle while maintaining continuous shoulder pressure. If the grip has loosened beyond recovery, transition immediately to side control or front headlock rather than attempting to salvage a compromised anaconda."
+        "text": "Use the taught shoulder-led angle only when both partners can roll safely; do not dive onto the neck."
       }
     }
   ]
@@ -96,7 +96,7 @@ description: "Learn to defend against the Rolling Escape from Anaconda as the co
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Rolling Escape from Anaconda Defender",
-  "description": "Learn to defend against the Rolling Escape from Anaconda as the controlling practitioner. Guide covering escape recognition, grip maintenance, and transitions to dead orchard control.",
+  "description": "Rolling Escape from Anaconda (defender): Contain the opponent's head and one arm while keeping a balanced base. Pass the choking arm beneath the neck and toward the far armpit, enclosing one shoulder.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -181,7 +181,13 @@ description: "Learn to defend against the Rolling Escape from Anaconda as the co
 
 <section id="overview" class="content-section">
 
-As the practitioner maintaining anaconda control, defending against the rolling escape requires anticipating your opponent's timing and maintaining structural integrity through dynamic movement. The rolling escape is the most common explosive response from skilled practitioners caught in your anaconda grip, and recognizing the pre-roll positioning cues allows you to prevent or counter the attempt before it generates momentum. Your defensive priorities are maintaining tight grip configuration throughout any rolling motion, using chest pressure to limit the opponent's ability to generate rotational force, and being prepared to follow their movement into dead orchard control if they commit to the roll. Understanding the biomechanics of why the roll creates slack in your grip helps you adjust your angle and pressure to neutralize the escape before it develops into a successful extraction.
+The defender is beneath a front-headlock attacker whose arm encloses the neck and one shoulder. A secured choke is a tap situation. Dead Orchard is a separate high guard, not the continuation of an Anaconda roll, and no blind rolling escape is guaranteed.
+
+Contain the opponent's head and one arm while keeping a balanced base. Pass the choking arm beneath the neck and toward the far armpit, enclosing one shoulder. Join to the supporting arm without pulling the neck into a twist.
+
+Use the taught shoulder-led angle only when both partners can roll safely; do not dive onto the neck. Bring the trapped shoulder toward the neck with gradual whole-body connection rather than a violent head pull. Open both arms immediately on a tap or any loss of normal responsiveness.
+
+Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
 
 **Opponent's Starting Position**: [[Positions/Anaconda Control]] (Bottom)
 
@@ -221,11 +227,9 @@ As the practitioner maintaining anaconda control, defending against the rolling 
 
 <p class="section-subtitle">How do you know when someone is attempting Rolling Escape from Anaconda?</p>
 
-- Opponent's hips begin walking laterally away from your body, creating an angle for the rolling motion
-- Free hand moves from grip fighting at your choking wrist to posting position on the mat beside their shoulder
-- Sudden increase in opponent's body tension and muscular engagement signaling preparation for explosive movement
-- Opponent's trapped shoulder drops toward the mat as they load weight onto the rolling side
-- Brief pause in grip fighting followed by a change in breathing pattern indicating commitment to the escape
+- The defender is beneath a front-headlock attacker whose arm encloses the neck and one shoulder.
+- Preserve space between the shoulder and neck before the attacker closes the arm loop.
+- Hand fight before the enclosure becomes tight, while keeping the trapped elbow connected to the torso.
 
 
 </section>
@@ -236,12 +240,12 @@ As the practitioner maintaining anaconda control, defending against the rolling 
 
 <p class="section-subtitle">What are the key principles for defending Rolling Escape from Anaconda?</p>
 
-- Anticipate the roll by reading lateral hip movement and free hand posting that signal escape initiation
-- Maintain tight grip configuration with elbows squeezed together throughout any rolling motion from your opponent
-- Use chest pressure directed downward through the trapped shoulder to limit rolling space and momentum generation
-- Be prepared to follow the roll with your hips and transition to dead orchard control rather than fighting against momentum
-- Keep your hips mobile and ready to adjust angle if the opponent initiates lateral displacement before the roll
-- Control the pace by tightening progressively - do not allow the opponent time to set up their escape angle
+- Establish front headlock: Contain the opponent's head and one arm while keeping a balanced base.
+- Thread under the neck: Pass the choking arm beneath the neck and toward the far armpit, enclosing one shoulder.
+- Connect the arm loop: Join to the supporting arm without pulling the neck into a twist.
+- Choose a controlled angle: Use the taught shoulder-led angle only when both partners can roll safely; do not dive onto the neck.
+- Close the shoulder gap: Bring the trapped shoulder toward the neck with gradual whole-body connection rather than a violent head pull.
+- Release the loop: Open both arms immediately on a tap or any loss of normal responsiveness.
 
 
 </section>
@@ -252,33 +256,33 @@ As the practitioner maintaining anaconda control, defending against the rolling 
 
 <p class="section-subtitle">What can you do to defend against Rolling Escape from Anaconda?</p>
 
-### 1. Drive chest pressure and sprawl hips back to flatten opponent and eliminate rolling space
+### 1. Contain the opponent's head and one arm while keeping a balanced base.
 
-- **When to use**: When you detect lateral hip movement or free hand posting that signals early roll setup, before the roll has been initiated
+- **When to use**: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
 - **Targets**: [[Positions/Anaconda Control]]
-- **If successful**: Opponent is flattened with no rolling angle, grip remains tight, and you can continue tightening toward finish
-- **Risk**: If the opponent uses your forward pressure to fuel their roll, you may accelerate their escape momentum
+- **If successful**: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.
+- **Risk**: Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
 
-### 2. Follow the roll with your hips while maintaining grip and transition to dead orchard finishing position
+### 2. Pass the choking arm beneath the neck and toward the far armpit, enclosing one shoulder.
 
-- **When to use**: When the opponent has committed to the roll and stopping it is no longer viable - use their momentum to advance your position
+- **When to use**: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
 - **Targets**: [[Positions/Dead Orchard Control]]
-- **If successful**: You arrive in dead orchard control with an even tighter anaconda grip at an optimal finishing angle, significantly increasing submission probability
-- **Risk**: If your grip loosens during the transition, the opponent may extract their arm during the rolling chaos
+- **If successful**: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.
+- **Risk**: Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
 
-### 3. Step over opponent's head during roll attempt to establish dominant side finishing angle
+### 3. Join to the supporting arm without pulling the neck into a twist.
 
-- **When to use**: When you feel the roll beginning but the opponent's free hand is not blocking your leg path over their head
+- **When to use**: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
 - **Targets**: [[Positions/Dead Orchard Control]]
-- **If successful**: The step-over combined with the roll creates the dead orchard position with your body weight optimally placed for the anaconda finish
-- **Risk**: If timed poorly, the step-over can create space that aids the opponent's escape rather than advancing your position
+- **If successful**: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.
+- **Risk**: Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
 
-### 4. Squeeze elbows together and tighten grip progressively to finish the choke before the roll develops
+### 4. Use the taught shoulder-led angle only when both partners can roll safely; do not dive onto the neck.
 
-- **When to use**: When you detect escape preparation but believe the choke is deep enough to finish within the next few seconds before the roll is executed
+- **When to use**: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
 - **Targets**: [[Positions/Anaconda Control]]
-- **If successful**: The opponent is forced to tap before completing the rolling escape, ending the exchange
-- **Risk**: If the choke is not deep enough to finish quickly, the tightening attempt burns grip energy that could be used to maintain control
+- **If successful**: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.
+- **Risk**: Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
 
 
 
@@ -292,11 +296,11 @@ As the practitioner maintaining anaconda control, defending against the rolling 
 
 ### → [[Positions/Anaconda Control]]
 
-Prevent the roll from initiating by maintaining heavy chest pressure on the trapped shoulder, sprawling hips back to eliminate rolling angle, and progressively tightening the grip to close the escape window entirely
+Interrupt the next connection while preserving a safe base. Establish any new guard or pin separately rather than assuming this response guarantees it. Contain the opponent's head and one arm while keeping a balanced base.
 
 ### → [[Positions/Dead Orchard Control]]
 
-Follow the opponent's rolling momentum while maintaining grip integrity, stepping over their head during the rotation to arrive in dead orchard position with optimal finishing angle and body weight placement for the anaconda choke finish
+Interrupt the next connection while preserving a safe base. Establish any new guard or pin separately rather than assuming this response guarantees it. Pass the choking arm beneath the neck and toward the far armpit, enclosing one shoulder.
 
 
 
@@ -308,25 +312,20 @@ Follow the opponent's rolling momentum while maintaining grip integrity, steppin
 
 <p class="section-subtitle">What mistakes should you avoid when defending Rolling Escape from Anaconda?</p>
 
-### 1. Fighting against the roll with pure resistance rather than following the momentum to a better position
+### 1. Skipping the checkpoint: establish front headlock
 
-- **Consequence**: Grip breaks under the rotational force of the opponent's committed roll, resulting in complete loss of the anaconda control
-- **Correction**: Follow the roll by moving your hips with the rotation while keeping grip tight - the transition to dead orchard through the roll is often stronger than the original control
+- **Consequence**: The intended control is not established before the next movement; the missing requirement is: Contain the opponent's head and one arm while keeping a balanced base.
+- **Correction**: Contain the opponent's head and one arm while keeping a balanced base.
 
-### 2. Releasing grip during the rolling motion to post hands for base
+### 2. Skipping the checkpoint: thread under the neck
 
-- **Consequence**: Opponent extracts trapped arm immediately and recovers to turtle or guard, completely losing the submission threat
-- **Correction**: Maintain grip integrity as absolute priority throughout all movement - accept a less stable body position rather than ever releasing the grip during a scramble
+- **Consequence**: The intended control is not established before the next movement; the missing requirement is: Pass the choking arm beneath the neck and toward the far armpit, enclosing one shoulder.
+- **Correction**: Pass the choking arm beneath the neck and toward the far armpit, enclosing one shoulder.
 
-### 3. Failing to recognize pre-roll positioning cues and reacting too late to prevent the escape
+### 3. Skipping the checkpoint: connect the arm loop
 
-- **Consequence**: The roll generates full momentum before any defensive adjustment, maximizing the opponent's chance of successful arm extraction
-- **Correction**: Monitor opponent's hip position and free hand constantly - react to lateral hip walking or hand posting immediately with chest pressure and angle adjustment
-
-### 4. Keeping hips static and heavy on one side during the opponent's roll attempt
-
-- **Consequence**: Unable to follow the roll or adjust angle, resulting in the grip being rotated to a weak position where the opponent can slip free
-- **Correction**: Maintain hip mobility by keeping weight through your chest and upper body rather than settling your hips - mobile hips allow you to follow any escape direction
+- **Consequence**: The intended control is not established before the next movement; the missing requirement is: Join to the supporting arm without pulling the neck into a twist.
+- **Correction**: Join to the supporting arm without pulling the neck into a twist.
 
 
 
@@ -338,17 +337,14 @@ Follow the opponent's rolling momentum while maintaining grip integrity, steppin
 
 <p class="section-subtitle">How do you train defense against Rolling Escape from Anaconda?</p>
 
-**Phase 1: Recognition** - Identifying pre-roll positioning cues
-Partner signals rolling escape setup at various speeds while you practice identifying the cues - lateral hip walk, hand posting, shoulder drop. Call out the cue verbally before the partner commits to the roll. Develops pattern recognition without physical response initially.
+**Phase 1** - Identify the configuration
+Work cooperatively on establish front headlock. Contain the opponent's head and one arm while keeping a balanced base. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.
 
-**Phase 2: Prevention** - Shutting down roll attempts before they develop
-Partner attempts rolling escapes at 50% speed while you practice preventive responses: increasing chest pressure, sprawling hips, and adjusting angle to eliminate rolling space. Focus on reacting to early cues rather than waiting for the roll to begin. Gradually increase partner's speed.
+**Phase 2** - Rehearse the connection
+Work cooperatively on thread under the neck. Pass the choking arm beneath the neck and toward the far armpit, enclosing one shoulder. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.
 
-**Phase 3: Following and Transitioning** - Flowing with the roll to dead orchard control
-Partner executes committed rolling escapes while you practice maintaining grip and following the momentum to dead orchard finishing position. Focus on hip mobility, grip maintenance during rotation, and establishing optimal finishing angle upon landing. Step-over timing drills included.
-
-**Phase 4: Live Positional Sparring** - Full-speed defense against all anaconda escape attempts
-Positional sparring from anaconda control where bottom player uses all available escapes including rolling, grip breaking, and framing. Top player must read the escape type and select appropriate counter in real time. 3-minute rounds with role reversal to develop complete understanding.
+**Phase 3** - Add an early response
+Work cooperatively on connect the arm loop. Join to the supporting arm without pulling the neck into a twist. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.
 
 
 

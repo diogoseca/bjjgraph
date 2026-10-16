@@ -4,7 +4,7 @@
 
 ---
 title: "Turn to Face from Zombie Attacker | BJJ Technique Guide | BJJ Graph"
-description: "Execute the Turn to Face from Zombie position in BJJ. Step-by-step guard recovery with framing mechanics, hip rotation timing, and lockdown management for escaping Zombie bottom."
+description: "Turn to Face from Zombie (attacker): The bottom player has broken posture and supports a high Mission Control leg. The top player's hand or forearm is still obstructing the intended arm isolation. Release any wrist, neck or elbow loading before opening the high-leg enclosure."
 ---
 
 
@@ -20,45 +20,39 @@ description: "Execute the Turn to Face from Zombie position in BJJ. Step-by-step
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Assess opponent's weight distribution",
-      "text": "Before initiating the turn, feel where the top player's pressure is concentrated. Identify whether they are heavy on your upper body through crossface, driving forward through their chest, or focused on extracting their leg from your lockdown. The optimal window opens when their weight shifts away from your rotation path or when they commit to a specific passing sequence that lifts pressure momentarily.",
+      "name": "Recognize the actual control",
+      "text": "The bottom player has broken posture and supports a high Mission Control leg. The top player's hand or forearm is still obstructing the intended arm isolation.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Establish defensive frames",
-      "text": "Place your near-side forearm firmly against the opponent's shoulder or chest, creating a wedge that prevents them from driving forward and collapsing your turning space. Simultaneously tuck your far-side arm tight to your body, protecting your neck from crossface and positioning it to create a secondary frame during the turn. Your frames must be structural—using skeletal alignment rather than muscular effort.",
+      "name": "Remove submission pressure",
+      "text": "Release any wrist, neck or elbow loading before opening the high-leg enclosure.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Create rotational space with lockdown stretch",
-      "text": "Activate your lockdown by extending your hips and stretching the opponent's trapped leg backward. This disrupts their base and forces them to adjust their weight distribution, creating a momentary gap in their pressure. The stretch does not need to be maximal—moderate tension that forces them to post or readjust is sufficient to open the rotational window you need.",
+      "name": "Open the high connection",
+      "text": "Lower the controlling leg through a comfortable hip angle rather than pulling the foot against the knee.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Initiate hip rotation toward opponent",
-      "text": "Drive your bottom hip toward the mat while swinging your top hip over and toward the opponent. This rotation should pivot on your shoulder and the lockdown connection, using both as anchoring points. Keep your elbows tight throughout the rotation to protect against the top player following your turn and establishing back control. The rotation must be committed—half-turns leave you in a worse position than where you started.",
+      "name": "Restore inside frames",
+      "text": "Bring the forearms and knees between the bodies as space becomes available.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Insert knee shield during rotation",
-      "text": "As your hips pass the halfway point of the rotation, immediately drive your top knee across the opponent's body to create a physical barrier between your torso and theirs. This knee shield prevents them from re-establishing chest pressure and gives you distance management control. The knee should aim for their hip or lower chest area, creating a strong structural frame.",
+      "name": "Face the opponent",
+      "text": "Keep the shoulders and hips oriented toward the opponent while re-establishing a comfortable facing guard.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Complete the turn and face opponent",
-      "text": "Bring your shoulders square to the opponent while keeping your knee shield active. Your lockdown may naturally transition to a standard half guard leg configuration during this phase, or you can maintain it for immediate Lockdown Half Guard. Ensure your head is positioned with chin tucked and facing the opponent, not angled away where they could re-establish crossface control.",
+      "name": "Stabilize before moving again",
+      "text": "Check posture, knee comfort and inside space before resuming a sweep or submission attack.",
       "position": 6
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Consolidate guard position and secure grips",
-      "text": "Immediately establish control grips appropriate to your recovered guard—collar and sleeve for gi, wrist and elbow control for no-gi. Ensure your knee shield or butterfly hook is creating sufficient distance to prevent the opponent from smashing through your guard. Begin threatening sweeps or guard transitions immediately to prevent the opponent from settling into a comfortable top half guard position.",
-      "position": 7
     }
   ],
   "tool": ["BJJ Gi or No-Gi attire", "Training partner", "Mat space"],
@@ -74,50 +68,50 @@ description: "Execute the Turn to Face from Zombie position in BJJ. Step-by-step
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the optimal timing window to initiate the Turn to Face from Zombie?",
+      "name": "Turn to Face from Zombie (attacker): What matters when you recognize the actual control?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The optimal window opens when the top player's weight shifts during a passing transition or when they commit to extracting their leg from the lockdown. Specifically, look for moments when their crossface pressure temporarily lifts as they readjust position, when they pull backward to free their trapped leg, or when they begin circling toward a new passing angle. These weight transfers create brief gaps in their pressure that provide the space needed for hip rotation. Never attempt the turn when the opponent is settled with heavy crossface and stable base."
+        "text": "The bottom player has broken posture and supports a high Mission Control leg. The top player's hand or forearm is still obstructing the intended arm isolation."
       }
     },
     {
       "@type": "Question",
-      "name": "What conditions must exist before attempting the Turn to Face from Zombie?",
+      "name": "Turn to Face from Zombie (attacker): What matters when you remove submission pressure?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Four conditions must be present: your lockdown must be actively engaged providing rotational anchor and base disruption capability; you must have at least one functional frame against the opponent's upper body; your hips must be on your side rather than flattened; and the opponent must not have fully established chest-to-chest crossface control. If any of these conditions are missing, address that deficiency first through lockdown recovery, reframing, hip escaping, or crossface defense before attempting the turn."
+        "text": "Release any wrist, neck or elbow loading before opening the high-leg enclosure."
       }
     },
     {
       "@type": "Question",
-      "name": "What is the most critical hip movement during the Turn to Face?",
+      "name": "Turn to Face from Zombie (attacker): What matters when you open the high connection?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The critical movement is the simultaneous bottom-hip-down, top-hip-over rotation that pivots on your shoulder and lockdown connection points. The bottom hip drives into the mat creating the initial rotational force, while the top hip swings over and toward the opponent in an arc. This coupled motion must happen as a single coordinated action rather than sequentially. The rotation should feel like your hips are rolling as a unit with your lockdown leg acting as a fixed axis point that prevents the opponent from simply following your rotation."
+        "text": "Lower the controlling leg through a comfortable hip angle rather than pulling the foot against the knee."
       }
     },
     {
       "@type": "Question",
-      "name": "What is the most common reason practitioners fail the Turn to Face from Zombie?",
+      "name": "Turn to Face from Zombie (attacker): What matters when you restore inside frames?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The most common failure is attempting the turn without first creating sufficient space through frames and lockdown stretch. Practitioners feel urgency to escape and immediately try to rotate, but turning into settled opponent pressure results in being flattened with no guard structure. The preparation phase—establishing frames, stretching the lockdown, and waiting for a weight shift—is what makes the actual turn mechanically possible. Without this preparation, the turn becomes a strength contest that the top player wins through gravity and position."
+        "text": "Bring the forearms and knees between the bodies as space becomes available."
       }
     },
     {
       "@type": "Question",
-      "name": "What grip and frame configuration should be established before initiating the turn?",
+      "name": "Turn to Face from Zombie (attacker): What matters when you face the opponent?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Your near-side forearm should be wedged against the opponent's shoulder or upper chest, creating a structural barrier using bone-on-bone contact rather than muscular pushing. The far arm tucks tight to your body with elbow pinched to your ribs, protecting your neck from crossface and ready to create a secondary frame once the turn progresses. Your lockdown should be actively engaged with moderate tension. This configuration creates a defensive shell that both protects you during the turn and generates the space needed for hip rotation."
+        "text": "Keep the shoulders and hips oriented toward the opponent while re-establishing a comfortable facing guard."
       }
     },
     {
       "@type": "Question",
-      "name": "In which direction should your primary rotational force be applied during the turn?",
+      "name": "Turn to Face from Zombie (attacker): What matters when you stabilize before moving again?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The primary rotational force drives your hips toward the opponent—specifically, your bottom hip presses into the mat while your top hip rotates over toward the opponent's centerline. The direction is inward and downward initially, then over and facing as the rotation completes. Common mistake is trying to rotate away from the opponent, which exposes the back. You are turning to face, meaning the force brings you closer to their body while your knee shield simultaneously creates the distance barrier that prevents them from smashing through."
+        "text": "Check posture, knee comfort and inside space before resuming a sweep or submission attack."
       }
     }
   ]
@@ -130,7 +124,7 @@ description: "Execute the Turn to Face from Zombie position in BJJ. Step-by-step
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Turn to Face from Zombie Attacker",
-  "description": "Execute the Turn to Face from Zombie position in BJJ. Step-by-step guard recovery with framing mechanics, hip rotation timing, and lockdown management for escaping Zombie bottom.",
+  "description": "Turn to Face from Zombie (attacker): The bottom player has broken posture and supports a high Mission Control leg. The top player's hand or forearm is still obstructing the intended arm isolation. Release any wrist, neck or elbow loading before opening the high-leg enclosure.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -204,7 +198,15 @@ description: "Execute the Turn to Face from Zombie position in BJJ. Step-by-step
 
 <section id="overview" class="content-section">
 
-As the attacker executing the Turn to Face from Zombie, your objective is to rotate your body from the defensive Zombie position—where you are on your side facing partially away from your opponent—into a proper facing guard. This requires sequential use of frames to create space, strategic lockdown manipulation to disrupt the top player's base, and coordinated hip rotation to complete the turn. The technique transforms you from a survival-oriented defensive posture into an active guard player with access to sweeps, submissions, and further guard improvements. Success depends on reading your opponent's weight distribution, identifying windows when their pressure shifts, and executing the rotation with enough speed and structure to prevent them from following you to a worse position.
+The bottom player is already facing the opponent in Zombie, with a high rubber-guard leg connection. The basic Zombie exchange already faces the opponent. A turn from a back exposure is a separate situation and is not established by the position name.
+
+The bottom player has broken posture and supports a high Mission Control leg. The top player's hand or forearm is still obstructing the intended arm isolation. Release any wrist, neck or elbow loading before opening the high-leg enclosure. Lower the controlling leg through a comfortable hip angle rather than pulling the foot against the knee.
+
+Bring the forearms and knees between the bodies as space becomes available. Keep the shoulders and hips oriented toward the opponent while re-establishing a comfortable facing guard. Check posture, knee comfort and inside space before resuming a sweep or submission attack.
+
+Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
+
+Make the guard recovery behind an inside shoulder frame so a crossface cannot turn your head away as the knee returns. Guard retention comes before the arm trap: if the top player drives chest pressure into the gap, preserve that barrier and move the hips before rebuilding the New York overhook.
 
 **From Position**: [[Positions/Rubber Guard/Zombie]] (Bottom)
 
@@ -236,12 +238,12 @@ As the attacker executing the Turn to Face from Zombie, your objective is to rot
 
 <p class="section-subtitle">What are the key principles for executing Turn to Face from Zombie?</p>
 
-- Frame before turning—establish defensive barriers against crossface and chest pressure before initiating any rotation
-- Time the turn to opponent's weight shifts—rotate when the top player commits to a passing sequence or readjusts their position
-- Maintain lockdown tension during rotation to anchor your legs and prevent the opponent from extracting their leg and completing a pass
-- Lead with hips rather than shoulders—hip rotation drives the turn while shoulders follow naturally without exposing the back
-- Establish immediate guard structure upon completing the turn—insert knee shield or butterfly hook before the opponent can re-establish pressure
-- Protect the far arm throughout rotation to prevent back exposure and maintain the ability to frame upon completion
+- Recognize the actual control: The bottom player has broken posture and supports a high Mission Control leg. The top player's hand or forearm is still obstructing the intended arm isolation.
+- Remove submission pressure: Release any wrist, neck or elbow loading before opening the high-leg enclosure.
+- Open the high connection: Lower the controlling leg through a comfortable hip angle rather than pulling the foot against the knee.
+- Restore inside frames: Bring the forearms and knees between the bodies as space becomes available.
+- Face the opponent: Keep the shoulders and hips oriented toward the opponent while re-establishing a comfortable facing guard.
+- Stabilize before moving again: Check posture, knee comfort and inside space before resuming a sweep or submission attack.
 
 
 </section>
@@ -252,11 +254,10 @@ As the attacker executing the Turn to Face from Zombie, your objective is to rot
 
 <p class="section-subtitle">What do you need before attempting Turn to Face from Zombie?</p>
 
-- Active lockdown engaged on opponent's leg providing an anchor point and fulcrum for the rotation
-- Near-side forearm frame established against opponent's shoulder or chest to create turning space and prevent forward drive
-- Far-side arm tucked and protecting the neck to prevent crossface establishment during the turn
-- Hips positioned on your side with mobility preserved—not flattened with both shoulders on the mat
-- Opponent's crossface pressure not fully settled with chest-to-chest connection, leaving rotational space available
+- The bottom player is already facing the opponent in Zombie, with a high rubber-guard leg connection.
+- The bottom player has broken posture and supports a high Mission Control leg. The top player's hand or forearm is still obstructing the intended arm isolation.
+- Release any wrist, neck or elbow loading before opening the high-leg enclosure.
+- The basic Zombie exchange already faces the opponent. A turn from a back exposure is a separate situation and is not established by the position name.
 
 
 </section>
@@ -267,13 +268,12 @@ As the attacker executing the Turn to Face from Zombie, your objective is to rot
 
 <p class="section-subtitle">How do you execute Turn to Face from Zombie step by step?</p>
 
-1. **Assess opponent's weight distribution**: Before initiating the turn, feel where the top player's pressure is concentrated. Identify whether they are heavy on your upper body through crossface, driving forward through their chest, or focused on extracting their leg from your lockdown. The optimal window opens when their weight shifts away from your rotation path or when they commit to a specific passing sequence that lifts pressure momentarily.
-2. **Establish defensive frames**: Place your near-side forearm firmly against the opponent's shoulder or chest, creating a wedge that prevents them from driving forward and collapsing your turning space. Simultaneously tuck your far-side arm tight to your body, protecting your neck from crossface and positioning it to create a secondary frame during the turn. Your frames must be structural—using skeletal alignment rather than muscular effort.
-3. **Create rotational space with lockdown stretch**: Activate your lockdown by extending your hips and stretching the opponent's trapped leg backward. This disrupts their base and forces them to adjust their weight distribution, creating a momentary gap in their pressure. The stretch does not need to be maximal—moderate tension that forces them to post or readjust is sufficient to open the rotational window you need.
-4. **Initiate hip rotation toward opponent**: Drive your bottom hip toward the mat while swinging your top hip over and toward the opponent. This rotation should pivot on your shoulder and the lockdown connection, using both as anchoring points. Keep your elbows tight throughout the rotation to protect against the top player following your turn and establishing back control. The rotation must be committed—half-turns leave you in a worse position than where you started.
-5. **Insert knee shield during rotation**: As your hips pass the halfway point of the rotation, immediately drive your top knee across the opponent's body to create a physical barrier between your torso and theirs. This knee shield prevents them from re-establishing chest pressure and gives you distance management control. The knee should aim for their hip or lower chest area, creating a strong structural frame.
-6. **Complete the turn and face opponent**: Bring your shoulders square to the opponent while keeping your knee shield active. Your lockdown may naturally transition to a standard half guard leg configuration during this phase, or you can maintain it for immediate Lockdown Half Guard. Ensure your head is positioned with chin tucked and facing the opponent, not angled away where they could re-establish crossface control.
-7. **Consolidate guard position and secure grips**: Immediately establish control grips appropriate to your recovered guard—collar and sleeve for gi, wrist and elbow control for no-gi. Ensure your knee shield or butterfly hook is creating sufficient distance to prevent the opponent from smashing through your guard. Begin threatening sweeps or guard transitions immediately to prevent the opponent from settling into a comfortable top half guard position.
+1. **Recognize the actual control**: The bottom player has broken posture and supports a high Mission Control leg. The top player's hand or forearm is still obstructing the intended arm isolation.
+2. **Remove submission pressure**: Release any wrist, neck or elbow loading before opening the high-leg enclosure.
+3. **Open the high connection**: Lower the controlling leg through a comfortable hip angle rather than pulling the foot against the knee.
+4. **Restore inside frames**: Bring the forearms and knees between the bodies as space becomes available.
+5. **Face the opponent**: Keep the shoulders and hips oriented toward the opponent while re-establishing a comfortable facing guard.
+6. **Stabilize before moving again**: Check posture, knee comfort and inside space before resuming a sweep or submission attack.
 
 
 </section>
@@ -298,10 +298,10 @@ As the attacker executing the Turn to Face from Zombie, your objective is to rot
 
 <p class="section-subtitle">How might your opponent counter Turn to Face from Zombie?</p>
 
-- **Heavy crossface pressure to flatten and prevent any shoulder rotation from initiating** (Effectiveness: High) - Your Response: Use lockdown stretch to disrupt their base before the crossface settles fully, or abandon the turn and switch to Granby Roll or Deep Half entry which both work better under heavy forward pressure → Leads to [[Positions/Rubber Guard/Zombie]]
-- **Sprawl and drive hips down during the turn attempt to pin your hips to the mat** (Effectiveness: Medium) - Your Response: Use their forward commitment against them by pulling into Deep Half Guard entry, or switch to Old School Sweep setup which capitalizes on their forward weight distribution → Leads to [[Positions/Rubber Guard/Zombie]]
-- **Circle toward your back during the rotation to take back control or advance past your legs** (Effectiveness: High) - Your Response: Abandon the turn immediately, secure near-side underhook, and switch to rolling back take or re-establish Zombie frames before they complete the back take → Leads to [[Positions/Side Control]]
-- **Control your far arm and pull it across your body to block the rotational frame** (Effectiveness: Medium) - Your Response: Strip the grip using elbow pressure and circular motion before re-attempting, or use the grip break motion itself to generate rotational momentum for the turn → Leads to [[Positions/Rubber Guard/Zombie]]
+- **Keep a useful forearm between the bodies before the bottom player gains the hand-clearing path.** (Effectiveness: High) - Your Response: Re-check the prerequisite before continuing. The bottom player has broken posture and supports a high Mission Control leg. The top player's hand or forearm is still obstructing the intended arm isolation. → Leads to [[Positions/Rubber Guard/Zombie]]
+- **Move the whole arm rather than leaving the wrist exposed while the elbow remains fixed.** (Effectiveness: Medium) - Your Response: Re-check the prerequisite before continuing. Release any wrist, neck or elbow loading before opening the high-leg enclosure. → Leads to [[Positions/Rubber Guard/Zombie]]
+- **The free hand working under yours is the cue to recover inside position before the knee hug closes.** (Effectiveness: High) - Your Response: Re-check the prerequisite before continuing. Lower the controlling leg through a comfortable hip angle rather than pulling the foot against the knee. → Leads to [[Positions/Side Control]]
+- **Retract the elbow toward your ribs through available space, stopping if the shoulder is caught.** (Effectiveness: Medium) - Your Response: Re-check the prerequisite before continuing. Bring the forearms and knees between the bodies as space becomes available. → Leads to [[Positions/Rubber Guard/Zombie]]
 
 
 </section>
@@ -312,35 +312,30 @@ As the attacker executing the Turn to Face from Zombie, your objective is to rot
 
 <p class="section-subtitle">What mistakes should you avoid when executing Turn to Face from Zombie?</p>
 
-### 1. Releasing lockdown before establishing guard frames upon completion of the turn
+### 1. Skipping the checkpoint: recognize the actual control
 
-- **Consequence**: Opponent immediately frees their leg and passes to side control before you can establish any guard structure, negating the entire recovery effort
-- **Correction**: Maintain lockdown engagement throughout the entire rotation—only release once knee shield or butterfly hook is firmly in place and you have upper body grips securing your guard position
+- **Consequence**: The intended control is not established before the next movement; the missing requirement is: The bottom player has broken posture and supports a high Mission Control leg. The top player's hand or forearm is still obstructing the intended arm isolation.
+- **Correction**: The bottom player has broken posture and supports a high Mission Control leg. The top player's hand or forearm is still obstructing the intended arm isolation.
 
-### 2. Attempting the turn without first creating space through frames and lockdown stretch
+### 2. Skipping the checkpoint: remove submission pressure
 
-- **Consequence**: Turning into the opponent's settled pressure results in being flattened on your back with no guard structure, making the pass trivially easy for the top player
-- **Correction**: Always establish your near-side frame and activate your lockdown stretch before initiating rotation—the space these create is what makes the turn mechanically possible
+- **Consequence**: The intended control is not established before the next movement; the missing requirement is: Release any wrist, neck or elbow loading before opening the high-leg enclosure.
+- **Correction**: Release any wrist, neck or elbow loading before opening the high-leg enclosure.
 
-### 3. Leading with shoulders instead of hips during the rotation sequence
+### 3. Skipping the checkpoint: open the high connection
 
-- **Consequence**: Exposes your back to the opponent as your shoulders turn before your hips catch up, creating a back-take window that the top player can exploit
-- **Correction**: Initiate all rotation from your hips first—drive the bottom hip down and top hip over simultaneously, allowing shoulders to follow the hip rotation naturally without creating exposure
+- **Consequence**: The intended control is not established before the next movement; the missing requirement is: Lower the controlling leg through a comfortable hip angle rather than pulling the foot against the knee.
+- **Correction**: Lower the controlling leg through a comfortable hip angle rather than pulling the foot against the knee.
 
-### 4. Leaving the far arm extended or exposed during the turning motion
+### 4. Skipping the checkpoint: restore inside frames
 
-- **Consequence**: Opponent catches the trailing arm for kimura control, arm drag to back take, or simply pins it to prevent completion of the turn
-- **Correction**: Keep the far arm tight to your body throughout the rotation with elbow pinched to your ribs—it should be the last thing to come around, not the first
+- **Consequence**: The intended control is not established before the next movement; the missing requirement is: Bring the forearms and knees between the bodies as space becomes available.
+- **Correction**: Bring the forearms and knees between the bodies as space becomes available.
 
-### 5. Attempting the turn against a fully settled crossface with chest-to-chest connection established
+### 5. Skipping the checkpoint: face the opponent
 
-- **Consequence**: The rotation becomes mechanically impossible against this level of pressure, and the effort expended opens you up to further position deterioration
-- **Correction**: If crossface is fully established, first address the crossface through lockdown stretches, granby roll setup, or deep half entry—do not force the Turn to Face against dominant upper body control
-
-### 6. Completing the turn but remaining flat on back without immediately establishing guard structure
-
-- **Consequence**: You successfully face the opponent but have no defensive framework, allowing them to immediately drive into a smash pass or knee slice that you cannot defend
-- **Correction**: The knee shield or butterfly hook insertion must happen during the turn itself, not after—treat step 5 as simultaneous with step 4, not sequential
+- **Consequence**: The intended control is not established before the next movement; the missing requirement is: Keep the shoulders and hips oriented toward the opponent while re-establishing a comfortable facing guard.
+- **Correction**: Keep the shoulders and hips oriented toward the opponent while re-establishing a comfortable facing guard.
 
 
 
@@ -352,20 +347,17 @@ As the attacker executing the Turn to Face from Zombie, your objective is to rot
 
 <p class="section-subtitle">How do you train Turn to Face from Zombie (Attacker)?</p>
 
-**Phase 1: Solo Mechanics** - Hip rotation and frame positioning
-Practice the turning motion solo on the mat, focusing on smooth hip rotation from side position to facing position. Use a foam roller or heavy bag to simulate opponent's body and practice frame placement. Develop muscle memory for the simultaneous hip drive and knee shield insertion that must occur during rotation.
+**Phase 1** - Identify the configuration
+Work cooperatively on recognize the actual control. The bottom player has broken posture and supports a high Mission Control leg. The top player's hand or forearm is still obstructing the intended arm isolation. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.
 
-**Phase 2: Cooperative Drilling** - Partner timing and lockdown coordination
-Drill with a cooperative partner who establishes Zombie Top position without resistance. Practice the full sequence: lockdown stretch, frame establishment, hip rotation, knee shield insertion, and guard consolidation. Partner provides body weight but does not actively counter. Focus on smooth technical execution and proper sequencing.
+**Phase 2** - Rehearse the connection
+Work cooperatively on remove submission pressure. Release any wrist, neck or elbow loading before opening the high-leg enclosure. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.
 
-**Phase 3: Progressive Resistance** - Execution under pressure
-Partner adds increasing resistance from 25% to 75%. Begin with partner allowing frames but resisting the turn, then progress to partner fighting frames and attempting crossface. Develop ability to adjust timing and force application based on opponent's resistance level. Identify windows and learn to abort when conditions are unfavorable.
+**Phase 3** - Add an early response
+Work cooperatively on open the high connection. Lower the controlling leg through a comfortable hip angle rather than pulling the foot against the knee. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.
 
-**Phase 4: Timing and Window Recognition** - Reading opponent's weight shifts
-Partner varies their passing attacks from Zombie Top—crossface passes, leg extraction attempts, back-take circling. Bottom player must identify the specific windows where Turn to Face becomes available and execute only during those moments. Develops tactical patience and pattern recognition essential for live application.
-
-**Phase 5: Live Positional Sparring** - Full integration with Zombie game
-Positional sparring starting from Zombie position with full resistance. Bottom player incorporates Turn to Face alongside other Zombie escapes and attacks, selecting it when appropriate rather than forcing it. Top player uses full passing repertoire. Measures success rate and identifies remaining technical gaps.
+**Phase 4** - Link only verified checkpoints
+Work cooperatively on restore inside frames. Bring the forearms and knees between the bodies as space becomes available. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.
 
 
 
@@ -379,7 +371,7 @@ Positional sparring starting from Zombie position with full resistance. Bottom p
 
 <p class="section-subtitle">What are the safety concerns for Turn to Face from Zombie?</p>
 
-The Turn to Face from Zombie is a relatively low-risk guard recovery technique with no direct joint lock or choke threats. Primary safety concerns involve cervical spine strain if the turn is forced against heavy crossface pressure, as the rotation can create compression on the neck when the opponent's weight drives through the crossface. Practitioners should never force the turn against deep crossface control. Knee strain is possible if the lockdown is maintained at extreme angles during rapid rotation. During drilling, partners should allow controlled rotation and gradually increase resistance to prevent sudden twisting forces on the spine or trapped leg.
+Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
 
 </section>
 

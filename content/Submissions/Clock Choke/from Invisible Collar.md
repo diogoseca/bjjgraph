@@ -4,7 +4,7 @@
 
 ---
 title: "Clock Choke from Invisible Collar | BJJ Submission | BJJ Graph"
-description: "Master the Clock Choke from Invisible Collar with concealed collar grip setup, walking pressure mechanics, and finishing details for gi competition success."
+description: "Clock Choke from Invisible Collar needs a separate turtle exchange. Establish side control of the turtled torso and a gi collar grip before circling."
 ---
 
 
@@ -16,7 +16,7 @@ description: "Master the Clock Choke from Invisible Collar with concealed collar
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Clock Choke from Invisible Collar",
-  "description": "Master the Clock Choke from Invisible Collar with concealed collar grip setup, walking pressure mechanics, and finishing details for gi competition success.",
+  "description": "Clock Choke from Invisible Collar needs a separate turtle exchange. Establish side control of the turtled torso and a gi collar grip before circling.",
   "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
 }
 </script>
@@ -87,7 +87,7 @@ description: "Master the Clock Choke from Invisible Collar with concealed collar
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Clock Choke from Invisible Collar",
-  "description": "The Clock Choke from Invisible Collar is a gi blood choke from back control where a pre-seated, concealed collar grip lets the attacker transition into the clock choke's rotational walking pressure, finishing before the opponent recognizes the threat.",
+  "description": "The Clock Choke is a gi collar choke applied from beside a turtled opponent, using upper-body control and a controlled circling movement to tighten the collar around the neck.",
   "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
 }
 </script>
@@ -97,16 +97,16 @@ description: "Master the Clock Choke from Invisible Collar with concealed collar
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 
-**The Clock Choke from Invisible Collar is a gi blood choke from back control where a pre-seated, concealed collar grip lets the attacker transition into the clock choke's rotational walking pressure, finishing before the opponent recognizes the threat.**
+**The Clock Choke is a gi collar choke applied from beside a turtled opponent, using upper-body control and a controlled circling movement to tighten the collar around the neck.**
 <div class="principle-meta">
 <span class="meta-chip">Choke</span>
-<span class="meta-chip">Blood Choke</span>
-<span class="meta-chip">Targets Carotid arteries and jugular veins</span>
+<span class="meta-chip">Gi collar choke against turtle</span>
+<span class="meta-chip">Targets Neck via jacket-collar tension</span>
 <span class="meta-chip">58% success</span>
 </div>
 
 > [!danger] Safety
-> Clock Choke from Invisible Collar targets the Carotid arteries and jugular veins. Primary risk: Carotid artery compression leading to loss of consciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
+> Clock Choke from Invisible Collar targets the Neck via jacket-collar tension. Primary risk: Neck injury from circling against a fixed head. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -117,11 +117,13 @@ description: "Master the Clock Choke from Invisible Collar with concealed collar
 
 <section id="overview" class="content-section">
 
-The Clock Choke from Invisible Collar combines the deceptive grip concealment of the invisible collar position with the rotational finishing pressure of the clock choke. Unlike the standard clock choke from turtle top where the attacker must first establish a collar grip, this variant begins with the grip already hidden deep in the opponent's lapel from back control. The attacker transitions from concealed collar control into the characteristic circular walking motion, using the pre-established grip depth to generate immediate choking pressure before the opponent recognizes the threat has shifted from positional control to active submission.
+The attacker is on top beside the opponent's turtle, with collar access and control that prevents the shoulders following freely. The facing leg clinch called Invisible Collar is not a turtle collar grip. Establishing top turtle control and a jacket grip is a separate prerequisite.
 
-This variant is particularly effective because the invisible collar grip disguises the clock choke setup as routine back control maintenance. The opponent allocates defensive resources to preventing rear naked chokes and armbar entries, leaving the collar grip unchallenged until walking pressure begins. The transition from invisible collar to clock choke finishing mechanics requires precise timing—the attacker must shift their weight forward and begin the walking arc at the exact moment grip depth is sufficient to generate carotid compression through rotation alone.
+Stay beside the shoulder line with a balanced base rather than climbing onto the neck. Feed the jacket grip across the neck without scraping or compressing the face. Use the second hand and body position to limit the opponent's free shoulder movement. Keep the legs able to circle while avoiding unsupported weight on the partner's head.
 
-In competition, this technique punishes opponents who prioritize hook defense over grip monitoring. The invisible collar establishes choking infrastructure while the opponent focuses on removing hooks or preventing the seat belt switch. When the attacker initiates the clock walk, the choke tightens rapidly because the collar material is already seated against the carotid arteries rather than needing to be drawn across the neck during the walk itself.
+Practice the circling footwork without loaded collar tension. Never drive the partner's weight through the neck or use an abrupt rolling escape.
+
+Instructional sources: [Stephan Kesting — step-by-step clock choke](https://www.grapplearts.com/clock-choke/); [Eddie Bravo — MTS 134 Invisible Collar in Austin](https://www.youtube.com/watch?v=KCyIwacRKu8).
 
 **Starting Position**: [[Positions/Rubber Guard/Invisible Collar]] · **From**: [[Positions/Rubber Guard/Invisible Collar]] (Top)
 
@@ -183,7 +185,7 @@ In competition, this technique punishes opponents who prioritize hook defense ov
 | &nbsp; | Attacker | Defender |
 |--------|----------|----------|
 | **Focus** | Execute and finish | Escape and survive |
-| **Key Principles** | Maintain invisible collar grip depth throughout the transiti... | Monitor the attacker's over-hook hand position constantly fo... |
+| **Key Principles** | Control the turtle: Stay beside the shoulder line with a bal... | Deny collar access: Keep an early hand barrier before the at... |
 | **Options** | 6 execution steps | 3 defensive options |
 
 </section>
@@ -197,51 +199,49 @@ In competition, this technique punishes opponents who prioritize hook defense ov
 ### Key Principles
 
 
-- Maintain invisible collar grip depth throughout the transition from back control to walking position
+- Control the turtle: Stay beside the shoulder line with a balanced base rather than climbing onto the neck.
 
-- Shift weight forward progressively to load the opponent's shoulders before initiating the walk
+- Secure the collar: Feed the jacket grip across the neck without scraping or compressing the face.
 
-- Use the free hand to control the far hip or belt to anchor against the opponent's escape direction
+- Contain the far side: Use the second hand and body position to limit the opponent's free shoulder movement.
 
-- Walk in a tight arc toward the choking side to maximize rotational collar pressure
+- Set a safe base: Keep the legs able to circle while avoiding unsupported weight on the partner's head.
 
-- Keep chest connected to the opponent's upper back during the entire walking sequence
+- Circle in small steps: Let the body angle take slack from the collar, stopping before a neck twist develops.
 
-- Time the walking initiation for when the opponent is focused on hook defense or posture recovery
-
-- Accelerate the walk smoothly rather than jerking to prevent the opponent from recognizing the shift
+- Release the collar: Open the grip and remove upper-body pressure immediately on a tap.
 
 
 ### Execution Steps
 
 
-- **Verify Collar Depth**: Confirm that your invisible collar grip has all four fingers deep inside the lapel with knuckles pre...
+- **Control the turtle**: Stay beside the shoulder line with a balanced base rather than climbing onto the neck....
 
-- **Establish Far Side Anchor**: Reach your free hand across the opponent's back to grip their far hip, belt, or pants waistband. Thi...
+- **Secure the collar**: Feed the jacket grip across the neck without scraping or compressing the face....
 
-- **Remove Hooks and Sprawl**: Disengage your hooks from the opponent's legs and transition your lower body into a sprawl position ...
+- **Contain the far side**: Use the second hand and body position to limit the opponent's free shoulder movement....
 
-- **Initiate Walking Arc**: Begin walking your feet in a tight arc toward the choking side, moving around the opponent's head. E...
+- **Set a safe base**: Keep the legs able to circle while avoiding unsupported weight on the partner's head....
 
-- **Drive Weight Forward and Down**: As you walk past the opponent's head, drive your chest weight forward and down into the mat, flatten...
+- **Circle in small steps**: Let the body angle take slack from the collar, stopping before a neck twist develops....
 
-- **Complete the Choke**: Continue the walking arc until you feel the opponent's body go slack or they tap. Pull your choking ...
+- **Release the collar**: Open the grip and remove upper-body pressure immediately on a tap....
 
 
 ### Common Mistakes
 
 
-- **Initiating the walk before the collar grip has sufficient depth**
-  - Consequence: The choke lacks finishing pressure and the opponent easily strips the shallow grip during the walking motion, losing both the submission and positional advantage
-  - Correction: Verify four-finger depth with knuckles against the neck before removing hooks. If uncertain, continue working the invisible collar grip from back control until depth is confirmed.
+- **Skipping the checkpoint: control the turtle**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Stay beside the shoulder line with a balanced base rather than climbing onto the neck.
+  - Correction: Stay beside the shoulder line with a balanced base rather than climbing onto the neck.
 
-- **Walking too wide an arc instead of staying tight to the opponent's head**
-  - Consequence: Creates space that allows the opponent to sit up, turn, or shoot underneath for a single leg, breaking the choke angle entirely
-  - Correction: Keep your chest connected to the opponent's upper back and walk in the tightest possible arc, with each step driving your hip forward rather than stepping laterally away.
+- **Skipping the checkpoint: secure the collar**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Feed the jacket grip across the neck without scraping or compressing the face.
+  - Correction: Feed the jacket grip across the neck without scraping or compressing the face.
 
-- **Neglecting the far-side anchor grip on hip or belt**
-  - Consequence: Opponent rolls away from the choking pressure freely, escaping to guard or creating enough space to turn and face the attacker
-  - Correction: Establish a firm anchor on the far hip, belt, or pants before beginning the walk. This grip is as important as the collar grip for preventing defensive rolls.
+- **Skipping the checkpoint: contain the far side**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Use the second hand and body position to limit the opponent's free shoulder movement.
+  - Correction: Use the second hand and body position to limit the opponent's free shoulder movement.
 
 
 </section>
@@ -255,43 +255,35 @@ In competition, this technique punishes opponents who prioritize hook defense ov
 ### Key Principles
 
 
-- Monitor the attacker's over-hook hand position constantly for any collar contact during back control
+- Deny collar access: Keep an early hand barrier before the attacker feeds the collar grip.
 
-- Commit both hands to collar grip removal the moment choking pressure is detected
+- Notice the circling base: An attacker beside the turtle starting to walk around the head is changing the choke angle.
 
-- Tuck chin aggressively to limit the collar's ability to seat against the carotid arteries
+- Keep neck alignment: Move shoulders and head together while space remains, rather than twisting under a fixed collar.
 
-- Hip escape away from the choking side to reduce rotational pressure angle
+- Fight the grip early: Create collar slack before attempting to change the entire position.
 
-- Prioritize surviving the choke over maintaining turtle—accept guard recovery as a win
+- Tap when enclosed: Stop promptly if the collar becomes tight; a roll is not a guaranteed late escape.
 
-- Time explosive escape attempts for the moment the attacker removes hooks to begin walking
-
-- Maintain breathing discipline to avoid panic and premature energy expenditure
+- Recover guard after release: Bring the knees and frames back into play once the head and collar are free.
 
 
 ### Recognition Cues
 
 
-- Attacker's over-hook hand migrating from shoulder toward your collar during back control
+- The attacker is on top beside the opponent's turtle, with collar access and control that prevents the shoulders following freely.
 
-- Feeling fingers penetrating inside the gi collar material near your neck while opponent maintains back position
+- Feed the jacket grip across the neck without scraping or compressing the face.
 
-- Attacker beginning to remove hooks and shift weight forward over your shoulders in preparation for walking
-
-- Sudden increase in forward pressure compressing your posture while one hand remains fixed at your collar
-
-- Attacker's free hand reaching across to grip your far hip or belt, establishing the anchor for walking motion
+- Keep the legs able to circle while avoiding unsupported weight on the partner's head.
 
 
 ### Escape Paths
 
 
-- Two-handed grip strip to collar removal, then standard back escape to half guard or turtle recovery
+- An attacker beside the turtle starting to walk around the head is changing the choke angle.
 
-- Sit-out during hook removal transition to face opponent, recover to seated guard or clinch
-
-- Roll toward choking side to break walking angle, recover closed guard from bottom position
+- Move shoulders and head together while space remains, rather than twisting under a fixed collar.
 
 
 </section>
@@ -311,14 +303,9 @@ In competition, this technique punishes opponents who prioritize hook defense ov
 <section id="related" class="content-section">
 
 ## Related
-- [[Transitions/Clock Choke]]
 - [[Submissions/Bow and Arrow Choke]]
 - [[Submissions/Cross Collar Choke]]
-- [[Submissions/Darce Choke]]
-- [[Submissions/Breadcutter Choke]]
-- [[Positions/Rubber Guard/Invisible Collar]] - Starting position providing concealed collar grip for this submission
-- [[Positions/Back Control]] - Parent control position from which invisible collar is established
-- [[Positions/Turtle]] - Common opponent position during clock choke application
+- [[Submissions/Rear Naked Choke]]
 
 </section>
 
@@ -330,32 +317,28 @@ In competition, this technique punishes opponents who prioritize hook defense ov
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
-| Carotid artery compression leading to loss of consciousness | High | Immediate recovery if released promptly; potential for serious injury if held after unconsciousness |
-| Neck strain or cervical spine stress from rotational pressure | Medium | 3-7 days for minor strains; 2-4 weeks for more severe cases |
-| Jaw or temporomandibular joint (TMJ) compression | Medium | 1-2 weeks for minor discomfort; longer for existing TMJ issues |
+| Neck injury from circling against a fixed head | High | Variable; stop training and seek appropriate clinical assessment after an injury or concerning symptoms. |
+| Loss of consciousness or serious harm from continued collar choking | CRITICAL | Variable; stop training and seek appropriate clinical assessment after an injury or concerning symptoms. |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum to allow partner to recognize the choke and tap
+**Application Speed**: Practice the circling footwork without loaded collar tension. Never drive the partner's weight through the neck or use an abrupt rolling escape. No fixed number of seconds makes a locked submission safe.
 
 **Tap Signals**:
-- Verbal tap or verbal submission signal
-- Physical hand tap on attacker's body or mat
-- Physical foot tap on mat
-- Any rapid or frantic movement indicating distress
+- Repeated hand taps anywhere the partner can feel them
+- A clear verbal tap or stop, including when the hands are trapped
+- Foot taps or any agreed stop signal; release immediately if normal responsiveness changes
 
 
 **Release Protocol**:
-1. Immediately release the lapel grip upon receiving tap signal
-2. Remove your weight from opponent's back and create space
-3. Allow partner to recover in a neutral position without pressure
-4. Check on partner's condition before continuing training
+1. Open the finishing grip immediately at the first signal; do not wait for repeated confirmation
+2. Remove the leg, arm or body restraint without forcing the captured joint or neck through another movement
+3. Check the partner can respond normally and allow a safe reset; end practice and obtain help if there is an injury or concerning symptom
 
 
 **Training Restrictions**:
-- Never apply the choke rapidly or explosively in training
-- Never maintain pressure after partner taps or shows distress
-- Always ensure partner has clear access to tap with hands or feet
-- Avoid training this technique with partners who have neck injuries or cardiovascular conditions
+- Start with supervised, cooperative control-and-release drilling rather than a loaded finish
+- Check the event's current rules for the specific age, experience and clothing division before live use
+- Practice the circling footwork without loaded collar tension. Never drive the partner's weight through the neck or use an abrupt rolling escape.
 
 
 </section>

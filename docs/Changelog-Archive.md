@@ -29,6 +29,8 @@ people actually arrive here. Index A answers *"what shipped in vN?"*.
 
 ## Index A — by version
 
+- **v1.227.3** — [Node identities and their real mechanics](#v12273--node-identities-and-their-real-mechanics)
+
 - **v1.227.1** — [A lean reading vault and scoped content provenance](#v12271--a-lean-reading-vault-and-scoped-content-provenance)
 - **v1.227.0** — [Calm defending arrivals and one land card](#v12270--calm-defending-arrivals-and-one-land-card)
 - **v1.227.0 review** — [Defending review corrections](#v12270--defending-review-corrections)
@@ -11059,3 +11061,53 @@ existing version normalization. The receipt-bound re-seed changes metadata only:
 6,412 inputs become 6,401, Markdown stays 4,601, and both dirty-path lists are empty.
 The integrated payload passes at 346,317 B eager gzip (+3,319 B against the 342,998 B
 checkpoint, within its 5,000 B cap) and 480,054 B deferred raw (500,000 B ceiling).
+
+## v1.227.3 — Node identities and their real mechanics
+
+Primary instructor material corrects 87 named records whose prose described a different
+technique, including rubber-guard controls, Aoki Lock, Suloev Stretch and Hindulotine.
+Role instructions, flashcards, safety and descriptions follow the actual technique;
+unsupported graph origins are explained as missing prerequisites. A narrow Half Guard
+overview addendum preserves its real calf-slicer coverage. IDs, slugs, clips, ordered
+destinations, probabilities, permanent ordinals, position_type and risk_level stay fixed.
+Categorical and route corrections remain a separate owner proposal.
+
+The first description pass introduced 43 duplicate groups. Technique, origin and role
+context remove every new collision: distinct descriptions rise 4,563 → 4,567; retained
+sharing is confined to 88 existing HTML/index aliases. The own-build article-link delta
+is −1,364, including −398 across 87 hub folder copies and −966 on other routes. The
+orchestrator moved identity ahead of clip curation's review hold: its capture base is
+obsidian dev 45cf1f9e1, with 213,116 article links. The guarded count of 211,752 clears the current
+200,000 tier-0 and 195,944 payload floors by 11,752 and 15,808. The earlier post-curation
+projection of about 197,886 and D-304's future floors do not apply to this capture.
+Identity changes no payload or tier-0 floor. The guarded capture confirms the own-build
+count deltas: −208 headings, −1,364 article links and −208 outside links. Both Learning
+tag listings are exactly equal to BASE under preserved p2b stamps; the own-build order
+change was a filesystem-date artifact and is not re-seeded.
+
+Rewritten defensive prose changes 57 content-derived MDP response IDs across 15 attempts.
+An attempt/index mapping leaves every other mechanical field, ordered destination and
+number identical. Exact production-solver comparisons cover 13,222 GI and 11,882 no-gi
+states with identical returned values. No persisted, synced or shared key uses those IDs.
+The manifest and its four embedding app rows change as content provenance; the MDP
+directory remains the exact 66-file referenced closure without stale generation.
+
+The concepts sample exposed systematic wording omissions, so all 518 original removals
+were reviewed individually against the technique. Truthful prose restores 356 omissions;
+18 incidental keyword/origin restorations are disclosed separately; 144 correct removals
+remain. The fresh random sample found 19 correct removals and one omission, which was
+then repaired. Final memberships are 75,684 → 75,602: 144 removed, 62 added, all 206 changes
+keyword-attributed. The matcher is unchanged. Negation and inherited origin keywords
+remain known limits, not claims that every matching principle applies to the technique.
+
+Escape f006d73b8 and obsidian 45cf1f9e1 are merged without rebasing before capture.
+D-309 confirms BASE/PREMERGE 45cf1f9e1 and CANDIDATE/TOOLS a2939ad77. The guarded
+pr-node-identities-a2939ad77 capture is production-accepted; all 6,407 tracked content
+stamps survive cleanup, and checkout changes stamps only on Git-changed paths. The
+accepted retained output matches every declared census, description, app, MDP, concepts
+and SEO movement. No other movement is re-seeded. The census and SEO baselines bind
+that actual receipt; only the two Positions summary SEO rows change, with stronger
+text floors. All 37 corpus-census literals stay fixed. Eager gzip is 346,243 B and
+deferred raw is 480,054 B, within the unchanged allowances. The capture runs no
+source rewrite or graph/categorical correction. Existing archive entries and the
+approved 913,038-character ceiling remain unchanged.

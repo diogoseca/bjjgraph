@@ -4,7 +4,7 @@
 
 ---
 title: "Posture Recovery from Zombie | BJJ Technique | BJJ Graph"
-description: "Learn to recover posture from the Zombie lockdown position in BJJ. Systematic approach to breaking lockdown control, re-establishing base, and advancing to side control."
+description: "Defending Zombie restores an inside hand and elbow before the knee hug closes. Posture recovery addresses rubber guard rather than a lower-leg lockdown."
 ---
 
 
@@ -16,7 +16,7 @@ description: "Learn to recover posture from the Zombie lockdown position in BJJ.
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Posture Recovery from Zombie",
-  "description": "Learn to recover posture from the Zombie lockdown position in BJJ. Systematic approach to breaking lockdown control, re-establishing base, and advancing to side control.",
+  "description": "Defending Zombie restores an inside hand and elbow before the knee hug closes. Posture recovery addresses rubber guard rather than a lower-leg lockdown.",
   "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
 }
 </script>
@@ -87,7 +87,7 @@ description: "Learn to recover posture from the Zombie lockdown position in BJJ.
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Posture Recovery from Zombie",
-  "description": "Posture Recovery from Zombie is the Zombie-top player's systematic sequence for defeating 10th Planet lockdown control—layering crossface, whizzer, and forward hip pressure—to rebuild broken posture and open a path to side control.",
+  "description": "Posture recovery against Zombie prevents the arm-clearing pummel, restores an inside elbow and reduces the high-leg posture connection.",
   "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
 }
 </script>
@@ -105,13 +105,15 @@ description: "Learn to recover posture from the Zombie lockdown position in BJJ.
 
 <section id="overview" class="content-section">
 
-**Posture Recovery from Zombie is the Zombie-top player's systematic sequence for defeating 10th Planet lockdown control—layering crossface, whizzer, and forward hip pressure—to rebuild broken posture and open a path to side control.**
+**Posture recovery against Zombie prevents the arm-clearing pummel, restores an inside elbow and reduces the high-leg posture connection.**
 
-Few positions stall a top passer like the 10th Planet Zombie, where the bottom player fuses lockdown leg tension with an underhook and head control to keep the passer bent forward and structurally compromised. Before any passing sequence becomes viable, the top player must systematically re-establish structural integrity against these layered controls. This recovery represents the essential first step in defeating the Zombie system from top position.
+The top player faces a bottom guard player using Zombie; the head, shoulder or arm may still be enclosed. Zombie is not a lower-leg lockdown. Whether half guard or closed guard remains depends on a separate leg exchange.
 
-The recovery process requires a methodical approach combining crossface pressure, strategic weight distribution, and gradual spine extension to overcome the bottom player's pulling forces. Unlike simple posture recovery from closed guard, the lockdown adds significant mechanical resistance that prevents the top player from simply sitting upright. The trapped leg creates a fulcrum that the bottom player exploits to maintain broken posture, requiring the top player to address both upper body control and lower body extraction simultaneously.
+Keep a useful forearm between the bodies before the bottom player gains the hand-clearing path. Move the whole arm rather than leaving the wrist exposed while the elbow remains fixed. Keep a balanced base and early inside frames; tap instead of moving against a completed choke or joint lock.
 
-Success in this transition directly enables the top player to begin passing sequences toward side control, while failure leaves them vulnerable to sweeps, submissions, and continued positional stagnation. The technique exemplifies the importance of systematic positional recovery in BJJ, where rushing the process exposes the top player to the bottom player's strongest counterattacks including the Old School Sweep and Electric Chair submission.
+Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
+
+Instructional sources: [Ben Eddy — the Zombie pummel](https://www.youtube.com/watch?v=JzSxFvNA5Uo); [Brandon McCaghren — Gogoplata from rubber guard](https://www.youtube.com/watch?v=wn39-wrfsbs).
 
 **From Position**: [[Positions/Rubber Guard/Zombie]] (Top)
 **Success Rate**: 48%
@@ -174,8 +176,8 @@ Success in this transition directly enables the top player to begin passing sequ
 | &nbsp; | Attacker | Defender |
 |--------|----------|----------|
 | **Focus** | Execute technique | Prevent or counter |
-| **Key Principles** | Address upper body control first by establishing crossface o... | Maintain active lockdown tension throughout, increasing stre... |
-| **Options** | 8 execution steps | 4 defensive options |
+| **Key Principles** | Recognize the upper-body trap: Keep a useful forearm between... | Keep Mission Control: Maintain posture control while freeing... |
+| **Options** | 6 execution steps | 4 defensive options |
 
 </section>
 
@@ -188,53 +190,49 @@ Success in this transition directly enables the top player to begin passing sequ
 ### Key Principles
 
 
-- Address upper body control first by establishing crossface or whizzer before attempting to free the trapped leg from lockdown
+- Recognize the upper-body trap: Keep a useful forearm between the bodies before the bottom player gains the hand-clearing path.
 
-- Drive weight forward through hips and chest rather than pulling backward, which plays into the lockdown's designed resistance angle
+- Protect the captured limb: Move the whole arm rather than leaving the wrist exposed while the elbow remains fixed.
 
-- Use skeletal alignment and gravity rather than muscular force to overcome lockdown tension during posture recovery
+- Work before pressure engages: Keep a balanced base and early inside frames; tap instead of moving against a completed choke or joint lock.
 
-- Maintain constant pressure on the opponent's upper body to prevent them from adjusting grips or initiating sweeps during recovery
+- Open the high enclosure: Create slack at the hip and thigh while keeping the head and captured arm aligned.
 
-- Time the final posture extension with a moment when the opponent's lockdown tension is at its weakest point in their breathing cycle
+- Recover the elbow and posture: Withdraw the shoulder and elbow only after the high leg connection has opened.
 
-- Keep the free leg posted wide throughout recovery to maintain base against sweep attempts that exploit your transitional instability
+- Confirm the next position: Establish a stable base facing the guard player only when the upper-body enclosure and relevant leg hooks have cleared.
 
 
 ### Execution Steps
 
 
-- **Establish crossface control**: Drive your forearm across the opponent's jaw and neck on the side of their underhook, turning their ...
+- **Recognize the upper-body trap**: Keep a useful forearm between the bodies before the bottom player gains the hand-clearing path....
 
-- **Neutralize the underhook**: Thread your arm over the opponent's underhook arm to establish a whizzer or overhook. Drive your elb...
+- **Protect the captured limb**: Move the whole arm rather than leaving the wrist exposed while the elbow remains fixed....
 
-- **Drive weight forward and low**: Shift your bodyweight forward through your hips and chest, pressing heavily into the opponent's uppe...
+- **Work before pressure engages**: Keep a balanced base and early inside frames; tap instead of moving against a completed choke or joi...
 
-- **Post free leg wide for base**: Step your free leg out wide at approximately 45 degrees from your body, creating a tripod base that ...
+- **Open the high enclosure**: Create slack at the hip and thigh while keeping the head and captured arm aligned....
 
-- **Gradually extend spine upward**: While maintaining forward pressure through your chest and crossface, begin straightening your spine ...
+- **Recover the elbow and posture**: Withdraw the shoulder and elbow only after the high leg connection has opened....
 
-- **Break lockdown tension through hip pressure**: With your posture partially recovered, drive your trapped-side hip downward into the mat while maint...
-
-- **Extract trapped leg or initiate pass**: Once posture is sufficiently recovered and lockdown tension is reduced, either work to fully extract...
-
-- **Consolidate passing position**: As you complete the pass or leg extraction, immediately drive your chest into the opponent's upper b...
+- **Confirm the next position**: Establish a stable base facing the guard player only when the upper-body enclosure and relevant leg ...
 
 
 ### Common Mistakes
 
 
-- **Attempting to recover posture by pulling backward explosively against the lockdown**
-  - Consequence: The lockdown is specifically designed to resist backward pulling. Explosive backward movement wastes energy, fails to break the grip, and creates momentum the opponent can redirect into sweep attempts.
-  - Correction: Drive weight forward and down first to change the angle of force, then gradually extend the spine upward. Work with gravity rather than against the lockdown's designed resistance vector.
+- **Skipping the checkpoint: recognize the upper-body trap**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Keep a useful forearm between the bodies before the bottom player gains the hand-clearing path.
+  - Correction: Keep a useful forearm between the bodies before the bottom player gains the hand-clearing path.
 
-- **Neglecting crossface control before attempting posture recovery**
-  - Consequence: Without crossface, the opponent maintains full head mobility and can adjust their pulling angle to counter every recovery attempt. Their underhook remains at full power, keeping you broken down indefinitely.
-  - Correction: Always establish crossface or whizzer control as the very first step. Upper body control is the foundation that makes all subsequent recovery steps possible.
+- **Skipping the checkpoint: protect the captured limb**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Move the whole arm rather than leaving the wrist exposed while the elbow remains fixed.
+  - Correction: Move the whole arm rather than leaving the wrist exposed while the elbow remains fixed.
 
-- **Keeping the free leg tucked close instead of posting wide for base**
-  - Consequence: A narrow base makes you extremely vulnerable to the Old School Sweep and other lateral sweep attempts that the opponent will launch the moment you begin recovery.
-  - Correction: Post the free leg wide at 45 degrees from your body immediately upon beginning recovery. This creates a stable tripod that absorbs lateral forces and maintains your base throughout the transition.
+- **Skipping the checkpoint: work before pressure engages**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Keep a balanced base and early inside frames; tap instead of moving against a completed choke or joint lock.
+  - Correction: Keep a balanced base and early inside frames; tap instead of moving against a completed choke or joint lock.
 
 
 </section>
@@ -248,41 +246,37 @@ Success in this transition directly enables the top player to begin passing sequ
 ### Key Principles
 
 
-- Maintain active lockdown tension throughout, increasing stretch pressure the moment you feel the top player attempting to extend their spine
+- Keep Mission Control: Maintain posture control while freeing the other arm for the pummel.
 
-- Use the underhook aggressively to pull the opponent's upper body toward you, countering their crossface and forward drive
+- Find inside space: Work through the opening near the hand rather than forcing a tightly clamped elbow straight outward.
 
-- Threaten Old School Sweep and Electric Chair transitions during recovery attempts to force the top player to abandon recovery and defend
+- Move the hand to the mat: Guide the wrist and forearm through the available space without bending individual fingers.
 
-- Stay on your side rather than allowing yourself to be flattened, as lateral positioning preserves your offensive options and lockdown power
+- Prevent the return pummel: Cover the cleared arm and close the knee hug as the hand reaches the mat.
 
-- Time your counter-attacks to coincide with the top player's weight shifts during recovery when their base is most compromised
+- Recognize New York: Once the arm is isolated, maintain that new control instead of repeatedly treating Zombie as a separate leg entanglement.
 
-- Maintain chest-to-chest connection as long as possible, as distance between your chest and theirs signals the beginning of successful recovery
+- Reset a blocked attempt: Keep a safe guard and look for another opening when the opponent maintains inside frames.
 
 
 ### Recognition Cues
 
 
-- Top player drives forearm across your jaw attempting to establish crossface control and turn your head away
+- The top player faces a bottom guard player using Zombie; the head, shoulder or arm may still be enclosed.
 
-- Top player's weight shifts forward and down rather than settling neutral, indicating preparation for spine extension
+- Move the whole arm rather than leaving the wrist exposed while the elbow remains fixed.
 
-- Top player's free leg begins posting wider than normal, creating a tripod base to support recovery attempts
-
-- Top player threads arm over your underhook attempting whizzer or overhook to neutralize your pulling control
-
-- You feel reduced lockdown tension as top player drives hips down to compress the space your lockdown needs
+- Create slack at the hip and thigh while keeping the head and captured arm aligned.
 
 
 ### Defensive Options
 
 
-- **Increase lockdown stretch and initiate Old School Sweep** - When: When you feel the top player beginning to extend their spine or post their free leg wide, indicating the start of posture recovery
+- **Maintain posture control while freeing the other arm for the pummel.** - When: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
 
-- **Deepen underhook and pull opponent's chest to yours while tightening lockdown** - When: When the top player first begins establishing crossface, before they have settled their weight forward
+- **Work through the opening near the hand rather than forcing a tightly clamped elbow straight outward.** - When: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
 
-- **Release lockdown and shoot hips back to recover closed guard** - When: When you feel the lockdown losing effectiveness and the opponent's posture recovery is well advanced, making continued lockdown defense futile
+- **Guide the wrist and forearm through the available space without bending individual fingers.** - When: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
 
 
 </section>
@@ -293,13 +287,10 @@ Success in this transition directly enables the top player to begin passing sequ
 ## Variations
 
 
-**Whizzer-Based Posture Recovery**: Uses a deep whizzer on the opponent's underhook arm to neutralize their pulling power before driving hips back to re-establish posture. The whizzer creates a counter-lever against the underhook, reducing the force pulling you down. (When to use: When the opponent has a deep underhook that is the primary mechanism breaking your posture and you cannot establish crossface control first)
+**Cooperative checkpoint drill**: Keep a useful forearm between the bodies before the bottom player gains the hand-clearing path. Move the whole arm rather than leaving the wrist exposed while the elbow remains fixed. (When to use: Learning the control without submission pressure)
 
 
-**Backstep Posture Recovery**: Instead of driving forward, the top player backsteps the free leg wide and uses rotational movement to break the lockdown angle. This changes the plane of force from linear to rotational, defeating the lockdown's pulling mechanics. (When to use: When the lockdown tension is too strong to overcome with direct forward pressure and the opponent's pulling angle prevents standard recovery)
-
-
-**Swim-Through Recovery**: The top player swims their trapped-side arm under the opponent's controlling arm, transitioning from an inferior grip position to crossface control in one fluid motion while simultaneously driving weight forward to recover posture. (When to use: When the opponent has established dominant upper body grips that prevent standard crossface establishment and you need to change the grip dynamic)
+**Response and reset drill**: Maintain posture control while freeing the other arm for the pummel. Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route. (When to use: Adding one early response after both partners recognize the configuration)
 
 
 
@@ -311,7 +302,7 @@ Success in this transition directly enables the top player to begin passing sequ
 
 ## Position Integration
 
-Posture Recovery from Zombie occupies a pivotal role in the half guard passing hierarchy, serving as the mandatory first step before any passing technique becomes viable against the Zombie lockdown system. This transition connects the defensive reality of having posture broken in Zombie Top to the offensive possibilities of half guard passing, bridging the gap between survival and advancement. Understanding this recovery is essential for any practitioner who faces 10th Planet or lockdown-heavy guard players, as it provides the foundation for all subsequent passing chains including crossface passes, knee slices, and leg weave sequences. The technique also teaches broader principles of posture recovery under tension that transfer to closed guard top, deep half guard defense, and any position where the bottom player uses leg entanglement to control the top player's spine alignment.
+The top player faces a bottom guard player using Zombie; the head, shoulder or arm may still be enclosed. Zombie is not a lower-leg lockdown. Whether half guard or closed guard remains depends on a separate leg exchange. A destination is established by its actual body configuration, not by completing an isolated grip or by the name of the route.
 
 </section>
 
@@ -321,27 +312,13 @@ Posture Recovery from Zombie occupies a pivotal role in the half guard passing h
 ## Related Techniques
 
 
-- [[Positions/Rubber Guard/Zombie]] - Source position where posture has been broken by bottom player's lockdown system
+- [[Positions/Rubber Guard/Mission Control]] - Related configuration; establish its own prerequisites: compare the configuration and required controls for Mission Control.
 
-- [[Positions/Half Guard/Lockdown]] - Core defensive mechanic that must be overcome during posture recovery
+- [[Positions/Rubber Guard/New York]] - Related configuration; establish its own prerequisites: compare the configuration and required controls for New York.
 
-- [[Positions/Side Control]] - Primary target position after successful posture recovery enables passing
+- [[Positions/Rubber Guard]] - Related configuration; establish its own prerequisites: compare the configuration and required controls for Rubber Guard.
 
-- [[Positions/Closed Guard]] - Counter outcome when bottom player re-establishes full guard during recovery attempt
-
-- [[Positions/Half Guard]] - Parent position family containing the Zombie as a specialized variant
-
-- [[Positions/Half Guard/Deep Half Guard]] - Alternative position bottom player may transition to during recovery attempts
-
-- [[Positions/Combat Base]] - Related posture concept for maintaining structural integrity from top position
-
-- [[Positions/Rubber Guard/Mission Control]] - Related 10th Planet control position sharing lockdown-based mechanics
-
-- [[Positions/Rubber Guard]] - Connected 10th Planet system where similar posture recovery principles apply
-
-- [[Positions/Half Guard/Electric Chair]] - Primary submission threat if posture recovery is executed poorly
-
-- [[Positions/Back Control]] - Worst-case outcome if recovery fails and opponent achieves back exposure
+- [[Positions/Dead Orchard Control]] - Related configuration; establish its own prerequisites: compare the configuration and required controls for Dead Orchard Control.
 
 
 </section>
