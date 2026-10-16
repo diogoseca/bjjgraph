@@ -36,27 +36,6 @@ description: "Complete guide to the North-South Choke from Kesa Gatame in BJJ. D
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "North-South Choke from Kesa Gatame \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Marcelo Garcia - North South Choke",
-      "description": "North-South Choke from Kesa Gatame film study: Marcelo Garcia - North South Choke.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/z3RNUfHfiSM/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/z3RNUfHfiSM",
-      "url": "https://www.youtube.com/watch?v=z3RNUfHfiSM",
-      "duration": "PT20S"
-    }
-  ]
-}
-</script>
-
 
 
 <script type="application/ld+json">
@@ -104,24 +83,6 @@ Strategically, this technique functions as a high-percentage chain from Kesa Gat
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch North-South Choke from Kesa Gatame in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=z3RNUfHfiSM)
-
-<p class="clip-credit"><strong>Marcelo Garcia - North South Choke</strong> · 0:20 · <a href="https://www.youtube.com/watch?v=z3RNUfHfiSM" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="outcomes" class="content-section">

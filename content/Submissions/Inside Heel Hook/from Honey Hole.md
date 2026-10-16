@@ -62,16 +62,6 @@ description: "Master the Inside Heel Hook from Honey Hole in BJJ. Complete guide
       "embedUrl": "https://www.youtube.com/embed/3KAO2Ck4HRg",
       "url": "https://www.youtube.com/watch?v=3KAO2Ck4HRg",
       "duration": "PT52S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Craig Jones Backside 50/50 inside Heel hook finish #short #bjj #footlock",
-      "description": "Inside Heel Hook from Honey Hole film study: Craig Jones Backside 50/50 inside Heel hook finish #short #bjj #footlock.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/sIYeSMSkqeE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/sIYeSMSkqeE",
-      "url": "https://www.youtube.com/watch?v=sIYeSMSkqeE",
-      "duration": "PT18S"
     }
   ]
 }
@@ -145,14 +135,6 @@ This submission demands absolute safety awareness. The rotational force attacks 
 ![](https://www.youtube.com/watch?v=3KAO2Ck4HRg)
 
 <p class="clip-credit"><strong>Move of the Day: Bow and Arrow to Kneebar, Honey hole heel hook or reverse heel…</strong> · 0:52 · <a href="https://www.youtube.com/watch?v=3KAO2Ck4HRg" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=sIYeSMSkqeE)
-
-<p class="clip-credit"><strong>Craig Jones Backside 50/50 inside Heel hook finish #short #bjj #footlock</strong> · 0:18 · <a href="https://www.youtube.com/watch?v=sIYeSMSkqeE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

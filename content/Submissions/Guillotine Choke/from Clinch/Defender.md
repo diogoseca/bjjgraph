@@ -168,16 +168,6 @@ description: "Defend and escape the Guillotine Choke from Clinch in BJJ. Recogni
       "embedUrl": "https://www.youtube.com/embed/I0aWHdgbJzI",
       "url": "https://www.youtube.com/watch?v=I0aWHdgbJzI",
       "duration": "PT19S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Best Way to Defend Guillotine Choke (MMA). Miesha Tate vs Raquel Pennington",
-      "description": "Guillotine Choke from Clinch (Defender) film study: Best Way to Defend Guillotine Choke (MMA). Miesha Tate vs Raquel Pennington.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/3aSFiPLqXmo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/3aSFiPLqXmo",
-      "url": "https://www.youtube.com/watch?v=3aSFiPLqXmo",
-      "duration": "PT25S"
     }
   ]
 }
@@ -211,14 +201,6 @@ The defensive hierarchy follows three priorities in strict order: first, protect
 ![](https://www.youtube.com/watch?v=I0aWHdgbJzI)
 
 <p class="clip-credit"><strong>Mark Hatmaker Demos a Standing Guillotine Beat, Phase 3</strong> · 0:19 · <a href="https://www.youtube.com/watch?v=I0aWHdgbJzI" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=3aSFiPLqXmo)
-
-<p class="clip-credit"><strong>Best Way to Defend Guillotine Choke (MMA). Miesha Tate vs Raquel Pennington</strong> · 0:25 · <a href="https://www.youtube.com/watch?v=3aSFiPLqXmo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

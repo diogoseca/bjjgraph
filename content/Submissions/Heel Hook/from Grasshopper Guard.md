@@ -56,16 +56,6 @@ description: "Master the heel hook from grasshopper guard with inverted entry me
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "K-Guard Inversions to 50/50 Inside Heel Hooks - Joao Miyao, Jason Rau, Lachlan\u2026",
-      "description": "Heel Hook from Grasshopper Guard film study: K-Guard Inversions to 50/50 Inside Heel Hooks - Joao Miyao, Jason Rau, Lachlan\u2026.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/X6KPR3Nt2bA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/X6KPR3Nt2bA",
-      "url": "https://www.youtube.com/watch?v=X6KPR3Nt2bA",
-      "duration": "PT99S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
       "name": "Lachlan Giles shows how to use hips and get inverted heel hook",
       "description": "Heel Hook from Grasshopper Guard film study: Lachlan Giles shows how to use hips and get inverted heel hook.",
       "thumbnailUrl": "https://i.ytimg.com/vi/S8ZH_9F18jw/hqdefault.jpg",
@@ -137,14 +127,6 @@ Strategically, this submission functions best within a broader grasshopper guard
 ![](https://www.youtube.com/watch?v=ieR8CJ1EUM8)
 
 <p class="clip-credit"><strong>K Guard 50/50 Entry into Inside Heelhook Finish</strong> · 0:14 · <a href="https://www.youtube.com/watch?v=ieR8CJ1EUM8" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=X6KPR3Nt2bA)
-
-<p class="clip-credit"><strong>K-Guard Inversions to 50/50 Inside Heel Hooks - Joao Miyao, Jason Rau, Lachlan…</strong> · 1:39 · <a href="https://www.youtube.com/watch?v=X6KPR3Nt2bA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

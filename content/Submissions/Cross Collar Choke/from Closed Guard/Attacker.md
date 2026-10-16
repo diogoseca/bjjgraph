@@ -204,16 +204,6 @@ description: "Learn to execute the cross collar choke from closed guard with dee
       "embedUrl": "https://www.youtube.com/embed/X93MdMlmrUg",
       "url": "https://www.youtube.com/watch?v=X93MdMlmrUg",
       "duration": "PT77S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Roger Gracie | CROSS COLLAR CHOKES",
-      "description": "Cross Collar Choke from Closed Guard (Attacker) film study: Roger Gracie | CROSS COLLAR CHOKES.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/dfP-Ov8FBUo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/dfP-Ov8FBUo",
-      "url": "https://www.youtube.com/watch?v=dfP-Ov8FBUo",
-      "duration": "PT80S"
     }
   ]
 }
@@ -253,14 +243,6 @@ Executing the cross collar choke from closed guard requires establishing a deep 
 ![](https://www.youtube.com/watch?v=X93MdMlmrUg)
 
 <p class="clip-credit"><strong>The ONE THING that makes your cross collar choke EASY</strong> · 1:17 · <a href="https://www.youtube.com/watch?v=X93MdMlmrUg" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=dfP-Ov8FBUo)
-
-<p class="clip-credit"><strong>Roger Gracie | CROSS COLLAR CHOKES</strong> · 1:20 · <a href="https://www.youtube.com/watch?v=dfP-Ov8FBUo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

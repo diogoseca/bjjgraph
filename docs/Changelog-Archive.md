@@ -11172,7 +11172,7 @@ The knee-cut lesson remains on Knee Slice Pass. The 101-second Saddle heel-hook 
 retains its recorded complete-lesson exception after the existing five storyboard sheets
 were read; its optional merchandise-support footer is disclosed, not described as absent.
 
-Across 1,683 authored JSON files, the final clip changes affect 1,352 files and 2,732 arrays.
+At the D-307 checkpoint, the clip changes affect 1,352 of 1,683 JSON files and 2,732 arrays.
 Placements change from 8,078 to 2,917: 5,449 removed and 288 added, net -5,161. There are
 1,046 marked fronts: 106 position halves, 351 submission halves and 589 transition halves.
 The remaining 1,850 of 2,896 halves are 1,558 active empty gaps, 66 active arrays with
@@ -11237,3 +11237,37 @@ below the 2% reset threshold. Integrated eager gzip remains 346,318 B (+3,320 ag
 publication-date health and all 41 tests across defending-arrivals, defending-landing and
 reading-contract pass with zero retries. Capture acceptance does not claim a full CI or
 independent-review pass; those gate the corrected PR separately.
+
+D-313 supersedes that capture for the final tree. All 606 applied restorations receive a
+cached-only raw-footage screen: 34 occurrences across 15 IDs have concrete performance,
+featured-finish, compilation or training-practice signals without established teaching.
+They are withheld, including the six Marcelo Garcia north-south finishes and the Lachlan
+Giles heel-hook competition reel. Three contrary front findings are explicitly withheld;
+no replacement is promoted. Missing descriptions, short duration and athlete attribution
+alone are not exclusions, and no absence-of-narration claim is made from sampled stills.
+
+The fresh, pre-seeded 20-occurrence QC is drawn once from the 572 remaining restorations.
+It finds no further raw-footage weakness and one definite role error: Straight Ankle Lock
+Control bottom is authored as the attacker, while its restored lesson teaches the defender.
+Only that occurrence is removed, separately from the raw-footage holds. The measured rate
+stays 1/20 (5%); the sample is not redrawn after correction. The final 571 restorations leave
+2,882 references and 1,042 fronts: 105 position, 348 submission and 589 transition halves.
+There are 1,563 active empty halves, 65 unmarked nonempty halves and 226 held roles. All 56
+held hubs and five whole owner files remain byte-exact. Against the original 8,078 references,
+5,484 are removed and 288 added; non-clips values and the four-item cap remain unchanged.
+
+B4 now waits for positive publication of the exact real Kuzure-Kesa-to-Kesa dossier and
+completion of its actual content refresh before the empty-film assertions. All old empty
+IDs, zero film/clip, key, four-card, pressure and vignette assertions remain. Ten repeats
+pass; the delayed one-clip control crosses the positive barrier and fails on its wrong ID.
+The duplicate date-contract test now reads the already-authorized D-308 modified policy:
+0.95 share, 16 distinct days and a 104-day span, strengthening its former 12-day/30-day minima.
+All nine focused date tests pass, including the real retained golden census; the historical
+build-clock fixture still fails all three spread checks. Published policy is unchanged.
+
+The separate reduced-motion CI assertion also had a scheduling race: its simulation-clock
+advance did not wait for the browser media-change callback. Natural base/head runs each
+pass 20 repeats; delayed real callback delivery reproduces the immediate-assert failure
+on both. Waiting for the visible suppression/restoration passes five delayed repeats,
+while removing the actual listener fails the repaired suppression check. Timer, saved
+setting, pressure and gameplay assertions remain; no app change, sleep or retry is added.

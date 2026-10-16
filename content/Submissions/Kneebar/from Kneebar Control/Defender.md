@@ -172,16 +172,6 @@ description: "Defend against the kneebar from kneebar control position. Recognit
       "embedUrl": "https://www.youtube.com/embed/hze1WyTvkzA",
       "url": "https://www.youtube.com/watch?v=hze1WyTvkzA",
       "duration": "PT24S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Crazy Kneebar Defense From AJ Agazarm against Garry Tonon",
-      "description": "Kneebar from Kneebar Control (Defender) film study: Crazy Kneebar Defense From AJ Agazarm against Garry Tonon.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/kUuJ03CcIUQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/kUuJ03CcIUQ",
-      "url": "https://www.youtube.com/watch?v=kUuJ03CcIUQ",
-      "duration": "PT23S"
     }
   ]
 }
@@ -221,14 +211,6 @@ Defending against the kneebar from kneebar control demands immediate recognition
 ![](https://www.youtube.com/watch?v=hze1WyTvkzA)
 
 <p class="clip-credit"><strong>Defending Kneebar To Toe Hold</strong> · 0:24 · <a href="https://www.youtube.com/watch?v=hze1WyTvkzA" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=kUuJ03CcIUQ)
-
-<p class="clip-credit"><strong>Crazy Kneebar Defense From AJ Agazarm against Garry Tonon</strong> · 0:23 · <a href="https://www.youtube.com/watch?v=kUuJ03CcIUQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

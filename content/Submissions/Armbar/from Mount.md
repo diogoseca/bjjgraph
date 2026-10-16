@@ -72,16 +72,6 @@ description: "Master Armbar from Mount in BJJ. Complete safety protocols, setup,
       "embedUrl": "https://www.youtube.com/embed/4COgR6PfQW0",
       "url": "https://www.youtube.com/watch?v=4COgR6PfQW0",
       "duration": "PT91S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 4,
-      "name": "Roger Gracie | ARM BARS",
-      "description": "Armbar from Mount film study: Roger Gracie | ARM BARS.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/vSmRbpNmf-E/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/vSmRbpNmf-E",
-      "url": "https://www.youtube.com/watch?v=vSmRbpNmf-E",
-      "duration": "PT102S"
     }
   ]
 }
@@ -163,14 +153,6 @@ The armbar from mount serves as a gateway submission that opens pathways to mult
 ![](https://www.youtube.com/watch?v=4COgR6PfQW0)
 
 <p class="clip-credit"><strong>Rolles Gracie: Learn an armbar against a stacking opponent</strong> · 1:31 · <a href="https://www.youtube.com/watch?v=4COgR6PfQW0" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=vSmRbpNmf-E)
-
-<p class="clip-credit"><strong>Roger Gracie | ARM BARS</strong> · 1:42 · <a href="https://www.youtube.com/watch?v=vSmRbpNmf-E" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

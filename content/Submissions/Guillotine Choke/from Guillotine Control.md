@@ -46,12 +46,22 @@ description: "Master the guillotine choke finish from guillotine control. Comple
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "gordon ryan converts an arm in guillotine to a high wrist using his hooks and a\u2026",
-      "description": "Guillotine Choke from Guillotine Control film study: gordon ryan converts an arm in guillotine to a high wrist using his hooks and a\u2026.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/-wLHOB-KlGE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/-wLHOB-KlGE",
-      "url": "https://www.youtube.com/watch?v=-wLHOB-KlGE",
-      "duration": "PT17S"
+      "name": "Guillotine Escape from Closed Guard to Side Control",
+      "description": "Guillotine Choke from Guillotine Control film study: Guillotine Escape from Closed Guard to Side Control.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lvjRNWzKMPc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lvjRNWzKMPc",
+      "url": "https://www.youtube.com/watch?v=lvjRNWzKMPc",
+      "duration": "PT27S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Guillotine Choke Defense",
+      "description": "Guillotine Choke from Guillotine Control film study: Guillotine Choke Defense.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/OQYU2BXdEEw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/OQYU2BXdEEw",
+      "url": "https://www.youtube.com/watch?v=OQYU2BXdEEw",
+      "duration": "PT51S"
     }
   ]
 }
@@ -114,9 +124,17 @@ Strategically, the guillotine finish from control forces a binary defensive dile
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=-wLHOB-KlGE)
+![](https://www.youtube.com/watch?v=lvjRNWzKMPc)
 
-<p class="clip-credit"><strong>gordon ryan converts an arm in guillotine to a high wrist using his hooks and a…</strong> · 0:17 · <a href="https://www.youtube.com/watch?v=-wLHOB-KlGE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Guillotine Escape from Closed Guard to Side Control</strong> · 0:27 · <a href="https://www.youtube.com/watch?v=lvjRNWzKMPc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=OQYU2BXdEEw)
+
+<p class="clip-credit"><strong>Guillotine Choke Defense</strong> · 0:51 · <a href="https://www.youtube.com/watch?v=OQYU2BXdEEw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

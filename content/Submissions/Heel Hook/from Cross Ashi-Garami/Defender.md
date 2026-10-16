@@ -152,27 +152,6 @@ description: "Defend the heel hook from Cross Ashi-Garami with recognition cues,
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Heel Hook from Cross Ashi-Garami (Defender) \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Escaping and countering cross ashi garami",
-      "description": "Heel Hook from Cross Ashi-Garami (Defender) film study: Escaping and countering cross ashi garami.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/FUjlpGRjU44/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/FUjlpGRjU44",
-      "url": "https://www.youtube.com/watch?v=FUjlpGRjU44",
-      "duration": "PT45S"
-    }
-  ]
-}
-</script>
-
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -186,24 +165,6 @@ Defending the heel hook from Cross Ashi-Garami demands immediate recognition of 
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Heel Hook from Cross Ashi-Garami (Defender) in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=FUjlpGRjU44)
-
-<p class="clip-credit"><strong>Escaping and countering cross ashi garami</strong> · 0:45 · <a href="https://www.youtube.com/watch?v=FUjlpGRjU44" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="recognition-cues" class="content-section">

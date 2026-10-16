@@ -172,16 +172,6 @@ description: "How to defend against Kneebar from Guard in BJJ. Recognition, esca
       "embedUrl": "https://www.youtube.com/embed/NuWBh3LN-SY",
       "url": "https://www.youtube.com/watch?v=NuWBh3LN-SY",
       "duration": "PT21S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Crazy Kneebar Defense From AJ Agazarm against Garry Tonon",
-      "description": "Kneebar from Guard (Defender) film study: Crazy Kneebar Defense From AJ Agazarm against Garry Tonon.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/kUuJ03CcIUQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/kUuJ03CcIUQ",
-      "url": "https://www.youtube.com/watch?v=kUuJ03CcIUQ",
-      "duration": "PT23S"
     }
   ]
 }
@@ -225,14 +215,6 @@ Critical safety awareness is paramount when defending kneebars. If your opponent
 ![](https://www.youtube.com/watch?v=NuWBh3LN-SY)
 
 <p class="clip-credit"><strong>Knee Bar defense + take the back</strong> · 0:21 · <a href="https://www.youtube.com/watch?v=NuWBh3LN-SY" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=kUuJ03CcIUQ)
-
-<p class="clip-credit"><strong>Crazy Kneebar Defense From AJ Agazarm against Garry Tonon</strong> · 0:23 · <a href="https://www.youtube.com/watch?v=kUuJ03CcIUQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

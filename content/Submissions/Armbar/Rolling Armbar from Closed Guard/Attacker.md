@@ -188,16 +188,6 @@ description: "How to execute Rolling Armbar in BJJ. Attacking perspective with s
       "embedUrl": "https://www.youtube.com/embed/XVxTzuJ1F60",
       "url": "https://www.youtube.com/watch?v=XVxTzuJ1F60",
       "duration": "PT60S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Roger Gracie | ARM BARS",
-      "description": "Rolling Armbar from Closed Guard (Attacker) film study: Roger Gracie | ARM BARS.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/vSmRbpNmf-E/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/vSmRbpNmf-E",
-      "url": "https://www.youtube.com/watch?v=vSmRbpNmf-E",
-      "duration": "PT102S"
     }
   ]
 }
@@ -229,14 +219,6 @@ The Rolling Armbar represents one of the most dynamic and technically sophistica
 ![](https://www.youtube.com/watch?v=XVxTzuJ1F60)
 
 <p class="clip-credit"><strong>Overhook from Closed Guard to Rolling Arm Bar</strong> · 1:00 · <a href="https://www.youtube.com/watch?v=XVxTzuJ1F60" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=vSmRbpNmf-E)
-
-<p class="clip-credit"><strong>Roger Gracie | ARM BARS</strong> · 1:42 · <a href="https://www.youtube.com/watch?v=vSmRbpNmf-E" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

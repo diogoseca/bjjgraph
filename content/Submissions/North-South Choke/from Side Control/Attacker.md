@@ -194,16 +194,6 @@ description: "Complete attacking guide for the North-South Choke from Side Contr
       "embedUrl": "https://www.youtube.com/embed/TkdKbLp5Ugo",
       "url": "https://www.youtube.com/watch?v=TkdKbLp5Ugo",
       "duration": "PT78S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Marcelo Garcia - North South Choke",
-      "description": "North-South Choke from Side Control (Attacker) film study: Marcelo Garcia - North South Choke.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/z3RNUfHfiSM/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/z3RNUfHfiSM",
-      "url": "https://www.youtube.com/watch?v=z3RNUfHfiSM",
-      "duration": "PT20S"
     }
   ]
 }
@@ -235,14 +225,6 @@ Attacking with the North-South Choke from Side Control requires mastering a seam
 ![](https://www.youtube.com/watch?v=TkdKbLp5Ugo)
 
 <p class="clip-credit"><strong>Attack from side control 1. North South Choke. Techniques Jiu-jitsu, Grappling,…</strong> · 1:18 · <a href="https://www.youtube.com/watch?v=TkdKbLp5Ugo" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=z3RNUfHfiSM)
-
-<p class="clip-credit"><strong>Marcelo Garcia - North South Choke</strong> · 0:20 · <a href="https://www.youtube.com/watch?v=z3RNUfHfiSM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

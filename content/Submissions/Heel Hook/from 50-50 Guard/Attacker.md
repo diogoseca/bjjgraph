@@ -194,16 +194,6 @@ description: "Learn to attack the heel hook from 50-50 Guard. Step-by-step execu
       "embedUrl": "https://www.youtube.com/embed/eb6ujAO09SY",
       "url": "https://www.youtube.com/watch?v=eb6ujAO09SY",
       "duration": "PT123S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Lachlan Giles | HEEL HOOKS",
-      "description": "Heel Hook from 50-50 Guard (Attacker) film study: Lachlan Giles | HEEL HOOKS.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/UuluKZKDt8w/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/UuluKZKDt8w",
-      "url": "https://www.youtube.com/watch?v=UuluKZKDt8w",
-      "duration": "PT64S"
     }
   ]
 }
@@ -235,14 +225,6 @@ Attacking the heel hook from 50-50 Guard requires winning the inside position ba
 ![](https://www.youtube.com/watch?v=eb6ujAO09SY)
 
 <p class="clip-credit"><strong>Get the 50/50 Heel Hook and a Killer Heel Hook Tip</strong> · 2:03 · <a href="https://www.youtube.com/watch?v=eb6ujAO09SY" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=UuluKZKDt8w)
-
-<p class="clip-credit"><strong>Lachlan Giles | HEEL HOOKS</strong> · 1:04 · <a href="https://www.youtube.com/watch?v=UuluKZKDt8w" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -52,16 +52,6 @@ description: "Learn the Armbar Finish from Armbar Control in BJJ. Step-by-step e
       "embedUrl": "https://www.youtube.com/embed/gDn6uThIABM",
       "url": "https://www.youtube.com/watch?v=gDn6uThIABM",
       "duration": "PT75S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Roger Gracie | ARM BARS",
-      "description": "Armbar from Armbar Control film study: Roger Gracie | ARM BARS.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/vSmRbpNmf-E/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/vSmRbpNmf-E",
-      "url": "https://www.youtube.com/watch?v=vSmRbpNmf-E",
-      "duration": "PT102S"
     }
   ]
 }
@@ -127,14 +117,6 @@ The finish itself requires coordinated opposing vectors: hips drive toward the c
 ![](https://www.youtube.com/watch?v=gDn6uThIABM)
 
 <p class="clip-credit"><strong>Armbar from mount when they bump you off</strong> · 1:15 · <a href="https://www.youtube.com/watch?v=gDn6uThIABM" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=vSmRbpNmf-E)
-
-<p class="clip-credit"><strong>Roger Gracie | ARM BARS</strong> · 1:42 · <a href="https://www.youtube.com/watch?v=vSmRbpNmf-E" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

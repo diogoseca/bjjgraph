@@ -214,16 +214,6 @@ description: "Learn to finish the Cross Collar Choke from Mount with proper grip
       "embedUrl": "https://www.youtube.com/embed/DrAxA8KUxbo",
       "url": "https://www.youtube.com/watch?v=DrAxA8KUxbo",
       "duration": "PT61S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 4,
-      "name": "Roger Gracie | CROSS COLLAR CHOKES",
-      "description": "Cross Collar Choke from Mount (Attacker) film study: Roger Gracie | CROSS COLLAR CHOKES.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/dfP-Ov8FBUo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/dfP-Ov8FBUo",
-      "url": "https://www.youtube.com/watch?v=dfP-Ov8FBUo",
-      "duration": "PT80S"
     }
   ]
 }
@@ -271,14 +261,6 @@ The Cross Collar Choke from Mount leverages the dominant top position to establi
 ![](https://www.youtube.com/watch?v=DrAxA8KUxbo)
 
 <p class="clip-credit"><strong>Palm up Palm up CROSS CHOKE BJJ | Helio Gracie Variation</strong> · 1:01 · <a href="https://www.youtube.com/watch?v=DrAxA8KUxbo" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=dfP-Ov8FBUo)
-
-<p class="clip-credit"><strong>Roger Gracie | CROSS COLLAR CHOKES</strong> · 1:20 · <a href="https://www.youtube.com/watch?v=dfP-Ov8FBUo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

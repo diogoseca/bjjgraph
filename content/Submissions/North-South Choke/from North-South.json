@@ -448,15 +448,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "z3RNUfHfiSM",
-        "title": "Marcelo Garcia - North South Choke",
-        "channel": "Kon Ying",
-        "duration": 20,
-        "vertical": false
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "from North-South Defender",

@@ -46,16 +46,6 @@ description: "Master the heel hook from Backside 50-50 in BJJ. Complete guide to
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Craig Jones Backside 50/50 inside Heel hook finish #short #bjj #footlock",
-      "description": "Heel Hook from Backside 50-50 film study: Craig Jones Backside 50/50 inside Heel hook finish #short #bjj #footlock.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/sIYeSMSkqeE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/sIYeSMSkqeE",
-      "url": "https://www.youtube.com/watch?v=sIYeSMSkqeE",
-      "duration": "PT18S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
       "name": "50/50 Heelhook Finishing Details",
       "description": "Heel Hook from Backside 50-50 film study: 50/50 Heelhook Finishing Details.",
       "thumbnailUrl": "https://i.ytimg.com/vi/fB3FYb-Jx_0/hqdefault.jpg",
@@ -121,14 +111,6 @@ Competition analysis reveals that this attack succeeds most often as a counter-a
 
 <p class="section-subtitle">Watch Heel Hook from Backside 50-50 in action — curated instructionals</p>
 
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=sIYeSMSkqeE)
-
-<p class="clip-credit"><strong>Craig Jones Backside 50/50 inside Heel hook finish #short #bjj #footlock</strong> · 0:18 · <a href="https://www.youtube.com/watch?v=sIYeSMSkqeE" rel="noopener">Watch on YouTube</a></p>
-
-</div>
 
 <div class="film-clip">
 

@@ -188,16 +188,6 @@ description: "Learn to execute the North-South Choke from Shoulder of Justice. S
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Marcelo Garcia - North South Choke",
-      "description": "North-South Choke from Shoulder of Justice (Attacker) film study: Marcelo Garcia - North South Choke.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/z3RNUfHfiSM/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/z3RNUfHfiSM",
-      "url": "https://www.youtube.com/watch?v=z3RNUfHfiSM",
-      "duration": "PT20S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
       "name": "NORTH SOUTH PRESSURE CHOKE",
       "description": "North-South Choke from Shoulder of Justice (Attacker) film study: NORTH SOUTH PRESSURE CHOKE.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Fdq-j0AUVtc/hqdefault.jpg",
@@ -229,14 +219,6 @@ Executing the North-South Choke from Shoulder of Justice requires precise timing
 
 <p class="section-subtitle">Watch North-South Choke from Shoulder of Justice (Attacker) in action — curated instructionals</p>
 
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=z3RNUfHfiSM)
-
-<p class="clip-credit"><strong>Marcelo Garcia - North South Choke</strong> · 0:20 · <a href="https://www.youtube.com/watch?v=z3RNUfHfiSM" rel="noopener">Watch on YouTube</a></p>
-
-</div>
 
 <div class="film-clip">
 

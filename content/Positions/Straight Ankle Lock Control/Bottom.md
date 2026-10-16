@@ -155,27 +155,6 @@ description: "Master the attacking perspective of straight ankle lock control. C
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Straight Ankle Lock Control (Bottom) \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "How to defend the butterfly ashi footlock / Mikey Musumeci ankle lock \u2014 ft.\u2026",
-      "description": "Straight Ankle Lock Control (Bottom) film study: How to defend the butterfly ashi footlock / Mikey Musumeci ankle lock \u2014 ft.\u2026.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/l7u1ce88jqM/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/l7u1ce88jqM",
-      "url": "https://www.youtube.com/watch?v=l7u1ce88jqM",
-      "duration": "PT211S"
-    }
-  ]
-}
-</script>
-
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -196,24 +175,6 @@ The technical execution requires precise coordination of grips, leg positioning,
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Straight Ankle Lock Control (Bottom) in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=l7u1ce88jqM)
-
-<p class="clip-credit"><strong>How to defend the butterfly ashi footlock / Mikey Musumeci ankle lock — ft.…</strong> · 3:31 · <a href="https://www.youtube.com/watch?v=l7u1ce88jqM" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="state-invariants" class="content-section">
