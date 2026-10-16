@@ -11132,6 +11132,26 @@ all three spread checks; the three date-health unit tests pass.
 The original D-306 capture at f842d88e6 on 45cf1f9e1 remains historical evidence for its tree:
 3,166 Film Study sections and 13,866 article links removed, with all other census leaves
 unchanged. D-304's four separate floor commits use its measured 30,351 JSON-LD blocks and
-199,250 article links. That capture is superseded for this corrected content. The final tree
-must be measured on post-identity dev and captured again with the exact confirmed refs;
-D-307 requires the same floor rule if either count moves more than 2% from the D-304 basis.
+199,250 article links. That capture is superseded by D-312: candidate/tools 8357a2eb2,
+base/premerge 45cf1f9e1, label pr-clip-curation-8357a2eb2-r2, version 1.227.2. The guarded capture
+is production-accepted and the independent comparison finds no unexpected movement.
+The first attempt was rejected before retaining a snapshot after a journal-confirmed earlyoom
+SIGTERM. The authorized r2 retry repeated D-285 cleanup with all 6,407 tracked content stamps
+unchanged; the failed attempt remains preserved and supplied no baseline data.
+PR 305 now precedes identity under D-311. Both Learning tag samples match base exactly;
+all 14 app rows, three root bundles, 359 model files and 5,125 static paths remain equal.
+
+The corrected capture records 30,758 JSON-LD blocks, 3,209 ItemLists, 91,532 article headings,
+200,876 article links and 147,109 outside links. Against base, four leaves move -2,759 and
+article links move -12,240. Canonical routes remove 2,149 Film Study sections and 7,228 displayed
+clips; folder copies remove 610 sections and 2,253 clips. The 5,408-route audit accounts for
+all movements. Against the superseded D-306 baseline, the re-seed restores 407 sections and
+1,626 article links. SEO still has only the two declared Armbar-from-Back Film Study excisions;
+the new SEO re-seed changes the receipt only. No text floor beyond those already approved moves.
+
+All D-304 floors stay: corrected counts are +1.341% / +0.816% from their measured bases,
+below the 2% reset threshold. Integrated eager gzip remains 346,318 B (+3,320 against the
+342,998 checkpoint; cap +5,000); deferred raw remains 480,054 B of 500,000. The own build,
+publication-date health and all 41 tests across defending-arrivals, defending-landing and
+reading-contract pass with zero retries. Capture acceptance does not claim a full CI or
+independent-review pass; those gate the corrected PR separately.
