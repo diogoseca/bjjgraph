@@ -1,9 +1,13 @@
 // Collected by test:units and ci:validate. Execute the production palette, cache,
 // and actual app methods, including grade publication and per-key progress merge.
 // Browser paint, mouse reachability and reload are in mastery-gold.spec.ts.
-// Required mutants killed: default On -> default-off test; RGB average -> hue bands;
+// Owner's 2026-10-15 decision: always mix the overview, including mastery gold Off.
+// Boot stays deferred; only split halves retain the byte-identical Off contract.
+// Mutants killed: default mix false and pre-paint import -> default overview test;
+// RGB average -> hue bands;
 // position by played seat -> own-half test; removed publish hook -> real-grade test.
-// No non-kill among those four; this suite makes no mouse/pixel assertion.
+// Settings veto and missing idle deadline -> first-hand scheduler test.
+// All seven killed; this suite makes no mouse/pixel assertion.
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
@@ -29,7 +33,7 @@ function app() {
   a._ingestDeckManifest(manifest);
   return a;
 }
-async function enable(a) { a.set("masteryGold", true); await a._goldLoading; assert.ok(a._mapPaint); }
+async function enable(a) { a._mapPaintReady=true; a.set("masteryGold", true); await a._goldLoading; assert.ok(a._mapPaint); }
 const [neutral, blue, red, fullGold] = gold.NG_GOLD_PIGMENTS;
 const mix = (da, ma, db, mb) => gold.ngGoldColor(gold.ngGoldWeights(da, ma).map((v, i) => (v + gold.ngGoldWeights(db, mb)[i]) / 2));
 // Test-only sRGB -> OKLCH conversion, on the same truncated bytes rgba() emits.
@@ -75,13 +79,65 @@ test("zero mastery preserves every runtime base object and bytes; colour is cont
   console.log(`mastery-gold: ${a.nodes.length} real base halves, 420021 continuity samples`);
 });
 
-test("default off imports nothing and off paint is byte-identical at every zoom", async () => {
+test("default overview mixes both halves after idle; gold-off halves stay byte-identical", async () => {
   const a=app(); let loads=0; a._fetchMasteryGold=()=>{loads++;return Promise.resolve(gold);};
   a._rebuildMapPaint(); assert.equal(a._goldLoading,undefined,"default boot must never import"); assert.equal(loads,0); assert.equal(a._mapPaint,null);
-  const check=()=>{for(const k of [0,.001,.2,.5,.99,1]) { a._lodK=k; for(const n of a.nodes) {
+  for(const k of [0,.2,.5,1]) { a._lodK=k; for(const n of a.nodes) {
     assert.equal(a._mapColor(n),n.col); assert.equal(a._mapColor(n,true),n.colU||n.col);
-  }}};
-  check(); await enable(a); a.set("masteryGold",false); check(); assert.equal(loads,1);
+  }}
+  a._mapPaintReady=true; a._rebuildMapPaint(); await a._goldLoading;
+  assert.ok(a._mapPaint,"default overview must mix without ever enabling gold");
+  const check=()=>{
+    let sites=0,changed=0;
+    for(const n of a.nodes) {
+      a._lodK=1;
+      assert.equal(a._mapColor(n),n.col); assert.equal(a._mapColor(n,true),n.colU||n.col);
+      assert.equal(a.rgba(a._mapColor(n),.62),a.rgba(n.col,.62));
+      if(!n.rep||n.pi<0) continue;
+      const p=a.nodes[n.pi], expected=mix(n.dom,0,p.dom,0);
+      a._lodK=0;
+      assert.deepEqual(a._mapColor(n),expected); assert.equal(a._mapColor(n),a._mapColor(p,true));
+      sites++; if(a.rgba(expected,1)!==a.rgba(n.col,1)) changed++;
+    }
+    assert.ok(sites>1000); assert.ok(changed>1000);
+  };
+  check(); assert.equal(a.get("masteryGold",false),false);
+  await enable(a); a.set("masteryGold",false); check(); assert.equal(loads,1);
+});
+
+test("palette waits for first hand paint, then warms by its idle deadline even when Settings covers it", async () => {
+  const previous={window:globalThis.window,raf:globalThis.requestAnimationFrame,timer:globalThis.setTimeout};
+  for(const fallback of [false,true]) {
+    // Ingest has unrelated timers. Control only this scheduler's synchronous work;
+    // restore the host timers before yielding to the test runner or import promise.
+    const a=app(),b=app(),frames=[],idles=[],tasks=[],deadlines=[]; let playable=false,loads=0;
+    globalThis.window={requestIdleCallback:fallback?undefined:(cb,options)=>{idles.push(cb);deadlines.push(options?.timeout);}};
+    globalThis.requestAnimationFrame=cb=>frames.push(cb);
+    globalThis.setTimeout=cb=>tasks.push(cb);
+    try {
+      a._gameValuePlayable=()=>playable&&!a.__ngDestroyed;
+      a._fetchMasteryGold=()=>{loads++;return Promise.resolve(gold);};
+      a.set("masteryGold",true); a._warmMapPaint();
+      assert.equal(loads,0,"even saved/enabled gold waits for a hand"); assert.equal(frames.length,0);
+      playable=true; a._warmMapPaint(); a._warmMapPaint();
+      assert.equal(frames.length,1); assert.equal(loads,0);
+      frames.shift()(); assert.equal(loads,0,"paint must precede idle import");
+      const queue=fallback?tasks:idles; assert.equal(queue.length,1);
+      if(!fallback) assert.deepEqual(deadlines,[1000],"a busy foreground must have a bounded idle wait");
+      playable=false; queue.shift()();
+      assert.equal(loads,1,"Settings cannot revoke warming after the first hand painted");
+      a._warmMapPaint(); assert.equal(frames.length,0,"warm once per app");
+      b._gameValuePlayable=()=>!b.__ngDestroyed;
+      b._fetchMasteryGold=()=>{throw Error("retired app imported");};
+      b._warmMapPaint(); frames.shift()(); b.__ngDestroyed=true; queue.shift()();
+      assert.equal(b._mapPaintReady,undefined); assert.equal(b._mapPaint,null);
+    } finally {
+      if(previous.window===undefined) delete globalThis.window; else globalThis.window=previous.window;
+      if(previous.raf===undefined) delete globalThis.requestAnimationFrame; else globalThis.requestAnimationFrame=previous.raf;
+      globalThis.setTimeout=previous.timer;
+    }
+    await a._goldLoading; assert.ok(a._mapPaint);
+  }
 });
 
 test("current position halves read their own decks, never the player's seat; missing is null", async () => {
@@ -125,26 +181,55 @@ test("cached endpoints share the site, preserve lower shade, and hand over conti
   }
 });
 
-test("late import uses latest progress/setting, disabled completion stays off, and failure can retry", async () => {
+test("focus and rest blend the shared site to the player's Off perspective, including late Off", async () => {
+  const a=app(); a.playerRole="top";
+  const top=a.nodes.find(n=>n.ty==="positions"&&n.t==="Mount Top"&&n.rep), n=a.nodes[top.pi];
+  assert.notDeepEqual(a.myColor(n),n.col,"previous Bottom differs from the live Top perspective");
+  a._mapPaintReady=true; a._rebuildMapPaint(); await a._goldLoading;
+  const check=()=>{
+    a._lodK=0; assert.equal(a._mapFocusColor(n),a._mapPaint[n.idx].sitePaint);
+    let last=a._mapFocusColor(n);
+    for(let i=1;i<=1000;i++) {
+      a._lodK=i/1000; const c=a._mapFocusColor(n);
+      for(const k of ["r","g","b"]) assert.ok(Math.abs(c[k]-last[k])<.3);
+      last=c;
+    }
+    assert.deepEqual(a._mapFocusColor(n),a.myColor(n),"Off focus/rest endpoint is player perspective");
+  };
+  check();
+  await enable(a);
+  for(const k of [0,.2,.5,1]) {a._lodK=k; assert.deepEqual(a._mapFocusColor(n),a._mapColor(n));}
+  a.set("masteryGold",false); check();
+  a._mapPaint=null;
+  for(const k of [0,.5,1]) {a._lodK=k; assert.deepEqual(a._mapFocusColor(n),a.myColor(n));}
+});
+
+test("late import uses latest setting, Off completion keeps only the base mix, and failure can retry", async () => {
   const a=app(); let release, loads=0;
+  a._mapPaintReady=true;
+  const n=a.nodes.find(n=>n.rep&&n.pi>=0), key=gold.ngGoldDeckKey(n);
+  a.flashcards.decks[key]={n:1}; a.stage[key]={test:3};
   a._fetchMasteryGold=()=>{loads++;return new Promise(r=>{release=r;});};
   a.set("masteryGold",true); const pending=a._goldLoading;
   a._publishKnowledge("another-grade"); assert.equal(loads,1);
-  a.set("masteryGold",false); release(gold); await pending; assert.equal(a._mapPaint,null);
+  a.set("masteryGold",false); release(gold); await pending; assert.ok(a._mapPaint);
+  for(const n of a.nodes) assert.equal(a._mapPaint[n.idx].halfPaint,n.col);
   a.set("masteryGold",true); assert.ok(a._mapPaint); assert.equal(loads,1);
-  const b=app(); b._fetchMasteryGold=()=>Promise.reject(Error("offline test"));
+  const b=app(); b._mapPaintReady=true; b._fetchMasteryGold=()=>Promise.reject(Error("offline test"));
   b.set("masteryGold",true); await b._goldLoading; assert.equal(b._mapPaint,null);
   b._fetchMasteryGold=()=>Promise.resolve(gold); b._rebuildMapPaint(); await b._goldLoading; assert.ok(b._mapPaint);
 });
 
 test("per-key cloud merge and hydrated owner progress rebuild current paint without mutating base colours", async () => {
   const a=app(), base=JSON.stringify(a.nodes.map(n=>[n.col,n.colU]));
+  a._mapPaintReady=true;
   a._goldModule=gold; a.settings={masteryGold:false}; a._settingsAt={masteryGold:20};
   a._mergeProgressFields({v:2,settings:{masteryGold:true},settingsAt:{masteryGold:30},updatedAt:30});
   assert.equal(a.settings.masteryGold,true); a._publishKnowledge("merged-progress"); assert.ok(a._mapPaint);
   a._mergeProgressFields({v:2,settings:{masteryGold:false},settingsAt:{masteryGold:10},updatedAt:10});
   assert.equal(a.settings.masteryGold,true,"older Off cannot erase newer On");
-  a._hydrateProgressBlob({v:2,settings:{masteryGold:false}}); assert.equal(a._mapPaint,null);
+  a._hydrateProgressBlob({v:2,settings:{masteryGold:false}}); assert.ok(a._mapPaint);
+  for(const n of a.nodes) assert.equal(a._mapPaint[n.idx].halfPaint,n.col);
   a._hydrateProgressBlob({v:2,settings:{masteryGold:true}}); assert.ok(a._mapPaint);
   assert.equal(JSON.stringify(a.nodes.map(n=>[n.col,n.colU])),base);
 });

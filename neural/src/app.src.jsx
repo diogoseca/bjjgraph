@@ -193,9 +193,9 @@ const NG_RESIDENCY_MAX_HOLD_MS = 2000;
 // eye sees is a pager that moves the wrong way, and nothing would go red. "Last rolls" is display
 // copy for `history` — the view ids never migrated (v1.95.0).
 const NG_PANE_TABS = ["explore", "challenges", "history"];
-// Owner's default-mix decision remains one line. False preserves the historical
-// representative-only overview until masteryGold is enabled.
-const NG_MIX_SITES_BY_DEFAULT = false;
+// Owner, 2026-10-15: always mix both halves in the overview, even with mastery
+// gold off. Opposite technique poles therefore share a purple-grey site colour.
+const NG_MIX_SITES_BY_DEFAULT = true;
 // THE SETTINGS TABS, IN ROW ORDER: [id, label]. The row, its one click handler and its arrow keys
 // all read this, and nothing else names a tab (v1.196.1). It replaced five hand-built spans with
 // five class names (.t-fc .t-rl .t-md .t-nt .t-kb) and five listeners, i.e. the same list written
@@ -19885,13 +19885,32 @@ class Component extends DCLogic {
     else { const h = r * 1.18; ctx.moveTo(x, y - h); ctx.lineTo(x + h, y); ctx.lineTo(x, y + h); ctx.lineTo(x - h, y); ctx.closePath(); }
   }
 
+  // Warm only after a playable hand paints, then at idle. Ingest and progress
+  // publication must not import the palette on the boot path (D-298). Until then
+  // the old paint stays in place; the roll opens at split zoom. Once that hand has
+  // painted, Settings cannot revoke the warm. A one-second idle deadline prevents
+  // starvation; a retired app still cannot import.
+  _warmMapPaint() {
+    if (this._mapPaintReady || this._mapPaintPending || !this._gameValuePlayable()) return;
+    this._mapPaintPending = true;
+    requestAnimationFrame(() => {
+      const warm = () => {
+        this._mapPaintPending = false;
+        if (this.__ngDestroyed) return;
+        this._mapPaintReady = true;
+        this._rebuildMapPaint();
+      };
+      if (window.requestIdleCallback) window.requestIdleCallback(warm, { timeout: 1000 });
+      else setTimeout(warm, 0);
+    });
+  }
   // Rebuild at ingest, toggle, and knowledge publication (manifest/hydration,
   // grades, load and merged progress). An import holds no owner/progress snapshot:
   // completion re-reads the CURRENT setting and evidence, including a late Off.
   // Failed imports retain base paint and retry on the next enable/publication.
   _rebuildMapPaint() {
     const on = this.get("masteryGold", false);
-    if ((!on && !NG_MIX_SITES_BY_DEFAULT) || !this.nodes || this.__ngDestroyed) { this._mapPaint = null; return; }
+    if ((!on && !NG_MIX_SITES_BY_DEFAULT) || !this._mapPaintReady || !this.nodes || this.__ngDestroyed) { this._mapPaint = null; return; }
     if (this._goldModule) { this._mapPaint = this._goldModule.ngGoldCache(this, on); return; }
     this._mapPaint = null;
     if (!this._goldLoading) {
@@ -19908,9 +19927,20 @@ class Component extends DCLogic {
     const half = lower ? e.lowerPaint : e.halfPaint, k = this._lodK == null ? 1 : this._lodK;
     return k === 1 ? half : k === 0 ? e.sitePaint : this.lerp3(e.sitePaint, half, k);
   }
+  // Focus/rest historically use the player's perspective, which can differ from
+  // the focused member during a previous-roll replay. Off preserves that split
+  // endpoint; a cache supplies the overview mix, never the gold enablement.
+  _mapFocusColor(n) {
+    const e = this._mapPaint && this._mapPaint[n.idx];
+    if (!e) return this.myColor(n);
+    if (this.get("masteryGold", false)) return this._mapColor(n);
+    const half = this.myColor(n), k = this._lodK == null ? 1 : this._lodK;
+    return k === 1 ? half : k === 0 ? e.sitePaint : this.lerp3(e.sitePaint, half, k);
+  }
 
   draw() {
     const ctx = this.ctx; if (!ctx || !this.nodes) return;
+    this._warmMapPaint();
     const W = this.W, H = this.H, dpr = this.dpr;
     const scale = W / this.cam.vw;
     // ── THE LIFT IS RE-APPLIED PER FRAME, AND IT COLLAPSES WITH ZOOM (v1.113.1) ────────────────
@@ -20280,7 +20310,7 @@ class Component extends DCLogic {
     // and the light is spent where it means something: the moment the move lands.
     if (this.focusIdx >= 0 && !this.pulse) {
       const n = this.nodes[this.focusIdx];
-      const pc = this._mapPaint ? this._mapColor(n) : this.myColor(n);
+      const pc = this._mapFocusColor(n);
       // landing settle: damped overshoot when the roll arrives
       let settle = 1;
       if (this.anim("landingSettle", true) && this._settleT) {
@@ -20347,7 +20377,7 @@ class Component extends DCLogic {
       }
       if (dep > 0.01) {
         const kR = this.REST_GLOW * (0.86 + 0.14 * Math.sin(this.now * 1.6)) * dep * dim;
-        const col2 = this._mapPaint ? this._mapColor(cur) : this.myColor(cur);
+        const col2 = this._mapFocusColor(cur);
         const gr = Math.max(cur.r * nodeK * 2.6, 44 / scale);
         const g2 = ctx.createRadialGradient(cur.x, LY(cur), 0, cur.x, LY(cur), gr);
         g2.addColorStop(0, this.rgba(col2, 0.62 * kR * glow * A));
