@@ -19927,6 +19927,16 @@ class Component extends DCLogic {
     const half = lower ? e.lowerPaint : e.halfPaint, k = this._lodK == null ? 1 : this._lodK;
     return k === 1 ? half : k === 0 ? e.sitePaint : this.lerp3(e.sitePaint, half, k);
   }
+  // Focus/rest historically use the player's perspective, which can differ from
+  // the focused member during a previous-roll replay. Off preserves that split
+  // endpoint; a cache supplies the overview mix, never the gold enablement.
+  _mapFocusColor(n) {
+    const e = this._mapPaint && this._mapPaint[n.idx];
+    if (!e) return this.myColor(n);
+    if (this.get("masteryGold", false)) return this._mapColor(n);
+    const half = this.myColor(n), k = this._lodK == null ? 1 : this._lodK;
+    return k === 1 ? half : k === 0 ? e.sitePaint : this.lerp3(e.sitePaint, half, k);
+  }
 
   draw() {
     const ctx = this.ctx; if (!ctx || !this.nodes) return;
@@ -20300,7 +20310,7 @@ class Component extends DCLogic {
     // and the light is spent where it means something: the moment the move lands.
     if (this.focusIdx >= 0 && !this.pulse) {
       const n = this.nodes[this.focusIdx];
-      const pc = this._mapPaint ? this._mapColor(n) : this.myColor(n);
+      const pc = this._mapFocusColor(n);
       // landing settle: damped overshoot when the roll arrives
       let settle = 1;
       if (this.anim("landingSettle", true) && this._settleT) {
@@ -20367,7 +20377,7 @@ class Component extends DCLogic {
       }
       if (dep > 0.01) {
         const kR = this.REST_GLOW * (0.86 + 0.14 * Math.sin(this.now * 1.6)) * dep * dim;
-        const col2 = this._mapPaint ? this._mapColor(cur) : this.myColor(cur);
+        const col2 = this._mapFocusColor(cur);
         const gr = Math.max(cur.r * nodeK * 2.6, 44 / scale);
         const g2 = ctx.createRadialGradient(cur.x, LY(cur), 0, cur.x, LY(cur), gr);
         g2.addColorStop(0, this.rgba(col2, 0.62 * kR * glow * A));

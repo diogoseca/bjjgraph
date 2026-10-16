@@ -181,6 +181,29 @@ test("cached endpoints share the site, preserve lower shade, and hand over conti
   }
 });
 
+test("focus and rest blend the shared site to the player's Off perspective, including late Off", async () => {
+  const a=app(); a.playerRole="top";
+  const top=a.nodes.find(n=>n.ty==="positions"&&n.t==="Mount Top"&&n.rep), n=a.nodes[top.pi];
+  assert.notDeepEqual(a.myColor(n),n.col,"previous Bottom differs from the live Top perspective");
+  a._mapPaintReady=true; a._rebuildMapPaint(); await a._goldLoading;
+  const check=()=>{
+    a._lodK=0; assert.equal(a._mapFocusColor(n),a._mapPaint[n.idx].sitePaint);
+    let last=a._mapFocusColor(n);
+    for(let i=1;i<=1000;i++) {
+      a._lodK=i/1000; const c=a._mapFocusColor(n);
+      for(const k of ["r","g","b"]) assert.ok(Math.abs(c[k]-last[k])<.3);
+      last=c;
+    }
+    assert.deepEqual(a._mapFocusColor(n),a.myColor(n),"Off focus/rest endpoint is player perspective");
+  };
+  check();
+  await enable(a);
+  for(const k of [0,.2,.5,1]) {a._lodK=k; assert.deepEqual(a._mapFocusColor(n),a._mapColor(n));}
+  a.set("masteryGold",false); check();
+  a._mapPaint=null;
+  for(const k of [0,.5,1]) {a._lodK=k; assert.deepEqual(a._mapFocusColor(n),a.myColor(n));}
+});
+
 test("late import uses latest setting, Off completion keeps only the base mix, and failure can retry", async () => {
   const a=app(); let release, loads=0;
   a._mapPaintReady=true;

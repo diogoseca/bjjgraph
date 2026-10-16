@@ -11115,3 +11115,29 @@ bytes; the default visitor now fetches it after the first playable hand. No payl
 The branch subsequently merged Obsidian v1.227.1 (`45cf1f9e1`), which changes vault/provenance
 inputs without app code. The owner assigned the PR's four-shard core and generated suite as
 the full-suite gate, replacing the planned local full core to preserve shared capture capacity.
+
+Independent review of PR 306 found that cache identity was insufficient to prove rendered Off
+identity. Focus and resting glow used cache existence as their gold switch. Default mixing
+keeps that cache alive while Off, so replaying a previous Mount Bottom member with the live
+player still Top changed its historical blue perspective repaint to the member's red base
+colour, even at fully split zoom. `_mapFocusColor` now reads the setting: Off interpolates
+the shared site mix to `myColor`, while On retains the gold-adjusted endpoint. An absent cache
+also preserves `myColor`. Both draw branches use this endpoint selection.
+
+The rendered regression invokes real replay landing and production `draw` on fresh native
+software canvases. At scales 2.2 and 3 it compares loaded-cache Off against the uncached
+historical Off render path, with repeat controls, normal Top and previous-Bottom replay.
+It covers default Off, mouse On then Off, and a deferred import completing after Off. It
+checks the actual focus fill and every RGBA byte, so a correct cache object cannot conceal
+a later repaint. The unit gate separately checks the continuous focus/rest hand-off and
+gold-On endpoint; it makes no pixel claim.
+
+On integrated `45cf1f9e1`, all six palette journeys passed before and after mutation, and
+all ten palette units passed. Focus-only and rest-only cache-gate mutants each failed the
+rendered assertion for default Off and late-import Off, after successful setup/preconditions.
+The focus mutant changed 2,881/2,879 RGBA bytes at scales 2.2/3; the rest mutant changed
+16,783/16,796. Fixed frames and repeat controls differed by zero bytes across all 12 comparisons.
+The unchanged first-hand gate passed both matched samples. The completed change adds 590 raw /
+169 eager gzip bytes against that dev base; first-hand adds 590 raw / 166 gzip bytes with
+11 requests. Eager gzip is 346,487 (+3,489 against the 342,998 checkpoint); deferred raw remains
+480,054 / 500,000 and its gzip changes by +9. Palette size and payload baselines are unchanged.

@@ -533,8 +533,10 @@ blue/red stays purple/grey. For clamped strength `d` and mastery `m`, weights ar
 Zero/missing mastery returns runtime `n.col` directly, including fallbacks.
 
 Overview mixes both halves (`NG_MIX_SITES_BY_DEFAULT = true`).
-Off keeps base/depth-shaded halves; On uses gold-adjusted weights. `kLOD` blends
-site to halves. Opposite technique poles share purple-grey.
+Off keeps base/depth-shaded halves and the historical player-perspective focus/rest
+colour (`myColor`), including a previous-roll replay and late Off. On uses gold-adjusted
+weights. `kLOD` blends the shared site mix to those endpoints. Opposite technique poles
+share purple-grey.
 
 Palette warms after the first playable hand paints (idle, 1s deadline), even in Settings; base paint holds.
 Cache rebuilds at ingest, toggle and `_publishKnowledge` (manifest/hydration,
