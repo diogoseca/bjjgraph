@@ -11271,3 +11271,26 @@ pass 20 repeats; delayed real callback delivery reproduces the immediate-assert 
 on both. Waiting for the visible suppression/restoration passes five delayed repeats,
 while removing the actual listener fails the repaired suppression check. Timer, saved
 setting, pressure and gameplay assertions remain; no app change, sleep or retry is added.
+
+D-314 confirms and production-accepts the final tree: candidate/tools bda0b2b71,
+base/premerge 8aa7b9487, label pr-clip-curation-bda0b2b71, version 1.227.5.
+D-285 cleanup preserved all 6,308 unchanged tracked content stamps, including 52 Learning
+files and their hub; only the 99 changed content paths were re-stamped by checkout.
+The strict 5,408-route comparison records exactly 30,751 JSON-LD blocks, 3,202 ItemLists,
+91,525 article headings, 200,784 article links and 147,102 outside links. Four leaves move
+-2,766 and article links -12,332 against current dev; no other measurement leaf changes.
+Canonical/folder copies contribute -2,155/-611 sections and -7,288/-2,278 displayed clips.
+Only the two Armbar-from-Back SEO excisions and new capture provenance accompany them;
+both Learning tags match base exactly. All 14 goldmix app rows and three bundles match.
+
+The older obsidian retained tree predates goldmix: its two MDP variant descriptors and two
+manifest files carry the former app source hash. The exact new descriptors derive solely
+from the already-merged 8aa app source hash; all 62 transport parts, decoded mechanics,
+graph, curriculum, concepts and 290 submission details are identical. This is an attributed
+old-capture difference, not MDP movement against current dev. Every one of the 359 model
+files matches its exact current-dev expectation; all 5,125 static paths are accounted for.
+
+The four D-304 floors remain unchanged. Integrated eager gzip is 346,487 bytes (+3,489
+against 342,998; cap +5,000), deferred raw 480,054 of 500,000. The own build matches every
+projected leaf exactly; date health and all 41 focused tests pass, zero retries. This receipt-
+bound re-seed supersedes D-312; final CI and independent delta review gate the PR separately.
