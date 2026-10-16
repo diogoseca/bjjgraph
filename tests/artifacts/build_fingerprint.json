@@ -3,11 +3,11 @@
   "app_provenance": {
    "command": "npm run regenerate:neural",
    "esbuild": "0.27.0",
-   "git_head": "6cdbbf6f21f6ab422eac2b74cf74f403243a2b31",
+   "git_head": "67f1199008147a06defbd21c356cac1cfe0ea49a",
    "inputs": {
-    "tree": "0d1a34d207aec3761a62a6c1e976679c6110c4c0"
+    "tree": "765b5137894509bfd46d28fffa82a34ce529b085"
    },
-   "package_version": "1.227.4",
+   "package_version": "1.227.5",
    "rows_from": "neural/dist",
    "schema": "app-assets-rebuild-v2"
   },
