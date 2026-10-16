@@ -160,35 +160,12 @@ description: "Complete defensive guide for surviving the leg drag pass from head
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Guard retention against the leg drag",
-      "description": "Leg Drag from Headquarters (Defender) film study: Guard retention against the leg drag, taught by Brandon Quick.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/fFqoFDE2yyw/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/fFqoFDE2yyw",
-      "url": "https://www.youtube.com/watch?v=fFqoFDE2yyw",
-      "creator": { "@type": "Person", "name": "Brandon Quick" },
-      "duration": "PT90S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Guard retention: when to sit up and escape",
-      "description": "Leg Drag from Headquarters (Defender) film study: Guard retention: when to sit up and escape, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/lVLAROiSjNU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/lVLAROiSjNU",
-      "url": "https://www.youtube.com/watch?v=lVLAROiSjNU",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT136S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Guard recovery when getting smashed",
-      "description": "Leg Drag from Headquarters (Defender) film study: Guard recovery when getting smashed, taught by Finesse Jiujitsu HTX.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/BhNZGloJ56c/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/BhNZGloJ56c",
-      "url": "https://www.youtube.com/watch?v=BhNZGloJ56c",
-      "creator": { "@type": "Person", "name": "Finesse Jiujitsu HTX" },
-      "duration": "PT103S"
+      "name": "LEANDRO Lo -  Leg drag defense with technical stand up",
+      "description": "Leg Drag from Headquarters (Defender) film study: LEANDRO Lo -  Leg drag defense with technical stand up.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fO9mvIlh4Yw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fO9mvIlh4Yw",
+      "url": "https://www.youtube.com/watch?v=fO9mvIlh4Yw",
+      "duration": "PT200S"
     }
   ]
 }
@@ -218,25 +195,9 @@ The biomechanics of defense center on maintaining knee retraction strength, hip 
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=fFqoFDE2yyw)
+![](https://www.youtube.com/watch?v=fO9mvIlh4Yw)
 
-<p class="clip-credit"><strong>Guard retention against the leg drag</strong> — taught by Brandon Quick · 1:30 · <a href="https://www.youtube.com/watch?v=fFqoFDE2yyw" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=lVLAROiSjNU)
-
-<p class="clip-credit"><strong>Guard retention: when to sit up and escape</strong> — taught by Lachlan Giles · 2:16 · <a href="https://www.youtube.com/watch?v=lVLAROiSjNU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=BhNZGloJ56c)
-
-<p class="clip-credit"><strong>Guard recovery when getting smashed</strong> — taught by Finesse Jiujitsu HTX · 1:43 · <a href="https://www.youtube.com/watch?v=BhNZGloJ56c" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>LEANDRO Lo -  Leg drag defense with technical stand up</strong> · 3:20 · <a href="https://www.youtube.com/watch?v=fO9mvIlh4Yw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -382,26 +382,7 @@
       }
     ],
     "safety_considerations": "When practicing the Elevation Sweep, ensure controlled execution throughout the movement to protect both training partners. The sweep generates significant rotational force that can cause the opponent to fall unexpectedly. The landing partner should practice controlled breakfalls and the sweeping partner should guide the fall rather than dumping. Avoid executing at full power until both partners are comfortable with the mechanics. During drilling, the landing partner should tap immediately if they feel loss of control. Be cautious of knee strain when hooks are loaded heavily - release if the position feels compromised rather than forcing technique. Partners with lower back issues should communicate limitations as the elevation requires significant hip mobility.",
-    "clips": [
-      {
-        "id": "zNmrvurVcVE",
-        "title": "X Guard no-gi system: enter, elevate, sweep",
-        "by": "Energia Martial Arts",
-        "vertical": false,
-        "channel": "Energia Martial Arts",
-        "duration": 857,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "btdC6P-aStI",
-        "title": "Inverted X guard: three elevation sweep options",
-        "by": "Six Blades Jiu-Jitsu",
-        "vertical": false,
-        "channel": "Six Blades Jiu-Jitsu Fort Worth",
-        "duration": 201,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Elevation Sweep to Mount Defender",
@@ -583,35 +564,7 @@
         "description": "Positional sparring from Reverse X-Guard where attacker chains Elevation Sweep with Reverse X-Guard Sweep and leg entanglement transitions. Defender must read which attack is coming and apply appropriate defense. Full resistance with goal of either preventing all sweeps or minimizing positional damage when swept."
       }
     ],
-    "clips": [
-      {
-        "id": "M82CDkEzxlQ",
-        "title": "Reverse X-Guard defense into rolling back take",
-        "by": "Effortless Jiu Jitsu",
-        "vertical": false,
-        "channel": "EffortlessJiuJitsu",
-        "duration": 121,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "ipBdnq-j--g",
-        "title": "Backstep retention against single leg X elevation",
-        "by": "Absolute MMA St Kilda",
-        "vertical": false,
-        "channel": "Absolute MMA St Kilda - Melbourne",
-        "duration": 302,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "7c_QyTpJy-k",
-        "title": "Guard recovery and inverting after being elevated",
-        "by": "Lachlan Giles",
-        "vertical": false,
-        "channel": "Absolute MMA St Kilda - Melbourne",
-        "duration": 822,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "variants_and_adaptations": [
     {

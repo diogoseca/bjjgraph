@@ -210,8 +210,8 @@ BUNDLE_TOKENS = {
 FLOORS = {
     "files": 12000,          # ~15,769 today
     "html_pages": 6000,      # ~6,149
-    "jsonld_blocks": 30000,  # ~33,438
-    "article_links": 200000, # ~212,983
+    "jsonld_blocks": 27000,  # D-304: 30,351 observed after clip curation PR #1
+    "article_links": 180000, # D-304: 199,250 observed after clip curation PR #1
     "static_files": 4500,    # ~4,951
     "meta_tags": 100000,     # ~122,760
 }

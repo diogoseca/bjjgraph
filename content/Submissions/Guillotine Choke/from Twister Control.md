@@ -46,24 +46,22 @@ description: "Master the guillotine choke from Twister Control. Learn setup mech
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Twister side attacks (MTS 207)",
-      "description": "Guillotine Choke from Twister Control film study: Twister side attacks (MTS 207), taught by Eddie Bravo.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/odT3-cVWXdc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/odT3-cVWXdc",
-      "url": "https://www.youtube.com/watch?v=odT3-cVWXdc",
-      "creator": { "@type": "Person", "name": "Eddie Bravo" },
-      "duration": "PT61S"
+      "name": "BJJ Guillotine Choke Escape and Defense from Full Guard \u0026 with Takedowns",
+      "description": "Guillotine Choke from Twister Control film study: BJJ Guillotine Choke Escape and Defense from Full Guard \u0026 with Takedowns.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/v-CRBRea_KY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/v-CRBRea_KY",
+      "url": "https://www.youtube.com/watch?v=v-CRBRea_KY",
+      "duration": "PT319S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Alternate guillotine / twister entry",
-      "description": "Guillotine Choke from Twister Control film study: Alternate guillotine / twister entry, taught by Catch Wrestling Alliance.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/k3GU_7rKFYk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/k3GU_7rKFYk",
-      "url": "https://www.youtube.com/watch?v=k3GU_7rKFYk",
-      "creator": { "@type": "Person", "name": "Catch Wrestling Alliance" },
-      "duration": "PT193S"
+      "name": "Guillotine Defence",
+      "description": "Guillotine Choke from Twister Control film study: Guillotine Defence.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/46LaXNe6rJo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/46LaXNe6rJo",
+      "url": "https://www.youtube.com/watch?v=46LaXNe6rJo",
+      "duration": "PT594S"
     }
   ]
 }
@@ -126,17 +124,17 @@ Strategically, this submission functions as a trap within the broader Twister sy
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=odT3-cVWXdc)
+![](https://www.youtube.com/watch?v=v-CRBRea_KY)
 
-<p class="clip-credit"><strong>Twister side attacks (MTS 207)</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=odT3-cVWXdc" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>BJJ Guillotine Choke Escape and Defense from Full Guard &amp; with Takedowns</strong> · 5:19 · <a href="https://www.youtube.com/watch?v=v-CRBRea_KY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=k3GU_7rKFYk)
+![](https://www.youtube.com/watch?v=46LaXNe6rJo)
 
-<p class="clip-credit"><strong>Alternate guillotine / twister entry</strong> — taught by Catch Wrestling Alliance · 3:13 · <a href="https://www.youtube.com/watch?v=k3GU_7rKFYk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Guillotine Defence</strong> · 9:54 · <a href="https://www.youtube.com/watch?v=46LaXNe6rJo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

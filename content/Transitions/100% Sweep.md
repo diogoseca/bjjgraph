@@ -46,35 +46,12 @@ description: "Master the 100% Sweep from closed guard. Complete guide covering a
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Roger Gracie: sweep from closed guard",
-      "description": "100% Sweep film study: Roger Gracie: sweep from closed guard, taught by Roger Gracie.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/dMcMblcXhF0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/dMcMblcXhF0",
-      "url": "https://www.youtube.com/watch?v=dMcMblcXhF0",
-      "creator": { "@type": "Person", "name": "Roger Gracie" },
-      "duration": "PT73S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "100% sweep to mounted guillotine",
-      "description": "100% Sweep film study: 100% sweep to mounted guillotine, taught by Grappling How to.",
+      "name": "The 100% sweep to a mounted guillotine",
+      "description": "100% Sweep film study: The 100% sweep to a mounted guillotine.",
       "thumbnailUrl": "https://i.ytimg.com/vi/KizFNjw2h18/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/KizFNjw2h18",
       "url": "https://www.youtube.com/watch?v=KizFNjw2h18",
-      "creator": { "@type": "Person", "name": "Grappling How to" },
-      "duration": "PT67S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Bait Choi bar to 100%\u0027er from half guard",
-      "description": "100% Sweep film study: Bait Choi bar to 100%\u0027er from half guard, taught by Charles Allan Price.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/L0k94Lnww84/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/L0k94Lnww84",
-      "url": "https://www.youtube.com/watch?v=L0k94Lnww84",
-      "creator": { "@type": "Person", "name": "Charles Allan Price" },
-      "duration": "PT70S"
+      "duration": "PT66S"
     }
   ]
 }
@@ -128,25 +105,9 @@ This sweep is essential for advanced practitioners developing a sophisticated cl
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=dMcMblcXhF0)
-
-<p class="clip-credit"><strong>Roger Gracie: sweep from closed guard</strong> — taught by Roger Gracie · 1:13 · <a href="https://www.youtube.com/watch?v=dMcMblcXhF0" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=KizFNjw2h18)
 
-<p class="clip-credit"><strong>100% sweep to mounted guillotine</strong> — taught by Grappling How to · 1:07 · <a href="https://www.youtube.com/watch?v=KizFNjw2h18" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=L0k94Lnww84)
-
-<p class="clip-credit"><strong>Bait Choi bar to 100%&#39;er from half guard</strong> — taught by Charles Allan Price · 1:10 · <a href="https://www.youtube.com/watch?v=L0k94Lnww84" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>The 100% sweep to a mounted guillotine</strong> · 1:06 · <a href="https://www.youtube.com/watch?v=KizFNjw2h18" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

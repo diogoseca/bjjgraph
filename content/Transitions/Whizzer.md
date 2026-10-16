@@ -46,24 +46,12 @@ description: "Master the Whizzer overhook control in BJJ. Essential defensive an
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Using an overhook to attack",
-      "description": "Whizzer film study: Using an overhook to attack, taught by Patrick Spano.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/DfUHvTQpzCg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/DfUHvTQpzCg",
-      "url": "https://www.youtube.com/watch?v=DfUHvTQpzCg",
-      "creator": { "@type": "Person", "name": "Patrick Spano" },
-      "duration": "PT40S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Darkside whizzer entry",
-      "description": "Whizzer film study: Darkside whizzer entry, taught by Craig Jones.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/VopGHIx2g4w/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/VopGHIx2g4w",
-      "url": "https://www.youtube.com/watch?v=VopGHIx2g4w",
-      "creator": { "@type": "Person", "name": "Craig Jones" },
-      "duration": "PT29S"
+      "name": "Dip Under Sweep - Whizzer Counter!",
+      "description": "Whizzer film study: Dip Under Sweep - Whizzer Counter!.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pYljJ1yRXO4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/pYljJ1yRXO4",
+      "url": "https://www.youtube.com/watch?v=pYljJ1yRXO4",
+      "duration": "PT169S"
     }
   ]
 }
@@ -117,17 +105,9 @@ The Whizzer is inherently transitional. Holding it statically wastes energy and 
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=DfUHvTQpzCg)
+![](https://www.youtube.com/watch?v=pYljJ1yRXO4)
 
-<p class="clip-credit"><strong>Using an overhook to attack</strong> — taught by Patrick Spano · 0:40 · <a href="https://www.youtube.com/watch?v=DfUHvTQpzCg" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=VopGHIx2g4w)
-
-<p class="clip-credit"><strong>Darkside whizzer entry</strong> — taught by Craig Jones · 0:29 · <a href="https://www.youtube.com/watch?v=VopGHIx2g4w" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Dip Under Sweep - Whizzer Counter!</strong> · 2:49 · <a href="https://www.youtube.com/watch?v=pYljJ1yRXO4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

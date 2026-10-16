@@ -160,24 +160,12 @@ description: "How to defend against the Over-Under Pass in BJJ. Recognition cues
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Early Double Under and Over Under Pass Defense",
-      "description": "Over-Under Pass (Defender) film study: Early Double Under and Over Under Pass Defense, taught by Cal McDonald.",
+      "name": "101 Retention - Early Double Under and Over Under Defense",
+      "description": "Over-Under Pass (Defender) film study: 101 Retention - Early Double Under and Over Under Defense.",
       "thumbnailUrl": "https://i.ytimg.com/vi/RonrS17I1mA/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/RonrS17I1mA",
       "url": "https://www.youtube.com/watch?v=RonrS17I1mA",
-      "creator": { "@type": "Person", "name": "Cal McDonald" },
       "duration": "PT141S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Guard Retention: When To Sit Up Escape",
-      "description": "Over-Under Pass (Defender) film study: Guard Retention: When To Sit Up Escape, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/lVLAROiSjNU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/lVLAROiSjNU",
-      "url": "https://www.youtube.com/watch?v=lVLAROiSjNU",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT136S"
     }
   ]
 }
@@ -207,15 +195,7 @@ Defending the Over-Under Pass requires early recognition of the passer's grip co
 
 ![](https://www.youtube.com/watch?v=RonrS17I1mA)
 
-<p class="clip-credit"><strong>Early Double Under and Over Under Pass Defense</strong> — taught by Cal McDonald · 2:21 · <a href="https://www.youtube.com/watch?v=RonrS17I1mA" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=lVLAROiSjNU)
-
-<p class="clip-credit"><strong>Guard Retention: When To Sit Up Escape</strong> — taught by Lachlan Giles · 2:16 · <a href="https://www.youtube.com/watch?v=lVLAROiSjNU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>101 Retention - Early Double Under and Over Under Defense</strong> · 2:21 · <a href="https://www.youtube.com/watch?v=RonrS17I1mA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

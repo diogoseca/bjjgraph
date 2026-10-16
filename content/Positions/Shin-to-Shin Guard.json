@@ -959,31 +959,12 @@
     ],
     "clips": [
       {
-        "id": "vKjAcZbsTwI",
-        "title": "Shin to Shin Guard to Single Leg X Sweep",
-        "by": "Bermuda Martial Arts",
+        "id": "sUJIGs8Othc",
+        "title": "Shin to Shin Guard",
+        "channel": "RGA South Herts",
+        "duration": 75,
         "vertical": false,
-        "channel": "Bermuda Martial Arts",
-        "duration": 138,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "o0TTMzFEG0Q",
-        "title": "Shin to Shin to Single Leg X Progression",
-        "by": "Robyn Sheehan",
-        "vertical": false,
-        "channel": "Robyn Sheehan",
-        "duration": 128,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "dARW8ARiMcA",
-        "title": "Shin to Shin to Double Leg Takedown",
-        "by": "Michael Hoffman",
-        "vertical": false,
-        "channel": "Michael Hoffman",
-        "duration": 40,
-        "verified": "2026-07-14"
+        "front": true
       }
     ]
   },

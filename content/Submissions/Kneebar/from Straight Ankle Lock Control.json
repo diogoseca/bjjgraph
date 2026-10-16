@@ -434,21 +434,10 @@
     "clips": [
       {
         "id": "B8q8wZx0b74",
-        "title": "Ankle Lock to Kneebar Transition",
-        "by": "Elevate MMA",
-        "vertical": false,
+        "title": "Ankle Lock to Knee Bar to Heel Hook transitions",
         "channel": "Elevate MMA Academy",
-        "duration": 94,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "mv5hY9YFUdU",
-        "title": "Lateral Kneebar (Z-Lock)",
-        "by": "jamielovesmartialarts",
-        "vertical": false,
-        "channel": "jamielovesmartialarts",
-        "duration": 66,
-        "verified": "2026-07-14"
+        "duration": 93,
+        "vertical": false
       }
     ]
   },
@@ -619,21 +608,18 @@
     "clips": [
       {
         "id": "3zJthP57wXw",
-        "title": "Kneebar Escape",
-        "by": "Darren Branch",
-        "vertical": false,
+        "title": "Kneebar Escape by Darren Branch | High Rollerz Academy - Jiu Jitsu…",
         "channel": "High Rollerz Jiu Jitsu 💨🥋",
-        "duration": 74,
-        "verified": "2026-07-14"
+        "duration": 73,
+        "vertical": false,
+        "front": true
       },
       {
         "id": "NuWBh3LN-SY",
-        "title": "Kneebar Defense + Take the Back",
-        "by": "Bicudo BJJ",
-        "vertical": false,
+        "title": "Knee Bar defense + take the back",
         "channel": "Bicudo BJJ",
-        "duration": 22,
-        "verified": "2026-07-14"
+        "duration": 21,
+        "vertical": false
       }
     ]
   }

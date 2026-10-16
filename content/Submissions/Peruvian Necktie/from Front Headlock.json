@@ -450,31 +450,12 @@
     ],
     "clips": [
       {
-        "id": "7J0hJPRPpRQ",
-        "title": "Peruvian Necktie",
-        "by": "Keith Krikorian",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 87,
-        "verified": "2026-07-14"
-      },
-      {
         "id": "4ob2ZrEH3Yc",
-        "title": "Front Headlock to Peruvian Necktie",
-        "by": "Gile23",
-        "vertical": false,
+        "title": "Front headlock to Peruvian necktie",
         "channel": "Gile23",
         "duration": 113,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "WpQIntujyFU",
-        "title": "Peruvian Necktie",
-        "by": "Luke Harris",
         "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 106,
-        "verified": "2026-07-14"
+        "front": true
       }
     ]
   },
@@ -670,34 +651,6 @@
         "description": "Positional sparring starting from front headlock bottom. Partner can attack with any submission including the Peruvian Necktie. Practice identifying which attack is coming and applying the correct defensive response. Emphasis on distinguishing necktie from guillotine and darce setups in real time."
       }
     ],
-    "clips": [
-      {
-        "id": "FuNT7N9X8y8",
-        "title": "Peruvian Necktie Escape",
-        "by": "Chosen Few BJJ",
-        "vertical": false,
-        "channel": "Chosen Few BJJ",
-        "duration": 183,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "OZkTT8kT1G8",
-        "title": "Clearing the Front Headlock",
-        "by": "The School of Wrestling",
-        "vertical": false,
-        "channel": "The School of Wrestling",
-        "duration": 86,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "5rVU51Brvs4",
-        "title": "Turtle Escape from the Front Headlock",
-        "by": "Jiu Jitsu Five-O",
-        "vertical": false,
-        "channel": "Jiu Jitsu Five-O // Street-Ready BJJ Training",
-        "duration": 49,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   }
 }

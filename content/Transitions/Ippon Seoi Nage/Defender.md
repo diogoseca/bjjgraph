@@ -161,35 +161,22 @@ description: "How to defend Ippon Seoi Nage in BJJ. Recognition cues, sprawl def
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "How to counter ippon seoi nage",
-      "description": "Ippon Seoi Nage (Defender) film study: How to counter ippon seoi nage, taught by Brian Glick.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/-nDnM3ISa4w/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/-nDnM3ISa4w",
-      "url": "https://www.youtube.com/watch?v=-nDnM3ISa4w",
-      "creator": { "@type": "Person", "name": "Brian Glick" },
-      "duration": "PT71S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Counter seoi nage with a quick foot sweep",
-      "description": "Ippon Seoi Nage (Defender) film study: Counter seoi nage with a quick foot sweep, taught by Judoroland.",
+      "name": "Learn how to counter seoi-nage with a quick foot sweep",
+      "description": "Ippon Seoi Nage (Defender) film study: Learn how to counter seoi-nage with a quick foot sweep.",
       "thumbnailUrl": "https://i.ytimg.com/vi/qEE09xFbu8I/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/qEE09xFbu8I",
       "url": "https://www.youtube.com/watch?v=qEE09xFbu8I",
-      "creator": { "@type": "Person", "name": "Judoroland" },
       "duration": "PT28S"
     },
     {
       "@type": "VideoObject",
-      "position": 3,
-      "name": "Judo throw counter-attacks",
-      "description": "Ippon Seoi Nage (Defender) film study: Judo throw counter-attacks, taught by Shintaro Higashi.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/C7HnA1zd5Rs/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/C7HnA1zd5Rs",
-      "url": "https://www.youtube.com/watch?v=C7HnA1zd5Rs",
-      "creator": { "@type": "Person", "name": "Shintaro Higashi" },
-      "duration": "PT161S"
+      "position": 2,
+      "name": "How To Counter Judo\u0027s Most Common Throw - Ippon Seoi Nage (DON\u2019T TRY THIS!) -\u2026",
+      "description": "Ippon Seoi Nage (Defender) film study: How To Counter Judo\u0027s Most Common Throw - Ippon Seoi Nage (DON\u2019T TRY THIS!) -\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-nDnM3ISa4w/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/-nDnM3ISa4w",
+      "url": "https://www.youtube.com/watch?v=-nDnM3ISa4w",
+      "duration": "PT71S"
     }
   ]
 }
@@ -222,25 +209,17 @@ The defender's primary tools are posture management to resist off-balancing, hip
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=-nDnM3ISa4w)
-
-<p class="clip-credit"><strong>How to counter ippon seoi nage</strong> — taught by Brian Glick · 1:11 · <a href="https://www.youtube.com/watch?v=-nDnM3ISa4w" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=qEE09xFbu8I)
 
-<p class="clip-credit"><strong>Counter seoi nage with a quick foot sweep</strong> — taught by Judoroland · 0:28 · <a href="https://www.youtube.com/watch?v=qEE09xFbu8I" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Learn how to counter seoi-nage with a quick foot sweep</strong> · 0:28 · <a href="https://www.youtube.com/watch?v=qEE09xFbu8I" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=C7HnA1zd5Rs)
+![](https://www.youtube.com/watch?v=-nDnM3ISa4w)
 
-<p class="clip-credit"><strong>Judo throw counter-attacks</strong> — taught by Shintaro Higashi · 2:41 · <a href="https://www.youtube.com/watch?v=C7HnA1zd5Rs" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How To Counter Judo&#39;s Most Common Throw - Ippon Seoi Nage (DON’T TRY THIS!) -…</strong> · 1:11 · <a href="https://www.youtube.com/watch?v=-nDnM3ISa4w" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -170,24 +170,12 @@ description: "How to defend against Omoplata from Guard in BJJ. Recognition, esc
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Best Way to Escape the Omoplata Shoulder Lock",
-      "description": "Omoplata from Guard (Defender) film study: Best Way to Escape the Omoplata Shoulder Lock, taught by John Connors.",
+      "name": "\ud83d\udcaf BEST WAY to ESCAPE THE OMOPLATA Shoulder Lock",
+      "description": "Omoplata from Guard (Defender) film study: \ud83d\udcaf BEST WAY to ESCAPE THE OMOPLATA Shoulder Lock.",
       "thumbnailUrl": "https://i.ytimg.com/vi/ocIHY3jBYIQ/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/ocIHY3jBYIQ",
       "url": "https://www.youtube.com/watch?v=ocIHY3jBYIQ",
-      "creator": { "@type": "Person", "name": "John Connors" },
-      "duration": "PT62S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Quick Omoplata Escape",
-      "description": "Omoplata from Guard (Defender) film study: Quick Omoplata Escape, taught by Adam Bradley.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/HszTUEYJ-xE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/HszTUEYJ-xE",
-      "url": "https://www.youtube.com/watch?v=HszTUEYJ-xE",
-      "creator": { "@type": "Person", "name": "Adam Bradley" },
-      "duration": "PT36S"
+      "duration": "PT61S"
     }
   ]
 }
@@ -218,15 +206,7 @@ Defending the Omoplata from Guard requires early recognition, immediate posture 
 
 ![](https://www.youtube.com/watch?v=ocIHY3jBYIQ)
 
-<p class="clip-credit"><strong>Best Way to Escape the Omoplata Shoulder Lock</strong> — taught by John Connors · 1:02 · <a href="https://www.youtube.com/watch?v=ocIHY3jBYIQ" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=HszTUEYJ-xE)
-
-<p class="clip-credit"><strong>Quick Omoplata Escape</strong> — taught by Adam Bradley · 0:36 · <a href="https://www.youtube.com/watch?v=HszTUEYJ-xE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>💯 BEST WAY to ESCAPE THE OMOPLATA Shoulder Lock</strong> · 1:01 · <a href="https://www.youtube.com/watch?v=ocIHY3jBYIQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

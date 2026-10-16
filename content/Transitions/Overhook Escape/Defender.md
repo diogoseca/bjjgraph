@@ -150,39 +150,6 @@ description: "How to maintain New York Control and counter the Overhook Escape i
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Overhook Escape (Defender) \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Over/Under Control from Rubber Guard",
-      "description": "Overhook Escape (Defender) film study: Over/Under Control from Rubber Guard, taught by Eddie Bravo.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/5fp5Nh_9jE4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/5fp5Nh_9jE4",
-      "url": "https://www.youtube.com/watch?v=5fp5Nh_9jE4",
-      "creator": { "@type": "Person", "name": "Eddie Bravo" },
-      "duration": "PT216S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Eddie Bravo explains Rubber Guard control",
-      "description": "Overhook Escape (Defender) film study: Eddie Bravo explains Rubber Guard control, taught by Eddie Bravo.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/h1XzZDsUxHQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/h1XzZDsUxHQ",
-      "url": "https://www.youtube.com/watch?v=h1XzZDsUxHQ",
-      "creator": { "@type": "Person", "name": "Eddie Bravo" },
-      "duration": "PT111S"
-    }
-  ]
-}
-</script>
-
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -199,32 +166,6 @@ Advanced defense integrates the threat of submission as a deterrent to extractio
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Overhook Escape (Defender) in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=5fp5Nh_9jE4)
-
-<p class="clip-credit"><strong>Over/Under Control from Rubber Guard</strong> — taught by Eddie Bravo · 3:36 · <a href="https://www.youtube.com/watch?v=5fp5Nh_9jE4" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=h1XzZDsUxHQ)
-
-<p class="clip-credit"><strong>Eddie Bravo explains Rubber Guard control</strong> — taught by Eddie Bravo · 1:51 · <a href="https://www.youtube.com/watch?v=h1XzZDsUxHQ" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="recognition-cues" class="content-section">

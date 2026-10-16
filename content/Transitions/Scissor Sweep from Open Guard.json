@@ -367,31 +367,12 @@
     "safety_considerations": "The scissor sweep is generally a low-risk technique with minimal injury potential during controlled training. Ensure measured execution when the sweep succeeds to avoid slamming your partner onto the mat during drilling sessions. The bottom leg's cutting action against the opponent's knee should be firm but controlled - excessive force can strain your training partner's knee ligaments if their foot catches on the mat during the fall. Always allow your partner space to breakfall safely when the sweep completes, and communicate during high-intensity repetitions to maintain a safe training environment.",
     "clips": [
       {
-        "id": "dMcMblcXhF0",
-        "title": "Roger Gracie: sweep from closed guard",
-        "by": "Roger Gracie",
-        "vertical": false,
-        "channel": "Gentle Art Media",
-        "duration": 73,
-        "verified": "2026-07-15"
-      },
-      {
         "id": "-wWHC0uqVAA",
-        "title": "Royce Gracie scissor sweep demo",
-        "by": "Royce Gracie",
-        "vertical": false,
+        "title": "Royce Gracie - Scissor Sweep",
         "channel": "Gracie Jiu Jitsu Goldsboro",
         "duration": 12,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "S38J412QoW8",
-        "title": "Scissor sweep competition compilation",
-        "by": "Bennett Smolen",
         "vertical": false,
-        "channel": "Bennett Smolen",
-        "duration": 59,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },
@@ -559,21 +540,11 @@
     "clips": [
       {
         "id": "Ke2QNnPRrWQ",
-        "title": "Defending the scissor sweep position",
-        "by": "Top Level Youth Competition Team",
-        "vertical": false,
+        "title": "Defending the Scissor Sweep Position",
         "channel": "Top Level Youth Competition Team",
         "duration": 37,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "kNfVYhZbgrg",
-        "title": "Four levels of sweep defense",
-        "by": "Wim Deputter",
         "vertical": false,
-        "channel": "Wim Deputter BJJ",
-        "duration": 87,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   }

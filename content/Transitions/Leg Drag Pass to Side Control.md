@@ -46,35 +46,12 @@ description: "Master the Leg Drag Pass to Side Control in BJJ. Step-by-step cons
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Leg drag pass finishing behind the guard",
-      "description": "Leg Drag Pass to Side Control film study: Leg drag pass finishing behind the guard, taught by Ben, Combat Room BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/4xplJQ-FFvI/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/4xplJQ-FFvI",
-      "url": "https://www.youtube.com/watch?v=4xplJQ-FFvI",
-      "creator": { "@type": "Person", "name": "Ben, Combat Room BJJ" },
-      "duration": "PT75S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Ways to Approach the Leg Drag",
-      "description": "Leg Drag Pass to Side Control film study: Ways to Approach the Leg Drag, taught by Andre Galvao.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/fOP69UqQ-VM/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/fOP69UqQ-VM",
-      "url": "https://www.youtube.com/watch?v=fOP69UqQ-VM",
-      "creator": { "@type": "Person", "name": "Andre Galvao" },
-      "duration": "PT504S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "How to Leg Drag (Advanced) - Seminar Breakdown",
-      "description": "Leg Drag Pass to Side Control film study: How to Leg Drag (Advanced) - Seminar Breakdown, taught by Gui Mendes.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/72Sn9CBYX90/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/72Sn9CBYX90",
-      "url": "https://www.youtube.com/watch?v=72Sn9CBYX90",
-      "creator": { "@type": "Person", "name": "Gui Mendes" },
-      "duration": "PT151S"
+      "name": "LEANDRO Lo -  Leg drag defense with technical stand up",
+      "description": "Leg Drag Pass to Side Control film study: LEANDRO Lo -  Leg drag defense with technical stand up.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fO9mvIlh4Yw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fO9mvIlh4Yw",
+      "url": "https://www.youtube.com/watch?v=fO9mvIlh4Yw",
+      "duration": "PT200S"
     }
   ]
 }
@@ -128,25 +105,9 @@ Strategically, this pass should be executed when the opponent flattens out rathe
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=4xplJQ-FFvI)
+![](https://www.youtube.com/watch?v=fO9mvIlh4Yw)
 
-<p class="clip-credit"><strong>Leg drag pass finishing behind the guard</strong> — taught by Ben, Combat Room BJJ · 1:15 · <a href="https://www.youtube.com/watch?v=4xplJQ-FFvI" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=fOP69UqQ-VM)
-
-<p class="clip-credit"><strong>Ways to Approach the Leg Drag</strong> — taught by Andre Galvao · 8:24 · <a href="https://www.youtube.com/watch?v=fOP69UqQ-VM" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=72Sn9CBYX90)
-
-<p class="clip-credit"><strong>How to Leg Drag (Advanced) - Seminar Breakdown</strong> — taught by Gui Mendes · 2:31 · <a href="https://www.youtube.com/watch?v=72Sn9CBYX90" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>LEANDRO Lo -  Leg drag defense with technical stand up</strong> · 3:20 · <a href="https://www.youtube.com/watch?v=fO9mvIlh4Yw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

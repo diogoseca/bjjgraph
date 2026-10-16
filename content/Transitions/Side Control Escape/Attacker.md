@@ -180,35 +180,32 @@ description: "How to execute Side Control Escape in BJJ. Systematic frame-based 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Side control escape with the reverse hip escape",
-      "description": "Side Control Escape (Attacker) film study: Side control escape with the reverse hip escape, taught by Fox Den Martial Arts.",
+      "name": "Side Control Escapes Series - Reverse Hip Escape",
+      "description": "Side Control Escape (Attacker) film study: Side Control Escapes Series - Reverse Hip Escape.",
       "thumbnailUrl": "https://i.ytimg.com/vi/4L25UQntnPg/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/4L25UQntnPg",
       "url": "https://www.youtube.com/watch?v=4L25UQntnPg",
-      "creator": { "@type": "Person", "name": "Fox Den Martial Arts" },
-      "duration": "PT25S"
+      "duration": "PT24S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Side control recovery to guard",
-      "description": "Side Control Escape (Attacker) film study: Side control recovery to guard, taught by Science Of JiuJitsu.",
+      "name": "Side Control recovery to guard",
+      "description": "Side Control Escape (Attacker) film study: Side Control recovery to guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/br0-osUjx7c/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/br0-osUjx7c",
       "url": "https://www.youtube.com/watch?v=br0-osUjx7c",
-      "creator": { "@type": "Person", "name": "Science Of JiuJitsu" },
       "duration": "PT42S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "Guard recovery from bottom side control",
-      "description": "Side Control Escape (Attacker) film study: Guard recovery from bottom side control, taught by Academy Jiu Jitsu.",
+      "name": "Side Control (Bottom): Guard Recovery (Cross Face)",
+      "description": "Side Control Escape (Attacker) film study: Side Control (Bottom): Guard Recovery (Cross Face).",
       "thumbnailUrl": "https://i.ytimg.com/vi/QH9-1I5XqO4/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/QH9-1I5XqO4",
       "url": "https://www.youtube.com/watch?v=QH9-1I5XqO4",
-      "creator": { "@type": "Person", "name": "Academy Jiu Jitsu" },
-      "duration": "PT105S"
+      "duration": "PT104S"
     }
   ]
 }
@@ -238,7 +235,7 @@ The Side Control Escape from the attacker's perspective is a systematic defensiv
 
 ![](https://www.youtube.com/watch?v=4L25UQntnPg)
 
-<p class="clip-credit"><strong>Side control escape with the reverse hip escape</strong> — taught by Fox Den Martial Arts · 0:25 · <a href="https://www.youtube.com/watch?v=4L25UQntnPg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Side Control Escapes Series - Reverse Hip Escape</strong> · 0:24 · <a href="https://www.youtube.com/watch?v=4L25UQntnPg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -246,7 +243,7 @@ The Side Control Escape from the attacker's perspective is a systematic defensiv
 
 ![](https://www.youtube.com/watch?v=br0-osUjx7c)
 
-<p class="clip-credit"><strong>Side control recovery to guard</strong> — taught by Science Of JiuJitsu · 0:42 · <a href="https://www.youtube.com/watch?v=br0-osUjx7c" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Side Control recovery to guard</strong> · 0:42 · <a href="https://www.youtube.com/watch?v=br0-osUjx7c" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -254,7 +251,7 @@ The Side Control Escape from the attacker's perspective is a systematic defensiv
 
 ![](https://www.youtube.com/watch?v=QH9-1I5XqO4)
 
-<p class="clip-credit"><strong>Guard recovery from bottom side control</strong> — taught by Academy Jiu Jitsu · 1:45 · <a href="https://www.youtube.com/watch?v=QH9-1I5XqO4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Side Control (Bottom): Guard Recovery (Cross Face)</strong> · 1:44 · <a href="https://www.youtube.com/watch?v=QH9-1I5XqO4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

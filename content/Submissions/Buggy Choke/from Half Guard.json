@@ -613,31 +613,26 @@
     ],
     "clips": [
       {
-        "id": "0VDUwuyT6N4",
-        "title": "How To Buggy Choke",
-        "by": "Yoga for BJJ",
+        "id": "ZBOagHWTCFw",
+        "title": "Buggy choke from half guard: Moncaio Brothers JiuJitsu",
+        "channel": "Moncaio Brothers Jiujitsu",
+        "duration": 33,
         "vertical": false,
-        "channel": "Yoga for BJJ",
-        "duration": 71,
-        "verified": "2026-07-14"
+        "front": true
       },
       {
         "id": "zixbOyLpoOc",
-        "title": "The OG Buggy Choke",
-        "by": "Kade and Tye Ruotolo",
-        "vertical": false,
+        "title": "The OG Buggy Choke by Kade and Tye Ruotolo",
         "channel": "BJJ Fanatics",
         "duration": 138,
-        "verified": "2026-07-14"
+        "vertical": false
       },
       {
         "id": "0_3YYrWEGoU",
-        "title": "3 Buggy Choke Concepts",
-        "by": "Kade and Tye Ruotolo",
-        "vertical": false,
+        "title": "3 Buggy Choke Concepts by Kade and Tye Ruotolo",
         "channel": "BJJ Fanatics",
         "duration": 201,
-        "verified": "2026-07-14"
+        "vertical": false
       }
     ]
   },
@@ -905,30 +900,18 @@
     "clips": [
       {
         "id": "6na3oiDkWek",
-        "title": "No Gi Buggy Choke Counter/Defence",
-        "by": "SD BJJ Australia",
-        "vertical": false,
+        "title": "No Gi Buggy Choke & Counter/Defence BJJ",
         "channel": "SD BJJ AUSTRALIA",
         "duration": 81,
-        "verified": "2026-07-14"
+        "vertical": false,
+        "front": true
       },
       {
         "id": "6VmI-HMAQso",
-        "title": "How To Defend the Dreaded Buggy Choke",
-        "by": "MMA Leech",
-        "vertical": false,
+        "title": "How To Defend Against The Dreaded Buggy Choke",
         "channel": "MMA Leech",
-        "duration": 239,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "jMIn4CQ3khE",
-        "title": "Buggy Choke Recovery",
-        "by": "Zach Maslany",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 153,
-        "verified": "2026-07-14"
+        "duration": 238,
+        "vertical": false
       }
     ]
   },

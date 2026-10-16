@@ -47,24 +47,22 @@ description: "Invert from De La Riva Guard into the inverted Grasshopper Guard t
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Inversion mechanics for guard entries",
-      "description": "De La Riva to Grasshopper Guard film study: Inversion mechanics for guard entries, taught by Mikey Musumeci.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/KNz5AkZ4jrg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/KNz5AkZ4jrg",
-      "url": "https://www.youtube.com/watch?v=KNz5AkZ4jrg",
-      "creator": { "@type": "Person", "name": "Mikey Musumeci" },
-      "duration": "PT72S"
+      "name": "De La Riva to Berimbolo to Leg Drag.",
+      "description": "De La Riva to Grasshopper Guard film study: De La Riva to Berimbolo to Leg Drag..",
+      "thumbnailUrl": "https://i.ytimg.com/vi/BG3c7JlQbow/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/BG3c7JlQbow",
+      "url": "https://www.youtube.com/watch?v=BG3c7JlQbow",
+      "duration": "PT27S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Tip to improve your De La Riva hook",
-      "description": "De La Riva to Grasshopper Guard film study: Tip to improve your De La Riva hook, taught by Absolute MMA St Kilda.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/eO0iX_6Whaw/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/eO0iX_6Whaw",
-      "url": "https://www.youtube.com/watch?v=eO0iX_6Whaw",
-      "creator": { "@type": "Person", "name": "Absolute MMA St Kilda" },
-      "duration": "PT71S"
+      "name": "Guarda dela riva com berimbolo",
+      "description": "De La Riva to Grasshopper Guard film study: Guarda dela riva com berimbolo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2BHshl7AeGU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2BHshl7AeGU",
+      "url": "https://www.youtube.com/watch?v=2BHshl7AeGU",
+      "duration": "PT34S"
     }
   ]
 }
@@ -121,17 +119,17 @@ The trade-off is real. Inverting concedes upper-body connection and is energy-ex
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=KNz5AkZ4jrg)
+![](https://www.youtube.com/watch?v=BG3c7JlQbow)
 
-<p class="clip-credit"><strong>Inversion mechanics for guard entries</strong> — taught by Mikey Musumeci · 1:12 · <a href="https://www.youtube.com/watch?v=KNz5AkZ4jrg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>De La Riva to Berimbolo to Leg Drag.</strong> · 0:27 · <a href="https://www.youtube.com/watch?v=BG3c7JlQbow" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=eO0iX_6Whaw)
+![](https://www.youtube.com/watch?v=2BHshl7AeGU)
 
-<p class="clip-credit"><strong>Tip to improve your De La Riva hook</strong> — taught by Absolute MMA St Kilda · 1:11 · <a href="https://www.youtube.com/watch?v=eO0iX_6Whaw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Guarda dela riva com berimbolo</strong> · 0:34 · <a href="https://www.youtube.com/watch?v=2BHshl7AeGU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

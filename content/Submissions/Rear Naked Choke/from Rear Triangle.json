@@ -424,30 +424,18 @@
     "clips": [
       {
         "id": "Sb-atqD_TqQ",
-        "title": "Short Choke from Back Position",
-        "by": "Cosens MMA",
-        "vertical": false,
+        "title": "Short Choke from Back Position (Jiu Jitsu)",
         "channel": "Cosens MMA LLC",
-        "duration": 55,
-        "verified": "2026-07-14"
+        "duration": 54,
+        "vertical": false,
+        "front": true
       },
       {
         "id": "F5o8VrMw1SE",
-        "title": "Back Take and Rear Naked Choke",
-        "by": "Dr. Deng",
-        "vertical": false,
+        "title": "14. Back Take and Rear Naked Choke",
         "channel": "Dr. Deng",
         "duration": 27,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "-lMabjvtaLk",
-        "title": "Entries Into Rear Triangle Back Position",
-        "by": "John Danaher",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 252,
-        "verified": "2026-07-14"
+        "vertical": false
       }
     ]
   },
@@ -623,30 +611,10 @@
     "clips": [
       {
         "id": "X1pU1OdFhtU",
-        "title": "Escaping the Rear Naked Choke",
-        "by": "Usher BJJ",
-        "vertical": false,
+        "title": "Escaping Rear Naked Choke - Brazilian Jiujitsu Choke - Usher Bjj",
         "channel": "USHER BJJ",
         "duration": 89,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "ALOnfwB5yGQ",
-        "title": "Escaping the body triangle from the back",
-        "by": "Jiu-Jitsu Times",
-        "vertical": false,
-        "channel": "Jiu-Jitsu Times",
-        "duration": 216,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "RscLPT0F-DE",
-        "title": "Best way to escape the body triangle",
-        "by": "Gordon Ryan",
-        "vertical": false,
-        "channel": "Bernardo Faria BJJ Fanatics",
-        "duration": 595,
-        "verified": "2026-07-15"
+        "vertical": false
       }
     ]
   }

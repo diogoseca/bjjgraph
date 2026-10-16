@@ -142,28 +142,6 @@ description: "Defend against the hip escape from Ushiro Kesa Gatame. Learn to re
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Escape Ushiro Kesa Gatame (Defender) \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Holding and attacking from kesa gatame",
-      "description": "Escape Ushiro Kesa Gatame (Defender) film study: Holding and attacking from kesa gatame, taught by Stephan Kesting.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/nKITSItbeyM/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/nKITSItbeyM",
-      "url": "https://www.youtube.com/watch?v=nKITSItbeyM",
-      "creator": { "@type": "Person", "name": "Stephan Kesting" },
-      "duration": "PT220S"
-    }
-  ]
-}
-</script>
-
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -176,24 +154,6 @@ Defending against the hip escape from Ushiro Kesa Gatame requires the top player
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Escape Ushiro Kesa Gatame (Defender) in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=nKITSItbeyM)
-
-<p class="clip-credit"><strong>Holding and attacking from kesa gatame</strong> — taught by Stephan Kesting · 3:40 · <a href="https://www.youtube.com/watch?v=nKITSItbeyM" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="recognition-cues" class="content-section">

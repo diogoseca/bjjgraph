@@ -192,24 +192,12 @@ description: "Learn to execute the armbar from clamp guard with precision. Step-
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Closed guard pull straight to armbar",
-      "description": "Armbar from Clamp Guard (Attacker) film study: Closed guard pull straight to armbar, taught by Satori BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/F4Ns40AnI3Q/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/F4Ns40AnI3Q",
-      "url": "https://www.youtube.com/watch?v=F4Ns40AnI3Q",
-      "creator": { "@type": "Person", "name": "Satori BJJ" },
-      "duration": "PT41S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Rolling armbar from closed guard",
-      "description": "Armbar from Clamp Guard (Attacker) film study: Rolling armbar from closed guard, taught by Pure Art BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/e995R56aRTU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/e995R56aRTU",
-      "url": "https://www.youtube.com/watch?v=e995R56aRTU",
-      "creator": { "@type": "Person", "name": "Pure Art BJJ" },
-      "duration": "PT19S"
+      "name": "Clamp Guard Armbar",
+      "description": "Armbar from Clamp Guard (Attacker) film study: Clamp Guard Armbar.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CerSOcBWsKM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/CerSOcBWsKM",
+      "url": "https://www.youtube.com/watch?v=CerSOcBWsKM",
+      "duration": "PT87S"
     }
   ]
 }
@@ -237,17 +225,9 @@ The armbar from clamp guard is a high-percentage submission setup that capitaliz
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=F4Ns40AnI3Q)
+![](https://www.youtube.com/watch?v=CerSOcBWsKM)
 
-<p class="clip-credit"><strong>Closed guard pull straight to armbar</strong> — taught by Satori BJJ · 0:41 · <a href="https://www.youtube.com/watch?v=F4Ns40AnI3Q" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=e995R56aRTU)
-
-<p class="clip-credit"><strong>Rolling armbar from closed guard</strong> — taught by Pure Art BJJ · 0:19 · <a href="https://www.youtube.com/watch?v=e995R56aRTU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Clamp Guard Armbar</strong> · 1:27 · <a href="https://www.youtube.com/watch?v=CerSOcBWsKM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

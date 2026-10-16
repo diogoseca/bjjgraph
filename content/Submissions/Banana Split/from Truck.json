@@ -470,31 +470,25 @@
     ],
     "clips": [
       {
-        "id": "OUDbEh7cr4k",
-        "title": "Banana Split",
-        "by": "Bowerhouse MMA",
-        "vertical": false,
-        "channel": "BOWERHOUSE MMA",
-        "duration": 57,
-        "verified": "2026-07-14"
+        "id": "AKmsVbDMo6o",
+        "title": "Banana split from the truck - Learn to Grapple",
+        "channel": "Precision Boxing & MMA",
+        "duration": 120,
+        "front": true
       },
       {
-        "id": "sCBGkcJCQYY",
-        "title": "The Truck In Transition",
-        "by": "Eddie Bravo",
-        "vertical": false,
-        "channel": "Eddie Bravo",
-        "duration": 61,
-        "verified": "2026-07-14"
+        "id": "OUDbEh7cr4k",
+        "title": "Banana Split",
+        "channel": "BOWERHOUSE MMA",
+        "duration": 57,
+        "vertical": false
       },
       {
         "id": "W6rQi-vPhsw",
-        "title": "Turtle attacks: calf slicer to banana split",
-        "by": "Renzo Gracie Holland",
-        "vertical": false,
+        "title": "No Gi Turtle Attacks   calfslicer to bananasplit to twister to armlock   short",
         "channel": "RENZO GRACIE HOLLAND",
         "duration": 61,
-        "verified": "2026-07-14"
+        "vertical": false
       }
     ]
   },
@@ -681,29 +675,16 @@
       {
         "id": "BbpHFRU7Irs",
         "title": "Duck Spladle Banana Split Escape",
-        "by": "Triple Victory",
-        "vertical": false,
         "channel": "Triple Victory",
         "duration": 62,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "NhxDerwXxSU",
-        "title": "Counter the truck by flipping it",
-        "by": "Brandon McCaghren",
-        "vertical": false,
-        "channel": "Brandon Mccaghren",
-        "duration": 640,
-        "verified": "2026-07-15"
+        "vertical": false
       },
       {
         "id": "E_4Qtm1I9T0",
-        "title": "Banana split and its defense",
-        "by": "Daniel Lima",
-        "vertical": false,
+        "title": "Banana Split and Defence",
         "channel": "Daniel Lima",
         "duration": 69,
-        "verified": "2026-07-15"
+        "vertical": false
       }
     ]
   },

@@ -162,35 +162,22 @@ description: "Complete defensive guide against the North-South Choke from Kuzure
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Defending the north south choke",
-      "description": "North-South Choke from Kuzure Kesa Gatame (Defender) film study: Defending the north south choke, taught by Joel Bouhey.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/AyL9eW7ytq4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/AyL9eW7ytq4",
-      "url": "https://www.youtube.com/watch?v=AyL9eW7ytq4",
-      "creator": { "@type": "Person", "name": "Joel Bouhey" },
+      "name": "\u201cHook-Plata\u201d  (North-South Choke Escape)",
+      "description": "North-South Choke from Kuzure Kesa Gatame (Defender) film study: \u201cHook-Plata\u201d  (North-South Choke Escape).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/O-2iSvT8zDk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/O-2iSvT8zDk",
+      "url": "https://www.youtube.com/watch?v=O-2iSvT8zDk",
       "duration": "PT59S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Hook-Plata North-South choke escape",
-      "description": "North-South Choke from Kuzure Kesa Gatame (Defender) film study: Hook-Plata North-South choke escape, taught by Erik Koehne.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/O-2iSvT8zDk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/O-2iSvT8zDk",
-      "url": "https://www.youtube.com/watch?v=O-2iSvT8zDk",
-      "creator": { "@type": "Person", "name": "Erik Koehne" },
+      "name": "Defending the north south choke.",
+      "description": "North-South Choke from Kuzure Kesa Gatame (Defender) film study: Defending the north south choke..",
+      "thumbnailUrl": "https://i.ytimg.com/vi/AyL9eW7ytq4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/AyL9eW7ytq4",
+      "url": "https://www.youtube.com/watch?v=AyL9eW7ytq4",
       "duration": "PT59S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "North south escape",
-      "description": "North-South Choke from Kuzure Kesa Gatame (Defender) film study: North south escape, taught by Moncaio Brothers.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/2EZfzJb_-tA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/2EZfzJb_-tA",
-      "url": "https://www.youtube.com/watch?v=2EZfzJb_-tA",
-      "creator": { "@type": "Person", "name": "Moncaio Brothers" },
-      "duration": "PT24S"
     }
   ]
 }
@@ -219,25 +206,17 @@ Defending the North-South Choke from Kuzure Kesa Gatame demands early recognitio
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=AyL9eW7ytq4)
-
-<p class="clip-credit"><strong>Defending the north south choke</strong> — taught by Joel Bouhey · 0:59 · <a href="https://www.youtube.com/watch?v=AyL9eW7ytq4" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=O-2iSvT8zDk)
 
-<p class="clip-credit"><strong>Hook-Plata North-South choke escape</strong> — taught by Erik Koehne · 0:59 · <a href="https://www.youtube.com/watch?v=O-2iSvT8zDk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>“Hook-Plata”  (North-South Choke Escape)</strong> · 0:59 · <a href="https://www.youtube.com/watch?v=O-2iSvT8zDk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=2EZfzJb_-tA)
+![](https://www.youtube.com/watch?v=AyL9eW7ytq4)
 
-<p class="clip-credit"><strong>North south escape</strong> — taught by Moncaio Brothers · 0:24 · <a href="https://www.youtube.com/watch?v=2EZfzJb_-tA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Defending the north south choke.</strong> · 0:59 · <a href="https://www.youtube.com/watch?v=AyL9eW7ytq4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

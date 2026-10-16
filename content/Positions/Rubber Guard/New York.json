@@ -461,26 +461,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "iwcfKUPNZNs",
-        "title": "Why Rubber Guard fails: the top player's counters",
-        "by": "Brandon Mccaghren",
-        "vertical": false,
-        "channel": "Brandon Mccaghren",
-        "duration": 792,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "NfR86wov0f8",
-        "title": "Rubber Guard theory from both sides",
-        "by": "Eddie Bravo",
-        "vertical": false,
-        "channel": "Submissions101",
-        "duration": 264,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "bottom": {
     "name": "New York Bottom",
@@ -887,22 +868,12 @@
     ],
     "clips": [
       {
-        "id": "jT4wPY2Dc_U",
-        "title": "Dead Orchard Armbar from Rubber Guard",
-        "by": "Eddie Bravo",
+        "id": "wUDqbU2jwxg",
+        "title": "Rubber Guard 101: Zombie, New York, Chill Dog, Jiu Claw (omoplata)",
+        "channel": "Submissions101",
+        "duration": 278,
         "vertical": false,
-        "channel": "James O'Brien",
-        "duration": 88,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "Cllvkg2qg-w",
-        "title": "Rubber Guard Live Drills",
-        "by": "Eddie Bravo",
-        "vertical": false,
-        "channel": "Eddie Bravo",
-        "duration": 61,
-        "verified": "2026-07-14"
+        "front": true
       }
     ]
   },
@@ -1020,24 +991,5 @@
       }
     }
   ],
-  "clips": [
-    {
-      "id": "tWAZbCiWQ9E",
-      "title": "Rubber Guard Philosophy",
-      "by": "Eddie Bravo",
-      "vertical": false,
-      "channel": "Eddie Bravo",
-      "duration": 61,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "h1XzZDsUxHQ",
-      "title": "Eddie Bravo explains Rubber Guard",
-      "by": "Eddie Bravo",
-      "vertical": false,
-      "channel": "JAN FERNANDEZ ",
-      "duration": 111,
-      "verified": "2026-07-14"
-    }
-  ]
+  "clips": []
 }

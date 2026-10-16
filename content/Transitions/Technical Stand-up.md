@@ -46,35 +46,22 @@ description: "Master Technical Stand-up in BJJ. Essential escape from bottom to 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Technical stand up from half guard bottom",
-      "description": "Technical Stand-up film study: Technical stand up from half guard bottom, taught by Steve Haydock.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/LXTH9mOWCww/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/LXTH9mOWCww",
-      "url": "https://www.youtube.com/watch?v=LXTH9mOWCww",
-      "creator": { "@type": "Person", "name": "Steve Haydock" },
-      "duration": "PT162S"
+      "name": "How To Do The Technical Stand Up In Jiu Jitsu",
+      "description": "Technical Stand-up film study: How To Do The Technical Stand Up In Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/mr9HJep7zA0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/mr9HJep7zA0",
+      "url": "https://www.youtube.com/watch?v=mr9HJep7zA0",
+      "duration": "PT145S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "The four types of technical stand-up and when to use them",
-      "description": "Technical Stand-up film study: The four types of technical stand-up and when to use them, taught by Stephan Kesting.",
+      "name": "The Four Types of Technical Standup in BJJ and When to Use Them (with\u2026",
+      "description": "Technical Stand-up film study: The Four Types of Technical Standup in BJJ and When to Use Them (with\u2026.",
       "thumbnailUrl": "https://i.ytimg.com/vi/quMmk9Xs2HE/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/quMmk9Xs2HE",
       "url": "https://www.youtube.com/watch?v=quMmk9Xs2HE",
-      "creator": { "@type": "Person", "name": "Stephan Kesting" },
       "duration": "PT444S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "How to do the technical stand up",
-      "description": "Technical Stand-up film study: How to do the technical stand up, taught by Bam Bam Martial Arts.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/mr9HJep7zA0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/mr9HJep7zA0",
-      "url": "https://www.youtube.com/watch?v=mr9HJep7zA0",
-      "creator": { "@type": "Person", "name": "Bam Bam Martial Arts" },
-      "duration": "PT145S"
     }
   ]
 }
@@ -128,9 +115,9 @@ Mastery of the technical stand-up provides a reliable escape option from comprom
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=LXTH9mOWCww)
+![](https://www.youtube.com/watch?v=mr9HJep7zA0)
 
-<p class="clip-credit"><strong>Technical stand up from half guard bottom</strong> — taught by Steve Haydock · 2:42 · <a href="https://www.youtube.com/watch?v=LXTH9mOWCww" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How To Do The Technical Stand Up In Jiu Jitsu</strong> · 2:25 · <a href="https://www.youtube.com/watch?v=mr9HJep7zA0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -138,15 +125,7 @@ Mastery of the technical stand-up provides a reliable escape option from comprom
 
 ![](https://www.youtube.com/watch?v=quMmk9Xs2HE)
 
-<p class="clip-credit"><strong>The four types of technical stand-up and when to use them</strong> — taught by Stephan Kesting · 7:24 · <a href="https://www.youtube.com/watch?v=quMmk9Xs2HE" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=mr9HJep7zA0)
-
-<p class="clip-credit"><strong>How to do the technical stand up</strong> — taught by Bam Bam Martial Arts · 2:25 · <a href="https://www.youtube.com/watch?v=mr9HJep7zA0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>The Four Types of Technical Standup in BJJ and When to Use Them (with…</strong> · 7:24 · <a href="https://www.youtube.com/watch?v=quMmk9Xs2HE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

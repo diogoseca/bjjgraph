@@ -356,26 +356,7 @@
       }
     ],
     "safety_considerations": "This escape involves rapid spinal rotation under load, requiring proper warm-up and flexibility development before training. Never attempt with a pre-existing lower back or neck injury. When drilling, partners should release leg control progressively rather than holding through forced rotation to prevent knee and ankle strain on the escaping practitioner. Maintain dorsiflexion religiously—a relaxed foot during live training can result in heel hook injury even during successful escapes. If you feel your heel becoming exposed mid-rotation, tap immediately rather than hoping to complete the escape. When landing in turtle, protect your neck by tucking your chin; extended neck positions combined with back take attempts can cause cervical strain.",
-    "clips": [
-      {
-        "id": "3xEmPci_szw",
-        "title": "How to Escape the Inside Ashi Garami Heel Hook",
-        "by": "Eddie Cummings",
-        "vertical": false,
-        "channel": "Digitsu",
-        "duration": 164,
-        "verified": "2026-07-16"
-      },
-      {
-        "id": "L1cPlysOgvc",
-        "title": "Defend Ashi Garami and Take Your Opponent's Back",
-        "by": "Hellfish MMA Coach",
-        "vertical": false,
-        "channel": "Hellfish Mixed Martial Arts",
-        "duration": 785,
-        "verified": "2026-07-16"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Inversion to Turtle Defender",
@@ -553,17 +534,7 @@
         "description": "Full resistance rounds starting from Ushiro Ashi-Garami. Bottom player attempts all escape variations while top player integrates recognition, transition, and counter-attack skills in real-time. Develop the ability to chain defensive responses when the first option is countered."
       }
     ],
-    "clips": [
-      {
-        "id": "MqtG9kuVt-Q",
-        "title": "Leg Lock Escape - Roll Through",
-        "by": "Gordon Ryan",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 103,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "variants_and_adaptations": [
     {

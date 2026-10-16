@@ -162,34 +162,21 @@ description: "How to defend against Can Opener in BJJ. Recognition, escape paths
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Defending the can opener from closed guard",
-      "description": "Can Opener from Closed Guard (Defender) film study: Defending the can opener from closed guard, taught by Jean Jacques Machado.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/AaG3yEVcR74/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/AaG3yEVcR74",
-      "url": "https://www.youtube.com/watch?v=AaG3yEVcR74",
-      "creator": { "@type": "Person", "name": "Jean Jacques Machado" },
-      "duration": "PT93S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
       "name": "Can opener escape",
-      "description": "Can Opener from Closed Guard (Defender) film study: Can opener escape, taught by Animal.",
+      "description": "Can Opener from Closed Guard (Defender) film study: Can opener escape.",
       "thumbnailUrl": "https://i.ytimg.com/vi/WKT2yF6R3Fs/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/WKT2yF6R3Fs",
       "url": "https://www.youtube.com/watch?v=WKT2yF6R3Fs",
-      "creator": { "@type": "Person", "name": "Animal" },
       "duration": "PT57S"
     },
     {
       "@type": "VideoObject",
-      "position": 3,
-      "name": "Can opener counter with omoplata",
-      "description": "Can Opener from Closed Guard (Defender) film study: Can opener counter with omoplata, taught by The Grappling Bloke.",
+      "position": 2,
+      "name": "Can Opener Counter With Omoplata",
+      "description": "Can Opener from Closed Guard (Defender) film study: Can Opener Counter With Omoplata.",
       "thumbnailUrl": "https://i.ytimg.com/vi/fKA4O_RlXzk/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/fKA4O_RlXzk",
       "url": "https://www.youtube.com/watch?v=fKA4O_RlXzk",
-      "creator": { "@type": "Person", "name": "The Grappling Bloke" },
       "duration": "PT91S"
     }
   ]
@@ -219,17 +206,9 @@ Defending the Can Opener is among the most safety-critical defensive skills in B
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=AaG3yEVcR74)
-
-<p class="clip-credit"><strong>Defending the can opener from closed guard</strong> — taught by Jean Jacques Machado · 1:33 · <a href="https://www.youtube.com/watch?v=AaG3yEVcR74" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=WKT2yF6R3Fs)
 
-<p class="clip-credit"><strong>Can opener escape</strong> — taught by Animal · 0:57 · <a href="https://www.youtube.com/watch?v=WKT2yF6R3Fs" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Can opener escape</strong> · 0:57 · <a href="https://www.youtube.com/watch?v=WKT2yF6R3Fs" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -237,7 +216,7 @@ Defending the Can Opener is among the most safety-critical defensive skills in B
 
 ![](https://www.youtube.com/watch?v=fKA4O_RlXzk)
 
-<p class="clip-credit"><strong>Can opener counter with omoplata</strong> — taught by The Grappling Bloke · 1:31 · <a href="https://www.youtube.com/watch?v=fKA4O_RlXzk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Can Opener Counter With Omoplata</strong> · 1:31 · <a href="https://www.youtube.com/watch?v=fKA4O_RlXzk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

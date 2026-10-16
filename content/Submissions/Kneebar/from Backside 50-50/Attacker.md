@@ -188,24 +188,12 @@ description: "How to execute the kneebar from Backside 50-50 in BJJ. Setup, exec
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Go Behind Kneebar",
-      "description": "Kneebar from Backside 50-50 (Attacker) film study: Go Behind Kneebar, taught by Craig Jones.",
+      "name": "Go Behind Kneebar by Craig Jones",
+      "description": "Kneebar from Backside 50-50 (Attacker) film study: Go Behind Kneebar by Craig Jones.",
       "thumbnailUrl": "https://i.ytimg.com/vi/v4lhLkKgVvU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/v4lhLkKgVvU",
       "url": "https://www.youtube.com/watch?v=v4lhLkKgVvU",
-      "creator": { "@type": "Person", "name": "Craig Jones" },
       "duration": "PT129S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Roll Under to Backside 50/50",
-      "description": "Kneebar from Backside 50-50 (Attacker) film study: Roll Under to Backside 50/50, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/DBbSqQf6iCo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/DBbSqQf6iCo",
-      "url": "https://www.youtube.com/watch?v=DBbSqQf6iCo",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT110S"
     }
   ]
 }
@@ -236,15 +224,7 @@ The kneebar from Backside 50-50 represents a high-percentage secondary attack fr
 
 ![](https://www.youtube.com/watch?v=v4lhLkKgVvU)
 
-<p class="clip-credit"><strong>Go Behind Kneebar</strong> — taught by Craig Jones · 2:09 · <a href="https://www.youtube.com/watch?v=v4lhLkKgVvU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=DBbSqQf6iCo)
-
-<p class="clip-credit"><strong>Roll Under to Backside 50/50</strong> — taught by Lachlan Giles · 1:50 · <a href="https://www.youtube.com/watch?v=DBbSqQf6iCo" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Go Behind Kneebar by Craig Jones</strong> · 2:09 · <a href="https://www.youtube.com/watch?v=v4lhLkKgVvU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -36,15 +36,20 @@ const activity = (page: Page) => page.evaluate(() => {
     beats: a.beats.filter((b: any) => ['options_dealt', 'engaged', 'commit', 'defend_start', 'land_q_expired', 'land_q_answered'].includes(b.beat)).map((b: any) => b.beat) }
 })
 
+// STALE SPEC (PR 305, owner D-307): short desktop title clearance over real built videos.
+// Knee Slice now has one clip. Use the curated two-clip Kneebar entry attack
+// to retain the real multi-video layout stress and every finite-baseline/clearance bound.
 test('@curated a short desktop arrival keeps the node title clear of real built videos', async ({ page }) => {
   await page.setViewportSize({ width: 1366, height: 768 })
   const j = journey(page)
-  await j.boot(KNEE, { beforeNavigate: async () => {
+  await j.boot('/Transitions/Kneebar-entry/Attacker', { beforeNavigate: async () => {
     // The usual DSL empties dossiers. Let the real published clips claim space.
     await page.route('**/static/neural/content/*.json', route => route.continue())
   } })
   await expect(page.locator(READY)).toBeVisible()
-  await expect.poll(() => page.locator('.ng-landfilm .ng-clip').count()).toBeGreaterThan(1)
+  await expect(page.locator('.ng-landfilm .ng-clip')).toHaveCount(2)
+  await expect.poll(() => page.locator('.ng-landfilm .ng-clip img').evaluateAll(nodes =>
+    nodes.map(e => e.getAttribute('src')?.split('/vi/')[1]?.split('/')[0]))).toEqual(['BbtWWX6Glw0', '-5BXaxHLsyo'])
   await j.landQuestion()
   await j.advance(6000)
   const frame = await page.evaluate(() => {
@@ -56,7 +61,7 @@ test('@curated a short desktop arrival keeps the node title clear of real built 
     const film = a._landFilmEl.getBoundingClientRect()
     return { label, focus: a.focusIdx, filmTop: film.top, reader: a._readerEl.getBoundingClientRect().height }
   })
-  expect(frame.label?.main, 'the frame really drew the selected node').toBe('Knee Slice Pass')
+  expect(frame.label?.main, 'the frame really drew the selected node').toBe('Kneebar entry')
   expect(frame.label!.idx).toBe(frame.focus)
   expect(frame.label!.focused).toBe(true)
   expect(frame.label!.role).toBeTruthy()

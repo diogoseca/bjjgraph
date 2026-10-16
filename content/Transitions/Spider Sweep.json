@@ -373,31 +373,12 @@
     "safety_considerations": "Spider Sweep is a relatively low-risk technique with minimal injury potential. The primary safety concern is wrist and finger strain from maintaining deep sleeve grips under load during the sweeping motion. Practitioners should release grips immediately if they feel sharp pain in fingers or wrists rather than fighting through it. When drilling, the person being swept should practice controlled breakfalls and the sweeper should allow the technique to complete smoothly rather than forcing through stalled positions that could strain the swept player's shoulder on impact.",
     "clips": [
       {
-        "id": "lgozvgeHwgI",
-        "title": "Spider guard scissor sweep to mount",
-        "by": "Evolve MMA coach",
-        "vertical": false,
-        "channel": "Evolve Mixed Martial Arts",
-        "duration": 41,
-        "verified": "2026-07-15"
-      },
-      {
         "id": "iVgFuP4NlkA",
-        "title": "Spider guard bus driver sweep",
-        "by": "The Base Jiu Jitsu coach",
-        "vertical": false,
+        "title": "Jiu Jitsu Advanced - Spider Guard - Bus Driver Sweep",
         "channel": "The Base Jiu Jitsu",
         "duration": 61,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "cRCnbv2BN4k",
-        "title": "De La Riva spider guard sweep",
-        "by": "Kings Academy coach",
         "vertical": false,
-        "channel": "Kings Academy",
-        "duration": 28,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },
@@ -577,34 +558,6 @@
         "description": "Positional sparring where partner starts in spider guard with full offensive intent including sweeps, triangles, and omoplatas. Defend all attacks while systematically working toward passing the guard. Three-minute rounds with position resets. Develop composure and strategic patience against an active spider guard player."
       }
     ],
-    "clips": [
-      {
-        "id": "v9Fyn7YEddk",
-        "title": "Stacking pass to shut down spider guard",
-        "by": "Chris Haueter",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 231,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "sRfuKY6t2Cg",
-        "title": "Spider guard pass details",
-        "by": "Andre Galvao",
-        "vertical": false,
-        "channel": "Atos Jiu-Jitsu HQ | World's Best BJJ Academy - Home Page",
-        "duration": 571,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "y94276HeHss",
-        "title": "Tarantula guard pass vs spider guard",
-        "by": "Andre Galvao",
-        "vertical": false,
-        "channel": "Atos Jiu-Jitsu HQ | World's Best BJJ Academy - Home Page",
-        "duration": 832,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

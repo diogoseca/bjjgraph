@@ -150,39 +150,6 @@ description: "How to defend against Back Take from Bottom in BJJ. Recognition cu
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Back Take from Bottom (Defender) \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "How not to get mounted when escaping the back",
-      "description": "Back Take from Bottom (Defender) film study: How not to get mounted when escaping the back, taught by Henry Akins.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/bhkb4ItZQno/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/bhkb4ItZQno",
-      "url": "https://www.youtube.com/watch?v=bhkb4ItZQno",
-      "creator": { "@type": "Person", "name": "Henry Akins" },
-      "duration": "PT131S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Escaping back control in jiu-jitsu",
-      "description": "Back Take from Bottom (Defender) film study: Escaping back control in jiu-jitsu, taught by Malachy Friedman.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/I43ALzc733w/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/I43ALzc733w",
-      "url": "https://www.youtube.com/watch?v=I43ALzc733w",
-      "creator": { "@type": "Person", "name": "Malachy Friedman" },
-      "duration": "PT71S"
-    }
-  ]
-}
-</script>
-
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -199,32 +166,6 @@ Successful defenders understand that the safest option is often to not turn at a
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Back Take from Bottom (Defender) in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=bhkb4ItZQno)
-
-<p class="clip-credit"><strong>How not to get mounted when escaping the back</strong> — taught by Henry Akins · 2:11 · <a href="https://www.youtube.com/watch?v=bhkb4ItZQno" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=I43ALzc733w)
-
-<p class="clip-credit"><strong>Escaping back control in jiu-jitsu</strong> — taught by Malachy Friedman · 1:11 · <a href="https://www.youtube.com/watch?v=I43ALzc733w" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="recognition-cues" class="content-section">

@@ -422,22 +422,12 @@
     ],
     "clips": [
       {
-        "id": "ukb_hx28qsM",
-        "title": "Side Control D'Arce Choke (No Gi)",
-        "by": "ZombieProofBJJ",
-        "vertical": false,
-        "channel": "ZombieProofBJJ",
-        "duration": 74,
-        "verified": "2026-07-14"
-      },
-      {
         "id": "22EYQ2uhxQw",
-        "title": "Side control to north-south D'Arce",
-        "by": "Gracie Westchase",
-        "vertical": false,
+        "title": "Side control to north south D’ARCE!!! #graciewestchase #jiujitsu #darce #bjj",
         "channel": "Gracie Westchase ",
         "duration": 75,
-        "verified": "2026-07-14"
+        "vertical": false,
+        "front": true
       }
     ]
   },
@@ -612,31 +602,26 @@
     ],
     "clips": [
       {
-        "id": "d1YBV8UTKds",
-        "title": "Darce Choke defense",
-        "by": "Animal",
-        "vertical": false,
-        "channel": "Animal",
-        "duration": 53,
-        "verified": "2026-07-14"
-      },
-      {
         "id": "cmaIzjv3QG8",
-        "title": "D'arce defense, belly down",
-        "by": "JitzLive",
-        "vertical": false,
+        "title": "Move of the Day: D'arce Defense - Belly Down",
         "channel": "JitzLive",
         "duration": 38,
-        "verified": "2026-07-14"
+        "vertical": false,
+        "front": true
+      },
+      {
+        "id": "d1YBV8UTKds",
+        "title": "Darce Choke defense",
+        "channel": "Animal",
+        "duration": 52,
+        "vertical": false
       },
       {
         "id": "iNZpCbutyrM",
-        "title": "Darce escape",
-        "by": "Thunderdome BJJ",
-        "vertical": false,
+        "title": "Darce Escape",
         "channel": "Thunderdome BJJ",
-        "duration": 54,
-        "verified": "2026-07-14"
+        "duration": 53,
+        "vertical": false
       }
     ]
   }

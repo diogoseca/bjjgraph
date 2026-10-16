@@ -388,22 +388,19 @@
     "safety_considerations": "When executing the reversal, avoid explosive neck movements that could strain cervical vertebrae under the rider's pressure. If caught in a choke during the escape transition, tap immediately rather than attempting to power through while your neck is in a compromised position. During training, practice at controlled speed before adding explosiveness, and communicate with training partners about intensity levels. Be particularly careful with the underhook entry to avoid shoulder impingement when rotating under the rider's bodyweight load.",
     "clips": [
       {
-        "id": "H3UURW2F9g8",
-        "title": "Cross body leg ride escape",
-        "by": "Hideout Wrestling",
+        "id": "l7FuJKfhhug",
+        "title": "Purdue Camp 2022 - Jake Sueflohn - Escaping cross body ride",
+        "channel": "Moore Wrestling",
+        "duration": 191,
         "vertical": false,
-        "channel": "Hideout Wrestling",
-        "duration": 49,
-        "verified": "2026-07-15"
+        "front": true
       },
       {
-        "id": "S2-UjM43Luk",
-        "title": "Five Crossbody Escape Drills",
-        "by": "Clinch Academy coach",
-        "vertical": false,
-        "channel": "Clinch Academy",
-        "duration": 152,
-        "verified": "2026-07-15"
+        "id": "tUuT7lVaIRA",
+        "title": "Leg Riding Defense vs  Cross Body Ride, Jeff Jordan, Jeff Jordan Wrestling…",
+        "channel": "Eddie Jayne",
+        "duration": 324,
+        "vertical": false
       }
     ]
   },
@@ -561,25 +558,6 @@
         "description": "Full resistance positional sparring starting from cross body ride. Top player scores for maintaining position beyond sixty seconds or advancing to back control. Bottom player scores for successful escapes or guard recovery. Develop automatic responses to escape patterns that flow between maintenance and advancement."
       }
     ],
-    "clips": [
-      {
-        "id": "ANosXMXKLfQ",
-        "title": "Banana split to back take from cross body ride",
-        "by": "Bowerhouse MMA",
-        "vertical": false,
-        "channel": "BOWERHOUSE MMA",
-        "duration": 169,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "AkEySTc0_aw",
-        "title": "Leg and wrist ride combo to rear mount",
-        "by": "Spring Hill BJJ",
-        "vertical": false,
-        "channel": "SpringHillBjj",
-        "duration": 83,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

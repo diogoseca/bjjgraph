@@ -431,22 +431,19 @@
     ],
     "clips": [
       {
-        "id": "uaHf3d_aCso",
-        "title": "Inverted Americana",
-        "by": "Adrian Nielsen",
-        "vertical": false,
-        "channel": "Adrian Nielsen",
-        "duration": 56,
-        "verified": "2026-07-14"
-      },
-      {
         "id": "iGVWSwxKCII",
-        "title": "One-Handed Americana / Keylock Submission",
-        "by": "Mastermind Martial Arts",
-        "vertical": false,
+        "title": "This one handed Americana/keylock submission will surprise your opponents",
         "channel": "Mastermind Martial Arts",
         "duration": 141,
-        "verified": "2026-07-14"
+        "vertical": false,
+        "front": true
+      },
+      {
+        "id": "uaHf3d_aCso",
+        "title": "Inverted Americana",
+        "channel": "Adrian Nielsen",
+        "duration": 56,
+        "vertical": false
       }
     ]
   },
@@ -619,25 +616,6 @@
         "description": "Positional sparring starting from reverse kesa with the attacker specifically hunting the Americana. Defender works all defensive tools including grip fighting, bridging, hip escapes, and guard recovery under full resistance. Track escape success rate and identify which defensive techniques are most reliable."
       }
     ],
-    "clips": [
-      {
-        "id": "q2WjKMK1v94",
-        "title": "Escape the Ushiro Kesa Gatame Side Control Pin",
-        "by": "Uncle Kevvy",
-        "vertical": false,
-        "channel": "Uncle Kevvy",
-        "duration": 280,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "-czPu1EvCU0",
-        "title": "Kesa-Gatame Escape",
-        "by": "Mattix Academy",
-        "vertical": false,
-        "channel": "MATTIX ACADEMY",
-        "duration": 209,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   }
 }

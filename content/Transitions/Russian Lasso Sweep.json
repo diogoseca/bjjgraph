@@ -367,35 +367,7 @@
       }
     ],
     "safety_considerations": "The Russian Lasso Sweep applies significant rotational force to the opponent's body and the arm trapped in the lasso configuration. The lasso can stress the shoulder joint of the trapped arm during aggressive sweep execution. Always train with controlled force and clear communication with your partner. Release the lasso immediately if your partner signals discomfort in the shoulder or elbow. Avoid explosive full-speed execution against inexperienced training partners who may land awkwardly or fail to breakfall properly. Be especially cautious with the overhead variant, which involves more dramatic elevation and rotation.",
-    "clips": [
-      {
-        "id": "3zM3gZsUPWc",
-        "title": "Lasso sweep from closed guard",
-        "by": "Ralph Gracie BJJ",
-        "vertical": false,
-        "channel": "Ralph Gracie BJJ - San Jose & Santa Clara",
-        "duration": 39,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "iDogUD6i03M",
-        "title": "No-gi lasso sweep",
-        "by": "JitzLive",
-        "vertical": false,
-        "channel": "JitzLive",
-        "duration": 15,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "LBI0dlDKrN0",
-        "title": "Lasso guard sweep to armbar",
-        "by": "Wagner Guimaraes",
-        "vertical": false,
-        "channel": "Wagner Guimarães BJJ",
-        "duration": 11,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Russian Lasso Sweep Defender",
@@ -572,34 +544,6 @@
         "description": "Full positional sparring from Russian Leg Lasso where you combine sweep defense with guard passing strategies. After successfully defending the sweep, immediately transition to passing sequences while the opponent is recovering their guard structure. Develop the ability to use sweep defense as a passing entry point."
       }
     ],
-    "clips": [
-      {
-        "id": "EdLPqtAm5yQ",
-        "title": "Pressure passing the lasso guard",
-        "by": "Alberto Serrano",
-        "vertical": false,
-        "channel": "Alberto Serrano BJJ",
-        "duration": 123,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "3dB8Ha2Pfb0",
-        "title": "Leg Lasso Guard Pass Defense Series",
-        "by": "Jean Jacques Machado",
-        "vertical": false,
-        "channel": "JeanJacquesMachado",
-        "duration": 154,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "Bnx650_z48I",
-        "title": "Passing the Lasso Guard with the Longstep",
-        "by": "Dom",
-        "vertical": false,
-        "channel": "Dubious Dom",
-        "duration": 223,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

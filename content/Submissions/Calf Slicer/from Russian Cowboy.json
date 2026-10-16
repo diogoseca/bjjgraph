@@ -444,21 +444,10 @@
     "clips": [
       {
         "id": "vTE4XQpRiqY",
-        "title": "The Vaporizer (Calf Slicer)",
-        "by": "Bobby Lee",
-        "vertical": false,
+        "title": "The Vaporizer (Calf slicer)",
         "channel": "Bobby Lee",
         "duration": 17,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "1JUGqwxsDKg",
-        "title": "Painful Calf Slicer from The Truck",
-        "by": "Brandon McCaghren",
-        "vertical": false,
-        "channel": "Brandon Mccaghren",
-        "duration": 62,
-        "verified": "2026-07-14"
+        "vertical": false
       }
     ]
   },
@@ -633,31 +622,11 @@
     ],
     "clips": [
       {
-        "id": "VFM9JGQrLYk",
-        "title": "Ankle Lock Counter to Calf Cutter",
-        "by": "Pathfinder Jiu-Jitsu",
-        "vertical": false,
-        "channel": "Pathfinder Jiu-Jitsu Team",
-        "duration": 97,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "5bACGsC8nVo",
-        "title": "Calf slicer and kneebar defense",
-        "by": "Jesse Gough",
-        "vertical": false,
-        "channel": "ZombieProofBJJ",
-        "duration": 110,
-        "verified": "2026-07-16"
-      },
-      {
         "id": "Bhzai-ipuRo",
-        "title": "Calf slicer counter from butterfly guard",
-        "by": "No Limit Jiu Jitsu",
-        "vertical": false,
+        "title": "Calf slicer from butterfly guard with counter-No Limit Jiu Jitsu",
         "channel": "No Limit Jiu Jitsu",
         "duration": 17,
-        "verified": "2026-07-16"
+        "vertical": false
       }
     ]
   }

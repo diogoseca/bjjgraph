@@ -367,35 +367,7 @@
       }
     ],
     "safety_considerations": "This technique involves a controlled rolling motion while under body triangle pressure, which carries inherent risks. The breathing restriction from the body triangle means you should never attempt this when already exhausted or oxygen-depleted - failed attempts in this state can lead to panic and poor decision-making. Practice the rolling mechanics extensively at low resistance before attempting against aggressive partners. Be aware that the roll can place stress on neck and shoulder structures if executed improperly. If you feel your neck being cranked during the rotation, abandon the attempt immediately. Partners should release the body triangle if the rolling person taps or shows signs of distress. In training, establish clear communication about resistance levels before starting positional rounds.",
-    "clips": [
-      {
-        "id": "C-21-71FDnM",
-        "title": "One-minute back-take setup",
-        "by": "Brandon McCaghren",
-        "vertical": false,
-        "channel": "Brandon Mccaghren",
-        "duration": 58,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "k-lCzVAzJpg",
-        "title": "Escaping the Back: Leg Work Details",
-        "by": "Lachlan Giles",
-        "vertical": false,
-        "channel": "Absolute MMA St Kilda - Melbourne",
-        "duration": 421,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "RscLPT0F-DE",
-        "title": "Best Way to Escape the Body Triangle",
-        "by": "Gordon Ryan",
-        "vertical": false,
-        "channel": "Bernardo Faria BJJ Fanatics",
-        "duration": 595,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Rolling Back Take Reversal Defender",
@@ -572,26 +544,7 @@
         "description": "Full resistance positional rounds starting in body triangle back control. Partner uses all escape options including the rolling reversal. Develop the ability to defend the roll while maintaining offensive pressure and finishing submissions. Track how often the roll succeeds to calibrate defensive awareness."
       }
     ],
-    "clips": [
-      {
-        "id": "KPYtg6YeNzU",
-        "title": "Back escape breakdown",
-        "by": "Nicky Rodriguez",
-        "vertical": false,
-        "channel": "WetChip",
-        "duration": 80,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "VYef5MPcNZA",
-        "title": "Body triangle ankle trap escape",
-        "by": "Garry Tonon & Gordon Ryan",
-        "vertical": false,
-        "channel": "MastersmokeABUSE",
-        "duration": 144,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "variants_and_adaptations": [
     {

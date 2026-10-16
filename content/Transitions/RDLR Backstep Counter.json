@@ -374,26 +374,7 @@
       }
     ],
     "safety_considerations": "The RDLR Backstep Counter carries moderate knee stress risk for both players. The top player should avoid explosive twisting motions during the backstep that could strain the knee of the hooked leg under rotational load. The bottom player's knee is vulnerable if the backstep compresses their RDLR hook against the mat at an awkward angle. Both practitioners should communicate if they feel knee pressure during drilling, and the top player should step around hook resistance rather than driving through it with force.",
-    "clips": [
-      {
-        "id": "gTbjLDdBC-I",
-        "title": "RDLR knee cut to backstep pass",
-        "by": "Andrew Smith",
-        "vertical": false,
-        "channel": "Revolution BJJ",
-        "duration": 84,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "IdfQWVHikws",
-        "title": "Passing reverse de la riva with a shin slice",
-        "by": "BJJ4Breakfast",
-        "vertical": false,
-        "channel": "BJJ4Breakfast",
-        "duration": 86,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "RDLR Backstep Counter Defender",
@@ -573,21 +554,11 @@
     "clips": [
       {
         "id": "a3ModDEKY6s",
-        "title": "Defending the backstep pass to de la riva",
-        "by": "Inverted Gear",
-        "vertical": false,
+        "title": "Defending against backstep pass to De la Riva",
         "channel": "Inverted Gear",
         "duration": 145,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "hdSw-ZmcBRA",
-        "title": "Defense to reverse de la riva and foot lock",
-        "by": "Ninja Pinto",
         "vertical": false,
-        "channel": "Ninja Pinto BJJ",
-        "duration": 31,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   }

@@ -161,23 +161,11 @@ description: "Defend against the backstep from deep half guard bottom. Recogniti
       "@type": "VideoObject",
       "position": 1,
       "name": "Dealing with the backstep from deep half guard",
-      "description": "Backstep from Deep Half (Defender) film study: Dealing with the backstep from deep half guard, taught by Andrew Smith.",
+      "description": "Backstep from Deep Half (Defender) film study: Dealing with the backstep from deep half guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/aR7AKMKyd9w/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/aR7AKMKyd9w",
       "url": "https://www.youtube.com/watch?v=aR7AKMKyd9w",
-      "creator": { "@type": "Person", "name": "Andrew Smith" },
       "duration": "PT27S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Defending the back step in half guard",
-      "description": "Backstep from Deep Half (Defender) film study: Defending the back step in half guard, taught by Five Rings Grappling Academy.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/_jYG3ug92nM/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/_jYG3ug92nM",
-      "url": "https://www.youtube.com/watch?v=_jYG3ug92nM",
-      "creator": { "@type": "Person", "name": "Five Rings Grappling Academy" },
-      "duration": "PT177S"
     }
   ]
 }
@@ -207,15 +195,7 @@ As the deep half guard bottom player, the backstep represents one of the most da
 
 ![](https://www.youtube.com/watch?v=aR7AKMKyd9w)
 
-<p class="clip-credit"><strong>Dealing with the backstep from deep half guard</strong> — taught by Andrew Smith · 0:27 · <a href="https://www.youtube.com/watch?v=aR7AKMKyd9w" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=_jYG3ug92nM)
-
-<p class="clip-credit"><strong>Defending the back step in half guard</strong> — taught by Five Rings Grappling Academy · 2:57 · <a href="https://www.youtube.com/watch?v=_jYG3ug92nM" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Dealing with the backstep from deep half guard</strong> · 0:27 · <a href="https://www.youtube.com/watch?v=aR7AKMKyd9w" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

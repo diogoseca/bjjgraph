@@ -46,35 +46,12 @@ description: "Master the Overhook Guard Sweep in BJJ. Step-by-step guide to exec
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Closed Guard Overhook Scissor Sweep",
-      "description": "Overhook Guard Sweep film study: Closed Guard Overhook Scissor Sweep, taught by Fight Sports Charlotte.",
+      "name": "Closed Guard - Overhook - Scissor Sweep",
+      "description": "Overhook Guard Sweep film study: Closed Guard - Overhook - Scissor Sweep.",
       "thumbnailUrl": "https://i.ytimg.com/vi/SONTST7yTT8/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/SONTST7yTT8",
       "url": "https://www.youtube.com/watch?v=SONTST7yTT8",
-      "creator": { "@type": "Person", "name": "Fight Sports Charlotte" },
-      "duration": "PT89S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Leg Assisted Overhook Sweep from Butterfly Guard",
-      "description": "Overhook Guard Sweep film study: Leg Assisted Overhook Sweep from Butterfly Guard, taught by Jean Jacques Machado.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/vIa1iE-WJpo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/vIa1iE-WJpo",
-      "url": "https://www.youtube.com/watch?v=vIa1iE-WJpo",
-      "creator": { "@type": "Person", "name": "Jean Jacques Machado" },
-      "duration": "PT79S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Overhook Sweep from Butterfly Guard",
-      "description": "Overhook Guard Sweep film study: Overhook Sweep from Butterfly Guard, taught by Satori BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/2hc9sl1hEkE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/2hc9sl1hEkE",
-      "url": "https://www.youtube.com/watch?v=2hc9sl1hEkE",
-      "creator": { "@type": "Person", "name": "Satori BJJ" },
-      "duration": "PT36S"
+      "duration": "PT88S"
     }
   ]
 }
@@ -130,23 +107,7 @@ The technique's effectiveness relies on proper sequencing rather than explosive 
 
 ![](https://www.youtube.com/watch?v=SONTST7yTT8)
 
-<p class="clip-credit"><strong>Closed Guard Overhook Scissor Sweep</strong> — taught by Fight Sports Charlotte · 1:29 · <a href="https://www.youtube.com/watch?v=SONTST7yTT8" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=vIa1iE-WJpo)
-
-<p class="clip-credit"><strong>Leg Assisted Overhook Sweep from Butterfly Guard</strong> — taught by Jean Jacques Machado · 1:19 · <a href="https://www.youtube.com/watch?v=vIa1iE-WJpo" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=2hc9sl1hEkE)
-
-<p class="clip-credit"><strong>Overhook Sweep from Butterfly Guard</strong> — taught by Satori BJJ · 0:36 · <a href="https://www.youtube.com/watch?v=2hc9sl1hEkE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Closed Guard - Overhook - Scissor Sweep</strong> · 1:28 · <a href="https://www.youtube.com/watch?v=SONTST7yTT8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

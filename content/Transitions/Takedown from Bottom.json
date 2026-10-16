@@ -382,35 +382,7 @@
       }
     ],
     "safety_considerations": "Takedown drilling requires controlled environments with properly padded mats and attentive training partners. The level change and penetration step place significant stress on the knees, particularly the lead knee that contacts the mat during the shot. Always warm up thoroughly with dynamic hip, knee, and ankle mobility exercises before takedown practice. Never drive an opponent directly onto their head or neck during the finish - lateral pressure finishes are both more effective and safer. In training, release immediately if your partner signals discomfort or lands awkwardly, and communicate speed and intensity expectations before live rounds begin.",
-    "clips": [
-      {
-        "id": "1Rb48sPwpqY",
-        "title": "Takedown from bottom position",
-        "by": "Nicky Rodriguez",
-        "vertical": false,
-        "channel": "Michael Wong",
-        "duration": 88,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "sq8osxjmpr8",
-        "title": "Wrestle Up from guard",
-        "by": "Nicky Ryan",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 22,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "s6ml_dZDWow",
-        "title": "Steer the Bus to set up takedowns",
-        "by": "Ryan Deakin",
-        "vertical": false,
-        "channel": "FANATIC WRESTLING",
-        "duration": 87,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Takedown from Bottom Defender",
@@ -590,30 +562,11 @@
     "clips": [
       {
         "id": "LiRrlPGboK8",
-        "title": "Sprawl technique to stop the takedown",
-        "by": "Jordan Burroughs",
-        "vertical": false,
+        "title": "Jordan Burroughs: Sprawl Technique",
         "channel": "CreightonWrestling",
         "duration": 122,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "RKRfwAAw1Gs",
-        "title": "Sprawling to stop the shot and counter",
-        "by": "WrestlingTournaments.com",
         "vertical": false,
-        "channel": "WrestlingTournaments․com",
-        "duration": 75,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "q_jaym269dU",
-        "title": "Sprawling on a double leg",
-        "by": "WrestlingTournaments.com",
-        "vertical": false,
-        "channel": "WrestlingTournaments․com",
-        "duration": 145,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   }

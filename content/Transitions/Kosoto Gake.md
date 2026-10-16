@@ -47,35 +47,12 @@ description: "Learn Kosoto Gake in BJJ. Master this minor outer reaping throw fr
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Kosoto Gake compilation \u2014 minor outside hook",
-      "description": "Kosoto Gake film study: Kosoto Gake compilation \u2014 minor outside hook, taught by Ochiru.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/HfU9mAYpZ5k/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/HfU9mAYpZ5k",
-      "url": "https://www.youtube.com/watch?v=HfU9mAYpZ5k",
-      "creator": { "@type": "Person", "name": "Ochiru" },
-      "duration": "PT77S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Ko-soto-gake kodokan demonstration",
-      "description": "Kosoto Gake film study: Ko-soto-gake kodokan demonstration, taught by Kodokan.",
+      "name": "\u5c0f\u5916\u639b / Ko-soto-gake",
+      "description": "Kosoto Gake film study: \u5c0f\u5916\u639b / Ko-soto-gake.",
       "thumbnailUrl": "https://i.ytimg.com/vi/8b6kY4s4zH4/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/8b6kY4s4zH4",
       "url": "https://www.youtube.com/watch?v=8b6kY4s4zH4",
-      "creator": { "@type": "Person", "name": "Kodokan" },
       "duration": "PT94S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Sticky foot kosoto setup and finish",
-      "description": "Kosoto Gake film study: Sticky foot kosoto setup and finish, taught by Shintaro Higashi.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/EkQtqw0AuOg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/EkQtqw0AuOg",
-      "url": "https://www.youtube.com/watch?v=EkQtqw0AuOg",
-      "creator": { "@type": "Person", "name": "Shintaro Higashi" },
-      "duration": "PT194S"
     }
   ]
 }
@@ -130,25 +107,9 @@ The throw creates a seamless transition from standing to dominant groundwork, wi
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=HfU9mAYpZ5k)
-
-<p class="clip-credit"><strong>Kosoto Gake compilation — minor outside hook</strong> — taught by Ochiru · 1:17 · <a href="https://www.youtube.com/watch?v=HfU9mAYpZ5k" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=8b6kY4s4zH4)
 
-<p class="clip-credit"><strong>Ko-soto-gake kodokan demonstration</strong> — taught by Kodokan · 1:34 · <a href="https://www.youtube.com/watch?v=8b6kY4s4zH4" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=EkQtqw0AuOg)
-
-<p class="clip-credit"><strong>Sticky foot kosoto setup and finish</strong> — taught by Shintaro Higashi · 3:14 · <a href="https://www.youtube.com/watch?v=EkQtqw0AuOg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>小外掛 / Ko-soto-gake</strong> · 1:34 · <a href="https://www.youtube.com/watch?v=8b6kY4s4zH4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

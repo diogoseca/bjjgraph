@@ -938,31 +938,11 @@
     ],
     "clips": [
       {
-        "id": "MlMwtCvfYlQ",
-        "title": "Marcelo Garcia Short Hook Sweep",
-        "by": "Marcelo Garcia",
-        "vertical": false,
-        "channel": "BJJ Joe",
-        "duration": 57,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "c8JBXJMc0Oc",
-        "title": "Marcelo Garcia Butterfly Sweep",
-        "by": "Marcelo Garcia",
-        "vertical": false,
-        "channel": "Butterfly The World",
-        "duration": 81,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "WoSyrVZ1VvY",
-        "title": "Butterfly Hook Back Take from Half Guard",
-        "by": "Procel BJJ",
-        "vertical": false,
-        "channel": "Procel Brazilian Jiu-Jitsu",
-        "duration": 55,
-        "verified": "2026-07-14"
+        "id": "IPe_nWt17bg",
+        "title": "Half Butterfly Guard For Oldies",
+        "channel": "Ebsayz",
+        "duration": 628,
+        "front": true
       }
     ]
   },

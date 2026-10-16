@@ -156,35 +156,12 @@ description: "Defend against the toe hold from saddle position with early recogn
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "How to Escape the Toe Hold",
-      "description": "Toe Hold from Saddle (Defender) film study: How to Escape the Toe Hold, taught by Gordon Ryan.",
+      "name": "How to escape from toehold by Gordon Ryan",
+      "description": "Toe Hold from Saddle (Defender) film study: How to escape from toehold by Gordon Ryan.",
       "thumbnailUrl": "https://i.ytimg.com/vi/3a9k8-ZcYrk/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/3a9k8-ZcYrk",
       "url": "https://www.youtube.com/watch?v=3a9k8-ZcYrk",
-      "creator": { "@type": "Person", "name": "Gordon Ryan" },
-      "duration": "PT106S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Toe hold counters",
-      "description": "Toe Hold from Saddle (Defender) film study: Toe hold counters, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/8pCKbDQt3_8/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/8pCKbDQt3_8",
-      "url": "https://www.youtube.com/watch?v=8pCKbDQt3_8",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT326S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Grip for defending heel hooks and leg attacks",
-      "description": "Toe Hold from Saddle (Defender) film study: Grip for defending heel hooks and leg attacks, taught by Craig Jones.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/s9rJWyfNdiI/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/s9rJWyfNdiI",
-      "url": "https://www.youtube.com/watch?v=s9rJWyfNdiI",
-      "creator": { "@type": "Person", "name": "Craig Jones" },
-      "duration": "PT357S"
+      "duration": "PT105S"
     }
   ]
 }
@@ -215,23 +192,7 @@ Defending the toe hold from saddle demands immediate recognition of the grip cha
 
 ![](https://www.youtube.com/watch?v=3a9k8-ZcYrk)
 
-<p class="clip-credit"><strong>How to Escape the Toe Hold</strong> — taught by Gordon Ryan · 1:46 · <a href="https://www.youtube.com/watch?v=3a9k8-ZcYrk" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=8pCKbDQt3_8)
-
-<p class="clip-credit"><strong>Toe hold counters</strong> — taught by Lachlan Giles · 5:26 · <a href="https://www.youtube.com/watch?v=8pCKbDQt3_8" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=s9rJWyfNdiI)
-
-<p class="clip-credit"><strong>Grip for defending heel hooks and leg attacks</strong> — taught by Craig Jones · 5:57 · <a href="https://www.youtube.com/watch?v=s9rJWyfNdiI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How to escape from toehold by Gordon Ryan</strong> · 1:45 · <a href="https://www.youtube.com/watch?v=3a9k8-ZcYrk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

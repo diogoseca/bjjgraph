@@ -160,24 +160,12 @@ description: "How to defend against Straight Footlock in BJJ. Recognition cues, 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Ankle lock escape: put on the boot",
-      "description": "Straight Footlock (Defender) film study: Ankle lock escape: put on the boot, taught by Ritchie Yip.",
+      "name": "Ankle lock escape  put on the boot",
+      "description": "Straight Footlock (Defender) film study: Ankle lock escape  put on the boot.",
       "thumbnailUrl": "https://i.ytimg.com/vi/CUnX7TOpb-A/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/CUnX7TOpb-A",
       "url": "https://www.youtube.com/watch?v=CUnX7TOpb-A",
-      "creator": { "@type": "Person", "name": "Ritchie Yip" },
       "duration": "PT16S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "K guard vs toe hold and straight footlock",
-      "description": "Straight Footlock (Defender) film study: K guard vs toe hold and straight footlock, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/6-HYU8Pbngg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/6-HYU8Pbngg",
-      "url": "https://www.youtube.com/watch?v=6-HYU8Pbngg",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT152S"
     }
   ]
 }
@@ -211,15 +199,7 @@ Advanced defenders treat the Straight Footlock threat as an opportunity rather t
 
 ![](https://www.youtube.com/watch?v=CUnX7TOpb-A)
 
-<p class="clip-credit"><strong>Ankle lock escape: put on the boot</strong> — taught by Ritchie Yip · 0:16 · <a href="https://www.youtube.com/watch?v=CUnX7TOpb-A" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=6-HYU8Pbngg)
-
-<p class="clip-credit"><strong>K guard vs toe hold and straight footlock</strong> — taught by Lachlan Giles · 2:32 · <a href="https://www.youtube.com/watch?v=6-HYU8Pbngg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Ankle lock escape  put on the boot</strong> · 0:16 · <a href="https://www.youtube.com/watch?v=CUnX7TOpb-A" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

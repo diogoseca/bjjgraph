@@ -46,23 +46,31 @@ description: "Master the kneebar from Single Leg X-Guard. Expert guide to this B
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Single Leg X to Kneebar",
-      "description": "Kneebar from Single Leg X-Guard film study: Single Leg X to Kneebar, taught by Fernaldi Jonatan.",
+      "name": "Single leg X to knee bar",
+      "description": "Kneebar from Single Leg X-Guard film study: Single leg X to knee bar.",
       "thumbnailUrl": "https://i.ytimg.com/vi/fZRfKh1B53o/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/fZRfKh1B53o",
       "url": "https://www.youtube.com/watch?v=fZRfKh1B53o",
-      "creator": { "@type": "Person", "name": "Fernaldi Jonatan" },
       "duration": "PT76S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Reverse X to Kneebar",
-      "description": "Kneebar from Single Leg X-Guard film study: Reverse X to Kneebar, taught by Combat by the Minute.",
+      "name": "Attacking Single Leg X Guard: Pressure Pass to Knee Bar (BULLET POINT)",
+      "description": "Kneebar from Single Leg X-Guard film study: Attacking Single Leg X Guard: Pressure Pass to Knee Bar (BULLET POINT).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8DI4o4LO7xM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8DI4o4LO7xM",
+      "url": "https://www.youtube.com/watch?v=8DI4o4LO7xM",
+      "duration": "PT111S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Single Leg X Series | 5 of 5 | Reverse X to Kneebar",
+      "description": "Kneebar from Single Leg X-Guard film study: Single Leg X Series | 5 of 5 | Reverse X to Kneebar.",
       "thumbnailUrl": "https://i.ytimg.com/vi/V7ND4cpJ2_c/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/V7ND4cpJ2_c",
       "url": "https://www.youtube.com/watch?v=V7ND4cpJ2_c",
-      "creator": { "@type": "Person", "name": "Combat by the Minute" },
       "duration": "PT117S"
     }
   ]
@@ -128,7 +136,15 @@ The kneebar from SLX has become an essential component of top-player strategy wh
 
 ![](https://www.youtube.com/watch?v=fZRfKh1B53o)
 
-<p class="clip-credit"><strong>Single Leg X to Kneebar</strong> — taught by Fernaldi Jonatan · 1:16 · <a href="https://www.youtube.com/watch?v=fZRfKh1B53o" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Single leg X to knee bar</strong> · 1:16 · <a href="https://www.youtube.com/watch?v=fZRfKh1B53o" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8DI4o4LO7xM)
+
+<p class="clip-credit"><strong>Attacking Single Leg X Guard: Pressure Pass to Knee Bar (BULLET POINT)</strong> · 1:51 · <a href="https://www.youtube.com/watch?v=8DI4o4LO7xM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -136,7 +152,7 @@ The kneebar from SLX has become an essential component of top-player strategy wh
 
 ![](https://www.youtube.com/watch?v=V7ND4cpJ2_c)
 
-<p class="clip-credit"><strong>Reverse X to Kneebar</strong> — taught by Combat by the Minute · 1:57 · <a href="https://www.youtube.com/watch?v=V7ND4cpJ2_c" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Single Leg X Series | 5 of 5 | Reverse X to Kneebar</strong> · 1:57 · <a href="https://www.youtube.com/watch?v=V7ND4cpJ2_c" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

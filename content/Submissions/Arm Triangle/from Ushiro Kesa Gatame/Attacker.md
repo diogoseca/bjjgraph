@@ -178,50 +178,6 @@ description: "Step-by-step guide to finishing the Arm Triangle from Ushiro Kesa 
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Arm Triangle from Ushiro Kesa Gatame (Attacker) \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Ushiro Kesa Gatame Arm Attack Roll Over",
-      "description": "Arm Triangle from Ushiro Kesa Gatame (Attacker) film study: Ushiro Kesa Gatame Arm Attack Roll Over, taught by Carlos Machado.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/5POG6rDBVLM/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/5POG6rDBVLM",
-      "url": "https://www.youtube.com/watch?v=5POG6rDBVLM",
-      "creator": { "@type": "Person", "name": "Carlos Machado" },
-      "duration": "PT113S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Side Guard to Te Gatame (Arm Triangle)",
-      "description": "Arm Triangle from Ushiro Kesa Gatame (Attacker) film study: Side Guard to Te Gatame (Arm Triangle), taught by Gordon Ryan.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/PSgn9TBgwfc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/PSgn9TBgwfc",
-      "url": "https://www.youtube.com/watch?v=PSgn9TBgwfc",
-      "creator": { "@type": "Person", "name": "Gordon Ryan" },
-      "duration": "PT77S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Triangle Attacks From Kuzure Kesa Gatame",
-      "description": "Arm Triangle from Ushiro Kesa Gatame (Attacker) film study: Triangle Attacks From Kuzure Kesa Gatame, taught by Chokes And More.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/tfykooWW-xk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/tfykooWW-xk",
-      "url": "https://www.youtube.com/watch?v=tfykooWW-xk",
-      "creator": { "@type": "Person", "name": "Chokes And More" },
-      "duration": "PT66S"
-    }
-  ]
-}
-</script>
-
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -235,40 +191,6 @@ The Arm Triangle from Ushiro Kesa Gatame exploits the natural arm isolation of t
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Arm Triangle from Ushiro Kesa Gatame (Attacker) in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=5POG6rDBVLM)
-
-<p class="clip-credit"><strong>Ushiro Kesa Gatame Arm Attack Roll Over</strong> — taught by Carlos Machado · 1:53 · <a href="https://www.youtube.com/watch?v=5POG6rDBVLM" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=PSgn9TBgwfc)
-
-<p class="clip-credit"><strong>Side Guard to Te Gatame (Arm Triangle)</strong> — taught by Gordon Ryan · 1:17 · <a href="https://www.youtube.com/watch?v=PSgn9TBgwfc" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=tfykooWW-xk)
-
-<p class="clip-credit"><strong>Triangle Attacks From Kuzure Kesa Gatame</strong> — taught by Chokes And More · 1:06 · <a href="https://www.youtube.com/watch?v=tfykooWW-xk" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="key-principles" class="content-section">

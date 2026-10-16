@@ -46,24 +46,22 @@ description: "Master the Americana shoulder lock from Kuzure Kesa Gatame. Comple
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Modified Americana Grip",
-      "description": "Americana from Kuzure Kesa Gatame film study: Modified Americana Grip, taught by BJJ After Forty.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/SkFE9CBKvsA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/SkFE9CBKvsA",
-      "url": "https://www.youtube.com/watch?v=SkFE9CBKvsA",
-      "creator": { "@type": "Person", "name": "BJJ After Forty" },
-      "duration": "PT61S"
+      "name": "This one handed Americana/keylock submission will surprise your opponents",
+      "description": "Americana from Kuzure Kesa Gatame film study: This one handed Americana/keylock submission will surprise your opponents.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/iGVWSwxKCII/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/iGVWSwxKCII",
+      "url": "https://www.youtube.com/watch?v=iGVWSwxKCII",
+      "duration": "PT141S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "One Handed Americana/Keylock",
-      "description": "Americana from Kuzure Kesa Gatame film study: One Handed Americana/Keylock, taught by Mastermind Martial Arts.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/iGVWSwxKCII/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/iGVWSwxKCII",
-      "url": "https://www.youtube.com/watch?v=iGVWSwxKCII",
-      "creator": { "@type": "Person", "name": "Mastermind Martial Arts" },
-      "duration": "PT141S"
+      "name": "Modified Americana Grip",
+      "description": "Americana from Kuzure Kesa Gatame film study: Modified Americana Grip.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/SkFE9CBKvsA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/SkFE9CBKvsA",
+      "url": "https://www.youtube.com/watch?v=SkFE9CBKvsA",
+      "duration": "PT61S"
     }
   ]
 }
@@ -126,17 +124,17 @@ Strategically, the Americana from Kuzure Kesa Gatame anchors a submission chain 
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=SkFE9CBKvsA)
+![](https://www.youtube.com/watch?v=iGVWSwxKCII)
 
-<p class="clip-credit"><strong>Modified Americana Grip</strong> — taught by BJJ After Forty · 1:01 · <a href="https://www.youtube.com/watch?v=SkFE9CBKvsA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>This one handed Americana/keylock submission will surprise your opponents</strong> · 2:21 · <a href="https://www.youtube.com/watch?v=iGVWSwxKCII" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=iGVWSwxKCII)
+![](https://www.youtube.com/watch?v=SkFE9CBKvsA)
 
-<p class="clip-credit"><strong>One Handed Americana/Keylock</strong> — taught by Mastermind Martial Arts · 2:21 · <a href="https://www.youtube.com/watch?v=iGVWSwxKCII" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Modified Americana Grip</strong> · 1:01 · <a href="https://www.youtube.com/watch?v=SkFE9CBKvsA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

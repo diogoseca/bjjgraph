@@ -188,23 +188,11 @@ description: "Attack the Bow and Arrow Choke from Truck. Collar grip setup from 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Mastering the Truck",
-      "description": "Bow and Arrow Choke from Truck (Attacker) film study: Mastering the Truck, taught by 10th Planet Newport.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/YqlKl-La88s/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/YqlKl-La88s",
-      "url": "https://www.youtube.com/watch?v=YqlKl-La88s",
-      "creator": { "@type": "Person", "name": "10th Planet Newport" },
-      "duration": "PT216S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Kimura grip to bow and arrow finish",
-      "description": "Bow and Arrow Choke from Truck (Attacker) film study: Kimura grip to bow and arrow finish, taught by Brandon Quick.",
+      "name": "Kimura to Bow and Arrow",
+      "description": "Bow and Arrow Choke from Truck (Attacker) film study: Kimura to Bow and Arrow.",
       "thumbnailUrl": "https://i.ytimg.com/vi/PsmALCcIBic/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/PsmALCcIBic",
       "url": "https://www.youtube.com/watch?v=PsmALCcIBic",
-      "creator": { "@type": "Person", "name": "Brandon Quick" },
       "duration": "PT131S"
     }
   ]
@@ -234,17 +222,9 @@ Attacking with the Bow and Arrow Choke from the Truck requires understanding tha
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=YqlKl-La88s)
-
-<p class="clip-credit"><strong>Mastering the Truck</strong> — taught by 10th Planet Newport · 3:36 · <a href="https://www.youtube.com/watch?v=YqlKl-La88s" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=PsmALCcIBic)
 
-<p class="clip-credit"><strong>Kimura grip to bow and arrow finish</strong> — taught by Brandon Quick · 2:11 · <a href="https://www.youtube.com/watch?v=PsmALCcIBic" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Kimura to Bow and Arrow</strong> · 2:11 · <a href="https://www.youtube.com/watch?v=PsmALCcIBic" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

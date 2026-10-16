@@ -383,29 +383,24 @@
       {
         "id": "YZkWd9yDOjg",
         "title": "Stack pass guard recovery to triangle",
-        "by": "Revolution BJJ Ashland",
-        "vertical": false,
         "channel": "Revolution BJJ Ashland",
         "duration": 61,
-        "verified": "2026-07-15"
+        "vertical": false,
+        "front": true
       },
       {
         "id": "1UOj60dc540",
-        "title": "Double under stack pass counter to triangle",
-        "by": "Adam Bradley",
-        "vertical": false,
+        "title": "Double Under Stack Pass Counter - Triangle",
         "channel": "Adam Bradley",
-        "duration": 69,
-        "verified": "2026-07-15"
+        "duration": 68,
+        "vertical": false
       },
       {
         "id": "PlvedjiTZ3U",
-        "title": "Double under guard pass counter",
-        "by": "Legacy Jiu-Jitsu Academy",
-        "vertical": false,
+        "title": "Double Under Guard Pass Counter",
         "channel": "Legacy Jiu-Jitsu Academy",
-        "duration": 75,
-        "verified": "2026-07-15"
+        "duration": 74,
+        "vertical": false
       }
     ]
   },
@@ -570,25 +565,6 @@
         "description": "Full resistance positional sparring where partner successfully frees one leg. Practice transitioning to over-under, leg weave, or single underhook passing without losing all control. Develop the ability to maintain continuous passing pressure across multiple grip and position configurations."
       }
     ],
-    "clips": [
-      {
-        "id": "N4PxPPv98k4",
-        "title": "Finishing the double unders pass",
-        "by": "Nicky Ryan",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 91,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "RIg9zUESSsQ",
-        "title": "Double under pass to paper cutter finish",
-        "by": "JitzLive",
-        "vertical": false,
-        "channel": "JitzLive",
-        "duration": 99,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

@@ -396,30 +396,25 @@
     "clips": [
       {
         "id": "IUvwQc_Y6RA",
-        "title": "Headquarters Position to Knee-Cut Pass",
-        "by": "Tony Casarez",
-        "vertical": false,
+        "title": "Long step failed? - Headquarters position to Knee-cut",
         "channel": "Tony Casarez",
-        "duration": 109,
-        "verified": "2026-07-15"
+        "duration": 108,
+        "vertical": false,
+        "front": true
       },
       {
         "id": "YNmgTjIxtNQ",
-        "title": "Mount Pass from Headquarters",
-        "by": "Reding Martial Arts",
-        "vertical": false,
+        "title": "Dope Mount Pass from Headquarters",
         "channel": "Reding Martial Arts",
         "duration": 159,
-        "verified": "2026-07-15"
+        "vertical": false
       },
       {
         "id": "VDsDFK-ntLE",
-        "title": "Headquarters Smash Pass",
-        "by": "OMJJJ",
-        "vertical": false,
+        "title": "Headquarters Smash Pass!",
         "channel": "OMJJJ",
         "duration": 195,
-        "verified": "2026-07-15"
+        "vertical": false
       }
     ]
   },
@@ -596,35 +591,7 @@
         "description": "Positional sparring starting in half guard bottom against a partner working headquarters pass at full intensity. Integrate all defensive tools including underhook battles, knee shield retention, timed hip escapes, and deep half entries. Track success rate and identify which defensive pathway works best against different body types and passing styles."
       }
     ],
-    "clips": [
-      {
-        "id": "rP8SOouke1s",
-        "title": "Knee-Elbow Retention vs the Knee Cut",
-        "by": "Cal McDonald",
-        "vertical": false,
-        "channel": "Cal McDonald",
-        "duration": 57,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "lVLAROiSjNU",
-        "title": "Guard Retention: When To Sit Up Escape",
-        "by": "Lachlan Giles",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 136,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "k4pZYVOwmbI",
-        "title": "Knee Shield Defense vs Headquarters",
-        "by": "Jiu Jitsu Curriculum",
-        "vertical": false,
-        "channel": "Jiu Jitsu Curriculum",
-        "duration": 117,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "variants_and_adaptations": [
     {

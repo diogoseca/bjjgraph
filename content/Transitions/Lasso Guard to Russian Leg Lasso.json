@@ -381,26 +381,7 @@
       }
     ],
     "safety_considerations": "The primary safety concern during the transition to Russian Leg Lasso involves the torque placed on the opponent's shoulder joints when both arms are simultaneously bound by lasso hooks. Thread the second leg smoothly rather than explosively to avoid sudden rotational stress on the shoulder. During drilling, communicate with your partner about pressure levels and release immediately if they indicate discomfort. Practitioners with knee injuries should be cautious with the threading motion, as the curling and rotating of the threading leg places lateral stress on the knee joint. Both players should be aware that the bilateral binding creates stronger forces than a single lasso, so sweep attempts from Russian Leg Lasso can generate significant momentum - breakfall practice is recommended before live training.",
-    "clips": [
-      {
-        "id": "8u1c8ZEy0IU",
-        "title": "4 Leg Lasso Techniques",
-        "by": "The Grappling Academy",
-        "vertical": false,
-        "channel": "The Grappling Academy",
-        "duration": 258,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "2DCBkTnHVMg",
-        "title": "3 Essential Attacks from Lasso Guard",
-        "by": "BIG OSS Jiu-Jitsu",
-        "vertical": false,
-        "channel": "BIG OSS Jiu-Jitsu Channel",
-        "duration": 498,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Lasso Guard to Russian Leg Lasso Defender",
@@ -576,25 +557,6 @@
         "description": "Start every round in established single-leg lasso guard. Bottom player attempts threading to Russian Leg Lasso, sweeps, and submissions at full intensity. Top player applies all defensive tools while pursuing passing. Track the percentage of rounds where the bottom player successfully establishes Russian Leg Lasso to measure defensive improvement. Reset to single lasso after each pass, sweep, or submission."
       }
     ],
-    "clips": [
-      {
-        "id": "jI5gtpOQhys",
-        "title": "Escaping the lasso guard",
-        "by": "Rodrigo Carvalho",
-        "vertical": false,
-        "channel": "AKXE JIU JITSU ACADEMY",
-        "duration": 30,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "GOzoDB10XkY",
-        "title": "Lasso and spider guard defense breakdown",
-        "by": "Binder BJJ",
-        "vertical": false,
-        "channel": "Binder Brazilian Jiu Jitsu",
-        "duration": 245,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

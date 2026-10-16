@@ -152,35 +152,22 @@ description: "How to defend against Arm Drag to Back in BJJ. Recognition cues, d
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "How to Defend the Arm Drag",
-      "description": "Arm Drag to Back (Defender) film study: How to Defend the Arm Drag, taught by Matt Arroyo.",
+      "name": "The BEST Way To Defend The Arm Drag in Jiu Jitsu Based On My Story With Marcelo\u2026",
+      "description": "Arm Drag to Back (Defender) film study: The BEST Way To Defend The Arm Drag in Jiu Jitsu Based On My Story With Marcelo\u2026.",
       "thumbnailUrl": "https://i.ytimg.com/vi/bmCjXADzgo4/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/bmCjXADzgo4",
       "url": "https://www.youtube.com/watch?v=bmCjXADzgo4",
-      "creator": { "@type": "Person", "name": "Matt Arroyo" },
-      "duration": "PT103S"
+      "duration": "PT102S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "The simplest counter to the arm drag",
-      "description": "Arm Drag to Back (Defender) film study: The simplest counter to the arm drag, taught by Stephan Kesting.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/epMcg6nvik8/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/epMcg6nvik8",
-      "url": "https://www.youtube.com/watch?v=epMcg6nvik8",
-      "creator": { "@type": "Person", "name": "Stephan Kesting" },
-      "duration": "PT72S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Four arm drag counters against seated guard",
-      "description": "Arm Drag to Back (Defender) film study: Four arm drag counters against seated guard, taught by MMA Leech.",
+      "name": "4 Arm Drag Counters Against Seated Guard (No Gi BJJ)",
+      "description": "Arm Drag to Back (Defender) film study: 4 Arm Drag Counters Against Seated Guard (No Gi BJJ).",
       "thumbnailUrl": "https://i.ytimg.com/vi/6bocwKQC8Oo/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/6bocwKQC8Oo",
       "url": "https://www.youtube.com/watch?v=6bocwKQC8Oo",
-      "creator": { "@type": "Person", "name": "MMA Leech" },
-      "duration": "PT261S"
+      "duration": "PT260S"
     }
   ]
 }
@@ -210,15 +197,7 @@ Defending the arm drag to back requires understanding the attacker's mechanical 
 
 ![](https://www.youtube.com/watch?v=bmCjXADzgo4)
 
-<p class="clip-credit"><strong>How to Defend the Arm Drag</strong> — taught by Matt Arroyo · 1:43 · <a href="https://www.youtube.com/watch?v=bmCjXADzgo4" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=epMcg6nvik8)
-
-<p class="clip-credit"><strong>The simplest counter to the arm drag</strong> — taught by Stephan Kesting · 1:12 · <a href="https://www.youtube.com/watch?v=epMcg6nvik8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>The BEST Way To Defend The Arm Drag in Jiu Jitsu Based On My Story With Marcelo…</strong> · 1:42 · <a href="https://www.youtube.com/watch?v=bmCjXADzgo4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -226,7 +205,7 @@ Defending the arm drag to back requires understanding the attacker's mechanical 
 
 ![](https://www.youtube.com/watch?v=6bocwKQC8Oo)
 
-<p class="clip-credit"><strong>Four arm drag counters against seated guard</strong> — taught by MMA Leech · 4:21 · <a href="https://www.youtube.com/watch?v=6bocwKQC8Oo" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>4 Arm Drag Counters Against Seated Guard (No Gi BJJ)</strong> · 4:20 · <a href="https://www.youtube.com/watch?v=6bocwKQC8Oo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

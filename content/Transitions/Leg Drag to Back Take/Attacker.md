@@ -186,35 +186,32 @@ description: "How to execute Leg Drag to Back Take in BJJ. Attacking perspective
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Leg drag to back take pass",
-      "description": "Leg Drag to Back Take (Attacker) film study: Leg drag to back take pass, taught by Ben (Combat Room BJJ).",
-      "thumbnailUrl": "https://i.ytimg.com/vi/4xplJQ-FFvI/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/4xplJQ-FFvI",
-      "url": "https://www.youtube.com/watch?v=4xplJQ-FFvI",
-      "creator": { "@type": "Person", "name": "Ben (Combat Room BJJ)" },
-      "duration": "PT75S"
+      "name": "Leg drag to back take",
+      "description": "Leg Drag to Back Take (Attacker) film study: Leg drag to back take.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4pqiJsPBIls/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4pqiJsPBIls",
+      "url": "https://www.youtube.com/watch?v=4pqiJsPBIls",
+      "duration": "PT32S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Leg drag to back control",
-      "description": "Leg Drag to Back Take (Attacker) film study: Leg drag to back control, taught by Ninja Pinto.",
+      "description": "Leg Drag to Back Take (Attacker) film study: Leg drag to back control.",
       "thumbnailUrl": "https://i.ytimg.com/vi/3W-mpN5pSE0/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/3W-mpN5pSE0",
       "url": "https://www.youtube.com/watch?v=3W-mpN5pSE0",
-      "creator": { "@type": "Person", "name": "Ninja Pinto" },
       "duration": "PT55S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "Leg drag to back take",
-      "description": "Leg Drag to Back Take (Attacker) film study: Leg drag to back take, taught by Adrian Roldan.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/4pqiJsPBIls/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/4pqiJsPBIls",
-      "url": "https://www.youtube.com/watch?v=4pqiJsPBIls",
-      "creator": { "@type": "Person", "name": "Adrian Roldan" },
-      "duration": "PT33S"
+      "name": "BJJ Guard Pass Idea #7 - Leg Drag to Back Take Pass - demonstrated by Ben  ||\u2026",
+      "description": "Leg Drag to Back Take (Attacker) film study: BJJ Guard Pass Idea #7 - Leg Drag to Back Take Pass - demonstrated by Ben  ||\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4xplJQ-FFvI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4xplJQ-FFvI",
+      "url": "https://www.youtube.com/watch?v=4xplJQ-FFvI",
+      "duration": "PT75S"
     }
   ]
 }
@@ -246,9 +243,9 @@ Execution requires maintaining constant pressure and connection throughout the t
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=4xplJQ-FFvI)
+![](https://www.youtube.com/watch?v=4pqiJsPBIls)
 
-<p class="clip-credit"><strong>Leg drag to back take pass</strong> — taught by Ben (Combat Room BJJ) · 1:15 · <a href="https://www.youtube.com/watch?v=4xplJQ-FFvI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Leg drag to back take</strong> · 0:32 · <a href="https://www.youtube.com/watch?v=4pqiJsPBIls" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -256,15 +253,15 @@ Execution requires maintaining constant pressure and connection throughout the t
 
 ![](https://www.youtube.com/watch?v=3W-mpN5pSE0)
 
-<p class="clip-credit"><strong>Leg drag to back control</strong> — taught by Ninja Pinto · 0:55 · <a href="https://www.youtube.com/watch?v=3W-mpN5pSE0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Leg drag to back control</strong> · 0:55 · <a href="https://www.youtube.com/watch?v=3W-mpN5pSE0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=4pqiJsPBIls)
+![](https://www.youtube.com/watch?v=4xplJQ-FFvI)
 
-<p class="clip-credit"><strong>Leg drag to back take</strong> — taught by Adrian Roldan · 0:33 · <a href="https://www.youtube.com/watch?v=4pqiJsPBIls" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>BJJ Guard Pass Idea #7 - Leg Drag to Back Take Pass - demonstrated by Ben  ||…</strong> · 1:15 · <a href="https://www.youtube.com/watch?v=4xplJQ-FFvI" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

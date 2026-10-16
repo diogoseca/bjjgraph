@@ -36,28 +36,6 @@ description: "Master the Old School Pass in BJJ. Systematic guide to breaking lo
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Old School Pass \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Lockdown sweep details",
-      "description": "Old School Pass film study: Lockdown sweep details, taught by Eddie Bravo.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/08cbHHs_NsM/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/08cbHHs_NsM",
-      "url": "https://www.youtube.com/watch?v=08cbHHs_NsM",
-      "creator": { "@type": "Person", "name": "Eddie Bravo" },
-      "duration": "PT53S"
-    }
-  ]
-}
-</script>
-
 
 
 <script type="application/ld+json">
@@ -96,24 +74,6 @@ Strategic timing distinguishes successful Old School Pass execution from failed 
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Old School Pass in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=08cbHHs_NsM)
-
-<p class="clip-credit"><strong>Lockdown sweep details</strong> — taught by Eddie Bravo · 0:53 · <a href="https://www.youtube.com/watch?v=08cbHHs_NsM" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="possible-outcomes" class="content-section">

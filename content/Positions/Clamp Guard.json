@@ -396,21 +396,11 @@
     "clips": [
       {
         "id": "58LkTy6v3KQ",
-        "title": "Defense and counter to the clamp guard",
-        "by": "The Grappling Bloke",
-        "vertical": false,
+        "title": "Closed Guard Defense and Counter to the Clamp (Over Hook Position)",
         "channel": "The Grappling Bloke",
-        "duration": 109,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "Y3CJAMifi7E",
-        "title": "Clamp Guard Basics",
-        "by": "Brian Glick",
+        "duration": 108,
         "vertical": false,
-        "channel": "Shintaro Higashi",
-        "duration": 268,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },
@@ -790,35 +780,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "bH5ApVR2jRo",
-        "title": "Shoulder crunch from closed guard",
-        "by": "Francis F. Abramson",
-        "vertical": false,
-        "channel": "Francis F. Abramson",
-        "duration": 84,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "bCuDep0mSEA",
-        "title": "Clamp guard to kimura",
-        "by": "LBJJ TV",
-        "vertical": false,
-        "channel": "LBJJ TV",
-        "duration": 170,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "zgSRXQFf97o",
-        "title": "Clamp guard to triangle",
-        "by": "Nathan Kay",
-        "vertical": false,
-        "channel": "London Grapple",
-        "duration": 224,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   },
   "flashcards_position": [
     {
@@ -934,24 +896,5 @@
       }
     }
   ],
-  "clips": [
-    {
-      "id": "KPJJENQtRWU",
-      "title": "Straitjacket: trapping the arm",
-      "by": "Absolute MMA St Kilda",
-      "vertical": false,
-      "channel": "Absolute MMA St Kilda - Melbourne",
-      "duration": 125,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "cgMrWs-IXm4",
-      "title": "Trap the arm from closed guard (no-gi)",
-      "by": "Mica Galvao",
-      "vertical": true,
-      "channel": "Bernardo Faria BJJ Fanatics",
-      "duration": 61,
-      "verified": "2026-07-14"
-    }
-  ]
+  "clips": []
 }

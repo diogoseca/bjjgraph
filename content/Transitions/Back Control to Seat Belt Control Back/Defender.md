@@ -160,24 +160,12 @@ description: "How to prevent seat belt establishment from back control in BJJ. L
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Defending back control with the seatbelt grip",
-      "description": "Back Control to Seat Belt Control Back (Defender) film study: Defending back control with the seatbelt grip, taught by Academy Jiu Jitsu.",
+      "name": "Back Control (Defending) Seatbelt Grip",
+      "description": "Back Control to Seat Belt Control Back (Defender) film study: Back Control (Defending) Seatbelt Grip.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Wga4PfuShEg/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Wga4PfuShEg",
       "url": "https://www.youtube.com/watch?v=Wga4PfuShEg",
-      "creator": { "@type": "Person", "name": "Academy Jiu Jitsu" },
       "duration": "PT114S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Three ways to defend the back take",
-      "description": "Back Control to Seat Belt Control Back (Defender) film study: Three ways to defend the back take, taught by Roberto Cyborg Abreu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/OltjLaTW3wQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/OltjLaTW3wQ",
-      "url": "https://www.youtube.com/watch?v=OltjLaTW3wQ",
-      "creator": { "@type": "Person", "name": "Roberto Cyborg Abreu" },
-      "duration": "PT89S"
     }
   ]
 }
@@ -207,15 +195,7 @@ Defending against seat belt establishment from back control is a critical skill 
 
 ![](https://www.youtube.com/watch?v=Wga4PfuShEg)
 
-<p class="clip-credit"><strong>Defending back control with the seatbelt grip</strong> — taught by Academy Jiu Jitsu · 1:54 · <a href="https://www.youtube.com/watch?v=Wga4PfuShEg" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=OltjLaTW3wQ)
-
-<p class="clip-credit"><strong>Three ways to defend the back take</strong> — taught by Roberto Cyborg Abreu · 1:29 · <a href="https://www.youtube.com/watch?v=OltjLaTW3wQ" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Back Control (Defending) Seatbelt Grip</strong> · 1:54 · <a href="https://www.youtube.com/watch?v=Wga4PfuShEg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

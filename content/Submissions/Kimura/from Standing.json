@@ -520,30 +520,18 @@
     "clips": [
       {
         "id": "HDnP_Kksmf8",
-        "title": "Standing Kimura",
-        "by": "Michael Currier",
-        "vertical": false,
+        "title": "Standing Kimura by Michael Currier",
         "channel": "ROLLING SOCIETY",
-        "duration": 23,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "CqJrSJnGPDQ",
-        "title": "Kimura Takedown",
-        "by": "Kinesiology College",
+        "duration": 22,
         "vertical": false,
-        "channel": "Kinesiology College",
-        "duration": 18,
-        "verified": "2026-07-14"
+        "front": true
       },
       {
         "id": "Fxpu62evbwk",
-        "title": "Body Lock Break to Kimura",
-        "by": "SBG Australia",
-        "vertical": false,
+        "title": "Body lock break - Kimura",
         "channel": "SBG Australia",
         "duration": 44,
-        "verified": "2026-07-14"
+        "vertical": false
       }
     ]
   },
@@ -733,22 +721,12 @@
     ],
     "clips": [
       {
-        "id": "FNyL93v5fGs",
-        "title": "Defending the Americana / Kimura",
-        "by": "Lachlan Giles",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 91,
-        "verified": "2026-07-14"
-      },
-      {
         "id": "7bN5ypMZyyM",
         "title": "Defending the Kimura Against the Cage",
-        "by": "Intercept MMA",
-        "vertical": false,
         "channel": "Intercept MMA",
-        "duration": 150,
-        "verified": "2026-07-14"
+        "duration": 149,
+        "vertical": false,
+        "front": true
       }
     ]
   },

@@ -188,24 +188,22 @@ description: "Step-by-step guide to finishing the Americana shoulder lock from U
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Inverted Americana",
-      "description": "Americana from Ushiro Kesa Gatame (Attacker) film study: Inverted Americana, taught by Adrian Nielsen.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/uaHf3d_aCso/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/uaHf3d_aCso",
-      "url": "https://www.youtube.com/watch?v=uaHf3d_aCso",
-      "creator": { "@type": "Person", "name": "Adrian Nielsen" },
-      "duration": "PT56S"
+      "name": "This one handed Americana/keylock submission will surprise your opponents",
+      "description": "Americana from Ushiro Kesa Gatame (Attacker) film study: This one handed Americana/keylock submission will surprise your opponents.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/iGVWSwxKCII/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/iGVWSwxKCII",
+      "url": "https://www.youtube.com/watch?v=iGVWSwxKCII",
+      "duration": "PT141S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "One-Handed Americana / Keylock Submission",
-      "description": "Americana from Ushiro Kesa Gatame (Attacker) film study: One-Handed Americana / Keylock Submission, taught by Mastermind Martial Arts.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/iGVWSwxKCII/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/iGVWSwxKCII",
-      "url": "https://www.youtube.com/watch?v=iGVWSwxKCII",
-      "creator": { "@type": "Person", "name": "Mastermind Martial Arts" },
-      "duration": "PT141S"
+      "name": "Inverted Americana",
+      "description": "Americana from Ushiro Kesa Gatame (Attacker) film study: Inverted Americana.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/uaHf3d_aCso/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/uaHf3d_aCso",
+      "url": "https://www.youtube.com/watch?v=uaHf3d_aCso",
+      "duration": "PT56S"
     }
   ]
 }
@@ -234,17 +232,17 @@ Attacking with the Americana from Ushiro Kesa Gatame leverages the natural arm i
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=uaHf3d_aCso)
+![](https://www.youtube.com/watch?v=iGVWSwxKCII)
 
-<p class="clip-credit"><strong>Inverted Americana</strong> — taught by Adrian Nielsen · 0:56 · <a href="https://www.youtube.com/watch?v=uaHf3d_aCso" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>This one handed Americana/keylock submission will surprise your opponents</strong> · 2:21 · <a href="https://www.youtube.com/watch?v=iGVWSwxKCII" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=iGVWSwxKCII)
+![](https://www.youtube.com/watch?v=uaHf3d_aCso)
 
-<p class="clip-credit"><strong>One-Handed Americana / Keylock Submission</strong> — taught by Mastermind Martial Arts · 2:21 · <a href="https://www.youtube.com/watch?v=iGVWSwxKCII" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Inverted Americana</strong> · 0:56 · <a href="https://www.youtube.com/watch?v=uaHf3d_aCso" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

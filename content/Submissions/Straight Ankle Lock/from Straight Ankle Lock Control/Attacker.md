@@ -188,35 +188,22 @@ description: "How to finish the straight ankle lock from ankle lock control. Ste
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Backside Foot Finish Mechanics",
-      "description": "Straight Ankle Lock from Straight Ankle Lock Control (Attacker) film study: Backside Foot Finish Mechanics, taught by Mikey Musumeci.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/-VpByetjzqs/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/-VpByetjzqs",
-      "url": "https://www.youtube.com/watch?v=-VpByetjzqs",
-      "creator": { "@type": "Person", "name": "Mikey Musumeci" },
-      "duration": "PT84S"
+      "name": "Gordon Achilles Lock/Straight Ankle Lock Finishing Mechanics",
+      "description": "Straight Ankle Lock from Straight Ankle Lock Control (Attacker) film study: Gordon Achilles Lock/Straight Ankle Lock Finishing Mechanics.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2tEym-VSeMQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2tEym-VSeMQ",
+      "url": "https://www.youtube.com/watch?v=2tEym-VSeMQ",
+      "duration": "PT52S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Straight Ankle Lock",
-      "description": "Straight Ankle Lock from Straight Ankle Lock Control (Attacker) film study: Straight Ankle Lock, taught by bjjtaro.",
+      "description": "Straight Ankle Lock from Straight Ankle Lock Control (Attacker) film study: Straight Ankle Lock.",
       "thumbnailUrl": "https://i.ytimg.com/vi/PsyAVXfRhyY/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/PsyAVXfRhyY",
       "url": "https://www.youtube.com/watch?v=PsyAVXfRhyY",
-      "creator": { "@type": "Person", "name": "bjjtaro" },
       "duration": "PT16S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Fast Straight Ankle Lock (No-Gi)",
-      "description": "Straight Ankle Lock from Straight Ankle Lock Control (Attacker) film study: Fast Straight Ankle Lock (No-Gi), taught by Everythingbjj.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/GVwnRuiKk-Y/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/GVwnRuiKk-Y",
-      "url": "https://www.youtube.com/watch?v=GVwnRuiKk-Y",
-      "creator": { "@type": "Person", "name": "Everythingbjj" },
-      "duration": "PT64S"
     }
   ]
 }
@@ -245,9 +232,9 @@ Finishing the straight ankle lock from established control requires mastering th
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=-VpByetjzqs)
+![](https://www.youtube.com/watch?v=2tEym-VSeMQ)
 
-<p class="clip-credit"><strong>Backside Foot Finish Mechanics</strong> — taught by Mikey Musumeci · 1:24 · <a href="https://www.youtube.com/watch?v=-VpByetjzqs" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Gordon Achilles Lock/Straight Ankle Lock Finishing Mechanics</strong> · 0:52 · <a href="https://www.youtube.com/watch?v=2tEym-VSeMQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -255,15 +242,7 @@ Finishing the straight ankle lock from established control requires mastering th
 
 ![](https://www.youtube.com/watch?v=PsyAVXfRhyY)
 
-<p class="clip-credit"><strong>Straight Ankle Lock</strong> — taught by bjjtaro · 0:16 · <a href="https://www.youtube.com/watch?v=PsyAVXfRhyY" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=GVwnRuiKk-Y)
-
-<p class="clip-credit"><strong>Fast Straight Ankle Lock (No-Gi)</strong> — taught by Everythingbjj · 1:04 · <a href="https://www.youtube.com/watch?v=GVwnRuiKk-Y" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Straight Ankle Lock</strong> · 0:16 · <a href="https://www.youtube.com/watch?v=PsyAVXfRhyY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

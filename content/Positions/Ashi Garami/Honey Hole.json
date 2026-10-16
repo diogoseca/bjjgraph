@@ -494,31 +494,18 @@
     ],
     "clips": [
       {
-        "id": "3KAO2Ck4HRg",
-        "title": "Honey Hole Heel Hook from Bow and Arrow",
-        "by": "JitzLive",
-        "vertical": false,
-        "channel": "JitzLive",
-        "duration": 52,
-        "verified": "2026-07-14"
+        "id": "RbuQjr3-F2I",
+        "title": "Intro to Saddle | 411 | Honey Hole | Inside Sankaku",
+        "channel": "Fat Snake Jiu Jitsu",
+        "duration": 290,
+        "front": true
       },
       {
-        "id": "K5XhO7o5QN0",
-        "title": "Saddle Entries from Guard",
-        "by": "Lachlan Giles",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 66,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "PGQ7YYfu76Q",
-        "title": "Single Leg X to Honey Hole Heel Hook",
-        "by": "Ilya Bodnya",
-        "vertical": false,
-        "channel": "Ilya Bodnya",
-        "duration": 65,
-        "verified": "2026-07-14"
+        "id": "Jn_JST6ZJ3o",
+        "title": "INSIDE SANKAKU ENTRIES  | Dynamic Martial Arts Roseburg",
+        "channel": "Dynamic Martial Arts Roseburg",
+        "duration": 137,
+        "vertical": false
       }
     ]
   },
@@ -989,21 +976,11 @@
     "clips": [
       {
         "id": "PhS9Xj-4KbA",
-        "title": "Escaping the Honey Hole (Inside Sankaku)",
-        "by": "Oneonta Jiu Jitsu",
-        "vertical": false,
+        "title": "Escaping Honey Hole (Inside Sankaku)",
         "channel": "OneontaJiuJitsu Academy",
         "duration": 56,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "DrjbaXt-nTo",
-        "title": "Rolling Out of Heel Hooks",
-        "by": "Lachlan Giles",
         "vertical": false,
-        "channel": "Absolute MMA St Kilda - Melbourne",
-        "duration": 243,
-        "verified": "2026-07-14"
+        "front": true
       }
     ]
   },
@@ -1123,31 +1100,20 @@
   ],
   "clips": [
     {
-      "id": "F5rdV0PUuDc",
-      "title": "Leg Locks: Enter the System",
-      "by": "John Danaher",
+      "id": "VmxgqU-ScTM",
+      "title": "HONEY HOLE FROM SINGLE LEG X - LEG LOCK ENTRY",
+      "channel": "Danny Mitchell MMA",
+      "duration": 33,
       "vertical": false,
-      "channel": "BJJ Fanatics",
-      "duration": 176,
-      "verified": "2026-07-14"
+      "half": "top"
     },
     {
       "id": "Jn_JST6ZJ3o",
-      "title": "Inside Sankaku Entries",
-      "by": "Dynamic Martial Arts",
-      "vertical": false,
+      "title": "INSIDE SANKAKU ENTRIES  | Dynamic Martial Arts Roseburg",
       "channel": "Dynamic Martial Arts Roseburg",
-      "duration": 138,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "VmxgqU-ScTM",
-      "title": "Honey Hole from Single Leg X",
-      "by": "Danny Mitchell",
+      "duration": 137,
       "vertical": false,
-      "channel": "Danny Mitchell MMA",
-      "duration": 34,
-      "verified": "2026-07-14"
+      "half": "top"
     }
   ]
 }

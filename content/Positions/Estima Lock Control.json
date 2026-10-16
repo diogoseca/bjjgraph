@@ -424,31 +424,11 @@
     ],
     "clips": [
       {
-        "id": "7hajltIw4kI",
-        "title": "Estima Lock Breaking Mechanics",
-        "by": "Josh Star-Lord Leduc",
-        "vertical": false,
-        "channel": "Josh Star-Lord Leduc",
-        "duration": 82,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "1I7Nlm1IhgQ",
-        "title": "Estima Lock from 50/50",
-        "by": "The Jiu-Jitsu Foundry",
-        "vertical": false,
-        "channel": "The Jiu-Jitsu Foundry",
-        "duration": 33,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "Ao0IatSHEi0",
-        "title": "Estima Lock Finish",
-        "by": "Leandro Dos Santos Flores",
-        "vertical": false,
-        "channel": "Sensei Leandro Dos Santos Flores",
-        "duration": 27,
-        "verified": "2026-07-14"
+        "id": "lGnr1JIew0A",
+        "title": "Estima lock explained - De Groot BJJ",
+        "channel": "Haven BJJ",
+        "duration": 310,
+        "front": true
       }
     ]
   },
@@ -814,35 +794,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "CUnX7TOpb-A",
-        "title": "Ankle Lock Escape: Put On the Boot",
-        "by": "Ritchie Yip",
-        "vertical": false,
-        "channel": "Ritchie Yip",
-        "duration": 16,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "e2cpItCWRdQ",
-        "title": "Estima Lock and Estima Lock Escape",
-        "by": "Budo Jake",
-        "vertical": false,
-        "channel": "BudoVideos.com",
-        "duration": 295,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "6-HYU8Pbngg",
-        "title": "K guard defense vs toe hold and straight foot lock",
-        "by": "Lachlan Giles",
-        "vertical": false,
-        "channel": "Absolute MMA St Kilda - Melbourne",
-        "duration": 152,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "flashcards_position": [
     {
@@ -958,24 +910,5 @@
       }
     }
   ],
-  "clips": [
-    {
-      "id": "enJwT6Ttreo",
-      "title": "Huge Detail on the Estima Lock",
-      "by": "Brandon Mccaghren",
-      "vertical": false,
-      "channel": "Brandon Mccaghren",
-      "duration": 137,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "7hajltIw4kI",
-      "title": "Estima Lock Breaking Mechanics",
-      "by": "Josh Star-Lord Leduc",
-      "vertical": false,
-      "channel": "Josh Star-Lord Leduc",
-      "duration": 82,
-      "verified": "2026-07-14"
-    }
-  ]
+  "clips": []
 }

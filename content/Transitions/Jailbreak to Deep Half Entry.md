@@ -46,35 +46,12 @@ description: "Master the Jailbreak to Deep Half Entry in BJJ. Transition from co
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Entering deep half guard from knee on belly",
-      "description": "Jailbreak to Deep Half Entry film study: Entering deep half guard from knee on belly, taught by Team Daruma Dojo coach.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Dalv3UtxCZ0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Dalv3UtxCZ0",
-      "url": "https://www.youtube.com/watch?v=Dalv3UtxCZ0",
-      "creator": { "@type": "Person", "name": "Team Daruma Dojo coach" },
-      "duration": "PT68S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Entry to deep half guard",
-      "description": "Jailbreak to Deep Half Entry film study: Entry to deep half guard, taught by Lucas Valle.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/SShUdtEdPuA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/SShUdtEdPuA",
-      "url": "https://www.youtube.com/watch?v=SShUdtEdPuA",
-      "creator": { "@type": "Person", "name": "Lucas Valle" },
-      "duration": "PT195S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Deep half guard entries and three key options",
-      "description": "Jailbreak to Deep Half Entry film study: Deep half guard entries and three key options, taught by Knight Jiu-Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Y4qzY740Tyg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Y4qzY740Tyg",
-      "url": "https://www.youtube.com/watch?v=Y4qzY740Tyg",
-      "creator": { "@type": "Person", "name": "Knight Jiu-Jitsu" },
-      "duration": "PT186S"
+      "name": "Knee Slide Pass Counter to Deep Half Guard Entry",
+      "description": "Jailbreak to Deep Half Entry film study: Knee Slide Pass Counter to Deep Half Guard Entry.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/K0XMj9BNJ8U/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/K0XMj9BNJ8U",
+      "url": "https://www.youtube.com/watch?v=K0XMj9BNJ8U",
+      "duration": "PT133S"
     }
   ]
 }
@@ -128,25 +105,9 @@ The biomechanical foundation of this entry relies on using your existing underho
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=Dalv3UtxCZ0)
+![](https://www.youtube.com/watch?v=K0XMj9BNJ8U)
 
-<p class="clip-credit"><strong>Entering deep half guard from knee on belly</strong> — taught by Team Daruma Dojo coach · 1:08 · <a href="https://www.youtube.com/watch?v=Dalv3UtxCZ0" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=SShUdtEdPuA)
-
-<p class="clip-credit"><strong>Entry to deep half guard</strong> — taught by Lucas Valle · 3:15 · <a href="https://www.youtube.com/watch?v=SShUdtEdPuA" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=Y4qzY740Tyg)
-
-<p class="clip-credit"><strong>Deep half guard entries and three key options</strong> — taught by Knight Jiu-Jitsu · 3:06 · <a href="https://www.youtube.com/watch?v=Y4qzY740Tyg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Knee Slide Pass Counter to Deep Half Guard Entry</strong> · 2:13 · <a href="https://www.youtube.com/watch?v=K0XMj9BNJ8U" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -401,35 +401,7 @@
       }
     ],
     "safety_considerations": "The knee slice from deep half guard involves significant pressure on the opponent's neck and face from the crossface, as well as knee pressure across their body. Apply crossface with controlled force, avoiding excessive cranking of the neck. During training, communicate with partners about pressure intensity. Be cautious of your knee landing on the opponent's ribs or hip bones during the slice. If the opponent taps due to pressure rather than submission, release immediately and adjust your technique to distribute pressure more broadly.",
-    "clips": [
-      {
-        "id": "hHbb7ywVTwU",
-        "title": "Passing deep half guard, countering the back take",
-        "by": "JiuJitsu.com",
-        "vertical": false,
-        "channel": "JiuJitsu.com",
-        "duration": 63,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "hMyxGPLUdkM",
-        "title": "Knee cutting against the deep half guard",
-        "by": "Lucas Lepri",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 392,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "2mom9Urqxa4",
-        "title": "How to pass the deep half guard",
-        "by": "Dimitrius Souza",
-        "vertical": false,
-        "channel": "Bernardo Faria BJJ Fanatics",
-        "duration": 237,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Knee Slice from Deep Half Defender",
@@ -607,25 +579,6 @@
         "description": "Full positional rounds starting with top player in deep half guard. Bottom player defends all pass attempts including knee slice, backstep, and smash variations. Track success rate of defense and identify which pass variations cause the most difficulty for targeted improvement."
       }
     ],
-    "clips": [
-      {
-        "id": "dhGbNUvfvjM",
-        "title": "Common deep half sweep mistakes",
-        "by": "John Kelly",
-        "vertical": false,
-        "channel": "John Kelly Brazilian Jiu Jitsu Ireland ",
-        "duration": 73,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "q8buwG6oS0s",
-        "title": "Push him away to stop the knee cut from half guard",
-        "by": "Bernardo Faria",
-        "vertical": false,
-        "channel": "Bernardo Faria BJJ Fanatics",
-        "duration": 148,
-        "verified": "2026-07-16"
-      }
-    ]
+    "clips": []
   }
 }

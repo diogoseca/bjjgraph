@@ -188,35 +188,22 @@ description: "Learn to execute the Rear Naked Choke from Harness. Step-by-step g
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Details on Finishing the Rear Naked Choke",
-      "description": "Rear Naked Choke from Harness (Attacker) film study: Details on Finishing the Rear Naked Choke, taught by Craig Jones.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/8tdVE2zgjXw/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/8tdVE2zgjXw",
-      "url": "https://www.youtube.com/watch?v=8tdVE2zgjXw",
-      "creator": { "@type": "Person", "name": "Craig Jones" },
-      "duration": "PT57S"
+      "name": "TMG Clips #9 - RNC Details From Seatbelt",
+      "description": "Rear Naked Choke from Harness (Attacker) film study: TMG Clips #9 - RNC Details From Seatbelt.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3H5ZyHEHfpI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3H5ZyHEHfpI",
+      "url": "https://www.youtube.com/watch?v=3H5ZyHEHfpI",
+      "duration": "PT133S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Rear Naked Choke from the Back",
-      "description": "Rear Naked Choke from Harness (Attacker) film study: Rear Naked Choke from the Back, taught by Gordon Ryan.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/70jECxFfCSA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/70jECxFfCSA",
-      "url": "https://www.youtube.com/watch?v=70jECxFfCSA",
-      "creator": { "@type": "Person", "name": "Gordon Ryan" },
-      "duration": "PT73S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "3 Favorite Jiu-Jitsu Chokes from the Back",
-      "description": "Rear Naked Choke from Harness (Attacker) film study: 3 Favorite Jiu-Jitsu Chokes from the Back, taught by Matt Arroyo.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/eMbkVDRreIQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/eMbkVDRreIQ",
-      "url": "https://www.youtube.com/watch?v=eMbkVDRreIQ",
-      "creator": { "@type": "Person", "name": "Matt Arroyo" },
-      "duration": "PT87S"
+      "name": "Craig Jones: details on finishing the rear naked choke",
+      "description": "Rear Naked Choke from Harness (Attacker) film study: Craig Jones: details on finishing the rear naked choke.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8tdVE2zgjXw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8tdVE2zgjXw",
+      "url": "https://www.youtube.com/watch?v=8tdVE2zgjXw",
+      "duration": "PT57S"
     }
   ]
 }
@@ -245,25 +232,17 @@ Executing the Rear Naked Choke from Harness requires patience and systematic gri
 
 <div class="film-clip">
 
+![](https://www.youtube.com/watch?v=3H5ZyHEHfpI)
+
+<p class="clip-credit"><strong>TMG Clips #9 - RNC Details From Seatbelt</strong> · 2:13 · <a href="https://www.youtube.com/watch?v=3H5ZyHEHfpI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
 ![](https://www.youtube.com/watch?v=8tdVE2zgjXw)
 
-<p class="clip-credit"><strong>Details on Finishing the Rear Naked Choke</strong> — taught by Craig Jones · 0:57 · <a href="https://www.youtube.com/watch?v=8tdVE2zgjXw" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=70jECxFfCSA)
-
-<p class="clip-credit"><strong>Rear Naked Choke from the Back</strong> — taught by Gordon Ryan · 1:13 · <a href="https://www.youtube.com/watch?v=70jECxFfCSA" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=eMbkVDRreIQ)
-
-<p class="clip-credit"><strong>3 Favorite Jiu-Jitsu Chokes from the Back</strong> — taught by Matt Arroyo · 1:27 · <a href="https://www.youtube.com/watch?v=eMbkVDRreIQ" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Craig Jones: details on finishing the rear naked choke</strong> · 0:57 · <a href="https://www.youtube.com/watch?v=8tdVE2zgjXw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

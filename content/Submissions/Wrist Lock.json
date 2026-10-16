@@ -444,31 +444,26 @@
     ],
     "clips": [
       {
-        "id": "zJm3g60Expo",
-        "title": "Wrist lock inside closed guard",
-        "by": "Stealth BJJ Madrid",
-        "vertical": false,
-        "channel": "Stealth BJJ Madrid",
-        "duration": 47,
-        "verified": "2026-07-14"
-      },
-      {
         "id": "4rpZgxQXNFM",
-        "title": "Wrist Lock from Closed Guard vs Biceps Control",
-        "by": "Scott Ryan Chiriboga",
-        "vertical": false,
+        "title": "Wrist Lock from Closed Guard when Opponent Controls Biceps",
         "channel": "Scott Ryan Chiriboga",
-        "duration": 97,
-        "verified": "2026-07-14"
+        "duration": 96,
+        "vertical": false,
+        "front": true
       },
       {
         "id": "nnhPrvpY9qM",
-        "title": "Best Wrist Lock From Closed Guard",
-        "by": "Giancarlo Bodoni",
-        "vertical": false,
+        "title": "The Best Wrist Lock From Closed Guard",
         "channel": "Giancarlo Bodoni",
-        "duration": 204,
-        "verified": "2026-07-14"
+        "duration": 203,
+        "vertical": false
+      },
+      {
+        "id": "zJm3g60Expo",
+        "title": "Wrist lock inside closed guard.",
+        "channel": "Stealth BJJ Madrid",
+        "duration": 47,
+        "vertical": false
       }
     ]
   },
@@ -640,16 +635,6 @@
         "description": "Spar from closed guard top against a partner hunting the wrist lock, choosing in real time whether to retract, posture and pass, or tap, while respecting safety on the small joint."
       }
     ],
-    "clips": [
-      {
-        "id": "H4O_WHpAxvQ",
-        "title": "Defend Any Wrist Lock Attack",
-        "by": "Kevin Goat",
-        "vertical": false,
-        "channel": "Kevin Goat Self Defense",
-        "duration": 219,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   }
 }

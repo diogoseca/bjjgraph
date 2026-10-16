@@ -47,22 +47,20 @@ description: "Master the Kimura from Shoulder of Justice in BJJ. Complete guide 
       "@type": "VideoObject",
       "position": 1,
       "name": "Kimura from side control",
-      "description": "Kimura from Shoulder of Justice film study: Kimura from side control, taught by Alavanca.",
+      "description": "Kimura from Shoulder of Justice film study: Kimura from side control.",
       "thumbnailUrl": "https://i.ytimg.com/vi/awNPX8E6bf4/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/awNPX8E6bf4",
       "url": "https://www.youtube.com/watch?v=awNPX8E6bf4",
-      "creator": { "@type": "Person", "name": "Alavanca" },
       "duration": "PT16S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Controlling the elbow in the Kimura",
-      "description": "Kimura from Shoulder of Justice film study: Controlling the elbow in the Kimura, taught by Brandon McCaghren.",
+      "name": "1 Minute Jiu Jitsu Hack - Controlling the Elbow in the Kimura",
+      "description": "Kimura from Shoulder of Justice film study: 1 Minute Jiu Jitsu Hack - Controlling the Elbow in the Kimura.",
       "thumbnailUrl": "https://i.ytimg.com/vi/qbKtgYa_wzk/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/qbKtgYa_wzk",
       "url": "https://www.youtube.com/watch?v=qbKtgYa_wzk",
-      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
       "duration": "PT68S"
     }
   ]
@@ -128,7 +126,7 @@ Strategically, this submission creates a powerful dilemma: the opponent must cho
 
 ![](https://www.youtube.com/watch?v=awNPX8E6bf4)
 
-<p class="clip-credit"><strong>Kimura from side control</strong> — taught by Alavanca · 0:16 · <a href="https://www.youtube.com/watch?v=awNPX8E6bf4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Kimura from side control</strong> · 0:16 · <a href="https://www.youtube.com/watch?v=awNPX8E6bf4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -136,7 +134,7 @@ Strategically, this submission creates a powerful dilemma: the opponent must cho
 
 ![](https://www.youtube.com/watch?v=qbKtgYa_wzk)
 
-<p class="clip-credit"><strong>Controlling the elbow in the Kimura</strong> — taught by Brandon McCaghren · 1:08 · <a href="https://www.youtube.com/watch?v=qbKtgYa_wzk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>1 Minute Jiu Jitsu Hack - Controlling the Elbow in the Kimura</strong> · 1:08 · <a href="https://www.youtube.com/watch?v=qbKtgYa_wzk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -165,24 +165,12 @@ description: "Master High Mount Top position in BJJ. Advanced mount control with
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Cross collar chokes from mount",
-      "description": "High Mount (Top) film study: Cross collar chokes from mount, taught by Roger Gracie.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/dfP-Ov8FBUo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/dfP-Ov8FBUo",
-      "url": "https://www.youtube.com/watch?v=dfP-Ov8FBUo",
-      "creator": { "@type": "Person", "name": "Roger Gracie" },
-      "duration": "PT80S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Armbars from mount",
-      "description": "High Mount (Top) film study: Armbars from mount, taught by Roger Gracie.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/vSmRbpNmf-E/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/vSmRbpNmf-E",
-      "url": "https://www.youtube.com/watch?v=vSmRbpNmf-E",
-      "creator": { "@type": "Person", "name": "Roger Gracie" },
-      "duration": "PT102S"
+      "name": "Jiu-Jitsu Fundamentals | Low Mount to High Mount Transition | BJJ Basics",
+      "description": "High Mount (Top) film study: Jiu-Jitsu Fundamentals | Low Mount to High Mount Transition | BJJ Basics.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3PKzYh3wCl8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3PKzYh3wCl8",
+      "url": "https://www.youtube.com/watch?v=3PKzYh3wCl8",
+      "duration": "PT259S"
     }
   ]
 }
@@ -214,17 +202,9 @@ From a biomechanical perspective, High Mount achieves dominance by positioning t
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=dfP-Ov8FBUo)
+![](https://www.youtube.com/watch?v=3PKzYh3wCl8)
 
-<p class="clip-credit"><strong>Cross collar chokes from mount</strong> — taught by Roger Gracie · 1:20 · <a href="https://www.youtube.com/watch?v=dfP-Ov8FBUo" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=vSmRbpNmf-E)
-
-<p class="clip-credit"><strong>Armbars from mount</strong> — taught by Roger Gracie · 1:42 · <a href="https://www.youtube.com/watch?v=vSmRbpNmf-E" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Jiu-Jitsu Fundamentals | Low Mount to High Mount Transition | BJJ Basics</strong> · 4:19 · <a href="https://www.youtube.com/watch?v=3PKzYh3wCl8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

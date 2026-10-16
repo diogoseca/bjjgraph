@@ -365,35 +365,7 @@
       }
     ],
     "safety_considerations": "The Kimura Defense Arm Extraction carries moderate risk to the shoulder joint of the person being extracted. During training, the person holding the Kimura should release immediately if the partner signals discomfort, as forced extractions against locked grips can strain the rotator cuff and shoulder capsule. The person extracting should never use explosive jerking motions that could injure their own shoulder if the grip suddenly releases. Both partners should communicate clearly during drilling, with the Kimura holder applying controlled resistance that allows the extractor to practice proper mechanics without risking joint injury. Tap early and often when practicing at higher intensities.",
-    "clips": [
-      {
-        "id": "Ki1enR8Rp2E",
-        "title": "Cross face to trapped arm extraction",
-        "by": "Chad Lyman",
-        "vertical": false,
-        "channel": "Code 4 Concepts Chad Lyman",
-        "duration": 136,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "o1bdg22Zw6s",
-        "title": "Kimura defense principles for attacker and defender",
-        "by": "Jean Jacques Machado",
-        "vertical": false,
-        "channel": "JeanJacquesMachado",
-        "duration": 498,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "DywQ7JEM0n0",
-        "title": "Breaking a tight kimura grip",
-        "by": "Roger Gracie",
-        "vertical": false,
-        "channel": "Roger Gracie TV",
-        "duration": 376,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Kimura Defense Arm Extraction Defender",
@@ -557,25 +529,6 @@
         "description": "Positional sparring from Kimura Trap with partner attempting extraction at full resistance. Work the complete decision tree: retain grip, add secondary controls, counter with sweeps, transition to back take. Both partners develop competitive timing and reactions under realistic conditions."
       }
     ],
-    "clips": [
-      {
-        "id": "8dHXG7x-l_k",
-        "title": "Two kimura finishes when hands stay locked",
-        "by": "Ryan Scialoia",
-        "vertical": false,
-        "channel": "BJJ Fanatics Black Belt Ryan Scialoia",
-        "duration": 114,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "39oJgyK1iz0",
-        "title": "Kimura part three grip retention details",
-        "by": "John Danaher",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 185,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

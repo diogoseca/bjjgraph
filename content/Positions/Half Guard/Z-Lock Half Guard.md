@@ -36,61 +36,6 @@ description: "Master Z-Lock Half Guard in BJJ. Advanced lockdown variation with 
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Z-Lock Half Guard \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Z lock sideways knee bar",
-      "description": "Z-Lock Half Guard film study: Z lock sideways knee bar, taught by Junny Ocasio.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/pFlYpsbltZw/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/pFlYpsbltZw",
-      "url": "https://www.youtube.com/watch?v=pFlYpsbltZw",
-      "creator": { "@type": "Person", "name": "Junny Ocasio" },
-      "duration": "PT396S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Getting and Maintaining the Lockdown",
-      "description": "Z-Lock Half Guard film study: Getting and Maintaining the Lockdown, taught by Submissions101 coach.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/q_3D98PnTWA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/q_3D98PnTWA",
-      "url": "https://www.youtube.com/watch?v=q_3D98PnTWA",
-      "creator": { "@type": "Person", "name": "Submissions101 coach" },
-      "duration": "PT83S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Prison Guard Breakdown",
-      "description": "Z-Lock Half Guard film study: Prison Guard Breakdown, taught by Eddie Bravo.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/gFYyMkaMz34/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/gFYyMkaMz34",
-      "url": "https://www.youtube.com/watch?v=gFYyMkaMz34",
-      "creator": { "@type": "Person", "name": "Eddie Bravo" },
-      "duration": "PT59S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 4,
-      "name": "Lockdown to Butterfly Guard with the Stomp",
-      "description": "Z-Lock Half Guard film study: Lockdown to Butterfly Guard with the Stomp, taught by Brandon McCaghren.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/LYeQDaZhVL0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/LYeQDaZhVL0",
-      "url": "https://www.youtube.com/watch?v=LYeQDaZhVL0",
-      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
-      "duration": "PT123S"
-    }
-  ]
-}
-</script>
-
 
 
 <script type="application/ld+json">
@@ -126,48 +71,6 @@ Developed primarily within the 10th Planet system and refined by lockdown specia
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Z-Lock Half Guard in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=pFlYpsbltZw)
-
-<p class="clip-credit"><strong>Z lock sideways knee bar</strong> — taught by Junny Ocasio · 6:36 · <a href="https://www.youtube.com/watch?v=pFlYpsbltZw" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=q_3D98PnTWA)
-
-<p class="clip-credit"><strong>Getting and Maintaining the Lockdown</strong> — taught by Submissions101 coach · 1:23 · <a href="https://www.youtube.com/watch?v=q_3D98PnTWA" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=gFYyMkaMz34)
-
-<p class="clip-credit"><strong>Prison Guard Breakdown</strong> — taught by Eddie Bravo · 0:59 · <a href="https://www.youtube.com/watch?v=gFYyMkaMz34" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=LYeQDaZhVL0)
-
-<p class="clip-credit"><strong>Lockdown to Butterfly Guard with the Stomp</strong> — taught by Brandon McCaghren · 2:03 · <a href="https://www.youtube.com/watch?v=LYeQDaZhVL0" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="key-principles" class="content-section">

@@ -374,31 +374,19 @@
     "safety_considerations": "The Lasso Sweep carries relatively low injury risk as a sweeping technique, but practitioners should be mindful of shoulder stress on the lassoed arm during explosive sweep attempts. The trapped arm experiences rotational force during the sweep that can strain the shoulder if the partner resists violently. Always release the sleeve grip promptly if your partner signals discomfort. During drilling, communicate clearly about resistance levels and allow controlled falls rather than forcing partners to absorb impact at awkward angles. Be particularly careful when training with significant size differences, as heavier practitioners falling during the sweep require additional mat awareness from both partners.",
     "clips": [
       {
-        "id": "LwnoWDFJlN0",
-        "title": "Lasso sweep from open guard into ankle lock",
-        "by": "Lucas Lepri",
-        "vertical": false,
-        "channel": "Lucas Lepri Brazilian Jiu Jitsu & Fitness",
-        "duration": 44,
-        "verified": "2026-07-15"
-      },
-      {
         "id": "yBMlXlVefPA",
-        "title": "Lasso sweep against a standing opponent",
-        "by": "Revolution Fitness Center coach",
-        "vertical": false,
+        "title": "Lasso Sweep for Standing Opponent",
         "channel": "Revolution Fitness Center",
-        "duration": 55,
-        "verified": "2026-07-15"
+        "duration": 54,
+        "vertical": false,
+        "front": true
       },
       {
         "id": "42uccYQUAgE",
-        "title": "Sweep from leg lasso guard",
-        "by": "Leslie Gardineer",
-        "vertical": false,
+        "title": "Sweep from Leg Lasso with One Jiu Jitsu Black Belt Leslie Gardineer at De Boa…",
         "channel": "De Boa Jiu Jitsu",
         "duration": 84,
-        "verified": "2026-07-15"
+        "vertical": false
       }
     ]
   },
@@ -562,25 +550,6 @@
         "description": "Situational sparring starting in lasso guard where your partner attempts all available sweeps and submissions at full intensity. Focus on recognizing the Lasso Sweep among other threats and applying appropriate defensive response without overcommitting to any single defense."
       }
     ],
-    "clips": [
-      {
-        "id": "kNfVYhZbgrg",
-        "title": "Four levels of sweep defense",
-        "by": "Wim Deputter",
-        "vertical": false,
-        "channel": "Wim Deputter BJJ",
-        "duration": 87,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "GOzoDB10XkY",
-        "title": "Defending lasso and spider guard",
-        "by": "Binder BJJ coach",
-        "vertical": false,
-        "channel": "Binder Brazilian Jiu Jitsu",
-        "duration": 245,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

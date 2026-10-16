@@ -165,35 +165,22 @@ description: "Master Honey Hole Top in BJJ. Advanced leg entanglement control wi
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Honey Hole Heel Hook from Bow and Arrow",
-      "description": "Honey Hole (Top) film study: Honey Hole Heel Hook from Bow and Arrow, taught by JitzLive.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/3KAO2Ck4HRg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/3KAO2Ck4HRg",
-      "url": "https://www.youtube.com/watch?v=3KAO2Ck4HRg",
-      "creator": { "@type": "Person", "name": "JitzLive" },
-      "duration": "PT52S"
+      "name": "Intro to Saddle | 411 | Honey Hole | Inside Sankaku",
+      "description": "Honey Hole (Top) film study: Intro to Saddle | 411 | Honey Hole | Inside Sankaku.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/RbuQjr3-F2I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/RbuQjr3-F2I",
+      "url": "https://www.youtube.com/watch?v=RbuQjr3-F2I",
+      "duration": "PT290S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Saddle Entries from Guard",
-      "description": "Honey Hole (Top) film study: Saddle Entries from Guard, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/K5XhO7o5QN0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/K5XhO7o5QN0",
-      "url": "https://www.youtube.com/watch?v=K5XhO7o5QN0",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT66S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Single Leg X to Honey Hole Heel Hook",
-      "description": "Honey Hole (Top) film study: Single Leg X to Honey Hole Heel Hook, taught by Ilya Bodnya.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/PGQ7YYfu76Q/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/PGQ7YYfu76Q",
-      "url": "https://www.youtube.com/watch?v=PGQ7YYfu76Q",
-      "creator": { "@type": "Person", "name": "Ilya Bodnya" },
-      "duration": "PT65S"
+      "name": "INSIDE SANKAKU ENTRIES  | Dynamic Martial Arts Roseburg",
+      "description": "Honey Hole (Top) film study: INSIDE SANKAKU ENTRIES  | Dynamic Martial Arts Roseburg.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Jn_JST6ZJ3o/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Jn_JST6ZJ3o",
+      "url": "https://www.youtube.com/watch?v=Jn_JST6ZJ3o",
+      "duration": "PT137S"
     }
   ]
 }
@@ -223,25 +210,17 @@ This position excels in no-gi grappling and submission-only rulesets where leg a
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=3KAO2Ck4HRg)
+![](https://www.youtube.com/watch?v=RbuQjr3-F2I)
 
-<p class="clip-credit"><strong>Honey Hole Heel Hook from Bow and Arrow</strong> — taught by JitzLive · 0:52 · <a href="https://www.youtube.com/watch?v=3KAO2Ck4HRg" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=K5XhO7o5QN0)
-
-<p class="clip-credit"><strong>Saddle Entries from Guard</strong> — taught by Lachlan Giles · 1:06 · <a href="https://www.youtube.com/watch?v=K5XhO7o5QN0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Intro to Saddle | 411 | Honey Hole | Inside Sankaku</strong> · 4:50 · <a href="https://www.youtube.com/watch?v=RbuQjr3-F2I" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=PGQ7YYfu76Q)
+![](https://www.youtube.com/watch?v=Jn_JST6ZJ3o)
 
-<p class="clip-credit"><strong>Single Leg X to Honey Hole Heel Hook</strong> — taught by Ilya Bodnya · 1:05 · <a href="https://www.youtube.com/watch?v=PGQ7YYfu76Q" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>INSIDE SANKAKU ENTRIES  | Dynamic Martial Arts Roseburg</strong> · 2:17 · <a href="https://www.youtube.com/watch?v=Jn_JST6ZJ3o" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

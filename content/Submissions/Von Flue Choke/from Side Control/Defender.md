@@ -164,24 +164,22 @@ description: "How to defend against Von Flue Choke in BJJ. Recognition, escape p
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Escaping the Von Flue choke",
-      "description": "Von Flue Choke from Side Control (Defender) film study: Escaping the Von Flue choke, taught by Grappling Mastery coach.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/4eVRpNHz4cc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/4eVRpNHz4cc",
-      "url": "https://www.youtube.com/watch?v=4eVRpNHz4cc",
-      "creator": { "@type": "Person", "name": "Grappling Mastery coach" },
-      "duration": "PT37S"
+      "name": "TMG Clips #197 - Learn To Defend The Von Flue Choke!",
+      "description": "Von Flue Choke from Side Control (Defender) film study: TMG Clips #197 - Learn To Defend The Von Flue Choke!.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sVTvrJqnXww/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sVTvrJqnXww",
+      "url": "https://www.youtube.com/watch?v=sVTvrJqnXww",
+      "duration": "PT158S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Guillotine grip release vs Von Flue",
-      "description": "Von Flue Choke from Side Control (Defender) film study: Guillotine grip release vs Von Flue, taught by Haven BJJ coach.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/GmGrD1Zltw0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/GmGrD1Zltw0",
-      "url": "https://www.youtube.com/watch?v=GmGrD1Zltw0",
-      "creator": { "@type": "Person", "name": "Haven BJJ coach" },
-      "duration": "PT143S"
+      "name": "Von Flue Defense (Huge Update to the System)",
+      "description": "Von Flue Choke from Side Control (Defender) film study: Von Flue Defense (Huge Update to the System).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xYDGYbZXvw0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/xYDGYbZXvw0",
+      "url": "https://www.youtube.com/watch?v=xYDGYbZXvw0",
+      "duration": "PT175S"
     }
   ]
 }
@@ -210,17 +208,17 @@ Defending the Von Flue Choke requires understanding a fundamental paradox: the t
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=4eVRpNHz4cc)
+![](https://www.youtube.com/watch?v=sVTvrJqnXww)
 
-<p class="clip-credit"><strong>Escaping the Von Flue choke</strong> — taught by Grappling Mastery coach · 0:37 · <a href="https://www.youtube.com/watch?v=4eVRpNHz4cc" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>TMG Clips #197 - Learn To Defend The Von Flue Choke!</strong> · 2:38 · <a href="https://www.youtube.com/watch?v=sVTvrJqnXww" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=GmGrD1Zltw0)
+![](https://www.youtube.com/watch?v=xYDGYbZXvw0)
 
-<p class="clip-credit"><strong>Guillotine grip release vs Von Flue</strong> — taught by Haven BJJ coach · 2:23 · <a href="https://www.youtube.com/watch?v=GmGrD1Zltw0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Von Flue Defense (Huge Update to the System)</strong> · 2:55 · <a href="https://www.youtube.com/watch?v=xYDGYbZXvw0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

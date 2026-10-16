@@ -180,24 +180,12 @@ description: "How to execute Long Step Around Ringworm in BJJ. Attacking perspec
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Long step pass drill: roll hips and tripod back",
-      "description": "Long Step Around Ringworm (Attacker) film study: Long step pass drill: roll hips and tripod back, taught by Greg Hamilton.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/lDTUXbOu4os/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/lDTUXbOu4os",
-      "url": "https://www.youtube.com/watch?v=lDTUXbOu4os",
-      "creator": { "@type": "Person", "name": "Greg Hamilton" },
-      "duration": "PT103S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Long step guard pass body mechanics",
-      "description": "Long Step Around Ringworm (Attacker) film study: Long step guard pass body mechanics, taught by Greg Hamilton.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/l9xDCQv0TgQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/l9xDCQv0TgQ",
-      "url": "https://www.youtube.com/watch?v=l9xDCQv0TgQ",
-      "creator": { "@type": "Person", "name": "Greg Hamilton" },
-      "duration": "PT116S"
+      "name": "TOTD  9 17 2025 ALL LVLS   RINGWORM GUARD PASSING LONGSTEP",
+      "description": "Long Step Around Ringworm (Attacker) film study: TOTD  9 17 2025 ALL LVLS   RINGWORM GUARD PASSING LONGSTEP.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gJkAst5TRYs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/gJkAst5TRYs",
+      "url": "https://www.youtube.com/watch?v=gJkAst5TRYs",
+      "duration": "PT468S"
     }
   ]
 }
@@ -229,17 +217,9 @@ Strategically, this pass is most effective when you recognize that direct cleari
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=lDTUXbOu4os)
+![](https://www.youtube.com/watch?v=gJkAst5TRYs)
 
-<p class="clip-credit"><strong>Long step pass drill: roll hips and tripod back</strong> — taught by Greg Hamilton · 1:43 · <a href="https://www.youtube.com/watch?v=lDTUXbOu4os" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=l9xDCQv0TgQ)
-
-<p class="clip-credit"><strong>Long step guard pass body mechanics</strong> — taught by Greg Hamilton · 1:56 · <a href="https://www.youtube.com/watch?v=l9xDCQv0TgQ" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>TOTD  9 17 2025 ALL LVLS   RINGWORM GUARD PASSING LONGSTEP</strong> · 7:48 · <a href="https://www.youtube.com/watch?v=gJkAst5TRYs" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

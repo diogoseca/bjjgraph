@@ -362,35 +362,7 @@
       }
     ],
     "safety_considerations": "The Toreando from Headquarters is a relatively low-risk technique for both practitioners. Primary safety concerns involve the passer's lateral movement potentially causing knee strain if the foot catches on the mat during the explosive step. Both practitioners should ensure adequate mat space exists in the passing direction. Avoid cranking the opponent's legs with excessive rotational force during the lateral redirect, as this can strain their knee ligaments. Control the speed of the leg push in training to prevent hyperextension of the opponent's hip joints.",
-    "clips": [
-      {
-        "id": "1Kfm5zqB8GQ",
-        "title": "Toreando pass to north-south",
-        "by": "Jay Rodriguez",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 165,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "quM3u9Jxthg",
-        "title": "Headquarters guard passing simplified",
-        "by": "Knight Jiu-Jitsu coach",
-        "vertical": false,
-        "channel": "Knight Jiu-Jitsu",
-        "duration": 261,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "S65D0wxPZ7c",
-        "title": "Modified toreando guard pass",
-        "by": "Andre Galvao",
-        "vertical": false,
-        "channel": "Atos Jiu-Jitsu HQ | World's Best BJJ Academy - Home Page",
-        "duration": 752,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Toreando from Headquarters Defender",
@@ -548,25 +520,6 @@
         "description": "Partner initiates toreando at full speed from headquarters. Bottom player practices hip escape with knee insertion for half guard recovery and learns to use the passer's lateral momentum for counter-sweep opportunities. Develop the ability to catch the passer's trailing leg during the lateral step and convert into an offensive half guard position with immediate underhook and sweep threat. Progress to full positional sparring starting from headquarters."
       }
     ],
-    "clips": [
-      {
-        "id": "lVLAROiSjNU",
-        "title": "Guard retention: when to sit up and escape",
-        "by": "Lachlan Giles",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 136,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "ynoR-AtSYUc",
-        "title": "Guard retention: recovering around the legs",
-        "by": "Lachlan Giles",
-        "vertical": false,
-        "channel": "Absolute MMA St Kilda - Melbourne",
-        "duration": 210,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

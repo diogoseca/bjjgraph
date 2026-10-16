@@ -383,35 +383,7 @@
       }
     ],
     "safety_considerations": "Hip rotation defense involves controlled movement under submission threat, requiring awareness of ankle joint vulnerability. During training, partners must communicate clearly about pressure levels - the defender should tap immediately if rotation creates additional pressure rather than relief, as this indicates incorrect rotation direction. Never attempt to power through by rotating against a fully locked submission. When drilling, start with loose ankle control and gradually increase grip security as the defender develops proper rotation mechanics. Avoid explosive uncontrolled rotation that could result in the attacker inadvertently completing the submission. If you feel sharp pain in the ankle, Achilles tendon, or knee during rotation, tap immediately rather than continuing the escape attempt.",
-    "clips": [
-      {
-        "id": "CUnX7TOpb-A",
-        "title": "Ankle lock escape by hiding the heel",
-        "by": "Ritchie Yip",
-        "vertical": false,
-        "channel": "Ritchie Yip",
-        "duration": 16,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "pspIS0i2G2U",
-        "title": "The ankle lock roll escape drill",
-        "by": "Escapology BJJ",
-        "vertical": false,
-        "channel": "Escapology BJJ",
-        "duration": 95,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "akB_o9gaNuc",
-        "title": "Rolling out of the ankle lock and the counter",
-        "by": "James O'Connor",
-        "vertical": false,
-        "channel": "James O’Connor",
-        "duration": 61,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Hip Rotation Defense Defender",
@@ -591,21 +563,11 @@
     "clips": [
       {
         "id": "akB_o9gaNuc",
-        "title": "Finishing the ankle lock when they roll out",
-        "by": "James O'Connor",
-        "vertical": false,
+        "title": "How to Finish an ankle lock if opponent tries rolling out.",
         "channel": "James O’Connor",
-        "duration": 61,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "E-xIK4pXoF0",
-        "title": "Straight ankle lock finishing details",
-        "by": "Matt Arroyo",
+        "duration": 60,
         "vertical": false,
-        "channel": "Matt Arroyo Jiu Jitsu ",
-        "duration": 82,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },

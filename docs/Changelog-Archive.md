@@ -11141,3 +11141,156 @@ The unchanged first-hand gate passed both matched samples. The completed change 
 169 eager gzip bytes against that dev base; first-hand adds 590 raw / 166 gzip bytes with
 11 requests. Eager gzip is 346,487 (+3,489 against the 342,998 checkpoint); deferred raw remains
 480,054 / 500,000 and its gzip changes by +9. Palette size and payload baselines are unchanged.
+
+
+## v1.227.5 — Clips follow the authored move and role
+
+Clips now follow the actual submission, transition or position and the half's own role.
+D-307 clarifies that a same-submission lesson or defense qualifies across origins unless
+the origin changes named mechanics. Origin-exact lessons rank first. Transition entries
+remain exact. Ordinary channel, shop and social footers do not invalidate a complete lesson;
+actual course pitches, teasers and ads do. Eligibility and ordering are separate judgments.
+
+Four disjoint cached-evidence re-passes examine all 6,051 original removals. They qualify
+608 restorations; 606 are applied and two remain qualified alternates under the unchanged
+four-clip product cap. The Brabo/front-headlock attacker keeps its three explicit-origin
+lessons plus the shorter turtle Brabo lesson; the Half Nelson-to-Brabo lesson is a qualified
+alternate. The Ezekiel/closed-guard attacker keeps four origin-matching lessons; the shorter
+unspecified-origin no-gi lesson is a qualified alternate. Neither alternate is called wrong.
+
+The correction restores 557 submission references, 20 position references and 29 transition
+references. Of the submission restorations, 67 have an established exact origin and 490
+qualify with a different or unspecified origin under D-307. These counts overlap with the
+R3 correction: 48 restored occurrences explicitly cited R3 in their prior removal verdict,
+and the broader prose-aware R3 review set contributes 59. R4/R5 rank the selected four; an
+origin or quality uncertainty is stated precisely rather than inherited from another ID.
+
+Four selected occurrences are withheld on their own evidence: the turtle rolling-kneebar
+defense on the 50/50 Kneebar entry; a knee-cut lesson on Half Guard to Quarter Guard; and
+Belly Down Armbar / Anaconda competition footage without an established teaching breakdown.
+The knee-cut lesson remains on Knee Slice Pass. The 101-second Saddle heel-hook lesson
+retains its recorded complete-lesson exception after the existing five storyboard sheets
+were read; its optional merchandise-support footer is disclosed, not described as absent.
+
+At the D-307 checkpoint, the clip changes affect 1,352 of 1,683 JSON files and 2,732 arrays.
+Placements change from 8,078 to 2,917: 5,449 removed and 288 added, net -5,161. There are
+1,046 marked fronts: 106 position halves, 351 submission halves and 589 transition halves.
+The remaining 1,850 of 2,896 halves are 1,558 active empty gaps, 66 active arrays with
+unmarked qualified/fallback clips and 226 preserved role arrays held for evidence or identity.
+All 56 held hub arrays and the five owner-held position files remain byte-exact to the base.
+The 403 references on submission-family hubs and Principles remain outside this correction.
+
+The optional clip contract adds front and position-hub half. Validation permits at most one
+true front, first in the array, and half only on position hub clips; positive duration and
+all timing checks remain. All 3,150 clip arrays satisfy the unchanged maximum of four.
+Raw cached oEmbed title/channel and positive yt-dlp durations, including provenance-backed
+flat/search records, support each restored clip. Empty descriptions, absent full descriptions
+and sampled stills remain explicit evidence limits, with no continuous playback/audio claim.
+Only the two owner-named Loop Choke examples received authorized fresh metadata extraction.
+The Ninja Pinto escape returns on all four assigned defenders; the Whittier clip remains
+withheld for its actual course and coupon pitches. The independent review's Arm Triangle,
+standing Guillotine and Darren Branch Kneebar examples are restored using its cached evidence.
+
+Fresh precommitted random QC checks 20 restorations and 10 retained removals. One ancillary
+footer rationale is wrong (1/30 = 3.33%); the two affected same-ID reasons are corrected in
+a separate lead ledger. No sampled restore/remove outcome is wrong. The sample is stratified
+by helper and is not presented as a uniform estimate for the whole corpus. Original proposals,
+QC files and evidence remain frozen. The second-search proposals stay in a separate PR.
+
+Twelve stale content-pin specs are explicitly named in their headers and pin curated IDs and
+counts. Empty halves assert the exact no-reel state; the positive Knee Slice attacker/defender
+pair preserves the wrong-role check. The short desktop layout case now uses two real Kneebar
+entry clips and retains all finite-label and title/video-clearance assertions. The Back/Forward
+beats.filter failure is reproduced on unchanged dev by delaying the real flashcard index:
+beats is allocated lazily, before which an idle app has an empty event stream. The test reads
+that absence safely, asserts fresh journey and cleared pressure before releasing the payload,
+and waits only for landing content. No application runtime or source code changes.
+
+D-308 changes only modified.max_day_share from 0.5 to 0.95 in its own commit, based on the
+measured 5,284/6,119 pages (86.35%) modified on 2026-10-15 by this bulk correction. All published
+policy values and both day/span minima stay fixed. Existing build-clock controls still fail
+all three spread checks; the three date-health unit tests pass.
+
+The original D-306 capture at f842d88e6 on 45cf1f9e1 remains historical evidence for its tree:
+3,166 Film Study sections and 13,866 article links removed, with all other census leaves
+unchanged. D-304's four separate floor commits use its measured 30,351 JSON-LD blocks and
+199,250 article links. That capture is superseded by D-312: candidate/tools 8357a2eb2,
+base/premerge 45cf1f9e1, label pr-clip-curation-8357a2eb2-r2, version 1.227.2. The guarded capture
+is production-accepted and the independent comparison finds no unexpected movement.
+The first attempt was rejected before retaining a snapshot after a journal-confirmed earlyoom
+SIGTERM. The authorized r2 retry repeated D-285 cleanup with all 6,407 tracked content stamps
+unchanged; the failed attempt remains preserved and supplied no baseline data.
+PR 305 now precedes identity under D-311. Both Learning tag samples match base exactly;
+all 14 app rows, three root bundles, 359 model files and 5,125 static paths remain equal.
+
+The corrected capture records 30,758 JSON-LD blocks, 3,209 ItemLists, 91,532 article headings,
+200,876 article links and 147,109 outside links. Against base, four leaves move -2,759 and
+article links move -12,240. Canonical routes remove 2,149 Film Study sections and 7,228 displayed
+clips; folder copies remove 610 sections and 2,253 clips. The 5,408-route audit accounts for
+all movements. Against the superseded D-306 baseline, the re-seed restores 407 sections and
+1,626 article links. SEO still has only the two declared Armbar-from-Back Film Study excisions;
+the new SEO re-seed changes the receipt only. No text floor beyond those already approved moves.
+
+All D-304 floors stay: corrected counts are +1.341% / +0.816% from their measured bases,
+below the 2% reset threshold. Integrated eager gzip remains 346,318 B (+3,320 against the
+342,998 checkpoint; cap +5,000); deferred raw remains 480,054 B of 500,000. The own build,
+publication-date health and all 41 tests across defending-arrivals, defending-landing and
+reading-contract pass with zero retries. Capture acceptance does not claim a full CI or
+independent-review pass; those gate the corrected PR separately.
+
+D-313 supersedes that capture for the final tree. All 606 applied restorations receive a
+cached-only raw-footage screen: 34 occurrences across 15 IDs have concrete performance,
+featured-finish, compilation or training-practice signals without established teaching.
+They are withheld, including the six Marcelo Garcia north-south finishes and the Lachlan
+Giles heel-hook competition reel. Three contrary front findings are explicitly withheld;
+no replacement is promoted. Missing descriptions, short duration and athlete attribution
+alone are not exclusions, and no absence-of-narration claim is made from sampled stills.
+
+The fresh, pre-seeded 20-occurrence QC is drawn once from the 572 remaining restorations.
+It finds no further raw-footage weakness and one definite role error: Straight Ankle Lock
+Control bottom is authored as the attacker, while its restored lesson teaches the defender.
+Only that occurrence is removed, separately from the raw-footage holds. The measured rate
+stays 1/20 (5%); the sample is not redrawn after correction. The final 571 restorations leave
+2,882 references and 1,042 fronts: 105 position, 348 submission and 589 transition halves.
+There are 1,563 active empty halves, 65 unmarked nonempty halves and 226 held roles. All 56
+held hubs and five whole owner files remain byte-exact. Against the original 8,078 references,
+5,484 are removed and 288 added; non-clips values and the four-item cap remain unchanged.
+
+B4 now waits for positive publication of the exact real Kuzure-Kesa-to-Kesa dossier and
+completion of its actual content refresh before the empty-film assertions. All old empty
+IDs, zero film/clip, key, four-card, pressure and vignette assertions remain. Ten repeats
+pass; the delayed one-clip control crosses the positive barrier and fails on its wrong ID.
+The duplicate date-contract test now reads the already-authorized D-308 modified policy:
+0.95 share, 16 distinct days and a 104-day span, strengthening its former 12-day/30-day minima.
+All nine focused date tests pass, including the real retained golden census; the historical
+build-clock fixture still fails all three spread checks. Published policy is unchanged.
+
+The separate reduced-motion CI assertion also had a scheduling race: its simulation-clock
+advance did not wait for the browser media-change callback. Natural base/head runs each
+pass 20 repeats; delayed real callback delivery reproduces the immediate-assert failure
+on both. Waiting for the visible suppression/restoration passes five delayed repeats,
+while removing the actual listener fails the repaired suppression check. Timer, saved
+setting, pressure and gameplay assertions remain; no app change, sleep or retry is added.
+
+D-314 confirms and production-accepts the final tree: candidate/tools bda0b2b71,
+base/premerge 8aa7b9487, label pr-clip-curation-bda0b2b71, version 1.227.5.
+D-285 cleanup preserved all 6,308 unchanged tracked content stamps, including 52 Learning
+files and their hub; only the 99 changed content paths were re-stamped by checkout.
+The strict 5,408-route comparison records exactly 30,751 JSON-LD blocks, 3,202 ItemLists,
+91,525 article headings, 200,784 article links and 147,102 outside links. Four leaves move
+-2,766 and article links -12,332 against current dev; no other measurement leaf changes.
+Canonical/folder copies contribute -2,155/-611 sections and -7,288/-2,278 displayed clips.
+Only the two Armbar-from-Back SEO excisions and new capture provenance accompany them;
+both Learning tags match base exactly. All 14 goldmix app rows and three bundles match.
+
+The older obsidian retained tree predates goldmix: its two MDP variant descriptors and two
+manifest files carry the former app source hash. The exact new descriptors derive solely
+from the already-merged 8aa app source hash; all 62 transport parts, decoded mechanics,
+graph, curriculum, concepts and 290 submission details are identical. This is an attributed
+old-capture difference, not MDP movement against current dev. Every one of the 359 model
+files matches its exact current-dev expectation; all 5,125 static paths are accounted for.
+
+The four D-304 floors remain unchanged. Integrated eager gzip is 346,487 bytes (+3,489
+against 342,998; cap +5,000), deferred raw 480,054 of 500,000. The own build matches every
+projected leaf exactly; date health and all 41 focused tests pass, zero retries. This receipt-
+bound re-seed supersedes D-312; final CI and independent delta review gate the PR separately.

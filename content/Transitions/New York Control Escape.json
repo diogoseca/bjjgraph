@@ -380,26 +380,7 @@
       }
     ],
     "safety_considerations": "The New York Control Escape involves shoulder rotation under load and lateral hip movement while managing an opponent's body weight. Be cautious of shoulder strain during overhook extraction, particularly if the bottom player resists aggressively. Communicate with training partners about pressure thresholds during drilling, and tap immediately if you feel joint stress in your trapped shoulder during live training. Neck safety requires maintaining chin-to-chest posture throughout to prevent gogoplata pressure on the trachea.",
-    "clips": [
-      {
-        "id": "58LkTy6v3KQ",
-        "title": "Counter and escape the overhook clamp from guard",
-        "by": "The Grappling Bloke",
-        "vertical": false,
-        "channel": "The Grappling Bloke",
-        "duration": 109,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "ldL974KL5sg",
-        "title": "Side control escape to the Hazlet",
-        "by": "10th Planet Orange Park",
-        "vertical": false,
-        "channel": "10th Planet Orange Park",
-        "duration": 22,
-        "verified": "2026-07-16"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "New York Control Escape Defender",
@@ -576,16 +557,6 @@
         "description": "Full resistance from New York Control with bottom player working to maintain position or finish while top player works to escape. Track retention rate and submission rate across rounds. Target maintaining New York Control or transitioning to favorable position in 60% of rounds against equal-level training partners."
       }
     ],
-    "clips": [
-      {
-        "id": "NfR86wov0f8",
-        "title": "Rubber Guard Theory - Control Concepts",
-        "by": "Eddie Bravo",
-        "vertical": false,
-        "channel": "Submissions101",
-        "duration": 264,
-        "verified": "2026-07-16"
-      }
-    ]
+    "clips": []
   }
 }

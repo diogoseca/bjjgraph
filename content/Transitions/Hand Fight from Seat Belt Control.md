@@ -46,13 +46,22 @@ description: "Master hand fighting defense from seat belt back control in BJJ. S
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "\"Home Alone\" back escape off the seat belt",
-      "description": "Hand Fight from Seat Belt Control film study: \"Home Alone\" back escape off the seat belt, taught by Procel BJJ coach.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/cWrV0wc6jyQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/cWrV0wc6jyQ",
-      "url": "https://www.youtube.com/watch?v=cWrV0wc6jyQ",
-      "creator": { "@type": "Person", "name": "Procel BJJ coach" },
-      "duration": "PT84S"
+      "name": "Holding Seatbelt Position",
+      "description": "Hand Fight from Seat Belt Control film study: Holding Seatbelt Position.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/y_GjhMb6Qf8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/y_GjhMb6Qf8",
+      "url": "https://www.youtube.com/watch?v=y_GjhMb6Qf8",
+      "duration": "PT25S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Jiu Jitsu Quick Fix #1: Seatbelt Grip",
+      "description": "Hand Fight from Seat Belt Control film study: Jiu Jitsu Quick Fix #1: Seatbelt Grip.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MwxnveKrlxU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/MwxnveKrlxU",
+      "url": "https://www.youtube.com/watch?v=MwxnveKrlxU",
+      "duration": "PT61S"
     }
   ]
 }
@@ -106,9 +115,17 @@ Successful hand fighting creates cascading defensive advantages that compound th
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=cWrV0wc6jyQ)
+![](https://www.youtube.com/watch?v=y_GjhMb6Qf8)
 
-<p class="clip-credit"><strong>&#34;Home Alone&#34; back escape off the seat belt</strong> — taught by Procel BJJ coach · 1:24 · <a href="https://www.youtube.com/watch?v=cWrV0wc6jyQ" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Holding Seatbelt Position</strong> · 0:25 · <a href="https://www.youtube.com/watch?v=y_GjhMb6Qf8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=MwxnveKrlxU)
+
+<p class="clip-credit"><strong>Jiu Jitsu Quick Fix #1: Seatbelt Grip</strong> · 1:01 · <a href="https://www.youtube.com/watch?v=MwxnveKrlxU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

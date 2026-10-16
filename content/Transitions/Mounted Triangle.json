@@ -369,21 +369,11 @@
     "clips": [
       {
         "id": "bSpySnLNiQg",
-        "title": "The mounted triangle",
-        "by": "Thunderdome BJJ",
-        "vertical": false,
+        "title": "The Mounted Triangle",
         "channel": "Thunderdome BJJ",
-        "duration": 56,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "8-hYlvwOqgU",
-        "title": "Mounted triangle from S-mount for short legs",
-        "by": "Submission Radio",
+        "duration": 55,
         "vertical": false,
-        "channel": "Submission Radio",
-        "duration": 105,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },
@@ -585,30 +575,11 @@
     "clips": [
       {
         "id": "l-HhOV9UjJU",
-        "title": "Preventing the mounted triangle",
-        "by": "Justen Hamilton",
-        "vertical": false,
+        "title": "Preventing the Mounted Triangle",
         "channel": "Justen Hamilton",
         "duration": 104,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "djm7BIQksOQ",
-        "title": "How to Defend the Mounted Triangle",
-        "by": "RVV BJJ",
         "vertical": false,
-        "channel": "RVV BJJ",
-        "duration": 194,
-        "verified": "2026-07-16"
-      },
-      {
-        "id": "Ss49jnCob0w",
-        "title": "Avoiding and Defending the Triangle Choke",
-        "by": "Lachlan Giles",
-        "vertical": false,
-        "channel": "Absolute MMA St Kilda - Melbourne",
-        "duration": 775,
-        "verified": "2026-07-16"
+        "front": true
       }
     ]
   },

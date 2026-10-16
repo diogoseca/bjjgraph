@@ -430,31 +430,19 @@
     ],
     "clips": [
       {
-        "id": "d7ucks8aHN0",
-        "title": "Kesa Gatame to Kimura",
-        "by": "Strong Hold Jiu Jitsu",
-        "vertical": false,
-        "channel": "Strong Hold Jiu Jitsu",
-        "duration": 71,
-        "verified": "2026-07-14"
-      },
-      {
         "id": "u80GDGC1Yno",
-        "title": "Kimura from Scarf Hold",
-        "by": "Julie Bond",
-        "vertical": false,
+        "title": "Bjj kimura from scarf hold",
         "channel": "Julie Bond",
-        "duration": 35,
-        "verified": "2026-07-14"
+        "duration": 34,
+        "vertical": false,
+        "front": true
       },
       {
-        "id": "-RyLUQSZZ1s",
-        "title": "Kimura from Kesa",
-        "by": "Vernon Kirk",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 92,
-        "verified": "2026-07-14"
+        "id": "d7ucks8aHN0",
+        "title": "Technique on Command - Transition from Kesa Gatame to Kimura",
+        "channel": "Strong Hold Jiu Jitsu",
+        "duration": 70,
+        "vertical": false
       }
     ]
   },
@@ -611,25 +599,6 @@
         "description": "Live positional sparring starting from Kesa Gatame. Defender works through the full defensive sequence: prevent arm isolation, establish defensive grip, time escape bridge, and recover guard. 3-minute rounds with emphasis on recognizing when defense has failed and tapping early."
       }
     ],
-    "clips": [
-      {
-        "id": "2M_6VytUaus",
-        "title": "Kesa Gatame Escape",
-        "by": "SBG Australia",
-        "vertical": false,
-        "channel": "SBG Australia",
-        "duration": 43,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "fvp5_BVEtLg",
-        "title": "Kesa Gatame Pressure Defense (Framing)",
-        "by": "Kohbukan Sisu",
-        "vertical": false,
-        "channel": "Kohbukan Sisu",
-        "duration": 84,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   }
 }

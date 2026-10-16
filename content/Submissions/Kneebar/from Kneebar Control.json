@@ -408,31 +408,19 @@
     ],
     "clips": [
       {
-        "id": "vMqDIi10z4k",
-        "title": "Dog Bar Kneebar Finish",
-        "by": "Craig Jones",
+        "id": "NzkSekbRmZ4",
+        "title": "Master the Standing Grapevine to Kneebar | Billy Robinson’s Catch Wrestling…",
+        "channel": "Scientific Wrestling",
+        "duration": 63,
         "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 61,
-        "verified": "2026-07-14"
+        "front": true
       },
       {
         "id": "v4lhLkKgVvU",
-        "title": "Go Behind Kneebar",
-        "by": "Craig Jones",
-        "vertical": false,
+        "title": "Go Behind Kneebar by Craig Jones",
         "channel": "BJJ Fanatics",
         "duration": 129,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "NzkSekbRmZ4",
-        "title": "Standing Grapevine to Kneebar",
-        "by": "Scientific Wrestling",
-        "vertical": false,
-        "channel": "Scientific Wrestling",
-        "duration": 63,
-        "verified": "2026-07-14"
+        "vertical": false
       }
     ]
   },
@@ -606,30 +594,18 @@
     "clips": [
       {
         "id": "3zJthP57wXw",
-        "title": "Kneebar Escape",
-        "by": "Darren Branch",
-        "vertical": false,
+        "title": "Kneebar Escape by Darren Branch | High Rollerz Academy - Jiu Jitsu…",
         "channel": "High Rollerz Jiu Jitsu 💨🥋",
-        "duration": 74,
-        "verified": "2026-07-14"
+        "duration": 73,
+        "vertical": false,
+        "front": true
       },
       {
         "id": "hze1WyTvkzA",
-        "title": "Defending the Kneebar to Toe Hold",
-        "by": "Garden State BJJ",
-        "vertical": false,
+        "title": "Defending Kneebar To Toe Hold",
         "channel": "Garden State Brazilian Jiu-Jitsu Academy",
         "duration": 24,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "kUuJ03CcIUQ",
-        "title": "Kneebar Defense in Competition",
-        "by": "AJ Agazarm",
-        "vertical": false,
-        "channel": "FloGrappling",
-        "duration": 23,
-        "verified": "2026-07-14"
+        "vertical": false
       }
     ]
   }

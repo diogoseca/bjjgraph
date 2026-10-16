@@ -473,22 +473,18 @@
     ],
     "clips": [
       {
-        "id": "6gu-n4P9JXo",
-        "title": "Heel Hook Breaking Mechanics",
-        "by": "Craig Jones",
-        "vertical": false,
-        "channel": "Altay Pirge",
-        "duration": 77,
-        "verified": "2026-07-14"
+        "id": "mBjjFZy-w-0",
+        "title": "Inside Sankaku Double Trouble Heelhook - Matrix Jiu Jitsu Headcoach Rene Becker",
+        "channel": "Matrix Jiu Jitsu",
+        "duration": 130,
+        "front": true
       },
       {
-        "id": "sIYeSMSkqeE",
-        "title": "Backside 50/50 Inside Heel Hook Finish",
-        "by": "Craig Jones",
-        "vertical": false,
-        "channel": "Professor Buck",
-        "duration": 18,
-        "verified": "2026-07-14"
+        "id": "6gu-n4P9JXo",
+        "title": "Craig Jones  - Heel Hook Breaking Mechanics",
+        "channel": "Altay Pirge",
+        "duration": 77,
+        "vertical": false
       }
     ]
   },
@@ -680,31 +676,18 @@
     ],
     "clips": [
       {
+        "id": "1-17BEM8qgI",
+        "title": "Escaping inside sankaku and countering the heel hook.",
+        "channel": "BJJ4Breakfast",
+        "duration": 282,
+        "front": true
+      },
+      {
         "id": "DrjbaXt-nTo",
-        "title": "Rolling Out of Heel Hooks",
-        "by": "Craig Jones & Lachlan Giles",
-        "vertical": false,
+        "title": "Rolling out of Heel Hooks (Craig Jones and Lachlan Giles)",
         "channel": "Absolute MMA St Kilda - Melbourne",
         "duration": 243,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "VSTMOIkVMAk",
-        "title": "Basic defense and escape from inside sankaku",
-        "by": "BJJ4Breakfast",
-        "vertical": false,
-        "channel": "BJJ4Breakfast",
-        "duration": 217,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "3xEmPci_szw",
-        "title": "Escaping the inside ashi garami heel hook",
-        "by": "Eddie Cummings",
-        "vertical": false,
-        "channel": "Digitsu",
-        "duration": 164,
-        "verified": "2026-07-15"
+        "vertical": false
       }
     ]
   }

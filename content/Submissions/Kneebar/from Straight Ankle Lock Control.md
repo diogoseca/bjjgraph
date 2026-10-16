@@ -46,24 +46,12 @@ description: "Master the kneebar from straight ankle lock control in BJJ. Comple
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Ankle Lock to Kneebar Transition",
-      "description": "Kneebar from Straight Ankle Lock Control film study: Ankle Lock to Kneebar Transition, taught by Elevate MMA.",
+      "name": "Ankle Lock to Knee Bar to Heel Hook transitions",
+      "description": "Kneebar from Straight Ankle Lock Control film study: Ankle Lock to Knee Bar to Heel Hook transitions.",
       "thumbnailUrl": "https://i.ytimg.com/vi/B8q8wZx0b74/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/B8q8wZx0b74",
       "url": "https://www.youtube.com/watch?v=B8q8wZx0b74",
-      "creator": { "@type": "Person", "name": "Elevate MMA" },
-      "duration": "PT94S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Lateral Kneebar (Z-Lock)",
-      "description": "Kneebar from Straight Ankle Lock Control film study: Lateral Kneebar (Z-Lock), taught by jamielovesmartialarts.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/mv5hY9YFUdU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/mv5hY9YFUdU",
-      "url": "https://www.youtube.com/watch?v=mv5hY9YFUdU",
-      "creator": { "@type": "Person", "name": "jamielovesmartialarts" },
-      "duration": "PT66S"
+      "duration": "PT93S"
     }
   ]
 }
@@ -128,15 +116,7 @@ From a strategic perspective, the kneebar from straight ankle lock control trans
 
 ![](https://www.youtube.com/watch?v=B8q8wZx0b74)
 
-<p class="clip-credit"><strong>Ankle Lock to Kneebar Transition</strong> — taught by Elevate MMA · 1:34 · <a href="https://www.youtube.com/watch?v=B8q8wZx0b74" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=mv5hY9YFUdU)
-
-<p class="clip-credit"><strong>Lateral Kneebar (Z-Lock)</strong> — taught by jamielovesmartialarts · 1:06 · <a href="https://www.youtube.com/watch?v=mv5hY9YFUdU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Ankle Lock to Knee Bar to Heel Hook transitions</strong> · 1:33 · <a href="https://www.youtube.com/watch?v=B8q8wZx0b74" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

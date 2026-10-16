@@ -368,30 +368,18 @@
     "clips": [
       {
         "id": "__VUVYcI3uA",
-        "title": "Getting your frame back from bottom side control",
-        "by": "Steven Henshall",
-        "vertical": false,
+        "title": "Getting your frame back from side control",
         "channel": "steven henshall",
-        "duration": 48,
-        "verified": "2026-07-15"
+        "duration": 47,
+        "vertical": false,
+        "front": true
       },
       {
         "id": "GFyuu8sAUtg",
-        "title": "Framing off side control to recover guard",
-        "by": "DS Team Jiu Jitsu School",
-        "vertical": false,
+        "title": "Escape From Side Control Using Frames To Recover Guard",
         "channel": "DS Team Jiu Jitsu School",
         "duration": 127,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "wDSd5Qy8Kac",
-        "title": "Babybridge frame against shoulder pressure",
-        "by": "Priit Mihkelson",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 231,
-        "verified": "2026-07-15"
+        "vertical": false
       }
     ]
   },
@@ -557,21 +545,11 @@
     "clips": [
       {
         "id": "e8OUw05ZBwo",
-        "title": "Beating frames to establish a chest-to-chest pin",
-        "by": "Fox Den Martial Arts",
-        "vertical": false,
+        "title": "Side Control - Dealing with Frames and Establishing a Chest to Chest Pin",
         "channel": "Fox Den Martial Arts",
         "duration": 245,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "LUxMvOFbxIY",
-        "title": "Killing the near side arm from side control",
-        "by": "Inverted Gear",
         "vertical": false,
-        "channel": "Inverted Gear",
-        "duration": 123,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   }

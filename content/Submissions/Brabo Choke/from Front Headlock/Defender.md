@@ -162,24 +162,12 @@ description: "How to defend against Brabo Choke in BJJ. Recognition, escape path
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Darce Choke Defense",
-      "description": "Brabo Choke from Front Headlock (Defender) film study: Darce Choke Defense, taught by Animal.",
+      "name": "Darce Choke defense",
+      "description": "Brabo Choke from Front Headlock (Defender) film study: Darce Choke defense.",
       "thumbnailUrl": "https://i.ytimg.com/vi/d1YBV8UTKds/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/d1YBV8UTKds",
       "url": "https://www.youtube.com/watch?v=d1YBV8UTKds",
-      "creator": { "@type": "Person", "name": "Animal" },
-      "duration": "PT53S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Escape the D\u0027Arce Choke",
-      "description": "Brabo Choke from Front Headlock (Defender) film study: Escape the D\u0027Arce Choke, taught by Energia Martial Arts.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/i_BKN6v-iAI/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/i_BKN6v-iAI",
-      "url": "https://www.youtube.com/watch?v=i_BKN6v-iAI",
-      "creator": { "@type": "Person", "name": "Energia Martial Arts" },
-      "duration": "PT248S"
+      "duration": "PT52S"
     }
   ]
 }
@@ -210,15 +198,7 @@ Defending the Brabo Choke requires early recognition and immediate action, as th
 
 ![](https://www.youtube.com/watch?v=d1YBV8UTKds)
 
-<p class="clip-credit"><strong>Darce Choke Defense</strong> — taught by Animal · 0:53 · <a href="https://www.youtube.com/watch?v=d1YBV8UTKds" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=i_BKN6v-iAI)
-
-<p class="clip-credit"><strong>Escape the D&#39;Arce Choke</strong> — taught by Energia Martial Arts · 4:08 · <a href="https://www.youtube.com/watch?v=i_BKN6v-iAI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Darce Choke defense</strong> · 0:52 · <a href="https://www.youtube.com/watch?v=d1YBV8UTKds" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

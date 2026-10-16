@@ -46,34 +46,31 @@ description: "Master the Omoplata from Butterfly Guard. Learn hook elevation ent
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Omoplata from butterfly guard",
-      "description": "Omoplata from Butterfly Guard film study: Omoplata from butterfly guard, taught by BJJ Recap.",
+      "name": "Omoplata from butterfly guard | BJJ submission",
+      "description": "Omoplata from Butterfly Guard film study: Omoplata from butterfly guard | BJJ submission.",
       "thumbnailUrl": "https://i.ytimg.com/vi/mXI1NZ5L3eA/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/mXI1NZ5L3eA",
       "url": "https://www.youtube.com/watch?v=mXI1NZ5L3eA",
-      "creator": { "@type": "Person", "name": "BJJ Recap" },
-      "duration": "PT39S"
+      "duration": "PT38S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Shoulder crunch omoplata",
-      "description": "Omoplata from Butterfly Guard film study: Shoulder crunch omoplata, taught by A BJJ Marriage.",
+      "name": "Shoulder Crunch Omoplata",
+      "description": "Omoplata from Butterfly Guard film study: Shoulder Crunch Omoplata.",
       "thumbnailUrl": "https://i.ytimg.com/vi/O_uTvq4s3LQ/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/O_uTvq4s3LQ",
       "url": "https://www.youtube.com/watch?v=O_uTvq4s3LQ",
-      "creator": { "@type": "Person", "name": "A BJJ Marriage" },
       "duration": "PT87S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "Omoplata details",
-      "description": "Omoplata from Butterfly Guard film study: Omoplata details, taught by Coach Brian.",
+      "name": "TMG Clips #80 - Omoplata Details!",
+      "description": "Omoplata from Butterfly Guard film study: TMG Clips #80 - Omoplata Details!.",
       "thumbnailUrl": "https://i.ytimg.com/vi/zjhkmmfU1gg/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/zjhkmmfU1gg",
       "url": "https://www.youtube.com/watch?v=zjhkmmfU1gg",
-      "creator": { "@type": "Person", "name": "Coach Brian" },
       "duration": "PT119S"
     }
   ]
@@ -139,7 +136,7 @@ Strategically, the Omoplata from Butterfly Guard occupies a high-value position 
 
 ![](https://www.youtube.com/watch?v=mXI1NZ5L3eA)
 
-<p class="clip-credit"><strong>Omoplata from butterfly guard</strong> — taught by BJJ Recap · 0:39 · <a href="https://www.youtube.com/watch?v=mXI1NZ5L3eA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Omoplata from butterfly guard | BJJ submission</strong> · 0:38 · <a href="https://www.youtube.com/watch?v=mXI1NZ5L3eA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -147,7 +144,7 @@ Strategically, the Omoplata from Butterfly Guard occupies a high-value position 
 
 ![](https://www.youtube.com/watch?v=O_uTvq4s3LQ)
 
-<p class="clip-credit"><strong>Shoulder crunch omoplata</strong> — taught by A BJJ Marriage · 1:27 · <a href="https://www.youtube.com/watch?v=O_uTvq4s3LQ" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Shoulder Crunch Omoplata</strong> · 1:27 · <a href="https://www.youtube.com/watch?v=O_uTvq4s3LQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -155,7 +152,7 @@ Strategically, the Omoplata from Butterfly Guard occupies a high-value position 
 
 ![](https://www.youtube.com/watch?v=zjhkmmfU1gg)
 
-<p class="clip-credit"><strong>Omoplata details</strong> — taught by Coach Brian · 1:59 · <a href="https://www.youtube.com/watch?v=zjhkmmfU1gg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>TMG Clips #80 - Omoplata Details!</strong> · 1:59 · <a href="https://www.youtube.com/watch?v=zjhkmmfU1gg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

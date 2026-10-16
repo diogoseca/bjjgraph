@@ -405,31 +405,19 @@
     ],
     "clips": [
       {
-        "id": "H7nUDNYPavw",
-        "title": "Kneebar from 411 / Inside Sankaku",
-        "by": "BOWERHOUSE MMA",
+        "id": "fig6JjjU-bE",
+        "title": "Knee Bar from Saddle",
+        "channel": "Bristol Jiu Jitsu",
+        "duration": 88,
         "vertical": false,
+        "front": true
+      },
+      {
+        "id": "H7nUDNYPavw",
+        "title": "Knee bar from 411",
         "channel": "BOWERHOUSE MMA",
         "duration": 42,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "wDwhA_MeFbU",
-        "title": "Kneebar from the Saddle",
-        "by": "Sickness Ferro",
-        "vertical": false,
-        "channel": "Sickness Ferro",
-        "duration": 143,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "HXf9Q8Axhyg",
-        "title": "Sumi Gaeshi to Kneebar from Inside Sankaku",
-        "by": "PartyBearBJJ",
-        "vertical": false,
-        "channel": "PartyBearBJJ",
-        "duration": 239,
-        "verified": "2026-07-14"
+        "vertical": false
       }
     ]
   },
@@ -613,21 +601,11 @@
     "clips": [
       {
         "id": "wBRG0fY94fs",
-        "title": "How to Defend a Kneebar",
-        "by": "Revolution BJJ",
-        "vertical": false,
+        "title": "How to Defend a Kneebar (and Prevent a Backstep Pass)",
         "channel": "Revolution BJJ",
         "duration": 59,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "m0NLphEuFoc",
-        "title": "Leg Lock Defense from the Saddle",
-        "by": "Kuwy Jitsu",
         "vertical": false,
-        "channel": "Kuwy Jitsu",
-        "duration": 61,
-        "verified": "2026-07-14"
+        "front": true
       }
     ]
   }

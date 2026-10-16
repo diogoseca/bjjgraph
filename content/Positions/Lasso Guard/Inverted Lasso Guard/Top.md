@@ -155,39 +155,6 @@ description: "Master top inverted lasso guard defense. Complete guide to prevent
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Inverted Lasso Guard (Top) \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Passing the Lasso with Longstep + Footwork",
-      "description": "Inverted Lasso Guard (Top) film study: Passing the Lasso with Longstep + Footwork, taught by Bryce Nie.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/XSkn8eAmtJU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/XSkn8eAmtJU",
-      "url": "https://www.youtube.com/watch?v=XSkn8eAmtJU",
-      "creator": { "@type": "Person", "name": "Bryce Nie" },
-      "duration": "PT150S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Passing the Lasso-Half Guard",
-      "description": "Inverted Lasso Guard (Top) film study: Passing the Lasso-Half Guard, taught by Roger Gracie.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/3Q3S5alr1j4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/3Q3S5alr1j4",
-      "url": "https://www.youtube.com/watch?v=3Q3S5alr1j4",
-      "creator": { "@type": "Person", "name": "Roger Gracie" },
-      "duration": "PT162S"
-    }
-  ]
-}
-</script>
-
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -206,32 +173,6 @@ Advanced top players learn to create dilemmas in reverse - making the inverted p
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Inverted Lasso Guard (Top) in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=XSkn8eAmtJU)
-
-<p class="clip-credit"><strong>Passing the Lasso with Longstep + Footwork</strong> — taught by Bryce Nie · 2:30 · <a href="https://www.youtube.com/watch?v=XSkn8eAmtJU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=3Q3S5alr1j4)
-
-<p class="clip-credit"><strong>Passing the Lasso-Half Guard</strong> — taught by Roger Gracie · 2:42 · <a href="https://www.youtube.com/watch?v=3Q3S5alr1j4" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="state-invariants" class="content-section">

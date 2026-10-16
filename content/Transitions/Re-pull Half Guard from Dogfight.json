@@ -357,26 +357,7 @@
       }
     ],
     "safety_considerations": "The re-pull from dogfight is a low-risk transition with no significant injury potential when executed correctly. The primary safety concern involves knee stress during the descent if the trapped leg's angle shifts awkwardly under the opponent's weight. Ensure your trapped leg maintains a natural flexion angle throughout the transition and avoid twisting motions while load-bearing. If you feel any sharp pain in the knee during the descent, immediately release the leg entanglement and recover to a neutral position rather than forcing the transition. Partners should avoid explosive forward drives during drilling to prevent stacking injuries to the spine and neck.",
-    "clips": [
-      {
-        "id": "d4YCOnY0WCA",
-        "title": "Dogfight to double leg to guard replacement",
-        "by": "Kyle Ennis",
-        "vertical": false,
-        "channel": "Kyle Ennis",
-        "duration": 46,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "kYUlZ3ldo-Q",
-        "title": "Half guard roll variation from the dogfight",
-        "by": "Lucas Leite",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 133,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Re-pull Half Guard from Dogfight Defender",
@@ -525,34 +506,6 @@
         "description": "Full resistance positional sparring starting in dogfight. Bottom player mixes sweep attempts, back takes, and re-pulls. Top player must read which option is being pursued and respond appropriately—defending sweeps with base, preventing back takes with whizzer, and capitalizing on re-pulls with pressure following. Develop adaptive responses to all bottom player options."
       }
     ],
-    "clips": [
-      {
-        "id": "dOdO6xJ-TcU",
-        "title": "Denying the half guard underhook from the top",
-        "by": "Malachy Friedman",
-        "vertical": false,
-        "channel": "Malachy Friedman",
-        "duration": 98,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "wWD_Ofjz0ZI",
-        "title": "Knee Slice Pass vs Dog Fight Half Guard",
-        "by": "Dante Leon",
-        "vertical": false,
-        "channel": "Bernardo Faria BJJ Fanatics",
-        "duration": 272,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "b4T_3UW9TVc",
-        "title": "Passing the Dog Fight with an Elbow Post",
-        "by": "JT Torres",
-        "vertical": false,
-        "channel": "The Grapplers Guide by Jason Scully",
-        "duration": 235,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

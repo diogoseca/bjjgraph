@@ -454,21 +454,11 @@
     "clips": [
       {
         "id": "Kx8gZ3QdO8s",
-        "title": "Craig Jones Toe Hold Crossover",
-        "by": "Craig Jones",
-        "vertical": false,
+        "title": "Crossover (Craig Jones) Toe Hold (Brazilian Jiu Jitsu)",
         "channel": "Bence Romanek",
         "duration": 51,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "nVfqMfVpTVk",
-        "title": "Trick to Fix Your Cross Ashi Leg Lock",
-        "by": "Factory Fresh Jiu Jitsu",
         "vertical": false,
-        "channel": "Factory Fresh Jiu Jitsu",
-        "duration": 55,
-        "verified": "2026-07-14"
+        "front": true
       }
     ]
   },
@@ -640,21 +630,11 @@
     "clips": [
       {
         "id": "3a9k8-ZcYrk",
-        "title": "How to Escape the Toe Hold",
-        "by": "Gordon Ryan",
-        "vertical": false,
+        "title": "How to escape from toehold by Gordon Ryan",
         "channel": "The King Life",
-        "duration": 106,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "QMgsMSTRSBI",
-        "title": "5 Leglock Counters to Ashi Garami",
-        "by": "BJJBlackBeltDad",
+        "duration": 105,
         "vertical": false,
-        "channel": "BJJBlackBeltDad",
-        "duration": 93,
-        "verified": "2026-07-14"
+        "front": true
       }
     ]
   }

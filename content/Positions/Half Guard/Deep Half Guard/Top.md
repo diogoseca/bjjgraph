@@ -165,35 +165,12 @@ description: "Master Deep Half Guard Top with defensive counters, pressure maint
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Top Deep Half Guard Counter to Back Take",
-      "description": "Deep Half Guard (Top) film study: Top Deep Half Guard Counter to Back Take, taught by JiuJitsu.com.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/hHbb7ywVTwU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/hHbb7ywVTwU",
-      "url": "https://www.youtube.com/watch?v=hHbb7ywVTwU",
-      "creator": { "@type": "Person", "name": "JiuJitsu.com" },
-      "duration": "PT63S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Stop the Half Guard Underhook",
-      "description": "Deep Half Guard (Top) film study: Stop the Half Guard Underhook, taught by Malachy Friedman.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/dOdO6xJ-TcU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/dOdO6xJ-TcU",
-      "url": "https://www.youtube.com/watch?v=dOdO6xJ-TcU",
-      "creator": { "@type": "Person", "name": "Malachy Friedman" },
-      "duration": "PT98S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "How to Pass the Deep Half Guard",
-      "description": "Deep Half Guard (Top) film study: How to Pass the Deep Half Guard, taught by Dimitrius Souza.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/2mom9Urqxa4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/2mom9Urqxa4",
-      "url": "https://www.youtube.com/watch?v=2mom9Urqxa4",
-      "creator": { "@type": "Person", "name": "Dimitrius Souza" },
-      "duration": "PT237S"
+      "name": "How to PASS and submit from the deep half guard every time!",
+      "description": "Deep Half Guard (Top) film study: How to PASS and submit from the deep half guard every time!.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wZRvy4-ula4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/wZRvy4-ula4",
+      "url": "https://www.youtube.com/watch?v=wZRvy4-ula4",
+      "duration": "PT277S"
     }
   ]
 }
@@ -223,25 +200,9 @@ Success from top position requires understanding the sweep mechanics your oppone
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=hHbb7ywVTwU)
+![](https://www.youtube.com/watch?v=wZRvy4-ula4)
 
-<p class="clip-credit"><strong>Top Deep Half Guard Counter to Back Take</strong> — taught by JiuJitsu.com · 1:03 · <a href="https://www.youtube.com/watch?v=hHbb7ywVTwU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=dOdO6xJ-TcU)
-
-<p class="clip-credit"><strong>Stop the Half Guard Underhook</strong> — taught by Malachy Friedman · 1:38 · <a href="https://www.youtube.com/watch?v=dOdO6xJ-TcU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=2mom9Urqxa4)
-
-<p class="clip-credit"><strong>How to Pass the Deep Half Guard</strong> — taught by Dimitrius Souza · 3:57 · <a href="https://www.youtube.com/watch?v=2mom9Urqxa4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How to PASS and submit from the deep half guard every time!</strong> · 4:37 · <a href="https://www.youtube.com/watch?v=wZRvy4-ula4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

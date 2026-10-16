@@ -458,21 +458,11 @@
     "clips": [
       {
         "id": "8tdVE2zgjXw",
-        "title": "Details on finishing the rear naked choke",
-        "by": "Craig Jones",
-        "vertical": false,
+        "title": "Craig Jones: details on finishing the rear naked choke",
         "channel": "Wrecking Crew BJJ",
         "duration": 57,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "6MhcPYISQDU",
-        "title": "Rodeo choke from the back",
-        "by": "Ethos Jiu-Jitsu",
         "vertical": false,
-        "channel": "Ethos Jiu-Jitsu Fullerton",
-        "duration": 85,
-        "verified": "2026-07-14"
+        "front": true
       }
     ]
   },
@@ -656,25 +646,6 @@
         "description": "Simulate competition scenarios where you arrive at Rodeo Ride bottom after extended sparring, replicating the fatigue and decision-making pressure of real matches. Practice making correct defensive choices when tired and under psychological pressure. Develop the composure to follow the defensive hierarchy even when exhausted."
       }
     ],
-    "clips": [
-      {
-        "id": "pKMYriPSD9o",
-        "title": "Crocodile roll escape from rear naked choke",
-        "by": "Martin Valenzuela",
-        "vertical": false,
-        "channel": "Martin Valenzuela C.",
-        "duration": 28,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "_X1ZpmEswzI",
-        "title": "Escaping back mount seatbelt control",
-        "by": "Julie Bond",
-        "vertical": false,
-        "channel": "Julie Bond",
-        "duration": 18,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

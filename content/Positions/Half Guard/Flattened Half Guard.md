@@ -46,35 +46,12 @@ description: "Master the flattened half guard position in BJJ. Complete guide co
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Late correction to flatten the half guard player",
-      "description": "Flattened Half Guard film study: Late correction to flatten the half guard player, taught by Paul Schreiner.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/0FxFdqZ8mus/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/0FxFdqZ8mus",
-      "url": "https://www.youtube.com/watch?v=0FxFdqZ8mus",
-      "creator": { "@type": "Person", "name": "Paul Schreiner" },
-      "duration": "PT153S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Far side underhook pin on a flattened half guard",
-      "description": "Flattened Half Guard film study: Far side underhook pin on a flattened half guard, taught by Craig Jones.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/mWimgVQrsMU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/mWimgVQrsMU",
-      "url": "https://www.youtube.com/watch?v=mWimgVQrsMU",
-      "creator": { "@type": "Person", "name": "Craig Jones" },
-      "duration": "PT137S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Recovering after getting flattened in half guard",
-      "description": "Flattened Half Guard film study: Recovering after getting flattened in half guard, taught by Inverted Gear.",
+      "name": "How To Recover When You Get Flat In Half Guard",
+      "description": "Flattened Half Guard film study: How To Recover When You Get Flat In Half Guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/NWie1oi3JSg/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/NWie1oi3JSg",
       "url": "https://www.youtube.com/watch?v=NWie1oi3JSg",
-      "creator": { "@type": "Person", "name": "Inverted Gear" },
-      "duration": "PT274S"
+      "duration": "PT273S"
     }
   ]
 }
@@ -129,25 +106,9 @@ The position's place in the BJJ positional hierarchy reflects its defensive natu
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=0FxFdqZ8mus)
-
-<p class="clip-credit"><strong>Late correction to flatten the half guard player</strong> — taught by Paul Schreiner · 2:33 · <a href="https://www.youtube.com/watch?v=0FxFdqZ8mus" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=mWimgVQrsMU)
-
-<p class="clip-credit"><strong>Far side underhook pin on a flattened half guard</strong> — taught by Craig Jones · 2:17 · <a href="https://www.youtube.com/watch?v=mWimgVQrsMU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=NWie1oi3JSg)
 
-<p class="clip-credit"><strong>Recovering after getting flattened in half guard</strong> — taught by Inverted Gear · 4:34 · <a href="https://www.youtube.com/watch?v=NWie1oi3JSg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How To Recover When You Get Flat In Half Guard</strong> · 4:33 · <a href="https://www.youtube.com/watch?v=NWie1oi3JSg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

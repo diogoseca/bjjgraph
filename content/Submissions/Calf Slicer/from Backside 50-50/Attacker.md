@@ -189,33 +189,30 @@ description: "Learn to execute the calf slicer from backside 50-50 with precise 
       "@type": "VideoObject",
       "position": 1,
       "name": "50/50 to Calf Slicer",
-      "description": "Calf Slicer from Backside 50-50 (Attacker) film study: 50/50 to Calf Slicer, taught by CaMiCho327.",
+      "description": "Calf Slicer from Backside 50-50 (Attacker) film study: 50/50 to Calf Slicer.",
       "thumbnailUrl": "https://i.ytimg.com/vi/UsEvrDzgbqE/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/UsEvrDzgbqE",
       "url": "https://www.youtube.com/watch?v=UsEvrDzgbqE",
-      "creator": { "@type": "Person", "name": "CaMiCho327" },
       "duration": "PT13S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "5050 Calf Slicer",
-      "description": "Calf Slicer from Backside 50-50 (Attacker) film study: 5050 Calf Slicer, taught by The Jiu-Jitsu Foundry.",
+      "description": "Calf Slicer from Backside 50-50 (Attacker) film study: 5050 Calf Slicer.",
       "thumbnailUrl": "https://i.ytimg.com/vi/d4KgnwWTkuk/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/d4KgnwWTkuk",
       "url": "https://www.youtube.com/watch?v=d4KgnwWTkuk",
-      "creator": { "@type": "Person", "name": "The Jiu-Jitsu Foundry" },
-      "duration": "PT35S"
+      "duration": "PT34S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "Calf Slicer Positions: RDLR, 50/50, Z Guard",
-      "description": "Calf Slicer from Backside 50-50 (Attacker) film study: Calf Slicer Positions: RDLR, 50/50, Z Guard, taught by Grappling with Insanity.",
+      "description": "Calf Slicer from Backside 50-50 (Attacker) film study: Calf Slicer Positions: RDLR, 50/50, Z Guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/buBg-yzLTrY/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/buBg-yzLTrY",
       "url": "https://www.youtube.com/watch?v=buBg-yzLTrY",
-      "creator": { "@type": "Person", "name": "Grappling with Insanity" },
       "duration": "PT54S"
     }
   ]
@@ -247,7 +244,7 @@ Attacking the calf slicer from backside 50-50 requires threading your shin behin
 
 ![](https://www.youtube.com/watch?v=UsEvrDzgbqE)
 
-<p class="clip-credit"><strong>50/50 to Calf Slicer</strong> — taught by CaMiCho327 · 0:13 · <a href="https://www.youtube.com/watch?v=UsEvrDzgbqE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>50/50 to Calf Slicer</strong> · 0:13 · <a href="https://www.youtube.com/watch?v=UsEvrDzgbqE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -255,7 +252,7 @@ Attacking the calf slicer from backside 50-50 requires threading your shin behin
 
 ![](https://www.youtube.com/watch?v=d4KgnwWTkuk)
 
-<p class="clip-credit"><strong>5050 Calf Slicer</strong> — taught by The Jiu-Jitsu Foundry · 0:35 · <a href="https://www.youtube.com/watch?v=d4KgnwWTkuk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>5050 Calf Slicer</strong> · 0:34 · <a href="https://www.youtube.com/watch?v=d4KgnwWTkuk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -263,7 +260,7 @@ Attacking the calf slicer from backside 50-50 requires threading your shin behin
 
 ![](https://www.youtube.com/watch?v=buBg-yzLTrY)
 
-<p class="clip-credit"><strong>Calf Slicer Positions: RDLR, 50/50, Z Guard</strong> — taught by Grappling with Insanity · 0:54 · <a href="https://www.youtube.com/watch?v=buBg-yzLTrY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Calf Slicer Positions: RDLR, 50/50, Z Guard</strong> · 0:54 · <a href="https://www.youtube.com/watch?v=buBg-yzLTrY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

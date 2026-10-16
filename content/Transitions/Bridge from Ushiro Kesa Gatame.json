@@ -372,26 +372,7 @@
       }
     ],
     "safety_considerations": "Bridge escapes involve explosive spinal extension and rotational forces on the lumbar spine. Warm up the lower back, hip flexors, and glutes thoroughly before drilling. During initial learning phases, the top player should allow controlled escape repetitions rather than resisting at maximum intensity. Tap immediately if neck or spinal discomfort occurs during the turning phase. Partners should communicate about intensity level and any pre-existing back or neck injuries before positional drilling. Avoid explosive bridging on hard surfaces without adequate mat padding.",
-    "clips": [
-      {
-        "id": "-zFQ6h4yKT4",
-        "title": "Kuzure kesa gatame escapes",
-        "by": "Kodokan",
-        "vertical": false,
-        "channel": "KODOKAN",
-        "duration": 70,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "iDi59hI5-YQ",
-        "title": "Kesa gatame bridge and reverse shrimp escape",
-        "by": "JitzLive",
-        "vertical": false,
-        "channel": "JitzLive",
-        "duration": 132,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Bridge from Ushiro Kesa Gatame Defender",
@@ -546,25 +527,6 @@
         "description": "Full-resistance positional sparring from Ushiro Kesa Gatame. Bottom player uses bridges mixed with shrimps and elbow escapes. Top player must maintain position, recognize each escape type, and respond appropriately while threatening submissions. Track position retention time across rounds."
       }
     ],
-    "clips": [
-      {
-        "id": "RYo2TWEnOiY",
-        "title": "Holding reverse kesa gatame and attacking the kimura",
-        "by": "BJJ4Breakfast",
-        "vertical": false,
-        "channel": "BJJ4Breakfast",
-        "duration": 234,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "xROpHA3sNlY",
-        "title": "Reverse kesa gatame escape",
-        "by": "Inverted Gear",
-        "vertical": false,
-        "channel": "Inverted Gear",
-        "duration": 109,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

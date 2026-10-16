@@ -161,34 +161,11 @@ description: "How to defend against Front Headlock to Guillotine in BJJ. Recogni
       "@type": "VideoObject",
       "position": 1,
       "name": "Guillotine Choke Defense",
-      "description": "Front Headlock to Guillotine (Defender) film study: Guillotine Choke Defense, taught by Todd Hendrickson.",
+      "description": "Front Headlock to Guillotine (Defender) film study: Guillotine Choke Defense.",
       "thumbnailUrl": "https://i.ytimg.com/vi/OQYU2BXdEEw/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/OQYU2BXdEEw",
       "url": "https://www.youtube.com/watch?v=OQYU2BXdEEw",
-      "creator": { "@type": "Person", "name": "Todd Hendrickson" },
       "duration": "PT51S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Standing Guillotine Escape",
-      "description": "Front Headlock to Guillotine (Defender) film study: Standing Guillotine Escape, taught by Dogtownman.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/8okq4cIHMO0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/8okq4cIHMO0",
-      "url": "https://www.youtube.com/watch?v=8okq4cIHMO0",
-      "creator": { "@type": "Person", "name": "Dogtownman" },
-      "duration": "PT44S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Standing Guillotine Defense with Sitting Throw",
-      "description": "Front Headlock to Guillotine (Defender) film study: Standing Guillotine Defense with Sitting Throw, taught by Gracie Charlottesville.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/k5BNGdsb5P4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/k5BNGdsb5P4",
-      "url": "https://www.youtube.com/watch?v=k5BNGdsb5P4",
-      "creator": { "@type": "Person", "name": "Gracie Charlottesville" },
-      "duration": "PT23S"
     }
   ]
 }
@@ -222,23 +199,7 @@ The critical defensive window occurs during the grip change phase - the moment y
 
 ![](https://www.youtube.com/watch?v=OQYU2BXdEEw)
 
-<p class="clip-credit"><strong>Guillotine Choke Defense</strong> — taught by Todd Hendrickson · 0:51 · <a href="https://www.youtube.com/watch?v=OQYU2BXdEEw" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=8okq4cIHMO0)
-
-<p class="clip-credit"><strong>Standing Guillotine Escape</strong> — taught by Dogtownman · 0:44 · <a href="https://www.youtube.com/watch?v=8okq4cIHMO0" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=k5BNGdsb5P4)
-
-<p class="clip-credit"><strong>Standing Guillotine Defense with Sitting Throw</strong> — taught by Gracie Charlottesville · 0:23 · <a href="https://www.youtube.com/watch?v=k5BNGdsb5P4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Guillotine Choke Defense</strong> · 0:51 · <a href="https://www.youtube.com/watch?v=OQYU2BXdEEw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

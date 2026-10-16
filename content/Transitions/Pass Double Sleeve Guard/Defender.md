@@ -152,24 +152,12 @@ description: "Complete defensive guide for retaining Double Sleeve Guard against
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Sleeve Gripping Tip to Improve Your Guard",
-      "description": "Pass Double Sleeve Guard (Defender) film study: Sleeve Gripping Tip to Improve Your Guard, taught by Jon Thomas.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/aSl-rfbmfyM/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/aSl-rfbmfyM",
-      "url": "https://www.youtube.com/watch?v=aSl-rfbmfyM",
-      "creator": { "@type": "Person", "name": "Jon Thomas" },
-      "duration": "PT217S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Most Common Guard Retention Problem",
-      "description": "Pass Double Sleeve Guard (Defender) film study: Most Common Guard Retention Problem, taught by Jon Thomas.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/_K4ydd1ofgI/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/_K4ydd1ofgI",
-      "url": "https://www.youtube.com/watch?v=_K4ydd1ofgI",
-      "creator": { "@type": "Person", "name": "Jon Thomas" },
-      "duration": "PT220S"
+      "name": "Guard Retention W/ Double Sleeve Control ( Spider Guard, Lasso, Open Guard )",
+      "description": "Pass Double Sleeve Guard (Defender) film study: Guard Retention W/ Double Sleeve Control ( Spider Guard, Lasso, Open Guard ).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/7oc84ycyXM8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/7oc84ycyXM8",
+      "url": "https://www.youtube.com/watch?v=7oc84ycyXM8",
+      "duration": "PT88S"
     }
   ]
 }
@@ -197,17 +185,9 @@ As the defender in Double Sleeve Guard, your objective is to maintain your bilat
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=aSl-rfbmfyM)
+![](https://www.youtube.com/watch?v=7oc84ycyXM8)
 
-<p class="clip-credit"><strong>Sleeve Gripping Tip to Improve Your Guard</strong> — taught by Jon Thomas · 3:37 · <a href="https://www.youtube.com/watch?v=aSl-rfbmfyM" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=_K4ydd1ofgI)
-
-<p class="clip-credit"><strong>Most Common Guard Retention Problem</strong> — taught by Jon Thomas · 3:40 · <a href="https://www.youtube.com/watch?v=_K4ydd1ofgI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Guard Retention W/ Double Sleeve Control ( Spider Guard, Lasso, Open Guard )</strong> · 1:28 · <a href="https://www.youtube.com/watch?v=7oc84ycyXM8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -160,23 +160,21 @@ description: "How to defend against Stack Pass in BJJ. Recognition cues, defensi
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Stack pass defense to triangle trap",
-      "description": "Stack Pass (Defender) film study: Stack pass defense to triangle trap, taught by Mark Cerrone.",
+      "name": "\"Mastering Stack Pass Defense: Transition to Triangle Trap Position with\u2026",
+      "description": "Stack Pass (Defender) film study: \"Mastering Stack Pass Defense: Transition to Triangle Trap Position with\u2026.",
       "thumbnailUrl": "https://i.ytimg.com/vi/mOvf60z4HS0/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/mOvf60z4HS0",
       "url": "https://www.youtube.com/watch?v=mOvf60z4HS0",
-      "creator": { "@type": "Person", "name": "Mark Cerrone" },
       "duration": "PT61S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Defending the stack pass, no-gi",
-      "description": "Stack Pass (Defender) film study: Defending the stack pass, no-gi, taught by Matt Serra.",
+      "name": "16_P1_Matt Sera Nogi - Defending Stack Pass",
+      "description": "Stack Pass (Defender) film study: 16_P1_Matt Sera Nogi - Defending Stack Pass.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Y6R29wW_KrU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Y6R29wW_KrU",
       "url": "https://www.youtube.com/watch?v=Y6R29wW_KrU",
-      "creator": { "@type": "Person", "name": "Matt Serra" },
       "duration": "PT158S"
     }
   ]
@@ -209,7 +207,7 @@ The defender must understand the three critical windows for defense: before the 
 
 ![](https://www.youtube.com/watch?v=mOvf60z4HS0)
 
-<p class="clip-credit"><strong>Stack pass defense to triangle trap</strong> — taught by Mark Cerrone · 1:01 · <a href="https://www.youtube.com/watch?v=mOvf60z4HS0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>&#34;Mastering Stack Pass Defense: Transition to Triangle Trap Position with…</strong> · 1:01 · <a href="https://www.youtube.com/watch?v=mOvf60z4HS0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -217,7 +215,7 @@ The defender must understand the three critical windows for defense: before the 
 
 ![](https://www.youtube.com/watch?v=Y6R29wW_KrU)
 
-<p class="clip-credit"><strong>Defending the stack pass, no-gi</strong> — taught by Matt Serra · 2:38 · <a href="https://www.youtube.com/watch?v=Y6R29wW_KrU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>16_P1_Matt Sera Nogi - Defending Stack Pass</strong> · 2:38 · <a href="https://www.youtube.com/watch?v=Y6R29wW_KrU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

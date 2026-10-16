@@ -192,23 +192,11 @@ description: "Master the Knee Through from Quarter Guard attack. Step-by-step gu
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Knee slide to mount",
-      "description": "Knee Through from Quarter (Attacker) film study: Knee slide to mount, taught by Jake Shields.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Tr-K1pNOb_E/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Tr-K1pNOb_E",
-      "url": "https://www.youtube.com/watch?v=Tr-K1pNOb_E",
-      "creator": { "@type": "Person", "name": "Jake Shields" },
-      "duration": "PT89S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Knee slide pass to mount",
-      "description": "Knee Through from Quarter (Attacker) film study: Knee slide pass to mount, taught by Matt McCormick.",
+      "name": "Knee slide to mount with Coach Matt",
+      "description": "Knee Through from Quarter (Attacker) film study: Knee slide to mount with Coach Matt.",
       "thumbnailUrl": "https://i.ytimg.com/vi/MHkLdz5_qsw/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/MHkLdz5_qsw",
       "url": "https://www.youtube.com/watch?v=MHkLdz5_qsw",
-      "creator": { "@type": "Person", "name": "Matt McCormick" },
       "duration": "PT79S"
     }
   ]
@@ -237,17 +225,9 @@ Executing the Knee Through from Quarter Guard requires converting established up
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=Tr-K1pNOb_E)
-
-<p class="clip-credit"><strong>Knee slide to mount</strong> — taught by Jake Shields · 1:29 · <a href="https://www.youtube.com/watch?v=Tr-K1pNOb_E" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=MHkLdz5_qsw)
 
-<p class="clip-credit"><strong>Knee slide pass to mount</strong> — taught by Matt McCormick · 1:19 · <a href="https://www.youtube.com/watch?v=MHkLdz5_qsw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Knee slide to mount with Coach Matt</strong> · 1:19 · <a href="https://www.youtube.com/watch?v=MHkLdz5_qsw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

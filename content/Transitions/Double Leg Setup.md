@@ -46,34 +46,21 @@ description: "Learn Double Leg Setup in BJJ. Step-by-step execution from Standin
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Snap and split-level change into double leg",
-      "description": "Double Leg Setup film study: Snap and split-level change into double leg, taught by WrestlingTournaments coach.",
+      "name": "Setup your double leg! Pop snap into split-level-change double leg",
+      "description": "Double Leg Setup film study: Setup your double leg! Pop snap into split-level-change double leg.",
       "thumbnailUrl": "https://i.ytimg.com/vi/vKRchHvf4Io/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/vKRchHvf4Io",
       "url": "https://www.youtube.com/watch?v=vKRchHvf4Io",
-      "creator": { "@type": "Person", "name": "WrestlingTournaments coach" },
-      "duration": "PT53S"
+      "duration": "PT52S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Double leg setup for grappling",
-      "description": "Double Leg Setup film study: Double leg setup for grappling, taught by Peter Mettler.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/J45QFvBDvyM/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/J45QFvBDvyM",
-      "url": "https://www.youtube.com/watch?v=J45QFvBDvyM",
-      "creator": { "@type": "Person", "name": "Peter Mettler" },
-      "duration": "PT71S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Snap down setup to double leg",
-      "description": "Double Leg Setup film study: Snap down setup to double leg, taught by Coach Bauer.",
+      "name": "Snap Down Set Up to Double Leg Wrestling Takedown | Coach Bauer",
+      "description": "Double Leg Setup film study: Snap Down Set Up to Double Leg Wrestling Takedown | Coach Bauer.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Rh2SRMwN0y0/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Rh2SRMwN0y0",
       "url": "https://www.youtube.com/watch?v=Rh2SRMwN0y0",
-      "creator": { "@type": "Person", "name": "Coach Bauer" },
       "duration": "PT99S"
     }
   ]
@@ -126,15 +113,7 @@ Borrowed from folkstyle and freestyle wrestling and refined for the grip-heavy, 
 
 ![](https://www.youtube.com/watch?v=vKRchHvf4Io)
 
-<p class="clip-credit"><strong>Snap and split-level change into double leg</strong> — taught by WrestlingTournaments coach · 0:53 · <a href="https://www.youtube.com/watch?v=vKRchHvf4Io" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=J45QFvBDvyM)
-
-<p class="clip-credit"><strong>Double leg setup for grappling</strong> — taught by Peter Mettler · 1:11 · <a href="https://www.youtube.com/watch?v=J45QFvBDvyM" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Setup your double leg! Pop snap into split-level-change double leg</strong> · 0:52 · <a href="https://www.youtube.com/watch?v=vKRchHvf4Io" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -142,7 +121,7 @@ Borrowed from folkstyle and freestyle wrestling and refined for the grip-heavy, 
 
 ![](https://www.youtube.com/watch?v=Rh2SRMwN0y0)
 
-<p class="clip-credit"><strong>Snap down setup to double leg</strong> — taught by Coach Bauer · 1:39 · <a href="https://www.youtube.com/watch?v=Rh2SRMwN0y0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Snap Down Set Up to Double Leg Wrestling Takedown | Coach Bauer</strong> · 1:39 · <a href="https://www.youtube.com/watch?v=Rh2SRMwN0y0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

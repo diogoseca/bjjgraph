@@ -162,24 +162,12 @@ description: "How to defend the Loop Choke from Turtle in BJJ. Recognition cues,
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Loop Choke Defense: Countering After Legs Come Around",
-      "description": "Loop Choke from Turtle (Defender) film study: Loop Choke Defense: Countering After Legs Come Around, taught by Maxum BJJ Coach.",
+      "name": "Loop Choke Defense Part 2: Countering After Legs Come Around You",
+      "description": "Loop Choke from Turtle (Defender) film study: Loop Choke Defense Part 2: Countering After Legs Come Around You.",
       "thumbnailUrl": "https://i.ytimg.com/vi/eAQ7cCGdVXk/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/eAQ7cCGdVXk",
       "url": "https://www.youtube.com/watch?v=eAQ7cCGdVXk",
-      "creator": { "@type": "Person", "name": "Maxum BJJ Coach" },
       "duration": "PT224S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Defending Chokes from Turtle and Front Headlock",
-      "description": "Loop Choke from Turtle (Defender) film study: Defending Chokes from Turtle and Front Headlock, taught by The Forge BJJ Coach.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/L8ZJxyCGD5U/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/L8ZJxyCGD5U",
-      "url": "https://www.youtube.com/watch?v=L8ZJxyCGD5U",
-      "creator": { "@type": "Person", "name": "The Forge BJJ Coach" },
-      "duration": "PT375S"
     }
   ]
 }
@@ -210,15 +198,7 @@ Defending the loop choke from turtle requires immediate recognition and proactiv
 
 ![](https://www.youtube.com/watch?v=eAQ7cCGdVXk)
 
-<p class="clip-credit"><strong>Loop Choke Defense: Countering After Legs Come Around</strong> — taught by Maxum BJJ Coach · 3:44 · <a href="https://www.youtube.com/watch?v=eAQ7cCGdVXk" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=L8ZJxyCGD5U)
-
-<p class="clip-credit"><strong>Defending Chokes from Turtle and Front Headlock</strong> — taught by The Forge BJJ Coach · 6:15 · <a href="https://www.youtube.com/watch?v=L8ZJxyCGD5U" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Loop Choke Defense Part 2: Countering After Legs Come Around You</strong> · 3:44 · <a href="https://www.youtube.com/watch?v=eAQ7cCGdVXk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

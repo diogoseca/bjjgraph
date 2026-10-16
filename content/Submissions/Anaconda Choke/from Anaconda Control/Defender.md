@@ -162,24 +162,12 @@ description: "How to defend against Anaconda Choke in BJJ. Recognition cues, ear
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Anaconda choke defense",
-      "description": "Anaconda Choke from Anaconda Control (Defender) film study: Anaconda choke defense, taught by SFS MMA.",
+      "name": "Anaconda choke defense (BJJ) - SFS MMA",
+      "description": "Anaconda Choke from Anaconda Control (Defender) film study: Anaconda choke defense (BJJ) - SFS MMA.",
       "thumbnailUrl": "https://i.ytimg.com/vi/SXm9wA1HcvM/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/SXm9wA1HcvM",
       "url": "https://www.youtube.com/watch?v=SXm9wA1HcvM",
-      "creator": { "@type": "Person", "name": "SFS MMA" },
       "duration": "PT64S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Prevent the sucker drag during anaconda",
-      "description": "Anaconda Choke from Anaconda Control (Defender) film study: Prevent the sucker drag during anaconda, taught by Drew Darce.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/guHPx-OKi0M/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/guHPx-OKi0M",
-      "url": "https://www.youtube.com/watch?v=guHPx-OKi0M",
-      "creator": { "@type": "Person", "name": "Drew Darce" },
-      "duration": "PT159S"
     }
   ]
 }
@@ -214,15 +202,7 @@ The Anaconda's bilateral compression mechanism means that both your opponent's a
 
 ![](https://www.youtube.com/watch?v=SXm9wA1HcvM)
 
-<p class="clip-credit"><strong>Anaconda choke defense</strong> — taught by SFS MMA · 1:04 · <a href="https://www.youtube.com/watch?v=SXm9wA1HcvM" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=guHPx-OKi0M)
-
-<p class="clip-credit"><strong>Prevent the sucker drag during anaconda</strong> — taught by Drew Darce · 2:39 · <a href="https://www.youtube.com/watch?v=guHPx-OKi0M" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Anaconda choke defense (BJJ) - SFS MMA</strong> · 1:04 · <a href="https://www.youtube.com/watch?v=SXm9wA1HcvM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

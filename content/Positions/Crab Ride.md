@@ -46,24 +46,12 @@ description: "Master Crab Ride position in BJJ. Strategic guide covering turtle 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Crab ride / claw ride setup",
-      "description": "Crab Ride film study: Crab ride / claw ride setup, taught by myrmidonwrestling.",
+      "name": "Crab Ride-  Claw Ride Set Up",
+      "description": "Crab Ride film study: Crab Ride-  Claw Ride Set Up.",
       "thumbnailUrl": "https://i.ytimg.com/vi/tsxvdEE_qCY/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/tsxvdEE_qCY",
       "url": "https://www.youtube.com/watch?v=tsxvdEE_qCY",
-      "creator": { "@type": "Person", "name": "myrmidonwrestling" },
       "duration": "PT86S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Crab ride to the back",
-      "description": "Crab Ride film study: Crab ride to the back, taught by Samuel Braga.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/aSrT9fosH-s/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/aSrT9fosH-s",
-      "url": "https://www.youtube.com/watch?v=aSrT9fosH-s",
-      "creator": { "@type": "Person", "name": "Samuel Braga" },
-      "duration": "PT65S"
     }
   ]
 }
@@ -116,15 +104,7 @@ From the defensive perspective, Crab Ride Bottom is a high-pressure situation th
 
 ![](https://www.youtube.com/watch?v=tsxvdEE_qCY)
 
-<p class="clip-credit"><strong>Crab ride / claw ride setup</strong> — taught by myrmidonwrestling · 1:26 · <a href="https://www.youtube.com/watch?v=tsxvdEE_qCY" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=aSrT9fosH-s)
-
-<p class="clip-credit"><strong>Crab ride to the back</strong> — taught by Samuel Braga · 1:05 · <a href="https://www.youtube.com/watch?v=aSrT9fosH-s" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Crab Ride-  Claw Ride Set Up</strong> · 1:26 · <a href="https://www.youtube.com/watch?v=tsxvdEE_qCY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

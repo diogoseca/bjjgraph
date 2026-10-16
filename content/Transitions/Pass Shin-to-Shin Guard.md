@@ -46,23 +46,21 @@ description: "Master passing Shin-to-Shin Guard in BJJ. Learn shin clearing mech
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "One easy way to pass shin-to-shin guard",
-      "description": "Pass Shin-to-Shin Guard film study: One easy way to pass shin-to-shin guard, taught by Dynasty Jiu Jitsu.",
+      "name": "1 easy way to Pass Shin to Shin Guard | Passing Shin on Shin Guard",
+      "description": "Pass Shin-to-Shin Guard film study: 1 easy way to Pass Shin to Shin Guard | Passing Shin on Shin Guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/YV26zZARJdA/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/YV26zZARJdA",
       "url": "https://www.youtube.com/watch?v=YV26zZARJdA",
-      "creator": { "@type": "Person", "name": "Dynasty Jiu Jitsu" },
-      "duration": "PT164S"
+      "duration": "PT163S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Passing the shin-to-shin guard",
-      "description": "Pass Shin-to-Shin Guard film study: Passing the shin-to-shin guard, taught by Arte Suave.",
+      "name": "Passing the Shin/Shin guard",
+      "description": "Pass Shin-to-Shin Guard film study: Passing the Shin/Shin guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/4jrUwVLezI4/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/4jrUwVLezI4",
       "url": "https://www.youtube.com/watch?v=4jrUwVLezI4",
-      "creator": { "@type": "Person", "name": "Arte Suave" },
       "duration": "PT184S"
     }
   ]
@@ -119,7 +117,7 @@ At the competitive level, this pass becomes a chess match of grip fighting and a
 
 ![](https://www.youtube.com/watch?v=YV26zZARJdA)
 
-<p class="clip-credit"><strong>One easy way to pass shin-to-shin guard</strong> — taught by Dynasty Jiu Jitsu · 2:44 · <a href="https://www.youtube.com/watch?v=YV26zZARJdA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>1 easy way to Pass Shin to Shin Guard | Passing Shin on Shin Guard</strong> · 2:43 · <a href="https://www.youtube.com/watch?v=YV26zZARJdA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -127,7 +125,7 @@ At the competitive level, this pass becomes a chess match of grip fighting and a
 
 ![](https://www.youtube.com/watch?v=4jrUwVLezI4)
 
-<p class="clip-credit"><strong>Passing the shin-to-shin guard</strong> — taught by Arte Suave · 3:04 · <a href="https://www.youtube.com/watch?v=4jrUwVLezI4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Passing the Shin/Shin guard</strong> · 3:04 · <a href="https://www.youtube.com/watch?v=4jrUwVLezI4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

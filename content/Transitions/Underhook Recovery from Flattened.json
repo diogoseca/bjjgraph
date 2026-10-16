@@ -409,26 +409,7 @@
       }
     ],
     "safety_considerations": "The underhook recovery from flattened half guard is a relatively low-risk technique from an injury perspective, but awareness of several factors is important. Shoulder strain can occur if the underhook arm is forced into an awkward angle while threading under heavy pressure. If you feel sharp pain in the shoulder during insertion, reset rather than forcing the movement. The top player should be aware that their crossface pressure affects the bottom player's breathing, and both partners should respect tap signals during training even from chest pressure alone. Neck strain can develop from prolonged crossface pressure turning the head, so training partners should moderate pressure during drilling phases. In competition, the bottom player should monitor their breathing rate and avoid panic-driven movements that increase injury risk.",
-    "clips": [
-      {
-        "id": "R0P8BvcJLAs",
-        "title": "Getting the underhook from knee shield half guard",
-        "by": "Bowerhouse MMA coach",
-        "vertical": false,
-        "channel": "BOWERHOUSE MMA",
-        "duration": 131,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "NWie1oi3JSg",
-        "title": "Recovering when you get flattened in half guard",
-        "by": "Inverted Gear coach",
-        "vertical": false,
-        "channel": "Inverted Gear",
-        "duration": 274,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Underhook Recovery from Flattened Defender",
@@ -607,22 +588,12 @@
     ],
     "clips": [
       {
-        "id": "8WbQvytyCX0",
-        "title": "Keeping them flat and passing flat half guard",
-        "by": "Malachy Friedman",
-        "vertical": false,
-        "channel": "Malachy Friedman",
-        "duration": 63,
-        "verified": "2026-07-15"
-      },
-      {
         "id": "dOdO6xJ-TcU",
-        "title": "Denying the half guard underhook",
-        "by": "Malachy Friedman",
-        "vertical": false,
+        "title": "Stop the half guard underhook with this simple Jiu Jitsu tip!",
         "channel": "Malachy Friedman",
-        "duration": 98,
-        "verified": "2026-07-15"
+        "duration": 97,
+        "vertical": false,
+        "front": true
       }
     ]
   }

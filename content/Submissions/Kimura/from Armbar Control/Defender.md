@@ -156,24 +156,12 @@ description: "Defend against the Kimura from Armbar Control in BJJ. Recognition 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Defending the kimura",
-      "description": "Kimura from Armbar Control (Defender) film study: Defending the kimura, taught by Eddie Kone.",
+      "name": "Defending The Kimura",
+      "description": "Kimura from Armbar Control (Defender) film study: Defending The Kimura.",
       "thumbnailUrl": "https://i.ytimg.com/vi/TuaopPUakM8/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/TuaopPUakM8",
       "url": "https://www.youtube.com/watch?v=TuaopPUakM8",
-      "creator": { "@type": "Person", "name": "Eddie Kone" },
       "duration": "PT61S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Kimura defense",
-      "description": "Kimura from Armbar Control (Defender) film study: Kimura defense, taught by Jon Satava.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/gvRGrvtKd1U/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/gvRGrvtKd1U",
-      "url": "https://www.youtube.com/watch?v=gvRGrvtKd1U",
-      "creator": { "@type": "Person", "name": "Jon Satava" },
-      "duration": "PT142S"
     }
   ]
 }
@@ -204,15 +192,7 @@ Defending the Kimura from Armbar Control requires rapid recognition of the grip 
 
 ![](https://www.youtube.com/watch?v=TuaopPUakM8)
 
-<p class="clip-credit"><strong>Defending the kimura</strong> — taught by Eddie Kone · 1:01 · <a href="https://www.youtube.com/watch?v=TuaopPUakM8" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=gvRGrvtKd1U)
-
-<p class="clip-credit"><strong>Kimura defense</strong> — taught by Jon Satava · 2:22 · <a href="https://www.youtube.com/watch?v=gvRGrvtKd1U" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Defending The Kimura</strong> · 1:01 · <a href="https://www.youtube.com/watch?v=TuaopPUakM8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -397,22 +397,19 @@
     "safety_considerations": "Stack passing applies significant compressive force to the opponent's cervical spine and can restrict breathing when fully loaded. Always release immediately when your training partner taps and be especially cautious with partners who have pre-existing neck or back conditions. During drilling, build stacking pressure progressively rather than slamming into full compression. Communicate with your partner about pressure levels and immediately ease off if they indicate discomfort or difficulty breathing. Never continue stacking an opponent who appears to be in distress or unable to signal for a stop.",
     "clips": [
       {
-        "id": "N4PxPPv98k4",
-        "title": "Double unders stack pass",
-        "by": "Nicky Ryan",
+        "id": "wBZrTpuXV50",
+        "title": "No-Gi Double Under Guard Pass | Brazilian Jiu-Jitsu BJJ Middletown",
+        "channel": "Garden State Brazilian Jiu-Jitsu Academy",
+        "duration": 63,
         "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 91,
-        "verified": "2026-07-15"
+        "front": true
       },
       {
-        "id": "C1owQwRAOkw",
-        "title": "Over under to double under pass transition",
-        "by": "Paragon Jiu-Jitsu",
-        "vertical": false,
-        "channel": "Paragon Jiu-Jitsu Academy Austin",
-        "duration": 136,
-        "verified": "2026-07-15"
+        "id": "0qu9a0a3ozQ",
+        "title": "Double Under Pass",
+        "channel": "Elite MMA",
+        "duration": 70,
+        "vertical": false
       }
     ]
   },
@@ -599,31 +596,26 @@
     ],
     "clips": [
       {
-        "id": "1UOj60dc540",
-        "title": "Double under stack pass counter to triangle",
-        "by": "Adam Bradley",
+        "id": "uILaTRBgpG0",
+        "title": "Defense sweep from the double under pass",
+        "channel": "Smith ♞ | Brazilian Jiu-jitsu",
+        "duration": 28,
         "vertical": false,
+        "front": true
+      },
+      {
+        "id": "1UOj60dc540",
+        "title": "Double Under Stack Pass Counter - Triangle",
         "channel": "Adam Bradley",
-        "duration": 69,
-        "verified": "2026-07-15"
+        "duration": 68,
+        "vertical": false
       },
       {
         "id": "Ad0qtay9IVQ",
-        "title": "Double under stack defense and counter",
-        "by": "Wim Deputter",
-        "vertical": false,
+        "title": "Very Effective Double Under Stack Defense And Counter",
         "channel": "Wim Deputter BJJ",
         "duration": 130,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "uILaTRBgpG0",
-        "title": "Defensive sweep from the double under pass",
-        "by": "Smith",
-        "vertical": false,
-        "channel": "Smith ♞ | Brazilian Jiu-jitsu",
-        "duration": 28,
-        "verified": "2026-07-15"
+        "vertical": false
       }
     ]
   }

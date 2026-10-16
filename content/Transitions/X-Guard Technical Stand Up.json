@@ -364,21 +364,11 @@
     "clips": [
       {
         "id": "zfKTZUtT7ec",
-        "title": "X guard to technical stand up sweep",
-        "by": "Sdotbell",
-        "vertical": false,
+        "title": "How do I get to X Guard? | Mantis Guard to X Guard to Technical Stand up | One…",
         "channel": "Sdotbell MMA (SdotbellMMA)",
         "duration": 61,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "uN_h80PhmkY",
-        "title": "X-guard to technical stand up to back take",
-        "by": "Aibar Orazaly",
         "vertical": false,
-        "channel": "Aibar Orazaly",
-        "duration": 10,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },
@@ -543,34 +533,6 @@
         "description": "When partner's stand-up attempt fails, immediately transition to guard passing attacks rather than resetting to neutral. Build the habit of capitalizing on the momentary hook disruption caused by the failed stand-up, creating a deterrent effect that makes the opponent less willing to attempt the technique in live rolling."
       }
     ],
-    "clips": [
-      {
-        "id": "gwEmeb9RSk4",
-        "title": "Single leg X guard sweep defense",
-        "by": "Tiger Muay Thai coach",
-        "vertical": false,
-        "channel": "Tiger Muay Thai and MMA Training Camp, Phuket, Thailand",
-        "duration": 227,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "st2eQddW4J4",
-        "title": "Defending the single leg X position",
-        "by": "Fit 2 Defend Academy",
-        "vertical": false,
-        "channel": "Fit 2 Defend Academy",
-        "duration": 144,
-        "verified": "2026-07-16"
-      },
-      {
-        "id": "LNyXkfENU5c",
-        "title": "X-Guard counter while standing",
-        "by": "Samy Aljamal",
-        "vertical": false,
-        "channel": "FIT Jiu Jitsu Jordan/ Samy Aljamal",
-        "duration": 79,
-        "verified": "2026-07-16"
-      }
-    ]
+    "clips": []
   }
 }

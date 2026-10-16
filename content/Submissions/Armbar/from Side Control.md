@@ -46,35 +46,12 @@ description: "Master the Armbar from Side Control in BJJ. Complete guide coverin
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Side control to Te Gatame armbar",
-      "description": "Armbar from Side Control film study: Side control to Te Gatame armbar, taught by Gordon Ryan.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/PSgn9TBgwfc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/PSgn9TBgwfc",
-      "url": "https://www.youtube.com/watch?v=PSgn9TBgwfc",
-      "creator": { "@type": "Person", "name": "Gordon Ryan" },
-      "duration": "PT77S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Arm bar from Side Control",
-      "description": "Armbar from Side Control film study: Arm bar from Side Control, taught by Prism Jiu Jitsu.",
+      "name": "Arm Bar from Side Control || One Minute on the Mat || No Gi Jiu jitsu",
+      "description": "Armbar from Side Control film study: Arm Bar from Side Control || One Minute on the Mat || No Gi Jiu jitsu.",
       "thumbnailUrl": "https://i.ytimg.com/vi/hvmfvbXgH90/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/hvmfvbXgH90",
       "url": "https://www.youtube.com/watch?v=hvmfvbXgH90",
-      "creator": { "@type": "Person", "name": "Prism Jiu Jitsu" },
       "duration": "PT101S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Armbar from Side Control",
-      "description": "Armbar from Side Control film study: Armbar from Side Control, taught by Nicholas Meregali.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/5lEXzhE03BQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/5lEXzhE03BQ",
-      "url": "https://www.youtube.com/watch?v=5lEXzhE03BQ",
-      "creator": { "@type": "Person", "name": "Nicholas Meregali" },
-      "duration": "PT164S"
     }
   ]
 }
@@ -137,25 +114,9 @@ The submission can be entered from various side control variations including sta
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=PSgn9TBgwfc)
-
-<p class="clip-credit"><strong>Side control to Te Gatame armbar</strong> — taught by Gordon Ryan · 1:17 · <a href="https://www.youtube.com/watch?v=PSgn9TBgwfc" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=hvmfvbXgH90)
 
-<p class="clip-credit"><strong>Arm bar from Side Control</strong> — taught by Prism Jiu Jitsu · 1:41 · <a href="https://www.youtube.com/watch?v=hvmfvbXgH90" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=5lEXzhE03BQ)
-
-<p class="clip-credit"><strong>Armbar from Side Control</strong> — taught by Nicholas Meregali · 2:44 · <a href="https://www.youtube.com/watch?v=5lEXzhE03BQ" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Arm Bar from Side Control || One Minute on the Mat || No Gi Jiu jitsu</strong> · 1:41 · <a href="https://www.youtube.com/watch?v=hvmfvbXgH90" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

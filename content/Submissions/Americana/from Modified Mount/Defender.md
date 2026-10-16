@@ -148,24 +148,22 @@ description: "Complete defense guide against the Americana from Modified Mount. 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Defending The Americana",
-      "description": "Americana from Modified Mount (Defender) film study: Defending The Americana, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/FNyL93v5fGs/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/FNyL93v5fGs",
-      "url": "https://www.youtube.com/watch?v=FNyL93v5fGs",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT91S"
+      "name": "Simple Americana Armlock Escape",
+      "description": "Americana from Modified Mount (Defender) film study: Simple Americana Armlock Escape.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/NZjUCo8os8Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/NZjUCo8os8Q",
+      "url": "https://www.youtube.com/watch?v=NZjUCo8os8Q",
+      "duration": "PT61S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Simple Americana Armlock Escape",
-      "description": "Americana from Modified Mount (Defender) film study: Simple Americana Armlock Escape, taught by Eddie Kone.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/NZjUCo8os8Q/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/NZjUCo8os8Q",
-      "url": "https://www.youtube.com/watch?v=NZjUCo8os8Q",
-      "creator": { "@type": "Person", "name": "Eddie Kone" },
-      "duration": "PT61S"
+      "name": "Defending The Americana - BJJ Move by Lachlan Giles",
+      "description": "Americana from Modified Mount (Defender) film study: Defending The Americana - BJJ Move by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/FNyL93v5fGs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/FNyL93v5fGs",
+      "url": "https://www.youtube.com/watch?v=FNyL93v5fGs",
+      "duration": "PT91S"
     }
   ]
 }
@@ -194,17 +192,17 @@ Defending the Americana from Modified Mount requires early recognition and immed
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=FNyL93v5fGs)
+![](https://www.youtube.com/watch?v=NZjUCo8os8Q)
 
-<p class="clip-credit"><strong>Defending The Americana</strong> — taught by Lachlan Giles · 1:31 · <a href="https://www.youtube.com/watch?v=FNyL93v5fGs" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Simple Americana Armlock Escape</strong> · 1:01 · <a href="https://www.youtube.com/watch?v=NZjUCo8os8Q" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=NZjUCo8os8Q)
+![](https://www.youtube.com/watch?v=FNyL93v5fGs)
 
-<p class="clip-credit"><strong>Simple Americana Armlock Escape</strong> — taught by Eddie Kone · 1:01 · <a href="https://www.youtube.com/watch?v=NZjUCo8os8Q" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Defending The Americana - BJJ Move by Lachlan Giles</strong> · 1:31 · <a href="https://www.youtube.com/watch?v=FNyL93v5fGs" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

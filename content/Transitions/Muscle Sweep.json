@@ -376,30 +376,11 @@
     "clips": [
       {
         "id": "rten_ydcZiQ",
-        "title": "Muscle Swipes sweep from closed guard",
-        "by": "Xande Ribeiro",
-        "vertical": false,
+        "title": "Xande Ribeiro | MUSCLE SWEEPS",
         "channel": "Jiu Jitsu Moves",
         "duration": 43,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "xDOjrYFJf5Y",
-        "title": "Closed guard sweep when opponent hugs your head",
-        "by": "Jiu Jitsu Five-O",
         "vertical": false,
-        "channel": "Jiu Jitsu Five-O // Street-Ready BJJ Training",
-        "duration": 70,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "qFek-0mauW8",
-        "title": "Basic arm-trap sweep from closed guard",
-        "by": "Leandro Lo",
-        "vertical": false,
-        "channel": "Avant-Garde BJJ",
-        "duration": 63,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },
@@ -554,35 +535,7 @@
         "description": "Defend against Muscle Sweep attempts mixed with other closed guard attacks during live positional sparring. Partner uses full combinations including Hip Bump, Scissor Sweep, and submission threats. Focus on reading which attack is coming and selecting the appropriate defensive response from your complete toolkit."
       }
     ],
-    "clips": [
-      {
-        "id": "hu9HmVWc7jU",
-        "title": "Muscle sweep shown in competition",
-        "by": "Alliance Jiu Jitsu of Madison",
-        "vertical": false,
-        "channel": "Alliance Jiu Jitsu of Madison",
-        "duration": 22,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "kNfVYhZbgrg",
-        "title": "Four levels of closed guard sweep defense",
-        "by": "Wim Deputter",
-        "vertical": false,
-        "channel": "Wim Deputter BJJ",
-        "duration": 87,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "Qqeuy8LgIyc",
-        "title": "Shutting down the muscle sweep",
-        "by": "Heath Pedigo",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 144,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "variants_and_adaptations": [
     {

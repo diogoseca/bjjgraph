@@ -451,22 +451,19 @@
     ],
     "clips": [
       {
-        "id": "3KAO2Ck4HRg",
-        "title": "Bow and Arrow to Kneebar from Honey Hole",
-        "by": "JitzLive",
+        "id": "tm98rJZCvdc",
+        "title": "Knee bar from side saddle/honey hole position",
+        "channel": "BJJ4Breakfast",
+        "duration": 252,
         "vertical": false,
-        "channel": "JitzLive",
-        "duration": 52,
-        "verified": "2026-07-14"
+        "front": true
       },
       {
-        "id": "tm98rJZCvdc",
-        "title": "Kneebar from Side Saddle / Honey Hole",
-        "by": "BJJ4Breakfast",
-        "vertical": false,
-        "channel": "BJJ4Breakfast",
-        "duration": 253,
-        "verified": "2026-07-14"
+        "id": "3KAO2Ck4HRg",
+        "title": "Move of the Day: Bow and Arrow to Kneebar, Honey hole heel hook or reverse heel…",
+        "channel": "JitzLive",
+        "duration": 52,
+        "vertical": false
       }
     ]
   },
@@ -657,31 +654,19 @@
     ],
     "clips": [
       {
-        "id": "gEEHqiSznS4",
-        "title": "How to Escape the Honey Hole",
-        "by": "Vagner Rocha",
-        "vertical": false,
-        "channel": "Vagner Rocha Martial Arts - MMA Gym, BJJ School, Jiu Jitsu, Mixed Martial Arts, Kickboxing, Boxing Gym",
-        "duration": 60,
-        "verified": "2026-07-14"
-      },
-      {
         "id": "wBRG0fY94fs",
-        "title": "How to Defend a Kneebar",
-        "by": "Revolution BJJ",
-        "vertical": false,
+        "title": "How to Defend a Kneebar (and Prevent a Backstep Pass)",
         "channel": "Revolution BJJ",
         "duration": 59,
-        "verified": "2026-07-14"
+        "vertical": false,
+        "front": true
       },
       {
         "id": "NuWBh3LN-SY",
-        "title": "Kneebar Defense + Take the Back",
-        "by": "Bicudo BJJ",
-        "vertical": false,
+        "title": "Knee Bar defense + take the back",
         "channel": "Bicudo BJJ",
-        "duration": 22,
-        "verified": "2026-07-14"
+        "duration": 21,
+        "vertical": false
       }
     ]
   }

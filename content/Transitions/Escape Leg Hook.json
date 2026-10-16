@@ -363,31 +363,12 @@
     "safety_considerations": "The Escape Leg Hook is a low-risk defensive technique with minimal injury potential. The primary safety concern is knee strain during leg extraction if the hook is deep and the bottom player yanks forcefully rather than creating space first. Always reduce hook depth through angling before attempting extraction. Avoid excessive lateral torque on the knee by extracting the leg along its natural range of motion. Communicate with training partners about hook pressure intensity to prevent cumulative joint stress during high-repetition drilling sessions.",
     "clips": [
       {
-        "id": "cyegyon5hVg",
-        "title": "Two Mount Escape Options to Half Guard",
-        "by": "Andrew Smith",
-        "vertical": false,
-        "channel": "Revolution BJJ",
-        "duration": 54,
-        "verified": "2026-07-15"
-      },
-      {
         "id": "6jTzVV7dV1Q",
         "title": "Leg Hook Mount Escape to Half Guard",
-        "by": "Fuse Martial Arts",
-        "vertical": false,
         "channel": "Fuse Martial Arts & Fitness",
         "duration": 123,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "XLWkhrwmuGQ",
-        "title": "Three-Quarter Mount Escape to Heel Hook",
-        "by": "Thunderdome BJJ",
         "vertical": false,
-        "channel": "Thunderdome BJJ",
-        "duration": 40,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },
@@ -544,25 +525,6 @@
         "description": "Start from Leg Hook top with full resistance from both players. Top player combines hook maintenance, escape prevention, and pass advancement into a live strategy. Bottom player uses both Escape Leg Hook and Counter Leg Hook. Track success rates to identify patterns in timing and technique selection."
       }
     ],
-    "clips": [
-      {
-        "id": "3oD74kEITs8",
-        "title": "Guard retention against the knee through",
-        "by": "Lachlan Giles",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 48,
-        "verified": "2026-07-16"
-      },
-      {
-        "id": "lVLAROiSjNU",
-        "title": "Guard retention: when to sit up and recover",
-        "by": "Lachlan Giles",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 136,
-        "verified": "2026-07-16"
-      }
-    ]
+    "clips": []
   }
 }

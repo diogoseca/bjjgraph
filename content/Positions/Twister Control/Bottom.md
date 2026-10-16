@@ -165,24 +165,12 @@ description: "Master defensive strategies from Twister Control Bottom. Learn esc
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Escape and counter the twister",
-      "description": "Twister Control (Bottom) film study: Escape and counter the twister, taught by Matrix Jiu Jitsu.",
+      "name": "Escape and counter the Twister! - Matrix Jiu Jitsu",
+      "description": "Twister Control (Bottom) film study: Escape and counter the Twister! - Matrix Jiu Jitsu.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Va1YNgx2E6M/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Va1YNgx2E6M",
       "url": "https://www.youtube.com/watch?v=Va1YNgx2E6M",
-      "creator": { "@type": "Person", "name": "Matrix Jiu Jitsu" },
       "duration": "PT165S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Battle-testing a twister counter",
-      "description": "Twister Control (Bottom) film study: Battle-testing a twister counter, taught by Coach Brian.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/qQYdPx_KoXo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/qQYdPx_KoXo",
-      "url": "https://www.youtube.com/watch?v=qQYdPx_KoXo",
-      "creator": { "@type": "Person", "name": "Coach Brian" },
-      "duration": "PT238S"
     }
   ]
 }
@@ -220,15 +208,7 @@ The energy dynamics of being stuck in Twister Control Bottom are particularly ch
 
 ![](https://www.youtube.com/watch?v=Va1YNgx2E6M)
 
-<p class="clip-credit"><strong>Escape and counter the twister</strong> — taught by Matrix Jiu Jitsu · 2:45 · <a href="https://www.youtube.com/watch?v=Va1YNgx2E6M" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=qQYdPx_KoXo)
-
-<p class="clip-credit"><strong>Battle-testing a twister counter</strong> — taught by Coach Brian · 3:58 · <a href="https://www.youtube.com/watch?v=qQYdPx_KoXo" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Escape and counter the Twister! - Matrix Jiu Jitsu</strong> · 2:45 · <a href="https://www.youtube.com/watch?v=Va1YNgx2E6M" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

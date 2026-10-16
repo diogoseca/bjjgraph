@@ -162,24 +162,22 @@ description: "How to defend against Americana from Mount in BJJ. Recognition, es
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Simple Americana Armlock Escape",
-      "description": "Americana from Mount (Defender) film study: Simple Americana Armlock Escape, taught by Eddie Kone.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/NZjUCo8os8Q/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/NZjUCo8os8Q",
-      "url": "https://www.youtube.com/watch?v=NZjUCo8os8Q",
-      "creator": { "@type": "Person", "name": "Eddie Kone" },
-      "duration": "PT61S"
+      "name": "Mounted Americana Defenses - Technique #1 - Prevention and Early Phase Escapes",
+      "description": "Americana from Mount (Defender) film study: Mounted Americana Defenses - Technique #1 - Prevention and Early Phase Escapes.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Ny_l7GHApo0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Ny_l7GHApo0",
+      "url": "https://www.youtube.com/watch?v=Ny_l7GHApo0",
+      "duration": "PT199S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Mount Escape to Beat the Americana",
-      "description": "Americana from Mount (Defender) film study: Mount Escape to Beat the Americana, taught by Gabriel Gonzaga.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/9252EvCT0q4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/9252EvCT0q4",
-      "url": "https://www.youtube.com/watch?v=9252EvCT0q4",
-      "creator": { "@type": "Person", "name": "Gabriel Gonzaga" },
-      "duration": "PT93S"
+      "name": "Simple Americana Armlock Escape",
+      "description": "Americana from Mount (Defender) film study: Simple Americana Armlock Escape.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/NZjUCo8os8Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/NZjUCo8os8Q",
+      "url": "https://www.youtube.com/watch?v=NZjUCo8os8Q",
+      "duration": "PT61S"
     }
   ]
 }
@@ -212,17 +210,17 @@ From a strategic perspective, the most effective americana defense creates offen
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=NZjUCo8os8Q)
+![](https://www.youtube.com/watch?v=Ny_l7GHApo0)
 
-<p class="clip-credit"><strong>Simple Americana Armlock Escape</strong> — taught by Eddie Kone · 1:01 · <a href="https://www.youtube.com/watch?v=NZjUCo8os8Q" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Mounted Americana Defenses - Technique #1 - Prevention and Early Phase Escapes</strong> · 3:19 · <a href="https://www.youtube.com/watch?v=Ny_l7GHApo0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=9252EvCT0q4)
+![](https://www.youtube.com/watch?v=NZjUCo8os8Q)
 
-<p class="clip-credit"><strong>Mount Escape to Beat the Americana</strong> — taught by Gabriel Gonzaga · 1:33 · <a href="https://www.youtube.com/watch?v=9252EvCT0q4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Simple Americana Armlock Escape</strong> · 1:01 · <a href="https://www.youtube.com/watch?v=NZjUCo8os8Q" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

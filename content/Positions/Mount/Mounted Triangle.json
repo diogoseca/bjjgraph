@@ -471,31 +471,12 @@
     ],
     "clips": [
       {
-        "id": "zwb5LTgOm1o",
-        "title": "Finish the mounted triangle without losing top",
-        "by": "Lux's Jiu Jitsu",
+        "id": "1qxxbBWo9kw",
+        "title": "Triangle to mounted triangle",
+        "channel": "Ground X Jiu Jitsu ",
+        "duration": 154,
         "vertical": false,
-        "channel": "Lux’s jiu jitsu channel",
-        "duration": 45,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "vLUua_voKzc",
-        "title": "Mounted Triangle demonstration",
-        "by": "Satori BJJ",
-        "vertical": false,
-        "channel": "Satori BJJ",
-        "duration": 53,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "8ys-uZnBgYM",
-        "title": "Mounted Triangle Armbar variation",
-        "by": "Thunderdome BJJ",
-        "vertical": false,
-        "channel": "Thunderdome BJJ",
-        "duration": 26,
-        "verified": "2026-07-14"
+        "front": true
       }
     ]
   },

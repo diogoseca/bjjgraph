@@ -46,24 +46,22 @@ description: "Master the Elbow Escape from Mount in BJJ. Systematic hip escape t
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Knee and elbow escape from mount",
-      "description": "Elbow Escape from Mount film study: Knee and elbow escape from mount, taught by Jamie.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/pUZcLTWHAzk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/pUZcLTWHAzk",
-      "url": "https://www.youtube.com/watch?v=pUZcLTWHAzk",
-      "creator": { "@type": "Person", "name": "Jamie" },
-      "duration": "PT71S"
+      "name": "BJJ / Nogi Mount escape - heel drag elbow knee",
+      "description": "Elbow Escape from Mount film study: BJJ / Nogi Mount escape - heel drag elbow knee.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/KirbkTs_Bk4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/KirbkTs_Bk4",
+      "url": "https://www.youtube.com/watch?v=KirbkTs_Bk4",
+      "duration": "PT29S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Advanced elbow-knee mount escape concepts",
-      "description": "Elbow Escape from Mount film study: Advanced elbow-knee mount escape concepts, taught by Peter Mettler.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/MohD353qSw4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/MohD353qSw4",
-      "url": "https://www.youtube.com/watch?v=MohD353qSw4",
-      "creator": { "@type": "Person", "name": "Peter Mettler" },
-      "duration": "PT89S"
+      "name": "How to Escape the Mount: Knee and Elbow Escape",
+      "description": "Elbow Escape from Mount film study: How to Escape the Mount: Knee and Elbow Escape.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pUZcLTWHAzk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/pUZcLTWHAzk",
+      "url": "https://www.youtube.com/watch?v=pUZcLTWHAzk",
+      "duration": "PT71S"
     }
   ]
 }
@@ -117,17 +115,17 @@ This technique is strategically essential because mount is the highest-scoring a
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=pUZcLTWHAzk)
+![](https://www.youtube.com/watch?v=KirbkTs_Bk4)
 
-<p class="clip-credit"><strong>Knee and elbow escape from mount</strong> — taught by Jamie · 1:11 · <a href="https://www.youtube.com/watch?v=pUZcLTWHAzk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>BJJ / Nogi Mount escape - heel drag elbow knee</strong> · 0:29 · <a href="https://www.youtube.com/watch?v=KirbkTs_Bk4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=MohD353qSw4)
+![](https://www.youtube.com/watch?v=pUZcLTWHAzk)
 
-<p class="clip-credit"><strong>Advanced elbow-knee mount escape concepts</strong> — taught by Peter Mettler · 1:29 · <a href="https://www.youtube.com/watch?v=MohD353qSw4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How to Escape the Mount: Knee and Elbow Escape</strong> · 1:11 · <a href="https://www.youtube.com/watch?v=pUZcLTWHAzk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

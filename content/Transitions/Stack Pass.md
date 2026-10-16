@@ -46,24 +46,22 @@ description: "Master the Stack Pass in BJJ. High-pressure guard passing techniqu
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Stack pass to back control",
-      "description": "Stack Pass film study: Stack pass to back control, taught by Clark Gracie.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/_l_u3jIJaY4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/_l_u3jIJaY4",
-      "url": "https://www.youtube.com/watch?v=_l_u3jIJaY4",
-      "creator": { "@type": "Person", "name": "Clark Gracie" },
-      "duration": "PT73S"
+      "name": "\"Mastering Stack Pass Defense: Transition to Triangle Trap Position with\u2026",
+      "description": "Stack Pass film study: \"Mastering Stack Pass Defense: Transition to Triangle Trap Position with\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/mOvf60z4HS0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/mOvf60z4HS0",
+      "url": "https://www.youtube.com/watch?v=mOvf60z4HS0",
+      "duration": "PT61S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Stack pass from closed guard",
-      "description": "Stack Pass film study: Stack pass from closed guard, taught by Procel BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/EC4JVnymW3U/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/EC4JVnymW3U",
-      "url": "https://www.youtube.com/watch?v=EC4JVnymW3U",
-      "creator": { "@type": "Person", "name": "Procel BJJ" },
-      "duration": "PT95S"
+      "name": "16_P1_Matt Sera Nogi - Defending Stack Pass",
+      "description": "Stack Pass film study: 16_P1_Matt Sera Nogi - Defending Stack Pass.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Y6R29wW_KrU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Y6R29wW_KrU",
+      "url": "https://www.youtube.com/watch?v=Y6R29wW_KrU",
+      "duration": "PT158S"
     }
   ]
 }
@@ -117,17 +115,17 @@ When executed properly, the Stack Pass transitions seamlessly into dominant side
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=_l_u3jIJaY4)
+![](https://www.youtube.com/watch?v=mOvf60z4HS0)
 
-<p class="clip-credit"><strong>Stack pass to back control</strong> — taught by Clark Gracie · 1:13 · <a href="https://www.youtube.com/watch?v=_l_u3jIJaY4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>&#34;Mastering Stack Pass Defense: Transition to Triangle Trap Position with…</strong> · 1:01 · <a href="https://www.youtube.com/watch?v=mOvf60z4HS0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=EC4JVnymW3U)
+![](https://www.youtube.com/watch?v=Y6R29wW_KrU)
 
-<p class="clip-credit"><strong>Stack pass from closed guard</strong> — taught by Procel BJJ · 1:35 · <a href="https://www.youtube.com/watch?v=EC4JVnymW3U" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>16_P1_Matt Sera Nogi - Defending Stack Pass</strong> · 2:38 · <a href="https://www.youtube.com/watch?v=Y6R29wW_KrU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

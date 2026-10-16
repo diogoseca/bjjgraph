@@ -366,35 +366,7 @@
       }
     ],
     "safety_considerations": "When drilling knee shield recovery from quarter guard, training partners should control the speed and intensity of passing pressure to prevent knee strain during the insertion phase. The inserting knee is vulnerable to lateral stress if the top player drives sideways against it before it is fully established across the centerline. Partners should avoid explosive sideways pressure against a partially inserted knee shield. Communicate clearly about intensity level before each round, and tap immediately if any knee discomfort occurs during insertion attempts. Gradually increase resistance over multiple training sessions rather than jumping to full intensity, particularly for practitioners returning from knee injuries.",
-    "clips": [
-      {
-        "id": "sMsgoChdaHE",
-        "title": "Quarter guard concepts",
-        "by": "Eddie Bravo",
-        "vertical": false,
-        "channel": "Eddie Bravo",
-        "duration": 61,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "7YxnGaIIBKI",
-        "title": "Quarter guard strategies from the bottom",
-        "by": "Eddie Bravo",
-        "vertical": false,
-        "channel": "Eddie Bravo",
-        "duration": 60,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "xDZucxFVK48",
-        "title": "Blocking the knee slice from quarter guard",
-        "by": "Jean Jacques Machado",
-        "vertical": false,
-        "channel": "JeanJacquesMachado",
-        "duration": 275,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Knee Shield from Quarter Guard Defender",
@@ -557,34 +529,6 @@
         "description": "Start every round in quarter guard with partner at full competitive resistance. Top player scores for completed pass, bottom player scores for knee shield recovery. Two-minute rounds with role switches. Integrates recognition, pressure, and passing speed into competitive application."
       }
     ],
-    "clips": [
-      {
-        "id": "8lAqEhHz8ao",
-        "title": "Quarter guard escape and pass, with slow motion",
-        "by": "Marcus Almeida",
-        "vertical": false,
-        "channel": "grpplng",
-        "duration": 37,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "kTSMGYlVJKY",
-        "title": "Freeing your foot while passing half guard",
-        "by": "Kameron Ross",
-        "vertical": false,
-        "channel": "Kameron Ross",
-        "duration": 55,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "r5TVxSXdsCY",
-        "title": "Passing the quarter guard with a back step",
-        "by": "Ashure Elbanna",
-        "vertical": false,
-        "channel": "Ashure Elbanna",
-        "duration": 100,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

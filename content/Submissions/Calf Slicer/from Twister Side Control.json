@@ -446,22 +446,12 @@
     ],
     "clips": [
       {
-        "id": "odT3-cVWXdc",
-        "title": "Twister Side Attacks",
-        "by": "Eddie Bravo",
-        "vertical": false,
-        "channel": "Eddie Bravo",
-        "duration": 61,
-        "verified": "2026-07-14"
-      },
-      {
         "id": "9awAompYTpM",
         "title": "Twister Side Control to Calf Crank",
-        "by": "Fenrir Thorvaldsen",
-        "vertical": false,
         "channel": "Fenrir Thorvaldsen",
         "duration": 109,
-        "verified": "2026-07-14"
+        "vertical": false,
+        "front": true
       }
     ]
   },
@@ -633,25 +623,6 @@
         "description": "Begin positional sparring rounds from established twister side control with the attacker actively pursuing the calf slicer at full speed. Track how frequently you recognize the attack early, how often your defensive responses succeed, and when you need to tap. Identify patterns in what works and refine your defensive timing and technique selection based on live feedback."
       }
     ],
-    "clips": [
-      {
-        "id": "AUyR1rmVzo4",
-        "title": "Twister Side Control & Escaping It",
-        "by": "Robot Dolphin Jiu-Jitsu",
-        "vertical": false,
-        "channel": "Robot Dolphin Jiu-Jitsu ",
-        "duration": 205,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "Va1YNgx2E6M",
-        "title": "Escape and Counter the Twister",
-        "by": "Matrix Jiu Jitsu",
-        "vertical": false,
-        "channel": "Matrix Jiu Jitsu",
-        "duration": 165,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   }
 }

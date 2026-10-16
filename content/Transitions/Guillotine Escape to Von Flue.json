@@ -396,26 +396,7 @@
       }
     ],
     "safety_considerations": "The Von Flue choke is a blood choke that can produce unconsciousness within seconds once properly established. Always tap immediately when caught in a Von Flue during training—the onset of unconsciousness is often sudden without gradual warning sensations. When applying the technique, maintain constant awareness of your partner's consciousness and release immediately upon tap or any signs of distress. During the passing phase, practitioners should tap early if the guillotine is too tight to survive the passing sequence rather than risking oxygen deprivation or cervical injury. Never ignore neck pain symptoms—cervical spine compression can occur if excessive downward shoulder force is applied improperly.",
-    "clips": [
-      {
-        "id": "YhKOlw7jXI4",
-        "title": "Von Flue choke as the answer to the guillotine",
-        "by": "Guard Dog Athletic",
-        "vertical": false,
-        "channel": "Guard Dog Athletic",
-        "duration": 56,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "WSH-gBwPmLs",
-        "title": "Von Flue choke countering the guillotine",
-        "by": "Ramsey Dewey",
-        "vertical": false,
-        "channel": "Ramsey Dewey",
-        "duration": 199,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Guillotine Escape to Von Flue Defender",
@@ -606,34 +587,6 @@
         "description": "Partner commits to the Von Flue passing sequence at full intensity. Practice finishing the guillotine during the opponent's passing attempt by exploiting their forward momentum and timing the maximum choke pressure as they drive through the pass. This is advanced timing work requiring excellent feel."
       }
     ],
-    "clips": [
-      {
-        "id": "fFIS8fkVXUw",
-        "title": "Von Flue shoulder choke off the guillotine",
-        "by": "Alexandre Marciano",
-        "vertical": false,
-        "channel": "Alexandre Marciano",
-        "duration": 62,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "GmGrD1Zltw0",
-        "title": "Guillotine defense into the Von Flue choke",
-        "by": "Haven BJJ coach",
-        "vertical": false,
-        "channel": "Haven BJJ",
-        "duration": 143,
-        "verified": "2026-07-16"
-      },
-      {
-        "id": "2wAJVUZALzs",
-        "title": "Evading guillotines from underhooks",
-        "by": "Gordon Ryan",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 115,
-        "verified": "2026-07-16"
-      }
-    ]
+    "clips": []
   }
 }

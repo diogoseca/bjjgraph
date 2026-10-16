@@ -165,34 +165,21 @@ description: "Master leg drag control from top position. Complete strategic guid
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Leg Drag Guard Passing",
-      "description": "Leg Drag Control (Top) film study: Leg Drag Guard Passing, taught by Andre Galvao.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/cr4bYMXDG6k/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/cr4bYMXDG6k",
-      "url": "https://www.youtube.com/watch?v=cr4bYMXDG6k",
-      "creator": { "@type": "Person", "name": "Andre Galvao" },
-      "duration": "PT89S"
+      "name": "Rafael Mendes | Leg Drag Transitions When Opponent Defends | artofjiujitsu.com",
+      "description": "Leg Drag Control (Top) film study: Rafael Mendes | Leg Drag Transitions When Opponent Defends | artofjiujitsu.com.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9CkRlTtnYOk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9CkRlTtnYOk",
+      "url": "https://www.youtube.com/watch?v=9CkRlTtnYOk",
+      "duration": "PT597S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Leg Drag to Rolling Back Take",
-      "description": "Leg Drag Control (Top) film study: Leg Drag to Rolling Back Take, taught by Grapple Box.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/8DG2hn0xxMI/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/8DG2hn0xxMI",
-      "url": "https://www.youtube.com/watch?v=8DG2hn0xxMI",
-      "creator": { "@type": "Person", "name": "Grapple Box" },
-      "duration": "PT18S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "De La Riva to Leg Drag",
-      "description": "Leg Drag Control (Top) film study: De La Riva to Leg Drag, taught by Alavanca.",
+      "name": "De La Riva to Leg Drag #shorts",
+      "description": "Leg Drag Control (Top) film study: De La Riva to Leg Drag #shorts.",
       "thumbnailUrl": "https://i.ytimg.com/vi/H9hckrLXcRQ/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/H9hckrLXcRQ",
       "url": "https://www.youtube.com/watch?v=H9hckrLXcRQ",
-      "creator": { "@type": "Person", "name": "Alavanca" },
       "duration": "PT29S"
     }
   ]
@@ -225,17 +212,9 @@ From a competitive perspective, mastering leg drag control has become essential 
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=cr4bYMXDG6k)
+![](https://www.youtube.com/watch?v=9CkRlTtnYOk)
 
-<p class="clip-credit"><strong>Leg Drag Guard Passing</strong> — taught by Andre Galvao · 1:29 · <a href="https://www.youtube.com/watch?v=cr4bYMXDG6k" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=8DG2hn0xxMI)
-
-<p class="clip-credit"><strong>Leg Drag to Rolling Back Take</strong> — taught by Grapple Box · 0:18 · <a href="https://www.youtube.com/watch?v=8DG2hn0xxMI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Rafael Mendes | Leg Drag Transitions When Opponent Defends | artofjiujitsu.com</strong> · 9:57 · <a href="https://www.youtube.com/watch?v=9CkRlTtnYOk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -243,7 +222,7 @@ From a competitive perspective, mastering leg drag control has become essential 
 
 ![](https://www.youtube.com/watch?v=H9hckrLXcRQ)
 
-<p class="clip-credit"><strong>De La Riva to Leg Drag</strong> — taught by Alavanca · 0:29 · <a href="https://www.youtube.com/watch?v=H9hckrLXcRQ" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>De La Riva to Leg Drag #shorts</strong> · 0:29 · <a href="https://www.youtube.com/watch?v=H9hckrLXcRQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

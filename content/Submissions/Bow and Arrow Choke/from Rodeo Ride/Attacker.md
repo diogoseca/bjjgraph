@@ -182,35 +182,22 @@ description: "Learn to execute the Bow and Arrow Choke from Rodeo Ride. Complete
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Beginner bow and arrow choke",
-      "description": "Bow and Arrow Choke from Rodeo Ride (Attacker) film study: Beginner bow and arrow choke, taught by Scott Clawson.",
+      "name": "Beginner Bow and Arrow choke",
+      "description": "Bow and Arrow Choke from Rodeo Ride (Attacker) film study: Beginner Bow and Arrow choke.",
       "thumbnailUrl": "https://i.ytimg.com/vi/iNKRhe39iT0/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/iNKRhe39iT0",
       "url": "https://www.youtube.com/watch?v=iNKRhe39iT0",
-      "creator": { "@type": "Person", "name": "Scott Clawson" },
       "duration": "PT50S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Bow and arrow choke",
-      "description": "Bow and Arrow Choke from Rodeo Ride (Attacker) film study: Bow and arrow choke, taught by Halfguardmaster.",
+      "name": "Female Bjj Bow and Arrow Choke",
+      "description": "Bow and Arrow Choke from Rodeo Ride (Attacker) film study: Female Bjj Bow and Arrow Choke.",
       "thumbnailUrl": "https://i.ytimg.com/vi/obschO_7Byw/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/obschO_7Byw",
       "url": "https://www.youtube.com/watch?v=obschO_7Byw",
-      "creator": { "@type": "Person", "name": "Halfguardmaster" },
       "duration": "PT62S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Rodeo choke from the back",
-      "description": "Bow and Arrow Choke from Rodeo Ride (Attacker) film study: Rodeo choke from the back, taught by Paul Hunter.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/mwIXKmhnVEI/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/mwIXKmhnVEI",
-      "url": "https://www.youtube.com/watch?v=mwIXKmhnVEI",
-      "creator": { "@type": "Person", "name": "Paul Hunter" },
-      "duration": "PT95S"
     }
   ]
 }
@@ -241,7 +228,7 @@ Executing the Bow and Arrow Choke from Rodeo Ride requires converting your perpe
 
 ![](https://www.youtube.com/watch?v=iNKRhe39iT0)
 
-<p class="clip-credit"><strong>Beginner bow and arrow choke</strong> — taught by Scott Clawson · 0:50 · <a href="https://www.youtube.com/watch?v=iNKRhe39iT0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Beginner Bow and Arrow choke</strong> · 0:50 · <a href="https://www.youtube.com/watch?v=iNKRhe39iT0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -249,15 +236,7 @@ Executing the Bow and Arrow Choke from Rodeo Ride requires converting your perpe
 
 ![](https://www.youtube.com/watch?v=obschO_7Byw)
 
-<p class="clip-credit"><strong>Bow and arrow choke</strong> — taught by Halfguardmaster · 1:02 · <a href="https://www.youtube.com/watch?v=obschO_7Byw" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=mwIXKmhnVEI)
-
-<p class="clip-credit"><strong>Rodeo choke from the back</strong> — taught by Paul Hunter · 1:35 · <a href="https://www.youtube.com/watch?v=mwIXKmhnVEI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Female Bjj Bow and Arrow Choke</strong> · 1:02 · <a href="https://www.youtube.com/watch?v=obschO_7Byw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

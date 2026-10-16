@@ -431,21 +431,18 @@
     "clips": [
       {
         "id": "-HT8Vfiq5Pk",
-        "title": "Toe Hold to Kneebar Attack",
-        "by": "Eliot Marshall",
-        "vertical": false,
+        "title": "Top Half Guard Toe Hold to Knee Bar Attack",
         "channel": "Eliot Marshall",
         "duration": 67,
-        "verified": "2026-07-14"
+        "vertical": false,
+        "front": true
       },
       {
         "id": "frFaHeQJHTA",
-        "title": "Kneebar and Toe Hold from Guard Pass",
-        "by": "Precision MA",
-        "vertical": false,
+        "title": "Kneebar and Toehold from Guard Pass",
         "channel": "Precision Martial Arts Academy",
         "duration": 57,
-        "verified": "2026-07-14"
+        "vertical": false
       }
     ]
   },
@@ -632,21 +629,18 @@
     "clips": [
       {
         "id": "wBRG0fY94fs",
-        "title": "How to Defend a Kneebar",
-        "by": "Revolution BJJ",
-        "vertical": false,
+        "title": "How to Defend a Kneebar (and Prevent a Backstep Pass)",
         "channel": "Revolution BJJ",
         "duration": 59,
-        "verified": "2026-07-14"
+        "vertical": false,
+        "front": true
       },
       {
         "id": "hze1WyTvkzA",
-        "title": "Defending Kneebar to Toe Hold",
-        "by": "Garden State BJJ",
-        "vertical": false,
+        "title": "Defending Kneebar To Toe Hold",
         "channel": "Garden State Brazilian Jiu-Jitsu Academy",
         "duration": 24,
-        "verified": "2026-07-14"
+        "vertical": false
       }
     ]
   }

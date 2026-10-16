@@ -186,35 +186,32 @@ description: "Complete guide to executing the Pass Half Butterfly in BJJ. Step-b
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Passing Half Butterfly Guard",
-      "description": "Pass Half Butterfly (Attacker) film study: Passing Half Butterfly Guard, taught by Morto BJJ.",
+      "name": "Passing half butterfly guard",
+      "description": "Pass Half Butterfly (Attacker) film study: Passing half butterfly guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/LIITsrlsAaI/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/LIITsrlsAaI",
       "url": "https://www.youtube.com/watch?v=LIITsrlsAaI",
-      "creator": { "@type": "Person", "name": "Morto BJJ" },
       "duration": "PT70S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Half Butterfly Guard Pass for No-Gi",
-      "description": "Pass Half Butterfly (Attacker) film study: Half Butterfly Guard Pass for No-Gi, taught by Factory Fresh Jiu Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Pk_6CrydIRQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Pk_6CrydIRQ",
-      "url": "https://www.youtube.com/watch?v=Pk_6CrydIRQ",
-      "creator": { "@type": "Person", "name": "Factory Fresh Jiu Jitsu" },
-      "duration": "PT110S"
+      "name": "Half butterfly guard passing",
+      "description": "Pass Half Butterfly (Attacker) film study: Half butterfly guard passing.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/FyQToVSEOKk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/FyQToVSEOKk",
+      "url": "https://www.youtube.com/watch?v=FyQToVSEOKk",
+      "duration": "PT94S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "Half Butterfly Guard Passing",
-      "description": "Pass Half Butterfly (Attacker) film study: Half Butterfly Guard Passing, taught by Michael Hoffman.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/FyQToVSEOKk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/FyQToVSEOKk",
-      "url": "https://www.youtube.com/watch?v=FyQToVSEOKk",
-      "creator": { "@type": "Person", "name": "Michael Hoffman" },
-      "duration": "PT94S"
+      "name": "Effective Half Butterfly Guard Pass for NoGi #nogi #bjj #jiujitsu",
+      "description": "Pass Half Butterfly (Attacker) film study: Effective Half Butterfly Guard Pass for NoGi #nogi #bjj #jiujitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Pk_6CrydIRQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Pk_6CrydIRQ",
+      "url": "https://www.youtube.com/watch?v=Pk_6CrydIRQ",
+      "duration": "PT109S"
     }
   ]
 }
@@ -244,15 +241,7 @@ As the attacker executing the Pass Half Butterfly, your objective is to systemat
 
 ![](https://www.youtube.com/watch?v=LIITsrlsAaI)
 
-<p class="clip-credit"><strong>Passing Half Butterfly Guard</strong> — taught by Morto BJJ · 1:10 · <a href="https://www.youtube.com/watch?v=LIITsrlsAaI" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=Pk_6CrydIRQ)
-
-<p class="clip-credit"><strong>Half Butterfly Guard Pass for No-Gi</strong> — taught by Factory Fresh Jiu Jitsu · 1:50 · <a href="https://www.youtube.com/watch?v=Pk_6CrydIRQ" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Passing half butterfly guard</strong> · 1:10 · <a href="https://www.youtube.com/watch?v=LIITsrlsAaI" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -260,7 +249,15 @@ As the attacker executing the Pass Half Butterfly, your objective is to systemat
 
 ![](https://www.youtube.com/watch?v=FyQToVSEOKk)
 
-<p class="clip-credit"><strong>Half Butterfly Guard Passing</strong> — taught by Michael Hoffman · 1:34 · <a href="https://www.youtube.com/watch?v=FyQToVSEOKk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Half butterfly guard passing</strong> · 1:34 · <a href="https://www.youtube.com/watch?v=FyQToVSEOKk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Pk_6CrydIRQ)
+
+<p class="clip-credit"><strong>Effective Half Butterfly Guard Pass for NoGi #nogi #bjj #jiujitsu</strong> · 1:49 · <a href="https://www.youtube.com/watch?v=Pk_6CrydIRQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

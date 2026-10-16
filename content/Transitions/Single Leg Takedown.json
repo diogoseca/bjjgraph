@@ -417,30 +417,18 @@
     "clips": [
       {
         "id": "WDtgYMYppHE",
-        "title": "Single leg finishes for jiu jitsu and MMA",
-        "by": "Steel City MMA",
-        "vertical": false,
+        "title": "Single Leg Finishes for Jiu Jitsu and MMA",
         "channel": "Steel City MMA",
         "duration": 68,
-        "verified": "2026-07-15"
+        "vertical": false,
+        "front": true
       },
       {
         "id": "YBG9LkoAMoo",
-        "title": "Sweep single leg takedown finish",
-        "by": "Jarrod Goode",
-        "vertical": false,
+        "title": "Takedown (Sweep Single)",
         "channel": "Jarrod Goode",
         "duration": 87,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "KilowvsfU2U",
-        "title": "Single leg takedown study",
-        "by": "The Fight Site",
-        "vertical": false,
-        "channel": "The Fight Site",
-        "duration": 89,
-        "verified": "2026-07-15"
+        "vertical": false
       }
     ]
   },
@@ -633,30 +621,11 @@
     "clips": [
       {
         "id": "KT91bdZtBU4",
-        "title": "No-gi single leg defense technique",
-        "by": "Ronin Training Center",
-        "vertical": false,
+        "title": "RTC NoGi BJJ | Single Leg Defense Technique",
         "channel": "Ronin Training Center",
         "duration": 73,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "x7NgC69PV9I",
-        "title": "Bo Nickal counter attack breakdown",
-        "by": "Josh Dziewa",
         "vertical": false,
-        "channel": "Josh Dziewa",
-        "duration": 47,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "_GTtWGe49ho",
-        "title": "Sprawl to throw-by against the leg attack",
-        "by": "John Beresford",
-        "vertical": false,
-        "channel": "John Beresford",
-        "duration": 101,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },

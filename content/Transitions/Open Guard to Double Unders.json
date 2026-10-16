@@ -285,35 +285,7 @@
       }
     ],
     "safety_considerations": "This entry stacks the opponent's weight onto their head, neck, and upper back, so apply elevation and pressure progressively rather than slamming the hips overhead - sudden or forced stacking can compress the cervical spine. The defender should always have room to roll or tap, and partners must communicate during heavy stacking drills. The passer's committed arms also create scramble and rolling situations, so train on adequate mat space and control the speed of any bridge or roll to protect both practitioners' necks and shoulders.",
-    "clips": [
-      {
-        "id": "N4PxPPv98k4",
-        "title": "Double unders pass breakdown",
-        "by": "Nicky Ryan",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 91,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "0qu9a0a3ozQ",
-        "title": "Double under pass",
-        "by": "Elite MMA",
-        "vertical": false,
-        "channel": "Elite MMA",
-        "duration": 70,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "wBZrTpuXV50",
-        "title": "No-gi double under guard pass",
-        "by": "Garden State BJJ",
-        "vertical": false,
-        "channel": "Garden State Brazilian Jiu-Jitsu Academy",
-        "duration": 63,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Open Guard to Double Unders Defender",
@@ -446,30 +418,25 @@
     "clips": [
       {
         "id": "4k-D0Q8DeGQ",
-        "title": "Simple double under guard pass defense",
-        "by": "Ancient City Martial Arts",
-        "vertical": false,
+        "title": "Jiu-Jitsu SUPER EASY double under guard pass defense!",
         "channel": "Ancient City Martial Arts and The Training Loft",
         "duration": 56,
-        "verified": "2026-07-15"
+        "vertical": false,
+        "front": true
       },
       {
         "id": "1UOj60dc540",
-        "title": "Double under stack pass counter to triangle",
-        "by": "Adam Bradley",
-        "vertical": false,
+        "title": "Double Under Stack Pass Counter - Triangle",
         "channel": "Adam Bradley",
-        "duration": 69,
-        "verified": "2026-07-15"
+        "duration": 68,
+        "vertical": false
       },
       {
         "id": "Ad0qtay9IVQ",
-        "title": "Double under stack defense and counter",
-        "by": "Wim Deputter",
-        "vertical": false,
+        "title": "Very Effective Double Under Stack Defense And Counter",
         "channel": "Wim Deputter BJJ",
         "duration": 130,
-        "verified": "2026-07-15"
+        "vertical": false
       }
     ]
   },

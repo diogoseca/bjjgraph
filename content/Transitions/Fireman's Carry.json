@@ -443,22 +443,19 @@
     "safety_considerations": "When practicing the Fireman's Carry, controlled execution is paramount to prevent injury to both yourself and your training partner. The most critical safety concern is the descent phase - you must guide your partner to the mat in a controlled manner rather than slamming or dropping them, particularly being mindful of their head and neck positioning. Never release control during the throw; maintain grips throughout the descent to control the landing. For your own safety, always maintain a straight back during the lifting phase and generate power from your legs, not your back, to prevent spinal injury. Start practice with cooperative drilling where your partner is lifted and gently placed down, gradually progressing to more dynamic execution only after mastering the mechanics. Ensure you're practicing on appropriate matting that provides cushioning for takedowns. Communication with your partner is essential - agree on the level of resistance and speed beforehand, and use verbal or tap signals if anything feels unsafe during execution. Be particularly cautious about your partner's shoulder and arm positioning during the carry phase to avoid joint stress. When learning, practice the level change and penetration components separately before adding the lift, and only add rotation and dynamic landing after mastering controlled static versions.",
     "clips": [
       {
-        "id": "DcJIXsSNc-0",
-        "title": "Fireman's carry takedown demonstration",
-        "by": "Benjamin Hahn",
+        "id": "_WGwKJy7VV0",
+        "title": "Fireman’s Carry",
+        "channel": "BOWERHOUSE MMA",
+        "duration": 43,
         "vertical": false,
-        "channel": "Benjamin Hahn",
-        "duration": 64,
-        "verified": "2026-07-15"
+        "front": true
       },
       {
-        "id": "_WGwKJy7VV0",
-        "title": "Fireman's carry entry and finish",
-        "by": "BOWERHOUSE MMA",
-        "vertical": false,
-        "channel": "BOWERHOUSE MMA",
-        "duration": 44,
-        "verified": "2026-07-15"
+        "id": "DcJIXsSNc-0",
+        "title": "Fireman’s Carry",
+        "channel": "Benjamin Hahn",
+        "duration": 64,
+        "vertical": false
       }
     ]
   },
@@ -645,30 +642,11 @@
     "clips": [
       {
         "id": "xbol7GnN63I",
-        "title": "How to defend a fireman's carry",
-        "by": "WrestlingTournaments.com",
+        "title": "The Syracuse, a sneaky trap, and how to defend a fireman's carry!",
+        "channel": "Wrestling Reimagined",
+        "duration": 194,
         "vertical": false,
-        "channel": "WrestlingTournaments․com",
-        "duration": 195,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "SCYIDL5lUr0",
-        "title": "Kata Guruma Counter from Arm Drag",
-        "by": "BeyondGrappling",
-        "vertical": false,
-        "channel": "BeyondGrappling",
-        "duration": 41,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "C7HnA1zd5Rs",
-        "title": "Judo Throw Counter-Attacks",
-        "by": "Shintaro Higashi",
-        "vertical": false,
-        "channel": "Shintaro Higashi",
-        "duration": 161,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },

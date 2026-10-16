@@ -406,35 +406,7 @@
       }
     ],
     "safety_considerations": "The Frame Escape from Shoulder of Justice involves significant jaw and neck pressure that can cause temporomandibular joint discomfort and cervical strain. Train with progressive resistance levels and communicate immediately if neck pain occurs. Tap early when practicing the associated kimura threats during drilling. Partners should apply shoulder pressure gradually during training to allow the bottom player to develop tolerance safely. Practitioners with pre-existing jaw or cervical spine conditions should consult a medical professional before training under heavy shoulder pressure.",
-    "clips": [
-      {
-        "id": "HO877lE69nM",
-        "title": "Escaping the shoulder of justice from cross sides",
-        "by": "SBG New Braunfels",
-        "vertical": false,
-        "channel": "SBG New Braunfels BJJ",
-        "duration": 145,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "zMVWIvd6MQU",
-        "title": "Escaping the Shoulder of Justice in Cross Sides",
-        "by": "SBG Coach",
-        "vertical": false,
-        "channel": "SBG PDX & Vancouver BJJ and MMA Videos",
-        "duration": 256,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "TAJy-rlPqsg",
-        "title": "Cross Sides Escape Concepts with Priit Mihkelson",
-        "by": "Priit Mihkelson",
-        "vertical": false,
-        "channel": "SBG Montana Martial Arts - Yoga - Gym Kalispell",
-        "duration": 328,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Frame Escape from Shoulder of Justice Defender",
@@ -592,25 +564,6 @@
         "description": "Full positional sparring from Shoulder of Justice. Chain together pressure maintenance, mount advancement on hip escapes, kimura attacks on arm exposure, and north-south transitions on head-direction shrimps. Develop automatic responses to each escape pattern."
       }
     ],
-    "clips": [
-      {
-        "id": "XaYoAcTeKkk",
-        "title": "Maintaining side control with shoulder pressure",
-        "by": "Thunderdome BJJ",
-        "vertical": false,
-        "channel": "Thunderdome BJJ",
-        "duration": 32,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "mTCgNsmsZVU",
-        "title": "Dealing With Effective Frames in Side Control",
-        "by": "Ante Dzolic",
-        "vertical": false,
-        "channel": "Ante Dzolic",
-        "duration": 96,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

@@ -473,30 +473,18 @@
     "clips": [
       {
         "id": "NFbf-Yi9BOU",
-        "title": "Slick Americana setup",
-        "by": "Joel Bouhey",
-        "vertical": false,
+        "title": "The slickest way to setup an Americana.",
         "channel": "JOEL BOUHEY",
         "duration": 37,
-        "verified": "2026-07-14"
+        "vertical": false,
+        "front": true
       },
       {
         "id": "wpZfDVXOeJw",
-        "title": "Side control Americana armlock",
-        "by": "JitzLive",
-        "vertical": false,
+        "title": "Side Control Armlocks - 1 - Americana",
         "channel": "JitzLive",
         "duration": 122,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "wckW_4r7vbk",
-        "title": "Americana from side control",
-        "by": "Roy Dean",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 194,
-        "verified": "2026-07-14"
+        "vertical": false
       }
     ]
   },
@@ -684,30 +672,18 @@
     "clips": [
       {
         "id": "FNyL93v5fGs",
-        "title": "Defending the Americana",
-        "by": "Lachlan Giles",
-        "vertical": false,
+        "title": "Defending The Americana - BJJ Move by Lachlan Giles",
         "channel": "BJJ Fanatics",
         "duration": 91,
-        "verified": "2026-07-14"
+        "vertical": false,
+        "front": true
       },
       {
         "id": "Unz1euhI2y8",
-        "title": "Escape Americana/key lock from side",
-        "by": "Chuck Jack",
-        "vertical": false,
+        "title": "Escape americana/key lock from side to chest lock.",
         "channel": "Chuck Jack21",
-        "duration": 72,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "NuweBGC8xz8",
-        "title": "Ultimate side control escape",
-        "by": "Pedro Sauer",
-        "vertical": false,
-        "channel": "Submissions101",
-        "duration": 162,
-        "verified": "2026-07-14"
+        "duration": 71,
+        "vertical": false
       }
     ]
   }

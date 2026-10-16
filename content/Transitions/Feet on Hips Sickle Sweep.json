@@ -369,21 +369,18 @@
     "clips": [
       {
         "id": "MAfNPSnw9Nk",
-        "title": "Sickle sweep into knee bar",
-        "by": "David Thomas",
-        "vertical": false,
+        "title": "Sickle Sweep to Knee Bar",
         "channel": "David Thomas",
         "duration": 34,
-        "verified": "2026-07-15"
+        "vertical": false,
+        "front": true
       },
       {
         "id": "liPOgAeOrko",
-        "title": "Tripod and sickle sweep from feet on hips",
-        "by": "Barrick BJJ coach",
-        "vertical": false,
+        "title": "Tripod and sickle sweep",
         "channel": "Barrick BJJ Techniques",
         "duration": 195,
-        "verified": "2026-07-15"
+        "vertical": false
       }
     ]
   },
@@ -548,34 +545,6 @@
         "description": "Positional sparring starting in feet on hips guard with partner attacking with all available sweeps including sickle, tripod, balloon, and others. Practice recognizing which sweep is being attempted and applying the correct defensive response under competition-level pressure and speed."
       }
     ],
-    "clips": [
-      {
-        "id": "kNfVYhZbgrg",
-        "title": "Four levels of sweep defense",
-        "by": "Wim Deputter",
-        "vertical": false,
-        "channel": "Wim Deputter BJJ",
-        "duration": 87,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "F2U6MNjGKF4",
-        "title": "Shutting Down Open Guards",
-        "by": "Andre Galvao",
-        "vertical": false,
-        "channel": "JiuJitsuMag",
-        "duration": 422,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "ZbnV0ln8H8Q",
-        "title": "Passing De La Riva Open Guard",
-        "by": "Andre Galvao",
-        "vertical": false,
-        "channel": "JiuJitsuMag",
-        "duration": 94,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

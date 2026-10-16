@@ -46,35 +46,12 @@ description: "Master the Spider Sweep in BJJ. Complete guide to executing this h
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Spider guard scissor sweep to mount",
-      "description": "Spider Sweep film study: Spider guard scissor sweep to mount, taught by Evolve MMA coach.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/lgozvgeHwgI/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/lgozvgeHwgI",
-      "url": "https://www.youtube.com/watch?v=lgozvgeHwgI",
-      "creator": { "@type": "Person", "name": "Evolve MMA coach" },
-      "duration": "PT41S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Spider guard bus driver sweep",
-      "description": "Spider Sweep film study: Spider guard bus driver sweep, taught by The Base Jiu Jitsu coach.",
+      "name": "Jiu Jitsu Advanced - Spider Guard - Bus Driver Sweep",
+      "description": "Spider Sweep film study: Jiu Jitsu Advanced - Spider Guard - Bus Driver Sweep.",
       "thumbnailUrl": "https://i.ytimg.com/vi/iVgFuP4NlkA/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/iVgFuP4NlkA",
       "url": "https://www.youtube.com/watch?v=iVgFuP4NlkA",
-      "creator": { "@type": "Person", "name": "The Base Jiu Jitsu coach" },
       "duration": "PT61S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "De La Riva spider guard sweep",
-      "description": "Spider Sweep film study: De La Riva spider guard sweep, taught by Kings Academy coach.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/cRCnbv2BN4k/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/cRCnbv2BN4k",
-      "url": "https://www.youtube.com/watch?v=cRCnbv2BN4k",
-      "creator": { "@type": "Person", "name": "Kings Academy coach" },
-      "duration": "PT28S"
     }
   ]
 }
@@ -128,25 +105,9 @@ Strategically, the Spider Sweep creates a powerful dilemma when combined with tr
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=lgozvgeHwgI)
-
-<p class="clip-credit"><strong>Spider guard scissor sweep to mount</strong> — taught by Evolve MMA coach · 0:41 · <a href="https://www.youtube.com/watch?v=lgozvgeHwgI" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=iVgFuP4NlkA)
 
-<p class="clip-credit"><strong>Spider guard bus driver sweep</strong> — taught by The Base Jiu Jitsu coach · 1:01 · <a href="https://www.youtube.com/watch?v=iVgFuP4NlkA" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=cRCnbv2BN4k)
-
-<p class="clip-credit"><strong>De La Riva spider guard sweep</strong> — taught by Kings Academy coach · 0:28 · <a href="https://www.youtube.com/watch?v=cRCnbv2BN4k" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Jiu Jitsu Advanced - Spider Guard - Bus Driver Sweep</strong> · 1:01 · <a href="https://www.youtube.com/watch?v=iVgFuP4NlkA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

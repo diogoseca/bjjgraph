@@ -162,35 +162,32 @@ description: "How to defend against Kimura from Guard in BJJ. Recognition, escap
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Kimura Defense from Guard",
-      "description": "Kimura from Guard (Defender) film study: Kimura Defense from Guard, taught by Jiu-Jitsu Channel.",
+      "name": "Kimura defense from guard",
+      "description": "Kimura from Guard (Defender) film study: Kimura defense from guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/a6vbWASwse8/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/a6vbWASwse8",
       "url": "https://www.youtube.com/watch?v=a6vbWASwse8",
-      "creator": { "@type": "Person", "name": "Jiu-Jitsu Channel" },
       "duration": "PT67S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Defending the Kimura",
-      "description": "Kimura from Guard (Defender) film study: Defending the Kimura, taught by Eddie Kone.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/TuaopPUakM8/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/TuaopPUakM8",
-      "url": "https://www.youtube.com/watch?v=TuaopPUakM8",
-      "creator": { "@type": "Person", "name": "Eddie Kone" },
-      "duration": "PT61S"
+      "name": "How to Escape the Kimura Armlock .",
+      "description": "Kimura from Guard (Defender) film study: How to Escape the Kimura Armlock ..",
+      "thumbnailUrl": "https://i.ytimg.com/vi/TIOgQ3N2a6Y/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/TIOgQ3N2a6Y",
+      "url": "https://www.youtube.com/watch?v=TIOgQ3N2a6Y",
+      "duration": "PT45S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "How to Escape the Kimura Armlock",
-      "description": "Kimura from Guard (Defender) film study: How to Escape the Kimura Armlock, taught by Eddie Kone.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/TIOgQ3N2a6Y/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/TIOgQ3N2a6Y",
-      "url": "https://www.youtube.com/watch?v=TIOgQ3N2a6Y",
-      "creator": { "@type": "Person", "name": "Eddie Kone" },
-      "duration": "PT45S"
+      "name": "Defending The Kimura",
+      "description": "Kimura from Guard (Defender) film study: Defending The Kimura.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/TuaopPUakM8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/TuaopPUakM8",
+      "url": "https://www.youtube.com/watch?v=TuaopPUakM8",
+      "duration": "PT61S"
     }
   ]
 }
@@ -225,15 +222,7 @@ A critical defensive principle is recognizing that the Kimura grip creates a con
 
 ![](https://www.youtube.com/watch?v=a6vbWASwse8)
 
-<p class="clip-credit"><strong>Kimura Defense from Guard</strong> — taught by Jiu-Jitsu Channel · 1:07 · <a href="https://www.youtube.com/watch?v=a6vbWASwse8" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=TuaopPUakM8)
-
-<p class="clip-credit"><strong>Defending the Kimura</strong> — taught by Eddie Kone · 1:01 · <a href="https://www.youtube.com/watch?v=TuaopPUakM8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Kimura defense from guard</strong> · 1:07 · <a href="https://www.youtube.com/watch?v=a6vbWASwse8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -241,7 +230,15 @@ A critical defensive principle is recognizing that the Kimura grip creates a con
 
 ![](https://www.youtube.com/watch?v=TIOgQ3N2a6Y)
 
-<p class="clip-credit"><strong>How to Escape the Kimura Armlock</strong> — taught by Eddie Kone · 0:45 · <a href="https://www.youtube.com/watch?v=TIOgQ3N2a6Y" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How to Escape the Kimura Armlock .</strong> · 0:45 · <a href="https://www.youtube.com/watch?v=TIOgQ3N2a6Y" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=TuaopPUakM8)
+
+<p class="clip-credit"><strong>Defending The Kimura</strong> · 1:01 · <a href="https://www.youtube.com/watch?v=TuaopPUakM8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

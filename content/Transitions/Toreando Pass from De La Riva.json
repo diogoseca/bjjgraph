@@ -402,21 +402,18 @@
     "clips": [
       {
         "id": "XO_i9aiSuHU",
-        "title": "Toreando pass from De La Riva guard",
-        "by": "Unknown",
-        "vertical": false,
+        "title": "passagem toreando da GUARDA DE LA RIVA",
         "channel": " Santa Maria-DF",
         "duration": 82,
-        "verified": "2026-07-15"
+        "vertical": false,
+        "front": true
       },
       {
         "id": "F3Io4_p10Mg",
-        "title": "De La Riva toreando pass breakdown",
-        "by": "Unknown",
-        "vertical": false,
+        "title": "De La Riva torreando pass.",
         "channel": "Balance MMA Duarte ",
-        "duration": 158,
-        "verified": "2026-07-15"
+        "duration": 157,
+        "vertical": false
       }
     ]
   },
@@ -598,30 +595,11 @@
     "clips": [
       {
         "id": "Ad4250mBWKc",
-        "title": "Toreando defense with roll counter",
-        "by": "Revolution BJJ",
-        "vertical": false,
+        "title": "Toreando Defense - Roll counter",
         "channel": "Revolution BJJ",
         "duration": 84,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "3w8W6dr2Bw8",
-        "title": "Framing the guard versus the toreando pass",
-        "by": "Rafael Mendes",
         "vertical": false,
-        "channel": "ART OF JIU JITSU",
-        "duration": 40,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "nlPQCYdoITc",
-        "title": "How to defend the toreando pass",
-        "by": "Jon Thomas",
-        "vertical": false,
-        "channel": "JonThomasBJJ Plus",
-        "duration": 239,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   }

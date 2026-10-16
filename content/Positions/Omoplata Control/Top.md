@@ -149,50 +149,6 @@ description: "Master Omoplata Control Top in BJJ. Dominant shoulder lock control
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Omoplata Control (Top) \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Omoplata variation from open guard",
-      "description": "Omoplata Control (Top) film study: Omoplata variation from open guard, taught by Clark Gracie.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/k8b2GBVqcco/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/k8b2GBVqcco",
-      "url": "https://www.youtube.com/watch?v=k8b2GBVqcco",
-      "creator": { "@type": "Person", "name": "Clark Gracie" },
-      "duration": "PT50S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Omoplata finish with far leg control",
-      "description": "Omoplata Control (Top) film study: Omoplata finish with far leg control, taught by Clark Gracie.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/w3_FCkkNQxU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/w3_FCkkNQxU",
-      "url": "https://www.youtube.com/watch?v=w3_FCkkNQxU",
-      "creator": { "@type": "Person", "name": "Clark Gracie" },
-      "duration": "PT102S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Omoplata technique breakdown",
-      "description": "Omoplata Control (Top) film study: Omoplata technique breakdown, taught by Clark Gracie.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/oQAP8nARiHU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/oQAP8nARiHU",
-      "url": "https://www.youtube.com/watch?v=oQAP8nARiHU",
-      "creator": { "@type": "Person", "name": "Clark Gracie" },
-      "duration": "PT100S"
-    }
-  ]
-}
-</script>
-
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -203,40 +159,6 @@ Omoplata Control Top represents a dominant shoulder lock position where the top 
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Omoplata Control (Top) in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=k8b2GBVqcco)
-
-<p class="clip-credit"><strong>Omoplata variation from open guard</strong> — taught by Clark Gracie · 0:50 · <a href="https://www.youtube.com/watch?v=k8b2GBVqcco" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=w3_FCkkNQxU)
-
-<p class="clip-credit"><strong>Omoplata finish with far leg control</strong> — taught by Clark Gracie · 1:42 · <a href="https://www.youtube.com/watch?v=w3_FCkkNQxU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=oQAP8nARiHU)
-
-<p class="clip-credit"><strong>Omoplata technique breakdown</strong> — taught by Clark Gracie · 1:40 · <a href="https://www.youtube.com/watch?v=oQAP8nARiHU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="state-invariants" class="content-section">

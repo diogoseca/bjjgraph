@@ -367,35 +367,7 @@
       }
     ],
     "safety_considerations": "This transition involves entering bilateral leg entanglement where both practitioners have access to dangerous lower body submissions including heel hooks and kneebars. Always maintain awareness of your own heel exposure throughout the threading sequence and resulting exchange. Tap immediately if your heel becomes trapped in a finishing configuration rather than fighting through it, as knee ligament injuries from heel hooks develop rapidly and with minimal warning. During training, perform the threading sequence at controlled speed and communicate with your partner about resistance levels. Never force counter-entanglement entries against fully resisting training partners until the mechanical pattern is thoroughly drilled at lower intensities.",
-    "clips": [
-      {
-        "id": "xvx03k3jiWo",
-        "title": "Outside ashi leg entanglement",
-        "by": "Team Strela",
-        "vertical": false,
-        "channel": "DARKSIDE | Team Strela",
-        "duration": 26,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "K5XhO7o5QN0",
-        "title": "Saddle Entries From Guard",
-        "by": "Lachlan Giles",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 66,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "6fLuhvhUw-w",
-        "title": "80/20 to Outside Sankaku When They Block the Reap",
-        "by": "Lachlan Giles",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 179,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Ashi Garami to Leg Entanglement Defender",
@@ -544,34 +516,6 @@
         "description": "Start in freshly established bilateral entanglement (simulating successful counter-entry). Practice winning the inside space competition from the position of the original Ashi Garami holder. Develops post-failure recovery strategy."
       }
     ],
-    "clips": [
-      {
-        "id": "m0NLphEuFoc",
-        "title": "Leg lock defense from entanglement",
-        "by": "Kuwy Jitsu",
-        "vertical": false,
-        "channel": "Kuwy Jitsu",
-        "duration": 61,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "v3w0qXLKxug",
-        "title": "Defending heel hooks from entanglement",
-        "by": "Lachlan Giles",
-        "vertical": false,
-        "channel": "Absolute MMA St Kilda - Melbourne",
-        "duration": 92,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "Z0WDtUMkBP8",
-        "title": "The one key thing for defending heel hooks",
-        "by": "Lachlan Giles",
-        "vertical": false,
-        "channel": "Absolute MMA St Kilda - Melbourne",
-        "duration": 170,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

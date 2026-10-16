@@ -46,24 +46,12 @@ description: "Master the Mount to Modified Mount transition in BJJ. Post one leg
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Gordon Ryan\u0027s S-mount",
-      "description": "Mount to Modified Mount film study: Gordon Ryan\u0027s S-mount, taught by Gordon Ryan.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/cO0o5SLAk90/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/cO0o5SLAk90",
-      "url": "https://www.youtube.com/watch?v=cO0o5SLAk90",
-      "creator": { "@type": "Person", "name": "Gordon Ryan" },
-      "duration": "PT28S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "S-mount entry from full mount",
-      "description": "Mount to Modified Mount film study: S-mount entry from full mount, taught by Jean Jacques Machado.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/jaujxC4Rpyo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/jaujxC4Rpyo",
-      "url": "https://www.youtube.com/watch?v=jaujxC4Rpyo",
-      "creator": { "@type": "Person", "name": "Jean Jacques Machado" },
-      "duration": "PT146S"
+      "name": "Transitions - Mount to Modified Mount / Rear Mount",
+      "description": "Mount to Modified Mount film study: Transitions - Mount to Modified Mount / Rear Mount.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gze6HZzBOfY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/gze6HZzBOfY",
+      "url": "https://www.youtube.com/watch?v=gze6HZzBOfY",
+      "duration": "PT76S"
     }
   ]
 }
@@ -117,17 +105,9 @@ Strategically, the move is deployed against opponents whose primary escape is th
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=cO0o5SLAk90)
+![](https://www.youtube.com/watch?v=gze6HZzBOfY)
 
-<p class="clip-credit"><strong>Gordon Ryan&#39;s S-mount</strong> — taught by Gordon Ryan · 0:28 · <a href="https://www.youtube.com/watch?v=cO0o5SLAk90" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=jaujxC4Rpyo)
-
-<p class="clip-credit"><strong>S-mount entry from full mount</strong> — taught by Jean Jacques Machado · 2:26 · <a href="https://www.youtube.com/watch?v=jaujxC4Rpyo" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Transitions - Mount to Modified Mount / Rear Mount</strong> · 1:16 · <a href="https://www.youtube.com/watch?v=gze6HZzBOfY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

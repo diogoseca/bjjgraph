@@ -421,30 +421,18 @@
     "clips": [
       {
         "id": "vKRchHvf4Io",
-        "title": "Snap and split-level change into double leg",
-        "by": "WrestlingTournaments coach",
+        "title": "Setup your double leg! Pop snap into split-level-change double leg",
+        "channel": "Wrestling Reimagined",
+        "duration": 52,
         "vertical": false,
-        "channel": "WrestlingTournaments․com",
-        "duration": 53,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "J45QFvBDvyM",
-        "title": "Double leg setup for grappling",
-        "by": "Peter Mettler",
-        "vertical": false,
-        "channel": "Peter Mettler Martial Arts",
-        "duration": 71,
-        "verified": "2026-07-15"
+        "front": true
       },
       {
         "id": "Rh2SRMwN0y0",
-        "title": "Snap down setup to double leg",
-        "by": "Coach Bauer",
-        "vertical": false,
+        "title": "Snap Down Set Up to Double Leg Wrestling Takedown | Coach Bauer",
         "channel": "WWC Wrestling Omaha ",
         "duration": 99,
-        "verified": "2026-07-15"
+        "vertical": false
       }
     ]
   },
@@ -643,26 +631,7 @@
         "description": "Engage in live standing rounds where partner uses full setup sequences at high intensity. Practice the complete defensive sequence: recognition, grip denial, sprawl if needed, immediate transition to offense. Focus on converting successful sprawls to front headlock attacks, snap downs, or back take attempts. Include scenarios where initial defense fails and you must scramble to secondary options. Develop the competitive mindset that defense is not complete until you've established your own attacking position."
       }
     ],
-    "clips": [
-      {
-        "id": "QhpRyI_HjcU",
-        "title": "Fixing common double leg defense errors",
-        "by": "Travis Rutt",
-        "vertical": false,
-        "channel": "FANATIC WRESTLING",
-        "duration": 79,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "o87xwvz76RE",
-        "title": "Dominating the sprawl when he won't let go",
-        "by": "Coach Bosak",
-        "vertical": false,
-        "channel": "Coach Bosak Wrestling",
-        "duration": 106,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "variants_and_adaptations": [
     {

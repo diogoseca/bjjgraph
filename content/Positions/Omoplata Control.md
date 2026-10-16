@@ -36,50 +36,6 @@ description: "Master Omoplata Control in BJJ. Strategic guide covering shoulder 
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Omoplata Control \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "The omoplata explained",
-      "description": "Omoplata Control film study: The omoplata explained, taught by Rafael Mendes.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/dwwXQx6HBNw/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/dwwXQx6HBNw",
-      "url": "https://www.youtube.com/watch?v=dwwXQx6HBNw",
-      "creator": { "@type": "Person", "name": "Rafael Mendes" },
-      "duration": "PT59S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Omoplata technique breakdown",
-      "description": "Omoplata Control film study: Omoplata technique breakdown, taught by Clark Gracie.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/oQAP8nARiHU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/oQAP8nARiHU",
-      "url": "https://www.youtube.com/watch?v=oQAP8nARiHU",
-      "creator": { "@type": "Person", "name": "Clark Gracie" },
-      "duration": "PT100S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Troubleshooting the no-gi omoplata",
-      "description": "Omoplata Control film study: Troubleshooting the no-gi omoplata, taught by Jean Jacques Machado.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/WdGe841yhsU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/WdGe841yhsU",
-      "url": "https://www.youtube.com/watch?v=WdGe841yhsU",
-      "creator": { "@type": "Person", "name": "Jean Jacques Machado" },
-      "duration": "PT101S"
-    }
-  ]
-}
-</script>
-
 
 
 <script type="application/ld+json">
@@ -111,40 +67,6 @@ Omoplata Control represents a sophisticated transitional position in Brazilian J
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Omoplata Control in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=dwwXQx6HBNw)
-
-<p class="clip-credit"><strong>The omoplata explained</strong> — taught by Rafael Mendes · 0:59 · <a href="https://www.youtube.com/watch?v=dwwXQx6HBNw" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=oQAP8nARiHU)
-
-<p class="clip-credit"><strong>Omoplata technique breakdown</strong> — taught by Clark Gracie · 1:40 · <a href="https://www.youtube.com/watch?v=oQAP8nARiHU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=WdGe841yhsU)
-
-<p class="clip-credit"><strong>Troubleshooting the no-gi omoplata</strong> — taught by Jean Jacques Machado · 1:41 · <a href="https://www.youtube.com/watch?v=WdGe841yhsU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="key-principles" class="content-section">

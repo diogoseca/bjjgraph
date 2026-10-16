@@ -170,35 +170,12 @@ description: "Learn to defend and escape the rear naked choke from standing back
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Standing rear naked choke defense",
-      "description": "Rear Naked Choke from Standing Back Control (Defender) film study: Standing rear naked choke defense, taught by SAMA Self Defense.",
+      "name": "Standing Rear Naked Choke Defense",
+      "description": "Rear Naked Choke from Standing Back Control (Defender) film study: Standing Rear Naked Choke Defense.",
       "thumbnailUrl": "https://i.ytimg.com/vi/rlJlNeccbEw/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/rlJlNeccbEw",
       "url": "https://www.youtube.com/watch?v=rlJlNeccbEw",
-      "creator": { "@type": "Person", "name": "SAMA Self Defense" },
       "duration": "PT20S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Three rear choke defenses everyone should know",
-      "description": "Rear Naked Choke from Standing Back Control (Defender) film study: Three rear choke defenses everyone should know, taught by Gracie Breakdown.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/UQO3V3Uo3t4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/UQO3V3Uo3t4",
-      "url": "https://www.youtube.com/watch?v=UQO3V3Uo3t4",
-      "creator": { "@type": "Person", "name": "Gracie Breakdown" },
-      "duration": "PT70S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Escape the back control",
-      "description": "Rear Naked Choke from Standing Back Control (Defender) film study: Escape the back control, taught by Malachy Friedman.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/I43ALzc733w/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/I43ALzc733w",
-      "url": "https://www.youtube.com/watch?v=I43ALzc733w",
-      "creator": { "@type": "Person", "name": "Malachy Friedman" },
-      "duration": "PT71S"
     }
   ]
 }
@@ -229,23 +206,7 @@ Defending the rear naked choke from standing back control is one of the most urg
 
 ![](https://www.youtube.com/watch?v=rlJlNeccbEw)
 
-<p class="clip-credit"><strong>Standing rear naked choke defense</strong> — taught by SAMA Self Defense · 0:20 · <a href="https://www.youtube.com/watch?v=rlJlNeccbEw" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=UQO3V3Uo3t4)
-
-<p class="clip-credit"><strong>Three rear choke defenses everyone should know</strong> — taught by Gracie Breakdown · 1:10 · <a href="https://www.youtube.com/watch?v=UQO3V3Uo3t4" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=I43ALzc733w)
-
-<p class="clip-credit"><strong>Escape the back control</strong> — taught by Malachy Friedman · 1:11 · <a href="https://www.youtube.com/watch?v=I43ALzc733w" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Standing Rear Naked Choke Defense</strong> · 0:20 · <a href="https://www.youtube.com/watch?v=rlJlNeccbEw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

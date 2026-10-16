@@ -46,24 +46,12 @@ description: "Learn how to flatten your opponent from half guard top in BJJ. Mas
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Shallow cross face to flatten the bottom player",
-      "description": "Half Guard to Flattened Half Guard film study: Shallow cross face to flatten the bottom player, taught by Craig Jones.",
+      "name": "Craig Jones: Shallow Cross Face",
+      "description": "Half Guard to Flattened Half Guard film study: Craig Jones: Shallow Cross Face.",
       "thumbnailUrl": "https://i.ytimg.com/vi/PTe4-NhLXf8/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/PTe4-NhLXf8",
       "url": "https://www.youtube.com/watch?v=PTe4-NhLXf8",
-      "creator": { "@type": "Person", "name": "Craig Jones" },
-      "duration": "PT24S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Building a tight cross face to flatten half guard",
-      "description": "Half Guard to Flattened Half Guard film study: Building a tight cross face to flatten half guard, taught by Escapology BJJ coach.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/gHD03vpWGSM/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/gHD03vpWGSM",
-      "url": "https://www.youtube.com/watch?v=gHD03vpWGSM",
-      "creator": { "@type": "Person", "name": "Escapology BJJ coach" },
-      "duration": "PT119S"
+      "duration": "PT23S"
     }
   ]
 }
@@ -119,15 +107,7 @@ From a strategic perspective, this transition represents the critical bridge bet
 
 ![](https://www.youtube.com/watch?v=PTe4-NhLXf8)
 
-<p class="clip-credit"><strong>Shallow cross face to flatten the bottom player</strong> — taught by Craig Jones · 0:24 · <a href="https://www.youtube.com/watch?v=PTe4-NhLXf8" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=gHD03vpWGSM)
-
-<p class="clip-credit"><strong>Building a tight cross face to flatten half guard</strong> — taught by Escapology BJJ coach · 1:59 · <a href="https://www.youtube.com/watch?v=gHD03vpWGSM" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Craig Jones: Shallow Cross Face</strong> · 0:23 · <a href="https://www.youtube.com/watch?v=PTe4-NhLXf8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

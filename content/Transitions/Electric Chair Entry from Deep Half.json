@@ -375,31 +375,19 @@
     "safety_considerations": "The Electric Chair Entry involves significant stress on the opponent's knee joint and hip flexors through the lockdown extension and splitting pressure. Apply the lockdown extension gradually during training, never cranking the split explosively. Communicate with your training partner about pressure levels and respect tap signals immediately. Athletes with pre-existing knee or groin injuries should approach this technique cautiously. During drilling, establish agreed-upon resistance levels before beginning repetitions and increase gradually. The lockdown itself can create uncomfortable torque on the trapped knee, so release immediately if your partner indicates any sharp joint pain rather than continuing to adjust the position.",
     "clips": [
       {
-        "id": "sMbaY4vG2mM",
-        "title": "Electric Chair from Lockdown Half Guard",
-        "by": "Brandon McCaghren",
-        "vertical": false,
-        "channel": "Brandon Mccaghren",
-        "duration": 42,
-        "verified": "2026-07-15"
-      },
-      {
         "id": "O18n2Z5HISI",
-        "title": "Electric Chair from Deep Half Guard",
-        "by": "Heart & Dagger BJJ",
-        "vertical": false,
+        "title": "Electric Chair From Deep Half- Mineral Wells BJJ",
         "channel": "Heart & Dagger  BJJ - Mineral Wells Jiu Jitsu",
         "duration": 43,
-        "verified": "2026-07-15"
+        "vertical": false,
+        "front": true
       },
       {
         "id": "-2Uuvg3B-WI",
-        "title": "Lockdown Deep Half Sweep to Electric Chair",
-        "by": "Andy Yeomans",
-        "vertical": false,
+        "title": "Lockdown Deep Half Sweep & Electric Chair BJJ tutorial",
         "channel": "Andy Yeomans MMA",
-        "duration": 89,
-        "verified": "2026-07-15"
+        "duration": 88,
+        "vertical": false
       }
     ]
   },
@@ -563,30 +551,11 @@
     "clips": [
       {
         "id": "3A6oRsDf3oU",
-        "title": "Lockdown and Electric Chair Counters and Escapes",
-        "by": "Coach Dennis",
-        "vertical": false,
+        "title": "Lockdown and Electric Chair counters and escapes for Jiu-Jitsu, MMA and…",
         "channel": "Street Jitsu",
-        "duration": 286,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "gtsKv_sDRnw",
-        "title": "Passing the Lockdown: shutting down the entry",
-        "by": "Lachlan Giles",
+        "duration": 285,
         "vertical": false,
-        "channel": "Absolute MMA St Kilda - Melbourne",
-        "duration": 359,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "O6HinOc-zvA",
-        "title": "The Best Lockdown Counter",
-        "by": "Keenan Cornelius",
-        "vertical": false,
-        "channel": "Keenan Cornelius",
-        "duration": 538,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   }

@@ -413,35 +413,7 @@
       }
     ],
     "safety_considerations": "The hip escape from truck must be practiced with awareness of the twister and calf slicer threats inherent to the position. During training, always tap immediately if the opponent locks a twister grip and begins spinal rotation—cervical spine injuries from the twister can be severe and occur with minimal warning. Similarly, tap early to calf slicer pressure during leg extraction attempts, as the changing angles during escape can accelerate compression on the knee joint. Partners should apply submissions slowly during escape drilling to allow time for tapping. Begin all training with static drilling at zero resistance before progressing to live positional sparring.",
-    "clips": [
-      {
-        "id": "dWAZQ2VQcjw",
-        "title": "Reversing out of the truck",
-        "by": "Coach Brian",
-        "vertical": false,
-        "channel": "TeachMeGrappling Coach Brian",
-        "duration": 229,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "hxMggfwKx-I",
-        "title": "Advanced Back Escapes",
-        "by": "Eddie Bravo",
-        "vertical": false,
-        "channel": "Eddie Bravo",
-        "duration": 61,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "N6lKNqUOZoY",
-        "title": "Jiu Jitsu Back Escape System",
-        "by": "Matt Arroyo",
-        "vertical": false,
-        "channel": "Matt Arroyo Jiu Jitsu ",
-        "duration": 675,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Hip Escape from Truck Defender",
@@ -604,25 +576,6 @@
         "description": "Start in truck with both players at full resistance. Top player works to maintain position and finish submissions while bottom player works all available escapes. Track retention rate and submission rate over multiple rounds. Identify specific escape patterns that cause position loss for targeted counter development."
       }
     ],
-    "clips": [
-      {
-        "id": "ZVAmQ2Sf-Fc",
-        "title": "Keeping the truck when they try to escape",
-        "by": "Eddie Bravo",
-        "vertical": false,
-        "channel": "Eddie Bravo",
-        "duration": 60,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "sCBGkcJCQYY",
-        "title": "The truck in transition",
-        "by": "Eddie Bravo",
-        "vertical": false,
-        "channel": "Eddie Bravo",
-        "duration": 61,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

@@ -914,22 +914,12 @@
     ],
     "clips": [
       {
-        "id": "_sBB-O8fqP4",
-        "title": "Standing Up from Back Control",
-        "by": "Priit Mihkelson",
+        "id": "DFXdqByRxNg",
+        "title": "Standing Rear Body Lock: Counters, Attacks and Defense (No Gi…",
+        "channel": "Brian Glick",
+        "duration": 318,
         "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 114,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "sPM2i6b5Ufw",
-        "title": "Escape the Back into Attack",
-        "by": "JW Wright",
-        "vertical": false,
-        "channel": "JW Wright BJJ",
-        "duration": 196,
-        "verified": "2026-07-14"
+        "front": true
       }
     ]
   },

@@ -384,26 +384,7 @@
       }
     ],
     "safety_considerations": "Guard recovery from Squid Guard is generally low risk, but practitioners should be aware of finger strain from releasing lapel grips under pressure. Release the lapel by opening your hand fully rather than allowing the opponent to rip the grip free, which can hyperextend finger joints. The threading leg may also be susceptible to knee strain if it becomes trapped during withdrawal—if the leg catches on the opponent's body or gi during the retreat, stop and reposition rather than forcing the withdrawal with explosive movement. During training, partners should avoid explosive grip strips that can injure the gripping hand's fingers and instead use controlled, progressive grip-breaking techniques.",
-    "clips": [
-      {
-        "id": "8Ue1bEeU3B4",
-        "title": "Getting back to closed guard from open guard",
-        "by": "Jon Thomas",
-        "vertical": false,
-        "channel": "JonThomasBJJ Plus",
-        "duration": 50,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "1ZeXvHBibi8",
-        "title": "Late stage guard recovery to lasso",
-        "by": "Chelsea Leah",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 147,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Guard Recovery from Squid Guard Defender",
@@ -562,34 +543,6 @@
         "description": "Positional sparring starting in Squid Guard with full resistance. Top player works to strip the lapel and advance while bottom player practices recovery. Track passing success rate across rounds to identify which recovery tactics create the most difficulty for targeted counter-development."
       }
     ],
-    "clips": [
-      {
-        "id": "YU4eCp4FXrA",
-        "title": "Shutting down the opponent's guard recovery",
-        "by": "Jason Rau",
-        "vertical": false,
-        "channel": "BJJ focus camps",
-        "duration": 234,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "nPT4tqORpOA",
-        "title": "How to pass the lapel squid guard",
-        "by": "Nick Salles and Danny Maira",
-        "vertical": false,
-        "channel": "Bernardo Faria BJJ Fanatics",
-        "duration": 672,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "kS0xQoF6jmU",
-        "title": "Best guard pass against the lapel guard",
-        "by": "Andre Galvao",
-        "vertical": false,
-        "channel": "Bernardo Faria BJJ Fanatics",
-        "duration": 651,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

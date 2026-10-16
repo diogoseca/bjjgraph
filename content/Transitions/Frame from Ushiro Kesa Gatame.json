@@ -367,26 +367,7 @@
       }
     ],
     "safety_considerations": "The primary safety concern during this escape involves the near-side arm, which remains vulnerable to americana and kimura attacks throughout the framing sequence. Never allow the near-side arm to extend or drift away from the body during frame establishment or hip escapes. If the opponent aggressively attacks a submission during the escape, immediately abandon the frame and address the submission threat with both arms. Tap promptly if any shoulder lock reaches full extension before you can reset defensive positioning. During training, communicate with your partner about chest compression levels and trapped arm comfort. Progress resistance gradually from static weight to live pressure to prevent unnecessary shoulder, elbow, or rib injuries.",
-    "clips": [
-      {
-        "id": "JM9nDge0arQ",
-        "title": "Reverse kesa gatame escape breakdown",
-        "by": "MMA Leech",
-        "vertical": false,
-        "channel": "MMA Leech",
-        "duration": 238,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "aSF633klG8k",
-        "title": "My #1 Escape from Kesa Gatame",
-        "by": "Chad Hardy",
-        "vertical": false,
-        "channel": "Chad The Beast Hardy",
-        "duration": 127,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Frame from Ushiro Kesa Gatame Defender",
@@ -541,34 +522,6 @@
         "description": "Full resistance rounds starting in reverse scarf hold. Partner uses complete escape toolkit including frame escape, bridge escape, and combined chain attempts. Maintain position or advance for the duration of each round while mixing pressure maintenance with submission threats and transitions."
       }
     ],
-    "clips": [
-      {
-        "id": "L_u5g2wDpIQ",
-        "title": "Holding reverse scarf and attacking the kimura",
-        "by": "Torres Martial Arts Academy",
-        "vertical": false,
-        "channel": "Torres Martial Arts Academy",
-        "duration": 74,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "Z24JmX5e51A",
-        "title": "How to Mount Ushiro Kesa Gatame",
-        "by": "David Webster",
-        "vertical": false,
-        "channel": "David Webster judo",
-        "duration": 134,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "eXRL6EWEiws",
-        "title": "Kesa Gatame Controls and Submissions Guide",
-        "by": "Knight Jiu-Jitsu",
-        "vertical": false,
-        "channel": "Knight Jiu-Jitsu",
-        "duration": 867,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

@@ -46,35 +46,32 @@ description: "Master Armbar from Back with Legs in BJJ. Complete guide with safe
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Armbar from back control",
-      "description": "Armbar from Back with Legs film study: Armbar from back control, taught by Cesar Lima.",
+      "name": "Cesar Lima BJJ - Arm Bar from Back Control",
+      "description": "Armbar from Back with Legs film study: Cesar Lima BJJ - Arm Bar from Back Control.",
       "thumbnailUrl": "https://i.ytimg.com/vi/B01WDrVESIo/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/B01WDrVESIo",
       "url": "https://www.youtube.com/watch?v=B01WDrVESIo",
-      "creator": { "@type": "Person", "name": "Cesar Lima" },
       "duration": "PT86S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Armbar from back mount (Danaher system)",
-      "description": "Armbar from Back with Legs film study: Armbar from back mount (Danaher system), taught by Aaron Milam.",
+      "name": "Jiu Jitsu Armbar from Backmount by John Danaher Blackbelt Aaron Milam",
+      "description": "Armbar from Back with Legs film study: Jiu Jitsu Armbar from Backmount by John Danaher Blackbelt Aaron Milam.",
       "thumbnailUrl": "https://i.ytimg.com/vi/I4PhmMcJn_Y/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/I4PhmMcJn_Y",
       "url": "https://www.youtube.com/watch?v=I4PhmMcJn_Y",
-      "creator": { "@type": "Person", "name": "Aaron Milam" },
       "duration": "PT170S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "Armbar from the back variation",
-      "description": "Armbar from Back with Legs film study: Armbar from the back variation, taught by Malachy Friedman.",
+      "name": "If You Practice Jiu Jitsu Try This New Variation Of Armbar From The Back!",
+      "description": "Armbar from Back with Legs film study: If You Practice Jiu Jitsu Try This New Variation Of Armbar From The Back!.",
       "thumbnailUrl": "https://i.ytimg.com/vi/jf1kPefTmm0/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/jf1kPefTmm0",
       "url": "https://www.youtube.com/watch?v=jf1kPefTmm0",
-      "creator": { "@type": "Person", "name": "Malachy Friedman" },
-      "duration": "PT80S"
+      "duration": "PT79S"
     }
   ]
 }
@@ -135,7 +132,7 @@ The Armbar from Back with Legs is an advanced finishing technique that leverages
 
 ![](https://www.youtube.com/watch?v=B01WDrVESIo)
 
-<p class="clip-credit"><strong>Armbar from back control</strong> — taught by Cesar Lima · 1:26 · <a href="https://www.youtube.com/watch?v=B01WDrVESIo" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Cesar Lima BJJ - Arm Bar from Back Control</strong> · 1:26 · <a href="https://www.youtube.com/watch?v=B01WDrVESIo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -143,7 +140,7 @@ The Armbar from Back with Legs is an advanced finishing technique that leverages
 
 ![](https://www.youtube.com/watch?v=I4PhmMcJn_Y)
 
-<p class="clip-credit"><strong>Armbar from back mount (Danaher system)</strong> — taught by Aaron Milam · 2:50 · <a href="https://www.youtube.com/watch?v=I4PhmMcJn_Y" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Jiu Jitsu Armbar from Backmount by John Danaher Blackbelt Aaron Milam</strong> · 2:50 · <a href="https://www.youtube.com/watch?v=I4PhmMcJn_Y" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -151,7 +148,7 @@ The Armbar from Back with Legs is an advanced finishing technique that leverages
 
 ![](https://www.youtube.com/watch?v=jf1kPefTmm0)
 
-<p class="clip-credit"><strong>Armbar from the back variation</strong> — taught by Malachy Friedman · 1:20 · <a href="https://www.youtube.com/watch?v=jf1kPefTmm0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>If You Practice Jiu Jitsu Try This New Variation Of Armbar From The Back!</strong> · 1:19 · <a href="https://www.youtube.com/watch?v=jf1kPefTmm0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

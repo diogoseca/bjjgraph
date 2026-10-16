@@ -182,35 +182,42 @@ description: "Attack the Buggy Choke from bottom half guard: trap the arm and he
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "BJJ Buggy Choke",
-      "description": "Buggy Choke (Attacker) film study: BJJ Buggy Choke, taught by Judoka.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Jw8PSPrR8-E/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Jw8PSPrR8-E",
-      "url": "https://www.youtube.com/watch?v=Jw8PSPrR8-E",
-      "creator": { "@type": "Person", "name": "Judoka" },
-      "duration": "PT41S"
+      "name": "Buggy choke from half guard: Moncaio Brothers JiuJitsu",
+      "description": "Buggy Choke (Attacker) film study: Buggy choke from half guard: Moncaio Brothers JiuJitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ZBOagHWTCFw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ZBOagHWTCFw",
+      "url": "https://www.youtube.com/watch?v=ZBOagHWTCFw",
+      "duration": "PT33S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Buggy Choke from North South",
-      "description": "Buggy Choke (Attacker) film study: Buggy Choke from North South, taught by Jaezee Jiujitsu.",
+      "name": "BUGGYCHOKE From the north south position",
+      "description": "Buggy Choke (Attacker) film study: BUGGYCHOKE From the north south position.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Rlk8WXQrj4Q/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Rlk8WXQrj4Q",
       "url": "https://www.youtube.com/watch?v=Rlk8WXQrj4Q",
-      "creator": { "@type": "Person", "name": "Jaezee Jiujitsu" },
       "duration": "PT48S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "3 Buggy Choke Concepts",
-      "description": "Buggy Choke (Attacker) film study: 3 Buggy Choke Concepts, taught by Kade and Tye Ruotolo.",
+      "name": "3 Buggy Choke Concepts by Kade and Tye Ruotolo",
+      "description": "Buggy Choke (Attacker) film study: 3 Buggy Choke Concepts by Kade and Tye Ruotolo.",
       "thumbnailUrl": "https://i.ytimg.com/vi/0_3YYrWEGoU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/0_3YYrWEGoU",
       "url": "https://www.youtube.com/watch?v=0_3YYrWEGoU",
-      "creator": { "@type": "Person", "name": "Kade and Tye Ruotolo" },
       "duration": "PT201S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 4,
+      "name": "BJJ Buggy Choke",
+      "description": "Buggy Choke (Attacker) film study: BJJ Buggy Choke.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Jw8PSPrR8-E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Jw8PSPrR8-E",
+      "url": "https://www.youtube.com/watch?v=Jw8PSPrR8-E",
+      "duration": "PT41S"
     }
   ]
 }
@@ -239,9 +246,9 @@ As the attacker you are on the bottom, often already flattened, and your goal is
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=Jw8PSPrR8-E)
+![](https://www.youtube.com/watch?v=ZBOagHWTCFw)
 
-<p class="clip-credit"><strong>BJJ Buggy Choke</strong> — taught by Judoka · 0:41 · <a href="https://www.youtube.com/watch?v=Jw8PSPrR8-E" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Buggy choke from half guard: Moncaio Brothers JiuJitsu</strong> · 0:33 · <a href="https://www.youtube.com/watch?v=ZBOagHWTCFw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -249,7 +256,7 @@ As the attacker you are on the bottom, often already flattened, and your goal is
 
 ![](https://www.youtube.com/watch?v=Rlk8WXQrj4Q)
 
-<p class="clip-credit"><strong>Buggy Choke from North South</strong> — taught by Jaezee Jiujitsu · 0:48 · <a href="https://www.youtube.com/watch?v=Rlk8WXQrj4Q" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>BUGGYCHOKE From the north south position</strong> · 0:48 · <a href="https://www.youtube.com/watch?v=Rlk8WXQrj4Q" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -257,7 +264,15 @@ As the attacker you are on the bottom, often already flattened, and your goal is
 
 ![](https://www.youtube.com/watch?v=0_3YYrWEGoU)
 
-<p class="clip-credit"><strong>3 Buggy Choke Concepts</strong> — taught by Kade and Tye Ruotolo · 3:21 · <a href="https://www.youtube.com/watch?v=0_3YYrWEGoU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>3 Buggy Choke Concepts by Kade and Tye Ruotolo</strong> · 3:21 · <a href="https://www.youtube.com/watch?v=0_3YYrWEGoU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Jw8PSPrR8-E)
+
+<p class="clip-credit"><strong>BJJ Buggy Choke</strong> · 0:41 · <a href="https://www.youtube.com/watch?v=Jw8PSPrR8-E" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

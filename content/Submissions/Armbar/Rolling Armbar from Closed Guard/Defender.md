@@ -162,23 +162,21 @@ description: "How to defend against Rolling Armbar in BJJ. Recognition, escape p
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "My favorite armbar escape",
-      "description": "Rolling Armbar from Closed Guard (Defender) film study: My favorite armbar escape, taught by Matt Arroyo.",
+      "name": "THIS is my favorite armbar escape! #jiujitsu #jiujitsutips",
+      "description": "Rolling Armbar from Closed Guard (Defender) film study: THIS is my favorite armbar escape! #jiujitsu #jiujitsutips.",
       "thumbnailUrl": "https://i.ytimg.com/vi/kNdKfUdgO4I/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/kNdKfUdgO4I",
       "url": "https://www.youtube.com/watch?v=kNdKfUdgO4I",
-      "creator": { "@type": "Person", "name": "Matt Arroyo" },
       "duration": "PT92S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Armbar defense escape",
-      "description": "Rolling Armbar from Closed Guard (Defender) film study: Armbar defense escape, taught by Wesley Chapel MMA.",
+      "name": "Armbar Defense Escape Brazilian Jiu Jitsu",
+      "description": "Rolling Armbar from Closed Guard (Defender) film study: Armbar Defense Escape Brazilian Jiu Jitsu.",
       "thumbnailUrl": "https://i.ytimg.com/vi/yWmSp1_dOfI/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/yWmSp1_dOfI",
       "url": "https://www.youtube.com/watch?v=yWmSp1_dOfI",
-      "creator": { "@type": "Person", "name": "Wesley Chapel MMA" },
       "duration": "PT172S"
     }
   ]
@@ -212,7 +210,7 @@ The defender must understand that the rolling armbar attack typically emerges fr
 
 ![](https://www.youtube.com/watch?v=kNdKfUdgO4I)
 
-<p class="clip-credit"><strong>My favorite armbar escape</strong> — taught by Matt Arroyo · 1:32 · <a href="https://www.youtube.com/watch?v=kNdKfUdgO4I" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>THIS is my favorite armbar escape! #jiujitsu #jiujitsutips</strong> · 1:32 · <a href="https://www.youtube.com/watch?v=kNdKfUdgO4I" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -220,7 +218,7 @@ The defender must understand that the rolling armbar attack typically emerges fr
 
 ![](https://www.youtube.com/watch?v=yWmSp1_dOfI)
 
-<p class="clip-credit"><strong>Armbar defense escape</strong> — taught by Wesley Chapel MMA · 2:52 · <a href="https://www.youtube.com/watch?v=yWmSp1_dOfI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Armbar Defense Escape Brazilian Jiu Jitsu</strong> · 2:52 · <a href="https://www.youtube.com/watch?v=yWmSp1_dOfI" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

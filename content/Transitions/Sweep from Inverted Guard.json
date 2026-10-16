@@ -366,21 +366,11 @@
     "clips": [
       {
         "id": "HbgjJXhLIYk",
-        "title": "Tornado guard sweep and back take options",
-        "by": "Moncaio Brothers",
-        "vertical": false,
+        "title": "Tornado / inverted  guard to back or sweep options Moncaio Brothers Jiujitsu",
         "channel": "Moncaio Brothers Jiujitsu",
         "duration": 73,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "iwcRISvtG3g",
-        "title": "Inverted half guard sweep to Ezequiel from the back",
-        "by": "Carpio Jiu Jitsu",
         "vertical": false,
-        "channel": "Carpio Jiu Jitsu",
-        "duration": 116,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },
@@ -560,31 +550,12 @@
     ],
     "clips": [
       {
-        "id": "aQ2vFXXBn-o",
-        "title": "Countering a full inversion",
-        "by": "Gordon Ryan",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 61,
-        "verified": "2026-07-15"
-      },
-      {
         "id": "ORVVk4OJl5w",
-        "title": "Counter to the inverted kick sweep",
-        "by": "Mitsuyoshi Hayakawa",
-        "vertical": false,
+        "title": "Counter vs inverted kick sweep Mitsuyoshi Hayakawa",
         "channel": "トライフォース柔術アカデミー / Tri-force Jiu-jitsu Academy",
         "duration": 16,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "3e82Y_MRj_o",
-        "title": "Countering an inversion from top north south",
-        "by": "Frankie Roberts",
         "vertical": false,
-        "channel": "Frankie Roberts",
-        "duration": 42,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   }

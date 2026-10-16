@@ -186,24 +186,12 @@ description: "How to execute 50-50 Entry from Standing in BJJ. Attacking perspec
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Getting to backside 50/50",
-      "description": "50-50 Entry from Standing (Attacker) film study: Getting to backside 50/50, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/ucAwPgTLSpQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/ucAwPgTLSpQ",
-      "url": "https://www.youtube.com/watch?v=ucAwPgTLSpQ",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT121S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Roll under to backside 50/50",
-      "description": "50-50 Entry from Standing (Attacker) film study: Roll under to backside 50/50, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/DBbSqQf6iCo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/DBbSqQf6iCo",
-      "url": "https://www.youtube.com/watch?v=DBbSqQf6iCo",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT110S"
+      "name": "Rob Mudrak 50/50 guard entry from standing",
+      "description": "50-50 Entry from Standing (Attacker) film study: Rob Mudrak 50/50 guard entry from standing.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hTHrjyV62nU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hTHrjyV62nU",
+      "url": "https://www.youtube.com/watch?v=hTHrjyV62nU",
+      "duration": "PT84S"
     }
   ]
 }
@@ -233,17 +221,9 @@ This entry has become increasingly popular in modern competitive BJJ, particular
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=ucAwPgTLSpQ)
+![](https://www.youtube.com/watch?v=hTHrjyV62nU)
 
-<p class="clip-credit"><strong>Getting to backside 50/50</strong> — taught by Lachlan Giles · 2:01 · <a href="https://www.youtube.com/watch?v=ucAwPgTLSpQ" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=DBbSqQf6iCo)
-
-<p class="clip-credit"><strong>Roll under to backside 50/50</strong> — taught by Lachlan Giles · 1:50 · <a href="https://www.youtube.com/watch?v=DBbSqQf6iCo" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Rob Mudrak 50/50 guard entry from standing</strong> · 1:24 · <a href="https://www.youtube.com/watch?v=hTHrjyV62nU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

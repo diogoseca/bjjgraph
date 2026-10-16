@@ -162,35 +162,32 @@ description: "How to defend and escape the Armbar from Side Control in BJJ. Reco
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Armbar escape to side control",
-      "description": "Armbar from Side Control (Defender) film study: Armbar escape to side control, taught by Valdir Rodrigues.",
+      "name": "Armbar Escape To Side Control With Valdir Rodrigues.",
+      "description": "Armbar from Side Control (Defender) film study: Armbar Escape To Side Control With Valdir Rodrigues..",
       "thumbnailUrl": "https://i.ytimg.com/vi/fRhm4gy-kxo/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/fRhm4gy-kxo",
       "url": "https://www.youtube.com/watch?v=fRhm4gy-kxo",
-      "creator": { "@type": "Person", "name": "Valdir Rodrigues" },
       "duration": "PT60S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "My favorite armbar escape",
-      "description": "Armbar from Side Control (Defender) film study: My favorite armbar escape, taught by Matt Arroyo.",
+      "name": "THIS is my favorite armbar escape! #jiujitsu #jiujitsutips",
+      "description": "Armbar from Side Control (Defender) film study: THIS is my favorite armbar escape! #jiujitsu #jiujitsutips.",
       "thumbnailUrl": "https://i.ytimg.com/vi/kNdKfUdgO4I/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/kNdKfUdgO4I",
       "url": "https://www.youtube.com/watch?v=kNdKfUdgO4I",
-      "creator": { "@type": "Person", "name": "Matt Arroyo" },
       "duration": "PT92S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "Armbar escape",
-      "description": "Armbar from Side Control (Defender) film study: Armbar escape, taught by ZombieProofBJJ.",
+      "name": "Armbar Escape: RNC",
+      "description": "Armbar from Side Control (Defender) film study: Armbar Escape: RNC.",
       "thumbnailUrl": "https://i.ytimg.com/vi/sDdqvh_1kbA/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/sDdqvh_1kbA",
       "url": "https://www.youtube.com/watch?v=sDdqvh_1kbA",
-      "creator": { "@type": "Person", "name": "ZombieProofBJJ" },
-      "duration": "PT63S"
+      "duration": "PT62S"
     }
   ]
 }
@@ -221,7 +218,7 @@ Defending the Armbar from Side Control requires understanding the attack's seque
 
 ![](https://www.youtube.com/watch?v=fRhm4gy-kxo)
 
-<p class="clip-credit"><strong>Armbar escape to side control</strong> — taught by Valdir Rodrigues · 1:00 · <a href="https://www.youtube.com/watch?v=fRhm4gy-kxo" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Armbar Escape To Side Control With Valdir Rodrigues.</strong> · 1:00 · <a href="https://www.youtube.com/watch?v=fRhm4gy-kxo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -229,7 +226,7 @@ Defending the Armbar from Side Control requires understanding the attack's seque
 
 ![](https://www.youtube.com/watch?v=kNdKfUdgO4I)
 
-<p class="clip-credit"><strong>My favorite armbar escape</strong> — taught by Matt Arroyo · 1:32 · <a href="https://www.youtube.com/watch?v=kNdKfUdgO4I" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>THIS is my favorite armbar escape! #jiujitsu #jiujitsutips</strong> · 1:32 · <a href="https://www.youtube.com/watch?v=kNdKfUdgO4I" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -237,7 +234,7 @@ Defending the Armbar from Side Control requires understanding the attack's seque
 
 ![](https://www.youtube.com/watch?v=sDdqvh_1kbA)
 
-<p class="clip-credit"><strong>Armbar escape</strong> — taught by ZombieProofBJJ · 1:03 · <a href="https://www.youtube.com/watch?v=sDdqvh_1kbA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Armbar Escape: RNC</strong> · 1:02 · <a href="https://www.youtube.com/watch?v=sDdqvh_1kbA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

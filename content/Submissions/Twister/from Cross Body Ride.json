@@ -469,31 +469,12 @@
     ],
     "clips": [
       {
-        "id": "odT3-cVWXdc",
-        "title": "Twister Side Attacks",
-        "by": "Eddie Bravo",
-        "vertical": false,
-        "channel": "Eddie Bravo",
-        "duration": 61,
-        "verified": "2026-07-14"
-      },
-      {
         "id": "FjWN_aBp2eE",
-        "title": "Eddie Bravo's Twister",
-        "by": "Eddie Bravo",
-        "vertical": false,
+        "title": "Eddie Bravo's Twister - With 3 Flores",
         "channel": "CholoMMA",
         "duration": 49,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "R55lmkc6Mus",
-        "title": "Twister from Side Control",
-        "by": "Eddie Bravo",
         "vertical": false,
-        "channel": "Eddie Bravo",
-        "duration": 87,
-        "verified": "2026-07-14"
+        "front": true
       }
     ]
   },
@@ -691,30 +672,11 @@
     "clips": [
       {
         "id": "Va1YNgx2E6M",
-        "title": "Escape and Counter the Twister",
-        "by": "Matrix Jiu Jitsu",
-        "vertical": false,
+        "title": "Escape and counter the Twister! - Matrix Jiu Jitsu",
         "channel": "Matrix Jiu Jitsu",
         "duration": 165,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "0-Ht2pQtWRs",
-        "title": "Twister Side Control Escape (Gi)",
-        "by": "Pearson BJJ",
         "vertical": false,
-        "channel": "Pearson Brazilian Jiu-Jitsu",
-        "duration": 228,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "AUyR1rmVzo4",
-        "title": "Escaping Twister Side Control",
-        "by": "Robot Dolphin Jiu-Jitsu",
-        "vertical": false,
-        "channel": "Robot Dolphin Jiu-Jitsu ",
-        "duration": 205,
-        "verified": "2026-07-14"
+        "front": true
       }
     ]
   }

@@ -46,34 +46,31 @@ description: "Master Armbar from Mount in BJJ. Complete safety protocols, setup,
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Armbar from the Mount",
-      "description": "Armbar from Mount film study: Armbar from the Mount, taught by Relson Gracie.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/R2-h9yOwRdU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/R2-h9yOwRdU",
-      "url": "https://www.youtube.com/watch?v=R2-h9yOwRdU",
-      "creator": { "@type": "Person", "name": "Relson Gracie" },
-      "duration": "PT72S"
+      "name": "Armbar from mount when they bump you off",
+      "description": "Armbar from Mount film study: Armbar from mount when they bump you off.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gDn6uThIABM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/gDn6uThIABM",
+      "url": "https://www.youtube.com/watch?v=gDn6uThIABM",
+      "duration": "PT75S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Armbar breakdown",
-      "description": "Armbar from Mount film study: Armbar breakdown, taught by Roger Gracie.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/vSmRbpNmf-E/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/vSmRbpNmf-E",
-      "url": "https://www.youtube.com/watch?v=vSmRbpNmf-E",
-      "creator": { "@type": "Person", "name": "Roger Gracie" },
-      "duration": "PT102S"
+      "name": "Relson Gracie teaches armbar at Balance Studios in Philadelphia",
+      "description": "Armbar from Mount film study: Relson Gracie teaches armbar at Balance Studios in Philadelphia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/R2-h9yOwRdU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/R2-h9yOwRdU",
+      "url": "https://www.youtube.com/watch?v=R2-h9yOwRdU",
+      "duration": "PT72S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "Armbar against a stacking opponent",
-      "description": "Armbar from Mount film study: Armbar against a stacking opponent, taught by Rolles Gracie.",
+      "name": "Rolles Gracie: Learn an armbar against a stacking opponent",
+      "description": "Armbar from Mount film study: Rolles Gracie: Learn an armbar against a stacking opponent.",
       "thumbnailUrl": "https://i.ytimg.com/vi/4COgR6PfQW0/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/4COgR6PfQW0",
       "url": "https://www.youtube.com/watch?v=4COgR6PfQW0",
-      "creator": { "@type": "Person", "name": "Rolles Gracie" },
       "duration": "PT91S"
     }
   ]
@@ -137,17 +134,17 @@ The armbar from mount serves as a gateway submission that opens pathways to mult
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=R2-h9yOwRdU)
+![](https://www.youtube.com/watch?v=gDn6uThIABM)
 
-<p class="clip-credit"><strong>Armbar from the Mount</strong> — taught by Relson Gracie · 1:12 · <a href="https://www.youtube.com/watch?v=R2-h9yOwRdU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Armbar from mount when they bump you off</strong> · 1:15 · <a href="https://www.youtube.com/watch?v=gDn6uThIABM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=vSmRbpNmf-E)
+![](https://www.youtube.com/watch?v=R2-h9yOwRdU)
 
-<p class="clip-credit"><strong>Armbar breakdown</strong> — taught by Roger Gracie · 1:42 · <a href="https://www.youtube.com/watch?v=vSmRbpNmf-E" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Relson Gracie teaches armbar at Balance Studios in Philadelphia</strong> · 1:12 · <a href="https://www.youtube.com/watch?v=R2-h9yOwRdU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -155,7 +152,7 @@ The armbar from mount serves as a gateway submission that opens pathways to mult
 
 ![](https://www.youtube.com/watch?v=4COgR6PfQW0)
 
-<p class="clip-credit"><strong>Armbar against a stacking opponent</strong> — taught by Rolles Gracie · 1:31 · <a href="https://www.youtube.com/watch?v=4COgR6PfQW0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Rolles Gracie: Learn an armbar against a stacking opponent</strong> · 1:31 · <a href="https://www.youtube.com/watch?v=4COgR6PfQW0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

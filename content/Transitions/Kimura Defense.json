@@ -382,30 +382,18 @@
     "clips": [
       {
         "id": "pJG_2XYYaOw",
-        "title": "Breaking the kimura grip",
-        "by": "Ralph Gracie coach",
-        "vertical": false,
+        "title": "Kimura Grip Break BJJ technique at Mountain View dojo",
         "channel": "Ralph Gracie BJJ - San Jose & Santa Clara",
-        "duration": 61,
-        "verified": "2026-07-15"
+        "duration": 60,
+        "vertical": false,
+        "front": true
       },
       {
         "id": "uRn3DRICpeY",
-        "title": "Late kimura defense from bottom side control",
-        "by": "Fox Den coach",
-        "vertical": false,
+        "title": "Late Kimura Defense from Bottom Side Control",
         "channel": "Fox Den Martial Arts",
         "duration": 100,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "gvRGrvtKd1U",
-        "title": "Kimura defense",
-        "by": "Jon Satava",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 142,
-        "verified": "2026-07-15"
+        "vertical": false
       }
     ]
   },
@@ -551,26 +539,7 @@
         "description": "Practice following rolling escapes to mount and back control. Drill the decision tree for when to maintain grip versus release and consolidate position. Train smooth transitions between kimura control, mount, back take, and side control consolidation based on partner's defensive reactions at full resistance."
       }
     ],
-    "clips": [
-      {
-        "id": "qKj5Y-jDEeM",
-        "title": "Countering the kimura back take",
-        "by": "Placido Santos",
-        "vertical": false,
-        "channel": "Placido Santos ",
-        "duration": 32,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "gvRGrvtKd1U",
-        "title": "Kimura defense details",
-        "by": "Jon Satava",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 142,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "variants_and_adaptations": [
     {

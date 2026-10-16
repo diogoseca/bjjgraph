@@ -153,24 +153,12 @@ description: "Master bottom gogoplata control mechanics including shin positioni
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Gogoplata from guard",
-      "description": "Gogoplata Control (Bottom) film study: Gogoplata from guard, taught by Kinesiology College.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/4Opp0j7UmlU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/4Opp0j7UmlU",
-      "url": "https://www.youtube.com/watch?v=4Opp0j7UmlU",
-      "creator": { "@type": "Person", "name": "Kinesiology College" },
-      "duration": "PT21S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Gogo clinch submission (10th Planet)",
-      "description": "Gogoplata Control (Bottom) film study: Gogo clinch submission (10th Planet), taught by Jeremiah Vance.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/uOW0otO9MPI/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/uOW0otO9MPI",
-      "url": "https://www.youtube.com/watch?v=uOW0otO9MPI",
-      "creator": { "@type": "Person", "name": "Jeremiah Vance" },
-      "duration": "PT57S"
+      "name": "The Reaper (gogoplata set up)",
+      "description": "Gogoplata Control (Bottom) film study: The Reaper (gogoplata set up).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DLQvIjijQlc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DLQvIjijQlc",
+      "url": "https://www.youtube.com/watch?v=DLQvIjijQlc",
+      "duration": "PT62S"
     }
   ]
 }
@@ -208,17 +196,9 @@ Strategically, bottom gogoplata control functions as a high-risk, high-reward po
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=4Opp0j7UmlU)
+![](https://www.youtube.com/watch?v=DLQvIjijQlc)
 
-<p class="clip-credit"><strong>Gogoplata from guard</strong> — taught by Kinesiology College · 0:21 · <a href="https://www.youtube.com/watch?v=4Opp0j7UmlU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=uOW0otO9MPI)
-
-<p class="clip-credit"><strong>Gogo clinch submission (10th Planet)</strong> — taught by Jeremiah Vance · 0:57 · <a href="https://www.youtube.com/watch?v=uOW0otO9MPI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>The Reaper (gogoplata set up)</strong> · 1:02 · <a href="https://www.youtube.com/watch?v=DLQvIjijQlc" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

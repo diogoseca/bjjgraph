@@ -165,24 +165,12 @@ description: "Master seat belt control escape strategies from bottom back positi
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Standing Up from Back Control",
-      "description": "Seat Belt Control Back (Bottom) film study: Standing Up from Back Control, taught by Priit Mihkelson.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/_sBB-O8fqP4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/_sBB-O8fqP4",
-      "url": "https://www.youtube.com/watch?v=_sBB-O8fqP4",
-      "creator": { "@type": "Person", "name": "Priit Mihkelson" },
+      "name": "Back Control (Defending) Seatbelt Grip",
+      "description": "Seat Belt Control Back (Bottom) film study: Back Control (Defending) Seatbelt Grip.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Wga4PfuShEg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Wga4PfuShEg",
+      "url": "https://www.youtube.com/watch?v=Wga4PfuShEg",
       "duration": "PT114S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Makikomi Roll vs Seat Belt/Harness",
-      "description": "Seat Belt Control Back (Bottom) film study: Makikomi Roll vs Seat Belt/Harness, taught by Corey McWilliams.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/_1jEnlqZgS0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/_1jEnlqZgS0",
-      "url": "https://www.youtube.com/watch?v=_1jEnlqZgS0",
-      "creator": { "@type": "Person", "name": "Corey McWilliams" },
-      "duration": "PT264S"
     }
   ]
 }
@@ -212,17 +200,9 @@ The seat belt grip itself creates a powerful control mechanism that must be syst
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=_sBB-O8fqP4)
+![](https://www.youtube.com/watch?v=Wga4PfuShEg)
 
-<p class="clip-credit"><strong>Standing Up from Back Control</strong> — taught by Priit Mihkelson · 1:54 · <a href="https://www.youtube.com/watch?v=_sBB-O8fqP4" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=_1jEnlqZgS0)
-
-<p class="clip-credit"><strong>Makikomi Roll vs Seat Belt/Harness</strong> — taught by Corey McWilliams · 4:24 · <a href="https://www.youtube.com/watch?v=_1jEnlqZgS0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Back Control (Defending) Seatbelt Grip</strong> · 1:54 · <a href="https://www.youtube.com/watch?v=Wga4PfuShEg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

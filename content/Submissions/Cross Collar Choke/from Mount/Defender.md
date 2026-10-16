@@ -156,35 +156,22 @@ description: "Defend the Cross Collar Choke from Mount with grip stripping, post
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Cross collar choke defense: down and over",
-      "description": "Cross Collar Choke from Mount (Defender) film study: Cross collar choke defense: down and over, taught by Emil Takeuchi.",
+      "name": "Cross Collar Choke Defense Part 1: \u201cDown and Over\u201d",
+      "description": "Cross Collar Choke from Mount (Defender) film study: Cross Collar Choke Defense Part 1: \u201cDown and Over\u201d.",
       "thumbnailUrl": "https://i.ytimg.com/vi/6rMCDkWRlgg/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/6rMCDkWRlgg",
       "url": "https://www.youtube.com/watch?v=6rMCDkWRlgg",
-      "creator": { "@type": "Person", "name": "Emil Takeuchi" },
-      "duration": "PT94S"
+      "duration": "PT93S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Juji Jime escape: cross collar choke defense",
-      "description": "Cross Collar Choke from Mount (Defender) film study: Juji Jime escape: cross collar choke defense, taught by Peter Mettler.",
+      "name": "Juji Jime Escape - Cross Collar Choke Defense - Advanced BJJ",
+      "description": "Cross Collar Choke from Mount (Defender) film study: Juji Jime Escape - Cross Collar Choke Defense - Advanced BJJ.",
       "thumbnailUrl": "https://i.ytimg.com/vi/be-iHHhJGng/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/be-iHHhJGng",
       "url": "https://www.youtube.com/watch?v=be-iHHhJGng",
-      "creator": { "@type": "Person", "name": "Peter Mettler" },
       "duration": "PT130S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Great way to escape the collar choke from mount",
-      "description": "Cross Collar Choke from Mount (Defender) film study: Great way to escape the collar choke from mount, taught by Todd Margolis.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/tl4kP4edemE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/tl4kP4edemE",
-      "url": "https://www.youtube.com/watch?v=tl4kP4edemE",
-      "creator": { "@type": "Person", "name": "Todd Margolis" },
-      "duration": "PT246S"
     }
   ]
 }
@@ -215,7 +202,7 @@ Defending the Cross Collar Choke from Mount requires early recognition of grip e
 
 ![](https://www.youtube.com/watch?v=6rMCDkWRlgg)
 
-<p class="clip-credit"><strong>Cross collar choke defense: down and over</strong> — taught by Emil Takeuchi · 1:34 · <a href="https://www.youtube.com/watch?v=6rMCDkWRlgg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Cross Collar Choke Defense Part 1: “Down and Over”</strong> · 1:33 · <a href="https://www.youtube.com/watch?v=6rMCDkWRlgg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -223,15 +210,7 @@ Defending the Cross Collar Choke from Mount requires early recognition of grip e
 
 ![](https://www.youtube.com/watch?v=be-iHHhJGng)
 
-<p class="clip-credit"><strong>Juji Jime escape: cross collar choke defense</strong> — taught by Peter Mettler · 2:10 · <a href="https://www.youtube.com/watch?v=be-iHHhJGng" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=tl4kP4edemE)
-
-<p class="clip-credit"><strong>Great way to escape the collar choke from mount</strong> — taught by Todd Margolis · 4:06 · <a href="https://www.youtube.com/watch?v=tl4kP4edemE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Juji Jime Escape - Cross Collar Choke Defense - Advanced BJJ</strong> · 2:10 · <a href="https://www.youtube.com/watch?v=be-iHHhJGng" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

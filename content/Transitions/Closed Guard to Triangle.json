@@ -387,31 +387,19 @@
     "safety_considerations": "When training triangle setups from closed guard, practitioners must be mindful of neck and spine safety for both participants. The person applying the triangle should never crank or jerk the opponent's head violently, as this can cause cervical spine injuries. Apply pressure gradually and release immediately upon tap signal. For the defender, avoid explosive stacking movements that could injure your training partner's neck or spine—controlled movement is essential. When practicing entries, beginners should focus on position rather than finishing pressure until proper mechanics are established. Partners should communicate clearly about pressure levels and tap early when learning the position. Instructors should emphasize that the triangle choke targets the carotid arteries, not the trachea, and should be applied with control rather than force. Never practice triangles on training partners with known neck injuries without explicit clearance from medical professionals.",
     "clips": [
       {
-        "id": "8zbp7hnlWcc",
-        "title": "Closed guard triangle entry",
-        "by": "Clark Gracie",
-        "vertical": false,
-        "channel": "Clark Gracie Allegiance Jiu Jitsu",
-        "duration": 95,
-        "verified": "2026-07-15"
-      },
-      {
         "id": "QOWZKuEtXjc",
         "title": "Triangle choke from closed guard",
-        "by": "Grappling Game Changer",
-        "vertical": false,
         "channel": "GRAPPLING GAME CHANGER",
-        "duration": 89,
-        "verified": "2026-07-15"
+        "duration": 88,
+        "vertical": false,
+        "front": true
       },
       {
-        "id": "N-wlZQRxFM8",
-        "title": "Triangle choke setup from guard",
-        "by": "Gokor Chivichyan",
-        "vertical": false,
-        "channel": "Gokor MMA",
-        "duration": 61,
-        "verified": "2026-07-15"
+        "id": "8zbp7hnlWcc",
+        "title": "Closed Guard Triangle Entry",
+        "channel": "Clark Gracie Allegiance Jiu Jitsu",
+        "duration": 94,
+        "vertical": false
       }
     ]
   },
@@ -598,30 +586,18 @@
     "clips": [
       {
         "id": "dJOw0ZEyXXc",
-        "title": "Posture up escape from the triangle choke",
-        "by": "Cosens MMA",
-        "vertical": false,
+        "title": "Triangle choke from Guard \"Posture Up Escape",
         "channel": "Cosens MMA LLC",
-        "duration": 73,
-        "verified": "2026-07-15"
+        "duration": 72,
+        "vertical": false,
+        "front": true
       },
       {
         "id": "DAmqUAPPYTc",
-        "title": "Triangle escape driving the knee to the floor",
-        "by": "Kei Shin",
-        "vertical": false,
+        "title": "Triangle Escape (Knee to floor)",
         "channel": "Kei Shin",
         "duration": 86,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "sR2rS2dwpNY",
-        "title": "How to escape a triangle choke",
-        "by": "Rener and Ryron Gracie",
-        "vertical": false,
-        "channel": "Hayabusa",
-        "duration": 117,
-        "verified": "2026-07-15"
+        "vertical": false
       }
     ]
   },

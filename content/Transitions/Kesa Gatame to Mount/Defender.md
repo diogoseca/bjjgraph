@@ -150,50 +150,6 @@ description: "Learn to defend and counter the Kesa Gatame to Mount transition in
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Kesa Gatame to Mount (Defender) \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Kesa gatame escape",
-      "description": "Kesa Gatame to Mount (Defender) film study: Kesa gatame escape, taught by SBG Australia coach.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/2M_6VytUaus/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/2M_6VytUaus",
-      "url": "https://www.youtube.com/watch?v=2M_6VytUaus",
-      "creator": { "@type": "Person", "name": "SBG Australia coach" },
-      "duration": "PT43S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Kesa gatame back door escape",
-      "description": "Kesa Gatame to Mount (Defender) film study: Kesa gatame back door escape, taught by 5am Birds of War coach.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/OYmQpzNmvF4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/OYmQpzNmvF4",
-      "url": "https://www.youtube.com/watch?v=OYmQpzNmvF4",
-      "creator": { "@type": "Person", "name": "5am Birds of War coach" },
-      "duration": "PT25S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Kesa gatame pressure defense with proper framing",
-      "description": "Kesa Gatame to Mount (Defender) film study: Kesa gatame pressure defense with proper framing, taught by Kohbukan Sisu coach.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/fvp5_BVEtLg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/fvp5_BVEtLg",
-      "url": "https://www.youtube.com/watch?v=fvp5_BVEtLg",
-      "creator": { "@type": "Person", "name": "Kohbukan Sisu coach" },
-      "duration": "PT84S"
-    }
-  ]
-}
-</script>
-
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -206,40 +162,6 @@ Defending the Kesa Gatame to Mount transition requires recognition of the specif
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Kesa Gatame to Mount (Defender) in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=2M_6VytUaus)
-
-<p class="clip-credit"><strong>Kesa gatame escape</strong> — taught by SBG Australia coach · 0:43 · <a href="https://www.youtube.com/watch?v=2M_6VytUaus" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=OYmQpzNmvF4)
-
-<p class="clip-credit"><strong>Kesa gatame back door escape</strong> — taught by 5am Birds of War coach · 0:25 · <a href="https://www.youtube.com/watch?v=OYmQpzNmvF4" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=fvp5_BVEtLg)
-
-<p class="clip-credit"><strong>Kesa gatame pressure defense with proper framing</strong> — taught by Kohbukan Sisu coach · 1:24 · <a href="https://www.youtube.com/watch?v=fvp5_BVEtLg" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="recognition-cues" class="content-section">

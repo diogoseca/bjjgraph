@@ -358,30 +358,11 @@
     "clips": [
       {
         "id": "BMU1_wfjYTw",
-        "title": "Darce choke setup from front headlock",
-        "by": "Procel BJJ coach",
-        "vertical": false,
+        "title": "Procel BJJ | Darce Choke from the Front Headlock Position",
         "channel": "Procel Brazilian Jiu-Jitsu",
-        "duration": 101,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "dpjc7ly_wSY",
-        "title": "Mounted darce setup (no-gi)",
-        "by": "ZombieProofBJJ",
+        "duration": 100,
         "vertical": false,
-        "channel": "ZombieProofBJJ",
-        "duration": 82,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "egZ6dBNmibo",
-        "title": "Drill to make the darce entry easy to catch",
-        "by": "Brandon Quick",
-        "vertical": false,
-        "channel": "Brandon Quick",
-        "duration": 63,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },
@@ -552,26 +533,7 @@
         "description": "Partner establishes full Darce grip with moderate resistance while you practice last-resort escapes including granby rolls, forward rolls, and arm extraction under pressure. Then integrate all defensive layers into live rolling, practicing early recognition leading to early prevention, falling back to mid-stage escapes, and using late-stage defense only when earlier layers fail."
       }
     ],
-    "clips": [
-      {
-        "id": "FMAWiNfgp74",
-        "title": "Defending the darce before the grip closes",
-        "by": "BJJ101 coach",
-        "vertical": false,
-        "channel": "BJJ101",
-        "duration": 30,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "wxXzlt-77Qs",
-        "title": "Overhook chin drag escape from the darce setup",
-        "by": "BJJ101 coach",
-        "vertical": false,
-        "channel": "BJJ101",
-        "duration": 262,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "variants_and_adaptations": [
     {

@@ -387,31 +387,12 @@
     "safety_considerations": "The New York entry requires significant hip and hamstring flexibility. Never force the position beyond your current range of motion, as this risks hip flexor strains, hamstring tears, and groin injuries. During drilling, communicate with your partner about pressure levels during the overhook threading phase, as excessive resistance can strain the shoulder joint of either player. Warm up thoroughly before practicing, focusing on hip openers and hamstring stretches. If you experience sharp pain in the hip or groin during the shin-across-back position, stop immediately and address flexibility limitations through progressive stretching rather than forcing the position. The one-handed transition phase places extra demand on the hip flexors, so build endurance gradually.",
     "clips": [
       {
-        "id": "gFYyMkaMz34",
-        "title": "Prison guard breakdown from rubber guard",
-        "by": "Eddie Bravo",
+        "id": "wUDqbU2jwxg",
+        "title": "Rubber Guard 101: Zombie, New York, Chill Dog, Jiu Claw (omoplata)",
+        "channel": "Submissions101",
+        "duration": 278,
         "vertical": false,
-        "channel": "Eddie Bravo",
-        "duration": 59,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "5fJM5bIk8Fw",
-        "title": "Mission Control to Zombie to Invisible Collar",
-        "by": "10th Planet Orange Park",
-        "vertical": false,
-        "channel": "10th Planet Orange Park",
-        "duration": 108,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "WliTCjEDA-8",
-        "title": "Basic entries into rubber guard",
-        "by": "BJJ4Breakfast",
-        "vertical": false,
-        "channel": "BJJ4Breakfast",
-        "duration": 106,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },
@@ -590,25 +571,6 @@
         "description": "Start with the bottom player already in full New York control. Defender practices the systematic escape sequence under progressive resistance. Develop proficiency at escaping the position after the entry succeeds, ensuring defensive capability at all stages of the Rubber Guard progression."
       }
     ],
-    "clips": [
-      {
-        "id": "xNc_Cdh9VVg",
-        "title": "Late stage guard retention vs rubber guard",
-        "by": "Robert Diggle",
-        "vertical": false,
-        "channel": "RobertDiggleJJ",
-        "duration": 189,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "iwcfKUPNZNs",
-        "title": "Why rubber guard doesn't work — countering the entry",
-        "by": "Brandon McCaghren",
-        "vertical": false,
-        "channel": "Brandon Mccaghren",
-        "duration": 792,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

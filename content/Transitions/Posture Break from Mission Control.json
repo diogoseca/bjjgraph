@@ -360,35 +360,7 @@
       }
     ],
     "safety_considerations": "The posture break from Mission Control carries low direct injury risk when performed with controlled technique. However, the top player must avoid explosive jerking movements that could strain the bottom player's hip flexors or knee ligaments, particularly if the bottom player has limited flexibility in the rubber guard position. Rapid posture changes can create whiplash-like forces on the neck for both practitioners. During training, communicate clearly with your partner about resistance levels and increase intensity gradually to develop proper mechanics without risking injury. Be especially cautious with the shoulder extraction phase, as forcing the shoulder free against a locked high guard can torque the bottom player's knee or ankle.",
-    "clips": [
-      {
-        "id": "5fJM5bIk8Fw",
-        "title": "Mission Control to Zombie and Double Bag attacks",
-        "by": "10th Planet Orange Park",
-        "vertical": false,
-        "channel": "10th Planet Orange Park",
-        "duration": 108,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "h1XzZDsUxHQ",
-        "title": "Eddie Bravo explains the Rubber Guard",
-        "by": "Eddie Bravo",
-        "vertical": false,
-        "channel": "JAN FERNANDEZ ",
-        "duration": 111,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "uLFo6zhZU7o",
-        "title": "Rubber Guard posture break and set up",
-        "by": "Basingstoke School of Martial Arts",
-        "vertical": false,
-        "channel": "Basingstoke School of Martial Arts",
-        "duration": 217,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Posture Break from Mission Control Defender",
@@ -566,25 +538,6 @@
         "description": "Partner attempts posture break while you actively hunt for submissions created by their escape movements. Focus on triangle entries when they posture up, omoplata entries when they drive backward, and New York submissions when they strip grips. Full resistance, 5-minute rounds, 3 rounds. Track submission attempts and success rate to identify the highest-percentage counters from your game."
       }
     ],
-    "clips": [
-      {
-        "id": "WwcWSfurE2A",
-        "title": "Rubber Guard tips every beginner should know",
-        "by": "Brandon Mccaghren",
-        "vertical": false,
-        "channel": "Brandon Mccaghren",
-        "duration": 273,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "IJx92rHqtfg",
-        "title": "Posture defense against closed guard control",
-        "by": "Jean Jacques Machado",
-        "vertical": false,
-        "channel": "JeanJacquesMachado",
-        "duration": 190,
-        "verified": "2026-07-16"
-      }
-    ]
+    "clips": []
   }
 }

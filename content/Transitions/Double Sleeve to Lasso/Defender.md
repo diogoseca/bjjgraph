@@ -152,35 +152,12 @@ description: "Learn to prevent and counter the Double Sleeve to Lasso guard tran
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Passing lasso guard to the back",
-      "description": "Double Sleeve to Lasso (Defender) film study: Passing lasso guard to the back, taught by Gabriel Sousa.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/9sQAn2ESkMU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/9sQAn2ESkMU",
-      "url": "https://www.youtube.com/watch?v=9sQAn2ESkMU",
-      "creator": { "@type": "Person", "name": "Gabriel Sousa" },
-      "duration": "PT113S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Pressure passing the lasso guard",
-      "description": "Double Sleeve to Lasso (Defender) film study: Pressure passing the lasso guard, taught by Alberto Serrano.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/EdLPqtAm5yQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/EdLPqtAm5yQ",
-      "url": "https://www.youtube.com/watch?v=EdLPqtAm5yQ",
-      "creator": { "@type": "Person", "name": "Alberto Serrano" },
-      "duration": "PT123S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Lasso and spider guard defense breakdown",
-      "description": "Double Sleeve to Lasso (Defender) film study: Lasso and spider guard defense breakdown, taught by Binder BJJ.",
+      "name": "Lasso \u0026 Spider Guard Defense | Binder BJJ Technique Breakdown",
+      "description": "Double Sleeve to Lasso (Defender) film study: Lasso \u0026 Spider Guard Defense | Binder BJJ Technique Breakdown.",
       "thumbnailUrl": "https://i.ytimg.com/vi/GOzoDB10XkY/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/GOzoDB10XkY",
       "url": "https://www.youtube.com/watch?v=GOzoDB10XkY",
-      "creator": { "@type": "Person", "name": "Binder BJJ" },
-      "duration": "PT245S"
+      "duration": "PT244S"
     }
   ]
 }
@@ -208,25 +185,9 @@ Defending the Double Sleeve to Lasso transition requires awareness of the bottom
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=9sQAn2ESkMU)
-
-<p class="clip-credit"><strong>Passing lasso guard to the back</strong> — taught by Gabriel Sousa · 1:53 · <a href="https://www.youtube.com/watch?v=9sQAn2ESkMU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=EdLPqtAm5yQ)
-
-<p class="clip-credit"><strong>Pressure passing the lasso guard</strong> — taught by Alberto Serrano · 2:03 · <a href="https://www.youtube.com/watch?v=EdLPqtAm5yQ" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=GOzoDB10XkY)
 
-<p class="clip-credit"><strong>Lasso and spider guard defense breakdown</strong> — taught by Binder BJJ · 4:05 · <a href="https://www.youtube.com/watch?v=GOzoDB10XkY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Lasso &amp; Spider Guard Defense | Binder BJJ Technique Breakdown</strong> · 4:04 · <a href="https://www.youtube.com/watch?v=GOzoDB10XkY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

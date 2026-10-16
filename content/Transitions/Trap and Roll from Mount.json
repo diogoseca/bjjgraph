@@ -400,21 +400,11 @@
     "clips": [
       {
         "id": "WJmDwNWTXKY",
-        "title": "Trap and roll mount escape, technique 4",
-        "by": "Demian Maia",
-        "vertical": false,
+        "title": "Escaping from the mount position - Trap and Roll ( Technique 4 )",
         "channel": "Demian Maia Jiu-Jitsu Portugal",
         "duration": 40,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "Pw76Tizir3k",
-        "title": "High mount escape, simple and effective",
-        "by": "Pathfinder Jiu-Jitsu Team",
         "vertical": false,
-        "channel": "Pathfinder Jiu-Jitsu Team",
-        "duration": 120,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },
@@ -601,22 +591,12 @@
     ],
     "clips": [
       {
-        "id": "cxAYK5yx8Ws",
-        "title": "Trap and roll defense with double wrist pin",
-        "by": "Next Level Martial Arts",
+        "id": "0dzzXGjWKWI",
+        "title": "maintaining mount - preventing the bridge escape",
+        "channel": "St. Paul Brazilian Jiu Jitsu",
+        "duration": 337,
         "vertical": false,
-        "channel": "Next Level Martial Arts- Mount Kisco, NY",
-        "duration": 40,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "dPkkcUtsymw",
-        "title": "Three must-know mount escapes",
-        "by": "Legion AJJ",
-        "vertical": false,
-        "channel": "Legion AJJ",
-        "duration": 96,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   }

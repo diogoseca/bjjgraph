@@ -159,24 +159,12 @@ description: "Learn defensive strategies and escape mechanics from the top of Mi
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Rubber Guard Escape (Passing Mission Control)",
-      "description": "Mission Control (Top) film study: Rubber Guard Escape (Passing Mission Control), taught by BJJ4Breakfast.",
+      "name": "Simple (but risky) rubber guard escape",
+      "description": "Mission Control (Top) film study: Simple (but risky) rubber guard escape.",
       "thumbnailUrl": "https://i.ytimg.com/vi/AvivOVuYcCk/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/AvivOVuYcCk",
       "url": "https://www.youtube.com/watch?v=AvivOVuYcCk",
-      "creator": { "@type": "Person", "name": "BJJ4Breakfast" },
       "duration": "PT131S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Over/under control against the rubber guard",
-      "description": "Mission Control (Top) film study: Over/under control against the rubber guard, taught by Eddie Bravo.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/5fp5Nh_9jE4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/5fp5Nh_9jE4",
-      "url": "https://www.youtube.com/watch?v=5fp5Nh_9jE4",
-      "creator": { "@type": "Person", "name": "Eddie Bravo" },
-      "duration": "PT216S"
     }
   ]
 }
@@ -212,15 +200,7 @@ Energy management from Mission Control top is critical for successful escape. Wh
 
 ![](https://www.youtube.com/watch?v=AvivOVuYcCk)
 
-<p class="clip-credit"><strong>Rubber Guard Escape (Passing Mission Control)</strong> — taught by BJJ4Breakfast · 2:11 · <a href="https://www.youtube.com/watch?v=AvivOVuYcCk" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=5fp5Nh_9jE4)
-
-<p class="clip-credit"><strong>Over/under control against the rubber guard</strong> — taught by Eddie Bravo · 3:36 · <a href="https://www.youtube.com/watch?v=5fp5Nh_9jE4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Simple (but risky) rubber guard escape</strong> · 2:11 · <a href="https://www.youtube.com/watch?v=AvivOVuYcCk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

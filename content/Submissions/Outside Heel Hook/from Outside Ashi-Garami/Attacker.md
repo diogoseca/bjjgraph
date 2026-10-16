@@ -182,35 +182,22 @@ description: "Complete attacking guide for the outside heel hook from outside as
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Heel Hooks breakdown",
-      "description": "Outside Heel Hook from Outside Ashi-Garami (Attacker) film study: Heel Hooks breakdown, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/UuluKZKDt8w/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/UuluKZKDt8w",
-      "url": "https://www.youtube.com/watch?v=UuluKZKDt8w",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT64S"
+      "name": "Finishing Mechanics for the Outside Heel Hook from Irimi Ashi Garami and\u2026",
+      "description": "Outside Heel Hook from Outside Ashi-Garami (Attacker) film study: Finishing Mechanics for the Outside Heel Hook from Irimi Ashi Garami and\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/tLcHN042w48/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/tLcHN042w48",
+      "url": "https://www.youtube.com/watch?v=tLcHN042w48",
+      "duration": "PT85S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Finishing the outside heel hook from outside ashi",
-      "description": "Outside Heel Hook from Outside Ashi-Garami (Attacker) film study: Finishing the outside heel hook from outside ashi, taught by Fox Den Martial Arts.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/tLcHN042w48/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/tLcHN042w48",
-      "url": "https://www.youtube.com/watch?v=tLcHN042w48",
-      "creator": { "@type": "Person", "name": "Fox Den Martial Arts" },
-      "duration": "PT86S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "ADCC-style outside heel hook",
-      "description": "Outside Heel Hook from Outside Ashi-Garami (Attacker) film study: ADCC-style outside heel hook, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/5RyU5LDc3C4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/5RyU5LDc3C4",
-      "url": "https://www.youtube.com/watch?v=5RyU5LDc3C4",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT86S"
+      "name": "Craig Jones - Nasty Heel Hook from Outside Ashi Garami",
+      "description": "Outside Heel Hook from Outside Ashi-Garami (Attacker) film study: Craig Jones - Nasty Heel Hook from Outside Ashi Garami.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/m4sGDhukUmk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/m4sGDhukUmk",
+      "url": "https://www.youtube.com/watch?v=m4sGDhukUmk",
+      "duration": "PT141S"
     }
   ]
 }
@@ -239,25 +226,17 @@ Attacking the outside heel hook from outside ashi-garami requires establishing p
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=UuluKZKDt8w)
-
-<p class="clip-credit"><strong>Heel Hooks breakdown</strong> — taught by Lachlan Giles · 1:04 · <a href="https://www.youtube.com/watch?v=UuluKZKDt8w" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=tLcHN042w48)
 
-<p class="clip-credit"><strong>Finishing the outside heel hook from outside ashi</strong> — taught by Fox Den Martial Arts · 1:26 · <a href="https://www.youtube.com/watch?v=tLcHN042w48" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Finishing Mechanics for the Outside Heel Hook from Irimi Ashi Garami and…</strong> · 1:25 · <a href="https://www.youtube.com/watch?v=tLcHN042w48" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=5RyU5LDc3C4)
+![](https://www.youtube.com/watch?v=m4sGDhukUmk)
 
-<p class="clip-credit"><strong>ADCC-style outside heel hook</strong> — taught by Lachlan Giles · 1:26 · <a href="https://www.youtube.com/watch?v=5RyU5LDc3C4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Craig Jones - Nasty Heel Hook from Outside Ashi Garami</strong> · 2:21 · <a href="https://www.youtube.com/watch?v=m4sGDhukUmk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

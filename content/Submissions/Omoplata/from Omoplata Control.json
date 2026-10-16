@@ -422,31 +422,26 @@
     ],
     "clips": [
       {
-        "id": "w3_FCkkNQxU",
-        "title": "Omoplata Finish with Far Leg Control",
-        "by": "Clark Gracie",
+        "id": "oQAP8nARiHU",
+        "title": "Clark Gracie Omoplata: BJJ Technique Breakdown",
+        "channel": "Deep Dive JJ",
+        "duration": 100,
         "vertical": false,
-        "channel": "Clark Gracie Allegiance Jiu Jitsu",
-        "duration": 102,
-        "verified": "2026-07-14"
+        "front": true
       },
       {
         "id": "HCuRfqaM0tM",
-        "title": "Rotating Omoplata Finish (Em Giro)",
-        "by": "Clark Gracie",
-        "vertical": false,
+        "title": "OMOPLATA EM GIRO BY CLARK GRACIE",
         "channel": "CIENTISTAS DO JIU JITSU",
         "duration": 96,
-        "verified": "2026-07-14"
+        "vertical": false
       },
       {
-        "id": "oQAP8nARiHU",
-        "title": "Omoplata Technique Breakdown",
-        "by": "Clark Gracie",
-        "vertical": false,
-        "channel": "Deep Dive JJ",
-        "duration": 100,
-        "verified": "2026-07-14"
+        "id": "w3_FCkkNQxU",
+        "title": "Omoplata Finish w/Far Leg Control Closed Guard Entry",
+        "channel": "Clark Gracie Allegiance Jiu Jitsu",
+        "duration": 102,
+        "vertical": false
       }
     ]
   },
@@ -616,21 +611,11 @@
     "clips": [
       {
         "id": "ocIHY3jBYIQ",
-        "title": "Best Way to Escape the Omoplata Shoulder Lock",
-        "by": "John Connors",
-        "vertical": false,
+        "title": "💯 BEST WAY to ESCAPE THE OMOPLATA Shoulder Lock",
         "channel": "John Connors, Old Man BJJ Black Belt",
-        "duration": 62,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "HszTUEYJ-xE",
-        "title": "Quick Omoplata Escape",
-        "by": "Adam Bradley",
+        "duration": 61,
         "vertical": false,
-        "channel": "Adam Bradley",
-        "duration": 36,
-        "verified": "2026-07-14"
+        "front": true
       }
     ]
   }

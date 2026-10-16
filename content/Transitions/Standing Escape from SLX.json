@@ -365,35 +365,7 @@
       }
     ],
     "safety_considerations": "The Standing Escape from SLX is generally low-risk for both practitioners, but care must be taken during extraction to avoid dropping weight suddenly onto the bottom player's legs or torso. The top player should control their descent if balance is lost rather than falling uncontrolled. Avoid twisting the trapped knee laterally during extraction, which can stress the medial collateral ligament. Both players should be aware that rapid hook clearing can occasionally catch fingers or toes, so maintain controlled movements rather than violent ripping motions.",
-    "clips": [
-      {
-        "id": "jE1TQnPOzig",
-        "title": "Escape and counter the single leg X reap",
-        "by": "Matteo BJJ",
-        "vertical": false,
-        "channel": "No-Gi Jiu-Jitsu By Matteobjj",
-        "duration": 277,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "XzILYmERAV8",
-        "title": "Passing Single Leg X",
-        "by": "Lachlan Giles",
-        "vertical": false,
-        "channel": "Absolute MMA St Kilda - Melbourne",
-        "duration": 453,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "pnc9alCVShI",
-        "title": "Preventing the Single Leg X Get-Up Sweep",
-        "by": "Lachlan Giles",
-        "vertical": false,
-        "channel": "The Grapplers Guide by Jason Scully",
-        "duration": 192,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Standing Escape from SLX Defender",
@@ -556,34 +528,6 @@
         "description": "Positional sparring where the top player's sole objective is the standing escape and your sole objective is maintaining SLX or sweeping. Use all available tools including hook retention, grip fighting, sweeps, and transitions. Track success rate and identify patterns in your defensive failures."
       }
     ],
-    "clips": [
-      {
-        "id": "TVQXVTX6Szw",
-        "title": "Single leg X sweep as they stand",
-        "by": "Won Hee Cho",
-        "vertical": false,
-        "channel": "조원희주짓수다",
-        "duration": 23,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "aoyScppYR1E",
-        "title": "Single leg X to X guard sweep retention",
-        "by": "BJJ4Breakfast",
-        "vertical": false,
-        "channel": "BJJ4Breakfast",
-        "duration": 160,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "iCxvIhNqLlI",
-        "title": "Single leg X off-balancing and sweeping system",
-        "by": "Mads H.",
-        "vertical": false,
-        "channel": "Mads H. BJJ",
-        "duration": 222,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

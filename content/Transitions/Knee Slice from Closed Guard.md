@@ -46,35 +46,22 @@ description: "Master the knee slice pass from closed guard in BJJ. Complete guid
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Guard break into knee cut pass",
-      "description": "Knee Slice from Closed Guard film study: Guard break into knee cut pass, taught by Underground Gym.",
+      "name": "Guard Break and Knee Cut Pass",
+      "description": "Knee Slice from Closed Guard film study: Guard Break and Knee Cut Pass.",
       "thumbnailUrl": "https://i.ytimg.com/vi/V6Q79fPuJHQ/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/V6Q79fPuJHQ",
       "url": "https://www.youtube.com/watch?v=V6Q79fPuJHQ",
-      "creator": { "@type": "Person", "name": "Underground Gym" },
-      "duration": "PT29S"
+      "duration": "PT28S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Knee wedge guard break to knee through pass",
-      "description": "Knee Slice from Closed Guard film study: Knee wedge guard break to knee through pass, taught by Procel BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Yhy-QVscGq8/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Yhy-QVscGq8",
-      "url": "https://www.youtube.com/watch?v=Yhy-QVscGq8",
-      "creator": { "@type": "Person", "name": "Procel BJJ" },
-      "duration": "PT40S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Knee cut closed guard pass from the knees",
-      "description": "Knee Slice from Closed Guard film study: Knee cut closed guard pass from the knees, taught by BJJ4Breakfast.",
+      "name": "Knee cut closed guard pass from knees",
+      "description": "Knee Slice from Closed Guard film study: Knee cut closed guard pass from knees.",
       "thumbnailUrl": "https://i.ytimg.com/vi/l4CEu9xW9Vo/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/l4CEu9xW9Vo",
       "url": "https://www.youtube.com/watch?v=l4CEu9xW9Vo",
-      "creator": { "@type": "Person", "name": "BJJ4Breakfast" },
-      "duration": "PT150S"
+      "duration": "PT149S"
     }
   ]
 }
@@ -130,15 +117,7 @@ The technique demands precise coordination between guard breaking mechanics and 
 
 ![](https://www.youtube.com/watch?v=V6Q79fPuJHQ)
 
-<p class="clip-credit"><strong>Guard break into knee cut pass</strong> — taught by Underground Gym · 0:29 · <a href="https://www.youtube.com/watch?v=V6Q79fPuJHQ" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=Yhy-QVscGq8)
-
-<p class="clip-credit"><strong>Knee wedge guard break to knee through pass</strong> — taught by Procel BJJ · 0:40 · <a href="https://www.youtube.com/watch?v=Yhy-QVscGq8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Guard Break and Knee Cut Pass</strong> · 0:28 · <a href="https://www.youtube.com/watch?v=V6Q79fPuJHQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -146,7 +125,7 @@ The technique demands precise coordination between guard breaking mechanics and 
 
 ![](https://www.youtube.com/watch?v=l4CEu9xW9Vo)
 
-<p class="clip-credit"><strong>Knee cut closed guard pass from the knees</strong> — taught by BJJ4Breakfast · 2:30 · <a href="https://www.youtube.com/watch?v=l4CEu9xW9Vo" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Knee cut closed guard pass from knees</strong> · 2:29 · <a href="https://www.youtube.com/watch?v=l4CEu9xW9Vo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -398,31 +398,12 @@
     "safety_considerations": "When practicing the double leg finish, controlled application is essential to prevent injury to both partners. The primary safety concern is managing the driving power and landing to prevent dangerous falls, head-first impacts, or hard landings on the opponent's back or head. During training, always maintain awareness of mat space to ensure adequate room for the full driving motion and controlled landing. Start with slow, controlled repetitions with compliant partners before progressing to resistance. The partner being taken down should be taught proper breakfall techniques to protect themselves during the landing phase. Practitioners should build up driving power gradually, emphasizing technical precision before adding intensity or speed. In live training, be especially cautious when finishing near the edge of the mat or in crowded areas. When drilling, the person executing the technique should control the opponent's landing by maintaining grip and adjusting descent speed - slamming or dropping the opponent is dangerous and unnecessary. Partners should communicate clearly about resistance levels and stop immediately if either person feels unsafe. Proper conditioning and technical progression prevent most injuries associated with this technique, but awareness and partner safety must always take priority over completion of the technique.",
     "clips": [
       {
-        "id": "vFvl1tdr8l4",
-        "title": "Double leg head drive finish",
-        "by": "Cary Kolat",
-        "vertical": false,
-        "channel": "Cary Kolat",
-        "duration": 47,
-        "verified": "2026-07-15"
-      },
-      {
         "id": "yqyCo-skPvA",
-        "title": "Driving through to finish the double leg",
-        "by": "Physiohealth coach",
-        "vertical": false,
+        "title": "Double Leg Drive Through",
         "channel": "Physiohealth01",
         "duration": 28,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "7LHzjdOADBs",
-        "title": "Blast double finish breakdown",
-        "by": "Josh Dziewa",
         "vertical": false,
-        "channel": "Josh Dziewa",
-        "duration": 54,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },
@@ -599,26 +580,7 @@
         "description": "Defend double leg finishes during live standing grappling at full resistance. Develop the ability to counterattack during defense including guillotine submissions, front headlock transitions, and go-behind counters when sprawl creates back exposure. Track which defensive options succeed most frequently against different training partners and finish styles. Begin developing personal defensive preferences based on body type and grappling style."
       }
     ],
-    "clips": [
-      {
-        "id": "eaaHsLE3r3Q",
-        "title": "Powering up the whizzer to stop the finish",
-        "by": "Cary Kolat",
-        "vertical": false,
-        "channel": "Cary Kolat",
-        "duration": 79,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "92ncNJ_7qAQ",
-        "title": "Whizzer for takedown defense",
-        "by": "Kinesiology College coach",
-        "vertical": false,
-        "channel": "Kinesiology College",
-        "duration": 39,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "variants_and_adaptations": [
     {

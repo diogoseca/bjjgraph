@@ -46,23 +46,11 @@ description: "Master the Kimura shoulder lock from S Mount in BJJ. Complete fini
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Kimura from S Mount",
-      "description": "Kimura from S Mount film study: Kimura from S Mount, taught by Marcus Ashcraft.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/pDByo2uZnzo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/pDByo2uZnzo",
-      "url": "https://www.youtube.com/watch?v=pDByo2uZnzo",
-      "creator": { "@type": "Person", "name": "Marcus Ashcraft" },
-      "duration": "PT63S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "S-Mount Armbar, Kimura, Far-side Armbar",
-      "description": "Kimura from S Mount film study: S-Mount Armbar, Kimura, Far-side Armbar, taught by GB Costa Mesa.",
+      "name": "S-Mount Armbar, Kimura, + Far side Armbar",
+      "description": "Kimura from S Mount film study: S-Mount Armbar, Kimura, + Far side Armbar.",
       "thumbnailUrl": "https://i.ytimg.com/vi/nH4ly3vk7WI/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/nH4ly3vk7WI",
       "url": "https://www.youtube.com/watch?v=nH4ly3vk7WI",
-      "creator": { "@type": "Person", "name": "GB Costa Mesa" },
       "duration": "PT24S"
     }
   ]
@@ -126,17 +114,9 @@ This submission chains naturally with the armbar from S Mount, creating a powerf
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=pDByo2uZnzo)
-
-<p class="clip-credit"><strong>Kimura from S Mount</strong> — taught by Marcus Ashcraft · 1:03 · <a href="https://www.youtube.com/watch?v=pDByo2uZnzo" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=nH4ly3vk7WI)
 
-<p class="clip-credit"><strong>S-Mount Armbar, Kimura, Far-side Armbar</strong> — taught by GB Costa Mesa · 0:24 · <a href="https://www.youtube.com/watch?v=nH4ly3vk7WI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>S-Mount Armbar, Kimura, + Far side Armbar</strong> · 0:24 · <a href="https://www.youtube.com/watch?v=nH4ly3vk7WI" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

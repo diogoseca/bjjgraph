@@ -187,12 +187,31 @@ description: "Execute the Kimura from Butterfly Guard with precise grip mechanic
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Kimura from half guard bottom",
-      "description": "Kimura from Butterfly Guard (Attacker) film study: Kimura from half guard bottom, taught by Georges St-Pierre.",
+      "name": "The Grapplers Academy - KIMURA FROM BUTTERFLY GUARD",
+      "description": "Kimura from Butterfly Guard (Attacker) film study: The Grapplers Academy - KIMURA FROM BUTTERFLY GUARD.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4eReTBx5fI0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4eReTBx5fI0",
+      "url": "https://www.youtube.com/watch?v=4eReTBx5fI0",
+      "duration": "PT77S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "How To Do The Perfect Kimura From The Butterfly Guard",
+      "description": "Kimura from Butterfly Guard (Attacker) film study: How To Do The Perfect Kimura From The Butterfly Guard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/vCZsK0FL8o0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/vCZsK0FL8o0",
+      "url": "https://www.youtube.com/watch?v=vCZsK0FL8o0",
+      "duration": "PT135S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Georges St-Pierre | Technique Breakdown: Kimura Half Guard Bottom | The Gentle\u2026",
+      "description": "Kimura from Butterfly Guard (Attacker) film study: Georges St-Pierre | Technique Breakdown: Kimura Half Guard Bottom | The Gentle\u2026.",
       "thumbnailUrl": "https://i.ytimg.com/vi/dgYwflmcxKk/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/dgYwflmcxKk",
       "url": "https://www.youtube.com/watch?v=dgYwflmcxKk",
-      "creator": { "@type": "Person", "name": "Georges St-Pierre" },
       "duration": "PT72S"
     }
   ]
@@ -225,9 +244,25 @@ Attacking the Kimura from Butterfly Guard requires coordinating upper body grip 
 
 <div class="film-clip">
 
+![](https://www.youtube.com/watch?v=4eReTBx5fI0)
+
+<p class="clip-credit"><strong>The Grapplers Academy - KIMURA FROM BUTTERFLY GUARD</strong> · 1:17 · <a href="https://www.youtube.com/watch?v=4eReTBx5fI0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=vCZsK0FL8o0)
+
+<p class="clip-credit"><strong>How To Do The Perfect Kimura From The Butterfly Guard</strong> · 2:15 · <a href="https://www.youtube.com/watch?v=vCZsK0FL8o0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
 ![](https://www.youtube.com/watch?v=dgYwflmcxKk)
 
-<p class="clip-credit"><strong>Kimura from half guard bottom</strong> — taught by Georges St-Pierre · 1:12 · <a href="https://www.youtube.com/watch?v=dgYwflmcxKk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Georges St-Pierre | Technique Breakdown: Kimura Half Guard Bottom | The Gentle…</strong> · 1:12 · <a href="https://www.youtube.com/watch?v=dgYwflmcxKk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

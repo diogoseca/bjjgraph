@@ -181,35 +181,12 @@ description: "How to execute Osoto Gari in BJJ. Attacking perspective with setup
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "No-gi Osoto Gari judo throw breakdown",
-      "description": "Osoto Gari (Attacker) film study: No-gi Osoto Gari judo throw breakdown, taught by Shintaro Higashi.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/uSh01u56MnE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/uSh01u56MnE",
-      "url": "https://www.youtube.com/watch?v=uSh01u56MnE",
-      "creator": { "@type": "Person", "name": "Shintaro Higashi" },
-      "duration": "PT68S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "O Soto Gari: major outer reap demonstration",
-      "description": "Osoto Gari (Attacker) film study: O Soto Gari: major outer reap demonstration, taught by Bradford Jiu Jitsu Club coach.",
+      "name": "O SOTO GARI - major outer reap",
+      "description": "Osoto Gari (Attacker) film study: O SOTO GARI - major outer reap.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Z1axdCFVCJE/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Z1axdCFVCJE",
       "url": "https://www.youtube.com/watch?v=Z1axdCFVCJE",
-      "creator": { "@type": "Person", "name": "Bradford Jiu Jitsu Club coach" },
       "duration": "PT45S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Ippon Osoto Gari full-speed demo",
-      "description": "Osoto Gari (Attacker) film study: Ippon Osoto Gari full-speed demo, taught by Efficient Judo.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/B0N46zIn96M/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/B0N46zIn96M",
-      "url": "https://www.youtube.com/watch?v=B0N46zIn96M",
-      "creator": { "@type": "Person", "name": "Efficient Judo" },
-      "duration": "PT26S"
     }
   ]
 }
@@ -240,25 +217,9 @@ Osoto Gari (Major Outer Reap) is a fundamental judo throw that has been successf
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=uSh01u56MnE)
-
-<p class="clip-credit"><strong>No-gi Osoto Gari judo throw breakdown</strong> — taught by Shintaro Higashi · 1:08 · <a href="https://www.youtube.com/watch?v=uSh01u56MnE" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=Z1axdCFVCJE)
 
-<p class="clip-credit"><strong>O Soto Gari: major outer reap demonstration</strong> — taught by Bradford Jiu Jitsu Club coach · 0:45 · <a href="https://www.youtube.com/watch?v=Z1axdCFVCJE" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=B0N46zIn96M)
-
-<p class="clip-credit"><strong>Ippon Osoto Gari full-speed demo</strong> — taught by Efficient Judo · 0:26 · <a href="https://www.youtube.com/watch?v=B0N46zIn96M" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>O SOTO GARI - major outer reap</strong> · 0:45 · <a href="https://www.youtube.com/watch?v=Z1axdCFVCJE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

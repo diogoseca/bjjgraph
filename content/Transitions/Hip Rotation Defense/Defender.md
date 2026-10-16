@@ -160,24 +160,12 @@ description: "How to counter Hip Rotation Defense in BJJ from ankle lock control
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Finishing the ankle lock when they roll out",
-      "description": "Hip Rotation Defense (Defender) film study: Finishing the ankle lock when they roll out, taught by James O\u0027Connor.",
+      "name": "How to Finish an ankle lock if opponent tries rolling out.",
+      "description": "Hip Rotation Defense (Defender) film study: How to Finish an ankle lock if opponent tries rolling out..",
       "thumbnailUrl": "https://i.ytimg.com/vi/akB_o9gaNuc/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/akB_o9gaNuc",
       "url": "https://www.youtube.com/watch?v=akB_o9gaNuc",
-      "creator": { "@type": "Person", "name": "James O\u0027Connor" },
-      "duration": "PT61S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Straight ankle lock finishing details",
-      "description": "Hip Rotation Defense (Defender) film study: Straight ankle lock finishing details, taught by Matt Arroyo.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/E-xIK4pXoF0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/E-xIK4pXoF0",
-      "url": "https://www.youtube.com/watch?v=E-xIK4pXoF0",
-      "creator": { "@type": "Person", "name": "Matt Arroyo" },
-      "duration": "PT82S"
+      "duration": "PT60S"
     }
   ]
 }
@@ -209,15 +197,7 @@ The critical defensive skill is reading which direction your opponent will rotat
 
 ![](https://www.youtube.com/watch?v=akB_o9gaNuc)
 
-<p class="clip-credit"><strong>Finishing the ankle lock when they roll out</strong> — taught by James O&#39;Connor · 1:01 · <a href="https://www.youtube.com/watch?v=akB_o9gaNuc" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=E-xIK4pXoF0)
-
-<p class="clip-credit"><strong>Straight ankle lock finishing details</strong> — taught by Matt Arroyo · 1:22 · <a href="https://www.youtube.com/watch?v=E-xIK4pXoF0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How to Finish an ankle lock if opponent tries rolling out.</strong> · 1:00 · <a href="https://www.youtube.com/watch?v=akB_o9gaNuc" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

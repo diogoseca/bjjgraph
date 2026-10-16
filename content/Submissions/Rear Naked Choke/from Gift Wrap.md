@@ -46,24 +46,12 @@ description: "Master the Rear Naked Choke from Gift Wrap in BJJ. Learn how the a
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Gift Wrap Rear Naked Choke",
-      "description": "Rear Naked Choke from Gift Wrap film study: Gift Wrap Rear Naked Choke, taught by Doug Taylor.",
+      "name": "Technique Tuesday - Gift Wrap Rear Naked Choke",
+      "description": "Rear Naked Choke from Gift Wrap film study: Technique Tuesday - Gift Wrap Rear Naked Choke.",
       "thumbnailUrl": "https://i.ytimg.com/vi/f24j2L4nYSU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/f24j2L4nYSU",
       "url": "https://www.youtube.com/watch?v=f24j2L4nYSU",
-      "creator": { "@type": "Person", "name": "Doug Taylor" },
-      "duration": "PT108S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "The Gift Wrap in 2 Minutes (No-Gi)",
-      "description": "Rear Naked Choke from Gift Wrap film study: The Gift Wrap in 2 Minutes (No-Gi), taught by Brian Glick.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/5bw7poxVJ1E/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/5bw7poxVJ1E",
-      "url": "https://www.youtube.com/watch?v=5bw7poxVJ1E",
-      "creator": { "@type": "Person", "name": "Brian Glick" },
-      "duration": "PT112S"
+      "duration": "PT107S"
     }
   ]
 }
@@ -128,15 +116,7 @@ From a systems perspective, the Gift Wrap RNC sits at the apex of the back attac
 
 ![](https://www.youtube.com/watch?v=f24j2L4nYSU)
 
-<p class="clip-credit"><strong>Gift Wrap Rear Naked Choke</strong> — taught by Doug Taylor · 1:48 · <a href="https://www.youtube.com/watch?v=f24j2L4nYSU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=5bw7poxVJ1E)
-
-<p class="clip-credit"><strong>The Gift Wrap in 2 Minutes (No-Gi)</strong> — taught by Brian Glick · 1:52 · <a href="https://www.youtube.com/watch?v=5bw7poxVJ1E" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Technique Tuesday - Gift Wrap Rear Naked Choke</strong> · 1:47 · <a href="https://www.youtube.com/watch?v=f24j2L4nYSU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

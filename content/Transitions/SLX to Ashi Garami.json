@@ -390,26 +390,7 @@
       }
     ],
     "safety_considerations": "While the SLX to Ashi Garami transition itself carries minimal direct injury risk, it leads to a position where dangerous leg attacks become immediately available. Practitioners must understand that Inside Ashi-Garami provides access to heel hooks and kneebars that can cause severe ligament damage if applied incorrectly. Always practice the transition at controlled speed with clear communication between training partners. Master straight ankle lock attacks from ashi garami for a minimum of 6-12 months before progressing to heel hooks. When drilling the transition, ensure both partners understand the tap protocol and that all submissions are applied with gradual, progressive pressure. Never crank leg submissions explosively, and release immediately upon tap.",
-    "clips": [
-      {
-        "id": "o0TTMzFEG0Q",
-        "title": "Shin-to-shin to single leg X to outside ashi",
-        "by": "Robyn Sheehan",
-        "vertical": false,
-        "channel": "Robyn Sheehan",
-        "duration": 128,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "El_icnQ7GKg",
-        "title": "Leg entry when your single leg X is crushed",
-        "by": "Factory Fresh Jiu Jitsu coach",
-        "vertical": false,
-        "channel": "Factory Fresh Jiu Jitsu",
-        "duration": 140,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "SLX to Ashi Garami Defender",
@@ -586,34 +567,6 @@
         "description": "Start in SLX with full resistance from both players. Attacker works all variants and timing combinations while you defend with complete defensive toolkit. Track successful defenses versus completed transitions across rounds. Goal is preventing ashi establishment in at least 50% of attempts."
       }
     ],
-    "clips": [
-      {
-        "id": "L417yCl_-dc",
-        "title": "Leg defense from ashi garami",
-        "by": "The Coop BJJ coach",
-        "vertical": false,
-        "channel": "The Coop BJJ",
-        "duration": 48,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "cRXsNPAgVLU",
-        "title": "Irimi ashi garami counter",
-        "by": "John Danaher",
-        "vertical": false,
-        "channel": "Dohn Janaher ",
-        "duration": 29,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "AQbJMBiWYfU",
-        "title": "Escaping ashi garami and leg lock defense",
-        "by": "Scott Elliott",
-        "vertical": false,
-        "channel": "Coach Scott Elliott",
-        "duration": 141,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

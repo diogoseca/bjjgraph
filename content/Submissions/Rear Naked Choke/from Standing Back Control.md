@@ -46,35 +46,12 @@ description: "Master the rear naked choke from standing back control in BJJ. Com
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "3 favorite chokes from the back",
-      "description": "Rear Naked Choke from Standing Back Control film study: 3 favorite chokes from the back, taught by Matt Arroyo.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/eMbkVDRreIQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/eMbkVDRreIQ",
-      "url": "https://www.youtube.com/watch?v=eMbkVDRreIQ",
-      "creator": { "@type": "Person", "name": "Matt Arroyo" },
-      "duration": "PT87S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Rear naked choke from standing",
-      "description": "Rear Naked Choke from Standing Back Control film study: Rear naked choke from standing, taught by Teach Me NoGi.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/JVw1AvVRWQs/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/JVw1AvVRWQs",
-      "url": "https://www.youtube.com/watch?v=JVw1AvVRWQs",
-      "creator": { "@type": "Person", "name": "Teach Me NoGi" },
-      "duration": "PT150S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Short choke from back position",
-      "description": "Rear Naked Choke from Standing Back Control film study: Short choke from back position, taught by Cosens MMA.",
+      "name": "Short Choke from Back Position (Jiu Jitsu)",
+      "description": "Rear Naked Choke from Standing Back Control film study: Short Choke from Back Position (Jiu Jitsu).",
       "thumbnailUrl": "https://i.ytimg.com/vi/Sb-atqD_TqQ/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Sb-atqD_TqQ",
       "url": "https://www.youtube.com/watch?v=Sb-atqD_TqQ",
-      "creator": { "@type": "Person", "name": "Cosens MMA" },
-      "duration": "PT55S"
+      "duration": "PT54S"
     }
   ]
 }
@@ -137,25 +114,9 @@ At the competition level, standing back control finishes appear frequently in bo
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=eMbkVDRreIQ)
-
-<p class="clip-credit"><strong>3 favorite chokes from the back</strong> — taught by Matt Arroyo · 1:27 · <a href="https://www.youtube.com/watch?v=eMbkVDRreIQ" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=JVw1AvVRWQs)
-
-<p class="clip-credit"><strong>Rear naked choke from standing</strong> — taught by Teach Me NoGi · 2:30 · <a href="https://www.youtube.com/watch?v=JVw1AvVRWQs" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=Sb-atqD_TqQ)
 
-<p class="clip-credit"><strong>Short choke from back position</strong> — taught by Cosens MMA · 0:55 · <a href="https://www.youtube.com/watch?v=Sb-atqD_TqQ" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Short Choke from Back Position (Jiu Jitsu)</strong> · 0:54 · <a href="https://www.youtube.com/watch?v=Sb-atqD_TqQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -46,35 +46,12 @@ description: "Master the Spider Guard to Omoplata transition in BJJ. Complete gu
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Spider guard to triangle or omoplata",
-      "description": "Spider Guard to Omoplata film study: Spider guard to triangle or omoplata, taught by Clark Gracie.",
+      "name": "Spider Guard to Triangle or Omoplata",
+      "description": "Spider Guard to Omoplata film study: Spider Guard to Triangle or Omoplata.",
       "thumbnailUrl": "https://i.ytimg.com/vi/wl48JJRddV8/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/wl48JJRddV8",
       "url": "https://www.youtube.com/watch?v=wl48JJRddV8",
-      "creator": { "@type": "Person", "name": "Clark Gracie" },
       "duration": "PT54S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Spider guard: break posture to omoplata and sweep",
-      "description": "Spider Guard to Omoplata film study: Spider guard: break posture to omoplata and sweep, taught by Pathfinder JJ coach.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Cl5tutvZ2NA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Cl5tutvZ2NA",
-      "url": "https://www.youtube.com/watch?v=Cl5tutvZ2NA",
-      "creator": { "@type": "Person", "name": "Pathfinder JJ coach" },
-      "duration": "PT50S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "How to omoplata from spider guard",
-      "description": "Spider Guard to Omoplata film study: How to omoplata from spider guard, taught by Evolve MMA coach.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/p3RN_8y_l_Y/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/p3RN_8y_l_Y",
-      "url": "https://www.youtube.com/watch?v=p3RN_8y_l_Y",
-      "creator": { "@type": "Person", "name": "Evolve MMA coach" },
-      "duration": "PT66S"
     }
   ]
 }
@@ -130,23 +107,7 @@ Understanding this technique is essential for any serious spider guard player be
 
 ![](https://www.youtube.com/watch?v=wl48JJRddV8)
 
-<p class="clip-credit"><strong>Spider guard to triangle or omoplata</strong> — taught by Clark Gracie · 0:54 · <a href="https://www.youtube.com/watch?v=wl48JJRddV8" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=Cl5tutvZ2NA)
-
-<p class="clip-credit"><strong>Spider guard: break posture to omoplata and sweep</strong> — taught by Pathfinder JJ coach · 0:50 · <a href="https://www.youtube.com/watch?v=Cl5tutvZ2NA" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=p3RN_8y_l_Y)
-
-<p class="clip-credit"><strong>How to omoplata from spider guard</strong> — taught by Evolve MMA coach · 1:06 · <a href="https://www.youtube.com/watch?v=p3RN_8y_l_Y" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Spider Guard to Triangle or Omoplata</strong> · 0:54 · <a href="https://www.youtube.com/watch?v=wl48JJRddV8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

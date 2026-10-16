@@ -791,22 +791,12 @@
     },
     "clips": [
       {
-        "id": "_sBB-O8fqP4",
-        "title": "Standing Up from Back Control",
-        "by": "Priit Mihkelson",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 114,
-        "verified": "2026-07-14"
-      },
-      {
         "id": "3RbOD9fhi20",
-        "title": "Running Man Back Escape",
-        "by": "Jiu Jitsu Modern",
-        "vertical": false,
+        "title": "Back Escape- Running Man- BJJ",
         "channel": "JIU JITSU MODERN",
         "duration": 210,
-        "verified": "2026-07-14"
+        "vertical": false,
+        "front": true
       }
     ]
   },

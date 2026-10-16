@@ -166,35 +166,22 @@ description: "Master closed guard bottom with offensive sweeps, submissions, and
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Sweep from closed guard",
-      "description": "Closed Guard (Bottom) film study: Sweep from closed guard, taught by Roger Gracie.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/dMcMblcXhF0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/dMcMblcXhF0",
-      "url": "https://www.youtube.com/watch?v=dMcMblcXhF0",
-      "creator": { "@type": "Person", "name": "Roger Gracie" },
-      "duration": "PT73S"
+      "name": "Easy to Use Entire Closed Guard System",
+      "description": "Closed Guard (Bottom) film study: Easy to Use Entire Closed Guard System.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Z_FBT8ZDSmo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Z_FBT8ZDSmo",
+      "url": "https://www.youtube.com/watch?v=Z_FBT8ZDSmo",
+      "duration": "PT497S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Cross collar chokes from closed guard",
-      "description": "Closed Guard (Bottom) film study: Cross collar chokes from closed guard, taught by Roger Gracie.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/dfP-Ov8FBUo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/dfP-Ov8FBUo",
-      "url": "https://www.youtube.com/watch?v=dfP-Ov8FBUo",
-      "creator": { "@type": "Person", "name": "Roger Gracie" },
-      "duration": "PT80S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Armbars from closed guard",
-      "description": "Closed Guard (Bottom) film study: Armbars from closed guard, taught by Roger Gracie.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/vSmRbpNmf-E/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/vSmRbpNmf-E",
-      "url": "https://www.youtube.com/watch?v=vSmRbpNmf-E",
-      "creator": { "@type": "Person", "name": "Roger Gracie" },
-      "duration": "PT102S"
+      "name": "Breaking Posture in Closed Guard ( The Complete Guide )",
+      "description": "Closed Guard (Bottom) film study: Breaking Posture in Closed Guard ( The Complete Guide ).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ZKsfnBbBdjk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ZKsfnBbBdjk",
+      "url": "https://www.youtube.com/watch?v=ZKsfnBbBdjk",
+      "duration": "PT438S"
     }
   ]
 }
@@ -227,25 +214,17 @@ Master practitioners understand that closed guard is not a passive holding posit
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=dMcMblcXhF0)
+![](https://www.youtube.com/watch?v=Z_FBT8ZDSmo)
 
-<p class="clip-credit"><strong>Sweep from closed guard</strong> — taught by Roger Gracie · 1:13 · <a href="https://www.youtube.com/watch?v=dMcMblcXhF0" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=dfP-Ov8FBUo)
-
-<p class="clip-credit"><strong>Cross collar chokes from closed guard</strong> — taught by Roger Gracie · 1:20 · <a href="https://www.youtube.com/watch?v=dfP-Ov8FBUo" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Easy to Use Entire Closed Guard System</strong> · 8:17 · <a href="https://www.youtube.com/watch?v=Z_FBT8ZDSmo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=vSmRbpNmf-E)
+![](https://www.youtube.com/watch?v=ZKsfnBbBdjk)
 
-<p class="clip-credit"><strong>Armbars from closed guard</strong> — taught by Roger Gracie · 1:42 · <a href="https://www.youtube.com/watch?v=vSmRbpNmf-E" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Breaking Posture in Closed Guard ( The Complete Guide )</strong> · 7:18 · <a href="https://www.youtube.com/watch?v=ZKsfnBbBdjk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -36,39 +36,6 @@ description: "Master front headlock position in BJJ. Strategic control position 
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Front Headlock \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "5 basic submissions from front headlock",
-      "description": "Front Headlock film study: 5 basic submissions from front headlock, taught by Elevate MMA Academy.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Oa4LFTysBdo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Oa4LFTysBdo",
-      "url": "https://www.youtube.com/watch?v=Oa4LFTysBdo",
-      "creator": { "@type": "Person", "name": "Elevate MMA Academy" },
-      "duration": "PT165S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Front headlock fundamentals",
-      "description": "Front Headlock film study: Front headlock fundamentals, taught by David Taylor.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/jJQ8r8nR5a4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/jJQ8r8nR5a4",
-      "url": "https://www.youtube.com/watch?v=jJQ8r8nR5a4",
-      "creator": { "@type": "Person", "name": "David Taylor" },
-      "duration": "PT236S"
-    }
-  ]
-}
-</script>
-
 
 
 <script type="application/ld+json">
@@ -110,32 +77,6 @@ Understanding the front headlock requires recognizing its role as a transitional
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Front Headlock in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=Oa4LFTysBdo)
-
-<p class="clip-credit"><strong>5 basic submissions from front headlock</strong> — taught by Elevate MMA Academy · 2:45 · <a href="https://www.youtube.com/watch?v=Oa4LFTysBdo" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=jJQ8r8nR5a4)
-
-<p class="clip-credit"><strong>Front headlock fundamentals</strong> — taught by David Taylor · 3:56 · <a href="https://www.youtube.com/watch?v=jJQ8r8nR5a4" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="key-principles" class="content-section">

@@ -156,35 +156,12 @@ description: "How to defend against Monoplata from Mount in BJJ. Recognition, es
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Omoplata vs Posture: Escape Fundamentals",
-      "description": "Monoplata from Mount (Defender) film study: Omoplata vs Posture: Escape Fundamentals, taught by Lucas C Santana.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/hLkVj_sBens/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/hLkVj_sBens",
-      "url": "https://www.youtube.com/watch?v=hLkVj_sBens",
-      "creator": { "@type": "Person", "name": "Lucas C Santana" },
-      "duration": "PT81S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Monoplata Counter",
-      "description": "Monoplata from Mount (Defender) film study: Monoplata Counter, taught by Waza BJJ Coach.",
+      "name": "WazaTube: Monoplata Counter",
+      "description": "Monoplata from Mount (Defender) film study: WazaTube: Monoplata Counter.",
       "thumbnailUrl": "https://i.ytimg.com/vi/U2KNBtO1NxU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/U2KNBtO1NxU",
       "url": "https://www.youtube.com/watch?v=U2KNBtO1NxU",
-      "creator": { "@type": "Person", "name": "Waza BJJ Coach" },
-      "duration": "PT123S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "The Importance of Posture in Escapes",
-      "description": "Monoplata from Mount (Defender) film study: The Importance of Posture in Escapes, taught by Ante Dzolic.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/MvZ3fKl6rtk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/MvZ3fKl6rtk",
-      "url": "https://www.youtube.com/watch?v=MvZ3fKl6rtk",
-      "creator": { "@type": "Person", "name": "Ante Dzolic" },
-      "duration": "PT170S"
+      "duration": "PT122S"
     }
   ]
 }
@@ -217,25 +194,9 @@ Successful defense requires understanding that the monoplata becomes exponential
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=hLkVj_sBens)
-
-<p class="clip-credit"><strong>Omoplata vs Posture: Escape Fundamentals</strong> — taught by Lucas C Santana · 1:21 · <a href="https://www.youtube.com/watch?v=hLkVj_sBens" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=U2KNBtO1NxU)
 
-<p class="clip-credit"><strong>Monoplata Counter</strong> — taught by Waza BJJ Coach · 2:03 · <a href="https://www.youtube.com/watch?v=U2KNBtO1NxU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=MvZ3fKl6rtk)
-
-<p class="clip-credit"><strong>The Importance of Posture in Escapes</strong> — taught by Ante Dzolic · 2:50 · <a href="https://www.youtube.com/watch?v=MvZ3fKl6rtk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>WazaTube: Monoplata Counter</strong> · 2:02 · <a href="https://www.youtube.com/watch?v=U2KNBtO1NxU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

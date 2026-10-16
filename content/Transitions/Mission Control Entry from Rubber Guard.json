@@ -398,22 +398,12 @@
     "safety_considerations": "Mission Control entry from Rubber Guard requires significant hip and hamstring flexibility that must be developed progressively over weeks or months. Attempting this transition without adequate flexibility risks hamstring strains, hip flexor injuries, and groin pulls. The elevated leg position also creates potential neck compression when the opponent drives forward, so practitioners must maintain a tucked chin and rounded shoulders throughout. Never force the high guard position beyond your current range of motion. Partners should avoid explosive stacking during drilling as this can cause cervical spine compression. Stop immediately if you feel sharp pain in the hip, knee, or neck. Warm up thoroughly before practicing rubber guard techniques.",
     "clips": [
       {
-        "id": "5fJM5bIk8Fw",
-        "title": "Mission Control to Zombie to Double Bag sequence",
-        "by": "10th Planet Orange Park",
+        "id": "hc5zImDLQ7k",
+        "title": "Rubber Guard: Mission Control",
+        "channel": "JitsHappens",
+        "duration": 46,
         "vertical": false,
-        "channel": "10th Planet Orange Park",
-        "duration": 108,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "gFYyMkaMz34",
-        "title": "Prison Guard breakdown from rubber guard",
-        "by": "Eddie Bravo",
-        "vertical": false,
-        "channel": "Eddie Bravo",
-        "duration": 59,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },
@@ -583,25 +573,6 @@
         "description": "Positional sparring starting in rubber guard with full resistance. Defender attempts to prevent Mission Control establishment. Partner uses full offensive arsenal including feints, timing changes, and variant entries. Track success rate and identify which entry variants cause the most difficulty. Target preventing Mission Control at least 40% of attempts."
       }
     ],
-    "clips": [
-      {
-        "id": "AvivOVuYcCk",
-        "title": "Simple rubber guard escape",
-        "by": "BJJ4Breakfast",
-        "vertical": false,
-        "channel": "BJJ4Breakfast",
-        "duration": 131,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "E3sCfrFKJDE",
-        "title": "Rubber guard: preventing the pass and posture",
-        "by": "Força Martial Arts",
-        "vertical": false,
-        "channel": "Força Martial Arts & Fitness",
-        "duration": 158,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

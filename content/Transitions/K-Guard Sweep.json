@@ -367,26 +367,7 @@
       }
     ],
     "safety_considerations": "The K-Guard Sweep carries moderate injury risk primarily through knee stress on the inverted hook leg during explosive execution. The inverted hook configuration places lateral stress on the knee joint, particularly if the foot gets caught during the sweeping motion. Practitioners should develop the sweep progressively, beginning with slow-motion drilling to establish proper hook mechanics before adding speed and resistance. Partners must communicate immediately if they feel knee torque during the hook loading phase. Warm up hip flexors, adductors, and knee joints thoroughly before K-Guard training. Avoid forcing the inverted hook position against stiff resistance.",
-    "clips": [
-      {
-        "id": "fQ1z2RLYz4Q",
-        "title": "Shallow K guard sweep mechanics",
-        "by": "Lachlan Giles",
-        "vertical": false,
-        "channel": "Absolute MMA St Kilda - Melbourne",
-        "duration": 42,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "wkPHi2q1Cbo",
-        "title": "K guard elevation sweep to 411",
-        "by": "10th Planet St Louis",
-        "vertical": false,
-        "channel": "10th Planet St Louis",
-        "duration": 41,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "K-Guard Sweep Defender",
@@ -549,25 +530,6 @@
         "description": "Full-speed positional sparring from K-Guard where defender works complete defensive sequences against committed sweep attempts with unrestricted follow-up attacks. Develop ability to defend the sweep, prevent secondary attacks, and advance to passing position."
       }
     ],
-    "clips": [
-      {
-        "id": "KxFcTd1BN0g",
-        "title": "Countering the K guard entry",
-        "by": "Elevate MMA Academy",
-        "vertical": false,
-        "channel": "Elevate MMA Academy",
-        "duration": 118,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "JxDViUC4xhk",
-        "title": "K guard defense breakdown",
-        "by": "Rodrigo Lopes",
-        "vertical": false,
-        "channel": "Pathfinder Jiu-Jitsu Team",
-        "duration": 289,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

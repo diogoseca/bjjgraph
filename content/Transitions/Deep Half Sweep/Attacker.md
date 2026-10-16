@@ -186,35 +186,32 @@ description: "Execute the Deep Half Sweep from deep half guard bottom. Step-by-s
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Deep half sweep \u2014 the Faria sweep",
-      "description": "Deep Half Sweep (Attacker) film study: Deep half sweep \u2014 the Faria sweep, taught by Team Daruma Dojo.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/4EpYNsTwjWY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/4EpYNsTwjWY",
-      "url": "https://www.youtube.com/watch?v=4EpYNsTwjWY",
-      "creator": { "@type": "Person", "name": "Team Daruma Dojo" },
-      "duration": "PT71S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Deep half guard sweep demonstration",
-      "description": "Deep Half Sweep (Attacker) film study: Deep half guard sweep demonstration, taught by Kyle Dimmitt.",
+      "name": "Kris\u0027 Deep Half Guard Sweep",
+      "description": "Deep Half Sweep (Attacker) film study: Kris\u0027 Deep Half Guard Sweep.",
       "thumbnailUrl": "https://i.ytimg.com/vi/ZQzg3TnzMJI/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/ZQzg3TnzMJI",
       "url": "https://www.youtube.com/watch?v=ZQzg3TnzMJI",
-      "creator": { "@type": "Person", "name": "Kyle Dimmitt" },
       "duration": "PT42S"
     },
     {
       "@type": "VideoObject",
-      "position": 3,
-      "name": "No-gi deep half guard sweep in one minute",
-      "description": "Deep Half Sweep (Attacker) film study: No-gi deep half guard sweep in one minute, taught by Prism Jiu Jitsu.",
+      "position": 2,
+      "name": "Deep half guard sweep 3 || One Minute On The Mat || No Gi Jiu Jitsu",
+      "description": "Deep Half Sweep (Attacker) film study: Deep half guard sweep 3 || One Minute On The Mat || No Gi Jiu Jitsu.",
       "thumbnailUrl": "https://i.ytimg.com/vi/v7MopqNBzwY/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/v7MopqNBzwY",
       "url": "https://www.youtube.com/watch?v=v7MopqNBzwY",
-      "creator": { "@type": "Person", "name": "Prism Jiu Jitsu" },
-      "duration": "PT53S"
+      "duration": "PT52S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Deep Half Sweep - Faria Sweep",
+      "description": "Deep Half Sweep (Attacker) film study: Deep Half Sweep - Faria Sweep.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4EpYNsTwjWY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4EpYNsTwjWY",
+      "url": "https://www.youtube.com/watch?v=4EpYNsTwjWY",
+      "duration": "PT71S"
     }
   ]
 }
@@ -242,17 +239,9 @@ As the attacker executing the Deep Half Sweep, your objective is to leverage you
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=4EpYNsTwjWY)
-
-<p class="clip-credit"><strong>Deep half sweep — the Faria sweep</strong> — taught by Team Daruma Dojo · 1:11 · <a href="https://www.youtube.com/watch?v=4EpYNsTwjWY" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=ZQzg3TnzMJI)
 
-<p class="clip-credit"><strong>Deep half guard sweep demonstration</strong> — taught by Kyle Dimmitt · 0:42 · <a href="https://www.youtube.com/watch?v=ZQzg3TnzMJI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Kris&#39; Deep Half Guard Sweep</strong> · 0:42 · <a href="https://www.youtube.com/watch?v=ZQzg3TnzMJI" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -260,7 +249,15 @@ As the attacker executing the Deep Half Sweep, your objective is to leverage you
 
 ![](https://www.youtube.com/watch?v=v7MopqNBzwY)
 
-<p class="clip-credit"><strong>No-gi deep half guard sweep in one minute</strong> — taught by Prism Jiu Jitsu · 0:53 · <a href="https://www.youtube.com/watch?v=v7MopqNBzwY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Deep half guard sweep 3 || One Minute On The Mat || No Gi Jiu Jitsu</strong> · 0:52 · <a href="https://www.youtube.com/watch?v=v7MopqNBzwY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=4EpYNsTwjWY)
+
+<p class="clip-credit"><strong>Deep Half Sweep - Faria Sweep</strong> · 1:11 · <a href="https://www.youtube.com/watch?v=4EpYNsTwjWY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

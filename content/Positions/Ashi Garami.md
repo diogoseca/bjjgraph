@@ -46,35 +46,22 @@ description: "Master Ashi Garami leg entanglements in BJJ. Complete guide to sys
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "De La Riva knee bump ashi entry",
-      "description": "Ashi Garami film study: De La Riva knee bump ashi entry, taught by Gordon Ryan.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/_4jDUxFg7uU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/_4jDUxFg7uU",
-      "url": "https://www.youtube.com/watch?v=_4jDUxFg7uU",
-      "creator": { "@type": "Person", "name": "Gordon Ryan" },
-      "duration": "PT165S"
+      "name": "Ashi Garami 101: Basic Mechanics and Drills for Leglocks (No Gi Jiu-Jitsu)",
+      "description": "Ashi Garami film study: Ashi Garami 101: Basic Mechanics and Drills for Leglocks (No Gi Jiu-Jitsu).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pYnp2_gJIoM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/pYnp2_gJIoM",
+      "url": "https://www.youtube.com/watch?v=pYnp2_gJIoM",
+      "duration": "PT330S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Ashi Garami Explained: The Modern No-Gi Control System",
-      "description": "Ashi Garami film study: Ashi Garami Explained: The Modern No-Gi Control System, taught by Grappling Theory.",
+      "name": "Ashi Garami Explained: The Control System Behind Modern No-Gi",
+      "description": "Ashi Garami film study: Ashi Garami Explained: The Control System Behind Modern No-Gi.",
       "thumbnailUrl": "https://i.ytimg.com/vi/hhOOwMNfV-0/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/hhOOwMNfV-0",
       "url": "https://www.youtube.com/watch?v=hhOOwMNfV-0",
-      "creator": { "@type": "Person", "name": "Grappling Theory" },
       "duration": "PT606S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Ashi Garami 101: Basic Mechanics and Drills",
-      "description": "Ashi Garami film study: Ashi Garami 101: Basic Mechanics and Drills, taught by Brian Glick.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/pYnp2_gJIoM/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/pYnp2_gJIoM",
-      "url": "https://www.youtube.com/watch?v=pYnp2_gJIoM",
-      "creator": { "@type": "Person", "name": "Brian Glick" },
-      "duration": "PT331S"
     }
   ]
 }
@@ -129,9 +116,9 @@ Understanding Ashi Garami requires recognizing the position as a complete system
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=_4jDUxFg7uU)
+![](https://www.youtube.com/watch?v=pYnp2_gJIoM)
 
-<p class="clip-credit"><strong>De La Riva knee bump ashi entry</strong> — taught by Gordon Ryan · 2:45 · <a href="https://www.youtube.com/watch?v=_4jDUxFg7uU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Ashi Garami 101: Basic Mechanics and Drills for Leglocks (No Gi Jiu-Jitsu)</strong> · 5:30 · <a href="https://www.youtube.com/watch?v=pYnp2_gJIoM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -139,15 +126,7 @@ Understanding Ashi Garami requires recognizing the position as a complete system
 
 ![](https://www.youtube.com/watch?v=hhOOwMNfV-0)
 
-<p class="clip-credit"><strong>Ashi Garami Explained: The Modern No-Gi Control System</strong> — taught by Grappling Theory · 10:06 · <a href="https://www.youtube.com/watch?v=hhOOwMNfV-0" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=pYnp2_gJIoM)
-
-<p class="clip-credit"><strong>Ashi Garami 101: Basic Mechanics and Drills</strong> — taught by Brian Glick · 5:31 · <a href="https://www.youtube.com/watch?v=pYnp2_gJIoM" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Ashi Garami Explained: The Control System Behind Modern No-Gi</strong> · 10:06 · <a href="https://www.youtube.com/watch?v=hhOOwMNfV-0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

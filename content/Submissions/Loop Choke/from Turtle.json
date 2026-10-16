@@ -496,21 +496,18 @@
     "clips": [
       {
         "id": "Vvsa0a3Wzkw",
-        "title": "Loop Choke from Turtle Position",
-        "by": "ICON Jiu-Jitsu Team",
-        "vertical": false,
+        "title": "36 - Loop Choke from Turtle Position",
         "channel": "ICON JIU-JITSU TEAM",
         "duration": 36,
-        "verified": "2026-07-14"
+        "vertical": false,
+        "front": true
       },
       {
         "id": "ruk0kdlr-Qw",
-        "title": "Alexandre Vieira's Famous Loop Choke",
-        "by": "Alexandre Vieira",
-        "vertical": false,
+        "title": "Alexandre Vieira Shows His Famous Loop Choke",
         "channel": "FloGrappling",
         "duration": 85,
-        "verified": "2026-07-14"
+        "vertical": false
       }
     ]
   },
@@ -708,21 +705,11 @@
     "clips": [
       {
         "id": "eAQ7cCGdVXk",
-        "title": "Loop Choke Defense: Countering After Legs Come Around",
-        "by": "Maxum BJJ Coach",
-        "vertical": false,
+        "title": "Loop Choke Defense Part 2: Countering After Legs Come Around You",
         "channel": "Maxum Brazilian Jiu Jitsu",
         "duration": 224,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "L8ZJxyCGD5U",
-        "title": "Defending Chokes from Turtle and Front Headlock",
-        "by": "The Forge BJJ Coach",
         "vertical": false,
-        "channel": "The Forge Brazilian Jiu Jitsu",
-        "duration": 375,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },

@@ -395,26 +395,7 @@
       }
     ],
     "safety_considerations": "The rear triangle choke attacks bilateral carotid arteries and can cause unconsciousness in as few as 4-6 seconds of full compression. Always release immediately upon tap, verbal submission, or any sign of unconsciousness including limb limpness or cessation of defensive movement. In training, apply finishing pressure progressively and communicate with your partner throughout. Never hold a fully locked choke on an unconscious partner. If a training partner loses consciousness, immediately release the choke, place them in recovery position, and seek medical attention if they do not regain consciousness within 20 seconds. Report persistent symptoms such as neck pain, headache, dizziness, or vision changes to medical staff. Competition practitioners should understand referee stop signals and release protocols specific to their ruleset.",
-    "clips": [
-      {
-        "id": "70jECxFfCSA",
-        "title": "Short choke finish from the back",
-        "by": "Gordon Ryan",
-        "vertical": false,
-        "channel": "Control Jiu JItsu",
-        "duration": 73,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "Sb-atqD_TqQ",
-        "title": "Short choke from back control",
-        "by": "Cosens MMA",
-        "vertical": false,
-        "channel": "Cosens MMA LLC",
-        "duration": 55,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Rear Triangle Choke Finish Defender",
@@ -610,34 +591,6 @@
         "description": "Positional sparring starting from locked rear triangle with attacker at full intensity. Defender earns points for surviving 30-second intervals, arm extraction, or complete escape. Track survival time, escape rate, and which defensive techniques succeed most frequently. Build competition-ready defensive composure."
       }
     ],
-    "clips": [
-      {
-        "id": "-lMJHL8SXlA",
-        "title": "Back triangle choke mechanics",
-        "by": "Dr. Deng",
-        "vertical": false,
-        "channel": "Dr. Deng",
-        "duration": 23,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "jOL9pqG7lwo",
-        "title": "Back Mount Triangle Escape",
-        "by": "Eli Knight",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 244,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "XvsneDpJ18Y",
-        "title": "Six Triangle Choke Escapes: Early to Very Late",
-        "by": "Eli Knight",
-        "vertical": false,
-        "channel": "Knight Jiu-Jitsu",
-        "duration": 418,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

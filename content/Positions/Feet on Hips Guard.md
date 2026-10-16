@@ -46,24 +46,12 @@ description: "Master feet on hips guard in BJJ. Strategic guide covering distanc
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Basic Guard: Feet to Hips",
-      "description": "Feet on Hips Guard film study: Basic Guard: Feet to Hips, taught by Martial Arts Concepts.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/OEzteWy4psQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/OEzteWy4psQ",
-      "url": "https://www.youtube.com/watch?v=OEzteWy4psQ",
-      "creator": { "@type": "Person", "name": "Martial Arts Concepts" },
-      "duration": "PT102S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Open Guard Feet On The Hips Series: 2 Key Steps",
-      "description": "Feet on Hips Guard film study: Open Guard Feet On The Hips Series: 2 Key Steps, taught by Nemesis Jiu Jitsu.",
+      "name": "[Volume 1] AMAZING Open Guard (Feet On The Hips) Series **2 Key Steps** |\u2026",
+      "description": "Feet on Hips Guard film study: [Volume 1] AMAZING Open Guard (Feet On The Hips) Series **2 Key Steps** |\u2026.",
       "thumbnailUrl": "https://i.ytimg.com/vi/yrU-DdcJBgY/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/yrU-DdcJBgY",
       "url": "https://www.youtube.com/watch?v=yrU-DdcJBgY",
-      "creator": { "@type": "Person", "name": "Nemesis Jiu Jitsu" },
-      "duration": "PT378S"
+      "duration": "PT377S"
     }
   ]
 }
@@ -116,17 +104,9 @@ The position excels against standing and combat base opponents, using leg extens
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=OEzteWy4psQ)
-
-<p class="clip-credit"><strong>Basic Guard: Feet to Hips</strong> — taught by Martial Arts Concepts · 1:42 · <a href="https://www.youtube.com/watch?v=OEzteWy4psQ" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=yrU-DdcJBgY)
 
-<p class="clip-credit"><strong>Open Guard Feet On The Hips Series: 2 Key Steps</strong> — taught by Nemesis Jiu Jitsu · 6:18 · <a href="https://www.youtube.com/watch?v=yrU-DdcJBgY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>[Volume 1] AMAZING Open Guard (Feet On The Hips) Series **2 Key Steps** |…</strong> · 6:17 · <a href="https://www.youtube.com/watch?v=yrU-DdcJBgY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

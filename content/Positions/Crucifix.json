@@ -877,21 +877,11 @@
     "clips": [
       {
         "id": "Wrg5Tx-88yM",
-        "title": "Simple crucifix escape",
-        "by": "Coach Brian",
-        "vertical": false,
+        "title": "TMG Clips #143 - Simple Crucifix Escape",
         "channel": "TeachMeGrappling Coach Brian",
         "duration": 149,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "41koUZWmeHE",
-        "title": "Escaping the mounted crucifix",
-        "by": "Shem Rock",
         "vertical": false,
-        "channel": "Shem Rock ",
-        "duration": 146,
-        "verified": "2026-07-14"
+        "front": true
       }
     ]
   },

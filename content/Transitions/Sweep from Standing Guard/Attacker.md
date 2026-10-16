@@ -182,39 +182,6 @@ description: "Complete attacker guide for executing sweeps from Standing Guard i
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Sweep from Standing Guard (Attacker) \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Flower sweep against a standing opponent",
-      "description": "Sweep from Standing Guard (Attacker) film study: Flower sweep against a standing opponent, taught by Jeffjitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/IPvmkijzJmQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/IPvmkijzJmQ",
-      "url": "https://www.youtube.com/watch?v=IPvmkijzJmQ",
-      "creator": { "@type": "Person", "name": "Jeffjitsu" },
-      "duration": "PT60S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Foot scoop sweep when opponent stands in closed guard",
-      "description": "Sweep from Standing Guard (Attacker) film study: Foot scoop sweep when opponent stands in closed guard, taught by SlothGuard.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/pqNvQJ_tnmQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/pqNvQJ_tnmQ",
-      "url": "https://www.youtube.com/watch?v=pqNvQJ_tnmQ",
-      "creator": { "@type": "Person", "name": "SlothGuard" },
-      "duration": "PT58S"
-    }
-  ]
-}
-</script>
-
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -227,32 +194,6 @@ Executing sweeps from Standing Guard requires understanding the biomechanical vu
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Sweep from Standing Guard (Attacker) in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=IPvmkijzJmQ)
-
-<p class="clip-credit"><strong>Flower sweep against a standing opponent</strong> — taught by Jeffjitsu · 1:00 · <a href="https://www.youtube.com/watch?v=IPvmkijzJmQ" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=pqNvQJ_tnmQ)
-
-<p class="clip-credit"><strong>Foot scoop sweep when opponent stands in closed guard</strong> — taught by SlothGuard · 0:58 · <a href="https://www.youtube.com/watch?v=pqNvQJ_tnmQ" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="key-principles" class="content-section">

@@ -393,35 +393,7 @@
       }
     ],
     "safety_considerations": "This transition carries moderate injury risk from dynamic weight shifts during hook insertion. Practitioners should avoid explosive hook insertion near the groin or knee joints, as forced foot placement can cause knee ligament stress or groin compression. Sustained weight loading on a turtled opponent can compress the cervical and thoracic spine if applied aggressively, particularly when driving forward pressure. Communication between training partners is essential—the bottom player should signal discomfort from spinal pressure or hook placement. In gi training, collar grips during the transition can apply dangerous neck pressure. Always drill at controlled speed before introducing resistance, and ensure the bottom player can tap or verbally signal at any point during the transition sequence.",
-    "clips": [
-      {
-        "id": "6MhcPYISQDU",
-        "title": "Rodeo ride to rodeo choke on the back",
-        "by": "Ethos Jiu-Jitsu Fullerton",
-        "vertical": false,
-        "channel": "Ethos Jiu-Jitsu Fullerton",
-        "duration": 85,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "-Gt5c1J-NO0",
-        "title": "Getting hooks in from the rodeo ride to take the back",
-        "by": "Steve Scott",
-        "vertical": false,
-        "channel": "welcomematstevescott",
-        "duration": 400,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "vYD01Vgjy_8",
-        "title": "Rodeo ride against turtle and prone opponents",
-        "by": "Steve Scott",
-        "vertical": false,
-        "channel": "welcomematstevescott",
-        "duration": 211,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Rodeo Ride to Back Control Defender",
@@ -594,34 +566,6 @@
         "description": "Start from Rodeo Ride bottom against a partner working full-speed back takes. Apply all defensive concepts in live conditions. Measure success by time to escape and positions achieved after escape. Integrate defensive reactions with guard recovery sequences for complete escape-to-offense chains."
       }
     ],
-    "clips": [
-      {
-        "id": "W0TCGKRcniA",
-        "title": "Turtle Escape with the Shoulder Roll",
-        "by": "BJJake",
-        "vertical": false,
-        "channel": "BJJake",
-        "duration": 21,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "0AzYYiSiPbU",
-        "title": "Sit-Out and Turn-In from Turtle Defense",
-        "by": "Adam Song",
-        "vertical": false,
-        "channel": "Adam Song MMA",
-        "duration": 162,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "_sBB-O8fqP4",
-        "title": "Standing Up from Defensive Positions",
-        "by": "Priit Mihkelson",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 114,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

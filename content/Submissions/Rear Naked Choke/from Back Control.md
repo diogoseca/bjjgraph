@@ -46,34 +46,31 @@ description: "Master the rear naked choke from back control. Complete guide to h
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Rear Naked Choke from Back Control",
-      "description": "Rear Naked Choke from Back Control film study: Rear Naked Choke from Back Control, taught by Affinity Academy.",
+      "name": "Rear Naked Choke From Back Control",
+      "description": "Rear Naked Choke from Back Control film study: Rear Naked Choke From Back Control.",
       "thumbnailUrl": "https://i.ytimg.com/vi/3vCytl_OI-4/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/3vCytl_OI-4",
       "url": "https://www.youtube.com/watch?v=3vCytl_OI-4",
-      "creator": { "@type": "Person", "name": "Affinity Academy" },
       "duration": "PT75S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Rear Naked Choke",
-      "description": "Rear Naked Choke from Back Control film study: Rear Naked Choke, taught by Gordon Ryan.",
+      "name": "Gordon Ryan - Rear Naked Choke (Control Jiu-Jitsu Submission of The Week)",
+      "description": "Rear Naked Choke from Back Control film study: Gordon Ryan - Rear Naked Choke (Control Jiu-Jitsu Submission of The Week).",
       "thumbnailUrl": "https://i.ytimg.com/vi/70jECxFfCSA/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/70jECxFfCSA",
       "url": "https://www.youtube.com/watch?v=70jECxFfCSA",
-      "creator": { "@type": "Person", "name": "Gordon Ryan" },
       "duration": "PT73S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "Rear Naked Choke: It\u0027s in the Squeeze",
-      "description": "Rear Naked Choke from Back Control film study: Rear Naked Choke: It\u0027s in the Squeeze, taught by Henry Akins.",
+      "name": "Rear Naked Choke: You\u0027re doing it wrong. (It\u0027s in the SQueeZe)",
+      "description": "Rear Naked Choke from Back Control film study: Rear Naked Choke: You\u0027re doing it wrong. (It\u0027s in the SQueeZe).",
       "thumbnailUrl": "https://i.ytimg.com/vi/rPRORaAiJAs/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/rPRORaAiJAs",
       "url": "https://www.youtube.com/watch?v=rPRORaAiJAs",
-      "creator": { "@type": "Person", "name": "Henry Akins" },
       "duration": "PT95S"
     }
   ]
@@ -139,7 +136,7 @@ The finishing mechanics rely on chest expansion and shoulder rotation rather tha
 
 ![](https://www.youtube.com/watch?v=3vCytl_OI-4)
 
-<p class="clip-credit"><strong>Rear Naked Choke from Back Control</strong> — taught by Affinity Academy · 1:15 · <a href="https://www.youtube.com/watch?v=3vCytl_OI-4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Rear Naked Choke From Back Control</strong> · 1:15 · <a href="https://www.youtube.com/watch?v=3vCytl_OI-4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -147,7 +144,7 @@ The finishing mechanics rely on chest expansion and shoulder rotation rather tha
 
 ![](https://www.youtube.com/watch?v=70jECxFfCSA)
 
-<p class="clip-credit"><strong>Rear Naked Choke</strong> — taught by Gordon Ryan · 1:13 · <a href="https://www.youtube.com/watch?v=70jECxFfCSA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Gordon Ryan - Rear Naked Choke (Control Jiu-Jitsu Submission of The Week)</strong> · 1:13 · <a href="https://www.youtube.com/watch?v=70jECxFfCSA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -155,7 +152,7 @@ The finishing mechanics rely on chest expansion and shoulder rotation rather tha
 
 ![](https://www.youtube.com/watch?v=rPRORaAiJAs)
 
-<p class="clip-credit"><strong>Rear Naked Choke: It&#39;s in the Squeeze</strong> — taught by Henry Akins · 1:35 · <a href="https://www.youtube.com/watch?v=rPRORaAiJAs" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Rear Naked Choke: You&#39;re doing it wrong. (It&#39;s in the SQueeZe)</strong> · 1:35 · <a href="https://www.youtube.com/watch?v=rPRORaAiJAs" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

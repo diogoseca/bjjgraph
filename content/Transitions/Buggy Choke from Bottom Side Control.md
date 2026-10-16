@@ -47,35 +47,22 @@ description: "Set the Buggy Choke from under side control. Frame the near arm, t
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "The Buggy Choke from bottom side control",
-      "description": "Buggy Choke from Bottom Side Control film study: The Buggy Choke from bottom side control, taught by ZombieProofBJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/-b7Avb1x7g8/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/-b7Avb1x7g8",
-      "url": "https://www.youtube.com/watch?v=-b7Avb1x7g8",
-      "creator": { "@type": "Person", "name": "ZombieProofBJJ" },
-      "duration": "PT61S"
+      "name": "buggy choke defense",
+      "description": "Buggy Choke from Bottom Side Control film study: buggy choke defense.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/q61vmur0g1E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/q61vmur0g1E",
+      "url": "https://www.youtube.com/watch?v=q61vmur0g1E",
+      "duration": "PT79S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Fix Your Buggy Choke - common setup errors",
-      "description": "Buggy Choke from Bottom Side Control film study: Fix Your Buggy Choke - common setup errors, taught by Yoga for BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/0VDUwuyT6N4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/0VDUwuyT6N4",
-      "url": "https://www.youtube.com/watch?v=0VDUwuyT6N4",
-      "creator": { "@type": "Person", "name": "Yoga for BJJ" },
-      "duration": "PT71S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "North South Buggy Choke breakdown",
-      "description": "Buggy Choke from Bottom Side Control film study: North South Buggy Choke breakdown, taught by Blaise Malabre.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/cMid9XHfnKg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/cMid9XHfnKg",
-      "url": "https://www.youtube.com/watch?v=cMid9XHfnKg",
-      "creator": { "@type": "Person", "name": "Blaise Malabre" },
-      "duration": "PT54S"
+      "name": "Buggy Choke Defense!!",
+      "description": "Buggy Choke from Bottom Side Control film study: Buggy Choke Defense!!.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/U_gLL4x7pLU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/U_gLL4x7pLU",
+      "url": "https://www.youtube.com/watch?v=U_gLL4x7pLU",
+      "duration": "PT89S"
     }
   ]
 }
@@ -132,25 +119,17 @@ Strategically, the entry rewards patience and timing over scrambling. The bottom
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=-b7Avb1x7g8)
+![](https://www.youtube.com/watch?v=q61vmur0g1E)
 
-<p class="clip-credit"><strong>The Buggy Choke from bottom side control</strong> — taught by ZombieProofBJJ · 1:01 · <a href="https://www.youtube.com/watch?v=-b7Avb1x7g8" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=0VDUwuyT6N4)
-
-<p class="clip-credit"><strong>Fix Your Buggy Choke - common setup errors</strong> — taught by Yoga for BJJ · 1:11 · <a href="https://www.youtube.com/watch?v=0VDUwuyT6N4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>buggy choke defense</strong> · 1:19 · <a href="https://www.youtube.com/watch?v=q61vmur0g1E" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=cMid9XHfnKg)
+![](https://www.youtube.com/watch?v=U_gLL4x7pLU)
 
-<p class="clip-credit"><strong>North South Buggy Choke breakdown</strong> — taught by Blaise Malabre · 0:54 · <a href="https://www.youtube.com/watch?v=cMid9XHfnKg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Buggy Choke Defense!!</strong> · 1:29 · <a href="https://www.youtube.com/watch?v=U_gLL4x7pLU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

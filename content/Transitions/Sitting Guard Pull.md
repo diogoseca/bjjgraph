@@ -46,24 +46,12 @@ description: "Learn the Sitting Guard Pull in BJJ. Step-by-step guide to safely 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Guard pull to X guard sweep setup",
-      "description": "Sitting Guard Pull film study: Guard pull to X guard sweep setup, taught by Jackson Souza.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/jAQul3bwCv4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/jAQul3bwCv4",
-      "url": "https://www.youtube.com/watch?v=jAQul3bwCv4",
-      "creator": { "@type": "Person", "name": "Jackson Souza" },
-      "duration": "PT17S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Competition-tested ways to pull guard",
-      "description": "Sitting Guard Pull film study: Competition-tested ways to pull guard, taught by Jon Thomas.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/B4_5rH7Vae0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/B4_5rH7Vae0",
-      "url": "https://www.youtube.com/watch?v=B4_5rH7Vae0",
-      "creator": { "@type": "Person", "name": "Jon Thomas" },
-      "duration": "PT207S"
+      "name": "Four Ways to Counter the Guard Pull",
+      "description": "Sitting Guard Pull film study: Four Ways to Counter the Guard Pull.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/YPg7dUaYsBI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/YPg7dUaYsBI",
+      "url": "https://www.youtube.com/watch?v=YPg7dUaYsBI",
+      "duration": "PT225S"
     }
   ]
 }
@@ -115,17 +103,9 @@ The sitting guard pull's high success rate across all skill levels makes it an e
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=jAQul3bwCv4)
+![](https://www.youtube.com/watch?v=YPg7dUaYsBI)
 
-<p class="clip-credit"><strong>Guard pull to X guard sweep setup</strong> — taught by Jackson Souza · 0:17 · <a href="https://www.youtube.com/watch?v=jAQul3bwCv4" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=B4_5rH7Vae0)
-
-<p class="clip-credit"><strong>Competition-tested ways to pull guard</strong> — taught by Jon Thomas · 3:27 · <a href="https://www.youtube.com/watch?v=B4_5rH7Vae0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Four Ways to Counter the Guard Pull</strong> · 3:45 · <a href="https://www.youtube.com/watch?v=YPg7dUaYsBI" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

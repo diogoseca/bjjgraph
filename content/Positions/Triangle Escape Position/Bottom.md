@@ -159,23 +159,11 @@ description: "Master finishing the triangle from the attacking guard position in
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Finishing the triangle on the wrong side",
-      "description": "Triangle Escape Position (Bottom) film study: Finishing the triangle on the wrong side, taught by Lux.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/L5MwbSqlUuA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/L5MwbSqlUuA",
-      "url": "https://www.youtube.com/watch?v=L5MwbSqlUuA",
-      "creator": { "@type": "Person", "name": "Lux" },
-      "duration": "PT27S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Finishing the triangle vs good posture",
-      "description": "Triangle Escape Position (Bottom) film study: Finishing the triangle vs good posture, taught by Inverted Gear.",
+      "name": "How To Finish a Triangle When Someone Has Good Posture",
+      "description": "Triangle Escape Position (Bottom) film study: How To Finish a Triangle When Someone Has Good Posture.",
       "thumbnailUrl": "https://i.ytimg.com/vi/M3_VDLm6PoE/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/M3_VDLm6PoE",
       "url": "https://www.youtube.com/watch?v=M3_VDLm6PoE",
-      "creator": { "@type": "Person", "name": "Inverted Gear" },
       "duration": "PT142S"
     }
   ]
@@ -206,17 +194,9 @@ Success from this seat means either a direct submission (triangle choke to game-
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=L5MwbSqlUuA)
-
-<p class="clip-credit"><strong>Finishing the triangle on the wrong side</strong> — taught by Lux · 0:27 · <a href="https://www.youtube.com/watch?v=L5MwbSqlUuA" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=M3_VDLm6PoE)
 
-<p class="clip-credit"><strong>Finishing the triangle vs good posture</strong> — taught by Inverted Gear · 2:22 · <a href="https://www.youtube.com/watch?v=M3_VDLm6PoE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How To Finish a Triangle When Someone Has Good Posture</strong> · 2:22 · <a href="https://www.youtube.com/watch?v=M3_VDLm6PoE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

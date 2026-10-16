@@ -507,22 +507,11 @@
     ],
     "clips": [
       {
-        "id": "1JUGqwxsDKg",
-        "title": "Painful Calf Slicer from The Truck",
-        "by": "Brandon McCaghren",
-        "vertical": false,
-        "channel": "Brandon Mccaghren",
-        "duration": 62,
-        "verified": "2026-07-14"
-      },
-      {
         "id": "vTE4XQpRiqY",
-        "title": "The Vaporizer (Calf Slicer)",
-        "by": "Bobby Lee",
-        "vertical": false,
+        "title": "The Vaporizer (Calf slicer)",
         "channel": "Bobby Lee",
         "duration": 17,
-        "verified": "2026-07-14"
+        "vertical": false
       }
     ]
   },
@@ -717,22 +706,19 @@
     ],
     "clips": [
       {
-        "id": "zVi7DtAS76c",
-        "title": "Calf slicer early defense",
-        "by": "Ryan Hall student instructor",
-        "vertical": false,
-        "channel": "RVV BJJ",
-        "duration": 462,
-        "verified": "2026-07-15"
-      },
-      {
         "id": "9l-XOzg5DCA",
-        "title": "Calf slicer late defense options",
-        "by": "Ryan Hall student instructor",
-        "vertical": false,
+        "title": "Calf Slicer Defense Part 2 - Late Defense",
         "channel": "RVV BJJ",
         "duration": 346,
-        "verified": "2026-07-15"
+        "vertical": false,
+        "front": true
+      },
+      {
+        "id": "zVi7DtAS76c",
+        "title": "Calf Slicer Defense Part 1 - Early Defense",
+        "channel": "RVV BJJ",
+        "duration": 462,
+        "vertical": false
       }
     ]
   },

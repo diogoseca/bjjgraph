@@ -395,35 +395,7 @@
       }
     ],
     "safety_considerations": "The S-Mount Transition itself carries minimal injury risk as it is a positional movement rather than a joint attack. However, be aware that completing this transition sets up immediate armbar threats, so training partners should be prepared to tap quickly once S-Mount is established. During drilling, perform the transition at controlled speed to avoid accidentally kneeing your partner in the face during the leg swing. When receiving this technique, avoid explosive escapes that could result in your arm being hyperextended if the attacker maintains grip during your escape attempt. Ensure adequate mat space as the transition can cause both practitioners to move significantly. Practitioners with neck issues should communicate before drilling, as the leg over the head can create pressure on the cervical spine.",
-    "clips": [
-      {
-        "id": "RsNdjwonGkw",
-        "title": "Transitioning from mount to S-mount",
-        "by": "Procel BJJ coach",
-        "vertical": false,
-        "channel": "Procel Brazilian Jiu-Jitsu",
-        "duration": 132,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "FSbR22OOSaE",
-        "title": "S-mount basics, no-gi",
-        "by": "ZombieProofBJJ",
-        "vertical": false,
-        "channel": "ZombieProofBJJ",
-        "duration": 72,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "2Xm_mLp8xwk",
-        "title": "S-mount troubleshooting, no-gi",
-        "by": "ZombieProofBJJ",
-        "vertical": false,
-        "channel": "ZombieProofBJJ",
-        "duration": 67,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "S-Mount Transition Defender",
@@ -619,26 +591,7 @@
         "description": "Positional sparring starting from Modified Mount with the top player actively seeking S-Mount Transition. Bottom player practices full defensive sequences under live resistance. Track which defensive responses succeed most often and refine timing. Test defenses against partners of varying size and skill levels."
       }
     ],
-    "clips": [
-      {
-        "id": "9252EvCT0q4",
-        "title": "Mount escape when standard escapes fail",
-        "by": "Gabriel Gonzaga",
-        "vertical": false,
-        "channel": "Gabriel Gonzaga",
-        "duration": 93,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "PnQdaoKyxoc",
-        "title": "Arm-under-leg mount escape",
-        "by": "Professor Aaron",
-        "vertical": false,
-        "channel": "The Jiujitsu Project Foundation",
-        "duration": 130,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "variants_and_adaptations": [
     {

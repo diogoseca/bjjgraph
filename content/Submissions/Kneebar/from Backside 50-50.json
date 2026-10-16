@@ -475,21 +475,11 @@
     "clips": [
       {
         "id": "v4lhLkKgVvU",
-        "title": "Go Behind Kneebar",
-        "by": "Craig Jones",
-        "vertical": false,
+        "title": "Go Behind Kneebar by Craig Jones",
         "channel": "BJJ Fanatics",
         "duration": 129,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "DBbSqQf6iCo",
-        "title": "Roll Under to Backside 50/50",
-        "by": "Lachlan Giles",
         "vertical": false,
-        "channel": "BJJ focus camps",
-        "duration": 110,
-        "verified": "2026-07-14"
+        "front": true
       }
     ]
   },
@@ -677,21 +667,11 @@
     "clips": [
       {
         "id": "wBRG0fY94fs",
-        "title": "How to Defend a Kneebar",
-        "by": "Revolution BJJ",
-        "vertical": false,
+        "title": "How to Defend a Kneebar (and Prevent a Backstep Pass)",
         "channel": "Revolution BJJ",
         "duration": 59,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "4V3sDIXGfJs",
-        "title": "Backside 50/50 Counter to the Back",
-        "by": "Thunderdome BJJ",
         "vertical": false,
-        "channel": "Thunderdome BJJ",
-        "duration": 24,
-        "verified": "2026-07-14"
+        "front": true
       }
     ]
   }

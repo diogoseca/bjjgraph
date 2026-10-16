@@ -46,34 +46,21 @@ description: "Master the Straight Footlock finish in BJJ. Complete guide to ankl
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "New problem from footlock guard",
-      "description": "Straight Footlock film study: New problem from footlock guard, taught by Mikey Musumeci.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/wIccehL7gkw/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/wIccehL7gkw",
-      "url": "https://www.youtube.com/watch?v=wIccehL7gkw",
-      "creator": { "@type": "Person", "name": "Mikey Musumeci" },
-      "duration": "PT87S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Straight ankle lock finish",
-      "description": "Straight Footlock film study: Straight ankle lock finish, taught by Tex Johnson.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/3h9twIIueXU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/3h9twIIueXU",
-      "url": "https://www.youtube.com/watch?v=3h9twIIueXU",
-      "creator": { "@type": "Person", "name": "Tex Johnson" },
+      "name": "Straight Ankle Lock Tips",
+      "description": "Straight Footlock film study: Straight Ankle Lock Tips.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/jb-N_bthNeo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/jb-N_bthNeo",
+      "url": "https://www.youtube.com/watch?v=jb-N_bthNeo",
       "duration": "PT49S"
     },
     {
       "@type": "VideoObject",
-      "position": 3,
-      "name": "Straight ankle lock finishing tips",
-      "description": "Straight Footlock film study: Straight ankle lock finishing tips, taught by Jon Ridens.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/jb-N_bthNeo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/jb-N_bthNeo",
-      "url": "https://www.youtube.com/watch?v=jb-N_bthNeo",
-      "creator": { "@type": "Person", "name": "Jon Ridens" },
+      "position": 2,
+      "name": "Tex Johnson | STRAIGHT ANKLE LOCKS",
+      "description": "Straight Footlock film study: Tex Johnson | STRAIGHT ANKLE LOCKS.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3h9twIIueXU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3h9twIIueXU",
+      "url": "https://www.youtube.com/watch?v=3h9twIIueXU",
       "duration": "PT49S"
     }
   ]
@@ -128,9 +115,9 @@ The technique is legal at all belt levels under IBJJF rules and represents the f
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=wIccehL7gkw)
+![](https://www.youtube.com/watch?v=jb-N_bthNeo)
 
-<p class="clip-credit"><strong>New problem from footlock guard</strong> — taught by Mikey Musumeci · 1:27 · <a href="https://www.youtube.com/watch?v=wIccehL7gkw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Straight Ankle Lock Tips</strong> · 0:49 · <a href="https://www.youtube.com/watch?v=jb-N_bthNeo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -138,15 +125,7 @@ The technique is legal at all belt levels under IBJJF rules and represents the f
 
 ![](https://www.youtube.com/watch?v=3h9twIIueXU)
 
-<p class="clip-credit"><strong>Straight ankle lock finish</strong> — taught by Tex Johnson · 0:49 · <a href="https://www.youtube.com/watch?v=3h9twIIueXU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=jb-N_bthNeo)
-
-<p class="clip-credit"><strong>Straight ankle lock finishing tips</strong> — taught by Jon Ridens · 0:49 · <a href="https://www.youtube.com/watch?v=jb-N_bthNeo" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Tex Johnson | STRAIGHT ANKLE LOCKS</strong> · 0:49 · <a href="https://www.youtube.com/watch?v=3h9twIIueXU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -165,35 +165,12 @@ description: "Master 50-50 Guard Top position in BJJ. Complete guide covering le
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Heel Hooks from 50/50",
-      "description": "50-50 Guard (Top) film study: Heel Hooks from 50/50, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/UuluKZKDt8w/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/UuluKZKDt8w",
-      "url": "https://www.youtube.com/watch?v=UuluKZKDt8w",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT64S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Lachlan\u0027s ADCC 50/50 Heel Hook",
-      "description": "50-50 Guard (Top) film study: Lachlan\u0027s ADCC 50/50 Heel Hook, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/5RyU5LDc3C4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/5RyU5LDc3C4",
-      "url": "https://www.youtube.com/watch?v=5RyU5LDc3C4",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT86S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "True 50/50 Heel Hook",
-      "description": "50-50 Guard (Top) film study: True 50/50 Heel Hook, taught by John Danaher.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/U1vlUbJN3sc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/U1vlUbJN3sc",
-      "url": "https://www.youtube.com/watch?v=U1vlUbJN3sc",
-      "creator": { "@type": "Person", "name": "John Danaher" },
-      "duration": "PT34S"
+      "name": "UNDERSTANDING THE 50/50 | BJJ Guard Explained #jiujitsu",
+      "description": "50-50 Guard (Top) film study: UNDERSTANDING THE 50/50 | BJJ Guard Explained #jiujitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/mKbMqB6I9FI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/mKbMqB6I9FI",
+      "url": "https://www.youtube.com/watch?v=mKbMqB6I9FI",
+      "duration": "PT820S"
     }
   ]
 }
@@ -223,25 +200,9 @@ The 50-50 Guard Top is particularly effective in no-gi competition where heel ho
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=UuluKZKDt8w)
+![](https://www.youtube.com/watch?v=mKbMqB6I9FI)
 
-<p class="clip-credit"><strong>Heel Hooks from 50/50</strong> — taught by Lachlan Giles · 1:04 · <a href="https://www.youtube.com/watch?v=UuluKZKDt8w" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=5RyU5LDc3C4)
-
-<p class="clip-credit"><strong>Lachlan&#39;s ADCC 50/50 Heel Hook</strong> — taught by Lachlan Giles · 1:26 · <a href="https://www.youtube.com/watch?v=5RyU5LDc3C4" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=U1vlUbJN3sc)
-
-<p class="clip-credit"><strong>True 50/50 Heel Hook</strong> — taught by John Danaher · 0:34 · <a href="https://www.youtube.com/watch?v=U1vlUbJN3sc" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>UNDERSTANDING THE 50/50 | BJJ Guard Explained #jiujitsu</strong> · 13:40 · <a href="https://www.youtube.com/watch?v=mKbMqB6I9FI" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

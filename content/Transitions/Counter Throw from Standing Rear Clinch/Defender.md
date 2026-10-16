@@ -142,50 +142,6 @@ description: "Defend against counter throws from standing rear clinch in BJJ. Le
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Counter Throw from Standing Rear Clinch (Defender) \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Six ways to escape the body lock",
-      "description": "Counter Throw from Standing Rear Clinch (Defender) film study: Six ways to escape the body lock, taught by Super Export Shop.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/ogdhNIXBDXw/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/ogdhNIXBDXw",
-      "url": "https://www.youtube.com/watch?v=ogdhNIXBDXw",
-      "creator": { "@type": "Person", "name": "Super Export Shop" },
-      "duration": "PT55S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Escaping the rear bear hug",
-      "description": "Counter Throw from Standing Rear Clinch (Defender) film study: Escaping the rear bear hug, taught by Wesley Chapel MMA.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/JyJCWlBvDS0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/JyJCWlBvDS0",
-      "url": "https://www.youtube.com/watch?v=JyJCWlBvDS0",
-      "creator": { "@type": "Person", "name": "Wesley Chapel MMA" },
-      "duration": "PT73S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Body lock escape using the switch",
-      "description": "Counter Throw from Standing Rear Clinch (Defender) film study: Body lock escape using the switch, taught by FreeChannelOpen.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/GclkEsj1iE8/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/GclkEsj1iE8",
-      "url": "https://www.youtube.com/watch?v=GclkEsj1iE8",
-      "creator": { "@type": "Person", "name": "FreeChannelOpen" },
-      "duration": "PT146S"
-    }
-  ]
-}
-</script>
-
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -200,40 +156,6 @@ Effective defense requires recognizing that the bottom player's counter throw be
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Counter Throw from Standing Rear Clinch (Defender) in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=ogdhNIXBDXw)
-
-<p class="clip-credit"><strong>Six ways to escape the body lock</strong> — taught by Super Export Shop · 0:55 · <a href="https://www.youtube.com/watch?v=ogdhNIXBDXw" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=JyJCWlBvDS0)
-
-<p class="clip-credit"><strong>Escaping the rear bear hug</strong> — taught by Wesley Chapel MMA · 1:13 · <a href="https://www.youtube.com/watch?v=JyJCWlBvDS0" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=GclkEsj1iE8)
-
-<p class="clip-credit"><strong>Body lock escape using the switch</strong> — taught by FreeChannelOpen · 2:26 · <a href="https://www.youtube.com/watch?v=GclkEsj1iE8" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="recognition-cues" class="content-section">

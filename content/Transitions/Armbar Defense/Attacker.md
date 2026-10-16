@@ -186,35 +186,22 @@ description: "How to execute Armbar Defense in BJJ. Attacking perspective with s
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Favorite armbar escape",
-      "description": "Armbar Defense (Attacker) film study: Favorite armbar escape, taught by Matt Arroyo.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/kNdKfUdgO4I/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/kNdKfUdgO4I",
-      "url": "https://www.youtube.com/watch?v=kNdKfUdgO4I",
-      "creator": { "@type": "Person", "name": "Matt Arroyo" },
-      "duration": "PT92S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Hitchhiker armbar escape",
-      "description": "Armbar Defense (Attacker) film study: Hitchhiker armbar escape, taught by Evolve MMA.",
+      "name": "BJJ | How To Hitchhiker Armbar Escape",
+      "description": "Armbar Defense (Attacker) film study: BJJ | How To Hitchhiker Armbar Escape.",
       "thumbnailUrl": "https://i.ytimg.com/vi/gWfgCEvGZTo/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/gWfgCEvGZTo",
       "url": "https://www.youtube.com/watch?v=gWfgCEvGZTo",
-      "creator": { "@type": "Person", "name": "Evolve MMA" },
       "duration": "PT58S"
     },
     {
       "@type": "VideoObject",
-      "position": 3,
-      "name": "Hitchhiker escape and pass in one motion",
-      "description": "Armbar Defense (Attacker) film study: Hitchhiker escape and pass in one motion, taught by Peter Mettler.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/w6M0NpTMkeU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/w6M0NpTMkeU",
-      "url": "https://www.youtube.com/watch?v=w6M0NpTMkeU",
-      "creator": { "@type": "Person", "name": "Peter Mettler" },
-      "duration": "PT55S"
+      "position": 2,
+      "name": "THIS is my favorite armbar escape! #jiujitsu #jiujitsutips",
+      "description": "Armbar Defense (Attacker) film study: THIS is my favorite armbar escape! #jiujitsu #jiujitsutips.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kNdKfUdgO4I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kNdKfUdgO4I",
+      "url": "https://www.youtube.com/watch?v=kNdKfUdgO4I",
+      "duration": "PT92S"
     }
   ]
 }
@@ -244,25 +231,17 @@ The urgency of execution cannot be overstated. Unlike many positional escapes wh
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=kNdKfUdgO4I)
-
-<p class="clip-credit"><strong>Favorite armbar escape</strong> — taught by Matt Arroyo · 1:32 · <a href="https://www.youtube.com/watch?v=kNdKfUdgO4I" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=gWfgCEvGZTo)
 
-<p class="clip-credit"><strong>Hitchhiker armbar escape</strong> — taught by Evolve MMA · 0:58 · <a href="https://www.youtube.com/watch?v=gWfgCEvGZTo" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>BJJ | How To Hitchhiker Armbar Escape</strong> · 0:58 · <a href="https://www.youtube.com/watch?v=gWfgCEvGZTo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=w6M0NpTMkeU)
+![](https://www.youtube.com/watch?v=kNdKfUdgO4I)
 
-<p class="clip-credit"><strong>Hitchhiker escape and pass in one motion</strong> — taught by Peter Mettler · 0:55 · <a href="https://www.youtube.com/watch?v=w6M0NpTMkeU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>THIS is my favorite armbar escape! #jiujitsu #jiujitsutips</strong> · 1:32 · <a href="https://www.youtube.com/watch?v=kNdKfUdgO4I" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

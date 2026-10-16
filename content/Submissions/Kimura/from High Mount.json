@@ -444,31 +444,11 @@
     ],
     "clips": [
       {
-        "id": "pDByo2uZnzo",
-        "title": "Kimura from S-mount",
-        "by": "Marcus Ashcraft",
-        "vertical": false,
-        "channel": "Marcus Ashcraft",
-        "duration": 63,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "nyZwifeL_Do",
-        "title": "Shoulder crunch attack from mount",
-        "by": "Gordon Ryan",
-        "vertical": false,
-        "channel": "Jiu Jitsu Moves",
-        "duration": 106,
-        "verified": "2026-07-15"
-      },
-      {
         "id": "oDVXJw48OMU",
-        "title": "Kimura from the mount",
-        "by": "Matt McCormick",
-        "vertical": false,
+        "title": "Kimura from the mount with Coach Matt",
         "channel": "Matt McCormick",
         "duration": 131,
-        "verified": "2026-07-15"
+        "vertical": false
       }
     ]
   },
@@ -653,31 +633,19 @@
     ],
     "clips": [
       {
-        "id": "TuaopPUakM8",
-        "title": "Defending the Kimura",
-        "by": "Eddie Kone",
-        "vertical": false,
-        "channel": "Eddie Kone Academy Of Jiu-Jitsu",
-        "duration": 61,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "Ye08X4xjiUk",
-        "title": "Mount Escape: Upa",
-        "by": "Team Daruma Dojo",
-        "vertical": false,
-        "channel": "Team Daruma Dojo",
-        "duration": 38,
-        "verified": "2026-07-14"
-      },
-      {
         "id": "ZT4QcOFksxs",
-        "title": "Kimura Escape from North-South",
-        "by": "Street Jitsu",
-        "vertical": false,
+        "title": "Kimura Escape from North South Position",
         "channel": "Street Jitsu",
         "duration": 25,
-        "verified": "2026-07-14"
+        "vertical": false,
+        "front": true
+      },
+      {
+        "id": "TuaopPUakM8",
+        "title": "Defending The Kimura",
+        "channel": "Eddie Kone Academy Of Jiu-Jitsu",
+        "duration": 61,
+        "vertical": false
       }
     ]
   }

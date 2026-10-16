@@ -165,24 +165,12 @@ description: "Master Honey Hole defense in BJJ. Escape techniques, heel hook def
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Escaping the Honey Hole (Inside Sankaku)",
-      "description": "Honey Hole (Bottom) film study: Escaping the Honey Hole (Inside Sankaku), taught by Oneonta Jiu Jitsu.",
+      "name": "Escaping Honey Hole (Inside Sankaku)",
+      "description": "Honey Hole (Bottom) film study: Escaping Honey Hole (Inside Sankaku).",
       "thumbnailUrl": "https://i.ytimg.com/vi/PhS9Xj-4KbA/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/PhS9Xj-4KbA",
       "url": "https://www.youtube.com/watch?v=PhS9Xj-4KbA",
-      "creator": { "@type": "Person", "name": "Oneonta Jiu Jitsu" },
       "duration": "PT56S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Rolling Out of Heel Hooks",
-      "description": "Honey Hole (Bottom) film study: Rolling Out of Heel Hooks, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/DrjbaXt-nTo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/DrjbaXt-nTo",
-      "url": "https://www.youtube.com/watch?v=DrjbaXt-nTo",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT243S"
     }
   ]
 }
@@ -214,15 +202,7 @@ Strategically, being on bottom of Honey Hole is survival situation rather than c
 
 ![](https://www.youtube.com/watch?v=PhS9Xj-4KbA)
 
-<p class="clip-credit"><strong>Escaping the Honey Hole (Inside Sankaku)</strong> — taught by Oneonta Jiu Jitsu · 0:56 · <a href="https://www.youtube.com/watch?v=PhS9Xj-4KbA" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=DrjbaXt-nTo)
-
-<p class="clip-credit"><strong>Rolling Out of Heel Hooks</strong> — taught by Lachlan Giles · 4:03 · <a href="https://www.youtube.com/watch?v=DrjbaXt-nTo" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Escaping Honey Hole (Inside Sankaku)</strong> · 0:56 · <a href="https://www.youtube.com/watch?v=PhS9Xj-4KbA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

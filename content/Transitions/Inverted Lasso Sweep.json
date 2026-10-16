@@ -366,35 +366,7 @@
       }
     ],
     "safety_considerations": "The Inverted Lasso Sweep involves inverted body positioning that places significant load on the cervical spine and shoulders. Always distribute weight across the shoulder blades and upper back rather than concentrating force on the neck vertebrae. Beginners should develop inversion comfort through progressive shoulder roll drills before attempting this technique under resistance. Training partners should avoid explosive stacking responses that could compress the inverted practitioner's spine. If any neck or shoulder discomfort occurs during drilling, immediately abandon the inverted position and return to upright guard. Controlled repetition at reduced intensity is essential before integrating into live sparring.",
-    "clips": [
-      {
-        "id": "nR1yhcIgsp8",
-        "title": "Balloon Style Lasso Sweep",
-        "by": "BJJ Recap",
-        "vertical": false,
-        "channel": "BJJ Recap",
-        "duration": 28,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "kElMIPxxmXE",
-        "title": "Formiga's Overhead Sweeps",
-        "by": "Evo BJJ",
-        "vertical": false,
-        "channel": "Evo BJJ",
-        "duration": 39,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "3XktZRzvfIU",
-        "title": "Sweep From Reverse De La Riva and Lasso",
-        "by": "DS Team Jiu Jitsu School",
-        "vertical": false,
-        "channel": "DS Team Jiu Jitsu School",
-        "duration": 131,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Inverted Lasso Sweep Defender",
@@ -558,34 +530,6 @@
         "description": "Positional sparring starting in established inverted lasso guard where the bottom player works all attacks while the defender integrates recognition, positioning, and counters at full competition intensity. Measure success by sweep prevention rate and passing conversion rate."
       }
     ],
-    "clips": [
-      {
-        "id": "dOr1_amvQjY",
-        "title": "Guard Passing 3 Stage Method",
-        "by": "Tomer Alroy",
-        "vertical": false,
-        "channel": "Bernardo Faria BJJ Fanatics",
-        "duration": 298,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "3dB8Ha2Pfb0",
-        "title": "Leg Lasso Guard Pass Defense Series",
-        "by": "Jean Jacques Machado",
-        "vertical": false,
-        "channel": "JeanJacquesMachado",
-        "duration": 154,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "Bnx650_z48I",
-        "title": "Passing the Lasso Guard with the Longstep",
-        "by": "Dom",
-        "vertical": false,
-        "channel": "Dubious Dom",
-        "duration": 223,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

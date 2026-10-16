@@ -467,21 +467,18 @@
     "clips": [
       {
         "id": "V77Pzrj6AOE",
-        "title": "Calf Slicer Counter to Backstep",
-        "by": "Revolution BJJ",
-        "vertical": false,
+        "title": "Calf Slicer as a Counter to Backstep (Leglock Chains)",
         "channel": "Revolution BJJ",
         "duration": 54,
-        "verified": "2026-07-14"
+        "vertical": false,
+        "front": true
       },
       {
         "id": "v12bCWO19tk",
-        "title": "Calf Slicer Setup: Open Guard / Banana Split",
-        "by": "John Cole",
-        "vertical": false,
+        "title": "Calf Slicer Setup From Open Guard, Banana Split, Rear Naked Choke - 2015",
         "channel": "John Cole",
         "duration": 20,
-        "verified": "2026-07-14"
+        "vertical": false
       }
     ]
   },
@@ -664,21 +661,18 @@
     "clips": [
       {
         "id": "4zYNEvdgI2s",
-        "title": "Calf slicer defense into the lockdown",
-        "by": "James Clingerman",
-        "vertical": false,
+        "title": "Calf-Slicer Defense to The Lock Down - Indianapolis Jiu-Jitsu",
         "channel": "James Clingerman",
         "duration": 270,
-        "verified": "2026-07-15"
+        "vertical": false,
+        "front": true
       },
       {
         "id": "zVi7DtAS76c",
-        "title": "Calf slicer early defense",
-        "by": "Ryan Hall student instructor",
-        "vertical": false,
+        "title": "Calf Slicer Defense Part 1 - Early Defense",
         "channel": "RVV BJJ",
         "duration": 462,
-        "verified": "2026-07-15"
+        "vertical": false
       }
     ]
   }

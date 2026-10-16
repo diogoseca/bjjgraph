@@ -155,39 +155,6 @@ description: "Master Williams Guard Top defense and passing strategies. Learn to
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Williams Guard (Top) \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Williams Guard cartwheel escape counter",
-      "description": "Williams Guard (Top) film study: Williams Guard cartwheel escape counter, taught by Sam Wilkinson.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/NZEf9jXzCYA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/NZEf9jXzCYA",
-      "url": "https://www.youtube.com/watch?v=NZEf9jXzCYA",
-      "creator": { "@type": "Person", "name": "Sam Wilkinson" },
-      "duration": "PT80S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Williams Guard armbar counter",
-      "description": "Williams Guard (Top) film study: Williams Guard armbar counter, taught by Sam Wilkinson.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/M__MeC_XCIM/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/M__MeC_XCIM",
-      "url": "https://www.youtube.com/watch?v=M__MeC_XCIM",
-      "creator": { "@type": "Person", "name": "Sam Wilkinson" },
-      "duration": "PT66S"
-    }
-  ]
-}
-</script>
-
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -198,32 +165,6 @@ Williams Guard Top represents the challenging defensive and passing position fac
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Williams Guard (Top) in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=NZEf9jXzCYA)
-
-<p class="clip-credit"><strong>Williams Guard cartwheel escape counter</strong> — taught by Sam Wilkinson · 1:20 · <a href="https://www.youtube.com/watch?v=NZEf9jXzCYA" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=M__MeC_XCIM)
-
-<p class="clip-credit"><strong>Williams Guard armbar counter</strong> — taught by Sam Wilkinson · 1:06 · <a href="https://www.youtube.com/watch?v=M__MeC_XCIM" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="state-invariants" class="content-section">

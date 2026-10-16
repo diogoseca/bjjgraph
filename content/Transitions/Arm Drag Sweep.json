@@ -412,31 +412,12 @@
     "safety_considerations": "The arm drag sweep is generally a safe technique with low injury risk when practiced properly. However, practitioners should be aware of the following safety considerations: (1) When drilling, avoid yanking the arm violently, especially with training partners who have shoulder or elbow issues; apply smooth, controlled force even when going fast. (2) As the person being swept, avoid posting with a straight arm to catch your fall, as this can cause wrist, elbow, or shoulder injuries; instead, break-fall properly by slapping the mat with your forearm. (3) Be cautious of knee and ankle stress when performing leg sweeping actions, particularly in butterfly guard where explosive hook elevation can strain the knee if performed with poor mechanics. (4) When transitioning to back control, avoid slamming your weight onto your partner's spine; maintain control and establish position gradually. (5) Both partners should communicate about pace and resistance during drilling, especially when practicing defensive counters at higher resistance levels. (6) Ensure adequate mat space as the technique can create rotational momentum that causes both practitioners to move laterally across the mat.",
     "clips": [
       {
-        "id": "MFed9IE8afA",
-        "title": "Reverse Arm Drag from Butterfly to Back Take",
-        "by": "Jerry Musquiz",
-        "vertical": false,
-        "channel": "Jerry Musquiz",
-        "duration": 42,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "W_cyuuL5_MA",
-        "title": "Arm Drag and Sweep from Half Guard",
-        "by": "Moncaio Brothers",
-        "vertical": false,
-        "channel": "Moncaio Brothers Jiujitsu",
-        "duration": 54,
-        "verified": "2026-07-15"
-      },
-      {
         "id": "VU5hNAnHzXA",
         "title": "Arm Drag from Scissor Sweep",
-        "by": "Scott Ryan Chiriboga",
-        "vertical": false,
         "channel": "Scott Ryan Chiriboga",
-        "duration": 103,
-        "verified": "2026-07-15"
+        "duration": 102,
+        "vertical": false,
+        "front": true
       }
     ]
   },
@@ -601,25 +582,6 @@
         "description": "After successfully defending the arm drag, immediately transition to a guard passing sequence rather than resetting to neutral. Practice defending the drag and flowing directly into standing guard break, toreando pass, or knee slice. Partner attacks with arm drag at full resistance and you must both defend and advance position. This phase develops the ability to use defensive success as an offensive springboard rather than merely surviving."
       }
     ],
-    "clips": [
-      {
-        "id": "bmCjXADzgo4",
-        "title": "How to Defend the Arm Drag",
-        "by": "Matt Arroyo",
-        "vertical": false,
-        "channel": "Matt Arroyo Jiu Jitsu ",
-        "duration": 103,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "yAWOJlx-dkE",
-        "title": "Arm drag defense: head in seatbelt",
-        "by": "Erik Paulson",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 63,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

@@ -160,35 +160,12 @@ description: "How to defend and escape the arm-in guillotine from bottom positio
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Escaping single and double arm guillotines",
-      "description": "Arm in Guillotine Variation (Defender) film study: Escaping single and double arm guillotines, taught by Cobrinha.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/dyTKKiajgzQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/dyTKKiajgzQ",
-      "url": "https://www.youtube.com/watch?v=dyTKKiajgzQ",
-      "creator": { "@type": "Person", "name": "Cobrinha" },
-      "duration": "PT44S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Guillotine escape from inside the guard",
-      "description": "Arm in Guillotine Variation (Defender) film study: Guillotine escape from inside the guard, taught by Ground Zero MMA.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Qb8gtundzPg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Qb8gtundzPg",
-      "url": "https://www.youtube.com/watch?v=Qb8gtundzPg",
-      "creator": { "@type": "Person", "name": "Ground Zero MMA" },
-      "duration": "PT57S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Arm-in guillotine defence from closed guard",
-      "description": "Arm in Guillotine Variation (Defender) film study: Arm-in guillotine defence from closed guard, taught by Essence BJJ.",
+      "name": "Arm in Guillotine Defence from Closed Guard",
+      "description": "Arm in Guillotine Variation (Defender) film study: Arm in Guillotine Defence from Closed Guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/IdHNqDoxlGE/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/IdHNqDoxlGE",
       "url": "https://www.youtube.com/watch?v=IdHNqDoxlGE",
-      "creator": { "@type": "Person", "name": "Essence BJJ" },
-      "duration": "PT158S"
+      "duration": "PT157S"
     }
   ]
 }
@@ -216,25 +193,9 @@ Defending the arm-in guillotine from bottom position requires immediate recognit
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=dyTKKiajgzQ)
-
-<p class="clip-credit"><strong>Escaping single and double arm guillotines</strong> — taught by Cobrinha · 0:44 · <a href="https://www.youtube.com/watch?v=dyTKKiajgzQ" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=Qb8gtundzPg)
-
-<p class="clip-credit"><strong>Guillotine escape from inside the guard</strong> — taught by Ground Zero MMA · 0:57 · <a href="https://www.youtube.com/watch?v=Qb8gtundzPg" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=IdHNqDoxlGE)
 
-<p class="clip-credit"><strong>Arm-in guillotine defence from closed guard</strong> — taught by Essence BJJ · 2:38 · <a href="https://www.youtube.com/watch?v=IdHNqDoxlGE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Arm in Guillotine Defence from Closed Guard</strong> · 2:37 · <a href="https://www.youtube.com/watch?v=IdHNqDoxlGE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

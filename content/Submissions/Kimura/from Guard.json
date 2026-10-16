@@ -500,21 +500,18 @@
     "clips": [
       {
         "id": "KAxTmcxGc60",
-        "title": "Kimura from Guard",
-        "by": "Gracie Charlottesville",
-        "vertical": false,
+        "title": "Kimura from Guard by Gracie Charlottesville",
         "channel": "Gracie Charlottesville",
-        "duration": 36,
-        "verified": "2026-07-14"
+        "duration": 35,
+        "vertical": false,
+        "front": true
       },
       {
         "id": "Y1ubVWKdbXU",
-        "title": "The Perfect Kimura (Gracie Breakdown)",
-        "by": "Gracie Breakdown",
-        "vertical": false,
+        "title": "The Perfect Kimura! (Gracie Breakdown)",
         "channel": "GracieBreakdown",
         "duration": 30,
-        "verified": "2026-07-14"
+        "vertical": false
       }
     ]
   },
@@ -713,30 +710,25 @@
     "clips": [
       {
         "id": "a6vbWASwse8",
-        "title": "Kimura Defense from Guard",
-        "by": "Jiu-Jitsu Channel",
-        "vertical": false,
+        "title": "Kimura defense from guard",
         "channel": "Jiu-Jitsu Channel",
         "duration": 67,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "TuaopPUakM8",
-        "title": "Defending the Kimura",
-        "by": "Eddie Kone",
         "vertical": false,
-        "channel": "Eddie Kone Academy Of Jiu-Jitsu",
-        "duration": 61,
-        "verified": "2026-07-14"
+        "front": true
       },
       {
         "id": "TIOgQ3N2a6Y",
-        "title": "How to Escape the Kimura Armlock",
-        "by": "Eddie Kone",
-        "vertical": false,
+        "title": "How to Escape the Kimura Armlock .",
         "channel": "Eddie Kone Academy Of Jiu-Jitsu",
         "duration": 45,
-        "verified": "2026-07-14"
+        "vertical": false
+      },
+      {
+        "id": "TuaopPUakM8",
+        "title": "Defending The Kimura",
+        "channel": "Eddie Kone Academy Of Jiu-Jitsu",
+        "duration": 61,
+        "vertical": false
       }
     ]
   },

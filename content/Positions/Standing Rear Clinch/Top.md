@@ -165,35 +165,12 @@ description: "Master Standing Rear Clinch in BJJ. Dominant back control from sta
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Mat Return Drill from Rear Bodylock",
-      "description": "Standing Rear Clinch (Top) film study: Mat Return Drill from Rear Bodylock, taught by Nicky Rodriguez.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/GKrJsIYmycM/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/GKrJsIYmycM",
-      "url": "https://www.youtube.com/watch?v=GKrJsIYmycM",
-      "creator": { "@type": "Person", "name": "Nicky Rodriguez" },
-      "duration": "PT84S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Bodylock to Back Take",
-      "description": "Standing Rear Clinch (Top) film study: Bodylock to Back Take, taught by Diogo Reis.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/iPXirj0gvko/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/iPXirj0gvko",
-      "url": "https://www.youtube.com/watch?v=iPXirj0gvko",
-      "creator": { "@type": "Person", "name": "Diogo Reis" },
-      "duration": "PT36S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Leg Switch Cutback from Rear Bodylock",
-      "description": "Standing Rear Clinch (Top) film study: Leg Switch Cutback from Rear Bodylock, taught by Procel BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/2VCyaassiRI/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/2VCyaassiRI",
-      "url": "https://www.youtube.com/watch?v=2VCyaassiRI",
-      "creator": { "@type": "Person", "name": "Procel BJJ" },
-      "duration": "PT52S"
+      "name": "3 Wrestling Entries to a Standing Rear Body Lock | No-Gi Technique| Pearson\u2026",
+      "description": "Standing Rear Clinch (Top) film study: 3 Wrestling Entries to a Standing Rear Body Lock | No-Gi Technique| Pearson\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lF5kkB2rq5Y/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lF5kkB2rq5Y",
+      "url": "https://www.youtube.com/watch?v=lF5kkB2rq5Y",
+      "duration": "PT194S"
     }
   ]
 }
@@ -223,25 +200,9 @@ The Standing Rear Clinch holds particular importance in no-gi grappling and MMA 
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=GKrJsIYmycM)
+![](https://www.youtube.com/watch?v=lF5kkB2rq5Y)
 
-<p class="clip-credit"><strong>Mat Return Drill from Rear Bodylock</strong> — taught by Nicky Rodriguez · 1:24 · <a href="https://www.youtube.com/watch?v=GKrJsIYmycM" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=iPXirj0gvko)
-
-<p class="clip-credit"><strong>Bodylock to Back Take</strong> — taught by Diogo Reis · 0:36 · <a href="https://www.youtube.com/watch?v=iPXirj0gvko" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=2VCyaassiRI)
-
-<p class="clip-credit"><strong>Leg Switch Cutback from Rear Bodylock</strong> — taught by Procel BJJ · 0:52 · <a href="https://www.youtube.com/watch?v=2VCyaassiRI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>3 Wrestling Entries to a Standing Rear Body Lock | No-Gi Technique| Pearson…</strong> · 3:14 · <a href="https://www.youtube.com/watch?v=lF5kkB2rq5Y" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -405,30 +405,18 @@
     "clips": [
       {
         "id": "O0Wz6fbOV1I",
-        "title": "Basic snap-down to front headlock",
-        "by": "WrestlingTournaments.com coach",
-        "vertical": false,
-        "channel": "WrestlingTournaments․com",
+        "title": "Basic snap-down to front-headlock",
+        "channel": "Wrestling Reimagined",
         "duration": 32,
-        "verified": "2026-07-15"
+        "vertical": false,
+        "front": true
       },
       {
         "id": "6MG6bloYM0k",
         "title": "Snap down to front headlock",
-        "by": "Training Grounds coach",
-        "vertical": false,
         "channel": "Training Grounds",
         "duration": 36,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "CnaxvdhToyM",
-        "title": "How to do a snap down",
-        "by": "Grapple Hub coach",
-        "vertical": false,
-        "channel": "Grapple hub ",
-        "duration": 60,
-        "verified": "2026-07-15"
+        "vertical": false
       }
     ]
   },
@@ -615,31 +603,12 @@
     ],
     "clips": [
       {
-        "id": "t4xBYQ1VauU",
-        "title": "Front headlock sit-out reversal",
-        "by": "Keith (Takada Dojo)",
+        "id": "OZkTT8kT1G8",
+        "title": "Clearing The Front Headlock - The School of Wrestling Technique",
+        "channel": "The School of Wrestling",
+        "duration": 86,
         "vertical": false,
-        "channel": "takadadojokeith",
-        "duration": 28,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "d312j3n9fIw",
-        "title": "Sit-out defence with head on back",
-        "by": "Mjolnir Fight Club coach",
-        "vertical": false,
-        "channel": "Mjølnir Fight Club",
-        "duration": 30,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "XPWHqs67tt8",
-        "title": "Front turtle escape",
-        "by": "Michael Daye",
-        "vertical": false,
-        "channel": "Michael Daye Landscaping and BJJ",
-        "duration": 60,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },

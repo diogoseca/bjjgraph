@@ -399,20 +399,17 @@
       {
         "id": "V8mEHRoiX1U",
         "title": "Snapdown to Guillotine",
-        "by": "Alec Hooben",
-        "vertical": false,
         "channel": "Alec Hooben",
         "duration": 68,
-        "verified": "2026-07-15"
+        "vertical": false,
+        "front": true
       },
       {
         "id": "GgXRLKAm9pY",
-        "title": "Guillotine from the Front Headlock",
-        "by": "Chris Jones",
-        "vertical": false,
+        "title": "Guillotine From Front Headlock - Technique Of The Month #7",
         "channel": "Chris Jones",
         "duration": 97,
-        "verified": "2026-07-15"
+        "vertical": false
       }
     ]
   },
@@ -596,29 +593,10 @@
       {
         "id": "OQYU2BXdEEw",
         "title": "Guillotine Choke Defense",
-        "by": "Todd Hendrickson",
-        "vertical": false,
-        "channel": "Todd Hendrickson Jiu Jitsu",
+        "channel": "Hendrickson Combatives",
         "duration": 51,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "8okq4cIHMO0",
-        "title": "Standing Guillotine Escape",
-        "by": "Dogtownman",
         "vertical": false,
-        "channel": "dogtownman",
-        "duration": 44,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "k5BNGdsb5P4",
-        "title": "Standing Guillotine Defense with Sitting Throw",
-        "by": "Gracie Charlottesville",
-        "vertical": false,
-        "channel": "Gracie Charlottesville",
-        "duration": 23,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },

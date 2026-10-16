@@ -162,24 +162,22 @@ description: "How to defend against Calf Slicer from Truck in BJJ. Recognition, 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Calf slicer early defense",
-      "description": "Calf Slicer from Truck (Defender) film study: Calf slicer early defense, taught by Ryan Hall student instructor.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/zVi7DtAS76c/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/zVi7DtAS76c",
-      "url": "https://www.youtube.com/watch?v=zVi7DtAS76c",
-      "creator": { "@type": "Person", "name": "Ryan Hall student instructor" },
-      "duration": "PT462S"
+      "name": "Calf Slicer Defense Part 2 - Late Defense",
+      "description": "Calf Slicer from Truck (Defender) film study: Calf Slicer Defense Part 2 - Late Defense.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9l-XOzg5DCA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9l-XOzg5DCA",
+      "url": "https://www.youtube.com/watch?v=9l-XOzg5DCA",
+      "duration": "PT346S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Calf slicer late defense options",
-      "description": "Calf Slicer from Truck (Defender) film study: Calf slicer late defense options, taught by Ryan Hall student instructor.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/9l-XOzg5DCA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/9l-XOzg5DCA",
-      "url": "https://www.youtube.com/watch?v=9l-XOzg5DCA",
-      "creator": { "@type": "Person", "name": "Ryan Hall student instructor" },
-      "duration": "PT346S"
+      "name": "Calf Slicer Defense Part 1 - Early Defense",
+      "description": "Calf Slicer from Truck (Defender) film study: Calf Slicer Defense Part 1 - Early Defense.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/zVi7DtAS76c/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/zVi7DtAS76c",
+      "url": "https://www.youtube.com/watch?v=zVi7DtAS76c",
+      "duration": "PT462S"
     }
   ]
 }
@@ -208,17 +206,17 @@ Defending the calf slicer from truck requires addressing two simultaneous proble
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=zVi7DtAS76c)
+![](https://www.youtube.com/watch?v=9l-XOzg5DCA)
 
-<p class="clip-credit"><strong>Calf slicer early defense</strong> — taught by Ryan Hall student instructor · 7:42 · <a href="https://www.youtube.com/watch?v=zVi7DtAS76c" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Calf Slicer Defense Part 2 - Late Defense</strong> · 5:46 · <a href="https://www.youtube.com/watch?v=9l-XOzg5DCA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=9l-XOzg5DCA)
+![](https://www.youtube.com/watch?v=zVi7DtAS76c)
 
-<p class="clip-credit"><strong>Calf slicer late defense options</strong> — taught by Ryan Hall student instructor · 5:46 · <a href="https://www.youtube.com/watch?v=9l-XOzg5DCA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Calf Slicer Defense Part 1 - Early Defense</strong> · 7:42 · <a href="https://www.youtube.com/watch?v=zVi7DtAS76c" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

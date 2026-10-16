@@ -416,29 +416,30 @@
       {
         "id": "vhFpxC1vCag",
         "title": "Paper Cutter Choke with Lapel from Side Control",
-        "by": "Robert Hugus",
-        "vertical": false,
         "channel": "Robert Hugus BJJ Videos",
         "duration": 42,
-        "verified": "2026-07-14"
+        "vertical": false,
+        "front": true
+      },
+      {
+        "id": "Jh-Q1rYrQvA",
+        "title": "Bread Cutter Choke From Side Control",
+        "channel": "Precision Boxing & MMA",
+        "duration": 142
       },
       {
         "id": "3SNZDysizY0",
-        "title": "Side Control Breadcutter Choke",
-        "by": "Nino Schembri",
-        "vertical": false,
+        "title": "Nino Schembri Side Control Breadcutter Choke to Far Side Armbar",
         "channel": "Nino Schembri BJJ Academy",
         "duration": 46,
-        "verified": "2026-07-14"
+        "vertical": false
       },
       {
         "id": "xab75xOnHqk",
-        "title": "Bread Cutter Choke, Roger Gracie Style",
-        "by": "Andy Hagans",
-        "vertical": false,
+        "title": "The Timeless Bread Cutter Choke! (Roger Gracie Style) - Andy Hagans",
         "channel": "Guardian Jiu-Jitsu - Holland, Michigan",
         "duration": 70,
-        "verified": "2026-07-14"
+        "vertical": false
       }
     ]
   },
@@ -623,30 +624,17 @@
     "clips": [
       {
         "id": "gwqRwPsnNnQ",
-        "title": "Paper Cutter Choke Counter",
-        "by": "Gracie Barra HQ",
-        "vertical": false,
+        "title": "Paper Cutter Choke + Counter Attack",
         "channel": "Gracie Barra HQ - California",
-        "duration": 195,
-        "verified": "2026-07-14"
+        "duration": 194,
+        "vertical": false,
+        "front": true
       },
       {
-        "id": "WxoD5sDUyW4",
-        "title": "A more effective side control escape",
-        "by": "Wim Deputter",
-        "vertical": false,
-        "channel": "Wim Deputter BJJ",
-        "duration": 206,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "Us1B8R7jsHg",
-        "title": "Gi side control escape before the paper cutter",
-        "by": "Steve Codella",
-        "vertical": false,
-        "channel": "Jay Storm",
-        "duration": 147,
-        "verified": "2026-07-15"
+        "id": "u3QCYxp87uk",
+        "title": "3 Bread Cutter Escapes",
+        "channel": "Brandon Quick",
+        "duration": 225
       }
     ]
   }

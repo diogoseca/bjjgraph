@@ -46,23 +46,11 @@ description: "Master sweeps against Combat Base in BJJ. Complete guide to exploi
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Sitting guard sweep against combat base",
-      "description": "Sweep from Combat Base film study: Sitting guard sweep against combat base, taught by Jean Jacques Machado.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/z-3izL3cyTQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/z-3izL3cyTQ",
-      "url": "https://www.youtube.com/watch?v=z-3izL3cyTQ",
-      "creator": { "@type": "Person", "name": "Jean Jacques Machado" },
-      "duration": "PT114S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Sweeping the combat base",
-      "description": "Sweep from Combat Base film study: Sweeping the combat base, taught by Sticks and Stones BJJ.",
+      "name": "Sweep the Combat Base",
+      "description": "Sweep from Combat Base film study: Sweep the Combat Base.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Ge4PxqkgVN4/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Ge4PxqkgVN4",
       "url": "https://www.youtube.com/watch?v=Ge4PxqkgVN4",
-      "creator": { "@type": "Person", "name": "Sticks and Stones BJJ" },
       "duration": "PT205S"
     }
   ]
@@ -117,17 +105,9 @@ This sweep family is essential for any guard player facing a disciplined passer 
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=z-3izL3cyTQ)
-
-<p class="clip-credit"><strong>Sitting guard sweep against combat base</strong> — taught by Jean Jacques Machado · 1:54 · <a href="https://www.youtube.com/watch?v=z-3izL3cyTQ" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=Ge4PxqkgVN4)
 
-<p class="clip-credit"><strong>Sweeping the combat base</strong> — taught by Sticks and Stones BJJ · 3:25 · <a href="https://www.youtube.com/watch?v=Ge4PxqkgVN4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Sweep the Combat Base</strong> · 3:25 · <a href="https://www.youtube.com/watch?v=Ge4PxqkgVN4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

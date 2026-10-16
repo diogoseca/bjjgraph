@@ -405,31 +405,12 @@
     "safety_considerations": "Kosoto Gake is generally one of the safest takedowns to practice and execute. The primary safety concerns involve controlled landing for both participants. The person being thrown should practice breakfall technique (slapping the mat with their arm to disperse impact) to prevent head or shoulder injury. The thrower must be careful not to land with excessive weight directly on opponent's ribs or head, instead distributing pressure across the torso. When drilling at beginner levels, both partners should practice on soft mats and communicate about execution speed. In competition, be aware that aggressive execution can result in the thrown person's head impacting the mat if their posture is severely broken. Control the upper body pull to ensure safe landing.",
     "clips": [
       {
-        "id": "HfU9mAYpZ5k",
-        "title": "Kosoto Gake compilation — minor outside hook",
-        "by": "Ochiru",
-        "vertical": false,
-        "channel": "Ochiru",
-        "duration": 77,
-        "verified": "2026-07-15"
-      },
-      {
         "id": "8b6kY4s4zH4",
-        "title": "Ko-soto-gake kodokan demonstration",
-        "by": "Kodokan",
-        "vertical": false,
+        "title": "小外掛 / Ko-soto-gake",
         "channel": "KODOKAN",
         "duration": 94,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "EkQtqw0AuOg",
-        "title": "Sticky foot kosoto setup and finish",
-        "by": "Shintaro Higashi",
         "vertical": false,
-        "channel": "Shintaro Higashi",
-        "duration": 194,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },
@@ -608,26 +589,7 @@
         "description": "Defend Kosoto Gake during live standup sparring with full resistance. Partner is encouraged to attempt the throw whenever opportunities arise. Track how often you recognize the setup early versus late and which defensive option you default to. Identify patterns in your defensive gaps."
       }
     ],
-    "clips": [
-      {
-        "id": "R32NoE1_CL8",
-        "title": "Kosoto gake as a defense to an attack",
-        "by": "Aberdeen Judo",
-        "vertical": false,
-        "channel": "Aberdeen Judo British Columbia",
-        "duration": 50,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "C7HnA1zd5Rs",
-        "title": "Countering big judo throws",
-        "by": "Shintaro Higashi",
-        "vertical": false,
-        "channel": "Shintaro Higashi",
-        "duration": 161,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "variants_and_adaptations": [
     {

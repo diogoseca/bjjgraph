@@ -418,30 +418,11 @@
     "clips": [
       {
         "id": "FsJlz-J_h9w",
-        "title": "Single leg takedown to back take",
-        "by": "Sdotbell",
-        "vertical": false,
+        "title": "Best Single leg Takedown to Back Take  | Best BJJ Takedowns | One Minute…",
         "channel": "Sdotbell MMA (SdotbellMMA)",
         "duration": 46,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "f3PJ06A_bWQ",
-        "title": "Hip switch to back take",
-        "by": "Gordon Ryan",
         "vertical": false,
-        "channel": "Jiu Jitsu Moves",
-        "duration": 19,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "s3Mm2PcqwpE",
-        "title": "Finishing the single leg: options and counters",
-        "by": "Talgat Ilyasov",
-        "vertical": false,
-        "channel": "Absolute MMA St Kilda - Melbourne",
-        "duration": 196,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },
@@ -620,25 +601,6 @@
         "description": "Start from live single leg attacks where the partner actively seeks the back take. Practice the full defensive hierarchy: square hips, clear hook, fight grips, turn to face. Partner works at high intensity. Measure success by whether they achieve full back control or whether you shut down the attempt at an earlier stage. Review which defensive layer needs the most work."
       }
     ],
-    "clips": [
-      {
-        "id": "OltjLaTW3wQ",
-        "title": "Three ways to defend the back take",
-        "by": "Roberto Cyborg Abreu",
-        "vertical": false,
-        "channel": "Cyborg BJJ",
-        "duration": 89,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "ikqRbVwQ6eM",
-        "title": "Defending the single leg with a false X",
-        "by": "Factory Fresh Jiu Jitsu",
-        "vertical": false,
-        "channel": "Factory Fresh Jiu Jitsu",
-        "duration": 127,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

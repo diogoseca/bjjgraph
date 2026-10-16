@@ -416,26 +416,7 @@
       }
     ],
     "safety_considerations": "The explosive hip extension involved in the Shake Off can strain the lower back if performed without adequate warm-up or with poor mechanics. Progress from controlled-speed repetitions to full-speed execution gradually. Avoid hyperextending the spine during the hip pop—drive through the hips rather than arching the lower back. Training partners acting as the rider should be prepared for the sudden directional change and avoid bracing rigidly, which can cause shoulder or wrist injury on displacement. Tap immediately if neck position becomes compromised during the sequence. Communicate with training partners about intensity levels, particularly when practicing the double-hip pop variant which generates higher forces.",
-    "clips": [
-      {
-        "id": "F7LWaSTKDPI",
-        "title": "Turtle bottom: connecting head and shoulder",
-        "by": "Black Dragon BJJ",
-        "vertical": false,
-        "channel": "Black Dragon BJJ  / Cobra Kai Karate Dungannon",
-        "duration": 305,
-        "verified": "2026-07-16"
-      },
-      {
-        "id": "sSGaeoVvcwk",
-        "title": "Attacking from turtle",
-        "by": "Grappling Instructionals",
-        "vertical": false,
-        "channel": "Grapplinginstructionals",
-        "duration": 39,
-        "verified": "2026-07-16"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Shake Off Rodeo Ride Defender",
@@ -577,25 +558,6 @@
         "description": "Full resistance positional sparring from Rodeo Ride top where the bottom player uses their complete escape toolkit. Maintain attacking pressure while defending against shake-offs and other escapes. Track your ability to either maintain Rodeo Ride or advance to back control against the full range of bottom player escape attempts."
       }
     ],
-    "clips": [
-      {
-        "id": "XXnawMQEfKw",
-        "title": "Breaking the Turtle with the Spiral Ride",
-        "by": "Big Guy BJJ",
-        "vertical": false,
-        "channel": "Big Guy BJJ",
-        "duration": 73,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "PT50ievI18k",
-        "title": "Spiral Ride to Break the Turtle",
-        "by": "Craig Jones",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 200,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

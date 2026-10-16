@@ -46,24 +46,22 @@ description: "Escape from Cross Body Ride in BJJ. Complete guide to clearing hoo
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Cross body leg ride escape",
-      "description": "Escape from Cross Body Ride film study: Cross body leg ride escape, taught by Hideout Wrestling.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/H3UURW2F9g8/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/H3UURW2F9g8",
-      "url": "https://www.youtube.com/watch?v=H3UURW2F9g8",
-      "creator": { "@type": "Person", "name": "Hideout Wrestling" },
-      "duration": "PT49S"
+      "name": "Purdue Camp 2022 - Jake Sueflohn - Escaping cross body ride",
+      "description": "Escape from Cross Body Ride film study: Purdue Camp 2022 - Jake Sueflohn - Escaping cross body ride.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/l7FuJKfhhug/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/l7FuJKfhhug",
+      "url": "https://www.youtube.com/watch?v=l7FuJKfhhug",
+      "duration": "PT191S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Five Crossbody Escape Drills",
-      "description": "Escape from Cross Body Ride film study: Five Crossbody Escape Drills, taught by Clinch Academy coach.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/S2-UjM43Luk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/S2-UjM43Luk",
-      "url": "https://www.youtube.com/watch?v=S2-UjM43Luk",
-      "creator": { "@type": "Person", "name": "Clinch Academy coach" },
-      "duration": "PT152S"
+      "name": "Leg Riding Defense vs  Cross Body Ride, Jeff Jordan, Jeff Jordan Wrestling\u2026",
+      "description": "Escape from Cross Body Ride film study: Leg Riding Defense vs  Cross Body Ride, Jeff Jordan, Jeff Jordan Wrestling\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/tUuT7lVaIRA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/tUuT7lVaIRA",
+      "url": "https://www.youtube.com/watch?v=tUuT7lVaIRA",
+      "duration": "PT324S"
     }
   ]
 }
@@ -117,17 +115,17 @@ Strategically, this escape represents a high-reward response to a deteriorating 
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=H3UURW2F9g8)
+![](https://www.youtube.com/watch?v=l7FuJKfhhug)
 
-<p class="clip-credit"><strong>Cross body leg ride escape</strong> — taught by Hideout Wrestling · 0:49 · <a href="https://www.youtube.com/watch?v=H3UURW2F9g8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Purdue Camp 2022 - Jake Sueflohn - Escaping cross body ride</strong> · 3:11 · <a href="https://www.youtube.com/watch?v=l7FuJKfhhug" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=S2-UjM43Luk)
+![](https://www.youtube.com/watch?v=tUuT7lVaIRA)
 
-<p class="clip-credit"><strong>Five Crossbody Escape Drills</strong> — taught by Clinch Academy coach · 2:32 · <a href="https://www.youtube.com/watch?v=S2-UjM43Luk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Leg Riding Defense vs  Cross Body Ride, Jeff Jordan, Jeff Jordan Wrestling…</strong> · 5:24 · <a href="https://www.youtube.com/watch?v=tUuT7lVaIRA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

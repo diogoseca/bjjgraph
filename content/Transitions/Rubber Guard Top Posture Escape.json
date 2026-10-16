@@ -349,22 +349,11 @@
     "safety_considerations": "This escape involves movements around the neck and shoulder area while under posture-breaking pressure. Avoid explosive jerking of the trapped arm as this can cause shoulder impingement or rotator cuff strain. If neck pain develops from prolonged posture breaking, tap and reset rather than fighting through cervical compression. During training, partners holding Rubber Guard should release immediately if the top player reports neck discomfort, and both practitioners should warm up neck and shoulder mobility before drilling this escape.",
     "clips": [
       {
-        "id": "AvivOVuYcCk",
-        "title": "Simple rubber guard escape for the top player",
-        "by": "BJJ4Breakfast",
-        "vertical": false,
-        "channel": "BJJ4Breakfast",
-        "duration": 131,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "RCnDWdAWXQs",
-        "title": "Recovering Posture Against an Overhook Guard",
-        "by": "Lachlan Giles",
-        "vertical": false,
-        "channel": "Absolute MMA St Kilda - Melbourne",
-        "duration": 559,
-        "verified": "2026-07-15"
+        "id": "3RAXSx1a4OA",
+        "title": "Passing Rubber Guard: Posture Preservation",
+        "channel": "Escapes",
+        "duration": 411,
+        "front": true
       }
     ]
   },
@@ -543,25 +532,6 @@
         "description": "Positional sparring with full resistance starting in Rubber Guard. Bottom player works to maintain control and submit or sweep. Top player works to escape. Track retention rate, submission conversion rate, and how often the position advances through the hierarchy before resolution."
       }
     ],
-    "clips": [
-      {
-        "id": "GWR4g4St-yw",
-        "title": "Invisible detail for holding rubber guard",
-        "by": "Strength & Honor MMA",
-        "vertical": false,
-        "channel": "Strength & Honor MMA",
-        "duration": 142,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "OXNu_vW7onc",
-        "title": "Why your rubber guard keeps getting passed",
-        "by": "Brandon Mccaghren",
-        "vertical": false,
-        "channel": "Brandon Mccaghren",
-        "duration": 282,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

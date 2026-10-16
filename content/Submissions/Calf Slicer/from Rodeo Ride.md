@@ -46,23 +46,21 @@ description: "Master the Calf Slicer from Rodeo Ride in BJJ. Complete guide to c
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Calf Slicer Counter to Backstep",
-      "description": "Calf Slicer from Rodeo Ride film study: Calf Slicer Counter to Backstep, taught by Revolution BJJ.",
+      "name": "Calf Slicer as a Counter to Backstep (Leglock Chains)",
+      "description": "Calf Slicer from Rodeo Ride film study: Calf Slicer as a Counter to Backstep (Leglock Chains).",
       "thumbnailUrl": "https://i.ytimg.com/vi/V77Pzrj6AOE/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/V77Pzrj6AOE",
       "url": "https://www.youtube.com/watch?v=V77Pzrj6AOE",
-      "creator": { "@type": "Person", "name": "Revolution BJJ" },
       "duration": "PT54S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Calf Slicer Setup: Open Guard / Banana Split",
-      "description": "Calf Slicer from Rodeo Ride film study: Calf Slicer Setup: Open Guard / Banana Split, taught by John Cole.",
+      "name": "Calf Slicer Setup From Open Guard, Banana Split, Rear Naked Choke - 2015",
+      "description": "Calf Slicer from Rodeo Ride film study: Calf Slicer Setup From Open Guard, Banana Split, Rear Naked Choke - 2015.",
       "thumbnailUrl": "https://i.ytimg.com/vi/v12bCWO19tk/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/v12bCWO19tk",
       "url": "https://www.youtube.com/watch?v=v12bCWO19tk",
-      "creator": { "@type": "Person", "name": "John Cole" },
       "duration": "PT20S"
     }
   ]
@@ -128,7 +126,7 @@ The calf slicer from this position requires precise leg threading mechanics and 
 
 ![](https://www.youtube.com/watch?v=V77Pzrj6AOE)
 
-<p class="clip-credit"><strong>Calf Slicer Counter to Backstep</strong> — taught by Revolution BJJ · 0:54 · <a href="https://www.youtube.com/watch?v=V77Pzrj6AOE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Calf Slicer as a Counter to Backstep (Leglock Chains)</strong> · 0:54 · <a href="https://www.youtube.com/watch?v=V77Pzrj6AOE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -136,7 +134,7 @@ The calf slicer from this position requires precise leg threading mechanics and 
 
 ![](https://www.youtube.com/watch?v=v12bCWO19tk)
 
-<p class="clip-credit"><strong>Calf Slicer Setup: Open Guard / Banana Split</strong> — taught by John Cole · 0:20 · <a href="https://www.youtube.com/watch?v=v12bCWO19tk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Calf Slicer Setup From Open Guard, Banana Split, Rear Naked Choke - 2015</strong> · 0:20 · <a href="https://www.youtube.com/watch?v=v12bCWO19tk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

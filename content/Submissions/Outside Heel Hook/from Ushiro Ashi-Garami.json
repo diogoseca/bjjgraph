@@ -444,35 +444,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "WvUalQ3yOpY",
-        "title": "Outside Ashi Leg Lock Series",
-        "by": "10th Planet Torrance",
-        "vertical": false,
-        "channel": "10th Planet Jiu Jitsu: Torrance",
-        "duration": 73,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "wuZyTP4bF6g",
-        "title": "Ashi Garami to Saddle and Backside 50/50 Heel Hooks",
-        "by": "Aidan Woodhouse",
-        "vertical": false,
-        "channel": "London Grapple",
-        "duration": 231,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "HaOkWkhQikQ",
-        "title": "Cross Outside Sankaku Leg Lock System",
-        "by": "Still Rolling Coach",
-        "vertical": false,
-        "channel": "Still Rolling",
-        "duration": 470,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "from Ushiro Ashi-Garami Defender",
@@ -652,25 +624,6 @@
         "description": "Partner applies slow, controlled heel hook finishing pressure from established grips. Practice identifying the exact moment when rotational pressure loads through the knee and executing immediate tap signals. Build the habit of tapping at the first sign of rotational load rather than testing limits. This phase is critical for injury prevention and must be revisited regularly."
       }
     ],
-    "clips": [
-      {
-        "id": "m0NLphEuFoc",
-        "title": "Leg Lock Defense",
-        "by": "Kuwy Jitsu",
-        "vertical": false,
-        "channel": "Kuwy Jitsu",
-        "duration": 61,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "v3w0qXLKxug",
-        "title": "Defending Heel Hooks",
-        "by": "Absolute MMA St Kilda",
-        "vertical": false,
-        "channel": "Absolute MMA St Kilda - Melbourne",
-        "duration": 92,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   }
 }

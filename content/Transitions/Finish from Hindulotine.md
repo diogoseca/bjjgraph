@@ -46,35 +46,22 @@ description: "Master the Finish from Hindulotine in BJJ. Learn rotational squeez
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Hindulotine breakdown from rubber guard",
-      "description": "Finish from Hindulotine film study: Hindulotine breakdown from rubber guard, taught by CordesgainsBJJ.",
+      "name": "Hindulotine Breakdown",
+      "description": "Finish from Hindulotine film study: Hindulotine Breakdown.",
       "thumbnailUrl": "https://i.ytimg.com/vi/i9rAyo8tRZw/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/i9rAyo8tRZw",
       "url": "https://www.youtube.com/watch?v=i9rAyo8tRZw",
-      "creator": { "@type": "Person", "name": "CordesgainsBJJ" },
-      "duration": "PT87S"
+      "duration": "PT86S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Hindulotine submission of the week",
-      "description": "Finish from Hindulotine film study: Hindulotine submission of the week, taught by Ben Eddy.",
+      "name": "Ben Eddy - Hindulotine (Control Jiu-Jitsu Submission of The Week)",
+      "description": "Finish from Hindulotine film study: Ben Eddy - Hindulotine (Control Jiu-Jitsu Submission of The Week).",
       "thumbnailUrl": "https://i.ytimg.com/vi/YbOV4vESByc/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/YbOV4vESByc",
       "url": "https://www.youtube.com/watch?v=YbOV4vESByc",
-      "creator": { "@type": "Person", "name": "Ben Eddy" },
-      "duration": "PT97S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Hindulotine finish in competition",
-      "description": "Finish from Hindulotine film study: Hindulotine finish in competition, taught by Ben Eddy.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/6UwoAQt6u6o/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/6UwoAQt6u6o",
-      "url": "https://www.youtube.com/watch?v=6UwoAQt6u6o",
-      "creator": { "@type": "Person", "name": "Ben Eddy" },
-      "duration": "PT60S"
+      "duration": "PT96S"
     }
   ]
 }
@@ -130,7 +117,7 @@ Success depends on the attacker's ability to make continuous micro-adjustments t
 
 ![](https://www.youtube.com/watch?v=i9rAyo8tRZw)
 
-<p class="clip-credit"><strong>Hindulotine breakdown from rubber guard</strong> — taught by CordesgainsBJJ · 1:27 · <a href="https://www.youtube.com/watch?v=i9rAyo8tRZw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Hindulotine Breakdown</strong> · 1:26 · <a href="https://www.youtube.com/watch?v=i9rAyo8tRZw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -138,15 +125,7 @@ Success depends on the attacker's ability to make continuous micro-adjustments t
 
 ![](https://www.youtube.com/watch?v=YbOV4vESByc)
 
-<p class="clip-credit"><strong>Hindulotine submission of the week</strong> — taught by Ben Eddy · 1:37 · <a href="https://www.youtube.com/watch?v=YbOV4vESByc" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=6UwoAQt6u6o)
-
-<p class="clip-credit"><strong>Hindulotine finish in competition</strong> — taught by Ben Eddy · 1:00 · <a href="https://www.youtube.com/watch?v=6UwoAQt6u6o" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Ben Eddy - Hindulotine (Control Jiu-Jitsu Submission of The Week)</strong> · 1:36 · <a href="https://www.youtube.com/watch?v=YbOV4vESByc" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -369,35 +369,7 @@
       }
     ],
     "safety_considerations": "Triangle from Mount involves significant neck compression and should be trained with careful communication between partners. The mounted triangle applies blood choke pressure to the carotid arteries, which can cause unconsciousness within seconds if the bottom player cannot or does not tap. Always apply the choke gradually during training and release immediately upon tap or verbal submission. The leg swing transition carries risk of knee collision with the opponent's face—control the speed of the swing during drilling. Bottom players should tap early when caught in mounted triangle, as the top player's weight makes the choke substantially tighter than guard triangles. Partners with cervical spine issues should avoid this technique or train with minimal finishing pressure. Never crank the neck laterally while in the triangle—the submission works through bilateral carotid compression, not neck torque.",
-    "clips": [
-      {
-        "id": "_tzcSlkSRKY",
-        "title": "Mounted Triangle Extra Details",
-        "by": "FightClubJiuJitsu",
-        "vertical": false,
-        "channel": "FightClubJiuJitsu",
-        "duration": 57,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "vLUua_voKzc",
-        "title": "Mounted Triangle Demonstration",
-        "by": "Satori BJJ",
-        "vertical": false,
-        "channel": "Satori BJJ",
-        "duration": 53,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "1hjapzU7lQg",
-        "title": "Finishing the Mounted Triangle",
-        "by": "Brandon Mccaghren",
-        "vertical": false,
-        "channel": "Brandon Mccaghren",
-        "duration": 177,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Triangle from Mount Defender",
@@ -583,29 +555,10 @@
       {
         "id": "l-HhOV9UjJU",
         "title": "Preventing the Mounted Triangle",
-        "by": "Justen Hamilton",
-        "vertical": false,
         "channel": "Justen Hamilton",
         "duration": 104,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "djm7BIQksOQ",
-        "title": "How to defend the mounted triangle",
-        "by": "RVV BJJ coach",
         "vertical": false,
-        "channel": "RVV BJJ",
-        "duration": 194,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "od-lcD_34f8",
-        "title": "Front triangle late escape",
-        "by": "Garry Tonon",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 230,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },

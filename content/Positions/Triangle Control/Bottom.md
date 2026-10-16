@@ -165,24 +165,12 @@ description: "Master Triangle Control Bottom in BJJ. Dominant submission control
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Closed guard triangle inside entry",
-      "description": "Triangle Control (Bottom) film study: Closed guard triangle inside entry, taught by Ritchie Yip.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/rQz3tjQZzjY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/rQz3tjQZzjY",
-      "url": "https://www.youtube.com/watch?v=rQz3tjQZzjY",
-      "creator": { "@type": "Person", "name": "Ritchie Yip" },
-      "duration": "PT44S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Wristlock triangle finish",
-      "description": "Triangle Control (Bottom) film study: Wristlock triangle finish, taught by ZombieProofBJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Gz1lhRuIQHk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Gz1lhRuIQHk",
-      "url": "https://www.youtube.com/watch?v=Gz1lhRuIQHk",
-      "creator": { "@type": "Person", "name": "ZombieProofBJJ" },
-      "duration": "PT47S"
+      "name": "Triangle Choke: The Detail That Changes Everything ( Complete Guide )",
+      "description": "Triangle Control (Bottom) film study: Triangle Choke: The Detail That Changes Everything ( Complete Guide ).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/UGp6VzbkReA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/UGp6VzbkReA",
+      "url": "https://www.youtube.com/watch?v=UGp6VzbkReA",
+      "duration": "PT735S"
     }
   ]
 }
@@ -214,17 +202,9 @@ The submission chain available from triangle control represents one of the most 
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=rQz3tjQZzjY)
+![](https://www.youtube.com/watch?v=UGp6VzbkReA)
 
-<p class="clip-credit"><strong>Closed guard triangle inside entry</strong> — taught by Ritchie Yip · 0:44 · <a href="https://www.youtube.com/watch?v=rQz3tjQZzjY" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=Gz1lhRuIQHk)
-
-<p class="clip-credit"><strong>Wristlock triangle finish</strong> — taught by ZombieProofBJJ · 0:47 · <a href="https://www.youtube.com/watch?v=Gz1lhRuIQHk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Triangle Choke: The Detail That Changes Everything ( Complete Guide )</strong> · 12:15 · <a href="https://www.youtube.com/watch?v=UGp6VzbkReA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

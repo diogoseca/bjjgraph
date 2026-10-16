@@ -444,31 +444,12 @@
     ],
     "clips": [
       {
-        "id": "3OkCuU0B0UE",
-        "title": "Attack the Back with a Body Triangle",
-        "by": "Grapple Box",
-        "vertical": false,
-        "channel": "Grapple Box llc",
-        "duration": 28,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "8JwxpgWGsFU",
-        "title": "How to Properly Use a Body Triangle",
-        "by": "Gordon Ryan",
-        "vertical": false,
-        "channel": "Less Impressed More Involved BJJ",
-        "duration": 294,
-        "verified": "2026-07-14"
-      },
-      {
         "id": "TFKAmteeVIA",
-        "title": "Body Triangle Troubleshooting",
-        "by": "Tom Halpin",
-        "vertical": false,
+        "title": "Back Attacks 3.0 - #3: Body Triangle Troubleshooting // Tom Halpin",
         "channel": "Tom Halpin",
         "duration": 186,
-        "verified": "2026-07-14"
+        "vertical": false,
+        "front": true
       }
     ]
   },
@@ -864,21 +845,18 @@
     "clips": [
       {
         "id": "hgaULMND3ag",
-        "title": "Escaping the Body Triangle",
-        "by": "Coach Brian",
-        "vertical": false,
+        "title": "TMG Clips #78 - Escaping The Body Triangle",
         "channel": "TeachMeGrappling Coach Brian",
         "duration": 129,
-        "verified": "2026-07-14"
+        "vertical": false,
+        "front": true
       },
       {
         "id": "XXnVvrZXGOs",
-        "title": "Body Triangle Escape",
-        "by": "Art of War MMA",
-        "vertical": false,
+        "title": "Body Triangle Escape (BJJ Instructional)",
         "channel": "Art of War - MMA",
         "duration": 173,
-        "verified": "2026-07-14"
+        "vertical": false
       }
     ]
   },
@@ -996,24 +974,5 @@
       }
     }
   ],
-  "clips": [
-    {
-      "id": "8JwxpgWGsFU",
-      "title": "How to Properly Use a Body Triangle",
-      "by": "Gordon Ryan",
-      "vertical": false,
-      "channel": "Less Impressed More Involved BJJ",
-      "duration": 294,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "t85-T9z_evY",
-      "title": "Body Triangle with Shoulder Lock",
-      "by": "Demian Maia",
-      "vertical": false,
-      "channel": "BJJ Fanatics",
-      "duration": 195,
-      "verified": "2026-07-14"
-    }
-  ]
+  "clips": []
 }

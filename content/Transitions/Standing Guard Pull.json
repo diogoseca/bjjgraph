@@ -405,21 +405,11 @@
     "clips": [
       {
         "id": "P7mhNq9atUo",
-        "title": "Open guard pull from standing",
-        "by": "Absolute MMA",
-        "vertical": false,
+        "title": "Kids BJJ Yellow / White Belt - Open Guard Pull",
         "channel": "Absolute MMA",
         "duration": 79,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "B4_5rH7Vae0",
-        "title": "Competition-tested ways to pull guard",
-        "by": "Jon Thomas",
         "vertical": false,
-        "channel": "JonThomasBJJ Plus",
-        "duration": 207,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },
@@ -600,31 +590,12 @@
     ],
     "clips": [
       {
-        "id": "TFmD-xVlkpM",
-        "title": "What to do when your opponent pulls guard",
-        "by": "Fabio Galeb",
-        "vertical": false,
-        "channel": "Galeb BJJ Association ",
-        "duration": 47,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "aaE1IFqvknI",
-        "title": "Countering the guard pull",
-        "by": "Meerkatsu",
-        "vertical": false,
-        "channel": "Meerkatsu's BJJ Videos",
-        "duration": 93,
-        "verified": "2026-07-15"
-      },
-      {
         "id": "u-jWz-kuERU",
-        "title": "Sweep counter to the guard pull drill",
-        "by": "Cobra",
-        "vertical": false,
+        "title": "Sweep counter to guard pull Drill",
         "channel": "Cobra",
-        "duration": 88,
-        "verified": "2026-07-15"
+        "duration": 87,
+        "vertical": false,
+        "front": true
       }
     ]
   }

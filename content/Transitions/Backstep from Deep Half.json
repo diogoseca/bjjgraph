@@ -370,35 +370,7 @@
       }
     ],
     "safety_considerations": "The backstep involves significant rotational forces on both players' knees during the stepping phase. The top player must control their descent to avoid landing with full weight on the bottom player's head or neck during the rotation. Both players should be aware of knee torque during the trapped leg extraction, particularly if the trapped leg does not release cleanly as the hips rotate. Practice at controlled speeds before adding intensity, and communicate with your training partner if any knee discomfort occurs during drilling. The posting hand must be positioned carefully to avoid landing on the bottom player's face during the weight transfer.",
-    "clips": [
-      {
-        "id": "jGTBslgblas",
-        "title": "Half guard backstep to honey hole knee slide",
-        "by": "Jiu Jitsu Land",
-        "vertical": false,
-        "channel": "Jiu Jitsu Land (중단 채널 old channel)",
-        "duration": 13,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "ABSueJ6cwis",
-        "title": "Half guard lockdown pass with backstep",
-        "by": "Peter Mettler",
-        "vertical": false,
-        "channel": "Peter Mettler Martial Arts",
-        "duration": 98,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "uU4eLkeMR1o",
-        "title": "Backstep basics for passing",
-        "by": "Jon Thor Blank",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 150,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Backstep from Deep Half Defender",
@@ -578,20 +550,10 @@
       {
         "id": "aR7AKMKyd9w",
         "title": "Dealing with the backstep from deep half guard",
-        "by": "Andrew Smith",
-        "vertical": false,
         "channel": "Revolution BJJ",
         "duration": 27,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "_jYG3ug92nM",
-        "title": "Defending the back step in half guard",
-        "by": "Five Rings Grappling Academy",
         "vertical": false,
-        "channel": "Five Rings Grappling Academy",
-        "duration": 177,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   }

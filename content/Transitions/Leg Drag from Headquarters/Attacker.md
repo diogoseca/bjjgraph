@@ -186,24 +186,12 @@ description: "Complete attacking guide for the leg drag pass from headquarters. 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Leg drag to set up the toreando pass",
-      "description": "Leg Drag from Headquarters (Attacker) film study: Leg drag to set up the toreando pass, taught by PFed BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/T50gLtUUtqs/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/T50gLtUUtqs",
-      "url": "https://www.youtube.com/watch?v=T50gLtUUtqs",
-      "creator": { "@type": "Person", "name": "PFed BJJ" },
-      "duration": "PT76S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Leg pin headquarters to over-under to back take",
-      "description": "Leg Drag from Headquarters (Attacker) film study: Leg pin headquarters to over-under to back take, taught by Factory Fresh Jiu Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/_e82XgM98go/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/_e82XgM98go",
-      "url": "https://www.youtube.com/watch?v=_e82XgM98go",
-      "creator": { "@type": "Person", "name": "Factory Fresh Jiu Jitsu" },
-      "duration": "PT32S"
+      "name": "Headquarters Position - Leg Drag",
+      "description": "Leg Drag from Headquarters (Attacker) film study: Headquarters Position - Leg Drag.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/RZ9cDa-7s1o/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/RZ9cDa-7s1o",
+      "url": "https://www.youtube.com/watch?v=RZ9cDa-7s1o",
+      "duration": "PT550S"
     }
   ]
 }
@@ -233,17 +221,9 @@ From the attacker's perspective, the leg drag from headquarters is most effectiv
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=T50gLtUUtqs)
+![](https://www.youtube.com/watch?v=RZ9cDa-7s1o)
 
-<p class="clip-credit"><strong>Leg drag to set up the toreando pass</strong> — taught by PFed BJJ · 1:16 · <a href="https://www.youtube.com/watch?v=T50gLtUUtqs" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=_e82XgM98go)
-
-<p class="clip-credit"><strong>Leg pin headquarters to over-under to back take</strong> — taught by Factory Fresh Jiu Jitsu · 0:32 · <a href="https://www.youtube.com/watch?v=_e82XgM98go" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Headquarters Position - Leg Drag</strong> · 9:10 · <a href="https://www.youtube.com/watch?v=RZ9cDa-7s1o" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

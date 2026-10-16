@@ -162,34 +162,21 @@ description: "Prevent the Hitchhiker Escape from your armbar in BJJ. Learn to re
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Preventing the hitchhiker armbar escape",
-      "description": "Hitchhiker Escape from Armbar (Defender) film study: Preventing the hitchhiker armbar escape, taught by Pathfinder Jiu-Jitsu Team.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/zVLS7fLlobg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/zVLS7fLlobg",
-      "url": "https://www.youtube.com/watch?v=zVLS7fLlobg",
-      "creator": { "@type": "Person", "name": "Pathfinder Jiu-Jitsu Team" },
-      "duration": "PT91S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Countering the hitchhiker armbar escape attempt",
-      "description": "Hitchhiker Escape from Armbar (Defender) film study: Countering the hitchhiker armbar escape attempt, taught by Team Maxwell.",
+      "name": "Countering The Hitchhiker Armbar Escape Attempt. Brazilian Jiu-Jitsu Techniques",
+      "description": "Hitchhiker Escape from Armbar (Defender) film study: Countering The Hitchhiker Armbar Escape Attempt. Brazilian Jiu-Jitsu Techniques.",
       "thumbnailUrl": "https://i.ytimg.com/vi/rh-bxlYYJvM/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/rh-bxlYYJvM",
       "url": "https://www.youtube.com/watch?v=rh-bxlYYJvM",
-      "creator": { "@type": "Person", "name": "Team Maxwell" },
       "duration": "PT192S"
     },
     {
       "@type": "VideoObject",
-      "position": 3,
-      "name": "Stopping the hitchhiker armbar escape",
-      "description": "Hitchhiker Escape from Armbar (Defender) film study: Stopping the hitchhiker armbar escape, taught by BJJ4Breakfast.",
+      "position": 2,
+      "name": "Stopping the hitchhiker arm bar escape.",
+      "description": "Hitchhiker Escape from Armbar (Defender) film study: Stopping the hitchhiker arm bar escape..",
       "thumbnailUrl": "https://i.ytimg.com/vi/PQ3Sj9bc1nU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/PQ3Sj9bc1nU",
       "url": "https://www.youtube.com/watch?v=PQ3Sj9bc1nU",
-      "creator": { "@type": "Person", "name": "BJJ4Breakfast" },
       "duration": "PT213S"
     }
   ]
@@ -218,17 +205,9 @@ As the defender maintaining the armbar against a hitchhiker escape attempt, your
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=zVLS7fLlobg)
-
-<p class="clip-credit"><strong>Preventing the hitchhiker armbar escape</strong> — taught by Pathfinder Jiu-Jitsu Team · 1:31 · <a href="https://www.youtube.com/watch?v=zVLS7fLlobg" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=rh-bxlYYJvM)
 
-<p class="clip-credit"><strong>Countering the hitchhiker armbar escape attempt</strong> — taught by Team Maxwell · 3:12 · <a href="https://www.youtube.com/watch?v=rh-bxlYYJvM" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Countering The Hitchhiker Armbar Escape Attempt. Brazilian Jiu-Jitsu Techniques</strong> · 3:12 · <a href="https://www.youtube.com/watch?v=rh-bxlYYJvM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -236,7 +215,7 @@ As the defender maintaining the armbar against a hitchhiker escape attempt, your
 
 ![](https://www.youtube.com/watch?v=PQ3Sj9bc1nU)
 
-<p class="clip-credit"><strong>Stopping the hitchhiker armbar escape</strong> — taught by BJJ4Breakfast · 3:33 · <a href="https://www.youtube.com/watch?v=PQ3Sj9bc1nU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Stopping the hitchhiker arm bar escape.</strong> · 3:33 · <a href="https://www.youtube.com/watch?v=PQ3Sj9bc1nU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

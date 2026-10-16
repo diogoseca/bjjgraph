@@ -46,24 +46,12 @@ description: "Learn Counter Leg Attack from Inside Sankaku Bottom. Turn defense 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Inside sankaku counter with inside ashi dive",
-      "description": "Counter Leg Attack film study: Inside sankaku counter with inside ashi dive, taught by Combat by the Minute.",
+      "name": "Inside Sankaku Counter Series | 2 of 5 | Inside Ashi Dive",
+      "description": "Counter Leg Attack film study: Inside Sankaku Counter Series | 2 of 5 | Inside Ashi Dive.",
       "thumbnailUrl": "https://i.ytimg.com/vi/7Uc1sEPs5hw/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/7Uc1sEPs5hw",
       "url": "https://www.youtube.com/watch?v=7Uc1sEPs5hw",
-      "creator": { "@type": "Person", "name": "Combat by the Minute" },
       "duration": "PT84S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Outside heel hook defense into inside heel hook",
-      "description": "Counter Leg Attack film study: Outside heel hook defense into inside heel hook, taught by Holy Grail BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/clVAHxgRadE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/clVAHxgRadE",
-      "url": "https://www.youtube.com/watch?v=clVAHxgRadE",
-      "creator": { "@type": "Person", "name": "Holy Grail BJJ" },
-      "duration": "PT105S"
     }
   ]
 }
@@ -119,15 +107,7 @@ Strategically, the Counter Leg Attack should be viewed as a last-resort option w
 
 ![](https://www.youtube.com/watch?v=7Uc1sEPs5hw)
 
-<p class="clip-credit"><strong>Inside sankaku counter with inside ashi dive</strong> — taught by Combat by the Minute · 1:24 · <a href="https://www.youtube.com/watch?v=7Uc1sEPs5hw" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=clVAHxgRadE)
-
-<p class="clip-credit"><strong>Outside heel hook defense into inside heel hook</strong> — taught by Holy Grail BJJ · 1:45 · <a href="https://www.youtube.com/watch?v=clVAHxgRadE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Inside Sankaku Counter Series | 2 of 5 | Inside Ashi Dive</strong> · 1:24 · <a href="https://www.youtube.com/watch?v=7Uc1sEPs5hw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

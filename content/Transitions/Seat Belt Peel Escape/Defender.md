@@ -144,34 +144,21 @@ description: "Learn to defend against the Seat Belt Peel Escape from top back co
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Keeping a tight seatbelt grip on the back",
-      "description": "Seat Belt Peel Escape (Defender) film study: Keeping a tight seatbelt grip on the back, taught by Ben Kool.",
+      "name": "Jiu Jitsu Quick Fix #1: Seatbelt Grip",
+      "description": "Seat Belt Peel Escape (Defender) film study: Jiu Jitsu Quick Fix #1: Seatbelt Grip.",
       "thumbnailUrl": "https://i.ytimg.com/vi/MwxnveKrlxU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/MwxnveKrlxU",
       "url": "https://www.youtube.com/watch?v=MwxnveKrlxU",
-      "creator": { "@type": "Person", "name": "Ben Kool" },
       "duration": "PT62S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "2 Hacks To Keep Back Control",
-      "description": "Seat Belt Peel Escape (Defender) film study: 2 Hacks To Keep Back Control, taught by The Grappling Academy.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/NdOA8wrM9BA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/NdOA8wrM9BA",
-      "url": "https://www.youtube.com/watch?v=NdOA8wrM9BA",
-      "creator": { "@type": "Person", "name": "The Grappling Academy" },
-      "duration": "PT205S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Maintaining Back Control: Seatbelt Grip",
-      "description": "Seat Belt Peel Escape (Defender) film study: Maintaining Back Control: Seatbelt Grip, taught by Oga.",
+      "name": "Maintaining Back Control:Seatbelt Grip - The Philosophy Behind Oga\u0027s Jiu-Jitsu",
+      "description": "Seat Belt Peel Escape (Defender) film study: Maintaining Back Control:Seatbelt Grip - The Philosophy Behind Oga\u0027s Jiu-Jitsu.",
       "thumbnailUrl": "https://i.ytimg.com/vi/eioeT2_os88/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/eioeT2_os88",
       "url": "https://www.youtube.com/watch?v=eioeT2_os88",
-      "creator": { "@type": "Person", "name": "Oga" },
       "duration": "PT524S"
     }
   ]
@@ -202,15 +189,7 @@ Defending the Seat Belt Peel Escape means maintaining your seat belt grip integr
 
 ![](https://www.youtube.com/watch?v=MwxnveKrlxU)
 
-<p class="clip-credit"><strong>Keeping a tight seatbelt grip on the back</strong> — taught by Ben Kool · 1:02 · <a href="https://www.youtube.com/watch?v=MwxnveKrlxU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=NdOA8wrM9BA)
-
-<p class="clip-credit"><strong>2 Hacks To Keep Back Control</strong> — taught by The Grappling Academy · 3:25 · <a href="https://www.youtube.com/watch?v=NdOA8wrM9BA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Jiu Jitsu Quick Fix #1: Seatbelt Grip</strong> · 1:02 · <a href="https://www.youtube.com/watch?v=MwxnveKrlxU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -218,7 +197,7 @@ Defending the Seat Belt Peel Escape means maintaining your seat belt grip integr
 
 ![](https://www.youtube.com/watch?v=eioeT2_os88)
 
-<p class="clip-credit"><strong>Maintaining Back Control: Seatbelt Grip</strong> — taught by Oga · 8:44 · <a href="https://www.youtube.com/watch?v=eioeT2_os88" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Maintaining Back Control:Seatbelt Grip - The Philosophy Behind Oga&#39;s Jiu-Jitsu</strong> · 8:44 · <a href="https://www.youtube.com/watch?v=eioeT2_os88" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

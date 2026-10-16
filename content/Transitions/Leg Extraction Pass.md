@@ -46,23 +46,11 @@ description: "Master the Leg Extraction Pass from leg entanglements. Step-by-ste
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Backstep from primary leg extraction",
-      "description": "Leg Extraction Pass film study: Backstep from primary leg extraction, taught by Gordon Ryan.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/KcA6VYd8J2c/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/KcA6VYd8J2c",
-      "url": "https://www.youtube.com/watch?v=KcA6VYd8J2c",
-      "creator": { "@type": "Person", "name": "Gordon Ryan" },
-      "duration": "PT115S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Ashi garami defense and counter pass",
-      "description": "Leg Extraction Pass film study: Ashi garami defense and counter pass, taught by The Grappling Bloke.",
+      "name": "Ashi Garami Defense and Counter Pass #jiujitsu #mma #ibjjf",
+      "description": "Leg Extraction Pass film study: Ashi Garami Defense and Counter Pass #jiujitsu #mma #ibjjf.",
       "thumbnailUrl": "https://i.ytimg.com/vi/mZp355NAIYk/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/mZp355NAIYk",
       "url": "https://www.youtube.com/watch?v=mZp355NAIYk",
-      "creator": { "@type": "Person", "name": "The Grappling Bloke" },
       "duration": "PT111S"
     }
   ]
@@ -117,17 +105,9 @@ Strategically, the Leg Extraction Pass occupies a unique position in the BJJ hie
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=KcA6VYd8J2c)
-
-<p class="clip-credit"><strong>Backstep from primary leg extraction</strong> — taught by Gordon Ryan · 1:55 · <a href="https://www.youtube.com/watch?v=KcA6VYd8J2c" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=mZp355NAIYk)
 
-<p class="clip-credit"><strong>Ashi garami defense and counter pass</strong> — taught by The Grappling Bloke · 1:51 · <a href="https://www.youtube.com/watch?v=mZp355NAIYk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Ashi Garami Defense and Counter Pass #jiujitsu #mma #ibjjf</strong> · 1:51 · <a href="https://www.youtube.com/watch?v=mZp355NAIYk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

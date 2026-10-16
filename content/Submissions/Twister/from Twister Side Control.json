@@ -397,31 +397,12 @@
     ],
     "clips": [
       {
-        "id": "odT3-cVWXdc",
-        "title": "Twister Side Attacks",
-        "by": "Eddie Bravo",
+        "id": "MxE2Jmkm-g4",
+        "title": "The Twister: From Twister Side Control (v2.0 redux)",
+        "channel": "Submissions101",
+        "duration": 263,
         "vertical": false,
-        "channel": "Eddie Bravo",
-        "duration": 61,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "R55lmkc6Mus",
-        "title": "Twister from Side Control",
-        "by": "Eddie Bravo",
-        "vertical": false,
-        "channel": "Eddie Bravo",
-        "duration": 87,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "im8KbQUyxLY",
-        "title": "Truck Options from Twister Side Control",
-        "by": "Jeremiah Vance",
-        "vertical": false,
-        "channel": "Jeremiah Vance",
-        "duration": 42,
-        "verified": "2026-07-14"
+        "front": true
       }
     ]
   },
@@ -600,30 +581,11 @@
     "clips": [
       {
         "id": "Va1YNgx2E6M",
-        "title": "Escape and Counter the Twister",
-        "by": "Matrix Jiu Jitsu",
-        "vertical": false,
+        "title": "Escape and counter the Twister! - Matrix Jiu Jitsu",
         "channel": "Matrix Jiu Jitsu",
         "duration": 165,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "jg0Rdc0rJzg",
-        "title": "Twister Side Control Counter",
-        "by": "10th Planet Murrieta",
         "vertical": false,
-        "channel": "10th Planet Jiu Jitsu Murrieta",
-        "duration": 16,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "AUyR1rmVzo4",
-        "title": "Escaping Twister Side Control",
-        "by": "Robot Dolphin Jiu-Jitsu",
-        "vertical": false,
-        "channel": "Robot Dolphin Jiu-Jitsu ",
-        "duration": 205,
-        "verified": "2026-07-14"
+        "front": true
       }
     ]
   }

@@ -186,24 +186,12 @@ description: "Learn to execute the Escape from Truck as the attacker. Step-by-st
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Defending the truck safely",
-      "description": "Escape from Truck (Attacker) film study: Defending the truck safely, taught by Brandon McCaghren.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/G8L5cY5gr-A/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/G8L5cY5gr-A",
-      "url": "https://www.youtube.com/watch?v=G8L5cY5gr-A",
-      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
-      "duration": "PT106S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Granby roll from the bottom",
-      "description": "Escape from Truck (Attacker) film study: Granby roll from the bottom, taught by WrestlingTournaments.com.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/jLhXI8-7vzw/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/jLhXI8-7vzw",
-      "url": "https://www.youtube.com/watch?v=jLhXI8-7vzw",
-      "creator": { "@type": "Person", "name": "WrestlingTournaments.com" },
-      "duration": "PT75S"
+      "name": "Truck Escape",
+      "description": "Escape from Truck (Attacker) film study: Truck Escape.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/TSUbl6HmLiw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/TSUbl6HmLiw",
+      "url": "https://www.youtube.com/watch?v=TSUbl6HmLiw",
+      "duration": "PT181S"
     }
   ]
 }
@@ -233,17 +221,9 @@ Your escape sequence follows a strict priority hierarchy: protect the neck first
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=G8L5cY5gr-A)
+![](https://www.youtube.com/watch?v=TSUbl6HmLiw)
 
-<p class="clip-credit"><strong>Defending the truck safely</strong> — taught by Brandon McCaghren · 1:46 · <a href="https://www.youtube.com/watch?v=G8L5cY5gr-A" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=jLhXI8-7vzw)
-
-<p class="clip-credit"><strong>Granby roll from the bottom</strong> — taught by WrestlingTournaments.com · 1:15 · <a href="https://www.youtube.com/watch?v=jLhXI8-7vzw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Truck Escape</strong> · 3:01 · <a href="https://www.youtube.com/watch?v=TSUbl6HmLiw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

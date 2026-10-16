@@ -180,35 +180,22 @@ description: "How to execute Scissor Sweep in BJJ. Attacking perspective with se
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Roger Gracie: sweep from closed guard",
-      "description": "Scissor Sweep (Attacker) film study: Roger Gracie: sweep from closed guard, taught by Roger Gracie.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/dMcMblcXhF0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/dMcMblcXhF0",
-      "url": "https://www.youtube.com/watch?v=dMcMblcXhF0",
-      "creator": { "@type": "Person", "name": "Roger Gracie" },
-      "duration": "PT73S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Short closed guard scissor sweep lesson",
-      "description": "Scissor Sweep (Attacker) film study: Short closed guard scissor sweep lesson, taught by 2nd Gear Jiu Jitsu.",
+      "name": "Short and Sweet Closed Guard Scissor Sweep Lesson",
+      "description": "Scissor Sweep (Attacker) film study: Short and Sweet Closed Guard Scissor Sweep Lesson.",
       "thumbnailUrl": "https://i.ytimg.com/vi/nxdE2JUOlSY/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/nxdE2JUOlSY",
       "url": "https://www.youtube.com/watch?v=nxdE2JUOlSY",
-      "creator": { "@type": "Person", "name": "2nd Gear Jiu Jitsu" },
       "duration": "PT61S"
     },
     {
       "@type": "VideoObject",
-      "position": 3,
-      "name": "Closed guard overhook scissor sweep",
-      "description": "Scissor Sweep (Attacker) film study: Closed guard overhook scissor sweep, taught by Fight Sports Charlotte.",
+      "position": 2,
+      "name": "Closed Guard - Overhook - Scissor Sweep",
+      "description": "Scissor Sweep (Attacker) film study: Closed Guard - Overhook - Scissor Sweep.",
       "thumbnailUrl": "https://i.ytimg.com/vi/SONTST7yTT8/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/SONTST7yTT8",
       "url": "https://www.youtube.com/watch?v=SONTST7yTT8",
-      "creator": { "@type": "Person", "name": "Fight Sports Charlotte" },
-      "duration": "PT89S"
+      "duration": "PT88S"
     }
   ]
 }
@@ -240,17 +227,9 @@ The Scissor Sweep integrates seamlessly into the closed guard attack system, wor
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=dMcMblcXhF0)
-
-<p class="clip-credit"><strong>Roger Gracie: sweep from closed guard</strong> — taught by Roger Gracie · 1:13 · <a href="https://www.youtube.com/watch?v=dMcMblcXhF0" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=nxdE2JUOlSY)
 
-<p class="clip-credit"><strong>Short closed guard scissor sweep lesson</strong> — taught by 2nd Gear Jiu Jitsu · 1:01 · <a href="https://www.youtube.com/watch?v=nxdE2JUOlSY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Short and Sweet Closed Guard Scissor Sweep Lesson</strong> · 1:01 · <a href="https://www.youtube.com/watch?v=nxdE2JUOlSY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -258,7 +237,7 @@ The Scissor Sweep integrates seamlessly into the closed guard attack system, wor
 
 ![](https://www.youtube.com/watch?v=SONTST7yTT8)
 
-<p class="clip-credit"><strong>Closed guard overhook scissor sweep</strong> — taught by Fight Sports Charlotte · 1:29 · <a href="https://www.youtube.com/watch?v=SONTST7yTT8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Closed Guard - Overhook - Scissor Sweep</strong> · 1:28 · <a href="https://www.youtube.com/watch?v=SONTST7yTT8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

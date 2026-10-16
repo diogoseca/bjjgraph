@@ -162,35 +162,22 @@ description: "Defend the Kimura from High Mount with early recognition cues, gri
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Defending the Kimura",
-      "description": "Kimura from High Mount (Defender) film study: Defending the Kimura, taught by Eddie Kone.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/TuaopPUakM8/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/TuaopPUakM8",
-      "url": "https://www.youtube.com/watch?v=TuaopPUakM8",
-      "creator": { "@type": "Person", "name": "Eddie Kone" },
-      "duration": "PT61S"
+      "name": "Kimura Escape from North South Position",
+      "description": "Kimura from High Mount (Defender) film study: Kimura Escape from North South Position.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ZT4QcOFksxs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ZT4QcOFksxs",
+      "url": "https://www.youtube.com/watch?v=ZT4QcOFksxs",
+      "duration": "PT25S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Mount Escape: Upa",
-      "description": "Kimura from High Mount (Defender) film study: Mount Escape: Upa, taught by Team Daruma Dojo.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Ye08X4xjiUk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Ye08X4xjiUk",
-      "url": "https://www.youtube.com/watch?v=Ye08X4xjiUk",
-      "creator": { "@type": "Person", "name": "Team Daruma Dojo" },
-      "duration": "PT38S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Kimura Escape from North-South",
-      "description": "Kimura from High Mount (Defender) film study: Kimura Escape from North-South, taught by Street Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/ZT4QcOFksxs/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/ZT4QcOFksxs",
-      "url": "https://www.youtube.com/watch?v=ZT4QcOFksxs",
-      "creator": { "@type": "Person", "name": "Street Jitsu" },
-      "duration": "PT25S"
+      "name": "Defending The Kimura",
+      "description": "Kimura from High Mount (Defender) film study: Defending The Kimura.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/TuaopPUakM8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/TuaopPUakM8",
+      "url": "https://www.youtube.com/watch?v=TuaopPUakM8",
+      "duration": "PT61S"
     }
   ]
 }
@@ -221,25 +208,17 @@ Timing is critical because the top-down angle makes late-stage Kimura defense fa
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=TuaopPUakM8)
-
-<p class="clip-credit"><strong>Defending the Kimura</strong> — taught by Eddie Kone · 1:01 · <a href="https://www.youtube.com/watch?v=TuaopPUakM8" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=Ye08X4xjiUk)
-
-<p class="clip-credit"><strong>Mount Escape: Upa</strong> — taught by Team Daruma Dojo · 0:38 · <a href="https://www.youtube.com/watch?v=Ye08X4xjiUk" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=ZT4QcOFksxs)
 
-<p class="clip-credit"><strong>Kimura Escape from North-South</strong> — taught by Street Jitsu · 0:25 · <a href="https://www.youtube.com/watch?v=ZT4QcOFksxs" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Kimura Escape from North South Position</strong> · 0:25 · <a href="https://www.youtube.com/watch?v=ZT4QcOFksxs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=TuaopPUakM8)
+
+<p class="clip-credit"><strong>Defending The Kimura</strong> · 1:01 · <a href="https://www.youtube.com/watch?v=TuaopPUakM8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

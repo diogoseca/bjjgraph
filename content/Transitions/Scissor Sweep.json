@@ -402,31 +402,19 @@
     "safety_considerations": "The Scissor Sweep is generally one of the safer techniques in BJJ when practiced properly, but several precautions should be observed. Execute the sweep with controlled power, especially when training with beginners or lighter partners - the goal is technical proficiency, not sending your partner flying across the mat. Ensure adequate mat space behind your opponent before initiating the sweep to prevent them from landing awkwardly on hard floor or wall. When being swept, tap if you feel yourself falling in an uncontrolled manner or if your arm becomes trapped. Partners should practice breakfalls and know how to safely receive the sweep. Start slowly and progressively build speed and power as both practitioners become comfortable with the mechanics. Be mindful of your top leg placement to avoid accidentally striking your partner's face or head during the scissor motion.",
     "clips": [
       {
-        "id": "dMcMblcXhF0",
-        "title": "Roger Gracie: sweep from closed guard",
-        "by": "Roger Gracie",
-        "vertical": false,
-        "channel": "Gentle Art Media",
-        "duration": 73,
-        "verified": "2026-07-15"
-      },
-      {
         "id": "nxdE2JUOlSY",
-        "title": "Short closed guard scissor sweep lesson",
-        "by": "2nd Gear Jiu Jitsu",
-        "vertical": false,
+        "title": "Short and Sweet Closed Guard Scissor Sweep Lesson",
         "channel": "2nd Gear Jiu Jitsu",
         "duration": 61,
-        "verified": "2026-07-15"
+        "vertical": false,
+        "front": true
       },
       {
         "id": "SONTST7yTT8",
-        "title": "Closed guard overhook scissor sweep",
-        "by": "Fight Sports Charlotte",
-        "vertical": false,
+        "title": "Closed Guard - Overhook - Scissor Sweep",
         "channel": "Fight Sports Charlotte",
-        "duration": 89,
-        "verified": "2026-07-15"
+        "duration": 88,
+        "vertical": false
       }
     ]
   },
@@ -611,30 +599,11 @@
     "clips": [
       {
         "id": "jYZZgXKerZc",
-        "title": "No-gi scissor sweep counter",
-        "by": "JMA BKNY",
-        "vertical": false,
+        "title": "BJJ NOGI Scissor sweep counter",
         "channel": "JMA BKNY",
         "duration": 61,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "kNfVYhZbgrg",
-        "title": "Four levels of sweep defense",
-        "by": "Wim Deputter",
         "vertical": false,
-        "channel": "Wim Deputter BJJ",
-        "duration": 87,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "PEqhhihevVE",
-        "title": "Scissor sweep recovery from X-choke counter",
-        "by": "Carlos Machado",
-        "vertical": false,
-        "channel": "Carlos Machado",
-        "duration": 81,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },

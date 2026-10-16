@@ -410,35 +410,7 @@
       }
     ],
     "safety_considerations": "When training the North-South to Kimura transition, practitioners must exercise caution to prevent shoulder injuries. The Kimura places significant torque on the shoulder joint, and applying pressure too quickly or forcefully can result in serious injury including shoulder dislocation, rotator cuff tears, or labrum damage. Always apply the technique slowly and progressively during drilling, giving your training partner ample time to recognize the danger and tap. Partners should establish clear tap signals before beginning: verbal tap, physical tap with free hand, or foot tap if hands are trapped. The person applying the technique must release immediately upon feeling any tap signal or hearing verbal submission. When defending in training, do not wait too long to tap - protecting your training longevity is more important than resisting a locked submission. Instructors should closely supervise beginners learning this technique and emphasize that the shoulder lock requires gradual application, not explosive cranking.",
-    "clips": [
-      {
-        "id": "-aEJ1gdSyIM",
-        "title": "Colossus kimura finishes from north-south",
-        "by": "Utopia Martial Arts",
-        "vertical": false,
-        "channel": "Utopia Martial Arts",
-        "duration": 86,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "MQvTMVMiLl4",
-        "title": "North-south kimura grip to step-over armbar",
-        "by": "Raven Jiu Jitsu",
-        "vertical": false,
-        "channel": "Raven Jiu Jitsu",
-        "duration": 131,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "MEGPKR9ctWY",
-        "title": "North-south kimura from kesa",
-        "by": "CORE MMA",
-        "vertical": false,
-        "channel": "CORE MMA",
-        "duration": 178,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "North-South to Kimura Defender",
@@ -622,30 +594,18 @@
     "clips": [
       {
         "id": "ZT4QcOFksxs",
-        "title": "Kimura escape from north-south",
-        "by": "Street Jitsu",
-        "vertical": false,
+        "title": "Kimura Escape from North South Position",
         "channel": "Street Jitsu",
         "duration": 25,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "BLPOQLQqngI",
-        "title": "Countering the north-south kimura setup",
-        "by": "Scott Clawson",
         "vertical": false,
-        "channel": "Scott Clawson Jiu-Jitsu",
-        "duration": 83,
-        "verified": "2026-07-15"
+        "front": true
       },
       {
         "id": "n-qXtiqiCho",
-        "title": "North-south kimura defense",
-        "by": "Hauck Jiu-Jitsu",
-        "vertical": false,
+        "title": "North-South Kimura Defense",
         "channel": "Hauck Jiu-Jitsu",
-        "duration": 181,
-        "verified": "2026-07-15"
+        "duration": 180,
+        "vertical": false
       }
     ]
   },

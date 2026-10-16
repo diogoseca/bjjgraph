@@ -500,31 +500,11 @@
     ],
     "clips": [
       {
-        "id": "D2tutut1zio",
-        "title": "Armbar from Closed Guard",
-        "by": "Gracie Barra Boston",
-        "vertical": false,
-        "channel": "Gracie Barra Boston",
-        "duration": 103,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "F4Ns40AnI3Q",
-        "title": "Closed Guard Pull to Armbar",
-        "by": "Satori BJJ",
-        "vertical": false,
-        "channel": "Satori BJJ",
-        "duration": 41,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "FBDG7u5lOjk",
-        "title": "Armbar from Closed Guard: Hand Positioning",
-        "by": "Jean Jacques Machado",
-        "vertical": false,
-        "channel": "JeanJacquesMachado",
-        "duration": 138,
-        "verified": "2026-07-14"
+        "id": "yuVO-422A0g",
+        "title": "Spin Under Armbar from Closed Guard Position",
+        "channel": "Pendergrass Academy of Martial Arts",
+        "duration": 153,
+        "front": true
       }
     ]
   },
@@ -723,21 +703,18 @@
     "clips": [
       {
         "id": "kNdKfUdgO4I",
-        "title": "My Favorite Armbar Escape",
-        "by": "Matt Arroyo",
-        "vertical": false,
+        "title": "THIS is my favorite armbar escape! #jiujitsu #jiujitsutips",
         "channel": "Matt Arroyo Jiu Jitsu ",
         "duration": 92,
-        "verified": "2026-07-14"
+        "vertical": false,
+        "front": true
       },
       {
         "id": "_ntIcP_zf4s",
-        "title": "Best Armbar Escape When They're Close to Finishing",
-        "by": "Chewjitsu",
-        "vertical": false,
+        "title": "My Best Armbar Escape in BJJ When They’re Close To Finishing",
         "channel": "Chewjitsu",
-        "duration": 245,
-        "verified": "2026-07-14"
+        "duration": 244,
+        "vertical": false
       }
     ]
   },

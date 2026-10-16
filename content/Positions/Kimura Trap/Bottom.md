@@ -165,35 +165,12 @@ description: "Master Kimura Trap Bottom in BJJ. Defensive control position with 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Kimura Trap Rolling Sweep from Bottom",
-      "description": "Kimura Trap (Bottom) film study: Kimura Trap Rolling Sweep from Bottom, taught by Mat Life Training Center.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/YvTmqi750wQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/YvTmqi750wQ",
-      "url": "https://www.youtube.com/watch?v=YvTmqi750wQ",
-      "creator": { "@type": "Person", "name": "Mat Life Training Center" },
-      "duration": "PT31S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Half Guard Kimura Sweep 2 ways",
-      "description": "Kimura Trap (Bottom) film study: Half Guard Kimura Sweep 2 ways, taught by OMJJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Px0XWVtlHAM/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Px0XWVtlHAM",
-      "url": "https://www.youtube.com/watch?v=Px0XWVtlHAM",
-      "creator": { "@type": "Person", "name": "OMJJJ" },
-      "duration": "PT70S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Bottom Half Guard Kimura Elevator Sweep",
-      "description": "Kimura Trap (Bottom) film study: Bottom Half Guard Kimura Elevator Sweep, taught by David Avellan.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/3DrVJNkQqFo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/3DrVJNkQqFo",
-      "url": "https://www.youtube.com/watch?v=3DrVJNkQqFo",
-      "creator": { "@type": "Person", "name": "David Avellan" },
-      "duration": "PT201S"
+      "name": "Kimura Trap - An In Depth Study",
+      "description": "Kimura Trap (Bottom) film study: Kimura Trap - An In Depth Study.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/eIGogiDi0XI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/eIGogiDi0XI",
+      "url": "https://www.youtube.com/watch?v=eIGogiDi0XI",
+      "duration": "PT293S"
     }
   ]
 }
@@ -225,25 +202,9 @@ Strategically, the position forces top players into impossible choices—they mu
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=YvTmqi750wQ)
+![](https://www.youtube.com/watch?v=eIGogiDi0XI)
 
-<p class="clip-credit"><strong>Kimura Trap Rolling Sweep from Bottom</strong> — taught by Mat Life Training Center · 0:31 · <a href="https://www.youtube.com/watch?v=YvTmqi750wQ" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=Px0XWVtlHAM)
-
-<p class="clip-credit"><strong>Half Guard Kimura Sweep 2 ways</strong> — taught by OMJJJ · 1:10 · <a href="https://www.youtube.com/watch?v=Px0XWVtlHAM" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=3DrVJNkQqFo)
-
-<p class="clip-credit"><strong>Bottom Half Guard Kimura Elevator Sweep</strong> — taught by David Avellan · 3:21 · <a href="https://www.youtube.com/watch?v=3DrVJNkQqFo" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Kimura Trap - An In Depth Study</strong> · 4:53 · <a href="https://www.youtube.com/watch?v=eIGogiDi0XI" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

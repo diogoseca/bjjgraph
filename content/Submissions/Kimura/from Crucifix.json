@@ -449,20 +449,10 @@
       {
         "id": "e_PO61Eu1G8",
         "title": "Crucifix kimura",
-        "by": "Rob",
-        "vertical": false,
         "channel": "Rob",
         "duration": 44,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "ZRW3iwnU8yc",
-        "title": "Chokes from T-kimura crucifix control",
-        "by": "Mig Mag",
         "vertical": false,
-        "channel": "Mig Mag",
-        "duration": 161,
-        "verified": "2026-07-14"
+        "front": true
       }
     ]
   },
@@ -650,25 +640,6 @@
         "description": "Partner applies controlled Kimura from crucifix at various depths. Practice recognizing the point of no return and tapping appropriately. Develop body awareness for when the shoulder reaches its rotational limit. Emphasize early tapping habits and clear verbal communication with training partners."
       }
     ],
-    "clips": [
-      {
-        "id": "C7wr6klxbC8",
-        "title": "Crucifix escape",
-        "by": "Chosen Few BJJ",
-        "vertical": false,
-        "channel": "Chosen Few BJJ",
-        "duration": 89,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "Wrg5Tx-88yM",
-        "title": "Simple crucifix escape",
-        "by": "Coach Brian",
-        "vertical": false,
-        "channel": "TeachMeGrappling Coach Brian",
-        "duration": 149,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   }
 }

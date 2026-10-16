@@ -162,24 +162,32 @@ description: "How to defend against Kimura from Side Control in BJJ. Recognition
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Kimura defense grip breaks",
-      "description": "Kimura from Side Control (Defender) film study: Kimura defense grip breaks, taught by Dirtball BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/GOLwVNTVcnY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/GOLwVNTVcnY",
-      "url": "https://www.youtube.com/watch?v=GOLwVNTVcnY",
-      "creator": { "@type": "Person", "name": "Dirtball BJJ" },
-      "duration": "PT81S"
+      "name": "Late Kimura Defense from Bottom Side Control",
+      "description": "Kimura from Side Control (Defender) film study: Late Kimura Defense from Bottom Side Control.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/uRn3DRICpeY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/uRn3DRICpeY",
+      "url": "https://www.youtube.com/watch?v=uRn3DRICpeY",
+      "duration": "PT100S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Late Kimura defense from bottom side control",
-      "description": "Kimura from Side Control (Defender) film study: Late Kimura defense from bottom side control, taught by Fox Den Martial Arts.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/uRn3DRICpeY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/uRn3DRICpeY",
-      "url": "https://www.youtube.com/watch?v=uRn3DRICpeY",
-      "creator": { "@type": "Person", "name": "Fox Den Martial Arts" },
-      "duration": "PT100S"
+      "name": "KIMURA DEFENSE 101 From bottom side control! #graciewestchase #kimuradefense\u2026",
+      "description": "Kimura from Side Control (Defender) film study: KIMURA DEFENSE 101 From bottom side control! #graciewestchase #kimuradefense\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MM9rddEgJ58/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/MM9rddEgJ58",
+      "url": "https://www.youtube.com/watch?v=MM9rddEgJ58",
+      "duration": "PT155S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "The Daily Dirtball: \"Kimura Defense Grip Breaks\"",
+      "description": "Kimura from Side Control (Defender) film study: The Daily Dirtball: \"Kimura Defense Grip Breaks\".",
+      "thumbnailUrl": "https://i.ytimg.com/vi/GOLwVNTVcnY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/GOLwVNTVcnY",
+      "url": "https://www.youtube.com/watch?v=GOLwVNTVcnY",
+      "duration": "PT81S"
     }
   ]
 }
@@ -208,17 +216,25 @@ Defending the Kimura from Side Control requires immediate recognition and proact
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=GOLwVNTVcnY)
+![](https://www.youtube.com/watch?v=uRn3DRICpeY)
 
-<p class="clip-credit"><strong>Kimura defense grip breaks</strong> — taught by Dirtball BJJ · 1:21 · <a href="https://www.youtube.com/watch?v=GOLwVNTVcnY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Late Kimura Defense from Bottom Side Control</strong> · 1:40 · <a href="https://www.youtube.com/watch?v=uRn3DRICpeY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=uRn3DRICpeY)
+![](https://www.youtube.com/watch?v=MM9rddEgJ58)
 
-<p class="clip-credit"><strong>Late Kimura defense from bottom side control</strong> — taught by Fox Den Martial Arts · 1:40 · <a href="https://www.youtube.com/watch?v=uRn3DRICpeY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>KIMURA DEFENSE 101 From bottom side control! #graciewestchase #kimuradefense…</strong> · 2:35 · <a href="https://www.youtube.com/watch?v=MM9rddEgJ58" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=GOLwVNTVcnY)
+
+<p class="clip-credit"><strong>The Daily Dirtball: &#34;Kimura Defense Grip Breaks&#34;</strong> · 1:21 · <a href="https://www.youtube.com/watch?v=GOLwVNTVcnY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

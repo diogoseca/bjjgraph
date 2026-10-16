@@ -395,26 +395,7 @@
       }
     ],
     "safety_considerations": "The armbar targets the elbow joint and can cause serious ligament damage including medial collateral ligament tears and hyperextension injuries. During drilling, apply the pivot and arm isolation slowly, focusing on positional control rather than submission pressure. Never use explosive force on the arm during practice. Allow training partners adequate time to recognize the position and tap. When working the hip pivot at speed, ensure your leg crosses safely over the partner's head without striking their face. Release all pressure immediately upon any tap signal, whether verbal or physical. In competition, apply finishing pressure gradually to give opponents time to submit safely.",
-    "clips": [
-      {
-        "id": "ZNhU5mY852E",
-        "title": "Rafa Mendes open guard armbar",
-        "by": "Rafael Mendes",
-        "vertical": false,
-        "channel": "Flow Grappling Discovery Bay",
-        "duration": 45,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "N6qdp3-I8bY",
-        "title": "Rafael Mendes armlock from guard",
-        "by": "Rafael Mendes",
-        "vertical": false,
-        "channel": "AJUMAHE ",
-        "duration": 137,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Armbar Setup from Double Sleeve Defender",
@@ -597,25 +578,6 @@
         "description": "Positional sparring starting from double sleeve guard with the bottom player actively hunting the armbar setup. Defender practices the full defensive sequence at competition speed against full resistance. Track which defensive options work best against different setup variations and develop personal defensive timing."
       }
     ],
-    "clips": [
-      {
-        "id": "KuhIFZMNIKs",
-        "title": "Fixing your armbar defense",
-        "by": "Michael Currier",
-        "vertical": false,
-        "channel": "Michael Currier BJJ",
-        "duration": 105,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "yWmSp1_dOfI",
-        "title": "Armbar defense and escape",
-        "by": "Wesley Chapel MMA",
-        "vertical": false,
-        "channel": "Wesley Chapel MMA",
-        "duration": 172,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

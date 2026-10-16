@@ -165,35 +165,12 @@ description: "Master Double Unders top position in BJJ. Dominant pressure passin
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Passing with Double Unders",
-      "description": "Double Unders (Top) film study: Passing with Double Unders, taught by Revolution BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/UZVu4XCCO0k/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/UZVu4XCCO0k",
-      "url": "https://www.youtube.com/watch?v=UZVu4XCCO0k",
-      "creator": { "@type": "Person", "name": "Revolution BJJ" },
-      "duration": "PT75S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Double Under Pass to Darce",
-      "description": "Double Unders (Top) film study: Double Under Pass to Darce, taught by 10th Planet Costa Mesa.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/8O-urvZVqYU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/8O-urvZVqYU",
-      "url": "https://www.youtube.com/watch?v=8O-urvZVqYU",
-      "creator": { "@type": "Person", "name": "10th Planet Costa Mesa" },
-      "duration": "PT35S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Double-Under Pass to Armbar",
-      "description": "Double Unders (Top) film study: Double-Under Pass to Armbar, taught by Dirtball BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/bPyk_2CrVBo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/bPyk_2CrVBo",
-      "url": "https://www.youtube.com/watch?v=bPyk_2CrVBo",
-      "creator": { "@type": "Person", "name": "Dirtball BJJ" },
-      "duration": "PT68S"
+      "name": "No-Gi Double Under Guard Pass | Brazilian Jiu-Jitsu BJJ Middletown",
+      "description": "Double Unders (Top) film study: No-Gi Double Under Guard Pass | Brazilian Jiu-Jitsu BJJ Middletown.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wBZrTpuXV50/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/wBZrTpuXV50",
+      "url": "https://www.youtube.com/watch?v=wBZrTpuXV50",
+      "duration": "PT62S"
     }
   ]
 }
@@ -221,25 +198,9 @@ The Double Unders position excels at breaking down various open guard styles, pa
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=UZVu4XCCO0k)
+![](https://www.youtube.com/watch?v=wBZrTpuXV50)
 
-<p class="clip-credit"><strong>Passing with Double Unders</strong> — taught by Revolution BJJ · 1:15 · <a href="https://www.youtube.com/watch?v=UZVu4XCCO0k" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=8O-urvZVqYU)
-
-<p class="clip-credit"><strong>Double Under Pass to Darce</strong> — taught by 10th Planet Costa Mesa · 0:35 · <a href="https://www.youtube.com/watch?v=8O-urvZVqYU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=bPyk_2CrVBo)
-
-<p class="clip-credit"><strong>Double-Under Pass to Armbar</strong> — taught by Dirtball BJJ · 1:08 · <a href="https://www.youtube.com/watch?v=bPyk_2CrVBo" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>No-Gi Double Under Guard Pass | Brazilian Jiu-Jitsu BJJ Middletown</strong> · 1:02 · <a href="https://www.youtube.com/watch?v=wBZrTpuXV50" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -160,24 +160,12 @@ description: "Learn to defend the High Guard to Rubber Guard transition from top
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Simple rubber guard escape for the passer",
-      "description": "High Guard to Rubber Guard (Defender) film study: Simple rubber guard escape for the passer, taught by BJJ4Breakfast.",
+      "name": "Simple (but risky) rubber guard escape",
+      "description": "High Guard to Rubber Guard (Defender) film study: Simple (but risky) rubber guard escape.",
       "thumbnailUrl": "https://i.ytimg.com/vi/AvivOVuYcCk/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/AvivOVuYcCk",
       "url": "https://www.youtube.com/watch?v=AvivOVuYcCk",
-      "creator": { "@type": "Person", "name": "BJJ4Breakfast" },
       "duration": "PT131S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Recovering Posture vs the Overhook Closed Guard",
-      "description": "High Guard to Rubber Guard (Defender) film study: Recovering Posture vs the Overhook Closed Guard, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/RCnDWdAWXQs/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/RCnDWdAWXQs",
-      "url": "https://www.youtube.com/watch?v=RCnDWdAWXQs",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT559S"
     }
   ]
 }
@@ -207,15 +195,7 @@ As the top player caught in your opponent's closed guard, recognizing the High G
 
 ![](https://www.youtube.com/watch?v=AvivOVuYcCk)
 
-<p class="clip-credit"><strong>Simple rubber guard escape for the passer</strong> — taught by BJJ4Breakfast · 2:11 · <a href="https://www.youtube.com/watch?v=AvivOVuYcCk" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=RCnDWdAWXQs)
-
-<p class="clip-credit"><strong>Recovering Posture vs the Overhook Closed Guard</strong> — taught by Lachlan Giles · 9:19 · <a href="https://www.youtube.com/watch?v=RCnDWdAWXQs" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Simple (but risky) rubber guard escape</strong> · 2:11 · <a href="https://www.youtube.com/watch?v=AvivOVuYcCk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

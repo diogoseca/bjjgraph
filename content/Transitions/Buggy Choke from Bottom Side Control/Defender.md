@@ -139,35 +139,22 @@ description: "How to defend the Buggy Choke from top side control. Recognition c
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Buggy choke defense",
-      "description": "Buggy Choke from Bottom Side Control (Defender) film study: Buggy choke defense, taught by Maike Ferreira.",
+      "name": "buggy choke defense",
+      "description": "Buggy Choke from Bottom Side Control (Defender) film study: buggy choke defense.",
       "thumbnailUrl": "https://i.ytimg.com/vi/q61vmur0g1E/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/q61vmur0g1E",
       "url": "https://www.youtube.com/watch?v=q61vmur0g1E",
-      "creator": { "@type": "Person", "name": "Maike Ferreira" },
-      "duration": "PT80S"
+      "duration": "PT79S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Buggy Choke Defense",
-      "description": "Buggy Choke from Bottom Side Control (Defender) film study: Buggy Choke Defense, taught by Robby Malof.",
+      "name": "Buggy Choke Defense!!",
+      "description": "Buggy Choke from Bottom Side Control (Defender) film study: Buggy Choke Defense!!.",
       "thumbnailUrl": "https://i.ytimg.com/vi/U_gLL4x7pLU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/U_gLL4x7pLU",
       "url": "https://www.youtube.com/watch?v=U_gLL4x7pLU",
-      "creator": { "@type": "Person", "name": "Robby Malof" },
       "duration": "PT89S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Buggy Choke Recovery",
-      "description": "Buggy Choke from Bottom Side Control (Defender) film study: Buggy Choke Recovery, taught by Zach Maslany.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/jMIn4CQ3khE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/jMIn4CQ3khE",
-      "url": "https://www.youtube.com/watch?v=jMIn4CQ3khE",
-      "creator": { "@type": "Person", "name": "Zach Maslany" },
-      "duration": "PT153S"
     }
   ]
 }
@@ -204,7 +191,7 @@ Advanced defense treats the buggy as a reason to pass with discipline rather tha
 
 ![](https://www.youtube.com/watch?v=q61vmur0g1E)
 
-<p class="clip-credit"><strong>Buggy choke defense</strong> — taught by Maike Ferreira · 1:20 · <a href="https://www.youtube.com/watch?v=q61vmur0g1E" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>buggy choke defense</strong> · 1:19 · <a href="https://www.youtube.com/watch?v=q61vmur0g1E" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -212,15 +199,7 @@ Advanced defense treats the buggy as a reason to pass with discipline rather tha
 
 ![](https://www.youtube.com/watch?v=U_gLL4x7pLU)
 
-<p class="clip-credit"><strong>Buggy Choke Defense</strong> — taught by Robby Malof · 1:29 · <a href="https://www.youtube.com/watch?v=U_gLL4x7pLU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=jMIn4CQ3khE)
-
-<p class="clip-credit"><strong>Buggy Choke Recovery</strong> — taught by Zach Maslany · 2:33 · <a href="https://www.youtube.com/watch?v=jMIn4CQ3khE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Buggy Choke Defense!!</strong> · 1:29 · <a href="https://www.youtube.com/watch?v=U_gLL4x7pLU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

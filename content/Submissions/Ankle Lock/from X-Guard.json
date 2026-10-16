@@ -459,31 +459,19 @@
     ],
     "clips": [
       {
-        "id": "L1vtyCwp9Y0",
-        "title": "X Guard to Musumeci leg lock",
-        "by": "Alberto Serrano",
-        "vertical": false,
-        "channel": "Alberto Serrano BJJ",
-        "duration": 62,
-        "verified": "2026-07-14"
-      },
-      {
         "id": "aCh6WbFYkbk",
         "title": "X Guard to straight ankle lock",
-        "by": "Satori BJJ",
-        "vertical": false,
         "channel": "Satori BJJ",
-        "duration": 45,
-        "verified": "2026-07-14"
+        "duration": 44,
+        "vertical": false,
+        "front": true
       },
       {
         "id": "lUeZ2AAbm7c",
-        "title": "X Guard to Saddle to straight ankle lock",
-        "by": "The Bear's Den BJJ",
-        "vertical": false,
+        "title": "X Guard to Ashi Garami (Saddle) to Straight Ankle Lock and Italian Footlock.",
         "channel": "The Bear's Den BJJ & MMA  熊派巴西柔術及MMA學院",
         "duration": 82,
-        "verified": "2026-07-14"
+        "vertical": false
       }
     ]
   },
@@ -659,30 +647,18 @@
     "clips": [
       {
         "id": "JSOM86_1lRo",
-        "title": "Foot lock and single leg X guard escapes",
-        "by": "James O'Connor",
-        "vertical": false,
+        "title": "Foot lock and single leg X Guard escapes",
         "channel": "James O’Connor",
         "duration": 111,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "vg-Luhls7yE",
-        "title": "Straight ankle lock: defence and escapes",
-        "by": "Jiu Jitsu Brotherhood",
         "vertical": false,
-        "channel": "Jiu Jitsu Brotherhood",
-        "duration": 164,
-        "verified": "2026-07-14"
+        "front": true
       },
       {
         "id": "DqoqyOCli0I",
-        "title": "Escaping the straight ankle lock (beginner)",
-        "by": "Kayfabe Jiu-Jitsu",
-        "vertical": false,
+        "title": "No Gi BJJ: Escaping the Straight Ankle Lock (Beginner)",
         "channel": "Kayfabe Jiu-Jitsu",
         "duration": 169,
-        "verified": "2026-07-14"
+        "vertical": false
       }
     ]
   }

@@ -46,24 +46,12 @@ description: "Master underhook recovery from flattened half guard in BJJ. Comple
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Getting the underhook from knee shield half guard",
-      "description": "Underhook Recovery from Flattened film study: Getting the underhook from knee shield half guard, taught by Bowerhouse MMA coach.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/R0P8BvcJLAs/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/R0P8BvcJLAs",
-      "url": "https://www.youtube.com/watch?v=R0P8BvcJLAs",
-      "creator": { "@type": "Person", "name": "Bowerhouse MMA coach" },
-      "duration": "PT131S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Recovering when you get flattened in half guard",
-      "description": "Underhook Recovery from Flattened film study: Recovering when you get flattened in half guard, taught by Inverted Gear coach.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/NWie1oi3JSg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/NWie1oi3JSg",
-      "url": "https://www.youtube.com/watch?v=NWie1oi3JSg",
-      "creator": { "@type": "Person", "name": "Inverted Gear coach" },
-      "duration": "PT274S"
+      "name": "Stop the half guard underhook with this simple Jiu Jitsu tip!",
+      "description": "Underhook Recovery from Flattened film study: Stop the half guard underhook with this simple Jiu Jitsu tip!.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dOdO6xJ-TcU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dOdO6xJ-TcU",
+      "url": "https://www.youtube.com/watch?v=dOdO6xJ-TcU",
+      "duration": "PT97S"
     }
   ]
 }
@@ -117,17 +105,9 @@ From a strategic perspective, the underhook recovery sits at the intersection of
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=R0P8BvcJLAs)
+![](https://www.youtube.com/watch?v=dOdO6xJ-TcU)
 
-<p class="clip-credit"><strong>Getting the underhook from knee shield half guard</strong> — taught by Bowerhouse MMA coach · 2:11 · <a href="https://www.youtube.com/watch?v=R0P8BvcJLAs" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=NWie1oi3JSg)
-
-<p class="clip-credit"><strong>Recovering when you get flattened in half guard</strong> — taught by Inverted Gear coach · 4:34 · <a href="https://www.youtube.com/watch?v=NWie1oi3JSg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Stop the half guard underhook with this simple Jiu Jitsu tip!</strong> · 1:37 · <a href="https://www.youtube.com/watch?v=dOdO6xJ-TcU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

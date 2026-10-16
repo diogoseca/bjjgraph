@@ -36,50 +36,6 @@ description: "Master turtle position in BJJ. Strategic guide covering defensive 
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Turtle \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Standing up from turtle (defensive BJJ)",
-      "description": "Turtle film study: Standing up from turtle (defensive BJJ), taught by Priit Mihkelson.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/_sBB-O8fqP4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/_sBB-O8fqP4",
-      "url": "https://www.youtube.com/watch?v=_sBB-O8fqP4",
-      "creator": { "@type": "Person", "name": "Priit Mihkelson" },
-      "duration": "PT114S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Belly-down ankle lock setup from turtle",
-      "description": "Turtle film study: Belly-down ankle lock setup from turtle, taught by Revolution BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Dyxkw13p49I/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Dyxkw13p49I",
-      "url": "https://www.youtube.com/watch?v=Dyxkw13p49I",
-      "creator": { "@type": "Person", "name": "Revolution BJJ" },
-      "duration": "PT67S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Sneaky triangle from turtle position",
-      "description": "Turtle film study: Sneaky triangle from turtle position, taught by Submission Concepts San Antonio.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/qitDr1GnnAk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/qitDr1GnnAk",
-      "url": "https://www.youtube.com/watch?v=qitDr1GnnAk",
-      "creator": { "@type": "Person", "name": "Submission Concepts San Antonio" },
-      "duration": "PT73S"
-    }
-  ]
-}
-</script>
-
 
 
 <script type="application/ld+json">
@@ -111,40 +67,6 @@ Turtle position is a transitional defensive posture in Brazilian Jiu-Jitsu where
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Turtle in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=_sBB-O8fqP4)
-
-<p class="clip-credit"><strong>Standing up from turtle (defensive BJJ)</strong> — taught by Priit Mihkelson · 1:54 · <a href="https://www.youtube.com/watch?v=_sBB-O8fqP4" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=Dyxkw13p49I)
-
-<p class="clip-credit"><strong>Belly-down ankle lock setup from turtle</strong> — taught by Revolution BJJ · 1:07 · <a href="https://www.youtube.com/watch?v=Dyxkw13p49I" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=qitDr1GnnAk)
-
-<p class="clip-credit"><strong>Sneaky triangle from turtle position</strong> — taught by Submission Concepts San Antonio · 1:13 · <a href="https://www.youtube.com/watch?v=qitDr1GnnAk" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="key-principles" class="content-section">

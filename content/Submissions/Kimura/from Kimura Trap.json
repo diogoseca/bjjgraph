@@ -630,35 +630,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "baHSGhmYVmM",
-        "title": "Kimura Trap Setup Tutorial (No-Gi)",
-        "by": "FreeChannelOpen",
-        "vertical": false,
-        "channel": "FreeChannelOpen",
-        "duration": 91,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "QF7R6uovqSc",
-        "title": "Kimura Trap finish",
-        "by": "Rudy Fields",
-        "vertical": false,
-        "channel": "Rudy Fields",
-        "duration": 46,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "PiaCdkFIxPk",
-        "title": "Kimura Trap submission at Pan Ams",
-        "by": "Luke Ruffo",
-        "vertical": false,
-        "channel": "Luke Ruffo",
-        "duration": 89,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "from Kimura Trap Defender",
@@ -911,30 +883,18 @@
     "clips": [
       {
         "id": "GOLwVNTVcnY",
-        "title": "Kimura Defense Grip Breaks",
-        "by": "Dirtball BJJ",
-        "vertical": false,
+        "title": "The Daily Dirtball: \"Kimura Defense Grip Breaks\"",
         "channel": "Dirtball BJJ",
         "duration": 81,
-        "verified": "2026-07-14"
+        "vertical": false,
+        "front": true
       },
       {
         "id": "uRn3DRICpeY",
         "title": "Late Kimura Defense from Bottom Side Control",
-        "by": "Fox Den Martial Arts",
-        "vertical": false,
         "channel": "Fox Den Martial Arts",
         "duration": 100,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "FNyL93v5fGs",
-        "title": "Defending the Americana/Kimura",
-        "by": "Lachlan Giles",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 91,
-        "verified": "2026-07-14"
+        "vertical": false
       }
     ]
   }

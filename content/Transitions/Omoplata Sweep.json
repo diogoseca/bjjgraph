@@ -427,30 +427,18 @@
     "clips": [
       {
         "id": "Ar2oa-jV9-Y",
-        "title": "Omoplata sweep from guard",
-        "by": "Thunderdome BJJ",
-        "vertical": false,
+        "title": "Omoplata Sweep",
         "channel": "Thunderdome BJJ",
         "duration": 50,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "oQAP8nARiHU",
-        "title": "Clark Gracie omoplata breakdown",
-        "by": "Clark Gracie",
         "vertical": false,
-        "channel": "Deep Dive JJ",
-        "duration": 100,
-        "verified": "2026-07-15"
+        "front": true
       },
       {
         "id": "GDXF6brOcjw",
-        "title": "Omoplata and log roll sweep",
-        "by": "PAC Jiu-Jitsu",
-        "vertical": false,
+        "title": "Omoplata and Log Roll Sweep #bjj #pacjiujitsu #riganmachado",
         "channel": "PAC Jiu-Jitsu",
-        "duration": 108,
-        "verified": "2026-07-15"
+        "duration": 107,
+        "vertical": false
       }
     ]
   },
@@ -618,21 +606,11 @@
     "clips": [
       {
         "id": "Y4TxL4mDSKg",
-        "title": "Defending the omoplata sweep",
-        "by": "Ninja Pinto",
-        "vertical": false,
-        "channel": "Ninja Pinto BJJ",
+        "title": "Defending omoplata sweep",
+        "channel": "Ninja Pinto",
         "duration": 47,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "kNfVYhZbgrg",
-        "title": "Four levels of sweep defense",
-        "by": "Wim Deputter",
         "vertical": false,
-        "channel": "Wim Deputter BJJ",
-        "duration": 87,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },

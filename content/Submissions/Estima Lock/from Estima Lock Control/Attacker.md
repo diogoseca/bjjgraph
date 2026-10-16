@@ -189,34 +189,21 @@ description: "Learn to execute the Estima Lock finish from Estima Lock control. 
       "@type": "VideoObject",
       "position": 1,
       "name": "Estima Lock",
-      "description": "Estima Lock from Estima Lock Control (Attacker) film study: Estima Lock, taught by bjjtaro.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/_6BC8d5B5Hs/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/_6BC8d5B5Hs",
-      "url": "https://www.youtube.com/watch?v=_6BC8d5B5Hs",
-      "creator": { "@type": "Person", "name": "bjjtaro" },
-      "duration": "PT31S"
+      "description": "Estima Lock from Estima Lock Control (Attacker) film study: Estima Lock.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Ao0IatSHEi0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Ao0IatSHEi0",
+      "url": "https://www.youtube.com/watch?v=Ao0IatSHEi0",
+      "duration": "PT27S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Estima Lock",
-      "description": "Estima Lock from Estima Lock Control (Attacker) film study: Estima Lock, taught by Leandro Dos Santos Flores.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Ao0IatSHEi0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Ao0IatSHEi0",
-      "url": "https://www.youtube.com/watch?v=Ao0IatSHEi0",
-      "creator": { "@type": "Person", "name": "Leandro Dos Santos Flores" },
-      "duration": "PT27S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Estima Lock Finish",
-      "description": "Estima Lock from Estima Lock Control (Attacker) film study: Estima Lock Finish, taught by Yao Nkromah.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/-RKlONkjanA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/-RKlONkjanA",
-      "url": "https://www.youtube.com/watch?v=-RKlONkjanA",
-      "creator": { "@type": "Person", "name": "Yao Nkromah" },
-      "duration": "PT50S"
+      "description": "Estima Lock from Estima Lock Control (Attacker) film study: Estima Lock.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_6BC8d5B5Hs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_6BC8d5B5Hs",
+      "url": "https://www.youtube.com/watch?v=_6BC8d5B5Hs",
+      "duration": "PT31S"
     }
   ]
 }
@@ -245,25 +232,17 @@ Finishing the Estima Lock from an already-established control position provides 
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=_6BC8d5B5Hs)
-
-<p class="clip-credit"><strong>Estima Lock</strong> — taught by bjjtaro · 0:31 · <a href="https://www.youtube.com/watch?v=_6BC8d5B5Hs" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=Ao0IatSHEi0)
 
-<p class="clip-credit"><strong>Estima Lock</strong> — taught by Leandro Dos Santos Flores · 0:27 · <a href="https://www.youtube.com/watch?v=Ao0IatSHEi0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Estima Lock</strong> · 0:27 · <a href="https://www.youtube.com/watch?v=Ao0IatSHEi0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=-RKlONkjanA)
+![](https://www.youtube.com/watch?v=_6BC8d5B5Hs)
 
-<p class="clip-credit"><strong>Estima Lock Finish</strong> — taught by Yao Nkromah · 0:50 · <a href="https://www.youtube.com/watch?v=-RKlONkjanA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Estima Lock</strong> · 0:31 · <a href="https://www.youtube.com/watch?v=_6BC8d5B5Hs" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

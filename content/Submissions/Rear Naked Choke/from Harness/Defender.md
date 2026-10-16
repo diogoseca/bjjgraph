@@ -162,24 +162,12 @@ description: "Defend against the Rear Naked Choke from Harness. Learn recognitio
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Rear Naked Choke Escape",
-      "description": "Rear Naked Choke from Harness (Defender) film study: Rear Naked Choke Escape, taught by Renato Migliaccio.",
+      "name": "Rear naked choke escape",
+      "description": "Rear Naked Choke from Harness (Defender) film study: Rear naked choke escape.",
       "thumbnailUrl": "https://i.ytimg.com/vi/ylLO80PM4zg/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/ylLO80PM4zg",
       "url": "https://www.youtube.com/watch?v=ylLO80PM4zg",
-      "creator": { "@type": "Person", "name": "Renato Migliaccio" },
       "duration": "PT16S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Rear Naked Choke Defense on the Ground",
-      "description": "Rear Naked Choke from Harness (Defender) film study: Rear Naked Choke Defense on the Ground, taught by Jiu Jitsu Cop.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Cwry6GEfi8I/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Cwry6GEfi8I",
-      "url": "https://www.youtube.com/watch?v=Cwry6GEfi8I",
-      "creator": { "@type": "Person", "name": "Jiu Jitsu Cop" },
-      "duration": "PT98S"
     }
   ]
 }
@@ -210,15 +198,7 @@ Defending the Rear Naked Choke from Harness demands constant vigilance and disci
 
 ![](https://www.youtube.com/watch?v=ylLO80PM4zg)
 
-<p class="clip-credit"><strong>Rear Naked Choke Escape</strong> — taught by Renato Migliaccio · 0:16 · <a href="https://www.youtube.com/watch?v=ylLO80PM4zg" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=Cwry6GEfi8I)
-
-<p class="clip-credit"><strong>Rear Naked Choke Defense on the Ground</strong> — taught by Jiu Jitsu Cop · 1:38 · <a href="https://www.youtube.com/watch?v=Cwry6GEfi8I" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Rear naked choke escape</strong> · 0:16 · <a href="https://www.youtube.com/watch?v=ylLO80PM4zg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

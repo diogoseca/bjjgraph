@@ -347,35 +347,7 @@
       }
     ],
     "safety_considerations": "The ten finger guillotine applies intense compression to the trachea and carotid arteries. Training partners must tap immediately when choking pressure is felt on the neck. The interlaced grip creates rapid, powerful compression that can escalate quickly, making controlled application and immediate release upon tap essential. Never apply rotational or lateral force to the cervical spine—pressure should follow a straight compression axis along the throat. Allow adequate recovery time between repetitions during drilling to prevent cumulative neck strain.",
-    "clips": [
-      {
-        "id": "vNjdZQOI-cs",
-        "title": "Leg grab ten finger guillotine, no-gi",
-        "by": "Denny Prokopos",
-        "vertical": false,
-        "channel": "ZombieProofBJJ",
-        "duration": 89,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "ULXHSiYaDgg",
-        "title": "Ten finger guillotine off a guard pull",
-        "by": "Jacek Rozwadowski",
-        "vertical": false,
-        "channel": "jacek rozwadowski",
-        "duration": 92,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "tsofKYcYqaA",
-        "title": "How to do the ten finger guillotine",
-        "by": "Howcast instructor",
-        "vertical": false,
-        "channel": "Howcast",
-        "duration": 113,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Ten Finger Guillotine Variation Defender",
@@ -551,25 +523,6 @@
         "description": "Positional sparring starting from guillotine control with opponent free to use any guillotine variation including ten finger. Develop real-time decision-making about when to escape during transition versus when to survive and work incremental defense against the locked grip."
       }
     ],
-    "clips": [
-      {
-        "id": "m_ecDXYPWcs",
-        "title": "Breaking the opponent's guillotine grip",
-        "by": "Marcelo Garcia",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 157,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "xMYkejkc2BQ",
-        "title": "Marcelo Garcia submission escapes",
-        "by": "Marcelo Garcia",
-        "vertical": false,
-        "channel": "4 Points Submission Grappling",
-        "duration": 244,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

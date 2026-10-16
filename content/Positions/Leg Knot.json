@@ -424,21 +424,11 @@
     "clips": [
       {
         "id": "MaQQU4ydJoc",
-        "title": "Intro to the Leg Knot position",
-        "by": "Mike Robinson",
-        "vertical": false,
+        "title": "BJJ - Intro to Leg Knot by Mike Robinson",
         "channel": "Joshua Ortegon",
-        "duration": 170,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "-Sz1rg8X-UI",
-        "title": "Leg lock transitions from entanglement",
-        "by": "Kinesiology College",
+        "duration": 169,
         "vertical": false,
-        "channel": "Kinesiology College",
-        "duration": 95,
-        "verified": "2026-07-14"
+        "front": true
       }
     ]
   },
@@ -839,35 +829,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "v3w0qXLKxug",
-        "title": "Defending heel hooks",
-        "by": "Lachlan Giles",
-        "vertical": false,
-        "channel": "Absolute MMA St Kilda - Melbourne",
-        "duration": 92,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "MqtG9kuVt-Q",
-        "title": "Leg lock escape: roll through",
-        "by": "Gordon Ryan",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 103,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "m0NLphEuFoc",
-        "title": "Leg lock defense",
-        "by": "Kuwy Jitsu",
-        "vertical": false,
-        "channel": "Kuwy Jitsu",
-        "duration": 61,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   },
   "flashcards_position": [
     {
@@ -983,24 +945,5 @@
       }
     }
   ],
-  "clips": [
-    {
-      "id": "FVVBFlEjhVc",
-      "title": "Leg entanglement transitions overview",
-      "by": "Clever Combat",
-      "vertical": false,
-      "channel": "Clever Combat",
-      "duration": 133,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "2QDZMqBV2kQ",
-      "title": "Leg entanglement control drill",
-      "by": "Training Grounds",
-      "vertical": false,
-      "channel": "Training Grounds",
-      "duration": 33,
-      "verified": "2026-07-14"
-    }
-  ]
+  "clips": []
 }

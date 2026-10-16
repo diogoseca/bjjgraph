@@ -366,26 +366,7 @@
       }
     ],
     "safety_considerations": "Guard recovery from combat base is a low-injury-risk transition, but practitioners should be mindful of neck strain when bridging under heavy crossface pressure. Avoid explosive bridging when the opponent has a deep crossface, as this can compress cervical vertebrae. If the opponent's weight fully pins your hips, abandon the recovery attempt and work incrementally rather than forcing explosive movements that risk lower back injury. During training, communicate with your partner about pressure intensity to prevent rib compression injuries from sustained combat base pressure.",
-    "clips": [
-      {
-        "id": "qrPBsg028-0",
-        "title": "Guard recovery mechanics breakdown",
-        "by": "Conceptual Grappling",
-        "vertical": false,
-        "channel": "Conceptual Grappling",
-        "duration": 60,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "8156_PwYWSM",
-        "title": "Solo guard retention drills",
-        "by": "Elements Jiu Jitsu Academy",
-        "vertical": false,
-        "channel": "Elements Jiu Jitsu Academy",
-        "duration": 79,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Guard Recovery from Combat Base Defender",
@@ -548,16 +529,6 @@
         "description": "Begin each round in combat base with partner working active guard recovery at full resistance. Apply all learned pressure concepts, frame elimination, and counter-advancement while reading and exploiting recovery timing. Rotate training partners to experience different body types, flexibility levels, and recovery styles."
       }
     ],
-    "clips": [
-      {
-        "id": "wDz5D3BzPMs",
-        "title": "Building a complete passing game",
-        "by": "Bernardo Faria",
-        "vertical": false,
-        "channel": "Bernardo Faria BJJ Fanatics",
-        "duration": 227,
-        "verified": "2026-07-16"
-      }
-    ]
+    "clips": []
   }
 }

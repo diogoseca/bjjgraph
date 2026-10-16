@@ -186,35 +186,12 @@ description: "Learn to execute the Omoplata from Lasso Guard as the attacking bo
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Lasso guard to omoplata",
-      "description": "Omoplata from Lasso (Attacker) film study: Lasso guard to omoplata, taught by Adam Wardzinski.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/P_Utuxeq7uo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/P_Utuxeq7uo",
-      "url": "https://www.youtube.com/watch?v=P_Utuxeq7uo",
-      "creator": { "@type": "Person", "name": "Adam Wardzinski" },
-      "duration": "PT37S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Omoplata from lasso guard",
-      "description": "Omoplata from Lasso (Attacker) film study: Omoplata from lasso guard, taught by Claudia do Val.",
+      "name": "Omoplata from lasso guard with fav.uke",
+      "description": "Omoplata from Lasso (Attacker) film study: Omoplata from lasso guard with fav.uke.",
       "thumbnailUrl": "https://i.ytimg.com/vi/U_CEhwz8EpQ/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/U_CEhwz8EpQ",
       "url": "https://www.youtube.com/watch?v=U_CEhwz8EpQ",
-      "creator": { "@type": "Person", "name": "Claudia do Val" },
-      "duration": "PT49S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "No-gi lasso omoplata",
-      "description": "Omoplata from Lasso (Attacker) film study: No-gi lasso omoplata, taught by Asaf Mich.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/FCdFl9aAiUg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/FCdFl9aAiUg",
-      "url": "https://www.youtube.com/watch?v=FCdFl9aAiUg",
-      "creator": { "@type": "Person", "name": "Asaf Mich" },
-      "duration": "PT49S"
+      "duration": "PT48S"
     }
   ]
 }
@@ -242,25 +219,9 @@ As the attacker executing the Omoplata from Lasso, your primary advantage is tha
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=P_Utuxeq7uo)
-
-<p class="clip-credit"><strong>Lasso guard to omoplata</strong> — taught by Adam Wardzinski · 0:37 · <a href="https://www.youtube.com/watch?v=P_Utuxeq7uo" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=U_CEhwz8EpQ)
 
-<p class="clip-credit"><strong>Omoplata from lasso guard</strong> — taught by Claudia do Val · 0:49 · <a href="https://www.youtube.com/watch?v=U_CEhwz8EpQ" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=FCdFl9aAiUg)
-
-<p class="clip-credit"><strong>No-gi lasso omoplata</strong> — taught by Asaf Mich · 0:49 · <a href="https://www.youtube.com/watch?v=FCdFl9aAiUg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Omoplata from lasso guard with fav.uke</strong> · 0:48 · <a href="https://www.youtube.com/watch?v=U_CEhwz8EpQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

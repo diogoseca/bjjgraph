@@ -186,34 +186,31 @@ description: "Learn to execute the Shin-to-Shin to Single Leg X-Guard entry. Ste
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Shin on shin entry to single leg X guard",
-      "description": "Shin-to-Shin to Single Leg X (Attacker) film study: Shin on shin entry to single leg X guard, taught by Paul McVeigh.",
+      "name": "Shin on shin entry to single leg x guard 1440p",
+      "description": "Shin-to-Shin to Single Leg X (Attacker) film study: Shin on shin entry to single leg x guard 1440p.",
       "thumbnailUrl": "https://i.ytimg.com/vi/o23bQAC1jN4/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/o23bQAC1jN4",
       "url": "https://www.youtube.com/watch?v=o23bQAC1jN4",
-      "creator": { "@type": "Person", "name": "Paul McVeigh" },
       "duration": "PT99S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Shin to shin to single leg X to outside ashi",
-      "description": "Shin-to-Shin to Single Leg X (Attacker) film study: Shin to shin to single leg X to outside ashi, taught by Robyn Sheehan.",
+      "name": "No Gi BJJ Shin to Shin to Single Leg X to X Guard to Outside Ashi progression",
+      "description": "Shin-to-Shin to Single Leg X (Attacker) film study: No Gi BJJ Shin to Shin to Single Leg X to X Guard to Outside Ashi progression.",
       "thumbnailUrl": "https://i.ytimg.com/vi/o0TTMzFEG0Q/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/o0TTMzFEG0Q",
       "url": "https://www.youtube.com/watch?v=o0TTMzFEG0Q",
-      "creator": { "@type": "Person", "name": "Robyn Sheehan" },
       "duration": "PT128S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "Shin to shin guard to single leg X sweep",
-      "description": "Shin-to-Shin to Single Leg X (Attacker) film study: Shin to shin guard to single leg X sweep, taught by Bermuda Martial Arts coach.",
+      "name": "Shin to Shin Guard to SLX Sweep",
+      "description": "Shin-to-Shin to Single Leg X (Attacker) film study: Shin to Shin Guard to SLX Sweep.",
       "thumbnailUrl": "https://i.ytimg.com/vi/vKjAcZbsTwI/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/vKjAcZbsTwI",
       "url": "https://www.youtube.com/watch?v=vKjAcZbsTwI",
-      "creator": { "@type": "Person", "name": "Bermuda Martial Arts coach" },
       "duration": "PT138S"
     }
   ]
@@ -244,7 +241,7 @@ Executing the Shin-to-Shin to Single Leg X-Guard transition requires understandi
 
 ![](https://www.youtube.com/watch?v=o23bQAC1jN4)
 
-<p class="clip-credit"><strong>Shin on shin entry to single leg X guard</strong> — taught by Paul McVeigh · 1:39 · <a href="https://www.youtube.com/watch?v=o23bQAC1jN4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Shin on shin entry to single leg x guard 1440p</strong> · 1:39 · <a href="https://www.youtube.com/watch?v=o23bQAC1jN4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -252,7 +249,7 @@ Executing the Shin-to-Shin to Single Leg X-Guard transition requires understandi
 
 ![](https://www.youtube.com/watch?v=o0TTMzFEG0Q)
 
-<p class="clip-credit"><strong>Shin to shin to single leg X to outside ashi</strong> — taught by Robyn Sheehan · 2:08 · <a href="https://www.youtube.com/watch?v=o0TTMzFEG0Q" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>No Gi BJJ Shin to Shin to Single Leg X to X Guard to Outside Ashi progression</strong> · 2:08 · <a href="https://www.youtube.com/watch?v=o0TTMzFEG0Q" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -260,7 +257,7 @@ Executing the Shin-to-Shin to Single Leg X-Guard transition requires understandi
 
 ![](https://www.youtube.com/watch?v=vKjAcZbsTwI)
 
-<p class="clip-credit"><strong>Shin to shin guard to single leg X sweep</strong> — taught by Bermuda Martial Arts coach · 2:18 · <a href="https://www.youtube.com/watch?v=vKjAcZbsTwI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Shin to Shin Guard to SLX Sweep</strong> · 2:18 · <a href="https://www.youtube.com/watch?v=vKjAcZbsTwI" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

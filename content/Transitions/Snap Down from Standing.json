@@ -382,31 +382,12 @@
     "safety_considerations": "The snap down involves significant forces on the cervical spine and neck musculature. Always practice with controlled intensity, especially when drilling with less experienced partners. Avoid snapping with excessive force that could cause whiplash-type cervical strain. Partners should communicate clearly about any neck discomfort and stop immediately if pain occurs. Build up to full-speed snap downs gradually, starting with slow positional drilling before adding speed and resistance. Never execute a snap down on a partner who is looking upward with a fully extended neck, as this creates dangerous hyperextension potential. During competition preparation drilling, ensure both partners have adequately warmed up their necks before engaging in full-resistance snap down exchanges.",
     "clips": [
       {
-        "id": "CnaxvdhToyM",
-        "title": "How to do a snap down",
-        "by": "Grapple Hub coach",
-        "vertical": false,
-        "channel": "Grapple hub ",
-        "duration": 60,
-        "verified": "2026-07-15"
-      },
-      {
         "id": "9QCJFDsDQmk",
-        "title": "Front headlock snap down to spin behind",
-        "by": "Procel BJJ coach",
-        "vertical": false,
+        "title": "Front Headlock Snap Down To Spin Behind",
         "channel": "Procel Brazilian Jiu-Jitsu",
         "duration": 66,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "QMKv_AlTie8",
-        "title": "Snap down set up vs single leg takedown",
-        "by": "Marcelo Garcia",
         "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 134,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },
@@ -586,31 +567,19 @@
     ],
     "clips": [
       {
-        "id": "OQ0hQAk_xnA",
-        "title": "Catch wrestling standing posture and snap defense",
-        "by": "Billy Robinson",
+        "id": "OZkTT8kT1G8",
+        "title": "Clearing The Front Headlock - The School of Wrestling Technique",
+        "channel": "The School of Wrestling",
+        "duration": 86,
         "vertical": false,
-        "channel": "TakingItToTheMMAT",
-        "duration": 182,
-        "verified": "2026-07-15"
+        "front": true
       },
       {
         "id": "ry5lH-N7O-0",
-        "title": "Basic front headlock and snap down defense",
-        "by": "Askren Wrestling Academy",
-        "vertical": false,
+        "title": "Basic Front Head Lock defense!",
         "channel": "Askren Wrestling Academy",
         "duration": 108,
-        "verified": "2026-07-16"
-      },
-      {
-        "id": "OZkTT8kT1G8",
-        "title": "Clearing the front headlock after a snap",
-        "by": "The School of Wrestling",
-        "vertical": false,
-        "channel": "The School of Wrestling",
-        "duration": 86,
-        "verified": "2026-07-16"
+        "vertical": false
       }
     ]
   }

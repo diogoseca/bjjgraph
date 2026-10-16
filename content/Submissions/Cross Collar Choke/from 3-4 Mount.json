@@ -423,31 +423,19 @@
     ],
     "clips": [
       {
-        "id": "dfP-Ov8FBUo",
-        "title": "Cross Collar Chokes",
-        "by": "Roger Gracie",
-        "vertical": false,
-        "channel": "Jiu Jitsu Moves",
-        "duration": 80,
-        "verified": "2026-07-14"
-      },
-      {
         "id": "DrAxA8KUxbo",
-        "title": "Palm-Up Palm-Up Cross Choke",
-        "by": "Avant-Garde BJJ",
-        "vertical": false,
+        "title": "Palm up Palm up CROSS CHOKE BJJ | Helio Gracie Variation",
         "channel": "Avant-Garde BJJ",
         "duration": 61,
-        "verified": "2026-07-14"
+        "vertical": false,
+        "front": true
       },
       {
         "id": "zSSw_fUcNxU",
         "title": "Roger Gracie Cross Choke",
-        "by": "Roger Gracie",
-        "vertical": false,
         "channel": "Jiu-Jitsu Channel",
         "duration": 134,
-        "verified": "2026-07-14"
+        "vertical": false
       }
     ]
   },
@@ -618,30 +606,25 @@
     "clips": [
       {
         "id": "quuT1NHbY6Y",
-        "title": "Cross Choke Defense: Arm Wrap Throw",
-        "by": "Valente Brothers",
-        "vertical": false,
+        "title": "Cross Choke Defense | Arm Wrap Throw",
         "channel": "Valente BrothersTV",
         "duration": 70,
-        "verified": "2026-07-14"
+        "vertical": false,
+        "front": true
       },
       {
         "id": "QIRF2B9riAA",
-        "title": "Cross Choke Defense from Guard",
-        "by": "Wayne Sniffen",
-        "vertical": false,
+        "title": "Cross Choke Defense from Guard - Two Quick Tips",
         "channel": "Wayne Sniffen",
         "duration": 105,
-        "verified": "2026-07-14"
+        "vertical": false
       },
       {
         "id": "F1qoGHKy_uE",
-        "title": "Defend Cross Choke to Armbar",
-        "by": "Edgar Kruyning",
-        "vertical": false,
+        "title": "Defend cross choke - armbar",
         "channel": "Edgar Kruyning Official",
         "duration": 22,
-        "verified": "2026-07-14"
+        "vertical": false
       }
     ]
   }
