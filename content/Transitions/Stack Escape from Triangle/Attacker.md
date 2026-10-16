@@ -192,35 +192,12 @@ description: "Complete guide to executing the Stack Escape from Triangle in BJJ.
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "How to escape a triangle choke",
-      "description": "Stack Escape from Triangle (Attacker) film study: How to escape a triangle choke, taught by Rener and Ryron Gracie.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/sR2rS2dwpNY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/sR2rS2dwpNY",
-      "url": "https://www.youtube.com/watch?v=sR2rS2dwpNY",
-      "creator": { "@type": "Person", "name": "Rener and Ryron Gracie" },
-      "duration": "PT117S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Triangle defense: stacking escape",
-      "description": "Stack Escape from Triangle (Attacker) film study: Triangle defense: stacking escape, taught by Piotr Zawadzki.",
+      "name": "Triangle defence (part 4). Stacking escape.",
+      "description": "Stack Escape from Triangle (Attacker) film study: Triangle defence (part 4). Stacking escape..",
       "thumbnailUrl": "https://i.ytimg.com/vi/AdH5zyhp-jc/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/AdH5zyhp-jc",
       "url": "https://www.youtube.com/watch?v=AdH5zyhp-jc",
-      "creator": { "@type": "Person", "name": "Piotr Zawadzki" },
-      "duration": "PT126S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Posture up escape from the triangle",
-      "description": "Stack Escape from Triangle (Attacker) film study: Posture up escape from the triangle, taught by Cosens MMA coach.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/dJOw0ZEyXXc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/dJOw0ZEyXXc",
-      "url": "https://www.youtube.com/watch?v=dJOw0ZEyXXc",
-      "creator": { "@type": "Person", "name": "Cosens MMA coach" },
-      "duration": "PT73S"
+      "duration": "PT125S"
     }
   ]
 }
@@ -248,25 +225,9 @@ Executing the Stack Escape from Triangle requires the top player to transform a 
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=sR2rS2dwpNY)
-
-<p class="clip-credit"><strong>How to escape a triangle choke</strong> — taught by Rener and Ryron Gracie · 1:57 · <a href="https://www.youtube.com/watch?v=sR2rS2dwpNY" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=AdH5zyhp-jc)
 
-<p class="clip-credit"><strong>Triangle defense: stacking escape</strong> — taught by Piotr Zawadzki · 2:06 · <a href="https://www.youtube.com/watch?v=AdH5zyhp-jc" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=dJOw0ZEyXXc)
-
-<p class="clip-credit"><strong>Posture up escape from the triangle</strong> — taught by Cosens MMA coach · 1:13 · <a href="https://www.youtube.com/watch?v=dJOw0ZEyXXc" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Triangle defence (part 4). Stacking escape.</strong> · 2:05 · <a href="https://www.youtube.com/watch?v=AdH5zyhp-jc" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

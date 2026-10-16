@@ -46,12 +46,11 @@ description: "Learn to escape seat belt back control in BJJ. Systematic grip bre
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Escaping back mount seatbelt",
-      "description": "Escape Seat Belt Control film study: Escaping back mount seatbelt, taught by Julie Bond.",
+      "name": "Bjj-Escape back mount-seatbelt",
+      "description": "Escape Seat Belt Control film study: Bjj-Escape back mount-seatbelt.",
       "thumbnailUrl": "https://i.ytimg.com/vi/_X1ZpmEswzI/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/_X1ZpmEswzI",
       "url": "https://www.youtube.com/watch?v=_X1ZpmEswzI",
-      "creator": { "@type": "Person", "name": "Julie Bond" },
       "duration": "PT18S"
     }
   ]
@@ -108,7 +107,7 @@ Strategic timing is critical for successful execution. The optimal escape window
 
 ![](https://www.youtube.com/watch?v=_X1ZpmEswzI)
 
-<p class="clip-credit"><strong>Escaping back mount seatbelt</strong> — taught by Julie Bond · 0:18 · <a href="https://www.youtube.com/watch?v=_X1ZpmEswzI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Bjj-Escape back mount-seatbelt</strong> · 0:18 · <a href="https://www.youtube.com/watch?v=_X1ZpmEswzI" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

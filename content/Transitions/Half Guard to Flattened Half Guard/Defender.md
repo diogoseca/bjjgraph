@@ -166,34 +166,21 @@ description: "Defend against being flattened from half guard bottom. Learn frame
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Recovering when you get flattened in half guard",
-      "description": "Half Guard to Flattened Half Guard (Defender) film study: Recovering when you get flattened in half guard, taught by Inverted Gear coach.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/NWie1oi3JSg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/NWie1oi3JSg",
-      "url": "https://www.youtube.com/watch?v=NWie1oi3JSg",
-      "creator": { "@type": "Person", "name": "Inverted Gear coach" },
-      "duration": "PT274S"
+      "name": "How to NOT Get Flattened, Cross-faced and Smashed in Half Guard",
+      "description": "Half Guard to Flattened Half Guard (Defender) film study: How to NOT Get Flattened, Cross-faced and Smashed in Half Guard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/I05XdrbakZQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/I05XdrbakZQ",
+      "url": "https://www.youtube.com/watch?v=I05XdrbakZQ",
+      "duration": "PT338S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "How not to get flattened and crossfaced in half guard",
-      "description": "Half Guard to Flattened Half Guard (Defender) film study: How not to get flattened and crossfaced in half guard, taught by Stephan Kesting.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/I05XdrbakZQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/I05XdrbakZQ",
-      "url": "https://www.youtube.com/watch?v=I05XdrbakZQ",
-      "creator": { "@type": "Person", "name": "Stephan Kesting" },
-      "duration": "PT339S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "How to stop getting smashed in bottom half guard",
-      "description": "Half Guard to Flattened Half Guard (Defender) film study: How to stop getting smashed in bottom half guard, taught by Chewjitsu.",
+      "name": "How To Stop Getting Smashed in Half Guard Bottom",
+      "description": "Half Guard to Flattened Half Guard (Defender) film study: How To Stop Getting Smashed in Half Guard Bottom.",
       "thumbnailUrl": "https://i.ytimg.com/vi/ALhb8nFaFgA/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/ALhb8nFaFgA",
       "url": "https://www.youtube.com/watch?v=ALhb8nFaFgA",
-      "creator": { "@type": "Person", "name": "Chewjitsu" },
       "duration": "PT369S"
     }
   ]
@@ -222,17 +209,9 @@ As the bottom player in half guard, preventing your opponent from flattening you
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=NWie1oi3JSg)
-
-<p class="clip-credit"><strong>Recovering when you get flattened in half guard</strong> — taught by Inverted Gear coach · 4:34 · <a href="https://www.youtube.com/watch?v=NWie1oi3JSg" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=I05XdrbakZQ)
 
-<p class="clip-credit"><strong>How not to get flattened and crossfaced in half guard</strong> — taught by Stephan Kesting · 5:39 · <a href="https://www.youtube.com/watch?v=I05XdrbakZQ" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How to NOT Get Flattened, Cross-faced and Smashed in Half Guard</strong> · 5:38 · <a href="https://www.youtube.com/watch?v=I05XdrbakZQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -240,7 +219,7 @@ As the bottom player in half guard, preventing your opponent from flattening you
 
 ![](https://www.youtube.com/watch?v=ALhb8nFaFgA)
 
-<p class="clip-credit"><strong>How to stop getting smashed in bottom half guard</strong> — taught by Chewjitsu · 6:09 · <a href="https://www.youtube.com/watch?v=ALhb8nFaFgA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How To Stop Getting Smashed in Half Guard Bottom</strong> · 6:09 · <a href="https://www.youtube.com/watch?v=ALhb8nFaFgA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

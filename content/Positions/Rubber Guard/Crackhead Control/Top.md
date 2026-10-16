@@ -155,39 +155,6 @@ description: "Crackhead Control top perspective: Avoid extending an arm between 
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Crackhead Control (Top) \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Stoner control: top pressure on the rubber guard",
-      "description": "Crackhead Control (Top) film study: Stoner control: top pressure on the rubber guard, taught by Eddie Bravo.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/wEedvmB_878/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/wEedvmB_878",
-      "url": "https://www.youtube.com/watch?v=wEedvmB_878",
-      "creator": { "@type": "Person", "name": "Eddie Bravo" },
-      "duration": "PT191S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Electric stone sweep to top stoner control",
-      "description": "Crackhead Control (Top) film study: Electric stone sweep to top stoner control, taught by Eddie Bravo.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/dQ2mBMf9Gys/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/dQ2mBMf9Gys",
-      "url": "https://www.youtube.com/watch?v=dQ2mBMf9Gys",
-      "creator": { "@type": "Person", "name": "Eddie Bravo" },
-      "duration": "PT212S"
-    }
-  ]
-}
-</script>
-
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -204,32 +171,6 @@ This is a facing guard configuration. Unlike the basic Invisible Collar path, it
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Crackhead Control (Top) in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=wEedvmB_878)
-
-<p class="clip-credit"><strong>Stoner control: top pressure on the rubber guard</strong> — taught by Eddie Bravo · 3:11 · <a href="https://www.youtube.com/watch?v=wEedvmB_878" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=dQ2mBMf9Gys)
-
-<p class="clip-credit"><strong>Electric stone sweep to top stoner control</strong> — taught by Eddie Bravo · 3:32 · <a href="https://www.youtube.com/watch?v=dQ2mBMf9Gys" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="state-invariants" class="content-section">

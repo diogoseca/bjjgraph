@@ -377,20 +377,10 @@
       {
         "id": "kvDnNTzT2wc",
         "title": "Standing Up Safely From 50/50",
-        "by": "South Boston BJJ coach",
-        "vertical": false,
         "channel": "South Boston BJJ",
-        "duration": 285,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "R7lPdQWLOus",
-        "title": "50/50 Defense: Protecting Your Leg",
-        "by": "Lachlan Giles",
+        "duration": 284,
         "vertical": false,
-        "channel": "The Grapplers Guide by Jason Scully",
-        "duration": 161,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },
@@ -568,26 +558,7 @@
         "description": "Full resistance positional rounds starting in top 50-50. Objective is to either submit or maintain entanglement while partner attempts extraction. Track success rates and identify which extraction phase creates your best offensive or retention opportunities."
       }
     ],
-    "clips": [
-      {
-        "id": "gpg88DFH9D4",
-        "title": "Defending and countering the 50/50 heel hook",
-        "by": "Revolution BJJ",
-        "vertical": false,
-        "channel": "Revolution BJJ",
-        "duration": 81,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "uZbUhFapIhg",
-        "title": "Leglock defense concepts",
-        "by": "Craig Jones",
-        "vertical": false,
-        "channel": "BJJ focus camps",
-        "duration": 163,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "variants_and_adaptations": [
     {

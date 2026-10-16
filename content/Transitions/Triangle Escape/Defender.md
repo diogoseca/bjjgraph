@@ -160,35 +160,12 @@ description: "How to defend against Triangle Escape in BJJ. Recognition cues, de
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Finishing the triangle against good posture",
-      "description": "Triangle Escape (Defender) film study: Finishing the triangle against good posture, taught by Inverted Gear.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/M3_VDLm6PoE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/M3_VDLm6PoE",
-      "url": "https://www.youtube.com/watch?v=M3_VDLm6PoE",
-      "creator": { "@type": "Person", "name": "Inverted Gear" },
-      "duration": "PT142S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Avoiding the stack while triangling",
-      "description": "Triangle Escape (Defender) film study: Avoiding the stack while triangling, taught by Rituals Jiu Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/gY6xxakffp4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/gY6xxakffp4",
-      "url": "https://www.youtube.com/watch?v=gY6xxakffp4",
-      "creator": { "@type": "Person", "name": "Rituals Jiu Jitsu" },
-      "duration": "PT162S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Triangle stack defence",
-      "description": "Triangle Escape (Defender) film study: Triangle stack defence, taught by Anton Minenko.",
+      "name": "TRIANGLE STACK DEFENCE",
+      "description": "Triangle Escape (Defender) film study: TRIANGLE STACK DEFENCE.",
       "thumbnailUrl": "https://i.ytimg.com/vi/B4Vhf6atOBY/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/B4Vhf6atOBY",
       "url": "https://www.youtube.com/watch?v=B4Vhf6atOBY",
-      "creator": { "@type": "Person", "name": "Anton Minenko" },
-      "duration": "PT145S"
+      "duration": "PT144S"
     }
   ]
 }
@@ -216,25 +193,9 @@ The Triangle Escape Defender perspective covers the bottom player's strategy for
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=M3_VDLm6PoE)
-
-<p class="clip-credit"><strong>Finishing the triangle against good posture</strong> — taught by Inverted Gear · 2:22 · <a href="https://www.youtube.com/watch?v=M3_VDLm6PoE" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=gY6xxakffp4)
-
-<p class="clip-credit"><strong>Avoiding the stack while triangling</strong> — taught by Rituals Jiu Jitsu · 2:42 · <a href="https://www.youtube.com/watch?v=gY6xxakffp4" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=B4Vhf6atOBY)
 
-<p class="clip-credit"><strong>Triangle stack defence</strong> — taught by Anton Minenko · 2:25 · <a href="https://www.youtube.com/watch?v=B4Vhf6atOBY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>TRIANGLE STACK DEFENCE</strong> · 2:24 · <a href="https://www.youtube.com/watch?v=B4Vhf6atOBY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

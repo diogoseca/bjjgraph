@@ -165,35 +165,12 @@ description: "Leg Weave top perspective: Thread the arm through the available le
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Leg weave and leg staple passing pins",
-      "description": "Leg Weave (Top) film study: Leg weave and leg staple passing pins, taught by Fox Den Martial Arts.",
+      "name": "Leg Weave and Leg Staple Pins for Guard Passing",
+      "description": "Leg Weave (Top) film study: Leg Weave and Leg Staple Pins for Guard Passing.",
       "thumbnailUrl": "https://i.ytimg.com/vi/sNbJLknPgQM/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/sNbJLknPgQM",
       "url": "https://www.youtube.com/watch?v=sNbJLknPgQM",
-      "creator": { "@type": "Person", "name": "Fox Den Martial Arts" },
-      "duration": "PT108S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Leg weave to knee slide pass",
-      "description": "Leg Weave (Top) film study: Leg weave to knee slide pass, taught by Modern BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/aN2S7_WAhq4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/aN2S7_WAhq4",
-      "url": "https://www.youtube.com/watch?v=aN2S7_WAhq4",
-      "creator": { "@type": "Person", "name": "Modern BJJ" },
-      "duration": "PT118S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Passing knee shield with leg weave",
-      "description": "Leg Weave (Top) film study: Passing knee shield with leg weave, taught by BJJ4Breakfast.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/4LIBFmas-oE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/4LIBFmas-oE",
-      "url": "https://www.youtube.com/watch?v=4LIBFmas-oE",
-      "creator": { "@type": "Person", "name": "BJJ4Breakfast" },
-      "duration": "PT153S"
+      "duration": "PT107S"
     }
   ]
 }
@@ -227,23 +204,7 @@ The weaving limb is the passer's arm. The passer still moves the feet and hips t
 
 ![](https://www.youtube.com/watch?v=sNbJLknPgQM)
 
-<p class="clip-credit"><strong>Leg weave and leg staple passing pins</strong> — taught by Fox Den Martial Arts · 1:48 · <a href="https://www.youtube.com/watch?v=sNbJLknPgQM" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=aN2S7_WAhq4)
-
-<p class="clip-credit"><strong>Leg weave to knee slide pass</strong> — taught by Modern BJJ · 1:58 · <a href="https://www.youtube.com/watch?v=aN2S7_WAhq4" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=4LIBFmas-oE)
-
-<p class="clip-credit"><strong>Passing knee shield with leg weave</strong> — taught by BJJ4Breakfast · 2:33 · <a href="https://www.youtube.com/watch?v=4LIBFmas-oE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Leg Weave and Leg Staple Pins for Guard Passing</strong> · 1:47 · <a href="https://www.youtube.com/watch?v=sNbJLknPgQM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

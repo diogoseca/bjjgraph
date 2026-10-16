@@ -485,31 +485,19 @@
     ],
     "clips": [
       {
-        "id": "uPazS4MJiDc",
-        "title": "Americana from top mount",
-        "by": "Evolve MMA",
-        "vertical": false,
-        "channel": "Evolve Mixed Martial Arts",
-        "duration": 71,
-        "verified": "2026-07-14"
-      },
-      {
         "id": "N-bZMbI2jSo",
-        "title": "Americana from mount explained",
-        "by": "Gabriel Gonzaga",
-        "vertical": false,
+        "title": "🛡️ Americana from Mount Explained | BJJ Submission Guide",
         "channel": "Gabriel Gonzaga",
         "duration": 110,
-        "verified": "2026-07-14"
+        "vertical": false,
+        "front": true
       },
       {
         "id": "IGcqUUmdi3A",
         "title": "Americana to armbar from mount",
-        "by": "Renato Migliaccio",
-        "vertical": false,
         "channel": "Renato Migliaccio",
         "duration": 17,
-        "verified": "2026-07-14"
+        "vertical": false
       }
     ]
   },
@@ -700,31 +688,26 @@
     ],
     "clips": [
       {
-        "id": "qVINUjefot8",
-        "title": "Bent armlock escape from mount",
-        "by": "Soma Academy",
-        "vertical": false,
-        "channel": "Soma Academy",
-        "duration": 72,
-        "verified": "2026-07-14"
-      },
-      {
         "id": "qfoEZtys84k",
-        "title": "Defense against the Americana",
-        "by": "Kevin Conan Bankens",
-        "vertical": false,
+        "title": "Bjj defense against the americana",
         "channel": "Kevin Conan Bankens",
         "duration": 42,
-        "verified": "2026-07-14"
+        "vertical": false,
+        "front": true
       },
       {
         "id": "NZjUCo8os8Q",
-        "title": "Simple Americana armlock escape",
-        "by": "Eddie Kone",
-        "vertical": false,
+        "title": "Simple Americana Armlock Escape",
         "channel": "Eddie Kone Academy Of Jiu-Jitsu",
         "duration": 61,
-        "verified": "2026-07-14"
+        "vertical": false
+      },
+      {
+        "id": "qVINUjefot8",
+        "title": "Bent Armlock Escape from Mount",
+        "channel": "Soma Academy",
+        "duration": 71,
+        "vertical": false
       }
     ]
   }

@@ -420,30 +420,11 @@
     "clips": [
       {
         "id": "wBZrTpuXV50",
-        "title": "No-gi double under guard pass",
-        "by": "Garden State BJJ",
-        "vertical": false,
+        "title": "No-Gi Double Under Guard Pass | Brazilian Jiu-Jitsu BJJ Middletown",
         "channel": "Garden State Brazilian Jiu-Jitsu Academy",
-        "duration": 63,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "2KcAEYsaHAg",
-        "title": "Stack pass mechanics",
-        "by": "Kenny Kim",
+        "duration": 62,
         "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 88,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "N4PxPPv98k4",
-        "title": "Double unders pass breakdown",
-        "by": "Nicky Ryan",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 91,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },
@@ -630,30 +611,25 @@
     "clips": [
       {
         "id": "uILaTRBgpG0",
-        "title": "Defensive sweep from the double under pass",
-        "by": "Smith",
-        "vertical": false,
+        "title": "Defense sweep from the double under pass",
         "channel": "Smith ♞ | Brazilian Jiu-jitsu",
         "duration": 28,
-        "verified": "2026-07-15"
+        "vertical": false,
+        "front": true
       },
       {
         "id": "3DSApDUoliQ",
-        "title": "Double unders pass counter",
-        "by": "Steve Lin",
-        "vertical": false,
+        "title": "Steve Lin Seminar~ Double Unders Pass Counter",
         "channel": "The Bear's Den BJJ & MMA  熊派巴西柔術及MMA學院",
-        "duration": 67,
-        "verified": "2026-07-15"
+        "duration": 66,
+        "vertical": false
       },
       {
         "id": "Ad0qtay9IVQ",
-        "title": "Double under stack defense and counter",
-        "by": "Wim Deputter",
-        "vertical": false,
+        "title": "Very Effective Double Under Stack Defense And Counter",
         "channel": "Wim Deputter BJJ",
         "duration": 130,
-        "verified": "2026-07-15"
+        "vertical": false
       }
     ]
   },

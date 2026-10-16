@@ -163,23 +163,11 @@ description: "How to defend the Loop Choke from Half Guard Bottom in BJJ. Recogn
       "@type": "VideoObject",
       "position": 1,
       "name": "Loop choke escape",
-      "description": "Loop Choke from Half Guard (Defender) film study: Loop choke escape, taught by Ninja Pinto.",
+      "description": "Loop Choke from Half Guard (Defender) film study: Loop choke escape.",
       "thumbnailUrl": "https://i.ytimg.com/vi/pZmJpXSwRTk/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/pZmJpXSwRTk",
       "url": "https://www.youtube.com/watch?v=pZmJpXSwRTk",
-      "creator": { "@type": "Person", "name": "Ninja Pinto" },
       "duration": "PT60S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Cross collar loop choke defense",
-      "description": "Loop Choke from Half Guard (Defender) film study: Cross collar loop choke defense, taught by Stephen Whittier.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/iv2YYbzYl-s/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/iv2YYbzYl-s",
-      "url": "https://www.youtube.com/watch?v=iv2YYbzYl-s",
-      "creator": { "@type": "Person", "name": "Stephen Whittier" },
-      "duration": "PT184S"
     }
   ]
 }
@@ -212,15 +200,7 @@ Once the collar is threaded under the chin and the attacker begins sprawling, th
 
 ![](https://www.youtube.com/watch?v=pZmJpXSwRTk)
 
-<p class="clip-credit"><strong>Loop choke escape</strong> — taught by Ninja Pinto · 1:00 · <a href="https://www.youtube.com/watch?v=pZmJpXSwRTk" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=iv2YYbzYl-s)
-
-<p class="clip-credit"><strong>Cross collar loop choke defense</strong> — taught by Stephen Whittier · 3:04 · <a href="https://www.youtube.com/watch?v=iv2YYbzYl-s" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Loop choke escape</strong> · 1:00 · <a href="https://www.youtube.com/watch?v=pZmJpXSwRTk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

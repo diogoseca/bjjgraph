@@ -46,35 +46,22 @@ description: "Master the Ten Finger Guillotine from Front Headlock position. Com
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Leg Grab Ten Finger Guillotine (No-Gi)",
-      "description": "Ten Finger Guillotine from Front Headlock film study: Leg Grab Ten Finger Guillotine (No-Gi), taught by ZombieProofBJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/vNjdZQOI-cs/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/vNjdZQOI-cs",
-      "url": "https://www.youtube.com/watch?v=vNjdZQOI-cs",
-      "creator": { "@type": "Person", "name": "ZombieProofBJJ" },
-      "duration": "PT89S"
+      "name": "Front headlock/ten finger guillotine",
+      "description": "Ten Finger Guillotine from Front Headlock film study: Front headlock/ten finger guillotine.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/GpP5UslUIGo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/GpP5UslUIGo",
+      "url": "https://www.youtube.com/watch?v=GpP5UslUIGo",
+      "duration": "PT130S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "10 Finger Grip Guillotine choke",
-      "description": "Ten Finger Guillotine from Front Headlock film study: 10 Finger Grip Guillotine choke, taught by Big Dan.",
+      "name": "10 finger grip Guillotine choke",
+      "description": "Ten Finger Guillotine from Front Headlock film study: 10 finger grip Guillotine choke.",
       "thumbnailUrl": "https://i.ytimg.com/vi/rYKci9GFisg/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/rYKci9GFisg",
       "url": "https://www.youtube.com/watch?v=rYKci9GFisg",
-      "creator": { "@type": "Person", "name": "Big Dan" },
-      "duration": "PT20S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Front Headlock / Ten Finger Guillotine",
-      "description": "Ten Finger Guillotine from Front Headlock film study: Front Headlock / Ten Finger Guillotine, taught by Torres Jiu-Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/GpP5UslUIGo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/GpP5UslUIGo",
-      "url": "https://www.youtube.com/watch?v=GpP5UslUIGo",
-      "creator": { "@type": "Person", "name": "Torres Jiu-Jitsu" },
-      "duration": "PT131S"
+      "duration": "PT19S"
     }
   ]
 }
@@ -137,9 +124,9 @@ Strategically, this submission sits at the intersection of front headlock contro
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=vNjdZQOI-cs)
+![](https://www.youtube.com/watch?v=GpP5UslUIGo)
 
-<p class="clip-credit"><strong>Leg Grab Ten Finger Guillotine (No-Gi)</strong> — taught by ZombieProofBJJ · 1:29 · <a href="https://www.youtube.com/watch?v=vNjdZQOI-cs" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Front headlock/ten finger guillotine</strong> · 2:10 · <a href="https://www.youtube.com/watch?v=GpP5UslUIGo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -147,15 +134,7 @@ Strategically, this submission sits at the intersection of front headlock contro
 
 ![](https://www.youtube.com/watch?v=rYKci9GFisg)
 
-<p class="clip-credit"><strong>10 Finger Grip Guillotine choke</strong> — taught by Big Dan · 0:20 · <a href="https://www.youtube.com/watch?v=rYKci9GFisg" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=GpP5UslUIGo)
-
-<p class="clip-credit"><strong>Front Headlock / Ten Finger Guillotine</strong> — taught by Torres Jiu-Jitsu · 2:11 · <a href="https://www.youtube.com/watch?v=GpP5UslUIGo" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>10 finger grip Guillotine choke</strong> · 0:19 · <a href="https://www.youtube.com/watch?v=rYKci9GFisg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -188,35 +188,32 @@ description: "Learn to attack the belly down armbar from side control. Step-by-s
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Belly Down Armbar to Counter the Stack",
-      "description": "Belly Down Armbar from Side Control (Attacker) film study: Belly Down Armbar to Counter the Stack, taught by The Art of Fighting.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/9wGAI_8zvBQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/9wGAI_8zvBQ",
-      "url": "https://www.youtube.com/watch?v=9wGAI_8zvBQ",
-      "creator": { "@type": "Person", "name": "The Art of Fighting" },
-      "duration": "PT62S"
+      "name": "Belly Down Arm Bar from Side Control (Rafa Mendes)",
+      "description": "Belly Down Armbar from Side Control (Attacker) film study: Belly Down Arm Bar from Side Control (Rafa Mendes).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/n7XrrDzBujQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/n7XrrDzBujQ",
+      "url": "https://www.youtube.com/watch?v=n7XrrDzBujQ",
+      "duration": "PT66S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Belly Down Attacks: Armbar and Rear Triangle",
-      "description": "Belly Down Armbar from Side Control (Attacker) film study: Belly Down Attacks: Armbar and Rear Triangle, taught by Kameron Ross.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/5eA_LJK-gJo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/5eA_LJK-gJo",
-      "url": "https://www.youtube.com/watch?v=5eA_LJK-gJo",
-      "creator": { "@type": "Person", "name": "Kameron Ross" },
-      "duration": "PT67S"
+      "name": "The Belly Down Arm Bar to counter the stack!",
+      "description": "Belly Down Armbar from Side Control (Attacker) film study: The Belly Down Arm Bar to counter the stack!.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9wGAI_8zvBQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9wGAI_8zvBQ",
+      "url": "https://www.youtube.com/watch?v=9wGAI_8zvBQ",
+      "duration": "PT62S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "Belly Down Arm Bar Finish",
-      "description": "Belly Down Armbar from Side Control (Attacker) film study: Belly Down Arm Bar Finish, taught by Brandoo.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/yDxtO6qzOL0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/yDxtO6qzOL0",
-      "url": "https://www.youtube.com/watch?v=yDxtO6qzOL0",
-      "creator": { "@type": "Person", "name": "Brandoo" },
-      "duration": "PT58S"
+      "name": "Belly Down Attacks : Armbar and Rear Triangle",
+      "description": "Belly Down Armbar from Side Control (Attacker) film study: Belly Down Attacks : Armbar and Rear Triangle.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5eA_LJK-gJo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5eA_LJK-gJo",
+      "url": "https://www.youtube.com/watch?v=5eA_LJK-gJo",
+      "duration": "PT67S"
     }
   ]
 }
@@ -245,9 +242,17 @@ Attacking the belly down armbar from side control requires methodical arm isolat
 
 <div class="film-clip">
 
+![](https://www.youtube.com/watch?v=n7XrrDzBujQ)
+
+<p class="clip-credit"><strong>Belly Down Arm Bar from Side Control (Rafa Mendes)</strong> · 1:06 · <a href="https://www.youtube.com/watch?v=n7XrrDzBujQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
 ![](https://www.youtube.com/watch?v=9wGAI_8zvBQ)
 
-<p class="clip-credit"><strong>Belly Down Armbar to Counter the Stack</strong> — taught by The Art of Fighting · 1:02 · <a href="https://www.youtube.com/watch?v=9wGAI_8zvBQ" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>The Belly Down Arm Bar to counter the stack!</strong> · 1:02 · <a href="https://www.youtube.com/watch?v=9wGAI_8zvBQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -255,15 +260,7 @@ Attacking the belly down armbar from side control requires methodical arm isolat
 
 ![](https://www.youtube.com/watch?v=5eA_LJK-gJo)
 
-<p class="clip-credit"><strong>Belly Down Attacks: Armbar and Rear Triangle</strong> — taught by Kameron Ross · 1:07 · <a href="https://www.youtube.com/watch?v=5eA_LJK-gJo" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=yDxtO6qzOL0)
-
-<p class="clip-credit"><strong>Belly Down Arm Bar Finish</strong> — taught by Brandoo · 0:58 · <a href="https://www.youtube.com/watch?v=yDxtO6qzOL0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Belly Down Attacks : Armbar and Rear Triangle</strong> · 1:07 · <a href="https://www.youtube.com/watch?v=5eA_LJK-gJo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

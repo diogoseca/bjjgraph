@@ -154,24 +154,22 @@ description: "Defend against the Stack Escape from Triangle in BJJ. Learn to mai
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Countering the common triangle defense",
-      "description": "Stack Escape from Triangle (Defender) film study: Countering the common triangle defense, taught by Athlas coach.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/1aiZKV5RmKs/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/1aiZKV5RmKs",
-      "url": "https://www.youtube.com/watch?v=1aiZKV5RmKs",
-      "creator": { "@type": "Person", "name": "Athlas coach" },
-      "duration": "PT136S"
+      "name": "Swim to Triangle, defend Triangle stack to arm bar",
+      "description": "Stack Escape from Triangle (Defender) film study: Swim to Triangle, defend Triangle stack to arm bar.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-QXaB5Sl2VQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/-QXaB5Sl2VQ",
+      "url": "https://www.youtube.com/watch?v=-QXaB5Sl2VQ",
+      "duration": "PT19S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Defending the triangle stack into an armbar",
-      "description": "Stack Escape from Triangle (Defender) film study: Defending the triangle stack into an armbar, taught by JJPA Apex coach.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/-QXaB5Sl2VQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/-QXaB5Sl2VQ",
-      "url": "https://www.youtube.com/watch?v=-QXaB5Sl2VQ",
-      "creator": { "@type": "Person", "name": "JJPA Apex coach" },
-      "duration": "PT20S"
+      "name": "The EDGE Technique 5: How to Stop from being Stacked off a Triangle Choke.mp4",
+      "description": "Stack Escape from Triangle (Defender) film study: The EDGE Technique 5: How to Stop from being Stacked off a Triangle Choke.mp4.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/RiVzzip_7ls/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/RiVzzip_7ls",
+      "url": "https://www.youtube.com/watch?v=RiVzzip_7ls",
+      "duration": "PT110S"
     }
   ]
 }
@@ -199,17 +197,17 @@ Defending against the Stack Escape requires the triangle bottom player to mainta
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=1aiZKV5RmKs)
+![](https://www.youtube.com/watch?v=-QXaB5Sl2VQ)
 
-<p class="clip-credit"><strong>Countering the common triangle defense</strong> — taught by Athlas coach · 2:16 · <a href="https://www.youtube.com/watch?v=1aiZKV5RmKs" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Swim to Triangle, defend Triangle stack to arm bar</strong> · 0:19 · <a href="https://www.youtube.com/watch?v=-QXaB5Sl2VQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=-QXaB5Sl2VQ)
+![](https://www.youtube.com/watch?v=RiVzzip_7ls)
 
-<p class="clip-credit"><strong>Defending the triangle stack into an armbar</strong> — taught by JJPA Apex coach · 0:20 · <a href="https://www.youtube.com/watch?v=-QXaB5Sl2VQ" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>The EDGE Technique 5: How to Stop from being Stacked off a Triangle Choke.mp4</strong> · 1:50 · <a href="https://www.youtube.com/watch?v=RiVzzip_7ls" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

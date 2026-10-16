@@ -188,34 +188,21 @@ description: "Learn to execute the heel hook from grasshopper guard. Step-by-ste
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "K-guard inversion to 50/50 inside heel hook",
-      "description": "Heel Hook from Grasshopper Guard (Attacker) film study: K-guard inversion to 50/50 inside heel hook, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/X6KPR3Nt2bA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/X6KPR3Nt2bA",
-      "url": "https://www.youtube.com/watch?v=X6KPR3Nt2bA",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT99S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "K-guard 50/50 entry to inside heel hook finish",
-      "description": "Heel Hook from Grasshopper Guard (Attacker) film study: K-guard 50/50 entry to inside heel hook finish, taught by BJJ GeekOut.",
+      "name": "K Guard 50/50 Entry into Inside Heelhook Finish",
+      "description": "Heel Hook from Grasshopper Guard (Attacker) film study: K Guard 50/50 Entry into Inside Heelhook Finish.",
       "thumbnailUrl": "https://i.ytimg.com/vi/ieR8CJ1EUM8/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/ieR8CJ1EUM8",
       "url": "https://www.youtube.com/watch?v=ieR8CJ1EUM8",
-      "creator": { "@type": "Person", "name": "BJJ GeekOut" },
       "duration": "PT14S"
     },
     {
       "@type": "VideoObject",
-      "position": 3,
-      "name": "Using the hips to get the inverted heel hook",
-      "description": "Heel Hook from Grasshopper Guard (Attacker) film study: Using the hips to get the inverted heel hook, taught by Lachlan Giles.",
+      "position": 2,
+      "name": "Lachlan Giles shows how to use hips and get inverted heel hook",
+      "description": "Heel Hook from Grasshopper Guard (Attacker) film study: Lachlan Giles shows how to use hips and get inverted heel hook.",
       "thumbnailUrl": "https://i.ytimg.com/vi/S8ZH_9F18jw/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/S8ZH_9F18jw",
       "url": "https://www.youtube.com/watch?v=S8ZH_9F18jw",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
       "duration": "PT103S"
     }
   ]
@@ -245,17 +232,9 @@ Attacking with the heel hook from grasshopper guard requires precise timing of t
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=X6KPR3Nt2bA)
-
-<p class="clip-credit"><strong>K-guard inversion to 50/50 inside heel hook</strong> — taught by Lachlan Giles · 1:39 · <a href="https://www.youtube.com/watch?v=X6KPR3Nt2bA" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=ieR8CJ1EUM8)
 
-<p class="clip-credit"><strong>K-guard 50/50 entry to inside heel hook finish</strong> — taught by BJJ GeekOut · 0:14 · <a href="https://www.youtube.com/watch?v=ieR8CJ1EUM8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>K Guard 50/50 Entry into Inside Heelhook Finish</strong> · 0:14 · <a href="https://www.youtube.com/watch?v=ieR8CJ1EUM8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -263,7 +242,7 @@ Attacking with the heel hook from grasshopper guard requires precise timing of t
 
 ![](https://www.youtube.com/watch?v=S8ZH_9F18jw)
 
-<p class="clip-credit"><strong>Using the hips to get the inverted heel hook</strong> — taught by Lachlan Giles · 1:43 · <a href="https://www.youtube.com/watch?v=S8ZH_9F18jw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Lachlan Giles shows how to use hips and get inverted heel hook</strong> · 1:43 · <a href="https://www.youtube.com/watch?v=S8ZH_9F18jw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

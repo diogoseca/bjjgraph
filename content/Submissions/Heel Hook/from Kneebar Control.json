@@ -420,30 +420,25 @@
     "clips": [
       {
         "id": "HQSxxYL1Aew",
-        "title": "Kneebar to Heel Hook Matrix",
-        "by": "Mikey Musumeci",
-        "vertical": false,
+        "title": "Matrix-Kneebar-Heel Hook by Mickey Musumeci",
         "channel": "DARKSIDE | Team Strela",
         "duration": 26,
-        "verified": "2026-07-14"
+        "vertical": false,
+        "front": true
       },
       {
         "id": "B8q8wZx0b74",
-        "title": "Ankle Lock to Kneebar to Heel Hook Transitions",
-        "by": "Elevate MMA",
-        "vertical": false,
+        "title": "Ankle Lock to Knee Bar to Heel Hook transitions",
         "channel": "Elevate MMA Academy",
-        "duration": 94,
-        "verified": "2026-07-14"
+        "duration": 93,
+        "vertical": false
       },
       {
         "id": "6gu-n4P9JXo",
-        "title": "Heel Hook Breaking Mechanics",
-        "by": "Craig Jones",
-        "vertical": false,
+        "title": "Craig Jones  - Heel Hook Breaking Mechanics",
         "channel": "Altay Pirge",
         "duration": 77,
-        "verified": "2026-07-14"
+        "vertical": false
       }
     ]
   },
@@ -624,25 +619,6 @@
         "description": "Open leg lock sparring where kneebar-to-heel-hook transitions occur organically. Defender must recognize and respond to transitions in real time with full resistance. Maintain strict safety protocols throughout. Debrief after each round to analyze decision points and defensive timing."
       }
     ],
-    "clips": [
-      {
-        "id": "v3w0qXLKxug",
-        "title": "Defending Heel Hooks",
-        "by": "Lachlan Giles",
-        "vertical": false,
-        "channel": "Absolute MMA St Kilda - Melbourne",
-        "duration": 92,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "E8oQH0salp4",
-        "title": "Knee Bar Submission Escape from Guard",
-        "by": "ConwayToe2Toe",
-        "vertical": false,
-        "channel": "ConwayToe2Toe Jiu-Jitsu",
-        "duration": 96,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   }
 }

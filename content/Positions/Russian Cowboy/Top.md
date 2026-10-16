@@ -155,50 +155,6 @@ description: "Offensive guide to mastering Russian Cowboy position. Learn contro
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Russian Cowboy (Top) \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Double deep hook submissions from the Russian Cowboy",
-      "description": "Russian Cowboy (Top) film study: Double deep hook submissions from the Russian Cowboy, taught by 10th Planet Rochester.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/kGoEjQMRp3I/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/kGoEjQMRp3I",
-      "url": "https://www.youtube.com/watch?v=kGoEjQMRp3I",
-      "creator": { "@type": "Person", "name": "10th Planet Rochester" },
-      "duration": "PT193S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Deep hook submissions from the Russian Cowboy, part 1",
-      "description": "Russian Cowboy (Top) film study: Deep hook submissions from the Russian Cowboy, part 1, taught by 10th Planet Rochester.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/qrzsom95zes/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/qrzsom95zes",
-      "url": "https://www.youtube.com/watch?v=qrzsom95zes",
-      "creator": { "@type": "Person", "name": "10th Planet Rochester" },
-      "duration": "PT275S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Deep hook submissions from the Russian Cowboy, part 2",
-      "description": "Russian Cowboy (Top) film study: Deep hook submissions from the Russian Cowboy, part 2, taught by 10th Planet Rochester.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/ndwBL1fHhl4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/ndwBL1fHhl4",
-      "url": "https://www.youtube.com/watch?v=ndwBL1fHhl4",
-      "creator": { "@type": "Person", "name": "10th Planet Rochester" },
-      "duration": "PT252S"
-    }
-  ]
-}
-</script>
-
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -213,40 +169,6 @@ The Russian Cowboy is particularly effective because it combines elements of bac
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Russian Cowboy (Top) in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=kGoEjQMRp3I)
-
-<p class="clip-credit"><strong>Double deep hook submissions from the Russian Cowboy</strong> — taught by 10th Planet Rochester · 3:13 · <a href="https://www.youtube.com/watch?v=kGoEjQMRp3I" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=qrzsom95zes)
-
-<p class="clip-credit"><strong>Deep hook submissions from the Russian Cowboy, part 1</strong> — taught by 10th Planet Rochester · 4:35 · <a href="https://www.youtube.com/watch?v=qrzsom95zes" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=ndwBL1fHhl4)
-
-<p class="clip-credit"><strong>Deep hook submissions from the Russian Cowboy, part 2</strong> — taught by 10th Planet Rochester · 4:12 · <a href="https://www.youtube.com/watch?v=ndwBL1fHhl4" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="state-invariants" class="content-section">

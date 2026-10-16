@@ -160,35 +160,12 @@ description: "Defend and counter the Sweep from Matrix in BJJ. Learn recognition
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Matrix defense in the leg drag series",
-      "description": "Sweep from Matrix (Defender) film study: Matrix defense in the leg drag series, taught by BJJ Lab Zurich coach.",
+      "name": "4. Matrix Defense (Leg Drag Series)",
+      "description": "Sweep from Matrix (Defender) film study: 4. Matrix Defense (Leg Drag Series).",
       "thumbnailUrl": "https://i.ytimg.com/vi/QCEdvqfWZMI/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/QCEdvqfWZMI",
       "url": "https://www.youtube.com/watch?v=QCEdvqfWZMI",
-      "creator": { "@type": "Person", "name": "BJJ Lab Zurich coach" },
       "duration": "PT96S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Passing the Rubber Guard",
-      "description": "Sweep from Matrix (Defender) film study: Passing the Rubber Guard, taught by Marcelo Garcia.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/ANxiPpAzACU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/ANxiPpAzACU",
-      "url": "https://www.youtube.com/watch?v=ANxiPpAzACU",
-      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
-      "duration": "PT443S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Matrix Defense: Guard Pass to Triangle Choke Counter",
-      "description": "Sweep from Matrix (Defender) film study: Matrix Defense: Guard Pass to Triangle Choke Counter, taught by Balance Studios.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/1oZiBAF1kTA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/1oZiBAF1kTA",
-      "url": "https://www.youtube.com/watch?v=1oZiBAF1kTA",
-      "creator": { "@type": "Person", "name": "Balance Studios" },
-      "duration": "PT233S"
     }
   ]
 }
@@ -218,23 +195,7 @@ From the defender perspective, recognizing and countering the Sweep from Matrix 
 
 ![](https://www.youtube.com/watch?v=QCEdvqfWZMI)
 
-<p class="clip-credit"><strong>Matrix defense in the leg drag series</strong> — taught by BJJ Lab Zurich coach · 1:36 · <a href="https://www.youtube.com/watch?v=QCEdvqfWZMI" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=ANxiPpAzACU)
-
-<p class="clip-credit"><strong>Passing the Rubber Guard</strong> — taught by Marcelo Garcia · 7:23 · <a href="https://www.youtube.com/watch?v=ANxiPpAzACU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=1oZiBAF1kTA)
-
-<p class="clip-credit"><strong>Matrix Defense: Guard Pass to Triangle Choke Counter</strong> — taught by Balance Studios · 3:53 · <a href="https://www.youtube.com/watch?v=1oZiBAF1kTA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>4. Matrix Defense (Leg Drag Series)</strong> · 1:36 · <a href="https://www.youtube.com/watch?v=QCEdvqfWZMI" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

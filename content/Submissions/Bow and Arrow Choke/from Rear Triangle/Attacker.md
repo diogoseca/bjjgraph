@@ -188,34 +188,21 @@ description: "Learn to execute the Bow and Arrow Choke from Rear Triangle. Step-
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Bow and arrow choke from back control",
-      "description": "Bow and Arrow Choke from Rear Triangle (Attacker) film study: Bow and arrow choke from back control, taught by Evolve MMA.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/xqNhZVNhxnE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/xqNhZVNhxnE",
-      "url": "https://www.youtube.com/watch?v=xqNhZVNhxnE",
-      "creator": { "@type": "Person", "name": "Evolve MMA" },
-      "duration": "PT45S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Bow and arrow choke",
-      "description": "Bow and Arrow Choke from Rear Triangle (Attacker) film study: Bow and arrow choke, taught by Helena Crevar.",
+      "name": "Bow and Arrow Choke by Helena Crevar",
+      "description": "Bow and Arrow Choke from Rear Triangle (Attacker) film study: Bow and Arrow Choke by Helena Crevar.",
       "thumbnailUrl": "https://i.ytimg.com/vi/rc77idEskwo/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/rc77idEskwo",
       "url": "https://www.youtube.com/watch?v=rc77idEskwo",
-      "creator": { "@type": "Person", "name": "Helena Crevar" },
       "duration": "PT55S"
     },
     {
       "@type": "VideoObject",
-      "position": 3,
-      "name": "Bow \u0026 arrow choke",
-      "description": "Bow and Arrow Choke from Rear Triangle (Attacker) film study: Bow \u0026 arrow choke, taught by Gracie Barra.",
+      "position": 2,
+      "name": "Bow \u0026 Arrow Choke",
+      "description": "Bow and Arrow Choke from Rear Triangle (Attacker) film study: Bow \u0026 Arrow Choke.",
       "thumbnailUrl": "https://i.ytimg.com/vi/R5LFNqtx1ps/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/R5LFNqtx1ps",
       "url": "https://www.youtube.com/watch?v=R5LFNqtx1ps",
-      "creator": { "@type": "Person", "name": "Gracie Barra" },
       "duration": "PT66S"
     }
   ]
@@ -245,17 +232,9 @@ Executing the Bow and Arrow Choke from Rear Triangle requires maintaining your t
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=xqNhZVNhxnE)
-
-<p class="clip-credit"><strong>Bow and arrow choke from back control</strong> — taught by Evolve MMA · 0:45 · <a href="https://www.youtube.com/watch?v=xqNhZVNhxnE" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=rc77idEskwo)
 
-<p class="clip-credit"><strong>Bow and arrow choke</strong> — taught by Helena Crevar · 0:55 · <a href="https://www.youtube.com/watch?v=rc77idEskwo" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Bow and Arrow Choke by Helena Crevar</strong> · 0:55 · <a href="https://www.youtube.com/watch?v=rc77idEskwo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -263,7 +242,7 @@ Executing the Bow and Arrow Choke from Rear Triangle requires maintaining your t
 
 ![](https://www.youtube.com/watch?v=R5LFNqtx1ps)
 
-<p class="clip-credit"><strong>Bow &amp; arrow choke</strong> — taught by Gracie Barra · 1:06 · <a href="https://www.youtube.com/watch?v=R5LFNqtx1ps" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Bow &amp; Arrow Choke</strong> · 1:06 · <a href="https://www.youtube.com/watch?v=R5LFNqtx1ps" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

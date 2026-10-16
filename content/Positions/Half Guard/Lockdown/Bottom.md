@@ -155,50 +155,6 @@ description: "Master Lockdown Bottom in BJJ. 10th Planet's signature half guard 
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Lockdown (Bottom) \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Corona lockdown sweep",
-      "description": "Lockdown (Bottom) film study: Corona lockdown sweep, taught by Eddie Bravo.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/08cbHHs_NsM/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/08cbHHs_NsM",
-      "url": "https://www.youtube.com/watch?v=08cbHHs_NsM",
-      "creator": { "@type": "Person", "name": "Eddie Bravo" },
-      "duration": "PT53S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Lockdown clinches (MTS 176)",
-      "description": "Lockdown (Bottom) film study: Lockdown clinches (MTS 176), taught by Eddie Bravo.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/OIr4wDxl-Ys/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/OIr4wDxl-Ys",
-      "url": "https://www.youtube.com/watch?v=OIr4wDxl-Ys",
-      "creator": { "@type": "Person", "name": "Eddie Bravo" },
-      "duration": "PT60S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Advanced lockdown details",
-      "description": "Lockdown (Bottom) film study: Advanced lockdown details, taught by Eddie Bravo.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/AmOMN0S1v8Q/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/AmOMN0S1v8Q",
-      "url": "https://www.youtube.com/watch?v=AmOMN0S1v8Q",
-      "creator": { "@type": "Person", "name": "Eddie Bravo" },
-      "duration": "PT61S"
-    }
-  ]
-}
-</script>
-
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -209,40 +165,6 @@ Lockdown Bottom is 10th Planet's signature half guard variation where the bottom
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Lockdown (Bottom) in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=08cbHHs_NsM)
-
-<p class="clip-credit"><strong>Corona lockdown sweep</strong> — taught by Eddie Bravo · 0:53 · <a href="https://www.youtube.com/watch?v=08cbHHs_NsM" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=OIr4wDxl-Ys)
-
-<p class="clip-credit"><strong>Lockdown clinches (MTS 176)</strong> — taught by Eddie Bravo · 1:00 · <a href="https://www.youtube.com/watch?v=OIr4wDxl-Ys" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=AmOMN0S1v8Q)
-
-<p class="clip-credit"><strong>Advanced lockdown details</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=AmOMN0S1v8Q" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="state-invariants" class="content-section">

@@ -374,26 +374,7 @@
       }
     ],
     "safety_considerations": "Sweeps from headquarters involve dynamic hip movement and rotational forces that stress the knee and ankle joints. Be particularly mindful of knee strain on the trapped leg during explosive sweep attempts, as the leg may be wedged between the opponent's knees at an awkward angle. Tap immediately if you feel sharp pain in the knee or ankle of the trapped leg during training. Communicate with your partner about the intensity of leg trapping pressure and avoid forcing sweep attempts when the trapped leg position creates dangerous joint angles. During drilling, begin with slow controlled repetitions before adding speed and resistance.",
-    "clips": [
-      {
-        "id": "kSc35SuV7W0",
-        "title": "Star sweep",
-        "by": "bjjtaro",
-        "vertical": false,
-        "channel": "bjjtaro",
-        "duration": 13,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "eO0iX_6Whaw",
-        "title": "De La Riva tip from headquarters passing",
-        "by": "Lachlan Giles",
-        "vertical": false,
-        "channel": "Absolute MMA St Kilda - Melbourne",
-        "duration": 71,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Sweep from Headquarters Defender",
@@ -556,16 +537,6 @@
         "description": "Full resistance rounds starting from headquarters against a partner whose primary goal is to sweep. Develop the ability to pass while managing constant sweep threats, integrating sweep defense into your natural passing flow without disrupting offensive rhythm."
       }
     ],
-    "clips": [
-      {
-        "id": "YNcEX5v0bcs",
-        "title": "Seated escape basics",
-        "by": "Andre Galvao",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 70,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

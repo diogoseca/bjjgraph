@@ -451,30 +451,18 @@
     "clips": [
       {
         "id": "tO5rPtjfsGE",
-        "title": "Prevent the leg weave with the lasso",
-        "by": "Grand Union Jiu Jitsu",
-        "vertical": false,
+        "title": "Grand Union Comp Tips ; Prevent the leg weave with Lasso",
         "channel": "Grand Union Jiu Jitsu",
         "duration": 54,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "06-ZO93fJak",
-        "title": "Head frame to prevent the hug pass",
-        "by": "Revolution BJJ",
         "vertical": false,
-        "channel": "Revolution BJJ",
-        "duration": 90,
-        "verified": "2026-07-15"
+        "front": true
       },
       {
         "id": "9i-U4ivd108",
-        "title": "3-step defensive counter to the weave pass",
-        "by": "Pendergrass Academy",
-        "vertical": false,
+        "title": "3 Step Defense Counter to the Weave Pass, PAMA, Raleigh NC",
         "channel": "Pendergrass Academy of Martial Arts",
         "duration": 116,
-        "verified": "2026-07-15"
+        "vertical": false
       }
     ]
   },

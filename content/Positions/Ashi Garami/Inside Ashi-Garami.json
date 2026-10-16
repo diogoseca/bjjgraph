@@ -505,31 +505,12 @@
     ],
     "clips": [
       {
-        "id": "yT3euuWRWXw",
-        "title": "3 paths to backside 50/50 from Single Leg X",
-        "by": "Gustavo Gomes Firmino",
+        "id": "pYnp2_gJIoM",
+        "title": "Ashi Garami 101: Basic Mechanics and Drills for Leglocks (No Gi Jiu-Jitsu)",
+        "channel": "Brian Glick",
+        "duration": 330,
         "vertical": false,
-        "channel": "Gustavo Gomes Firmino",
-        "duration": 56,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "DBbSqQf6iCo",
-        "title": "Roll under to backside 50/50",
-        "by": "Lachlan Giles",
-        "vertical": false,
-        "channel": "BJJ focus camps",
-        "duration": 110,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "D9_e_d6WpyU",
-        "title": "Reverse Achilles Lock from Ashi Garami",
-        "by": "Corey K",
-        "vertical": false,
-        "channel": "Corey K",
-        "duration": 84,
-        "verified": "2026-07-14"
+        "front": true
       }
     ]
   },
@@ -916,31 +897,12 @@
     ],
     "clips": [
       {
-        "id": "m4UEhHwbGfQ",
-        "title": "Ashi Garami escape: sit over foot to mount",
-        "by": "Troy Manning",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 76,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "e2KVHXnSh_o",
-        "title": "Single Leg X counter with heel hook",
-        "by": "Charles Allan Price",
-        "vertical": false,
-        "channel": "Charles Allan Price",
-        "duration": 75,
-        "verified": "2026-07-14"
-      },
-      {
         "id": "JSOM86_1lRo",
-        "title": "Foot lock and Single Leg X guard escapes",
-        "by": "James O'Connor",
-        "vertical": false,
+        "title": "Foot lock and single leg X Guard escapes",
         "channel": "James O’Connor",
         "duration": 111,
-        "verified": "2026-07-14"
+        "vertical": false,
+        "front": true
       }
     ]
   },
@@ -1058,33 +1020,5 @@
       }
     }
   ],
-  "clips": [
-    {
-      "id": "rNDEm73luBM",
-      "title": "Mikey lock entries from closed guard",
-      "by": "Mikey Musumeci",
-      "vertical": false,
-      "channel": "Lux’s jiu jitsu channel",
-      "duration": 68,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "VmxgqU-ScTM",
-      "title": "Honey hole entry from Single Leg X",
-      "by": "Danny Mitchell",
-      "vertical": false,
-      "channel": "Danny Mitchell MMA",
-      "duration": 34,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "-VpByetjzqs",
-      "title": "Backside foot finish mechanics",
-      "by": "Mikey Musumeci",
-      "vertical": false,
-      "channel": "BJJ Fanatics",
-      "duration": 84,
-      "verified": "2026-07-14"
-    }
-  ]
+  "clips": []
 }

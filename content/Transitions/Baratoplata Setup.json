@@ -394,35 +394,7 @@
       }
     ],
     "safety_considerations": "The Baratoplata attacks the shoulder joint through internal rotation, which can cause serious injury if applied too quickly or without control. Shoulder injuries from rotational attacks often require surgical repair and extended rehabilitation. When drilling, apply pressure progressively and give your partner time to tap. The submission can come on suddenly as the angle locks in, so maintain constant communication. Never crank the figure-four grip explosively. If your partner's shoulder makes popping sounds, release immediately—this indicates potential labrum damage. Avoid this technique if you or your partner have existing shoulder injuries. In competition, maintain control after the tap to prevent falling into the submission with full weight.",
-    "clips": [
-      {
-        "id": "16hTPPDyl5E",
-        "title": "Baratoplata Entry",
-        "by": "Coach Brian",
-        "vertical": false,
-        "channel": "TeachMeGrappling Coach Brian",
-        "duration": 158,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "7PzrTuuHzZ4",
-        "title": "Baratoplata from spider guard",
-        "by": "Joao Miyao",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 362,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "TUDgZTMr3_o",
-        "title": "Baratoplata from top half guard",
-        "by": "Juan Lopezcorrea",
-        "vertical": false,
-        "channel": "juan lopezcorrea",
-        "duration": 28,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Baratoplata Setup Defender",
@@ -586,30 +558,11 @@
     "clips": [
       {
         "id": "rx4XoCFWeq8",
-        "title": "Baratoplata Defense",
-        "by": "Animal",
-        "vertical": false,
+        "title": "Baratoplata Defense!!!                                            #jiujitsu…",
         "channel": "Animal",
-        "duration": 75,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "hMMn5jt-fsI",
-        "title": "Omoplata and shoulder lock escapes",
-        "by": "Dean Lister",
+        "duration": 74,
         "vertical": false,
-        "channel": "Bernardo Faria BJJ Fanatics",
-        "duration": 547,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "NynhkhEhRJM",
-        "title": "Take the back when caught in an omoplata",
-        "by": "Kit Dale",
-        "vertical": false,
-        "channel": "Kit Dale",
-        "duration": 165,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },

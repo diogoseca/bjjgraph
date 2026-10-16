@@ -482,21 +482,11 @@
     "clips": [
       {
         "id": "Ku6XZn4SMEY",
-        "title": "Loop choke setup and finish",
-        "by": "Johnny Jitsu",
-        "vertical": false,
+        "title": "Awesome \"Standing\" attack : Loop Choke",
         "channel": "Johnny Jitsu",
         "duration": 98,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "ny2W7CS0Wjo",
-        "title": "Loop choke finish in competition",
-        "by": "Antonio Juniao",
         "vertical": false,
-        "channel": "Roger Gracie Academy",
-        "duration": 59,
-        "verified": "2026-07-16"
+        "front": true
       }
     ]
   },
@@ -695,20 +685,10 @@
       {
         "id": "pZmJpXSwRTk",
         "title": "Loop choke escape",
-        "by": "Ninja Pinto",
-        "vertical": false,
-        "channel": "Ninja Pinto BJJ",
+        "channel": "Ninja Pinto",
         "duration": 60,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "be-iHHhJGng",
-        "title": "Cross collar choke defense from bottom",
-        "by": "Peter Mettler",
         "vertical": false,
-        "channel": "Peter Mettler Martial Arts",
-        "duration": 130,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },

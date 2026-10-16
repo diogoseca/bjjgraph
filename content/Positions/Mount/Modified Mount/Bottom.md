@@ -165,35 +165,12 @@ description: "Defend Modified Mount position effectively. Learn escape sequences
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Escape from a high full mount",
-      "description": "Modified Mount (Bottom) film study: Escape from a high full mount, taught by TENZAN.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/_05Lwonu0mw/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/_05Lwonu0mw",
-      "url": "https://www.youtube.com/watch?v=_05Lwonu0mw",
-      "creator": { "@type": "Person", "name": "TENZAN" },
-      "duration": "PT78S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Escaping the mount",
-      "description": "Modified Mount (Bottom) film study: Escaping the mount, taught by Gabriel Gonzaga.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/9252EvCT0q4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/9252EvCT0q4",
-      "url": "https://www.youtube.com/watch?v=9252EvCT0q4",
-      "creator": { "@type": "Person", "name": "Gabriel Gonzaga" },
-      "duration": "PT93S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "One arm under leg mount escape",
-      "description": "Modified Mount (Bottom) film study: One arm under leg mount escape, taught by Professor Aaron.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/PnQdaoKyxoc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/PnQdaoKyxoc",
-      "url": "https://www.youtube.com/watch?v=PnQdaoKyxoc",
-      "creator": { "@type": "Person", "name": "Professor Aaron" },
-      "duration": "PT130S"
+      "name": "Modified Mount Escape",
+      "description": "Modified Mount (Bottom) film study: Modified Mount Escape.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WUNFDi5Cz4E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/WUNFDi5Cz4E",
+      "url": "https://www.youtube.com/watch?v=WUNFDi5Cz4E",
+      "duration": "PT163S"
     }
   ]
 }
@@ -219,25 +196,9 @@ Facing Modified Mount from the bottom requires understanding how the asymmetric 
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=_05Lwonu0mw)
+![](https://www.youtube.com/watch?v=WUNFDi5Cz4E)
 
-<p class="clip-credit"><strong>Escape from a high full mount</strong> — taught by TENZAN · 1:18 · <a href="https://www.youtube.com/watch?v=_05Lwonu0mw" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=9252EvCT0q4)
-
-<p class="clip-credit"><strong>Escaping the mount</strong> — taught by Gabriel Gonzaga · 1:33 · <a href="https://www.youtube.com/watch?v=9252EvCT0q4" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=PnQdaoKyxoc)
-
-<p class="clip-credit"><strong>One arm under leg mount escape</strong> — taught by Professor Aaron · 2:10 · <a href="https://www.youtube.com/watch?v=PnQdaoKyxoc" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Modified Mount Escape</strong> · 2:43 · <a href="https://www.youtube.com/watch?v=WUNFDi5Cz4E" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

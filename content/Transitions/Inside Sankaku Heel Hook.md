@@ -46,34 +46,11 @@ description: "Master the Inside Sankaku Heel Hook in BJJ. Comprehensive guide to
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Inside heel hook breakdown",
-      "description": "Inside Sankaku Heel Hook film study: Inside heel hook breakdown, taught by Craig Jones.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/rjMVCd6n1TA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/rjMVCd6n1TA",
-      "url": "https://www.youtube.com/watch?v=rjMVCd6n1TA",
-      "creator": { "@type": "Person", "name": "Craig Jones" },
-      "duration": "PT61S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Heel hook breaking mechanics",
-      "description": "Inside Sankaku Heel Hook film study: Heel hook breaking mechanics, taught by Craig Jones.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/6gu-n4P9JXo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/6gu-n4P9JXo",
-      "url": "https://www.youtube.com/watch?v=6gu-n4P9JXo",
-      "creator": { "@type": "Person", "name": "Craig Jones" },
-      "duration": "PT77S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Inside heel hook from butterfly guard",
-      "description": "Inside Sankaku Heel Hook film study: Inside heel hook from butterfly guard, taught by Mike Palladino.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/RDZrtByKcNI/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/RDZrtByKcNI",
-      "url": "https://www.youtube.com/watch?v=RDZrtByKcNI",
-      "creator": { "@type": "Person", "name": "Mike Palladino" },
+      "name": "How to Escape the HONEY HOLE - Variation with BJJ Black Belt",
+      "description": "Inside Sankaku Heel Hook film study: How to Escape the HONEY HOLE - Variation with BJJ Black Belt.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gEEHqiSznS4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/gEEHqiSznS4",
+      "url": "https://www.youtube.com/watch?v=gEEHqiSznS4",
       "duration": "PT60S"
     }
   ]
@@ -128,25 +105,9 @@ The heel hook attacks the knee's ligaments through rotational force transmitted 
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=rjMVCd6n1TA)
+![](https://www.youtube.com/watch?v=gEEHqiSznS4)
 
-<p class="clip-credit"><strong>Inside heel hook breakdown</strong> — taught by Craig Jones · 1:01 · <a href="https://www.youtube.com/watch?v=rjMVCd6n1TA" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=6gu-n4P9JXo)
-
-<p class="clip-credit"><strong>Heel hook breaking mechanics</strong> — taught by Craig Jones · 1:17 · <a href="https://www.youtube.com/watch?v=6gu-n4P9JXo" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=RDZrtByKcNI)
-
-<p class="clip-credit"><strong>Inside heel hook from butterfly guard</strong> — taught by Mike Palladino · 1:00 · <a href="https://www.youtube.com/watch?v=RDZrtByKcNI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How to Escape the HONEY HOLE - Variation with BJJ Black Belt</strong> · 1:00 · <a href="https://www.youtube.com/watch?v=gEEHqiSznS4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -480,31 +480,12 @@
     ],
     "clips": [
       {
-        "id": "UZVu4XCCO0k",
-        "title": "Passing with Double Unders",
-        "by": "Revolution BJJ",
+        "id": "wBZrTpuXV50",
+        "title": "No-Gi Double Under Guard Pass | Brazilian Jiu-Jitsu BJJ Middletown",
+        "channel": "Garden State Brazilian Jiu-Jitsu Academy",
+        "duration": 62,
         "vertical": false,
-        "channel": "Revolution BJJ",
-        "duration": 75,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "8O-urvZVqYU",
-        "title": "Double Under Pass to Darce",
-        "by": "10th Planet Costa Mesa",
-        "vertical": false,
-        "channel": "10th Planet Costa Mesa",
-        "duration": 35,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "bPyk_2CrVBo",
-        "title": "Double-Under Pass to Armbar",
-        "by": "Dirtball BJJ",
-        "vertical": false,
-        "channel": "Dirtball BJJ",
-        "duration": 68,
-        "verified": "2026-07-14"
+        "front": true
       }
     ]
   },
@@ -924,35 +905,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "DBbSqQf6iCo",
-        "title": "Roll Under to Backside 50/50 Counter",
-        "by": "Lachlan Giles",
-        "vertical": false,
-        "channel": "BJJ focus camps",
-        "duration": 110,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "vXSyHH514Gs",
-        "title": "3 Ways to Counter the Double Under Pass",
-        "by": "Dubious Dom",
-        "vertical": false,
-        "channel": "Dubious Dom",
-        "duration": 115,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "k-78AJwPYig",
-        "title": "Defending Double Under to Back Control",
-        "by": "Academy Jiu Jitsu",
-        "vertical": false,
-        "channel": "Academy Jiu Jitsu",
-        "duration": 64,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   },
   "flashcards_position": [
     {
@@ -1070,22 +1023,12 @@
   ],
   "clips": [
     {
-      "id": "N4PxPPv98k4",
-      "title": "Double unders pass concept and mechanics",
-      "by": "Nicky Ryan",
-      "vertical": false,
-      "channel": "BJJ Fanatics",
-      "duration": 91,
-      "verified": "2026-07-15"
-    },
-    {
       "id": "wBZrTpuXV50",
-      "title": "No-gi double under guard pass walkthrough",
-      "by": "Garden State BJJ",
-      "vertical": false,
+      "title": "No-Gi Double Under Guard Pass | Brazilian Jiu-Jitsu BJJ Middletown",
       "channel": "Garden State Brazilian Jiu-Jitsu Academy",
-      "duration": 63,
-      "verified": "2026-07-15"
+      "duration": 62,
+      "vertical": false,
+      "half": "top"
     }
   ]
 }

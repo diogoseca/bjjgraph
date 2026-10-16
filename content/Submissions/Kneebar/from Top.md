@@ -46,24 +46,22 @@ description: "Master the Kneebar from Top positions in BJJ. Complete safety guid
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Kneebar from Top Turtle",
-      "description": "Kneebar from Top film study: Kneebar from Top Turtle, taught by Charlie Cosens.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/2mleTh3ZoBk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/2mleTh3ZoBk",
-      "url": "https://www.youtube.com/watch?v=2mleTh3ZoBk",
-      "creator": { "@type": "Person", "name": "Charlie Cosens" },
-      "duration": "PT88S"
+      "name": "Knee Bar from Side control",
+      "description": "Kneebar from Top film study: Knee Bar from Side control.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5GOWKe9WTs8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5GOWKe9WTs8",
+      "url": "https://www.youtube.com/watch?v=5GOWKe9WTs8",
+      "duration": "PT94S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Kneebar from Side Control",
-      "description": "Kneebar from Top film study: Kneebar from Side Control, taught by Steven Corley.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/5GOWKe9WTs8/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/5GOWKe9WTs8",
-      "url": "https://www.youtube.com/watch?v=5GOWKe9WTs8",
-      "creator": { "@type": "Person", "name": "Steven Corley" },
-      "duration": "PT95S"
+      "name": "Crazy Kneebar From Top Turtle Position: Charlie Cosens / Cosens MMA",
+      "description": "Kneebar from Top film study: Crazy Kneebar From Top Turtle Position: Charlie Cosens / Cosens MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2mleTh3ZoBk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2mleTh3ZoBk",
+      "url": "https://www.youtube.com/watch?v=2mleTh3ZoBk",
+      "duration": "PT88S"
     }
   ]
 }
@@ -126,17 +124,17 @@ The top kneebar serves dual purposes: as a finishing submission and as a positio
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=2mleTh3ZoBk)
+![](https://www.youtube.com/watch?v=5GOWKe9WTs8)
 
-<p class="clip-credit"><strong>Kneebar from Top Turtle</strong> — taught by Charlie Cosens · 1:28 · <a href="https://www.youtube.com/watch?v=2mleTh3ZoBk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Knee Bar from Side control</strong> · 1:34 · <a href="https://www.youtube.com/watch?v=5GOWKe9WTs8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=5GOWKe9WTs8)
+![](https://www.youtube.com/watch?v=2mleTh3ZoBk)
 
-<p class="clip-credit"><strong>Kneebar from Side Control</strong> — taught by Steven Corley · 1:35 · <a href="https://www.youtube.com/watch?v=5GOWKe9WTs8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Crazy Kneebar From Top Turtle Position: Charlie Cosens / Cosens MMA</strong> · 1:28 · <a href="https://www.youtube.com/watch?v=2mleTh3ZoBk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

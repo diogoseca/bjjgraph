@@ -367,35 +367,7 @@
       }
     ],
     "safety_considerations": "The primary safety concern during this transition is cervical spine loading. When rotating from inverted to upright, weight must remain on the shoulders and upper back, never concentrating on the neck vertebrae. Practitioners with limited neck mobility or any cervical spine history should use the controlled roll-through variant rather than the quick hip switch. Additionally, the lasso hook creates stress on the opponent's shoulder joint - maintain awareness of your partner's flexibility limitations and avoid cranking the lasso aggressively during the transition when the angle changes may unexpectedly increase rotational force on their trapped arm. Always warm up the neck and spine before drilling inverted guard transitions.",
-    "clips": [
-      {
-        "id": "n4ddjzGemrw",
-        "title": "Lasso guard variations and how to establish them",
-        "by": "Felipe Costa",
-        "vertical": false,
-        "channel": "Felipe Costa",
-        "duration": 28,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "1ZeXvHBibi8",
-        "title": "Late Stage Recovery To Lasso",
-        "by": "Chelsea Leah",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 147,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "bdAE36JZ_yk",
-        "title": "Guard Retention to Lasso Guard",
-        "by": "Clark Gracie",
-        "vertical": false,
-        "channel": "Texas Jui-jitsu",
-        "duration": 204,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Inverted Lasso to Lasso Guard Defender",
@@ -540,34 +512,6 @@
         "description": "Start from established inverted lasso guard with both players at full resistance. Top player attempts to exploit the transition window whenever the bottom player recovers to standard lasso. Bottom player can attack from both positions. Develops real-time pattern recognition and counter-selection against unpredictable guard play."
       }
     ],
-    "clips": [
-      {
-        "id": "9sQAn2ESkMU",
-        "title": "Passing lasso guard through to the back",
-        "by": "Gabriel Sousa",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 113,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "Bnx650_z48I",
-        "title": "Passing the Lasso Guard with the Longstep",
-        "by": "Dom",
-        "vertical": false,
-        "channel": "Dubious Dom",
-        "duration": 223,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "kNpws9uAY8o",
-        "title": "Escaping and Passing the Lasso",
-        "by": "Bryce Nie",
-        "vertical": false,
-        "channel": "Bryce Nie",
-        "duration": 383,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

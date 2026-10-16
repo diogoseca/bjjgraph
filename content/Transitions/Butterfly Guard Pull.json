@@ -381,22 +381,11 @@
     "safety_considerations": "The Butterfly Guard Pull is generally a low-risk technique since it involves transitioning to a seated ground position rather than applying joint locks or chokes. However, practitioners should be aware of knee stress from improper hook insertion angles, particularly when hooks catch awkwardly on the opponent's legs during the descent. Ensure adequate mat space behind you before pulling to avoid sitting into walls, other practitioners, or the mat edge. Communicate with training partners when drilling guard pulls to prevent unexpected collapses that can injure both people. Avoid pulling guard when the standing partner is not expecting it, as the sudden downward force through grips can strain shoulders and neck.",
     "clips": [
       {
-        "id": "L8JpDuYczgk",
-        "title": "Belt grab guard pull",
-        "by": "Mick Hall",
-        "vertical": false,
-        "channel": "Mick Hall",
-        "duration": 98,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "c8JBXJMc0Oc",
-        "title": "Marcelo Garcia butterfly guard sweep",
-        "by": "Marcelo Garcia",
-        "vertical": false,
-        "channel": "Butterfly The World",
-        "duration": 81,
-        "verified": "2026-07-16"
+        "id": "5jFOssG9Gi0",
+        "title": "Butterfly guard - Guard pull to butterfly sweep (week 10)",
+        "channel": "Black Dragon BJJ  / Cobra Kai Karate Dungannon",
+        "duration": 296,
+        "front": true
       }
     ]
   },
@@ -561,25 +550,6 @@
         "description": "Positional sparring starting from standing where the partner must pull butterfly guard against your full defensive efforts. Defender scores for maintaining standing position, stuffing the pull entirely, or passing within ten seconds of pull completion. Develop the ability to choose between sprawl, forward drive, grip strip, and knee-squeeze defense in real time based on the specific pull variation the partner attempts."
       }
     ],
-    "clips": [
-      {
-        "id": "HC0O_1S2r9g",
-        "title": "Countering the no-gi 2-on-1 guard pull",
-        "by": "BJJ4Breakfast",
-        "vertical": false,
-        "channel": "BJJ4Breakfast",
-        "duration": 169,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "LNyXkfENU5c",
-        "title": "Countering the seated guard from standing",
-        "by": "Samy Aljamal",
-        "vertical": false,
-        "channel": "FIT Jiu Jitsu Jordan/ Samy Aljamal",
-        "duration": 79,
-        "verified": "2026-07-16"
-      }
-    ]
+    "clips": []
   }
 }

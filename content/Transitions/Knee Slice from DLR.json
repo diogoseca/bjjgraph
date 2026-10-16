@@ -381,21 +381,18 @@
     "clips": [
       {
         "id": "8QnCpFYN0L8",
-        "title": "Passing De La Riva guard with the knee slide",
-        "by": "Icon Jiu-Jitsu Team",
-        "vertical": false,
+        "title": "44 - Pass Dela Riva Guard - Variation 1 - Knee Slide",
         "channel": "ICON JIU-JITSU TEAM",
         "duration": 31,
-        "verified": "2026-07-15"
+        "vertical": false,
+        "front": true
       },
       {
         "id": "WumNvXa4ueI",
-        "title": "Knee slice pass against De La Riva guard",
-        "by": "Pound For Pound",
-        "vertical": false,
+        "title": "Knee Slice Pass for De La Riva Guard",
         "channel": "POUND FOR POUND",
         "duration": 196,
-        "verified": "2026-07-15"
+        "vertical": false
       }
     ]
   },
@@ -579,25 +576,6 @@
         "description": "Full resistance rounds starting from DLR guard bottom against a partner who is actively attempting the knee slice and chain passes. Score points for successful guard retention, sweeps, back takes, or submissions. Track defensive success rate across rounds to measure improvement."
       }
     ],
-    "clips": [
-      {
-        "id": "Da5PAZooedU",
-        "title": "Knee slice defense counter",
-        "by": "A Day In A Life",
-        "vertical": false,
-        "channel": "A DAY IN A LIFE",
-        "duration": 86,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "wLSe23vSbP0",
-        "title": "Details to make your De La Riva unpassable",
-        "by": "Juanjo BJJ",
-        "vertical": false,
-        "channel": "Juanjo BJJ Tecnicas y Drills",
-        "duration": 102,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

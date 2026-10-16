@@ -351,26 +351,7 @@
       }
     ],
     "safety_considerations": "Mount consolidation is generally low-risk when performed correctly. Avoid crushing pressure on the sternum for extended periods during training, as this can cause discomfort or breathing difficulty for your partner. When using grapevines, be careful not to hyperextend your partner's knees by driving your hooks too aggressively. During drilling, establish clear tapping protocols so partners can indicate when pressure becomes excessive. Ensure your training partner can breathe adequately throughout the consolidation process.",
-    "clips": [
-      {
-        "id": "J2xs_-sAJMc",
-        "title": "Gordon Ryan's mount system and control",
-        "by": "Gordon Ryan",
-        "vertical": false,
-        "channel": "BJJTube",
-        "duration": 239,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "kft2AkvKhWU",
-        "title": "Best way to control and hold the mount",
-        "by": "Gordon Ryan",
-        "vertical": false,
-        "channel": "Bernardo Faria BJJ Fanatics",
-        "duration": 538,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Consolidate Mount Defender",
@@ -553,30 +534,25 @@
     "clips": [
       {
         "id": "9252EvCT0q4",
-        "title": "A mount escape that actually works",
-        "by": "Gabriel Gonzaga",
-        "vertical": false,
+        "title": "Can't Escape the Mount? Try this Escape Next Time!",
         "channel": "Gabriel Gonzaga",
         "duration": 93,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "boWprABmeaU",
-        "title": "The Dagestani mount escape",
-        "by": "Danny Mitchell",
         "vertical": false,
-        "channel": "Danny Mitchell MMA",
-        "duration": 145,
-        "verified": "2026-07-15"
+        "front": true
       },
       {
         "id": "QHuh7h0VDOM",
-        "title": "Mount escape against the crossface",
-        "by": "Fenix Jiu Jitsu",
-        "vertical": false,
+        "title": "BJJ Fundamentals- Mount escapes- Dealing with crossface 2",
         "channel": "Fenix Jiu Jitsu",
-        "duration": 135,
-        "verified": "2026-07-15"
+        "duration": 134,
+        "vertical": false
+      },
+      {
+        "id": "boWprABmeaU",
+        "title": "The Dagestani Mount Escape | Jiu Jitsu for MMA",
+        "channel": "Danny Mitchell MMA",
+        "duration": 145,
+        "vertical": false
       }
     ]
   },

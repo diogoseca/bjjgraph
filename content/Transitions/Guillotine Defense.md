@@ -46,35 +46,22 @@ description: "Master Guillotine Defense in BJJ. Systematic escape from guillotin
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Standing guillotine escape",
-      "description": "Guillotine Defense film study: Standing guillotine escape, taught by dogtownman.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/8okq4cIHMO0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/8okq4cIHMO0",
-      "url": "https://www.youtube.com/watch?v=8okq4cIHMO0",
-      "creator": { "@type": "Person", "name": "dogtownman" },
-      "duration": "PT44S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Guillotine escape from closed guard to side control",
-      "description": "Guillotine Defense film study: Guillotine escape from closed guard to side control, taught by Street Jitsu.",
+      "name": "Guillotine Escape from Closed Guard to Side Control",
+      "description": "Guillotine Defense film study: Guillotine Escape from Closed Guard to Side Control.",
       "thumbnailUrl": "https://i.ytimg.com/vi/lvjRNWzKMPc/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/lvjRNWzKMPc",
       "url": "https://www.youtube.com/watch?v=lvjRNWzKMPc",
-      "creator": { "@type": "Person", "name": "Street Jitsu" },
       "duration": "PT27S"
     },
     {
       "@type": "VideoObject",
-      "position": 3,
-      "name": "Guillotine escape from inside the guard",
-      "description": "Guillotine Defense film study: Guillotine escape from inside the guard, taught by Ground Zero MMA.",
+      "position": 2,
+      "name": "Guillotine Escape From in the Guard.MMA No Gi",
+      "description": "Guillotine Defense film study: Guillotine Escape From in the Guard.MMA No Gi.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Qb8gtundzPg/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Qb8gtundzPg",
       "url": "https://www.youtube.com/watch?v=Qb8gtundzPg",
-      "creator": { "@type": "Person", "name": "Ground Zero MMA" },
-      "duration": "PT57S"
+      "duration": "PT56S"
     }
   ]
 }
@@ -128,17 +115,9 @@ Success requires both preventative awareness to avoid deep guillotine positions 
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=8okq4cIHMO0)
-
-<p class="clip-credit"><strong>Standing guillotine escape</strong> — taught by dogtownman · 0:44 · <a href="https://www.youtube.com/watch?v=8okq4cIHMO0" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=lvjRNWzKMPc)
 
-<p class="clip-credit"><strong>Guillotine escape from closed guard to side control</strong> — taught by Street Jitsu · 0:27 · <a href="https://www.youtube.com/watch?v=lvjRNWzKMPc" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Guillotine Escape from Closed Guard to Side Control</strong> · 0:27 · <a href="https://www.youtube.com/watch?v=lvjRNWzKMPc" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -146,7 +125,7 @@ Success requires both preventative awareness to avoid deep guillotine positions 
 
 ![](https://www.youtube.com/watch?v=Qb8gtundzPg)
 
-<p class="clip-credit"><strong>Guillotine escape from inside the guard</strong> — taught by Ground Zero MMA · 0:57 · <a href="https://www.youtube.com/watch?v=Qb8gtundzPg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Guillotine Escape From in the Guard.MMA No Gi</strong> · 0:56 · <a href="https://www.youtube.com/watch?v=Qb8gtundzPg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

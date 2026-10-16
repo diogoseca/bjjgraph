@@ -445,26 +445,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "jT4wPY2Dc_U",
-        "title": "Dead Orchard Armbar from Rubber Guard",
-        "by": "Eddie Bravo",
-        "vertical": false,
-        "channel": "James O'Brien",
-        "duration": 88,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "cScYIuSZPyk",
-        "title": "NoGi Rubber Guard Armbar",
-        "by": "Christian Polanco",
-        "vertical": false,
-        "channel": "Christian Polanco",
-        "duration": 100,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "from New York Defender",
@@ -650,16 +631,6 @@
         "description": "Full positional sparring from New York with partner attacking at competition speed. Defender implements complete defensive strategy from early recognition through last-resort defenses. Emphasize appropriate tap timing when the position is fully locked rather than fighting unwinnable positions. Develop the judgment to distinguish between escapable and locked positions under live pressure."
       }
     ],
-    "clips": [
-      {
-        "id": "iwcfKUPNZNs",
-        "title": "Countering rubber guard control and its attacks",
-        "by": "Brandon McCaghren",
-        "vertical": false,
-        "channel": "Brandon Mccaghren",
-        "duration": 792,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

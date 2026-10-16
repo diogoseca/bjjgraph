@@ -161,24 +161,12 @@ description: "How to defend against Tani Otoshi in BJJ. Recognition cues, defens
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "The Switch: countering with Tani Otoshi",
-      "description": "Tani Otoshi (Defender) film study: The Switch: countering with Tani Otoshi, taught by Shintaro Higashi.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/mxGkw5fQRhg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/mxGkw5fQRhg",
-      "url": "https://www.youtube.com/watch?v=mxGkw5fQRhg",
-      "creator": { "@type": "Person", "name": "Shintaro Higashi" },
-      "duration": "PT78S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Tani Otoshi into Uchimata",
-      "description": "Tani Otoshi (Defender) film study: Tani Otoshi into Uchimata, taught by Shintaro Higashi.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/q3Dr7X006eE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/q3Dr7X006eE",
-      "url": "https://www.youtube.com/watch?v=q3Dr7X006eE",
-      "creator": { "@type": "Person", "name": "Shintaro Higashi" },
-      "duration": "PT69S"
+      "name": "Funakubo\u0027s Counter to Direct-Attack Tani-Otoshi",
+      "description": "Tani Otoshi (Defender) film study: Funakubo\u0027s Counter to Direct-Attack Tani-Otoshi.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6G3ornKcN7I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6G3ornKcN7I",
+      "url": "https://www.youtube.com/watch?v=6G3ornKcN7I",
+      "duration": "PT36S"
     }
   ]
 }
@@ -209,17 +197,9 @@ Defending Tani Otoshi requires early recognition and immediate reaction, because
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=mxGkw5fQRhg)
+![](https://www.youtube.com/watch?v=6G3ornKcN7I)
 
-<p class="clip-credit"><strong>The Switch: countering with Tani Otoshi</strong> — taught by Shintaro Higashi · 1:18 · <a href="https://www.youtube.com/watch?v=mxGkw5fQRhg" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=q3Dr7X006eE)
-
-<p class="clip-credit"><strong>Tani Otoshi into Uchimata</strong> — taught by Shintaro Higashi · 1:09 · <a href="https://www.youtube.com/watch?v=q3Dr7X006eE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Funakubo&#39;s Counter to Direct-Attack Tani-Otoshi</strong> · 0:36 · <a href="https://www.youtube.com/watch?v=6G3ornKcN7I" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -162,35 +162,32 @@ description: "Learn to defend and escape the Inverted Triangle from Triangle Con
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Triangle Posture Up Escape",
-      "description": "Inverted Triangle from Triangle Control (Defender) film study: Triangle Posture Up Escape, taught by Cosens MMA.",
+      "name": "Triangle choke from Guard \"Posture Up Escape",
+      "description": "Inverted Triangle from Triangle Control (Defender) film study: Triangle choke from Guard \"Posture Up Escape.",
       "thumbnailUrl": "https://i.ytimg.com/vi/dJOw0ZEyXXc/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/dJOw0ZEyXXc",
       "url": "https://www.youtube.com/watch?v=dJOw0ZEyXXc",
-      "creator": { "@type": "Person", "name": "Cosens MMA" },
-      "duration": "PT73S"
+      "duration": "PT72S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Countering a Full Inversion",
-      "description": "Inverted Triangle from Triangle Control (Defender) film study: Countering a Full Inversion, taught by Gordon Ryan.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/aQ2vFXXBn-o/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/aQ2vFXXBn-o",
-      "url": "https://www.youtube.com/watch?v=aQ2vFXXBn-o",
-      "creator": { "@type": "Person", "name": "Gordon Ryan" },
-      "duration": "PT61S"
+      "name": "Relson Gracie Jiu-Jitsu Team HK: Inverted Triangle Choke Escape",
+      "description": "Inverted Triangle from Triangle Control (Defender) film study: Relson Gracie Jiu-Jitsu Team HK: Inverted Triangle Choke Escape.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/AptNwQLD_EQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/AptNwQLD_EQ",
+      "url": "https://www.youtube.com/watch?v=AptNwQLD_EQ",
+      "duration": "PT117S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "How to Escape a Triangle Choke",
-      "description": "Inverted Triangle from Triangle Control (Defender) film study: How to Escape a Triangle Choke, taught by Rener \u0026 Ryron Gracie.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/sR2rS2dwpNY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/sR2rS2dwpNY",
-      "url": "https://www.youtube.com/watch?v=sR2rS2dwpNY",
-      "creator": { "@type": "Person", "name": "Rener \u0026 Ryron Gracie" },
-      "duration": "PT117S"
+      "name": "Counter to the Inverted Triangle",
+      "description": "Inverted Triangle from Triangle Control (Defender) film study: Counter to the Inverted Triangle.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/EaZA0UUXIq8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/EaZA0UUXIq8",
+      "url": "https://www.youtube.com/watch?v=EaZA0UUXIq8",
+      "duration": "PT186S"
     }
   ]
 }
@@ -221,23 +218,23 @@ Defending the inverted triangle from triangle control requires recognizing the t
 
 ![](https://www.youtube.com/watch?v=dJOw0ZEyXXc)
 
-<p class="clip-credit"><strong>Triangle Posture Up Escape</strong> — taught by Cosens MMA · 1:13 · <a href="https://www.youtube.com/watch?v=dJOw0ZEyXXc" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Triangle choke from Guard &#34;Posture Up Escape</strong> · 1:12 · <a href="https://www.youtube.com/watch?v=dJOw0ZEyXXc" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=aQ2vFXXBn-o)
+![](https://www.youtube.com/watch?v=AptNwQLD_EQ)
 
-<p class="clip-credit"><strong>Countering a Full Inversion</strong> — taught by Gordon Ryan · 1:01 · <a href="https://www.youtube.com/watch?v=aQ2vFXXBn-o" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Relson Gracie Jiu-Jitsu Team HK: Inverted Triangle Choke Escape</strong> · 1:57 · <a href="https://www.youtube.com/watch?v=AptNwQLD_EQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=sR2rS2dwpNY)
+![](https://www.youtube.com/watch?v=EaZA0UUXIq8)
 
-<p class="clip-credit"><strong>How to Escape a Triangle Choke</strong> — taught by Rener &amp; Ryron Gracie · 1:57 · <a href="https://www.youtube.com/watch?v=sR2rS2dwpNY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Counter to the Inverted Triangle</strong> · 3:06 · <a href="https://www.youtube.com/watch?v=EaZA0UUXIq8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -188,24 +188,12 @@ description: "Step-by-step guide to attacking the outside heel hook from saddle,
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Heel Hook Breaking Mechanics",
-      "description": "Outside Heel Hook from Saddle (Attacker) film study: Heel Hook Breaking Mechanics, taught by Craig Jones.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/6gu-n4P9JXo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/6gu-n4P9JXo",
-      "url": "https://www.youtube.com/watch?v=6gu-n4P9JXo",
-      "creator": { "@type": "Person", "name": "Craig Jones" },
-      "duration": "PT77S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "X Guard to Heel Hook",
-      "description": "Outside Heel Hook from Saddle (Attacker) film study: X Guard to Heel Hook, taught by Craig Jones.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/lr7rlj7WV-E/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/lr7rlj7WV-E",
-      "url": "https://www.youtube.com/watch?v=lr7rlj7WV-E",
-      "creator": { "@type": "Person", "name": "Craig Jones" },
-      "duration": "PT94S"
+      "name": "GE Online Series - Episode 29 - Saddle To Outside Heel Hook",
+      "description": "Outside Heel Hook from Saddle (Attacker) film study: GE Online Series - Episode 29 - Saddle To Outside Heel Hook.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/7ZrKaOZhGnU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/7ZrKaOZhGnU",
+      "url": "https://www.youtube.com/watch?v=7ZrKaOZhGnU",
+      "duration": "PT170S"
     }
   ]
 }
@@ -234,17 +222,9 @@ Attacking with the outside heel hook from the Saddle requires mastering the grip
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=6gu-n4P9JXo)
+![](https://www.youtube.com/watch?v=7ZrKaOZhGnU)
 
-<p class="clip-credit"><strong>Heel Hook Breaking Mechanics</strong> — taught by Craig Jones · 1:17 · <a href="https://www.youtube.com/watch?v=6gu-n4P9JXo" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=lr7rlj7WV-E)
-
-<p class="clip-credit"><strong>X Guard to Heel Hook</strong> — taught by Craig Jones · 1:34 · <a href="https://www.youtube.com/watch?v=lr7rlj7WV-E" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>GE Online Series - Episode 29 - Saddle To Outside Heel Hook</strong> · 2:50 · <a href="https://www.youtube.com/watch?v=7ZrKaOZhGnU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

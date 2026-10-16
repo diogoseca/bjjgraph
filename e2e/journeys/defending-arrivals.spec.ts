@@ -9,13 +9,18 @@ import { journey } from '../dsl'
 // available during the catch. Pressure must still be live before every exit.
 // MUTANT M14 freezes clearEngagement's journey identity: sidebar search fails
 // its same-app journey-change assertion after the actual opponent catch.
+// D-307 curated defender reel: the exact escape qualifies across origins.
+// Whittier's second clip is withheld for explicit course/coupon pitches.
+const CLIPS = ['pZmJpXSwRTk']
 const ID = 'Submissions/Loop-Choke/from-Half-Guard'
 const READY = '[data-reader-ready="true"]'
 const content = async (page: Page) => { await page.route('**/static/neural/content/*.json', r => r.continue()) }
+// B3c (PR 305): beats is allocated by the first fx(), not by app readiness.
+// Back can mount a valid idle app before its deck arrives; that stream is empty.
 const snapshot = (page: Page) => page.evaluate(() => {
   const w = window as any, a = w.__neural
   if (w.__arrivalIdentity?.app !== a) w.__arrivalIdentity = { app: a, id: (w.__arrivalIdentity?.id || 0) + 1 }
-  return { document: performance.timeOrigin, instance: w.__arrivalIdentity.id, journey: a._journeyId || 0, pressure: !!a._defensePressure, caught: a.beats.filter((b: any) => b.beat === 'caught').length,
+  return { document: performance.timeOrigin, instance: w.__arrivalIdentity.id, journey: a._journeyId || 0, pressure: !!a._defensePressure, caught: (a.beats ?? []).filter((b: any) => b.beat === 'caught').length,
     vignette: !!a._vignetteEl, key: a._landQ?.key, remaining: a._decision?.remaining ?? null }
 })
 async function caught(page: Page) {
@@ -46,9 +51,14 @@ async function calm(page: Page, previous: { document: number, instance: number, 
     'navigation starts a fresh journey: ' + JSON.stringify({ previous, current: s })).toBe(true)
   expect(s).toMatchObject({ pressure: false, vignette: false, remaining: null })
   if (path.endsWith(ID + '/Defender')) {
-    expect(s.key).toBe('Loop Choke from Half Guard|Defender')
+    // The reader can be ready before the remounted app has loaded its deck.
+    // Pressure/journey assertions above stay immediate; only content waits for content.
+    await expect.poll(() => page.evaluate(() => (window as any).__neural._landQ?.key))
+      .toBe('Loop Choke from Half Guard|Defender')
     await expect(page.locator('.ng-landstack')).toBeVisible()
-    await expect(page.locator('.ng-landfilm .ng-clip')).toHaveCount(2)
+    await expect(page.locator('.ng-landfilm .ng-clip')).toHaveCount(1)
+    await expect.poll(() => page.locator('.ng-landfilm .ng-clip img').evaluateAll(nodes =>
+      nodes.map(e => e.getAttribute('src')?.split('/vi/')[1]?.split('/')[0]))).toEqual(CLIPS)
   }
 }
 async function explore(page: Page) {
@@ -79,6 +89,8 @@ async function defenderLink(page: Page) {
   await j.clickByMouse('[aria-label="Reading perspectives"] a[href$="/Defender"]', 'read the defending half')
 }
 
+// STALE SPEC (PR 305, owner D-307): sidebar search and perspective links end an already active journey.
+// Repin the curated one-clip defender reel; retain every navigation/pressure assertion.
 test('@curated sidebar search and perspective links end an already active journey', async ({ page }) => {
   const { j, previous } = await caught(page)
   await explore(page)
@@ -90,6 +102,8 @@ test('@curated sidebar search and perspective links end an already active journe
   await calm(page, next)
 })
 
+// STALE SPEC (PR 305, owner D-307): Browse category navigation clears a catch before opening the defender page.
+// Repin the curated one-clip defender reel; retain every navigation/pressure assertion.
 test('@curated Browse category navigation clears a catch before opening the defender page', async ({ page }) => {
   const { j, previous } = await caught(page)
   await explore(page)
@@ -106,6 +120,8 @@ test('@curated Browse category navigation clears a catch before opening the defe
   await calm(page, previous)
 })
 
+// STALE SPEC (PR 305, owner D-307): a saved list item starts a fresh journey before its defender link.
+// Repin the curated one-clip defender reel; retain every navigation/pressure assertion.
 test('@curated a saved list item starts a fresh journey before its defender link', async ({ page }) => {
   const { j, previous } = await caught(page)
   const list = await page.evaluate(id => {
@@ -123,6 +139,8 @@ test('@curated a saved list item starts a fresh journey before its defender link
   await calm(page, previous)
 })
 
+// STALE SPEC (PR 305, owner D-307): clicking the caught defender orb manually restages a calm journey.
+// Repin the curated one-clip defender reel; retain every navigation/pressure assertion.
 test('@curated clicking the caught defender orb manually restages a calm journey', async ({ page }) => {
   const { j, previous } = await caught(page)
   await j.advance(4000)
@@ -176,6 +194,8 @@ test('a list click on the current position also ends its old journey', async ({ 
   expect(await page.evaluate(() => { const a = (window as any).__neural; return { paused: a.paused, played: a._played } })).toEqual({ paused: true, played: false })
 })
 
+// STALE SPEC (PR 305, owner D-307): a shared list link opens its defending item without a catch.
+// Repin the curated one-clip defender reel; retain every navigation/pressure assertion.
 test('@curated a shared list link opens its defending item without a catch', async ({ page }) => {
   const j = journey(page)
   await j.boot('/Positions/Mount/Top', { beforeNavigate: content })
@@ -197,6 +217,10 @@ test('@curated a shared list link opens its defending item without a catch', asy
   expect((await snapshot(page)).caught).toBe(0)
 })
 
+// B3c regression: hold the real flashcard index across Back to exercise the
+// naturally empty event stream before the landing card arrives. Reverting the
+// nullish empty-stream read reproduces beats.filter on unchanged base 45cf.
+// A new journey and cleared pressure are required BEFORE releasing the payload.
 test('@curated article links, Back and Forward start fresh journeys after a catch', async ({ page }) => {
   const { j, previous } = await caught(page)
   await j.clickByMouse('[data-reader]', 'expand the caught submission article')
@@ -207,7 +231,24 @@ test('@curated article links, Back and Forward start fresh journeys after a catc
   await j.clickByMouse('[data-arrival-article-link]', 'navigate through an authored article link')
   await calm(page, previous, target)
   const after = await snapshot(page)
+  let releaseIndex!: () => void
+  const indexGate = new Promise<void>(resolve => { releaseIndex = resolve })
+  let indexHeld = 0
+  await page.route('**/static/neural/flashcards/_index.json', async route => {
+    indexHeld++
+    await indexGate
+    await route.continue()
+  })
   await page.goBack()
+  try {
+    await expect(page.locator(READY)).toHaveAttribute('data-reader-path', '/' + ID + '/Defender')
+    await expect.poll(() => indexHeld, 'the real index request is held').toBe(1)
+    expect(await page.evaluate(() => !!(window as any).__neural.flashcards?.decks)).toBe(false)
+    const waiting = await snapshot(page)
+    expect(waiting.document !== after.document || waiting.instance !== after.instance || waiting.journey > after.journey,
+      'Back starts a fresh journey even before its deck arrives').toBe(true)
+    expect(waiting).toMatchObject({ pressure: false, vignette: false, remaining: null, caught: 0 })
+  } finally { releaseIndex() }
   await calm(page, after)
   const back = await snapshot(page)
   await page.goForward()

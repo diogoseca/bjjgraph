@@ -444,31 +444,26 @@
     ],
     "clips": [
       {
-        "id": "QGiT5mFu_Qo",
-        "title": "Head and Arm Choke Arm Triangle Variations",
-        "by": "War Room Jiu Jitsu",
+        "id": "hSo_Km-MOtQ",
+        "title": "Professor Aaron head and arm triangle from closed guard",
+        "channel": "The Jiujitsu Project Foundation",
+        "duration": 91,
         "vertical": false,
+        "front": true
+      },
+      {
+        "id": "QGiT5mFu_Qo",
+        "title": "Head and Arm Choke Variations - Arm Triangles",
         "channel": "War Room Jiu Jitsu",
         "duration": 122,
-        "verified": "2026-07-14"
+        "vertical": false
       },
       {
         "id": "wrZCRBlAB3Y",
         "title": "Head and Arm Choke from Mount Finishing Details",
-        "by": "Roger Gracie",
-        "vertical": false,
         "channel": "Roger Gracie TV",
         "duration": 265,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "hSo_Km-MOtQ",
-        "title": "Head and Arm Triangle from Closed Guard",
-        "by": "Professor Aaron",
-        "vertical": false,
-        "channel": "The Jiujitsu Project Foundation",
-        "duration": 91,
-        "verified": "2026-07-14"
+        "vertical": false
       }
     ]
   },
@@ -660,30 +655,18 @@
     "clips": [
       {
         "id": "D2vkZGTD78I",
-        "title": "The Fastest Escape Out of the Arm Triangle",
-        "by": "Adam Bradley",
-        "vertical": false,
+        "title": "The Fastest Escape Out Of The Arm Triangle",
         "channel": "Adam Bradley",
         "duration": 31,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "n_2zR6BaF8A",
-        "title": "The Best Arm-Triangle Escape",
-        "by": "ZombieProofBJJ",
         "vertical": false,
-        "channel": "ZombieProofBJJ",
-        "duration": 58,
-        "verified": "2026-07-14"
+        "front": true
       },
       {
         "id": "Fx6qjR6a_xE",
-        "title": "3 Arm Triangle Choke Defenses",
-        "by": "MMA Leech",
-        "vertical": false,
+        "title": "3 Arm Triangle Choke Defenses - From Prevention To Late Defense",
         "channel": "MMA Leech",
-        "duration": 274,
-        "verified": "2026-07-14"
+        "duration": 273,
+        "vertical": false
       }
     ]
   }

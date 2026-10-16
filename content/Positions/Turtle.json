@@ -583,35 +583,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "6ns9XP2BsjQ",
-        "title": "Back take from the turtle position",
-        "by": "Evolve MMA",
-        "vertical": false,
-        "channel": "Evolve Mixed Martial Arts",
-        "duration": 66,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "o_7f8c64YrY",
-        "title": "Gator roll back take from turtle",
-        "by": "Gracie Barra Pymble",
-        "vertical": false,
-        "channel": "Gracie Barra Pymble",
-        "duration": 37,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "f0zi7eZEXnk",
-        "title": "Tight waist tilt to rear head-and-arm",
-        "by": "Fox Den Martial Arts",
-        "vertical": false,
-        "channel": "Fox Den Martial Arts",
-        "duration": 68,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   },
   "bottom": {
     "overview": "Turtle Bottom is a defensive position where the bottom practitioner is on their hands and knees with their back exposed to the opponent. While traditionally viewed as a weak position in wrestling due to back exposure, modern BJJ has transformed the turtle into a dynamic guard recovery platform. The turtle position serves as a critical transitional state between being passed and recovering guard, offering numerous defensive options, sweep opportunities, and even submission threats. The key to effective turtle play lies in maintaining a tight defensive structure while actively working to improve position rather than remaining static. The position requires excellent awareness of back defense, understanding of weight distribution, and precise timing to execute rolls, stand-ups, and guard recoveries before the opponent can establish dominant control or take the back. Success in turtle bottom depends on maintaining constant motion, fighting grips aggressively, and recognizing the optimal moment to explode into escape sequences based on opponent's weight commitment and positioning.",
@@ -1050,35 +1022,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "waVFl1Ip6VU",
-        "title": "Turtle back escape by shrugging",
-        "by": "Andy Tong",
-        "vertical": false,
-        "channel": "Andy Tong",
-        "duration": 33,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "_sBB-O8fqP4",
-        "title": "Standing up from turtle (defensive BJJ)",
-        "by": "Priit Mihkelson",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 114,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "LTGHO-aRBxw",
-        "title": "Head and arm escape from turtle",
-        "by": "Chosen Few BJJ",
-        "vertical": false,
-        "channel": "Chosen Few BJJ",
-        "duration": 78,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   },
   "flashcards_position": [
     {
@@ -1194,33 +1138,5 @@
       }
     }
   ],
-  "clips": [
-    {
-      "id": "_sBB-O8fqP4",
-      "title": "Standing up from turtle (defensive BJJ)",
-      "by": "Priit Mihkelson",
-      "vertical": false,
-      "channel": "BJJ Fanatics",
-      "duration": 114,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "Dyxkw13p49I",
-      "title": "Belly-down ankle lock setup from turtle",
-      "by": "Revolution BJJ",
-      "vertical": false,
-      "channel": "Revolution BJJ",
-      "duration": 67,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "qitDr1GnnAk",
-      "title": "Sneaky triangle from turtle position",
-      "by": "Submission Concepts San Antonio",
-      "vertical": false,
-      "channel": "Submission Concepts San Antonio",
-      "duration": 73,
-      "verified": "2026-07-14"
-    }
-  ]
+  "clips": []
 }

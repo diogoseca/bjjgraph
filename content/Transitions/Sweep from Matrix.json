@@ -402,31 +402,19 @@
     "safety_considerations": "The Sweep from Matrix involves rotational movement and inversion that can strain the neck and shoulders if performed incorrectly. Always warm up thoroughly with neck circles, shoulder mobility, and hip openers before drilling. Control the speed of rotation during training to prevent partner collisions or awkward landings. If neck compression occurs during the rolling component, tap immediately and reset. Partners should allow the sweep to complete during drilling rather than resisting explosively mid-motion, which can cause joint injuries or neck compression. Beginners should master the solo hip elevation mechanics before attempting the sweep with a partner. Avoid the technique if you have existing neck or cervical spine issues.",
     "clips": [
       {
-        "id": "pcOF-B4y09Q",
-        "title": "De La Riva sweep into the matrix",
-        "by": "Unknown coach",
-        "vertical": false,
-        "channel": "FreeChannelOpen",
-        "duration": 36,
-        "verified": "2026-07-15"
-      },
-      {
         "id": "BWDsJPV7iPA",
-        "title": "No-gi matrix back take off the leg drag",
-        "by": "Langaker BJJ coach",
-        "vertical": false,
+        "title": "The NoGi matrix backtake",
         "channel": "LangakerBjj",
         "duration": 96,
-        "verified": "2026-07-15"
+        "vertical": false,
+        "front": true
       },
       {
         "id": "H0SUb0Eo168",
-        "title": "Setting up and finishing the matrix",
-        "by": "Jon Thomas",
-        "vertical": false,
+        "title": "How to Set up & Finish the Matrix (EVERY TIME!)",
         "channel": "JonThomasBJJ Plus",
         "duration": 132,
-        "verified": "2026-07-15"
+        "vertical": false
       }
     ]
   },
@@ -608,30 +596,11 @@
     "clips": [
       {
         "id": "QCEdvqfWZMI",
-        "title": "Matrix defense in the leg drag series",
-        "by": "BJJ Lab Zurich coach",
-        "vertical": false,
+        "title": "4. Matrix Defense (Leg Drag Series)",
         "channel": "BJJ Lab Zürich",
         "duration": 96,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "ANxiPpAzACU",
-        "title": "Passing the Rubber Guard",
-        "by": "Marcelo Garcia",
         "vertical": false,
-        "channel": "InAction",
-        "duration": 443,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "1oZiBAF1kTA",
-        "title": "Matrix Defense: Guard Pass to Triangle Choke Counter",
-        "by": "Balance Studios",
-        "vertical": false,
-        "channel": "Balance Studios: Gracie Jiu-Jitsu & Muay Thai",
-        "duration": 233,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   }

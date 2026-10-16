@@ -162,34 +162,31 @@ description: "How to defend against Rolling Omoplata in BJJ. Recognition, escape
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Best way to escape the omoplata shoulder lock",
-      "description": "Rolling Omoplata from Omoplata Control (Defender) film study: Best way to escape the omoplata shoulder lock, taught by John Connors.",
+      "name": "\ud83d\udcaf BEST WAY to ESCAPE THE OMOPLATA Shoulder Lock",
+      "description": "Rolling Omoplata from Omoplata Control (Defender) film study: \ud83d\udcaf BEST WAY to ESCAPE THE OMOPLATA Shoulder Lock.",
       "thumbnailUrl": "https://i.ytimg.com/vi/ocIHY3jBYIQ/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/ocIHY3jBYIQ",
       "url": "https://www.youtube.com/watch?v=ocIHY3jBYIQ",
-      "creator": { "@type": "Person", "name": "John Connors" },
-      "duration": "PT62S"
+      "duration": "PT61S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Escape the omoplata when it\u0027s already locked in",
-      "description": "Rolling Omoplata from Omoplata Control (Defender) film study: Escape the omoplata when it\u0027s already locked in, taught by Matt Arroyo.",
+      "name": "How to escape the omoplata when it\u2019s already in and he\u2019s ready to break your\u2026",
+      "description": "Rolling Omoplata from Omoplata Control (Defender) film study: How to escape the omoplata when it\u2019s already in and he\u2019s ready to break your\u2026.",
       "thumbnailUrl": "https://i.ytimg.com/vi/jKdERMTQqPY/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/jKdERMTQqPY",
       "url": "https://www.youtube.com/watch?v=jKdERMTQqPY",
-      "creator": { "@type": "Person", "name": "Matt Arroyo" },
-      "duration": "PT72S"
+      "duration": "PT71S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "Early omoplata escape, opposite shoulder roll",
-      "description": "Rolling Omoplata from Omoplata Control (Defender) film study: Early omoplata escape, opposite shoulder roll, taught by Jean Jacques Machado.",
+      "name": "Early Omoplata Escape - Opposite Shoulder Roll",
+      "description": "Rolling Omoplata from Omoplata Control (Defender) film study: Early Omoplata Escape - Opposite Shoulder Roll.",
       "thumbnailUrl": "https://i.ytimg.com/vi/YsSrfDmrVjs/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/YsSrfDmrVjs",
       "url": "https://www.youtube.com/watch?v=YsSrfDmrVjs",
-      "creator": { "@type": "Person", "name": "Jean Jacques Machado" },
       "duration": "PT43S"
     }
   ]
@@ -221,7 +218,7 @@ Defending the Rolling Omoplata requires understanding that this submission devel
 
 ![](https://www.youtube.com/watch?v=ocIHY3jBYIQ)
 
-<p class="clip-credit"><strong>Best way to escape the omoplata shoulder lock</strong> — taught by John Connors · 1:02 · <a href="https://www.youtube.com/watch?v=ocIHY3jBYIQ" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>💯 BEST WAY to ESCAPE THE OMOPLATA Shoulder Lock</strong> · 1:01 · <a href="https://www.youtube.com/watch?v=ocIHY3jBYIQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -229,7 +226,7 @@ Defending the Rolling Omoplata requires understanding that this submission devel
 
 ![](https://www.youtube.com/watch?v=jKdERMTQqPY)
 
-<p class="clip-credit"><strong>Escape the omoplata when it&#39;s already locked in</strong> — taught by Matt Arroyo · 1:12 · <a href="https://www.youtube.com/watch?v=jKdERMTQqPY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How to escape the omoplata when it’s already in and he’s ready to break your…</strong> · 1:11 · <a href="https://www.youtube.com/watch?v=jKdERMTQqPY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -237,7 +234,7 @@ Defending the Rolling Omoplata requires understanding that this submission devel
 
 ![](https://www.youtube.com/watch?v=YsSrfDmrVjs)
 
-<p class="clip-credit"><strong>Early omoplata escape, opposite shoulder roll</strong> — taught by Jean Jacques Machado · 0:43 · <a href="https://www.youtube.com/watch?v=YsSrfDmrVjs" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Early Omoplata Escape - Opposite Shoulder Roll</strong> · 0:43 · <a href="https://www.youtube.com/watch?v=YsSrfDmrVjs" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

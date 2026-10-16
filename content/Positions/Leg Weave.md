@@ -36,50 +36,6 @@ description: "Leg Weave is a passing control in which the top player threads an 
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Leg Weave \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Passing guard using the legs",
-      "description": "Leg Weave film study: Passing guard using the legs, taught by SBG Rossendale.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/G5SOKMLRvMU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/G5SOKMLRvMU",
-      "url": "https://www.youtube.com/watch?v=G5SOKMLRvMU",
-      "creator": { "@type": "Person", "name": "SBG Rossendale" },
-      "duration": "PT144S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Leg Weave Tripod Pass",
-      "description": "Leg Weave film study: Leg Weave Tripod Pass, taught by Reding Martial Arts coach.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/DxZL6K050Ng/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/DxZL6K050Ng",
-      "url": "https://www.youtube.com/watch?v=DxZL6K050Ng",
-      "creator": { "@type": "Person", "name": "Reding Martial Arts coach" },
-      "duration": "PT183S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Over Under Pass Variation",
-      "description": "Leg Weave film study: Over Under Pass Variation, taught by Craig Lyman.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/GzYXnXJ0Uok/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/GzYXnXJ0Uok",
-      "url": "https://www.youtube.com/watch?v=GzYXnXJ0Uok",
-      "creator": { "@type": "Person", "name": "Craig Lyman" },
-      "duration": "PT173S"
-    }
-  ]
-}
-</script>
-
 
 
 <script type="application/ld+json">
@@ -119,40 +75,6 @@ Instructional sources: [Lachlan Giles — leg weave pass, no gi](https://www.you
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Leg Weave in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=G5SOKMLRvMU)
-
-<p class="clip-credit"><strong>Passing guard using the legs</strong> — taught by SBG Rossendale · 2:24 · <a href="https://www.youtube.com/watch?v=G5SOKMLRvMU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=DxZL6K050Ng)
-
-<p class="clip-credit"><strong>Leg Weave Tripod Pass</strong> — taught by Reding Martial Arts coach · 3:03 · <a href="https://www.youtube.com/watch?v=DxZL6K050Ng" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=GzYXnXJ0Uok)
-
-<p class="clip-credit"><strong>Over Under Pass Variation</strong> — taught by Craig Lyman · 2:53 · <a href="https://www.youtube.com/watch?v=GzYXnXJ0Uok" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="key-principles" class="content-section">

@@ -180,35 +180,12 @@ description: "How to execute Hook Sweep from Butterfly Guard in BJJ. Attacking p
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Short hook sweep (baseball slide hook sweep)",
-      "description": "Hook Sweep (Attacker) film study: Short hook sweep (baseball slide hook sweep), taught by Marcelo Garcia.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/MlMwtCvfYlQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/MlMwtCvfYlQ",
-      "url": "https://www.youtube.com/watch?v=MlMwtCvfYlQ",
-      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
-      "duration": "PT57S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Butterfly hook sweep demonstration",
-      "description": "Hook Sweep (Attacker) film study: Butterfly hook sweep demonstration, taught by Marcelo Garcia.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/c8JBXJMc0Oc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/c8JBXJMc0Oc",
-      "url": "https://www.youtube.com/watch?v=c8JBXJMc0Oc",
-      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
-      "duration": "PT81S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Overhook sweep from butterfly guard",
-      "description": "Hook Sweep (Attacker) film study: Overhook sweep from butterfly guard, taught by Satori BJJ.",
+      "name": "Overhook Sweep | Butterfly Guard",
+      "description": "Hook Sweep (Attacker) film study: Overhook Sweep | Butterfly Guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/2hc9sl1hEkE/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/2hc9sl1hEkE",
       "url": "https://www.youtube.com/watch?v=2hc9sl1hEkE",
-      "creator": { "@type": "Person", "name": "Satori BJJ" },
-      "duration": "PT36S"
+      "duration": "PT35S"
     }
   ]
 }
@@ -236,25 +213,9 @@ The Hook Sweep is a fundamental butterfly guard technique that leverages proper 
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=MlMwtCvfYlQ)
-
-<p class="clip-credit"><strong>Short hook sweep (baseball slide hook sweep)</strong> — taught by Marcelo Garcia · 0:57 · <a href="https://www.youtube.com/watch?v=MlMwtCvfYlQ" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=c8JBXJMc0Oc)
-
-<p class="clip-credit"><strong>Butterfly hook sweep demonstration</strong> — taught by Marcelo Garcia · 1:21 · <a href="https://www.youtube.com/watch?v=c8JBXJMc0Oc" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=2hc9sl1hEkE)
 
-<p class="clip-credit"><strong>Overhook sweep from butterfly guard</strong> — taught by Satori BJJ · 0:36 · <a href="https://www.youtube.com/watch?v=2hc9sl1hEkE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Overhook Sweep | Butterfly Guard</strong> · 0:35 · <a href="https://www.youtube.com/watch?v=2hc9sl1hEkE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

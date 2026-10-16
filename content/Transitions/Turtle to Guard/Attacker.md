@@ -180,35 +180,12 @@ description: "How to execute Turtle to Guard recovery in BJJ. Complete attacking
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Guard recovery from turtle position",
-      "description": "Turtle to Guard (Attacker) film study: Guard recovery from turtle position, taught by Gracie Barra.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/PYk5Ei2IZBk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/PYk5Ei2IZBk",
-      "url": "https://www.youtube.com/watch?v=PYk5Ei2IZBk",
-      "creator": { "@type": "Person", "name": "Gracie Barra" },
-      "duration": "PT53S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Pulling guard from turtle position",
-      "description": "Turtle to Guard (Attacker) film study: Pulling guard from turtle position, taught by Team Daruma Dojo.",
+      "name": "Pulling Guard from Turtle Position",
+      "description": "Turtle to Guard (Attacker) film study: Pulling Guard from Turtle Position.",
       "thumbnailUrl": "https://i.ytimg.com/vi/c-k3lA-yVhU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/c-k3lA-yVhU",
       "url": "https://www.youtube.com/watch?v=c-k3lA-yVhU",
-      "creator": { "@type": "Person", "name": "Team Daruma Dojo" },
       "duration": "PT33S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Turtle escape via shoulder roll",
-      "description": "Turtle to Guard (Attacker) film study: Turtle escape via shoulder roll, taught by BJJake.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/W0TCGKRcniA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/W0TCGKRcniA",
-      "url": "https://www.youtube.com/watch?v=W0TCGKRcniA",
-      "creator": { "@type": "Person", "name": "BJJake" },
-      "duration": "PT21S"
     }
   ]
 }
@@ -236,25 +213,9 @@ The Turtle to Guard recovery is executed by the bottom player who is attempting 
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=PYk5Ei2IZBk)
-
-<p class="clip-credit"><strong>Guard recovery from turtle position</strong> — taught by Gracie Barra · 0:53 · <a href="https://www.youtube.com/watch?v=PYk5Ei2IZBk" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=c-k3lA-yVhU)
 
-<p class="clip-credit"><strong>Pulling guard from turtle position</strong> — taught by Team Daruma Dojo · 0:33 · <a href="https://www.youtube.com/watch?v=c-k3lA-yVhU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=W0TCGKRcniA)
-
-<p class="clip-credit"><strong>Turtle escape via shoulder roll</strong> — taught by BJJake · 0:21 · <a href="https://www.youtube.com/watch?v=W0TCGKRcniA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Pulling Guard from Turtle Position</strong> · 0:33 · <a href="https://www.youtube.com/watch?v=c-k3lA-yVhU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

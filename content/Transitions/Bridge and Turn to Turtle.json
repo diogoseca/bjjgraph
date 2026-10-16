@@ -392,35 +392,7 @@
       }
     ],
     "safety_considerations": "The Bridge and Turn to Turtle is generally safe when executed with proper technique, but several precautions should be observed. Neck strain can occur if you attempt to turn while the opponent maintains heavy shoulder pressure on your head—wait for proper timing to avoid forcing against this resistance. During training, communicate with your partner if the chest pressure becomes excessive and you cannot breathe adequately. The explosive nature of the bridge can cause lower back strain if your core is not engaged; maintain abdominal tension throughout the movement. When completing the turn, protect your face and ears from being caught under your partner's weight by keeping your chin tucked. Avoid this escape if you have existing shoulder injuries, as the turning motion places stress on the shoulder joint.",
-    "clips": [
-      {
-        "id": "psMJiX4ZIWw",
-        "title": "Side control escape to turtle transition",
-        "by": "Kameron Ross",
-        "vertical": false,
-        "channel": "Kameron Ross",
-        "duration": 140,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "zgvlMKLWxAI",
-        "title": "Sitting turtle to running man",
-        "by": "Priit Mihkelson",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 224,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "PARsvWFmssI",
-        "title": "Chaining escapes from bottom pin",
-        "by": "Gordon Ryan",
-        "vertical": false,
-        "channel": "Gordon Ryan",
-        "duration": 273,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Bridge and Turn to Turtle Defender",
@@ -602,35 +574,7 @@
         "description": "Full resistance North-South positional rounds where you maintain control and hunt submissions while partner attempts bridge-and-turn and other escapes. Develop the ability to balance offensive pressure with defensive base maintenance, and make real-time decisions between re-pinning and following to back."
       }
     ],
-    "clips": [
-      {
-        "id": "LdjrPT6Wt7c",
-        "title": "How to hold north south and stop the turn",
-        "by": "Inverted Gear",
-        "vertical": false,
-        "channel": "Inverted Gear",
-        "duration": 121,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "-ecaH6u_6oM",
-        "title": "Holding the north-south pin against bigger opponents",
-        "by": "Robot Dolphin Jiu-Jitsu",
-        "vertical": false,
-        "channel": "Robot Dolphin Jiu-Jitsu ",
-        "duration": 214,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "aw8Gofk52so",
-        "title": "Systematically attacking and holding top pins",
-        "by": "StrongBro BJJ",
-        "vertical": false,
-        "channel": "StrongBro BJJ",
-        "duration": 438,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "variants_and_adaptations": [
     {

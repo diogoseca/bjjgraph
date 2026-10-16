@@ -46,34 +46,31 @@ description: "Master the Buggy Choke in BJJ. Powerful half guard compression cho
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "How To Buggy Choke",
-      "description": "Buggy Choke from Half Guard film study: How To Buggy Choke, taught by Yoga for BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/0VDUwuyT6N4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/0VDUwuyT6N4",
-      "url": "https://www.youtube.com/watch?v=0VDUwuyT6N4",
-      "creator": { "@type": "Person", "name": "Yoga for BJJ" },
-      "duration": "PT71S"
+      "name": "Buggy choke from half guard: Moncaio Brothers JiuJitsu",
+      "description": "Buggy Choke from Half Guard film study: Buggy choke from half guard: Moncaio Brothers JiuJitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ZBOagHWTCFw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ZBOagHWTCFw",
+      "url": "https://www.youtube.com/watch?v=ZBOagHWTCFw",
+      "duration": "PT33S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "The OG Buggy Choke",
-      "description": "Buggy Choke from Half Guard film study: The OG Buggy Choke, taught by Kade and Tye Ruotolo.",
+      "name": "The OG Buggy Choke by Kade and Tye Ruotolo",
+      "description": "Buggy Choke from Half Guard film study: The OG Buggy Choke by Kade and Tye Ruotolo.",
       "thumbnailUrl": "https://i.ytimg.com/vi/zixbOyLpoOc/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/zixbOyLpoOc",
       "url": "https://www.youtube.com/watch?v=zixbOyLpoOc",
-      "creator": { "@type": "Person", "name": "Kade and Tye Ruotolo" },
       "duration": "PT138S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "3 Buggy Choke Concepts",
-      "description": "Buggy Choke from Half Guard film study: 3 Buggy Choke Concepts, taught by Kade and Tye Ruotolo.",
+      "name": "3 Buggy Choke Concepts by Kade and Tye Ruotolo",
+      "description": "Buggy Choke from Half Guard film study: 3 Buggy Choke Concepts by Kade and Tye Ruotolo.",
       "thumbnailUrl": "https://i.ytimg.com/vi/0_3YYrWEGoU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/0_3YYrWEGoU",
       "url": "https://www.youtube.com/watch?v=0_3YYrWEGoU",
-      "creator": { "@type": "Person", "name": "Kade and Tye Ruotolo" },
       "duration": "PT201S"
     }
   ]
@@ -133,9 +130,9 @@ Modern no-gi competition transformed bottom half guard from a survival position 
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=0VDUwuyT6N4)
+![](https://www.youtube.com/watch?v=ZBOagHWTCFw)
 
-<p class="clip-credit"><strong>How To Buggy Choke</strong> — taught by Yoga for BJJ · 1:11 · <a href="https://www.youtube.com/watch?v=0VDUwuyT6N4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Buggy choke from half guard: Moncaio Brothers JiuJitsu</strong> · 0:33 · <a href="https://www.youtube.com/watch?v=ZBOagHWTCFw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -143,7 +140,7 @@ Modern no-gi competition transformed bottom half guard from a survival position 
 
 ![](https://www.youtube.com/watch?v=zixbOyLpoOc)
 
-<p class="clip-credit"><strong>The OG Buggy Choke</strong> — taught by Kade and Tye Ruotolo · 2:18 · <a href="https://www.youtube.com/watch?v=zixbOyLpoOc" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>The OG Buggy Choke by Kade and Tye Ruotolo</strong> · 2:18 · <a href="https://www.youtube.com/watch?v=zixbOyLpoOc" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -151,7 +148,7 @@ Modern no-gi competition transformed bottom half guard from a survival position 
 
 ![](https://www.youtube.com/watch?v=0_3YYrWEGoU)
 
-<p class="clip-credit"><strong>3 Buggy Choke Concepts</strong> — taught by Kade and Tye Ruotolo · 3:21 · <a href="https://www.youtube.com/watch?v=0_3YYrWEGoU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>3 Buggy Choke Concepts by Kade and Tye Ruotolo</strong> · 3:21 · <a href="https://www.youtube.com/watch?v=0_3YYrWEGoU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

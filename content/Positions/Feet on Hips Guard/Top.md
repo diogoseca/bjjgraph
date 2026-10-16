@@ -165,35 +165,22 @@ description: "Master feet on hips guard top position in BJJ. Complete passing st
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Monitoring Feet in Guard Passing",
-      "description": "Feet on Hips Guard (Top) film study: Monitoring Feet in Guard Passing, taught by Gordon Ryan.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/YLPNsyHtREs/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/YLPNsyHtREs",
-      "url": "https://www.youtube.com/watch?v=YLPNsyHtREs",
-      "creator": { "@type": "Person", "name": "Gordon Ryan" },
-      "duration": "PT50S"
+      "name": "Passing the guard when feet on the hips.",
+      "description": "Feet on Hips Guard (Top) film study: Passing the guard when feet on the hips..",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fqC0g2NEbq0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fqC0g2NEbq0",
+      "url": "https://www.youtube.com/watch?v=fqC0g2NEbq0",
+      "duration": "PT52S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Foot on Your Hip? No Problem!",
-      "description": "Feet on Hips Guard (Top) film study: Foot on Your Hip? No Problem!, taught by Rickson Gracie.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/JL4Bimt-Y0I/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/JL4Bimt-Y0I",
-      "url": "https://www.youtube.com/watch?v=JL4Bimt-Y0I",
-      "creator": { "@type": "Person", "name": "Rickson Gracie" },
-      "duration": "PT139S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Free Your Foot While Passing",
-      "description": "Feet on Hips Guard (Top) film study: Free Your Foot While Passing, taught by Kameron Ross.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/kTSMGYlVJKY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/kTSMGYlVJKY",
-      "url": "https://www.youtube.com/watch?v=kTSMGYlVJKY",
-      "creator": { "@type": "Person", "name": "Kameron Ross" },
-      "duration": "PT55S"
+      "name": "Passing feet on hips double sleeve guard",
+      "description": "Feet on Hips Guard (Top) film study: Passing feet on hips double sleeve guard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_vUNYRbf-fo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_vUNYRbf-fo",
+      "url": "https://www.youtube.com/watch?v=_vUNYRbf-fo",
+      "duration": "PT190S"
     }
   ]
 }
@@ -219,25 +206,17 @@ Feet on Hips Guard Top is the passing perspective when facing an opponent who ha
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=YLPNsyHtREs)
+![](https://www.youtube.com/watch?v=fqC0g2NEbq0)
 
-<p class="clip-credit"><strong>Monitoring Feet in Guard Passing</strong> — taught by Gordon Ryan · 0:50 · <a href="https://www.youtube.com/watch?v=YLPNsyHtREs" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=JL4Bimt-Y0I)
-
-<p class="clip-credit"><strong>Foot on Your Hip? No Problem!</strong> — taught by Rickson Gracie · 2:19 · <a href="https://www.youtube.com/watch?v=JL4Bimt-Y0I" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Passing the guard when feet on the hips.</strong> · 0:52 · <a href="https://www.youtube.com/watch?v=fqC0g2NEbq0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=kTSMGYlVJKY)
+![](https://www.youtube.com/watch?v=_vUNYRbf-fo)
 
-<p class="clip-credit"><strong>Free Your Foot While Passing</strong> — taught by Kameron Ross · 0:55 · <a href="https://www.youtube.com/watch?v=kTSMGYlVJKY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Passing feet on hips double sleeve guard</strong> · 3:10 · <a href="https://www.youtube.com/watch?v=_vUNYRbf-fo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

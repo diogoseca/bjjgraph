@@ -368,26 +368,7 @@
       }
     ],
     "safety_considerations": "Kneebar attacks target the knee joint through hyperextension, which can cause serious ligament damage including ACL and PCL tears if applied without control. During maintenance drilling, apply position control without finishing extension pressure. When cycling submission pressure bursts, use controlled, gradual force and immediately release if your partner signals discomfort. Both practitioners should have a clear understanding of tap protocols before any leg lock training. Never apply sudden jerking extension during maintenance adjustments. In competition, be prepared to release immediately upon tap, verbal submission, or referee stoppage.",
-    "clips": [
-      {
-        "id": "vMqDIi10z4k",
-        "title": "Dog Bar Kneebar Control",
-        "by": "Craig Jones",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 61,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "v4lhLkKgVvU",
-        "title": "Go Behind Kneebar",
-        "by": "Craig Jones",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 129,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Kneebar Control Maintenance Defender",
@@ -552,31 +533,19 @@
     ],
     "clips": [
       {
-        "id": "wBRG0fY94fs",
-        "title": "How to Defend a Kneebar and Prevent a Backstep Pass",
-        "by": "Andrew Smith",
+        "id": "NuWBh3LN-SY",
+        "title": "Knee Bar defense + take the back",
+        "channel": "Bicudo BJJ",
+        "duration": 21,
         "vertical": false,
+        "front": true
+      },
+      {
+        "id": "wBRG0fY94fs",
+        "title": "How to Defend a Kneebar (and Prevent a Backstep Pass)",
         "channel": "Revolution BJJ",
         "duration": 59,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "NuWBh3LN-SY",
-        "title": "Knee Bar Defense to Back Take",
-        "by": "Bicudo BJJ",
-        "vertical": false,
-        "channel": "Bicudo BJJ",
-        "duration": 22,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "EUM4FxTRW_4",
-        "title": "Kneebar Knee Shield Entry and Prevention",
-        "by": "ZeGrapplez",
-        "vertical": false,
-        "channel": "ZeGrapplez",
-        "duration": 92,
-        "verified": "2026-07-15"
+        "vertical": false
       }
     ]
   }

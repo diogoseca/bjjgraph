@@ -162,24 +162,22 @@ description: "How to defend against Flying Kneebar in BJJ. Recognition, escape p
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "How to Defend a Kneebar",
-      "description": "Flying Kneebar from Standing Position (Defender) film study: How to Defend a Kneebar, taught by Revolution BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/wBRG0fY94fs/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/wBRG0fY94fs",
-      "url": "https://www.youtube.com/watch?v=wBRG0fY94fs",
-      "creator": { "@type": "Person", "name": "Revolution BJJ" },
-      "duration": "PT59S"
+      "name": "Knee Bar defense + take the back",
+      "description": "Flying Kneebar from Standing Position (Defender) film study: Knee Bar defense + take the back.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/NuWBh3LN-SY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/NuWBh3LN-SY",
+      "url": "https://www.youtube.com/watch?v=NuWBh3LN-SY",
+      "duration": "PT21S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Kneebar Defense to Back Take",
-      "description": "Flying Kneebar from Standing Position (Defender) film study: Kneebar Defense to Back Take, taught by Bicudo BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/NuWBh3LN-SY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/NuWBh3LN-SY",
-      "url": "https://www.youtube.com/watch?v=NuWBh3LN-SY",
-      "creator": { "@type": "Person", "name": "Bicudo BJJ" },
-      "duration": "PT22S"
+      "name": "How to Defend a Kneebar (and Prevent a Backstep Pass)",
+      "description": "Flying Kneebar from Standing Position (Defender) film study: How to Defend a Kneebar (and Prevent a Backstep Pass).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wBRG0fY94fs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/wBRG0fY94fs",
+      "url": "https://www.youtube.com/watch?v=wBRG0fY94fs",
+      "duration": "PT59S"
     }
   ]
 }
@@ -208,17 +206,17 @@ Defending the Flying Kneebar requires a two-phase approach: pre-contact recognit
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=wBRG0fY94fs)
+![](https://www.youtube.com/watch?v=NuWBh3LN-SY)
 
-<p class="clip-credit"><strong>How to Defend a Kneebar</strong> — taught by Revolution BJJ · 0:59 · <a href="https://www.youtube.com/watch?v=wBRG0fY94fs" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Knee Bar defense + take the back</strong> · 0:21 · <a href="https://www.youtube.com/watch?v=NuWBh3LN-SY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=NuWBh3LN-SY)
+![](https://www.youtube.com/watch?v=wBRG0fY94fs)
 
-<p class="clip-credit"><strong>Kneebar Defense to Back Take</strong> — taught by Bicudo BJJ · 0:22 · <a href="https://www.youtube.com/watch?v=NuWBh3LN-SY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How to Defend a Kneebar (and Prevent a Backstep Pass)</strong> · 0:59 · <a href="https://www.youtube.com/watch?v=wBRG0fY94fs" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

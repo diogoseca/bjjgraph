@@ -517,31 +517,25 @@
     ],
     "clips": [
       {
-        "id": "HQSxxYL1Aew",
-        "title": "Matrix Kneebar / Heel Hook",
-        "by": "Mikey Musumeci",
-        "vertical": false,
-        "channel": "DARKSIDE | Team Strela",
-        "duration": 26,
-        "verified": "2026-07-14"
+        "id": "AdsspiCkSMg",
+        "title": "Knee bar from closed guard",
+        "channel": "Alberto Serrano BJJ",
+        "duration": 84,
+        "front": true
       },
       {
         "id": "12rNXPlqVXo",
-        "title": "No-Gi Kneebar Technique",
-        "by": "FreeChannelOpen",
-        "vertical": false,
+        "title": "BJJ No-Gi Kneebar Technique 🥋 | Jiu Jitsu Matrix Tutorial 🏆",
         "channel": "FreeChannelOpen",
         "duration": 20,
-        "verified": "2026-07-14"
+        "vertical": false
       },
       {
-        "id": "rueVPIyTezo",
-        "title": "Kneebar to Wreck the Knee",
-        "by": "Jean Jacques Machado",
-        "vertical": false,
-        "channel": "JeanJacquesMachado",
-        "duration": 76,
-        "verified": "2026-07-14"
+        "id": "HQSxxYL1Aew",
+        "title": "Matrix-Kneebar-Heel Hook by Mickey Musumeci",
+        "channel": "DARKSIDE | Team Strela",
+        "duration": 26,
+        "vertical": false
       }
     ]
   },
@@ -729,30 +723,18 @@
     "clips": [
       {
         "id": "wBRG0fY94fs",
-        "title": "How to Defend a Kneebar",
-        "by": "Revolution BJJ",
-        "vertical": false,
+        "title": "How to Defend a Kneebar (and Prevent a Backstep Pass)",
         "channel": "Revolution BJJ",
         "duration": 59,
-        "verified": "2026-07-14"
+        "vertical": false,
+        "front": true
       },
       {
         "id": "NuWBh3LN-SY",
-        "title": "Kneebar Defense + Take the Back",
-        "by": "Bicudo BJJ",
-        "vertical": false,
+        "title": "Knee Bar defense + take the back",
         "channel": "Bicudo BJJ",
-        "duration": 22,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "kUuJ03CcIUQ",
-        "title": "Kneebar Defense in Competition",
-        "by": "AJ Agazarm",
-        "vertical": false,
-        "channel": "FloGrappling",
-        "duration": 23,
-        "verified": "2026-07-14"
+        "duration": 21,
+        "vertical": false
       }
     ]
   }

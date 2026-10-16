@@ -46,24 +46,12 @@ description: "Master the Kimura shoulder lock from Twister Side Control. Complet
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Twister Side Control Attacks",
-      "description": "Kimura from Twister Side Control film study: Twister Side Control Attacks, taught by Eddie Bravo.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/odT3-cVWXdc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/odT3-cVWXdc",
-      "url": "https://www.youtube.com/watch?v=odT3-cVWXdc",
-      "creator": { "@type": "Person", "name": "Eddie Bravo" },
-      "duration": "PT61S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Twister Side Control",
-      "description": "Kimura from Twister Side Control film study: Twister Side Control, taught by Eddie Bravo.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/R55lmkc6Mus/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/R55lmkc6Mus",
-      "url": "https://www.youtube.com/watch?v=R55lmkc6Mus",
-      "creator": { "@type": "Person", "name": "Eddie Bravo" },
-      "duration": "PT87S"
+      "name": "BJJ Tips: Kimura from Twister Side Control",
+      "description": "Kimura from Twister Side Control film study: BJJ Tips: Kimura from Twister Side Control.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hJ2dxqPNfRI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hJ2dxqPNfRI",
+      "url": "https://www.youtube.com/watch?v=hJ2dxqPNfRI",
+      "duration": "PT231S"
     }
   ]
 }
@@ -126,17 +114,9 @@ This variant integrates naturally into the broader Twister Side Control submissi
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=odT3-cVWXdc)
+![](https://www.youtube.com/watch?v=hJ2dxqPNfRI)
 
-<p class="clip-credit"><strong>Twister Side Control Attacks</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=odT3-cVWXdc" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=R55lmkc6Mus)
-
-<p class="clip-credit"><strong>Twister Side Control</strong> — taught by Eddie Bravo · 1:27 · <a href="https://www.youtube.com/watch?v=R55lmkc6Mus" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>BJJ Tips: Kimura from Twister Side Control</strong> · 3:51 · <a href="https://www.youtube.com/watch?v=hJ2dxqPNfRI" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

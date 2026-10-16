@@ -47,35 +47,22 @@ description: "Master Kouchi Gari in BJJ. Small inner reap takedown from standing
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Kouchi gari small inner reap breakdown",
-      "description": "Kouchi Gari film study: Kouchi gari small inner reap breakdown, taught by Ben Stark.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/4FDRR9ukLjc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/4FDRR9ukLjc",
-      "url": "https://www.youtube.com/watch?v=4FDRR9ukLjc",
-      "creator": { "@type": "Person", "name": "Ben Stark" },
-      "duration": "PT52S"
+      "name": "Kouchi Gari in NoGi Grappling",
+      "description": "Kouchi Gari film study: Kouchi Gari in NoGi Grappling.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4Kgcm3TthAg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4Kgcm3TthAg",
+      "url": "https://www.youtube.com/watch?v=4Kgcm3TthAg",
+      "duration": "PT45S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Kouchi gari in no-gi grappling",
-      "description": "Kouchi Gari film study: Kouchi gari in no-gi grappling, taught by CombatLife.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/4Kgcm3TthAg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/4Kgcm3TthAg",
-      "url": "https://www.youtube.com/watch?v=4Kgcm3TthAg",
-      "creator": { "@type": "Person", "name": "CombatLife" },
-      "duration": "PT46S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Sumi gaeshi into drop kouchi gari",
-      "description": "Kouchi Gari film study: Sumi gaeshi into drop kouchi gari, taught by Shintaro Higashi.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/_osQlpT8mTE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/_osQlpT8mTE",
-      "url": "https://www.youtube.com/watch?v=_osQlpT8mTE",
-      "creator": { "@type": "Person", "name": "Shintaro Higashi" },
-      "duration": "PT95S"
+      "name": "Kouchi Gari (Small inner reap) - Hammer Jiu Jitsu",
+      "description": "Kouchi Gari film study: Kouchi Gari (Small inner reap) - Hammer Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4FDRR9ukLjc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4FDRR9ukLjc",
+      "url": "https://www.youtube.com/watch?v=4FDRR9ukLjc",
+      "duration": "PT52S"
     }
   ]
 }
@@ -132,25 +119,17 @@ From a biomechanical perspective, the technique succeeds because the upper body 
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=4FDRR9ukLjc)
-
-<p class="clip-credit"><strong>Kouchi gari small inner reap breakdown</strong> — taught by Ben Stark · 0:52 · <a href="https://www.youtube.com/watch?v=4FDRR9ukLjc" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=4Kgcm3TthAg)
 
-<p class="clip-credit"><strong>Kouchi gari in no-gi grappling</strong> — taught by CombatLife · 0:46 · <a href="https://www.youtube.com/watch?v=4Kgcm3TthAg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Kouchi Gari in NoGi Grappling</strong> · 0:45 · <a href="https://www.youtube.com/watch?v=4Kgcm3TthAg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=_osQlpT8mTE)
+![](https://www.youtube.com/watch?v=4FDRR9ukLjc)
 
-<p class="clip-credit"><strong>Sumi gaeshi into drop kouchi gari</strong> — taught by Shintaro Higashi · 1:35 · <a href="https://www.youtube.com/watch?v=_osQlpT8mTE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Kouchi Gari (Small inner reap) - Hammer Jiu Jitsu</strong> · 0:52 · <a href="https://www.youtube.com/watch?v=4FDRR9ukLjc" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

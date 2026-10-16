@@ -385,26 +385,7 @@
       }
     ],
     "safety_considerations": "Pummeling involves rapid arm movements near the face and neck area. Avoid striking or jerking motions that could cause accidental eye pokes, ear damage, or neck strain. During training, establish clear communication about intensity levels before engaging. Avoid aggressive forward driving after establishing underhooks, which can cause cervical spine compression if your partner's head is caught. Stop immediately if either partner reports shoulder impingement, neck discomfort, or finger injuries from caught grips. Warm up shoulders thoroughly before intensive pummeling sessions.",
-    "clips": [
-      {
-        "id": "S4Ghvm7FZeI",
-        "title": "Pummel to underhook in the clinch",
-        "by": "Matt Brown",
-        "vertical": false,
-        "channel": "Dynamic Striking",
-        "duration": 223,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "SKj1Lc16y6I",
-        "title": "Pummel to side clinch drill",
-        "by": "Fargo BJJ coach",
-        "vertical": false,
-        "channel": "Fargo BJJ Academy",
-        "duration": 50,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Underhook Pummeling from Clinch Defender",
@@ -584,21 +565,11 @@
     "clips": [
       {
         "id": "i5pNuC1_uyA",
-        "title": "How to escape underhooks in the clinch",
-        "by": "Muaythai Muppets coach",
-        "vertical": false,
+        "title": "mauthai muppets, how to escape underhooks in the clinch option 2",
         "channel": "Muaythai Muppets.",
-        "duration": 75,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "mlEClPMNcPk",
-        "title": "Defending the double underhooks",
-        "by": "Mark Weir",
+        "duration": 74,
         "vertical": false,
-        "channel": "Mark Weir",
-        "duration": 96,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   }

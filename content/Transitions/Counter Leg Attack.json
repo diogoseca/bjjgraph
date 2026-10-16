@@ -372,21 +372,11 @@
     "clips": [
       {
         "id": "7Uc1sEPs5hw",
-        "title": "Inside sankaku counter with inside ashi dive",
-        "by": "Combat by the Minute",
-        "vertical": false,
+        "title": "Inside Sankaku Counter Series | 2 of 5 | Inside Ashi Dive",
         "channel": "Combat by the Minute",
         "duration": 84,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "clVAHxgRadE",
-        "title": "Outside heel hook defense into inside heel hook",
-        "by": "Holy Grail BJJ",
         "vertical": false,
-        "channel": "Holy Grail BJJ",
-        "duration": 105,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },
@@ -565,35 +555,7 @@
         "description": "Full resistance positional sparring from Inside Sankaku top. Partner uses all available escapes including Counter Leg Attack. Practice integrating prevention, recognition, and response into live exchanges. Develop real-time decision-making between finishing, defending counter, and advancing to Saddle."
       }
     ],
-    "clips": [
-      {
-        "id": "PhS9Xj-4KbA",
-        "title": "Escaping the honey hole inside sankaku",
-        "by": "Oneonta Jiu Jitsu",
-        "vertical": false,
-        "channel": "OneontaJiuJitsu Academy",
-        "duration": 56,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "v3w0qXLKxug",
-        "title": "Defending heel hooks",
-        "by": "Lachlan Giles",
-        "vertical": false,
-        "channel": "Absolute MMA St Kilda - Melbourne",
-        "duration": 92,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "uZbUhFapIhg",
-        "title": "Leglock defense from entanglement",
-        "by": "Craig Jones",
-        "vertical": false,
-        "channel": "BJJ focus camps",
-        "duration": 163,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "variants_and_adaptations": [
     {

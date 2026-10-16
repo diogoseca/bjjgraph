@@ -360,26 +360,7 @@
       }
     ],
     "safety_considerations": "The turn and extract must be executed with careful awareness of knee joint loading during the rotation. Never force the rotation if the attacker has achieved full hyperextension, as this can create dangerous rotational stress on an already compromised knee. Tap immediately if you feel sharp pain in the knee joint during the escape attempt. In training, communicate with your partner about resistance levels and practice the rotation at controlled speeds until mechanics are well-established. The knee is particularly vulnerable during this escape because rotation occurs while the joint is under extension stress, creating compound force vectors on the ligaments.",
-    "clips": [
-      {
-        "id": "MqtG9kuVt-Q",
-        "title": "Roll-through escape to extract the leg from a kneebar",
-        "by": "Gordon Ryan",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 103,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "NuWBh3LN-SY",
-        "title": "Turning out of the kneebar and taking the back",
-        "by": "Bicudo BJJ",
-        "vertical": false,
-        "channel": "Bicudo BJJ",
-        "duration": 22,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Turn and Extract from Kneebar Defender",
@@ -542,25 +523,6 @@
         "description": "Start in kneebar control with partner attempting any escape method. Maintain control, finish the submission, or transition to better position. Develops realistic reaction timing and strategic choices between maintaining and transitioning"
       }
     ],
-    "clips": [
-      {
-        "id": "SmyTA2P_RZk",
-        "title": "Kneebar escape",
-        "by": "Tom DeBlass",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 142,
-        "verified": "2026-07-16"
-      },
-      {
-        "id": "tFEIAqITXtg",
-        "title": "Kneebar escape to the back",
-        "by": "Johnny Tama",
-        "vertical": false,
-        "channel": "Johnny Tama",
-        "duration": 42,
-        "verified": "2026-07-16"
-      }
-    ]
+    "clips": []
   }
 }

@@ -155,22 +155,20 @@ description: "Defensive guide for surviving and escaping the paper cutter choke 
       "@type": "VideoObject",
       "position": 1,
       "name": "Paper Cutter Choke Escape",
-      "description": "Paper Cutter Choke from Kuzure Kesa Gatame (Defender) film study: Paper Cutter Choke Escape, taught by Beto Vilanova.",
+      "description": "Paper Cutter Choke from Kuzure Kesa Gatame (Defender) film study: Paper Cutter Choke Escape.",
       "thumbnailUrl": "https://i.ytimg.com/vi/JSQ2Hc6KQbA/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/JSQ2Hc6KQbA",
       "url": "https://www.youtube.com/watch?v=JSQ2Hc6KQbA",
-      "creator": { "@type": "Person", "name": "Beto Vilanova" },
       "duration": "PT155S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Paper Cutter Choke Escape",
-      "description": "Paper Cutter Choke from Kuzure Kesa Gatame (Defender) film study: Paper Cutter Choke Escape, taught by Vilanova BJJ.",
+      "description": "Paper Cutter Choke from Kuzure Kesa Gatame (Defender) film study: Paper Cutter Choke Escape.",
       "thumbnailUrl": "https://i.ytimg.com/vi/iaHCShqMFvs/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/iaHCShqMFvs",
       "url": "https://www.youtube.com/watch?v=iaHCShqMFvs",
-      "creator": { "@type": "Person", "name": "Vilanova BJJ" },
       "duration": "PT228S"
     }
   ]
@@ -202,7 +200,7 @@ Defending the paper cutter choke from kuzure kesa-gatame requires recognizing th
 
 ![](https://www.youtube.com/watch?v=JSQ2Hc6KQbA)
 
-<p class="clip-credit"><strong>Paper Cutter Choke Escape</strong> — taught by Beto Vilanova · 2:35 · <a href="https://www.youtube.com/watch?v=JSQ2Hc6KQbA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Paper Cutter Choke Escape</strong> · 2:35 · <a href="https://www.youtube.com/watch?v=JSQ2Hc6KQbA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -210,7 +208,7 @@ Defending the paper cutter choke from kuzure kesa-gatame requires recognizing th
 
 ![](https://www.youtube.com/watch?v=iaHCShqMFvs)
 
-<p class="clip-credit"><strong>Paper Cutter Choke Escape</strong> — taught by Vilanova BJJ · 3:48 · <a href="https://www.youtube.com/watch?v=iaHCShqMFvs" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Paper Cutter Choke Escape</strong> · 3:48 · <a href="https://www.youtube.com/watch?v=iaHCShqMFvs" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

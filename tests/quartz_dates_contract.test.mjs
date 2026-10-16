@@ -256,10 +256,12 @@ test("TIER ORDER — frontmatter beats git (closes the reordering non-kill)", as
 // calibration section. A floor picked from the shape of the worry rather than from the data is a
 // false red waiting to happen, and one was: a 25% single-day floor sounds generous and FAILS on
 // data everyone agrees is correct, because content legitimately lands in batches.
+const modifiedPolicy = JSON.parse(fs.readFileSync(path.join(REPO, "tests/artifacts/publication_date_policy.json"), "utf8")).modified
 const FLOORS = {
-  // MEASURED on golden/build0: 6,110 pages, 16 distinct days, 116.4-day span, busiest day 37.8%.
-  // Floors set with real headroom below the measurement, not just under it.
-  modified: { minDistinctDays: 12, minSpanDays: 30, maxDayShare: 0.5 },
+  // D-308 authorizes honest bulk modification dates (5,284/6,119 = 86.35%).
+  // Use the same measured policy as the emitted-tree gate: 16 days, 104-day span,
+  // 0.95 share. The historical build-clock control below must still fail all three.
+  modified: { minDistinctDays: modifiedPolicy.min_distinct_days, minSpanDays: modifiedPolicy.min_span_days, maxDayShare: modifiedPolicy.max_day_share },
   // DELIBERATELY EMPTY SLOT. `published` is absent today, so there is nothing to measure and any
   // number here would be invented. When git-derived publication dates land, fill it FROM THE
   // MEASUREMENT — and not from whatever the first run happens to produce, because a floor set just

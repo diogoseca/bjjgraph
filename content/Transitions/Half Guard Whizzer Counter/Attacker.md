@@ -181,35 +181,12 @@ description: "How to execute the Half Guard Whizzer Counter in BJJ. Top-game per
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Whizzer from half guard: winning the dogfight",
-      "description": "Half Guard Whizzer Counter (Attacker) film study: Whizzer from half guard: winning the dogfight, taught by Wrecking Crew BJJ.",
+      "name": "Whizzer from Half Guard.  How to win \"Dog Fight\"",
+      "description": "Half Guard Whizzer Counter (Attacker) film study: Whizzer from Half Guard.  How to win \"Dog Fight\".",
       "thumbnailUrl": "https://i.ytimg.com/vi/8mXBDHXrAu4/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/8mXBDHXrAu4",
       "url": "https://www.youtube.com/watch?v=8mXBDHXrAu4",
-      "creator": { "@type": "Person", "name": "Wrecking Crew BJJ" },
-      "duration": "PT60S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Half guard bridge to underhook countering the whizzer",
-      "description": "Half Guard Whizzer Counter (Attacker) film study: Half guard bridge to underhook countering the whizzer, taught by Andrew Smith.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/D1Hhvv4pXQA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/D1Hhvv4pXQA",
-      "url": "https://www.youtube.com/watch?v=D1Hhvv4pXQA",
-      "creator": { "@type": "Person", "name": "Andrew Smith" },
-      "duration": "PT78S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Countering the whizzer with a belly down armbar",
-      "description": "Half Guard Whizzer Counter (Attacker) film study: Countering the whizzer with a belly down armbar, taught by Andrew Smith.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/0K3j7bbw6tI/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/0K3j7bbw6tI",
-      "url": "https://www.youtube.com/watch?v=0K3j7bbw6tI",
-      "creator": { "@type": "Person", "name": "Andrew Smith" },
-      "duration": "PT126S"
+      "duration": "PT59S"
     }
   ]
 }
@@ -246,23 +223,7 @@ This counter is high-percentage because it is reactive and timing-based rather t
 
 ![](https://www.youtube.com/watch?v=8mXBDHXrAu4)
 
-<p class="clip-credit"><strong>Whizzer from half guard: winning the dogfight</strong> — taught by Wrecking Crew BJJ · 1:00 · <a href="https://www.youtube.com/watch?v=8mXBDHXrAu4" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=D1Hhvv4pXQA)
-
-<p class="clip-credit"><strong>Half guard bridge to underhook countering the whizzer</strong> — taught by Andrew Smith · 1:18 · <a href="https://www.youtube.com/watch?v=D1Hhvv4pXQA" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=0K3j7bbw6tI)
-
-<p class="clip-credit"><strong>Countering the whizzer with a belly down armbar</strong> — taught by Andrew Smith · 2:06 · <a href="https://www.youtube.com/watch?v=0K3j7bbw6tI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Whizzer from Half Guard.  How to win &#34;Dog Fight&#34;</strong> · 0:59 · <a href="https://www.youtube.com/watch?v=8mXBDHXrAu4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

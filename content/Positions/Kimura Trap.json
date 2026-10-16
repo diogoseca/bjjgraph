@@ -433,35 +433,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "lcFphp1N9m0",
-        "title": "Rolling kimura trap guard pass",
-        "by": "BJJ4Breakfast",
-        "vertical": false,
-        "channel": "BJJ4Breakfast",
-        "duration": 56,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "PiaCdkFIxPk",
-        "title": "Getting the sub via Kimura Trap",
-        "by": "Luke Ruffo",
-        "vertical": false,
-        "channel": "Luke Ruffo",
-        "duration": 89,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "XhXGWFTFpy0",
-        "title": "Top Half Guard Reverse Kimura Trap",
-        "by": "David Avellan",
-        "vertical": false,
-        "channel": "David Avellan",
-        "duration": 197,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   },
   "bottom": {
     "overview": "Kimura Trap Bottom is a highly effective control position from the bottom where the practitioner secures a Kimura grip on the opponent's arm while establishing positional control through underhooks, lockdown, or other retention mechanisms. This position represents a paradigm shift in bottom-side control thinking, transforming what would traditionally be a defensive position into an offensive platform. The Kimura grip serves as both a control mechanism and an offensive threat, allowing the bottom player to off-balance, sweep, or submit the opponent while maintaining defensive integrity.\n\nThe position is most commonly entered from half guard bottom, side control bottom, or turtle when the opponent overcommits with their arm placement or fails to defend the Kimura grip establishment. The bottom practitioner uses the Kimura grip to control the opponent's shoulder and arm, creating a mechanical advantage that disrupts the top player's base and posture. This grip, combined with hip positioning and leg entanglement, creates a system where the bottom player can systematically work toward sweeps, back takes, or submissions despite being in what appears to be an inferior position.\n\nThe Kimura Trap Bottom exemplifies modern BJJ's emphasis on creating offensive opportunities from defensive positions. Rather than simply surviving or escaping, the practitioner uses the Kimura grip as an anchor point to control distance, manipulate the opponent's weight distribution, and create dilemmas that force reactions. The system includes high-percentage techniques like the Old School Sweep, rolling Kimura, and back takes that all stem from the same foundational grip, creating a cohesive attacking system rather than isolated techniques.\n\nStrategically, the position forces top players into impossible choices—they must simultaneously defend the Kimura submission, prevent sweeps, and maintain positional control, but cannot effectively address all three threats. This creates predictable defensive reactions that the bottom player can exploit with predetermined counters. The position is particularly effective in both gi and no-gi contexts, with the Kimura grip providing reliable control regardless of friction and grip variations available. Advanced practitioners use the Kimura Trap Bottom as their primary half guard system, often preferring it to traditional underhook-based approaches due to its superior control and finishing mechanics.",
@@ -877,31 +849,11 @@
     ],
     "clips": [
       {
-        "id": "YvTmqi750wQ",
-        "title": "Kimura Trap Rolling Sweep from Bottom",
-        "by": "Mat Life Training Center",
-        "vertical": false,
-        "channel": "Mat Life Training Center",
-        "duration": 31,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "Px0XWVtlHAM",
-        "title": "Half Guard Kimura Sweep 2 ways",
-        "by": "OMJJJ",
-        "vertical": false,
-        "channel": "OMJJJ",
-        "duration": 70,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "3DrVJNkQqFo",
-        "title": "Bottom Half Guard Kimura Elevator Sweep",
-        "by": "David Avellan",
-        "vertical": false,
-        "channel": "David Avellan",
-        "duration": 201,
-        "verified": "2026-07-14"
+        "id": "eIGogiDi0XI",
+        "title": "Kimura Trap - An In Depth Study",
+        "channel": "JeanJacquesMachado",
+        "duration": 293,
+        "front": true
       }
     ]
   },
@@ -1019,24 +971,5 @@
       }
     }
   ],
-  "clips": [
-    {
-      "id": "MGotqppgD0w",
-      "title": "Kimura Trap Flow: control, invert, take back",
-      "by": "Mr. NogiJiujitsu",
-      "vertical": false,
-      "channel": "Mr. NogiJiujitsu",
-      "duration": 59,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "wIqmHRtIDjs",
-      "title": "Kimura concept",
-      "by": "Harry Kimura",
-      "vertical": false,
-      "channel": "Harry Kimura",
-      "duration": 28,
-      "verified": "2026-07-14"
-    }
-  ]
+  "clips": []
 }

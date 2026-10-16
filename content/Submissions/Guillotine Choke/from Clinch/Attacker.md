@@ -188,35 +188,32 @@ description: "Execute the Guillotine Choke from Clinch in BJJ. Step-by-step guid
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Guillotine choke from the clinch",
-      "description": "Guillotine Choke from Clinch (Attacker) film study: Guillotine choke from the clinch, taught by Michael James.",
+      "name": "Special: guillotine choke from clinch",
+      "description": "Guillotine Choke from Clinch (Attacker) film study: Special: guillotine choke from clinch.",
       "thumbnailUrl": "https://i.ytimg.com/vi/2Ioe4B7HF38/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/2Ioe4B7HF38",
       "url": "https://www.youtube.com/watch?v=2Ioe4B7HF38",
-      "creator": { "@type": "Person", "name": "Michael James" },
-      "duration": "PT43S"
+      "duration": "PT42S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Attacking the standing guillotine",
-      "description": "Guillotine Choke from Clinch (Attacker) film study: Attacking the standing guillotine, taught by Fargo BJJ.",
+      "name": "Self Defense - Attacking the standing Guillotine - FargoBJJ Fundamentals",
+      "description": "Guillotine Choke from Clinch (Attacker) film study: Self Defense - Attacking the standing Guillotine - FargoBJJ Fundamentals.",
       "thumbnailUrl": "https://i.ytimg.com/vi/-x0MJel3Ru0/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/-x0MJel3Ru0",
       "url": "https://www.youtube.com/watch?v=-x0MJel3Ru0",
-      "creator": { "@type": "Person", "name": "Fargo BJJ" },
-      "duration": "PT55S"
+      "duration": "PT54S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "Two standing guillotine variations",
-      "description": "Guillotine Choke from Clinch (Attacker) film study: Two standing guillotine variations, taught by Hellfish MMA.",
+      "name": "Two Standing Guillotine variations",
+      "description": "Guillotine Choke from Clinch (Attacker) film study: Two Standing Guillotine variations.",
       "thumbnailUrl": "https://i.ytimg.com/vi/ilxJA4hIEFE/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/ilxJA4hIEFE",
       "url": "https://www.youtube.com/watch?v=ilxJA4hIEFE",
-      "creator": { "@type": "Person", "name": "Hellfish MMA" },
-      "duration": "PT124S"
+      "duration": "PT123S"
     }
   ]
 }
@@ -247,7 +244,7 @@ Attacking with the standing guillotine from clinch requires understanding the pr
 
 ![](https://www.youtube.com/watch?v=2Ioe4B7HF38)
 
-<p class="clip-credit"><strong>Guillotine choke from the clinch</strong> — taught by Michael James · 0:43 · <a href="https://www.youtube.com/watch?v=2Ioe4B7HF38" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Special: guillotine choke from clinch</strong> · 0:42 · <a href="https://www.youtube.com/watch?v=2Ioe4B7HF38" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -255,7 +252,7 @@ Attacking with the standing guillotine from clinch requires understanding the pr
 
 ![](https://www.youtube.com/watch?v=-x0MJel3Ru0)
 
-<p class="clip-credit"><strong>Attacking the standing guillotine</strong> — taught by Fargo BJJ · 0:55 · <a href="https://www.youtube.com/watch?v=-x0MJel3Ru0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Self Defense - Attacking the standing Guillotine - FargoBJJ Fundamentals</strong> · 0:54 · <a href="https://www.youtube.com/watch?v=-x0MJel3Ru0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -263,7 +260,7 @@ Attacking with the standing guillotine from clinch requires understanding the pr
 
 ![](https://www.youtube.com/watch?v=ilxJA4hIEFE)
 
-<p class="clip-credit"><strong>Two standing guillotine variations</strong> — taught by Hellfish MMA · 2:04 · <a href="https://www.youtube.com/watch?v=ilxJA4hIEFE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Two Standing Guillotine variations</strong> · 2:03 · <a href="https://www.youtube.com/watch?v=ilxJA4hIEFE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -46,35 +46,22 @@ description: "Master the Seat Belt to Body Triangle transition in BJJ. Learn to 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Attacking the back with a body triangle",
-      "description": "Seat Belt to Body Triangle film study: Attacking the back with a body triangle, taught by Grapple Box.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/3OkCuU0B0UE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/3OkCuU0B0UE",
-      "url": "https://www.youtube.com/watch?v=3OkCuU0B0UE",
-      "creator": { "@type": "Person", "name": "Grapple Box" },
-      "duration": "PT28S"
+      "name": "Defending the figure 4 from the back",
+      "description": "Seat Belt to Body Triangle film study: Defending the figure 4 from the back.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hCu7SXEaXjc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hCu7SXEaXjc",
+      "url": "https://www.youtube.com/watch?v=hCu7SXEaXjc",
+      "duration": "PT67S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "How to properly use the body triangle",
-      "description": "Seat Belt to Body Triangle film study: How to properly use the body triangle, taught by Gordon Ryan.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/8JwxpgWGsFU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/8JwxpgWGsFU",
-      "url": "https://www.youtube.com/watch?v=8JwxpgWGsFU",
-      "creator": { "@type": "Person", "name": "Gordon Ryan" },
-      "duration": "PT294S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Body triangle troubleshooting from back control",
-      "description": "Seat Belt to Body Triangle film study: Body triangle troubleshooting from back control, taught by Tom Halpin.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/TFKAmteeVIA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/TFKAmteeVIA",
-      "url": "https://www.youtube.com/watch?v=TFKAmteeVIA",
-      "creator": { "@type": "Person", "name": "Tom Halpin" },
-      "duration": "PT186S"
+      "name": "TMG Clips #78 - Escaping The Body Triangle",
+      "description": "Seat Belt to Body Triangle film study: TMG Clips #78 - Escaping The Body Triangle.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hgaULMND3ag/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hgaULMND3ag",
+      "url": "https://www.youtube.com/watch?v=hgaULMND3ag",
+      "duration": "PT129S"
     }
   ]
 }
@@ -128,25 +115,17 @@ The timing and leg selection are critical. Threading the leg across the defender
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=3OkCuU0B0UE)
+![](https://www.youtube.com/watch?v=hCu7SXEaXjc)
 
-<p class="clip-credit"><strong>Attacking the back with a body triangle</strong> — taught by Grapple Box · 0:28 · <a href="https://www.youtube.com/watch?v=3OkCuU0B0UE" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=8JwxpgWGsFU)
-
-<p class="clip-credit"><strong>How to properly use the body triangle</strong> — taught by Gordon Ryan · 4:54 · <a href="https://www.youtube.com/watch?v=8JwxpgWGsFU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Defending the figure 4 from the back</strong> · 1:07 · <a href="https://www.youtube.com/watch?v=hCu7SXEaXjc" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=TFKAmteeVIA)
+![](https://www.youtube.com/watch?v=hgaULMND3ag)
 
-<p class="clip-credit"><strong>Body triangle troubleshooting from back control</strong> — taught by Tom Halpin · 3:06 · <a href="https://www.youtube.com/watch?v=TFKAmteeVIA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>TMG Clips #78 - Escaping The Body Triangle</strong> · 2:09 · <a href="https://www.youtube.com/watch?v=hgaULMND3ag" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

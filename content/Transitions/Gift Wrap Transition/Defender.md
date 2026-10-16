@@ -160,24 +160,12 @@ description: "How to defend against Gift Wrap Transition in BJJ. Recognition cue
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Escaping the gift wrap",
-      "description": "Gift Wrap Transition (Defender) film study: Escaping the gift wrap, taught by The Jiu Jitsu Pedia.",
+      "name": "Escaping the Gift Wrap in jiu jitsu",
+      "description": "Gift Wrap Transition (Defender) film study: Escaping the Gift Wrap in jiu jitsu.",
       "thumbnailUrl": "https://i.ytimg.com/vi/OMzki0Uu7vA/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/OMzki0Uu7vA",
       "url": "https://www.youtube.com/watch?v=OMzki0Uu7vA",
-      "creator": { "@type": "Person", "name": "The Jiu Jitsu Pedia" },
-      "duration": "PT48S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Escaping the modified mount",
-      "description": "Gift Wrap Transition (Defender) film study: Escaping the modified mount, taught by Fenrir Jiu-Jitsu Academy.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/dKsWGZXo3Zw/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/dKsWGZXo3Zw",
-      "url": "https://www.youtube.com/watch?v=dKsWGZXo3Zw",
-      "creator": { "@type": "Person", "name": "Fenrir Jiu-Jitsu Academy" },
-      "duration": "PT133S"
+      "duration": "PT47S"
     }
   ]
 }
@@ -211,15 +199,7 @@ From a positional hierarchy perspective, the defender should prioritize keeping 
 
 ![](https://www.youtube.com/watch?v=OMzki0Uu7vA)
 
-<p class="clip-credit"><strong>Escaping the gift wrap</strong> — taught by The Jiu Jitsu Pedia · 0:48 · <a href="https://www.youtube.com/watch?v=OMzki0Uu7vA" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=dKsWGZXo3Zw)
-
-<p class="clip-credit"><strong>Escaping the modified mount</strong> — taught by Fenrir Jiu-Jitsu Academy · 2:13 · <a href="https://www.youtube.com/watch?v=dKsWGZXo3Zw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Escaping the Gift Wrap in jiu jitsu</strong> · 0:47 · <a href="https://www.youtube.com/watch?v=OMzki0Uu7vA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

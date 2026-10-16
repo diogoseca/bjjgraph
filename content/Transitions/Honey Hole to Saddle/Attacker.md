@@ -192,35 +192,12 @@ description: "Complete guide to executing the Honey Hole to Saddle transition. L
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Shoulder roll to cross ashi (saddle/411) to back",
-      "description": "Honey Hole to Saddle (Attacker) film study: Shoulder roll to cross ashi (saddle/411) to back, taught by BJJ Doug.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/eRQVlYxFx1Y/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/eRQVlYxFx1Y",
-      "url": "https://www.youtube.com/watch?v=eRQVlYxFx1Y",
-      "creator": { "@type": "Person", "name": "BJJ Doug" },
-      "duration": "PT42S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Easiest entry to the honey hole",
-      "description": "Honey Hole to Saddle (Attacker) film study: Easiest entry to the honey hole, taught by Robot Dolphin Jiu-Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/6PkbyGnn2w4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/6PkbyGnn2w4",
-      "url": "https://www.youtube.com/watch?v=6PkbyGnn2w4",
-      "creator": { "@type": "Person", "name": "Robot Dolphin Jiu-Jitsu" },
-      "duration": "PT147S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Transitioning to honey hole from outside ashi",
-      "description": "Honey Hole to Saddle (Attacker) film study: Transitioning to honey hole from outside ashi, taught by Robot Dolphin Jiu-Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/ratNiM2lx5U/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/ratNiM2lx5U",
-      "url": "https://www.youtube.com/watch?v=ratNiM2lx5U",
-      "creator": { "@type": "Person", "name": "Robot Dolphin Jiu-Jitsu" },
-      "duration": "PT155S"
+      "name": "Controlling the Saddle position: Overlooked details that will improve your leg\u2026",
+      "description": "Honey Hole to Saddle (Attacker) film study: Controlling the Saddle position: Overlooked details that will improve your leg\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5hhSK86xBFc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5hhSK86xBFc",
+      "url": "https://www.youtube.com/watch?v=5hhSK86xBFc",
+      "duration": "PT259S"
     }
   ]
 }
@@ -248,25 +225,9 @@ Executing the Honey Hole to Saddle transition requires recognizing the gap betwe
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=eRQVlYxFx1Y)
+![](https://www.youtube.com/watch?v=5hhSK86xBFc)
 
-<p class="clip-credit"><strong>Shoulder roll to cross ashi (saddle/411) to back</strong> — taught by BJJ Doug · 0:42 · <a href="https://www.youtube.com/watch?v=eRQVlYxFx1Y" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=6PkbyGnn2w4)
-
-<p class="clip-credit"><strong>Easiest entry to the honey hole</strong> — taught by Robot Dolphin Jiu-Jitsu · 2:27 · <a href="https://www.youtube.com/watch?v=6PkbyGnn2w4" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=ratNiM2lx5U)
-
-<p class="clip-credit"><strong>Transitioning to honey hole from outside ashi</strong> — taught by Robot Dolphin Jiu-Jitsu · 2:35 · <a href="https://www.youtube.com/watch?v=ratNiM2lx5U" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Controlling the Saddle position: Overlooked details that will improve your leg…</strong> · 4:19 · <a href="https://www.youtube.com/watch?v=5hhSK86xBFc" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

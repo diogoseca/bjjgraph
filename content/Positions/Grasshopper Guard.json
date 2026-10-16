@@ -441,26 +441,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "aQ2vFXXBn-o",
-        "title": "Countering a full inversion from the top",
-        "by": "Gordon Ryan",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 61,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "bWZFXzzs05U",
-        "title": "Grasshopper guard pass",
-        "by": "Binhtri Vu",
-        "vertical": false,
-        "channel": "Binhtri Vu",
-        "duration": 347,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "bottom": {
     "name": "Grasshopper Guard Bottom",

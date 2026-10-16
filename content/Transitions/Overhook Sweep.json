@@ -381,30 +381,25 @@
     "clips": [
       {
         "id": "QPL5y0hIVV4",
-        "title": "Closed guard overhook sweep",
-        "by": "David Morris",
-        "vertical": false,
+        "title": "Closed guard over hook sweep",
         "channel": "David Morris Jiu Jitsu ",
         "duration": 17,
-        "verified": "2026-07-15"
+        "vertical": false,
+        "front": true
       },
       {
         "id": "SONTST7yTT8",
-        "title": "Closed guard overhook scissor sweep",
-        "by": "Fight Sports Charlotte",
-        "vertical": false,
+        "title": "Closed Guard - Overhook - Scissor Sweep",
         "channel": "Fight Sports Charlotte",
-        "duration": 89,
-        "verified": "2026-07-15"
+        "duration": 88,
+        "vertical": false
       },
       {
         "id": "T_SZtIWwoik",
-        "title": "Closed guard double overhook sweep",
-        "by": "Jiu Jitsu Five-O",
-        "vertical": false,
-        "channel": "Jiu Jitsu Five-O // Street-Ready BJJ Training",
+        "title": "Closed Guard // Double Over-Hook Sweep",
+        "channel": "Jiu Jitsu Five-O // BJJ Training for the Street",
         "duration": 162,
-        "verified": "2026-07-15"
+        "vertical": false
       }
     ]
   },
@@ -590,21 +585,11 @@
     "clips": [
       {
         "id": "58LkTy6v3KQ",
-        "title": "Defending and countering the closed guard overhook clamp",
-        "by": "The Grappling Bloke",
-        "vertical": false,
+        "title": "Closed Guard Defense and Counter to the Clamp (Over Hook Position)",
         "channel": "The Grappling Bloke",
-        "duration": 109,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "RCnDWdAWXQs",
-        "title": "Recovering posture when they have the overhook",
-        "by": "Lachlan Giles",
+        "duration": 108,
         "vertical": false,
-        "channel": "Absolute MMA St Kilda - Melbourne",
-        "duration": 559,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },

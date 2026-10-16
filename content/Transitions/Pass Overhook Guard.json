@@ -376,26 +376,7 @@
       }
     ],
     "safety_considerations": "This guard pass involves significant shoulder pressure and weight driving techniques. Apply pressure gradually during training and be responsive to your partner's discomfort signals. When using the shoulder pressure variation, avoid driving directly into the throat or windpipe. The overhook grip strip can cause wrist strain if done explosively; use controlled, gradual techniques during drilling. Always allow your partner to tap if the pressure becomes excessive, particularly during the crossface and shoulder-of-justice positions.",
-    "clips": [
-      {
-        "id": "NjpsGcUIo9Y",
-        "title": "Overhook pass breakdown from the top",
-        "by": "Eric Laporte",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 167,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "IQ2mviobbI0",
-        "title": "Beating the whizzer/overhook while passing",
-        "by": "Pendergrass Academy",
-        "vertical": false,
-        "channel": "Pendergrass Academy of Martial Arts",
-        "duration": 138,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Pass Overhook Guard Defender",
@@ -563,25 +544,6 @@
         "description": "Positional sparring starting from overhook guard. Bottom player defends the pass while threatening sweeps and submissions. Full resistance with resets after each success. Focus on combining all defensive tools and making real-time decisions about which option to pursue."
       }
     ],
-    "clips": [
-      {
-        "id": "iyRrNoMn2Tk",
-        "title": "Overhook guard retention tip",
-        "by": "Fight Authority",
-        "vertical": false,
-        "channel": "Fight Authority",
-        "duration": 67,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "8mXBDHXrAu4",
-        "title": "Whizzer from half guard to win the dogfight",
-        "by": "Wrecking Crew BJJ",
-        "vertical": false,
-        "channel": "Wrecking Crew BJJ",
-        "duration": 60,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

@@ -382,26 +382,7 @@
       }
     ],
     "safety_considerations": "This pass involves significant pressure on the opponent's neck and spine during the stacking variation, so monitor your partner's comfort and respond to verbal or tap signals immediately. The arm extraction phase creates torque on both your own shoulder and the opponent's arm-controlling structures, requiring controlled movement rather than violent jerking. Avoid cranking your neck to escape the shin across your back, as this can cause cervical strain. During training, communicate with your partner about pressure levels and progress methodically rather than explosively to prevent injuries to both practitioners.",
-    "clips": [
-      {
-        "id": "4E5IQ9ouZfA",
-        "title": "10th Planet passing drill with Danny Gutierrez",
-        "by": "Eddie Bravo",
-        "vertical": false,
-        "channel": "Eddie Bravo",
-        "duration": 51,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "SYl7QbIRELM",
-        "title": "Passing basics breakdown",
-        "by": "Eddie Bravo",
-        "vertical": false,
-        "channel": "Eddie Bravo",
-        "duration": 119,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "New York Pass to Side Control Defender",
@@ -598,34 +579,6 @@
         "description": "Full resistance positional sparring starting from New York. Defender scores for maintaining position past 60 seconds, achieving a sweep, or landing a submission. Attacker scores for completing the pass. Builds real-time decision making and pressure management under competitive intensity."
       }
     ],
-    "clips": [
-      {
-        "id": "E3sCfrFKJDE",
-        "title": "Rubber guard: preventing the pass",
-        "by": "Força Martial Arts",
-        "vertical": false,
-        "channel": "Força Martial Arts & Fitness",
-        "duration": 158,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "YxHRU7eLp_8",
-        "title": "How to prevent side control",
-        "by": "The Grappling Academy",
-        "vertical": false,
-        "channel": "The Grappling Academy",
-        "duration": 332,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "iTrQzYeCvHM",
-        "title": "Top 5 guard retention mistakes",
-        "by": "Lachlan Giles",
-        "vertical": false,
-        "channel": "Bernardo Faria BJJ Fanatics",
-        "duration": 436,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

@@ -333,35 +333,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "tQWfhZiDREc",
-        "title": "Aoki lock from butterfly ashi",
-        "by": "Factory Fresh Jiu Jitsu",
-        "vertical": false,
-        "channel": "Factory Fresh Jiu Jitsu",
-        "duration": 77,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "QDNLTs55V8c",
-        "title": "Sneaky Aoki Lock from the Saddle",
-        "by": "Grappling Education",
-        "vertical": false,
-        "channel": "Grappling Education",
-        "duration": 121,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "9F3m0gNYlXU",
-        "title": "How to Do the Aoki Lock in No-Gi Grappling",
-        "by": "Stephan Kesting",
-        "vertical": false,
-        "channel": "Stephan Kesting",
-        "duration": 386,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "bottom": {
     "overview": "The bottom player is responsible for maintaining the control. The foot-lock player is seated or on the side facing the opponent's lower body. The opposing foot is turned outward and enclosed near the armpit, upper arm, and forearm. The attacker has a connection to the hip or leg that limits the opponent's free movement. The captured player must free the foot and leg control before attempting an uncontrolled turn.\n\nRecognize the foot orientation without twisting it into position against resistance. Hold the instep and heel region securely beside the upper body rather than relying on calf compression. Use the entanglement or foot-on-hip frame to manage distance before considering a finish.\n\nStop the drill at a secure capture; the control can become a damaging rotation with very little movement. Keep track of your own exposed feet while concentrating on the captured foot. Open the arm enclosure and remove leg pressure immediately on a tap, sudden movement, or pain.\n\nThe captured limb is the foot and lower leg. This is distinct from an omoplata-style shoulder trap and from a bent-knee calf slicer. Either player can become the foot-lock attacker during an entanglement exchange. Rotational foot locks can injure the ankle or knee before pain provides useful warning. Use cooperative capture-and-release practice, no spinning escapes, and the event's actual division rules.",
@@ -665,26 +637,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "6-HYU8Pbngg",
-        "title": "K guard defense vs toe hold and straight foot lock",
-        "by": "Lachlan Giles",
-        "vertical": false,
-        "channel": "Absolute MMA St Kilda - Melbourne",
-        "duration": 152,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "p7fy3B6AAbA",
-        "title": "Aoki lock counter from standard ashi and SLX",
-        "by": "Mads H.",
-        "vertical": false,
-        "channel": "Mads H. BJJ",
-        "duration": 231,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "flashcards_position": [
     {
@@ -800,33 +753,5 @@
       }
     }
   ],
-  "clips": [
-    {
-      "id": "QDNLTs55V8c",
-      "title": "Sneaky Aoki lock from the saddle",
-      "by": "Grappling Education",
-      "vertical": false,
-      "channel": "Grappling Education",
-      "duration": 121,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "N9dnzaleHdk",
-      "title": "The Aoki Lock Explained",
-      "by": "Jeremy Skinner",
-      "vertical": false,
-      "channel": "Absolute MMA St Kilda - Melbourne",
-      "duration": 268,
-      "verified": "2026-07-15"
-    },
-    {
-      "id": "S2DMBU42Yl0",
-      "title": "Get the Aoki Lock Finish Every Time",
-      "by": "Brian Glick",
-      "vertical": false,
-      "channel": "Brian Glick",
-      "duration": 273,
-      "verified": "2026-07-15"
-    }
-  ]
+  "clips": []
 }

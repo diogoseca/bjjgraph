@@ -162,35 +162,12 @@ description: "Defend the Inside Heel Hook from Honey Hole in BJJ. Recognition cu
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Defending \u0026 Countering the Inside Heel Hook",
-      "description": "Inside Heel Hook from Honey Hole (Defender) film study: Defending \u0026 Countering the Inside Heel Hook, taught by Jahred Dell.",
+      "name": "70 second Breakdown: Defending \u0026 Countering the Inside Heel Hook",
+      "description": "Inside Heel Hook from Honey Hole (Defender) film study: 70 second Breakdown: Defending \u0026 Countering the Inside Heel Hook.",
       "thumbnailUrl": "https://i.ytimg.com/vi/DF2AYLPbeHc/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/DF2AYLPbeHc",
       "url": "https://www.youtube.com/watch?v=DF2AYLPbeHc",
-      "creator": { "@type": "Person", "name": "Jahred Dell" },
       "duration": "PT70S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Heel Hook Defense When Ambushed",
-      "description": "Inside Heel Hook from Honey Hole (Defender) film study: Heel Hook Defense When Ambushed, taught by John Danaher.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/AsGMkATAqqw/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/AsGMkATAqqw",
-      "url": "https://www.youtube.com/watch?v=AsGMkATAqqw",
-      "creator": { "@type": "Person", "name": "John Danaher" },
-      "duration": "PT53S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Defending Heel Hooks",
-      "description": "Inside Heel Hook from Honey Hole (Defender) film study: Defending Heel Hooks, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/v3w0qXLKxug/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/v3w0qXLKxug",
-      "url": "https://www.youtube.com/watch?v=v3w0qXLKxug",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT92S"
     }
   ]
 }
@@ -221,23 +198,7 @@ Defending the Inside Heel Hook from Honey Hole is one of the most critical survi
 
 ![](https://www.youtube.com/watch?v=DF2AYLPbeHc)
 
-<p class="clip-credit"><strong>Defending &amp; Countering the Inside Heel Hook</strong> — taught by Jahred Dell · 1:10 · <a href="https://www.youtube.com/watch?v=DF2AYLPbeHc" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=AsGMkATAqqw)
-
-<p class="clip-credit"><strong>Heel Hook Defense When Ambushed</strong> — taught by John Danaher · 0:53 · <a href="https://www.youtube.com/watch?v=AsGMkATAqqw" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=v3w0qXLKxug)
-
-<p class="clip-credit"><strong>Defending Heel Hooks</strong> — taught by Lachlan Giles · 1:32 · <a href="https://www.youtube.com/watch?v=v3w0qXLKxug" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>70 second Breakdown: Defending &amp; Countering the Inside Heel Hook</strong> · 1:10 · <a href="https://www.youtube.com/watch?v=DF2AYLPbeHc" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

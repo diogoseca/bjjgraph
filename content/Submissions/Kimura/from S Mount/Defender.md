@@ -162,23 +162,11 @@ description: "Defend against the Kimura from S Mount in BJJ. Recognition cues, a
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Bent armlock (Kimura) escape from mount",
-      "description": "Kimura from S Mount (Defender) film study: Bent armlock (Kimura) escape from mount, taught by Soma Academy.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/qVINUjefot8/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/qVINUjefot8",
-      "url": "https://www.youtube.com/watch?v=qVINUjefot8",
-      "creator": { "@type": "Person", "name": "Soma Academy" },
-      "duration": "PT72S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Kimura defense grip breaks",
-      "description": "Kimura from S Mount (Defender) film study: Kimura defense grip breaks, taught by Dirtball BJJ.",
+      "name": "The Daily Dirtball: \"Kimura Defense Grip Breaks\"",
+      "description": "Kimura from S Mount (Defender) film study: The Daily Dirtball: \"Kimura Defense Grip Breaks\".",
       "thumbnailUrl": "https://i.ytimg.com/vi/GOLwVNTVcnY/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/GOLwVNTVcnY",
       "url": "https://www.youtube.com/watch?v=GOLwVNTVcnY",
-      "creator": { "@type": "Person", "name": "Dirtball BJJ" },
       "duration": "PT81S"
     }
   ]
@@ -208,17 +196,9 @@ Defending against the Kimura from S Mount is one of the most challenging defensi
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=qVINUjefot8)
-
-<p class="clip-credit"><strong>Bent armlock (Kimura) escape from mount</strong> — taught by Soma Academy · 1:12 · <a href="https://www.youtube.com/watch?v=qVINUjefot8" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=GOLwVNTVcnY)
 
-<p class="clip-credit"><strong>Kimura defense grip breaks</strong> — taught by Dirtball BJJ · 1:21 · <a href="https://www.youtube.com/watch?v=GOLwVNTVcnY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>The Daily Dirtball: &#34;Kimura Defense Grip Breaks&#34;</strong> · 1:21 · <a href="https://www.youtube.com/watch?v=GOLwVNTVcnY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

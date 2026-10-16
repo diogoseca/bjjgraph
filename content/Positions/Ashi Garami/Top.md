@@ -165,24 +165,12 @@ description: "Master defensive strategies against Ashi Garami leg entanglements 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Nasty heel hook from outside ashi garami",
-      "description": "Ashi Garami (Top) film study: Nasty heel hook from outside ashi garami, taught by Craig Jones.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/m4sGDhukUmk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/m4sGDhukUmk",
-      "url": "https://www.youtube.com/watch?v=m4sGDhukUmk",
-      "creator": { "@type": "Person", "name": "Craig Jones" },
-      "duration": "PT141S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Reverse achilles lock from ashi garami",
-      "description": "Ashi Garami (Top) film study: Reverse achilles lock from ashi garami, taught by Corey K.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/D9_e_d6WpyU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/D9_e_d6WpyU",
-      "url": "https://www.youtube.com/watch?v=D9_e_d6WpyU",
-      "creator": { "@type": "Person", "name": "Corey K" },
-      "duration": "PT84S"
+      "name": "Escaping Ashi Garami- Leg Lock Defense. Scott Elliott, 10th Planet Richmond",
+      "description": "Ashi Garami (Top) film study: Escaping Ashi Garami- Leg Lock Defense. Scott Elliott, 10th Planet Richmond.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/AQbJMBiWYfU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/AQbJMBiWYfU",
+      "url": "https://www.youtube.com/watch?v=AQbJMBiWYfU",
+      "duration": "PT140S"
     }
   ]
 }
@@ -216,17 +204,9 @@ Top Ashi Garami defense requires extensive drilling of mechanical extraction seq
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=m4sGDhukUmk)
+![](https://www.youtube.com/watch?v=AQbJMBiWYfU)
 
-<p class="clip-credit"><strong>Nasty heel hook from outside ashi garami</strong> — taught by Craig Jones · 2:21 · <a href="https://www.youtube.com/watch?v=m4sGDhukUmk" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=D9_e_d6WpyU)
-
-<p class="clip-credit"><strong>Reverse achilles lock from ashi garami</strong> — taught by Corey K · 1:24 · <a href="https://www.youtube.com/watch?v=D9_e_d6WpyU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Escaping Ashi Garami- Leg Lock Defense. Scott Elliott, 10th Planet Richmond</strong> · 2:20 · <a href="https://www.youtube.com/watch?v=AQbJMBiWYfU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

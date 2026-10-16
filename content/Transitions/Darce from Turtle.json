@@ -383,21 +383,11 @@
     "clips": [
       {
         "id": "7F4Torh--7E",
-        "title": "Modified darce choke from turtle (no-gi)",
-        "by": "Simple JiuJitsu coach",
-        "vertical": false,
+        "title": "Modified Darce Choke from Turtle in No Gi Jiu Jitsu!  👌👌👌",
         "channel": "Simple JiuJitsu",
         "duration": 127,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "_9WioKiPqDY",
-        "title": "Gator roll into the darce choke",
-        "by": "Applied Pressure MMA coach",
         "vertical": false,
-        "channel": "Applied Pressure MMA",
-        "duration": 83,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },
@@ -583,31 +573,26 @@
     ],
     "clips": [
       {
-        "id": "d1YBV8UTKds",
-        "title": "Darce choke defense from turtle",
-        "by": "Animal BJJ coach",
-        "vertical": false,
-        "channel": "Animal",
-        "duration": 53,
-        "verified": "2026-07-15"
-      },
-      {
         "id": "cmaIzjv3QG8",
-        "title": "Belly-down darce defense",
-        "by": "JitzLive coach",
-        "vertical": false,
+        "title": "Move of the Day: D'arce Defense - Belly Down",
         "channel": "JitzLive",
         "duration": 38,
-        "verified": "2026-07-15"
+        "vertical": false,
+        "front": true
+      },
+      {
+        "id": "d1YBV8UTKds",
+        "title": "Darce Choke defense",
+        "channel": "Animal",
+        "duration": 52,
+        "vertical": false
       },
       {
         "id": "rgf9QUebMWE",
-        "title": "Darce killer: shutting down the choke early",
-        "by": "Malachy Friedman",
-        "vertical": false,
+        "title": "You have to know THIS JIU JITSU DARCE KILLER!",
         "channel": "Malachy Friedman",
-        "duration": 78,
-        "verified": "2026-07-15"
+        "duration": 77,
+        "vertical": false
       }
     ]
   },

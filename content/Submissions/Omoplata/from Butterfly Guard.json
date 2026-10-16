@@ -429,30 +429,25 @@
     "clips": [
       {
         "id": "mXI1NZ5L3eA",
-        "title": "Omoplata from butterfly guard",
-        "by": "BJJ Recap",
-        "vertical": false,
+        "title": "Omoplata from butterfly guard | BJJ submission",
         "channel": "BJJ Recap",
-        "duration": 39,
-        "verified": "2026-07-14"
+        "duration": 38,
+        "vertical": false,
+        "front": true
       },
       {
         "id": "O_uTvq4s3LQ",
-        "title": "Shoulder crunch omoplata",
-        "by": "A BJJ Marriage",
-        "vertical": false,
+        "title": "Shoulder Crunch Omoplata",
         "channel": "A BJJ Marriage",
         "duration": 87,
-        "verified": "2026-07-14"
+        "vertical": false
       },
       {
         "id": "zjhkmmfU1gg",
-        "title": "Omoplata details",
-        "by": "Coach Brian",
-        "vertical": false,
+        "title": "TMG Clips #80 - Omoplata Details!",
         "channel": "TeachMeGrappling Coach Brian",
         "duration": 119,
-        "verified": "2026-07-14"
+        "vertical": false
       }
     ]
   },
@@ -616,30 +611,18 @@
     "clips": [
       {
         "id": "ocIHY3jBYIQ",
-        "title": "Best way to escape the omoplata shoulder lock",
-        "by": "John Connors",
-        "vertical": false,
+        "title": "💯 BEST WAY to ESCAPE THE OMOPLATA Shoulder Lock",
         "channel": "John Connors, Old Man BJJ Black Belt",
-        "duration": 62,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "Y4TxL4mDSKg",
-        "title": "Defending the omoplata sweep",
-        "by": "Ninja Pinto",
+        "duration": 61,
         "vertical": false,
-        "channel": "Ninja Pinto BJJ",
-        "duration": 47,
-        "verified": "2026-07-14"
+        "front": true
       },
       {
         "id": "xqBK1Y2BdSg",
-        "title": "Submission escape from the omoplata",
-        "by": "Thiago Stefanutti",
-        "vertical": false,
+        "title": "Submission escape - omoplata",
         "channel": "thiago stefanutti",
         "duration": 17,
-        "verified": "2026-07-14"
+        "vertical": false
       }
     ]
   }

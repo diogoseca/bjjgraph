@@ -160,23 +160,11 @@ description: "Learn to prevent the Deep Half Entry from Flattened Half Guard. Re
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Passing the guard against a deep half entry",
-      "description": "Deep Half Entry from Flattened (Defender) film study: Passing the guard against a deep half entry, taught by Koji Shibamoto.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/qqheiIgQrfY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/qqheiIgQrfY",
-      "url": "https://www.youtube.com/watch?v=qqheiIgQrfY",
-      "creator": { "@type": "Person", "name": "Koji Shibamoto" },
-      "duration": "PT33S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Knee slide pass counter to deep half entry",
-      "description": "Deep Half Entry from Flattened (Defender) film study: Knee slide pass counter to deep half entry, taught by Scott Ryan Chiriboga.",
+      "name": "Knee Slide Pass Counter to Deep Half Guard Entry",
+      "description": "Deep Half Entry from Flattened (Defender) film study: Knee Slide Pass Counter to Deep Half Guard Entry.",
       "thumbnailUrl": "https://i.ytimg.com/vi/K0XMj9BNJ8U/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/K0XMj9BNJ8U",
       "url": "https://www.youtube.com/watch?v=K0XMj9BNJ8U",
-      "creator": { "@type": "Person", "name": "Scott Ryan Chiriboga" },
       "duration": "PT133S"
     }
   ]
@@ -205,17 +193,9 @@ As the defender against the Deep Half Entry, you are the top player in flattened
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=qqheiIgQrfY)
-
-<p class="clip-credit"><strong>Passing the guard against a deep half entry</strong> — taught by Koji Shibamoto · 0:33 · <a href="https://www.youtube.com/watch?v=qqheiIgQrfY" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=K0XMj9BNJ8U)
 
-<p class="clip-credit"><strong>Knee slide pass counter to deep half entry</strong> — taught by Scott Ryan Chiriboga · 2:13 · <a href="https://www.youtube.com/watch?v=K0XMj9BNJ8U" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Knee Slide Pass Counter to Deep Half Guard Entry</strong> · 2:13 · <a href="https://www.youtube.com/watch?v=K0XMj9BNJ8U" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

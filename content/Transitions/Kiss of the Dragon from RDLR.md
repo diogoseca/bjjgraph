@@ -46,35 +46,32 @@ description: "Master the Kiss of the Dragon from Reverse De La Riva Guard. Compl
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Kiss of the dragon back take from RDLR",
-      "description": "Kiss of the Dragon from RDLR film study: Kiss of the dragon back take from RDLR, taught by Louis Armezzani.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Nj002G_Btm4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Nj002G_Btm4",
-      "url": "https://www.youtube.com/watch?v=Nj002G_Btm4",
-      "creator": { "@type": "Person", "name": "Louis Armezzani" },
-      "duration": "PT65S"
+      "name": "Kiss of the Dragon Drill - BJJ for Beginners",
+      "description": "Kiss of the Dragon from RDLR film study: Kiss of the Dragon Drill - BJJ for Beginners.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/mLz3HoS2XLw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/mLz3HoS2XLw",
+      "url": "https://www.youtube.com/watch?v=mLz3HoS2XLw",
+      "duration": "PT26S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Kiss of the dragon sweep",
-      "description": "Kiss of the Dragon from RDLR film study: Kiss of the dragon sweep, taught by Q.",
+      "name": "Q teaches bjj kiss of the dragon sweep",
+      "description": "Kiss of the Dragon from RDLR film study: Q teaches bjj kiss of the dragon sweep.",
       "thumbnailUrl": "https://i.ytimg.com/vi/yMPxcUHeK38/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/yMPxcUHeK38",
       "url": "https://www.youtube.com/watch?v=yMPxcUHeK38",
-      "creator": { "@type": "Person", "name": "Q" },
-      "duration": "PT54S"
+      "duration": "PT53S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "Kiss of the dragon drill",
-      "description": "Kiss of the Dragon from RDLR film study: Kiss of the dragon drill, taught by OpenRollBJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/mLz3HoS2XLw/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/mLz3HoS2XLw",
-      "url": "https://www.youtube.com/watch?v=mLz3HoS2XLw",
-      "creator": { "@type": "Person", "name": "OpenRollBJJ" },
-      "duration": "PT27S"
+      "name": "Kiss the dragon back take. RDL",
+      "description": "Kiss of the Dragon from RDLR film study: Kiss the dragon back take. RDL.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Nj002G_Btm4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Nj002G_Btm4",
+      "url": "https://www.youtube.com/watch?v=Nj002G_Btm4",
+      "duration": "PT65S"
     }
   ]
 }
@@ -128,9 +125,9 @@ Strategically, this technique creates a powerful dilemma for the top player: dri
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=Nj002G_Btm4)
+![](https://www.youtube.com/watch?v=mLz3HoS2XLw)
 
-<p class="clip-credit"><strong>Kiss of the dragon back take from RDLR</strong> — taught by Louis Armezzani · 1:05 · <a href="https://www.youtube.com/watch?v=Nj002G_Btm4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Kiss of the Dragon Drill - BJJ for Beginners</strong> · 0:26 · <a href="https://www.youtube.com/watch?v=mLz3HoS2XLw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -138,15 +135,15 @@ Strategically, this technique creates a powerful dilemma for the top player: dri
 
 ![](https://www.youtube.com/watch?v=yMPxcUHeK38)
 
-<p class="clip-credit"><strong>Kiss of the dragon sweep</strong> — taught by Q · 0:54 · <a href="https://www.youtube.com/watch?v=yMPxcUHeK38" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Q teaches bjj kiss of the dragon sweep</strong> · 0:53 · <a href="https://www.youtube.com/watch?v=yMPxcUHeK38" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=mLz3HoS2XLw)
+![](https://www.youtube.com/watch?v=Nj002G_Btm4)
 
-<p class="clip-credit"><strong>Kiss of the dragon drill</strong> — taught by OpenRollBJJ · 0:27 · <a href="https://www.youtube.com/watch?v=mLz3HoS2XLw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Kiss the dragon back take. RDL</strong> · 1:05 · <a href="https://www.youtube.com/watch?v=Nj002G_Btm4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

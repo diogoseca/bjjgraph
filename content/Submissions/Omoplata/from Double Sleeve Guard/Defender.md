@@ -162,34 +162,21 @@ description: "Defend and escape the omoplata from double sleeve guard. Recogniti
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Omoplata step-over escape drill",
-      "description": "Omoplata from Double Sleeve Guard (Defender) film study: Omoplata step-over escape drill, taught by Brandon Quick.",
+      "name": "Omoplata Step Over Escape Drill 2",
+      "description": "Omoplata from Double Sleeve Guard (Defender) film study: Omoplata Step Over Escape Drill 2.",
       "thumbnailUrl": "https://i.ytimg.com/vi/tOnP_QiviyU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/tOnP_QiviyU",
       "url": "https://www.youtube.com/watch?v=tOnP_QiviyU",
-      "creator": { "@type": "Person", "name": "Brandon Quick" },
       "duration": "PT71S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Defending the omoplata sweep",
-      "description": "Omoplata from Double Sleeve Guard (Defender) film study: Defending the omoplata sweep, taught by Ninja Pinto.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Y4TxL4mDSKg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Y4TxL4mDSKg",
-      "url": "https://www.youtube.com/watch?v=Y4TxL4mDSKg",
-      "creator": { "@type": "Person", "name": "Ninja Pinto" },
-      "duration": "PT47S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Highly effective omoplata escape",
-      "description": "Omoplata from Double Sleeve Guard (Defender) film study: Highly effective omoplata escape, taught by Queixinho.",
+      "name": "Professor Queixinho Teaches a Highly Effective Omoplata Escape!",
+      "description": "Omoplata from Double Sleeve Guard (Defender) film study: Professor Queixinho Teaches a Highly Effective Omoplata Escape!.",
       "thumbnailUrl": "https://i.ytimg.com/vi/UaZdeo4ro3E/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/UaZdeo4ro3E",
       "url": "https://www.youtube.com/watch?v=UaZdeo4ro3E",
-      "creator": { "@type": "Person", "name": "Queixinho" },
       "duration": "PT141S"
     }
   ]
@@ -221,15 +208,7 @@ Defending the omoplata from double sleeve guard requires recognizing the attack 
 
 ![](https://www.youtube.com/watch?v=tOnP_QiviyU)
 
-<p class="clip-credit"><strong>Omoplata step-over escape drill</strong> — taught by Brandon Quick · 1:11 · <a href="https://www.youtube.com/watch?v=tOnP_QiviyU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=Y4TxL4mDSKg)
-
-<p class="clip-credit"><strong>Defending the omoplata sweep</strong> — taught by Ninja Pinto · 0:47 · <a href="https://www.youtube.com/watch?v=Y4TxL4mDSKg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Omoplata Step Over Escape Drill 2</strong> · 1:11 · <a href="https://www.youtube.com/watch?v=tOnP_QiviyU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -237,7 +216,7 @@ Defending the omoplata from double sleeve guard requires recognizing the attack 
 
 ![](https://www.youtube.com/watch?v=UaZdeo4ro3E)
 
-<p class="clip-credit"><strong>Highly effective omoplata escape</strong> — taught by Queixinho · 2:21 · <a href="https://www.youtube.com/watch?v=UaZdeo4ro3E" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Professor Queixinho Teaches a Highly Effective Omoplata Escape!</strong> · 2:21 · <a href="https://www.youtube.com/watch?v=UaZdeo4ro3E" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

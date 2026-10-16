@@ -188,23 +188,21 @@ description: "How to execute Gogoplata in BJJ. Attacking perspective with setup,
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Gogoplata from Guard",
-      "description": "Gogoplata from Gogoplata Control (Attacker) film study: Gogoplata from Guard, taught by Kinesiology College.",
+      "name": "Gogoplata from guard",
+      "description": "Gogoplata from Gogoplata Control (Attacker) film study: Gogoplata from guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/4Opp0j7UmlU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/4Opp0j7UmlU",
       "url": "https://www.youtube.com/watch?v=4Opp0j7UmlU",
-      "creator": { "@type": "Person", "name": "Kinesiology College" },
       "duration": "PT21S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Gogoplata Variations from High Guard",
-      "description": "Gogoplata from Gogoplata Control (Attacker) film study: Gogoplata Variations from High Guard, taught by SpringHillBjj.",
+      "name": "Gogoplata Submission Variations from a high guard without flexibility",
+      "description": "Gogoplata from Gogoplata Control (Attacker) film study: Gogoplata Submission Variations from a high guard without flexibility.",
       "thumbnailUrl": "https://i.ytimg.com/vi/PqAJraYllQI/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/PqAJraYllQI",
       "url": "https://www.youtube.com/watch?v=PqAJraYllQI",
-      "creator": { "@type": "Person", "name": "SpringHillBjj" },
       "duration": "PT88S"
     }
   ]
@@ -240,7 +238,7 @@ While the Gogoplata has a reputation as a low-percentage submission due to its t
 
 ![](https://www.youtube.com/watch?v=4Opp0j7UmlU)
 
-<p class="clip-credit"><strong>Gogoplata from Guard</strong> — taught by Kinesiology College · 0:21 · <a href="https://www.youtube.com/watch?v=4Opp0j7UmlU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Gogoplata from guard</strong> · 0:21 · <a href="https://www.youtube.com/watch?v=4Opp0j7UmlU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -248,7 +246,7 @@ While the Gogoplata has a reputation as a low-percentage submission due to its t
 
 ![](https://www.youtube.com/watch?v=PqAJraYllQI)
 
-<p class="clip-credit"><strong>Gogoplata Variations from High Guard</strong> — taught by SpringHillBjj · 1:28 · <a href="https://www.youtube.com/watch?v=PqAJraYllQI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Gogoplata Submission Variations from a high guard without flexibility</strong> · 1:28 · <a href="https://www.youtube.com/watch?v=PqAJraYllQI" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

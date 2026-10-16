@@ -36,39 +36,6 @@ description: "Master body triangle position in BJJ. Powerful leg control from ba
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Body Triangle \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "How to Properly Use a Body Triangle",
-      "description": "Body Triangle film study: How to Properly Use a Body Triangle, taught by Gordon Ryan.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/8JwxpgWGsFU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/8JwxpgWGsFU",
-      "url": "https://www.youtube.com/watch?v=8JwxpgWGsFU",
-      "creator": { "@type": "Person", "name": "Gordon Ryan" },
-      "duration": "PT294S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Body Triangle with Shoulder Lock",
-      "description": "Body Triangle film study: Body Triangle with Shoulder Lock, taught by Demian Maia.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/t85-T9z_evY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/t85-T9z_evY",
-      "url": "https://www.youtube.com/watch?v=t85-T9z_evY",
-      "creator": { "@type": "Person", "name": "Demian Maia" },
-      "duration": "PT195S"
-    }
-  ]
-}
-</script>
-
 
 
 <script type="application/ld+json">
@@ -104,32 +71,6 @@ From this position, you maintain upper body control with your arms while your le
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Body Triangle in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=8JwxpgWGsFU)
-
-<p class="clip-credit"><strong>How to Properly Use a Body Triangle</strong> — taught by Gordon Ryan · 4:54 · <a href="https://www.youtube.com/watch?v=8JwxpgWGsFU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=t85-T9z_evY)
-
-<p class="clip-credit"><strong>Body Triangle with Shoulder Lock</strong> — taught by Demian Maia · 3:15 · <a href="https://www.youtube.com/watch?v=t85-T9z_evY" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="key-principles" class="content-section">

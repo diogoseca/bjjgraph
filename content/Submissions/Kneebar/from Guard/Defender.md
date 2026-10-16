@@ -156,35 +156,22 @@ description: "How to defend against Kneebar from Guard in BJJ. Recognition, esca
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "How to Defend a Kneebar",
-      "description": "Kneebar from Guard (Defender) film study: How to Defend a Kneebar, taught by Revolution BJJ.",
+      "name": "How to Defend a Kneebar (and Prevent a Backstep Pass)",
+      "description": "Kneebar from Guard (Defender) film study: How to Defend a Kneebar (and Prevent a Backstep Pass).",
       "thumbnailUrl": "https://i.ytimg.com/vi/wBRG0fY94fs/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/wBRG0fY94fs",
       "url": "https://www.youtube.com/watch?v=wBRG0fY94fs",
-      "creator": { "@type": "Person", "name": "Revolution BJJ" },
       "duration": "PT59S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Kneebar Defense + Take the Back",
-      "description": "Kneebar from Guard (Defender) film study: Kneebar Defense + Take the Back, taught by Bicudo BJJ.",
+      "name": "Knee Bar defense + take the back",
+      "description": "Kneebar from Guard (Defender) film study: Knee Bar defense + take the back.",
       "thumbnailUrl": "https://i.ytimg.com/vi/NuWBh3LN-SY/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/NuWBh3LN-SY",
       "url": "https://www.youtube.com/watch?v=NuWBh3LN-SY",
-      "creator": { "@type": "Person", "name": "Bicudo BJJ" },
-      "duration": "PT22S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Kneebar Defense in Competition",
-      "description": "Kneebar from Guard (Defender) film study: Kneebar Defense in Competition, taught by AJ Agazarm.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/kUuJ03CcIUQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/kUuJ03CcIUQ",
-      "url": "https://www.youtube.com/watch?v=kUuJ03CcIUQ",
-      "creator": { "@type": "Person", "name": "AJ Agazarm" },
-      "duration": "PT23S"
+      "duration": "PT21S"
     }
   ]
 }
@@ -219,7 +206,7 @@ Critical safety awareness is paramount when defending kneebars. If your opponent
 
 ![](https://www.youtube.com/watch?v=wBRG0fY94fs)
 
-<p class="clip-credit"><strong>How to Defend a Kneebar</strong> — taught by Revolution BJJ · 0:59 · <a href="https://www.youtube.com/watch?v=wBRG0fY94fs" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How to Defend a Kneebar (and Prevent a Backstep Pass)</strong> · 0:59 · <a href="https://www.youtube.com/watch?v=wBRG0fY94fs" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -227,15 +214,7 @@ Critical safety awareness is paramount when defending kneebars. If your opponent
 
 ![](https://www.youtube.com/watch?v=NuWBh3LN-SY)
 
-<p class="clip-credit"><strong>Kneebar Defense + Take the Back</strong> — taught by Bicudo BJJ · 0:22 · <a href="https://www.youtube.com/watch?v=NuWBh3LN-SY" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=kUuJ03CcIUQ)
-
-<p class="clip-credit"><strong>Kneebar Defense in Competition</strong> — taught by AJ Agazarm · 0:23 · <a href="https://www.youtube.com/watch?v=kUuJ03CcIUQ" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Knee Bar defense + take the back</strong> · 0:21 · <a href="https://www.youtube.com/watch?v=NuWBh3LN-SY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

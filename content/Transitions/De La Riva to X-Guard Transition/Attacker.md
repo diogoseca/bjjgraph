@@ -186,24 +186,12 @@ description: "How to execute De La Riva to X-Guard Transition in BJJ. Attacking 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "X-guard sweep",
-      "description": "De La Riva to X-Guard Transition (Attacker) film study: X-guard sweep, taught by Marcelo Garcia.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/zbYb6sOYC8w/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/zbYb6sOYC8w",
-      "url": "https://www.youtube.com/watch?v=zbYb6sOYC8w",
-      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
-      "duration": "PT53S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "No-gi X-guard sweep",
-      "description": "De La Riva to X-Guard Transition (Attacker) film study: No-gi X-guard sweep, taught by Marcelo Garcia.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/m-ueyJXiShY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/m-ueyJXiShY",
-      "url": "https://www.youtube.com/watch?v=m-ueyJXiShY",
-      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
-      "duration": "PT126S"
+      "name": "De la Riva to X Guard",
+      "description": "De La Riva to X-Guard Transition (Attacker) film study: De la Riva to X Guard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/cSYO_xLB7KU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/cSYO_xLB7KU",
+      "url": "https://www.youtube.com/watch?v=cSYO_xLB7KU",
+      "duration": "PT61S"
     }
   ]
 }
@@ -231,17 +219,9 @@ The De La Riva to X-Guard Transition represents the systematic framework for con
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=zbYb6sOYC8w)
+![](https://www.youtube.com/watch?v=cSYO_xLB7KU)
 
-<p class="clip-credit"><strong>X-guard sweep</strong> — taught by Marcelo Garcia · 0:53 · <a href="https://www.youtube.com/watch?v=zbYb6sOYC8w" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=m-ueyJXiShY)
-
-<p class="clip-credit"><strong>No-gi X-guard sweep</strong> — taught by Marcelo Garcia · 2:06 · <a href="https://www.youtube.com/watch?v=m-ueyJXiShY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>De la Riva to X Guard</strong> · 1:01 · <a href="https://www.youtube.com/watch?v=cSYO_xLB7KU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

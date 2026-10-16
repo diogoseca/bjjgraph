@@ -165,24 +165,12 @@ description: "Master feet on hips guard bottom in BJJ. Distance management, swee
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Foot in Hip Sweep",
-      "description": "Feet on Hips Guard (Bottom) film study: Foot in Hip Sweep, taught by Mark VanSchuyver.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/WzT_DVarJGE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/WzT_DVarJGE",
-      "url": "https://www.youtube.com/watch?v=WzT_DVarJGE",
-      "creator": { "@type": "Person", "name": "Mark VanSchuyver" },
-      "duration": "PT59S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "X-Choke from Feet on Hips Guard",
-      "description": "Feet on Hips Guard (Bottom) film study: X-Choke from Feet on Hips Guard, taught by RKBJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Ung3A0olxus/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Ung3A0olxus",
-      "url": "https://www.youtube.com/watch?v=Ung3A0olxus",
-      "creator": { "@type": "Person", "name": "RKBJJ" },
-      "duration": "PT145S"
+      "name": "[Volume 1] AMAZING Open Guard (Feet On The Hips) Series **2 Key Steps** |\u2026",
+      "description": "Feet on Hips Guard (Bottom) film study: [Volume 1] AMAZING Open Guard (Feet On The Hips) Series **2 Key Steps** |\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/yrU-DdcJBgY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/yrU-DdcJBgY",
+      "url": "https://www.youtube.com/watch?v=yrU-DdcJBgY",
+      "duration": "PT377S"
     }
   ]
 }
@@ -208,17 +196,9 @@ Feet on Hips Guard Bottom is the guard player's perspective in this fundamental 
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=WzT_DVarJGE)
+![](https://www.youtube.com/watch?v=yrU-DdcJBgY)
 
-<p class="clip-credit"><strong>Foot in Hip Sweep</strong> — taught by Mark VanSchuyver · 0:59 · <a href="https://www.youtube.com/watch?v=WzT_DVarJGE" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=Ung3A0olxus)
-
-<p class="clip-credit"><strong>X-Choke from Feet on Hips Guard</strong> — taught by RKBJJ · 2:25 · <a href="https://www.youtube.com/watch?v=Ung3A0olxus" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>[Volume 1] AMAZING Open Guard (Feet On The Hips) Series **2 Key Steps** |…</strong> · 6:17 · <a href="https://www.youtube.com/watch?v=yrU-DdcJBgY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

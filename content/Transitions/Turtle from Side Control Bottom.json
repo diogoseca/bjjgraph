@@ -393,30 +393,11 @@
     "clips": [
       {
         "id": "psMJiX4ZIWw",
-        "title": "Side control escape to turtle transition",
-        "by": "Kameron Ross",
-        "vertical": false,
+        "title": "Side Control Escape to Turtle Transition + Sucker Drag & Quarter Guard Recovery…",
         "channel": "Kameron Ross",
         "duration": 140,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "FUtwSNi-3MM",
-        "title": "Side control escape by turning away to turtle",
-        "by": "Honu BJJ",
         "vertical": false,
-        "channel": "Honu BJJ Reno",
-        "duration": 471,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "zgvlMKLWxAI",
-        "title": "Sitting turtle to running man",
-        "by": "Priit Mihkelson",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 224,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },
@@ -581,25 +562,6 @@
         "description": "Positional sparring from side control with partner using all available escapes including the turtle turn, hip escape, and ghost escape. Practice selecting the appropriate response in real-time against full resistance. Build automatic recognition and response patterns for each escape type."
       }
     ],
-    "clips": [
-      {
-        "id": "6_4uK_c0-cI",
-        "title": "Cross knee pass, preventing the turtle",
-        "by": "Inverted Gear",
-        "vertical": false,
-        "channel": "Inverted Gear",
-        "duration": 79,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "mWimgVQrsMU",
-        "title": "Far side underhook pin",
-        "by": "Craig Jones",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 137,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

@@ -392,31 +392,19 @@
     "safety_considerations": "When practicing Tani Otoshi, the person being thrown must be taught proper breakfall technique before live drilling, particularly protecting the head and posting the far arm to control landing impact. The thrower must be careful not to drive their blocking leg directly into the opponent's knee joint, which could cause lateral knee ligament damage if executed with excessive force. Practice on appropriate mats with sufficient padding, especially during initial learning phases. When drilling with resistance, communicate clearly about intensity levels to prevent awkward landings. The blocking leg should contact the lower leg or upper shin area rather than directly into the knee. Partners should tap or verbally signal if they feel unstable or unable to safely complete the fall. Never practice this throw on hard surfaces or without proper supervision during the learning phase. Special caution is warranted with heavier training partners, as the combined body weight during the sacrifice can increase impact forces significantly.",
     "clips": [
       {
-        "id": "z1mirCkei_s",
-        "title": "Tani Otoshi throw",
-        "by": "Travis Stevens",
-        "vertical": false,
-        "channel": "Travis Stevens",
-        "duration": 12,
-        "verified": "2026-07-15"
-      },
-      {
         "id": "AndVGmS5KR8",
-        "title": "Tani Otoshi valley drop breakdown",
-        "by": "Grappler Station",
-        "vertical": false,
+        "title": "Tani Otoshi - Valley Drop",
         "channel": "Grappler Station",
-        "duration": 79,
-        "verified": "2026-07-15"
+        "duration": 78,
+        "vertical": false,
+        "front": true
       },
       {
         "id": "MYF56XYb-nc",
-        "title": "Tani Otoshi judo takedown",
-        "by": "Unknown",
-        "vertical": false,
+        "title": "Tani-o-toshi | Judo takedown",
         "channel": "Jiu-Jitsu Channel",
         "duration": 87,
-        "verified": "2026-07-15"
+        "vertical": false
       }
     ]
   },
@@ -603,22 +591,11 @@
     ],
     "clips": [
       {
-        "id": "mxGkw5fQRhg",
-        "title": "The Switch: countering with Tani Otoshi",
-        "by": "Shintaro Higashi",
-        "vertical": false,
-        "channel": "Shintaro Higashi",
-        "duration": 78,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "q3Dr7X006eE",
-        "title": "Tani Otoshi into Uchimata",
-        "by": "Shintaro Higashi",
-        "vertical": false,
-        "channel": "Shintaro Higashi",
-        "duration": 69,
-        "verified": "2026-07-15"
+        "id": "6G3ornKcN7I",
+        "title": "Funakubo's Counter to Direct-Attack Tani-Otoshi",
+        "channel": "JudoCrazy",
+        "duration": 36,
+        "front": true
       }
     ]
   },

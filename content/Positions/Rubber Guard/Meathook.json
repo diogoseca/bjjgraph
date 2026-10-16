@@ -407,26 +407,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "KN7ww-OyaxQ",
-        "title": "Meathook options from Rubber Guard",
-        "by": "Eddie Bravo",
-        "vertical": false,
-        "channel": "Eddie Bravo",
-        "duration": 60,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "0w0642zFqWo",
-        "title": "Troubleshooting the Meathook",
-        "by": "Brandon Mccaghren",
-        "vertical": false,
-        "channel": "Brandon Mccaghren",
-        "duration": 61,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "bottom": {
     "name": "Meathook Bottom",
@@ -841,35 +822,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "KN7ww-OyaxQ",
-        "title": "Meathook Options (MTS 202)",
-        "by": "Eddie Bravo",
-        "vertical": false,
-        "channel": "Eddie Bravo",
-        "duration": 60,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "0w0642zFqWo",
-        "title": "Rubber Guard: Troubleshooting the Meathook",
-        "by": "Brandon Mccaghren",
-        "vertical": false,
-        "channel": "Brandon Mccaghren",
-        "duration": 61,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "pJ4G8hW6dIE",
-        "title": "Near-side Meathook Sweep",
-        "by": "10th Planet Colorado Springs",
-        "vertical": false,
-        "channel": "10th Planet Colorado Springs",
-        "duration": 93,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   },
   "flashcards_position": [
     {
@@ -985,33 +938,5 @@
       }
     }
   ],
-  "clips": [
-    {
-      "id": "KN7ww-OyaxQ",
-      "title": "Meathook Options (MTS 202)",
-      "by": "Eddie Bravo",
-      "vertical": false,
-      "channel": "Eddie Bravo",
-      "duration": 60,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "h6o7-9u4NHo",
-      "title": "Polishing the meathook",
-      "by": "Eddie Bravo",
-      "vertical": false,
-      "channel": "Eddie Bravo",
-      "duration": 61,
-      "verified": "2026-07-15"
-    },
-    {
-      "id": "0w0642zFqWo",
-      "title": "Troubleshooting the meathook",
-      "by": "Brandon McCaghren",
-      "vertical": false,
-      "channel": "Brandon Mccaghren",
-      "duration": 61,
-      "verified": "2026-07-15"
-    }
-  ]
+  "clips": []
 }

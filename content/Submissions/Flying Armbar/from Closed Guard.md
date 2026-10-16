@@ -46,24 +46,12 @@ description: "Master the Flying Armbar technique in BJJ. High-risk aerial submis
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Flying Armbar Using an Ese",
-      "description": "Flying Armbar from Closed Guard film study: Flying Armbar Using an Ese, taught by CholoMMA.",
+      "name": "Flying Armbar - Using an Ese",
+      "description": "Flying Armbar from Closed Guard film study: Flying Armbar - Using an Ese.",
       "thumbnailUrl": "https://i.ytimg.com/vi/9BHfe_ar48Q/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/9BHfe_ar48Q",
       "url": "https://www.youtube.com/watch?v=9BHfe_ar48Q",
-      "creator": { "@type": "Person", "name": "CholoMMA" },
       "duration": "PT19S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Flying Overhook Armbar",
-      "description": "Flying Armbar from Closed Guard film study: Flying Overhook Armbar, taught by Mica Galvao.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/3-vgPXKmuS0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/3-vgPXKmuS0",
-      "url": "https://www.youtube.com/watch?v=3-vgPXKmuS0",
-      "creator": { "@type": "Person", "name": "Mica Galvao" },
-      "duration": "PT14S"
     }
   ]
 }
@@ -128,15 +116,7 @@ While spectacular when successful, the Flying Armbar carries significant risks i
 
 ![](https://www.youtube.com/watch?v=9BHfe_ar48Q)
 
-<p class="clip-credit"><strong>Flying Armbar Using an Ese</strong> — taught by CholoMMA · 0:19 · <a href="https://www.youtube.com/watch?v=9BHfe_ar48Q" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=3-vgPXKmuS0)
-
-<p class="clip-credit"><strong>Flying Overhook Armbar</strong> — taught by Mica Galvao · 0:14 · <a href="https://www.youtube.com/watch?v=3-vgPXKmuS0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Flying Armbar - Using an Ese</strong> · 0:19 · <a href="https://www.youtube.com/watch?v=9BHfe_ar48Q" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

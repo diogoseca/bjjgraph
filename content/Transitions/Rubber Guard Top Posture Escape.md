@@ -46,24 +46,12 @@ description: "Escape Rubber Guard from top by recovering posture and extracting 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Simple rubber guard escape for the top player",
-      "description": "Rubber Guard Top Posture Escape film study: Simple rubber guard escape for the top player, taught by BJJ4Breakfast.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/AvivOVuYcCk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/AvivOVuYcCk",
-      "url": "https://www.youtube.com/watch?v=AvivOVuYcCk",
-      "creator": { "@type": "Person", "name": "BJJ4Breakfast" },
-      "duration": "PT131S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Recovering Posture Against an Overhook Guard",
-      "description": "Rubber Guard Top Posture Escape film study: Recovering Posture Against an Overhook Guard, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/RCnDWdAWXQs/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/RCnDWdAWXQs",
-      "url": "https://www.youtube.com/watch?v=RCnDWdAWXQs",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT559S"
+      "name": "Passing Rubber Guard: Posture Preservation",
+      "description": "Rubber Guard Top Posture Escape film study: Passing Rubber Guard: Posture Preservation.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3RAXSx1a4OA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3RAXSx1a4OA",
+      "url": "https://www.youtube.com/watch?v=3RAXSx1a4OA",
+      "duration": "PT411S"
     }
   ]
 }
@@ -115,17 +103,9 @@ Strategically, this escape must be executed before the bottom player progresses 
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=AvivOVuYcCk)
+![](https://www.youtube.com/watch?v=3RAXSx1a4OA)
 
-<p class="clip-credit"><strong>Simple rubber guard escape for the top player</strong> — taught by BJJ4Breakfast · 2:11 · <a href="https://www.youtube.com/watch?v=AvivOVuYcCk" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=RCnDWdAWXQs)
-
-<p class="clip-credit"><strong>Recovering Posture Against an Overhook Guard</strong> — taught by Lachlan Giles · 9:19 · <a href="https://www.youtube.com/watch?v=RCnDWdAWXQs" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Passing Rubber Guard: Posture Preservation</strong> · 6:51 · <a href="https://www.youtube.com/watch?v=3RAXSx1a4OA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

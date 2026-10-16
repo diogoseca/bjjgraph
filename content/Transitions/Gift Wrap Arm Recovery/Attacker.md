@@ -176,28 +176,6 @@ description: "How to execute Gift Wrap Arm Recovery in BJJ. Attacking perspectiv
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Gift Wrap Arm Recovery (Attacker) \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "The Gift Wrap in 2 Minutes - No Gi",
-      "description": "Gift Wrap Arm Recovery (Attacker) film study: The Gift Wrap in 2 Minutes - No Gi, taught by Brian Glick.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/5bw7poxVJ1E/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/5bw7poxVJ1E",
-      "url": "https://www.youtube.com/watch?v=5bw7poxVJ1E",
-      "creator": { "@type": "Person", "name": "Brian Glick" },
-      "duration": "PT112S"
-    }
-  ]
-}
-</script>
-
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -214,24 +192,6 @@ Execution demands patience and precise timing. The optimal window opens when the
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Gift Wrap Arm Recovery (Attacker) in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=5bw7poxVJ1E)
-
-<p class="clip-credit"><strong>The Gift Wrap in 2 Minutes - No Gi</strong> — taught by Brian Glick · 1:52 · <a href="https://www.youtube.com/watch?v=5bw7poxVJ1E" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="key-principles" class="content-section">

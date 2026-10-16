@@ -142,28 +142,6 @@ description: "Learn to prevent and counter the Heel Drag Escape from mount. Foot
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Heel Drag Escape (Defender) \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "No-gi mount escape: heel drag elbow knee",
-      "description": "Heel Drag Escape (Defender) film study: No-gi mount escape: heel drag elbow knee, taught by Liam H Wandi.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/KirbkTs_Bk4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/KirbkTs_Bk4",
-      "url": "https://www.youtube.com/watch?v=KirbkTs_Bk4",
-      "creator": { "@type": "Person", "name": "Liam H Wandi" },
-      "duration": "PT30S"
-    }
-  ]
-}
-</script>
-
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -176,24 +154,6 @@ Defending against the Heel Drag Escape requires the top mount player to understa
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Heel Drag Escape (Defender) in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=KirbkTs_Bk4)
-
-<p class="clip-credit"><strong>No-gi mount escape: heel drag elbow knee</strong> — taught by Liam H Wandi · 0:30 · <a href="https://www.youtube.com/watch?v=KirbkTs_Bk4" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="recognition-cues" class="content-section">

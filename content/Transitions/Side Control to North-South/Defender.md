@@ -168,23 +168,11 @@ description: "How to defend against Side Control to North-South in BJJ. Recognit
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "How to escape north-south in jiu-jitsu",
-      "description": "Side Control to North-South (Defender) film study: How to escape north-south in jiu-jitsu, taught by Jon Thomas.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/rmT52A--V3Q/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/rmT52A--V3Q",
-      "url": "https://www.youtube.com/watch?v=rmT52A--V3Q",
-      "creator": { "@type": "Person", "name": "Jon Thomas" },
-      "duration": "PT203S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Escaping and countering north-south",
-      "description": "Side Control to North-South (Defender) film study: Escaping and countering north-south, taught by John Connors.",
+      "name": "Stuck and Confused in NORTH SOUTH?  How to ESCAPE #2 in BJJ and Counter",
+      "description": "Side Control to North-South (Defender) film study: Stuck and Confused in NORTH SOUTH?  How to ESCAPE #2 in BJJ and Counter.",
       "thumbnailUrl": "https://i.ytimg.com/vi/YTKbNwNaaPQ/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/YTKbNwNaaPQ",
       "url": "https://www.youtube.com/watch?v=YTKbNwNaaPQ",
-      "creator": { "@type": "Person", "name": "John Connors" },
       "duration": "PT216S"
     }
   ]
@@ -215,17 +203,9 @@ The critical defensive window is narrow. Once your opponent begins walking their
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=rmT52A--V3Q)
-
-<p class="clip-credit"><strong>How to escape north-south in jiu-jitsu</strong> — taught by Jon Thomas · 3:23 · <a href="https://www.youtube.com/watch?v=rmT52A--V3Q" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=YTKbNwNaaPQ)
 
-<p class="clip-credit"><strong>Escaping and countering north-south</strong> — taught by John Connors · 3:36 · <a href="https://www.youtube.com/watch?v=YTKbNwNaaPQ" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Stuck and Confused in NORTH SOUTH?  How to ESCAPE #2 in BJJ and Counter</strong> · 3:36 · <a href="https://www.youtube.com/watch?v=YTKbNwNaaPQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

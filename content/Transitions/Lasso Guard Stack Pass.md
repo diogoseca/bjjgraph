@@ -46,35 +46,12 @@ description: "Master the Lasso Guard Stack Pass in BJJ. Complete guide to neutra
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Over under stack pass",
-      "description": "Lasso Guard Stack Pass film study: Over under stack pass, taught by Bernardo Faria.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Q4LZBn5iIug/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Q4LZBn5iIug",
-      "url": "https://www.youtube.com/watch?v=Q4LZBn5iIug",
-      "creator": { "@type": "Person", "name": "Bernardo Faria" },
-      "duration": "PT70S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Pressure pass the Lasso Guard",
-      "description": "Lasso Guard Stack Pass film study: Pressure pass the Lasso Guard, taught by Alberto Serrano.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/EdLPqtAm5yQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/EdLPqtAm5yQ",
-      "url": "https://www.youtube.com/watch?v=EdLPqtAm5yQ",
-      "creator": { "@type": "Person", "name": "Alberto Serrano" },
-      "duration": "PT123S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Lasso guard knee press pass exploration",
-      "description": "Lasso Guard Stack Pass film study: Lasso guard knee press pass exploration, taught by Roll 247.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Cx53Xl0SGC4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Cx53Xl0SGC4",
-      "url": "https://www.youtube.com/watch?v=Cx53Xl0SGC4",
-      "creator": { "@type": "Person", "name": "Roll 247" },
-      "duration": "PT27S"
+      "name": "Guard Retention Against Stack Passing",
+      "description": "Lasso Guard Stack Pass film study: Guard Retention Against Stack Passing.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DMUuThQPX4M/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DMUuThQPX4M",
+      "url": "https://www.youtube.com/watch?v=DMUuThQPX4M",
+      "duration": "PT302S"
     }
   ]
 }
@@ -128,25 +105,9 @@ Strategically, the stack pass serves as a high-pressure complement to more techn
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=Q4LZBn5iIug)
+![](https://www.youtube.com/watch?v=DMUuThQPX4M)
 
-<p class="clip-credit"><strong>Over under stack pass</strong> — taught by Bernardo Faria · 1:10 · <a href="https://www.youtube.com/watch?v=Q4LZBn5iIug" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=EdLPqtAm5yQ)
-
-<p class="clip-credit"><strong>Pressure pass the Lasso Guard</strong> — taught by Alberto Serrano · 2:03 · <a href="https://www.youtube.com/watch?v=EdLPqtAm5yQ" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=Cx53Xl0SGC4)
-
-<p class="clip-credit"><strong>Lasso guard knee press pass exploration</strong> — taught by Roll 247 · 0:27 · <a href="https://www.youtube.com/watch?v=Cx53Xl0SGC4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Guard Retention Against Stack Passing</strong> · 5:02 · <a href="https://www.youtube.com/watch?v=DMUuThQPX4M" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -160,24 +160,12 @@ description: "Leg Weave Pass (defender): The passer's arm connecting your legs i
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Three step counter to the weave pass",
-      "description": "Leg Weave Pass (Defender) film study: Three step counter to the weave pass, taught by Pendergrass Academy coach.",
+      "name": "3 Step Defense Counter to the Weave Pass, PAMA, Raleigh NC",
+      "description": "Leg Weave Pass (Defender) film study: 3 Step Defense Counter to the Weave Pass, PAMA, Raleigh NC.",
       "thumbnailUrl": "https://i.ytimg.com/vi/9i-U4ivd108/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/9i-U4ivd108",
       "url": "https://www.youtube.com/watch?v=9i-U4ivd108",
-      "creator": { "@type": "Person", "name": "Pendergrass Academy coach" },
       "duration": "PT116S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Guard retention: when to sit up and escape",
-      "description": "Leg Weave Pass (Defender) film study: Guard retention: when to sit up and escape, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/lVLAROiSjNU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/lVLAROiSjNU",
-      "url": "https://www.youtube.com/watch?v=lVLAROiSjNU",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT136S"
     }
   ]
 }
@@ -215,15 +203,7 @@ Use the upper-body frame and a small hip escape before the shield is fully folde
 
 ![](https://www.youtube.com/watch?v=9i-U4ivd108)
 
-<p class="clip-credit"><strong>Three step counter to the weave pass</strong> — taught by Pendergrass Academy coach · 1:56 · <a href="https://www.youtube.com/watch?v=9i-U4ivd108" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=lVLAROiSjNU)
-
-<p class="clip-credit"><strong>Guard retention: when to sit up and escape</strong> — taught by Lachlan Giles · 2:16 · <a href="https://www.youtube.com/watch?v=lVLAROiSjNU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>3 Step Defense Counter to the Weave Pass, PAMA, Raleigh NC</strong> · 1:56 · <a href="https://www.youtube.com/watch?v=9i-U4ivd108" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -188,23 +188,21 @@ description: "Execute the Armbar from S Mount with precision. Step-by-step finis
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Switch-side armbar from S-Mount",
-      "description": "Armbar from S Mount (Attacker) film study: Switch-side armbar from S-Mount, taught by Darrin Lillian.",
+      "name": "Technique of the week - switch side armbar from S mount",
+      "description": "Armbar from S Mount (Attacker) film study: Technique of the week - switch side armbar from S mount.",
       "thumbnailUrl": "https://i.ytimg.com/vi/5UtNLw7usQk/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/5UtNLw7usQk",
       "url": "https://www.youtube.com/watch?v=5UtNLw7usQk",
-      "creator": { "@type": "Person", "name": "Darrin Lillian" },
       "duration": "PT50S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "S-Mount armbar, kimura \u0026 far-side armbar",
-      "description": "Armbar from S Mount (Attacker) film study: S-Mount armbar, kimura \u0026 far-side armbar, taught by GB Costa Mesa.",
+      "name": "S-Mount Armbar, Kimura, + Far side Armbar",
+      "description": "Armbar from S Mount (Attacker) film study: S-Mount Armbar, Kimura, + Far side Armbar.",
       "thumbnailUrl": "https://i.ytimg.com/vi/nH4ly3vk7WI/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/nH4ly3vk7WI",
       "url": "https://www.youtube.com/watch?v=nH4ly3vk7WI",
-      "creator": { "@type": "Person", "name": "GB Costa Mesa" },
       "duration": "PT24S"
     }
   ]
@@ -238,7 +236,7 @@ The key to high-percentage finishing from S Mount lies in maintaining continuous
 
 ![](https://www.youtube.com/watch?v=5UtNLw7usQk)
 
-<p class="clip-credit"><strong>Switch-side armbar from S-Mount</strong> — taught by Darrin Lillian · 0:50 · <a href="https://www.youtube.com/watch?v=5UtNLw7usQk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Technique of the week - switch side armbar from S mount</strong> · 0:50 · <a href="https://www.youtube.com/watch?v=5UtNLw7usQk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -246,7 +244,7 @@ The key to high-percentage finishing from S Mount lies in maintaining continuous
 
 ![](https://www.youtube.com/watch?v=nH4ly3vk7WI)
 
-<p class="clip-credit"><strong>S-Mount armbar, kimura &amp; far-side armbar</strong> — taught by GB Costa Mesa · 0:24 · <a href="https://www.youtube.com/watch?v=nH4ly3vk7WI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>S-Mount Armbar, Kimura, + Far side Armbar</strong> · 0:24 · <a href="https://www.youtube.com/watch?v=nH4ly3vk7WI" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

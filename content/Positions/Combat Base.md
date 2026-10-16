@@ -47,23 +47,11 @@ description: "Master Combat Base in BJJ. Essential guard passing platform with 7
       "@type": "VideoObject",
       "position": 1,
       "name": "How to get to combat base",
-      "description": "Combat Base film study: How to get to combat base, taught by Myopinionin5.",
+      "description": "Combat Base film study: How to get to combat base.",
       "thumbnailUrl": "https://i.ytimg.com/vi/vp3roMWi0dc/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/vp3roMWi0dc",
       "url": "https://www.youtube.com/watch?v=vp3roMWi0dc",
-      "creator": { "@type": "Person", "name": "Myopinionin5" },
       "duration": "PT120S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Combat base breakdown",
-      "description": "Combat Base film study: Combat base breakdown, taught by Chosen Few BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/zCL3UKL1vvU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/zCL3UKL1vvU",
-      "url": "https://www.youtube.com/watch?v=zCL3UKL1vvU",
-      "creator": { "@type": "Person", "name": "Chosen Few BJJ" },
-      "duration": "PT78S"
     }
   ]
 }
@@ -118,15 +106,7 @@ Mastering Combat Base from both sides means understanding this central tension: 
 
 ![](https://www.youtube.com/watch?v=vp3roMWi0dc)
 
-<p class="clip-credit"><strong>How to get to combat base</strong> — taught by Myopinionin5 · 2:00 · <a href="https://www.youtube.com/watch?v=vp3roMWi0dc" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=zCL3UKL1vvU)
-
-<p class="clip-credit"><strong>Combat base breakdown</strong> — taught by Chosen Few BJJ · 1:18 · <a href="https://www.youtube.com/watch?v=zCL3UKL1vvU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How to get to combat base</strong> · 2:00 · <a href="https://www.youtube.com/watch?v=vp3roMWi0dc" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

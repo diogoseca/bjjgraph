@@ -163,34 +163,31 @@ description: "Defend against the Americana from S Mount. Recognition cues, escap
       "@type": "VideoObject",
       "position": 1,
       "name": "Simple Americana Armlock Escape",
-      "description": "Americana from S Mount (Defender) film study: Simple Americana Armlock Escape, taught by Eddie Kone.",
+      "description": "Americana from S Mount (Defender) film study: Simple Americana Armlock Escape.",
       "thumbnailUrl": "https://i.ytimg.com/vi/NZjUCo8os8Q/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/NZjUCo8os8Q",
       "url": "https://www.youtube.com/watch?v=NZjUCo8os8Q",
-      "creator": { "@type": "Person", "name": "Eddie Kone" },
       "duration": "PT61S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Mounted Americana Defenses - Early Escapes",
-      "description": "Americana from S Mount (Defender) film study: Mounted Americana Defenses - Early Escapes, taught by For\u00e7a Martial Arts.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Ny_l7GHApo0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Ny_l7GHApo0",
-      "url": "https://www.youtube.com/watch?v=Ny_l7GHApo0",
-      "creator": { "@type": "Person", "name": "For\u00e7a Martial Arts" },
-      "duration": "PT200S"
+      "name": "Americana Defense to Armbar Finish",
+      "description": "Americana from S Mount (Defender) film study: Americana Defense to Armbar Finish.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/x5oNak2YANY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/x5oNak2YANY",
+      "url": "https://www.youtube.com/watch?v=x5oNak2YANY",
+      "duration": "PT177S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "Americana Defense to Armbar Finish",
-      "description": "Americana from S Mount (Defender) film study: Americana Defense to Armbar Finish, taught by JiuJitsu.com.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/x5oNak2YANY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/x5oNak2YANY",
-      "url": "https://www.youtube.com/watch?v=x5oNak2YANY",
-      "creator": { "@type": "Person", "name": "JiuJitsu.com" },
-      "duration": "PT177S"
+      "name": "Mounted Americana Defenses - Technique #1 - Prevention and Early Phase Escapes",
+      "description": "Americana from S Mount (Defender) film study: Mounted Americana Defenses - Technique #1 - Prevention and Early Phase Escapes.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Ny_l7GHApo0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Ny_l7GHApo0",
+      "url": "https://www.youtube.com/watch?v=Ny_l7GHApo0",
+      "duration": "PT199S"
     }
   ]
 }
@@ -221,15 +218,7 @@ Defending the Americana from S Mount demands immediate recognition of the figure
 
 ![](https://www.youtube.com/watch?v=NZjUCo8os8Q)
 
-<p class="clip-credit"><strong>Simple Americana Armlock Escape</strong> — taught by Eddie Kone · 1:01 · <a href="https://www.youtube.com/watch?v=NZjUCo8os8Q" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=Ny_l7GHApo0)
-
-<p class="clip-credit"><strong>Mounted Americana Defenses - Early Escapes</strong> — taught by Força Martial Arts · 3:20 · <a href="https://www.youtube.com/watch?v=Ny_l7GHApo0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Simple Americana Armlock Escape</strong> · 1:01 · <a href="https://www.youtube.com/watch?v=NZjUCo8os8Q" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -237,7 +226,15 @@ Defending the Americana from S Mount demands immediate recognition of the figure
 
 ![](https://www.youtube.com/watch?v=x5oNak2YANY)
 
-<p class="clip-credit"><strong>Americana Defense to Armbar Finish</strong> — taught by JiuJitsu.com · 2:57 · <a href="https://www.youtube.com/watch?v=x5oNak2YANY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Americana Defense to Armbar Finish</strong> · 2:57 · <a href="https://www.youtube.com/watch?v=x5oNak2YANY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Ny_l7GHApo0)
+
+<p class="clip-credit"><strong>Mounted Americana Defenses - Technique #1 - Prevention and Early Phase Escapes</strong> · 3:19 · <a href="https://www.youtube.com/watch?v=Ny_l7GHApo0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

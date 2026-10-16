@@ -446,31 +446,11 @@
     ],
     "clips": [
       {
-        "id": "rjMVCd6n1TA",
-        "title": "Inside Heel Hook",
-        "by": "Craig Jones",
-        "vertical": false,
-        "channel": "Bernardo Faria BJJ Fanatics",
-        "duration": 61,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "6gu-n4P9JXo",
-        "title": "Heel Hook Breaking Mechanics",
-        "by": "Craig Jones",
-        "vertical": false,
-        "channel": "Altay Pirge",
-        "duration": 77,
-        "verified": "2026-07-14"
-      },
-      {
         "id": "QfNKQzy3V_w",
-        "title": "Arm Saddle to Inside Heel Hook Drill",
-        "by": "Factory Fresh Jiu Jitsu",
-        "vertical": false,
+        "title": "Arm Saddle to Inside Heel Hook | Flow Drill",
         "channel": "Factory Fresh Jiu Jitsu",
         "duration": 21,
-        "verified": "2026-07-14"
+        "vertical": false
       }
     ]
   },
@@ -665,31 +645,12 @@
     ],
     "clips": [
       {
-        "id": "AsGMkATAqqw",
-        "title": "Heel Hook Defense When Ambushed",
-        "by": "John Danaher",
-        "vertical": false,
-        "channel": "Dohn Janaher ",
-        "duration": 53,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "v3w0qXLKxug",
-        "title": "Defending Heel Hooks",
-        "by": "Lachlan Giles",
-        "vertical": false,
-        "channel": "Absolute MMA St Kilda - Melbourne",
-        "duration": 92,
-        "verified": "2026-07-14"
-      },
-      {
         "id": "5jD4ByQUrDA",
-        "title": "Inside/Inverted Heel Hook Escape",
-        "by": "Scott Ryan Chiriboga",
-        "vertical": false,
+        "title": "Basic Inside/Inverted Heel Hook Escape",
         "channel": "Scott Ryan Chiriboga",
         "duration": 108,
-        "verified": "2026-07-14"
+        "vertical": false,
+        "front": true
       }
     ]
   }

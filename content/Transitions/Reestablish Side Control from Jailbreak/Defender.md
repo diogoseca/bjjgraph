@@ -152,35 +152,12 @@ description: "Defend against Side Control reestablishment from Jailbreak. Comple
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Prison guard breakdown",
-      "description": "Reestablish Side Control from Jailbreak (Defender) film study: Prison guard breakdown, taught by Eddie Bravo.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/gFYyMkaMz34/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/gFYyMkaMz34",
-      "url": "https://www.youtube.com/watch?v=gFYyMkaMz34",
-      "creator": { "@type": "Person", "name": "Eddie Bravo" },
-      "duration": "PT59S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Jailbreak escape from bottom side control",
-      "description": "Reestablish Side Control from Jailbreak (Defender) film study: Jailbreak escape from bottom side control, taught by Two Minute Technique.",
+      "name": "Jailbreak From Bottom Side Control",
+      "description": "Reestablish Side Control from Jailbreak (Defender) film study: Jailbreak From Bottom Side Control.",
       "thumbnailUrl": "https://i.ytimg.com/vi/EV_xmwb3l-8/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/EV_xmwb3l-8",
       "url": "https://www.youtube.com/watch?v=EV_xmwb3l-8",
-      "creator": { "@type": "Person", "name": "Two Minute Technique" },
       "duration": "PT191S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Jail break side control escape",
-      "description": "Reestablish Side Control from Jailbreak (Defender) film study: Jail break side control escape, taught by Chosen Few BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/6spcIWJsYYY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/6spcIWJsYYY",
-      "url": "https://www.youtube.com/watch?v=6spcIWJsYYY",
-      "creator": { "@type": "Person", "name": "Chosen Few BJJ" },
-      "duration": "PT189S"
     }
   ]
 }
@@ -208,25 +185,9 @@ As the bottom player attempting the jailbreak escape, your opponent's attempt to
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=gFYyMkaMz34)
-
-<p class="clip-credit"><strong>Prison guard breakdown</strong> — taught by Eddie Bravo · 0:59 · <a href="https://www.youtube.com/watch?v=gFYyMkaMz34" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=EV_xmwb3l-8)
 
-<p class="clip-credit"><strong>Jailbreak escape from bottom side control</strong> — taught by Two Minute Technique · 3:11 · <a href="https://www.youtube.com/watch?v=EV_xmwb3l-8" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=6spcIWJsYYY)
-
-<p class="clip-credit"><strong>Jail break side control escape</strong> — taught by Chosen Few BJJ · 3:09 · <a href="https://www.youtube.com/watch?v=6spcIWJsYYY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Jailbreak From Bottom Side Control</strong> · 3:11 · <a href="https://www.youtube.com/watch?v=EV_xmwb3l-8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

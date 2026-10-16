@@ -46,24 +46,12 @@ description: "Master the transition from Kesa Gatame to Ushiro Kesa Gatame. Comp
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Ushiro kesa gatame (reverse scarf hold)",
-      "description": "Kesa Gatame to Ushiro Kesa Gatame film study: Ushiro kesa gatame (reverse scarf hold), taught by Kodokan instructor.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/SBapox2M2dE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/SBapox2M2dE",
-      "url": "https://www.youtube.com/watch?v=SBapox2M2dE",
-      "creator": { "@type": "Person", "name": "Kodokan instructor" },
-      "duration": "PT54S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "12 attacks from kesa gatame",
-      "description": "Kesa Gatame to Ushiro Kesa Gatame film study: 12 attacks from kesa gatame, taught by Johnny Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/fB7gGDIm1i8/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/fB7gGDIm1i8",
-      "url": "https://www.youtube.com/watch?v=fB7gGDIm1i8",
-      "creator": { "@type": "Person", "name": "Johnny Jitsu" },
-      "duration": "PT88S"
+      "name": "Positional Escapes - Reverse Kesa Gatame Side Control Escape",
+      "description": "Kesa Gatame to Ushiro Kesa Gatame film study: Positional Escapes - Reverse Kesa Gatame Side Control Escape.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/QzegNgUUfZs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/QzegNgUUfZs",
+      "url": "https://www.youtube.com/watch?v=QzegNgUUfZs",
+      "duration": "PT80S"
     }
   ]
 }
@@ -117,17 +105,9 @@ The timing of this transition is critical. The optimal window opens when the bot
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=SBapox2M2dE)
+![](https://www.youtube.com/watch?v=QzegNgUUfZs)
 
-<p class="clip-credit"><strong>Ushiro kesa gatame (reverse scarf hold)</strong> — taught by Kodokan instructor · 0:54 · <a href="https://www.youtube.com/watch?v=SBapox2M2dE" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=fB7gGDIm1i8)
-
-<p class="clip-credit"><strong>12 attacks from kesa gatame</strong> — taught by Johnny Jitsu · 1:28 · <a href="https://www.youtube.com/watch?v=fB7gGDIm1i8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Positional Escapes - Reverse Kesa Gatame Side Control Escape</strong> · 1:20 · <a href="https://www.youtube.com/watch?v=QzegNgUUfZs" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

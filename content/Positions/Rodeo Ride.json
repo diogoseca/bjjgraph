@@ -1038,35 +1038,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "_sBB-O8fqP4",
-        "title": "Standing-up escape from turtle",
-        "by": "Priit Mihkelson",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 114,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "bDZntPrcLpg",
-        "title": "Turtle back-control escape",
-        "by": "BJJ101",
-        "vertical": false,
-        "channel": "BJJ101",
-        "duration": 37,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "495HaYBg-mY",
-        "title": "Single-leg reversal from turtle",
-        "by": "Pathfinder Jiu-Jitsu",
-        "vertical": false,
-        "channel": "Pathfinder Jiu-Jitsu Team",
-        "duration": 36,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   },
   "flashcards_position": [
     {

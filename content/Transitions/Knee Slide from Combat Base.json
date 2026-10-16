@@ -392,21 +392,11 @@
     "clips": [
       {
         "id": "yPxcNpuyr0w",
-        "title": "Knee slice guard pass from combat base",
-        "by": "5th Element BJJ/MMA coach",
-        "vertical": false,
+        "title": "Knee Slice Guard Pass from Combat Base @5thelementbjjmma503",
         "channel": "5th Element BJJ/MMA",
         "duration": 143,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "zJkr3PfYDMI",
-        "title": "X pass into knee slice finish",
-        "by": "Aidan Sericolo",
         "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 93,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },
@@ -578,31 +568,19 @@
     ],
     "clips": [
       {
-        "id": "yiIHeo7NgsE",
-        "title": "Knee slice pass counter",
-        "by": "Kohbukan Sisu",
-        "vertical": false,
-        "channel": "Kohbukan Sisu",
-        "duration": 58,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "Da5PAZooedU",
-        "title": "Knee slice defense counter",
-        "by": "A DAY IN A LIFE",
-        "vertical": false,
-        "channel": "A DAY IN A LIFE",
-        "duration": 86,
-        "verified": "2026-07-15"
-      },
-      {
         "id": "rP8SOouke1s",
-        "title": "Guard retention: knee cut response",
-        "by": "Cal McDonald",
-        "vertical": false,
+        "title": "101 Retention - Knee Elbow Connection, Facing Your Opponent, Knee Cut Response",
         "channel": "Cal McDonald",
         "duration": 57,
-        "verified": "2026-07-15"
+        "vertical": false,
+        "front": true
+      },
+      {
+        "id": "yiIHeo7NgsE",
+        "title": "Knee Slice Pass Counter",
+        "channel": "Kohbukan Sisu",
+        "duration": 58,
+        "vertical": false
       }
     ]
   }

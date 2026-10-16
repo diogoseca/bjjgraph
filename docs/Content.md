@@ -486,9 +486,17 @@ family pages can carry root clips. Availability in a schema does not mean every 
 automated sourcing slot.
 
 Only `id` and `title` are schema-required. Optional fields are `by`, `start`, `end`, `vertical`,
-`channel`, `duration`, `verified`, and `upload_date`. IDs must match the 11-character YouTube shape;
+`channel`, `duration`, `front`, `verified`, and `upload_date`; position hub clips also allow `half`.
+IDs must match the 11-character YouTube shape;
 that regex does not establish that a video exists. Start/end are seconds. Provenance dates and
 uploader metadata are not practitioner endorsements.
+
+The array order is the curated order. Mark at most one clip per half with `front: true`, and put
+it first. The front must teach the named position or technique (or an authored alias) in that
+half's role, without being a teaser or sales pitch. Leave the front absent when no clip qualifies;
+shorter runtime alone never establishes relevance. Curated clips carry `duration` in seconds.
+On position hub clips, `half: "top"`, `"bottom"`, or `"both"` records the approved role mapping.
+Omit `half` when the role is unknown; do not tag clips already inside a role block.
 
 ```bash
 # AI-assisted planning/curation of real search results, verification, and application
@@ -532,7 +540,8 @@ or official Shorts-tab URLs with portrait thumbnail dimensions. Read-only availa
 preserve all existing metadata and do not probe portrait thumbnails; sourcing still checks format
 when choosing new clips.
 
-`validate:json` rejects inverted loop bounds but only warns about duplicate IDs and end times past
+`validate:json` rejects inverted loop bounds, multiple fronts in an array, a front after the first
+clip, and `half` tags outside position hubs. It only warns about duplicate IDs and end times past
 the recorded duration. Network availability checks belong to `verify_clips.py`; neither tool checks
 whether the clip teaches the right mechanic safely. Watch the selected segment and confirm its
 role, attribution, and safety before relying on it.

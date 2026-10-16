@@ -46,34 +46,21 @@ description: "Master the Hitchhiker Escape from Armbar in BJJ. Learn the rotatio
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Hitchhiker armbar escape into a guard pass",
-      "description": "Hitchhiker Escape from Armbar film study: Hitchhiker armbar escape into a guard pass, taught by Peter Mettler.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/w6M0NpTMkeU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/w6M0NpTMkeU",
-      "url": "https://www.youtube.com/watch?v=w6M0NpTMkeU",
-      "creator": { "@type": "Person", "name": "Peter Mettler" },
-      "duration": "PT55S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Hitchhiker armbar escape, step by step",
-      "description": "Hitchhiker Escape from Armbar film study: Hitchhiker armbar escape, step by step, taught by Absolute MMA.",
+      "name": "Kids BJJ Orange / Black Belt - Hitch Hiker Armbar Escape",
+      "description": "Hitchhiker Escape from Armbar film study: Kids BJJ Orange / Black Belt - Hitch Hiker Armbar Escape.",
       "thumbnailUrl": "https://i.ytimg.com/vi/3EG4Gfs30V8/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/3EG4Gfs30V8",
       "url": "https://www.youtube.com/watch?v=3EG4Gfs30V8",
-      "creator": { "@type": "Person", "name": "Absolute MMA" },
       "duration": "PT57S"
     },
     {
       "@type": "VideoObject",
-      "position": 3,
-      "name": "Armbar escapes: hitchhiker and leg trap",
-      "description": "Hitchhiker Escape from Armbar film study: Armbar escapes: hitchhiker and leg trap, taught by Trifecta BJJ.",
+      "position": 2,
+      "name": "Armbar Escapes - Hitchhiker \u0026 Leg Trap",
+      "description": "Hitchhiker Escape from Armbar film study: Armbar Escapes - Hitchhiker \u0026 Leg Trap.",
       "thumbnailUrl": "https://i.ytimg.com/vi/O9nAcCVqIJU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/O9nAcCVqIJU",
       "url": "https://www.youtube.com/watch?v=O9nAcCVqIJU",
-      "creator": { "@type": "Person", "name": "Trifecta BJJ" },
       "duration": "PT117S"
     }
   ]
@@ -128,17 +115,9 @@ Strategically, the hitchhiker escape integrates into a layered armbar defense sy
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=w6M0NpTMkeU)
-
-<p class="clip-credit"><strong>Hitchhiker armbar escape into a guard pass</strong> — taught by Peter Mettler · 0:55 · <a href="https://www.youtube.com/watch?v=w6M0NpTMkeU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=3EG4Gfs30V8)
 
-<p class="clip-credit"><strong>Hitchhiker armbar escape, step by step</strong> — taught by Absolute MMA · 0:57 · <a href="https://www.youtube.com/watch?v=3EG4Gfs30V8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Kids BJJ Orange / Black Belt - Hitch Hiker Armbar Escape</strong> · 0:57 · <a href="https://www.youtube.com/watch?v=3EG4Gfs30V8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -146,7 +125,7 @@ Strategically, the hitchhiker escape integrates into a layered armbar defense sy
 
 ![](https://www.youtube.com/watch?v=O9nAcCVqIJU)
 
-<p class="clip-credit"><strong>Armbar escapes: hitchhiker and leg trap</strong> — taught by Trifecta BJJ · 1:57 · <a href="https://www.youtube.com/watch?v=O9nAcCVqIJU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Armbar Escapes - Hitchhiker &amp; Leg Trap</strong> · 1:57 · <a href="https://www.youtube.com/watch?v=O9nAcCVqIJU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

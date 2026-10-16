@@ -156,24 +156,12 @@ description: "How to defend against the kneebar from Backside 50-50 in BJJ. Reco
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "How to Defend a Kneebar",
-      "description": "Kneebar from Backside 50-50 (Defender) film study: How to Defend a Kneebar, taught by Revolution BJJ.",
+      "name": "How to Defend a Kneebar (and Prevent a Backstep Pass)",
+      "description": "Kneebar from Backside 50-50 (Defender) film study: How to Defend a Kneebar (and Prevent a Backstep Pass).",
       "thumbnailUrl": "https://i.ytimg.com/vi/wBRG0fY94fs/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/wBRG0fY94fs",
       "url": "https://www.youtube.com/watch?v=wBRG0fY94fs",
-      "creator": { "@type": "Person", "name": "Revolution BJJ" },
       "duration": "PT59S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Backside 50/50 Counter to the Back",
-      "description": "Kneebar from Backside 50-50 (Defender) film study: Backside 50/50 Counter to the Back, taught by Thunderdome BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/4V3sDIXGfJs/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/4V3sDIXGfJs",
-      "url": "https://www.youtube.com/watch?v=4V3sDIXGfJs",
-      "creator": { "@type": "Person", "name": "Thunderdome BJJ" },
-      "duration": "PT24S"
     }
   ]
 }
@@ -208,15 +196,7 @@ Safety awareness is paramount when defending kneebars. The knee joint has minima
 
 ![](https://www.youtube.com/watch?v=wBRG0fY94fs)
 
-<p class="clip-credit"><strong>How to Defend a Kneebar</strong> — taught by Revolution BJJ · 0:59 · <a href="https://www.youtube.com/watch?v=wBRG0fY94fs" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=4V3sDIXGfJs)
-
-<p class="clip-credit"><strong>Backside 50/50 Counter to the Back</strong> — taught by Thunderdome BJJ · 0:24 · <a href="https://www.youtube.com/watch?v=4V3sDIXGfJs" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How to Defend a Kneebar (and Prevent a Backstep Pass)</strong> · 0:59 · <a href="https://www.youtube.com/watch?v=wBRG0fY94fs" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

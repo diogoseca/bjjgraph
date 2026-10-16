@@ -377,31 +377,12 @@
     ],
     "clips": [
       {
-        "id": "-b7Avb1x7g8",
-        "title": "The buggy choke",
-        "by": "ZombieProofBJJ",
+        "id": "mUwBihCvZl8",
+        "title": "BJJ Buggy Choke OVERHAUL - mechanics, troubleshooting, defense, and more",
+        "channel": "Arroyo Grappling Academy",
+        "duration": 140,
         "vertical": false,
-        "channel": "ZombieProofBJJ",
-        "duration": 61,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "0VDUwuyT6N4",
-        "title": "Fix your buggy choke",
-        "by": "Yoga for BJJ",
-        "vertical": false,
-        "channel": "Yoga for BJJ",
-        "duration": 71,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "Rlk8WXQrj4Q",
-        "title": "Buggy choke from north-south",
-        "by": "JaezeeJiujitsu",
-        "vertical": false,
-        "channel": "JaezeeJiujitsu",
-        "duration": 48,
-        "verified": "2026-07-14"
+        "front": true
       }
     ]
   },

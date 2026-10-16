@@ -281,26 +281,7 @@
       }
     ],
     "safety_considerations": "The deep hook used in this entry loads the opponent's hooked leg and exposes it to calf-slicer and twister pressure as you flow toward the truck, so apply rotational and leg-line pressure progressively and never wrench the entangled leg. The seatbelt threatens chokes - control the choking arm deliberately and respect early taps, as a turtled opponent's neck is vulnerable. When drilling, communicate before adding live resistance so your partner can signal if leg pressure or the choke arrives faster than expected, and release immediately on a tap or verbal cue.",
-    "clips": [
-      {
-        "id": "QGWoOMj8ywk",
-        "title": "Saddle entry from turtle",
-        "by": "Mr. Heel Hook",
-        "vertical": false,
-        "channel": "Mr. Heel Hook",
-        "duration": 44,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "o9a6Dmge5Gg",
-        "title": "Russian Cowboy double kneebar entry",
-        "by": "Dan the Wolfman",
-        "vertical": false,
-        "channel": "DanTheWolfman",
-        "duration": 308,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Turtle to Russian Cowboy Defender",
@@ -434,30 +415,11 @@
     "clips": [
       {
         "id": "JgrpnE0HyAY",
-        "title": "Defending the single hook from turtle",
-        "by": "South Boston BJJ",
-        "vertical": false,
+        "title": "Defending a Single Hook from Turtle Position",
         "channel": "South Boston BJJ",
         "duration": 149,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "Ly89G4iCTSQ",
-        "title": "Turtle no-grips escape by rolling to guard",
-        "by": "Lachlan Giles",
         "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 108,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "Ft6OyIZ6vPs",
-        "title": "Turtle escape and back-exposure system",
-        "by": "Jozef Chen",
-        "vertical": false,
-        "channel": "BJJ focus camps",
-        "duration": 149,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },

@@ -403,30 +403,18 @@
     "clips": [
       {
         "id": "_2dhd21ffbc",
-        "title": "Omoplata escape by jumping over the leg",
-        "by": "Ritchie Yip",
-        "vertical": false,
+        "title": "Omoplata escape, jump over",
         "channel": "Ritchie Yip",
-        "duration": 8,
-        "verified": "2026-07-15"
+        "duration": 7,
+        "vertical": false,
+        "front": true
       },
       {
         "id": "i1SFYSZvMJU",
-        "title": "Cartwheel over the head to escape the omoplata",
-        "by": "David Thomas",
-        "vertical": false,
+        "title": "Omo Plata Escape   Cartwheel Over Head",
         "channel": "David Thomas",
-        "duration": 30,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "HszTUEYJ-xE",
-        "title": "Quick omoplata escape",
-        "by": "Adam Bradley",
-        "vertical": false,
-        "channel": "Adam Bradley",
-        "duration": 36,
-        "verified": "2026-07-15"
+        "duration": 29,
+        "vertical": false
       }
     ]
   },
@@ -608,21 +596,11 @@
     "clips": [
       {
         "id": "NZEf9jXzCYA",
-        "title": "Countering the cartwheel escape",
-        "by": "Sam Wilkinson",
-        "vertical": false,
+        "title": "Williams guard part 2: cartwheel escape counter",
         "channel": "Sam Wilkinson MMA",
         "duration": 80,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "AHCYSGbEGHM",
-        "title": "Finishing the omoplata against the common defense",
-        "by": "Jon Thomas",
         "vertical": false,
-        "channel": "JonThomasBJJ",
-        "duration": 425,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   }

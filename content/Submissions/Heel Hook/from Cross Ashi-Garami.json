@@ -458,30 +458,25 @@
     "clips": [
       {
         "id": "h_SRARh0B6U",
-        "title": "Cross ashi belly-down heel hook",
-        "by": "Bowerhouse MMA",
-        "vertical": false,
+        "title": "Cross Ashi belly down heel hook",
         "channel": "BOWERHOUSE MMA",
-        "duration": 68,
-        "verified": "2026-07-14"
+        "duration": 67,
+        "vertical": false,
+        "front": true
       },
       {
         "id": "GqE4UobpkMs",
-        "title": "Reverse X to cross ashi to inside heel hook",
-        "by": "Bowerhouse MMA",
-        "vertical": false,
+        "title": "Butterfly to Reverse X to Cross Ashi to Inside Heel hook",
         "channel": "BOWERHOUSE MMA",
-        "duration": 88,
-        "verified": "2026-07-14"
+        "duration": 87,
+        "vertical": false
       },
       {
         "id": "lr7rlj7WV-E",
-        "title": "X guard to heel hook",
-        "by": "Craig Jones",
-        "vertical": false,
+        "title": "Craig Jones - X Guard to Heel Hook",
         "channel": "The Bear's Den BJJ & MMA  熊派巴西柔術及MMA學院",
         "duration": 94,
-        "verified": "2026-07-14"
+        "vertical": false
       }
     ]
   },
@@ -670,25 +665,6 @@
         "description": "Full positional sparring from Cross Ashi-Garami bottom against partner attacking at 80-90% intensity. Practice combining boot defense, hand fighting, escape recognition, and counter-attacks in real time. Heel hooks applied at controlled training speed only. Focus on making correct decisions under pressure."
       }
     ],
-    "clips": [
-      {
-        "id": "FUjlpGRjU44",
-        "title": "Escaping and countering cross ashi garami",
-        "by": "Lux's Jiu Jitsu",
-        "vertical": false,
-        "channel": "Lux’s jiu jitsu channel",
-        "duration": 45,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "v3w0qXLKxug",
-        "title": "Defending heel hooks",
-        "by": "Absolute MMA St Kilda",
-        "vertical": false,
-        "channel": "Absolute MMA St Kilda - Melbourne",
-        "duration": 92,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   }
 }

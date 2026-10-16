@@ -136,50 +136,6 @@ description: "Learn to prevent and counter the frame escape from Ushiro Kesa Gat
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Frame from Ushiro Kesa Gatame (Defender) \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Holding reverse scarf and attacking the kimura",
-      "description": "Frame from Ushiro Kesa Gatame (Defender) film study: Holding reverse scarf and attacking the kimura, taught by Torres Martial Arts Academy.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/L_u5g2wDpIQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/L_u5g2wDpIQ",
-      "url": "https://www.youtube.com/watch?v=L_u5g2wDpIQ",
-      "creator": { "@type": "Person", "name": "Torres Martial Arts Academy" },
-      "duration": "PT74S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "How to Mount Ushiro Kesa Gatame",
-      "description": "Frame from Ushiro Kesa Gatame (Defender) film study: How to Mount Ushiro Kesa Gatame, taught by David Webster.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Z24JmX5e51A/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Z24JmX5e51A",
-      "url": "https://www.youtube.com/watch?v=Z24JmX5e51A",
-      "creator": { "@type": "Person", "name": "David Webster" },
-      "duration": "PT134S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Kesa Gatame Controls and Submissions Guide",
-      "description": "Frame from Ushiro Kesa Gatame (Defender) film study: Kesa Gatame Controls and Submissions Guide, taught by Knight Jiu-Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/eXRL6EWEiws/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/eXRL6EWEiws",
-      "url": "https://www.youtube.com/watch?v=eXRL6EWEiws",
-      "creator": { "@type": "Person", "name": "Knight Jiu-Jitsu" },
-      "duration": "PT867S"
-    }
-  ]
-}
-</script>
-
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -192,40 +148,6 @@ Defending against the frame escape from Ushiro Kesa Gatame means maintaining you
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Frame from Ushiro Kesa Gatame (Defender) in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=L_u5g2wDpIQ)
-
-<p class="clip-credit"><strong>Holding reverse scarf and attacking the kimura</strong> — taught by Torres Martial Arts Academy · 1:14 · <a href="https://www.youtube.com/watch?v=L_u5g2wDpIQ" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=Z24JmX5e51A)
-
-<p class="clip-credit"><strong>How to Mount Ushiro Kesa Gatame</strong> — taught by David Webster · 2:14 · <a href="https://www.youtube.com/watch?v=Z24JmX5e51A" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=eXRL6EWEiws)
-
-<p class="clip-credit"><strong>Kesa Gatame Controls and Submissions Guide</strong> — taught by Knight Jiu-Jitsu · 14:27 · <a href="https://www.youtube.com/watch?v=eXRL6EWEiws" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="recognition-cues" class="content-section">

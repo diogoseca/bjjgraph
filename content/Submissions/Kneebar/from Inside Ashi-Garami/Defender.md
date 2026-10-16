@@ -148,24 +148,12 @@ description: "Defend and escape the kneebar from inside ashi-garami with early r
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Kneebar Escape",
-      "description": "Kneebar from Inside Ashi-Garami (Defender) film study: Kneebar Escape, taught by Darren Branch.",
+      "name": "Kneebar Escape by Darren Branch | High Rollerz Academy - Jiu Jitsu\u2026",
+      "description": "Kneebar from Inside Ashi-Garami (Defender) film study: Kneebar Escape by Darren Branch | High Rollerz Academy - Jiu Jitsu\u2026.",
       "thumbnailUrl": "https://i.ytimg.com/vi/3zJthP57wXw/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/3zJthP57wXw",
       "url": "https://www.youtube.com/watch?v=3zJthP57wXw",
-      "creator": { "@type": "Person", "name": "Darren Branch" },
-      "duration": "PT74S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "5 Leglock Counters to Ashi Garami",
-      "description": "Kneebar from Inside Ashi-Garami (Defender) film study: 5 Leglock Counters to Ashi Garami, taught by BJJBlackBeltDad.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/QMgsMSTRSBI/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/QMgsMSTRSBI",
-      "url": "https://www.youtube.com/watch?v=QMgsMSTRSBI",
-      "creator": { "@type": "Person", "name": "BJJBlackBeltDad" },
-      "duration": "PT93S"
+      "duration": "PT73S"
     }
   ]
 }
@@ -196,15 +184,7 @@ Defending the kneebar from inside ashi-garami requires early recognition of the 
 
 ![](https://www.youtube.com/watch?v=3zJthP57wXw)
 
-<p class="clip-credit"><strong>Kneebar Escape</strong> — taught by Darren Branch · 1:14 · <a href="https://www.youtube.com/watch?v=3zJthP57wXw" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=QMgsMSTRSBI)
-
-<p class="clip-credit"><strong>5 Leglock Counters to Ashi Garami</strong> — taught by BJJBlackBeltDad · 1:33 · <a href="https://www.youtube.com/watch?v=QMgsMSTRSBI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Kneebar Escape by Darren Branch | High Rollerz Academy - Jiu Jitsu…</strong> · 1:13 · <a href="https://www.youtube.com/watch?v=3zJthP57wXw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -46,35 +46,12 @@ description: "Master the Toreando Pass from Seated Guard in BJJ. Complete guide 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Toreando passing against seated guard",
-      "description": "Toreando Pass from Seated Guard film study: Toreando passing against seated guard, taught by Unknown.",
+      "name": "6 Passing to Leglocks - Toreando passing vs opponent\u0027s seated guard",
+      "description": "Toreando Pass from Seated Guard film study: 6 Passing to Leglocks - Toreando passing vs opponent\u0027s seated guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/mrnOBANY1JE/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/mrnOBANY1JE",
       "url": "https://www.youtube.com/watch?v=mrnOBANY1JE",
-      "creator": { "@type": "Person", "name": "Unknown" },
       "duration": "PT97S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Toreando pass series: hip and knee to back step",
-      "description": "Toreando Pass from Seated Guard film study: Toreando pass series: hip and knee to back step, taught by Kris Kim.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/7bOS9uAFN6Y/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/7bOS9uAFN6Y",
-      "url": "https://www.youtube.com/watch?v=7bOS9uAFN6Y",
-      "creator": { "@type": "Person", "name": "Kris Kim" },
-      "duration": "PT141S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Passing a seated guard with underhooks",
-      "description": "Toreando Pass from Seated Guard film study: Passing a seated guard with underhooks, taught by John Danaher.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/zT3JjOR838w/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/zT3JjOR838w",
-      "url": "https://www.youtube.com/watch?v=zT3JjOR838w",
-      "creator": { "@type": "Person", "name": "John Danaher" },
-      "duration": "PT143S"
     }
   ]
 }
@@ -130,23 +107,7 @@ Strategically, the toreando from seated guard serves as both a primary passing t
 
 ![](https://www.youtube.com/watch?v=mrnOBANY1JE)
 
-<p class="clip-credit"><strong>Toreando passing against seated guard</strong> — taught by Unknown · 1:37 · <a href="https://www.youtube.com/watch?v=mrnOBANY1JE" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=7bOS9uAFN6Y)
-
-<p class="clip-credit"><strong>Toreando pass series: hip and knee to back step</strong> — taught by Kris Kim · 2:21 · <a href="https://www.youtube.com/watch?v=7bOS9uAFN6Y" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=zT3JjOR838w)
-
-<p class="clip-credit"><strong>Passing a seated guard with underhooks</strong> — taught by John Danaher · 2:23 · <a href="https://www.youtube.com/watch?v=zT3JjOR838w" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>6 Passing to Leglocks - Toreando passing vs opponent&#39;s seated guard</strong> · 1:37 · <a href="https://www.youtube.com/watch?v=mrnOBANY1JE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

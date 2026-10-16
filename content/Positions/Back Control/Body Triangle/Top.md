@@ -165,34 +165,11 @@ description: "Master body triangle from bottom perspective. Powerful leg control
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Attack the Back with a Body Triangle",
-      "description": "Body Triangle (Top) film study: Attack the Back with a Body Triangle, taught by Grapple Box.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/3OkCuU0B0UE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/3OkCuU0B0UE",
-      "url": "https://www.youtube.com/watch?v=3OkCuU0B0UE",
-      "creator": { "@type": "Person", "name": "Grapple Box" },
-      "duration": "PT28S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "How to Properly Use a Body Triangle",
-      "description": "Body Triangle (Top) film study: How to Properly Use a Body Triangle, taught by Gordon Ryan.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/8JwxpgWGsFU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/8JwxpgWGsFU",
-      "url": "https://www.youtube.com/watch?v=8JwxpgWGsFU",
-      "creator": { "@type": "Person", "name": "Gordon Ryan" },
-      "duration": "PT294S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Body Triangle Troubleshooting",
-      "description": "Body Triangle (Top) film study: Body Triangle Troubleshooting, taught by Tom Halpin.",
+      "name": "Back Attacks 3.0 - #3: Body Triangle Troubleshooting // Tom Halpin",
+      "description": "Body Triangle (Top) film study: Back Attacks 3.0 - #3: Body Triangle Troubleshooting // Tom Halpin.",
       "thumbnailUrl": "https://i.ytimg.com/vi/TFKAmteeVIA/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/TFKAmteeVIA",
       "url": "https://www.youtube.com/watch?v=TFKAmteeVIA",
-      "creator": { "@type": "Person", "name": "Tom Halpin" },
       "duration": "PT186S"
     }
   ]
@@ -223,25 +200,9 @@ From this top position, you maintain constant chest-to-back pressure while your 
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=3OkCuU0B0UE)
-
-<p class="clip-credit"><strong>Attack the Back with a Body Triangle</strong> — taught by Grapple Box · 0:28 · <a href="https://www.youtube.com/watch?v=3OkCuU0B0UE" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=8JwxpgWGsFU)
-
-<p class="clip-credit"><strong>How to Properly Use a Body Triangle</strong> — taught by Gordon Ryan · 4:54 · <a href="https://www.youtube.com/watch?v=8JwxpgWGsFU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=TFKAmteeVIA)
 
-<p class="clip-credit"><strong>Body Triangle Troubleshooting</strong> — taught by Tom Halpin · 3:06 · <a href="https://www.youtube.com/watch?v=TFKAmteeVIA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Back Attacks 3.0 - #3: Body Triangle Troubleshooting // Tom Halpin</strong> · 3:06 · <a href="https://www.youtube.com/watch?v=TFKAmteeVIA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

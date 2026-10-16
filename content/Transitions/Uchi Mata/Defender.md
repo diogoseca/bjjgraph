@@ -161,24 +161,12 @@ description: "How to defend against Uchi Mata in BJJ. Recognition cues, defensiv
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Over-under counter to uchi mata",
-      "description": "Uchi Mata (Defender) film study: Over-under counter to uchi mata, taught by SBG Australia coach.",
+      "name": "Over under uchi mata counter",
+      "description": "Uchi Mata (Defender) film study: Over under uchi mata counter.",
       "thumbnailUrl": "https://i.ytimg.com/vi/AJZJhBoDOYA/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/AJZJhBoDOYA",
       "url": "https://www.youtube.com/watch?v=AJZJhBoDOYA",
-      "creator": { "@type": "Person", "name": "SBG Australia coach" },
       "duration": "PT12S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "How to avoid uchi mata",
-      "description": "Uchi Mata (Defender) film study: How to avoid uchi mata, taught by Aljaz Sedej.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/aWyVOnZA3PM/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/aWyVOnZA3PM",
-      "url": "https://www.youtube.com/watch?v=aWyVOnZA3PM",
-      "creator": { "@type": "Person", "name": "Aljaz Sedej" },
-      "duration": "PT148S"
     }
   ]
 }
@@ -211,15 +199,7 @@ Defending Uchi Mata requires early recognition and decisive action because once 
 
 ![](https://www.youtube.com/watch?v=AJZJhBoDOYA)
 
-<p class="clip-credit"><strong>Over-under counter to uchi mata</strong> — taught by SBG Australia coach · 0:12 · <a href="https://www.youtube.com/watch?v=AJZJhBoDOYA" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=aWyVOnZA3PM)
-
-<p class="clip-credit"><strong>How to avoid uchi mata</strong> — taught by Aljaz Sedej · 2:28 · <a href="https://www.youtube.com/watch?v=aWyVOnZA3PM" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Over under uchi mata counter</strong> · 0:12 · <a href="https://www.youtube.com/watch?v=AJZJhBoDOYA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

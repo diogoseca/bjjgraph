@@ -357,26 +357,7 @@
       }
     ],
     "safety_considerations": "Guard recovery from spider guard is a low-injury-risk transition, but practitioners should be mindful of finger strain from aggressive sleeve gripping during the transition. If your spider guard grips are failing due to finger fatigue, commit to the recovery rather than fighting to maintain grips that stress your finger joints. During the leg retraction, avoid hyperextending your knees by pulling your feet off the biceps in a controlled arc rather than snapping them back explosively. The guard closure itself places minimal injury risk on both players when performed with controlled technique.",
-    "clips": [
-      {
-        "id": "T_GhZe_MOWI",
-        "title": "Grip chain concept for guard retention and recovery",
-        "by": "Xande Ribeiro",
-        "vertical": false,
-        "channel": "XANDE RIBEIRO",
-        "duration": 174,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "1cKr7xJ-0i8",
-        "title": "Late guard recovery trick when the pass is nearly done",
-        "by": "Keenan Cornelius",
-        "vertical": false,
-        "channel": "Legion AJJ",
-        "duration": 516,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Guard Recovery from Spider Guard Defender",
@@ -546,34 +527,6 @@
         "description": "Start each round in spider guard with you working to break grips and pass while the bottom player works recovery to closed guard. Full resistance with rotating partners. Track how often the bottom player achieves closed guard versus how often you establish combat base or passing position."
       }
     ],
-    "clips": [
-      {
-        "id": "IlYYg75ncqY",
-        "title": "Spider guard to toreando pass",
-        "by": "Gordon Ryan",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 246,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "qVnPgUvfXl0",
-        "title": "Dealing with spider guard: grip breaks and passing",
-        "by": "Henry Akins",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 302,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "cJJLmy4UChI",
-        "title": "Spider guard pass with competition footage",
-        "by": "Jon Thomas",
-        "vertical": false,
-        "channel": "JonThomasBJJ",
-        "duration": 408,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

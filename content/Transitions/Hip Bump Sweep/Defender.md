@@ -153,24 +153,12 @@ description: "How to defend against Hip Bump Sweep in BJJ. Recognition cues, def
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Hip bump sweep defense",
-      "description": "Hip Bump Sweep (Defender) film study: Hip bump sweep defense, taught by James Quan.",
+      "name": "James Quan Bump Sweep Defense",
+      "description": "Hip Bump Sweep (Defender) film study: James Quan Bump Sweep Defense.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Bqy30Ua9dkQ/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Bqy30Ua9dkQ",
       "url": "https://www.youtube.com/watch?v=Bqy30Ua9dkQ",
-      "creator": { "@type": "Person", "name": "James Quan" },
-      "duration": "PT110S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Defending the closed guard hip bump",
-      "description": "Hip Bump Sweep (Defender) film study: Defending the closed guard hip bump, taught by Pure Grappling.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/h1j2Pzl_Do4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/h1j2Pzl_Do4",
-      "url": "https://www.youtube.com/watch?v=h1j2Pzl_Do4",
-      "creator": { "@type": "Person", "name": "Pure Grappling" },
-      "duration": "PT187S"
+      "duration": "PT109S"
     }
   ]
 }
@@ -207,15 +195,7 @@ Advanced defense against the Hip Bump requires understanding the entire attack t
 
 ![](https://www.youtube.com/watch?v=Bqy30Ua9dkQ)
 
-<p class="clip-credit"><strong>Hip bump sweep defense</strong> — taught by James Quan · 1:50 · <a href="https://www.youtube.com/watch?v=Bqy30Ua9dkQ" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=h1j2Pzl_Do4)
-
-<p class="clip-credit"><strong>Defending the closed guard hip bump</strong> — taught by Pure Grappling · 3:07 · <a href="https://www.youtube.com/watch?v=h1j2Pzl_Do4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>James Quan Bump Sweep Defense</strong> · 1:49 · <a href="https://www.youtube.com/watch?v=Bqy30Ua9dkQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

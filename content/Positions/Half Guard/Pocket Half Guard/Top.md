@@ -155,39 +155,6 @@ description: "Master Pocket Half Guard Top in BJJ. Complete guide covering contr
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Pocket Half Guard (Top) \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Passing low half guard to near-side underhook",
-      "description": "Pocket Half Guard (Top) film study: Passing low half guard to near-side underhook, taught by Michael Hoffman.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Xf8_An46qiw/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Xf8_An46qiw",
-      "url": "https://www.youtube.com/watch?v=Xf8_An46qiw",
-      "creator": { "@type": "Person", "name": "Michael Hoffman" },
-      "duration": "PT70S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Monitoring the feet while passing guard",
-      "description": "Pocket Half Guard (Top) film study: Monitoring the feet while passing guard, taught by Gordon Ryan.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/YLPNsyHtREs/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/YLPNsyHtREs",
-      "url": "https://www.youtube.com/watch?v=YLPNsyHtREs",
-      "creator": { "@type": "Person", "name": "Gordon Ryan" },
-      "duration": "PT50S"
-    }
-  ]
-}
-</script>
-
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -200,32 +167,6 @@ From this position, the top player enjoys significant control advantages, includ
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Pocket Half Guard (Top) in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=Xf8_An46qiw)
-
-<p class="clip-credit"><strong>Passing low half guard to near-side underhook</strong> — taught by Michael Hoffman · 1:10 · <a href="https://www.youtube.com/watch?v=Xf8_An46qiw" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=YLPNsyHtREs)
-
-<p class="clip-credit"><strong>Monitoring the feet while passing guard</strong> — taught by Gordon Ryan · 0:50 · <a href="https://www.youtube.com/watch?v=YLPNsyHtREs" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="state-invariants" class="content-section">

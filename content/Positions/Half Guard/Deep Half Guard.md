@@ -46,34 +46,21 @@ description: "Master Deep Half Guard in BJJ. Strategic guide covering sweeps, ba
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Deep Half Guard Low Grip vs High Grip",
-      "description": "Deep Half Guard film study: Deep Half Guard Low Grip vs High Grip, taught by Jeff Glover.",
+      "name": "Jeff Glover explains low grip and high grip for deep half guard",
+      "description": "Deep Half Guard film study: Jeff Glover explains low grip and high grip for deep half guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/_IGB9jEvXfo/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/_IGB9jEvXfo",
       "url": "https://www.youtube.com/watch?v=_IGB9jEvXfo",
-      "creator": { "@type": "Person", "name": "Jeff Glover" },
-      "duration": "PT42S"
+      "duration": "PT41S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Deep Half Guard Sweep",
-      "description": "Deep Half Guard film study: Deep Half Guard Sweep, taught by Kyle Dimmitt.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/ZQzg3TnzMJI/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/ZQzg3TnzMJI",
-      "url": "https://www.youtube.com/watch?v=ZQzg3TnzMJI",
-      "creator": { "@type": "Person", "name": "Kyle Dimmitt" },
-      "duration": "PT42S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Deep Half Guard Basics Summary",
-      "description": "Deep Half Guard film study: Deep Half Guard Basics Summary, taught by Kaizen Academy.",
+      "name": "Deep Half Guard - Basics Summary",
+      "description": "Deep Half Guard film study: Deep Half Guard - Basics Summary.",
       "thumbnailUrl": "https://i.ytimg.com/vi/rYMsh27-f7g/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/rYMsh27-f7g",
       "url": "https://www.youtube.com/watch?v=rYMsh27-f7g",
-      "creator": { "@type": "Person", "name": "Kaizen Academy" },
       "duration": "PT263S"
     }
   ]
@@ -127,15 +114,7 @@ From the top perspective, deep half guard presents a deceptive challenge - while
 
 ![](https://www.youtube.com/watch?v=_IGB9jEvXfo)
 
-<p class="clip-credit"><strong>Deep Half Guard Low Grip vs High Grip</strong> — taught by Jeff Glover · 0:42 · <a href="https://www.youtube.com/watch?v=_IGB9jEvXfo" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=ZQzg3TnzMJI)
-
-<p class="clip-credit"><strong>Deep Half Guard Sweep</strong> — taught by Kyle Dimmitt · 0:42 · <a href="https://www.youtube.com/watch?v=ZQzg3TnzMJI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Jeff Glover explains low grip and high grip for deep half guard</strong> · 0:41 · <a href="https://www.youtube.com/watch?v=_IGB9jEvXfo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -143,7 +122,7 @@ From the top perspective, deep half guard presents a deceptive challenge - while
 
 ![](https://www.youtube.com/watch?v=rYMsh27-f7g)
 
-<p class="clip-credit"><strong>Deep Half Guard Basics Summary</strong> — taught by Kaizen Academy · 4:23 · <a href="https://www.youtube.com/watch?v=rYMsh27-f7g" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Deep Half Guard - Basics Summary</strong> · 4:23 · <a href="https://www.youtube.com/watch?v=rYMsh27-f7g" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

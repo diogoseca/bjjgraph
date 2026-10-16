@@ -387,35 +387,7 @@
       }
     ],
     "safety_considerations": "Lockdown Recovery is generally low-risk when performed correctly, but several safety considerations apply. First, never reach with your near-side arm during the escape attempt - this exposes you to armbar attacks and can result in hyperextension injury if caught. Second, when extending the Lockdown squeeze, be aware that excessive hyperextension of your opponent's knee can cause injury during training - apply controlled pressure sufficient to maintain position without cranking. Third, if your partner taps during Lockdown practice, release immediately as the knee hyperextension can be painful even before injury threshold. Fourth, avoid explosive bridging attempts that could strain your lower back, especially when flat under mount - use technical hip movement instead. Finally, communicate with training partners about intensity levels since the Lockdown position can be uncomfortable even when applied correctly.",
-    "clips": [
-      {
-        "id": "AmOMN0S1v8Q",
-        "title": "Advanced lockdown details and re-entry",
-        "by": "Eddie Bravo",
-        "vertical": false,
-        "channel": "Eddie Bravo",
-        "duration": 61,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "OIr4wDxl-Ys",
-        "title": "Lockdown clinches to lock the legs back up",
-        "by": "Eddie Bravo",
-        "vertical": false,
-        "channel": "Eddie Bravo",
-        "duration": 60,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "6r4DoDXcHcs",
-        "title": "Deep down the lockdown hole",
-        "by": "Eddie Bravo",
-        "vertical": false,
-        "channel": "Eddie Bravo",
-        "duration": 61,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Lockdown Recovery Defender",
@@ -591,26 +563,7 @@
         "description": "Full-resistance positional sparring from Modified Mount. Top player works to maintain position and finish while bottom player uses Lockdown Recovery as part of their escape system. Top player scores for maintaining position, finishing submissions, or advancing to more dominant mount variations. Focus on integrating recognition, defense, and counter-attack into fluid responses."
       }
     ],
-    "clips": [
-      {
-        "id": "rHT8G14Gbb8",
-        "title": "Strategy-based lockdown escape from half guard top",
-        "by": "Jean Jacques Machado",
-        "vertical": false,
-        "channel": "JeanJacquesMachado",
-        "duration": 159,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "Xb4-phb4BhE",
-        "title": "Breaking the lockdown half guard",
-        "by": "Matt Arroyo",
-        "vertical": false,
-        "channel": "Matt Arroyo Jiu Jitsu ",
-        "duration": 251,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "variants_and_adaptations": [
     {

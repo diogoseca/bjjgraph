@@ -152,35 +152,12 @@ description: "How to maintain side control against escape attempts in BJJ. Recog
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Maintaining side control with pressure",
-      "description": "Side Control Escape (Defender) film study: Maintaining side control with pressure, taught by Thunderdome BJJ.",
+      "name": "Maintain Side Control with Pressure",
+      "description": "Side Control Escape (Defender) film study: Maintain Side Control with Pressure.",
       "thumbnailUrl": "https://i.ytimg.com/vi/XaYoAcTeKkk/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/XaYoAcTeKkk",
       "url": "https://www.youtube.com/watch?v=XaYoAcTeKkk",
-      "creator": { "@type": "Person", "name": "Thunderdome BJJ" },
       "duration": "PT32S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Side control escape vs a bigger stronger opponent",
-      "description": "Side Control Escape (Defender) film study: Side control escape vs a bigger stronger opponent, taught by Matt Arroyo.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/_JPZaIcr90c/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/_JPZaIcr90c",
-      "url": "https://www.youtube.com/watch?v=_JPZaIcr90c",
-      "creator": { "@type": "Person", "name": "Matt Arroyo" },
-      "duration": "PT69S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Gordon Ryan pin escape principles reviewed",
-      "description": "Side Control Escape (Defender) film study: Gordon Ryan pin escape principles reviewed, taught by Review Fanatics.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Ia_-udzOJ18/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Ia_-udzOJ18",
-      "url": "https://www.youtube.com/watch?v=Ia_-udzOJ18",
-      "creator": { "@type": "Person", "name": "Review Fanatics" },
-      "duration": "PT124S"
     }
   ]
 }
@@ -210,23 +187,7 @@ The Side Control Escape Defender is the top player working to maintain dominant 
 
 ![](https://www.youtube.com/watch?v=XaYoAcTeKkk)
 
-<p class="clip-credit"><strong>Maintaining side control with pressure</strong> — taught by Thunderdome BJJ · 0:32 · <a href="https://www.youtube.com/watch?v=XaYoAcTeKkk" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=_JPZaIcr90c)
-
-<p class="clip-credit"><strong>Side control escape vs a bigger stronger opponent</strong> — taught by Matt Arroyo · 1:09 · <a href="https://www.youtube.com/watch?v=_JPZaIcr90c" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=Ia_-udzOJ18)
-
-<p class="clip-credit"><strong>Gordon Ryan pin escape principles reviewed</strong> — taught by Review Fanatics · 2:04 · <a href="https://www.youtube.com/watch?v=Ia_-udzOJ18" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Maintain Side Control with Pressure</strong> · 0:32 · <a href="https://www.youtube.com/watch?v=XaYoAcTeKkk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

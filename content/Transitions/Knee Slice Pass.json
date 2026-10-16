@@ -418,30 +418,11 @@
     "clips": [
       {
         "id": "yj_6xcl2emA",
-        "title": "Inside knee cut pass through the knee shield",
-        "by": "War Room Jiu Jitsu",
-        "vertical": false,
+        "title": "How to pass Half Guard Knee Shield with an inside Knee Cut - JiuJitsu Class…",
         "channel": "War Room Jiu Jitsu",
         "duration": 70,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "TIsH40L5AVQ",
-        "title": "Double collar grip to knee slice pass",
-        "by": "Clube De Lutas Australia",
         "vertical": false,
-        "channel": "Clube De Lutas Australia",
-        "duration": 47,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "p40WssWwJoY",
-        "title": "Knee cut pass into saddle entry",
-        "by": "thejiujitsupedia",
-        "vertical": false,
-        "channel": "thejiujitsupedia",
-        "duration": 48,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },
@@ -678,21 +659,11 @@
     "clips": [
       {
         "id": "RvIIpXaPyJM",
-        "title": "Basic knee slide pass recovery",
-        "by": "Vision Brazilian Jiu Jitsu",
-        "vertical": false,
+        "title": "Basic Knee Slide Recovery",
         "channel": "Vision Brazilian Jiu Jitsu",
         "duration": 96,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "lVLAROiSjNU",
-        "title": "Guard retention: when to sit up escape",
-        "by": "Lachlan Giles",
         "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 136,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },

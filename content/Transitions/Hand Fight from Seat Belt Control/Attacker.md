@@ -182,28 +182,6 @@ description: "Master the hand fight from seat belt back control bottom position.
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Hand Fight from Seat Belt Control (Attacker) \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "\"Home Alone\" back escape off the seat belt",
-      "description": "Hand Fight from Seat Belt Control (Attacker) film study: \"Home Alone\" back escape off the seat belt, taught by Procel BJJ coach.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/cWrV0wc6jyQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/cWrV0wc6jyQ",
-      "url": "https://www.youtube.com/watch?v=cWrV0wc6jyQ",
-      "creator": { "@type": "Person", "name": "Procel BJJ coach" },
-      "duration": "PT84S"
-    }
-  ]
-}
-</script>
-
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -216,24 +194,6 @@ The hand fight from seat belt back control is the bottom player's most essential
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Hand Fight from Seat Belt Control (Attacker) in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=cWrV0wc6jyQ)
-
-<p class="clip-credit"><strong>&#34;Home Alone&#34; back escape off the seat belt</strong> — taught by Procel BJJ coach · 1:24 · <a href="https://www.youtube.com/watch?v=cWrV0wc6jyQ" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="key-principles" class="content-section">

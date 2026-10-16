@@ -160,35 +160,12 @@ description: "How to defend against Single Leg Takedown in BJJ. Recognition cues
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "No-gi single leg defense technique",
-      "description": "Single Leg Takedown (Defender) film study: No-gi single leg defense technique, taught by Ronin Training Center.",
+      "name": "RTC NoGi BJJ | Single Leg Defense Technique",
+      "description": "Single Leg Takedown (Defender) film study: RTC NoGi BJJ | Single Leg Defense Technique.",
       "thumbnailUrl": "https://i.ytimg.com/vi/KT91bdZtBU4/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/KT91bdZtBU4",
       "url": "https://www.youtube.com/watch?v=KT91bdZtBU4",
-      "creator": { "@type": "Person", "name": "Ronin Training Center" },
       "duration": "PT73S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Bo Nickal counter attack breakdown",
-      "description": "Single Leg Takedown (Defender) film study: Bo Nickal counter attack breakdown, taught by Josh Dziewa.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/x7NgC69PV9I/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/x7NgC69PV9I",
-      "url": "https://www.youtube.com/watch?v=x7NgC69PV9I",
-      "creator": { "@type": "Person", "name": "Josh Dziewa" },
-      "duration": "PT47S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Sprawl to throw-by against the leg attack",
-      "description": "Single Leg Takedown (Defender) film study: Sprawl to throw-by against the leg attack, taught by John Beresford.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/_GTtWGe49ho/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/_GTtWGe49ho",
-      "url": "https://www.youtube.com/watch?v=_GTtWGe49ho",
-      "creator": { "@type": "Person", "name": "John Beresford" },
-      "duration": "PT101S"
     }
   ]
 }
@@ -218,23 +195,7 @@ Defending the Single Leg Takedown requires a layered defensive framework that be
 
 ![](https://www.youtube.com/watch?v=KT91bdZtBU4)
 
-<p class="clip-credit"><strong>No-gi single leg defense technique</strong> — taught by Ronin Training Center · 1:13 · <a href="https://www.youtube.com/watch?v=KT91bdZtBU4" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=x7NgC69PV9I)
-
-<p class="clip-credit"><strong>Bo Nickal counter attack breakdown</strong> — taught by Josh Dziewa · 0:47 · <a href="https://www.youtube.com/watch?v=x7NgC69PV9I" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=_GTtWGe49ho)
-
-<p class="clip-credit"><strong>Sprawl to throw-by against the leg attack</strong> — taught by John Beresford · 1:41 · <a href="https://www.youtube.com/watch?v=_GTtWGe49ho" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>RTC NoGi BJJ | Single Leg Defense Technique</strong> · 1:13 · <a href="https://www.youtube.com/watch?v=KT91bdZtBU4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

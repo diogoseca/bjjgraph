@@ -42,7 +42,8 @@ import { legacyDefenseRenderer } from '../fixtures/legacy-defense-renderer'
 // Playback on YouTube is outside this contract; mounted reel identity is in it.
 const LOOP = '/Submissions/Loop-Choke/from-Half-Guard'
 const KEY = 'Loop Choke from Half Guard|Defender'
-const CLIPS = ['pZmJpXSwRTk', 'iv2YYbzYl-s']
+// D-307: one exact escape; the Whittier course/coupon promotion remains withheld.
+const CLIPS = ['pZmJpXSwRTk']
 const READY = '[data-reader-ready="true"]'
 const realContent = async (page: Page) => {
   await page.route('**/static/neural/content/*.json', route => route.continue())
@@ -120,6 +121,8 @@ async function catchLoop(page: Page, legacy = false, cold = false) {
   return j
 }
 
+// STALE SPEC (PR 305, owner D-307): link, reload and dormant answer keep the generic five-card defender landing calm.
+// Curated IDs/counts are fixed below; the Knee Slice pair remains a nonempty wrong-role control.
 test('@curated link, reload and dormant answer keep the generic five-card defender landing calm', async ({ page }) => {
   const j = journey(page)
   await j.boot(LOOP + '/Defender', { beforeNavigate: realContent })
@@ -136,6 +139,8 @@ test('@curated link, reload and dormant answer keep the generic five-card defend
   expect(await state(page)).toMatchObject({ caught: 0, remaining: null })
 })
 
+// STALE SPEC (PR 305, owner D-307): an orb arrival never retains the warm attacker deck.
+// Curated IDs/counts are fixed below; the Knee Slice pair remains a nonempty wrong-role control.
 test('@curated an orb arrival never retains the warm attacker deck', async ({ page }) => {
   const j = journey(page)
   await j.boot(LOOP + '/Attacker', { beforeNavigate: realContent })
@@ -156,23 +161,64 @@ test('@curated an orb arrival never retains the warm attacker deck', async ({ pa
   expect((await state(page)).caught).toBe(0)
 })
 
-test('@curated the transition defender renders its three authored clips on the first render', async ({ page }) => {
+// STALE SPEC (PR 305, owner D-307): the curated empty transition defender mounts no reel on the first render.
+// Curated IDs/counts are fixed below; the Knee Slice pair remains a nonempty wrong-role control.
+// D-313 / B4: article readiness precedes dossier publication. Hold the specific real
+// request, then observe publication AND the real content refresh returning before
+// checking absence. Fixed: 10/10; a delayed one-clip response fails the exact IDs
+// assertion after this barrier. An empty DOM before the response is not the oracle.
+test('@curated the curated empty transition defender mounts no reel on the first render', async ({ page }) => {
   const j = journey(page)
-  await j.boot('/Transitions/Kuzure-Kesa-Gatame-to-Kesa-Gatame/Defender', { beforeNavigate: realContent })
-  await expect(page.locator(READY)).toBeVisible()
-  await expect.poll(async () => (await state(page)).clips).toEqual(['2M_6VytUaus', '-zFQ6h4yKT4', 'C98ztdlur4E'])
-  expect(await state(page)).toMatchObject({ pressure: false, vignette: false, cards: 4, key: 'Kuzure Kesa Gatame to Kesa Gatame|Defender' })
+  const dossierKey = 'Kuzure Kesa Gatame to Kesa Gatame'
+  let release!: () => void
+  const gate = new Promise<void>(resolve => { release = resolve })
+  let held = 0
+  try {
+    await j.boot('/Transitions/Kuzure-Kesa-Gatame-to-Kesa-Gatame/Defender', { beforeNavigate: async page => {
+      await realContent(page)
+      await page.route('**/static/neural/content/92e63be8.json', async route => {
+        held++
+        await gate
+        await route.continue()
+      })
+    } })
+    await expect(page.locator(READY)).toBeVisible()
+    await expect.poll(() => held, 'the specific real dossier request is held').toBe(1)
+    // Article readiness and an empty DOM do not mean the film payload has arrived.
+    // Observe the REAL refresh returning after publication; do not call it from the test.
+    await page.evaluate(key => {
+      const a = (window as any).__neural
+      const refresh = a._refreshReadingContent
+      a.__emptyHalfRefreshes = 0
+      a._refreshReadingContent = function (keys: string[] | null) {
+        const result = refresh.call(this, keys)
+        if (keys?.includes(key) && (window as any).NG_CONTENT?.decks?.[key]) this.__emptyHalfRefreshes++
+        return result
+      }
+    }, dossierKey)
+    release()
+    await expect.poll(() => page.evaluate(key => ({
+      published: !!(window as any).NG_CONTENT?.decks?.[key],
+      completedRefreshes: (window as any).__neural.__emptyHalfRefreshes,
+    }), dossierKey), 'the authored dossier is published and its film refresh completed').toEqual({ published: true, completedRefreshes: 1 })
+    await expect.poll(async () => (await state(page)).clips).toEqual([])
+    await expect(page.locator('.ng-landfilm')).toHaveCount(0)
+    await expect(page.locator('.ng-landfilm .ng-clip')).toHaveCount(0)
+    expect(await state(page)).toMatchObject({ pressure: false, vignette: false, cards: 4, key: 'Kuzure Kesa Gatame to Kesa Gatame|Defender' })
+  } finally { release() }
 })
 
+// STALE SPEC (PR 305, owner D-307): each Knee Slice Pass half mounts its own clips, including the reader perspective link.
+// Curated IDs/counts are fixed below; the Knee Slice pair remains a nonempty wrong-role control.
 test('@curated each Knee Slice Pass half mounts its own clips, including the reader perspective link', async ({ page }) => {
   const j = journey(page)
   await j.boot('/Transitions/Knee-Slice-Pass/Attacker', { beforeNavigate: realContent })
   await expect(page.locator(READY)).toBeVisible()
-  await expect.poll(async () => (await state(page)).clips).toEqual(['yj_6xcl2emA', 'TIsH40L5AVQ', 'p40WssWwJoY'])
+  await expect.poll(async () => (await state(page)).clips).toEqual(['yj_6xcl2emA'])
   await j.clickByMouse('[data-reader]', 'expand the article to reach its perspective links')
   await j.clickByMouse('[aria-label="Reading perspectives"] a[href$="/Defender"]', 'open the defending article perspective')
   await expect(page.locator(READY)).toHaveAttribute('data-reader-path', '/Transitions/Knee-Slice-Pass/Defender')
-  await expect.poll(async () => (await state(page)).clips).toEqual(['RvIIpXaPyJM', 'lVLAROiSjNU'])
+  await expect.poll(async () => (await state(page)).clips).toEqual(['RvIIpXaPyJM'])
   expect((await state(page)).key).toBe('Knee Slice Pass|Defender')
   expect((await state(page)).pressure).toBe(false)
 })
@@ -305,6 +351,8 @@ for (const paged of [false, true]) {
   })
 }
 
+// STALE SPEC (PR 305, owner D-307): a real catch keeps its generic stack and own films while danger is active.
+// Curated IDs/counts are fixed below; the Knee Slice pair remains a nonempty wrong-role control.
 test('@curated a real catch keeps its generic stack and own films while danger is active', async ({ page }) => {
   const j = await catchLoop(page)
   await settled(page)
@@ -337,6 +385,8 @@ async function dangerSettings(page: Page) {
   }
 }
 
+// STALE SPEC (PR 305, owner D-307): Danger animation toggles live visuals only and survives a reload.
+// Curated IDs/counts are fixed below; the Knee Slice pair remains a nonempty wrong-role control.
 test('@curated Danger animation toggles live visuals only and survives a reload', async ({ page }) => {
   const j = await catchLoop(page)
   await page.emulateMedia({ reducedMotion: 'no-preference' })
@@ -372,10 +422,15 @@ test('@curated Danger animation toggles live visuals only and survives a reload'
   expect((await state(page)).vignette, 'a setting cannot turn navigation into a catch').toBe(false)
 })
 
+// The browser delivers media-query changes outside the manual simulation clock.
+// advance(20) cannot establish that the real change handler has run. Delayed native
+// delivery reproduces the immediate-assert race on base and head; waiting for the
+// visible outcome passes while removing the real listener must still fail.
 test('@curated reduced motion suppresses CSS and frame-driven danger without changing the saved setting', async ({ page }) => {
   const j = await catchLoop(page)
   expect((await state(page)).vignette).toBe(true)
   await page.emulateMedia({ reducedMotion: 'reduce' })
+  await expect.poll(async () => (await state(page)).vignette, 'the real media-change handler suppresses danger').toBe(false)
   await j.advance(11000)
   const before = await mechanics(page)
   expect(before.remaining).toBeGreaterThan(0)
@@ -389,5 +444,5 @@ test('@curated reduced motion suppresses CSS and frame-driven danger without cha
   expect((await mechanics(page)).remaining).toBeCloseTo(before.remaining! - 500, 4)
   await page.emulateMedia({ reducedMotion: 'no-preference' })
   await j.advance(20)
-  expect((await state(page)).vignette).toBe(true)
+  await expect.poll(async () => (await state(page)).vignette, 'the real media-change handler restores danger').toBe(true)
 })

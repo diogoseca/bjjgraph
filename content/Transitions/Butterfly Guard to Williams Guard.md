@@ -47,35 +47,12 @@ description: "Enter Williams Guard from Butterfly Guard in no-gi BJJ. Trap the o
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Williams guard Neil knot finish",
-      "description": "Butterfly Guard to Williams Guard film study: Williams guard Neil knot finish, taught by Ralph Gracie BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Hob0ebzBwjc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Hob0ebzBwjc",
-      "url": "https://www.youtube.com/watch?v=Hob0ebzBwjc",
-      "creator": { "@type": "Person", "name": "Ralph Gracie BJJ" },
-      "duration": "PT98S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Butterfly guard into Williams guard with choke option",
-      "description": "Butterfly Guard to Williams Guard film study: Butterfly guard into Williams guard with choke option, taught by 1066 Grappling Guild.",
+      "name": "BJJ butterfly guard in to Williams guard with choke option",
+      "description": "Butterfly Guard to Williams Guard film study: BJJ butterfly guard in to Williams guard with choke option.",
       "thumbnailUrl": "https://i.ytimg.com/vi/1XwXQYzWpcw/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/1XwXQYzWpcw",
       "url": "https://www.youtube.com/watch?v=1XwXQYzWpcw",
-      "creator": { "@type": "Person", "name": "1066 Grappling Guild" },
-      "duration": "PT176S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Z guard to Williams guard to triangle sequence",
-      "description": "Butterfly Guard to Williams Guard film study: Z guard to Williams guard to triangle sequence, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/fajU7LdM1V4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/fajU7LdM1V4",
-      "url": "https://www.youtube.com/watch?v=fajU7LdM1V4",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT749S"
+      "duration": "PT175S"
     }
   ]
 }
@@ -132,25 +109,9 @@ Because Williams Guard relies on a shoulder lock rather than collar-and-sleeve g
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=Hob0ebzBwjc)
-
-<p class="clip-credit"><strong>Williams guard Neil knot finish</strong> — taught by Ralph Gracie BJJ · 1:38 · <a href="https://www.youtube.com/watch?v=Hob0ebzBwjc" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=1XwXQYzWpcw)
 
-<p class="clip-credit"><strong>Butterfly guard into Williams guard with choke option</strong> — taught by 1066 Grappling Guild · 2:56 · <a href="https://www.youtube.com/watch?v=1XwXQYzWpcw" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=fajU7LdM1V4)
-
-<p class="clip-credit"><strong>Z guard to Williams guard to triangle sequence</strong> — taught by Lachlan Giles · 12:29 · <a href="https://www.youtube.com/watch?v=fajU7LdM1V4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>BJJ butterfly guard in to Williams guard with choke option</strong> · 2:55 · <a href="https://www.youtube.com/watch?v=1XwXQYzWpcw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

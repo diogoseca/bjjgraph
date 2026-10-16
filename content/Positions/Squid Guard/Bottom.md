@@ -165,35 +165,12 @@ description: "Master Squid Guard Bottom in BJJ. Advanced asymmetrical guard with
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Worm \u0026 squid guard vs black belt champ",
-      "description": "Squid Guard (Bottom) film study: Worm \u0026 squid guard vs black belt champ, taught by BJJ Hacks.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/QW8av8U2h-k/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/QW8av8U2h-k",
-      "url": "https://www.youtube.com/watch?v=QW8av8U2h-k",
-      "creator": { "@type": "Person", "name": "BJJ Hacks" },
-      "duration": "PT84S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Keenan\u0027s new lapel guard",
-      "description": "Squid Guard (Bottom) film study: Keenan\u0027s new lapel guard, taught by Keenan Cornelius.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Z14Nz40c52s/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Z14Nz40c52s",
-      "url": "https://www.youtube.com/watch?v=Z14Nz40c52s",
-      "creator": { "@type": "Person", "name": "Keenan Cornelius" },
-      "duration": "PT191S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Secure the proto-guard grips",
-      "description": "Squid Guard (Bottom) film study: Secure the proto-guard grips, taught by Keenan Cornelius.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/ba5KOGBUpNo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/ba5KOGBUpNo",
-      "url": "https://www.youtube.com/watch?v=ba5KOGBUpNo",
-      "creator": { "@type": "Person", "name": "Keenan Cornelius" },
-      "duration": "PT230S"
+      "name": "WORM GUARD AND SQUID GUARD basics of entering and implementing in competitive\u2026",
+      "description": "Squid Guard (Bottom) film study: WORM GUARD AND SQUID GUARD basics of entering and implementing in competitive\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/SfKuOL34AFg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/SfKuOL34AFg",
+      "url": "https://www.youtube.com/watch?v=SfKuOL34AFg",
+      "duration": "PT302S"
     }
   ]
 }
@@ -223,25 +200,9 @@ While technically demanding and requiring significant flexibility, coordination,
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=QW8av8U2h-k)
+![](https://www.youtube.com/watch?v=SfKuOL34AFg)
 
-<p class="clip-credit"><strong>Worm &amp; squid guard vs black belt champ</strong> — taught by BJJ Hacks · 1:24 · <a href="https://www.youtube.com/watch?v=QW8av8U2h-k" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=Z14Nz40c52s)
-
-<p class="clip-credit"><strong>Keenan&#39;s new lapel guard</strong> — taught by Keenan Cornelius · 3:11 · <a href="https://www.youtube.com/watch?v=Z14Nz40c52s" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=ba5KOGBUpNo)
-
-<p class="clip-credit"><strong>Secure the proto-guard grips</strong> — taught by Keenan Cornelius · 3:50 · <a href="https://www.youtube.com/watch?v=ba5KOGBUpNo" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>WORM GUARD AND SQUID GUARD basics of entering and implementing in competitive…</strong> · 5:02 · <a href="https://www.youtube.com/watch?v=SfKuOL34AFg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -162,23 +162,21 @@ description: "Learn to defend the kneebar from toe hold control. Recognition cue
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "How to Defend a Kneebar",
-      "description": "Kneebar from Toe Hold Control (Defender) film study: How to Defend a Kneebar, taught by Revolution BJJ.",
+      "name": "How to Defend a Kneebar (and Prevent a Backstep Pass)",
+      "description": "Kneebar from Toe Hold Control (Defender) film study: How to Defend a Kneebar (and Prevent a Backstep Pass).",
       "thumbnailUrl": "https://i.ytimg.com/vi/wBRG0fY94fs/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/wBRG0fY94fs",
       "url": "https://www.youtube.com/watch?v=wBRG0fY94fs",
-      "creator": { "@type": "Person", "name": "Revolution BJJ" },
       "duration": "PT59S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Defending Kneebar to Toe Hold",
-      "description": "Kneebar from Toe Hold Control (Defender) film study: Defending Kneebar to Toe Hold, taught by Garden State BJJ.",
+      "name": "Defending Kneebar To Toe Hold",
+      "description": "Kneebar from Toe Hold Control (Defender) film study: Defending Kneebar To Toe Hold.",
       "thumbnailUrl": "https://i.ytimg.com/vi/hze1WyTvkzA/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/hze1WyTvkzA",
       "url": "https://www.youtube.com/watch?v=hze1WyTvkzA",
-      "creator": { "@type": "Person", "name": "Garden State BJJ" },
       "duration": "PT24S"
     }
   ]
@@ -210,7 +208,7 @@ Defending the kneebar from toe hold control demands recognition of the transitio
 
 ![](https://www.youtube.com/watch?v=wBRG0fY94fs)
 
-<p class="clip-credit"><strong>How to Defend a Kneebar</strong> — taught by Revolution BJJ · 0:59 · <a href="https://www.youtube.com/watch?v=wBRG0fY94fs" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How to Defend a Kneebar (and Prevent a Backstep Pass)</strong> · 0:59 · <a href="https://www.youtube.com/watch?v=wBRG0fY94fs" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -218,7 +216,7 @@ Defending the kneebar from toe hold control demands recognition of the transitio
 
 ![](https://www.youtube.com/watch?v=hze1WyTvkzA)
 
-<p class="clip-credit"><strong>Defending Kneebar to Toe Hold</strong> — taught by Garden State BJJ · 0:24 · <a href="https://www.youtube.com/watch?v=hze1WyTvkzA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Defending Kneebar To Toe Hold</strong> · 0:24 · <a href="https://www.youtube.com/watch?v=hze1WyTvkzA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

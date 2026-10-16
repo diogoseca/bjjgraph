@@ -473,31 +473,12 @@
     ],
     "clips": [
       {
-        "id": "tO5rPtjfsGE",
-        "title": "Preventing the leg weave with the lasso",
-        "by": "Grand Union coach",
-        "vertical": false,
-        "channel": "Grand Union Jiu Jitsu",
-        "duration": 54,
-        "verified": "2026-07-15"
-      },
-      {
         "id": "7gcVk4flYHo",
-        "title": "Countering the leg weave pass",
-        "by": "Stephan Kesting",
-        "vertical": false,
+        "title": "Leg Weave Guard Pass Counter",
         "channel": "Stephan Kesting",
-        "duration": 182,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "ZXt2yzy0BL0",
-        "title": "Defeating the weave pass with the underhook",
-        "by": "Lachlan Giles",
+        "duration": 181,
         "vertical": false,
-        "channel": "Absolute MMA St Kilda - Melbourne",
-        "duration": 249,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   }

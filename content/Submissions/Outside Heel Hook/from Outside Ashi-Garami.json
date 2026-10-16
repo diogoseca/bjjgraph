@@ -468,31 +468,19 @@
     ],
     "clips": [
       {
-        "id": "UuluKZKDt8w",
-        "title": "Heel Hooks breakdown",
-        "by": "Lachlan Giles",
-        "vertical": false,
-        "channel": "Jiu Jitsu Moves",
-        "duration": 64,
-        "verified": "2026-07-14"
-      },
-      {
         "id": "tLcHN042w48",
-        "title": "Finishing the outside heel hook from outside ashi",
-        "by": "Fox Den Martial Arts",
-        "vertical": false,
+        "title": "Finishing Mechanics for the Outside Heel Hook from Irimi Ashi Garami and…",
         "channel": "Fox Den Martial Arts",
-        "duration": 86,
-        "verified": "2026-07-14"
+        "duration": 85,
+        "vertical": false,
+        "front": true
       },
       {
-        "id": "5RyU5LDc3C4",
-        "title": "ADCC-style outside heel hook",
-        "by": "Lachlan Giles",
-        "vertical": false,
-        "channel": "Alberto Serrano BJJ",
-        "duration": 86,
-        "verified": "2026-07-14"
+        "id": "m4sGDhukUmk",
+        "title": "Craig Jones - Nasty Heel Hook from Outside Ashi Garami",
+        "channel": "The Bear's Den BJJ & MMA  熊派巴西柔術及MMA學院",
+        "duration": 141,
+        "vertical": false
       }
     ]
   },
@@ -685,30 +673,11 @@
     "clips": [
       {
         "id": "KmGhb2j68Ng",
-        "title": "Escaping outside ashi heel hook to back take",
-        "by": "Grapple Box",
-        "vertical": false,
+        "title": "escaping outside ashi heel hook to rolling back take, bjj flow grappling drills…",
         "channel": "Grapple Box llc",
-        "duration": 34,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "v3w0qXLKxug",
-        "title": "Defending heel hooks fundamentals",
-        "by": "Lachlan Giles",
+        "duration": 33,
         "vertical": false,
-        "channel": "Absolute MMA St Kilda - Melbourne",
-        "duration": 92,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "AsGMkATAqqw",
-        "title": "What to do when ambushed (heel hook defense)",
-        "by": "John Danaher",
-        "vertical": false,
-        "channel": "Dohn Janaher ",
-        "duration": 53,
-        "verified": "2026-07-14"
+        "front": true
       }
     ]
   }

@@ -165,35 +165,12 @@ description: "Master overhook control from bottom positions. Guard-based whizzer
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Closed guard overhook sweep",
-      "description": "Overhook Control (Bottom) film study: Closed guard overhook sweep, taught by David Morris.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/QPL5y0hIVV4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/QPL5y0hIVV4",
-      "url": "https://www.youtube.com/watch?v=QPL5y0hIVV4",
-      "creator": { "@type": "Person", "name": "David Morris" },
-      "duration": "PT17S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Overhook guard to reverse triangle + kimura",
-      "description": "Overhook Control (Bottom) film study: Overhook guard to reverse triangle + kimura, taught by ZeGrapplez.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/ljmJ9xP6N7U/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/ljmJ9xP6N7U",
-      "url": "https://www.youtube.com/watch?v=ljmJ9xP6N7U",
-      "creator": { "@type": "Person", "name": "ZeGrapplez" },
-      "duration": "PT45S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Closed guard overhook scissor sweep",
-      "description": "Overhook Control (Bottom) film study: Closed guard overhook scissor sweep, taught by Fight Sports Charlotte.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/SONTST7yTT8/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/SONTST7yTT8",
-      "url": "https://www.youtube.com/watch?v=SONTST7yTT8",
-      "creator": { "@type": "Person", "name": "Fight Sports Charlotte" },
-      "duration": "PT89S"
+      "name": "Overhook from Closed Guard",
+      "description": "Overhook Control (Bottom) film study: Overhook from Closed Guard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5J92PJO-dEo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5J92PJO-dEo",
+      "url": "https://www.youtube.com/watch?v=5J92PJO-dEo",
+      "duration": "PT114S"
     }
   ]
 }
@@ -225,25 +202,9 @@ Modern guard players have integrated overhook control into systematic approaches
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=QPL5y0hIVV4)
+![](https://www.youtube.com/watch?v=5J92PJO-dEo)
 
-<p class="clip-credit"><strong>Closed guard overhook sweep</strong> — taught by David Morris · 0:17 · <a href="https://www.youtube.com/watch?v=QPL5y0hIVV4" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=ljmJ9xP6N7U)
-
-<p class="clip-credit"><strong>Overhook guard to reverse triangle + kimura</strong> — taught by ZeGrapplez · 0:45 · <a href="https://www.youtube.com/watch?v=ljmJ9xP6N7U" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=SONTST7yTT8)
-
-<p class="clip-credit"><strong>Closed guard overhook scissor sweep</strong> — taught by Fight Sports Charlotte · 1:29 · <a href="https://www.youtube.com/watch?v=SONTST7yTT8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Overhook from Closed Guard</strong> · 1:54 · <a href="https://www.youtube.com/watch?v=5J92PJO-dEo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

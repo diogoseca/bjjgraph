@@ -46,24 +46,12 @@ description: "Master reestablishing Side Control from Jailbreak in BJJ. Systemat
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Sit out to reestablish side control vs elbow escape",
-      "description": "Reestablish Side Control from Jailbreak film study: Sit out to reestablish side control vs elbow escape, taught by Paul McVeigh.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/N4MK2oNSJCs/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/N4MK2oNSJCs",
-      "url": "https://www.youtube.com/watch?v=N4MK2oNSJCs",
-      "creator": { "@type": "Person", "name": "Paul McVeigh" },
-      "duration": "PT68S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Drilling the Half Guard Jailbreak Sweep",
-      "description": "Reestablish Side Control from Jailbreak film study: Drilling the Half Guard Jailbreak Sweep, taught by JitzLive coach.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/ES1pJ1tE4WY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/ES1pJ1tE4WY",
-      "url": "https://www.youtube.com/watch?v=ES1pJ1tE4WY",
-      "creator": { "@type": "Person", "name": "JitzLive coach" },
-      "duration": "PT66S"
+      "name": "Jailbreak From Bottom Side Control",
+      "description": "Reestablish Side Control from Jailbreak film study: Jailbreak From Bottom Side Control.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/EV_xmwb3l-8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/EV_xmwb3l-8",
+      "url": "https://www.youtube.com/watch?v=EV_xmwb3l-8",
+      "duration": "PT191S"
     }
   ]
 }
@@ -117,17 +105,9 @@ From a strategic standpoint, mastering this recovery prevents the bottom player 
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=N4MK2oNSJCs)
+![](https://www.youtube.com/watch?v=EV_xmwb3l-8)
 
-<p class="clip-credit"><strong>Sit out to reestablish side control vs elbow escape</strong> — taught by Paul McVeigh · 1:08 · <a href="https://www.youtube.com/watch?v=N4MK2oNSJCs" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=ES1pJ1tE4WY)
-
-<p class="clip-credit"><strong>Drilling the Half Guard Jailbreak Sweep</strong> — taught by JitzLive coach · 1:06 · <a href="https://www.youtube.com/watch?v=ES1pJ1tE4WY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Jailbreak From Bottom Side Control</strong> · 3:11 · <a href="https://www.youtube.com/watch?v=EV_xmwb3l-8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

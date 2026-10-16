@@ -165,24 +165,12 @@ description: "Master Double Sleeve Guard Top in BJJ. Complete guide covering pas
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Double Sleeve Guard: Grip Break to Bicep Ride",
-      "description": "Double Sleeve Guard (Top) film study: Double Sleeve Guard: Grip Break to Bicep Ride, taught by Nomad Fitness \u0026 Jiu Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/EPAOODLwCj4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/EPAOODLwCj4",
-      "url": "https://www.youtube.com/watch?v=EPAOODLwCj4",
-      "creator": { "@type": "Person", "name": "Nomad Fitness \u0026 Jiu Jitsu" },
-      "duration": "PT168S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "How to Pass the Double Sleeve Guard",
-      "description": "Double Sleeve Guard (Top) film study: How to Pass the Double Sleeve Guard, taught by Jon Thomas.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/oThN2Qq64rk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/oThN2Qq64rk",
-      "url": "https://www.youtube.com/watch?v=oThN2Qq64rk",
-      "creator": { "@type": "Person", "name": "Jon Thomas" },
-      "duration": "PT549S"
+      "name": "Passing feet on hips double sleeve guard",
+      "description": "Double Sleeve Guard (Top) film study: Passing feet on hips double sleeve guard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_vUNYRbf-fo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_vUNYRbf-fo",
+      "url": "https://www.youtube.com/watch?v=_vUNYRbf-fo",
+      "duration": "PT190S"
     }
   ]
 }
@@ -208,17 +196,9 @@ Double Sleeve Guard Top represents the passing position when facing an opponent 
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=EPAOODLwCj4)
+![](https://www.youtube.com/watch?v=_vUNYRbf-fo)
 
-<p class="clip-credit"><strong>Double Sleeve Guard: Grip Break to Bicep Ride</strong> — taught by Nomad Fitness &amp; Jiu Jitsu · 2:48 · <a href="https://www.youtube.com/watch?v=EPAOODLwCj4" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=oThN2Qq64rk)
-
-<p class="clip-credit"><strong>How to Pass the Double Sleeve Guard</strong> — taught by Jon Thomas · 9:09 · <a href="https://www.youtube.com/watch?v=oThN2Qq64rk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Passing feet on hips double sleeve guard</strong> · 3:10 · <a href="https://www.youtube.com/watch?v=_vUNYRbf-fo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

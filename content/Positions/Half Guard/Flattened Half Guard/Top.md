@@ -165,24 +165,12 @@ description: "Learn pressure passing from flattened half guard top. Complete you
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Late correction to flatten opponent",
-      "description": "Flattened Half Guard (Top) film study: Late correction to flatten opponent, taught by Paul Schreiner.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/0FxFdqZ8mus/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/0FxFdqZ8mus",
-      "url": "https://www.youtube.com/watch?v=0FxFdqZ8mus",
-      "creator": { "@type": "Person", "name": "Paul Schreiner" },
-      "duration": "PT153S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Top lockdown turk",
-      "description": "Flattened Half Guard (Top) film study: Top lockdown turk, taught by Craig Jones.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/lwwIfCAA7Zc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/lwwIfCAA7Zc",
-      "url": "https://www.youtube.com/watch?v=lwwIfCAA7Zc",
-      "creator": { "@type": "Person", "name": "Craig Jones" },
-      "duration": "PT207S"
+      "name": "Henry Akins No Gi Half Guard Passing - 2 Methods to Flatten out your Opponent\u2026",
+      "description": "Flattened Half Guard (Top) film study: Henry Akins No Gi Half Guard Passing - 2 Methods to Flatten out your Opponent\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/y9MAxM0jRzw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/y9MAxM0jRzw",
+      "url": "https://www.youtube.com/watch?v=y9MAxM0jRzw",
+      "duration": "PT533S"
     }
   ]
 }
@@ -216,17 +204,9 @@ Understanding the position's relationship to the broader passing game is essenti
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=0FxFdqZ8mus)
+![](https://www.youtube.com/watch?v=y9MAxM0jRzw)
 
-<p class="clip-credit"><strong>Late correction to flatten opponent</strong> — taught by Paul Schreiner · 2:33 · <a href="https://www.youtube.com/watch?v=0FxFdqZ8mus" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=lwwIfCAA7Zc)
-
-<p class="clip-credit"><strong>Top lockdown turk</strong> — taught by Craig Jones · 3:27 · <a href="https://www.youtube.com/watch?v=lwwIfCAA7Zc" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Henry Akins No Gi Half Guard Passing - 2 Methods to Flatten out your Opponent…</strong> · 8:53 · <a href="https://www.youtube.com/watch?v=y9MAxM0jRzw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

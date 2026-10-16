@@ -359,35 +359,7 @@
       }
     ],
     "safety_considerations": "This transition involves controlled rotational movement with sustained chest pressure. The primary safety concern is maintaining awareness of the bottom player's arm position during the rotation to avoid inadvertently cranking their shoulder or elbow through the trapped arm mechanism. Release arm control smoothly during the grip transition rather than jerking or twisting. In training, communicate with your partner about pressure levels and ensure the rotation speed allows them to adjust their body position. Avoid driving excessive head pressure through the crossface during drilling, as repeated crossface pressure can cause neck strain over extended training sessions.",
-    "clips": [
-      {
-        "id": "aAKcSjzX4to",
-        "title": "Side control to scarf hold hip switch",
-        "by": "Raven Jiu Jitsu",
-        "vertical": false,
-        "channel": "Raven Jiu Jitsu",
-        "duration": 115,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "9Q6g6Jx27qg",
-        "title": "Osaekomi waza: pinning and transitioning between pins",
-        "by": "Samir Seif",
-        "vertical": false,
-        "channel": "Samir Seif",
-        "duration": 222,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "Z24JmX5e51A",
-        "title": "How to mount reverse kesa gatame",
-        "by": "David Webster",
-        "vertical": false,
-        "channel": "David Webster judo",
-        "duration": 134,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Ushiro Kesa Gatame to Side Control Defender",
@@ -546,34 +518,6 @@
         "description": "Start in reverse kesa-gatame bottom with the top player instructed to transition to side control at some point during each round. Bottom player defends the transition attempt with full resistance. Reset to reverse kesa after each successful defense or completed transition. Track success rate over multiple rounds."
       }
     ],
-    "clips": [
-      {
-        "id": "QzegNgUUfZs",
-        "title": "Reverse kesa gatame side control escape",
-        "by": "Coach Paul",
-        "vertical": false,
-        "channel": "Coach Paul - War Fork Jiu-Jitsu Academy",
-        "duration": 81,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "ORpUBUxK1QE",
-        "title": "Reverse kesa gatame escape to back take",
-        "by": "Gymnanigains",
-        "vertical": false,
-        "channel": "Gymnanigains",
-        "duration": 26,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "fvp5_BVEtLg",
-        "title": "Kesa gatame pressure defense with proper framing",
-        "by": "Kohbukan Sisu",
-        "vertical": false,
-        "channel": "Kohbukan Sisu",
-        "duration": 84,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

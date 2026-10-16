@@ -47,23 +47,11 @@ description: "Master the High Guard to Rubber Guard transition in BJJ. Complete 
       "@type": "VideoObject",
       "position": 1,
       "name": "Basic entries into rubber guard",
-      "description": "High Guard to Rubber Guard film study: Basic entries into rubber guard, taught by BJJ4Breakfast.",
+      "description": "High Guard to Rubber Guard film study: Basic entries into rubber guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/WliTCjEDA-8/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/WliTCjEDA-8",
       "url": "https://www.youtube.com/watch?v=WliTCjEDA-8",
-      "creator": { "@type": "Person", "name": "BJJ4Breakfast" },
-      "duration": "PT106S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Eddie Bravo explains the rubber guard",
-      "description": "High Guard to Rubber Guard film study: Eddie Bravo explains the rubber guard, taught by Eddie Bravo.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/h1XzZDsUxHQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/h1XzZDsUxHQ",
-      "url": "https://www.youtube.com/watch?v=h1XzZDsUxHQ",
-      "creator": { "@type": "Person", "name": "Eddie Bravo" },
-      "duration": "PT111S"
+      "duration": "PT105S"
     }
   ]
 }
@@ -119,15 +107,7 @@ The technique requires above-average hip flexibility, particularly in the hamstr
 
 ![](https://www.youtube.com/watch?v=WliTCjEDA-8)
 
-<p class="clip-credit"><strong>Basic entries into rubber guard</strong> — taught by BJJ4Breakfast · 1:46 · <a href="https://www.youtube.com/watch?v=WliTCjEDA-8" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=h1XzZDsUxHQ)
-
-<p class="clip-credit"><strong>Eddie Bravo explains the rubber guard</strong> — taught by Eddie Bravo · 1:51 · <a href="https://www.youtube.com/watch?v=h1XzZDsUxHQ" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Basic entries into rubber guard</strong> · 1:45 · <a href="https://www.youtube.com/watch?v=WliTCjEDA-8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

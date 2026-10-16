@@ -452,31 +452,11 @@
     ],
     "clips": [
       {
-        "id": "pa6Z7mP9VKU",
-        "title": "Ryron Gracie's Favorite Knee-on-Belly Attack",
-        "by": "Ryron Gracie",
-        "vertical": false,
-        "channel": "Hayabusa",
-        "duration": 52,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "XNhDD7N4JNY",
-        "title": "3 Knee-on-Belly Attacks for Beginners",
-        "by": "Lucas Lepri",
-        "vertical": false,
-        "channel": "Lucas Lepri Philippines",
-        "duration": 68,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "johFGyE29pY",
-        "title": "Knee on Belly to Brabo Choke",
-        "by": "Edward Anthony",
-        "vertical": false,
-        "channel": "Edward “Scissorhands” Anthony Jiu Jitsu ",
-        "duration": 51,
-        "verified": "2026-07-14"
+        "id": "7vz2X2cGiOs",
+        "title": "Mauricio explains the knee on belly position",
+        "channel": "Mauricio Gomes BJJ",
+        "duration": 79,
+        "front": true
       }
     ]
   },

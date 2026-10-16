@@ -165,24 +165,12 @@ description: "Attacking perspective in reversed leg entanglement. Master control
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Top Ushiro to knee bar",
-      "description": "Ushiro Ashi-Garami (Top) film study: Top Ushiro to knee bar, taught by Modesto Judo Club.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/g3j7TZYoW14/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/g3j7TZYoW14",
-      "url": "https://www.youtube.com/watch?v=g3j7TZYoW14",
-      "creator": { "@type": "Person", "name": "Modesto Judo Club" },
-      "duration": "PT115S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "V grip from top Ushiro transition",
-      "description": "Ushiro Ashi-Garami (Top) film study: V grip from top Ushiro transition, taught by Gordon Ryan.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/lTsK9C_a6po/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/lTsK9C_a6po",
-      "url": "https://www.youtube.com/watch?v=lTsK9C_a6po",
-      "creator": { "@type": "Person", "name": "Gordon Ryan" },
-      "duration": "PT140S"
+      "name": "Ushiro Ashi Garami. \u041e\u0431\u0440\u0430\u0442\u043d\u044b\u0439 \u0443\u0437\u0435\u043b \u0431\u0435\u0434\u0440\u0430. \u0427\u0430\u0441\u0442\u044c 1.",
+      "description": "Ushiro Ashi-Garami (Top) film study: Ushiro Ashi Garami. \u041e\u0431\u0440\u0430\u0442\u043d\u044b\u0439 \u0443\u0437\u0435\u043b \u0431\u0435\u0434\u0440\u0430. \u0427\u0430\u0441\u0442\u044c 1..",
+      "thumbnailUrl": "https://i.ytimg.com/vi/UDqDce6ydrM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/UDqDce6ydrM",
+      "url": "https://www.youtube.com/watch?v=UDqDce6ydrM",
+      "duration": "PT1219S"
     }
   ]
 }
@@ -218,17 +206,9 @@ Control maintenance in ushiro ashi-garami requires constant adjustment to the op
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=g3j7TZYoW14)
+![](https://www.youtube.com/watch?v=UDqDce6ydrM)
 
-<p class="clip-credit"><strong>Top Ushiro to knee bar</strong> — taught by Modesto Judo Club · 1:55 · <a href="https://www.youtube.com/watch?v=g3j7TZYoW14" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=lTsK9C_a6po)
-
-<p class="clip-credit"><strong>V grip from top Ushiro transition</strong> — taught by Gordon Ryan · 2:20 · <a href="https://www.youtube.com/watch?v=lTsK9C_a6po" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Ushiro Ashi Garami. Обратный узел бедра. Часть 1.</strong> · 20:19 · <a href="https://www.youtube.com/watch?v=UDqDce6ydrM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

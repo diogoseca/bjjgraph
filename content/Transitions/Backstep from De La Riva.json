@@ -374,35 +374,7 @@
       }
     ],
     "safety_considerations": "The backstep from De La Riva involves rotational forces on both players' knees that must be managed carefully during training. Execute the backstep with controlled hip rotation rather than violent twisting to avoid knee ligament strain on your partner's hooked leg, particularly when their foot is wrapped behind your knee. During drilling, use moderate speed until mechanics are smooth, and communicate with your partner if the hook is deeply set and resisting rotation. Be mindful of collision risk during the rotation in crowded training spaces, and always check your surroundings before performing the backstep arc.",
-    "clips": [
-      {
-        "id": "ZaIgVPdXIFE",
-        "title": "Long step pass against De La Riva guard",
-        "by": "Greg Hernandez",
-        "vertical": false,
-        "channel": "GREG HERNANDEZ",
-        "duration": 130,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "7mSfDFetnoU",
-        "title": "Back Step De La Riva Pass",
-        "by": "Vicente Junior",
-        "vertical": false,
-        "channel": "Digitsu",
-        "duration": 114,
-        "verified": "2026-07-16"
-      },
-      {
-        "id": "yUF7QVyC0ag",
-        "title": "De La Riva Guard Pass Breakdown",
-        "by": "Taku Ishii",
-        "vertical": false,
-        "channel": "Jiu Jitsu NERD",
-        "duration": 141,
-        "verified": "2026-07-16"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Backstep from De La Riva Defender",
@@ -577,31 +549,19 @@
     ],
     "clips": [
       {
-        "id": "a3ModDEKY6s",
-        "title": "Defending the backstep pass from De La Riva",
-        "by": "Inverted Gear",
-        "vertical": false,
-        "channel": "Inverted Gear",
-        "duration": 145,
-        "verified": "2026-07-15"
-      },
-      {
         "id": "CT0Q1hDPeWQ",
-        "title": "Countering the Back Step with the Waiter Position",
-        "by": "Factory Fresh Jiu Jitsu",
-        "vertical": false,
+        "title": "DLR to Back | They Back Step | We go to Waiter Position | Then to Modified…",
         "channel": "Factory Fresh Jiu Jitsu",
         "duration": 23,
-        "verified": "2026-07-16"
+        "vertical": false,
+        "front": true
       },
       {
-        "id": "6td9ZiochpY",
-        "title": "Deep De La Riva Counter to the Long Step",
-        "by": "Carpio Jiu Jitsu",
-        "vertical": false,
-        "channel": "Carpio Jiu Jitsu",
-        "duration": 80,
-        "verified": "2026-07-16"
+        "id": "a3ModDEKY6s",
+        "title": "Defending against backstep pass to De la Riva",
+        "channel": "Inverted Gear",
+        "duration": 145,
+        "vertical": false
       }
     ]
   }

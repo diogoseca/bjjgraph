@@ -155,50 +155,6 @@ description: "Aoki Lock Control top perspective: A turned-out foot enclosed besi
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Aoki Lock Control (Top) \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Aoki lock from butterfly ashi",
-      "description": "Aoki Lock Control (Top) film study: Aoki lock from butterfly ashi, taught by Factory Fresh Jiu Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/tQWfhZiDREc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/tQWfhZiDREc",
-      "url": "https://www.youtube.com/watch?v=tQWfhZiDREc",
-      "creator": { "@type": "Person", "name": "Factory Fresh Jiu Jitsu" },
-      "duration": "PT77S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Sneaky Aoki Lock from the Saddle",
-      "description": "Aoki Lock Control (Top) film study: Sneaky Aoki Lock from the Saddle, taught by Grappling Education.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/QDNLTs55V8c/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/QDNLTs55V8c",
-      "url": "https://www.youtube.com/watch?v=QDNLTs55V8c",
-      "creator": { "@type": "Person", "name": "Grappling Education" },
-      "duration": "PT121S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "How to Do the Aoki Lock in No-Gi Grappling",
-      "description": "Aoki Lock Control (Top) film study: How to Do the Aoki Lock in No-Gi Grappling, taught by Stephan Kesting.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/9F3m0gNYlXU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/9F3m0gNYlXU",
-      "url": "https://www.youtube.com/watch?v=9F3m0gNYlXU",
-      "creator": { "@type": "Person", "name": "Stephan Kesting" },
-      "duration": "PT386S"
-    }
-  ]
-}
-</script>
-
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -215,40 +171,6 @@ The captured limb is the foot and lower leg. This is distinct from an omoplata-s
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Aoki Lock Control (Top) in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=tQWfhZiDREc)
-
-<p class="clip-credit"><strong>Aoki lock from butterfly ashi</strong> — taught by Factory Fresh Jiu Jitsu · 1:17 · <a href="https://www.youtube.com/watch?v=tQWfhZiDREc" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=QDNLTs55V8c)
-
-<p class="clip-credit"><strong>Sneaky Aoki Lock from the Saddle</strong> — taught by Grappling Education · 2:01 · <a href="https://www.youtube.com/watch?v=QDNLTs55V8c" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=9F3m0gNYlXU)
-
-<p class="clip-credit"><strong>How to Do the Aoki Lock in No-Gi Grappling</strong> — taught by Stephan Kesting · 6:26 · <a href="https://www.youtube.com/watch?v=9F3m0gNYlXU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="state-invariants" class="content-section">

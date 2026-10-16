@@ -398,21 +398,11 @@
     "clips": [
       {
         "id": "HLWwfq8FNMI",
-        "title": "Triangle escape: hips down, posture up",
-        "by": "Mat Life Training Center",
-        "vertical": false,
+        "title": "Triangle Choke Escape #3 Hips Down, Posture Up",
         "channel": "Mat Life Training Center",
-        "duration": 19,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "sR2rS2dwpNY",
-        "title": "How to escape a triangle choke",
-        "by": "Rener and Ryron Gracie",
+        "duration": 18,
         "vertical": false,
-        "channel": "Hayabusa",
-        "duration": 117,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },
@@ -579,31 +569,12 @@
     ],
     "clips": [
       {
-        "id": "Z-CsRn4K0vg",
-        "title": "Escaping triangles against big opponents",
-        "by": "John Danaher",
-        "vertical": false,
-        "channel": "Dohn Janaher ",
-        "duration": 48,
-        "verified": "2026-07-15"
-      },
-      {
         "id": "2PVYV08GAG8",
-        "title": "Triangle re-attacks when posture control is lost",
-        "by": "Method BJJ coach",
-        "vertical": false,
+        "title": "Triangle Re-Attack Options When Posture Control is Lost",
         "channel": "Method BJJ",
-        "duration": 98,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "M3_VDLm6PoE",
-        "title": "Finishing the triangle against a posturing opponent",
-        "by": "Inverted Gear coach",
+        "duration": 97,
         "vertical": false,
-        "channel": "Inverted Gear",
-        "duration": 142,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   }

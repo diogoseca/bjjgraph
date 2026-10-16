@@ -444,31 +444,17 @@
     ],
     "clips": [
       {
-        "id": "uo5jPElZ6po",
-        "title": "Armbar from modified mount",
-        "by": "Black Lotus BJJ",
-        "vertical": false,
-        "channel": "Black Lotus Brazilian Jiu Jitsu Academy",
-        "duration": 63,
-        "verified": "2026-07-14"
+        "id": "nbyCNkko1mE",
+        "title": "Modified Mount Control-BJJ",
+        "channel": "Sentosa Martial Arts and Fitness",
+        "duration": 228,
+        "front": true
       },
       {
-        "id": "dfP-Ov8FBUo",
-        "title": "Cross collar chokes from mount",
-        "by": "Roger Gracie",
-        "vertical": false,
-        "channel": "Jiu Jitsu Moves",
-        "duration": 80,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "GCxRluGItWY",
-        "title": "Mounted armbar + cross collar double attack",
-        "by": "Henry Akins",
-        "vertical": false,
-        "channel": "Henry Akins' Hidden Jiu-Jitsu",
-        "duration": 95,
-        "verified": "2026-07-14"
+        "id": "d-hpSz0L-nk",
+        "title": "MODIFIED MOUNT DRILL",
+        "channel": "Alpha BJJ",
+        "duration": 278
       }
     ]
   },
@@ -888,31 +874,11 @@
     ],
     "clips": [
       {
-        "id": "_05Lwonu0mw",
-        "title": "Escape from a high full mount",
-        "by": "TENZAN",
-        "vertical": false,
-        "channel": "TENZAN AIKIDO",
-        "duration": 78,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "9252EvCT0q4",
-        "title": "Escaping the mount",
-        "by": "Gabriel Gonzaga",
-        "vertical": false,
-        "channel": "Gabriel Gonzaga",
-        "duration": 93,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "PnQdaoKyxoc",
-        "title": "One arm under leg mount escape",
-        "by": "Professor Aaron",
-        "vertical": false,
-        "channel": "The Jiujitsu Project Foundation",
-        "duration": 130,
-        "verified": "2026-07-14"
+        "id": "WUNFDi5Cz4E",
+        "title": "Modified Mount Escape",
+        "channel": "Gracie Ohio Jiu-Jitsu Academy",
+        "duration": 163,
+        "front": true
       }
     ]
   },
@@ -1030,33 +996,5 @@
       }
     }
   ],
-  "clips": [
-    {
-      "id": "-mVdsoKMXhc",
-      "title": "Positional control from the mount",
-      "by": "Northwoods Combat Arts",
-      "vertical": false,
-      "channel": "Northwoods Combat Arts",
-      "duration": 102,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "pa4Aj431Yds",
-      "title": "Technical mount attacks",
-      "by": "Soma Academy",
-      "vertical": false,
-      "channel": "Soma Academy",
-      "duration": 110,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "uo5jPElZ6po",
-      "title": "Armbar from modified mount",
-      "by": "Black Lotus BJJ",
-      "vertical": false,
-      "channel": "Black Lotus Brazilian Jiu Jitsu Academy",
-      "duration": 63,
-      "verified": "2026-07-14"
-    }
-  ]
+  "clips": []
 }

@@ -451,31 +451,11 @@
     ],
     "clips": [
       {
-        "id": "NUnTxPvjCa0",
-        "title": "The Marcelotine Arm-In Guillotine",
-        "by": "Marcelo Garcia",
-        "vertical": false,
-        "channel": "stuartcooperfilms",
-        "duration": 73,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "8AGCNn4ElSA",
-        "title": "Arm-in Guillotine (Lapel-assisted)",
-        "by": "Johnny Jitsu",
-        "vertical": true,
-        "channel": "Johnny Jitsu",
-        "duration": 61,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "IvSVZuezQGo",
-        "title": "Double Elbow to High Elbow Guillotine",
-        "by": "Marcelo Garcia",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 171,
-        "verified": "2026-07-14"
+        "id": "io9H0qe6iss",
+        "title": "Arm in Guillotine Finishing Details || BJJ Tip",
+        "channel": "Ricardo Almeida",
+        "duration": 195,
+        "front": true
       }
     ]
   },
@@ -657,34 +637,6 @@
         "description": "Begin rounds with partner establishing arm-in guillotine from guillotine control at full competition intensity. Defender must escape to a neutral or favorable position. Track success rate and identify which escape paths work best against different attacker styles. 2-minute rounds, reset after each resolution."
       }
     ],
-    "clips": [
-      {
-        "id": "lvjRNWzKMPc",
-        "title": "Guillotine Escape from Closed Guard",
-        "by": "Street Jitsu",
-        "vertical": false,
-        "channel": "Street Jitsu",
-        "duration": 27,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "8okq4cIHMO0",
-        "title": "Standing Guillotine Escape",
-        "by": "dogtownman",
-        "vertical": false,
-        "channel": "dogtownman",
-        "duration": 44,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "Qb8gtundzPg",
-        "title": "Guillotine Escape from the Guard",
-        "by": "Ground Zero MMA",
-        "vertical": false,
-        "channel": "Ground Zero MMA,BJJ,Wresting,No Gi,Bridgend.",
-        "duration": 57,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   }
 }

@@ -157,50 +157,6 @@ description: "Master Side Control Top in BJJ. Complete guide to submissions, tra
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Side Control (Top) \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Side Control Top Danger Control",
-      "description": "Side Control (Top) film study: Side Control Top Danger Control, taught by Craig Jones.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/WuSBXB22-1Q/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/WuSBXB22-1Q",
-      "url": "https://www.youtube.com/watch?v=WuSBXB22-1Q",
-      "creator": { "@type": "Person", "name": "Craig Jones" },
-      "duration": "PT156S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Buggy Choke From Top Side Control",
-      "description": "Side Control (Top) film study: Buggy Choke From Top Side Control, taught by azigarami.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/mt7SMNzP4Ak/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/mt7SMNzP4Ak",
-      "url": "https://www.youtube.com/watch?v=mt7SMNzP4Ak",
-      "creator": { "@type": "Person", "name": "azigarami" },
-      "duration": "PT91S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Top 3 Submissions From Side Control",
-      "description": "Side Control (Top) film study: Top 3 Submissions From Side Control, taught by Marcus Buchecha Almeida.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/onIP1GC3Daw/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/onIP1GC3Daw",
-      "url": "https://www.youtube.com/watch?v=onIP1GC3Daw",
-      "creator": { "@type": "Person", "name": "Marcus Buchecha Almeida" },
-      "duration": "PT296S"
-    }
-  ]
-}
-</script>
-
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -215,40 +171,6 @@ Side Control Top is one of the most fundamental and dominant positions in Brazil
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Side Control (Top) in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=WuSBXB22-1Q)
-
-<p class="clip-credit"><strong>Side Control Top Danger Control</strong> — taught by Craig Jones · 2:36 · <a href="https://www.youtube.com/watch?v=WuSBXB22-1Q" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=mt7SMNzP4Ak)
-
-<p class="clip-credit"><strong>Buggy Choke From Top Side Control</strong> — taught by azigarami · 1:31 · <a href="https://www.youtube.com/watch?v=mt7SMNzP4Ak" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=onIP1GC3Daw)
-
-<p class="clip-credit"><strong>Top 3 Submissions From Side Control</strong> — taught by Marcus Buchecha Almeida · 4:56 · <a href="https://www.youtube.com/watch?v=onIP1GC3Daw" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="state-invariants" class="content-section">

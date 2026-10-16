@@ -162,23 +162,41 @@ description: "How to defend against Americana from Side Control in BJJ. Recognit
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Simple Americana armlock escape",
-      "description": "Americana from Side Control (Defender) film study: Simple Americana armlock escape, taught by Eddie Kone.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/NZjUCo8os8Q/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/NZjUCo8os8Q",
-      "url": "https://www.youtube.com/watch?v=NZjUCo8os8Q",
-      "creator": { "@type": "Person", "name": "Eddie Kone" },
-      "duration": "PT61S"
+      "name": "Americana Escape From Side Control",
+      "description": "Americana from Side Control (Defender) film study: Americana Escape From Side Control.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sf-qacbOTZI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sf-qacbOTZI",
+      "url": "https://www.youtube.com/watch?v=sf-qacbOTZI",
+      "duration": "PT180S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Americana defense to armbar",
-      "description": "Americana from Side Control (Defender) film study: Americana defense to armbar, taught by JiuJitsu.com.",
+      "name": "Escape americana/key lock from side to chest lock.",
+      "description": "Americana from Side Control (Defender) film study: Escape americana/key lock from side to chest lock..",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Unz1euhI2y8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Unz1euhI2y8",
+      "url": "https://www.youtube.com/watch?v=Unz1euhI2y8",
+      "duration": "PT71S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Simple Americana Armlock Escape",
+      "description": "Americana from Side Control (Defender) film study: Simple Americana Armlock Escape.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/NZjUCo8os8Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/NZjUCo8os8Q",
+      "url": "https://www.youtube.com/watch?v=NZjUCo8os8Q",
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 4,
+      "name": "Americana Defense to Armbar Finish",
+      "description": "Americana from Side Control (Defender) film study: Americana Defense to Armbar Finish.",
       "thumbnailUrl": "https://i.ytimg.com/vi/x5oNak2YANY/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/x5oNak2YANY",
       "url": "https://www.youtube.com/watch?v=x5oNak2YANY",
-      "creator": { "@type": "Person", "name": "JiuJitsu.com" },
       "duration": "PT177S"
     }
   ]
@@ -210,9 +228,25 @@ The critical defensive window is during the grip establishment phase. Once your 
 
 <div class="film-clip">
 
+![](https://www.youtube.com/watch?v=sf-qacbOTZI)
+
+<p class="clip-credit"><strong>Americana Escape From Side Control</strong> · 3:00 · <a href="https://www.youtube.com/watch?v=sf-qacbOTZI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Unz1euhI2y8)
+
+<p class="clip-credit"><strong>Escape americana/key lock from side to chest lock.</strong> · 1:11 · <a href="https://www.youtube.com/watch?v=Unz1euhI2y8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
 ![](https://www.youtube.com/watch?v=NZjUCo8os8Q)
 
-<p class="clip-credit"><strong>Simple Americana armlock escape</strong> — taught by Eddie Kone · 1:01 · <a href="https://www.youtube.com/watch?v=NZjUCo8os8Q" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Simple Americana Armlock Escape</strong> · 1:01 · <a href="https://www.youtube.com/watch?v=NZjUCo8os8Q" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -220,7 +254,7 @@ The critical defensive window is during the grip establishment phase. Once your 
 
 ![](https://www.youtube.com/watch?v=x5oNak2YANY)
 
-<p class="clip-credit"><strong>Americana defense to armbar</strong> — taught by JiuJitsu.com · 2:57 · <a href="https://www.youtube.com/watch?v=x5oNak2YANY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Americana Defense to Armbar Finish</strong> · 2:57 · <a href="https://www.youtube.com/watch?v=x5oNak2YANY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

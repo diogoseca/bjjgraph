@@ -404,20 +404,10 @@
       {
         "id": "im8KbQUyxLY",
         "title": "Truck options from twister side control",
-        "by": "Jeremiah Vance",
-        "vertical": false,
         "channel": "Jeremiah Vance",
-        "duration": 42,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "odT3-cVWXdc",
-        "title": "Twister side control attacks",
-        "by": "Eddie Bravo",
+        "duration": 41,
         "vertical": false,
-        "channel": "Eddie Bravo",
-        "duration": 61,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },
@@ -600,34 +590,6 @@
         "description": "Start in Twister Side Control bottom with partner working at full resistance to achieve the truck. Practice preventing the transition using all available defensive tools. Track success rate over training sessions and identify the most common failure points for targeted improvement. Goal is preventing truck establishment in at least 40% of attempts."
       }
     ],
-    "clips": [
-      {
-        "id": "jg0Rdc0rJzg",
-        "title": "Twister side control counter",
-        "by": "10th Planet Jiu Jitsu Murrieta",
-        "vertical": false,
-        "channel": "10th Planet Jiu Jitsu Murrieta",
-        "duration": 16,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "WEpVDP7MRpo",
-        "title": "Defending the rolling back take (truck roll)",
-        "by": "Brian Glick",
-        "vertical": false,
-        "channel": "Brian Glick",
-        "duration": 209,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "Va1YNgx2E6M",
-        "title": "Escape and counter the twister",
-        "by": "Matrix Jiu Jitsu coach",
-        "vertical": false,
-        "channel": "Matrix Jiu Jitsu",
-        "duration": 165,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

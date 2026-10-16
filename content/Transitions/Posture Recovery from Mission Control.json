@@ -374,31 +374,11 @@
     "safety_considerations": "Posture recovery from Mission Control involves significant neck and shoulder stress for the top player. Avoid explosive jerking movements that could strain cervical vertebrae or damage the shoulder joint under isolation pressure. If experiencing sharp neck pain or unusual shoulder discomfort, tap and reset rather than forcing through the escape. The bottom player should release Mission Control immediately if their partner signals distress, as prolonged shoulder isolation combined with resistance can cause joint strain. Both practitioners should communicate clearly about pain levels during drilling.",
     "clips": [
       {
-        "id": "AvivOVuYcCk",
-        "title": "Rubber guard escape and posture recovery",
-        "by": "BJJ4Breakfast",
-        "vertical": false,
-        "channel": "BJJ4Breakfast",
-        "duration": 131,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "hc5zImDLQ7k",
-        "title": "Rubber Guard: Mission Control position breakdown",
-        "by": "JitsHappens",
-        "vertical": false,
-        "channel": "JitsHappens",
-        "duration": 47,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "kajcUNpjGho",
-        "title": "Rubber Guard back up plan when control fails",
-        "by": "Eddie Bravo",
-        "vertical": false,
-        "channel": "Eddie Bravo",
-        "duration": 61,
-        "verified": "2026-07-15"
+        "id": "3RAXSx1a4OA",
+        "title": "Passing Rubber Guard: Posture Preservation",
+        "channel": "Escapes",
+        "duration": 411,
+        "front": true
       }
     ]
   },
@@ -570,34 +550,6 @@
         "description": "Partner uses full-resistance posture recovery with all available techniques including standing, stacking, and grip fighting. Maintain Mission Control or successfully transition to submission entries for three-minute rounds. Develops the complete defensive skill set including retention, transition recognition, and offensive counter-attacks under maximum pressure."
       }
     ],
-    "clips": [
-      {
-        "id": "gFYyMkaMz34",
-        "title": "Prison guard breakdown",
-        "by": "Eddie Bravo",
-        "vertical": false,
-        "channel": "Eddie Bravo",
-        "duration": 59,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "GWR4g4St-yw",
-        "title": "Invisible detail from the rubber guard",
-        "by": "Strength & Honor MMA",
-        "vertical": false,
-        "channel": "Strength & Honor MMA",
-        "duration": 142,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "5fJM5bIk8Fw",
-        "title": "Mission Control to Zombie and Double Bag attacks",
-        "by": "10th Planet Orange Park",
-        "vertical": false,
-        "channel": "10th Planet Orange Park",
-        "duration": 108,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

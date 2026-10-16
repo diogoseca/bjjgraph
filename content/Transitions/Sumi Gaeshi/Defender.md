@@ -161,24 +161,12 @@ description: "How to defend against Sumi Gaeshi in BJJ. Recognition cues, defens
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Countering sumi gaeshi with ouchi gari",
-      "description": "Sumi Gaeshi (Defender) film study: Countering sumi gaeshi with ouchi gari, taught by Mick.",
+      "name": "#10 Counter Sumi Gaeshi with ouchi Gari",
+      "description": "Sumi Gaeshi (Defender) film study: #10 Counter Sumi Gaeshi with ouchi Gari.",
       "thumbnailUrl": "https://i.ytimg.com/vi/W_B_eY6Kc1k/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/W_B_eY6Kc1k",
       "url": "https://www.youtube.com/watch?v=W_B_eY6Kc1k",
-      "creator": { "@type": "Person", "name": "Mick" },
       "duration": "PT67S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Swallow counter concept against sacrifice throws",
-      "description": "Sumi Gaeshi (Defender) film study: Swallow counter concept against sacrifice throws, taught by Travis Stevens.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/FQ3jP6fKlIo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/FQ3jP6fKlIo",
-      "url": "https://www.youtube.com/watch?v=FQ3jP6fKlIo",
-      "creator": { "@type": "Person", "name": "Travis Stevens" },
-      "duration": "PT219S"
     }
   ]
 }
@@ -215,15 +203,7 @@ Even when the throw is partially completed, defensive options remain available. 
 
 ![](https://www.youtube.com/watch?v=W_B_eY6Kc1k)
 
-<p class="clip-credit"><strong>Countering sumi gaeshi with ouchi gari</strong> — taught by Mick · 1:07 · <a href="https://www.youtube.com/watch?v=W_B_eY6Kc1k" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=FQ3jP6fKlIo)
-
-<p class="clip-credit"><strong>Swallow counter concept against sacrifice throws</strong> — taught by Travis Stevens · 3:39 · <a href="https://www.youtube.com/watch?v=FQ3jP6fKlIo" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>#10 Counter Sumi Gaeshi with ouchi Gari</strong> · 1:07 · <a href="https://www.youtube.com/watch?v=W_B_eY6Kc1k" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

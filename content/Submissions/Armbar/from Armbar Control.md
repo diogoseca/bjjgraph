@@ -46,24 +46,12 @@ description: "Learn the Armbar Finish from Armbar Control in BJJ. Step-by-step e
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Roger Gracie armbars",
-      "description": "Armbar from Armbar Control film study: Roger Gracie armbars, taught by Roger Gracie.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/vSmRbpNmf-E/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/vSmRbpNmf-E",
-      "url": "https://www.youtube.com/watch?v=vSmRbpNmf-E",
-      "creator": { "@type": "Person", "name": "Roger Gracie" },
-      "duration": "PT102S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
       "name": "Armbar from mount when they bump you off",
-      "description": "Armbar from Armbar Control film study: Armbar from mount when they bump you off, taught by Kyle Dimmitt.",
+      "description": "Armbar from Armbar Control film study: Armbar from mount when they bump you off.",
       "thumbnailUrl": "https://i.ytimg.com/vi/gDn6uThIABM/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/gDn6uThIABM",
       "url": "https://www.youtube.com/watch?v=gDn6uThIABM",
-      "creator": { "@type": "Person", "name": "Kyle Dimmitt" },
-      "duration": "PT76S"
+      "duration": "PT75S"
     }
   ]
 }
@@ -126,17 +114,9 @@ The finish itself requires coordinated opposing vectors: hips drive toward the c
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=vSmRbpNmf-E)
-
-<p class="clip-credit"><strong>Roger Gracie armbars</strong> — taught by Roger Gracie · 1:42 · <a href="https://www.youtube.com/watch?v=vSmRbpNmf-E" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=gDn6uThIABM)
 
-<p class="clip-credit"><strong>Armbar from mount when they bump you off</strong> — taught by Kyle Dimmitt · 1:16 · <a href="https://www.youtube.com/watch?v=gDn6uThIABM" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Armbar from mount when they bump you off</strong> · 1:15 · <a href="https://www.youtube.com/watch?v=gDn6uThIABM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

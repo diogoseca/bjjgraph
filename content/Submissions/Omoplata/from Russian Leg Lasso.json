@@ -436,31 +436,18 @@
     ],
     "clips": [
       {
-        "id": "X38VbqKI8dY",
-        "title": "Lasso to Omoplata",
-        "by": "Ninja Pinto",
-        "vertical": false,
-        "channel": "Ninja Pinto BJJ",
-        "duration": 56,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "P_Utuxeq7uo",
-        "title": "Lasso Guard to Omoplata",
-        "by": "Adam Wardzinski",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 37,
-        "verified": "2026-07-14"
-      },
-      {
         "id": "FCdFl9aAiUg",
-        "title": "No-Gi Lasso Omoplata",
-        "by": "Asaf Mich",
-        "vertical": false,
+        "title": "Nogi Lasso Omaplata",
         "channel": "Asaf Mich",
         "duration": 49,
-        "verified": "2026-07-14"
+        "vertical": false
+      },
+      {
+        "id": "X38VbqKI8dY",
+        "title": "Lasso to Omoplata",
+        "channel": "Ninja Pinto",
+        "duration": 56,
+        "vertical": false
       }
     ]
   },
@@ -651,21 +638,11 @@
     "clips": [
       {
         "id": "ocIHY3jBYIQ",
-        "title": "Best Way to Escape the Omoplata Shoulder Lock",
-        "by": "John Connors",
-        "vertical": false,
+        "title": "💯 BEST WAY to ESCAPE THE OMOPLATA Shoulder Lock",
         "channel": "John Connors, Old Man BJJ Black Belt",
-        "duration": 62,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "Y4TxL4mDSKg",
-        "title": "Defending the Omoplata Sweep",
-        "by": "Ninja Pinto",
+        "duration": 61,
         "vertical": false,
-        "channel": "Ninja Pinto BJJ",
-        "duration": 47,
-        "verified": "2026-07-14"
+        "front": true
       }
     ]
   }

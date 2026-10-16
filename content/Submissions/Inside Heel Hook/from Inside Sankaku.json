@@ -460,31 +460,12 @@
     ],
     "clips": [
       {
-        "id": "sIYeSMSkqeE",
-        "title": "Inside Heel Hook Finish",
-        "by": "Craig Jones",
+        "id": "n6EoUkDwUVc",
+        "title": "4 Variations Of Heel Hook Finish From Saddle",
+        "channel": "The Grappling Bloke",
+        "duration": 101,
         "vertical": false,
-        "channel": "Professor Buck",
-        "duration": 18,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "6gu-n4P9JXo",
-        "title": "Heel Hook Breaking Mechanics",
-        "by": "Craig Jones",
-        "vertical": false,
-        "channel": "Altay Pirge",
-        "duration": 77,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "lyF2GxQrLoQ",
-        "title": "Inside Sankaku Heel Hook Finish",
-        "by": "Professor Buck",
-        "vertical": false,
-        "channel": "Professor Buck",
-        "duration": 106,
-        "verified": "2026-07-14"
+        "front": true
       }
     ]
   },
@@ -673,25 +654,6 @@
         "description": "Positional sparring starting in established Inside Sankaku. Defender works full escape attempts against attacker using complete offensive toolkit. Both partners maintain catch-and-release rules on all heel hooks. Build real-time defensive decision-making under pressure. Reset when escape is successful or submission is caught."
       }
     ],
-    "clips": [
-      {
-        "id": "v3w0qXLKxug",
-        "title": "Defending Heel Hooks",
-        "by": "Lachlan Giles",
-        "vertical": false,
-        "channel": "Absolute MMA St Kilda - Melbourne",
-        "duration": 92,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "q1JgpfFRDA4",
-        "title": "Inside Sankaku Counter to Inside Heel Hook",
-        "by": "Pedro Rocha",
-        "vertical": false,
-        "channel": "BJJ ONLINE",
-        "duration": 163,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   }
 }

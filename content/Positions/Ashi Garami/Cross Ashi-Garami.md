@@ -46,35 +46,12 @@ description: "Master Cross Ashi-Garami position in BJJ. Strategic guide covering
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "X-Guard to Saddle (Cross Ashi)",
-      "description": "Cross Ashi-Garami film study: X-Guard to Saddle (Cross Ashi), taught by Johnny Jitsu.",
+      "name": "How to go from X-Guard to Saddle (cross ashi)",
+      "description": "Cross Ashi-Garami film study: How to go from X-Guard to Saddle (cross ashi).",
       "thumbnailUrl": "https://i.ytimg.com/vi/HVc2CKdAfN0/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/HVc2CKdAfN0",
       "url": "https://www.youtube.com/watch?v=HVc2CKdAfN0",
-      "creator": { "@type": "Person", "name": "Johnny Jitsu" },
       "duration": "PT120S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Simple Trick to Fix Your Cross Ashi",
-      "description": "Cross Ashi-Garami film study: Simple Trick to Fix Your Cross Ashi, taught by Factory Fresh Jiu Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/nVfqMfVpTVk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/nVfqMfVpTVk",
-      "url": "https://www.youtube.com/watch?v=nVfqMfVpTVk",
-      "creator": { "@type": "Person", "name": "Factory Fresh Jiu Jitsu" },
-      "duration": "PT55S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "K Guard to Cross Ashi",
-      "description": "Cross Ashi-Garami film study: K Guard to Cross Ashi, taught by Phage Jiu-Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/f0DAtrYy41s/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/f0DAtrYy41s",
-      "url": "https://www.youtube.com/watch?v=f0DAtrYy41s",
-      "creator": { "@type": "Person", "name": "Phage Jiu-Jitsu" },
-      "duration": "PT20S"
     }
   ]
 }
@@ -129,23 +106,7 @@ The strategic importance of Cross Ashi-Garami in contemporary BJJ cannot be over
 
 ![](https://www.youtube.com/watch?v=HVc2CKdAfN0)
 
-<p class="clip-credit"><strong>X-Guard to Saddle (Cross Ashi)</strong> — taught by Johnny Jitsu · 2:00 · <a href="https://www.youtube.com/watch?v=HVc2CKdAfN0" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=nVfqMfVpTVk)
-
-<p class="clip-credit"><strong>Simple Trick to Fix Your Cross Ashi</strong> — taught by Factory Fresh Jiu Jitsu · 0:55 · <a href="https://www.youtube.com/watch?v=nVfqMfVpTVk" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=f0DAtrYy41s)
-
-<p class="clip-credit"><strong>K Guard to Cross Ashi</strong> — taught by Phage Jiu-Jitsu · 0:20 · <a href="https://www.youtube.com/watch?v=f0DAtrYy41s" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How to go from X-Guard to Saddle (cross ashi)</strong> · 2:00 · <a href="https://www.youtube.com/watch?v=HVc2CKdAfN0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

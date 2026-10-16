@@ -46,35 +46,12 @@ description: "Master the Inside Ashi-Garami to Honey Hole transition in BJJ. Thr
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Entering the saddle / honey hole / 411 position",
-      "description": "Inside Ashi-Garami to Honey Hole film study: Entering the saddle / honey hole / 411 position, taught by Foundation Chicago.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/xCrW5MBmqig/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/xCrW5MBmqig",
-      "url": "https://www.youtube.com/watch?v=xCrW5MBmqig",
-      "creator": { "@type": "Person", "name": "Foundation Chicago" },
-      "duration": "PT44S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Ashi garami to 411 transition",
-      "description": "Inside Ashi-Garami to Honey Hole film study: Ashi garami to 411 transition, taught by BJJ Battalion.",
+      "name": "Ashi garami to 411",
+      "description": "Inside Ashi-Garami to Honey Hole film study: Ashi garami to 411.",
       "thumbnailUrl": "https://i.ytimg.com/vi/lVYMMNbJjRk/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/lVYMMNbJjRk",
       "url": "https://www.youtube.com/watch?v=lVYMMNbJjRk",
-      "creator": { "@type": "Person", "name": "BJJ Battalion" },
       "duration": "PT71S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Cross ashi (saddle / 411) entry",
-      "description": "Inside Ashi-Garami to Honey Hole film study: Cross ashi (saddle / 411) entry, taught by bjj doug.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/N2weatRR_V4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/N2weatRR_V4",
-      "url": "https://www.youtube.com/watch?v=N2weatRR_V4",
-      "creator": { "@type": "Person", "name": "bjj doug" },
-      "duration": "PT28S"
     }
   ]
 }
@@ -128,25 +105,9 @@ The timing window for this transition typically opens when opponent commits weig
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=xCrW5MBmqig)
-
-<p class="clip-credit"><strong>Entering the saddle / honey hole / 411 position</strong> — taught by Foundation Chicago · 0:44 · <a href="https://www.youtube.com/watch?v=xCrW5MBmqig" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=lVYMMNbJjRk)
 
-<p class="clip-credit"><strong>Ashi garami to 411 transition</strong> — taught by BJJ Battalion · 1:11 · <a href="https://www.youtube.com/watch?v=lVYMMNbJjRk" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=N2weatRR_V4)
-
-<p class="clip-credit"><strong>Cross ashi (saddle / 411) entry</strong> — taught by bjj doug · 0:28 · <a href="https://www.youtube.com/watch?v=N2weatRR_V4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Ashi garami to 411</strong> · 1:11 · <a href="https://www.youtube.com/watch?v=lVYMMNbJjRk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

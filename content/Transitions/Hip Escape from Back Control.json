@@ -371,21 +371,11 @@
     "clips": [
       {
         "id": "RR-T-7E7yjo",
-        "title": "Back escape to half guard",
-        "by": "Soma Academy",
-        "vertical": false,
+        "title": "Seated Back Mount Escape #2 Transition to Half Guard",
         "channel": "Soma Academy",
-        "duration": 89,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "3Jd2llamfl8",
-        "title": "Back control escape fundamentals",
-        "by": "Jean Jacques Machado",
+        "duration": 88,
         "vertical": false,
-        "channel": "JeanJacquesMachado",
-        "duration": 189,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },
@@ -563,25 +553,6 @@
         "description": "Positional rounds starting from back control where your partner uses all available escapes at full resistance. Practice chaining defensive responses including control tightening, submission threats, mount transitions, and re-takes from turtle. Develop a complete defensive game plan that addresses the hip escape within the context of all back control escape methods."
       }
     ],
-    "clips": [
-      {
-        "id": "Of8NGELqhfY",
-        "title": "Keeping back control as they escape",
-        "by": "John Connors",
-        "vertical": false,
-        "channel": "John Connors, Old Man BJJ Black Belt",
-        "duration": 93,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "8JwxpgWGsFU",
-        "title": "Using the body triangle to hold the back",
-        "by": "Gordon Ryan",
-        "vertical": false,
-        "channel": "Less Impressed More Involved BJJ",
-        "duration": 294,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

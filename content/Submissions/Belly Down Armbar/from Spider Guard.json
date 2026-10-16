@@ -388,22 +388,17 @@
     ],
     "clips": [
       {
-        "id": "M6B2-c6cyog",
-        "title": "From Spider Guard to Arm Bar",
-        "by": "Thamires Acquino",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 221,
-        "verified": "2026-07-14"
+        "id": "CqiU-5v9JX0",
+        "title": "Monday Morning Technique: Belly Down Armbar from Spider Guard",
+        "channel": "Barum Jiu Jitsu",
+        "duration": 270,
+        "front": true
       },
       {
-        "id": "Rle6wKSOeEA",
-        "title": "Quick Armbar from the Shin Trap",
-        "by": "Langaker BJJ",
-        "vertical": false,
-        "channel": "LangakerBjj",
-        "duration": 98,
-        "verified": "2026-07-14"
+        "id": "HiHDLJkQgBA",
+        "title": "BJJ - Belly down armbar from spider guard",
+        "channel": "predadorbjj",
+        "duration": 296
       }
     ]
   },
@@ -564,25 +559,6 @@
         "description": "Start from progressively later defensive positions: leg already crossing over, arm already trapped, and rotation in progress. Practice stacking forward, bridging into the attacker, and grip defense. Critically, practice recognizing when the belly-down position is fully locked and tapping immediately rather than fighting a losing position."
       }
     ],
-    "clips": [
-      {
-        "id": "GOzoDB10XkY",
-        "title": "Lasso & Spider Guard Defense",
-        "by": "Binder BJJ",
-        "vertical": false,
-        "channel": "Binder Brazilian Jiu Jitsu",
-        "duration": 245,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "YGFC75H8m8s",
-        "title": "Spider guard defense concepts",
-        "by": "Ricardo Liborio",
-        "vertical": false,
-        "channel": "Pathfinder Jiu-Jitsu Team",
-        "duration": 250,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

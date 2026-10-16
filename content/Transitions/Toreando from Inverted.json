@@ -358,35 +358,7 @@
       }
     ],
     "safety_considerations": "The toreando from inverted guard requires particular care regarding the inverted player's cervical spine. Aggressive lateral leg redirection while the opponent is inverted can create dangerous rotational forces on the neck if their shoulders are anchored to the mat. The passer should redirect legs laterally rather than driving them downward toward the opponent's head. Both practitioners should communicate immediately if neck pressure becomes excessive during training. Develop the pass at controlled speed before applying full competition intensity, and immediately release all pressure if your training partner signals discomfort or taps. Avoid explosive jerking motions on the legs that could cause knee or ankle injuries.",
-    "clips": [
-      {
-        "id": "Qu_9Lcdrh_w",
-        "title": "Speed passing drill session",
-        "by": "Rafael Mendes",
-        "vertical": false,
-        "channel": "ART OF JIU JITSU",
-        "duration": 156,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "1l5WTjjtrF4",
-        "title": "Toreando pass with leg drag",
-        "by": "Lachlan Giles",
-        "vertical": false,
-        "channel": "Absolute MMA St Kilda - Melbourne",
-        "duration": 452,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "LGwa2fQwWYc",
-        "title": "Three variations of the toreando pass",
-        "by": "Lachlan Giles",
-        "vertical": false,
-        "channel": "Absolute MMA St Kilda - Melbourne",
-        "duration": 713,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Toreando from Inverted Defender",
@@ -557,34 +529,6 @@
         "description": "After developing consistent guard retention against the toreando, begin incorporating offensive counters including berimbolo entries, sweep attempts, and guard transitions based on the passer's weight distribution and commitment level. Practice recognizing the difference between a passer who can be countered versus one who requires pure defensive retention."
       }
     ],
-    "clips": [
-      {
-        "id": "3w8W6dr2Bw8",
-        "title": "Framing the guard versus the toreando pass",
-        "by": "Rafael Mendes",
-        "vertical": false,
-        "channel": "ART OF JIU JITSU",
-        "duration": 40,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "Ad4250mBWKc",
-        "title": "Toreando defense with a roll counter",
-        "by": "Revolution BJJ",
-        "vertical": false,
-        "channel": "Revolution BJJ",
-        "duration": 84,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "guEr6TkpBOQ",
-        "title": "No-gi retention principles vs toreando passing",
-        "by": "Mads H.",
-        "vertical": false,
-        "channel": "Mads H. BJJ",
-        "duration": 190,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

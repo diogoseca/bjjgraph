@@ -152,23 +152,21 @@ description: "How to defend against Switch to Triangle in BJJ. Recognition cues,
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Triangle Choke Escape: Hips Down, Posture Up",
-      "description": "Switch to Triangle (Defender) film study: Triangle Choke Escape: Hips Down, Posture Up, taught by Mat Life Training Center.",
+      "name": "Triangle Choke Escape #3 Hips Down, Posture Up",
+      "description": "Switch to Triangle (Defender) film study: Triangle Choke Escape #3 Hips Down, Posture Up.",
       "thumbnailUrl": "https://i.ytimg.com/vi/HLWwfq8FNMI/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/HLWwfq8FNMI",
       "url": "https://www.youtube.com/watch?v=HLWwfq8FNMI",
-      "creator": { "@type": "Person", "name": "Mat Life Training Center" },
-      "duration": "PT19S"
+      "duration": "PT18S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Triangle Choke from Guard: Posture Up Escape",
-      "description": "Switch to Triangle (Defender) film study: Triangle Choke from Guard: Posture Up Escape, taught by Cosens MMA.",
+      "name": "Triangle choke from Guard \"Posture Up Escape",
+      "description": "Switch to Triangle (Defender) film study: Triangle choke from Guard \"Posture Up Escape.",
       "thumbnailUrl": "https://i.ytimg.com/vi/dJOw0ZEyXXc/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/dJOw0ZEyXXc",
       "url": "https://www.youtube.com/watch?v=dJOw0ZEyXXc",
-      "creator": { "@type": "Person", "name": "Cosens MMA" },
       "duration": "PT73S"
     }
   ]
@@ -201,7 +199,7 @@ The defensive hierarchy follows a clear priority sequence. First, prevent the co
 
 ![](https://www.youtube.com/watch?v=HLWwfq8FNMI)
 
-<p class="clip-credit"><strong>Triangle Choke Escape: Hips Down, Posture Up</strong> — taught by Mat Life Training Center · 0:19 · <a href="https://www.youtube.com/watch?v=HLWwfq8FNMI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Triangle Choke Escape #3 Hips Down, Posture Up</strong> · 0:18 · <a href="https://www.youtube.com/watch?v=HLWwfq8FNMI" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -209,7 +207,7 @@ The defensive hierarchy follows a clear priority sequence. First, prevent the co
 
 ![](https://www.youtube.com/watch?v=dJOw0ZEyXXc)
 
-<p class="clip-credit"><strong>Triangle Choke from Guard: Posture Up Escape</strong> — taught by Cosens MMA · 1:13 · <a href="https://www.youtube.com/watch?v=dJOw0ZEyXXc" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Triangle choke from Guard &#34;Posture Up Escape</strong> · 1:13 · <a href="https://www.youtube.com/watch?v=dJOw0ZEyXXc" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

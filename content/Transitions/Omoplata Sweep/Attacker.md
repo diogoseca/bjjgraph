@@ -186,35 +186,22 @@ description: "How to execute the Omoplata Sweep in BJJ. Attacking perspective wi
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Omoplata sweep from guard",
-      "description": "Omoplata Sweep (Attacker) film study: Omoplata sweep from guard, taught by Thunderdome BJJ.",
+      "name": "Omoplata Sweep",
+      "description": "Omoplata Sweep (Attacker) film study: Omoplata Sweep.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Ar2oa-jV9-Y/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Ar2oa-jV9-Y",
       "url": "https://www.youtube.com/watch?v=Ar2oa-jV9-Y",
-      "creator": { "@type": "Person", "name": "Thunderdome BJJ" },
       "duration": "PT50S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Clark Gracie omoplata breakdown",
-      "description": "Omoplata Sweep (Attacker) film study: Clark Gracie omoplata breakdown, taught by Clark Gracie.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/oQAP8nARiHU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/oQAP8nARiHU",
-      "url": "https://www.youtube.com/watch?v=oQAP8nARiHU",
-      "creator": { "@type": "Person", "name": "Clark Gracie" },
-      "duration": "PT100S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Omoplata and log roll sweep",
-      "description": "Omoplata Sweep (Attacker) film study: Omoplata and log roll sweep, taught by PAC Jiu-Jitsu.",
+      "name": "Omoplata and Log Roll Sweep #bjj #pacjiujitsu #riganmachado",
+      "description": "Omoplata Sweep (Attacker) film study: Omoplata and Log Roll Sweep #bjj #pacjiujitsu #riganmachado.",
       "thumbnailUrl": "https://i.ytimg.com/vi/GDXF6brOcjw/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/GDXF6brOcjw",
       "url": "https://www.youtube.com/watch?v=GDXF6brOcjw",
-      "creator": { "@type": "Person", "name": "PAC Jiu-Jitsu" },
-      "duration": "PT108S"
+      "duration": "PT107S"
     }
   ]
 }
@@ -244,15 +231,7 @@ The Omoplata Sweep attacks from closed guard by threatening the omoplata shoulde
 
 ![](https://www.youtube.com/watch?v=Ar2oa-jV9-Y)
 
-<p class="clip-credit"><strong>Omoplata sweep from guard</strong> — taught by Thunderdome BJJ · 0:50 · <a href="https://www.youtube.com/watch?v=Ar2oa-jV9-Y" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=oQAP8nARiHU)
-
-<p class="clip-credit"><strong>Clark Gracie omoplata breakdown</strong> — taught by Clark Gracie · 1:40 · <a href="https://www.youtube.com/watch?v=oQAP8nARiHU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Omoplata Sweep</strong> · 0:50 · <a href="https://www.youtube.com/watch?v=Ar2oa-jV9-Y" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -260,7 +239,7 @@ The Omoplata Sweep attacks from closed guard by threatening the omoplata shoulde
 
 ![](https://www.youtube.com/watch?v=GDXF6brOcjw)
 
-<p class="clip-credit"><strong>Omoplata and log roll sweep</strong> — taught by PAC Jiu-Jitsu · 1:48 · <a href="https://www.youtube.com/watch?v=GDXF6brOcjw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Omoplata and Log Roll Sweep #bjj #pacjiujitsu #riganmachado</strong> · 1:47 · <a href="https://www.youtube.com/watch?v=GDXF6brOcjw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -47,35 +47,32 @@ description: "Establish the Double Unders stacking control from Open Guard top. 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Double unders pass breakdown",
-      "description": "Open Guard to Double Unders film study: Double unders pass breakdown, taught by Nicky Ryan.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/N4PxPPv98k4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/N4PxPPv98k4",
-      "url": "https://www.youtube.com/watch?v=N4PxPPv98k4",
-      "creator": { "@type": "Person", "name": "Nicky Ryan" },
-      "duration": "PT91S"
+      "name": "Jiu-Jitsu SUPER EASY double under guard pass defense!",
+      "description": "Open Guard to Double Unders film study: Jiu-Jitsu SUPER EASY double under guard pass defense!.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4k-D0Q8DeGQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4k-D0Q8DeGQ",
+      "url": "https://www.youtube.com/watch?v=4k-D0Q8DeGQ",
+      "duration": "PT56S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Double under pass",
-      "description": "Open Guard to Double Unders film study: Double under pass, taught by Elite MMA.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/0qu9a0a3ozQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/0qu9a0a3ozQ",
-      "url": "https://www.youtube.com/watch?v=0qu9a0a3ozQ",
-      "creator": { "@type": "Person", "name": "Elite MMA" },
-      "duration": "PT70S"
+      "name": "Double Under Stack Pass Counter - Triangle",
+      "description": "Open Guard to Double Unders film study: Double Under Stack Pass Counter - Triangle.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/1UOj60dc540/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/1UOj60dc540",
+      "url": "https://www.youtube.com/watch?v=1UOj60dc540",
+      "duration": "PT68S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "No-gi double under guard pass",
-      "description": "Open Guard to Double Unders film study: No-gi double under guard pass, taught by Garden State BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/wBZrTpuXV50/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/wBZrTpuXV50",
-      "url": "https://www.youtube.com/watch?v=wBZrTpuXV50",
-      "creator": { "@type": "Person", "name": "Garden State BJJ" },
-      "duration": "PT63S"
+      "name": "Very Effective Double Under Stack Defense And Counter",
+      "description": "Open Guard to Double Unders film study: Very Effective Double Under Stack Defense And Counter.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Ad0qtay9IVQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Ad0qtay9IVQ",
+      "url": "https://www.youtube.com/watch?v=Ad0qtay9IVQ",
+      "duration": "PT130S"
     }
   ]
 }
@@ -132,25 +129,25 @@ For the passer this entry is a commitment. Diving both arms under the legs surre
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=N4PxPPv98k4)
+![](https://www.youtube.com/watch?v=4k-D0Q8DeGQ)
 
-<p class="clip-credit"><strong>Double unders pass breakdown</strong> — taught by Nicky Ryan · 1:31 · <a href="https://www.youtube.com/watch?v=N4PxPPv98k4" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=0qu9a0a3ozQ)
-
-<p class="clip-credit"><strong>Double under pass</strong> — taught by Elite MMA · 1:10 · <a href="https://www.youtube.com/watch?v=0qu9a0a3ozQ" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Jiu-Jitsu SUPER EASY double under guard pass defense!</strong> · 0:56 · <a href="https://www.youtube.com/watch?v=4k-D0Q8DeGQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=wBZrTpuXV50)
+![](https://www.youtube.com/watch?v=1UOj60dc540)
 
-<p class="clip-credit"><strong>No-gi double under guard pass</strong> — taught by Garden State BJJ · 1:03 · <a href="https://www.youtube.com/watch?v=wBZrTpuXV50" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Double Under Stack Pass Counter - Triangle</strong> · 1:08 · <a href="https://www.youtube.com/watch?v=1UOj60dc540" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Ad0qtay9IVQ)
+
+<p class="clip-credit"><strong>Very Effective Double Under Stack Defense And Counter</strong> · 2:10 · <a href="https://www.youtube.com/watch?v=Ad0qtay9IVQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

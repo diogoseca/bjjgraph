@@ -165,35 +165,22 @@ description: "Master Deep Half Guard Bottom with powerful sweeps, back takes, an
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Deep Half Faria Sweep",
-      "description": "Deep Half Guard (Bottom) film study: Deep Half Faria Sweep, taught by Team Daruma Dojo.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/4EpYNsTwjWY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/4EpYNsTwjWY",
-      "url": "https://www.youtube.com/watch?v=4EpYNsTwjWY",
-      "creator": { "@type": "Person", "name": "Team Daruma Dojo" },
-      "duration": "PT71S"
+      "name": "Deep Half Guard - Basics Summary",
+      "description": "Deep Half Guard (Bottom) film study: Deep Half Guard - Basics Summary.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rYMsh27-f7g/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/rYMsh27-f7g",
+      "url": "https://www.youtube.com/watch?v=rYMsh27-f7g",
+      "duration": "PT263S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Deep Half Guard Sweep",
-      "description": "Deep Half Guard (Bottom) film study: Deep Half Guard Sweep, taught by Kyle Dimmitt.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/ZQzg3TnzMJI/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/ZQzg3TnzMJI",
-      "url": "https://www.youtube.com/watch?v=ZQzg3TnzMJI",
-      "creator": { "@type": "Person", "name": "Kyle Dimmitt" },
-      "duration": "PT42S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Deep Half Guard Sweep (No Gi)",
-      "description": "Deep Half Guard (Bottom) film study: Deep Half Guard Sweep (No Gi), taught by Prism Jiu Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/v7MopqNBzwY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/v7MopqNBzwY",
-      "url": "https://www.youtube.com/watch?v=v7MopqNBzwY",
-      "creator": { "@type": "Person", "name": "Prism Jiu Jitsu" },
-      "duration": "PT53S"
+      "name": "Jeff Glover explains low grip and high grip for deep half guard",
+      "description": "Deep Half Guard (Bottom) film study: Jeff Glover explains low grip and high grip for deep half guard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_IGB9jEvXfo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_IGB9jEvXfo",
+      "url": "https://www.youtube.com/watch?v=_IGB9jEvXfo",
+      "duration": "PT41S"
     }
   ]
 }
@@ -223,25 +210,17 @@ Deep Half Guard Bottom requires excellent hip mobility, core strength, and timin
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=4EpYNsTwjWY)
+![](https://www.youtube.com/watch?v=rYMsh27-f7g)
 
-<p class="clip-credit"><strong>Deep Half Faria Sweep</strong> — taught by Team Daruma Dojo · 1:11 · <a href="https://www.youtube.com/watch?v=4EpYNsTwjWY" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=ZQzg3TnzMJI)
-
-<p class="clip-credit"><strong>Deep Half Guard Sweep</strong> — taught by Kyle Dimmitt · 0:42 · <a href="https://www.youtube.com/watch?v=ZQzg3TnzMJI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Deep Half Guard - Basics Summary</strong> · 4:23 · <a href="https://www.youtube.com/watch?v=rYMsh27-f7g" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=v7MopqNBzwY)
+![](https://www.youtube.com/watch?v=_IGB9jEvXfo)
 
-<p class="clip-credit"><strong>Deep Half Guard Sweep (No Gi)</strong> — taught by Prism Jiu Jitsu · 0:53 · <a href="https://www.youtube.com/watch?v=v7MopqNBzwY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Jeff Glover explains low grip and high grip for deep half guard</strong> · 0:41 · <a href="https://www.youtube.com/watch?v=_IGB9jEvXfo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -486,26 +486,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "oyXaGXU3mFU",
-        "title": "Rear Triangle from Side Control",
-        "by": "Onyx Martial Arts",
-        "vertical": false,
-        "channel": "Onyx Martial Arts Edmundston ",
-        "duration": 77,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "NA50Ay8yL1k",
-        "title": "Triangle from Side Control",
-        "by": "Ricardo Marques",
-        "vertical": false,
-        "channel": "Bernardo Faria BJJ Fanatics",
-        "duration": 258,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Triangle Choke Side Defender",
@@ -696,26 +677,7 @@
         "description": "Start from side control bottom against a partner who is actively hunting the side triangle along with other submissions. Practice maintaining defensive arm position throughout all side control exchanges, recognizing and defending triangle setups in real time, and executing full escape sequences when caught. Track how often you get caught versus successfully defending at each stage (pre-lock, post-lock, finish). Integrate defense into your overall side control escape strategy."
       }
     ],
-    "clips": [
-      {
-        "id": "sR2rS2dwpNY",
-        "title": "How to Escape a Triangle Choke",
-        "by": "Rener & Ryron Gracie",
-        "vertical": false,
-        "channel": "Hayabusa",
-        "duration": 117,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "RzLPbrQAaRM",
-        "title": "4 Triangle Choke Defenses",
-        "by": "Ramsey Dewey",
-        "vertical": false,
-        "channel": "Ramsey Dewey",
-        "duration": 245,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   },
   "variations_and_setups": [
     {

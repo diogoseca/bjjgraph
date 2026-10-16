@@ -186,24 +186,12 @@ description: "Complete attacker guide for Break Overhook Guard. Learn systematic
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Breaking the overhook clamp from closed guard",
-      "description": "Break Overhook Guard (Attacker) film study: Breaking the overhook clamp from closed guard, taught by The Grappling Bloke.",
+      "name": "Closed Guard Defense and Counter to the Clamp (Over Hook Position)",
+      "description": "Break Overhook Guard (Attacker) film study: Closed Guard Defense and Counter to the Clamp (Over Hook Position).",
       "thumbnailUrl": "https://i.ytimg.com/vi/58LkTy6v3KQ/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/58LkTy6v3KQ",
       "url": "https://www.youtube.com/watch?v=58LkTy6v3KQ",
-      "creator": { "@type": "Person", "name": "The Grappling Bloke" },
-      "duration": "PT109S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Overhook escape and half guard sweep",
-      "description": "Break Overhook Guard (Attacker) film study: Overhook escape and half guard sweep, taught by JiuJitsu.com.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/21-ZmD25pMs/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/21-ZmD25pMs",
-      "url": "https://www.youtube.com/watch?v=21-ZmD25pMs",
-      "creator": { "@type": "Person", "name": "JiuJitsu.com" },
-      "duration": "PT197S"
+      "duration": "PT108S"
     }
   ]
 }
@@ -233,15 +221,7 @@ As the attacker executing Break Overhook Guard, you are the top player inside yo
 
 ![](https://www.youtube.com/watch?v=58LkTy6v3KQ)
 
-<p class="clip-credit"><strong>Breaking the overhook clamp from closed guard</strong> — taught by The Grappling Bloke · 1:49 · <a href="https://www.youtube.com/watch?v=58LkTy6v3KQ" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=21-ZmD25pMs)
-
-<p class="clip-credit"><strong>Overhook escape and half guard sweep</strong> — taught by JiuJitsu.com · 3:17 · <a href="https://www.youtube.com/watch?v=21-ZmD25pMs" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Closed Guard Defense and Counter to the Clamp (Over Hook Position)</strong> · 1:48 · <a href="https://www.youtube.com/watch?v=58LkTy6v3KQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

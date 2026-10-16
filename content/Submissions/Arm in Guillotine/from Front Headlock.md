@@ -46,35 +46,12 @@ description: "Master the arm-in guillotine from front headlock with expert grip 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "The Marcelotine Arm-In Guillotine",
-      "description": "Arm in Guillotine from Front Headlock film study: The Marcelotine Arm-In Guillotine, taught by Marcelo Garcia.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/NUnTxPvjCa0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/NUnTxPvjCa0",
-      "url": "https://www.youtube.com/watch?v=NUnTxPvjCa0",
-      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
-      "duration": "PT73S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Arm-in Guillotine (Lapel-assisted)",
-      "description": "Arm in Guillotine from Front Headlock film study: Arm-in Guillotine (Lapel-assisted), taught by Johnny Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/8AGCNn4ElSA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/8AGCNn4ElSA",
-      "url": "https://www.youtube.com/watch?v=8AGCNn4ElSA",
-      "creator": { "@type": "Person", "name": "Johnny Jitsu" },
-      "duration": "PT61S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Marcelo Garcia Marcelotine Guillotine",
-      "description": "Arm in Guillotine from Front Headlock film study: Marcelo Garcia Marcelotine Guillotine, taught by Marcelo Garcia.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Dg1dvtWkXhE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Dg1dvtWkXhE",
-      "url": "https://www.youtube.com/watch?v=Dg1dvtWkXhE",
-      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
-      "duration": "PT110S"
+      "name": "The Merge Ep. 36 - Front Headlock Setup to Arm In Guillotine Choke Finish",
+      "description": "Arm in Guillotine from Front Headlock film study: The Merge Ep. 36 - Front Headlock Setup to Arm In Guillotine Choke Finish.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6mk44HMm720/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6mk44HMm720",
+      "url": "https://www.youtube.com/watch?v=6mk44HMm720",
+      "duration": "PT233S"
     }
   ]
 }
@@ -137,25 +114,9 @@ Strategically, the arm-in guillotine from front headlock serves as a powerful de
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=NUnTxPvjCa0)
+![](https://www.youtube.com/watch?v=6mk44HMm720)
 
-<p class="clip-credit"><strong>The Marcelotine Arm-In Guillotine</strong> — taught by Marcelo Garcia · 1:13 · <a href="https://www.youtube.com/watch?v=NUnTxPvjCa0" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip film-clip--vertical">
-
-![](https://www.youtube.com/watch?v=8AGCNn4ElSA)
-
-<p class="clip-credit"><strong>Arm-in Guillotine (Lapel-assisted)</strong> — taught by Johnny Jitsu · 1:01 · <a href="https://www.youtube.com/watch?v=8AGCNn4ElSA" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=Dg1dvtWkXhE)
-
-<p class="clip-credit"><strong>Marcelo Garcia Marcelotine Guillotine</strong> — taught by Marcelo Garcia · 1:50 · <a href="https://www.youtube.com/watch?v=Dg1dvtWkXhE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>The Merge Ep. 36 - Front Headlock Setup to Arm In Guillotine Choke Finish</strong> · 3:53 · <a href="https://www.youtube.com/watch?v=6mk44HMm720" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

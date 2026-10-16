@@ -377,31 +377,12 @@
     "safety_considerations": "The Electric Chair sweep involves significant pressure on the opponent's knee, hip joint, and groin area through the splitting mechanism. Always apply splitting pressure gradually during training to allow partners time to tap before injury occurs. Be especially cautious with the lockdown leg configuration, as forced extraction by either player can damage the trapped knee. When drilling, communicate clearly with your partner about pressure levels and stop immediately if they signal discomfort. The sweep motion itself carries lower injury risk, but the setup pressure demands constant awareness.",
     "clips": [
       {
-        "id": "sMbaY4vG2mM",
-        "title": "Electric chair from lockdown half guard",
-        "by": "Brandon McCaghren",
-        "vertical": false,
-        "channel": "Brandon Mccaghren",
-        "duration": 42,
-        "verified": "2026-07-15"
-      },
-      {
         "id": "9CxxyZEd7-E",
-        "title": "Electric chair sweep technique breakdown",
-        "by": "Asaf Mich",
-        "vertical": false,
+        "title": "Electric Chair Sweep - Technique Breakdown",
         "channel": "Asaf Mich",
         "duration": 76,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "O18n2Z5HISI",
-        "title": "Electric chair from deep half guard",
-        "by": "Heart & Dagger BJJ",
         "vertical": false,
-        "channel": "Heart & Dagger  BJJ - Mineral Wells Jiu Jitsu",
-        "duration": 43,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },
@@ -583,21 +564,11 @@
     "clips": [
       {
         "id": "3A6oRsDf3oU",
-        "title": "Lockdown and electric chair counters and escapes",
-        "by": "Street Jitsu",
-        "vertical": false,
+        "title": "Lockdown and Electric Chair counters and escapes for Jiu-Jitsu, MMA and…",
         "channel": "Street Jitsu",
-        "duration": 286,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "pzpqHP-xx0I",
-        "title": "10th Planet Electric Chair: The 3 Micro Battles",
-        "by": "Patrick Donabedian",
+        "duration": 285,
         "vertical": false,
-        "channel": "Patrick Donabedian BJJ",
-        "duration": 630,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   }

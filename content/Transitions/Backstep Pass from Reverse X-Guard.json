@@ -391,26 +391,7 @@
       }
     ],
     "safety_considerations": "The Backstep Pass from Reverse X-Guard is generally a low-risk technique with no direct submission threat. However, the rotation can create torque on the trapped knee if the opponent's hooks do not release cleanly during the backstep arc. Practitioners should avoid forcing the rotation against deeply set hooks and instead focus on creating hook slack before committing to the step. Training partners should release hooks that are being rotated against to prevent knee ligament strain. In drilling, start with cooperative releases and gradually increase resistance.",
-    "clips": [
-      {
-        "id": "WsQy2bzQqL8",
-        "title": "Backstep pass against X-guard",
-        "by": "Wakizashi Jiu Jitsu",
-        "vertical": false,
-        "channel": "Wakizashi Jiu Jitsu",
-        "duration": 76,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "VDiS4NaIv8A",
-        "title": "No-gi back step pass from headquarters",
-        "by": "TAPS BJJ",
-        "vertical": false,
-        "channel": "TAPS BJJ",
-        "duration": 191,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Backstep Pass from Reverse X-Guard Defender",
@@ -576,30 +557,18 @@
     "clips": [
       {
         "id": "UYSDyiPraRQ",
-        "title": "Imanari roll to counter the backstep from reverse X",
-        "by": "Alex Fialho",
-        "vertical": false,
+        "title": "Imanari Roll to Counter Backstep from Reverse X | Grappler Alex Fialho",
         "channel": "LegLock Assassins",
-        "duration": 116,
-        "verified": "2026-07-15"
+        "duration": 115,
+        "vertical": false,
+        "front": true
       },
       {
         "id": "2hJO3DwdFK4",
-        "title": "Backstep counter from reverse X into the saddle",
-        "by": "Kieran Davern",
-        "vertical": false,
+        "title": "Reverse X Saddle Entry | Backstep Counter | Leg Locks",
         "channel": "KD Grappling | Kieran Davern",
         "duration": 198,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "a3ModDEKY6s",
-        "title": "Defending the backstep pass and recovering De La Riva",
-        "by": "Inverted Gear",
-        "vertical": false,
-        "channel": "Inverted Gear",
-        "duration": 145,
-        "verified": "2026-07-15"
+        "vertical": false
       }
     ]
   }

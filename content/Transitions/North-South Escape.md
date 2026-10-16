@@ -46,24 +46,12 @@ description: "Learn North-South Escape in BJJ. Step-by-step execution from North
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "North-south inverted spin escape",
-      "description": "North-South Escape film study: North-south inverted spin escape, taught by SBG Australia.",
+      "name": "4th stripe - North South inverted spin escape",
+      "description": "North-South Escape film study: 4th stripe - North South inverted spin escape.",
       "thumbnailUrl": "https://i.ytimg.com/vi/XaLBmGnHm78/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/XaLBmGnHm78",
       "url": "https://www.youtube.com/watch?v=XaLBmGnHm78",
-      "creator": { "@type": "Person", "name": "SBG Australia" },
-      "duration": "PT37S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Escaping switch-base side control pin",
-      "description": "North-South Escape film study: Escaping switch-base side control pin, taught by Renegade BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/4WBfhnf2mJI/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/4WBfhnf2mJI",
-      "url": "https://www.youtube.com/watch?v=4WBfhnf2mJI",
-      "creator": { "@type": "Person", "name": "Renegade BJJ" },
-      "duration": "PT68S"
+      "duration": "PT36S"
     }
   ]
 }
@@ -115,15 +103,7 @@ Among the pin escapes every serious bottom player must develop, escaping north-s
 
 ![](https://www.youtube.com/watch?v=XaLBmGnHm78)
 
-<p class="clip-credit"><strong>North-south inverted spin escape</strong> — taught by SBG Australia · 0:37 · <a href="https://www.youtube.com/watch?v=XaLBmGnHm78" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=4WBfhnf2mJI)
-
-<p class="clip-credit"><strong>Escaping switch-base side control pin</strong> — taught by Renegade BJJ · 1:08 · <a href="https://www.youtube.com/watch?v=4WBfhnf2mJI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>4th stripe - North South inverted spin escape</strong> · 0:36 · <a href="https://www.youtube.com/watch?v=XaLBmGnHm78" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -46,24 +46,12 @@ description: "Master the Knee Slide from Jailbreak in BJJ. Complete passing guid
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Inside knee cut through the knee shield",
-      "description": "Knee Slide from Jailbreak film study: Inside knee cut through the knee shield, taught by War Room Jiu Jitsu coach.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/yj_6xcl2emA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/yj_6xcl2emA",
-      "url": "https://www.youtube.com/watch?v=yj_6xcl2emA",
-      "creator": { "@type": "Person", "name": "War Room Jiu Jitsu coach" },
-      "duration": "PT70S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Knee slide pass demonstration",
-      "description": "Knee Slide from Jailbreak film study: Knee slide pass demonstration, taught by Coach Janis.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/tzcW3RMR_Ho/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/tzcW3RMR_Ho",
-      "url": "https://www.youtube.com/watch?v=tzcW3RMR_Ho",
-      "creator": { "@type": "Person", "name": "Coach Janis" },
-      "duration": "PT51S"
+      "name": "Basic Knee Slide Recovery",
+      "description": "Knee Slide from Jailbreak film study: Basic Knee Slide Recovery.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/RvIIpXaPyJM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/RvIIpXaPyJM",
+      "url": "https://www.youtube.com/watch?v=RvIIpXaPyJM",
+      "duration": "PT96S"
     }
   ]
 }
@@ -117,17 +105,9 @@ Strategically, this pass fits within the broader Jailbreak passing system as a t
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=yj_6xcl2emA)
+![](https://www.youtube.com/watch?v=RvIIpXaPyJM)
 
-<p class="clip-credit"><strong>Inside knee cut through the knee shield</strong> — taught by War Room Jiu Jitsu coach · 1:10 · <a href="https://www.youtube.com/watch?v=yj_6xcl2emA" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=tzcW3RMR_Ho)
-
-<p class="clip-credit"><strong>Knee slide pass demonstration</strong> — taught by Coach Janis · 0:51 · <a href="https://www.youtube.com/watch?v=tzcW3RMR_Ho" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Basic Knee Slide Recovery</strong> · 1:36 · <a href="https://www.youtube.com/watch?v=RvIIpXaPyJM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

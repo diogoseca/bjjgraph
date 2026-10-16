@@ -397,30 +397,11 @@
     "clips": [
       {
         "id": "plD6TW7pFv4",
-        "title": "Mount to technical mount transition",
-        "by": "Dark Horse BJJ",
-        "vertical": false,
+        "title": "Mount to Tech Mount transition",
         "channel": "Dark Horse Brazilian Jiu Jitsu",
         "duration": 20,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "1K1fZa3oqtE",
-        "title": "Scoot to technical mount transition drill",
-        "by": "Tri Training Harder",
         "vertical": false,
-        "channel": "Tri Training Harder LLP",
-        "duration": 47,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "gze6HZzBOfY",
-        "title": "Mount to modified mount and rear mount",
-        "by": "Coach Paul",
-        "vertical": false,
-        "channel": "Coach Paul - War Fork Jiu-Jitsu Academy",
-        "duration": 76,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },
@@ -604,21 +585,11 @@
     "clips": [
       {
         "id": "NHrpJdU8wCQ",
-        "title": "Technical mount escape out the back",
-        "by": "smallmanbjj",
-        "vertical": false,
+        "title": "Technical mount escape #1 Out the back",
         "channel": "smallmanbjj",
-        "duration": 58,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "9252EvCT0q4",
-        "title": "Mount escape when you are stuck",
-        "by": "Gabriel Gonzaga",
+        "duration": 57,
         "vertical": false,
-        "channel": "Gabriel Gonzaga",
-        "duration": 93,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   }

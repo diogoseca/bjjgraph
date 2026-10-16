@@ -477,31 +477,11 @@
     ],
     "clips": [
       {
-        "id": "EFEgiEekLNY",
-        "title": "Knee Cut Pass With Underhook",
-        "by": "Jiu Jitsu Curriculum",
-        "vertical": false,
-        "channel": "Jiu Jitsu Curriculum",
-        "duration": 62,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "IUvwQc_Y6RA",
-        "title": "Headquarters to Knee-Cut When Long Step Fails",
-        "by": "Tony Casarez",
-        "vertical": false,
-        "channel": "Tony Casarez",
-        "duration": 109,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "k4pZYVOwmbI",
-        "title": "Knee Shield Pass From Headquarters",
-        "by": "Jiu Jitsu Curriculum",
-        "vertical": false,
-        "channel": "Jiu Jitsu Curriculum",
-        "duration": 117,
-        "verified": "2026-07-14"
+        "id": "aWgHbWcaEpQ",
+        "title": "The \"Headquarters\" Position in BJJ: Everything You Need to Know",
+        "channel": "Gold BJJ",
+        "duration": 325,
+        "front": true
       }
     ]
   },
@@ -856,35 +836,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "lVLAROiSjNU",
-        "title": "Guard Retention: When To Sit Up Escape",
-        "by": "Lachlan Giles",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 136,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "Bp0v7c_MrbY",
-        "title": "Getting Feet On Biceps Position",
-        "by": "Lachlan Giles",
-        "vertical": false,
-        "channel": "Absolute MMA St Kilda - Melbourne",
-        "duration": 125,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "ynoR-AtSYUc",
-        "title": "Around The Legs Guard Retention",
-        "by": "Absolute MMA St Kilda",
-        "vertical": false,
-        "channel": "Absolute MMA St Kilda - Melbourne",
-        "duration": 210,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   },
   "flashcards_position": [
     {
@@ -1000,24 +952,5 @@
       }
     }
   ],
-  "clips": [
-    {
-      "id": "zT3JjOR838w",
-      "title": "Passing a Seated Guard With Underhooks",
-      "by": "John Danaher",
-      "vertical": false,
-      "channel": "BJJ Fanatics",
-      "duration": 143,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "ACWzSbjbo2g",
-      "title": "Gordon Ryan Style Guard Pass",
-      "by": "Danny Brown",
-      "vertical": false,
-      "channel": "UNC_CynX",
-      "duration": 209,
-      "verified": "2026-07-14"
-    }
-  ]
+  "clips": []
 }

@@ -448,26 +448,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "Xf8_An46qiw",
-        "title": "Passing low half guard to near-side underhook",
-        "by": "Michael Hoffman",
-        "vertical": false,
-        "channel": "Michael Hoffman",
-        "duration": 70,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "YLPNsyHtREs",
-        "title": "Monitoring the feet while passing guard",
-        "by": "Gordon Ryan",
-        "vertical": false,
-        "channel": "Michael Wong",
-        "duration": 50,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   },
   "bottom": {
     "name": "Pocket Half Guard Bottom",

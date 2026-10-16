@@ -46,24 +46,12 @@ description: "Master the kneebar from leg entanglement in BJJ. Learn setup from 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "2 Ways to Attack a Kneebar From Cross Ashi",
-      "description": "Kneebar from Leg Entanglement film study: 2 Ways to Attack a Kneebar From Cross Ashi, taught by King Kneebar.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/0wHq6PZVGfI/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/0wHq6PZVGfI",
-      "url": "https://www.youtube.com/watch?v=0wHq6PZVGfI",
-      "creator": { "@type": "Person", "name": "King Kneebar" },
-      "duration": "PT140S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Kneebar Sweep from Ashi Garami",
-      "description": "Kneebar from Leg Entanglement film study: Kneebar Sweep from Ashi Garami, taught by Edward Anthony.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/RV6_2YEOP8w/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/RV6_2YEOP8w",
-      "url": "https://www.youtube.com/watch?v=RV6_2YEOP8w",
-      "creator": { "@type": "Person", "name": "Edward Anthony" },
-      "duration": "PT159S"
+      "name": "How to Defend a Kneebar (and Prevent a Backstep Pass)",
+      "description": "Kneebar from Leg Entanglement film study: How to Defend a Kneebar (and Prevent a Backstep Pass).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wBRG0fY94fs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/wBRG0fY94fs",
+      "url": "https://www.youtube.com/watch?v=wBRG0fY94fs",
+      "duration": "PT59S"
     }
   ]
 }
@@ -126,17 +114,9 @@ This technique demands precise understanding of perpendicular hip alignment, tig
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=0wHq6PZVGfI)
+![](https://www.youtube.com/watch?v=wBRG0fY94fs)
 
-<p class="clip-credit"><strong>2 Ways to Attack a Kneebar From Cross Ashi</strong> — taught by King Kneebar · 2:20 · <a href="https://www.youtube.com/watch?v=0wHq6PZVGfI" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=RV6_2YEOP8w)
-
-<p class="clip-credit"><strong>Kneebar Sweep from Ashi Garami</strong> — taught by Edward Anthony · 2:39 · <a href="https://www.youtube.com/watch?v=RV6_2YEOP8w" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How to Defend a Kneebar (and Prevent a Backstep Pass)</strong> · 0:59 · <a href="https://www.youtube.com/watch?v=wBRG0fY94fs" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

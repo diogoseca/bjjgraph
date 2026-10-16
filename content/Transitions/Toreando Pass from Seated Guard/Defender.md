@@ -160,24 +160,12 @@ description: "Master defending the Toreando Pass from Seated Guard. Recognition 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Guard retention principles vs toreando passing",
-      "description": "Toreando Pass from Seated Guard (Defender) film study: Guard retention principles vs toreando passing, taught by Mads H..",
+      "name": "Nogi guard retention: Fundamental principles vs. Toreando passing",
+      "description": "Toreando Pass from Seated Guard (Defender) film study: Nogi guard retention: Fundamental principles vs. Toreando passing.",
       "thumbnailUrl": "https://i.ytimg.com/vi/guEr6TkpBOQ/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/guEr6TkpBOQ",
       "url": "https://www.youtube.com/watch?v=guEr6TkpBOQ",
-      "creator": { "@type": "Person", "name": "Mads H." },
       "duration": "PT190S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Prevent stack and toreando grips, connect to DLR",
-      "description": "Toreando Pass from Seated Guard (Defender) film study: Prevent stack and toreando grips, connect to DLR, taught by Mads H..",
-      "thumbnailUrl": "https://i.ytimg.com/vi/xPrj169c-rM/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/xPrj169c-rM",
-      "url": "https://www.youtube.com/watch?v=xPrj169c-rM",
-      "creator": { "@type": "Person", "name": "Mads H." },
-      "duration": "PT230S"
     }
   ]
 }
@@ -207,15 +195,7 @@ As the defender against the Toreando Pass from Seated Guard, your primary goal i
 
 ![](https://www.youtube.com/watch?v=guEr6TkpBOQ)
 
-<p class="clip-credit"><strong>Guard retention principles vs toreando passing</strong> — taught by Mads H. · 3:10 · <a href="https://www.youtube.com/watch?v=guEr6TkpBOQ" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=xPrj169c-rM)
-
-<p class="clip-credit"><strong>Prevent stack and toreando grips, connect to DLR</strong> — taught by Mads H. · 3:50 · <a href="https://www.youtube.com/watch?v=xPrj169c-rM" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Nogi guard retention: Fundamental principles vs. Toreando passing</strong> · 3:10 · <a href="https://www.youtube.com/watch?v=guEr6TkpBOQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

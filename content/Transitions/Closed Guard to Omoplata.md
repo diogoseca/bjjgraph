@@ -46,35 +46,22 @@ description: "Learn Closed Guard to Omoplata in BJJ. Step-by-step shoulder lock 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Omoplata variation from open guard",
-      "description": "Closed Guard to Omoplata film study: Omoplata variation from open guard, taught by Clark Gracie.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/k8b2GBVqcco/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/k8b2GBVqcco",
-      "url": "https://www.youtube.com/watch?v=k8b2GBVqcco",
-      "creator": { "@type": "Person", "name": "Clark Gracie" },
-      "duration": "PT50S"
+      "name": "Short and Sweet Closed Guard Omoplata Lesson",
+      "description": "Closed Guard to Omoplata film study: Short and Sweet Closed Guard Omoplata Lesson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/zM4_rXU-riA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/zM4_rXU-riA",
+      "url": "https://www.youtube.com/watch?v=zM4_rXU-riA",
+      "duration": "PT70S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Short and sweet closed guard omoplata lesson",
-      "description": "Closed Guard to Omoplata film study: Short and sweet closed guard omoplata lesson, taught by 2nd Gear Jiu Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/zM4_rXU-riA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/zM4_rXU-riA",
-      "url": "https://www.youtube.com/watch?v=zM4_rXU-riA",
-      "creator": { "@type": "Person", "name": "2nd Gear Jiu Jitsu" },
-      "duration": "PT71S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Closed guard X choke and omoplata",
-      "description": "Closed Guard to Omoplata film study: Closed guard X choke and omoplata, taught by Clark Gracie.",
+      "name": "Closed Guard X Choke \u0026 Omoplata",
+      "description": "Closed Guard to Omoplata film study: Closed Guard X Choke \u0026 Omoplata.",
       "thumbnailUrl": "https://i.ytimg.com/vi/69__JuUPslk/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/69__JuUPslk",
       "url": "https://www.youtube.com/watch?v=69__JuUPslk",
-      "creator": { "@type": "Person", "name": "Clark Gracie" },
-      "duration": "PT107S"
+      "duration": "PT106S"
     }
   ]
 }
@@ -124,17 +111,9 @@ The transition to omoplata is a fundamental shoulder lock entry that exploits th
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=k8b2GBVqcco)
-
-<p class="clip-credit"><strong>Omoplata variation from open guard</strong> — taught by Clark Gracie · 0:50 · <a href="https://www.youtube.com/watch?v=k8b2GBVqcco" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=zM4_rXU-riA)
 
-<p class="clip-credit"><strong>Short and sweet closed guard omoplata lesson</strong> — taught by 2nd Gear Jiu Jitsu · 1:11 · <a href="https://www.youtube.com/watch?v=zM4_rXU-riA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Short and Sweet Closed Guard Omoplata Lesson</strong> · 1:10 · <a href="https://www.youtube.com/watch?v=zM4_rXU-riA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -142,7 +121,7 @@ The transition to omoplata is a fundamental shoulder lock entry that exploits th
 
 ![](https://www.youtube.com/watch?v=69__JuUPslk)
 
-<p class="clip-credit"><strong>Closed guard X choke and omoplata</strong> — taught by Clark Gracie · 1:47 · <a href="https://www.youtube.com/watch?v=69__JuUPslk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Closed Guard X Choke &amp; Omoplata</strong> · 1:46 · <a href="https://www.youtube.com/watch?v=69__JuUPslk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

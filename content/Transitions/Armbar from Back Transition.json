@@ -384,35 +384,7 @@
       }
     ],
     "safety_considerations": "Practice this transition with controlled movement rather than explosive rotation to protect training partners. The standing-to-ground transition can generate significant momentum that stresses the elbow joint unexpectedly. Partners should communicate clearly and tap early when the armbar is secured. When finishing, extend hips gradually rather than explosively to allow time for the tap. Avoid this technique on partners with existing elbow injuries. In drilling, stop at the position before applying full extension pressure. The rotation component requires adequate mat space - ensure training area is clear before practicing standing variations.",
-    "clips": [
-      {
-        "id": "nsLJ8AiGZ5A",
-        "title": "Rolling armbar from back mount",
-        "by": "Hammer Jiu-Jitsu",
-        "vertical": false,
-        "channel": "American Top Team - Palm Beach Gardens",
-        "duration": 40,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "jf1kPefTmm0",
-        "title": "Armbar from the back variation",
-        "by": "Malachy Friedman",
-        "vertical": false,
-        "channel": "Malachy Friedman",
-        "duration": 80,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "fPV5aCm4uIE",
-        "title": "Armbar from the back off the RNC threat",
-        "by": "CholoMMA",
-        "vertical": false,
-        "channel": "CholoMMA",
-        "duration": 39,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Armbar from Back Transition Defender",
@@ -600,35 +572,7 @@
         "description": "Full resistance positional sparring starting from standing back control. Defend both choke and armbar threats simultaneously. Focus on reading the attacker's intent through tactile cues and selecting the appropriate defensive response under pressure."
       }
     ],
-    "clips": [
-      {
-        "id": "kNdKfUdgO4I",
-        "title": "Armbar escape when they are close to finishing",
-        "by": "Matt Arroyo",
-        "vertical": false,
-        "channel": "Matt Arroyo Jiu Jitsu ",
-        "duration": 92,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "CDpv10qYFLo",
-        "title": "How to Defend an Armbar",
-        "by": "Gordon Ryan",
-        "vertical": false,
-        "channel": "Gordon Ryan",
-        "duration": 274,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "Es_1o8wh17M",
-        "title": "Late Stage Armbar Defense",
-        "by": "Less Impressed More Involved",
-        "vertical": false,
-        "channel": "Less Impressed More Involved BJJ",
-        "duration": 485,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "variants_and_adaptations": [
     {

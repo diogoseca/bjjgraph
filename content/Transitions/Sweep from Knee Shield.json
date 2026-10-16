@@ -367,31 +367,19 @@
     "safety_considerations": "The Sweep from Knee Shield is a low-risk technique with minimal injury potential when executed properly. The primary safety concern is neck strain from the opponent driving heavy crossface pressure during sweep attempts. Avoid cranking the sweep against a locked-out opponent—if the sweep is not moving, abandon and reset rather than forcing through with explosive power that could injure either player's knees or shoulders. Communicate with training partners about resistance levels during drilling phases.",
     "clips": [
       {
-        "id": "OsKySrabYR4",
-        "title": "Waiter sweep from knee shield half guard",
-        "by": "Fluvium coach",
-        "vertical": false,
-        "channel": "Fluvium",
-        "duration": 50,
-        "verified": "2026-07-15"
-      },
-      {
         "id": "hU61Nd_Vzys",
-        "title": "Knee shield half guard roll-through sweep",
-        "by": "Bowerhouse MMA coach",
-        "vertical": false,
+        "title": "Knee Shield 1/2 Guard to Roll thru Sweep",
         "channel": "BOWERHOUSE MMA",
         "duration": 53,
-        "verified": "2026-07-15"
+        "vertical": false,
+        "front": true
       },
       {
         "id": "YEVojixbKs8",
-        "title": "Knee shield sweep using the opponent's belt",
-        "by": "A. Sukandar",
-        "vertical": false,
+        "title": "Half Guard Signature Sweep from Knee Shield Position by Holding Opponent's Belt",
         "channel": "A. Sukandar",
         "duration": 70,
-        "verified": "2026-07-15"
+        "vertical": false
       }
     ]
   },
@@ -570,25 +558,6 @@
         "description": "Spar from knee shield top position with the opponent specifically hunting sweeps. Practice recognizing and defending the sweep while continuing to advance your passing game. Track how often you get swept and identify which recognition cues you are missing at live speed."
       }
     ],
-    "clips": [
-      {
-        "id": "Y815hmtzGZA",
-        "title": "Passing the knee shield half guard",
-        "by": "Adam Metcalf",
-        "vertical": false,
-        "channel": "ADAM METCALF",
-        "duration": 30,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "dOdO6xJ-TcU",
-        "title": "Shutting down the half guard underhook",
-        "by": "Malachy Friedman",
-        "vertical": false,
-        "channel": "Malachy Friedman",
-        "duration": 98,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

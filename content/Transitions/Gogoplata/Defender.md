@@ -161,23 +161,11 @@ description: "How to defend against Gogoplata in BJJ. Recognition cues, defensiv
       "@type": "VideoObject",
       "position": 1,
       "name": "The Gogoplata Defense",
-      "description": "Gogoplata (Defender) film study: The Gogoplata Defense, taught by RedBeltJiuJitsu.",
+      "description": "Gogoplata (Defender) film study: The Gogoplata Defense.",
       "thumbnailUrl": "https://i.ytimg.com/vi/ROgt8e30a3s/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/ROgt8e30a3s",
       "url": "https://www.youtube.com/watch?v=ROgt8e30a3s",
-      "creator": { "@type": "Person", "name": "RedBeltJiuJitsu" },
       "duration": "PT42S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Why Your Rubber Guard Never Works",
-      "description": "Gogoplata (Defender) film study: Why Your Rubber Guard Never Works, taught by Brandon McCaghren.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/5jKZpFnxYbE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/5jKZpFnxYbE",
-      "url": "https://www.youtube.com/watch?v=5jKZpFnxYbE",
-      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
-      "duration": "PT307S"
     }
   ]
 }
@@ -211,15 +199,7 @@ Strategically, the best Gogoplata defense happens before the position is fully e
 
 ![](https://www.youtube.com/watch?v=ROgt8e30a3s)
 
-<p class="clip-credit"><strong>The Gogoplata Defense</strong> — taught by RedBeltJiuJitsu · 0:42 · <a href="https://www.youtube.com/watch?v=ROgt8e30a3s" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=5jKZpFnxYbE)
-
-<p class="clip-credit"><strong>Why Your Rubber Guard Never Works</strong> — taught by Brandon McCaghren · 5:07 · <a href="https://www.youtube.com/watch?v=5jKZpFnxYbE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>The Gogoplata Defense</strong> · 0:42 · <a href="https://www.youtube.com/watch?v=ROgt8e30a3s" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

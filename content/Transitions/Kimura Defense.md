@@ -46,35 +46,22 @@ description: "Master Kimura Defense in BJJ. Complete defensive framework coverin
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Breaking the kimura grip",
-      "description": "Kimura Defense film study: Breaking the kimura grip, taught by Ralph Gracie coach.",
+      "name": "Kimura Grip Break BJJ technique at Mountain View dojo",
+      "description": "Kimura Defense film study: Kimura Grip Break BJJ technique at Mountain View dojo.",
       "thumbnailUrl": "https://i.ytimg.com/vi/pJG_2XYYaOw/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/pJG_2XYYaOw",
       "url": "https://www.youtube.com/watch?v=pJG_2XYYaOw",
-      "creator": { "@type": "Person", "name": "Ralph Gracie coach" },
-      "duration": "PT61S"
+      "duration": "PT60S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Late kimura defense from bottom side control",
-      "description": "Kimura Defense film study: Late kimura defense from bottom side control, taught by Fox Den coach.",
+      "name": "Late Kimura Defense from Bottom Side Control",
+      "description": "Kimura Defense film study: Late Kimura Defense from Bottom Side Control.",
       "thumbnailUrl": "https://i.ytimg.com/vi/uRn3DRICpeY/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/uRn3DRICpeY",
       "url": "https://www.youtube.com/watch?v=uRn3DRICpeY",
-      "creator": { "@type": "Person", "name": "Fox Den coach" },
       "duration": "PT100S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Kimura defense",
-      "description": "Kimura Defense film study: Kimura defense, taught by Jon Satava.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/gvRGrvtKd1U/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/gvRGrvtKd1U",
-      "url": "https://www.youtube.com/watch?v=gvRGrvtKd1U",
-      "creator": { "@type": "Person", "name": "Jon Satava" },
-      "duration": "PT142S"
     }
   ]
 }
@@ -128,7 +115,7 @@ Unlike many submission defenses that focus purely on escape, kimura defense inte
 
 ![](https://www.youtube.com/watch?v=pJG_2XYYaOw)
 
-<p class="clip-credit"><strong>Breaking the kimura grip</strong> — taught by Ralph Gracie coach · 1:01 · <a href="https://www.youtube.com/watch?v=pJG_2XYYaOw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Kimura Grip Break BJJ technique at Mountain View dojo</strong> · 1:00 · <a href="https://www.youtube.com/watch?v=pJG_2XYYaOw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -136,15 +123,7 @@ Unlike many submission defenses that focus purely on escape, kimura defense inte
 
 ![](https://www.youtube.com/watch?v=uRn3DRICpeY)
 
-<p class="clip-credit"><strong>Late kimura defense from bottom side control</strong> — taught by Fox Den coach · 1:40 · <a href="https://www.youtube.com/watch?v=uRn3DRICpeY" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=gvRGrvtKd1U)
-
-<p class="clip-credit"><strong>Kimura defense</strong> — taught by Jon Satava · 2:22 · <a href="https://www.youtube.com/watch?v=gvRGrvtKd1U" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Late Kimura Defense from Bottom Side Control</strong> · 1:40 · <a href="https://www.youtube.com/watch?v=uRn3DRICpeY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

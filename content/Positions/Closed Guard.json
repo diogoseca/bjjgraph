@@ -385,22 +385,11 @@
     },
     "clips": [
       {
-        "id": "r2Zj80AQJuQ",
-        "title": "Great Detail to Open the Closed Guard",
-        "by": "Dan McCarthy",
-        "vertical": false,
-        "channel": "Bernardo Faria BJJ Fanatics",
-        "duration": 220,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "r3oI5TvaWg0",
-        "title": "Passing Closed Guard with the Sao Paulo Pass",
-        "by": "Leonardo Nogueira",
-        "vertical": false,
-        "channel": "Bernardo Faria BJJ Fanatics",
-        "duration": 340,
-        "verified": "2026-07-15"
+        "id": "1XBRElmmJ5E",
+        "title": "The Closed Guard Passing Video That Will Keep On Giving",
+        "channel": "JeanJacquesMachado",
+        "duration": 349,
+        "front": true
       }
     ]
   },
@@ -878,31 +867,18 @@
     },
     "clips": [
       {
-        "id": "dMcMblcXhF0",
-        "title": "Sweep from closed guard",
-        "by": "Roger Gracie",
+        "id": "Z_FBT8ZDSmo",
+        "title": "Easy to Use Entire Closed Guard System",
+        "channel": "JonThomasBJJ",
+        "duration": 497,
         "vertical": false,
-        "channel": "Gentle Art Media",
-        "duration": 73,
-        "verified": "2026-07-14"
+        "front": true
       },
       {
-        "id": "dfP-Ov8FBUo",
-        "title": "Cross collar chokes from closed guard",
-        "by": "Roger Gracie",
-        "vertical": false,
-        "channel": "Jiu Jitsu Moves",
-        "duration": 80,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "vSmRbpNmf-E",
-        "title": "Armbars from closed guard",
-        "by": "Roger Gracie",
-        "vertical": false,
-        "channel": "Jiu Jitsu Moves",
-        "duration": 102,
-        "verified": "2026-07-14"
+        "id": "ZKsfnBbBdjk",
+        "title": "Breaking Posture in Closed Guard ( The Complete Guide )",
+        "channel": "JonThomasBJJ",
+        "duration": 438
       }
     ]
   },
@@ -1120,24 +1096,5 @@
       }
     }
   ],
-  "clips": [
-    {
-      "id": "AYWgYtOqU6c",
-      "title": "Closed guard fundamentals",
-      "by": "Dickie Martin",
-      "vertical": false,
-      "channel": "Carlson Gracie London",
-      "duration": 88,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "dMcMblcXhF0",
-      "title": "Sweep from closed guard",
-      "by": "Roger Gracie",
-      "vertical": false,
-      "channel": "Gentle Art Media",
-      "duration": 73,
-      "verified": "2026-07-14"
-    }
-  ]
+  "clips": []
 }

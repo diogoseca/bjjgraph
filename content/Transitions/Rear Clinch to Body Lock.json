@@ -372,35 +372,7 @@
       }
     ],
     "safety_considerations": "This transition involves standing grip work where the primary safety concern is maintaining balance for both practitioners during the grip change. Avoid explosive jerking motions that could cause whiplash or cervical strain. When training the immediate takedown follow-up, ensure the receiving partner knows how to breakfall properly. Never attempt suplex-style lifts in training without explicit partner consent and appropriate mat surface. Be mindful of finger and wrist injuries from aggressive grip fighting during the transition window. Always release control immediately if your partner signals discomfort or taps.",
-    "clips": [
-      {
-        "id": "CEVgl3pTii4",
-        "title": "Rear body lock takedown",
-        "by": "3 Strikes Jujitsu",
-        "vertical": false,
-        "channel": "3 STRIKES JUJITSU",
-        "duration": 44,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "GOwulE_PIMg",
-        "title": "Body lock clinch takedown",
-        "by": "Blue Base Jiu Jitsu",
-        "vertical": false,
-        "channel": "Blue Base Jiu Jitsu",
-        "duration": 74,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "KXf8Jr3a9zg",
-        "title": "Body lock rear trip against the wall",
-        "by": "SBG Australia",
-        "vertical": false,
-        "channel": "SBG Australia",
-        "duration": 12,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Rear Clinch to Body Lock Defender",
@@ -584,31 +556,12 @@
     ],
     "clips": [
       {
-        "id": "Di-fJ06DSq8",
-        "title": "Body lock defense",
-        "by": "Peerless Jiu Jitsu Academy",
-        "vertical": false,
-        "channel": "Peerless Jiu Jitsu Academy ",
-        "duration": 79,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "lGGo0H8ems4",
-        "title": "How to break a body lock",
-        "by": "Nick Diaz",
-        "vertical": false,
-        "channel": "Moments in MMA",
-        "duration": 62,
-        "verified": "2026-07-15"
-      },
-      {
         "id": "aW0nNv2UWh0",
-        "title": "Two rear body lock counters: granby roll and knee bar",
-        "by": "GFA MMA",
-        "vertical": false,
+        "title": "2 Rear BODY LOCK Counters for MMA; GRANBY ROLL and KNEE BAR #GFAMMA",
         "channel": "𝐆𝐅𝐀𝐌𝐌𝐀 - 𝐆𝐋𝐀𝐃𝐈𝐀𝐓𝐎𝐑 𝐅𝐈𝐆𝐇𝐓 𝐀𝐂𝐀𝐃𝐄𝐌𝐘",
         "duration": 170,
-        "verified": "2026-07-15"
+        "vertical": false,
+        "front": true
       }
     ]
   }

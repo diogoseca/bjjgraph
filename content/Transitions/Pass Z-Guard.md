@@ -46,35 +46,32 @@ description: "Master passing the Z-Guard in BJJ. Complete guide to collapsing th
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Z-guard pass to the back",
-      "description": "Pass Z-Guard film study: Z-guard pass to the back, taught by Unknown coach.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/GQeS3xTXlb0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/GQeS3xTXlb0",
-      "url": "https://www.youtube.com/watch?v=GQeS3xTXlb0",
-      "creator": { "@type": "Person", "name": "Unknown coach" },
-      "duration": "PT48S"
+      "name": "Move fo the Day: Z Guard Pass into side control",
+      "description": "Pass Z-Guard film study: Move fo the Day: Z Guard Pass into side control.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Nuh4wnROi-c/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Nuh4wnROi-c",
+      "url": "https://www.youtube.com/watch?v=Nuh4wnROi-c",
+      "duration": "PT28S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Passing the knee shield from over-under",
-      "description": "Pass Z-Guard film study: Passing the knee shield from over-under, taught by Paragon coach.",
+      "name": "Passing Knee Shield from Over Under Position",
+      "description": "Pass Z-Guard film study: Passing Knee Shield from Over Under Position.",
       "thumbnailUrl": "https://i.ytimg.com/vi/MvsgiCFdQPA/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/MvsgiCFdQPA",
       "url": "https://www.youtube.com/watch?v=MvsgiCFdQPA",
-      "creator": { "@type": "Person", "name": "Paragon coach" },
-      "duration": "PT116S"
+      "duration": "PT115S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "Passing knee shield with the leg weave",
-      "description": "Pass Z-Guard film study: Passing knee shield with the leg weave, taught by BJJ4Breakfast coach.",
+      "name": "Passing knee shield with leg weave pass",
+      "description": "Pass Z-Guard film study: Passing knee shield with leg weave pass.",
       "thumbnailUrl": "https://i.ytimg.com/vi/4LIBFmas-oE/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/4LIBFmas-oE",
       "url": "https://www.youtube.com/watch?v=4LIBFmas-oE",
-      "creator": { "@type": "Person", "name": "BJJ4Breakfast coach" },
-      "duration": "PT153S"
+      "duration": "PT152S"
     }
   ]
 }
@@ -128,9 +125,9 @@ This transition is essential for any serious competitor because Z-Guard has beco
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=GQeS3xTXlb0)
+![](https://www.youtube.com/watch?v=Nuh4wnROi-c)
 
-<p class="clip-credit"><strong>Z-guard pass to the back</strong> — taught by Unknown coach · 0:48 · <a href="https://www.youtube.com/watch?v=GQeS3xTXlb0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Move fo the Day: Z Guard Pass into side control</strong> · 0:28 · <a href="https://www.youtube.com/watch?v=Nuh4wnROi-c" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -138,7 +135,7 @@ This transition is essential for any serious competitor because Z-Guard has beco
 
 ![](https://www.youtube.com/watch?v=MvsgiCFdQPA)
 
-<p class="clip-credit"><strong>Passing the knee shield from over-under</strong> — taught by Paragon coach · 1:56 · <a href="https://www.youtube.com/watch?v=MvsgiCFdQPA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Passing Knee Shield from Over Under Position</strong> · 1:55 · <a href="https://www.youtube.com/watch?v=MvsgiCFdQPA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -146,7 +143,7 @@ This transition is essential for any serious competitor because Z-Guard has beco
 
 ![](https://www.youtube.com/watch?v=4LIBFmas-oE)
 
-<p class="clip-credit"><strong>Passing knee shield with the leg weave</strong> — taught by BJJ4Breakfast coach · 2:33 · <a href="https://www.youtube.com/watch?v=4LIBFmas-oE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Passing knee shield with leg weave pass</strong> · 2:32 · <a href="https://www.youtube.com/watch?v=4LIBFmas-oE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

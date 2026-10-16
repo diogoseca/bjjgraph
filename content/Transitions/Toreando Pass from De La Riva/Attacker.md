@@ -186,24 +186,22 @@ description: "Complete attacking guide for the Toreando Pass from De La Riva Gua
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Toreando pass from De La Riva guard",
-      "description": "Toreando Pass from De La Riva (Attacker) film study: Toreando pass from De La Riva guard, taught by Unknown.",
+      "name": "passagem toreando da GUARDA DE LA RIVA",
+      "description": "Toreando Pass from De La Riva (Attacker) film study: passagem toreando da GUARDA DE LA RIVA.",
       "thumbnailUrl": "https://i.ytimg.com/vi/XO_i9aiSuHU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/XO_i9aiSuHU",
       "url": "https://www.youtube.com/watch?v=XO_i9aiSuHU",
-      "creator": { "@type": "Person", "name": "Unknown" },
       "duration": "PT82S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "De La Riva toreando pass breakdown",
-      "description": "Toreando Pass from De La Riva (Attacker) film study: De La Riva toreando pass breakdown, taught by Unknown.",
+      "name": "De La Riva torreando pass.",
+      "description": "Toreando Pass from De La Riva (Attacker) film study: De La Riva torreando pass..",
       "thumbnailUrl": "https://i.ytimg.com/vi/F3Io4_p10Mg/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/F3Io4_p10Mg",
       "url": "https://www.youtube.com/watch?v=F3Io4_p10Mg",
-      "creator": { "@type": "Person", "name": "Unknown" },
-      "duration": "PT158S"
+      "duration": "PT157S"
     }
   ]
 }
@@ -233,7 +231,7 @@ The attacker in the Toreando Pass from De La Riva must execute a precise three-p
 
 ![](https://www.youtube.com/watch?v=XO_i9aiSuHU)
 
-<p class="clip-credit"><strong>Toreando pass from De La Riva guard</strong> — taught by Unknown · 1:22 · <a href="https://www.youtube.com/watch?v=XO_i9aiSuHU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>passagem toreando da GUARDA DE LA RIVA</strong> · 1:22 · <a href="https://www.youtube.com/watch?v=XO_i9aiSuHU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -241,7 +239,7 @@ The attacker in the Toreando Pass from De La Riva must execute a precise three-p
 
 ![](https://www.youtube.com/watch?v=F3Io4_p10Mg)
 
-<p class="clip-credit"><strong>De La Riva toreando pass breakdown</strong> — taught by Unknown · 2:38 · <a href="https://www.youtube.com/watch?v=F3Io4_p10Mg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>De La Riva torreando pass.</strong> · 2:37 · <a href="https://www.youtube.com/watch?v=F3Io4_p10Mg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

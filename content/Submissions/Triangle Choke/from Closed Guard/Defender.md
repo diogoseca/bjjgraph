@@ -162,34 +162,31 @@ description: "How to defend against Triangle from Closed Guard in BJJ. Recogniti
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Triangle Defense from Closed Guard",
-      "description": "Triangle Choke from Closed Guard (Defender) film study: Triangle Defense from Closed Guard, taught by Andy.",
+      "name": "TRIANGLE DEFENSE FROM CLOSED GUARD",
+      "description": "Triangle Choke from Closed Guard (Defender) film study: TRIANGLE DEFENSE FROM CLOSED GUARD.",
       "thumbnailUrl": "https://i.ytimg.com/vi/YG1S8nMIdjY/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/YG1S8nMIdjY",
       "url": "https://www.youtube.com/watch?v=YG1S8nMIdjY",
-      "creator": { "@type": "Person", "name": "Andy" },
       "duration": "PT61S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Triangle Choke Posture Up Escape",
-      "description": "Triangle Choke from Closed Guard (Defender) film study: Triangle Choke Posture Up Escape, taught by Cosens MMA.",
+      "name": "Triangle choke from Guard \"Posture Up Escape",
+      "description": "Triangle Choke from Closed Guard (Defender) film study: Triangle choke from Guard \"Posture Up Escape.",
       "thumbnailUrl": "https://i.ytimg.com/vi/dJOw0ZEyXXc/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/dJOw0ZEyXXc",
       "url": "https://www.youtube.com/watch?v=dJOw0ZEyXXc",
-      "creator": { "@type": "Person", "name": "Cosens MMA" },
-      "duration": "PT73S"
+      "duration": "PT72S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "Escaping Triangles vs Big Opponents",
-      "description": "Triangle Choke from Closed Guard (Defender) film study: Escaping Triangles vs Big Opponents, taught by John Danaher.",
+      "name": "John Danaher:  on escaping triangles vs big opponents (Gordon Ryan)",
+      "description": "Triangle Choke from Closed Guard (Defender) film study: John Danaher:  on escaping triangles vs big opponents (Gordon Ryan).",
       "thumbnailUrl": "https://i.ytimg.com/vi/Z-CsRn4K0vg/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Z-CsRn4K0vg",
       "url": "https://www.youtube.com/watch?v=Z-CsRn4K0vg",
-      "creator": { "@type": "Person", "name": "John Danaher" },
       "duration": "PT48S"
     }
   ]
@@ -225,7 +222,7 @@ Successful triangle defense requires understanding the attacker's mechanics in r
 
 ![](https://www.youtube.com/watch?v=YG1S8nMIdjY)
 
-<p class="clip-credit"><strong>Triangle Defense from Closed Guard</strong> — taught by Andy · 1:01 · <a href="https://www.youtube.com/watch?v=YG1S8nMIdjY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>TRIANGLE DEFENSE FROM CLOSED GUARD</strong> · 1:01 · <a href="https://www.youtube.com/watch?v=YG1S8nMIdjY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -233,7 +230,7 @@ Successful triangle defense requires understanding the attacker's mechanics in r
 
 ![](https://www.youtube.com/watch?v=dJOw0ZEyXXc)
 
-<p class="clip-credit"><strong>Triangle Choke Posture Up Escape</strong> — taught by Cosens MMA · 1:13 · <a href="https://www.youtube.com/watch?v=dJOw0ZEyXXc" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Triangle choke from Guard &#34;Posture Up Escape</strong> · 1:12 · <a href="https://www.youtube.com/watch?v=dJOw0ZEyXXc" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -241,7 +238,7 @@ Successful triangle defense requires understanding the attacker's mechanics in r
 
 ![](https://www.youtube.com/watch?v=Z-CsRn4K0vg)
 
-<p class="clip-credit"><strong>Escaping Triangles vs Big Opponents</strong> — taught by John Danaher · 0:48 · <a href="https://www.youtube.com/watch?v=Z-CsRn4K0vg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>John Danaher:  on escaping triangles vs big opponents (Gordon Ryan)</strong> · 0:48 · <a href="https://www.youtube.com/watch?v=Z-CsRn4K0vg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

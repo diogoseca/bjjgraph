@@ -46,34 +46,11 @@ description: "Master leg drag control in BJJ. Complete analysis of this dominant
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Leg Drag \u0026 Passing Concepts",
-      "description": "Leg Drag Control film study: Leg Drag \u0026 Passing Concepts, taught by Andre Galvao.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/cmKlGZ3Oe2Q/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/cmKlGZ3Oe2Q",
-      "url": "https://www.youtube.com/watch?v=cmKlGZ3Oe2Q",
-      "creator": { "@type": "Person", "name": "Andre Galvao" },
-      "duration": "PT111S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Leg Drag Overview - Passing Approaches",
-      "description": "Leg Drag Control film study: Leg Drag Overview - Passing Approaches, taught by Aaron Benzrihem.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/YYbKWhrbbbM/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/YYbKWhrbbbM",
-      "url": "https://www.youtube.com/watch?v=YYbKWhrbbbM",
-      "creator": { "@type": "Person", "name": "Aaron Benzrihem" },
-      "duration": "PT165S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Leg Drag Transitions When Opponent Defends",
-      "description": "Leg Drag Control film study: Leg Drag Transitions When Opponent Defends, taught by Rafael Mendes.",
+      "name": "Rafael Mendes | Leg Drag Transitions When Opponent Defends | artofjiujitsu.com",
+      "description": "Leg Drag Control film study: Rafael Mendes | Leg Drag Transitions When Opponent Defends | artofjiujitsu.com.",
       "thumbnailUrl": "https://i.ytimg.com/vi/9CkRlTtnYOk/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/9CkRlTtnYOk",
       "url": "https://www.youtube.com/watch?v=9CkRlTtnYOk",
-      "creator": { "@type": "Person", "name": "Rafael Mendes" },
       "duration": "PT597S"
     }
   ]
@@ -129,25 +106,9 @@ Modern competitive grappling has elevated leg drag control from a transitional m
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=cmKlGZ3Oe2Q)
-
-<p class="clip-credit"><strong>Leg Drag &amp; Passing Concepts</strong> — taught by Andre Galvao · 1:51 · <a href="https://www.youtube.com/watch?v=cmKlGZ3Oe2Q" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=YYbKWhrbbbM)
-
-<p class="clip-credit"><strong>Leg Drag Overview - Passing Approaches</strong> — taught by Aaron Benzrihem · 2:45 · <a href="https://www.youtube.com/watch?v=YYbKWhrbbbM" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=9CkRlTtnYOk)
 
-<p class="clip-credit"><strong>Leg Drag Transitions When Opponent Defends</strong> — taught by Rafael Mendes · 9:57 · <a href="https://www.youtube.com/watch?v=9CkRlTtnYOk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Rafael Mendes | Leg Drag Transitions When Opponent Defends | artofjiujitsu.com</strong> · 9:57 · <a href="https://www.youtube.com/watch?v=9CkRlTtnYOk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

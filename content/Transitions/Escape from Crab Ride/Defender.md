@@ -152,24 +152,12 @@ description: "Learn to counter the Escape from Crab Ride in BJJ. Guide covering 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Crab ride turn when they try to trap you on your back",
-      "description": "Escape from Crab Ride (Defender) film study: Crab ride turn when they try to trap you on your back, taught by CMPTV.",
+      "name": "Crab Ride turn when your opponent tries to trap you on your back",
+      "description": "Escape from Crab Ride (Defender) film study: Crab Ride turn when your opponent tries to trap you on your back.",
       "thumbnailUrl": "https://i.ytimg.com/vi/qp--XOaaFjk/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/qp--XOaaFjk",
       "url": "https://www.youtube.com/watch?v=qp--XOaaFjk",
-      "creator": { "@type": "Person", "name": "CMPTV" },
       "duration": "PT61S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Crab ride progression: beating the hips to spiderweb",
-      "description": "Escape from Crab Ride (Defender) film study: Crab ride progression: beating the hips to spiderweb, taught by MCM Wrestling.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/gFqoFaD87So/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/gFqoFaD87So",
-      "url": "https://www.youtube.com/watch?v=gFqoFaD87So",
-      "creator": { "@type": "Person", "name": "MCM Wrestling" },
-      "duration": "PT55S"
     }
   ]
 }
@@ -199,15 +187,7 @@ As the defender against the Escape from Crab Ride, your role is the crab ride to
 
 ![](https://www.youtube.com/watch?v=qp--XOaaFjk)
 
-<p class="clip-credit"><strong>Crab ride turn when they try to trap you on your back</strong> — taught by CMPTV · 1:01 · <a href="https://www.youtube.com/watch?v=qp--XOaaFjk" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=gFqoFaD87So)
-
-<p class="clip-credit"><strong>Crab ride progression: beating the hips to spiderweb</strong> — taught by MCM Wrestling · 0:55 · <a href="https://www.youtube.com/watch?v=gFqoFaD87So" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Crab Ride turn when your opponent tries to trap you on your back</strong> · 1:01 · <a href="https://www.youtube.com/watch?v=qp--XOaaFjk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

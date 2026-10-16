@@ -448,30 +448,11 @@
     "clips": [
       {
         "id": "xz9-FEBFFIo",
-        "title": "Arm Triangle from Kesa Gatame",
-        "by": "Mat Life Training Center",
-        "vertical": false,
+        "title": "Arm Triangle from Scarf Hold Position",
         "channel": "Mat Life Training Center",
         "duration": 32,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "tfykooWW-xk",
-        "title": "Triangle Attacks From Kuzure Kesa Gatame",
-        "by": "Chokes And More",
         "vertical": false,
-        "channel": "Chokes And More",
-        "duration": 66,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "fB7gGDIm1i8",
-        "title": "12 Kesa Gatame Attacks",
-        "by": "Johnny Jitsu",
-        "vertical": false,
-        "channel": "Johnny Jitsu",
-        "duration": 88,
-        "verified": "2026-07-14"
+        "front": true
       }
     ]
   },
@@ -663,30 +644,18 @@
     "clips": [
       {
         "id": "Nspz2EAIQ_k",
-        "title": "Arm Triangle Escape",
-        "by": "Crucifix Mike",
-        "vertical": false,
+        "title": "arm triangle escape using hawking",
         "channel": "Crucifix Mike",
         "duration": 27,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "fvp5_BVEtLg",
-        "title": "Kesa Gatame Pressure Defense with Framing",
-        "by": "Kohbukan Sisu",
         "vertical": false,
-        "channel": "Kohbukan Sisu",
-        "duration": 84,
-        "verified": "2026-07-14"
+        "front": true
       },
       {
         "id": "BuTIktWWudo",
-        "title": "How to Escape Arm Triangles",
-        "by": "War Room Jiu Jitsu",
-        "vertical": false,
+        "title": "How to Escape Arm Triangles (Head and Arm Chokes) and Return with a Scarf Hold",
         "channel": "War Room Jiu Jitsu",
         "duration": 129,
-        "verified": "2026-07-14"
+        "vertical": false
       }
     ]
   }

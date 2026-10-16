@@ -156,28 +156,6 @@ description: "Master De La Riva Guard Top passing in BJJ. Complete guide coverin
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "De La Riva Guard (Top) \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "De La Riva float pass",
-      "description": "De La Riva Guard (Top) film study: De La Riva float pass, taught by TrickyBJJ Academy.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/py3b0tmTJuU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/py3b0tmTJuU",
-      "url": "https://www.youtube.com/watch?v=py3b0tmTJuU",
-      "creator": { "@type": "Person", "name": "TrickyBJJ Academy" },
-      "duration": "PT57S"
-    }
-  ]
-}
-</script>
-
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -197,24 +175,6 @@ The most effective DLR passers develop a systematic approach that addresses each
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch De La Riva Guard (Top) in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=py3b0tmTJuU)
-
-<p class="clip-credit"><strong>De La Riva float pass</strong> — taught by TrickyBJJ Academy · 0:57 · <a href="https://www.youtube.com/watch?v=py3b0tmTJuU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="state-invariants" class="content-section">

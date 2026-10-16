@@ -453,30 +453,25 @@
     "clips": [
       {
         "id": "Kx8gZ3QdO8s",
-        "title": "Crossover toe hold",
-        "by": "Bence Romanek",
-        "vertical": false,
+        "title": "Crossover (Craig Jones) Toe Hold (Brazilian Jiu Jitsu)",
         "channel": "Bence Romanek",
         "duration": 51,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "zsnGef5-N2g",
-        "title": "Attacking the toe hold from outside ashi garami",
-        "by": "Brian Glick",
         "vertical": false,
-        "channel": "Brian Glick",
-        "duration": 202,
-        "verified": "2026-07-15"
+        "front": true
       },
       {
         "id": "r0P10HUFRV4",
-        "title": "80/20, 50/50, and the power toe hold",
-        "by": "Revolution BJJ",
-        "vertical": false,
+        "title": "80/20, 50/50, and the Power Toe Hold",
         "channel": "Revolution BJJ",
-        "duration": 178,
-        "verified": "2026-07-15"
+        "duration": 177,
+        "vertical": false
+      },
+      {
+        "id": "zsnGef5-N2g",
+        "title": "Attacking the Toehold from Outside Ashi Garami (No Gi BJJ/Jiu-Jitsu)",
+        "channel": "Brian Glick",
+        "duration": 201,
+        "vertical": false
       }
     ]
   },
@@ -656,31 +651,12 @@
     ],
     "clips": [
       {
-        "id": "MqtG9kuVt-Q",
-        "title": "Leg Lock Escape: Roll Through",
-        "by": "Gordon Ryan",
+        "id": "3a9k8-ZcYrk",
+        "title": "How to escape from toehold by Gordon Ryan",
+        "channel": "The King Life",
+        "duration": 105,
         "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 103,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "f4OOg_35Xjk",
-        "title": "How to defend against toe holds",
-        "by": "The Grappling Academy",
-        "vertical": false,
-        "channel": "The Grappling Academy",
-        "duration": 203,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "s9rJWyfNdiI",
-        "title": "Grip for defending heel hooks and leg attacks",
-        "by": "Craig Jones",
-        "vertical": false,
-        "channel": "Bernardo Faria BJJ Fanatics",
-        "duration": 357,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   }

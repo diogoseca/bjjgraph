@@ -152,35 +152,12 @@ description: "Defend the body lock takedown from clinch with systematic grip den
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Defending the body lock in the clinch",
-      "description": "Body Lock Takedown from Clinch (Defender) film study: Defending the body lock in the clinch, taught by TJ Dillashaw.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/4HaZwBmkFgk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/4HaZwBmkFgk",
-      "url": "https://www.youtube.com/watch?v=4HaZwBmkFgk",
-      "creator": { "@type": "Person", "name": "TJ Dillashaw" },
-      "duration": "PT207S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Bump and Dig: Body Lock Takedown Defense",
-      "description": "Body Lock Takedown from Clinch (Defender) film study: Bump and Dig: Body Lock Takedown Defense, taught by SBG Alabama coach.",
+      "name": "Bump \u0026 Dig \u2013 Body Lock Takedown Defense",
+      "description": "Body Lock Takedown from Clinch (Defender) film study: Bump \u0026 Dig \u2013 Body Lock Takedown Defense.",
       "thumbnailUrl": "https://i.ytimg.com/vi/zMtDSUENjIA/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/zMtDSUENjIA",
       "url": "https://www.youtube.com/watch?v=zMtDSUENjIA",
-      "creator": { "@type": "Person", "name": "SBG Alabama coach" },
-      "duration": "PT305S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Standing Rear Body Lock: Counters and Defense",
-      "description": "Body Lock Takedown from Clinch (Defender) film study: Standing Rear Body Lock: Counters and Defense, taught by Brian Glick.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/DFXdqByRxNg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/DFXdqByRxNg",
-      "url": "https://www.youtube.com/watch?v=DFXdqByRxNg",
-      "creator": { "@type": "Person", "name": "Brian Glick" },
-      "duration": "PT318S"
+      "duration": "PT304S"
     }
   ]
 }
@@ -208,25 +185,9 @@ Defending the body lock takedown requires a layered defensive approach that addr
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=4HaZwBmkFgk)
-
-<p class="clip-credit"><strong>Defending the body lock in the clinch</strong> — taught by TJ Dillashaw · 3:27 · <a href="https://www.youtube.com/watch?v=4HaZwBmkFgk" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=zMtDSUENjIA)
 
-<p class="clip-credit"><strong>Bump and Dig: Body Lock Takedown Defense</strong> — taught by SBG Alabama coach · 5:05 · <a href="https://www.youtube.com/watch?v=zMtDSUENjIA" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=DFXdqByRxNg)
-
-<p class="clip-credit"><strong>Standing Rear Body Lock: Counters and Defense</strong> — taught by Brian Glick · 5:18 · <a href="https://www.youtube.com/watch?v=DFXdqByRxNg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Bump &amp; Dig – Body Lock Takedown Defense</strong> · 5:04 · <a href="https://www.youtube.com/watch?v=zMtDSUENjIA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

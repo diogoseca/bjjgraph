@@ -532,21 +532,11 @@
     "clips": [
       {
         "id": "9i-U4ivd108",
-        "title": "Three step counter to the weave pass",
-        "by": "Pendergrass Academy coach",
-        "vertical": false,
+        "title": "3 Step Defense Counter to the Weave Pass, PAMA, Raleigh NC",
         "channel": "Pendergrass Academy of Martial Arts",
         "duration": 116,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "lVLAROiSjNU",
-        "title": "Guard retention: when to sit up and escape",
-        "by": "Lachlan Giles",
         "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 136,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },

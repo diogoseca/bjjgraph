@@ -188,23 +188,11 @@ description: "How to execute Calf Slicer from Truck in BJJ. Attacking perspectiv
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Painful Calf Slicer from The Truck",
-      "description": "Calf Slicer from Truck (Attacker) film study: Painful Calf Slicer from The Truck, taught by Brandon McCaghren.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/1JUGqwxsDKg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/1JUGqwxsDKg",
-      "url": "https://www.youtube.com/watch?v=1JUGqwxsDKg",
-      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
-      "duration": "PT62S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "The Vaporizer (Calf Slicer)",
-      "description": "Calf Slicer from Truck (Attacker) film study: The Vaporizer (Calf Slicer), taught by Bobby Lee.",
+      "name": "The Vaporizer (Calf slicer)",
+      "description": "Calf Slicer from Truck (Attacker) film study: The Vaporizer (Calf slicer).",
       "thumbnailUrl": "https://i.ytimg.com/vi/vTE4XQpRiqY/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/vTE4XQpRiqY",
       "url": "https://www.youtube.com/watch?v=vTE4XQpRiqY",
-      "creator": { "@type": "Person", "name": "Bobby Lee" },
       "duration": "PT17S"
     }
   ]
@@ -234,17 +222,9 @@ The Calf Slicer from Truck is a high-level compression submission that targets t
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=1JUGqwxsDKg)
-
-<p class="clip-credit"><strong>Painful Calf Slicer from The Truck</strong> — taught by Brandon McCaghren · 1:02 · <a href="https://www.youtube.com/watch?v=1JUGqwxsDKg" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=vTE4XQpRiqY)
 
-<p class="clip-credit"><strong>The Vaporizer (Calf Slicer)</strong> — taught by Bobby Lee · 0:17 · <a href="https://www.youtube.com/watch?v=vTE4XQpRiqY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>The Vaporizer (Calf slicer)</strong> · 0:17 · <a href="https://www.youtube.com/watch?v=vTE4XQpRiqY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

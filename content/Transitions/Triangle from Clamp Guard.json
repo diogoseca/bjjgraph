@@ -393,30 +393,11 @@
     "clips": [
       {
         "id": "UWdTY2pVj08",
-        "title": "Clamp guard to triangle choke",
-        "by": "Modesto Judo Club",
-        "vertical": false,
+        "title": "The Clamp To Triangle Choke #833",
         "channel": "Modesto Judo Club",
         "duration": 94,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "OC8IOTnsETk",
-        "title": "Triangle attack from guard",
-        "by": "Craig Jones",
         "vertical": false,
-        "channel": "Denver Seminars",
-        "duration": 61,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "gQWXO_L0jbU",
-        "title": "Rolling triangle from the clamp",
-        "by": "John Danaher",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 223,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },
@@ -575,34 +556,6 @@
         "description": "Start with the triangle already locked at various stages of tightness. Practice the complete escape priority sequence: posture first, fight angle second, work arm position third. Partner provides progressive resistance and transitions to armbar or omoplata when the defender creates openings, developing awareness of the full submission chain. 5 rounds of 3 minutes."
       }
     ],
-    "clips": [
-      {
-        "id": "58LkTy6v3KQ",
-        "title": "Defending and countering the clamp overhook",
-        "by": "The Grappling Bloke",
-        "vertical": false,
-        "channel": "The Grappling Bloke",
-        "duration": 109,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "sR2rS2dwpNY",
-        "title": "How to escape a triangle choke",
-        "by": "Rener and Ryron Gracie",
-        "vertical": false,
-        "channel": "Hayabusa",
-        "duration": 117,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "DLmrzSs1hWI",
-        "title": "Triangle defense and escape",
-        "by": "Daniel Frank",
-        "vertical": false,
-        "channel": "Daniel Frank",
-        "duration": 24,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

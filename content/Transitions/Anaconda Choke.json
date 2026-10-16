@@ -364,30 +364,11 @@
     "clips": [
       {
         "id": "RbkOnRb2lvA",
-        "title": "Anaconda choke fundamentals",
-        "by": "Ninja Pinto",
+        "title": "Anaconda Choke BJJ",
+        "channel": "Ninja Pinto",
+        "duration": 48,
         "vertical": false,
-        "channel": "Ninja Pinto BJJ",
-        "duration": 49,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "6d6Wkgh9imU",
-        "title": "Difference between the anaconda and d'arce choke",
-        "by": "Matt Arroyo",
-        "vertical": false,
-        "channel": "Matt Arroyo Jiu Jitsu ",
-        "duration": 67,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "PGZUu6JbtDA",
-        "title": "Sneaky anaconda submission entry",
-        "by": "The Grapple Club coach",
-        "vertical": false,
-        "channel": "The Grapple Club",
-        "duration": 89,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },
@@ -573,31 +554,19 @@
     ],
     "clips": [
       {
-        "id": "SXm9wA1HcvM",
-        "title": "Anaconda choke defense",
-        "by": "SFS MMA coach",
+        "id": "N9MbEtAv_Lw",
+        "title": "Anaconda Choke Defense",
+        "channel": "Mamba BJJ",
+        "duration": 61,
         "vertical": false,
+        "front": true
+      },
+      {
+        "id": "SXm9wA1HcvM",
+        "title": "Anaconda choke defense (BJJ) - SFS MMA",
         "channel": "Fierce Pierce15",
         "duration": 64,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "N9MbEtAv_Lw",
-        "title": "Anaconda choke defense",
-        "by": "Mamba BJJ coach",
-        "vertical": false,
-        "channel": "Mamba BJJ",
-        "duration": 62,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "J-MaOIfDHXk",
-        "title": "Standing front headlock choke defense",
-        "by": "Empower Gym Tampa coach",
-        "vertical": false,
-        "channel": "Empower Gym Tampa",
-        "duration": 60,
-        "verified": "2026-07-15"
+        "vertical": false
       }
     ]
   },

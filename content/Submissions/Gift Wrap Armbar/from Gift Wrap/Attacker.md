@@ -188,24 +188,22 @@ description: "Master attacking the Gift Wrap Armbar in BJJ. Learn arm isolation 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Gift wrap to armbar and triangle choke",
-      "description": "Gift Wrap Armbar from Gift Wrap (Attacker) film study: Gift wrap to armbar and triangle choke, taught by Derek Brunson.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/8KoRctBCxyo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/8KoRctBCxyo",
-      "url": "https://www.youtube.com/watch?v=8KoRctBCxyo",
-      "creator": { "@type": "Person", "name": "Derek Brunson" },
-      "duration": "PT39S"
+      "name": "Gift Wrap Arm Bar From Mount! - BJJ No Gi Techniques",
+      "description": "Gift Wrap Armbar from Gift Wrap (Attacker) film study: Gift Wrap Arm Bar From Mount! - BJJ No Gi Techniques.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2YWKQ0q2bCU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2YWKQ0q2bCU",
+      "url": "https://www.youtube.com/watch?v=2YWKQ0q2bCU",
+      "duration": "PT194S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Gift wrap armbar from mount, no-gi",
-      "description": "Gift Wrap Armbar from Gift Wrap (Attacker) film study: Gift wrap armbar from mount, no-gi, taught by Ryan Robinson.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/2YWKQ0q2bCU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/2YWKQ0q2bCU",
-      "url": "https://www.youtube.com/watch?v=2YWKQ0q2bCU",
-      "creator": { "@type": "Person", "name": "Ryan Robinson" },
-      "duration": "PT194S"
+      "name": "Derek Brunson: Gift Wrap from Guard to Armbar \u0026 Triangle Choke",
+      "description": "Gift Wrap Armbar from Gift Wrap (Attacker) film study: Derek Brunson: Gift Wrap from Guard to Armbar \u0026 Triangle Choke.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8KoRctBCxyo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8KoRctBCxyo",
+      "url": "https://www.youtube.com/watch?v=8KoRctBCxyo",
+      "duration": "PT39S"
     }
   ]
 }
@@ -234,17 +232,17 @@ The Gift Wrap Armbar from the attacker's perspective demands precise coordinatio
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=8KoRctBCxyo)
+![](https://www.youtube.com/watch?v=2YWKQ0q2bCU)
 
-<p class="clip-credit"><strong>Gift wrap to armbar and triangle choke</strong> — taught by Derek Brunson · 0:39 · <a href="https://www.youtube.com/watch?v=8KoRctBCxyo" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Gift Wrap Arm Bar From Mount! - BJJ No Gi Techniques</strong> · 3:14 · <a href="https://www.youtube.com/watch?v=2YWKQ0q2bCU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=2YWKQ0q2bCU)
+![](https://www.youtube.com/watch?v=8KoRctBCxyo)
 
-<p class="clip-credit"><strong>Gift wrap armbar from mount, no-gi</strong> — taught by Ryan Robinson · 3:14 · <a href="https://www.youtube.com/watch?v=2YWKQ0q2bCU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Derek Brunson: Gift Wrap from Guard to Armbar &amp; Triangle Choke</strong> · 0:39 · <a href="https://www.youtube.com/watch?v=8KoRctBCxyo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

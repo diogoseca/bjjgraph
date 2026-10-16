@@ -186,24 +186,12 @@ description: "Master the attacker perspective for transitioning to Diamond Guard
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "The minimum essence of guard",
-      "description": "Transition to Diamond Guard (Attacker) film study: The minimum essence of guard, taught by Jean Jacques Machado.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/DptKK7yOBvU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/DptKK7yOBvU",
-      "url": "https://www.youtube.com/watch?v=DptKK7yOBvU",
-      "creator": { "@type": "Person", "name": "Jean Jacques Machado" },
-      "duration": "PT74S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Overhook sweep from closed guard with figure-4 grip",
-      "description": "Transition to Diamond Guard (Attacker) film study: Overhook sweep from closed guard with figure-4 grip, taught by Matrix Jiu Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/sV5xgfCXWsQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/sV5xgfCXWsQ",
-      "url": "https://www.youtube.com/watch?v=sV5xgfCXWsQ",
-      "creator": { "@type": "Person", "name": "Matrix Jiu Jitsu" },
-      "duration": "PT126S"
+      "name": "Diamond Guard (setup + 2 attacks)",
+      "description": "Transition to Diamond Guard (Attacker) film study: Diamond Guard (setup + 2 attacks).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/oqR6MLjUrd4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/oqR6MLjUrd4",
+      "url": "https://www.youtube.com/watch?v=oqR6MLjUrd4",
+      "duration": "PT252S"
     }
   ]
 }
@@ -231,17 +219,9 @@ As the attacker executing the Transition to Diamond Guard, your objective is to 
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=DptKK7yOBvU)
+![](https://www.youtube.com/watch?v=oqR6MLjUrd4)
 
-<p class="clip-credit"><strong>The minimum essence of guard</strong> — taught by Jean Jacques Machado · 1:14 · <a href="https://www.youtube.com/watch?v=DptKK7yOBvU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=sV5xgfCXWsQ)
-
-<p class="clip-credit"><strong>Overhook sweep from closed guard with figure-4 grip</strong> — taught by Matrix Jiu Jitsu · 2:06 · <a href="https://www.youtube.com/watch?v=sV5xgfCXWsQ" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Diamond Guard (setup + 2 attacks)</strong> · 4:12 · <a href="https://www.youtube.com/watch?v=oqR6MLjUrd4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

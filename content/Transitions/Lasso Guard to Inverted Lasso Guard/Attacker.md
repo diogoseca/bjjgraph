@@ -186,35 +186,12 @@ description: "How to execute the transition to inverted lasso guard. Step-by-ste
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Lasso to inverted omoplata",
-      "description": "Lasso Guard to Inverted Lasso Guard (Attacker) film study: Lasso to inverted omoplata, taught by Emil Takeuchi.",
+      "name": "Lasso Guard Series Part 5: Lasso to Inverted Omoplata",
+      "description": "Lasso Guard to Inverted Lasso Guard (Attacker) film study: Lasso Guard Series Part 5: Lasso to Inverted Omoplata.",
       "thumbnailUrl": "https://i.ytimg.com/vi/9WuupXzZt3E/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/9WuupXzZt3E",
       "url": "https://www.youtube.com/watch?v=9WuupXzZt3E",
-      "creator": { "@type": "Person", "name": "Emil Takeuchi" },
-      "duration": "PT139S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Lasso roll under sweep",
-      "description": "Lasso Guard to Inverted Lasso Guard (Attacker) film study: Lasso roll under sweep, taught by Chen Moraes.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/vo3_QO3eFMc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/vo3_QO3eFMc",
-      "url": "https://www.youtube.com/watch?v=vo3_QO3eFMc",
-      "creator": { "@type": "Person", "name": "Chen Moraes" },
-      "duration": "PT17S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Lasso guard variations",
-      "description": "Lasso Guard to Inverted Lasso Guard (Attacker) film study: Lasso guard variations, taught by Felipe Costa.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/n4ddjzGemrw/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/n4ddjzGemrw",
-      "url": "https://www.youtube.com/watch?v=n4ddjzGemrw",
-      "creator": { "@type": "Person", "name": "Felipe Costa" },
-      "duration": "PT28S"
+      "duration": "PT138S"
     }
   ]
 }
@@ -244,23 +221,7 @@ Executing the transition to inverted lasso guard requires coordinating grip rete
 
 ![](https://www.youtube.com/watch?v=9WuupXzZt3E)
 
-<p class="clip-credit"><strong>Lasso to inverted omoplata</strong> — taught by Emil Takeuchi · 2:19 · <a href="https://www.youtube.com/watch?v=9WuupXzZt3E" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=vo3_QO3eFMc)
-
-<p class="clip-credit"><strong>Lasso roll under sweep</strong> — taught by Chen Moraes · 0:17 · <a href="https://www.youtube.com/watch?v=vo3_QO3eFMc" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=n4ddjzGemrw)
-
-<p class="clip-credit"><strong>Lasso guard variations</strong> — taught by Felipe Costa · 0:28 · <a href="https://www.youtube.com/watch?v=n4ddjzGemrw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Lasso Guard Series Part 5: Lasso to Inverted Omoplata</strong> · 2:18 · <a href="https://www.youtube.com/watch?v=9WuupXzZt3E" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -170,35 +170,22 @@ description: "How to defend against Buggy Choke in BJJ. Recognition, escape path
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "No Gi Buggy Choke Counter/Defence",
-      "description": "Buggy Choke from Half Guard (Defender) film study: No Gi Buggy Choke Counter/Defence, taught by SD BJJ Australia.",
+      "name": "No Gi Buggy Choke \u0026 Counter/Defence BJJ",
+      "description": "Buggy Choke from Half Guard (Defender) film study: No Gi Buggy Choke \u0026 Counter/Defence BJJ.",
       "thumbnailUrl": "https://i.ytimg.com/vi/6na3oiDkWek/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/6na3oiDkWek",
       "url": "https://www.youtube.com/watch?v=6na3oiDkWek",
-      "creator": { "@type": "Person", "name": "SD BJJ Australia" },
       "duration": "PT81S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "How To Defend the Dreaded Buggy Choke",
-      "description": "Buggy Choke from Half Guard (Defender) film study: How To Defend the Dreaded Buggy Choke, taught by MMA Leech.",
+      "name": "How To Defend Against The Dreaded Buggy Choke",
+      "description": "Buggy Choke from Half Guard (Defender) film study: How To Defend Against The Dreaded Buggy Choke.",
       "thumbnailUrl": "https://i.ytimg.com/vi/6VmI-HMAQso/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/6VmI-HMAQso",
       "url": "https://www.youtube.com/watch?v=6VmI-HMAQso",
-      "creator": { "@type": "Person", "name": "MMA Leech" },
-      "duration": "PT239S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Buggy Choke Recovery",
-      "description": "Buggy Choke from Half Guard (Defender) film study: Buggy Choke Recovery, taught by Zach Maslany.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/jMIn4CQ3khE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/jMIn4CQ3khE",
-      "url": "https://www.youtube.com/watch?v=jMIn4CQ3khE",
-      "creator": { "@type": "Person", "name": "Zach Maslany" },
-      "duration": "PT153S"
+      "duration": "PT238S"
     }
   ]
 }
@@ -229,7 +216,7 @@ Defending the Buggy Choke requires early recognition and immediate action, becau
 
 ![](https://www.youtube.com/watch?v=6na3oiDkWek)
 
-<p class="clip-credit"><strong>No Gi Buggy Choke Counter/Defence</strong> — taught by SD BJJ Australia · 1:21 · <a href="https://www.youtube.com/watch?v=6na3oiDkWek" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>No Gi Buggy Choke &amp; Counter/Defence BJJ</strong> · 1:21 · <a href="https://www.youtube.com/watch?v=6na3oiDkWek" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -237,15 +224,7 @@ Defending the Buggy Choke requires early recognition and immediate action, becau
 
 ![](https://www.youtube.com/watch?v=6VmI-HMAQso)
 
-<p class="clip-credit"><strong>How To Defend the Dreaded Buggy Choke</strong> — taught by MMA Leech · 3:59 · <a href="https://www.youtube.com/watch?v=6VmI-HMAQso" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=jMIn4CQ3khE)
-
-<p class="clip-credit"><strong>Buggy Choke Recovery</strong> — taught by Zach Maslany · 2:33 · <a href="https://www.youtube.com/watch?v=jMIn4CQ3khE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How To Defend Against The Dreaded Buggy Choke</strong> · 3:58 · <a href="https://www.youtube.com/watch?v=6VmI-HMAQso" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -369,30 +369,18 @@
     "clips": [
       {
         "id": "mIUc5788gsw",
-        "title": "Squid guard entry vs standing then sweep",
-        "by": "Adam Bradley",
-        "vertical": false,
+        "title": "Adam Bradley (Trab)~ Squid guard entry against standing then sweep",
         "channel": "The Bear's Den BJJ & MMA  熊派巴西柔術及MMA學院",
         "duration": 56,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "MrhKi486Wr4",
-        "title": "Squid guard to switch X guard sweep",
-        "by": "BJJ Online",
         "vertical": false,
-        "channel": "BJJ ONLINE",
-        "duration": 77,
-        "verified": "2026-07-15"
+        "front": true
       },
       {
         "id": "A_W-xOWwNaM",
-        "title": "Squid guard variations and sweeps",
-        "by": "PTC Combat Fitness",
-        "vertical": false,
+        "title": "Squid guard variations and sweeps.    Great new bjj techniques.",
         "channel": "PTC Combat Fitness",
         "duration": 149,
-        "verified": "2026-07-15"
+        "vertical": false
       }
     ]
   },
@@ -566,34 +554,6 @@
         "description": "Positional sparring starting from established Squid Guard with full resistance from both players. Defender scores points for successful sweep prevention, lapel stripping, and guard passing. Attacker scores for completed sweeps and back takes. 3-minute rounds alternating roles with partner feedback between rounds."
       }
     ],
-    "clips": [
-      {
-        "id": "rvbYLboVzZM",
-        "title": "Countering the lapel guard with a pass",
-        "by": "Tarik BJJ",
-        "vertical": false,
-        "channel": "Tarik BJJ",
-        "duration": 289,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "q3OCqC9WZA8",
-        "title": "Squid guard sweep defense",
-        "by": "Lucas Lepri",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 262,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "nPT4tqORpOA",
-        "title": "How to pass the lapel squid guard",
-        "by": "Nick Salles and Danny Maira",
-        "vertical": false,
-        "channel": "Bernardo Faria BJJ Fanatics",
-        "duration": 672,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

@@ -165,35 +165,12 @@ description: "Master the clinch position in BJJ with comprehensive grip fighting
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Two high percentage takedowns",
-      "description": "Clinch (Top) film study: Two high percentage takedowns, taught by Chad Lyman.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/4C0kv9zfvjQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/4C0kv9zfvjQ",
-      "url": "https://www.youtube.com/watch?v=4C0kv9zfvjQ",
-      "creator": { "@type": "Person", "name": "Chad Lyman" },
-      "duration": "PT75S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "The Dagestani drag",
-      "description": "Clinch (Top) film study: The Dagestani drag, taught by Wrestling University.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/f6o0MecKxOU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/f6o0MecKxOU",
-      "url": "https://www.youtube.com/watch?v=f6o0MecKxOU",
-      "creator": { "@type": "Person", "name": "Wrestling University" },
-      "duration": "PT84S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Over under clinch takedown (no-gi)",
-      "description": "Clinch (Top) film study: Over under clinch takedown (no-gi), taught by Training Jiu Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/O0340yiXx_8/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/O0340yiXx_8",
-      "url": "https://www.youtube.com/watch?v=O0340yiXx_8",
-      "creator": { "@type": "Person", "name": "Training Jiu Jitsu" },
-      "duration": "PT24S"
+      "name": "Grappling Basics - Pummeling",
+      "description": "Clinch (Top) film study: Grappling Basics - Pummeling.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WU31d086kQc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/WU31d086kQc",
+      "url": "https://www.youtube.com/watch?v=WU31d086kQc",
+      "duration": "PT86S"
     }
   ]
 }
@@ -221,25 +198,9 @@ In modern Brazilian Jiu-Jitsu, the clinch has evolved beyond simple takedown set
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=4C0kv9zfvjQ)
+![](https://www.youtube.com/watch?v=WU31d086kQc)
 
-<p class="clip-credit"><strong>Two high percentage takedowns</strong> — taught by Chad Lyman · 1:15 · <a href="https://www.youtube.com/watch?v=4C0kv9zfvjQ" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=f6o0MecKxOU)
-
-<p class="clip-credit"><strong>The Dagestani drag</strong> — taught by Wrestling University · 1:24 · <a href="https://www.youtube.com/watch?v=f6o0MecKxOU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=O0340yiXx_8)
-
-<p class="clip-credit"><strong>Over under clinch takedown (no-gi)</strong> — taught by Training Jiu Jitsu · 0:24 · <a href="https://www.youtube.com/watch?v=O0340yiXx_8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Grappling Basics - Pummeling</strong> · 1:26 · <a href="https://www.youtube.com/watch?v=WU31d086kQc" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

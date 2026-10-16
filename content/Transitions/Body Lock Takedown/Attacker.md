@@ -186,35 +186,22 @@ description: "Master the Body Lock Takedown from the attacker's perspective. Det
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Body lock takedown from standing",
-      "description": "Body Lock Takedown (Attacker) film study: Body lock takedown from standing, taught by Blue Base Jiu Jitsu.",
+      "name": "Body Lock Clinch Take Down",
+      "description": "Body Lock Takedown (Attacker) film study: Body Lock Clinch Take Down.",
       "thumbnailUrl": "https://i.ytimg.com/vi/GOwulE_PIMg/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/GOwulE_PIMg",
       "url": "https://www.youtube.com/watch?v=GOwulE_PIMg",
-      "creator": { "@type": "Person", "name": "Blue Base Jiu Jitsu" },
-      "duration": "PT74S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Body lock from the standing position",
-      "description": "Body Lock Takedown (Attacker) film study: Body lock from the standing position, taught by Sean Sherk.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/91Fgpe788no/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/91Fgpe788no",
-      "url": "https://www.youtube.com/watch?v=91Fgpe788no",
-      "creator": { "@type": "Person", "name": "Sean Sherk" },
       "duration": "PT73S"
     },
     {
       "@type": "VideoObject",
-      "position": 3,
-      "name": "Four body lock takedowns",
-      "description": "Body Lock Takedown (Attacker) film study: Four body lock takedowns, taught by CSW Fullerton.",
+      "position": 2,
+      "name": "4 Body Lock Takedowns",
+      "description": "Body Lock Takedown (Attacker) film study: 4 Body Lock Takedowns.",
       "thumbnailUrl": "https://i.ytimg.com/vi/2gknwIfTeN0/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/2gknwIfTeN0",
       "url": "https://www.youtube.com/watch?v=2gknwIfTeN0",
-      "creator": { "@type": "Person", "name": "CSW Fullerton" },
-      "duration": "PT194S"
+      "duration": "PT193S"
     }
   ]
 }
@@ -244,15 +231,7 @@ The Body Lock Takedown from the attacker's perspective is a systematic process o
 
 ![](https://www.youtube.com/watch?v=GOwulE_PIMg)
 
-<p class="clip-credit"><strong>Body lock takedown from standing</strong> — taught by Blue Base Jiu Jitsu · 1:14 · <a href="https://www.youtube.com/watch?v=GOwulE_PIMg" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=91Fgpe788no)
-
-<p class="clip-credit"><strong>Body lock from the standing position</strong> — taught by Sean Sherk · 1:13 · <a href="https://www.youtube.com/watch?v=91Fgpe788no" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Body Lock Clinch Take Down</strong> · 1:13 · <a href="https://www.youtube.com/watch?v=GOwulE_PIMg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -260,7 +239,7 @@ The Body Lock Takedown from the attacker's perspective is a systematic process o
 
 ![](https://www.youtube.com/watch?v=2gknwIfTeN0)
 
-<p class="clip-credit"><strong>Four body lock takedowns</strong> — taught by CSW Fullerton · 3:14 · <a href="https://www.youtube.com/watch?v=2gknwIfTeN0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>4 Body Lock Takedowns</strong> · 3:13 · <a href="https://www.youtube.com/watch?v=2gknwIfTeN0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

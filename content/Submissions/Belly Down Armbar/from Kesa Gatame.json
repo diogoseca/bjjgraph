@@ -443,26 +443,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "fB7gGDIm1i8",
-        "title": "12 Kesa Gatame Attacks",
-        "by": "Johnny Jitsu",
-        "vertical": false,
-        "channel": "Johnny Jitsu",
-        "duration": 88,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "mJQoIUdxnoo",
-        "title": "Kesa Gatame to arm bar",
-        "by": "dogtownman",
-        "vertical": false,
-        "channel": "dogtownman",
-        "duration": 249,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Belly Down Armbar from Kesa Gatame Defender",
@@ -648,34 +629,6 @@
         "description": "Start in Kesa Gatame bottom with partner at full resistance. Defend all submission attempts including the belly-down armbar, americana, and arm crush. Focus on early recognition, immediate defensive reactions, and knowing when to tap versus when to continue defending. Three-minute rounds with reset."
       }
     ],
-    "clips": [
-      {
-        "id": "2M_6VytUaus",
-        "title": "Kesa Gatame escape",
-        "by": "SBG Australia",
-        "vertical": false,
-        "channel": "SBG Australia",
-        "duration": 43,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "fvp5_BVEtLg",
-        "title": "Kesa Gatame Pressure Defense Using Framing",
-        "by": "Kohbukan Sisu",
-        "vertical": false,
-        "channel": "Kohbukan Sisu",
-        "duration": 84,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "ud7WhLvR2E0",
-        "title": "Kesa Gatame Arm Lock Defense",
-        "by": "Kevin Secours",
-        "vertical": false,
-        "channel": "Kevin Secours",
-        "duration": 183,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   }
 }

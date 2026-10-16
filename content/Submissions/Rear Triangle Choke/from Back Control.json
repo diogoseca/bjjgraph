@@ -485,30 +485,25 @@
     "clips": [
       {
         "id": "l5ayCZh3W78",
-        "title": "Rear triangle from the back",
-        "by": "Gracie Charlottesville",
-        "vertical": false,
+        "title": "Rear Triangle from Back by Gracie Charlottesville",
         "channel": "Gracie Charlottesville",
         "duration": 32,
-        "verified": "2026-07-14"
+        "vertical": false,
+        "front": true
       },
       {
         "id": "LQUICOJ82xk",
-        "title": "Ushiro sankaku rear triangle from seated back",
-        "by": "Chris Reymann",
-        "vertical": false,
+        "title": "bjj drills ushiro sankaku rear triangle setup from seated back with hooks in by…",
         "channel": "Chris Reymann",
         "duration": 40,
-        "verified": "2026-07-14"
+        "vertical": false
       },
       {
         "id": "4h-lxaNIqzw",
-        "title": "Rear triangle setup from back control",
-        "by": "Hellfish MMA",
-        "vertical": false,
+        "title": "Rear triangle set up from back control",
         "channel": "Hellfish Mixed Martial Arts",
         "duration": 189,
-        "verified": "2026-07-14"
+        "vertical": false
       }
     ]
   },
@@ -697,35 +692,7 @@
         "description": "Positional sparring from back control where partner uses the full back attack chain including RNC, triangle, armbar, and bow and arrow. Defend all attacks at full intensity. Measure success by survival time, successful prevention of triangle establishment, and quality of position achieved after escape. Develop the ability to seamlessly integrate triangle defense into your overall back escape system without creating openings for other submissions."
       }
     ],
-    "clips": [
-      {
-        "id": "hCu7SXEaXjc",
-        "title": "Defending the figure four from the back",
-        "by": "Whangarei BJJ",
-        "vertical": false,
-        "channel": "Whangarei BJJ",
-        "duration": 67,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "485wvqwlBYA",
-        "title": "Defending back control face down and sprawled out",
-        "by": "Academy Jiu Jitsu",
-        "vertical": false,
-        "channel": "Academy Jiu Jitsu",
-        "duration": 92,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "bhkb4ItZQno",
-        "title": "How to not get mounted when you escape the back",
-        "by": "Henry Akins",
-        "vertical": false,
-        "channel": "Henry Akins' Hidden Jiu-Jitsu",
-        "duration": 131,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "variations_and_setups": [
     {

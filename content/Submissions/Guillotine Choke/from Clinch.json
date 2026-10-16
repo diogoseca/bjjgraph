@@ -457,30 +457,25 @@
     "clips": [
       {
         "id": "2Ioe4B7HF38",
-        "title": "Guillotine choke from the clinch",
-        "by": "Michael James",
-        "vertical": false,
+        "title": "Special: guillotine choke from clinch",
         "channel": "Michael James",
-        "duration": 43,
-        "verified": "2026-07-14"
+        "duration": 42,
+        "vertical": false,
+        "front": true
       },
       {
         "id": "-x0MJel3Ru0",
-        "title": "Attacking the standing guillotine",
-        "by": "Fargo BJJ",
-        "vertical": false,
+        "title": "Self Defense - Attacking the standing Guillotine - FargoBJJ Fundamentals",
         "channel": "Fargo BJJ Academy",
-        "duration": 55,
-        "verified": "2026-07-14"
+        "duration": 54,
+        "vertical": false
       },
       {
         "id": "ilxJA4hIEFE",
-        "title": "Two standing guillotine variations",
-        "by": "Hellfish MMA",
-        "vertical": false,
+        "title": "Two Standing Guillotine variations",
         "channel": "Hellfish Mixed Martial Arts",
-        "duration": 124,
-        "verified": "2026-07-14"
+        "duration": 123,
+        "vertical": false
       }
     ]
   },
@@ -671,31 +666,12 @@
     ],
     "clips": [
       {
-        "id": "nGpAcI79frk",
-        "title": "Positional check against the guillotine",
-        "by": "Priit Mihkelson",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 116,
-        "verified": "2026-07-14"
-      },
-      {
         "id": "I0aWHdgbJzI",
-        "title": "Standing guillotine defense (the beat)",
-        "by": "Mark Hatmaker",
-        "vertical": false,
+        "title": "Mark Hatmaker Demos a Standing Guillotine Beat, Phase 3",
         "channel": "Mark Hatmaker",
         "duration": 19,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "3aSFiPLqXmo",
-        "title": "How to defend the guillotine choke",
-        "by": "Worldfightingnetwork",
         "vertical": false,
-        "channel": "Worldfightingnetwork",
-        "duration": 25,
-        "verified": "2026-07-14"
+        "front": true
       }
     ]
   }

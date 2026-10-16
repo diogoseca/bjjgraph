@@ -46,35 +46,12 @@ description: "Master the Cross Collar Choke from High Mount in BJJ. Complete gui
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Cross Collar Chokes breakdown",
-      "description": "Cross Collar Choke from High Mount film study: Cross Collar Chokes breakdown, taught by Roger Gracie.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/dfP-Ov8FBUo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/dfP-Ov8FBUo",
-      "url": "https://www.youtube.com/watch?v=dfP-Ov8FBUo",
-      "creator": { "@type": "Person", "name": "Roger Gracie" },
-      "duration": "PT80S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Mounted Helio Gracie cross choke",
-      "description": "Cross Collar Choke from High Mount film study: Mounted Helio Gracie cross choke, taught by Gracie Charlottesville.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/7QjuXzCgfro/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/7QjuXzCgfro",
-      "url": "https://www.youtube.com/watch?v=7QjuXzCgfro",
-      "creator": { "@type": "Person", "name": "Gracie Charlottesville" },
-      "duration": "PT38S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Cross collar choke from mount",
-      "description": "Cross Collar Choke from High Mount film study: Cross collar choke from mount, taught by Chad Lyman.",
+      "name": "Cross Collar Choke from Mount with Chad Lyman",
+      "description": "Cross Collar Choke from High Mount film study: Cross Collar Choke from Mount with Chad Lyman.",
       "thumbnailUrl": "https://i.ytimg.com/vi/pXcCvjwjPHw/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/pXcCvjwjPHw",
       "url": "https://www.youtube.com/watch?v=pXcCvjwjPHw",
-      "creator": { "@type": "Person", "name": "Chad Lyman" },
-      "duration": "PT56S"
+      "duration": "PT55S"
     }
   ]
 }
@@ -137,25 +114,9 @@ The finishing mechanics rely on proper wrist alignment against the carotid arter
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=dfP-Ov8FBUo)
-
-<p class="clip-credit"><strong>Cross Collar Chokes breakdown</strong> — taught by Roger Gracie · 1:20 · <a href="https://www.youtube.com/watch?v=dfP-Ov8FBUo" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=7QjuXzCgfro)
-
-<p class="clip-credit"><strong>Mounted Helio Gracie cross choke</strong> — taught by Gracie Charlottesville · 0:38 · <a href="https://www.youtube.com/watch?v=7QjuXzCgfro" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=pXcCvjwjPHw)
 
-<p class="clip-credit"><strong>Cross collar choke from mount</strong> — taught by Chad Lyman · 0:56 · <a href="https://www.youtube.com/watch?v=pXcCvjwjPHw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Cross Collar Choke from Mount with Chad Lyman</strong> · 0:55 · <a href="https://www.youtube.com/watch?v=pXcCvjwjPHw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

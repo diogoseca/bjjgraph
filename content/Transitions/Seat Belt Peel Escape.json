@@ -379,31 +379,12 @@
     "safety_considerations": "The Seat Belt Peel Escape carries moderate injury risk primarily from the opponent's potential counter-attacks during grip transition. When both hands leave neck defense to attack the grip, the throat becomes temporarily vulnerable to choke attacks that can cause tracheal injury if applied explosively. Always verify chin defense before committing to the peel. Shoulder strain can occur if the opponent resists the peel by pulling their arm back while your two-on-one grip is locked, creating opposing forces across your shoulder joint. Release the peel rather than forcing through extreme resistance. Finger injuries are possible when stripping grips, particularly against opponents wearing a gi. Never use single-finger manipulation to break grips.",
     "clips": [
       {
-        "id": "3Jd2llamfl8",
-        "title": "Back control escape fundamentals",
-        "by": "Jean Jacques Machado",
-        "vertical": false,
-        "channel": "JeanJacquesMachado",
-        "duration": 189,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "pUHtK1Apo3Q",
-        "title": "Dismantling the Seatbelt When Someone Takes Your Back",
-        "by": "Henry Akins",
-        "vertical": false,
-        "channel": "Henry Akins' Hidden Jiu-Jitsu",
-        "duration": 149,
-        "verified": "2026-07-15"
-      },
-      {
         "id": "vJfeAgF0oHM",
         "title": "Breaking the Seatbelt and Escaping Back Control",
-        "by": "Força Martial Arts",
-        "vertical": false,
         "channel": "Força Martial Arts & Fitness",
         "duration": 160,
-        "verified": "2026-07-15"
+        "vertical": false,
+        "front": true
       }
     ]
   },
@@ -557,30 +538,18 @@
     "clips": [
       {
         "id": "MwxnveKrlxU",
-        "title": "Keeping a tight seatbelt grip on the back",
-        "by": "Ben Kool",
-        "vertical": false,
+        "title": "Jiu Jitsu Quick Fix #1: Seatbelt Grip",
         "channel": "Ben Kool Tech",
         "duration": 62,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "NdOA8wrM9BA",
-        "title": "2 Hacks To Keep Back Control",
-        "by": "The Grappling Academy",
         "vertical": false,
-        "channel": "The Grappling Academy",
-        "duration": 205,
-        "verified": "2026-07-15"
+        "front": true
       },
       {
         "id": "eioeT2_os88",
-        "title": "Maintaining Back Control: Seatbelt Grip",
-        "by": "Oga",
-        "vertical": false,
+        "title": "Maintaining Back Control:Seatbelt Grip - The Philosophy Behind Oga's Jiu-Jitsu",
         "channel": "Let's BJJ",
         "duration": 524,
-        "verified": "2026-07-15"
+        "vertical": false
       }
     ]
   }

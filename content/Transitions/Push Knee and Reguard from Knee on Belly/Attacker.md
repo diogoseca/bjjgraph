@@ -186,24 +186,12 @@ description: "Learn to execute the push knee and reguard escape from Knee on Bel
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Escaping the knee on belly position",
-      "description": "Push Knee and Reguard from Knee on Belly (Attacker) film study: Escaping the knee on belly position, taught by Evolve MMA.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Wn01Ynw7O28/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Wn01Ynw7O28",
-      "url": "https://www.youtube.com/watch?v=Wn01Ynw7O28",
-      "creator": { "@type": "Person", "name": "Evolve MMA" },
-      "duration": "PT40S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Sneaky knee on belly escape, gi and no-gi",
-      "description": "Push Knee and Reguard from Knee on Belly (Attacker) film study: Sneaky knee on belly escape, gi and no-gi, taught by Zebulon Miller.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/WIYwi1fKisU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/WIYwi1fKisU",
-      "url": "https://www.youtube.com/watch?v=WIYwi1fKisU",
-      "creator": { "@type": "Person", "name": "Zebulon Miller" },
-      "duration": "PT78S"
+      "name": "Knee on belly escape pushing the leg for half guard",
+      "description": "Push Knee and Reguard from Knee on Belly (Attacker) film study: Knee on belly escape pushing the leg for half guard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/poy0wagXBAU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/poy0wagXBAU",
+      "url": "https://www.youtube.com/watch?v=poy0wagXBAU",
+      "duration": "PT17S"
     }
   ]
 }
@@ -231,17 +219,9 @@ Executing the Push Knee and Reguard escape requires coordinating three simultane
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=Wn01Ynw7O28)
+![](https://www.youtube.com/watch?v=poy0wagXBAU)
 
-<p class="clip-credit"><strong>Escaping the knee on belly position</strong> — taught by Evolve MMA · 0:40 · <a href="https://www.youtube.com/watch?v=Wn01Ynw7O28" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=WIYwi1fKisU)
-
-<p class="clip-credit"><strong>Sneaky knee on belly escape, gi and no-gi</strong> — taught by Zebulon Miller · 1:18 · <a href="https://www.youtube.com/watch?v=WIYwi1fKisU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Knee on belly escape pushing the leg for half guard</strong> · 0:17 · <a href="https://www.youtube.com/watch?v=poy0wagXBAU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

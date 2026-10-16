@@ -406,35 +406,7 @@
       }
     ],
     "safety_considerations": "Squid Guard passing involves significant tension on both practitioners' joints, particularly the passer's knee when entangled by the lapel wrap. Avoid explosive yanking motions to free the lapel, as sudden force can stress the knee joint in unexpected directions. If the lapel wrap creates uncomfortable torque on your knee, stop and communicate with your training partner to adjust rather than forcing through the position. During stacking variations, be mindful of the bottom player's neck and spine compression. In training, use controlled progressive resistance rather than explosive movements.",
-    "clips": [
-      {
-        "id": "U6h4HKtwqU4",
-        "title": "Passing the lapel/fio dental guard",
-        "by": "Ninja Pinto",
-        "vertical": false,
-        "channel": "Ninja Pinto BJJ",
-        "duration": 109,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "Jnh1v9nIPpU",
-        "title": "Super simple squid guard pass",
-        "by": "Andre Galvao",
-        "vertical": false,
-        "channel": "Atos Jiu-Jitsu HQ | World's Best BJJ Academy - Home Page",
-        "duration": 57,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "nPT4tqORpOA",
-        "title": "How to pass the lapel squid guard",
-        "by": "Nick Salles and Danny Maira",
-        "vertical": false,
-        "channel": "Bernardo Faria BJJ Fanatics",
-        "duration": 672,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Pass Squid Guard Defender",
@@ -598,34 +570,6 @@
         "description": "Timed rounds where the partner attempts to pass your Squid Guard at full competitive intensity. Apply the complete defensive system including grip retention, counter-attacks, and guard transitions. Track which phase of the passing sequence you most frequently lose position and target that phase for improvement."
       }
     ],
-    "clips": [
-      {
-        "id": "mIUc5788gsw",
-        "title": "Squid guard entry vs standing opponent into sweep",
-        "by": "Adam Bradley",
-        "vertical": false,
-        "channel": "The Bear's Den BJJ & MMA  熊派巴西柔術及MMA學院",
-        "duration": 56,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "5M1TLgoOBNU",
-        "title": "Playing squid guard: five key tricks",
-        "by": "Keenan Cornelius",
-        "vertical": false,
-        "channel": "Keenan Cornelius",
-        "duration": 564,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "l1h7Cu36NUs",
-        "title": "Squid guard sweep from the pass attempt",
-        "by": "Keenan Cornelius",
-        "vertical": false,
-        "channel": "Keenan Cornelius",
-        "duration": 311,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

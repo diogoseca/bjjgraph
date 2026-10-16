@@ -365,35 +365,7 @@
       }
     ],
     "safety_considerations": "Kneebar attacks create significant hyperextension risk to the knee joint. During training, the defender should tap immediately if extension pressure becomes uncomfortable rather than testing the limits of the defense. Both practitioners must communicate clearly about intensity level before beginning. The attacker should apply finishing pressure gradually in drilling, never explosively. Training partners should establish a clear tap signal before positional sparring. Never attempt explosive straightening defenses against a fully locked kneebar as this can cause the knee to hyperextend during the escape attempt itself.",
-    "clips": [
-      {
-        "id": "sq9jW4ZZrU8",
-        "title": "Defending the kneebar by straightening the leg",
-        "by": "Gordon Ryan",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 99,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "NuWBh3LN-SY",
-        "title": "Kneebar defense into taking the back",
-        "by": "Bicudo BJJ",
-        "vertical": false,
-        "channel": "Bicudo BJJ",
-        "duration": 22,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "MqtG9kuVt-Q",
-        "title": "Leg lock escape by rolling through",
-        "by": "Gordon Ryan",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 103,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Straighten Leg Kneebar Defense Defender",
@@ -549,25 +521,6 @@
         "description": "Full resistance positional sparring where the partner attempts the straighten leg defense and you must either maintain kneebar control, finish the submission, or successfully transition to an alternative attack. Develops decision-making speed and the ability to read the defense in real-time competition conditions."
       }
     ],
-    "clips": [
-      {
-        "id": "v4lhLkKgVvU",
-        "title": "Go-behind kneebar when they defend the leg",
-        "by": "Craig Jones",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 129,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "Oa0Ac9ILYu8",
-        "title": "Re-countering the kneebar counter",
-        "by": "Gracie Westchase",
-        "vertical": false,
-        "channel": "Gracie Westchase ",
-        "duration": 21,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

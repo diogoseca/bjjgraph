@@ -369,21 +369,11 @@
     "clips": [
       {
         "id": "mg-kER88CBw",
-        "title": "Rubber guard sweep demonstration",
-        "by": "CholoMMA",
-        "vertical": false,
+        "title": "Rubberguard Sweep - To sweep a cholo",
         "channel": "CholoMMA",
         "duration": 50,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "CmuBRahwA7c",
-        "title": "Jersey sweep from rubber guard",
-        "by": "Richie Martinez",
         "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 125,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },
@@ -548,25 +538,6 @@
         "description": "Positional sparring from rubber guard with full resistance. Defender must survive both sweeps and submissions while working systematically toward posture recovery and guard opening. Develop the tactical decision-making needed to navigate the sweep-submission dilemma under live pressure with scoring consequences."
       }
     ],
-    "clips": [
-      {
-        "id": "AvivOVuYcCk",
-        "title": "Simple rubber guard escape from the top",
-        "by": "BJJ for Breakfast",
-        "vertical": false,
-        "channel": "BJJ4Breakfast",
-        "duration": 131,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "onODo5EQkrk",
-        "title": "Posture Concept to Avoid Getting Crushed",
-        "by": "Brandon McCaghren",
-        "vertical": false,
-        "channel": "Brandon Mccaghren",
-        "duration": 359,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

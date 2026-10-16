@@ -385,30 +385,11 @@
     "clips": [
       {
         "id": "8WbQvytyCX0",
-        "title": "Passing the flat half guard",
-        "by": "Malachy Friedman",
-        "vertical": false,
+        "title": "This is how to pass the flat half!",
         "channel": "Malachy Friedman",
-        "duration": 63,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "YcNppdGtt6c",
-        "title": "Half guard pass to full mount",
-        "by": "Carlos Machado",
+        "duration": 62,
         "vertical": false,
-        "channel": "Carlos Machado",
-        "duration": 92,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "Zo6aygjOgcQ",
-        "title": "Gordon Ryan's half guard passing details",
-        "by": "Gordon Ryan",
-        "vertical": false,
-        "channel": "Nina Drama Clips",
-        "duration": 188,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },
@@ -569,34 +550,6 @@
         "description": "Positional sparring starting from flattened half guard with full resistance. Defender scores by recovering to active half guard or better position. Track which extraction variants give you the most trouble and drill specific counters for those patterns."
       }
     ],
-    "clips": [
-      {
-        "id": "lVLAROiSjNU",
-        "title": "Guard retention: when to sit up and escape",
-        "by": "Lachlan Giles",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 136,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "NWie1oi3JSg",
-        "title": "Recovering when flattened in half guard",
-        "by": "Inverted Gear",
-        "vertical": false,
-        "channel": "Inverted Gear",
-        "duration": 274,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "Xu_94V0uSBY",
-        "title": "Whip down: avoid getting flattened in half guard",
-        "by": "Chosen Few BJJ",
-        "vertical": false,
-        "channel": "Chosen Few BJJ",
-        "duration": 215,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

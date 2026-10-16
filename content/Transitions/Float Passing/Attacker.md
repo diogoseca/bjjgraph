@@ -180,24 +180,22 @@ description: "How to execute Float Passing in BJJ. Attacking perspective with se
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Monitoring the feet while float passing",
-      "description": "Float Passing (Attacker) film study: Monitoring the feet while float passing, taught by Gordon Ryan.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/YLPNsyHtREs/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/YLPNsyHtREs",
-      "url": "https://www.youtube.com/watch?v=YLPNsyHtREs",
-      "creator": { "@type": "Person", "name": "Gordon Ryan" },
-      "duration": "PT50S"
+      "name": "Floating Pass (BJJ): 5 Variations for Passing Butterfly Guard (in Real Time\u2026",
+      "description": "Float Passing (Attacker) film study: Floating Pass (BJJ): 5 Variations for Passing Butterfly Guard (in Real Time\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/cza7vpaSRWU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/cza7vpaSRWU",
+      "url": "https://www.youtube.com/watch?v=cza7vpaSRWU",
+      "duration": "PT119S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "ADCC 2022 guard pass breakdown",
-      "description": "Float Passing (Attacker) film study: ADCC 2022 guard pass breakdown, taught by Gordon Ryan.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/9VdMAXqLXHA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/9VdMAXqLXHA",
-      "url": "https://www.youtube.com/watch?v=9VdMAXqLXHA",
-      "creator": { "@type": "Person", "name": "Gordon Ryan" },
-      "duration": "PT154S"
+      "name": "Jeff Glover Jiu-Jitsu | Floating guard pass| www.JiuJitsuPedia.com",
+      "description": "Float Passing (Attacker) film study: Jeff Glover Jiu-Jitsu | Floating guard pass| www.JiuJitsuPedia.com.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/X3gjk5iQx3Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/X3gjk5iQx3Q",
+      "url": "https://www.youtube.com/watch?v=X3gjk5iQx3Q",
+      "duration": "PT169S"
     }
   ]
 }
@@ -225,17 +223,17 @@ Float passing from the attacker's perspective is about maintaining constant late
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=YLPNsyHtREs)
+![](https://www.youtube.com/watch?v=cza7vpaSRWU)
 
-<p class="clip-credit"><strong>Monitoring the feet while float passing</strong> — taught by Gordon Ryan · 0:50 · <a href="https://www.youtube.com/watch?v=YLPNsyHtREs" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Floating Pass (BJJ): 5 Variations for Passing Butterfly Guard (in Real Time…</strong> · 1:59 · <a href="https://www.youtube.com/watch?v=cza7vpaSRWU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=9VdMAXqLXHA)
+![](https://www.youtube.com/watch?v=X3gjk5iQx3Q)
 
-<p class="clip-credit"><strong>ADCC 2022 guard pass breakdown</strong> — taught by Gordon Ryan · 2:34 · <a href="https://www.youtube.com/watch?v=9VdMAXqLXHA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Jeff Glover Jiu-Jitsu | Floating guard pass| www.JiuJitsuPedia.com</strong> · 2:49 · <a href="https://www.youtube.com/watch?v=X3gjk5iQx3Q" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

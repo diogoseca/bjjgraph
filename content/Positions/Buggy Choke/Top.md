@@ -165,35 +165,12 @@ description: "Buggy Choke top perspective: Watch for an arm reaching past your h
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "The buggy choke",
-      "description": "Buggy Choke (Top) film study: The buggy choke, taught by ZombieProofBJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/-b7Avb1x7g8/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/-b7Avb1x7g8",
-      "url": "https://www.youtube.com/watch?v=-b7Avb1x7g8",
-      "creator": { "@type": "Person", "name": "ZombieProofBJJ" },
-      "duration": "PT61S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Fix your buggy choke",
-      "description": "Buggy Choke (Top) film study: Fix your buggy choke, taught by Yoga for BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/0VDUwuyT6N4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/0VDUwuyT6N4",
-      "url": "https://www.youtube.com/watch?v=0VDUwuyT6N4",
-      "creator": { "@type": "Person", "name": "Yoga for BJJ" },
-      "duration": "PT71S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Buggy choke from north-south",
-      "description": "Buggy Choke (Top) film study: Buggy choke from north-south, taught by JaezeeJiujitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Rlk8WXQrj4Q/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Rlk8WXQrj4Q",
-      "url": "https://www.youtube.com/watch?v=Rlk8WXQrj4Q",
-      "creator": { "@type": "Person", "name": "JaezeeJiujitsu" },
-      "duration": "PT48S"
+      "name": "BJJ Buggy Choke OVERHAUL - mechanics, troubleshooting, defense, and more",
+      "description": "Buggy Choke (Top) film study: BJJ Buggy Choke OVERHAUL - mechanics, troubleshooting, defense, and more.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/mUwBihCvZl8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/mUwBihCvZl8",
+      "url": "https://www.youtube.com/watch?v=mUwBihCvZl8",
+      "duration": "PT140S"
     }
   ]
 }
@@ -225,25 +202,9 @@ The bottom player supplies the arm-and-leg loop around the opponent's head and o
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=-b7Avb1x7g8)
+![](https://www.youtube.com/watch?v=mUwBihCvZl8)
 
-<p class="clip-credit"><strong>The buggy choke</strong> — taught by ZombieProofBJJ · 1:01 · <a href="https://www.youtube.com/watch?v=-b7Avb1x7g8" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=0VDUwuyT6N4)
-
-<p class="clip-credit"><strong>Fix your buggy choke</strong> — taught by Yoga for BJJ · 1:11 · <a href="https://www.youtube.com/watch?v=0VDUwuyT6N4" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=Rlk8WXQrj4Q)
-
-<p class="clip-credit"><strong>Buggy choke from north-south</strong> — taught by JaezeeJiujitsu · 0:48 · <a href="https://www.youtube.com/watch?v=Rlk8WXQrj4Q" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>BJJ Buggy Choke OVERHAUL - mechanics, troubleshooting, defense, and more</strong> · 2:20 · <a href="https://www.youtube.com/watch?v=mUwBihCvZl8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

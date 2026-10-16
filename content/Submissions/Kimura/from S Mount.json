@@ -447,22 +447,11 @@
     ],
     "clips": [
       {
-        "id": "pDByo2uZnzo",
-        "title": "Kimura from S Mount",
-        "by": "Marcus Ashcraft",
-        "vertical": false,
-        "channel": "Marcus Ashcraft",
-        "duration": 63,
-        "verified": "2026-07-14"
-      },
-      {
         "id": "nH4ly3vk7WI",
-        "title": "S-Mount Armbar, Kimura, Far-side Armbar",
-        "by": "GB Costa Mesa",
-        "vertical": false,
+        "title": "S-Mount Armbar, Kimura, + Far side Armbar",
         "channel": "GBCostaMesa",
         "duration": 24,
-        "verified": "2026-07-14"
+        "vertical": false
       }
     ]
   },
@@ -648,22 +637,12 @@
     ],
     "clips": [
       {
-        "id": "qVINUjefot8",
-        "title": "Bent armlock (Kimura) escape from mount",
-        "by": "Soma Academy",
-        "vertical": false,
-        "channel": "Soma Academy",
-        "duration": 72,
-        "verified": "2026-07-14"
-      },
-      {
         "id": "GOLwVNTVcnY",
-        "title": "Kimura defense grip breaks",
-        "by": "Dirtball BJJ",
-        "vertical": false,
+        "title": "The Daily Dirtball: \"Kimura Defense Grip Breaks\"",
         "channel": "Dirtball BJJ",
         "duration": 81,
-        "verified": "2026-07-14"
+        "vertical": false,
+        "front": true
       }
     ]
   }

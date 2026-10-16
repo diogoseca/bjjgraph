@@ -182,23 +182,31 @@ description: "Learn to execute the calf slicer from inside sankaku. Step-by-step
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Bear Trap into Calf Slicer",
-      "description": "Calf Slicer from Inside Sankaku (Attacker) film study: Bear Trap into Calf Slicer, taught by Revolution BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/6M0HvIFfc-w/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/6M0HvIFfc-w",
-      "url": "https://www.youtube.com/watch?v=6M0HvIFfc-w",
-      "creator": { "@type": "Person", "name": "Revolution BJJ" },
-      "duration": "PT119S"
+      "name": "Calf Slicer from the Saddle",
+      "description": "Calf Slicer from Inside Sankaku (Attacker) film study: Calf Slicer from the Saddle.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/FDCL7MV5G7s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/FDCL7MV5G7s",
+      "url": "https://www.youtube.com/watch?v=FDCL7MV5G7s",
+      "duration": "PT77S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Inside Ashi Garami Calf Slicer",
-      "description": "Calf Slicer from Inside Sankaku (Attacker) film study: Inside Ashi Garami Calf Slicer, taught by Hicham.",
+      "name": "Leglocks: Bear Trap into Calf Slicer",
+      "description": "Calf Slicer from Inside Sankaku (Attacker) film study: Leglocks: Bear Trap into Calf Slicer.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6M0HvIFfc-w/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6M0HvIFfc-w",
+      "url": "https://www.youtube.com/watch?v=6M0HvIFfc-w",
+      "duration": "PT119S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Jiu-Jitsu br\u00e9silien /Inside Ashi garami / Calf slicer",
+      "description": "Calf Slicer from Inside Sankaku (Attacker) film study: Jiu-Jitsu br\u00e9silien /Inside Ashi garami / Calf slicer.",
       "thumbnailUrl": "https://i.ytimg.com/vi/VXmaDAUt-BU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/VXmaDAUt-BU",
       "url": "https://www.youtube.com/watch?v=VXmaDAUt-BU",
-      "creator": { "@type": "Person", "name": "Hicham" },
       "duration": "PT172S"
     }
   ]
@@ -228,9 +236,17 @@ The calf slicer from inside sankaku represents one of the most effective seconda
 
 <div class="film-clip">
 
+![](https://www.youtube.com/watch?v=FDCL7MV5G7s)
+
+<p class="clip-credit"><strong>Calf Slicer from the Saddle</strong> · 1:17 · <a href="https://www.youtube.com/watch?v=FDCL7MV5G7s" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
 ![](https://www.youtube.com/watch?v=6M0HvIFfc-w)
 
-<p class="clip-credit"><strong>Bear Trap into Calf Slicer</strong> — taught by Revolution BJJ · 1:59 · <a href="https://www.youtube.com/watch?v=6M0HvIFfc-w" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Leglocks: Bear Trap into Calf Slicer</strong> · 1:59 · <a href="https://www.youtube.com/watch?v=6M0HvIFfc-w" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -238,7 +254,7 @@ The calf slicer from inside sankaku represents one of the most effective seconda
 
 ![](https://www.youtube.com/watch?v=VXmaDAUt-BU)
 
-<p class="clip-credit"><strong>Inside Ashi Garami Calf Slicer</strong> — taught by Hicham · 2:52 · <a href="https://www.youtube.com/watch?v=VXmaDAUt-BU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Jiu-Jitsu brésilien /Inside Ashi garami / Calf slicer</strong> · 2:52 · <a href="https://www.youtube.com/watch?v=VXmaDAUt-BU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

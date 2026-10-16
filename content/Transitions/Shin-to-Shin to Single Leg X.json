@@ -365,30 +365,25 @@
     "clips": [
       {
         "id": "o23bQAC1jN4",
-        "title": "Shin on shin entry to single leg X guard",
-        "by": "Paul McVeigh",
-        "vertical": false,
+        "title": "Shin on shin entry to single leg x guard 1440p",
         "channel": "Paul Mcveigh",
         "duration": 99,
-        "verified": "2026-07-15"
+        "vertical": false,
+        "front": true
       },
       {
         "id": "o0TTMzFEG0Q",
-        "title": "Shin to shin to single leg X to outside ashi",
-        "by": "Robyn Sheehan",
-        "vertical": false,
+        "title": "No Gi BJJ Shin to Shin to Single Leg X to X Guard to Outside Ashi progression",
         "channel": "Robyn Sheehan",
         "duration": 128,
-        "verified": "2026-07-15"
+        "vertical": false
       },
       {
         "id": "vKjAcZbsTwI",
-        "title": "Shin to shin guard to single leg X sweep",
-        "by": "Bermuda Martial Arts coach",
-        "vertical": false,
+        "title": "Shin to Shin Guard to SLX Sweep",
         "channel": "Bermuda Martial Arts",
         "duration": 138,
-        "verified": "2026-07-15"
+        "vertical": false
       }
     ]
   },
@@ -567,34 +562,6 @@
         "description": "After successfully defending the SLX entry, immediately chain into a guard passing sequence. Practice reading which passing option is most available based on how the opponent's guard structure is disrupted from the failed entry attempt."
       }
     ],
-    "clips": [
-      {
-        "id": "e2KVHXnSh_o",
-        "title": "Single leg X counter with heel hook",
-        "by": "Charles Allan Price",
-        "vertical": false,
-        "channel": "Charles Allan Price",
-        "duration": 75,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "B7OQh6tNAn4",
-        "title": "Corkscrew footlock counter to single leg X",
-        "by": "Robyn Sheehan",
-        "vertical": false,
-        "channel": "Robyn Sheehan",
-        "duration": 121,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "gwEmeb9RSk4",
-        "title": "Single leg X guard sweep defense",
-        "by": "Tiger Muay Thai coach",
-        "vertical": false,
-        "channel": "Tiger Muay Thai and MMA Training Camp, Phuket, Thailand",
-        "duration": 227,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

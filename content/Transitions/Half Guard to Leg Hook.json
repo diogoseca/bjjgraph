@@ -366,26 +366,7 @@
       }
     ],
     "safety_considerations": "This transition involves controlled weight distribution and leg repositioning without significant joint stress or compression risk. The primary safety concern is maintaining awareness of your partner's neck and spine during the crossface application; avoid driving crossface pressure directly into the throat. During training, ensure gradual weight application during the consolidation phase to prevent rib compression injuries. Communicate with your partner about pressure tolerance and avoid explosive movements during the hook insertion that could torque the knee of either practitioner.",
-    "clips": [
-      {
-        "id": "kh-rcVO8xgE",
-        "title": "Leg entanglement entry against the knee shield",
-        "by": "Grappling Mastery coach",
-        "vertical": false,
-        "channel": "Grappling Mastery: BJJ & Muay Thai Academy",
-        "duration": 27,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "5abrviYxKU8",
-        "title": "Leg lock entry from knee shield half guard",
-        "by": "Hellfish MMA coach",
-        "vertical": false,
-        "channel": "Hellfish Mixed Martial Arts",
-        "duration": 147,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Half Guard to Leg Hook Defender",
@@ -563,34 +544,6 @@
         "description": "Full resistance positional rounds starting from half guard. Top player attempts all passing methods including hook insertion. Bottom player defends with full toolset and scores for successful prevention, sweep, or position improvement. Develop automatic responses to hook insertion attempts."
       }
     ],
-    "clips": [
-      {
-        "id": "YXT82MndUyo",
-        "title": "Defending leg locks while playing guard",
-        "by": "Mason Fowler",
-        "vertical": false,
-        "channel": "ChampChat",
-        "duration": 175,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "97ux-nxiMuE",
-        "title": "Shutting down the knee shield to chest-to-chest control",
-        "by": "Jozef Chen",
-        "vertical": false,
-        "channel": "BJJ focus camps",
-        "duration": 271,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "kTSMGYlVJKY",
-        "title": "Freeing your foot while passing half guard",
-        "by": "Kameron Ross",
-        "vertical": false,
-        "channel": "Kameron Ross",
-        "duration": 55,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

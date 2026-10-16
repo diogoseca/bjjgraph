@@ -188,35 +188,12 @@ description: "Learn to attack with the Kimura from overhook control. Step-by-ste
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Overhook Guard to Reverse Triangle + Kimura",
-      "description": "Kimura from Overhook Control (Attacker) film study: Overhook Guard to Reverse Triangle + Kimura, taught by ZeGrapplez.",
+      "name": "Overhook guard to reverse triangle + Kimura",
+      "description": "Kimura from Overhook Control (Attacker) film study: Overhook guard to reverse triangle + Kimura.",
       "thumbnailUrl": "https://i.ytimg.com/vi/ljmJ9xP6N7U/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/ljmJ9xP6N7U",
       "url": "https://www.youtube.com/watch?v=ljmJ9xP6N7U",
-      "creator": { "@type": "Person", "name": "ZeGrapplez" },
       "duration": "PT45S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "No-gi attacks using kimura grip control",
-      "description": "Kimura from Overhook Control (Attacker) film study: No-gi attacks using kimura grip control, taught by Jean Jacques Machado.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/K0KgzQpfIpY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/K0KgzQpfIpY",
-      "url": "https://www.youtube.com/watch?v=K0KgzQpfIpY",
-      "creator": { "@type": "Person", "name": "Jean Jacques Machado" },
-      "duration": "PT187S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Attacking options from overhook control",
-      "description": "Kimura from Overhook Control (Attacker) film study: Attacking options from overhook control, taught by Jean Jacques Machado.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/wog63kLcl6I/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/wog63kLcl6I",
-      "url": "https://www.youtube.com/watch?v=wog63kLcl6I",
-      "creator": { "@type": "Person", "name": "Jean Jacques Machado" },
-      "duration": "PT233S"
     }
   ]
 }
@@ -247,23 +224,7 @@ Attacking with the Kimura from Overhook Control requires converting your existin
 
 ![](https://www.youtube.com/watch?v=ljmJ9xP6N7U)
 
-<p class="clip-credit"><strong>Overhook Guard to Reverse Triangle + Kimura</strong> — taught by ZeGrapplez · 0:45 · <a href="https://www.youtube.com/watch?v=ljmJ9xP6N7U" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=K0KgzQpfIpY)
-
-<p class="clip-credit"><strong>No-gi attacks using kimura grip control</strong> — taught by Jean Jacques Machado · 3:07 · <a href="https://www.youtube.com/watch?v=K0KgzQpfIpY" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=wog63kLcl6I)
-
-<p class="clip-credit"><strong>Attacking options from overhook control</strong> — taught by Jean Jacques Machado · 3:53 · <a href="https://www.youtube.com/watch?v=wog63kLcl6I" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Overhook guard to reverse triangle + Kimura</strong> · 0:45 · <a href="https://www.youtube.com/watch?v=ljmJ9xP6N7U" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

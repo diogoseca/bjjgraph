@@ -170,35 +170,12 @@ description: "Defend and escape the North-South Choke from Ushiro Kesa Gatame Ho
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Ushiro Kesa Gatame escape to back take",
-      "description": "North-South Choke from Ushiro Kesa Gatame (Defender) film study: Ushiro Kesa Gatame escape to back take, taught by Gymnanigains.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/ORpUBUxK1QE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/ORpUBUxK1QE",
-      "url": "https://www.youtube.com/watch?v=ORpUBUxK1QE",
-      "creator": { "@type": "Person", "name": "Gymnanigains" },
-      "duration": "PT26S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Hook-Plata North-South choke escape",
-      "description": "North-South Choke from Ushiro Kesa Gatame (Defender) film study: Hook-Plata North-South choke escape, taught by Erik Koehne.",
+      "name": "\u201cHook-Plata\u201d  (North-South Choke Escape)",
+      "description": "North-South Choke from Ushiro Kesa Gatame (Defender) film study: \u201cHook-Plata\u201d  (North-South Choke Escape).",
       "thumbnailUrl": "https://i.ytimg.com/vi/O-2iSvT8zDk/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/O-2iSvT8zDk",
       "url": "https://www.youtube.com/watch?v=O-2iSvT8zDk",
-      "creator": { "@type": "Person", "name": "Erik Koehne" },
       "duration": "PT59S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Bottom North/South escape - roll back",
-      "description": "North-South Choke from Ushiro Kesa Gatame (Defender) film study: Bottom North/South escape - roll back, taught by Cosens Martial Arts.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/pafncZwJurg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/pafncZwJurg",
-      "url": "https://www.youtube.com/watch?v=pafncZwJurg",
-      "creator": { "@type": "Person", "name": "Cosens Martial Arts" },
-      "duration": "PT109S"
     }
   ]
 }
@@ -227,25 +204,9 @@ Defending the North-South Choke from Ushiro Kesa Gatame Hold requires early reco
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=ORpUBUxK1QE)
-
-<p class="clip-credit"><strong>Ushiro Kesa Gatame escape to back take</strong> — taught by Gymnanigains · 0:26 · <a href="https://www.youtube.com/watch?v=ORpUBUxK1QE" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=O-2iSvT8zDk)
 
-<p class="clip-credit"><strong>Hook-Plata North-South choke escape</strong> — taught by Erik Koehne · 0:59 · <a href="https://www.youtube.com/watch?v=O-2iSvT8zDk" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=pafncZwJurg)
-
-<p class="clip-credit"><strong>Bottom North/South escape - roll back</strong> — taught by Cosens Martial Arts · 1:49 · <a href="https://www.youtube.com/watch?v=pafncZwJurg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>“Hook-Plata”  (North-South Choke Escape)</strong> · 0:59 · <a href="https://www.youtube.com/watch?v=O-2iSvT8zDk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

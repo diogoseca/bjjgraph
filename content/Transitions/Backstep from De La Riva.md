@@ -46,35 +46,22 @@ description: "Master the backstep from De La Riva Guard. Learn to clear the DLR 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Long step pass against De La Riva guard",
-      "description": "Backstep from De La Riva film study: Long step pass against De La Riva guard, taught by Greg Hernandez.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/ZaIgVPdXIFE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/ZaIgVPdXIFE",
-      "url": "https://www.youtube.com/watch?v=ZaIgVPdXIFE",
-      "creator": { "@type": "Person", "name": "Greg Hernandez" },
-      "duration": "PT130S"
+      "name": "DLR to Back | They Back Step | We go to Waiter Position | Then to Modified\u2026",
+      "description": "Backstep from De La Riva film study: DLR to Back | They Back Step | We go to Waiter Position | Then to Modified\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CT0Q1hDPeWQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/CT0Q1hDPeWQ",
+      "url": "https://www.youtube.com/watch?v=CT0Q1hDPeWQ",
+      "duration": "PT23S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Back Step De La Riva Pass",
-      "description": "Backstep from De La Riva film study: Back Step De La Riva Pass, taught by Vicente Junior.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/7mSfDFetnoU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/7mSfDFetnoU",
-      "url": "https://www.youtube.com/watch?v=7mSfDFetnoU",
-      "creator": { "@type": "Person", "name": "Vicente Junior" },
-      "duration": "PT114S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "De La Riva Guard Pass Breakdown",
-      "description": "Backstep from De La Riva film study: De La Riva Guard Pass Breakdown, taught by Taku Ishii.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/yUF7QVyC0ag/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/yUF7QVyC0ag",
-      "url": "https://www.youtube.com/watch?v=yUF7QVyC0ag",
-      "creator": { "@type": "Person", "name": "Taku Ishii" },
-      "duration": "PT141S"
+      "name": "Defending against backstep pass to De la Riva",
+      "description": "Backstep from De La Riva film study: Defending against backstep pass to De la Riva.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/a3ModDEKY6s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/a3ModDEKY6s",
+      "url": "https://www.youtube.com/watch?v=a3ModDEKY6s",
+      "duration": "PT145S"
     }
   ]
 }
@@ -128,25 +115,17 @@ However, the backstep carries inherent risk that distinguishes it from safer pas
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=ZaIgVPdXIFE)
+![](https://www.youtube.com/watch?v=CT0Q1hDPeWQ)
 
-<p class="clip-credit"><strong>Long step pass against De La Riva guard</strong> — taught by Greg Hernandez · 2:10 · <a href="https://www.youtube.com/watch?v=ZaIgVPdXIFE" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=7mSfDFetnoU)
-
-<p class="clip-credit"><strong>Back Step De La Riva Pass</strong> — taught by Vicente Junior · 1:54 · <a href="https://www.youtube.com/watch?v=7mSfDFetnoU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>DLR to Back | They Back Step | We go to Waiter Position | Then to Modified…</strong> · 0:23 · <a href="https://www.youtube.com/watch?v=CT0Q1hDPeWQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=yUF7QVyC0ag)
+![](https://www.youtube.com/watch?v=a3ModDEKY6s)
 
-<p class="clip-credit"><strong>De La Riva Guard Pass Breakdown</strong> — taught by Taku Ishii · 2:21 · <a href="https://www.youtube.com/watch?v=yUF7QVyC0ag" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Defending against backstep pass to De la Riva</strong> · 2:25 · <a href="https://www.youtube.com/watch?v=a3ModDEKY6s" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

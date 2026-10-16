@@ -490,31 +490,26 @@
     ],
     "clips": [
       {
-        "id": "R2-h9yOwRdU",
-        "title": "Armbar from the Mount",
-        "by": "Relson Gracie",
+        "id": "gDn6uThIABM",
+        "title": "Armbar from mount when they bump you off",
+        "channel": "Kyle Dimmitt",
+        "duration": 75,
         "vertical": false,
-        "channel": "Balance Studios: Gracie Jiu-Jitsu & Muay Thai",
-        "duration": 72,
-        "verified": "2026-07-14"
+        "front": true
       },
       {
-        "id": "vSmRbpNmf-E",
-        "title": "Armbar breakdown",
-        "by": "Roger Gracie",
-        "vertical": false,
-        "channel": "Jiu Jitsu Moves",
-        "duration": 102,
-        "verified": "2026-07-14"
+        "id": "R2-h9yOwRdU",
+        "title": "Relson Gracie teaches armbar at Balance Studios in Philadelphia",
+        "channel": "Balance Studios: Gracie Jiu-Jitsu & Muay Thai",
+        "duration": 72,
+        "vertical": false
       },
       {
         "id": "4COgR6PfQW0",
-        "title": "Armbar against a stacking opponent",
-        "by": "Rolles Gracie",
-        "vertical": false,
+        "title": "Rolles Gracie: Learn an armbar against a stacking opponent",
         "channel": "Gallerr",
         "duration": 91,
-        "verified": "2026-07-14"
+        "vertical": false
       }
     ]
   },
@@ -712,31 +707,32 @@
     ],
     "clips": [
       {
-        "id": "kNdKfUdgO4I",
-        "title": "My favorite armbar escape",
-        "by": "Matt Arroyo",
-        "vertical": false,
-        "channel": "Matt Arroyo Jiu Jitsu ",
-        "duration": 92,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "sDdqvh_1kbA",
-        "title": "Armbar escape",
-        "by": "ZombieProofBJJ",
-        "vertical": false,
-        "channel": "ZombieProofBJJ",
-        "duration": 63,
-        "verified": "2026-07-14"
+        "id": "MnJ00En9COI",
+        "title": "Rodrigo Comprido shows the BEST Armbar Escape on the Mount",
+        "channel": "Rodrigo Comprido",
+        "duration": 119,
+        "front": true
       },
       {
         "id": "AfDEN3uK3W0",
-        "title": "Low-effort armbar escape via foot capture",
-        "by": "Patrick Donabedian",
-        "vertical": false,
+        "title": "The NoGi Minute: Low effort armbar escape via foot capture",
         "channel": "Patrick Donabedian BJJ",
         "duration": 55,
-        "verified": "2026-07-14"
+        "vertical": false
+      },
+      {
+        "id": "kNdKfUdgO4I",
+        "title": "THIS is my favorite armbar escape! #jiujitsu #jiujitsutips",
+        "channel": "Matt Arroyo Jiu Jitsu ",
+        "duration": 92,
+        "vertical": false
+      },
+      {
+        "id": "sDdqvh_1kbA",
+        "title": "Armbar Escape: RNC",
+        "channel": "ZombieProofBJJ",
+        "duration": 62,
+        "vertical": false
       }
     ]
   },

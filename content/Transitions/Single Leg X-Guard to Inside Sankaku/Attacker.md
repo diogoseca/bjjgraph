@@ -173,35 +173,12 @@ description: "How to enter Inside Sankaku from Single Leg X-Guard in BJJ. Attack
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "X guard to inside heel hook entry",
-      "description": "Single Leg X-Guard to Inside Sankaku (Attacker) film study: X guard to inside heel hook entry, taught by Craig Jones.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/lr7rlj7WV-E/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/lr7rlj7WV-E",
-      "url": "https://www.youtube.com/watch?v=lr7rlj7WV-E",
-      "creator": { "@type": "Person", "name": "Craig Jones" },
-      "duration": "PT94S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Single leg X entry to honey hole and heel hook",
-      "description": "Single Leg X-Guard to Inside Sankaku (Attacker) film study: Single leg X entry to honey hole and heel hook, taught by Ilya Bodnya.",
+      "name": "Single Leg X Entry + Honey Hole + Sweep + Heel Hook",
+      "description": "Single Leg X-Guard to Inside Sankaku (Attacker) film study: Single Leg X Entry + Honey Hole + Sweep + Heel Hook.",
       "thumbnailUrl": "https://i.ytimg.com/vi/PGQ7YYfu76Q/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/PGQ7YYfu76Q",
       "url": "https://www.youtube.com/watch?v=PGQ7YYfu76Q",
-      "creator": { "@type": "Person", "name": "Ilya Bodnya" },
       "duration": "PT65S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Single leg X to saddle entry",
-      "description": "Single Leg X-Guard to Inside Sankaku (Attacker) film study: Single leg X to saddle entry, taught by Sickness Ferro.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/TLs6wHsZmIs/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/TLs6wHsZmIs",
-      "url": "https://www.youtube.com/watch?v=TLs6wHsZmIs",
-      "creator": { "@type": "Person", "name": "Sickness Ferro" },
-      "duration": "PT162S"
     }
   ]
 }
@@ -236,25 +213,9 @@ The entry must be drilled as a controlled positional sequence before any submiss
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=lr7rlj7WV-E)
-
-<p class="clip-credit"><strong>X guard to inside heel hook entry</strong> — taught by Craig Jones · 1:34 · <a href="https://www.youtube.com/watch?v=lr7rlj7WV-E" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=PGQ7YYfu76Q)
 
-<p class="clip-credit"><strong>Single leg X entry to honey hole and heel hook</strong> — taught by Ilya Bodnya · 1:05 · <a href="https://www.youtube.com/watch?v=PGQ7YYfu76Q" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=TLs6wHsZmIs)
-
-<p class="clip-credit"><strong>Single leg X to saddle entry</strong> — taught by Sickness Ferro · 2:42 · <a href="https://www.youtube.com/watch?v=TLs6wHsZmIs" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Single Leg X Entry + Honey Hole + Sweep + Heel Hook</strong> · 1:05 · <a href="https://www.youtube.com/watch?v=PGQ7YYfu76Q" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

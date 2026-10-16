@@ -142,28 +142,6 @@ description: "Learn to defend against sweeps from headquarters as the top player
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Sweep from Headquarters (Defender) \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Seated escape basics",
-      "description": "Sweep from Headquarters (Defender) film study: Seated escape basics, taught by Andre Galvao.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/YNcEX5v0bcs/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/YNcEX5v0bcs",
-      "url": "https://www.youtube.com/watch?v=YNcEX5v0bcs",
-      "creator": { "@type": "Person", "name": "Andre Galvao" },
-      "duration": "PT70S"
-    }
-  ]
-}
-</script>
-
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -176,24 +154,6 @@ As the top player in headquarters, defending against sweep attempts is essential
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Sweep from Headquarters (Defender) in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=YNcEX5v0bcs)
-
-<p class="clip-credit"><strong>Seated escape basics</strong> — taught by Andre Galvao · 1:10 · <a href="https://www.youtube.com/watch?v=YNcEX5v0bcs" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="recognition-cues" class="content-section">

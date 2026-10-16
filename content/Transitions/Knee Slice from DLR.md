@@ -46,23 +46,21 @@ description: "Master the Knee Slice from De La Riva Guard. Complete guide to DLR
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Passing De La Riva guard with the knee slide",
-      "description": "Knee Slice from DLR film study: Passing De La Riva guard with the knee slide, taught by Icon Jiu-Jitsu Team.",
+      "name": "44 - Pass Dela Riva Guard - Variation 1 - Knee Slide",
+      "description": "Knee Slice from DLR film study: 44 - Pass Dela Riva Guard - Variation 1 - Knee Slide.",
       "thumbnailUrl": "https://i.ytimg.com/vi/8QnCpFYN0L8/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/8QnCpFYN0L8",
       "url": "https://www.youtube.com/watch?v=8QnCpFYN0L8",
-      "creator": { "@type": "Person", "name": "Icon Jiu-Jitsu Team" },
       "duration": "PT31S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Knee slice pass against De La Riva guard",
-      "description": "Knee Slice from DLR film study: Knee slice pass against De La Riva guard, taught by Pound For Pound.",
+      "name": "Knee Slice Pass for De La Riva Guard",
+      "description": "Knee Slice from DLR film study: Knee Slice Pass for De La Riva Guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/WumNvXa4ueI/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/WumNvXa4ueI",
       "url": "https://www.youtube.com/watch?v=WumNvXa4ueI",
-      "creator": { "@type": "Person", "name": "Pound For Pound" },
       "duration": "PT196S"
     }
   ]
@@ -119,7 +117,7 @@ What makes this pass particularly valuable in competition is its role as a chain
 
 ![](https://www.youtube.com/watch?v=8QnCpFYN0L8)
 
-<p class="clip-credit"><strong>Passing De La Riva guard with the knee slide</strong> — taught by Icon Jiu-Jitsu Team · 0:31 · <a href="https://www.youtube.com/watch?v=8QnCpFYN0L8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>44 - Pass Dela Riva Guard - Variation 1 - Knee Slide</strong> · 0:31 · <a href="https://www.youtube.com/watch?v=8QnCpFYN0L8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -127,7 +125,7 @@ What makes this pass particularly valuable in competition is its role as a chain
 
 ![](https://www.youtube.com/watch?v=WumNvXa4ueI)
 
-<p class="clip-credit"><strong>Knee slice pass against De La Riva guard</strong> — taught by Pound For Pound · 3:16 · <a href="https://www.youtube.com/watch?v=WumNvXa4ueI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Knee Slice Pass for De La Riva Guard</strong> · 3:16 · <a href="https://www.youtube.com/watch?v=WumNvXa4ueI" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

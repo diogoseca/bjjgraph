@@ -446,22 +446,31 @@
     ],
     "clips": [
       {
-        "id": "cQEVTjYCq0M",
-        "title": "Rafa Mendes' omoplata",
-        "by": "Rafael Mendes",
-        "vertical": false,
-        "channel": "Artes Marciais",
-        "duration": 61,
-        "verified": "2026-07-14"
+        "id": "-8A6PGIp-P4",
+        "title": "Omoplata | De La Riva Fundamentals | Roseburg BJJ",
+        "channel": "Performance Martial Arts Academy",
+        "duration": 116,
+        "front": true
       },
       {
         "id": "CK-STgse6C0",
-        "title": "Finishing the omoplata from De La Riva",
-        "by": "Filipe",
-        "vertical": false,
+        "title": "De la riva finalizando com omoplata",
         "channel": "Filipe bjj star star",
-        "duration": 125,
-        "verified": "2026-07-14"
+        "duration": 124,
+        "vertical": false
+      },
+      {
+        "id": "akGJ-RfjkAg",
+        "title": "Omoplata from De La Riva Guard | Lee Livingstone Pt. 1 | Jits Magazine | BJJ…",
+        "channel": "JitsMagazine",
+        "duration": 164
+      },
+      {
+        "id": "cQEVTjYCq0M",
+        "title": "Rafa Mendes' Omoplata.",
+        "channel": "Artes Marciais",
+        "duration": 61,
+        "vertical": false
       }
     ]
   },
@@ -651,31 +660,18 @@
     ],
     "clips": [
       {
-        "id": "Y4TxL4mDSKg",
-        "title": "Defending the omoplata sweep",
-        "by": "Ninja Pinto",
-        "vertical": false,
-        "channel": "Ninja Pinto BJJ",
-        "duration": 47,
-        "verified": "2026-07-14"
+        "id": "mC8Vc-n3twQ",
+        "title": "Omoplata defense I learned from Delariva himself",
+        "channel": "Felipe Costa",
+        "duration": 24,
+        "vertical": false
       },
       {
         "id": "WpdIBfxbUbo",
-        "title": "Omoplata Defense Breakdown",
-        "by": "Ursinho BJJ Coach",
-        "vertical": false,
+        "title": "Ursinho Technique Breakdown - [Omoplata Defense]",
         "channel": "Ursinho BJJ",
         "duration": 160,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "mC8Vc-n3twQ",
-        "title": "Omoplata Defense Learned from De La Riva",
-        "by": "Felipe Costa",
-        "vertical": false,
-        "channel": "Felipe Costa",
-        "duration": 24,
-        "verified": "2026-07-15"
+        "vertical": false
       }
     ]
   }

@@ -436,31 +436,19 @@
     ],
     "clips": [
       {
-        "id": "d7ucks8aHN0",
-        "title": "Transition from Kesa Gatame to Kimura",
-        "by": "Strong Hold Jiu Jitsu",
-        "vertical": false,
-        "channel": "Strong Hold Jiu Jitsu",
-        "duration": 71,
-        "verified": "2026-07-14"
-      },
-      {
         "id": "u80GDGC1Yno",
-        "title": "Kimura from Scarf Hold",
-        "by": "Julie Bond",
-        "vertical": false,
+        "title": "Bjj kimura from scarf hold",
         "channel": "Julie Bond",
-        "duration": 35,
-        "verified": "2026-07-14"
+        "duration": 34,
+        "vertical": false,
+        "front": true
       },
       {
-        "id": "-RyLUQSZZ1s",
-        "title": "Kimura from Kesa",
-        "by": "Vernon Kirk",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 92,
-        "verified": "2026-07-14"
+        "id": "d7ucks8aHN0",
+        "title": "Technique on Command - Transition from Kesa Gatame to Kimura",
+        "channel": "Strong Hold Jiu Jitsu",
+        "duration": 70,
+        "vertical": false
       }
     ]
   },
@@ -622,34 +610,6 @@
         "description": "Start in Kuzure Kesa Gatame bottom with partner pursuing the Kimura at full resistance. Practice all defensive options including prevention, grip fighting, guard recovery, and recognizing when to tap safely. Track escape success rate and identify technical gaps."
       }
     ],
-    "clips": [
-      {
-        "id": "2M_6VytUaus",
-        "title": "Kesa Gatame Escape",
-        "by": "SBG Australia",
-        "vertical": false,
-        "channel": "SBG Australia",
-        "duration": 43,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "-zFQ6h4yKT4",
-        "title": "Kuzure-kesa-gatame Escapes",
-        "by": "Kodokan",
-        "vertical": false,
-        "channel": "KODOKAN",
-        "duration": 70,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "_HjmunOXVtY",
-        "title": "Kuzure Kesa Gatame Escapes",
-        "by": "Utah Shudokan",
-        "vertical": false,
-        "channel": "Utah Shudokan USA",
-        "duration": 70,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   }
 }

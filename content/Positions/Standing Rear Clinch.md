@@ -36,50 +36,6 @@ description: "Master Standing Rear Clinch in BJJ. Dominant back control from sta
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Standing Rear Clinch \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Easy Takedowns from the Rear Clinch",
-      "description": "Standing Rear Clinch film study: Easy Takedowns from the Rear Clinch, taught by Oneonta Jiu Jitsu Academy.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/ovl7eZIzBaU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/ovl7eZIzBaU",
-      "url": "https://www.youtube.com/watch?v=ovl7eZIzBaU",
-      "creator": { "@type": "Person", "name": "Oneonta Jiu Jitsu Academy" },
-      "duration": "PT57S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Single Leg Takedown From the Back",
-      "description": "Standing Rear Clinch film study: Single Leg Takedown From the Back, taught by John Danaher.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/35C990SbApc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/35C990SbApc",
-      "url": "https://www.youtube.com/watch?v=35C990SbApc",
-      "creator": { "@type": "Person", "name": "John Danaher" },
-      "duration": "PT150S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Body Lock Escape Using the Switch",
-      "description": "Standing Rear Clinch film study: Body Lock Escape Using the Switch, taught by FreeChannelOpen coach.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/GclkEsj1iE8/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/GclkEsj1iE8",
-      "url": "https://www.youtube.com/watch?v=GclkEsj1iE8",
-      "creator": { "@type": "Person", "name": "FreeChannelOpen coach" },
-      "duration": "PT146S"
-    }
-  ]
-}
-</script>
-
 
 
 <script type="application/ld+json">
@@ -115,40 +71,6 @@ The Standing Rear Clinch holds particular importance in no-gi grappling and MMA 
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Standing Rear Clinch in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=ovl7eZIzBaU)
-
-<p class="clip-credit"><strong>Easy Takedowns from the Rear Clinch</strong> — taught by Oneonta Jiu Jitsu Academy · 0:57 · <a href="https://www.youtube.com/watch?v=ovl7eZIzBaU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=35C990SbApc)
-
-<p class="clip-credit"><strong>Single Leg Takedown From the Back</strong> — taught by John Danaher · 2:30 · <a href="https://www.youtube.com/watch?v=35C990SbApc" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=GclkEsj1iE8)
-
-<p class="clip-credit"><strong>Body Lock Escape Using the Switch</strong> — taught by FreeChannelOpen coach · 2:26 · <a href="https://www.youtube.com/watch?v=GclkEsj1iE8" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="key-principles" class="content-section">

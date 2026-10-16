@@ -356,35 +356,7 @@
       }
     ],
     "safety_considerations": "Single Leg X Recovery involves vulnerable knee and ankle positions throughout the extraction sequence. Never force the threading motion against deep resistance as this can strain the knee or expose the ankle to submission. Train with partners who understand the dangers of heel hooks and will release immediately upon tap. Beginners should drill the movement pattern at slow speed before adding any resistance. If you feel sharp pain in knee or ankle during the threading, immediately tap and reset rather than fighting through. Avoid this technique when fatigued as dorsiflexion maintenance requires concentration.",
-    "clips": [
-      {
-        "id": "v68TUDCHSe8",
-        "title": "Recovering single leg X when you get smashed",
-        "by": "Dubious Dom",
-        "vertical": false,
-        "channel": "Dubious Dom",
-        "duration": 295,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "ipBdnq-j--g",
-        "title": "Backstep Retention from Single Leg X",
-        "by": "Lachlan Giles",
-        "vertical": false,
-        "channel": "Absolute MMA St Kilda - Melbourne",
-        "duration": 302,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "LQul2ZvHyms",
-        "title": "Single Leg X - Forcing Their Hands to the Mat",
-        "by": "Lachlan Giles",
-        "vertical": false,
-        "channel": "Absolute MMA St Kilda - Melbourne",
-        "duration": 254,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Single Leg X Recovery Defender",
@@ -560,35 +532,7 @@
         "description": "Start in Ushiro Ashi-Garami top with partner working genuine recovery attempts. Apply defensive concepts against realistic speed and resistance, developing the ability to maintain offensive control throughout scramble sequences."
       }
     ],
-    "clips": [
-      {
-        "id": "QMgsMSTRSBI",
-        "title": "Five counters to ashi garami leg entanglement",
-        "by": "BJJBlackBeltDad",
-        "vertical": false,
-        "channel": "BJJBlackBeltDad",
-        "duration": 93,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "L417yCl_-dc",
-        "title": "Leg defense from ashi garami",
-        "by": "The Coop BJJ",
-        "vertical": false,
-        "channel": "The Coop BJJ",
-        "duration": 48,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "cRXsNPAgVLU",
-        "title": "Danaher's irimi ashi garami counter",
-        "by": "John Danaher",
-        "vertical": false,
-        "channel": "Dohn Janaher ",
-        "duration": 29,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "variants_and_adaptations": [
     {

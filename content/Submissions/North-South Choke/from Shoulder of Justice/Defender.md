@@ -162,23 +162,11 @@ description: "Defend against the North-South Choke from Shoulder of Justice. Rec
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "North South inverted spin escape",
-      "description": "North-South Choke from Shoulder of Justice (Defender) film study: North South inverted spin escape, taught by SBG Australia.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/XaLBmGnHm78/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/XaLBmGnHm78",
-      "url": "https://www.youtube.com/watch?v=XaLBmGnHm78",
-      "creator": { "@type": "Person", "name": "SBG Australia" },
-      "duration": "PT37S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Hook-Plata North-South choke escape",
-      "description": "North-South Choke from Shoulder of Justice (Defender) film study: Hook-Plata North-South choke escape, taught by Erik Koehne.",
+      "name": "\u201cHook-Plata\u201d  (North-South Choke Escape)",
+      "description": "North-South Choke from Shoulder of Justice (Defender) film study: \u201cHook-Plata\u201d  (North-South Choke Escape).",
       "thumbnailUrl": "https://i.ytimg.com/vi/O-2iSvT8zDk/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/O-2iSvT8zDk",
       "url": "https://www.youtube.com/watch?v=O-2iSvT8zDk",
-      "creator": { "@type": "Person", "name": "Erik Koehne" },
       "duration": "PT59S"
     }
   ]
@@ -208,17 +196,9 @@ Defending the North-South Choke from Shoulder of Justice requires recognizing th
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=XaLBmGnHm78)
-
-<p class="clip-credit"><strong>North South inverted spin escape</strong> — taught by SBG Australia · 0:37 · <a href="https://www.youtube.com/watch?v=XaLBmGnHm78" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=O-2iSvT8zDk)
 
-<p class="clip-credit"><strong>Hook-Plata North-South choke escape</strong> — taught by Erik Koehne · 0:59 · <a href="https://www.youtube.com/watch?v=O-2iSvT8zDk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>“Hook-Plata”  (North-South Choke Escape)</strong> · 0:59 · <a href="https://www.youtube.com/watch?v=O-2iSvT8zDk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

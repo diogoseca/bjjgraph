@@ -159,35 +159,22 @@ description: "Master Outside Ashi-Garami Bottom in BJJ. Complete guide covering 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Escape outside ashi heel hook to back take",
-      "description": "Outside Ashi-Garami (Bottom) film study: Escape outside ashi heel hook to back take, taught by Grapple Box.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/KmGhb2j68Ng/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/KmGhb2j68Ng",
-      "url": "https://www.youtube.com/watch?v=KmGhb2j68Ng",
-      "creator": { "@type": "Person", "name": "Grapple Box" },
-      "duration": "PT34S"
+      "name": "Leglocks - Outside Ashi Basics - 12/02/2021",
+      "description": "Outside Ashi-Garami (Bottom) film study: Leglocks - Outside Ashi Basics - 12/02/2021.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/YayZF8XS2M4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/YayZF8XS2M4",
+      "url": "https://www.youtube.com/watch?v=YayZF8XS2M4",
+      "duration": "PT527S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "5 leglock counters to Ashi Garami",
-      "description": "Outside Ashi-Garami (Bottom) film study: 5 leglock counters to Ashi Garami, taught by BJJBlackBeltDad.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/QMgsMSTRSBI/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/QMgsMSTRSBI",
-      "url": "https://www.youtube.com/watch?v=QMgsMSTRSBI",
-      "creator": { "@type": "Person", "name": "BJJBlackBeltDad" },
-      "duration": "PT93S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Insane leglock defense",
-      "description": "Outside Ashi-Garami (Bottom) film study: Insane leglock defense, taught by Craig Jones.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/uZbUhFapIhg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/uZbUhFapIhg",
-      "url": "https://www.youtube.com/watch?v=uZbUhFapIhg",
-      "creator": { "@type": "Person", "name": "Craig Jones" },
-      "duration": "PT163S"
+      "name": "Understanding Outside Ashi Garami Entries",
+      "description": "Outside Ashi-Garami (Bottom) film study: Understanding Outside Ashi Garami Entries.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XLE_9QwSnnw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/XLE_9QwSnnw",
+      "url": "https://www.youtube.com/watch?v=XLE_9QwSnnw",
+      "duration": "PT313S"
     }
   ]
 }
@@ -217,25 +204,17 @@ From this position, the practitioner has access to outside heel hooks, straight 
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=KmGhb2j68Ng)
+![](https://www.youtube.com/watch?v=YayZF8XS2M4)
 
-<p class="clip-credit"><strong>Escape outside ashi heel hook to back take</strong> — taught by Grapple Box · 0:34 · <a href="https://www.youtube.com/watch?v=KmGhb2j68Ng" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=QMgsMSTRSBI)
-
-<p class="clip-credit"><strong>5 leglock counters to Ashi Garami</strong> — taught by BJJBlackBeltDad · 1:33 · <a href="https://www.youtube.com/watch?v=QMgsMSTRSBI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Leglocks - Outside Ashi Basics - 12/02/2021</strong> · 8:47 · <a href="https://www.youtube.com/watch?v=YayZF8XS2M4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=uZbUhFapIhg)
+![](https://www.youtube.com/watch?v=XLE_9QwSnnw)
 
-<p class="clip-credit"><strong>Insane leglock defense</strong> — taught by Craig Jones · 2:43 · <a href="https://www.youtube.com/watch?v=uZbUhFapIhg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Understanding Outside Ashi Garami Entries</strong> · 5:13 · <a href="https://www.youtube.com/watch?v=XLE_9QwSnnw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

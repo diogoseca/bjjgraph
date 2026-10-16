@@ -154,23 +154,21 @@ description: "Learn to defend and escape the Omoplata from Spider Guard. Recogni
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Best Way to Escape the Omoplata Shoulder Lock",
-      "description": "Omoplata from Spider Guard (Defender) film study: Best Way to Escape the Omoplata Shoulder Lock, taught by John Connors.",
+      "name": "\ud83d\udcaf BEST WAY to ESCAPE THE OMOPLATA Shoulder Lock",
+      "description": "Omoplata from Spider Guard (Defender) film study: \ud83d\udcaf BEST WAY to ESCAPE THE OMOPLATA Shoulder Lock.",
       "thumbnailUrl": "https://i.ytimg.com/vi/ocIHY3jBYIQ/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/ocIHY3jBYIQ",
       "url": "https://www.youtube.com/watch?v=ocIHY3jBYIQ",
-      "creator": { "@type": "Person", "name": "John Connors" },
-      "duration": "PT62S"
+      "duration": "PT61S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Omoplata Escape Jump Over",
-      "description": "Omoplata from Spider Guard (Defender) film study: Omoplata Escape Jump Over, taught by Chosen Few BJJ.",
+      "name": "Omoplata Escape \u201cJump Over\u201d",
+      "description": "Omoplata from Spider Guard (Defender) film study: Omoplata Escape \u201cJump Over\u201d.",
       "thumbnailUrl": "https://i.ytimg.com/vi/nL460qY51vs/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/nL460qY51vs",
       "url": "https://www.youtube.com/watch?v=nL460qY51vs",
-      "creator": { "@type": "Person", "name": "Chosen Few BJJ" },
       "duration": "PT101S"
     }
   ]
@@ -202,7 +200,7 @@ Defending the Omoplata from Spider Guard requires understanding both early preve
 
 ![](https://www.youtube.com/watch?v=ocIHY3jBYIQ)
 
-<p class="clip-credit"><strong>Best Way to Escape the Omoplata Shoulder Lock</strong> — taught by John Connors · 1:02 · <a href="https://www.youtube.com/watch?v=ocIHY3jBYIQ" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>💯 BEST WAY to ESCAPE THE OMOPLATA Shoulder Lock</strong> · 1:01 · <a href="https://www.youtube.com/watch?v=ocIHY3jBYIQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -210,7 +208,7 @@ Defending the Omoplata from Spider Guard requires understanding both early preve
 
 ![](https://www.youtube.com/watch?v=nL460qY51vs)
 
-<p class="clip-credit"><strong>Omoplata Escape Jump Over</strong> — taught by Chosen Few BJJ · 1:41 · <a href="https://www.youtube.com/watch?v=nL460qY51vs" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Omoplata Escape “Jump Over”</strong> · 1:41 · <a href="https://www.youtube.com/watch?v=nL460qY51vs" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

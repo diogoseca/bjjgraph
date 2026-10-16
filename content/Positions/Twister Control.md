@@ -36,50 +36,6 @@ description: "Master Twister Control in BJJ. Complete guide covering entries, sp
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Twister Control \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Twister side attacks",
-      "description": "Twister Control film study: Twister side attacks, taught by Eddie Bravo.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/odT3-cVWXdc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/odT3-cVWXdc",
-      "url": "https://www.youtube.com/watch?v=odT3-cVWXdc",
-      "creator": { "@type": "Person", "name": "Eddie Bravo" },
-      "duration": "PT61S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Twister side control",
-      "description": "Twister Control film study: Twister side control, taught by Eddie Bravo.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/R55lmkc6Mus/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/R55lmkc6Mus",
-      "url": "https://www.youtube.com/watch?v=R55lmkc6Mus",
-      "creator": { "@type": "Person", "name": "Eddie Bravo" },
-      "duration": "PT87S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Smash side control",
-      "description": "Twister Control film study: Smash side control, taught by Eddie Bravo.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/oBya4BEW_XU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/oBya4BEW_XU",
-      "url": "https://www.youtube.com/watch?v=oBya4BEW_XU",
-      "creator": { "@type": "Person", "name": "Eddie Bravo" },
-      "duration": "PT61S"
-    }
-  ]
-}
-</script>
-
 
 
 <script type="application/ld+json">
@@ -121,40 +77,6 @@ The position's effectiveness scales with skill level and understanding. Beginner
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Twister Control in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=odT3-cVWXdc)
-
-<p class="clip-credit"><strong>Twister side attacks</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=odT3-cVWXdc" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=R55lmkc6Mus)
-
-<p class="clip-credit"><strong>Twister side control</strong> — taught by Eddie Bravo · 1:27 · <a href="https://www.youtube.com/watch?v=R55lmkc6Mus" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=oBya4BEW_XU)
-
-<p class="clip-credit"><strong>Smash side control</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=oBya4BEW_XU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="key-principles" class="content-section">

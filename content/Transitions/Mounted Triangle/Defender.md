@@ -168,35 +168,12 @@ description: "How to defend against Mounted Triangle in BJJ. Recognition cues, d
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Preventing the mounted triangle",
-      "description": "Mounted Triangle (Defender) film study: Preventing the mounted triangle, taught by Justen Hamilton.",
+      "name": "Preventing the Mounted Triangle",
+      "description": "Mounted Triangle (Defender) film study: Preventing the Mounted Triangle.",
       "thumbnailUrl": "https://i.ytimg.com/vi/l-HhOV9UjJU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/l-HhOV9UjJU",
       "url": "https://www.youtube.com/watch?v=l-HhOV9UjJU",
-      "creator": { "@type": "Person", "name": "Justen Hamilton" },
       "duration": "PT104S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "How to Defend the Mounted Triangle",
-      "description": "Mounted Triangle (Defender) film study: How to Defend the Mounted Triangle, taught by RVV BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/djm7BIQksOQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/djm7BIQksOQ",
-      "url": "https://www.youtube.com/watch?v=djm7BIQksOQ",
-      "creator": { "@type": "Person", "name": "RVV BJJ" },
-      "duration": "PT194S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Avoiding and Defending the Triangle Choke",
-      "description": "Mounted Triangle (Defender) film study: Avoiding and Defending the Triangle Choke, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Ss49jnCob0w/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Ss49jnCob0w",
-      "url": "https://www.youtube.com/watch?v=Ss49jnCob0w",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT775S"
     }
   ]
 }
@@ -226,23 +203,7 @@ Defending the Mounted Triangle requires calm technical execution under extreme p
 
 ![](https://www.youtube.com/watch?v=l-HhOV9UjJU)
 
-<p class="clip-credit"><strong>Preventing the mounted triangle</strong> — taught by Justen Hamilton · 1:44 · <a href="https://www.youtube.com/watch?v=l-HhOV9UjJU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=djm7BIQksOQ)
-
-<p class="clip-credit"><strong>How to Defend the Mounted Triangle</strong> — taught by RVV BJJ · 3:14 · <a href="https://www.youtube.com/watch?v=djm7BIQksOQ" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=Ss49jnCob0w)
-
-<p class="clip-credit"><strong>Avoiding and Defending the Triangle Choke</strong> — taught by Lachlan Giles · 12:55 · <a href="https://www.youtube.com/watch?v=Ss49jnCob0w" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Preventing the Mounted Triangle</strong> · 1:44 · <a href="https://www.youtube.com/watch?v=l-HhOV9UjJU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

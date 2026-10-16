@@ -36,50 +36,6 @@ description: "Master kneebar control position in BJJ. Complete guide covering en
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Kneebar Control \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Saddle Entries from Guard",
-      "description": "Kneebar Control film study: Saddle Entries from Guard, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/K5XhO7o5QN0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/K5XhO7o5QN0",
-      "url": "https://www.youtube.com/watch?v=K5XhO7o5QN0",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT66S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "No-Gi Kneebar Technique",
-      "description": "Kneebar Control film study: No-Gi Kneebar Technique, taught by Jiu Jitsu Matrix.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/12rNXPlqVXo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/12rNXPlqVXo",
-      "url": "https://www.youtube.com/watch?v=12rNXPlqVXo",
-      "creator": { "@type": "Person", "name": "Jiu Jitsu Matrix" },
-      "duration": "PT20S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Several Sneaky Kneebars",
-      "description": "Kneebar Control film study: Several Sneaky Kneebars, taught by Coach Brian.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/zkBeVUL0YxY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/zkBeVUL0YxY",
-      "url": "https://www.youtube.com/watch?v=zkBeVUL0YxY",
-      "creator": { "@type": "Person", "name": "Coach Brian" },
-      "duration": "PT147S"
-    }
-  ]
-}
-</script>
-
 
 
 <script type="application/ld+json">
@@ -121,40 +77,6 @@ Historically, the kneebar has existed in grappling arts for centuries, appearing
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Kneebar Control in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=K5XhO7o5QN0)
-
-<p class="clip-credit"><strong>Saddle Entries from Guard</strong> — taught by Lachlan Giles · 1:06 · <a href="https://www.youtube.com/watch?v=K5XhO7o5QN0" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=12rNXPlqVXo)
-
-<p class="clip-credit"><strong>No-Gi Kneebar Technique</strong> — taught by Jiu Jitsu Matrix · 0:20 · <a href="https://www.youtube.com/watch?v=12rNXPlqVXo" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=zkBeVUL0YxY)
-
-<p class="clip-credit"><strong>Several Sneaky Kneebars</strong> — taught by Coach Brian · 2:27 · <a href="https://www.youtube.com/watch?v=zkBeVUL0YxY" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="key-principles" class="content-section">

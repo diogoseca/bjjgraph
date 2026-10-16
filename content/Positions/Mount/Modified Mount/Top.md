@@ -165,35 +165,22 @@ description: "Master offensive strategies from Modified Mount. Learn stability m
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Armbar from modified mount",
-      "description": "Modified Mount (Top) film study: Armbar from modified mount, taught by Black Lotus BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/uo5jPElZ6po/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/uo5jPElZ6po",
-      "url": "https://www.youtube.com/watch?v=uo5jPElZ6po",
-      "creator": { "@type": "Person", "name": "Black Lotus BJJ" },
-      "duration": "PT63S"
+      "name": "Modified Mount Control-BJJ",
+      "description": "Modified Mount (Top) film study: Modified Mount Control-BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/nbyCNkko1mE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/nbyCNkko1mE",
+      "url": "https://www.youtube.com/watch?v=nbyCNkko1mE",
+      "duration": "PT228S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Cross collar chokes from mount",
-      "description": "Modified Mount (Top) film study: Cross collar chokes from mount, taught by Roger Gracie.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/dfP-Ov8FBUo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/dfP-Ov8FBUo",
-      "url": "https://www.youtube.com/watch?v=dfP-Ov8FBUo",
-      "creator": { "@type": "Person", "name": "Roger Gracie" },
-      "duration": "PT80S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Mounted armbar + cross collar double attack",
-      "description": "Modified Mount (Top) film study: Mounted armbar + cross collar double attack, taught by Henry Akins.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/GCxRluGItWY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/GCxRluGItWY",
-      "url": "https://www.youtube.com/watch?v=GCxRluGItWY",
-      "creator": { "@type": "Person", "name": "Henry Akins" },
-      "duration": "PT95S"
+      "name": "MODIFIED MOUNT DRILL",
+      "description": "Modified Mount (Top) film study: MODIFIED MOUNT DRILL.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/d-hpSz0L-nk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/d-hpSz0L-nk",
+      "url": "https://www.youtube.com/watch?v=d-hpSz0L-nk",
+      "duration": "PT278S"
     }
   ]
 }
@@ -219,25 +206,17 @@ Modified Mount from the top perspective represents a strategic decision to trade
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=uo5jPElZ6po)
+![](https://www.youtube.com/watch?v=nbyCNkko1mE)
 
-<p class="clip-credit"><strong>Armbar from modified mount</strong> — taught by Black Lotus BJJ · 1:03 · <a href="https://www.youtube.com/watch?v=uo5jPElZ6po" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=dfP-Ov8FBUo)
-
-<p class="clip-credit"><strong>Cross collar chokes from mount</strong> — taught by Roger Gracie · 1:20 · <a href="https://www.youtube.com/watch?v=dfP-Ov8FBUo" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Modified Mount Control-BJJ</strong> · 3:48 · <a href="https://www.youtube.com/watch?v=nbyCNkko1mE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=GCxRluGItWY)
+![](https://www.youtube.com/watch?v=d-hpSz0L-nk)
 
-<p class="clip-credit"><strong>Mounted armbar + cross collar double attack</strong> — taught by Henry Akins · 1:35 · <a href="https://www.youtube.com/watch?v=GCxRluGItWY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>MODIFIED MOUNT DRILL</strong> · 4:38 · <a href="https://www.youtube.com/watch?v=d-hpSz0L-nk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -165,35 +165,12 @@ description: "Master Quarter Guard Top in BJJ. Complete guide covering passing s
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Passing half guard",
-      "description": "Quarter Guard (Top) film study: Passing half guard, taught by Gordon Ryan.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Zo6aygjOgcQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Zo6aygjOgcQ",
-      "url": "https://www.youtube.com/watch?v=Zo6aygjOgcQ",
-      "creator": { "@type": "Person", "name": "Gordon Ryan" },
-      "duration": "PT188S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Knee Cut to Quarter Mount Pass",
-      "description": "Quarter Guard (Top) film study: Knee Cut to Quarter Mount Pass, taught by Greg Hamilton.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/EcUgqt4Lvvw/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/EcUgqt4Lvvw",
-      "url": "https://www.youtube.com/watch?v=EcUgqt4Lvvw",
-      "creator": { "@type": "Person", "name": "Greg Hamilton" },
-      "duration": "PT207S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Knee Slice to Quarter Traditional Pass",
-      "description": "Quarter Guard (Top) film study: Knee Slice to Quarter Traditional Pass, taught by Brian Marvin.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/rwk1iPbjnKc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/rwk1iPbjnKc",
-      "url": "https://www.youtube.com/watch?v=rwk1iPbjnKc",
-      "creator": { "@type": "Person", "name": "Brian Marvin" },
-      "duration": "PT214S"
+      "name": "I Can\u0027t Free My Ankle in Quarter Guard In BJJ",
+      "description": "Quarter Guard (Top) film study: I Can\u0027t Free My Ankle in Quarter Guard In BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-895S8sQTh8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/-895S8sQTh8",
+      "url": "https://www.youtube.com/watch?v=-895S8sQTh8",
+      "duration": "PT274S"
     }
   ]
 }
@@ -223,25 +200,9 @@ The key distinction from half guard top is that the bottom player's defensive ca
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=Zo6aygjOgcQ)
+![](https://www.youtube.com/watch?v=-895S8sQTh8)
 
-<p class="clip-credit"><strong>Passing half guard</strong> — taught by Gordon Ryan · 3:08 · <a href="https://www.youtube.com/watch?v=Zo6aygjOgcQ" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=EcUgqt4Lvvw)
-
-<p class="clip-credit"><strong>Knee Cut to Quarter Mount Pass</strong> — taught by Greg Hamilton · 3:27 · <a href="https://www.youtube.com/watch?v=EcUgqt4Lvvw" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=rwk1iPbjnKc)
-
-<p class="clip-credit"><strong>Knee Slice to Quarter Traditional Pass</strong> — taught by Brian Marvin · 3:34 · <a href="https://www.youtube.com/watch?v=rwk1iPbjnKc" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>I Can&#39;t Free My Ankle in Quarter Guard In BJJ</strong> · 4:34 · <a href="https://www.youtube.com/watch?v=-895S8sQTh8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

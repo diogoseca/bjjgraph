@@ -188,34 +188,21 @@ description: "Step-by-step guide to finishing the Americana from Modified Mount.
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "How To Perform An Americana From Top Mount",
-      "description": "Americana from Modified Mount (Attacker) film study: How To Perform An Americana From Top Mount, taught by Evolve MMA.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/uPazS4MJiDc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/uPazS4MJiDc",
-      "url": "https://www.youtube.com/watch?v=uPazS4MJiDc",
-      "creator": { "@type": "Person", "name": "Evolve MMA" },
-      "duration": "PT71S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Americana from Mount",
-      "description": "Americana from Modified Mount (Attacker) film study: Americana from Mount, taught by Thunderdome BJJ.",
+      "name": "Americana Ezekiel from Mount (Try it out Tuesday)",
+      "description": "Americana from Modified Mount (Attacker) film study: Americana Ezekiel from Mount (Try it out Tuesday).",
       "thumbnailUrl": "https://i.ytimg.com/vi/Tgj7ZVWheog/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Tgj7ZVWheog",
       "url": "https://www.youtube.com/watch?v=Tgj7ZVWheog",
-      "creator": { "@type": "Person", "name": "Thunderdome BJJ" },
       "duration": "PT21S"
     },
     {
       "@type": "VideoObject",
-      "position": 3,
+      "position": 2,
       "name": "Modified Americana Grip",
-      "description": "Americana from Modified Mount (Attacker) film study: Modified Americana Grip, taught by BJJ After Forty.",
+      "description": "Americana from Modified Mount (Attacker) film study: Modified Americana Grip.",
       "thumbnailUrl": "https://i.ytimg.com/vi/SkFE9CBKvsA/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/SkFE9CBKvsA",
       "url": "https://www.youtube.com/watch?v=SkFE9CBKvsA",
-      "creator": { "@type": "Person", "name": "BJJ After Forty" },
       "duration": "PT61S"
     }
   ]
@@ -245,17 +232,9 @@ Executing the Americana from Modified Mount leverages the position's asymmetric 
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=uPazS4MJiDc)
-
-<p class="clip-credit"><strong>How To Perform An Americana From Top Mount</strong> — taught by Evolve MMA · 1:11 · <a href="https://www.youtube.com/watch?v=uPazS4MJiDc" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=Tgj7ZVWheog)
 
-<p class="clip-credit"><strong>Americana from Mount</strong> — taught by Thunderdome BJJ · 0:21 · <a href="https://www.youtube.com/watch?v=Tgj7ZVWheog" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Americana Ezekiel from Mount (Try it out Tuesday)</strong> · 0:21 · <a href="https://www.youtube.com/watch?v=Tgj7ZVWheog" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -263,7 +242,7 @@ Executing the Americana from Modified Mount leverages the position's asymmetric 
 
 ![](https://www.youtube.com/watch?v=SkFE9CBKvsA)
 
-<p class="clip-credit"><strong>Modified Americana Grip</strong> — taught by BJJ After Forty · 1:01 · <a href="https://www.youtube.com/watch?v=SkFE9CBKvsA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Modified Americana Grip</strong> · 1:01 · <a href="https://www.youtube.com/watch?v=SkFE9CBKvsA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

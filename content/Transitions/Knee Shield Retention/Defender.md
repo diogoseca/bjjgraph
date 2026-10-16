@@ -166,35 +166,32 @@ description: "How to defeat Knee Shield Retention in BJJ. Recognition cues, pass
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Knee shield half guard pass",
-      "description": "Knee Shield Retention (Defender) film study: Knee shield half guard pass, taught by Adam Metcalf.",
+      "name": "Half Guard / Knee Shield Pass #4",
+      "description": "Knee Shield Retention (Defender) film study: Half Guard / Knee Shield Pass #4.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Y815hmtzGZA/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Y815hmtzGZA",
       "url": "https://www.youtube.com/watch?v=Y815hmtzGZA",
-      "creator": { "@type": "Person", "name": "Adam Metcalf" },
-      "duration": "PT30S"
+      "duration": "PT29S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Passing the knee shield with an inside knee cut",
-      "description": "Knee Shield Retention (Defender) film study: Passing the knee shield with an inside knee cut, taught by War Room Jiu Jitsu.",
+      "name": "How to pass Half Guard Knee Shield with an inside Knee Cut - JiuJitsu Class\u2026",
+      "description": "Knee Shield Retention (Defender) film study: How to pass Half Guard Knee Shield with an inside Knee Cut - JiuJitsu Class\u2026.",
       "thumbnailUrl": "https://i.ytimg.com/vi/yj_6xcl2emA/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/yj_6xcl2emA",
       "url": "https://www.youtube.com/watch?v=yj_6xcl2emA",
-      "creator": { "@type": "Person", "name": "War Room Jiu Jitsu" },
       "duration": "PT70S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "Passing the knee shield from over-under",
-      "description": "Knee Shield Retention (Defender) film study: Passing the knee shield from over-under, taught by Paragon Jiu-Jitsu Austin.",
+      "name": "Passing Knee Shield from Over Under Position",
+      "description": "Knee Shield Retention (Defender) film study: Passing Knee Shield from Over Under Position.",
       "thumbnailUrl": "https://i.ytimg.com/vi/MvsgiCFdQPA/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/MvsgiCFdQPA",
       "url": "https://www.youtube.com/watch?v=MvsgiCFdQPA",
-      "creator": { "@type": "Person", "name": "Paragon Jiu-Jitsu Austin" },
-      "duration": "PT116S"
+      "duration": "PT115S"
     }
   ]
 }
@@ -224,7 +221,7 @@ As the top player facing Knee Shield Retention, your goal is to systematically d
 
 ![](https://www.youtube.com/watch?v=Y815hmtzGZA)
 
-<p class="clip-credit"><strong>Knee shield half guard pass</strong> — taught by Adam Metcalf · 0:30 · <a href="https://www.youtube.com/watch?v=Y815hmtzGZA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Half Guard / Knee Shield Pass #4</strong> · 0:29 · <a href="https://www.youtube.com/watch?v=Y815hmtzGZA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -232,7 +229,7 @@ As the top player facing Knee Shield Retention, your goal is to systematically d
 
 ![](https://www.youtube.com/watch?v=yj_6xcl2emA)
 
-<p class="clip-credit"><strong>Passing the knee shield with an inside knee cut</strong> — taught by War Room Jiu Jitsu · 1:10 · <a href="https://www.youtube.com/watch?v=yj_6xcl2emA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How to pass Half Guard Knee Shield with an inside Knee Cut - JiuJitsu Class…</strong> · 1:10 · <a href="https://www.youtube.com/watch?v=yj_6xcl2emA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -240,7 +237,7 @@ As the top player facing Knee Shield Retention, your goal is to systematically d
 
 ![](https://www.youtube.com/watch?v=MvsgiCFdQPA)
 
-<p class="clip-credit"><strong>Passing the knee shield from over-under</strong> — taught by Paragon Jiu-Jitsu Austin · 1:56 · <a href="https://www.youtube.com/watch?v=MvsgiCFdQPA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Passing Knee Shield from Over Under Position</strong> · 1:55 · <a href="https://www.youtube.com/watch?v=MvsgiCFdQPA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

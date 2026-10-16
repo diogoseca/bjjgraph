@@ -369,30 +369,18 @@
     "clips": [
       {
         "id": "rCFiQeV6aHU",
-        "title": "Sweep from Worm Guard",
-        "by": "Lucas Lima",
-        "vertical": false,
+        "title": "Lucas Lima - Sweep from Worm Guard",
         "channel": "American Grappling Federation",
         "duration": 41,
-        "verified": "2026-07-15"
+        "vertical": false,
+        "front": true
       },
       {
         "id": "BHwU-bbyvkc",
-        "title": "Worm Guard attacks: sweep and berimbolo",
-        "by": "Jamie",
-        "vertical": false,
+        "title": "SUPER EFFECTIVE! Worm Guard Attacks (Sweep & Berimbolo)",
         "channel": "jamielovesmartialarts",
         "duration": 89,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "v8GCc43GlXA",
-        "title": "De la worm sweep",
-        "by": "James Fisher",
-        "vertical": false,
-        "channel": "James Fisher",
-        "duration": 97,
-        "verified": "2026-07-15"
+        "vertical": false
       }
     ]
   },
@@ -576,25 +564,6 @@
         "description": "Positional sparring starting from opponent's established worm guard with all attacks available including sweep, collar drag, and transitions. Defender must recognize and defend each attack while working toward passing the guard. Builds realistic defensive reactions and develops the ability to chain defensive responses into passing sequences."
       }
     ],
-    "clips": [
-      {
-        "id": "aR0dbddbfQA",
-        "title": "Passing the Polish Worm Rider lapel guard",
-        "by": "Daniel Maira",
-        "vertical": false,
-        "channel": "Movement Art",
-        "duration": 54,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "lACga4DakTM",
-        "title": "Modern lapel guard passing",
-        "by": "Romulo Barral",
-        "vertical": false,
-        "channel": "Romulo Barral",
-        "duration": 121,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

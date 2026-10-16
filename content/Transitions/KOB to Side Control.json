@@ -366,35 +366,7 @@
       }
     ],
     "safety_considerations": "The KOB to Side Control transition carries low injury risk compared to submissions or explosive sweeps. The primary safety concern is avoiding dropping your knee directly onto the opponent's ribs or sternum with uncontrolled force during the transition — slide the knee off rather than dropping it sharply. In training, communicate with your partner about pressure levels and transition speed. Be mindful that the crossface can cause neck strain if applied aggressively during the settling phase. Ensure the transition is practiced at controlled speeds before adding resistance.",
-    "clips": [
-      {
-        "id": "sM2SRp7XxOY",
-        "title": "Side control to knee on belly transition",
-        "by": "Cary BJJ coach",
-        "vertical": false,
-        "channel": "Cary Brazilian Jiu-Jitsu",
-        "duration": 198,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "iEpga9txZe8",
-        "title": "Side control to knee on belly transition",
-        "by": "Fighter Training",
-        "vertical": false,
-        "channel": "Fighter Training",
-        "duration": 311,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "I-4771NfsUA",
-        "title": "Switching the knee in knee on belly",
-        "by": "Fabio Leopoldo",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 74,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "KOB to Side Control Defender",
@@ -566,34 +538,6 @@
         "description": "During positional sparring from KOB, actively look for and exploit the KOB to side control transition window. Track your success rate at recovering guard during transitions versus having to escape established side control. Develop the habit of always attempting guard recovery during any positional transition rather than passively accepting the new position."
       }
     ],
-    "clips": [
-      {
-        "id": "Wn01Ynw7O28",
-        "title": "How to escape the knee on belly position",
-        "by": "Evolve MMA coach",
-        "vertical": false,
-        "channel": "Evolve Mixed Martial Arts",
-        "duration": 40,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "IU-kgtU5ng0",
-        "title": "Knee on belly reversal from bottom",
-        "by": "South Island BJJ coach",
-        "vertical": false,
-        "channel": "South Island Bjj",
-        "duration": 45,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "52LxBaUJdcw",
-        "title": "Knee on belly escape to technical stand up",
-        "by": "Lucas Lepri",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 131,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

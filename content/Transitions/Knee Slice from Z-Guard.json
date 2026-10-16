@@ -373,26 +373,7 @@
       }
     ],
     "safety_considerations": "The knee slice pass involves lateral pressure on the bottom player's knee shield leg during the collapse phase. Apply progressive, sustained pressure rather than sudden explosive force to avoid knee or hip injuries to your training partner. Be attentive to flexibility limitations, particularly when driving the slicing knee across the thigh line. If your partner signals discomfort in their knee or hip joints, release pressure immediately and reset. In drilling, use controlled speed and allow your partner to tap or verbally indicate when pressure approaches their tolerance threshold.",
-    "clips": [
-      {
-        "id": "qjnhpw1lijU",
-        "title": "No-gi knee cut pass",
-        "by": "Daniel Frank",
-        "vertical": false,
-        "channel": "Daniel Frank",
-        "duration": 44,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "bvyNozyr7Ow",
-        "title": "Passing the Z-guard",
-        "by": "Zachary Maslany",
-        "vertical": false,
-        "channel": "Zachary Maslany",
-        "duration": 177,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Knee Slice from Z-Guard Defender",
@@ -577,30 +558,11 @@
     "clips": [
       {
         "id": "wZ-QdL6wPPI",
-        "title": "Z-guard counter to the knee slide attempt",
-        "by": "Danny Brown",
-        "vertical": false,
+        "title": "Z Guard//counter to knee slide attempt//dannybrownbjj",
         "channel": "UNC_CynX",
         "duration": 142,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "COMTE898ja8",
-        "title": "Z-guard: avoid getting squashed by the pass",
-        "by": "Craig Jones",
         "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 156,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "aWnmRlWZ8zY",
-        "title": "Back take off the knee shield z-guard",
-        "by": "OffYourBackBJJ",
-        "vertical": false,
-        "channel": "OffYourBackBJJ",
-        "duration": 126,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   }

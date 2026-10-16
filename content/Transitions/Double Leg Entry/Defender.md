@@ -160,35 +160,22 @@ description: "How to defend against Double Leg Entry in BJJ. Recognition cues, d
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Sprawling against the double leg",
-      "description": "Double Leg Entry (Defender) film study: Sprawling against the double leg, taught by A-Team BJJ coach.",
+      "name": "How to Sprawl against a Double Leg!",
+      "description": "Double Leg Entry (Defender) film study: How to Sprawl against a Double Leg!.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Io79xaXZx_c/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Io79xaXZx_c",
       "url": "https://www.youtube.com/watch?v=Io79xaXZx_c",
-      "creator": { "@type": "Person", "name": "A-Team BJJ coach" },
       "duration": "PT56S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "How to defend the double leg takedown",
-      "description": "Double Leg Entry (Defender) film study: How to defend the double leg takedown, taught by NY Martial Arts Academy.",
+      "name": "How To Defend The Double Leg Takedown",
+      "description": "Double Leg Entry (Defender) film study: How To Defend The Double Leg Takedown.",
       "thumbnailUrl": "https://i.ytimg.com/vi/iPZ2ZB0A1Fs/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/iPZ2ZB0A1Fs",
       "url": "https://www.youtube.com/watch?v=iPZ2ZB0A1Fs",
-      "creator": { "@type": "Person", "name": "NY Martial Arts Academy" },
       "duration": "PT85S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Fixing common double leg defense errors",
-      "description": "Double Leg Entry (Defender) film study: Fixing common double leg defense errors, taught by Travis Rutt.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/QhpRyI_HjcU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/QhpRyI_HjcU",
-      "url": "https://www.youtube.com/watch?v=QhpRyI_HjcU",
-      "creator": { "@type": "Person", "name": "Travis Rutt" },
-      "duration": "PT79S"
     }
   ]
 }
@@ -220,7 +207,7 @@ Once the shot is initiated, the defender's response must be immediate and mechan
 
 ![](https://www.youtube.com/watch?v=Io79xaXZx_c)
 
-<p class="clip-credit"><strong>Sprawling against the double leg</strong> — taught by A-Team BJJ coach · 0:56 · <a href="https://www.youtube.com/watch?v=Io79xaXZx_c" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How to Sprawl against a Double Leg!</strong> · 0:56 · <a href="https://www.youtube.com/watch?v=Io79xaXZx_c" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -228,15 +215,7 @@ Once the shot is initiated, the defender's response must be immediate and mechan
 
 ![](https://www.youtube.com/watch?v=iPZ2ZB0A1Fs)
 
-<p class="clip-credit"><strong>How to defend the double leg takedown</strong> — taught by NY Martial Arts Academy · 1:25 · <a href="https://www.youtube.com/watch?v=iPZ2ZB0A1Fs" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=QhpRyI_HjcU)
-
-<p class="clip-credit"><strong>Fixing common double leg defense errors</strong> — taught by Travis Rutt · 1:19 · <a href="https://www.youtube.com/watch?v=QhpRyI_HjcU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How To Defend The Double Leg Takedown</strong> · 1:25 · <a href="https://www.youtube.com/watch?v=iPZ2ZB0A1Fs" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

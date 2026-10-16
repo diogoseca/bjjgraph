@@ -387,26 +387,7 @@
       }
     ],
     "safety_considerations": "The Sweep from Inside Sankaku involves movement within an active leg entanglement where inside heel hook submissions are possible. Never attempt the sweep with an exposed heel, as the rotational forces involved can accelerate heel hook mechanics and cause devastating knee ligament injuries including ACL and MCL tears. Tap immediately if you feel heel hook pressure during the sweep attempt rather than continuing. Train this technique with controlled, progressive resistance and ensure your training partner understands the submission risks. Communication during drilling is essential to prevent injury.",
-    "clips": [
-      {
-        "id": "K5XhO7o5QN0",
-        "title": "Saddle entries from guard",
-        "by": "Lachlan Giles",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 66,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "6gkNbZWSBzU",
-        "title": "Mount escape to single leg X to saddle",
-        "by": "Combat Arts S&C",
-        "vertical": false,
-        "channel": "Combat Arts Strength and Conditioning",
-        "duration": 17,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Sweep from Inside Sankaku Defender",
@@ -569,25 +550,6 @@
         "description": "Advanced drilling where the top player uses the bottom player's sweep attempts as submission opportunities. When they release heel protection for sweep grips, practice capitalizing on the heel exposure. Develop the ability to bait sweep attempts that lead to easier submission access."
       }
     ],
-    "clips": [
-      {
-        "id": "bJHew8wUS88",
-        "title": "Inside sankaku counter: honey stick escape",
-        "by": "Combat by the Minute",
-        "vertical": false,
-        "channel": "Combat by the Minute",
-        "duration": 92,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "q1JgpfFRDA4",
-        "title": "Inside sankaku counter to inside heel hook",
-        "by": "Pedro Rocha",
-        "vertical": false,
-        "channel": "BJJ ONLINE",
-        "duration": 163,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

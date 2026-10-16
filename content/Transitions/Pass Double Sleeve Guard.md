@@ -46,35 +46,12 @@ description: "Master passing Double Sleeve Guard in BJJ. Complete guide to break
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Double Arm Guard Pass",
-      "description": "Pass Double Sleeve Guard film study: Double Arm Guard Pass, taught by 10th Planet Costa Mesa.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/nolXMAMiIMU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/nolXMAMiIMU",
-      "url": "https://www.youtube.com/watch?v=nolXMAMiIMU",
-      "creator": { "@type": "Person", "name": "10th Planet Costa Mesa" },
-      "duration": "PT23S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "How to pass the double sleeve guard",
-      "description": "Pass Double Sleeve Guard film study: How to pass the double sleeve guard, taught by Jon Thomas.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/oThN2Qq64rk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/oThN2Qq64rk",
-      "url": "https://www.youtube.com/watch?v=oThN2Qq64rk",
-      "creator": { "@type": "Person", "name": "Jon Thomas" },
-      "duration": "PT549S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Double sleeve pressure pass",
-      "description": "Pass Double Sleeve Guard film study: Double sleeve pressure pass, taught by Andre Galvao.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/t275dqwRR1M/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/t275dqwRR1M",
-      "url": "https://www.youtube.com/watch?v=t275dqwRR1M",
-      "creator": { "@type": "Person", "name": "Andre Galvao" },
-      "duration": "PT654S"
+      "name": "Guard Retention W/ Double Sleeve Control ( Spider Guard, Lasso, Open Guard )",
+      "description": "Pass Double Sleeve Guard film study: Guard Retention W/ Double Sleeve Control ( Spider Guard, Lasso, Open Guard ).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/7oc84ycyXM8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/7oc84ycyXM8",
+      "url": "https://www.youtube.com/watch?v=7oc84ycyXM8",
+      "duration": "PT88S"
     }
   ]
 }
@@ -128,25 +105,9 @@ At the competition level, double sleeve guard is one of the most frequently enco
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=nolXMAMiIMU)
+![](https://www.youtube.com/watch?v=7oc84ycyXM8)
 
-<p class="clip-credit"><strong>Double Arm Guard Pass</strong> — taught by 10th Planet Costa Mesa · 0:23 · <a href="https://www.youtube.com/watch?v=nolXMAMiIMU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=oThN2Qq64rk)
-
-<p class="clip-credit"><strong>How to pass the double sleeve guard</strong> — taught by Jon Thomas · 9:09 · <a href="https://www.youtube.com/watch?v=oThN2Qq64rk" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=t275dqwRR1M)
-
-<p class="clip-credit"><strong>Double sleeve pressure pass</strong> — taught by Andre Galvao · 10:54 · <a href="https://www.youtube.com/watch?v=t275dqwRR1M" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Guard Retention W/ Double Sleeve Control ( Spider Guard, Lasso, Open Guard )</strong> · 1:28 · <a href="https://www.youtube.com/watch?v=7oc84ycyXM8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

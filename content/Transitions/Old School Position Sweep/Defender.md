@@ -152,24 +152,22 @@ description: "Defend the Old School Position Sweep from half guard top. Recognit
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Breaking the lockdown half guard",
-      "description": "Old School Position Sweep (Defender) film study: Breaking the lockdown half guard, taught by Superhero Jiu Jitsu Academy.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/-49CypLW9aM/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/-49CypLW9aM",
-      "url": "https://www.youtube.com/watch?v=-49CypLW9aM",
-      "creator": { "@type": "Person", "name": "Superhero Jiu Jitsu Academy" },
-      "duration": "PT61S"
+      "name": "Old school sweep counter",
+      "description": "Old School Position Sweep (Defender) film study: Old school sweep counter.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/bTt-zpZCWos/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/bTt-zpZCWos",
+      "url": "https://www.youtube.com/watch?v=bTt-zpZCWos",
+      "duration": "PT16S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Breaking the lockdown half guard from the top",
-      "description": "Old School Position Sweep (Defender) film study: Breaking the lockdown half guard from the top, taught by Matt Arroyo.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Xb4-phb4BhE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Xb4-phb4BhE",
-      "url": "https://www.youtube.com/watch?v=Xb4-phb4BhE",
-      "creator": { "@type": "Person", "name": "Matt Arroyo" },
-      "duration": "PT251S"
+      "name": "BJJ Basics: Counter Old School Sweep",
+      "description": "Old School Position Sweep (Defender) film study: BJJ Basics: Counter Old School Sweep.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3CM7prP1kzc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3CM7prP1kzc",
+      "url": "https://www.youtube.com/watch?v=3CM7prP1kzc",
+      "duration": "PT60S"
     }
   ]
 }
@@ -197,17 +195,17 @@ As the defender against the Old School Position Sweep, you are the top player ca
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=-49CypLW9aM)
+![](https://www.youtube.com/watch?v=bTt-zpZCWos)
 
-<p class="clip-credit"><strong>Breaking the lockdown half guard</strong> — taught by Superhero Jiu Jitsu Academy · 1:01 · <a href="https://www.youtube.com/watch?v=-49CypLW9aM" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Old school sweep counter</strong> · 0:16 · <a href="https://www.youtube.com/watch?v=bTt-zpZCWos" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=Xb4-phb4BhE)
+![](https://www.youtube.com/watch?v=3CM7prP1kzc)
 
-<p class="clip-credit"><strong>Breaking the lockdown half guard from the top</strong> — taught by Matt Arroyo · 4:11 · <a href="https://www.youtube.com/watch?v=Xb4-phb4BhE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>BJJ Basics: Counter Old School Sweep</strong> · 1:00 · <a href="https://www.youtube.com/watch?v=3CM7prP1kzc" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

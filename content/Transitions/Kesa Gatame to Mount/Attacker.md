@@ -186,24 +186,12 @@ description: "Master the offensive mechanics of transitioning from Kesa Gatame t
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Kesa gatame position, transition and submission",
-      "description": "Kesa Gatame to Mount (Attacker) film study: Kesa gatame position, transition and submission, taught by Merge Grappling coach.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/XDBq3B6_P2Y/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/XDBq3B6_P2Y",
-      "url": "https://www.youtube.com/watch?v=XDBq3B6_P2Y",
-      "creator": { "@type": "Person", "name": "Merge Grappling coach" },
-      "duration": "PT138S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Pivot on chest to baseball slide Kesa Gatame",
-      "description": "Kesa Gatame to Mount (Attacker) film study: Pivot on chest to baseball slide Kesa Gatame, taught by Carlson Gracie Jr.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/KV2JQHe9g0A/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/KV2JQHe9g0A",
-      "url": "https://www.youtube.com/watch?v=KV2JQHe9g0A",
-      "creator": { "@type": "Person", "name": "Carlson Gracie Jr" },
-      "duration": "PT48S"
+      "name": "BJJ Instruction: Kesa Gatame to Mount Transition",
+      "description": "Kesa Gatame to Mount (Attacker) film study: BJJ Instruction: Kesa Gatame to Mount Transition.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Xv02YMCdbwQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Xv02YMCdbwQ",
+      "url": "https://www.youtube.com/watch?v=Xv02YMCdbwQ",
+      "duration": "PT161S"
     }
   ]
 }
@@ -231,17 +219,9 @@ Executing the Kesa Gatame to Mount transition requires precise coordination betw
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=XDBq3B6_P2Y)
+![](https://www.youtube.com/watch?v=Xv02YMCdbwQ)
 
-<p class="clip-credit"><strong>Kesa gatame position, transition and submission</strong> — taught by Merge Grappling coach · 2:18 · <a href="https://www.youtube.com/watch?v=XDBq3B6_P2Y" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=KV2JQHe9g0A)
-
-<p class="clip-credit"><strong>Pivot on chest to baseball slide Kesa Gatame</strong> — taught by Carlson Gracie Jr · 0:48 · <a href="https://www.youtube.com/watch?v=KV2JQHe9g0A" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>BJJ Instruction: Kesa Gatame to Mount Transition</strong> · 2:41 · <a href="https://www.youtube.com/watch?v=Xv02YMCdbwQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

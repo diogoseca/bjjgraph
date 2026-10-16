@@ -159,23 +159,21 @@ description: "Master Triangle Control defense from top in BJJ. Learn escape tech
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Triangle choke posture-up escape",
-      "description": "Triangle Control (Top) film study: Triangle choke posture-up escape, taught by Cosens MMA.",
+      "name": "Triangle choke from Guard \"Posture Up Escape",
+      "description": "Triangle Control (Top) film study: Triangle choke from Guard \"Posture Up Escape.",
       "thumbnailUrl": "https://i.ytimg.com/vi/dJOw0ZEyXXc/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/dJOw0ZEyXXc",
       "url": "https://www.youtube.com/watch?v=dJOw0ZEyXXc",
-      "creator": { "@type": "Person", "name": "Cosens MMA" },
-      "duration": "PT73S"
+      "duration": "PT72S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "How to escape the triangle choke",
-      "description": "Triangle Control (Top) film study: How to escape the triangle choke, taught by Rener \u0026 Ryron Gracie.",
+      "name": "How To Escape a Triangle Choke w/ Rener \u0026 Ryron Gracie",
+      "description": "Triangle Control (Top) film study: How To Escape a Triangle Choke w/ Rener \u0026 Ryron Gracie.",
       "thumbnailUrl": "https://i.ytimg.com/vi/sR2rS2dwpNY/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/sR2rS2dwpNY",
       "url": "https://www.youtube.com/watch?v=sR2rS2dwpNY",
-      "creator": { "@type": "Person", "name": "Rener \u0026 Ryron Gracie" },
       "duration": "PT117S"
     }
   ]
@@ -210,7 +208,7 @@ The defensive hierarchy from Triangle Control Top follows a clear priority seque
 
 ![](https://www.youtube.com/watch?v=dJOw0ZEyXXc)
 
-<p class="clip-credit"><strong>Triangle choke posture-up escape</strong> — taught by Cosens MMA · 1:13 · <a href="https://www.youtube.com/watch?v=dJOw0ZEyXXc" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Triangle choke from Guard &#34;Posture Up Escape</strong> · 1:12 · <a href="https://www.youtube.com/watch?v=dJOw0ZEyXXc" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -218,7 +216,7 @@ The defensive hierarchy from Triangle Control Top follows a clear priority seque
 
 ![](https://www.youtube.com/watch?v=sR2rS2dwpNY)
 
-<p class="clip-credit"><strong>How to escape the triangle choke</strong> — taught by Rener &amp; Ryron Gracie · 1:57 · <a href="https://www.youtube.com/watch?v=sR2rS2dwpNY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How To Escape a Triangle Choke w/ Rener &amp; Ryron Gracie</strong> · 1:57 · <a href="https://www.youtube.com/watch?v=sR2rS2dwpNY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

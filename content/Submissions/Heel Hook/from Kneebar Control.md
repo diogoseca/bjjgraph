@@ -46,34 +46,31 @@ description: "Learn the heel hook from kneebar control in BJJ. Complete guide co
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Kneebar to Heel Hook Matrix",
-      "description": "Heel Hook from Kneebar Control film study: Kneebar to Heel Hook Matrix, taught by Mikey Musumeci.",
+      "name": "Matrix-Kneebar-Heel Hook by Mickey Musumeci",
+      "description": "Heel Hook from Kneebar Control film study: Matrix-Kneebar-Heel Hook by Mickey Musumeci.",
       "thumbnailUrl": "https://i.ytimg.com/vi/HQSxxYL1Aew/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/HQSxxYL1Aew",
       "url": "https://www.youtube.com/watch?v=HQSxxYL1Aew",
-      "creator": { "@type": "Person", "name": "Mikey Musumeci" },
       "duration": "PT26S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Ankle Lock to Kneebar to Heel Hook Transitions",
-      "description": "Heel Hook from Kneebar Control film study: Ankle Lock to Kneebar to Heel Hook Transitions, taught by Elevate MMA.",
+      "name": "Ankle Lock to Knee Bar to Heel Hook transitions",
+      "description": "Heel Hook from Kneebar Control film study: Ankle Lock to Knee Bar to Heel Hook transitions.",
       "thumbnailUrl": "https://i.ytimg.com/vi/B8q8wZx0b74/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/B8q8wZx0b74",
       "url": "https://www.youtube.com/watch?v=B8q8wZx0b74",
-      "creator": { "@type": "Person", "name": "Elevate MMA" },
-      "duration": "PT94S"
+      "duration": "PT93S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "Heel Hook Breaking Mechanics",
-      "description": "Heel Hook from Kneebar Control film study: Heel Hook Breaking Mechanics, taught by Craig Jones.",
+      "name": "Craig Jones  - Heel Hook Breaking Mechanics",
+      "description": "Heel Hook from Kneebar Control film study: Craig Jones  - Heel Hook Breaking Mechanics.",
       "thumbnailUrl": "https://i.ytimg.com/vi/6gu-n4P9JXo/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/6gu-n4P9JXo",
       "url": "https://www.youtube.com/watch?v=6gu-n4P9JXo",
-      "creator": { "@type": "Person", "name": "Craig Jones" },
       "duration": "PT77S"
     }
   ]
@@ -139,7 +136,7 @@ The danger level escalates significantly with this transition. Kneebars provide 
 
 ![](https://www.youtube.com/watch?v=HQSxxYL1Aew)
 
-<p class="clip-credit"><strong>Kneebar to Heel Hook Matrix</strong> — taught by Mikey Musumeci · 0:26 · <a href="https://www.youtube.com/watch?v=HQSxxYL1Aew" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Matrix-Kneebar-Heel Hook by Mickey Musumeci</strong> · 0:26 · <a href="https://www.youtube.com/watch?v=HQSxxYL1Aew" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -147,7 +144,7 @@ The danger level escalates significantly with this transition. Kneebars provide 
 
 ![](https://www.youtube.com/watch?v=B8q8wZx0b74)
 
-<p class="clip-credit"><strong>Ankle Lock to Kneebar to Heel Hook Transitions</strong> — taught by Elevate MMA · 1:34 · <a href="https://www.youtube.com/watch?v=B8q8wZx0b74" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Ankle Lock to Knee Bar to Heel Hook transitions</strong> · 1:33 · <a href="https://www.youtube.com/watch?v=B8q8wZx0b74" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -155,7 +152,7 @@ The danger level escalates significantly with this transition. Kneebars provide 
 
 ![](https://www.youtube.com/watch?v=6gu-n4P9JXo)
 
-<p class="clip-credit"><strong>Heel Hook Breaking Mechanics</strong> — taught by Craig Jones · 1:17 · <a href="https://www.youtube.com/watch?v=6gu-n4P9JXo" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Craig Jones  - Heel Hook Breaking Mechanics</strong> · 1:17 · <a href="https://www.youtube.com/watch?v=6gu-n4P9JXo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

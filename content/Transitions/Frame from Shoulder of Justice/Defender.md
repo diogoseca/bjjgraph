@@ -152,24 +152,12 @@ description: "Prevent the Frame from Shoulder of Justice by maintaining pressure
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Beating frames to establish a chest-to-chest pin",
-      "description": "Frame from Shoulder of Justice (Defender) film study: Beating frames to establish a chest-to-chest pin, taught by Fox Den Martial Arts.",
+      "name": "Side Control - Dealing with Frames and Establishing a Chest to Chest Pin",
+      "description": "Frame from Shoulder of Justice (Defender) film study: Side Control - Dealing with Frames and Establishing a Chest to Chest Pin.",
       "thumbnailUrl": "https://i.ytimg.com/vi/e8OUw05ZBwo/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/e8OUw05ZBwo",
       "url": "https://www.youtube.com/watch?v=e8OUw05ZBwo",
-      "creator": { "@type": "Person", "name": "Fox Den Martial Arts" },
       "duration": "PT245S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Killing the near side arm from side control",
-      "description": "Frame from Shoulder of Justice (Defender) film study: Killing the near side arm from side control, taught by Inverted Gear.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/LUxMvOFbxIY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/LUxMvOFbxIY",
-      "url": "https://www.youtube.com/watch?v=LUxMvOFbxIY",
-      "creator": { "@type": "Person", "name": "Inverted Gear" },
-      "duration": "PT123S"
     }
   ]
 }
@@ -199,15 +187,7 @@ As the defender against the Frame from Shoulder of Justice, you are the top play
 
 ![](https://www.youtube.com/watch?v=e8OUw05ZBwo)
 
-<p class="clip-credit"><strong>Beating frames to establish a chest-to-chest pin</strong> — taught by Fox Den Martial Arts · 4:05 · <a href="https://www.youtube.com/watch?v=e8OUw05ZBwo" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=LUxMvOFbxIY)
-
-<p class="clip-credit"><strong>Killing the near side arm from side control</strong> — taught by Inverted Gear · 2:03 · <a href="https://www.youtube.com/watch?v=LUxMvOFbxIY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Side Control - Dealing with Frames and Establishing a Chest to Chest Pin</strong> · 4:05 · <a href="https://www.youtube.com/watch?v=e8OUw05ZBwo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

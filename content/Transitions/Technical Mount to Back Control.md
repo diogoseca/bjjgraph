@@ -46,35 +46,22 @@ description: "Master the Technical Mount to Back Control transition in BJJ. Step
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Gift wrap to the back from mount, no-gi",
-      "description": "Technical Mount to Back Control film study: Gift wrap to the back from mount, no-gi, taught by Brian Glick.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/5bw7poxVJ1E/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/5bw7poxVJ1E",
-      "url": "https://www.youtube.com/watch?v=5bw7poxVJ1E",
-      "creator": { "@type": "Person", "name": "Brian Glick" },
-      "duration": "PT112S"
+      "name": "Attack Sequence From Technical Mount \u0026 Back Take - DS Team Jiu Jitsu",
+      "description": "Technical Mount to Back Control film study: Attack Sequence From Technical Mount \u0026 Back Take - DS Team Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9bH-UvKJBf4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9bH-UvKJBf4",
+      "url": "https://www.youtube.com/watch?v=9bH-UvKJBf4",
+      "duration": "PT175S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Three back takes from mount with the gift wrap",
-      "description": "Technical Mount to Back Control film study: Three back takes from mount with the gift wrap, taught by MMA Leech.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/UIWX13Sx-zw/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/UIWX13Sx-zw",
-      "url": "https://www.youtube.com/watch?v=UIWX13Sx-zw",
-      "creator": { "@type": "Person", "name": "MMA Leech" },
-      "duration": "PT224S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Taking the back from technical mount",
-      "description": "Technical Mount to Back Control film study: Taking the back from technical mount, taught by Chewjitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/CvhI6U-IN_8/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/CvhI6U-IN_8",
-      "url": "https://www.youtube.com/watch?v=CvhI6U-IN_8",
-      "creator": { "@type": "Person", "name": "Chewjitsu" },
-      "duration": "PT243S"
+      "name": "TAKING THE BACK AND SUBMITTING FROM TECHNICAL MOUNT",
+      "description": "Technical Mount to Back Control film study: TAKING THE BACK AND SUBMITTING FROM TECHNICAL MOUNT.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/AKYyWIP6qGg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/AKYyWIP6qGg",
+      "url": "https://www.youtube.com/watch?v=AKYyWIP6qGg",
+      "duration": "PT212S"
     }
   ]
 }
@@ -128,25 +115,17 @@ This transition represents a core link between the mount offense system and the 
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=5bw7poxVJ1E)
+![](https://www.youtube.com/watch?v=9bH-UvKJBf4)
 
-<p class="clip-credit"><strong>Gift wrap to the back from mount, no-gi</strong> — taught by Brian Glick · 1:52 · <a href="https://www.youtube.com/watch?v=5bw7poxVJ1E" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=UIWX13Sx-zw)
-
-<p class="clip-credit"><strong>Three back takes from mount with the gift wrap</strong> — taught by MMA Leech · 3:44 · <a href="https://www.youtube.com/watch?v=UIWX13Sx-zw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Attack Sequence From Technical Mount &amp; Back Take - DS Team Jiu Jitsu</strong> · 2:55 · <a href="https://www.youtube.com/watch?v=9bH-UvKJBf4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=CvhI6U-IN_8)
+![](https://www.youtube.com/watch?v=AKYyWIP6qGg)
 
-<p class="clip-credit"><strong>Taking the back from technical mount</strong> — taught by Chewjitsu · 4:03 · <a href="https://www.youtube.com/watch?v=CvhI6U-IN_8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>TAKING THE BACK AND SUBMITTING FROM TECHNICAL MOUNT</strong> · 3:32 · <a href="https://www.youtube.com/watch?v=AKYyWIP6qGg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

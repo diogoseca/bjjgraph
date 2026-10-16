@@ -148,23 +148,11 @@ description: "How to defend and escape the triangle choke from Crackhead Control
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Escaping rubber guard before the triangle locks",
-      "description": "Triangle Choke from Crackhead Control (Defender) film study: Escaping rubber guard before the triangle locks, taught by BJJ4Breakfast.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/AvivOVuYcCk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/AvivOVuYcCk",
-      "url": "https://www.youtube.com/watch?v=AvivOVuYcCk",
-      "creator": { "@type": "Person", "name": "BJJ4Breakfast" },
-      "duration": "PT131S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Four ways to escape the triangle choke",
-      "description": "Triangle Choke from Crackhead Control (Defender) film study: Four ways to escape the triangle choke, taught by Big Oss Jiu-Jitsu.",
+      "name": "4 Ways to Escape Triangle ( Everyone Must Know)",
+      "description": "Triangle Choke from Crackhead Control (Defender) film study: 4 Ways to Escape Triangle ( Everyone Must Know).",
       "thumbnailUrl": "https://i.ytimg.com/vi/ATHDA-De4FE/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/ATHDA-De4FE",
       "url": "https://www.youtube.com/watch?v=ATHDA-De4FE",
-      "creator": { "@type": "Person", "name": "Big Oss Jiu-Jitsu" },
       "duration": "PT570S"
     }
   ]
@@ -194,17 +182,9 @@ Defending the triangle choke from Crackhead Control requires early recognition o
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=AvivOVuYcCk)
-
-<p class="clip-credit"><strong>Escaping rubber guard before the triangle locks</strong> — taught by BJJ4Breakfast · 2:11 · <a href="https://www.youtube.com/watch?v=AvivOVuYcCk" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=ATHDA-De4FE)
 
-<p class="clip-credit"><strong>Four ways to escape the triangle choke</strong> — taught by Big Oss Jiu-Jitsu · 9:30 · <a href="https://www.youtube.com/watch?v=ATHDA-De4FE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>4 Ways to Escape Triangle ( Everyone Must Know)</strong> · 9:30 · <a href="https://www.youtube.com/watch?v=ATHDA-De4FE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

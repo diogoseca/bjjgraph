@@ -162,23 +162,11 @@ description: "How to defend against Kimura from Mount in BJJ. Recognition, escap
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Bent Armlock (Kimura) Escape from Mount",
-      "description": "Kimura from Mount (Defender) film study: Bent Armlock (Kimura) Escape from Mount, taught by Soma Academy.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/qVINUjefot8/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/qVINUjefot8",
-      "url": "https://www.youtube.com/watch?v=qVINUjefot8",
-      "creator": { "@type": "Person", "name": "Soma Academy" },
-      "duration": "PT72S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "How To Escape The Kimura",
-      "description": "Kimura from Mount (Defender) film study: How To Escape The Kimura, taught by Inverted Gear.",
+      "name": "How To Escape The Kimura When On Top",
+      "description": "Kimura from Mount (Defender) film study: How To Escape The Kimura When On Top.",
       "thumbnailUrl": "https://i.ytimg.com/vi/qQZI-_SRLM4/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/qQZI-_SRLM4",
       "url": "https://www.youtube.com/watch?v=qQZI-_SRLM4",
-      "creator": { "@type": "Person", "name": "Inverted Gear" },
       "duration": "PT219S"
     }
   ]
@@ -212,17 +200,9 @@ From a positional standpoint, the defender must balance the urgency of Kimura de
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=qVINUjefot8)
-
-<p class="clip-credit"><strong>Bent Armlock (Kimura) Escape from Mount</strong> — taught by Soma Academy · 1:12 · <a href="https://www.youtube.com/watch?v=qVINUjefot8" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=qQZI-_SRLM4)
 
-<p class="clip-credit"><strong>How To Escape The Kimura</strong> — taught by Inverted Gear · 3:39 · <a href="https://www.youtube.com/watch?v=qQZI-_SRLM4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How To Escape The Kimura When On Top</strong> · 3:39 · <a href="https://www.youtube.com/watch?v=qQZI-_SRLM4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

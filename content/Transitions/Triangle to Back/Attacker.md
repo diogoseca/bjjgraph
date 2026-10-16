@@ -176,28 +176,6 @@ description: "How to execute Triangle to Back in BJJ. Attacking perspective with
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Triangle to Back (Attacker) \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Back Triangle When Your Choke Didn\u0027t Work",
-      "description": "Triangle to Back (Attacker) film study: Back Triangle When Your Choke Didn\u0027t Work, taught by Josh Presley.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/e5-wNLYzJT0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/e5-wNLYzJT0",
-      "url": "https://www.youtube.com/watch?v=e5-wNLYzJT0",
-      "creator": { "@type": "Person", "name": "Josh Presley" },
-      "duration": "PT101S"
-    }
-  ]
-}
-</script>
-
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -210,24 +188,6 @@ The Triangle to Back transition represents an advanced positional flow that capi
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Triangle to Back (Attacker) in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=e5-wNLYzJT0)
-
-<p class="clip-credit"><strong>Back Triangle When Your Choke Didn&#39;t Work</strong> — taught by Josh Presley · 1:41 · <a href="https://www.youtube.com/watch?v=e5-wNLYzJT0" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="key-principles" class="content-section">

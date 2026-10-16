@@ -155,39 +155,6 @@ description: "Master the bottom of Mission Control with complete control mechani
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Mission Control (Bottom) \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Mission Control to Invisible Collar to Armbars",
-      "description": "Mission Control (Bottom) film study: Mission Control to Invisible Collar to Armbars, taught by 10th Planet Orange Park.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/5fJM5bIk8Fw/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/5fJM5bIk8Fw",
-      "url": "https://www.youtube.com/watch?v=5fJM5bIk8Fw",
-      "creator": { "@type": "Person", "name": "10th Planet Orange Park" },
-      "duration": "PT108S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "10th Planet Rubber Guard Path",
-      "description": "Mission Control (Bottom) film study: 10th Planet Rubber Guard Path, taught by Justin Patten.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/d_IuykmUqBA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/d_IuykmUqBA",
-      "url": "https://www.youtube.com/watch?v=d_IuykmUqBA",
-      "creator": { "@type": "Person", "name": "Justin Patten" },
-      "duration": "PT54S"
-    }
-  ]
-}
-</script>
-
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -206,32 +173,6 @@ Success in Mission Control bottom requires specific physical attributes and tech
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Mission Control (Bottom) in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=5fJM5bIk8Fw)
-
-<p class="clip-credit"><strong>Mission Control to Invisible Collar to Armbars</strong> — taught by 10th Planet Orange Park · 1:48 · <a href="https://www.youtube.com/watch?v=5fJM5bIk8Fw" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=d_IuykmUqBA)
-
-<p class="clip-credit"><strong>10th Planet Rubber Guard Path</strong> — taught by Justin Patten · 0:54 · <a href="https://www.youtube.com/watch?v=d_IuykmUqBA" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="state-invariants" class="content-section">

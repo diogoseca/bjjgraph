@@ -160,34 +160,31 @@ description: "How to defend against Front Headlock to Darce in BJJ. Recognition 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Darce Defense: Belly Down Escape",
-      "description": "Front Headlock to Darce (Defender) film study: Darce Defense: Belly Down Escape, taught by JitzLive.",
+      "name": "Move of the Day: D\u0027arce Defense - Belly Down",
+      "description": "Front Headlock to Darce (Defender) film study: Move of the Day: D\u0027arce Defense - Belly Down.",
       "thumbnailUrl": "https://i.ytimg.com/vi/cmaIzjv3QG8/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/cmaIzjv3QG8",
       "url": "https://www.youtube.com/watch?v=cmaIzjv3QG8",
-      "creator": { "@type": "Person", "name": "JitzLive" },
       "duration": "PT38S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Escaping the Darce Choke",
-      "description": "Front Headlock to Darce (Defender) film study: Escaping the Darce Choke, taught by Thunderdome BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/iNZpCbutyrM/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/iNZpCbutyrM",
-      "url": "https://www.youtube.com/watch?v=iNZpCbutyrM",
-      "creator": { "@type": "Person", "name": "Thunderdome BJJ" },
-      "duration": "PT54S"
+      "name": "Darce Choke defense",
+      "description": "Front Headlock to Darce (Defender) film study: Darce Choke defense.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/d1YBV8UTKds/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/d1YBV8UTKds",
+      "url": "https://www.youtube.com/watch?v=d1YBV8UTKds",
+      "duration": "PT52S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "Darce Choke Defense",
-      "description": "Front Headlock to Darce (Defender) film study: Darce Choke Defense, taught by Animal.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/d1YBV8UTKds/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/d1YBV8UTKds",
-      "url": "https://www.youtube.com/watch?v=d1YBV8UTKds",
-      "creator": { "@type": "Person", "name": "Animal" },
+      "name": "Darce Escape",
+      "description": "Front Headlock to Darce (Defender) film study: Darce Escape.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/iNZpCbutyrM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/iNZpCbutyrM",
+      "url": "https://www.youtube.com/watch?v=iNZpCbutyrM",
       "duration": "PT53S"
     }
   ]
@@ -222,15 +219,7 @@ Successful defense requires understanding the biomechanics of the Darce. The cho
 
 ![](https://www.youtube.com/watch?v=cmaIzjv3QG8)
 
-<p class="clip-credit"><strong>Darce Defense: Belly Down Escape</strong> — taught by JitzLive · 0:38 · <a href="https://www.youtube.com/watch?v=cmaIzjv3QG8" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=iNZpCbutyrM)
-
-<p class="clip-credit"><strong>Escaping the Darce Choke</strong> — taught by Thunderdome BJJ · 0:54 · <a href="https://www.youtube.com/watch?v=iNZpCbutyrM" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Move of the Day: D&#39;arce Defense - Belly Down</strong> · 0:38 · <a href="https://www.youtube.com/watch?v=cmaIzjv3QG8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -238,7 +227,15 @@ Successful defense requires understanding the biomechanics of the Darce. The cho
 
 ![](https://www.youtube.com/watch?v=d1YBV8UTKds)
 
-<p class="clip-credit"><strong>Darce Choke Defense</strong> — taught by Animal · 0:53 · <a href="https://www.youtube.com/watch?v=d1YBV8UTKds" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Darce Choke defense</strong> · 0:52 · <a href="https://www.youtube.com/watch?v=d1YBV8UTKds" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=iNZpCbutyrM)
+
+<p class="clip-credit"><strong>Darce Escape</strong> · 0:53 · <a href="https://www.youtube.com/watch?v=iNZpCbutyrM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

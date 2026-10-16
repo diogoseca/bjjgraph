@@ -155,39 +155,6 @@ description: "Master Russian Leg Lasso Top position. Complete guide for passing 
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Russian Leg Lasso (Top) \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Lasso Guard Knee Press Pass",
-      "description": "Russian Leg Lasso (Top) film study: Lasso Guard Knee Press Pass, taught by Roll 247.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Cx53Xl0SGC4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Cx53Xl0SGC4",
-      "url": "https://www.youtube.com/watch?v=Cx53Xl0SGC4",
-      "creator": { "@type": "Person", "name": "Roll 247" },
-      "duration": "PT27S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Passing the Lasso with Longstep + Footwork",
-      "description": "Russian Leg Lasso (Top) film study: Passing the Lasso with Longstep + Footwork, taught by Bryce Nie.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/XSkn8eAmtJU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/XSkn8eAmtJU",
-      "url": "https://www.youtube.com/watch?v=XSkn8eAmtJU",
-      "creator": { "@type": "Person", "name": "Bryce Nie" },
-      "duration": "PT150S"
-    }
-  ]
-}
-</script>
-
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -198,32 +165,6 @@ Russian Leg Lasso Top is the passing position against one of the most complex la
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Russian Leg Lasso (Top) in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=Cx53Xl0SGC4)
-
-<p class="clip-credit"><strong>Lasso Guard Knee Press Pass</strong> — taught by Roll 247 · 0:27 · <a href="https://www.youtube.com/watch?v=Cx53Xl0SGC4" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=XSkn8eAmtJU)
-
-<p class="clip-credit"><strong>Passing the Lasso with Longstep + Footwork</strong> — taught by Bryce Nie · 2:30 · <a href="https://www.youtube.com/watch?v=XSkn8eAmtJU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="state-invariants" class="content-section">

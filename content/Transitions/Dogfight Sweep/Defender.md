@@ -152,35 +152,12 @@ description: "Defensive guide against the Dogfight Sweep. Recognition cues, whiz
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Whizzer defense to win the dogfight",
-      "description": "Dogfight Sweep (Defender) film study: Whizzer defense to win the dogfight, taught by Wrecking Crew BJJ.",
+      "name": "Whizzer from Half Guard.  How to win \"Dog Fight\"",
+      "description": "Dogfight Sweep (Defender) film study: Whizzer from Half Guard.  How to win \"Dog Fight\".",
       "thumbnailUrl": "https://i.ytimg.com/vi/8mXBDHXrAu4/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/8mXBDHXrAu4",
       "url": "https://www.youtube.com/watch?v=8mXBDHXrAu4",
-      "creator": { "@type": "Person", "name": "Wrecking Crew BJJ" },
-      "duration": "PT60S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Stopping the half guard underhook",
-      "description": "Dogfight Sweep (Defender) film study: Stopping the half guard underhook, taught by Malachy Friedman.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/dOdO6xJ-TcU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/dOdO6xJ-TcU",
-      "url": "https://www.youtube.com/watch?v=dOdO6xJ-TcU",
-      "creator": { "@type": "Person", "name": "Malachy Friedman" },
-      "duration": "PT98S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Countering the old school sweep defense",
-      "description": "Dogfight Sweep (Defender) film study: Countering the old school sweep defense, taught by Wimbledon Brazilian Jiu Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/KX4aiS5DVPU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/KX4aiS5DVPU",
-      "url": "https://www.youtube.com/watch?v=KX4aiS5DVPU",
-      "creator": { "@type": "Person", "name": "Wimbledon Brazilian Jiu Jitsu" },
-      "duration": "PT120S"
+      "duration": "PT59S"
     }
   ]
 }
@@ -210,23 +187,7 @@ The Dogfight Sweep defender is the top half guard player facing an opponent who 
 
 ![](https://www.youtube.com/watch?v=8mXBDHXrAu4)
 
-<p class="clip-credit"><strong>Whizzer defense to win the dogfight</strong> — taught by Wrecking Crew BJJ · 1:00 · <a href="https://www.youtube.com/watch?v=8mXBDHXrAu4" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=dOdO6xJ-TcU)
-
-<p class="clip-credit"><strong>Stopping the half guard underhook</strong> — taught by Malachy Friedman · 1:38 · <a href="https://www.youtube.com/watch?v=dOdO6xJ-TcU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=KX4aiS5DVPU)
-
-<p class="clip-credit"><strong>Countering the old school sweep defense</strong> — taught by Wimbledon Brazilian Jiu Jitsu · 2:00 · <a href="https://www.youtube.com/watch?v=KX4aiS5DVPU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Whizzer from Half Guard.  How to win &#34;Dog Fight&#34;</strong> · 0:59 · <a href="https://www.youtube.com/watch?v=8mXBDHXrAu4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

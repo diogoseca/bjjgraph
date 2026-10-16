@@ -46,35 +46,22 @@ description: "Master overhook control (whizzer) in BJJ. Complete guide covering 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Using an overhook",
-      "description": "Overhook Control film study: Using an overhook, taught by Patrick Spano.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/DfUHvTQpzCg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/DfUHvTQpzCg",
-      "url": "https://www.youtube.com/watch?v=DfUHvTQpzCg",
-      "creator": { "@type": "Person", "name": "Patrick Spano" },
-      "duration": "PT40S"
+      "name": "Powerful Overhook to counter Underhook Control",
+      "description": "Overhook Control film study: Powerful Overhook to counter Underhook Control.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/IQJ2k2Nbst8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/IQJ2k2Nbst8",
+      "url": "https://www.youtube.com/watch?v=IQJ2k2Nbst8",
+      "duration": "PT54S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Whizzer from half guard: win the dogfight",
-      "description": "Overhook Control film study: Whizzer from half guard: win the dogfight, taught by Wrecking Crew BJJ.",
+      "name": "Whizzer from Half Guard.  How to win \"Dog Fight\"",
+      "description": "Overhook Control film study: Whizzer from Half Guard.  How to win \"Dog Fight\".",
       "thumbnailUrl": "https://i.ytimg.com/vi/8mXBDHXrAu4/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/8mXBDHXrAu4",
       "url": "https://www.youtube.com/watch?v=8mXBDHXrAu4",
-      "creator": { "@type": "Person", "name": "Wrecking Crew BJJ" },
-      "duration": "PT60S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Overhook to counter underhook control",
-      "description": "Overhook Control film study: Overhook to counter underhook control, taught by Wrecking Crew BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/IQJ2k2Nbst8/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/IQJ2k2Nbst8",
-      "url": "https://www.youtube.com/watch?v=IQJ2k2Nbst8",
-      "creator": { "@type": "Person", "name": "Wrecking Crew BJJ" },
-      "duration": "PT54S"
+      "duration": "PT59S"
     }
   ]
 }
@@ -127,9 +114,9 @@ The dual nature of overhook control makes it equally valuable as both an offensi
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=DfUHvTQpzCg)
+![](https://www.youtube.com/watch?v=IQJ2k2Nbst8)
 
-<p class="clip-credit"><strong>Using an overhook</strong> — taught by Patrick Spano · 0:40 · <a href="https://www.youtube.com/watch?v=DfUHvTQpzCg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Powerful Overhook to counter Underhook Control</strong> · 0:54 · <a href="https://www.youtube.com/watch?v=IQJ2k2Nbst8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -137,15 +124,7 @@ The dual nature of overhook control makes it equally valuable as both an offensi
 
 ![](https://www.youtube.com/watch?v=8mXBDHXrAu4)
 
-<p class="clip-credit"><strong>Whizzer from half guard: win the dogfight</strong> — taught by Wrecking Crew BJJ · 1:00 · <a href="https://www.youtube.com/watch?v=8mXBDHXrAu4" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=IQJ2k2Nbst8)
-
-<p class="clip-credit"><strong>Overhook to counter underhook control</strong> — taught by Wrecking Crew BJJ · 0:54 · <a href="https://www.youtube.com/watch?v=IQJ2k2Nbst8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Whizzer from Half Guard.  How to win &#34;Dog Fight&#34;</strong> · 0:59 · <a href="https://www.youtube.com/watch?v=8mXBDHXrAu4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

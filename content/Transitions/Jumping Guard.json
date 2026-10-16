@@ -423,21 +423,11 @@
     "clips": [
       {
         "id": "at-wrp51-_Q",
-        "title": "Jumping guard technique breakdown",
-        "by": "BJJInAction",
-        "vertical": false,
+        "title": "Jump guard",
         "channel": "BJJInAction",
-        "duration": 91,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "B4_5rH7Vae0",
-        "title": "Competition-tested ways to pull and jump guard",
-        "by": "Jon Thomas",
+        "duration": 90,
         "vertical": false,
-        "channel": "JonThomasBJJ Plus",
-        "duration": 207,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },
@@ -605,31 +595,12 @@
     ],
     "clips": [
       {
-        "id": "oaOB2XovGYE",
-        "title": "Intercepting the guard pull",
-        "by": "Riccardo Ammendolia",
-        "vertical": false,
-        "channel": "Riccardo Ammendolia",
-        "duration": 49,
-        "verified": "2026-07-15"
-      },
-      {
         "id": "BSmG5ty4tHQ",
-        "title": "Blocking the guard jump and protecting your knees",
-        "by": "Chewjitsu",
-        "vertical": false,
+        "title": "How To Block The Guard Jump in BJJ and Protect Your Knees",
         "channel": "Chewjitsu",
-        "duration": 268,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "fCkRu7HyDMo",
-        "title": "Punishing a guard puller systematically",
-        "by": "Carsahh",
+        "duration": 267,
         "vertical": false,
-        "channel": "Carsahh",
-        "duration": 385,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   }

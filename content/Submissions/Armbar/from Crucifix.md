@@ -46,35 +46,32 @@ description: "Master Armbar from Crucifix in BJJ. Complete guide with safety pro
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Crucifix armbar vs turtled opponent",
-      "description": "Armbar from Crucifix film study: Crucifix armbar vs turtled opponent, taught by Prodigy MMA.",
+      "name": "opponent turtled \u2013 crucifix arm bar",
+      "description": "Armbar from Crucifix film study: opponent turtled \u2013 crucifix arm bar.",
       "thumbnailUrl": "https://i.ytimg.com/vi/JRaAEvCjz0A/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/JRaAEvCjz0A",
       "url": "https://www.youtube.com/watch?v=JRaAEvCjz0A",
-      "creator": { "@type": "Person", "name": "Prodigy MMA" },
       "duration": "PT129S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Crucifix setup and armbar (no-gi)",
-      "description": "Armbar from Crucifix film study: Crucifix setup and armbar (no-gi), taught by Revolution BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/nkAYVo9sMGE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/nkAYVo9sMGE",
-      "url": "https://www.youtube.com/watch?v=nkAYVo9sMGE",
-      "creator": { "@type": "Person", "name": "Revolution BJJ" },
-      "duration": "PT190S"
+      "name": "Short Arm Drag to Crucifix Armlock by John Gutta",
+      "description": "Armbar from Crucifix film study: Short Arm Drag to Crucifix Armlock by John Gutta.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/qq1LScm50Ow/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/qq1LScm50Ow",
+      "url": "https://www.youtube.com/watch?v=qq1LScm50Ow",
+      "duration": "PT151S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "Arm drag to crucifix armlock",
-      "description": "Armbar from Crucifix film study: Arm drag to crucifix armlock, taught by John Gutta.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/qq1LScm50Ow/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/qq1LScm50Ow",
-      "url": "https://www.youtube.com/watch?v=qq1LScm50Ow",
-      "creator": { "@type": "Person", "name": "John Gutta" },
-      "duration": "PT151S"
+      "name": "Crucifix Setup and Armbar Submission Nogi",
+      "description": "Armbar from Crucifix film study: Crucifix Setup and Armbar Submission Nogi.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/nkAYVo9sMGE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/nkAYVo9sMGE",
+      "url": "https://www.youtube.com/watch?v=nkAYVo9sMGE",
+      "duration": "PT189S"
     }
   ]
 }
@@ -135,15 +132,7 @@ The Armbar from Crucifix represents one of the most dominant finishing positions
 
 ![](https://www.youtube.com/watch?v=JRaAEvCjz0A)
 
-<p class="clip-credit"><strong>Crucifix armbar vs turtled opponent</strong> — taught by Prodigy MMA · 2:09 · <a href="https://www.youtube.com/watch?v=JRaAEvCjz0A" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=nkAYVo9sMGE)
-
-<p class="clip-credit"><strong>Crucifix setup and armbar (no-gi)</strong> — taught by Revolution BJJ · 3:10 · <a href="https://www.youtube.com/watch?v=nkAYVo9sMGE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>opponent turtled – crucifix arm bar</strong> · 2:09 · <a href="https://www.youtube.com/watch?v=JRaAEvCjz0A" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -151,7 +140,15 @@ The Armbar from Crucifix represents one of the most dominant finishing positions
 
 ![](https://www.youtube.com/watch?v=qq1LScm50Ow)
 
-<p class="clip-credit"><strong>Arm drag to crucifix armlock</strong> — taught by John Gutta · 2:31 · <a href="https://www.youtube.com/watch?v=qq1LScm50Ow" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Short Arm Drag to Crucifix Armlock by John Gutta</strong> · 2:31 · <a href="https://www.youtube.com/watch?v=qq1LScm50Ow" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=nkAYVo9sMGE)
+
+<p class="clip-credit"><strong>Crucifix Setup and Armbar Submission Nogi</strong> · 3:09 · <a href="https://www.youtube.com/watch?v=nkAYVo9sMGE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

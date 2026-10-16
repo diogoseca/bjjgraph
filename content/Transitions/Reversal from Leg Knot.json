@@ -372,35 +372,7 @@
       }
     ],
     "safety_considerations": "The Reversal from Leg Knot involves rotation through active leg entanglements where knees and ankles remain vulnerable throughout the transition. Always communicate with training partners about joint pressure during sweep attempts. Tap immediately if your trapped leg experiences dangerous torque or rotational force on the knee during the reversal. Begin drilling at reduced speed and intensity, gradually increasing as both partners develop comfort with the mechanics. Monitor for knee ligament stress caused by rotational forces and avoid forcing the sweep against locked-out entanglements.",
-    "clips": [
-      {
-        "id": "8VfldffVsFU",
-        "title": "Rolling leg knot control",
-        "by": "Tom Dinklage",
-        "vertical": false,
-        "channel": "Tom Dinklage",
-        "duration": 91,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "DrjbaXt-nTo",
-        "title": "Rolling out of heel hooks",
-        "by": "Craig Jones and Lachlan Giles",
-        "vertical": false,
-        "channel": "Absolute MMA St Kilda - Melbourne",
-        "duration": 243,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "JbRfIo1NTLk",
-        "title": "Clearing the kneeline to escape leg entanglement",
-        "by": "Craig Jones",
-        "vertical": false,
-        "channel": "BJJ focus camps",
-        "duration": 274,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Reversal from Leg Knot Defender",
@@ -577,25 +549,6 @@
         "description": "Positional sparring from Leg Knot Top with specific objective of maintaining or advancing position for 90 seconds while partner attempts reversals at full resistance. Track success rates and identify defensive patterns that need reinforcement."
       }
     ],
-    "clips": [
-      {
-        "id": "MqtG9kuVt-Q",
-        "title": "Leg lock escape: roll through",
-        "by": "Gordon Ryan",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 103,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "RRgLRw-fRM0",
-        "title": "Weave Pass: Don't Free Your Leg Too Early",
-        "by": "Lachlan Giles",
-        "vertical": false,
-        "channel": "Absolute MMA St Kilda - Melbourne",
-        "duration": 65,
-        "verified": "2026-07-16"
-      }
-    ]
+    "clips": []
   }
 }

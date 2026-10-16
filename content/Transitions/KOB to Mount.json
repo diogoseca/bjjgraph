@@ -361,26 +361,7 @@
       }
     ],
     "safety_considerations": "This transition involves significant pressure on the bottom player's torso and diaphragm during the movement. In training, the top player should control the speed of the step-over to avoid accidentally driving a knee into the partner's face, ribs, or groin during the swing. The bottom player should communicate immediately if breathing becomes severely compromised during sustained KOB pressure before the transition. Be aware of the swinging leg's trajectory and ensure it clears the training partner's head safely.",
-    "clips": [
-      {
-        "id": "HNo-y8SJlgY",
-        "title": "Knee on belly to mount transition",
-        "by": "Tom Dinklage",
-        "vertical": false,
-        "channel": "Tom Dinklage",
-        "duration": 133,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "yhqs-dPzjN0",
-        "title": "Knee on belly transition drill",
-        "by": "301 MMA",
-        "vertical": false,
-        "channel": "301 MMA",
-        "duration": 55,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "KOB to Mount Defender",
@@ -560,31 +541,12 @@
     ],
     "clips": [
       {
-        "id": "Wn01Ynw7O28",
-        "title": "How to escape the knee on belly position",
-        "by": "Evolve MMA",
-        "vertical": false,
-        "channel": "Evolve Mixed Martial Arts",
-        "duration": 40,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "I9_3u9AcwAg",
-        "title": "First principles escapes for mount and knee on belly",
-        "by": "40 Plus BJJ",
-        "vertical": false,
-        "channel": "40 Plus BJJ",
-        "duration": 59,
-        "verified": "2026-07-15"
-      },
-      {
         "id": "DagXZb2hses",
-        "title": "Escaping as they transition to knee on belly and mount",
-        "by": "John Kelly",
-        "vertical": false,
+        "title": "Side Control Escape from Bottom as they transition to knee on belly and mount",
         "channel": "John Kelly Brazilian Jiu Jitsu Ireland ",
         "duration": 58,
-        "verified": "2026-07-15"
+        "vertical": false,
+        "front": true
       }
     ]
   }

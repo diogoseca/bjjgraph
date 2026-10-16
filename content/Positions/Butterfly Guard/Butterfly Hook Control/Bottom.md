@@ -165,35 +165,12 @@ description: "Master Butterfly Hook Control Bottom in BJJ. Complete guide coveri
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "2-on-1 lift to back from butterfly",
-      "description": "Butterfly Hook Control (Bottom) film study: 2-on-1 lift to back from butterfly, taught by Lorenz Sadychow.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/sJfkAL95S9k/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/sJfkAL95S9k",
-      "url": "https://www.youtube.com/watch?v=sJfkAL95S9k",
-      "creator": { "@type": "Person", "name": "Lorenz Sadychow" },
-      "duration": "PT61S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "The hook sweep in 5 steps",
-      "description": "Butterfly Hook Control (Bottom) film study: The hook sweep in 5 steps, taught by Stephan Kesting.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/mJyjWNGm_XE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/mJyjWNGm_XE",
-      "url": "https://www.youtube.com/watch?v=mJyjWNGm_XE",
-      "creator": { "@type": "Person", "name": "Stephan Kesting" },
-      "duration": "PT31S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Reverse hook sweep to Hart roll",
-      "description": "Butterfly Hook Control (Bottom) film study: Reverse hook sweep to Hart roll, taught by Hart Jiu Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/4CW6mPgx4C0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/4CW6mPgx4C0",
-      "url": "https://www.youtube.com/watch?v=4CW6mPgx4C0",
-      "creator": { "@type": "Person", "name": "Hart Jiu Jitsu" },
-      "duration": "PT48S"
+      "name": "White Belt Basics - Butterfly Guard",
+      "description": "Butterfly Hook Control (Bottom) film study: White Belt Basics - Butterfly Guard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/SIyEqd4PrvI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/SIyEqd4PrvI",
+      "url": "https://www.youtube.com/watch?v=SIyEqd4PrvI",
+      "duration": "PT291S"
     }
   ]
 }
@@ -221,27 +198,11 @@ The fundamental mechanics rely on creating a lever system where your hooks act a
 <p class="section-subtitle">Watch Butterfly Hook Control (Bottom) in action — curated instructionals</p>
 
 
-<div class="film-clip film-clip--vertical">
-
-![](https://www.youtube.com/watch?v=sJfkAL95S9k)
-
-<p class="clip-credit"><strong>2-on-1 lift to back from butterfly</strong> — taught by Lorenz Sadychow · 1:01 · <a href="https://www.youtube.com/watch?v=sJfkAL95S9k" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=mJyjWNGm_XE)
+![](https://www.youtube.com/watch?v=SIyEqd4PrvI)
 
-<p class="clip-credit"><strong>The hook sweep in 5 steps</strong> — taught by Stephan Kesting · 0:31 · <a href="https://www.youtube.com/watch?v=mJyjWNGm_XE" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=4CW6mPgx4C0)
-
-<p class="clip-credit"><strong>Reverse hook sweep to Hart roll</strong> — taught by Hart Jiu Jitsu · 0:48 · <a href="https://www.youtube.com/watch?v=4CW6mPgx4C0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>White Belt Basics - Butterfly Guard</strong> · 4:51 · <a href="https://www.youtube.com/watch?v=SIyEqd4PrvI" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

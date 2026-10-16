@@ -162,23 +162,11 @@ description: "Complete defense guide for the Kimura from Lasso Guard. Learn earl
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Defending the Americana/Kimura",
-      "description": "Kimura from Lasso Guard (Defender) film study: Defending the Americana/Kimura, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/FNyL93v5fGs/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/FNyL93v5fGs",
-      "url": "https://www.youtube.com/watch?v=FNyL93v5fGs",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT91S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "North South Kimura Defense",
-      "description": "Kimura from Lasso Guard (Defender) film study: North South Kimura Defense, taught by Stephen Whittier.",
+      "name": "North South Kimura Defense by Stephen Whittier",
+      "description": "Kimura from Lasso Guard (Defender) film study: North South Kimura Defense by Stephen Whittier.",
       "thumbnailUrl": "https://i.ytimg.com/vi/LdHCMIMM380/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/LdHCMIMM380",
       "url": "https://www.youtube.com/watch?v=LdHCMIMM380",
-      "creator": { "@type": "Person", "name": "Stephen Whittier" },
       "duration": "PT195S"
     }
   ]
@@ -208,17 +196,9 @@ Defending against the Kimura from Lasso Guard requires understanding the specifi
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=FNyL93v5fGs)
-
-<p class="clip-credit"><strong>Defending the Americana/Kimura</strong> — taught by Lachlan Giles · 1:31 · <a href="https://www.youtube.com/watch?v=FNyL93v5fGs" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=LdHCMIMM380)
 
-<p class="clip-credit"><strong>North South Kimura Defense</strong> — taught by Stephen Whittier · 3:15 · <a href="https://www.youtube.com/watch?v=LdHCMIMM380" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>North South Kimura Defense by Stephen Whittier</strong> · 3:15 · <a href="https://www.youtube.com/watch?v=LdHCMIMM380" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

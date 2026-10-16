@@ -441,26 +441,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "DAUs6oX4jjo",
-        "title": "Gift Wrap Arm Triangle / Ezekiel Choke",
-        "by": "Prosaic Living",
-        "vertical": false,
-        "channel": "Prosaic Living",
-        "duration": 46,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "f24j2L4nYSU",
-        "title": "Gift Wrap Rear Naked Choke",
-        "by": "Doug Taylor",
-        "vertical": false,
-        "channel": "Doug Taylor",
-        "duration": 108,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Short Choke from Gift Wrap Defender",
@@ -627,34 +608,6 @@
         "description": "Full resistance positional sparring starting from Gift Wrap bottom. Defender must survive choke attempts and work toward guard recovery or arm recovery. Develop the ability to chain defensive actions - block the choke, create angle, escape position - under competition-level pressure."
       }
     ],
-    "clips": [
-      {
-        "id": "1Yo-cQm6Qx0",
-        "title": "Mount Escape - Hip Sweep",
-        "by": "GFA MMA",
-        "vertical": false,
-        "channel": "𝐆𝐅𝐀𝐌𝐌𝐀 - 𝐆𝐋𝐀𝐃𝐈𝐀𝐓𝐎𝐑 𝐅𝐈𝐆𝐇𝐓 𝐀𝐂𝐀𝐃𝐄𝐌𝐘",
-        "duration": 150,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "3RbOD9fhi20",
-        "title": "Running man back escape",
-        "by": "Jiu Jitsu Modern",
-        "vertical": false,
-        "channel": "JIU JITSU MODERN",
-        "duration": 210,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "-lS7djEgc6E",
-        "title": "Defending chokes from back mount",
-        "by": "Gracie Ohio",
-        "vertical": false,
-        "channel": "Gracie Ohio Jiu-Jitsu Academy",
-        "duration": 305,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

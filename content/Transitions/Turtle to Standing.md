@@ -46,35 +46,22 @@ description: "Master the Turtle to Standing escape in BJJ. Learn systematic stan
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Standing up from turtle, step 5",
-      "description": "Turtle to Standing film study: Standing up from turtle, step 5, taught by Priit Mihkelson.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/_sBB-O8fqP4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/_sBB-O8fqP4",
-      "url": "https://www.youtube.com/watch?v=_sBB-O8fqP4",
-      "creator": { "@type": "Person", "name": "Priit Mihkelson" },
-      "duration": "PT114S"
+      "name": "Attacking When They Stand Up from Turtle: the 4-Point Position (No Gi\u2026",
+      "description": "Turtle to Standing film study: Attacking When They Stand Up from Turtle: the 4-Point Position (No Gi\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/v37tHX8oKuY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/v37tHX8oKuY",
+      "url": "https://www.youtube.com/watch?v=v37tHX8oKuY",
+      "duration": "PT355S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Sit out from turtle with head on back",
-      "description": "Turtle to Standing film study: Sit out from turtle with head on back, taught by Mj\u00f8lnir Fight Club.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/d312j3n9fIw/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/d312j3n9fIw",
-      "url": "https://www.youtube.com/watch?v=d312j3n9fIw",
-      "creator": { "@type": "Person", "name": "Mj\u00f8lnir Fight Club" },
-      "duration": "PT30S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Standing up without exposing your back",
-      "description": "Turtle to Standing film study: Standing up without exposing your back, taught by Brandon McCaghren.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/TsBQBAp5o_I/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/TsBQBAp5o_I",
-      "url": "https://www.youtube.com/watch?v=TsBQBAp5o_I",
-      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
-      "duration": "PT146S"
+      "name": "Dealing With An Opponent Trying to Stand Up From Turtle Position - Matt Inman",
+      "description": "Turtle to Standing film study: Dealing With An Opponent Trying to Stand Up From Turtle Position - Matt Inman.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/7QBW031Crmg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/7QBW031Crmg",
+      "url": "https://www.youtube.com/watch?v=7QBW031Crmg",
+      "duration": "PT415S"
     }
   ]
 }
@@ -128,25 +115,17 @@ Strategically, the ability to threaten this escape forces opponents to commit mo
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=_sBB-O8fqP4)
+![](https://www.youtube.com/watch?v=v37tHX8oKuY)
 
-<p class="clip-credit"><strong>Standing up from turtle, step 5</strong> — taught by Priit Mihkelson · 1:54 · <a href="https://www.youtube.com/watch?v=_sBB-O8fqP4" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=d312j3n9fIw)
-
-<p class="clip-credit"><strong>Sit out from turtle with head on back</strong> — taught by Mjølnir Fight Club · 0:30 · <a href="https://www.youtube.com/watch?v=d312j3n9fIw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Attacking When They Stand Up from Turtle: the 4-Point Position (No Gi…</strong> · 5:55 · <a href="https://www.youtube.com/watch?v=v37tHX8oKuY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=TsBQBAp5o_I)
+![](https://www.youtube.com/watch?v=7QBW031Crmg)
 
-<p class="clip-credit"><strong>Standing up without exposing your back</strong> — taught by Brandon McCaghren · 2:26 · <a href="https://www.youtube.com/watch?v=TsBQBAp5o_I" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Dealing With An Opponent Trying to Stand Up From Turtle Position - Matt Inman</strong> · 6:55 · <a href="https://www.youtube.com/watch?v=7QBW031Crmg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -143,50 +143,6 @@ description: "Master Standing Guard Bottom in BJJ. Defensive position with dista
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Standing Guard (Bottom) \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Guard Retention: When To Sit Up Escape",
-      "description": "Standing Guard (Bottom) film study: Guard Retention: When To Sit Up Escape, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/lVLAROiSjNU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/lVLAROiSjNU",
-      "url": "https://www.youtube.com/watch?v=lVLAROiSjNU",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT136S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Bottom Postures in Open Guard",
-      "description": "Standing Guard (Bottom) film study: Bottom Postures in Open Guard, taught by Ultra Jiu Jitsu Academy.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/fpu-rDbLM_0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/fpu-rDbLM_0",
-      "url": "https://www.youtube.com/watch?v=fpu-rDbLM_0",
-      "creator": { "@type": "Person", "name": "Ultra Jiu Jitsu Academy" },
-      "duration": "PT80S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Feet on Biceps Guard Position",
-      "description": "Standing Guard (Bottom) film study: Feet on Biceps Guard Position, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Bp0v7c_MrbY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Bp0v7c_MrbY",
-      "url": "https://www.youtube.com/watch?v=Bp0v7c_MrbY",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT125S"
-    }
-  ]
-}
-</script>
-
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -201,40 +157,6 @@ Modern guard players use Standing Guard Bottom as a tactical platform for enteri
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Standing Guard (Bottom) in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=lVLAROiSjNU)
-
-<p class="clip-credit"><strong>Guard Retention: When To Sit Up Escape</strong> — taught by Lachlan Giles · 2:16 · <a href="https://www.youtube.com/watch?v=lVLAROiSjNU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=fpu-rDbLM_0)
-
-<p class="clip-credit"><strong>Bottom Postures in Open Guard</strong> — taught by Ultra Jiu Jitsu Academy · 1:20 · <a href="https://www.youtube.com/watch?v=fpu-rDbLM_0" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=Bp0v7c_MrbY)
-
-<p class="clip-credit"><strong>Feet on Biceps Guard Position</strong> — taught by Lachlan Giles · 2:05 · <a href="https://www.youtube.com/watch?v=Bp0v7c_MrbY" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="state-invariants" class="content-section">

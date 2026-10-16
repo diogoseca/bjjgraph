@@ -369,26 +369,7 @@
       }
     ],
     "safety_considerations": "The Turn In from Ushiro Kesa Gatame-Gatame is a relatively low-risk escape technique with no joint manipulation involved. The primary safety concern is neck strain during the bridge-and-rotate sequence, particularly if the top player maintains heavy pressure on the chest during the rotation. Practitioners should avoid forcing the rotation against fully locked-down pressure, as this can create cervical spine compression. Train the bridge timing to create space before rotating. During drilling, the top player should reduce resistance if the bottom player signals discomfort in the neck or upper spine during the turning motion. Always warm up the neck and thoracic spine before practicing this escape repetitively.",
-    "clips": [
-      {
-        "id": "ORpUBUxK1QE",
-        "title": "Ushiro Kesa Gatame escape to back take, gi and no-gi",
-        "by": "Gymnanigains",
-        "vertical": false,
-        "channel": "Gymnanigains",
-        "duration": 26,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "QzegNgUUfZs",
-        "title": "Ushiro Kesa Gatame side control escape",
-        "by": "Coach Paul",
-        "vertical": false,
-        "channel": "Coach Paul - War Fork Jiu-Jitsu Academy",
-        "duration": 81,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Turn In from Ushiro Kesa Gatame Defender",
@@ -530,34 +511,6 @@
         "description": "Full resistance positional rounds starting in Ushiro Kesa Gatame. Top player maintains position or transitions to better positions while bottom player works all available escapes. 2-minute rounds tracking retention rate and successful counter-transitions to mount."
       }
     ],
-    "clips": [
-      {
-        "id": "5atT-Q9-CVw",
-        "title": "Quick kesa gatame escape",
-        "by": "Taylorjiujitsu",
-        "vertical": false,
-        "channel": "Taylorjiujitsu",
-        "duration": 14,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "xROpHA3sNlY",
-        "title": "Reverse kesa gatame escape",
-        "by": "Inverted Gear",
-        "vertical": false,
-        "channel": "Inverted Gear",
-        "duration": 109,
-        "verified": "2026-07-16"
-      },
-      {
-        "id": "ORpUBUxK1QE",
-        "title": "Reverse kesa escape to back take and choke",
-        "by": "Gymnanigains",
-        "vertical": false,
-        "channel": "Gymnanigains",
-        "duration": 26,
-        "verified": "2026-07-16"
-      }
-    ]
+    "clips": []
   }
 }

@@ -194,34 +194,21 @@ description: "Learn to execute the ankle lock from X-Guard with expert technique
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "X Guard to Musumeci leg lock",
-      "description": "Ankle Lock from X-Guard (Attacker) film study: X Guard to Musumeci leg lock, taught by Alberto Serrano.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/L1vtyCwp9Y0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/L1vtyCwp9Y0",
-      "url": "https://www.youtube.com/watch?v=L1vtyCwp9Y0",
-      "creator": { "@type": "Person", "name": "Alberto Serrano" },
-      "duration": "PT62S"
+      "name": "X Guard to straight ankle lock",
+      "description": "Ankle Lock from X-Guard (Attacker) film study: X Guard to straight ankle lock.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aCh6WbFYkbk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aCh6WbFYkbk",
+      "url": "https://www.youtube.com/watch?v=aCh6WbFYkbk",
+      "duration": "PT44S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "X Guard to straight ankle lock",
-      "description": "Ankle Lock from X-Guard (Attacker) film study: X Guard to straight ankle lock, taught by Satori BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/aCh6WbFYkbk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/aCh6WbFYkbk",
-      "url": "https://www.youtube.com/watch?v=aCh6WbFYkbk",
-      "creator": { "@type": "Person", "name": "Satori BJJ" },
-      "duration": "PT45S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "X Guard to Saddle to straight ankle lock",
-      "description": "Ankle Lock from X-Guard (Attacker) film study: X Guard to Saddle to straight ankle lock, taught by The Bear\u0027s Den BJJ.",
+      "name": "X Guard to Ashi Garami (Saddle) to Straight Ankle Lock and Italian Footlock.",
+      "description": "Ankle Lock from X-Guard (Attacker) film study: X Guard to Ashi Garami (Saddle) to Straight Ankle Lock and Italian Footlock..",
       "thumbnailUrl": "https://i.ytimg.com/vi/lUeZ2AAbm7c/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/lUeZ2AAbm7c",
       "url": "https://www.youtube.com/watch?v=lUeZ2AAbm7c",
-      "creator": { "@type": "Person", "name": "The Bear\u0027s Den BJJ" },
       "duration": "PT82S"
     }
   ]
@@ -251,17 +238,9 @@ Executing the ankle lock from X-Guard requires transitioning from sweep-based gu
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=L1vtyCwp9Y0)
-
-<p class="clip-credit"><strong>X Guard to Musumeci leg lock</strong> — taught by Alberto Serrano · 1:02 · <a href="https://www.youtube.com/watch?v=L1vtyCwp9Y0" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=aCh6WbFYkbk)
 
-<p class="clip-credit"><strong>X Guard to straight ankle lock</strong> — taught by Satori BJJ · 0:45 · <a href="https://www.youtube.com/watch?v=aCh6WbFYkbk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>X Guard to straight ankle lock</strong> · 0:44 · <a href="https://www.youtube.com/watch?v=aCh6WbFYkbk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -269,7 +248,7 @@ Executing the ankle lock from X-Guard requires transitioning from sweep-based gu
 
 ![](https://www.youtube.com/watch?v=lUeZ2AAbm7c)
 
-<p class="clip-credit"><strong>X Guard to Saddle to straight ankle lock</strong> — taught by The Bear&#39;s Den BJJ · 1:22 · <a href="https://www.youtube.com/watch?v=lUeZ2AAbm7c" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>X Guard to Ashi Garami (Saddle) to Straight Ankle Lock and Italian Footlock.</strong> · 1:22 · <a href="https://www.youtube.com/watch?v=lUeZ2AAbm7c" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

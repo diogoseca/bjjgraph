@@ -409,35 +409,7 @@
       }
     ],
     "safety_considerations": "The Truck to Back Control transition involves releasing leg entanglement under tension, which can create unexpected torque on the opponent's knee or ankle if their leg is caught at an awkward angle during the switch. Always execute the leg transition with controlled, deliberate movements rather than explosive jerking motions. If the opponent's leg is tightly entangled, work to gradually release the entanglement before threading hooks rather than forcing through. Be aware that the transition can create momentary compression on the opponent's spine during the alignment shift. In training, communicate with your partner during the leg exchange phase and release immediately if they indicate discomfort in the knee or lower back.",
-    "clips": [
-      {
-        "id": "sCBGkcJCQYY",
-        "title": "The Truck in transition",
-        "by": "Eddie Bravo",
-        "vertical": false,
-        "channel": "Eddie Bravo",
-        "duration": 61,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "9r_xDak8dVo",
-        "title": "Hug to truck hook back take",
-        "by": "Garry Tonon",
-        "vertical": false,
-        "channel": "ZombieProofBJJ",
-        "duration": 80,
-        "verified": "2026-07-16"
-      },
-      {
-        "id": "NXbVjvhC5bQ",
-        "title": "Valley of the truck",
-        "by": "Eddie Bravo",
-        "vertical": false,
-        "channel": "Eddie Bravo",
-        "duration": 60,
-        "verified": "2026-07-16"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Truck to Back Control Defender",
@@ -614,25 +586,6 @@
         "description": "Start in truck bottom with partner at full resistance. Partner may attempt back take, truck submissions, or maintain position. Defender works to prevent back control specifically while managing all truck threats. Develops the ability to defend the transition while simultaneously addressing other truck dangers under competitive pressure."
       }
     ],
-    "clips": [
-      {
-        "id": "I43ALzc733w",
-        "title": "Escaping back control",
-        "by": "Malachy Friedman",
-        "vertical": false,
-        "channel": "Malachy Friedman",
-        "duration": 71,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "WEpVDP7MRpo",
-        "title": "Defending the rolling back take (Truck roll)",
-        "by": "Brian Glick",
-        "vertical": false,
-        "channel": "Brian Glick",
-        "duration": 209,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

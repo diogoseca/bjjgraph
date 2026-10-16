@@ -452,30 +452,25 @@
     "clips": [
       {
         "id": "3vCytl_OI-4",
-        "title": "Rear Naked Choke from Back Control",
-        "by": "Affinity Academy",
-        "vertical": false,
+        "title": "Rear Naked Choke From Back Control",
         "channel": "Affinity Academy",
         "duration": 75,
-        "verified": "2026-07-14"
+        "vertical": false,
+        "front": true
       },
       {
         "id": "70jECxFfCSA",
-        "title": "Rear Naked Choke",
-        "by": "Gordon Ryan",
-        "vertical": false,
+        "title": "Gordon Ryan - Rear Naked Choke (Control Jiu-Jitsu Submission of The Week)",
         "channel": "Control Jiu JItsu",
         "duration": 73,
-        "verified": "2026-07-14"
+        "vertical": false
       },
       {
         "id": "rPRORaAiJAs",
-        "title": "Rear Naked Choke: It's in the Squeeze",
-        "by": "Henry Akins",
-        "vertical": false,
+        "title": "Rear Naked Choke: You're doing it wrong. (It's in the SQueeZe)",
         "channel": "Henry Akins' Hidden Jiu-Jitsu",
         "duration": 95,
-        "verified": "2026-07-14"
+        "vertical": false
       }
     ]
   },
@@ -662,31 +657,26 @@
     ],
     "clips": [
       {
-        "id": "R6W9P4_SMzY",
-        "title": "Escape the Rear Naked Choke",
-        "by": "Coach Brian",
-        "vertical": false,
-        "channel": "TeachMeGrappling Coach Brian",
-        "duration": 104,
-        "verified": "2026-07-14"
-      },
-      {
         "id": "kXvNLzTMVPk",
-        "title": "Rear Naked Choke Escape",
-        "by": "Applied Pressure MMA",
-        "vertical": false,
+        "title": "Rear Naked Choke to  Escape",
         "channel": "Applied Pressure MMA",
         "duration": 46,
-        "verified": "2026-07-14"
+        "vertical": false,
+        "front": true
+      },
+      {
+        "id": "R6W9P4_SMzY",
+        "title": "TMG Clips #67 - Escape The RNC",
+        "channel": "TeachMeGrappling Coach Brian",
+        "duration": 103,
+        "vertical": false
       },
       {
         "id": "3RbOD9fhi20",
-        "title": "Back Escape: Running Man",
-        "by": "Jiu Jitsu Modern",
-        "vertical": false,
+        "title": "Back Escape- Running Man- BJJ",
         "channel": "JIU JITSU MODERN",
         "duration": 210,
-        "verified": "2026-07-14"
+        "vertical": false
       }
     ]
   }

@@ -448,21 +448,11 @@
     "clips": [
       {
         "id": "fZRfKh1B53o",
-        "title": "Single Leg X to Kneebar",
-        "by": "Fernaldi Jonatan",
-        "vertical": false,
+        "title": "Single leg X to knee bar",
         "channel": "Fernaldi Jonatan",
         "duration": 76,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "0wHq6PZVGfI",
-        "title": "2 Ways to Attack a Kneebar from Cross Ashi",
-        "by": "King Kneebar",
         "vertical": false,
-        "channel": "King Kneebar",
-        "duration": 140,
-        "verified": "2026-07-14"
+        "front": true
       }
     ]
   },
@@ -630,21 +620,11 @@
     "clips": [
       {
         "id": "3zJthP57wXw",
-        "title": "Kneebar Escape",
-        "by": "Darren Branch",
-        "vertical": false,
+        "title": "Kneebar Escape by Darren Branch | High Rollerz Academy - Jiu Jitsu…",
         "channel": "High Rollerz Jiu Jitsu 💨🥋",
-        "duration": 74,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "QMgsMSTRSBI",
-        "title": "5 Leglock Counters to Ashi Garami",
-        "by": "BJJBlackBeltDad",
+        "duration": 73,
         "vertical": false,
-        "channel": "BJJBlackBeltDad",
-        "duration": 93,
-        "verified": "2026-07-14"
+        "front": true
       }
     ]
   }

@@ -188,35 +188,32 @@ description: "How to execute Triangle from Spider Guard in BJJ. Attacking perspe
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Triangle from the Spider Lasso Guard",
-      "description": "Triangle Choke from Spider Guard (Attacker) film study: Triangle from the Spider Lasso Guard, taught by Nartay Kazhekov.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/t03kY6knAkU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/t03kY6knAkU",
-      "url": "https://www.youtube.com/watch?v=t03kY6knAkU",
-      "creator": { "@type": "Person", "name": "Nartay Kazhekov" },
-      "duration": "PT11S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Spider Guard Foot on Bicep Triangle Choke",
-      "description": "Triangle Choke from Spider Guard (Attacker) film study: Spider Guard Foot on Bicep Triangle Choke, taught by Ritchie Yip.",
+      "name": "Spider Guard Foot On Bicep Triangle Choke",
+      "description": "Triangle Choke from Spider Guard (Attacker) film study: Spider Guard Foot On Bicep Triangle Choke.",
       "thumbnailUrl": "https://i.ytimg.com/vi/7ItTf1BFDZA/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/7ItTf1BFDZA",
       "url": "https://www.youtube.com/watch?v=7ItTf1BFDZA",
-      "creator": { "@type": "Person", "name": "Ritchie Yip" },
       "duration": "PT31S"
     },
     {
       "@type": "VideoObject",
-      "position": 3,
+      "position": 2,
       "name": "Spider Guard: Triangle Choke Option",
-      "description": "Triangle Choke from Spider Guard (Attacker) film study: Spider Guard: Triangle Choke Option, taught by Hurricane Jiu Jitsu.",
+      "description": "Triangle Choke from Spider Guard (Attacker) film study: Spider Guard: Triangle Choke Option.",
       "thumbnailUrl": "https://i.ytimg.com/vi/aR907qucSvk/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/aR907qucSvk",
       "url": "https://www.youtube.com/watch?v=aR907qucSvk",
-      "creator": { "@type": "Person", "name": "Hurricane Jiu Jitsu" },
-      "duration": "PT60S"
+      "duration": "PT59S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "=Triangle from the Spider Lasso Guard=",
+      "description": "Triangle Choke from Spider Guard (Attacker) film study: =Triangle from the Spider Lasso Guard=.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/t03kY6knAkU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/t03kY6knAkU",
+      "url": "https://www.youtube.com/watch?v=t03kY6knAkU",
+      "duration": "PT11S"
     }
   ]
 }
@@ -245,17 +242,9 @@ The Triangle from Spider Guard is a high-percentage finishing sequence that capi
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=t03kY6knAkU)
-
-<p class="clip-credit"><strong>Triangle from the Spider Lasso Guard</strong> — taught by Nartay Kazhekov · 0:11 · <a href="https://www.youtube.com/watch?v=t03kY6knAkU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=7ItTf1BFDZA)
 
-<p class="clip-credit"><strong>Spider Guard Foot on Bicep Triangle Choke</strong> — taught by Ritchie Yip · 0:31 · <a href="https://www.youtube.com/watch?v=7ItTf1BFDZA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Spider Guard Foot On Bicep Triangle Choke</strong> · 0:31 · <a href="https://www.youtube.com/watch?v=7ItTf1BFDZA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -263,7 +252,15 @@ The Triangle from Spider Guard is a high-percentage finishing sequence that capi
 
 ![](https://www.youtube.com/watch?v=aR907qucSvk)
 
-<p class="clip-credit"><strong>Spider Guard: Triangle Choke Option</strong> — taught by Hurricane Jiu Jitsu · 1:00 · <a href="https://www.youtube.com/watch?v=aR907qucSvk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Spider Guard: Triangle Choke Option</strong> · 0:59 · <a href="https://www.youtube.com/watch?v=aR907qucSvk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=t03kY6knAkU)
+
+<p class="clip-credit"><strong>=Triangle from the Spider Lasso Guard=</strong> · 0:11 · <a href="https://www.youtube.com/watch?v=t03kY6knAkU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

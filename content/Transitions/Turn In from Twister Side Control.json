@@ -359,26 +359,7 @@
       }
     ],
     "safety_considerations": "The turn-in escape involves significant pressure on the neck, shoulders, and spine throughout the rotation. Never force the rotation if you feel sharp or shooting pain in the cervical spine, as the twister position inherently stresses spinal structures. If the opponent has achieved a deep twister grip with full spinal torque, tap immediately rather than attempting the escape and risking disc injury. During training, communicate clearly with your partner about resistance levels and use incremental resistance progression. Practice the turn-in movement slowly before adding resistance to develop proper hip-leading mechanics and avoid neck strain from shoulder-first rotation.",
-    "clips": [
-      {
-        "id": "R55lmkc6Mus",
-        "title": "Twister side control fundamentals",
-        "by": "Eddie Bravo",
-        "vertical": false,
-        "channel": "Eddie Bravo",
-        "duration": 87,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "odT3-cVWXdc",
-        "title": "Attacks from twister side control",
-        "by": "Eddie Bravo",
-        "vertical": false,
-        "channel": "Eddie Bravo",
-        "duration": 61,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Turn In from Twister Side Control Defender",
@@ -541,25 +522,6 @@
         "description": "Full resistance positional rounds where the bottom player uses all available escape options including the turn-in. Top player develops the ability to read which escape direction is coming and apply the correct counter, choosing between maintaining control and advancing to mount based on the specific escape attempt."
       }
     ],
-    "clips": [
-      {
-        "id": "cO2KXVOZJLo",
-        "title": "Side control escape: the ramp",
-        "by": "Andy Balmore",
-        "vertical": false,
-        "channel": "10th Planet Orange County",
-        "duration": 99,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "F1170I6qL7c",
-        "title": "Twister side control escape",
-        "by": "10th Planet Colorado Springs",
-        "vertical": false,
-        "channel": "10th Planet Colorado Springs",
-        "duration": 139,
-        "verified": "2026-07-16"
-      }
-    ]
+    "clips": []
   }
 }

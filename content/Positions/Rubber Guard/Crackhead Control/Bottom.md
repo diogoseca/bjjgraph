@@ -155,50 +155,6 @@ description: "Crackhead Control bottom perspective: Establish the first high leg
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Crackhead Control (Bottom) \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Rubber Guard Sweep",
-      "description": "Crackhead Control (Bottom) film study: Rubber Guard Sweep, taught by Zachary Maslany.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/qNpJJpLowZo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/qNpJJpLowZo",
-      "url": "https://www.youtube.com/watch?v=qNpJJpLowZo",
-      "creator": { "@type": "Person", "name": "Zachary Maslany" },
-      "duration": "PT57S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Gag reflex attack from crackhead control",
-      "description": "Crackhead Control (Bottom) film study: Gag reflex attack from crackhead control, taught by Eddie Bravo.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/faxkXVUBWcM/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/faxkXVUBWcM",
-      "url": "https://www.youtube.com/watch?v=faxkXVUBWcM",
-      "creator": { "@type": "Person", "name": "Eddie Bravo" },
-      "duration": "PT117S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Rubber guard cobra clinch details",
-      "description": "Crackhead Control (Bottom) film study: Rubber guard cobra clinch details, taught by Eddie Bravo.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/E7LsXddfXRM/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/E7LsXddfXRM",
-      "url": "https://www.youtube.com/watch?v=E7LsXddfXRM",
-      "creator": { "@type": "Person", "name": "Eddie Bravo" },
-      "duration": "PT61S"
-    }
-  ]
-}
-</script>
-
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -217,40 +173,6 @@ Two high legs do not make the torso immune to chest pressure. Preserve space wit
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Crackhead Control (Bottom) in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=qNpJJpLowZo)
-
-<p class="clip-credit"><strong>Rubber Guard Sweep</strong> — taught by Zachary Maslany · 0:57 · <a href="https://www.youtube.com/watch?v=qNpJJpLowZo" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=faxkXVUBWcM)
-
-<p class="clip-credit"><strong>Gag reflex attack from crackhead control</strong> — taught by Eddie Bravo · 1:57 · <a href="https://www.youtube.com/watch?v=faxkXVUBWcM" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=E7LsXddfXRM)
-
-<p class="clip-credit"><strong>Rubber guard cobra clinch details</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=E7LsXddfXRM" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="state-invariants" class="content-section">

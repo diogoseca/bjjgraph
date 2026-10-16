@@ -453,30 +453,18 @@
     "clips": [
       {
         "id": "3H5ZyHEHfpI",
-        "title": "RNC details from the seatbelt",
-        "by": "Coach Brian",
-        "vertical": false,
+        "title": "TMG Clips #9 - RNC Details From Seatbelt",
         "channel": "TeachMeGrappling Coach Brian",
         "duration": 133,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "eMbkVDRreIQ",
-        "title": "3 favorite chokes from the back",
-        "by": "Matt Arroyo",
         "vertical": false,
-        "channel": "Matt Arroyo Jiu Jitsu ",
-        "duration": 87,
-        "verified": "2026-07-14"
+        "front": true
       },
       {
         "id": "Sb-atqD_TqQ",
-        "title": "Short choke from back position",
-        "by": "Cosens MMA",
-        "vertical": false,
+        "title": "Short Choke from Back Position (Jiu Jitsu)",
         "channel": "Cosens MMA LLC",
-        "duration": 55,
-        "verified": "2026-07-14"
+        "duration": 54,
+        "vertical": false
       }
     ]
   },
@@ -668,22 +656,18 @@
     ],
     "clips": [
       {
-        "id": "L1KeviYu1FQ",
-        "title": "Back escape and RNC defence",
-        "by": "Arete BJJ Malta",
-        "vertical": false,
-        "channel": "Arete Brazilian Jiu Jitsu Malta",
-        "duration": 25,
-        "verified": "2026-07-14"
-      },
-      {
         "id": "ylLO80PM4zg",
         "title": "Rear naked choke escape",
-        "by": "Renato Migliaccio",
-        "vertical": false,
         "channel": "Renato Migliaccio",
         "duration": 16,
-        "verified": "2026-07-14"
+        "vertical": false
+      },
+      {
+        "id": "L1KeviYu1FQ",
+        "title": "Back Escape + RNC Defence | Arete BJJ Malta",
+        "channel": "Arete Brazilian Jiu Jitsu Malta",
+        "duration": 25,
+        "vertical": false
       }
     ]
   }

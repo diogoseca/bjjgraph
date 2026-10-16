@@ -351,35 +351,7 @@
       }
     ],
     "safety_considerations": "Head Extraction to Posture involves escaping a choke that restricts airway and blood flow, requiring careful attention to safety. Always tap early if the choke is fully locked and you cannot create breathing space within a few seconds. Training partners should apply gradual pressure and immediately release when you tap. During drilling, communicate clearly about pressure levels. Avoid explosive movements that could cause neck strain or cervical injury. If you feel lightheaded or experience vision changes, tap immediately rather than continuing escape attempts. When drilling the emergency tuck-and-roll variant, ensure adequate mat space and communicate with your partner to prevent collision injuries.",
-    "clips": [
-      {
-        "id": "HLWwfq8FNMI",
-        "title": "Head Extraction: Hips Down, Posture Up",
-        "by": "Mat Life Training Center",
-        "vertical": false,
-        "channel": "Mat Life Training Center",
-        "duration": 19,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "ICSTtSCjobM",
-        "title": "Use Good Posture to Counter the Headlock",
-        "by": "Brandon McCaghren",
-        "vertical": false,
-        "channel": "Brandon Mccaghren",
-        "duration": 286,
-        "verified": "2026-07-16"
-      },
-      {
-        "id": "sqC1g6lVDCQ",
-        "title": "Breaking down the Rubber Guard - posture work",
-        "by": "Eddie Bravo",
-        "vertical": false,
-        "channel": "Ripsaw Defence",
-        "duration": 541,
-        "verified": "2026-07-16"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Head Extraction to Posture Defender",
@@ -560,35 +532,7 @@
         "description": "Partner attempts full-speed extraction while you work to either finish the gogoplata or transition to alternative submissions. Include scenarios where the partner uses all three extraction variants. Integrate into live rolling from gogoplata control start position."
       }
     ],
-    "clips": [
-      {
-        "id": "huzjQNiJu7Y",
-        "title": "Rubber Guard Quick Fix to Stop Posture",
-        "by": "Brandon McCaghren",
-        "vertical": false,
-        "channel": "Brandon Mccaghren",
-        "duration": 65,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "cY1xCIx-9-I",
-        "title": "2 Rubber Guard Tips to Keep Head Trapped",
-        "by": "Brandon McCaghren",
-        "vertical": false,
-        "channel": "Brandon Mccaghren",
-        "duration": 57,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "tWAZbCiWQ9E",
-        "title": "Rubber Guard Philosophy",
-        "by": "Eddie Bravo",
-        "vertical": false,
-        "channel": "Eddie Bravo",
-        "duration": 61,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "variants_and_adaptations": [
     {

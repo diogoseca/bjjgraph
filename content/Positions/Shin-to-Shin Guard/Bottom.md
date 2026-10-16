@@ -165,35 +165,12 @@ description: "Master Shin-to-Shin Guard from bottom perspective. Learn shin conn
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Shin to Shin Guard to Single Leg X Sweep",
-      "description": "Shin-to-Shin Guard (Bottom) film study: Shin to Shin Guard to Single Leg X Sweep, taught by Bermuda Martial Arts.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/vKjAcZbsTwI/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/vKjAcZbsTwI",
-      "url": "https://www.youtube.com/watch?v=vKjAcZbsTwI",
-      "creator": { "@type": "Person", "name": "Bermuda Martial Arts" },
-      "duration": "PT138S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Shin to Shin to Single Leg X Progression",
-      "description": "Shin-to-Shin Guard (Bottom) film study: Shin to Shin to Single Leg X Progression, taught by Robyn Sheehan.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/o0TTMzFEG0Q/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/o0TTMzFEG0Q",
-      "url": "https://www.youtube.com/watch?v=o0TTMzFEG0Q",
-      "creator": { "@type": "Person", "name": "Robyn Sheehan" },
-      "duration": "PT128S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Shin to Shin to Double Leg Takedown",
-      "description": "Shin-to-Shin Guard (Bottom) film study: Shin to Shin to Double Leg Takedown, taught by Michael Hoffman.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/dARW8ARiMcA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/dARW8ARiMcA",
-      "url": "https://www.youtube.com/watch?v=dARW8ARiMcA",
-      "creator": { "@type": "Person", "name": "Michael Hoffman" },
-      "duration": "PT40S"
+      "name": "Shin to Shin Guard",
+      "description": "Shin-to-Shin Guard (Bottom) film study: Shin to Shin Guard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sUJIGs8Othc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sUJIGs8Othc",
+      "url": "https://www.youtube.com/watch?v=sUJIGs8Othc",
+      "duration": "PT75S"
     }
   ]
 }
@@ -219,25 +196,9 @@ Shin-to-Shin Guard from the bottom perspective represents one of the most versat
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=vKjAcZbsTwI)
+![](https://www.youtube.com/watch?v=sUJIGs8Othc)
 
-<p class="clip-credit"><strong>Shin to Shin Guard to Single Leg X Sweep</strong> — taught by Bermuda Martial Arts · 2:18 · <a href="https://www.youtube.com/watch?v=vKjAcZbsTwI" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=o0TTMzFEG0Q)
-
-<p class="clip-credit"><strong>Shin to Shin to Single Leg X Progression</strong> — taught by Robyn Sheehan · 2:08 · <a href="https://www.youtube.com/watch?v=o0TTMzFEG0Q" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=dARW8ARiMcA)
-
-<p class="clip-credit"><strong>Shin to Shin to Double Leg Takedown</strong> — taught by Michael Hoffman · 0:40 · <a href="https://www.youtube.com/watch?v=dARW8ARiMcA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Shin to Shin Guard</strong> · 1:15 · <a href="https://www.youtube.com/watch?v=sUJIGs8Othc" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

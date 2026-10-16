@@ -473,31 +473,19 @@
     ],
     "clips": [
       {
-        "id": "CeNHFF1gcNE",
-        "title": "Americana Armlock",
-        "by": "Dr. Deng",
-        "vertical": false,
-        "channel": "Dr. Deng",
-        "duration": 17,
-        "verified": "2026-07-14"
-      },
-      {
         "id": "KbOkHMVhnT8",
-        "title": "Americana from the mount",
-        "by": "Renzo Gracie",
-        "vertical": false,
+        "title": "Renzo Gracie: Americana from the mount | Renzo Gracie Online Academy",
         "channel": "Gallerr",
         "duration": 91,
-        "verified": "2026-07-15"
+        "vertical": false,
+        "front": true
       },
       {
         "id": "mhpeVqdfZgQ",
-        "title": "Hidden detail to finish the americana",
-        "by": "Henry Akins",
-        "vertical": false,
+        "title": "Learn A Hidden Detail To Finish The Americana by Henry Akins (Rickson Gracie…",
         "channel": "Bernardo Faria BJJ Fanatics",
         "duration": 696,
-        "verified": "2026-07-15"
+        "vertical": false
       }
     ]
   },
@@ -689,29 +677,24 @@
       {
         "id": "NZjUCo8os8Q",
         "title": "Simple Americana Armlock Escape",
-        "by": "Eddie Kone",
-        "vertical": false,
         "channel": "Eddie Kone Academy Of Jiu-Jitsu",
         "duration": 61,
-        "verified": "2026-07-14"
+        "vertical": false,
+        "front": true
       },
       {
         "id": "FNyL93v5fGs",
-        "title": "Defending the americana",
-        "by": "Lachlan Giles",
-        "vertical": false,
+        "title": "Defending The Americana - BJJ Move by Lachlan Giles",
         "channel": "BJJ Fanatics",
         "duration": 91,
-        "verified": "2026-07-15"
+        "vertical": false
       },
       {
         "id": "Ht5OdSQG3BY",
-        "title": "Kipping escape: defend the americana into a heel hook",
-        "by": "Brian Glick",
-        "vertical": false,
+        "title": "Kipping Escape: Defend the Americana into the Heelhook (No Gi BJJ/Jiu-Jitsu)",
         "channel": "Brian Glick",
         "duration": 330,
-        "verified": "2026-07-15"
+        "vertical": false
       }
     ]
   }

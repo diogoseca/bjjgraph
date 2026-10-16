@@ -37,50 +37,6 @@ description: "Master Inside Sankaku (Honey Hole) in BJJ. Complete guide covering
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Inside Sankaku \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "4 Foot Positions for Leg Locks",
-      "description": "Inside Sankaku film study: 4 Foot Positions for Leg Locks, taught by Evo BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/eiI_4VBA-qA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/eiI_4VBA-qA",
-      "url": "https://www.youtube.com/watch?v=eiI_4VBA-qA",
-      "creator": { "@type": "Person", "name": "Evo BJJ" },
-      "duration": "PT162S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Terminology of Ashi Garami \u0026 Leg Locks",
-      "description": "Inside Sankaku film study: Terminology of Ashi Garami \u0026 Leg Locks, taught by Patrick Donabedian.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/fkl93-NakrI/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/fkl93-NakrI",
-      "url": "https://www.youtube.com/watch?v=fkl93-NakrI",
-      "creator": { "@type": "Person", "name": "Patrick Donabedian" },
-      "duration": "PT79S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Saddle Entries From Guard",
-      "description": "Inside Sankaku film study: Saddle Entries From Guard, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/K5XhO7o5QN0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/K5XhO7o5QN0",
-      "url": "https://www.youtube.com/watch?v=K5XhO7o5QN0",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT66S"
-    }
-  ]
-}
-</script>
-
 
 
 <script type="application/ld+json">
@@ -115,40 +71,6 @@ Inside Sankaku, also known as the 'Honey Hole' or '411', is an advanced leg enta
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Inside Sankaku in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=eiI_4VBA-qA)
-
-<p class="clip-credit"><strong>4 Foot Positions for Leg Locks</strong> — taught by Evo BJJ · 2:42 · <a href="https://www.youtube.com/watch?v=eiI_4VBA-qA" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=fkl93-NakrI)
-
-<p class="clip-credit"><strong>Terminology of Ashi Garami &amp; Leg Locks</strong> — taught by Patrick Donabedian · 1:19 · <a href="https://www.youtube.com/watch?v=fkl93-NakrI" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=K5XhO7o5QN0)
-
-<p class="clip-credit"><strong>Saddle Entries From Guard</strong> — taught by Lachlan Giles · 1:06 · <a href="https://www.youtube.com/watch?v=K5XhO7o5QN0" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="key-principles" class="content-section">

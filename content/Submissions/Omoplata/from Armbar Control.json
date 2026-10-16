@@ -448,35 +448,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "HtMbIJCiz-4",
-        "title": "Omoplata to armbar transition",
-        "by": "Asbury Park Jiu Jitsu",
-        "vertical": false,
-        "channel": "Asbury Park Jiu Jitsu",
-        "duration": 70,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "hZMbgWNh7MI",
-        "title": "Omoplata to armbar",
-        "by": "Bicudo Maciel",
-        "vertical": false,
-        "channel": "Bicudo BJJ",
-        "duration": 25,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "Q7PbaORwRKo",
-        "title": "Omoplata stretch sweep to armbar",
-        "by": "M-Theory Martial Arts",
-        "vertical": false,
-        "channel": "M-Theory Martial Arts",
-        "duration": 30,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Omoplata from Armbar Control Defender",
@@ -649,30 +621,25 @@
     "clips": [
       {
         "id": "ocIHY3jBYIQ",
-        "title": "Best way to escape the omoplata shoulder lock",
-        "by": "John Connors",
-        "vertical": false,
+        "title": "💯 BEST WAY to ESCAPE THE OMOPLATA Shoulder Lock",
         "channel": "John Connors, Old Man BJJ Black Belt",
-        "duration": 62,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "jKdERMTQqPY",
-        "title": "Escape the omoplata when it's locked in",
-        "by": "Matt Arroyo",
+        "duration": 61,
         "vertical": false,
-        "channel": "Matt Arroyo Jiu Jitsu ",
-        "duration": 72,
-        "verified": "2026-07-14"
+        "front": true
       },
       {
         "id": "xqBK1Y2BdSg",
-        "title": "Submission escape from the omoplata",
-        "by": "Thiago Stefanutti",
-        "vertical": false,
+        "title": "Submission escape - omoplata",
         "channel": "thiago stefanutti",
         "duration": 17,
-        "verified": "2026-07-14"
+        "vertical": false
+      },
+      {
+        "id": "jKdERMTQqPY",
+        "title": "How to escape the omoplata when it’s already in and he’s ready to break your…",
+        "channel": "Matt Arroyo Jiu Jitsu ",
+        "duration": 71,
+        "vertical": false
       }
     ]
   }

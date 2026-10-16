@@ -154,24 +154,12 @@ description: "Learn to recognize and defend the Cross Collar Choke from Modified
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Cross choke defense: two quick tips",
-      "description": "Cross Collar Choke from Modified Mount (Defender) film study: Cross choke defense: two quick tips, taught by Wayne Sniffen.",
+      "name": "Cross Choke Defense from Guard - Two Quick Tips",
+      "description": "Cross Collar Choke from Modified Mount (Defender) film study: Cross Choke Defense from Guard - Two Quick Tips.",
       "thumbnailUrl": "https://i.ytimg.com/vi/QIRF2B9riAA/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/QIRF2B9riAA",
       "url": "https://www.youtube.com/watch?v=QIRF2B9riAA",
-      "creator": { "@type": "Person", "name": "Wayne Sniffen" },
       "duration": "PT105S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Defending the mount cross choke",
-      "description": "Cross Collar Choke from Modified Mount (Defender) film study: Defending the mount cross choke, taught by Ninja Pinto.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/j2qf5q7PChY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/j2qf5q7PChY",
-      "url": "https://www.youtube.com/watch?v=j2qf5q7PChY",
-      "creator": { "@type": "Person", "name": "Ninja Pinto" },
-      "duration": "PT23S"
     }
   ]
 }
@@ -202,15 +190,7 @@ Defending the Cross Collar Choke from Modified Mount requires early recognition 
 
 ![](https://www.youtube.com/watch?v=QIRF2B9riAA)
 
-<p class="clip-credit"><strong>Cross choke defense: two quick tips</strong> — taught by Wayne Sniffen · 1:45 · <a href="https://www.youtube.com/watch?v=QIRF2B9riAA" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=j2qf5q7PChY)
-
-<p class="clip-credit"><strong>Defending the mount cross choke</strong> — taught by Ninja Pinto · 0:23 · <a href="https://www.youtube.com/watch?v=j2qf5q7PChY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Cross Choke Defense from Guard - Two Quick Tips</strong> · 1:45 · <a href="https://www.youtube.com/watch?v=QIRF2B9riAA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

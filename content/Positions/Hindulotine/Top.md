@@ -155,50 +155,6 @@ description: "Hindulotine top perspective: An elbow traveling over the opponent'
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Hindulotine (Top) \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Hindulotine Breakdown",
-      "description": "Hindulotine (Top) film study: Hindulotine Breakdown, taught by Cordesgains BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/i9rAyo8tRZw/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/i9rAyo8tRZw",
-      "url": "https://www.youtube.com/watch?v=i9rAyo8tRZw",
-      "creator": { "@type": "Person", "name": "Cordesgains BJJ" },
-      "duration": "PT87S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Hindulotine Submission Breakdown",
-      "description": "Hindulotine (Top) film study: Hindulotine Submission Breakdown, taught by Ben Eddy.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/YbOV4vESByc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/YbOV4vESByc",
-      "url": "https://www.youtube.com/watch?v=YbOV4vESByc",
-      "creator": { "@type": "Person", "name": "Ben Eddy" },
-      "duration": "PT97S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Two Hindulotines From ADCC Trials",
-      "description": "Hindulotine (Top) film study: Two Hindulotines From ADCC Trials, taught by Ben Eddy.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/NqAXUtNqYLk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/NqAXUtNqYLk",
-      "url": "https://www.youtube.com/watch?v=NqAXUtNqYLk",
-      "creator": { "@type": "Person", "name": "Ben Eddy" },
-      "duration": "PT85S"
-    }
-  ]
-}
-</script>
-
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -215,40 +171,6 @@ Hindu Control is the holding configuration; Hindulotine names the choke applied 
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Hindulotine (Top) in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=i9rAyo8tRZw)
-
-<p class="clip-credit"><strong>Hindulotine Breakdown</strong> — taught by Cordesgains BJJ · 1:27 · <a href="https://www.youtube.com/watch?v=i9rAyo8tRZw" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=YbOV4vESByc)
-
-<p class="clip-credit"><strong>Hindulotine Submission Breakdown</strong> — taught by Ben Eddy · 1:37 · <a href="https://www.youtube.com/watch?v=YbOV4vESByc" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=NqAXUtNqYLk)
-
-<p class="clip-credit"><strong>Two Hindulotines From ADCC Trials</strong> — taught by Ben Eddy · 1:25 · <a href="https://www.youtube.com/watch?v=NqAXUtNqYLk" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="state-invariants" class="content-section">

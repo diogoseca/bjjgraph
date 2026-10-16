@@ -381,21 +381,11 @@
     "clips": [
       {
         "id": "NBBNLMCFvWM",
-        "title": "Bridge and roll escape from scarf hold",
-        "by": "Satori BJJ",
-        "vertical": false,
+        "title": "Bridge and Roll defense to Scarf Hold",
         "channel": "Satori BJJ",
         "duration": 43,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "2M_6VytUaus",
-        "title": "Kesa gatame bridge escape demo",
-        "by": "SBG Australia",
         "vertical": false,
-        "channel": "SBG Australia",
-        "duration": 43,
-        "verified": "2026-07-15"
+        "front": true
       }
     ]
   },
@@ -560,16 +550,6 @@
         "description": "Positional sparring from scarf hold with full resistance. Top player maintains position while bottom player chains bridge reversals with hip escapes, ghost escapes, and guard recovery sequences. Top player practices recognizing each escape type and selecting the appropriate defensive or counter response. Three-minute rounds with reset on escape or submission, 5 rounds total."
       }
     ],
-    "clips": [
-      {
-        "id": "GBBqXE3VKFA",
-        "title": "Keeping the pin when they bridge",
-        "by": "Shintaro Higashi",
-        "vertical": false,
-        "channel": "Shintaro Higashi",
-        "duration": 257,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   }
 }

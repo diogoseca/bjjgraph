@@ -367,35 +367,7 @@
       }
     ],
     "safety_considerations": "This escape involves significant spinal movement and neck pressure throughout its execution. Ensure your chin remains tucked at all times to protect cervical vertebrae from choke pressure during the transition. Never force the scooting motion if you feel sharp pain in your neck or spine. During training, communicate with your partner about the intensity of their hooks and choke attempts. Tap immediately if a choke is secured during practice rather than continuing the escape attempt. Build the scooting motion gradually through repetition before applying it under full resistance to prevent injury.",
-    "clips": [
-      {
-        "id": "Ly89G4iCTSQ",
-        "title": "Turtle no-grips escape rolling to guard",
-        "by": "Lachlan Giles",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 108,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "485wvqwlBYA",
-        "title": "Back control escape when sprawled face down",
-        "by": "Academy Jiu Jitsu",
-        "vertical": false,
-        "channel": "Academy Jiu Jitsu",
-        "duration": 92,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "bhkb4ItZQno",
-        "title": "How to not get mounted escaping the back",
-        "by": "Henry Akins",
-        "vertical": false,
-        "channel": "Henry Akins' Hidden Jiu-Jitsu",
-        "duration": 131,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Scoot Hips to Guard from Back Defender",
@@ -558,25 +530,6 @@
         "description": "Back control positional sparring where bottom player uses all escape methods with full resistance. Maintain back control for 2-minute rounds, focusing on retention and counter-attacking when escape attempts create submission opportunities or position improvement."
       }
     ],
-    "clips": [
-      {
-        "id": "3Jd2llamfl8",
-        "title": "Back control escape explained simply",
-        "by": "Jean Jacques Machado",
-        "vertical": false,
-        "channel": "JeanJacquesMachado",
-        "duration": 189,
-        "verified": "2026-07-16"
-      },
-      {
-        "id": "GmFKotginx4",
-        "title": "Escaping back control, part 2",
-        "by": "Bruninho",
-        "vertical": false,
-        "channel": "JitsMagazine",
-        "duration": 169,
-        "verified": "2026-07-16"
-      }
-    ]
+    "clips": []
   }
 }

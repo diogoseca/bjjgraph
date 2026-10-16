@@ -192,35 +192,32 @@ description: "Master the systematic approach to passing collar sleeve guard. Lea
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Two Ways to Pass the Collar and Sleeve Guard",
-      "description": "Pass Collar Sleeve Guard (Attacker) film study: Two Ways to Pass the Collar and Sleeve Guard, taught by Carpio Jiu Jitsu.",
+      "name": "Two Ways to Pass the Collar and Sleeve",
+      "description": "Pass Collar Sleeve Guard (Attacker) film study: Two Ways to Pass the Collar and Sleeve.",
       "thumbnailUrl": "https://i.ytimg.com/vi/N4M0VWhDkMA/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/N4M0VWhDkMA",
       "url": "https://www.youtube.com/watch?v=N4M0VWhDkMA",
-      "creator": { "@type": "Person", "name": "Carpio Jiu Jitsu" },
-      "duration": "PT103S"
+      "duration": "PT102S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Passing Collar Sleeve Guard in Open Guard",
-      "description": "Pass Collar Sleeve Guard (Attacker) film study: Passing Collar Sleeve Guard in Open Guard, taught by Ultra Jiu Jitsu Academy.",
+      "name": "Passing Collar Sleeve Guard - BJJ OPEN GUARD",
+      "description": "Pass Collar Sleeve Guard (Attacker) film study: Passing Collar Sleeve Guard - BJJ OPEN GUARD.",
       "thumbnailUrl": "https://i.ytimg.com/vi/WJ25wu9Ioks/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/WJ25wu9Ioks",
       "url": "https://www.youtube.com/watch?v=WJ25wu9Ioks",
-      "creator": { "@type": "Person", "name": "Ultra Jiu Jitsu Academy" },
-      "duration": "PT105S"
+      "duration": "PT104S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "Collar Sleeve Pass to Bullfighter and Leg Drag",
-      "description": "Pass Collar Sleeve Guard (Attacker) film study: Collar Sleeve Pass to Bullfighter and Leg Drag, taught by Carpio Jiu Jitsu.",
+      "name": "Collar Sleeve Guard Pass to Bullfighter and Leg Drag",
+      "description": "Pass Collar Sleeve Guard (Attacker) film study: Collar Sleeve Guard Pass to Bullfighter and Leg Drag.",
       "thumbnailUrl": "https://i.ytimg.com/vi/DMvvqaUfOtw/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/DMvvqaUfOtw",
       "url": "https://www.youtube.com/watch?v=DMvvqaUfOtw",
-      "creator": { "@type": "Person", "name": "Carpio Jiu Jitsu" },
-      "duration": "PT128S"
+      "duration": "PT127S"
     }
   ]
 }
@@ -250,7 +247,7 @@ From the passer's perspective, defeating collar sleeve guard requires a systemat
 
 ![](https://www.youtube.com/watch?v=N4M0VWhDkMA)
 
-<p class="clip-credit"><strong>Two Ways to Pass the Collar and Sleeve Guard</strong> — taught by Carpio Jiu Jitsu · 1:43 · <a href="https://www.youtube.com/watch?v=N4M0VWhDkMA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Two Ways to Pass the Collar and Sleeve</strong> · 1:42 · <a href="https://www.youtube.com/watch?v=N4M0VWhDkMA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -258,7 +255,7 @@ From the passer's perspective, defeating collar sleeve guard requires a systemat
 
 ![](https://www.youtube.com/watch?v=WJ25wu9Ioks)
 
-<p class="clip-credit"><strong>Passing Collar Sleeve Guard in Open Guard</strong> — taught by Ultra Jiu Jitsu Academy · 1:45 · <a href="https://www.youtube.com/watch?v=WJ25wu9Ioks" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Passing Collar Sleeve Guard - BJJ OPEN GUARD</strong> · 1:44 · <a href="https://www.youtube.com/watch?v=WJ25wu9Ioks" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -266,7 +263,7 @@ From the passer's perspective, defeating collar sleeve guard requires a systemat
 
 ![](https://www.youtube.com/watch?v=DMvvqaUfOtw)
 
-<p class="clip-credit"><strong>Collar Sleeve Pass to Bullfighter and Leg Drag</strong> — taught by Carpio Jiu Jitsu · 2:08 · <a href="https://www.youtube.com/watch?v=DMvvqaUfOtw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Collar Sleeve Guard Pass to Bullfighter and Leg Drag</strong> · 2:07 · <a href="https://www.youtube.com/watch?v=DMvvqaUfOtw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

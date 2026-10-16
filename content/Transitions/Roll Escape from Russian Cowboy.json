@@ -358,26 +358,7 @@
       }
     ],
     "safety_considerations": "The Roll Escape from Russian Cowboy carries inherent cervical spine risk due to the rolling motion under opponent pressure. Always tuck the chin firmly to protect the neck throughout the roll. Avoid attempting this escape when your neck is already compromised or when the opponent has deep collar or neck control. In training, communicate with your partner about rolling speed and direction to prevent unexpected neck compression. Start drilling at low intensity and gradually increase speed. Stop immediately if you feel any sharp pain in the neck, spine, or shoulders during the rolling motion. Practitioners with pre-existing neck injuries should consult their instructor before incorporating this technique.",
-    "clips": [
-      {
-        "id": "Ly89G4iCTSQ",
-        "title": "Turtle No Grips Escape: Rolling to Guard",
-        "by": "Lachlan Giles",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 108,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "DBbSqQf6iCo",
-        "title": "Roll Under to Backside 50/50",
-        "by": "Lachlan Giles",
-        "vertical": false,
-        "channel": "BJJ focus camps",
-        "duration": 110,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "Roll Escape from Russian Cowboy Defender",
@@ -534,25 +515,6 @@
         "description": "Positional sparring from Russian Cowboy where the bottom player can use any escape including the roll. Top player must recognize and counter all escapes, choosing the appropriate response between killing the roll and following into truck in real-time."
       }
     ],
-    "clips": [
-      {
-        "id": "W0TCGKRcniA",
-        "title": "Turtle escape via shoulder roll",
-        "by": "BJJake",
-        "vertical": false,
-        "channel": "BJJake",
-        "duration": 21,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "Ft6OyIZ6vPs",
-        "title": "Turtle Escape & Back-Exposure System",
-        "by": "Jozef Chen",
-        "vertical": false,
-        "channel": "BJJ focus camps",
-        "duration": 149,
-        "verified": "2026-07-16"
-      }
-    ]
+    "clips": []
   }
 }
