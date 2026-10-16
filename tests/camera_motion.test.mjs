@@ -21,12 +21,12 @@ function app() {
 /** The view that puts world point p at screen point (sx, sy) with view width w. */
 const frameAt = (p, sx, sy, w) => ({ cx: p.x - (sx - W / 2) * w / W, cy: p.y - (sy - H / 2) * w / W, vw: w });
 /** Per-frame motion a viewer sees: max corner displacement, zoom ratio, centre kick (spec header). */
-function motion(views) {
+function motion(views, width = W) {
   let move = 0, kick = 0, zoom = 1, prev = [0, 0];
   for (let i = 1; i < views.length; i++) {
-    const a = views[i - 1], b = views[i], s0 = W / a.vw, s1 = W / b.vw;
-    for (const [px, py] of [[0, 0], [W, 0], [0, H], [W, H]]) {
-      move = Math.max(move, Math.hypot((a.cx - b.cx) * s1 + (px - W / 2) * (s1 / s0 - 1), (a.cy - b.cy) * s1 + (py - H / 2) * (s1 / s0 - 1)));
+    const a = views[i - 1], b = views[i], s0 = width / a.vw, s1 = width / b.vw;
+    for (const [px, py] of [[0, 0], [width, 0], [0, H], [width, H]]) {
+      move = Math.max(move, Math.hypot((a.cx - b.cx) * s1 + (px - width / 2) * (s1 / s0 - 1), (a.cy - b.cy) * s1 + (py - H / 2) * (s1 / s0 - 1)));
     }
     const c = [(a.cx - b.cx) * s1, (a.cy - b.cy) * s1];
     kick = Math.max(kick, Math.hypot(c[0] - prev[0], c[1] - prev[1])); prev = c;
@@ -124,4 +124,53 @@ test("a target that moves LESS than a jump during a flight bends it smoothly, ne
   assert.ok(Math.abs((P.y - last.cy) * W / last.vw + H / 2 - 233) < 1, "and it still arrives at the moved target");
 });
 
-console.log("camera motion: 5 cases (flight, straight zoom, adopted write, lift, moving goal)");
+function readerCamera() {
+  const readerSource = readFileSync(new URL("../neural/src/reader.src.js", import.meta.url), "utf8").replace(/^export /gm, "");
+  const Reader = new Function(readerSource + "\nreturn Reader;")();
+  const a = app(), reader = Object.create(Reader.prototype), n = { idx: 0, pi: -1, x: 0, y: 0, r: 12, ty: "submissions" };
+  a.W = 1152; a.nodes = [n]; a.focusIdx = 0; a.paused = true;
+  a._LY = q => q.y; a._paneLayout = () => ({ left: 0, shift: 0 }); a._labelWidthPx = () => 150;
+  reader.app = a; reader.on = () => true;
+  reader.contents = { hidden: false, getBoundingClientRect: () => ({ left: 928, right: 1128, top: 68, bottom: 700, width: 200 }) };
+  reader.articleEl = { getBoundingClientRect: () => ({ left: 236, right: 916, top: 68, bottom: 800, width: 680 }) };
+  return { a, reader, n };
+}
+
+test("a paused reader's TOC exclusion and release are continuous and never accumulate", () => {
+  const { a, reader, n } = readerCamera();
+  const original = { cx: a.W / 2 - 980, cy: H / 2 - 300, vw: a.W };
+  a.cam = { ...original }; a.camTarget = { ...original };
+  const settle = () => {
+    const views = [{ ...a.cam }];
+    let framed;
+    for (let i = 0; i < 180; i++) {
+      a.camTarget = reader.frameCamera(a._paneCameraTarget(a.camTarget));
+      if (!framed) framed = { ...a.camTarget };
+      // Target equality pins idempotence only. Motion and visibility below read
+      // the actual drawn camera, never the requested target (§6.2).
+      assert.equal(a.camTarget.cx, framed.cx, "re-applying the occupied rectangle must not drift");
+      a._camStep(DT); views.push({ ...a.cam });
+    }
+    const m = motion(views, a.W);
+    assert.ok(m.move <= 120 && m.kick <= 14 && m.zoom <= 1.07, JSON.stringify(m));
+  };
+  settle();
+  const drawnX = (n.x - a.cam.cx) * a.W / a.cam.vw + a.W / 2;
+  assert.ok(drawnX > 12 && drawnX + 150 + 11 + 12 < 236, "the current state fits the free left gutter");
+  reader.contents.hidden = true;
+  settle();
+  assert.ok(Math.abs(a.cam.cx - original.cx) < 1e-6, "hiding the overlay releases exactly its camera shift");
+});
+
+test("a deliberate camera subject stays put when the current node is clear of occupied areas", () => {
+  const { a, reader, n } = readerCamera(), subject = { x: 2000, y: 0 };
+  a.cam = { cx: subject.x, cy: 150, vw: a.W }; a.camTarget = { ...a.cam };
+  for (let i = 0; i < 180; i++) {
+    a.camTarget = reader.frameCamera(a._paneCameraTarget(a.camTarget)); a._camStep(DT);
+    assert.equal(a.W / 2 + (subject.x - a.cam.cx) * a.W / a.cam.vw, a.W / 2,
+      "the requested subject remains at the drawn centre");
+    assert.ok(a.W / 2 + (n.x - a.cam.cx) * a.W / a.cam.vw < 0, "the off-screen current node is not pulled back");
+  }
+});
+
+console.log("camera motion: 7 cases (flight, straight zoom, adopted write, lift, moving goal, reader exclusion, deliberate subject)");

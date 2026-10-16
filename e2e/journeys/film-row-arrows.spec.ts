@@ -17,6 +17,14 @@ import { journey } from "../dsl"
  * measured by `_dockLandFilm`): end padding 1x, fade 3x (NG_FILM_FADE_RATIO), arrow centre 1x from
  * the edge. The ratios are pinned, not the pixels.
  *
+ * Start with ordinary new-user progress. boot() otherwise completes all White objectives and
+ * mints an unrelated reward whose deliberate dismiss button covers the phone arrow. These
+ * journeys keep progression live; they do not complete that track as fixture setup.
+ * KNOWN UI ISSUE (orchestrator follow-up): a real earned reward still overlaps the phone's
+ * next arrow. At 390x844 the arrow is x337..381,y108..152 and the reward close button is
+ * x336..366,y110.969..154.969; a tap at (359,130) dismisses the reward. Dismissal then restores
+ * native arrow scrolling. keepTutorial:true isolates this test; it does not fix that collision.
+ *
  * Mutants, recorded 2026-10-02 on the built bundle (one at a time): see MUTANTS at the bottom.
  */
 
@@ -70,7 +78,7 @@ for (const [width, height] of [[1440, 900], [390, 844]]) {
 
     test("the videos row has no scrollbar, earned fades and arrows, start to end", async ({ page }) => {
       const j = journey(page)
-      await j.boot("/")
+      await j.boot("/", { keepTutorial: true })
       await j.land("Mount Top")
       await seedFilm(page, 6)
       const start = await settled(page)
@@ -121,7 +129,7 @@ for (const [width, height] of [[1440, 900], [390, 844]]) {
 
     test("a row that fits shows no arrows and no fades", async ({ page }) => {
       const j = journey(page)
-      await j.boot("/")
+      await j.boot("/", { keepTutorial: true })
       await j.land("Mount Top")
       // two VERTICAL clips (62px each) fit at 390 too, where two landscape ones (148px) do not
       await seedFilm(page, 2, true)
@@ -134,7 +142,7 @@ for (const [width, height] of [[1440, 900], [390, 844]]) {
     test("under reduced motion an arrow jumps instead of gliding", async ({ page }) => {
       await page.emulateMedia({ reducedMotion: "reduce" })
       const j = journey(page)
-      await j.boot("/")
+      await j.boot("/", { keepTutorial: true })
       await j.land("Mount Top")
       await seedFilm(page, 6)
       const before = await settled(page)

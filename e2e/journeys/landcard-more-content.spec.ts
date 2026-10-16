@@ -129,7 +129,7 @@ for (const path of [
       const source = doc.querySelector("article")!
       const normalized = (s: string) => s.replace(/Play as /g, "Read as ").replace(/\s+/g, " ").trim()
       const prose = [...source.querySelectorAll("p,li,h2,h3,h4,td,th,aside")].map(n => normalized(n.textContent || "")).filter(s => s.length > 0)
-      const shown = normalized(document.querySelector('[data-reader-article="guide"]')!.textContent || "")
+      const shown = normalized([...document.querySelectorAll('[data-reader-article="guide"]')].map(e => e.textContent).join(" "))
       const a = (window as any).__neural
       return { status: response.status, prose: prose.length, missing: prose.filter(s => !shown.includes(s)),
         current: a.currentPos ?? null, staged: !!a._staged, played: !!a._played, paused: a.paused, clock: a._decision?.remaining ?? null, deals: (a.beats || []).filter((b: any) => b.beat === "options_dealt").length,
@@ -149,7 +149,7 @@ test("@curated role reading retains hub safety and never creates duplicate IDs",
   await j.boot("/Submissions/Rear-Naked-Choke/from-Back-Control/Defender", { initialState: readingState })
   await j.advance(5000)
   await expect(page.locator(READER)).toBeVisible()
-  await expect(page.locator('[data-reader-article="hub"]')).toContainText(/Safety/)
+  expect(await page.locator('[data-reader-article="hub"]').allTextContents()).toEqual(expect.arrayContaining([expect.stringMatching(/Safety/)]))
   const ids = await page.locator("[id]").evaluateAll(nodes => nodes.map(n => n.id))
   const readerIds = ids.filter(id => id.startsWith("reader-"))
   expect(readerIds.length).toBeGreaterThan(5)
@@ -170,7 +170,7 @@ test("@curated a failed article request has a real Retry path", async ({ page })
   await j.clickByMouse("[data-reader-retry]", "retry the failed full article")
   await expect(page.locator(READER)).toBeVisible()
   expect(requests).toBe(2)
-  await expect(page.locator('[data-reader-article="guide"]')).toContainText("Training Progressions")
+  await expect(page.locator('[data-reader-body]')).toContainText("Training Progressions")
 })
 
 test("@curated Back retires an in-flight article instead of repainting the current page", async ({ page }) => {
@@ -200,7 +200,7 @@ test("@curated Back retires an in-flight article instead of repainting the curre
   await expect.poll(() => settled, { message: "the old request finished or was aborted before checking its paint" }).toBe(true)
   await page.waitForTimeout(100)
   await expect(page.locator(READER)).toHaveAttribute("data-reader-path", "/Transitions/Knee-Slice-Pass")
-  await expect(page.locator('[data-reader-article="guide"]')).toHaveAttribute("data-source-path", "/Transitions/Knee-Slice-Pass/Attacker")
+  expect(await page.locator('[data-reader-article="guide"]').evaluateAll(es => [...new Set(es.map(e => e.getAttribute("data-source-path")))])).toEqual(['/Transitions/Knee-Slice-Pass/Attacker'])
 })
 
 test("@curated a slower article never replaces a later Browse selection in the same reader", async ({ page }) => {
@@ -256,8 +256,7 @@ test("@curated a slower article never replaces a later Browse selection in the s
     await done
   })
   await expect(page.locator(READER)).toHaveAttribute("data-reader-path", "/Positions/Mount")
-  await expect(page.locator('[data-reader-article="guide"]'), "the completed old Defender request cannot repaint the later Mount selection")
-    .toHaveAttribute("data-source-path", "/Positions/Mount/Top")
+  expect(await page.locator('[data-reader-article="guide"]').evaluateAll(es => [...new Set(es.map(e => e.getAttribute("data-source-path")))])).toEqual(["/Positions/Mount/Top"])
 })
 
 test("@curated a failed reader module remains retryable without substituting another page", async ({ page }) => {
@@ -270,6 +269,6 @@ test("@curated a failed reader module remains retryable without substituting ano
   expect(await page.evaluate(() => (window as any).__neural.optionIdxs.length)).toBe(0)
   await j.clickByMouse('[data-reader-load-retry]')
   await expect(page.locator(READER)).toHaveAttribute('data-reader-path', '/Transitions/Knee-Slice-Pass')
-  await expect(page.locator('[data-reader-article="guide"]')).toContainText('Training Progressions')
+  await expect(page.locator('[data-reader-body]')).toContainText('Training Progressions')
   expect(requests).toBe(2)
 })

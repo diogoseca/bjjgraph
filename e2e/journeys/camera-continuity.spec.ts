@@ -84,7 +84,7 @@ const VIEWPORTS = [
 type Sample = {
   t: number; W: number; H: number; cx: number; cy: number; vw: number;
   fi: number; fx: number | null; fy: number | null; lo: number | null;
-  rows: number | null; film: number | null; pane: number; evBottom: number; head?: number[] | null; why?: any;
+  rows: number | null; bottom: number; film: number | null; pane: number; evBottom: number; head?: number[] | null; why?: any;
 };
 
 /** One frame: pump 1/60 s, then read what the frame drew. */
@@ -106,9 +106,20 @@ const frame = (page: Page) =>
         lo = Math.max(lo, H / 2 + (a._LY(q) - a.cam.cy) * s + q.r * nodeK * s * 1.6);
       }
     }
-    const shown = (el: any) => el && el.offsetHeight && getComputedStyle(el).display !== "none";
-    const tops = [a._landEl, a._landFilmEl, a._handShown() && a.optionsRef.current]
+    const shown = (el: any) => el && el.offsetHeight && getComputedStyle(el).display !== "none" && getComputedStyle(el).visibility !== "hidden";
+    // The centred article is an occupied surface only across its actual width.
+    // A node in the free side gutter keeps that gutter's full vertical band.
+    const article = a._reader?.articleEl;
+    let blocks = false;
+    if (n && shown(article)) {
+      const r = article.getBoundingClientRect(), k = Math.max(.4, Math.min(1, a.cam.vw / (a.graphW * .5)));
+      const half = Math.max(...[n, n.pi >= 0 ? a.nodes[n.pi] : null].filter(Boolean).map(q => a._nodeHalfW(q, s, k, a._lodK ?? 1)));
+      blocks = fx! - half < r.right && fx! + half + 11 + a._labelWidthPx(n) > r.left;
+    }
+    const rows = [a._landEl, a._landFilmEl, a._handShown() && a.optionsRef.current]
       .filter(shown).map((el: HTMLElement) => el.getBoundingClientRect().top).filter((y: number) => y > 48);
+    const tops = rows.concat([blocks && article, a._layerDockEl].filter(shown)
+      .map((el: HTMLElement) => el.getBoundingClientRect().top).filter((y: number) => y > 48));
     const film = shown(a._landFilmEl) ? a._landFilmEl.getBoundingClientRect().top : null;
     const pane = a.deckShown && !a.isMobile() && a.drillRef.current ? a.drillRef.current.getBoundingClientRect().right : 0;
     const ev = a.evRef.current, er = ev && ev.getBoundingClientRect();
@@ -122,7 +133,8 @@ const frame = (page: Page) =>
     const hp = a.pulse && a.headPos ? a.headPos() : null;
     const head = hp ? [W / 2 + (hp.x - a.cam.cx) * s, H / 2 + (hp.y - a.cam.cy) * s] : null;
     return { t: a.now, W, H, cx: a.cam.cx, cy: a.cam.cy, vw: a.cam.vw, fi: a.focusIdx, fx, fy, lo,
-      rows: tops.length ? Math.min(...tops) : null, film, pane, evBottom, head, why } as any;
+      rows: rows.length ? Math.min(...rows) : null, bottom: tops.length ? Math.min(...tops) - 12 : H - 16,
+      film, pane, evBottom, head, why } as any;
   }) as Promise<Sample>;
 
 const record = async (page: Page, frames: number) => {
@@ -183,7 +195,7 @@ const expectClearOfRows = (S: Sample[], width: number, what: string) => {
 /** The visible graph rect, measured from the DOM (not asked of the app). */
 const visibleRect = (x: Sample) => {
   const top = Math.max(16, x.evBottom ? x.evBottom + 12 : 16);
-  const bottom = x.rows != null ? x.rows - 12 : x.H - 16;
+  const bottom = x.bottom;
   return { left: x.pane, right: x.W, top, bottom };
 };
 
@@ -345,6 +357,7 @@ for (const viewport of VIEWPORTS) {
         expect(last.fx!, `central band (horizontal) ${info}`).toBeGreaterThan(R.left + w * 0.15);
         expect(last.fx!, `central band (horizontal) ${info}`).toBeLessThan(R.right - w * 0.15);
         if (last.rows != null) expect(last.lo!, `not under a layer ${info}`).toBeLessThan(last.rows - 2);
+        expect(last.lo!, `clear of the occupied article/shelf band ${info}`).toBeLessThan(R.bottom + 10);
         // not the screen centre, wherever the visible rect's centre is somewhere else
         const rectMid = (R.top + R.bottom) / 2;
         if (Math.abs(rectMid - last.H / 2) > 60)
@@ -451,7 +464,9 @@ for (const viewport of VIEWPORTS) {
       // every layer off: nothing bounds the graph, so the node is framed at the screen's middle
       await expect(page.locator('[data-reader-ready="true"]')).toBeVisible();
       await page.evaluate(() => { const a = (window as any).__neural; for (const k of ["film", "card", "hand"]) a.setLayer(k, false, "test"); });
-      await j.advance(3000);
+      await j.clickByMouse('[data-layer-hide="book"]', "put the article away too, leaving the graph unbounded");
+      await j.readerLayoutSettled();
+      await j.advance(6000); // the real Book click's four-second input lease must expire first
       const before = await frame(page);
       expect(before.rows, "no rows while every layer is off").toBeNull();
       // the player turns the card and the hand back on (the layer dock): rows the camera did not predict
@@ -469,19 +484,25 @@ for (const viewport of VIEWPORTS) {
       await j.boot("/");
       await j.land("Mount Top");          // the harness serves no clips: no film row at the landing
       await expect(page.locator('[data-reader-ready="true"]')).toBeVisible();
-      // Mixed view can absorb a late film by shrinking the article preview. Put
-      // Book away here so this fixture still forces a substantial camera move.
+      // A small A film fits beside practice without moving the camera. Put the
+      // other surfaces away so the late film alone changes an unbounded band.
+      await page.evaluate(() => { const a = (window as any).__neural; a.setLayer("card", false, "test"); a.setLayer("hand", false, "test"); });
       await j.clickByMouse('[data-layer-hide="book"]', "make the late film own the clearance change");
+      await j.readerLayoutSettled();
       await j.advance(6000); // let the mouse-input camera lease and the resulting flight settle
       const before = await frame(page);
       expect(before.film, "no film row before its content arrives").toBeNull();
       // the content arrives late: the same path a hydrated dossier chunk takes
       await seedFilm(page, "Mount|Top");
-      await page.evaluate(() => (window as any).__neural._refreshReadingContent());
+      await page.evaluate(() => {
+        const a = (window as any).__neural;
+        a._refreshReadingContent();
+      });
       const S = await record(page, 60 * 2);
-      expect(S[0].film, "the late film row mounted").not.toBeNull();
+      const visible = S.findIndex(s => s.film != null);
+      expect(visible, "the late film row mounted after its coalesced layout frame").toBeGreaterThanOrEqual(0);
       expectContinuous([before, ...S], W, "late film row");
-      expectClearedWithin(S, "late film row");
+      expectClearedWithin(S.slice(visible), "late film row");
     });
   });
 }

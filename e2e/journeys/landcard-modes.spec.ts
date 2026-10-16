@@ -341,6 +341,10 @@ test("trackpad deltaX pages once per gesture; arrows never page a hidden or stud
   expect(count(await j.beats(), "land_q_paged") - count(b3, "land_q_paged"), "no paging a hidden card").toBe(0)
 })
 
+// STALE TIMING (v1.228.0): the integrated core read the beat before a cold
+// defender pool completed. The native-key trace records _landPageTo=true, then
+// _landWarmP, then page 1 and one beat. Await that published completion, never
+// the asserted beat count; the keyboard action and exact one-page claim stay.
 // ── 4. defense shares the deck controls ────────────────────────────────────────────────────────────
 test("the generic defending card pages its own deck with the same arrows", async ({ page }) => {
   const j = journey(page)
@@ -355,6 +359,7 @@ test("the generic defending card pages its own deck with the same arrows", async
   await expect(page.locator('[data-landcard="defense"]'), "the panic card is up").toBeVisible()
   const b0 = await j.beats()
   await page.keyboard.press("ArrowRight")
+  await j.landSettled()
   expect(count(await j.beats(), "land_q_paged") - count(b0, "land_q_paged"), "arrows page the defender deck").toBe(1)
 })
 

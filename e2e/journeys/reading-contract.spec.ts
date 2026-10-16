@@ -24,6 +24,9 @@ import { journey } from "../dsl"
 // name before the clearance calculation, never disappear from its measurements.
 // These controls assert UI/state contracts, not external video playback or the
 // accuracy of authored safety advice. The renderer must preserve that advice.
+// Review S3: semantic labels made the old defensive-heading negative vacuous.
+// The current Top TOC is now checked independently of article content/path;
+// toc-current-targets corrupts only its labels/targets (not the guide).
 const READY = '[data-reader][data-reader-ready="true"]'
 const KNEE = '/Transitions/Knee-Slice-Pass'
 const RNC = '/Submissions/Rear-Naked-Choke/from-Back-Control'
@@ -123,6 +126,7 @@ test('@curated reading gestures, minimizing and article navigation never start p
   await expect(page.locator(READY)).toBeVisible()
   await j.advance(5000)
   const p = page.locator('[data-reader-article="hub"] [data-source-id="overview"] > p').first()
+  await p.scrollIntoViewIfNeeded()
   const r = await p.boundingBox()
   await page.mouse.move(r!.x + 2, r!.y + 12)
   await page.mouse.down()
@@ -139,6 +143,7 @@ test('@curated reading gestures, minimizing and article navigation never start p
   }
   await j.advance(20000)
   expect(await activity(page)).toMatchObject({ intent: true, paused: true, played: false, remaining: null, beats: [] })
+  await page.locator('[data-reading-focus]').scrollIntoViewIfNeeded()
   await j.clickByMouse('[data-reading-focus]')
   const link = page.locator('[data-reader-body] a[href*="/Positions/"]').first()
   await link.scrollIntoViewIfNeeded()
@@ -204,22 +209,23 @@ for (const width of [1366, 390]) {
     const sample = () => page.locator('[data-reader-article="guide"] [data-source-id="key-principles"]').evaluate(section => {
       const px = (e: Element, p: string) => parseFloat((getComputedStyle(e) as any)[p])
       const lum = (e: Element) => { const [r,g,b] = getComputedStyle(e).color.match(/\d+/g)!.slice(0,3).map(s => { const x = +s / 255; return x <= .03928 ? x / 12.92 : ((x + .055) / 1.055) ** 2.4 }); return .2126*r + .7152*g + .0722*b }
-      const list = section.querySelector('ul')!, head = section.querySelector('h2')!, prose = list.querySelector('li')!
-      const sub = section.closest('article')!.querySelector('[data-source-id="defensive-options"] h3')!
-      return { section: px(section, 'marginBottom'), item: px(list, 'rowGap'), unit: px(section.closest('[data-reader]')!, 'paddingLeft'),
+      const list = section.querySelector('ul')!, card = section.closest('.ng-section-card')!, head = card.querySelector('[data-section-toggle]')!, prose = list.querySelector('li')!
+      const sub = document.querySelector('[data-reader-article="guide"] [data-source-id="defensive-options"] h3')!
+      return { gap: card.nextElementSibling!.getBoundingClientRect().top - card.getBoundingClientRect().bottom,
+        item: px(list, 'rowGap'), unit: parseFloat(getComputedStyle(section.closest('[data-reader]')!).getPropertyValue('--reader-unit')),
         head: px(head, 'fontSize'), sub: px(sub, 'fontSize'), prose: px(prose, 'fontSize'), headLum: lum(head), bodyLum: lum(prose) }
     })
     const normal = await sample()
-    expect(normal.section / normal.item).toBe(4)
-    expect(normal.section / normal.unit).toBe(2)
+    expect(normal.gap).toBe(6)
+    expect(normal.item / normal.unit).toBe(.5)
     expect(normal.head).toBeGreaterThan(normal.sub)
     expect(normal.sub).toBeGreaterThan(normal.prose)
     expect(normal.headLum).toBeGreaterThan(normal.bodyLum)
     await page.locator(READY).evaluate(e => (e as HTMLElement).style.setProperty('--reader-unit', '18px'))
     const scaled = await sample()
-    expect(scaled.section / scaled.item, 'the relationship survives a different unit').toBe(4)
-    expect(scaled.section / scaled.unit).toBe(2)
-    expect(scaled.section).not.toBe(normal.section)
+    expect(scaled.gap, 'section spacing retains the approved independent 6px token').toBe(6)
+    expect(scaled.item / scaled.unit).toBe(.5)
+    expect(scaled.item).not.toBe(normal.item)
   })
 }
 
@@ -245,9 +251,21 @@ test('@curated a late response cannot repaint the opposite seat in the same read
   await expect.poll(() => settled).toBe(true)
   await page.waitForTimeout(100)
   expect(await page.evaluate(() => (window as any).__seatReader === (window as any).__neural._reader)).toBe(true)
-  await expect(page.locator('[data-reader-article="guide"]')).toHaveAttribute('data-source-path', '/Positions/Mount/Top')
-  const toc = await page.locator('[data-reader-target]').evaluateAll(nodes => nodes.map(e => e.textContent))
-  expect(toc).not.toContain('Key Defensive Principles')
+  expect(await page.locator('[data-reader-article="guide"]').evaluateAll(es => [...new Set(es.map(e => e.getAttribute("data-source-path")))])).toEqual(['/Positions/Mount/Top'])
+  const toc = await page.locator('[data-section-link]').evaluateAll(nodes => nodes.map(e => {
+    const target = document.getElementById(e.getAttribute('data-section-link')!), card = target?.closest('.ng-section-card')
+    return { label: e.textContent, type: card?.getAttribute('data-section-type'),
+      current: !!card && !!document.querySelector('[data-reader-body]')?.contains(card) && e.getAttribute('href') === '#' + card.id,
+      heading: card?.querySelector('[data-section-toggle] > span')?.textContent }
+  }))
+  const expected = [
+    ['videos', 'Videos'], ['overview', 'Overview'], ['principles', 'Essential principles'],
+    ['prerequisites', 'Prerequisites'], ['options', 'Decisions from top'], ['mistakes', 'Common mistakes'],
+    ['role-comparison', 'Role comparison'], ['bottom-summary', 'Bottom overview'], ['top-summary', 'Top overview'],
+    ['training', 'Training'], ['statistics', 'Statistics'], ['related', 'Related'],
+  ]
+  expect(toc, 'every current Top label points to its own nonempty semantic section').toEqual(
+    expected.map(([type, label]) => ({ type, label, heading: label, current: true })))
 })
 
 for (const path of [RNC, '/Submissions/Triangle-Choke/from-Triangle-Control']) {

@@ -56,7 +56,7 @@ const read = async (page: any) => {
       cardEls: document.querySelectorAll("[data-landcard]").length,
       more: !!a._readerEl,
       moreOpen: !!a._reader?.interacting,
-      film: !!a._landFilmEl,
+      film: !!a._landFilmEl && !a._landFilmEl.hidden,
       tray: (a.optionIdxs || []).length,
       trayVis: getComputedStyle(a.optionsRef.current).visibility,
       pick: !!a._optPick,
@@ -231,11 +231,11 @@ test("the layers are independent: the film's ✕ keeps the card; the hand's ✕ 
   expect(f1.more, "film is independent: More stays with the card").toBe(true)
   expect(f1.keys.film).toBe(false)
   expect(f1.dock).toEqual(["film"])
-  // a re-render WITH film authored builds no strip while the layer is off
+  // a re-render WITH film authored keeps its retained host hidden while the layer is off
   await seedFilm(page)
   await j.advance(300)
   const f2 = await read(page)
-  expect(f2.film, "a re-render with film authored builds no strip").toBe(false)
+  expect(f2.film, "a re-render with film authored keeps the strip hidden").toBe(false)
   expect(f2.card).toBe(true)
   expect(f2.more, "a card rebuild preserves its independent More sibling").toBe(true)
 

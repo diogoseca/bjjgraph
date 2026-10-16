@@ -75,30 +75,35 @@ without a boost or tap-out, and escapes remain available. A live catch fogs the 
 threat + seat + escapes (`_dangerSet`), frames them (`frameNodes`), and yields the brand to
 the vignette. The complete linked article appears below the game controls.
 
-**Reading and minimizing.** The complete published article replaces More and survives
-question replacement, grading and hiding the practice card. It uses native scrolling, 16px
-prose, perspective links and a contents row. Hubs include the full Top/Attacker guide; role pages
-include shared hub safety without the other seat’s instructions. Failed loads offer Retry.
+**Reading and minimizing.** The full published article survives grading and card replacement,
+with native scrolling, 16px prose and perspective links. The actual choices precede section
+cards with 6px gaps: untitled Videos, Overview, Essential principles, setup/recognition, options,
+safety, mistakes, other authored sections, Related. Learning/System Sources stays last; missing
+groups are omitted. Hubs include the full Top/Attacker guide; role pages add only shared hub
+safety. Failed loads offer Retry.
 
-The labeled shelf exposes Videos, Practice questions, Moves, Map, Game feedback and Book.
-Targets are at least 44px; the shelf clears corner controls and follows the article beside Browse. `landFilm`, `landCard`, `landHand`, `landMap` and
-`landFeedback` store normal visibility; `readerBook` stores article visibility. A hidden
-question is not built, while a hidden game hand remains dealt and untimed.
+Headers toggle bodies; collapsed headers remain opaque and readable. Contents floats at the
+right-control inset without a container or article layout space. It hides
+on phones (width ≤640px or height ≤500px) and when the right gutter cannot fit its 200px width
+plus 12px clearance: below 1152px with a 680px column and 24px inset. Labels scroll; eyes toggle.
+The camera treats Contents as occupied space and frames the current node clear of it.
+`readerSection.*` defaults to shown and merges per-key timestamps. Settings → Rolling → Article
+sections edits the same values; Focus never overwrites them.
 
-**Focus on reading** is one action. It persists `readingFocus` and scalar `readingFilm`,
-`readingCard`, `readingHand`, `readingMap`, `readingFeedback` overrides, leaving game preferences
-intact. Only Focus reapplies the preset; navigation, reload and cloud merge retain individual
-restores. Restoring parts or leaving Focus starts no play. Reference pages offer Study tools.
+The shelf exposes Videos, Practice questions, Moves, Map, Game feedback and Book with ≥44px
+targets. `landFilm/Card/Hand/Map/Feedback` store normal visibility; `readerBook` controls the
+article. Hidden questions are not built; hidden hands remain dealt and untimed.
+**Focus on reading** persists `readingFocus` and `readingCard/Hand/Map/Feedback` overrides,
+leaving game preferences intact. `readingFilm` remains stored; `readerSection.videos` controls
+the article media. Only Focus reapplies the preset; navigation, reload and sync retain restores.
+Restoring parts or leaving Focus starts no play. Reference pages offer Study tools.
 
-Content URLs, Browse and article links select the node and prepare its dormant game controls.
-`NG_READING_DEFAULT_ON_CONTENT_URL` is true (OWNERQ1). There is no Practice gate: choosing a move
-or answering the landing card starts play. Until then there is no question clock or miss.
-Principle, Learning, System and content-only pages have no game seat. Automatic articles during
-play never pause a move; scrolling, selecting or focusing prose declines the live question and
-pauses play without a miss. Reading keys, links and minimizing never start play. Escape closes
-an overlaid pane without discarding the article.
-
-See [Reading delivery](Architecture.md#reading-delivery) for source identity and payload ownership.
+Content URLs, Browse and links prepare dormant controls (`NG_READING_DEFAULT_ON_CONTENT_URL`).
+Choosing a move or answering starts play, with no Practice gate, prior clock or miss.
+Principle, Learning, System and content-only pages have no seat. Automatic articles never pause
+a move; scrolling, selecting or focusing prose declines the live question and pauses without a
+miss. Reading keys, links, minimizing and Escape's pane close never start play or discard the
+article. See [Reading delivery](Architecture.md#reading-delivery) for source and media ownership.
 
 **A revealed answer can be put back.** `_recallBlock` builds Show / Hide / Review again / Got it
 once and `paint()`s the pair the state calls for, so revealing is not destructive: you can cover
@@ -141,13 +146,15 @@ The sticky ✕ persists `landCard`; a background dismissal lasts one landing. Co
 Last rolls is the study route. The generic defending card uses `_landCardChrome`, reads the
 Defender article, and hydrates its own deck. Hiding the question leaves catch and escapes live.
 
-**Paging** uses horizontal swipes (40px / 700ms), accumulated trackpad `deltaX` (one page per
-gesture), and `←`/`→` below pane-History/drill shortcuts, guarded by `_landHidden()`. The visible
-pager/reveal rung retired in v1.132.0; `landAnswers` never deployed and has no reader.
-`_landPageTo` replaces only `[data-land-q]`, clamps at deck ends, and re-parents cached faces:
-same shuffle, spent time and disabled grading state. `_landWarmP` warms cold distractors without
-clearing the face. A capture-phase handler swallows synthesized clicks after movement >6px.
-These controls also work during live defense.
+**Paging browses the current deck.** Horizontal swipes (40px / 700ms), accumulated trackpad
+`deltaX` (one page per gesture), outside chevrons and `←`/`→` call `_landPageTo(dir)`. Keys yield to pane History and
+drill arrows and refuse `_landHidden()`. The retired dots/reveal pager and undeployed
+`landAnswers` setting have no reader. Paging replaces only `[data-land-q]`, clamped at the ends.
+The per-landing cache restores spent time and re-parents the same shuffle without another RNG draw; answered cards
+return graded and disabled. Cold distractors warm through `_landWarmP` (replace-not-clear).
+A capture-phase suppressor swallows synthesized clicks after movement >6px. Live defense
+uses the same paging controls. Paging resets the native game scroll; Home/End read the question, while focused
+article content retains native document keys.
 
 **Every card counts; momentum and evidence once per landing** (v1.221.0). The FIRST card resolved
 (answered or timed out) is the landing question: combo and `land_q_answered` (evidence), once. The k-th resolved adds row k of `NG_LAND_ANSWER_STEPS` to `_qMod` (none
@@ -159,13 +166,11 @@ The card **backfills**: `_landBackfill()` re-renders a live card when a late pay
 only one that has never shown a question, on the current position, with a live decision window —
 re-mounting an answered question would hand out a second attempt at credit already scored.
 
-The film strip is its own fixed sibling (`.ng-landfilm`), docked to the card's measured top and
-anchored by its bottom, so an expanding clip grows upward into empty screen; it carries its own
-ghost ✕ (`data-film-close`, the film layer's handle), hidden while a clip is expanded. Its row
-scrolls like the hand (v1.217.0): no scrollbar, the hand's earned fade (`_syncEdgeFade`) and two
-deck chevrons (`data-film-prev` / `data-film-next`, `.ng-chev`) shown only toward hidden clips,
-each press gliding about one view (`_filmPage`). Spacing is a ratio of the card's measured side
-padding: end padding 1x, fade 3x. **Technique films** come from `perspectives.{attacker,defender}.clips`; the node's fixed half
+The film has one `.ng-landfilm` host, moved between game and article slots (see Reading
+delivery). Its ghost ✕ (`data-film-close`) hides while a clip expands. The row scrolls like the
+hand: no scrollbar, earned fades (`_syncEdgeFade`), and `data-film-prev/next` chevrons toward
+hidden clips. `_filmPage` glides about one view; end padding is 1x the side-padding token and
+fade 3x. **Technique films** come from `perspectives.{attacker,defender}.clips`; the node's fixed half
 selects them on reader/link arrivals and live catches. `renderLandCard` assigns `_landIdx`
 before selection. Missing or unauthored defender clips show no reel and never borrow another
 half's content. At v1.227.0, 285/290 concrete submissions have defender clips. Gaps: Americana,
@@ -219,8 +224,8 @@ After commit, the live hand is cleared and a non-actionable copy of the chosen c
 exactly where the card was (the row's padding, i.e. the open pane, comes off its offset), escapes
 included (v1.218.1; they used to clear the hand and show nothing). Its face rises 1/12 of its
 height and settles (`_placeOnTable`, 0.44 s, none under reduced motion); its holder never moves.
-The v1.227.0 handoff retains the card's scrolled dock and preview reservation through its result.
-Resizing or entering the article releases that reservation so layout can adapt.
+The execution handoff retains the measured row position and game height through its result;
+the same dock supplies fixed-layout callers. Resizing or reading releases the reservation.
 It keeps the displayed odds and shows Executing, then the actual Landed, Failed or Countered
 result. Submission entry shows Entering and remains deterministic; it does not acquire a roll
 or a new interpretation of its printed odds. The existing sweep lasts **1.08 seconds** and
@@ -842,11 +847,11 @@ therefore its own stacking context, so anything that must sit above root-plane c
 the app root**. Esc walks the ladder top-down, pane last. New overlay → pick a band, never a loose
 number.
 
-**Fixed chrome docks off a measurement**, never a CSS constant — the tray has no fixed height and
-grows upward as names wrap. `_landDatum` is the shared hand measurement; `_dockLandCard`,
-`_dockLandFilm` place the game surfaces from it; the reader measures its shelf (the hand ✕ docks inside
-the row beside its last card; the film ✕ off the last thumbnail). `_bandBot` keeps the tightest
-observed play band.
+**Dock from measurements.** `_landDatum` measures the hand; fixed card/film writers yield to
+the reader's shared native scrollport. Its measured shelf clears corner controls; the hand ✕
+hugs the last choice and the film ✕ the last thumbnail. `_bandBot` keeps the tightest observed
+play band. The [reading layout contract](Architecture.md#reading-delivery) defines the media
+slots, outside arrows, coalesced layout and optional `readerChromeFrame` hook.
 
 **Control sizes.** 24px is the pane's control figure (WCAG 2.2 AA 2.5.8 Target Size Minimum); 44px
 is for surfaces a thumb uses mid-roll — the option hand, the escape hand, the landing card. Glyphs

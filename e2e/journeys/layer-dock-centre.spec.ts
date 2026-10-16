@@ -48,12 +48,12 @@ const geo = (page: Page): Promise<Geo> => page.evaluate(() => {
     const q = el.getBoundingClientRect()
     return { l: q.left, r: q.right, t: q.top, b: q.bottom, w: q.width, h: q.height, c: q.left + q.width / 2 }
   }
-  const box = (sel: string) => { const el = document.querySelector(sel); return el ? rect(el) : null }
+  const box = (sel: string) => { const el = document.querySelector(sel); return el && !(el as HTMLElement).hidden ? rect(el) : null }
   const pane = document.querySelector(".ng-drill") as HTMLElement
   return {
     W: innerWidth,
     pane: pane && getComputedStyle(pane).display !== "none" ? rect(pane) : null,
-    card: box("[data-landcard]"), article: box("[data-reader]"), film: box("[data-land-film]"), dock: box("[data-layer-dock]"),
+    card: box("[data-landcard]"), article: box(".ng-reader-article"), film: box("[data-land-film]"), dock: box("[data-layer-dock]"),
     replay: box("[data-replay-bar]"),
     glyphs: Array.from(document.querySelectorAll("[data-layer-show]")).map((b) => {
       const q = rect(b)
@@ -84,7 +84,9 @@ for (const width of [1440, 1024, 800]) {
     await openPane(page, j)
     await settle(page, j)
     const open = await geo(page)
-    expect(open.card!.c - shut.card!.c, "premise: the column moved right for the pane").toBeGreaterThan(40)
+    // Practice changes from beside media to above the hand at the breakpoint;
+    // the persistent article/shelf column still moves with the pane.
+    expect(open.article!.c - shut.article!.c, "premise: the column moved right for the pane").toBeGreaterThan(40)
 
     // ── the owner's path: the reading column open, then the card put away ──
     await j.clickByMouse("[data-land-close]", "the card's ✕ while More is open")
@@ -116,7 +118,7 @@ for (const width of [1440, 1024, 800]) {
     // with one ✕). The dock is the only thing still laid out, so nothing else can place it. ──
     await j.clickByMouse("[data-land-close]", "the card's ✕ with the film already away")
     const n1 = await geo(page)
-    expect(n1.card === null && n1.film === null, "premise: neither card nor film is mounted").toBe(true)
+    expect(n1.card === null && n1.film === null, "premise: neither card nor film is visible").toBe(true)
     expect(n1.glyphs.map((g) => g.layer)).toEqual(["film", "card"])
     await settle(page, j)
     const n2 = await geo(page)
@@ -198,7 +200,7 @@ test("@curated resizing with the pane open re-centres the dock with the column a
 test("@curated short landscape: with the pane open the dock stays out from under it, and takes a real click", async ({ page }) => {
   await page.setViewportSize({ width: 844, height: 390 })
   const j = await setup(page)
-  expect(await page.evaluate(() => (window as any).__neural._compactLandDeck()), "premise: the two-column composition").toBe(true)
+  expect(await page.locator('.ng-reader-game').getAttribute('data-media-layout'), "premise: short landscape uses the approved stacked flow").toBe('stacked')
   await j.clickByMouse("[data-film-close]", "the film's ✕")
   await settle(page, j)
   const shut = await geo(page)
@@ -206,8 +208,7 @@ test("@curated short landscape: with the pane open the dock stays out from under
   await openPane(page, j)
   await settle(page, j)
   const open = await geo(page)
-  // the deck column (left) sits UNDER an open pane in this composition, by design; the dock must not
-  expect(open.card!.l, "premise: the card column is under the pane").toBeLessThan(open.pane!.r)
+  expect(open.card!.l, "the stacked practice card fits beside the pane").toBeGreaterThanOrEqual(open.pane!.r)
   expect(open.dock!.l, "the dock is clear of the pane").toBeGreaterThan(open.pane!.r)
   for (const g of open.glyphs) expect(g.own, `${g.layer}: owns its centre beside the open pane`).toBe(true)
   await j.clickByMouse('[data-layer-show="film"]', "the dock's film glyph beside the open pane")

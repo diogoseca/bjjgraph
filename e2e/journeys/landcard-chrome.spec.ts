@@ -42,30 +42,8 @@ const seedFilm = (page: any) =>
     a.renderLandCard(a.nodes[a.currentPos], "land", null);
   });
 
-test("the film strip spans exactly the card it sits on, outer AND content box @curated", async ({ page }) => {
-  const j = journey(page);
-  await j.boot("/");
-  await j.land("Mount Top");
-  await seedFilm(page);
-  await page.waitForTimeout(400);
-
-  const geo = await page.evaluate(() => {
-    const f = document.querySelector("[data-land-film]") as HTMLElement;
-    const c = document.querySelector(".ng-landcard") as HTMLElement;
-    const inner = (el: HTMLElement) => {
-      const b = el.getBoundingClientRect(), cs = getComputedStyle(el);
-      return [Math.round(b.left + parseFloat(cs.paddingLeft)), Math.round(b.right - parseFloat(cs.paddingRight))];
-    };
-    const outer = (el: HTMLElement) => {
-      const b = el.getBoundingClientRect();
-      return [Math.round(b.left), Math.round(b.right)];
-    };
-    return { filmOuter: outer(f), cardOuter: outer(c), filmInner: inner(f), cardInner: inner(c) };
-  });
-  // measured before the fix at 390x844: film [16,374] vs card [10,380]
-  expect(geo.filmOuter, "same box as the card").toEqual(geo.cardOuter);
-  expect(geo.filmInner, "and the thumbnails line up with the text above them").toEqual(geo.cardInner);
-});
+// The former film/card alignment assertion is superseded by the approved A layout.
+// reading-media-placement.spec.ts pins both measured normal-home geometries.
 
 test("Book minimize and restore keep a readable, reachable control @curated", async ({ page }) => {
   const j = journey(page);
@@ -75,7 +53,7 @@ test("Book minimize and restore keep a readable, reachable control @curated", as
   const color = () => page.locator('[data-reader-part="book"]').evaluate(el => getComputedStyle(el).color);
   const before = await color();
   await j.clickByMouse('[data-layer-hide="book"]');
-  await expect(page.locator('[data-reader]')).toBeHidden();
+  await expect(page.locator('.ng-reader-article')).toBeHidden();
   expect(await color()).not.toBe("rgb(0, 0, 0)");
   await j.clickByMouse('[data-layer-show="book"]');
   await expect(page.locator('[data-reader-ready="true"]')).toBeVisible();

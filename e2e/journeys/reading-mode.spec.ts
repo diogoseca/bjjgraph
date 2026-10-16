@@ -1,6 +1,15 @@
 import { test, expect, type Page } from "@playwright/test"
 import { journey } from "../dsl"
 
+// STALE TIMING — reading-back-race.md (fixbots, 2026-10-15): the unchanged
+// Back case failed 3/20 on dc72b958c, before escape, and 0/20 on f006d73b8.
+// Quartz remounts the app after the outgoing cached reader publishes its path;
+// the old path check and the next global state read could name different apps.
+// Holding HTML, then the new graph, reproduced it on both heads; all 6 traced
+// cases converged after the replacement reader became ready.
+// Observe real nav + replacement-reader publication, then assert that SAME
+// instance's state once. Intent and pause are never readiness predicates.
+
 /** Complete article journeys for #289. Published HTML is real; the DSL controls
  * gameplay only. Historical PRE-OWNERQ1 controls, 2026-10-09: 24 final variants
  * rejected by 44 assertion failures, with emitted-byte differentials checked.
@@ -67,18 +76,14 @@ for (const viewport of [{ width: 1366, height: 768 }, { width: 390, height: 844 
     await expect(page.locator("[data-land-more]")).toHaveCount(0)
     await expect(page.locator("[data-reader-body]")).toContainText("Training Progressions")
     expect((await state(page)).intent).toBe(true)
-    const prose = await page.locator('[data-reader-body] [data-source-id="overview"] > p').first().evaluate(el => {
-      const r = el.getBoundingClientRect(), box = el.closest('[data-reader]')!.getBoundingClientRect()
-      const y = Math.max(r.top, box.top) + 12, x = r.left + 10
-      const hit = document.elementFromPoint(x, y)
-      return { text: el.textContent?.trim().length || 0, visible: getComputedStyle(el).visibility,
-        lineVisible: y + 8 < Math.min(r.bottom, box.bottom), hit: !!hit && el.contains(hit) }
-    })
-    expect(prose.text, "the immediate preview contains authored prose").toBeGreaterThan(80)
-    expect(prose, "a real prose line is visible before any disclosure click").toMatchObject({ visible: "visible", lineVisible: true, hit: true })
+    await expect(page.locator('.ng-section-card').first()).toHaveAttribute('data-section-type', 'videos')
+    await expect(page.locator('[data-section-type=overview]')).toContainText('Knee Slice')
     await j.clickByMouse("[data-reading-focus]", "one-click Focus on reading")
     await expect.poll(() => state(page)).toMatchObject({ intent: true, paused: true, clock: null, focus: true, deals: 0 })
     await expect(page.locator(READY)).toBeVisible()
+    // Focus hides game layers; it does not overwrite the user's section settings.
+    await expect(page.locator('[data-layer-hide="film"]')).toBeVisible()
+    await j.clickByMouse('[data-layer-hide="film"]')
     for (const part of ["film", "card", "hand", "map", "feedback"]) {
       await j.clickByMouse(`[data-layer-show="${part}"]`, `restore ${part}`)
       await expect(page.locator(`[data-layer-hide="${part}"]`)).toBeVisible()
@@ -88,7 +93,7 @@ for (const viewport of [{ width: 1366, height: 768 }, { width: 390, height: 844 
       if (part === "map" || part === "feedback") expect(await page.evaluate(p => { const a = (window as any).__neural; return getComputedStyle(p === "map" ? a.canvas : a.evRef.current).visibility }, part)).toBe("hidden")
     }
     await j.clickByMouse('[data-layer-hide="book"]')
-    await expect(page.locator("[data-reader]")).toBeHidden()
+    await expect(page.locator(".ng-reader-article")).toBeHidden()
     await j.clickByMouse('[data-layer-show="book"]')
     await expect(page.locator(READY)).toBeVisible()
     await j.clickByMouse('[data-layer-show="map"]')
@@ -106,10 +111,10 @@ for (const viewport of [{ width: 1366, height: 768 }, { width: 390, height: 844 
     expect(await state(page)).toMatchObject({ intent: true, paused: true, clock: null, focus: true, deals: 0 })
     await page.locator('[data-layer-hide="book"]').focus()
     await page.keyboard.press("Enter")
-    await expect(page.locator("[data-reader]")).toBeHidden()
+    await expect(page.locator(".ng-reader-article")).toBeHidden()
     await j.boot(KNEE, { preserveStorage: true })
     await expect(page.locator('[data-layer-show="book"]')).toBeVisible()
-    await expect(page.locator("[data-reader]")).toBeHidden()
+    await expect(page.locator(".ng-reader-article")).toBeHidden()
     await page.locator('[data-layer-show="book"]').focus()
     await page.keyboard.press("Enter")
     await expect(page.locator(READY)).toBeVisible()
@@ -139,7 +144,38 @@ test("@curated reading interaction waits past the question window without a miss
   expect(await state(page), "article keys never activate or resume the game").toEqual(reading)
 })
 
-test("@curated reading perspectives and Back retain canonical content without gameplay", async ({ page }) => {
+async function observeReadingBack(page: Page) {
+  await page.evaluate(() => {
+    const w = window as any
+    const observation = w.__readingBack = { outgoing: w.__neural, outgoingRoot: w.__neural._readerEl, published: false, url: null }
+    document.addEventListener('nav', (event: any) => {
+      observation.published = true
+      observation.url = event.detail.url
+    }, { once: true })
+  })
+}
+
+async function replacementReadingSnapshot(page: Page) {
+  const ready = await page.waitForFunction(path => {
+    const w = window as any, nav = w.__readingBack, app = w.__neural, root = app?._readerEl
+    return nav?.published && '/' + nav.url === path && app !== nav.outgoing && !app?.__ngDestroyed &&
+      root?.isConnected && root === app._reader?.root && root.dataset.readerReady === 'true' && root.dataset.readerPath === path
+      ? { app, root } : false
+  }, KNEE, { timeout: 5000 }) // Same bound as the original toHaveAttribute assertion.
+  // Retain the app and root returned by readiness. A later global assignment
+  // cannot silently substitute a different generation in this single snapshot.
+  const snapshot = await ready.evaluate(({ app, root }: any) => ({
+    current: app === (window as any).__neural,
+    replacement: app !== (window as any).__readingBack.outgoing,
+    connected: root.isConnected && root === app._readerEl && root === app._reader.root,
+    path: root.dataset.readerPath, ready: root.dataset.readerReady,
+    intent: !!app._readerIntent, paused: app.paused, clock: app._decision?.remaining ?? null,
+  }))
+  await ready.dispose()
+  return snapshot
+}
+
+for (const forced of [false, true]) test("@curated reading perspectives and Back retain canonical content without gameplay" + (forced ? " with HTML then graph held" : ""), async ({ page }) => {
   const j = journey(page)
   await j.boot(KNEE, { initialState: { v: 2, settings: { readingFocus: true }, settingsAt: { readingFocus: Date.now() } } })
   await j.advance(5000)
@@ -147,18 +183,51 @@ test("@curated reading perspectives and Back retain canonical content without ga
   await j.clickByMouse('[aria-label="Reading perspectives"] a[href$="/Defender"]')
   await expect(page).toHaveURL(/Knee-Slice-Pass\/Defender/)
   await expect(page.locator(READY)).toHaveAttribute("data-reader-path", KNEE + "/Defender")
-  await expect(page.locator('[data-reader-article="guide"]')).toContainText("Defender")
+  await expect(page.locator('[data-reader-body]')).toContainText("Defender")
   const missing = await page.evaluate(async path => {
     const doc = new DOMParser().parseFromString(await (await fetch(path)).text(), "text/html")
     const norm = (s: string) => s.replace(/\s+/g, " ").trim()
-    const text = norm(document.querySelector('[data-reader-article="guide"]')!.textContent || "")
+    const text = norm([...document.querySelectorAll('[data-reader-article="guide"]')].map(e => e.textContent).join(" "))
     return [...doc.querySelectorAll("article p,article li")].map(e => norm(e.textContent || "")).filter(s => s.length > 40 && !text.includes(s))
   }, KNEE + "/Defender")
   expect(missing, "navigation cannot reuse the previous page's HTML under a new path").toEqual([])
   expect(await state(page)).toMatchObject({ intent: true, paused: true, clock: null })
-  await page.goBack()
-  await expect(page.locator(READY)).toHaveAttribute("data-reader-path", KNEE)
-  expect(await state(page)).toMatchObject({ intent: true, paused: true, clock: null })
+  let releaseHTML!: () => void, releaseGraph!: () => void, htmlRequests = 0, graphRequests = 0
+  if (forced) {
+    const html = new Promise<void>(resolve => { releaseHTML = resolve })
+    const graph = new Promise<void>(resolve => { releaseGraph = resolve })
+    // Install only after the perspective/content assertions. These are Back's
+    // actual Quartz HTML request and the replacement app's actual graph fetch.
+    // Match paths, including Back's original boot query/seed URL.
+    await page.route(url => url.pathname === KNEE, async route => { htmlRequests++; await html; await route.fallback() })
+    await page.route(url => url.pathname.endsWith('/graph-data.json'), async route => { graphRequests++; await graph; await route.fallback() })
+  }
+  await observeReadingBack(page)
+  try {
+    await page.goBack()
+    if (forced) {
+      await expect.poll(() => htmlRequests).toBe(1)
+      await page.waitForFunction(path => {
+        const w = window as any, old = w.__readingBack.outgoing, root = w.__readingBack.outgoingRoot
+        return w.__neural === old && root?.isConnected && root.dataset.readerReady === 'true' && root.dataset.readerPath === path
+      }, KNEE, { timeout: 5000 })
+      releaseHTML()
+      await expect.poll(() => graphRequests).toBe(1)
+      const loading = await page.evaluate(() => {
+        const w = window as any, app = w.__neural, oldRoot = w.__readingBack.outgoingRoot
+        return { nav: w.__readingBack.published, replacement: app !== w.__readingBack.outgoing,
+          oldPublished: oldRoot.dataset.readerReady === 'true' && oldRoot.dataset.readerPath === '/Transitions/Knee-Slice-Pass',
+          connected: !!app._readerEl?.isConnected, nodes: app.nodes?.length ?? 0 }
+      })
+      expect(loading, 'the outgoing article is not evidence that the replacement has loaded').toEqual({ nav: true, replacement: true, oldPublished: true, connected: false, nodes: 0 })
+      releaseGraph()
+    }
+    const restored = await replacementReadingSnapshot(page)
+    expect(restored).toMatchObject({ current: true, replacement: true, connected: true, path: KNEE, ready: 'true' })
+    expect(restored).toMatchObject({ intent: true, paused: true, clock: null })
+  } finally {
+    releaseHTML?.(); releaseGraph?.()
+  }
 })
 
 test("@curated an automatic game article follows the bottom player's perspective", async ({ page }) => {
@@ -169,7 +238,7 @@ test("@curated an automatic game article follows the bottom player's perspective
   await page.evaluate(() => { const a = (window as any).__neural; a.rollFromPosition(a.currentPos, true, "bottom") })
   await j.advance(5000)
   await expect(page.locator(READY)).toHaveAttribute("data-reader-path", "/Positions/Mount/Bottom")
-  await expect(page.locator('[data-reader-article="guide"]')).toHaveAttribute("data-source-path", "/Positions/Mount/Bottom")
+  expect(await page.locator('[data-reader-article="guide"]').evaluateAll(es => [...new Set(es.map(e => e.getAttribute("data-source-path")))])).toEqual(['/Positions/Mount/Bottom'])
   expect((await state(page)).intent).toBe(false)
 })
 
@@ -204,7 +273,9 @@ for (const action of ["wheel", "selection"] as const) {
       await page.mouse.wheel(0, 300)
       await expect.poll(() => page.locator("[data-reader]").evaluate(e => e.scrollTop)).toBeGreaterThan(0)
     } else {
-      const r = await page.locator('[data-reader-body] [data-source-id="overview"] > p').first().boundingBox()
+      const p = page.locator('[data-reader-body] [data-source-id="overview"] > p').first()
+      await p.scrollIntoViewIfNeeded()
+      const r = await p.boundingBox()
       await page.mouse.move(r!.x + 2, r!.y + 12)
       await page.mouse.down()
       await page.mouse.move(r!.x + Math.min(r!.width - 2, 90), r!.y + 12, { steps: 10 })
@@ -250,7 +321,9 @@ test("@curated heading links focus the cloned article and a restored question st
   const j = journey(page)
   await j.boot(KNEE, { initialState: { v: 2, settings: { readingFocus: true, readingFilm: false, readingCard: false, readingHand: false, readingFeedback: false }, settingsAt: {} } })
   await expect(page.locator(READY)).toBeVisible()
-  const heading = page.locator('[data-reader-target]').first()
+  // Canonical authored fragment links remain valid after semantic regrouping.
+  await page.evaluate(() => { const a = document.createElement('a'); a.href = '/Transitions/Knee-Slice-Pass#key-principles'; a.dataset.readerAnchor = 'key-principles'; a.dataset.testSourceAnchor = ''; a.textContent = 'Principles'; document.querySelector('[data-reader-body]')!.prepend(a) })
+  const heading = page.locator('[data-test-source-anchor]')
   await heading.focus()
   await page.keyboard.press("Enter")
   expect(await page.evaluate(() => document.activeElement?.closest('[data-reader]') != null)).toBe(true)
@@ -258,7 +331,7 @@ test("@curated heading links focus the cloned article and a restored question st
   const hash = new URL(page.url()).hash
   await j.boot(KNEE + hash, { preserveStorage: true })
   await expect(page.locator(READY)).toBeVisible()
-  expect(await page.evaluate(() => (document.activeElement as HTMLElement)?.dataset.sourceId)).toBe(decodeURIComponent(hash.slice(1)))
+  expect(await page.evaluate(() => document.activeElement?.closest('[data-section-type]')?.getAttribute('data-section-type'))).toBe('principles')
   await j.clickByMouse('[data-layer-hide="book"]')
   await j.clickByMouse('[data-layer-show="card"]')
   await expect(page.locator('[data-reader-practice-offer]')).toHaveCount(0)
@@ -272,29 +345,6 @@ test("@curated heading links focus the cloned article and a restored question st
   expect((await state(page)).hand).toBeGreaterThan(0)
 })
 
-test("@curated reading videos have one explicit owner and stop when Videos or Book is hidden", async ({ page }) => {
-  const j = journey(page)
-  await page.route(/youtube(?:-nocookie)?\.com\/embed\//, route => route.fulfill({ contentType: "text/html", body: "<title>Video fixture</title>" }))
-  await j.boot(KNEE, { initialState: { v: 2, settings: { readingFocus: true, readingFilm: false }, settingsAt: {} } })
-  await expect(page.locator(READY)).toBeVisible()
-  await expect(page.locator('[data-reader] iframe')).toHaveCount(0)
-  await j.clickByMouse('[data-layer-show="film"]')
-  const play = page.locator('[data-reader-video]').first()
-  await play.scrollIntoViewIfNeeded()
-  await play.evaluate(el => el.setAttribute("data-reading-play", ""))
-  await j.clickByMouse('[data-reading-play]')
-  await expect(page.locator('[data-reader] iframe')).toHaveCount(1)
-  await expect(page.locator('[data-land-film] iframe')).toHaveCount(0)
-  await j.clickByMouse('[data-layer-hide="film"]')
-  await expect(page.locator('[data-reader] iframe')).toHaveCount(0)
-  await j.clickByMouse('[data-layer-show="film"]')
-  await expect(page.locator('[data-reader] iframe')).toHaveCount(0)
-  await page.locator('[data-reading-play]').scrollIntoViewIfNeeded()
-  await j.clickByMouse('[data-reading-play]')
-  await expect(page.locator('[data-reader] iframe')).toHaveCount(1)
-  await j.clickByMouse('[data-layer-hide="book"]')
-  await expect(page.locator('[data-reader] iframe')).toHaveCount(0)
-  await j.clickByMouse('[data-layer-show="book"]')
-  await expect(page.locator('[data-reader] iframe')).toHaveCount(0)
-  expect(await state(page)).toMatchObject({ intent: true, paused: true, clock: null })
-})
+// The former independent article iframe owner is retired by the approved one-host
+// seam. reading-media-placement.spec.ts covers identity, playback, collapse and
+// quiet fallback; article-sections.spec.ts covers the persisted Videos control.

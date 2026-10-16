@@ -397,7 +397,6 @@ test("cold start: the landing card stays centred through its entry animation", a
   const anim = await page.evaluate(() => {
     const el = document.querySelector(".ng-landcard") as HTMLElement;
     const cs = getComputedStyle(el);
-    const centring = cs.transform; // the resting transform the card is centred by
     const name = cs.animationName;
     const frames: Array<{ at: string; transform: string }> = [];
     for (const sheet of Array.from(document.styleSheets)) {
@@ -417,7 +416,20 @@ test("cold start: the landing card stays centred through its entry animation", a
           });
       }
     }
-    return { name, centring, frames, width: el.getBoundingClientRect().width };
+    // Replay the actual CSS animation and sample its rectangle, including the
+    // final resting frame. Native reader coordinates use transform:none; the
+    // older fixed home still uses translateX(-50%). Both must stay centred.
+    el.style.animation = "none"; void el.offsetWidth; el.style.animation = "";
+    const animation = el.getAnimations().find(a => (a as CSSAnimation).animationName === name)!;
+    animation.pause();
+    const duration = Number(animation.effect!.getTiming().duration), centres: number[] = [];
+    for (const fraction of [0, .25, .5, .75, .999, 1]) {
+      animation.currentTime = duration * fraction;
+      const rect = el.getBoundingClientRect(); centres.push(rect.left + rect.width / 2);
+    }
+    animation.finish();
+    const rest = el.getBoundingClientRect();
+    return { name, frames, centres, restingCentre: rest.left + rest.width / 2, native: el.hasAttribute('data-reader-game-part'), centring: getComputedStyle(el).transform };
   });
 
   expect(anim.name, "the card animates on entry").not.toBe("none");
@@ -425,10 +437,9 @@ test("cold start: the landing card stays centred through its entry animation", a
     anim.frames.length,
     `@keyframes ${anim.name} was found`,
   ).toBeGreaterThan(0);
-  expect(
-    anim.centring,
-    "the card is centred by a transform, which is why this matters",
-  ).toContain("matrix");
+  if (anim.native) expect(anim.centring).toBe('none');
+  else expect(anim.centring, "the fixed home centres by a transform").toContain("matrix");
+  for (const centre of anim.centres) expect(Math.abs(centre - anim.restingCentre), "the card never jumps sideways during entry or when it finishes").toBeLessThanOrEqual(1);
   // every frame that touches transform must still shift the card half its width left
   const dropped = anim.frames.filter(
     (f) => f.transform && !/-50%/.test(f.transform),
