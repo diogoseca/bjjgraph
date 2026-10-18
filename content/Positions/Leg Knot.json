@@ -1,6 +1,20 @@
 {
   "name": "Leg Knot",
   "slug": "leg-knot",
+  "bot_metadata": {
+    "last_improved": "2026-06-27",
+    "optimization_pass": "ai_seo_v1"
+  },
+  "disambiguations": [
+    {
+      "name": "Saddle",
+      "reason": "Leg Knot is a contested, mutual entanglement where neither player owns the inside position, whereas Saddle is a finished controlling position with the leg trapped between the attacker's thighs"
+    },
+    {
+      "name": "50-50 Guard",
+      "reason": "50-50 is symmetric, with each player's inside leg mirroring the other, while Leg Knot is an asymmetric weave whose leg configurations do not mirror"
+    }
+  ],
   "description": "Master Leg Knot position in BJJ. Advanced leg entanglement creating systematic control and multiple submission paths. Complete analysis of both bottom and top perspectives.",
   "variant_uniqueness": "Geometric leg weaving creates entanglement control",
   "summary": "Leg Knot is a transitional leg entanglement in which both grapplers' legs are interwoven so neither holds clear dominance, producing simultaneous heel hook, kneebar, and reversal threats for both players.",
