@@ -4,7 +4,7 @@
 
 ---
 title: "Hindulotine Top | BJJ Position Guide | BJJ Graph"
-description: "Offensive guillotine variation from top position using body weight and rotational pressure. Features multiple transition options to back, mount, or alternative submissions."
+description: "Hindulotine top perspective: An elbow traveling over the opponent's raised foot toward your shoulder signals Hindu Control. Avoid twisting the head against a fixed leg-and-arm enclosure."
 ---
 
 
@@ -67,42 +67,42 @@ description: "Offensive guillotine variation from top position using body weight
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What happens if you hanging on opponent with straight arms instead of using hip angle and body weight to create pressure?",
+      "name": "What happens if you skipping the checkpoint: read the arm path?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Submission becomes purely dependent on arm strength which fatigues quickly, allowing opponent to defend until you must release the position The correct approach is: Position your hips at an angle to opponent's spine and use your body weight combined with core rotation to generate pressure, reserving arm strength for grip maintenance only"
+        "text": "The intended control is not established before the next movement; the missing requirement is: An elbow traveling over the opponent's raised foot toward your shoulder signals Hindu Control. The correct approach is: An elbow traveling over the opponent's raised foot toward your shoulder signals Hindu Control."
       }
     },
     {
       "@type": "Question",
-      "name": "What happens if you establishing narrow base with feet too close together while attempting submission from top?",
+      "name": "What happens if you skipping the checkpoint: keep the neck aligned?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Opponent can roll you over or sweep you, reversing the position and potentially putting you in bottom position under their control The correct approach is: Maintain wide base with at least one leg posted far from your body for stability, making it mechanically difficult for opponent to roll or sweep"
+        "text": "The intended control is not established before the next movement; the missing requirement is: Avoid twisting the head against a fixed leg-and-arm enclosure. The correct approach is: Avoid twisting the head against a fixed leg-and-arm enclosure."
       }
     },
     {
       "@type": "Question",
-      "name": "What happens if you gripping too low on the neck near opponent's shoulders instead of high under their chin?",
+      "name": "What happens if you skipping the checkpoint: fight the hand connection early?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Choking pressure is ineffective against muscular areas, allowing opponent to withstand pressure and work defensive escapes methodically The correct approach is: Before committing to the position, ensure your grip is positioned high on the neck with the blade of your forearm directly under opponent's chin for maximum efficiency"
+        "text": "The intended control is not established before the next movement; the missing requirement is: Use an inside hand frame before the attacker connects the finishing grip. The correct approach is: Use an inside hand frame before the attacker connects the finishing grip."
       }
     },
     {
       "@type": "Question",
-      "name": "What happens if you failing to control opponent's hips, allowing them to circle and change angles relative to your body?",
+      "name": "What happens if you skipping the checkpoint: do not pass blindly?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Opponent can achieve angles that relieve neck pressure or position themselves to stand up and escape entirely The correct approach is: Use your legs to control opponent's hip movement and maintain your attacking angle, preventing circular escape movements"
+        "text": "The intended control is not established before the next movement; the missing requirement is: Clearing the lower leg alone may leave the neck caught; address the upper enclosure first. The correct approach is: Clearing the lower leg alone may leave the neck caught; address the upper enclosure first."
       }
     },
     {
       "@type": "Question",
-      "name": "What happens if you remaining static in one position rather than making micro-adjustments to pressure and angle?",
+      "name": "What happens if you skipping the checkpoint: recover posture only with space?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Opponent adapts to the static pressure and finds defensive positions that neutralize the submission threat The correct approach is: Continuously make small adjustments to hip angle, weight distribution, and grip position to prevent opponent from settling into comfortable defensive posture"
+        "text": "The intended control is not established before the next movement; the missing requirement is: Move the head and shoulders free after the hand and high-leg controls have loosened. The correct approach is: Move the head and shoulders free after the hand and high-leg controls have loosened."
       }
     }
   ]
@@ -115,7 +115,7 @@ description: "Offensive guillotine variation from top position using body weight
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Hindulotine Top",
-  "description": "Offensive guillotine variation from top position using body weight and rotational pressure. Features multiple transition options to back, mount, or alternative submissions.",
+  "description": "Hindulotine top perspective: An elbow traveling over the opponent's raised foot toward your shoulder signals Hindu Control. Avoid twisting the head against a fixed leg-and-arm enclosure.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -161,13 +161,13 @@ description: "Offensive guillotine variation from top position using body weight
 
 <section id="overview" class="content-section">
 
-The top Hindulotine position represents an offensive attacking configuration where you have secured a guillotine grip on your opponent while maintaining top position, typically from front headlock, sprawl position, or while attacking a turtled opponent. Unlike the bottom variation, the top Hindulotine allows you to use gravity and your body weight as additional pressure components while controlling your opponent's movement from above.
+The top player is responsible for recognizing and defending the control. The bottom player is on the back or hip with the raised rubber-guard knee close to the torso. The controlling arm passes over the foot and around the opponent's shoulder into the head-control space. The leg remains part of the enclosure when the hands connect for the choke. The top player faces the guard player and must address the neck enclosure even if the lower leg is passed.
 
-From the top perspective, you maintain head control with the guillotine grip while using your legs and hips to prevent your opponent from escaping or achieving better position. This creates a unique pressure dynamic where your opponent is bent forward under your control, unable to achieve the posture necessary to defend effectively. The top position also provides more options for transitioning to other dominant positions like mount, back control, or north-south when your opponent attempts to defend.
+An elbow traveling over the opponent's raised foot toward your shoulder signals Hindu Control. Avoid twisting the head against a fixed leg-and-arm enclosure. Use an inside hand frame before the attacker connects the finishing grip.
 
-The strategic advantage of top Hindulotine lies in your ability to combine submission pressure with positional control. Your opponent faces a dilemma: defending the submission often requires movements that allow you to advance position, while maintaining defensive posture leaves them vulnerable to the choke. This creates multiple pathways to success, whether through direct submission or position advancement.
+Clearing the lower leg alone may leave the neck caught; address the upper enclosure first. Move the head and shoulders free after the hand and high-leg controls have loosened. Do not wait for dizziness or severe pain before stopping a choke attempt.
 
-Success from top Hindulotine requires understanding weight distribution and hip positioning. Rather than simply holding the guillotine grip and hanging on your opponent, you must actively create the angles and pressure that make the submission inevitable. Your legs play a crucial role in preventing your opponent from rolling, standing up, or achieving angles that would relieve neck pressure. Advanced practitioners use subtle weight shifts and hip adjustments to maintain optimal pressure while conserving energy and responding to defensive movements.
+Hindu Control is the holding configuration; Hindulotine names the choke applied from it. The raised leg contributes to head control, so an ordinary front-headlock guillotine does not by itself establish this position. A choke can impair consciousness quickly. Drill the entry without neck pressure, never add a neck twist, and release both hands and the high leg on any tap or loss of normal responsiveness.
 
 </section>
 
@@ -179,11 +179,10 @@ Success from top Hindulotine requires understanding weight distribution and hip 
 
 <p class="section-subtitle">What is Hindulotine (Top)?</p>
 
-- Your guillotine grip is secured around opponent's neck with your arm wrapped under their chin and hands locked, creating direct choking pressure while you maintain top position with their head controlled below your center of gravity, allowing gravity to assist your submission pressure
-- Your hips and legs are positioned to control opponent's ability to stand, roll, or achieve angles that would relieve neck pressure, typically with at least one leg base wide for stability while the other may be used for control or to create angling pressure
-- Opponent's head is trapped with their posture broken forward, unable to achieve vertical alignment or extract their head from the grip, with their body bent and your weight distributed to maximize choking pressure while preventing escape movements
-- Your body position creates a mechanical advantage where your core strength, hip angle, and body weight combine to generate submission pressure rather than relying solely on arm strength to finish the choke
-- You maintain top control with the ability to transition to other dominant positions if opponent defends the submission, keeping offensive initiative while preventing opponent from achieving neutral or advantageous positions
+- The bottom player is on the back or hip with the raised rubber-guard knee close to the torso.
+- The controlling arm passes over the foot and around the opponent's shoulder into the head-control space.
+- The leg remains part of the enclosure when the hands connect for the choke.
+- The top player faces the guard player and must address the neck enclosure even if the lower leg is passed.
 
 
 </section>
@@ -194,11 +193,9 @@ Success from top Hindulotine requires understanding weight distribution and hip 
 
 <p class="section-subtitle">What do you need before playing Hindulotine (Top)?</p>
 
-- Successful control of opponent's head from front headlock, sprawl defense, or while attacking turtle position
-- Ability to establish guillotine grip before opponent can achieve defensive posture, stand up, or extract their head
-- Proper base and balance to maintain top position while applying submission pressure without being swept or rolled
-- Opponent's posture must be broken forward with head lower than shoulders to facilitate grip establishment and submission mechanics
-- Sufficient upper body strength and grip endurance to maintain choking pressure while controlling opponent's movement from top
+- An elbow traveling over the opponent's raised foot toward your shoulder signals Hindu Control.
+- Avoid twisting the head against a fixed leg-and-arm enclosure.
+- Use an inside hand frame before the attacker connects the finishing grip.
 
 
 </section>
@@ -209,13 +206,12 @@ Success from top Hindulotine requires understanding weight distribution and hip 
 
 <p class="section-subtitle">What are the key principles for attacking from Hindulotine?</p>
 
-- Use body weight and gravity as force multipliers for submission pressure rather than relying solely on arm strength
-- Maintain wide base with legs to prevent being rolled or swept while applying submission pressure
-- Control opponent's hips and shoulders to prevent them from achieving angles that relieve neck pressure
-- Create rotational torque through hip positioning rather than straight downward pulling on the neck
-- Transition smoothly to mount, back, or north-south when opponent's defensive movements create opportunities
-- Keep opponent's posture broken forward continuously to maintain submission threat and positional control
-- Adjust grip height and pressure angle based on opponent's defensive reactions without loosening control
+- Read the arm path: An elbow traveling over the opponent's raised foot toward your shoulder signals Hindu Control.
+- Keep the neck aligned: Avoid twisting the head against a fixed leg-and-arm enclosure.
+- Fight the hand connection early: Use an inside hand frame before the attacker connects the finishing grip.
+- Do not pass blindly: Clearing the lower leg alone may leave the neck caught; address the upper enclosure first.
+- Recover posture only with space: Move the head and shoulders free after the hand and high-leg controls have loosened.
+- Tap before symptoms: Do not wait for dizziness or severe pain before stopping a choke attempt.
 
 
 </section>
@@ -226,26 +222,16 @@ Success from top Hindulotine requires understanding weight distribution and hip 
 
 <p class="section-subtitle">What should you do from Hindulotine (Top)?</p>
 
-**If opponent attempts to stand up or achieve vertical posture to escape:**
-- Execute **[[Follow to Standing Guillotine/Attacker|Follow to Standing Guillotine]]** → [[Positions/Standing Position]] (Probability: 50%)
-- Execute **[[Transitions/Snap Down to Front Headlock/Attacker|Snap Down to Front Headlock]]** → [[Positions/Front Headlock]] (Probability: 60%)
-- Execute **[[Guillotine Finish/Attacker|Guillotine Finish]]** → [[game-over]] (Probability: 55%)
+**Only after the neck enclosure is released and the remaining high leg is ordinary Mission Control:**
+- Execute **[[Transitions/Posture Recovery from Mission Control/Attacker|Posture Recovery from Mission Control]]** → [[Positions/Closed Guard]] (Probability: 45%)
 
 
-**If opponent turns away to relieve pressure and exposes their back:**
-- Execute **[[Transitions/Back Take from Top/Attacker|Back Take from Top]]** → [[Positions/Back Control]] (Probability: 75%)
-- Execute **[[Transition to Anaconda/Attacker|Transition to Anaconda]]** → [[Positions/Anaconda Control]] (Probability: 60%)
+**Only after the choke is released and the residual two-leg clinch is Crackhead Control:**
+- Execute **[[Transitions/Posture Recovery to Closed Guard/Attacker|Posture Recovery to Closed Guard]]** → [[Positions/Closed Guard]] (Probability: 55%)
 
 
-**If opponent flattens out completely in defensive turtle position:**
-- Execute **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** → [[Positions/Mount]] (Probability: 65%)
-- Execute **[[Transitions/Front Headlock to Back/Attacker|Front Headlock to Back]]** → [[Positions/Back Control]] (Probability: 70%)
-- Execute **[[Submissions/Arm Triangle/from Hindulotine/Attacker|Arm Triangle from Hindulotine]]** → [[game-over]] (Probability: 50%)
-
-
-**If opponent creates defensive frames with arms while defending neck:**
-- Execute **[[Transitions/Hindulotine to Darce Choke/Attacker|Hindulotine to Darce Choke]]** → [[Positions/Darce Control]] (Probability: 65%)
-- Execute **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** → [[Positions/North-South]] (Probability: 55%)
+**Only after the choke is gone and a separately established Chill Dog configuration has loosened:**
+- Execute **[[Transitions/Posture from Chill Dog/Attacker|Posture from Chill Dog]]** → [[Positions/Closed Guard]] (Probability: 55%)
 
 
 
@@ -258,30 +244,30 @@ Success from top Hindulotine requires understanding weight distribution and hip 
 
 <p class="section-subtitle">What mistakes should you avoid when attacking from Hindulotine?</p>
 
-### 1. Hanging on opponent with straight arms instead of using hip angle and body weight to create pressure
+### 1. Skipping the checkpoint: read the arm path
 
-- ❌ **Consequence**: Submission becomes purely dependent on arm strength which fatigues quickly, allowing opponent to defend until you must release the position
-- ✅ **Correction**: Position your hips at an angle to opponent's spine and use your body weight combined with core rotation to generate pressure, reserving arm strength for grip maintenance only
+- ❌ **Consequence**: The intended control is not established before the next movement; the missing requirement is: An elbow traveling over the opponent's raised foot toward your shoulder signals Hindu Control.
+- ✅ **Correction**: An elbow traveling over the opponent's raised foot toward your shoulder signals Hindu Control.
 
-### 2. Establishing narrow base with feet too close together while attempting submission from top
+### 2. Skipping the checkpoint: keep the neck aligned
 
-- ❌ **Consequence**: Opponent can roll you over or sweep you, reversing the position and potentially putting you in bottom position under their control
-- ✅ **Correction**: Maintain wide base with at least one leg posted far from your body for stability, making it mechanically difficult for opponent to roll or sweep
+- ❌ **Consequence**: The intended control is not established before the next movement; the missing requirement is: Avoid twisting the head against a fixed leg-and-arm enclosure.
+- ✅ **Correction**: Avoid twisting the head against a fixed leg-and-arm enclosure.
 
-### 3. Gripping too low on the neck near opponent's shoulders instead of high under their chin
+### 3. Skipping the checkpoint: fight the hand connection early
 
-- ❌ **Consequence**: Choking pressure is ineffective against muscular areas, allowing opponent to withstand pressure and work defensive escapes methodically
-- ✅ **Correction**: Before committing to the position, ensure your grip is positioned high on the neck with the blade of your forearm directly under opponent's chin for maximum efficiency
+- ❌ **Consequence**: The intended control is not established before the next movement; the missing requirement is: Use an inside hand frame before the attacker connects the finishing grip.
+- ✅ **Correction**: Use an inside hand frame before the attacker connects the finishing grip.
 
-### 4. Failing to control opponent's hips, allowing them to circle and change angles relative to your body
+### 4. Skipping the checkpoint: do not pass blindly
 
-- ❌ **Consequence**: Opponent can achieve angles that relieve neck pressure or position themselves to stand up and escape entirely
-- ✅ **Correction**: Use your legs to control opponent's hip movement and maintain your attacking angle, preventing circular escape movements
+- ❌ **Consequence**: The intended control is not established before the next movement; the missing requirement is: Clearing the lower leg alone may leave the neck caught; address the upper enclosure first.
+- ✅ **Correction**: Clearing the lower leg alone may leave the neck caught; address the upper enclosure first.
 
-### 5. Remaining static in one position rather than making micro-adjustments to pressure and angle
+### 5. Skipping the checkpoint: recover posture only with space
 
-- ❌ **Consequence**: Opponent adapts to the static pressure and finds defensive positions that neutralize the submission threat
-- ✅ **Correction**: Continuously make small adjustments to hip angle, weight distribution, and grip position to prevent opponent from settling into comfortable defensive posture
+- ❌ **Consequence**: The intended control is not established before the next movement; the missing requirement is: Move the head and shoulders free after the hand and high-leg controls have loosened.
+- ✅ **Correction**: Move the head and shoulders free after the hand and high-leg controls have loosened.
 
 
 
@@ -293,32 +279,25 @@ Success from top Hindulotine requires understanding weight distribution and hip 
 
 <p class="section-subtitle">How do you train Hindulotine attacks?</p>
 
-### Sprawl to Hindulotine Entry
+### Identify the configuration
 
-Partner shoots for single or double leg takedown. Practice sprawling and immediately establishing guillotine grip before transitioning to top Hindulotine position. Focus on grip establishment timing and smooth transition from sprawl to control position. Drill both sides for 5 minutes per side.
+Work cooperatively on read the arm path. An elbow traveling over the opponent's raised foot toward your shoulder signals Hindu Control. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.
 
-**Duration**: 10 minutes
-
-
-### Top Position Pressure and Center of Gravity
-
-Start in established top Hindulotine with partner giving 50% resistance. Experiment with different weight distributions, hip angles, and leg positions to understand which configurations create maximum pressure while maintaining stability. Partner provides feedback on pressure and balance.
-
-**Duration**: 10 minutes
+**Duration**: Short cooperative repetitions; stop at each checkpoint
 
 
-### Transition Flow from Top Hindulotine
+### Rehearse the connection
 
-Partner gives specific defensive reactions: standing up, rolling away, flattening to turtle, creating frames. Practice flowing smoothly to appropriate transitions: following to standing, back take, mount, darce, or anaconda. Emphasize reading reactions and smooth positional flow rather than explosive movements.
+Work cooperatively on keep the neck aligned. Avoid twisting the head against a fixed leg-and-arm enclosure. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.
 
-**Duration**: 15 minutes
+**Duration**: Short cooperative repetitions; stop at each checkpoint
 
 
-### Turtle Attack to Hindulotine
+### Add an early response
 
-Partner starts in turtle position. Practice establishing front headlock control and transitioning to Hindulotine position. Partner progressively increases resistance from 30% to 70%. Focus on maintaining control throughout transition and establishing strong finishing position. 3-minute rounds.
+Work cooperatively on fight the hand connection early. Use an inside hand frame before the attacker connects the finishing grip. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.
 
-**Duration**: 15 minutes
+**Duration**: Short cooperative repetitions; stop at each checkpoint
 
 
 
@@ -337,7 +316,7 @@ Partner starts in turtle position. Practice establishing front headlock control 
 | Advancement Probability | 70% |
 | Submission Probability | 65% |
 
-**Average Time in Position**: 15-40 seconds
+**Average Time in Position**: Variable; reset at the first loss of safe control rather than targeting a fixed hold time
 
 
 </section>
@@ -346,14 +325,10 @@ Partner starts in turtle position. Practice establishing front headlock control 
 
 ## Related Positions and Techniques
 
-- **[[Positions/Front Headlock]]** - Primary entry position and control base
-- **[[Positions/Guillotine Control]]** - Parent position with standard mechanics
-- **[[Positions/Darce Control]]** - Common transition when opponent defends
-- **[[Positions/Anaconda Control]]** - Alternative finish from same control position
-- **[[Positions/Back Control]]** - High-percentage transition when opponent turns away
-- **[[Positions/Mount]]** - Transition option when opponent flattens
-- **[[Positions/North-South]]** - Positional transition option
-- **[[Positions/Turtle]]** - Common entry position for top attacks
+- **[[Positions/Rubber Guard]]** - Related configuration to study separately: compare the configuration and required controls for Rubber Guard.
+- **[[Positions/Rubber Guard/Mission Control]]** - Related configuration to study separately: compare the configuration and required controls for Mission Control.
+- **[[Positions/Rubber Guard/Meathook]]** - Related configuration to study separately: compare the configuration and required controls for Meathook.
+- **[[Positions/Closed Guard]]** - Related configuration to study separately: compare the configuration and required controls for Closed Guard.
 
 
 </section>

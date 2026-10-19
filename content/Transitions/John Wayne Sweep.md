@@ -4,7 +4,7 @@
 
 ---
 title: "John Wayne Sweep | BJJ Technique | BJJ Graph"
-description: "Master the John Wayne Sweep from Butterfly Hook Control. High-reward reversal to Mount using two-on-one sleeve control, a pistol grip break, and hook elevation."
+description: "The John Wayne Sweep is a half-guard knee-lever reversal that anchors the opponent's lower leg and tips the hips while the bottom player controls the upper-body posts."
 ---
 
 
@@ -16,7 +16,7 @@ description: "Master the John Wayne Sweep from Butterfly Hook Control. High-rewa
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "John Wayne Sweep",
-  "description": "Master the John Wayne Sweep from Butterfly Hook Control. High-reward reversal to Mount using two-on-one sleeve control, a pistol grip break, and hook elevation.",
+  "description": "The John Wayne Sweep is a half-guard knee-lever reversal that anchors the opponent\u0027s lower leg and tips the hips while the bottom player controls the upper-body posts.",
   "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
 }
 </script>
@@ -76,7 +76,7 @@ description: "Master the John Wayne Sweep from Butterfly Hook Control. High-rewa
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "John Wayne Sweep",
-  "description": "The John Wayne Sweep is a butterfly-hook-control reversal that uses two-on-one sleeve control and a signature pistol-grip break to strip the opponent's posting hand, then elevates on the hooks to dump them directly into Mount.",
+  "description": "The John Wayne Sweep is a half-guard knee-lever reversal that anchors the opponent's lower leg and tips the hips while the bottom player controls the upper-body posts.",
   "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
 }
 </script>
@@ -94,13 +94,15 @@ description: "Master the John Wayne Sweep from Butterfly Hook Control. High-rewa
 
 <section id="overview" class="content-section">
 
-**The John Wayne Sweep is a butterfly-hook-control reversal that uses two-on-one sleeve control and a signature pistol-grip break to strip the opponent's posting hand, then elevates on the hooks to dump them directly into Mount.**
+**The John Wayne Sweep is a half-guard knee-lever reversal that anchors the opponent's lower leg and tips the hips while the bottom player controls the upper-body posts.**
 
-The John Wayne Sweep is a high-reward reversal from butterfly hook control that uses two-on-one sleeve control and a signature pistol-grip break to strip the opponent's base before elevating them over the butterfly hooks directly into mount. Named for the characteristic pistol-shooting motion of the grip break, it blends classic butterfly elevation mechanics with isolating grip-fighting on a single arm, exploiting the moment an opponent posts a hand or drives forward to defend the hooks.
+The bottom player has half guard around one leg, with a usable underhook/whizzer relationship and a lower-leg anchor. Shawn Williams demonstrates a shallow foot anchor and knee lever, finishing on top in half guard. A butterfly-hook position and direct mount are not the demonstrated start and finish.
 
-The sweep operates on a three-phase mechanical sequence: first, a two-on-one grip on the lead sleeve eliminates one posting arm and pulls it across the opponent's centerline to create a rotational axis; second, the pistol grip break removes the remaining posted hand; third, coordinated hook elevation and angular rotation complete the reversal. Because the finish lands directly in mount rather than a scramble, it is one of the highest-reward attacks available from a seated butterfly position.
+Contain one opposing leg while keeping your own knee free to act as a lever. Use an underhook and control the whizzer or posting arm without leaving the elbow exposed to a front-headlock attack. Place a shallow foot connection over the ankle or shin rather than locking the knee into a deep hook.
 
-This sweep is especially effective in the gi, where sleeve grips provide leverage, though no-gi variations exist using wrist and tricep control. It integrates naturally into a broader butterfly guard attack system, chaining with arm drags, basic butterfly sweeps, X-guard entries, and kimura attacks depending on the opponent's defensive reaction. Competition practitioners value it for its direct path to a four-point mount position.
+Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
+
+Instructional sources: [Shawn Williams — John Wayne sweep from half guard](https://www.youtube.com/watch?v=dKlm6xRmpIA).
 
 **From Position**: [[Positions/Butterfly Guard/Butterfly Hook Control]] (Bottom)
 **Success Rate**: 58%
@@ -155,8 +157,8 @@ This sweep is especially effective in the gi, where sleeve grips provide leverag
 | &nbsp; | Attacker | Defender |
 |--------|----------|----------|
 | **Focus** | Execute technique | Prevent or counter |
-| **Key Principles** | Establish two-on-one sleeve control and active butterfly hoo... | Deny the two-on-one grip by keeping your elbows tight and gr... |
-| **Options** | 7 execution steps | 4 defensive options |
+| **Key Principles** | Set half-guard connection: Contain one opposing leg while ke... | Recognize the knee lever: A shallow lower-leg anchor with th... |
+| **Options** | 6 execution steps | 4 defensive options |
 
 </section>
 
@@ -169,53 +171,49 @@ This sweep is especially effective in the gi, where sleeve grips provide leverag
 ### Key Principles
 
 
-- Establish two-on-one sleeve control and active butterfly hooks before initiating sweep momentum
+- Set half-guard connection: Contain one opposing leg while keeping your own knee free to act as a lever.
 
-- Create angular positioning to break the opponent's base structure from butterfly hook control
+- Manage the upper body: Use an underhook and control the whizzer or posting arm without leaving the elbow exposed to a front-headlock attack.
 
-- Use the butterfly hooks and hip elevation to lift the opponent while controlling the upper body
+- Anchor the lower leg: Place a shallow foot connection over the ankle or shin rather than locking the knee into a deep hook.
 
-- Time the sweep with the opponent's forward pressure or posting attempt
+- Load the hip with the knee: Bring the knee into the hip line as the other foot supplies a controlled post.
 
-- Maintain tight connection throughout the rotation to prevent scrambles
+- Turn the base together: Rotate the hips and upper body so the leg anchor and controlled post cooperate.
 
-- Follow through completely to secure mount rather than settling for a top scramble
-
-- Break the opponent's posted hand using the signature 'pistol' motion when needed
+- Come up and stabilize: Establish top half guard before attempting to free the remaining leg or advance to mount.
 
 
 ### Execution Steps
 
 
-- **Establish two-on-one sleeve control**: From butterfly hook control, sit up onto your hip and secure a two-on-one grip on the opponent's lea...
+- **Set half-guard connection**: Contain one opposing leg while keeping your own knee free to act as a lever....
 
-- **Engage active butterfly hooks**: Ensure both insteps are hooked inside the opponent's thighs with constant upward elevation tension. ...
+- **Manage the upper body**: Use an underhook and control the whizzer or posting arm without leaving the elbow exposed to a front...
 
-- **Create angular momentum**: While maintaining sleeve control, angle your body approximately 45 degrees toward the controlled-sle...
+- **Anchor the lower leg**: Place a shallow foot connection over the ankle or shin rather than locking the knee into a deep hook...
 
-- **Execute pistol grip break**: If the opponent posts their free hand on the mat, perform the signature 'John Wayne' motion by formi...
+- **Load the hip with the knee**: Bring the knee into the hip line as the other foot supplies a controlled post....
 
-- **Elevate on the hooks and rotate**: Explosively extend your butterfly hooks to elevate the opponent's hips while pulling strongly on the...
+- **Turn the base together**: Rotate the hips and upper body so the leg anchor and controlled post cooperate....
 
-- **Complete the sweep to mount**: As the opponent rotates over you, keep pulling the controlled arm and use your legs to guide them pa...
-
-- **Secure mount position**: Once on top, quickly establish mount control by distributing your weight properly, getting your knee...
+- **Come up and stabilize**: Establish top half guard before attempting to free the remaining leg or advance to mount....
 
 
 ### Common Mistakes
 
 
-- **Attempting the sweep without establishing proper sleeve control first**
-  - Consequence: Opponent easily posts their free arm and prevents the sweep, potentially passing your guard during the failed attempt
-  - Correction: Always secure a dominant two-on-one grip before initiating any angular movement or elevation. The sleeve control is the foundation that makes the entire technique work
+- **Skipping the checkpoint: set half-guard connection**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Contain one opposing leg while keeping your own knee free to act as a lever.
+  - Correction: Contain one opposing leg while keeping your own knee free to act as a lever.
 
-- **Creating the angle too early before the opponent commits forward pressure**
-  - Consequence: Opponent recognizes the setup and simply withdraws their hips, nullifying the sweep and creating distance
-  - Correction: Wait for the opponent to apply forward pressure or post before creating your angle. Time the sweep with their commitment to moving forward
+- **Skipping the checkpoint: manage the upper body**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Use an underhook and control the whizzer or posting arm without leaving the elbow exposed to a front-headlock attack.
+  - Correction: Use an underhook and control the whizzer or posting arm without leaving the elbow exposed to a front-headlock attack.
 
-- **Failing to break the posted hand and attempting the sweep anyway**
-  - Consequence: Opponent maintains their base through the posted arm, resulting in an incomplete sweep or getting stuck in a scramble
-  - Correction: Execute the pistol grip break decisively when the opponent posts. If unable to break it, immediately attack with a kimura or transition to a different technique
+- **Skipping the checkpoint: anchor the lower leg**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Place a shallow foot connection over the ankle or shin rather than locking the knee into a deep hook.
+  - Correction: Place a shallow foot connection over the ankle or shin rather than locking the knee into a deep hook.
 
 
 </section>
@@ -229,43 +227,37 @@ This sweep is especially effective in the gi, where sleeve grips provide leverag
 ### Key Principles
 
 
-- Deny the two-on-one grip by keeping your elbows tight and grip-fighting actively from the top
+- Recognize the knee lever: A shallow lower-leg anchor with the opposing knee entering your hip signals the sweep.
 
-- Keep your weight back and off the butterfly hooks to deny their elevation leverage
+- Preserve an available post: Keep a hand or foot able to support the tipping direction before the upper body is captured.
 
-- Maintain at least one strong posting point at all times to resist the rotational sweep
+- Manage the underhook: Avoid letting the bottom player connect their upper body directly under your base.
 
-- Keep your elbows tight to your torso to prevent arm isolation across your centerline
+- Free the ankle early: Address the shallow foot anchor while the knee and hip can still move safely.
 
-- Recognize the pistol grip break motion and immediately redistribute weight to maintain base
+- Follow the fall safely: Do not post a locked arm or twist a trapped knee to resist a completed reversal.
 
-- Use the attacker's commitment against them by timing counter-passes during full sweep attempts
-
-- When the hooks elevate, drive your hips forward and down to flatten their angle
+- Recover half guard: Use inside frames and the remaining leg connection after the opponent comes on top.
 
 
 ### Recognition Cues
 
 
-- Opponent secures a two-on-one grip on your lead sleeve, pulling your arm across their body toward their opposite hip
+- The bottom player has half guard around one leg, with a usable underhook/whizzer relationship and a lower-leg anchor.
 
-- Opponent's body angles approximately 45 degrees to the sleeve-control side while keeping active butterfly hooks inside your thighs
+- Use an underhook and control the whizzer or posting arm without leaving the elbow exposed to a front-headlock attack.
 
-- Opponent's free hand forms a pistol shape and moves toward your posted hand on the mat, signaling the signature grip break
-
-- You feel simultaneous upward hook elevation and lateral pulling on your controlled arm creating a rotational force vector
-
-- Opponent's head drops below your chest level and moves to the outside of your controlled arm as they come up strongly onto their hip
+- Bring the knee into the hip line as the other foot supplies a controlled post.
 
 
 ### Defensive Options
 
 
-- **Strip the two-on-one grip by circling your controlled elbow back toward your hip and pulling your wrist free with a strong circular motion** - When: Immediately when you feel the opponent establishing two-on-one control on your sleeve, before they can create an angle. This is the highest-percentage defense because it stops the sweep at its foundation.
+- **A shallow lower-leg anchor with the opposing knee entering your hip signals the sweep.** - When: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
 
-- **Drop your weight back and off the hooks while widening your base and posting to kill the elevation** - When: When you feel the opponent creating angular positioning and loading your weight onto the hooks. Best used before the pistol grip break occurs.
+- **Keep a hand or foot able to support the tipping direction before the upper body is captured.** - When: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
 
-- **Drive your hips forward and down into the opponent to flatten their angle and pin the hooks, then counter-pass** - When: When the opponent has established the angle but committed fully to the rotation. Use their momentary guard opening to pass.
+- **Avoid letting the bottom player connect their upper body directly under your base.** - When: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
 
 
 </section>
@@ -276,16 +268,10 @@ This sweep is especially effective in the gi, where sleeve grips provide leverag
 ## Variations
 
 
-**No-Gi John Wayne Sweep**: Executed with wrist and tricep control instead of sleeve grips. Requires a stronger connection and faster execution due to reduced friction. Often combined with a Russian tie control on the lead arm. (When to use: In no-gi grappling or MMA contexts where gi grips are unavailable. Particularly effective when the opponent reaches for underhooks aggressively.)
+**Cooperative checkpoint drill**: Contain one opposing leg while keeping your own knee free to act as a lever. Use an underhook and control the whizzer or posting arm without leaving the elbow exposed to a front-headlock attack. (When to use: Learning the control without submission pressure)
 
 
-**John Wayne to Back Take**: If the opponent posts strongly and prevents mount, maintain the sleeve control and use the momentum to take the back instead. Insert your bottom hook as they rotate and establish seat belt control. (When to use: When the opponent successfully posts during the sweep but you have already committed to the rotation. Allows you to salvage an offensive position rather than returning to guard.)
-
-
-**Double Sleeve John Wayne**: Control both sleeves instead of using the pistol break, pulling both arms across the centerline simultaneously. Creates even more off-balancing but requires exceptional grip strength. (When to use: Against smaller opponents or those with weaker grips. Also effective when the opponent keeps both hands high and available for control.)
-
-
-**John Wayne from Half Guard**: Execute the same two-on-one and pistol-break sequence from half guard, using the trapped-leg half-guard hook for elevation instead of double butterfly hooks. The upper-body mechanics transfer directly while the lower-body engine changes to the half-guard hook. (When to use: When you are in half guard rather than seated butterfly. The grip fighting and pistol break are identical; only the leg used for elevation changes.)
+**Response and reset drill**: A shallow lower-leg anchor with the opposing knee entering your hip signals the sweep. Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route. (When to use: Adding one early response after both partners recognize the configuration)
 
 
 
@@ -297,7 +283,7 @@ This sweep is especially effective in the gi, where sleeve grips provide leverag
 
 ## Position Integration
 
-The John Wayne Sweep is a high-reward attack within the butterfly hook control system and an extension of classic butterfly elevation mechanics. It integrates with the fundamental butterfly philosophy of using active hooks to off-balance the opponent while isolating an arm to remove a posting base. The technique serves as a bridge between basic butterfly sweeps and more dynamic attacks like arm-drag back takes and X-guard entries, since the grip controls and hook elevation are transferable. As part of a complete butterfly attack system, the John Wayne Sweep provides a direct threat to mount, one of the most dominant positions in BJJ, making it particularly valuable in competition settings where point-scoring is crucial.
+The bottom player has half guard around one leg, with a usable underhook/whizzer relationship and a lower-leg anchor. Shawn Williams demonstrates a shallow foot anchor and knee lever, finishing on top in half guard. A butterfly-hook position and direct mount are not the demonstrated start and finish. A destination is established by its actual body configuration, not by completing an isolated grip or by the name of the route.
 
 </section>
 
@@ -307,25 +293,11 @@ The John Wayne Sweep is a high-reward attack within the butterfly hook control s
 ## Related Techniques
 
 
-- [[Positions/Butterfly Guard/Butterfly Hook Control]] - Starting position - the seated butterfly position from which this sweep is launched
+- [[Positions/Half Guard]] - Related configuration; establish its own prerequisites: compare the configuration and required controls for Half Guard.
 
-- [[Positions/Mount]] - Ending position - primary destination when the sweep succeeds
+- [[Positions/Dogfight Position]] - Related configuration; establish its own prerequisites: compare the configuration and required controls for Dogfight Position.
 
-- [[Positions/Half Guard]] - Regression position - where the exchange lands if the sweep is defended or countered
-
-- [[Positions/Butterfly Guard]] - Parent guard - the John Wayne Sweep is part of the broader butterfly attack system
-
-- [[Transitions/Basic Butterfly Sweep]] - Companion sweep - the fundamental butterfly elevation that pairs with the two-on-one grip game
-
-- [[Transitions/Arm Drag to Back]] - Chain technique - back take option when opponent defends by withdrawing their hips
-
-- [[Transitions/Kimura Sweep]] - Chain technique - kimura grip attack on the posted arm when the pistol break fails
-
-- [[Positions/Half Guard/Deep Half Guard]] - Backup position - safety transition when opponent drives forward to smash the hooks
-
-- [[Transitions/Back Take from Bottom]] - Chain technique - back take when opponent over-defends the sweep
-
-- [[Positions/X-Guard]] - Transition option - when opponent stands or withdraws their hips to escape the hooks
+- [[Positions/Butterfly Guard/Butterfly Hook Control]] - Related configuration; establish its own prerequisites: compare the configuration and required controls for Butterfly Hook Control.
 
 
 </section>

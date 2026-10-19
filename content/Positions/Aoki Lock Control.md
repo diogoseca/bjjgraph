@@ -4,7 +4,7 @@
 
 ---
 title: "Aoki Lock Control | BJJ Position Guide | BJJ Graph"
-description: "Master Aoki Lock position in BJJ. Advanced shoulder lock control combining leg entanglement with omoplata-style pressure. Complete guide covering both offensive and defensive perspectives."
+description: "Aoki Lock Control captures a turned-out foot against the attacker's upper body while the legs manage the opponent's hip, preparing a rotational foot lock that can also stress the knee."
 ---
 
 
@@ -16,7 +16,7 @@ description: "Master Aoki Lock position in BJJ. Advanced shoulder lock control c
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Aoki Lock Control",
-  "description": "Master Aoki Lock position in BJJ. Advanced shoulder lock control combining leg entanglement with omoplata-style pressure. Complete guide covering both offensive and defensive perspectives.",
+  "description": "Aoki Lock Control captures a turned-out foot against the attacker\u0027s upper body while the legs manage the opponent\u0027s hip, preparing a rotational foot lock that can also stress the knee.",
   "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
 }
 </script>
@@ -43,7 +43,7 @@ description: "Master Aoki Lock position in BJJ. Advanced shoulder lock control c
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Aoki Lock Control",
-  "description": "Aoki Lock Control is an advanced no-gi shoulder-lock control in which the top player entangles their legs around the opponent's isolated arm and shoulder, applying omoplata-style rotational pressure while threatening the finish, back takes, and crucifix transitions.",
+  "description": "Aoki Lock Control captures a turned-out foot against the attacker's upper body while the legs manage the opponent's hip, preparing a rotational foot lock that can also stress the knee.",
   "inDefinedTermSet": "https://bjjgraph.org/Positions/"
 }
 </script>
@@ -61,13 +61,17 @@ description: "Master Aoki Lock position in BJJ. Advanced shoulder lock control c
 
 <section id="overview" class="content-section">
 
-**Aoki Lock Control is an advanced no-gi shoulder-lock control in which the top player entangles their legs around the opponent's isolated arm and shoulder, applying omoplata-style rotational pressure while threatening the finish, back takes, and crucifix transitions.**
+**Aoki Lock Control captures a turned-out foot against the attacker's upper body while the legs manage the opponent's hip, preparing a rotational foot lock that can also stress the knee.**
 
-The Aoki Lock position represents an advanced submission control state named after Japanese MMA fighter Shinya Aoki, characterized by leg entanglement control combined with shoulder lock pressure. This hybrid position integrates elements of omoplata mechanics with leg-based trapping, creating a powerful control system that limits opponent mobility while applying progressive shoulder joint pressure. The position exists in two distinct perspectives: bottom (defensive escape focus) and top (offensive finishing focus), each requiring specialized technical knowledge and safety awareness.
+The foot-lock player is seated or on the side facing the opponent's lower body. The opposing foot is turned outward and enclosed near the armpit, upper arm, and forearm. The attacker has a connection to the hip or leg that limits the opponent's free movement. The captured player must free the foot and leg control before attempting an uncontrolled turn.
 
-From the structural perspective, Aoki Lock control involves isolating the opponent's shoulder girdle through leg positioning while maintaining base and applying rotational pressure to the shoulder joint. The top player uses leg entanglement to trap the arm and shoulder complex, preventing rotation and extraction while maintaining stable base through posted leg and hip positioning. The bottom player faces dual threats of shoulder and wrist manipulation, requiring immediate defensive action and escape execution.
+The captured limb is the foot and lower leg. This is distinct from an omoplata-style shoulder trap and from a bent-knee calf slicer. Either player can become the foot-lock attacker during an entanglement exchange. Terminology: Aoki foot-lock control.
 
-This position appears most commonly in no-gi competition, submission-only formats, and MMA contexts where advanced shoulder locks are legal. It requires deep understanding of shoulder anatomy, joint manipulation mechanics, and progressive pressure application protocols. The position carries moderate to high risk for both practitioners - aggressive defense can create scrambles while improper application can cause serious shoulder injuries. Success depends on technical precision, positional awareness, and commitment to safety protocols throughout execution.
+Recognize the foot orientation without twisting it into position against resistance. Hold the instep and heel region securely beside the upper body rather than relying on calf compression. Use the entanglement or foot-on-hip frame to manage distance before considering a finish.
+
+Rotational foot locks can injure the ankle or knee before pain provides useful warning. Use cooperative capture-and-release practice, no spinning escapes, and the event's actual division rules.
+
+Instructional sources: [Stephan Kesting and Rob Biernacki — the Aoki lock](https://www.grapplearts.com/the-step-by-step-aoki-lock/); [IBJJF — current rule resources](https://ibjjf.com/books-videos).
 
 </section>
 
@@ -78,19 +82,17 @@ This position appears most commonly in no-gi competition, submission-only format
 ## Key Principles
 
 
-- Leg entanglement provides primary control mechanism for isolating shoulder complex
+- Identify the turned foot: Recognize the foot orientation without twisting it into position against resistance.
 
-- Progressive pressure application prevents injury while maintaining submission threat
+- Enclose the foot: Hold the instep and heel region securely beside the upper body rather than relying on calf compression.
 
-- Base maintenance through posted leg creates stable platform for shoulder pressure
+- Control the hip connection: Use the entanglement or foot-on-hip frame to manage distance before considering a finish.
 
-- Hip positioning determines pressure vector and submission effectiveness
+- Keep pressure neutral: Stop the drill at a secure capture; the control can become a damaging rotation with very little movement.
 
-- Safety protocols must be strictly observed due to shoulder joint fragility
+- Respect counterattacks: Keep track of your own exposed feet while concentrating on the captured foot.
 
-- Position serves as hub for multiple transition opportunities to back control, truck, and crucifix
-
-- Both perspectives require immediate action - bottom must escape, top must finish or transition
+- Release before rotation: Open the arm enclosure and remove leg pressure immediately on a tap, sudden movement, or pain.
 
 
 </section>
@@ -107,9 +109,9 @@ This position appears most commonly in no-gi competition, submission-only format
 | **Position Type** | Defensive | Offensive/Controlling |
 | **Risk Level** | High | Medium |
 | **Energy Cost** | Medium | Medium |
-| **Time** | Short | Short to Medium |
+| **Time** | Short to Medium | Short to Medium |
 
-**Key Difference:** Leg entanglement isolates shoulder joint
+**Key Difference:** Rotated-foot capture with hip control
 
 
 
@@ -125,19 +127,17 @@ This position appears most commonly in no-gi competition, submission-only format
 ### Key Principles
 
 
-- Keep shoulder internally rotated to resist external rotation pressure from opponent's hip drive
+- Identify the turned foot: Recognize the foot orientation without twisting it into position against resistance.
 
-- Prevent full arm extension by keeping elbow bent when possible without compromising shoulder safety
+- Enclose the foot: Hold the instep and heel region securely beside the upper body rather than relying on calf compression.
 
-- Use free hand to attack opponent's posted leg base or hip control to create escape angles
+- Control the hip connection: Use the entanglement or foot-on-hip frame to manage distance before considering a finish.
 
-- Roll toward trapped arm direction following path of least resistance rather than fighting against pressure
+- Keep pressure neutral: Stop the drill at a secure capture; the control can become a damaging rotation with very little movement.
 
-- Create hip movement to reduce pressure angle and generate escape momentum
+- Respect counterattacks: Keep track of your own exposed feet while concentrating on the captured foot.
 
-- Recognize tap threshold early - shoulder locks cause serious injury if defended too aggressively
-
-- Prioritize position escape over submission defense if pressure becomes dangerous
+- Release before rotation: Open the arm enclosure and remove leg pressure immediately on a tap, sudden movement, or pain.
 
 
 ### Available Transitions
@@ -159,25 +159,25 @@ This position appears most commonly in no-gi competition, submission-only format
 ### Common Mistakes
 
 
-- ❌ **Rolling away from trapped arm direction against the pressure**
-  - Consequence: Increases shoulder torque dramatically, often leading to submission or serious shoulder injury
-  - ✅ Correction: Roll toward your trapped arm, following the path of least resistance and using opponent's control momentum
+- ❌ **Skipping the checkpoint: identify the turned foot**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Recognize the foot orientation without twisting it into position against resistance.
+  - ✅ Correction: Recognize the foot orientation without twisting it into position against resistance.
 
-- ❌ **Attempting to muscle arm free without addressing leg entanglement**
-  - Consequence: Exhausts energy while increasing shoulder stress, makes escape impossible while risking injury
-  - ✅ Correction: Address leg control first by creating hip angles or attacking opponent's base before attempting arm extraction
+- ❌ **Skipping the checkpoint: enclose the foot**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Hold the instep and heel region securely beside the upper body rather than relying on calf compression.
+  - ✅ Correction: Hold the instep and heel region securely beside the upper body rather than relying on calf compression.
 
-- ❌ **Remaining static and defensive without active escape attempts**
-  - Consequence: Allows opponent time to perfect pressure angle and finish submission safely
-  - ✅ Correction: Move immediately upon recognizing position - create continuous movement toward escape rather than static defense
+- ❌ **Skipping the checkpoint: control the hip connection**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Use the entanglement or foot-on-hip frame to manage distance before considering a finish.
+  - ✅ Correction: Use the entanglement or foot-on-hip frame to manage distance before considering a finish.
 
-- ❌ **Defending beyond safe shoulder range to avoid tapping**
-  - Consequence: Serious shoulder injury including rotator cuff tears, labrum damage, or shoulder dislocation
-  - ✅ Correction: Tap early when shoulder pressure reaches discomfort threshold - position is not worth injury risk
+- ❌ **Skipping the checkpoint: keep pressure neutral**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Stop the drill at a secure capture; the control can become a damaging rotation with very little movement.
+  - ✅ Correction: Stop the drill at a secure capture; the control can become a damaging rotation with very little movement.
 
-- ❌ **Neglecting to use free hand for base attacks or hip control**
-  - Consequence: Wastes primary offensive tool for creating escape opportunities and destabilizing opponent's control
-  - ✅ Correction: Immediately engage free hand in attacking opponent's posted leg or controlling their hip to create angles
+- ❌ **Skipping the checkpoint: respect counterattacks**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Keep track of your own exposed feet while concentrating on the captured foot.
+  - ✅ Correction: Keep track of your own exposed feet while concentrating on the captured foot.
 
 
 </section>
@@ -192,19 +192,17 @@ This position appears most commonly in no-gi competition, submission-only format
 ### Key Principles
 
 
-- Maintain constant hip pressure directed into opponent's shoulder to prevent rotation and create submission threat
+- Distinguish the foot lock: A turned-out foot enclosed beside the armpit is a rotational threat, not simply a straight ankle-lock grip.
 
-- Control opponent's trapped arm angle with legs keeping elbow pointed away from their body
+- Hand fight before capture: Prevent the foot enclosure and recover leg position while the opponent still lacks a secure connection.
 
-- Post free leg strongly to create stable base and prevent opponent from rolling through position
+- Keep foot and knee aligned: Do not spin the torso while the foot remains fixed.
 
-- Apply pressure gradually and progressively over 3-5 seconds minimum monitoring opponent's tap signals carefully
+- Free the foot first: Address the upper-body grip before withdrawing the leg through a tight entanglement.
 
-- Control opponent's hips with hands to prevent them from turning into pressure or creating escape angles
+- Avoid pain testing: Tap early to a secure rotational lock rather than treating the absence of pain as safety.
 
-- Keep weight distributed through hips into opponent's shoulder rather than relying on arm strength
-
-- Maintain leg entanglement tightness to prevent arm extraction and position escape
+- Reset after release: Separate the feet and restore a stable guard or standing base before resuming movement.
 
 
 ### Available Transitions
@@ -226,33 +224,25 @@ This position appears most commonly in no-gi competition, submission-only format
 ### Common Mistakes
 
 
-- ❌ **Posting too far from opponent with free leg reducing hip pressure on shoulder**
-  - Consequence: Opponent gains space to rotate shoulder and escape the lock or extract their trapped arm
-  - ✅ Correction: Keep posted leg close to opponent's body maintaining constant downward hip pressure into shoulder joint
+- ❌ **Skipping the checkpoint: distinguish the foot lock**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: A turned-out foot enclosed beside the armpit is a rotational threat, not simply a straight ankle-lock grip.
+  - ✅ Correction: A turned-out foot enclosed beside the armpit is a rotational threat, not simply a straight ankle-lock grip.
 
-- ❌ **Allowing opponent's elbow to bend and come back toward their body**
-  - Consequence: Shoulder lock loses effectiveness as joint alignment changes allowing opponent to defend or escape
-  - ✅ Correction: Use leg positioning to keep opponent's arm extended with elbow pointing away from their torso
+- ❌ **Skipping the checkpoint: hand fight before capture**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Prevent the foot enclosure and recover leg position while the opponent still lacks a secure connection.
+  - ✅ Correction: Prevent the foot enclosure and recover leg position while the opponent still lacks a secure connection.
 
-- ❌ **Failing to control opponent's hips with hands**
-  - Consequence: Opponent can turn into pressure or create angles for escape negating the shoulder lock
-  - ✅ Correction: Maintain active hand control on opponent's far hip or pants to prevent rotation and movement
+- ❌ **Skipping the checkpoint: keep foot and knee aligned**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Do not spin the torso while the foot remains fixed.
+  - ✅ Correction: Do not spin the torso while the foot remains fixed.
 
-- ❌ **Applying shoulder pressure too quickly or explosively without progressive build**
-  - Consequence: Risk of serious shoulder injury to opponent, potential disqualification, and unsafe training environment
-  - ✅ Correction: Apply pressure gradually over 3-5 seconds minimum staying alert for tap signals prioritizing safety
+- ❌ **Skipping the checkpoint: free the foot first**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Address the upper-body grip before withdrawing the leg through a tight entanglement.
+  - ✅ Correction: Address the upper-body grip before withdrawing the leg through a tight entanglement.
 
-- ❌ **Losing leg entanglement tension around opponent's arm**
-  - Consequence: Opponent can extract their arm and escape to guard or turtle position
-  - ✅ Correction: Maintain constant squeeze with legs around opponent's shoulder and upper arm complex
-
-- ❌ **Looking away from opponent or losing positional awareness**
-  - Consequence: Miss defensive movements, fail to see tap signals, or get swept to inferior position
-  - ✅ Correction: Keep head position aware with eyes on opponent's body language and hand signals throughout
-
-- ❌ **Forcing finish when transitions are available**
-  - Consequence: Waste energy on low-percentage finish while missing high-percentage transition opportunities
-  - ✅ Correction: Recognize when opponent's defense is strong and transition to back control, truck, or crucifix
+- ❌ **Skipping the checkpoint: avoid pain testing**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Tap early to a secure rotational lock rather than treating the absence of pain as safety.
+  - ✅ Correction: Tap early to a secure rotational lock rather than treating the absence of pain as safety.
 
 
 </section>
@@ -263,15 +253,13 @@ This position appears most commonly in no-gi competition, submission-only format
 ## Related Positions
 
 
-- **[[Positions/Omoplata Control]]** - Similar shoulder lock mechanics with different control method
+- **[[Positions/Ashi Garami]]** - Related position, not an automatic outcome: compare the configuration and required controls for Ashi Garami.
 
-- **[[Positions/Kimura Trap]]** - Related shoulder manipulation with different grip configuration
+- **[[Positions/X-Guard/Single Leg X-Guard]]** - Related position, not an automatic outcome: compare the configuration and required controls for Single Leg X-Guard.
 
-- **[[Positions/Twister Control/Truck]]** - Common transition target from top Aoki Lock position
+- **[[Positions/Straight Ankle Lock Control]]** - Related position, not an automatic outcome: compare the configuration and required controls for Straight Ankle Lock Control.
 
-- **[[Positions/Back Control]]** - Primary advancement target when opponent defends shoulder lock
-
-- **[[Positions/Turtle]]** - Common entry position for Aoki Lock attacks
+- **[[Positions/Ashi Garami/Outside Ashi-Garami]]** - Related position, not an automatic outcome: compare the configuration and required controls for Outside Ashi-Garami.
 
 
 </section>

@@ -296,6 +296,54 @@ def _qa_full(qa: dict) -> dict:
     return c
 
 
+# D-321: only these 30 role decks have had their authored choices reviewed for
+# real grading (241 cards). The remaining submission corpus still uses the
+# legacy answer pool until its separate task-55 audit. Match the complete stable
+# node/seat key, never a family prefix; the exporter contract test pins this set
+# and its reviewed card counts so widening it requires an explicit review.
+REVIEWED_SUBMISSION_MC_DECKS = frozenset({
+    'anaconda-choke-from-dead-orchard/attacker',
+    'anaconda-choke-from-dead-orchard/defender',
+    'aoki-lock-from-aoki-lock-control/attacker',
+    'aoki-lock-from-aoki-lock-control/defender',
+    'aoki-lock-from-ashi-garami/attacker',
+    'aoki-lock-from-ashi-garami/defender',
+    'arm-triangle-from-hindulotine/attacker',
+    'arm-triangle-from-hindulotine/defender',
+    'bow-and-arrow-choke-from-invisible-collar/attacker',
+    'bow-and-arrow-choke-from-invisible-collar/defender',
+    'calf-slicer-from-carni/attacker',
+    'calf-slicer-from-carni/defender',
+    'clock-choke-from-invisible-collar/attacker',
+    'clock-choke-from-invisible-collar/defender',
+    'cross-collar-choke-from-invisible-collar/attacker',
+    'cross-collar-choke-from-invisible-collar/defender',
+    'guillotine-choke-from-hindulotine/attacker',
+    'guillotine-choke-from-hindulotine/defender',
+    'heel-hook-from-carni/attacker',
+    'heel-hook-from-carni/defender',
+    'high-elbow-guillotine-from-hindulotine/attacker',
+    'high-elbow-guillotine-from-hindulotine/defender',
+    'hindulotine-from-hindulotine/attacker',
+    'hindulotine-from-hindulotine/defender',
+    'kneebar-from-carni/attacker',
+    'kneebar-from-carni/defender',
+    'rear-naked-choke-from-invisible-collar/attacker',
+    'rear-naked-choke-from-invisible-collar/defender',
+    'suloev-stretch-from-half-guard/attacker',
+    'suloev-stretch-from-half-guard/defender',
+})
+
+
+def _submission_qa(qa: dict, deck_key: str) -> dict:
+    if deck_key in REVIEWED_SUBMISSION_MC_DECKS:
+        card = _qa_full(qa)
+    else:
+        card = {'question': qa.get('question', ''), 'answer': qa.get('answer', '')}
+    card['safetyCritical'] = qa.get('safety_critical', False)
+    return card
+
+
 def dedupe_flashcards(cards: list[dict]) -> list[dict]:
     """Return flashcards with duplicate questions removed, preserving order."""
     seen: set[str] = set()
@@ -1135,21 +1183,13 @@ def process_submissions(content_dir: Path) -> tuple[dict, set, dict]:
         # Support both flat and attacker/defender structures
         attacker = sub_data.get('attacker', {})
         attacker_flashcards = [
-            {
-                'question': qa.get('question', ''),
-                'answer': qa.get('answer', ''),
-                'safetyCritical': qa.get('safety_critical', False),
-            }
+            _submission_qa(qa, f'{slug}/attacker')
             for qa in attacker.get('flashcards', sub_data.get('flashcards', []))
         ]
 
         defender = sub_data.get('defender', {})
         defender_flashcards = [
-            {
-                'question': qa.get('question', ''),
-                'answer': qa.get('answer', ''),
-                'safetyCritical': qa.get('safety_critical', False),
-            }
+            _submission_qa(qa, f'{slug}/defender')
             for qa in defender.get('flashcards', [])
         ]
 

@@ -4,7 +4,7 @@
 
 ---
 title: "Leg Weave Top | BJJ Position Guide | BJJ Graph"
-description: "Master leg weave passing from top position. Advanced guard passing control with leg threading mechanics, pressure distribution, and chained passing sequences."
+description: "Leg Weave top perspective: Thread the arm through the available leg gap and connect to the lower thigh or knee. Use aligned shoulder and chest pressure to bring the knees together without twisting the knee joint."
 ---
 
 
@@ -67,42 +67,42 @@ description: "Master leg weave passing from top position. Advanced guard passing
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What happens if you threading leg too shallow between opponent's legs without deep penetration?",
+      "name": "What happens if you skipping the checkpoint: weave the arm?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Bottom player can easily recover knee shield or butterfly hooks, negating the leg weave control The correct approach is: Drive the lead leg deep between opponent's legs until your knee is past their hip line, ensuring maximum disruption of their defensive structure"
+        "text": "The intended control is not established before the next movement; the missing requirement is: Thread the arm through the available leg gap and connect to the lower thigh or knee. The correct approach is: Thread the arm through the available leg gap and connect to the lower thigh or knee."
       }
     },
     {
       "@type": "Question",
-      "name": "What happens if you allowing hips to rise too high or losing forward pressure during the weave?",
+      "name": "What happens if you skipping the checkpoint: manage the knee shield?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Bottom player creates space to recover guard or sit up, losing passing momentum The correct approach is: Keep hips low and constantly driving forward with chest pressure directed at opponent's upper body throughout the passing sequence"
+        "text": "The intended control is not established before the next movement; the missing requirement is: Use aligned shoulder and chest pressure to bring the knees together without twisting the knee joint. The correct approach is: Use aligned shoulder and chest pressure to bring the knees together without twisting the knee joint."
       }
     },
     {
       "@type": "Question",
-      "name": "What happens if you neglecting upper body control while focusing solely on leg positioning?",
+      "name": "What happens if you skipping the checkpoint: keep the elbow protected?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Bottom player sits up, frames effectively, or creates angles that allow guard recovery The correct approach is: Maintain at least one strong upper body grip (collar, sleeve, or underhook) while threading the leg, using upper body control to prevent opponent from sitting up"
+        "text": "The intended control is not established before the next movement; the missing requirement is: Avoid leaving the weaving arm extended where the bottom player can sit up into a kimura. The correct approach is: Avoid leaving the weaving arm extended where the bottom player can sit up into a kimura."
       }
     },
     {
       "@type": "Question",
-      "name": "What happens if you committing too much weight to the weaved leg, losing balance and base?",
+      "name": "What happens if you skipping the checkpoint: maintain an outside base?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Bottom player can execute sweeps or recover guard by attacking the top player's compromised balance The correct approach is: Distribute weight between weaved leg, supporting leg, and hands to maintain a stable base while applying pressure"
+        "text": "The intended control is not established before the next movement; the missing requirement is: Move the hips and feet without collapsing all weight over the woven arm. The correct approach is: Move the hips and feet without collapsing all weight over the woven arm."
       }
     },
     {
       "@type": "Question",
-      "name": "What happens if you staying static in the leg weave position without chaining passing sequences?",
+      "name": "What happens if you skipping the checkpoint: clear the legs before settling?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Bottom player adjusts to the position and finds defensive solutions or escape routes The correct approach is: Continuously threaten multiple passing directions (knee slice, leg drag, smash pass) to create dilemmas and prevent the bottom player from settling into defensive postures"
+        "text": "The intended control is not established before the next movement; the missing requirement is: Remove the remaining foot or half-guard hook before establishing side control. The correct approach is: Remove the remaining foot or half-guard hook before establishing side control."
       }
     }
   ]
@@ -115,7 +115,7 @@ description: "Master leg weave passing from top position. Advanced guard passing
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Leg Weave Top",
-  "description": "Master leg weave passing from top position. Advanced guard passing control with leg threading mechanics, pressure distribution, and chained passing sequences.",
+  "description": "Leg Weave top perspective: Thread the arm through the available leg gap and connect to the lower thigh or knee. Use aligned shoulder and chest pressure to bring the knees together without twisting the knee joint.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -182,7 +182,13 @@ description: "Master leg weave passing from top position. Advanced guard passing
 
 <section id="overview" class="content-section">
 
-The Leg Weave Top Position is an advanced guard passing control where the top player threads one leg between the bottom player's legs while maintaining upper body control. This position creates a powerful passing platform by neutralizing the bottom player's leg-based guards and frames, particularly effective against opponents who rely heavily on knee shield, butterfly hooks, or other leg-based defensive structures. The leg weave represents a transitional control point in modern BJJ guard passing systems, bridging the gap between initial guard engagement and final passing positions like side control or mount. The position is characterized by the top player's leg creating a weave pattern through the opponent's guard, disrupting their defensive structure while maintaining forward pressure and control. Mastery of the leg weave position requires precise weight distribution, understanding of angles, and the ability to chain multiple passing sequences together. Elite practitioners use this position to create passing dilemmas where the bottom player must choose between defending different passing threats, often leading to successful guard passes with high percentage rates at advanced levels. The position has become increasingly prevalent in modern no-gi grappling where traditional gi grips are unavailable, forcing practitioners to rely more heavily on positional mechanics and weight distribution.
+The top player is responsible for maintaining the control. The bottom player has a knee shield or comparable leg frame between the bodies. The top player's arm travels between the legs and controls the lower thigh or knee. Shoulder pressure and the arm connection bring the knees closer together. The passer retains a base while working to clear the remaining foot or half-guard hook.
+
+Thread the arm through the available leg gap and connect to the lower thigh or knee. Use aligned shoulder and chest pressure to bring the knees together without twisting the knee joint. Avoid leaving the weaving arm extended where the bottom player can sit up into a kimura.
+
+Move the hips and feet without collapsing all weight over the woven arm. Remove the remaining foot or half-guard hook before establishing side control. If the bottom player turns or inserts a frame, keep control of distance and reset the pass rather than forcing a fixed angle.
+
+The weaving limb is the passer's arm. The passer still moves the feet and hips to clear the guard, but threading a shin through the legs is not the defining weave in this instruction. Apply gradual body pressure and move the hip with the leg. Avoid forcing a planted knee sideways or leaving the weaving arm extended under a sudden kimura counter.
 
 </section>
 
@@ -212,11 +218,10 @@ The Leg Weave Top Position is an advanced guard passing control where the top pl
 
 <p class="section-subtitle">What is Leg Weave (Top)?</p>
 
-- Top player's lead leg is threaded between bottom player's legs, creating a weaving pattern that disrupts defensive leg positioning and prevents the bottom player from establishing effective guard retention frames
-- Upper body control maintained through grips on the opponent's collar, sleeves, or underhooks, with the top player's chest pressure directed toward the bottom player's upper body to prevent them from sitting up or creating distance
-- Bottom player on their back or side with limited ability to establish butterfly hooks, knee shield, or other leg-based defensive structures due to the top player's leg positioning disrupting their base and frame
-- Top player's hips positioned forward and low, creating constant forward pressure that drives through the bottom player's center line while maintaining balance and preventing the bottom player from recovering guard or sweeping
-- Weight distribution favoring the lead leg side, with the top player's base controlled through their non-weaving leg and hands, creating a stable platform that allows for dynamic passing movements while maintaining pressure
+- The bottom player has a knee shield or comparable leg frame between the bodies.
+- The top player's arm travels between the legs and controls the lower thigh or knee.
+- Shoulder pressure and the arm connection bring the knees closer together.
+- The passer retains a base while working to clear the remaining foot or half-guard hook.
 
 
 </section>
@@ -227,11 +232,9 @@ The Leg Weave Top Position is an advanced guard passing control where the top pl
 
 <p class="section-subtitle">What do you need before playing Leg Weave (Top)?</p>
 
-- Initial guard engagement from standing or combat base position
-- Successful opening of closed guard or engagement with open guard variations
-- Control of at least one upper body grip (collar, sleeve, or underhook)
-- Bottom player unable to establish effective knee shield or butterfly hook retention
-- Top player's posture and base stable enough to thread leg without being swept
+- Thread the arm through the available leg gap and connect to the lower thigh or knee.
+- Use aligned shoulder and chest pressure to bring the knees together without twisting the knee joint.
+- Avoid leaving the weaving arm extended where the bottom player can sit up into a kimura.
 
 
 </section>
@@ -242,13 +245,12 @@ The Leg Weave Top Position is an advanced guard passing control where the top pl
 
 <p class="section-subtitle">What are the key principles for attacking from Leg Weave?</p>
 
-- Thread the lead leg deep between opponent's legs while maintaining upper body connection and forward pressure
-- Keep hips low and driving forward to prevent bottom player from creating space or recovering guard
-- Control opponent's upper body with grips or underhooks to prevent them from sitting up or framing effectively
-- Use the weaved leg to pin opponent's bottom leg while freeing the top leg for passing
-- Maintain constant pressure and angle changes to prevent bottom player from establishing defensive frames
-- Chain multiple passing threats together to create dilemmas for the bottom player
-- Keep weight distributed between the weaved leg and supporting leg to maintain balance and prevent sweeps
+- Weave the arm: Thread the arm through the available leg gap and connect to the lower thigh or knee.
+- Manage the knee shield: Use aligned shoulder and chest pressure to bring the knees together without twisting the knee joint.
+- Keep the elbow protected: Avoid leaving the weaving arm extended where the bottom player can sit up into a kimura.
+- Maintain an outside base: Move the hips and feet without collapsing all weight over the woven arm.
+- Clear the legs before settling: Remove the remaining foot or half-guard hook before establishing side control.
+- Follow the hips: If the bottom player turns or inserts a frame, keep control of distance and reset the pass rather than forcing a fixed angle.
 
 
 </section>
@@ -259,24 +261,16 @@ The Leg Weave Top Position is an advanced guard passing control where the top pl
 
 <p class="section-subtitle">What should you do from Leg Weave (Top)?</p>
 
-**If opponent attempts to create frames with arms or recover knee shield position:**
-- Execute **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 65%)
-- Execute **[[Transitions/Leg Weave Pass/Attacker|Leg Weave Pass]]** → [[Positions/Side Control]] (Probability: 60%)
+**When the weaving arm controls the knees and the remaining foot can be cleared safely:**
+- Execute **[[Transitions/Complete Leg Weave Pass/Attacker|Complete Leg Weave Pass]]** → [[Positions/Side Control]] (Probability: 55%)
 
 
-**If opponent turns away or attempts to come up to turtle position:**
-- Execute **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** → [[Positions/Back Control]] (Probability: 55%)
-- Execute **[[Transitions/Back Step/Attacker|Back Step]]** → [[Positions/Back Control]] (Probability: 50%)
+**When the knee shield is folded but a final half-guard hook still needs to be removed:**
+- Execute **[[Transitions/Leg Weave Pass Completion/Attacker|Leg Weave Pass Completion]]** → [[Positions/Side Control]] (Probability: 50%)
 
 
-**If opponent flattens out completely and attempts to use leg positioning to prevent pass:**
-- Execute **[[Transitions/Smash Pass/Attacker|Smash Pass]]** → [[Positions/Side Control]] (Probability: 60%)
-- Execute **[[Transitions/Over-Under Pass/Attacker|Over-Under Pass]]** → [[Positions/Side Control]] (Probability: 55%)
-
-
-**If opponent attempts deep half guard entry or underhook sweep:**
-- Execute **[[Transitions/Back Step/Attacker|Back Step]]** → [[Positions/Back Control]] (Probability: 45%)
-- Execute **[[Transitions/Sprawl Defense/Attacker|Sprawl Defense]]** → [[Positions/Headquarters Position]] (Probability: 50%)
+**After resetting to top half guard, when a new leg gap permits the arm-weave entry:**
+- Execute **[[Transitions/Half Guard to Leg Weave/Attacker|Half Guard to Leg Weave]]** → [[Positions/Leg Weave]] (Probability: 55%)
 
 
 
@@ -289,30 +283,30 @@ The Leg Weave Top Position is an advanced guard passing control where the top pl
 
 <p class="section-subtitle">What mistakes should you avoid when attacking from Leg Weave?</p>
 
-### 1. Threading leg too shallow between opponent's legs without deep penetration
+### 1. Skipping the checkpoint: weave the arm
 
-- ❌ **Consequence**: Bottom player can easily recover knee shield or butterfly hooks, negating the leg weave control
-- ✅ **Correction**: Drive the lead leg deep between opponent's legs until your knee is past their hip line, ensuring maximum disruption of their defensive structure
+- ❌ **Consequence**: The intended control is not established before the next movement; the missing requirement is: Thread the arm through the available leg gap and connect to the lower thigh or knee.
+- ✅ **Correction**: Thread the arm through the available leg gap and connect to the lower thigh or knee.
 
-### 2. Allowing hips to rise too high or losing forward pressure during the weave
+### 2. Skipping the checkpoint: manage the knee shield
 
-- ❌ **Consequence**: Bottom player creates space to recover guard or sit up, losing passing momentum
-- ✅ **Correction**: Keep hips low and constantly driving forward with chest pressure directed at opponent's upper body throughout the passing sequence
+- ❌ **Consequence**: The intended control is not established before the next movement; the missing requirement is: Use aligned shoulder and chest pressure to bring the knees together without twisting the knee joint.
+- ✅ **Correction**: Use aligned shoulder and chest pressure to bring the knees together without twisting the knee joint.
 
-### 3. Neglecting upper body control while focusing solely on leg positioning
+### 3. Skipping the checkpoint: keep the elbow protected
 
-- ❌ **Consequence**: Bottom player sits up, frames effectively, or creates angles that allow guard recovery
-- ✅ **Correction**: Maintain at least one strong upper body grip (collar, sleeve, or underhook) while threading the leg, using upper body control to prevent opponent from sitting up
+- ❌ **Consequence**: The intended control is not established before the next movement; the missing requirement is: Avoid leaving the weaving arm extended where the bottom player can sit up into a kimura.
+- ✅ **Correction**: Avoid leaving the weaving arm extended where the bottom player can sit up into a kimura.
 
-### 4. Committing too much weight to the weaved leg, losing balance and base
+### 4. Skipping the checkpoint: maintain an outside base
 
-- ❌ **Consequence**: Bottom player can execute sweeps or recover guard by attacking the top player's compromised balance
-- ✅ **Correction**: Distribute weight between weaved leg, supporting leg, and hands to maintain a stable base while applying pressure
+- ❌ **Consequence**: The intended control is not established before the next movement; the missing requirement is: Move the hips and feet without collapsing all weight over the woven arm.
+- ✅ **Correction**: Move the hips and feet without collapsing all weight over the woven arm.
 
-### 5. Staying static in the leg weave position without chaining passing sequences
+### 5. Skipping the checkpoint: clear the legs before settling
 
-- ❌ **Consequence**: Bottom player adjusts to the position and finds defensive solutions or escape routes
-- ✅ **Correction**: Continuously threaten multiple passing directions (knee slice, leg drag, smash pass) to create dilemmas and prevent the bottom player from settling into defensive postures
+- ❌ **Consequence**: The intended control is not established before the next movement; the missing requirement is: Remove the remaining foot or half-guard hook before establishing side control.
+- ✅ **Correction**: Remove the remaining foot or half-guard hook before establishing side control.
 
 
 
@@ -324,32 +318,25 @@ The Leg Weave Top Position is an advanced guard passing control where the top pl
 
 <p class="section-subtitle">How do you train Leg Weave attacks?</p>
 
-### Leg Weave Threading Drill
+### Identify the configuration
 
-Partner in open guard, practice threading your lead leg between their legs while maintaining upper body control. Focus on depth of penetration and maintaining forward pressure. Partner provides 50% resistance. 5 repetitions each side.
+Work cooperatively on weave the arm. Thread the arm through the available leg gap and connect to the lower thigh or knee. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.
 
-**Duration**: 5 minutes
-
-
-### Passing Chain Flow Drill
-
-From leg weave position, flow between knee slice, leg drag, and smash pass attempts without completing the pass. Partner responds with appropriate defensive frames. Focus on smooth transitions and maintaining pressure throughout. Continue for time.
-
-**Duration**: 6 minutes
+**Duration**: Short cooperative repetitions; stop at each checkpoint
 
 
-### Leg Weave Positional Sparring
+### Rehearse the connection
 
-Start in leg weave position. Top player works to complete the pass to side control, mount, or back control. Bottom player works to recover guard or sweep. Reset after each completion. Track success rates.
+Work cooperatively on manage the knee shield. Use aligned shoulder and chest pressure to bring the knees together without twisting the knee joint. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.
 
-**Duration**: 8 minutes
+**Duration**: Short cooperative repetitions; stop at each checkpoint
 
 
-### Counter Response Drill
+### Add an early response
 
-Bottom player attempts specific escapes (knee shield recovery, deep half entry, underhook sweep). Top player responds with appropriate counters (knee slice, back step, pressure adjustment). Focus on reading opponent's movement and countering immediately.
+Work cooperatively on keep the elbow protected. Avoid leaving the weaving arm extended where the bottom player can sit up into a kimura. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.
 
-**Duration**: 7 minutes
+**Duration**: Short cooperative repetitions; stop at each checkpoint
 
 
 
@@ -368,7 +355,7 @@ Bottom player attempts specific escapes (knee shield recovery, deep half entry, 
 | Advancement Probability | 72% |
 | Submission Probability | 12% |
 
-**Average Time in Position**: 30-60 seconds for pass completion at advanced level
+**Average Time in Position**: Variable; reset at the first loss of safe control rather than targeting a fixed hold time
 
 
 </section>
@@ -377,13 +364,10 @@ Bottom player attempts specific escapes (knee shield recovery, deep half entry, 
 
 ## Related Positions and Techniques
 
-- **[[Positions/Leg Drag Control]]** - Alternative passing finish from leg weave control
-- **[[Positions/Half Guard]]** - Common starting position before establishing leg weave
-- **[[Positions/Side Control]]** - Primary completion target for leg weave passes
-- **[[Positions/Headquarters Position]]** - Related passing position with similar pressure principles
-- **[[Transitions/Knee Slice Pass]]** - Primary passing technique from leg weave
-- **[[Transitions/Smash Pass]]** - Alternative passing technique when opponent flattens
-- **[[Transitions/Long Step Pass]]** - Related passing concept with leg threading mechanics
+- **[[Positions/Half Guard/Knee Shield Half Guard]]** - Related configuration to study separately: compare the configuration and required controls for Knee Shield Half Guard.
+- **[[Positions/Half Guard]]** - Related configuration to study separately: compare the configuration and required controls for Half Guard.
+- **[[Positions/Side Control]]** - Related configuration to study separately: compare the configuration and required controls for Side Control.
+- **[[Positions/Dogfight Position]]** - Related configuration to study separately: compare the configuration and required controls for Dogfight Position.
 
 
 </section>

@@ -4,7 +4,7 @@
 
 ---
 title: "Rolling Escape from Anaconda | BJJ Technique | BJJ Graph"
-description: "Master the Rolling Escape from Anaconda in BJJ. Step-by-step guide covering timing, body mechanics, and rolling technique to escape anaconda choke control."
+description: "An Anaconda escape must first address the head-and-arm enclosure; a roll is conditional on an open neck space and does not automatically create Dead Orchard."
 ---
 
 
@@ -16,7 +16,7 @@ description: "Master the Rolling Escape from Anaconda in BJJ. Step-by-step guide
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Rolling Escape from Anaconda",
-  "description": "Master the Rolling Escape from Anaconda in BJJ. Step-by-step guide covering timing, body mechanics, and rolling technique to escape anaconda choke control.",
+  "description": "An Anaconda escape must first address the head-and-arm enclosure; a roll is conditional on an open neck space and does not automatically create Dead Orchard.",
   "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
 }
 </script>
@@ -76,7 +76,7 @@ description: "Master the Rolling Escape from Anaconda in BJJ. Step-by-step guide
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Rolling Escape from Anaconda",
-  "description": "The Rolling Escape from Anaconda is an explosive defensive transition where a trapped practitioner rolls toward their captured arm to create slack in the choking loop, extract the arm, and recover to turtle before the anaconda finishes.",
+  "description": "An Anaconda escape must first address the head-and-arm enclosure; a roll is conditional on an open neck space and does not automatically create Dead Orchard.",
   "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
 }
 </script>
@@ -94,13 +94,15 @@ description: "Master the Rolling Escape from Anaconda in BJJ. Step-by-step guide
 
 <section id="overview" class="content-section">
 
-**The Rolling Escape from Anaconda is an explosive defensive transition where a trapped practitioner rolls toward their captured arm to create slack in the choking loop, extract the arm, and recover to turtle before the anaconda finishes.**
+**An Anaconda escape must first address the head-and-arm enclosure; a roll is conditional on an open neck space and does not automatically create Dead Orchard.**
 
-Within the broader anaconda defense hierarchy, the rolling escape is the explosive bailout a trapped practitioner reaches for once direct grip-fighting has failed but the choke is not yet fully sunk. This escape exploits a fundamental biomechanical vulnerability in the anaconda grip: rolling toward the trapped arm side changes the compression angle and creates slack in the choking loop. Rather than fighting the choke directly through grip breaking or posture recovery alone, the rolling escape uses momentum and body displacement to generate the space needed to extract the trapped arm and recover to a defensible position. It is the primary explosive escape option when the anaconda has been partially established but the finish has not yet been secured.
+The defender is beneath a front-headlock attacker whose arm encloses the neck and one shoulder. A secured choke is a tap situation. Dead Orchard is a separate high guard, not the continuation of an Anaconda roll, and no blind rolling escape is guaranteed.
 
-The technique demands precise timing and full commitment. Initiating the roll too early, before the opponent has committed weight to the choking configuration, allows them to follow and re-establish control. Rolling too late, after the choke is fully locked, means the escape window has closed and the practitioner should tap rather than risk unconsciousness. The optimal moment occurs when the opponent begins tightening the grip or adjusting their finishing position, creating a brief window where their weight distribution is in transition and most vulnerable to the directional change of a committed roll.
+An arm passing beneath the neck toward the armpit signals the Anaconda enclosure. Preserve space between the shoulder and neck before the attacker closes the arm loop. Do not fight a secured loop by twisting the neck or planting the head against a roll.
 
-Strategically, the rolling escape sits within the broader anaconda defense hierarchy alongside grip breaking, framing, and posture recovery techniques. It serves as the go-to escape when initial hand fighting has failed to break the grip but the choke is not yet fully sunk. Success depends on reading grip tightness, identifying the correct rolling direction relative to the trapped arm, and committing without hesitation. The most common successful outcome is recovery to turtle position, from which further guard recovery or standup sequences can be pursued. When the opponent anticipates and follows the roll, they may advance to dead orchard control, making correct timing and explosive execution essential.
+Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
+
+Instructional sources: [Stephan Kesting and Denis Kang — the Anaconda choke](https://www.grapplearts.com/the-anaconda-choke/); [Nathan Orchard — Dead Orchard, part 1](https://www.youtube.com/watch?v=XoiB1D2WJwE).
 
 **From Position**: [[Positions/Anaconda Control]] (Bottom)
 **Success Rate**: 50%
@@ -155,8 +157,8 @@ Strategically, the rolling escape sits within the broader anaconda defense hiera
 | &nbsp; | Attacker | Defender |
 |--------|----------|----------|
 | **Focus** | Execute technique | Prevent or counter |
-| **Key Principles** | Commit fully to the roll once initiated - hesitation allows ... | Anticipate the roll by reading lateral hip movement and free... |
-| **Options** | 8 execution steps | 4 defensive options |
+| **Key Principles** | Recognize the thread: An arm passing beneath the neck toward... | Establish front headlock: Contain the opponent's head and on... |
+| **Options** | 6 execution steps | 4 defensive options |
 
 </section>
 
@@ -169,55 +171,49 @@ Strategically, the rolling escape sits within the broader anaconda defense hiera
 ### Key Principles
 
 
-- Commit fully to the roll once initiated - hesitation allows the opponent to adjust weight and follow your movement
+- Recognize the thread: An arm passing beneath the neck toward the armpit signals the Anaconda enclosure.
 
-- Roll toward the trapped arm side to create slack in the choking loop by changing the compression angle
+- Keep an early frame: Preserve space between the shoulder and neck before the attacker closes the arm loop.
 
-- Time the roll during the opponent's weight transition, not when they are settled and heavy on your shoulder
+- Protect head alignment: Do not fight a secured loop by twisting the neck or planting the head against a roll.
 
-- Maintain chin tuck throughout the entire rolling motion to prevent the choke from deepening during the escape
+- Address the grip: Hand fight before the enclosure becomes tight, while keeping the trapped elbow connected to the torso.
 
-- Extract the trapped arm actively during the roll using the momentum-generated slack, not before or after
+- Tap before symptoms: Stop if the neck enclosure is secure rather than relying on a last-second roll.
 
-- Immediately establish tight turtle posture after completing the roll to prevent immediate back take or re-attack
-
-- Chain into further escape sequences from turtle if the roll only partially succeeds or opponent follows
+- Rebuild base after release: Recover posture and guard or turtle only when the head and shoulder can move freely.
 
 
 ### Execution Steps
 
 
-- **Assess grip tightness and identify rolling window**: Evaluate how tight the anaconda grip is by testing with your free hand against the opponent's chokin...
+- **Recognize the thread**: An arm passing beneath the neck toward the armpit signals the Anaconda enclosure....
 
-- **Secure free hand positioning**: Place your free hand against the opponent's choking wrist or forearm to create momentary resistance,...
+- **Keep an early frame**: Preserve space between the shoulder and neck before the attacker closes the arm loop....
 
-- **Tuck chin and protect neck**: Drive your chin firmly toward your free-side shoulder, creating a double-chin posture that minimizes...
+- **Protect head alignment**: Do not fight a secured loop by twisting the neck or planting the head against a roll....
 
-- **Walk hips laterally to create rolling angle**: Shift your hips away from the opponent's body using small hip escaping movements, creating an angle ...
+- **Address the grip**: Hand fight before the enclosure becomes tight, while keeping the trapped elbow connected to the tors...
 
-- **Load weight and initiate explosive roll**: Push explosively off the posted hand while driving your trapped shoulder toward the mat and rolling ...
+- **Tap before symptoms**: Stop if the neck enclosure is secure rather than relying on a last-second roll....
 
-- **Extract trapped arm during rolling momentum**: As the roll creates slack in the anaconda loop through angular displacement, actively pull your trap...
-
-- **Complete roll and establish base**: Finish the rolling motion by landing on your hands and knees with your weight distributed across all...
-
-- **Establish tight turtle and begin recovery**: Immediately tuck your elbows to your knees, round your back, and tuck your chin to establish a defen...
+- **Rebuild base after release**: Recover posture and guard or turtle only when the head and shoulder can move freely....
 
 
 ### Common Mistakes
 
 
-- **Rolling in the wrong direction, away from the trapped arm rather than toward it**
-  - Consequence: The choking loop tightens dramatically as the roll pulls the neck deeper into the grip, potentially accelerating the choke to finish
-  - Correction: Always roll toward the trapped arm side - the roll creates slack on the opposite side of the loop, opening space for arm extraction
+- **Skipping the checkpoint: recognize the thread**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: An arm passing beneath the neck toward the armpit signals the Anaconda enclosure.
+  - Correction: An arm passing beneath the neck toward the armpit signals the Anaconda enclosure.
 
-- **Hesitating mid-roll or executing the roll with insufficient commitment and speed**
-  - Consequence: Opponent easily adjusts weight and follows the movement, re-establishing or even improving their choking position
-  - Correction: Commit fully once the roll is initiated - generate maximum explosive rotational momentum and complete the motion in one continuous movement
+- **Skipping the checkpoint: keep an early frame**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Preserve space between the shoulder and neck before the attacker closes the arm loop.
+  - Correction: Preserve space between the shoulder and neck before the attacker closes the arm loop.
 
-- **Failing to actively extract the trapped arm during the rolling momentum window**
-  - Consequence: Landing from the roll with the arm still trapped inside the loop, resulting in the same anaconda control position from a different angle
-  - Correction: Actively retract the trapped arm by bending the elbow and pulling toward your hip during peak rotation when the grip is most disrupted
+- **Skipping the checkpoint: protect head alignment**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Do not fight a secured loop by twisting the neck or planting the head against a roll.
+  - Correction: Do not fight a secured loop by twisting the neck or planting the head against a roll.
 
 
 </section>
@@ -231,41 +227,37 @@ Strategically, the rolling escape sits within the broader anaconda defense hiera
 ### Key Principles
 
 
-- Anticipate the roll by reading lateral hip movement and free hand posting that signal escape initiation
+- Establish front headlock: Contain the opponent's head and one arm while keeping a balanced base.
 
-- Maintain tight grip configuration with elbows squeezed together throughout any rolling motion from your opponent
+- Thread under the neck: Pass the choking arm beneath the neck and toward the far armpit, enclosing one shoulder.
 
-- Use chest pressure directed downward through the trapped shoulder to limit rolling space and momentum generation
+- Connect the arm loop: Join to the supporting arm without pulling the neck into a twist.
 
-- Be prepared to follow the roll with your hips and transition to dead orchard control rather than fighting against momentum
+- Choose a controlled angle: Use the taught shoulder-led angle only when both partners can roll safely; do not dive onto the neck.
 
-- Keep your hips mobile and ready to adjust angle if the opponent initiates lateral displacement before the roll
+- Close the shoulder gap: Bring the trapped shoulder toward the neck with gradual whole-body connection rather than a violent head pull.
 
-- Control the pace by tightening progressively - do not allow the opponent time to set up their escape angle
+- Release the loop: Open both arms immediately on a tap or any loss of normal responsiveness.
 
 
 ### Recognition Cues
 
 
-- Opponent's hips begin walking laterally away from your body, creating an angle for the rolling motion
+- The defender is beneath a front-headlock attacker whose arm encloses the neck and one shoulder.
 
-- Free hand moves from grip fighting at your choking wrist to posting position on the mat beside their shoulder
+- Preserve space between the shoulder and neck before the attacker closes the arm loop.
 
-- Sudden increase in opponent's body tension and muscular engagement signaling preparation for explosive movement
-
-- Opponent's trapped shoulder drops toward the mat as they load weight onto the rolling side
-
-- Brief pause in grip fighting followed by a change in breathing pattern indicating commitment to the escape
+- Hand fight before the enclosure becomes tight, while keeping the trapped elbow connected to the torso.
 
 
 ### Defensive Options
 
 
-- **Drive chest pressure and sprawl hips back to flatten opponent and eliminate rolling space** - When: When you detect lateral hip movement or free hand posting that signals early roll setup, before the roll has been initiated
+- **Contain the opponent's head and one arm while keeping a balanced base.** - When: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
 
-- **Follow the roll with your hips while maintaining grip and transition to dead orchard finishing position** - When: When the opponent has committed to the roll and stopping it is no longer viable - use their momentum to advance your position
+- **Pass the choking arm beneath the neck and toward the far armpit, enclosing one shoulder.** - When: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
 
-- **Step over opponent's head during roll attempt to establish dominant side finishing angle** - When: When you feel the roll beginning but the opponent's free hand is not blocking your leg path over their head
+- **Join to the supporting arm without pulling the neck into a twist.** - When: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
 
 
 </section>
@@ -276,13 +268,10 @@ Strategically, the rolling escape sits within the broader anaconda defense hiera
 ## Variations
 
 
-**Shoulder Roll Escape**: A tighter rolling variation where the escape is initiated by dropping the trapped shoulder toward the mat and rolling over it. The motion is more compact than the standard hip-driven roll and works particularly well when the opponent has heavy chest pressure limiting hip movement. The shoulder drop creates an angular change that disrupts the choking plane before the full roll completes. (When to use: When the opponent has heavy chest pressure that limits hip mobility, or when space is too tight for a full hip-driven roll)
+**Cooperative checkpoint drill**: An arm passing beneath the neck toward the armpit signals the Anaconda enclosure. Preserve space between the shoulder and neck before the attacker closes the arm loop. (When to use: Learning the control without submission pressure)
 
 
-**Granby Roll Variation**: Combines the rolling escape with granby roll mechanics borrowed from wrestling. Instead of rolling laterally, the practitioner inverts slightly and rolls over the back of the shoulders, creating a different rotational axis that can be harder for the anaconda holder to follow. This variation often results in landing in a guard recovery position rather than turtle, but requires greater shoulder flexibility and comfort with inversion. (When to use: When you have strong inversion ability and the opponent's weight is forward and high, making the standard lateral roll difficult to execute)
-
-
-**Hip Switch to Roll**: A two-stage escape that begins with a hip switch to change the angle before committing to the roll. The initial hip switch creates momentary confusion about the escape direction and can loosen the grip before the full rolling motion is executed. This combination is effective against opponents who are anticipating and prepared to follow a direct roll. (When to use: Against experienced grapplers who read and follow standard rolling escapes, or when you need to create a directional feint before committing)
+**Response and reset drill**: Contain the opponent's head and one arm while keeping a balanced base. Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route. (When to use: Adding one early response after both partners recognize the configuration)
 
 
 
@@ -294,7 +283,7 @@ Strategically, the rolling escape sits within the broader anaconda defense hiera
 
 ## Position Integration
 
-The Rolling Escape from Anaconda connects the dangerous anaconda choke defense system to the turtle recovery pathway. It serves as the primary explosive escape when grip breaking and framing defenses prove insufficient against a partially established anaconda. From the resulting turtle position, practitioners can chain into granby rolls, sit-outs, technical standups, or guard pulls to continue improving position. This technique complements the Anaconda Grip Break to Front Headlock as an alternative escape pathway, giving defenders two distinct options based on choke tightness and opponent positioning. Understanding both options creates a defensive decision tree: attempt grip breaking first, and if that fails before the choke deepens, transition to the rolling escape. The technique also develops body awareness and rolling mechanics that transfer directly to escaping related front headlock submissions including darce chokes and guillotines.
+The defender is beneath a front-headlock attacker whose arm encloses the neck and one shoulder. A secured choke is a tap situation. Dead Orchard is a separate high guard, not the continuation of an Anaconda roll, and no blind rolling escape is guaranteed. A destination is established by its actual body configuration, not by completing an isolated grip or by the name of the route.
 
 </section>
 
@@ -304,27 +293,11 @@ The Rolling Escape from Anaconda connects the dangerous anaconda choke defense s
 ## Related Techniques
 
 
-- [[Positions/Anaconda Control]] - Source position - the control position this escape addresses
+- [[Positions/Anaconda Control]] - Related configuration; establish its own prerequisites: compare the configuration and required controls for Anaconda Control.
 
-- [[Positions/Turtle]] - Primary success outcome - position recovered after successful rolling escape
+- [[Positions/Front Headlock]] - Related configuration; establish its own prerequisites: compare the configuration and required controls for Front Headlock.
 
-- [[Positions/Dead Orchard Control]] - Counter outcome - position opponent achieves if they follow the roll successfully
-
-- [[Positions/Front Headlock]] - Related positional family from which anaconda control originates
-
-- [[Positions/Darce Control]] - Sister choke position requiring similar defensive awareness and rolling mechanics
-
-- [[Transitions/Anaconda Choke]] - The submission being escaped - understanding finishing mechanics informs escape timing
-
-- [[Transitions/Anaconda Grip Break to Front Headlock]] - Alternative escape technique when grip breaking is viable before rolling
-
-- [[Transitions/Frame and Posture from Anaconda]] - Complementary defensive technique addressing different stage of anaconda defense
-
-- [[Transitions/Roll Defense from Anaconda]] - Related defensive concept for preventing opponent's roll-through finish
-
-- [[Transitions/Anaconda Control to Dead Orchard Control]] - Opponent's advancement path that a failed rolling escape may facilitate
-
-- [[Transitions/Back Take from Anaconda]] - Opponent's alternative attack if rolling escape creates back exposure
+- [[Positions/Turtle]] - Related configuration; establish its own prerequisites: compare the configuration and required controls for Turtle.
 
 
 </section>

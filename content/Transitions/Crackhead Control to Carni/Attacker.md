@@ -4,7 +4,7 @@
 
 ---
 title: "Crackhead Control to Carni Attacker | BJJ Technique Guide | BJJ Graph"
-description: "How to execute Crackhead Control to Carni in BJJ. Attacking perspective with setup, execution steps, and counters for this 10th Planet defensive reversal."
+description: "Crackhead Control to Carni (attacker): Use the guard and shoulder connection to bring the opponent close before moving the high leg. Manage the shoulder and neck line with a forearm frame as the leg clears the head."
 ---
 
 
@@ -20,45 +20,39 @@ description: "How to execute Crackhead Control to Carni in BJJ. Attacking perspe
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Establish defensive rhythm",
-      "text": "Maintain constant hip movement and active hand fighting characteristic of crackhead control defense. Create unpredictability in your movement patterns to make the top player reactive rather than proactive. This phase disguises your transition intent.",
+      "name": "Set the upper-body angle",
+      "text": "Use the guard and shoulder connection to bring the opponent close before moving the high leg.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Recognize weight commitment",
-      "text": "Feel for the moment when the top player commits their weight forward over your lower back in their chair-sit position. This forward commitment creates space underneath their body and compromises their ability to react to your movement. The pressure increase on your lumbar spine signals the timing window.",
+      "name": "Frame before clearing",
+      "text": "Manage the shoulder and neck line with a forearm frame as the leg clears the head.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Clear inside arm",
-      "text": "Use your inside hand to strip any controlling grip on that arm while simultaneously beginning to turn your hips toward the opponent's near leg. This arm will assist in capturing their leg and establishing the carni configuration. Speed of grip stripping is critical to maintain the timing window.",
+      "name": "Anchor through the hips",
+      "text": "Turn partly belly down with the knee close and foot supported rather than wrenching the leg across the head.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Invert and thread inside leg",
-      "text": "Explosively rotate your hips underneath the opponent while threading your inside leg between their legs to hook over their hip. Your inside leg establishes the critical barrier preventing step-over escape. The inversion should feel like rolling under their center of gravity rather than pushing backward against their weight.",
+      "name": "Hold the triceps",
+      "text": "Keep the captured arm connected so the opponent cannot freely roll or withdraw the shoulder.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Complete leg entanglement with outside leg",
-      "text": "Your outside leg follows to complete the carni leg entanglement around their near leg, creating the figure-four configuration. Lock the entanglement by crossing your outside leg over your inside shin. Ensure inside positioning is secured before locking to prevent the opponent from simply stepping through.",
+      "name": "Control before finishing",
+      "text": "Hold the wrist and elbow at a comfortable angle; a small change can load the shoulder rapidly.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Secure heel and ankle control",
-      "text": "Immediately grip the opponent's heel and ankle with both hands to establish submission threat. The inside hand controls the heel pulling toward your chest while outside hand controls ankle position and prevents rotation. This grip must be established before any other positional adjustment.",
+      "name": "Let the lock go",
+      "text": "Release the wrist and leg clamp immediately on a tap or when the partner needs to roll safely.",
       "position": 6
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Establish optimal attack angle",
-      "text": "Adjust your hip angle relative to opponent's hip line to create optimal heel hook leverage. Your hips should be angled across their leg rather than parallel to maximize rotational force on their knee. From this angle you can threaten heel hook directly or transition to saddle if they defend the heel.",
-      "position": 7
     }
   ],
   "tool": ["BJJ Gi or No-Gi attire", "Training partner", "Mat space"],
@@ -74,50 +68,50 @@ description: "How to execute Crackhead Control to Carni in BJJ. Attacking perspe
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What weight distribution must you feel from the top player before initiating this transition?",
+      "name": "Crackhead to Carni (bottom): What must be added beyond the two-leg posture clinch?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "You must feel the top player commit their weight forward over your lower back in their chair-sit position. This forward commitment compromises their base and creates space underneath their body for your inversion. Attempting the transition when they have neutral or rearward weight distribution allows easy counter-attacks because they can post wide or drive you flat."
+        "text": "Crackhead reinforcement does not supply Carni's arm isolation; the shoulder clamp requires its own setup."
       }
     },
     {
       "@type": "Question",
-      "name": "Why is inside leg positioning critical during the transition?",
+      "name": "Crackhead to Carni (bottom): What blocks forward chest pressure while the leg clears?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Inside leg positioning creates the barrier preventing the opponent from stepping over to escape or pass. The inside leg must hook over the opponent's hip before the outside leg completes the entanglement. Without inside positioning, the opponent can easily extract their leg and advance to dominant position, making the entire transition attempt counterproductive."
+        "text": "The inside neck-side forearm maintains room as the high leg clears the head."
       }
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins sprawling back as you initiate the inversion - how do you adapt?",
+      "name": "Crackhead to Carni (bottom): Which hip position supports the new shoulder clamp?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Their sprawl creates space for alternative escapes. Use their hip retraction to recover to guard position (butterfly, half guard, or closed guard) rather than forcing the carni entry. Their defensive sprawl trades their crackhead control for your guard recovery, which is a favorable exchange from your defensive position. Accept the guard recovery as a win."
+        "text": "Martinez anchors through the hips and supported foot, drawing the knee close while turning partly belly down."
       }
     },
     {
       "@type": "Question",
-      "name": "What is the immediate hand priority upon completing the leg entanglement?",
+      "name": "Crackhead to Carni (bottom): Which movement does the retained triceps grip directly obstruct?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Immediately establish heel and ankle control with both hands. The inside hand controls the heel pulling toward your chest while the outside hand controls ankle position for directional control. This establishes immediate submission threat and prevents leg extraction. Positional adjustment comes after heel control is secured, never before."
+        "text": "The triceps connection retains the upper arm and limits rolling or shoulder withdrawal from the Carni clamp."
       }
     },
     {
       "@type": "Question",
-      "name": "How do you protect against guillotine or darce attacks during the inversion?",
+      "name": "Crackhead to Carni (bottom): What should the first shoulder-capture drill omit?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Keep your chin tucked tightly to your chest throughout the entire inversion movement. Your head stays protected between your shoulders until the carni position is fully established. Never raise your head during the transition as this exposes your neck to front headlock attacks from the top player who already has upper body proximity."
+        "text": "Rehearse the arm capture and supported angle without adding wrist leverage into a shoulder finish."
       }
     },
     {
       "@type": "Question",
-      "name": "Crackhead to Carni: your opponent drives chest pressure as you invert. Good or bad for you?",
+      "name": "Crackhead to Carni (bottom): Your partner must roll to relieve the shoulder; what releases?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "This is actually favorable for your transition when timed correctly. Their forward drive creates the momentum you need for the roll-under motion and simultaneously compromises their base further. Use their chest pressure to assist the inversion rather than fighting against it. The key is timing: initiate your thread as their weight shifts forward, converting their pressure into your transition energy."
+        "text": "Release wrist and leg control before a necessary roll; do not hold the shoulder fixed while the body turns."
       }
     }
   ]
@@ -130,7 +124,7 @@ description: "How to execute Crackhead Control to Carni in BJJ. Attacking perspe
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Crackhead Control to Carni Attacker",
-  "description": "How to execute Crackhead Control to Carni in BJJ. Attacking perspective with setup, execution steps, and counters for this 10th Planet defensive reversal.",
+  "description": "Crackhead Control to Carni (attacker): Use the guard and shoulder connection to bring the opponent close before moving the high leg. Manage the shoulder and neck line with a forearm frame as the leg clears the head.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -226,9 +220,15 @@ description: "How to execute Crackhead Control to Carni in BJJ. Attacking perspe
 
 <section id="overview" class="content-section">
 
-As the attacker executing the Crackhead Control to Carni transition, you are converting a defensive turtle position into an immediate offensive leg entanglement. This technique exploits the top player's chair-sit weight distribution by threading underneath their body to capture the near leg in the carni configuration. The transition demands precise timing, explosive hip movement, and disciplined sequencing: inside leg threads first, outside leg completes the entanglement, hands immediately secure heel control. The mechanical advantage comes from the top player's forward weight commitment creating space underneath their hips, which you exploit through a rapid inversion that bypasses their upper body control entirely.
+The bottom guard player begins in Crackhead Control, facing a top player whose posture is controlled. Crackhead Control alone does not isolate the required arm. The reviewed Carni lesson begins from Z guard through Jersey, so this multi-stage connection remains conditional.
 
-Success depends on reading your opponent's pressure patterns from crackhead control bottom. The constant hip movement and grip fighting that define good crackhead defense serve dual purpose: they prevent the top player from consolidating control and simultaneously create the unpredictability needed to disguise the transition entry. When the top player loads forward to break your defensive structure, that forward commitment is precisely when their legs become vulnerable to entanglement. Advanced practitioners develop the sensitivity to feel this weight shift through their lower back and react within the narrow timing window before the top player can retract.
+Use the guard and shoulder connection to bring the opponent close before moving the high leg. Manage the shoulder and neck line with a forearm frame as the leg clears the head. Turn partly belly down with the knee close and foot supported rather than wrenching the leg across the head.
+
+Keep the captured arm connected so the opponent cannot freely roll or withdraw the shoulder. Hold the wrist and elbow at a comfortable angle; a small change can load the shoulder rapidly. Release the wrist and leg clamp immediately on a tap or when the partner needs to roll safely.
+
+Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
+
+Use the inside neck frame to control incoming chest pressure while hip movement creates the angle for the head-side leg to clear. The new shoulder clamp is a submission entry with its own triceps control, not the result of merely lowering one of the Crackhead legs.
 
 **From Position**: [[Positions/Rubber Guard/Crackhead Control]] (Bottom)
 
@@ -276,13 +276,12 @@ Success depends on reading your opponent's pressure patterns from crackhead cont
 
 <p class="section-subtitle">What are the key principles for executing Crackhead Control to Carni?</p>
 
-- Maintain constant hip movement in crackhead control to create unpredictability and openings for the transition
-- Wait for top player to commit weight forward before initiating the inversion to carni entry
-- Thread inside leg first to establish the critical inside positioning before committing to full transition
-- Use grip fighting to control top player's hands and prevent them from blocking your leg insertion
-- Keep chin tucked during inversion to protect neck from guillotine and darce counters
-- Secure heel control immediately upon establishing leg entanglement to prevent extraction
-- Follow through explosively once committed rather than half-attempting the transition
+- Set the upper-body angle: Use the guard and shoulder connection to bring the opponent close before moving the high leg.
+- Frame before clearing: Manage the shoulder and neck line with a forearm frame as the leg clears the head.
+- Anchor through the hips: Turn partly belly down with the knee close and foot supported rather than wrenching the leg across the head.
+- Hold the triceps: Keep the captured arm connected so the opponent cannot freely roll or withdraw the shoulder.
+- Control before finishing: Hold the wrist and elbow at a comfortable angle; a small change can load the shoulder rapidly.
+- Let the lock go: Release the wrist and leg clamp immediately on a tap or when the partner needs to roll safely.
 
 
 </section>
@@ -293,12 +292,10 @@ Success depends on reading your opponent's pressure patterns from crackhead cont
 
 <p class="section-subtitle">What do you need before attempting Crackhead Control to Carni?</p>
 
-- Established in crackhead control bottom position with functional hip mobility
-- Top player has committed weight forward onto your lower back in chair-sit position
-- Your inside arm is free or can be freed through grip fighting to assist leg insertion
-- Top player's near leg is accessible and not posted wide for base
-- Sufficient energy reserves for explosive transition movement
-- Recognition of opponent's weight distribution and momentary balance vulnerability
+- The bottom guard player begins in Crackhead Control, facing a top player whose posture is controlled.
+- Use the guard and shoulder connection to bring the opponent close before moving the high leg.
+- Manage the shoulder and neck line with a forearm frame as the leg clears the head.
+- Crackhead Control alone does not isolate the required arm. The reviewed Carni lesson begins from Z guard through Jersey, so this multi-stage connection remains conditional.
 
 
 </section>
@@ -309,13 +306,12 @@ Success depends on reading your opponent's pressure patterns from crackhead cont
 
 <p class="section-subtitle">How do you execute Crackhead Control to Carni step by step?</p>
 
-1. **Establish defensive rhythm**: Maintain constant hip movement and active hand fighting characteristic of crackhead control defense. Create unpredictability in your movement patterns to make the top player reactive rather than proactive. This phase disguises your transition intent.
-2. **Recognize weight commitment**: Feel for the moment when the top player commits their weight forward over your lower back in their chair-sit position. This forward commitment creates space underneath their body and compromises their ability to react to your movement. The pressure increase on your lumbar spine signals the timing window.
-3. **Clear inside arm**: Use your inside hand to strip any controlling grip on that arm while simultaneously beginning to turn your hips toward the opponent's near leg. This arm will assist in capturing their leg and establishing the carni configuration. Speed of grip stripping is critical to maintain the timing window.
-4. **Invert and thread inside leg**: Explosively rotate your hips underneath the opponent while threading your inside leg between their legs to hook over their hip. Your inside leg establishes the critical barrier preventing step-over escape. The inversion should feel like rolling under their center of gravity rather than pushing backward against their weight.
-5. **Complete leg entanglement with outside leg**: Your outside leg follows to complete the carni leg entanglement around their near leg, creating the figure-four configuration. Lock the entanglement by crossing your outside leg over your inside shin. Ensure inside positioning is secured before locking to prevent the opponent from simply stepping through.
-6. **Secure heel and ankle control**: Immediately grip the opponent's heel and ankle with both hands to establish submission threat. The inside hand controls the heel pulling toward your chest while outside hand controls ankle position and prevents rotation. This grip must be established before any other positional adjustment.
-7. **Establish optimal attack angle**: Adjust your hip angle relative to opponent's hip line to create optimal heel hook leverage. Your hips should be angled across their leg rather than parallel to maximize rotational force on their knee. From this angle you can threaten heel hook directly or transition to saddle if they defend the heel.
+1. **Set the upper-body angle**: Use the guard and shoulder connection to bring the opponent close before moving the high leg.
+2. **Frame before clearing**: Manage the shoulder and neck line with a forearm frame as the leg clears the head.
+3. **Anchor through the hips**: Turn partly belly down with the knee close and foot supported rather than wrenching the leg across the head.
+4. **Hold the triceps**: Keep the captured arm connected so the opponent cannot freely roll or withdraw the shoulder.
+5. **Control before finishing**: Hold the wrist and elbow at a comfortable angle; a small change can load the shoulder rapidly.
+6. **Let the lock go**: Release the wrist and leg clamp immediately on a tap or when the partner needs to roll safely.
 
 
 </section>
@@ -339,10 +335,10 @@ Success depends on reading your opponent's pressure patterns from crackhead cont
 
 <p class="section-subtitle">How might your opponent counter Crackhead Control to Carni?</p>
 
-- **Top player immediately steps over with free leg to pass guard during transition attempt** (Effectiveness: High) - Your Response: Maintain active inside leg hook over hip to block step-over. If they begin stepping, immediately transition to half guard or butterfly guard recovery rather than forcing carni entry → Leads to [[Positions/Rubber Guard/Crackhead Control]]
-- **Top player sprawls back and retracts hips when feeling the inversion begin** (Effectiveness: Medium) - Your Response: Their hip retraction creates space for technical standup or granby roll to guard. The sprawl defense trades their crackhead control for your guard recovery opportunity → Leads to [[Positions/Rubber Guard/Crackhead Control]]
-- **Top player drives forward aggressively with chest pressure to flatten you during transition** (Effectiveness: Medium) - Your Response: Use their forward drive momentum to assist your inversion. Their chest pressure actually facilitates the roll-under motion when timed correctly, converting their aggression into your transition energy → Leads to [[Positions/Rubber Guard/Carni]]
-- **Top player immediately extracts leg and secures back control upon recognizing the entanglement attempt** (Effectiveness: High) - Your Response: If they clear the entanglement and advance to back control, immediately transition to standard back defense protocol with chin tuck and hand fighting. Prevention is key: commit fully and quickly to minimize the extraction window → Leads to [[Positions/Back Control]]
+- **A leg clearing the head with an overhook is an upper-body trap, even if a butterfly hook remains below.** (Effectiveness: High) - Your Response: Re-check the prerequisite before continuing. Use the guard and shoulder connection to bring the opponent close before moving the high leg. → Leads to [[Positions/Rubber Guard/Crackhead Control]]
+- **Avoid reaching away while the opponent sets the triceps control.** (Effectiveness: Medium) - Your Response: Re-check the prerequisite before continuing. Manage the shoulder and neck line with a forearm frame as the leg clears the head. → Leads to [[Positions/Rubber Guard/Crackhead Control]]
+- **Maintain a balanced base and a safe inside frame before the shoulder becomes clamped.** (Effectiveness: Medium) - Your Response: Re-check the prerequisite before continuing. Turn partly belly down with the knee close and foot supported rather than wrenching the leg across the head. → Leads to [[Positions/Rubber Guard/Carni]]
+- **Create slack around the shoulder and elbow before moving the hips past the legs.** (Effectiveness: High) - Your Response: Re-check the prerequisite before continuing. Keep the captured arm connected so the opponent cannot freely roll or withdraw the shoulder. → Leads to [[Positions/Back Control]]
 
 
 </section>
@@ -353,35 +349,30 @@ Success depends on reading your opponent's pressure patterns from crackhead cont
 
 <p class="section-subtitle">What mistakes should you avoid when executing Crackhead Control to Carni?</p>
 
-### 1. Attempting transition when top player has not committed weight forward
+### 1. Skipping the checkpoint: set the upper-body angle
 
-- **Consequence**: Top player easily counters by posting wide or driving you flat, worsening your defensive position and potentially giving up back control
-- **Correction**: Wait for genuine weight commitment before initiating. Feel for forward pressure on your lower back that indicates their base is compromised
+- **Consequence**: The intended control is not established before the next movement; the missing requirement is: Use the guard and shoulder connection to bring the opponent close before moving the high leg.
+- **Correction**: Use the guard and shoulder connection to bring the opponent close before moving the high leg.
 
-### 2. Failing to clear inside arm before inverting
+### 2. Skipping the checkpoint: frame before clearing
 
-- **Consequence**: Trapped arm prevents full rotation and leaves you stuck in transitional position vulnerable to top player's counter-attacks
-- **Correction**: Strip grips on inside arm as first action after recognizing opportunity. The arm must be free to assist leg insertion and establish heel control
+- **Consequence**: The intended control is not established before the next movement; the missing requirement is: Manage the shoulder and neck line with a forearm frame as the leg clears the head.
+- **Correction**: Manage the shoulder and neck line with a forearm frame as the leg clears the head.
 
-### 3. Threading outside leg first instead of inside leg
+### 3. Skipping the checkpoint: anchor through the hips
 
-- **Consequence**: Lose critical inside positioning allowing opponent to easily step over and pass. Outside leg first creates no barrier to escape
-- **Correction**: Always thread inside leg first to establish hook over hip. Inside positioning is non-negotiable for maintaining the carni entanglement
+- **Consequence**: The intended control is not established before the next movement; the missing requirement is: Turn partly belly down with the knee close and foot supported rather than wrenching the leg across the head.
+- **Correction**: Turn partly belly down with the knee close and foot supported rather than wrenching the leg across the head.
 
-### 4. Stopping the transition midway when feeling resistance
+### 4. Skipping the checkpoint: hold the triceps
 
-- **Consequence**: Half-committed position is worse than either crackhead defense or completed carni. Leaves you vulnerable to back take or pass
-- **Correction**: Once committed, follow through explosively to completion. If transition fails completely, immediately return to crackhead defense or guard recovery
+- **Consequence**: The intended control is not established before the next movement; the missing requirement is: Keep the captured arm connected so the opponent cannot freely roll or withdraw the shoulder.
+- **Correction**: Keep the captured arm connected so the opponent cannot freely roll or withdraw the shoulder.
 
-### 5. Neglecting heel control after establishing leg entanglement
+### 5. Skipping the checkpoint: control before finishing
 
-- **Consequence**: Opponent extracts leg before you can threaten submission. All transition effort wasted with no offensive result
-- **Correction**: Establish heel and ankle grip immediately upon completing leg entanglement. Hands must move to heel control before adjusting any other positioning
-
-### 6. Raising head during inversion exposing neck to guillotine or darce
-
-- **Consequence**: Top player secures guillotine or darce grip during your transition, converting your offensive attempt into their submission opportunity
-- **Correction**: Keep chin tucked to chest throughout inversion. Head stays protected between shoulders until carni is fully established
+- **Consequence**: The intended control is not established before the next movement; the missing requirement is: Hold the wrist and elbow at a comfortable angle; a small change can load the shoulder rapidly.
+- **Correction**: Hold the wrist and elbow at a comfortable angle; a small change can load the shoulder rapidly.
 
 
 
@@ -393,17 +384,17 @@ Success depends on reading your opponent's pressure patterns from crackhead cont
 
 <p class="section-subtitle">How do you train Crackhead Control to Carni (Attacker)?</p>
 
-**Week 1-2** - Inversion mechanics
-Practice solo inversion drills focusing on hip mobility and the threading motion required for carni entry. Work the mechanical movement without partner first, then add stationary partner in crackhead control position. Focus on proper leg sequence: inside leg first, then outside leg to complete entanglement.
+**Phase 1** - Identify the configuration
+Work cooperatively on set the upper-body angle. Use the guard and shoulder connection to bring the opponent close before moving the high leg. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.
 
-**Week 3-4** - Timing recognition
-Partner provides realistic crackhead control pressure while you practice recognizing the weight commitment window. Partner signals when they commit forward, then you execute the transition. Build sensitivity to feeling the correct timing through the pressure patterns on your lower back.
+**Phase 2** - Rehearse the connection
+Work cooperatively on frame before clearing. Manage the shoulder and neck line with a forearm frame as the leg clears the head. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.
 
-**Week 5-6** - Counter integration
-Partner provides medium resistance and attempts basic counters (step-over, sprawl, flatten). Practice maintaining transition despite resistance and adjusting to alternative positions (half guard, guard recovery) when carni is not achievable. Chain with carni attack sequences upon successful entry.
+**Phase 3** - Add an early response
+Work cooperatively on anchor through the hips. Turn partly belly down with the knee close and foot supported rather than wrenching the leg across the head. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.
 
-**Week 7+** - Live application
-Implement in positional sparring from crackhead control bottom. Partner uses full crackhead control offense including back take and submission attempts. Focus on choosing correct moments to attempt transition versus maintaining defensive position. Track success rate to calibrate timing sensitivity.
+**Phase 4** - Link only verified checkpoints
+Work cooperatively on hold the triceps. Keep the captured arm connected so the opponent cannot freely roll or withdraw the shoulder. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.
 
 
 
@@ -417,7 +408,7 @@ Implement in positional sparring from crackhead control bottom. Partner uses ful
 
 <p class="section-subtitle">What are the safety concerns for Crackhead Control to Carni?</p>
 
-This transition involves rapid inversion and leg entanglement mechanics that require progressive skill development to execute safely. Beginners should focus on the mechanical movement with cooperative partners before adding resistance. The receiving partner should be familiar with carni defense and heel hook tap protocols before practicing at intensity. Never force the transition against rigid resistance as this can strain your own back during the inversion movement. The heel control established at the end of this transition creates immediate injury risk if applied explosively - establish control gradually and give your partner opportunity to tap. In training, prioritize positional completion over submission speed. Avoid drilling this transition when fatigued as the complex movement pattern degrades under exhaustion, increasing injury risk to both partners.
+Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
 
 </section>
 

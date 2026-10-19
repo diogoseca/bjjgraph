@@ -4,7 +4,7 @@
 
 ---
 title: "Kimura Switch | BJJ Technique | BJJ Graph"
-description: "Master the Kimura Switch from Aoki Lock in BJJ. Transition to Kimura Control when opponent defends shoulder lock. Complete guide with attacker and defender perspectives."
+description: "A Kimura switch requires wrist control and a figure-four arm grip around the elbow; an Aoki rotational foot grip must be released before a separate arm capture."
 ---
 
 
@@ -16,7 +16,7 @@ description: "Master the Kimura Switch from Aoki Lock in BJJ. Transition to Kimu
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Kimura Switch",
-  "description": "Master the Kimura Switch from Aoki Lock in BJJ. Transition to Kimura Control when opponent defends shoulder lock. Complete guide with attacker and defender perspectives.",
+  "description": "A Kimura switch requires wrist control and a figure-four arm grip around the elbow; an Aoki rotational foot grip must be released before a separate arm capture.",
   "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
 }
 </script>
@@ -87,7 +87,7 @@ description: "Master the Kimura Switch from Aoki Lock in BJJ. Transition to Kimu
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Kimura Switch",
-  "description": "The Kimura Switch is a top-position transition that abandons the leg-entangled Aoki Lock for a figure-four Kimura grip, converting a defended shoulder lock into Kimura Trap control without surrendering top position.",
+  "description": "A Kimura switch requires wrist control and a figure-four arm grip around the elbow; an Aoki rotational foot grip must be released before a separate arm capture.",
   "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
 }
 </script>
@@ -105,13 +105,15 @@ description: "Master the Kimura Switch from Aoki Lock in BJJ. Transition to Kimu
 
 <section id="overview" class="content-section">
 
-**The Kimura Switch is a top-position transition that abandons the leg-entangled Aoki Lock for a figure-four Kimura grip, converting a defended shoulder lock into Kimura Trap control without surrendering top position.**
+**A Kimura switch requires wrist control and a figure-four arm grip around the elbow; an Aoki rotational foot grip must be released before a separate arm capture.**
 
-The Kimura Switch represents a critical transitional technique from Aoki Lock top position that converts leg-entangled shoulder control into traditional Kimura grip control. When opponents defend the Aoki Lock by rotating their shoulder inward or blocking hip pressure, the Kimura Switch provides an alternative attack vector that maintains offensive pressure while changing the mechanical angle of shoulder manipulation.
+The initial Aoki Lock Control configuration must be identified before considering Kimura Trap. The captured limb is the foot and lower leg. This is distinct from an omoplata-style shoulder trap and from a bent-knee calf slicer. Either player can become the foot-lock attacker during an entanglement exchange. The reviewed instruction does not establish a direct Aoki Lock Control-to-Kimura Trap connection. Release the original lock safely and establish the destination's own prerequisites; do not treat these checkpoints as a demonstrated continuous entry.
 
-This transition exploits a fundamental defensive dilemma: defending the Aoki Lock's rotational pressure typically exposes the arm to Kimura grip capture. By releasing leg entanglement and immediately securing double wrist control in the figure-four configuration, you maintain continuous submission threat without allowing positional escape. The switch preserves your dominant top position while transitioning from leg-based control to grip-based control.
+The opposing foot is turned outward and enclosed near the armpit, upper arm, and forearm. Rotational foot locks can injure the ankle or knee before pain provides useful warning. Use cooperative capture-and-release practice, no spinning escapes, and the event's actual division rules. Open the original connection before either partner turns, rises or changes the captured limb.
 
-Strategically, the Kimura Switch serves as a pressure relief valve that prevents stalemates in the Aoki Lock position. Rather than forcing a defended submission, you flow to an equally dangerous attack that catches opponents during their defensive adjustment. The technique requires precise timing, rapid grip acquisition, and understanding of how the two shoulder lock systems complement each other within the broader positional hierarchy.
+Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
+
+Instructional sources: [Stephan Kesting and Rob Biernacki — the Aoki lock](https://www.grapplearts.com/the-step-by-step-aoki-lock/); [IBJJF — current rule resources](https://ibjjf.com/books-videos).
 
 **From Position**: [[Positions/Aoki Lock Control]] (Top)
 **Success Rate**: 38%
@@ -174,7 +176,7 @@ Strategically, the Kimura Switch serves as a pressure relief valve that prevents
 | &nbsp; | Attacker | Defender |
 |--------|----------|----------|
 | **Focus** | Execute technique | Prevent or counter |
-| **Key Principles** | Release leg entanglement only when Kimura grips are secured ... | Attack the transition window before figure-four grip is full... |
+| **Key Principles** | Identify the starting enclosure: The opposing foot is turned... | Keep the wrist connected: Hold the arm close to the torso be... |
 | **Options** | 6 execution steps | 4 defensive options |
 
 </section>
@@ -188,51 +190,49 @@ Strategically, the Kimura Switch serves as a pressure relief valve that prevents
 ### Key Principles
 
 
-- Release leg entanglement only when Kimura grips are secured to prevent positional escape
+- Identify the starting enclosure: The opposing foot is turned outward and enclosed near the armpit, upper arm, and forearm.
 
-- Maintain constant shoulder pressure throughout the transition to limit defensive windows
+- Remove finishing pressure: Rotational foot locks can injure the ankle or knee before pain provides useful warning. Use cooperative capture-and-release practice, no spinning escapes, and the event's actual division rules.
 
-- Capture the far wrist first before releasing leg control to ensure continuous arm isolation
+- Release before repositioning: Open the original connection before either partner turns, rises or changes the captured limb.
 
-- Use hip positioning to prevent opponent from turning into you during grip exchange
+- Require wrist and elbow access: Obtain a separate arm-control position before attempting a figure-four grip.
 
-- Time the switch when opponent commits to Aoki Lock defense, catching them mid-adjustment
+- Connect the arm figure-four: Hold the opposing wrist and your own wrist while keeping the captured elbow controlled.
 
-- Keep chest pressure on opponent's back throughout to maintain top control
-
-- Secure figure-four grip configuration before attempting any shoulder manipulation
+- Stop at shoulder control: Use the grip as a positional handle without forcing the wrist behind the back.
 
 
 ### Execution Steps
 
 
-- **Recognize defensive pattern**: Identify opponent's Aoki Lock defense: internal shoulder rotation, elbow bend, or hip blocking. This...
+- **Identify the starting enclosure**: The opposing foot is turned outward and enclosed near the armpit, upper arm, and forearm....
 
-- **Secure far wrist control**: While maintaining leg entanglement, reach with your near-side hand to capture opponent's far wrist u...
+- **Remove finishing pressure**: Rotational foot locks can injure the ankle or knee before pain provides useful warning. Use cooperat...
 
-- **Thread figure-four grip**: Pass your far-side arm under opponent's tricep and grab your own wrist, establishing the traditional...
+- **Release before repositioning**: Open the original connection before either partner turns, rises or changes the captured limb....
 
-- **Release leg entanglement**: Only after Kimura grips are fully secured, open your leg triangle and slide your legs free from oppo...
+- **Require wrist and elbow access**: Obtain a separate arm-control position before attempting a figure-four grip....
 
-- **Establish Kimura base**: Reposition your hips perpendicular to opponent's body with your near-side hip driving into their rib...
+- **Connect the arm figure-four**: Hold the opposing wrist and your own wrist while keeping the captured elbow controlled....
 
-- **Apply Kimura pressure**: With grips secure and base established, apply progressive shoulder pressure by lifting opponent's el...
+- **Stop at shoulder control**: Use the grip as a positional handle without forcing the wrist behind the back....
 
 
 ### Common Mistakes
 
 
-- **Releasing leg entanglement before securing Kimura grips**
-  - Consequence: Opponent escapes to turtle or guard during the grip transition, losing both submission threats and top position
-  - Correction: Never release legs until figure-four grip is fully locked with both hands secured. Leg control is your insurance policy during the switch.
+- **Skipping the checkpoint: identify the starting enclosure**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: The opposing foot is turned outward and enclosed near the armpit, upper arm, and forearm.
+  - Correction: The opposing foot is turned outward and enclosed near the armpit, upper arm, and forearm.
 
-- **Grabbing opponent's elbow instead of wrist for initial control**
-  - Consequence: Insufficient control allows arm extraction, and grip positioning prevents proper figure-four configuration
-  - Correction: Always capture the wrist bone with a C-grip first. The wrist is the control point; the elbow positioning follows from correct wrist manipulation.
+- **Skipping the checkpoint: remove finishing pressure**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Rotational foot locks can injure the ankle or knee before pain provides useful warning. Use cooperative capture-and-release practice, no spinning escapes, and the event's actual division rules.
+  - Correction: Rotational foot locks can injure the ankle or knee before pain provides useful warning. Use cooperative capture-and-release practice, no spinning escapes, and the event's actual division rules.
 
-- **Losing chest contact with opponent's back during transition**
-  - Consequence: Opponent creates space to turn into you, recovering guard or escaping to turtle
-  - Correction: Keep heavy chest pressure throughout the entire transition. Your weight pins them in place while your hands execute the grip change.
+- **Skipping the checkpoint: release before repositioning**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Open the original connection before either partner turns, rises or changes the captured limb.
+  - Correction: Open the original connection before either partner turns, rises or changes the captured limb.
 
 
 </section>
@@ -246,39 +246,37 @@ Strategically, the Kimura Switch serves as a pressure relief valve that prevents
 ### Key Principles
 
 
-- Attack the transition window before figure-four grip is fully secured, as this is your highest-percentage escape moment
+- Keep the wrist connected: Hold the arm close to the torso before a figure-four grip closes.
 
-- Keep your arm straight and extended to prevent the attacker from threading the figure-four configuration around your tricep
+- Deny the elbow wrap: Recover inside arm position while the attacker has only one point of control.
 
-- Time explosive escape attempts to coincide with the attacker's leg release, when their control is temporarily weakest
+- Recognize the new target: A Kimura threatens the shoulder and elbow, unlike the preceding foot lock.
 
-- Control the attacker's near-side wrist to prevent the initial C-grip capture that initiates the entire switch sequence
+- Avoid a forced roll: Do not roll against a fixed wrist and shoulder.
 
-- Maintain tight elbow position against your body to deny space for the arm threading needed for figure-four establishment
+- Tap before shoulder loading: Stop before the arm is driven behind the back.
 
-- Use turning and hip movement during the transition to create scramble opportunities before new control is established
+- Reset once released: Recover posture and facing frames after the arm grip opens.
 
 
 ### Recognition Cues
 
 
-- Attacker's near-side hand releases hip control and reaches toward your far wrist, indicating the initial grip capture phase of the Kimura Switch
+- The initial Aoki Lock Control configuration must be identified before considering Kimura Trap.
 
-- You feel the attacker's leg entanglement loosening or their legs shifting position, signaling they are preparing to release leg control after securing grips
+- Rotational foot locks can injure the ankle or knee before pain provides useful warning. Use cooperative capture-and-release practice, no spinning escapes, and the event's actual division rules.
 
-- Attacker's chest pressure shifts as they adjust their body angle from Aoki Lock alignment to a more perpendicular Kimura position, creating a brief weight distribution change
-
-- The rotational pressure on your shoulder changes direction or momentarily decreases as the attacker transitions between the two shoulder lock mechanics
+- Obtain a separate arm-control position before attempting a figure-four grip.
 
 
 ### Defensive Options
 
 
-- **Straighten your trapped arm explosively as soon as you feel the attacker reaching for your far wrist, denying the figure-four grip configuration** - When: Early in the switch sequence when the attacker's near-side hand first releases hip control to reach for your wrist, before any Kimura grips are established
+- **Hold the arm close to the torso before a figure-four grip closes.** - When: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
 
-- **Explosively turn into the attacker during the leg release phase, using the brief control gap to recover turtle position with elbows tucked and chin down** - When: During or immediately after the attacker releases their leg entanglement, when their primary control is transitioning from legs to grips and chest pressure is momentarily lighter
+- **Recover inside arm position while the attacker has only one point of control.** - When: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
 
-- **Use your free hand to strip the attacker's initial C-grip on your wrist by peeling their fingers and pulling your wrist toward your centerline while keeping your elbow tight** - When: Immediately after you feel the attacker's hand close around your far wrist but before they thread the second arm for the figure-four configuration
+- **A Kimura threatens the shoulder and elbow, unlike the preceding foot lock.** - When: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
 
 
 </section>
@@ -289,13 +287,10 @@ Strategically, the Kimura Switch serves as a pressure relief valve that prevents
 ## Variations
 
 
-**Rolling Kimura Switch**: When opponent posts strongly or threatens to turn into you, roll over your shoulder while maintaining Kimura grips. This converts to mounted Kimura position and uses their defensive momentum against them. (When to use: When opponent's base is strong and they begin turning into you during the standard switch)
+**Cooperative checkpoint drill**: The opposing foot is turned outward and enclosed near the armpit, upper arm, and forearm. Rotational foot locks can injure the ankle or knee before pain provides useful warning. Use cooperative capture-and-release practice, no spinning escapes, and the event's actual division rules. (When to use: Learning the control without submission pressure)
 
 
-**Switch to Gift Wrap**: If opponent's far arm is inaccessible for Kimura but their near arm is exposed, switch to gift wrap control instead. Thread your arm under their armpit to capture their wrist behind their back. (When to use: When opponent tucks far arm defensively but exposes near arm during Aoki Lock defense)
-
-
-**Kimura Switch to Back Take**: Secure Kimura grips but instead of finishing the shoulder lock, use the arm control to spin to back control. The grip prevents them from defending the back take while you insert hooks. (When to use: When opponent's shoulder defense is strong but their back is exposed during the transition)
+**Response and reset drill**: Hold the arm close to the torso before a figure-four grip closes. Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route. (When to use: Adding one early response after both partners recognize the configuration)
 
 
 
@@ -307,7 +302,7 @@ Strategically, the Kimura Switch serves as a pressure relief valve that prevents
 
 ## Position Integration
 
-The Kimura Switch functions as a pressure release valve within the Aoki Lock attack system, preventing positional stalemates when opponents successfully defend the initial shoulder lock. It integrates with the broader Kimura Trap system by providing an entry point from leg entanglement positions. The technique connects Aoki Lock control to traditional Kimura-based attacks including mounted Kimura, rolling Kimura, and Kimura-to-back-take sequences. Understanding this switch is essential for practitioners building complete shoulder lock game trees, as it allows continuous offensive pressure rather than abandoning attacks when initial finishes are defended. The switch also demonstrates the fundamental principle of attacking defensive movements rather than forcing defended positions.
+The initial Aoki Lock Control configuration must be identified before considering Kimura Trap. The captured limb is the foot and lower leg. This is distinct from an omoplata-style shoulder trap and from a bent-knee calf slicer. Either player can become the foot-lock attacker during an entanglement exchange. The reviewed instruction does not establish a direct Aoki Lock Control-to-Kimura Trap connection. Release the original lock safely and establish the destination's own prerequisites; do not treat these checkpoints as a demonstrated continuous entry. A destination is established by its actual body configuration, not by completing an isolated grip or by the name of the route.
 
 </section>
 
@@ -317,25 +312,11 @@ The Kimura Switch functions as a pressure release valve within the Aoki Lock att
 ## Related Techniques
 
 
-- [[Positions/Aoki Lock Control]] - Starting position - leg entangled shoulder control
+- [[Positions/Ashi Garami]] - Related configuration; establish its own prerequisites: compare the configuration and required controls for Ashi Garami.
 
-- [[Positions/Kimura Trap]] - Target position - figure-four grip control system
+- [[Positions/X-Guard/Single Leg X-Guard]] - Related configuration; establish its own prerequisites: compare the configuration and required controls for Single Leg X-Guard.
 
-- [[Transitions/Back Take from Top]] - Alternative transition when Kimura is defended
-
-- [[Positions/Crucifix]] - Alternative target from Aoki Lock when far arm exposed
-
-- [[Positions/Gift Wrap]] - Alternative control when near arm exposed instead of far
-
-- [[Transitions/Kimura Sweep]] - Related technique - Kimura from bottom position
-
-- [[Positions/Twister Control/Truck]] - Alternative transition from Aoki Lock top
-
-- [[Positions/Omoplata Control]] - Related position - similar shoulder mechanics
-
-- [[Transitions/Aoki Lock to Back Control]] - Primary alternative when Kimura Switch is unavailable
-
-- [[Transitions/Aoki Lock to Crucifix]] - Alternative transition targeting far arm exposure
+- [[Positions/Kimura Trap]] - Related configuration; establish its own prerequisites: compare the configuration and required controls for Kimura Trap.
 
 
 </section>

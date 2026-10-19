@@ -4,7 +4,7 @@
 
 ---
 title: "Back Take Attacker | BJJ Technique Guide | BJJ Graph"
-description: "How to execute Back Take in BJJ. Attacking perspective with setup, execution steps, and counters."
+description: "Back Take (attacker): The second leg rises high to reinforce the upper-body clinch behind the head. The high clinch is optional: release if the knee is twisted, the neck is stacked, or either partner signals discomfort. Do not use high-leg closure as a neck crank."
 ---
 
 
@@ -20,38 +20,38 @@ description: "How to execute Back Take in BJJ. Attacking perspective with setup,
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Secure upper body control",
-      "text": "Establish seatbelt grip with your choking arm (over shoulder) and underhook arm (under armpit) while maintaining hip pressure on opponent's lower back. Clasp hands together using a gable grip or S-grip configuration.",
+      "name": "Identify the starting enclosure",
+      "text": "The second leg rises high to reinforce the upper-body clinch behind the head.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Load weight forward",
-      "text": "Shift your weight forward through your chest onto opponent's upper back, slightly releasing hip pressure to create mobility for rotation while maintaining chest-to-back connection that prevents them from turning.",
+      "name": "Remove finishing pressure",
+      "text": "The high clinch is optional: release if the knee is twisted, the neck is stacked, or either partner signals discomfort. Do not use high-leg closure as a neck crank.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Begin rotation using inside hook",
-      "text": "Use your inside leg hook as a pivot point, rotating your hips around opponent's body toward the side of your underhook arm. Your outside leg swings around to begin clearing their hip.",
+      "name": "Release before repositioning",
+      "text": "Open the original connection before either partner turns, rises or changes the captured limb.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Insert first hook",
-      "text": "As your rotation brings you alongside opponent's body, insert your first hook (previously inside leg) deep into their thigh with your foot crossing inside toward their groin area. Toes point outward.",
+      "name": "Require rear torso access",
+      "text": "Establish a separate chest-to-back connection before reaching for hooks or a seatbelt.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Complete rotation and insert second hook",
-      "text": "Continue rotating until your chest is fully behind opponent's back, then insert your second hook on the opposite side. Both feet should be positioned inside their thighs with heels driving toward their hips.",
+      "name": "Contain the shoulder and hip lines",
+      "text": "Use controlled upper-body and leg attachment while preserving neck alignment.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Consolidate back control",
-      "text": "Settle your hips below opponent's hips to create downward pressure, tighten seatbelt grip, and establish full chest-to-back connection. Begin threat assessment for submission entries.",
+      "name": "Stabilize rear control",
+      "text": "Confirm that the opponent cannot simply turn to face you before considering a back attack.",
       "position": 6
     }
   ],
@@ -68,50 +68,50 @@ description: "How to execute Back Take in BJJ. Attacking perspective with setup,
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the primary goal of the Back Take from Crackhead Control?",
+      "name": "Back Take (attacker): Where does the second leg sit in the starting Crackhead clinch?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The primary goal is to transition from the turtle attack position (crackhead control) to back control, the highest-scoring and highest-submission-percentage position in BJJ. This converts your controlling position into the most dominant attacking platform available, providing immediate access to rear naked choke, armbar, and other high-percentage submissions."
+        "text": "The starting control is a facing high guard reinforced by a second leg behind the head."
       }
     },
     {
       "@type": "Question",
-      "name": "What grip configuration should be established before initiating the rotation?",
+      "name": "Back Take (attacker): The high clinch twists your knee; what releases that load?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Establish a seatbelt grip with your choking arm over opponent's shoulder and underhook arm under their armpit, hands clasped together using gable or S-grip. This upper body control must be secured before reducing hip pressure, as it prevents opponent from turning to face you during the rotation and provides the anchor for maintaining chest-to-back connection throughout."
+        "text": "Release the optional high clinch when the knee is twisted; do not preserve it through the turn."
       }
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins sitting through as you initiate the back take rotation - how do you adjust?",
+      "name": "Back Take (attacker): What must happen before turning out of the facing high clinch?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Use your inside hook as an anchor and follow their sit-through movement rather than fighting against it. Their rotation momentum actually facilitates your back take on the opposite side. Maintain seatbelt grip throughout and continue your rotation in the same direction they're moving, using their defensive energy to complete your advancement to back control."
+        "text": "Release the original upper-body connection before changing orientation. The source does not demonstrate a continuous rear entry."
       }
     },
     {
       "@type": "Question",
-      "name": "What is the optimal depth for hook insertion during the back take?",
+      "name": "Back Take (attacker): Which contact is needed before adding rear hooks?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Hooks should be inserted deep with feet crossing inside opponent's thighs toward their groin area, not near their hips. Toes point outward to maximize retention. This deep positioning prevents opponent from clearing hooks through knee movement or hand fighting, as the foot is positioned past the hip joint pivot point."
+        "text": "Rear torso access is a separate prerequisite; the starting Crackhead clinch does not provide it."
       }
     },
     {
       "@type": "Question",
-      "name": "Why is maintaining chest-to-back connection critical during the rotation phase?",
+      "name": "Back Take (attacker): Which combination retains shoulders and hips after separate rear access?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Chest-to-back connection prevents opponent from turning to face you during the transition. If you create space by pulling away rather than rotating around them, opponent can turn into you, converting your back take attempt into a scramble or guard recovery. The connection uses your body weight to restrict their rotational mobility while you complete the movement."
+        "text": "After separately obtaining rear access, coordinate upper-body and leg attachment to contain shoulders and hips."
       }
     },
     {
       "@type": "Question",
-      "name": "How does the back take fit into the dilemma-based attack system from crackhead control?",
+      "name": "Back Take (attacker): What indicates rear control is not yet stable?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The back take exploits opponent's divided defensive attention. When threatening truck entries, opponent must defend their legs, opening their back. When threatening crucifix or arm attacks, opponent must protect their arms, facilitating rotation to back control. The back take serves as the primary advancement that opponent's other defenses inadvertently enable."
+        "text": "If the opponent can simply turn to face you, stabilize the rear attachment before considering a back attack."
       }
     }
   ]
@@ -124,7 +124,7 @@ description: "How to execute Back Take in BJJ. Attacking perspective with setup,
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Back Take Attacker",
-  "description": "How to execute Back Take in BJJ. Attacking perspective with setup, execution steps, and counters.",
+  "description": "Back Take (attacker): The second leg rises high to reinforce the upper-body clinch behind the head. The high clinch is optional: release if the knee is twisted, the neck is stacked, or either partner signals discomfort. Do not use high-leg closure as a neck crank.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -220,11 +220,15 @@ description: "How to execute Back Take in BJJ. Attacking perspective with setup,
 
 <section id="overview" class="content-section">
 
-The Back Take from Crackhead Control represents one of the highest-percentage transitions in modern no-gi grappling, capitalizing on the unique chair-sit mechanics of the crackhead position to secure the most dominant control in BJJ. This transition exploits the inherent hip isolation created by sitting on your opponent's lower back, using your inside leg hook as a pivot point to rotate around their body while maintaining constant chest-to-back connection throughout the movement.
+The initial Crackhead Control configuration must be identified before considering Back Control. This is a facing guard configuration. Unlike the basic Invisible Collar path, it does not require first clearing an arm to the mat and clearing the neck; unlike Dead Orchard, it does not define a completed both-arm leg triangle. The reviewed instruction does not establish a direct Crackhead Control-to-Back Control connection. Release the original lock safely and establish the destination's own prerequisites; do not treat these checkpoints as a demonstrated continuous entry.
 
-The technique thrives on the dilemma-based nature of crackhead control - your opponent must choose between defending the back take or addressing other threats like truck entries and arm attacks. When they commit defensive resources to protecting one avenue, the back take becomes increasingly available. The transition requires understanding that your hip pressure creates a fulcrum effect; as you begin rotating, your opponent's hip mobility remains severely restricted, preventing them from turning into you or creating the space needed to block hook insertion.
+The second leg rises high to reinforce the upper-body clinch behind the head. The high clinch is optional: release if the knee is twisted, the neck is stacked, or either partner signals discomfort. Do not use high-leg closure as a neck crank. Open the original connection before either partner turns, rises or changes the captured limb.
 
-From a strategic standpoint, the back take from crackhead control serves as the primary advancement pathway in the 10th Planet turtle attack system. It connects directly to the highest-scoring and highest-submission-percentage position in grappling, making it an essential technique for competitive practitioners. The transition exemplifies the modern approach to positional grappling where control positions exist primarily as launching platforms for further advancement rather than static holding positions.
+Establish a separate chest-to-back connection before reaching for hooks or a seatbelt. Use controlled upper-body and leg attachment while preserving neck alignment. Confirm that the opponent cannot simply turn to face you before considering a back attack.
+
+Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
+
+The separate back-control checkpoint needs hip control through the leg attachment as well as chest-to-back contact. Open the Crackhead high guard before changing the body relationship; no rear attachment follows from the high-leg name alone.
 
 **From Position**: [[Positions/Rubber Guard/Crackhead Control]] (Top)
 
@@ -272,12 +276,12 @@ From a strategic standpoint, the back take from crackhead control serves as the 
 
 <p class="section-subtitle">What are the key principles for executing Back Take?</p>
 
-- Maintain constant hip-to-hip connection throughout the transition to prevent opponent from creating escape space
-- Use the inside leg hook as the primary anchor and pivot point for rotational movement around opponent's body
-- Keep chest pressure forward on opponent's back to prevent them from turning into you during the transition
-- Time the rotation for moments when opponent is reactive to other threats, exploiting their divided defensive attention
-- Establish harness or seatbelt grip before completing hook insertion to prevent opponent from stripping your control
-- Follow opponent's defensive movements rather than forcing against them, using their energy to facilitate your rotation
+- Identify the starting enclosure: The second leg rises high to reinforce the upper-body clinch behind the head.
+- Remove finishing pressure: The high clinch is optional: release if the knee is twisted, the neck is stacked, or either partner signals discomfort. Do not use high-leg closure as a neck crank.
+- Release before repositioning: Open the original connection before either partner turns, rises or changes the captured limb.
+- Require rear torso access: Establish a separate chest-to-back connection before reaching for hooks or a seatbelt.
+- Contain the shoulder and hip lines: Use controlled upper-body and leg attachment while preserving neck alignment.
+- Stabilize rear control: Confirm that the opponent cannot simply turn to face you before considering a back attack.
 
 
 </section>
@@ -288,11 +292,10 @@ From a strategic standpoint, the back take from crackhead control serves as the 
 
 <p class="section-subtitle">What do you need before attempting Back Take?</p>
 
-- Crackhead control established with hips loaded on opponent's lower back in chair-sit position
-- Inside leg hook secured controlling the space between opponent's legs preventing sit-through escape
-- Upper body control through overhook, underhook, or collar tie limiting opponent's defensive options
-- Opponent's base sufficiently broken that they cannot explosively stand or generate forward movement
-- Weight distribution favoring hip pressure with upper body remaining mobile for the rotation
+- The initial Crackhead Control configuration must be identified before considering Back Control.
+- The second leg rises high to reinforce the upper-body clinch behind the head.
+- The high clinch is optional: release if the knee is twisted, the neck is stacked, or either partner signals discomfort. Do not use high-leg closure as a neck crank.
+- This is a facing guard configuration. Unlike the basic Invisible Collar path, it does not require first clearing an arm to the mat and clearing the neck; unlike Dead Orchard, it does not define a completed both-arm leg triangle. The reviewed instruction does not establish a direct Crackhead Control-to-Back Control connection. Release the original lock safely and establish the destination's own prerequisites; do not treat these checkpoints as a demonstrated continuous entry.
 
 
 </section>
@@ -303,12 +306,12 @@ From a strategic standpoint, the back take from crackhead control serves as the 
 
 <p class="section-subtitle">How do you execute Back Take step by step?</p>
 
-1. **Secure upper body control**: Establish seatbelt grip with your choking arm (over shoulder) and underhook arm (under armpit) while maintaining hip pressure on opponent's lower back. Clasp hands together using a gable grip or S-grip configuration.
-2. **Load weight forward**: Shift your weight forward through your chest onto opponent's upper back, slightly releasing hip pressure to create mobility for rotation while maintaining chest-to-back connection that prevents them from turning.
-3. **Begin rotation using inside hook**: Use your inside leg hook as a pivot point, rotating your hips around opponent's body toward the side of your underhook arm. Your outside leg swings around to begin clearing their hip.
-4. **Insert first hook**: As your rotation brings you alongside opponent's body, insert your first hook (previously inside leg) deep into their thigh with your foot crossing inside toward their groin area. Toes point outward.
-5. **Complete rotation and insert second hook**: Continue rotating until your chest is fully behind opponent's back, then insert your second hook on the opposite side. Both feet should be positioned inside their thighs with heels driving toward their hips.
-6. **Consolidate back control**: Settle your hips below opponent's hips to create downward pressure, tighten seatbelt grip, and establish full chest-to-back connection. Begin threat assessment for submission entries.
+1. **Identify the starting enclosure**: The second leg rises high to reinforce the upper-body clinch behind the head.
+2. **Remove finishing pressure**: The high clinch is optional: release if the knee is twisted, the neck is stacked, or either partner signals discomfort. Do not use high-leg closure as a neck crank.
+3. **Release before repositioning**: Open the original connection before either partner turns, rises or changes the captured limb.
+4. **Require rear torso access**: Establish a separate chest-to-back connection before reaching for hooks or a seatbelt.
+5. **Contain the shoulder and hip lines**: Use controlled upper-body and leg attachment while preserving neck alignment.
+6. **Stabilize rear control**: Confirm that the opponent cannot simply turn to face you before considering a back attack.
 
 
 </section>
@@ -332,10 +335,10 @@ From a strategic standpoint, the back take from crackhead control serves as the 
 
 <p class="section-subtitle">How might your opponent counter Back Take?</p>
 
-- **Opponent sits through toward your hooks during rotation, attempting to face you and recover guard** (Effectiveness: High) - Your Response: Maintain inside hook as anchor and follow their movement, using their rotation momentum to complete your back take on the opposite side → Leads to [[Positions/Rubber Guard/Crackhead Control]]
-- **Opponent explosively stands up before you complete the rotation, breaking your hip control** (Effectiveness: Medium) - Your Response: Transition to standing back control by maintaining harness grip and jumping hooks in, or drop to ankle pick if they create too much distance → Leads to [[Positions/Turtle]]
-- **Opponent granby rolls forward as you initiate rotation, attempting to invert and face you** (Effectiveness: Medium) - Your Response: Follow the roll and transition to truck position by controlling the near leg, converting the escape attempt into another attacking position → Leads to [[Positions/Rubber Guard/Crackhead Control]]
-- **Opponent posts arm and creates frame to prevent rotation around their body** (Effectiveness: Low) - Your Response: Attack the posted arm with crucifix entry or arm triangle setup, converting their defensive post into submission opportunity → Leads to [[Positions/Rubber Guard/Crackhead Control]]
+- **Keep the shoulders facing the opponent before a seatbelt closes.** (Effectiveness: High) - Your Response: Re-check the prerequisite before continuing. The second leg rises high to reinforce the upper-body clinch behind the head. → Leads to [[Positions/Rubber Guard/Crackhead Control]]
+- **Hand fight any arm approaching the neck while maintaining a stable base.** (Effectiveness: Medium) - Your Response: Re-check the prerequisite before continuing. The high clinch is optional: release if the knee is twisted, the neck is stacked, or either partner signals discomfort. Do not use high-leg closure as a neck crank. → Leads to [[Positions/Turtle]]
+- **Avoid exposing an isolated arm while turning to face the opponent.** (Effectiveness: Medium) - Your Response: Re-check the prerequisite before continuing. Open the original connection before either partner turns, rises or changes the captured limb. → Leads to [[Positions/Rubber Guard/Crackhead Control]]
+- **Insert elbows and knees when space opens after the original control is released.** (Effectiveness: Low) - Your Response: Re-check the prerequisite before continuing. Establish a separate chest-to-back connection before reaching for hooks or a seatbelt. → Leads to [[Positions/Rubber Guard/Crackhead Control]]
 
 
 </section>
@@ -346,30 +349,30 @@ From a strategic standpoint, the back take from crackhead control serves as the 
 
 <p class="section-subtitle">What mistakes should you avoid when executing Back Take?</p>
 
-### 1. Releasing hip pressure too early before establishing upper body control
+### 1. Skipping the checkpoint: identify the starting enclosure
 
-- **Consequence**: Opponent escapes by sitting through to guard or standing up, completely losing the attacking position
-- **Correction**: Secure seatbelt or harness grip before reducing hip pressure; upper body control must be established before mobility is created
+- **Consequence**: The intended control is not established before the next movement; the missing requirement is: The second leg rises high to reinforce the upper-body clinch behind the head.
+- **Correction**: The second leg rises high to reinforce the upper-body clinch behind the head.
 
-### 2. Rotating away from opponent instead of around them during the transition
+### 2. Skipping the checkpoint: remove finishing pressure
 
-- **Consequence**: Creates space that allows opponent to turn and face you, converting your back take attempt into a scramble
-- **Correction**: Maintain chest-to-back connection throughout; think of rotating your hips around a fixed point (their spine) rather than pulling away
+- **Consequence**: The intended control is not established before the next movement; the missing requirement is: The high clinch is optional: release if the knee is twisted, the neck is stacked, or either partner signals discomfort. Do not use high-leg closure as a neck crank.
+- **Correction**: The high clinch is optional: release if the knee is twisted, the neck is stacked, or either partner signals discomfort. Do not use high-leg closure as a neck crank.
 
-### 3. Inserting hooks too high near opponent's hips instead of deep in their thighs
+### 3. Skipping the checkpoint: release before repositioning
 
-- **Consequence**: Hooks are easily cleared by opponent's hip movement or hand fighting, resulting in lost back control
-- **Correction**: Insert hooks deep with feet crossing toward opponent's groin area, toes pointing outward for maximum retention
+- **Consequence**: The intended control is not established before the next movement; the missing requirement is: Open the original connection before either partner turns, rises or changes the captured limb.
+- **Correction**: Open the original connection before either partner turns, rises or changes the captured limb.
 
-### 4. Rushing the second hook before consolidating the first hook position
+### 4. Skipping the checkpoint: require rear torso access
 
-- **Consequence**: Neither hook is properly secured, allowing opponent to clear one side and begin escape sequence
-- **Correction**: Ensure first hook is deep and secure before pursuing second hook; position before submission principle applies to hook insertion
+- **Consequence**: The intended control is not established before the next movement; the missing requirement is: Establish a separate chest-to-back connection before reaching for hooks or a seatbelt.
+- **Correction**: Establish a separate chest-to-back connection before reaching for hooks or a seatbelt.
 
-### 5. Losing seatbelt grip during rotation while focusing on leg positioning
+### 5. Skipping the checkpoint: contain the shoulder and hip lines
 
-- **Consequence**: Opponent can turn into you during the transition, converting back control to guard or turtle
-- **Correction**: Maintain death grip on seatbelt throughout transition; hands stay clasped regardless of leg movement
+- **Consequence**: The intended control is not established before the next movement; the missing requirement is: Use controlled upper-body and leg attachment while preserving neck alignment.
+- **Correction**: Use controlled upper-body and leg attachment while preserving neck alignment.
 
 
 
@@ -381,17 +384,17 @@ From a strategic standpoint, the back take from crackhead control serves as the 
 
 <p class="section-subtitle">How do you train Back Take (Attacker)?</p>
 
-**Week 1-2** - Movement mechanics
-Practice the rotation mechanics from crackhead control with a completely cooperative partner. Focus on maintaining hip connection during rotation, proper hook insertion depth, and seatbelt grip retention. Drill 30-50 repetitions per session on each side.
+**Phase 1** - Identify the configuration
+Work cooperatively on identify the starting enclosure. The second leg rises high to reinforce the upper-body clinch behind the head. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.
 
-**Week 3-4** - Timing and sensitivity
-Partner provides light defensive movement (hip shifts, minor sit-through attempts) while you practice recognizing optimal timing windows for the back take. Focus on reading opponent's weight distribution and initiating rotation when they're committed elsewhere.
+**Phase 2** - Rehearse the connection
+Work cooperatively on remove finishing pressure. The high clinch is optional: release if the knee is twisted, the neck is stacked, or either partner signals discomfort. Do not use high-leg closure as a neck crank. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.
 
-**Week 5-6** - Chain attacks
-Integrate back take with other crackhead control threats. Practice flow sequences: threaten truck entry, opponent defends, take back. Threaten crucifix, opponent protects arm, take back. Develop the dilemma-based attack system.
+**Phase 3** - Add an early response
+Work cooperatively on release before repositioning. Open the original connection before either partner turns, rises or changes the captured limb. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.
 
-**Week 7+** - Competition application
-Apply technique in full-speed positional sparring starting from crackhead control. Partner uses 100% resistance to escape or counter. Track success rate and identify specific failure points for targeted drilling.
+**Phase 4** - Link only verified checkpoints
+Work cooperatively on require rear torso access. Establish a separate chest-to-back connection before reaching for hooks or a seatbelt. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.
 
 
 
@@ -405,7 +408,7 @@ Apply technique in full-speed positional sparring starting from crackhead contro
 
 <p class="section-subtitle">What are the safety concerns for Back Take?</p>
 
-The Back Take from Crackhead Control is generally safe when practiced with proper technique and communication. Primary risks involve neck strain if the seatbelt grip is applied too aggressively during the rotation phase, particularly if opponent resists by tucking their chin forcefully. Practice the rotation mechanics slowly before adding speed, and ensure partners communicate any discomfort in the neck or shoulder area. Avoid cranking the seatbelt grip during drilling; save full-pressure applications for controlled sparring with experienced partners. When your partner taps, release immediately regardless of position in the transition sequence.
+Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
 
 </section>
 

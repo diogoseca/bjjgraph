@@ -4,7 +4,7 @@
 
 ---
 title: "Aoki Lock to Crucifix | BJJ Technique | BJJ Graph"
-description: "Learn Aoki Lock to Crucifix transition in BJJ. Convert shoulder lock control to bilateral arm trap for dominant crucifix position with multiple submission options."
+description: "A crucifix traps one opposing arm with the legs and the other with the arms. An Aoki foot capture needs a separate positional change before either arm trap."
 ---
 
 
@@ -16,7 +16,7 @@ description: "Learn Aoki Lock to Crucifix transition in BJJ. Convert shoulder lo
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Aoki Lock to Crucifix",
-  "description": "Learn Aoki Lock to Crucifix transition in BJJ. Convert shoulder lock control to bilateral arm trap for dominant crucifix position with multiple submission options.",
+  "description": "A crucifix traps one opposing arm with the legs and the other with the arms. An Aoki foot capture needs a separate positional change before either arm trap.",
   "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
 }
 </script>
@@ -87,7 +87,7 @@ description: "Learn Aoki Lock to Crucifix transition in BJJ. Convert shoulder lo
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Aoki Lock to Crucifix",
-  "description": "Aoki Lock to Crucifix is an advanced no-gi transition that converts unilateral shoulder-lock control into bilateral arm trapping, keeping the near arm pinned by the legs while capturing the exposed far arm to reach the dominant crucifix position.",
+  "description": "A crucifix controls one opposing arm with the legs and the other with the arms; an Aoki foot capture does not supply either arm trap.",
   "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
 }
 </script>
@@ -105,13 +105,15 @@ description: "Learn Aoki Lock to Crucifix transition in BJJ. Convert shoulder lo
 
 <section id="overview" class="content-section">
 
-**Aoki Lock to Crucifix is an advanced no-gi transition that converts unilateral shoulder-lock control into bilateral arm trapping, keeping the near arm pinned by the legs while capturing the exposed far arm to reach the dominant crucifix position.**
+**A crucifix controls one opposing arm with the legs and the other with the arms; an Aoki foot capture does not supply either arm trap.**
 
-The Aoki Lock to Crucifix transition represents a high-level positional advancement that converts unilateral shoulder lock control into the devastatingly dominant bilateral arm trap of the crucifix. This transition capitalizes on the opponent's defensive responses to the Aoki Lock—when they focus on protecting their trapped shoulder and preventing the finish, they often expose their far arm, creating the opportunity to capture both limbs and achieve complete weapons denial.
+The initial Aoki Lock Control configuration must be identified before considering Crucifix. The captured limb is the foot and lower leg. This is distinct from an omoplata-style shoulder trap and from a bent-knee calf slicer. Either player can become the foot-lock attacker during an entanglement exchange. The reviewed instruction does not establish a direct Aoki Lock Control-to-Crucifix connection. Release the original lock safely and establish the destination's own prerequisites; do not treat these checkpoints as a demonstrated continuous entry.
 
-From a strategic perspective, this transition follows the principle of using submission threats as positional leverage. The Aoki Lock's shoulder pressure forces the opponent to commit defensive resources, frequently requiring them to post or frame with their free arm. This defensive commitment creates the entry window for crucifix capture. The transition requires precise timing, reading the opponent's weight distribution, and the technical ability to maintain control of the initially trapped arm while securing the second.
+The opposing foot is turned outward and enclosed near the armpit, upper arm, and forearm. Rotational foot locks can injure the ankle or knee before pain provides useful warning. Use cooperative capture-and-release practice, no spinning escapes, and the event's actual division rules. Open the original connection before either partner turns, rises or changes the captured limb.
 
-The crucifix destination represents a significant positional upgrade from Aoki Lock. While Aoki Lock offers a single submission threat with moderate escape routes, the crucifix eliminates virtually all defensive options and opens multiple high-percentage finishing paths including rear naked choke, arm-in chokes, and armbars. Practitioners who master this transition develop the ability to convert stalled submission attempts into dominant control positions, embodying the position-before-submission principle at an advanced level.
+Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
+
+Instructional sources: [Stephan Kesting and Rob Biernacki — the Aoki lock](https://www.grapplearts.com/the-step-by-step-aoki-lock/); [IBJJF — current rule resources](https://ibjjf.com/books-videos).
 
 **From Position**: [[Positions/Aoki Lock Control]] (Top)
 **Success Rate**: 42%
@@ -174,7 +176,7 @@ The crucifix destination represents a significant positional upgrade from Aoki L
 | &nbsp; | Attacker | Defender |
 |--------|----------|----------|
 | **Focus** | Execute technique | Prevent or counter |
-| **Key Principles** | Use the Aoki Lock shoulder pressure as bait to force opponen... | Keep the far arm tucked tight to the body at all times—deny ... |
+| **Key Principles** | Identify the starting enclosure: The opposing foot is turned... | Deny rear torso access: Keep the shoulders facing the oppone... |
 | **Options** | 6 execution steps | 4 defensive options |
 
 </section>
@@ -188,51 +190,49 @@ The crucifix destination represents a significant positional upgrade from Aoki L
 ### Key Principles
 
 
-- Use the Aoki Lock shoulder pressure as bait to force opponent's far arm into a catchable position
+- Identify the starting enclosure: The opposing foot is turned outward and enclosed near the armpit, upper arm, and forearm.
 
-- Maintain leg entanglement control on the initially trapped arm throughout the entire transition sequence
+- Remove finishing pressure: Rotational foot locks can injure the ankle or knee before pain provides useful warning. Use cooperative capture-and-release practice, no spinning escapes, and the event's actual division rules.
 
-- Time the capture of the second arm when opponent commits it to defense or posting
+- Release before repositioning: Open the original connection before either partner turns, rises or changes the captured limb.
 
-- Transition hip position from shoulder pressure angle to perpendicular crucifix control angle
+- Require rear-side arm access: Obtain a separate position behind or beside the shoulders with both arms accessible.
 
-- Prioritize control consolidation over speed—rushing creates escape windows
+- Verify both arm controls: One arm must be contained by the legs and the other by an upper-body connection.
 
-- Follow opponent's rolling or turning momentum rather than fighting against it
-
-- Establish figure-four leg configuration immediately upon securing second arm to prevent extraction
+- Hold without joint loading: Stabilize the crucifix while keeping both shoulders comfortable and an agreed verbal tap available.
 
 
 ### Execution Steps
 
 
-- **Increase shoulder pressure**: Drive your hips forward and down into opponent's trapped shoulder, intensifying the Aoki Lock threat...
+- **Identify the starting enclosure**: The opposing foot is turned outward and enclosed near the armpit, upper arm, and forearm....
 
-- **Identify far arm position**: While maintaining shoulder pressure, observe where opponent's free arm has moved in response to your...
+- **Remove finishing pressure**: Rotational foot locks can injure the ankle or knee before pain provides useful warning. Use cooperat...
 
-- **Secure far arm control**: Release one hand from hip control and capture opponent's far arm using overhook, wrist control, or k...
+- **Release before repositioning**: Open the original connection before either partner turns, rises or changes the captured limb....
 
-- **Transition hip position**: Rotate your hips from the Aoki Lock angle (angled for shoulder pressure) to perpendicular alignment ...
+- **Require rear-side arm access**: Obtain a separate position behind or beside the shoulders with both arms accessible....
 
-- **Establish leg triangle on near arm**: Adjust your leg entanglement from Aoki Lock configuration to crucifix figure-four: position one leg ...
+- **Verify both arm controls**: One arm must be contained by the legs and the other by an upper-body connection....
 
-- **Consolidate crucifix control**: Settle your weight onto opponent's upper back and shoulders, maintaining tight leg squeeze on trappe...
+- **Hold without joint loading**: Stabilize the crucifix while keeping both shoulders comfortable and an agreed verbal tap available....
 
 
 ### Common Mistakes
 
 
-- **Releasing leg entanglement on near arm before securing far arm control**
-  - Consequence: Opponent extracts the originally trapped arm and escapes to turtle or guard, losing all positional advantage
-  - Correction: Maintain constant leg squeeze on near arm throughout entire transition; never loosen until both arms are controlled
+- **Skipping the checkpoint: identify the starting enclosure**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: The opposing foot is turned outward and enclosed near the armpit, upper arm, and forearm.
+  - Correction: The opposing foot is turned outward and enclosed near the armpit, upper arm, and forearm.
 
-- **Rushing the far arm capture without creating sufficient shoulder pressure first**
-  - Consequence: Opponent's far arm is not committed to defense and retracts before capture, forcing you to abandon transition
-  - Correction: Build genuine submission threat with Aoki Lock pressure for 2-3 seconds to force defensive arm positioning before attempting capture
+- **Skipping the checkpoint: remove finishing pressure**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Rotational foot locks can injure the ankle or knee before pain provides useful warning. Use cooperative capture-and-release practice, no spinning escapes, and the event's actual division rules.
+  - Correction: Rotational foot locks can injure the ankle or knee before pain provides useful warning. Use cooperative capture-and-release practice, no spinning escapes, and the event's actual division rules.
 
-- **Failing to transition hip angle from Aoki Lock to crucifix position**
-  - Consequence: Ends up in hybrid position that is neither effective Aoki Lock nor proper crucifix, allowing opponent to escape or counter
-  - Correction: Complete full hip rotation to perpendicular alignment behind opponent's shoulders; half-measures create weak control
+- **Skipping the checkpoint: release before repositioning**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Open the original connection before either partner turns, rises or changes the captured limb.
+  - Correction: Open the original connection before either partner turns, rises or changes the captured limb.
 
 
 </section>
@@ -246,43 +246,37 @@ The crucifix destination represents a significant positional upgrade from Aoki L
 ### Key Principles
 
 
-- Keep the far arm tucked tight to the body at all times—deny the second arm capture that creates the crucifix
+- Deny rear torso access: Keep the shoulders facing the opponent before a seatbelt closes.
 
-- Monitor the attacker's hip rotation as the primary indicator of crucifix transition intent versus submission finish
+- Protect the neck: Hand fight any arm approaching the neck while maintaining a stable base.
 
-- Time arm extraction attempts to coincide with the attacker's hip transition phase when leg entanglement loosens momentarily
+- Keep elbows connected: Avoid exposing an isolated arm while turning to face the opponent.
 
-- Maintain internal shoulder rotation on the trapped arm to resist Aoki Lock pressure while working escape
+- Recover facing frames: Insert elbows and knees when space opens after the original control is released.
 
-- Create continuous movement toward turtle or guard recovery rather than defending statically in place
+- Do not roll against a lock: Wait for a trapped foot or arm to be released before changing direction.
 
-- Address the most immediate threat first—protect the arm being reached for or extract the arm being loosened
-
-- Accept positional sacrifice to turtle if it prevents crucifix consolidation—turtle is vastly preferable to crucifix
+- Stop at a secured submission: Tap before pressure develops rather than completing a positional escape through a lock.
 
 
 ### Recognition Cues
 
 
-- Attacker intensifies Aoki Lock shoulder pressure beyond finishing intent—they are building a reaction rather than trying to tap you
+- The initial Aoki Lock Control configuration must be identified before considering Crucifix.
 
-- Attacker releases one hand from hip control and reaches toward your far arm or upper body
+- Rotational foot locks can injure the ankle or knee before pain provides useful warning. Use cooperative capture-and-release practice, no spinning escapes, and the event's actual division rules.
 
-- Attacker begins rotating their hips from the angled Aoki Lock position toward perpendicular alignment behind your shoulders
-
-- You feel the leg entanglement shift or loosen momentarily as the attacker adjusts their lower body configuration
-
-- Attacker's weight moves from shoulder-pressure direction to more centralized behind your upper back
+- Obtain a separate position behind or beside the shoulders with both arms accessible.
 
 
 ### Defensive Options
 
 
-- **Tuck far arm tight to body and turn toward the attacker, denying the arm capture while creating escape angle** - When: As soon as you feel the attacker release one hand from hip control or reach toward your far arm
+- **Keep the shoulders facing the opponent before a seatbelt closes.** - When: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
 
-- **Extract near arm during hip transition phase when leg entanglement loosens** - When: When you feel the attacker's legs shift or loosen during their hip rotation from Aoki Lock angle to crucifix alignment
+- **Hand fight any arm approaching the neck while maintaining a stable base.** - When: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
 
-- **Forward roll through the transition using the attacker's weight shift to generate escape momentum** - When: When attacker commits weight forward during hip transition and their base becomes compromised
+- **Avoid exposing an isolated arm while turning to face the opponent.** - When: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
 
 
 </section>
@@ -293,13 +287,10 @@ The crucifix destination represents a significant positional upgrade from Aoki L
 ## Variations
 
 
-**Rolling crucifix entry**: When opponent rolls forward to escape Aoki Lock, follow their roll while maintaining leg control on near arm. Use the roll momentum to end up in crucifix position on the opposite side. Requires quick hand switch to capture far arm during roll. (When to use: Opponent commits to forward roll escape from Aoki Lock)
+**Cooperative checkpoint drill**: The opposing foot is turned outward and enclosed near the armpit, upper arm, and forearm. Rotational foot locks can injure the ankle or knee before pain provides useful warning. Use cooperative capture-and-release practice, no spinning escapes, and the event's actual division rules. (When to use: Learning the control without submission pressure)
 
 
-**Truck to crucifix**: If crucifix capture is blocked but you achieve truck position, use the truck's leg configuration as an intermediate position. From truck, work to capture the second arm and transition to crucifix. Allows staged approach when direct entry is defended. (When to use: Far arm is protected but truck entry is available)
-
-
-**Kimura grip crucifix entry**: Secure kimura grip on far arm before releasing hip control. This creates more secure grip that maintains control during hip transition. Particularly useful against larger or stronger opponents where wrist control may be insufficient. (When to use: Opponent is significantly larger or has strong grip-breaking ability)
+**Response and reset drill**: Keep the shoulders facing the opponent before a seatbelt closes. Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route. (When to use: Adding one early response after both partners recognize the configuration)
 
 
 
@@ -311,7 +302,7 @@ The crucifix destination represents a significant positional upgrade from Aoki L
 
 ## Position Integration
 
-The Aoki Lock to Crucifix transition sits within the advanced turtle and back attack system, representing a positional upgrade pathway when the Aoki Lock submission is defended. It connects the shoulder lock attack game with the bilateral control game, allowing practitioners to convert stalled submissions into dominant positions. This transition exemplifies the principle that submission threats create positional opportunities. Mastery requires integration with the broader Aoki Lock offense (finish, back control, truck entries) and the crucifix attack system (chokes, armbars, mounted crucifix transition). The transition is particularly valuable in no-gi competition where shoulder locks are common entries from turtle attacks.
+The initial Aoki Lock Control configuration must be identified before considering Crucifix. The captured limb is the foot and lower leg. This is distinct from an omoplata-style shoulder trap and from a bent-knee calf slicer. Either player can become the foot-lock attacker during an entanglement exchange. The reviewed instruction does not establish a direct Aoki Lock Control-to-Crucifix connection. Release the original lock safely and establish the destination's own prerequisites; do not treat these checkpoints as a demonstrated continuous entry. A destination is established by its actual body configuration, not by completing an isolated grip or by the name of the route.
 
 </section>
 
@@ -321,25 +312,11 @@ The Aoki Lock to Crucifix transition sits within the advanced turtle and back at
 ## Related Techniques
 
 
-- [[Positions/Aoki Lock Control]] - Starting position for this transition
+- [[Positions/Ashi Garami]] - Related configuration; establish its own prerequisites: compare the configuration and required controls for Ashi Garami.
 
-- [[Positions/Crucifix]] - Target position achieved on success
+- [[Positions/X-Guard/Single Leg X-Guard]] - Related configuration; establish its own prerequisites: compare the configuration and required controls for Single Leg X-Guard.
 
-- [[Transitions/Aoki Lock to Back Control]] - Alternative transition when crucifix entry is blocked
-
-- [[Positions/Twister Control/Truck]] - Alternative leg entanglement control position accessible from Aoki Lock
-
-- [[Transitions/Back Control to Crucifix]] - Related crucifix entry from different starting position
-
-- [[Submissions/Choke from Crucifix]] - Primary follow-up submission from crucifix position
-
-- [[Submissions/Armbar/from Crucifix]] - Secondary follow-up submission from crucifix position
-
-- [[Transitions/Crucifix from Turtle]] - Related crucifix entry using similar arm isolation mechanics
-
-- [[Positions/Kimura Trap]] - Related shoulder control system with transition options
-
-- [[Transitions/Aoki Lock]] - Alternative outcome when choosing to finish rather than transition
+- [[Positions/Crucifix]] - Related configuration; establish its own prerequisites: compare the configuration and required controls for Crucifix.
 
 
 </section>

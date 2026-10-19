@@ -4,7 +4,7 @@
 
 ---
 title: "Granby Roll to Guard | BJJ Technique | BJJ Graph"
-description: "Learn Granby Roll escape from Buggy Choke in BJJ. Inverted rolling technique to recover guard position. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%."
+description: "A Granby needs a free head and limbs for a shoulder-supported roll. Release the Buggy arm-and-leg loop before considering a separately established roll."
 ---
 
 
@@ -16,7 +16,7 @@ description: "Learn Granby Roll escape from Buggy Choke in BJJ. Inverted rolling
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Granby Roll to Guard",
-  "description": "Learn Granby Roll escape from Buggy Choke in BJJ. Inverted rolling technique to recover guard position. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.",
+  "description": "A Granby needs a free head and limbs for a shoulder-supported roll. Release the Buggy arm-and-leg loop before considering a separately established roll.",
   "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
 }
 </script>
@@ -87,7 +87,7 @@ description: "Learn Granby Roll escape from Buggy Choke in BJJ. Inverted rolling
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Granby Roll to Guard",
-  "description": "Granby Roll to Guard is a dynamic inverted escape from the Buggy Choke and other turtle attacks, using a diagonal shoulder roll and hip extension to spin beneath the attacker and recover a face-to-face guard before the position consolidates.",
+  "description": "A Granby roll recovers guard through a shoulder-and-upper-back roll when the head and limbs are free; a Buggy Choke holder must release the arm-and-leg loop before considering that movement.",
   "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
 }
 </script>
@@ -105,13 +105,15 @@ description: "Learn Granby Roll escape from Buggy Choke in BJJ. Inverted rolling
 
 <section id="overview" class="content-section">
 
-**Granby Roll to Guard is a dynamic inverted escape from the Buggy Choke and other turtle attacks, using a diagonal shoulder roll and hip extension to spin beneath the attacker and recover a face-to-face guard before the position consolidates.**
+**A Granby roll recovers guard through a shoulder-and-upper-back roll when the head and limbs are free; a Buggy Choke holder must release the arm-and-leg loop before considering that movement.**
 
-The Granby Roll to Guard is a dynamic defensive escape technique used to recover guard position when caught in the Buggy Choke or similar turtle-attacking positions. Named after the wrestling-derived shoulder roll movement, this technique uses rotational momentum and hip mobility to invert beneath the opponent and emerge facing them in a guard position. The movement exploits the brief windows when the attacking player commits weight forward or attempts to consolidate grips.
+The bottom player must have space to move over the shoulder without a trapped neck, arm or knee. Buggy Choke bottom is the holder of the choke, not a turtle defender under an upper-body ride. The reviewed Buggy instruction supports framing and recovering guard when the opponent disengages; it does not establish a direct Granby entry.
 
-Strategically, the Granby Roll represents an aggressive defensive philosophy where controlled movement is preferable to static survival. Rather than fighting grip-by-grip against a deteriorating position, the practitioner accepts temporary vulnerability during the roll in exchange for a complete positional reset. This technique is particularly valuable against sophisticated turtle attacks where passive defense leads inevitably to submission or back exposure.
+Let go when the partner begins lifting you from the mat; do not hang from the choke or invite a slam. Create distance while keeping the head free and the knees available to return inside. Use a shoulder roll only if a coach has established safe space and an untrapped upper back.
 
-The technical demands of the Granby Roll require significant hip mobility, proprioceptive awareness, and precise timing. Executing the roll too early allows the opponent to follow and maintain control; executing too late means the position has already consolidated beyond the escape window. Mastery of this technique provides a reliable emergency exit from dangerous turtle scenarios while building the movement vocabulary necessary for advanced guard retention and recovery systems.
+Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
+
+Instructional sources: [Kade and Tye Ruotolo — OG Buggy Choke](https://www.youtube.com/watch?v=zixbOyLpoOc); [Jay Rodriguez — three Buggy Choke mistakes](https://www.youtube.com/watch?v=MjKERx4N4mY).
 
 **From Position**: [[Positions/Buggy Choke]] (Bottom)
 **Success Rate**: 46%
@@ -175,7 +177,7 @@ The technical demands of the Granby Roll require significant hip mobility, propr
 | &nbsp; | Attacker | Defender |
 |--------|----------|----------|
 | **Focus** | Execute technique | Prevent or counter |
-| **Key Principles** | Initiate the roll when opponent's weight commits forward or ... | Maintain heavy perpendicular chest pressure on opponent's ba... |
+| **Key Principles** | Release the Buggy loop: Let go when the partner begins lifti... | Recognize the loop early: Watch for an arm reaching past you... |
 | **Options** | 6 execution steps | 4 defensive options |
 
 </section>
@@ -189,51 +191,49 @@ The technical demands of the Granby Roll require significant hip mobility, propr
 ### Key Principles
 
 
-- Initiate the roll when opponent's weight commits forward or their grips are not fully secured
+- Release the Buggy loop: Let go when the partner begins lifting you from the mat; do not hang from the choke or invite a slam.
 
-- Lead with the shoulder on the side away from the primary threat, creating rotational momentum
+- Restore shoulder and hip frames: Create distance while keeping the head free and the knees available to return inside.
 
-- Tuck the chin to protect the neck and allow smooth rolling over the shoulder blade
+- Check the rolling prerequisite: Use a shoulder roll only if a coach has established safe space and an untrapped upper back.
 
-- Use hip extension at the apex of the roll to create distance and complete the inversion
+- Keep weight off the neck: Do not plant the head or roll over the cervical spine to force guard recovery.
 
-- Establish immediate leg contact with opponent upon completing the roll to prevent guard pass
+- Bring the knees back inside: Face the opponent and insert the legs when the space opens.
 
-- Maintain awareness of opponent's position throughout the roll to adjust guard type appropriately
-
-- Commit fully to the movement once initiated—hesitation results in getting caught mid-roll
+- Settle the recovered guard: Stabilize open or closed guard according to the available leg connection rather than assuming either result.
 
 
 ### Execution Steps
 
 
-- **Create space**: Drive your hips backward momentarily to create a slight gap between your body and the opponent's che...
+- **Release the Buggy loop**: Let go when the partner begins lifting you from the mat; do not hang from the choke or invite a slam...
 
-- **Post the far arm**: Place your hand (on the side away from opponent's control) on the mat near your ear with fingers poi...
+- **Restore shoulder and hip frames**: Create distance while keeping the head free and the knees available to return inside....
 
-- **Tuck and rotate**: Tuck your chin firmly to your chest while driving off your knees, initiating the shoulder roll by tu...
+- **Check the rolling prerequisite**: Use a shoulder roll only if a coach has established safe space and an untrapped upper back....
 
-- **Invert through**: Continue the rotational momentum, allowing your hips to pass over your shoulders as you invert. Your...
+- **Keep weight off the neck**: Do not plant the head or roll over the cervical spine to force guard recovery....
 
-- **Hip extension**: As you complete the inversion, extend your hips powerfully to push away from the opponent and create...
+- **Bring the knees back inside**: Face the opponent and insert the legs when the space opens....
 
-- **Establish guard**: Land facing the opponent with your legs between you and them. Immediately establish foot contact on ...
+- **Settle the recovered guard**: Stabilize open or closed guard according to the available leg connection rather than assuming either...
 
 
 ### Common Mistakes
 
 
-- **Initiating the roll before creating any space from opponent's pressure**
-  - Consequence: Roll stalls immediately as opponent's weight pins you, often resulting in flattening and accelerated submission
-  - Correction: Always create a small hip bump or frame to disrupt opponent's pressure before committing to the roll
+- **Skipping the checkpoint: release the buggy loop**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Let go when the partner begins lifting you from the mat; do not hang from the choke or invite a slam.
+  - Correction: Let go when the partner begins lifting you from the mat; do not hang from the choke or invite a slam.
 
-- **Failing to tuck chin during the roll**
-  - Consequence: Neck hyperextension risk during the inversion, potential for opponent to catch neck during rotation
-  - Correction: Focus on looking at your own belt or belly button throughout the roll to ensure chin stays tucked
+- **Skipping the checkpoint: restore shoulder and hip frames**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Create distance while keeping the head free and the knees available to return inside.
+  - Correction: Create distance while keeping the head free and the knees available to return inside.
 
-- **Rolling directly over the top of the head instead of diagonally across shoulder**
-  - Consequence: Places dangerous compression on cervical spine and reduces rolling efficiency
-  - Correction: Post the arm properly and turn the head away, rolling diagonally from shoulder to opposite hip
+- **Skipping the checkpoint: check the rolling prerequisite**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Use a shoulder roll only if a coach has established safe space and an untrapped upper back.
+  - Correction: Use a shoulder roll only if a coach has established safe space and an untrapped upper back.
 
 
 </section>
@@ -247,41 +247,37 @@ The technical demands of the Granby Roll require significant hip mobility, propr
 ### Key Principles
 
 
-- Maintain heavy perpendicular chest pressure on opponent's back to eliminate the space needed to initiate the roll
+- Recognize the loop early: Watch for an arm reaching past your head and connecting to the same-side leg.
 
-- Keep hips low and weighted on opponent's near hip to anchor their base and prevent rotational momentum generation
+- Prevent hand-leg connection: Use balanced posture and safe inside frames before the loop closes.
 
-- Monitor the far-side arm for posting attempts—this is the earliest and most reliable indicator of granby initiation
+- Protect the neck: Treat the choke as live even though you hold top side control.
 
-- React to hip bump attempts by immediately driving weight forward rather than allowing space creation
+- Clear before circling: Free the head-and-arm enclosure before changing to north-south or chasing another pin.
 
-- If roll initiates past the point of prevention, follow the rotation to maintain back connection rather than fighting the momentum
+- Do not slam or wrench: Avoid lifting, dropping, or twisting the partner's trapped leg to force an escape.
 
-- Use collar and belt grips to tether yourself to the rolling opponent, converting their escape into a back take opportunity
+- Tap early: Stop before dizziness or loss of normal responsiveness; top position does not make a secured choke safe.
 
 
 ### Recognition Cues
 
 
-- Bottom player drives hips backward creating a brief gap between their body and your chest pressure, signaling space creation for the roll
+- The bottom player must have space to move over the shoulder without a trapped neck, arm or knee.
 
-- Bottom player posts their far-side hand near their ear with fingers angled toward their feet, establishing the pivot point for shoulder roll initiation
+- Create distance while keeping the head free and the knees available to return inside.
 
-- Bottom player tucks their chin aggressively and turns their head away from your primary control side, indicating commitment to the rotational escape
-
-- Sudden decrease in resistance against your grips as bottom player redirects energy from grip fighting to rolling momentum
-
-- Bottom player's knees begin to drive, generating the initial angular force needed to power the inverted roll through your control
+- Do not plant the head or roll over the cervical spine to force guard recovery.
 
 
 ### Defensive Options
 
 
-- **Drive chest pressure forward and sprawl hips back when you feel the initial hip bump space creation** - When: Immediately upon feeling the bottom player's hips shift backward to create space, before any rolling motion begins
+- **Watch for an arm reaching past your head and connecting to the same-side leg.** - When: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
 
-- **Follow the roll by maintaining chest-to-back connection, hooking the near leg, and converting to back control** - When: When the granby has already initiated past the prevention point and stopping the roll is no longer viable
+- **Use balanced posture and safe inside frames before the loop closes.** - When: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
 
-- **Block the far-side posting arm by reaching across and pinning it to the mat or trapping it under your body** - When: When you recognize the far-side arm posting as an early pre-roll indicator before momentum generation
+- **Treat the choke as live even though you hold top side control.** - When: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
 
 
 </section>
@@ -292,13 +288,10 @@ The technical demands of the Granby Roll require significant hip mobility, propr
 ## Variations
 
 
-**Granby to Deep Half**: Instead of completing to full guard, catch the opponent's lead leg during the roll and transition directly into deep half guard position, useful when opponent follows the roll aggressively. (When to use: When opponent commits forward following the roll and exposes their lead leg)
+**Cooperative checkpoint drill**: Let go when the partner begins lifting you from the mat; do not hang from the choke or invite a slam. Create distance while keeping the head free and the knees available to return inside. (When to use: Learning the control without submission pressure)
 
 
-**Half Granby to Butterfly**: Abbreviated rolling motion that transitions to seated butterfly guard rather than full inversion, requiring less mobility but creating immediate offensive guard options. (When to use: When space is limited or opponent's grips prevent full inversion)
-
-
-**Reverse Granby**: Roll toward the opponent's control side rather than away, using their grip as a pivot point. Higher risk but useful when escape side is blocked. (When to use: When opponent blocks the standard escape side with their body positioning)
+**Response and reset drill**: Watch for an arm reaching past your head and connecting to the same-side leg. Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route. (When to use: Adding one early response after both partners recognize the configuration)
 
 
 
@@ -310,7 +303,7 @@ The technical demands of the Granby Roll require significant hip mobility, propr
 
 ## Position Integration
 
-The Granby Roll to Guard functions as an emergency escape within the turtle defense system, providing a dynamic alternative to grip fighting and incremental escapes. It connects turtle bottom position to the complete guard system, allowing practitioners to reset to offensive positions rather than defending indefinitely. This technique pairs with sit-out escapes, stand-up attempts, and guard pulls to create a comprehensive turtle defense toolkit. The granby specifically excels against aggressive front headlock and choke attacks where static defense accelerates submission, teaching practitioners that movement and positional change are often superior to static resistance. Mastery of this technique develops the hip mobility and spatial awareness required for advanced guard play and inversion-based attacks.
+The bottom player must have space to move over the shoulder without a trapped neck, arm or knee. Buggy Choke bottom is the holder of the choke, not a turtle defender under an upper-body ride. The reviewed Buggy instruction supports framing and recovering guard when the opponent disengages; it does not establish a direct Granby entry. A destination is established by its actual body configuration, not by completing an isolated grip or by the name of the route.
 
 </section>
 
@@ -320,25 +313,13 @@ The Granby Roll to Guard functions as an emergency escape within the turtle defe
 ## Related Techniques
 
 
-- [[Positions/Buggy Choke]] - Starting position this technique escapes from
+- [[Positions/Side Control]] - Related configuration; establish its own prerequisites: compare the configuration and required controls for Side Control.
 
-- [[Positions/Closed Guard]] - Primary guard position established upon successful completion
+- [[Positions/Half Guard]] - Related configuration; establish its own prerequisites: compare the configuration and required controls for Half Guard.
 
-- [[Positions/Open Guard]] - Alternative guard position if closed guard cannot be established
+- [[Positions/Open Guard]] - Related configuration; establish its own prerequisites: compare the configuration and required controls for Open Guard.
 
-- [[Positions/Half Guard/Deep Half Guard]] - Variation destination when catching opponent's leg during roll
-
-- [[Positions/Butterfly Guard]] - Alternative guard established from half granby variation
-
-- [[Positions/Back Control]] - Counter position opponent may achieve if roll fails
-
-- [[Positions/Turtle]] - Related defensive position with similar escape considerations
-
-- [[Transitions/Granby to Closed Guard]] - Related technique using same movement pattern from different starting positions
-
-- [[Transitions/Sit to Half Guard]] - Alternative escape when granby is blocked
-
-- [[Transitions/Inversion to Turtle]] - Related inversion movement used in guard recovery sequences
+- [[Positions/Triangle Control]] - Related configuration; establish its own prerequisites: compare the configuration and required controls for Triangle Control.
 
 
 </section>

@@ -4,13 +4,13 @@
 
 ---
 title: "Anaconda Choke from Dead Orchard Attacker | BJJ Submission Guide | BJJ Graph"
-description: "Execute the Anaconda Choke from Dead Orchard in BJJ. Step-by-step finishing mechanics covering grip depth, hip walking, shoulder pressure coordination, and progressive squeeze application for this advanced blood choke."
+description: "Anaconda Choke from Dead Orchard (attacker): Contain the opponent's head and one arm while keeping a balanced base. Pass the choking arm beneath the neck and toward the far armpit, enclosing one shoulder."
 ---
 
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Anaconda Choke from Dead Orchard targets the Neck. Risk: Carotid artery compression causing unconsciousness. Release immediately upon tap.
+> **SAFETY**: Anaconda Choke from Dead Orchard targets the Sides of the neck between the attacking arm and trapped shoulder. Risk: Neck injury during a forced roll or head twist. Release immediately upon tap.
 
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
@@ -22,45 +22,39 @@ description: "Execute the Anaconda Choke from Dead Orchard in BJJ. Step-by-step 
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Confirm Grip Depth",
-      "text": "Verify your gable or S-grip sits deep enough that your wrist bone is positioned past the opponent's far shoulder line. If the grip is shallow, use body movement and weight shifts to walk it deeper before committing to the finish. A shallow grip wastes energy and cannot generate the bilateral compression needed to complete the blood choke.",
+      "name": "Establish front headlock",
+      "text": "Contain the opponent's head and one arm while keeping a balanced base.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Walk Hips to Finishing Angle",
-      "text": "Begin walking your hips toward the opponent's head in small, controlled increments. Each step tightens the compression angle around the neck and reduces defensive space. Maintain constant chest-to-shoulder contact throughout the walk to prevent any postural recovery attempt from the defender. Take three to five small steps rather than one large movement.",
+      "name": "Thread under the neck",
+      "text": "Pass the choking arm beneath the neck and toward the far armpit, enclosing one shoulder.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Increase Shoulder Pressure",
-      "text": "Drive increased downward shoulder pressure into the opponent's trapped shoulder, progressively flattening their defensive structure toward the mat. Your shoulder acts as a fulcrum that pins their arm tightly against their own neck. This pressure alone begins restricting blood flow through carotid compression before the active grip squeeze is applied.",
+      "name": "Connect the arm loop",
+      "text": "Join to the supporting arm without pulling the neck into a twist.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Eliminate Defensive Grips",
-      "text": "Use your free hand to strip or control the opponent's remaining defensive grips, particularly their free hand positioned at the wrist or elbow of your choking arm. If they are framing against your hip to create distance, walk your hips past their frame by adjusting your angle rather than fighting the frame directly with arm strength. Remove all defensive interference before committing fully to the squeeze.",
+      "name": "Choose a controlled angle",
+      "text": "Use the taught shoulder-led angle only when both partners can roll safely; do not dive onto the neck.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Apply Coordinated Squeeze",
-      "text": "Initiate the finishing squeeze by simultaneously tightening your grip, driving your shoulder forward and down, and rotating your hips slightly toward the opponent's back. The squeeze should create the sensation of driving your elbows together through their neck. Apply pressure progressively over three to five seconds rather than in a single explosive burst to prevent defensive panic responses.",
+      "name": "Close the shoulder gap",
+      "text": "Bring the trapped shoulder toward the neck with gradual whole-body connection rather than a violent head pull.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Complete the Blood Choke",
-      "text": "Maintain steady bilateral carotid compression while monitoring the opponent for any tap signal including verbal, physical, or signs of unconsciousness. Keep your head low and body tight to prevent last-second defensive movements or space creation. The blood choke can produce unconsciousness in four to eight seconds once fully locked, so remain alert for taps throughout and release immediately upon any signal.",
+      "name": "Release the loop",
+      "text": "Open both arms immediately on a tap or any loss of normal responsiveness.",
       "position": 6
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Micro-Adjust If Stalled",
-      "text": "If the opponent has not tapped after eight to ten seconds of committed pressure, make small adjustments to grip depth and hip angle rather than simply squeezing harder. Walk hips slightly further toward their head or adjust the height of your shoulder pressure. Minor positional corrections often convert a stalled choke into a successful finish without additional energy expenditure.",
-      "position": 7
     }
   ],
   "tool": ["BJJ Gi or No-Gi attire", "Training partner", "Mat space"],
@@ -76,50 +70,50 @@ description: "Execute the Anaconda Choke from Dead Orchard in BJJ. Step-by-step 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What does the Dead Orchard anaconda target, and how does the arm-in setup create compression?",
+      "name": "Anaconda after Dead Orchard: how many opposing arms belong inside the new neck enclosure?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The finish targets bilateral compression of the carotid arteries on both sides of the neck. The arm-in configuration creates a triangle of pressure: the choking arm compresses one carotid, the opponent's own trapped arm acts as a fulcrum pressing against the opposite carotid, and the shoulder drives downward to seal the compression. This bilateral blood restriction produces unconsciousness by cutting cerebral blood flow rather than restricting the airway."
+        "text": "Exactly one opposing arm inside the loop. The Anaconda encloses the neck and a single shoulder. Dead Orchard instead captures both arms with a high leg triangle, so the new arm loop must be established separately."
       }
     },
     {
       "@type": "Question",
-      "name": "How do you recognize the point of no escape when finishing the anaconda from Dead Orchard?",
+      "name": "Anaconda attack: which route should the choking arm follow?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The point of no escape occurs when the grip is deep past the far shoulder, hips have achieved optimal compression angle, and the opponent's defensive grips have been cleared. Physical indicators include the opponent's trapped arm going limp against their neck, cessation of active hand fighting, labored or irregular breathing patterns, and a general slowing of defensive movements. At this stage, steady pressure application will produce a tap within four to eight seconds."
+        "text": "Under the neck toward the far armpit. Pass the choking arm beneath the neck and toward the far armpit, enclosing one shoulder."
       }
     },
     {
       "@type": "Question",
-      "name": "What are the critical indicators that you should release the choke immediately during training?",
+      "name": "Anaconda attack: what should connecting your supporting arm accomplish?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Release immediately when you detect any tap signal including verbal, hand tap, or foot tap. Also release if the opponent goes limp, stops moving, exhibits involuntary twitching, makes gurgling sounds, or shows any sign of losing consciousness. If there is any ambiguity about whether a tap occurred, release immediately. In training, prioritize partner safety over finishing the submission. Unconsciousness from blood chokes can occur in as few as four seconds once fully locked."
+        "text": "Close the head-and-arm loop without twisting the neck. Join to the supporting arm without pulling the neck into a twist."
       }
     },
     {
       "@type": "Question",
-      "name": "Your anaconda feels tight but they still defend after ten seconds — what do you adjust?",
+      "name": "Anaconda attack: which part of your body leads the rehearsed rolling entry onto the mat?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "First assess grip depth by feeling for your wrist bone position relative to their far shoulder. If shallow, use body movement to walk it deeper. Next, verify hip angle by checking if your chest is perpendicular to their spine. Walk hips one to two more steps toward their head if needed. Finally, check shoulder pressure height, adjusting to drive more directly into their trapped shoulder. Small positional corrections are far more effective than simply squeezing harder, which fatigues your arms without improving choke mechanics."
+        "text": "Your own shoulder, with space for your body to follow. Use a practiced shoulder-led path rather than posting the head. Rehearse with an unloaded enclosure and room for both partners to move."
       }
     },
     {
       "@type": "Question",
-      "name": "Why is progressive pressure better than explosive squeezing for finishing this choke?",
+      "name": "Anaconda attack: which part of the opponent is brought beside their neck to close the remaining gap?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Progressive pressure prevents the adrenaline-fueled panic response that explosive squeezing triggers in defenders. When squeezed suddenly, opponents generate explosive escape attempts fueled by fight-or-flight response that can create enough space to compromise the grip. Progressive pressure gradually restricts blood flow without triggering this panic threshold. Additionally, sustained progressive pressure fatigues the arms far less than explosive squeezing, allowing the attacker to maintain the attempt longer and make micro-adjustments during application."
+        "text": "The opponent's trapped shoulder. Bring the trapped shoulder toward the neck with gradual whole-body connection rather than a violent head pull."
       }
     },
     {
       "@type": "Question",
-      "name": "How do you adjust your grip when they extend the trapped arm to make space in your anaconda?",
+      "name": "Anaconda attack: how do you release a tapped partner from the enclosure?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "When the opponent extends their trapped arm, walk your gable grip deeper toward their far shoulder while simultaneously increasing shoulder drive into their trapped shoulder to pin the arm back against their neck. If the arm extension creates significant space, temporarily release shoulder height pressure to slide the grip deeper before re-establishing the downward drive. The key is maintaining circular compression direction toward their far armpit. If the arm fully escapes the grip, immediately transition to darce control or positional advancement rather than chasing the anaconda."
+        "text": "Open both arms and remove the neck pressure. Open both arms immediately on a tap or any loss of normal responsiveness."
       }
     }
   ]
@@ -132,7 +126,7 @@ description: "Execute the Anaconda Choke from Dead Orchard in BJJ. Step-by-step 
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Anaconda Choke from Dead Orchard Attacker",
-  "description": "Execute the Anaconda Choke from Dead Orchard in BJJ. Step-by-step finishing mechanics covering grip depth, hip walking, shoulder pressure coordination, and progressive squeeze application for this advanced blood choke.",
+  "description": "Anaconda Choke from Dead Orchard (attacker): Contain the opponent's head and one arm while keeping a balanced base. Pass the choking arm beneath the neck and toward the far armpit, enclosing one shoulder.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -228,7 +222,15 @@ description: "Execute the Anaconda Choke from Dead Orchard in BJJ. Step-by-step 
 
 <section id="overview" class="content-section">
 
-Executing the Anaconda Choke from Dead Orchard requires mastery of sustained positional pressure combined with precise finishing mechanics. The attacker has already invested significant effort establishing the Dead Orchard control configuration—deep anaconda grip, shoulder pressure, and hip control—and must now convert this positional advantage into a successful submission. The finishing phase demands sensitivity to the opponent's defensive state, precise hip walking to achieve optimal compression angle, and coordinated application of grip squeeze, shoulder drive, and body rotation. Unlike explosive submission attempts, this finish rewards patience and methodical pressure escalation, capitalizing on the defensive fatigue created during the extended control phase. Understanding the relationship between grip depth, hip angle, and shoulder pressure is essential for consistently completing this choke against resisting opponents.
+The attacker controls the head and one arm from in front of the opponent, with room to establish the arm enclosure and a safe rolling angle. Dead Orchard is a bottom-player high leg triangle containing both arms. Its leg enclosure does not supply an Anaconda grip; a separate front-headlock exchange must occur first.
+
+Contain the opponent's head and one arm while keeping a balanced base. Pass the choking arm beneath the neck and toward the far armpit, enclosing one shoulder. Join to the supporting arm without pulling the neck into a twist.
+
+Use the taught shoulder-led angle only when both partners can roll safely; do not dive onto the neck. Bring the trapped shoulder toward the neck with gradual whole-body connection rather than a violent head pull. Open both arms immediately on a tap or any loss of normal responsiveness.
+
+Introduce the arm loop without pressure and rehearse any roll cooperatively. Never drive onto the cervical spine or continue squeezing after a tap.
+
+The arm-and-shoulder enclosure is a vascular choke. Close its gaps through the body angle rather than pulling the head across a fixed torso; that misalignment can create a neck crank and requires an immediate reset.
 
 **From Position**: [[Positions/Dead Orchard Control]] (Top)
 
@@ -277,12 +279,12 @@ Executing the Anaconda Choke from Dead Orchard requires mastery of sustained pos
 
 <p class="section-subtitle">What are the key principles for executing Anaconda Choke from Dead Orchard?</p>
 
-- Maintain grip depth throughout the finishing sequence—shallow grips cannot generate sufficient bilateral carotid compression
-- Walk hips toward the opponent's head in small incremental steps to progressively tighten the choking angle
-- Coordinate the squeeze with shoulder drive and hip rotation for maximum compression efficiency
-- Recognize the finishing window when the opponent's defensive movements slow and their trapped arm relaxes
-- Apply pressure progressively rather than explosively to prevent panic-driven defensive responses that create space
-- Keep chest connected to the opponent's trapped shoulder throughout the finish to prevent any postural recovery
+- Establish front headlock: Contain the opponent's head and one arm while keeping a balanced base.
+- Thread under the neck: Pass the choking arm beneath the neck and toward the far armpit, enclosing one shoulder.
+- Connect the arm loop: Join to the supporting arm without pulling the neck into a twist.
+- Choose a controlled angle: Use the taught shoulder-led angle only when both partners can roll safely; do not dive onto the neck.
+- Close the shoulder gap: Bring the trapped shoulder toward the neck with gradual whole-body connection rather than a violent head pull.
+- Release the loop: Open both arms immediately on a tap or any loss of normal responsiveness.
 
 
 </section>
@@ -293,12 +295,10 @@ Executing the Anaconda Choke from Dead Orchard requires mastery of sustained pos
 
 <p class="section-subtitle">What do you need before attempting Anaconda Choke from Dead Orchard?</p>
 
-- Deep anaconda grip secured with gable or S-grip configuration, wrist bone positioned past the opponent's far shoulder line
-- Shoulder driving consistently into the opponent's trapped shoulder with sustained downward pressure established
-- Opponent's defensive grips weakened or eliminated through the extended Dead Orchard control phase
-- Hips positioned with clear path to walk toward the opponent's head for the finishing angle
-- Opponent's trapped arm pressed firmly against their own neck creating the compression fulcrum for the blood choke
-- Free hand available to control or strip opponent's remaining defensive grips before committing to the squeeze
+- The attacker controls the head and one arm from in front of the opponent, with room to establish the arm enclosure and a safe rolling angle.
+- Contain the opponent's head and one arm while keeping a balanced base.
+- Pass the choking arm beneath the neck and toward the far armpit, enclosing one shoulder.
+- Dead Orchard is a bottom-player high leg triangle containing both arms. Its leg enclosure does not supply an Anaconda grip; a separate front-headlock exchange must occur first.
 
 
 </section>
@@ -309,13 +309,12 @@ Executing the Anaconda Choke from Dead Orchard requires mastery of sustained pos
 
 <p class="section-subtitle">How do you execute Anaconda Choke from Dead Orchard step by step?</p>
 
-1. **Confirm Grip Depth**: Verify your gable or S-grip sits deep enough that your wrist bone is positioned past the opponent's far shoulder line. If the grip is shallow, use body movement and weight shifts to walk it deeper before committing to the finish. A shallow grip wastes energy and cannot generate the bilateral compression needed to complete the blood choke. (Timing: 2-3 seconds assessment)
-2. **Walk Hips to Finishing Angle**: Begin walking your hips toward the opponent's head in small, controlled increments. Each step tightens the compression angle around the neck and reduces defensive space. Maintain constant chest-to-shoulder contact throughout the walk to prevent any postural recovery attempt from the defender. Take three to five small steps rather than one large movement. (Timing: 3-5 seconds of controlled hip walking)
-3. **Increase Shoulder Pressure**: Drive increased downward shoulder pressure into the opponent's trapped shoulder, progressively flattening their defensive structure toward the mat. Your shoulder acts as a fulcrum that pins their arm tightly against their own neck. This pressure alone begins restricting blood flow through carotid compression before the active grip squeeze is applied. (Timing: Continuous throughout finishing sequence)
-4. **Eliminate Defensive Grips**: Use your free hand to strip or control the opponent's remaining defensive grips, particularly their free hand positioned at the wrist or elbow of your choking arm. If they are framing against your hip to create distance, walk your hips past their frame by adjusting your angle rather than fighting the frame directly with arm strength. Remove all defensive interference before committing fully to the squeeze. (Timing: 2-4 seconds of targeted grip stripping)
-5. **Apply Coordinated Squeeze**: Initiate the finishing squeeze by simultaneously tightening your grip, driving your shoulder forward and down, and rotating your hips slightly toward the opponent's back. The squeeze should create the sensation of driving your elbows together through their neck. Apply pressure progressively over three to five seconds rather than in a single explosive burst to prevent defensive panic responses. (Timing: 3-5 seconds of progressive pressure escalation)
-6. **Complete the Blood Choke**: Maintain steady bilateral carotid compression while monitoring the opponent for any tap signal including verbal, physical, or signs of unconsciousness. Keep your head low and body tight to prevent last-second defensive movements or space creation. The blood choke can produce unconsciousness in four to eight seconds once fully locked, so remain alert for taps throughout and release immediately upon any signal. (Timing: 4-8 seconds maximum hold with active tap monitoring)
-7. **Micro-Adjust If Stalled**: If the opponent has not tapped after eight to ten seconds of committed pressure, make small adjustments to grip depth and hip angle rather than simply squeezing harder. Walk hips slightly further toward their head or adjust the height of your shoulder pressure. Minor positional corrections often convert a stalled choke into a successful finish without additional energy expenditure. (Timing: 2-3 seconds per adjustment cycle)
+1. **Establish front headlock**: Contain the opponent's head and one arm while keeping a balanced base.
+2. **Thread under the neck**: Pass the choking arm beneath the neck and toward the far armpit, enclosing one shoulder.
+3. **Connect the arm loop**: Join to the supporting arm without pulling the neck into a twist.
+4. **Choose a controlled angle**: Use the taught shoulder-led angle only when both partners can roll safely; do not dive onto the neck.
+5. **Close the shoulder gap**: Bring the trapped shoulder toward the neck with gradual whole-body connection rather than a violent head pull.
+6. **Release the loop**: Open both arms immediately on a tap or any loss of normal responsiveness.
 
 
 </section>
@@ -339,10 +338,10 @@ Executing the Anaconda Choke from Dead Orchard requires mastery of sustained pos
 
 <p class="section-subtitle">How might your opponent defend against Anaconda Choke from Dead Orchard?</p>
 
-- **Opponent clasps hands together to create a defensive barrier preventing grip tightening** (Effectiveness: High) - Your Response: Attack their bottom grip hand by stripping it toward their hip with your free hand, or walk hips further to increase angular pressure that bypasses the clasped defense entirely → Leads to [[Positions/Dead Orchard Control]]
-- **Opponent drives forward and attempts to roll through the choke to invert the position** (Effectiveness: Medium) - Your Response: Sprawl hips back immediately and increase chest pressure to flatten their forward drive. Use their forward momentum to tighten the choke angle rather than fighting against it → Leads to [[Positions/Half Guard]]
-- **Opponent extends trapped arm and turns away to reduce compression angle on the neck** (Effectiveness: Medium) - Your Response: Follow their turning motion while maintaining grip integrity. Their rotation often improves your finishing angle. If the grip loosens during their turn, transition to back control or darce angle immediately → Leads to [[Positions/Dead Orchard Control]]
-- **Opponent posts free hand on mat and attempts to elevate or stand to relieve pressure** (Effectiveness: Low) - Your Response: Drive shoulder weight forward and down to collapse their posting base. Walk hips around to maintain the finishing angle while their elevated position actually tightens the choke by stretching their neck → Leads to [[Positions/Dead Orchard Control]]
+- **An arm passing beneath the neck toward the armpit signals the Anaconda enclosure.** (Effectiveness: High) - Your Response: Re-check the prerequisite before continuing. Contain the opponent's head and one arm while keeping a balanced base. → Leads to [[Positions/Dead Orchard Control]]
+- **Preserve space between the shoulder and neck before the attacker closes the arm loop.** (Effectiveness: Medium) - Your Response: Re-check the prerequisite before continuing. Pass the choking arm beneath the neck and toward the far armpit, enclosing one shoulder. → Leads to [[Positions/Half Guard]]
+- **Do not fight a secured loop by twisting the neck or planting the head against a roll.** (Effectiveness: Medium) - Your Response: Re-check the prerequisite before continuing. Join to the supporting arm without pulling the neck into a twist. → Leads to [[Positions/Dead Orchard Control]]
+- **Hand fight before the enclosure becomes tight, while keeping the trapped elbow connected to the torso.** (Effectiveness: Low) - Your Response: Re-check the prerequisite before continuing. Use the taught shoulder-led angle only when both partners can roll safely; do not dive onto the neck. → Leads to [[Positions/Dead Orchard Control]]
 
 
 </section>
@@ -353,35 +352,30 @@ Executing the Anaconda Choke from Dead Orchard requires mastery of sustained pos
 
 <p class="section-subtitle">What mistakes should you avoid when executing Anaconda Choke from Dead Orchard?</p>
 
-### 1. Attempting to finish with a shallow grip that has not been walked past the opponent's far shoulder
+### 1. Skipping the checkpoint: establish front headlock
 
-- **Consequence**: Insufficient compression on the carotid arteries results in a squeeze that fatigues the arms without producing the blood choke effect, allowing the opponent to defend indefinitely
-- **Correction**: Before committing to any finishing squeeze, verify grip depth by feeling for your wrist bone past the opponent's far shoulder line. Use body movement rather than pulling to achieve depth
+- **Consequence**: The intended control is not established before the next movement; the missing requirement is: Contain the opponent's head and one arm while keeping a balanced base.
+- **Correction**: Contain the opponent's head and one arm while keeping a balanced base.
 
-### 2. Squeezing explosively with maximum force rather than applying progressive pressure
+### 2. Skipping the checkpoint: thread under the neck
 
-- **Consequence**: Triggers adrenaline-fueled defensive panic in the opponent creating space and explosive escape attempts. Also fatigues the arms rapidly, reducing ability to maintain the attempt
-- **Correction**: Apply the squeeze progressively over three to five seconds, gradually increasing compression. Steady pressure is more efficient and harder to defend than sudden explosive force
+- **Consequence**: The intended control is not established before the next movement; the missing requirement is: Pass the choking arm beneath the neck and toward the far armpit, enclosing one shoulder.
+- **Correction**: Pass the choking arm beneath the neck and toward the far armpit, enclosing one shoulder.
 
-### 3. Losing chest-to-shoulder contact during the hip walking phase of the finish
+### 3. Skipping the checkpoint: connect the arm loop
 
-- **Consequence**: Creates space that allows the opponent to recover posture, extract their trapped arm, or turn to face the attacker, neutralizing the submission threat entirely
-- **Correction**: Maintain constant chest pressure on the opponent's trapped shoulder throughout all hip adjustments. Move your upper and lower body as a connected unit rather than leading with hips alone
+- **Consequence**: The intended control is not established before the next movement; the missing requirement is: Join to the supporting arm without pulling the neck into a twist.
+- **Correction**: Join to the supporting arm without pulling the neck into a twist.
 
-### 4. Neglecting to strip the opponent's defensive grips before committing to the finishing squeeze
+### 4. Skipping the checkpoint: choose a controlled angle
 
-- **Consequence**: Opponent's free hand creates frames at the choking arm's elbow that prevent full compression, stalling the choke and wasting energy in a squeeze that cannot finish
-- **Correction**: Spend two to four seconds clearing defensive grips with your free hand before initiating the squeeze. Target wrist and elbow control to remove interference systematically
+- **Consequence**: The intended control is not established before the next movement; the missing requirement is: Use the taught shoulder-led angle only when both partners can roll safely; do not dive onto the neck.
+- **Correction**: Use the taught shoulder-led angle only when both partners can roll safely; do not dive onto the neck.
 
-### 5. Walking hips too far past the optimal finishing angle, converting the blood choke into a neck crank
+### 5. Skipping the checkpoint: close the shoulder gap
 
-- **Consequence**: Reduces choke effectiveness while increasing injury risk. The opponent may tap from pain rather than blood restriction, and in competition the referee may interpret this as a crank
-- **Correction**: Stop hip walking when you feel maximum compression resistance. The optimal angle has your chest perpendicular to the opponent's spine. Overshoot creates a cranking vector rather than choking
-
-### 6. Holding breath and tensing the entire body during the finishing attempt
-
-- **Consequence**: Rapid fatigue of grip, arms, and shoulders. Loss of sensitivity to the opponent's defensive patterns and tap signals. Reduced ability to make micro-adjustments during the squeeze
-- **Correction**: Maintain slow controlled breathing throughout the finish. Exhale during pressure application, inhale during brief adjustment phases. Only the grip and shoulder need to be engaged, not the entire body
+- **Consequence**: The intended control is not established before the next movement; the missing requirement is: Bring the trapped shoulder toward the neck with gradual whole-body connection rather than a violent head pull.
+- **Correction**: Bring the trapped shoulder toward the neck with gradual whole-body connection rather than a violent head pull.
 
 
 
@@ -393,20 +387,17 @@ Executing the Anaconda Choke from Dead Orchard requires mastery of sustained pos
 
 <p class="section-subtitle">How do you train Anaconda Choke from Dead Orchard (Attacker)?</p>
 
-**Phase 1: Grip Mechanics** - Anaconda grip depth and configuration
-Drill the gable and S-grip configurations repeatedly with a compliant partner. Focus on achieving and verifying proper grip depth past the far shoulder. Practice walking the grip deeper using body movement rather than arm pulling. 50 repetitions per session until grip placement becomes automatic.
+**Phase 1** - Identify the configuration
+Work cooperatively on establish front headlock. Contain the opponent's head and one arm while keeping a balanced base. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.
 
-**Phase 2: Hip Walking Precision** - Finishing angle development through controlled hip movement
-From established Dead Orchard control, practice walking hips to the optimal finishing angle while maintaining chest contact. Partner provides zero resistance. Focus on smooth incremental steps and identifying the compression sweet spot. Drill until the hip walk is fluid and automatic.
+**Phase 2** - Rehearse the connection
+Work cooperatively on thread under the neck. Pass the choking arm beneath the neck and toward the far armpit, enclosing one shoulder. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.
 
-**Phase 3: Coordinated Finishing** - Synchronizing grip squeeze, shoulder drive, and hip rotation
-Combine all finishing elements against a partner providing 30-50% resistance. Practice the complete sequence from grip confirmation through squeeze application. Partner taps at moderate pressure to develop finishing sensitivity. Increase resistance gradually over multiple sessions.
+**Phase 3** - Add an early response
+Work cooperatively on connect the arm loop. Join to the supporting arm without pulling the neck into a twist. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.
 
-**Phase 4: Counter Response Integration** - Adapting the finish to common defensive reactions
-Partner provides specific defensive responses (hand clasping, rolling attempts, turning away). Practice identifying each defense and applying the appropriate counter-response while maintaining finishing position. Chain between counters and finish attempts fluidly.
-
-**Phase 5: Live Application** - Full-resistance finishing from Dead Orchard control
-Positional sparring starting from established Dead Orchard control. Attacker works to finish while defender uses full resistance and all available escapes. Track finishing success rate and identify patterns where the finish stalls. Adjust technique based on live feedback.
+**Phase 4** - Link only verified checkpoints
+Work cooperatively on choose a controlled angle. Use the taught shoulder-led angle only when both partners can roll safely; do not dive onto the neck. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.
 
 
 

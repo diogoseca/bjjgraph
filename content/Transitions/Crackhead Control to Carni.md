@@ -4,7 +4,7 @@
 
 ---
 title: "Crackhead Control to Carni | BJJ Technique | BJJ Graph"
-description: "Learn Crackhead Control to Carni transition in BJJ. Transform defensive turtle into leg entanglement attack. Complete guide with setup, execution, and defense."
+description: "Changing from Crackhead Control toward Carni requires opening the second-leg clinch, isolating an arm, clearing the head-side leg and establishing the shoulder-lock angle."
 ---
 
 
@@ -16,7 +16,7 @@ description: "Learn Crackhead Control to Carni transition in BJJ. Transform defe
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Crackhead Control to Carni",
-  "description": "Learn Crackhead Control to Carni transition in BJJ. Transform defensive turtle into leg entanglement attack. Complete guide with setup, execution, and defense.",
+  "description": "Changing from Crackhead Control toward Carni requires opening the second-leg clinch, isolating an arm, clearing the head-side leg and establishing the shoulder-lock angle.",
   "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
 }
 </script>
@@ -87,7 +87,7 @@ description: "Learn Crackhead Control to Carni transition in BJJ. Transform defe
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Crackhead Control to Carni",
-  "description": "Crackhead Control to Carni is a 10th Planet reversal in which the bottom turtle player inverts beneath the chair-sitting top opponent to thread a Carni leg entanglement, converting defensive turtle into a heel-hook and back-take attack.",
+  "description": "Changing from Crackhead Control toward Carni requires opening the second-leg clinch, isolating an arm, clearing the head-side leg and establishing the shoulder-lock angle.",
   "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
 }
 </script>
@@ -105,13 +105,17 @@ description: "Learn Crackhead Control to Carni transition in BJJ. Transform defe
 
 <section id="overview" class="content-section">
 
-**Crackhead Control to Carni is a 10th Planet reversal in which the bottom turtle player inverts beneath the chair-sitting top opponent to thread a Carni leg entanglement, converting defensive turtle into a heel-hook and back-take attack.**
+**Changing from Crackhead Control toward Carni requires opening the second-leg clinch, isolating an arm, clearing the head-side leg and establishing the shoulder-lock angle.**
 
-The Crackhead Control to Carni transition represents one of the most innovative defensive-to-offensive conversions in the 10th Planet Jiu-Jitsu system. When caught in the Crackhead Control defensive position on bottom, this technique allows the defender to exploit the top player's leg positioning by threading underneath and establishing the Carni leg entanglement. Rather than simply escaping to a neutral position, this transition immediately places the former defender in a dominant attacking configuration with heel hook, saddle, and back take opportunities.
+The bottom guard player begins in Crackhead Control, facing a top player whose posture is controlled. Crackhead Control alone does not isolate the required arm. The reviewed Carni lesson begins from Z guard through Jersey, so this multi-stage connection remains conditional.
 
-The mechanical foundation of this transition relies on recognizing when the top player's weight commitment creates space underneath their body. The bottom player uses their constant hip movement and grip fighting characteristic of crackhead control defense to create a momentary opening, then explosively threads their legs to capture the opponent's near leg in the carni configuration. The key insight is that the top player's chair-sit mechanics, while excellent for maintaining turtle control, create vulnerability to leg entanglement attacks when the bottom player inverts underneath.
+Use the guard and shoulder connection to bring the opponent close before moving the high leg. Manage the shoulder and neck line with a forearm frame as the leg clears the head. Turn partly belly down with the knee close and foot supported rather than wrenching the leg across the head.
 
-This transition is particularly effective in no-gi competition where the top player lacks gi grips to anchor their position during the bottom player's explosive movement. The technique exemplifies the 10th Planet philosophy of turning defensive positions into immediate offensive threats. Success requires excellent timing, hip mobility, and the ability to maintain hand fighting intensity while simultaneously setting up the leg capture. Advanced practitioners can chain this transition with the standard Carni attack tree including heel hooks, saddle entries, and back takes.
+Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
+
+Instructional sources: [Richie Martinez — Carni shoulder lock from Z guard](https://www.youtube.com/watch?v=iClQ2Np-n30).
+
+Carni is a rotational lock on the shoulder: the triceps control and head-side leg clamp constrain the arm as the bottom player changes angle. Establish that shoulder configuration gently after opening Crackhead Control, and release before a forced roll.
 
 **From Position**: [[Positions/Rubber Guard/Crackhead Control]] (Bottom)
 **Success Rate**: 55%
@@ -174,8 +178,8 @@ This transition is particularly effective in no-gi competition where the top pla
 | &nbsp; | Attacker | Defender |
 |--------|----------|----------|
 | **Focus** | Execute technique | Prevent or counter |
-| **Key Principles** | Maintain constant hip movement in crackhead control to creat... | Monitor bottom player's hip movement direction for signs of ... |
-| **Options** | 7 execution steps | 4 defensive options |
+| **Key Principles** | Set the upper-body angle: Use the guard and shoulder connect... | Identify the shoulder threat: A leg clearing the head with a... |
+| **Options** | 6 execution steps | 4 defensive options |
 
 </section>
 
@@ -188,53 +192,49 @@ This transition is particularly effective in no-gi competition where the top pla
 ### Key Principles
 
 
-- Maintain constant hip movement in crackhead control to create unpredictability and openings for the transition
+- Set the upper-body angle: Use the guard and shoulder connection to bring the opponent close before moving the high leg.
 
-- Wait for top player to commit weight forward before initiating the inversion to carni entry
+- Frame before clearing: Manage the shoulder and neck line with a forearm frame as the leg clears the head.
 
-- Thread inside leg first to establish the critical inside positioning before committing to full transition
+- Anchor through the hips: Turn partly belly down with the knee close and foot supported rather than wrenching the leg across the head.
 
-- Use grip fighting to control top player's hands and prevent them from blocking your leg insertion
+- Hold the triceps: Keep the captured arm connected so the opponent cannot freely roll or withdraw the shoulder.
 
-- Keep chin tucked during inversion to protect neck from guillotine and darce counters
+- Control before finishing: Hold the wrist and elbow at a comfortable angle; a small change can load the shoulder rapidly.
 
-- Secure heel control immediately upon establishing leg entanglement to prevent extraction
-
-- Follow through explosively once committed rather than half-attempting the transition
+- Let the lock go: Release the wrist and leg clamp immediately on a tap or when the partner needs to roll safely.
 
 
 ### Execution Steps
 
 
-- **Establish defensive rhythm**: Maintain constant hip movement and active hand fighting characteristic of crackhead control defense....
+- **Set the upper-body angle**: Use the guard and shoulder connection to bring the opponent close before moving the high leg....
 
-- **Recognize weight commitment**: Feel for the moment when the top player commits their weight forward over your lower back in their c...
+- **Frame before clearing**: Manage the shoulder and neck line with a forearm frame as the leg clears the head....
 
-- **Clear inside arm**: Use your inside hand to strip any controlling grip on that arm while simultaneously beginning to tur...
+- **Anchor through the hips**: Turn partly belly down with the knee close and foot supported rather than wrenching the leg across t...
 
-- **Invert and thread inside leg**: Explosively rotate your hips underneath the opponent while threading your inside leg between their l...
+- **Hold the triceps**: Keep the captured arm connected so the opponent cannot freely roll or withdraw the shoulder....
 
-- **Complete leg entanglement with outside leg**: Your outside leg follows to complete the carni leg entanglement around their near leg, creating the ...
+- **Control before finishing**: Hold the wrist and elbow at a comfortable angle; a small change can load the shoulder rapidly....
 
-- **Secure heel and ankle control**: Immediately grip the opponent's heel and ankle with both hands to establish submission threat. The i...
-
-- **Establish optimal attack angle**: Adjust your hip angle relative to opponent's hip line to create optimal heel hook leverage. Your hip...
+- **Let the lock go**: Release the wrist and leg clamp immediately on a tap or when the partner needs to roll safely....
 
 
 ### Common Mistakes
 
 
-- **Attempting transition when top player has not committed weight forward**
-  - Consequence: Top player easily counters by posting wide or driving you flat, worsening your defensive position and potentially giving up back control
-  - Correction: Wait for genuine weight commitment before initiating. Feel for forward pressure on your lower back that indicates their base is compromised
+- **Skipping the checkpoint: set the upper-body angle**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Use the guard and shoulder connection to bring the opponent close before moving the high leg.
+  - Correction: Use the guard and shoulder connection to bring the opponent close before moving the high leg.
 
-- **Failing to clear inside arm before inverting**
-  - Consequence: Trapped arm prevents full rotation and leaves you stuck in transitional position vulnerable to top player's counter-attacks
-  - Correction: Strip grips on inside arm as first action after recognizing opportunity. The arm must be free to assist leg insertion and establish heel control
+- **Skipping the checkpoint: frame before clearing**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Manage the shoulder and neck line with a forearm frame as the leg clears the head.
+  - Correction: Manage the shoulder and neck line with a forearm frame as the leg clears the head.
 
-- **Threading outside leg first instead of inside leg**
-  - Consequence: Lose critical inside positioning allowing opponent to easily step over and pass. Outside leg first creates no barrier to escape
-  - Correction: Always thread inside leg first to establish hook over hip. Inside positioning is non-negotiable for maintaining the carni entanglement
+- **Skipping the checkpoint: anchor through the hips**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Turn partly belly down with the knee close and foot supported rather than wrenching the leg across the head.
+  - Correction: Turn partly belly down with the knee close and foot supported rather than wrenching the leg across the head.
 
 
 </section>
@@ -248,43 +248,37 @@ This transition is particularly effective in no-gi competition where the top pla
 ### Key Principles
 
 
-- Monitor bottom player's hip movement direction for signs of inversion rather than standard defensive circling
+- Identify the shoulder threat: A leg clearing the head with an overhook is an upper-body trap, even if a butterfly hook remains below.
 
-- Maintain weight distribution awareness to avoid over-committing forward into the chair-sit position
+- Keep the elbow close early: Avoid reaching away while the opponent sets the triceps control.
 
-- React immediately to leg threading attempts by sprawling hips back or stepping free leg over to block
+- Deny the belly-down angle: Maintain a balanced base and a safe inside frame before the shoulder becomes clamped.
 
-- Keep near leg retracted or posted wide when you sense increased hip activity from bottom player
+- Free the arm before passing: Create slack around the shoulder and elbow before moving the hips past the legs.
 
-- Prioritize preventing inside leg hook establishment as this is the critical control point for carni entry
+- Avoid rolling against the lock: Do not force a forward roll when the triceps and wrist are fixed; tap if pressure has already engaged.
 
-- Accept losing crackhead control top position rather than getting caught in carni entanglement
-
-- Use upper body grips to restrict bottom player's arm freedom which limits their ability to assist the inversion
+- Rebuild posture after release: Raise the head and chest only after the arm and head-side leg are clear.
 
 
 ### Recognition Cues
 
 
-- Bottom player's hip movement shifts from horizontal circling to angling underneath your body toward your near leg
+- The bottom guard player begins in Crackhead Control, facing a top player whose posture is controlled.
 
-- Bottom player aggressively strips your grip on their inside arm, freeing it for the inversion assist
+- Manage the shoulder and neck line with a forearm frame as the leg clears the head.
 
-- You feel the bottom player's shoulder dip as they begin rotating underneath rather than pushing outward
-
-- Bottom player's defensive energy suddenly increases with explosive hip movement after a period of standard rhythm
-
-- Your weight feels lighter on the bottom player's back as they create space underneath by arching or shifting
+- Keep the captured arm connected so the opponent cannot freely roll or withdraw the shoulder.
 
 
 ### Defensive Options
 
 
-- **Sprawl hips back immediately and retract near leg away from bottom player's threading attempt** - When: At the earliest recognition of inversion attempt, before inside leg hook is established
+- **A leg clearing the head with an overhook is an upper-body trap, even if a butterfly hook remains below.** - When: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
 
-- **Step free leg over the bottom player's body to block the leg threading path and re-establish heavy top pressure** - When: When you recognize the inversion mid-execution but before the leg entanglement is locked
+- **Avoid reaching away while the opponent sets the triceps control.** - When: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
 
-- **Drive forward aggressively with chest pressure to flatten the bottom player before they complete the inversion** - When: When the bottom player has just begun the inversion and has not yet cleared their hips underneath
+- **Maintain a balanced base and a safe inside frame before the shoulder becomes clamped.** - When: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
 
 
 </section>
@@ -295,13 +289,10 @@ This transition is particularly effective in no-gi competition where the top pla
 ## Variations
 
 
-**Half-Carni Recovery**: When opponent partially blocks the full carni entry, establish half-guard or single leg X-guard position instead. Use whatever leg entanglement is available from the partial transition as basis for guard recovery rather than forcing the complete carni configuration. (When to use: When opponent recognizes transition early and begins defensive reaction but cannot fully prevent your movement)
+**Cooperative checkpoint drill**: Use the guard and shoulder connection to bring the opponent close before moving the high leg. Manage the shoulder and neck line with a forearm frame as the leg clears the head. (When to use: Learning the control without submission pressure)
 
 
-**Direct Saddle Entry**: Rather than establishing carni as intermediate position, thread directly to saddle configuration when opponent's leg position allows. Skip the carni and go directly to the more dominant entanglement when the angle presents itself during inversion. (When to use: When opponent's leg is already in position for saddle entry, typically when they have wide base or posted leg during your inversion)
-
-
-**Back Take Chain**: If opponent reacts to carni entry by rolling away, follow immediately for back take rather than establishing the carni. Use the momentum of your inversion to pursue their back when they turn away from the leg attack threat. (When to use: When opponent's defensive reaction exposes their back before you complete the leg entanglement)
+**Response and reset drill**: A leg clearing the head with an overhook is an upper-body trap, even if a butterfly hook remains below. Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route. (When to use: Adding one early response after both partners recognize the configuration)
 
 
 
@@ -313,7 +304,7 @@ This transition is particularly effective in no-gi competition where the top pla
 
 ## Position Integration
 
-The Crackhead Control to Carni transition represents a critical link between the 10th Planet turtle defense system and modern leg lock methodology. It transforms the crackhead control bottom position from a purely defensive survival state into a launching platform for the complete carni attack tree including heel hooks, saddle transitions, and back takes. This transition is particularly valuable in no-gi competition where leg attacks are legal and the lack of gi grips makes the explosive inversion more achievable. Mastery of this technique allows practitioners to approach turtle bottom positions with offensive intent, fundamentally changing the risk-reward calculus of guard recovery situations. The transition chains seamlessly with standard carni follow-ups and represents one of the highest-value reversals available from defensive turtle positions in modern grappling competition.
+The bottom guard player begins in Crackhead Control, facing a top player whose posture is controlled. Crackhead Control alone does not isolate the required arm. The reviewed Carni lesson begins from Z guard through Jersey, so this multi-stage connection remains conditional. A destination is established by its actual body configuration, not by completing an isolated grip or by the name of the route.
 
 </section>
 
@@ -323,27 +314,13 @@ The Crackhead Control to Carni transition represents a critical link between the
 ## Related Techniques
 
 
-- [[Positions/Rubber Guard/Crackhead Control]] - Starting position - the defensive turtle control you transition from
+- [[Positions/Rubber Guard]] - Related configuration; establish its own prerequisites: compare the configuration and required controls for Rubber Guard.
 
-- [[Positions/Rubber Guard/Carni]] - Target position - the leg entanglement established upon successful completion
+- [[Positions/Rubber Guard/Chill Dog]] - Related configuration; establish its own prerequisites: compare the configuration and required controls for Chill Dog.
 
-- [[Positions/Ashi Garami]] - Related system - carni is part of the broader ashi garami leg entanglement family
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Related configuration; establish its own prerequisites: compare the configuration and required controls for Knee Shield Half Guard.
 
-- [[Transitions/Turtle to Guard]] - Alternative escape - standard guard recovery when carni is not available
-
-- [[Transitions/Granby Roll to Guard]] - Alternative technique - different inversion path from turtle defense
-
-- [[Submissions/Inside Heel Hook]] - Primary follow-up submission from established carni
-
-- [[Transitions/Saddle Entry from Top]] - Follow-up advancement when opponent defends initial heel hook threat
-
-- [[Transitions/Rolling Back Take]] - Chain attack available when opponent rolls to escape carni
-
-- [[Positions/X-Guard/Single Leg X-Guard]] - Related position sharing entry mechanics and inside leg positioning
-
-- [[Positions/Ashi Garami/Honey Hole]] - Related entanglement - alternative finishing position from carni transitions
-
-- [[Positions/Back Control]] - Counter outcome - position opponent achieves if transition is poorly timed
+- [[Positions/Omoplata Control]] - Related configuration; establish its own prerequisites: compare the configuration and required controls for Omoplata Control.
 
 
 </section>

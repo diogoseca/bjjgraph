@@ -4,7 +4,7 @@
 
 ---
 title: "Kiss of the Dragon | BJJ Technique | BJJ Graph"
-description: "Learn Kiss of the Dragon in BJJ. Advanced rolling back take from turtle that bypasses defensive layers through inversion to establish back control."
+description: "Kiss of the Dragon is a reverse De La Riva inversion that takes the bottom player underneath the opponent's near leg to reach the backside and pursue rear control."
 ---
 
 
@@ -16,7 +16,7 @@ description: "Learn Kiss of the Dragon in BJJ. Advanced rolling back take from t
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Kiss of the Dragon",
-  "description": "Learn Kiss of the Dragon in BJJ. Advanced rolling back take from turtle that bypasses defensive layers through inversion to establish back control.",
+  "description": "Kiss of the Dragon is a reverse De La Riva inversion that takes the bottom player underneath the opponent\u0027s near leg to reach the backside and pursue rear control.",
   "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
 }
 </script>
@@ -87,7 +87,7 @@ description: "Learn Kiss of the Dragon in BJJ. Advanced rolling back take from t
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Kiss of the Dragon",
-  "description": "The Kiss of the Dragon is an advanced rolling back take from turtle top in which the attacker somersaults forward beneath the opponent's hips to surface behind them, bypassing the frames that stop conventional seatbelt entries.",
+  "description": "Kiss of the Dragon is a reverse De La Riva inversion that takes the bottom player underneath the opponent's near leg to reach the backside and pursue rear control.",
   "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
 }
 </script>
@@ -105,13 +105,15 @@ description: "Learn Kiss of the Dragon in BJJ. Advanced rolling back take from t
 
 <section id="overview" class="content-section">
 
-**The Kiss of the Dragon is an advanced rolling back take from turtle top in which the attacker somersaults forward beneath the opponent's hips to surface behind them, bypassing the frames that stop conventional seatbelt entries.**
+**Kiss of the Dragon is a reverse De La Riva inversion that takes the bottom player underneath the opponent's near leg to reach the backside and pursue rear control.**
 
-The Kiss of the Dragon is an advanced rolling back take technique that allows the top player to bypass the turtle position's defensive structure and directly establish back control. The practitioner uses a forward somersault while maintaining grip control on the opponent's hips or belt, rolling underneath and behind the turtle position to emerge directly on the back. This dynamic movement is particularly effective against opponents who are skilled at defending traditional back take attempts such as seatbelt entries and crab rides, as it circumvents the typical defensive frames and hand fighting that occur during standard back attacks.
+The bottom player has a reverse De La Riva hook against a standing or crouching passer, with space for shoulder-supported inversion. It begins from guard below the opponent, not from a top turtle ride. Reaching behind the legs is a checkpoint; complete back control still requires torso attachment and leg control.
 
-The technique exploits the moment when an opponent commits weight forward into their turtle shell. By entering from a 45-degree angle and rolling tightly underneath the opponent's center of gravity, the practitioner arrives at the back before defensive reactions can engage. The key mechanical insight is that most turtle defenses are oriented to resist attacks coming from behind and above, while the Kiss of the Dragon attacks from underneath, rendering those defensive layers irrelevant.
+Use the reverse hook and lower-leg connection while facing the standing passer. Load weight onto the far leg or available post to create space beside the near leg. Turn onto the shoulder and upper back, keeping weight off the neck.
 
-The technique requires excellent spatial awareness, timing, and the ability to maintain connection throughout the inversion. The hip grip serves as the anchor that keeps the rolling practitioner's body tracing a tight arc around the opponent rather than rolling into empty space. When executed properly, the Kiss of the Dragon provides one of the most direct paths from turtle top to full back control with hooks. The technique has gained prominence in modern competition grappling as a complement to traditional turtle attacks, creating a three-dimensional threat system that is extremely difficult to defend comprehensively.
+Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
+
+Instructional sources: [Giancarlo Bodoni — reverse De La Riva inversion](https://www.youtube.com/watch?v=vkT6Mpn5uLY); [Rob Biernacki and Stephan Kesting — no-gi De La Riva](https://www.grapplearts.com/no-gi-de-la-riva/).
 
 **From Position**: [[Positions/Turtle]] (Top)
 **Success Rate**: 29%
@@ -174,8 +176,8 @@ The technique requires excellent spatial awareness, timing, and the ability to m
 | &nbsp; | Attacker | Defender |
 |--------|----------|----------|
 | **Focus** | Execute technique | Prevent or counter |
-| **Key Principles** | Maintain constant connection to opponent's hips throughout t... | Monitor opponent's positioning angle and head level relative... |
-| **Options** | 7 execution steps | 4 defensive options |
+| **Key Principles** | Establish reverse De La Riva: Use the reverse hook and lower... | Recognize the reverse hook: A bottom player turning under th... |
+| **Options** | 6 execution steps | 4 defensive options |
 
 </section>
 
@@ -188,53 +190,49 @@ The technique requires excellent spatial awareness, timing, and the ability to m
 ### Key Principles
 
 
-- Maintain constant connection to opponent's hips throughout the roll using active pulling tension on your grip
+- Establish reverse De La Riva: Use the reverse hook and lower-leg connection while facing the standing passer.
 
-- Forward roll must be tight and controlled, tracing an arc around the opponent's body rather than rolling through empty space
+- Off-balance the passer: Load weight onto the far leg or available post to create space beside the near leg.
 
-- Time the entry when opponent commits weight forward into their turtle defensive structure
+- Set a shoulder-supported angle: Turn onto the shoulder and upper back, keeping weight off the neck.
 
-- Keep head tucked and spine rounded during inversion to maintain smooth rotation and prevent neck injury
+- Invert beneath the near leg: Bring the head and tucked knee through the space with a controlled pendulum action.
 
-- Establish seatbelt grip immediately upon completing the roll before opponent can react
+- Reach the backside: Connect behind the thigh while bringing the knees behind the opponent's leg line.
 
-- Use momentum from the roll to penetrate hooks before opponent can mount back defense
-
-- Position at a 45-degree angle to one side before initiating to create proper rolling trajectory
+- Secure rear attachment separately: Establish torso and leg control before calling the result back control; return to guard if the connection is lost.
 
 
 ### Execution Steps
 
 
-- **Establish hip control from top turtle at an angle**: From top turtle position, secure a firm grip on opponent's belt or the back of their pants at the hi...
+- **Establish reverse De La Riva**: Use the reverse hook and lower-leg connection while facing the standing passer....
 
-- **Threaten traditional back take to load opponent's weight forward**: Before committing to the roll, briefly threaten a standard seatbelt back take or attempt to insert h...
+- **Off-balance the passer**: Load weight onto the far leg or available post to create space beside the near leg....
 
-- **Drop head below opponent's hip line**: Lower your head and shoulders beneath the level of your opponent's hips while maintaining your grip....
+- **Set a shoulder-supported angle**: Turn onto the shoulder and upper back, keeping weight off the neck....
 
-- **Initiate forward roll under opponent**: Execute a tight forward somersault while pulling on the hip grip to maintain connection. Tuck your c...
+- **Invert beneath the near leg**: Bring the head and tucked knee through the space with a controlled pendulum action....
 
-- **Maintain hip connection through the inversion phase**: As you roll inverted underneath your opponent, actively pull on your hip grip to keep your body conn...
+- **Reach the backside**: Connect behind the thigh while bringing the knees behind the opponent's leg line....
 
-- **Emerge behind opponent and transition to seatbelt**: Complete the forward roll to emerge directly behind your opponent's back. Immediately transition you...
-
-- **Insert hooks and consolidate back control**: With seatbelt control established, use your legs to insert both hooks inside your opponent's thighs,...
+- **Secure rear attachment separately**: Establish torso and leg control before calling the result back control; return to guard if the conne...
 
 
 ### Common Mistakes
 
 
-- **Rolling too far away from opponent without maintaining connection**
-  - Consequence: You complete the somersault but emerge too far from the opponent's back, giving them time to turn and face you or escape entirely
-  - Correction: Maintain constant pulling tension on your hip grip throughout the roll, actively drawing yourself along a tight arc around their body. The grip should pull you into the opponent rather than allowing you to roll into empty space.
+- **Skipping the checkpoint: establish reverse de la riva**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Use the reverse hook and lower-leg connection while facing the standing passer.
+  - Correction: Use the reverse hook and lower-leg connection while facing the standing passer.
 
-- **Attempting technique when opponent's weight is posted back on their heels**
-  - Consequence: Unable to get head and shoulders under opponent's hips, resulting in incomplete roll or getting crushed as opponent drives weight onto you
-  - Correction: Only attempt Kiss of the Dragon when opponent has committed weight forward into defensive turtle. Create this condition by threatening traditional back takes to draw their defensive weight forward before switching to the roll.
+- **Skipping the checkpoint: off-balance the passer**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Load weight onto the far leg or available post to create space beside the near leg.
+  - Correction: Load weight onto the far leg or available post to create space beside the near leg.
 
-- **Rolling with flat back instead of rounded spine**
-  - Consequence: Painful impact on spine, slower rotation, and loss of control during the technique, potentially resulting in neck or back injury
-  - Correction: Tuck chin to chest and maintain rounded spine throughout the roll. Think of making your back into a wheel shape that rolls smoothly. Practice the rolling motion in isolation before adding opponent resistance.
+- **Skipping the checkpoint: set a shoulder-supported angle**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Turn onto the shoulder and upper back, keeping weight off the neck.
+  - Correction: Turn onto the shoulder and upper back, keeping weight off the neck.
 
 
 </section>
@@ -248,37 +246,37 @@ The technique requires excellent spatial awareness, timing, and the ability to m
 ### Key Principles
 
 
-- Monitor opponent's positioning angle and head level relative to your hips as primary early warning indicators
+- Recognize the reverse hook: A bottom player turning under the near leg from reverse De La Riva is seeking backside access.
 
-- Maintain balanced weight distribution in turtle rather than committing fully forward, keeping hips loaded toward heels
+- Keep a mobile base: Redistribute weight before the far leg and posting arm are loaded.
 
-- Protect hip grips aggressively since the attacker's connection to your hips is the anchor for their entire technique
+- Manage the hook early: Clear the reverse hook before the opponent has inverted under the knee line.
 
-- Follow the attacker's rotation direction rather than freezing when you feel the roll initiate underneath you
+- Track the hips: Turn with the opponent while keeping the knee aligned rather than spinning on a trapped foot.
 
-- Transition immediately to guard recovery or scramble once you detect the rolling entry rather than remaining in turtle
+- Deny rear attachment: Face the guard player again before their torso and legs secure the back.
+
+- Protect the inversion: Never drive the inverted partner onto the neck to stop the movement.
 
 
 ### Recognition Cues
 
 
-- Opponent shifts from directly behind you to a 45-degree angle on one side while maintaining hip grip, indicating entry angle setup
+- The bottom player has a reverse De La Riva hook against a standing or crouching passer, with space for shoulder-supported inversion.
 
-- Opponent's head drops below your hip level and their weight shifts downward rather than pressing into your back from above
+- Load weight onto the far leg or available post to create space beside the near leg.
 
-- Opponent's grip on your belt or pants transitions from controlling pressure to pulling tension, indicating they are preparing to use the grip as a rolling anchor
-
-- Sudden loss of chest-to-back pressure from above accompanied by a feeling of the opponent's body passing underneath your hips
+- Bring the head and tucked knee through the space with a controlled pendulum action.
 
 
 ### Defensive Options
 
 
-- **Sit hips back to heels and sprawl weight rearward to collapse entry space** - When: When you recognize opponent positioning at an angle with their head dropping below your hips, before the roll has initiated
+- **A bottom player turning under the near leg from reverse De La Riva is seeking backside access.** - When: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
 
-- **Strip opponent's hip grip by prying their hand off your belt or pants with both hands** - When: When you feel the opponent establishing the anchor grip on your hips before they initiate the roll
+- **Redistribute weight before the far leg and posting arm are loaded.** - When: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
 
-- **Turn and follow the opponent's rotation direction, sitting through to guard recovery** - When: When the roll has already begun and you feel the opponent passing underneath you
+- **Clear the reverse hook before the opponent has inverted under the knee line.** - When: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
 
 
 </section>
@@ -289,16 +287,10 @@ The technique requires excellent spatial awareness, timing, and the ability to m
 ## Variations
 
 
-**No-Gi Kiss of the Dragon**: Without belt or gi pants to grip, establish control by cupping underneath the opponent's hips with both hands or gripping the back of their thighs near the hip crease. The rolling motion remains the same but requires stronger arm engagement to maintain connection without fabric grips. Often combined with a front headlock position before transitioning to hip control for the roll. (When to use: No-gi competition or training when traditional gi grips are unavailable)
+**Cooperative checkpoint drill**: Use the reverse hook and lower-leg connection while facing the standing passer. Load weight onto the far leg or available post to create space beside the near leg. (When to use: Learning the control without submission pressure)
 
 
-**Single Arm Kiss of the Dragon**: Execute the technique with only one hand maintaining hip contact while the other arm threads under the opponent's body to pre-position for seatbelt control during the roll. This variant reduces grip dependence but requires more precise timing and body positioning. The free arm can establish upper body control before you even complete the rotation, making the finishing position faster to secure. (When to use: When opponent's hand fighting prevents two-handed hip grip or when transitioning from front headlock control)
-
-
-**Kiss of the Dragon to Truck**: Instead of emerging directly to back control, grip one ankle and the opposite hip before initiating the roll, maintaining leg control throughout the somersault to finish in the truck position. This creates leg lock opportunities including calf slicers and banana splits in addition to traditional back attacks, and is particularly effective in submission-only formats. (When to use: Against opponents who defend back takes well but are vulnerable to leg entanglements, or in rule sets that favor submissions over positional dominance)
-
-
-**Matrix Style Entry**: From a more upright position behind a turtled opponent, perform an arcing cartwheel or matrix-style bridge motion rather than a forward somersault, traveling over and around the opponent in a wider arc. This variation generates more momentum and can be executed from greater distance but requires higher athleticism and spatial awareness. (When to use: When opponent is in low flat turtle and you have space to execute the more athletic entry, or when surprise and speed are paramount)
+**Response and reset drill**: A bottom player turning under the near leg from reverse De La Riva is seeking backside access. Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route. (When to use: Adding one early response after both partners recognize the configuration)
 
 
 
@@ -310,7 +302,7 @@ The technique requires excellent spatial awareness, timing, and the ability to m
 
 ## Position Integration
 
-The Kiss of the Dragon is a specialized back take technique that fits within the turtle top attacking system as an advanced second-layer option. It serves as a complement to traditional back attacks like the crab ride, seatbelt back take, and front headlock entries. When an opponent successfully defends standard back takes by committing weight forward into their defensive shell, this forward commitment actually creates the conditions needed for the Kiss of the Dragon entry. The technique is particularly valuable in no-gi grappling where turtle escapes are more effective due to the absence of controlling gi grips. In the broader positional hierarchy, successful execution transitions from turtle top (0 points) to back control (4 points in IBJJF rules), representing one of the highest-value position transitions available. The Kiss of the Dragon to Truck variant bridges traditional positional grappling and modern leg entanglement systems, providing additional finishing pathways through calf slicers and banana splits.
+The bottom player has a reverse De La Riva hook against a standing or crouching passer, with space for shoulder-supported inversion. It begins from guard below the opponent, not from a top turtle ride. Reaching behind the legs is a checkpoint; complete back control still requires torso attachment and leg control. A destination is established by its actual body configuration, not by completing an isolated grip or by the name of the route.
 
 </section>
 
@@ -320,31 +312,11 @@ The Kiss of the Dragon is a specialized back take technique that fits within the
 ## Related Techniques
 
 
-- [[Positions/Turtle]] - Starting position where technique is initiated from top
+- [[Positions/De La Riva Guard/Reverse De La Riva Guard]] - Related configuration; establish its own prerequisites: compare the configuration and required controls for Reverse De La Riva Guard.
 
-- [[Positions/Back Control]] - Primary target position upon successful execution
+- [[Positions/Back Control]] - Related configuration; establish its own prerequisites: compare the configuration and required controls for Back Control.
 
-- [[Transitions/Crab Ride to Back]] - Alternative back take method from turtle top
-
-- [[Transitions/Rolling Back Take]] - Similar rolling mechanics for back take entry
-
-- [[Positions/Twister Control/Truck]] - Alternative ending position via Kiss of the Dragon to Truck variant
-
-- [[Transitions/Granby Roll to Guard]] - Related inversion movement pattern used by defender
-
-- [[Transitions/Berimbolo Entry]] - Similar rolling mechanics and inversion principles
-
-- [[Submissions/Rear Naked Choke]] - Primary follow-up submission from back control
-
-- [[Submissions/Bow and Arrow Choke]] - High-percentage gi follow-up submission from back control
-
-- [[Transitions/Armbar from Back Transition]] - Follow-up submission option from back control
-
-- [[Positions/Crab Ride]] - Alternative back take control position from turtle
-
-- [[Positions/Front Headlock]] - Alternative turtle control position when Kiss of the Dragon is unavailable
-
-- [[Transitions/Crucifix from Turtle]] - Alternative advanced attack from turtle top position
+- [[Positions/Open Guard]] - Related configuration; establish its own prerequisites: compare the configuration and required controls for Open Guard.
 
 
 </section>

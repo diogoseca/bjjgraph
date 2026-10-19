@@ -4,7 +4,7 @@
 
 ---
 title: "Carni Top | BJJ Position Guide | BJJ Graph"
-description: "Master defending and escaping Carni position in BJJ. Essential defensive strategies against advanced leg entanglements with systematic escape paths and counter-attack opportunities."
+description: "Carni top perspective: A leg clearing the head with an overhook is an upper-body trap, even if a butterfly hook remains below. Avoid reaching away while the opponent sets the triceps control."
 ---
 
 
@@ -55,42 +55,42 @@ description: "Master defending and escaping Carni position in BJJ. Essential def
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What happens if you panicking and attempting explosive movements without systematic escape sequence?",
+      "name": "What happens if you skipping the checkpoint: identify the shoulder threat?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Expend energy rapidly while failing to improve position and potentially tearing own knee ligaments The correct approach is: Remain calm, protect heel first, then systematically work through escape hierarchy prioritizing safety over speed"
+        "text": "The intended control is not established before the next movement; the missing requirement is: A leg clearing the head with an overhook is an upper-body trap, even if a butterfly hook remains below. The correct approach is: A leg clearing the head with an overhook is an upper-body trap, even if a butterfly hook remains below."
       }
     },
     {
       "@type": "Question",
-      "name": "What happens if you ignoring the heel hook threat while focusing only on extracting the leg?",
+      "name": "What happens if you skipping the checkpoint: keep the elbow close early?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Suffer catastrophic knee injury while attempting escape without first securing ankle position The correct approach is: Always address immediate submission threat first by controlling ankle and keeping toes pointed away from attacker"
+        "text": "The intended control is not established before the next movement; the missing requirement is: Avoid reaching away while the opponent sets the triceps control. The correct approach is: Avoid reaching away while the opponent sets the triceps control."
       }
     },
     {
       "@type": "Question",
-      "name": "What happens if you rolling away from the leg attack without recognizing back exposure risk?",
+      "name": "What happens if you skipping the checkpoint: deny the belly-down angle?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Give up back control to bottom player who follows the roll and secures dominant position The correct approach is: Recognize that rolling away often plays into bottom player's strategy and consider alternative escapes"
+        "text": "The intended control is not established before the next movement; the missing requirement is: Maintain a balanced base and a safe inside frame before the shoulder becomes clamped. The correct approach is: Maintain a balanced base and a safe inside frame before the shoulder becomes clamped."
       }
     },
     {
       "@type": "Question",
-      "name": "What happens if you remaining static in the position hoping bottom player will make mistake?",
+      "name": "What happens if you skipping the checkpoint: free the arm before passing?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Allow bottom player time to perfect their controls and establish multiple attack paths The correct approach is: Begin escape sequence immediately upon recognizing position rather than waiting for opportunity"
+        "text": "The intended control is not established before the next movement; the missing requirement is: Create slack around the shoulder and elbow before moving the hips past the legs. The correct approach is: Create slack around the shoulder and elbow before moving the hips past the legs."
       }
     },
     {
       "@type": "Question",
-      "name": "What happens if you using upper body strength to try to muscle out of entanglement?",
+      "name": "What happens if you skipping the checkpoint: avoid rolling against the lock?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Expend massive energy without addressing technical problems of leg isolation and control The correct approach is: Focus on technical solutions like creating angles, clearing hooks, and systematic leg extraction"
+        "text": "The intended control is not established before the next movement; the missing requirement is: Do not force a forward roll when the triceps and wrist are fixed; tap if pressure has already engaged. The correct approach is: Do not force a forward roll when the triceps and wrist are fixed; tap if pressure has already engaged."
       }
     }
   ]
@@ -103,7 +103,7 @@ description: "Master defending and escaping Carni position in BJJ. Essential def
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Carni Top",
-  "description": "Master defending and escaping Carni position in BJJ. Essential defensive strategies against advanced leg entanglements with systematic escape paths and counter-attack opportunities.",
+  "description": "Carni top perspective: A leg clearing the head with an overhook is an upper-body trap, even if a butterfly hook remains below. Avoid reaching away while the opponent sets the triceps control.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -171,13 +171,13 @@ description: "Master defending and escaping Carni position in BJJ. Essential def
 
 <section id="overview" class="content-section">
 
-From the top perspective, being caught in the Carni position represents one of the most dangerous situations in modern no-gi grappling. The top player finds their leg trapped and isolated in the bottom player's leg entanglement, with immediate threats of heel hooks, transitions to the saddle, and back exposure. Understanding the defensive principles and escape mechanics from Carni is essential for any practitioner competing in rulesets where leg locks are legal.
+The top player is responsible for recognizing and defending the control. The guard player has a high leg and an overhook-side shoulder connection. The controlling leg has cleared around the head while the knee stays close to the torso. The guard player turns partly belly down and anchors the foot to limit posture recovery. Triceps and wrist control isolate the captured arm for a controlled shoulder-lock threat.
 
-The fundamental challenge of defending the Carni from top is the multi-directional nature of the threats. Every defensive action you take opens a different offensive opportunity for the bottom player. If you pull your knee toward your chest to defend the heel hook, you create angles for the saddle entry. If you attempt to roll away to extract your leg, you expose your back. If you turn belly down to hide your heel, you give up the truck position. If you extend your leg to create distance, you present the heel for immediate attack. This is what makes the Carni such an effective control position - it creates true dilemmas where no single defensive response is sufficient.
+A leg clearing the head with an overhook is an upper-body trap, even if a butterfly hook remains below. Avoid reaching away while the opponent sets the triceps control. Maintain a balanced base and a safe inside frame before the shoulder becomes clamped.
 
-Successful defense from Carni top requires a systematic approach that prioritizes specific defensive actions in the correct order. First priority is preventing the heel hook finish itself by controlling your ankle and keeping your toes pointed away from the attacker. Second priority is preventing the saddle transition by maintaining leg extension and preventing your knee from being pulled across your body. Third priority is creating frames and distance to begin the extraction process. Fourth priority is recognizing when to accept positional loss (giving up guard pass or scramble position) rather than risking catastrophic knee injury.
+Create slack around the shoulder and elbow before moving the hips past the legs. Do not force a forward roll when the triceps and wrist are fixed; tap if pressure has already engaged. Raise the head and chest only after the arm and head-side leg are clear.
 
-The most successful escapes from Carni involve recognizing the position early, before the bottom player has fully established all their control points, and immediately beginning the extraction process. Advanced practitioners can also recognize counter-attack opportunities when the bottom player over-commits to a specific attack, allowing the top player to pass to side control or establish their own leg entanglement position. However, the general principle from top should be conservative defense focused on safe extraction rather than aggressive counter-attacks that risk compounding the danger.
+Richie Martinez demonstrates the configuration from Z guard through Jersey. The legs help anchor the upper body, but the submission target is the shoulder; a calf slicer, heel hook, or kneebar requires a separate lower-body capture. Shoulder pressure can arrive before a large movement is visible. Stop at control during drills, tap early, and never combine a fixed wrist with an explosive roll or a forced stack.
 
 </section>
 
@@ -207,11 +207,10 @@ The most successful escapes from Carni involve recognizing the position early, b
 
 <p class="section-subtitle">What is Carni (Top)?</p>
 
-- Top player's leg is trapped and isolated in bottom player's leg entanglement, with limited mobility and heel exposed to potential attack, requiring immediate defensive responses
-- Top player must maintain awareness of heel position and keep ankle flexed with toes pointed away from attacker to prevent immediate heel hook finish while working to extract the trapped leg
-- Top player's upper body is positioned forward or sideways as they attempt to defend leg attack, creating vulnerability to back exposure if they roll or turn to escape
-- Top player must balance between defending immediate submission threat and preventing positional advancement to saddle or back control, creating difficult defensive dilemmas
-- Top player's free leg must be positioned to prevent bottom player from establishing additional control points or transitioning to more dominant leg entanglement positions
+- The guard player has a high leg and an overhook-side shoulder connection.
+- The controlling leg has cleared around the head while the knee stays close to the torso.
+- The guard player turns partly belly down and anchors the foot to limit posture recovery.
+- Triceps and wrist control isolate the captured arm for a controlled shoulder-lock threat.
 
 
 </section>
@@ -222,12 +221,9 @@ The most successful escapes from Carni involve recognizing the position early, b
 
 <p class="section-subtitle">What do you need before playing Carni (Top)?</p>
 
-- Bottom player has successfully established Carni control from guard position or leg entanglement
-- Top player's leg is isolated and entangled in bottom player's leg configuration
-- Bottom player maintains inside positioning and heel control
-- Top player recognizes the danger of the position and initiates defensive sequence
-- Understanding of heel hook mechanics and injury risks
-- Knowledge of leg entanglement escape principles and hierarchy
+- A leg clearing the head with an overhook is an upper-body trap, even if a butterfly hook remains below.
+- Avoid reaching away while the opponent sets the triceps control.
+- Maintain a balanced base and a safe inside frame before the shoulder becomes clamped.
 
 
 </section>
@@ -238,13 +234,12 @@ The most successful escapes from Carni involve recognizing the position early, b
 
 <p class="section-subtitle">What are the key principles for attacking from Carni?</p>
 
-- First priority is protecting the heel and preventing immediate submission by controlling ankle position
-- Maintain leg extension to prevent saddle transition while simultaneously working to extract trapped leg
-- Create frames and distance with upper body to prevent bottom player from establishing additional control
-- Recognize when to accept positional loss rather than risk catastrophic knee injury
-- Keep free leg positioned defensively to prevent bottom player from establishing more control
-- Move decisively once escape opportunity is recognized rather than remaining static in danger
-- Be willing to give up position or accept guard passing if it means safely extracting from leg entanglement
+- Identify the shoulder threat: A leg clearing the head with an overhook is an upper-body trap, even if a butterfly hook remains below.
+- Keep the elbow close early: Avoid reaching away while the opponent sets the triceps control.
+- Deny the belly-down angle: Maintain a balanced base and a safe inside frame before the shoulder becomes clamped.
+- Free the arm before passing: Create slack around the shoulder and elbow before moving the hips past the legs.
+- Avoid rolling against the lock: Do not force a forward roll when the triceps and wrist are fixed; tap if pressure has already engaged.
+- Rebuild posture after release: Raise the head and chest only after the arm and head-side leg are clear.
 
 
 </section>
@@ -255,23 +250,16 @@ The most successful escapes from Carni involve recognizing the position early, b
 
 <p class="section-subtitle">What should you do from Carni (Top)?</p>
 
-**If bottom player establishes tight heel control with immediate submission threat:**
-- Execute **[[Tap early to prevent injury/Attacker|Tap early to prevent injury]]** → [[game-over]] (Probability: 100%)
+**When triceps and wrist control loosen before shoulder pressure has engaged:**
+- Execute **[[Transitions/Posture Recovery from Carni/Attacker|Posture Recovery from Carni]]** → [[Positions/Closed Guard]] (Probability: 50%)
 
 
-**If bottom player has loose heel control but strong leg entanglement:**
-- Execute **[[Transitions/Stack Defense/Attacker|Stack Defense]]** → [[Positions/Combat Base]] (Probability: 45%)
-- Execute **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** → [[Positions/Half Guard]] (Probability: 40%)
+**When the head-side leg clears and the captured elbow can return toward the ribs without pain:**
+- Execute **[[Transitions/Posture Recovery from Carni/Attacker|Posture Recovery from Carni]]** → [[Positions/Closed Guard]] (Probability: 50%)
 
 
-**If bottom player transitions toward saddle and temporarily loosens control:**
-- Execute **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** → [[Positions/Side Control]] (Probability: 35%)
-- Execute **[[Transitions/Technical Stand-up/Attacker|Technical Stand-up]]** → [[Positions/Standing Position]] (Probability: 40%)
-
-
-**If bottom player attempts to follow roll for back take:**
-- Execute **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** → [[Positions/Half Guard]] (Probability: 45%)
-- Execute **[[Transitions/Technical Stand-up/Attacker|Technical Stand-up]]** → [[Positions/Standing Position]] (Probability: 40%)
+**After the shoulder is completely free and the remaining position has become Chill Dog rather than Carni:**
+- Execute **[[Transitions/Posture from Chill Dog/Attacker|Posture from Chill Dog]]** → [[Positions/Closed Guard]] (Probability: 55%)
 
 
 
@@ -284,40 +272,30 @@ The most successful escapes from Carni involve recognizing the position early, b
 
 <p class="section-subtitle">What mistakes should you avoid when attacking from Carni?</p>
 
-### 1. Panicking and attempting explosive movements without systematic escape sequence
+### 1. Skipping the checkpoint: identify the shoulder threat
 
-- ❌ **Consequence**: Expend energy rapidly while failing to improve position and potentially tearing own knee ligaments
-- ✅ **Correction**: Remain calm, protect heel first, then systematically work through escape hierarchy prioritizing safety over speed
+- ❌ **Consequence**: The intended control is not established before the next movement; the missing requirement is: A leg clearing the head with an overhook is an upper-body trap, even if a butterfly hook remains below.
+- ✅ **Correction**: A leg clearing the head with an overhook is an upper-body trap, even if a butterfly hook remains below.
 
-### 2. Ignoring the heel hook threat while focusing only on extracting the leg
+### 2. Skipping the checkpoint: keep the elbow close early
 
-- ❌ **Consequence**: Suffer catastrophic knee injury while attempting escape without first securing ankle position
-- ✅ **Correction**: Always address immediate submission threat first by controlling ankle and keeping toes pointed away from attacker
+- ❌ **Consequence**: The intended control is not established before the next movement; the missing requirement is: Avoid reaching away while the opponent sets the triceps control.
+- ✅ **Correction**: Avoid reaching away while the opponent sets the triceps control.
 
-### 3. Rolling away from the leg attack without recognizing back exposure risk
+### 3. Skipping the checkpoint: deny the belly-down angle
 
-- ❌ **Consequence**: Give up back control to bottom player who follows the roll and secures dominant position
-- ✅ **Correction**: Recognize that rolling away often plays into bottom player's strategy and consider alternative escapes
+- ❌ **Consequence**: The intended control is not established before the next movement; the missing requirement is: Maintain a balanced base and a safe inside frame before the shoulder becomes clamped.
+- ✅ **Correction**: Maintain a balanced base and a safe inside frame before the shoulder becomes clamped.
 
-### 4. Remaining static in the position hoping bottom player will make mistake
+### 4. Skipping the checkpoint: free the arm before passing
 
-- ❌ **Consequence**: Allow bottom player time to perfect their controls and establish multiple attack paths
-- ✅ **Correction**: Begin escape sequence immediately upon recognizing position rather than waiting for opportunity
+- ❌ **Consequence**: The intended control is not established before the next movement; the missing requirement is: Create slack around the shoulder and elbow before moving the hips past the legs.
+- ✅ **Correction**: Create slack around the shoulder and elbow before moving the hips past the legs.
 
-### 5. Using upper body strength to try to muscle out of entanglement
+### 5. Skipping the checkpoint: avoid rolling against the lock
 
-- ❌ **Consequence**: Expend massive energy without addressing technical problems of leg isolation and control
-- ✅ **Correction**: Focus on technical solutions like creating angles, clearing hooks, and systematic leg extraction
-
-### 6. Failing to tap when submission is locked and inevitable
-
-- ❌ **Consequence**: Suffer serious knee injury that requires surgery and extended recovery time
-- ✅ **Correction**: Recognize when position is lost and tap early to protect health for long-term training
-
-### 7. Extending trapped leg forcefully to create distance
-
-- ❌ **Consequence**: Present perfectly extended heel for immediate heel hook finish
-- ✅ **Correction**: Keep slight bend in knee while defending, only extending strategically during actual escape sequence
+- ❌ **Consequence**: The intended control is not established before the next movement; the missing requirement is: Do not force a forward roll when the triceps and wrist are fixed; tap if pressure has already engaged.
+- ✅ **Correction**: Do not force a forward roll when the triceps and wrist are fixed; tap if pressure has already engaged.
 
 
 
@@ -329,39 +307,25 @@ The most successful escapes from Carni involve recognizing the position early, b
 
 <p class="section-subtitle">How do you train Carni attacks?</p>
 
-### Carni Escape Hierarchy Drill
+### Identify the configuration
 
-Partner establishes Carni control at various tightness levels (loose, medium, tight). Practice systematic escape sequence: protect heel, create frames, clear hooks, extract leg. Start with loose control and progress to tighter positions.
+Work cooperatively on identify the shoulder threat. A leg clearing the head with an overhook is an upper-body trap, even if a butterfly hook remains below. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.
 
-**Duration**: 10 minutes
-
-
-### Heel Protection Maintenance
-
-From Carni top position, focus exclusively on maintaining safe ankle position and heel protection while partner applies gradually increasing pressure. Build awareness of when submission is becoming dangerous. No escape attempts, only defense.
-
-**Duration**: 8 minutes
+**Duration**: Short cooperative repetitions; stop at each checkpoint
 
 
-### Escape Timing Recognition
+### Rehearse the connection
 
-Partner alternates between tight Carni control and momentary loosening during transition attempts. Practice recognizing windows for escape and immediately capitalizing on looseness. Reset to controlled position after each attempt.
+Work cooperatively on keep the elbow close early. Avoid reaching away while the opponent sets the triceps control. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.
 
-**Duration**: 12 minutes
-
-
-### Stack Defense Development
-
-From Carni bottom, partner allows top player to attempt stack defense escape. Bottom player provides progressive resistance. Focus on creating forward pressure, clearing bottom player's hooks, and transitioning to combat base.
-
-**Duration**: 10 minutes
+**Duration**: Short cooperative repetitions; stop at each checkpoint
 
 
-### Positional Sparring from Carni Top
+### Add an early response
 
-Start with bottom player in established Carni position. Top player attempts safe extraction while bottom player works for submission or positional advancement. Round ends on successful escape or submission. 2-minute rounds.
+Work cooperatively on deny the belly-down angle. Maintain a balanced base and a safe inside frame before the shoulder becomes clamped. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.
 
-**Duration**: 15 minutes
+**Duration**: Short cooperative repetitions; stop at each checkpoint
 
 
 
@@ -380,7 +344,7 @@ Start with bottom player in established Carni position. Top player attempts safe
 | Advancement Probability | 38% |
 | Submission Probability | 35% |
 
-**Average Time in Position**: 10-30 seconds
+**Average Time in Position**: Variable; reset at the first loss of safe control rather than targeting a fixed hold time
 
 
 </section>
@@ -389,16 +353,10 @@ Start with bottom player in established Carni position. Top player attempts safe
 
 ## Related Positions and Techniques
 
-- **[[Positions/Ashi Garami]]** - Related danger position - similar leg entanglement requiring defensive knowledge
-- **[[Positions/Ashi Garami/Saddle]]** - Common advancement - where bottom player transitions when heel is defended
-- **[[Positions/Twister Control/Truck]]** - Back exposure threat - position accessed when top player turns belly down
-- **[[Positions/Back Control]]** - Alternative threat - where bottom player goes when top player rolls to escape
-- **[[Positions/Combat Base]]** - Primary escape target - establishing safe base after extraction
-- **[[Submissions/Heel Hook]]** - Primary submission threat - must defend against while escaping position
-- **[[Positions/Kneebar Control]]** - Secondary submission threat - alternative finish when heel is defended
-- **[[Positions/Ashi Garami/Outside Ashi-Garami]]** - Related entanglement - similar defensive principles apply
-- **[[Positions/Ashi Garami/Inside Ashi-Garami]]** - Related entanglement - shares leg lock defense requirements
-- **[[Positions/Ashi Garami/Honey Hole]]** - Alternative finishing position - bottom player may transition here
+- **[[Positions/Rubber Guard]]** - Related configuration to study separately: compare the configuration and required controls for Rubber Guard.
+- **[[Positions/Rubber Guard/Chill Dog]]** - Related configuration to study separately: compare the configuration and required controls for Chill Dog.
+- **[[Positions/Half Guard/Knee Shield Half Guard]]** - Related configuration to study separately: compare the configuration and required controls for Knee Shield Half Guard.
+- **[[Positions/Omoplata Control]]** - Related configuration to study separately: compare the configuration and required controls for Omoplata Control.
 
 
 </section>

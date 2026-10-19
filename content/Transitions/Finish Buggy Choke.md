@@ -4,7 +4,7 @@
 
 ---
 title: "Finish Buggy Choke | BJJ Technique | BJJ Graph"
-description: "Complete the Buggy Choke submission from turtle top. Master grip tightening, body mechanics, and finishing pressure for this high-percentage collar choke."
+description: "Finishing a Buggy Choke uses the bottom player's same-side arm-and-leg loop around the top player's head and arm, closing space through body angle and shoulder-to-hip connection."
 ---
 
 
@@ -16,7 +16,7 @@ description: "Complete the Buggy Choke submission from turtle top. Master grip t
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Finish Buggy Choke",
-  "description": "Complete the Buggy Choke submission from turtle top. Master grip tightening, body mechanics, and finishing pressure for this high-percentage collar choke.",
+  "description": "Finishing a Buggy Choke uses the bottom player\u0027s same-side arm-and-leg loop around the top player\u0027s head and arm, closing space through body angle and shoulder-to-hip connection.",
   "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
 }
 </script>
@@ -87,7 +87,7 @@ description: "Complete the Buggy Choke submission from turtle top. Master grip t
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Finish Buggy Choke",
-  "description": "The Finish Buggy Choke is the strangulation phase of the buggy choke attack from turtle top, where the attacker consolidates a deep palm-up collar grip with perpendicular body pressure to compress both carotid arteries until the opponent taps.",
+  "description": "Finishing a Buggy Choke uses the bottom player's same-side arm-and-leg loop around the top player's head and arm, closing space through body angle and shoulder-to-hip connection.",
   "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
 }
 </script>
@@ -105,13 +105,15 @@ description: "Complete the Buggy Choke submission from turtle top. Master grip t
 
 <section id="overview" class="content-section">
 
-**The Finish Buggy Choke is the strangulation phase of the buggy choke attack from turtle top, where the attacker consolidates a deep palm-up collar grip with perpendicular body pressure to compress both carotid arteries until the opponent taps.**
+**Finishing a Buggy Choke uses the bottom player's same-side arm-and-leg loop around the top player's head and arm, closing space through body angle and shoulder-to-hip connection.**
 
-The Finish Buggy Choke represents the culmination of the buggy choke attack sequence from turtle top position. This blood choke targets the carotid arteries using collar grip pressure combined with perpendicular body mechanics to create strangulation. Unlike arm-in chokes that require specific arm positioning, the buggy choke finish relies on deep collar penetration and coordinated pressure application through chest weight and hip drive.
+The bottom player is beneath side control with an arm connected to the same-side leg around the opponent's head and one arm. Top side control belongs to the choke defender. A half-guard finish requires its own leg configuration and is not automatically identical to the side-control setup.
 
-The finishing mechanics distinguish this technique from the positional control phase. While establishing buggy choke control focuses on grip depth and preventing escape, the finish emphasizes progressive pressure escalation through body weight transfer and grip consolidation. The choking hand must achieve palm-up orientation with fingers deep in the collar, allowing the radius bone to press directly into the carotid artery when combined with perpendicular body positioning.
+Use safe shoulder and hip frames to turn partly onto the side before reaching for the leg. Check that the loop contains the necessary upper-body configuration rather than merely hugging your leg. Shorten the connection through body position, not by pulling the foot hard toward the face.
 
-Strategically, committing to the finish requires reading opponent defensive reactions. Static opponents who focus purely on grip fighting without movement create ideal finishing opportunities. However, opponents who move aggressively toward back escapes or sitting to guard may offer better positional advancement opportunities than forcing a contested choke. The finish should be executed with progressive pressure rather than explosive yanking, maximizing technical efficiency while minimizing energy expenditure and reducing injury risk to training partners.
+Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
+
+Instructional sources: [Kade and Tye Ruotolo — OG Buggy Choke](https://www.youtube.com/watch?v=zixbOyLpoOc); [Jay Rodriguez — three Buggy Choke mistakes](https://www.youtube.com/watch?v=MjKERx4N4mY).
 
 **From Position**: [[Positions/Buggy Choke]] (Top)
 **Success Rate**: 20%
@@ -174,7 +176,7 @@ Strategically, committing to the finish requires reading opponent defensive reac
 | &nbsp; | Attacker | Defender |
 |--------|----------|----------|
 | **Focus** | Execute technique | Prevent or counter |
-| **Key Principles** | Achieve maximum grip depth with palm-up orientation before i... | Address the primary threat immediately - grip depth on the c... |
+| **Key Principles** | Build the angle: Use safe shoulder and hip frames to turn pa... | Recognize the loop early: Watch for an arm reaching past you... |
 | **Options** | 6 execution steps | 4 defensive options |
 
 </section>
@@ -188,51 +190,49 @@ Strategically, committing to the finish requires reading opponent defensive reac
 ### Key Principles
 
 
-- Achieve maximum grip depth with palm-up orientation before initiating finishing pressure
+- Build the angle: Use safe shoulder and hip frames to turn partly onto the side before reaching for the leg.
 
-- Transfer chest weight downward onto opponent's back to flatten posture and eliminate defensive space
+- Enclose head and arm: Check that the loop contains the necessary upper-body configuration rather than merely hugging your leg.
 
-- Use radius bone pressure against carotid artery rather than squeezing with bicep strength
+- Keep elbow near knee: Shorten the connection through body position, not by pulling the foot hard toward the face.
 
-- Apply progressive pressure escalation rather than explosive yanking to maximize efficiency
+- Use the torso connection: Close space with the arm, leg, and torso while avoiding twisting force on your own knee.
 
-- Maintain perpendicular body angle to create optimal choking mechanics geometry
+- Recover guard when space opens: Use a disengaging opponent's movement to insert frames and knees if the choke is lost.
 
-- Keep hips heavy on opponent's near hip to prevent rolling or sitting escapes during finish
-
-- Monitor opponent's defensive reactions to determine when to commit fully versus transition
+- Release if lifted: Let go when the partner begins lifting you from the mat; do not hang from the choke or invite a slam.
 
 
 ### Execution Steps
 
 
-- **Confirm grip depth**: Verify threading arm has achieved maximum depth with palm-up hand securing far-side collar material ...
+- **Build the angle**: Use safe shoulder and hip frames to turn partly onto the side before reaching for the leg....
 
-- **Consolidate secondary grip**: Secure opposite hand on collar material adjacent to primary grip in gi, or gable grip hands together...
+- **Enclose head and arm**: Check that the loop contains the necessary upper-body configuration rather than merely hugging your ...
 
-- **Transfer body weight**: Drive chest weight downward onto opponent's back and shoulder complex while simultaneously dropping ...
+- **Keep elbow near knee**: Shorten the connection through body position, not by pulling the foot hard toward the face....
 
-- **Establish perpendicular angle**: Position your body perpendicular to opponent's spine with head tight to their far shoulder, creating...
+- **Use the torso connection**: Close space with the arm, leg, and torso while avoiding twisting force on your own knee....
 
-- **Initiate progressive pressure**: Begin choking pressure by rotating your radius bone into the carotid artery while pulling collar mat...
+- **Recover guard when space opens**: Use a disengaging opponent's movement to insert frames and knees if the choke is lost....
 
-- **Escalate to finish**: Progressively increase pressure by driving your shoulder toward the mat while maintaining grip depth...
+- **Release if lifted**: Let go when the partner begins lifting you from the mat; do not hang from the choke or invite a slam...
 
 
 ### Common Mistakes
 
 
-- **Attempting to finish with shallow grip depth where forearm contacts neck instead of wrist**
-  - Consequence: Choke becomes airway crush rather than blood choke, causing pain without effective strangulation and allowing opponent extended defensive time
-  - Correction: Verify palm-up hand has penetrated deep enough that wrist contacts neck before initiating any finishing pressure
+- **Skipping the checkpoint: build the angle**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Use safe shoulder and hip frames to turn partly onto the side before reaching for the leg.
+  - Correction: Use safe shoulder and hip frames to turn partly onto the side before reaching for the leg.
 
-- **Using explosive arm strength to yank collar rather than progressive body mechanics**
-  - Consequence: Rapid energy depletion, ineffective pressure distribution, and increased injury risk to training partners from jerky movements
-  - Correction: Apply pressure through chest weight transfer and shoulder drive while arms maintain grip structure without excessive muscular effort
+- **Skipping the checkpoint: enclose head and arm**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Check that the loop contains the necessary upper-body configuration rather than merely hugging your leg.
+  - Correction: Check that the loop contains the necessary upper-body configuration rather than merely hugging your leg.
 
-- **Keeping hips high and body weight centered over knees during finishing attempt**
-  - Consequence: Opponent easily sits to guard, executes granby roll, or stands up due to insufficient weight preventing their escape movements
-  - Correction: Drive hips down onto opponent's near hip creating heavy perpendicular pressure that pins their defensive movement options
+- **Skipping the checkpoint: keep elbow near knee**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Shorten the connection through body position, not by pulling the foot hard toward the face.
+  - Correction: Shorten the connection through body position, not by pulling the foot hard toward the face.
 
 
 </section>
@@ -246,41 +246,37 @@ Strategically, committing to the finish requires reading opponent defensive reac
 ### Key Principles
 
 
-- Address the primary threat immediately - grip depth on the choking hand determines whether the finish succeeds or fails
+- Recognize the loop early: Watch for an arm reaching past your head and connecting to the same-side leg.
 
-- Create movement and rotation toward the choking arm to disrupt perpendicular geometry rather than remaining static
+- Prevent hand-leg connection: Use balanced posture and safe inside frames before the loop closes.
 
-- Accept positional concessions to relieve choke pressure - half guard bottom is vastly preferable to unconsciousness
+- Protect the neck: Treat the choke as live even though you hold top side control.
 
-- Use two-on-one grip fighting on the choking wrist to strip depth rather than fighting both grips simultaneously
+- Clear before circling: Free the head-and-arm enclosure before changing to north-south or chasing another pin.
 
-- Maintain chin tucked and shoulders elevated to protect carotid arteries and buy time for defensive actions
+- Do not slam or wrench: Avoid lifting, dropping, or twisting the partner's trapped leg to force an escape.
 
-- Recognize the difference between survivable pressure and finish-level pressure to calibrate defensive urgency
+- Tap early: Stop before dizziness or loss of normal responsiveness; top position does not make a secured choke safe.
 
 
 ### Recognition Cues
 
 
-- Opponent's chest weight drops heavily onto your back with hips pinning your near hip, indicating transition from control to finishing commitment
+- The bottom player is beneath side control with an arm connected to the same-side leg around the opponent's head and one arm.
 
-- Choking hand rotates to full palm-up orientation and you feel wrist bone pressing against the side of your neck rather than forearm on the back of your neck
+- Check that the loop contains the necessary upper-body configuration rather than merely hugging your leg.
 
-- Opponent's head drives tight against your far shoulder while their body shifts perpendicular to your spine, eliminating your rotational freedom
-
-- Progressive tightening sensation on the collar around your neck with increasing pressure on the carotid arteries, distinct from general neck pressure
-
-- Opponent consolidates secondary grip adjacent to primary grip, creating a unified pulling structure that signals imminent finishing pressure
+- Close space with the arm, leg, and torso while avoiding twisting force on your own knee.
 
 
 ### Defensive Options
 
 
-- **Two-on-one grip strip on the primary choking hand by grabbing opponent's wrist with both hands and peeling it away from your collar while driving posture upward** - When: Early in the finish attempt before full body weight is committed and while you still have hand mobility to reach the choking wrist
+- **Watch for an arm reaching past your head and connecting to the same-side leg.** - When: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
 
-- **Sit to guard by driving your near hip to the mat and rotating to face opponent while accepting their weight transfer, pulling them into your half guard** - When: When perpendicular pressure is established but grip is not yet at maximum depth, and you cannot win the grip fighting battle from turtle
+- **Use balanced posture and safe inside frames before the loop closes.** - When: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
 
-- **Turn into the attacker by rotating your body toward the choking arm side, creating face-to-face position that eliminates the perpendicular choking geometry** - When: When opponent's hips are not fully pinning your near hip and you have enough rotational freedom to turn before pressure peaks
+- **Treat the choke as live even though you hold top side control.** - When: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
 
 
 </section>
@@ -291,13 +287,10 @@ Strategically, committing to the finish requires reading opponent defensive reac
 ## Variations
 
 
-**No-gi buggy choke finish**: Without collar grips, connect hands in gable grip or rear naked choke configuration around opponent's neck. The mechanics shift from collar leverage to direct forearm pressure on carotid. Requires deeper threading and tighter body connection to generate equivalent pressure without gi friction. (When to use: No-gi competition or when collar material is unavailable or damaged)
+**Cooperative checkpoint drill**: Use safe shoulder and hip frames to turn partly onto the side before reaching for the leg. Check that the loop contains the necessary upper-body configuration rather than merely hugging your leg. (When to use: Learning the control without submission pressure)
 
 
-**Rolling buggy choke finish**: When opponent resists perpendicular pressure by driving forward, roll toward your choking arm side while maintaining grip depth. The rolling motion accelerates choking pressure as opponent's body weight drives them into the strangle. Requires excellent grip security and timing. (When to use: When opponent aggressively resists flattening by driving forward into you)
-
-
-**Mounted buggy choke transition**: If opponent flattens completely and you can step over to mount while maintaining collar grip, finish from mounted position with enhanced control. Body weight compounds choking pressure while mount eliminates rolling escapes. (When to use: When opponent flattens completely without attempting guard recovery)
+**Response and reset drill**: Watch for an arm reaching past your head and connecting to the same-side leg. Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route. (When to use: Adding one early response after both partners recognize the configuration)
 
 
 
@@ -309,7 +302,7 @@ Strategically, committing to the finish requires reading opponent defensive reac
 
 ## Position Integration
 
-Finish Buggy Choke represents the terminal attack option from the buggy choke control position within the modern turtle attack system. This finish connects to the broader front headlock and collar attack families, sharing mechanical principles with darce, anaconda, and clock chokes. When the finish is unavailable, the position naturally feeds into back control when opponents sit to guard, crucifix when they extend arms for base, or truck positions when they granby roll. Understanding finish timing versus transition timing is essential for maximizing turtle attack system effectiveness. The technique teaches important principles about reading defensive reactions and choosing between committed finish attempts and positional advancement based on real-time feedback.
+The bottom player is beneath side control with an arm connected to the same-side leg around the opponent's head and one arm. Top side control belongs to the choke defender. A half-guard finish requires its own leg configuration and is not automatically identical to the side-control setup. A destination is established by its actual body configuration, not by completing an isolated grip or by the name of the route.
 
 </section>
 
@@ -319,25 +312,13 @@ Finish Buggy Choke represents the terminal attack option from the buggy choke co
 ## Related Techniques
 
 
-- [[Positions/Buggy Choke]] - Starting control position and submission entry
+- [[Positions/Side Control]] - Related configuration; establish its own prerequisites: compare the configuration and required controls for Side Control.
 
-- [[Positions/Turtle]] - Opponent's position where attack initiates
+- [[Positions/Half Guard]] - Related configuration; establish its own prerequisites: compare the configuration and required controls for Half Guard.
 
-- [[Positions/Back Control]] - Alternative transition when opponent sits to guard
+- [[Positions/Open Guard]] - Related configuration; establish its own prerequisites: compare the configuration and required controls for Open Guard.
 
-- [[Positions/Crucifix]] - Alternative attack when opponent extends arm for base
-
-- [[Positions/Twister Control/Truck]] - Transition option when opponent granby rolls
-
-- [[Submissions/Darce Choke]] - Alternative choke when opponent turns into attack
-
-- [[Transitions/Anaconda Choke]] - Related front headlock submission option
-
-- [[Transitions/Clock Choke]] - Related turtle collar choke with similar mechanics
-
-- [[Positions/Front Headlock]] - Related control position for turtle attacks
-
-- [[Positions/Half Guard]] - Counter outcome position when opponent escapes to guard
+- [[Positions/Triangle Control]] - Related configuration; establish its own prerequisites: compare the configuration and required controls for Triangle Control.
 
 
 </section>

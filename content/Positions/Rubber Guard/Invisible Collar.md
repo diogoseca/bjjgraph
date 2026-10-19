@@ -4,7 +4,7 @@
 
 ---
 title: "Invisible Collar | BJJ Position Guide | BJJ Graph"
-description: "Master Invisible Collar position in BJJ. Advanced back control setup for collar chokes, RNC transitions, and crucifix attacks with complete tactical guide."
+description: "Invisible Collar is a high rubber-guard clinch in which the bottom player keeps an arm isolated and closes the second leg high behind the opponent's head to reinforce posture control."
 ---
 
 
@@ -16,7 +16,7 @@ description: "Master Invisible Collar position in BJJ. Advanced back control set
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Invisible Collar",
-  "description": "Master Invisible Collar position in BJJ. Advanced back control setup for collar chokes, RNC transitions, and crucifix attacks with complete tactical guide.",
+  "description": "Invisible Collar is a high rubber-guard clinch in which the bottom player keeps an arm isolated and closes the second leg high behind the opponent\u0027s head to reinforce posture control.",
   "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
 }
 </script>
@@ -87,7 +87,7 @@ description: "Master Invisible Collar position in BJJ. Advanced back control set
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Invisible Collar",
-  "description": "The Invisible Collar is an advanced gi-based back-control attack where the top player disguises a deep collar grip as passive positional control, locking in a strangle that opponents rarely recognize until the choke is already finishing.",
+  "description": "Invisible Collar is a high rubber-guard clinch in which the bottom player keeps an arm isolated and closes the second leg high behind the opponent's head to reinforce posture control.",
   "inDefinedTermSet": "https://bjjgraph.org/Positions/"
 }
 </script>
@@ -105,13 +105,17 @@ description: "Master Invisible Collar position in BJJ. Advanced back control set
 
 <section id="overview" class="content-section">
 
-**The Invisible Collar is an advanced gi-based back-control attack where the top player disguises a deep collar grip as passive positional control, locking in a strangle that opponents rarely recognize until the choke is already finishing.**
+**Invisible Collar is a high rubber-guard clinch in which the bottom player keeps an arm isolated and closes the second leg high behind the opponent's head to reinforce posture control.**
 
-The Invisible Collar represents a sophisticated approach to back control where grip concealment creates submission opportunities while appearing defensive. This position emerged from high-level competition as practitioners developed methods to disguise choking setups within seemingly passive control positions. The invisible collar uses strategic gi material placement to create immediate finishing pressure that opponents often fail to recognize until the technique is already locked in.
+The bottom player faces the kneeling or leaning top player in a high guard. One arm has been isolated through the New York and neck-clearing sequence. The second leg closes high behind the head to reinforce the first controlling leg. The bottom player maintains the knee hug and uses the hips to keep the enclosure comfortable.
 
-Unlike traditional collar grips that telegraph submission intent, the invisible collar maintains what appears to be a positional control structure while actually establishing deep choking mechanics. This deception allows practitioners to bypass many standard defensive reactions because opponents allocate their defensive resources to other perceived threats. The position requires precise finger positioning, excellent timing for grip establishment, and the ability to transition seamlessly between controlling and attacking modes without alerting the opponent to changing intentions.
+The collar is a leg-based posture-control configuration; it does not require a jacket collar or place the attacker behind the opponent. Neck-cleared arm isolation distinguishes the basic path from a high guard that still contains both arms. Terminology: Invisible Collar control.
 
-The invisible collar serves multiple strategic functions within back attack systems. It acts as both a submission position and a controlling platform that limits opponent mobility while setting up alternative attacks. When executed properly, the position creates submission dilemmas where defending one threat opens opportunities for others. This makes it particularly effective in competition settings where opponents are experienced in defending conventional back attacks but may not recognize the invisible collar configuration until it's too late to mount effective defense.
+Keep the elbow separated from an inside frame before closing the second leg. Maintain the cleared hand position and knee hug as the free leg comes higher. Bring the second leg into the high clinch through hip motion; do not pull the foot into position against resistance.
+
+Avoid sustained neck compression, forced stacking, and foot pulling against a fixed knee. Agree on verbal taps and open both the hand and leg controls immediately on a stop signal.
+
+Instructional sources: [Eddie Bravo — MTS 134 Invisible Collar in Austin](https://www.youtube.com/watch?v=KCyIwacRKu8); [Eddie Bravo — Chill Dog / Invisible Collar clarification](https://www.10thplanetjj.com/forum/threads/17657-Chill-Dog-Invisible-Collar-Question).
 
 </section>
 
@@ -156,19 +160,17 @@ The invisible collar serves multiple strategic functions within back attack syst
 ## Key Principles
 
 
-- Conceal submission setup by making grip appear passive and positional
+- Retain the isolated arm: Keep the elbow separated from an inside frame before closing the second leg.
 
-- Establish collar penetration gradually while opponent focuses on other threats
+- Preserve neck clearance: Maintain the cleared hand position and knee hug as the free leg comes higher.
 
-- Maintain dual threat capability between collar chokes and alternative submissions
+- Close without knee torque: Bring the second leg into the high clinch through hip motion; do not pull the foot into position against resistance.
 
-- Use opponent's defensive movements to incrementally improve grip depth
+- Use connected leg pressure: Hold the upper body close with the whole leg configuration rather than squeezing or wrenching the neck.
 
-- Coordinate upper body attacks with lower body control to prevent escape
+- Read the free arm: Monitor frames and posture so an arm extraction does not silently undo the control.
 
-- Create submission chains where defending one attack opens another
-
-- Preserve back control structure throughout all submission attempts
+- Open to recover guard: Release the high clinch and rebuild ordinary frames if the position becomes a stack or causes knee discomfort.
 
 
 </section>
@@ -184,10 +186,10 @@ The invisible collar serves multiple strategic functions within back attack syst
 |--------|--------|-----|
 | **Position Type** | Defensive | Offensive/Controlling |
 | **Risk Level** | High | Low to Medium |
-| **Energy Cost** | High | Medium |
-| **Time** | Short | Medium to Long |
+| **Energy Cost** | Medium | Medium |
+| **Time** | Short to Medium | Short to Medium |
 
-**Key Difference:** Deceptive grip hides submission threat
+**Key Difference:** High two-leg clinch with an isolated arm
 
 
 
@@ -203,19 +205,17 @@ The invisible collar serves multiple strategic functions within back attack syst
 ### Key Principles
 
 
-- Recognize invisible collar setup early through proactive grip checking
+- Retain the isolated arm: Keep the elbow separated from an inside frame before closing the second leg.
 
-- Protect neck immediately when collar grip depth increases
+- Preserve neck clearance: Maintain the cleared hand position and knee hug as the free leg comes higher.
 
-- Coordinate hand fighting with hip escape movements simultaneously
+- Close without knee torque: Bring the second leg into the high clinch through hip motion; do not pull the foot into position against resistance.
 
-- Maintain chin tucked to limit choking angles while working escape
+- Use connected leg pressure: Hold the upper body close with the whole leg configuration rather than squeezing or wrenching the neck.
 
-- Prioritize removing hooks over pure hand fighting to reduce overall control
+- Read the free arm: Monitor frames and posture so an arm extraction does not silently undo the control.
 
-- Create frames and space to prevent opponent from tightening finishing position
-
-- Escape to guard or neutral position rather than attempting to reverse to top
+- Open to recover guard: Release the high clinch and rebuild ordinary frames if the position becomes a stack or causes knee discomfort.
 
 
 ### Available Transitions
@@ -237,25 +237,25 @@ The invisible collar serves multiple strategic functions within back attack syst
 ### Common Mistakes
 
 
-- ❌ **Failing to recognize invisible collar setup until choke is already tight**
-  - Consequence: Defender forced into emergency defense with very limited escape options and high submission probability
-  - ✅ Correction: Develop habit of constantly checking opponent's hand positions during back control, treating any collar contact as potential threat requiring immediate attention
+- ❌ **Skipping the checkpoint: retain the isolated arm**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Keep the elbow separated from an inside frame before closing the second leg.
+  - ✅ Correction: Keep the elbow separated from an inside frame before closing the second leg.
 
-- ❌ **Using single hand to fight collar grip while opponent has both hands available**
-  - Consequence: Ineffective hand fighting that allows opponent to maintain and deepen grip while defender wastes energy
-  - ✅ Correction: Commit both hands to removing collar grip using two-on-one control, accepting temporary vulnerability to other attacks in exchange for neutralizing primary threat
+- ❌ **Skipping the checkpoint: preserve neck clearance**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Maintain the cleared hand position and knee hug as the free leg comes higher.
+  - ✅ Correction: Maintain the cleared hand position and knee hug as the free leg comes higher.
 
-- ❌ **Extending chin upward or away while attempting escape**
-  - Consequence: Creates additional space for choking mechanics and increases angle of attack for opponent's finishing pressure
-  - ✅ Correction: Maintain aggressive chin tuck throughout all escape attempts, using neck muscles to compress the space and limit choking effectiveness
+- ❌ **Skipping the checkpoint: close without knee torque**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Bring the second leg into the high clinch through hip motion; do not pull the foot into position against resistance.
+  - ✅ Correction: Bring the second leg into the high clinch through hip motion; do not pull the foot into position against resistance.
 
-- ❌ **Panicking and using explosive movements without systematic approach**
-  - Consequence: Burns energy rapidly while creating opportunities for opponent to transition to alternative submissions or tighten existing control
-  - ✅ Correction: Follow systematic escape sequence addressing grip removal, hook removal, and position recovery in logical order rather than random explosive attempts
+- ❌ **Skipping the checkpoint: use connected leg pressure**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Hold the upper body close with the whole leg configuration rather than squeezing or wrenching the neck.
+  - ✅ Correction: Hold the upper body close with the whole leg configuration rather than squeezing or wrenching the neck.
 
-- ❌ **Ignoring hook control while focusing entirely on collar grip**
-  - Consequence: Opponent maintains positional dominance and can simply wait for defender to tire before applying finishing pressure
-  - ✅ Correction: Coordinate simultaneous attacks on both grip and hooks, using hip movement and hand fighting together to create compound problems for opponent
+- ❌ **Skipping the checkpoint: read the free arm**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Monitor frames and posture so an arm extraction does not silently undo the control.
+  - ✅ Correction: Monitor frames and posture so an arm extraction does not silently undo the control.
 
 
 </section>
@@ -270,19 +270,17 @@ The invisible collar serves multiple strategic functions within back attack syst
 ### Key Principles
 
 
-- Conceal submission intention by making grip appear positional rather than attacking
+- Recognize the high closure: The free leg moving behind your head is an attempt to reinforce posture control, even without a collar grip.
 
-- Establish collar grip depth gradually while opponent is distracted by other threats
+- Protect the neck and arm: Keep the head aligned and the captured elbow compact rather than twisting against the enclosure.
 
-- Maintain seatbelt structure throughout to preserve back control while setting up submissions
+- Keep a balanced base: Avoid driving all weight onto the partner's shoulders while the legs are locked high.
 
-- Use opponent's defensive movements to tighten grip rather than forcing the choke
+- Address the leg enclosure: Create space at the hip and thigh before trying to raise the head or extract the arm.
 
-- Keep body weight distributed to prevent opponent from rolling or turning into guard
+- Recover inside position: Bring the elbow back between the bodies after the high closure opens.
 
-- Coordinate hook control with upper body positioning to prevent escape while finishing
-
-- Transition smoothly between invisible collar and other back attack options to create dilemmas
+- Stop on compression: Tap immediately to a choke or joint pressure; posture recovery is an early defense, not a late escape guarantee.
 
 
 ### Available Transitions
@@ -308,25 +306,25 @@ The invisible collar serves multiple strategic functions within back attack syst
 ### Common Mistakes
 
 
-- ❌ **Telegraphing submission intention by gripping collar too aggressively or obviously from the start**
-  - Consequence: Opponent immediately recognizes threat and establishes strong neck defense before choke can be properly applied, eliminating element of surprise
-  - ✅ Correction: Establish collar grip gradually and casually while opponent is focused on defending hooks or other threats, making the grip appear positional rather than attacking until full depth is achieved
+- ❌ **Skipping the checkpoint: recognize the high closure**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: The free leg moving behind your head is an attempt to reinforce posture control, even without a collar grip.
+  - ✅ Correction: The free leg moving behind your head is an attempt to reinforce posture control, even without a collar grip.
 
-- ❌ **Failing to maintain proper seatbelt structure while focusing exclusively on collar grip establishment**
-  - Consequence: Opponent escapes back control by swimming arms through or removing hooks while practitioner is distracted by grip work, losing dominant position entirely
-  - ✅ Correction: Keep non-collar arm active in seatbelt position with elbow tight to body, maintaining comprehensive back control structure even while establishing invisible collar grip
+- ❌ **Skipping the checkpoint: protect the neck and arm**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Keep the head aligned and the captured elbow compact rather than twisting against the enclosure.
+  - ✅ Correction: Keep the head aligned and the captured elbow compact rather than twisting against the enclosure.
 
-- ❌ **Insufficient collar grip depth with fingers not penetrating deep enough inside gi material**
-  - Consequence: Choke lacks finishing pressure and opponent can easily defend or remove the grip with basic hand fighting techniques, wasting setup effort
-  - ✅ Correction: Drive all four fingers as deep as anatomically possible into collar with knuckles firmly against opponent's neck, using gradual incremental adjustments to achieve maximum penetration depth
+- ❌ **Skipping the checkpoint: keep a balanced base**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Avoid driving all weight onto the partner's shoulders while the legs are locked high.
+  - ✅ Correction: Avoid driving all weight onto the partner's shoulders while the legs are locked high.
 
-- ❌ **Losing hook control while attempting to finish the choke with excessive upper body focus**
-  - Consequence: Opponent escapes to guard or scrambles to better position while practitioner is focused solely on submission, losing both submission and positional dominance
-  - ✅ Correction: Coordinate lower body and upper body attacks simultaneously, ensuring hooks remain active and controlling throughout the entire finishing sequence without relaxation
+- ❌ **Skipping the checkpoint: address the leg enclosure**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Create space at the hip and thigh before trying to raise the head or extract the arm.
+  - ✅ Correction: Create space at the hip and thigh before trying to raise the head or extract the arm.
 
-- ❌ **Applying choking pressure too early before grip is fully established and locked in**
-  - Consequence: Opponent becomes aware of submission threat prematurely and effectively defends before the position is properly secured, eliminating surprise advantage
-  - ✅ Correction: Wait patiently until invisible collar grip is completely set with proper depth and hand position before beginning to apply any finishing pressure or rotational force
+- ❌ **Skipping the checkpoint: recover inside position**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Bring the elbow back between the bodies after the high closure opens.
+  - ✅ Correction: Bring the elbow back between the bodies after the high closure opens.
 
 
 </section>
@@ -337,21 +335,13 @@ The invisible collar serves multiple strategic functions within back attack syst
 ## Related Positions
 
 
-- **[[Positions/Back Control]]** - Primary position from which invisible collar is established
+- **[[Positions/Rubber Guard/Chill Dog]]** - Related position, not an automatic outcome: compare the configuration and required controls for Chill Dog.
 
-- **[[Positions/Back Control/Seat Belt Control Back]]** - Fundamental grip structure before collar transition
+- **[[Positions/Rubber Guard/New York]]** - Related position, not an automatic outcome: compare the configuration and required controls for New York.
 
-- **[[Positions/Back Control/Body Triangle]]** - Enhanced lower body control often combined with invisible collar
+- **[[Positions/Rubber Guard]]** - Related position, not an automatic outcome: compare the configuration and required controls for Rubber Guard.
 
-- **[[Positions/Crucifix]]** - Common transition target when opponent turns into collar
-
-- **[[Positions/Mount/Mounted Triangle]]** - Alternative attack when transitioning from back control
-
-- **[[Positions/Mount/High Mount]]** - Position reached when opponent escapes back but remains controlled
-
-- **[[Positions/Turtle]]** - Defensive position opponent may adopt during escape attempts
-
-- **[[Positions/Back Control/Standing Back Control]]** - Variation where invisible collar can be applied while standing
+- **[[Positions/Rubber Guard/Crackhead Control]]** - Related position, not an automatic outcome: compare the configuration and required controls for Crackhead Control.
 
 
 </section>

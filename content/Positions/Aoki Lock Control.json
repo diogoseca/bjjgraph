@@ -1,153 +1,148 @@
 {
   "name": "Aoki Lock Control",
   "slug": "aoki-lock-control",
-  "description": "Master Aoki Lock position in BJJ. Advanced shoulder lock control combining leg entanglement with omoplata-style pressure. Complete guide covering both offensive and defensive perspectives.",
-  "variant_uniqueness": "Leg entanglement isolates shoulder joint",
-  "summary": "Aoki Lock Control is an advanced no-gi shoulder-lock control in which the top player entangles their legs around the opponent's isolated arm and shoulder, applying omoplata-style rotational pressure while threatening the finish, back takes, and crucifix transitions.",
-  "overview": "The Aoki Lock position represents an advanced submission control state named after Japanese MMA fighter Shinya Aoki, characterized by leg entanglement control combined with shoulder lock pressure. This hybrid position integrates elements of omoplata mechanics with leg-based trapping, creating a powerful control system that limits opponent mobility while applying progressive shoulder joint pressure. The position exists in two distinct perspectives: bottom (defensive escape focus) and top (offensive finishing focus), each requiring specialized technical knowledge and safety awareness.\n\nFrom the structural perspective, Aoki Lock control involves isolating the opponent's shoulder girdle through leg positioning while maintaining base and applying rotational pressure to the shoulder joint. The top player uses leg entanglement to trap the arm and shoulder complex, preventing rotation and extraction while maintaining stable base through posted leg and hip positioning. The bottom player faces dual threats of shoulder and wrist manipulation, requiring immediate defensive action and escape execution.\n\nThis position appears most commonly in no-gi competition, submission-only formats, and MMA contexts where advanced shoulder locks are legal. It requires deep understanding of shoulder anatomy, joint manipulation mechanics, and progressive pressure application protocols. The position carries moderate to high risk for both practitioners - aggressive defense can create scrambles while improper application can cause serious shoulder injuries. Success depends on technical precision, positional awareness, and commitment to safety protocols throughout execution.",
+  "description": "Aoki Lock Control captures a turned-out foot against the attacker's upper body while the legs manage the opponent's hip, preparing a rotational foot lock that can also stress the knee.",
+  "variant_uniqueness": "Rotated-foot capture with hip control",
+  "summary": "Aoki Lock Control captures a turned-out foot against the attacker's upper body while the legs manage the opponent's hip, preparing a rotational foot lock that can also stress the knee.",
+  "overview": "The foot-lock player is seated or on the side facing the opponent's lower body. The opposing foot is turned outward and enclosed near the armpit, upper arm, and forearm. The attacker has a connection to the hip or leg that limits the opponent's free movement. The captured player must free the foot and leg control before attempting an uncontrolled turn.\n\nThe captured limb is the foot and lower leg. This is distinct from an omoplata-style shoulder trap and from a bent-knee calf slicer. Either player can become the foot-lock attacker during an entanglement exchange. Terminology: Aoki foot-lock control.\n\nRecognize the foot orientation without twisting it into position against resistance. Hold the instep and heel region securely beside the upper body rather than relying on calf compression. Use the entanglement or foot-on-hip frame to manage distance before considering a finish.\n\nRotational foot locks can injure the ankle or knee before pain provides useful warning. Use cooperative capture-and-release practice, no spinning escapes, and the event's actual division rules.\n\nInstructional sources: [Stephan Kesting and Rob Biernacki — the Aoki lock](https://www.grapplearts.com/the-step-by-step-aoki-lock/); [IBJJF — current rule resources](https://ibjjf.com/books-videos).",
   "key_principles": [
-    "Leg entanglement provides primary control mechanism for isolating shoulder complex",
-    "Progressive pressure application prevents injury while maintaining submission threat",
-    "Base maintenance through posted leg creates stable platform for shoulder pressure",
-    "Hip positioning determines pressure vector and submission effectiveness",
-    "Safety protocols must be strictly observed due to shoulder joint fragility",
-    "Position serves as hub for multiple transition opportunities to back control, truck, and crucifix",
-    "Both perspectives require immediate action - bottom must escape, top must finish or transition"
+    "Identify the turned foot: Recognize the foot orientation without twisting it into position against resistance.",
+    "Enclose the foot: Hold the instep and heel region securely beside the upper body rather than relying on calf compression.",
+    "Control the hip connection: Use the entanglement or foot-on-hip frame to manage distance before considering a finish.",
+    "Keep pressure neutral: Stop the drill at a secure capture; the control can become a damaging rotation with very little movement.",
+    "Respect counterattacks: Keep track of your own exposed feet while concentrating on the captured foot.",
+    "Release before rotation: Open the arm enclosure and remove leg pressure immediately on a tap, sudden movement, or pain."
   ],
   "related_positions": [
     {
-      "name": "Omoplata Control",
-      "relationship": "Similar shoulder lock mechanics with different control method"
+      "name": "Ashi Garami",
+      "relationship": "Related position, not an automatic outcome: compare the configuration and required controls for Ashi Garami."
     },
     {
-      "name": "Kimura Trap",
-      "relationship": "Related shoulder manipulation with different grip configuration"
+      "name": "Single Leg X-Guard",
+      "relationship": "Related position, not an automatic outcome: compare the configuration and required controls for Single Leg X-Guard."
     },
     {
-      "name": "Truck",
-      "relationship": "Common transition target from top Aoki Lock position"
+      "name": "Straight Ankle Lock Control",
+      "relationship": "Related position, not an automatic outcome: compare the configuration and required controls for Straight Ankle Lock Control."
     },
     {
-      "name": "Back Control",
-      "relationship": "Primary advancement target when opponent defends shoulder lock"
-    },
-    {
-      "name": "Turtle",
-      "relationship": "Common entry position for Aoki Lock attacks"
+      "name": "Outside Ashi-Garami",
+      "relationship": "Related position, not an automatic outcome: compare the configuration and required controls for Outside Ashi-Garami."
     }
   ],
   "top": {
-    "overview": "The Aoki Lock Top Position represents an advanced submission control state where the top practitioner has secured a leg-entangled shoulder lock position, named after Shinya Aoki's signature application. This position combines elements of leg entanglement control with omoplata-style shoulder lock mechanics, creating a powerful finishing position that controls the opponent's mobility while applying progressive pressure to the shoulder joint. The top player maintains dominant leverage through hip pressure and precise limb control, making this one of the most controlling submission positions in modern no-gi grappling.\n\nFrom the top perspective, this position offers exceptional control over the opponent's upper body rotation and shoulder mobility while simultaneously managing their leg positioning. The practitioner uses their legs to trap the opponent's arm and shoulder complex while maintaining stable base through posted leg and applying rotational pressure to the shoulder joint. Success requires precise technical execution, strong positional awareness, and deep understanding of shoulder lock mechanics and safety protocols.\n\nThe Aoki Lock top position is particularly effective in no-gi competition where the absence of gi grips makes traditional shoulder lock escapes more difficult. It commonly arises from turtle attacks, front headlock positions, or guard passing sequences where the opponent's arm becomes isolated. Understanding proper entry mechanics, pressure application protocols, and transition options is essential for high-level execution. The position serves as a hub for multiple offensive paths including direct submission finish, back control advancement, truck system entry, and crucifix capture.",
+    "overview": "The top player is responsible for recognizing and defending the control. The foot-lock player is seated or on the side facing the opponent's lower body. The opposing foot is turned outward and enclosed near the armpit, upper arm, and forearm. The attacker has a connection to the hip or leg that limits the opponent's free movement. The captured player must free the foot and leg control before attempting an uncontrolled turn.\n\nA turned-out foot enclosed beside the armpit is a rotational threat, not simply a straight ankle-lock grip. Prevent the foot enclosure and recover leg position while the opponent still lacks a secure connection. Do not spin the torso while the foot remains fixed.\n\nAddress the upper-body grip before withdrawing the leg through a tight entanglement. Tap early to a secure rotational lock rather than treating the absence of pain as safety. Separate the feet and restore a stable guard or standing base before resuming movement.\n\nThe captured limb is the foot and lower leg. This is distinct from an omoplata-style shoulder trap and from a bent-knee calf slicer. Either player can become the foot-lock attacker during an entanglement exchange. Rotational foot locks can injure the ankle or knee before pain provides useful warning. Use cooperative capture-and-release practice, no spinning escapes, and the event's actual division rules.",
     "flashcards": [
       {
-        "question": "Your opponent bridges explosively from Aoki Lock control - what adjustment stops the escape?",
-        "answer": "Drive your hips forward and down into their shoulder while simultaneously tightening your leg triangle around their arm. Keep your posted leg close to their body to maintain base against the bridge. If they generate significant momentum, follow their movement and transition to back control rather than fighting the bridge directly.",
-        "answer_line": "Hips forward, tighten leg triangle",
+        "question": "Aoki defense: which foot position warns that this is more than a straight ankle lock?",
+        "answer": "A turned-out foot enclosed beside the armpit is a rotational threat, not simply a straight ankle-lock grip.",
+        "answer_line": "Toes out beside their ribs",
         "distractors": {
           "plausible": [
-            "Post leg away from their hips",
-            "Sit back to absorb momentum"
+            "Toes straight along their forearm",
+            "Sole flat on the mat below the hips"
           ],
           "trap": [
-            "Pull back and fight the bridge"
+            "Heel free; only the calf squeezed"
           ]
         }
       },
       {
-        "question": "What are the essential control points for maintaining Aoki Lock top position?",
-        "answer": "Three primary control points must be maintained simultaneously: leg entanglement around the opponent's arm and shoulder complex, hip pressure directed into the shoulder joint creating rotational stress, and hand control on opponent's hips or far-side limbs preventing rotation. The posted leg provides base stability. Losing any single control point significantly compromises position effectiveness.",
-        "answer_line": "Legs, hip pressure, hand control",
+        "question": "Aoki defense: what should your hands address before the opponent closes the grip?",
+        "answer": "Prevent the foot enclosure and recover leg position while the opponent still lacks a secure connection.",
+        "answer_line": "The arm wrapping around your foot",
         "distractors": {
           "plausible": [
-            "Grip the trapped arm tightly",
-            "Squeeze legs, ignore hip pressure"
+            "Their foot on your hip alone",
+            "Post behind you and pull the leg"
           ],
           "trap": [
-            "Let go of hips to free hands"
+            "Counterattack their far leg first"
           ]
         }
       },
       {
-        "question": "From Aoki Lock top, how do you shut down their forward roll escape?",
-        "answer": "Anticipate the roll by keeping your weight distribution forward through your hips rather than sitting back. As they initiate the roll, follow their momentum while maintaining leg entanglement - this often converts directly to back control. Do not fight the roll by pulling backward, as this creates space for arm extraction.",
-        "answer_line": "Follow roll, convert to back control",
+        "question": "Aoki defense: why is turning your torso dangerous while the foot remains captured?",
+        "answer": "Do not spin the torso while the foot remains fixed.",
+        "answer_line": "The fixed foot loads knee rotation",
         "distractors": {
           "plausible": [
-            "Sit back and block the roll",
-            "Pull backward against momentum"
+            "The ankle absorbs all turning force",
+            "The heel slips free before the turn"
           ],
           "trap": [
-            "Release legs to reset position"
+            "The foot follows your shoulders"
           ]
         }
       },
       {
-        "question": "What grip priorities should you establish when entering Aoki Lock top position?",
-        "answer": "Primary grip is controlling opponent's far hip with your hands to prevent rotation and escape angles. Secondary priority is managing their free arm to prevent posting or defensive frames. Your legs provide the primary shoulder control through entanglement, so hand grips focus on hip and position management rather than the trapped arm itself.",
-        "answer_line": "Control far hip, then free arm",
+        "question": "Aoki defense: which connection must open before you pull the trapped leg away?",
+        "answer": "Address the upper-body grip before withdrawing the leg through a tight entanglement.",
+        "answer_line": "Their arm enclosure on your foot",
         "distractors": {
           "plausible": [
-            "Grip the trapped arm directly",
-            "Control near hip, ignore far arm"
+            "Their hip-posting leg alone",
+            "The gap between your own knees"
           ],
           "trap": [
-            "Let go of hips, grab both wrists"
+            "Their far-leg hook alone"
           ]
         }
       },
       {
-        "question": "From Aoki Lock top, how do you apply the shoulder lock safely for your training partner?",
-        "answer": "Apply shoulder pressure gradually over 3-5 seconds minimum using controlled hip drive rather than explosive movement. Maintain constant visual awareness of your partner's tap signals including verbal taps, hand taps on any surface, and body language indicating distress. Release immediately upon any tap signal. The goal is progressive, controlled pressure that allows time for tap recognition.",
-        "answer_line": "Apply pressure slowly, watch for tap",
+        "question": "Aoki defense: the grip is secure but painless; what makes continuing risky?",
+        "answer": "Tap early to a secure rotational lock rather than treating the absence of pain as safety.",
+        "answer_line": "Joint load can precede pain",
         "distractors": {
           "plausible": [
-            "Apply pressure fast, then check",
-            "Watch face, ignore hand taps"
+            "Only calf compression causes damage",
+            "A bent knee absorbs the turn safely"
           ],
           "trap": [
-            "Crank hard for a quick finish"
+            "No pain means the foot can rotate"
           ]
         }
       },
       {
-        "question": "From Aoki Lock top, when should you transition instead of forcing a defended finish?",
-        "answer": "Transition when you've applied two attempts at increasing pressure without submission progress, when opponent's defensive posture is strong and static, or when they create any opening for back control, truck, or crucifix. Forcing a defended shoulder lock wastes energy and creates stalemate. Recognizing transition opportunities converts positional control into advancement.",
-        "answer_line": "Two failed attempts, then transition",
+        "question": "Aoki defense: after the opponent opens the lock, what precedes resuming the exchange?",
+        "answer": "Separate the feet and restore a stable guard or standing base before resuming movement.",
+        "answer_line": "Free both feet; rebuild your base",
         "distractors": {
           "plausible": [
-            "Keep forcing until they tap",
-            "Switch grips, same pressure angle"
+            "Leave the heel in their armpit",
+            "Turn away with the hip still held"
           ],
           "trap": [
-            "Never abandon the shoulder lock"
+            "Pull back with the toes enclosed"
           ]
         }
       },
       {
-        "question": "How do you manage energy expenditure when holding Aoki Lock top position?",
-        "answer": "Use body weight through hips rather than muscular effort for shoulder pressure. Keep legs actively squeezing but avoid death-gripping with constant maximum tension. Post your free leg strongly but efficiently without over-extension. Let gravity and positioning do the work rather than fighting against opponent's defensive tension. The position should feel sustainable for 60-90 seconds.",
-        "answer_line": "Use body weight, not muscle",
+        "question": "Aoki defense: in the reviewed seated setup, where is the foot-locker relative to your legs?",
+        "answer": "The foot-lock player is seated or on the side facing the opponent's lower body.",
+        "answer_line": "Facing your legs, seated or side-on",
         "distractors": {
           "plausible": [
-            "Grip max tension the whole time",
-            "Rest fully, let legs go loose"
+            "Beside your knee, out of foot reach",
+            "Facing your chest, foot behind them"
           ],
           "trap": [
-            "Death-grip legs for full control"
+            "Over your thighs, foot far from ribs"
           ]
         }
       },
       {
-        "question": "Aoki Lock top: they partly extract the arm but you keep leg contact - how do you recover?",
-        "answer": "Immediately re-tighten your leg triangle before they complete extraction by driving your top leg down while pulling your bottom leg up. Simultaneously drive hip pressure forward to prevent further extraction. If extraction continues, abandon the shoulder lock and transition to back control or turtle attacks using your existing leg positioning as a starting point.",
-        "answer_line": "Re-tighten triangle, drive hips in",
+        "question": "Aoki defense: which restraint distinguishes this threat from an omoplata?",
+        "answer": "The captured limb is the foot and lower leg. This is distinct from an omoplata-style shoulder trap and from a bent-knee calf slicer. Either player can become the foot-lock attacker during an entanglement exchange.",
+        "answer_line": "Foot clamped to their upper body",
         "distractors": {
           "plausible": [
-            "Grab the arm to pull it back",
-            "Squeeze harder, hold hip position"
+            "Bent arm pinned under their thigh",
+            "Wrist held behind your lower back"
           ],
           "trap": [
-            "Release legs, chase the arm"
+            "Elbow trapped between their knees"
           ]
         }
       }
@@ -160,217 +155,139 @@
       "time_sustainability": "Short to Medium"
     },
     "state_invariants": [
-      "Top player's legs are entangled with opponent's trapped arm with thigh positioned over shoulder and shin controlling upper arm",
-      "Opponent is typically on side or stomach with trapped shoulder isolated and unable to rotate freely",
-      "Top player maintains base through free leg posted on mat creating stable platform for shoulder pressure application",
-      "Hip pressure is directed downward and forward onto opponent's shoulder joint creating rotational stress on shoulder capsule",
-      "Opponent's trapped arm is extended and isolated between top player's legs with elbow pointing away from body",
-      "Top player's hands control opponent's hips or far-side limbs preventing rotation and escape angles"
+      "The foot-lock player is seated or on the side facing the opponent's lower body.",
+      "The opposing foot is turned outward and enclosed near the armpit, upper arm, and forearm.",
+      "The attacker has a connection to the hip or leg that limits the opponent's free movement.",
+      "The captured player must free the foot and leg control before attempting an uncontrolled turn."
     ],
     "prerequisites": [
-      "Successful entry from front headlock, turtle, or guard passing position with arm isolated",
-      "Control of opponent's shoulder with legs positioned for entanglement",
-      "Opponent's shoulder trapped with limited rotation capability",
-      "Base established through posting leg and hip positioning",
-      "Understanding of shoulder lock mechanics and progressive pressure application protocols"
+      "A turned-out foot enclosed beside the armpit is a rotational threat, not simply a straight ankle-lock grip.",
+      "Prevent the foot enclosure and recover leg position while the opponent still lacks a secure connection.",
+      "Do not spin the torso while the foot remains fixed."
     ],
     "key_principles": [
-      "Maintain constant hip pressure directed into opponent's shoulder to prevent rotation and create submission threat",
-      "Control opponent's trapped arm angle with legs keeping elbow pointed away from their body",
-      "Post free leg strongly to create stable base and prevent opponent from rolling through position",
-      "Apply pressure gradually and progressively over 3-5 seconds minimum monitoring opponent's tap signals carefully",
-      "Control opponent's hips with hands to prevent them from turning into pressure or creating escape angles",
-      "Keep weight distributed through hips into opponent's shoulder rather than relying on arm strength",
-      "Maintain leg entanglement tightness to prevent arm extraction and position escape"
+      "Distinguish the foot lock: A turned-out foot enclosed beside the armpit is a rotational threat, not simply a straight ankle-lock grip.",
+      "Hand fight before capture: Prevent the foot enclosure and recover leg position while the opponent still lacks a secure connection.",
+      "Keep foot and knee aligned: Do not spin the torso while the foot remains fixed.",
+      "Free the foot first: Address the upper-body grip before withdrawing the leg through a tight entanglement.",
+      "Avoid pain testing: Tap early to a secure rotational lock rather than treating the absence of pain as safety.",
+      "Reset after release: Separate the feet and restore a stable guard or standing base before resuming movement."
     ],
     "decision_tree": [
       {
-        "condition": "If opponent attempts to roll forward through the position",
+        "condition": "Only after the foot enclosure is fully released and you are seated in open guard with supporting posts",
         "actions": [
           {
-            "technique": "Follow to Back Control",
-            "target": "Back Control",
-            "probability": 70
-          },
-          {
-            "technique": "Maintain Aoki Lock",
-            "target": "Aoki Lock",
-            "probability": 30
+            "technique": "Technical Stand Up from Open Guard",
+            "target": "Standing Position",
+            "probability": 55
           }
         ]
       },
       {
-        "condition": "If opponent turns away or creates hip distance",
+        "condition": "After both leg connections disengage, when there is open-guard distance and the captured knee can move freely",
         "actions": [
           {
-            "technique": "Truck Entry",
-            "target": "Truck",
-            "probability": 65
-          },
-          {
-            "technique": "Follow to Back",
-            "target": "Back Control",
-            "probability": 35
+            "technique": "Technical Stand Up from Open Guard",
+            "target": "Standing Position",
+            "probability": 55
           }
         ]
       },
       {
-        "condition": "If opponent exposes far arm while defending",
+        "condition": "After a cooperative release and reset, when you have free feet and a stable seated base facing the opponent",
         "actions": [
           {
-            "technique": "Crucifix Transition",
-            "target": "Crucifix",
-            "probability": 60
-          },
-          {
-            "technique": "Kimura Switch",
-            "target": "Kimura Trap",
-            "probability": 40
-          }
-        ]
-      },
-      {
-        "condition": "If opponent's shoulder is fully controlled with no escape attempts",
-        "actions": [
-          {
-            "technique": "Finish Aoki Lock",
-            "target": "Game Over",
-            "probability": 75
-          },
-          {
-            "technique": "Transition to Back",
-            "target": "Back Control",
-            "probability": 25
+            "technique": "Technical Stand Up from Open Guard",
+            "target": "Standing Position",
+            "probability": 55
           }
         ]
       }
     ],
     "common_errors": [
       {
-        "error": "Posting too far from opponent with free leg reducing hip pressure on shoulder",
-        "consequence": "Opponent gains space to rotate shoulder and escape the lock or extract their trapped arm",
-        "correction": "Keep posted leg close to opponent's body maintaining constant downward hip pressure into shoulder joint"
+        "error": "Skipping the checkpoint: distinguish the foot lock",
+        "consequence": "The intended control is not established before the next movement; the missing requirement is: A turned-out foot enclosed beside the armpit is a rotational threat, not simply a straight ankle-lock grip.",
+        "correction": "A turned-out foot enclosed beside the armpit is a rotational threat, not simply a straight ankle-lock grip."
       },
       {
-        "error": "Allowing opponent's elbow to bend and come back toward their body",
-        "consequence": "Shoulder lock loses effectiveness as joint alignment changes allowing opponent to defend or escape",
-        "correction": "Use leg positioning to keep opponent's arm extended with elbow pointing away from their torso"
+        "error": "Skipping the checkpoint: hand fight before capture",
+        "consequence": "The intended control is not established before the next movement; the missing requirement is: Prevent the foot enclosure and recover leg position while the opponent still lacks a secure connection.",
+        "correction": "Prevent the foot enclosure and recover leg position while the opponent still lacks a secure connection."
       },
       {
-        "error": "Failing to control opponent's hips with hands",
-        "consequence": "Opponent can turn into pressure or create angles for escape negating the shoulder lock",
-        "correction": "Maintain active hand control on opponent's far hip or pants to prevent rotation and movement"
+        "error": "Skipping the checkpoint: keep foot and knee aligned",
+        "consequence": "The intended control is not established before the next movement; the missing requirement is: Do not spin the torso while the foot remains fixed.",
+        "correction": "Do not spin the torso while the foot remains fixed."
       },
       {
-        "error": "Applying shoulder pressure too quickly or explosively without progressive build",
-        "consequence": "Risk of serious shoulder injury to opponent, potential disqualification, and unsafe training environment",
-        "correction": "Apply pressure gradually over 3-5 seconds minimum staying alert for tap signals prioritizing safety"
+        "error": "Skipping the checkpoint: free the foot first",
+        "consequence": "The intended control is not established before the next movement; the missing requirement is: Address the upper-body grip before withdrawing the leg through a tight entanglement.",
+        "correction": "Address the upper-body grip before withdrawing the leg through a tight entanglement."
       },
       {
-        "error": "Losing leg entanglement tension around opponent's arm",
-        "consequence": "Opponent can extract their arm and escape to guard or turtle position",
-        "correction": "Maintain constant squeeze with legs around opponent's shoulder and upper arm complex"
-      },
-      {
-        "error": "Looking away from opponent or losing positional awareness",
-        "consequence": "Miss defensive movements, fail to see tap signals, or get swept to inferior position",
-        "correction": "Keep head position aware with eyes on opponent's body language and hand signals throughout"
-      },
-      {
-        "error": "Forcing finish when transitions are available",
-        "consequence": "Waste energy on low-percentage finish while missing high-percentage transition opportunities",
-        "correction": "Recognize when opponent's defense is strong and transition to back control, truck, or crucifix"
+        "error": "Skipping the checkpoint: avoid pain testing",
+        "consequence": "The intended control is not established before the next movement; the missing requirement is: Tap early to a secure rotational lock rather than treating the absence of pain as safety.",
+        "correction": "Tap early to a secure rotational lock rather than treating the absence of pain as safety."
       }
     ],
     "training_drills": [
       {
-        "name": "Aoki Lock Entry Repetitions",
-        "description": "From turtle position partner allows you to secure arm isolation and enter Aoki Lock position. Focus on smooth leg entanglement, base establishment, and proper shoulder angle. Repeat 10-15 times per side emphasizing positional control over submission finish.",
-        "duration": "10 minutes"
+        "name": "Identify the configuration",
+        "description": "Work cooperatively on distinguish the foot lock. A turned-out foot enclosed beside the armpit is a rotational threat, not simply a straight ankle-lock grip. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.",
+        "duration": "Short cooperative repetitions; stop at each checkpoint"
       },
       {
-        "name": "Position Maintenance Against Resistance",
-        "description": "Partner provides 50% resistance while you maintain Aoki Lock top position. They attempt common escapes (roll through, arm extraction, hip escape) while you maintain control and counter. Focus on weight distribution, base posting, and hip pressure. 3-minute rounds.",
-        "duration": "15 minutes (5 rounds)"
+        "name": "Rehearse the connection",
+        "description": "Work cooperatively on hand fight before capture. Prevent the foot enclosure and recover leg position while the opponent still lacks a secure connection. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.",
+        "duration": "Short cooperative repetitions; stop at each checkpoint"
       },
       {
-        "name": "Transition Flow Drill",
-        "description": "From Aoki Lock top position partner gives specific defensive reactions (rolling, turning away, exposing far arm). Practice flowing to appropriate transitions: back control, truck, crucifix, or finishing lock. Emphasize smooth transitions and maintaining control throughout. 5 repetitions each scenario.",
-        "duration": "12 minutes"
-      },
-      {
-        "name": "Safety-First Finish Practice",
-        "description": "With compliant partner practice applying Aoki Lock pressure using 3-5 second gradual increases. Partner taps at first discomfort. Focus on immediate release protocol and communication. Develop sensitivity to submission depth and tap recognition. 8-10 controlled repetitions per side.",
-        "duration": "10 minutes"
+        "name": "Add an early response",
+        "description": "Work cooperatively on keep foot and knee aligned. Do not spin the torso while the foot remains fixed. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.",
+        "duration": "Short cooperative repetitions; stop at each checkpoint"
       }
     ],
     "related_content": [
       {
-        "name": "Aoki Lock",
-        "relationship": "Primary submission finish from this position"
+        "name": "Ashi Garami",
+        "relationship": "Related configuration to study separately: compare the configuration and required controls for Ashi Garami."
       },
       {
-        "name": "Truck",
-        "relationship": "Transition target - alternative control position"
+        "name": "Single Leg X-Guard",
+        "relationship": "Related configuration to study separately: compare the configuration and required controls for Single Leg X-Guard."
       },
       {
-        "name": "Back Control",
-        "relationship": "Transition target - superior control position"
+        "name": "Straight Ankle Lock Control",
+        "relationship": "Related configuration to study separately: compare the configuration and required controls for Straight Ankle Lock Control."
       },
       {
-        "name": "Crucifix",
-        "relationship": "Transition target - alternative submission control"
-      },
-      {
-        "name": "Kimura Trap",
-        "relationship": "Transition target - related shoulder lock control"
-      },
-      {
-        "name": "Omoplata Control",
-        "relationship": "Related position - similar shoulder lock mechanics"
-      },
-      {
-        "name": "Front Headlock",
-        "relationship": "Common entry position for Aoki Lock attacks"
-      },
-      {
-        "name": "Aoki Lock",
-        "relationship": "Primary finishing transition from this position"
-      },
-      {
-        "name": "Aoki Lock to Back Control",
-        "relationship": "Key transition when finish is defended"
-      },
-      {
-        "name": "Aoki Lock to Crucifix",
-        "relationship": "Transition when far arm is exposed"
+        "name": "Outside Ashi-Garami",
+        "relationship": "Related configuration to study separately: compare the configuration and required controls for Outside Ashi-Garami."
       }
     ],
     "position_metrics": {
       "retention_rate": {
         "value": 78,
-        "description": "Percentage of time maintaining Aoki Lock top control"
+        "description": "Existing model estimate retained; the cited instruction does not measure this probability."
       },
       "advancement_probability": {
         "value": 72,
-        "description": "Probability of advancing to superior position or finish"
+        "description": "Existing model estimate retained; the cited instruction does not measure this probability."
       },
       "submission_probability": {
         "value": 68,
-        "description": "Probability of finishing submission from this position"
+        "description": "Existing model estimate retained; the cited instruction does not measure this probability."
       },
-      "average_time": "30-90 seconds before finish or transition"
+      "average_time": "Variable; reset at the first loss of safe control rather than targeting a fixed hold time"
     },
     "name": "Aoki Lock Control Top",
-    "description": "Master Aoki Lock top position in BJJ. Advanced submission control with leg entanglement and shoulder lock mechanics. Learn finishing strategies and transitions with 68% finish rate.",
+    "description": "Aoki Lock Control top perspective: A turned-out foot enclosed beside the armpit is a rotational threat, not simply a straight ankle-lock grip. Prevent the foot enclosure and recover leg position while the opponent still lacks a secure connection.",
     "tags": [
       "bjj",
       "position",
-      "aoki-lock",
-      "top",
-      "submission-control",
-      "shoulder-lock",
-      "advanced"
+      "top"
     ],
     "transitions": [
       {
@@ -419,117 +336,117 @@
     "clips": []
   },
   "bottom": {
-    "overview": "The Aoki Lock Bottom Position represents a critical defensive scenario where you are being attacked with a leg-entangled shoulder lock submission. Named after legendary Japanese fighter Shinya Aoki, this position occurs when your opponent has secured leg entanglement control over your shoulder while applying omoplata-style pressure, typically from side control, turtle, or transitional scrambles. Unlike traditional kimura or omoplata control, the Aoki Lock combines leg trapping with shoulder manipulation, creating a unique defensive challenge that requires specialized escape protocols.\n\nFrom bottom, your primary objectives are immediate escape, preventing submission finish, and creating offensive opportunities from defensive positions. The position requires understanding shoulder lock mechanics, maintaining defensive posture despite leg entanglement, and recognizing the specific movement patterns needed to neutralize the attack. While highly uncomfortable and dangerous, proper defensive technique can turn this position into a pathway back to guard or even position reversals.\n\nThis position commonly arises when defending turtle position, during scrambles from guard passing attempts, or when opponent capitalizes on arm isolation during transitions. Understanding the mechanical differences between Aoki Lock and traditional shoulder locks is essential for mounting effective defense and preventing catastrophic shoulder injuries. The leg entanglement component limits traditional escape routes, requiring specific counter-strategies that address both the shoulder pressure and leg control simultaneously.",
+    "overview": "The bottom player is responsible for maintaining the control. The foot-lock player is seated or on the side facing the opponent's lower body. The opposing foot is turned outward and enclosed near the armpit, upper arm, and forearm. The attacker has a connection to the hip or leg that limits the opponent's free movement. The captured player must free the foot and leg control before attempting an uncontrolled turn.\n\nRecognize the foot orientation without twisting it into position against resistance. Hold the instep and heel region securely beside the upper body rather than relying on calf compression. Use the entanglement or foot-on-hip frame to manage distance before considering a finish.\n\nStop the drill at a secure capture; the control can become a damaging rotation with very little movement. Keep track of your own exposed feet while concentrating on the captured foot. Open the arm enclosure and remove leg pressure immediately on a tap, sudden movement, or pain.\n\nThe captured limb is the foot and lower leg. This is distinct from an omoplata-style shoulder trap and from a bent-knee calf slicer. Either player can become the foot-lock attacker during an entanglement exchange. Rotational foot locks can injure the ankle or knee before pain provides useful warning. Use cooperative capture-and-release practice, no spinning escapes, and the event's actual division rules.",
     "flashcards": [
       {
-        "question": "Trapped in Aoki Lock, they increase hip pressure on your shoulder - what do you do?",
-        "answer": "Internally rotate your shoulder to resist the external rotation pressure from their hip drive. Simultaneously initiate a roll toward your trapped arm direction, using their forward pressure momentum to assist your escape. Do not fight the pressure by pulling away, as this dramatically increases shoulder torque and injury risk.",
-        "answer_line": "Rotate in, roll toward trapped arm",
+        "question": "Aoki control: what orientation of the captured foot gives the lock its rotational character?",
+        "answer": "Recognize the foot orientation without twisting it into position against resistance.",
+        "answer_line": "Foot turned outward inside the arms",
         "distractors": {
           "plausible": [
-            "Pull arm away from pressure",
-            "Roll away from the trapped arm"
+            "Toes aligned with the kneecap",
+            "Sole pointing straight at the mat"
           ],
           "trap": [
-            "Externally rotate to create space"
+            "Ankle free while the calf folds"
           ]
         }
       },
       {
-        "question": "What are the essential defensive priorities when caught in Aoki Lock bottom position?",
-        "answer": "First priority is protecting your shoulder from catastrophic rotation by keeping it internally rotated. Second is addressing the leg entanglement before attempting arm extraction. Third is using your free hand to attack opponent's posted leg base or control their hip. Fourth is creating continuous movement toward escape rather than static defense.",
-        "answer_line": "Protect shoulder, then clear legs",
+        "question": "Aoki control: where should you secure the opponent's instep and heel?",
+        "answer": "Hold the instep and heel region securely beside the upper body rather than relying on calf compression.",
+        "answer_line": "Close beside your ribs and armpit",
         "distractors": {
           "plausible": [
-            "Yank arm free immediately",
-            "Grip trapped arm, stay still"
+            "Between your knees, arms extended",
+            "Across your shoulder, heel loose"
           ],
           "trap": [
-            "Extend arm to test the pressure"
+            "At your chest but free to slide"
           ]
         }
       },
       {
-        "question": "How do you shut down your opponent's ability to finish the submission?",
-        "answer": "Keep your trapped elbow bent when possible without compromising shoulder safety to prevent full arm extension. Roll toward the trapped arm direction following path of least resistance. Attack opponent's posted leg to destabilize their base and pressure generation. Create hip movement to reduce the pressure angle. Most importantly, tap early if pressure reaches dangerous threshold.",
-        "answer_line": "Bend elbow, attack their base",
+        "question": "Aoki control: what prevents the opponent moving the hip freely away from your grip?",
+        "answer": "Use the entanglement or foot-on-hip frame to manage distance before considering a finish.",
+        "answer_line": "Leg entanglement or hip foot-frame",
         "distractors": {
           "plausible": [
-            "Straighten arm to buy time",
-            "Roll away from trapped arm side"
+            "Heel grip without thigh contact",
+            "Ankle pull with both arms extended"
           ],
           "trap": [
-            "Pull hard to rip arm free"
+            "Calf squeeze without a hip anchor"
           ]
         }
       },
       {
-        "question": "What grip or frame priorities help you survive and escape Aoki Lock bottom?",
-        "answer": "Your free hand should immediately engage in attacking opponent's posted leg or controlling their hip to create escape angles. Do not grip your trapped arm trying to pull it free, as this wastes energy and doesn't address the leg entanglement. Focus frames on creating space and destabilizing opponent's base rather than directly fighting the submission.",
-        "answer_line": "Attack posted leg, not trapped arm",
+        "question": "Aoki control: when should a cooperative capture drill stop adding load?",
+        "answer": "Stop the drill at a secure capture; the control can become a damaging rotation with very little movement.",
+        "answer_line": "When the turned foot is enclosed",
         "distractors": {
           "plausible": [
-            "Grip trapped arm and pull free",
-            "Frame on their far shoulder"
+            "When the knee visibly rotates",
+            "When their hip lifts off the mat"
           ],
           "trap": [
-            "Let go of hip, grab the mat"
+            "When calf pressure becomes painful"
           ]
         }
       },
       {
-        "question": "How do you recognize when you should tap rather than continue defending?",
-        "answer": "Tap immediately when you feel sharp pain in the shoulder joint, when you cannot prevent your arm from full extension, when your shoulder rotation reaches uncomfortable levels, or when opponent's pressure is increasing and you have no escape path. Shoulder injuries from this position include rotator cuff tears, labrum damage, and dislocation - none are worth continuing defense.",
-        "answer_line": "Tap at sharp pain or no escape",
+        "question": "Aoki control: which of your foot placements can feed the reciprocal counter?",
+        "answer": "While controlling one leg, do not overlook your own hip-posting foot. Kesting shows that exposed post being collected for an Aoki counter.",
+        "answer_line": "The reachable foot on their hip",
         "distractors": {
           "plausible": [
-            "Wait for the coach to stop it",
-            "Breathe and wait out the pressure"
+            "A foot hidden behind your knee",
+            "A foot withdrawn behind your hip"
           ],
           "trap": [
-            "Tough it out to prove your grit"
+            "A distant mat post, toes turned away"
           ]
         }
       },
       {
-        "question": "Your opponent adjusts their posted leg position - how do you capitalize on this moment?",
-        "answer": "Attack their base immediately with your free hand before they re-establish stable posting. Time your arm extraction attempt to coincide with their adjustment since leg entanglement often loosens during repositioning. Use their momentary instability to create hip movement and change your angle toward escape. This is your primary window for successful escape.",
-        "answer_line": "Attack base during their adjustment",
+        "question": "Aoki control: what should open immediately when the partner signals a stop?",
+        "answer": "Open the arm enclosure and remove leg pressure immediately on a tap, sudden movement, or pain.",
+        "answer_line": "The arm clamp and leg pressure",
         "distractors": {
           "plausible": [
-            "Wait for them to re-post fully",
-            "Pull trapped arm free now"
+            "Only the hand nearest their toes",
+            "Only the foot away from their hip"
           ],
           "trap": [
-            "Stay still to avoid detection"
+            "The elbows, with knees still turning"
           ]
         }
       },
       {
-        "question": "How do you manage energy when defending Aoki Lock bottom position?",
-        "answer": "Avoid fighting the submission with constant maximum tension, which exhausts you quickly. Focus on efficient movement patterns rather than strength-based resistance. Time your escape attempts to coincide with opponent's adjustments or pressure changes. Accept that some pressure is inevitable and conserve energy for explosive escape attempts at opportune moments.",
-        "answer_line": "Time escapes, don't max-tense",
+        "question": "Aoki control: in the reviewed seated capture, what should your torso face?",
+        "answer": "The foot-lock player is seated or on the side facing the opponent's lower body.",
+        "answer_line": "Toward the opponent's hips and legs",
         "distractors": {
           "plausible": [
-            "Fight with constant max tension",
-            "Rest completely, wait it out"
+            "Away, with the foot behind your hips",
+            "Toward their chest, foot far away"
           ],
           "trap": [
-            "Muscle through nonstop resistance"
+            "Down, with heel outside your arms"
           ]
         }
       },
       {
-        "question": "Your Aoki Lock escape stalls but you made space - how do you stop them re-establishing control?",
-        "answer": "Keep moving immediately rather than pausing in the partial escape position. If you've loosened the leg entanglement, continue working arm extraction before they re-tighten. If you've disrupted their base, continue attacking it to prevent re-stabilization. Chain your escape attempts together rather than treating each as isolated. Continuous movement is more effective than single powerful attempts.",
-        "answer_line": "Keep moving, chain the escape",
+        "question": "Aoki control: what separates this capture from a calf slicer?",
+        "answer": "The captured limb is the foot and lower leg. This is distinct from an omoplata-style shoulder trap and from a bent-knee calf slicer. Either player can become the foot-lock attacker during an entanglement exchange.",
+        "answer_line": "The enclosed, turned foot is a lever",
         "distractors": {
           "plausible": [
-            "Pause to reset your base",
-            "Hold position, catch your breath"
+            "A bent knee folds over a shin",
+            "Heel pulled to the same-side hip"
           ],
           "trap": [
-            "Stop and reassess calmly"
+            "Calf compressed with the ankle free"
           ]
         }
       }
@@ -539,186 +456,142 @@
       "position_type": "Defensive",
       "risk_level": "High",
       "energy_cost": "Medium",
-      "time_sustainability": "Short"
+      "time_sustainability": "Short to Medium"
     },
     "state_invariants": [
-      "Your shoulder is trapped by opponent's leg entanglement with thigh over shoulder and shin controlling upper arm",
-      "Opponent maintains hip pressure directed into your shoulder joint creating rotational stress on shoulder capsule",
-      "Your trapped arm is extended and isolated between opponent's legs with limited rotation capability",
-      "Opponent posts free leg on mat for stable base while hands control your hips preventing escape angles",
-      "Your defensive posture focuses on preventing full shoulder rotation while creating space for arm extraction"
+      "The foot-lock player is seated or on the side facing the opponent's lower body.",
+      "The opposing foot is turned outward and enclosed near the armpit, upper arm, and forearm.",
+      "The attacker has a connection to the hip or leg that limits the opponent's free movement.",
+      "The captured player must free the foot and leg control before attempting an uncontrolled turn."
     ],
     "prerequisites": [
-      "Opponent has secured leg entanglement over your shoulder and upper arm",
-      "Your shoulder is under rotational pressure from opponent's hip positioning",
-      "Your mobility is restricted by combination of leg control and hip pressure",
-      "You are typically on side or stomach with limited rotation capability",
-      "Understanding of shoulder lock defense principles and injury awareness"
+      "Recognize the foot orientation without twisting it into position against resistance.",
+      "Hold the instep and heel region securely beside the upper body rather than relying on calf compression.",
+      "Use the entanglement or foot-on-hip frame to manage distance before considering a finish."
     ],
     "key_principles": [
-      "Keep shoulder internally rotated to resist external rotation pressure from opponent's hip drive",
-      "Prevent full arm extension by keeping elbow bent when possible without compromising shoulder safety",
-      "Use free hand to attack opponent's posted leg base or hip control to create escape angles",
-      "Roll toward trapped arm direction following path of least resistance rather than fighting against pressure",
-      "Create hip movement to reduce pressure angle and generate escape momentum",
-      "Recognize tap threshold early - shoulder locks cause serious injury if defended too aggressively",
-      "Prioritize position escape over submission defense if pressure becomes dangerous"
+      "Identify the turned foot: Recognize the foot orientation without twisting it into position against resistance.",
+      "Enclose the foot: Hold the instep and heel region securely beside the upper body rather than relying on calf compression.",
+      "Control the hip connection: Use the entanglement or foot-on-hip frame to manage distance before considering a finish.",
+      "Keep pressure neutral: Stop the drill at a secure capture; the control can become a damaging rotation with very little movement.",
+      "Respect counterattacks: Keep track of your own exposed feet while concentrating on the captured foot.",
+      "Release before rotation: Open the arm enclosure and remove leg pressure immediately on a tap, sudden movement, or pain."
     ],
     "decision_tree": [
       {
-        "condition": "If opponent is applying progressive shoulder pressure with tight leg control",
+        "condition": "When the turned-out foot is captured and the hip connection is secure, in supervised control-only practice",
         "actions": [
           {
-            "technique": "Rolling Escape to Guard",
-            "target": "Closed Guard",
-            "probability": 55
-          },
-          {
-            "technique": "Tap Early if Pressure Dangerous",
+            "technique": "Aoki Lock from Aoki Lock Control",
             "target": "Game Over",
-            "probability": 45
+            "probability": 50
           }
         ]
       },
       {
-        "condition": "If opponent's posted leg base appears unstable or adjustable",
+        "condition": "When a foot offered on the hip during a genuine ashi exchange supplies the separately confirmed Aoki capture",
         "actions": [
           {
-            "technique": "Base Attack to Sweep",
+            "technique": "Aoki Lock from Ashi Garami",
+            "target": "Game Over",
+            "probability": 50
+          }
+        ]
+      },
+      {
+        "condition": "Only after releasing the foot and leg entanglement completely and establishing safe open-guard posts",
+        "actions": [
+          {
+            "technique": "Technical Stand Up from Open Guard",
             "target": "Standing Position",
-            "probability": 45
-          },
-          {
-            "technique": "Arm Extraction to Turtle",
-            "target": "Turtle",
             "probability": 55
-          }
-        ]
-      },
-      {
-        "condition": "If leg entanglement loosens but hip pressure remains",
-        "actions": [
-          {
-            "technique": "Hip Escape to Guard",
-            "target": "Open Guard",
-            "probability": 55
-          },
-          {
-            "technique": "Arm Extraction",
-            "target": "Turtle",
-            "probability": 45
           }
         ]
       }
     ],
     "common_errors": [
       {
-        "error": "Rolling away from trapped arm direction against the pressure",
-        "consequence": "Increases shoulder torque dramatically, often leading to submission or serious shoulder injury",
-        "correction": "Roll toward your trapped arm, following the path of least resistance and using opponent's control momentum"
+        "error": "Skipping the checkpoint: identify the turned foot",
+        "consequence": "The intended control is not established before the next movement; the missing requirement is: Recognize the foot orientation without twisting it into position against resistance.",
+        "correction": "Recognize the foot orientation without twisting it into position against resistance."
       },
       {
-        "error": "Attempting to muscle arm free without addressing leg entanglement",
-        "consequence": "Exhausts energy while increasing shoulder stress, makes escape impossible while risking injury",
-        "correction": "Address leg control first by creating hip angles or attacking opponent's base before attempting arm extraction"
+        "error": "Skipping the checkpoint: enclose the foot",
+        "consequence": "The intended control is not established before the next movement; the missing requirement is: Hold the instep and heel region securely beside the upper body rather than relying on calf compression.",
+        "correction": "Hold the instep and heel region securely beside the upper body rather than relying on calf compression."
       },
       {
-        "error": "Remaining static and defensive without active escape attempts",
-        "consequence": "Allows opponent time to perfect pressure angle and finish submission safely",
-        "correction": "Move immediately upon recognizing position - create continuous movement toward escape rather than static defense"
+        "error": "Skipping the checkpoint: control the hip connection",
+        "consequence": "The intended control is not established before the next movement; the missing requirement is: Use the entanglement or foot-on-hip frame to manage distance before considering a finish.",
+        "correction": "Use the entanglement or foot-on-hip frame to manage distance before considering a finish."
       },
       {
-        "error": "Defending beyond safe shoulder range to avoid tapping",
-        "consequence": "Serious shoulder injury including rotator cuff tears, labrum damage, or shoulder dislocation",
-        "correction": "Tap early when shoulder pressure reaches discomfort threshold - position is not worth injury risk"
+        "error": "Skipping the checkpoint: keep pressure neutral",
+        "consequence": "The intended control is not established before the next movement; the missing requirement is: Stop the drill at a secure capture; the control can become a damaging rotation with very little movement.",
+        "correction": "Stop the drill at a secure capture; the control can become a damaging rotation with very little movement."
       },
       {
-        "error": "Neglecting to use free hand for base attacks or hip control",
-        "consequence": "Wastes primary offensive tool for creating escape opportunities and destabilizing opponent's control",
-        "correction": "Immediately engage free hand in attacking opponent's posted leg or controlling their hip to create angles"
+        "error": "Skipping the checkpoint: respect counterattacks",
+        "consequence": "The intended control is not established before the next movement; the missing requirement is: Keep track of your own exposed feet while concentrating on the captured foot.",
+        "correction": "Keep track of your own exposed feet while concentrating on the captured foot."
       }
     ],
     "training_drills": [
       {
-        "name": "Progressive Aoki Lock Defense Drill",
-        "description": "Partner establishes Aoki Lock control from turtle with 30% pressure. Practice rolling escape mechanics, shoulder positioning, and arm extraction protocols. Gradually increase resistance to 50% over multiple rounds. Focus on movement patterns rather than strength-based defense.",
-        "duration": "3 rounds of 2 minutes"
+        "name": "Identify the configuration",
+        "description": "Work cooperatively on identify the turned foot. Recognize the foot orientation without twisting it into position against resistance. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.",
+        "duration": "Short cooperative repetitions; stop at each checkpoint"
       },
       {
-        "name": "Rolling Escape Flow Drill",
-        "description": "Start in controlled Aoki Lock bottom position. Practice rolling toward trapped arm repeatedly, developing muscle memory for escape direction. Partner maintains position but allows controlled movement. Focus on smooth, continuous rolling motion and understanding correct escape vector.",
-        "duration": "5 minutes per side"
+        "name": "Rehearse the connection",
+        "description": "Work cooperatively on enclose the foot. Hold the instep and heel region securely beside the upper body rather than relying on calf compression. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.",
+        "duration": "Short cooperative repetitions; stop at each checkpoint"
       },
       {
-        "name": "Base Attack Recognition Drill",
-        "description": "Partner establishes Aoki Lock with various base positions. Identify and attack unstable base using free hand. Practice timing attacks when opponent adjusts position. Develop sensitivity to moments when posted leg can be compromised.",
-        "duration": "10 minutes continuous flow"
-      },
-      {
-        "name": "Safety Tap Protocol Drill",
-        "description": "Partner applies progressive Aoki Lock pressure very slowly. Practice tapping at various pressure thresholds to develop awareness of personal safety limits. Focus on early tap recognition and communication. Never exceed 60% pressure in training.",
-        "duration": "5 minutes with multiple repetitions"
+        "name": "Add an early response",
+        "description": "Work cooperatively on control the hip connection. Use the entanglement or foot-on-hip frame to manage distance before considering a finish. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.",
+        "duration": "Short cooperative repetitions; stop at each checkpoint"
       }
     ],
     "related_content": [
       {
-        "name": "Omoplata Control",
-        "relationship": "Related submission defense - similar shoulder mechanics"
+        "name": "Ashi Garami",
+        "relationship": "Related configuration to study separately: compare the configuration and required controls for Ashi Garami."
       },
       {
-        "name": "Kimura Trap",
-        "relationship": "Related shoulder lock defense system"
+        "name": "Single Leg X-Guard",
+        "relationship": "Related configuration to study separately: compare the configuration and required controls for Single Leg X-Guard."
       },
       {
-        "name": "Turtle",
-        "relationship": "Common entry position and escape destination"
+        "name": "Straight Ankle Lock Control",
+        "relationship": "Related configuration to study separately: compare the configuration and required controls for Straight Ankle Lock Control."
       },
       {
-        "name": "Closed Guard",
-        "relationship": "Primary escape target position"
-      },
-      {
-        "name": "Open Guard",
-        "relationship": "Alternative escape target position"
-      },
-      {
-        "name": "Rolling Escape to Guard",
-        "relationship": "Primary escape transition from this position"
-      },
-      {
-        "name": "Arm Extraction to Turtle",
-        "relationship": "Key escape technique addressing leg entanglement"
-      },
-      {
-        "name": "Granby Roll to Guard",
-        "relationship": "Alternative rolling escape pathway"
+        "name": "Outside Ashi-Garami",
+        "relationship": "Related configuration to study separately: compare the configuration and required controls for Outside Ashi-Garami."
       }
     ],
     "position_metrics": {
       "retention_rate": {
         "value": 42,
-        "description": "Percentage of time maintaining defensive position without submission"
+        "description": "Existing model estimate retained; the cited instruction does not measure this probability."
       },
       "advancement_probability": {
         "value": 50,
-        "description": "Probability of successfully escaping to guard or better position"
+        "description": "Existing model estimate retained; the cited instruction does not measure this probability."
       },
       "submission_probability": {
         "value": 28,
-        "description": "Probability of being submitted from this position"
+        "description": "Existing model estimate retained; the cited instruction does not measure this probability."
       },
-      "average_time": "15-45 seconds before escape or submission"
+      "average_time": "Variable; reset at the first loss of safe control rather than targeting a fixed hold time"
     },
     "name": "Aoki Lock Control Bottom",
-    "description": "Master Aoki Lock defense and escape strategies. Defensive control position with shoulder lock pressure. Learn escapes, grip breaks, and counter-attacks with 50% escape rate.",
+    "description": "Aoki Lock Control bottom perspective: Recognize the foot orientation without twisting it into position against resistance. Hold the instep and heel region securely beside the upper body rather than relying on calf compression.",
     "tags": [
       "bjj",
       "position",
-      "aoki-lock",
-      "bottom",
-      "defense",
-      "shoulder-lock-defense",
-      "escape"
+      "bottom"
     ],
     "transitions": [
       {
@@ -768,114 +641,114 @@
   },
   "flashcards_position": [
     {
-      "question": "What structural configuration defines the Aoki Lock Control position?",
-      "answer": "It is a leg-entangled shoulder lock in which one player's legs trap the opponent's isolated arm, with the thigh draped over the shoulder and the shin controlling the upper arm. The trapped arm is extended and isolated between the legs with the elbow pointed away from the torso, which prevents the joint from re-centering. Unlike arm-clasping shoulder locks, the control mechanism here is entirely the lower body wrapping the shoulder girdle rather than the arms clasping. This leg-based trap frees the hands for hip and base management while the legs carry the isolating pressure.",
-      "answer_line": "Legs trap shoulder, arm extended",
+      "question": "Aoki Lock Control (position): What matters when you identify the turned foot?",
+      "answer": "Recognize the foot orientation without twisting it into position against resistance.",
+      "answer_line": "Identify the turned foot",
       "distractors": {
         "plausible": [
-          "Arms clasp like a kimura grip",
-          "Legs triangle from closed guard"
+          "Advance without checking control",
+          "Choose the route by name alone"
         ],
         "trap": [
-          "Grip figure-four on the wrist"
+          "Force a trapped joint to move"
         ]
       }
     },
     {
-      "question": "Which control points make the Aoki Lock a shoulder lock rather than just a pin?",
-      "answer": "Three interdependent points define it: the leg entanglement isolating the shoulder complex, hip pressure directed down and forward into the shoulder joint to create rotational stress on the capsule, and hand control on the hips or far-side limbs preventing rotation. The posted free leg supplies the base so this pressure can be delivered without the top player tipping over. Remove any one point and the configuration decays from an active shoulder lock into a loose entanglement the trapped player can rotate out of. The submission threat lives specifically in the extended, externally rotated arm angle held under leg trap.",
-      "answer_line": "Leg trap, hip drive, hand control",
+      "question": "Aoki Lock Control (position): What matters when you enclose the foot?",
+      "answer": "Hold the instep and heel region securely beside the upper body rather than relying on calf compression.",
+      "answer_line": "Enclose the foot",
       "distractors": {
         "plausible": [
-          "Grip strength alone holds it",
-          "Posted leg alone creates pressure"
+          "Advance without checking control",
+          "Choose the route by name alone"
         ],
         "trap": [
-          "Squeeze arms, ignore hip line"
+          "Force a trapped joint to move"
         ]
       }
     },
     {
-      "question": "How does hip positioning determine the pressure vector in Aoki Lock Control?",
-      "answer": "The controlling player's hips act as the pressure engine, driving downward and forward onto the shoulder joint rather than squeezing with the arms. This vector loads the shoulder capsule into external rotation, which is what threatens the joint and pins the isolated arm. Because the mechanism is hip-driven, both players' fight centers on the hip line: the controller keeps hips heavy and connected while the trapped player tries to angle their hips away to change the vector. Shifting hip contact even slightly off the shoulder line changes whether the shoulder is genuinely loaded or merely held.",
-      "answer_line": "Hips drive down into the shoulder",
+      "question": "Aoki Lock Control (position): What matters when you control the hip connection?",
+      "answer": "Use the entanglement or foot-on-hip frame to manage distance before considering a finish.",
+      "answer_line": "Control the hip connection",
       "distractors": {
         "plausible": [
-          "Squeeze legs, ignore hip angle",
-          "Post leg carries the pressure"
+          "Advance without checking control",
+          "Choose the route by name alone"
         ],
         "trap": [
-          "Sit hips back off the shoulder"
+          "Force a trapped joint to move"
         ]
       }
     },
     {
-      "question": "Why is base maintenance through the posted free leg critical to holding this position?",
-      "answer": "The posted free leg is the stable platform that lets hip pressure translate into shoulder torque instead of the controller rolling off. Without a strong post, any bridge or roll from the trapped player carries the whole entanglement over, because the shoulder lock has no independent base of its own. The post must stay close to the opponent's body; posting too far reduces the downward hip pressure and opens space for the shoulder to rotate free. This is why it is a stable-base shoulder lock rather than a purely gripping control.",
-      "answer_line": "Post leg close, stay connected",
+      "question": "Aoki Lock Control (position): What matters when you keep pressure neutral?",
+      "answer": "Stop the drill at a secure capture; the control can become a damaging rotation with very little movement.",
+      "answer_line": "Keep pressure neutral",
       "distractors": {
         "plausible": [
-          "Post leg wide for more base",
-          "Rely on grips instead of base"
+          "Advance without checking control",
+          "Choose the route by name alone"
         ],
         "trap": [
-          "Post leg far away from body"
+          "Force a trapped joint to move"
         ]
       }
     },
     {
-      "question": "What role does the extended, externally rotated arm angle play in this position for both players?",
-      "answer": "The isolated arm being extended with the elbow pointed away from the torso is the joint alignment that makes the shoulder vulnerable, so it is the central contested variable for both sides. The controlling player uses leg positioning to preserve that extension and outward elbow angle, since it keeps the capsule loaded. The trapped player's entire defensive premise is to bend the elbow back toward the body and internally rotate, which re-centers the joint and defuses the lock. Whoever wins the battle over elbow bend and rotation decides whether the position is a live submission or a neutralized entanglement.",
-      "answer_line": "Elbow angle decides finish or escape",
+      "question": "Aoki Lock Control (position): What matters when you respect counterattacks?",
+      "answer": "Keep track of your own exposed feet while concentrating on the captured foot.",
+      "answer_line": "Respect counterattacks",
       "distractors": {
         "plausible": [
-          "Wrist control decides the finish",
-          "Hip pressure alone decides it"
+          "Advance without checking control",
+          "Choose the route by name alone"
         ],
         "trap": [
-          "Grip strength alone decides it"
+          "Force a trapped joint to move"
         ]
       }
     },
     {
-      "question": "How does the Aoki Lock's leg entanglement differ from an omoplata or kimura trap?",
-      "answer": "Aoki Lock shares omoplata-style rotational shoulder pressure but delivers it through a leg trap of the arm and shoulder rather than an omoplata's legs triangled over the shoulder from guard, or a kimura's figure-four arm grip. The leg entanglement simultaneously traps the arm and limits the opponent's lower-body mobility, which those grip-based shoulder locks do not do as completely. This dual trap closes standard extraction and framing routes, making it a distinctly no-gi, entanglement-driven control. The trade is that the mechanism depends on leg tightness, so a loosened entanglement degrades it faster than a committed grip would.",
-      "answer_line": "Legs trap arm and limit mobility",
+      "question": "Aoki Lock Control (position): What matters when you release before rotation?",
+      "answer": "Open the arm enclosure and remove leg pressure immediately on a tap, sudden movement, or pain.",
+      "answer_line": "Release before rotation",
       "distractors": {
         "plausible": [
-          "Arms clasp like a kimura figure-four",
-          "Legs triangle over from guard"
+          "Advance without checking control",
+          "Choose the route by name alone"
         ],
         "trap": [
-          "Rely on grips, ignore the legs"
+          "Force a trapped joint to move"
         ]
       }
     },
     {
-      "question": "What position dynamics make the Aoki Lock a transitional hub rather than a static hold?",
-      "answer": "Because the leg entanglement already controls the arm, shoulder, and hip line, the same configuration sits adjacent to back control, the truck, and the crucifix, so movement by either player tends to flow toward one of those states. Rotational attempts by the trapped player frequently expose the back or far arm, converting the shoulder lock into a positional advance rather than a pure finish. This instability cuts both ways: the controller must finish or transition quickly, and the trapped player treats every adjustment as a scramble window. The position resolves into a finish, an advancement, or an escape rather than being held indefinitely.",
-      "answer_line": "Rotation attempts expose the back",
+      "question": "Aoki Lock Control (position): What configuration must exist before this sequence?",
+      "answer": "The foot-lock player is seated or on the side facing the opponent's lower body.",
+      "answer_line": "Check the starting configuration",
       "distractors": {
         "plausible": [
-          "Hold statically until they tire",
-          "Only path forward is the finish"
+          "Advance without checking control",
+          "Choose the route by name alone"
         ],
         "trap": [
-          "Release legs to force a scramble"
+          "Force a trapped joint to move"
         ]
       }
     },
     {
-      "question": "In Aoki Lock Control, how do you tell the shoulder lock is loaded, not merely held?",
-      "answer": "A genuinely loaded lock shows the trapped arm extended with the elbow pointing away from the body, the shoulder in external rotation, and the controller's hips connected and driving into the joint. If the elbow has bent back toward the torso, the arm has internally rotated, or hip contact has drifted off the shoulder line, the configuration is only a positional hold with no active submission threat. Both players read these same cues in opposite directions: the trapped player seeks the bent-elbow, internally rotated state as safety, while the controller reads it as the signal to re-extend the arm or transition. This distinction separates the finishing phase from the mere control phase of the position.",
-      "answer_line": "Arm extended, hips on the line",
+      "question": "Aoki Lock Control (position): What distinguishes this control from a similar-looking position?",
+      "answer": "The captured limb is the foot and lower leg. This is distinct from an omoplata-style shoulder trap and from a bent-knee calf slicer. Either player can become the foot-lock attacker during an entanglement exchange.",
+      "answer_line": "Check the defining controls",
       "distractors": {
         "plausible": [
-          "Legs squeezed tight means loaded",
-          "Any hip contact means it's loaded"
+          "Advance without checking control",
+          "Choose the route by name alone"
         ],
         "trap": [
-          "Trapped elbow bent means loaded"
+          "Force a trapped joint to move"
         ]
       }
     }
