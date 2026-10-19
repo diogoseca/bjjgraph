@@ -159,6 +159,9 @@ test("cold start: the harness can hold a payload back, and the app plays its fir
     await page.locator("[data-land-q]").count(),
     "the card the visitor is STILL looking at gains its question",
   ).toBe(1);
+  // D-336: on screen, not only in the DOM. D-318's reader gate (af3aac311) hides a card it has not
+  // published; here the reader is not late, so the card must be visible once the question docks.
+  await expect(page.locator("[data-landcard]"), "the card the visitor is STILL looking at is visible").toBeVisible();
 
   // the timeline is the evidence: requested near sim-zero, served ~25 simulated seconds later
   const tl = j.payloadTimeline().filter((p) => /flashcards\/_index\.json/.test(p.url));
@@ -491,6 +494,8 @@ test("cold start: a payload that never arrives leaves a playable app, not a brok
     await page.locator("[data-landcard]").count(),
     "every landing still puts its card up",
   ).toBe(1);
+  // D-336: up means visible, not only mounted (D-318's reader gate hides an unpublished card).
+  await expect(page.locator("[data-landcard]"), "every landing still puts its card up, visible").toBeVisible();
   const skips = await page.evaluate(() =>
     (window as any).__neural.beats
       .filter((b: any) => b.beat === "land_q_skipped")

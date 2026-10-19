@@ -11487,7 +11487,8 @@ CI 39306283611 on 7c27fcce3: exactly the 18 U7-PENDING. review-claude's Delta 4:
   It reads visibility too; landing-never-published-picker fails at that claim. The audit, with the
   mutant over all 72 files that touch the card: 283 of 476 tests stay green with the card hidden, and
   four of them word a visible card while checking only existence, a count or aria-expanded
-  (coldstart-late-payload:158/:490, lists-disclosure:257, article-sections:369), reported for a ruling.
+  (coldstart-late-payload:158/:490, lists-disclosure:257, article-sections:369). D-336: each asserts
+  the card visible now, green on head, and each has a never-published control killed at that claim.
 - D4-N1-N3: the ledger's pane-chrome reason and coldstart-backfill lines, and the D-333 labels.
 
 ## v1.227.5 — Clips follow the authored move and role

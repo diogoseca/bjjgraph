@@ -405,6 +405,8 @@ for (const viewport of [{ width: 1440, height: 900 }, { width: 1152, height: 900
       }, part)).toBe(true)
       await j.clickByMouse(`[data-game-eye="${part}"]`)
       await expect(header).toHaveAttribute('aria-expanded', 'true')
+      // D-336: the restore half shows the card, not only the eye's state (D-318's reader gate).
+      if (part === 'card') await expect(page.locator('[data-landcard]'), 'the Questions eye restores a visible card').toBeVisible()
     }
     await page.locator(READY).evaluate(e => { e.scrollTop = 0 })
     await j.advance(6000)

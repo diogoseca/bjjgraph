@@ -22,6 +22,7 @@ const replace = (text, from, to) => {
   return text.replace(from, to)
 }
 const sections = 'article-sections.spec.ts', seam = 'reading-media-placement.spec.ts', contract = 'reading-contract.spec.ts'
+const neverPublish = s => replace(s, 'card?.removeAttribute("data-reader-pending");', '/* mutant: never publish */')
 // D-318 U4a control: restore the actual retired e26 gutter correction.
 const retiredGutter = `  frameCamera(target) {
     // Undo only this reader's previous correction. Keep it out of _paneFraction:
@@ -82,9 +83,14 @@ const mutants = [
   ['execution-node-band-removed', 'camera-continuity.spec.ts', '390px camera continuity.*an exchange lands on a new current node', s => replace(s, 'const nodeBand = this.nodeBand && this.on("book") ? this.nodeBand : null;', 'const nodeBand = null;')],
   ['execution-occupied-space-lost', 'roll-execution.spec.ts', 'execution camera frames.*1440px; pane false; reduced motion false after native wheel', s => replace(s, '  frameExecution(target, node) {', '  frameExecution(target, node) { return target;')],
   // D-333: the reader never publishes a new landing card, so a cold start's greeting stays hidden,
-  // and (D4-S1) the card behind the list picker is not readable.
-  ['landing-never-published', 'coldstart-funnel.spec.ts', 'funnel spine', s => replace(s, 'card?.removeAttribute("data-reader-pending");', '/* mutant: never publish */')],
-  ['landing-never-published-picker', 'lists-picker.spec.ts', 'the picker is reachable', s => replace(s, 'card?.removeAttribute("data-reader-pending");', '/* mutant: never publish */')],
+  // (D4-S1) the card behind the list picker is not readable, and (D-336) every claim that a visitor
+  // sees the card, not only that it is built or counted, fails.
+  ['landing-never-published', 'coldstart-funnel.spec.ts', 'funnel spine', neverPublish],
+  ['landing-never-published-picker', 'lists-picker.spec.ts', 'the picker is reachable', neverPublish],
+  ['landing-never-published-late-question', 'coldstart-late-payload.spec.ts', 'the harness can hold a payload back', neverPublish],
+  ['landing-never-published-no-decks', 'coldstart-late-payload.spec.ts', 'a payload that never arrives', neverPublish],
+  ['landing-never-published-list-item', 'lists-disclosure.spec.ts', 'clicking a listed technique opens its dossier', neverPublish],
+  ['landing-never-published-eye-restore', sections, 'D-318 1440px Questions and Moves use named eyes', neverPublish],
   ['reading-shelf-retained', sections, 'D-318 1440px', s => replace(s, 'this.dock.hidden = this.on("book");', 'this.dock.hidden = false;')],
   ['native-role-starts-game', sections, 'D-318 1440px', s => replace(s, 'if (reader.intent && node?.pi === this.focusIdx)', 'if (false)')],
   ['question-eye-does-nothing', sections, 'D-318 1440px', s => replace(s, '() => this.toggle(part), { "data-game-eye": part', '() => {}, { "data-game-eye": part')],
