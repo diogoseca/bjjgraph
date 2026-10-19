@@ -9,6 +9,8 @@ import { journey } from "../dsl"
 // cases converged after the replacement reader became ready.
 // Observe real nav + replacement-reader publication, then assert that SAME
 // instance's state once. Intent and pause are never readiness predicates.
+// D-318 U6a replaces the perspective link with a native tap on the other half;
+// content, Back ordering, replacement identity and stopped-clock assertions stay.
 
 /** Complete article journeys for #289. Published HTML is real; the DSL controls
  * gameplay only. Historical PRE-OWNERQ1 controls, 2026-10-09: 24 final variants
@@ -180,7 +182,7 @@ for (const forced of [false, true]) test("@curated reading perspectives and Back
   await j.boot(KNEE, { initialState: { v: 2, settings: { readingFocus: true }, settingsAt: { readingFocus: Date.now() } } })
   await j.advance(5000)
   await expect(page.locator(READY)).toBeVisible()
-  await j.clickByMouse('[aria-label="Reading perspectives"] a[href$="/Defender"]')
+  await j.readingOtherHalf() // D-318 U6a: the native paired half replaces the retired switch.
   await expect(page).toHaveURL(/Knee-Slice-Pass\/Defender/)
   await expect(page.locator(READY)).toHaveAttribute("data-reader-path", KNEE + "/Defender")
   await expect(page.locator('[data-reader-body]')).toContainText("Defender")

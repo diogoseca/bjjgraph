@@ -277,6 +277,11 @@ test.describe("phone input", () => {
     })
     await page.evaluate(() => new Promise(requestAnimationFrame))
     const card = page.locator("[data-landcard]")
+    // D-318 reserves the arrival band instead of squeezing it. The old gesture
+    // started at y520, below this 320px phone's reader end at y478 (on canvas).
+    // Show the complete face, then keep the same native drag and geometry claims.
+    await card.scrollIntoViewIfNeeded()
+    await j.readerLayoutSettled()
     const before = await geometry(page)
     const last = page.locator("[data-land-mc-opt='2']")
     const layout = await card.evaluate(el => ({
@@ -287,6 +292,7 @@ test.describe("phone input", () => {
     expect(layout.overflow).not.toMatch(/auto|scroll/)
     const touch = await page.context().newCDPSession(page)
     const touchY = before.top + 120
+    expect(await card.evaluate((el, y) => el.contains(document.elementFromPoint(160, y)), touchY), 'the native drag starts on the visible question').toBe(true)
     await touch.send("Input.dispatchTouchEvent", { type: "touchStart", touchPoints: [{ x: 160, y: touchY }] })
     await touch.send("Input.dispatchTouchEvent", { type: "touchMove", touchPoints: [{ x: 160, y: touchY - 90 }] })
     await page.waitForTimeout(100)
@@ -529,8 +535,12 @@ test("@curated long recall answers grow the card and scroll with the whole colum
     await j.clickByMouse("[data-reward-close]", "dismiss the harness visitor's earned patch")
   await expect(page.locator(".ng-challenge-reward")).toHaveCount(0)
   await j.clickByMouse("[data-land-next]")
-  await page.waitForTimeout(200)
+  await j.readerLayoutSettled()
+  // With the reserved node band, Reveal starts at y533 below the y478 flow end.
+  // Scroll it into view; the following native click must still own its centre.
+  await page.locator("[data-land-reveal]").scrollIntoViewIfNeeded()
   await j.clickByMouse("[data-land-reveal]")
+  await j.readerLayoutSettled()
   const card = page.locator("[data-landcard]")
   const before = await geometry(page)
   expect(before.height).toBeGreaterThan(568)

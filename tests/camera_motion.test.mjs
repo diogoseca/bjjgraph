@@ -125,30 +125,31 @@ test("a target that moves LESS than a jump during a flight bends it smoothly, ne
 });
 
 function readerCamera() {
-  const readerSource = readFileSync(new URL("../neural/src/reader.src.js", import.meta.url), "utf8").replace(/^export /gm, "");
-  const Reader = new Function(readerSource + "\nreturn Reader;")();
-  const a = app(), reader = Object.create(Reader.prototype), n = { idx: 0, pi: -1, x: 0, y: 0, r: 12, ty: "submissions" };
+  const a = app(), reader = {}, n = { idx: 0, pi: -1, x: 0, y: 0, r: 12, ty: "positions" };
   a.W = 1152; a.nodes = [n]; a.focusIdx = 0; a.paused = true;
-  a._LY = q => q.y; a._paneLayout = () => ({ left: 0, shift: 0 }); a._labelWidthPx = () => 150;
-  reader.app = a; reader.on = () => true;
+  a._LY = q => q.y; a._paneLayout = () => ({ left: 0, shift: 0, center: a.W / 2, width: a.W }); a._labelWidthPx = () => 150;
+  a.get = () => true; a.isMobile = () => false; a.ROLL_ZOOM = .085; a.NG_LABEL_LEFT_MIN = 50;
+  reader.nodeBand = a._readerBand(); a._reader = reader;
   reader.contents = { hidden: false, getBoundingClientRect: () => ({ left: 928, right: 1128, top: 68, bottom: 700, width: 200 }) };
   reader.articleEl = { getBoundingClientRect: () => ({ left: 236, right: 916, top: 68, bottom: 800, width: 680 }) };
   return { a, reader, n };
 }
 
-test("a paused reader's TOC exclusion and release are continuous and never accumulate", () => {
+// D-318 U4a supersedes the free-gutter claim: scrolling covers a stationary,
+// centred composition. Keep the original continuity bounds and idempotence.
+test("the reader centres its drawn composition continuously, independently of article and index", () => {
   const { a, reader, n } = readerCamera();
   const original = { cx: a.W / 2 - 980, cy: H / 2 - 300, vw: a.W };
   a.cam = { ...original }; a.camTarget = { ...original };
   const settle = () => {
     const views = [{ ...a.cam }];
     let framed;
-    for (let i = 0; i < 180; i++) {
-      a.camTarget = reader.frameCamera(a._paneCameraTarget(a.camTarget));
+    for (let i = 0; i < 240; i++) {
+      a.camTarget = a.rollCamTarget(n, false);
       if (!framed) framed = { ...a.camTarget };
       // Target equality pins idempotence only. Motion and visibility below read
       // the actual drawn camera, never the requested target (§6.2).
-      assert.equal(a.camTarget.cx, framed.cx, "re-applying the occupied rectangle must not drift");
+      assert.equal(a.camTarget.cx, framed.cx, "re-applying the reading composition must not drift");
       a._camStep(DT); views.push({ ...a.cam });
     }
     const m = motion(views, a.W);
@@ -156,17 +157,20 @@ test("a paused reader's TOC exclusion and release are continuous and never accum
   };
   settle();
   const drawnX = (n.x - a.cam.cx) * a.W / a.cam.vw + a.W / 2;
-  assert.ok(drawnX > 12 && drawnX + 150 + 11 + 12 < 236, "the current state fits the free left gutter");
+  assert.ok(Math.abs(drawnX + (150 + 11) / 2 - a.W / 2) < 1e-6, "orb and full label are centred together: " + JSON.stringify({ drawnX, cam: a.cam, target: a.camTarget }));
+  assert.ok(Math.abs(H / 2 + (n.y - a.cam.cy) * a.W / a.cam.vw - 140) < 1e-6, "node is in the reserved arrival band");
+  const before = { ...a.cam };
   reader.contents.hidden = true;
+  reader.articleEl.getBoundingClientRect = () => ({ left: 236, right: 916, top: 0, bottom: 900, width: 680 });
   settle();
-  assert.ok(Math.abs(a.cam.cx - original.cx) < 1e-6, "hiding the overlay releases exactly its camera shift");
+  assert.ok(Math.abs(a.cam.cx - before.cx) < 1e-6 && Math.abs(a.cam.cy - before.cy) < 1e-6, "scrolling or hiding the index never moves the node");
 });
 
-test("a deliberate camera subject stays put when the current node is clear of occupied areas", () => {
+test("a deliberate camera subject is never retargeted by the pane composition", () => {
   const { a, reader, n } = readerCamera(), subject = { x: 2000, y: 0 };
   a.cam = { cx: subject.x, cy: 150, vw: a.W }; a.camTarget = { ...a.cam };
   for (let i = 0; i < 180; i++) {
-    a.camTarget = reader.frameCamera(a._paneCameraTarget(a.camTarget)); a._camStep(DT);
+    a.camTarget = a._paneCameraTarget(a.camTarget); a._camStep(DT);
     assert.equal(a.W / 2 + (subject.x - a.cam.cx) * a.W / a.cam.vw, a.W / 2,
       "the requested subject remains at the drawn centre");
     assert.ok(a.W / 2 + (n.x - a.cam.cx) * a.W / a.cam.vw < 0, "the off-screen current node is not pulled back");

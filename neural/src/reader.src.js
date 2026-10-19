@@ -84,13 +84,20 @@ export async function installReader(app) {
   if (!await app._ensureReadCSS()) throw new Error("Reading styles could not be loaded.");
   if (app._reader || app.__ngDestroyed) return;
   const reader = app._reader = new Reader(app);
-  const paneCamera = app._paneCameraTarget;
-  app._paneCameraTarget = function (target) { return reader.frameCamera(paneCamera.call(this, target)); };
+  app._readerFailed = false;
   // Game intent is explicit. Restoring a layer, closing Browse or leaving Focus is
   // deliberately absent from these lifters: none of those actions starts a roll.
   for (const name of ["rollFromPosition", "stageRollAt", "startRoll", "resetRoll"]) {
     const original = app[name];
     app[name] = function (...args) {
+      // D-318 U6a: the other half replaces the reading role switch, including
+      // its history and dormant intent. Other map navigation keeps its owner.
+      const node = name === "stageRollAt" && this.nodes[args[0]];
+      if (reader.intent && node?.pi === this.focusIdx) {
+        let path = this._nodeUrlPath(node.idx);
+        if (!ROLES.test(path)) path += "/" + (node.ty === "positions" ? "Top" : "Attacker");
+        return this._readArticle(path);
+      }
       if (!reader.seating) reader.leaveReading();
       return original.apply(this, args);
     };
@@ -172,6 +179,20 @@ class Reader {
     this.game.append(this.mediaHome);
     this.articleEl = element("div", { class: "ng-reader-article" });
     this.root.append(this.game, this.articleEl);
+    // These controls exist before any article fetch finishes. A late title or
+    // prose response must not insert a new toolbar above a live answer.
+    this.head = element("header", { class: "ng-reader-head" });
+    this.heading = element("h1", { tabindex: "-1" });
+    this.tools = element("div", { class: "ng-reader-tools" });
+    this.tools.append(button(app.get("readingFocus", false) ? "Leave reading focus" : "Focus on reading", () => this.focus(), { "data-reading-focus": "" }),
+      button("Browse", () => app.openPane("explore"), { "data-reader-browse": "" }));
+    this.head.append(this.heading, this.tools); this.game.append(this.head);
+    this.gameSections = [["card", "Questions"], ["hand", "Moves"]].map(([part, title]) => {
+      const id = "reader-" + part, card = element("h2", { class: "ng-reader-game-heading", id });
+      const toggle = button("", () => this.toggle(part), { "data-game-eye": part, "aria-controls": id + "-body" });
+      toggle.append(element("span", {}, title)); card.append(toggle); this.game.append(card);
+      return { part, type: part, title, id, card, toggle };
+    });
     this.gameHomes = new Map();
     this.sections = [];
     app.wrapRef.current.append(this.root);
@@ -182,7 +203,7 @@ class Reader {
         if (event.composedPath().includes(this.game)) return;
         // Toolbar activation has its own intent. Native text selection and prose
         // focus count as reading before the question clock gets another frame.
-        if (type === "wheel" || type === "touchstart" || !event.target.closest(".ng-reader-tools,.ng-reader-roles")) this.readingInteraction(type);
+        if (type === "wheel" || type === "touchstart" || !event.target.closest(".ng-reader-tools")) this.readingInteraction(type);
         event.stopPropagation();
       }, { passive: true });
     }
@@ -193,6 +214,7 @@ class Reader {
     this.root.addEventListener("scroll", () => this.layout(), { passive: true });
     this.resize = new ResizeObserver(() => this.layout());
     this.resize.observe(this.root);
+    this.resize.observe(this.head);
   }
   extract(doc) {
     const article = doc.querySelector("article");
@@ -253,7 +275,7 @@ class Reader {
     if (this.contents) this.contents.hidden = true;
     this.place(this.mediaHome);
     this.sections = []; this.mediaSlot = null;
-    this.articleEl.replaceChildren(element("p", { role: "status" }, "Loading the complete article…"));
+    this.articleEl.replaceChildren(...(this.head.parentElement === this.articleEl ? [this.head] : []), element("p", { role: "status" }, "Loading the complete article…"));
     this.sync();
     try {
       const record = await this.page(path, controller.signal);
@@ -273,7 +295,7 @@ class Reader {
       this.root.dataset.readerReady = "true";
       this.sync();
       if (url.hash) this.anchor(url.hash);
-      else if (this.interacting) this.root.querySelector("h1").focus({ preventScroll: true });
+      else if (this.interacting) this.heading.focus({ preventScroll: true });
     } catch (error) {
       if (serial !== this.serial || error.name === "AbortError" || this.app.__ngDestroyed) return;
       this.articleEl.replaceChildren(element("p", { role: "alert" }, error.message),
@@ -358,31 +380,16 @@ class Reader {
   render(title, record, path, context, hub) {
     this.place(this.mediaHome);
     this.referenceClips = [];
-    if (this.head) { this.resize.unobserve(this.head); this.head.remove(); }
-    this.articleEl.replaceChildren();
-    const head = this.head = element("header", { class: "ng-reader-head" });
-    const heading = element("h1", { tabindex: "-1" }, title);
-    const tools = this.tools = element("div", { class: "ng-reader-tools" });
-    tools.append(button(this.app.get("readingFocus", false) ? "Leave reading focus" : "Focus on reading", () => this.focus(), { "data-reading-focus": "" }));
-    tools.append(button("Browse", () => this.app.openPane("explore"), { "data-reader-browse": "" }));
+    this.articleEl.replaceChildren(...(this.head.parentElement === this.articleEl ? [this.head] : []));
+    const tools = this.tools;
+    this.heading.textContent = title;
+    tools.querySelector("[data-reader-study]")?.remove();
     if (/^\/(Systems|Principles|Learning)\//.test(this.path)) {
       tools.append(button("Study tools", async () => {
         const id = this.path.slice(1);
         if (id.startsWith("Systems/")) this.app.openSystem(id);
         else { await this.app._ensureConcepts(); if (this.path.slice(1) === id) this.app.openConcept(id); }
       }, { "data-reader-study": "" }));
-    }
-    head.append(heading, tools);
-    const roles = element("nav", { "aria-label": "Reading perspectives", class: "ng-reader-roles" });
-    const roleLinks = this.roleLinks((context || record).html, hub);
-    if (roleLinks.length) {
-      roleLinks.unshift(new URL(hub, location.origin));
-      for (const url of roleLinks) {
-        const a = element("a", { href: url.pathname }, url.pathname === hub ? "Overview" : url.pathname.split("/").pop());
-        if (url.pathname === this.path) a.setAttribute("aria-current", "page");
-        roles.append(a);
-      }
-      head.append(roles);
     }
     const body = element("div", { "data-reader-body": "", tabindex: "0" });
     if (context) {
@@ -409,17 +416,23 @@ class Reader {
       this.readingInteraction(); event.stopPropagation();
     }, { passive: true });
     contents.addEventListener("keydown", event => { if (event.key !== "Escape") event.stopPropagation(); });
-    contents.append(element("h2", {}, "Contents"));
-    for (const section of this.sections) {
+    const hit = this.app._nodeAndRoleForPath(path), node = this.app.nodes[hit.idx];
+    const indexTitle = element("h2", {}, node ? this.app.graphName(node) : title);
+    if (node) {
+      const role = node.ty === "positions" ? /\/Bottom$/.test(path) ? "Bottom" : "Top"
+        : /\/Defender$/.test(path) ? node.ty === "submissions" ? "Escaping" : "Defending" : "Attacking";
+      indexTitle.append(element("span", {}, role), element("small", {}, this.app.nodeQual(node)));
+    }
+    contents.append(indexTitle);
+    for (const section of [...(node ? this.gameSections : []), ...this.sections]) {
       const row = element("div", { class: "ng-reader-toc-row", "data-toc-section": section.id });
       const link = element("a", { href: "#" + section.id, "data-section-link": section.id, "aria-label": "Go to " + section.title }, section.title);
       link.style.pointerEvents = "auto";
-      const toggle = button("", () => this.toggleSection(section.type), { "data-toc-eye": section.type, "aria-controls": section.body.id });
+      const toggle = button("", () => section.part ? this.toggle(section.part) : this.toggleSection(section.type), { "data-toc-eye": section.type, "aria-controls": section.body?.id || section.id + "-body" });
       row.append(link, toggle); contents.append(row); section.row = row; section.eye = toggle;
     }
     contents.append(button("Section settings", () => this.app.openSettings("rolling"), { "data-section-settings": "" }));
-    this.resize.observe(head);
-    this.articleEl.append(head, body);
+    this.articleEl.append(body);
     this.app.wrapRef.current.append(contents);
     this.syncSections();
   }
@@ -507,10 +520,12 @@ class Reader {
     this.sync();
   }
   syncSections() {
-    for (const s of this.sections) {
-      const shown = sectionShown(this.app, s.type), focused = !shown && s.body.contains(document.activeElement);
-      if (s.type === "videos" && !shown && !s.body.hidden) this.app.pauseLandFilm();
-      s.card.dataset.collapsed = String(!shown); s.body.hidden = !shown; s.body.inert = !shown;
+    for (const s of [...this.gameSections, ...this.sections]) {
+      const body = s.part ? s.part === "card" ? this.app._landEl : this.app.optionsRef.current : s.body;
+      const shown = s.part ? this.on(s.part) : sectionShown(this.app, s.type), focused = !shown && body?.contains(document.activeElement);
+      if (s.type === "videos" && !shown && !body.hidden) this.app.pauseLandFilm();
+      s.card.dataset.collapsed = String(!shown);
+      if (!s.part) { body.hidden = !shown; body.inert = !shown; }
       s.row?.setAttribute("data-collapsed", String(!shown));
       for (const b of [s.toggle, s.eye]) {
         // Focus can enter reading between pointerdown and click. Replacing that
@@ -538,7 +553,7 @@ class Reader {
     }
     if (link.dataset.sectionLink) {
       event.preventDefault(); this.readingInteraction();
-      const section = this.sections.find(s => s.id === link.dataset.sectionLink);
+      const section = [...this.gameSections, ...this.sections].find(s => s.id === link.dataset.sectionLink);
       if (section) this.scrollTo(section.toggle);
       return;
     }
@@ -625,7 +640,8 @@ class Reader {
     if (on && (part === "card" || part === "hand")) this.interacting = false;
     this.sync();
     // The old button may have been replaced. Give focus to the visible replacement.
-    this.dock.querySelector('[data-reader-part="' + part + '"]')?.focus({ preventScroll: true });
+    const control = this.on("book") ? this.gameSections.find(s => s.part === part)?.toggle : this.dock.querySelector('[data-reader-part="' + part + '"]');
+    control?.focus({ preventScroll: true });
     if (part === "book" && on) this.root.focus({ preventScroll: true });
   }
   shelf() {
@@ -639,6 +655,7 @@ class Reader {
       this.resize.observe(this.dock);
     }
     const state = PARTS.map(([part]) => this.on(part)).join();
+    this.dock.hidden = this.on("book");
     if (state !== this.shelfState) {
       this.shelfState = state;
       this.dock.replaceChildren(...PARTS.map(([part, label, icon]) => {
@@ -648,7 +665,7 @@ class Reader {
         return b;
       }));
     }
-    this.layout();
+    this.publishCard(this.app._landEl);
   }
   sync() {
     const a = this.app, wrap = a.wrapRef.current;
@@ -759,6 +776,55 @@ class Reader {
     if (this.layoutFrame || this.app.__ngDestroyed) return;
     this.layoutFrame = requestAnimationFrame(() => { this.layoutFrame = 0; this.layoutNow(); });
   }
+  frameExecution(target, node) {
+    // D-322: a scrolled-to-top choice must keep its clicked rectangle. Fit the
+    // whole pair/name around occupied surfaces, not above an impossible band.
+    // This target still flies through the app's integrator; arrival, manual
+    // input and leases never call this execution-only seam.
+    const a = this.app, W = a.W, H = a.H, scale = W / target.vw;
+    const k = Math.max(.4, Math.min(1, target.vw / (a.graphW * .5)));
+    const point = q => ({ x: W / 2 + (q.x - target.cx) * scale, y: H / 2 + (a._LY(q) - target.cy) * scale });
+    const pair = [node, node.pi >= 0 ? a.nodes[node.pi] : null].filter(Boolean);
+    const orbs = pair.map(q => { const p = point(q), r = a._nodeHalfW(q, scale, k, a._lodK ?? 1); return { left: p.x - r, right: p.x + r, top: p.y - r, bottom: p.y + r }; });
+    const p = point(node), midY = H / 2 + (a.pairMid(node).y - target.cy) * scale;
+    // The shared full-size name width also bounds the smaller travelling name.
+    // Reserve the role and qualifier rows at either naming anchor (seat/pair).
+    const box = { left: Math.min(...orbs.map(r => r.left)), right: Math.max(...orbs.map(r => r.right)) + 11 + Math.max(80, a._labelWidthPx(node)),
+      top: Math.min(...orbs.map(r => r.top), p.y - 36, midY - 36), bottom: Math.max(...orbs.map(r => r.bottom), p.y + 40, midY + 40) };
+    const root = this.root.getBoundingClientRect(), occupied = [];
+    const rect = el => {
+      if (!el?.isConnected) return null;
+      const cs = getComputedStyle(el), r = el.getBoundingClientRect();
+      if (!r.width || !r.height || cs.display === "none" || cs.visibility === "hidden" || cs.opacity === "0") return null;
+      const clip = this.root.contains(el) ? root : { top: 0, bottom: H };
+      return { left: r.left, right: r.right, top: Math.max(0, r.top, clip.top), bottom: Math.min(H, r.bottom, clip.bottom) };
+    };
+    for (const el of [a._execution.card, a.evRef.current, this.articleEl, this.contents, this.head, this.tools,
+      ...this.gameSections.map(s => s.card), a._landEl, a._landFilmEl, this.dock, a._handCloseEl,
+      a.accountRef.current, a.shareCueRef.current, a._challengeRewardEl, ...a.wrapRef.current.querySelectorAll(".ng-logo,.ng-winbar")]) {
+      const r = rect(el); if (r && r.bottom > r.top) occupied.push(r);
+    }
+    const card = rect(a._execution.card), toast = rect(a.evRef.current);
+    const band = card && toast && card.top > toast.bottom;
+    const left = a._paneLayout().left + 12, right = W - 12;
+    const xs = [0, left - box.left, right - box.right], ys = [0, 12 - box.top, H - 12 - box.bottom];
+    for (const r of occupied) { xs.push(r.left - 12 - box.right, r.right + 12 - box.left); ys.push(r.top - 12 - box.bottom, r.bottom + 12 - box.top); }
+    if (band) ys.push(toast.bottom + 1 - p.y, card.top - 1 - p.y);
+    let best, distance = Infinity;
+    for (const x of new Set(xs)) for (const y of new Set(ys)) {
+      const cost = x * x + y * y;
+      if (cost >= distance || box.left + x < left || box.right + x > right || box.top + y < 12 || box.bottom + y > H - 12 ||
+        band && (p.y + y <= toast.bottom || p.y + y >= card.top)) continue;
+      if (occupied.some(r => box.left + x < r.right + 12 && box.right + x > r.left - 12 && box.top + y < r.bottom + 12 && box.bottom + y > r.top - 12)) continue;
+      best = { ...target, cx: target.cx - x / scale, cy: target.cy - y / scale }; distance = cost;
+    }
+    return best || target;
+  }
+  publishCard(card) {
+    // Complete new controls adopt before their first paint; observer updates to
+    // already-published controls stay coalesced, and a press still defers both.
+    if (card?.hasAttribute("data-reader-pending")) this.layoutNow(); else this.layout();
+  }
   layoutNow() {
     if (!this.dock || this.app.__ngDestroyed || this.app._readerPress || this.laying) return;
     this.laying = true;
@@ -773,6 +839,7 @@ class Reader {
       style(this.dock, "left", free.center + "px"); style(this.dock, "max-width", Math.min(width, W - 16) + "px");
       style(this.dock, "bottom", a._readerShelfBottom(this.dock.getBoundingClientRect()) + "px");
       const head = this.head, available = this.on("book");
+      const reference = /^\/(Principles|Learning|Systems)\//.test(this.path || "");
       const ownTop = Math.max(68, (a.wrapRef.current.querySelector(".ng-logo")?.getBoundingClientRect().bottom || 0) + 12);
       // Without chrome (including a null return on reference pages), the entire
       // head belongs before the article, never over the map. Chrome positions
@@ -783,19 +850,23 @@ class Reader {
       // and the 8px flow gap; do not subtract any of those a second time.
       let chrome = typeof a.readerChromeFrame === "function" ? a.readerChromeFrame(head) : null;
       if (head) {
-        const parent = chrome ? this.root : this.articleEl, toolsParent = chrome && W <= 640 ? this.articleEl : head;
+        const flow = reference ? this.articleEl : this.game;
+        const parent = chrome ? this.root : flow, toolsParent = chrome && W <= 640 ? flow : head;
         let moved = false;
-        if (head.parentElement !== parent) { parent.prepend(head); moved = true; }
-        if (this.tools.parentElement !== toolsParent) { toolsParent.prepend(this.tools); moved = true; }
+        if (head.parentElement !== parent) { if (!chrome) head.removeAttribute("style"); parent.prepend(head); moved = true; }
+        if (this.tools.parentElement !== toolsParent) { this.tools.removeAttribute("style"); toolsParent.prepend(this.tools); moved = true; }
         // Re-measure once after changing homes, not on every observer callback.
         if (chrome && moved) chrome = a.readerChromeFrame(head);
         if (!chrome) {
           head.removeAttribute("data-chrome-head");
-          if (head.hasAttribute("style")) head.removeAttribute("style");
+          if (this.chromeActive) head.removeAttribute("style");
         }
       }
+      this.chromeActive = !!chrome;
       const top = chrome ? chrome.headBottom : ownTop;
-      const end = chrome?.bottomReserve != null ? H - chrome.bottomReserve : this.dock.getBoundingClientRect().top - 8;
+      const end = chrome?.bottomReserve != null ? H - chrome.bottomReserve : this.dock.hidden
+        ? H - a._readerShelfBottom({ left: free.center - width / 2, right: free.center + width / 2 }) - 8
+        : this.dock.getBoundingClientRect().top - 8;
       for (const [key, value] of Object.entries({ left: "0px", top: top + "px", width: W + "px", height: Math.max(80, end - top) + "px" })) style(this.root, key, value);
       this.articleEl.hidden = !available;
       // Contents never participates in the column's width or centre calculation.
@@ -808,9 +879,11 @@ class Reader {
         this.contents.hidden = !available || this.root.dataset.readerReady !== "true" || !fits;
         for (const [key, value] of Object.entries({ right: inset + "px", top: top + "px", "max-height": Math.max(44, end - top) + "px" })) style(this.contents, key, value);
       }
-      const reference = /^\/(Principles|Learning|Systems)\//.test(this.path || "");
       this.root.toggleAttribute("data-reference", reference);
       this.root.hidden = !available && reference;
+      for (const s of this.gameSections) s.card.hidden = !available || reference;
+      this.nodeBand = available && !reference ? a._readerBand(top) : null;
+      const band = this.nodeBand?.height || 0;
       if (reference) { this.restoreGame(); return; }
       const card = a._landEl, row = a.optionsRef.current, showCard = card && this.on("card"), showHand = row && a._handShown();
       const moved = (el, key) => {
@@ -826,6 +899,9 @@ class Reader {
             dock.reader = { rowTop: box.top - top, height: box.bottom - top };
           }
           this.game.append(el); el.setAttribute("data-reader-game-part", key);
+          // A late question can replace its body after syncSections. Publish
+          // the named eye's target with the actual adopted surface, once.
+          if (key === "card" || key === "hand") el.id = "reader-" + key + "-body";
           this.resize.observe(el);
         }
       };
@@ -842,9 +918,20 @@ class Reader {
       if (chrome) start += chrome.offset;
       moved(card, "card"); moved(row, "hand");
       const position = (el, x, y, w) => {
-        for (const [key, value] of Object.entries({ position: "absolute", left: x + "px", right: "auto", top: y + "px", bottom: "auto", transform: "none" })) style(el, key, value, "important");
+        for (const [key, value] of Object.entries({ position: "absolute", left: x + "px", right: "auto", top: y + "px", bottom: "auto" })) style(el, key, value, "important");
+        // Inspect owns the hand's horizontal animation. Clearing its transform
+        // here exposes the closing row before its overflow/scroll is restored;
+        // a following execution then inherits a different rectangle.
+        if (el !== row) style(el, "transform", "none", "important");
         if (w != null) style(el, "width", w + "px", "important");
       };
+      // Book keeps a stable, scrollable node reservation. Tall questions grow
+      // downward instead of squeezing that reservation or moving live answers.
+      // Chrome may own the desktop head; phone tools always remain in this flow.
+      const inlineHead = this.tools?.parentElement === this.game ? this.tools : head?.parentElement === this.game ? head : null;
+      if (inlineHead) position(inlineHead, free.center - width / 2, band + (chrome?.offset || 0), width);
+      const headHeight = available && inlineHead ? inlineHead.getBoundingClientRect().height + 6 : 0;
+      if (available) start = band + headHeight + 44 + (chrome?.offset || 0);
       if (this.mediaHome.hidden !== !homeMedia) this.mediaHome.hidden = !homeMedia;
       // Keep the deck's 44px outside arrows plus 8px clearance. The left arrow
       // lives in the 60px media gap; the right arrow also fits inside the pane.
@@ -862,15 +949,19 @@ class Reader {
       const mediaHeight = homeMedia ? a.currentFilmHeight?.() ?? this.media.getBoundingClientRect().height : 0;
       const cardHeight = showCard ? card.getBoundingClientRect().height : 0, handHeight = showHand ? row.getBoundingClientRect().height : 0;
       const stageHeight = beside ? Math.max(cardHeight, mediaHeight) : cardHeight + mediaHeight + (homeMedia && showCard ? 12 : 0);
-      start = Math.max(6, Math.min(start, end - top - stageHeight - gap - handHeight - (available ? 64 : 0)));
+      if (!available) start = Math.max(6, Math.min(start, end - top - stageHeight - gap - handHeight));
       const groupLeft = free.center - (mediaWidth + 60 + cardWidth + 52) / 2;
       if (homeMedia) position(this.mediaHome, beside ? groupLeft : free.center - mediaWidth / 2, start + (beside ? (stageHeight - mediaHeight) / 2 : 0), mediaWidth);
       const cardX = beside ? groupLeft + mediaWidth + 60 : Math.max(a.isMobile() ? 10 : 16, free.center - cardWidth / 2);
       const cardY = start + (beside ? stageHeight - cardHeight : homeMedia ? mediaHeight + 12 : 0);
       if (card) position(card, cardX, cardY);
       const handoff = a._executionDock()?.reader;
-      const rowTop = handoff?.rowTop ?? start + stageHeight + gap;
+      const rowTop = handoff?.rowTop ?? start + stageHeight + (available ? 16 + 44 : gap);
       if (row) position(row, 0, rowTop, W);
+      if (available) {
+        position(this.gameSections[0].card, free.center - width / 2, start - 44, width);
+        position(this.gameSections[1].card, free.center - width / 2, rowTop - 44, width);
+      }
       for (const [el, key] of [[a._landStackEl, "stack"], [a._landNavEl, "nav"]]) {
         if (el && card) { moved(el, key); position(el, cardX, cardY, cardWidth); style(el, "height", cardHeight + "px"); }
       }
@@ -884,41 +975,11 @@ class Reader {
       style(this.articleEl, "margin-top", "6px");
       this.trayBottom = H - end + 12 + Math.min(128, H * .15);
       this.cardBottom = this.trayBottom;
+      // Publication is the last write, after the actual controls and their
+      // outside arrows have a final rectangle. Keyboard/clock ask the same flag.
+      card?.removeAttribute("data-reader-pending");
       for (const [el] of this.gameHomes) if (!el.isConnected) { this.resize.unobserve(el); this.gameHomes.delete(el); }
     } finally { this.laying = false; }
-  }
-  frameCamera(target) {
-    // Undo only this reader's previous correction. Keep it out of _paneFraction:
-    // pane insets are applied after easing, but an occupied-area move must fly.
-    target = { ...target, cx: target.cx + (target._tocFraction || 0) * target.vw, _tocFraction: 0 };
-    const a = this.app, n = a.nodes?.[a.focusIdx], toc = this.contents;
-    if (!n || !a._LY || !toc || toc.hidden || !this.on("map")) return target;
-    const W = a.W, H = a.H, scale = W / target.vw, mid = a.pairMid(n);
-    const pair = [n, n.pi >= 0 ? a.nodes[n.pi] : null].filter(Boolean);
-    const k = Math.max(.4, Math.min(1, target.vw / (a.graphW * .5)));
-    const half = Math.max(...pair.map(q => a._nodeHalfW(q, scale, k, a._lodK ?? 1)));
-    const x = W / 2 + (mid.x - target.cx) * scale;
-    const ys = pair.map(q => H / 2 + (a._LY(q) - target.cy) * scale);
-    const top = Math.min(...ys) - half - 32, bottom = Math.max(...ys) + half + 32;
-    const left = x - half, right = x + half + 11 + a._labelWidthPx(n);
-    // Only camera space is excluded: the article's own centre never depends on
-    // the TOC. Once the article covers the node band, use a fitting side gutter.
-    const occupied = [toc, this.articleEl].map(el => el.getBoundingClientRect())
-      .filter(r => r.width && r.top < bottom && r.bottom > top).sort((a, b) => a.left - b.left);
-    // A deliberate view can leave the current node off-screen. Exclude actual
-    // intersections; bringing that node back would steal the selected subject.
-    if (!occupied.some(r => r.left < right && r.right > left)) return target;
-    let edge = a._paneLayout().left + 12;
-    const gaps = [];
-    for (const r of occupied) { gaps.push([edge, r.left - 12]); edge = Math.max(edge, r.right + 12); }
-    gaps.push([edge, W - 12]);
-    const shifts = gaps.filter(([l, r]) => r - l >= right - left)
-      .map(([l, r]) => Math.max(l - left, Math.min(0, r - right)));
-    // An exceptionally long name may not fit either article gutter. It can sit
-    // behind the article, but never under the controls. Preserve its full name.
-    const shift = shifts.length ? shifts.sort((a, b) => Math.abs(a) - Math.abs(b))[0]
-      : Math.min(0, toc.getBoundingClientRect().left - 12 - right);
-    return { ...target, cx: target.cx - shift / scale, _tocFraction: shift / W };
   }
   destroy() {
     cancelAnimationFrame(this.layoutFrame);

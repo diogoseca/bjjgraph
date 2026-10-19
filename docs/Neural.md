@@ -75,34 +75,36 @@ without a boost or tap-out, and escapes remain available. A live catch fogs the 
 threat + seat + escapes (`_dangerSet`), frames them (`frameNodes`), and yields the brand to
 the vignette. The complete linked article appears below the game controls.
 
-**Reading and minimizing.** The full published article survives grading and card replacement,
-with native scrolling, 16px prose and perspective links. The actual choices precede section
-cards with 6px gaps: untitled Videos, Overview, Essential principles, setup/recognition, options,
+**Reading and minimizing.** Articles survive grading and card replacement, with native
+scrolling and 16px prose. The node's other half changes role; no role switch (D-318).
+Questions and Moves have headers and eyes. Choices precede cards with 6px gaps:
+untitled Videos, Overview, Essential principles, setup/recognition, options,
 safety, mistakes, other authored sections, Related. Learning/System Sources stays last; missing
 groups are omitted. Hubs include the full Top/Attacker guide; role pages add only shared hub
 safety. Failed loads offer Retry.
 
-Headers toggle bodies; collapsed headers remain opaque and readable. Contents floats at the
-right-control inset without a container or article layout space. It hides
-on phones (width ≤640px or height ≤500px) and when the right gutter cannot fit its 200px width
-plus 12px clearance: below 1152px with a 680px column and 24px inset. Labels scroll; eyes toggle.
-The camera treats Contents as occupied space and frames the current node clear of it.
-`readerSection.*` defaults to shown and merges per-key timestamps. Settings → Rolling → Article
-sections edits the same values; Focus never overwrites them.
+Collapsed headers stay opaque and readable. Contents floats at the right-control inset without
+a container or layout space. It hides at width ≤640px, height ≤500px, or a gutter below212px:
+below1152px with the 680px column and 24px inset. Labels scroll; eyes toggle bodies.
+The index names technique, role and origin. Arrival centres the node above sections; scrolling
+covers it with prose without moving it into a gutter.
+`readerSection.*` defaults shown, merges per-key timestamps, and is edited in Settings → Rolling →
+Article sections. Focus never overwrites it.
 
-The shelf exposes Videos, Practice questions, Moves, Map, Game feedback and Book with ≥44px
-targets. `landFilm/Card/Hand/Map/Feedback` store normal visibility; `readerBook` controls the
-article. Hidden questions are not built; hidden hands remain dealt and untimed.
-**Focus on reading** persists `readingFocus` and `readingCard/Hand/Map/Feedback` overrides,
-leaving game preferences intact. `readingFilm` remains stored; `readerSection.videos` controls
-the article media. Only Focus reapplies the preset; navigation, reload and sync retain restores.
-Restoring parts or leaving Focus starts no play. Reference pages offer Study tools.
+With Book shown the shelf is absent; Questions, Moves and Videos join the index. Book off keeps
+the restore shelf. Eyes have ≥44px targets. `landFilm/Card/Hand/Map/Feedback`
+store normal visibility; `readerBook` controls the article. Hidden questions are not built;
+hidden hands remain dealt and untimed.
+**Focus on reading** saves `readingFocus` and `readingCard/Hand/Map/Feedback` overrides, preserving
+game preferences. `readingFilm` stays stored; `readerSection.videos` controls article media.
+Only Focus reapplies its preset; navigation, reload and sync retain restores.
+Restores and leaving Focus start no play. References offer Study tools.
 
 Content URLs, Browse and links prepare dormant controls (`NG_READING_DEFAULT_ON_CONTENT_URL`).
-Choosing a move or answering starts play, with no Practice gate, prior clock or miss.
+A move or answer starts play, without a Practice gate, prior clock or miss.
 Principle, Learning, System and content-only pages have no seat. Automatic articles never pause
-a move; scrolling, selecting or focusing prose declines the live question and pauses without a
-miss. Reading keys, links, minimizing and Escape's pane close never start play or discard the
+a move; scrolling, selection or prose focus declines the live question and pauses without a
+miss. Reading keys, links, minimizing and Escape never start play or discard the
 article. See [Reading delivery](Architecture.md#reading-delivery) for source and media ownership.
 
 **A revealed answer can be put back.** `_recallBlock` builds Show / Hide / Review again / Got it
@@ -232,13 +234,12 @@ or a new interpretation of its printed odds. The existing sweep lasts **1.08 sec
 uses the same probability and conditional outcome draws. Its band and needle use the drawn
 orb coordinate, and its progress pauses with its verdict timer.
 
-The execution owns the existing announcer slot and camera framing through the result. The
-camera frames the technique and then the actual destination within measured free space;
-reduced motion snaps that framing, and a deliberate pan, pinch, wheel or other camera action
-releases it. Arrival, opponent handoff, round end, restaging and teardown clear the retained
-card and announcer ownership. Replay temporarily borrows the announcer. Source behavior is
-covered by `tests/roll_execution.test.mjs`; real input and geometry cases are collected in
-`e2e/journeys/roll-execution.spec.ts` and require browser validation.
+Execution owns the announcer and frames the whole painted pair/name in free 2-D space,
+retaining above-card bounds where that band exists and the clicked rectangle within 2px.
+Reduced motion snaps the camera; pan, pinch, wheel or a focus lease releases it. Arrival,
+opponent handoff, round end, restaging and teardown clear card/announcer ownership; replay
+borrows the announcer. `tests/roll_execution.test.mjs` pins source behavior;
+`e2e/journeys/roll-execution.spec.ts` measures real input and painted clearance in a browser.
 
 ### The option sheet preserves the inspected card's anatomy
 

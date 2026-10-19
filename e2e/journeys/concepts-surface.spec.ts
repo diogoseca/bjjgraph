@@ -1125,8 +1125,12 @@ for (const viewport of [
 
 // Unlike the arrival cases above, these start with a live hand and authored film. The DSL's
 // empty dossier default cannot prove that selecting a reference tears down existing videos.
-for (const category of ["Principles", "Systems", "Learning"] as const) {
-  test(`clicking ${category} retires the current node and its surfaces @curated`, async ({ page }) => {
+// STALE CONTRACT, superseded by review3 B1 (2026-10-16): reference playback
+// uses the same media owner. Retire the old game host; allow only this reference's
+// published videos. Classification: /home/user/bjj-orchestrator/scratch/article-sections/
+// ci-e26/reference-retirement-classification.md (old host disconnected before new host).
+for (const [category, reference] of [["Principles", null], ["Systems", null], ["Learning", null], ["Principles", "Principles/Microing"]] as const) {
+  test(`clicking ${reference || category} retires the current node and its surfaces @curated`, async ({ page }) => {
     const errors = watchErrors(page);
     const j = journey(page);
     await j.boot("/");
@@ -1141,6 +1145,7 @@ for (const category of ["Principles", "Systems", "Learning"] as const) {
     await expect(page.locator("[data-land-film]")).toBeVisible();
     await expect(page.locator("[data-landcard]")).toBeVisible();
     expect(await page.evaluate(() => (window as any).__neural.optionIdxs.length)).toBeGreaterThan(0);
+    await page.evaluate(() => { (window as any).__retiringGameFilm = (window as any).__neural._landFilmEl; });
     await page.locator(".ng-logo").click();
     await page.locator("[data-view='explore']").click();
     const header = page.locator(`[data-explore-section="${category}"]`);
@@ -1152,7 +1157,7 @@ for (const category of ["Principles", "Systems", "Learning"] as const) {
       if (await group.getAttribute("aria-expanded") !== "true") await group.click();
     }
     const kind = category === "Systems" ? "system" : "concept";
-    const row = page.locator(`[data-${kind}-row]`).first();
+    const row = reference ? page.locator(`[data-${kind}-row="${reference}"]`) : page.locator(`[data-${kind}-row]`).first();
     const id = await row.getAttribute(`data-${kind}-row`);
     expect(id).toBeTruthy();
     await row.scrollIntoViewIfNeeded();
@@ -1161,15 +1166,40 @@ for (const category of ["Principles", "Systems", "Learning"] as const) {
     await expect(page.locator("[data-reader-body]")).not.toBeEmpty();
     expect(new URL(page.url()).pathname).toBe("/" + id);
     await expect.poll(async () => (await litIds(page))?.length || 0).toBeGreaterThan(0);
+    const publishedVideos = await page.evaluate(async path => {
+      const html = await (await fetch(path)).text();
+      const doc = new DOMParser().parseFromString(html, "text/html");
+      return [...new Set([...doc.querySelectorAll("article iframe")].flatMap(frame => {
+        const url = new URL(frame.getAttribute("src")!, location.origin);
+        const id = /(^|\.)youtube(-nocookie)?\.com$/.test(url.hostname) && url.pathname.match(/^\/embed\/([^/]+)/)?.[1];
+        return id ? [id] : [];
+      }))].sort();
+    }, "/" + id);
+    if (reference) expect(publishedVideos, "Microing is the published no-video reference control").toEqual([]);
     const assertIdle = async () => {
       expect(await page.evaluate(() => {
         const a = (window as any).__neural;
         return { current: a.currentPos ?? null, focus: a.focusIdx, staged: a._staged ?? null,
-          options: a.optionIdxs.length, land: !!a._landEl, film: !!a._landFilmEl,
+          options: a.optionIdxs.length, land: !!a._landEl, film: !!a._landFilmEl && !a._landFilmEl.dataset.referenceFilm,
           more: !!a._landMoreEl, pulse: !!a.pulse, decision: !!a._decision, played: !!a._played };
       })).toEqual({ current: null, focus: -1, staged: null, options: 0, land: false,
         film: false, more: false, pulse: false, decision: false, played: false });
-      await expect(page.locator("[data-landcard], [data-land-film]")).toHaveCount(0);
+      await expect(page.locator("[data-landcard]")).toHaveCount(0);
+      expect(await page.evaluate(() => {
+        const w = window as any, a = w.__neural;
+        return { connected: w.__retiringGameFilm.isConnected, reused: a._landFilmEl === w.__retiringGameFilm };
+      }), "the old game's film is retired, including after Browse closes").toEqual({ connected: false, reused: false });
+      const film = page.locator("[data-land-film]");
+      await expect(film).toHaveCount(publishedVideos.length ? 1 : 0);
+      if (publishedVideos.length) {
+        await expect(film).toHaveAttribute("data-reference-film", "/" + id);
+        expect(await film.evaluate(el => [...el.querySelectorAll(".ng-clip img")].map(img =>
+          new URL((img as HTMLImageElement).src).pathname.split("/")[2]).sort())).toEqual(publishedVideos);
+        expect(await film.evaluate(el => (el as any)._ngMediaIdx)).toBe(-1);
+      } else {
+        expect(await page.evaluate(() => ({ film: !!(window as any).__neural._landFilmEl })),
+          "a reference without published videos retains film:false").toEqual({ film: false });
+      }
       expect(new URL(page.url()).pathname).toBe("/" + id);
     };
     await assertIdle();

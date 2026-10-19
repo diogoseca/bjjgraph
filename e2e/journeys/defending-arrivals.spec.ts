@@ -87,8 +87,8 @@ const leaf = `div:has(> [data-list-surface="explore"][data-list-add="${ID}"]) > 
 async function defenderLink(page: Page) {
   const j = journey(page)
   await expect(page.locator(READY)).toBeVisible()
-  if (!(await page.locator('[aria-label="Reading perspectives"] a[href$="/Defender"]').isVisible())) await j.clickByMouse('.ng-reader-toc-row:has([data-toc-eye="overview"]) a')
-  await j.clickByMouse('[aria-label="Reading perspectives"] a[href$="/Defender"]', 'read the defending half')
+  await j.readingOtherHalf() // D-318 U6a; retain PR 305's Back and fresh-journey repair.
+
 }
 
 // STALE SPEC (PR 305, owner D-307): sidebar search and perspective links end an already active journey.

@@ -1,6 +1,6 @@
 {
   "base": "dc72b958c88e8f3ed17d3d6b599b190e5daf81f4",
-  "authority": "Article sections Phase 2 approval and owner TOC placement change, 2026-10-15; one existing media host, phone headers, floating contents and 6px gap",
+  "authority": "Article sections Phase 2 and owner TOC placement approval, 2026-10-15; D-318 U4a/U6a, 2026-10-16: centred arrival and native scroll occlusion, native paired-half role navigation, Questions/Moves index entries and no shelf with Book shown. View placement remains pending U7. D-322 preserves the clicked card within2px and frames the painted execution pair/name in free2-D space; above-card bounds remain wherever that band exists.",
   "entries": [
     {
       "old_file": "e2e/journeys/reading-mode.spec.ts",
@@ -59,7 +59,7 @@
         "e2e/journeys/landing-reveal.spec.ts"
       ],
       "test": "DOM-derived available band",
-      "change": "The approved fixed TOC frames the complete current node in the free left gutter when needed. Original full-core/diagnostic samples place the node there while the centred article spans x380..1060. Count the article as a vertical blocker only when its actual horizontal interval intersects the drawn orb/label footprint. Add the real article and shelf to the continuity sampler, which formerly omitted them; phone all-game-hidden now measures the actual article above the old film location. Preserve every MOVE/KICK/ZOOM, clearance and exact 5px centre bound."
+      "change": "Historical pre-D-318 repair: count the article as a vertical blocker only when its actual horizontal interval intersects the drawn orb/label footprint, and include the real article/shelf instead of their transparent parent. D-318 U4a supersedes free-gutter reading framing: the pair and label centre above the first section and native scrolling occludes them. The new eight-width article-sections journey rejects restoring the retired gutter camera. Live-execution and opening-flight bounds are unchanged."
     },
     {
       "file": "e2e/journeys/defending-arrivals.spec.ts",
@@ -69,7 +69,7 @@
     {
       "file": "e2e/journeys/reading-mode.spec.ts",
       "test": "reading perspectives and Back retain canonical content without gameplay",
-      "change": "STALE TIMING, fixbots reading-back-race.md: the unchanged test failed 3/20 before escape on dc72b958c and 0/20 on f006d73b8. Preserve the original perspective click, complete content checks and Back order. Observe Quartz's real nav publication and the outgoing app; wait only for the replacement instance's own connected reader to publish the canonical ready path, then snapshot that same instance once and assert unchanged intent:true, paused:true, clock:null. A forced HTML-then-graph hold reproduces the old-ready/new-loading boundary. No sleep, retry, widened bound or wait on the asserted state."
+      "change": "STALE TIMING, fixbots reading-back-race.md: the unchanged test failed 3/20 before escape on dc72b958c and 0/20 on f006d73b8. Observe Quartz nav plus the replacement instance's connected canonical ready reader, then take one snapshot asserting intent:true, paused:true, clock:null. The forced HTML-then-graph ordering remains. D-318 U6a replaces only the retired perspective switch action with the real paired-half mouse tap; complete content assertions and original Back order remain. No sleep, retry, widened bound or wait on asserted state."
     },
     {
       "file": "e2e/journeys/film-row-arrows.spec.ts",
@@ -79,7 +79,7 @@
     {
       "file": "e2e/journeys/article-sections.spec.ts",
       "test": "choices precede section cards and preserve the six-pixel token",
-      "change": "After merging escape v1.227.0, the calm Loop Choke defending landing uses the shared ng-land-deck. Assert that premise and its existing 16px deck-to-hand contract at both widths (12px backs plus 4px air), replacing the former non-deck 8px phone/12px desktop fixture expectation. The exact 6px hand-to-head, head-to-section and inter-section gaps, control identity and scroll bounds remain unchanged."
+      "change": "Escape supplies the shared ng-land-deck with its existing 16px gap. D-318 adds the 44px Moves header after that gap; the hand follows the header with zero gap. Focus/Browse precedes the 44px Questions header by 6px. The hand-to-article and inter-section gaps remain exactly 6px. Native card/hand identity, horizontal overflow and control reachability remain asserted."
     },
     {
       "file": "neural/build/build.mjs",
@@ -89,7 +89,7 @@
     {
       "file": "e2e/journeys/article-sections.spec.ts",
       "test": "contents and header targets; floating contents owns real mouse input",
-      "change": "Owner replaces the in-flow desktop rail and tablet panel with containerless fixed Contents. The independent article keeps its 680px maximum width and centre. A measured 200px TOC plus 12px gap must fit the right gutter; 24px edge gives a 1152px closed-pane cutoff. Narrow tablets retain header toggles, as phones do. Separate label navigation, eye toggles, keyboard, contrast, persistence and dormant-game assertions remain; new geometry, transparent-surface and mouse/canvas positive-control checks pin the new placement in both themes. The follow-up journey measures the drawn current-node label and both orbs against the TOC at 1152, 1200, 1280, 1366 and 1440px before and after real-mouse reading navigation; removing TOC from the camera occupied set reproduces the collision and fails."
+      "change": "Owner replaces the in-flow rail/tablet panel with containerless fixed Contents. The independent article keeps its 680px maximum width/centre. The 200px TOC plus 12px gap fits the measured right gutter (1152px closed-pane cutoff at a 24px edge); narrow tablets retain header toggles. Label navigation, separate eyes, keyboard, contrast, persistence and dormant-game assertions remain, as do mouse/canvas positive controls in both themes. D-318 later replaces the old occupied-gutter camera claim with centred arrival and native prose occlusion; restoring the actual retired correction fails that new claim. The index heading names technique, role and origin."
     },
     {
       "file": "e2e/journeys/reading-contract.spec.ts",
@@ -162,7 +162,7 @@
     {
       "file": "e2e/journeys/article-sections.spec.ts",
       "test": "choices precede section cards; optional chrome frame",
-      "change": "The orchestrator\u2019s option A ruling puts the whole no-hook head before section one, with 6px before and after it. The hook replaces ownTop only: unclamped movement = headBottom - ownTop + offset, with no map-band head reservation. Existing node-band, practice-to-hand, article gap, section-gap and authoritative bottomReserve clamps remain pinned. New desktop/phone tests keep the same tools in the approved homes; null/undefined preserve fallback/reference geometry."
+      "change": "D-318 puts no-hook Focus/Browse before Questions in the game flow; reference titles remain above their article. The hook replaces ownTop only, retaining the node band and all intra-flow gaps, then adds offset before the existing fit clamp. bottomReserve is still the viewport-bottom clearance; null/undefined keep fallback geometry. With Book shown the shelf is hidden and contributes no height; measured bottom-control clearance plus 8px remains. Desktop tools move to chrome and phone tools stay in flow. Every hook path remains covered by geometry and mutation controls."
     },
     {
       "file": "e2e/journeys/coldstart-backfill.spec.ts",
@@ -178,6 +178,54 @@
       "file": "e2e/journeys/roll-card.spec.ts",
       "test": "the film row rides the game card",
       "change": "The approved A normal home replaces the old always-above-film premise. The authored existing host must share the game scrollport and maintain exactly 60px beside practice or 12px above it. The shared media spec covers both viewport geometries, player identity and playback."
+    },
+    {
+      "file": "e2e/journeys/reading-navigation.spec.ts",
+      "test": "late article first answer; during-press adoption",
+      "change": "REAL BREAK, not a readiness repair: compositor proof on e26 paints the old answer before sections adds a 68px adoption shift. APP withholds publication until synchronous reader layout; the original measure-then-click order remains. The forced first-layout regression fails old e26 at dy=-66 and passes the fix at dx=dy=0 with exactly one answer (distinct ordering from the 68px paint probe). Both during-press regressions retain question identity and one paid answer."
+    },
+    {
+      "file": "e2e/journeys/roll-execution.spec.ts",
+      "test": "Inspect and execute are distinct real mouse actions",
+      "change": "REAL BREAK: reader layout cleared Inspect's closing transform before its own completion callback restored row geometry. Preserve that owner and clip horizontal game overflow in APP. Retain the full native Inspect/Escape/execute/repeated-click/digit sequence with exactly one commit; the additional held-close ordering fails on e26 at transform ownership, not an input timeout."
+    },
+    {
+      "file": "e2e/journeys/url-arrival.spec.ts",
+      "test": "late deck delivery does not steer the opening flight",
+      "change": "Keep the original <3 world-unit bound and ungated case. Add controlled real Side Control deck delivery after simulation time7; it reproduces approximately10.94 on exact dev8aa and10.95 on e26. APP shares the node-band reservation before/after reader adoption, leaving the fixed target unchanged. No readiness wait replaces the measured flight."
+    },
+    {
+      "file": "e2e/journeys/concepts-surface.spec.ts",
+      "test": "reference navigation retires gameplay surfaces",
+      "change": "STALE CONTRACT, review3 B1 accepted by orchestrator: the old game film must disconnect and never be reused, exactly one seatless owner carries the exact published IDs across all three reference categories, and a no-video reference retains film:false. The retained-old-host mutant fails connected:false at the claim. No seat, hand or gameplay activation is allowed."
+    },
+    {
+      "file": "e2e/journeys/article-sections.spec.ts",
+      "test": "late question backfill retains the named eye target",
+      "change": "A new accessibility assertion exposed a real late-backfill defect: the replacement card lacked the ID named by its header eye. APP binds ID during actual adoption, preserving question identity and dormancy. The control restores sync-only assignment and fails the forced backfill identity assertion; its initial natural-order non-kill is recorded."
+    },
+    {
+      "files": [
+        "e2e/journeys/landcard-deck.spec.ts",
+        "e2e/journeys/land-layers.spec.ts"
+      ],
+      "test": "native phone scroll inputs and hand close",
+      "change": "The reserved reading band moves old fixture coordinates below the native scrollport. Scroll the actual question/Reveal/hand into view before the same native input. Preserve all original choice-scrolling, no-card-scroll, paging, growth, answer, ownership and retained-content bounds. The manually pumped DSL advances one ordinary16ms game frame after scrolling to dock the external hand close through updateUiShift. It does not sleep or wait on the asserted geometry."
+    },
+    {
+      "file": "e2e/journeys/reading-media-placement.spec.ts",
+      "test": "pause every owner player; normal media geometry",
+      "change": "PR305 now gives Knee Slice one clip, so the multiplayer pause fixture explicitly retires that owner and renders two distinct clips through the real media owner; require both pauses and zero destroys/collapseClip calls. D-318 Measures the unchanged16px deck gap before the new44px Moves header and zero gap after it. Keep media sizes, outside arrows, 60px desktop clearance, resize coalescing and no-churn assertions."
+    },
+    {
+      "file": "e2e/journeys/roll-card.spec.ts",
+      "test": "complete article survives question lifetime",
+      "change": "Use the named Questions eye instead of the retired reading shelf button; retain native mouse, complete article identity, grading and question-lifetime assertions."
+    },
+    {
+      "file": "e2e/journeys/roll-execution.spec.ts",
+      "test": "execution camera frames the technique; native-wheel regression",
+      "change": "REAL BREAK with an approved geometry correction (D-322). A native Overview click and wheel can place the chosen card at y68 while the announcer ends at70.59375. Keep the <=2px measured pointerdown-to-stand-in rectangle; retain the original scalar above-card bounds wherever that vertical band exists. Every case now observes actual fillText output plus both shared drawn silhouettes against clipped visible rectangles. Original six normal-flow cases remain, and native-wheel cases add both motion modes. Exact e26 and the drop-correction mutant fail the painted-overlap assertion, never an input wait. The actual unobstructed-canvas pan still releases camera ownership. D-318 idle arrival/occlusion and the <3 opening-flight drift bound are unchanged."
     }
   ]
 }

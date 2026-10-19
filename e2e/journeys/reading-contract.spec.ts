@@ -198,7 +198,7 @@ test('@curated an unauthored defender never falls back to the attacker hub', asy
     await page.route('**/Transitions/Knee-Slice-Pass/Defender', route => route.fulfill({ contentType: 'text/html', body: '<h1>Defender</h1><article><p>This defender guide has not been authored.</p></article>' }))
   } })
   await expect(page.locator(READY)).toBeVisible()
-  await j.clickByMouse('[aria-label="Reading perspectives"] a[href$="/Defender"]')
+  await j.readingOtherHalf() // D-318 U6a: the native paired half replaces the retired switch.
   await expect(page.locator(READY)).toHaveAttribute('data-reader-path', KNEE + '/Defender')
   await expect(page.locator('[data-reader-body]')).toHaveText(/This defender guide has not been authored/)
   await expect(page.locator('[data-reader-body]')).not.toContainText(/Execution Steps|Playing as Attacker|Possible Outcomes/)
@@ -244,7 +244,7 @@ test('@curated a late response cannot repaint the opposite seat in the same read
   const settle = (r: { url(): string }) => { if (new URL(r.url()).pathname === '/Positions/Mount/Bottom') settled = true }
   page.on('requestfinished', settle); page.on('requestfailed', settle)
   await page.route('**/Positions/Mount/Bottom', async route => { requested = true; await held; await route.continue().catch(() => {}) })
-  await j.clickByMouse('[aria-label="Reading perspectives"] a[href$="/Bottom"]')
+  await j.readingOtherHalf() // D-318 U6a: the native paired half replaces the retired switch.
   await expect.poll(() => requested).toBe(true)
   await j.clickByMouse('.ng-logo')
   await j.clickByMouse('[data-view="explore"]')
@@ -259,12 +259,15 @@ test('@curated a late response cannot repaint the opposite seat in the same read
   expect(await page.locator('[data-reader-article="guide"]').evaluateAll(es => [...new Set(es.map(e => e.getAttribute("data-source-path")))])).toEqual(['/Positions/Mount/Top'])
   const toc = await page.locator('[data-section-link]').evaluateAll(nodes => nodes.map(e => {
     const target = document.getElementById(e.getAttribute('data-section-link')!), card = target?.closest('.ng-section-card')
+    if (target?.classList.contains('ng-reader-game-heading')) return { label: e.textContent, type: target.id.slice(7),
+      current: !!document.querySelector('.ng-reader-game')?.contains(target) && e.getAttribute('href') === '#' + target.id,
+      heading: target.querySelector('[data-game-eye] > span')?.textContent }
     return { label: e.textContent, type: card?.getAttribute('data-section-type'),
       current: !!card && !!document.querySelector('[data-reader-body]')?.contains(card) && e.getAttribute('href') === '#' + card.id,
       heading: card?.querySelector('[data-section-toggle] > span')?.textContent }
   }))
   const expected = [
-    ['videos', 'Videos'], ['overview', 'Overview'], ['principles', 'Essential principles'],
+    ['card', 'Questions'], ['hand', 'Moves'], ['videos', 'Videos'], ['overview', 'Overview'], ['principles', 'Essential principles'],
     ['prerequisites', 'Prerequisites'], ['options', 'Decisions from top'], ['mistakes', 'Common mistakes'],
     ['role-comparison', 'Role comparison'], ['bottom-summary', 'Bottom overview'], ['top-summary', 'Top overview'],
     ['training', 'Training'], ['statistics', 'Statistics'], ['related', 'Related'],

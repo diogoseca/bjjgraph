@@ -607,6 +607,31 @@ export class Journey {
     });
   }
 
+  /** D-318 U6a: change the read role through the actual other canvas half.
+   * Leave Focus to expose Map; do not call the navigation or seating methods.
+   * Return after the native click so callers can hold the requested HTML. */
+  async readingOtherHalf() {
+    await this.page.locator('[data-reader]').evaluate(e => { e.scrollTop = 0; });
+    if (await this.page.evaluate(() => (window as W).__neural.get('readingFocus', false))) {
+      await this.clickByMouse('[data-reading-focus]', 'leave Focus to expose the role pair');
+    }
+    await this.readerLayoutSettled();
+    await this.advance(6000); // drive the existing flight to the visible pair
+    // A newly minted reward is a deliberate screen above the map. Dismiss it
+    // through its real control before asking the map to own the next click.
+    if (await this.page.locator('[data-reward-close]').isVisible()) {
+      await this.clickByMouse('[data-reward-close]', 'dismiss the earned reward before changing role');
+    }
+    const point = await this.page.evaluate(() => {
+      const a = (window as W).__neural, n = a.nodes[a.nodes[a.focusIdx].pi], scale = a.W / a.cam.vw;
+      const x = a.W / 2 + (n.x - a.cam.cx) * scale, y = a.H / 2 + (a._LY(n) - a.cam.cy) * scale;
+      return { x, y, canvas: document.elementFromPoint(x, y) === a.canvasRef.current };
+    });
+    expect(point.canvas, 'the other read role must be a reachable drawn canvas half').toBe(true);
+    await this.page.mouse.click(point.x, point.y);
+    return this;
+  }
+
   /**
    * GRADE THE JIT DRILL CORRECTLY, WHATEVER FORMAT IT IS ASKING IN.
    *

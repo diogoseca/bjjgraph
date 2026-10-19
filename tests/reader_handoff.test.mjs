@@ -15,6 +15,36 @@ const Reader = new Function(readerSource.replace(/^export /gm, "") + "\nreturn R
 const wrapper = readerSource.match(/  const execution = app.executionCard;[\s\S]*?\n  };/)?.[0];
 assert.ok(wrapper, "exercise the installed execution wrapper, not a test-side formula");
 
+test("execution framing clears a top-scrolled card and announcer without moving the card or accumulating a correction", () => {
+  globalThis.getComputedStyle = el => el.style;
+  const surface = (left, top, width, height) => ({ isConnected: true, style: { opacity: "1" },
+    getBoundingClientRect: () => ({ left, right: left + width, top, bottom: top + height, width, height }) });
+  for (const [cardX, cardY] of [[978, 68], [0, 68], [978, 620]]) for (const reward of [false, true]) {
+    const n = { idx: 0, pi: 1, x: 0, y: 0 }, partner = { idx: 1, x: 0, y: 32 };
+    const card = surface(cardX, cardY, 150, 144), toast = surface(450, 30, 540, 40.59375);
+    const r = Object.create(Reader.prototype), a = r.app = { W: 1440, H: 900, graphW: 16000, nodes: [n, partner],
+      _execution: { card }, evRef: { current: toast }, accountRef: {}, shareCueRef: {},
+      // Rewards portal outside the fixed wrap; querying wrap descendants misses them.
+      _challengeRewardEl: reward ? surface(620, 90, 300, 100) : null,
+      wrapRef: { current: { querySelectorAll: () => [] } }, _LY: q => q.y,
+      _nodeHalfW: () => 17, _labelWidthPx: () => 110, pairMid: () => ({ x: 0, y: 16 }), _paneLayout: () => ({ left: 0 }) };
+    r.root = { getBoundingClientRect: () => ({ top: 68, bottom: 800 }), contains: () => false };
+    r.articleEl = surface(380, cardY + 158, 680, 800); r.contents = surface(1216, 68, 200, 600); r.gameSections = [];
+    const target = { cx: 86.4, cy: 375.4, vw: 1440, _paneFraction: 0 }, before = card.getBoundingClientRect();
+    const fixed = r.frameExecution(target, n), point = { x: 720 - fixed.cx, y: 450 - fixed.cy };
+    assert.ok(point.y - 17 > toast.getBoundingClientRect().bottom, "the whole upper orb clears the announcer");
+    assert.ok(point.y + 49 < r.articleEl.getBoundingClientRect().top, "both orbs clear the article");
+    assert.ok(point.x > 17 && point.x + 17 + 11 + 110 < 1216, "the whole name clears the index");
+    if (reward) assert.ok(point.x + 138 <= 620 || point.x - 17 >= 920 || point.y + 49 <= 90 || point.y - 17 >= 190,
+      "the portal-owned reward is occupied even though it is not in the wrap");
+    if (cardY > 70.59375) assert.ok(point.y < cardY, "the original above-card bound survives wherever its band exists");
+    assert.deepEqual(card.getBoundingClientRect(), before, "camera composition never moves the clicked card");
+    assert.deepEqual(r.frameExecution(fixed, n), fixed, "a second pass cannot accumulate the correction");
+    assert.equal(fixed.vw, target.vw, "the existing execution zoom and pane stamp survive");
+    assert.equal(fixed._paneFraction, target._paneFraction);
+  }
+});
+
 class Style {
   constructor(values = {}) { Object.assign(this, values); this.priorities = {}; }
   getPropertyValue(key) { return this[key] || ""; }
@@ -25,6 +55,7 @@ function node(values = {}) {
   const attrs = new Set();
   return { style: new Style(values), dataset: {}, isConnected: true,
     setAttribute: key => attrs.add(key), hasAttribute: key => attrs.has(key),
+    removeAttribute: key => attrs.delete(key),
     toggleAttribute(key, on) { if (on) attrs.add(key); else attrs.delete(key); },
     append(el) { el.parentElement = this; }, appendChild(el) { this.append(el); },
     remove() { this.isConnected = false; },
@@ -35,12 +66,13 @@ function fixture(adopted = true) {
   globalThis.getComputedStyle = el => el.style;
   const a = new Component({}), r = a._reader = Object.create(Reader.prototype);
   Object.assign(r, { app: a, path: "/Positions/Mount/Bottom", gameTop: 180, gameHomes: new Map(),
-    resize: { observe() {}, unobserve() {} }, on: () => true });
+    resize: { observe() {}, unobserve() {} }, on: part => part !== "book" });
   r.root = node({ top: "68px", height: "682px" }); r.root.scrollTop = 50;
   r.root.getBoundingClientRect = () => ({ top: +parseFloat(r.root.style.top), bottom: 750 });
   r.game = node({ height: adopted ? "626.75px" : "0px" });
   r.game.getBoundingClientRect = () => ({ top: parseFloat(r.root.style.top) - r.root.scrollTop, height: parseFloat(r.game.style.height) });
   r.articleEl = node(); r.mediaHome = node();
+  r.gameSections = [{ card: node() }, { card: node() }];
   r.dock = node(); r.dock.getBoundingClientRect = () => ({ top: 758, height: 48 });
   const wrap = node(); wrap.querySelector = () => null; a.wrapRef.current = wrap;
   const row = a.optionsRef.current = node({ top: "430.5px", bottom: "auto", paddingTop: "8px" });
@@ -51,7 +83,7 @@ function fixture(adopted = true) {
     const top = r.game.getBoundingClientRect().top + parseFloat(row.style.top);
     return { top, bottom: top + row.fixtureHeight, height: row.fixtureHeight };
   };
-  Object.assign(a, { _paneLayout: () => ({ width: window.innerWidth, center: window.innerWidth / 2 }),
+  Object.assign(a, { W: 390, H: 844, _paneLayout: () => ({ width: window.innerWidth, center: window.innerWidth / 2 }),
     _readerShelfBottom: () => 12, _handShown: () => true, isMobile: () => true });
   return { a, r, row };
 }
@@ -86,6 +118,33 @@ test("teardown and result display keep the same native row and article reservati
   }
 });
 
+test("native layout leaves Inspect's horizontal animation to its own writer", () => {
+  const f = fixture();
+  for (const transform of ["translateX(-846px)", "translateX(24px)", "none"]) {
+    f.row.style.transform = transform;
+    f.r.layoutNow();
+    f.r.layoutNow();
+    assert.equal(f.row.style.transform, transform);
+    assert.equal(f.row.style.getPropertyPriority("transform"), "");
+  }
+});
+
+test("Book reserves its node and section headers without changing an execution snapshot", () => {
+  const f = fixture();
+  f.r.on = () => true;
+  f.r.layoutNow();
+  assert.deepEqual(f.r.nodeBand, { top: 68, bottom: 204, height: 136 });
+  assert.equal(f.r.gameSections[0].card.style.top, "136px");
+  assert.equal(f.r.gameSections[1].card.style.top, "196px");
+  assert.equal(f.row.style.top, "240px");
+  choose(f);
+  const snapshot = f.a._execution.card._ngDock.reader;
+  f.r.gameTop = 6;
+  f.r.layoutNow();
+  assert.equal(parseFloat(f.row.style.top), snapshot.rowTop);
+  assert.equal(parseFloat(f.r.game.style.height), snapshot.height);
+});
+
 for (const release of ["resize", "reading", "arrival"]) {
   test(`${release} releases the native reservation through the existing execution owner`, () => {
     const f = fixture(); choose(f);
@@ -105,6 +164,7 @@ test("adoption during an existing fixed execution translates its measured rectan
   f.a._execution = { card };
   f.r.layoutNow();
   assert.equal(f.row.parentElement, f.r.game);
+  assert.equal(f.row.id, "reader-hand-body", "adoption publishes the named eye's actual target");
   assert.deepEqual(card._ngDock.reader, { rowTop: 502, height: 698.25 });
   assert.equal(f.row.getBoundingClientRect().top, 520);
   const snapshot = card._ngDock.reader;

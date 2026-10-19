@@ -223,7 +223,12 @@ test('@curated pauseLandFilm pauses every owner player without destroying or col
   } })
   await expect(page.locator('[data-reader-media-slot] .ng-clip').first()).toBeVisible()
   const proof = await page.evaluate(() => {
-    const a = (window as any).__neural, host = a._landFilmEl, cards = [...host.querySelectorAll('.ng-clip')].slice(0, 2) as any[]
+    const a = (window as any).__neural
+    // PR 305 curated Knee Slice to one clip. This owner-wide pause claim needs
+    // two players regardless of today's content; build both through its real owner.
+    a._clearLandFilm()
+    a._renderLandFilm([{ id: 'yj_6xcl2emA', title: 'First pause fixture' }, { id: 'RvIIpXaPyJM', title: 'Second pause fixture' }])
+    const host = a._landFilmEl, cards = [...host.querySelectorAll('.ng-clip')] as any[]
     let pauses = 0, destroys = 0, collapses = 0
     const collapse = a.collapseClip
     a.collapseClip = () => { collapses++ }
@@ -256,7 +261,7 @@ test('@curated same-seat hydration retains the host; a role change retires it', 
     a._renderLandFilm(a._landFilmClips(a.nodes[a._landIdx])); a._reader.sync()
   })
   expect(await page.evaluate(() => (window as any).__mediaHost === (window as any).__neural._landFilmEl)).toBe(true)
-  await j.clickByMouse('[aria-label="Reading perspectives"] a[href$="/Defender"]')
+  await j.readingOtherHalf() // D-318 U6a: the native paired half replaces the retired switch.
   await expect(page.locator(READY)).toHaveAttribute('data-reader-path', '/Transitions/Knee-Slice-Pass/Defender')
   expect(await page.evaluate(() => (window as any).__mediaHost.isConnected)).toBe(false)
   await expect(page.locator('[data-land-film]')).toHaveCount(1)
@@ -296,10 +301,12 @@ for (const width of [1366, 390]) {
     const geometry = () => page.evaluate(() => {
       const w = window as any, a = w.__neural, home = document.querySelector('[data-land-media-slot]')!, card = a._landEl
       const m = home.getBoundingClientRect(), c = card.getBoundingClientRect(), h = a.optionsRef.current.getBoundingClientRect()
+      const moves = a._reader.gameSections.find((s: any) => s.part === 'hand').card.getBoundingClientRect()
       return { same: a._landFilmEl === w.__placementHost, hosts: document.querySelectorAll('[data-land-film]').length,
         together: home.parentElement === card.parentElement && home.parentElement === a.optionsRef.current.parentElement,
         layout: home.parentElement!.getAttribute('data-media-layout'), media: { x: m.x, y: m.y, w: m.width, h: m.height, bottom: m.bottom },
         card: { x: c.x, y: c.y, w: c.width, bottom: c.bottom }, handTop: h.top,
+        moves: { top: moves.top, bottom: moves.bottom, height: moves.height },
         gap: card.classList.contains('ng-land-deck') ? 16 : a.isMobile() ? 8 : 12, position: getComputedStyle(a._landFilmEl).position }
     })
     const g = await geometry()
@@ -309,7 +316,11 @@ for (const width of [1366, 390]) {
     if (width > 640) { expect(g.card.x - g.media.x - g.media.w).toBeCloseTo(60, 0); expect(g.card.w).toBe(390) }
     else { expect(g.card.y - g.media.bottom).toBeCloseTo(12, 0); expect(g.card.w).toBe(286) }
     expect(g.handTop).toBeGreaterThan(Math.max(g.card.bottom, g.media.bottom))
-    expect(g.handTop - g.card.bottom, 'media height never adds another gap below the practice card').toBeCloseTo(g.gap, 1)
+    // D-318 adds a named 44px Moves header after the original deck gap. Measure
+    // both boundaries; adding media height or another gap must still fail here.
+    expect(g.moves.top - g.card.bottom, 'media height never adds another gap below the practice card').toBeCloseTo(g.gap, 1)
+    expect(g.moves.height).toBe(44)
+    expect(g.handTop - g.moves.bottom).toBeCloseTo(0, 1)
     await page.evaluate(() => { const a = (window as any).__neural; delete a.currentFilmHeight; a._reader.layoutNow() })
     expect(await geometry(), 'until videos lands, the host rect supplies identical geometry').toEqual(g)
     await page.evaluate(async () => { await new Promise(requestAnimationFrame); await new Promise(requestAnimationFrame) })

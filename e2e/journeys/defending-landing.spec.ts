@@ -215,8 +215,7 @@ test('@curated each Knee Slice Pass half mounts its own clips, including the rea
   await j.boot('/Transitions/Knee-Slice-Pass/Attacker', { beforeNavigate: realContent })
   await expect(page.locator(READY)).toBeVisible()
   await expect.poll(async () => (await state(page)).clips).toEqual(['yj_6xcl2emA'])
-  await j.clickByMouse('[data-reader]', 'expand the article to reach its perspective links')
-  await j.clickByMouse('[aria-label="Reading perspectives"] a[href$="/Defender"]', 'open the defending article perspective')
+  await j.readingOtherHalf() // D-318 U6a: the native paired half replaces the retired switch.
   await expect(page.locator(READY)).toHaveAttribute('data-reader-path', '/Transitions/Knee-Slice-Pass/Defender')
   await expect.poll(async () => (await state(page)).clips).toEqual(['RvIIpXaPyJM'])
   expect((await state(page)).key).toBe('Knee Slice Pass|Defender')

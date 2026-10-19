@@ -138,19 +138,19 @@
 /* One native flow: existing game controls, then semantic article cards. */
 .ng-reader { position:absolute;z-index:5;box-sizing:border-box;overflow:auto;overflow-x:hidden;overscroll-behavior:contain;overflow-anchor:none;touch-action:pan-y;scrollbar-width:thin;--reader-unit:20px;--section-gap:6px; }
 .ng-reader[hidden],.ng-reader [hidden] { display:none!important; }
-.ng-reader-game { position:relative;pointer-events:none; }
+.ng-reader-game { position:relative;pointer-events:none;overflow-x:clip; }
 .ng-reader-game>:is([data-reader-game-part=card],[data-reader-game-part=hand]) { pointer-events:auto; }
 .ng-reader-game>[data-reader-game-part=card] { touch-action:pan-y; }
 .ng-reader-article { pointer-events:auto;color:#d6def0;font:16px/1.65 "Plus Jakarta Sans",sans-serif;padding-bottom:30px; }
 .ng-reader-head { box-sizing:border-box;position:relative;pointer-events:auto;display:flex;flex-wrap:wrap;justify-content:flex-end;gap:6px;margin:0 0 6px;z-index:7;background:#1b2034;border:1px solid #414c68;border-radius:10px;padding:4px 8px; }
 .ng-reader>.ng-reader-head { position:absolute; }
-.ng-reader-article>.ng-reader-tools { margin-bottom:6px; }
 .ng-reader-head h1 { position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%); }
-.ng-reader-tools,.ng-reader-roles { display:flex;align-items:center;flex-wrap:wrap;gap:4px; }
-.ng-reader-roles a { min-height:44px;display:inline-flex;align-items:center;padding:0 8px;color:#adc9ff;font:13px "Plus Jakarta Sans",sans-serif; }
-.ng-reader-roles [aria-current] { color:#f0f3fa;font-weight:700;background:#2c3853;border-radius:6px; }
-.ng-reader-article button,.ng-reader-head button { pointer-events:auto;min-height:44px;font:inherit;color:#d6def0;background:#29334d;border:1px solid #596782;border-radius:8px;cursor:pointer;padding:8px 10px; }
+.ng-reader-tools { display:flex;align-items:center;flex-wrap:wrap;gap:4px; }
+.ng-reader-article button,.ng-reader-tools button { pointer-events:auto;min-height:44px;font:inherit;color:#d6def0;background:#29334d;border:1px solid #596782;border-radius:8px;cursor:pointer;padding:8px 10px; }
 .ng-reader-tools button { font:12px "Plus Jakarta Sans",sans-serif; }
+.ng-reader-game>.ng-reader-tools { pointer-events:auto; }
+.ng-reader-game-heading { box-sizing:border-box;margin:0;font:600 17px/1.4 "Space Grotesk",sans-serif;color:#f0f3fa;background:#1b2034;box-shadow:inset 0 0 0 1px #414c68;border-radius:10px; }
+.ng-reader-game-heading button { display:flex;align-items:center;justify-content:space-between;width:100%;height:44px;padding:0 14px;border:0;background:none;color:inherit;font:inherit;cursor:pointer; }
 .ng-reader [data-reader-body] { min-width:0;display:grid;gap:var(--section-gap); }
 .ng-section-card { background:#1b2034;border:1px solid #414c68;border-radius:14px;min-width:0;overflow:clip; }
 .ng-section-card>h2 { margin:0;color:#f0f3fa;font:600 21px/1.4 "Space Grotesk",sans-serif; }
@@ -175,7 +175,7 @@
 .ng-section-body img { max-width:100%; }
 .ng-section-body :is(.section-subtitle,.entity-relations) { opacity:1;color:#b6c5df; }
 .ng-section-body blockquote { margin:0 0 var(--reader-unit);padding:12px;border-left:2px solid #ffb45a;background:#ffb45a08;color:#d6def0; }
-.ng-section-card[data-collapsed=true]>h2,.ng-reader-toc-row[data-collapsed=true] { color:#a8b0c2; }
+.ng-reader-game-heading[data-collapsed=true],.ng-section-card[data-collapsed=true]>h2,.ng-reader-toc-row[data-collapsed=true] { color:#a8b0c2; }
 .ng-section-card[data-section-type=videos]:not([data-collapsed=true])>h2 { height:0;position:relative;z-index:6; }
 .ng-reader-article [data-section-type=videos]:not([data-collapsed=true]) [data-section-toggle] { position:absolute;right:0;top:0;width:44px;min-height:44px;padding:13px;background:#1b2034ed;border-radius:0 0 0 8px; }
 .ng-section-card[data-section-type=videos]:not([data-collapsed=true]) [data-section-toggle]>span:first-child { position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%); }
@@ -188,6 +188,7 @@
 .ng-reader-toc { position:fixed;z-index:6;width:200px;box-sizing:border-box;overflow-y:auto;overscroll-behavior:contain;touch-action:pan-y;cursor:auto;background:none;border:0;box-shadow:none;padding:0;color:#d6def0;font:13px/1.4 "Plus Jakarta Sans",sans-serif;text-shadow:1px 0 #111726,-1px 0 #111726,0 1px #111726,0 -1px #111726; }
 .ng-reader-toc[hidden] { display:none!important; }
 .ng-reader-toc h2 { margin:0 8px 6px;font:600 17px/1.4 "Space Grotesk",sans-serif;color:#f0f3fa; }
+.ng-reader-toc h2 :is(span,small) { display:block;font:13px/1.5 "Plus Jakarta Sans",sans-serif; }
 .ng-reader-toc-row { display:grid;grid-template-columns:minmax(0,1fr) 44px;align-items:center; }
 .ng-reader-toc-row a { min-height:44px;display:flex;align-items:center;box-sizing:border-box;padding:8px;color:inherit!important;transition:none;overflow-wrap:anywhere;text-decoration:none; }
 .ng-reader-toc button { min-height:44px;border:0;border-radius:0;background:none;box-shadow:none;color:inherit;cursor:pointer;font:inherit;text-shadow:inherit; }
@@ -205,6 +206,7 @@
 .ng-reader-shelf button { display:flex;flex-direction:column;align-items:center;justify-content:center;min-width:44px;min-height:48px;width:55px;margin:0;padding:4px 2px;gap:3px;border:1px solid transparent;border-radius:7px;background:transparent;color:#b6c5df;font:10px/1.2 "Plus Jakarta Sans",sans-serif;cursor:pointer; }
 .ng-reader-shelf button>span:first-child { font-size:18px; }
 .ng-reader-shelf [aria-pressed=false] { background:#2c3e60;color:#eff5ff;border-color:#718ab0; }
+.ng-reader-shelf[hidden] { display:none!important; }
 .ng-reader-no-map>canvas,.ng-reader-no-map .ng-legendkey,.ng-reader-no-map [data-seat-star],.ng-reader-no-map [data-reader-map],.ng-reader-no-feedback :is(.ng-evtoast,.ng-winbar,.ng-challenge-reward,.ng-combo-pop,.ng-momentum,.ng-vignette,.ng-tut,[data-reader-feedback]) { visibility:hidden!important; }
 @media(max-width:640px) { .ng-reader { --reader-unit:14px; } .ng-reader-shelf button { width:48px; } .ng-reader-article [data-section-toggle] { min-height:52px; } }
 @media(prefers-reduced-motion:reduce) { .ng-reader,.ng-reader-article * { scroll-behavior:auto!important;animation:none!important;transition:none!important; } }

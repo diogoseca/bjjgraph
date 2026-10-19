@@ -392,6 +392,12 @@ test.describe("phone", () => {
     await j.land("Mount Top")
     await seedFilm(page)
     await j.advance(600)
+    // D-318 keeps the arrival band and named headers in flow. At 390px this
+    // hand begins at y724 and its close target is clipped by the y754 flow end.
+    // Bring the hand into view before testing the unchanged overlap/mouse claim.
+    await page.locator('[data-reader-game-part="hand"]').scrollIntoViewIfNeeded()
+    await j.readerLayoutSettled()
+    await j.advance(16) // publish the normal updateUiShift frame that docks the external hand X
     const g = await page.evaluate(() => {
       const a = (window as any).__neural
       const x = a._handCloseEl as HTMLElement

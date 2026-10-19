@@ -11328,7 +11328,7 @@ class Component extends DCLogic {
     // instant the user acts; a style is only true once the animation says so.
     // Three holders: pane, tray/replay, option detail. Only a pointer reaching an exposed
     // landing surface may bypass the pane; replay and option detail still make it inert.
-    return !this._landEl || (!exposedPointer && !!this._landPaneHid) || !!this._traySup || !!this._detailCtx;
+    return !this._landEl || this._landEl.hasAttribute("data-reader-pending") || (!exposedPointer && !!this._landPaneHid) || !!this._traySup || !!this._detailCtx;
   }
   _suppressLand(hide) {
     const surfaces = this._landSurfaces(); if (!surfaces.length) return;
@@ -15214,6 +15214,10 @@ class Component extends DCLogic {
     const el = document.createElement("div");
     el.className = "ng-landcard";
     el.setAttribute("data-landcard", mode || "land");
+    // The deferred reader must publish the first rectangle before an answer can
+    // paint or take input. Released by layoutNow, or by the module failure path;
+    // a pending question neither arms its clock nor consumes a keyboard answer.
+    if (this.get("readerBook", true) && !this._readerFailed) el.setAttribute("data-reader-pending", "");
     this.wrapRef.current.appendChild(el);
     this._landEl = el;
     this._landIdx = node.idx; this._landMode = mode || "land"; // what _landBackfill is allowed to refill
@@ -15458,6 +15462,8 @@ class Component extends DCLogic {
     if (!this._readerLoad) this._readerLoad = import(this._appAsset("reader.js") + (this._readerRetry ? "&retry=" + this._readerRetry : ""))
       .then((m) => { if (!this.__ngDestroyed) return m.installReader(this); })
       .catch((error) => {
+        this._readerFailed = true;
+        this._landEl?.removeAttribute("data-reader-pending");
         this._readerLoad = null; this._readerRetry = (this._readerRetry || 0) + 1;
         console.warn("[reader] load failed", error);
         if (this.__ngDestroyed) return;
@@ -16207,7 +16213,7 @@ class Component extends DCLogic {
   }
   _layoutLandCard(el) {
     if (!el) return;
-    if (el.hasAttribute("data-reader-game-part")) { this._reader?.layout(); return; }
+    if (el === this._landEl && this._reader) { this._reader.publishCard(el); return; }
     // Every rect below is read in the HOME frame; `_dockLandMore` re-applies the column after.
     if (this._readMax) this._readClear();
     const row = this.optionsRef.current;
@@ -18273,7 +18279,8 @@ class Component extends DCLogic {
     const p = this.pulse;
     const idx = !ex.result ? ex.idx : p && !p.done ? p.path[p.path.length - 1] : this.currentPos;
     const n = this.nodes[idx];
-    return this.rollCamTarget(this.pairMid(n), false, idx, true);
+    const target = this.rollCamTarget(this.pairMid(n), false, idx, true);
+    return this._reader ? this._reader.frameExecution(target, n) : target;
   }
   sweepElapsed(sw) {
     const timer = sw.timer;
@@ -18922,11 +18929,12 @@ class Component extends DCLogic {
     this.renderChoiceGroups(el, escapes, this.opponentThreats(this.currentPos), pick, dsec, true);
     if (el) el.style.pointerEvents = "auto";
     this._syncHandLayer();               // the escapes obey the hand layer too (v1.171.1, owner)
-    // The passive defender arrival may show its escape neighbourhood. Starting
-    // pressure must not reframe it under the first deliberate escape click.
+    // A calm article arrival centres its current pair (D-318). A late defender
+    // deck must not replace that flight with an escape-neighbourhood lease.
+    // A live catch, or Book off, still owns that neighbourhood frame.
     const nodes = [sub.idx, this.currentPos, ...escapes.map(e => e.res)];
     this._dangerSet = live ? new Set(nodes) : null;
-    this.frameNodes(nodes);
+    if (live || !this.get("readerBook", true)) this.frameNodes(nodes);
     this._optPick = pick; this._optList = escapes;
     if (live) this._startDefensePressure(catchArrival);
     // The drill runs on the shared card's question clock; the ESCAPES are
@@ -19116,7 +19124,7 @@ class Component extends DCLogic {
     // reading bias ("every name hanging off a node runs left-to-right FROM it") which nothing
     // here has any reason to overturn.
     let cx = f.x + 0.06 * vw;
-    if (this.isMobile() && n) {
+    if ((this.isMobile() || this.get("readerBook", true) && !moving && !ahead && !this._execution) && n) {
       const labelW = this._labelWidthPx(n);
       if (labelW > 0) {
         // centre the orb+label block…
@@ -19141,6 +19149,12 @@ class Component extends DCLogic {
     return { ...target, cx: target.cx - (fraction - (target._paneFraction || 0)) * target.vw,
       _paneFraction: fraction };
   }
+  // Reading reserves its node before the deferred reader or a deck has arrived.
+  // Layout and the camera share this datum; article scroll never changes it.
+  _readerBand(top = Math.max(68, (this.wrapRef?.current?.querySelector(".ng-logo")?.getBoundingClientRect().bottom || 0) + 12)) {
+    const height = this.H > 500 ? this.W <= 640 ? 136 : 144 : 64;
+    return { top, bottom: top + height, height };
+  }
   // ══ THE VISIBLE GRAPH RECT — THE ONE SEAM EVERY COMPOSITION ASKS (v1.219.0) ═══════════════════
   // Owner (2026-10-05): "it should center the Mount node not to the center of the screen but to the
   // visible area of the graph that's available after the videos row, landcard, and choices row show
@@ -19163,6 +19177,11 @@ class Component extends DCLogic {
   // its own content) or `true` (some landing: the film row is assumed whenever its layer is on).
   _viewRect(opts) {
     const W = this.W || 1200, H = this.H || 800;
+    const pane = this._paneLayout();
+    const horizontal = { left: pane.left, right: W, width: Math.max(1, W - pane.left) };
+    if (this.get("readerBook", true) && !this._refPage && !this._execution && !opts?.ahead) {
+      return { ...horizontal, ...(this._reader?.nodeBand || this._readerBand()), measured: true, predicted: false };
+    }
     let top = 16;
     const ev = this.evRef && this.evRef.current;
     if (ev) {
@@ -19199,8 +19218,7 @@ class Component extends DCLogic {
     let predicted = false;
     if (opts && opts.ahead != null && opts.ahead !== false) { bottom = this._predictBottom(opts.ahead); predicted = true; }
     bottom = Math.max(top + 16, bottom);
-    const pane = this._paneLayout();
-    return { left: pane.left, top, right: W, bottom, width: Math.max(1, W - pane.left), height: bottom - top, measured, predicted };
+    return { ...horizontal, top, bottom, height: bottom - top, measured, predicted };
   }
   /** The bottom of the band a landing will have (see `_viewRect`'s `ahead`). An exact memo for the
    *  rows it will show, else the tightest memo of any combination that includes them (an error

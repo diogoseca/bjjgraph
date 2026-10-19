@@ -192,7 +192,7 @@ test("@curated Back retires an in-flight article instead of repainting the curre
     await held
     await route.continue().catch(() => {})
   })
-  await j.clickByMouse('[aria-label="Reading perspectives"] a[href$="/Defender"]')
+  await j.readingOtherHalf() // D-318 U6a: the native paired half replaces the retired switch.
   await expect.poll(() => requested).toBe(true)
   await page.goBack()
   await expect(page.locator(READER)).toHaveAttribute("data-reader-path", "/Transitions/Knee-Slice-Pass")
@@ -231,7 +231,7 @@ test("@curated a slower article never replaces a later Browse selection in the s
     await held
     await route.continue().catch(() => {})
   })
-  await j.clickByMouse('[aria-label="Reading perspectives"] a[href$="/Defender"]')
+  await j.readingOtherHalf() // D-318 U6a: the native paired half replaces the retired switch.
   await expect.poll(() => requested).toBe(true)
   await j.clickByMouse(".ng-logo", "Browse while the previous article is still loading")
   await j.clickByMouse('[data-view="explore"]', "the Browse tab")

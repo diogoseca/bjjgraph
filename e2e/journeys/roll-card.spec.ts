@@ -199,7 +199,9 @@ test("the landing card does not repeat what the graph already says", async ({ pa
 })
 
 /** The complete article owns native scrolling independently of the scored card.
- * The fixture still authors films; prose comes from the real published page. */
+ * The fixture still authors films; prose comes from the real published page.
+ * D-318 retires the reading shelf: Questions now hides through its section eye.
+ * The article lifetime and real mouse assertions remain unchanged. */
 test("the complete article renders automatically and survives the question lifetime @curated", async ({ page }) => {
   await page.setViewportSize({ width: 390, height: 844 })
   const j = journey(page)
@@ -212,7 +214,8 @@ test("the complete article renders automatically and survives the question lifet
   expect(await page.evaluate(() => !!(window as Any).__neural.paused), "rendering an article does not pause a live roll").toBe(false)
   // Compare the complete DOM text: expanded reading also reveals the Overview heading.
   const article = await page.locator("[data-reader-body]").textContent()
-  await j.clickByMouse('[data-layer-hide="card"]')
+  await page.locator('[data-game-eye="card"]').scrollIntoViewIfNeeded()
+  await j.clickByMouse('[data-game-eye="card"]', 'hide Questions from its section header')
   await expect(page.locator("[data-landcard]")).toHaveCount(0)
   await expect(page.locator("[data-reader-body]")).toHaveText(article!)
   const r = await page.locator("[data-reader]").boundingBox()

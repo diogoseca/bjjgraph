@@ -92,6 +92,61 @@ test('@curated a late full article preserves the answered question and never pay
   expect(before.answers).toBe(1)
 })
 
+// REAL BREAK, orchestrator ruling 2026-10-19. The compositor proof in
+// scratch/article-sections/ci-e26/late-answer-paint-report.md shows painted old
+// answers plus the sections-only 68px adoption shift. Hold the first QUEUED
+// layout, then deliver it between the original measurement and native click.
+// New-question publication must have positioned the controls synchronously;
+// waiting for reader readiness here would hide the defect instead of fixing it.
+test('@curated the first queued reader layout cannot move a published answer before its first click', async ({ page }) => {
+  await page.addInitScript(() => {
+    const w = window as any, prior = Object.getOwnPropertyDescriptor(w, '__neural'); let app: any
+    Object.defineProperty(w, '__neural', { configurable: true, get: () => app, set: a => {
+      app = a; prior?.set?.call(w, a); if (!a) return
+      let reader: any
+      Object.defineProperty(a, '_reader', { configurable: true, get: () => reader, set: r => {
+        reader = r; if (!r) return
+        const queued = r.layout
+        r.layout = () => {}
+        w.__publishReader = () => {
+          const answer = document.querySelector('[data-land-mc-opt]')!, before = answer.getBoundingClientRect()
+          r.layout = queued; r.layoutNow()
+          const after = answer.getBoundingClientRect()
+          w.__answerPublication = { dx: after.x - before.x, dy: after.y - before.y, same: answer.isConnected }
+        }
+      } })
+    } })
+  })
+  const j = journey(page)
+  let release!: () => void, requested = false
+  const held = new Promise<void>(resolve => { release = resolve })
+  await j.boot(KNEE, { beforeNavigate: async () => {
+    await page.route('**/Transitions/Knee-Slice-Pass/Attacker', async route => { requested = true; await held; await route.continue() })
+  } })
+  await expect.poll(() => requested).toBe(true)
+  const q = await j.landQuestion(); expect(q).not.toBeNull()
+  const click = page.mouse.click.bind(page.mouse)
+  page.mouse.click = async (...args: Parameters<typeof click>) => {
+    page.mouse.click = click
+    await page.evaluate(() => (window as any).__publishReader())
+    return click(...args)
+  }
+  await j.clickByMouse(`[data-land-mc-opt="${q!.correct}"]`)
+  expect(await page.evaluate(() => (window as any).__answerPublication)).toEqual({ dx: 0, dy: 0, same: true })
+  const before = await page.evaluate(() => {
+    const w = window as any, a = w.__neural
+    w.__answeredReaderQuestion = document.querySelector('[data-land-q]')
+    return { html: w.__answeredReaderQuestion.outerHTML, qMod: a._qMod, answers: a.beats.filter((b: any) => b.beat === 'land_q_answered').length }
+  })
+  release()
+  await expect(page.locator(READY)).toBeVisible()
+  expect(await page.evaluate(() => {
+    const w = window as any, a = w.__neural, q = document.querySelector('[data-land-q]')!
+    return { html: q.outerHTML, qMod: a._qMod, answers: a.beats.filter((b: any) => b.beat === 'land_q_answered').length, same: q === w.__answeredReaderQuestion }
+  })).toEqual({ ...before, same: true })
+  expect(before.answers).toBe(1)
+})
+
 // A real app race, not stale assertion timing: the integrated failure was
 // reproduced by first adoption during pointerdown. The correct option received
 // down, another option (or blank space) received up, and no answer was recorded.
@@ -138,7 +193,7 @@ test('@curated successful article responses are reused across seat navigation an
   await j.boot(KNEE + '/Attacker', { initialState: FOCUS })
   await expect(page.locator(READY)).toBeVisible()
   for (const seat of ['Defender', 'Attacker', 'Defender']) {
-    await j.clickByMouse(`[aria-label="Reading perspectives"] a[href$="/${seat}"]`)
+    await j.readingOtherHalf() // D-318 U6a: the native paired half replaces the retired switch.
     await expect(page.locator(READY)).toHaveAttribute('data-reader-path', KNEE + '/' + seat)
   }
   await j.clickByMouse('[data-layer-hide="book"]')

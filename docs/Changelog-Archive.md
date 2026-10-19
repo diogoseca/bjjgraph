@@ -11155,8 +11155,10 @@ Missing groups are omitted; a defender receives shared hub safety, never attacke
 prose. The app groups the existing article DOM, retaining source text and anchor identity;
 templates, generated pages and the corpus census do not change. The external gap is 6px.
 
-The perspectives switch stays. The owner's later revision replaces both the desktop rail
-and tablet Contents panel with a fixed, containerless list at the right control inset.
+The owner's D-318 review removes the perspectives switch: the current node's other half
+changes role through the same canonical reading/history owner. The floating index names
+the technique, role and origin. It replaces both the desktop rail and tablet Contents
+panel with a fixed, containerless list at the right control inset.
 It never contributes to article width or centering. At a 24px inset, a 200px list plus 12px
 clearance first fits beside the centered 680px article at 1152px. Below that measured fit,
 and on phones or short landscape screens, section headers retain the same controls.
@@ -11165,18 +11167,20 @@ Collapsed labels remain opaque and grey. A small text shadow supports contrast o
 canvas without adding a panel. Scalar `readerSection.*` preferences use the existing
 per-key account sync and Settings editor; missing keys mean shown.
 
-The first 1152px screenshot exposed the current node's label crossing the new TOC.
-The reader now extends `_paneCameraTarget` with the article and TOC occupied rectangles.
-It uses `pairMid`, `_LY`, the shared `_nodeHalfW` silhouette and measured label width to
-frame the current pair in a fitting free gutter. Its correction has a separate idempotence
-stamp and moves through the existing camera integrator, preserving the pane fraction's
-inset. A current node already clear of occupied rectangles never displaces a deliberate
-selection or execution subject. Measurements at 1152, 1200,
-1280, 1366 and 1440px show zero label/orb intersections before and after entering reading;
-the article remains independently centered. Dropping the TOC from the occupied set fails
-the 1152px journey. All seven TOC mutation controls fail their intended assertions,
-including canvas input leakage and the first-mouse SVG replacement race. A canvas positive
-control proves that the input spy is live. `attachInput` names the overlay explicitly.
+The first 1152px screenshot exposed the current node's label crossing the TOC. An initial
+occupied-gutter camera correction fixed that collision, but D-318 U4a supersedes it:
+arrival centres the complete pair and label in the space above the first section, using
+`pairMid`, `_LY` and the measured label width. Native scrolling covers the stationary
+node with the sections. The reader no longer wraps `_paneCameraTarget`. Eight-width
+journeys assert the centred pair and native occlusion; restoring the retired gutter
+correction fails the new claim. The article remains independently centred. Input tests
+retain the canvas positive control and the first-mouse SVG replacement race;
+`attachInput` names the overlay explicitly.
+
+With Book shown, the bottom shelf is absent. Questions and Moves have named 44px headers
+and separate eyes in the index, using the existing game visibility settings. The Moves
+header follows the unchanged 16px deck gap; the hand follows its header immediately.
+The article follows the hand with the same 6px gap. Book off retains the restore shelf.
 
 There is one `_landFilmEl`. `place(target)` moves it between the article and a normal home
 inside the same native scrollport as practice and choices. Native `moveBefore` preserves
@@ -11194,13 +11198,15 @@ The integrated first-answer race reproduced with both append and moveBefore: the
 survived, but its geometry moved between pointerdown and pointerup. The regression forces
 that order at phone and desktop widths, preserving question identity and one paid answer.
 
-Without chrome's optional `readerChromeFrame` hook, the whole head lives in the article
-flow above section one. No head height is reserved in the map band. With the hook,
+Without chrome's optional `readerChromeFrame` hook, Focus/Browse precedes Questions in
+the game flow; reference titles stay above their article. No head height is reserved
+in the map band. With the hook,
 `headBottom` replaces only the old flow top; `offset` is added after the node band and
 game gaps, before the authoritative fit clamp. `bottomReserve`, when supplied, gives
 `end = viewportHeight - bottomReserve`; otherwise the shelf's top minus 8px remains the
-bound. Null and undefined preserve fallback geometry. Phone Focus/Browse stay in flow;
-desktop tools stay with the perspectives switch in chrome. Reference titles stay in flow.
+bound when the shelf is visible. With Book shown, the hidden shelf contributes no height;
+the flow still clears the measured bottom controls and the 8px gap. Null and undefined
+preserve fallback geometry. Phone Focus/Browse stay in flow; desktop tools move to chrome.
 The header explicitly resets Quartz's global `header { margin: 2rem 0 }`; without
 that reset, its top margin collapsed through the article and replaced the 6px hand gap
 with 32px only on the no-hook path. Both paths now preserve the same exact flow gaps.
@@ -11226,7 +11232,7 @@ the arrow scrolls normally. Film-only journeys use ordinary new-user progress in
 the harness's artificial White-track completion, preserving all existing arrow assertions.
 That fixture correction does not resolve the real transient collision.
 
-The integrated local full core ran 956 cases: 934 passed, five skipped, 17 unexpected
+The initial integrated local full core ran 956 cases: 934 passed, five skipped, 17 unexpected
 failures. All 17 passed in the rebuilt 130-case focused run; two new camera-sampler
 failures were stale premises separating gameplay rows from the persistent shelf and
 were repaired without changing bounds. The next run passed all 13 focused cases,
@@ -11267,7 +11273,42 @@ geometry/time bound retained. The late-response TOC check asserts the exact none
 set of current labels and targets. Neural.md again explicitly promises one page per
 trackpad gesture and spent-time preservation when restoring a cached face.
 
-Against independently rebuilt dev 45cf1f9e1 on the same emitted corpus: eager gzip
+Subsequent CI and slower-runner investigation exposed two application defects. New
+questions could paint before the reader adopted their final geometry, so a measured
+answer could move before a click. Publication now withholds visibility and keyboard/clock
+eligibility until synchronous layout finishes. The original measure-then-click order
+remains; forced first adoption fails on the old app and passes without movement on the
+fix. The during-press regressions remain. Inspect's closing transform also belonged to
+its completion callback; the reader no longer clears it or lets horizontal overflow
+create an unintended native scroll. Both the full mouse/keyboard execution path and a
+held-close control retain the exact one-commit assertion.
+
+The cold and loaded reading layouts now share the same reserved node band, so a late
+real deck cannot change the opening flight's aim. The forced late-deck case reproduced
+roughly 10.94 world units of drift on dev and 10.95 on the earlier sections app; the
+fixed target remains unchanged. The original less-than-three bound remains. Late
+question backfill also keeps its eye's named target: ID assignment happens when the
+actual replacement surface is adopted, rather than only during a prior section sync.
+
+The D-318 delta has 55 assertion-level mutation kills. D-322 adds one execution control,
+for 56 of 59; three View-dependent controls remain pending. Receipts preserve initial non-kills and corrected target/order
+controls, rather than treating a timeout as a kill. The broad unit gate is accounted
+for: 116 suite files pass in the sandbox, and its 23 subprocess-restricted failures
+pass unchanged outside it (122 tests). These checks do not replace the final CI gate.
+
+D-322 fixes execution framing without moving the clicked card. Native scrolling can
+put that card at y68 while the announcer ends at70.59, making the old vertical-only
+bound impossible. The reader frames the full pair/name in measured free 2-D space;
+the above-card bound remains wherever that band exists. The existing camera integrator,
+zoom and pane stamp remain authoritative. Eight cases pass at 4x CPU, including both
+motion modes, phone, pane opening and native wheel. All clicked-to-stand-in rectangle
+deltas are zero. Actual canvas text and shared drawn silhouettes clear every occupied
+rectangle; old e26 and the drop-correction control fail that painted-overlap assertion.
+The reward is measured through its owner because it portals outside the fixed wrap.
+The centred reading/occlusion case and both unchanged opening-flight bounds still pass.
+
+At the earlier review checkpoint, against independently rebuilt dev 45cf1f9e1 on the
+same emitted corpus: eager gzip
 346,317 → 347,558 B (+1,241); first-hand core gzip 365,711 → 366,831 B (+1,120);
 deferred raw 480,054 → 501,938 B (+21,884); largest chunk remains 39,000 B. Both
 browser first-hand observations count 11 requests. Equivalent CSS grouping saves

@@ -22,17 +22,63 @@ const replace = (text, from, to) => {
   return text.replace(from, to)
 }
 const sections = 'article-sections.spec.ts', seam = 'reading-media-placement.spec.ts', contract = 'reading-contract.spec.ts'
+// D-318 U4a control: restore the actual retired e26 gutter correction.
+const retiredGutter = `  frameCamera(target) {
+    // Undo only this reader's previous correction. Keep it out of _paneFraction:
+    // pane insets are applied after easing, but an occupied-area move must fly.
+    target = { ...target, cx: target.cx + (target._tocFraction || 0) * target.vw, _tocFraction: 0 };
+    const a = this.app, n = a.nodes?.[a.focusIdx], toc = this.contents;
+    if (!n || !a._LY || !toc || toc.hidden || !this.on("map")) return target;
+    const W = a.W, H = a.H, scale = W / target.vw, mid = a.pairMid(n);
+    const pair = [n, n.pi >= 0 ? a.nodes[n.pi] : null].filter(Boolean);
+    const k = Math.max(.4, Math.min(1, target.vw / (a.graphW * .5)));
+    const half = Math.max(...pair.map(q => a._nodeHalfW(q, scale, k, a._lodK ?? 1)));
+    const x = W / 2 + (mid.x - target.cx) * scale;
+    const ys = pair.map(q => H / 2 + (a._LY(q) - target.cy) * scale);
+    const top = Math.min(...ys) - half - 32, bottom = Math.max(...ys) + half + 32;
+    const left = x - half, right = x + half + 11 + a._labelWidthPx(n);
+    // Only camera space is excluded: the article's own centre never depends on
+    // the TOC. Once the article covers the node band, use a fitting side gutter.
+    const occupied = [toc, this.articleEl].map(el => el.getBoundingClientRect())
+      .filter(r => r.width && r.top < bottom && r.bottom > top).sort((a, b) => a.left - b.left);
+    // A deliberate view can leave the current node off-screen. Exclude actual
+    // intersections; bringing that node back would steal the selected subject.
+    if (!occupied.some(r => r.left < right && r.right > left)) return target;
+    let edge = a._paneLayout().left + 12;
+    const gaps = [];
+    for (const r of occupied) { gaps.push([edge, r.left - 12]); edge = Math.max(edge, r.right + 12); }
+    gaps.push([edge, W - 12]);
+    const shifts = gaps.filter(([l, r]) => r - l >= right - left)
+      .map(([l, r]) => Math.max(l - left, Math.min(0, r - right)));
+    // An exceptionally long name may not fit either article gutter. It can sit
+    // behind the article, but never under the controls. Preserve its full name.
+    const shift = shifts.length ? shifts.sort((a, b) => Math.abs(a) - Math.abs(b))[0]
+      : Math.min(0, toc.getBoundingClientRect().left - 12 - right);
+    return { ...target, cx: target.cx - shift / scale, _tocFraction: shift / W };
+  }
+`;
 const mutants = [
   ['content-loss', sections, 'semantic sections.*Mount/Bottom', s => replace(s, 'fragment.append(part.node);', 'part.node.querySelector?.("p")?.remove(); fragment.append(part.node);')],
   ['wrong-order', sections, 'semantic sections.*Knee-Slice-Pass/Attacker', s => replace(s, 'return rank(a) - rank(b);', 'return rank(b) - rank(a);')],
   ['settings-ignored', sections, 'section settings carry', s => replace(s, 'return app.get("readerSection." + type, true) !== false;', 'return true;')],
-  ['collapsed-body-still-visible', sections, 'contents and header targets at 390x844', s => replace(s, 's.body.hidden = !shown;', 's.body.hidden = false;')],
-  ['aria-control-broken', sections, 'contents and header targets at 390x844', s => replace(s, '"aria-controls": id + "-body"', '"aria-controls": id + "-missing"')],
+  ['collapsed-body-still-visible', sections, 'contents and header targets at 390x844', s => replace(s, 'body.hidden = !shown;', 'body.hidden = false;')],
+  ['aria-control-broken', sections, 'contents and header targets at 390x844', s => replace(s, '"data-section-toggle": group.type, "aria-controls": id + "-body"', '"data-section-toggle": group.type, "aria-controls": id + "-missing"')],
+  ['game-eye-control-broken', sections, 'D-318 1440px', s => replace(s, '"data-game-eye": part, "aria-controls": id + "-body"', '"data-game-eye": part, "aria-controls": id + "-missing"')],
+  ['late-game-control-target', sections, 'late question backfill', s => replace(replace(s,
+    'if (!s.part) { body.hidden = !shown; body.inert = !shown; }',
+    'if (s.part) { if (body) body.id = s.id + "-body"; } else { body.hidden = !shown; body.inert = !shown; }'),
+    'if (key === "card" || key === "hand") el.id = "reader-" + key + "-body";', '/* mutant: only the old sync binds the body */')],
   ['phone-contents', sections, 'contents and header targets at 390x844', s => replace(s, '|| !fits;', '|| false;')],
   ['label-toggles', sections, 'contents and header targets at 1366x768', s => replace(s, 'if (section) this.scrollTo(section.toggle);', 'if (section) { this.toggleSection(section.type); this.scrollTo(section.toggle); }')],
   ['eye-scrolls', sections, 'contents and header targets at 1366x768', s => replace(s, 'this.app.set("readerSection." + type, shown);', 'this.app.set("readerSection." + type, shown); this.scrollTo(this.sections.find(s => s.type === type).toggle);')],
   ['toc-input-guard-lost', sections, 'floating contents owns.*dark', s => replace(s, 'contents.style.pointerEvents = "auto";', 'contents.style.pointerEvents = "auto"; this.app._readerTocEl = null;')],
-  ['toc-camera-occupied-lost', sections, 'current node clears the occupied TOC', s => replace(s, 'const occupied = [toc, this.articleEl]', 'const occupied = [this.articleEl]')],
+  ['toc-camera-gutter-restored', sections, 'current node stays centred', s => replace(replace(s, '  destroy() {', retiredGutter + '  destroy() {'), '  app._readerFailed = false;', '  app._readerFailed = false; const paneCamera = app._paneCameraTarget; app._paneCameraTarget = function (target) { return reader.frameCamera(paneCamera.call(this, target)); };')],
+  ['reader-overwrites-inspect', 'roll-execution.spec.ts', 'with reader layout during close', s => replace(s, 'if (el !== row) style(el, "transform", "none", "important");', 'style(el, "transform", "none", "important");')],
+  ['execution-occupied-space-lost', 'roll-execution.spec.ts', 'execution camera frames.*1440px; pane false; reduced motion false after native wheel', s => replace(s, '  frameExecution(target, node) {', '  frameExecution(target, node) { return target;')],
+  ['reading-shelf-retained', sections, 'D-318 1440px', s => replace(s, 'this.dock.hidden = this.on("book");', 'this.dock.hidden = false;')],
+  ['native-role-starts-game', sections, 'D-318 1440px', s => replace(s, 'if (reader.intent && node?.pi === this.focusIdx)', 'if (false)')],
+  ['question-eye-does-nothing', sections, 'D-318 1440px', s => replace(s, '() => this.toggle(part), { "data-game-eye": part', '() => {}, { "data-game-eye": part')],
+  ['index-role-lost', sections, 'D-318 1440px', s => replace(s, 'indexTitle.append(element("span", {}, role),', 'indexTitle.append(element("span", {}, ""),')],
   ['toc-first-click-repaint', sections, 'floating contents owns.*dark', s => replace(s, 'if (!b || b.getAttribute("aria-expanded") === String(shown)) continue;', 'if (!b) continue;')],
   ['toc-shifts-column', sections, 'contents and header targets at 1440x900', s => replace(s, 'free.center - parseFloat(this.articleEl.style.width) / 2', 'free.center - parseFloat(this.articleEl.style.width) / 2 - 100')],
   ['toc-overlaps-tablet', sections, 'contents and header targets at 1024x768', s => replace(s, '>= tocWidth + 12', '>= 0')],
@@ -40,6 +86,7 @@ const mutants = [
   ['toc-container', sections, 'floating contents owns.*light', s => s, css => css + '\n.ng-reader-toc{background:#1b2034;border:1px solid #414c68;box-shadow:0 0 4px #000}\n'],
   ['missing-gap', sections, '1366px choices precede', s => s, css => replace(css, '--section-gap:6px', '--section-gap:0px')],
   ['collapsed-contrast', sections, 'contents and header targets at 390x844', s => s, css => replace(css, 'color:#a8b0c2', 'color:#555b68')],
+  ['game-collapsed-contrast', sections, 'D-318 1440px', s => s, css => css + '\n.ng-reader-game-heading[data-collapsed=true]{color:#555b68}\n'],
   ['defender-hub-leak', contract, 'defender reading excludes.*Rear-Naked-Choke', s => replace(s, 'shared.replaceChildren(...safety);', '/* mutant: keep the full attacker-rich hub */')],
   ['stale-response', contract, 'a late response cannot repaint', s => replace(replace(s, 'this.abort?.abort();', '/* mutant: no abort */'), 'if (serial !== this.serial || this.app.__ngDestroyed) return;', 'if (this.app.__ngDestroyed) return;')],
   ['toc-current-targets', contract, 'a late response cannot repaint', s => replace(s, 'row.append(link, toggle);', 'if (section.type === "options") { link.textContent = "Decisions from bottom"; link.dataset.sectionLink = "stale-bottom"; } row.append(link, toggle);')],
@@ -50,20 +97,21 @@ const mutants = [
   ['duplicate-host', seam, '1366px media identity and native', s => replace(s, 'host.toggleAttribute("data-reader-media",', 'target.append(host.cloneNode(true)); host.toggleAttribute("data-reader-media",')],
   ['moved-film-hit-target', seam, '1366px media identity and native', s => s, css => css + '\n[data-reader-media] .ng-clip{pointer-events:none!important}\n'],
   ['collapse-no-pause', seam, '1366px media identity and native', s => replace(s, 'this.app = app;', 'this.app = app; app.pauseLandFilm = () => {};')],
+  ['pause-first-player-only', seam, 'pauseLandFilm pauses every owner player', s => replace(s, 'this.app = app;', 'this.app = app; app.pauseLandFilm = function () { const card = this._landFilmEl?.querySelector(".ng-clip"); if (card?._player) { card._player.pauseVideo(); card._mediaPaused = true; } };')],
   ['fixed-home', seam, '1366px normal media home', s => replace(s, 'this.game.append(this.mediaHome);', 'app.wrapRef.current.append(this.mediaHome);')],
   ['layout-no-coalescing', seam, '1366px normal media home', s => replace(s, 'if (this.layoutFrame || this.app.__ngDestroyed) return;', 'if (this.app.__ngDestroyed) return;')],
   ['layout-style-churn', seam, '1366px normal media home', s => replace(s, 'if (!same || el.style.getPropertyPriority(key) !== priority)', 'if (true)')],
   ['chrome-hook-ignored', sections, 'optional chrome frame', s => replace(s, 'typeof a.readerChromeFrame === "function"', 'false')],
-  ['chrome-node-band-lost', sections, 'optional chrome frame', s => replace(s, 'start += chrome.offset;', 'start = chrome.offset;')],
+  ['chrome-node-band-lost', sections, 'optional chrome frame', s => replace(s, 'if (available) start = band + headHeight + 44 + (chrome?.offset || 0);', 'if (available) start = headHeight + 44 + (chrome?.offset || 0);')],
   ['chrome-bottom-reserve-ignored', sections, 'optional chrome frame', s => replace(s, 'chrome?.bottomReserve != null', 'false')],
-  ['head-over-map', sections, '1366px chrome keeps', s => replace(s, 'const parent = chrome ? this.root : this.articleEl,', 'const parent = this.root,'), css => css + '\n.ng-reader>.ng-reader-head{left:calc(50% - 455px);top:0}\n'],
-  ['phone-tools-in-header', sections, '390px chrome keeps', s => replace(s, 'chrome && W <= 640 ? this.articleEl : head', 'false ? this.articleEl : head')],
+  ['head-over-map', sections, '1366px chrome keeps', s => replace(s, 'const parent = chrome ? this.root : flow,', 'const parent = this.root,'), css => css + '\n.ng-reader>.ng-reader-head{left:calc(50% - 455px);top:0}\n'],
+  ['phone-tools-in-header', sections, '390px chrome keeps', s => replace(s, 'chrome && W <= 640 ? flow : head', 'false ? flow : head')],
   ['execution-label-clearance-lost', 'card-presentation.spec.ts', '1440px.*chosen card rises', s => replace(s, 'card.style.marginTop = shown.getBoundingClientRect().top - box.top - parseFloat(getComputedStyle(row).paddingTop) + "px";', 'card.style.marginTop = "0px";')],
   ['execution-row-anchor-lost', 'card-click-contract.spec.ts', 'with the pane open the stand-in', s => replace(s, 'card._ngDock.reader = { rowTop: box.top - game.top, height: game.height };', '/* mutant: forget the selected row */')],
   ['hand-close-behind-reader', 'land-layers.spec.ts', 'hand X owns its centre', s => s, css => css + '\n[data-hand-close]{z-index:4!important}\n'],
   ['native-game-focus-lost', 'pane-keyboard.spec.ts', 'recall page mounted under the pane', s => replace(s, '{ class: "ng-reader-game", tabindex: "-1" }', '{ class: "ng-reader-game" }')],
   ['reduced-motion-flash-lost', 'outcome-on-cards.spec.ts', 'reduced motion.*1440', s => s, css => replace(css, '.ng-reader,.ng-reader-article *', '.ng-reader,.ng-reader *')],
-  ['entry-centering-lost', 'coldstart-backfill.spec.ts', 'landing card stays centred', s => replace(s, 'style(el, key, value, "important");', 'style(el, key, value, key === "transform" ? "" : "important");')],
+  ['entry-centering-lost', 'coldstart-backfill.spec.ts', 'landing card stays centred', s => replace(s, 'if (el !== row) style(el, "transform", "none", "important");', 'if (el !== row) style(el, "transform", "translateX(-50%)", "important");')],
   ['pane-card-overflow', 'layer-dock-centre.spec.ts', '800px with the pane open', s => replace(s, 'free.width - (deck && !beside ? 104 : 32)', 'W - (deck && !beside ? 104 : 32)')],
   ['media-inset-lost', 'film-row-arrows.spec.ts', '1440px.*no scrollbar', s => s, css => css + '\n[data-reader-game-media]{padding:0!important}\n'],
   ['film-only-node-band-lost', 'camera-continuity.spec.ts', '1440px.*CLEAR_SEC: a film', s => replace(s, 'showCard || showHand || homeMedia ?', 'showCard || showHand ?')],
