@@ -11456,13 +11456,30 @@ suite's spa-nav-single-instance-law:88. review-claude's Delta 2 was HOLD; the or
   manifest 2s reproduces CI's exact diff on this PR and on the D-324 dev capture; the 10 earlier gen
   runs show no red. The spec admits only those beats (that reason, then a backfill); both claim
   controls fail at their messages. The double skip for one landing is named as an app follow-up.
-- B1 (D-332 item 3): every window alive between pointerdown and the stand-in, forced to end inside
-  the handoff, moved the card 0-2px. That covers the lease, calm catch, press, late layout, win
-  chance, backfill, reward yield and tray glide, plus a taller sibling, growth above the hand and the
-  scroll clamp (slack 12,689px). Only an induced smooth reader scroll moved it (5-6px), and the app
-  issues none under reduced motion. The diagnostics stay, now with the reward notice's presence.
+- B1 (D-332 item 3): the stand-in mounted 3-9ms after pointerdown at the card's own y in all 26
+  records, so each forced end fell between that mount and the measurement (D-333 D3-N2): the
+  lease, calm catch, press, late layout, win chance, backfill, reward yield, tray glide and growth
+  above the hand, plus the scroll clamp (slack 12,689px). The taller-sibling arm acted before the
+  pointerdown. All 0-2px. Only an induced smooth reader scroll moved it (5-6px), and the app issues
+  none under reduced motion. The diagnostics stay, now with the reward notice's presence.
 - D2-N1/N2/N3: N4's header now says what was measured, the N3 ledger row matches the spec, and the
   PR body lists the U7 set at current lines. Deferred stays 505,482; eager gzip 348,201.
+
+CI 39298802507 on 19e1cfb23: 18 U7-PENDING plus coldstart-funnel:105; the generated suite 101 of 101.
+review-claude's Delta 3 was HOLD on a test-only fix; the orchestrator ruled D-333.
+- D3-B1, STALE SPEC (D-318, af3aac311): a new landing card waits behind data-reader-pending
+  (visibility:hidden) until the deferred reader publishes it, so coldstart-funnel's opacity-only wait
+  passed on a hidden card that its dump rejected (locally 4 of 6 plain, 6 of 6 at 4x CPU; dev's app
+  is never pending). The wait polls the dump itself now; green plain, at 4x CPU on both arms and
+  under a 2.5s reader.js hold, and control landing-never-published fails at the claim.
+- The class, audited with grep -rl: 34 journeys read [data-landcard], 5 with opacity. Under the
+  reader.js hold only coldstart-backfill went red (101, 196, 271: clicks on the canvas under a
+  hidden card, and a fixed 450ms sleep). It waits for the visible card with its entry animation done
+  now: 14 of 14 committed and under the hold. seat-star, pane-layout and pane-chrome stay green.
+- D3-S1: spa-nav admits a manifest wait only for the shown question's deck, between beacon_moved and
+  mc_shown; a skip on another deck and one after land_q_unseen each fail at their own message. The
+  app follow-up names the sibling gen-w3-15 onboard-fresh-boot-spa-nav-single-instance (task #66).
+- D3-N1: 391's end frame must be at rest as a premise. D3-N3: the new journey is camera-continuity:480.
 
 ## v1.227.5 — Clips follow the authored move and role
 
