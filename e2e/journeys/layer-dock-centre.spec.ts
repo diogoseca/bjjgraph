@@ -4,9 +4,11 @@ import { journey, type Journey } from "../dsl"
 /** The labeled shelf follows the free column beside the pane.
  * STALE CONTRACT (D-318 U1(1), CI 48be3a910): with the article shown (Book on, the default) there
  * is no shelf, so these claims are the MAP view's (Book off), where the article is hidden and the
- * reader centres the dock on the free column (the app's published `_paneLayout().center`, read in
- * the same frame: it eases with the pane, and a side-by-side film and card do not share one centre,
- * so no single DOM box can stand in for it). No control turns
+ * reader centres the dock on the free column. Settled states measure that column from the DOM, an
+ * oracle independent of the app (`col`: (W + the pane's right edge) / 2 on desktop, W / 2 on a
+ * phone, where the drawer overlays). The pane's box does not ease, so its frame-by-frame open/close
+ * measures the dock against the card, the column's only member there, which the same layout pass
+ * writes (D-331 N3). No control turns
  * Book off until U7's View menu; the map view boots as a returning reader left it (the persisted
  * setting). The reading-view twin, the article column moving with the pane, is pane-layout.spec.ts.
  * Films are authored because the DSL omits dossiers. Replay retains its original
@@ -59,7 +61,10 @@ const geo = (page: Page): Promise<Geo> => page.evaluate(() => {
   const pane = document.querySelector(".ng-drill") as HTMLElement
   return {
     W: innerWidth,
-    col: (window as any).__neural._paneLayout().center,
+    col: (() => {
+      const drawer = pane && getComputedStyle(pane).display !== "none" ? pane.getBoundingClientRect() : null
+      return (window as any).__neural.isMobile() || !drawer ? innerWidth / 2 : (innerWidth + Math.max(0, drawer.right)) / 2
+    })(),
     pane: pane && getComputedStyle(pane).display !== "none" ? rect(pane) : null,
     card: box("[data-landcard]"), article: box(".ng-reader-article"), film: box("[data-land-film]"), dock: box("[data-layer-dock]"),
     replay: box("[data-replay-bar]"),
@@ -119,7 +124,7 @@ for (const width of [1440, 1024, 800]) {
     await settle(page, j)
     const f2 = await geo(page)
     same(f2.dock?.c, f2.col, "settled, the dock sits under the card")
-    same(f2.col, open.col, "the toggles preserve the article column")
+    same(f2.dock?.c, put.dock?.c, "the toggles preserve the column: the dock's own centre did not move")
     expect(f2.dock!.l, "…clear of the pane").toBeGreaterThan(f2.pane!.r)
 
     // ── and the card too: NO column member is left (a state with no film authored reaches this
@@ -179,7 +184,7 @@ test("@curated the dock rides the pane's open AND close animation frame by frame
   for (const [label, frames] of [["opening", opening], ["closing", closing]] as const) {
     const mid = frames.filter((g) => g.card!.c > lo && g.card!.c < hi)
     expect(mid.length, `premise: ${label} frames were sampled MID-animation`).toBeGreaterThanOrEqual(3)
-    frames.forEach((g, i) => same(g.dock?.c, g.col, `${label} frame ${i}: the dock travels WITH the article`))
+    frames.forEach((g, i) => same(g.dock?.c, g.card?.c, `${label} frame ${i}: the dock travels WITH the card`))
   }
   // the close is the hard half: display:none zeroes the pane's rect on the first frame, and only
   // the width `_paneLayout` retained keeps the column (and now the dock) gliding home

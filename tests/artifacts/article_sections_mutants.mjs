@@ -76,13 +76,15 @@ const mutants = [
   ['reader-overwrites-inspect', 'roll-execution.spec.ts', 'with reader layout during close', s => replace(s, 'if (el !== row) style(el, "transform", "none", "important");', 'style(el, "transform", "none", "important");')],
   // D-326: restore the 11px band acceptance; the scrolled phone case must fail its painted-overlap claim.
   ['execution-thin-band-accepted', 'roll-execution.spec.ts', 'execution camera frames the technique at 390px; pane false; reduced motion true scrolled to the top', s => replace(s, 'card.top - toast.bottom >= box.bottom - box.top + 24', 'card.top > toast.bottom')],
+  // D-331 S1: every placement search fails, so each frame takes the counted no-fit fallback.
+  ['execution-no-fit-forced', 'roll-execution.spec.ts', 'execution camera frames the technique at 1440px; pane false; reduced motion false$', s => replace(s, '    const search = within => {', '    const search = within => { return null;')],
   // D-329: drop the reader node band; the 390px exchange's pair is covered by the landing rows again.
   ['execution-node-band-removed', 'camera-continuity.spec.ts', '390px camera continuity.*an exchange lands on a new current node', s => replace(s, 'const nodeBand = this.nodeBand && this.on("book") ? this.nodeBand : null;', 'const nodeBand = null;')],
   ['execution-occupied-space-lost', 'roll-execution.spec.ts', 'execution camera frames.*1440px; pane false; reduced motion false after native wheel', s => replace(s, '  frameExecution(target, node) {', '  frameExecution(target, node) { return target;')],
   ['reading-shelf-retained', sections, 'D-318 1440px', s => replace(s, 'this.dock.hidden = this.on("book");', 'this.dock.hidden = false;')],
   ['native-role-starts-game', sections, 'D-318 1440px', s => replace(s, 'if (reader.intent && node?.pi === this.focusIdx)', 'if (false)')],
   ['question-eye-does-nothing', sections, 'D-318 1440px', s => replace(s, '() => this.toggle(part), { "data-game-eye": part', '() => {}, { "data-game-eye": part')],
-  ['index-role-lost', sections, 'D-318 1440px', s => replace(s, 'indexTitle.append(element("span", {}, role),', 'indexTitle.append(element("span", {}, ""),')],
+  ['index-role-lost', sections, 'D-318 1440px', s => replace(s, 'indexTitle.append(element("span", {}, " · " + role),', 'indexTitle.append(element("span", {}, ""),')],
   ['toc-first-click-repaint', sections, 'floating contents owns.*dark', s => replace(s, 'if (!b || b.getAttribute("aria-expanded") === String(shown)) continue;', 'if (!b) continue;')],
   ['toc-shifts-column', sections, 'contents and header targets at 1440x900', s => replace(s, 'free.center - parseFloat(this.articleEl.style.width) / 2', 'free.center - parseFloat(this.articleEl.style.width) / 2 - 100')],
   ['toc-overlaps-tablet', sections, 'contents and header targets at 1024x768', s => replace(s, '>= tocWidth + 12', '>= 0')],

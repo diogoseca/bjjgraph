@@ -70,6 +70,11 @@ import { journey } from "../dsl";
  *        .drillRef, .evRef, .deckShown, .setLayer, ._camFlights
  */
 
+// D-331 N4 (review-claude, PLAUSIBLE): D-329's fallback marks only the article column below the node
+// band occupied, while a landing's hand row spans the full width. Probed where the band cannot hold the
+// pair box (1440x480, a 64px band): the free-space search still found a slot (_execFrame.noFit 0) and
+// the exchange stayed clear of the landing rows on every frame. Not reproduced; 1366x460 could not run
+// because this file's motion bounds are keyed to 1440 and 390. Receipt: claude-verify/n4.log.
 // ── THE BOUNDS ── stated per frame at 60 fps (the pump's step). Px scale with the viewport.
 const MOVE_PX: Record<number, number> = { 1440: 120, 390: 48 };
 const KICK_PX: Record<number, number> = { 1440: 14, 390: 6 };
@@ -298,6 +303,9 @@ for (const viewport of VIEWPORTS) {
       expect(opt, "the hand deals a transition").toBeTruthy();
       await j.pick(opt!);
       const S = await record(page, 60 * 6);
+      // D-331 S1: the exchange's execution always found a slot (D-322/D-329), never the unfitted target.
+      const execFrame = await page.evaluate(() => (window as any).__neural._execFrame || { noFrame: 0, noFit: 0 });
+      expect(execFrame.noFit, "no execution frame fell back to the unfitted target").toBe(0);
       expectContinuous(S, W, "exchange");
       expectClearOfRows(S, W, "exchange");
       const landed = S.findIndex((x, i) => i > 0 && x.fi !== S[0].fi && x.rows != null);

@@ -373,7 +373,9 @@ for (const viewport of [{ width: 1440, height: 900 }, { width: 1152, height: 900
     await j.readerLayoutSettled()
     await expect(page.locator('.ng-reader-shelf')).toBeHidden()
     await expect(page.locator('[aria-label="Reading perspectives"]')).toHaveCount(0)
-    await expect(page.locator('.ng-reader-toc h2')).toHaveText('Loop ChokeEscapingfrom Half Guard')
+    // D-331 N1: name · role on one line (D-318 U6a's "Loop Choke · Escaping"), the qualifier beneath.
+    await expect(page.locator('.ng-reader-toc h2')).toHaveText('Loop Choke · Escapingfrom Half Guard')
+    expect(await page.locator('.ng-reader-toc h2').evaluate(h => { const r = h.querySelector('span')!.getBoundingClientRect(), q = h.querySelector('small')!.getBoundingClientRect(), range = document.createRange(); range.selectNodeContents(h.firstChild!); const n = range.getBoundingClientRect(); return { line: Math.abs(r.top - n.top) < 2, below: q.top >= r.bottom - 1 } }), 'the role shares the name line; the qualifier sits beneath').toEqual({ line: true, below: true })
     expect(await page.locator('.ng-reader-toc-row a').allTextContents()).toEqual(expect.arrayContaining(['Questions', 'Moves', 'Videos', 'Overview']))
     for (const part of ['card', 'hand']) {
       const header = page.locator(`[data-game-eye="${part}"]`)
@@ -419,7 +421,7 @@ for (const viewport of [{ width: 1440, height: 900 }, { width: 1152, height: 900
     await page.mouse.click(other.x, other.y)
     await j.advance(6000)
     await expect(page.locator(READY)).toHaveAttribute('data-reader-path', LOOP.replace('/Defender', '/Attacker'))
-    await expect(page.locator('.ng-reader-toc h2')).toHaveText('Loop ChokeAttackingfrom Half Guard')
+    await expect(page.locator('.ng-reader-toc h2')).toHaveText('Loop Choke · Attackingfrom Half Guard')
     expect(await state(page)).toMatchObject({ played: false, misses: 0 })
     expect(await page.evaluate(() => {
       const a = (window as any).__neural;

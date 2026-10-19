@@ -1,6 +1,9 @@
 import { expect, test, type Page } from "@playwright/test"
 import { journey } from "../dsl"
 
+// D-331 B1 diagnostics: a failing journey here keeps its trace for the CI artifact.
+test.use({ trace: "retain-on-failure" })
+
 // Real mouse/keyboard paths and rendered geometry. Probability/timer/cancellation units are
 // in tests/roll_execution.test.mjs. These journeys do not accept the later turn/model changes.
 const commits = (page: Page) => page.evaluate(() =>
@@ -213,6 +216,10 @@ test("@curated submission entry retains its printed odds and reaches Finish with
 // under an announcer ending at y67. That 11px band counted as existing, rejected
 // every candidate and returned the unfitted target onto the card. A band now
 // exists only if it holds the reserved pair box; the 390px scrolled case pins it.
+// D-331 B1: the 390px reduced-motion scrolled case moved its card 4px, then 7px, on CI only (0 of 18
+// locally at 1x, 4x CDP, a 50% CPU quota; nor with the win chance held pending across the click).
+// Diagnostics only: the handoff record below is attached BEFORE the 2px assertion, and a failing
+// run keeps its trace (file-level: Playwright allows `trace` only there). No bound, step or fixture changed.
 for (const [width, height, pane, scrolled] of [[390, 844, false, false], [390, 844, false, true], [1440, 900, false, false], [1440, 900, true, false], [1440, 900, false, true]] as const) {
 for (const reduced of [false, true]) {
   test(`@curated execution camera frames the technique at ${width}px; pane ${pane}; reduced motion ${reduced}${scrolled ? (width > 640 ? " after native wheel" : " scrolled to the top") : ""}`, async ({ page }) => {
@@ -231,6 +238,13 @@ for (const reduced of [false, true]) {
         }
         return text.call(this, value, x, y, ...args);
       };
+      // D-331 diagnostics: every layout shift with its sources, from the first paint.
+      w.__shifts = [];
+      try {
+        new PerformanceObserver(list => { for (const e of list.getEntries() as any[]) w.__shifts.push({ t: Math.round(e.startTime), v: e.value,
+          sources: (e.sources || []).map((s: any) => ({ node: s.node ? s.node.nodeName + "." + String(s.node.className || "").slice(0, 30) : null, from: s.previousRect?.toJSON?.(), to: s.currentRect?.toJSON?.() })) }) })
+          .observe({ type: "layout-shift", buffered: true });
+      } catch {}
     });
     await page.setViewportSize({ width, height })
     const j = await ready(page), opt = await transition(page)
@@ -262,10 +276,20 @@ for (const reduced of [false, true]) {
     // Capture the rectangle at the delivered pointerdown, after the original
     // pick path's native auto-scroll, never from an earlier fixture position.
     await page.evaluate(name => {
+      const w = window as any, a = w.__neural, rec = (at: string) => {
+        const card = a._optionCards.find((c: any) => c.opt.node.t === name)?.card, stand = document.querySelector('[data-executing-tech]')
+        return { at, t: Math.round(performance.now()), card: card?.isConnected ? card.getBoundingClientRect().toJSON() : null, stand: stand ? stand.getBoundingClientRect().toJSON() : null,
+          scrollTop: a._reader?.root?.scrollTop, layoutFrame: !!a._reader?.layoutFrame, press: !!a._readerPress,
+          win: document.querySelector('[data-choice-value-status]')?.textContent || null, fonts: document.fonts.status }
+      }
+      w.__handoff = []
       document.addEventListener('pointerdown', () => {
-        const a = (window as any).__neural;
-        (window as any).__clickedExecutionRect = a._optionCards.find((c: any) => c.opt.node.t === name).card.getBoundingClientRect().toJSON();
+        w.__clickedExecutionRect = a._optionCards.find((c: any) => c.opt.node.t === name).card.getBoundingClientRect().toJSON();
+        w.__handoff.push(rec('pointerdown'))
       }, { capture: true, once: true });
+      document.addEventListener('click', () => w.__handoff.push(rec('click')), { capture: true, once: true });
+      new MutationObserver((_, obs) => { if (document.querySelector('[data-executing-tech]')) { w.__handoff.push(rec('stand-in mount')); obs.disconnect() } })
+        .observe(document.body, { childList: true, subtree: true });
     }, opt.name);
     if (scrolled) await j.clickByMouse(`[data-tech="${opt.name}"] .ngchoice-title`);
     else await j.pick(opt.name);
@@ -273,6 +297,10 @@ for (const reduced of [false, true]) {
     await j.advance(350)
     const handoff = await page.evaluate(() => ({ before: (window as any).__clickedExecutionRect,
       after: document.querySelector('[data-executing-tech]')!.getBoundingClientRect().toJSON() }));
+    await test.info().attach('execution-handoff-diagnostics', { contentType: 'application/json', body: JSON.stringify(await page.evaluate(() => {
+      const w = window as any, a = w.__neural
+      return { records: w.__handoff, shifts: w.__shifts, fonts: document.fonts.status, scrollTop: a._reader?.root?.scrollTop, execFrame: a._execFrame || null }
+    }), null, 2) });
     for (const key of ['x', 'y', 'width', 'height'] as const) expect(Math.abs(handoff.before[key] - handoff.after[key]), 'clicked-card ' + key).toBeLessThanOrEqual(2);
     if (scrolled && width > 640) expect(handoff.before.y).toBeCloseTo(68, 0);
     if (pane) {
@@ -311,6 +339,9 @@ for (const reduced of [false, true]) {
       return { name: a.graphName(n), labels, orbs, occupied, intersections };
     }, opt.idx);
     await test.info().attach('execution-painted-clearance', { body: JSON.stringify({ point, handoff, ...paint }, null, 2), contentType: 'application/json' });
+    // D-331 S1: frameExecution's no-fit fallback counts; a slot exists in every case here.
+    const execFrame = await page.evaluate(() => (window as any).__neural._execFrame || { noFrame: 0, noFit: 0 });
+    expect(execFrame.noFit, 'no execution frame fell back to the unfitted target').toBe(0);
     expect(paint.labels.some((p: any) => p.text === paint.name), 'the actual frame paints the executing name').toBe(true);
     expect(paint.orbs).toHaveLength(2);
     expect(paint.intersections, 'the full painted pair and label clear every occupied rectangle').toEqual([]);

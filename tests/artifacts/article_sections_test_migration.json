@@ -281,6 +281,31 @@
       "file": "e2e/journeys/seat-star.spec.ts",
       "test": "59 desktop: the seat star after the pane closes",
       "change": "STALE SPEC (D-318 U4a): the pointer rests where the pane's close button was, and the centred arrival now draws Cross Collar Choke from High Mount there, so its hover label carries a second, correct star. The locator names the current seat by focusIdx (committed 4802641a4)."
+    },
+    {
+      "file": "e2e/journeys/reading-mode.spec.ts + reading-contract.spec.ts",
+      "test": "reading-mode 71 (1366, 390) every restore; reading-contract 128 minimizing never starts play",
+      "change": "STALE CONTRACT (D-318 U1(1); review-claude B2, D-331). Their Videos/Questions/Moves steps drove the hidden shelf: they now go through the section eyes (the index at 1152 and up, the section headers below), asserted by aria-expanded with the same no-deal / no-play claims. Their Book, Map and Feedback steps stay on the View controls, so both remain U7-PENDING but fail only at a View control: 15 pure U7-PENDING + these 3."
+    },
+    {
+      "file": "e2e/journeys/article-sections.spec.ts",
+      "test": "the contents heading at 1440 (two cases)",
+      "change": "D-331 N1: the heading is D-318 U6a's approved 'Loop Choke \u00b7 Escaping' on one line with the qualifier beneath; the text assertion follows and a geometry check pins the role on the name's line and the qualifier below it. The index-role-lost control's target follows the new markup."
+    },
+    {
+      "file": "e2e/journeys/layer-dock-centre.spec.ts",
+      "test": "map-view dock under the column",
+      "change": "D-331 N3: settled states measure the free column from the DOM again ((W + pane right) / 2, W / 2 on a phone), an oracle independent of the dock's own writer; 'the toggles preserve the column' compares the dock's measured centre across the toggles. Only the frame-by-frame pane animation reads the app's eased _paneLayout().center, because the pane's box does not ease."
+    },
+    {
+      "file": "e2e/journeys/roll-execution.spec.ts + camera-continuity.spec.ts",
+      "test": "execution camera cases and the 390px exchange",
+      "change": "D-331 S1: frameExecution counts both fallbacks (_execFrame.noFrame, .noFit); these journeys assert noFit is 0 before their painted-overlap claims. The execution-no-fit-forced control fails at that claim. N4 (D-329's column-only landing occupancy) was probed at 1440x480 and not reproduced; recorded in camera-continuity's header."
+    },
+    {
+      "file": "e2e/journeys/roll-execution.spec.ts",
+      "test": "218 at 390px, reduced motion, scrolled to the top (CI-only 4px then 7px)",
+      "change": "D-331 B1, diagnostics only: not reproduced by holding the win chance pending across the click (values resolved after the pointerdown left the card at 81-82 both times), nor at 1x, 4x CDP or a 50% CPU quota. The handoff record (card/stand-in rects at pointerdown, click and stand-in mount; reader scrollTop; layoutFrame and press flags; win-chance status; document.fonts.status; every layout-shift entry with its sources; _execFrame) is attached before the unchanged 2px assertion, and the file keeps traces on failure."
     }
   ]
 }

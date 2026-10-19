@@ -84,9 +84,21 @@ for (const viewport of [{ width: 1366, height: 768 }, { width: 390, height: 844 
     await expect.poll(() => state(page)).toMatchObject({ intent: true, paused: true, clock: null, focus: true, deals: 0 })
     await expect(page.locator(READY)).toBeVisible()
     // Focus hides game layers; it does not overwrite the user's section settings.
-    await expect(page.locator('[data-layer-hide="film"]')).toBeVisible()
-    await j.clickByMouse('[data-layer-hide="film"]')
-    for (const part of ["film", "card", "hand", "map", "feedback"]) {
+    // STALE CONTRACT (D-318 U1(1), review B2): with Book shown the shelf is gone. Videos, Questions
+    // and Moves restore and minimize through their section eyes (the index at 1152 and up, the
+    // section headers below); Map, Feedback and Book return with U7's View menu (U7-PENDING there).
+    const eye = (part: string) => part === "film" ? (viewport.width >= 1152 ? '[data-toc-eye="videos"]' : '[data-section-toggle="videos"]') : `[data-game-eye="${part}"]`
+    const press = async (part: string, what: string) => { await page.locator(eye(part)).scrollIntoViewIfNeeded(); await j.clickByMouse(eye(part), what) }
+    await expect(page.locator(eye("film")), "Focus keeps the user's Videos section").toHaveAttribute("aria-expanded", "true")
+    await press("film", "minimize the videos")
+    for (const part of ["film", "card", "hand"]) {
+      await press(part, `restore ${part}`)
+      await expect(page.locator(eye(part))).toHaveAttribute("aria-expanded", "true")
+      expect((await state(page)).deals, "restoration never deals or starts play").toBe(0)
+      await press(part, `minimize ${part}`)
+      await expect(page.locator(eye(part))).toHaveAttribute("aria-expanded", "false")
+    }
+    for (const part of ["map", "feedback"]) {
       await j.clickByMouse(`[data-layer-show="${part}"]`, `restore ${part}`)
       await expect(page.locator(`[data-layer-hide="${part}"]`)).toBeVisible()
       if (part === "map" || part === "feedback") expect(await page.evaluate(p => { const a = (window as any).__neural; return getComputedStyle(p === "map" ? a.canvas : a.evRef.current).visibility }, part)).toBe("visible")

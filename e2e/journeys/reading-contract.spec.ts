@@ -142,7 +142,16 @@ test('@curated reading gestures, minimizing and article navigation never start p
   await page.mouse.move(box!.x + box!.width / 2, box!.y + box!.height - 18)
   await page.mouse.wheel(0, 500)
   await expect.poll(() => page.locator(READY).evaluate(e => e.scrollTop)).toBeGreaterThan(0)
-  for (const part of ['book', 'card', 'hand', 'map', 'feedback']) {
+  // STALE CONTRACT (D-318 U1(1), review B2): Questions and Moves minimize and restore through
+  // their section eyes; Book, Map and Feedback return with U7's View menu (U7-PENDING there).
+  for (const part of ['card', 'hand']) {
+    for (let i = 0; i < 2; i++) {
+      await page.locator(`[data-game-eye="${part}"]`).scrollIntoViewIfNeeded()
+      await j.clickByMouse(`[data-game-eye="${part}"]`, (i ? 'restore ' : 'minimize ') + part)
+    }
+    await expect(page.locator(`[data-game-eye="${part}"]`)).toHaveAttribute('aria-expanded', 'true')
+  }
+  for (const part of ['book', 'map', 'feedback']) {
     await j.clickByMouse(`[data-layer-hide="${part}"]`)
     await j.clickByMouse(`[data-layer-show="${part}"]`)
   }
