@@ -213,9 +213,9 @@ def is_deferred_neural_asset(relative: str) -> bool:
 NEURAL_TARGET = {
     "eager_raw_bytes": 1_600_000,
     "chunk_max_bytes": 40_000,
-    # D-305b, owner Q7: exact reference-playback measurement, no headroom. The videos PR
-    # returns this ceiling to 500_000 when the video cards land.
-    "deferred_raw_bytes": 501_938,
+    # D-305c, owner Q7 (pre-approved in D-322): exact measurement after the owner's D-318 changes,
+    # the D-322 execution framing and D-326's thin-band fit, no headroom. Videos returns it to 500_000.
+    "deferred_raw_bytes": 505_069,
 }
 
 # Metric names under budget["neural"] that MOVED to the policy file. A ceiling left behind for one
