@@ -137,9 +137,14 @@ for (const viewport of [{ width: 1440, height: 900 }, { width: 390, height: 844 
       await page.screenshot({ path: testInfo.outputPath(`settled-${viewport.width}.jpg`), quality: 55 });
     });
 
-    test('staging and layer changes center the node in the current available space', async ({ page }) => {
+    // STALE CONTRACT (D-318 U4a, CI 48be3a910): with the article shown the node is centred in the
+    // reader's reserved node band, the same band for every layer combination (cold and loaded
+    // layouts share it), so the reading view's "available space" is that published band. The map
+    // view (Book off, persisted) keeps the original announcer-to-rows oracle.
+    for (const view of ['reading', 'map'] as const)
+    test(`staging and layer changes center the node in the current available space${view === 'map' ? ' (map view)' : ''}`, async ({ page }) => {
       const j = journey(page);
-      await j.boot('/Positions/Side-Control/Bottom');
+      await j.boot('/Positions/Side-Control/Bottom', view === 'map' ? { initialState: { v: 2, settings: { readerBook: false }, settingsAt: {} } } : {});
       await j.advance(8000);
       await seedHalfGuardFilm(page);
       for (const layers of [[false, false, true], [true, false, true], [true, true, true], [false, false, false]]) {
@@ -166,9 +171,11 @@ for (const viewport of [{ width: 1440, height: 900 }, { width: 390, height: 844 
           const bottom = Math.min(a.H - 16, ...surfaces.map((el: HTMLElement) => el.getBoundingClientRect().top - 12));
           const ev = a.evRef.current;
           const top = ev && getComputedStyle(ev).opacity !== "0" ? Math.max(16, ev.getBoundingClientRect().bottom + 12) : 16;
-          return { y: a.H / 2 + (mid.y - a.cam.cy) * a.W / a.cam.vw, want: (top + bottom) / 2, path: location.pathname, id: n.id };
+          const band = a.get('readerBook', true) ? a._reader?.nodeBand : null;
+          return { y: a.H / 2 + (mid.y - a.cam.cy) * a.W / a.cam.vw, want: band ? (band.top + band.bottom) / 2 : (top + bottom) / 2, band: !!band, path: location.pathname, id: n.id };
         });
         expect(m.path).toBe('/' + m.id);
+        expect(m.band, 'the reading view frames inside its published node band').toBe(view === 'reading');
         expect(Math.abs(m.y - m.want), JSON.stringify({ layers, ...m })).toBeLessThan(5);
       }
     });

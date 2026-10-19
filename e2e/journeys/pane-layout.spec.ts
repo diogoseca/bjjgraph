@@ -69,7 +69,7 @@ const geometry = (page: Page) => page.evaluate(() => {
   }
   const n = a.nodes[a.currentPos], mid = a.pairMid(n), scale = a.W / a.cam.vw
   return {
-    card: box("[data-landcard]"), film: box("[data-land-film]"), more: box(".ng-reader-article"), hand: box(".ng-optionrow"),
+    card: box("[data-landcard]"), film: box("[data-land-film]"), more: box(".ng-reader-article"), hand: box(".ng-optionrow"), moves: box("#reader-hand"),
     layout: a._reader.game.dataset.mediaLayout,
     pane: box(".ng-drill"), nav: box("[data-land-nav]"),
     node: { id: n.id, x: a.W / 2 + (mid.x - a.cam.cx) * scale, y: a.H / 2 + (mid.y - a.cam.cy) * scale },
@@ -107,7 +107,10 @@ for (const width of [1440, 1024]) {
       expect(open.film.width).toBe(400)
       expect(open.card.width).toBe(Math.min(560, width - open.pane.width - 104))
       expect(open.card.y - open.film.bottom).toBeCloseTo(12, 0)
-      expect(open.hand.y - open.card.bottom).toBeCloseTo(16, 0)
+      // STALE CONTRACT (D-318 U1(1), CI 48be3a910): the named 44px Moves heading now sits between the deck
+      // and the hand, after the unchanged 16px deck gap (article-sections.spec.ts pins the same contract).
+      expect(open.moves.y - open.card.bottom).toBeCloseTo(16, 0)
+      expect(open.hand.y - open.moves.bottom).toBeCloseTo(0, 0)
     }
     expect(open.more.center - before.more.center).toBeCloseTo(open.pane.width / 2, -1)
     expect(open.more.right).toBeLessThanOrEqual(width)
@@ -228,7 +231,10 @@ test("@curated resizing an open pane preserves the card through the stacked land
   expect(landscape.card.visible).toBe(true)
   expect(landscape.layout).toBe('stacked')
   expect(landscape.card.y - landscape.film.bottom).toBeCloseTo(12, 0)
-  expect(landscape.hand.y - landscape.card.bottom).toBeCloseTo(16, 0)
+  // STALE CONTRACT (D-318 U1(1), CI 48be3a910): the named 44px Moves heading now sits between the deck
+  // and the hand, after the unchanged 16px deck gap (article-sections.spec.ts pins the same contract).
+  expect(landscape.moves.y - landscape.card.bottom).toBeCloseTo(16, 0)
+  expect(landscape.hand.y - landscape.moves.bottom).toBeCloseTo(0, 0)
   expect(landscape.film.right, "the composition stays within the viewport").toBeLessThanOrEqual(844)
   await closePane(page, j)
   const closed = await geometry(page)

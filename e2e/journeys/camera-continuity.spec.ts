@@ -347,7 +347,10 @@ for (const viewport of VIEWPORTS) {
         const last = S[S.length - 1];
         expect(last.fi === target.to || (await page.evaluate((i) => (window as any).__neural.nodes[i].pi, target.to)) === last.fi,
           "the clicked node is the focus").toBe(true);
-        const R = visibleRect(last);
+        // STALE CONTRACT (D-318 U4a, CI 48be3a910): with the article shown the visible graph rect is
+        // the reader's reserved node band (what _viewRect returns), so its central band is measured there.
+        const band = await page.evaluate(() => { const a = (window as any).__neural; return a.get("readerBook", true) ? a._reader?.nodeBand : null; });
+        const R = band ? { ...visibleRect(last), top: band.top, bottom: band.bottom } : visibleRect(last);
         const w = R.right - R.left, h = R.bottom - R.top;
         const info = JSON.stringify({ R, node: [last.fx, last.fy], lo: last.lo, rows: last.rows });
         // the central band: the middle 40% vertically, the middle 70% horizontally (the composition

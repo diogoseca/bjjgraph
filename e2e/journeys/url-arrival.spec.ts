@@ -133,9 +133,13 @@ test("@curated a role page sets the board on THAT side, paused, and starts no ro
   expect(said, "no 'Restarting the roll' on an address-bar arrival").not.toContain("Restarting")
 })
 
+// STALE CONTRACT (D-318 U4a, CI 48be3a910): with the article shown, the arrival fits the pair into
+// the reader's reserved node band (rollCamTarget widens to 0.107 of the graph here) and centres it
+// above the first section, which article-sections.spec.ts asserts at eight widths. This framing
+// claim is the MAP view's (Book off, persisted as a returning reader left it).
 test("the node it navigates to is framed clear of the landing card", async ({ page }) => {
   const j = journey(page)
-  await j.boot("/Positions/Side-Control/Bottom")
+  await j.boot("/Positions/Side-Control/Bottom", { initialState: { v: 2, settings: { readerBook: false }, settingsAt: {} } })
   // boot() waits for graph ingest, not the deferred reader's seat or styled article.
   // Advancing first can spend all six seconds before the arrival flight even starts.
   await expect(page.locator('[data-reader-ready="true"]')).toBeVisible({ timeout: 15000 })

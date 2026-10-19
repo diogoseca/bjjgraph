@@ -347,7 +347,10 @@ test("a coach captures a TECHNIQUE from the live hand with a real tap at real co
     "no per-card capture on the hand any more",
   ).toHaveCount(0);
 
-  // Tap Inspect at its real touch coordinates without scrolling or invoking an app method.
+  // STALE CONTRACT (D-318 U4a, CI 48be3a910): the centred arrival reserves the node band, so the
+  // hand's Inspect row starts just below the reader's scroll edge (y756 vs y754). Reveal it the way
+  // the browser does, then tap Inspect at its real touch coordinates, never through an app method.
+  await page.locator(`[data-tech="${hand[0].name}"] [data-choice-inspect]`).scrollIntoViewIfNeeded();
   const inspect = await reach(page, `[data-tech="${hand[0].name}"] [data-choice-inspect]`);
   expect(inspect.found, "the first technique has an Inspect control").toBe(true);
   expect(inspect.visible, "Inspect is visibly available on the phone").toBe(true);

@@ -135,6 +135,10 @@ for (const [width, height] of [[390, 844], [1440, 900]]) {
     expect((await wins(page)).length).toBeGreaterThan(1)
     expect((await wins(page)).every(v => v === '—')).toBe(true)
     await expect(own.locator('[data-choice-value-status]')).toHaveText('Win chance unavailable')
+    // STALE CONTRACT (D-318 U4a, CI 48be3a910): the centred arrival reserves the node band, so at
+    // 390px the hand's Inspect row starts below the reader's scroll edge (y756 vs y754). Reveal it
+    // the way the browser does; the real mouse claim at its centre is unchanged.
+    await page.locator('[data-choice-group="you"] [data-tech]:first-child [data-choice-inspect]').scrollIntoViewIfNeeded()
     await j.clickByMouse('[data-choice-group="you"] [data-tech]:first-child [data-choice-inspect]', 'Inspect unresolved value')
     await expect(page.locator('[data-choice-value-detail]')).toContainText('unavailable for this roll')
     await expect(page.locator('[data-go]')).toBeVisible()
@@ -149,9 +153,12 @@ for (const [width, height] of [[390, 844], [1440, 900]]) {
     const j = await ready(page)
     await installControlledProvider(page)
     const before = await names(page)
-    const origin = await page.locator('[data-choice-group="you"] [data-tech]').first().boundingBox()
     const first = page.locator('[data-choice-group="you"] [data-choice-inspect]').first()
+    // STALE CONTRACT (D-318 U4a): on a phone the hand starts below the reader's scroll edge, so
+    // focusing Inspect natively scrolls it into view (measured 660 -> 298). The claim is about the
+    // async repaint, so the origin is taken after focus, before the values resolve.
     await first.focus()
+    const origin = await page.locator('[data-choice-group="you"] [data-tech]').first().boundingBox()
     await expect(page.locator('[data-choice-value-status]')).toHaveText('Calculating win chances…')
     await page.evaluate(() => (window as any).__neural._choiceFixture.resolve(0))
     await expect.poll(() => wins(page)).toContain('65%')

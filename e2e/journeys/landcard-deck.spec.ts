@@ -127,12 +127,13 @@ for (const width of [1440, 390]) {
       // the DEEPEST back is the first child: `_updateLandDeck` appends --back-index descending
       const deepest = document.querySelector(".ng-landstack")!.firstElementChild!.getBoundingClientRect()
       const title = row.querySelector("[data-choice-group] div")!.getBoundingClientRect()
+      const moves = document.getElementById("reader-hand")!.getBoundingClientRect()
       return {
         side: parseFloat(cs.paddingLeft), foot: parseFloat(cs.paddingBottom),
         padTop: parseFloat(cs.paddingTop), border: parseFloat(cs.borderBottomWidth),
         height: r.height, face: qr.height, sizing: cs.boxSizing,
         underLastAnswer: r.bottom - qr.bottom,
-        faceToTray: rr.top - r.bottom, backTipToTray: rr.top - deepest.bottom,
+        faceToMoves: moves.top - r.bottom, movesToTray: rr.top - moves.bottom, backTipToMoves: moves.top - deepest.bottom,
         backTipToTitle: title.top - deepest.bottom,
         overflow: card.scrollHeight - card.clientHeight,
       }
@@ -155,8 +156,11 @@ for (const width of [1440, 390]) {
     // 16 measured at both widths (4 of gap + 12 of back reserve). The ceiling is 18 and not 20
     // on purpose: the phone's pre-trim clearance was exactly 20, so a looser bound would let
     // the deck go back to paying the reserve twice there while staying green.
-    expect(m.faceToTray, "the face sits tight over the tray").toBeLessThanOrEqual(18)
-    expect(m.backTipToTray, "the deepest back stays outside the tray's box").toBeGreaterThanOrEqual(0)
+    // STALE CONTRACT (D-318 U1(1), CI 48be3a910): the named 44px Moves heading now sits between the deck
+    // and the hand, after the unchanged 16px deck gap (article-sections.spec.ts pins the same contract).
+    expect(m.faceToMoves, "the face sits tight over the Moves heading").toBeLessThanOrEqual(18)
+    expect(m.movesToTray, "and the heading sits tight over the tray").toBeCloseTo(0, 0)
+    expect(m.backTipToMoves, "the deepest back stays outside the heading's box").toBeGreaterThanOrEqual(0)
     expect(m.backTipToTitle, "…and never reaches 'Your options'").toBeGreaterThanOrEqual(8)
   })
 }
@@ -230,9 +234,9 @@ test("@curated responsive deck stays readable in the shared scrollport and rotat
       const a = (window as any).__neural
       const card = a._landEl.getBoundingClientRect(), film = a._landFilmEl.getBoundingClientRect()
       const hand = a.optionsRef.current.getBoundingClientRect()
-      const stack = a._landStackEl.getBoundingClientRect()
+      const stack = a._landStackEl.getBoundingClientRect(), moves = document.getElementById("reader-hand")!.getBoundingClientRect()
       return {
-        card: card.toJSON(), film: film.toJSON(), hand: hand.toJSON(), stack: stack.toJSON(),
+        card: card.toJSON(), film: film.toJSON(), hand: hand.toJSON(), stack: stack.toJSON(), moves: moves.toJSON(),
         beside: a._reader.game.dataset.mediaLayout === 'side-by-side',
         sameScrollport: a._reader.game.contains(a._landEl) && a._reader.game.contains(a._landFilmEl) && a._reader.game.contains(a.optionsRef.current),
         extent: a._reader.root.getBoundingClientRect().top + a._reader.root.scrollHeight - a._reader.root.scrollTop,
@@ -259,7 +263,10 @@ test("@curated responsive deck stays readable in the shared scrollport and rotat
     } else {
       expect(layout.card.top - layout.film.bottom).toBeCloseTo(12, 0)
     }
-    expect(layout.hand.top - layout.card.bottom).toBeCloseTo(16, 0)
+    // STALE CONTRACT (D-318 U1(1), CI 48be3a910): the named 44px Moves heading now sits between the deck
+    // and the hand, after the unchanged 16px deck gap (article-sections.spec.ts pins the same contract).
+    expect(layout.moves.top - layout.card.bottom).toBeCloseTo(16, 0)
+    expect(layout.hand.top - layout.moves.bottom).toBeCloseTo(0, 0)
   }
 })
 

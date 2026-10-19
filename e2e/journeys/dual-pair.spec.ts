@@ -96,8 +96,8 @@ const AT = "/Positions/Side-Control/Bottom"
  * here too: every number below is a SCREEN position, and the landing card animates in. A second
  * bare `advance` does not do it; the intervening layout read is what lets a frame actually render.
  */
-const bootContent = async (page: Page, j: ReturnType<typeof journey>, path: string) => {
-  await j.boot(path)
+const bootContent = async (page: Page, j: ReturnType<typeof journey>, path: string, opts: Parameters<ReturnType<typeof journey>["boot"]>[1] = {}) => {
+  await j.boot(path, opts)
   await expect(page.locator('[data-reader-ready="true"]')).toBeVisible()
 }
 const settle = async (page: Page, j: ReturnType<typeof journey>) => {
@@ -565,6 +565,18 @@ const otherPair = (page: Page) =>
 test("@curated hovering any pair names it once, on the midline, with the role on the hovered side", async ({
   page,
 }) => {
+  // Every fillText on the graph canvas since the frame's own full clear: the actual draws.
+  await page.addInitScript(() => {
+    const w = window as any, proto = CanvasRenderingContext2D.prototype, text = proto.fillText, fill = proto.fillRect
+    proto.fillRect = function (x: number, y: number, width: number, height: number) {
+      if (this === w.__neural?.ctx && x === 0 && y === 0 && width === w.__neural.W && height === w.__neural.H) w.__pairPaint = []
+      return fill.call(this, x, y, width, height)
+    }
+    proto.fillText = function (value: string, x: number, y: number, ...args: any[]) {
+      if (this === w.__neural?.ctx) (w.__pairPaint ||= []).push({ text: value, y: this.getTransform().transformPoint({ x, y }).y / (devicePixelRatio || 1) })
+      return (text as any).call(this, value, x, y, ...args)
+    }
+  })
   const j = journey(page)
   await bootContent(page, j, AT)
   await settle(page, j)
@@ -598,11 +610,22 @@ test("@curated hovering any pair names it once, on the midline, with the role on
   // orb's own line reads the GROUP's own subtitle (measured: `{above: 0, name: 206, below: 463}`
   // — the 206 is the subtitle at `mid - 12`, not a second name). The band above the upper orb is
   // the one place the two behaviours do not overlap at any separation.
-  const atOrb = await strips(page, c.upper.sy, x)
-  expect(
-    atOrb.above,
-    `no second label hangs above the hovered orb (${JSON.stringify(atOrb)} at the orb's own line)`,
-  ).toBeLessThan(30)
+  // STALE CONTRACT (D-318 U4a, CI 48be3a910): this was a bright-pixel band above the hovered orb,
+  // valid only while the orbs sit ~35px apart. The centred reading arrival zooms so this pair's
+  // orbs are 25.8px apart, and the group's own role line (published subY 156.9) lands in that band
+  // (157 bright px) while the app draws exactly one label. Count the actual draws instead: the old
+  // behaviour, a second copy of the name off the hovered orb, is two fillText calls at any zoom.
+  const drawn = await page.evaluate((idx: number) => {
+    const w = window as any, a = w.__neural, main = a.graphName(a.nodes[idx])
+    return { main, nameY: a._lastPairLabel?.nameY, ys: (w.__pairPaint || []).filter((p: any) => p.text === main).map((p: any) => p.y) }
+  }, c.upper.idx)
+  expect(drawn.ys, `the hovered pair's name is drawn exactly once (${JSON.stringify(drawn)})`).toHaveLength(1)
+  expect(Math.abs(drawn.ys[0] - drawn.nameY), "on the published midline, not off the hovered orb").toBeLessThan(2)
+  const draws = (idx: number) => page.evaluate((i: number) => {
+    const w = window as any, a = w.__neural, L = a._lastPairLabel, main = a.graphName(a.nodes[i]), ps = w.__pairPaint || []
+    return { sub: L?.sub, nameYs: ps.filter((p: any) => p.text === main).map((p: any) => p.y), subYs: ps.filter((p: any) => L && p.text === L.sub).map((p: any) => p.y) }
+  }, idx)
+  const upDraw = await draws(c.upper.idx)
 
   // POINT AT THE LOWER HALF: one group, dynamic — the name does not move, only the role's side.
   await page.mouse.move(c.lower.sx - 60, c.lower.sy + 60)
@@ -611,25 +634,25 @@ test("@curated hovering any pair names it once, on the midline, with the role on
   const dn = await strips(page, c.mid, x)
   expect(dn.name, `the name held its line (${up.name} -> ${dn.name} bright px)`).toBeGreaterThan(300)
   expect(dn.below, "and the role moved below it").toBeGreaterThan(40)
-  // A DIFFERENTIAL, NOT A WITHIN-STATE RATIO. The 18px name is drawn at baseline `mid + 6`, so its
+  const dnDraw = await draws(c.upper.idx)
+  // STALE CONTRACT (D-318 U4a, CI 48be3a910): the bright-pixel differential below needed a pair whose
+  // qualifier does not fill the band under the name. The centred reading arrival puts a qualified
+  // pair on screen ("from Side Control" under the name), so "below" read 78 in both states while the
+  // role did move. The claim is asserted on the actual draws: one role line, above the name for the
+  // upper half and below it for the lower, with the name on the same line in both.
+  expect(upDraw.subYs, `the role is drawn once for the upper half (${JSON.stringify(upDraw)})`).toHaveLength(1)
+  expect(dnDraw.subYs, `the role is drawn once for the lower half (${JSON.stringify(dnDraw)})`).toHaveLength(1)
+  expect(upDraw.subYs[0], "upper half: the role sits above the name").toBeLessThan(upDraw.nameYs[0])
+  expect(dnDraw.subYs[0], "lower half: the role sits below the name").toBeGreaterThan(dnDraw.nameYs[0])
+  expect(dnDraw.nameYs, "one name for the lower half too").toHaveLength(1)
+  expect(Math.abs(dnDraw.nameYs[0] - upDraw.nameYs[0]), "while the name itself did not move").toBeLessThan(1)
+  // (superseded) A DIFFERENTIAL, NOT A WITHIN-STATE RATIO. The 18px name is drawn at baseline `mid + 6`, so its
   // own ascenders reach into the band above the midline — and HOW MUCH depends on which name the
   // candidate pair happens to have. A first version asserted `above < below / 2` inside the
   // bottom-hover state and failed in the full suite at 93 vs 126, on a build that was drawing the
   // subtitle in exactly the right place. The claim is not "the band above is empty", it is
   // **"the subtitle moved and the name did not"** — so compare each band against ITSELF across the
   // two hover states, where the name's constant contribution cancels.
-  expect(
-    up.above - dn.above,
-    `the role vacated the top when the cursor moved down (${up.above} -> ${dn.above})`,
-  ).toBeGreaterThan(40)
-  expect(
-    dn.below - up.below,
-    `…and appeared underneath (${up.below} -> ${dn.below})`,
-  ).toBeGreaterThan(40)
-  expect(
-    Math.abs(dn.name - up.name),
-    `while the name itself did not move (${up.name} vs ${dn.name} bright px on the midline)`,
-  ).toBeLessThan(up.name * 0.25)
 })
 
 /**
@@ -816,9 +839,13 @@ test("@curated on a narrow phone the clamp holds the orb off the edge, and the n
 })
 
 /** ...AND DESKTOP KEEPS THE 44% READING BIAS, because there was never a problem to solve there. */
+// STALE CONTRACT (D-318 U4a, CI 48be3a910): with the article shown, arrival centres the whole pair
+// and name above the first section (0.447 here), which article-sections.spec.ts asserts at eight
+// widths ("current node stays centred"). The reading bias is the MAP view's framing, so it is
+// asserted there: Book off, persisted the way a returning reader left it.
 test("desktop framing is untouched — the orb stays at the reading bias", async ({ page }) => {
   const j = journey(page)
-  await bootContent(page, j, AT)
+  await bootContent(page, j, AT, { initialState: { v: 2, settings: { readerBook: false }, settingsAt: {} } })
   await settle(page, j)
   const m = await page.evaluate(() => {
     const a: any = (window as any).__neural

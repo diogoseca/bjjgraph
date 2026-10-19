@@ -231,6 +231,56 @@
       "file": "e2e/journeys/roll-execution.spec.ts",
       "test": "execution camera frames the technique at 390px; native-wheel thin band; reward notice deferral",
       "change": "REAL BREAK, app fix (D-326). On a phone the clicked card can sit at y78 under an announcer ending at y67: frameExecution counted that 11px band as existing, rejected every candidate and returned the unfitted target onto the card. A band now exists only if it holds the reserved pair box with its 12px clearances; otherwise free 2-D space. The scalar above-card assertion follows the same premise (reserved box plus 24px) instead of any positive band; the painted-overlap claim is unchanged. A 390px case scrolled to the top (the pick path's own scrollIntoView; a phone wheel pages the deck or glides the hand) in both motion modes pins the thin band, and the execution-thin-band-accepted mutant fails its painted-overlap assertion. A full-width challenge reward also left no slot: the notice now yields at startExecution and shows again once the move lands, never dropped. The camera journeys keep the harness's real reward. New 390px journey: a notice showing at the click and a coin minted mid-execution are both held in order and shown after landing; the reward-hold-lost mutant fails at its yield assertion."
+    },
+    {
+      "file": "e2e/journeys/land-layers.spec.ts",
+      "test": "131 sticky card, 217 independent layers, 342 caught with the hand away, 421 phone dock glyphs, 273 article survives minimizing, 287 final paragraph reserve",
+      "change": "STALE CONTRACT (D-318 U1(1), CI 48be3a910). With Book shown (the default on every route, `/` included) the reading shelf is hidden, so dock clicks met a 0x0 box. The dock claims run in the MAP view (Book off, persisted readerBook=false; no UI turns Book off before U7's View menu), where the dock also lists Book's restore glyph. 131, 217 and 342 also run in the reading view through the Questions/Moves section eyes ([data-game-eye]). 273 hides through the film's own \u2715 and the eyes. 287 asserts the flow ends clear of the bottom controls sharing its column instead of a shelf. 421 stays map-only; the reading view's 44px eyes are article-sections' D-318 390px case."
+    },
+    {
+      "file": "e2e/journeys/layer-dock-centre.spec.ts",
+      "test": "the dock follows the column with the pane open/closing/resizing, phone",
+      "change": "STALE CONTRACT (D-318 U1(1)). The shelf followed the article column; with the article shown there is no shelf. MAP view (Book off, persisted): the dock is measured against the app's published free column (_paneLayout().center, read in the same frame: it eases with the pane, and a side-by-side film and card share no single DOM centre). The phone case taps the film glyph by name and waits for the reader's coalesced layout after the share cue clears (y655 -> y709 one frame later). The reading-view twin, the article column moving with the pane, is pane-layout.spec.ts."
+    },
+    {
+      "file": "e2e/journeys/pane-layout.spec.ts + landcard-deck.spec.ts",
+      "test": "card-to-hand gaps: pane-layout 82 (1024 reflow) and 217, landcard-deck 118 (face tight over the tray) and 216",
+      "change": "STALE CONTRACT (D-318 U1(1)): the named 44px Moves heading (#reader-hand) sits after the unchanged 16px deck gap, so card->hand read 60. Each now asserts card->Moves 16, Moves->hand 0 (article-sections pins the same contract); the 18px tight-face ceiling and the back-stays-clear claim are measured against the heading."
+    },
+    {
+      "file": "e2e/journeys/landing-reveal.spec.ts + pane-camera.spec.ts + camera-continuity.spec.ts",
+      "test": "landing-reveal 140 centring, pane-camera 122 lease subject, camera-continuity 331 central band",
+      "change": "STALE CONTRACT (D-318 U4a): with the article shown the camera frames inside the reader's reserved node band (what _viewRect returns, the same band for every layer combination), so each oracle reads the published nodeBand in the reading view at the unchanged bound. landing-reveal also runs a map-view variant (Book off) on the original announcer-to-rows oracle."
+    },
+    {
+      "file": "e2e/journeys/url-arrival.spec.ts + dual-pair.spec.ts",
+      "test": "url-arrival 136 framed clear of the landing card, dual-pair 819 desktop reading bias",
+      "change": "STALE CONTRACT (D-318 U4a): the reading arrival fits the pair into the node band (zoom 0.107 here) and centres it above the first section, asserted by article-sections at eight widths. These framing claims are the map view's and run there (Book off, persisted)."
+    },
+    {
+      "file": "e2e/journeys/dual-pair.spec.ts",
+      "test": "565 hovering any pair names it once",
+      "change": "STALE CONTRACT (D-318 U4a): its bright-pixel strips assumed ~35px orb separation and an unqualified pair; the centred arrival puts a qualified pair 25.8px apart on screen, so the group's own role line and qualifier filled the bands while one label was drawn. The claims are now counted fillText draws in the hover frame: the name exactly once on the published midline, the role once, above for the upper half and below for the lower, the name on the same line in both."
+    },
+    {
+      "file": "e2e/journeys/history-replay.spec.ts",
+      "test": "222 a hand on the graph ends the film",
+      "change": "STALE CONTRACT (D-318 U4a): the centred reading arrival put graph chrome (a button) under the old fixed pan point (1150,300). The same 60x40 drag starts and ends on measured, unobstructed canvas."
+    },
+    {
+      "file": "e2e/journeys/share-mobile.spec.ts + choice-value.spec.ts",
+      "test": "share-mobile 317 Inspect by a real tap, choice-value 130 and 147 at 390px",
+      "change": "STALE CONTRACT (D-318 U4a): at 390x844 the reserved node band pushes the hand so its Inspect row starts at y756, below the reader's scroll edge at y754; focus() natively scrolls it (choice-value 147 measured 660 -> 298). Inspect is revealed the way the browser does, then the real tap/mouse claims run unchanged; 147 takes its origin after focus, before the values resolve. UX note sent to the owner: the move cards are partly visible at arrival."
+    },
+    {
+      "file": "e2e/dsl.ts readingOtherHalf + defending-arrivals.spec.ts",
+      "test": "219 a shared list link opens its defending item",
+      "change": "REAL BREAK, app fix (the intro handover). The item is read 20ms after boot, inside the 3.2s intro; openDossier staged and focused it, then the intro's handover called startRoll() and restarted the board at a random start (a focusIdx write trace shows rollFromPosition -> 1152, then startRoll from updateCamera -> -1), so the article read Loop Choke while its pair sat at (8023,-2030). Pre-existing, made reachable by D-318 U6a (the other half is the only role control) and U4a (the read node centred). A board staged during the intro now keeps it, like a URL seed. The DSL helper resolves the read member from the reader's own path and requires it to agree with focusIdx wherever a node is focused."
+    },
+    {
+      "file": "e2e/journeys/seat-star.spec.ts",
+      "test": "59 desktop: the seat star after the pane closes",
+      "change": "STALE SPEC (D-318 U4a): the pointer rests where the pane's close button was, and the centred arrival now draws Cross Collar Choke from High Mount there, so its hover label carries a second, correct star. The locator names the current seat by focusIdx (committed 4802641a4)."
     }
   ]
 }

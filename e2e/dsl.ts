@@ -622,11 +622,20 @@ export class Journey {
     if (await this.page.locator('[data-reward-close]').isVisible()) {
       await this.clickByMouse('[data-reward-close]', 'dismiss the earned reward before changing role');
     }
+    // The node being READ owns the other half (D-318 U6a). A paused arrival, such as a
+    // shared-list read through openDossier, never lands, so focusIdx stays -1 while the read
+    // node's pair is drawn. Resolve the read member from the reader's own path, and wherever a
+    // node is focused require the two to agree.
     const point = await this.page.evaluate(() => {
-      const a = (window as W).__neural, n = a.nodes[a.nodes[a.focusIdx].pi], scale = a.W / a.cam.vw;
+      const a = (window as W).__neural;
+      const read = a._idIndex.get(a._reader.path.replace(/^\//, '').replace(/\/(Attacker|Top)$/, ''));
+      const n = read == null ? null : a.nodes[a.nodes[read].pi], scale = a.W / a.cam.vw;
+      if (!n) return { read, agree: false, canvas: false, x: 0, y: 0 };
       const x = a.W / 2 + (n.x - a.cam.cx) * scale, y = a.H / 2 + (a._LY(n) - a.cam.cy) * scale;
-      return { x, y, canvas: document.elementFromPoint(x, y) === a.canvasRef.current };
+      return { read, agree: a.focusIdx < 0 || a.focusIdx === read, x, y, canvas: document.elementFromPoint(x, y) === a.canvasRef.current };
     });
+    expect(point.read ?? null, 'the reader path names a drawn pair member').not.toBeNull();
+    expect(point.agree, 'a focused node is the node being read').toBe(true);
     expect(point.canvas, 'the other read role must be a reachable drawn canvas half').toBe(true);
     await this.page.mouse.click(point.x, point.y);
     return this;
