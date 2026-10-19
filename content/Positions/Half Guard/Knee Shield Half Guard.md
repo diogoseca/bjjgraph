@@ -46,24 +46,13 @@ description: "Master Knee Shield Half Guard in BJJ. Strategic guide covering set
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Knee shield to scissor/push sweep",
-      "description": "Knee Shield Half Guard film study: Knee shield to scissor/push sweep, taught by Strong Hold Jiu Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/CLBRo3Jef54/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/CLBRo3Jef54",
-      "url": "https://www.youtube.com/watch?v=CLBRo3Jef54",
-      "creator": { "@type": "Person", "name": "Strong Hold Jiu Jitsu" },
-      "duration": "PT52S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Bottom half guard attacks basics",
-      "description": "Knee Shield Half Guard film study: Bottom half guard attacks basics, taught by Cobrinha.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/ZqsGp9fWi3Y/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/ZqsGp9fWi3Y",
-      "url": "https://www.youtube.com/watch?v=ZqsGp9fWi3Y",
-      "creator": { "@type": "Person", "name": "Cobrinha" },
-      "duration": "PT205S"
+      "name": "Knee Shield Half Guard Basics",
+      "description": "Knee Shield Half Guard film study: Knee Shield Half Guard Basics, taught by MMA Leech.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/q_ND-09HiWg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/q_ND-09HiWg",
+      "url": "https://www.youtube.com/watch?v=q_ND-09HiWg",
+      "creator": { "@type": "Person", "name": "MMA Leech" },
+      "duration": "PT263S"
     }
   ]
 }
@@ -116,17 +105,9 @@ The knee shield half guard has become essential in modern competitive BJJ, with 
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=CLBRo3Jef54)
+![](https://www.youtube.com/watch?v=q_ND-09HiWg)
 
-<p class="clip-credit"><strong>Knee shield to scissor/push sweep</strong> — taught by Strong Hold Jiu Jitsu · 0:52 · <a href="https://www.youtube.com/watch?v=CLBRo3Jef54" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=ZqsGp9fWi3Y)
-
-<p class="clip-credit"><strong>Bottom half guard attacks basics</strong> — taught by Cobrinha · 3:25 · <a href="https://www.youtube.com/watch?v=ZqsGp9fWi3Y" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Knee Shield Half Guard Basics</strong> — taught by MMA Leech · 4:23 · <a href="https://www.youtube.com/watch?v=q_ND-09HiWg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

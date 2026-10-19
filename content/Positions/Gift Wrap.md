@@ -46,19 +46,19 @@ description: "Master Gift Wrap position in BJJ - a dominant back control variati
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "The gift wrap in 2 minutes",
-      "description": "Gift Wrap film study: The gift wrap in 2 minutes, taught by Brian Glick.",
+      "name": "The Gift Wrap in 2 Minutes - No GI BJJ",
+      "description": "Gift Wrap film study: The Gift Wrap in 2 Minutes - No GI BJJ, taught by Brian Glick.",
       "thumbnailUrl": "https://i.ytimg.com/vi/5bw7poxVJ1E/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/5bw7poxVJ1E",
       "url": "https://www.youtube.com/watch?v=5bw7poxVJ1E",
       "creator": { "@type": "Person", "name": "Brian Glick" },
-      "duration": "PT112S"
+      "duration": "PT111S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Gift wrap backtake (intro)",
-      "description": "Gift Wrap film study: Gift wrap backtake (intro), taught by BJJ Lab Zurich.",
+      "name": "1.3 Giftwrap Backtake (Intro Version)",
+      "description": "Gift Wrap film study: 1.3 Giftwrap Backtake (Intro Version), taught by BJJ Lab Zurich.",
       "thumbnailUrl": "https://i.ytimg.com/vi/EOv5GYpUYDw/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/EOv5GYpUYDw",
       "url": "https://www.youtube.com/watch?v=EOv5GYpUYDw",
@@ -68,8 +68,8 @@ description: "Master Gift Wrap position in BJJ - a dominant back control variati
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "3 back takes from mount using the gift wrap",
-      "description": "Gift Wrap film study: 3 back takes from mount using the gift wrap, taught by MMA Leech.",
+      "name": "3 Back Takes From Mount Using The Gift Wrap Control",
+      "description": "Gift Wrap film study: 3 Back Takes From Mount Using The Gift Wrap Control, taught by MMA Leech.",
       "thumbnailUrl": "https://i.ytimg.com/vi/UIWX13Sx-zw/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/UIWX13Sx-zw",
       "url": "https://www.youtube.com/watch?v=UIWX13Sx-zw",
@@ -131,7 +131,7 @@ Understanding the Gift Wrap requires recognizing it as part of a larger back att
 
 ![](https://www.youtube.com/watch?v=5bw7poxVJ1E)
 
-<p class="clip-credit"><strong>The gift wrap in 2 minutes</strong> — taught by Brian Glick · 1:52 · <a href="https://www.youtube.com/watch?v=5bw7poxVJ1E" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>The Gift Wrap in 2 Minutes - No GI BJJ</strong> — taught by Brian Glick · 1:51 · <a href="https://www.youtube.com/watch?v=5bw7poxVJ1E" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -139,7 +139,7 @@ Understanding the Gift Wrap requires recognizing it as part of a larger back att
 
 ![](https://www.youtube.com/watch?v=EOv5GYpUYDw)
 
-<p class="clip-credit"><strong>Gift wrap backtake (intro)</strong> — taught by BJJ Lab Zurich · 1:09 · <a href="https://www.youtube.com/watch?v=EOv5GYpUYDw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>1.3 Giftwrap Backtake (Intro Version)</strong> — taught by BJJ Lab Zurich · 1:09 · <a href="https://www.youtube.com/watch?v=EOv5GYpUYDw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -147,7 +147,7 @@ Understanding the Gift Wrap requires recognizing it as part of a larger back att
 
 ![](https://www.youtube.com/watch?v=UIWX13Sx-zw)
 
-<p class="clip-credit"><strong>3 back takes from mount using the gift wrap</strong> — taught by MMA Leech · 3:44 · <a href="https://www.youtube.com/watch?v=UIWX13Sx-zw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>3 Back Takes From Mount Using The Gift Wrap Control</strong> — taught by MMA Leech · 3:44 · <a href="https://www.youtube.com/watch?v=UIWX13Sx-zw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

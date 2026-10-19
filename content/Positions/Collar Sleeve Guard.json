@@ -463,21 +463,22 @@
     "clips": [
       {
         "id": "N4M0VWhDkMA",
-        "title": "Two ways to pass the collar & sleeve",
+        "title": "Two Ways to Pass the Collar and Sleeve",
         "by": "Carpio Jiu Jitsu",
         "vertical": false,
         "channel": "Carpio Jiu Jitsu",
-        "duration": 103,
-        "verified": "2026-07-14"
+        "duration": 102,
+        "verified": "2026-10-19",
+        "front": true
       },
       {
         "id": "WJ25wu9Ioks",
-        "title": "Passing the collar sleeve guard",
+        "title": "Passing Collar Sleeve Guard - BJJ OPEN GUARD",
         "by": "Ultra Jiu Jitsu Academy",
         "vertical": false,
         "channel": "Ultra Jiu Jitsu Academy",
-        "duration": 105,
-        "verified": "2026-07-14"
+        "duration": 104,
+        "verified": "2026-10-19"
       }
     ]
   },
@@ -956,31 +957,13 @@
     ],
     "clips": [
       {
-        "id": "SehIaBibwYY",
-        "title": "3 attacks from collar & sleeve guard",
-        "by": "Giancarlo Bodoni",
+        "id": "PKQEms4w9T4",
         "vertical": false,
-        "channel": "Giancarlo Bodoni",
-        "duration": 16,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "I2xn1bMaBdg",
-        "title": "Five sweeps from collar & sleeve guard",
-        "by": "OneontaJiuJitsu Academy",
-        "vertical": false,
-        "channel": "OneontaJiuJitsu Academy",
-        "duration": 103,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "wdvJF6S68TI",
-        "title": "Collar sleeve over-head sweep",
-        "by": "luciana MARCOS",
-        "vertical": false,
-        "channel": "luciana MARCOS",
-        "duration": 68,
-        "verified": "2026-07-14"
+        "title": "Understand the Collar Sleeve Guard In 5 Min",
+        "channel": "JonThomasBJJ",
+        "duration": 339,
+        "verified": "2026-10-19",
+        "front": true
       }
     ]
   },
@@ -1084,24 +1067,5 @@
       }
     }
   ],
-  "clips": [
-    {
-      "id": "1piAnOs7xpA",
-      "title": "Intro to the collar & sleeve guard",
-      "by": "Mikey Musumeci",
-      "vertical": false,
-      "channel": "BJJ Fanatics",
-      "duration": 158,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "SehIaBibwYY",
-      "title": "3 attacks from collar & sleeve guard",
-      "by": "Giancarlo Bodoni",
-      "vertical": false,
-      "channel": "Giancarlo Bodoni",
-      "duration": 16,
-      "verified": "2026-07-14"
-    }
-  ]
+  "clips": []
 }

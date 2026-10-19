@@ -472,31 +472,14 @@
     ],
     "clips": [
       {
-        "id": "BjeDX3WupdA",
-        "title": "Shoulder Pressure From Side Control",
-        "by": "Roy Dean",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 39,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "MpWpNkQwBGA",
-        "title": "Side Smash Side Control Pressure",
-        "by": "Owen Livesey",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 73,
-        "verified": "2026-07-14"
-      },
-      {
         "id": "HO877lE69nM",
-        "title": "Cross Sides Shoulder of Justice",
+        "title": "Cross Sides Shoulder of Justice 1",
         "by": "SBG New Braunfels",
         "vertical": false,
         "channel": "SBG New Braunfels BJJ",
-        "duration": 145,
-        "verified": "2026-07-14"
+        "duration": 144,
+        "verified": "2026-10-19",
+        "front": true
       }
     ]
   },
@@ -991,31 +974,14 @@
   ],
   "clips": [
     {
-      "id": "BjeDX3WupdA",
-      "title": "Shoulder Pressure Concept",
-      "by": "Roy Dean",
+      "id": "HO877lE69nM",
+      "title": "Cross Sides Shoulder of Justice 1",
+      "by": "SBG New Braunfels",
       "vertical": false,
-      "channel": "BJJ Fanatics",
-      "duration": 39,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "ajC_jfdoMCE",
-      "title": "Heavy shoulder of justice in side control",
-      "by": "Coach Cane",
-      "vertical": false,
-      "channel": "SBG PDX & Vancouver BJJ and MMA Videos",
-      "duration": 192,
-      "verified": "2026-07-15"
-    },
-    {
-      "id": "zMVWIvd6MQU",
-      "title": "Cross sides shoulder of justice pressure",
-      "by": "SBG PDX",
-      "vertical": false,
-      "channel": "SBG PDX & Vancouver BJJ and MMA Videos",
-      "duration": 256,
-      "verified": "2026-07-15"
+      "channel": "SBG New Braunfels BJJ",
+      "duration": 144,
+      "verified": "2026-10-19",
+      "half": "top"
     }
   ]
 }

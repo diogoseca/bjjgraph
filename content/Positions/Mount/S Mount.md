@@ -46,35 +46,13 @@ description: "Master S Mount in BJJ - the ultimate armbar setup position. Comple
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "S-Mount basics",
-      "description": "S Mount film study: S-Mount basics, taught by ZombieProofBJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/FSbR22OOSaE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/FSbR22OOSaE",
-      "url": "https://www.youtube.com/watch?v=FSbR22OOSaE",
-      "creator": { "@type": "Person", "name": "ZombieProofBJJ" },
+      "name": "Goathook escape from mount: dealing with the switch to S-mount",
+      "description": "S Mount film study: Goathook escape from mount: dealing with the switch to S-mount, taught by Revolution BJJ coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WKqvJLpq7nc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/WKqvJLpq7nc",
+      "url": "https://www.youtube.com/watch?v=WKqvJLpq7nc",
+      "creator": { "@type": "Person", "name": "Revolution BJJ coach" },
       "duration": "PT72S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Attack options from S-Mount",
-      "description": "S Mount film study: Attack options from S-Mount, taught by DS Team Jiu Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/BDoWDTgzKf8/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/BDoWDTgzKf8",
-      "url": "https://www.youtube.com/watch?v=BDoWDTgzKf8",
-      "creator": { "@type": "Person", "name": "DS Team Jiu Jitsu" },
-      "duration": "PT110S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "S-Mount troubleshooting",
-      "description": "S Mount film study: S-Mount troubleshooting, taught by ZombieProofBJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/2Xm_mLp8xwk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/2Xm_mLp8xwk",
-      "url": "https://www.youtube.com/watch?v=2Xm_mLp8xwk",
-      "creator": { "@type": "Person", "name": "ZombieProofBJJ" },
-      "duration": "PT67S"
     }
   ]
 }
@@ -129,25 +107,9 @@ Historically, S Mount has been a fundamental component of Japanese judo groundwo
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=FSbR22OOSaE)
+![](https://www.youtube.com/watch?v=WKqvJLpq7nc)
 
-<p class="clip-credit"><strong>S-Mount basics</strong> — taught by ZombieProofBJJ · 1:12 · <a href="https://www.youtube.com/watch?v=FSbR22OOSaE" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=BDoWDTgzKf8)
-
-<p class="clip-credit"><strong>Attack options from S-Mount</strong> — taught by DS Team Jiu Jitsu · 1:50 · <a href="https://www.youtube.com/watch?v=BDoWDTgzKf8" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=2Xm_mLp8xwk)
-
-<p class="clip-credit"><strong>S-Mount troubleshooting</strong> — taught by ZombieProofBJJ · 1:07 · <a href="https://www.youtube.com/watch?v=2Xm_mLp8xwk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Goathook escape from mount: dealing with the switch to S-mount</strong> — taught by Revolution BJJ coach · 1:12 · <a href="https://www.youtube.com/watch?v=WKqvJLpq7nc" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

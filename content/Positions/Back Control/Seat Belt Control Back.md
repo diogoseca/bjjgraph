@@ -46,24 +46,13 @@ description: "Master Seat Belt Control from Back position in BJJ. Dominant 4-poi
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Seatbelt Grip Quick Fix",
-      "description": "Seat Belt Control Back film study: Seatbelt Grip Quick Fix, taught by Ben Kool.",
+      "name": "Jiu Jitsu Quick Fix #1: Seatbelt Grip",
+      "description": "Seat Belt Control Back film study: Jiu Jitsu Quick Fix #1: Seatbelt Grip, taught by Ben Kool.",
       "thumbnailUrl": "https://i.ytimg.com/vi/MwxnveKrlxU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/MwxnveKrlxU",
       "url": "https://www.youtube.com/watch?v=MwxnveKrlxU",
       "creator": { "@type": "Person", "name": "Ben Kool" },
-      "duration": "PT62S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Back Mount Seatbelt Control Fundamentals",
-      "description": "Seat Belt Control Back film study: Back Mount Seatbelt Control Fundamentals, taught by Teach Me NoGi.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/baSqWCtLysU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/baSqWCtLysU",
-      "url": "https://www.youtube.com/watch?v=baSqWCtLysU",
-      "creator": { "@type": "Person", "name": "Teach Me NoGi" },
-      "duration": "PT212S"
+      "duration": "PT61S"
     }
   ]
 }
@@ -118,15 +107,7 @@ The seat belt grip itself functions as a force multiplier. The over-arm creates 
 
 ![](https://www.youtube.com/watch?v=MwxnveKrlxU)
 
-<p class="clip-credit"><strong>Seatbelt Grip Quick Fix</strong> — taught by Ben Kool · 1:02 · <a href="https://www.youtube.com/watch?v=MwxnveKrlxU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=baSqWCtLysU)
-
-<p class="clip-credit"><strong>Back Mount Seatbelt Control Fundamentals</strong> — taught by Teach Me NoGi · 3:32 · <a href="https://www.youtube.com/watch?v=baSqWCtLysU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Jiu Jitsu Quick Fix #1: Seatbelt Grip</strong> — taught by Ben Kool · 1:01 · <a href="https://www.youtube.com/watch?v=MwxnveKrlxU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

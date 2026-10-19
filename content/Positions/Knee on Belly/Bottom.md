@@ -166,8 +166,8 @@ description: "Master escaping Knee on Belly Bottom in BJJ. Defensive position re
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "How to Escape the Knee on Belly Position",
-      "description": "Knee on Belly (Bottom) film study: How to Escape the Knee on Belly Position, taught by Evolve MMA.",
+      "name": "BJJ | How To Escape The Knee On Belly Position",
+      "description": "Knee on Belly (Bottom) film study: BJJ | How To Escape The Knee On Belly Position, taught by Evolve MMA.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Wn01Ynw7O28/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Wn01Ynw7O28",
       "url": "https://www.youtube.com/watch?v=Wn01Ynw7O28",
@@ -188,8 +188,8 @@ description: "Master escaping Knee on Belly Bottom in BJJ. Defensive position re
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "Escape as They Transition to Knee on Belly",
-      "description": "Knee on Belly (Bottom) film study: Escape as They Transition to Knee on Belly, taught by John Kelly.",
+      "name": "Side Control Escape from Bottom as they transition to knee on belly and mount",
+      "description": "Knee on Belly (Bottom) film study: Side Control Escape from Bottom as they transition to knee on belly and mount, taught by John Kelly.",
       "thumbnailUrl": "https://i.ytimg.com/vi/DagXZb2hses/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/DagXZb2hses",
       "url": "https://www.youtube.com/watch?v=DagXZb2hses",
@@ -225,7 +225,7 @@ Knee on Belly Bottom is a highly disadvantageous defensive position where the pr
 
 ![](https://www.youtube.com/watch?v=Wn01Ynw7O28)
 
-<p class="clip-credit"><strong>How to Escape the Knee on Belly Position</strong> — taught by Evolve MMA · 0:40 · <a href="https://www.youtube.com/watch?v=Wn01Ynw7O28" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>BJJ | How To Escape The Knee On Belly Position</strong> — taught by Evolve MMA · 0:40 · <a href="https://www.youtube.com/watch?v=Wn01Ynw7O28" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -241,7 +241,7 @@ Knee on Belly Bottom is a highly disadvantageous defensive position where the pr
 
 ![](https://www.youtube.com/watch?v=DagXZb2hses)
 
-<p class="clip-credit"><strong>Escape as They Transition to Knee on Belly</strong> — taught by John Kelly · 0:58 · <a href="https://www.youtube.com/watch?v=DagXZb2hses" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Side Control Escape from Bottom as they transition to knee on belly and mount</strong> — taught by John Kelly · 0:58 · <a href="https://www.youtube.com/watch?v=DagXZb2hses" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -46,24 +46,13 @@ description: "Master High Mount in BJJ. Strategic guide covering advanced mount 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "High mount submission basics",
-      "description": "High Mount film study: High mount submission basics, taught by John Joseph Tabang.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/2MIuCN0fnxs/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/2MIuCN0fnxs",
-      "url": "https://www.youtube.com/watch?v=2MIuCN0fnxs",
-      "creator": { "@type": "Person", "name": "John Joseph Tabang" },
-      "duration": "PT133S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Cross collar chokes from mount",
-      "description": "High Mount film study: Cross collar chokes from mount, taught by Roger Gracie.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/dfP-Ov8FBUo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/dfP-Ov8FBUo",
-      "url": "https://www.youtube.com/watch?v=dfP-Ov8FBUo",
-      "creator": { "@type": "Person", "name": "Roger Gracie" },
-      "duration": "PT80S"
+      "name": "Escape from a high full mount",
+      "description": "High Mount film study: Escape from a high full mount, taught by TENZAN.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_05Lwonu0mw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_05Lwonu0mw",
+      "url": "https://www.youtube.com/watch?v=_05Lwonu0mw",
+      "creator": { "@type": "Person", "name": "TENZAN" },
+      "duration": "PT78S"
     }
   ]
 }
@@ -118,17 +107,9 @@ In competition contexts, High Mount represents the culmination of successful pas
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=2MIuCN0fnxs)
+![](https://www.youtube.com/watch?v=_05Lwonu0mw)
 
-<p class="clip-credit"><strong>High mount submission basics</strong> — taught by John Joseph Tabang · 2:13 · <a href="https://www.youtube.com/watch?v=2MIuCN0fnxs" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=dfP-Ov8FBUo)
-
-<p class="clip-credit"><strong>Cross collar chokes from mount</strong> — taught by Roger Gracie · 1:20 · <a href="https://www.youtube.com/watch?v=dfP-Ov8FBUo" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Escape from a high full mount</strong> — taught by TENZAN · 1:18 · <a href="https://www.youtube.com/watch?v=_05Lwonu0mw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

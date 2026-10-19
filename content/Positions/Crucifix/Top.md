@@ -165,35 +165,13 @@ description: "Master Crucifix Top in BJJ. Dominant arm-trapping control with sys
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Side crucifix arm attacks from mount",
-      "description": "Crucifix (Top) film study: Side crucifix arm attacks from mount, taught by Evolve MMA.",
+      "name": "BJJ | Mount To Side Crucifix Arm Attacks",
+      "description": "Crucifix (Top) film study: BJJ | Mount To Side Crucifix Arm Attacks, taught by Evolve MMA.",
       "thumbnailUrl": "https://i.ytimg.com/vi/-Vmyjv8-WFw/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/-Vmyjv8-WFw",
       "url": "https://www.youtube.com/watch?v=-Vmyjv8-WFw",
       "creator": { "@type": "Person", "name": "Evolve MMA" },
-      "duration": "PT76S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Crucifix murder choke",
-      "description": "Crucifix (Top) film study: Crucifix murder choke, taught by Innovative BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/1hMh6YiR0Po/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/1hMh6YiR0Po",
-      "url": "https://www.youtube.com/watch?v=1hMh6YiR0Po",
-      "creator": { "@type": "Person", "name": "Innovative BJJ" },
-      "duration": "PT18S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Crucifix to inverted triangle",
-      "description": "Crucifix (Top) film study: Crucifix to inverted triangle, taught by Zen Spot.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/QPpQnCDw65k/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/QPpQnCDw65k",
-      "url": "https://www.youtube.com/watch?v=QPpQnCDw65k",
-      "creator": { "@type": "Person", "name": "Zen Spot" },
-      "duration": "PT25S"
+      "duration": "PT75S"
     }
   ]
 }
@@ -225,23 +203,7 @@ Mastery of Crucifix Top requires understanding precise weight distribution to pr
 
 ![](https://www.youtube.com/watch?v=-Vmyjv8-WFw)
 
-<p class="clip-credit"><strong>Side crucifix arm attacks from mount</strong> — taught by Evolve MMA · 1:16 · <a href="https://www.youtube.com/watch?v=-Vmyjv8-WFw" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=1hMh6YiR0Po)
-
-<p class="clip-credit"><strong>Crucifix murder choke</strong> — taught by Innovative BJJ · 0:18 · <a href="https://www.youtube.com/watch?v=1hMh6YiR0Po" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=QPpQnCDw65k)
-
-<p class="clip-credit"><strong>Crucifix to inverted triangle</strong> — taught by Zen Spot · 0:25 · <a href="https://www.youtube.com/watch?v=QPpQnCDw65k" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>BJJ | Mount To Side Crucifix Arm Attacks</strong> — taught by Evolve MMA · 1:15 · <a href="https://www.youtube.com/watch?v=-Vmyjv8-WFw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

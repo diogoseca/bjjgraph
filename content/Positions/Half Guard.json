@@ -495,22 +495,13 @@
     ],
     "clips": [
       {
-        "id": "8WbQvytyCX0",
-        "title": "How to Pass the Flat Half Guard",
-        "by": "Malachy Friedman",
+        "id": "qNHk-dNW5pI",
         "vertical": false,
-        "channel": "Malachy Friedman",
-        "duration": 63,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "kTSMGYlVJKY",
-        "title": "Free Your Foot While Passing Half Guard",
-        "by": "Kameron Ross",
-        "vertical": false,
-        "channel": "Kameron Ross",
-        "duration": 55,
-        "verified": "2026-07-14"
+        "title": "Half Guard Passing Fundamentals and Top Control",
+        "channel": "KD Grappling | Kieran Davern",
+        "duration": 546,
+        "verified": "2026-10-19",
+        "front": true
       },
       {
         "id": "yj_6xcl2emA",
@@ -519,7 +510,7 @@
         "vertical": false,
         "channel": "War Room Jiu Jitsu",
         "duration": 70,
-        "verified": "2026-07-14"
+        "verified": "2026-10-19"
       }
     ]
   },
@@ -900,31 +891,13 @@
     ],
     "clips": [
       {
-        "id": "N_NGkZs9I-M",
-        "title": "Black X Sweep from Half Guard",
-        "by": "Bruno Bastos",
+        "id": "15kus9CLg2s",
         "vertical": false,
-        "channel": "Bernardo Faria BJJ Fanatics",
-        "duration": 61,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "llsV9Gn_usg",
-        "title": "Octopus Half Guard Sweep",
-        "by": "Khabib Nurmagomedov",
-        "vertical": false,
-        "channel": "The Fight Site",
-        "duration": 61,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "F8zTqADm7fU",
-        "title": "Arm Drag from Half Guard Knee Shield",
-        "by": "Bernardo Faria",
-        "vertical": false,
-        "channel": "Bernardo Faria BJJ Fanatics",
-        "duration": 162,
-        "verified": "2026-07-14"
+        "title": "JIU JITSU - HALF GUARD BASICS",
+        "channel": "East Midlands BJJ",
+        "duration": 512,
+        "verified": "2026-10-19",
+        "front": true
       }
     ]
   },
@@ -1159,30 +1132,13 @@
   "clips": [
     {
       "id": "X4jR2wWOy2M",
-      "title": "Half Guard to the Dogfight",
+      "title": "The Base BJJ Technique of the Week: Half Guard to the Dogfight",
       "by": "The Base Jiu Jitsu",
       "vertical": false,
       "channel": "The Base Jiu Jitsu",
       "duration": 79,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "N_NGkZs9I-M",
-      "title": "Black X Sweep from Half Guard",
-      "by": "Bruno Bastos",
-      "vertical": false,
-      "channel": "Bernardo Faria BJJ Fanatics",
-      "duration": 61,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "llsV9Gn_usg",
-      "title": "Octopus Half Guard Sweep",
-      "by": "Khabib Nurmagomedov",
-      "vertical": false,
-      "channel": "The Fight Site",
-      "duration": 61,
-      "verified": "2026-07-14"
+      "verified": "2026-10-19",
+      "half": "bottom"
     }
   ]
 }

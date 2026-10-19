@@ -420,31 +420,23 @@
     ],
     "clips": [
       {
-        "id": "aQ2vFXXBn-o",
-        "title": "Countering a full inversion",
-        "by": "Gordon Ryan",
+        "id": "ykTaOFB2fTc",
+        "title": "3 Options from Top Reverse Half-Guard",
+        "by": "MMA Leech",
         "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 61,
-        "verified": "2026-07-14"
+        "channel": "MMA Leech",
+        "duration": 632,
+        "verified": "2026-10-19",
+        "front": true
       },
       {
         "id": "4mHVpST5lLw",
-        "title": "Reverse half guard passing: shotgun pass",
+        "title": "Jiu Jitsu Fundamentals - Reverse Half Guard Passing - Shotgun Pass",
         "by": "The Base Jiu Jitsu",
         "vertical": false,
         "channel": "The Base Jiu Jitsu",
         "duration": 86,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "ykTaOFB2fTc",
-        "title": "3 options from top reverse half guard",
-        "by": "MMA Leech",
-        "vertical": false,
-        "channel": "MMA Leech",
-        "duration": 633,
-        "verified": "2026-07-15"
+        "verified": "2026-10-19"
       }
     ]
   },
@@ -958,24 +950,5 @@
       }
     }
   ],
-  "clips": [
-    {
-      "id": "VsPTkiq_OM4",
-      "title": "Reverse half guard sweep to leg drag",
-      "by": "Fernando Reis",
-      "vertical": false,
-      "channel": "BJJ Fanatics",
-      "duration": 62,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "0Cu3rm5TSIw",
-      "title": "Reverse guard basics",
-      "by": "Krishna Mirjah",
-      "vertical": false,
-      "channel": "Krishna Mirjah",
-      "duration": 65,
-      "verified": "2026-07-14"
-    }
-  ]
+  "clips": []
 }

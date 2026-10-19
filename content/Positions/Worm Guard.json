@@ -434,31 +434,14 @@
     ],
     "clips": [
       {
-        "id": "aR0dbddbfQA",
-        "title": "Passing the Polish Worm Rider (lapel pass)",
-        "by": "Daniel Maira",
-        "vertical": false,
-        "channel": "Movement Art",
-        "duration": 54,
-        "verified": "2026-07-14"
-      },
-      {
         "id": "LrcdkHwbHK8",
-        "title": "Passing Worm Guard tarikoplata",
+        "title": "Passing Worm Guard Tarikoplata",
         "by": "luciana MARCOS",
         "vertical": false,
         "channel": "luciana MARCOS",
         "duration": 66,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "u0D9HUwXuKE",
-        "title": "Passing lapel guard",
-        "by": "Vicente Cavalcanti",
-        "vertical": false,
-        "channel": "VICENTE CAVALCANTI",
-        "duration": 70,
-        "verified": "2026-07-14"
+        "verified": "2026-10-19",
+        "front": true
       }
     ]
   },
@@ -901,31 +884,13 @@
     ],
     "clips": [
       {
-        "id": "ARmiJRANTpg",
-        "title": "Worm Guard to back choke",
-        "by": "Keenan Cornelius",
+        "id": "rE7YuZTNmyE",
         "vertical": false,
-        "channel": "Jiu Jitsu Moves",
-        "duration": 36,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "qua4MaF2d98",
-        "title": "Worm Guard reverse omoplata",
-        "by": "Keenan Cornelius",
-        "vertical": false,
-        "channel": "Jiu Jitsu Moves",
-        "duration": 49,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "BHwU-bbyvkc",
-        "title": "Worm Guard attacks: sweep & berimbolo",
-        "by": "jamielovesmartialarts",
-        "vertical": false,
-        "channel": "jamielovesmartialarts",
-        "duration": 89,
-        "verified": "2026-07-14"
+        "title": "Worm Guard For Beginners | FULL LAPEL GUARD CURRICULUM",
+        "channel": "Paragon Jiu-Jitsu Academy Austin",
+        "duration": 1917,
+        "verified": "2026-10-19",
+        "front": true
       }
     ]
   },
@@ -1045,31 +1010,23 @@
   ],
   "clips": [
     {
-      "id": "QzwnLW735U8",
-      "title": "Worm Guard breakdown",
-      "by": "Erich Munis",
+      "id": "LrcdkHwbHK8",
+      "title": "Passing Worm Guard Tarikoplata",
+      "by": "luciana MARCOS",
       "vertical": false,
-      "channel": "Deep Dive JJ",
-      "duration": 53,
-      "verified": "2026-07-14"
+      "channel": "luciana MARCOS",
+      "duration": 66,
+      "verified": "2026-10-19",
+      "half": "top"
     },
     {
-      "id": "ARmiJRANTpg",
-      "title": "Worm Guard to back choke",
-      "by": "Keenan Cornelius",
+      "id": "rE7YuZTNmyE",
       "vertical": false,
-      "channel": "Jiu Jitsu Moves",
-      "duration": 36,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "OO2IqO3M8f8",
-      "title": "Lapel guard overview",
-      "by": "bjjhighlights",
-      "vertical": false,
-      "channel": "@bjjhighlights",
-      "duration": 52,
-      "verified": "2026-07-14"
+      "title": "Worm Guard For Beginners | FULL LAPEL GUARD CURRICULUM",
+      "channel": "Paragon Jiu-Jitsu Academy Austin",
+      "duration": 1917,
+      "verified": "2026-10-19",
+      "half": "bottom"
     }
   ]
 }

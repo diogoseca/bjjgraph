@@ -165,35 +165,13 @@ description: "Buggy Choke bottom perspective: Use safe shoulder and hip frames t
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "The buggy choke from bottom side control",
-      "description": "Buggy Choke (Bottom) film study: The buggy choke from bottom side control, taught by ZombieProofBJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/-b7Avb1x7g8/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/-b7Avb1x7g8",
-      "url": "https://www.youtube.com/watch?v=-b7Avb1x7g8",
-      "creator": { "@type": "Person", "name": "ZombieProofBJJ" },
-      "duration": "PT61S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Fixing common buggy choke mistakes",
-      "description": "Buggy Choke (Bottom) film study: Fixing common buggy choke mistakes, taught by Yoga for BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/0VDUwuyT6N4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/0VDUwuyT6N4",
-      "url": "https://www.youtube.com/watch?v=0VDUwuyT6N4",
-      "creator": { "@type": "Person", "name": "Yoga for BJJ" },
-      "duration": "PT71S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Buggy choke setups and finishes",
-      "description": "Buggy Choke (Bottom) film study: Buggy choke setups and finishes, taught by Kade Ruotolo.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/U-eR63GzcIo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/U-eR63GzcIo",
-      "url": "https://www.youtube.com/watch?v=U-eR63GzcIo",
-      "creator": { "@type": "Person", "name": "Kade Ruotolo" },
-      "duration": "PT67S"
+      "name": "BJJ Buggy Choke OVERHAUL - mechanics, troubleshooting, defense, and more",
+      "description": "Buggy Choke (Bottom) film study: BJJ Buggy Choke OVERHAUL - mechanics, troubleshooting, defense, and more, taught by Arroyo Grappling.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/mUwBihCvZl8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/mUwBihCvZl8",
+      "url": "https://www.youtube.com/watch?v=mUwBihCvZl8",
+      "creator": { "@type": "Person", "name": "Arroyo Grappling" },
+      "duration": "PT140S"
     }
   ]
 }
@@ -225,25 +203,9 @@ The bottom player supplies the arm-and-leg loop around the opponent's head and o
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=-b7Avb1x7g8)
+![](https://www.youtube.com/watch?v=mUwBihCvZl8)
 
-<p class="clip-credit"><strong>The buggy choke from bottom side control</strong> — taught by ZombieProofBJJ · 1:01 · <a href="https://www.youtube.com/watch?v=-b7Avb1x7g8" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=0VDUwuyT6N4)
-
-<p class="clip-credit"><strong>Fixing common buggy choke mistakes</strong> — taught by Yoga for BJJ · 1:11 · <a href="https://www.youtube.com/watch?v=0VDUwuyT6N4" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=U-eR63GzcIo)
-
-<p class="clip-credit"><strong>Buggy choke setups and finishes</strong> — taught by Kade Ruotolo · 1:07 · <a href="https://www.youtube.com/watch?v=U-eR63GzcIo" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>BJJ Buggy Choke OVERHAUL - mechanics, troubleshooting, defense, and more</strong> — taught by Arroyo Grappling · 2:20 · <a href="https://www.youtube.com/watch?v=mUwBihCvZl8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

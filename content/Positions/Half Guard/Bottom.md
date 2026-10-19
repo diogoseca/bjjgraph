@@ -165,35 +165,12 @@ description: "Master Half Guard Bottom with comprehensive sweeps, submissions, a
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Black X Sweep from Half Guard",
-      "description": "Half Guard (Bottom) film study: Black X Sweep from Half Guard, taught by Bruno Bastos.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/N_NGkZs9I-M/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/N_NGkZs9I-M",
-      "url": "https://www.youtube.com/watch?v=N_NGkZs9I-M",
-      "creator": { "@type": "Person", "name": "Bruno Bastos" },
-      "duration": "PT61S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Octopus Half Guard Sweep",
-      "description": "Half Guard (Bottom) film study: Octopus Half Guard Sweep, taught by Khabib Nurmagomedov.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/llsV9Gn_usg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/llsV9Gn_usg",
-      "url": "https://www.youtube.com/watch?v=llsV9Gn_usg",
-      "creator": { "@type": "Person", "name": "Khabib Nurmagomedov" },
-      "duration": "PT61S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Arm Drag from Half Guard Knee Shield",
-      "description": "Half Guard (Bottom) film study: Arm Drag from Half Guard Knee Shield, taught by Bernardo Faria.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/F8zTqADm7fU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/F8zTqADm7fU",
-      "url": "https://www.youtube.com/watch?v=F8zTqADm7fU",
-      "creator": { "@type": "Person", "name": "Bernardo Faria" },
-      "duration": "PT162S"
+      "name": "JIU JITSU - HALF GUARD BASICS",
+      "description": "Half Guard (Bottom) film study: JIU JITSU - HALF GUARD BASICS.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/15kus9CLg2s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/15kus9CLg2s",
+      "url": "https://www.youtube.com/watch?v=15kus9CLg2s",
+      "duration": "PT512S"
     }
   ]
 }
@@ -225,25 +202,9 @@ Rather than a passive defensive position, Half Guard Bottom in modern jiu-jitsu 
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=N_NGkZs9I-M)
+![](https://www.youtube.com/watch?v=15kus9CLg2s)
 
-<p class="clip-credit"><strong>Black X Sweep from Half Guard</strong> — taught by Bruno Bastos · 1:01 · <a href="https://www.youtube.com/watch?v=N_NGkZs9I-M" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=llsV9Gn_usg)
-
-<p class="clip-credit"><strong>Octopus Half Guard Sweep</strong> — taught by Khabib Nurmagomedov · 1:01 · <a href="https://www.youtube.com/watch?v=llsV9Gn_usg" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=F8zTqADm7fU)
-
-<p class="clip-credit"><strong>Arm Drag from Half Guard Knee Shield</strong> — taught by Bernardo Faria · 2:42 · <a href="https://www.youtube.com/watch?v=F8zTqADm7fU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>JIU JITSU - HALF GUARD BASICS</strong> · 8:32 · <a href="https://www.youtube.com/watch?v=15kus9CLg2s" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

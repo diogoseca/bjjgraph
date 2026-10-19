@@ -46,35 +46,13 @@ description: "Master Half Guard in BJJ with comprehensive bottom and top strateg
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Half Guard to the Dogfight",
-      "description": "Half Guard film study: Half Guard to the Dogfight, taught by The Base Jiu Jitsu.",
+      "name": "The Base BJJ Technique of the Week: Half Guard to the Dogfight",
+      "description": "Half Guard film study: The Base BJJ Technique of the Week: Half Guard to the Dogfight, taught by The Base Jiu Jitsu.",
       "thumbnailUrl": "https://i.ytimg.com/vi/X4jR2wWOy2M/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/X4jR2wWOy2M",
       "url": "https://www.youtube.com/watch?v=X4jR2wWOy2M",
       "creator": { "@type": "Person", "name": "The Base Jiu Jitsu" },
       "duration": "PT79S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Black X Sweep from Half Guard",
-      "description": "Half Guard film study: Black X Sweep from Half Guard, taught by Bruno Bastos.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/N_NGkZs9I-M/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/N_NGkZs9I-M",
-      "url": "https://www.youtube.com/watch?v=N_NGkZs9I-M",
-      "creator": { "@type": "Person", "name": "Bruno Bastos" },
-      "duration": "PT61S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Octopus Half Guard Sweep",
-      "description": "Half Guard film study: Octopus Half Guard Sweep, taught by Khabib Nurmagomedov.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/llsV9Gn_usg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/llsV9Gn_usg",
-      "url": "https://www.youtube.com/watch?v=llsV9Gn_usg",
-      "creator": { "@type": "Person", "name": "Khabib Nurmagomedov" },
-      "duration": "PT61S"
     }
   ]
 }
@@ -129,23 +107,7 @@ Modern Half Guard play emphasizes constant movement, systematic position improve
 
 ![](https://www.youtube.com/watch?v=X4jR2wWOy2M)
 
-<p class="clip-credit"><strong>Half Guard to the Dogfight</strong> — taught by The Base Jiu Jitsu · 1:19 · <a href="https://www.youtube.com/watch?v=X4jR2wWOy2M" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=N_NGkZs9I-M)
-
-<p class="clip-credit"><strong>Black X Sweep from Half Guard</strong> — taught by Bruno Bastos · 1:01 · <a href="https://www.youtube.com/watch?v=N_NGkZs9I-M" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=llsV9Gn_usg)
-
-<p class="clip-credit"><strong>Octopus Half Guard Sweep</strong> — taught by Khabib Nurmagomedov · 1:01 · <a href="https://www.youtube.com/watch?v=llsV9Gn_usg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>The Base BJJ Technique of the Week: Half Guard to the Dogfight</strong> — taught by The Base Jiu Jitsu · 1:19 · <a href="https://www.youtube.com/watch?v=X4jR2wWOy2M" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -167,24 +167,13 @@ description: "Escape North-South bottom position in BJJ. Comprehensive guide to 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "North-South inverted spin escape",
-      "description": "North-South (Bottom) film study: North-South inverted spin escape, taught by SBG Australia.",
+      "name": "4th stripe - North South inverted spin escape",
+      "description": "North-South (Bottom) film study: 4th stripe - North South inverted spin escape, taught by SBG Australia.",
       "thumbnailUrl": "https://i.ytimg.com/vi/XaLBmGnHm78/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/XaLBmGnHm78",
       "url": "https://www.youtube.com/watch?v=XaLBmGnHm78",
       "creator": { "@type": "Person", "name": "SBG Australia" },
-      "duration": "PT37S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "No-grips escape rolling back to guard",
-      "description": "North-South (Bottom) film study: No-grips escape rolling back to guard, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Ly89G4iCTSQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Ly89G4iCTSQ",
-      "url": "https://www.youtube.com/watch?v=Ly89G4iCTSQ",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT108S"
+      "duration": "PT36S"
     }
   ]
 }
@@ -222,15 +211,7 @@ The position demands mental toughness and technical precision. Panic and explosi
 
 ![](https://www.youtube.com/watch?v=XaLBmGnHm78)
 
-<p class="clip-credit"><strong>North-South inverted spin escape</strong> — taught by SBG Australia · 0:37 · <a href="https://www.youtube.com/watch?v=XaLBmGnHm78" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=Ly89G4iCTSQ)
-
-<p class="clip-credit"><strong>No-grips escape rolling back to guard</strong> — taught by Lachlan Giles · 1:48 · <a href="https://www.youtube.com/watch?v=Ly89G4iCTSQ" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>4th stripe - North South inverted spin escape</strong> — taught by SBG Australia · 0:36 · <a href="https://www.youtube.com/watch?v=XaLBmGnHm78" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

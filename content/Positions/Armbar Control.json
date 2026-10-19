@@ -450,12 +450,13 @@
     "clips": [
       {
         "id": "I8f9wkX7n4Y",
-        "title": "Straight armbar from guard",
+        "title": "Straight Arm Lock From Guard (Armbar) by Gracie Charlottesville",
         "by": "Gracie Charlottesville",
         "vertical": false,
         "channel": "Gracie Charlottesville",
-        "duration": 30,
-        "verified": "2026-07-14"
+        "duration": 29,
+        "verified": "2026-10-19",
+        "front": true
       },
       {
         "id": "BFmncj84lNE",
@@ -464,16 +465,7 @@
         "vertical": false,
         "channel": "Way of BJJ",
         "duration": 73,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "vSmRbpNmf-E",
-        "title": "Roger Gracie armbars",
-        "by": "Roger Gracie",
-        "vertical": false,
-        "channel": "Jiu Jitsu Moves",
-        "duration": 102,
-        "verified": "2026-07-14"
+        "verified": "2026-10-19"
       }
     ]
   },
@@ -863,31 +855,32 @@
     ],
     "clips": [
       {
-        "id": "kNdKfUdgO4I",
-        "title": "Favorite armbar escape",
-        "by": "Matt Arroyo",
-        "vertical": false,
-        "channel": "Matt Arroyo Jiu Jitsu ",
-        "duration": 92,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "sDdqvh_1kbA",
-        "title": "Armbar escape to RNC",
-        "by": "ZombieProofBJJ",
-        "vertical": false,
-        "channel": "ZombieProofBJJ",
-        "duration": 63,
-        "verified": "2026-07-14"
-      },
-      {
         "id": "lXpel1GO2Do",
-        "title": "Armbar stack escape",
+        "title": "BJJ Armbar Stack Escape",
         "by": "WNY MMA",
         "vertical": false,
         "channel": "WNY MMA & Fitness",
         "duration": 37,
-        "verified": "2026-07-14"
+        "verified": "2026-10-19",
+        "front": true
+      },
+      {
+        "id": "sDdqvh_1kbA",
+        "title": "Armbar Escape: RNC",
+        "by": "ZombieProofBJJ",
+        "vertical": true,
+        "channel": "ZombieProofBJJ",
+        "duration": 62,
+        "verified": "2026-10-19"
+      },
+      {
+        "id": "kNdKfUdgO4I",
+        "title": "THIS is my favorite armbar escape! #jiujitsu #jiujitsutips",
+        "by": "Matt Arroyo",
+        "vertical": true,
+        "channel": "Matt Arroyo Jiu Jitsu ",
+        "duration": 92,
+        "verified": "2026-10-19"
       }
     ]
   },
@@ -993,31 +986,24 @@
   ],
   "clips": [
     {
-      "id": "vSmRbpNmf-E",
-      "title": "Roger Gracie armbars",
-      "by": "Roger Gracie",
-      "vertical": false,
-      "channel": "Jiu Jitsu Moves",
-      "duration": 102,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "I8f9wkX7n4Y",
-      "title": "Straight armbar from guard",
-      "by": "Gracie Charlottesville",
-      "vertical": false,
-      "channel": "Gracie Charlottesville",
-      "duration": 30,
-      "verified": "2026-07-14"
-    },
-    {
       "id": "R2-h9yOwRdU",
-      "title": "Relson Gracie teaches the armbar",
+      "title": "Relson Gracie teaches armbar at Balance Studios in Philadelphia",
       "by": "Relson Gracie",
       "vertical": false,
       "channel": "Balance Studios: Gracie Jiu-Jitsu & Muay Thai",
-      "duration": 72,
-      "verified": "2026-07-14"
+      "duration": 71,
+      "verified": "2026-10-19",
+      "half": "top"
+    },
+    {
+      "id": "I8f9wkX7n4Y",
+      "title": "Straight Arm Lock From Guard (Armbar) by Gracie Charlottesville",
+      "by": "Gracie Charlottesville",
+      "vertical": false,
+      "channel": "Gracie Charlottesville",
+      "duration": 29,
+      "verified": "2026-10-19",
+      "half": "top"
     }
   ]
 }

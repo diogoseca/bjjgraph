@@ -46,24 +46,33 @@ description: "Master Seated Guard in BJJ. Complete guide covering entries, trans
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Sit Up Guard (live demonstration)",
-      "description": "Seated Guard film study: Sit Up Guard (live demonstration), taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/qP9iLxlxgzw/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/qP9iLxlxgzw",
-      "url": "https://www.youtube.com/watch?v=qP9iLxlxgzw",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT120S"
+      "name": "Seated Guard vs Standing: Distance Control and Problem Solving",
+      "description": "Seated Guard film study: Seated Guard vs Standing: Distance Control and Problem Solving.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aomPFOrnW9g/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aomPFOrnW9g",
+      "url": "https://www.youtube.com/watch?v=aomPFOrnW9g",
+      "duration": "PT392S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "When To Sit Up for Guard Retention",
-      "description": "Seated Guard film study: When To Sit Up for Guard Retention, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/lVLAROiSjNU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/lVLAROiSjNU",
-      "url": "https://www.youtube.com/watch?v=lVLAROiSjNU",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT136S"
+      "name": "How to Pass the Seated Guard in BJJ",
+      "description": "Seated Guard film study: How to Pass the Seated Guard in BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/EmQ8Sloj1Oo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/EmQ8Sloj1Oo",
+      "url": "https://www.youtube.com/watch?v=EmQ8Sloj1Oo",
+      "duration": "PT412S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Seated Guard Hand Fighting Drill: Sweep | Wrestle Up | Single Leg X",
+      "description": "Seated Guard film study: Seated Guard Hand Fighting Drill: Sweep | Wrestle Up | Single Leg X, taught by Factory Fresh Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/H3HHTStUtVs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/H3HHTStUtVs",
+      "url": "https://www.youtube.com/watch?v=H3HHTStUtVs",
+      "creator": { "@type": "Person", "name": "Factory Fresh Jiu Jitsu" },
+      "duration": "PT43S"
     }
   ]
 }
@@ -114,17 +123,25 @@ Seated Guard works best when opponent is standing or on knees with distance, but
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=qP9iLxlxgzw)
+![](https://www.youtube.com/watch?v=aomPFOrnW9g)
 
-<p class="clip-credit"><strong>Sit Up Guard (live demonstration)</strong> — taught by Lachlan Giles · 2:00 · <a href="https://www.youtube.com/watch?v=qP9iLxlxgzw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Seated Guard vs Standing: Distance Control and Problem Solving</strong> · 6:32 · <a href="https://www.youtube.com/watch?v=aomPFOrnW9g" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=lVLAROiSjNU)
+![](https://www.youtube.com/watch?v=EmQ8Sloj1Oo)
 
-<p class="clip-credit"><strong>When To Sit Up for Guard Retention</strong> — taught by Lachlan Giles · 2:16 · <a href="https://www.youtube.com/watch?v=lVLAROiSjNU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How to Pass the Seated Guard in BJJ</strong> · 6:52 · <a href="https://www.youtube.com/watch?v=EmQ8Sloj1Oo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=H3HHTStUtVs)
+
+<p class="clip-credit"><strong>Seated Guard Hand Fighting Drill: Sweep | Wrestle Up | Single Leg X</strong> — taught by Factory Fresh Jiu Jitsu · 0:43 · <a href="https://www.youtube.com/watch?v=H3HHTStUtVs" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

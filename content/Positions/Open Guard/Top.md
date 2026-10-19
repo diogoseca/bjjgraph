@@ -165,35 +165,12 @@ description: "Master Open Guard Top in BJJ. Complete guide covering passing stra
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Countering a full inversion",
-      "description": "Open Guard (Top) film study: Countering a full inversion, taught by Gordon Ryan.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/aQ2vFXXBn-o/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/aQ2vFXXBn-o",
-      "url": "https://www.youtube.com/watch?v=aQ2vFXXBn-o",
-      "creator": { "@type": "Person", "name": "Gordon Ryan" },
-      "duration": "PT61S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "ADCC 2022 guard pass",
-      "description": "Open Guard (Top) film study: ADCC 2022 guard pass, taught by Gordon Ryan.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/9VdMAXqLXHA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/9VdMAXqLXHA",
-      "url": "https://www.youtube.com/watch?v=9VdMAXqLXHA",
-      "creator": { "@type": "Person", "name": "Gordon Ryan" },
-      "duration": "PT154S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Hip switch to back take",
-      "description": "Open Guard (Top) film study: Hip switch to back take, taught by Gordon Ryan.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/f3PJ06A_bWQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/f3PJ06A_bWQ",
-      "url": "https://www.youtube.com/watch?v=f3PJ06A_bWQ",
-      "creator": { "@type": "Person", "name": "Gordon Ryan" },
-      "duration": "PT19S"
+      "name": "How to Pass The Open Guard: Complete Guide 2022",
+      "description": "Open Guard (Top) film study: How to Pass The Open Guard: Complete Guide 2022.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pn59xw1z9nE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/pn59xw1z9nE",
+      "url": "https://www.youtube.com/watch?v=pn59xw1z9nE",
+      "duration": "PT728S"
     }
   ]
 }
@@ -219,25 +196,9 @@ Open Guard Top is the fundamental position where the top player engages with an 
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=aQ2vFXXBn-o)
+![](https://www.youtube.com/watch?v=pn59xw1z9nE)
 
-<p class="clip-credit"><strong>Countering a full inversion</strong> — taught by Gordon Ryan · 1:01 · <a href="https://www.youtube.com/watch?v=aQ2vFXXBn-o" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=9VdMAXqLXHA)
-
-<p class="clip-credit"><strong>ADCC 2022 guard pass</strong> — taught by Gordon Ryan · 2:34 · <a href="https://www.youtube.com/watch?v=9VdMAXqLXHA" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=f3PJ06A_bWQ)
-
-<p class="clip-credit"><strong>Hip switch to back take</strong> — taught by Gordon Ryan · 0:19 · <a href="https://www.youtube.com/watch?v=f3PJ06A_bWQ" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How to Pass The Open Guard: Complete Guide 2022</strong> · 12:08 · <a href="https://www.youtube.com/watch?v=pn59xw1z9nE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

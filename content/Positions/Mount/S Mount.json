@@ -884,31 +884,14 @@
     ],
     "clips": [
       {
-        "id": "pUZcLTWHAzk",
-        "title": "Knee and elbow mount escape",
-        "by": "jamielovesmartialarts",
-        "vertical": false,
-        "channel": "jamielovesmartialarts",
-        "duration": 71,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "PI7rr0TzmWw",
-        "title": "S Mount Defense",
-        "by": "Dinu Bucalet",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 141,
-        "verified": "2026-07-16"
-      },
-      {
         "id": "WKqvJLpq7nc",
-        "title": "Mount Escape: Dealing with the Switch to S-Mount",
+        "title": "Goathook escape from mount: dealing with the switch to S-mount",
         "by": "Revolution BJJ coach",
         "vertical": false,
         "channel": "Revolution BJJ",
         "duration": 72,
-        "verified": "2026-07-16"
+        "verified": "2026-10-19",
+        "front": true
       }
     ]
   },
@@ -1028,31 +1011,14 @@
   ],
   "clips": [
     {
-      "id": "FSbR22OOSaE",
-      "title": "S-Mount basics",
-      "by": "ZombieProofBJJ",
+      "id": "WKqvJLpq7nc",
+      "title": "Goathook escape from mount: dealing with the switch to S-mount",
+      "by": "Revolution BJJ coach",
       "vertical": false,
-      "channel": "ZombieProofBJJ",
+      "channel": "Revolution BJJ",
       "duration": 72,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "BDoWDTgzKf8",
-      "title": "Attack options from S-Mount",
-      "by": "DS Team Jiu Jitsu",
-      "vertical": false,
-      "channel": "DS Team Jiu Jitsu School",
-      "duration": 110,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "2Xm_mLp8xwk",
-      "title": "S-Mount troubleshooting",
-      "by": "ZombieProofBJJ",
-      "vertical": false,
-      "channel": "ZombieProofBJJ",
-      "duration": 67,
-      "verified": "2026-07-14"
+      "verified": "2026-10-19",
+      "half": "bottom"
     }
   ]
 }

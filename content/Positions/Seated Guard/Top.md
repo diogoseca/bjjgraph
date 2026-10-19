@@ -165,35 +165,12 @@ description: "Master passing Seated Guard in BJJ. Strategic guide covering dista
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Passing a Seated Guard With Underhooks",
-      "description": "Seated Guard (Top) film study: Passing a Seated Guard With Underhooks, taught by John Danaher.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/zT3JjOR838w/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/zT3JjOR838w",
-      "url": "https://www.youtube.com/watch?v=zT3JjOR838w",
-      "creator": { "@type": "Person", "name": "John Danaher" },
-      "duration": "PT143S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Countering a Full Inversion While Passing",
-      "description": "Seated Guard (Top) film study: Countering a Full Inversion While Passing, taught by Gordon Ryan.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/aQ2vFXXBn-o/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/aQ2vFXXBn-o",
-      "url": "https://www.youtube.com/watch?v=aQ2vFXXBn-o",
-      "creator": { "@type": "Person", "name": "Gordon Ryan" },
-      "duration": "PT61S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Application Against a Seated Opponent",
-      "description": "Seated Guard (Top) film study: Application Against a Seated Opponent, taught by John Danaher.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Es7T1KjTUpI/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Es7T1KjTUpI",
-      "url": "https://www.youtube.com/watch?v=Es7T1KjTUpI",
-      "creator": { "@type": "Person", "name": "John Danaher" },
-      "duration": "PT157S"
+      "name": "How to Pass the Seated Guard in BJJ",
+      "description": "Seated Guard (Top) film study: How to Pass the Seated Guard in BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/EmQ8Sloj1Oo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/EmQ8Sloj1Oo",
+      "url": "https://www.youtube.com/watch?v=EmQ8Sloj1Oo",
+      "duration": "PT412S"
     }
   ]
 }
@@ -223,25 +200,9 @@ Seated Guard Top works best when you establish dominant grips (collar, sleeves, 
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=zT3JjOR838w)
+![](https://www.youtube.com/watch?v=EmQ8Sloj1Oo)
 
-<p class="clip-credit"><strong>Passing a Seated Guard With Underhooks</strong> — taught by John Danaher · 2:23 · <a href="https://www.youtube.com/watch?v=zT3JjOR838w" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=aQ2vFXXBn-o)
-
-<p class="clip-credit"><strong>Countering a Full Inversion While Passing</strong> — taught by Gordon Ryan · 1:01 · <a href="https://www.youtube.com/watch?v=aQ2vFXXBn-o" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=Es7T1KjTUpI)
-
-<p class="clip-credit"><strong>Application Against a Seated Opponent</strong> — taught by John Danaher · 2:37 · <a href="https://www.youtube.com/watch?v=Es7T1KjTUpI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How to Pass the Seated Guard in BJJ</strong> · 6:52 · <a href="https://www.youtube.com/watch?v=EmQ8Sloj1Oo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

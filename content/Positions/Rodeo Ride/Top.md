@@ -165,35 +165,12 @@ description: "Master Rodeo Ride attacks in BJJ. Advanced turtle control position
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Breaking the turtle with the spiral ride",
-      "description": "Rodeo Ride (Top) film study: Breaking the turtle with the spiral ride, taught by Big Guy BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/XXnawMQEfKw/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/XXnawMQEfKw",
-      "url": "https://www.youtube.com/watch?v=XXnawMQEfKw",
-      "creator": { "@type": "Person", "name": "Big Guy BJJ" },
-      "duration": "PT73S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Knee-to-belly to rodeo back take",
-      "description": "Rodeo Ride (Top) film study: Knee-to-belly to rodeo back take, taught by Muny Munoz.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/yUEVUbXEHrs/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/yUEVUbXEHrs",
-      "url": "https://www.youtube.com/watch?v=yUEVUbXEHrs",
-      "creator": { "@type": "Person", "name": "Muny Munoz" },
-      "duration": "PT34S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Rodeo choke from turtle top",
-      "description": "Rodeo Ride (Top) film study: Rodeo choke from turtle top, taught by Ethos Jiu-Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/6MhcPYISQDU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/6MhcPYISQDU",
-      "url": "https://www.youtube.com/watch?v=6MhcPYISQDU",
-      "creator": { "@type": "Person", "name": "Ethos Jiu-Jitsu" },
-      "duration": "PT85S"
+      "name": "Rodeo Ride Rolling Drill",
+      "description": "Rodeo Ride (Top) film study: Rodeo Ride Rolling Drill.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/uFByeiUdSm4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/uFByeiUdSm4",
+      "url": "https://www.youtube.com/watch?v=uFByeiUdSm4",
+      "duration": "PT64S"
     }
   ]
 }
@@ -223,25 +200,9 @@ Rodeo Ride is particularly valuable in modern competition BJJ because it provide
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=XXnawMQEfKw)
+![](https://www.youtube.com/watch?v=uFByeiUdSm4)
 
-<p class="clip-credit"><strong>Breaking the turtle with the spiral ride</strong> — taught by Big Guy BJJ · 1:13 · <a href="https://www.youtube.com/watch?v=XXnawMQEfKw" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=yUEVUbXEHrs)
-
-<p class="clip-credit"><strong>Knee-to-belly to rodeo back take</strong> — taught by Muny Munoz · 0:34 · <a href="https://www.youtube.com/watch?v=yUEVUbXEHrs" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=6MhcPYISQDU)
-
-<p class="clip-credit"><strong>Rodeo choke from turtle top</strong> — taught by Ethos Jiu-Jitsu · 1:25 · <a href="https://www.youtube.com/watch?v=6MhcPYISQDU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Rodeo Ride Rolling Drill</strong> · 1:04 · <a href="https://www.youtube.com/watch?v=uFByeiUdSm4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
