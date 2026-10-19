@@ -179,8 +179,8 @@ test("spa nav single-instance law: two soft navs → one root, fresh instance ea
       roots: document.querySelectorAll("#neural-root").length,
       beatsLen: (a.beats || []).length,
       beats: (a.beats || []).map((b: any) => b.beat),
-      waits: (a.beats || []).filter((b: any) => b.beat === "land_q_skipped").map((b: any) => b.reason),
-      backfilled: (a.beats || []).find((b: any) => b.beat === "land_q_shown")?.backfill ?? null,
+      skips: (a.beats || []).map((b: any, i: number) => b.beat === "land_q_skipped" ? { i, deckKey: b.deckKey, reason: b.reason } : null).filter(Boolean),
+      shown: (({ deckKey, backfill }: any = {}) => ({ deckKey: deckKey ?? null, backfill: !!backfill }))((a.beats || []).find((b: any) => b.beat === "land_q_shown")),
       dormant: { intent: a._readerIntent, paused: a.paused, clock: a._decision?.remaining ?? null, played: !!a._played },
       nodesLen: (a.nodes || []).length,
       isNewInstance: a !== w.__life1,
@@ -205,9 +205,15 @@ test("spa nav single-instance law: two soft navs → one root, fresh instance ea
   // landing records `land_q_skipped {reason: "decks_in_flight"}` at each render until the question
   // backfills. Those are its OWN dormant-arrival beats (the ledger invariant), not a prior life's.
   // Reproduced by holding life 2's manifest 2s, on this PR's site and the dev capture alike
-  // (claude-verify H4). Every other beat stays exact, and a wait is admitted only when it backfilled.
-  expect(life2.waits.every((r: string) => r === "decks_in_flight"), `life 2's own manifest wait only: ${life2.waits}`).toBe(true);
-  if (life2.waits.length) expect(life2.backfilled, "a manifest wait ends in the backfilled question").toBe(true);
+  // (claude-verify H4). Every other beat stays exact. A wait is admitted only for the shown question's
+  // own deck, only between beacon_moved and mc_shown, and only when it then backfilled (D-333 D3-S1).
+  const at = (name: string) => life2.beats.indexOf(name);
+  for (const skip of life2.skips) {
+    expect(skip.reason, `life 2's own manifest wait only: ${JSON.stringify(life2.skips)}`).toBe("decks_in_flight");
+    expect(skip.deckKey, `a manifest wait is the shown question's own deck: ${JSON.stringify(life2.skips)}`).toBe(life2.shown.deckKey);
+    expect(skip.i > at("beacon_moved") && skip.i < at("mc_shown"), `a manifest wait sits between beacon_moved and mc_shown: ${life2.beats}`).toBe(true);
+  }
+  if (life2.skips.length) expect(life2.shown.backfill, "a manifest wait ends in the backfilled question").toBe(true);
   expect(
     life2.beats.filter((b: string) => b !== "land_q_skipped"),
     "fresh content instance: only its own dormant landing, no prior-life beats",
