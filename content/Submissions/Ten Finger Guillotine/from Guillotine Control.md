@@ -46,16 +46,6 @@ description: "Master the Ten Finger Guillotine from Guillotine Control in BJJ. S
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "10 finger grip Guillotine choke",
-      "description": "Ten Finger Guillotine from Guillotine Control film study: 10 finger grip Guillotine choke.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/rYKci9GFisg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/rYKci9GFisg",
-      "url": "https://www.youtube.com/watch?v=rYKci9GFisg",
-      "duration": "PT19S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
       "name": "How to Do a 10-Finger Guillotine | MMA Submissions",
       "description": "Ten Finger Guillotine from Guillotine Control film study: How to Do a 10-Finger Guillotine | MMA Submissions.",
       "thumbnailUrl": "https://i.ytimg.com/vi/tsofKYcYqaA/hqdefault.jpg",
@@ -121,14 +111,6 @@ Strategically, this submission chains naturally with the broader guillotine cont
 
 <p class="section-subtitle">Watch Ten Finger Guillotine from Guillotine Control in action — curated instructionals</p>
 
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=rYKci9GFisg)
-
-<p class="clip-credit"><strong>10 finger grip Guillotine choke</strong> · 0:19 · <a href="https://www.youtube.com/watch?v=rYKci9GFisg" rel="noopener">Watch on YouTube</a></p>
-
-</div>
 
 <div class="film-clip">
 

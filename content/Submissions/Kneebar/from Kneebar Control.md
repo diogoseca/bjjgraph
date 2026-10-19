@@ -46,22 +46,22 @@ description: "Master the kneebar finish from kneebar control in BJJ. Step-by-ste
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Master the Standing Grapevine to Kneebar | Billy Robinson\u2019s Catch Wrestling\u2026",
-      "description": "Kneebar from Kneebar Control film study: Master the Standing Grapevine to Kneebar | Billy Robinson\u2019s Catch Wrestling\u2026.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/NzkSekbRmZ4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/NzkSekbRmZ4",
-      "url": "https://www.youtube.com/watch?v=NzkSekbRmZ4",
-      "duration": "PT63S"
+      "name": "Kneebar Escape by Darren Branch | High Rollerz Academy - Jiu Jitsu\u2026",
+      "description": "Kneebar from Kneebar Control film study: Kneebar Escape by Darren Branch | High Rollerz Academy - Jiu Jitsu\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3zJthP57wXw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3zJthP57wXw",
+      "url": "https://www.youtube.com/watch?v=3zJthP57wXw",
+      "duration": "PT73S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Go Behind Kneebar by Craig Jones",
-      "description": "Kneebar from Kneebar Control film study: Go Behind Kneebar by Craig Jones.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/v4lhLkKgVvU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/v4lhLkKgVvU",
-      "url": "https://www.youtube.com/watch?v=v4lhLkKgVvU",
-      "duration": "PT129S"
+      "name": "Defending Kneebar To Toe Hold",
+      "description": "Kneebar from Kneebar Control film study: Defending Kneebar To Toe Hold.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hze1WyTvkzA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hze1WyTvkzA",
+      "url": "https://www.youtube.com/watch?v=hze1WyTvkzA",
+      "duration": "PT24S"
     }
   ]
 }
@@ -124,17 +124,17 @@ Strategically, the kneebar from kneebar control functions as the terminal submis
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=NzkSekbRmZ4)
+![](https://www.youtube.com/watch?v=3zJthP57wXw)
 
-<p class="clip-credit"><strong>Master the Standing Grapevine to Kneebar | Billy Robinson’s Catch Wrestling…</strong> · 1:03 · <a href="https://www.youtube.com/watch?v=NzkSekbRmZ4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Kneebar Escape by Darren Branch | High Rollerz Academy - Jiu Jitsu…</strong> · 1:13 · <a href="https://www.youtube.com/watch?v=3zJthP57wXw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=v4lhLkKgVvU)
+![](https://www.youtube.com/watch?v=hze1WyTvkzA)
 
-<p class="clip-credit"><strong>Go Behind Kneebar by Craig Jones</strong> · 2:09 · <a href="https://www.youtube.com/watch?v=v4lhLkKgVvU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Defending Kneebar To Toe Hold</strong> · 0:24 · <a href="https://www.youtube.com/watch?v=hze1WyTvkzA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

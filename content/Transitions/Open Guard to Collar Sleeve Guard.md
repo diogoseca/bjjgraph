@@ -46,12 +46,12 @@ description: "Learn to establish collar sleeve guard from open guard bottom. Mas
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "How to Break those BJJ/Grappling Grips (Collar \u0026 Sleeve)",
-      "description": "Open Guard to Collar Sleeve Guard film study: How to Break those BJJ/Grappling Grips (Collar \u0026 Sleeve).",
-      "thumbnailUrl": "https://i.ytimg.com/vi/zuLPD05QWKI/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/zuLPD05QWKI",
-      "url": "https://www.youtube.com/watch?v=zuLPD05QWKI",
-      "duration": "PT215S"
+      "name": "Understand the Collar Sleeve Guard In 5 Min",
+      "description": "Open Guard to Collar Sleeve Guard film study: Understand the Collar Sleeve Guard In 5 Min.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/PKQEms4w9T4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/PKQEms4w9T4",
+      "url": "https://www.youtube.com/watch?v=PKQEms4w9T4",
+      "duration": "PT339S"
     }
   ]
 }
@@ -105,9 +105,9 @@ Strategically, this transition represents a critical decision point in open guar
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=zuLPD05QWKI)
+![](https://www.youtube.com/watch?v=PKQEms4w9T4)
 
-<p class="clip-credit"><strong>How to Break those BJJ/Grappling Grips (Collar &amp; Sleeve)</strong> · 3:35 · <a href="https://www.youtube.com/watch?v=zuLPD05QWKI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Understand the Collar Sleeve Guard In 5 Min</strong> · 5:39 · <a href="https://www.youtube.com/watch?v=PKQEms4w9T4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

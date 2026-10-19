@@ -36,6 +36,27 @@ description: "Learn Granby to Closed Guard recovery technique. Master Granby rol
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Granby to Closed Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Turtle Position in BJJ: Countering the Shoulder Roll",
+      "description": "Granby to Closed Guard film study: Turtle Position in BJJ: Countering the Shoulder Roll.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fbBUFqO6Pso/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fbBUFqO6Pso",
+      "url": "https://www.youtube.com/watch?v=fbBUFqO6Pso",
+      "duration": "PT324S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -74,6 +95,24 @@ Mastery of the Granby to Closed Guard provides practitioners with a reliable esc
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Granby to Closed Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fbBUFqO6Pso)
+
+<p class="clip-credit"><strong>Turtle Position in BJJ: Countering the Shoulder Roll</strong> · 5:24 · <a href="https://www.youtube.com/watch?v=fbBUFqO6Pso" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="possible-outcomes" class="content-section">

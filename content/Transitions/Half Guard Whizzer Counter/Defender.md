@@ -145,16 +145,6 @@ description: "How to defend the Half Guard Whizzer Counter in BJJ. Bottom-game p
       "embedUrl": "https://www.youtube.com/embed/QpiSPUtLtpE",
       "url": "https://www.youtube.com/watch?v=QpiSPUtLtpE",
       "duration": "PT141S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Underhook Fundamental vs Whizzer Counter @Burybjj",
-      "description": "Half Guard Whizzer Counter (Defender) film study: Underhook Fundamental vs Whizzer Counter @Burybjj.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/P4XzQEyx55c/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/P4XzQEyx55c",
-      "url": "https://www.youtube.com/watch?v=P4XzQEyx55c",
-      "duration": "PT167S"
     }
   ]
 }
@@ -192,14 +182,6 @@ The most common defensive mistakes are letting the underhook stay shallow so it 
 ![](https://www.youtube.com/watch?v=QpiSPUtLtpE)
 
 <p class="clip-credit"><strong>Defeat the Whizzer in the Dog Fight Position</strong> · 2:21 · <a href="https://www.youtube.com/watch?v=QpiSPUtLtpE" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=P4XzQEyx55c)
-
-<p class="clip-credit"><strong>Underhook Fundamental vs Whizzer Counter @Burybjj</strong> · 2:47 · <a href="https://www.youtube.com/watch?v=P4XzQEyx55c" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

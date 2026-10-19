@@ -150,6 +150,27 @@ description: "How to defend against Long Step Pass in BJJ. Recognition cues, def
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Long Step Pass (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Deep De la Riva Counter to Long Step",
+      "description": "Long Step Pass (Defender) film study: Deep De la Riva Counter to Long Step.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6td9ZiochpY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6td9ZiochpY",
+      "url": "https://www.youtube.com/watch?v=6td9ZiochpY",
+      "duration": "PT80S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -164,6 +185,24 @@ The defensive hierarchy against the Long Step Pass follows three stages: prevent
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Long Step Pass (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=6td9ZiochpY)
+
+<p class="clip-credit"><strong>Deep De la Riva Counter to Long Step</strong> · 1:20 · <a href="https://www.youtube.com/watch?v=6td9ZiochpY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

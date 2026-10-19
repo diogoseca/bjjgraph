@@ -46,12 +46,12 @@ description: "Learn to transition from back control to seat belt configuration i
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Back Control (Defending) Seatbelt Grip",
-      "description": "Back Control to Seat Belt Control Back film study: Back Control (Defending) Seatbelt Grip.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Wga4PfuShEg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Wga4PfuShEg",
-      "url": "https://www.youtube.com/watch?v=Wga4PfuShEg",
-      "duration": "PT114S"
+      "name": "Jiu Jitsu Quick Fix #1: Seatbelt Grip",
+      "description": "Back Control to Seat Belt Control Back film study: Jiu Jitsu Quick Fix #1: Seatbelt Grip.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MwxnveKrlxU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/MwxnveKrlxU",
+      "url": "https://www.youtube.com/watch?v=MwxnveKrlxU",
+      "duration": "PT61S"
     }
   ]
 }
@@ -105,9 +105,9 @@ The strategic importance of this transition cannot be overstated. Without the se
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=Wga4PfuShEg)
+![](https://www.youtube.com/watch?v=MwxnveKrlxU)
 
-<p class="clip-credit"><strong>Back Control (Defending) Seatbelt Grip</strong> · 1:54 · <a href="https://www.youtube.com/watch?v=Wga4PfuShEg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Jiu Jitsu Quick Fix #1: Seatbelt Grip</strong> · 1:01 · <a href="https://www.youtube.com/watch?v=MwxnveKrlxU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

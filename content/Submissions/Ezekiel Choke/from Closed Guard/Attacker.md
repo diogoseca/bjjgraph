@@ -214,16 +214,6 @@ description: "Learn to attack with the Ezekiel Choke from closed guard top. Step
       "embedUrl": "https://www.youtube.com/embed/I3aJL0VttX4",
       "url": "https://www.youtube.com/watch?v=I3aJL0VttX4",
       "duration": "PT114S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 4,
-      "name": "Closed Guard fist Ezekiel Choke  with a Twist",
-      "description": "Ezekiel Choke from Closed Guard (Attacker) film study: Closed Guard fist Ezekiel Choke  with a Twist.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/U0bEVMh07b0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/U0bEVMh07b0",
-      "url": "https://www.youtube.com/watch?v=U0bEVMh07b0",
-      "duration": "PT149S"
     }
   ]
 }
@@ -271,14 +261,6 @@ Attacking with the Ezekiel Choke from inside closed guard requires precise timin
 ![](https://www.youtube.com/watch?v=I3aJL0VttX4)
 
 <p class="clip-credit"><strong>Ezekiel Choke from Inside the Closed Guard</strong> · 1:54 · <a href="https://www.youtube.com/watch?v=I3aJL0VttX4" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=U0bEVMh07b0)
-
-<p class="clip-credit"><strong>Closed Guard fist Ezekiel Choke  with a Twist</strong> · 2:29 · <a href="https://www.youtube.com/watch?v=U0bEVMh07b0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -155,6 +155,27 @@ description: "Master Turtle Top position in BJJ. Offensive position with multipl
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Turtle (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "John Danaher`s Back System - Turtle Top Control - Focus Points  (week 21)",
+      "description": "Turtle (Top) film study: John Danaher`s Back System - Turtle Top Control - Focus Points  (week 21).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/I3tKiknIR70/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/I3tKiknIR70",
+      "url": "https://www.youtube.com/watch?v=I3tKiknIR70",
+      "duration": "PT329S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -165,6 +186,24 @@ Turtle Top is an offensive position where the practitioner attacks an opponent w
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Turtle (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=I3tKiknIR70)
+
+<p class="clip-credit"><strong>John Danaher`s Back System - Turtle Top Control - Focus Points  (week 21)</strong> · 5:29 · <a href="https://www.youtube.com/watch?v=I3tKiknIR70" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="state-invariants" class="content-section">

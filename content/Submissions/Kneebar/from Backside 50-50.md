@@ -46,12 +46,12 @@ description: "Master the kneebar from Backside 50-50 in BJJ. Complete guide to l
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Go Behind Kneebar by Craig Jones",
-      "description": "Kneebar from Backside 50-50 film study: Go Behind Kneebar by Craig Jones.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/v4lhLkKgVvU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/v4lhLkKgVvU",
-      "url": "https://www.youtube.com/watch?v=v4lhLkKgVvU",
-      "duration": "PT129S"
+      "name": "How to Defend a Kneebar (and Prevent a Backstep Pass)",
+      "description": "Kneebar from Backside 50-50 film study: How to Defend a Kneebar (and Prevent a Backstep Pass).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wBRG0fY94fs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/wBRG0fY94fs",
+      "url": "https://www.youtube.com/watch?v=wBRG0fY94fs",
+      "duration": "PT59S"
     }
   ]
 }
@@ -114,9 +114,9 @@ This technique functions as a critical secondary attack within the Backside 50-5
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=v4lhLkKgVvU)
+![](https://www.youtube.com/watch?v=wBRG0fY94fs)
 
-<p class="clip-credit"><strong>Go Behind Kneebar by Craig Jones</strong> · 2:09 · <a href="https://www.youtube.com/watch?v=v4lhLkKgVvU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How to Defend a Kneebar (and Prevent a Backstep Pass)</strong> · 0:59 · <a href="https://www.youtube.com/watch?v=wBRG0fY94fs" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -162,16 +162,6 @@ description: "Defend the arm triangle from high mount. Recognize the setup, prev
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "arm triangle escape using hawking",
-      "description": "Arm Triangle from High Mount (Defender) film study: arm triangle escape using hawking.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Nspz2EAIQ_k/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Nspz2EAIQ_k",
-      "url": "https://www.youtube.com/watch?v=Nspz2EAIQ_k",
-      "duration": "PT27S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
       "name": "Gracie Barra Jupiter- Head and arm choke escape",
       "description": "Arm Triangle from High Mount (Defender) film study: Gracie Barra Jupiter- Head and arm choke escape.",
       "thumbnailUrl": "https://i.ytimg.com/vi/N7SC93aEOIA/hqdefault.jpg",
@@ -203,14 +193,6 @@ Defending the arm triangle from high mount requires recognizing the setup before
 
 <p class="section-subtitle">Watch Arm Triangle from High Mount (Defender) in action — curated instructionals</p>
 
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=Nspz2EAIQ_k)
-
-<p class="clip-credit"><strong>arm triangle escape using hawking</strong> · 0:27 · <a href="https://www.youtube.com/watch?v=Nspz2EAIQ_k" rel="noopener">Watch on YouTube</a></p>
-
-</div>
 
 <div class="film-clip">
 

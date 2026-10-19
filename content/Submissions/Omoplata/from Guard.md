@@ -62,16 +62,6 @@ description: "Master Omoplata from Guard in BJJ. Complete shoulder lock guide wi
       "embedUrl": "https://www.youtube.com/embed/KHXE9dSqa4M",
       "url": "https://www.youtube.com/watch?v=KHXE9dSqa4M",
       "duration": "PT149S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Omoplata Setup by Mikey Musumeci",
-      "description": "Omoplata from Guard film study: Omoplata Setup by Mikey Musumeci.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/U87WJbHqdQU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/U87WJbHqdQU",
-      "url": "https://www.youtube.com/watch?v=U87WJbHqdQU",
-      "duration": "PT141S"
     }
   ]
 }
@@ -143,14 +133,6 @@ What makes the Omoplata so valuable for the developing player is its connectivit
 ![](https://www.youtube.com/watch?v=KHXE9dSqa4M)
 
 <p class="clip-credit"><strong>Overhook Omoplata Entry and Three Finishes</strong> · 2:29 · <a href="https://www.youtube.com/watch?v=KHXE9dSqa4M" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=U87WJbHqdQU)
-
-<p class="clip-credit"><strong>Omoplata Setup by Mikey Musumeci</strong> · 2:21 · <a href="https://www.youtube.com/watch?v=U87WJbHqdQU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

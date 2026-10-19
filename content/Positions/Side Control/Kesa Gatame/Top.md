@@ -156,6 +156,27 @@ description: "Master Kesa Gatame Top position in BJJ. Dominant scarf hold with 7
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kesa Gatame (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Kesa Gatame - Basic Scarf Hold",
+      "description": "Kesa Gatame (Top) film study: Kesa Gatame - Basic Scarf Hold.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/TfNpVcekHGg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/TfNpVcekHGg",
+      "url": "https://www.youtube.com/watch?v=TfNpVcekHGg",
+      "duration": "PT120S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -175,6 +196,24 @@ From a competitive standpoint, Kesa Gatame scores as a guard pass (3 points in I
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kesa Gatame (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=TfNpVcekHGg)
+
+<p class="clip-credit"><strong>Kesa Gatame - Basic Scarf Hold</strong> · 2:00 · <a href="https://www.youtube.com/watch?v=TfNpVcekHGg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="state-invariants" class="content-section">

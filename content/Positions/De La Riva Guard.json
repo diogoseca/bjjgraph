@@ -388,7 +388,15 @@
       },
       "average_time": "45-90 seconds before pass or sweep"
     },
-    "clips": []
+    "clips": [
+      {
+        "id": "okJK3uSS1M0",
+        "title": "Dela Riva Pass Variation | Pass the Guard Without Getting Swept",
+        "channel": "Gracie Barra Aliso Viejo",
+        "duration": 190,
+        "front": true
+      }
+    ]
   },
   "bottom": {
     "name": "De La Riva Guard Bottom",

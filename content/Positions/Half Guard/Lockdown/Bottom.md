@@ -155,6 +155,27 @@ description: "Master Lockdown Bottom in BJJ. 10th Planet's signature half guard 
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Lockdown (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "BJJ LOCKDOWN || Entry and sweep options",
+      "description": "Lockdown (Bottom) film study: BJJ LOCKDOWN || Entry and sweep options.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/b6PvbfAz2N0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/b6PvbfAz2N0",
+      "url": "https://www.youtube.com/watch?v=b6PvbfAz2N0",
+      "duration": "PT511S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -165,6 +186,24 @@ Lockdown Bottom is 10th Planet's signature half guard variation where the bottom
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Lockdown (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=b6PvbfAz2N0)
+
+<p class="clip-credit"><strong>BJJ LOCKDOWN || Entry and sweep options</strong> · 8:31 · <a href="https://www.youtube.com/watch?v=b6PvbfAz2N0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="state-invariants" class="content-section">

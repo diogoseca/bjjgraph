@@ -29,6 +29,8 @@ people actually arrive here. Index A answers *"what shipped in vN?"*.
 
 ## Index A — by version
 
+- **v1.227.7** — [Fresh teaching evidence and ranked video fronts](#v12277--fresh-teaching-evidence-and-ranked-video-fronts)
+
 - **v1.227.6** — [Node identities and their real mechanics](#v12276--node-identities-and-their-real-mechanics)
 
 - **v1.227.4** — [Default overview mixes both halves after the first hand](#v12274--default-overview-mixes-both-halves-after-the-first-hand)
@@ -11431,3 +11433,87 @@ Version remains the owner-assigned 1.227.6. Local validation, one topic-branch p
 the full GitHub gate and independent fresh-30 review follow this accepted re-seed;
 only the owner merges. No local full-core run is started here. Previous archive entries
 and the approved 913,038-character ceiling are unchanged.
+
+
+## v1.227.7 — Fresh teaching evidence and ranked video fronts
+
+PR2 completes D-315 and D-320 on identity dev 2fe86f33a. B5's tournament clip
+zSSw_fUcNxU leaves Cross Collar Choke from 3-4 Mount. S4's 1jsDC-jaPoU and
+Mp7Ffm85k0A leave Marce from Side Control pending one identity question; the
+node is not rewritten to fit its videos. D-320 treats a clear, cooperative
+technique demonstration as teaching even when it is silent or its description
+is empty. Live rolling, event, competition and highlight footage still require
+an instructional breakdown. Bare footer/resource links alone do not exclude a
+complete lesson; explicit paid-course, DVD, membership and coupon calls do.
+
+Fresh evidence covers all 571 surviving D-307 restorations and the authorized
+255 other title-only placements. Final screen: 708 kept, 118 withheld. The
+first random QC (2 weak of 20) stays frozen. Its promotional-call class was
+corrected throughout the screened set; a new disjoint sample found 1 weak of
+20, and that Mir Lock mechanics mismatch was withheld before integration.
+Sampled primary storyboards establish the visual judgments; continuous audio
+and full-motion playback are not claimed.
+
+The 85 accepted second-search front operations are explicitly rebound first to
+merged PR1 and then identity dev. Same-ID reuse never overrides a withholding;
+front changes receive a recorded comparison. Final source: 2,846 references
+(base 2,882) and 1,083 fronts (base 1,042). Position/submission/transition fronts
+are 118/327/638. There are 1,523 active empty halves, 64 active unmarked halves,
+and 226 held role arrays. All 226 held arrays, 56 held hubs and five owner files
+remain exact. Only clip data and Film Study markup change: 165 JSON + 280 MD.
+
+D-323 accepts candidate/tools f92457b3a, base/premerge 2fe86f33a,
+label pr-clip-curation-2-f92457b3a. Receipt 945e51e70d24412b8d5a6067e747c144.
+D-285 changes stamps only on those 445 paths; all 5,962 other tracked content
+files retain their stamps, including the 53 Learning files and hub.
+The five census deltas are +48 JSON-LD blocks, +48 ItemLists, +48 headings,
+-82 article links and +48 outside links. These derive from +48 Film Study
+sections and -130 displayed clips across canonical pages and folder copies.
+All 660 predicted routes match, all 20 SEO samples (both Learning tags included)
+are base-exact, all 14 app rows and three root bundles match, and all 3,256
+model/flashcard files remain byte-identical. All 1,753 dossiers match the exact
+183 clip-array changes in 166 payload files; every other field stays equal.
+The content receipt/tree is new; no other census, SEO or model movement occurs.
+
+Eager gzip stays 346,412 B (+3,414 against 342,998; cap +5,000), deferred raw
+480,054/500,000 B. D-304 floors remain unchanged. The own build, schemas,
+publication-date check and all 41 focused reading/landing tests pass with zero
+retries or skips. The own checkout's D-253 tag birthtime differences are fully
+classified; none appear in the capture. This receipt-bound seed is separate
+from the subsequent version-only commit to 1.227.7. Full workflow replay and
+GitHub's full gate are required on the final head; capture is not CI green.
+
+
+### D-324 — PR 308 role and promotion correction
+
+This correction supersedes the preceding D-323 final-tree counts and receipt.
+The recheck inspected 222 video IDs at 374 screened kept placements. Ten
+wrong-role placements are withheld: x5oNak2YANY at two Americana defenders,
+GOLwVNTVcnY at six screened Kimura defenders plus the expressly ruled Kimura
+Trap defender, and bUZmy2Gu7jo at Kimura from New York Control / defender.
+The Darce from Turtle defender companion rgf9QUebMWE is withheld for its
+on-video paid-instructional solicitation. No replacement is promoted. The
+identity-held Kimura Switch defender stays exact under the retirement ruling;
+the Paper Cutter bottom-counter control stays. Five front flags are removed
+and two additional halves become empty. All 85 second-search front arrays,
+226 held role arrays, 56 held hubs and five owner files remain unchanged.
+
+Final source totals are 2,835 references and 1,078 fronts: position/submission/
+transition fronts 118/322/638. There are 1,525 active empty halves and 67 active
+unmarked halves. Against merged dev, 172 JSON and 289 generated Markdown files
+change only clip data and Film Study markup. D-324 accepts candidate/tools
+304613675, base/premerge 2fe86f33a, label pr-clip-curation-2-304613675; receipt
+8fc0c3604c294548880139330a104f01. The new census deltas are +46 JSON-LD blocks,
++46 ItemLists, +46 headings, -99 article links and +46 outside links, from
++46 Film Study sections and -145 displayed clips including folder copies.
+All 688 projected film routes and 1,753 dossiers match (191 changed arrays in
+173 files). All 20 SEO samples, including both Learning tags, match base;
+14 app rows, three bundles, 3,256 model/flashcard files and all 16,003 output
+paths remain exact. No extra movement or D-304 floor change is accepted.
+
+Payload stays eager gzip 346,412 B and deferred raw 480,054 B. The integrated
+own build, publication-date checks and 41 focused cases pass without retries
+or skips. D-325 classifies the earlier Browse CI failure as a real pre-existing
+app bug owned by the sections PR: this content correction changes no app or
+test code. Full final-head replay and GitHub gates remain required. The new
+receipt-bound baselines replace D-323; version remains exactly 1.227.7.

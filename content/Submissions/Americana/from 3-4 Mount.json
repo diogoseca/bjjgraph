@@ -471,23 +471,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "KbOkHMVhnT8",
-        "title": "Renzo Gracie: Americana from the mount | Renzo Gracie Online Academy",
-        "channel": "Gallerr",
-        "duration": 91,
-        "vertical": false,
-        "front": true
-      },
-      {
-        "id": "mhpeVqdfZgQ",
-        "title": "Learn A Hidden Detail To Finish The Americana by Henry Akins (Rickson Gracie…",
-        "channel": "Bernardo Faria BJJ Fanatics",
-        "duration": 696,
-        "vertical": false
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "from 3-4 Mount Defender",
@@ -674,21 +658,6 @@
       }
     ],
     "clips": [
-      {
-        "id": "NZjUCo8os8Q",
-        "title": "Simple Americana Armlock Escape",
-        "channel": "Eddie Kone Academy Of Jiu-Jitsu",
-        "duration": 61,
-        "vertical": false,
-        "front": true
-      },
-      {
-        "id": "FNyL93v5fGs",
-        "title": "Defending The Americana - BJJ Move by Lachlan Giles",
-        "channel": "BJJ Fanatics",
-        "duration": 91,
-        "vertical": false
-      },
       {
         "id": "Ht5OdSQG3BY",
         "title": "Kipping Escape: Defend the Americana into the Heelhook (No Gi BJJ/Jiu-Jitsu)",

@@ -166,6 +166,16 @@ description: "Defend against being flattened from half guard bottom. Learn frame
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "Week 22: Counter the Crossed face from Half Guard",
+      "description": "Half Guard to Flattened Half Guard (Defender) film study: Week 22: Counter the Crossed face from Half Guard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/N_TFrnd2RT0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/N_TFrnd2RT0",
+      "url": "https://www.youtube.com/watch?v=N_TFrnd2RT0",
+      "duration": "PT122S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
       "name": "How to NOT Get Flattened, Cross-faced and Smashed in Half Guard",
       "description": "Half Guard to Flattened Half Guard (Defender) film study: How to NOT Get Flattened, Cross-faced and Smashed in Half Guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/I05XdrbakZQ/hqdefault.jpg",
@@ -175,7 +185,7 @@ description: "Defend against being flattened from half guard bottom. Learn frame
     },
     {
       "@type": "VideoObject",
-      "position": 2,
+      "position": 3,
       "name": "How To Stop Getting Smashed in Half Guard Bottom",
       "description": "Half Guard to Flattened Half Guard (Defender) film study: How To Stop Getting Smashed in Half Guard Bottom.",
       "thumbnailUrl": "https://i.ytimg.com/vi/ALhb8nFaFgA/hqdefault.jpg",
@@ -206,6 +216,14 @@ As the bottom player in half guard, preventing your opponent from flattening you
 
 <p class="section-subtitle">Watch Half Guard to Flattened Half Guard (Defender) in action — curated instructionals</p>
 
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=N_TFrnd2RT0)
+
+<p class="clip-credit"><strong>Week 22: Counter the Crossed face from Half Guard</strong> · 2:02 · <a href="https://www.youtube.com/watch?v=N_TFrnd2RT0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
 
 <div class="film-clip">
 

@@ -176,6 +176,27 @@ description: "Complete guide to executing the Transition to Shoulder of Justice 
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Side Control to Shoulder of Justice (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "James Quigg Shoulder of Justice",
+      "description": "Side Control to Shoulder of Justice (Attacker) film study: James Quigg Shoulder of Justice.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/PjFg8gFVPpQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/PjFg8gFVPpQ",
+      "url": "https://www.youtube.com/watch?v=PjFg8gFVPpQ",
+      "duration": "PT59S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -188,6 +209,24 @@ As the attacker executing the Transition to Shoulder of Justice, your objective 
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Side Control to Shoulder of Justice (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=PjFg8gFVPpQ)
+
+<p class="clip-credit"><strong>James Quigg Shoulder of Justice</strong> · 0:59 · <a href="https://www.youtube.com/watch?v=PjFg8gFVPpQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

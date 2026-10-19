@@ -617,7 +617,15 @@
         "description": "Apply all defensive responses in live rolling. Chain defenses together when first attempt fails (knee shield attempt to bridge to ghost escape). Track success rate against different partners and identify personal weak points. Include film review to identify missed cues and delayed reactions. Develop the ability to seamlessly transition between mount defense and full side control escape attempts."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "zPaf6wCX1OE",
+        "title": "Keith Owen on: Preventing the Mount from Side Control.",
+        "channel": "Submissions101",
+        "duration": 230,
+        "front": true
+      }
+    ]
   },
   "variants_and_adaptations": [
     {

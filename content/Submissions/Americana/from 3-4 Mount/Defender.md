@@ -162,26 +162,6 @@ description: "Defend the Americana from 3-4 Mount in BJJ. Recognition cues, grip
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Simple Americana Armlock Escape",
-      "description": "Americana from 3-4 Mount (Defender) film study: Simple Americana Armlock Escape.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/NZjUCo8os8Q/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/NZjUCo8os8Q",
-      "url": "https://www.youtube.com/watch?v=NZjUCo8os8Q",
-      "duration": "PT61S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Defending The Americana - BJJ Move by Lachlan Giles",
-      "description": "Americana from 3-4 Mount (Defender) film study: Defending The Americana - BJJ Move by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/FNyL93v5fGs/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/FNyL93v5fGs",
-      "url": "https://www.youtube.com/watch?v=FNyL93v5fGs",
-      "duration": "PT91S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
       "name": "Kipping Escape: Defend the Americana into the Heelhook (No Gi BJJ/Jiu-Jitsu)",
       "description": "Americana from 3-4 Mount (Defender) film study: Kipping Escape: Defend the Americana into the Heelhook (No Gi BJJ/Jiu-Jitsu).",
       "thumbnailUrl": "https://i.ytimg.com/vi/Ht5OdSQG3BY/hqdefault.jpg",
@@ -215,22 +195,6 @@ Keep your elbows tight to your ribs at all times, never allowing your near arm t
 
 <p class="section-subtitle">Watch Americana from 3-4 Mount (Defender) in action — curated instructionals</p>
 
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=NZjUCo8os8Q)
-
-<p class="clip-credit"><strong>Simple Americana Armlock Escape</strong> · 1:01 · <a href="https://www.youtube.com/watch?v=NZjUCo8os8Q" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=FNyL93v5fGs)
-
-<p class="clip-credit"><strong>Defending The Americana - BJJ Move by Lachlan Giles</strong> · 1:31 · <a href="https://www.youtube.com/watch?v=FNyL93v5fGs" rel="noopener">Watch on YouTube</a></p>
-
-</div>
 
 <div class="film-clip">
 

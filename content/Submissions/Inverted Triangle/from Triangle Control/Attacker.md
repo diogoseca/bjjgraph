@@ -204,16 +204,6 @@ description: "Learn to execute the Inverted Triangle from Triangle Control. Step
       "embedUrl": "https://www.youtube.com/embed/xAW3spYg9vE",
       "url": "https://www.youtube.com/watch?v=xAW3spYg9vE",
       "duration": "PT51S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Inverted triangle choke finish",
-      "description": "Inverted Triangle from Triangle Control (Attacker) film study: Inverted triangle choke finish.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/RCzCmK7AeVU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/RCzCmK7AeVU",
-      "url": "https://www.youtube.com/watch?v=RCzCmK7AeVU",
-      "duration": "PT60S"
     }
   ]
 }
@@ -253,14 +243,6 @@ Executing the inverted triangle from triangle control requires precise hip rotat
 ![](https://www.youtube.com/watch?v=xAW3spYg9vE)
 
 <p class="clip-credit"><strong>Inverted Triangle</strong> · 0:51 · <a href="https://www.youtube.com/watch?v=xAW3spYg9vE" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=RCzCmK7AeVU)
-
-<p class="clip-credit"><strong>Inverted triangle choke finish</strong> · 1:00 · <a href="https://www.youtube.com/watch?v=RCzCmK7AeVU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

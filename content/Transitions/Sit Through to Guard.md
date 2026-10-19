@@ -46,12 +46,12 @@ description: "Master the Sit Through to Guard escape from turtle. Complete guide
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Turtle Position Technique | Preventing Guard Recovery | BJJ Techniques",
-      "description": "Sit Through to Guard film study: Turtle Position Technique | Preventing Guard Recovery | BJJ Techniques.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/cs87MxpXdB4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/cs87MxpXdB4",
-      "url": "https://www.youtube.com/watch?v=cs87MxpXdB4",
-      "duration": "PT127S"
+      "name": "Turtle Escape - Sit to Guard",
+      "description": "Sit Through to Guard film study: Turtle Escape - Sit to Guard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5ciGUMhx1hw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5ciGUMhx1hw",
+      "url": "https://www.youtube.com/watch?v=5ciGUMhx1hw",
+      "duration": "PT76S"
     }
   ]
 }
@@ -101,9 +101,9 @@ Within the turtle escape system, the sit through occupies the niche of the contr
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=cs87MxpXdB4)
+![](https://www.youtube.com/watch?v=5ciGUMhx1hw)
 
-<p class="clip-credit"><strong>Turtle Position Technique | Preventing Guard Recovery | BJJ Techniques</strong> · 2:07 · <a href="https://www.youtube.com/watch?v=cs87MxpXdB4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Turtle Escape - Sit to Guard</strong> · 1:16 · <a href="https://www.youtube.com/watch?v=5ciGUMhx1hw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

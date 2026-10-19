@@ -155,6 +155,27 @@ description: "Master front headlock control in BJJ. Complete offensive system fo
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Front Headlock (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Front Headlock Series: Essential Snapdown Setups \u0026 Hand Fighting",
+      "description": "Front Headlock (Top) film study: Front Headlock Series: Essential Snapdown Setups \u0026 Hand Fighting.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/R-D4swX69mE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/R-D4swX69mE",
+      "url": "https://www.youtube.com/watch?v=R-D4swX69mE",
+      "duration": "PT189S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -175,6 +196,24 @@ Mastering front headlock top requires understanding both the technical details o
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Front Headlock (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=R-D4swX69mE)
+
+<p class="clip-credit"><strong>Front Headlock Series: Essential Snapdown Setups &amp; Hand Fighting</strong> · 3:09 · <a href="https://www.youtube.com/watch?v=R-D4swX69mE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="state-invariants" class="content-section">

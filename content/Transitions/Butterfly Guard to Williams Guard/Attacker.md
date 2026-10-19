@@ -171,27 +171,6 @@ description: "How to enter Williams Guard from Butterfly Guard. Attacker setup, 
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Butterfly Guard to Williams Guard (Attacker) \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "BJJ butterfly guard in to Williams guard with choke option",
-      "description": "Butterfly Guard to Williams Guard (Attacker) film study: BJJ butterfly guard in to Williams guard with choke option.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/1XwXQYzWpcw/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/1XwXQYzWpcw",
-      "url": "https://www.youtube.com/watch?v=1XwXQYzWpcw",
-      "duration": "PT175S"
-    }
-  ]
-}
-</script>
-
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -209,24 +188,6 @@ The entry rewards patience and timing over force. Rushing the figure-four agains
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Butterfly Guard to Williams Guard (Attacker) in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=1XwXQYzWpcw)
-
-<p class="clip-credit"><strong>BJJ butterfly guard in to Williams guard with choke option</strong> · 2:55 · <a href="https://www.youtube.com/watch?v=1XwXQYzWpcw" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="key-principles" class="content-section">

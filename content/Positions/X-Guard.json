@@ -678,7 +678,21 @@
       },
       "average_time": "30-90 seconds"
     },
-    "clips": []
+    "clips": [
+      {
+        "id": "usWlT7CW4HU",
+        "title": "Bjj X Guard Entry from Half Guard",
+        "channel": "Chewjitsu",
+        "duration": 247,
+        "front": true
+      },
+      {
+        "id": "MVpjF7Pd8IA",
+        "title": "X-Guard Entry from Half Guard",
+        "channel": "Vital Jiu Jitsu",
+        "duration": 341
+      }
+    ]
   },
   "flashcards_family": [
     {

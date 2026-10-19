@@ -188,6 +188,16 @@ description: "How to execute the Armbar Finish in BJJ. Attacking perspective wit
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "Stop Racking Yourself with Armbars in BJJ",
+      "description": "Armbar from Armbar Control (Attacker) film study: Stop Racking Yourself with Armbars in BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kZsCLF6O-Cg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kZsCLF6O-Cg",
+      "url": "https://www.youtube.com/watch?v=kZsCLF6O-Cg",
+      "duration": "PT146S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
       "name": "Armbar from mount when they bump you off",
       "description": "Armbar from Armbar Control (Attacker) film study: Armbar from mount when they bump you off.",
       "thumbnailUrl": "https://i.ytimg.com/vi/gDn6uThIABM/hqdefault.jpg",
@@ -223,6 +233,14 @@ The finish itself requires coordinated opposing vectors: hips drive toward the c
 
 <p class="section-subtitle">Watch Armbar from Armbar Control (Attacker) in action — curated instructionals</p>
 
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kZsCLF6O-Cg)
+
+<p class="clip-credit"><strong>Stop Racking Yourself with Armbars in BJJ</strong> · 2:26 · <a href="https://www.youtube.com/watch?v=kZsCLF6O-Cg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
 
 <div class="film-clip">
 

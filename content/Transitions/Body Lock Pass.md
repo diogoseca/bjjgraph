@@ -46,12 +46,12 @@ description: "Master the Body Lock Pass in BJJ. Step-by-step pressure passing fr
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Adam Wardzi\u0144ski Demos His Body Lock Pass Counter | Sweatbox, Bristol",
-      "description": "Body Lock Pass film study: Adam Wardzi\u0144ski Demos His Body Lock Pass Counter | Sweatbox, Bristol.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/eL2tHbzAe68/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/eL2tHbzAe68",
-      "url": "https://www.youtube.com/watch?v=eL2tHbzAe68",
-      "duration": "PT232S"
+      "name": "Half guard body lock smash pass",
+      "description": "Body Lock Pass film study: Half guard body lock smash pass.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Vg-SrkZdhGU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Vg-SrkZdhGU",
+      "url": "https://www.youtube.com/watch?v=Vg-SrkZdhGU",
+      "duration": "PT184S"
     }
   ]
 }
@@ -105,9 +105,9 @@ This pass is especially valuable against opponents with strong half guard retent
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=eL2tHbzAe68)
+![](https://www.youtube.com/watch?v=Vg-SrkZdhGU)
 
-<p class="clip-credit"><strong>Adam Wardziński Demos His Body Lock Pass Counter | Sweatbox, Bristol</strong> · 3:52 · <a href="https://www.youtube.com/watch?v=eL2tHbzAe68" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Half guard body lock smash pass</strong> · 3:04 · <a href="https://www.youtube.com/watch?v=Vg-SrkZdhGU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

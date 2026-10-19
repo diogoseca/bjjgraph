@@ -588,22 +588,6 @@
         "description": "Start in Modified Mount with full live resistance. Bottom player focuses on preventing the Americana while working general Modified Mount escapes. Top player has full submission intent. 3-minute rounds with reset to Modified Mount. Track how many Americanas are prevented versus escaped versus tapped to, and identify which stage of the defense is breaking down."
       }
     ],
-    "clips": [
-      {
-        "id": "NZjUCo8os8Q",
-        "title": "Simple Americana Armlock Escape",
-        "channel": "Eddie Kone Academy Of Jiu-Jitsu",
-        "duration": 61,
-        "vertical": false,
-        "front": true
-      },
-      {
-        "id": "FNyL93v5fGs",
-        "title": "Defending The Americana - BJJ Move by Lachlan Giles",
-        "channel": "BJJ Fanatics",
-        "duration": 91,
-        "vertical": false
-      }
-    ]
+    "clips": []
   }
 }

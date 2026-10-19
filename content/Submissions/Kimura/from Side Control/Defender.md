@@ -178,16 +178,6 @@ description: "How to defend against Kimura from Side Control in BJJ. Recognition
       "embedUrl": "https://www.youtube.com/embed/MM9rddEgJ58",
       "url": "https://www.youtube.com/watch?v=MM9rddEgJ58",
       "duration": "PT155S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "The Daily Dirtball: \"Kimura Defense Grip Breaks\"",
-      "description": "Kimura from Side Control (Defender) film study: The Daily Dirtball: \"Kimura Defense Grip Breaks\".",
-      "thumbnailUrl": "https://i.ytimg.com/vi/GOLwVNTVcnY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/GOLwVNTVcnY",
-      "url": "https://www.youtube.com/watch?v=GOLwVNTVcnY",
-      "duration": "PT81S"
     }
   ]
 }
@@ -227,14 +217,6 @@ Defending the Kimura from Side Control requires immediate recognition and proact
 ![](https://www.youtube.com/watch?v=MM9rddEgJ58)
 
 <p class="clip-credit"><strong>KIMURA DEFENSE 101 From bottom side control! #graciewestchase #kimuradefense…</strong> · 2:35 · <a href="https://www.youtube.com/watch?v=MM9rddEgJ58" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=GOLwVNTVcnY)
-
-<p class="clip-credit"><strong>The Daily Dirtball: &#34;Kimura Defense Grip Breaks&#34;</strong> · 1:21 · <a href="https://www.youtube.com/watch?v=GOLwVNTVcnY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

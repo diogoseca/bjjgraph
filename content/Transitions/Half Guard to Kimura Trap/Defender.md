@@ -136,6 +136,27 @@ description: "The top half guard player denying the arm and preventing the figur
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Half Guard to Kimura Trap (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Escaping \u0026 Preventing the Kimura from Half Guard | BJJ Submission Defence",
+      "description": "Half Guard to Kimura Trap (Defender) film study: Escaping \u0026 Preventing the Kimura from Half Guard | BJJ Submission Defence.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/7dU6lsfyowU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/7dU6lsfyowU",
+      "url": "https://www.youtube.com/watch?v=7dU6lsfyowU",
+      "duration": "PT258S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -148,6 +169,24 @@ As the top player your defence is decided before the grip closes, not after. Onc
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Half Guard to Kimura Trap (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=7dU6lsfyowU)
+
+<p class="clip-credit"><strong>Escaping &amp; Preventing the Kimura from Half Guard | BJJ Submission Defence</strong> · 4:18 · <a href="https://www.youtube.com/watch?v=7dU6lsfyowU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

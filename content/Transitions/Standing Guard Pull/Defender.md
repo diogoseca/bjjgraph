@@ -150,27 +150,6 @@ description: "Defend against the Standing Guard Pull in BJJ. Recognition cues, c
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Standing Guard Pull (Defender) \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Sweep counter to guard pull Drill",
-      "description": "Standing Guard Pull (Defender) film study: Sweep counter to guard pull Drill.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/u-jWz-kuERU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/u-jWz-kuERU",
-      "url": "https://www.youtube.com/watch?v=u-jWz-kuERU",
-      "duration": "PT87S"
-    }
-  ]
-}
-</script>
-
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -183,24 +162,6 @@ As the defender facing a Standing Guard Pull, your primary objective is to preve
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Standing Guard Pull (Defender) in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=u-jWz-kuERU)
-
-<p class="clip-credit"><strong>Sweep counter to guard pull Drill</strong> · 1:27 · <a href="https://www.youtube.com/watch?v=u-jWz-kuERU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="recognition-cues" class="content-section">

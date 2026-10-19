@@ -46,12 +46,22 @@ description: "Master the Heel Hook from Ushiro Ashi-Garami. Complete guide cover
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Arm Saddle to Inside Heel Hook | Flow Drill",
-      "description": "Heel Hook from Ushiro Ashi film study: Arm Saddle to Inside Heel Hook | Flow Drill.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/QfNKQzy3V_w/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/QfNKQzy3V_w",
-      "url": "https://www.youtube.com/watch?v=QfNKQzy3V_w",
-      "duration": "PT21S"
+      "name": "Double outside ashi heel hook escape / running man escape",
+      "description": "Heel Hook from Ushiro Ashi film study: Double outside ashi heel hook escape / running man escape.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2RLgyzWN71Y/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2RLgyzWN71Y",
+      "url": "https://www.youtube.com/watch?v=2RLgyzWN71Y",
+      "duration": "PT54S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Outside heel hook defense to Inside Heel Hook",
+      "description": "Heel Hook from Ushiro Ashi film study: Outside heel hook defense to Inside Heel Hook.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/clVAHxgRadE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/clVAHxgRadE",
+      "url": "https://www.youtube.com/watch?v=clVAHxgRadE",
+      "duration": "PT104S"
     }
   ]
 }
@@ -114,9 +124,17 @@ The heel hook from ushiro ashi-garami attacks the knee joint through rotational 
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=QfNKQzy3V_w)
+![](https://www.youtube.com/watch?v=2RLgyzWN71Y)
 
-<p class="clip-credit"><strong>Arm Saddle to Inside Heel Hook | Flow Drill</strong> · 0:21 · <a href="https://www.youtube.com/watch?v=QfNKQzy3V_w" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Double outside ashi heel hook escape / running man escape</strong> · 0:54 · <a href="https://www.youtube.com/watch?v=2RLgyzWN71Y" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=clVAHxgRadE)
+
+<p class="clip-credit"><strong>Outside heel hook defense to Inside Heel Hook</strong> · 1:44 · <a href="https://www.youtube.com/watch?v=clVAHxgRadE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

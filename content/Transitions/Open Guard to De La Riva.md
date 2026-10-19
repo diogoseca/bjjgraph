@@ -36,6 +36,27 @@ description: "Master the Open Guard to De La Riva Guard transition in BJJ. DLR h
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Open Guard to De La Riva \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Complete De La Riva System in 7 Min",
+      "description": "Open Guard to De La Riva film study: Complete De La Riva System in 7 Min.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Ct5yCkAxuis/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Ct5yCkAxuis",
+      "url": "https://www.youtube.com/watch?v=Ct5yCkAxuis",
+      "duration": "PT408S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -74,6 +95,24 @@ This transition serves as the gateway to the entire De La Riva system, connectin
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Open Guard to De La Riva in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Ct5yCkAxuis)
+
+<p class="clip-credit"><strong>Complete De La Riva System in 7 Min</strong> · 6:48 · <a href="https://www.youtube.com/watch?v=Ct5yCkAxuis" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="possible-outcomes" class="content-section">

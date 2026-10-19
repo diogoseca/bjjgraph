@@ -170,27 +170,6 @@ description: "How to execute Open Guard to Deep Half in BJJ. Attacking perspecti
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Open Guard to Deep Half (Attacker) \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Knee Slide Pass Counter to Deep Half Guard Entry",
-      "description": "Open Guard to Deep Half (Attacker) film study: Knee Slide Pass Counter to Deep Half Guard Entry.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/K0XMj9BNJ8U/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/K0XMj9BNJ8U",
-      "url": "https://www.youtube.com/watch?v=K0XMj9BNJ8U",
-      "duration": "PT133S"
-    }
-  ]
-}
-</script>
-
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -205,24 +184,6 @@ This transition emphasizes proper hip movement, head positioning, and timing to 
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Open Guard to Deep Half (Attacker) in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=K0XMj9BNJ8U)
-
-<p class="clip-credit"><strong>Knee Slide Pass Counter to Deep Half Guard Entry</strong> · 2:13 · <a href="https://www.youtube.com/watch?v=K0XMj9BNJ8U" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="key-principles" class="content-section">

@@ -137,6 +137,27 @@ description: "Master Combat Base bottom in BJJ. Guard player's guide to retainin
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Combat Base (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Guard retention from combat base Jiu Jitsu",
+      "description": "Combat Base (Bottom) film study: Guard retention from combat base Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/iR4_EYOBjJ0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/iR4_EYOBjJ0",
+      "url": "https://www.youtube.com/watch?v=iR4_EYOBjJ0",
+      "duration": "PT31S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -153,6 +174,24 @@ Offensively, the bottom of Combat Base is more dangerous than it looks. The pass
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Combat Base (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=iR4_EYOBjJ0)
+
+<p class="clip-credit"><strong>Guard retention from combat base Jiu Jitsu</strong> · 0:31 · <a href="https://www.youtube.com/watch?v=iR4_EYOBjJ0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="state-invariants" class="content-section">

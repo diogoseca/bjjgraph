@@ -46,16 +46,6 @@ description: "Master the Arm Triangle from Ushiro Kesa Gatame in BJJ. Convert th
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "arm triangle escape using hawking",
-      "description": "Arm Triangle from Ushiro Kesa Gatame film study: arm triangle escape using hawking.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Nspz2EAIQ_k/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Nspz2EAIQ_k",
-      "url": "https://www.youtube.com/watch?v=Nspz2EAIQ_k",
-      "duration": "PT27S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
       "name": "The Fastest Escape Out Of The Arm Triangle",
       "description": "Arm Triangle from Ushiro Kesa Gatame film study: The Fastest Escape Out Of The Arm Triangle.",
       "thumbnailUrl": "https://i.ytimg.com/vi/D2vkZGTD78I/hqdefault.jpg",
@@ -65,7 +55,7 @@ description: "Master the Arm Triangle from Ushiro Kesa Gatame in BJJ. Convert th
     },
     {
       "@type": "VideoObject",
-      "position": 3,
+      "position": 2,
       "name": "Two variations of arm triangle (kata gatame) escapes",
       "description": "Arm Triangle from Ushiro Kesa Gatame film study: Two variations of arm triangle (kata gatame) escapes.",
       "thumbnailUrl": "https://i.ytimg.com/vi/CmXniIPFMhU/hqdefault.jpg",
@@ -131,14 +121,6 @@ Strategically, this submission punishes opponents who remain passive under the U
 
 <p class="section-subtitle">Watch Arm Triangle from Ushiro Kesa Gatame in action — curated instructionals</p>
 
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=Nspz2EAIQ_k)
-
-<p class="clip-credit"><strong>arm triangle escape using hawking</strong> · 0:27 · <a href="https://www.youtube.com/watch?v=Nspz2EAIQ_k" rel="noopener">Watch on YouTube</a></p>
-
-</div>
 
 <div class="film-clip">
 

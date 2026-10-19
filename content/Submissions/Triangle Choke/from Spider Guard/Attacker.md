@@ -204,16 +204,6 @@ description: "How to execute Triangle from Spider Guard in BJJ. Attacking perspe
       "embedUrl": "https://www.youtube.com/embed/aR907qucSvk",
       "url": "https://www.youtube.com/watch?v=aR907qucSvk",
       "duration": "PT59S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "=Triangle from the Spider Lasso Guard=",
-      "description": "Triangle Choke from Spider Guard (Attacker) film study: =Triangle from the Spider Lasso Guard=.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/t03kY6knAkU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/t03kY6knAkU",
-      "url": "https://www.youtube.com/watch?v=t03kY6knAkU",
-      "duration": "PT11S"
     }
   ]
 }
@@ -253,14 +243,6 @@ The Triangle from Spider Guard is a high-percentage finishing sequence that capi
 ![](https://www.youtube.com/watch?v=aR907qucSvk)
 
 <p class="clip-credit"><strong>Spider Guard: Triangle Choke Option</strong> · 0:59 · <a href="https://www.youtube.com/watch?v=aR907qucSvk" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=t03kY6knAkU)
-
-<p class="clip-credit"><strong>=Triangle from the Spider Lasso Guard=</strong> · 0:11 · <a href="https://www.youtube.com/watch?v=t03kY6knAkU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

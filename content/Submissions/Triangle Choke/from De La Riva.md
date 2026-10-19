@@ -62,16 +62,6 @@ description: "Master Triangle from De La Riva in BJJ. Complete guide with setup 
       "embedUrl": "https://www.youtube.com/embed/UOFZwIbz9zM",
       "url": "https://www.youtube.com/watch?v=UOFZwIbz9zM",
       "duration": "PT25S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Knee Shield with Reverse De La Riva to Triangle",
-      "description": "Triangle Choke from De La Riva film study: Knee Shield with Reverse De La Riva to Triangle.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/gR54h1IXyGg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/gR54h1IXyGg",
-      "url": "https://www.youtube.com/watch?v=gR54h1IXyGg",
-      "duration": "PT22S"
     }
   ]
 }
@@ -141,14 +131,6 @@ The Triangle from De La Riva is a sophisticated blood choke that capitalizes on 
 ![](https://www.youtube.com/watch?v=UOFZwIbz9zM)
 
 <p class="clip-credit"><strong>=Triangle from De La Riva Guard=</strong> · 0:25 · <a href="https://www.youtube.com/watch?v=UOFZwIbz9zM" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=gR54h1IXyGg)
-
-<p class="clip-credit"><strong>Knee Shield with Reverse De La Riva to Triangle</strong> · 0:22 · <a href="https://www.youtube.com/watch?v=gR54h1IXyGg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

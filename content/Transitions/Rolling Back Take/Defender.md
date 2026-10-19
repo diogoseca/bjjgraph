@@ -150,6 +150,27 @@ description: "How to defend against Rolling Back Take in BJJ. Recognition cues, 
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Rolling Back Take (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "3 Ways to defend the back take by Roberto \u201cCyborg\u201d Abreu",
+      "description": "Rolling Back Take (Defender) film study: 3 Ways to defend the back take by Roberto \u201cCyborg\u201d Abreu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/OltjLaTW3wQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/OltjLaTW3wQ",
+      "url": "https://www.youtube.com/watch?v=OltjLaTW3wQ",
+      "duration": "PT89S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -162,6 +183,24 @@ Defending the Rolling Back Take requires early recognition and immediate defensi
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Rolling Back Take (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=OltjLaTW3wQ)
+
+<p class="clip-credit"><strong>3 Ways to defend the back take by Roberto “Cyborg” Abreu</strong> · 1:29 · <a href="https://www.youtube.com/watch?v=OltjLaTW3wQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

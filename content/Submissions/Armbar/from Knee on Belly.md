@@ -62,16 +62,6 @@ description: "Master the armbar from knee on belly in BJJ. Complete guide to set
       "embedUrl": "https://www.youtube.com/embed/JQMSXF2uVfA",
       "url": "https://www.youtube.com/watch?v=JQMSXF2uVfA",
       "duration": "PT79S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Shotgun Armbar from Knee On Belly",
-      "description": "Armbar from Knee on Belly film study: Shotgun Armbar from Knee On Belly.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/LrWL-ILB4ME/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/LrWL-ILB4ME",
-      "url": "https://www.youtube.com/watch?v=LrWL-ILB4ME",
-      "duration": "PT62S"
     }
   ]
 }
@@ -145,14 +135,6 @@ Strategically, the armbar from knee on belly functions as part of a broader atta
 ![](https://www.youtube.com/watch?v=JQMSXF2uVfA)
 
 <p class="clip-credit"><strong>Armbar from Knee on Belly</strong> · 1:19 · <a href="https://www.youtube.com/watch?v=JQMSXF2uVfA" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=LrWL-ILB4ME)
-
-<p class="clip-credit"><strong>Shotgun Armbar from Knee On Belly</strong> · 1:02 · <a href="https://www.youtube.com/watch?v=LrWL-ILB4ME" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

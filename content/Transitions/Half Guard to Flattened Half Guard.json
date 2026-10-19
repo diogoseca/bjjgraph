@@ -584,12 +584,18 @@
     ],
     "clips": [
       {
+        "id": "N_TFrnd2RT0",
+        "title": "Week 22: Counter the Crossed face from Half Guard",
+        "channel": "Carpio Jiu Jitsu",
+        "duration": 122,
+        "front": true
+      },
+      {
         "id": "I05XdrbakZQ",
         "title": "How to NOT Get Flattened, Cross-faced and Smashed in Half Guard",
         "channel": "Stephan Kesting",
         "duration": 338,
-        "vertical": false,
-        "front": true
+        "vertical": false
       },
       {
         "id": "ALhb8nFaFgA",

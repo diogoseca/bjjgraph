@@ -46,11 +46,21 @@ description: "Master the Standing RNC from Rear Clinch in BJJ. Expert guide to f
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Takedown to Rear Naked Choke - BJJ Submission Set Up",
-      "description": "Rear Naked Choke from Standing Rear Clinch film study: Takedown to Rear Naked Choke - BJJ Submission Set Up.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/FvT_Ffy68OI/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/FvT_Ffy68OI",
-      "url": "https://www.youtube.com/watch?v=FvT_Ffy68OI",
+      "name": "Standing Rear Naked Choke Defense",
+      "description": "Rear Naked Choke from Standing Rear Clinch film study: Standing Rear Naked Choke Defense.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rlJlNeccbEw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/rlJlNeccbEw",
+      "url": "https://www.youtube.com/watch?v=rlJlNeccbEw",
+      "duration": "PT20S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Jiu-Jitsu Defense to the Rear Choke From Behind While Being Dragged by Gracie\u2026",
+      "description": "Rear Naked Choke from Standing Rear Clinch film study: Jiu-Jitsu Defense to the Rear Choke From Behind While Being Dragged by Gracie\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dTIDRA-0YY0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dTIDRA-0YY0",
+      "url": "https://www.youtube.com/watch?v=dTIDRA-0YY0",
       "duration": "PT38S"
     }
   ]
@@ -114,9 +124,17 @@ From a competition perspective, the standing RNC appears most frequently in no-g
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=FvT_Ffy68OI)
+![](https://www.youtube.com/watch?v=rlJlNeccbEw)
 
-<p class="clip-credit"><strong>Takedown to Rear Naked Choke - BJJ Submission Set Up</strong> · 0:38 · <a href="https://www.youtube.com/watch?v=FvT_Ffy68OI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Standing Rear Naked Choke Defense</strong> · 0:20 · <a href="https://www.youtube.com/watch?v=rlJlNeccbEw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dTIDRA-0YY0)
+
+<p class="clip-credit"><strong>Jiu-Jitsu Defense to the Rear Choke From Behind While Being Dragged by Gracie…</strong> · 0:38 · <a href="https://www.youtube.com/watch?v=dTIDRA-0YY0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

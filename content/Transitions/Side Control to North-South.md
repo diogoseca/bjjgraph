@@ -46,12 +46,12 @@ description: "Master the Side Control to North-South transition in BJJ. Maintain
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Stuck and Confused in NORTH SOUTH?  How to ESCAPE #2 in BJJ and Counter",
-      "description": "Side Control to North-South film study: Stuck and Confused in NORTH SOUTH?  How to ESCAPE #2 in BJJ and Counter.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/YTKbNwNaaPQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/YTKbNwNaaPQ",
-      "url": "https://www.youtube.com/watch?v=YTKbNwNaaPQ",
-      "duration": "PT216S"
+      "name": "Top Side Control Drill - Side Control to North/South to Side Control",
+      "description": "Side Control to North-South film study: Top Side Control Drill - Side Control to North/South to Side Control.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-O7SfSANtWU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/-O7SfSANtWU",
+      "url": "https://www.youtube.com/watch?v=-O7SfSANtWU",
+      "duration": "PT280S"
     }
   ]
 }
@@ -105,9 +105,9 @@ Understanding when to transition versus when to maintain Side Control is critica
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=YTKbNwNaaPQ)
+![](https://www.youtube.com/watch?v=-O7SfSANtWU)
 
-<p class="clip-credit"><strong>Stuck and Confused in NORTH SOUTH?  How to ESCAPE #2 in BJJ and Counter</strong> · 3:36 · <a href="https://www.youtube.com/watch?v=YTKbNwNaaPQ" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Top Side Control Drill - Side Control to North/South to Side Control</strong> · 4:40 · <a href="https://www.youtube.com/watch?v=-O7SfSANtWU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

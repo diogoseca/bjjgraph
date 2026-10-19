@@ -362,7 +362,16 @@
       }
     ],
     "safety_considerations": "Grip breaking is generally a low-risk technique with minimal injury potential when practiced correctly. The primary safety consideration is controlling the force applied during training to avoid injuring your partner's fingers or thumb. When breaking grips, apply controlled progressive force rather than explosive jerking motions during cooperative drilling. Communicate with your partner about grip strength and breaking intensity, especially when drilling with partners who have previous finger or hand injuries. During live training, explosive grip breaks are appropriate, but be mindful not to intentionally target fingers with bending or twisting motions that could cause sprains or dislocations. Maintain awareness of your surroundings during grip fighting exchanges, as the dynamic hand fighting can sometimes cause practitioners to lose balance or move unexpectedly. Partners should tap or release grips if they feel any sharp pain in their fingers or wrists during drilling.",
-    "clips": []
+    "clips": [
+      {
+        "id": "EPAOODLwCj4",
+        "title": "Double Sleeve Guard Drill - Grip Break to Bicep Ride",
+        "channel": "Nomad Fitness & Jiu Jitsu",
+        "duration": 168,
+        "vertical": false,
+        "front": true
+      }
+    ]
   },
   "defender": {
     "name": "Grip Break Defender",

@@ -46,12 +46,12 @@ description: "Master the Kimura shoulder lock from overhook control. Complete gu
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Overhook guard to reverse triangle + Kimura",
-      "description": "Kimura from Overhook Control film study: Overhook guard to reverse triangle + Kimura.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/ljmJ9xP6N7U/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/ljmJ9xP6N7U",
-      "url": "https://www.youtube.com/watch?v=ljmJ9xP6N7U",
-      "duration": "PT45S"
+      "name": "Late Kimura Defense from Bottom Side Control",
+      "description": "Kimura from Overhook Control film study: Late Kimura Defense from Bottom Side Control.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/uRn3DRICpeY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/uRn3DRICpeY",
+      "url": "https://www.youtube.com/watch?v=uRn3DRICpeY",
+      "duration": "PT100S"
     }
   ]
 }
@@ -114,9 +114,9 @@ Finishing the Kimura from overhook control often requires different body mechani
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=ljmJ9xP6N7U)
+![](https://www.youtube.com/watch?v=uRn3DRICpeY)
 
-<p class="clip-credit"><strong>Overhook guard to reverse triangle + Kimura</strong> · 0:45 · <a href="https://www.youtube.com/watch?v=ljmJ9xP6N7U" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Late Kimura Defense from Bottom Side Control</strong> · 1:40 · <a href="https://www.youtube.com/watch?v=uRn3DRICpeY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -144,27 +144,6 @@ description: "Defend against the calf slicer from Russian Cowboy in BJJ. Recogni
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Calf Slicer from Russian Cowboy (Defender) \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Calf slicer from butterfly guard with counter-No Limit Jiu Jitsu",
-      "description": "Calf Slicer from Russian Cowboy (Defender) film study: Calf slicer from butterfly guard with counter-No Limit Jiu Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Bhzai-ipuRo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Bhzai-ipuRo",
-      "url": "https://www.youtube.com/watch?v=Bhzai-ipuRo",
-      "duration": "PT17S"
-    }
-  ]
-}
-</script>
-
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -180,24 +159,6 @@ The critical defensive window is narrow — once the attacker has their shin ful
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Calf Slicer from Russian Cowboy (Defender) in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=Bhzai-ipuRo)
-
-<p class="clip-credit"><strong>Calf slicer from butterfly guard with counter-No Limit Jiu Jitsu</strong> · 0:17 · <a href="https://www.youtube.com/watch?v=Bhzai-ipuRo" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="recognition-cues" class="content-section">

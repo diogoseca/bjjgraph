@@ -155,6 +155,27 @@ description: "Master the attacking perspective of straight ankle lock control. C
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Straight Ankle Lock Control (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Finishing the Straight Ankle Lock (BJJ): Countering Defense to the Achilles\u2026",
+      "description": "Straight Ankle Lock Control (Bottom) film study: Finishing the Straight Ankle Lock (BJJ): Countering Defense to the Achilles\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9jaSEuYbq_4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9jaSEuYbq_4",
+      "url": "https://www.youtube.com/watch?v=9jaSEuYbq_4",
+      "duration": "PT420S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -175,6 +196,24 @@ The technical execution requires precise coordination of grips, leg positioning,
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Straight Ankle Lock Control (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=9jaSEuYbq_4)
+
+<p class="clip-credit"><strong>Finishing the Straight Ankle Lock (BJJ): Countering Defense to the Achilles…</strong> · 7:00 · <a href="https://www.youtube.com/watch?v=9jaSEuYbq_4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="state-invariants" class="content-section">

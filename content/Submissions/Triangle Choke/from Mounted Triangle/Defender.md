@@ -188,16 +188,6 @@ description: "Defend and escape the triangle choke from mounted triangle. Recogn
       "embedUrl": "https://www.youtube.com/embed/szAvJFvIzx4",
       "url": "https://www.youtube.com/watch?v=szAvJFvIzx4",
       "duration": "PT591S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 4,
-      "name": "Avoiding and Defending the Triangle Choke (Lachlan Giles)",
-      "description": "Triangle Choke from Mounted Triangle (Defender) film study: Avoiding and Defending the Triangle Choke (Lachlan Giles).",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Ss49jnCob0w/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Ss49jnCob0w",
-      "url": "https://www.youtube.com/watch?v=Ss49jnCob0w",
-      "duration": "PT775S"
     }
   ]
 }
@@ -245,14 +235,6 @@ Defending the triangle choke from mounted triangle is among the most challenging
 ![](https://www.youtube.com/watch?v=szAvJFvIzx4)
 
 <p class="clip-credit"><strong>How to Escape the Triangle Choke from Guard</strong> · 9:51 · <a href="https://www.youtube.com/watch?v=szAvJFvIzx4" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=Ss49jnCob0w)
-
-<p class="clip-credit"><strong>Avoiding and Defending the Triangle Choke (Lachlan Giles)</strong> · 12:55 · <a href="https://www.youtube.com/watch?v=Ss49jnCob0w" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

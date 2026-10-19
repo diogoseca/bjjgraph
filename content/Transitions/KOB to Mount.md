@@ -46,12 +46,12 @@ description: "Master the Knee on Belly to Mount transition in BJJ. Learn weight 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Side Control Escape from Bottom as they transition to knee on belly and mount",
-      "description": "KOB to Mount film study: Side Control Escape from Bottom as they transition to knee on belly and mount.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/DagXZb2hses/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/DagXZb2hses",
-      "url": "https://www.youtube.com/watch?v=DagXZb2hses",
-      "duration": "PT58S"
+      "name": "knee on belly to mount",
+      "description": "KOB to Mount film study: knee on belly to mount.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/HNo-y8SJlgY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/HNo-y8SJlgY",
+      "url": "https://www.youtube.com/watch?v=HNo-y8SJlgY",
+      "duration": "PT132S"
     }
   ]
 }
@@ -105,9 +105,9 @@ The transition requires coordinated grip management, hip control, and base aware
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=DagXZb2hses)
+![](https://www.youtube.com/watch?v=HNo-y8SJlgY)
 
-<p class="clip-credit"><strong>Side Control Escape from Bottom as they transition to knee on belly and mount</strong> · 0:58 · <a href="https://www.youtube.com/watch?v=DagXZb2hses" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>knee on belly to mount</strong> · 2:12 · <a href="https://www.youtube.com/watch?v=HNo-y8SJlgY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -437,15 +437,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "ljmJ9xP6N7U",
-        "title": "Overhook guard to reverse triangle + Kimura",
-        "channel": "ZeGrapplez",
-        "duration": 45,
-        "vertical": false
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "from Overhook Control Defender",
@@ -632,14 +624,6 @@
       }
     ],
     "clips": [
-      {
-        "id": "GOLwVNTVcnY",
-        "title": "The Daily Dirtball: \"Kimura Defense Grip Breaks\"",
-        "channel": "Dirtball BJJ",
-        "duration": 81,
-        "vertical": false,
-        "front": true
-      },
       {
         "id": "uRn3DRICpeY",
         "title": "Late Kimura Defense from Bottom Side Control",

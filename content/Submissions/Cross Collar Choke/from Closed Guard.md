@@ -46,6 +46,16 @@ description: "Master the cross collar choke from closed guard with detailed grip
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "Closed guard bottom - Cross collar choke",
+      "description": "Cross Collar Choke from Closed Guard film study: Closed guard bottom - Cross collar choke.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/OKXBAzR_Y98/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/OKXBAzR_Y98",
+      "url": "https://www.youtube.com/watch?v=OKXBAzR_Y98",
+      "duration": "PT91S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
       "name": "Finishing Cross Collar Choke If You Can\u0027t Pull Them In",
       "description": "Cross Collar Choke from Closed Guard film study: Finishing Cross Collar Choke If You Can\u0027t Pull Them In.",
       "thumbnailUrl": "https://i.ytimg.com/vi/TDBe1SHzHKo/hqdefault.jpg",
@@ -55,7 +65,7 @@ description: "Master the cross collar choke from closed guard with detailed grip
     },
     {
       "@type": "VideoObject",
-      "position": 2,
+      "position": 3,
       "name": "The ONE THING that makes your cross collar choke EASY",
       "description": "Cross Collar Choke from Closed Guard film study: The ONE THING that makes your cross collar choke EASY.",
       "thumbnailUrl": "https://i.ytimg.com/vi/X93MdMlmrUg/hqdefault.jpg",
@@ -121,6 +131,14 @@ Strategically, the cross collar choke threat from closed guard functions as an o
 
 <p class="section-subtitle">Watch Cross Collar Choke from Closed Guard in action — curated instructionals</p>
 
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=OKXBAzR_Y98)
+
+<p class="clip-credit"><strong>Closed guard bottom - Cross collar choke</strong> · 1:31 · <a href="https://www.youtube.com/watch?v=OKXBAzR_Y98" rel="noopener">Watch on YouTube</a></p>
+
+</div>
 
 <div class="film-clip">
 

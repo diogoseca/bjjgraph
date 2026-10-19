@@ -170,6 +170,27 @@ description: "How to execute Side Control to North-South in BJJ. Attacking persp
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Side Control to North-South (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Top Side Control Drill - Side Control to North/South to Side Control",
+      "description": "Side Control to North-South (Attacker) film study: Top Side Control Drill - Side Control to North/South to Side Control.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-O7SfSANtWU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/-O7SfSANtWU",
+      "url": "https://www.youtube.com/watch?v=-O7SfSANtWU",
+      "duration": "PT280S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -182,6 +203,24 @@ The transition from Side Control to North-South is a fundamental positional adva
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Side Control to North-South (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=-O7SfSANtWU)
+
+<p class="clip-credit"><strong>Top Side Control Drill - Side Control to North/South to Side Control</strong> · 4:40 · <a href="https://www.youtube.com/watch?v=-O7SfSANtWU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">
