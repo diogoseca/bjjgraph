@@ -18237,6 +18237,7 @@ class Component extends DCLogic {
   startExecution(opt, card) {
     this.clearExecution();
     this._execution = { idx: opt.idx, card, camera: true, result: false };
+    if (this.holdChallengeReward) this.holdChallengeReward(); // D-326: no reward notice while the move executes
     this._bandBot = null; // the selected card, not the retired landing, now bounds the flight
     if (card && this.optionsRef.current) {
       this.optionsRef.current.style.justifyContent = "flex-start";
@@ -18270,6 +18271,9 @@ class Component extends DCLogic {
   clearExecution() {
     const ex = this._execution; if (!ex) return;
     this._execution = null;
+    // D-326: the held reward shows once the move lands. A microtask, so a
+    // startExecution that clears its predecessor keeps holding it.
+    if (this.showNextChallengeReward) queueMicrotask(() => this._challengeRewardActive || this.showNextChallengeReward());
     this._sweep = null;
     this._bandBot = null;
     if (ex.card) ex.card.remove();

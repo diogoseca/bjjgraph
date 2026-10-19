@@ -209,9 +209,13 @@ test("@curated submission entry retains its printed odds and reaches Finish with
 // modes (ci-e26/execution-camera-geometry-ruling.md). Keep the <=2px card handoff,
 // fit the painted pair/name in free 2-D space, and retain the above-card bound
 // wherever its vertical band exists. This is an APP fix, not a readiness repair.
-for (const [width, height, pane, scrolled] of [[390, 844, false, false], [1440, 900, false, false], [1440, 900, true, false], [1440, 900, false, true]] as const) {
+// D-326 (claude-verify/step2-report.md): on a phone the clicked card can sit at y78
+// under an announcer ending at y67. That 11px band counted as existing, rejected
+// every candidate and returned the unfitted target onto the card. A band now
+// exists only if it holds the reserved pair box; the 390px scrolled case pins it.
+for (const [width, height, pane, scrolled] of [[390, 844, false, false], [390, 844, false, true], [1440, 900, false, false], [1440, 900, true, false], [1440, 900, false, true]] as const) {
 for (const reduced of [false, true]) {
-  test(`@curated execution camera frames the technique at ${width}px; pane ${pane}; reduced motion ${reduced}${scrolled ? " after native wheel" : ""}`, async ({ page }) => {
+  test(`@curated execution camera frames the technique at ${width}px; pane ${pane}; reduced motion ${reduced}${scrolled ? (width > 640 ? " after native wheel" : " scrolled to the top") : ""}`, async ({ page }) => {
     await page.addInitScript(() => {
       const w = window as any, proto = CanvasRenderingContext2D.prototype, text = proto.fillText, fill = proto.fillRect;
       proto.fillRect = function (x, y, width, height) {
@@ -232,7 +236,16 @@ for (const reduced of [false, true]) {
     const j = await ready(page), opt = await transition(page)
     await page.emulateMedia({ reducedMotion: reduced ? "reduce" : "no-preference" })
     await j.rig("resolve", [0]); await j.rig("outcome", Array(32).fill(0))
-    if (scrolled) {
+    if (scrolled && width < 640) {
+      // A phone has no floating index, and a wheel over its deck or hand pages or
+      // glides them. Bring the card to the reader's top as the pick path's own
+      // scrollIntoView does when the hand starts below the fold, and to the hand's
+      // start, under the unfitted pair: the thin-band premise is asserted below.
+      await expect(page.locator('[data-reader][data-reader-ready="true"]')).toBeVisible();
+      await page.evaluate(name => (window as any).__neural._optionCards.find((c: any) => c.opt.node.t === name)
+        .card.scrollIntoView({ block: "start", inline: "start" }), opt.name);
+      await j.readerLayoutSettled();
+    } else if (scrolled) {
       await expect(page.locator('[data-reader][data-reader-ready="true"]')).toBeVisible();
       await j.clickByMouse('.ng-reader-toc-row:has([data-toc-eye="overview"]) a');
       await j.readerLayoutSettled();
@@ -261,7 +274,7 @@ for (const reduced of [false, true]) {
     const handoff = await page.evaluate(() => ({ before: (window as any).__clickedExecutionRect,
       after: document.querySelector('[data-executing-tech]')!.getBoundingClientRect().toJSON() }));
     for (const key of ['x', 'y', 'width', 'height'] as const) expect(Math.abs(handoff.before[key] - handoff.after[key]), 'clicked-card ' + key).toBeLessThanOrEqual(2);
-    if (scrolled) expect(handoff.before.y).toBeCloseTo(68, 0);
+    if (scrolled && width > 640) expect(handoff.before.y).toBeCloseTo(68, 0);
     if (pane) {
       await j.clickByMouse(".ng-logo", "open the learning pane during execution")
       await j.advance(1500); await j.advance(1500)
@@ -273,7 +286,7 @@ for (const reduced of [false, true]) {
       const card = document.querySelector("[data-executing-tech]")!.getBoundingClientRect()
       const pane = a.deckShown && !a.isMobile() ? a.drillRef.current.getBoundingClientRect().right : 0
       return { x: a.W / 2 + (n.x - a.cam.cx) * s, y: a.H / 2 + (a._LY(n) - a.cam.cy) * s,
-        left: pane, width: a.W, top: toast.bottom, bottom: card.top }
+        mid: a.H / 2 + (a.pairMid(n).y - a.cam.cy) * s, left: pane, width: a.W, top: toast.bottom, bottom: card.top }
     }, opt.idx)
     const paint = await page.evaluate(idx => {
       const w = window as any, a = w.__neural, n = a.nodes[idx], scale = a.W / a.cam.vw;
@@ -302,7 +315,14 @@ for (const reduced of [false, true]) {
     expect(paint.orbs).toHaveLength(2);
     expect(paint.intersections, 'the full painted pair and label clear every occupied rectangle').toEqual([]);
     expect(point.x).toBeGreaterThan(point.left); expect(point.x).toBeLessThan(point.width)
-    if (point.bottom > point.top) {
+    // The above-card bound holds where the band can hold the reserved pair box:
+    // the orbs plus role and qualifier rows at either naming anchor, with 12px
+    // clearances (the premise frameExecution states; the clearance above is the claim).
+    const reserve = Math.max(...paint.orbs.map((o: any) => o.bottom), point.y + 40, point.mid + 40)
+      - Math.min(...paint.orbs.map((o: any) => o.top), point.y - 36, point.mid - 36)
+    const holds = point.bottom - point.top >= reserve + 24
+    if (scrolled && width < 640) expect(point.bottom > point.top && !holds, 'the scrolled phone leaves a positive band too thin for the pair').toBe(true)
+    if (holds) {
       expect(point.y).toBeGreaterThan(point.top); expect(point.y).toBeLessThan(point.bottom)
     }
     // Keep the real graph-pan/lease claim even when the old vertical band is
@@ -323,3 +343,42 @@ for (const reduced of [false, true]) {
   })
 }
 }
+
+// D-326: a reward notice yields while a move executes and shows once it lands,
+// never dropped. A full-width phone notice (x12-378, y82-184) left the execution
+// camera nowhere to frame the move. Both real earn paths run: a notice already
+// showing at the click, and a coin minted mid-execution, as a move lands.
+test("@curated 390px a reward notice yields while a move executes and shows once it lands", async ({ page }) => {
+  await page.setViewportSize({ width: 390, height: 844 })
+  const j = await ready(page), opt = await transition(page)
+  await j.rig("resolve", [0]); await j.rig("outcome", Array(32).fill(0))
+  const reward = page.locator(".ng-challenge-reward")
+  const held = () => page.evaluate(() => {
+    const a = (window as any).__neural
+    return [a._challengeRewardActive, ...(a._challengeRewardQueue || [])].filter(Boolean).map((r: any) => r.id)
+  })
+  // The harness's own patch runs a real 4.8s timer; dismiss it the way a player
+  // would, so the held notice is the fresh one the three real escapes mint.
+  for (let i = 0; i < 4 && await reward.count(); i++) await j.clickByMouse("[data-reward-close]", "dismiss an earlier notice")
+  await page.evaluate(() => { const a = (window as any).__neural; for (let i = 0; i < 3; i++) a.fx("escape", { via: "Elbow Escape" }) })
+  await expect(reward, "a reward notice shows before the move").toContainText("Houdini")
+  const before = await held()
+  expect(before).toEqual(["houdini"])
+  await j.pick(opt.name)
+  await j.advanceUntil("sweep_start", 20000, 40)
+  await expect(page.locator("[data-executing-tech]")).toHaveCount(1)
+  // Read once, never retried: a retrying wait outlives the notice's own 4.8s
+  // timer and would pass on a build that never held it.
+  expect(await reward.count(), "the showing notice yields to the executing move").toBe(0)
+  await page.evaluate(() => (window as any).__neural.fx("escape_odds_pumped", {}))
+  expect(await reward.count(), "a coin minted mid-execution waits").toBe(0)
+  expect(await held(), "every notice is held in order, none dropped").toEqual([...before, "frame-job"])
+  for (let spent = 0; spent < 20000 && await page.locator("[data-executing-tech]").count(); spent += 100) await j.advance(100)
+  await expect(page.locator("[data-executing-tech]"), "the move landed").toHaveCount(0)
+  await expect(reward, "the first held notice shows once the move lands").toHaveCount(1)
+  await expect(reward, "the notice that yielded shows again").toContainText("Houdini")
+  // A landing may mint its own reward; it queues behind the held ones.
+  expect((await held()).slice(0, 2), "the landed queue starts with the held queue").toEqual([...before, "frame-job"])
+  await j.clickByMouse("[data-reward-close]", "dismiss the first held notice")
+  await expect(reward, "the coin minted mid-execution shows next").toContainText("Frame Job")
+})

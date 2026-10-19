@@ -226,6 +226,11 @@
       "file": "e2e/journeys/roll-execution.spec.ts",
       "test": "execution camera frames the technique; native-wheel regression",
       "change": "REAL BREAK with an approved geometry correction (D-322). A native Overview click and wheel can place the chosen card at y68 while the announcer ends at70.59375. Keep the <=2px measured pointerdown-to-stand-in rectangle; retain the original scalar above-card bounds wherever that vertical band exists. Every case now observes actual fillText output plus both shared drawn silhouettes against clipped visible rectangles. Original six normal-flow cases remain, and native-wheel cases add both motion modes. Exact e26 and the drop-correction mutant fail the painted-overlap assertion, never an input wait. The actual unobstructed-canvas pan still releases camera ownership. D-318 idle arrival/occlusion and the <3 opening-flight drift bound are unchanged."
+    },
+    {
+      "file": "e2e/journeys/roll-execution.spec.ts",
+      "test": "execution camera frames the technique at 390px; native-wheel thin band; reward notice deferral",
+      "change": "REAL BREAK, app fix (D-326). On a phone the clicked card can sit at y78 under an announcer ending at y67: frameExecution counted that 11px band as existing, rejected every candidate and returned the unfitted target onto the card. A band now exists only if it holds the reserved pair box with its 12px clearances; otherwise free 2-D space. The scalar above-card assertion follows the same premise (reserved box plus 24px) instead of any positive band; the painted-overlap claim is unchanged. A 390px case scrolled to the top (the pick path's own scrollIntoView; a phone wheel pages the deck or glides the hand) in both motion modes pins the thin band, and the execution-thin-band-accepted mutant fails its painted-overlap assertion. A full-width challenge reward also left no slot: the notice now yields at startExecution and shows again once the move lands, never dropped. The camera journeys keep the harness's real reward. New 390px journey: a notice showing at the click and a coin minted mid-execution are both held in order and shown after landing; the reward-hold-lost mutant fails at its yield assertion."
     }
   ]
 }

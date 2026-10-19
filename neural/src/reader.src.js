@@ -805,20 +805,28 @@ class Reader {
       const r = rect(el); if (r && r.bottom > r.top) occupied.push(r);
     }
     const card = rect(a._execution.card), toast = rect(a.evRef.current);
-    const band = card && toast && card.top > toast.bottom;
+    // D-326: the above-card band exists only if it can hold the box with its 12px
+    // clearances. A thinner one (11px on a scrolled phone) used to reject every
+    // candidate and return the unfitted target; it is free 2-D space instead.
+    const band = card && toast && card.top - toast.bottom >= box.bottom - box.top + 24;
     const left = a._paneLayout().left + 12, right = W - 12;
-    const xs = [0, left - box.left, right - box.right], ys = [0, 12 - box.top, H - 12 - box.bottom];
-    for (const r of occupied) { xs.push(r.left - 12 - box.right, r.right + 12 - box.left); ys.push(r.top - 12 - box.bottom, r.bottom + 12 - box.top); }
-    if (band) ys.push(toast.bottom + 1 - p.y, card.top - 1 - p.y);
-    let best, distance = Infinity;
-    for (const x of new Set(xs)) for (const y of new Set(ys)) {
-      const cost = x * x + y * y;
-      if (cost >= distance || box.left + x < left || box.right + x > right || box.top + y < 12 || box.bottom + y > H - 12 ||
-        band && (p.y + y <= toast.bottom || p.y + y >= card.top)) continue;
-      if (occupied.some(r => box.left + x < r.right + 12 && box.right + x > r.left - 12 && box.top + y < r.bottom + 12 && box.bottom + y > r.top - 12)) continue;
-      best = { ...target, cx: target.cx - x / scale, cy: target.cy - y / scale }; distance = cost;
+    // D-326: a phone's centred reduced-motion stand-in leaves 96px a side, which
+    // fits the reserved box only at a 4px clearance. Painted pixels still never touch.
+    for (const gap of [12, 4]) {
+      const xs = [0, left - box.left, right - box.right], ys = [0, 12 - box.top, H - 12 - box.bottom];
+      for (const r of occupied) { xs.push(r.left - gap - box.right, r.right + gap - box.left); ys.push(r.top - gap - box.bottom, r.bottom + gap - box.top); }
+      if (band) ys.push(toast.bottom + 1 - p.y, card.top - 1 - p.y);
+      let best, distance = Infinity;
+      for (const x of new Set(xs)) for (const y of new Set(ys)) {
+        const cost = x * x + y * y;
+        if (cost >= distance || box.left + x < left || box.right + x > right || box.top + y < 12 || box.bottom + y > H - 12 ||
+          band && (p.y + y <= toast.bottom || p.y + y >= card.top)) continue;
+        if (occupied.some(r => box.left + x < r.right + gap && box.right + x > r.left - gap && box.top + y < r.bottom + gap && box.bottom + y > r.top - gap)) continue;
+        best = { ...target, cx: target.cx - x / scale, cy: target.cy - y / scale }; distance = cost;
+      }
+      if (best) return best;
     }
-    return best || target;
+    return target;
   }
   publishCard(card) {
     // Complete new controls adopt before their first paint; observer updates to

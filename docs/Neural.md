@@ -784,7 +784,8 @@ stage-based and moves only on answers** — the score cannot drop because time p
 
 **Challenges** persist as `{progress, done, t}`; collectibles as `{t, context?}`. `fx()` is the
 single evidence seam. Rewards are patches and joke coins: neither is spendable and neither changes
-odds, score, timers, content access or opponent behaviour.
+odds, score, timers, content access or opponent behaviour. A notice waits while a move executes and
+shows once it lands.
 
 **Momentum** is a per-roll combo on consecutive correct landing answers. Wrong or ignored breaks it;
 a landing that asks nothing carries it. It adds a capped bonus to `moveChance` **and**
