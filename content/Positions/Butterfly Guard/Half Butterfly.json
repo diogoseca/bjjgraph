@@ -490,28 +490,20 @@
         "id": "LIITsrlsAaI",
         "title": "Passing half butterfly guard",
         "by": "Morto BJJ",
-        "vertical": false,
+        "vertical": true,
         "channel": "Morto BJJ",
         "duration": 70,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "8WbQvytyCX0",
-        "title": "How to pass the flat half guard",
-        "by": "Malachy Friedman",
-        "vertical": false,
-        "channel": "Malachy Friedman",
-        "duration": 63,
-        "verified": "2026-07-14"
+        "verified": "2026-10-19",
+        "front": true
       },
       {
         "id": "Pk_6CrydIRQ",
-        "title": "Effective half butterfly guard pass (no-gi)",
+        "title": "Effective Half Butterfly Guard Pass for NoGi #nogi #bjj #jiujitsu",
         "by": "Factory Fresh Jiu Jitsu",
-        "vertical": false,
+        "vertical": true,
         "channel": "Factory Fresh Jiu Jitsu",
-        "duration": 110,
-        "verified": "2026-07-14"
+        "duration": 109,
+        "verified": "2026-10-19"
       }
     ]
   },
@@ -1038,24 +1030,5 @@
       }
     }
   ],
-  "clips": [
-    {
-      "id": "ttMQzRPkHRA",
-      "title": "What to do when flattened in butterfly guard",
-      "by": "Ante Dzolic",
-      "vertical": false,
-      "channel": "Ante Dzolic",
-      "duration": 125,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "9XULQjZeOEU",
-      "title": "Basic butterfly sweep",
-      "by": "Lachlan Giles",
-      "vertical": false,
-      "channel": "Absolute MMA St Kilda - Melbourne",
-      "duration": 243,
-      "verified": "2026-07-14"
-    }
-  ]
+  "clips": []
 }

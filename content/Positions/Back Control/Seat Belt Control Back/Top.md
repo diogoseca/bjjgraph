@@ -165,35 +165,24 @@ description: "Master Seat Belt Control from top back position. Dominant 4-point 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Seatbelt Grip Quick Fix",
-      "description": "Seat Belt Control Back (Top) film study: Seatbelt Grip Quick Fix, taught by Ben Kool.",
+      "name": "Jiu Jitsu Quick Fix #1: Seatbelt Grip",
+      "description": "Seat Belt Control Back (Top) film study: Jiu Jitsu Quick Fix #1: Seatbelt Grip, taught by Ben Kool.",
       "thumbnailUrl": "https://i.ytimg.com/vi/MwxnveKrlxU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/MwxnveKrlxU",
       "url": "https://www.youtube.com/watch?v=MwxnveKrlxU",
       "creator": { "@type": "Person", "name": "Ben Kool" },
-      "duration": "PT62S"
+      "duration": "PT61S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Deep Seatbelt Control",
-      "description": "Seat Belt Control Back (Top) film study: Deep Seatbelt Control, taught by Tom Halpin.",
+      "name": "Back Attacks 3.0 - #12: Deep Seatbelt // Tom Halpin",
+      "description": "Seat Belt Control Back (Top) film study: Back Attacks 3.0 - #12: Deep Seatbelt // Tom Halpin, taught by Tom Halpin.",
       "thumbnailUrl": "https://i.ytimg.com/vi/rvh8MFq_tb0/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/rvh8MFq_tb0",
       "url": "https://www.youtube.com/watch?v=rvh8MFq_tb0",
       "creator": { "@type": "Person", "name": "Tom Halpin" },
       "duration": "PT111S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Application Against a Seated Opponent",
-      "description": "Seat Belt Control Back (Top) film study: Application Against a Seated Opponent, taught by John Danaher.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Es7T1KjTUpI/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Es7T1KjTUpI",
-      "url": "https://www.youtube.com/watch?v=Es7T1KjTUpI",
-      "creator": { "@type": "Person", "name": "John Danaher" },
-      "duration": "PT157S"
     }
   ]
 }
@@ -225,7 +214,7 @@ Seat belt control excels when opponent is attempting to escape or defend, as the
 
 ![](https://www.youtube.com/watch?v=MwxnveKrlxU)
 
-<p class="clip-credit"><strong>Seatbelt Grip Quick Fix</strong> — taught by Ben Kool · 1:02 · <a href="https://www.youtube.com/watch?v=MwxnveKrlxU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Jiu Jitsu Quick Fix #1: Seatbelt Grip</strong> — taught by Ben Kool · 1:01 · <a href="https://www.youtube.com/watch?v=MwxnveKrlxU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -233,15 +222,7 @@ Seat belt control excels when opponent is attempting to escape or defend, as the
 
 ![](https://www.youtube.com/watch?v=rvh8MFq_tb0)
 
-<p class="clip-credit"><strong>Deep Seatbelt Control</strong> — taught by Tom Halpin · 1:51 · <a href="https://www.youtube.com/watch?v=rvh8MFq_tb0" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=Es7T1KjTUpI)
-
-<p class="clip-credit"><strong>Application Against a Seated Opponent</strong> — taught by John Danaher · 2:37 · <a href="https://www.youtube.com/watch?v=Es7T1KjTUpI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Back Attacks 3.0 - #12: Deep Seatbelt // Tom Halpin</strong> — taught by Tom Halpin · 1:51 · <a href="https://www.youtube.com/watch?v=rvh8MFq_tb0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

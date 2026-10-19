@@ -165,35 +165,23 @@ description: "Master Seated Guard Bottom in BJJ. Upright open guard with posted 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Seated Guard Takedown/Sweep Tutorial",
-      "description": "Seated Guard (Bottom) film study: Seated Guard Takedown/Sweep Tutorial, taught by Craig Jones.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/qj4vQ7TcEjU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/qj4vQ7TcEjU",
-      "url": "https://www.youtube.com/watch?v=qj4vQ7TcEjU",
-      "creator": { "@type": "Person", "name": "Craig Jones" },
-      "duration": "PT64S"
+      "name": "Seated Guard vs Standing: Distance Control and Problem Solving",
+      "description": "Seated Guard (Bottom) film study: Seated Guard vs Standing: Distance Control and Problem Solving.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aomPFOrnW9g/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aomPFOrnW9g",
+      "url": "https://www.youtube.com/watch?v=aomPFOrnW9g",
+      "duration": "PT392S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Seated Guard Hand-Fighting Sweep Drill",
-      "description": "Seated Guard (Bottom) film study: Seated Guard Hand-Fighting Sweep Drill, taught by Factory Fresh Jiu Jitsu.",
+      "name": "Seated Guard Hand Fighting Drill: Sweep | Wrestle Up | Single Leg X",
+      "description": "Seated Guard (Bottom) film study: Seated Guard Hand Fighting Drill: Sweep | Wrestle Up | Single Leg X, taught by Factory Fresh Jiu Jitsu.",
       "thumbnailUrl": "https://i.ytimg.com/vi/H3HHTStUtVs/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/H3HHTStUtVs",
       "url": "https://www.youtube.com/watch?v=H3HHTStUtVs",
       "creator": { "@type": "Person", "name": "Factory Fresh Jiu Jitsu" },
       "duration": "PT43S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Sit Up Guard to Ankle Pick",
-      "description": "Seated Guard (Bottom) film study: Sit Up Guard to Ankle Pick, taught by Carpio Jiu Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/XJxo3E7brlk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/XJxo3E7brlk",
-      "url": "https://www.youtube.com/watch?v=XJxo3E7brlk",
-      "creator": { "@type": "Person", "name": "Carpio Jiu Jitsu" },
-      "duration": "PT114S"
     }
   ]
 }
@@ -223,9 +211,9 @@ Seated Guard works best when opponent is standing or on knees with distance, but
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=qj4vQ7TcEjU)
+![](https://www.youtube.com/watch?v=aomPFOrnW9g)
 
-<p class="clip-credit"><strong>Seated Guard Takedown/Sweep Tutorial</strong> — taught by Craig Jones · 1:04 · <a href="https://www.youtube.com/watch?v=qj4vQ7TcEjU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Seated Guard vs Standing: Distance Control and Problem Solving</strong> · 6:32 · <a href="https://www.youtube.com/watch?v=aomPFOrnW9g" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -233,15 +221,7 @@ Seated Guard works best when opponent is standing or on knees with distance, but
 
 ![](https://www.youtube.com/watch?v=H3HHTStUtVs)
 
-<p class="clip-credit"><strong>Seated Guard Hand-Fighting Sweep Drill</strong> — taught by Factory Fresh Jiu Jitsu · 0:43 · <a href="https://www.youtube.com/watch?v=H3HHTStUtVs" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=XJxo3E7brlk)
-
-<p class="clip-credit"><strong>Sit Up Guard to Ankle Pick</strong> — taught by Carpio Jiu Jitsu · 1:54 · <a href="https://www.youtube.com/watch?v=XJxo3E7brlk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Seated Guard Hand Fighting Drill: Sweep | Wrestle Up | Single Leg X</strong> — taught by Factory Fresh Jiu Jitsu · 0:43 · <a href="https://www.youtube.com/watch?v=H3HHTStUtVs" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

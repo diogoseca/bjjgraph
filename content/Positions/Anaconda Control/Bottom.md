@@ -165,19 +165,8 @@ description: "Master defensive strategies for surviving Anaconda Control from bo
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Anaconda choke defense",
-      "description": "Anaconda Control (Bottom) film study: Anaconda choke defense, taught by Mamba BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/N9MbEtAv_Lw/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/N9MbEtAv_Lw",
-      "url": "https://www.youtube.com/watch?v=N9MbEtAv_Lw",
-      "creator": { "@type": "Person", "name": "Mamba BJJ" },
-      "duration": "PT62S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Anaconda defense plus counter",
-      "description": "Anaconda Control (Bottom) film study: Anaconda defense plus counter, taught by Cyril Robert.",
+      "name": "BJJ defense anaconda plus counter",
+      "description": "Anaconda Control (Bottom) film study: BJJ defense anaconda plus counter, taught by Cyril Robert.",
       "thumbnailUrl": "https://i.ytimg.com/vi/s94GexEkoQ0/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/s94GexEkoQ0",
       "url": "https://www.youtube.com/watch?v=s94GexEkoQ0",
@@ -186,14 +175,14 @@ description: "Master defensive strategies for surviving Anaconda Control from bo
     },
     {
       "@type": "VideoObject",
-      "position": 3,
-      "name": "How to escape the anaconda choke",
-      "description": "Anaconda Control (Bottom) film study: How to escape the anaconda choke, taught by ArtOfSayingGoodbye.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/At1_GDu4hSc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/At1_GDu4hSc",
-      "url": "https://www.youtube.com/watch?v=At1_GDu4hSc",
-      "creator": { "@type": "Person", "name": "ArtOfSayingGoodbye" },
-      "duration": "PT23S"
+      "position": 2,
+      "name": "Anaconda Choke Defense",
+      "description": "Anaconda Control (Bottom) film study: Anaconda Choke Defense, taught by Mamba BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/N9MbEtAv_Lw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/N9MbEtAv_Lw",
+      "url": "https://www.youtube.com/watch?v=N9MbEtAv_Lw",
+      "creator": { "@type": "Person", "name": "Mamba BJJ" },
+      "duration": "PT61S"
     }
   ]
 }
@@ -223,25 +212,17 @@ This position often occurs during scrambles from turtle, failed takedown attempt
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=N9MbEtAv_Lw)
-
-<p class="clip-credit"><strong>Anaconda choke defense</strong> — taught by Mamba BJJ · 1:02 · <a href="https://www.youtube.com/watch?v=N9MbEtAv_Lw" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=s94GexEkoQ0)
 
-<p class="clip-credit"><strong>Anaconda defense plus counter</strong> — taught by Cyril Robert · 0:43 · <a href="https://www.youtube.com/watch?v=s94GexEkoQ0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>BJJ defense anaconda plus counter</strong> — taught by Cyril Robert · 0:43 · <a href="https://www.youtube.com/watch?v=s94GexEkoQ0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=At1_GDu4hSc)
+![](https://www.youtube.com/watch?v=N9MbEtAv_Lw)
 
-<p class="clip-credit"><strong>How to escape the anaconda choke</strong> — taught by ArtOfSayingGoodbye · 0:23 · <a href="https://www.youtube.com/watch?v=At1_GDu4hSc" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Anaconda Choke Defense</strong> — taught by Mamba BJJ · 1:01 · <a href="https://www.youtube.com/watch?v=N9MbEtAv_Lw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

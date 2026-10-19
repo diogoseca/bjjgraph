@@ -477,31 +477,22 @@
     ],
     "clips": [
       {
-        "id": "K2Q1qg-cjTc",
-        "title": "Standing Back Control",
-        "by": "JFLOJUDO",
-        "vertical": false,
-        "channel": "JFLOJUDO",
-        "duration": 58,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "f3PJ06A_bWQ",
-        "title": "Hip Switch to Back Take",
-        "by": "Gordon Ryan",
-        "vertical": false,
-        "channel": "Jiu Jitsu Moves",
-        "duration": 19,
-        "verified": "2026-07-14"
-      },
-      {
         "id": "HWrsepCcaUk",
-        "title": "Mat Return from Standing Back Control",
+        "title": "Mat Return: BJJ takedowns from standing Back Control.",
         "by": "William Abreu",
         "vertical": false,
         "channel": "William Abreu",
         "duration": 194,
-        "verified": "2026-07-14"
+        "verified": "2026-10-19",
+        "front": true
+      },
+      {
+        "id": "lF5kkB2rq5Y",
+        "vertical": false,
+        "title": "Three Wrestling Entries to a Standing Rear Body Lock",
+        "channel": "Pearson Brazilian Jiu-Jitsu",
+        "duration": 194,
+        "verified": "2026-10-19"
       }
     ]
   },
@@ -1039,22 +1030,14 @@
   ],
   "clips": [
     {
-      "id": "K2Q1qg-cjTc",
-      "title": "Standing Back Control",
-      "by": "JFLOJUDO",
-      "vertical": false,
-      "channel": "JFLOJUDO",
-      "duration": 58,
-      "verified": "2026-07-14"
-    },
-    {
       "id": "HWrsepCcaUk",
-      "title": "Mat Return from Standing Back Control",
+      "title": "Mat Return: BJJ takedowns from standing Back Control.",
       "by": "William Abreu",
       "vertical": false,
       "channel": "William Abreu",
       "duration": 194,
-      "verified": "2026-07-14"
+      "verified": "2026-10-19",
+      "half": "top"
     }
   ]
 }

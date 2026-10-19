@@ -46,35 +46,23 @@ description: "Master Single Leg X-Guard in BJJ. Strategic guide covering setup, 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Single Leg X entries and sweep",
-      "description": "Single Leg X-Guard film study: Single Leg X entries and sweep, taught by Marcelo Garcia.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/y0C8vIeCrc0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/y0C8vIeCrc0",
-      "url": "https://www.youtube.com/watch?v=y0C8vIeCrc0",
-      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
-      "duration": "PT179S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Single Leg X guard options",
-      "description": "Single Leg X-Guard film study: Single Leg X guard options, taught by Steven Kaloustian.",
+      "name": "Single leg X Guard Options, X Guard, Reverse X Guard",
+      "description": "Single Leg X-Guard film study: Single leg X Guard Options, X Guard, Reverse X Guard, taught by Steven Kaloustian.",
       "thumbnailUrl": "https://i.ytimg.com/vi/EcxCadpBePk/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/EcxCadpBePk",
       "url": "https://www.youtube.com/watch?v=EcxCadpBePk",
       "creator": { "@type": "Person", "name": "Steven Kaloustian" },
-      "duration": "PT97S"
+      "duration": "PT96S"
     },
     {
       "@type": "VideoObject",
-      "position": 3,
-      "name": "One-Leg X guard sweep",
-      "description": "Single Leg X-Guard film study: One-Leg X guard sweep, taught by Marcelo Garcia.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/AhsXraebbdg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/AhsXraebbdg",
-      "url": "https://www.youtube.com/watch?v=AhsXraebbdg",
-      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
-      "duration": "PT47S"
+      "position": 2,
+      "name": "Single Leg X Guard Basics",
+      "description": "Single Leg X-Guard film study: Single Leg X Guard Basics.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/k0tmlrPk8B4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/k0tmlrPk8B4",
+      "url": "https://www.youtube.com/watch?v=k0tmlrPk8B4",
+      "duration": "PT310S"
     }
   ]
 }
@@ -121,25 +109,17 @@ Within the modern leg-entanglement game, Single Leg X-Guard (SLX) has become a c
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=y0C8vIeCrc0)
-
-<p class="clip-credit"><strong>Single Leg X entries and sweep</strong> — taught by Marcelo Garcia · 2:59 · <a href="https://www.youtube.com/watch?v=y0C8vIeCrc0" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=EcxCadpBePk)
 
-<p class="clip-credit"><strong>Single Leg X guard options</strong> — taught by Steven Kaloustian · 1:37 · <a href="https://www.youtube.com/watch?v=EcxCadpBePk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Single leg X Guard Options, X Guard, Reverse X Guard</strong> — taught by Steven Kaloustian · 1:36 · <a href="https://www.youtube.com/watch?v=EcxCadpBePk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=AhsXraebbdg)
+![](https://www.youtube.com/watch?v=k0tmlrPk8B4)
 
-<p class="clip-credit"><strong>One-Leg X guard sweep</strong> — taught by Marcelo Garcia · 0:47 · <a href="https://www.youtube.com/watch?v=AhsXraebbdg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Single Leg X Guard Basics</strong> · 5:10 · <a href="https://www.youtube.com/watch?v=k0tmlrPk8B4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

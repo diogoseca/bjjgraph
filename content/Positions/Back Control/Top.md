@@ -166,35 +166,13 @@ description: "Master attacking from back control in BJJ. Learn hook control, har
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Hip Switch to Back Take",
-      "description": "Back Control (Top) film study: Hip Switch to Back Take, taught by Gordon Ryan.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/f3PJ06A_bWQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/f3PJ06A_bWQ",
-      "url": "https://www.youtube.com/watch?v=f3PJ06A_bWQ",
-      "creator": { "@type": "Person", "name": "Gordon Ryan" },
-      "duration": "PT19S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Rear Naked Choke from the Back",
-      "description": "Back Control (Top) film study: Rear Naked Choke from the Back, taught by Gordon Ryan.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/70jECxFfCSA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/70jECxFfCSA",
-      "url": "https://www.youtube.com/watch?v=70jECxFfCSA",
-      "creator": { "@type": "Person", "name": "Gordon Ryan" },
-      "duration": "PT73S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Countering a Full Inversion",
-      "description": "Back Control (Top) film study: Countering a Full Inversion, taught by Gordon Ryan.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/aQ2vFXXBn-o/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/aQ2vFXXBn-o",
-      "url": "https://www.youtube.com/watch?v=aQ2vFXXBn-o",
-      "creator": { "@type": "Person", "name": "Gordon Ryan" },
-      "duration": "PT61S"
+      "name": "No Gi BJJ: Basic details of back control and rear strangle",
+      "description": "Back Control (Top) film study: No Gi BJJ: Basic details of back control and rear strangle, taught by Robyn Sheehan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ypTfNWlR5ls/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ypTfNWlR5ls",
+      "url": "https://www.youtube.com/watch?v=ypTfNWlR5ls",
+      "creator": { "@type": "Person", "name": "Robyn Sheehan" },
+      "duration": "PT168S"
     }
   ]
 }
@@ -229,25 +207,9 @@ The attacking methodology from back control follows a layered approach. First, e
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=f3PJ06A_bWQ)
+![](https://www.youtube.com/watch?v=ypTfNWlR5ls)
 
-<p class="clip-credit"><strong>Hip Switch to Back Take</strong> — taught by Gordon Ryan · 0:19 · <a href="https://www.youtube.com/watch?v=f3PJ06A_bWQ" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=70jECxFfCSA)
-
-<p class="clip-credit"><strong>Rear Naked Choke from the Back</strong> — taught by Gordon Ryan · 1:13 · <a href="https://www.youtube.com/watch?v=70jECxFfCSA" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=aQ2vFXXBn-o)
-
-<p class="clip-credit"><strong>Countering a Full Inversion</strong> — taught by Gordon Ryan · 1:01 · <a href="https://www.youtube.com/watch?v=aQ2vFXXBn-o" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>No Gi BJJ: Basic details of back control and rear strangle</strong> — taught by Robyn Sheehan · 2:48 · <a href="https://www.youtube.com/watch?v=ypTfNWlR5ls" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

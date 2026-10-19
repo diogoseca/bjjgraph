@@ -165,28 +165,16 @@ description: "Master Half Guard Top with systematic passing strategies. Advanced
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "How to Pass the Flat Half Guard",
-      "description": "Half Guard (Top) film study: How to Pass the Flat Half Guard, taught by Malachy Friedman.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/8WbQvytyCX0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/8WbQvytyCX0",
-      "url": "https://www.youtube.com/watch?v=8WbQvytyCX0",
-      "creator": { "@type": "Person", "name": "Malachy Friedman" },
-      "duration": "PT63S"
+      "name": "Half Guard Passing Fundamentals and Top Control",
+      "description": "Half Guard (Top) film study: Half Guard Passing Fundamentals and Top Control.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/qNHk-dNW5pI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/qNHk-dNW5pI",
+      "url": "https://www.youtube.com/watch?v=qNHk-dNW5pI",
+      "duration": "PT546S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Free Your Foot While Passing Half Guard",
-      "description": "Half Guard (Top) film study: Free Your Foot While Passing Half Guard, taught by Kameron Ross.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/kTSMGYlVJKY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/kTSMGYlVJKY",
-      "url": "https://www.youtube.com/watch?v=kTSMGYlVJKY",
-      "creator": { "@type": "Person", "name": "Kameron Ross" },
-      "duration": "PT55S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
       "name": "Pass Half Guard Knee Shield with Knee Cut",
       "description": "Half Guard (Top) film study: Pass Half Guard Knee Shield with Knee Cut, taught by War Room Jiu Jitsu.",
       "thumbnailUrl": "https://i.ytimg.com/vi/yj_6xcl2emA/hqdefault.jpg",
@@ -227,17 +215,9 @@ Dean Lister demonstrates a calf slicer beginning from top half guard: a shoulder
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=8WbQvytyCX0)
+![](https://www.youtube.com/watch?v=qNHk-dNW5pI)
 
-<p class="clip-credit"><strong>How to Pass the Flat Half Guard</strong> — taught by Malachy Friedman · 1:03 · <a href="https://www.youtube.com/watch?v=8WbQvytyCX0" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=kTSMGYlVJKY)
-
-<p class="clip-credit"><strong>Free Your Foot While Passing Half Guard</strong> — taught by Kameron Ross · 0:55 · <a href="https://www.youtube.com/watch?v=kTSMGYlVJKY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Half Guard Passing Fundamentals and Top Control</strong> · 9:06 · <a href="https://www.youtube.com/watch?v=qNHk-dNW5pI" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

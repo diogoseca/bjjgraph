@@ -943,22 +943,14 @@
     ],
     "clips": [
       {
-        "id": "YEVojixbKs8",
-        "title": "Signature sweep from knee shield",
-        "by": "A. Sukandar",
+        "id": "q_ND-09HiWg",
+        "title": "Knee Shield Half Guard Basics",
+        "by": "MMA Leech",
         "vertical": false,
-        "channel": "A. Sukandar",
-        "duration": 70,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "5abrviYxKU8",
-        "title": "Leg lock entry from knee shield half guard",
-        "by": "Hellfish MMA",
-        "vertical": false,
-        "channel": "Hellfish Mixed Martial Arts",
-        "duration": 147,
-        "verified": "2026-07-14"
+        "channel": "MMA Leech",
+        "duration": 263,
+        "verified": "2026-10-19",
+        "front": true
       }
     ]
   },
@@ -1078,22 +1070,14 @@
   ],
   "clips": [
     {
-      "id": "CLBRo3Jef54",
-      "title": "Knee shield to scissor/push sweep",
-      "by": "Strong Hold Jiu Jitsu",
+      "id": "q_ND-09HiWg",
+      "title": "Knee Shield Half Guard Basics",
+      "by": "MMA Leech",
       "vertical": false,
-      "channel": "Strong Hold Jiu Jitsu",
-      "duration": 52,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "ZqsGp9fWi3Y",
-      "title": "Bottom half guard attacks basics",
-      "by": "Cobrinha",
-      "vertical": false,
-      "channel": "Cobrinha BJJ SB",
-      "duration": 205,
-      "verified": "2026-07-14"
+      "channel": "MMA Leech",
+      "duration": 263,
+      "verified": "2026-10-19",
+      "half": "bottom"
     }
   ]
 }

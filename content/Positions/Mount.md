@@ -48,35 +48,13 @@ description: "Master the Mount position in BJJ. Complete guide to control, submi
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Roger Gracie Mount Cross Collar Chokes",
-      "description": "Mount film study: Roger Gracie Mount Cross Collar Chokes, taught by Roger Gracie.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/dfP-Ov8FBUo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/dfP-Ov8FBUo",
-      "url": "https://www.youtube.com/watch?v=dfP-Ov8FBUo",
-      "creator": { "@type": "Person", "name": "Roger Gracie" },
-      "duration": "PT80S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Mount Control Fundamentals - Roger Gracie Style",
-      "description": "Mount film study: Mount Control Fundamentals - Roger Gracie Style, taught by MMA Leech.",
+      "name": "Fix Your BJJ Mount Control - ROGER GRACIE Style",
+      "description": "Mount film study: Fix Your BJJ Mount Control - ROGER GRACIE Style, taught by MMA Leech.",
       "thumbnailUrl": "https://i.ytimg.com/vi/5Gxj5VQj8bc/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/5Gxj5VQj8bc",
       "url": "https://www.youtube.com/watch?v=5Gxj5VQj8bc",
       "creator": { "@type": "Person", "name": "MMA Leech" },
       "duration": "PT184S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Maintaining the Mount Position",
-      "description": "Mount film study: Maintaining the Mount Position, taught by Demian Maia.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/FO5aipaY0cc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/FO5aipaY0cc",
-      "url": "https://www.youtube.com/watch?v=FO5aipaY0cc",
-      "creator": { "@type": "Person", "name": "Demian Maia" },
-      "duration": "PT262S"
     }
   ]
 }
@@ -135,25 +113,9 @@ Understanding Mount from both perspectives is essential for complete grappling d
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=dfP-Ov8FBUo)
-
-<p class="clip-credit"><strong>Roger Gracie Mount Cross Collar Chokes</strong> — taught by Roger Gracie · 1:20 · <a href="https://www.youtube.com/watch?v=dfP-Ov8FBUo" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=5Gxj5VQj8bc)
 
-<p class="clip-credit"><strong>Mount Control Fundamentals - Roger Gracie Style</strong> — taught by MMA Leech · 3:04 · <a href="https://www.youtube.com/watch?v=5Gxj5VQj8bc" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=FO5aipaY0cc)
-
-<p class="clip-credit"><strong>Maintaining the Mount Position</strong> — taught by Demian Maia · 4:22 · <a href="https://www.youtube.com/watch?v=FO5aipaY0cc" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Fix Your BJJ Mount Control - ROGER GRACIE Style</strong> — taught by MMA Leech · 3:04 · <a href="https://www.youtube.com/watch?v=5Gxj5VQj8bc" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

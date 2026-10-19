@@ -36,50 +36,6 @@ description: "Master Quarter Guard in BJJ. Strategic guide covering bottom defen
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Quarter Guard \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "What is the half guard?",
-      "description": "Quarter Guard film study: What is the half guard?, taught by Stephan Kesting.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/XMfbu5VR2kE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/XMfbu5VR2kE",
-      "url": "https://www.youtube.com/watch?v=XMfbu5VR2kE",
-      "creator": { "@type": "Person", "name": "Stephan Kesting" },
-      "duration": "PT109S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Quarter Guard Concepts",
-      "description": "Quarter Guard film study: Quarter Guard Concepts, taught by Eddie Bravo.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/sMsgoChdaHE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/sMsgoChdaHE",
-      "url": "https://www.youtube.com/watch?v=sMsgoChdaHE",
-      "creator": { "@type": "Person", "name": "Eddie Bravo" },
-      "duration": "PT61S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Getting to Quarter Guard",
-      "description": "Quarter Guard film study: Getting to Quarter Guard, taught by Estevan Martinez.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/gEwRYxN_pIM/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/gEwRYxN_pIM",
-      "url": "https://www.youtube.com/watch?v=gEwRYxN_pIM",
-      "creator": { "@type": "Person", "name": "Estevan Martinez" },
-      "duration": "PT122S"
-    }
-  ]
-}
-</script>
-
 
 
 <script type="application/ld+json">
@@ -115,40 +71,6 @@ Quarter guard occurs most frequently during guard passing sequences when defende
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Quarter Guard in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=XMfbu5VR2kE)
-
-<p class="clip-credit"><strong>What is the half guard?</strong> — taught by Stephan Kesting · 1:49 · <a href="https://www.youtube.com/watch?v=XMfbu5VR2kE" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=sMsgoChdaHE)
-
-<p class="clip-credit"><strong>Quarter Guard Concepts</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=sMsgoChdaHE" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=gEwRYxN_pIM)
-
-<p class="clip-credit"><strong>Getting to Quarter Guard</strong> — taught by Estevan Martinez · 2:02 · <a href="https://www.youtube.com/watch?v=gEwRYxN_pIM" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="key-principles" class="content-section">

@@ -38,39 +38,6 @@ description: "Master Side Control in BJJ with complete guides for top pressure, 
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Side Control \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Double Underhooks Side Control Method",
-      "description": "Side Control film study: Double Underhooks Side Control Method, taught by John Danaher.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/IoHZR1It8hs/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/IoHZR1It8hs",
-      "url": "https://www.youtube.com/watch?v=IoHZR1It8hs",
-      "creator": { "@type": "Person", "name": "John Danaher" },
-      "duration": "PT177S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Far Side Underhook Pin",
-      "description": "Side Control film study: Far Side Underhook Pin, taught by Craig Jones.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/mWimgVQrsMU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/mWimgVQrsMU",
-      "url": "https://www.youtube.com/watch?v=mWimgVQrsMU",
-      "creator": { "@type": "Person", "name": "Craig Jones" },
-      "duration": "PT137S"
-    }
-  ]
-}
-</script>
-
 
 
 <script type="application/ld+json">
@@ -106,32 +73,6 @@ Side Control (also known as side mount or cross-side) is one of the most fundame
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Side Control in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=IoHZR1It8hs)
-
-<p class="clip-credit"><strong>Double Underhooks Side Control Method</strong> — taught by John Danaher · 2:57 · <a href="https://www.youtube.com/watch?v=IoHZR1It8hs" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=mWimgVQrsMU)
-
-<p class="clip-credit"><strong>Far Side Underhook Pin</strong> — taught by Craig Jones · 2:17 · <a href="https://www.youtube.com/watch?v=mWimgVQrsMU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="key-principles" class="content-section">

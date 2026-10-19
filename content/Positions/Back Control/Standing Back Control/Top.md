@@ -165,34 +165,22 @@ description: "Master offensive strategies for standing back control top position
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Standing Back Control",
-      "description": "Standing Back Control (Top) film study: Standing Back Control, taught by JFLOJUDO.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/K2Q1qg-cjTc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/K2Q1qg-cjTc",
-      "url": "https://www.youtube.com/watch?v=K2Q1qg-cjTc",
-      "creator": { "@type": "Person", "name": "JFLOJUDO" },
-      "duration": "PT58S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Hip Switch to Back Take",
-      "description": "Standing Back Control (Top) film study: Hip Switch to Back Take, taught by Gordon Ryan.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/f3PJ06A_bWQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/f3PJ06A_bWQ",
-      "url": "https://www.youtube.com/watch?v=f3PJ06A_bWQ",
-      "creator": { "@type": "Person", "name": "Gordon Ryan" },
-      "duration": "PT19S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Mat Return from Standing Back Control",
-      "description": "Standing Back Control (Top) film study: Mat Return from Standing Back Control, taught by William Abreu.",
+      "name": "Mat Return: BJJ takedowns from standing Back Control.",
+      "description": "Standing Back Control (Top) film study: Mat Return: BJJ takedowns from standing Back Control., taught by William Abreu.",
       "thumbnailUrl": "https://i.ytimg.com/vi/HWrsepCcaUk/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/HWrsepCcaUk",
       "url": "https://www.youtube.com/watch?v=HWrsepCcaUk",
       "creator": { "@type": "Person", "name": "William Abreu" },
+      "duration": "PT194S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Three Wrestling Entries to a Standing Rear Body Lock",
+      "description": "Standing Back Control (Top) film study: Three Wrestling Entries to a Standing Rear Body Lock.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lF5kkB2rq5Y/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lF5kkB2rq5Y",
+      "url": "https://www.youtube.com/watch?v=lF5kkB2rq5Y",
       "duration": "PT194S"
     }
   ]
@@ -223,25 +211,17 @@ Success from Standing Back Control Top requires understanding several key mechan
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=K2Q1qg-cjTc)
-
-<p class="clip-credit"><strong>Standing Back Control</strong> — taught by JFLOJUDO · 0:58 · <a href="https://www.youtube.com/watch?v=K2Q1qg-cjTc" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=f3PJ06A_bWQ)
-
-<p class="clip-credit"><strong>Hip Switch to Back Take</strong> — taught by Gordon Ryan · 0:19 · <a href="https://www.youtube.com/watch?v=f3PJ06A_bWQ" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=HWrsepCcaUk)
 
-<p class="clip-credit"><strong>Mat Return from Standing Back Control</strong> — taught by William Abreu · 3:14 · <a href="https://www.youtube.com/watch?v=HWrsepCcaUk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Mat Return: BJJ takedowns from standing Back Control.</strong> — taught by William Abreu · 3:14 · <a href="https://www.youtube.com/watch?v=HWrsepCcaUk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lF5kkB2rq5Y)
+
+<p class="clip-credit"><strong>Three Wrestling Entries to a Standing Rear Body Lock</strong> · 3:14 · <a href="https://www.youtube.com/watch?v=lF5kkB2rq5Y" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

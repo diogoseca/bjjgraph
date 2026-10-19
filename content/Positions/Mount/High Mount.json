@@ -1027,31 +1027,14 @@
     ],
     "clips": [
       {
-        "id": "5EceltPECLg",
-        "title": "Trap and roll mount escape",
-        "by": "Auburn Jiu Jitsu",
-        "vertical": false,
-        "channel": "Auburn Jiu Jitsu",
-        "duration": 61,
-        "verified": "2026-07-14"
-      },
-      {
         "id": "_05Lwonu0mw",
         "title": "Escape from a high full mount",
         "by": "TENZAN",
         "vertical": false,
         "channel": "TENZAN AIKIDO",
         "duration": 78,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "JoKL61nEZl0",
-        "title": "Trap and roll mount escape",
-        "by": "Topp Performance",
-        "vertical": false,
-        "channel": "Topp Performance",
-        "duration": 77,
-        "verified": "2026-07-14"
+        "verified": "2026-10-19",
+        "front": true
       }
     ]
   },
@@ -1171,22 +1154,14 @@
   ],
   "clips": [
     {
-      "id": "2MIuCN0fnxs",
-      "title": "High mount submission basics",
-      "by": "John Joseph Tabang",
+      "id": "_05Lwonu0mw",
+      "title": "Escape from a high full mount",
+      "by": "TENZAN",
       "vertical": false,
-      "channel": "John Joseph “426 MMA” Tabang",
-      "duration": 133,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "dfP-Ov8FBUo",
-      "title": "Cross collar chokes from mount",
-      "by": "Roger Gracie",
-      "vertical": false,
-      "channel": "Jiu Jitsu Moves",
-      "duration": 80,
-      "verified": "2026-07-14"
+      "channel": "TENZAN AIKIDO",
+      "duration": 78,
+      "verified": "2026-10-19",
+      "half": "bottom"
     }
   ]
 }

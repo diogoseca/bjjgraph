@@ -165,19 +165,8 @@ description: "Master Reverse De La Riva Guard Top passing in BJJ. Complete guide
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Countering a Full Inversion",
-      "description": "Reverse De La Riva Guard (Top) film study: Countering a Full Inversion, taught by Gordon Ryan.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/aQ2vFXXBn-o/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/aQ2vFXXBn-o",
-      "url": "https://www.youtube.com/watch?v=aQ2vFXXBn-o",
-      "creator": { "@type": "Person", "name": "Gordon Ryan" },
-      "duration": "PT61S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Reverse De La Riva Guard Pass",
-      "description": "Reverse De La Riva Guard (Top) film study: Reverse De La Riva Guard Pass, taught by Frankie Roberts.",
+      "name": "Reverse Dela Riva Guard Pass with Frankie Roberts, Silver Fox BJJ Black Belt.",
+      "description": "Reverse De La Riva Guard (Top) film study: Reverse Dela Riva Guard Pass with Frankie Roberts, Silver Fox BJJ Black Belt., taught by Frankie Roberts.",
       "thumbnailUrl": "https://i.ytimg.com/vi/cOUEcFxDtL8/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/cOUEcFxDtL8",
       "url": "https://www.youtube.com/watch?v=cOUEcFxDtL8",
@@ -186,14 +175,14 @@ description: "Master Reverse De La Riva Guard Top passing in BJJ. Complete guide
     },
     {
       "@type": "VideoObject",
-      "position": 3,
-      "name": "Passing Reverse De La Riva",
-      "description": "Reverse De La Riva Guard (Top) film study: Passing Reverse De La Riva, taught by Ronin Training Center.",
+      "position": 2,
+      "name": "RTC | Passing Reverse De La Riva",
+      "description": "Reverse De La Riva Guard (Top) film study: RTC | Passing Reverse De La Riva, taught by Ronin Training Center.",
       "thumbnailUrl": "https://i.ytimg.com/vi/ynFpOlFWdLw/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/ynFpOlFWdLw",
       "url": "https://www.youtube.com/watch?v=ynFpOlFWdLw",
       "creator": { "@type": "Person", "name": "Ronin Training Center" },
-      "duration": "PT68S"
+      "duration": "PT67S"
     }
   ]
 }
@@ -223,17 +212,9 @@ The top player must navigate multiple decision points throughout the passing seq
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=aQ2vFXXBn-o)
-
-<p class="clip-credit"><strong>Countering a Full Inversion</strong> — taught by Gordon Ryan · 1:01 · <a href="https://www.youtube.com/watch?v=aQ2vFXXBn-o" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=cOUEcFxDtL8)
 
-<p class="clip-credit"><strong>Reverse De La Riva Guard Pass</strong> — taught by Frankie Roberts · 0:58 · <a href="https://www.youtube.com/watch?v=cOUEcFxDtL8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Reverse Dela Riva Guard Pass with Frankie Roberts, Silver Fox BJJ Black Belt.</strong> — taught by Frankie Roberts · 0:58 · <a href="https://www.youtube.com/watch?v=cOUEcFxDtL8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -241,7 +222,7 @@ The top player must navigate multiple decision points throughout the passing seq
 
 ![](https://www.youtube.com/watch?v=ynFpOlFWdLw)
 
-<p class="clip-credit"><strong>Passing Reverse De La Riva</strong> — taught by Ronin Training Center · 1:08 · <a href="https://www.youtube.com/watch?v=ynFpOlFWdLw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>RTC | Passing Reverse De La Riva</strong> — taught by Ronin Training Center · 1:07 · <a href="https://www.youtube.com/watch?v=ynFpOlFWdLw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

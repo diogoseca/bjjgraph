@@ -47,35 +47,13 @@ description: "Master Knee on Belly in BJJ. Strategic control position balancing 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Ryron Gracie\u0027s Favorite Knee-on-Belly Attack",
-      "description": "Knee on Belly film study: Ryron Gracie\u0027s Favorite Knee-on-Belly Attack, taught by Ryron Gracie.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/pa6Z7mP9VKU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/pa6Z7mP9VKU",
-      "url": "https://www.youtube.com/watch?v=pa6Z7mP9VKU",
-      "creator": { "@type": "Person", "name": "Ryron Gracie" },
-      "duration": "PT52S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "3 Knee-on-Belly Attacks for Beginners",
-      "description": "Knee on Belly film study: 3 Knee-on-Belly Attacks for Beginners, taught by Lucas Lepri.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/XNhDD7N4JNY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/XNhDD7N4JNY",
-      "url": "https://www.youtube.com/watch?v=XNhDD7N4JNY",
-      "creator": { "@type": "Person", "name": "Lucas Lepri" },
-      "duration": "PT68S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "First Principles: Mount \u0026 Knee-on-Belly Escapes",
-      "description": "Knee on Belly film study: First Principles: Mount \u0026 Knee-on-Belly Escapes, taught by 40 Plus BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/I9_3u9AcwAg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/I9_3u9AcwAg",
-      "url": "https://www.youtube.com/watch?v=I9_3u9AcwAg",
-      "creator": { "@type": "Person", "name": "40 Plus BJJ" },
-      "duration": "PT59S"
+      "name": "BJJ | How To Escape The Knee On Belly Position",
+      "description": "Knee on Belly film study: BJJ | How To Escape The Knee On Belly Position, taught by Evolve MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Wn01Ynw7O28/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Wn01Ynw7O28",
+      "url": "https://www.youtube.com/watch?v=Wn01Ynw7O28",
+      "creator": { "@type": "Person", "name": "Evolve MMA" },
+      "duration": "PT40S"
     }
   ]
 }
@@ -125,25 +103,9 @@ Within the BJJ positional hierarchy, Knee on Belly occupies a distinctive role b
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=pa6Z7mP9VKU)
+![](https://www.youtube.com/watch?v=Wn01Ynw7O28)
 
-<p class="clip-credit"><strong>Ryron Gracie&#39;s Favorite Knee-on-Belly Attack</strong> — taught by Ryron Gracie · 0:52 · <a href="https://www.youtube.com/watch?v=pa6Z7mP9VKU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=XNhDD7N4JNY)
-
-<p class="clip-credit"><strong>3 Knee-on-Belly Attacks for Beginners</strong> — taught by Lucas Lepri · 1:08 · <a href="https://www.youtube.com/watch?v=XNhDD7N4JNY" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=I9_3u9AcwAg)
-
-<p class="clip-credit"><strong>First Principles: Mount &amp; Knee-on-Belly Escapes</strong> — taught by 40 Plus BJJ · 0:59 · <a href="https://www.youtube.com/watch?v=I9_3u9AcwAg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>BJJ | How To Escape The Knee On Belly Position</strong> — taught by Evolve MMA · 0:40 · <a href="https://www.youtube.com/watch?v=Wn01Ynw7O28" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

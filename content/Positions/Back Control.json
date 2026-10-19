@@ -447,31 +447,14 @@
     },
     "clips": [
       {
-        "id": "f3PJ06A_bWQ",
-        "title": "Hip Switch to Back Take",
-        "by": "Gordon Ryan",
+        "id": "ypTfNWlR5ls",
+        "title": "No Gi BJJ: Basic details of back control and rear strangle",
+        "by": "Robyn Sheehan",
         "vertical": false,
-        "channel": "Jiu Jitsu Moves",
-        "duration": 19,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "70jECxFfCSA",
-        "title": "Rear Naked Choke from the Back",
-        "by": "Gordon Ryan",
-        "vertical": false,
-        "channel": "Control Jiu JItsu",
-        "duration": 73,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "aQ2vFXXBn-o",
-        "title": "Countering a Full Inversion",
-        "by": "Gordon Ryan",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 61,
-        "verified": "2026-07-14"
+        "channel": "Robyn Sheehan",
+        "duration": 168,
+        "verified": "2026-10-19",
+        "front": true
       }
     ]
   },
@@ -1030,31 +1013,14 @@
   ],
   "clips": [
     {
-      "id": "ovyq_pmaB88",
-      "title": "Back Attacks System Overview",
-      "by": "John Danaher",
-      "vertical": false,
-      "channel": "BJJ Fanatics",
-      "duration": 56,
-      "verified": "2026-07-14"
-    },
-    {
       "id": "ypTfNWlR5ls",
-      "title": "Basics of Back Control & Rear Strangle",
+      "title": "No Gi BJJ: Basic details of back control and rear strangle",
       "by": "Robyn Sheehan",
       "vertical": false,
       "channel": "Robyn Sheehan",
       "duration": 168,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "-lMabjvtaLk",
-      "title": "Entries Into Rear Triangle Back Position",
-      "by": "John Danaher",
-      "vertical": false,
-      "channel": "BJJ Fanatics",
-      "duration": 252,
-      "verified": "2026-07-14"
+      "verified": "2026-10-19",
+      "half": "top"
     }
   ]
 }

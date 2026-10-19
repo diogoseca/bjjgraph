@@ -46,35 +46,12 @@ description: "Master Squid Guard in BJJ. Strategic guide covering asymmetrical c
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Keenan\u0027s new lapel guard",
-      "description": "Squid Guard film study: Keenan\u0027s new lapel guard, taught by Keenan Cornelius.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Z14Nz40c52s/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Z14Nz40c52s",
-      "url": "https://www.youtube.com/watch?v=Z14Nz40c52s",
-      "creator": { "@type": "Person", "name": "Keenan Cornelius" },
-      "duration": "PT191S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Enter the Galaxy: lapel guard",
-      "description": "Squid Guard film study: Enter the Galaxy: lapel guard, taught by Bradley Hill.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/4W-dStVHCIQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/4W-dStVHCIQ",
-      "url": "https://www.youtube.com/watch?v=4W-dStVHCIQ",
-      "creator": { "@type": "Person", "name": "Bradley Hill" },
-      "duration": "PT90S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Lapel guard overview",
-      "description": "Squid Guard film study: Lapel guard overview, taught by BJJ Highlights.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/OO2IqO3M8f8/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/OO2IqO3M8f8",
-      "url": "https://www.youtube.com/watch?v=OO2IqO3M8f8",
-      "creator": { "@type": "Person", "name": "BJJ Highlights" },
-      "duration": "PT52S"
+      "name": "Passing The Squid Guard Concepts w/ Pablo Mantovani",
+      "description": "Squid Guard film study: Passing The Squid Guard Concepts w/ Pablo Mantovani.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/zmy16f69rb4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/zmy16f69rb4",
+      "url": "https://www.youtube.com/watch?v=zmy16f69rb4",
+      "duration": "PT608S"
     }
   ]
 }
@@ -125,25 +102,9 @@ While Squid Guard is primarily used in gi grappling due to its reliance on lapel
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=Z14Nz40c52s)
+![](https://www.youtube.com/watch?v=zmy16f69rb4)
 
-<p class="clip-credit"><strong>Keenan&#39;s new lapel guard</strong> — taught by Keenan Cornelius · 3:11 · <a href="https://www.youtube.com/watch?v=Z14Nz40c52s" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=4W-dStVHCIQ)
-
-<p class="clip-credit"><strong>Enter the Galaxy: lapel guard</strong> — taught by Bradley Hill · 1:30 · <a href="https://www.youtube.com/watch?v=4W-dStVHCIQ" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=OO2IqO3M8f8)
-
-<p class="clip-credit"><strong>Lapel guard overview</strong> — taught by BJJ Highlights · 0:52 · <a href="https://www.youtube.com/watch?v=OO2IqO3M8f8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Passing The Squid Guard Concepts w/ Pablo Mantovani</strong> · 10:08 · <a href="https://www.youtube.com/watch?v=zmy16f69rb4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

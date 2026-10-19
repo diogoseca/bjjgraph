@@ -11517,3 +11517,50 @@ or skips. D-325 classifies the earlier Browse CI failure as a real pre-existing
 app bug owned by the sections PR: this content correction changes no app or
 test code. Full final-head replay and GitHub gates remain required. The new
 receipt-bound baselines replace D-323; version remains exactly 1.227.7.
+
+
+## v1.227.8 — Resolve position-video evidence holds
+
+Fresh evidence resolves 67 additional-evidence-held position halves and 51
+position hubs across 51 JSON files. Mount/top now leads with the full control
+lesson SGZ5wD3z73Q; raw competition dfP-Ov8FBUo is removed from the scoped
+Mount and High Mount arrays. Silent cooperative demonstrations remain lessons;
+raw performance footage, wrong roles/configurations and explicit paid pitches
+are withheld under D-307, D-313, D-320 and D-324. Bare footer links alone are
+not exclusions. No position identity or authored prose is changed.
+
+The scoped arrays contain 317 -> 152 references: 99 retained, 218 withheld,
+53 added. Fifty-five role halves gain a first, unique front; 12 role halves and
+15 hubs have no qualified lesson. Site totals are 2,835 -> 2,670 references
+and 1,078 -> 1,133 fronts. All 164 protected arrays and five owner files stay
+byte-exact; submission, transition, Marce and restructure holds stay intact.
+The evidence ledger records every withholding and replacement for review.
+
+All 274 evidence IDs have fresh returned metadata and raw oEmbed records.
+Fetches were serial at least 3.1 seconds apart, without searches or captions.
+For 317 source placements, 88 were judged by text, 14 with local OCR and 215
+with sampled images (202 before the owner cost rule, 13 placements after it).
+Twelve images were viewed after that rule, below its 15-image cap. Fixed OCR
+calibration found 2/4 competition cases and 0/4 false positives on cooperative
+controls; this is not a blind accuracy claim or approval from missing cues.
+No continuous audiovisual review is claimed. The frozen random sample passed
+20/20, zero weak; evidence replay passed 2,684 checks.
+
+D-328 accepts candidate/tools 9ebd255dc on base/premerge 7ac17caa0, label
+pr-clip-curation-3-9ebd255dc, content receipt b44a150c09d141d79698dfd1732cf6a5.
+All 169 changed paths are content: 51 JSON plus 118 regenerated Markdown.
+Census movement is -42 JSON-LD blocks, ItemLists, headings and outside links,
+and -282 article links: -42 Film Study sections and -240 displayed clips,
+including folder copies. All 204 projected film routes and 1,753 dossiers
+match, with exactly 102 changed dossier clip arrays. SEO changes only the
+Mount hub/Top/Bottom Film Study rows. Both Learning tags and 17 other samples,
+all app rows, three normalized bundles, 3,256 model/flashcard files and 16,003
+output paths remain exact. No unlisted movement is accepted.
+
+Payload remains 346,412 B eager gzip and 480,054 B deferred raw. D-304 payload
+and Tier-0 floors, and all SEO text floors, stay unchanged. The own build,
+schemas, six clip unit tests, publication-date checks and 41 focused journey
+cases passed without retries or skips. Receipt-bound census and SEO baselines
+are re-seeded separately from content; version 1.227.8 follows in its own
+package-only commit. Full final-head ci:validate and GitHub gates remain
+required before merge; independent review includes over-removal risk.

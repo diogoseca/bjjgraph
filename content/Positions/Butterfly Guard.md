@@ -36,39 +36,6 @@ description: "Master Butterfly Guard in BJJ. Dynamic open guard with powerful sw
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Butterfly Guard \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Butterfly guard highlights",
-      "description": "Butterfly Guard film study: Butterfly guard highlights, taught by Forge Forward.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/OQCEokRYP4c/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/OQCEokRYP4c",
-      "url": "https://www.youtube.com/watch?v=OQCEokRYP4c",
-      "creator": { "@type": "Person", "name": "Forge Forward" },
-      "duration": "PT78S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Marcelo Garcia butterfly sweep",
-      "description": "Butterfly Guard film study: Marcelo Garcia butterfly sweep, taught by Marcelo Garcia.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/c8JBXJMc0Oc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/c8JBXJMc0Oc",
-      "url": "https://www.youtube.com/watch?v=c8JBXJMc0Oc",
-      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
-      "duration": "PT81S"
-    }
-  ]
-}
-</script>
-
 
 
 <script type="application/ld+json">
@@ -106,32 +73,6 @@ Modern butterfly guard has evolved significantly, particularly in no-gi grapplin
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Butterfly Guard in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=OQCEokRYP4c)
-
-<p class="clip-credit"><strong>Butterfly guard highlights</strong> — taught by Forge Forward · 1:18 · <a href="https://www.youtube.com/watch?v=OQCEokRYP4c" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=c8JBXJMc0Oc)
-
-<p class="clip-credit"><strong>Marcelo Garcia butterfly sweep</strong> — taught by Marcelo Garcia · 1:21 · <a href="https://www.youtube.com/watch?v=c8JBXJMc0Oc" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="key-principles" class="content-section">

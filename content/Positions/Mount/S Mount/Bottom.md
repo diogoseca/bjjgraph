@@ -153,30 +153,8 @@ description: "Defend against S Mount attacks in BJJ. Critical escape techniques,
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Knee and elbow mount escape",
-      "description": "S Mount (Bottom) film study: Knee and elbow mount escape, taught by jamielovesmartialarts.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/pUZcLTWHAzk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/pUZcLTWHAzk",
-      "url": "https://www.youtube.com/watch?v=pUZcLTWHAzk",
-      "creator": { "@type": "Person", "name": "jamielovesmartialarts" },
-      "duration": "PT71S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "S Mount Defense",
-      "description": "S Mount (Bottom) film study: S Mount Defense, taught by Dinu Bucalet.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/PI7rr0TzmWw/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/PI7rr0TzmWw",
-      "url": "https://www.youtube.com/watch?v=PI7rr0TzmWw",
-      "creator": { "@type": "Person", "name": "Dinu Bucalet" },
-      "duration": "PT141S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Mount Escape: Dealing with the Switch to S-Mount",
-      "description": "S Mount (Bottom) film study: Mount Escape: Dealing with the Switch to S-Mount, taught by Revolution BJJ coach.",
+      "name": "Goathook escape from mount: dealing with the switch to S-mount",
+      "description": "S Mount (Bottom) film study: Goathook escape from mount: dealing with the switch to S-mount, taught by Revolution BJJ coach.",
       "thumbnailUrl": "https://i.ytimg.com/vi/WKqvJLpq7nc/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/WKqvJLpq7nc",
       "url": "https://www.youtube.com/watch?v=WKqvJLpq7nc",
@@ -215,25 +193,9 @@ Mental composure under pressure is perhaps the most critical factor in S Mount b
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=pUZcLTWHAzk)
-
-<p class="clip-credit"><strong>Knee and elbow mount escape</strong> — taught by jamielovesmartialarts · 1:11 · <a href="https://www.youtube.com/watch?v=pUZcLTWHAzk" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=PI7rr0TzmWw)
-
-<p class="clip-credit"><strong>S Mount Defense</strong> — taught by Dinu Bucalet · 2:21 · <a href="https://www.youtube.com/watch?v=PI7rr0TzmWw" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=WKqvJLpq7nc)
 
-<p class="clip-credit"><strong>Mount Escape: Dealing with the Switch to S-Mount</strong> — taught by Revolution BJJ coach · 1:12 · <a href="https://www.youtube.com/watch?v=WKqvJLpq7nc" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Goathook escape from mount: dealing with the switch to S-mount</strong> — taught by Revolution BJJ coach · 1:12 · <a href="https://www.youtube.com/watch?v=WKqvJLpq7nc" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

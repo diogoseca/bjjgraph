@@ -166,35 +166,13 @@ description: "Master Shoulder of Justice Top in BJJ. Complete offensive guide wi
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Shoulder Pressure From Side Control",
-      "description": "Shoulder of Justice (Top) film study: Shoulder Pressure From Side Control, taught by Roy Dean.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/BjeDX3WupdA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/BjeDX3WupdA",
-      "url": "https://www.youtube.com/watch?v=BjeDX3WupdA",
-      "creator": { "@type": "Person", "name": "Roy Dean" },
-      "duration": "PT39S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Side Smash Side Control Pressure",
-      "description": "Shoulder of Justice (Top) film study: Side Smash Side Control Pressure, taught by Owen Livesey.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/MpWpNkQwBGA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/MpWpNkQwBGA",
-      "url": "https://www.youtube.com/watch?v=MpWpNkQwBGA",
-      "creator": { "@type": "Person", "name": "Owen Livesey" },
-      "duration": "PT73S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Cross Sides Shoulder of Justice",
-      "description": "Shoulder of Justice (Top) film study: Cross Sides Shoulder of Justice, taught by SBG New Braunfels.",
+      "name": "Cross Sides Shoulder of Justice 1",
+      "description": "Shoulder of Justice (Top) film study: Cross Sides Shoulder of Justice 1, taught by SBG New Braunfels.",
       "thumbnailUrl": "https://i.ytimg.com/vi/HO877lE69nM/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/HO877lE69nM",
       "url": "https://www.youtube.com/watch?v=HO877lE69nM",
       "creator": { "@type": "Person", "name": "SBG New Braunfels" },
-      "duration": "PT145S"
+      "duration": "PT144S"
     }
   ]
 }
@@ -225,25 +203,9 @@ The Shoulder of Justice Top is characterized by driving your shoulder blade deep
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=BjeDX3WupdA)
-
-<p class="clip-credit"><strong>Shoulder Pressure From Side Control</strong> — taught by Roy Dean · 0:39 · <a href="https://www.youtube.com/watch?v=BjeDX3WupdA" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=MpWpNkQwBGA)
-
-<p class="clip-credit"><strong>Side Smash Side Control Pressure</strong> — taught by Owen Livesey · 1:13 · <a href="https://www.youtube.com/watch?v=MpWpNkQwBGA" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=HO877lE69nM)
 
-<p class="clip-credit"><strong>Cross Sides Shoulder of Justice</strong> — taught by SBG New Braunfels · 2:25 · <a href="https://www.youtube.com/watch?v=HO877lE69nM" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Cross Sides Shoulder of Justice 1</strong> — taught by SBG New Braunfels · 2:24 · <a href="https://www.youtube.com/watch?v=HO877lE69nM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

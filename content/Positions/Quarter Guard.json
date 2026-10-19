@@ -904,35 +904,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "sMsgoChdaHE",
-        "title": "Quarter guard concepts",
-        "by": "Eddie Bravo",
-        "vertical": false,
-        "channel": "Eddie Bravo",
-        "duration": 61,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "3Jqz8_dbsfM",
-        "title": "Quarter guard dogfight scoop sweep",
-        "by": "Christopher Hendrick",
-        "vertical": false,
-        "channel": "Christopher Hendrick",
-        "duration": 45,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "9OVINPV6FkY",
-        "title": "Quarter guard back step to heel hook",
-        "by": "Subforce",
-        "vertical": false,
-        "channel": "Subforce Women",
-        "duration": 30,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   },
   "flashcards_position": [
     {
@@ -1048,33 +1020,5 @@
       }
     }
   ],
-  "clips": [
-    {
-      "id": "XMfbu5VR2kE",
-      "title": "What is the half guard?",
-      "by": "Stephan Kesting",
-      "vertical": false,
-      "channel": "Stephan Kesting",
-      "duration": 109,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "sMsgoChdaHE",
-      "title": "Quarter Guard Concepts",
-      "by": "Eddie Bravo",
-      "vertical": false,
-      "channel": "Eddie Bravo",
-      "duration": 61,
-      "verified": "2026-07-15"
-    },
-    {
-      "id": "gEwRYxN_pIM",
-      "title": "Getting to Quarter Guard",
-      "by": "Estevan Martinez",
-      "vertical": false,
-      "channel": "BJJ Fanatics",
-      "duration": 122,
-      "verified": "2026-07-15"
-    }
-  ]
+  "clips": []
 }

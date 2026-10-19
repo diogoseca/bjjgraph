@@ -46,24 +46,12 @@ description: "Master Rodeo Ride position in BJJ. Advanced turtle attack with asy
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "The spiral ride: breaking the turtle",
-      "description": "Rodeo Ride film study: The spiral ride: breaking the turtle, taught by Big Guy BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/XXnawMQEfKw/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/XXnawMQEfKw",
-      "url": "https://www.youtube.com/watch?v=XXnawMQEfKw",
-      "creator": { "@type": "Person", "name": "Big Guy BJJ" },
-      "duration": "PT73S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Rodeo choke from the ride",
-      "description": "Rodeo Ride film study: Rodeo choke from the ride, taught by Ethos Jiu-Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/6MhcPYISQDU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/6MhcPYISQDU",
-      "url": "https://www.youtube.com/watch?v=6MhcPYISQDU",
-      "creator": { "@type": "Person", "name": "Ethos Jiu-Jitsu" },
-      "duration": "PT85S"
+      "name": "Rodeo Ride Rolling Drill",
+      "description": "Rodeo Ride film study: Rodeo Ride Rolling Drill.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/uFByeiUdSm4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/uFByeiUdSm4",
+      "url": "https://www.youtube.com/watch?v=uFByeiUdSm4",
+      "duration": "PT64S"
     }
   ]
 }
@@ -114,17 +102,9 @@ Rodeo Ride is particularly effective in both gi and no-gi contexts, though the s
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=XXnawMQEfKw)
+![](https://www.youtube.com/watch?v=uFByeiUdSm4)
 
-<p class="clip-credit"><strong>The spiral ride: breaking the turtle</strong> — taught by Big Guy BJJ · 1:13 · <a href="https://www.youtube.com/watch?v=XXnawMQEfKw" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=6MhcPYISQDU)
-
-<p class="clip-credit"><strong>Rodeo choke from the ride</strong> — taught by Ethos Jiu-Jitsu · 1:25 · <a href="https://www.youtube.com/watch?v=6MhcPYISQDU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Rodeo Ride Rolling Drill</strong> · 1:04 · <a href="https://www.youtube.com/watch?v=uFByeiUdSm4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

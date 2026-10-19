@@ -445,30 +445,13 @@
     "clips": [
       {
         "id": "-Vmyjv8-WFw",
-        "title": "Side crucifix arm attacks from mount",
+        "title": "BJJ | Mount To Side Crucifix Arm Attacks",
         "by": "Evolve MMA",
         "vertical": false,
         "channel": "Evolve Mixed Martial Arts",
-        "duration": 76,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "1hMh6YiR0Po",
-        "title": "Crucifix murder choke",
-        "by": "Innovative BJJ",
-        "vertical": false,
-        "channel": "Innovative BJJ",
-        "duration": 18,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "QPpQnCDw65k",
-        "title": "Crucifix to inverted triangle",
-        "by": "Zen Spot",
-        "vertical": false,
-        "channel": "Zen Spot",
-        "duration": 25,
-        "verified": "2026-07-14"
+        "duration": 75,
+        "verified": "2026-10-19",
+        "front": true
       }
     ]
   },
@@ -999,24 +982,5 @@
       }
     }
   ],
-  "clips": [
-    {
-      "id": "qq1LScm50Ow",
-      "title": "Short arm drag to crucifix armlock",
-      "by": "John Gutta",
-      "vertical": false,
-      "channel": "BJJ Fanatics",
-      "duration": 151,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "OnmLBMNZ44A",
-      "title": "Crucifix grip break",
-      "by": "Gabe Tuttle",
-      "vertical": false,
-      "channel": "BJJ Fanatics",
-      "duration": 86,
-      "verified": "2026-07-14"
-    }
-  ]
+  "clips": []
 }
