@@ -1721,14 +1721,14 @@
  },
  "_meta": {
   "content_provenance": {
-   "capture_git_head": "f92457b3a8a35ec7ba66d2aa3084744be82b7eae",
-   "capture_id": "945e51e70d24412b8d5a6067e747c144",
+   "capture_git_head": "3046136758ee2a06a0e320a85681582b114dfe54",
+   "capture_id": "8fc0c3604c294548880139330a104f01",
    "content_clean_at_end": true,
    "content_clean_at_start": true,
    "content_files": 6401,
    "content_md": 4601,
    "content_scope": "content-excluding-obsidian-v1",
-   "content_tree": "bba241e407b948055c734378b30bd9da7d789c48",
+   "content_tree": "318c35311842b97b241adf7c8621258659c259fb",
    "dirty_paths_end": [],
    "dirty_paths_start": [],
    "environment_assertions": {
@@ -1753,11 +1753,11 @@
    },
    "output_identity": {
     "files": 16003,
-    "sha256": "cc4736366b56399a6aeae5fbca1175a5601ab28bf1c900166f1738ae417ba83f"
+    "sha256": "c52c33a3c80d6d9949541cca7d31310005c3ac94681cc8e9c72cd6577f65dc0b"
    },
    "output_roots": [
     "/home/user/bjj-orchestrator/qz/capture-origin-coherence-p2b/source/public",
-    "/home/user/bjj-orchestrator/scratch/clip-curation/pr2-d315/capture/pr-clip-curation-2-f92457b3a"
+    "/home/user/bjj-orchestrator/scratch/clip-curation/pr2-d315/d324/capture/pr-clip-curation-2-304613675"
    ],
    "schema": "quartz-content-provenance-v1",
    "state": "complete"

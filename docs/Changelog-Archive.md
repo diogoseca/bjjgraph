@@ -11482,3 +11482,38 @@ retries or skips. The own checkout's D-253 tag birthtime differences are fully
 classified; none appear in the capture. This receipt-bound seed is separate
 from the subsequent version-only commit to 1.227.7. Full workflow replay and
 GitHub's full gate are required on the final head; capture is not CI green.
+
+
+### D-324 — PR 308 role and promotion correction
+
+This correction supersedes the preceding D-323 final-tree counts and receipt.
+The recheck inspected 222 video IDs at 374 screened kept placements. Ten
+wrong-role placements are withheld: x5oNak2YANY at two Americana defenders,
+GOLwVNTVcnY at six screened Kimura defenders plus the expressly ruled Kimura
+Trap defender, and bUZmy2Gu7jo at Kimura from New York Control / defender.
+The Darce from Turtle defender companion rgf9QUebMWE is withheld for its
+on-video paid-instructional solicitation. No replacement is promoted. The
+identity-held Kimura Switch defender stays exact under the retirement ruling;
+the Paper Cutter bottom-counter control stays. Five front flags are removed
+and two additional halves become empty. All 85 second-search front arrays,
+226 held role arrays, 56 held hubs and five owner files remain unchanged.
+
+Final source totals are 2,835 references and 1,078 fronts: position/submission/
+transition fronts 118/322/638. There are 1,525 active empty halves and 67 active
+unmarked halves. Against merged dev, 172 JSON and 289 generated Markdown files
+change only clip data and Film Study markup. D-324 accepts candidate/tools
+304613675, base/premerge 2fe86f33a, label pr-clip-curation-2-304613675; receipt
+8fc0c3604c294548880139330a104f01. The new census deltas are +46 JSON-LD blocks,
++46 ItemLists, +46 headings, -99 article links and +46 outside links, from
++46 Film Study sections and -145 displayed clips including folder copies.
+All 688 projected film routes and 1,753 dossiers match (191 changed arrays in
+173 files). All 20 SEO samples, including both Learning tags, match base;
+14 app rows, three bundles, 3,256 model/flashcard files and all 16,003 output
+paths remain exact. No extra movement or D-304 floor change is accepted.
+
+Payload stays eager gzip 346,412 B and deferred raw 480,054 B. The integrated
+own build, publication-date checks and 41 focused cases pass without retries
+or skips. D-325 classifies the earlier Browse CI failure as a real pre-existing
+app bug owned by the sections PR: this content correction changes no app or
+test code. Full final-head replay and GitHub gates remain required. The new
+receipt-bound baselines replace D-323; version remains exactly 1.227.7.
