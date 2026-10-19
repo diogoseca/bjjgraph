@@ -782,6 +782,9 @@ class Reader {
     // This target still flies through the app's integrator; arrival, manual
     // input and leases never call this execution-only seam.
     const a = this.app, W = a.W, H = a.H, scale = W / target.vw;
+    // updateCamera runs before draw: until the first frame publishes _LY there is no
+    // painted pair to clear (the pumped clock reached this and threw from the loop).
+    if (!a._LY) return target;
     const k = Math.max(.4, Math.min(1, target.vw / (a.graphW * .5)));
     const point = q => ({ x: W / 2 + (q.x - target.cx) * scale, y: H / 2 + (a._LY(q) - target.cy) * scale });
     const pair = [node, node.pi >= 0 ? a.nodes[node.pi] : null].filter(Boolean);

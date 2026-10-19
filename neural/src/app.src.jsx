@@ -18942,7 +18942,11 @@ class Component extends DCLogic {
     // A live catch, or Book off, still owns that neighbourhood frame.
     const nodes = [sub.idx, this.currentPos, ...escapes.map(e => e.res)];
     this._dangerSet = live ? new Set(nodes) : null;
-    if (live || !this.get("readerBook", true)) this.frameNodes(nodes);
+    // The calm reading arrival keeps its centred pair and no lease, but its catch keeps the map's
+    // lease TIMING: an escape picked inside that window keeps the framing it was picked from, one
+    // picked after it is followed (camera-continuity 380/427, DEVMV31-CAM; CI 48be3a910). No target
+    // is captured: at a URL arrival camTarget can still be the intro's overview.
+    if (live || !this.get("readerBook", true)) this.frameNodes(nodes); else this._calmCatchUntil = this.now + this.camHoldSec;
     this._optPick = pick; this._optList = escapes;
     if (live) this._startDefensePressure(catchArrival);
     // The drill runs on the shared card's question clock; the ESCAPES are
@@ -19188,7 +19192,7 @@ class Component extends DCLogic {
     const pane = this._paneLayout();
     const horizontal = { left: pane.left, right: W, width: Math.max(1, W - pane.left) };
     if (this.get("readerBook", true) && !this._refPage && !this._execution && !opts?.ahead) {
-      return { ...horizontal, ...(this._reader?.nodeBand || this._readerBand()), measured: true, predicted: false };
+      return { ...horizontal, ...(this._reader?.nodeBand || this._readerBand()), measured: true, predicted: false, band: true };
     }
     let top = 16;
     const ev = this.evRef && this.evRef.current;
@@ -19381,6 +19385,10 @@ class Component extends DCLogic {
             // holds its lit set, whose own camera lease is re-asserted by the camHeld() branch
             // above. `currentPos` stays undefined here, which is the same state the whole intro
             // runs in, so nothing downstream meets a shape it has not already seen.
+          } else if (this._staged != null) {
+            // A BOARD STAGED DURING THE INTRO (a shared-list item read in the first 3.2s) owns it:
+            // starting a fresh roll here moved the map to a random start while the article still
+            // read the chosen node, leaving D-318's role change (its other half) off-screen.
           } else {
             this.startRoll();
           }
@@ -19426,6 +19434,8 @@ class Component extends DCLogic {
     // it the follow-cam re-aims camTarget at the current roll node on the very next frame and the
     // flight the user asked for never happens. See holdCamera().
     if (this.introDone && (this.camHeld() || this._conceptId)) tgt = null;
+    // An escape (camera false) picked inside a calm reading catch's lease window keeps its framing.
+    if (this.introDone && this._execution && this._execution.camera === false && this.now < (this._calmCatchUntil || 0)) tgt = null;
     if (tgt) Object.assign(this.camTarget, this._paneCameraTarget(tgt));
     if (tgt && execution && this._reducedMotion()) {
       Object.assign(this.cam, this.camTarget, { lvw: Math.log(this.camTarget.vw) });
@@ -19460,7 +19470,10 @@ class Component extends DCLogic {
       && this.cfg().cameraMode !== "Overview" && this.camFocus;
     if (follow && this.focusIdx >= 0) {
       const R = this._viewRect(this.pulse ? { ahead: true } : null);
-      ctx.lift = { f: this.camFocus, n: this.nodes[this.focusIdx], top: this.paused ? R.top : 16, bottom: R.bottom };
+      // The reader's node band is reserved and rollCamTarget already centres the pair in it, so
+      // no row can mount there to lift clear of. Lifting against its edge held the node 10px above
+      // centre until a pane toggle reset the lift (pane-layout:82, CI 48be3a910): two rest framings.
+      if (!R.band) ctx.lift = { f: this.camFocus, n: this.nodes[this.focusIdx], top: this.paused ? R.top : 16, bottom: R.bottom };
     }
     this._camStep(dt, ctx);
   }

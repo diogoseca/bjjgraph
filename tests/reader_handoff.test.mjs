@@ -220,3 +220,14 @@ test("the article and shelf have one frame writer while fixed replay keeps its o
 });
 
 console.log("reader handoff: 8 behavioral cases; real browser geometry is pinned separately");
+
+test("execution framing before the first frame keeps the target instead of throwing", () => {
+  // CI 48be3a910: 15 defending journeys threw "t._LY is not a function" from the frame
+  // loop. updateCamera runs before draw, and a pumped advance draws only at its end.
+  const r = Object.create(Reader.prototype);
+  r.app = { W: 390, H: 844, graphW: 16000, nodes: [], _execution: { card: null } };
+  const target = { cx: 12, cy: 34, vw: 390, _paneFraction: 0 };
+  let framed;
+  assert.doesNotThrow(() => { framed = r.frameExecution(target, { idx: 0, pi: -1, x: 0, y: 0 }); });
+  assert.equal(framed, target, "no painted pair yet, so nothing to fit");
+});
