@@ -11383,11 +11383,15 @@ The built production-method probe covers all 1,262 cards in 170 decks: 4,600 cal
 zero answer-in-question cases, zero shared cross-node authored triples and zero runtime
 findings. All 5,048 authored choices are exercised. The 241 submission cards now have
 zero pooled fallback and zero overlong emitted answers. The fresh final uniform sample
-passes 40/40, zero weak (8 position, 24 transition, 8 submission cards), seed
-93eb8a569da395f33df8189309b263166162906c8bd7145e5caa2ae7fa13ba6b.
+passes 40/40, zero weak (5 position, 31 transition, 4 submission cards), seed
+0ab1639e8f4a8309ce11341c56a314484f06e3f28003bb708ad20036ba7d7d9f.
 The draw was frozen before judgment, with no redraw or post-draw edits within that round.
-An earlier D-321 zero-weak draw is preserved but superseded after validation found two
-overlong question stems outside its sample; those were shortened before the final draw.
+Two earlier D-321 zero-weak draws are preserved. The first was superseded after
+validation found two overlong question stems outside its sample. The second was
+superseded when the corpus audit flagged a 13-character opening fragment in Clock
+Choke reveal detail. That reveal now begins with the complete wrist-control mechanism;
+its graded question/options are unchanged, and the unchanged micro-answer audit clears
+it. Both corrections preceded this final draw and rebuilt candidate.
 
 **STALE TIMING, pre-existing since deferred reader.js in v1.225.0.** Separate test-only
 commit 0efa07af0 repairs the generated SPA-navigation assertion. At true data-reader-ready

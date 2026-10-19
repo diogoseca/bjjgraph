@@ -89,7 +89,7 @@ description: "Clock Choke from Invisible Collar (attacker): Stay beside the shou
       "name": "Clock choke attack: after feeding the lapel, what does Kesting's bottom hand take next?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The far wrist. In this version the bottom hand leaves the fed lapel, takes the far wrist and draws it beneath the torso to weaken that arm post. Establish the control without adding finishing collar tension during the initial drill."
+        "text": "The bottom hand takes the far wrist and draws it beneath the torso to weaken that arm post. In this version it releases the fed lapel before changing to wrist control. Establish the control without adding finishing collar tension during the initial drill."
       }
     },
     {
