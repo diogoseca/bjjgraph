@@ -176,16 +176,6 @@ description: "How to defend against the Darce from Turtle in BJJ. Recognition cu
       "embedUrl": "https://www.youtube.com/embed/d1YBV8UTKds",
       "url": "https://www.youtube.com/watch?v=d1YBV8UTKds",
       "duration": "PT52S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "You have to know THIS JIU JITSU DARCE KILLER!",
-      "description": "Darce from Turtle (Defender) film study: You have to know THIS JIU JITSU DARCE KILLER!.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/rgf9QUebMWE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/rgf9QUebMWE",
-      "url": "https://www.youtube.com/watch?v=rgf9QUebMWE",
-      "duration": "PT77S"
     }
   ]
 }
@@ -226,14 +216,6 @@ The defender must understand that the Darce works by trapping their own far-side
 ![](https://www.youtube.com/watch?v=d1YBV8UTKds)
 
 <p class="clip-credit"><strong>Darce Choke defense</strong> · 0:52 · <a href="https://www.youtube.com/watch?v=d1YBV8UTKds" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=rgf9QUebMWE)
-
-<p class="clip-credit"><strong>You have to know THIS JIU JITSU DARCE KILLER!</strong> · 1:17 · <a href="https://www.youtube.com/watch?v=rgf9QUebMWE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

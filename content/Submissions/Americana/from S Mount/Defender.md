@@ -162,16 +162,6 @@ description: "Defend against the Americana from S Mount. Recognition cues, escap
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Americana Defense to Armbar Finish",
-      "description": "Americana from S Mount (Defender) film study: Americana Defense to Armbar Finish.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/x5oNak2YANY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/x5oNak2YANY",
-      "url": "https://www.youtube.com/watch?v=x5oNak2YANY",
-      "duration": "PT177S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
       "name": "Mounted Americana Defenses - Technique #1 - Prevention and Early Phase Escapes",
       "description": "Americana from S Mount (Defender) film study: Mounted Americana Defenses - Technique #1 - Prevention and Early Phase Escapes.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Ny_l7GHApo0/hqdefault.jpg",
@@ -203,14 +193,6 @@ Defending the Americana from S Mount demands immediate recognition of the figure
 
 <p class="section-subtitle">Watch Americana from S Mount (Defender) in action — curated instructionals</p>
 
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=x5oNak2YANY)
-
-<p class="clip-credit"><strong>Americana Defense to Armbar Finish</strong> · 2:57 · <a href="https://www.youtube.com/watch?v=x5oNak2YANY" rel="noopener">Watch on YouTube</a></p>
-
-</div>
 
 <div class="film-clip">
 
