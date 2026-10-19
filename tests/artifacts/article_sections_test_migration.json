@@ -295,7 +295,7 @@
     {
       "file": "e2e/journeys/layer-dock-centre.spec.ts",
       "test": "map-view dock under the column",
-      "change": "D-331 N3: settled states measure the free column from the DOM again ((W + pane right) / 2, W / 2 on a phone), an oracle independent of the dock's own writer; 'the toggles preserve the column' compares the dock's measured centre across the toggles. Only the frame-by-frame pane animation reads the app's eased _paneLayout().center, because the pane's box does not ease."
+      "change": "D-331 N3: settled states measure the free column from the DOM again ((W + pane right) / 2, W / 2 on a phone), an oracle independent of the dock's own writer; 'the toggles preserve the column' compares the dock's measured centre across the toggles. Frame by frame, the pane animation compares the dock's centre with the card's, measured in the same frame, because the pane's box does not ease (D-332 D2-N2)."
     },
     {
       "file": "e2e/journeys/roll-execution.spec.ts + camera-continuity.spec.ts",
@@ -306,6 +306,26 @@
       "file": "e2e/journeys/roll-execution.spec.ts",
       "test": "218 at 390px, reduced motion, scrolled to the top (CI-only 4px then 7px)",
       "change": "D-331 B1, diagnostics only: not reproduced by holding the win chance pending across the click (values resolved after the pointerdown left the card at 81-82 both times), nor at 1x, 4x CDP or a 50% CPU quota. The handoff record (card/stand-in rects at pointerdown, click and stand-in mount; reader scrollTop; layoutFrame and press flags; win-chance status; document.fonts.status; every layout-shift entry with its sources; _execFrame) is attached before the unchanged 2px assertion, and the file keeps traces on failure."
+    },
+    {
+      "file": "e2e/journeys/camera-continuity.spec.ts",
+      "test": "471 an escape picked just inside the catch's window keeps the catch framing through its whole travel (1440, 390; added)",
+      "change": "D-332 D2-B1, REAL BREAK since 8a64e8ac7: the calm catch's window was read every frame, so an escape picked inside it lost the catch framing when its travel outlived the window (4x CPU: 3 of 6 red at both widths; review-claude's forced expiry: red at both widths). The app now latches the verdict at the pick (_execution.calmHeld). This journey picks 0.4s before the window closes, asserts the travel outlives it, and holds vw within 3% to the landing; mutant calm-catch-latch-lost (per-frame re-read) is killed at that claim, and the forced-expiry arm is green after the fix."
+    },
+    {
+      "file": "e2e/journeys/camera-continuity.spec.ts",
+      "test": "391 an escape: the catch keeps its own framing (1440, 390)",
+      "change": "D-332: the end-of-sequence claims are read at least 2.5s after the LANDING instead of 5s after the pick. Under 4x CPU the escape's travel took 4.7s of game time (3.3s normally), so the fixed window ended 0.3s after the landing, mid-flight. Every claim and bound is unchanged; the extra frames are also checked by expectContinuous."
+    },
+    {
+      "file": "e2e/gen/spa-nav-single-instance-law.spec.ts",
+      "test": "88 spa nav single-instance law (life 2 beats)",
+      "change": "D-332 D2-S2, SPEC STRICTER THAN ITS CLAIM, PRE-EXISTING on dev: CI 105c5f110 recorded two land_q_skipped {reason: decks_in_flight} before mc_shown. Holding life 2's deck manifest 2s reproduces exactly that diff on this PR's site and on the D-324 dev capture (2 of 2 each); 0 reds in the 10 earlier gen runs. Those beats are life 2's own dormant-arrival beats (the ledger invariant), so they are admitted only with that reason and only when the question then backfills; every other beat stays exact. Controls under the hold: an injected prior-life beat fails 'no prior-life beats', a deck_proven skip fails 'manifest wait only'. Follow-up named for the app: one landing records the immediate skip once per render while the manifest is in flight, then shows the question."
+    },
+    {
+      "file": "e2e/journeys/roll-execution.spec.ts",
+      "test": "218 at 390px, reduced motion, scrolled to the top (CI-only 4px then 7px)",
+      "change": "D-332 item 3: each window alive between pointerdown and the stand-in was forced to end inside the handoff (x2): holdCamera lease, calm catch, reader press, a late layout pass, win-chance resolution, deck/film backfill, a reward notice yielding at the pick, tray glide; and a taller sibling, growth above the hand, and the scroll slack (12,689px, so no clamp). All 0-2px. Only an induced smooth reader scroll moved the card (5-6px), and the app issues none under reduced motion (reading.css). Nothing reproduces, so the diagnostics stay; the handoff record now also carries the reward notice's presence."
     }
   ]
 }

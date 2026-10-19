@@ -280,7 +280,8 @@ for (const reduced of [false, true]) {
         const card = a._optionCards.find((c: any) => c.opt.node.t === name)?.card, stand = document.querySelector('[data-executing-tech]')
         return { at, t: Math.round(performance.now()), card: card?.isConnected ? card.getBoundingClientRect().toJSON() : null, stand: stand ? stand.getBoundingClientRect().toJSON() : null,
           scrollTop: a._reader?.root?.scrollTop, layoutFrame: !!a._reader?.layoutFrame, press: !!a._readerPress,
-          win: document.querySelector('[data-choice-value-status]')?.textContent || null, fonts: document.fonts.status }
+          win: document.querySelector('[data-choice-value-status]')?.textContent || null, fonts: document.fonts.status,
+          reward: !!document.querySelector('.ng-challenge-reward') }
       }
       w.__handoff = []
       document.addEventListener('pointerdown', () => {
