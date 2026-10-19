@@ -11384,6 +11384,38 @@ D-318, +1,901 for D-322, +46 for D-326. Largest chunk 39,000 B. Videos returns t
 (40 passed), seat-star 4/4, reward journeys 6/6; the only remaining reds are the seven
 U7-PENDING cases. Receipts are under `scratch/article-sections/claude-verify/`.
 
+CI round on 48be3a910 (sections-claude, 2026-10-19). e2e-full: validation, build and the generated
+suite green; the four core shards red with 68 failures, against dev's own green run (PR 309, all four
+shards), so none pre-existing. No local full core had run since D-318: the seat's was pre-D-318 and so
+was the previous CI. Classified per spec. 19 REAL, fixed in the app:
+- frameExecution read `_LY` before the first frame. updateCamera runs before draw, and the pumped
+  clock draws only at the end of an advance, so 14 defending-* journeys threw from the loop.
+- A calm reading arrival centres its pair with no lease, so a camera=false escape handed the camera
+  to the follow-cam's moving zoom (camera-continuity:380). The calm catch now keeps the map lease's
+  timing without capturing a target; :427, an escape after the lease, is still followed.
+- A shared-list item read during the intro was overridden by the intro handover's startRoll(), so the
+  read pair sat at (8023,-2030). This predates the PR; U6a made it reachable. A board staged during
+  the intro now keeps it.
+- The follow-cam lifted the node against the reading band's edge, giving two rest framings
+  (y130/y140, pane-layout:82). The band carries no lift.
+- D-329 (camera-continuity:287): reading-view executions frame inside the node band the landing
+  mounts below; free space only when no slot fits, with the landing rows' column occupied.
+30 STALE CONTRACT, each citing D-318 U1(1) or U4a, with one ledger entry per group. The dock claims
+keep their map view under the persisted readerBook=false (no UI path to Book off before U7), with
+reading twins through the section eyes; the Moves heading gaps; the published nodeBand as the
+reading oracle; counted fillText draws in place of pixel strips; and the phone hand's Inspect row
+revealed before a real tap (it starts 2px below the reader's scroll edge at 390x844). 18 U7-PENDING
+need the View menu's Book, Map or Feedback. 1 unreproduced: the new 390px reduced-motion scrolled
+execution case moved its card 4px on CI only, 0 of 6 locally at 4x CPU.
+My first escape fix (no retarget during any camera=false execution) broke :427; it was replaced.
+A view-rect change was reverted because no test needed it (its mutant survived 36 camera journeys).
+I also rebuilt the bundle beside a running slot once; that slot was discarded and re-run.
+Controls on the final bytes: 14 reader mutants, 4 neural.js mutants
+(tests/artifacts/neural_app_mutants.mjs, which replaces reward_hold_mutant.mjs) and the browse
+control, all killed at their claims. Payload: deferred 505,399 (D-330, +330 over D-305c for the `_LY`
+guard and D-329), eager gzip 348,106 (+1,694 against D-327's checkpoint). Receipts:
+scratch/article-sections/claude-verify/.
+
 ## v1.227.5 — Clips follow the authored move and role
 
 Clips now follow the actual submission, transition or position and the half's own role.
