@@ -188,7 +188,7 @@
 .ng-reader-toc { position:fixed;z-index:6;width:200px;box-sizing:border-box;overflow-y:auto;overscroll-behavior:contain;touch-action:pan-y;cursor:auto;background:none;border:0;box-shadow:none;padding:0;color:#d6def0;font:13px/1.4 "Plus Jakarta Sans",sans-serif;text-shadow:1px 0 #111726,-1px 0 #111726,0 1px #111726,0 -1px #111726; }
 .ng-reader-toc[hidden] { display:none!important; }
 .ng-reader-toc h2 { margin:0 8px 6px;font:600 17px/1.4 "Space Grotesk",sans-serif;color:#f0f3fa; }
-.ng-reader-toc h2 :is(span,small) { display:block;font:13px/1.5 "Plus Jakarta Sans",sans-serif; }
+.ng-reader-toc h2 small { display:block;font:13px/1.5 "Plus Jakarta Sans",sans-serif; }
 .ng-reader-toc-row { display:grid;grid-template-columns:minmax(0,1fr) 44px;align-items:center; }
 .ng-reader-toc-row a { min-height:44px;display:flex;align-items:center;box-sizing:border-box;padding:8px;color:inherit!important;transition:none;overflow-wrap:anywhere;text-decoration:none; }
 .ng-reader-toc button { min-height:44px;border:0;border-radius:0;background:none;box-shadow:none;color:inherit;cursor:pointer;font:inherit;text-shadow:inherit; }

@@ -19,7 +19,7 @@ const controls = [
     'the showing notice yields to the executing move'],
   // A calm reading catch's lease window: an escape picked inside it re-zooms again.
   ['calm-catch-window-lost', 'camera-continuity.spec.ts', '1440px camera continuity.*an escape: the catch keeps its own framing',
-    [['this.now<(this._calmCatchUntil||0)', '!1']], 'the catch keeps its framing through the escape'],
+    [['this._execution.camera===!1&&this._calmCatchHeld()', 'this._execution.camera===!1&&!1']], 'the catch keeps its framing through the escape'],
   // The intro's handover starts a fresh roll over a board staged during it (a shared-list read).
   ['intro-overrides-stage', 'defending-arrivals.spec.ts', 'a shared list link opens its defending item',
     [['this._refPage||this._staged!=null||this.startRoll()', 'this._refPage||this.startRoll()']], 'the other read role must be a reachable drawn canvas half'],

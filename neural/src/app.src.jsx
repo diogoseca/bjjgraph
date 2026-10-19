@@ -6108,7 +6108,16 @@ class Component extends DCLogic {
     return (this.now || 0) < this._camHoldUntil;
   }
   /** The user took the camera (pan/pinch/wheel) or asked to go elsewhere: drop the lease. */
-  releaseCamera() { this._camHoldUntil = null; this._camHoldTarget = null; if (this._execution) this._execution.camera = false; }
+  releaseCamera() { this._camHoldUntil = null; this._camHoldTarget = null; this._calmCatchUntil = null; if (this._execution) this._execution.camera = false; }
+  // A CALM READING CATCH'S LEASE WINDOW (D-318 + DEVMV31-CAM, CI 48be3a910): the map's catch lease
+  // timing without a captured target. Writer: the calm-arrival defense branch. Lifters: its own
+  // expiry (camHoldSec of the frame clock), releaseCamera() (every deliberate camera or navigation
+  // release), and the next defense, which rewrites it. -1: taken before the clock existed, armed
+  // on the first frame that has one, as holdCamera's lease is.
+  _calmCatchHeld() {
+    if (this._calmCatchUntil === -1 && Number.isFinite(this.now)) this._calmCatchUntil = this.now + this.camHoldSec;
+    return this._calmCatchUntil === -1 || this._calmCatchUntil != null && this.now < this._calmCatchUntil;
+  }
   // deck key -> the node that key belongs to. Built ONCE and cached, so it must not depend on live
   // state: a position collapses to a single node that answers to BOTH of its role keys, and both are
   // registered here rather than whichever side `deckKeyFor` reports for the state currently in play.
@@ -18946,7 +18955,7 @@ class Component extends DCLogic {
     // lease TIMING: an escape picked inside that window keeps the framing it was picked from, one
     // picked after it is followed (camera-continuity 380/427, DEVMV31-CAM; CI 48be3a910). No target
     // is captured: at a URL arrival camTarget can still be the intro's overview.
-    if (live || !this.get("readerBook", true)) this.frameNodes(nodes); else this._calmCatchUntil = this.now + this.camHoldSec;
+    if (live || !this.get("readerBook", true)) this.frameNodes(nodes); else this._calmCatchUntil = Number.isFinite(this.now) ? this.now + this.camHoldSec : -1;
     this._optPick = pick; this._optList = escapes;
     if (live) this._startDefensePressure(catchArrival);
     // The drill runs on the shared card's question clock; the ESCAPES are
@@ -19435,7 +19444,7 @@ class Component extends DCLogic {
     // flight the user asked for never happens. See holdCamera().
     if (this.introDone && (this.camHeld() || this._conceptId)) tgt = null;
     // An escape (camera false) picked inside a calm reading catch's lease window keeps its framing.
-    if (this.introDone && this._execution && this._execution.camera === false && this.now < (this._calmCatchUntil || 0)) tgt = null;
+    if (this.introDone && this._execution && this._execution.camera === false && this._calmCatchHeld()) tgt = null;
     if (tgt) Object.assign(this.camTarget, this._paneCameraTarget(tgt));
     if (tgt && execution && this._reducedMotion()) {
       Object.assign(this.cam, this.camTarget, { lvw: Math.log(this.camTarget.vw) });

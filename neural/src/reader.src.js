@@ -421,7 +421,8 @@ class Reader {
     if (node) {
       const role = node.ty === "positions" ? /\/Bottom$/.test(path) ? "Bottom" : "Top"
         : /\/Defender$/.test(path) ? node.ty === "submissions" ? "Escaping" : "Defending" : "Attacking";
-      indexTitle.append(element("span", {}, role), element("small", {}, this.app.nodeQual(node)));
+      // D-318 U6a's approved example: "Loop Choke · Escaping" on one line, the qualifier beneath.
+      indexTitle.append(element("span", {}, " · " + role), element("small", {}, this.app.nodeQual(node)));
     }
     contents.append(indexTitle);
     for (const section of [...(node ? this.gameSections : []), ...this.sections]) {
@@ -782,9 +783,11 @@ class Reader {
     // This target still flies through the app's integrator; arrival, manual
     // input and leases never call this execution-only seam.
     const a = this.app, W = a.W, H = a.H, scale = W / target.vw;
+    // Both fallbacks COUNT (traps §6.6): journeys assert noFit is 0 where a slot must exist.
+    const said = a._execFrame || (a._execFrame = { noFrame: 0, noFit: 0 });
     // updateCamera runs before draw: until the first frame publishes _LY there is no
     // painted pair to clear (the pumped clock reached this and threw from the loop).
-    if (!a._LY) return target;
+    if (!a._LY) { said.noFrame++; return target; }
     const k = Math.max(.4, Math.min(1, target.vw / (a.graphW * .5)));
     const point = q => ({ x: W / 2 + (q.x - target.cx) * scale, y: H / 2 + (a._LY(q) - target.cy) * scale });
     const pair = [node, node.pi >= 0 ? a.nodes[node.pi] : null].filter(Boolean);
@@ -843,7 +846,9 @@ class Reader {
       const col = this.articleEl.getBoundingClientRect();
       if (col.width) occupied.push({ left: col.left, right: col.right, top: nodeBand.bottom, bottom: H });
     }
-    return search(null) || target;
+    const free = search(null);
+    if (!free) said.noFit++;
+    return free || target;
   }
   publishCard(card) {
     // Complete new controls adopt before their first paint; observer updates to
