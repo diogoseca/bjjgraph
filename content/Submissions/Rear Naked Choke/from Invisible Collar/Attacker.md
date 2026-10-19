@@ -94,10 +94,10 @@ description: "Rear Naked Choke from Invisible Collar (attacker): Connect to the 
     },
     {
       "@type": "Question",
-      "name": "Rear naked choke attack: what should the supporting hand behind the head do?",
+      "name": "Rear naked choke attack: in the arm loop described here, where does the supporting hand finish?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Complete the arm loop without levering the neck forward. Connect the arm loop with the support hand behind the head without levering the neck forward."
+        "text": "Behind the head, completing the rear of the arm enclosure. The choking forearm and upper arm flank the neck while the other hand closes the loop. Rehearse this connection cooperatively without levering the head forward."
       }
     },
     {

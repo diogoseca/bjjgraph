@@ -321,16 +321,16 @@
         "safety_critical": true
       },
       {
-        "question": "Guillotine attack: which part of the head must not become a backward lever during chin-strap entry?",
+        "question": "Guillotine entry: which chin-strap action creates a neck crank instead of aligned head control?",
         "answer": "The jaw and chin pulled away from the torso. Control the lowered head without levering the jaw backward or twisting the neck. A balanced front position and aligned neck enclosure precede any finishing pressure.",
-        "answer_line": "Jaw and chin pulled from the torso",
+        "answer_line": "Pull jaw backward from the torso",
         "distractors": {
           "plausible": [
-            "Aligned forehead following shoulders",
-            "Crown remaining in the spinal line"
+            "Support chin with shoulders aligned",
+            "Use base to stay in front of head"
           ],
           "trap": [
-            "Neutral head during forearm entry"
+            "Move torso with the head contained"
           ]
         }
       },
@@ -493,8 +493,8 @@
         "answer_line": "Posture and inside hand position",
         "distractors": {
           "plausible": [
-            "Only their far ankle",
-            "Only the sleeve beyond their elbow"
+            "Reach round waist with head lowered",
+            "Post both hands with chin exposed"
           ],
           "trap": [
             "Lean backward once the grip closes"
@@ -507,11 +507,11 @@
         "answer_line": "Support hand joining the choke arm",
         "distractors": {
           "plausible": [
-            "Your far hand resting on the mat",
-            "Their hand reaching your low ankle"
+            "Their posting hand behind their hip",
+            "Their far hand holding your wrist"
           ],
           "trap": [
-            "A belt grip below both hips"
+            "Your hand braced on their elbow"
           ]
         }
       },

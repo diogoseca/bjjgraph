@@ -462,11 +462,11 @@
         "answer_line": "Foot exposure and the heel grip",
         "distractors": {
           "plausible": [
-            "Only their far shoulder",
-            "Only your free knee behind them"
+            "Only turn your hips away from heel",
+            "Their far leg with your heel exposed"
           ],
           "trap": [
-            "Post both hands, leaving heel open"
+            "Pull knee while the foot stays fixed"
           ]
         }
       },

@@ -86,18 +86,18 @@ description: "Clock Choke from Invisible Collar (attacker): Stay beside the shou
     },
     {
       "@type": "Question",
-      "name": "Clock choke attack: what should your second hand and torso keep from following freely?",
+      "name": "Clock choke attack: after feeding the lapel, what does Kesting's bottom hand take next?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The opponent's shoulders. Use the second hand and body position to limit the opponent's free shoulder movement."
+        "text": "The far wrist. In this version the bottom hand leaves the fed lapel, takes the far wrist and draws it beneath the torso to weaken that arm post. Establish the control without adding finishing collar tension during the initial drill."
       }
     },
     {
       "@type": "Question",
-      "name": "Clock choke attack: which supports should carry your balance instead of posting on the head?",
+      "name": "Clock choke attack: which movement changes the body angle around the turtle?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Your feet and leg posts around the turtle. Maintain supported balance while the feet reposition around the shoulder line. Do not replace a stable base with a head post or a fall onto the collar."
+        "text": "Walking the feet around the opponent's head changes the body angle and collar tension. Rehearse the footwork with a loose grip first, maintaining balance and releasing if neck alignment or communication is lost."
       }
     },
     {

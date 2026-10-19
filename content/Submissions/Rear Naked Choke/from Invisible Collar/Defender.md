@@ -90,7 +90,7 @@ description: "Rear Naked Choke from Invisible Collar (defender): Keep the attack
     },
     {
       "@type": "Question",
-      "name": "Rear naked choke defense: which symptoms must an early tap prevent?",
+      "name": "Rear naked choke defense: how early should you stop once the neck enclosure is secure?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Dizziness, visual changes or impaired awareness. Tap before any of these symptoms; stop before a secured choke impairs normal awareness."

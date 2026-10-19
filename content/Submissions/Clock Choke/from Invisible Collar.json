@@ -243,38 +243,38 @@
         "distractors": {
           "plausible": [
             "Across the bridge of the nose",
-            "Under lower ribs around the belt"
+            "Across the point of the chin"
           ],
           "trap": [
-            "Around the near wrist"
+            "Low on the chest with neck slack"
           ]
         }
       },
       {
-        "question": "Clock choke attack: what should your second hand and torso keep from following freely?",
-        "answer": "The opponent's shoulders. Use the second hand and body position to limit the opponent's free shoulder movement.",
-        "answer_line": "The opponent's shoulders",
+        "question": "Clock choke attack: after feeding the lapel, what does Kesting's bottom hand take next?",
+        "answer": "The far wrist. In this version the bottom hand leaves the fed lapel, takes the far wrist and draws it beneath the torso to weaken that arm post. Establish the control without adding finishing collar tension during the initial drill.",
+        "answer_line": "The far wrist beneath their body",
         "distractors": {
           "plausible": [
-            "Only their far ankle",
-            "Your own near knee"
+            "The fed lapel, without changing grip",
+            "The near ankle behind their hips"
           ],
           "trap": [
-            "The loose end of their belt"
+            "The belt at the back of their waist"
           ]
         }
       },
       {
-        "question": "Clock choke attack: which supports should carry your balance instead of posting on the head?",
-        "answer": "Your feet and leg posts around the turtle. Maintain supported balance while the feet reposition around the shoulder line. Do not replace a stable base with a head post or a fall onto the collar.",
-        "answer_line": "Your feet and leg posts",
+        "question": "Clock choke attack: which movement changes the body angle around the turtle?",
+        "answer": "Walking the feet around the opponent's head changes the body angle and collar tension. Rehearse the footwork with a loose grip first, maintaining balance and releasing if neck alignment or communication is lost.",
+        "answer_line": "Feet walking around their head",
         "distractors": {
           "plausible": [
-            "Forehead planted beside them",
-            "The collar hand catching your weight"
+            "Choking hand circling by itself",
+            "Head twisting against fixed hips"
           ],
           "trap": [
-            "Your neck across their shoulders"
+            "Knees still while only the arms pull"
           ]
         }
       },
@@ -473,11 +473,11 @@
         "answer_line": "A deep collar grip being fed in",
         "distractors": {
           "plausible": [
-            "Any movement of their far foot",
-            "Your near knee touching the mat"
+            "Their far foot beginning to step",
+            "Only the later grip on your wrist"
           ],
           "trap": [
-            "Your elbow staying near your ribs"
+            "Their hand touching your rear belt"
           ]
         }
       },
@@ -488,7 +488,7 @@
         "distractors": {
           "plausible": [
             "Each step frees the neck grip",
-            "A far-leg calf-slicer transition"
+            "Abandoning the collar for back hooks"
           ],
           "trap": [
             "Standing ends shoulder control"

@@ -11312,9 +11312,10 @@ The first description pass introduced 43 duplicate groups. Technique, origin and
 context removed every new collision. The integrated own build measures 4,563 → 4,567
 distinct descriptions, with 344 changed descriptions attributed to source; the 88
 retained groups are existing canonical/index aliases. Census moves exactly −208 headings,
-−1,364 article links and −208 outside links. The 87 hub folder copies contribute −398
-links and the other routes −966. Post-curation links are 200,784 → 199,420, clearing the
-unchanged 180,000 tier-0 and 183,310 payload floors by 19,420 and 16,110 respectively.
+−1,364 article links and −208 outside links. The 87 hub folder copies with changed link
+counts contribute −398 links and the other routes −966. Post-curation links are
+200,784 → 199,420, clearing the unchanged 180,000 tier-0 and 183,310 payload floors
+by 19,420 and 16,110 respectively.
 
 Rewritten defensive prose changes 57 content-derived MDP response IDs across 15 attempts.
 The attempt/index mapping leaves every other mechanical field, ordered destination and
@@ -11334,8 +11335,8 @@ remain. The fresh random sample found 19 correct removals and one omission, then
 that omission. Memberships are 75,684 → 75,602: 144 removed, 62 added, all 206 changes
 keyword-attributed. Twenty-one masks and 23 principle evidence dossiers change. Negation
 and inherited origin keywords remain disclosed matcher limits. The subsequent card
-correction changes no instructional prose used by the matcher; the integrated concepts
-payload and every membership delta exactly match that accepted review.
+corrections change no instructional prose used by the matcher; every membership delta
+and the concepts payload exactly match that accepted review.
 
 **B1: graded answers must test the technique.** Independent review found 798 emitted
 position/transition questions containing their graded answer (120 position, 678 transition);
@@ -11345,31 +11346,48 @@ Short answers state the requested mechanic; alternatives express specific plausi
 errors for that technique and seat. All 861 helper cards and 401 lead cards received
 integrated editorial review. This is not independent practitioner validation.
 
-The earlier correction mistakenly checked the 60-character schema limit instead of the
-product's 36-character choice budget. Local CI caught 4,629 overlong options on 1,249
-cards; BASE and the original identity head had none. A full shortening and review pass
-repaired this without changing any schema, quiz gate, renderer or exporter. Against the
-post-curation snapshots, 1,252 cards / 4,737 choice fields and 14 questions change; no
-long answer changes in this pass. All choices fit 36 characters and questions fit 100.
-The unchanged corpus gate now reports zero length violations across 22,822 source cards.
+The earlier correction checked the 60-character schema limit instead of the product's
+36-character choice budget. Local CI caught 4,629 overlong options on 1,249 cards. A full
+shortening and review pass repaired them without relaxing the gate. Earlier failed
+samples of 6/40 and 8/40, the 38/2 sample before repairs, and the subsequent 40/40
+line36 sample remain recorded. That last editorial sample did not detect the submission
+fallback problem: independent delta review found all ten sampled submissions weak,
+including a correct Aoki capture-drill precaution graded wrong. The real exporter had
+dropped their authored alternatives, and 205 of 241 emitted answers exceeded 36 characters.
 
-The actual built decks exactly reproduce the reviewed production-method probe: 4,600
-calls, zero answer-in-question cases, zero shared cross-node authored triples and zero
-runtime findings. Every one of the 1,021 position/transition cards exposes all three
-authored alternatives through the real rotation and filters. The exporter is unchanged:
-241 submission cards in 30 decks still use the long answer's first sentence and pooled
-alternatives. Those emitted answers/options remain equal to their preceding truth and
-ambiguity review. Their shortened authored choices are dormant; enabling the roughly
-4,600 authored submission sets across the corpus remains a separately audited follow-up.
+**D-321: reviewed submission choices now reach the grader.** An explicit allowlist of
+30 complete node/seat keys exports answer_line and distractors through the same producer
+path as position and transition cards. These 241 cards in 15 submission records were
+re-reviewed individually against instructor material; 48 were repaired. Correct short
+answers name the asked mechanism, the full answer supplies reveal detail, and all three
+alternatives describe distinct errors for that question and seat. Revisions include
+Clock Choke footwork and far-wrist control, optional Suloev hand grips, and rear-naked
+choke questions that distinguish a cooperative entry drill from finishing variations.
+Every option fits 36 characters and every question fits 100.
 
-Earlier samples remain recorded: round 1 failed 6/40, round 2 failed 8/40, and round 3
-met the threshold at 38 pass / 2 weak, with both weaknesses subsequently repaired.
-After the full line36 review, a fresh uniform sample without replacement passed 40/40,
-zero weak, seed 84db1f041ee4eebc7e3b78a1f3c31391 (3 position, 29 transition, 8 submission
-cards). The draw was frozen before judgement; no redraw or post-draw edit occurred.
-All authored options and actual emitted choices were read, including every reachable
-pooled alternative for the sampled submissions. The unchanged fallback remains less
-specific than authored distractors; its limitation is not hidden by the zero-weak result.
+All 550 other submission role decks (4,365 cards) preserve the legacy serialized output
+byte-for-byte. The complete actual build changes exactly those 30 reviewed decks among
+2,896 role decks; all 2,866 others stay equal. Relative to the prior accepted identity
+capture, exactly 30 flashcard chunks change and no other neural payload moves. Broader
+submission export remains deferred to the task-55 corpus audit.
+
+Four Python exporter contracts pin the exact allowlist/card counts, retained full detail
+and safety flags, all unreviewed legacy bytes, and a near-name/flat-schema exclusion.
+Two CI-collected JavaScript tests exercise all 241 cards / 964 authored choices through
+482 production draws and the actual grading decision. The Aoki regression reproduces
+the old pooled false grade and verifies the authored mechanic is uniquely graded correct.
+Mutants widening the allowlist, dropping the reviewed fields or grading that mechanic
+wrong each fail at the intended assertions.
+
+The built production-method probe covers all 1,262 cards in 170 decks: 4,600 calls,
+zero answer-in-question cases, zero shared cross-node authored triples and zero runtime
+findings. All 5,048 authored choices are exercised. The 241 submission cards now have
+zero pooled fallback and zero overlong emitted answers. The fresh final uniform sample
+passes 40/40, zero weak (8 position, 24 transition, 8 submission cards), seed
+93eb8a569da395f33df8189309b263166162906c8bd7145e5caa2ae7fa13ba6b.
+The draw was frozen before judgment, with no redraw or post-draw edits within that round.
+An earlier D-321 zero-weak draw is preserved but superseded after validation found two
+overlong question stems outside its sample; those were shortened before the final draw.
 
 **STALE TIMING, pre-existing since deferred reader.js in v1.225.0.** Separate test-only
 commit 0efa07af0 repairs the generated SPA-navigation assertion. At true data-reader-ready
@@ -11379,29 +11397,25 @@ instance, and old-instance destruction remain required. Eight positive proof run
 mutants leaking an old-instance beat or skipping its destroy fail at the assertion.
 The ledger carries the exact five-beat claim and remains non-known-red.
 
-The integrated md/hubs/graph/neural/Quartz own build passed on dev 84d21cee6; its FIFO
-lock was released before validation and analysis. All 150 study/MDP JavaScript tests,
-16 Python MDP tests and eight live desktop/phone study journeys pass. Eager gzip is
-346,412 B (−75 B versus BASE, +3,414 B from the unchanged 342,998 checkpoint, leaving
-1,586 B of its +5,000 cap); deferred raw stays 480,054/500,000 B. All 37 corpus-census
-markers remain current. D-319 confirms BASE/PREMERGE 84d21cee6 and CANDIDATE/TOOLS
-2eb09b87d. The guarded pr-node-identities-2eb09b87d capture is production-accepted,
-with 16,003 retained files and 6,212 HTML pages. D-285 cleanup preserves all 6,407
-tracked content stamps; detached checkout changes exactly the 350 Git-changed content
-paths, and no content stamp changes during capture. The lock is released before the
-acceptance audit and re-seed.
+The D-321 integrated md/hubs/graph/neural/Quartz own build passed on dev 84d21cee6;
+its FIFO lock was released before validation and analysis. Focused coverage passes
+152 JavaScript tests (including both new exporter/grading tests), 16 Python MDP tests
+and eight live desktop/phone study journeys. Eager gzip stays 346,412 B (−75 B versus
+BASE, +3,414 B from the unchanged 342,998 checkpoint, leaving 1,586 B of its +5,000 cap);
+deferred raw stays 480,054/500,000 B. All 37 corpus-census markers remain current.
+No payload allowance, tier-0 floor, schema, quiz gate, law source or app source changes.
 
-Every declared census, description, app, MDP, concepts and payload movement matches
-the retained output, with zero undeclared movement. Both Learning tag rows exactly
-equal BASE under p2b stamps; the own-build date/order difference is an artifact and
-is not re-seeded. Only Positions.html and Positions/index.html change sampled SEO
-rows, and their text floors increase from 21,127 to 21,200. The census and SEO
-baselines bind the actual accepted receipt, including its complete output hash.
-No payload allowance, tier-0 floor or corpus literal changes. Source and content
-inputs remain identical to the captured commit.
+The earlier D-319 guarded capture and receipt remain historical evidence for 2eb09b87d,
+superseded as acceptance for this new exporter/card tree. A new exact-ref confirmation,
+guarded capture and receipt-bound re-seed are required before the next push. Own-build
+measurements write no baseline. Artifact-only SEO passes; ordinary SEO/build-shape
+provenance correctly refuses to attest the new content with the old receipt. Only the
+two Positions summary routes are expected to change sampled SEO text against BASE.
+Learning tags/index and tags/beginner must equal BASE under p2b content stamps; their
+own-build date/order differences are excluded from the re-seed, and any capture movement
+is a finding that stops acceptance.
 
-Version remains the owner-assigned 1.227.6. D-309 is historical and superseded by
-this post-curation, post-card-correction capture. Green local and remote CI and
-independent review remain required before the owner merges. No full-core run is
-started here. Previous archive entries and the approved 913,038-character ceiling
-are unchanged.
+Version remains the owner-assigned 1.227.6. After the new accepted capture: same-PR
+re-seed, one topic-branch push, full GitHub gate and independent fresh-30 review before
+the owner merges. No local full-core run is started here. Previous archive entries and
+the approved 913,038-character ceiling are unchanged.

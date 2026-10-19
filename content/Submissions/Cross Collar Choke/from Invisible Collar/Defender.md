@@ -58,15 +58,15 @@ description: "Cross Collar Choke from Invisible Collar (defender): Fight collar 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Cross-collar defense: how many grips are complete when you first contest the entering hand?",
+      "name": "Cross-collar defense: where should your early hand fight focus before their wrists cross?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Neither grip is complete; contest the first entering hand. Stop it gaining depth before the second hand crosses. Early hand fighting is preferable to treating two secured collar grips as the starting point."
+        "text": "On the first hand entering your lapel. Deny its depth before the other hand crosses to complete the choke. Do not wait for two tightened collar grips to begin hand fighting."
       }
     },
     {
       "@type": "Question",
-      "name": "Cross-collar defense: what can an inside frame deny before the choke is complete?",
+      "name": "Cross-collar defense: with one collar hand set, which incoming route should an inside frame block?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The second hand crossing to the opposite collar. Keep an inside frame before the hands cross into a complete choke."

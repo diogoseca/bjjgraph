@@ -66,7 +66,7 @@ description: "Hindulotine from Hindulotine (defender): An elbow passing over the
     },
     {
       "@type": "Question",
-      "name": "Hindulotine defense: what should an early inside frame obstruct?",
+      "name": "Hindulotine defense: which action completes the choke's upper-body connection?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The two hands joining around the neck enclosure. Use an early inside frame before both hands close around the neck enclosure."

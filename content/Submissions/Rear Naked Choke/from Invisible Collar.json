@@ -277,16 +277,16 @@
         }
       },
       {
-        "question": "Rear naked choke attack: what should the supporting hand behind the head do?",
-        "answer": "Complete the arm loop without levering the neck forward. Connect the arm loop with the support hand behind the head without levering the neck forward.",
-        "answer_line": "Close the loop without neck levering",
+        "question": "Rear naked choke attack: in the arm loop described here, where does the supporting hand finish?",
+        "answer": "Behind the head, completing the rear of the arm enclosure. The choking forearm and upper arm flank the neck while the other hand closes the loop. Rehearse this connection cooperatively without levering the head forward.",
+        "answer_line": "Behind the head to close the loop",
         "distractors": {
           "plausible": [
-            "Push skull forward to finish",
-            "Pull chin up through the choke arm"
+            "Across the chin in front of the face",
+            "Around the far wrist at their chest"
           ],
           "trap": [
-            "Stay separate; choke fingers squeeze"
+            "On the near shoulder, loop open"
           ]
         }
       },
@@ -348,7 +348,7 @@
         }
       },
       {
-        "question": "Rear naked choke practice: if the jaw blocks your forearm, what is the appropriate reset?",
+        "question": "Rear naked choke practice: in a cooperative neck-entry drill, how should you handle a jaw block?",
         "answer": "Unload and hand fight to regain neck access. Never squeeze through the jaw or continue after a tap. Agree on verbal signals when the hands are occupied, and open the whole arm loop immediately.",
         "answer_line": "Unload; hand fight for neck access",
         "distractors": {
@@ -369,10 +369,10 @@
         "distractors": {
           "plausible": [
             "Both over, leaving armpits clear",
-            "Both under thighs, chest at knees"
+            "Both under, no over-shoulder arm"
           ],
           "trap": [
-            "One round foot, one at your own neck"
+            "One over shoulder, other hand posts"
           ]
         }
       }
@@ -479,11 +479,11 @@
         "answer_line": "Neck wrap closing into an arm loop",
         "distractors": {
           "plausible": [
-            "A trouser-cuff grip at your ankle",
-            "A mat post behind the attacker"
+            "A hand clasp below your sternum",
+            "An underarm link across the chest"
           ],
           "trap": [
-            "A touch on your outer elbow"
+            "An open harness across shoulders"
           ]
         }
       },
@@ -530,16 +530,16 @@
         }
       },
       {
-        "question": "Rear naked choke defense: which symptoms must an early tap prevent?",
+        "question": "Rear naked choke defense: how early should you stop once the neck enclosure is secure?",
         "answer": "Dizziness, visual changes or impaired awareness. Tap before any of these symptoms; stop before a secured choke impairs normal awareness.",
-        "answer_line": "Dizziness or impaired awareness",
+        "answer_line": "Before dizziness or fading awareness",
         "distractors": {
           "plausible": [
-            "Only when both legs cannot move",
-            "Only after a switch to collar grip"
+            "After vision starts to narrow",
+            "Only when the hand grip hurts"
           ],
           "trap": [
-            "After testing one more head twist"
+            "After one more loaded head turn"
           ]
         }
       }

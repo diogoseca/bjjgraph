@@ -74,10 +74,10 @@ description: "Aoki Lock from Aoki Lock Control (defender): Treat an outward-turn
     },
     {
       "@type": "Question",
-      "name": "Aoki from Control defense: what should not rotate independently once the foot is fixed?",
+      "name": "Aoki from Control defense: why avoid turning your torso against a foot that remains fixed?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Your torso relative to the captured knee and foot. Do not rotate the torso independently of a captured foot and knee."
+        "text": "The turn can transfer load into the captured knee. Keep the torso from rotating independently of a foot and leg that remain restrained; have the full enclosure released before turning away."
       }
     },
     {

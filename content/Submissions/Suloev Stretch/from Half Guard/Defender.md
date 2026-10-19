@@ -74,10 +74,10 @@ description: "Suloev Stretch from Half Guard (defender): A hand reaching from yo
     },
     {
       "@type": "Question",
-      "name": "Suloev Stretch defense: what should you address before lifting your hips into an exposed tripod?",
+      "name": "Suloev Stretch defense: which existing control anchors the low reach from your back?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Rear attachment while maintaining a stable base. Maintain a stable base and address the rear attachment before raising the hips with a leg available."
+        "text": "The rider's attachment behind your torso. Address that rear control while maintaining a stable base, before raising the hips into a tripod that exposes an ankle. The later ankle capture adds a separate lower-body restraint."
       }
     },
     {

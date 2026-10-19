@@ -94,10 +94,10 @@ description: "Calf Slicer from Carni (attacker): Control the opposing thigh and 
     },
     {
       "@type": "Question",
-      "name": "Calf slicer attack: which movement does heel containment limit?",
+      "name": "Calf slicer attack: in which direction does the lower leg fold around the fulcrum?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The lower leg moving away from the thigh. Identify how the lower leg folds toward the thigh without pulling it to end range."
+        "text": "Back toward the thigh of the captured leg. The heel is contained as the lower leg folds around the shin or forearm behind the knee. Rehearse that arrangement without pulling into end range or squeezing the joint."
       }
     },
     {

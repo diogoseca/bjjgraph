@@ -66,7 +66,7 @@ description: "Kneebar from Carni (defender): A knee trapped at the attacker's hi
     },
     {
       "@type": "Question",
-      "name": "Kneebar defense: what should you deny before the leg capture closes?",
+      "name": "Kneebar defense: which grip fixes the far end of your leg beyond the target joint?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A secure grip on your ankle and lower leg. Hand fight and keep the lower leg free before the attacker completes the capture."

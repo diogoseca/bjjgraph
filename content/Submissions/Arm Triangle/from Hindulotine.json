@@ -241,11 +241,11 @@
         "answer_line": "Across the front of their neck",
         "distractors": {
           "plausible": [
-            "High shin between chin and shoulder",
-            "Both arms outside a head-only loop"
+            "Back toward their own ribs",
+            "Behind the crown of their head"
           ],
           "trap": [
-            "Wrist at their hip, head left free"
+            "Down alongside their hip"
           ]
         }
       },
@@ -507,11 +507,11 @@
         "answer_line": "Between shoulder and side of head",
         "distractors": {
           "plausible": [
-            "Only beneath their far knee",
-            "Behind your own lower back"
+            "Between their chest and your ribs",
+            "Above your forehead inside the loop"
           ],
           "trap": [
-            "Across their foot beside your hip"
+            "At their wrist below your sternum"
           ]
         }
       },

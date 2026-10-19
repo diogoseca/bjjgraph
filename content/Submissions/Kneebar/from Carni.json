@@ -353,11 +353,11 @@
         "answer_line": "One foot and the opposite calf",
         "distractors": {
           "plausible": [
-            "Both heels above their shoulders",
-            "Knee on ankle with other leg free"
+            "Both insteps stacked on one hip",
+            "Two knees above the free-leg thigh"
           ],
           "trap": [
-            "Both feet away, no hip contact"
+            "One heel at ankle, other leg free"
           ]
         },
         "safety_critical": true
@@ -501,16 +501,16 @@
         }
       },
       {
-        "question": "Kneebar defense: what should you deny before the leg capture closes?",
+        "question": "Kneebar defense: which grip fixes the far end of your leg beyond the target joint?",
         "answer": "A secure grip on your ankle and lower leg. Hand fight and keep the lower leg free before the attacker completes the capture.",
         "answer_line": "Ankle and lower-leg grip",
         "distractors": {
           "plausible": [
-            "Only their free wrist away from leg",
-            "Only their far trouser-cuff grip"
+            "A hand pressing above your kneecap",
+            "Their calf wrapping behind your hip"
           ],
           "trap": [
-            "Your hands returning to your foot"
+            "One knee squeezing your upper thigh"
           ]
         }
       },

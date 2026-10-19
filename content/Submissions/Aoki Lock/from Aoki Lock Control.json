@@ -254,11 +254,11 @@
         "answer_line": "Instep at the biceps and armpit",
         "distractors": {
           "plausible": [
-            "Sole flat on the outer elbow",
-            "Toes behind your shoulder blade"
+            "Sole flat against your biceps",
+            "Only toes beneath your upper arm"
           ],
           "trap": [
-            "Heel resting above your shoulder"
+            "Heel wedged beneath your armpit"
           ]
         }
       },
@@ -515,16 +515,16 @@
         }
       },
       {
-        "question": "Aoki from Control defense: what should not rotate independently once the foot is fixed?",
-        "answer": "Your torso relative to the captured knee and foot. Do not rotate the torso independently of a captured foot and knee.",
-        "answer_line": "Torso against the captured leg",
+        "question": "Aoki from Control defense: why avoid turning your torso against a foot that remains fixed?",
+        "answer": "The turn can transfer load into the captured knee. Keep the torso from rotating independently of a foot and leg that remain restrained; have the full enclosure released before turning away.",
+        "answer_line": "The turn can load the trapped knee",
         "distractors": {
           "plausible": [
-            "Their free hand above the thigh",
-            "Your free toes past the leg tangle"
+            "It only tightens their forearm",
+            "The grip always follows harmlessly"
           ],
           "trap": [
-            "Your untangled wrist by the ribs"
+            "The foot turns freely in the clamp"
           ]
         }
       },

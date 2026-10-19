@@ -265,16 +265,16 @@
         }
       },
       {
-        "question": "Calf slicer attack: which movement does heel containment limit?",
-        "answer": "The lower leg moving away from the thigh. Identify how the lower leg folds toward the thigh without pulling it to end range.",
-        "answer_line": "Lower leg moving away from thigh",
+        "question": "Calf slicer attack: in which direction does the lower leg fold around the fulcrum?",
+        "answer": "Back toward the thigh of the captured leg. The heel is contained as the lower leg folds around the shin or forearm behind the knee. Rehearse that arrangement without pulling into end range or squeezing the joint.",
+        "answer_line": "Back toward the same-side thigh",
         "distractors": {
           "plausible": [
-            "Their wrist crossing their chest",
-            "Their head turning away from you"
+            "Straight past the knee extension",
+            "Sideways across the opposite knee"
           ],
           "trap": [
-            "Their free ankle turning outward"
+            "Outward while the thigh turns away"
           ]
         }
       },
@@ -450,7 +450,7 @@
             "Hand on thigh with lower leg free"
           ],
           "trap": [
-            "A collar grip above your shoulders"
+            "Shin framing outside your knee"
           ]
         }
       },
@@ -460,11 +460,11 @@
         "answer_line": "Heel and lower leg away from thigh",
         "distractors": {
           "plausible": [
-            "Only your untangled wrist",
-            "Their far ankle beside your hip"
+            "Thigh only, heel pinned in place",
+            "Hip rotation with the heel fixed"
           ],
           "trap": [
-            "Your head, with trapped heel fixed"
+            "Foot twists while lower leg stays"
           ]
         }
       },

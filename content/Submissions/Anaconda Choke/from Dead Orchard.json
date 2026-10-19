@@ -270,7 +270,7 @@
         "distractors": {
           "plausible": [
             "Pull chin sideways, arm outside",
-            "Straighten elbow behind their back"
+            "Extend their arm away from the neck"
           ],
           "trap": [
             "Lift face, leaving shoulder space"
@@ -283,11 +283,11 @@
         "answer_line": "Your shoulder, with room to follow",
         "distractors": {
           "plausible": [
-            "The crown as a fixed pivot",
-            "Their wrist pulled ahead of the body"
+            "Your crown as a fixed pivot",
+            "Your posted elbow beneath the chest"
           ],
           "trap": [
-            "Neck planted beneath the torso"
+            "Your chest diving straight down"
           ]
         }
       },
@@ -489,11 +489,11 @@
         "answer_line": "Beneath neck toward your armpit",
         "distractors": {
           "plausible": [
-            "Under thigh toward the far hip",
-            "Around waist below both elbows"
+            "From armpit toward side of neck",
+            "Around head with both arms outside"
           ],
           "trap": [
-            "Behind back toward the far wrist"
+            "Across neck, both shoulders clear"
           ]
         }
       },
@@ -503,11 +503,11 @@
         "answer_line": "Between trapped shoulder and neck",
         "distractors": {
           "plausible": [
-            "Only between knees and their hips",
-            "Behind your own lower back"
+            "At their chest, shoulder still tight",
+            "Against their crown above the loop"
           ],
           "trap": [
-            "Across their ankle under the roll"
+            "At their wrist with held arm long"
           ]
         }
       },

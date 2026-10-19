@@ -255,7 +255,7 @@
         "distractors": {
           "plausible": [
             "Across knees with arms extended",
-            "Behind your head, heel facing away"
+            "In the palm with only toes enclosed"
           ],
           "trap": [
             "Between thighs with the arms open"
@@ -296,7 +296,7 @@
         "answer_line": "Load ankle and knee rotation",
         "distractors": {
           "plausible": [
-            "Only squeeze calf, leaving joints",
+            "Squeeze calf without joint loading",
             "Release the instep automatically"
           ],
           "trap": [
@@ -386,7 +386,7 @@
             "Outside foot extended, knees apart"
           ],
           "trap": [
-            "Far knee across your shoulders"
+            "Outside knee close to the free heel"
           ]
         },
         "safety_critical": true

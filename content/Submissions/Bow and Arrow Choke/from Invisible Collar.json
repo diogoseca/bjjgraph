@@ -251,16 +251,16 @@
         }
       },
       {
-        "question": "Bow-and-arrow attack: what does the leg or trouser control restrain?",
+        "question": "Bow-and-arrow attack: why add lower-body control to the collar grip?",
         "answer": "The opponent's hips and lower body. Use the available leg or trouser control to manage the opponent's hips.",
-        "answer_line": "The opponent's hips and lower body",
+        "answer_line": "Keep their hips from following you",
         "distractors": {
           "plausible": [
-            "Only their free wrist",
-            "Only the sleeve across your chest"
+            "Extend reach with their hips free",
+            "Replace the grip on their collar"
           ],
           "trap": [
-            "Your own elbow by their shoulder"
+            "Let their hips follow your chest"
           ]
         }
       },
@@ -288,7 +288,7 @@
             "Around toes with the knee free"
           ],
           "trap": [
-            "Under your own thigh"
+            "Across the front of their thigh"
           ]
         }
       },
@@ -504,16 +504,16 @@
         }
       },
       {
-        "question": "Bow-and-arrow defense: which upper-body lever should you address instead of tugging only at fabric?",
+        "question": "Bow-and-arrow defense: in Kesting's early escape, where do you push for the longer arm lever?",
         "answer": "The attacking elbow while protecting neck space. Work at the elbow lever while protecting the neck instead of merely tugging at the sleeve.",
-        "answer_line": "Their elbow, preserving neck space",
+        "answer_line": "At the collar-gripping elbow",
         "distractors": {
           "plausible": [
-            "Their wrist away from the choke",
-            "Your collar hem beside the hip"
+            "At the middle of their forearm",
+            "At their collar-anchored wrist"
           ],
           "trap": [
-            "Only the sleeve behind the shoulder"
+            "On their sleeve behind the shoulder"
           ]
         }
       },

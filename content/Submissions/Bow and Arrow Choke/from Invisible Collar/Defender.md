@@ -82,7 +82,7 @@ description: "Bow and Arrow Choke from Invisible Collar (defender): Hand fight b
     },
     {
       "@type": "Question",
-      "name": "Bow-and-arrow defense: which upper-body lever should you address instead of tugging only at fabric?",
+      "name": "Bow-and-arrow defense: in Kesting's early escape, where do you push for the longer arm lever?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The attacking elbow while protecting neck space. Work at the elbow lever while protecting the neck instead of merely tugging at the sleeve."

@@ -392,16 +392,16 @@
         "safety_critical": true
       },
       {
-        "question": "Cross-collar after Invisible Collar: what does the reviewed primary lesson establish about origin?",
+        "question": "Cross-collar after Invisible Collar: which body relationship starts the cited mounted sequence?",
         "answer": "A mounted demonstration, not a direct high-guard entry. Invisible Collar names a high leg clinch, not a cloth grip. Releasing that clinch and arranging actual collar access is necessary; the reviewed primary lesson demonstrates mount rather than a direct Invisible Collar entry.",
-        "answer_line": "A mounted demonstration",
+        "answer_line": "Attacker astride the torso on top",
         "distractors": {
           "plausible": [
-            "Both cloth grips already in the hold",
-            "The same grips with no jacket"
+            "Attacker below in a high leg clinch",
+            "Attacker behind a seated opponent"
           ],
           "trap": [
-            "Mandatory turtle before gripping"
+            "Attacker beside a kneeling turtle"
           ]
         }
       }
@@ -516,30 +516,30 @@
     ],
     "flashcards": [
       {
-        "question": "Cross-collar defense: how many grips are complete when you first contest the entering hand?",
-        "answer": "Neither grip is complete; contest the first entering hand. Stop it gaining depth before the second hand crosses. Early hand fighting is preferable to treating two secured collar grips as the starting point.",
-        "answer_line": "Neither; fight the first entry",
+        "question": "Cross-collar defense: where should your early hand fight focus before their wrists cross?",
+        "answer": "On the first hand entering your lapel. Deny its depth before the other hand crosses to complete the choke. Do not wait for two tightened collar grips to begin hand fighting.",
+        "answer_line": "On the first hand entering the lapel",
         "distractors": {
           "plausible": [
-            "Both hands crossed and tightened",
-            "Second hand deep, first outside"
+            "On a wrist after both grips close",
+            "On pulling their low jacket hem"
           ],
           "trap": [
-            "Both wrists tight against the neck"
+            "On their sleeve above your shoulder"
           ]
         }
       },
       {
-        "question": "Cross-collar defense: what can an inside frame deny before the choke is complete?",
+        "question": "Cross-collar defense: with one collar hand set, which incoming route should an inside frame block?",
         "answer": "The second hand crossing to the opposite collar. Keep an inside frame before the hands cross into a complete choke.",
         "answer_line": "Second hand reaching opposite lapel",
         "distractors": {
           "plausible": [
-            "Their far ankle moving at all",
-            "Your shoulder nearing your neck"
+            "Second hand to the same low hem",
+            "First elbow moving toward their ribs"
           ],
           "trap": [
-            "Their free knee moving on the mat"
+            "Far knee closing beside your hip"
           ]
         }
       },
@@ -549,11 +549,11 @@
         "answer_line": "Neck beyond the reaching hands",
         "distractors": {
           "plausible": [
-            "Knees apart with neck still held",
-            "Slack at belt, upper body unchanged"
+            "Neck close, pelvis farther away",
+            "Chin low, collar within their reach"
           ],
           "trap": [
-            "Space behind their heels alone"
+            "Arms extended into a deep lapel grip"
           ]
         }
       },

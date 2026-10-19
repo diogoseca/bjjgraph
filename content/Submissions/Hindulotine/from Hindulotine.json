@@ -319,11 +319,11 @@
         "answer_line": "Fixed knee takes the hip's motion",
         "distractors": {
           "plausible": [
-            "Flat hips increase knee rotation",
+            "A fixed knee makes ankle pulls safe",
             "Hard ankle pull frees the hip first"
           ],
           "trap": [
-            "A loose neck permits more foot pull"
+            "Only ankle mobility sets foot reach"
           ]
         }
       },
@@ -495,16 +495,16 @@
         }
       },
       {
-        "question": "Hindulotine defense: what should an early inside frame obstruct?",
+        "question": "Hindulotine defense: which action completes the choke's upper-body connection?",
         "answer": "The two hands joining around the neck enclosure. Use an early inside frame before both hands close around the neck enclosure.",
         "answer_line": "Hands joining around the neck",
         "distractors": {
           "plausible": [
-            "Their low heel returning to the mat",
-            "Your elbow bending toward ribs"
+            "A hand resting on your chest",
+            "One arm keeping only the shin grip"
           ],
           "trap": [
-            "Their free toes touching your hip"
+            "Both hands staying on your near arm"
           ]
         }
       },

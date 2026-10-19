@@ -86,7 +86,7 @@ description: "Bow and Arrow Choke from Invisible Collar (attacker): Keep the tor
     },
     {
       "@type": "Question",
-      "name": "Bow-and-arrow attack: what does the leg or trouser control restrain?",
+      "name": "Bow-and-arrow attack: why add lower-body control to the collar grip?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The opponent's hips and lower body. Use the available leg or trouser control to manage the opponent's hips."

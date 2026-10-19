@@ -351,16 +351,16 @@
         "safety_critical": true
       },
       {
-        "question": "High-elbow guillotine practice: what space does the raised support elbow help close?",
-        "answer": "The route beside the grip for the opponent's shoulder. The high support elbow limits the shoulder space beside the connected grip. Learn the arm path without forcing the neck or shoulder; an early inside frame works before that space closes.",
-        "answer_line": "The shoulder route beside the grip",
+        "question": "High-elbow guillotine attack: which escape route does the raised support arm obstruct?",
+        "answer": "The shoulder route toward your weak side. Kesting and Biernacki describe the raised support elbow as a barrier to the opponent moving to that side. Learn the arm path without forcing the neck or shoulder; an early inside frame works before the space closes.",
+        "answer_line": "Shoulder passage to your weak side",
         "distractors": {
           "plausible": [
-            "The gap between knees on the mat",
-            "Space behind your hips for a hook"
+            "Shoulder return to your strong side",
+            "Knee withdrawal from a leg triangle"
           ],
           "trap": [
-            "The jaw by forcing head extension"
+            "Their hand reaching your far wrist"
           ]
         }
       }
