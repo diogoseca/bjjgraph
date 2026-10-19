@@ -11384,14 +11384,24 @@ lock was released before validation and analysis. All 150 study/MDP JavaScript t
 16 Python MDP tests and eight live desktop/phone study journeys pass. Eager gzip is
 346,412 B (−75 B versus BASE, +3,414 B from the unchanged 342,998 checkpoint, leaving
 1,586 B of its +5,000 cap); deferred raw stays 480,054/500,000 B. All 37 corpus-census
-markers remain current. Standard SEO/build-shape refuse the missing current-content
-receipt; artifact-only SEO contracts pass. Only the Positions summary SEO rows are
-expected to change. The two Learning tag orders must equal BASE in the guarded capture;
-their own-build date differences remain a hypothesis and must never be re-seeded.
+markers remain current. D-319 confirms BASE/PREMERGE 84d21cee6 and CANDIDATE/TOOLS
+2eb09b87d. The guarded pr-node-identities-2eb09b87d capture is production-accepted,
+with 16,003 retained files and 6,212 HTML pages. D-285 cleanup preserves all 6,407
+tracked content stamps; detached checkout changes exactly the 350 Git-changed content
+paths, and no content stamp changes during capture. The lock is released before the
+acceptance audit and re-seed.
 
-Version is the owner-assigned 1.227.6. The two baseline files still inherit dev 84d21cee6
-exactly. D-309 is historical and superseded by subsequent card and dev changes; this
-own build writes no baseline. A new exact-ref-confirmed guarded capture, same-PR re-seed,
-green local and remote CI, and independent review remain required before the draft can
-merge. No full-core run is started here. Previous archive entries and the approved
-913,038-character ceiling are unchanged.
+Every declared census, description, app, MDP, concepts and payload movement matches
+the retained output, with zero undeclared movement. Both Learning tag rows exactly
+equal BASE under p2b stamps; the own-build date/order difference is an artifact and
+is not re-seeded. Only Positions.html and Positions/index.html change sampled SEO
+rows, and their text floors increase from 21,127 to 21,200. The census and SEO
+baselines bind the actual accepted receipt, including its complete output hash.
+No payload allowance, tier-0 floor or corpus literal changes. Source and content
+inputs remain identical to the captured commit.
+
+Version remains the owner-assigned 1.227.6. D-309 is historical and superseded by
+this post-curation, post-card-correction capture. Green local and remote CI and
+independent review remain required before the owner merges. No full-core run is
+started here. Previous archive entries and the approved 913,038-character ceiling
+are unchanged.
