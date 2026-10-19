@@ -885,31 +885,23 @@
     ],
     "clips": [
       {
-        "id": "8mXBDHXrAu4",
-        "title": "Whizzer to Win the Dog Fight",
-        "by": "Wrecking Crew BJJ",
+        "id": "X4jR2wWOy2M",
+        "title": "The Base BJJ Technique of the Week: Half Guard to the Dogfight",
+        "by": "The Base Jiu Jitsu",
         "vertical": false,
-        "channel": "Wrecking Crew BJJ",
-        "duration": 60,
-        "verified": "2026-07-14"
+        "channel": "The Base Jiu Jitsu",
+        "duration": 79,
+        "verified": "2026-10-19",
+        "front": true
       },
       {
         "id": "OAlwVyNmNqE",
-        "title": "Bottom Half Guard to Dogfight Back Take",
+        "title": "The Bottom Half Guard to Dog Fight to Back Take",
         "by": "Broadway JiuJitsu",
         "vertical": false,
         "channel": "Broadway JiuJitsu",
         "duration": 148,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "OghklyfXB-Q",
-        "title": "Coyote Half Guard to Rollover Sweep",
-        "by": "Holy Grail BJJ",
-        "vertical": false,
-        "channel": "Holy Grail BJJ",
-        "duration": 103,
-        "verified": "2026-07-14"
+        "verified": "2026-10-19"
       }
     ]
   },
@@ -1015,31 +1007,34 @@
   ],
   "clips": [
     {
+      "id": "8mXBDHXrAu4",
+      "title": "Whizzer from Half Guard.  How to win \"Dog Fight\"",
+      "by": "Wrecking Crew BJJ",
+      "vertical": false,
+      "channel": "Wrecking Crew BJJ",
+      "duration": 59,
+      "verified": "2026-10-19",
+      "half": "top"
+    },
+    {
       "id": "X4jR2wWOy2M",
-      "title": "Half Guard to the Dogfight",
+      "title": "The Base BJJ Technique of the Week: Half Guard to the Dogfight",
       "by": "The Base Jiu Jitsu",
       "vertical": false,
       "channel": "The Base Jiu Jitsu",
       "duration": 79,
-      "verified": "2026-07-14"
+      "verified": "2026-10-19",
+      "half": "bottom"
     },
     {
       "id": "fjDBmFzfhgI",
-      "title": "Dog Fight Basics: Plan B & Old School Sweep",
+      "title": "DOG FIGHT BASICS (Plan B & Oldschool Sweep)",
       "by": "Brandon Mccaghren",
       "vertical": false,
       "channel": "Brandon Mccaghren",
-      "duration": 145,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "0uz58YFhIv8",
-      "title": "Understanding the Timing of the Dog Fight",
-      "by": "Brandon Mccaghren",
-      "vertical": false,
-      "channel": "Brandon Mccaghren",
-      "duration": 187,
-      "verified": "2026-07-14"
+      "duration": 144,
+      "verified": "2026-10-19",
+      "half": "bottom"
     }
   ]
 }

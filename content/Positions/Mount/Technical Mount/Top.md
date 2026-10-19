@@ -165,24 +165,24 @@ description: "Master Technical Mount Top in BJJ. Complete offensive guide coveri
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Technical mount attack sequence \u0026 back take",
-      "description": "Technical Mount (Top) film study: Technical mount attack sequence \u0026 back take, taught by DS Team Jiu Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/9bH-UvKJBf4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/9bH-UvKJBf4",
-      "url": "https://www.youtube.com/watch?v=9bH-UvKJBf4",
-      "creator": { "@type": "Person", "name": "DS Team Jiu Jitsu" },
-      "duration": "PT175S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Mount to technical mount transition",
-      "description": "Technical Mount (Top) film study: Mount to technical mount transition, taught by Dark Horse BJJ.",
+      "name": "Mount to Tech Mount transition",
+      "description": "Technical Mount (Top) film study: Mount to Tech Mount transition, taught by Dark Horse BJJ.",
       "thumbnailUrl": "https://i.ytimg.com/vi/plD6TW7pFv4/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/plD6TW7pFv4",
       "url": "https://www.youtube.com/watch?v=plD6TW7pFv4",
       "creator": { "@type": "Person", "name": "Dark Horse BJJ" },
       "duration": "PT20S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Position Mount a\u0300 Technical Mount | Coach Danny Fung | Jiu-Jitsu | BJJ",
+      "description": "Technical Mount (Top) film study: Position Mount a\u0300 Technical Mount | Coach Danny Fung | Jiu-Jitsu | BJJ, taught by Danny Fung.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pNp2-2-r2Ec/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/pNp2-2-r2Ec",
+      "url": "https://www.youtube.com/watch?v=pNp2-2-r2Ec",
+      "creator": { "@type": "Person", "name": "Danny Fung" },
+      "duration": "PT174S"
     }
   ]
 }
@@ -212,17 +212,17 @@ This position represents a critical junction in mount offense where the practiti
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=9bH-UvKJBf4)
+![](https://www.youtube.com/watch?v=plD6TW7pFv4)
 
-<p class="clip-credit"><strong>Technical mount attack sequence &amp; back take</strong> — taught by DS Team Jiu Jitsu · 2:55 · <a href="https://www.youtube.com/watch?v=9bH-UvKJBf4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Mount to Tech Mount transition</strong> — taught by Dark Horse BJJ · 0:20 · <a href="https://www.youtube.com/watch?v=plD6TW7pFv4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=plD6TW7pFv4)
+![](https://www.youtube.com/watch?v=pNp2-2-r2Ec)
 
-<p class="clip-credit"><strong>Mount to technical mount transition</strong> — taught by Dark Horse BJJ · 0:20 · <a href="https://www.youtube.com/watch?v=plD6TW7pFv4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Position Mount à Technical Mount | Coach Danny Fung | Jiu-Jitsu | BJJ</strong> — taught by Danny Fung · 2:54 · <a href="https://www.youtube.com/watch?v=pNp2-2-r2Ec" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

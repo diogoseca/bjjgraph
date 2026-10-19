@@ -462,31 +462,14 @@
     ],
     "clips": [
       {
-        "id": "bOYKyTYy7Og",
-        "title": "Shin on Shin Guard Pass",
-        "by": "Dale (Combat Room BJJ)",
-        "vertical": false,
-        "channel": "Combat Room Brazilian Jiu Jitsu",
-        "duration": 60,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "rRCor6OwhCo",
-        "title": "No Gi Shin to Shin Pass Variation",
-        "by": "The Base Jiu Jitsu",
-        "vertical": false,
-        "channel": "The Base Jiu Jitsu",
-        "duration": 136,
-        "verified": "2026-07-14"
-      },
-      {
         "id": "YV26zZARJdA",
-        "title": "Easy Way to Pass Shin to Shin Guard",
+        "title": "1 easy way to Pass Shin to Shin Guard | Passing Shin on Shin Guard",
         "by": "Dynasty Jiu Jitsu",
         "vertical": false,
         "channel": "Dynasty Jiu Jitsu",
-        "duration": 164,
-        "verified": "2026-07-14"
+        "duration": 163,
+        "verified": "2026-10-19",
+        "front": true
       }
     ]
   },
@@ -1085,21 +1068,23 @@
   "clips": [
     {
       "id": "sUJIGs8Othc",
-      "title": "Shin to Shin Guard Overview",
+      "title": "Shin to Shin Guard",
       "by": "RGA South Herts",
-      "vertical": false,
+      "vertical": true,
       "channel": "RGA South Herts",
-      "duration": 76,
-      "verified": "2026-07-14"
+      "duration": 75,
+      "verified": "2026-10-19",
+      "half": "bottom"
     },
     {
-      "id": "a1lWupzNhkg",
-      "title": "De La Riva Shin on Shin to the Back",
-      "by": "Carpio Jiu Jitsu",
+      "id": "YV26zZARJdA",
+      "title": "1 easy way to Pass Shin to Shin Guard | Passing Shin on Shin Guard",
+      "by": "Dynasty Jiu Jitsu",
       "vertical": false,
-      "channel": "Carpio Jiu Jitsu",
-      "duration": 81,
-      "verified": "2026-07-14"
+      "channel": "Dynasty Jiu Jitsu",
+      "duration": 163,
+      "verified": "2026-10-19",
+      "half": "top"
     }
   ]
 }

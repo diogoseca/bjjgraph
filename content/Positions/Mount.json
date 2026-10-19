@@ -462,22 +462,14 @@
     },
     "clips": [
       {
-        "id": "dfP-Ov8FBUo",
-        "title": "Cross Collar Chokes from Mount",
-        "by": "Roger Gracie",
-        "vertical": false,
-        "channel": "Jiu Jitsu Moves",
-        "duration": 80,
-        "verified": "2026-07-14"
-      },
-      {
         "id": "SGZ5wD3z73Q",
-        "title": "Full Mount Top Control Fundamentals",
+        "title": "Full Mount/Top Control",
         "by": "Formidable Combat",
         "vertical": false,
         "channel": "Formidable Combat, Fitness and Living",
         "duration": 106,
-        "verified": "2026-07-14"
+        "verified": "2026-10-19",
+        "front": true
       }
     ]
   },
@@ -754,26 +746,27 @@
         "by": "Revolution BJJ",
         "vertical": false,
         "channel": "Revolution BJJ",
-        "duration": 54,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "9252EvCT0q4",
-        "title": "Simple Mount Escape You Should Try",
-        "by": "Gabriel Gonzaga",
-        "vertical": false,
-        "channel": "Gabriel Gonzaga",
-        "duration": 93,
-        "verified": "2026-07-14"
+        "duration": 53,
+        "verified": "2026-10-19",
+        "front": true
       },
       {
         "id": "pUZcLTWHAzk",
-        "title": "Escape the Mount: Knee and Elbow Escape",
+        "title": "How to Escape the Mount: Knee and Elbow Escape",
         "by": "Jamie",
         "vertical": false,
         "channel": "jamielovesmartialarts",
         "duration": 71,
-        "verified": "2026-07-14"
+        "verified": "2026-10-19"
+      },
+      {
+        "id": "9252EvCT0q4",
+        "title": "Can't Escape the Mount? Try this Escape Next Time!",
+        "by": "Gabriel Gonzaga",
+        "vertical": false,
+        "channel": "Gabriel Gonzaga",
+        "duration": 93,
+        "verified": "2026-10-19"
       }
     ]
   },
@@ -979,31 +972,14 @@
   ],
   "clips": [
     {
-      "id": "dfP-Ov8FBUo",
-      "title": "Roger Gracie Mount Cross Collar Chokes",
-      "by": "Roger Gracie",
-      "vertical": false,
-      "channel": "Jiu Jitsu Moves",
-      "duration": 80,
-      "verified": "2026-07-14"
-    },
-    {
       "id": "5Gxj5VQj8bc",
-      "title": "Mount Control Fundamentals - Roger Gracie Style",
+      "title": "Fix Your BJJ Mount Control - ROGER GRACIE Style",
       "by": "MMA Leech",
       "vertical": false,
       "channel": "MMA Leech",
       "duration": 184,
-      "verified": "2026-07-15"
-    },
-    {
-      "id": "FO5aipaY0cc",
-      "title": "Maintaining the Mount Position",
-      "by": "Demian Maia",
-      "vertical": false,
-      "channel": "WorldMartialArts",
-      "duration": 262,
-      "verified": "2026-07-15"
+      "verified": "2026-10-19",
+      "half": "top"
     }
   ]
 }

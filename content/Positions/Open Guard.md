@@ -46,35 +46,33 @@ description: "Master Open Guard in BJJ. Strategic guide covering distance manage
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Guard retention: when to sit up and escape",
-      "description": "Open Guard film study: Guard retention: when to sit up and escape, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/lVLAROiSjNU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/lVLAROiSjNU",
-      "url": "https://www.youtube.com/watch?v=lVLAROiSjNU",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT136S"
+      "name": "Guard Retention: The Complete Guide",
+      "description": "Open Guard film study: Guard Retention: The Complete Guide.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ToKDHylpgDY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ToKDHylpgDY",
+      "url": "https://www.youtube.com/watch?v=ToKDHylpgDY",
+      "duration": "PT650S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Open guard warm-up fundamentals",
-      "description": "Open Guard film study: Open guard warm-up fundamentals, taught by Jiu Jitsu Vintage.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/aYknDsVN5aM/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/aYknDsVN5aM",
-      "url": "https://www.youtube.com/watch?v=aYknDsVN5aM",
-      "creator": { "@type": "Person", "name": "Jiu Jitsu Vintage" },
-      "duration": "PT107S"
+      "name": "How to Pass The Open Guard: Complete Guide 2022",
+      "description": "Open Guard film study: How to Pass The Open Guard: Complete Guide 2022.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pn59xw1z9nE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/pn59xw1z9nE",
+      "url": "https://www.youtube.com/watch?v=pn59xw1z9nE",
+      "duration": "PT728S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "The Y-guard: an open guard secret weapon",
-      "description": "Open Guard film study: The Y-guard: an open guard secret weapon, taught by Felipe Costa.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/ZzAtxR7p_YE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/ZzAtxR7p_YE",
-      "url": "https://www.youtube.com/watch?v=ZzAtxR7p_YE",
-      "creator": { "@type": "Person", "name": "Felipe Costa" },
-      "duration": "PT61S"
+      "name": "Effortless Jiu Jitsu Explained - Open Guard Warm Up",
+      "description": "Open Guard film study: Effortless Jiu Jitsu Explained - Open Guard Warm Up, taught by Jiu Jitsu Vintage.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aYknDsVN5aM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aYknDsVN5aM",
+      "url": "https://www.youtube.com/watch?v=aYknDsVN5aM",
+      "creator": { "@type": "Person", "name": "Jiu Jitsu Vintage" },
+      "duration": "PT106S"
     }
   ]
 }
@@ -127,9 +125,17 @@ From the top perspective, Open Guard Top represents the fundamental challenge of
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=lVLAROiSjNU)
+![](https://www.youtube.com/watch?v=ToKDHylpgDY)
 
-<p class="clip-credit"><strong>Guard retention: when to sit up and escape</strong> — taught by Lachlan Giles · 2:16 · <a href="https://www.youtube.com/watch?v=lVLAROiSjNU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Guard Retention: The Complete Guide</strong> · 10:50 · <a href="https://www.youtube.com/watch?v=ToKDHylpgDY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=pn59xw1z9nE)
+
+<p class="clip-credit"><strong>How to Pass The Open Guard: Complete Guide 2022</strong> · 12:08 · <a href="https://www.youtube.com/watch?v=pn59xw1z9nE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -137,15 +143,7 @@ From the top perspective, Open Guard Top represents the fundamental challenge of
 
 ![](https://www.youtube.com/watch?v=aYknDsVN5aM)
 
-<p class="clip-credit"><strong>Open guard warm-up fundamentals</strong> — taught by Jiu Jitsu Vintage · 1:47 · <a href="https://www.youtube.com/watch?v=aYknDsVN5aM" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=ZzAtxR7p_YE)
-
-<p class="clip-credit"><strong>The Y-guard: an open guard secret weapon</strong> — taught by Felipe Costa · 1:01 · <a href="https://www.youtube.com/watch?v=ZzAtxR7p_YE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Effortless Jiu Jitsu Explained - Open Guard Warm Up</strong> — taught by Jiu Jitsu Vintage · 1:46 · <a href="https://www.youtube.com/watch?v=aYknDsVN5aM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

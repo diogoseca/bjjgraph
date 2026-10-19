@@ -165,35 +165,13 @@ description: "Master passing Shin-to-Shin Guard from top perspective. Learn clea
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Shin on Shin Guard Pass",
-      "description": "Shin-to-Shin Guard (Top) film study: Shin on Shin Guard Pass, taught by Dale (Combat Room BJJ).",
-      "thumbnailUrl": "https://i.ytimg.com/vi/bOYKyTYy7Og/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/bOYKyTYy7Og",
-      "url": "https://www.youtube.com/watch?v=bOYKyTYy7Og",
-      "creator": { "@type": "Person", "name": "Dale (Combat Room BJJ)" },
-      "duration": "PT60S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "No Gi Shin to Shin Pass Variation",
-      "description": "Shin-to-Shin Guard (Top) film study: No Gi Shin to Shin Pass Variation, taught by The Base Jiu Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/rRCor6OwhCo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/rRCor6OwhCo",
-      "url": "https://www.youtube.com/watch?v=rRCor6OwhCo",
-      "creator": { "@type": "Person", "name": "The Base Jiu Jitsu" },
-      "duration": "PT136S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Easy Way to Pass Shin to Shin Guard",
-      "description": "Shin-to-Shin Guard (Top) film study: Easy Way to Pass Shin to Shin Guard, taught by Dynasty Jiu Jitsu.",
+      "name": "1 easy way to Pass Shin to Shin Guard | Passing Shin on Shin Guard",
+      "description": "Shin-to-Shin Guard (Top) film study: 1 easy way to Pass Shin to Shin Guard | Passing Shin on Shin Guard, taught by Dynasty Jiu Jitsu.",
       "thumbnailUrl": "https://i.ytimg.com/vi/YV26zZARJdA/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/YV26zZARJdA",
       "url": "https://www.youtube.com/watch?v=YV26zZARJdA",
       "creator": { "@type": "Person", "name": "Dynasty Jiu Jitsu" },
-      "duration": "PT164S"
+      "duration": "PT163S"
     }
   ]
 }
@@ -219,25 +197,9 @@ Facing Shin-to-Shin Guard from the top position presents a unique set of challen
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=bOYKyTYy7Og)
-
-<p class="clip-credit"><strong>Shin on Shin Guard Pass</strong> — taught by Dale (Combat Room BJJ) · 1:00 · <a href="https://www.youtube.com/watch?v=bOYKyTYy7Og" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=rRCor6OwhCo)
-
-<p class="clip-credit"><strong>No Gi Shin to Shin Pass Variation</strong> — taught by The Base Jiu Jitsu · 2:16 · <a href="https://www.youtube.com/watch?v=rRCor6OwhCo" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=YV26zZARJdA)
 
-<p class="clip-credit"><strong>Easy Way to Pass Shin to Shin Guard</strong> — taught by Dynasty Jiu Jitsu · 2:44 · <a href="https://www.youtube.com/watch?v=YV26zZARJdA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>1 easy way to Pass Shin to Shin Guard | Passing Shin on Shin Guard</strong> — taught by Dynasty Jiu Jitsu · 2:43 · <a href="https://www.youtube.com/watch?v=YV26zZARJdA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

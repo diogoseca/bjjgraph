@@ -36,39 +36,6 @@ description: "Master Pocket Half Guard in BJJ. Deep underhook half guard positio
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Pocket Half Guard \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Knee shield half guard basics",
-      "description": "Pocket Half Guard film study: Knee shield half guard basics, taught by MMA Leech.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/q_ND-09HiWg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/q_ND-09HiWg",
-      "url": "https://www.youtube.com/watch?v=q_ND-09HiWg",
-      "creator": { "@type": "Person", "name": "MMA Leech" },
-      "duration": "PT264S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Knee shield pocket sweep",
-      "description": "Pocket Half Guard film study: Knee shield pocket sweep, taught by Great Grappling.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/UPMEXkyqHGc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/UPMEXkyqHGc",
-      "url": "https://www.youtube.com/watch?v=UPMEXkyqHGc",
-      "creator": { "@type": "Person", "name": "Great Grappling" },
-      "duration": "PT322S"
-    }
-  ]
-}
-</script>
-
 
 
 <script type="application/ld+json">
@@ -104,32 +71,6 @@ From the top perspective, Pocket Half Guard Top represents a dominant pressure-p
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Pocket Half Guard in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=q_ND-09HiWg)
-
-<p class="clip-credit"><strong>Knee shield half guard basics</strong> — taught by MMA Leech · 4:24 · <a href="https://www.youtube.com/watch?v=q_ND-09HiWg" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=UPMEXkyqHGc)
-
-<p class="clip-credit"><strong>Knee shield pocket sweep</strong> — taught by Great Grappling · 5:22 · <a href="https://www.youtube.com/watch?v=UPMEXkyqHGc" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="key-principles" class="content-section">

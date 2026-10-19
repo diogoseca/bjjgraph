@@ -958,31 +958,22 @@
     ],
     "clips": [
       {
-        "id": "AhsXraebbdg",
-        "title": "One-Leg X guard sweep",
-        "by": "Marcelo Garcia",
+        "id": "k0tmlrPk8B4",
         "vertical": false,
-        "channel": "jen jitsu",
-        "duration": 47,
-        "verified": "2026-07-14"
+        "title": "Single Leg X Guard Basics",
+        "channel": "Aaron Benzrihem bjj",
+        "duration": 310,
+        "verified": "2026-10-19",
+        "front": true
       },
       {
-        "id": "zbYb6sOYC8w",
-        "title": "X-Guard sweep",
-        "by": "Marcelo Garcia",
+        "id": "EcxCadpBePk",
+        "title": "Single leg X Guard Options, X Guard, Reverse X Guard",
+        "by": "Steven Kaloustian",
         "vertical": false,
-        "channel": "CHOKE LABORATORY",
-        "duration": 53,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "y0C8vIeCrc0",
-        "title": "Two Single Leg X entries and sweep",
-        "by": "Marcelo Garcia",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 179,
-        "verified": "2026-07-14"
+        "channel": "Steven Kaloustian",
+        "duration": 96,
+        "verified": "2026-10-19"
       }
     ]
   },
@@ -1102,31 +1093,23 @@
   ],
   "clips": [
     {
-      "id": "y0C8vIeCrc0",
-      "title": "Single Leg X entries and sweep",
-      "by": "Marcelo Garcia",
-      "vertical": false,
-      "channel": "BJJ Fanatics",
-      "duration": 179,
-      "verified": "2026-07-14"
-    },
-    {
       "id": "EcxCadpBePk",
-      "title": "Single Leg X guard options",
+      "title": "Single leg X Guard Options, X Guard, Reverse X Guard",
       "by": "Steven Kaloustian",
       "vertical": false,
       "channel": "Steven Kaloustian",
-      "duration": 97,
-      "verified": "2026-07-14"
+      "duration": 96,
+      "verified": "2026-10-19",
+      "half": "bottom"
     },
     {
-      "id": "AhsXraebbdg",
-      "title": "One-Leg X guard sweep",
-      "by": "Marcelo Garcia",
+      "id": "k0tmlrPk8B4",
       "vertical": false,
-      "channel": "jen jitsu",
-      "duration": 47,
-      "verified": "2026-07-14"
+      "title": "Single Leg X Guard Basics",
+      "channel": "Aaron Benzrihem bjj",
+      "duration": 310,
+      "verified": "2026-10-19",
+      "half": "bottom"
     }
   ]
 }

@@ -472,35 +472,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "sIYeSMSkqeE",
-        "title": "Backside 50/50 Inside Heel Hook Finish",
-        "by": "Craig Jones",
-        "vertical": false,
-        "channel": "Professor Buck",
-        "duration": 18,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "hll_k_6QiI0",
-        "title": "Straight Footlock Finish from Backside 50/50",
-        "by": "Mitch Oley",
-        "vertical": false,
-        "channel": "SoulTaker",
-        "duration": 54,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "LTPdSfUqeFc",
-        "title": "Backside 50/50 from Knee on Belly",
-        "by": "Thunderdome BJJ",
-        "vertical": false,
-        "channel": "Thunderdome BJJ",
-        "duration": 19,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   },
   "bottom": {
     "name": "Backside 50-50 Bottom",
@@ -1056,33 +1028,5 @@
       }
     }
   ],
-  "clips": [
-    {
-      "id": "ucAwPgTLSpQ",
-      "title": "Getting to Backside 50/50",
-      "by": "Lachlan Giles",
-      "vertical": false,
-      "channel": "BJJ Fanatics",
-      "duration": 121,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "DBbSqQf6iCo",
-      "title": "Roll Under to Backside 50/50",
-      "by": "Lachlan Giles",
-      "vertical": false,
-      "channel": "BJJ focus camps",
-      "duration": 110,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "bqyt1bW6odw",
-      "title": "Single Leg X to Backside 50/50",
-      "by": "Flux MMA",
-      "vertical": false,
-      "channel": "Flux MMA",
-      "duration": 116,
-      "verified": "2026-07-14"
-    }
-  ]
+  "clips": []
 }

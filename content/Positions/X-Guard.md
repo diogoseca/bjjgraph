@@ -47,35 +47,13 @@ description: "Master X-Guard in BJJ with comprehensive analysis covering sweeps,
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "X-Guard sweep and pass overview",
-      "description": "X-Guard film study: X-Guard sweep and pass overview, taught by Marcelo Garcia.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/7OnjPU1WjH4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/7OnjPU1WjH4",
-      "url": "https://www.youtube.com/watch?v=7OnjPU1WjH4",
-      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
-      "duration": "PT35S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "X-Guard sweep",
-      "description": "X-Guard film study: X-Guard sweep, taught by Marcelo Garcia.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/zbYb6sOYC8w/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/zbYb6sOYC8w",
-      "url": "https://www.youtube.com/watch?v=zbYb6sOYC8w",
-      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
-      "duration": "PT53S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "No-Gi X-Guard sweep",
-      "description": "X-Guard film study: No-Gi X-Guard sweep, taught by Marcelo Garcia.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/m-ueyJXiShY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/m-ueyJXiShY",
-      "url": "https://www.youtube.com/watch?v=m-ueyJXiShY",
-      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
-      "duration": "PT126S"
+      "name": "Counter x guard with a knee pull thru heel hook to back exposure",
+      "description": "X-Guard film study: Counter x guard with a knee pull thru heel hook to back exposure, taught by ZeGrapplez.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/noPXosvgzA0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/noPXosvgzA0",
+      "url": "https://www.youtube.com/watch?v=noPXosvgzA0",
+      "creator": { "@type": "Person", "name": "ZeGrapplez" },
+      "duration": "PT83S"
     }
   ]
 }
@@ -125,25 +103,9 @@ Few bottom positions reshape a standing exchange as decisively as X-Guard, which
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=7OnjPU1WjH4)
+![](https://www.youtube.com/watch?v=noPXosvgzA0)
 
-<p class="clip-credit"><strong>X-Guard sweep and pass overview</strong> — taught by Marcelo Garcia · 0:35 · <a href="https://www.youtube.com/watch?v=7OnjPU1WjH4" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=zbYb6sOYC8w)
-
-<p class="clip-credit"><strong>X-Guard sweep</strong> — taught by Marcelo Garcia · 0:53 · <a href="https://www.youtube.com/watch?v=zbYb6sOYC8w" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=m-ueyJXiShY)
-
-<p class="clip-credit"><strong>No-Gi X-Guard sweep</strong> — taught by Marcelo Garcia · 2:06 · <a href="https://www.youtube.com/watch?v=m-ueyJXiShY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Counter x guard with a knee pull thru heel hook to back exposure</strong> — taught by ZeGrapplez · 1:23 · <a href="https://www.youtube.com/watch?v=noPXosvgzA0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

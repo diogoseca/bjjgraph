@@ -165,19 +165,8 @@ description: "Dominant back-attack position combining leg entanglement with perp
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "The truck in transition",
-      "description": "Truck (Top) film study: The truck in transition, taught by Eddie Bravo.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/sCBGkcJCQYY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/sCBGkcJCQYY",
-      "url": "https://www.youtube.com/watch?v=sCBGkcJCQYY",
-      "creator": { "@type": "Person", "name": "Eddie Bravo" },
-      "duration": "PT61S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Two entries into the truck",
-      "description": "Truck (Top) film study: Two entries into the truck, taught by Geo Martinez.",
+      "name": "Geo Martinez Teaches Two Entries Into \u0027The Truck\u0027 In Two Minutes",
+      "description": "Truck (Top) film study: Geo Martinez Teaches Two Entries Into \u0027The Truck\u0027 In Two Minutes, taught by Geo Martinez.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Y693ZHlCd2Q/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Y693ZHlCd2Q",
       "url": "https://www.youtube.com/watch?v=Y693ZHlCd2Q",
@@ -212,17 +201,9 @@ Advanced practitioners use the truck as a transitional position, flowing between
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=sCBGkcJCQYY)
-
-<p class="clip-credit"><strong>The truck in transition</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=sCBGkcJCQYY" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=Y693ZHlCd2Q)
 
-<p class="clip-credit"><strong>Two entries into the truck</strong> — taught by Geo Martinez · 1:40 · <a href="https://www.youtube.com/watch?v=Y693ZHlCd2Q" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Geo Martinez Teaches Two Entries Into &#39;The Truck&#39; In Two Minutes</strong> — taught by Geo Martinez · 1:40 · <a href="https://www.youtube.com/watch?v=Y693ZHlCd2Q" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

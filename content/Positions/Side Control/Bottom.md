@@ -167,17 +167,6 @@ description: "Master escaping Side Control Bottom in BJJ. Systematic defensive f
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Bump \u0027n Roll Side Control Escape",
-      "description": "Side Control (Bottom) film study: Bump \u0027n Roll Side Control Escape, taught by PIOT.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Zw_QEoWDvcw/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Zw_QEoWDvcw",
-      "url": "https://www.youtube.com/watch?v=Zw_QEoWDvcw",
-      "creator": { "@type": "Person", "name": "PIOT" },
-      "duration": "PT82S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
       "name": "Turkish Get-Up Side Control Escape",
       "description": "Side Control (Bottom) film study: Turkish Get-Up Side Control Escape, taught by Dirtball BJJ.",
       "thumbnailUrl": "https://i.ytimg.com/vi/mBFVriM0ojQ/hqdefault.jpg",
@@ -188,14 +177,25 @@ description: "Master escaping Side Control Bottom in BJJ. Systematic defensive f
     },
     {
       "@type": "VideoObject",
+      "position": 2,
+      "name": "Sneaky Bump \u2018n Roll Sweep | Escape Side Control",
+      "description": "Side Control (Bottom) film study: Sneaky Bump \u2018n Roll Sweep | Escape Side Control, taught by PIOT.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Zw_QEoWDvcw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Zw_QEoWDvcw",
+      "url": "https://www.youtube.com/watch?v=Zw_QEoWDvcw",
+      "creator": { "@type": "Person", "name": "PIOT" },
+      "duration": "PT82S"
+    },
+    {
+      "@type": "VideoObject",
       "position": 3,
-      "name": "Side Control Underhook Escape",
-      "description": "Side Control (Bottom) film study: Side Control Underhook Escape, taught by Clayton Phillips.",
+      "name": "Side Control Under Hook Escape",
+      "description": "Side Control (Bottom) film study: Side Control Under Hook Escape, taught by Clayton Phillips.",
       "thumbnailUrl": "https://i.ytimg.com/vi/TPkmg7qRcSc/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/TPkmg7qRcSc",
       "url": "https://www.youtube.com/watch?v=TPkmg7qRcSc",
       "creator": { "@type": "Person", "name": "Clayton Phillips" },
-      "duration": "PT128S"
+      "duration": "PT127S"
     }
   ]
 }
@@ -225,14 +225,6 @@ Side Control Bottom is one of the most challenging defensive positions in Brazil
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=Zw_QEoWDvcw)
-
-<p class="clip-credit"><strong>Bump &#39;n Roll Side Control Escape</strong> — taught by PIOT · 1:22 · <a href="https://www.youtube.com/watch?v=Zw_QEoWDvcw" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=mBFVriM0ojQ)
 
 <p class="clip-credit"><strong>Turkish Get-Up Side Control Escape</strong> — taught by Dirtball BJJ · 1:04 · <a href="https://www.youtube.com/watch?v=mBFVriM0ojQ" rel="noopener">Watch on YouTube</a></p>
@@ -241,9 +233,17 @@ Side Control Bottom is one of the most challenging defensive positions in Brazil
 
 <div class="film-clip">
 
+![](https://www.youtube.com/watch?v=Zw_QEoWDvcw)
+
+<p class="clip-credit"><strong>Sneaky Bump ‘n Roll Sweep | Escape Side Control</strong> — taught by PIOT · 1:22 · <a href="https://www.youtube.com/watch?v=Zw_QEoWDvcw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
 ![](https://www.youtube.com/watch?v=TPkmg7qRcSc)
 
-<p class="clip-credit"><strong>Side Control Underhook Escape</strong> — taught by Clayton Phillips · 2:08 · <a href="https://www.youtube.com/watch?v=TPkmg7qRcSc" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Side Control Under Hook Escape</strong> — taught by Clayton Phillips · 2:07 · <a href="https://www.youtube.com/watch?v=TPkmg7qRcSc" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

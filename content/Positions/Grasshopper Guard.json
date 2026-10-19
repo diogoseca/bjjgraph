@@ -856,35 +856,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "515jbygVF0I",
-        "title": "Kneebar from reverse De La Riva",
-        "by": "Whangarei BJJ",
-        "vertical": false,
-        "channel": "Whangarei BJJ",
-        "duration": 50,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "_beJGS2-yIE",
-        "title": "Reverse De La Riva guard",
-        "by": "Lachlan Giles",
-        "vertical": false,
-        "channel": "Learn Faster BJJ - Jiu Jitsu Breakdowns",
-        "duration": 122,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "4W6-SDBRPo4",
-        "title": "Inverted guard to kneebar",
-        "by": "RKBJJ",
-        "vertical": false,
-        "channel": "RKBJJ Class Archive",
-        "duration": 67,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   },
   "flashcards_position": [
     {
@@ -1000,33 +972,5 @@
       }
     }
   ],
-  "clips": [
-    {
-      "id": "_beJGS2-yIE",
-      "title": "Reverse De La Riva guard overview",
-      "by": "Lachlan Giles",
-      "vertical": false,
-      "channel": "Learn Faster BJJ - Jiu Jitsu Breakdowns",
-      "duration": 122,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "ts6plGhJ4gI",
-      "title": "Grasshopper Guard techniques and entries overview",
-      "by": "Danny Fung",
-      "vertical": false,
-      "channel": "Danny Fung",
-      "duration": 689,
-      "verified": "2026-07-16"
-    },
-    {
-      "id": "lY8JZMAm1N4",
-      "title": "Inverted guard retention fundamentals",
-      "by": "Lachlan Giles",
-      "vertical": false,
-      "channel": "Absolute MMA St Kilda - Melbourne",
-      "duration": 369,
-      "verified": "2026-07-16"
-    }
-  ]
+  "clips": []
 }
