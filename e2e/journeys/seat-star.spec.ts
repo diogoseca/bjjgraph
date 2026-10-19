@@ -65,9 +65,16 @@ for (const mobile of [false, true]) {
       await page.evaluate(() => document.body.getBoundingClientRect().top)
       await j.advance(2500) // finish the camera's continuous approach to the settled band
       await page.evaluate(() => (window as any).__neural.newList())
-      const star = page.locator("[data-seat-star]")
+      await expect(page.locator("[data-seat-star]")).toHaveCount(1)
+      // STALE SPEC (sections-claude, 2026-10-19): after the pane closes, the pointer rests
+      // where its close button was, and D-318's centred arrival now draws Cross Collar
+      // Choke from High Mount there, so its hover label carries a second, correct star
+      // (claude-verify/probe.log; dev's framing leaves that point empty). Every claim
+      // below is about the current seat's own star, so name it.
+      const seat = await page.evaluate(() => (window as any).__neural.focusIdx)
+      const sel = `[data-seat-star="${seat}"]`
+      const star = page.locator(sel)
       await expect(star).toHaveCount(1)
-      const sel = "[data-seat-star]"
       const activate = async () => {
         if (mobile) {
           const b = await j.boxOf(sel, "the seat star")
