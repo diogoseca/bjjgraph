@@ -11409,17 +11409,25 @@ BASE, +3,414 B from the unchanged 342,998 checkpoint, leaving 1,586 B of its +5,
 deferred raw stays 480,054/500,000 B. All 37 corpus-census markers remain current.
 No payload allowance, tier-0 floor, schema, quiz gate, law source or app source changes.
 
-The earlier D-319 guarded capture and receipt remain historical evidence for 2eb09b87d,
-superseded as acceptance for this new exporter/card tree. A new exact-ref confirmation,
-guarded capture and receipt-bound re-seed are required before the next push. Own-build
-measurements write no baseline. Artifact-only SEO passes; ordinary SEO/build-shape
-provenance correctly refuses to attest the new content with the old receipt. Only the
-two Positions summary routes are expected to change sampled SEO text against BASE.
-Learning tags/index and tags/beginner must equal BASE under p2b content stamps; their
-own-build date/order differences are excluded from the re-seed, and any capture movement
-is a finding that stops acceptance.
+The D-321 guarded capture pr-node-identities-b6284283d is production-accepted,
+with BASE/PREMERGE 84d21cee6 and CANDIDATE/TOOLS b6284283d. Its complete retained
+output contains 16,003 files and 6,212 HTML pages. D-285 cleanup preserves all 6,407
+tracked content stamps; detached checkout moves only the 26 Git-changed content
+paths since the previous identity capture. No content stamp changes during capture.
+The FIFO lock is released before acceptance analysis and re-seeding.
 
-Version remains the owner-assigned 1.227.6. After the new accepted capture: same-PR
-re-seed, one topic-branch push, full GitHub gate and independent fresh-30 review before
-the owner merges. No local full-core run is started here. Previous archive entries and
-the approved 913,038-character ceiling are unchanged.
+Every declared census, SEO, app, MDP, concepts and payload movement matches, with no
+undeclared change. Relative to the prior accepted D-319 capture, exactly 30 flashcard
+chunks change, totaling +27,342 B; every other neural payload stays byte-identical.
+Both Learning tag rows exactly equal BASE under p2b stamps. Their own-build date/order
+artifact is not re-seeded. Only the two Positions summary routes change sampled SEO
+text against BASE, retaining the approved floor increase from 21,127 to 21,200.
+The new census/SEO re-seed changes receipt metadata only relative to D-319; all existing
+observation rows remain fixed. Both baselines bind b6284283d and the actual accepted
+content/output receipt. No corpus literal, floor, allowance or captured input changes.
+The previous D-319 receipt remains historical evidence for 2eb09b87d.
+
+Version remains the owner-assigned 1.227.6. Local validation, one topic-branch push,
+the full GitHub gate and independent fresh-30 review follow this accepted re-seed;
+only the owner merges. No local full-core run is started here. Previous archive entries
+and the approved 913,038-character ceiling are unchanged.
