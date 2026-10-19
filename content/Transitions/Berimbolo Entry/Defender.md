@@ -156,6 +156,27 @@ description: "How to defend against Berimbolo Entry in BJJ. Recognition cues, de
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Berimbolo Entry (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "De La Riva Guard Pass:  Berimbolo Prevention and Duckunder Pass to Leg Drag\u2026",
+      "description": "Berimbolo Entry (Defender) film study: De La Riva Guard Pass:  Berimbolo Prevention and Duckunder Pass to Leg Drag\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/1W6LzmLl5xk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/1W6LzmLl5xk",
+      "url": "https://www.youtube.com/watch?v=1W6LzmLl5xk",
+      "duration": "PT201S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -168,6 +189,24 @@ Defending the berimbolo entry requires the top player to recognize the attack ea
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Berimbolo Entry (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=1W6LzmLl5xk)
+
+<p class="clip-credit"><strong>De La Riva Guard Pass:  Berimbolo Prevention and Duckunder Pass to Leg Drag…</strong> · 3:21 · <a href="https://www.youtube.com/watch?v=1W6LzmLl5xk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

@@ -176,6 +176,27 @@ description: "Master establishing the seat belt grip from back control in BJJ. S
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Back Control to Seat Belt Control Back (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Jiu Jitsu Quick Fix #1: Seatbelt Grip",
+      "description": "Back Control to Seat Belt Control Back (Attacker) film study: Jiu Jitsu Quick Fix #1: Seatbelt Grip.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MwxnveKrlxU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/MwxnveKrlxU",
+      "url": "https://www.youtube.com/watch?v=MwxnveKrlxU",
+      "duration": "PT61S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -188,6 +209,24 @@ From the attacker's perspective, transitioning from general back control to seat
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Back Control to Seat Belt Control Back (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=MwxnveKrlxU)
+
+<p class="clip-credit"><strong>Jiu Jitsu Quick Fix #1: Seatbelt Grip</strong> · 1:01 · <a href="https://www.youtube.com/watch?v=MwxnveKrlxU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

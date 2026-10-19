@@ -631,22 +631,6 @@
         "description": "Begin positional sparring rounds starting with partner in high mount. Partner attacks Kimura and all mount submissions while you defend and attempt escapes against full resistance. Track which defensive stage you most commonly fail at and drill that specific phase in isolation."
       }
     ],
-    "clips": [
-      {
-        "id": "ZT4QcOFksxs",
-        "title": "Kimura Escape from North South Position",
-        "channel": "Street Jitsu",
-        "duration": 25,
-        "vertical": false,
-        "front": true
-      },
-      {
-        "id": "TuaopPUakM8",
-        "title": "Defending The Kimura",
-        "channel": "Eddie Kone Academy Of Jiu-Jitsu",
-        "duration": 61,
-        "vertical": false
-      }
-    ]
+    "clips": []
   }
 }

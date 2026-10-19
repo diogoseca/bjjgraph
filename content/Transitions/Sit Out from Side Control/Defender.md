@@ -134,6 +134,27 @@ description: "Defend against the sit-out escape from side control in BJJ. Recogn
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Sit Out from Side Control (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Counter to the Sit Out right into the Crucifix position!",
+      "description": "Sit Out from Side Control (Defender) film study: Counter to the Sit Out right into the Crucifix position!.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Xft_S7G_yeo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Xft_S7G_yeo",
+      "url": "https://www.youtube.com/watch?v=Xft_S7G_yeo",
+      "duration": "PT60S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -146,6 +167,24 @@ As the top player in side control, defending against the sit-out requires recogn
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Sit Out from Side Control (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Xft_S7G_yeo)
+
+<p class="clip-credit"><strong>Counter to the Sit Out right into the Crucifix position!</strong> · 1:00 · <a href="https://www.youtube.com/watch?v=Xft_S7G_yeo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

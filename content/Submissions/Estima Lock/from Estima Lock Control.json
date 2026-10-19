@@ -413,22 +413,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "Ao0IatSHEi0",
-        "title": "Estima Lock",
-        "channel": "Sensei Leandro Dos Santos Flores",
-        "duration": 27,
-        "vertical": false
-      },
-      {
-        "id": "_6BC8d5B5Hs",
-        "title": "Estima Lock",
-        "channel": "bjjtaro",
-        "duration": 31,
-        "vertical": false
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "from Estima Lock Defender",

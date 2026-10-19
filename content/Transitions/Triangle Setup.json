@@ -432,7 +432,15 @@
       }
     ],
     "safety_considerations": "Triangle setup is generally safe for both practitioners when executed with proper control. The primary safety concern is neck and spine stress on the training partner — always release pressure immediately if partner taps or shows distress. When drilling, avoid explosive leg throws that could impact the face or whip the neck unexpectedly. The person applying the triangle should focus on control rather than force during practice, building tightness gradually rather than slamming the position closed. Partners should communicate about neck sensitivity and prior injuries before training triangles. The training partner should maintain awareness of their neck position and avoid stacking themselves excessively which can create spinal compression. Both practitioners should understand proper tapping mechanics and tap early during learning phases. Avoid practicing on partners with significant size/weight disadvantages as this increases injury risk.",
-    "clips": []
+    "clips": [
+      {
+        "id": "CEPp45IenVw",
+        "title": "Basic Triangle Choke Set Up From Closed Guard",
+        "channel": "MMA Leech",
+        "duration": 202,
+        "front": true
+      }
+    ]
   },
   "defender": {
     "name": "Triangle Setup Defender",

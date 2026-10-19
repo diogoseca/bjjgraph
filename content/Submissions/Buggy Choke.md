@@ -66,16 +66,6 @@ description: "Master the Buggy Choke in BJJ. Powerful half guard compression cho
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "3 Buggy Choke Concepts by Kade and Tye Ruotolo",
-      "description": "Buggy Choke film study: 3 Buggy Choke Concepts by Kade and Tye Ruotolo.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/0_3YYrWEGoU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/0_3YYrWEGoU",
-      "url": "https://www.youtube.com/watch?v=0_3YYrWEGoU",
-      "duration": "PT201S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 4,
       "name": "BJJ Buggy Choke",
       "description": "Buggy Choke film study: BJJ Buggy Choke.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Jw8PSPrR8-E/hqdefault.jpg",
@@ -155,14 +145,6 @@ For the purple-to-brown belt grappler, the value of the Buggy Choke is less abou
 ![](https://www.youtube.com/watch?v=Rlk8WXQrj4Q)
 
 <p class="clip-credit"><strong>BUGGYCHOKE From the north south position</strong> · 0:48 · <a href="https://www.youtube.com/watch?v=Rlk8WXQrj4Q" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=0_3YYrWEGoU)
-
-<p class="clip-credit"><strong>3 Buggy Choke Concepts by Kade and Tye Ruotolo</strong> · 3:21 · <a href="https://www.youtube.com/watch?v=0_3YYrWEGoU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

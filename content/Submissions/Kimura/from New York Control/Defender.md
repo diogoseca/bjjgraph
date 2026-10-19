@@ -172,16 +172,6 @@ description: "Defend against the Kimura from New York Control position. Recognit
       "embedUrl": "https://www.youtube.com/embed/bUZmy2Gu7jo",
       "url": "https://www.youtube.com/watch?v=bUZmy2Gu7jo",
       "duration": "PT87S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Kimura Escape / Counters and More",
-      "description": "Kimura from New York Control (Defender) film study: Kimura Escape / Counters and More.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/mQc4mxtDGUo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/mQc4mxtDGUo",
-      "url": "https://www.youtube.com/watch?v=mQc4mxtDGUo",
-      "duration": "PT201S"
     }
   ]
 }
@@ -221,14 +211,6 @@ Defending the Kimura from New York Control requires recognizing the transition f
 ![](https://www.youtube.com/watch?v=bUZmy2Gu7jo)
 
 <p class="clip-credit"><strong>10th Planet Jiu Jitsu Secret Kimura Grip Break - 10th Planet Jiu Jitsu - West LA</strong> · 1:27 · <a href="https://www.youtube.com/watch?v=bUZmy2Gu7jo" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=mQc4mxtDGUo)
-
-<p class="clip-credit"><strong>Kimura Escape / Counters and More</strong> · 3:21 · <a href="https://www.youtube.com/watch?v=mQc4mxtDGUo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

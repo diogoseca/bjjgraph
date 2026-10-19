@@ -150,6 +150,27 @@ description: "How to defend against Granby to Closed Guard in BJJ. Recognition c
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Granby to Closed Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Turtle Position in BJJ: Countering the Shoulder Roll",
+      "description": "Granby to Closed Guard (Defender) film study: Turtle Position in BJJ: Countering the Shoulder Roll.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fbBUFqO6Pso/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fbBUFqO6Pso",
+      "url": "https://www.youtube.com/watch?v=fbBUFqO6Pso",
+      "duration": "PT324S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -166,6 +187,24 @@ Advanced defenders develop the ability to use the Granby roll attempt against th
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Granby to Closed Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fbBUFqO6Pso)
+
+<p class="clip-credit"><strong>Turtle Position in BJJ: Countering the Shoulder Roll</strong> · 5:24 · <a href="https://www.youtube.com/watch?v=fbBUFqO6Pso" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

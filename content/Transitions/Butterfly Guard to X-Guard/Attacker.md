@@ -176,6 +176,27 @@ description: "How to execute Butterfly Guard to X-Guard in BJJ. Attacking perspe
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Butterfly Guard to X-Guard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How to enter X-Guard from Butterfly Guard",
+      "description": "Butterfly Guard to X-Guard (Attacker) film study: How to enter X-Guard from Butterfly Guard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/YSkgoJ5JWWg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/YSkgoJ5JWWg",
+      "url": "https://www.youtube.com/watch?v=YSkgoJ5JWWg",
+      "duration": "PT85S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -188,6 +209,24 @@ The Butterfly Guard to X-Guard transition exploits a fundamental defensive dilem
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Butterfly Guard to X-Guard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=YSkgoJ5JWWg)
+
+<p class="clip-credit"><strong>How to enter X-Guard from Butterfly Guard</strong> · 1:25 · <a href="https://www.youtube.com/watch?v=YSkgoJ5JWWg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

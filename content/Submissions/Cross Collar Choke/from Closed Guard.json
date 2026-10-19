@@ -443,12 +443,18 @@
     ],
     "clips": [
       {
+        "id": "OKXBAzR_Y98",
+        "title": "Closed guard bottom - Cross collar choke",
+        "channel": "Gracie Jiu-Jitsu Singapore",
+        "duration": 91,
+        "front": true
+      },
+      {
         "id": "TDBe1SHzHKo",
         "title": "Finishing Cross Collar Choke If You Can't Pull Them In",
         "channel": "Henry Akins' Hidden Jiu-Jitsu",
         "duration": 51,
-        "vertical": false,
-        "front": true
+        "vertical": false
       },
       {
         "id": "X93MdMlmrUg",

@@ -188,26 +188,6 @@ description: "How to execute Buggy Choke in BJJ. Attacking perspective with setu
       "embedUrl": "https://www.youtube.com/embed/ZBOagHWTCFw",
       "url": "https://www.youtube.com/watch?v=ZBOagHWTCFw",
       "duration": "PT33S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "The OG Buggy Choke by Kade and Tye Ruotolo",
-      "description": "Buggy Choke from Half Guard (Attacker) film study: The OG Buggy Choke by Kade and Tye Ruotolo.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/zixbOyLpoOc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/zixbOyLpoOc",
-      "url": "https://www.youtube.com/watch?v=zixbOyLpoOc",
-      "duration": "PT138S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "3 Buggy Choke Concepts by Kade and Tye Ruotolo",
-      "description": "Buggy Choke from Half Guard (Attacker) film study: 3 Buggy Choke Concepts by Kade and Tye Ruotolo.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/0_3YYrWEGoU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/0_3YYrWEGoU",
-      "url": "https://www.youtube.com/watch?v=0_3YYrWEGoU",
-      "duration": "PT201S"
     }
   ]
 }
@@ -239,22 +219,6 @@ The Buggy Choke is a devastating compression choke originating from half guard b
 ![](https://www.youtube.com/watch?v=ZBOagHWTCFw)
 
 <p class="clip-credit"><strong>Buggy choke from half guard: Moncaio Brothers JiuJitsu</strong> · 0:33 · <a href="https://www.youtube.com/watch?v=ZBOagHWTCFw" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=zixbOyLpoOc)
-
-<p class="clip-credit"><strong>The OG Buggy Choke by Kade and Tye Ruotolo</strong> · 2:18 · <a href="https://www.youtube.com/watch?v=zixbOyLpoOc" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=0_3YYrWEGoU)
-
-<p class="clip-credit"><strong>3 Buggy Choke Concepts by Kade and Tye Ruotolo</strong> · 3:21 · <a href="https://www.youtube.com/watch?v=0_3YYrWEGoU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -36,6 +36,27 @@ description: "Learn Half Guard to Kimura Trap in BJJ. Thread the inside arm, loc
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Half Guard to Kimura Trap \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "BJJ | How To Kimura From Bottom Half Guard",
+      "description": "Half Guard to Kimura Trap film study: BJJ | How To Kimura From Bottom Half Guard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5F3ZM01oPVo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5F3ZM01oPVo",
+      "url": "https://www.youtube.com/watch?v=5F3ZM01oPVo",
+      "duration": "PT41S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -74,6 +95,24 @@ Once the grip closes, the position inverts. The Kimura grip controls the opponen
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Half Guard to Kimura Trap in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=5F3ZM01oPVo)
+
+<p class="clip-credit"><strong>BJJ | How To Kimura From Bottom Half Guard</strong> · 0:41 · <a href="https://www.youtube.com/watch?v=5F3ZM01oPVo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="possible-outcomes" class="content-section">

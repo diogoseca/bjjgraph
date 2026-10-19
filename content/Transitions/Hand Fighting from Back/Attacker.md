@@ -182,6 +182,27 @@ description: "How to execute hand fighting defense from back control in BJJ. Com
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Hand Fighting from Back (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Back Control (Defending) Seatbelt Grip",
+      "description": "Hand Fighting from Back (Attacker) film study: Back Control (Defending) Seatbelt Grip.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Wga4PfuShEg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Wga4PfuShEg",
+      "url": "https://www.youtube.com/watch?v=Wga4PfuShEg",
+      "duration": "PT114S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -198,6 +219,24 @@ Advanced hand fighting integrates seamlessly with hip escape timing to create co
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Hand Fighting from Back (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Wga4PfuShEg)
+
+<p class="clip-credit"><strong>Back Control (Defending) Seatbelt Grip</strong> · 1:54 · <a href="https://www.youtube.com/watch?v=Wga4PfuShEg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

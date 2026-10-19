@@ -46,22 +46,12 @@ description: "Master the technical standup from turtle bottom in BJJ. Step-by-st
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Attacking When They Stand Up from Turtle: the 4-Point Position (No Gi\u2026",
-      "description": "Standing up in Base film study: Attacking When They Stand Up from Turtle: the 4-Point Position (No Gi\u2026.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/v37tHX8oKuY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/v37tHX8oKuY",
-      "url": "https://www.youtube.com/watch?v=v37tHX8oKuY",
-      "duration": "PT355S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Dealing With An Opponent Trying to Stand Up From Turtle Position - Matt Inman",
-      "description": "Standing up in Base film study: Dealing With An Opponent Trying to Stand Up From Turtle Position - Matt Inman.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/7QBW031Crmg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/7QBW031Crmg",
-      "url": "https://www.youtube.com/watch?v=7QBW031Crmg",
-      "duration": "PT415S"
+      "name": "Bottom Turtle Position Escape - Stand Up (Cosens Martial Arts)",
+      "description": "Standing up in Base film study: Bottom Turtle Position Escape - Stand Up (Cosens Martial Arts).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/onQvqp-HePo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/onQvqp-HePo",
+      "url": "https://www.youtube.com/watch?v=onQvqp-HePo",
+      "duration": "PT73S"
     }
   ]
 }
@@ -115,17 +105,9 @@ This technique serves as a gateway movement that connects various bottom positio
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=v37tHX8oKuY)
+![](https://www.youtube.com/watch?v=onQvqp-HePo)
 
-<p class="clip-credit"><strong>Attacking When They Stand Up from Turtle: the 4-Point Position (No Gi…</strong> · 5:55 · <a href="https://www.youtube.com/watch?v=v37tHX8oKuY" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=7QBW031Crmg)
-
-<p class="clip-credit"><strong>Dealing With An Opponent Trying to Stand Up From Turtle Position - Matt Inman</strong> · 6:55 · <a href="https://www.youtube.com/watch?v=7QBW031Crmg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Bottom Turtle Position Escape - Stand Up (Cosens Martial Arts)</strong> · 1:13 · <a href="https://www.youtube.com/watch?v=onQvqp-HePo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

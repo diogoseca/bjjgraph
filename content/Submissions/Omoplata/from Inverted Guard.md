@@ -36,27 +36,6 @@ description: "Master the omoplata from inverted guard in BJJ. Complete guide to 
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Omoplata from Inverted Guard \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Omoplata Setup by Mikey Musumeci",
-      "description": "Omoplata from Inverted Guard film study: Omoplata Setup by Mikey Musumeci.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/U87WJbHqdQU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/U87WJbHqdQU",
-      "url": "https://www.youtube.com/watch?v=U87WJbHqdQU",
-      "duration": "PT141S"
-    }
-  ]
-}
-</script>
-
 
 
 <script type="application/ld+json">
@@ -104,24 +83,6 @@ Strategically, this technique adds a submission threat to the inverted guard pos
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Omoplata from Inverted Guard in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=U87WJbHqdQU)
-
-<p class="clip-credit"><strong>Omoplata Setup by Mikey Musumeci</strong> · 2:21 · <a href="https://www.youtube.com/watch?v=U87WJbHqdQU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="outcomes" class="content-section">

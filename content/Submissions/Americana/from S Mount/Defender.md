@@ -162,16 +162,6 @@ description: "Defend against the Americana from S Mount. Recognition cues, escap
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Simple Americana Armlock Escape",
-      "description": "Americana from S Mount (Defender) film study: Simple Americana Armlock Escape.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/NZjUCo8os8Q/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/NZjUCo8os8Q",
-      "url": "https://www.youtube.com/watch?v=NZjUCo8os8Q",
-      "duration": "PT61S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
       "name": "Americana Defense to Armbar Finish",
       "description": "Americana from S Mount (Defender) film study: Americana Defense to Armbar Finish.",
       "thumbnailUrl": "https://i.ytimg.com/vi/x5oNak2YANY/hqdefault.jpg",
@@ -181,7 +171,7 @@ description: "Defend against the Americana from S Mount. Recognition cues, escap
     },
     {
       "@type": "VideoObject",
-      "position": 3,
+      "position": 2,
       "name": "Mounted Americana Defenses - Technique #1 - Prevention and Early Phase Escapes",
       "description": "Americana from S Mount (Defender) film study: Mounted Americana Defenses - Technique #1 - Prevention and Early Phase Escapes.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Ny_l7GHApo0/hqdefault.jpg",
@@ -213,14 +203,6 @@ Defending the Americana from S Mount demands immediate recognition of the figure
 
 <p class="section-subtitle">Watch Americana from S Mount (Defender) in action — curated instructionals</p>
 
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=NZjUCo8os8Q)
-
-<p class="clip-credit"><strong>Simple Americana Armlock Escape</strong> · 1:01 · <a href="https://www.youtube.com/watch?v=NZjUCo8os8Q" rel="noopener">Watch on YouTube</a></p>
-
-</div>
 
 <div class="film-clip">
 

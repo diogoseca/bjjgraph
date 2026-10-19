@@ -182,6 +182,27 @@ description: "How to execute the Elevator Sweep from butterfly guard in BJJ. Att
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Elevator Sweep (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Butterfly Guard Elevation Sweeps | Jiu Jitsu technique",
+      "description": "Elevator Sweep (Attacker) film study: Butterfly Guard Elevation Sweeps | Jiu Jitsu technique.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lcQySA01Azw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lcQySA01Azw",
+      "url": "https://www.youtube.com/watch?v=lcQySA01Azw",
+      "duration": "PT257S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -198,6 +219,24 @@ Strategically, the elevator sweep serves as a cornerstone technique in the butte
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Elevator Sweep (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lcQySA01Azw)
+
+<p class="clip-credit"><strong>Butterfly Guard Elevation Sweeps | Jiu Jitsu technique</strong> · 4:17 · <a href="https://www.youtube.com/watch?v=lcQySA01Azw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

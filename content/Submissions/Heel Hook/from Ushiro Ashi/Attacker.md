@@ -178,27 +178,6 @@ description: "Master the attacking mechanics of the Heel Hook from Ushiro Ashi-G
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Heel Hook from Ushiro Ashi (Attacker) \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Arm Saddle to Inside Heel Hook | Flow Drill",
-      "description": "Heel Hook from Ushiro Ashi (Attacker) film study: Arm Saddle to Inside Heel Hook | Flow Drill.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/QfNKQzy3V_w/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/QfNKQzy3V_w",
-      "url": "https://www.youtube.com/watch?v=QfNKQzy3V_w",
-      "duration": "PT21S"
-    }
-  ]
-}
-</script>
-
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -212,24 +191,6 @@ Executing the heel hook from ushiro ashi-garami demands precise mechanical adjus
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Heel Hook from Ushiro Ashi (Attacker) in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=QfNKQzy3V_w)
-
-<p class="clip-credit"><strong>Arm Saddle to Inside Heel Hook | Flow Drill</strong> · 0:21 · <a href="https://www.youtube.com/watch?v=QfNKQzy3V_w" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="key-principles" class="content-section">

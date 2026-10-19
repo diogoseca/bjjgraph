@@ -46,12 +46,12 @@ description: "Master the arm triangle from Kuzure Kesa Gatame with setup mechani
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Triangle Attacks From Kuzure kesa gatame. (Broken scarfhold)",
-      "description": "Arm Triangle from Kuzure Kesa Gatame film study: Triangle Attacks From Kuzure kesa gatame. (Broken scarfhold).",
-      "thumbnailUrl": "https://i.ytimg.com/vi/tfykooWW-xk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/tfykooWW-xk",
-      "url": "https://www.youtube.com/watch?v=tfykooWW-xk",
-      "duration": "PT66S"
+      "name": "Two variations of arm triangle (kata gatame) escapes",
+      "description": "Arm Triangle from Kuzure Kesa Gatame film study: Two variations of arm triangle (kata gatame) escapes.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CmXniIPFMhU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/CmXniIPFMhU",
+      "url": "https://www.youtube.com/watch?v=CmXniIPFMhU",
+      "duration": "PT89S"
     }
   ]
 }
@@ -114,9 +114,9 @@ The finish demands patience and precise body mechanics rather than raw squeezing
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=tfykooWW-xk)
+![](https://www.youtube.com/watch?v=CmXniIPFMhU)
 
-<p class="clip-credit"><strong>Triangle Attacks From Kuzure kesa gatame. (Broken scarfhold)</strong> · 1:06 · <a href="https://www.youtube.com/watch?v=tfykooWW-xk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Two variations of arm triangle (kata gatame) escapes</strong> · 1:29 · <a href="https://www.youtube.com/watch?v=CmXniIPFMhU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

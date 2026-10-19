@@ -574,7 +574,16 @@
         "description": "Full live rolling with specific attention to turtle top scenarios. Bottom player uses all Granby variants (standard, reverse, double, standing) and chains them with other escapes. Top player must recognize and defend each variant appropriately while maintaining offensive initiative. Review performance after each session and identify which variants create the most difficulty for targeted drilling."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "fbBUFqO6Pso",
+        "title": "Turtle Position in BJJ: Countering the Shoulder Roll",
+        "channel": "Brian Glick",
+        "duration": 324,
+        "vertical": false,
+        "front": true
+      }
+    ]
   },
   "variants_and_adaptations": [
     {

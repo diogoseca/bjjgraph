@@ -495,14 +495,6 @@
     ],
     "clips": [
       {
-        "id": "6f9m9YmrzSQ",
-        "title": "Americana from full mount",
-        "channel": "Jo Chavez",
-        "duration": 89,
-        "vertical": false,
-        "front": true
-      },
-      {
         "id": "N-bZMbI2jSo",
         "title": "🛡️ Americana from Mount Explained | BJJ Submission Guide",
         "channel": "Gabriel Gonzaga",
@@ -710,13 +702,6 @@
         "duration": 199,
         "vertical": false,
         "front": true
-      },
-      {
-        "id": "NZjUCo8os8Q",
-        "title": "Simple Americana Armlock Escape",
-        "channel": "Eddie Kone Academy Of Jiu-Jitsu",
-        "duration": 61,
-        "vertical": false
       }
     ]
   },

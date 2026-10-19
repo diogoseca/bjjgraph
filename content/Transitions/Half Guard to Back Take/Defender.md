@@ -150,6 +150,27 @@ description: "How to defend against Half Guard to Back Take in BJJ. Recognition 
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Half Guard to Back Take (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Top Deep Half Guard Counter to Back Take",
+      "description": "Half Guard to Back Take (Defender) film study: Top Deep Half Guard Counter to Back Take.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hHbb7ywVTwU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hHbb7ywVTwU",
+      "url": "https://www.youtube.com/watch?v=hHbb7ywVTwU",
+      "duration": "PT63S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -162,6 +183,24 @@ Defending the half guard to back take requires the top player to recognize early
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Half Guard to Back Take (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=hHbb7ywVTwU)
+
+<p class="clip-credit"><strong>Top Deep Half Guard Counter to Back Take</strong> · 1:03 · <a href="https://www.youtube.com/watch?v=hHbb7ywVTwU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

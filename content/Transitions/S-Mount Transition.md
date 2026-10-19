@@ -36,6 +36,27 @@ description: "Master S-Mount Transition in BJJ. Step-by-step execution from Modi
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "S-Mount Transition \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Goathook escape from mount: dealing with the switch to S-mount",
+      "description": "S-Mount Transition film study: Goathook escape from mount: dealing with the switch to S-mount.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WKqvJLpq7nc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/WKqvJLpq7nc",
+      "url": "https://www.youtube.com/watch?v=WKqvJLpq7nc",
+      "duration": "PT72S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -72,6 +93,24 @@ Strategic timing involves transitioning to S-Mount when the opponent's near-side
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch S-Mount Transition in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=WKqvJLpq7nc)
+
+<p class="clip-credit"><strong>Goathook escape from mount: dealing with the switch to S-mount</strong> · 1:12 · <a href="https://www.youtube.com/watch?v=WKqvJLpq7nc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="possible-outcomes" class="content-section">

@@ -53,16 +53,6 @@ description: "Master Kosoto Gari (Minor Outer Reap) in BJJ. Step-by-step executi
       "embedUrl": "https://www.youtube.com/embed/9nFKizOUCdI",
       "url": "https://www.youtube.com/watch?v=9nFKizOUCdI",
       "duration": "PT20S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Kosoto gari",
-      "description": "Kosoto Gari film study: Kosoto gari.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/H5lOkLcs1tM/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/H5lOkLcs1tM",
-      "url": "https://www.youtube.com/watch?v=H5lOkLcs1tM",
-      "duration": "PT39S"
     }
   ]
 }
@@ -118,14 +108,6 @@ As modern BJJ competition increasingly begins on the feet, Kosoto Gari has earne
 ![](https://www.youtube.com/watch?v=9nFKizOUCdI)
 
 <p class="clip-credit"><strong>Minor Outer Reap (Kosoto Gari): An Easy and Effective Takedown for Judo and…</strong> · 0:20 · <a href="https://www.youtube.com/watch?v=9nFKizOUCdI" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=H5lOkLcs1tM)
-
-<p class="clip-credit"><strong>Kosoto gari</strong> · 0:39 · <a href="https://www.youtube.com/watch?v=H5lOkLcs1tM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

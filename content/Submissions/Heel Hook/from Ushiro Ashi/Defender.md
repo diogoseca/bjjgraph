@@ -184,16 +184,6 @@ description: "Defend the Heel Hook from Ushiro Ashi-Garami. Recognition cues, es
       "embedUrl": "https://www.youtube.com/embed/clVAHxgRadE",
       "url": "https://www.youtube.com/watch?v=clVAHxgRadE",
       "duration": "PT104S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "The Heel Hook Escape That\u0027ll Make Your Opponent Burn His Rashguard",
-      "description": "Heel Hook from Ushiro Ashi (Defender) film study: The Heel Hook Escape That\u0027ll Make Your Opponent Burn His Rashguard.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/EP49pafOr_I/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/EP49pafOr_I",
-      "url": "https://www.youtube.com/watch?v=EP49pafOr_I",
-      "duration": "PT172S"
     }
   ]
 }
@@ -233,14 +223,6 @@ Defending the heel hook from ushiro ashi-garami requires immediate recognition o
 ![](https://www.youtube.com/watch?v=clVAHxgRadE)
 
 <p class="clip-credit"><strong>Outside heel hook defense to Inside Heel Hook</strong> · 1:44 · <a href="https://www.youtube.com/watch?v=clVAHxgRadE" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=EP49pafOr_I)
-
-<p class="clip-credit"><strong>The Heel Hook Escape That&#39;ll Make Your Opponent Burn His Rashguard</strong> · 2:52 · <a href="https://www.youtube.com/watch?v=EP49pafOr_I" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

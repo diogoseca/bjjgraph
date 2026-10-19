@@ -150,6 +150,27 @@ description: "How to defend against Single Leg X Sweep in BJJ. Recognition cues,
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Single Leg X Sweep (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "No-gi BJJ Technique: Single leg X guard sweep defense",
+      "description": "Single Leg X Sweep (Defender) film study: No-gi BJJ Technique: Single leg X guard sweep defense.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gwEmeb9RSk4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/gwEmeb9RSk4",
+      "url": "https://www.youtube.com/watch?v=gwEmeb9RSk4",
+      "duration": "PT227S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -164,6 +185,24 @@ The defender's strategic framework centers on base management, hook neutralizati
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Single Leg X Sweep (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=gwEmeb9RSk4)
+
+<p class="clip-credit"><strong>No-gi BJJ Technique: Single leg X guard sweep defense</strong> · 3:47 · <a href="https://www.youtube.com/watch?v=gwEmeb9RSk4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

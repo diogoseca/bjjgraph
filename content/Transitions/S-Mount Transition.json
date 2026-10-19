@@ -591,7 +591,16 @@
         "description": "Positional sparring starting from Modified Mount with the top player actively seeking S-Mount Transition. Bottom player practices full defensive sequences under live resistance. Track which defensive responses succeed most often and refine timing. Test defenses against partners of varying size and skill levels."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "WKqvJLpq7nc",
+        "title": "Goathook escape from mount: dealing with the switch to S-mount",
+        "channel": "Revolution BJJ",
+        "duration": 72,
+        "vertical": false,
+        "front": true
+      }
+    ]
   },
   "variants_and_adaptations": [
     {

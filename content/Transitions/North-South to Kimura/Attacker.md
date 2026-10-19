@@ -170,6 +170,27 @@ description: "How to execute North-South to Kimura in BJJ. Attacking perspective
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "North-South to Kimura (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How to do the Kimura from the North South Position in 116 Seconds",
+      "description": "North-South to Kimura (Attacker) film study: How to do the Kimura from the North South Position in 116 Seconds.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/VGJ88g6aqxA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/VGJ88g6aqxA",
+      "url": "https://www.youtube.com/watch?v=VGJ88g6aqxA",
+      "duration": "PT115S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -182,6 +203,24 @@ The North-South to Kimura transition is executed from one of BJJ's most dominant
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch North-South to Kimura (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=VGJ88g6aqxA)
+
+<p class="clip-credit"><strong>How to do the Kimura from the North South Position in 116 Seconds</strong> · 1:55 · <a href="https://www.youtube.com/watch?v=VGJ88g6aqxA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

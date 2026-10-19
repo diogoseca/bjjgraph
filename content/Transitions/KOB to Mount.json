@@ -361,7 +361,16 @@
       }
     ],
     "safety_considerations": "This transition involves significant pressure on the bottom player's torso and diaphragm during the movement. In training, the top player should control the speed of the step-over to avoid accidentally driving a knee into the partner's face, ribs, or groin during the swing. The bottom player should communicate immediately if breathing becomes severely compromised during sustained KOB pressure before the transition. Be aware of the swinging leg's trajectory and ensure it clears the training partner's head safely.",
-    "clips": []
+    "clips": [
+      {
+        "id": "HNo-y8SJlgY",
+        "title": "knee on belly to mount",
+        "channel": "Tom Dinklage",
+        "duration": 132,
+        "vertical": false,
+        "front": true
+      }
+    ]
   },
   "defender": {
     "name": "KOB to Mount Defender",

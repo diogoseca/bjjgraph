@@ -380,7 +380,15 @@
       }
     ],
     "safety_considerations": "The body lock pass is generally safe for both practitioners when executed with awareness. The passer should apply chest pressure gradually rather than explosively to avoid causing rib injuries or breathing difficulties in their partner. When flattening the opponent, avoid driving your head into their jaw with excessive force, as this can cause TMJ issues or cervical strain. For the bottom player, tap early if you experience any breathing difficulty, rib pain, or neck discomfort from the crossface pressure. When training partners have significant size differences, the larger practitioner must modulate pressure appropriately. During drilling, communicate clearly about pressure levels and establish tap protocols before beginning.",
-    "clips": []
+    "clips": [
+      {
+        "id": "Vg-SrkZdhGU",
+        "title": "Half guard body lock smash pass",
+        "channel": "Joshua Hinger",
+        "duration": 184,
+        "front": true
+      }
+    ]
   },
   "defender": {
     "name": "Body Lock Pass Defender",

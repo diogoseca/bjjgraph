@@ -46,22 +46,12 @@ description: "Master the Americana from 3-4 Mount in BJJ. Step-by-step shoulder 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Renzo Gracie: Americana from the mount | Renzo Gracie Online Academy",
-      "description": "Americana from 3-4 Mount film study: Renzo Gracie: Americana from the mount | Renzo Gracie Online Academy.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/KbOkHMVhnT8/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/KbOkHMVhnT8",
-      "url": "https://www.youtube.com/watch?v=KbOkHMVhnT8",
-      "duration": "PT91S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Learn A Hidden Detail To Finish The Americana by Henry Akins (Rickson Gracie\u2026",
-      "description": "Americana from 3-4 Mount film study: Learn A Hidden Detail To Finish The Americana by Henry Akins (Rickson Gracie\u2026.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/mhpeVqdfZgQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/mhpeVqdfZgQ",
-      "url": "https://www.youtube.com/watch?v=mhpeVqdfZgQ",
-      "duration": "PT696S"
+      "name": "Kipping Escape: Defend the Americana into the Heelhook (No Gi BJJ/Jiu-Jitsu)",
+      "description": "Americana from 3-4 Mount film study: Kipping Escape: Defend the Americana into the Heelhook (No Gi BJJ/Jiu-Jitsu).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Ht5OdSQG3BY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Ht5OdSQG3BY",
+      "url": "https://www.youtube.com/watch?v=Ht5OdSQG3BY",
+      "duration": "PT330S"
     }
   ]
 }
@@ -124,17 +114,9 @@ Strategically, the Americana from 3-4 Mount functions as the centerpiece of a su
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=KbOkHMVhnT8)
+![](https://www.youtube.com/watch?v=Ht5OdSQG3BY)
 
-<p class="clip-credit"><strong>Renzo Gracie: Americana from the mount | Renzo Gracie Online Academy</strong> · 1:31 · <a href="https://www.youtube.com/watch?v=KbOkHMVhnT8" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=mhpeVqdfZgQ)
-
-<p class="clip-credit"><strong>Learn A Hidden Detail To Finish The Americana by Henry Akins (Rickson Gracie…</strong> · 11:36 · <a href="https://www.youtube.com/watch?v=mhpeVqdfZgQ" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Kipping Escape: Defend the Americana into the Heelhook (No Gi BJJ/Jiu-Jitsu)</strong> · 5:30 · <a href="https://www.youtube.com/watch?v=Ht5OdSQG3BY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

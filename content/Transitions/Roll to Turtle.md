@@ -36,6 +36,27 @@ description: "Learn Roll to Turtle escape in BJJ. Defensive technique from Side 
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Roll to Turtle \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Transitioning from side control to the back when opponent turtles",
+      "description": "Roll to Turtle film study: Transitioning from side control to the back when opponent turtles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/O3VaYxTRXrs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/O3VaYxTRXrs",
+      "url": "https://www.youtube.com/watch?v=O3VaYxTRXrs",
+      "duration": "PT55S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -74,6 +95,24 @@ Timing is critical for this technique - the roll must be explosive enough to cre
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Roll to Turtle in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=O3VaYxTRXrs)
+
+<p class="clip-credit"><strong>Transitioning from side control to the back when opponent turtles</strong> · 0:55 · <a href="https://www.youtube.com/watch?v=O3VaYxTRXrs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="possible-outcomes" class="content-section">

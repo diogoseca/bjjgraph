@@ -46,22 +46,12 @@ description: "Master North-South to Kimura transition in BJJ. Step-by-step arm i
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Kimura Escape from North South Position",
-      "description": "North-South to Kimura film study: Kimura Escape from North South Position.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/ZT4QcOFksxs/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/ZT4QcOFksxs",
-      "url": "https://www.youtube.com/watch?v=ZT4QcOFksxs",
-      "duration": "PT25S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "North-South Kimura Defense",
-      "description": "North-South to Kimura film study: North-South Kimura Defense.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/n-qXtiqiCho/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/n-qXtiqiCho",
-      "url": "https://www.youtube.com/watch?v=n-qXtiqiCho",
-      "duration": "PT180S"
+      "name": "How to do the Kimura from the North South Position in 116 Seconds",
+      "description": "North-South to Kimura film study: How to do the Kimura from the North South Position in 116 Seconds.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/VGJ88g6aqxA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/VGJ88g6aqxA",
+      "url": "https://www.youtube.com/watch?v=VGJ88g6aqxA",
+      "duration": "PT115S"
     }
   ]
 }
@@ -115,17 +105,9 @@ Once the Kimura Trap is established from North-South, the position offers branch
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=ZT4QcOFksxs)
+![](https://www.youtube.com/watch?v=VGJ88g6aqxA)
 
-<p class="clip-credit"><strong>Kimura Escape from North South Position</strong> · 0:25 · <a href="https://www.youtube.com/watch?v=ZT4QcOFksxs" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=n-qXtiqiCho)
-
-<p class="clip-credit"><strong>North-South Kimura Defense</strong> · 3:00 · <a href="https://www.youtube.com/watch?v=n-qXtiqiCho" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How to do the Kimura from the North South Position in 116 Seconds</strong> · 1:55 · <a href="https://www.youtube.com/watch?v=VGJ88g6aqxA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

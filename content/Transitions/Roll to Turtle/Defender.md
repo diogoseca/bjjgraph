@@ -150,6 +150,27 @@ description: "How to defend against Roll to Turtle in BJJ. Recognition cues, cou
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Roll to Turtle (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Transitioning from side control to the back when opponent turtles",
+      "description": "Roll to Turtle (Defender) film study: Transitioning from side control to the back when opponent turtles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/O3VaYxTRXrs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/O3VaYxTRXrs",
+      "url": "https://www.youtube.com/watch?v=O3VaYxTRXrs",
+      "duration": "PT55S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -164,6 +185,24 @@ The critical defensive window occurs between the moment your opponent initiates 
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Roll to Turtle (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=O3VaYxTRXrs)
+
+<p class="clip-credit"><strong>Transitioning from side control to the back when opponent turtles</strong> · 0:55 · <a href="https://www.youtube.com/watch?v=O3VaYxTRXrs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

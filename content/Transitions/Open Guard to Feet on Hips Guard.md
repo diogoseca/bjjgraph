@@ -46,12 +46,12 @@ description: "Master the transition to feet on hips guard in BJJ. Learn setup me
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Passing the guard when feet on the hips.",
-      "description": "Open Guard to Feet on Hips Guard film study: Passing the guard when feet on the hips..",
-      "thumbnailUrl": "https://i.ytimg.com/vi/fqC0g2NEbq0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/fqC0g2NEbq0",
-      "url": "https://www.youtube.com/watch?v=fqC0g2NEbq0",
-      "duration": "PT52S"
+      "name": "[Volume 1] AMAZING Open Guard (Feet On The Hips) Series **2 Key Steps** |\u2026",
+      "description": "Open Guard to Feet on Hips Guard film study: [Volume 1] AMAZING Open Guard (Feet On The Hips) Series **2 Key Steps** |\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/yrU-DdcJBgY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/yrU-DdcJBgY",
+      "url": "https://www.youtube.com/watch?v=yrU-DdcJBgY",
+      "duration": "PT377S"
     }
   ]
 }
@@ -105,9 +105,9 @@ The position's value in modern competition cannot be overstated. Elite guard pla
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=fqC0g2NEbq0)
+![](https://www.youtube.com/watch?v=yrU-DdcJBgY)
 
-<p class="clip-credit"><strong>Passing the guard when feet on the hips.</strong> · 0:52 · <a href="https://www.youtube.com/watch?v=fqC0g2NEbq0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>[Volume 1] AMAZING Open Guard (Feet On The Hips) Series **2 Key Steps** |…</strong> · 6:17 · <a href="https://www.youtube.com/watch?v=yrU-DdcJBgY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

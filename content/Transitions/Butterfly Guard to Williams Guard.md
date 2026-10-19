@@ -37,27 +37,6 @@ description: "Enter Williams Guard from Butterfly Guard in no-gi BJJ. Trap the o
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Butterfly Guard to Williams Guard \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "BJJ butterfly guard in to Williams guard with choke option",
-      "description": "Butterfly Guard to Williams Guard film study: BJJ butterfly guard in to Williams guard with choke option.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/1XwXQYzWpcw/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/1XwXQYzWpcw",
-      "url": "https://www.youtube.com/watch?v=1XwXQYzWpcw",
-      "duration": "PT175S"
-    }
-  ]
-}
-</script>
-
 
 
 <script type="application/ld+json">
@@ -99,24 +78,6 @@ Because Williams Guard relies on a shoulder lock rather than collar-and-sleeve g
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Butterfly Guard to Williams Guard in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=1XwXQYzWpcw)
-
-<p class="clip-credit"><strong>BJJ butterfly guard in to Williams guard with choke option</strong> · 2:55 · <a href="https://www.youtube.com/watch?v=1XwXQYzWpcw" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="possible-outcomes" class="content-section">

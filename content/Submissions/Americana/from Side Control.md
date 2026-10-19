@@ -46,6 +46,16 @@ description: "Master the Americana from Side Control in BJJ. Complete guide to s
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "Side control attacks - Americana",
+      "description": "Americana from Side Control film study: Side control attacks - Americana.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/T7d6kN7GDA8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/T7d6kN7GDA8",
+      "url": "https://www.youtube.com/watch?v=T7d6kN7GDA8",
+      "duration": "PT127S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
       "name": "Finishing the Americana",
       "description": "Americana from Side Control film study: Finishing the Americana.",
       "thumbnailUrl": "https://i.ytimg.com/vi/mk4jR6Anm8g/hqdefault.jpg",
@@ -111,6 +121,14 @@ The Americana from Side Control exemplifies the principle of positional dominanc
 
 <p class="section-subtitle">Watch Americana from Side Control in action — curated instructionals</p>
 
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=T7d6kN7GDA8)
+
+<p class="clip-credit"><strong>Side control attacks - Americana</strong> · 2:07 · <a href="https://www.youtube.com/watch?v=T7d6kN7GDA8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
 
 <div class="film-clip">
 

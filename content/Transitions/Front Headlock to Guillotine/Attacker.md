@@ -180,16 +180,6 @@ description: "How to execute Front Headlock to Guillotine in BJJ. Attacking pers
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Snapdown to Guillotine",
-      "description": "Front Headlock to Guillotine (Attacker) film study: Snapdown to Guillotine.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/V8mEHRoiX1U/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/V8mEHRoiX1U",
-      "url": "https://www.youtube.com/watch?v=V8mEHRoiX1U",
-      "duration": "PT68S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
       "name": "Guillotine From Front Headlock - Technique Of The Month #7",
       "description": "Front Headlock to Guillotine (Attacker) film study: Guillotine From Front Headlock - Technique Of The Month #7.",
       "thumbnailUrl": "https://i.ytimg.com/vi/GgXRLKAm9pY/hqdefault.jpg",
@@ -224,14 +214,6 @@ The Front Headlock to Guillotine is a cornerstone technique in no-gi grappling a
 
 <p class="section-subtitle">Watch Front Headlock to Guillotine (Attacker) in action — curated instructionals</p>
 
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=V8mEHRoiX1U)
-
-<p class="clip-credit"><strong>Snapdown to Guillotine</strong> · 1:08 · <a href="https://www.youtube.com/watch?v=V8mEHRoiX1U" rel="noopener">Watch on YouTube</a></p>
-
-</div>
 
 <div class="film-clip">
 

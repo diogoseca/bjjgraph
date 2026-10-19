@@ -156,6 +156,27 @@ description: "How to defend against Turtle to Back Control in BJJ. Recognition c
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Turtle to Back Control (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "BJJ Turtle guard defence system",
+      "description": "Turtle to Back Control (Defender) film study: BJJ Turtle guard defence system.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/BeSKTMaimhE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/BeSKTMaimhE",
+      "url": "https://www.youtube.com/watch?v=BeSKTMaimhE",
+      "duration": "PT2893S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -170,6 +191,24 @@ The critical defensive window occurs before the attacker secures their first hoo
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Turtle to Back Control (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=BeSKTMaimhE)
+
+<p class="clip-credit"><strong>BJJ Turtle guard defence system</strong> · 48:13 · <a href="https://www.youtube.com/watch?v=BeSKTMaimhE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

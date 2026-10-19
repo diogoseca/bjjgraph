@@ -150,6 +150,27 @@ description: "How to defend against Pressure Pass in BJJ. Recognition cues, defe
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Pressure Pass (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Defending Half Guard Pass ( DONT get STUCK on Bottom )",
+      "description": "Pressure Pass (Defender) film study: Defending Half Guard Pass ( DONT get STUCK on Bottom ).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_XovOvE_Bwg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_XovOvE_Bwg",
+      "url": "https://www.youtube.com/watch?v=_XovOvE_Bwg",
+      "duration": "PT433S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -162,6 +183,24 @@ Defending against the Pressure Pass requires early recognition and proactive fra
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Pressure Pass (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_XovOvE_Bwg)
+
+<p class="clip-credit"><strong>Defending Half Guard Pass ( DONT get STUCK on Bottom )</strong> · 7:13 · <a href="https://www.youtube.com/watch?v=_XovOvE_Bwg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

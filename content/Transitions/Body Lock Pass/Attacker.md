@@ -176,6 +176,27 @@ description: "How to execute Body Lock Pass in BJJ. Attacking perspective with s
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Body Lock Pass (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Half guard body lock smash pass",
+      "description": "Body Lock Pass (Attacker) film study: Half guard body lock smash pass.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Vg-SrkZdhGU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Vg-SrkZdhGU",
+      "url": "https://www.youtube.com/watch?v=Vg-SrkZdhGU",
+      "duration": "PT184S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -190,6 +211,24 @@ The technique's effectiveness stems from removing the bottom player's primary de
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Body Lock Pass (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Vg-SrkZdhGU)
+
+<p class="clip-credit"><strong>Half guard body lock smash pass</strong> · 3:04 · <a href="https://www.youtube.com/watch?v=Vg-SrkZdhGU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

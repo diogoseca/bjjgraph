@@ -406,23 +406,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "NzkSekbRmZ4",
-        "title": "Master the Standing Grapevine to Kneebar | Billy Robinson’s Catch Wrestling…",
-        "channel": "Scientific Wrestling",
-        "duration": 63,
-        "vertical": false,
-        "front": true
-      },
-      {
-        "id": "v4lhLkKgVvU",
-        "title": "Go Behind Kneebar by Craig Jones",
-        "channel": "BJJ Fanatics",
-        "duration": 129,
-        "vertical": false
-      }
-    ]
+    "clips": []
   },
   "defender": {
     "name": "from Kneebar Control Defender",

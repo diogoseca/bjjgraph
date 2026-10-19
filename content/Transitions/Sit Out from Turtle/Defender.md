@@ -142,6 +142,27 @@ description: "How to defend and counter the sit out from turtle in BJJ. Recognit
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Sit Out from Turtle (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Countering the Sit Out",
+      "description": "Sit Out from Turtle (Defender) film study: Countering the Sit Out.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/S0pmTHUZJE8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/S0pmTHUZJE8",
+      "url": "https://www.youtube.com/watch?v=S0pmTHUZJE8",
+      "duration": "PT177S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -154,6 +175,24 @@ Defending the sit out from turtle top requires early recognition and immediate i
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Sit Out from Turtle (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=S0pmTHUZJE8)
+
+<p class="clip-credit"><strong>Countering the Sit Out</strong> · 2:57 · <a href="https://www.youtube.com/watch?v=S0pmTHUZJE8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

@@ -182,6 +182,27 @@ description: "Learn the Open Guard to De La Riva transition as the bottom player
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Open Guard to De La Riva (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Complete De La Riva System in 7 Min",
+      "description": "Open Guard to De La Riva (Attacker) film study: Complete De La Riva System in 7 Min.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Ct5yCkAxuis/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Ct5yCkAxuis",
+      "url": "https://www.youtube.com/watch?v=Ct5yCkAxuis",
+      "duration": "PT408S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -194,6 +215,24 @@ As the bottom player transitioning from open guard to De La Riva, your objective
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Open Guard to De La Riva (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Ct5yCkAxuis)
+
+<p class="clip-credit"><strong>Complete De La Riva System in 7 Min</strong> · 6:48 · <a href="https://www.youtube.com/watch?v=Ct5yCkAxuis" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

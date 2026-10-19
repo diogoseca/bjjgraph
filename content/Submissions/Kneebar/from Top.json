@@ -689,12 +689,18 @@
     ],
     "clips": [
       {
+        "id": "SG-B04vtGwo",
+        "title": "Daily BJJ: Kneebar Escape",
+        "channel": "Carnage BJJ",
+        "duration": 120,
+        "front": true
+      },
+      {
         "id": "NHyBpBC4apY",
         "title": "Knee Bar Defense",
         "channel": "Clark Gracie Allegiance Jiu Jitsu",
         "duration": 138,
-        "vertical": false,
-        "front": true
+        "vertical": false
       },
       {
         "id": "NuWBh3LN-SY",

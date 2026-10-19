@@ -156,22 +156,22 @@ description: "Defend the Breadcutter Choke from Side Control. Recognition cues, 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Paper Cutter Choke + Counter Attack",
-      "description": "Breadcutter Choke from Side Control (Defender) film study: Paper Cutter Choke + Counter Attack.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/gwqRwPsnNnQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/gwqRwPsnNnQ",
-      "url": "https://www.youtube.com/watch?v=gwqRwPsnNnQ",
-      "duration": "PT194S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
       "name": "3 Bread Cutter Escapes",
       "description": "Breadcutter Choke from Side Control (Defender) film study: 3 Bread Cutter Escapes.",
       "thumbnailUrl": "https://i.ytimg.com/vi/u3QCYxp87uk/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/u3QCYxp87uk",
       "url": "https://www.youtube.com/watch?v=u3QCYxp87uk",
       "duration": "PT225S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Paper Cutter Choke + Counter Attack",
+      "description": "Breadcutter Choke from Side Control (Defender) film study: Paper Cutter Choke + Counter Attack.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gwqRwPsnNnQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/gwqRwPsnNnQ",
+      "url": "https://www.youtube.com/watch?v=gwqRwPsnNnQ",
+      "duration": "PT194S"
     }
   ]
 }
@@ -200,17 +200,17 @@ Defending the Breadcutter Choke from Side Control requires early recognition of 
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=gwqRwPsnNnQ)
+![](https://www.youtube.com/watch?v=u3QCYxp87uk)
 
-<p class="clip-credit"><strong>Paper Cutter Choke + Counter Attack</strong> · 3:14 · <a href="https://www.youtube.com/watch?v=gwqRwPsnNnQ" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>3 Bread Cutter Escapes</strong> · 3:45 · <a href="https://www.youtube.com/watch?v=u3QCYxp87uk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=u3QCYxp87uk)
+![](https://www.youtube.com/watch?v=gwqRwPsnNnQ)
 
-<p class="clip-credit"><strong>3 Bread Cutter Escapes</strong> · 3:45 · <a href="https://www.youtube.com/watch?v=u3QCYxp87uk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Paper Cutter Choke + Counter Attack</strong> · 3:14 · <a href="https://www.youtube.com/watch?v=gwqRwPsnNnQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

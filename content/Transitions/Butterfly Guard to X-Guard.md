@@ -36,6 +36,27 @@ description: "Master the Butterfly Guard to X-Guard transition in BJJ. Learn set
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Butterfly Guard to X-Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How to enter X-Guard from Butterfly Guard",
+      "description": "Butterfly Guard to X-Guard film study: How to enter X-Guard from Butterfly Guard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/YSkgoJ5JWWg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/YSkgoJ5JWWg",
+      "url": "https://www.youtube.com/watch?v=YSkgoJ5JWWg",
+      "duration": "PT85S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -74,6 +95,24 @@ From a systems perspective, the butterfly to X-Guard pathway is the most natural
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Butterfly Guard to X-Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=YSkgoJ5JWWg)
+
+<p class="clip-credit"><strong>How to enter X-Guard from Butterfly Guard</strong> · 1:25 · <a href="https://www.youtube.com/watch?v=YSkgoJ5JWWg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="possible-outcomes" class="content-section">

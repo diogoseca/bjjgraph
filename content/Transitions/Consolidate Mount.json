@@ -351,7 +351,15 @@
       }
     ],
     "safety_considerations": "Mount consolidation is generally low-risk when performed correctly. Avoid crushing pressure on the sternum for extended periods during training, as this can cause discomfort or breathing difficulty for your partner. When using grapevines, be careful not to hyperextend your partner's knees by driving your hooks too aggressively. During drilling, establish clear tapping protocols so partners can indicate when pressure becomes excessive. Ensure your training partner can breathe adequately throughout the consolidation process.",
-    "clips": []
+    "clips": [
+      {
+        "id": "9BDCNSAnw7I",
+        "title": "Fabricio Amaral BJJ - Controlling the mount",
+        "channel": "Fabricio Amaral",
+        "duration": 102,
+        "front": true
+      }
+    ]
   },
   "defender": {
     "name": "Consolidate Mount Defender",

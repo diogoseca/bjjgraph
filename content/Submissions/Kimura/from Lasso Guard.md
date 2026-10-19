@@ -36,27 +36,6 @@ description: "Master the Kimura shoulder lock from Lasso Guard top position. Lea
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Kimura from Lasso Guard \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "North South Kimura Defense by Stephen Whittier",
-      "description": "Kimura from Lasso Guard film study: North South Kimura Defense by Stephen Whittier.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/LdHCMIMM380/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/LdHCMIMM380",
-      "url": "https://www.youtube.com/watch?v=LdHCMIMM380",
-      "duration": "PT195S"
-    }
-  ]
-}
-</script>
-
 
 
 <script type="application/ld+json">
@@ -104,24 +83,6 @@ The Kimura from Lasso Guard creates a powerful tactical dilemma. If the bottom p
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Kimura from Lasso Guard in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=LdHCMIMM380)
-
-<p class="clip-credit"><strong>North South Kimura Defense by Stephen Whittier</strong> · 3:15 · <a href="https://www.youtube.com/watch?v=LdHCMIMM380" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="outcomes" class="content-section">

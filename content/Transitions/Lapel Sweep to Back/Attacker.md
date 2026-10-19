@@ -170,27 +170,6 @@ description: "How to execute Lapel Sweep to Back in BJJ. Attacking perspective w
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Lapel Sweep to Back (Attacker) \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Keenan Cornelius | WORM GUARD TO BACK CHOKE",
-      "description": "Lapel Sweep to Back (Attacker) film study: Keenan Cornelius | WORM GUARD TO BACK CHOKE.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/ARmiJRANTpg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/ARmiJRANTpg",
-      "url": "https://www.youtube.com/watch?v=ARmiJRANTpg",
-      "duration": "PT36S"
-    }
-  ]
-}
-</script>
-
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -207,24 +186,6 @@ The technique requires timing recognition and commitment to the back take pathwa
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Lapel Sweep to Back (Attacker) in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=ARmiJRANTpg)
-
-<p class="clip-credit"><strong>Keenan Cornelius | WORM GUARD TO BACK CHOKE</strong> · 0:36 · <a href="https://www.youtube.com/watch?v=ARmiJRANTpg" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="key-principles" class="content-section">

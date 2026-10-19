@@ -162,16 +162,6 @@ description: "Learn to defend the Arm Triangle from Kesa Gatame. Recognize the g
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "arm triangle escape using hawking",
-      "description": "Arm Triangle from Kesa Gatame (Defender) film study: arm triangle escape using hawking.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Nspz2EAIQ_k/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Nspz2EAIQ_k",
-      "url": "https://www.youtube.com/watch?v=Nspz2EAIQ_k",
-      "duration": "PT27S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
       "name": "How to Escape Arm Triangles (Head and Arm Chokes) and Return with a Scarf Hold",
       "description": "Arm Triangle from Kesa Gatame (Defender) film study: How to Escape Arm Triangles (Head and Arm Chokes) and Return with a Scarf Hold.",
       "thumbnailUrl": "https://i.ytimg.com/vi/BuTIktWWudo/hqdefault.jpg",
@@ -203,14 +193,6 @@ Defending the Arm Triangle from Kesa Gatame requires recognizing the critical tr
 
 <p class="section-subtitle">Watch Arm Triangle from Kesa Gatame (Defender) in action — curated instructionals</p>
 
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=Nspz2EAIQ_k)
-
-<p class="clip-credit"><strong>arm triangle escape using hawking</strong> · 0:27 · <a href="https://www.youtube.com/watch?v=Nspz2EAIQ_k" rel="noopener">Watch on YouTube</a></p>
-
-</div>
 
 <div class="film-clip">
 

@@ -157,6 +157,27 @@ description: "Master Side Control Top in BJJ. Complete guide to submissions, tra
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Side Control (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Side Control - Dealing with Frames and Establishing a Chest to Chest Pin",
+      "description": "Side Control (Top) film study: Side Control - Dealing with Frames and Establishing a Chest to Chest Pin.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/e8OUw05ZBwo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/e8OUw05ZBwo",
+      "url": "https://www.youtube.com/watch?v=e8OUw05ZBwo",
+      "duration": "PT245S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -171,6 +192,24 @@ Side Control Top is one of the most fundamental and dominant positions in Brazil
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Side Control (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=e8OUw05ZBwo)
+
+<p class="clip-credit"><strong>Side Control - Dealing with Frames and Establishing a Chest to Chest Pin</strong> · 4:05 · <a href="https://www.youtube.com/watch?v=e8OUw05ZBwo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="state-invariants" class="content-section">

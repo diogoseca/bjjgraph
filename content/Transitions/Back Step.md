@@ -36,6 +36,27 @@ description: "Master the Back Step pass in BJJ. Essential leg entanglement count
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Back Step \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Nicky Ryan: Pass Without Getting Leglocked | B-Team Technique",
+      "description": "Back Step film study: Nicky Ryan: Pass Without Getting Leglocked | B-Team Technique.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/e1ZW2vQniKk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/e1ZW2vQniKk",
+      "url": "https://www.youtube.com/watch?v=e1ZW2vQniKk",
+      "duration": "PT496S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -70,6 +91,24 @@ Within modern no-gi and submission grappling, the back step has emerged as one o
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Back Step in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=e1ZW2vQniKk)
+
+<p class="clip-credit"><strong>Nicky Ryan: Pass Without Getting Leglocked | B-Team Technique</strong> · 8:16 · <a href="https://www.youtube.com/watch?v=e1ZW2vQniKk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="possible-outcomes" class="content-section">

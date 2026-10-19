@@ -46,12 +46,12 @@ description: "Master the Deep Half Entry from Half Guard in BJJ. Complete guide 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Knee Slide Pass Counter to Deep Half Guard Entry",
-      "description": "Deep Half Entry film study: Knee Slide Pass Counter to Deep Half Guard Entry.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/K0XMj9BNJ8U/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/K0XMj9BNJ8U",
-      "url": "https://www.youtube.com/watch?v=K0XMj9BNJ8U",
-      "duration": "PT133S"
+      "name": "Tom DeBlass Deep Half Guard Entry",
+      "description": "Deep Half Entry film study: Tom DeBlass Deep Half Guard Entry.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/jRGAYd6UngU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/jRGAYd6UngU",
+      "url": "https://www.youtube.com/watch?v=jRGAYd6UngU",
+      "duration": "PT157S"
     }
   ]
 }
@@ -105,9 +105,9 @@ When executed correctly, the deep half entry transforms a potentially defensive 
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=K0XMj9BNJ8U)
+![](https://www.youtube.com/watch?v=jRGAYd6UngU)
 
-<p class="clip-credit"><strong>Knee Slide Pass Counter to Deep Half Guard Entry</strong> · 2:13 · <a href="https://www.youtube.com/watch?v=K0XMj9BNJ8U" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Tom DeBlass Deep Half Guard Entry</strong> · 2:37 · <a href="https://www.youtube.com/watch?v=jRGAYd6UngU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

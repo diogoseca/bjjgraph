@@ -46,12 +46,12 @@ description: "Master guard opening in BJJ. Systematic approaches to opening clos
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Keeping a standing opponent inside your closed guard",
-      "description": "Guard Opening Sequence film study: Keeping a standing opponent inside your closed guard.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/9PIbVkxs7I8/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/9PIbVkxs7I8",
-      "url": "https://www.youtube.com/watch?v=9PIbVkxs7I8",
-      "duration": "PT126S"
+      "name": "If You Struggle Breaking Closed Guard as White Belt, Then Watch This Video",
+      "description": "Guard Opening Sequence film study: If You Struggle Breaking Closed Guard as White Belt, Then Watch This Video.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XrTTVy4-s0k/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/XrTTVy4-s0k",
+      "url": "https://www.youtube.com/watch?v=XrTTVy4-s0k",
+      "duration": "PT324S"
     }
   ]
 }
@@ -105,9 +105,9 @@ At the competitive level, guard opening efficiency separates effective passers f
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=9PIbVkxs7I8)
+![](https://www.youtube.com/watch?v=XrTTVy4-s0k)
 
-<p class="clip-credit"><strong>Keeping a standing opponent inside your closed guard</strong> · 2:06 · <a href="https://www.youtube.com/watch?v=9PIbVkxs7I8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>If You Struggle Breaking Closed Guard as White Belt, Then Watch This Video</strong> · 5:24 · <a href="https://www.youtube.com/watch?v=XrTTVy4-s0k" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

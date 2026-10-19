@@ -886,7 +886,15 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "iR4_EYOBjJ0",
+        "title": "Guard retention from combat base Jiu Jitsu",
+        "channel": "Andy Tong",
+        "duration": 31,
+        "front": true
+      }
+    ]
   },
   "flashcards_position": [
     {

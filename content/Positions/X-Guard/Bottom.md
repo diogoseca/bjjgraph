@@ -156,6 +156,37 @@ description: "Master X-Guard Bottom in BJJ. Complete guide covering sweeps, entr
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "X-Guard (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Bjj X Guard Entry from Half Guard",
+      "description": "X-Guard (Bottom) film study: Bjj X Guard Entry from Half Guard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/usWlT7CW4HU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/usWlT7CW4HU",
+      "url": "https://www.youtube.com/watch?v=usWlT7CW4HU",
+      "duration": "PT247S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "X-Guard Entry from Half Guard",
+      "description": "X-Guard (Bottom) film study: X-Guard Entry from Half Guard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MVpjF7Pd8IA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/MVpjF7Pd8IA",
+      "url": "https://www.youtube.com/watch?v=MVpjF7Pd8IA",
+      "duration": "PT341S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -169,6 +200,32 @@ X-Guard Bottom is a powerful open guard position where the bottom practitioner c
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch X-Guard (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=usWlT7CW4HU)
+
+<p class="clip-credit"><strong>Bjj X Guard Entry from Half Guard</strong> · 4:07 · <a href="https://www.youtube.com/watch?v=usWlT7CW4HU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=MVpjF7Pd8IA)
+
+<p class="clip-credit"><strong>X-Guard Entry from Half Guard</strong> · 5:41 · <a href="https://www.youtube.com/watch?v=MVpjF7Pd8IA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="state-invariants" class="content-section">

@@ -142,6 +142,27 @@ description: "Defend against hip escape attempts from consolidated side control.
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Hip Escape from Side Control (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Moving to sit out side control to counter the elbow escape",
+      "description": "Hip Escape from Side Control (Defender) film study: Moving to sit out side control to counter the elbow escape.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/N4MK2oNSJCs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/N4MK2oNSJCs",
+      "url": "https://www.youtube.com/watch?v=N4MK2oNSJCs",
+      "duration": "PT68S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -154,6 +175,24 @@ As the top player defending against hip escape attempts from consolidated side c
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Hip Escape from Side Control (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=N4MK2oNSJCs)
+
+<p class="clip-credit"><strong>Moving to sit out side control to counter the elbow escape</strong> · 1:08 · <a href="https://www.youtube.com/watch?v=N4MK2oNSJCs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

@@ -146,37 +146,6 @@ description: "Defend against the calf slicer from 50-50 Guard with recognition c
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Calf Slicer from 50-50 Guard (Defender) \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Calf-Slicer Defense to The Lock Down - Indianapolis Jiu-Jitsu",
-      "description": "Calf Slicer from 50-50 Guard (Defender) film study: Calf-Slicer Defense to The Lock Down - Indianapolis Jiu-Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/4zYNEvdgI2s/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/4zYNEvdgI2s",
-      "url": "https://www.youtube.com/watch?v=4zYNEvdgI2s",
-      "duration": "PT270S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Calf Slicer Defense Part 2 - Late Defense",
-      "description": "Calf Slicer from 50-50 Guard (Defender) film study: Calf Slicer Defense Part 2 - Late Defense.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/9l-XOzg5DCA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/9l-XOzg5DCA",
-      "url": "https://www.youtube.com/watch?v=9l-XOzg5DCA",
-      "duration": "PT346S"
-    }
-  ]
-}
-</script>
-
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -190,32 +159,6 @@ Defending the calf slicer from 50-50 Guard requires recognizing the transition f
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Calf Slicer from 50-50 Guard (Defender) in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=4zYNEvdgI2s)
-
-<p class="clip-credit"><strong>Calf-Slicer Defense to The Lock Down - Indianapolis Jiu-Jitsu</strong> · 4:30 · <a href="https://www.youtube.com/watch?v=4zYNEvdgI2s" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=9l-XOzg5DCA)
-
-<p class="clip-credit"><strong>Calf Slicer Defense Part 2 - Late Defense</strong> · 5:46 · <a href="https://www.youtube.com/watch?v=9l-XOzg5DCA" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="recognition-cues" class="content-section">

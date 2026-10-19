@@ -36,6 +36,27 @@ description: "Master the transition from Side Control to Shoulder of Justice in 
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Side Control to Shoulder of Justice \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "James Quigg Shoulder of Justice",
+      "description": "Side Control to Shoulder of Justice film study: James Quigg Shoulder of Justice.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/PjFg8gFVPpQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/PjFg8gFVPpQ",
+      "url": "https://www.youtube.com/watch?v=PjFg8gFVPpQ",
+      "duration": "PT59S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -74,6 +95,24 @@ Strategically, this transition serves as a force multiplier for your entire top-
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Side Control to Shoulder of Justice in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=PjFg8gFVPpQ)
+
+<p class="clip-credit"><strong>James Quigg Shoulder of Justice</strong> · 0:59 · <a href="https://www.youtube.com/watch?v=PjFg8gFVPpQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="possible-outcomes" class="content-section">

@@ -52,16 +52,6 @@ description: "Master the cross collar choke from 3-4 mount in BJJ. Complete guid
       "embedUrl": "https://www.youtube.com/embed/DrAxA8KUxbo",
       "url": "https://www.youtube.com/watch?v=DrAxA8KUxbo",
       "duration": "PT61S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Roger Gracie Cross Choke",
-      "description": "Cross Collar Choke from 3-4 Mount film study: Roger Gracie Cross Choke.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/zSSw_fUcNxU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/zSSw_fUcNxU",
-      "url": "https://www.youtube.com/watch?v=zSSw_fUcNxU",
-      "duration": "PT134S"
     }
   ]
 }
@@ -127,14 +117,6 @@ The 3-4 mount also allows the attacker to use their posted leg to drive forward 
 ![](https://www.youtube.com/watch?v=DrAxA8KUxbo)
 
 <p class="clip-credit"><strong>Palm up Palm up CROSS CHOKE BJJ | Helio Gracie Variation</strong> · 1:01 · <a href="https://www.youtube.com/watch?v=DrAxA8KUxbo" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=zSSw_fUcNxU)
-
-<p class="clip-credit"><strong>Roger Gracie Cross Choke</strong> · 2:14 · <a href="https://www.youtube.com/watch?v=zSSw_fUcNxU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

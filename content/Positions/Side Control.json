@@ -464,7 +464,16 @@
       },
       "average_time": "1-3 minutes for controlled work, 10-30 seconds for dynamic transitions"
     },
-    "clips": []
+    "clips": [
+      {
+        "id": "e8OUw05ZBwo",
+        "title": "Side Control - Dealing with Frames and Establishing a Chest to Chest Pin",
+        "channel": "Fox Den Martial Arts",
+        "duration": 245,
+        "vertical": false,
+        "front": true
+      }
+    ]
   },
   "bottom": {
     "name": "Side Control Bottom",
