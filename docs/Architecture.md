@@ -466,6 +466,11 @@ not content fingerprints: HTTP caching remains four hours fresh plus one day sta
 and readers tolerate older additive shapes. The alias URL includes the app version; valid success
 is cached and concurrent requests share a promise. Transport/shape failures remain retryable with
 a bounded automatic attempt sequence and an explicit Retry action.
+Late Explore payloads defer repaint while a pointer hovers over the results list;
+pointer leave releases the refresh through `_afterPress`, preserving an active press
+until its click is delivered. Loading rows and new alias matches cannot move a waiting
+click target. Typing still renders immediately; alias refreshes check their original
+surface is connected and active before refreshing.
 
 On-demand does not imply free startup bytes. The browser's first-hand gate charges every request
 started before the hand, including the current state's dossier. Alias data is explicitly deferred;

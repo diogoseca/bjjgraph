@@ -11182,6 +11182,17 @@ and separate eyes in the index, using the existing game visibility settings. The
 header follows the unchanged 16px deck gap; the hand follows its header immediately.
 The article follows the hand with the same 6px gap. Book off retains the restore shelf.
 
+D-325 also fixes a pre-existing Browse target shift proved on dev 2fe86f33a:
+while a pointer rests over Mount, the real aliases response removes a loading
+row and lifts Mount from y624 to y594, making the click open Mount-to-Armbar.
+Late payload repaints now wait until the pointer leaves the results list; the
+existing press guard still delivers a held click first. Typing remains immediate.
+The original reading-mode Browse journey is unchanged. A separate held-response
+journey pins both widths, click/press/leave, exact button identity and geometry,
+native article navigation and publication of newly matched aliases after leave.
+Its remove-hover-protection control must fail the clicked-article assertion,
+never count a wait timeout as a kill.
+
 There is one `_landFilmEl`. `place(target)` moves it between the article and a normal home
 inside the same native scrollport as practice and choices. Native `moveBefore` preserves
 the player; fallback `appendChild` first calls `pauseLandFilm`, then invalidates stale

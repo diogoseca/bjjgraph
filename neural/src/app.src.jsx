@@ -3611,12 +3611,16 @@ class Component extends DCLogic {
     // Hydrate Explore's concept list without rebuilding an open System and destroying its player.
     this._afterPress(() => { if (this.deckShown && this._viewMode === "explore" && !this._systemId) this._renderPaneBody(); });
   }
-  // THE ONE SEAM A LATE PAYLOAD REPAINTS THROUGH (v1.198.2): now, or — while a press that began in
-  // the pane is still down — after it is released and its click delivered (the press guard in the
-  // pane setup says why). Each job re-asks its own condition when it runs, because the click it
-  // waited for may have closed the pane, changed tab or opened a System in the meantime.
+  // Late payloads wait for a pane press to deliver its click, or for a hovering pointer to
+  // LEAVE the results (D-325). Removing a status line or inserting an alias match must not move
+  // its target before pointerdown either. Each job re-asks its own active/connected condition;
+  // a user input renders immediately, so typing/closing cannot resurrect an obsolete result.
+  // Lifter: pointerleave re-enters this seam, preserving the press guard on a drag out.
   _afterPress(job) {
+    const list = this.explorerListRef && this.explorerListRef.current;
     if (this._panePress) (this._paneOwed || (this._paneOwed = [])).push(job);
+    else if (list && list.matches(":hover"))
+      list.addEventListener("pointerleave", () => this._afterPress(job), { once: true });
     else job();
   }
   // member graph nodes, resolved once per concept against the ingested id index (systemNodeIdxs
