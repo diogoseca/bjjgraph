@@ -11343,6 +11343,47 @@ one separate hover-protection assertion kill. That merge first condensed this en
 4,913 characters to fit the archive cap; D-316 (2a) forbids that, so the entry above is
 restored verbatim from 466fe763d and the cap rises by +50,000 in its own commit.
 
+Takeover verification (sections-claude, 2026-10-19), on the accepted D-324 capture with this
+branch's app overlaid. The HEAD bundle rebuilt byte-identical to the D-322 and D-325 proofs.
+87 focused journeys gave 78 passes; all 12 D-318 decision controls, D-322's drop-correction
+control and D-325's hover control failed at their assertions on the current bytes. Two gaps.
+First, every journey that clicks the shelf's `[data-layer-hide=book]` is red, because D-318
+removed that shelf with Book shown and its replacement is the U7 View disclosure, still with
+the owner. These are U7-PENDING, neither skipped nor fixme'd: reading-media-placement:67 (four
+reference-playback cases) and reading-navigation:15 (320 and 390px) and :190.
+Second, roll-execution:214 at 390px failed the D-322 painted-overlap claim on both the dev63
+and D-324 sites, so not content. The card landed at y78 or y344 instead of y611 by timing.
+
+D-326 fixed both causes in the app. (a) An 11px band (announcer to y67, card at y78) counted as
+existing, so the band filter rejected every candidate and `frameExecution` returned the
+unfitted target onto the card. A band now needs room for the reserved pair box plus both 12px
+clearances, else free 2-D space. A centred reduced-motion stand-in leaves 96px a side, and
+the box (100px) fits there only on a second pass at 4px clearance. (b) A full-width challenge
+reward (x12..378, y82..184) left no slot anywhere. `holdChallengeReward` returns a showing
+notice to the queue's front at `startExecution`, `showNextChallengeReward` waits while
+`_execution` is set, and `clearExecution` shows it again in a microtask after the move lands:
+full time, never dropped. New 390px cases scrolled to the top run in both motion modes; they
+use `scrollIntoView` as the pick path does, since a phone wheel pages the deck or glides the
+hand. A new journey holds a notice showing at the click plus a coin minted mid-execution, in
+order. The thin-band and reward-hold mutants fail at their claims. Earlier versions proved
+neither: a phone wheel paged the deck before any claim ran, a retrying `toHaveCount(0)` outlived
+the notice's 4.8s timer, and an uncentred card let the unfitted target miss it. Those failures are kept in
+`claude-verify/attempt1..3`. The overlay first served the capture's MDP manifest. The game
+bundles pin their own, so card-presentation's odds printed dashes until `mdp/` was relinked.
+
+seat-star:59 desktop then failed at :118 with two stars, while dev's capture passed 4/4. A probe
+showed the second star belongs to Cross Collar Choke from High Mount, the `_hover` node under
+the pointer resting where the pane's close button was; D-318's centred framing put a node
+there. That is a STALE SPEC: the locator now names the current seat by `focusIdx`.
+
+The reward hold ships in the eager neural.js (+100 B gzip). D-327 accepted the eager
+checkpoint at dev's own 346,412 (D-324 capture of 7ac17caa0), so the 5,000 B cap measures this
+PR's +1,652 (348,064 B). D-305c sets both deferred ceilings to exactly 505,069 B: +1,184 for
+D-318, +1,901 for D-322, +46 for D-326. Largest chunk 39,000 B. Videos returns the ceiling to
+500,000. Final runs: roll-execution 20/20 with card-presentation and card-click-contract
+(40 passed), seat-star 4/4, reward journeys 6/6; the only remaining reds are the seven
+U7-PENDING cases. Receipts are under `scratch/article-sections/claude-verify/`.
+
 ## v1.227.5 — Clips follow the authored move and role
 
 Clips now follow the actual submission, transition or position and the half's own role.
