@@ -45,6 +45,40 @@ test("execution framing clears a top-scrolled card and announcer without moving 
   }
 });
 
+test("D-329: reading-view execution framing stays inside the node band the landing rows mount below", () => {
+  // camera-continuity:287 at 390px: D-322 fitted the pair under the card (y323); the landing's rows
+  // then mounted from y269 over it. The band is where the reading view frames the node anyway.
+  globalThis.getComputedStyle = el => el.style;
+  const surface = (left, top, width, height) => ({ isConnected: true, style: { opacity: "1" },
+    getBoundingClientRect: () => ({ left, right: left + width, top, bottom: top + height, width, height }) });
+  const n = { idx: 0, pi: 1, x: 0, y: 0 }, partner = { idx: 1, x: 0, y: 32 };
+  const card = surface(0, 78, 150, 144), toast = surface(27, 30, 336, 37);
+  const r = Object.create(Reader.prototype), a = r.app = { W: 390, H: 844, graphW: 16000, nodes: [n, partner],
+    _execution: { card }, evRef: { current: toast }, accountRef: {}, shareCueRef: {}, _challengeRewardEl: null,
+    wrapRef: { current: { querySelectorAll: () => [] } }, _LY: q => q.y, get: (key, fallback) => fallback,
+    _nodeHalfW: () => 17, _labelWidthPx: () => 110, pairMid: () => ({ x: 0, y: 16 }), _paneLayout: () => ({ left: 0 }) };
+  r.root = { getBoundingClientRect: () => ({ top: 78, bottom: 754 }), contains: () => false };
+  r.articleEl = surface(12, 234, 366, 520); r.contents = null; r.gameSections = [];
+  r.nodeBand = { top: 78, bottom: 214, height: 136 };
+  const fixed = r.frameExecution({ cx: 0, cy: 0, vw: 390, _paneFraction: 0 }, n), p = { x: 195 - fixed.cx, y: 422 - fixed.cy };
+  assert.ok(p.y - 36 >= 78 && p.y + 56 <= 214, "the reserved pair box sits inside the node band: " + JSON.stringify(p));
+  assert.ok(p.x - 17 >= 150 + 4, "and beside the card, never under it");
+  r.nodeBand = null;
+  const free = r.frameExecution({ cx: 0, cy: 0, vw: 390, _paneFraction: 0 }, n);
+  assert.notDeepEqual(free, fixed, "without the band the free-space search answers differently (the control)");
+});
+
+test("execution framing before the first frame keeps the target instead of throwing", () => {
+  // CI 48be3a910: 15 defending journeys threw "t._LY is not a function" from the frame
+  // loop. updateCamera runs before draw, and a pumped advance draws only at its end.
+  const r = Object.create(Reader.prototype);
+  r.app = { W: 390, H: 844, graphW: 16000, nodes: [], _execution: { card: null } };
+  const target = { cx: 12, cy: 34, vw: 390, _paneFraction: 0 };
+  let framed;
+  assert.doesNotThrow(() => { framed = r.frameExecution(target, { idx: 0, pi: -1, x: 0, y: 0 }); });
+  assert.equal(framed, target, "no painted pair yet, so nothing to fit");
+});
+
 class Style {
   constructor(values = {}) { Object.assign(this, values); this.priorities = {}; }
   getPropertyValue(key) { return this[key] || ""; }
@@ -220,14 +254,3 @@ test("the article and shelf have one frame writer while fixed replay keeps its o
 });
 
 console.log("reader handoff: 8 behavioral cases; real browser geometry is pinned separately");
-
-test("execution framing before the first frame keeps the target instead of throwing", () => {
-  // CI 48be3a910: 15 defending journeys threw "t._LY is not a function" from the frame
-  // loop. updateCamera runs before draw, and a pumped advance draws only at its end.
-  const r = Object.create(Reader.prototype);
-  r.app = { W: 390, H: 844, graphW: 16000, nodes: [], _execution: { card: null } };
-  const target = { cx: 12, cy: 34, vw: 390, _paneFraction: 0 };
-  let framed;
-  assert.doesNotThrow(() => { framed = r.frameExecution(target, { idx: 0, pi: -1, x: 0, y: 0 }); });
-  assert.equal(framed, target, "no painted pair yet, so nothing to fit");
-});

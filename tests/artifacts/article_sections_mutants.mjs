@@ -76,6 +76,8 @@ const mutants = [
   ['reader-overwrites-inspect', 'roll-execution.spec.ts', 'with reader layout during close', s => replace(s, 'if (el !== row) style(el, "transform", "none", "important");', 'style(el, "transform", "none", "important");')],
   // D-326: restore the 11px band acceptance; the scrolled phone case must fail its painted-overlap claim.
   ['execution-thin-band-accepted', 'roll-execution.spec.ts', 'execution camera frames the technique at 390px; pane false; reduced motion true scrolled to the top', s => replace(s, 'card.top - toast.bottom >= box.bottom - box.top + 24', 'card.top > toast.bottom')],
+  // D-329: drop the reader node band; the 390px exchange's pair is covered by the landing rows again.
+  ['execution-node-band-removed', 'camera-continuity.spec.ts', '390px camera continuity.*an exchange lands on a new current node', s => replace(s, 'const nodeBand = this.nodeBand && this.on("book") ? this.nodeBand : null;', 'const nodeBand = null;')],
   ['execution-occupied-space-lost', 'roll-execution.spec.ts', 'execution camera frames.*1440px; pane false; reduced motion false after native wheel', s => replace(s, '  frameExecution(target, node) {', '  frameExecution(target, node) { return target;')],
   ['reading-shelf-retained', sections, 'D-318 1440px', s => replace(s, 'this.dock.hidden = this.on("book");', 'this.dock.hidden = false;')],
   ['native-role-starts-game', sections, 'D-318 1440px', s => replace(s, 'if (reader.intent && node?.pi === this.focusIdx)', 'if (false)')],

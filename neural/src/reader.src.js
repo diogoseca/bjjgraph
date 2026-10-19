@@ -815,21 +815,35 @@ class Reader {
     const left = a._paneLayout().left + 12, right = W - 12;
     // D-326: a phone's centred reduced-motion stand-in leaves 96px a side, which
     // fits the reserved box only at a 4px clearance. Painted pixels still never touch.
-    for (const gap of [12, 4]) {
-      const xs = [0, left - box.left, right - box.right], ys = [0, 12 - box.top, H - 12 - box.bottom];
-      for (const r of occupied) { xs.push(r.left - gap - box.right, r.right + gap - box.left); ys.push(r.top - gap - box.bottom, r.bottom + gap - box.top); }
-      if (band) ys.push(toast.bottom + 1 - p.y, card.top - 1 - p.y);
-      let best, distance = Infinity;
-      for (const x of new Set(xs)) for (const y of new Set(ys)) {
-        const cost = x * x + y * y;
-        if (cost >= distance || box.left + x < left || box.right + x > right || box.top + y < 12 || box.bottom + y > H - 12 ||
-          band && (p.y + y <= toast.bottom || p.y + y >= card.top)) continue;
-        if (occupied.some(r => box.left + x < r.right + gap && box.right + x > r.left - gap && box.top + y < r.bottom + gap && box.bottom + y > r.top - gap)) continue;
-        best = { ...target, cx: target.cx - x / scale, cy: target.cy - y / scale }; distance = cost;
+    const search = within => {
+      for (const gap of [12, 4]) {
+        const xs = [0, left - box.left, right - box.right], ys = [0, 12 - box.top, H - 12 - box.bottom];
+        for (const r of occupied) { xs.push(r.left - gap - box.right, r.right + gap - box.left); ys.push(r.top - gap - box.bottom, r.bottom + gap - box.top); }
+        if (band) ys.push(toast.bottom + 1 - p.y, card.top - 1 - p.y);
+        if (within) ys.push(within.top - box.top, within.bottom - box.bottom);
+        let best, distance = Infinity;
+        for (const x of new Set(xs)) for (const y of new Set(ys)) {
+          const cost = x * x + y * y;
+          if (cost >= distance || box.left + x < left || box.right + x > right || box.top + y < 12 || box.bottom + y > H - 12 ||
+            band && (p.y + y <= toast.bottom || p.y + y >= card.top) || within && (box.top + y < within.top || box.bottom + y > within.bottom)) continue;
+          if (occupied.some(r => box.left + x < r.right + gap && box.right + x > r.left - gap && box.top + y < r.bottom + gap && box.bottom + y > r.top - gap)) continue;
+          best = { ...target, cx: target.cx - x / scale, cy: target.cy - y / scale }; distance = cost;
+        }
+        if (best) return best;
       }
-      if (best) return best;
+      return null;
+    };
+    // D-329: the landing's rows mount below the reader's node band, so a pair framed inside it is
+    // never covered when the move lands. Prefer the band wherever the box fits beside the card;
+    // otherwise search free space with the landing rows' column below the band occupied.
+    const nodeBand = this.nodeBand && this.on("book") ? this.nodeBand : null;
+    if (nodeBand) {
+      const fit = search(nodeBand);
+      if (fit) return fit;
+      const col = this.articleEl.getBoundingClientRect();
+      if (col.width) occupied.push({ left: col.left, right: col.right, top: nodeBand.bottom, bottom: H });
     }
-    return target;
+    return search(null) || target;
   }
   publishCard(card) {
     // Complete new controls adopt before their first paint; observer updates to
