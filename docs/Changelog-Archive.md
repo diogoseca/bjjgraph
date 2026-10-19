@@ -11481,6 +11481,15 @@ review-claude's Delta 3 was HOLD on a test-only fix; the orchestrator ruled D-33
   app follow-up names the sibling gen-w3-15 onboard-fresh-boot-spa-nav-single-instance (task #66).
 - D3-N1: 391's end frame must be at rest as a premise. D3-N3: the new journey is camera-continuity:480.
 
+CI 39306283611 on 7c27fcce3: exactly the 18 U7-PENDING. review-claude's Delta 4: MERGE once U7 lands.
+- D4-S1, in the U7 push: lists-picker's "still readable behind the picker" (the owner's v1.103.2
+  rule) read opacity alone after a fixed 450ms, so it passed on a card the reader never published.
+  It reads visibility too; landing-never-published-picker fails at that claim. The audit, with the
+  mutant over all 72 files that touch the card: 283 of 476 tests stay green with the card hidden, and
+  four of them word a visible card while checking only existence, a count or aria-expanded
+  (coldstart-late-payload:158/:490, lists-disclosure:257, article-sections:369), reported for a ruling.
+- D4-N1-N3: the ledger's pane-chrome reason and coldstart-backfill lines, and the D-333 labels.
+
 ## v1.227.5 — Clips follow the authored move and role
 
 Clips now follow the actual submission, transition or position and the half's own role.
