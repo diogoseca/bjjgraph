@@ -11438,6 +11438,32 @@ review-claude's delta review of 0c235918a was HOLD (B2 S2 N6); the orchestrator 
 - Controls on the final bytes: 15 reader, 4 neural.js and the browse control, all killed at their
   claims. Every focused journey is green except the 18 U7-PENDING.
 
+CI 39282161026 on 105c5f110: 18 U7-PENDING, plus camera-continuity:391 at 390px and the generated
+suite's spa-nav-single-instance-law:88. review-claude's Delta 2 was HOLD; the orchestrator ruled D-332.
+- D2-B1, REAL BREAK since 8a64e8ac7: the calm reading catch's window was read every frame, so an
+  escape picked inside it lost the catch framing once its travel outlived the window. The escape's
+  travel runs on game time that async work stretches: 3.3s normally, 4.7s under 4x CDP, where the
+  journey failed 3 of 6 at both widths. review-claude's forced expiry (0.2s after the pick) failed both
+  widths with CI's signature. The verdict is now latched at the pick (_execution.calmHeld) and dropped
+  by releaseCamera(). Forced arm green, 4x CPU 12 of 12, a new journey picking 0.4s before the window
+  closes, and mutants calm-catch-latch-lost and calm-catch-window-lost killed at their claims. Two
+  units pin the latch and the arming.
+- 391's end claims are read 2.5s after the landing, not 5s after the pick: at 4.7s of travel the
+  fixed window ended mid-flight.
+- D2-S1: the calm catch's pre-clock -1 arms on the first frame with a clock, beside holdCamera's.
+- D2-S2, PRE-EXISTING on dev: life 2's deck manifest still in flight at its landing records
+  land_q_skipped {decks_in_flight} at each render until the question backfills. Holding that
+  manifest 2s reproduces CI's exact diff on this PR and on the D-324 dev capture; the 10 earlier gen
+  runs show no red. The spec admits only those beats (that reason, then a backfill); both claim
+  controls fail at their messages. The double skip for one landing is named as an app follow-up.
+- B1 (D-332 item 3): every window alive between pointerdown and the stand-in, forced to end inside
+  the handoff, moved the card 0-2px. That covers the lease, calm catch, press, late layout, win
+  chance, backfill, reward yield and tray glide, plus a taller sibling, growth above the hand and the
+  scroll clamp (slack 12,689px). Only an induced smooth reader scroll moved it (5-6px), and the app
+  issues none under reduced motion. The diagnostics stay, now with the reward notice's presence.
+- D2-N1/N2/N3: N4's header now says what was measured, the N3 ledger row matches the spec, and the
+  PR body lists the U7 set at current lines. Deferred stays 505,482; eager gzip 348,201.
+
 ## v1.227.5 — Clips follow the authored move and role
 
 Clips now follow the actual submission, transition or position and the half's own role.
