@@ -29,6 +29,8 @@ people actually arrive here. Index A answers *"what shipped in vN?"*.
 
 ## Index A — by version
 
+- **v1.227.7** — [Fresh teaching evidence and ranked video fronts](#v12277--fresh-teaching-evidence-and-ranked-video-fronts)
+
 - **v1.227.6** — [Node identities and their real mechanics](#v12276--node-identities-and-their-real-mechanics)
 
 - **v1.227.4** — [Default overview mixes both halves after the first hand](#v12274--default-overview-mixes-both-halves-after-the-first-hand)
@@ -11431,3 +11433,52 @@ Version remains the owner-assigned 1.227.6. Local validation, one topic-branch p
 the full GitHub gate and independent fresh-30 review follow this accepted re-seed;
 only the owner merges. No local full-core run is started here. Previous archive entries
 and the approved 913,038-character ceiling are unchanged.
+
+
+## v1.227.7 — Fresh teaching evidence and ranked video fronts
+
+PR2 completes D-315 and D-320 on identity dev 2fe86f33a. B5's tournament clip
+zSSw_fUcNxU leaves Cross Collar Choke from 3-4 Mount. S4's 1jsDC-jaPoU and
+Mp7Ffm85k0A leave Marce from Side Control pending one identity question; the
+node is not rewritten to fit its videos. D-320 treats a clear, cooperative
+technique demonstration as teaching even when it is silent or its description
+is empty. Live rolling, event, competition and highlight footage still require
+an instructional breakdown. Bare footer/resource links alone do not exclude a
+complete lesson; explicit paid-course, DVD, membership and coupon calls do.
+
+Fresh evidence covers all 571 surviving D-307 restorations and the authorized
+255 other title-only placements. Final screen: 708 kept, 118 withheld. The
+first random QC (2 weak of 20) stays frozen. Its promotional-call class was
+corrected throughout the screened set; a new disjoint sample found 1 weak of
+20, and that Mir Lock mechanics mismatch was withheld before integration.
+Sampled primary storyboards establish the visual judgments; continuous audio
+and full-motion playback are not claimed.
+
+The 85 accepted second-search front operations are explicitly rebound first to
+merged PR1 and then identity dev. Same-ID reuse never overrides a withholding;
+front changes receive a recorded comparison. Final source: 2,846 references
+(base 2,882) and 1,083 fronts (base 1,042). Position/submission/transition fronts
+are 118/327/638. There are 1,523 active empty halves, 64 active unmarked halves,
+and 226 held role arrays. All 226 held arrays, 56 held hubs and five owner files
+remain exact. Only clip data and Film Study markup change: 165 JSON + 280 MD.
+
+D-323 accepts candidate/tools f92457b3a, base/premerge 2fe86f33a,
+label pr-clip-curation-2-f92457b3a. Receipt 945e51e70d24412b8d5a6067e747c144.
+D-285 changes stamps only on those 445 paths; all 5,962 other tracked content
+files retain their stamps, including the 53 Learning files and hub.
+The five census deltas are +48 JSON-LD blocks, +48 ItemLists, +48 headings,
+-82 article links and +48 outside links. These derive from +48 Film Study
+sections and -130 displayed clips across canonical pages and folder copies.
+All 660 predicted routes match, all 20 SEO samples (both Learning tags included)
+are base-exact, all 14 app rows and three root bundles match, and all 3,256
+model/flashcard files remain byte-identical. All 1,753 dossiers match the exact
+183 clip-array changes in 166 payload files; every other field stays equal.
+The content receipt/tree is new; no other census, SEO or model movement occurs.
+
+Eager gzip stays 346,412 B (+3,414 against 342,998; cap +5,000), deferred raw
+480,054/500,000 B. D-304 floors remain unchanged. The own build, schemas,
+publication-date check and all 41 focused reading/landing tests pass with zero
+retries or skips. The own checkout's D-253 tag birthtime differences are fully
+classified; none appear in the capture. This receipt-bound seed is separate
+from the subsequent version-only commit to 1.227.7. Full workflow replay and
+GitHub's full gate are required on the final head; capture is not CI green.
