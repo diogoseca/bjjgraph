@@ -11416,6 +11416,28 @@ control, all killed at their claims. Payload: deferred 505,399 (D-330, +330 over
 guard and D-329), eager gzip 348,106 (+1,694 against D-327's checkpoint). Receipts:
 scratch/article-sections/claude-verify/.
 
+review-claude's delta review of 0c235918a was HOLD (B2 S2 N6); the orchestrator ruled D-331.
+- B1: roll-execution:218's 390px reduced-motion scrolled case moved its card 4px, then 7px, on CI
+  only. Holding the hand's win chance pending across the click, through the real deferred choice
+  runtime and a controlled provider, left the card at 81-82 both times. So did 1x, 4x CDP and a 50%
+  whole-browser CPU quota. Unreproduced, so the journey now attaches its handoff record before the
+  unchanged 2px bound and keeps its trace on failure: rects at pointerdown, click and stand-in
+  mount, scrollTop, layout and press flags, win-chance status, fonts status, layout-shift sources.
+- B2: reading-mode:71 x2 and reading-contract:128 drove Videos/Questions/Moves through the hidden
+  shelf; those steps use the section eyes now, so all 18 fail only at a View control (15 + 3).
+- S1: frameExecution counts both fallbacks (_execFrame.noFrame/.noFit), and the D-322/D-329
+  journeys assert noFit 0. A forced no-fit control fails at that claim.
+- N1: the contents heading is "Loop Choke · Escaping" on one line, the qualifier beneath.
+- N2: _calmCatchUntil declares its lifters, arms a pre-clock -1, and releaseCamera() clears it.
+- N3: the dock oracle is the DOM's free column again. The per-frame case compares against the
+  card, because reading the app's eased centre raced the coalesced layout by a frame (720 vs 741.2).
+- N4: probed at 1440x480 (a 64px band): the free-space fallback still found a slot and the exchange
+  stayed clear of the landing rows. Recorded in camera-continuity's header.
+- N5: the budget note now narrates the D-316 raise.
+- D-305e: deferred 505,482 (+83).
+- Controls on the final bytes: 15 reader, 4 neural.js and the browse control, all killed at their
+  claims. Every focused journey is green except the 18 U7-PENDING.
+
 ## v1.227.5 — Clips follow the authored move and role
 
 Clips now follow the actual submission, transition or position and the half's own role.
