@@ -81,8 +81,10 @@ const mutants = [
   // D-329: drop the reader node band; the 390px exchange's pair is covered by the landing rows again.
   ['execution-node-band-removed', 'camera-continuity.spec.ts', '390px camera continuity.*an exchange lands on a new current node', s => replace(s, 'const nodeBand = this.nodeBand && this.on("book") ? this.nodeBand : null;', 'const nodeBand = null;')],
   ['execution-occupied-space-lost', 'roll-execution.spec.ts', 'execution camera frames.*1440px; pane false; reduced motion false after native wheel', s => replace(s, '  frameExecution(target, node) {', '  frameExecution(target, node) { return target;')],
-  // D-332: the reader never publishes a new landing card, so a cold start's greeting stays hidden.
+  // D-333: the reader never publishes a new landing card, so a cold start's greeting stays hidden,
+  // and (D4-S1) the card behind the list picker is not readable.
   ['landing-never-published', 'coldstart-funnel.spec.ts', 'funnel spine', s => replace(s, 'card?.removeAttribute("data-reader-pending");', '/* mutant: never publish */')],
+  ['landing-never-published-picker', 'lists-picker.spec.ts', 'the picker is reachable', s => replace(s, 'card?.removeAttribute("data-reader-pending");', '/* mutant: never publish */')],
   ['reading-shelf-retained', sections, 'D-318 1440px', s => replace(s, 'this.dock.hidden = this.on("book");', 'this.dock.hidden = false;')],
   ['native-role-starts-game', sections, 'D-318 1440px', s => replace(s, 'if (reader.intent && node?.pi === this.focusIdx)', 'if (false)')],
   ['question-eye-does-nothing', sections, 'D-318 1440px', s => replace(s, '() => this.toggle(part), { "data-game-eye": part', '() => {}, { "data-game-eye": part')],

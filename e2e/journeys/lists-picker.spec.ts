@@ -618,7 +618,13 @@ test.describe("in the 390px drawer", () => {
     // The card fades in over .28s on the WALL clock, and a late-payload backfill re-render
     // restarts that entry animation — sample after it settles (the house idiom), or the
     // "readable" read catches a card mid-arrival at 0.2 opacity and calls it suppressed.
-    await page.waitForTimeout(450);
+    // Wait for that animation to finish, never for a fixed time (D-333 D4-S1). Visibility is NOT part
+    // of this wait: it is the claim below, so a card that never becomes visible fails there.
+    await expect.poll(() => page.evaluate(() => {
+      const el = document.querySelector(".ng-landcard") as HTMLElement | null;
+      return !!el && el.getBoundingClientRect().height > 1 &&
+        !el.getAnimations().some((an) => Number.isFinite(an.effect?.getComputedTiming().endTime as number));
+    }), { timeout: 10_000, message: "the landing card's entry animation finished" }).toBe(true);
     const stack = await page.evaluate(() => {
       const p = document.querySelector("[data-list-picker]") as HTMLElement;
       const r = p.getBoundingClientRect();
@@ -632,6 +638,7 @@ test.describe("in the 390px drawer", () => {
         landZ: land ? getComputedStyle(land).zIndex : null,
         overlapsLand: !!lr && r.top < lr.bottom && r.bottom > lr.top,
         landOpacity: land ? getComputedStyle(land).opacity : null,
+        landVisibility: land ? getComputedStyle(land).visibility : null,
       };
     });
     expect(
@@ -644,7 +651,12 @@ test.describe("in the 390px drawer", () => {
     // the capture control "should show the list of lists to choose from without hiding ng-landcard" — and the
     // z ladder already settles it, 90 over 5. Hiding what you were reading in order to answer a
     // question ABOUT it is the wrong trade; owning the INPUT is what matters, and that is
-    // asserted above by `topIsPicker`.
+    // asserted above by `topIsPicker`. Readable needs visibility as well as opacity: since D-318
+    // (af3aac311) a card the reader has not published is visibility:hidden at full opacity.
+    expect(
+      stack.landVisibility,
+      "the landing card is still readable behind the picker (visibility)",
+    ).toBe("visible");
     expect(
       Number(stack.landOpacity),
       "the landing card is still readable behind the picker",

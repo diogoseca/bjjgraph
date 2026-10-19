@@ -180,7 +180,7 @@ test("cold start: the funnel spine emits in order, and the first question is abo
   // rather than timing out, which reads like a real regression. Measured, swapping only the served
   // bundle: with six CPU hogs running, this test failed 6/6 on THIS branch AND 6/6 on the v1.152.0
   // bundle that predates it, while passing 6/6 idle. Poll the same property the dump reads.
-  // POLL THE DUMP ITSELF (D-332, CI 19e1cfb23). D-318 (af3aac311) hides a new landing card
+  // POLL THE DUMP ITSELF (D-333, CI 19e1cfb23). D-318 (af3aac311) hides a new landing card
   // (`data-reader-pending`, visibility:hidden) until the deferred reader publishes it: here 80-86ms
   // after an opacity-only poll had passed, longer on a loaded runner. And a cold start can rebuild a
   // card that was already fading in (the D-324 dev capture too, 2 of 6 at 4x CPU). The claim below is
