@@ -150,6 +150,27 @@ description: "How to defend against Side Control to Mount in BJJ. Recognition cu
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Side Control to Mount (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Keith Owen on: Preventing the Mount from Side Control.",
+      "description": "Side Control to Mount (Defender) film study: Keith Owen on: Preventing the Mount from Side Control..",
+      "thumbnailUrl": "https://i.ytimg.com/vi/zPaf6wCX1OE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/zPaf6wCX1OE",
+      "url": "https://www.youtube.com/watch?v=zPaf6wCX1OE",
+      "duration": "PT230S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -162,6 +183,24 @@ Defending the side control to mount transition is one of the most critical defen
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Side Control to Mount (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=zPaf6wCX1OE)
+
+<p class="clip-credit"><strong>Keith Owen on: Preventing the Mount from Side Control.</strong> · 3:50 · <a href="https://www.youtube.com/watch?v=zPaf6wCX1OE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

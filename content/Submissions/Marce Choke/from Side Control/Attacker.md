@@ -188,26 +188,6 @@ description: "How to execute the Marce Choke in BJJ. Attacking perspective with 
       "embedUrl": "https://www.youtube.com/embed/hCiHjCbhGyE",
       "url": "https://www.youtube.com/watch?v=hCiHjCbhGyE",
       "duration": "PT66S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Marce choke",
-      "description": "Marce Choke from Side Control (Attacker) film study: Marce choke.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/1jsDC-jaPoU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/1jsDC-jaPoU",
-      "url": "https://www.youtube.com/watch?v=1jsDC-jaPoU",
-      "duration": "PT78S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Knee flare marce",
-      "description": "Marce Choke from Side Control (Attacker) film study: Knee flare marce.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Mp7Ffm85k0A/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Mp7Ffm85k0A",
-      "url": "https://www.youtube.com/watch?v=Mp7Ffm85k0A",
-      "duration": "PT113S"
     }
   ]
 }
@@ -239,22 +219,6 @@ Executing the Marce Choke requires mastery of lapel manipulation from dominant t
 ![](https://www.youtube.com/watch?v=hCiHjCbhGyE)
 
 <p class="clip-credit"><strong>1 MINUTE JIU JITSU HACK - Marce Choke</strong> · 1:06 · <a href="https://www.youtube.com/watch?v=hCiHjCbhGyE" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=1jsDC-jaPoU)
-
-<p class="clip-credit"><strong>Marce choke</strong> · 1:18 · <a href="https://www.youtube.com/watch?v=1jsDC-jaPoU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=Mp7Ffm85k0A)
-
-<p class="clip-credit"><strong>Knee flare marce</strong> · 1:53 · <a href="https://www.youtube.com/watch?v=Mp7Ffm85k0A" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

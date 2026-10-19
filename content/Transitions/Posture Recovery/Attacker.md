@@ -176,6 +176,27 @@ description: "How to execute Posture Recovery in BJJ. Step-by-step guide for reg
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Posture Recovery (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Regaining posture in closed guard",
+      "description": "Posture Recovery (Attacker) film study: Regaining posture in closed guard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Snz7V8YgV_M/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Snz7V8YgV_M",
+      "url": "https://www.youtube.com/watch?v=Snz7V8YgV_M",
+      "duration": "PT108S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -188,6 +209,24 @@ As the top player executing Posture Recovery, your objective is to systematicall
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Posture Recovery (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Snz7V8YgV_M)
+
+<p class="clip-credit"><strong>Regaining posture in closed guard</strong> · 1:48 · <a href="https://www.youtube.com/watch?v=Snz7V8YgV_M" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

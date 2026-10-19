@@ -780,7 +780,16 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "A6OG_3e1srY",
+        "title": "The Clamp Guard | BJJ Techniques",
+        "channel": "Fenrir Jiu-Jitsu Academy",
+        "duration": 136,
+        "vertical": false,
+        "front": true
+      }
+    ]
   },
   "flashcards_position": [
     {

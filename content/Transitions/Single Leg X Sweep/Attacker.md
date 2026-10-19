@@ -176,6 +176,27 @@ description: "How to execute Single Leg X Sweep in BJJ. Attacking perspective wi
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Single Leg X Sweep (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "2 Minute Jiu Jitsu Ep.59: Modified Single Leg X Guard Sweep",
+      "description": "Single Leg X Sweep (Attacker) film study: 2 Minute Jiu Jitsu Ep.59: Modified Single Leg X Guard Sweep.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ElAdD4QuxXk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ElAdD4QuxXk",
+      "url": "https://www.youtube.com/watch?v=ElAdD4QuxXk",
+      "duration": "PT160S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -192,6 +213,24 @@ The Single Leg X Sweep is a cornerstone technique in modern leg entanglement sys
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Single Leg X Sweep (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ElAdD4QuxXk)
+
+<p class="clip-credit"><strong>2 Minute Jiu Jitsu Ep.59: Modified Single Leg X Guard Sweep</strong> · 2:40 · <a href="https://www.youtube.com/watch?v=ElAdD4QuxXk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

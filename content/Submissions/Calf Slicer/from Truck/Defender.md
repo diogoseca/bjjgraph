@@ -152,37 +152,6 @@ description: "How to defend against Calf Slicer from Truck in BJJ. Recognition, 
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Calf Slicer from Truck (Defender) \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Calf Slicer Defense Part 2 - Late Defense",
-      "description": "Calf Slicer from Truck (Defender) film study: Calf Slicer Defense Part 2 - Late Defense.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/9l-XOzg5DCA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/9l-XOzg5DCA",
-      "url": "https://www.youtube.com/watch?v=9l-XOzg5DCA",
-      "duration": "PT346S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Calf Slicer Defense Part 1 - Early Defense",
-      "description": "Calf Slicer from Truck (Defender) film study: Calf Slicer Defense Part 1 - Early Defense.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/zVi7DtAS76c/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/zVi7DtAS76c",
-      "url": "https://www.youtube.com/watch?v=zVi7DtAS76c",
-      "duration": "PT462S"
-    }
-  ]
-}
-</script>
-
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -196,32 +165,6 @@ Defending the calf slicer from truck requires addressing two simultaneous proble
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Calf Slicer from Truck (Defender) in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=9l-XOzg5DCA)
-
-<p class="clip-credit"><strong>Calf Slicer Defense Part 2 - Late Defense</strong> · 5:46 · <a href="https://www.youtube.com/watch?v=9l-XOzg5DCA" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=zVi7DtAS76c)
-
-<p class="clip-credit"><strong>Calf Slicer Defense Part 1 - Early Defense</strong> · 7:42 · <a href="https://www.youtube.com/watch?v=zVi7DtAS76c" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="recognition-cues" class="content-section">

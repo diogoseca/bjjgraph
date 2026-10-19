@@ -46,16 +46,6 @@ description: "Master the Bow and Arrow Choke from Rear Triangle in BJJ. Learn co
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Bow and Arrow Choke by Helena Crevar",
-      "description": "Bow and Arrow Choke from Rear Triangle film study: Bow and Arrow Choke by Helena Crevar.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/rc77idEskwo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/rc77idEskwo",
-      "url": "https://www.youtube.com/watch?v=rc77idEskwo",
-      "duration": "PT55S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
       "name": "Bow \u0026 Arrow Choke",
       "description": "Bow and Arrow Choke from Rear Triangle film study: Bow \u0026 Arrow Choke.",
       "thumbnailUrl": "https://i.ytimg.com/vi/R5LFNqtx1ps/hqdefault.jpg",
@@ -121,14 +111,6 @@ Strategically, this submission sits at the intersection of two high-control syst
 
 <p class="section-subtitle">Watch Bow and Arrow Choke from Rear Triangle in action — curated instructionals</p>
 
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=rc77idEskwo)
-
-<p class="clip-credit"><strong>Bow and Arrow Choke by Helena Crevar</strong> · 0:55 · <a href="https://www.youtube.com/watch?v=rc77idEskwo" rel="noopener">Watch on YouTube</a></p>
-
-</div>
 
 <div class="film-clip">
 

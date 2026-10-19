@@ -36,27 +36,6 @@ description: "Learn Open Guard to Deep Half transition in BJJ. Step-by-step exec
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Open Guard to Deep Half \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Knee Slide Pass Counter to Deep Half Guard Entry",
-      "description": "Open Guard to Deep Half film study: Knee Slide Pass Counter to Deep Half Guard Entry.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/K0XMj9BNJ8U/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/K0XMj9BNJ8U",
-      "url": "https://www.youtube.com/watch?v=K0XMj9BNJ8U",
-      "duration": "PT133S"
-    }
-  ]
-}
-</script>
-
 
 
 <script type="application/ld+json">
@@ -95,24 +74,6 @@ The open guard to deep half pathway is most effective against opponents who comm
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Open Guard to Deep Half in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=K0XMj9BNJ8U)
-
-<p class="clip-credit"><strong>Knee Slide Pass Counter to Deep Half Guard Entry</strong> · 2:13 · <a href="https://www.youtube.com/watch?v=K0XMj9BNJ8U" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="possible-outcomes" class="content-section">

@@ -172,16 +172,6 @@ description: "Defend against the Americana from Technical Mount in BJJ. Recognit
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Simple Americana Armlock Escape",
-      "description": "Americana from Technical Mount (Defender) film study: Simple Americana Armlock Escape.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/NZjUCo8os8Q/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/NZjUCo8os8Q",
-      "url": "https://www.youtube.com/watch?v=NZjUCo8os8Q",
-      "duration": "PT61S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
       "name": "Bent Armlock Escape from Mount",
       "description": "Americana from Technical Mount (Defender) film study: Bent Armlock Escape from Mount.",
       "thumbnailUrl": "https://i.ytimg.com/vi/qVINUjefot8/hqdefault.jpg",
@@ -219,14 +209,6 @@ Defending the Americana from Technical Mount requires immediate recognition of t
 ![](https://www.youtube.com/watch?v=qfoEZtys84k)
 
 <p class="clip-credit"><strong>Bjj defense against the americana</strong> · 0:42 · <a href="https://www.youtube.com/watch?v=qfoEZtys84k" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=NZjUCo8os8Q)
-
-<p class="clip-credit"><strong>Simple Americana Armlock Escape</strong> · 1:01 · <a href="https://www.youtube.com/watch?v=NZjUCo8os8Q" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

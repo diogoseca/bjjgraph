@@ -170,6 +170,27 @@ description: "How to execute Consolidate Mount in BJJ. Attacking perspective wit
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Consolidate Mount (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Fabricio Amaral BJJ - Controlling the mount",
+      "description": "Consolidate Mount (Attacker) film study: Fabricio Amaral BJJ - Controlling the mount.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9BDCNSAnw7I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9BDCNSAnw7I",
+      "url": "https://www.youtube.com/watch?v=9BDCNSAnw7I",
+      "duration": "PT102S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -182,6 +203,24 @@ Consolidate Mount is the critical transition between achieving mount position an
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Consolidate Mount (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=9BDCNSAnw7I)
+
+<p class="clip-credit"><strong>Fabricio Amaral BJJ - Controlling the mount</strong> · 1:42 · <a href="https://www.youtube.com/watch?v=9BDCNSAnw7I" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

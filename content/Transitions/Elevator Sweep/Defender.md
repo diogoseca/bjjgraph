@@ -150,6 +150,27 @@ description: "How to defend against the Elevator Sweep in BJJ. Recognition cues,
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Elevator Sweep (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Counter the Butterfly Guard (Shut It Down Fast)",
+      "description": "Elevator Sweep (Defender) film study: Counter the Butterfly Guard (Shut It Down Fast).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MnTImUhHgvo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/MnTImUhHgvo",
+      "url": "https://www.youtube.com/watch?v=MnTImUhHgvo",
+      "duration": "PT391S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -166,6 +187,24 @@ From a strategic perspective, the defender should view elevator sweep defense no
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Elevator Sweep (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=MnTImUhHgvo)
+
+<p class="clip-credit"><strong>Counter the Butterfly Guard (Shut It Down Fast)</strong> · 6:31 · <a href="https://www.youtube.com/watch?v=MnTImUhHgvo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

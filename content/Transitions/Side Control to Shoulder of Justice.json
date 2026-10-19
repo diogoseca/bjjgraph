@@ -375,7 +375,15 @@
       }
     ],
     "safety_considerations": "The Shoulder of Justice transition involves significant jaw and neck pressure that must be applied with awareness of training partner safety. During drilling, communicate with your partner about pressure intensity and allow them to tap to positional discomfort, not just submissions. Avoid driving shoulder pressure directly into the throat or trachea, as this can cause serious injury. The pressure should target the jaw line and mandible, not the airway. Partners with TMJ disorders or neck injuries should inform you before drilling. Reduce intensity when training with less experienced partners who may not know how to safely defend the position.",
-    "clips": []
+    "clips": [
+      {
+        "id": "PjFg8gFVPpQ",
+        "title": "James Quigg Shoulder of Justice",
+        "channel": "MAD Coach Ses Stevenson",
+        "duration": 59,
+        "front": true
+      }
+    ]
   },
   "defender": {
     "name": "Side Control to Shoulder of Justice Defender",
@@ -539,6 +547,14 @@
         "description": "Partner establishes full Shoulder of Justice and maintains it with competition pressure. Practice controlled breathing, micro-frames, and recognizing escape windows during the attacker's offensive movements. Build tolerance for the position's discomfort while maintaining tactical awareness for escape opportunities."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "nP9qNUwpRO0",
+        "title": "How To Easily Escape From Side Control Even Under Crushing Shoulder Pressure",
+        "channel": "Kenneth Brown",
+        "duration": 125,
+        "front": true
+      }
+    ]
   }
 }

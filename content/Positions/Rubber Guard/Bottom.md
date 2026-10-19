@@ -155,6 +155,27 @@ description: "Master Rubber Guard bottom using the 10th Planet system. Learn Mis
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Rubber Guard (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Rubber Guard TIPS all BEGINNERS should know..",
+      "description": "Rubber Guard (Bottom) film study: Rubber Guard TIPS all BEGINNERS should know...",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WwcWSfurE2A/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/WwcWSfurE2A",
+      "url": "https://www.youtube.com/watch?v=WwcWSfurE2A",
+      "duration": "PT273S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -165,6 +186,24 @@ The Rubber Guard from the bottom perspective represents one of the most innovati
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Rubber Guard (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=WwcWSfurE2A)
+
+<p class="clip-credit"><strong>Rubber Guard TIPS all BEGINNERS should know..</strong> · 4:33 · <a href="https://www.youtube.com/watch?v=WwcWSfurE2A" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="state-invariants" class="content-section">

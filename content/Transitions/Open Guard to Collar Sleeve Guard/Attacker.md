@@ -176,6 +176,27 @@ description: "Master the grip sequencing, timing, and foot placement needed to e
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Open Guard to Collar Sleeve Guard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Understand the Collar Sleeve Guard In 5 Min",
+      "description": "Open Guard to Collar Sleeve Guard (Attacker) film study: Understand the Collar Sleeve Guard In 5 Min.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/PKQEms4w9T4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/PKQEms4w9T4",
+      "url": "https://www.youtube.com/watch?v=PKQEms4w9T4",
+      "duration": "PT339S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -188,6 +209,24 @@ As the attacker executing this transition, your objective is to convert a generi
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Open Guard to Collar Sleeve Guard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=PKQEms4w9T4)
+
+<p class="clip-credit"><strong>Understand the Collar Sleeve Guard In 5 Min</strong> · 5:39 · <a href="https://www.youtube.com/watch?v=PKQEms4w9T4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

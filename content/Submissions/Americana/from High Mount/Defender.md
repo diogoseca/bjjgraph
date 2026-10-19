@@ -178,16 +178,6 @@ description: "Defend the Americana shoulder lock from High Mount. Recognition cu
       "embedUrl": "https://www.youtube.com/embed/qnRj5DpzGmc",
       "url": "https://www.youtube.com/watch?v=qnRj5DpzGmc",
       "duration": "PT51S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Defending The Americana - BJJ Move by Lachlan Giles",
-      "description": "Americana from High Mount (Defender) film study: Defending The Americana - BJJ Move by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/FNyL93v5fGs/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/FNyL93v5fGs",
-      "url": "https://www.youtube.com/watch?v=FNyL93v5fGs",
-      "duration": "PT91S"
     }
   ]
 }
@@ -227,14 +217,6 @@ Defending the Americana from high mount requires early recognition and immediate
 ![](https://www.youtube.com/watch?v=qnRj5DpzGmc)
 
 <p class="clip-credit"><strong>Americana defense with wrist lock</strong> · 0:51 · <a href="https://www.youtube.com/watch?v=qnRj5DpzGmc" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=FNyL93v5fGs)
-
-<p class="clip-credit"><strong>Defending The Americana - BJJ Move by Lachlan Giles</strong> · 1:31 · <a href="https://www.youtube.com/watch?v=FNyL93v5fGs" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

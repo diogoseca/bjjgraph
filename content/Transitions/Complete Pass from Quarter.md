@@ -46,16 +46,6 @@ description: "Master the Complete Pass from Quarter Guard in BJJ. Expert guide t
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Marcus \"Buchecha\" Almeida MMA Clever Half Guard/Quarter Guard Escape \u0026 Pass +\u2026",
-      "description": "Complete Pass from Quarter film study: Marcus \"Buchecha\" Almeida MMA Clever Half Guard/Quarter Guard Escape \u0026 Pass +\u2026.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/8lAqEhHz8ao/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/8lAqEhHz8ao",
-      "url": "https://www.youtube.com/watch?v=8lAqEhHz8ao",
-      "duration": "PT37S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
       "name": "EASY Way to Free Your Foot While Passing Half Guard",
       "description": "Complete Pass from Quarter film study: EASY Way to Free Your Foot While Passing Half Guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/kTSMGYlVJKY/hqdefault.jpg",
@@ -112,14 +102,6 @@ Understanding this transition is essential for any practitioner who regularly em
 
 <p class="section-subtitle">Watch Complete Pass from Quarter in action — curated instructionals</p>
 
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=8lAqEhHz8ao)
-
-<p class="clip-credit"><strong>Marcus &#34;Buchecha&#34; Almeida MMA Clever Half Guard/Quarter Guard Escape &amp; Pass +…</strong> · 0:37 · <a href="https://www.youtube.com/watch?v=8lAqEhHz8ao" rel="noopener">Watch on YouTube</a></p>
-
-</div>
 
 <div class="film-clip">
 

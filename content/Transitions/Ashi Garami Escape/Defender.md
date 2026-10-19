@@ -142,6 +142,27 @@ description: "How to prevent and counter the Ashi Garami Escape in BJJ. Retentio
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Ashi Garami Escape (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Understanding The Leglock Ashi Garami Control",
+      "description": "Ashi Garami Escape (Defender) film study: Understanding The Leglock Ashi Garami Control.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/TfphXCUTdIk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/TfphXCUTdIk",
+      "url": "https://www.youtube.com/watch?v=TfphXCUTdIk",
+      "duration": "PT426S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -156,6 +177,24 @@ Effective ashi garami retention demands active grip management, constant hip fol
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Ashi Garami Escape (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=TfphXCUTdIk)
+
+<p class="clip-credit"><strong>Understanding The Leglock Ashi Garami Control</strong> · 7:06 · <a href="https://www.youtube.com/watch?v=TfphXCUTdIk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

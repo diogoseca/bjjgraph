@@ -150,6 +150,27 @@ description: "How to defend against Rear Naked Choke Setup in BJJ. Recognition c
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Rear Naked Choke Setup (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Defending The Rear Naked Choke... What to do with your face",
+      "description": "Rear Naked Choke Setup (Defender) film study: Defending The Rear Naked Choke... What to do with your face.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/zQfqWkK5tZ0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/zQfqWkK5tZ0",
+      "url": "https://www.youtube.com/watch?v=zQfqWkK5tZ0",
+      "duration": "PT132S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -166,6 +187,24 @@ Strategically, your defensive priorities follow a strict hierarchy: protect the 
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Rear Naked Choke Setup (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=zQfqWkK5tZ0)
+
+<p class="clip-credit"><strong>Defending The Rear Naked Choke... What to do with your face</strong> · 2:12 · <a href="https://www.youtube.com/watch?v=zQfqWkK5tZ0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

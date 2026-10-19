@@ -66,16 +66,6 @@ description: "Master the Armbar from Technical Mount in BJJ. Complete guide to s
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "BJJ Techniques: Wrist Control to Arm Bar by Gordon Ryan",
-      "description": "Armbar from Technical Mount film study: BJJ Techniques: Wrist Control to Arm Bar by Gordon Ryan.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/55Ux8giP_PY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/55Ux8giP_PY",
-      "url": "https://www.youtube.com/watch?v=55Ux8giP_PY",
-      "duration": "PT226S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 4,
       "name": "Anatomy of the Arm Bar | #shorts",
       "description": "Armbar from Technical Mount film study: Anatomy of the Arm Bar | #shorts.",
       "thumbnailUrl": "https://i.ytimg.com/vi/92INP2YJIMg/hqdefault.jpg",
@@ -155,14 +145,6 @@ Strategic deployment of this armbar centers on reading the defender's reactions 
 ![](https://www.youtube.com/watch?v=PE61YGNeYzU)
 
 <p class="clip-credit"><strong>Special technique to start finishing your arm-bars from mount! | SANABUL #shorts</strong> · 1:22 · <a href="https://www.youtube.com/watch?v=PE61YGNeYzU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=55Ux8giP_PY)
-
-<p class="clip-credit"><strong>BJJ Techniques: Wrist Control to Arm Bar by Gordon Ryan</strong> · 3:46 · <a href="https://www.youtube.com/watch?v=55Ux8giP_PY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

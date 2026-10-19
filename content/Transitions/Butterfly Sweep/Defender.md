@@ -150,6 +150,27 @@ description: "How to defend against Butterfly Sweep in BJJ. Recognition cues, de
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Butterfly Sweep (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Defending Butterfly Hooks",
+      "description": "Butterfly Sweep (Defender) film study: Defending Butterfly Hooks.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Wgnw31_o3kk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Wgnw31_o3kk",
+      "url": "https://www.youtube.com/watch?v=Wgnw31_o3kk",
+      "duration": "PT58S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -164,6 +185,24 @@ The defender's strategic framework centers on disrupting the sweep's prerequisit
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Butterfly Sweep (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Wgnw31_o3kk)
+
+<p class="clip-credit"><strong>Defending Butterfly Hooks</strong> · 0:58 · <a href="https://www.youtube.com/watch?v=Wgnw31_o3kk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

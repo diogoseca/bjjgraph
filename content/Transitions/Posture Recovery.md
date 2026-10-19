@@ -46,12 +46,12 @@ description: "Learn Posture Recovery in BJJ. Defensive technique for regaining u
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Breaking someone\u2019s posture in closed guard! #graciewestchase #Q\u0026A #closedguard\u2026",
-      "description": "Posture Recovery film study: Breaking someone\u2019s posture in closed guard! #graciewestchase #Q\u0026A #closedguard\u2026.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/dTWJ181R4uo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/dTWJ181R4uo",
-      "url": "https://www.youtube.com/watch?v=dTWJ181R4uo",
-      "duration": "PT81S"
+      "name": "Regaining posture in closed guard",
+      "description": "Posture Recovery film study: Regaining posture in closed guard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Snz7V8YgV_M/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Snz7V8YgV_M",
+      "url": "https://www.youtube.com/watch?v=Snz7V8YgV_M",
+      "duration": "PT108S"
     }
   ]
 }
@@ -105,9 +105,9 @@ When executed properly, posture recovery neutralizes the guard player's attacks 
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=dTWJ181R4uo)
+![](https://www.youtube.com/watch?v=Snz7V8YgV_M)
 
-<p class="clip-credit"><strong>Breaking someone’s posture in closed guard! #graciewestchase #Q&amp;A #closedguard…</strong> · 1:21 · <a href="https://www.youtube.com/watch?v=dTWJ181R4uo" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Regaining posture in closed guard</strong> · 1:48 · <a href="https://www.youtube.com/watch?v=Snz7V8YgV_M" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

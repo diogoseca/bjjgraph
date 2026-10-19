@@ -52,16 +52,6 @@ description: "Master the Straight Footlock finish in BJJ. Complete guide to ankl
       "embedUrl": "https://www.youtube.com/embed/jb-N_bthNeo",
       "url": "https://www.youtube.com/watch?v=jb-N_bthNeo",
       "duration": "PT49S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Tex Johnson | STRAIGHT ANKLE LOCKS",
-      "description": "Straight Footlock film study: Tex Johnson | STRAIGHT ANKLE LOCKS.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/3h9twIIueXU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/3h9twIIueXU",
-      "url": "https://www.youtube.com/watch?v=3h9twIIueXU",
-      "duration": "PT49S"
     }
   ]
 }
@@ -118,14 +108,6 @@ The technique is legal at all belt levels under IBJJF rules and represents the f
 ![](https://www.youtube.com/watch?v=jb-N_bthNeo)
 
 <p class="clip-credit"><strong>Straight Ankle Lock Tips</strong> · 0:49 · <a href="https://www.youtube.com/watch?v=jb-N_bthNeo" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=3h9twIIueXU)
-
-<p class="clip-credit"><strong>Tex Johnson | STRAIGHT ANKLE LOCKS</strong> · 0:49 · <a href="https://www.youtube.com/watch?v=3h9twIIueXU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

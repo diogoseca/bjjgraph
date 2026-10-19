@@ -401,7 +401,16 @@
       }
     ],
     "safety_considerations": "Hand fighting from back control is generally safe during training but requires awareness of neck positioning. Avoid explosive head movements while under choke threat as this can strain neck muscles. Partners should apply submission attempts gradually, allowing time for defensive response. When practicing, tap early if a choke locks in despite your hand fighting to prevent unconsciousness. If you experience tingling in extremities or vision changes, tap immediately. Practitioners with prior neck injuries should inform partners and may need modified training protocols. During intense drilling, monitor grip fatigue that can lead to forearm cramping.",
-    "clips": []
+    "clips": [
+      {
+        "id": "Wga4PfuShEg",
+        "title": "Back Control (Defending) Seatbelt Grip",
+        "channel": "Academy Jiu Jitsu",
+        "duration": 114,
+        "vertical": false,
+        "front": true
+      }
+    ]
   },
   "defender": {
     "name": "Hand Fighting from Back Defender",
@@ -571,7 +580,15 @@
         "description": "Partner provides full resistance hand fighting while you work complete sequences from grip battle to submission finish. Practice arm switches to choke, gift wrap transitions, and patience-based compression strategies. Develop ability to recognize and exploit grip fatigue windows."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "51cmLSANvsw",
+        "title": "Finish Every Rear Naked Choke, Even If They Hand Fight! | Joe Solecki",
+        "channel": "Joe Solecki",
+        "duration": 153,
+        "front": true
+      }
+    ]
   },
   "variants_and_adaptations": [
     {

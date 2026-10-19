@@ -182,6 +182,27 @@ description: "How to execute Stack Pass in BJJ. Complete attacking guide with se
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Stack Pass (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "David Morris 24AUG  Closed Guard Break to Stack Pass",
+      "description": "Stack Pass (Attacker) film study: David Morris 24AUG  Closed Guard Break to Stack Pass.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ZhB5ipMXXPQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ZhB5ipMXXPQ",
+      "url": "https://www.youtube.com/watch?v=ZhB5ipMXXPQ",
+      "duration": "PT363S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -194,6 +215,24 @@ The Stack Pass is a fundamental pressure passing technique that uses vertical pr
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Stack Pass (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ZhB5ipMXXPQ)
+
+<p class="clip-credit"><strong>David Morris 24AUG  Closed Guard Break to Stack Pass</strong> · 6:03 · <a href="https://www.youtube.com/watch?v=ZhB5ipMXXPQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

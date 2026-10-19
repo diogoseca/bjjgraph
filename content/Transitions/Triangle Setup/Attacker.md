@@ -176,6 +176,27 @@ description: "How to execute Triangle Setup in BJJ. Attacking perspective with s
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Triangle Setup (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Basic Triangle Choke Set Up From Closed Guard",
+      "description": "Triangle Setup (Attacker) film study: Basic Triangle Choke Set Up From Closed Guard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CEPp45IenVw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/CEPp45IenVw",
+      "url": "https://www.youtube.com/watch?v=CEPp45IenVw",
+      "duration": "PT202S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -190,6 +211,24 @@ The triangle setup demonstrates the principle of using the opponent's defensive 
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Triangle Setup (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=CEPp45IenVw)
+
+<p class="clip-credit"><strong>Basic Triangle Choke Set Up From Closed Guard</strong> · 3:22 · <a href="https://www.youtube.com/watch?v=CEPp45IenVw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

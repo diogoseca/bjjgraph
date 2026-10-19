@@ -142,6 +142,27 @@ description: "How to defend against the Crossface Pass in BJJ. Recognition cues,
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Crossface Pass (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "2 Half Guard Cross Face \u0026 Underhook Counters",
+      "description": "Crossface Pass (Defender) film study: 2 Half Guard Cross Face \u0026 Underhook Counters.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ur34e6zRGd4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ur34e6zRGd4",
+      "url": "https://www.youtube.com/watch?v=ur34e6zRGd4",
+      "duration": "PT460S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -156,6 +177,24 @@ The defender's primary objective is to prevent the passer from achieving the fla
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Crossface Pass (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ur34e6zRGd4)
+
+<p class="clip-credit"><strong>2 Half Guard Cross Face &amp; Underhook Counters</strong> · 7:40 · <a href="https://www.youtube.com/watch?v=ur34e6zRGd4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

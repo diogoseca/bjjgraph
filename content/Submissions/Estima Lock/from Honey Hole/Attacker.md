@@ -194,16 +194,6 @@ description: "Learn to attack the Estima Lock from Honey Hole position. Step-by-
       "embedUrl": "https://www.youtube.com/embed/Cj9M9qeS0WE",
       "url": "https://www.youtube.com/watch?v=Cj9M9qeS0WE",
       "duration": "PT151S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "\u30a8\u30b9\u30c6\u30a3\u30de\u30ed\u30c3\u30af\u3068\u30a8\u30b9\u30c6\u30a3\u30de\u30ed\u30c3\u30af\u306e\u30a8\u30b9\u30b1\u30fc\u30d7 Estima Lock and Estima Lock Escape by \u30d6\u30c9\u30fc\u30fb\u30b8\u30a7\u30a4\u30af",
-      "description": "Estima Lock from Honey Hole (Attacker) film study: \u30a8\u30b9\u30c6\u30a3\u30de\u30ed\u30c3\u30af\u3068\u30a8\u30b9\u30c6\u30a3\u30de\u30ed\u30c3\u30af\u306e\u30a8\u30b9\u30b1\u30fc\u30d7 Estima Lock and Estima Lock Escape by \u30d6\u30c9\u30fc\u30fb\u30b8\u30a7\u30a4\u30af.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/bafAzBYWXmw/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/bafAzBYWXmw",
-      "url": "https://www.youtube.com/watch?v=bafAzBYWXmw",
-      "duration": "PT308S"
     }
   ]
 }
@@ -235,14 +225,6 @@ Attacking with the Estima Lock from Honey Hole requires recognizing when heel ho
 ![](https://www.youtube.com/watch?v=Cj9M9qeS0WE)
 
 <p class="clip-credit"><strong>Estima Lock from Inside Your Partner&#39;s Reverse De La Riva Guard</strong> · 2:31 · <a href="https://www.youtube.com/watch?v=Cj9M9qeS0WE" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=bafAzBYWXmw)
-
-<p class="clip-credit"><strong>エスティマロックとエスティマロックのエスケープ Estima Lock and Estima Lock Escape by ブドー・ジェイク</strong> · 5:08 · <a href="https://www.youtube.com/watch?v=bafAzBYWXmw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -30,6 +30,8 @@ people actually arrive here. Index A answers *"what shipped in vN?"*.
 ## Index A — by version
 
 - **v1.228.0** — [Article sections and floating contents](#v12280--article-sections-and-floating-contents)
+- **v1.227.7** — [Fresh teaching evidence and ranked video fronts](#v12277--fresh-teaching-evidence-and-ranked-video-fronts)
+
 - **v1.227.6** — [Node identities and their real mechanics](#v12276--node-identities-and-their-real-mechanics)
 
 - **v1.227.4** — [Default overview mixes both halves after the first hand](#v12274--default-overview-mixes-both-halves-after-the-first-hand)
@@ -11145,191 +11147,125 @@ The unchanged first-hand gate passed both matched samples. The completed change 
 11 requests. Eager gzip is 346,487 (+3,489 against the 342,998 checkpoint); deferred raw remains
 480,054 / 500,000 and its gzip changes by +9. Palette size and payload baselines are unchanged.
 
+
 ## v1.228.0 — Article sections and floating contents
 
-The complete published article now follows the existing choices row as separate cards.
-The approved order is untitled Videos, Overview, Essential principles, the authored
-recognition/setup and options for the current side, Safety guides, Common mistakes, other
-authored groups in source order, then Related. Learning and System Sources remain last.
-Missing groups are omitted; a defender receives shared hub safety, never attacker fallback
-prose. The app groups the existing article DOM, retaining source text and anchor identity;
-templates, generated pages and the corpus census do not change. The external gap is 6px.
+The complete article follows choices as separate cards: untitled Videos, Overview,
+Essential principles, the current side's recognition/setup and options, Safety guides,
+Common mistakes, other authored groups, then Related; Learning/System Sources stay last.
+Missing groups are omitted. Defenders inherit hub safety, never attacker fallback prose.
+Grouping preserves the published DOM's text and anchors; the external gap is 6px.
+Sections changes no templates, generated content or census.
 
-The owner's D-318 review removes the perspectives switch: the current node's other half
-changes role through the same canonical reading/history owner. The floating index names
-the technique, role and origin. It replaces both the desktop rail and tablet Contents
-panel with a fixed, containerless list at the right control inset.
-It never contributes to article width or centering. At a 24px inset, a 200px list plus 12px
-clearance first fits beside the centered 680px article at 1152px. Below that measured fit,
-and on phones or short landscape screens, section headers retain the same controls.
-Labels scroll to a section; the separate 44px eye targets collapse its body to the header.
-Collapsed labels remain opaque and grey. A small text shadow supports contrast over the
-canvas without adding a panel. Scalar `readerSection.*` preferences use the existing
-per-key account sync and Settings editor; missing keys mean shown.
+D-318 removes the perspectives switch: the node's other half changes role through the
+canonical reading/history owner. The fixed, containerless index names technique, role
+and origin without shifting the centered 680px article. Its 200px width, 24px right inset
+and 12px clearance first fit at 1152px. Below that fit, on phones and in short landscape,
+section headers retain the controls. Labels scroll; separate 44px eyes collapse bodies
+to their headers. Collapsed labels stay opaque grey; text shadow aids canvas contrast.
+Scalar `readerSection.*` settings use existing per-key account sync and Settings; absent
+keys mean shown. `attachInput` names the overlay; native-mouse tests retain canvas and
+first-click SVG-replacement controls.
 
-The first 1152px screenshot exposed the current node's label crossing the TOC. An initial
-occupied-gutter camera correction fixed that collision, but D-318 U4a supersedes it:
-arrival centres the complete pair and label in the space above the first section, using
-`pairMid`, `_LY` and the measured label width. Native scrolling covers the stationary
-node with the sections. The reader no longer wraps `_paneCameraTarget`. Eight-width
-journeys assert the centred pair and native occlusion; restoring the retired gutter
-correction fails the new claim. The article remains independently centred. Input tests
-retain the canvas positive control and the first-mouse SVG replacement race;
-`attachInput` names the overlay explicitly.
+D-318 U4a supersedes the initial free-gutter collision fix: arrival centers the whole
+pair/name above the first section, using `pairMid`, `_LY` and measured label width.
+Native scrolling covers the node; reader no longer wraps `_paneCameraTarget`. Eight-width
+journeys pin centering/occlusion; restoring the gutter correction fails. With Book shown
+the shelf is absent. Questions and Moves have
+44px headers and index eyes using existing game settings. Moves follows the unchanged
+16px deck gap, the hand follows its header, and prose follows with 6px clearance. Book
+off retains the restore shelf; U7's View disclosure remains pending.
 
-With Book shown, the bottom shelf is absent. Questions and Moves have named 44px headers
-and separate eyes in the index, using the existing game visibility settings. The Moves
-header follows the unchanged 16px deck gap; the hand follows its header immediately.
-The article follows the hand with the same 6px gap. Book off retains the restore shelf.
+One `_landFilmEl` moves through `place(target)` between article and game-scrollport homes.
+`moveBefore` preserves the player; fallback `appendChild` first calls `pauseLandFilm`,
+then invalidates stale handles/callback generations. Hiding Videos pauses without
+destroying or calling `collapseClip`. Desktop reserves 400px media, a 60px gap, 390px face
+and 52px right-arrow space; outside 44px arrows stay put. Below the 902px composition fit,
+media stacks above practice with 12px clearance; at 390px, media is 358px and face 286px.
+Set width before measuring `currentFilmHeight()` or the host rect. One rAF coalesces
+layout; unchanged styles are not rewritten. Article/shelf share that writer; fixed replay
+keeps its own. A pre-load press latch defers adoption until the native click. Both append
+and moveBefore tests pin question identity, geometry and exactly one paid answer.
 
-D-325 also fixes a pre-existing Browse target shift proved on dev 2fe86f33a:
-while a pointer rests over Mount, the real aliases response removes a loading
-row and lifts Mount from y624 to y594, making the click open Mount-to-Armbar.
-Late payload repaints now wait until the pointer leaves the results list; the
-existing press guard still delivers a held click first. Typing remains immediate.
-The original reading-mode Browse journey is unchanged. A separate held-response
-journey pins both widths, click/press/leave, exact button identity and geometry,
-native article navigation and publication of newly matched aliases after leave.
-Its remove-hover-protection control must fail the clicked-article assertion,
-never count a wait timeout as a kill.
+Without `readerChromeFrame`, Focus/Browse precedes Questions in flow and reference titles
+precede their articles; no head height is reserved in the map band. With the hook,
+`headBottom` replaces only the old flow top, and `offset` follows the node band/gaps before
+the fit clamp. Optional `bottomReserve` gives `end = viewportHeight - bottomReserve`;
+otherwise visible shelf top minus 8px bounds the flow. A hidden shelf reserves nothing;
+measured bottom controls and the 8px gap remain. Null/undefined keep fallback geometry.
+Phone tools stay in flow; desktop tools move to chrome. Resetting Quartz's global header
+margin fixes its 32px leak into the required 6px gap on the no-hook path.
 
-There is one `_landFilmEl`. `place(target)` moves it between the article and a normal home
-inside the same native scrollport as practice and choices. Native `moveBefore` preserves
-the player; fallback `appendChild` first calls `pauseLandFilm`, then invalidates stale
-handles and callback generations. Collapsing Videos pauses without destroying anything or
-calling `collapseClip`. Desktop reserves 400px media, a 60px gap, a 390px practice face and
-52px for the right arrow. The 44px outside arrows remain in their original positions.
-Below the 902px composition fit, media stacks above practice with 12px clearance; at 390px
-the media is 358px and the deck face is 286px. Width is set before measuring
-`currentFilmHeight()` or the current host rectangle. A single requestAnimationFrame
-coalesces layout and unchanged geometry is not rewritten. The shelf and article share that
-single writer; fixed replay retains its own. A pointer latch established before reader
-loading holds adoption/layout through a game press and resumes after the native click.
-The integrated first-answer race reproduced with both append and moveBefore: the element
-survived, but its geometry moved between pointerdown and pointerup. The regression forces
-that order at phone and desktop widths, preserving question identity and one paid answer.
+Escape v1.227.0 was merged, never rebased. Its `_executionDock` retains reservation
+ownership; the reader adds measured `rowTop` and game height, preserves group-label
+clearance and leaves native top as hand-position writer. Pre-adoption execution translates
+the fixed rect once. Arrival, resize and deliberate reading release through escape's
+existing contract; units cover both adoption orders. Contract changes are mapped in
+`article_sections_test_migration.json`; `reading-media-placement.spec.ts` owns the shared
+media seam and `article-sections.spec.ts` covers grouping, index and chrome hooks. No
+callers were added to videos' retired helpers; `.r-*` and chrome's `.ng-winbar` stay intact.
 
-Without chrome's optional `readerChromeFrame` hook, Focus/Browse precedes Questions in
-the game flow; reference titles stay above their article. No head height is reserved
-in the map band. With the hook,
-`headBottom` replaces only the old flow top; `offset` is added after the node band and
-game gaps, before the authoritative fit clamp. `bottomReserve`, when supplied, gives
-`end = viewportHeight - bottomReserve`; otherwise the shelf's top minus 8px remains the
-bound when the shelf is visible. With Book shown, the hidden shelf contributes no height;
-the flow still clears the measured bottom controls and the 8px gap. Null and undefined
-preserve fallback geometry. Phone Focus/Browse stay in flow; desktop tools move to chrome.
-The header explicitly resets Quartz's global `header { margin: 2rem 0 }`; without
-that reset, its top margin collapsed through the article and replaced the 6px hand gap
-with 32px only on the no-hook path. Both paths now preserve the same exact flow gaps.
+Review B1 found seatless reference pages lost playback when article iframes were removed.
+Their authored embed metadata now goes to the single existing media owner under a
+canonical reference path: no seat or gameplay film beat, old host retired on navigation,
+Book/Videos hide pauses. Native playback passes for Frames' four published videos at both
+widths and Learning/System video fixtures (neither category had published videos).
+Four new playback and 16 affected journeys pass. Readiness sleeps now wait for coalesced
+layout or finite animation completion without changing geometric/time bounds. The TOC
+late-response check asserts nonempty current labels and targets. Neural.md retains one
+page per accumulated trackpad gesture and cached-face spent-time preservation.
 
-Integration merges escape v1.227.0 rather than rebasing it. Its `_executionDock` owns the
-selected card's reservation lifetime. The reader adds measured `rowTop` and game height
-to that same reservation, preserves group-label clearance and leaves native top as the
-sole hand-position writer. A choice executed before reader adoption is translated once
-from its fixed rectangle. Arrival, resize and deliberate reading release the reservation
-through escape's existing contract. The direct handoff units cover both adoption orders.
+Slower-runner investigation proved two app defects. A question could paint before reader
+adoption, moving a visible answer before a click; publication now gates visibility,
+keyboard and clock until synchronous layout completes. The original measure-then-click
+ordering fails on the old build and passes with no shift; during-press cases remain.
+Inspect's closing transform belongs to its completion callback: reader layout no longer
+clears it or allows horizontal overflow to scroll the target. Native mouse/key and held-
+close tests retain exactly one commit. Cold and loaded reading layouts share the node
+band, preventing late real decks from moving opening-flight aim: forced drift was about
+10.94 world units on dev and 10.95 on earlier sections, now unchanged, with the original
+less-than-three bound retained. Late question backfill assigns its eye's target ID when
+the actual surface is adopted, not only during an earlier section sync.
 
-Removed premises and their replacement assertions are mapped in
-`tests/artifacts/article_sections_test_migration.json`. The shared media contract is in
-`reading-media-placement.spec.ts`; the TOC, semantic grouping and chrome hooks are in
-`article-sections.spec.ts`. No new callers are added to the legacy rendering helpers being
-retired by videos, and its `.r-*` rules remain unchanged. The inert `.ng-winbar` selector
-remains until chrome removes that markup.
+D-322 frames the full painted execution pair/name in free 2-D space without moving the
+clicked card. Native wheel can put the card at y68 while the announcer ends at70.59,
+making vertical-only clearance impossible. Above-card bounds remain wherever that band
+exists; integrator, zoom and pane stamp remain authoritative. Eight cases pass at 4x CPU
+across motion modes, phone, pane and native wheel, with zero clicked-to-stand-in deltas.
+Actual canvas text/shared silhouettes clear occupied rectangles; e26 and the drop-correction
+mutant fail the painted-overlap assertion. The portaled reward is measured through its
+owner. Centered reading/occlusion and both opening-flight controls remain green.
 
-Known UI issue retained for the orchestrator's follow-up: at 390×844 an earned reward's
-dismiss button (x336–366, y110.969–154.969) overlaps the film next arrow
-(x337–381, y108–152). A native tap at (359,130) dismisses the notice; after dismissal
-the arrow scrolls normally. Film-only journeys use ordinary new-user progress instead of
-the harness's artificial White-track completion, preserving all existing arrow assertions.
-That fixture correction does not resolve the real transient collision.
+D-325 fixes dev's Browse shift: aliases lift Mount from y624 to y594 under a still pointer,
+whose trusted click opens Mount-to-Armbar. Repaints now wait for pointer leave through the
+press guard; typing stays immediate. The original journey is byte-identical to dev.
+Six 4x-CPU cases pin both widths, click/press/leave, identity, geometry and alias publication;
+eight existing cases pass. Removing protection fails the clicked-article assertion.
 
-The initial integrated local full core ran 956 cases: 934 passed, five skipped, 17 unexpected
-failures. All 17 passed in the rebuilt 130-case focused run; two new camera-sampler
-failures were stale premises separating gameplay rows from the persistent shelf and
-were repaired without changing bounds. The next run passed all 13 focused cases,
-including the forced phone/desktop press ordering, and all 12 phone execution trials.
-Five final positive controls passed, including native orb tapping, wheel paging and
-both media widths. The original intermittent phone execution geometry did not recur
-in those 12 trials; that does not by itself establish its original cause. The
-orchestrator assigns the final whole-suite gate to GitHub's four core shards plus
-generated suite, with an independent review before merge, instead of another local
-full core holding the shared build lock.
+Known UI issue for follow-up: at 390x844 a reward dismiss button (x336..366,
+y110.969..154.969) overlaps film Next (x337..381, y108..152). A native (359,130) tap dismisses
+the notice; Next works afterward. Film-only tests use normal new-user progress rather
+than artificial White-track completion, preserving arrow assertions without claiming a fix.
 
-The initial mutation report overstated its result: 46 controls failed assertions,
-while the detached-target wheel case timed out before its ownership assertion.
-The delivery observer now runs in capture phase; that control reaches and fails
-`reader.interacting === false`. The runner accepts assertion failures only, rejecting
-wait/test timeouts. Two additional review controls fail independently: corrupt only
-the current TOC label/target, or remove reference playback while retaining article
-text. The aggregate is 49 verified assertion failures (46 retained, three rerun/new),
-not a fresh 49-control run. Two initial survivors exposed coverage
-gaps: identical CSSOM assignments emit no MutationObserver record in Chromium, so
-the media journey now counts owned style calls too (53 vs the expected zero); and
-the old orb fixture no longer crosses a misplaced reader head, so the existing
-approved-home assertion is its precise guard. The unchanged orb-tap journey remains
-green. Mutations restore
-the exact original app hashes. No test tolerance was widened.
+Initial full core: 934 passed, five skipped, 17 failed; all 17 passed in the rebuilt
+130-case run. Later focused/phone controls passed without widened bounds; nonrecurrence
+alone did not classify intermittent geometry. Broad units: 116 suite files passed;
+23 sandbox-restricted suites passed unchanged outside it (122 tests). Final authority
+remains GitHub's four core shards, generated suite and independent review.
 
-Independent review found that removing published iframes had lost playable videos
-on seatless reference pages. The reader now passes their authored embed metadata to
-the existing media owner with a canonical reference path. It never assigns a game
-seat or pays a gameplay film beat; navigation retires the old host, and hiding Book
-or Videos pauses playback. Native playback passes for all four published Frames
-videos at desktop/phone sizes and explicit video fixtures on Learning and System
-pages. The current corpus has 199 embeds on 62 Principle pages and none on Learning
-or System pages; the latter checks are fixtures, not claims of published videos.
-The four new playback cases and 16 affected existing journeys pass. Readiness sleeps
-now observe coalesced layout and finite animation completion, with every original
-geometry/time bound retained. The late-response TOC check asserts the exact nonempty
-set of current labels and targets. Neural.md again explicitly promises one page per
-trackpad gesture and spent-time preservation when restoring a cached face.
+The first mutation tally wrongly counted a detached-wheel timeout. Capture-phase delivery
+now reaches its assertion. Survivors required owned-style call counts (CSSOM writes need
+not emit mutations) and a direct misplaced-head check. D-318 reached 55 assertion kills;
+D-322 made 56/59, three View controls pending; D-325 adds a separate hover kill. Receipts
+retain non-kills; runners reject timeouts and restore original asset hashes.
 
-Subsequent CI and slower-runner investigation exposed two application defects. New
-questions could paint before the reader adopted their final geometry, so a measured
-answer could move before a click. Publication now withholds visibility and keyboard/clock
-eligibility until synchronous layout finishes. The original measure-then-click order
-remains; forced first adoption fails on the old app and passes without movement on the
-fix. The during-press regressions remain. Inspect's closing transform also belonged to
-its completion callback; the reader no longer clears it or lets horizontal overflow
-create an unintended native scroll. Both the full mouse/keyboard execution path and a
-held-close control retain the exact one-commit assertion.
-
-The cold and loaded reading layouts now share the same reserved node band, so a late
-real deck cannot change the opening flight's aim. The forced late-deck case reproduced
-roughly 10.94 world units of drift on dev and 10.95 on the earlier sections app; the
-fixed target remains unchanged. The original less-than-three bound remains. Late
-question backfill also keeps its eye's named target: ID assignment happens when the
-actual replacement surface is adopted, rather than only during a prior section sync.
-
-The D-318 delta has 55 assertion-level mutation kills. D-322 adds one execution control,
-for 56 of 59; three View-dependent controls remain pending. Receipts preserve initial non-kills and corrected target/order
-controls, rather than treating a timeout as a kill. The broad unit gate is accounted
-for: 116 suite files pass in the sandbox, and its 23 subprocess-restricted failures
-pass unchanged outside it (122 tests). These checks do not replace the final CI gate.
-
-D-322 fixes execution framing without moving the clicked card. Native scrolling can
-put that card at y68 while the announcer ends at70.59, making the old vertical-only
-bound impossible. The reader frames the full pair/name in measured free 2-D space;
-the above-card bound remains wherever that band exists. The existing camera integrator,
-zoom and pane stamp remain authoritative. Eight cases pass at 4x CPU, including both
-motion modes, phone, pane opening and native wheel. All clicked-to-stand-in rectangle
-deltas are zero. Actual canvas text and shared drawn silhouettes clear every occupied
-rectangle; old e26 and the drop-correction control fail that painted-overlap assertion.
-The reward is measured through its owner because it portals outside the fixed wrap.
-The centred reading/occlusion case and both unchanged opening-flight bounds still pass.
-
-At the earlier review checkpoint, against independently rebuilt dev 45cf1f9e1 on the
-same emitted corpus: eager gzip
-346,317 → 347,558 B (+1,241); first-hand core gzip 365,711 → 366,831 B (+1,120);
-deferred raw 480,054 → 501,938 B (+21,884); largest chunk remains 39,000 B. Both
-browser first-hand observations count 11 requests. Equivalent CSS grouping saves
-317 B, the duplicate stylesheet wait 91 B, unused generic film-map entries 35 B,
-and the header margin fix three B, totaling 446 B. No further safe feature-preserving
-trim was found in this lane. D-305 and D-305a remain separate historical commits;
-D-305b separately sets both deferred ceilings to the measured 501,938 B, with no
-headroom, for the review's reference-playback fix (+999 B). Videos owns returning
-them to 500,000. Eager growth is 4,560 B against the unchanged 342,998 B checkpoint,
-within its 5,000 B cap. No payload checkpoint was accepted or automatically updated.
+Earlier trims saved 446 B: CSS grouping 317, duplicate style wait 91, unused film-map 35,
+margin fix 3. D-305/D-305a stay separate commits; D-305b sets both deferred ceilings to
+501938 for B1's +999 B, returning to 500000 in videos. After D-318/D-322/D-325 on dev63:
+eager 347964 (+4966 against checkpoint 342998/cap 5000), first-hand core 367235 (11 requests),
+deferred 505023, largest chunk 39000. D-325 trims 34 raw/9 eager-gzip bytes; its final eager
+delta is 39, deferred zero. Final exact D-305c/fingerprint follow U7; no payload checkpoint
+was accepted or automatically updated.
 
 ## v1.227.5 — Clips follow the authored move and role
 
@@ -11617,3 +11553,87 @@ Version remains the owner-assigned 1.227.6. Local validation, one topic-branch p
 the full GitHub gate and independent fresh-30 review follow this accepted re-seed;
 only the owner merges. No local full-core run is started here. Previous archive entries
 and the approved 913,038-character ceiling are unchanged.
+
+
+## v1.227.7 — Fresh teaching evidence and ranked video fronts
+
+PR2 completes D-315 and D-320 on identity dev 2fe86f33a. B5's tournament clip
+zSSw_fUcNxU leaves Cross Collar Choke from 3-4 Mount. S4's 1jsDC-jaPoU and
+Mp7Ffm85k0A leave Marce from Side Control pending one identity question; the
+node is not rewritten to fit its videos. D-320 treats a clear, cooperative
+technique demonstration as teaching even when it is silent or its description
+is empty. Live rolling, event, competition and highlight footage still require
+an instructional breakdown. Bare footer/resource links alone do not exclude a
+complete lesson; explicit paid-course, DVD, membership and coupon calls do.
+
+Fresh evidence covers all 571 surviving D-307 restorations and the authorized
+255 other title-only placements. Final screen: 708 kept, 118 withheld. The
+first random QC (2 weak of 20) stays frozen. Its promotional-call class was
+corrected throughout the screened set; a new disjoint sample found 1 weak of
+20, and that Mir Lock mechanics mismatch was withheld before integration.
+Sampled primary storyboards establish the visual judgments; continuous audio
+and full-motion playback are not claimed.
+
+The 85 accepted second-search front operations are explicitly rebound first to
+merged PR1 and then identity dev. Same-ID reuse never overrides a withholding;
+front changes receive a recorded comparison. Final source: 2,846 references
+(base 2,882) and 1,083 fronts (base 1,042). Position/submission/transition fronts
+are 118/327/638. There are 1,523 active empty halves, 64 active unmarked halves,
+and 226 held role arrays. All 226 held arrays, 56 held hubs and five owner files
+remain exact. Only clip data and Film Study markup change: 165 JSON + 280 MD.
+
+D-323 accepts candidate/tools f92457b3a, base/premerge 2fe86f33a,
+label pr-clip-curation-2-f92457b3a. Receipt 945e51e70d24412b8d5a6067e747c144.
+D-285 changes stamps only on those 445 paths; all 5,962 other tracked content
+files retain their stamps, including the 53 Learning files and hub.
+The five census deltas are +48 JSON-LD blocks, +48 ItemLists, +48 headings,
+-82 article links and +48 outside links. These derive from +48 Film Study
+sections and -130 displayed clips across canonical pages and folder copies.
+All 660 predicted routes match, all 20 SEO samples (both Learning tags included)
+are base-exact, all 14 app rows and three root bundles match, and all 3,256
+model/flashcard files remain byte-identical. All 1,753 dossiers match the exact
+183 clip-array changes in 166 payload files; every other field stays equal.
+The content receipt/tree is new; no other census, SEO or model movement occurs.
+
+Eager gzip stays 346,412 B (+3,414 against 342,998; cap +5,000), deferred raw
+480,054/500,000 B. D-304 floors remain unchanged. The own build, schemas,
+publication-date check and all 41 focused reading/landing tests pass with zero
+retries or skips. The own checkout's D-253 tag birthtime differences are fully
+classified; none appear in the capture. This receipt-bound seed is separate
+from the subsequent version-only commit to 1.227.7. Full workflow replay and
+GitHub's full gate are required on the final head; capture is not CI green.
+
+
+### D-324 — PR 308 role and promotion correction
+
+This correction supersedes the preceding D-323 final-tree counts and receipt.
+The recheck inspected 222 video IDs at 374 screened kept placements. Ten
+wrong-role placements are withheld: x5oNak2YANY at two Americana defenders,
+GOLwVNTVcnY at six screened Kimura defenders plus the expressly ruled Kimura
+Trap defender, and bUZmy2Gu7jo at Kimura from New York Control / defender.
+The Darce from Turtle defender companion rgf9QUebMWE is withheld for its
+on-video paid-instructional solicitation. No replacement is promoted. The
+identity-held Kimura Switch defender stays exact under the retirement ruling;
+the Paper Cutter bottom-counter control stays. Five front flags are removed
+and two additional halves become empty. All 85 second-search front arrays,
+226 held role arrays, 56 held hubs and five owner files remain unchanged.
+
+Final source totals are 2,835 references and 1,078 fronts: position/submission/
+transition fronts 118/322/638. There are 1,525 active empty halves and 67 active
+unmarked halves. Against merged dev, 172 JSON and 289 generated Markdown files
+change only clip data and Film Study markup. D-324 accepts candidate/tools
+304613675, base/premerge 2fe86f33a, label pr-clip-curation-2-304613675; receipt
+8fc0c3604c294548880139330a104f01. The new census deltas are +46 JSON-LD blocks,
++46 ItemLists, +46 headings, -99 article links and +46 outside links, from
++46 Film Study sections and -145 displayed clips including folder copies.
+All 688 projected film routes and 1,753 dossiers match (191 changed arrays in
+173 files). All 20 SEO samples, including both Learning tags, match base;
+14 app rows, three bundles, 3,256 model/flashcard files and all 16,003 output
+paths remain exact. No extra movement or D-304 floor change is accepted.
+
+Payload stays eager gzip 346,412 B and deferred raw 480,054 B. The integrated
+own build, publication-date checks and 41 focused cases pass without retries
+or skips. D-325 classifies the earlier Browse CI failure as a real pre-existing
+app bug owned by the sections PR: this content correction changes no app or
+test code. Full final-head replay and GitHub gates remain required. The new
+receipt-bound baselines replace D-323; version remains exactly 1.227.7.

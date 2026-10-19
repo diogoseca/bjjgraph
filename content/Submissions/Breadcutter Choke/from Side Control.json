@@ -623,18 +623,18 @@
     ],
     "clips": [
       {
+        "id": "u3QCYxp87uk",
+        "title": "3 Bread Cutter Escapes",
+        "channel": "Brandon Quick",
+        "duration": 225,
+        "front": true
+      },
+      {
         "id": "gwqRwPsnNnQ",
         "title": "Paper Cutter Choke + Counter Attack",
         "channel": "Gracie Barra HQ - California",
         "duration": 194,
-        "vertical": false,
-        "front": true
-      },
-      {
-        "id": "u3QCYxp87uk",
-        "title": "3 Bread Cutter Escapes",
-        "channel": "Brandon Quick",
-        "duration": 225
+        "vertical": false
       }
     ]
   }

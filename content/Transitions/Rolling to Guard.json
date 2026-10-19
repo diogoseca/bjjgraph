@@ -580,12 +580,19 @@
     ],
     "clips": [
       {
+        "id": "fbBUFqO6Pso",
+        "title": "Turtle Position in BJJ: Countering the Shoulder Roll",
+        "channel": "Brian Glick",
+        "duration": 324,
+        "vertical": false,
+        "front": true
+      },
+      {
         "id": "WeKW5XTMUxY",
         "title": "This Helped Me Deal With The Roll From Turtle",
         "channel": "Aaron Benzrihem bjj",
         "duration": 223,
-        "vertical": false,
-        "front": true
+        "vertical": false
       }
     ]
   },

@@ -46,22 +46,22 @@ description: "Master the Ezekiel Choke from Mount in BJJ. Learn sleeve grip mech
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "Basic Ezekiel Choke From Mount",
+      "description": "Ezekiel Choke from Mount film study: Basic Ezekiel Choke From Mount.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/di7fsXOGgEg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/di7fsXOGgEg",
+      "url": "https://www.youtube.com/watch?v=di7fsXOGgEg",
+      "duration": "PT40S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
       "name": "SUPER SNEAKY \u0026 EASY EZEKIEL CHOKE",
       "description": "Ezekiel Choke from Mount film study: SUPER SNEAKY \u0026 EASY EZEKIEL CHOKE.",
       "thumbnailUrl": "https://i.ytimg.com/vi/73ukcOj5s74/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/73ukcOj5s74",
       "url": "https://www.youtube.com/watch?v=73ukcOj5s74",
       "duration": "PT59S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Roger Gracie, Setting Up the Ezekiel Choke.",
-      "description": "Ezekiel Choke from Mount film study: Roger Gracie, Setting Up the Ezekiel Choke..",
-      "thumbnailUrl": "https://i.ytimg.com/vi/w-KCxVQFMOU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/w-KCxVQFMOU",
-      "url": "https://www.youtube.com/watch?v=w-KCxVQFMOU",
-      "duration": "PT221S"
     }
   ]
 }
@@ -124,17 +124,17 @@ From a strategic perspective, the Ezekiel Choke from Mount fills a critical role
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=73ukcOj5s74)
+![](https://www.youtube.com/watch?v=di7fsXOGgEg)
 
-<p class="clip-credit"><strong>SUPER SNEAKY &amp; EASY EZEKIEL CHOKE</strong> · 0:59 · <a href="https://www.youtube.com/watch?v=73ukcOj5s74" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Basic Ezekiel Choke From Mount</strong> · 0:40 · <a href="https://www.youtube.com/watch?v=di7fsXOGgEg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=w-KCxVQFMOU)
+![](https://www.youtube.com/watch?v=73ukcOj5s74)
 
-<p class="clip-credit"><strong>Roger Gracie, Setting Up the Ezekiel Choke.</strong> · 3:41 · <a href="https://www.youtube.com/watch?v=w-KCxVQFMOU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>SUPER SNEAKY &amp; EASY EZEKIEL CHOKE</strong> · 0:59 · <a href="https://www.youtube.com/watch?v=73ukcOj5s74" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

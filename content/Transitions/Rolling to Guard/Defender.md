@@ -160,6 +160,16 @@ description: "How to defend against Rolling to Guard in BJJ. Recognition cues, c
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "Turtle Position in BJJ: Countering the Shoulder Roll",
+      "description": "Rolling to Guard (Defender) film study: Turtle Position in BJJ: Countering the Shoulder Roll.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fbBUFqO6Pso/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fbBUFqO6Pso",
+      "url": "https://www.youtube.com/watch?v=fbBUFqO6Pso",
+      "duration": "PT324S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
       "name": "This Helped Me Deal With The Roll From Turtle",
       "description": "Rolling to Guard (Defender) film study: This Helped Me Deal With The Roll From Turtle.",
       "thumbnailUrl": "https://i.ytimg.com/vi/WeKW5XTMUxY/hqdefault.jpg",
@@ -190,6 +200,14 @@ As the defender against Rolling to Guard, you are the top player in turtle who m
 
 <p class="section-subtitle">Watch Rolling to Guard (Defender) in action — curated instructionals</p>
 
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fbBUFqO6Pso)
+
+<p class="clip-credit"><strong>Turtle Position in BJJ: Countering the Shoulder Roll</strong> · 5:24 · <a href="https://www.youtube.com/watch?v=fbBUFqO6Pso" rel="noopener">Watch on YouTube</a></p>
+
+</div>
 
 <div class="film-clip">
 

@@ -46,12 +46,12 @@ description: "Master the Scissor Sweep from Open Guard in BJJ. Learn grip setup,
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Royce Gracie - Scissor Sweep",
-      "description": "Scissor Sweep from Open Guard film study: Royce Gracie - Scissor Sweep.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/-wWHC0uqVAA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/-wWHC0uqVAA",
-      "url": "https://www.youtube.com/watch?v=-wWHC0uqVAA",
-      "duration": "PT12S"
+      "name": "Defending the Scissor Sweep Position",
+      "description": "Scissor Sweep from Open Guard film study: Defending the Scissor Sweep Position.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Ke2QNnPRrWQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Ke2QNnPRrWQ",
+      "url": "https://www.youtube.com/watch?v=Ke2QNnPRrWQ",
+      "duration": "PT37S"
     }
   ]
 }
@@ -105,9 +105,9 @@ The technique's effectiveness at competition level depends heavily on timing and
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=-wWHC0uqVAA)
+![](https://www.youtube.com/watch?v=Ke2QNnPRrWQ)
 
-<p class="clip-credit"><strong>Royce Gracie - Scissor Sweep</strong> · 0:12 · <a href="https://www.youtube.com/watch?v=-wWHC0uqVAA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Defending the Scissor Sweep Position</strong> · 0:37 · <a href="https://www.youtube.com/watch?v=Ke2QNnPRrWQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -36,6 +36,27 @@ description: "Master grip breaking in BJJ with systematic hand fighting methods.
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Grip Break \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Double Sleeve Guard Drill - Grip Break to Bicep Ride",
+      "description": "Grip Break film study: Double Sleeve Guard Drill - Grip Break to Bicep Ride.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/EPAOODLwCj4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/EPAOODLwCj4",
+      "url": "https://www.youtube.com/watch?v=EPAOODLwCj4",
+      "duration": "PT168S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -74,6 +95,24 @@ Mastery of grip breaking transcends the physical technique itself and becomes a 
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Grip Break in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=EPAOODLwCj4)
+
+<p class="clip-credit"><strong>Double Sleeve Guard Drill - Grip Break to Bicep Ride</strong> · 2:48 · <a href="https://www.youtube.com/watch?v=EPAOODLwCj4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="possible-outcomes" class="content-section">

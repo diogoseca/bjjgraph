@@ -150,6 +150,27 @@ description: "How to defend against Knee Slice from Half in BJJ. Recognition cue
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Knee Slice from Half (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Defending the cross knee pass and underhook from half guard",
+      "description": "Knee Slice from Half (Defender) film study: Defending the cross knee pass and underhook from half guard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XhZs3IX_p2s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/XhZs3IX_p2s",
+      "url": "https://www.youtube.com/watch?v=XhZs3IX_p2s",
+      "duration": "PT163S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -166,6 +187,24 @@ Advanced defenders treat the knee slice attempt as an offensive opportunity rath
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Knee Slice from Half (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=XhZs3IX_p2s)
+
+<p class="clip-credit"><strong>Defending the cross knee pass and underhook from half guard</strong> · 2:43 · <a href="https://www.youtube.com/watch?v=XhZs3IX_p2s" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

@@ -376,7 +376,16 @@
       }
     ],
     "safety_considerations": "This transition involves upper body grip changes around the neck and shoulder area. Ensure controlled movements to avoid inadvertent neck compression during arm threading. Partners should communicate immediately if any choking pressure occurs during drill work before the seat belt is properly established. Avoid explosive jerking motions during grip transitions that could strain the partner's cervical spine or shoulder. During training progressions, start slowly and increase speed only as both partners develop comfort with the threading mechanics.",
-    "clips": []
+    "clips": [
+      {
+        "id": "MwxnveKrlxU",
+        "title": "Jiu Jitsu Quick Fix #1: Seatbelt Grip",
+        "channel": "Ben Kool Tech",
+        "duration": 61,
+        "vertical": false,
+        "front": true
+      }
+    ]
   },
   "defender": {
     "name": "Back Control to Seat Belt Control Back Defender",

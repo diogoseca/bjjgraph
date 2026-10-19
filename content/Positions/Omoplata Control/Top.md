@@ -149,6 +149,27 @@ description: "Master Omoplata Control Top in BJJ. Dominant shoulder lock control
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Omoplata Control (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "JJM3.0 Advanced Online Training : Troubleshooting The No Gi Omoplata",
+      "description": "Omoplata Control (Top) film study: JJM3.0 Advanced Online Training : Troubleshooting The No Gi Omoplata.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WdGe841yhsU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/WdGe841yhsU",
+      "url": "https://www.youtube.com/watch?v=WdGe841yhsU",
+      "duration": "PT101S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -159,6 +180,24 @@ Omoplata Control Top represents a dominant shoulder lock position where the top 
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Omoplata Control (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=WdGe841yhsU)
+
+<p class="clip-credit"><strong>JJM3.0 Advanced Online Training : Troubleshooting The No Gi Omoplata</strong> · 1:41 · <a href="https://www.youtube.com/watch?v=WdGe841yhsU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="state-invariants" class="content-section">

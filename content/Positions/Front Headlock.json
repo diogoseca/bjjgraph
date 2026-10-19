@@ -566,7 +566,15 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "R-D4swX69mE",
+        "title": "Front Headlock Series: Essential Snapdown Setups & Hand Fighting",
+        "channel": "TRITAC Martial Arts",
+        "duration": 189,
+        "front": true
+      }
+    ]
   },
   "bottom": {
     "name": "Front Headlock Bottom",

@@ -46,22 +46,12 @@ description: "Master the side control to Kuzure Kesa Gatame transition in BJJ. S
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "\u5d29\u8888\u88df\u56fa\u306e\u9003\u308c\u65b9 /  Kuzure-kesa-gatame Escapes",
-      "description": "Side Control to Kuzure Kesa Gatame film study: \u5d29\u8888\u88df\u56fa\u306e\u9003\u308c\u65b9 /  Kuzure-kesa-gatame Escapes.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/-zFQ6h4yKT4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/-zFQ6h4yKT4",
-      "url": "https://www.youtube.com/watch?v=-zFQ6h4yKT4",
-      "duration": "PT70S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Kuzure Kesa Gatame Escapes",
-      "description": "Side Control to Kuzure Kesa Gatame film study: Kuzure Kesa Gatame Escapes.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/_HjmunOXVtY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/_HjmunOXVtY",
-      "url": "https://www.youtube.com/watch?v=_HjmunOXVtY",
-      "duration": "PT70S"
+      "name": "Side Control to Sideways Side Control (Kuzure Kesa Gatame) Transition Drill\u2026",
+      "description": "Side Control to Kuzure Kesa Gatame film study: Side Control to Sideways Side Control (Kuzure Kesa Gatame) Transition Drill\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/suuUxpNKU5g/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/suuUxpNKU5g",
+      "url": "https://www.youtube.com/watch?v=suuUxpNKU5g",
+      "duration": "PT296S"
     }
   ]
 }
@@ -115,17 +105,9 @@ The critical element of this transition is the arm isolation paired with a small
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=-zFQ6h4yKT4)
+![](https://www.youtube.com/watch?v=suuUxpNKU5g)
 
-<p class="clip-credit"><strong>崩袈裟固の逃れ方 /  Kuzure-kesa-gatame Escapes</strong> · 1:10 · <a href="https://www.youtube.com/watch?v=-zFQ6h4yKT4" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=_HjmunOXVtY)
-
-<p class="clip-credit"><strong>Kuzure Kesa Gatame Escapes</strong> · 1:10 · <a href="https://www.youtube.com/watch?v=_HjmunOXVtY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Side Control to Sideways Side Control (Kuzure Kesa Gatame) Transition Drill…</strong> · 4:56 · <a href="https://www.youtube.com/watch?v=suuUxpNKU5g" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

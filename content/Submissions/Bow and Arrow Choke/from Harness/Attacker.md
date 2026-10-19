@@ -204,16 +204,6 @@ description: "Complete guide to executing the Bow and Arrow Choke from Harness. 
       "embedUrl": "https://www.youtube.com/embed/6yx5No7AKU0",
       "url": "https://www.youtube.com/watch?v=6yx5No7AKU0",
       "duration": "PT42S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Bow and Arrow Choke by Helena Crevar",
-      "description": "Bow and Arrow Choke from Harness (Attacker) film study: Bow and Arrow Choke by Helena Crevar.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/rc77idEskwo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/rc77idEskwo",
-      "url": "https://www.youtube.com/watch?v=rc77idEskwo",
-      "duration": "PT55S"
     }
   ]
 }
@@ -253,14 +243,6 @@ Attacking with the Bow and Arrow Choke from Harness requires a seamless transiti
 ![](https://www.youtube.com/watch?v=6yx5No7AKU0)
 
 <p class="clip-credit"><strong>How To FINISH Your Bow &amp; Arrow Chokes (KEY Detail)</strong> · 0:42 · <a href="https://www.youtube.com/watch?v=6yx5No7AKU0" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=rc77idEskwo)
-
-<p class="clip-credit"><strong>Bow and Arrow Choke by Helena Crevar</strong> · 0:55 · <a href="https://www.youtube.com/watch?v=rc77idEskwo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

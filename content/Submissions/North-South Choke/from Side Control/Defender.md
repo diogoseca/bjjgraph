@@ -144,6 +144,27 @@ description: "Complete defensive guide against the North-South Choke from Side C
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "North-South Choke from Side Control (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "NORTH SOUTH CHOKE DEFENSE - Simple and Effective",
+      "description": "North-South Choke from Side Control (Defender) film study: NORTH SOUTH CHOKE DEFENSE - Simple and Effective.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CC8b5mR79OI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/CC8b5mR79OI",
+      "url": "https://www.youtube.com/watch?v=CC8b5mR79OI",
+      "duration": "PT159S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -157,6 +178,24 @@ Defending against the North-South Choke from Side Control requires early recogni
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch North-South Choke from Side Control (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=CC8b5mR79OI)
+
+<p class="clip-credit"><strong>NORTH SOUTH CHOKE DEFENSE - Simple and Effective</strong> · 2:39 · <a href="https://www.youtube.com/watch?v=CC8b5mR79OI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

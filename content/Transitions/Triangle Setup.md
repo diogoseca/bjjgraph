@@ -36,6 +36,27 @@ description: "Master Triangle Setup from guard in BJJ. Complete guide covering a
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Triangle Setup \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Basic Triangle Choke Set Up From Closed Guard",
+      "description": "Triangle Setup film study: Basic Triangle Choke Set Up From Closed Guard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CEPp45IenVw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/CEPp45IenVw",
+      "url": "https://www.youtube.com/watch?v=CEPp45IenVw",
+      "duration": "PT202S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -74,6 +95,24 @@ This technique serves as a gateway to multiple attacking options including the t
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Triangle Setup in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=CEPp45IenVw)
+
+<p class="clip-credit"><strong>Basic Triangle Choke Set Up From Closed Guard</strong> · 3:22 · <a href="https://www.youtube.com/watch?v=CEPp45IenVw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="possible-outcomes" class="content-section">

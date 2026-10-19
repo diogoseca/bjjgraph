@@ -176,16 +176,6 @@ description: "How to defend against Flying Armbar in BJJ. Recognition, escape pa
       "embedUrl": "https://www.youtube.com/embed/kNdKfUdgO4I",
       "url": "https://www.youtube.com/watch?v=kNdKfUdgO4I",
       "duration": "PT92S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "How To Defeat A Juji-Gatame  By Travis Stevens",
-      "description": "Flying Armbar from Closed Guard (Defender) film study: How To Defeat A Juji-Gatame  By Travis Stevens.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/L2q__Z6hogQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/L2q__Z6hogQ",
-      "url": "https://www.youtube.com/watch?v=L2q__Z6hogQ",
-      "duration": "PT241S"
     }
   ]
 }
@@ -221,14 +211,6 @@ If the attacker does initiate the jump, your response depends on timing. During 
 ![](https://www.youtube.com/watch?v=kNdKfUdgO4I)
 
 <p class="clip-credit"><strong>THIS is my favorite armbar escape! #jiujitsu #jiujitsutips</strong> · 1:32 · <a href="https://www.youtube.com/watch?v=kNdKfUdgO4I" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=L2q__Z6hogQ)
-
-<p class="clip-credit"><strong>How To Defeat A Juji-Gatame  By Travis Stevens</strong> · 4:01 · <a href="https://www.youtube.com/watch?v=L2q__Z6hogQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

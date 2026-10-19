@@ -46,22 +46,12 @@ description: "Master the Stack Pass in BJJ. High-pressure guard passing techniqu
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "\"Mastering Stack Pass Defense: Transition to Triangle Trap Position with\u2026",
-      "description": "Stack Pass film study: \"Mastering Stack Pass Defense: Transition to Triangle Trap Position with\u2026.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/mOvf60z4HS0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/mOvf60z4HS0",
-      "url": "https://www.youtube.com/watch?v=mOvf60z4HS0",
-      "duration": "PT61S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "16_P1_Matt Sera Nogi - Defending Stack Pass",
-      "description": "Stack Pass film study: 16_P1_Matt Sera Nogi - Defending Stack Pass.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Y6R29wW_KrU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Y6R29wW_KrU",
-      "url": "https://www.youtube.com/watch?v=Y6R29wW_KrU",
-      "duration": "PT158S"
+      "name": "David Morris 24AUG  Closed Guard Break to Stack Pass",
+      "description": "Stack Pass film study: David Morris 24AUG  Closed Guard Break to Stack Pass.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ZhB5ipMXXPQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ZhB5ipMXXPQ",
+      "url": "https://www.youtube.com/watch?v=ZhB5ipMXXPQ",
+      "duration": "PT363S"
     }
   ]
 }
@@ -115,17 +105,9 @@ When executed properly, the Stack Pass transitions seamlessly into dominant side
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=mOvf60z4HS0)
+![](https://www.youtube.com/watch?v=ZhB5ipMXXPQ)
 
-<p class="clip-credit"><strong>&#34;Mastering Stack Pass Defense: Transition to Triangle Trap Position with…</strong> · 1:01 · <a href="https://www.youtube.com/watch?v=mOvf60z4HS0" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=Y6R29wW_KrU)
-
-<p class="clip-credit"><strong>16_P1_Matt Sera Nogi - Defending Stack Pass</strong> · 2:38 · <a href="https://www.youtube.com/watch?v=Y6R29wW_KrU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>David Morris 24AUG  Closed Guard Break to Stack Pass</strong> · 6:03 · <a href="https://www.youtube.com/watch?v=ZhB5ipMXXPQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

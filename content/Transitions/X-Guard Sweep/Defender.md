@@ -150,6 +150,27 @@ description: "How to defend against X-Guard Sweep in BJJ. Recognition cues, defe
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "X-Guard Sweep (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "X Guard Defence",
+      "description": "X-Guard Sweep (Defender) film study: X Guard Defence.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/qStfwTHPxLw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/qStfwTHPxLw",
+      "url": "https://www.youtube.com/watch?v=qStfwTHPxLw",
+      "duration": "PT136S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -164,6 +185,24 @@ The defensive hierarchy follows three priorities: first, prevent the sweeper fro
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch X-Guard Sweep (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=qStfwTHPxLw)
+
+<p class="clip-credit"><strong>X Guard Defence</strong> · 2:16 · <a href="https://www.youtube.com/watch?v=qStfwTHPxLw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

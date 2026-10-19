@@ -176,6 +176,27 @@ description: "How to execute Standing up in Base from turtle bottom in BJJ. Step
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Standing up in Base (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Bottom Turtle Position Escape - Stand Up (Cosens Martial Arts)",
+      "description": "Standing up in Base (Attacker) film study: Bottom Turtle Position Escape - Stand Up (Cosens Martial Arts).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/onQvqp-HePo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/onQvqp-HePo",
+      "url": "https://www.youtube.com/watch?v=onQvqp-HePo",
+      "duration": "PT73S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -188,6 +209,24 @@ The technical standup from base is a fundamental defensive movement that allows 
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Standing up in Base (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=onQvqp-HePo)
+
+<p class="clip-credit"><strong>Bottom Turtle Position Escape - Stand Up (Cosens Martial Arts)</strong> · 1:13 · <a href="https://www.youtube.com/watch?v=onQvqp-HePo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

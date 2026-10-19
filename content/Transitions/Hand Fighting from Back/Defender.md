@@ -150,6 +150,27 @@ description: "How to counter hand fighting defense from back control in BJJ. Mai
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Hand Fighting from Back (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Finish Every Rear Naked Choke, Even If They Hand Fight! | Joe Solecki",
+      "description": "Hand Fighting from Back (Defender) film study: Finish Every Rear Naked Choke, Even If They Hand Fight! | Joe Solecki.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/51cmLSANvsw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/51cmLSANvsw",
+      "url": "https://www.youtube.com/watch?v=51cmLSANvsw",
+      "duration": "PT153S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -166,6 +187,24 @@ Advanced back controllers use hand fighting exchanges as opportunities rather th
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Hand Fighting from Back (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=51cmLSANvsw)
+
+<p class="clip-credit"><strong>Finish Every Rear Naked Choke, Even If They Hand Fight! | Joe Solecki</strong> · 2:33 · <a href="https://www.youtube.com/watch?v=51cmLSANvsw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

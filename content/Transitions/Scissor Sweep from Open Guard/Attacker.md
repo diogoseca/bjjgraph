@@ -176,27 +176,6 @@ description: "Master the offensive execution of the Scissor Sweep from Open Guar
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Scissor Sweep from Open Guard (Attacker) \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Royce Gracie - Scissor Sweep",
-      "description": "Scissor Sweep from Open Guard (Attacker) film study: Royce Gracie - Scissor Sweep.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/-wWHC0uqVAA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/-wWHC0uqVAA",
-      "url": "https://www.youtube.com/watch?v=-wWHC0uqVAA",
-      "duration": "PT12S"
-    }
-  ]
-}
-</script>
-
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -209,24 +188,6 @@ Executing the Scissor Sweep from Open Guard requires precise coordination betwee
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Scissor Sweep from Open Guard (Attacker) in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=-wWHC0uqVAA)
-
-<p class="clip-credit"><strong>Royce Gracie - Scissor Sweep</strong> · 0:12 · <a href="https://www.youtube.com/watch?v=-wWHC0uqVAA" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="key-principles" class="content-section">

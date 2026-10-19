@@ -162,26 +162,6 @@ description: "Defend the Darce Choke from Twister Side Control with recognition 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "DEFENDING THE FRONT HEAD LOCK CHOKE - DARCE CHOKE - CHOKE - SUBMISSION - ESCAPE\u2026",
-      "description": "Darce Choke from Twister Side Control (Defender) film study: DEFENDING THE FRONT HEAD LOCK CHOKE - DARCE CHOKE - CHOKE - SUBMISSION - ESCAPE\u2026.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/FMAWiNfgp74/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/FMAWiNfgp74",
-      "url": "https://www.youtube.com/watch?v=FMAWiNfgp74",
-      "duration": "PT30S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "How To Defend Head \u0026 Arm Chokes - Anaconda, Darce \u0026 Arm Triangle",
-      "description": "Darce Choke from Twister Side Control (Defender) film study: How To Defend Head \u0026 Arm Chokes - Anaconda, Darce \u0026 Arm Triangle.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/rAY6Me3rNBE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/rAY6Me3rNBE",
-      "url": "https://www.youtube.com/watch?v=rAY6Me3rNBE",
-      "duration": "PT523S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
       "name": "D\u0027arce Defense",
       "description": "Darce Choke from Twister Side Control (Defender) film study: D\u0027arce Defense.",
       "thumbnailUrl": "https://i.ytimg.com/vi/ug2Kxs54GuU/hqdefault.jpg",
@@ -213,22 +193,6 @@ Defending the Darce Choke from Twister Side Control requires early recognition o
 
 <p class="section-subtitle">Watch Darce Choke from Twister Side Control (Defender) in action — curated instructionals</p>
 
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=FMAWiNfgp74)
-
-<p class="clip-credit"><strong>DEFENDING THE FRONT HEAD LOCK CHOKE - DARCE CHOKE - CHOKE - SUBMISSION - ESCAPE…</strong> · 0:30 · <a href="https://www.youtube.com/watch?v=FMAWiNfgp74" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=rAY6Me3rNBE)
-
-<p class="clip-credit"><strong>How To Defend Head &amp; Arm Chokes - Anaconda, Darce &amp; Arm Triangle</strong> · 8:43 · <a href="https://www.youtube.com/watch?v=rAY6Me3rNBE" rel="noopener">Watch on YouTube</a></p>
-
-</div>
 
 <div class="film-clip">
 

@@ -46,32 +46,12 @@ description: "Master Knee Shield Retention in BJJ. Essential half guard defensiv
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Half Guard / Knee Shield Pass #4",
-      "description": "Knee Shield Retention film study: Half Guard / Knee Shield Pass #4.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Y815hmtzGZA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Y815hmtzGZA",
-      "url": "https://www.youtube.com/watch?v=Y815hmtzGZA",
-      "duration": "PT29S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "How to pass Half Guard Knee Shield with an inside Knee Cut - JiuJitsu Class\u2026",
-      "description": "Knee Shield Retention film study: How to pass Half Guard Knee Shield with an inside Knee Cut - JiuJitsu Class\u2026.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/yj_6xcl2emA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/yj_6xcl2emA",
-      "url": "https://www.youtube.com/watch?v=yj_6xcl2emA",
-      "duration": "PT70S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Passing Knee Shield from Over Under Position",
-      "description": "Knee Shield Retention film study: Passing Knee Shield from Over Under Position.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/MvsgiCFdQPA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/MvsgiCFdQPA",
-      "url": "https://www.youtube.com/watch?v=MvsgiCFdQPA",
-      "duration": "PT115S"
+      "name": "Knee Shield Half Guard Basics",
+      "description": "Knee Shield Retention film study: Knee Shield Half Guard Basics.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/q_ND-09HiWg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/q_ND-09HiWg",
+      "url": "https://www.youtube.com/watch?v=q_ND-09HiWg",
+      "duration": "PT263S"
     }
   ]
 }
@@ -125,25 +105,9 @@ This technique serves as the foundation for modern half guard systems, providing
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=Y815hmtzGZA)
+![](https://www.youtube.com/watch?v=q_ND-09HiWg)
 
-<p class="clip-credit"><strong>Half Guard / Knee Shield Pass #4</strong> · 0:29 · <a href="https://www.youtube.com/watch?v=Y815hmtzGZA" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=yj_6xcl2emA)
-
-<p class="clip-credit"><strong>How to pass Half Guard Knee Shield with an inside Knee Cut - JiuJitsu Class…</strong> · 1:10 · <a href="https://www.youtube.com/watch?v=yj_6xcl2emA" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=MvsgiCFdQPA)
-
-<p class="clip-credit"><strong>Passing Knee Shield from Over Under Position</strong> · 1:55 · <a href="https://www.youtube.com/watch?v=MvsgiCFdQPA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Knee Shield Half Guard Basics</strong> · 4:23 · <a href="https://www.youtube.com/watch?v=q_ND-09HiWg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

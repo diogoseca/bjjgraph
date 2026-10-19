@@ -162,6 +162,16 @@ description: "Defend the Arm Triangle from Side Control. Recognize crossface set
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "3 Arm Triangle Choke Defenses - From Prevention To Late Defense",
+      "description": "Arm Triangle from Side Control (Defender) film study: 3 Arm Triangle Choke Defenses - From Prevention To Late Defense.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Fx6qjR6a_xE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Fx6qjR6a_xE",
+      "url": "https://www.youtube.com/watch?v=Fx6qjR6a_xE",
+      "duration": "PT273S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
       "name": "How to Escape the Head \u0026 Arm Triangle in Jiu Jitsu for all you Whiners",
       "description": "Arm Triangle from Side Control (Defender) film study: How to Escape the Head \u0026 Arm Triangle in Jiu Jitsu for all you Whiners.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Jxd9UkmU5Co/hqdefault.jpg",
@@ -171,7 +181,7 @@ description: "Defend the Arm Triangle from Side Control. Recognize crossface set
     },
     {
       "@type": "VideoObject",
-      "position": 2,
+      "position": 3,
       "name": "The Fastest Escape Out Of The Arm Triangle",
       "description": "Arm Triangle from Side Control (Defender) film study: The Fastest Escape Out Of The Arm Triangle.",
       "thumbnailUrl": "https://i.ytimg.com/vi/D2vkZGTD78I/hqdefault.jpg",
@@ -203,6 +213,14 @@ Defending the arm triangle from side control requires awareness of your near arm
 
 <p class="section-subtitle">Watch Arm Triangle from Side Control (Defender) in action — curated instructionals</p>
 
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Fx6qjR6a_xE)
+
+<p class="clip-credit"><strong>3 Arm Triangle Choke Defenses - From Prevention To Late Defense</strong> · 4:33 · <a href="https://www.youtube.com/watch?v=Fx6qjR6a_xE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
 
 <div class="film-clip">
 

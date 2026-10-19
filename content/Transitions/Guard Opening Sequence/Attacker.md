@@ -176,6 +176,27 @@ description: "How to execute guard opening in BJJ. Step-by-step posture, grip fi
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Guard Opening Sequence (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "If You Struggle Breaking Closed Guard as White Belt, Then Watch This Video",
+      "description": "Guard Opening Sequence (Attacker) film study: If You Struggle Breaking Closed Guard as White Belt, Then Watch This Video.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XrTTVy4-s0k/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/XrTTVy4-s0k",
+      "url": "https://www.youtube.com/watch?v=XrTTVy4-s0k",
+      "duration": "PT324S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -188,6 +209,24 @@ As the attacker executing the Guard Opening Sequence, your objective is to syste
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Guard Opening Sequence (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=XrTTVy4-s0k)
+
+<p class="clip-credit"><strong>If You Struggle Breaking Closed Guard as White Belt, Then Watch This Video</strong> · 5:24 · <a href="https://www.youtube.com/watch?v=XrTTVy4-s0k" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

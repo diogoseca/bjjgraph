@@ -568,18 +568,18 @@
     ],
     "clips": [
       {
-        "id": "bmCjXADzgo4",
-        "title": "The BEST Way To Defend The Arm Drag in Jiu Jitsu Based On My Story With Marcelo…",
-        "channel": "Matt Arroyo Jiu Jitsu ",
-        "duration": 102,
-        "vertical": false,
-        "front": true
-      },
-      {
         "id": "6bocwKQC8Oo",
         "title": "4 Arm Drag Counters Against Seated Guard (No Gi BJJ)",
         "channel": "MMA Leech",
         "duration": 260,
+        "vertical": false,
+        "front": true
+      },
+      {
+        "id": "bmCjXADzgo4",
+        "title": "The BEST Way To Defend The Arm Drag in Jiu Jitsu Based On My Story With Marcelo…",
+        "channel": "Matt Arroyo Jiu Jitsu ",
+        "duration": 102,
         "vertical": false
       }
     ]

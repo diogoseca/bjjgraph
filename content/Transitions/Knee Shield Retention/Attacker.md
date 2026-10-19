@@ -176,6 +176,27 @@ description: "How to execute Knee Shield Retention in BJJ. Attacking perspective
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Knee Shield Retention (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Knee Shield Half Guard Basics",
+      "description": "Knee Shield Retention (Attacker) film study: Knee Shield Half Guard Basics.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/q_ND-09HiWg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/q_ND-09HiWg",
+      "url": "https://www.youtube.com/watch?v=q_ND-09HiWg",
+      "duration": "PT263S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -188,6 +209,24 @@ Knee Shield Retention from the attacker (bottom player) perspective is an active
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Knee Shield Retention (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=q_ND-09HiWg)
+
+<p class="clip-credit"><strong>Knee Shield Half Guard Basics</strong> · 4:23 · <a href="https://www.youtube.com/watch?v=q_ND-09HiWg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

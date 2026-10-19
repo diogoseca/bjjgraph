@@ -150,6 +150,27 @@ description: "How to defend against Back Step in BJJ. Recognition cues, defensiv
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Back Step (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Backstep Retention from Single Leg X",
+      "description": "Back Step (Defender) film study: Backstep Retention from Single Leg X.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ipBdnq-j--g/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ipBdnq-j--g",
+      "url": "https://www.youtube.com/watch?v=ipBdnq-j--g",
+      "duration": "PT302S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -162,6 +183,24 @@ Defending the back step requires the bottom player to recognize early that their
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Back Step (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ipBdnq-j--g)
+
+<p class="clip-credit"><strong>Backstep Retention from Single Leg X</strong> · 5:02 · <a href="https://www.youtube.com/watch?v=ipBdnq-j--g" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

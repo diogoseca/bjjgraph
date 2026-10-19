@@ -156,6 +156,27 @@ description: "Master De La Riva Guard Top passing in BJJ. Complete guide coverin
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "De La Riva Guard (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Dela Riva Pass Variation | Pass the Guard Without Getting Swept",
+      "description": "De La Riva Guard (Top) film study: Dela Riva Pass Variation | Pass the Guard Without Getting Swept.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/okJK3uSS1M0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/okJK3uSS1M0",
+      "url": "https://www.youtube.com/watch?v=okJK3uSS1M0",
+      "duration": "PT190S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -175,6 +196,24 @@ The most effective DLR passers develop a systematic approach that addresses each
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch De La Riva Guard (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=okJK3uSS1M0)
+
+<p class="clip-credit"><strong>Dela Riva Pass Variation | Pass the Guard Without Getting Swept</strong> · 3:10 · <a href="https://www.youtube.com/watch?v=okJK3uSS1M0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="state-invariants" class="content-section">

@@ -160,16 +160,6 @@ description: "Learn to defend and escape the Omoplata from Spider Guard. Recogni
       "embedUrl": "https://www.youtube.com/embed/ocIHY3jBYIQ",
       "url": "https://www.youtube.com/watch?v=ocIHY3jBYIQ",
       "duration": "PT61S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Omoplata Escape \u201cJump Over\u201d",
-      "description": "Omoplata from Spider Guard (Defender) film study: Omoplata Escape \u201cJump Over\u201d.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/nL460qY51vs/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/nL460qY51vs",
-      "url": "https://www.youtube.com/watch?v=nL460qY51vs",
-      "duration": "PT101S"
     }
   ]
 }
@@ -201,14 +191,6 @@ Defending the Omoplata from Spider Guard requires understanding both early preve
 ![](https://www.youtube.com/watch?v=ocIHY3jBYIQ)
 
 <p class="clip-credit"><strong>💯 BEST WAY to ESCAPE THE OMOPLATA Shoulder Lock</strong> · 1:01 · <a href="https://www.youtube.com/watch?v=ocIHY3jBYIQ" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=nL460qY51vs)
-
-<p class="clip-credit"><strong>Omoplata Escape “Jump Over”</strong> · 1:41 · <a href="https://www.youtube.com/watch?v=nL460qY51vs" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

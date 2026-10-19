@@ -162,16 +162,6 @@ description: "Defend against the Americana from Shoulder of Justice. Recognition
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Defending The Americana - BJJ Move by Lachlan Giles",
-      "description": "Americana from Shoulder of Justice (Defender) film study: Defending The Americana - BJJ Move by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/FNyL93v5fGs/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/FNyL93v5fGs",
-      "url": "https://www.youtube.com/watch?v=FNyL93v5fGs",
-      "duration": "PT91S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
       "name": "Escape americana/key lock from side to chest lock.",
       "description": "Americana from Shoulder of Justice (Defender) film study: Escape americana/key lock from side to chest lock..",
       "thumbnailUrl": "https://i.ytimg.com/vi/Unz1euhI2y8/hqdefault.jpg",
@@ -203,14 +193,6 @@ Defending the Americana from Shoulder of Justice requires discipline under extre
 
 <p class="section-subtitle">Watch Americana from Shoulder of Justice (Defender) in action — curated instructionals</p>
 
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=FNyL93v5fGs)
-
-<p class="clip-credit"><strong>Defending The Americana - BJJ Move by Lachlan Giles</strong> · 1:31 · <a href="https://www.youtube.com/watch?v=FNyL93v5fGs" rel="noopener">Watch on YouTube</a></p>
-
-</div>
 
 <div class="film-clip">
 

@@ -511,12 +511,18 @@
     ],
     "clips": [
       {
+        "id": "T7d6kN7GDA8",
+        "title": "Side control attacks - Americana",
+        "channel": "Gracie Jiu-Jitsu Singapore",
+        "duration": 127,
+        "front": true
+      },
+      {
         "id": "mk4jR6Anm8g",
         "title": "Finishing the Americana",
         "channel": "The Muscular Octopus",
         "duration": 71,
-        "vertical": false,
-        "front": true
+        "vertical": false
       }
     ]
   },
@@ -722,20 +728,6 @@
         "title": "Escape americana/key lock from side to chest lock.",
         "channel": "Chuck Jack21",
         "duration": 71,
-        "vertical": false
-      },
-      {
-        "id": "NZjUCo8os8Q",
-        "title": "Simple Americana Armlock Escape",
-        "channel": "Eddie Kone Academy Of Jiu-Jitsu",
-        "duration": 61,
-        "vertical": false
-      },
-      {
-        "id": "x5oNak2YANY",
-        "title": "Americana Defense to Armbar Finish",
-        "channel": "JiuJitsu.com",
-        "duration": 177,
         "vertical": false
       }
     ]

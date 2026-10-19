@@ -142,6 +142,27 @@ description: "How to prevent and defend the Transition to Shoulder of Justice fr
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Side Control to Shoulder of Justice (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How To Easily Escape From Side Control Even Under Crushing Shoulder Pressure",
+      "description": "Side Control to Shoulder of Justice (Defender) film study: How To Easily Escape From Side Control Even Under Crushing Shoulder Pressure.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/nP9qNUwpRO0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/nP9qNUwpRO0",
+      "url": "https://www.youtube.com/watch?v=nP9qNUwpRO0",
+      "duration": "PT125S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -154,6 +175,24 @@ Defending the Transition to Shoulder of Justice requires recognizing the attack 
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Side Control to Shoulder of Justice (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=nP9qNUwpRO0)
+
+<p class="clip-credit"><strong>How To Easily Escape From Side Control Even Under Crushing Shoulder Pressure</strong> · 2:05 · <a href="https://www.youtube.com/watch?v=nP9qNUwpRO0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

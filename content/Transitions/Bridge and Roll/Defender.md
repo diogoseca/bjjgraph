@@ -156,6 +156,27 @@ description: "How to defend and counter the Bridge and Roll escape from mount in
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Bridge and Roll (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "maintaining mount - preventing the bridge escape",
+      "description": "Bridge and Roll (Defender) film study: maintaining mount - preventing the bridge escape.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0dzzXGjWKWI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/0dzzXGjWKWI",
+      "url": "https://www.youtube.com/watch?v=0dzzXGjWKWI",
+      "duration": "PT337S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -168,6 +189,24 @@ Defending the Bridge and Roll from the top mount position requires understanding
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Bridge and Roll (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=0dzzXGjWKWI)
+
+<p class="clip-credit"><strong>maintaining mount - preventing the bridge escape</strong> · 5:37 · <a href="https://www.youtube.com/watch?v=0dzzXGjWKWI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

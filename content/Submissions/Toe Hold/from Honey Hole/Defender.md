@@ -168,16 +168,6 @@ description: "Defend the toe hold from Honey Hole in BJJ. Recognition cues, esca
       "embedUrl": "https://www.youtube.com/embed/3a9k8-ZcYrk",
       "url": "https://www.youtube.com/watch?v=3a9k8-ZcYrk",
       "duration": "PT105S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "K guard vs toe hold and straight foot lock (Lachlan Giles)",
-      "description": "Toe Hold from Honey Hole (Defender) film study: K guard vs toe hold and straight foot lock (Lachlan Giles).",
-      "thumbnailUrl": "https://i.ytimg.com/vi/6-HYU8Pbngg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/6-HYU8Pbngg",
-      "url": "https://www.youtube.com/watch?v=6-HYU8Pbngg",
-      "duration": "PT152S"
     }
   ]
 }
@@ -209,14 +199,6 @@ Defending the toe hold from Honey Hole requires recognizing the grip transition 
 ![](https://www.youtube.com/watch?v=3a9k8-ZcYrk)
 
 <p class="clip-credit"><strong>How to escape from toehold by Gordon Ryan</strong> · 1:45 · <a href="https://www.youtube.com/watch?v=3a9k8-ZcYrk" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=6-HYU8Pbngg)
-
-<p class="clip-credit"><strong>K guard vs toe hold and straight foot lock (Lachlan Giles)</strong> · 2:32 · <a href="https://www.youtube.com/watch?v=6-HYU8Pbngg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

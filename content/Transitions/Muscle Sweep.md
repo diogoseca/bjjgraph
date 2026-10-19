@@ -36,27 +36,6 @@ description: "Master the Muscle Sweep from Closed Guard to Mount. Learn setup, g
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Muscle Sweep \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Xande Ribeiro | MUSCLE SWEEPS",
-      "description": "Muscle Sweep film study: Xande Ribeiro | MUSCLE SWEEPS.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/rten_ydcZiQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/rten_ydcZiQ",
-      "url": "https://www.youtube.com/watch?v=rten_ydcZiQ",
-      "duration": "PT43S"
-    }
-  ]
-}
-</script>
-
 
 
 <script type="application/ld+json">
@@ -91,24 +70,6 @@ The Muscle Sweep is a fundamental attacking technique from Closed Guard that exp
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Muscle Sweep in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=rten_ydcZiQ)
-
-<p class="clip-credit"><strong>Xande Ribeiro | MUSCLE SWEEPS</strong> · 0:43 · <a href="https://www.youtube.com/watch?v=rten_ydcZiQ" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="possible-outcomes" class="content-section">

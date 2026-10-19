@@ -156,6 +156,27 @@ description: "How to defend against Underhook Pass in BJJ. Recognition cues, def
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Underhook Pass (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Recovering The Underhook From Bottom Half-Guard",
+      "description": "Underhook Pass (Defender) film study: Recovering The Underhook From Bottom Half-Guard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ZP6eavAmATU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ZP6eavAmATU",
+      "url": "https://www.youtube.com/watch?v=ZP6eavAmATU",
+      "duration": "PT230S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -168,6 +189,24 @@ Defending the Underhook Pass from half guard bottom requires understanding the p
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Underhook Pass (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ZP6eavAmATU)
+
+<p class="clip-credit"><strong>Recovering The Underhook From Bottom Half-Guard</strong> · 3:50 · <a href="https://www.youtube.com/watch?v=ZP6eavAmATU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

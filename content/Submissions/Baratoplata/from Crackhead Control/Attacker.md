@@ -194,16 +194,6 @@ description: "Learn to attack with the Baratoplata from Crackhead Control. Step-
       "embedUrl": "https://www.youtube.com/embed/1O-BoOWXhzY",
       "url": "https://www.youtube.com/watch?v=1O-BoOWXhzY",
       "duration": "PT232S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Baratoplata from Spider Guard by Joao Miyao",
-      "description": "Baratoplata from Crackhead Control (Attacker) film study: Baratoplata from Spider Guard by Joao Miyao.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/7PzrTuuHzZ4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/7PzrTuuHzZ4",
-      "url": "https://www.youtube.com/watch?v=7PzrTuuHzZ4",
-      "duration": "PT362S"
     }
   ]
 }
@@ -235,14 +225,6 @@ Attacking with the Baratoplata from Crackhead Control requires understanding the
 ![](https://www.youtube.com/watch?v=1O-BoOWXhzY)
 
 <p class="clip-credit"><strong>Modern Jiu Jitsu Episode 1 - Baratoplata Basics.</strong> · 3:52 · <a href="https://www.youtube.com/watch?v=1O-BoOWXhzY" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=7PzrTuuHzZ4)
-
-<p class="clip-credit"><strong>Baratoplata from Spider Guard by Joao Miyao</strong> · 6:02 · <a href="https://www.youtube.com/watch?v=7PzrTuuHzZ4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
