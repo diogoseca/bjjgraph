@@ -1,4 +1,4 @@
-import { test, expect } from "@playwright/test";
+import { test, expect, type Page } from "@playwright/test";
 import { journey } from "../dsl";
 
 /**
@@ -41,6 +41,18 @@ type Read = {
   qShown: number;
   funnel: string[];
 };
+
+// D-333 (the D3-B1 class): since D-318 (af3aac311) a new landing card stays hidden
+// (`data-reader-pending`, visibility:hidden) until the deferred reader publishes it, and a backfill
+// builds a new card that is pending again. Wait for the card a visitor can see, with its finite entry
+// animation done, never for a fixed time: under a 2.5s reader.js hold the clicks below landed on the
+// canvas and the sheet read found a hidden card (claude-verify H14hold: 101, 196 and 271 red).
+const cardSettled = (page: Page) =>
+  expect.poll(() => page.evaluate(() => {
+    const el = document.querySelector("[data-landcard]") as HTMLElement | null;
+    return !!el && getComputedStyle(el).visibility === "visible" && el.getBoundingClientRect().height > 1 &&
+      !el.getAnimations().some((an) => Number.isFinite(an.effect?.getComputedTiming().endTime as number));
+  }), { timeout: 10_000, message: "the landing card is published and its entry animation finished" }).toBe(true);
 
 const read = (page: any): Promise<Read> =>
   page.evaluate(() => {
@@ -155,6 +167,7 @@ test("cold start: the deck payload landing mid-turn gives the CURRENT state its 
   // `document.elementFromPoint` says is really under the cursor — which is what pins the
   // pointer-events:auto trap (a fixed overlay that does not re-enable it is unclickable, because the
   // canvas hit-tests above it, and a keyboard-driven assertion masks that entirely).
+  await cardSettled(page);
   await j.clickByMouse(
     "[data-land-mc-opt]",
     "the backfilled question's first MC option",
@@ -214,7 +227,7 @@ test("cold start: a payload arriving behind the expand sheet renders BEHIND it, 
   await expect(page.locator("[data-go]").first()).toBeVisible();
 
   await decksArrive(page); // the payload lands while the sheet is up
-  await page.waitForTimeout(450); // the card's entry animation must finish before opacity means anything
+  await cardSettled(page); // published, and the entry animation done before opacity means anything
 
   const stack = await page.evaluate(() => {
     const a = (window as any).__neural;
@@ -304,6 +317,7 @@ test("cold start: the FIRST landing carries its question, and a late payload rea
   // BY MOUSE, at measured coordinates: `pointer-events:auto` has to be live on the card, and the
   // option has to be where the visitor can reach it WITHOUT scrolling — exactly the part
   // `locator.click()` cannot say (it scrolls first).
+  await cardSettled(page);
   await j.clickByMouse(
     "[data-land-mc-opt]",
     "the first landing's first MC option",
@@ -363,6 +377,7 @@ test("cold start: a late dossier preserves both the unanswered question and the 
   ).toEqual(before.opts);
   expect(after.shown, "so it was never re-asked").toBe(before.shown);
   // still answerable BY MOUSE, where it sits, after the in-place completion
+  await cardSettled(page);
   await j.clickByMouse(
     "[data-land-mc-opt]",
     "the carried-over question's first MC option",
