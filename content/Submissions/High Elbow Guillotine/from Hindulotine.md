@@ -4,7 +4,7 @@
 
 ---
 title: "High Elbow Guillotine from Hindulotine | BJJ Submission | BJJ Graph"
-description: "Master the High Elbow Guillotine from Hindulotine. Learn elevated elbow finishing mechanics, rotational pressure setups, and defensive counters for this blood choke."
+description: "The high-elbow guillotine raises the supporting elbow over the shoulder. Changing from Hindu Control requires a separate neck grip and leg clearance."
 ---
 
 
@@ -16,7 +16,7 @@ description: "Master the High Elbow Guillotine from Hindulotine. Learn elevated 
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "High Elbow Guillotine from Hindulotine",
-  "description": "Master the High Elbow Guillotine from Hindulotine. Learn elevated elbow finishing mechanics, rotational pressure setups, and defensive counters for this blood choke.",
+  "description": "The high-elbow guillotine raises the supporting elbow over the shoulder. Changing from Hindu Control requires a separate neck grip and leg clearance.",
   "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
 }
 </script>
@@ -87,7 +87,7 @@ description: "Master the High Elbow Guillotine from Hindulotine. Learn elevated 
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "High Elbow Guillotine from Hindulotine",
-  "description": "The High Elbow Guillotine from Hindulotine is a no-gi blood choke that elevates the choking elbow above the opponent's shoulder while the Hindulotine's rotational hip angle wedges the forearm under the chin, compressing both carotid arteries for a rapid tap.",
+  "description": "The High Elbow Guillotine is a guillotine variation that raises the supporting elbow over the opponent's shoulder to help close the neck enclosure and obstruct defensive shoulder movement.",
   "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
 }
 </script>
@@ -97,16 +97,16 @@ description: "Master the High Elbow Guillotine from Hindulotine. Learn elevated 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 
-**The High Elbow Guillotine from Hindulotine is a no-gi blood choke that elevates the choking elbow above the opponent's shoulder while the Hindulotine's rotational hip angle wedges the forearm under the chin, compressing both carotid arteries for a rapid tap.**
+**The High Elbow Guillotine is a guillotine variation that raises the supporting elbow over the opponent's shoulder to help close the neck enclosure and obstruct defensive shoulder movement.**
 <div class="principle-meta">
 <span class="meta-chip">Choke</span>
-<span class="meta-chip">Blood Choke</span>
-<span class="meta-chip">Targets Carotid arteries and trachea</span>
+<span class="meta-chip">High-elbow guillotine</span>
+<span class="meta-chip">Targets Neck</span>
 <span class="meta-chip">58% success</span>
 </div>
 
 > [!danger] Safety
-> High Elbow Guillotine from Hindulotine targets the Carotid arteries and trachea. Primary risk: Carotid artery compression leading to loss of consciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
+> High Elbow Guillotine from Hindulotine targets the Neck. Primary risk: Neck injury from forced extension or twisting. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -117,11 +117,13 @@ description: "Master the High Elbow Guillotine from Hindulotine. Learn elevated 
 
 <section id="overview" class="content-section">
 
-The High Elbow Guillotine from Hindulotine combines two powerful finishing concepts: the elevated elbow position that maximizes carotid compression, and the rotational hip mechanics unique to the Hindulotine control. This variation differs from standard high elbow guillotine entries because the Hindulotine's angled hip position naturally aligns the choking arm at an elevated angle, creating tighter pressure against the neck without requiring the arm strength typically needed to maintain high elbow position from conventional guard.
+The attacker is in front of the lowered head with a neck-wrapping arm and a supporting hand whose elbow can rise over the shoulder. The high elbow belongs to the supporting arm in this guillotine configuration. Hindu Control instead routes an arm over a raised foot; a separate re-grip is needed to change between the two.
 
-From Hindulotine bottom, the practitioner has already established the rotational torque that defines this control position. Adding the high elbow mechanic—driving the choking elbow above the opponent's shoulder line while maintaining the Hindulotine hip angle—creates a compound pressure system. The forearm blade wedges under the chin at a steep angle while the body rotation restricts the opponent's ability to turn or posture away from the choke. This makes the finish exceptionally tight and difficult to defend once fully locked.
+Control the lowered head with a stable base before seeking the finishing grip. Place the choking forearm beside the neck without pulling the head into extension. Close the hand connection while leaving space during the learning drill. Bring the supporting elbow over the shoulder through a comfortable arm path.
 
-Strategically, this submission thrives when the opponent attempts to defend the standard Hindulotine finish by tucking their chin or creating distance. The high elbow adjustment bypasses chin tuck defenses by attacking from above rather than laterally, and the Hindulotine base prevents the space creation that would normally allow escape from a high elbow guillotine in open guard.
+Raise the elbow through available space, never by wrenching the shoulder or neck. Stop at a controlled enclosure in drills and release immediately on any tap.
+
+Instructional sources: [Rob Biernacki and Stephan Kesting — guillotine control](https://www.grapplearts.com/guillotine-choke/); [Ben Eddy — Hindu Control to Hindulotine](https://www.youtube.com/watch?v=Y5ZQNgG2hNc).
 
 **Starting Position**: [[Positions/Hindulotine]] · **From**: [[Positions/Hindulotine]] (Bottom)
 
@@ -183,8 +185,8 @@ Strategically, this submission thrives when the opponent attempts to defend the 
 | &nbsp; | Attacker | Defender |
 |--------|----------|----------|
 | **Focus** | Execute and finish | Escape and survive |
-| **Key Principles** | Elevate the choking elbow above opponent's shoulder line to ... | Recognize the elbow elevation early—once the choking elbow r... |
-| **Options** | 7 execution steps | 4 defensive options |
+| **Key Principles** | Establish front head control: Control the lowered head with ... | Recognize the raised elbow: A support elbow traveling above ... |
+| **Options** | 6 execution steps | 4 defensive options |
 
 </section>
 
@@ -197,51 +199,49 @@ Strategically, this submission thrives when the opponent attempts to defend the 
 ### Key Principles
 
 
-- Elevate the choking elbow above opponent's shoulder line to create a steep compression angle directly on the carotid arteries
+- Establish front head control: Control the lowered head with a stable base before seeking the finishing grip.
 
-- Use the Hindulotine hip angle to structurally support the high elbow position rather than holding it with arm strength alone
+- Seat the neck-wrapping arm: Place the choking forearm beside the neck without pulling the head into extension.
 
-- Drive finishing pressure through core rotation and hip extension, not by squeezing with the arms
+- Connect the support hand: Close the hand connection while leaving space during the learning drill.
 
-- Maintain constant chest-to-back connection with your opponent to prevent the space creation that relieves choking pressure
+- Raise the support elbow: Bring the supporting elbow over the shoulder through a comfortable arm path.
 
-- Control opponent's near-side arm to prevent defensive framing that would open space under the choke
+- Close the enclosure: Adjust body position and elbow connection gradually rather than cranking the neck upward.
 
-- Time the elbow elevation with the squeeze—raise the elbow and tighten simultaneously for maximum effect
+- Release the grip: Open the hands and remove all neck pressure on the first stop signal.
 
 
 ### Execution Steps
 
 
-- **Confirm Hindulotine grip and base**: From bottom Hindulotine, verify your grip is locked with the blade of your forearm under opponent's ...
+- **Establish front head control**: Control the lowered head with a stable base before seeking the finishing grip....
 
-- **Reinforce grip for elbow elevation**: Use your free hand to reinforce the choking grip by cupping your choking hand's fist or grabbing you...
+- **Seat the neck-wrapping arm**: Place the choking forearm beside the neck without pulling the head into extension....
 
-- **Elevate choking elbow above shoulder line**: Begin walking your choking elbow upward past your opponent's shoulder line. The elbow should travel ...
+- **Connect the support hand**: Close the hand connection while leaving space during the learning drill....
 
-- **Rotate hips to feed the angle**: Simultaneously rotate your hips further toward your choking side to create additional space for elbo...
+- **Raise the support elbow**: Bring the supporting elbow over the shoulder through a comfortable arm path....
 
-- **Lock legs and prevent escape**: Tighten your closed guard or reposition your butterfly hooks to prevent your opponent from posturing...
+- **Close the enclosure**: Adjust body position and elbow connection gradually rather than cranking the neck upward....
 
-- **Apply progressive finishing squeeze**: Begin the finishing squeeze by pulling your choking elbow toward your opposite hip while simultaneou...
-
-- **Complete finish with full extension**: Drive through with full hip extension and core rotation while maintaining the elevated elbow angle. ...
+- **Release the grip**: Open the hands and remove all neck pressure on the first stop signal....
 
 
 ### Common Mistakes
 
 
-- **Raising the elbow before reinforcing the grip with the opposite hand**
-  - Consequence: The grip loosens during elevation, allowing opponent to extract their head or reposition their chin to defend the choke
-  - Correction: Always secure your grip reinforcement—cup your fist or grab your own wrist with the free hand—before beginning the elbow elevation. The reinforcement locks the grip in place during the transition.
+- **Skipping the checkpoint: establish front head control**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Control the lowered head with a stable base before seeking the finishing grip.
+  - Correction: Control the lowered head with a stable base before seeking the finishing grip.
 
-- **Attempting the high elbow finish with flat hips directly underneath the opponent**
-  - Consequence: No rotational torque is generated, reducing the finish to a standard arm-strength guillotine that fatigues quickly and is easier to defend
-  - Correction: Maintain the Hindulotine's characteristic perpendicular hip angle throughout the finish. If your hips have flattened, re-establish the angle before attempting the elbow elevation.
+- **Skipping the checkpoint: seat the neck-wrapping arm**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Place the choking forearm beside the neck without pulling the head into extension.
+  - Correction: Place the choking forearm beside the neck without pulling the head into extension.
 
-- **Squeezing with arm strength alone while neglecting hip extension and core rotation**
-  - Consequence: Rapid forearm and bicep fatigue within 10-15 seconds, forcing you to release the choke or accept a weakened grip the opponent can defend
-  - Correction: Use core rotation and hip extension as the primary force generators. Your arms maintain the grip position while your body creates the finishing pressure. Think of your arms as the frame and your hips as the engine.
+- **Skipping the checkpoint: connect the support hand**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Close the hand connection while leaving space during the learning drill.
+  - Correction: Close the hand connection while leaving space during the learning drill.
 
 
 </section>
@@ -255,43 +255,35 @@ Strategically, this submission thrives when the opponent attempts to defend the 
 ### Key Principles
 
 
-- Recognize the elbow elevation early—once the choking elbow rises above your shoulder line, the choke tightens dramatically and defense options narrow
+- Recognize the raised elbow: A support elbow traveling above the shoulder signals the high-elbow variation.
 
-- Fight the grip before fighting the position—breaking or loosening the choking grip is more effective than trying to escape the body position
+- Deny the hand connection: Hand fight before the support hand locks into place.
 
-- Drive into the attacker rather than pulling away, as pulling creates the space they need to elevate the elbow
+- Maintain neck alignment: Do not force the head backward against the closed arm loop.
 
-- Tuck your chin aggressively as a first line of defense, but do not rely on it alone since the high elbow bypasses chin tuck from above
+- Address the enclosure early: Use inside frames before the raised elbow blocks the shoulder space.
 
-- Create frames with your near-side arm to prevent the chest-to-back connection that enables finishing pressure
+- Tap to the secured choke: Do not rely on passing the legs to remove a completed neck enclosure.
 
-- Prioritize posture recovery over lateral escape—achieving vertical alignment relieves the most pressure fastest
+- Move after release: Recover posture only when the neck-wrapping arm and support hand have opened.
 
 
 ### Recognition Cues
 
 
-- Opponent's choking elbow begins rising above your shoulder line while they maintain their neck grip—this is the defining transition from standard Hindulotine to high elbow variant
+- The attacker is in front of the lowered head with a neck-wrapping arm and a supporting hand whose elbow can rise over the shoulder.
 
-- Increased rotational pressure on your neck combined with an upward compression angle that feels different from the lateral pressure of a standard guillotine
+- Place the choking forearm beside the neck without pulling the head into extension.
 
-- Opponent's hips shifting further perpendicular to your spine while they tighten their guard or reposition hooks, indicating they are setting the rotational base for the finish
-
-- Feeling the forearm blade wedging under your chin at a steeper angle than a standard guillotine, with pressure coming from above rather than from the side
-
-- Opponent's free hand moving to reinforce their grip—grabbing their own wrist or cupping their fist—signaling the transition to high elbow is imminent
+- Bring the supporting elbow over the shoulder through a comfortable arm path.
 
 
 ### Escape Paths
 
 
-- Posture up forcefully and extract your head while opponent's grip fatigues from holding the elevated position
+- Hand fight before the support hand locks into place.
 
-- Drive Von Flue shoulder pressure to force the grip release and achieve top position
-
-- Pass guard laterally to side control, changing the angle to relieve the choking pressure
-
-- Frame with near-side arm to break the seal, then work head extraction while controlling opponent's hips
+- Do not force the head backward against the closed arm loop.
 
 
 </section>
@@ -311,19 +303,9 @@ Strategically, this submission thrives when the opponent attempts to defend the 
 <section id="related" class="content-section">
 
 ## Related
-- [[Submissions/High Elbow Guillotine]]
 - [[Submissions/Guillotine Choke]]
-- [[Submissions/Arm in Guillotine]]
-- [[Submissions/Darce Choke]]
+- [[Positions/Hindulotine]]
 - [[Transitions/Anaconda Choke]]
-- [[Submissions/Chin Strap Guillotine/from Front Headlock]]
-- [[Submissions/Japanese Necktie]]
-- [[Submissions/Von Flue Choke/from Side Control]]
-- [[Positions/Hindulotine]] - Starting position providing rotational hip mechanics for this finish
-- [[Positions/Guillotine Control]] - Parent control position with standard guillotine mechanics
-- [[Positions/Closed Guard]] - Common guard recovery position after failed defense
-- [[Positions/Back Control]] - Transition target when opponent turns to escape neck pressure
-- [[Positions/Darce Control]] - Alternative control when opponent frames and creates near-side space
 
 </section>
 
@@ -335,37 +317,28 @@ Strategically, this submission thrives when the opponent attempts to defend the 
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
-| Carotid artery compression leading to loss of consciousness | High | Immediate if released promptly; potential for serious complications if held past unconsciousness |
-| Tracheal damage from excessive pressure or improper angle | CRITICAL | 2-6 weeks for minor trauma; months for severe damage requiring medical intervention |
-| Cervical spine stress from rotational torque combined with elevated elbow pressure | High | 1-3 weeks for minor strain; 3-6 months for significant injury |
-| Jaw and temporomandibular joint stress from high elbow angle forcing chin upward | Medium | 1-2 weeks for minor inflammation |
+| Neck injury from forced extension or twisting | High | Variable; stop training and seek appropriate clinical assessment after an injury or concerning symptoms. |
+| Loss of consciousness or serious harm from continued choking | CRITICAL | Variable; stop training and seek appropriate clinical assessment after an injury or concerning symptoms. |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum application time with constant awareness of partner's response. The compound pressure from elevated elbow plus Hindulotine rotation can produce unconsciousness rapidly once locked.
+**Application Speed**: Raise the elbow through available space, never by wrenching the shoulder or neck. Stop at a controlled enclosure in drills and release immediately on any tap. No fixed number of seconds makes a locked submission safe.
 
 **Tap Signals**:
-- Verbal tap or any verbal sound of distress
-- Physical hand tap on opponent's body or mat
-- Physical foot tap on mat or opponent
-- Any loss of resistance or body going limp
-- Unusual gurgling or breathing sounds
+- Repeated hand taps anywhere the partner can feel them
+- A clear verbal tap or stop, including when the hands are trapped
+- Foot taps or any agreed stop signal; release immediately if normal responsiveness changes
 
 
 **Release Protocol**:
-1. Immediately release choking arm grip upon any tap signal
-2. Lower choking elbow and remove shoulder pressure simultaneously
-3. Release head control and create space by opening guard and moving hips away
-4. Monitor partner's breathing and consciousness for 10-15 seconds
-5. Never reapply pressure once released, even if partner signals they are okay
+1. Open the finishing grip immediately at the first signal; do not wait for repeated confirmation
+2. Remove the leg, arm or body restraint without forcing the captured joint or neck through another movement
+3. Check the partner can respond normally and allow a safe reset; end practice and obtain help if there is an injury or concerning symptom
 
 
 **Training Restrictions**:
-- Never apply at competition speed during drilling or positional training
-- Never spike or jerk the elbow elevation—always apply smooth progressive pressure
-- Never continue pressure if partner's face changes color or shows signs of oxygen deprivation
-- Always maintain verbal communication during slow drilling phases
-- Never practice on partners with neck or throat injuries without explicit instructor approval
-- Always allow clear tap access—never trap both arms while finishing
+- Start with supervised, cooperative control-and-release drilling rather than a loaded finish
+- Check the event's current rules for the specific age, experience and clothing division before live use
+- Raise the elbow through available space, never by wrenching the shoulder or neck. Stop at a controlled enclosure in drills and release immediately on any tap.
 
 
 </section>

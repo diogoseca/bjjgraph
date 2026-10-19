@@ -4,7 +4,7 @@
 
 ---
 title: "Guard Pass from Chill Dog | BJJ Technique | BJJ Graph"
-description: "Master the Guard Pass from Chill Dog in BJJ. Learn to advance from turtle top to side control by breaking defensive frames and flattening your opponent."
+description: "Passing Chill Dog requires clearing the isolated arm and high-leg posture control first. Side control also requires a separate clearance of the hips and legs."
 ---
 
 
@@ -16,7 +16,7 @@ description: "Master the Guard Pass from Chill Dog in BJJ. Learn to advance from
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Guard Pass from Chill Dog",
-  "description": "Master the Guard Pass from Chill Dog in BJJ. Learn to advance from turtle top to side control by breaking defensive frames and flattening your opponent.",
+  "description": "Passing Chill Dog requires clearing the isolated arm and high-leg posture control first. Side control also requires a separate clearance of the hips and legs.",
   "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
 }
 </script>
@@ -76,7 +76,7 @@ description: "Master the Guard Pass from Chill Dog in BJJ. Learn to advance from
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Guard Pass from Chill Dog",
-  "description": "The Guard Pass from Chill Dog is a turtle-top advancement where the top player breaks the elbow-to-knee frame, flattens the opponent's hips to the mat, and slides into perpendicular side control instead of taking the back.",
+  "description": "Passing Chill Dog first requires clearing the isolated arm and high-leg posture control, then separately clearing the remaining guard.",
   "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
 }
 </script>
@@ -94,13 +94,15 @@ description: "Master the Guard Pass from Chill Dog in BJJ. Learn to advance from
 
 <section id="overview" class="content-section">
 
-**The Guard Pass from Chill Dog is a turtle-top advancement where the top player breaks the elbow-to-knee frame, flattens the opponent's hips to the mat, and slides into perpendicular side control instead of taking the back.**
+**Passing Chill Dog first requires clearing the isolated arm and high-leg posture control, then separately clearing the remaining guard.**
 
-The Guard Pass from Chill Dog is a direct positional advancement technique that converts turtle top control into side control. Rather than pursuing the more common back-take approach against the Chill Dog defensive turtle, this pass targets the structural integrity of the defensive shell itself, breaking down the elbow-to-knee connection and flattening the opponent to establish perpendicular side control. The technique is rooted in systematic pressure application and sequential frame destruction rather than speed or athleticism.
+The top player faces a bottom guard player using Chill Dog; the head, shoulder or arm may still be enclosed. A high-guard escape and a completed pass are separate checkpoints. Side control requires the hips and legs to be clear as well as the head.
 
-This technique is particularly valuable against experienced defenders who maintain a tight Chill Dog frame that resists standard back-take entries. By attacking the defensive structure directly through crossface pressure, hip control, and systematic flattening, the top player forces the bottom player into a progressively worsening position where their defensive options narrow with each completed phase. The pass creates a chain of micro-advantages that compound until the opponent cannot maintain their turtle structure and their hips are driven flat to the mat.
+Keep the free hand available for framing while preventing the isolated elbow from being pulled further away from your torso. The opponent changing the hand around your head signals the move beyond New York, not a turtle escape. Keep a balanced base and early inside frames; tap instead of moving against a completed choke or joint lock.
 
-In competition contexts, the Guard Pass from Chill Dog offers a time-efficient path to a scoring position. While back-take attempts from turtle can result in extended exchanges with uncertain outcomes, completing the pass to side control secures three points and immediately opens the full range of dominant position attacks including Americana, kimura, arm triangle, and mount transitions. This makes it an essential tool for practitioners who need to convert turtle control into tangible competitive advantage within the time constraints of a match.
+Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
+
+Instructional sources: [Brandon McCaghren — Gogoplata from rubber guard](https://www.youtube.com/watch?v=wn39-wrfsbs); [Eddie Bravo — Chill Dog / Invisible Collar clarification](https://www.10thplanetjj.com/forum/threads/17657-Chill-Dog-Invisible-Collar-Question).
 
 **From Position**: [[Positions/Rubber Guard/Chill Dog]] (Top)
 **Success Rate**: 50%
@@ -155,8 +157,8 @@ In competition contexts, the Guard Pass from Chill Dog offers a time-efficient p
 | &nbsp; | Attacker | Defender |
 |--------|----------|----------|
 | **Focus** | Execute technique | Prevent or counter |
-| **Key Principles** | Establish chest pressure before attacking the defensive fram... | Maintain the elbow-knee connection as the primary defensive ... |
-| **Options** | 7 execution steps | 4 defensive options |
+| **Key Principles** | Recognize the upper-body trap: Keep the free hand available ... | Secure New York first: Keep the opposing hand on the mat and... |
+| **Options** | 6 execution steps | 4 defensive options |
 
 </section>
 
@@ -169,53 +171,49 @@ In competition contexts, the Guard Pass from Chill Dog offers a time-efficient p
 ### Key Principles
 
 
-- Establish chest pressure before attacking the defensive frame - control precedes advancement
+- Recognize the upper-body trap: Keep the free hand available for framing while preventing the isolated elbow from being pulled further away from your torso.
 
-- Break the elbow-knee connection through rotational force rather than direct pulling
+- Protect the captured limb: The opponent changing the hand around your head signals the move beyond New York, not a turtle escape.
 
-- Maintain hip contact throughout the pass to prevent guard recovery during transitions
+- Work before pressure engages: Keep a balanced base and early inside frames; tap instead of moving against a completed choke or joint lock.
 
-- Use crossface pressure to control the opponent's spine alignment and limit defensive options
+- Open the high enclosure: Create slack at the hip and thigh while keeping the head and captured arm aligned.
 
-- Create a back-take versus pass dilemma that prevents the defender from committing to either defense
+- Recover the elbow and posture: Withdraw the shoulder and elbow only after the high leg connection has opened.
 
-- Flatten the opponent's hips to the mat before attempting the lateral slide to side control
-
-- Consolidate immediately upon reaching perpendicular position - do not allow any space
+- Confirm the next position: Establish side control after both legs and hips have been passed only when the upper-body enclosure and relevant leg hooks have cleared.
 
 
 ### Execution Steps
 
 
-- **Establish chest pressure and hip control**: Drive your chest heavily onto the opponent's upper back between the shoulder blades while placing yo...
+- **Recognize the upper-body trap**: Keep the free hand available for framing while preventing the isolated elbow from being pulled furth...
 
-- **Break the near-side elbow-knee connection**: Use your near-side underhook to drive deep under the opponent's armpit while simultaneously applying...
+- **Protect the captured limb**: The opponent changing the hand around your head signals the move beyond New York, not a turtle escap...
 
-- **Drive crossface to control head position**: Once the near-side frame begins to break, intensify crossface pressure to turn the opponent's head a...
+- **Work before pressure engages**: Keep a balanced base and early inside frames; tap instead of moving against a completed choke or joi...
 
-- **Flatten opponent's hips to the mat**: With the near-side frame broken and crossface established, drive your hips downward and forward to p...
+- **Open the high enclosure**: Create slack at the hip and thigh while keeping the head and captured arm aligned....
 
-- **Slide knee across the hip line**: With the opponent flattened, begin sliding your near-side knee across their hip line while maintaini...
+- **Recover the elbow and posture**: Withdraw the shoulder and elbow only after the high leg connection has opened....
 
-- **Establish perpendicular side control alignment**: Complete the pass by positioning your torso perpendicular to the opponent's body with your chest acr...
-
-- **Consolidate side control grips and pressure**: Once perpendicular, immediately tighten your control by eliminating all remaining space between your...
+- **Confirm the next position**: Establish side control after both legs and hips have been passed only when the upper-body enclosure ...
 
 
 ### Common Mistakes
 
 
-- **Attempting to break the elbow-knee connection by pulling the elbow away directly**
-  - Consequence: The defender easily resists direct pulling force and re-closes the frame, wasting energy and creating no progress toward the pass
-  - Correction: Use rotational force through underhook and crossface combination to twist the torso, which naturally separates the elbow from the knee as a byproduct of spinal rotation
+- **Skipping the checkpoint: recognize the upper-body trap**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Keep the free hand available for framing while preventing the isolated elbow from being pulled further away from your torso.
+  - Correction: Keep the free hand available for framing while preventing the isolated elbow from being pulled further away from your torso.
 
-- **Rushing the flattening phase before fully breaking the defensive frame**
-  - Consequence: Opponent uses intact frame to execute Granby roll or technical stand-up during your committed forward weight shift, resulting in guard recovery or position reset
-  - Correction: Confirm the near-side elbow-knee connection is broken and crossface is controlling head position before committing to the flattening drive. Sequential completion of each phase is essential
+- **Skipping the checkpoint: protect the captured limb**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: The opponent changing the hand around your head signals the move beyond New York, not a turtle escape.
+  - Correction: The opponent changing the hand around your head signals the move beyond New York, not a turtle escape.
 
-- **Lifting chest off opponent's back during the lateral slide to side control**
-  - Consequence: Creates space that allows the opponent to turn, insert a knee, or recover some form of guard before you establish perpendicular control
-  - Correction: Keep chest glued to the opponent's upper back throughout the entire slide. Think of sliding laterally while staying heavy rather than lifting and repositioning
+- **Skipping the checkpoint: work before pressure engages**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Keep a balanced base and early inside frames; tap instead of moving against a completed choke or joint lock.
+  - Correction: Keep a balanced base and early inside frames; tap instead of moving against a completed choke or joint lock.
 
 
 </section>
@@ -229,41 +227,37 @@ In competition contexts, the Guard Pass from Chill Dog offers a time-efficient p
 ### Key Principles
 
 
-- Maintain the elbow-knee connection as the primary defensive priority - this single structure prevents the entire pass sequence
+- Secure New York first: Keep the opposing hand on the mat and hug the knee before changing the head-side grip.
 
-- Recognize the direction of the attacker's pressure to distinguish pass attempts from back take threats
+- Turn onto the hip: Bring the knee toward the chest through hip movement so the neck-clearing motion does not twist the knee.
 
-- Tuck chin aggressively toward the crossface side to resist spinal rotation that cascades into frame breakdown
+- Clear the neck: Move the controlling arm around the head while keeping the leg and trapped arm connected.
 
-- Escape early and explosively - defensive options decrease dramatically once hips are flattened to the mat
+- Place the inside frame: Use the forearm near the shoulder line to manage forward pressure; do not let the frame collapse across your own wrist.
 
-- Use the attacker's forward weight commitment against them when executing Granby rolls or sit-through escapes
+- Maintain the arm trap: Keep the knee hug while choosing further control such as Invisible Collar or an omoplata setup.
 
-- If the frame breaks, commit immediately to an explosive escape rather than attempting to rebuild the defensive structure
+- Recover when control opens: Return the legs to a comfortable guard if the opponent withdraws the elbow or stacks your upper back.
 
 
 ### Recognition Cues
 
 
-- Attacker's hip pressure shifts laterally toward your side rather than driving forward toward your back, indicating a pass rather than back take
+- The top player faces a bottom guard player using Chill Dog; the head, shoulder or arm may still be enclosed.
 
-- Crossface pressure intensifies as the attacker drives your head away from their body, signaling the frame-breaking phase
+- The opponent changing the hand around your head signals the move beyond New York, not a turtle escape.
 
-- Attacker's near-side hand drives deep under your armpit seeking an underhook rather than reaching around your torso for seatbelt
-
-- Attacker's knee begins wedging between your elbow and knee on the near side, targeting the foundation of your defensive frame
-
-- Downward sprawling pressure increases on your hips as the attacker shifts from circling to flattening intent
+- Create slack at the hip and thigh while keeping the head and captured arm aligned.
 
 
 ### Defensive Options
 
 
-- **Re-establish elbow-knee connection by driving elbow back to knee and tightening defensive frame** - When: Early in the pass attempt when the attacker first begins prying the elbow-knee connection - most effective before crossface is established
+- **Keep the opposing hand on the mat and hug the knee before changing the head-side grip.** - When: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
 
-- **Execute Granby roll toward the open side when attacker commits weight forward for flattening** - When: During the transition between frame breaking and flattening phases when the attacker's weight is committed forward and directional
+- **Bring the knee toward the chest through hip movement so the neck-clearing motion does not twist the knee.** - When: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
 
-- **Technical stand-up by clearing grips, creating separation, and standing with proper base** - When: When attacker's weight shifts back momentarily or when their grips are loose enough to strip during any phase of the pass
+- **Move the controlling arm around the head while keeping the leg and trapped arm connected.** - When: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
 
 
 </section>
@@ -274,13 +268,10 @@ In competition contexts, the Guard Pass from Chill Dog offers a time-efficient p
 ## Variations
 
 
-**Crossface Drive Pass**: Prioritizes deep crossface as the primary frame-breaking mechanism. The heavy crossface forces the opponent's head away, rotating their entire spine and naturally opening the near-side elbow-knee connection from the top down. Once the cascading structural failure begins, slide the knee across the hip line and establish perpendicular side control. (When to use: When the opponent has strong hip defense but exposes their neck by keeping their head too high or failing to tuck chin)
+**Cooperative checkpoint drill**: Keep the free hand available for framing while preventing the isolated elbow from being pulled further away from your torso. The opponent changing the hand around your head signals the move beyond New York, not a turtle escape. (When to use: Learning the control without submission pressure)
 
 
-**Sprawl and Flatten Pass**: Drop hips low and sprawl weight backward to drive the opponent's hips flat to the mat before attempting the lateral slide to side control. Uses gravity and body weight rather than grip fighting to collapse the defensive structure. Once the opponent is belly-down, circle to perpendicular position while maintaining heavy hip pressure. (When to use: Against opponents with very strong forward base on hands and knees who resist lateral pressure but are vulnerable to downward hip drive)
-
-
-**Hip Switch Angle Pass**: From standard Chill Dog top, switch hips to the opposite side of the opponent, driving the knee across their hip line from an unexpected angle. The directional change creates momentary confusion and exploits the gap between the opponent's near-side and far-side defensive frames. Requires quick hip mobility and decisive commitment to the new angle. (When to use: When the opponent successfully defends the standard same-side crossface approach and you need to attack from a different angle)
+**Response and reset drill**: Keep the opposing hand on the mat and hug the knee before changing the head-side grip. Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route. (When to use: Adding one early response after both partners recognize the configuration)
 
 
 
@@ -292,7 +283,7 @@ In competition contexts, the Guard Pass from Chill Dog offers a time-efficient p
 
 ## Position Integration
 
-The Guard Pass from Chill Dog connects the turtle attacking system directly to the side control control platform, providing a critical advancement pathway when back-take attempts are being successfully defended. This technique fills a strategic gap in many practitioners' games where they default to a single attacking approach from turtle top. By adding the direct pass option, the top player creates a dilemma for the Chill Dog defender: tightening the frame to prevent back hooks exposes them to the flattening pass, while loosening the frame to maintain mobility opens the back take. This two-threat dynamic significantly increases the overall effectiveness of the turtle top game and integrates seamlessly with the side control submission and advancement chains.
+The top player faces a bottom guard player using Chill Dog; the head, shoulder or arm may still be enclosed. A high-guard escape and a completed pass are separate checkpoints. Side control requires the hips and legs to be clear as well as the head. A destination is established by its actual body configuration, not by completing an isolated grip or by the name of the route.
 
 </section>
 
@@ -302,25 +293,13 @@ The Guard Pass from Chill Dog connects the turtle attacking system directly to t
 ## Related Techniques
 
 
-- [[Positions/Rubber Guard/Chill Dog]] - Starting position - technique initiates from top control of this defensive turtle variant
+- [[Positions/Rubber Guard]] - Related configuration; establish its own prerequisites: compare the configuration and required controls for Rubber Guard.
 
-- [[Positions/Side Control]] - Target position on successful pass completion, opening submission and advancement chains
+- [[Positions/Rubber Guard/New York]] - Related configuration; establish its own prerequisites: compare the configuration and required controls for New York.
 
-- [[Positions/Closed Guard]] - Counter outcome when defender successfully recovers guard during pass attempt
+- [[Positions/Rubber Guard/Invisible Collar]] - Related configuration; establish its own prerequisites: compare the configuration and required controls for Invisible Collar.
 
-- [[Positions/Turtle]] - Parent position family - Chill Dog is a specific turtle variant
-
-- [[Positions/Back Control]] - Alternative advancement path from Chill Dog top that creates passing dilemma
-
-- [[Transitions/Escape Chill Dog]] - Defender's primary escape transition that the pass must prevent
-
-- [[Transitions/Anaconda from Turtle]] - Alternative submission attack available from similar turtle top position
-
-- [[Positions/Front Headlock]] - Alternative control position if opponent lifts head during pass attempt
-
-- [[Positions/Knee on Belly]] - Continuation option after establishing side control from successful pass
-
-- [[Positions/Half Guard]] - Intermediate position defender may reach during partial escape from pass
+- [[Positions/Rubber Guard/Mission Control]] - Related configuration; establish its own prerequisites: compare the configuration and required controls for Mission Control.
 
 
 </section>

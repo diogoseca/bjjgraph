@@ -2251,7 +2251,7 @@ Master the Anaconda Choke in BJJ. Complete guide covering setup from turtle and 
 
 ### [[Submissions/Anaconda Choke/from Dead Orchard|Anaconda Choke from Dead Orchard]]
 
-Master the Anaconda Choke from Dead Orchard in BJJ. Complete guide to finishing mechanics, grip adjustments, and pressure application for this blood choke.
+Anaconda Choke from Dead Orchard needs a separate front headlock. Its arm-and-neck enclosure differs from the bottom player's high both-arm leg triangle.
 
 ### [[Submissions/Ankle Lock/from X-Guard|Ankle Lock from X-Guard]]
 
@@ -2259,15 +2259,15 @@ Master the ankle lock from X-Guard in BJJ. Complete guide to setup, grip mechani
 
 ### [[Submissions/Aoki Lock|Aoki Lock]]
 
-Master the Aoki Lock leg compression in BJJ. Safety guide with setup, execution, and defense. Success rates: Beginner 25%, Intermediate 40%, Advanced 60%.
+The Aoki Lock is a rotational foot lock that captures a turned-out foot against the upper body while controlling the leg and hip, potentially stressing both the ankle and knee.
 
 ### [[Submissions/Aoki Lock/from Aoki Lock Control|Aoki Lock from Aoki Lock Control]]
 
-Complete guide to finishing the Aoki Lock leg compression from Aoki Lock control. Figure-four foot trap, plantar-flexion mechanics, and key defensive counters.
+Aoki Lock from Aoki Lock Control uses the turned-out foot and hip connection to prepare a rotational finish. Protect the ankle and knee with early release.
 
 ### [[Submissions/Aoki Lock/from Ashi Garami|Aoki Lock from Ashi Garami]]
 
-Master the Aoki Lock leg compression in BJJ. Safety guide with setup, execution, and defense. Success rates: Beginner 25%, Intermediate 40%, Advanced 60%.
+Aoki Lock from Ashi Garami captures a foot turned outward beside the upper arm. Leg and hip control support the rotational lock; drill capture and release.
 
 ### [[Submissions/Arm Crush|Arm Crush]]
 
@@ -2287,7 +2287,7 @@ Master the arm triangle choke from high mount in BJJ. Step-by-step guide coverin
 
 ### [[Submissions/Arm Triangle/from Hindulotine|Arm Triangle from Hindulotine]]
 
-Master the Arm Triangle from Hindulotine in BJJ. Learn how guillotine defense creates head-and-arm choke opportunities with detailed finishing mechanics.
+Arm Triangle from Hindulotine requires a new head-and-arm enclosure. Free the raised leg and establish the trapped shoulder before considering the choke.
 
 ### [[Submissions/Arm Triangle/from Kesa Gatame|Arm Triangle from Kesa Gatame]]
 
@@ -2499,7 +2499,7 @@ Master the Bow and Arrow Choke from Harness position in BJJ. Learn collar grip m
 
 ### [[Submissions/Bow and Arrow Choke/from Invisible Collar|Bow and Arrow Choke from Invisible Collar]]
 
-Master the Bow and Arrow Choke from Invisible Collar. Learn concealed grip transitions, finishing mechanics, defense strategies, and safety protocols.
+Bow and Arrow Choke from Invisible Collar requires a separate back take. The gi collar grip and rear body control are absent from the facing high guard.
 
 ### [[Submissions/Bow and Arrow Choke/from Rear Triangle|Bow and Arrow Choke from Rear Triangle]]
 
@@ -2563,7 +2563,7 @@ Master the calf slicer from backside 50-50 with expert finishing mechanics, defe
 
 ### [[Submissions/Calf Slicer/from Carni|Calf Slicer from Carni]]
 
-Master the calf slicer from Carni position in BJJ. Learn compression lock mechanics, shin placement, and how to chain this finish with heel hook threats.
+Calf Slicer from Carni requires a separate leg capture. Carni controls a shoulder; calf compression needs a shin or forearm behind a folded, controlled knee.
 
 ### [[Submissions/Calf Slicer/from Honey Hole|Calf Slicer from Honey Hole]]
 
@@ -2619,7 +2619,7 @@ Master the Clock Choke in BJJ. Gi-based blood choke from turtle using lapel cont
 
 ### [[Submissions/Clock Choke/from Invisible Collar|Clock Choke from Invisible Collar]]
 
-Master the Clock Choke from Invisible Collar with concealed collar grip setup, walking pressure mechanics, and finishing details for gi competition success.
+Clock Choke from Invisible Collar needs a separate turtle exchange. Establish side control of the turtled torso and a gi collar grip before circling.
 
 ### [[Submissions/Clock Choke/from Rodeo Ride|Clock Choke from Rodeo Ride]]
 
@@ -2647,7 +2647,7 @@ Master the Cross Collar Choke from High Mount in BJJ. Complete guide to grip pla
 
 ### [[Submissions/Cross Collar Choke/from Invisible Collar|Cross Collar Choke from Invisible Collar]]
 
-Master the Cross Collar Choke Finish from Invisible Collar in BJJ. Expert finishing mechanics, defense strategies, and training progressions for gi grapplers.
+Cross Collar Choke from Invisible Collar requires jacket grips. Establish crossed collar connections separately from the high rubber-guard leg clinch.
 
 ### [[Submissions/Cross Collar Choke/from Knee on Belly|Cross Collar Choke from Knee on Belly]]
 
@@ -2783,7 +2783,7 @@ Master the guillotine choke finish from guillotine control. Complete guide cover
 
 ### [[Submissions/Guillotine Choke/from Hindulotine|Guillotine Choke from Hindulotine]]
 
-Master the guillotine choke finish from Hindulotine position. Learn rotational torque mechanics, grip placement, and step-by-step execution for this high-percentage blood choke.
+Guillotine Choke from Hindulotine changes the neck enclosure. Clear the raised leg and establish the standard choking arm and supporting hand separately.
 
 ### [[Submissions/Guillotine Choke/from Twister Control|Guillotine Choke from Twister Control]]
 
@@ -2807,7 +2807,7 @@ Master the heel hook from Backside 50-50 in BJJ. Complete guide to opportunistic
 
 ### [[Submissions/Heel Hook/from Carni|Heel Hook from Carni]]
 
-Master the heel hook from Carni position in BJJ. Expert finishing guide covering rotational mechanics, leg control, defensive escapes, and safe training methods.
+Heel Hook from Carni requires a separate leg entanglement. Carni traps an arm; heel rotation needs controlled hips and knee position before any pressure.
 
 ### [[Submissions/Heel Hook/from Cross Ashi-Garami|Heel Hook from Cross Ashi-Garami]]
 
@@ -2855,15 +2855,15 @@ Master the High Elbow Guillotine from Guillotine Control. Complete guide coverin
 
 ### [[Submissions/High Elbow Guillotine/from Hindulotine|High Elbow Guillotine from Hindulotine]]
 
-Master the High Elbow Guillotine from Hindulotine. Learn elevated elbow finishing mechanics, rotational pressure setups, and defensive counters for this blood choke.
+The high-elbow guillotine raises the supporting elbow over the shoulder. Changing from Hindu Control requires a separate neck grip and leg clearance.
 
 ### [[Submissions/Hindulotine|Hindulotine]]
 
-Learn the Hindulotine choke, an advanced guillotine variation using a chin strap grip from front headlock control. Complete guide with setups, mechanics, and defense.
+The Hindulotine is Ben Eddy's leg-in guillotine from Hindu Control, using an arm loop over the raised rubber-guard foot and around the shoulder to close a neck enclosure.
 
 ### [[Submissions/Hindulotine/from Hindulotine|Hindulotine from Hindulotine]]
 
-Master the Hindulotine choke finish from Hindulotine control. Complete guide to chin strap grip mechanics, rotational torque, and finishing details.
+Hindulotine from Hindu Control joins the hands after the arm loops over the raised foot. The bottom guard player closes a leg-in guillotine and releases on a tap.
 
 ### [[Submissions/Inside Heel Hook|Inside Heel Hook]]
 
@@ -3039,7 +3039,7 @@ Master the kneebar from Backside 50-50 in BJJ. Complete guide to leg isolation, 
 
 ### [[Submissions/Kneebar/from Carni|Kneebar from Carni]]
 
-Master the kneebar from Carni position in BJJ. Complete guide to setup mechanics, finishing details, defensive counters, and essential safety protocols.
+Kneebar from Carni requires a separate hip and leg capture. Release the shoulder-lock configuration before setting a knee fulcrum and controlling the ankle.
 
 ### [[Submissions/Kneebar/from Guard|Kneebar from Guard]]
 
@@ -3311,7 +3311,7 @@ Master the Rear Naked Choke from Harness in BJJ. Complete guide to grip transiti
 
 ### [[Submissions/Rear Naked Choke/from Invisible Collar|Rear Naked Choke from Invisible Collar]]
 
-Master the Rear Naked Choke from Invisible Collar. Learn collar-to-RNC bait-and-switch transitions, finishing mechanics, and complete defensive guide.
+Rear Naked Choke from Invisible Collar requires a separate back take. Establish rear torso control and the neck enclosure after leaving the facing high guard.
 
 ### [[Submissions/Rear Naked Choke/from Mounted Crucifix|Rear Naked Choke from Mounted Crucifix]]
 
@@ -3427,7 +3427,7 @@ Complete guide to the straight ankle lock finish from ankle lock control. Breaki
 
 ### [[Submissions/Suloev Stretch/from Half Guard|Suloev Stretch from Half Guard]]
 
-Master the Suloev Stretch in BJJ. Devastating knee compression submission from top half guard and leg control positions. Complete attacker and defender guide.
+The Suloev Stretch captures an ankle from rear control against a tripod. It stretches the extended leg; half guard alone does not establish the finish.
 
 ### [[Submissions/Tarikoplata|Tarikoplata]]
 

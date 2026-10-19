@@ -4,7 +4,7 @@
 
 ---
 title: "Sweep from Chill Dog | BJJ Technique | BJJ Graph"
-description: "Master the Sweep from Chill Dog in BJJ. Reverse compact turtle defense into mount with precise timing, hip mechanics, and explosive reversal technique."
+description: "A sweep from Chill Dog needs a controlled posting arm and an off-balanced base; the high rubber-guard connection alone does not guarantee a reversal or mount."
 ---
 
 
@@ -16,7 +16,7 @@ description: "Master the Sweep from Chill Dog in BJJ. Reverse compact turtle def
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Sweep from Chill Dog",
-  "description": "Master the Sweep from Chill Dog in BJJ. Reverse compact turtle defense into mount with precise timing, hip mechanics, and explosive reversal technique.",
+  "description": "A sweep from Chill Dog needs a controlled posting arm and an off-balanced base; the high rubber-guard connection alone does not guarantee a reversal or mount.",
   "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
 }
 </script>
@@ -76,7 +76,7 @@ description: "Master the Sweep from Chill Dog in BJJ. Reverse compact turtle def
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Sweep from Chill Dog",
-  "description": "Sweep from Chill Dog is a 10th Planet turtle reversal where the bottom player exploits the top player's committed forward weight with an explosive sit-out and hip switch, finishing directly in mount.",
+  "description": "A sweep from Chill Dog needs a controlled posting arm and an off-balanced base; the high rubber-guard connection alone does not guarantee a reversal or mount.",
   "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
 }
 </script>
@@ -94,13 +94,15 @@ description: "Master the Sweep from Chill Dog in BJJ. Reverse compact turtle def
 
 <section id="overview" class="content-section">
 
-**Sweep from Chill Dog is a 10th Planet turtle reversal where the bottom player exploits the top player's committed forward weight with an explosive sit-out and hip switch, finishing directly in mount.**
+**A sweep from Chill Dog needs a controlled posting arm and an off-balanced base; the high rubber-guard connection alone does not guarantee a reversal or mount.**
 
-The Sweep from Chill Dog transforms a traditionally defensive turtle variant into an offensive reversal, catching opponents off guard when they expect only survival-oriented responses from the bottom player. From the compact Chill Dog shell, the bottom practitioner exploits the top player's forward weight commitment to execute a sit-out reversal that ends in full mount, representing one of the highest-value positional transitions available from any turtle variant.
+The bottom player faces the opponent in Chill Dog, with a high leg controlling posture. The reviewed rubber-guard instruction supports controlling posture and a posting arm. It does not establish this node's unspecified direct sweep to mount; a specific sweep setup must be chosen before live practice.
 
-This technique operates on a fundamental principle of redirected force. Rather than generating power against the opponent's weight, the sweeper converts the top player's downward and forward pressure into rotational energy. The compact Chill Dog posture stores potential energy like a coiled spring. When the opponent drives their chest pressure forward or overcommits to breaking the defensive frame, their weight distribution becomes structurally vulnerable to lateral displacement. The bottom player capitalizes on this vulnerability by executing a coordinated sit-out and hip switch that channels the opponent's momentum into a reversal.
+Keep the opposing hand on the mat and hug the knee before changing the head-side grip. Determine which arm can prevent the intended reversal; do not assume an isolated arm removes every post. Use a safe wrist or arm connection without manipulating individual fingers.
 
-The strategic value of this sweep extends far beyond the immediate positional gain. Once opponents learn that an aggressive sweep threat exists from Chill Dog, they become significantly more conservative in their turtle attacks. This hesitancy creates wider escape windows for the bottom player's other options, including the Granby roll to open guard, hip escape to half guard, and technical stand-up to standing. The sweep functions as a force multiplier for the entire Chill Dog defensive system by punishing overaggression, making all other escapes more effective through threat multiplication. Within the 10th Planet system, this sweep exemplifies the philosophy that every position should carry both defensive and offensive capabilities, ensuring that no position is purely reactive.
+Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
+
+Instructional sources: [Brandon McCaghren — Gogoplata from rubber guard](https://www.youtube.com/watch?v=wn39-wrfsbs); [Eddie Bravo — Chill Dog / Invisible Collar clarification](https://www.10thplanetjj.com/forum/threads/17657-Chill-Dog-Invisible-Collar-Question).
 
 **From Position**: [[Positions/Rubber Guard/Chill Dog]] (Bottom)
 **Success Rate**: 44%
@@ -155,8 +157,8 @@ The strategic value of this sweep extends far beyond the immediate positional ga
 | &nbsp; | Attacker | Defender |
 |--------|----------|----------|
 | **Focus** | Execute technique | Prevent or counter |
-| **Key Principles** | Read the opponent's weight through tactile contact on your b... | Distribute weight through hip pressure rather than driving c... |
-| **Options** | 7 execution steps | 4 defensive options |
+| **Key Principles** | Retain comfortable posture control: Keep the opposing hand o... | Track the trapped elbow: Keep the free hand available for fr... |
+| **Options** | 6 execution steps | 4 defensive options |
 
 </section>
 
@@ -169,51 +171,49 @@ The strategic value of this sweep extends far beyond the immediate positional ga
 ### Key Principles
 
 
-- Read the opponent's weight through tactile contact on your back before committing to the sweep direction
+- Retain comfortable posture control: Keep the opposing hand on the mat and hug the knee before changing the head-side grip.
 
-- Control the opponent's far-side posting hand to eliminate their ability to base out during the reversal
+- Identify the posting arm: Determine which arm can prevent the intended reversal; do not assume an isolated arm removes every post.
 
-- The sweep exploits forward weight commitment - never attempt against an opponent sitting back on their heels
+- Control the available post: Use a safe wrist or arm connection without manipulating individual fingers.
 
-- Execute with total commitment once initiated because half-measures expose your back without completing the reversal
+- Test the base without forcing: Use a small hip movement to check balance while retaining a stable guard.
 
-- Maintain the compact Chill Dog frame until the instant of execution to prevent telegraphing the sweep
+- Require a defined sweep setup: Proceed only after a coach has established the leg placement and direction for the chosen sweep.
 
-- Follow through completely to mount consolidation - the sweep is not finished until your hips are settled on the opponent's torso
+- Stabilize the actual landing: Release dangerous arm tension and establish the top position that actually results; mount requires additional leg clearance.
 
 
 ### Execution Steps
 
 
-- **Assess Center of Gravity**: From the compact Chill Dog posture with elbows pressed to knees, use tactile awareness through your ...
+- **Retain comfortable posture control**: Keep the opposing hand on the mat and hug the knee before changing the head-side grip....
 
-- **Secure Far-Side Arm Control**: Without telegraphing your intention, reach your near-side hand across to grip the opponent's far wri...
+- **Identify the posting arm**: Determine which arm can prevent the intended reversal; do not assume an isolated arm removes every p...
 
-- **Load the Sit-Out**: Shift your weight slightly onto your far-side hand and near-side knee, loading the near-side leg for...
+- **Control the available post**: Use a safe wrist or arm connection without manipulating individual fingers....
 
-- **Execute the Sit-Out**: Explosively kick your near-side leg through and past the opponent's far hip, simultaneously pulling ...
+- **Test the base without forcing**: Use a small hip movement to check balance while retaining a stable guard....
 
-- **Hip Switch and Rotation**: As the sit-out displaces the opponent's alignment, immediately execute a hip switch by driving your ...
+- **Require a defined sweep setup**: Proceed only after a coach has established the leg placement and direction for the chosen sweep....
 
-- **Drive Through to Reversal**: Use the rotational momentum to carry the opponent over onto their back. Your body should follow a co...
-
-- **Consolidate Mount**: As the opponent lands on their back, immediately establish mount by driving your hips down onto thei...
+- **Stabilize the actual landing**: Release dangerous arm tension and establish the top position that actually results; mount requires a...
 
 
 ### Common Mistakes
 
 
-- **Telegraphing the sweep by visibly reaching for the opponent's arm before loading the sit-out**
-  - Consequence: Opponent recognizes the sweep setup and preemptively sprawls or disengages, shutting down the attempt before execution begins
-  - Correction: Establish the arm control within normal defensive grip fighting so it reads as a standard hand fight rather than a sweep setup. The grip should be secured one to two seconds before the sit-out, not simultaneously.
+- **Skipping the checkpoint: retain comfortable posture control**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Keep the opposing hand on the mat and hug the knee before changing the head-side grip.
+  - Correction: Keep the opposing hand on the mat and hug the knee before changing the head-side grip.
 
-- **Attempting the sweep when the opponent's weight is distributed laterally or backward rather than forward**
-  - Consequence: The reversal requires forward weight to exploit - without it, the sit-out simply creates space but no rotational energy, resulting in a scramble at best or back exposure at worst
-  - Correction: Only initiate when you feel genuine forward chest pressure. If the opponent is sitting back, use other escapes like the technical stand-up that exploit rearward weight distribution instead.
+- **Skipping the checkpoint: identify the posting arm**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Determine which arm can prevent the intended reversal; do not assume an isolated arm removes every post.
+  - Correction: Determine which arm can prevent the intended reversal; do not assume an isolated arm removes every post.
 
-- **Releasing the compact Chill Dog frame before the sit-out is fully loaded and ready to execute**
-  - Consequence: Breaking the defensive frame prematurely exposes the back and allows the opponent to insert hooks or establish a harness before the sweep can develop
-  - Correction: Maintain the exact Chill Dog posture until the explosive moment of execution. The frame should break only because the sit-out motion inherently displaces it, not as a preparatory step.
+- **Skipping the checkpoint: control the available post**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Use a safe wrist or arm connection without manipulating individual fingers.
+  - Correction: Use a safe wrist or arm connection without manipulating individual fingers.
 
 
 </section>
@@ -227,41 +227,37 @@ The strategic value of this sweep extends far beyond the immediate positional ga
 ### Key Principles
 
 
-- Distribute weight through hip pressure rather than driving chest forward, denying the forward commitment the sweep exploits
+- Track the trapped elbow: Keep the free hand available for framing while preventing the isolated elbow from being pulled further away from your torso.
 
-- Keep at least one hand free and ready to post at all times to maintain base during any reversal attempt
+- Recognize neck clearing: The opponent changing the hand around your head signals the move beyond New York, not a turtle escape.
 
-- Monitor the bottom player's hand fighting for arm control attempts targeting your far wrist or forearm
+- Deny the second leg: Keep a safe base and prevent the free leg from closing high behind your head.
 
-- Maintain hip mobility rather than locking into rigid forward pressure that becomes exploitable
+- Undo the arm isolation: Recover the elbow toward your ribs only when the leg enclosure has slack, rather than jerking the shoulder.
 
-- Recognize the sit-out initiation and respond with immediate hip drop rather than forward drive
+- Posture after release: Bring the head and chest upright in stages after clearing the upper-body control.
 
-- When the sweep fails, capitalize on the broken Chill Dog frame to advance to back control or flatten the opponent
+- Avoid forced stacking: Do not drive the partner onto the neck or force the bent leg sideways to escape the control.
 
 
 ### Recognition Cues
 
 
-- Bottom player's near-side hand reaches across to grip your far wrist or forearm during what appears to be normal grip fighting
+- The bottom player faces the opponent in Chill Dog, with a high leg controlling posture.
 
-- Subtle weight shift in the bottom player toward their far hand and near knee, loading the near-side leg for the sit-out kick
+- Determine which arm can prevent the intended reversal; do not assume an isolated arm removes every post.
 
-- Change in the bottom player's breathing to held breath or sharp exhale signaling imminent explosive movement
-
-- Bottom player's near-side hip begins lifting slightly away from your hip contact, creating clearance for the sit-out leg
-
-- Increased tension through the bottom player's back that you can feel through chest contact, indicating preparation for explosive movement
+- Use a small hip movement to check balance while retaining a stable guard.
 
 
 ### Defensive Options
 
 
-- **Drop hips straight down and sprawl to remove the forward weight commitment the sweep requires** - When: When you detect the arm control setup or feel the loading weight shift that precedes the sit-out
+- **Keep the free hand available for framing while preventing the isolated elbow from being pulled further away from your torso.** - When: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
 
-- **Strip the far-side arm grip and immediately re-establish hip control with that hand** - When: When you feel the bottom player grab your far wrist or forearm in the sweep setup phase
+- **The opponent changing the hand around your head signals the move beyond New York, not a turtle escape.** - When: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
 
-- **Circle away from the sit-out direction while maintaining chest pressure to deny the rotation angle** - When: When the sit-out has initiated but has not yet generated full rotational momentum
+- **Keep a safe base and prevent the free leg from closing high behind your head.** - When: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
 
 
 </section>
@@ -272,13 +268,10 @@ The strategic value of this sweep extends far beyond the immediate positional ga
 ## Variations
 
 
-**Sit-Out Reversal**: The standard sweep variation where the bottom player executes a wrestling-style sit-out by kicking one leg through while controlling the opponent's far wrist. The sit-out creates angular displacement that breaks the opponent's chest-to-back connection, then the bottom player follows through with a hip switch to reverse and achieve mount. This is the highest-percentage variation because the sit-out motion is mechanically efficient and difficult to counter once initiated. (When to use: When the opponent's weight is committed forward and their hips are elevated behind you, creating the space needed for the leg to kick through during the sit-out.)
+**Cooperative checkpoint drill**: Keep the opposing hand on the mat and hug the knee before changing the head-side grip. Determine which arm can prevent the intended reversal; do not assume an isolated arm removes every post. (When to use: Learning the control without submission pressure)
 
 
-**Peterson Roll Sweep**: Adapted from wrestling, this variation uses a near-side underhook combined with a lateral roll to take the opponent over. From Chill Dog, the bottom player shoots an underhook on the near side, blocks the opponent's far leg with their own, and drives laterally into a roll that carries the opponent over and deposits the sweeper in mount. The roll uses the opponent's weight against them and requires less explosive athleticism than the sit-out. (When to use: When the opponent's hips are tight against yours and there is insufficient space for a sit-out, but an underhook is accessible on the near side due to the opponent fighting for upper body grips.)
-
-
-**Arm Drag to Reversal**: The bottom player uses a quick arm drag on the opponent's controlling arm to break the chest-to-back alignment, then immediately follows with a hip switch and rotation to reverse to mount. The arm drag creates a moment of structural collapse in the top player's control, and the sweep capitalizes on the resulting imbalance before they can re-establish their grips and pressure. (When to use: When the opponent is grip fighting heavily and one arm is extended enough to be dragged, particularly when they reach across your body to attack your far hip or secure a harness grip.)
+**Response and reset drill**: Keep the free hand available for framing while preventing the isolated elbow from being pulled further away from your torso. Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route. (When to use: Adding one early response after both partners recognize the configuration)
 
 
 
@@ -290,7 +283,7 @@ The strategic value of this sweep extends far beyond the immediate positional ga
 
 ## Position Integration
 
-The Sweep from Chill Dog occupies a critical offensive niche within the turtle defense hierarchy, transforming what opponents expect to be a purely survival position into a legitimate reversal threat. Within the 10th Planet system, this sweep connects the defensive turtle game directly to the mount attacking system, bypassing the intermediate guard recovery phase entirely. This direct turtle-to-mount pathway is extremely efficient from a positional scoring perspective, as it converts a negative defensive situation into maximum-point dominant control. The sweep integrates with the broader Chill Dog escape chain by serving as the offensive anchor that makes all other escapes more viable. When opponents respect the sweep threat, they reduce forward pressure, which opens windows for the Granby roll, hip escape to half guard, and technical stand-up. This creates a complete multi-threat system where each option reinforces the others.
+The bottom player faces the opponent in Chill Dog, with a high leg controlling posture. The reviewed rubber-guard instruction supports controlling posture and a posting arm. It does not establish this node's unspecified direct sweep to mount; a specific sweep setup must be chosen before live practice. A destination is established by its actual body configuration, not by completing an isolated grip or by the name of the route.
 
 </section>
 
@@ -300,25 +293,13 @@ The Sweep from Chill Dog occupies a critical offensive niche within the turtle d
 ## Related Techniques
 
 
-- [[Positions/Rubber Guard/Chill Dog]] - Source position - sweep is executed from this compact turtle defensive variant
+- [[Positions/Rubber Guard]] - Related configuration; establish its own prerequisites: compare the configuration and required controls for Rubber Guard.
 
-- [[Positions/Mount]] - Primary success target - successful sweep lands directly in full mount
+- [[Positions/Rubber Guard/New York]] - Related configuration; establish its own prerequisites: compare the configuration and required controls for New York.
 
-- [[Positions/Open Guard]] - Counter outcome position when sweep fails and defensive shell is lost
+- [[Positions/Rubber Guard/Invisible Collar]] - Related configuration; establish its own prerequisites: compare the configuration and required controls for Invisible Collar.
 
-- [[Transitions/Escape Chill Dog]] - Alternative escape from same position targeting half guard recovery
-
-- [[Transitions/Roll from Chill Dog]] - Alternative rolling escape from same position targeting open guard
-
-- [[Positions/Turtle]] - Parent position category - Chill Dog is a specialized turtle variant
-
-- [[Transitions/Dogfight Sweep]] - Related reversal concept from similar bottom-up kneeling position
-
-- [[Transitions/Homer Simpson Sweep]] - Related 10th Planet sweep using similar hip mechanics from different guard
-
-- [[Positions/Back Control]] - Opponent's primary objective from turtle top that the sweep threat deters
-
-- [[Positions/Rubber Guard]] - Related 10th Planet system position connecting to sweep philosophy
+- [[Positions/Rubber Guard/Mission Control]] - Related configuration; establish its own prerequisites: compare the configuration and required controls for Mission Control.
 
 
 </section>

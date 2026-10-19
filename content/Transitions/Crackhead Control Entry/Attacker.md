@@ -4,7 +4,7 @@
 
 ---
 title: "Crackhead Control Entry Attacker | BJJ Technique Guide | BJJ Graph"
-description: "Execute Crackhead Control Entry from Rubber Guard bottom. Master the 10th Planet arm isolation progression with step-by-step mechanics and timing windows."
+description: "Crackhead Control Entry (attacker): Establish the first high leg and its hand support before adding the second leg. Reinforce the clinch without forcing the knees beyond a comfortable hip angle."
 ---
 
 
@@ -20,51 +20,39 @@ description: "Execute Crackhead Control Entry from Rubber Guard bottom. Master t
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Confirm Control Position",
-      "text": "Verify that your Rubber Guard (Mission Control) is secure with shin across opponent's back, foot controlled by same-side hand, opponent's near-side arm trapped against your chest, and posture broken with their head below your shoulder line. Do not proceed until all four checkpoints are confirmed.",
+      "name": "Start with broken posture",
+      "text": "Establish the first high leg and its hand support before adding the second leg.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Secure Wrist Control",
-      "text": "Use your free hand to grip the opponent's trapped wrist or forearm on the controlled side. This secondary control point ensures the arm cannot be withdrawn during the transition phase and provides a handle for the cross-body pull that follows. Grip firmly with fingers wrapping the wrist.",
+      "name": "Bring the second leg high",
+      "text": "Reinforce the clinch without forcing the knees beyond a comfortable hip angle.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Adjust Hip Angle",
-      "text": "Shift your hips approximately 20-30 degrees toward the trapped arm side, creating an angle that allows your controlling leg to slide higher across the opponent's upper back and shoulder. This hip adjustment generates the mechanical pathway for deeper arm isolation and must precede the arm pull.",
+      "name": "Track both elbows",
+      "text": "Do not assume that high legs alone have isolated an arm or completed Dead Orchard.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Pull Arm Across Centerline",
-      "text": "Using your wrist grip, pull the opponent's trapped arm across their body toward your opposite hip. Maintain continuous leg pressure throughout this movement to prevent any posture recovery. The arm should travel past their midline into a position where their shoulder is loaded and rotation is restricted.",
+      "name": "Keep knees close",
+      "text": "Use hip position and connected leg pressure rather than pulling the feet against fixed knees.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Reposition Controlling Leg",
-      "text": "Slide your shin from across the opponent's back to a higher position across their shoulder and upper arm area. The leg should apply direct downward pressure on the shoulder of the isolated arm, creating the characteristic Crackhead Control compression. Move the leg smoothly—do not lift and replace.",
+      "name": "Return to one-leg control",
+      "text": "Lower the reinforcing leg while preserving the first shin connection if you need Mission Control again.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Lock the Configuration",
-      "text": "Release your initial foot grip and re-secure your controlling leg by grabbing your own shin or ankle with both hands, locking the leg in the elevated position. This structural lock uses skeletal alignment rather than muscular tension, creating a sustainable hold that is far stronger than grip-dependent control.",
+      "name": "Open against a stack",
+      "text": "Release and frame when the opponent compresses your upper back or you cannot comfortably maintain the clinch.",
       "position": 6
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Apply Shoulder Pressure",
-      "text": "Drive your leg downward into the opponent's shoulder while pulling their trapped arm tight against your body. This creates a wedge effect that pins the shoulder while fully isolating the arm, completing the entry into Crackhead Control. The opponent should feel compression through their entire shoulder girdle.",
-      "position": 7
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Establish Offensive Platform",
-      "text": "Once the Crackhead Control configuration is locked, assess available submission pathways. The extreme arm isolation opens direct entries to omoplata, triangle, and gogoplata setups depending on the opponent's remaining defensive posture and their free arm positioning. Select the highest-percentage chain based on their reaction.",
-      "position": 8
     }
   ],
   "tool": ["BJJ Gi or No-Gi attire", "Training partner", "Mat space"],
@@ -80,50 +68,50 @@ description: "Execute Crackhead Control Entry from Rubber Guard bottom. Master t
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the optimal moment to initiate the Crackhead Control Entry from Mission Control?",
+      "name": "Crackhead Control Entry (bottom): What connection comes before the second leg rises?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The optimal moment is when the opponent's head is below your shoulder line and their trapped arm has relaxed slightly from active resistance. Look for moments when they stop fighting the Mission Control grip and either freeze or attempt a slow controlled escape rather than an explosive posture recovery. Initiating during active posture attempts dramatically reduces success rate because the opponent's resistance provides the structural tension needed to extract their arm."
+        "text": "Establish the first supported high leg and broken posture before bringing up the reinforcing leg."
       }
     },
     {
       "@type": "Question",
-      "name": "What grip must you establish before releasing your shin control during the entry?",
+      "name": "Crackhead Control Entry (bottom): Where does the reinforcing leg go?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "You must secure a wrist or forearm grip on the opponent's trapped arm with your free hand before releasing the foot or shin grip that maintains Mission Control. This overlap of control points ensures continuous arm isolation throughout the transition. Without this secondary control established first, the opponent can extract their arm during the brief moment of reduced control when the shin grip is released."
+        "text": "The second leg rises behind the head to reinforce the facing upper-body clinch."
       }
     },
     {
       "@type": "Question",
-      "name": "How do you adjust your hip angle to facilitate the arm pull across the opponent's centerline?",
+      "name": "Crackhead Control Entry (bottom): What extra feature would identify Dead Orchard?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Shift your hips approximately 20-30 degrees toward the side of the trapped arm before initiating the pull. This rotation creates a mechanical pathway that allows the arm to travel further across the opponent's body past the structural resistance at their centerline. Without this hip angle adjustment, the arm meets the opponent's skeletal resistance at the midline and cannot be isolated deeply enough for effective Crackhead Control compression."
+        "text": "High legs alone do not complete Dead Orchard; confirm the both-arm leg figure-four separately."
       }
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins circling their elbow outward during your grip transfer—how do you respond?",
+      "name": "Crackhead Control Entry (bottom): What supplies the angle for comfortable high-leg control?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Follow their elbow movement with your wrist grip, maintaining constant contact rather than fighting the circular motion directly. If they succeed in creating significant space through the circular extraction, immediately pivot to a triangle setup since their arm extraction movement has created the exact space needed for your leg to insert across their neck. The counter becomes your submission entry rather than a positional loss."
+        "text": "Use hip positioning and a connected knee rather than forcing the foot against a fixed knee."
       }
     },
     {
       "@type": "Question",
-      "name": "How does the leg position differ between Mission Control and Crackhead Control?",
+      "name": "Crackhead Control Entry (bottom): How can you return to one-leg control?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "In Mission Control, the shin runs horizontally across the opponent's upper back with the foot secured by the same-side hand, functioning primarily as a posture control tool. In Crackhead Control, the leg repositions higher to apply direct downward pressure on the opponent's shoulder of the isolated arm. The leg transitions from a back-control tool to a shoulder-compression tool, fundamentally changing the mechanical function from general posture management to specific arm isolation and shoulder loading."
+        "text": "Keep the original high shin supported while lowering the second leg to return toward Mission Control."
       }
     },
     {
       "@type": "Question",
-      "name": "What direction of force does your controlling leg apply in the final Crackhead Control position?",
+      "name": "Crackhead Control Entry (bottom): The opponent folds your upper back; how do you reset?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The controlling leg applies force directly downward into the opponent's shoulder, perpendicular to the mat surface. This downward compression pins the shoulder while your hands maintain the cross-body arm position through structural locking on your own shin. The combination of downward leg pressure and cross-body arm pull creates a wedge effect that immobilizes the entire shoulder girdle and prevents the opponent from rotating or posturing."
+        "text": "Release the high clinch and recover frames when the upper back is compressed or the position becomes uncomfortable."
       }
     }
   ]
@@ -136,7 +124,7 @@ description: "Execute Crackhead Control Entry from Rubber Guard bottom. Master t
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Crackhead Control Entry Attacker",
-  "description": "Execute Crackhead Control Entry from Rubber Guard bottom. Master the 10th Planet arm isolation progression with step-by-step mechanics and timing windows.",
+  "description": "Crackhead Control Entry (attacker): Establish the first high leg and its hand support before adding the second leg. Reinforce the clinch without forcing the knees beyond a comfortable hip angle.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -232,7 +220,15 @@ description: "Execute Crackhead Control Entry from Rubber Guard bottom. Master t
 
 <section id="overview" class="content-section">
 
-From the attacker's perspective, the Crackhead Control Entry is a calculated positional advancement that transforms standard Rubber Guard control into a dominant arm isolation platform. The attacker manipulates the opponent's trapped arm further across their centerline while adjusting leg positioning to apply direct downward pressure on the shoulder, creating a locked configuration that eliminates most defensive responses. This requires precise coordination between the controlling leg, both hands, and hip angle adjustments executed during windows where the opponent's posture is maximally compromised. The entry demands patience—attacking prematurely before securing proper grip transition results in the opponent extracting their arm and potentially escaping the Rubber Guard system entirely. Successful attackers develop sensitivity to the opponent's resistance patterns, recognizing when arm tension drops or posture recovery stalls as optimal entry windows.
+The bottom guard player begins in Rubber Guard with Mission Control established, facing a top player whose posture is controlled. The opponent still faces the guard player. Both arms may remain inside; this does not automatically complete Dead Orchard or Invisible Collar.
+
+Establish the first high leg and its hand support before adding the second leg. Reinforce the clinch without forcing the knees beyond a comfortable hip angle. Do not assume that high legs alone have isolated an arm or completed Dead Orchard.
+
+Use hip position and connected leg pressure rather than pulling the feet against fixed knees. Lower the reinforcing leg while preserving the first shin connection if you need Mission Control again. Release and frame when the opponent compresses your upper back or you cannot comfortably maintain the clinch.
+
+Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
+
+The two-leg clinch preserves posture control while you select a real submission entry such as a separately established arm isolation. If the partner frees the upper body, protect the space beside your ribs with an inside frame against chest pressure before returning to ordinary guard.
 
 **From Position**: [[Positions/Rubber Guard]] (Bottom)
 
@@ -280,13 +276,12 @@ From the attacker's perspective, the Crackhead Control Entry is a calculated pos
 
 <p class="section-subtitle">What are the key principles for executing Crackhead Control Entry?</p>
 
-- Maintain constant posture control throughout the transition to prevent the opponent from creating space or recovering base
-- Secure grip transitions sequentially rather than releasing all control points simultaneously—overlap old and new grips
-- Use hip angle adjustment to generate the mechanical advantage needed for cross-body arm isolation
-- Time the entry for moments of maximum opponent passivity or commitment to a specific defensive response
-- Keep the controlling leg heavy across the opponent's back to anchor the position during the grip transfer phase
-- Coordinate hand repositioning with continuous leg pressure to maintain unbroken control throughout the sequence
-- Commit fully once the entry begins—half-attempts create vulnerability to counter-posturing and arm extraction
+- Start with broken posture: Establish the first high leg and its hand support before adding the second leg.
+- Bring the second leg high: Reinforce the clinch without forcing the knees beyond a comfortable hip angle.
+- Track both elbows: Do not assume that high legs alone have isolated an arm or completed Dead Orchard.
+- Keep knees close: Use hip position and connected leg pressure rather than pulling the feet against fixed knees.
+- Return to one-leg control: Lower the reinforcing leg while preserving the first shin connection if you need Mission Control again.
+- Open against a stack: Release and frame when the opponent compresses your upper back or you cannot comfortably maintain the clinch.
 
 
 </section>
@@ -297,11 +292,10 @@ From the attacker's perspective, the Crackhead Control Entry is a calculated pos
 
 <p class="section-subtitle">What do you need before attempting Crackhead Control Entry?</p>
 
-- Established Rubber Guard position with shin across opponent's back and foot secured by same-side hand
-- Opponent's posture fully broken with head pulled below practitioner's shoulder line
-- Near-side arm trapped against practitioner's chest through controlling leg pressure
-- Free hand available and positioned to initiate grip transfer on opponent's wrist or forearm
-- Sufficient hip flexibility to maintain elevated leg position during the repositioning phase
+- The bottom guard player begins in Rubber Guard with Mission Control established, facing a top player whose posture is controlled.
+- Establish the first high leg and its hand support before adding the second leg.
+- Reinforce the clinch without forcing the knees beyond a comfortable hip angle.
+- The opponent still faces the guard player. Both arms may remain inside; this does not automatically complete Dead Orchard or Invisible Collar.
 
 
 </section>
@@ -312,14 +306,12 @@ From the attacker's perspective, the Crackhead Control Entry is a calculated pos
 
 <p class="section-subtitle">How do you execute Crackhead Control Entry step by step?</p>
 
-1. **Confirm Control Position**: Verify that your Rubber Guard (Mission Control) is secure with shin across opponent's back, foot controlled by same-side hand, opponent's near-side arm trapped against your chest, and posture broken with their head below your shoulder line. Do not proceed until all four checkpoints are confirmed.
-2. **Secure Wrist Control**: Use your free hand to grip the opponent's trapped wrist or forearm on the controlled side. This secondary control point ensures the arm cannot be withdrawn during the transition phase and provides a handle for the cross-body pull that follows. Grip firmly with fingers wrapping the wrist.
-3. **Adjust Hip Angle**: Shift your hips approximately 20-30 degrees toward the trapped arm side, creating an angle that allows your controlling leg to slide higher across the opponent's upper back and shoulder. This hip adjustment generates the mechanical pathway for deeper arm isolation and must precede the arm pull.
-4. **Pull Arm Across Centerline**: Using your wrist grip, pull the opponent's trapped arm across their body toward your opposite hip. Maintain continuous leg pressure throughout this movement to prevent any posture recovery. The arm should travel past their midline into a position where their shoulder is loaded and rotation is restricted.
-5. **Reposition Controlling Leg**: Slide your shin from across the opponent's back to a higher position across their shoulder and upper arm area. The leg should apply direct downward pressure on the shoulder of the isolated arm, creating the characteristic Crackhead Control compression. Move the leg smoothly—do not lift and replace.
-6. **Lock the Configuration**: Release your initial foot grip and re-secure your controlling leg by grabbing your own shin or ankle with both hands, locking the leg in the elevated position. This structural lock uses skeletal alignment rather than muscular tension, creating a sustainable hold that is far stronger than grip-dependent control.
-7. **Apply Shoulder Pressure**: Drive your leg downward into the opponent's shoulder while pulling their trapped arm tight against your body. This creates a wedge effect that pins the shoulder while fully isolating the arm, completing the entry into Crackhead Control. The opponent should feel compression through their entire shoulder girdle.
-8. **Establish Offensive Platform**: Once the Crackhead Control configuration is locked, assess available submission pathways. The extreme arm isolation opens direct entries to omoplata, triangle, and gogoplata setups depending on the opponent's remaining defensive posture and their free arm positioning. Select the highest-percentage chain based on their reaction.
+1. **Start with broken posture**: Establish the first high leg and its hand support before adding the second leg.
+2. **Bring the second leg high**: Reinforce the clinch without forcing the knees beyond a comfortable hip angle.
+3. **Track both elbows**: Do not assume that high legs alone have isolated an arm or completed Dead Orchard.
+4. **Keep knees close**: Use hip position and connected leg pressure rather than pulling the feet against fixed knees.
+5. **Return to one-leg control**: Lower the reinforcing leg while preserving the first shin connection if you need Mission Control again.
+6. **Open against a stack**: Release and frame when the opponent compresses your upper back or you cannot comfortably maintain the clinch.
 
 
 </section>
@@ -343,10 +335,10 @@ From the attacker's perspective, the Crackhead Control Entry is a calculated pos
 
 <p class="section-subtitle">How might your opponent counter Crackhead Control Entry?</p>
 
-- **Explosive posture recovery by driving upward with both arms before grip transfer completes** (Effectiveness: High) - Your Response: Increase leg pressure on the back and pull head down with your free hand. If they begin posturing before you initiate the entry, delay and maintain Mission Control rather than forcing the transition against active resistance. → Leads to [[Positions/Rubber Guard]]
-- **Arm extraction by circling the elbow outward during the grip transfer phase** (Effectiveness: Medium) - Your Response: Follow the circular arm extraction with your wrist grip, maintaining contact rather than fighting the direction. If they create significant space, immediately switch to triangle setup since their arm movement creates the exact space needed for leg insertion across the neck. → Leads to [[Positions/Rubber Guard]]
-- **Stack pass by driving forward aggressively to fold the bottom player and relieve leg pressure** (Effectiveness: Medium) - Your Response: Use their forward stacking momentum to load the omoplata angle. Frame on their hip with your free hand and rotate your body underneath them into omoplata control rather than fighting the stack directly. Their aggressive pressure assists the rotation. → Leads to [[Positions/Open Guard]]
-- **Explosive bridge combined with simultaneous grip stripping on both the shin grip and wrist control** (Effectiveness: High) - Your Response: If they successfully bridge and strip grips, immediately close your guard to prevent full posture recovery. Maintain at least one control point—sleeve, head, or collar tie—to prevent them from standing and opening the guard entirely. → Leads to [[Positions/Open Guard]]
+- **Avoid extending an arm between the high legs where it can be isolated.** (Effectiveness: High) - Your Response: Re-check the prerequisite before continuing. Establish the first high leg and its hand support before adding the second leg. → Leads to [[Positions/Rubber Guard]]
+- **A second leg climbing behind your head increases the posture-control problem.** (Effectiveness: Medium) - Your Response: Re-check the prerequisite before continuing. Reinforce the clinch without forcing the knees beyond a comfortable hip angle. → Leads to [[Positions/Rubber Guard]]
+- **Build a balanced base and an early hip frame before the high clinch closes.** (Effectiveness: Medium) - Your Response: Re-check the prerequisite before continuing. Do not assume that high legs alone have isolated an arm or completed Dead Orchard. → Leads to [[Positions/Open Guard]]
+- **Undo the high-leg connection before attempting to stand tall or extract an arm.** (Effectiveness: High) - Your Response: Re-check the prerequisite before continuing. Use hip position and connected leg pressure rather than pulling the feet against fixed knees. → Leads to [[Positions/Open Guard]]
 
 
 </section>
@@ -357,35 +349,30 @@ From the attacker's perspective, the Crackhead Control Entry is a calculated pos
 
 <p class="section-subtitle">What mistakes should you avoid when executing Crackhead Control Entry?</p>
 
-### 1. Releasing shin control before securing the wrist grip on the opponent's trapped arm
+### 1. Skipping the checkpoint: start with broken posture
 
-- **Consequence**: Opponent immediately recovers posture and extracts their arm during the control gap, forcing a reset to closed guard or complete guard loss
-- **Correction**: Always establish the secondary control point (wrist grip) before releasing primary control (shin grip). Overlap control points during transition so there is never a moment of zero control.
+- **Consequence**: The intended control is not established before the next movement; the missing requirement is: Establish the first high leg and its hand support before adding the second leg.
+- **Correction**: Establish the first high leg and its hand support before adding the second leg.
 
-### 2. Insufficient hip angle adjustment before attempting to pull the arm across the centerline
+### 2. Skipping the checkpoint: bring the second leg high
 
-- **Consequence**: The arm cannot travel far enough across the opponent's body, resulting in a weak isolation that the opponent escapes with a simple shrug or shoulder rotation
-- **Correction**: Shift hips 20-30 degrees toward the trapped arm side before initiating the cross-body pull. This hip angle creates the mechanical pathway necessary for deep isolation. Without it, structural resistance at the centerline blocks the pull.
+- **Consequence**: The intended control is not established before the next movement; the missing requirement is: Reinforce the clinch without forcing the knees beyond a comfortable hip angle.
+- **Correction**: Reinforce the clinch without forcing the knees beyond a comfortable hip angle.
 
-### 3. Attempting the entry when the opponent has strong or partially recovered posture
+### 3. Skipping the checkpoint: track both elbows
 
-- **Consequence**: Opponent uses their upright position to resist the arm pull and may extract their arm entirely, escaping from Rubber Guard to open guard
-- **Correction**: Only initiate entry when opponent's head is below your shoulder line and their posture is fully broken. If they have posture, work on breaking it down first from Mission Control before attempting to advance.
+- **Consequence**: The intended control is not established before the next movement; the missing requirement is: Do not assume that high legs alone have isolated an arm or completed Dead Orchard.
+- **Correction**: Do not assume that high legs alone have isolated an arm or completed Dead Orchard.
 
-### 4. Rushing the leg repositioning without maintaining continuous pressure on the trapped arm
+### 4. Skipping the checkpoint: keep knees close
 
-- **Consequence**: Momentary slack allows the opponent to withdraw their arm or create a frame, stalling the transition in an unstable halfway position that is worse than Mission Control
-- **Correction**: Keep constant pull on the wrist while repositioning the leg. The leg movement should be a smooth slide along the opponent's back, not a lift-and-replace that creates space for escape.
+- **Consequence**: The intended control is not established before the next movement; the missing requirement is: Use hip position and connected leg pressure rather than pulling the feet against fixed knees.
+- **Correction**: Use hip position and connected leg pressure rather than pulling the feet against fixed knees.
 
-### 5. Failing to lock the final configuration with both hands on your own shin
+### 5. Skipping the checkpoint: return to one-leg control
 
-- **Consequence**: Incomplete structural lock allows the opponent to gradually work their shoulder free, degrading the position to a weak Rubber Guard that is easier to escape than the original Mission Control
-- **Correction**: Once the leg is in its final position across the shoulder, immediately secure it with both hands grabbing your own shin. Skeletal locking through hand-on-shin configuration is far stronger than any grip-dependent hold.
-
-### 6. Neglecting head control during the transition phase between Mission Control and Crackhead Control
-
-- **Consequence**: Opponent lifts their head and creates vertical distance, reducing the effectiveness of the arm isolation and opening posture recovery pathways
-- **Correction**: Use your chest and chin to maintain head pressure throughout the transition. If necessary, briefly use your free hand on the back of their head before moving it to the wrist grip—sequence the controls rather than abandoning head pressure.
+- **Consequence**: The intended control is not established before the next movement; the missing requirement is: Lower the reinforcing leg while preserving the first shin connection if you need Mission Control again.
+- **Correction**: Lower the reinforcing leg while preserving the first shin connection if you need Mission Control again.
 
 
 
@@ -397,20 +384,17 @@ From the attacker's perspective, the Crackhead Control Entry is a calculated pos
 
 <p class="section-subtitle">How do you train Crackhead Control Entry (Attacker)?</p>
 
-**Phase 1: Mechanics** - Grip sequence and leg positioning
-Practice the full entry sequence on a non-resisting partner, focusing on smooth grip transitions and proper leg repositioning. Perform 20-30 repetitions per side, emphasizing the overlap of control points during transition. Verify each checkpoint before proceeding to the next step.
+**Phase 1** - Identify the configuration
+Work cooperatively on start with broken posture. Establish the first high leg and its hand support before adding the second leg. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.
 
-**Phase 2: Timing** - Recognition of entry windows
-Partner applies moderate resistance from Rubber Guard top, creating periodic moments of passivity or failed escape attempts. Practitioner identifies and exploits these windows to execute the entry. Focus on reading posture breaks and arm relaxation as triggers for initiation.
+**Phase 2** - Rehearse the connection
+Work cooperatively on bring the second leg high. Reinforce the clinch without forcing the knees beyond a comfortable hip angle. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.
 
-**Phase 3: Chain Integration** - Connecting entry to submission sequences
-Once entry is established, immediately flow into submission setups including triangle, omoplata, and gogoplata entries. Partner provides specific defensive reactions to trigger appropriate submission chains. Build automatic response patterns linking the control position to finishes.
+**Phase 3** - Add an early response
+Work cooperatively on track both elbows. Do not assume that high legs alone have isolated an arm or completed Dead Orchard. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.
 
-**Phase 4: Live Application** - Execution under full resistance
-Positional sparring starting from established Rubber Guard. Attempt Crackhead Control Entry against fully resisting opponents. Track success rate and identify patterns in successful versus failed attempts. Minimum 10 rounds of 3 minutes each to develop reliable entry timing.
-
-**Phase 5: Counter Adaptation** - Adapting to specific defensive responses
-Partner applies specific counters (posture recovery, arm extraction, stacking) in sequence while practitioner adapts with appropriate responses. Develop the ability to switch between entry attempts and alternative attacks based on opponent reaction patterns.
+**Phase 4** - Link only verified checkpoints
+Work cooperatively on keep knees close. Use hip position and connected leg pressure rather than pulling the feet against fixed knees. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.
 
 
 
@@ -424,7 +408,7 @@ Partner applies specific counters (posture recovery, arm extraction, stacking) i
 
 <p class="section-subtitle">What are the safety concerns for Crackhead Control Entry?</p>
 
-The Crackhead Control Entry places significant stress on the practitioner's own hip flexors, hamstrings, and groin muscles. Warm up thoroughly before drilling this technique, focusing on hip external rotation and hamstring flexibility. Avoid forcing the entry if hip flexibility is insufficient, as this risks groin strain or acute hip injury. When applying shoulder pressure in the final position, increase pressure gradually during training to allow your partner to tap if their shoulder is compromised. Communicate clearly with training partners about intensity levels, particularly regarding the cross-body arm isolation which can create acute shoulder pressure and potential injury if applied explosively.
+Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
 
 </section>
 

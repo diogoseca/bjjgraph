@@ -6247,7 +6247,7 @@ Learn the 50-50 Pass in BJJ. Systematic leg extraction from dangerous entangleme
 
 ### [[Transitions/Advance to Chill Dog|Advance to Chill Dog]]
 
-Master Advance to Chill Dog transition in BJJ. Progress from New York to gogoplata position with systematic leg threading and overhook control.
+Advancing to Chill Dog clears the head-side arm around the neck from New York while the bottom player keeps the trapped arm isolated and the controlling knee hugged.
 
 ### [[Transitions/Anaconda Choke|Anaconda Choke]]
 
@@ -6255,7 +6255,7 @@ Master the Anaconda Choke in BJJ. Step-by-step execution from Front Headlock to 
 
 ### [[Transitions/Anaconda Control to Dead Orchard Control|Anaconda Control to Dead Orchard Control]]
 
-Master the transition from Anaconda Control to Dead Orchard Control in BJJ. Grip adjustments, weight redistribution, and patient pressure mechanics for extended dominance.
+Anaconda Control is a front-headlock arm enclosure; Dead Orchard is a bottom-player leg triangle around both arms, so changing between them requires a separate guard exchange.
 
 ### [[Transitions/Anaconda Grip Break to Front Headlock|Anaconda Grip Break to Front Headlock]]
 
@@ -6295,15 +6295,15 @@ Master the Ankle Pick Sweep from seated guard. Step-by-step execution with grip 
 
 ### [[Transitions/Aoki Lock|Aoki Lock]]
 
-Master the Aoki Lock in BJJ. Advanced shoulder lock from Aoki Lock Control using leg entanglement and hip-driven pressure. Setup, finish, and counters explained.
+Entering the Aoki Lock from Aoki Lock Control keeps the outward-turned foot enclosed and the hip contained. Rehearse the transition without finishing rotation.
 
 ### [[Transitions/Aoki Lock to Back Control|Aoki Lock to Back Control]]
 
-Learn Aoki Lock to Back Control in BJJ. Transition from shoulder lock control to dominant back position. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.
+A back take after Aoki Lock Control needs a separate rear torso attachment; the original control alone does not establish hooks, a seatbelt or completed back control.
 
 ### [[Transitions/Aoki Lock to Crucifix|Aoki Lock to Crucifix]]
 
-Learn Aoki Lock to Crucifix transition in BJJ. Convert shoulder lock control to bilateral arm trap for dominant crucifix position with multiple submission options.
+A crucifix traps one opposing arm with the legs and the other with the arms. An Aoki foot capture needs a separate positional change before either arm trap.
 
 ### [[Transitions/Arm Drag|Arm Drag]]
 
@@ -6335,7 +6335,7 @@ Master Arm Extraction escape from Side Control. Learn systematic arm removal to 
 
 ### [[Transitions/Arm Extraction and Pass|Arm Extraction and Pass]]
 
-Learn Arm Extraction and Pass from Crackhead Control in BJJ. Systematic technique to clear trapped arm and transition to Side Control. Success rates: 30-65%.
+Against Crackhead Control, open the high-leg clinch and recover the elbow before passing. Clearing the arm alone does not establish a completed guard pass.
 
 ### [[Transitions/Arm Extraction from Clamp Guard|Arm Extraction from Clamp Guard]]
 
@@ -6343,7 +6343,7 @@ Master arm extraction from clamp guard in BJJ. Complete guide to freeing your tr
 
 ### [[Transitions/Arm Extraction to Turtle|Arm Extraction to Turtle]]
 
-Learn Arm Extraction to Turtle escape from Aoki Lock. Step-by-step technique to free trapped arm and recover turtle position for guard recovery.
+Arm Extraction to Turtle from Aoki Lock Control needs a separate arm trap. First free the rotated foot and hip connection; do not turn against a fixed knee.
 
 ### [[Transitions/Arm Recovery from Crucifix|Arm Recovery from Crucifix]]
 
@@ -6463,7 +6463,7 @@ Master the Back Step Pass in BJJ. Escape leg entanglements from Grasshopper Guar
 
 ### [[Transitions/Back Take|Back Take]]
 
-Master the Back Take from Crackhead Control in BJJ. Step-by-step execution with chair-sit mechanics. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.
+A back take after Crackhead Control needs a separate rear torso attachment; the original control alone does not establish hooks, a seatbelt or completed back control.
 
 ### [[Transitions/Back Take from 50-50|Back Take from 50-50]]
 
@@ -6555,7 +6555,7 @@ Master the Baratoplata Setup from Meathook. Step-by-step shoulder lock entry usi
 
 ### [[Transitions/Base Attack to Sweep|Base Attack to Sweep]]
 
-Master Base Attack to Sweep from Aoki Lock bottom. Destabilize opponent's posted leg to reverse position into mount with expert timing and hip mechanics.
+Base Attack to Sweep from Aoki Lock Control needs a defined reversal setup. Release the rotated foot safely before testing the opponent's posts and balance.
 
 ### [[Transitions/Basic Butterfly Sweep|Basic Butterfly Sweep]]
 
@@ -6703,15 +6703,15 @@ Set the Buggy Choke from under side control. Frame the near arm, trap it across 
 
 ### [[Transitions/Buggy Choke to Front Headlock|Buggy Choke to Front Headlock]]
 
-Transition from Buggy Choke to Front Headlock control. Step-by-step guide when choke fails. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.
+Moving to Front Headlock after a Buggy Choke requires the top player to clear the bottom player's head-and-arm loop before establishing the next control.
 
 ### [[Transitions/Buggy Choke to North-South|Buggy Choke to North-South]]
 
-Master the Buggy Choke to North-South transition in BJJ. Convert stalled turtle choke attacks into dominant north-south pin control with precision timing.
+Moving to North-South after a Buggy Choke requires the top player to clear the bottom player's head-and-arm loop before establishing the next control.
 
 ### [[Transitions/Buggy Choke to Side Control|Buggy Choke to Side Control]]
 
-Learn Buggy Choke to Side Control transition in BJJ. Strategic positional advancement when choke fails. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.
+Moving to Side Control after a Buggy Choke requires the top player to clear the bottom player's head-and-arm loop before establishing the next control.
 
 ### [[Transitions/Bull Pass from Collar Sleeve|Bull Pass from Collar Sleeve]]
 
@@ -6775,7 +6775,7 @@ Master the Butterfly Sweep with Guillotine from Hindulotine bottom. Convert oppo
 
 ### [[Transitions/Carni to Gogoplata Setup|Carni to Gogoplata Setup]]
 
-Master the Carni to Gogoplata Setup transition in BJJ. Chain from leg entanglement to shin-across-throat control by exploiting opponent's stack defense.
+A Carni-to-Gogoplata setup changes a shoulder-lock configuration into a shin-under-chin choke setup, requiring a new leg angle and safe release of the captured arm.
 
 ### [[Transitions/Cartwheel Escape from Omoplata|Cartwheel Escape from Omoplata]]
 
@@ -6843,7 +6843,7 @@ Master the Combat Base to Headquarters transition in BJJ. Systematic leg control
 
 ### [[Transitions/Complete Leg Weave Pass|Complete Leg Weave Pass]]
 
-Master the Complete Leg Weave Pass in BJJ. Detailed guide to finishing the guard pass from leg weave to side control using pressure, timing, and hip clearance.
+Complete Leg Weave Pass clears the remaining foot or half-guard hook after the passer's arm folds the knees together. Secure chest control before settling.
 
 ### [[Transitions/Complete Pass from Flattened Half|Complete Pass from Flattened Half]]
 
@@ -6943,19 +6943,19 @@ Master the Crab Ride to Back transition in BJJ. Complete guide to executing the 
 
 ### [[Transitions/Crackhead Control Entry|Crackhead Control Entry]]
 
-Master Crackhead Control Entry from Rubber Guard. Complete guide to 10th Planet arm isolation progression with setup, execution, and defensive counters.
+Crackhead Control Entry reinforces the Mission Control clinch by raising the second leg behind the opponent's head while the bottom player keeps the high-leg connection.
 
 ### [[Transitions/Crackhead Control to Carni|Crackhead Control to Carni]]
 
-Learn Crackhead Control to Carni transition in BJJ. Transform defensive turtle into leg entanglement attack. Complete guide with setup, execution, and defense.
+Changing from Crackhead Control toward Carni requires opening the second-leg clinch, isolating an arm, clearing the head-side leg and establishing the shoulder-lock angle.
 
 ### [[Transitions/Crackhead Control to Mission Control|Crackhead Control to Mission Control]]
 
-Master Crackhead Control to Mission Control in BJJ. Reset from high-risk overhook to stable rubber guard. Complete guide with setup, execution, and counters.
+Returning to Mission Control lowers the reinforcing leg from Crackhead Control while retaining the first high shin and hand connection to manage the opponent's posture.
 
 ### [[Transitions/Crackhead Control to New York|Crackhead Control to New York]]
 
-Master the Crackhead Control to New York transition in 10th Planet Rubber Guard. Adjust overhook angle for submission chains. Success: Beginner 30%, Advanced 65%.
+Reaching New York from Crackhead Control requires preserving Mission Control, clearing an opposing hand to the mat with a Zombie pummel and closing the knee hug.
 
 ### [[Transitions/Cross Ashi Transition|Cross Ashi Transition]]
 
@@ -7055,7 +7055,7 @@ Master the De La Riva to X-Guard transition in BJJ. Convert DLR hook control int
 
 ### [[Transitions/Dead Orchard to Darce Switch|Dead Orchard to Darce Switch]]
 
-Master the Dead Orchard to Darce Switch in BJJ. Learn grip reconfiguration, timing windows, and systematic mechanics for switching between choke types.
+A Darce needs an arm threaded through the armpit and around the neck; a Dead Orchard high leg triangle does not already contain that arm enclosure.
 
 ### [[Transitions/Deashi Harai|Deashi Harai]]
 
@@ -7151,7 +7151,7 @@ Master the Double Under Pass in BJJ. Pressure-based guard pass using bilateral u
 
 ### [[Transitions/Double Underhook Pass|Double Underhook Pass]]
 
-Master Double Underhook Pass from Crackhead Control. Step-by-step guide to passing turtle to Side Control with bilateral underhook mechanics and Gable grip.
+A double-underhook pass reaches beneath both thighs after the high rubber-guard clinch has opened, then clears the legs under controlled pressure.
 
 ### [[Transitions/Duck Under from Clinch|Duck Under from Clinch]]
 
@@ -7179,7 +7179,7 @@ Learn the Elbow Escape to Guard from Buggy Choke defense in BJJ. Step-by-step te
 
 ### [[Transitions/Elbow Escape to Remove Hooks|Elbow Escape to Remove Hooks]]
 
-Master Elbow Escape to Remove Hooks from back control. Step-by-step hook removal mechanics with elbow wedge framing and systematic hip escape sequences.
+An Invisible Collar guard reset opens the high leg clinch and restores inside elbows and knees; removing rear hooks belongs to a separate back-control escape.
 
 ### [[Transitions/Electric Chair Entry from Deep Half|Electric Chair Entry from Deep Half]]
 
@@ -7203,11 +7203,11 @@ Master the Escape Body Lock in BJJ. Complete guide to breaking locked grip contr
 
 ### [[Transitions/Escape Chill Dog|Escape Chill Dog]]
 
-Master the Chill Dog escape to half guard in BJJ. Learn timing, hip mechanics, and leg insertion technique to recover guard from defensive turtle.
+Leaving Chill Dog from bottom opens the neck-cleared rubber-guard connection and restores inside frames. Escaping that control from top is a separate task.
 
 ### [[Transitions/Escape Dead Orchard Control|Escape Dead Orchard Control]]
 
-Escape Dead Orchard Control in BJJ with systematic frame defense and hip escape techniques. Complete guide to surviving this dangerous anaconda variation.
+Exiting Dead Orchard requires opening the high leg triangle safely; the bottom player releases the control while the top player protects the captured arms.
 
 ### [[Transitions/Escape Double Jump|Escape Double Jump]]
 
@@ -7267,7 +7267,7 @@ Master the Escape Z-Lock Half Guard in BJJ. Learn systematic methods to disengag
 
 ### [[Transitions/Escape Zombie Control|Escape Zombie Control]]
 
-Escape Zombie Control in BJJ with systematic frames and hip escapes. Complete guide to transitioning from Zombie lockdown to turtle for guard recovery.
+A blocked Zombie pummel can be reset by preserving guard, withdrawing the pummeling hand and rebuilding Mission Control or ordinary inside frames.
 
 ### [[Transitions/Escape from Crab Ride|Escape from Crab Ride]]
 
@@ -7279,7 +7279,7 @@ Escape from Cross Body Ride in BJJ. Complete guide to clearing hooks, building f
 
 ### [[Transitions/Escape from Dead Orchard|Escape from Dead Orchard]]
 
-Master the Escape from Dead Orchard to Open Guard in BJJ. Complete guide to rolling escapes, aggressive hip movement, and full guard recovery techniques.
+Leaving Dead Orchard from bottom releases the high both-arm leg triangle and restores guard frames. The top player is the one defending the captured arms.
 
 ### [[Transitions/Escape from Rodeo Ride|Escape from Rodeo Ride]]
 
@@ -7355,7 +7355,7 @@ Master the fight from Saddle bottom to Inside Ashi-Garami. Systematic leg pummel
 
 ### [[Transitions/Finish Buggy Choke|Finish Buggy Choke]]
 
-Complete the Buggy Choke submission from turtle top. Master grip tightening, body mechanics, and finishing pressure for this high-percentage collar choke.
+Finishing a Buggy Choke uses the bottom player's same-side arm-and-leg loop around the top player's head and arm, closing space through body angle and shoulder-to-hip connection.
 
 ### [[Transitions/Finish from Hindulotine|Finish from Hindulotine]]
 
@@ -7523,7 +7523,7 @@ Master the gogoplata to armbar chain in BJJ. Complete guide to transitioning fro
 
 ### [[Transitions/Granby Roll to Guard|Granby Roll to Guard]]
 
-Learn Granby Roll escape from Buggy Choke in BJJ. Inverted rolling technique to recover guard position. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.
+A Granby needs a free head and limbs for a shoulder-supported roll. Release the Buggy arm-and-leg loop before considering a separately established roll.
 
 ### [[Transitions/Granby to Closed Guard|Granby to Closed Guard]]
 
@@ -7547,7 +7547,7 @@ Master the grip fight escape from rear triangle in BJJ. Systematic hand fighting
 
 ### [[Transitions/Grip Strip from Buggy Choke|Grip Strip from Buggy Choke]]
 
-Master the Grip Strip from Buggy Choke in BJJ. Complete guide to abandoning stalled choke attempts and transitioning to dominant side control position.
+Grip Strip from Buggy Choke opens the bottom player's arm-and-leg loop. Recover neck space and stable top frames before settling into side control again.
 
 ### [[Transitions/Guard Opening Sequence|Guard Opening Sequence]]
 
@@ -7555,7 +7555,7 @@ Master guard opening in BJJ. Systematic approaches to opening closed guard using
 
 ### [[Transitions/Guard Pass from Chill Dog|Guard Pass from Chill Dog]]
 
-Master the Guard Pass from Chill Dog in BJJ. Learn to advance from turtle top to side control by breaking defensive frames and flattening your opponent.
+Passing Chill Dog requires clearing the isolated arm and high-leg posture control first. Side control also requires a separate clearance of the hips and legs.
 
 ### [[Transitions/Guard Pass from Diamond Guard|Guard Pass from Diamond Guard]]
 
@@ -7635,7 +7635,7 @@ Master guard recovery from triangle control in BJJ. Step-by-step guide to escapi
 
 ### [[Transitions/Guard Recovery from Zombie|Guard Recovery from Zombie]]
 
-Master guard recovery from Zombie position in BJJ. Complete guide to lockdown release timing, frame establishment, and closed guard reestablishment.
+Guard recovery after a blocked Zombie pummel restores inside frames and a comfortable guard when the high-leg posture connection has been lost.
 
 ### [[Transitions/Guillotine Counter|Guillotine Counter]]
 
@@ -7711,7 +7711,7 @@ Master the Transition to Leg Hook from Half Guard Top in BJJ. Learn systematic l
 
 ### [[Transitions/Half Guard to Leg Weave|Half Guard to Leg Weave]]
 
-Master the Half Guard to Leg Weave entry in BJJ. Thread your knee through the opponent's half guard to flatten them, kill the knee shield, and set up the pass.
+Entering Leg Weave from half guard threads an arm through the leg gap to control the lower thigh or knee and fold the knee shield toward the other leg.
 
 ### [[Transitions/Half Guard to Old School|Half Guard to Old School]]
 
@@ -7751,7 +7751,7 @@ Master hand fighting defense from back control in BJJ. Two-on-one grip breaking,
 
 ### [[Transitions/Hand Fighting to Remove Collar Grip|Hand Fighting to Remove Collar Grip]]
 
-Master hand fighting to remove collar grip from invisible collar bottom. Two-on-one grip breaking mechanics and bridging techniques for back control escape.
+Hand fighting in Invisible Collar concerns high-leg and arm connections; stripping a jacket-collar grip requires a separately established cloth choke.
 
 ### [[Transitions/Harai Goshi|Harai Goshi]]
 
@@ -7883,7 +7883,7 @@ Master the Honey Hole to Saddle transition in BJJ. Refine leg entanglement contr
 
 ### [[Transitions/Hook Leg and Take Back|Hook Leg and Take Back]]
 
-Hook Leg and Take Back from Buggy Choke. Step-by-step back take when opponent sits to guard. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.
+A back take after Buggy Choke needs a separate rear torso attachment; the original control alone does not establish hooks, a seatbelt or completed back control.
 
 ### [[Transitions/Hook Sweep|Hook Sweep]]
 
@@ -7979,7 +7979,7 @@ Master the Japanese Necktie Setup from Front Headlock in BJJ. Step-by-step execu
 
 ### [[Transitions/John Wayne Sweep|John Wayne Sweep]]
 
-Master the John Wayne Sweep from Butterfly Hook Control. High-reward reversal to Mount using two-on-one sleeve control, a pistol grip break, and hook elevation.
+The John Wayne Sweep is a half-guard knee-lever reversal that anchors the opponent's lower leg and tips the hips while the bottom player controls the upper-body posts.
 
 ### [[Transitions/Jumping Guard|Jumping Guard]]
 
@@ -8035,7 +8035,7 @@ Master the Kimura Sweep in BJJ. Execute from Closed Guard to Mount using figure-
 
 ### [[Transitions/Kimura Switch|Kimura Switch]]
 
-Master the Kimura Switch from Aoki Lock in BJJ. Transition to Kimura Control when opponent defends shoulder lock. Complete guide with attacker and defender perspectives.
+A Kimura switch requires wrist control and a figure-four arm grip around the elbow; an Aoki rotational foot grip must be released before a separate arm capture.
 
 ### [[Transitions/Kimura Trap to Ushiro Kesa Gatame|Kimura Trap to Ushiro Kesa Gatame]]
 
@@ -8063,7 +8063,7 @@ Master the Kimura to Back Take transition in BJJ. Learn to convert Kimura grip c
 
 ### [[Transitions/Kiss of the Dragon|Kiss of the Dragon]]
 
-Learn Kiss of the Dragon in BJJ. Advanced rolling back take from turtle that bypasses defensive layers through inversion to establish back control.
+Kiss of the Dragon is a reverse De La Riva inversion that takes the bottom player underneath the opponent's near leg to reach the backside and pursue rear control.
 
 ### [[Transitions/Kiss of the Dragon from RDLR|Kiss of the Dragon from RDLR]]
 
@@ -8187,7 +8187,7 @@ Master kneebar control maintenance in BJJ. Learn grip adjustments, hip positioni
 
 ### [[Transitions/Kneebar Finish|Kneebar Finish]]
 
-Master the Kneebar Finish from Carni position in BJJ. Complete guide to hyperextension mechanics, timing, and chain attacks when opponent extends leg.
+Kneebar Finish after Carni requires a separate leg-lock setup. Release the shoulder clamp, then establish hip and ankle control before extending the knee.
 
 ### [[Transitions/Kneebar Setup|Kneebar Setup]]
 
@@ -8431,11 +8431,11 @@ Master the leg weave escape to half guard in BJJ. Frame-based defensive recovery
 
 ### [[Transitions/Leg Weave Pass|Leg Weave Pass]]
 
-Master the Leg Weave Pass in BJJ. Step-by-step pressure passing technique from half guard top to side control with systematic leg threading mechanics.
+Leg Weave Pass from half guard threads an arm between the legs to fold the knee shield. Clear the remaining hook before settling chest-to-chest in side control.
 
 ### [[Transitions/Leg Weave Pass Completion|Leg Weave Pass Completion]]
 
-Master the Leg Weave Pass Completion in BJJ. Complete guide to finishing the guard pass from leg weave control with pressure consolidation into side control.
+Leg Weave Pass Completion from Leg Weave keeps the knees folded while the passer frees the trapped leg, clears the hips and establishes a stable side pin.
 
 ### [[Transitions/Level Change Takedown|Level Change Takedown]]
 
@@ -8591,11 +8591,11 @@ Master New York Control Escape in BJJ. Systematic overhook extraction, posture r
 
 ### [[Transitions/New York Control to Invisible Collar|New York Control to Invisible Collar]]
 
-Master the New York Control to Invisible Collar rubber guard transition. Step-by-step guide covering shin repositioning, posture control, and chain attack setups.
+New York Control to Invisible Collar isolates an arm and clears the neck before adding the second leg high behind the head to reinforce posture control.
 
 ### [[Transitions/New York Control to Zombie|New York Control to Zombie]]
 
-Master New York Control to Zombie transition in BJJ. 10th Planet rubber guard progression when opponent extracts leg. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.
+New York Control to Zombie revisits the hand-clearing pummel only if the opponent recovers an inside arm. Preserve Mission Control while rebuilding the knee hug.
 
 ### [[Transitions/New York Entry from Rubber Guard|New York Entry from Rubber Guard]]
 
@@ -8607,7 +8607,7 @@ Master the New York pass to side control in BJJ. Complete guide to escaping rubb
 
 ### [[Transitions/New York to Invisible Collar|New York to Invisible Collar]]
 
-Master the New York to Invisible Collar transition in 10th Planet Rubber Guard. Step-by-step guide from New York control to deep collar control for chokes.
+New York to Invisible Collar keeps the trapped arm isolated, clears the head-side grip and closes the second leg high to reinforce the bottom player's clinch.
 
 ### [[Transitions/North-South Escape|North-South Escape]]
 
@@ -8859,7 +8859,7 @@ Learn Posture Recovery in BJJ. Defensive technique for regaining upright positio
 
 ### [[Transitions/Posture Recovery from Carni|Posture Recovery from Carni]]
 
-Master posture recovery from Carni in BJJ. Systematic escape using forward pressure and stacking to neutralize leg entanglement and recover to closed guard.
+Against Carni, release the shoulder clamp, triceps control and head-side leg before raising posture. The trapped limb is the arm, not the lower leg.
 
 ### [[Transitions/Posture Recovery from Diamond Guard|Posture Recovery from Diamond Guard]]
 
@@ -8875,11 +8875,11 @@ Master posture recovery from Mission Control in BJJ. Complete guide to breaking 
 
 ### [[Transitions/Posture Recovery from Zombie|Posture Recovery from Zombie]]
 
-Learn to recover posture from the Zombie lockdown position in BJJ. Systematic approach to breaking lockdown control, re-establishing base, and advancing to side control.
+Defending Zombie restores an inside hand and elbow before the knee hug closes. Posture recovery addresses rubber guard rather than a lower-leg lockdown.
 
 ### [[Transitions/Posture Recovery to Closed Guard|Posture Recovery to Closed Guard]]
 
-Learn Posture Recovery to Closed Guard in BJJ. Systematic guard recovery from turtle using frames, hip escapes, and precise timing to escape back attack threats.
+Posture recovery from Crackhead Control opens the two-leg high clinch before the top player rebuilds upright posture inside the remaining guard.
 
 ### [[Transitions/Posture Up from Gogoplata|Posture Up from Gogoplata]]
 
@@ -8895,7 +8895,7 @@ Master the Posture Up from Triangle escape in BJJ. Break triangle control with s
 
 ### [[Transitions/Posture from Chill Dog|Posture from Chill Dog]]
 
-Master posture recovery from Chill Dog turtle in BJJ. Break compact defensive shell with systematic pressure, hip control, and strategic positioning techniques.
+Posture recovery from Chill Dog frees the isolated arm and high-leg connection before raising the chest. Keep a balanced base and protect the captured shoulder.
 
 ### [[Transitions/Posture from Williams Guard|Posture from Williams Guard]]
 
@@ -8931,7 +8931,7 @@ Master the pressure pass from Shin-to-Shin Guard. Step-by-step guide covering we
 
 ### [[Transitions/Progression to Zombie|Progression to Zombie]]
 
-Learn Progression to Zombie in 10th Planet Rubber Guard. Advance from New York to deeper control with systematic hip rotation and overhook mechanics.
+Progression to Zombie from New York is a reset when the opponent recovers the inside hand. Pummel it back to the mat before restoring arm isolation and the knee hug.
 
 ### [[Transitions/Pull Guard from Combat Base|Pull Guard from Combat Base]]
 
@@ -9159,11 +9159,11 @@ Learn Roll Through to Reversal from Front Headlock in BJJ. Escape technique that
 
 ### [[Transitions/Roll from Chill Dog|Roll from Chill Dog]]
 
-Master the Roll from Chill Dog escape in BJJ. Complete guide to rolling mechanics, timing, and open guard recovery from the compact turtle defensive position.
+A safe reset from Chill Dog opens the high-leg control before any change of facing direction; the position does not itself require a rolling turtle escape.
 
 ### [[Transitions/Roll from Dead Orchard|Roll from Dead Orchard]]
 
-Master the Roll from Dead Orchard escape in BJJ. Complete guide to rolling mechanics, timing windows, and turtle recovery from dangerous choke control.
+A Dead Orchard reset opens the high both-arm leg triangle before turning or reorganizing guard. A rolling headlock escape needs a separate starting position.
 
 ### [[Transitions/Roll from Rodeo Ride|Roll from Rodeo Ride]]
 
@@ -9207,7 +9207,7 @@ Master the Rolling Back Take from Half Butterfly guard in BJJ. Complete guide to
 
 ### [[Transitions/Rolling Escape from Anaconda|Rolling Escape from Anaconda]]
 
-Master the Rolling Escape from Anaconda in BJJ. Step-by-step guide covering timing, body mechanics, and rolling technique to escape anaconda choke control.
+An Anaconda escape must first address the head-and-arm enclosure; a roll is conditional on an open neck space and does not automatically create Dead Orchard.
 
 ### [[Transitions/Rolling Escape to Guard|Rolling Escape to Guard]]
 
@@ -9235,7 +9235,7 @@ Master Rolling to Guard in BJJ. Defensive recovery from turtle using rotational 
 
 ### [[Transitions/Rotate to Carni|Rotate to Carni]]
 
-Learn Rotate to Carni from New York in BJJ. Step-by-step rotation mechanics to Carni position with omoplata attacks. Complete guide for purple and brown belts.
+Rotating to Carni seeks a leg-assisted shoulder clamp after clearing the high leg around the head and turning partly belly down with triceps and wrist control.
 
 ### [[Transitions/Rubber Guard Clear to Pass|Rubber Guard Clear to Pass]]
 
@@ -9587,7 +9587,7 @@ Master the Stack Pass Over Lapel Barrier in BJJ. Defeat lapel guard by driving f
 
 ### [[Transitions/Stack Pass from Carni|Stack Pass from Carni]]
 
-Master the Stack Pass from Carni in BJJ. Aggressive pressure escape that converts Carni leg entanglement defense directly into dominant side control position.
+Passing after Carni requires shoulder release before clearing the guard. Keep a safe base and avoid forcing either the captured arm or the partner into a neck stack.
 
 ### [[Transitions/Stack Pass from Clamp Guard|Stack Pass from Clamp Guard]]
 
@@ -9619,7 +9619,7 @@ Learn the Stack Pass with Lapel Control Negation in BJJ. Nullify Ringworm Guard 
 
 ### [[Transitions/Stack from Chill Dog|Stack from Chill Dog]]
 
-Master the Stack from Chill Dog in BJJ. Learn to break compact turtle defense with stacking pressure to advance position and establish half guard control.
+Defending Chill Dog opens the high-leg enclosure before advancing through guard. Forward pressure must not fold the partner onto the neck or wrench the shoulder.
 
 ### [[Transitions/Stack from Inverted|Stack from Inverted]]
 
@@ -9651,7 +9651,7 @@ Master the Standing Back Control Entry in BJJ. Learn to follow opponents to stan
 
 ### [[Transitions/Standing Escape|Standing Escape]]
 
-Learn the Standing Escape from Invisible Collar in BJJ. Step-by-step grip removal and stand-up sequence. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.
+Standing after Invisible Collar requires releasing the high guard, creating space and establishing safe posts. The facing leg clinch contains no rear hooks.
 
 ### [[Transitions/Standing Escape from Reverse X-Guard|Standing Escape from Reverse X-Guard]]
 
@@ -9735,7 +9735,7 @@ Master the straighten leg kneebar defense in BJJ. Complete guide to leg extensio
 
 ### [[Transitions/Strip Grip from Zombie|Strip Grip from Zombie]]
 
-Master the Strip Grip from Zombie in BJJ. Learn systematic grip breaking techniques to neutralize lockdown control and advance to open guard passing.
+Defending the Zombie pummel recovers the hand and elbow inside before New York is secured. The relevant control is the high guard, not a lower-leg lockdown.
 
 ### [[Transitions/Strip Lapel from Piranha|Strip Lapel from Piranha]]
 
@@ -9755,7 +9755,7 @@ Master the Suplex from Rear Clinch in BJJ. High-impact takedown converting stand
 
 ### [[Transitions/Sweep from Chill Dog|Sweep from Chill Dog]]
 
-Master the Sweep from Chill Dog in BJJ. Reverse compact turtle defense into mount with precise timing, hip mechanics, and explosive reversal technique.
+A sweep from Chill Dog needs a controlled posting arm and an off-balanced base; the high rubber-guard connection alone does not guarantee a reversal or mount.
 
 ### [[Transitions/Sweep from Clamp Guard|Sweep from Clamp Guard]]
 
@@ -9859,7 +9859,7 @@ Master the Sweep from Z-Lock Half Guard in BJJ. Combine lockdown tension with bu
 
 ### [[Transitions/Sweep from Zombie Guard|Sweep from Zombie Guard]]
 
-Master the Sweep from Zombie Guard in BJJ. Learn lockdown-based reversal mechanics from the 10th Planet Zombie position to achieve dominant mount control.
+A sweep from Zombie needs a controlled posting arm and an off-balanced base; the high rubber-guard connection alone does not guarantee a reversal or mount.
 
 ### [[Transitions/Sweep to Mount|Sweep to Mount]]
 
@@ -10103,7 +10103,7 @@ Master turning into your opponent from back control in BJJ. Complete guide to ro
 
 ### [[Transitions/Turn to Face from Zombie|Turn to Face from Zombie]]
 
-Master the Turn to Face escape from Zombie position in BJJ. Learn guard recovery mechanics, timing, and framing to transition from defensive Zombie to Half Guard.
+Guard recovery after a blocked Zombie pummel uses frames and hip movement to keep the knees inside. The basic rubber-guard exchange already faces the opponent.
 
 ### [[Transitions/Turn to Turtle from Knee on Belly|Turn to Turtle from Knee on Belly]]
 
@@ -10239,7 +10239,7 @@ Master the Ushiro Kesa Gatame to Side Control transition in BJJ. Complete guide 
 
 ### [[Transitions/Waiter Sweep|Waiter Sweep]]
 
-Master the Waiter Sweep from Butterfly Guard in BJJ. High-percentage sweep using underhook and elevation mechanics to reach Side Control Top.
+The Waiter Sweep elevates a controlled leg from deep half guard and manages the opponent's posts so the bottom player can tip the base and come on top.
 
 ### [[Transitions/Whip-up Sweep|Whip-up Sweep]]
 
@@ -10271,7 +10271,7 @@ Master the Worm to Squid Guard transition in BJJ. Complete guide to lapel reconf
 
 ### [[Transitions/X Pass|X Pass]]
 
-Master the X Pass guard pass in BJJ. Step-by-step guide covering crossface pressure, angular movement, and leg clearing from half guard top positions.
+The X Pass is a standing guard pass that controls the upper body and knees while kicking a leg back to clear the guard, then circles to a stable top pin.
 
 ### [[Transitions/X-Guard Elevation Sweep|X-Guard Elevation Sweep]]
 

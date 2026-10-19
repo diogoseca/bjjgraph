@@ -159,12 +159,12 @@ Emerging from Eddie Bravo's 10th Planet Jiu-Jitsu, the Rubber Guard reimagined w
 | [[Mission Control]] | Medium | High | Medium | High | High guard trades base for submission proximity |
 | [[New York]] | Medium | High | Medium | High | High-risk control trading stability for attacks |
 | [[New York Control]] | Medium | High | Medium | Medium | Extreme flexibility enables submission access |
-| [[Invisible Collar]] | High | Low to Medium | High | Medium | Deceptive grip hides submission threat |
-| [[Zombie]] | Medium | Medium | Medium | Medium | Lockdown transforms defensive turtle into offense |
-| [[Crackhead Control]] | High | Medium to High | Medium | High | Deep overhook trades safety for submissions |
+| [[Invisible Collar]] | High | Low to Medium | Medium | Medium | High two-leg clinch with an isolated arm |
+| [[Zombie]] | Medium | Medium | Medium | Medium | Arm pummel from Mission Control to New York |
+| [[Crackhead Control]] | High | Medium to High | Medium | Medium | Two-leg reinforcement of Mission Control |
 | [[Meathook]] | Medium | High | High | High | Arm isolation via shin hook enables choke chains |
-| [[Chill Dog]] | Medium | Low to Medium | Medium | Medium | Compact turtle defense with escape options |
-| [[Carni]] | Medium | High | Medium | High | Dynamic leg control trades static security |
+| [[Chill Dog]] | Medium | Low to Medium | Medium | Medium | Neck-cleared New York rubber-guard control |
+| [[Carni]] | Medium | High | Medium | Medium | Leg-assisted shoulder isolation from guard |
 
 
 

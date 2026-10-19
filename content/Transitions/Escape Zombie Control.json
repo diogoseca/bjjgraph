@@ -1,18 +1,12 @@
 {
   "name": "Escape Zombie Control",
-  "description": "Escape Zombie Control in BJJ with systematic frames and hip escapes. Complete guide to transitioning from Zombie lockdown to turtle for guard recovery.",
+  "description": "A blocked Zombie pummel can be reset by preserving guard, withdrawing the pummeling hand and rebuilding Mission Control or ordinary inside frames.",
   "tags": [
     "bjj",
     "transition",
-    "escape",
-    "zombie",
-    "10th-planet",
-    "lockdown",
-    "turtle",
-    "guard-recovery",
-    "defensive"
+    "position-change"
   ],
-  "summary": "Escape Zombie Control is a last-resort 10th Planet transition in which the bottom player releases the lockdown behind defensive frames and turns to turtle, abandoning a neutralized Zombie guard to reopen guard-recovery pathways.",
+  "summary": "A blocked Zombie pummel can be reset by preserving guard, withdrawing the pummeling hand and rebuilding Mission Control or ordinary inside frames.",
   "from_position": "Zombie/Bottom",
   "outcomes": [
     {
@@ -44,328 +38,283 @@
     "gi": 50,
     "nogi": 50
   },
-  "overview": "Within the 10th Planet half guard system, there comes a moment when the bottom player's lockdown game has been fully neutralized and continued Zombie play becomes untenable — this escape is the disciplined response to that moment. Rather than fighting a losing lockdown battle against a patient, technically sound passer, this technique teaches systematic disengagement from the Zombie structure to establish turtle position, opening new pathways for guard recovery, technical standup, or rolling escapes.\n\nThe escape requires precise coordination between lockdown release timing and frame establishment to prevent the top player from capitalizing on the transition. The critical window occurs when the top player commits their weight forward for a passing attempt, creating the space and momentum needed for the bottom player to redirect toward turtle rather than continuing lockdown-based defense. Poorly timed attempts expose the back, making this a calculated risk that demands honest positional assessment.\n\nStrategically, this escape occupies the last-resort tier within the Zombie bottom system. The preferred offensive transitions - Old School Sweep, Electric Chair, Deep Half Entry - should be attempted first. Escape Zombie Control becomes necessary when the top player has effectively shut down your lockdown threats and is systematically advancing their pass. The decision to abandon the Zombie game requires recognizing the tipping point between productive defense and diminishing returns, then committing fully to the escape once initiated.",
+  "overview": "The bottom player is already facing the opponent in Zombie, with a high rubber-guard leg connection. Zombie is an arm-clearing action from facing guard. The guard player is not escaping a lockdown turtle shell, and turning to turtle is not required.\n\nThe bottom player has broken posture and supports a high Mission Control leg. The top player's hand or forearm is still obstructing the intended arm isolation. Release any wrist, neck or elbow loading before opening the high-leg enclosure. Lower the controlling leg through a comfortable hip angle rather than pulling the foot against the knee.\n\nMove through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.\n\nInstructional sources: [Ben Eddy — the Zombie pummel](https://www.youtube.com/watch?v=JzSxFvNA5Uo); [Brandon McCaghren — Gogoplata from rubber guard](https://www.youtube.com/watch?v=wn39-wrfsbs).",
   "conditions": [
-    "Top player has neutralized lockdown offensive threats through strong crossface and sustained pressure",
-    "Lockdown tension is being systematically broken by opponent's posture adjustments and leg extraction work",
-    "Sweep attempts from Zombie Bottom (Old School, Electric Chair) have been consistently defended",
-    "Top player is advancing toward completing the pass with progressive pressure and grip dominance",
-    "Bottom player retains enough frame strength to create momentary space for the transition"
+    "The bottom player is already facing the opponent in Zombie, with a high rubber-guard leg connection.",
+    "The bottom player has broken posture and supports a high Mission Control leg. The top player's hand or forearm is still obstructing the intended arm isolation.",
+    "Zombie is an arm-clearing action from facing guard. The guard player is not escaping a lockdown turtle shell, and turning to turtle is not required."
   ],
   "variants_and_adaptations": [
     {
-      "variant_name": "Granby Roll Escape",
-      "description": "Uses a Granby roll motion to invert out of Zombie directly into guard recovery rather than stopping at turtle. The rolling momentum carries you past the vulnerable turtle phase entirely, landing in closed guard or half guard recovery.",
-      "when_to_use": "When the top player's weight is high and forward on your shoulders, allowing you to use their momentum against them during the inversion"
+      "variant_name": "Cooperative checkpoint drill",
+      "description": "The bottom player has broken posture and supports a high Mission Control leg. The top player's hand or forearm is still obstructing the intended arm isolation. Release any wrist, neck or elbow loading before opening the high-leg enclosure.",
+      "when_to_use": "Learning the control without submission pressure"
     },
     {
-      "variant_name": "Sit-Out Escape",
-      "description": "Employs a wrestling-style sit-out motion to face the opponent during the escape rather than turning away to turtle. Release the lockdown and immediately thread your near leg through while rotating your torso to face the opponent.",
-      "when_to_use": "When the top player has heavy upper body pressure but loose hip control, allowing you to redirect their forward energy while rotating to face them"
-    },
-    {
-      "variant_name": "Frame and Shrimp Escape",
-      "description": "Classical hip escape approach using strong near-side frames to create distance before establishing turtle base. Multiple small shrimps create incremental space rather than one explosive movement, reducing the risk of back exposure.",
-      "when_to_use": "When the opponent is using methodical pressure passing and you need a controlled, low-risk escape that minimizes back exposure throughout the transition"
+      "variant_name": "Response and reset drill",
+      "description": "Keep a useful forearm between the bodies before the bottom player gains the hand-clearing path. Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.",
+      "when_to_use": "Adding one early response after both partners recognize the configuration"
     }
   ],
-  "position_integration": "Escape Zombie Control occupies a critical defensive role within the 10th Planet half guard system as the emergency exit when the Zombie lockdown game is failing. It connects the Zombie position to the turtle position, which itself serves as a hub for multiple recovery pathways including Granby rolls, technical standups, sit-throughs, and Peterson rolls. Understanding this escape ensures practitioners are never trapped in a deteriorating Zombie position, maintaining the system's principle that every position must have viable exit strategies. The technique also reinforces the broader BJJ concept that recognizing when to abandon a failing game plan and transition to a different positional system is as important as executing techniques within that system.",
+  "position_integration": "The bottom player is already facing the opponent in Zombie, with a high rubber-guard leg connection. Zombie is an arm-clearing action from facing guard. The guard player is not escaping a lockdown turtle shell, and turning to turtle is not required. A destination is established by its actual body configuration, not by completing an isolated grip or by the name of the route.",
   "related_content": [
     {
-      "name": "Turtle",
-      "relationship": "Target position after successful escape from Zombie"
+      "name": "Mission Control",
+      "relationship": "Related configuration; establish its own prerequisites: compare the configuration and required controls for Mission Control."
     },
     {
-      "name": "Lockdown",
-      "relationship": "Core mechanic that must be released to execute the escape"
+      "name": "New York",
+      "relationship": "Related configuration; establish its own prerequisites: compare the configuration and required controls for New York."
     },
     {
-      "name": "Half Guard",
-      "relationship": "Alternative guard recovery destination from the escape sequence"
+      "name": "Rubber Guard",
+      "relationship": "Related configuration; establish its own prerequisites: compare the configuration and required controls for Rubber Guard."
     },
     {
-      "name": "Back Control",
-      "relationship": "Counter-risk position if escape is poorly timed or executed"
-    },
-    {
-      "name": "Deep Half Guard",
-      "relationship": "Alternative escape pathway from Zombie before committing to turtle"
-    },
-    {
-      "name": "Open Guard",
-      "relationship": "Ultimate guard recovery target after establishing turtle"
-    },
-    {
-      "name": "Old School",
-      "relationship": "Preferred offensive sweep to attempt before committing to escape"
-    },
-    {
-      "name": "Electric Chair",
-      "relationship": "Offensive submission option from Zombie to exhaust before escaping"
-    },
-    {
-      "name": "Granby Roll to Guard",
-      "relationship": "Follow-up escape technique from turtle after completing the transition"
-    },
-    {
-      "name": "Guard Recovery from Zombie",
-      "relationship": "Alternative guard recovery transition from the same Zombie Bottom position"
-    },
-    {
-      "name": "Rolling to Guard",
-      "relationship": "Alternative turtle escape for guard recovery after reaching turtle"
-    },
-    {
-      "name": "Deep Half Entry",
-      "relationship": "Alternative escape entry from deteriorating Zombie position"
+      "name": "Dead Orchard Control",
+      "relationship": "Related configuration; establish its own prerequisites: compare the configuration and required controls for Dead Orchard Control."
     }
   ],
   "attacker": {
     "name": "Escape Zombie Control Attacker",
-    "description": "Learn to execute the Escape Zombie Control technique in BJJ. Step-by-step guide to releasing the lockdown, establishing frames, and transitioning to turtle from a failing Zombie position.",
-    "overview": "Executing the Escape Zombie Control requires recognizing the tipping point when your Zombie lockdown game is no longer productive and committing to a systematic transition to turtle. The technique demands precise timing between releasing your primary control mechanism - the lockdown - and establishing defensive frames that prevent the top player from capitalizing on the transition. Success depends on creating a momentary window through frame pressure and hip movement, then moving explosively to establish a solid turtle base before the top player can secure back control or flatten you to the mat. The escape is a last-resort tool that must be drilled until the frame-release-turn sequence becomes automatic under pressure.",
+    "description": "Escape Zombie Control (attacker): The bottom player has broken posture and supports a high Mission Control leg. The top player's hand or forearm is still obstructing the intended arm isolation. Release any wrist, neck or elbow loading before opening the high-leg enclosure.",
+    "overview": "The bottom player is already facing the opponent in Zombie, with a high rubber-guard leg connection. Zombie is an arm-clearing action from facing guard. The guard player is not escaping a lockdown turtle shell, and turning to turtle is not required.\n\nThe bottom player has broken posture and supports a high Mission Control leg. The top player's hand or forearm is still obstructing the intended arm isolation. Release any wrist, neck or elbow loading before opening the high-leg enclosure. Lower the controlling leg through a comfortable hip angle rather than pulling the foot against the knee.\n\nBring the forearms and knees between the bodies as space becomes available. Keep the shoulders and hips oriented toward the opponent while re-establishing a comfortable facing guard. Check posture, knee comfort and inside space before resuming a sweep or submission attack.\n\nMove through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.\n\nIf the hand pummel fails, keep a frame in front of the shoulder and use a short shrimp to restore room for the inside knee. This guard retention prevents the advancing top player from replacing the blocked hand exchange with a crossface and chest pressure.",
     "key_principles": [
-      "Release the lockdown only after establishing strong near-side frames to prevent immediate pressure collapse",
-      "Time the escape with the opponent's forward weight commitment to use their momentum against them",
-      "Protect your back and neck throughout the entire transition from Zombie to turtle",
-      "Commit fully to the escape once initiated - half-measures expose your back without achieving turtle",
-      "Establish four-point turtle base with tight elbows immediately upon completing the transition",
-      "Use hip movement and directional changes during transition to prevent the top player from following"
+      "Recognize the actual control: The bottom player has broken posture and supports a high Mission Control leg. The top player's hand or forearm is still obstructing the intended arm isolation.",
+      "Remove submission pressure: Release any wrist, neck or elbow loading before opening the high-leg enclosure.",
+      "Open the high connection: Lower the controlling leg through a comfortable hip angle rather than pulling the foot against the knee.",
+      "Restore inside frames: Bring the forearms and knees between the bodies as space becomes available.",
+      "Face the opponent: Keep the shoulders and hips oriented toward the opponent while re-establishing a comfortable facing guard.",
+      "Stabilize before moving again: Check posture, knee comfort and inside space before resuming a sweep or submission attack."
     ],
     "setup_requirements": [
-      "Near-side frame established against opponent's chest or shoulder to create momentary space",
-      "Recognition that lockdown offensive threats have been neutralized by opponent's passing progression",
-      "Opponent's weight committed forward or laterally, creating momentum you can redirect",
-      "Sufficient space between your hips and the mat to execute hip escape for the transition",
-      "Far-side arm positioned to protect neck during the turtle transition"
+      "The bottom player is already facing the opponent in Zombie, with a high rubber-guard leg connection.",
+      "The bottom player has broken posture and supports a high Mission Control leg. The top player's hand or forearm is still obstructing the intended arm isolation.",
+      "Release any wrist, neck or elbow loading before opening the high-leg enclosure.",
+      "Zombie is an arm-clearing action from facing guard. The guard player is not escaping a lockdown turtle shell, and turning to turtle is not required."
     ],
     "execution_steps": [
       {
         "step_number": 1,
-        "action": "Assess Position",
-        "description": "Evaluate your current Zombie position to determine if lockdown-based offense is still viable. Check if the opponent has established strong crossface, neutralized your underhook, or is systematically loosening your lockdown. If your sweep threats are consistently defended and the opponent is advancing their pass, commit to the escape."
+        "action": "Recognize the actual control",
+        "description": "The bottom player has broken posture and supports a high Mission Control leg. The top player's hand or forearm is still obstructing the intended arm isolation."
       },
       {
         "step_number": 2,
-        "action": "Establish Frames",
-        "description": "Before releasing any lockdown tension, drive your near-side forearm into the opponent's chest, shoulder, or neck to create space and prevent them from collapsing their weight onto you. Your far-side hand should control their wrist or post behind you for additional leverage. These frames are your safety net during the transition."
+        "action": "Remove submission pressure",
+        "description": "Release any wrist, neck or elbow loading before opening the high-leg enclosure."
       },
       {
         "step_number": 3,
-        "action": "Release Lockdown",
-        "description": "Simultaneously release your lockdown grip while driving your frames into the opponent to create maximum space. The release must be coordinated with your frame pressure - if you release without frames, the opponent immediately advances. Straighten your entangled leg and begin withdrawing it from the lockdown configuration."
+        "action": "Open the high connection",
+        "description": "Lower the controlling leg through a comfortable hip angle rather than pulling the foot against the knee."
       },
       {
         "step_number": 4,
-        "action": "Hip Escape to Create Angle",
-        "description": "Execute a strong hip escape away from the opponent, using the space created by your frames. Drive your hips toward the mat on the far side to begin turning your body from the side-lying Zombie position toward a prone turtle position. This hip movement is the engine of the entire escape."
+        "action": "Restore inside frames",
+        "description": "Bring the forearms and knees between the bodies as space becomes available."
       },
       {
         "step_number": 5,
-        "action": "Establish Turtle Base",
-        "description": "As your hips clear the opponent's control, immediately drop to your knees and hands to establish a four-point turtle base. Tuck your elbows tight to your knees, round your back, and tuck your chin to protect against back takes and chokes. Your priority shifts from escaping Zombie to defending turtle."
+        "action": "Face the opponent",
+        "description": "Keep the shoulders and hips oriented toward the opponent while re-establishing a comfortable facing guard."
       },
       {
         "step_number": 6,
-        "action": "Protect Back and Create Movement",
-        "description": "Once in turtle, immediately begin moving to prevent the opponent from settling their weight on your back. Shift your hips laterally, fight any grip establishment attempts, and prepare your next transition - guard recovery, technical standup, or Granby roll. Never remain static in the turtle position."
+        "action": "Stabilize before moving again",
+        "description": "Check posture, knee comfort and inside space before resuming a sweep or submission attack."
       }
     ],
     "common_counters": [
       {
-        "counter": "Opponent drives heavy crossface pressure during frame establishment to collapse your space",
+        "counter": "Keep a useful forearm between the bodies before the bottom player gains the hand-clearing path.",
         "effectiveness": "High",
-        "your_response": "Redirect frame pressure to their shoulder rather than chest, use far-side arm to block crossface, and time your lockdown release with a strong hip bump to create space",
+        "your_response": "Re-check the prerequisite before continuing. The bottom player has broken posture and supports a high Mission Control leg. The top player's hand or forearm is still obstructing the intended arm isolation.",
         "targets_outcome": "Zombie/Bottom"
       },
       {
-        "counter": "Opponent immediately attacks the back as you transition to turtle by threading seatbelt",
+        "counter": "Move the whole arm rather than leaving the wrist exposed while the elbow remains fixed.",
         "effectiveness": "High",
-        "your_response": "Keep elbows extremely tight during transition, rotate your hips away from their seatbelt attempt, and immediately begin guard recovery rather than settling into turtle",
+        "your_response": "Re-check the prerequisite before continuing. Release any wrist, neck or elbow loading before opening the high-leg enclosure.",
         "targets_outcome": "Back Control/Bottom"
       },
       {
-        "counter": "Opponent drives hips forward to re-establish control as you release the lockdown",
+        "counter": "The free hand working under yours is the cue to recover inside position before the knee hug closes.",
         "effectiveness": "Medium",
-        "your_response": "Use your freed leg as a push frame on their hip to maintain distance, accelerate the turtle transition without pausing mid-escape",
+        "your_response": "Re-check the prerequisite before continuing. Lower the controlling leg through a comfortable hip angle rather than pulling the foot against the knee.",
         "targets_outcome": "Zombie/Bottom"
       },
       {
-        "counter": "Opponent transitions to front headlock as you enter turtle position",
+        "counter": "Retract the elbow toward your ribs through available space, stopping if the shoulder is caught.",
         "effectiveness": "Medium",
-        "your_response": "Tuck chin immediately, keep elbows tight, and circle away from the choking arm while working to recover guard or execute a sit-out",
+        "your_response": "Re-check the prerequisite before continuing. Bring the forearms and knees between the bodies as space becomes available.",
         "targets_outcome": "Back Control/Bottom"
       }
     ],
     "common_errors": [
       {
-        "error": "Releasing lockdown before establishing defensive frames",
-        "consequence": "Opponent immediately collapses their weight forward and advances the pass unopposed, often securing side control or back control",
-        "correction": "Always establish near-side frame against opponent's chest or shoulder before releasing any lockdown tension - frames replace the lockdown as your control mechanism during transition"
+        "error": "Skipping the checkpoint: recognize the actual control",
+        "consequence": "The intended control is not established before the next movement; the missing requirement is: The bottom player has broken posture and supports a high Mission Control leg. The top player's hand or forearm is still obstructing the intended arm isolation.",
+        "correction": "The bottom player has broken posture and supports a high Mission Control leg. The top player's hand or forearm is still obstructing the intended arm isolation."
       },
       {
-        "error": "Half-committing to the escape with hesitant movement",
-        "consequence": "Stuck in no-man's land between Zombie and turtle, exposing the back without establishing defensive base, creating easy back take for opponent",
-        "correction": "Once you decide to escape, commit fully with explosive movement from Zombie to turtle - the transition must be one continuous motion with no hesitation"
+        "error": "Skipping the checkpoint: remove submission pressure",
+        "consequence": "The intended control is not established before the next movement; the missing requirement is: Release any wrist, neck or elbow loading before opening the high-leg enclosure.",
+        "correction": "Release any wrist, neck or elbow loading before opening the high-leg enclosure."
       },
       {
-        "error": "Neglecting back protection during the turning transition",
-        "consequence": "Opponent secures seatbelt or harness control during the Zombie-to-turtle turn, leading directly to full back control with hooks",
-        "correction": "Keep elbows glued to your ribs throughout the entire turning motion, round your back immediately upon entering turtle, and tuck chin to protect neck"
+        "error": "Skipping the checkpoint: open the high connection",
+        "consequence": "The intended control is not established before the next movement; the missing requirement is: Lower the controlling leg through a comfortable hip angle rather than pulling the foot against the knee.",
+        "correction": "Lower the controlling leg through a comfortable hip angle rather than pulling the foot against the knee."
       },
       {
-        "error": "Turning face-up during the transition instead of face-down",
-        "consequence": "Exposes your front to the opponent, allowing them to establish mount or side control rather than needing to work for back control",
-        "correction": "Always turn face-down toward turtle position - never rotate onto your back during the escape, the direction of rotation is critical to the technique's safety"
+        "error": "Skipping the checkpoint: restore inside frames",
+        "consequence": "The intended control is not established before the next movement; the missing requirement is: Bring the forearms and knees between the bodies as space becomes available.",
+        "correction": "Bring the forearms and knees between the bodies as space becomes available."
       },
       {
-        "error": "Remaining static after reaching turtle position",
-        "consequence": "Opponent easily establishes back control hooks and harness from the static turtle, negating the entire escape effort",
-        "correction": "Immediately begin the next transition from turtle - guard recovery, standup, or Granby roll - turtle is a waypoint, never a destination"
-      },
-      {
-        "error": "Attempting the escape when lockdown offense is still productive",
-        "consequence": "Abandoning a position where you had viable offensive options for a worse defensive position unnecessarily, losing strategic advantage",
-        "correction": "Exhaust your Zombie offensive options (Old School Sweep, Electric Chair, Deep Half Entry) before committing to this last-resort escape"
+        "error": "Skipping the checkpoint: face the opponent",
+        "consequence": "The intended control is not established before the next movement; the missing requirement is: Keep the shoulders and hips oriented toward the opponent while re-establishing a comfortable facing guard.",
+        "correction": "Keep the shoulders and hips oriented toward the opponent while re-establishing a comfortable facing guard."
       }
     ],
     "training_progressions": [
       {
-        "phase": "Phase 1: Mechanics",
-        "focus": "Frame establishment and lockdown release coordination",
-        "description": "Practice the frame-to-release-to-turtle sequence with a compliant partner. Focus on timing the lockdown release with frame pressure. Partner provides zero resistance, allowing you to develop muscle memory for the movement pattern and proper turning direction."
+        "phase": "Phase 1",
+        "focus": "Identify the configuration",
+        "description": "Work cooperatively on recognize the actual control. The bottom player has broken posture and supports a high Mission Control leg. The top player's hand or forearm is still obstructing the intended arm isolation. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance."
       },
       {
-        "phase": "Phase 2: Timing",
-        "focus": "Reading opponent's weight commitment and timing the escape",
-        "description": "Partner applies moderate passing pressure from Zombie Top. Practice recognizing the optimal escape window when they commit weight forward. Focus on explosive transition speed rather than fighting the lockdown battle. Develop sensitivity to the tipping point between productive defense and escape necessity."
+        "phase": "Phase 2",
+        "focus": "Rehearse the connection",
+        "description": "Work cooperatively on remove submission pressure. Release any wrist, neck or elbow loading before opening the high-leg enclosure. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance."
       },
       {
-        "phase": "Phase 3: Defense Integration",
-        "focus": "Protecting the back during transition under pressure",
-        "description": "Partner actively attempts to take the back as you escape to turtle. Practice maintaining tight elbows, rounded back, and immediate movement upon reaching turtle. Develop awareness of the most vulnerable moments during the escape and defensive habits for each phase."
+        "phase": "Phase 3",
+        "focus": "Add an early response",
+        "description": "Work cooperatively on open the high connection. Lower the controlling leg through a comfortable hip angle rather than pulling the foot against the knee. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance."
       },
       {
-        "phase": "Phase 4: Chain Escapes",
-        "focus": "Connecting the escape to follow-up transitions",
-        "description": "Practice the full escape chain: Zombie to turtle to guard recovery or standup. Partner provides full resistance throughout. Develop the ability to flow immediately from the escape into your next positional improvement without pausing in turtle. Include all three variants."
+        "phase": "Phase 4",
+        "focus": "Link only verified checkpoints",
+        "description": "Work cooperatively on restore inside frames. Bring the forearms and knees between the bodies as space becomes available. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance."
       }
     ],
     "flashcards": [
       {
-        "question": "What conditions indicate that you should abandon Zombie lockdown offense and initiate the escape?",
-        "answer": "Key indicators include: your lockdown is being systematically loosened despite your tension adjustments, the opponent has established a dominant crossface preventing your underhook from being effective, your Old School Sweep and Electric Chair attempts are being consistently defended, and the opponent is making progressive passing advancement. The tipping point is when maintaining Zombie requires more energy than it returns in offensive threats - at that point, continued lockdown defense only delays an inevitable pass without creating escape opportunities.",
-        "answer_line": "Defense costs more than it gains",
+        "question": "Escape Zombie Control (bottom): The hand pummel stalls; what can you recover first?",
+        "answer": "Withdraw the failed pummel and preserve guard with an inside frame and short hip escape rather than forcing the clamped arm.",
+        "answer_line": "Shoulder frame and inside knee room",
         "distractors": {
           "plausible": [
-            "Crossface passes your guard",
-            "Sweeps keep getting stuffed"
+            "Tighten ankle hold; forearm outside",
+            "Overhook before their hand clears"
           ],
           "trap": [
-            "Grind lockdown until exhausted"
+            "Pull wrist; reach beyond shoulder"
           ]
         }
       },
       {
-        "question": "Why is it critical to establish frames before releasing the lockdown?",
-        "answer": "The lockdown is your primary control mechanism in Zombie. The moment you release it, the top player's trapped leg is free and they can immediately drive forward to complete the pass or take the back. Frames create the space buffer that replaces the lockdown's control function during the transition. Without frames, releasing the lockdown is equivalent to giving up your only defensive tool without establishing an alternative, leaving you completely defenseless during the most vulnerable phase of the escape.",
-        "answer_line": "Frames replace lockdown's control",
+        "question": "Escape Zombie Control (bottom): What must loosen before lowering the Mission Control leg?",
+        "answer": "Release any loaded neck or arm connection before lowering the controlling leg into an ordinary guard reset.",
+        "answer_line": "The high leg's upper-body connection",
         "distractors": {
           "plausible": [
-            "Buys time to catch your breath",
-            "Keeps hips square to opponent"
+            "Withdraw hand; retain high-leg grip",
+            "Free hand lets go; high leg taut"
           ],
           "trap": [
-            "Release lockdown, then frame"
+            "Release knee hug; keep pulling head"
           ]
         }
       },
       {
-        "question": "They drive shoulder pressure as you release the Zombie lockdown: how do you adjust?",
-        "answer": "If the frames aren't holding, abort the escape and re-establish lockdown temporarily. If committed to the escape, redirect your frame from their chest to under their shoulder, using the upward angle to redirect their driving pressure over your head rather than into your body. Simultaneously execute a more aggressive hip escape to create distance faster than their pressure can close. The key is never fighting their forward pressure head-on - always redirect it laterally or upward.",
-        "answer_line": "Frame under shoulder, angle up",
+        "question": "Escape Zombie Control (bottom): What lets the high knee lower comfortably?",
+        "answer": "Change your hip angle so the leg lowers through space rather than dragging the ankle against a stationary knee.",
+        "answer_line": "Hip motion clears the lowering path",
         "distractors": {
           "plausible": [
-            "Push straight into their chest",
-            "Re-underhook before framing"
+            "Keep hips flat; haul the foot down",
+            "Straighten leg into their shoulder"
           ],
           "trap": [
-            "Meet the pressure head-on"
+            "Lower ankle before letting grip go"
           ]
         }
       },
       {
-        "question": "What is the most common positional failure mode when executing this escape?",
-        "answer": "The most common failure is exposing the back during the Zombie-to-turtle transition, allowing the opponent to establish seatbelt control and transition to full back control. Prevention requires keeping your elbows glued to your ribs throughout the entire turning motion, rounding your back immediately as you enter turtle, and tucking your chin to prevent choking attempts. The transition should feel like closing a protective shell around your neck and torso rather than simply turning over.",
-        "answer_line": "Back exposed, seatbelt taken",
+        "question": "Escape Zombie Control (bottom): Where should the pummeling forearm go during recovery?",
+        "answer": "The withdrawn hand becomes a useful inside frame so chest pressure cannot replace the failed arm exchange.",
+        "answer_line": "Inside, in front of their shoulder",
         "distractors": {
           "plausible": [
-            "Losing lockdown too early",
-            "Turning too slowly to turtle"
+            "Around the far side of their back",
+            "On mat outside your own shoulder"
           ],
           "trap": [
-            "Extend arms to push away"
+            "Across chest, behind their shoulder"
           ]
         }
       },
       {
-        "question": "From Zombie bottom, what decides between escaping to turtle and rolling a Granby?",
-        "answer": "The decision depends on the opponent's weight placement and your available space. If the opponent's weight is high on your shoulders with forward pressure, the Granby roll uses their momentum against them and can skip the turtle entirely, going directly to guard recovery. If the opponent's weight is lower on your hips or they have good base, the Granby requires too much space to execute and turtle is the safer intermediate step. Additionally, if the opponent is experienced with following Granby rolls, establishing turtle first gives you a controlled base from which to choose your next escape.",
-        "answer_line": "Weight and space decide",
+        "question": "Escape Zombie Control (bottom): What should the hip escape recover?",
+        "answer": "A short shrimp behind the frame admits the inside knee and rebuilds a facing guard barrier.",
+        "answer_line": "Knee between your torso and theirs",
         "distractors": {
           "plausible": [
-            "Always turtle first for safety",
-            "Granby if you feel tired"
+            "Both knees behind you in turtle",
+            "Foot high before knee room returns"
           ],
           "trap": [
-            "Granby when they're heavy low"
+            "Knee beside hip, outside torso gap"
           ]
         }
       },
       {
-        "question": "How do you prevent the opponent from securing a seatbelt grip during the transition?",
-        "answer": "Keep your elbows tight to your body throughout the transition so there is no space for the opponent to thread their arm under your armpit or over your shoulder. As you turn into turtle, actively press your shoulders back toward their chest to eliminate the gap where the seatbelt would be established. If you feel them reaching for the seatbelt, immediately grab their incoming arm with both hands and strip it before they can clasp their hands together. Speed through the transition is also critical - a fast, committed escape gives them less time to establish grips.",
-        "answer_line": "Elbows tight, strip incoming arm",
+        "question": "Escape Zombie Control (bottom): When is another Zombie attempt well set up?",
+        "answer": "Re-establish Mission Control posture control and a supported knee before using the free hand for another pummel.",
+        "answer_line": "Posture low; supported high leg",
         "distractors": {
           "plausible": [
-            "Turn away from their chest",
-            "Grab their far wrist first"
+            "Opponent upright with both frames in",
+            "Foot high, but knee drifting back"
           ],
           "trap": [
-            "Post hands wide for base"
+            "Wrist exposed; your high leg slipped"
           ]
         }
       },
       {
-        "question": "After successfully reaching turtle, what is your highest-priority next action?",
-        "answer": "Immediate movement is the highest priority. The turtle position itself is transitional and vulnerable - remaining static allows the opponent to establish heavy chest pressure, insert hooks, or set up front headlock attacks. Assess the opponent's position relative to you: if they are behind you, begin guard recovery through sit-through or Granby roll; if they are to your side, consider technical standup; if they are heavy on top, create lateral hip movement to disrupt their weight placement. The escape is not complete until you have transitioned out of turtle to a more sustainable position.",
-        "answer_line": "Move immediately, don't stall",
+        "question": "Escape Zombie Control (bottom): Which exchange is actually being reset?",
+        "answer": "Zombie works on the opponent's hand and arm from Mission Control; the bottom player is already facing the opponent.",
+        "answer_line": "Facing hand pummel under a high leg",
         "distractors": {
           "plausible": [
-            "Wait to read their position",
-            "Recover breath before moving"
+            "Knee hug round the isolated arm",
+            "Regrip around the cleared head"
           ],
           "trap": [
-            "Stay still and turtle up tight"
+            "Second leg closes after hand clears"
           ]
         }
       },
       {
-        "question": "What hip movement best takes you from Zombie side-lying to turtle?",
-        "answer": "The key hip movement is a powerful hip escape away from the opponent combined with an immediate downward rotation of the far hip toward the mat. This creates a two-part motion: first you create space by moving your hips away, then you use that space to rotate your body from side-lying to prone. The hip escape must be explosive since a slow movement allows the opponent to follow. The rotation must be continuous without pausing in an intermediate position. Think of it as one fluid motion where your far hip drives into the mat while your near hip pushes away from the opponent, creating the turning force that establishes your turtle base.",
-        "answer_line": "Explosive hip escape then rotate",
+        "question": "Escape Zombie Control (bottom): With the pummel stalled, how can you retain facing guard?",
+        "answer": "The failed pummel leaves a guard-retention problem; frames and inside knees can be restored without turning away.",
+        "answer_line": "Restore inside frames and knees",
         "distractors": {
           "plausible": [
-            "Slow steady roll to prone",
-            "Push off with both hands first"
+            "Turn to knees before adding frames",
+            "Keep high leg alone as chest enters"
           ],
           "trap": [
-            "Pause square before turning"
+            "Keep arm wrap with knees outside"
           ]
         }
       }
     ],
-    "safety_considerations": "Exercise caution during the lockdown release phase, as sudden disengagement of the leg entanglement can cause knee torque for both practitioners. When drilling the escape, the top player should avoid driving heavy pressure during the transition to prevent neck compression as the bottom player turns into turtle. Both partners should communicate clearly about resistance levels, particularly during the back-exposure phase where the top player has access to neck attacks. Never practice this technique at full speed until both partners are comfortable with the movement pattern and timing.",
+    "safety_considerations": "Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.",
     "clips": [
       {
         "id": "5fJM5bIk8Fw",
@@ -380,172 +329,165 @@
   },
   "defender": {
     "name": "Escape Zombie Control Defender",
-    "description": "Learn to defend against the Escape Zombie Control in BJJ. Techniques for maintaining Zombie top pressure, preventing turtle transitions, and capitalizing on failed escape attempts for back takes.",
-    "overview": "Defending against the Escape Zombie Control means maintaining your dominant Zombie Top position and preventing the bottom player from transitioning to turtle. As the top player, your goal is to recognize the escape attempt early - signaled by frame establishment and lockdown tension changes - and either re-establish your control before the escape completes or capitalize on the transition to secure an even more dominant position like back control. The defender must balance between maintaining forward pressure to prevent the escape and avoiding overcommitting weight that creates the space the escaper needs to turn into turtle. Reading the bottom player's grip priority shifts and body positioning changes provides the critical early warning needed to shut down the escape or prepare your counter.",
+    "description": "Escape Zombie Control (defender): Keep a useful forearm between the bodies before the bottom player gains the hand-clearing path. Move the whole arm rather than leaving the wrist exposed while the elbow remains fixed.",
+    "overview": "The bottom player is already facing the opponent in Zombie, with a high rubber-guard leg connection. Zombie is an arm-clearing action from facing guard. The guard player is not escaping a lockdown turtle shell, and turning to turtle is not required.\n\nKeep a useful forearm between the bodies before the bottom player gains the hand-clearing path. Move the whole arm rather than leaving the wrist exposed while the elbow remains fixed. The free hand working under yours is the cue to recover inside position before the knee hug closes.\n\nRetract the elbow toward your ribs through available space, stopping if the shoulder is caught. Raise the chest after freeing the arm and reducing the high-leg control. Do not confuse an arm pummel with lockdown defense or apply twisting leg escapes to this upper-body exchange.\n\nMove through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.",
     "key_principles": [
-      "Recognize early indicators of the escape: frame establishment against your chest and reduced lockdown tension",
-      "Maintain constant chest-to-shoulder pressure to eliminate space for the hip escape that powers the transition",
-      "Control the near-side arm to prevent effective frame establishment before the escape begins",
-      "Stay connected through the transition - if they reach turtle, immediately begin back take sequences",
-      "Use crossface pressure to prevent the head positioning required for the turn into turtle",
-      "Punish the lockdown release by immediately advancing your passing position when the leg becomes free"
+      "Maintain inside frames: Keep a useful forearm between the bodies before the bottom player gains the hand-clearing path.",
+      "Keep elbow and hand connected: Move the whole arm rather than leaving the wrist exposed while the elbow remains fixed.",
+      "Notice the pummel early: The free hand working under yours is the cue to recover inside position before the knee hug closes.",
+      "Recover without yanking: Retract the elbow toward your ribs through available space, stopping if the shoulder is caught.",
+      "Rebuild posture gradually: Raise the chest after freeing the arm and reducing the high-leg control.",
+      "Respect the high guard: Do not confuse an arm pummel with lockdown defense or apply twisting leg escapes to this upper-body exchange."
     ],
     "recognition_cues": [
-      "Bottom player begins establishing strong near-side frame against your chest or shoulder instead of fighting for underhook",
-      "Lockdown tension decreases or the grip pattern changes from offensive stretch to passive hold",
-      "Bottom player's hips begin shifting away from you rather than engaging for sweep setups",
-      "Bottom player tucks their chin and rounds their shoulders in preparation for turtle transition",
-      "Far-side arm moves from underhook fighting to neck and head protection positioning"
+      "The bottom player is already facing the opponent in Zombie, with a high rubber-guard leg connection.",
+      "Release any wrist, neck or elbow loading before opening the high-leg enclosure.",
+      "Bring the forearms and knees between the bodies as space becomes available."
     ],
     "defensive_options": [
       {
-        "action": "Drive heavy crossface pressure when frame establishment begins to collapse their space",
-        "when_to_use": "At the first sign of frame setup, before the lockdown is released",
+        "action": "Keep a useful forearm between the bodies before the bottom player gains the hand-clearing path.",
+        "when_to_use": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.",
         "targets_outcome": "Zombie/Bottom",
-        "if_successful": "Bottom player's frames collapse and they remain stuck in deteriorating Zombie position",
-        "risk": "Committing too much weight forward may create space for Granby roll escape"
+        "if_successful": "The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
+        "risk": "Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route."
       },
       {
-        "action": "Immediately attack the back when bottom player releases lockdown and begins turning",
-        "when_to_use": "During the transition phase when their back is most exposed between Zombie and turtle",
+        "action": "Move the whole arm rather than leaving the wrist exposed while the elbow remains fixed.",
+        "when_to_use": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.",
         "targets_outcome": "Back Control/Bottom",
-        "if_successful": "Secure seatbelt control and hooks for full back control position",
-        "risk": "If mistimed, bottom player may complete the escape to turtle with sufficient base to defend"
+        "if_successful": "The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
+        "risk": "Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route."
       },
       {
-        "action": "Flatten the bottom player by driving hips forward when lockdown tension loosens",
-        "when_to_use": "When you feel the lockdown grip weakening or being deliberately released",
+        "action": "The free hand working under yours is the cue to recover inside position before the knee hug closes.",
+        "when_to_use": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.",
         "targets_outcome": "Zombie/Bottom",
-        "if_successful": "Bottom player is flattened on their stomach, unable to establish turtle base, pass advances",
-        "risk": "Driving forward may allow the bottom player to use your momentum for a Granby roll"
+        "if_successful": "The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
+        "risk": "Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route."
       },
       {
-        "action": "Transition to front headlock control as they enter turtle position",
-        "when_to_use": "When the bottom player has reached turtle but you have not secured back control",
+        "action": "Retract the elbow toward your ribs through available space, stopping if the shoulder is caught.",
+        "when_to_use": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.",
         "targets_outcome": "Back Control/Bottom",
-        "if_successful": "Establish front headlock with submission threats, preventing guard recovery from turtle",
-        "risk": "Bottom player may use the position change to execute a sit-out or immediate guard recovery"
+        "if_successful": "The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
+        "risk": "Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route."
       }
     ],
     "favorable_outcomes": [
       {
         "outcome": "Zombie/Bottom",
-        "how": "Shut down the escape early by collapsing frames with crossface pressure, controlling the near-side arm, and re-establishing heavy top pressure and lockdown control before the bottom player can complete the transition"
+        "how": "Interrupt the next connection while preserving a safe base. Establish any new guard or pin separately rather than assuming this response guarantees it. Keep a useful forearm between the bodies before the bottom player gains the hand-clearing path."
       },
       {
         "outcome": "Back Control/Bottom",
-        "how": "Allow the escape to proceed partially, then capitalize on the back exposure during the Zombie-to-turtle transition by threading seatbelt control and inserting hooks before the bottom player can establish a tight turtle base with defensive integrity"
+        "how": "Interrupt the next connection while preserving a safe base. Establish any new guard or pin separately rather than assuming this response guarantees it. Move the whole arm rather than leaving the wrist exposed while the elbow remains fixed."
       }
     ],
     "common_errors": [
       {
-        "error": "Allowing frame establishment without contesting the grips",
-        "consequence": "Bottom player creates the space needed to release lockdown and execute the escape cleanly to turtle",
-        "correction": "Immediately contest frames by driving shoulder pressure into their forearm, controlling their wrist, or adjusting your weight distribution to collapse the frame before the escape initiates"
+        "error": "Skipping the checkpoint: maintain inside frames",
+        "consequence": "The intended control is not established before the next movement; the missing requirement is: Keep a useful forearm between the bodies before the bottom player gains the hand-clearing path.",
+        "correction": "Keep a useful forearm between the bodies before the bottom player gains the hand-clearing path."
       },
       {
-        "error": "Staying flat on top during the transition instead of following the bottom player's movement",
-        "consequence": "Bottom player escapes to turtle with a clean transition and time to establish defensive base before you can react",
-        "correction": "Stay connected through the transition - as they turn, maintain chest contact with their back and begin seatbelt control immediately, never losing body-to-body connection"
+        "error": "Skipping the checkpoint: keep elbow and hand connected",
+        "consequence": "The intended control is not established before the next movement; the missing requirement is: Move the whole arm rather than leaving the wrist exposed while the elbow remains fixed.",
+        "correction": "Move the whole arm rather than leaving the wrist exposed while the elbow remains fixed."
       },
       {
-        "error": "Overcommitting weight forward when feeling the lockdown release",
-        "consequence": "Creates forward momentum the bottom player uses for a Granby roll, potentially ending up in a worse position with them recovering guard",
-        "correction": "Drive weight diagonally rather than straight forward, maintaining lateral base to counter rolling attempts while still applying directional pressure"
-      },
-      {
-        "error": "Failing to transition from passing mindset to back-take mindset during the escape",
-        "consequence": "Continuing to work pass-oriented grips and angles when the bottom player has already moved to turtle, losing the best window for back control",
-        "correction": "As soon as you recognize the turtle transition, immediately switch to seatbelt hunting and hook insertion rather than trying to complete the original pass"
+        "error": "Skipping the checkpoint: notice the pummel early",
+        "consequence": "The intended control is not established before the next movement; the missing requirement is: The free hand working under yours is the cue to recover inside position before the knee hug closes.",
+        "correction": "The free hand working under yours is the cue to recover inside position before the knee hug closes."
       }
     ],
     "flashcards": [
       {
-        "question": "What earliest signs show the bottom player is abandoning Zombie offense to escape?",
-        "answer": "The earliest indicators are changes in grip priority and body positioning. The bottom player shifts from fighting for underhook (offensive) to establishing a frame against your chest (defensive escape setup). Their lockdown tension changes from active stretching for sweeps to passive holding. Their far-side arm moves from attacking your wrists to protecting their own neck. These subtle shifts precede the actual escape by one to two seconds, giving you a critical reaction window to shut down the escape or prepare your counter.",
-        "answer_line": "Frame appears, grip fight stops",
+        "question": "Escape Zombie Control (top): Where should your forearm resist the pummel early?",
+        "answer": "Maintain an inside forearm so the bottom player's hand cannot easily lift yours out toward the mat.",
+        "answer_line": "Inside before their hand gets under",
         "distractors": {
           "plausible": [
-            "Lockdown tension increases",
-            "Far arm grabs your wrist"
+            "Outside their hip, elbow flared",
+            "Behind their head, hand hidden"
           ],
           "trap": [
-            "Sudden burst of sweep attempts"
+            "Across chest with wrist past elbow"
           ]
         }
       },
       {
-        "question": "As they escape Zombie, should you hold Zombie top or switch to taking the back?",
-        "answer": "This depends on timing. If you catch the escape attempt early - during frame establishment before lockdown release - you should maintain Zombie top by collapsing their frames and re-establishing heavy pressure. However, once the lockdown has been released and the bottom player is turning, attempting to maintain Zombie top is wasted effort since the position's control structure has been broken. At that point, immediately transition to back take mode, threading your seatbelt and hunting for hooks during their most vulnerable phase.",
-        "answer_line": "Early collapse, late back-take",
+        "question": "Escape Zombie Control (top): How should the hand and elbow recover together?",
+        "answer": "Recover hand and elbow together instead of leaving the wrist exposed beyond a fixed elbow.",
+        "answer_line": "Hand and elbow return through slack",
         "distractors": {
           "plausible": [
-            "Always maintain lockdown longer",
-            "Wait, then take mount instead"
+            "Only wrist in; elbow pinned outside",
+            "Straighten elbow with hand held"
           ],
           "trap": [
-            "Chase Zombie after release"
+            "Turn chest away to drag elbow in"
           ]
         }
       },
       {
-        "question": "How do you pressure to stop the Zombie escape without overcommitting into a Granby roll?",
-        "answer": "Apply pressure diagonally rather than straight forward. Drive your shoulder into their face and chest at an angle that both collapses their frames and maintains your lateral base. Keep your far-side knee posted wide to prevent being rolled. If you feel them begin any rolling motion, immediately shift your hips to the opposite side and drive perpendicular to their roll direction. Think of your pressure as a wedge rather than a battering ram - it should prevent movement in multiple directions simultaneously.",
-        "answer_line": "Diagonal wedge, not straight drive",
+        "question": "Escape Zombie Control (top): Which cue calls for an early inside-hand recovery?",
+        "answer": "The hand-first pummel attacks the opening under your hand; respond before the bottom player's knee hug encloses the arm.",
+        "answer_line": "Their hand pummels beneath yours",
         "distractors": {
           "plausible": [
-            "Drive straight forward hard",
-            "Post knee narrow for base"
+            "Their free foot settles on the floor",
+            "Their high leg lowers to your waist"
           ],
           "trap": [
-            "Full commit shoulder pressure"
+            "Their hand returns to shoulder frame"
           ]
         }
       },
       {
-        "question": "What grip adjustments should you make when you feel the lockdown releasing?",
-        "answer": "When the lockdown releases, immediately transition from passing-oriented grips (crossface, underhook, pant control) to control-oriented grips (seatbelt setup, near-side underhook, far-side collar or shoulder control). Your near-side arm should immediately seek to thread under their armpit for the seatbelt as they turn. Your far-side hand should control their far shoulder or neck to prevent them from completing the turtle rotation with defensive integrity. The grip transition should happen simultaneously with the lockdown release.",
-        "answer_line": "Swap crossface for seatbelt grips",
+        "question": "Escape Zombie Control (top): Where should the recovered elbow finish?",
+        "answer": "An elbow recovered toward the ribs can frame inside before the New York knee hug fixes it outside.",
+        "answer_line": "By ribs, inside their arm wrap",
         "distractors": {
           "plausible": [
-            "Keep crossface, add underhook",
-            "Control belt first, hips after"
+            "Elbow flared past knee, palm down",
+            "Hand on collarbone; elbow outside"
           ],
           "trap": [
-            "Grab pant leg tighter"
+            "Past their shoulder in a head wrap"
           ]
         }
       },
       {
-        "question": "What do you do if the bottom player successfully reaches turtle despite your counter-attempts?",
-        "answer": "Immediately transition your game plan from Zombie top control to turtle attack sequences. Establish chest-to-back pressure immediately and begin hunting for seatbelt grip by threading your arm under their near armpit while controlling their far shoulder. Do not pause to regroup - the window for back take is most open in the first three to five seconds after they establish turtle, before they can begin their own escape sequences. If seatbelt is unavailable, transition to front headlock control by circling toward their head, which opens different submission and control pathways.",
-        "answer_line": "Attack turtle in first 3-5 sec",
+        "question": "Escape Zombie Control (top): What must happen before you lift the chest?",
+        "answer": "Posture recovery follows arm clearance and an opened high leg; the hand pummel alone does not release the upper body.",
+        "answer_line": "Free arm; open high-leg connection",
         "distractors": {
           "plausible": [
-            "Reset guard passing game plan",
-            "Wait for them to move first"
+            "Move hand; shoulder stays fixed",
+            "Widen knees; neck remains enclosed"
           ],
           "trap": [
-            "Pause to regroup strategy"
+            "Recover arm; high leg remains taut"
           ]
         }
       }
     ],
     "training_progressions": [
       {
-        "phase": "Phase 1: Recognition",
-        "focus": "Identifying escape attempt indicators early",
-        "description": "Partner initiates the escape at random intervals from Zombie Bottom while you practice recognizing the early signs: frame changes, lockdown tension shifts, and body positioning adjustments. Call out the escape attempt before they begin the actual turn. Develop pattern recognition speed for the subtle pre-escape signals."
+        "phase": "Phase 1",
+        "focus": "Identify the configuration",
+        "description": "Work cooperatively on maintain inside frames. Keep a useful forearm between the bodies before the bottom player gains the hand-clearing path. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance."
       },
       {
-        "phase": "Phase 2: Counter Timing",
-        "focus": "Timing frame collapse and back take response",
-        "description": "Partner executes the escape with moderate intensity. Practice two response tracks: shutting down the escape early with frame collapse when caught during setup, and transitioning to back take when caught during execution. Develop the decision-making between these two fundamentally different responses based on timing."
+        "phase": "Phase 2",
+        "focus": "Rehearse the connection",
+        "description": "Work cooperatively on keep elbow and hand connected. Move the whole arm rather than leaving the wrist exposed while the elbow remains fixed. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance."
       },
       {
-        "phase": "Phase 3: Live Application",
-        "focus": "Full resistance escape defense with passing integration",
-        "description": "Positional sparring starting in Zombie Top. Bottom player uses full escape repertoire including Escape Zombie Control and all variants. Top player must recognize and counter all escape types while advancing their own passing game. Develops the complete Zombie Top defensive toolkit under realistic conditions."
+        "phase": "Phase 3",
+        "focus": "Add an early response",
+        "description": "Work cooperatively on notice the pummel early. The free hand working under yours is the cue to recover inside position before the knee hug closes. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance."
       }
     ],
     "clips": [

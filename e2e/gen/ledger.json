@@ -1673,14 +1673,14 @@
    "L": "fresh-visitor",
    "F": "spa-nav",
    "B": "idempotence",
-   "invariant": "A brand-new visitor who soft-navigates before any progress gets exactly one rebuilt app instance with an empty career: after a Quartz soft nav there is exactly one #neural-root, window.__neural is a fresh ref with empty beats, and prep/rec are still empty (navigation on an empty profile mints nothing).",
+   "invariant": "An unplayed fresh visitor soft-navigates to Mount and waits for true reader readiness: exactly one fresh root and instance, the old instance destroyed, no old-instance beat survives, exactly land(Mount Top, first=true), beacon_moved(options), mc_shown, land_q_shown, land_q_unseen in order, all owned by the fresh instance, and prep, recall and mastery remain zero.",
    "origin": "auto",
    "status": "accepted",
    "wave": 3,
    "evidence": {
-    "greens": 3,
-    "redProof": "Mutated line 126 `.toBe(0)` -> `.toBe(1)` on after.prepKeys. FAILED: Expected: 1, Received: 0 \u2014 empty profile mints 0 prep entries after the soft nav. Restored to `.toBe(0)`; green (2.2s).",
-    "runtimeS": 2.5
+    "greens": 8,
+    "redProof": "STALE TIMING, pre-existing since deferred reader.js v1.225.0. True reader readiness yields exactly land(Mount Top), beacon_moved(options), mc_shown, land_q_shown, land_q_unseen. BASE controls 3/3 and candidate controls 3/3 pass; an injected old-instance beat fails oldBeatSurvives=false, and skipped destroy fails __ngDestroyed=true. Restored candidate controls 2/2 pass. No retries or skipped tests. Evidence: /home/user/bjj-orchestrator/scratch/node-identities/genfix/five-beat-proof.json; readiness-finding.json explains the earlier module-install race.",
+    "runtimeS": 1.8
    }
   },
   {

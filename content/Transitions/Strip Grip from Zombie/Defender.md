@@ -4,7 +4,7 @@
 
 ---
 title: "Strip Grip from Zombie Defender | BJJ Defense Guide | BJJ Graph"
-description: "Learn to defend against grip stripping from Zombie bottom. Maintain lockdown structure, re-establish broken connections, and capitalize on grip fight openings for sweeps and guard recovery."
+description: "Strip Grip from Zombie (defender): Maintain posture control while freeing the other arm for the pummel. Work through the opening near the hand rather than forcing a tightly clamped elbow straight outward."
 ---
 
 
@@ -20,26 +20,26 @@ description: "Learn to defend against grip stripping from Zombie bottom. Maintai
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Re-pump underhook aggressively when opponent attempts to strip it with whizzer",
-      "text": "Immediately when you feel the whizzer tightening and your underhook arm being compressed — do not wait for it to be fully neutralized If successful: Maintains full Zombie structure and forces opponent to restart their entire grip stripping sequence from the beginning",
+      "name": "Maintain posture control while freeing the other arm for the pummel.",
+      "text": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded. If successful: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Old School Sweep when opponent lifts weight during grip transitions",
-      "text": "When the top player shifts weight or lifts chest during the transition between stripping different grips — their base is momentarily compromised If successful: Sweep to top position, reversing the engagement and establishing dominant half guard top or mount",
+      "name": "Work through the opening near the hand rather than forcing a tightly clamped elbow straight outward.",
+      "text": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded. If successful: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Transition to deep half guard before lockdown is fully extracted",
-      "text": "When underhook has been neutralized and lockdown is weakening — voluntarily release lockdown and shoot underneath the opponent before they establish passing position If successful: Establishes deep half guard which provides new sweep and escape opportunities from a structured defensive position",
+      "name": "Guide the wrist and forearm through the available space without bending individual fingers.",
+      "text": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded. If successful: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Recover to knee shield half guard by inserting top knee before opponent establishes passing grips",
-      "text": "When lockdown has been broken and opponent is transitioning to open guard engagement — use the brief scramble window to establish new guard structure If successful: Establishes knee shield which is a strong defensive half guard position with its own sweep and submission threats",
+      "name": "Cover the cleared arm and close the knee hug as the hand reaches the mat.",
+      "text": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded. If successful: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
       "position": 4
     }
   ],
@@ -56,34 +56,34 @@ description: "Learn to defend against grip stripping from Zombie bottom. Maintai
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the most important grip to defend when the opponent begins their stripping sequence?",
+      "name": "Strip Grip from Zombie (bottom): What supports your pummel while they recover their hand?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The underhook is the most critical grip to defend because it serves as the keystone of the entire Zombie defensive structure. Without the underhook, you cannot create the angles needed for Old School Sweeps, Electric Chair threats, or effective guard recovery. The lockdown alone without an underhook becomes a passive leg entanglement that the opponent can systematically defeat with patience and pressure. If you can maintain only one grip, keep the underhook and use it to re-establish your other connections."
+        "text": "Maintain the Mission Control posture connection while the free hand works; a loose high foot is insufficient."
       }
     },
     {
       "@type": "Question",
-      "name": "When during the opponent's grip stripping sequence is the best window to attempt a sweep?",
+      "name": "Strip Grip from Zombie (bottom): Where can the hand-first pummel seek another opening?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The best sweep window occurs during the transition between the opponent stripping your underhook and beginning to work on your lockdown. At this point, they have typically committed their upper body to a whizzer or crossface position and are beginning to redirect attention to their trapped leg. This weight redistribution temporarily compromises their base. The Old School Sweep is particularly effective here because the opponent's forward pressure and committed upper body positioning provides the momentum needed for the sweep."
+        "text": "Eddy's version works near the hand because the opponent can clamp more strongly directly at the elbow."
       }
     },
     {
       "@type": "Question",
-      "name": "How do you know your Zombie structure has failed and it is time to switch guards?",
+      "name": "Strip Grip from Zombie (bottom): What should you guide instead of grabbing fingers?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Your structure is critically failing when both your underhook and near-side frame have been neutralized, leaving only the lockdown as your remaining connection point. At this stage, maintaining the Zombie is futile — the opponent will extract their leg within seconds. The correct response is to proactively release the lockdown and immediately transition to either deep half guard by shooting underneath them, knee shield half guard by inserting your top knee, or butterfly guard by extracting your bottom hook. Making this transition voluntarily while you still have some control is far superior to having the structure completely dismantled."
+        "text": "Move the wrist-and-forearm line through available space to clear the inside frame without manipulating individual fingers."
       }
     },
     {
       "@type": "Question",
-      "name": "What body positioning keeps your Zombie grips alive against a skilled grip stripper?",
+      "name": "Strip Grip from Zombie (bottom): Their hand reaches the mat; what prevents its return?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Stay turned aggressively onto your side rather than allowing yourself to be flattened. Your underhook is strongest when your chest is connected to the opponent's body. Squeeze your lockdown with your thigh adductors rather than relying on your foot hook alone — the thigh squeeze is biomechanically harder to break. Keep your framing arm with a bent elbow anchored against your ribs rather than extended, making it structurally resistant to being stripped. Most importantly, keep your hips moving with constant micro-adjustments to prevent the opponent from settling into a stable grip-breaking position."
+        "text": "Follow the clearance by securing the arm wrap and supported knee so the opponent cannot easily bring the frame back inside."
       }
     }
   ]
@@ -96,7 +96,7 @@ description: "Learn to defend against grip stripping from Zombie bottom. Maintai
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Strip Grip from Zombie Defender",
-  "description": "Learn to defend against grip stripping from Zombie bottom. Maintain lockdown structure, re-establish broken connections, and capitalize on grip fight openings for sweeps and guard recovery.",
+  "description": "Strip Grip from Zombie (defender): Maintain posture control while freeing the other arm for the pummel. Work through the opening near the hand rather than forcing a tightly clamped elbow straight outward.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -192,7 +192,15 @@ description: "Learn to defend against grip stripping from Zombie bottom. Maintai
 
 <section id="overview" class="content-section">
 
-As the defender in the Strip Grip from Zombie scenario, you are the bottom player working to maintain your Zombie lockdown structure against the top player's systematic attempt to dismantle your grips. Your defensive strategy centers on three priorities: maintaining your most critical connections (underhook and lockdown), re-establishing any grips that get broken before the opponent can capitalize, and exploiting the momentary openings created during their grip stripping attempts to execute sweeps or recover to a better guard position. The Zombie's interconnected grip system means that losing even one key connection point can cascade into total structural failure, making immediate re-gripping essential to survival in this position.
+The top player faces a bottom guard player using Zombie; the head, shoulder or arm may still be enclosed. The relevant grips connect the hand, high leg and arm isolation. This is not a lockdown leg-release sequence.
+
+Maintain posture control while freeing the other arm for the pummel. Work through the opening near the hand rather than forcing a tightly clamped elbow straight outward. Guide the wrist and forearm through the available space without bending individual fingers.
+
+Cover the cleared arm and close the knee hug as the hand reaches the mat. Once the arm is isolated, maintain that new control instead of repeatedly treating Zombie as a separate leg entanglement. Keep a safe guard and look for another opening when the opponent maintains inside frames.
+
+Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
+
+When the hand pummel is stripped, rebuild guard retention with hip movement and an inside shoulder frame. Deny the crossface and chest pressure that could otherwise occupy the gap while you reach to recover the arm.
 
 **Opponent's Starting Position**: [[Positions/Rubber Guard/Zombie]] (Top)
 
@@ -240,10 +248,9 @@ As the defender in the Strip Grip from Zombie scenario, you are the bottom playe
 
 <p class="section-subtitle">How do you know when someone is attempting Strip Grip from Zombie?</p>
 
-- Top player establishes deep whizzer over your underhook arm and begins squeezing elbow tight, signaling the beginning of the grip stripping sequence targeting your underhook
-- Top player shifts from general pressure to specifically targeting your framing arm, attempting to pin it to the mat or push it past their head
-- Top player begins straightening their trapped leg and driving hip pressure forward against your lockdown, indicating they are moving to the leg extraction phase
-- Top player's weight becomes more committed to one side as they position for grip breaks, potentially creating off-balance opportunities for sweeps
+- The top player faces a bottom guard player using Zombie; the head, shoulder or arm may still be enclosed.
+- Move the whole arm rather than leaving the wrist exposed while the elbow remains fixed.
+- Create slack at the hip and thigh while keeping the head and captured arm aligned.
 
 
 </section>
@@ -254,12 +261,12 @@ As the defender in the Strip Grip from Zombie scenario, you are the bottom playe
 
 <p class="section-subtitle">What are the key principles for defending Strip Grip from Zombie?</p>
 
-- Prioritize maintaining the underhook above all other grips — it is the keystone of your Zombie structure and enables all offensive and defensive options
-- Re-pump broken grips immediately — the window between a grip being stripped and the opponent advancing is one to two seconds maximum
-- Use the opponent's grip stripping attempts as triggers for sweep and guard recovery opportunities when their base is compromised
-- Maintain constant lockdown tension through thigh squeeze rather than relying solely on foot hook — thigh squeeze is biomechanically harder to break
-- Keep your hips active and mobile even while defending grip strips — static defense guarantees eventual grip failure
-- Monitor the opponent's base during their grip work — grip stripping often compromises their balance, creating sweep windows
+- Keep Mission Control: Maintain posture control while freeing the other arm for the pummel.
+- Find inside space: Work through the opening near the hand rather than forcing a tightly clamped elbow straight outward.
+- Move the hand to the mat: Guide the wrist and forearm through the available space without bending individual fingers.
+- Prevent the return pummel: Cover the cleared arm and close the knee hug as the hand reaches the mat.
+- Recognize New York: Once the arm is isolated, maintain that new control instead of repeatedly treating Zombie as a separate leg entanglement.
+- Reset a blocked attempt: Keep a safe guard and look for another opening when the opponent maintains inside frames.
 
 
 </section>
@@ -270,33 +277,33 @@ As the defender in the Strip Grip from Zombie scenario, you are the bottom playe
 
 <p class="section-subtitle">What can you do to defend against Strip Grip from Zombie?</p>
 
-### 1. Re-pump underhook aggressively when opponent attempts to strip it with whizzer
+### 1. Maintain posture control while freeing the other arm for the pummel.
 
-- **When to use**: Immediately when you feel the whizzer tightening and your underhook arm being compressed — do not wait for it to be fully neutralized
+- **When to use**: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
 - **Targets**: [[Positions/Rubber Guard/Zombie]]
-- **If successful**: Maintains full Zombie structure and forces opponent to restart their entire grip stripping sequence from the beginning
-- **Risk**: If re-pump fails repeatedly, you exhaust your arm and may compromise frame positioning from the effort
+- **If successful**: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.
+- **Risk**: Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
 
-### 2. Execute Old School Sweep when opponent lifts weight during grip transitions
+### 2. Work through the opening near the hand rather than forcing a tightly clamped elbow straight outward.
 
-- **When to use**: When the top player shifts weight or lifts chest during the transition between stripping different grips — their base is momentarily compromised
+- **When to use**: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
 - **Targets**: [[Positions/Half Guard]]
-- **If successful**: Sweep to top position, reversing the engagement and establishing dominant half guard top or mount
-- **Risk**: If sweep fails during grip transition, you may lose remaining grips and end up in open guard bottom with no defensive structure
+- **If successful**: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.
+- **Risk**: Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
 
-### 3. Transition to deep half guard before lockdown is fully extracted
+### 3. Guide the wrist and forearm through the available space without bending individual fingers.
 
-- **When to use**: When underhook has been neutralized and lockdown is weakening — voluntarily release lockdown and shoot underneath the opponent before they establish passing position
+- **When to use**: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
 - **Targets**: [[Positions/Rubber Guard/Zombie]]
-- **If successful**: Establishes deep half guard which provides new sweep and escape opportunities from a structured defensive position
-- **Risk**: Failed deep half entry can leave you completely flattened under the opponent's pressure with no guard structure remaining
+- **If successful**: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.
+- **Risk**: Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
 
-### 4. Recover to knee shield half guard by inserting top knee before opponent establishes passing grips
+### 4. Cover the cleared arm and close the knee hug as the hand reaches the mat.
 
-- **When to use**: When lockdown has been broken and opponent is transitioning to open guard engagement — use the brief scramble window to establish new guard structure
+- **When to use**: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
 - **Targets**: [[Positions/Open Guard]]
-- **If successful**: Establishes knee shield which is a strong defensive half guard position with its own sweep and submission threats
-- **Risk**: If insertion is too slow, opponent completes their pass through to side control before the frame is established
+- **If successful**: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.
+- **Risk**: Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
 
 
 
@@ -310,11 +317,11 @@ As the defender in the Strip Grip from Zombie scenario, you are the bottom playe
 
 ### → [[Positions/Half Guard]]
 
-Time your Old School Sweep attempt during the opponent's grip transition — the moment they shift from underhook stripping to lockdown work, their base is temporarily compromised. Post your far foot, drive your hips upward, and use the remaining lockdown tension to off-balance them through the sweep.
+Interrupt the next connection while preserving a safe base. Establish any new guard or pin separately rather than assuming this response guarantees it. Maintain posture control while freeing the other arm for the pummel.
 
 ### → [[Positions/Rubber Guard/Zombie]]
 
-Maintain relentless re-gripping on your underhook — every time the opponent breaks it, immediately re-pump by driving your elbow deep and connecting chest-to-chest. Combined with active lockdown tension, this forces the opponent to remain stuck in the Zombie position unable to advance their passing.
+Interrupt the next connection while preserving a safe base. Establish any new guard or pin separately rather than assuming this response guarantees it. Work through the opening near the hand rather than forcing a tightly clamped elbow straight outward.
 
 
 
@@ -326,25 +333,20 @@ Maintain relentless re-gripping on your underhook — every time the opponent br
 
 <p class="section-subtitle">What mistakes should you avoid when defending Strip Grip from Zombie?</p>
 
-### 1. Passively allowing grips to be stripped without immediately fighting to re-establish them
+### 1. Skipping the checkpoint: keep mission control
 
-- **Consequence**: Opponent dismantles your entire Zombie structure within seconds, leaving you flat on your back with no guard and an easy pass for them
-- **Correction**: Treat every grip break as an emergency — immediately re-pump the underhook, re-frame with your arm, or re-tighten the lockdown the instant you feel any grip being challenged
+- **Consequence**: The intended control is not established before the next movement; the missing requirement is: Maintain posture control while freeing the other arm for the pummel.
+- **Correction**: Maintain posture control while freeing the other arm for the pummel.
 
-### 2. Focusing solely on maintaining lockdown while allowing the underhook to be neutralized
+### 2. Skipping the checkpoint: find inside space
 
-- **Consequence**: Lockdown without underhook control is easily defeated because you cannot create the angles needed for sweeps or effective guard recovery
-- **Correction**: Prioritize maintaining the underhook above the lockdown — the underhook enables offensive threats that make the lockdown effective, not the other way around
+- **Consequence**: The intended control is not established before the next movement; the missing requirement is: Work through the opening near the hand rather than forcing a tightly clamped elbow straight outward.
+- **Correction**: Work through the opening near the hand rather than forcing a tightly clamped elbow straight outward.
 
-### 3. Attempting sweeps with broken or incomplete grip structure
+### 3. Skipping the checkpoint: move the hand to the mat
 
-- **Consequence**: Sweep attempts without proper grips fail and accelerate your positional deterioration by opening additional passing lanes for the opponent
-- **Correction**: Only commit to sweeps when your fundamental structure is intact — use re-gripping to restore structure first, then attack from a position of control
-
-### 4. Staying flat on your back instead of maintaining side positioning during grip defense
-
-- **Consequence**: Flat positioning eliminates hip mobility and makes every grip easier for the opponent to strip through superior leverage angles
-- **Correction**: Maintain active hip positioning on your side throughout the grip defense — use lockdown tension and underhook drive to keep turned toward the opponent
+- **Consequence**: The intended control is not established before the next movement; the missing requirement is: Guide the wrist and forearm through the available space without bending individual fingers.
+- **Correction**: Guide the wrist and forearm through the available space without bending individual fingers.
 
 
 
@@ -356,17 +358,14 @@ Maintain relentless re-gripping on your underhook — every time the opponent br
 
 <p class="section-subtitle">How do you train defense against Strip Grip from Zombie?</p>
 
-**Grip Recovery Drills** - Re-establishing broken connections
-Partner strips one grip at a time from your Zombie structure. Practice immediately re-establishing each grip within one to two seconds. Progress from single grip breaks to sequential breaks, developing the reflexive re-gripping habit essential for Zombie defense.
+**Phase 1** - Identify the configuration
+Work cooperatively on keep mission control. Maintain posture control while freeing the other arm for the pummel. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.
 
-**Sweep Timing Recognition** - Identifying sweep windows during opponent's grip work
-Partner performs the full grip stripping sequence while you focus exclusively on recognizing the base compromises created during their transitions. Practice timing Old School Sweep and guard recovery attempts to coincide with these windows of opportunity.
+**Phase 2** - Rehearse the connection
+Work cooperatively on find inside space. Work through the opening near the hand rather than forcing a tightly clamped elbow straight outward. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.
 
-**Transition Decision Making** - Choosing between defending and transitioning to alternative guard
-Full resistance positional sparring from Zombie bottom against a partner specifically working grip strips. Practice the critical decision: when to re-grip and maintain Zombie versus when to voluntarily transition to an alternative guard. Develop judgment to recognize the point of no return.
-
-**Integrated Defense and Counter** - Combining grip defense with offensive threats
-Advanced positional sparring where you must simultaneously defend grip strips while threatening sweeps and guard transitions. The goal is making your defense itself threatening, so the opponent cannot freely strip grips without risking being swept or losing positional advantage.
+**Phase 3** - Add an early response
+Work cooperatively on move the hand to the mat. Guide the wrist and forearm through the available space without bending individual fingers. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.
 
 
 

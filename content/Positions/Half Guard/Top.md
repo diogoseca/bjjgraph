@@ -213,6 +213,8 @@ The fundamental challenge in Half Guard Top lies in freeing the trapped leg whil
 
 Advanced practitioners develop multiple passing pathways and chain them together based on the bottom player's defensive reactions, creating passing dilemmas that force the bottom player into increasingly compromised positions. The ability to recognize which Half Guard variation the bottom player is employing and immediately apply the corresponding passing strategy separates competent top players from dominant ones. Integration of submission threats like the Kimura and Darce Choke into passing sequences adds additional layers of offensive pressure that prevent the bottom player from committing fully to guard retention.
 
+Dean Lister demonstrates a calf slicer beginning from top half guard: a shoulder roll changes the position into a folded-leg capture with the shin behind the knee. This belongs to compression locks, where a limb folds around a wedge, rather than the extended-leg stretch used in the Suloev finish. Rehearse the entry without tightening the leg fold and release before either partner turns against the captured knee. Instructional source: [Dean Lister, calf slicer from half mount](https://www.youtube.com/watch?v=3DqTxlVYzfI).
+
 </section>
 
 

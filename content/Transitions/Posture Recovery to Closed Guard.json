@@ -1,17 +1,11 @@
 {
   "name": "Posture Recovery to Closed Guard",
-  "summary": "Posture Recovery to Closed Guard is a turtle-bottom escape where the bottom player uses frames and a hip escape to rotate out of Crackhead Control and close guard before the opponent can take the back.",
-  "description": "Learn Posture Recovery to Closed Guard in BJJ. Systematic guard recovery from turtle using frames, hip escapes, and precise timing to escape back attack threats.",
+  "summary": "Posture recovery from Crackhead Control opens the two-leg high clinch before the top player rebuilds upright posture inside the remaining guard.",
+  "description": "Posture recovery from Crackhead Control opens the two-leg high clinch before the top player rebuilds upright posture inside the remaining guard.",
   "tags": [
     "bjj",
     "transition",
-    "escape",
-    "guard-recovery",
-    "turtle-defense",
-    "10th-planet",
-    "crackhead-control",
-    "positional-escape",
-    "closed-guard"
+    "position-change"
   ],
   "from_position": "Crackhead Control/Top",
   "outcomes": [
@@ -44,331 +38,298 @@
     "gi": 55,
     "nogi": 55
   },
-  "overview": "Posture Recovery to Closed Guard is a fundamental defensive transition from turtle bottom positions, particularly from the Crackhead Control bottom perspective developed in the 10th Planet system. This technique represents the systematic approach to converting a disadvantageous turtle position into a neutral or advantageous closed guard position where offensive options become available.\n\nThe transition requires precise timing and mechanical understanding of how to create the space necessary for hip insertion while preventing the top player from advancing to back control. Unlike simple guard recovery attempts that rely on explosive movement alone, this technique emphasizes controlled posture changes that set up proper hip positioning before committing to the guard recovery.\n\nStrategically, this transition is essential because it transforms a position where you face constant back attack threats into one where you control distance and have access to sweeps, submissions, and positional improvements. The key insight is that posture recovery precedes guard recovery - attempting to close guard without first establishing proper spinal alignment and hip positioning leads to failed attempts and often accelerates back exposure.",
+  "overview": "The top player faces a bottom guard player using Crackhead Control; the head, shoulder or arm may still be enclosed. The top player must free the shoulder line first; a high clinch is not safely defeated by suddenly standing or stacking.\n\nAvoid extending an arm between the high legs where it can be isolated. A second leg climbing behind your head increases the posture-control problem. Keep a balanced base and early inside frames; tap instead of moving against a completed choke or joint lock.\n\nMove through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.\n\nInstructional sources: [Eddie Bravo — MTS 169: the Pump](https://www.10thplanetjj.com/techniques/mts-169-rubber-guard-the-pump/); [10th Planet Costa Mesa — basic path with double bagger](https://www.youtube.com/watch?v=W2OFKidf9lE).",
   "conditions": [
-    "Crackhead Control bottom position with defensive posture still intact",
-    "Opponent's hooks not fully consolidated or body triangle not yet locked",
-    "At least one frame can be established against opponent's body",
-    "Sufficient hip mobility to execute hip escape movement toward frame side",
-    "Head and chin protected to prevent front headlock or guillotine during transition"
+    "The top player faces a bottom guard player using Crackhead Control; the head, shoulder or arm may still be enclosed.",
+    "Avoid extending an arm between the high legs where it can be isolated.",
+    "The top player must free the shoulder line first; a high clinch is not safely defeated by suddenly standing or stacking."
   ],
   "related_content": [
     {
-      "name": "Crackhead Control",
-      "relationship": "Starting position - the defensive turtle variant this technique escapes from"
+      "name": "Mission Control",
+      "relationship": "Related configuration; establish its own prerequisites: compare the configuration and required controls for Mission Control."
     },
     {
-      "name": "Closed Guard",
-      "relationship": "Target position - where you end up upon successful execution"
+      "name": "Rubber Guard",
+      "relationship": "Related configuration; establish its own prerequisites: compare the configuration and required controls for Rubber Guard."
     },
     {
-      "name": "Turtle to Guard",
-      "relationship": "Related technique - alternative guard recovery paths from turtle"
+      "name": "Invisible Collar",
+      "relationship": "Related configuration; establish its own prerequisites: compare the configuration and required controls for Invisible Collar."
     },
     {
-      "name": "Granby Roll to Guard",
-      "relationship": "Alternative escape - different guard recovery method using inversion from turtle"
-    },
-    {
-      "name": "Half Guard",
-      "relationship": "Alternative target - when full guard recovery isn't possible due to weight distribution"
-    },
-    {
-      "name": "Hip Escape to Guard",
-      "relationship": "Component technique - fundamental movement pattern used in this transition"
-    },
-    {
-      "name": "Back Control",
-      "relationship": "Risk position - where opponent ends up if counter is successful"
-    },
-    {
-      "name": "Butterfly Guard",
-      "relationship": "Alternative target - option when opponent creates distance during recovery"
-    },
-    {
-      "name": "Technical Stand-up",
-      "relationship": "Alternative escape - standing option instead of guard recovery"
-    },
-    {
-      "name": "Standing up in Base",
-      "relationship": "Alternative escape - used when opponent disengages creating standing opportunity"
+      "name": "Dead Orchard Control",
+      "relationship": "Related configuration; establish its own prerequisites: compare the configuration and required controls for Dead Orchard Control."
     }
   ],
   "attacker": {
     "name": "Posture Recovery to Closed Guard Attacker",
-    "description": "How to execute Posture Recovery to Closed Guard in BJJ. Systematic guard recovery from Crackhead Control bottom using frames, hip escapes, and precise guard closure timing.",
-    "overview": "As the attacker executing Posture Recovery to Closed Guard, your objective is to convert the disadvantageous Crackhead Control bottom position into closed guard where you gain offensive control. This requires a disciplined sequence: establish frames to create space, strip opponent's controlling grips, execute a precise hip escape toward the frame side, insert a knee shield as secondary barrier, rotate hips to the mat, and close guard before the opponent can reestablish control or advance to back control.\n\nThe critical insight separating successful execution from failure is that posture recovery must precede guard recovery. Attempting to close guard without first establishing proper spinal alignment through frames leads to telegraphed movements the opponent easily counters. The frame creates a mechanical barrier forcing the top player to address it before they can follow your hips, buying the split-second window needed for the hip escape and rotation sequence.\n\nTiming is the decisive factor. The optimal moment to initiate occurs when the opponent's weight shifts forward during their own attack attempts - their forward commitment creates the space behind them that your hip escape exploits. Use their pressure as fuel rather than fighting against it. The entire sequence from frame establishment to guard closure should take 2-4 seconds; longer transitions give the opponent time to adjust and insert hooks.",
+    "description": "Posture Recovery to Closed Guard (attacker): Avoid extending an arm between the high legs where it can be isolated. A second leg climbing behind your head increases the posture-control problem.",
+    "overview": "The top player faces a bottom guard player using Crackhead Control; the head, shoulder or arm may still be enclosed. The top player must free the shoulder line first; a high clinch is not safely defeated by suddenly standing or stacking.\n\nAvoid extending an arm between the high legs where it can be isolated. A second leg climbing behind your head increases the posture-control problem. Keep a balanced base and early inside frames; tap instead of moving against a completed choke or joint lock.\n\nCreate slack at the hip and thigh while keeping the head and captured arm aligned. Withdraw the shoulder and elbow only after the high leg connection has opened. Establish upright posture inside closed guard if the ankles close below the waist only when the upper-body enclosure and relevant leg hooks have cleared.\n\nMove through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.\n\nFree the shoulder and any overhook around the upper arm before attempting to straighten inside the guard. The escape from the high two-leg clinch is complete only when the upper connection opens; beginning a pass still requires a separate response to the lower ankles.",
     "key_principles": [
-      "Establish frames before attempting any hip movement to create necessary space for guard insertion",
-      "Recover spinal alignment progressively rather than through explosive single movements that telegraph intent",
-      "Control opponent's near-side arm to prevent them from establishing dominant grips during transition",
-      "Time the hip insertion for the moment when opponent's weight shifts forward during their attack attempts",
-      "Maintain constant connection with opponent through frames to feel their weight distribution changes",
-      "Prioritize getting hips to the mat before attempting to close ankles around opponent",
-      "Use opponent's forward pressure as energy to assist the guard recovery movement"
+      "Recognize the upper-body trap: Avoid extending an arm between the high legs where it can be isolated.",
+      "Protect the captured limb: A second leg climbing behind your head increases the posture-control problem.",
+      "Work before pressure engages: Keep a balanced base and early inside frames; tap instead of moving against a completed choke or joint lock.",
+      "Open the high enclosure: Create slack at the hip and thigh while keeping the head and captured arm aligned.",
+      "Recover the elbow and posture: Withdraw the shoulder and elbow only after the high leg connection has opened.",
+      "Confirm the next position: Establish upright posture inside closed guard if the ankles close below the waist only when the upper-body enclosure and relevant leg hooks have cleared."
     ],
     "setup_requirements": [
-      "Crackhead Control bottom position established with defensive posture intact and elbows tight",
-      "At least one frame established against opponent's shoulder or hip to create initial space barrier",
-      "Opponent's hooks not fully secured or body triangle not locked - window exists for hip movement",
-      "Sufficient space between your hips and the mat to initiate hip escape movement toward frame side",
-      "Head protected with chin tucked to prevent guillotine attacks during the rotation phase"
+      "The top player faces a bottom guard player using Crackhead Control; the head, shoulder or arm may still be enclosed.",
+      "Avoid extending an arm between the high legs where it can be isolated.",
+      "A second leg climbing behind your head increases the posture-control problem.",
+      "The top player must free the shoulder line first; a high clinch is not safely defeated by suddenly standing or stacking."
     ],
     "execution_steps": [
       {
         "step_number": 1,
-        "action": "Establish frames",
-        "description": "Post your near-side hand against opponent's hip or shoulder while keeping elbow tight to your body. This frame creates the initial barrier preventing them from flattening you and provides the reference point for hip escape direction."
+        "action": "Recognize the upper-body trap",
+        "description": "Avoid extending an arm between the high legs where it can be isolated."
       },
       {
         "step_number": 2,
-        "action": "Strip controlling grip",
-        "description": "Use your far hand to strip any collar tie, seatbelt grip, or overhook on your near side. Peel their grip from wrist to elbow in one smooth motion while maintaining your frame with the posting hand. Speed matters here - the grip strip opens your escape window."
+        "action": "Protect the captured limb",
+        "description": "A second leg climbing behind your head increases the posture-control problem."
       },
       {
         "step_number": 3,
-        "action": "Hip escape toward frame",
-        "description": "Execute a small but decisive hip escape movement toward your posting hand side, creating angle and preventing opponent from following your hips. Your hip should move toward the mat on the frame side. This is the critical mechanical step - the direction must be toward the frame, not away from opponent."
+        "action": "Work before pressure engages",
+        "description": "Keep a balanced base and early inside frames; tap instead of moving against a completed choke or joint lock."
       },
       {
         "step_number": 4,
-        "action": "Insert knee shield",
-        "description": "Bring your inside knee across your body as a secondary frame, placing your shin across opponent's hip line. This prevents them from smashing back down onto your hips and creates the angle necessary for guard insertion. The knee shield buys time if the opponent reacts quickly."
+        "action": "Open the high enclosure",
+        "description": "Create slack at the hip and thigh while keeping the head and captured arm aligned."
       },
       {
         "step_number": 5,
-        "action": "Rotate hips to mat",
-        "description": "Complete the hip rotation so your back begins to reach the mat. Pull your far leg through as you rotate, threading it around the opponent's torso. Your shoulders should contact the mat as your hips complete the rotation. Keep elbows tight throughout to deny hook insertion."
+        "action": "Recover the elbow and posture",
+        "description": "Withdraw the shoulder and elbow only after the high leg connection has opened."
       },
       {
         "step_number": 6,
-        "action": "Close guard and consolidate",
-        "description": "Cross your ankles behind opponent's back as your hips settle to the mat. This must happen immediately as a continuation of the rotation, not as a separate action. Once ankles are locked, immediately break their posture by pulling them down with overhooks or collar ties to consolidate the closed guard position and prevent them from posturing to pass."
+        "action": "Confirm the next position",
+        "description": "Establish upright posture inside closed guard if the ankles close below the waist only when the upper-body enclosure and relevant leg hooks have cleared."
       }
     ],
     "common_counters": [
       {
-        "counter": "Opponent drives forward aggressively when sensing guard recovery attempt",
+        "counter": "Establish the first high leg and its hand support before adding the second leg.",
         "effectiveness": "High",
-        "your_response": "Use their forward momentum to assist your hip rotation; their drive actually helps you get under them if you time the guard closure correctly. Accelerate your rotation as they commit forward.",
+        "your_response": "Re-check the prerequisite before continuing. Avoid extending an arm between the high legs where it can be isolated.",
         "targets_outcome": "Closed Guard/Top"
       },
       {
-        "counter": "Opponent backs out and disengages to reset in open guard passing position",
+        "counter": "Reinforce the clinch without forcing the knees beyond a comfortable hip angle.",
         "effectiveness": "Medium",
-        "your_response": "Pursue with butterfly hooks or seated guard immediately; do not let them establish distance without inserting some form of guard. Their disengagement is actually a partial success - you've escaped turtle.",
+        "your_response": "Re-check the prerequisite before continuing. A second leg climbing behind your head increases the posture-control problem.",
         "targets_outcome": "Crackhead Control/Bottom"
       },
       {
-        "counter": "Opponent counters by inserting hook as you rotate hips toward mat",
+        "counter": "Do not assume that high legs alone have isolated an arm or completed Dead Orchard.",
         "effectiveness": "High",
-        "your_response": "Trap their foot with your same-side hand before completing rotation; if hook enters, immediately address hook removal before continuing guard recovery. A single hook is manageable but two hooks mean back control.",
+        "your_response": "Re-check the prerequisite before continuing. Keep a balanced base and early inside frames; tap instead of moving against a completed choke or joint lock.",
         "targets_outcome": "Back Control/Bottom"
       },
       {
-        "counter": "Opponent sprawls heavy and crossfaces to flatten you back to turtle",
+        "counter": "Use hip position and connected leg pressure rather than pulling the feet against fixed knees.",
         "effectiveness": "Medium",
-        "your_response": "Use crossface pressure to fuel lateral hip escape to opposite side; their weight commitment to one direction creates opening for alternative escape angle on the other side.",
+        "your_response": "Re-check the prerequisite before continuing. Create slack at the hip and thigh while keeping the head and captured arm aligned.",
         "targets_outcome": "Crackhead Control/Bottom"
       }
     ],
     "common_errors": [
       {
-        "error": "Attempting guard recovery without first establishing frames",
-        "consequence": "Opponent easily follows your hip movement and establishes back control or flattens you to the mat",
-        "correction": "Always establish at least one frame against opponent's body before initiating any hip movement; the frame creates the space necessary for successful recovery"
+        "error": "Skipping the checkpoint: recognize the upper-body trap",
+        "consequence": "The intended control is not established before the next movement; the missing requirement is: Avoid extending an arm between the high legs where it can be isolated.",
+        "correction": "Avoid extending an arm between the high legs where it can be isolated."
       },
       {
-        "error": "Rotating hips away from opponent instead of toward the frame side",
-        "consequence": "Creates direct path for opponent to take your back; you're essentially giving them the angle they want for hook insertion",
-        "correction": "Hip escape toward your frame side so your back faces opponent's chest momentarily, then complete the rotation to face them in guard"
+        "error": "Skipping the checkpoint: protect the captured limb",
+        "consequence": "The intended control is not established before the next movement; the missing requirement is: A second leg climbing behind your head increases the posture-control problem.",
+        "correction": "A second leg climbing behind your head increases the posture-control problem."
       },
       {
-        "error": "Failing to close guard immediately upon hip rotation completion",
-        "consequence": "Opponent passes to side control or reestablishes top turtle control before guard is secured",
-        "correction": "Cross ankles behind opponent's back as soon as hips reach mat; the guard must be closed before they can create passing angle"
+        "error": "Skipping the checkpoint: work before pressure engages",
+        "consequence": "The intended control is not established before the next movement; the missing requirement is: Keep a balanced base and early inside frames; tap instead of moving against a completed choke or joint lock.",
+        "correction": "Keep a balanced base and early inside frames; tap instead of moving against a completed choke or joint lock."
       },
       {
-        "error": "Allowing elbows to flare during hip escape creating hook insertion opportunity",
-        "consequence": "Opponent inserts hook during transition which converts attempted guard recovery into back control for them",
-        "correction": "Keep elbows tight to ribs throughout the entire movement; only extend arms when actively framing against opponent's body"
+        "error": "Skipping the checkpoint: open the high enclosure",
+        "consequence": "The intended control is not established before the next movement; the missing requirement is: Create slack at the hip and thigh while keeping the head and captured arm aligned.",
+        "correction": "Create slack at the hip and thigh while keeping the head and captured arm aligned."
       },
       {
-        "error": "Looking up or extending head during transition",
-        "consequence": "Exposes neck to guillotine or front headlock attacks; compromises spinal alignment needed for effective movement",
-        "correction": "Keep chin tucked to chest throughout transition; head should remain protected between shoulders until guard is fully closed"
-      },
-      {
-        "error": "Attempting the recovery when opponent's hooks are already deeply established",
-        "consequence": "Recovery attempt fails and opponent tightens to full back control; wasted energy on an escape that required hook removal first",
-        "correction": "Assess hook depth before committing to guard recovery. If hooks are deep, address hook removal through hand trapping and hip movement before attempting the full guard recovery sequence"
+        "error": "Skipping the checkpoint: recover the elbow and posture",
+        "consequence": "The intended control is not established before the next movement; the missing requirement is: Withdraw the shoulder and elbow only after the high leg connection has opened.",
+        "correction": "Withdraw the shoulder and elbow only after the high leg connection has opened."
       }
     ],
     "training_progressions": [
       {
-        "phase": "Week 1-2",
-        "focus": "Frame establishment mechanics",
-        "description": "Practice establishing frames from turtle bottom against non-resisting partner. Focus on hand placement, elbow positioning, and creating space. Drill hip escape motion in isolation before combining with frames. Build the muscle memory for correct hip escape direction toward the frame."
+        "phase": "Phase 1",
+        "focus": "Identify the configuration",
+        "description": "Work cooperatively on recognize the upper-body trap. Avoid extending an arm between the high legs where it can be isolated. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance."
       },
       {
-        "phase": "Week 3-4",
-        "focus": "Timing and coordination",
-        "description": "Partner applies light pressure from top turtle while you execute full sequence. Focus on timing frame establishment with opponent's movement and weight shifts. Introduce grip stripping with live resistance on grips only. Practice the full 6-step sequence as one fluid motion."
+        "phase": "Phase 2",
+        "focus": "Rehearse the connection",
+        "description": "Work cooperatively on protect the captured limb. A second leg climbing behind your head increases the posture-control problem. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance."
       },
       {
-        "phase": "Week 5-6",
-        "focus": "Counter integration",
-        "description": "Partner actively tries to prevent guard recovery with moderate resistance including hook insertion attempts and crossface pressure. Practice recognizing and countering common defensive reactions. Chain with alternative escapes (half guard, butterfly) when primary path is blocked."
+        "phase": "Phase 3",
+        "focus": "Add an early response",
+        "description": "Work cooperatively on work before pressure engages. Keep a balanced base and early inside frames; tap instead of moving against a completed choke or joint lock. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance."
       },
       {
-        "phase": "Week 7+",
-        "focus": "Live application",
-        "description": "Full positional sparring starting from Crackhead Control bottom. Work on recognizing optimal timing windows in live scrambles. Integrate with complete turtle defense system including granby rolls, sit-outs, and technical stand-ups. Test against various body types and top control styles."
+        "phase": "Phase 4",
+        "focus": "Link only verified checkpoints",
+        "description": "Work cooperatively on open the high enclosure. Create slack at the hip and thigh while keeping the head and captured arm aligned. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance."
       }
     ],
     "flashcards": [
       {
-        "question": "What is the primary goal of Posture Recovery to Closed Guard?",
-        "answer": "The primary goal is to transition from a disadvantageous turtle bottom position to closed guard where you have offensive options including sweeps, submissions, and the ability to control distance. This transforms a position of constant back attack threat into one where you dictate the engagement and force your opponent to work from inside your guard.",
-        "answer_line": "Escape turtle, gain guard control",
+        "question": "Posture Recovery to Closed Guard (top): How do you avoid offering an arm-lock lever?",
+        "answer": "Keep the elbows compact while addressing the high clinch instead of straightening them to force posture.",
+        "answer_line": "Keep the elbow compact in high guard",
         "distractors": {
           "plausible": [
-            "Escape turtle, get back mount",
-            "Escape turtle, stand and pass"
+            "Straight arm between both high legs",
+            "Hand reaching far behind them"
           ],
           "trap": [
-            "Stay turtle, wait for scramble"
+            "Pull wrist with shoulder still held"
           ]
         }
       },
       {
-        "question": "Why must frames be established before attempting hip movement in this technique?",
-        "answer": "Frames create the necessary space between you and the opponent for successful hip insertion. Without frames, the opponent can follow your hip movement and maintain control or advance to back control. The frame acts as a mechanical barrier that the opponent must address before they can counter your movement, buying the critical 1-2 seconds needed for the hip escape.",
-        "answer_line": "Frames create space for hip escape",
+        "question": "Posture Recovery to Closed Guard (top): What reinforces Crackhead's restriction on your head?",
+        "answer": "The added high leg reinforces upper-body posture control; the lower guard must be assessed separately after release.",
+        "answer_line": "The second leg rising behind it",
         "distractors": {
           "plausible": [
-            "Frames tire out the opponent",
-            "Frames set up the sweep grip"
+            "Low ankle crossing at your waist",
+            "Foot on your hip below the elbow"
           ],
           "trap": [
-            "Frames aren't needed, just rotate"
+            "High foot beside shoulder, head free"
           ]
         }
       },
       {
-        "question": "Your opponent drives forward aggressively as you attempt guard recovery - how do you adapt?",
-        "answer": "Use their forward momentum to assist your hip rotation rather than fighting against it. Their drive actually helps you get under them if you time the guard closure correctly. As they commit weight forward, accelerate your hip rotation and close your ankles behind their back, using their pressure to pull you into proper guard position. Their aggression becomes your advantage.",
-        "answer_line": "Use their momentum to close guard",
+        "question": "Posture Recovery to Closed Guard (top): What can preserve space before high closure?",
+        "answer": "Early inside frames manage the hip line before the upper-body clinch closes tightly.",
+        "answer_line": "Inside hip or thigh frame and base",
         "distractors": {
           "plausible": [
-            "Frame their hips and push away",
-            "Shrimp back to make space"
+            "Wrist grip without thigh contact",
+            "Outside thigh push with elbow flared"
           ],
           "trap": [
-            "Turn to knees to stand up"
+            "Straight post beyond their head"
           ]
         }
       },
       {
-        "question": "What is the correct direction for the initial hip escape and why does it matter?",
-        "answer": "Hip escape toward your frame side, not away from opponent. Moving toward the frame keeps your back momentarily facing their chest before rotation completes, preventing them from easily taking your back. Moving away from the opponent creates a direct path for back takes because you are giving them the angle they want for hook insertion and seatbelt establishment.",
-        "answer_line": "Escape toward your frame side",
+        "question": "Posture Recovery to Closed Guard (top): How do you create slack without twisting a trapped arm?",
+        "answer": "Create space at the hip and thigh with the head and arm aligned, then use the released opening.",
+        "answer_line": "Head/arm aligned as hip space opens",
         "distractors": {
           "plausible": [
-            "Escape away from opponent's hips",
-            "Escape straight back flat"
+            "Turn torso away from the held elbow",
+            "Pull hand behind hip before release"
           ],
           "trap": [
-            "Escape toward their strong side"
+            "Lift head before upper arm follows"
           ]
         }
       },
       {
-        "question": "Your opponent begins inserting a hook as you rotate your hips - what is the emergency response?",
-        "answer": "Immediately trap their foot with your same-side hand before completing the hip rotation. If the hook enters partially, stop the guard recovery attempt and address hook removal first. Completing the rotation with a hook in place converts your escape attempt into back control for them. Hook defense takes absolute priority over guard closure - one hook is survivable, two hooks mean full back control.",
-        "answer_line": "Trap the hook with same-side hand",
+        "question": "Posture Recovery to Closed Guard (top): What must happen before the shoulder withdraws?",
+        "answer": "Clear both the high-leg connection and any upper-arm overhook before withdrawing the shoulder and elbow.",
+        "answer_line": "The high legs and overhook must open",
         "distractors": {
           "plausible": [
-            "Speed up rotation to beat hook",
-            "Switch to a far-side underhook"
+            "Only the second high leg lowers",
+            "Only their lower ankles open"
           ],
           "trap": [
-            "Finish rotation, ignore the hook"
+            "Only your chin rises above the shin"
           ]
         }
       },
       {
-        "question": "What is the timing relationship between hip rotation completion and guard closure?",
-        "answer": "Guard closure must happen immediately as hips reach the mat, within 1-2 seconds maximum. Any delay allows the opponent to establish a passing angle or return to top turtle. The ankles should cross behind the opponent's back as a continuation of the hip rotation movement, not as a separate action. Think of the rotation and guard closure as one integrated motion.",
-        "answer_line": "Close guard instantly, same motion",
+        "question": "Posture Recovery to Closed Guard (top): Upright with shoulders free, what confirms closed guard?",
+        "answer": "After upper-body clearance, closed guard exists only if the bottom player's legs reclose lower around the torso.",
+        "answer_line": "Their ankles close below your waist",
         "distractors": {
           "plausible": [
-            "Pause to check grips, then close",
-            "Close guard after posting frame"
+            "High legs retain both of your arms",
+            "Both knees passed; chest beside ribs"
           ],
           "trap": [
-            "Wait for opponent to settle first"
+            "Ankles apart with one leg under arm"
           ]
         }
       },
       {
-        "question": "How do you manage energy expenditure during repeated guard recovery attempts from turtle?",
-        "answer": "Use positional frames and body weight rather than muscular effort to create space. Time attempts for when the opponent's weight shifts forward rather than fighting against their settled pressure. Small, efficient hip escapes conserve more energy than explosive movements. If the initial attempt fails, reset your defensive posture calmly rather than frantically chaining multiple high-energy attempts that leave you gassed.",
-        "answer_line": "Frames and weight, not muscle",
+        "question": "Posture Recovery to Closed Guard (top): What body region is trapped at the start?",
+        "answer": "This recovery starts inside Crackhead's upper-body clinch, not solely a low leg entanglement.",
+        "answer_line": "Head and shoulders in the high legs",
         "distractors": {
           "plausible": [
-            "Attack when their weight settles",
-            "Big explosive hip escapes"
+            "Only waist in a low ankle crossing",
+            "Only wrist below free shoulders"
           ],
           "trap": [
-            "Chain frantic explosive attempts"
+            "Only elbow beneath legs at the hips"
           ]
         }
       },
       {
-        "question": "When should you abandon the closed guard recovery and pursue half guard or butterfly guard instead?",
-        "answer": "Pursue half guard when the opponent's weight commits heavily to one side making full hip rotation difficult - capture their near leg during your partial rotation. Choose butterfly guard when the opponent creates distance during your recovery or backs away - insert butterfly hooks immediately rather than chasing closed guard. Flexibility limitations or fatigue may also dictate half guard as a more realistic and energy-efficient target.",
-        "answer_line": "Weight commits one side or retreats",
+        "question": "Posture Recovery to Closed Guard (top): Why is getting your chin higher insufficient?",
+        "answer": "Confirm shoulder and arm freedom before interpreting head movement as recovered posture.",
+        "answer_line": "Shoulder or overhook may stay caught",
         "distractors": {
           "plausible": [
-            "Only when totally exhausted",
-            "Only if closed guard is illegal here"
+            "Elbow follows chin out of the legs",
+            "Head height proves knee hug has slid"
           ],
           "trap": [
-            "Never, always force closed guard"
+            "Head upright means overhook is gone"
           ]
         }
       },
       {
-        "question": "What grip must you strip before initiating the hip escape, and what technique do you use?",
-        "answer": "You must strip the opponent's seatbelt grip, collar tie, or overhook on your near side before the hip escape. Use your far hand to peel their grip from wrist toward elbow in one smooth motion while maintaining your frame with the near-side posting hand. This two-handed approach - one maintaining the frame, one stripping the grip - ensures you don't lose space while creating the grip-free window for your escape.",
-        "answer_line": "Peel seatbelt wrist to elbow",
+        "question": "Posture Recovery to Closed Guard (top): Why avoid suddenly standing against the clinch?",
+        "answer": "Sudden elevation through the retained enclosure is not controlled release; clear the upper connection first.",
+        "answer_line": "Retained legs can load neck and arm",
         "distractors": {
           "plausible": [
-            "Snap grip off in one sharp pull",
-            "Strip grip with both hands at once"
+            "Standing opens clinch before loading",
+            "Knee hug slides off as you stand"
           ],
           "trap": [
-            "Ignore grip, just muscle the escape"
+            "Raised shin follows without tension"
           ]
         }
       },
       {
-        "question": "Recovering guard from Crackhead Control, they sprawl heavy with a crossface — what adjustment?",
-        "answer": "Use their crossface pressure and weight commitment to one side to fuel a lateral hip escape in the opposite direction. Their heavy sprawl pins them to that angle and makes it difficult for them to follow a quick directional change. The crossface actually creates an escape angle on the far side if you redirect your hip escape away from their pressure rather than fighting directly into it.",
-        "answer_line": "Escape hips away from the pressure",
+        "question": "Posture Recovery to Closed Guard (top): What still separates recovered posture from a guard pass?",
+        "answer": "Upright posture inside closed guard leaves the lower guard to address in a separate passing exchange.",
+        "answer_line": "Lower legs still encircle your torso",
         "distractors": {
           "plausible": [
-            "Push directly into the crossface",
-            "Wait out the sprawl, then rotate"
+            "Only a wrist grip now blocks the pin",
+            "Low ankles open as spine straightens"
           ],
           "trap": [
-            "Escape into the crossface pressure"
+            "Head clear means hips past the knees"
           ]
         }
       }
     ],
-    "safety_considerations": "This technique is relatively low-risk when performed correctly, but practitioners should be aware of several safety factors. Neck strain can occur if head position is compromised during the hip rotation phase - always keep chin tucked to chest throughout the movement. Avoid explosive jerking movements that could strain lower back muscles; use controlled hip escapes instead. Partners drilling this technique should communicate clearly about resistance levels to prevent injury during the learning phase. If you feel your opponent securing hooks during the recovery attempt, stop and reset rather than fighting through a bad position that could lead to stacking or spinal compression. Shoulder injuries are possible if frames collapse under heavy pressure - tap or verbally reset rather than allowing joints to be compromised in awkward transitional positions.",
+    "safety_considerations": "Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.",
     "clips": [
       {
         "id": "8i0nvpE4aAI",
@@ -392,182 +353,165 @@
   },
   "defender": {
     "name": "Posture Recovery to Closed Guard Defender",
-    "description": "How to defend against Posture Recovery to Closed Guard in BJJ. Maintain top turtle control, prevent guard recovery, and advance to back control.",
-    "overview": "As the defender against Posture Recovery to Closed Guard, you are the top player in Crackhead Control seeking to prevent the bottom player from converting turtle into closed guard. Your objective is to either maintain your dominant turtle control position or advance to full back control by inserting hooks during the opponent's failed recovery attempt. The key defensive principle is denying the bottom player the space they need for hip rotation while maintaining heavy hip pressure and grip control that prevent frame establishment.\n\nSuccessful defense requires recognizing the early warning signs of guard recovery attempts - specifically the frame establishment and grip stripping that precede the hip escape. By identifying these cues within the first fraction of a second, you can preemptively load weight forward, re-establish grips, or begin hook insertion before the bottom player commits to the full rotation. The defender who waits until the hip escape is underway has already lost the initiative.\n\nThe strategic framework centers on a simple principle: deny space and maintain connection. Every guard recovery requires the bottom player to create space between your hips and theirs. Your defensive tools - heavy hip pressure, grip re-establishment, crossface control, and hook insertion - all serve to collapse that space before it becomes sufficient for guard insertion. When you feel the bottom player's frame against your body, that is your cue to intensify pressure rather than retreat.",
+    "description": "Posture Recovery to Closed Guard (defender): Establish the first high leg and its hand support before adding the second leg. Reinforce the clinch without forcing the knees beyond a comfortable hip angle.",
+    "overview": "The top player faces a bottom guard player using Crackhead Control; the head, shoulder or arm may still be enclosed. The top player must free the shoulder line first; a high clinch is not safely defeated by suddenly standing or stacking.\n\nEstablish the first high leg and its hand support before adding the second leg. Reinforce the clinch without forcing the knees beyond a comfortable hip angle. Do not assume that high legs alone have isolated an arm or completed Dead Orchard.\n\nUse hip position and connected leg pressure rather than pulling the feet against fixed knees. Lower the reinforcing leg while preserving the first shin connection if you need Mission Control again. Release and frame when the opponent compresses your upper back or you cannot comfortably maintain the clinch.\n\nMove through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.\n\nAs the high legs lower, use a small hip escape behind an inside arm to return the knees around the torso. This guard retention keeps chest pressure and a crossface from pinning your shoulders while the closed guard is rebuilt.",
     "key_principles": [
-      "Maintain heavy hip pressure on opponent's lower back to deny the space needed for hip escape and rotation",
-      "Re-establish grips immediately when stripped - the grip strip is the earliest warning of a guard recovery attempt",
-      "Drive forward into frames rather than allowing them to create separation distance",
-      "Insert hooks during the opponent's hip rotation window when their elbows flare and hips are transitioning",
-      "Use crossface control to flatten the bottom player and prevent the spinal alignment recovery that precedes guard insertion",
-      "Stay connected chest-to-back throughout all defensive adjustments to prevent space creation between your bodies"
+      "Start with broken posture: Establish the first high leg and its hand support before adding the second leg.",
+      "Bring the second leg high: Reinforce the clinch without forcing the knees beyond a comfortable hip angle.",
+      "Track both elbows: Do not assume that high legs alone have isolated an arm or completed Dead Orchard.",
+      "Keep knees close: Use hip position and connected leg pressure rather than pulling the feet against fixed knees.",
+      "Return to one-leg control: Lower the reinforcing leg while preserving the first shin connection if you need Mission Control again.",
+      "Open against a stack: Release and frame when the opponent compresses your upper back or you cannot comfortably maintain the clinch."
     ],
     "recognition_cues": [
-      "Bottom player posts a hand against your hip or shoulder creating a frame - this is the earliest indicator of imminent guard recovery",
-      "Bottom player's far hand reaches to strip your seatbelt, overhook, or collar tie grip on their near side",
-      "Bottom player's hips begin shifting toward the mat on one side rather than staying square in turtle position",
-      "Bottom player's inside knee starts crossing their body to create a knee shield barrier between you",
-      "Bottom player's head lifts slightly as they begin the spinal alignment recovery that precedes hip rotation"
+      "The top player faces a bottom guard player using Crackhead Control; the head, shoulder or arm may still be enclosed.",
+      "A second leg climbing behind your head increases the posture-control problem.",
+      "Create slack at the hip and thigh while keeping the head and captured arm aligned."
     ],
     "defensive_options": [
       {
-        "action": "Drive hips forward and re-establish controlling grip immediately when feeling frame establishment or grip strip",
-        "when_to_use": "At the earliest sign of guard recovery - when you feel the frame post against your body or feel your grip being stripped",
+        "action": "Establish the first high leg and its hand support before adding the second leg.",
+        "when_to_use": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.",
         "targets_outcome": "Crackhead Control/Bottom",
-        "if_successful": "Bottom player's frame collapses under your forward pressure and they return to defensive turtle with your grips re-established",
-        "risk": "Over-committing forward can be used by the bottom player to accelerate their guard closure if they time the rotation with your drive"
+        "if_successful": "The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
+        "risk": "Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route."
       },
       {
-        "action": "Insert near-side hook during the hip escape window when bottom player's elbows flare and hips rotate",
-        "when_to_use": "When the bottom player has committed to hip rotation and their elbow separates from their ribs during the escape movement",
+        "action": "Reinforce the clinch without forcing the knees beyond a comfortable hip angle.",
+        "when_to_use": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.",
         "targets_outcome": "Back Control/Bottom",
-        "if_successful": "You convert the failed guard recovery attempt into full back control with at least one hook established and seatbelt maintained",
-        "risk": "If the bottom player traps your foot before you secure the hook, they may use it as leverage to complete their rotation faster"
+        "if_successful": "The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
+        "risk": "Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route."
       },
       {
-        "action": "Apply crossface pressure with your near-side arm while sprawling hips heavy to flatten opponent back to turtle",
-        "when_to_use": "When the bottom player has established a frame but hasn't yet committed to the hip escape - the intermediate phase of their recovery",
+        "action": "Do not assume that high legs alone have isolated an arm or completed Dead Orchard.",
+        "when_to_use": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.",
         "targets_outcome": "Crackhead Control/Bottom",
-        "if_successful": "Crossface flattens the bottom player's posture, destroys their frame, and resets them to a compromised turtle position",
-        "risk": "The bottom player may use the crossface pressure direction to hip escape to the opposite side, exploiting your weight commitment"
+        "if_successful": "The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
+        "risk": "Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route."
       },
       {
-        "action": "Disengage and circle to front headlock position when guard closure appears imminent",
-        "when_to_use": "When the bottom player's hips have already rotated significantly and guard closure is likely - this is a bail-out option to avoid being pulled into closed guard",
+        "action": "Use hip position and connected leg pressure rather than pulling the feet against fixed knees.",
+        "when_to_use": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.",
         "targets_outcome": "Crackhead Control/Bottom",
-        "if_successful": "You avoid being pulled into closed guard and establish front headlock or top position with passing opportunity",
-        "risk": "Disengaging concedes turtle control and may give the bottom player butterfly guard or seated guard instead"
+        "if_successful": "The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
+        "risk": "Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route."
       }
     ],
     "favorable_outcomes": [
       {
         "outcome": "Crackhead Control/Bottom",
-        "how": "Maintain heavy hip pressure and immediately re-establish grips when stripped. Drive forward into frames to collapse them rather than allowing space creation. Use crossface to flatten the bottom player's posture before they can complete spinal alignment recovery."
+        "how": "Interrupt the next connection while preserving a safe base. Establish any new guard or pin separately rather than assuming this response guarantees it. Establish the first high leg and its hand support before adding the second leg."
       },
       {
         "outcome": "Back Control/Bottom",
-        "how": "Time hook insertion for the moment when the bottom player's elbows flare during their hip escape attempt. Their commitment to rotation creates the gap between their elbow and ribs that your hook needs. Maintain seatbelt control throughout and follow their hip movement with your chest-to-back connection."
+        "how": "Interrupt the next connection while preserving a safe base. Establish any new guard or pin separately rather than assuming this response guarantees it. Reinforce the clinch without forcing the knees beyond a comfortable hip angle."
       }
     ],
     "common_errors": [
       {
-        "error": "Backing away when feeling the bottom player's frame instead of driving forward into it",
-        "consequence": "Creates exactly the space the bottom player needs for successful hip escape and guard recovery, essentially assisting their technique",
-        "correction": "Drive your hips forward into their frame and re-establish your grip simultaneously. Your weight advantage from top position should collapse their single-arm frame if you commit forward pressure immediately."
+        "error": "Skipping the checkpoint: start with broken posture",
+        "consequence": "The intended control is not established before the next movement; the missing requirement is: Establish the first high leg and its hand support before adding the second leg.",
+        "correction": "Establish the first high leg and its hand support before adding the second leg."
       },
       {
-        "error": "Attempting to re-grip with both hands simultaneously, momentarily releasing all upper body control",
-        "consequence": "Creates a window where the bottom player has no upper body control to overcome, allowing free hip movement for guard recovery",
-        "correction": "Always maintain at least one controlling grip while the other hand re-establishes its grip. Alternate grip recovery rather than releasing both simultaneously."
+        "error": "Skipping the checkpoint: bring the second leg high",
+        "consequence": "The intended control is not established before the next movement; the missing requirement is: Reinforce the clinch without forcing the knees beyond a comfortable hip angle.",
+        "correction": "Reinforce the clinch without forcing the knees beyond a comfortable hip angle."
       },
       {
-        "error": "Sitting too high on opponent's upper back instead of keeping hips loaded on their lower back and sacrum",
-        "consequence": "Bottom player can hip escape underneath you more easily because their lower body has mobility. High seat position also allows forward rolls and granby escapes.",
-        "correction": "Keep your hips loaded on the opponent's lower back and sacrum area in the chair-sit position. This creates the fulcrum effect that limits their hip mobility and makes guard recovery mechanically difficult."
-      },
-      {
-        "error": "Chasing the hook insertion too eagerly before the bottom player commits to rotation",
-        "consequence": "Premature hook attempt gets trapped by the bottom player's hand and becomes leverage they use to accelerate their rotation and guard closure",
-        "correction": "Wait for the committed hip escape that creates genuine elbow separation before inserting your hook. The timing window opens during their rotation, not before it."
-      },
-      {
-        "error": "Focusing only on upper body control while neglecting hip pressure during the defense",
-        "consequence": "Strong grips mean nothing if the bottom player's hips are free to rotate. They will complete guard recovery despite your grip control because hip rotation is the actual mechanism.",
-        "correction": "Maintain hip-to-hip pressure as the primary control mechanism. Upper body grips are secondary tools that redirect movement - the hip pressure is what physically prevents guard recovery."
+        "error": "Skipping the checkpoint: track both elbows",
+        "consequence": "The intended control is not established before the next movement; the missing requirement is: Do not assume that high legs alone have isolated an arm or completed Dead Orchard.",
+        "correction": "Do not assume that high legs alone have isolated an arm or completed Dead Orchard."
       }
     ],
     "flashcards": [
       {
-        "question": "From Crackhead Control top, what is the earliest cue they're about to recover closed guard?",
-        "answer": "The earliest cue is feeling their near-side hand post against your hip or shoulder to establish a frame. This frame creation is the prerequisite for every guard recovery variation and indicates the bottom player is transitioning from defensive movement to committed escape. Recognizing and responding to the frame within the first half-second is the key defensive advantage.",
-        "answer_line": "Near-side hand posts a frame",
+        "question": "Posture Recovery to Closed Guard (bottom): What is retained before adding the high reinforcement?",
+        "answer": "The first high leg and its supporting hand form the foundation before the second leg reinforces it.",
+        "answer_line": "First shin held to control posture",
         "distractors": {
           "plausible": [
-            "Hips begin rotating under you",
-            "Legs start kicking for hooks"
+            "Only feet crossed behind the waist",
+            "Only wrist grip with both knees low"
           ],
           "trap": [
-            "They tap their own hip lightly"
+            "Neck pull with high knee unsupported"
           ]
         }
       },
       {
-        "question": "Why should you drive forward into the bottom player's frame rather than backing away from it?",
-        "answer": "Driving forward collapses the frame and denies the space the bottom player needs for hip escape. Backing away creates exactly the separation distance their technique requires - you are essentially doing their work for them. Your top position weight advantage means a committed forward drive should overwhelm a single-arm frame, resetting them to defensive turtle.",
-        "answer_line": "Forward drive collapses their frame",
+        "question": "Posture Recovery to Closed Guard (bottom): How should a reinforcing leg follow the opponent?",
+        "answer": "Use a comfortable hip-supported angle; release the high clinch if posture cannot be followed safely.",
+        "answer_line": "Hip-led movement with knee supported",
         "distractors": {
           "plausible": [
-            "Backing away sets up a submission",
-            "Forward drive baits a scramble"
+            "Drag foot with the knee still fixed",
+            "Foot held still as torso twists"
           ],
           "trap": [
-            "Back away to reset better position"
+            "Foot rises while knee drifts away"
           ]
         }
       },
       {
-        "question": "When is the optimal moment to insert a hook during the bottom player's guard recovery attempt?",
-        "answer": "The optimal moment is during the hip escape phase when the bottom player's elbows flare away from their ribs to facilitate the rotation movement. This elbow separation creates the gap between their arm and body that your foot needs to enter. Inserting before they commit means your foot gets trapped; inserting after the rotation completes means they are already closing guard. The mid-rotation window is narrow but decisive.",
-        "answer_line": "When elbows flare during rotation",
+        "question": "Posture Recovery to Closed Guard (bottom): What separates high posture control from Dead Orchard?",
+        "answer": "Check actual elbow positions and leg closure rather than equating a two-leg clinch with Dead Orchard.",
+        "answer_line": "Both arms inside a high leg triangle",
         "distractors": {
           "plausible": [
-            "Before they post their frame hand",
-            "After guard is already closed"
+            "Any second leg above the shoulders",
+            "Any two-arm contact below the knees"
           ],
           "trap": [
-            "The instant hips first start moving"
+            "One-arm triangle with far arm free"
           ]
         }
       },
       {
-        "question": "In Crackhead Control, they frame strongly and strip your seatbelt — your recovery sequence?",
-        "answer": "First, drive your hips forward aggressively to maintain pressure and deny space despite the lost grip. Second, use your freed hand to immediately apply crossface pressure to flatten their posture and destroy the effectiveness of their frame. Third, re-establish your controlling grip on their far-side arm or shoulder while maintaining the crossface and hip pressure. Never chase the stripped grip - redirect to crossface control which addresses the more immediate threat.",
-        "answer_line": "Drive hips, crossface, re-grip arm",
+        "question": "Posture Recovery to Closed Guard (bottom): As the legs lower, how do you protect space for a knee?",
+        "answer": "Frame inside against chest pressure and move the hips enough to return the knees around the torso.",
+        "answer_line": "Inside frame and a small hip escape",
         "distractors": {
           "plausible": [
-            "Chase and re-grab the lost seatbelt",
-            "Sit back and rebuild base first"
+            "Both hands chase the retreating head",
+            "Move hips but leave both knees out"
           ],
           "trap": [
-            "Abandon position, jump to back"
+            "Frame shoulder with hips pinned"
           ]
         }
       },
       {
-        "question": "From Crackhead Control top, how do you keep your forward drive from feeding their guard closure?",
-        "answer": "Keep your weight driving through your hips onto their lower back rather than committing your chest over their shoulder line. When you drive forward with hips, your center of gravity stays behind the point where they need to rotate under you. If you over-commit your upper body forward past their shoulders, they can use that momentum to pull you over and into their guard. The distinction is hip drive versus upper body lean - hip drive maintains control, upper body lean gets exploited.",
-        "answer_line": "Drive hips low, not chest forward",
+        "question": "Posture Recovery to Closed Guard (bottom): If the second high leg lowers, what remains possible?",
+        "answer": "Lowering the reinforcement can leave Mission Control; closed guard requires a separate lower leg closure.",
+        "answer_line": "Mission Control with first shin held",
         "distractors": {
           "plausible": [
-            "Drive chest over their shoulder line",
-            "Push down hard on their head"
+            "Closed guard with ankles still apart",
+            "Dead Orchard without a leg triangle"
           ],
           "trap": [
-            "Lean chest fully over their frame"
+            "Pass completed with first shin held"
           ]
         }
       }
     ],
     "training_progressions": [
       {
-        "phase": "Week 1-2",
-        "focus": "Recognition and pressure maintenance",
-        "description": "Partner attempts slow-motion guard recovery while you practice identifying frame establishment, grip strips, and hip escape initiation. Focus on maintaining heavy hip pressure and immediately re-establishing grips when stripped. No hook insertion yet - just maintain turtle control against the recovery attempts."
+        "phase": "Phase 1",
+        "focus": "Identify the configuration",
+        "description": "Work cooperatively on start with broken posture. Establish the first high leg and its hand support before adding the second leg. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance."
       },
       {
-        "phase": "Week 3-4",
-        "focus": "Counter timing and hook insertion",
-        "description": "Partner increases recovery speed to moderate resistance. Practice timing hook insertion during the hip escape window when elbows flare. Alternate between driving forward to collapse frames and inserting hooks during committed rotations. Develop decision-making for which response fits each situation."
+        "phase": "Phase 2",
+        "focus": "Rehearse the connection",
+        "description": "Work cooperatively on bring the second leg high. Reinforce the clinch without forcing the knees beyond a comfortable hip angle. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance."
       },
       {
-        "phase": "Week 5-6",
-        "focus": "Chain defenses against recovery variants",
-        "description": "Partner chains guard recovery attempts with half guard, butterfly guard, and granby roll alternatives. Practice reading which recovery the bottom player is pursuing and applying the appropriate counter. Build pattern recognition across the full spectrum of turtle escape attempts."
-      },
-      {
-        "phase": "Week 7+",
-        "focus": "Live positional sparring",
-        "description": "Full positional sparring starting from Crackhead Control top. Defend all guard recovery attempts while working toward back control advancement. Track your success rate at maintaining turtle control versus getting pulled into guard. Integrate with complete Crackhead Control top attack system."
+        "phase": "Phase 3",
+        "focus": "Add an early response",
+        "description": "Work cooperatively on track both elbows. Do not assume that high legs alone have isolated an arm or completed Dead Orchard. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance."
       }
     ],
     "clips": [
@@ -584,20 +528,15 @@
   },
   "variants_and_adaptations": [
     {
-      "variant_name": "Butterfly Hook Recovery",
-      "description": "Instead of closing full guard, insert butterfly hooks as hips rotate to mat. Provides immediate sweep options and works well when opponent backs out during recovery attempt.",
-      "when_to_use": "When opponent creates distance during your recovery attempt or when you lack flexibility to close full guard"
+      "variant_name": "Cooperative checkpoint drill",
+      "description": "Avoid extending an arm between the high legs where it can be isolated. A second leg climbing behind your head increases the posture-control problem.",
+      "when_to_use": "Learning the control without submission pressure"
     },
     {
-      "variant_name": "Half Guard Recovery",
-      "description": "Target half guard rather than closed guard by capturing opponent's near leg with your inside hook during hip rotation. Creates immediate offensive options from knee shield or lockdown.",
-      "when_to_use": "When opponent's weight is committed heavily to one side making full guard closure difficult"
-    },
-    {
-      "variant_name": "Collar Drag Recovery",
-      "description": "In gi, establish collar grip before hip escape and use collar drag to off-balance opponent while recovering guard position. The drag creates additional space for hip rotation.",
-      "when_to_use": "In gi grappling when collar access is available and opponent's posture is compromised"
+      "variant_name": "Response and reset drill",
+      "description": "Establish the first high leg and its hand support before adding the second leg. Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.",
+      "when_to_use": "Adding one early response after both partners recognize the configuration"
     }
   ],
-  "position_integration": "Posture Recovery to Closed Guard is a critical escape in the turtle defense system, representing the most direct path from turtle bottom to an offensive guard position. This technique integrates with the broader Crackhead Control defensive methodology by providing a systematic recovery option when constant movement and grip fighting begin to fail. It connects to the closed guard attack system where sweeps like hip bump, scissor, and pendulum become available. The technique also serves as a gateway to half guard and butterfly guard systems when full closed guard recovery is not achievable. Understanding this transition is essential for any turtle-heavy game, particularly in no-gi contexts where maintaining turtle indefinitely is difficult against skilled back attackers who chain hook insertion with seatbelt control."
+  "position_integration": "The top player faces a bottom guard player using Crackhead Control; the head, shoulder or arm may still be enclosed. The top player must free the shoulder line first; a high clinch is not safely defeated by suddenly standing or stacking. A destination is established by its actual body configuration, not by completing an isolated grip or by the name of the route."
 }

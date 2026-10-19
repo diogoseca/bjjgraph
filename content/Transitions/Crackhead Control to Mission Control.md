@@ -4,7 +4,7 @@
 
 ---
 title: "Crackhead Control to Mission Control | BJJ Technique | BJJ Graph"
-description: "Master Crackhead Control to Mission Control in BJJ. Reset from high-risk overhook to stable rubber guard. Complete guide with setup, execution, and counters."
+description: "Returning to Mission Control lowers the reinforcing leg from Crackhead Control while retaining the first high shin and hand connection to manage the opponent's posture."
 ---
 
 
@@ -16,7 +16,7 @@ description: "Master Crackhead Control to Mission Control in BJJ. Reset from hig
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Crackhead Control to Mission Control",
-  "description": "Master Crackhead Control to Mission Control in BJJ. Reset from high-risk overhook to stable rubber guard. Complete guide with setup, execution, and counters.",
+  "description": "Returning to Mission Control lowers the reinforcing leg from Crackhead Control while retaining the first high shin and hand connection to manage the opponent\u0027s posture.",
   "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
 }
 </script>
@@ -87,7 +87,7 @@ description: "Master Crackhead Control to Mission Control in BJJ. Reset from hig
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Crackhead Control to Mission Control",
-  "description": "Crackhead Control to Mission Control is a 10th Planet rubber guard reset where the bottom player releases the deep overhook and threads the high-guard leg across the shoulder, trading a high-risk overhook attack for stable shoulder-isolating control.",
+  "description": "Returning to Mission Control lowers the reinforcing leg from Crackhead Control while retaining the first high shin and hand connection to manage the opponent's posture.",
   "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
 }
 </script>
@@ -105,13 +105,15 @@ description: "Master Crackhead Control to Mission Control in BJJ. Reset from hig
 
 <section id="overview" class="content-section">
 
-**Crackhead Control to Mission Control is a 10th Planet rubber guard reset where the bottom player releases the deep overhook and threads the high-guard leg across the shoulder, trading a high-risk overhook attack for stable shoulder-isolating control.**
+**Returning to Mission Control lowers the reinforcing leg from Crackhead Control while retaining the first high shin and hand connection to manage the opponent's posture.**
 
-The Crackhead Control to Mission Control transition represents a strategic reset within the 10th Planet rubber guard system, allowing the bottom player to move from a high-risk, high-reward attacking position to a more stable control platform. This transition becomes essential when the opponent begins recovering posture, when back exposure risk becomes too significant, or when you want to consolidate control before launching a new submission chain.
+The bottom player has a two-leg high clinch with the opponent facing them. The change removes the second-leg reinforcement; it does not convert a rear ride or a leg entanglement into guard.
 
-The mechanical foundation of this transition involves releasing the deep overhook while simultaneously elevating hips and repositioning the controlling leg. The timing is critical - you must initiate the transition before the opponent fully recovers posture but not so early that you abandon genuine submission opportunities. The transition capitalizes on the opponent's momentary relief when they sense the overhook loosening, using that moment of reduced defensive tension to establish the Mission Control configuration.
+Maintain the original high leg and supporting hand before opening the second leg. Use the hip angle to support the raised knee without pulling on the foot. Lower the second leg deliberately while keeping the upper-body connection.
 
-This transition serves multiple strategic purposes within the rubber guard framework. It provides an escape route when Crackhead Control becomes untenable due to back exposure threats, offers a way to reset when submission attempts stall, and creates opportunities to attack from a different angle when the opponent has adapted to your Crackhead Control offense. Advanced practitioners flow between these positions fluidly, using the transition itself as a setup for submissions when opponents anticipate a simple positional change.
+Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
+
+Instructional sources: [Eddie Bravo — MTS 169: the Pump](https://www.10thplanetjj.com/techniques/mts-169-rubber-guard-the-pump/); [10th Planet Costa Mesa — basic path with double bagger](https://www.youtube.com/watch?v=W2OFKidf9lE).
 
 **From Position**: [[Positions/Rubber Guard/Crackhead Control]] (Bottom)
 **Success Rate**: 58%
@@ -174,8 +176,8 @@ This transition serves multiple strategic purposes within the rubber guard frame
 | &nbsp; | Attacker | Defender |
 |--------|----------|----------|
 | **Focus** | Execute technique | Prevent or counter |
-| **Key Principles** | Release the deep overhook only when hip elevation is secured... | Recognize the transition initiation immediately - the bottom... |
-| **Options** | 7 execution steps | 4 defensive options |
+| **Key Principles** | Check the first shin connection: Maintain the original high ... | Keep the elbows compact: Avoid extending an arm between the ... |
+| **Options** | 6 execution steps | 4 defensive options |
 
 </section>
 
@@ -188,53 +190,49 @@ This transition serves multiple strategic purposes within the rubber guard frame
 ### Key Principles
 
 
-- Release the deep overhook only when hip elevation is secured to prevent position collapse
+- Check the first shin connection: Maintain the original high leg and supporting hand before opening the second leg.
 
-- Use the opponent's posture recovery attempt as the timing window for transition initiation
+- Keep the hips close: Use the hip angle to support the raised knee without pulling on the foot.
 
-- Maintain continuous leg pressure across the back throughout the entire transition
+- Open the reinforcing leg: Lower the second leg deliberately while keeping the upper-body connection.
 
-- Convert overhook grip to head control as the primary control mechanism changes
+- Place a useful lower frame: Return the free foot or leg to a comfortable guard frame instead of leaving both hips uncontrolled.
 
-- Keep the inside leg threaded high during transition to establish Mission Control leg position
+- Track the inside arms: Recognize that the opponent may still have both arms inside and can rebuild posture.
 
-- Monitor opponent's free arm throughout - do not allow double underhooks during transition vulnerability
-
-- Treat the transition as an attack opportunity, not just a positional retreat
+- Reset if posture is lost: Recover ordinary guard if the first high-leg connection no longer holds safely.
 
 
 ### Execution Steps
 
 
-- **Assess position**: Evaluate opponent's posture and positioning to confirm transition necessity. Look for signs of postu...
+- **Check the first shin connection**: Maintain the original high leg and supporting hand before opening the second leg....
 
-- **Elevate hips**: Drive hips upward off the mat while maintaining the deep overhook temporarily. This hip elevation cr...
+- **Keep the hips close**: Use the hip angle to support the raised knee without pulling on the foot....
 
-- **Transition leg position**: Slide the leg across opponent's back from the Crackhead position higher onto the shoulder area. The ...
+- **Open the reinforcing leg**: Lower the second leg deliberately while keeping the upper-body connection....
 
-- **Release overhook to head control**: Release the deep overhook grip and immediately swim the arm to establish head control, either behind...
+- **Place a useful lower frame**: Return the free foot or leg to a comfortable guard frame instead of leaving both hips uncontrolled....
 
-- **Secure shoulder isolation**: Pull down aggressively on opponent's head while using the repositioned leg to isolate and trap the f...
+- **Track the inside arms**: Recognize that the opponent may still have both arms inside and can rebuild posture....
 
-- **Establish inside arm trap**: Ensure opponent's previously trapped arm remains on the inside of your high guard leg. Use your free...
-
-- **Consolidate Mission Control**: Complete the position by confirming all Mission Control checkpoints: hips elevated, leg high across ...
+- **Reset if posture is lost**: Recover ordinary guard if the first high-leg connection no longer holds safely....
 
 
 ### Common Mistakes
 
 
-- **Releasing overhook before hip elevation is established**
-  - Consequence: Position collapses entirely as opponent recovers full posture with no control remaining. Often leads to immediate guard pass.
-  - Correction: Always elevate hips first while still maintaining overhook. The hip elevation must be secured before any grip change occurs - this is the foundational structure that makes Mission Control possible.
+- **Skipping the checkpoint: check the first shin connection**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Maintain the original high leg and supporting hand before opening the second leg.
+  - Correction: Maintain the original high leg and supporting hand before opening the second leg.
 
-- **Allowing gap between overhook release and head control establishment**
-  - Consequence: Opponent extracts arm and postures up during the control void, returning match to neutral closed guard or worse.
-  - Correction: Practice the grip transition as one fluid motion. The hand releasing the overhook should immediately swim to head control with zero pause between positions.
+- **Skipping the checkpoint: keep the hips close**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Use the hip angle to support the raised knee without pulling on the foot.
+  - Correction: Use the hip angle to support the raised knee without pulling on the foot.
 
-- **Leg repositioning too low on opponent's back instead of high on shoulder**
-  - Consequence: Insufficient shoulder isolation for Mission Control effectiveness. Opponent maintains shoulder mobility and can frame to escape.
-  - Correction: Thread leg as high as possible across opponent's upper back and shoulder blade area. The shin must create downward pressure on the shoulder, not just rest across the mid-back.
+- **Skipping the checkpoint: open the reinforcing leg**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Lower the second leg deliberately while keeping the upper-body connection.
+  - Correction: Lower the second leg deliberately while keeping the upper-body connection.
 
 
 </section>
@@ -248,43 +246,37 @@ This transition serves multiple strategic purposes within the rubber guard frame
 ### Key Principles
 
 
-- Recognize the transition initiation immediately - the bottom player's hip elevation and overhook loosening are the earliest cues
+- Keep the elbows compact: Avoid extending an arm between the high legs where it can be isolated.
 
-- Attack during the grip transition window when the bottom player has released the overhook but not yet established head control
+- Recognize the reinforcement: A second leg climbing behind your head increases the posture-control problem.
 
-- Posture recovery is the highest priority - if you can get your head above your hips during the transition, Mission Control cannot be established
+- Control the hip line early: Build a balanced base and an early hip frame before the high clinch closes.
 
-- Prevent the leg from repositioning high on your shoulder by driving your shoulder forward into the bottom player's hip
+- Clear the upper enclosure: Undo the high-leg connection before attempting to stand tall or extract an arm.
 
-- Extract the trapped arm during the brief moment when overhook pressure releases rather than waiting for Mission Control to consolidate
+- Keep a safe spine: Do not answer the clinch by driving the partner onto the neck.
 
-- Use forward pressure strategically - driving weight forward during transition can prevent hip elevation that Mission Control requires
-
-- If Mission Control begins to lock in, immediately switch to Mission Control-specific escapes rather than continuing to fight the transition
+- Pass after release: Begin ordinary guard passing once the shoulders and arms are free of the high enclosure.
 
 
 ### Recognition Cues
 
 
-- Bottom player's overhook grip begins loosening or shifting from deep control to lighter contact, signaling imminent release and transition initiation
+- The bottom player has a two-leg high clinch with the opponent facing them.
 
-- Bottom player drives hips upward off the mat while still maintaining partial overhook, indicating they are building the foundation structure for Mission Control before releasing grip
+- Use the hip angle to support the raised knee without pulling on the foot.
 
-- The leg across your back begins sliding higher toward your shoulder blade area rather than maintaining its current mid-back position, showing the leg repositioning phase has begun
-
-- Bottom player's free hand begins moving toward your head or their own shin, telegraphing the grip transition from overhook to Mission Control head control
-
-- You feel a momentary reduction in pulling pressure on your trapped arm as the bottom player prepares to convert from overhook control to shoulder isolation control
+- Return the free foot or leg to a comfortable guard frame instead of leaving both hips uncontrolled.
 
 
 ### Defensive Options
 
 
-- **Explosive posture recovery during overhook release** - When: The instant you feel the overhook grip loosening and before head control is established - this is the primary escape window
+- **Avoid extending an arm between the high legs where it can be isolated.** - When: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
 
-- **Arm extraction with simultaneous forward drive** - When: During the brief moment when overhook releases and before the leg repositions high enough to trap the shoulder in Mission Control configuration
+- **A second leg climbing behind your head increases the posture-control problem.** - When: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
 
-- **Drive shoulder forward to prevent leg repositioning** - When: When you detect the leg beginning to slide higher on your back toward your shoulder blade during the transition phase
+- **Build a balanced base and an early hip frame before the high clinch closes.** - When: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
 
 
 </section>
@@ -295,13 +287,10 @@ This transition serves multiple strategic purposes within the rubber guard frame
 ## Variations
 
 
-**Direct Triangle Entry Variant**: Instead of settling into Mission Control, use the leg repositioning motion to swing directly across opponent's face for triangle entry. Effective when opponent's posture is recovering rapidly and Mission Control may not hold. (When to use: When opponent postures up during transition, creating ideal triangle angle)
+**Cooperative checkpoint drill**: Maintain the original high leg and supporting hand before opening the second leg. Use the hip angle to support the raised knee without pulling on the foot. (When to use: Learning the control without submission pressure)
 
 
-**Overhook Retention Variant**: Maintain a modified overhook while establishing Mission Control leg position, creating hybrid control with both overhook anchor and high guard pressure. More secure but reduces submission options. (When to use: Against larger opponents or when back exposure danger is elevated)
-
-
-**New York Transition Variant**: Instead of Mission Control, transition to New York position by adjusting the overhook angle and leg configuration. Provides different shoulder isolation and submission pathways. (When to use: When opponent's arm positioning favors New York over Mission Control entries)
+**Response and reset drill**: Avoid extending an arm between the high legs where it can be isolated. Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route. (When to use: Adding one early response after both partners recognize the configuration)
 
 
 
@@ -313,7 +302,7 @@ This transition serves multiple strategic purposes within the rubber guard frame
 
 ## Position Integration
 
-The Crackhead Control to Mission Control transition represents a critical pathway within the 10th Planet rubber guard system, allowing practitioners to fluidly move between high-risk attack positions and stable control platforms. This transition connects directly to Mission Control's submission chains - triangle, omoplata, gogoplata, and armbar attacks all become available upon successful establishment. The ability to flow between Crackhead and Mission Control creates a dynamic guard system where opponents cannot simply defend one position to achieve safety. Advanced practitioners use this transition both defensively (escaping back exposure) and offensively (using the transition motion itself for attacks).
+The bottom player has a two-leg high clinch with the opponent facing them. The change removes the second-leg reinforcement; it does not convert a rear ride or a leg entanglement into guard. A destination is established by its actual body configuration, not by completing an isolated grip or by the name of the route.
 
 </section>
 
@@ -323,27 +312,11 @@ The Crackhead Control to Mission Control transition represents a critical pathwa
 ## Related Techniques
 
 
-- [[Positions/Rubber Guard/Crackhead Control]] - Starting position - the high-risk overhook guard you transition from
+- [[Positions/Rubber Guard/Crackhead Control]] - Related configuration; establish its own prerequisites: compare the configuration and required controls for Crackhead Control.
 
-- [[Positions/Rubber Guard/Mission Control]] - Target position - the stable rubber guard control you transition to
+- [[Positions/Rubber Guard/Mission Control]] - Related configuration; establish its own prerequisites: compare the configuration and required controls for Mission Control.
 
-- [[Positions/Rubber Guard]] - Parent system - both positions are core elements of this guard family
-
-- [[Positions/Rubber Guard/New York]] - Alternative target - similar transition mechanics with different angle
-
-- [[Positions/Rubber Guard/Carni]] - Alternative when opponent drives forward during transition
-
-- [[Transitions/Closed Guard to Triangle]] - Direct attack option from Mission Control after transition
-
-- [[Transitions/Closed Guard to Omoplata]] - Follow-up attack chain from established Mission Control
-
-- [[Transitions/Gogoplata]] - Advanced submission available from Mission Control platform
-
-- [[Positions/Closed Guard]] - Fallback position if transition fails or back exposure danger peaks
-
-- [[Transitions/Crackhead Control to Carni]] - Alternative transition when forward pressure favors Carni entry
-
-- [[Transitions/Crackhead Control to New York]] - Alternative transition when arm positioning favors New York
+- [[Positions/Rubber Guard]] - Related configuration; establish its own prerequisites: compare the configuration and required controls for Rubber Guard.
 
 
 </section>

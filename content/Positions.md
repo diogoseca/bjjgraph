@@ -1049,19 +1049,19 @@ Master Technical Mount in BJJ. Advanced mount variation with stepped leg creatin
 
 ### [[Positions/Rubber Guard/Carni|Carni]]
 
-Master Carni position in BJJ. Advanced leg entanglement with systematic heel hook and back take paths. Strategic guide covering both attacking and defending perspectives.
+Carni is a rubber-guard shoulder-lock configuration in which the bottom player clears a leg around the head, clamps the shoulder, and controls the arm while turning partly belly down.
 
 ### [[Positions/Rubber Guard/Chill Dog|Chill Dog]]
 
-Master Chill Dog position in BJJ. Defensive turtle variant with recovery options and back exposure prevention. Learn entries, escapes, and transitions with complete strategic analysis.
+Chill Dog is a rubber-guard control reached after New York by clearing the head-side grip around the neck while keeping the trapped arm isolated and the controlling knee hugged close.
 
 ### [[Positions/Rubber Guard/Crackhead Control|Crackhead Control]]
 
-Master Crackhead Control in BJJ - 10th Planet's high-risk, high-reward position combining deep overhook with extreme back exposure. Complete breakdown with safety protocols and entry mechanics.
+Crackhead Control is a high rubber-guard clinch that reinforces Mission Control by bringing the second leg high behind the opponent's head, helping retain posture control while the arms remain inside.
 
 ### [[Positions/Rubber Guard/Invisible Collar|Invisible Collar]]
 
-Master Invisible Collar position in BJJ. Advanced back control setup for collar chokes, RNC transitions, and crucifix attacks with complete tactical guide.
+Invisible Collar is a high rubber-guard clinch in which the bottom player keeps an arm isolated and closes the second leg high behind the opponent's head to reinforce posture control.
 
 ### [[Positions/Rubber Guard/Meathook|Meathook]]
 
@@ -1085,7 +1085,7 @@ Master Rubber Guard in BJJ. Complete guide to 10th Planet system covering Missio
 
 ### [[Positions/Rubber Guard/Zombie|Zombie]]
 
-Master Zombie position in BJJ. Defensive turtle variation with unique lockdown mechanics combining the 10th Planet system. Learn bottom escapes and top passing strategies with 40-75% success rates.
+Zombie is the rubber-guard arm-pummeling action that moves the opponent's hand to the mat from Mission Control so the bottom player can hug the knee and establish New York.
 
 
 ## Side Control
@@ -1156,7 +1156,7 @@ Master Anaconda Control in BJJ. Complete guide covering offensive control from t
 
 ### [[Positions/Aoki Lock Control|Aoki Lock Control]]
 
-Master Aoki Lock position in BJJ. Advanced shoulder lock control combining leg entanglement with omoplata-style pressure. Complete guide covering both offensive and defensive perspectives.
+Aoki Lock Control captures a turned-out foot against the attacker's upper body while the legs manage the opponent's hip, preparing a rotational foot lock that can also stress the knee.
 
 ### [[Positions/Armbar Control|Armbar Control]]
 
@@ -1168,7 +1168,7 @@ Master Body Lock position in BJJ. Complete guide covering standing control, mat 
 
 ### [[Positions/Buggy Choke|Buggy Choke]]
 
-Master the Buggy Choke position in BJJ. Strategic guide covering the arm-trap self-strangle, leg-over-shoulder clamp, and finishing mechanics with complete attacker and defender perspective analysis.
+Buggy Choke control is a bottom-side-control head-and-arm enclosure in which the bottom player connects an arm to the same-side leg and uses that loop to threaten a choke on the top player.
 
 ### [[Positions/Clamp Guard|Clamp Guard]]
 
@@ -1204,7 +1204,7 @@ Master Darce Control position in BJJ. Dominant front headlock variant with high 
 
 ### [[Positions/Dead Orchard Control|Dead Orchard Control]]
 
-Master Dead Orchard Control in BJJ. Strategic guide covering specialized anaconda variation with enhanced control mechanics, submission threats, and systematic defensive responses.
+Dead Orchard Control is Nathan Orchard's high rubber-guard trap in which the bottom player triangles the legs around the opponent's shoulders with both arms inside, creating short arm-lock opportunities.
 
 ### [[Positions/Dogfight Position|Dogfight Position]]
 
@@ -1260,7 +1260,7 @@ Master Headquarters Position in BJJ. Strategic passing control position with mul
 
 ### [[Positions/Hindulotine|Hindulotine]]
 
-Master the Hindulotine position in BJJ. High-pressure guillotine variation combining head control with body positioning for submission or back take opportunities.
+Hindulotine control is the rubber-guard Hindu configuration in which the bottom player loops an arm over the raised foot and around the opponent's shoulder to set a leg-in guillotine.
 
 ### [[Positions/Inside Sankaku|Inside Sankaku]]
 
@@ -1312,7 +1312,7 @@ Master Leg Knot position in BJJ. Advanced leg entanglement creating systematic c
 
 ### [[Positions/Leg Weave|Leg Weave]]
 
-Master leg weave position in BJJ. Advanced guard passing control with leg threading mechanics, covering both bottom defense and top passing perspectives.
+Leg Weave is a passing control in which the top player threads an arm between the guard player's legs and controls the lower thigh or knee, bringing the knees together to clear the guard.
 
 ### [[Positions/Matrix|Matrix]]
 

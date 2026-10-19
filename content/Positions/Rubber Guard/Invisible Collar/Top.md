@@ -4,7 +4,7 @@
 
 ---
 title: "Invisible Collar Top | BJJ Position Guide | BJJ Graph"
-description: "Master Invisible Collar from top position with grip concealment tactics, submission chains, and back control maintenance. Complete attacking framework."
+description: "Invisible Collar top perspective: The free leg moving behind your head is an attempt to reinforce posture control, even without a collar grip. Keep the head aligned and the captured elbow compact rather than twisting against the enclosure."
 ---
 
 
@@ -67,42 +67,42 @@ description: "Master Invisible Collar from top position with grip concealment ta
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What happens if you telegraphing submission intention by gripping collar too aggressively or obviously from the start?",
+      "name": "What happens if you skipping the checkpoint: recognize the high closure?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Opponent immediately recognizes threat and establishes strong neck defense before choke can be properly applied, eliminating element of surprise The correct approach is: Establish collar grip gradually and casually while opponent is focused on defending hooks or other threats, making the grip appear positional rather than attacking until full depth is achieved"
+        "text": "The intended control is not established before the next movement; the missing requirement is: The free leg moving behind your head is an attempt to reinforce posture control, even without a collar grip. The correct approach is: The free leg moving behind your head is an attempt to reinforce posture control, even without a collar grip."
       }
     },
     {
       "@type": "Question",
-      "name": "What happens if you failing to maintain proper seatbelt structure while focusing exclusively on collar grip establishment?",
+      "name": "What happens if you skipping the checkpoint: protect the neck and arm?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Opponent escapes back control by swimming arms through or removing hooks while practitioner is distracted by grip work, losing dominant position entirely The correct approach is: Keep non-collar arm active in seatbelt position with elbow tight to body, maintaining comprehensive back control structure even while establishing invisible collar grip"
+        "text": "The intended control is not established before the next movement; the missing requirement is: Keep the head aligned and the captured elbow compact rather than twisting against the enclosure. The correct approach is: Keep the head aligned and the captured elbow compact rather than twisting against the enclosure."
       }
     },
     {
       "@type": "Question",
-      "name": "What happens if you insufficient collar grip depth with fingers not penetrating deep enough inside gi material?",
+      "name": "What happens if you skipping the checkpoint: keep a balanced base?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Choke lacks finishing pressure and opponent can easily defend or remove the grip with basic hand fighting techniques, wasting setup effort The correct approach is: Drive all four fingers as deep as anatomically possible into collar with knuckles firmly against opponent's neck, using gradual incremental adjustments to achieve maximum penetration depth"
+        "text": "The intended control is not established before the next movement; the missing requirement is: Avoid driving all weight onto the partner's shoulders while the legs are locked high. The correct approach is: Avoid driving all weight onto the partner's shoulders while the legs are locked high."
       }
     },
     {
       "@type": "Question",
-      "name": "What happens if you losing hook control while attempting to finish the choke with excessive upper body focus?",
+      "name": "What happens if you skipping the checkpoint: address the leg enclosure?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Opponent escapes to guard or scrambles to better position while practitioner is focused solely on submission, losing both submission and positional dominance The correct approach is: Coordinate lower body and upper body attacks simultaneously, ensuring hooks remain active and controlling throughout the entire finishing sequence without relaxation"
+        "text": "The intended control is not established before the next movement; the missing requirement is: Create space at the hip and thigh before trying to raise the head or extract the arm. The correct approach is: Create space at the hip and thigh before trying to raise the head or extract the arm."
       }
     },
     {
       "@type": "Question",
-      "name": "What happens if you applying choking pressure too early before grip is fully established and locked in?",
+      "name": "What happens if you skipping the checkpoint: recover inside position?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Opponent becomes aware of submission threat prematurely and effectively defends before the position is properly secured, eliminating surprise advantage The correct approach is: Wait patiently until invisible collar grip is completely set with proper depth and hand position before beginning to apply any finishing pressure or rotational force"
+        "text": "The intended control is not established before the next movement; the missing requirement is: Bring the elbow back between the bodies after the high closure opens. The correct approach is: Bring the elbow back between the bodies after the high closure opens."
       }
     }
   ]
@@ -115,7 +115,7 @@ description: "Master Invisible Collar from top position with grip concealment ta
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Invisible Collar Top",
-  "description": "Master Invisible Collar from top position with grip concealment tactics, submission chains, and back control maintenance. Complete attacking framework.",
+  "description": "Invisible Collar top perspective: The free leg moving behind your head is an attempt to reinforce posture control, even without a collar grip. Keep the head aligned and the captured elbow compact rather than twisting against the enclosure.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -205,11 +205,15 @@ description: "Master Invisible Collar from top position with grip concealment ta
 
 <section id="overview" class="content-section">
 
-The Invisible Collar from top position represents advanced back attack methodology where grip concealment creates submission opportunities that opponents fail to recognize until finishing mechanics are already in place. This position requires sophisticated understanding of hand positioning, timing for grip establishment, and the ability to maintain what appears to be a defensive or controlling posture while actually setting up fight-ending submissions. The invisible collar serves as both a direct submission position and a platform for creating dilemmas where every defensive choice leads to a different attack.
+The top player is responsible for recognizing and defending the control. The bottom player faces the kneeling or leaning top player in a high guard. One arm has been isolated through the New York and neck-clearing sequence. The second leg closes high behind the head to reinforce the first controlling leg. The bottom player maintains the knee hug and uses the hips to keep the enclosure comfortable.
 
-From top position, the practitioner must establish the invisible collar grip gradually and casually, making it appear as simple positional control rather than an active submission setup. This requires sensitivity to opponent's defensive focus and the ability to deepen collar penetration incrementally while the opponent is distracted by other threats such as hook defense or preventing crucifix transitions. The most successful practitioners treat the invisible collar as a stealth position that provides multiple attack options while remaining sustainable over time.
+The free leg moving behind your head is an attempt to reinforce posture control, even without a collar grip. Keep the head aligned and the captured elbow compact rather than twisting against the enclosure. Avoid driving all weight onto the partner's shoulders while the legs are locked high.
 
-Success in invisible collar top requires coordinating upper body attacks with lower body control, ensuring that hook positioning prevents escape while the collar grip develops. The position demands patience and timing—rushing the grip establishment or applying finishing pressure too early alerts the opponent and allows them to mount effective defense. Advanced practitioners use the invisible collar as part of comprehensive back attack systems where it connects seamlessly with rear naked chokes, armbars, and crucifix positions, creating submission chains that are extremely difficult to defend.
+Create space at the hip and thigh before trying to raise the head or extract the arm. Bring the elbow back between the bodies after the high closure opens. Tap immediately to a choke or joint pressure; posture recovery is an early defense, not a late escape guarantee.
+
+The collar is a leg-based posture-control configuration; it does not require a jacket collar or place the attacker behind the opponent. Neck-cleared arm isolation distinguishes the basic path from a high guard that still contains both arms. Avoid sustained neck compression, forced stacking, and foot pulling against a fixed knee. Agree on verbal taps and open both the hand and leg controls immediately on a stop signal.
+
+The high leg-and-arm enclosure can create vascular choke pressure when it closes around the sides of the neck. Misplaced pressure against the windpipe or a sideways pull that becomes a neck crank is a reason to open the enclosure, not squeeze harder. Do not mistake the absence of a jacket grip for the absence of a choke: tap before neck compression develops, and wait for both legs and the controlling arm to release before lifting posture.
 
 </section>
 
@@ -255,11 +259,10 @@ Success in invisible collar top requires coordinating upper body attacks with lo
 
 <p class="section-subtitle">What is Invisible Collar (Top)?</p>
 
-- Practitioner positioned on opponent's back with chest connected to opponent's upper back and shoulder blades, maintaining close body-to-body contact that prevents opponent from creating escape space
-- At least one hook inserted deep under opponent's leg with foot crossing to opposite side, establishing lower body control that limits opponent's mobility and prevents forward or rotational escape attempts
-- Seatbelt grip structure maintained with one arm over opponent's shoulder and one arm under opposite armpit, creating the characteristic diagonal grip pattern that provides upper body control while setting up collar entry
-- Collar grip hand establishing specific invisible collar configuration with gi material folded against opponent's neck, fingers penetrating deep inside collar with thumb positioned on outside creating concealed choking mechanism that appears passive to opponent
-- Opponent's posture compressed forward with practitioner's weight distributed to control movement while maintaining sustainability, opponent often unaware of immediate submission threat due to grip's deceptive appearance and gradual pressure application
+- The bottom player faces the kneeling or leaning top player in a high guard.
+- One arm has been isolated through the New York and neck-clearing sequence.
+- The second leg closes high behind the head to reinforce the first controlling leg.
+- The bottom player maintains the knee hug and uses the hips to keep the enclosure comfortable.
 
 
 </section>
@@ -270,12 +273,9 @@ Success in invisible collar top requires coordinating upper body attacks with lo
 
 <p class="section-subtitle">What do you need before playing Invisible Collar (Top)?</p>
 
-- Established back control position with at least one hook secured
-- Opponent wearing gi with sufficient collar material available
-- Seatbelt or similar upper body control already in place
-- Opponent's defensive attention focused on other threats
-- Practitioner possesses grip strength and finger dexterity for deep collar control
-- Body positioning allows for weight distribution that prevents rolling escape
+- The free leg moving behind your head is an attempt to reinforce posture control, even without a collar grip.
+- Keep the head aligned and the captured elbow compact rather than twisting against the enclosure.
+- Avoid driving all weight onto the partner's shoulders while the legs are locked high.
 
 
 </section>
@@ -286,13 +286,12 @@ Success in invisible collar top requires coordinating upper body attacks with lo
 
 <p class="section-subtitle">What are the key principles for attacking from Invisible Collar?</p>
 
-- Conceal submission intention by making grip appear positional rather than attacking
-- Establish collar grip depth gradually while opponent is distracted by other threats
-- Maintain seatbelt structure throughout to preserve back control while setting up submissions
-- Use opponent's defensive movements to tighten grip rather than forcing the choke
-- Keep body weight distributed to prevent opponent from rolling or turning into guard
-- Coordinate hook control with upper body positioning to prevent escape while finishing
-- Transition smoothly between invisible collar and other back attack options to create dilemmas
+- Recognize the high closure: The free leg moving behind your head is an attempt to reinforce posture control, even without a collar grip.
+- Protect the neck and arm: Keep the head aligned and the captured elbow compact rather than twisting against the enclosure.
+- Keep a balanced base: Avoid driving all weight onto the partner's shoulders while the legs are locked high.
+- Address the leg enclosure: Create space at the hip and thigh before trying to raise the head or extract the arm.
+- Recover inside position: Bring the elbow back between the bodies after the high closure opens.
+- Stop on compression: Tap immediately to a choke or joint pressure; posture recovery is an early defense, not a late escape guarantee.
 
 
 </section>
@@ -303,26 +302,16 @@ Success in invisible collar top requires coordinating upper body attacks with lo
 
 <p class="section-subtitle">What should you do from Invisible Collar (Top)?</p>
 
-**If opponent is unaware of invisible collar and not defending the grip:**
-- Execute **[[Continue Deepening Collar Grip/Attacker|Continue Deepening Collar Grip]]** → [[game-over]] (Probability: 80%)
-- Execute **[[Finish Collar Choke/Attacker|Finish Collar Choke]]** → [[game-over]] (Probability: 75%)
+**After the second leg opens into Chill Dog, when the isolated arm can be recovered safely:**
+- Execute **[[Transitions/Posture from Chill Dog/Attacker|Posture from Chill Dog]]** → [[Positions/Closed Guard]] (Probability: 55%)
 
 
-**If opponent recognizes threat and begins hand fighting the collar grip:**
-- Execute **[[Switch to Rear Naked Choke/Attacker|Switch to Rear Naked Choke]]** → [[game-over]] (Probability: 65%)
-- Execute **[[Transitions/Aoki Lock to Crucifix/Attacker|Aoki Lock to Crucifix]]** → [[Positions/Crucifix]] (Probability: 55%)
-- Execute **[[Attack Extended Arm with Armbar/Attacker|Attack Extended Arm with Armbar]]** → [[Positions/Armbar Control]] (Probability: 60%)
+**After the arm is back inside and the remaining high clinch is Crackhead Control:**
+- Execute **[[Transitions/Posture Recovery to Closed Guard/Attacker|Posture Recovery to Closed Guard]]** → [[Positions/Closed Guard]] (Probability: 55%)
 
 
-**If opponent turns into the collar side attempting to relieve pressure:**
-- Execute **[[Follow with Crucifix Entry/Attacker|Follow with Crucifix Entry]]** → [[Positions/Crucifix]] (Probability: 70%)
-- Execute **[[Tighten Collar Choke with Rotation/Attacker|Tighten Collar Choke with Rotation]]** → [[game-over]] (Probability: 68%)
-
-
-**If opponent successfully tucks chin and defends neck:**
-- Execute **[[Transition to Armbar from Back/Attacker|Transition to Armbar from Back]]** → [[Positions/Armbar Control]] (Probability: 58%)
-- Execute **[[Setup Bow and Arrow Choke/Attacker|Setup Bow and Arrow Choke]]** → [[game-over]] (Probability: 52%)
-- Execute **[[Maintain Back Control and Reset/Attacker|Maintain Back Control and Reset]]** → [[Positions/Back Control]] (Probability: 75%)
+**Only after the second leg, head and arm are free and the remaining guard can be passed:**
+- Execute **[[Transitions/Guard Pass from Chill Dog/Attacker|Guard Pass from Chill Dog]]** → [[Positions/Side Control]] (Probability: 50%)
 
 
 
@@ -335,30 +324,30 @@ Success in invisible collar top requires coordinating upper body attacks with lo
 
 <p class="section-subtitle">What mistakes should you avoid when attacking from Invisible Collar?</p>
 
-### 1. Telegraphing submission intention by gripping collar too aggressively or obviously from the start
+### 1. Skipping the checkpoint: recognize the high closure
 
-- ❌ **Consequence**: Opponent immediately recognizes threat and establishes strong neck defense before choke can be properly applied, eliminating element of surprise
-- ✅ **Correction**: Establish collar grip gradually and casually while opponent is focused on defending hooks or other threats, making the grip appear positional rather than attacking until full depth is achieved
+- ❌ **Consequence**: The intended control is not established before the next movement; the missing requirement is: The free leg moving behind your head is an attempt to reinforce posture control, even without a collar grip.
+- ✅ **Correction**: The free leg moving behind your head is an attempt to reinforce posture control, even without a collar grip.
 
-### 2. Failing to maintain proper seatbelt structure while focusing exclusively on collar grip establishment
+### 2. Skipping the checkpoint: protect the neck and arm
 
-- ❌ **Consequence**: Opponent escapes back control by swimming arms through or removing hooks while practitioner is distracted by grip work, losing dominant position entirely
-- ✅ **Correction**: Keep non-collar arm active in seatbelt position with elbow tight to body, maintaining comprehensive back control structure even while establishing invisible collar grip
+- ❌ **Consequence**: The intended control is not established before the next movement; the missing requirement is: Keep the head aligned and the captured elbow compact rather than twisting against the enclosure.
+- ✅ **Correction**: Keep the head aligned and the captured elbow compact rather than twisting against the enclosure.
 
-### 3. Insufficient collar grip depth with fingers not penetrating deep enough inside gi material
+### 3. Skipping the checkpoint: keep a balanced base
 
-- ❌ **Consequence**: Choke lacks finishing pressure and opponent can easily defend or remove the grip with basic hand fighting techniques, wasting setup effort
-- ✅ **Correction**: Drive all four fingers as deep as anatomically possible into collar with knuckles firmly against opponent's neck, using gradual incremental adjustments to achieve maximum penetration depth
+- ❌ **Consequence**: The intended control is not established before the next movement; the missing requirement is: Avoid driving all weight onto the partner's shoulders while the legs are locked high.
+- ✅ **Correction**: Avoid driving all weight onto the partner's shoulders while the legs are locked high.
 
-### 4. Losing hook control while attempting to finish the choke with excessive upper body focus
+### 4. Skipping the checkpoint: address the leg enclosure
 
-- ❌ **Consequence**: Opponent escapes to guard or scrambles to better position while practitioner is focused solely on submission, losing both submission and positional dominance
-- ✅ **Correction**: Coordinate lower body and upper body attacks simultaneously, ensuring hooks remain active and controlling throughout the entire finishing sequence without relaxation
+- ❌ **Consequence**: The intended control is not established before the next movement; the missing requirement is: Create space at the hip and thigh before trying to raise the head or extract the arm.
+- ✅ **Correction**: Create space at the hip and thigh before trying to raise the head or extract the arm.
 
-### 5. Applying choking pressure too early before grip is fully established and locked in
+### 5. Skipping the checkpoint: recover inside position
 
-- ❌ **Consequence**: Opponent becomes aware of submission threat prematurely and effectively defends before the position is properly secured, eliminating surprise advantage
-- ✅ **Correction**: Wait patiently until invisible collar grip is completely set with proper depth and hand position before beginning to apply any finishing pressure or rotational force
+- ❌ **Consequence**: The intended control is not established before the next movement; the missing requirement is: Bring the elbow back between the bodies after the high closure opens.
+- ✅ **Correction**: Bring the elbow back between the bodies after the high closure opens.
 
 
 
@@ -370,32 +359,25 @@ Success in invisible collar top requires coordinating upper body attacks with lo
 
 <p class="section-subtitle">How do you train Invisible Collar attacks?</p>
 
-### Invisible Collar Grip Establishment Drill
+### Identify the configuration
 
-Partner starts with basic back control and seatbelt grip. Practice establishing the invisible collar grip incrementally while partner provides 25% resistance initially, gradually increasing to 50%. Focus on concealing intention and achieving maximum depth without alerting partner to submission setup. Reset and repeat 10 times per side, tracking recognition time.
+Work cooperatively on recognize the high closure. The free leg moving behind your head is an attempt to reinforce posture control, even without a collar grip. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.
 
-**Duration**: 5 minutes per partner
-
-
-### Collar to RNC Transition Flow Drill
-
-From established invisible collar position, partner defends the collar aggressively by hand fighting and chin tucking at coach's signal. Practitioner must smoothly transition to rear naked choke when collar is defended. Flow continuously between both submission options for timed rounds, emphasizing seamless transitions and maintaining back control throughout all movements.
-
-**Duration**: 3 minutes per round, 3 rounds each
+**Duration**: Short cooperative repetitions; stop at each checkpoint
 
 
-### Positional Sparring from Back Control
+### Rehearse the connection
 
-Start with back control and both hooks inserted. Attacking practitioner must establish invisible collar and finish with any submission within 2 minutes. Defending practitioner focuses on recognizing the grip early and defending appropriately. If defender escapes back control completely, reset to starting position. Track success rates and recognition times to monitor improvement over multiple sessions.
+Work cooperatively on protect the neck and arm. Keep the head aligned and the captured elbow compact rather than twisting against the enclosure. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.
 
-**Duration**: 2-minute rounds, 5 rounds each role
+**Duration**: Short cooperative repetitions; stop at each checkpoint
 
 
-### Submission Dilemma Drill
+### Add an early response
 
-From invisible collar position, create three-way dilemma: collar choke, rear naked choke, or armbar from back. Coach calls out which specific defense partner should prioritize (defend collar, defend neck, or keep arms protected). Practitioner must immediately recognize the opening created and attack the undefended target. Builds recognition speed, decision-making ability, and submission chain fluency.
+Work cooperatively on keep a balanced base. Avoid driving all weight onto the partner's shoulders while the legs are locked high. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.
 
-**Duration**: 4 minutes continuous, switch roles and repeat
+**Duration**: Short cooperative repetitions; stop at each checkpoint
 
 
 
@@ -414,7 +396,7 @@ From invisible collar position, create three-way dilemma: collar choke, rear nak
 | Advancement Probability | 72% |
 | Submission Probability | 70% |
 
-**Average Time in Position**: 30-90 seconds from establishment to finish or transition
+**Average Time in Position**: Variable; reset at the first loss of safe control rather than targeting a fixed hold time
 
 
 </section>
@@ -423,14 +405,10 @@ From invisible collar position, create three-way dilemma: collar choke, rear nak
 
 ## Related Positions and Techniques
 
-- **[[Positions/Back Control]]** - Primary position from which invisible collar is established
-- **[[Positions/Back Control/Seat Belt Control Back]]** - Fundamental grip structure used before invisible collar transition
-- **[[Submissions/Rear Naked Choke]]** - Primary alternative submission when collar is defended
-- **[[Submissions/Cross Collar Choke]]** - Direct finishing technique from invisible collar position
-- **[[Positions/Crucifix]]** - Common transition target when opponent turns into collar
-- **[[Transitions/Armbar from Back Transition]]** - Alternative submission when opponent extends arms to defend
-- **[[Submissions/Bow and Arrow Choke]]** - Advanced variation using invisible collar grip mechanics
-- **[[Positions/Back Control/Body Triangle]]** - Enhanced control position often combined with invisible collar
+- **[[Positions/Rubber Guard/Chill Dog]]** - Related configuration to study separately: compare the configuration and required controls for Chill Dog.
+- **[[Positions/Rubber Guard/New York]]** - Related configuration to study separately: compare the configuration and required controls for New York.
+- **[[Positions/Rubber Guard]]** - Related configuration to study separately: compare the configuration and required controls for Rubber Guard.
+- **[[Positions/Rubber Guard/Crackhead Control]]** - Related configuration to study separately: compare the configuration and required controls for Crackhead Control.
 
 
 </section>

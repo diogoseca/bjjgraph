@@ -4,7 +4,7 @@
 
 ---
 title: "Buggy Choke | BJJ Position Guide | BJJ Graph"
-description: "Master the Buggy Choke position in BJJ. Strategic guide covering the arm-trap self-strangle, leg-over-shoulder clamp, and finishing mechanics with complete attacker and defender perspective analysis."
+description: "Buggy Choke control is a bottom-side-control head-and-arm enclosure in which the bottom player connects an arm to the same-side leg and uses that loop to threaten a choke on the top player."
 ---
 
 
@@ -16,7 +16,7 @@ description: "Master the Buggy Choke position in BJJ. Strategic guide covering t
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Buggy Choke",
-  "description": "Master the Buggy Choke position in BJJ. Strategic guide covering the arm-trap self-strangle, leg-over-shoulder clamp, and finishing mechanics with complete attacker and defender perspective analysis.",
+  "description": "Buggy Choke control is a bottom-side-control head-and-arm enclosure in which the bottom player connects an arm to the same-side leg and uses that loop to threaten a choke on the top player.",
   "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
 }
 </script>
@@ -87,7 +87,7 @@ description: "Master the Buggy Choke position in BJJ. Strategic guide covering t
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Buggy Choke",
-  "description": "The Buggy Choke is a control position where the attacker traps the opponent's near arm against the neck and clamps a leg over the shoulder, compressing that arm into the opponent's own carotid for a self-arm strangle and branching into scrambles when defended.",
+  "description": "Buggy Choke control is a bottom-side-control head-and-arm enclosure in which the bottom player connects an arm to the same-side leg and uses that loop to threaten a choke on the top player.",
   "inDefinedTermSet": "https://bjjgraph.org/Positions/"
 }
 </script>
@@ -105,13 +105,17 @@ description: "Master the Buggy Choke position in BJJ. Strategic guide covering t
 
 <section id="overview" class="content-section">
 
-**The Buggy Choke is a control position where the attacker traps the opponent's near arm against the neck and clamps a leg over the shoulder, compressing that arm into the opponent's own carotid for a self-arm strangle and branching into scrambles when defended.**
+**Buggy Choke control is a bottom-side-control head-and-arm enclosure in which the bottom player connects an arm to the same-side leg and uses that loop to threaten a choke on the top player.**
 
-The Buggy Choke position represents one of modern jiu-jitsu's most counterintuitive submission systems, popularized in competition around 2021. Its defining characteristic is that the choke is finished with the opponent's own arm: the attacker traps the opponent's near arm tight across the neck, then throws a leg over the opponent's shoulder to clamp that arm in place, driving the opponent's own bicep and shoulder into their carotid. Because the entry so often comes from a pin the defender believes is winning, the choke frequently materializes before the opponent recognizes the danger.
+The top player is beside the bottom player in side-control geometry. The bottom player has turned partly toward the opponent and brought an arm past the head. That arm connects to the same-side raised leg, enclosing the top player's head and one arm. The controlling elbow stays near the knee so the loop does not depend on wrenching the foot.
 
-From the attacking perspective, the buggy choke rewards calm, structured movement over scrambling. The attacker frames the opponent's near arm across the neck, swings the same-side leg up and over the shoulder, and connects the legs in a figure-four or shin grip to seal the trapped arm. The strangle then comes from turning the hips and torso toward the opponent and extending, not from upper-body strength. When the choke is defended, the same control branches into sweeps, scrambles, and follow-up entanglements rather than collapsing back to neutral, which is what makes the position a genuine attack hub rather than a single-path submission.
+The bottom player supplies the arm-and-leg loop around the opponent's head and one arm. It does not require a collar grip, a turtle ride, or trapping the opponent's arm alone across their own throat. Terminology: Buggy choke control.
 
-From the defending perspective, surviving the buggy choke requires immediate recognition that the exchange has become a trap the instant the near arm is framed across the neck. The defender must extract the threatened arm before the attacker's leg clamps the shoulder, posture the head up and away, and resist the instinct to muscle deeper, which only feeds the strangle. Once the leg is over the shoulder and the legs connect, escape percentages drop sharply, and the defender must clear the entanglement or concede position to recover safe distance. Understanding both perspectives is essential for developing comprehensive attacking and defensive systems that account for this position across gi and no-gi competition formats.
+Use safe shoulder and hip frames to turn partly onto the side before reaching for the leg. Check that the loop contains the necessary upper-body configuration rather than merely hugging your leg. Shorten the connection through body position, not by pulling the foot hard toward the face.
+
+Protect both the defender's neck and the attacker's knee. Do not pull the foot against a fixed knee, use a slam, or remain attached when lifted. Open the whole loop on any stop signal.
+
+Instructional sources: [Kade and Tye Ruotolo — OG Buggy Choke](https://www.youtube.com/watch?v=zixbOyLpoOc); [Jay Rodriguez — three Buggy Choke mistakes](https://www.youtube.com/watch?v=MjKERx4N4mY).
 
 </section>
 
@@ -156,19 +160,17 @@ From the defending perspective, surviving the buggy choke requires immediate rec
 ## Key Principles
 
 
-- Trap the opponent's near arm tight across the neck before they can retract it
+- Build the angle: Use safe shoulder and hip frames to turn partly onto the side before reaching for the leg.
 
-- Throw the same-side leg over the opponent's shoulder to clamp the arm against their own neck
+- Enclose head and arm: Check that the loop contains the necessary upper-body configuration rather than merely hugging your leg.
 
-- Connect the legs immediately in a figure-four or shin grip to seal the trapped arm
+- Keep elbow near knee: Shorten the connection through body position, not by pulling the foot hard toward the face.
 
-- Turn the hips and torso toward the opponent to drive their bicep and shoulder into the carotid
+- Use the torso connection: Close space with the arm, leg, and torso while avoiding twisting force on your own knee.
 
-- Keep the opponent's elbow line glued to your centerline so the trapped arm cannot slide free
+- Recover guard when space opens: Use a disengaging opponent's movement to insert frames and knees if the choke is lost.
 
-- Finish by extending the hips progressively rather than yanking with the arms
-
-- Treat the position as an attack hub that branches to scrambles when the choke is defended
+- Release if lifted: Let go when the partner begins lifting you from the mat; do not hang from the choke or invite a slam.
 
 
 </section>
@@ -184,10 +186,10 @@ From the defending perspective, surviving the buggy choke requires immediate rec
 |--------|--------|-----|
 | **Position Type** | Defensive | Offensive/Controlling |
 | **Risk Level** | High | Low to Medium |
-| **Energy Cost** | High | Medium |
-| **Time** | Short | Short to Medium |
+| **Energy Cost** | Medium | Medium |
+| **Time** | Short to Medium | Short to Medium |
 
-**Key Difference:** Opponent's own trapped arm becomes the choke
+**Key Difference:** Bottom player forms an arm-and-leg choke loop
 
 
 
@@ -203,19 +205,17 @@ From the defending perspective, surviving the buggy choke requires immediate rec
 ### Key Principles
 
 
-- Recognize the near arm being framed across the attacker's neck as the first sign of the buggy choke
+- Build the angle: Use safe shoulder and hip frames to turn partly onto the side before reaching for the leg.
 
-- Extract the threatened near arm immediately before the attacker's leg can clamp the shoulder
+- Enclose head and arm: Check that the loop contains the necessary upper-body configuration rather than merely hugging your leg.
 
-- Posture the head up and away rather than driving deeper into the position
+- Keep elbow near knee: Shorten the connection through body position, not by pulling the foot hard toward the face.
 
-- Avoid feeding the choke by adding forward pressure once the entanglement begins forming
+- Use the torso connection: Close space with the arm, leg, and torso while avoiding twisting force on your own knee.
 
-- Clear the leg crossing your shoulder by circling toward the opponent's legs to relieve the angle
+- Recover guard when space opens: Use a disengaging opponent's movement to insert frames and knees if the choke is lost.
 
-- Concede position to recover safe distance rather than holding a spot being converted to a submission
-
-- Treat any near-arm trap from a strong position as a high-priority threat demanding instant response
+- Release if lifted: Let go when the partner begins lifting you from the mat; do not hang from the choke or invite a slam.
 
 
 ### Available Transitions
@@ -239,25 +239,25 @@ From the defending perspective, surviving the buggy choke requires immediate rec
 ### Common Mistakes
 
 
-- ❌ **Remaining static hoping the opponent will abandon the choke rather than finish**
-  - Consequence: Opponent has unlimited time to seal the figure and apply progressive choking pressure until submission is inevitable
-  - ✅ Correction: Extract the arm and move immediately toward guard recovery or standing escape, accepting that the current position is no longer safe
+- ❌ **Skipping the checkpoint: build the angle**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Use safe shoulder and hip frames to turn partly onto the side before reaching for the leg.
+  - ✅ Correction: Use safe shoulder and hip frames to turn partly onto the side before reaching for the leg.
 
-- ❌ **Fighting the attacker's legs while ignoring your own trapped near arm**
-  - Consequence: The trapped arm remains sealed against your neck as the choking mechanism, making leg fighting alone irrelevant to stopping the strangle
-  - ✅ Correction: Prioritize extracting your own near arm first, as that limb is the primary choking mechanism that enables the entire position
+- ❌ **Skipping the checkpoint: enclose head and arm**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Check that the loop contains the necessary upper-body configuration rather than merely hugging your leg.
+  - ✅ Correction: Check that the loop contains the necessary upper-body configuration rather than merely hugging your leg.
 
-- ❌ **Driving deeper into your pin to try to flatten the opponent**
-  - Consequence: Forward pressure feeds your own bicep and shoulder into your carotid, accelerating the strangle you are trying to prevent
-  - ✅ Correction: Stop adding pressure, posture the head up and away, and extract the trapped arm before the figure locks
+- ❌ **Skipping the checkpoint: keep elbow near knee**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Shorten the connection through body position, not by pulling the foot hard toward the face.
+  - ✅ Correction: Shorten the connection through body position, not by pulling the foot hard toward the face.
 
-- ❌ **Leaving the near arm extended across the opponent's neck**
-  - Consequence: Creates the exact arm position the buggy choke requires, handing the opponent the limb they need to finish
-  - ✅ Correction: Keep the near arm tucked and framing low, never strung across the opponent's neck where it can be trapped
+- ❌ **Skipping the checkpoint: use the torso connection**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Close space with the arm, leg, and torso while avoiding twisting force on your own knee.
+  - ✅ Correction: Close space with the arm, leg, and torso while avoiding twisting force on your own knee.
 
-- ❌ **Lowering the head and posture once the trap begins**
-  - Consequence: Flattened posture facilitates the choking mechanics and eliminates the mobility needed for escape movements
-  - ✅ Correction: Drive head and shoulders up aggressively to maintain posture that creates distance and preserves escape options
+- ❌ **Skipping the checkpoint: recover guard when space opens**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Use a disengaging opponent's movement to insert frames and knees if the choke is lost.
+  - ✅ Correction: Use a disengaging opponent's movement to insert frames and knees if the choke is lost.
 
 
 </section>
@@ -272,19 +272,17 @@ From the defending perspective, surviving the buggy choke requires immediate rec
 ### Key Principles
 
 
-- Trap the near arm tight across the neck before the opponent can retract it
+- Recognize the loop early: Watch for an arm reaching past your head and connecting to the same-side leg.
 
-- Swing the same-side leg over the opponent's shoulder to clamp the trapped arm in place
+- Prevent hand-leg connection: Use balanced posture and safe inside frames before the loop closes.
 
-- Connect the legs immediately in a figure-four or shin grip to eliminate the extraction window
+- Protect the neck: Treat the choke as live even though you hold top side control.
 
-- Turn the hips and torso toward the opponent to drive their bicep and shoulder into the carotid
+- Clear before circling: Free the head-and-arm enclosure before changing to north-south or chasing another pin.
 
-- Read the opponent's defensive reaction to choose between finishing and transitioning to a superior scramble
+- Do not slam or wrench: Avoid lifting, dropping, or twisting the partner's trapped leg to force an escape.
 
-- Apply the strangle by extending the hips progressively rather than yanking with the arms
-
-- Treat the position as a transitional attack hub connecting multiple high-percentage outcomes
+- Tap early: Stop before dizziness or loss of normal responsiveness; top position does not make a secured choke safe.
 
 
 ### Available Transitions
@@ -318,33 +316,25 @@ From the defending perspective, surviving the buggy choke requires immediate rec
 ### Common Mistakes
 
 
-- ❌ **Trapping the arm shallow without clamping the leg over the shoulder**
-  - Consequence: Opponent easily retracts the arm, frames out, or scrambles free because the trapped limb is never sealed against the neck
-  - ✅ Correction: Trap the near arm tight and immediately swing the same-side leg over the shoulder, then connect the legs to seal the figure
+- ❌ **Skipping the checkpoint: recognize the loop early**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Watch for an arm reaching past your head and connecting to the same-side leg.
+  - ✅ Correction: Watch for an arm reaching past your head and connecting to the same-side leg.
 
-- ❌ **Applying explosive choking pressure before the figure is connected**
-  - Consequence: Opponent reacts with explosive defensive urgency and often escapes before the structure develops, turning the choke into a strength contest
-  - ✅ Correction: Trap the arm and lock the legs first, then apply progressive pressure through the hip turn once the limb is sealed
+- ❌ **Skipping the checkpoint: prevent hand-leg connection**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Use balanced posture and safe inside frames before the loop closes.
+  - ✅ Correction: Use balanced posture and safe inside frames before the loop closes.
 
-- ❌ **Trying to finish with arm strength instead of a hip turn**
-  - Consequence: Pulling with the arms is weak and easy to defend, exhausting the attacker without producing the strangle
-  - ✅ Correction: Turn the hips and torso toward the opponent and extend, driving their own bicep and shoulder into the carotid
+- ❌ **Skipping the checkpoint: protect the neck**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Treat the choke as live even though you hold top side control.
+  - ✅ Correction: Treat the choke as live even though you hold top side control.
 
-- ❌ **Failing to connect the legs quickly after clamping the shoulder**
-  - Consequence: Opponent uses the window to retract the arm, posture out, or scramble before the choke structure is complete
-  - ✅ Correction: Connect the legs in a figure-four or shin grip the instant the leg crosses the shoulder, eliminating the extraction window
+- ❌ **Skipping the checkpoint: clear before circling**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Free the head-and-arm enclosure before changing to north-south or chasing another pin.
+  - ✅ Correction: Free the head-and-arm enclosure before changing to north-south or chasing another pin.
 
-- ❌ **Releasing the arm trap when the opponent turns away**
-  - Consequence: Loses the connection needed to follow to the back, surrendering a high-percentage transition for nothing
-  - ✅ Correction: Maintain the arm trap and ride the opponent's turn, hooking the near leg to convert the choke attempt into a back take
-
-- ❌ **Committing fully to the choke when the opponent extends the far arm for crucifix**
-  - Consequence: Missing a high-percentage crucifix transition that offers superior control and submission opportunities
-  - ✅ Correction: Monitor the far arm constantly and transition to crucifix when extension occurs, prioritizing position over a defended finish
-
-- ❌ **Using pure arm strength for the strangle without engaging body mechanics**
-  - Consequence: Choke becomes an exhausting arm-strength contest, the opponent defends more effectively, and the position becomes unsustainable
-  - ✅ Correction: Use the leg clamp and hip extension to drive the choke, letting the arms only complete the trap through leverage not power
+- ❌ **Skipping the checkpoint: do not slam or wrench**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Avoid lifting, dropping, or twisting the partner's trapped leg to force an escape.
+  - ✅ Correction: Avoid lifting, dropping, or twisting the partner's trapped leg to force an escape.
 
 
 </section>
@@ -355,25 +345,13 @@ From the defending perspective, surviving the buggy choke requires immediate rec
 ## Related Positions
 
 
-- **[[Positions/Side Control]]** - Primary control where the buggy choke is trapped and a frequent scramble destination
+- **[[Positions/Side Control]]** - Related position, not an automatic outcome: compare the configuration and required controls for Side Control.
 
-- **[[Positions/Turtle]]** - Scramble position the exchange can pass through when the entanglement is cleared
+- **[[Positions/Half Guard]]** - Related position, not an automatic outcome: compare the configuration and required controls for Half Guard.
 
-- **[[Positions/Back Control]]** - Common transition destination when the defender turns away and exposes the back
+- **[[Positions/Open Guard]]** - Related position, not an automatic outcome: compare the configuration and required controls for Open Guard.
 
-- **[[Positions/Crucifix]]** - Alternative attack when the opponent extends the far arm to base while defending
-
-- **[[Positions/Twister Control/Truck]]** - Transition target when the opponent rolls to escape the buggy choke control
-
-- **[[Positions/Darce Control]]** - Switch option available when the opponent turns into the choke angle
-
-- **[[Positions/Anaconda Control]]** - Related front-headlock submission from similar arm-trap configurations
-
-- **[[Positions/Front Headlock]]** - Related attack position with overlapping control and submission objectives
-
-- **[[Positions/Half Guard]]** - Common entry and recovery position from which the buggy choke is set and cleared
-
-- **[[Positions/North-South]]** - Related control the scramble can resolve to when grips are cleared
+- **[[Positions/Triangle Control]]** - Related position, not an automatic outcome: compare the configuration and required controls for Triangle Control.
 
 
 </section>

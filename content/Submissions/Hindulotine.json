@@ -1,65 +1,52 @@
 {
   "name": "Hindulotine",
-  "description": "Learn the Hindulotine choke, an advanced guillotine variation using a chin strap grip from front headlock control. Complete guide with setups, mechanics, and defense.",
+  "description": "The Hindulotine is Ben Eddy's leg-in guillotine from Hindu Control, using an arm loop over the raised rubber-guard foot and around the shoulder to close a neck enclosure.",
   "tags": [
+    "bjj",
     "submission",
-    "choke",
-    "hindulotine",
-    "guillotine-variation",
-    "front-headlock",
-    "advanced",
-    "no-gi",
-    "gi",
-    "blood-choke"
+    "choke"
   ],
   "is_family": true,
   "submission_category": "Choke",
-  "submission_type": "Blood Choke",
-  "target_area": "Carotid arteries and trachea",
+  "submission_type": "Leg-in guillotine",
+  "target_area": "Neck, enclosed by the arm and raised rubber-guard leg",
   "starting_position": "Hindulotine",
   "from_position": "Hindulotine/Top",
   "success_rate": {
     "gi": 40,
     "nogi": 40
   },
-  "variant_uniqueness": "Chin strap figure-four grip prevents forearm slippage",
-  "summary": "The Hindulotine is a 10th Planet guillotine variation locking a chin-strap figure-four grip from the front headlock, wedging the forearm under the jaw so carotid pressure builds from leverage rather than the grip strength a slick standard guillotine loses.",
-  "overview": "Emerging from the 10th Planet Jiu-Jitsu system, the Hindulotine was built to solve a problem that plagues no-gi front headlock attacks: as sweat and fatigue set in, conventional clasped-hand guillotines slide off the chin and fail. It belongs to a broader family of front headlock chokes, sitting alongside the standard guillotine, anaconda, and darce as the answer when the defender gives you their neck but denies a clean clasped grip.\n\nWhat separates the Hindulotine from conventional guillotine attacks is the mechanical advantage created by the grip. The chin strap configuration—where the choking arm threads deep under the chin and the hand grips the attacker's own opposite wrist in a figure-four—prevents the choking arm from sliding off the chin, a common failure point in standard guillotines. The figure-four structure allows the attacker to apply increasing pressure by closing their elbows together and arching their back, rather than relying on raw grip strength. This makes the technique particularly effective in no-gi settings where sweat makes traditional clasped-hand grips unreliable.\n\nStrategically, the Hindulotine serves as both a primary finishing technique and a gateway to other front headlock attacks. When the opponent defends by turning their chin or attempting to posture, the attacker can transition to an anaconda choke, darce choke, or arm-in guillotine variation. This creates a submission chain that forces the defender to address multiple threats simultaneously, increasing the overall finishing rate of the front headlock position.",
+  "variant_uniqueness": "Raised leg inside the neck enclosure",
+  "summary": "The Hindulotine is Ben Eddy's leg-in guillotine from Hindu Control, using an arm loop over the raised rubber-guard foot and around the shoulder to close a neck enclosure.",
+  "overview": "The bottom guard player keeps a raised knee near the torso and loops an elbow over the foot, bringing the hand around the opponent's shoulder. Hindu Control is the setup; Hindulotine is the choke. Ben Eddy's early reverse-gable demonstration and later S-grip explanation are teaching variants, not a license to force any hand grip through a closed gap.\n\nTurn onto the hip and keep the knee close so the foot is reached through body position. Bring the elbow above the raised foot and the hand around the shoulder into the head-control space. Retain the leg-and-arm enclosure without adding neck pressure while locating the second hand. Use the demonstrated S-grip or the earlier reverse-gable variation without wrenching the wrist or knee.\n\nDrill the arm path with no choke pressure first. Protect the high knee, avoid cervical twisting, and release both the grip and raised leg immediately on any stop signal.\n\nInstructional sources: [Ben Eddy — Hindu Control to Hindulotine](https://www.youtube.com/watch?v=Y5ZQNgG2hNc); [Ben Eddy — later Hindulotine S-grip clarification](https://www.10thplanetjj.com/forum/printthread.php?page=2&pp=10&t=22650).",
   "safety_considerations": {
     "injury_risks": [
       {
-        "injury": "Loss of consciousness from bilateral carotid compression",
-        "severity": "CRITICAL",
-        "recovery_time": "Seconds to minutes if released promptly; prolonged compression can cause brain damage"
-      },
-      {
-        "injury": "Tracheal damage from incorrect pressure angle crushing the windpipe",
+        "injury": "Neck injury from twisting or misaligned pressure",
         "severity": "High",
-        "recovery_time": "2-6 weeks depending on severity; may require medical intervention"
+        "recovery_time": "Variable; stop training and seek appropriate clinical assessment after an injury or concerning symptoms."
       },
       {
-        "injury": "Cervical spine strain from forced neck flexion under load",
-        "severity": "Medium",
-        "recovery_time": "1-3 weeks with rest and physical therapy"
+        "injury": "Loss of consciousness or serious harm from continued neck compression",
+        "severity": "CRITICAL",
+        "recovery_time": "Variable; stop training and seek appropriate clinical assessment after an injury or concerning symptoms."
       }
     ],
-    "application_speed": "Blood chokes can cause unconsciousness in 4-10 seconds once fully locked. Apply gradually in training and never crank suddenly. The chin strap grip tightens faster than standard guillotine grips due to the figure-four leverage.",
+    "application_speed": "Drill the arm path with no choke pressure first. Protect the high knee, avoid cervical twisting, and release both the grip and raised leg immediately on any stop signal. No fixed number of seconds makes a locked submission safe.",
     "tap_signals": [
-      "Verbal tap saying 'tap' clearly",
-      "Physical tap on partner's body, arm, or leg with hand or foot",
-      "Tapping the mat repeatedly if unable to reach partner",
-      "Any verbal distress signal or going limp (treat as immediate tap)"
+      "Repeated hand taps anywhere the partner can feel them",
+      "A clear verbal tap or stop, including when the hands are trapped",
+      "Foot taps or any agreed stop signal; release immediately if normal responsiveness changes"
     ],
     "release_protocol": [
-      "Release all grip pressure immediately upon any tap signal",
-      "Monitor partner for 30 seconds after release for delayed signs of unconsciousness",
-      "If partner goes unconscious, release immediately, place in recovery position, elevate legs, and seek medical attention",
-      "Never reapply the choke in the same round after a near-unconsciousness event"
+      "Open the finishing grip immediately at the first signal; do not wait for repeated confirmation",
+      "Remove the leg, arm or body restraint without forcing the captured joint or neck through another movement",
+      "Check the partner can respond normally and allow a safe reset; end practice and obtain help if there is an injury or concerning symptom"
     ],
     "training_restrictions": [
-      "Apply pressure gradually and incrementally during drilling, never explosively",
-      "Beginners should drill grip mechanics and positioning without applying finishing pressure until comfortable with the release protocol",
-      "Do not hold the fully locked choke for extended periods even if the partner has not tapped"
+      "Start with supervised, cooperative control-and-release drilling rather than a loaded finish",
+      "Check the event's current rules for the specific age, experience and clothing division before live use",
+      "Drill the arm path with no choke pressure first. Protect the high knee, avoid cervical twisting, and release both the grip and raised leg immediately on any stop signal."
     ]
   },
   "variations": [
@@ -70,19 +57,14 @@
   ],
   "variations_and_setups": [
     {
-      "variation_name": "Standing Hindulotine",
-      "description": "Applied from a standing clinch or front headlock, the attacker locks the chin strap grip while standing and either finishes standing or pulls guard to complete the choke. The standing version generates additional choking pressure from the opponent's own body weight hanging on the grip.",
-      "when_to_use": "When the opponent shoots a takedown or dips their head in the clinch, exposing the neck for the front headlock entry"
+      "variation_name": "Control-only rehearsal",
+      "description": "The bottom guard player keeps a raised knee near the torso and loops an elbow over the foot, bringing the hand around the opponent's shoulder. Turn onto the hip and keep the knee close so the foot is reached through body position.",
+      "when_to_use": "Cooperative practice before adding resistance or any finishing pressure"
     },
     {
-      "variation_name": "Guard Pull Hindulotine",
-      "description": "The attacker secures the Hindulotine grip from front headlock, then sits back to closed or butterfly guard to break the opponent's posture and finish. Pulling guard removes the opponent's base and creates downward leverage through hip extension.",
-      "when_to_use": "When the opponent is defending the standing version by maintaining strong posture and base, making it difficult to finish without pulling them down"
-    },
-    {
-      "variation_name": "Transition from Failed Standard Guillotine",
-      "description": "When a conventional guillotine grip is slipping or the opponent is beginning to posture out, the attacker switches to the chin strap grip configuration mid-exchange. The figure-four grip re-secures the choke with a stronger mechanical advantage than the original clasped-hand grip.",
-      "when_to_use": "When a standard guillotine attempt is failing due to grip fatigue, sweat, or the opponent beginning to strip the grip"
+      "variation_name": "Entry prerequisite check",
+      "description": "Hindu Control is the setup; Hindulotine is the choke. Ben Eddy's early reverse-gable demonstration and later S-grip explanation are teaching variants, not a license to force any hand grip through a closed gap.",
+      "when_to_use": "Before linking this submission to a different starting position"
     }
   ],
   "from_positions": [
@@ -92,58 +74,30 @@
   ],
   "related_submissions": [
     {
-      "name": "High Elbow Guillotine",
-      "relationship": "Similar guillotine variation with different grip mechanics for comparison and cross-training"
-    },
-    {
-      "name": "Arm in Guillotine",
-      "relationship": "Alternative guillotine finish when opponent's arm becomes trapped inside the choke"
-    },
-    {
-      "name": "Chin Strap Guillotine from Front Headlock",
-      "relationship": "Related chin strap grip technique with similar finishing mechanics"
-    },
-    {
-      "name": "Anaconda Choke",
-      "relationship": "Chain submission when opponent tucks chin and turns to defend the Hindulotine"
-    },
-    {
-      "name": "Darce Choke",
-      "relationship": "Chain submission when opponent exposes far arm while defending"
-    },
-    {
-      "name": "Brabo Choke",
-      "relationship": "Related front headlock choke with gi-specific grip variation"
-    },
-    {
       "name": "Guillotine Choke",
-      "relationship": "Parent technique from which the Hindulotine variation derives"
+      "relationship": "Compare distinct submission mechanics: compare the configuration and required controls for Guillotine Choke."
+    },
+    {
+      "name": "High Elbow Guillotine",
+      "relationship": "Compare distinct submission mechanics: compare the configuration and required controls for High Elbow Guillotine."
+    },
+    {
+      "name": "Gogoplata",
+      "relationship": "Compare distinct submission mechanics: compare the configuration and required controls for Gogoplata."
     }
   ],
   "related_content": [
     {
       "name": "Hindulotine",
-      "relationship": "Primary control position for Hindulotine setup and finishing"
+      "relationship": "Related prerequisite or contrasting submission: compare the configuration and required controls for Hindulotine."
     },
     {
-      "name": "Front Headlock",
-      "relationship": "Alternative entry position and fallback when grip is lost"
+      "name": "Rubber Guard",
+      "relationship": "Related prerequisite or contrasting submission: compare the configuration and required controls for Rubber Guard."
     },
     {
-      "name": "Hindulotine to Anaconda Choke",
-      "relationship": "Chain submission transition when opponent defends by tucking chin"
-    },
-    {
-      "name": "Hindulotine to Darce Choke",
-      "relationship": "Alternative finish transition when opponent exposes the far arm defending"
-    },
-    {
-      "name": "Hindulotine from Hindulotine",
-      "relationship": "Primary finishing submission from Hindulotine control"
-    },
-    {
-      "name": "High Elbow Guillotine",
-      "relationship": "Similar guillotine variation for grip comparison and cross-training"
+      "name": "Guillotine Choke",
+      "relationship": "Related prerequisite or contrasting submission: compare the configuration and required controls for Guillotine Choke."
     }
   ],
   "clips": [

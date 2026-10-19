@@ -1,16 +1,11 @@
 {
   "name": "Escape Dead Orchard Control",
-  "summary": "Escaping Dead Orchard Control is a frame-first defensive sequence that wedges the choking arm at the elbow, then hip-escapes perpendicular to the opponent's force to relieve the anaconda compression and recover toward front headlock or half guard.",
-  "description": "Escape Dead Orchard Control in BJJ with systematic frame defense and hip escape techniques. Complete guide to surviving this dangerous anaconda variation.",
+  "summary": "Exiting Dead Orchard requires opening the high leg triangle safely; the bottom player releases the control while the top player protects the captured arms.",
+  "description": "Exiting Dead Orchard requires opening the high leg triangle safely; the bottom player releases the control while the top player protects the captured arms.",
   "tags": [
-    "escape",
-    "dead-orchard",
-    "defense",
-    "anaconda-defense",
-    "front-headlock",
-    "10th-planet",
-    "survival",
-    "guard-recovery"
+    "bjj",
+    "transition",
+    "position-change"
   ],
   "from_position": "Dead Orchard Control/Bottom",
   "outcomes": [
@@ -59,379 +54,317 @@
     "gi": 40,
     "nogi": 40
   },
-  "overview": "The Escape Dead Orchard Control is a systematic defensive sequence designed to extract the practitioner from one of the most dangerous front headlock variations in modern grappling. The Dead Orchard position, developed within the 10th Planet system, combines anaconda grip mechanics with sustained positional pressure that creates both immediate submission threat and progressive positional deterioration. Escaping requires methodical frame establishment, precise timing, and disciplined energy management rather than explosive movements that typically worsen the position.\n\nThe escape centers on a frame-first approach where the bottom player establishes a defensive wedge at the choking arm's elbow joint before initiating any hip movement. This frame serves dual purposes: it prevents the grip from tightening further and creates the minimum space necessary for hip escape mechanics to function. Once the frame is secure, the practitioner hip escapes perpendicular to the opponent's force line, changing the angle of compression and progressively reducing choke effectiveness.\n\nStrategically, this escape represents the critical survival skill for anyone training with partners who use front headlock choke systems. The technique teaches fundamental principles applicable across all compressed defensive positions: calm breathing under restriction, frame-based space creation, and incremental positional improvement over explosive movement. Success requires reading the opponent's weight distribution to identify momentary windows where escape movements can succeed against reduced resistance.",
+  "overview": "The bottom player is already facing the opponent in Dead Orchard Control, with a high rubber-guard leg connection. The listed bottom seat is the holder of the real guard. Headlock arm extraction is not a direct defense against the both-arm leg triangle.\n\nThe bottom player faces the opponent and keeps the hips close beneath the shoulders. The legs form a high figure-four around the shoulder line, with both opposing arms inside. Release any wrist, neck or elbow loading before opening the high-leg enclosure. Lower the controlling leg through a comfortable hip angle rather than pulling the foot against the knee.\n\nMove through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.\n\nInstructional sources: [Nathan Orchard — Dead Orchard, part 1](https://www.youtube.com/watch?v=XoiB1D2WJwE); [Ben Eddy — the Zombie pummel](https://www.youtube.com/watch?v=JzSxFvNA5Uo).",
   "conditions": [
-    "Opponent has established Dead Orchard Control with anaconda-style grip around neck and trapped arm",
-    "Bottom player's posture is broken with chest compressed toward mat",
-    "Bottom player retains use of at least one free arm for framing",
-    "Bottom player has not been completely flattened with no hip mobility",
-    "Opponent's grip has not yet fully locked the blood choke mechanics"
+    "The bottom player is already facing the opponent in Dead Orchard Control, with a high rubber-guard leg connection.",
+    "The bottom player faces the opponent and keeps the hips close beneath the shoulders. The legs form a high figure-four around the shoulder line, with both opposing arms inside.",
+    "The listed bottom seat is the holder of the real guard. Headlock arm extraction is not a direct defense against the both-arm leg triangle."
   ],
   "variants_and_adaptations": [
     {
-      "variant_name": "Frame and Hip Escape",
-      "description": "The primary escape variation using a forearm wedge at the elbow of the choking arm combined with systematic hip escape away from the trapped arm side. The frame prevents grip tightening while hip movement changes the compression angle, progressively reducing choke effectiveness until the practitioner can recover to front headlock or guard.",
-      "when_to_use": "Default escape when opponent has moderate grip depth and you retain hip mobility"
+      "variant_name": "Cooperative checkpoint drill",
+      "description": "The bottom player faces the opponent and keeps the hips close beneath the shoulders. The legs form a high figure-four around the shoulder line, with both opposing arms inside. Release any wrist, neck or elbow loading before opening the high-leg enclosure.",
+      "when_to_use": "Learning the control without submission pressure"
     },
     {
-      "variant_name": "Forward Roll Escape",
-      "description": "When the opponent walks their hips toward the practitioner's head for the anaconda finishing angle, the bottom player rolls forward in the same direction as the opponent's rotation to invert the position. This uses the opponent's own rotational momentum against them and can result in guard recovery or at minimum reset the grip depth.",
-      "when_to_use": "When opponent commits to the anaconda finishing rotation and their hips are elevated"
-    },
-    {
-      "variant_name": "Arm Extraction to Turtle",
-      "description": "Focuses specifically on extracting the trapped arm before addressing overall positional improvement. Uses a combination of elbow retraction toward the hip and body rotation to slide the arm free from the grip configuration. Once the arm is extracted, the dead orchard loses its primary control mechanism and the practitioner can rebuild turtle base.",
-      "when_to_use": "When the trapped arm has not been pulled fully across the neck and some space remains at the elbow"
-    },
-    {
-      "variant_name": "Standing Escape",
-      "description": "An explosive but higher-risk variation where the bottom player drives upward to standing while maintaining the neck frame and controlling the choking arm. Standing removes the mat as a pressure point and changes the dynamics of the position significantly. Requires sufficient energy reserves and a momentary reduction in opponent's pressure to initiate.",
-      "when_to_use": "When opponent's weight is high and pressure momentarily shifts, or when other escape paths have been exhausted"
+      "variant_name": "Response and reset drill",
+      "description": "Treat a high leg triangle containing both your arms as an arm-lock threat even when the neck is not being choked. Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.",
+      "when_to_use": "Adding one early response after both partners recognize the configuration"
     }
   ],
-  "position_integration": "The Escape Dead Orchard Control occupies a critical defensive node in the front headlock and anaconda control subsystems of the BJJ positional hierarchy. It connects the dangerous Dead Orchard Control state to safer recovery positions, primarily Front Headlock Bottom and Half Guard Bottom. This escape serves as the essential survival technique within the anaconda defense chain, linking to broader defensive frameworks including front headlock defense, turtle recovery, and guard retention systems. Mastery of this escape is prerequisite for confidently engaging with opponents who employ systematic front headlock attacks, as the dead orchard represents one of the terminal threats in that attack chain.",
+  "position_integration": "The bottom player is already facing the opponent in Dead Orchard Control, with a high rubber-guard leg connection. The listed bottom seat is the holder of the real guard. Headlock arm extraction is not a direct defense against the both-arm leg triangle. A destination is established by its actual body configuration, not by completing an isolated grip or by the name of the route.",
   "related_content": [
     {
-      "name": "Dead Orchard Control",
-      "relationship": "Source position - the control state this escape addresses"
+      "name": "Rubber Guard",
+      "relationship": "Related configuration; establish its own prerequisites: compare the configuration and required controls for Rubber Guard."
     },
     {
-      "name": "Front Headlock",
-      "relationship": "Primary escape target - reduced threat state after successful escape"
+      "name": "Mission Control",
+      "relationship": "Related configuration; establish its own prerequisites: compare the configuration and required controls for Mission Control."
     },
     {
-      "name": "Anaconda Control",
-      "relationship": "Parent control family - dead orchard is an advanced anaconda variation"
+      "name": "Crackhead Control",
+      "relationship": "Related configuration; establish its own prerequisites: compare the configuration and required controls for Crackhead Control."
     },
     {
-      "name": "Anaconda Grip Break to Front Headlock",
-      "relationship": "Related escape - similar grip-breaking mechanics from standard anaconda"
-    },
-    {
-      "name": "Anaconda Choke from Dead Orchard",
-      "relationship": "Primary threat - submission the escape must prevent"
-    },
-    {
-      "name": "Dead Orchard to Darce Switch",
-      "relationship": "Secondary threat - alternative submission during escape attempts"
-    },
-    {
-      "name": "Darce Control",
-      "relationship": "Related control position - similar defensive challenges apply"
-    },
-    {
-      "name": "Arm Extraction",
-      "relationship": "Key sub-technique - trapped arm extraction is central to the escape"
-    },
-    {
-      "name": "Turtle",
-      "relationship": "Common preceding position - dead orchard often established from turtle"
-    },
-    {
-      "name": "Half Guard",
-      "relationship": "Best-case escape destination - full guard recovery target"
-    },
-    {
-      "name": "Back Control",
-      "relationship": "Counter position - risk of giving up back during escape attempts"
+      "name": "Closed Guard",
+      "relationship": "Related configuration; establish its own prerequisites: compare the configuration and required controls for Closed Guard."
     }
   ],
   "attacker": {
     "name": "Escape Dead Orchard Control Attacker",
-    "description": "Execute the Dead Orchard Control escape in BJJ. Step-by-step guide for the bottom player covering frame establishment, hip escape mechanics, and guard recovery from this dangerous anaconda variation.",
-    "overview": "As the practitioner trapped in Dead Orchard Control, your task is to systematically dismantle the opponent's grip mechanics and positional pressure through frame-based defense and angular hip escapes. This is not a position where explosive movement succeeds - the deep anaconda configuration punishes panic with tighter compression and accelerated fatigue. Your approach must be methodical: establish frames first, create angles second, extract your trapped arm or recover guard third. Every movement should serve a specific purpose in the escape sequence, and energy conservation is paramount since the position is inherently draining for the bottom player. The escape demands that you read your opponent's weight shifts and grip adjustments to identify windows where your movements face reduced resistance, then execute technically precise escapes during those windows.",
+    "description": "Escape Dead Orchard Control (attacker): The bottom player faces the opponent and keeps the hips close beneath the shoulders. The legs form a high figure-four around the shoulder line, with both opposing arms inside. Release any wrist, neck or elbow loading before opening the high-leg enclosure.",
+    "overview": "The bottom player is already facing the opponent in Dead Orchard Control, with a high rubber-guard leg connection. The listed bottom seat is the holder of the real guard. Headlock arm extraction is not a direct defense against the both-arm leg triangle.\n\nThe bottom player faces the opponent and keeps the hips close beneath the shoulders. The legs form a high figure-four around the shoulder line, with both opposing arms inside. Release any wrist, neck or elbow loading before opening the high-leg enclosure. Lower the controlling leg through a comfortable hip angle rather than pulling the foot against the knee.\n\nBring the forearms and knees between the bodies as space becomes available. Keep the shoulders and hips oriented toward the opponent while re-establishing a comfortable facing guard. Check posture, knee comfort and inside space before resuming a sweep or submission attack.\n\nMove through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.\n\nThe bottom player can reset the high triangle by fully releasing the captured arms, then using a small hip escape to recover inside knee space. Keep a forearm barrier against a crossface while doing so; this is guard retention, not an escape from the former front-headlock identity.",
     "key_principles": [
-      "Frame at the choking arm elbow joint before initiating any hip movement to prevent grip tightening during escape attempts",
-      "Escape perpendicular to the opponent's force line - hip escape away from the trapped arm side rather than pulling straight back",
-      "Maintain chin-to-chest contact throughout the entire escape sequence to minimize choke effectiveness",
-      "Time escape movements to opponent's weight shifts and grip adjustments when resistance is momentarily reduced",
-      "Use incremental positional improvements rather than attempting complete escape in a single explosive movement",
-      "Breathe calmly through the nose despite airway restriction to prevent panic-driven energy expenditure",
-      "Address the trapped arm only after establishing frame and creating hip angle - premature arm extraction often tightens the position"
+      "Recognize the actual control: The bottom player faces the opponent and keeps the hips close beneath the shoulders. The legs form a high figure-four around the shoulder line, with both opposing arms inside.",
+      "Remove submission pressure: Release any wrist, neck or elbow loading before opening the high-leg enclosure.",
+      "Open the high connection: Lower the controlling leg through a comfortable hip angle rather than pulling the foot against the knee.",
+      "Restore inside frames: Bring the forearms and knees between the bodies as space becomes available.",
+      "Face the opponent: Keep the shoulders and hips oriented toward the opponent while re-establishing a comfortable facing guard.",
+      "Stabilize before moving again: Check posture, knee comfort and inside space before resuming a sweep or submission attack."
     ],
     "setup_requirements": [
-      "Identify which arm is trapped and assess how deep the opponent's grip extends past your far shoulder",
-      "Establish a forearm wedge with your free hand at the crook of the opponent's choking arm elbow",
-      "Tuck chin tightly to chest and turn face toward opponent's body to reduce choke effectiveness",
-      "Assess opponent's weight distribution to determine whether hips are high (favoring hip escape) or settled (requiring frame adjustment first)",
-      "Verify you have sufficient hip mobility to execute shrimp movement - if completely flattened, first work to get knees under hips"
+      "The bottom player is already facing the opponent in Dead Orchard Control, with a high rubber-guard leg connection.",
+      "The bottom player faces the opponent and keeps the hips close beneath the shoulders. The legs form a high figure-four around the shoulder line, with both opposing arms inside.",
+      "Release any wrist, neck or elbow loading before opening the high-leg enclosure.",
+      "The listed bottom seat is the holder of the real guard. Headlock arm extraction is not a direct defense against the both-arm leg triangle."
     ],
     "execution_steps": [
       {
         "step_number": 1,
-        "action": "Establish defensive frame at choking arm",
-        "description": "Place your free forearm across the crook of the opponent's choking arm at the elbow joint. This wedge prevents the grip from tightening further and creates a mechanical stop that gives you space to work. Do not push outward - use skeletal structure to block inward compression. Simultaneously tuck your chin to your chest and turn your face toward the opponent's body."
+        "action": "Recognize the actual control",
+        "description": "The bottom player faces the opponent and keeps the hips close beneath the shoulders. The legs form a high figure-four around the shoulder line, with both opposing arms inside."
       },
       {
         "step_number": 2,
-        "action": "Secure breathing and assess position",
-        "description": "Take two controlled nasal breaths to settle your nervous system and prevent panic. During these breaths, feel the opponent's weight distribution and grip depth. Identify whether their hips are high, indicating a possible hip escape opportunity, or settled heavily, requiring you to create the opportunity through small movements. This assessment determines your primary escape path."
+        "action": "Remove submission pressure",
+        "description": "Release any wrist, neck or elbow loading before opening the high-leg enclosure."
       },
       {
         "step_number": 3,
-        "action": "Create hip angle with initial shrimp",
-        "description": "Execute a hip escape movement away from your trapped arm side, driving your hips toward the mat on the free arm side. This angular change reduces the circular compression of the anaconda grip and creates space between your neck and the choking arm. The shrimp should be smooth and controlled, not explosive - you are creating angles, not trying to explode free in one motion."
+        "action": "Open the high connection",
+        "description": "Lower the controlling leg through a comfortable hip angle rather than pulling the foot against the knee."
       },
       {
         "step_number": 4,
-        "action": "Walk hips further to increase angle",
-        "description": "Continue walking your hips away using small incremental shrimp movements, each one increasing the angle between your body and the opponent's grip line. As the angle increases, the choking pressure progressively decreases because the circular compression loses its mechanical advantage. Maintain your frame at the elbow throughout this phase - losing this frame during hip escape allows the opponent to follow and re-establish the original angle."
+        "action": "Restore inside frames",
+        "description": "Bring the forearms and knees between the bodies as space becomes available."
       },
       {
         "step_number": 5,
-        "action": "Extract trapped arm or establish guard frame",
-        "description": "Once sufficient hip angle exists, either retract your trapped arm by pulling the elbow toward your hip in a circular motion that slides it free of the grip, or use your freed hip space to insert a knee between your body and the opponent's chest as a guard frame. The choice depends on grip depth - if the arm slides easily, extract it; if not, prioritize getting a knee shield in place to prevent the opponent from re-settling their weight."
+        "action": "Face the opponent",
+        "description": "Keep the shoulders and hips oriented toward the opponent while re-establishing a comfortable facing guard."
       },
       {
         "step_number": 6,
-        "action": "Complete transition to defensive position",
-        "description": "Once either the arm is free or a knee frame is established, aggressively shrimp to create full separation. If the arm is free, the dead orchard grip has been broken and you transition to standard front headlock bottom defense. If you achieved knee insertion, work to full half guard or closed guard recovery. Do not relax once the immediate choke threat is addressed - continue working to improve position until you reach a sustainable defensive state."
-      },
-      {
-        "step_number": 7,
-        "action": "Secure and stabilize recovered position",
-        "description": "Once in front headlock bottom or guard position, immediately establish your defensive controls for that position. In front headlock bottom, control the choking arm wrist and maintain chin tuck. In half guard, secure an underhook and establish knee shield. The escape is not complete until you have stabilized your new position with appropriate frames and controls that prevent the opponent from re-establishing dead orchard or advancing to another dangerous position."
+        "action": "Stabilize before moving again",
+        "description": "Check posture, knee comfort and inside space before resuming a sweep or submission attack."
       }
     ],
     "common_counters": [
       {
-        "counter": "Opponent re-tightens grip and increases shoulder pressure during hip escape attempt",
+        "counter": "Treat a high leg triangle containing both your arms as an arm-lock threat even when the neck is not being choked.",
         "effectiveness": "High",
-        "your_response": "Maintain frame at elbow and pause hip movement until pressure settles, then resume with smaller incremental shrimps timed to opponent's breathing cycles",
+        "your_response": "Re-check the prerequisite before continuing. The bottom player faces the opponent and keeps the hips close beneath the shoulders. The legs form a high figure-four around the shoulder line, with both opposing arms inside.",
         "targets_outcome": "Dead Orchard Control/Bottom"
       },
       {
-        "counter": "Opponent walks hips toward your head to accelerate anaconda finishing angle",
+        "counter": "Keep the arms compact and avoid offering a straight arm while trying to force posture.",
         "effectiveness": "High",
-        "your_response": "Match their hip rotation by walking your hips in the same direction, or execute a forward roll in the direction of their rotation to invert and potentially recover guard",
+        "your_response": "Re-check the prerequisite before continuing. Release any wrist, neck or elbow loading before opening the high-leg enclosure.",
         "targets_outcome": "Anaconda Control/Bottom"
       },
       {
-        "counter": "Opponent releases dead orchard to take back control when you create hip angle",
+        "counter": "Maintain an early frame at the hip or thigh before the figure-four closes around the shoulders.",
         "effectiveness": "Medium",
-        "your_response": "As soon as you feel the grip release, immediately turn into the opponent rather than away to prevent hook insertion, working to recover guard before they establish back control",
+        "your_response": "Re-check the prerequisite before continuing. Lower the controlling leg through a comfortable hip angle rather than pulling the foot against the knee.",
         "targets_outcome": "Back Control/Bottom"
       },
       {
-        "counter": "Opponent switches from anaconda to darce grip when you extract the trapped arm",
+        "counter": "Work on opening the leg enclosure before withdrawing the shoulder and elbow together; stop if an arm is already loaded.",
         "effectiveness": "Medium",
-        "your_response": "Recognize the grip switch by the change in arm threading direction and immediately circle toward the newly threatened side while re-establishing neck frames",
+        "your_response": "Re-check the prerequisite before continuing. Bring the forearms and knees between the bodies as space becomes available.",
         "targets_outcome": "Dead Orchard Control/Bottom"
       },
       {
-        "counter": "Opponent flattens you completely to mat by driving weight forward and sprawling",
+        "counter": "Only raise posture after the shoulder line is free; a sudden pull can extend a captured elbow.",
         "effectiveness": "High",
-        "your_response": "Work to get at least one knee back under your hips before resuming escape sequence - use forearm frame to prevent total chest-to-mat contact and create minimum space for hip recovery",
+        "your_response": "Re-check the prerequisite before continuing. Keep the shoulders and hips oriented toward the opponent while re-establishing a comfortable facing guard.",
         "targets_outcome": "Dead Orchard Control/Bottom"
       }
     ],
     "common_errors": [
       {
-        "error": "Attempting explosive bridge or roll without first establishing frame at choking arm",
-        "consequence": "Opponent follows the movement and locks the anaconda finish, or transitions to back control with hooks during the scramble",
-        "correction": "Always establish forearm wedge at the elbow of the choking arm before initiating any escape movement - the frame is the foundation that makes all subsequent movements viable"
+        "error": "Skipping the checkpoint: recognize the actual control",
+        "consequence": "The intended control is not established before the next movement; the missing requirement is: The bottom player faces the opponent and keeps the hips close beneath the shoulders. The legs form a high figure-four around the shoulder line, with both opposing arms inside.",
+        "correction": "The bottom player faces the opponent and keeps the hips close beneath the shoulders. The legs form a high figure-four around the shoulder line, with both opposing arms inside."
       },
       {
-        "error": "Pulling trapped arm straight back against the grip direction",
-        "consequence": "Tightens the anaconda compression around the neck and accelerates choke completion while wasting significant energy",
-        "correction": "Extract the trapped arm in a circular motion toward your hip, using hip angle to create the space necessary for extraction rather than fighting the grip directly"
+        "error": "Skipping the checkpoint: remove submission pressure",
+        "consequence": "The intended control is not established before the next movement; the missing requirement is: Release any wrist, neck or elbow loading before opening the high-leg enclosure.",
+        "correction": "Release any wrist, neck or elbow loading before opening the high-leg enclosure."
       },
       {
-        "error": "Lifting chin or extending neck during escape attempt",
-        "consequence": "Exposes the neck to full blood choke mechanics and can result in immediate submission",
-        "correction": "Maintain strict chin-to-chest contact throughout the entire escape sequence - treat this as an absolute rule with no exceptions regardless of escape path chosen"
+        "error": "Skipping the checkpoint: open the high connection",
+        "consequence": "The intended control is not established before the next movement; the missing requirement is: Lower the controlling leg through a comfortable hip angle rather than pulling the foot against the knee.",
+        "correction": "Lower the controlling leg through a comfortable hip angle rather than pulling the foot against the knee."
       },
       {
-        "error": "Explosive breathing or holding breath under pressure",
-        "consequence": "Accelerates fatigue dramatically, reduces mental clarity, and shortens the time available for escape before exhaustion forces a tap",
-        "correction": "Focus on slow nasal breathing with controlled exhales during movements and inhales during pauses - accept partial airway restriction as manageable"
+        "error": "Skipping the checkpoint: restore inside frames",
+        "consequence": "The intended control is not established before the next movement; the missing requirement is: Bring the forearms and knees between the bodies as space becomes available.",
+        "correction": "Bring the forearms and knees between the bodies as space becomes available."
       },
       {
-        "error": "Attempting to stand up immediately without addressing the grip mechanics",
-        "consequence": "Opponent uses upward movement to elevate and lock the choke tighter, or easily transitions to standing guillotine or back control",
-        "correction": "Work through the progressive escape sequence: frame, hip escape, extract arm or recover guard, then consider standing only from a stabilized position"
-      },
-      {
-        "error": "Hip escaping toward the trapped arm side instead of away from it",
-        "consequence": "Moves the body in the direction that tightens the anaconda compression, worsening the choke and reducing available escape space",
-        "correction": "Always hip escape away from the trapped arm side - this changes the angle of compression and progressively loosens the grip mechanics"
-      },
-      {
-        "error": "Stopping escape attempts after initial movement fails and becoming static",
-        "consequence": "Allows opponent to re-settle weight and grip, eliminating whatever space was created and returning to original disadvantaged state",
-        "correction": "Treat each escape attempt as part of a continuous sequence - if one shrimp does not create enough space, immediately chain into the next without pausing"
+        "error": "Skipping the checkpoint: face the opponent",
+        "consequence": "The intended control is not established before the next movement; the missing requirement is: Keep the shoulders and hips oriented toward the opponent while re-establishing a comfortable facing guard.",
+        "correction": "Keep the shoulders and hips oriented toward the opponent while re-establishing a comfortable facing guard."
       }
     ],
     "training_progressions": [
       {
-        "phase": "Phase 1: Survival Fundamentals",
-        "focus": "Frame establishment and breathing under compression",
-        "description": "Partner establishes dead orchard control at 50% pressure. Practice establishing the elbow frame, tucking chin, and maintaining controlled breathing for 90-second rounds. No escape attempts - focus purely on defensive positioning and mental composure under pressure. Build comfort with restricted breathing and develop the automatic frame response."
+        "phase": "Phase 1",
+        "focus": "Identify the configuration",
+        "description": "Work cooperatively on recognize the actual control. The bottom player faces the opponent and keeps the hips close beneath the shoulders. The legs form a high figure-four around the shoulder line, with both opposing arms inside. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance."
       },
       {
-        "phase": "Phase 2: Hip Escape Mechanics",
-        "focus": "Angular hip escape from compressed position",
-        "description": "From established frame position, practice the hip escape sequence at 50% resistance. Partner maintains grip but does not actively counter. Focus on escape direction away from trapped arm, incremental shrimp movements, and maintaining frame throughout hip movement. Repeat 20 reps per side, building muscle memory for the correct escape angle."
+        "phase": "Phase 2",
+        "focus": "Rehearse the connection",
+        "description": "Work cooperatively on remove submission pressure. Release any wrist, neck or elbow loading before opening the high-leg enclosure. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance."
       },
       {
-        "phase": "Phase 3: Arm Extraction and Guard Recovery",
-        "focus": "Completing the escape to a defensive position",
-        "description": "Chain the full sequence: frame, hip escape, arm extraction or knee insertion, position recovery. Partner provides 60% resistance and light counters. Practice both completing to front headlock bottom and recovering half guard. Focus on smooth transitions between phases of the escape without losing frame integrity."
+        "phase": "Phase 3",
+        "focus": "Add an early response",
+        "description": "Work cooperatively on open the high connection. Lower the controlling leg through a comfortable hip angle rather than pulling the foot against the knee. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance."
       },
       {
-        "phase": "Phase 4: Counter Recognition and Adaptation",
-        "focus": "Responding to opponent's counter-attacks during escape",
-        "description": "Partner actively counters escape attempts by re-tightening grip, walking hips for finish, or switching to darce. Bottom player must recognize the counter and adapt escape path accordingly. Resistance at 70-80%. Develop the ability to read opponent's responses and chain between escape variants based on what the opponent gives."
-      },
-      {
-        "phase": "Phase 5: Live Positional Sparring",
-        "focus": "Full resistance escape attempts with timing development",
-        "description": "Full resistance positional sparring starting from dead orchard control bottom. Measure success rate across rounds and identify patterns. Work on timing escape attempts to opponent's weight shifts and grip adjustments. Target 30%+ escape rate against training partners of similar skill level before considering the technique functional."
+        "phase": "Phase 4",
+        "focus": "Link only verified checkpoints",
+        "description": "Work cooperatively on restore inside frames. Bring the forearms and knees between the bodies as space becomes available. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance."
       }
     ],
     "flashcards": [
       {
-        "question": "What is the first physical action you take when trapped in Dead Orchard Control?",
-        "answer": "Establish a forearm wedge with your free arm at the crook of the opponent's choking arm elbow joint. This frame prevents the grip from tightening further and creates a mechanical stop that provides the foundation for all subsequent escape movements. Do not attempt hip escapes, rolls, or arm extraction before this frame is secure. Simultaneously tuck your chin to your chest and turn your face toward the opponent's body to minimize choke effectiveness.",
-        "answer_line": "Forearm wedge at elbow crook",
+        "question": "Escape Dead Orchard Control (bottom): What are you releasing at the start?",
+        "answer": "The bottom performer holds Dead Orchard and is resetting the both-arm leg triangle.",
+        "answer_line": "A high leg triangle around both arms",
         "distractors": {
           "plausible": [
-            "Hip escape away immediately",
-            "Pull trapped arm free first"
+            "High triangle with one arm outside",
+            "Low ankles crossed around the waist"
           ],
           "trap": [
-            "Stand up and try to break free"
+            "Two high shins with no figure-four"
           ]
         }
       },
       {
-        "question": "Why must you hip escape away from the trapped arm side rather than toward it?",
-        "answer": "The anaconda grip creates circular compression that tightens when your body moves toward the trapped arm side. Hip escaping away changes the angle of compression, progressively reducing the choke's mechanical advantage. Moving toward the trapped arm feeds your neck deeper into the grip and accelerates the blood choke. The correct direction creates space where space is needed - between your neck and the choking arm - rather than compressing what is already compressed.",
-        "answer_line": "Escaping away opens the angle",
+        "question": "Escape Dead Orchard Control (bottom): What should end before opening the legs?",
+        "answer": "Remove wrist and elbow loading before opening the high enclosure and allowing the arms to move.",
+        "answer_line": "Wrist leverage on a captured elbow",
         "distractors": {
           "plausible": [
-            "Push straight out with arms",
-            "Stay still, wait for opening"
+            "Only the hand supporting the shin",
+            "Only the squeeze from the high legs"
           ],
           "trap": [
-            "Escape toward the trapped arm"
+            "Only head pull; keep wrist leverage"
           ]
         }
       },
       {
-        "question": "They add shoulder pressure and walk hips toward your head: what is this and your response?",
-        "answer": "This indicates the opponent is committing to the anaconda finishing rotation, which is the highest-threat scenario in dead orchard control. Respond by either matching their hip rotation to prevent them from achieving the finishing angle, or execute a forward roll in the direction of their rotation to use their momentum against them. The forward roll can invert the position and create guard recovery opportunity. Staying static during this rotation guarantees the submission finish.",
-        "answer_line": "Match rotation or roll with it",
+        "question": "Escape Dead Orchard Control (bottom): How should the high leg return lower?",
+        "answer": "Open the figure-four and lower the leg through the hip instead of wrenching the foot.",
+        "answer_line": "Hip-led lowering with knee support",
         "distractors": {
           "plausible": [
-            "Push opponent's hips away",
-            "Turtle up and wait it out"
+            "Pull foot while the knee stays fixed",
+            "Turn ankle with the thigh still"
           ],
           "trap": [
-            "Stay still and brace hard"
+            "Turn torso before opening the legs"
           ]
         }
       },
       {
-        "question": "When is the optimal moment to attempt the hip escape portion of this escape?",
-        "answer": "The optimal moment occurs when the opponent shifts their weight, adjusts their grip, or transitions between attacks. Feel for momentary pressure reductions on your trapped shoulder or slight elevation of their hips. Their movement creates windows where your hip escape faces reduced resistance. Making small defensive movements forces them to react, and their reaction creates the window. Never attempt the hip escape against settled, committed pressure with full weight engagement.",
-        "answer_line": "When they shift weight or grip",
+        "question": "Escape Dead Orchard Control (bottom): What replaces the high leg barrier as space opens?",
+        "answer": "Restore inside forearms and knees during the released guard-recovery phase.",
+        "answer_line": "Forearms and knees between bodies",
         "distractors": {
           "plausible": [
-            "As soon as choke tightens",
-            "After counting to five"
+            "Forearms in with both knees outside",
+            "Knees in with elbows reaching away"
           ],
           "trap": [
-            "Against full settled pressure"
+            "Chase wrists while knees drop wide"
           ]
         }
       },
       {
-        "question": "What decides between extracting the trapped arm and inserting a knee frame after making angle?",
-        "answer": "Grip depth determines the choice. If the trapped arm has some freedom at the elbow and can be retracted toward your hip with moderate effort, extract it since this breaks the dead orchard mechanics entirely. If the arm is deeply trapped and extraction would require fighting directly against the grip, insert a knee frame between your body and the opponent's chest instead. The knee frame prevents them from re-settling weight and creates a pathway to half guard recovery without needing to fight the grip directly.",
-        "answer_line": "Grip depth decides which option",
+        "question": "Escape Dead Orchard Control (bottom): Where should your shoulders and hips remain directed?",
+        "answer": "Keep facing the opponent while rebuilding guard; turning away is not the stated reset.",
+        "answer_line": "Shoulders and hips toward opponent",
         "distractors": {
           "plausible": [
-            "Always extract the arm first",
-            "Always insert knee frame"
+            "Shoulders away; hips face opponent",
+            "Hips face away; chest toward them"
           ],
           "trap": [
-            "Fight the grip head-on to pull free"
+            "Both away before the knee returns"
           ]
         }
       },
       {
-        "question": "How do you breathe when your airway is partly restricted in Dead Orchard Control?",
-        "answer": "Focus on slow, controlled nasal breathing rather than mouth breathing. Accept that full breaths are impossible and work with a consistent rhythm of shallow nasal breaths. Exhale during movements such as hip escapes and frame adjustments, and inhale during brief pauses. The body can function on restricted oxygen for longer than most practitioners realize if panic is avoided. Breath-holding or rapid gasping accelerates fatigue and reduces the time available for technical escape execution.",
-        "answer_line": "Slow rhythmic nasal breathing",
+        "question": "Escape Dead Orchard Control (bottom): What permits a new attack after the reset?",
+        "answer": "Re-establish usable inside knee space and comfortable posture before starting another attack.",
+        "answer_line": "Knee space with comfortable posture",
         "distractors": {
           "plausible": [
-            "Take one big breath then hold",
-            "Breathe only during pauses"
+            "Loose wrist grip with knees bypassed",
+            "Shoulder frame with both knees out"
           ],
           "trap": [
-            "Rapid gasping to get air fast"
+            "Feet raised with hips still awkward"
           ]
         }
       },
       {
-        "question": "Your hip escape makes angle but they follow and re-tighten: what do you do?",
-        "answer": "Maintain your elbow frame and pause the hip escape until the opponent's pressure settles, then resume with smaller incremental shrimp movements timed to their breathing cycles or micro-adjustments. Each small shrimp builds on the previous angle gain, and the opponent cannot perfectly re-settle every time. The escape is cumulative - multiple small gains eventually create sufficient angle for arm extraction or guard recovery. Abandoning the escape because one movement was countered is the most common strategic error.",
-        "answer_line": "Pause, then small shrimps again",
+        "question": "Escape Dead Orchard: which parts of the top opponent are inside your high triangle?",
+        "answer": "The bottom player owns the leg trap, and the top player's arms are the captured limbs.",
+        "answer_line": "Both upper arms and shoulders",
         "distractors": {
           "plausible": [
-            "Reset frame and start over",
-            "Push harder for one big escape"
+            "Only their near arm",
+            "Only their forearms"
           ],
           "trap": [
-            "Abandon the escape attempt"
+            "Their head alone"
           ]
         }
       },
       {
-        "question": "Why is standing straight up from Dead Orchard Control before escaping risky?",
-        "answer": "Standing drives your neck upward into the opponent's grip, which can accelerate the choke by giving them an angle to hang their weight on your neck. It also exposes you to standing guillotine if they switch grips, and gives them easy back control access if they release one side. The standing escape should only be attempted after the grip has been significantly compromised through frame work and hip escaping, or from a recovered front headlock position where the specific dead orchard mechanics have already been broken.",
-        "answer_line": "Standing feeds neck into grip",
+        "question": "Escape Dead Orchard Control (bottom): Which restraint must open for this reset?",
+        "answer": "This reset opens a high leg triangle; a front-headlock hand-grip escape addresses a different structure.",
+        "answer_line": "Legs around both arms and shoulders",
         "distractors": {
           "plausible": [
-            "Standing forces a fast release",
-            "Standing tires the opponent out"
+            "One high shin with both elbows free",
+            "Ankles crossed low at the waist"
           ],
           "trap": [
-            "Stand up early to break choke"
+            "One-arm triangle around the neck"
           ]
         }
       },
       {
-        "question": "What forearm placement and alignment make your frame at their choking elbow effective?",
-        "answer": "Place the blade of your forearm (the ulna bone) directly across the crook of the opponent's elbow, perpendicular to their choking arm. Your elbow should be tight against your own ribcage, and your wrist should contact their bicep on the far side. This alignment uses bone-on-bone structure rather than muscular force to block the grip from tightening. If you push outward with muscular effort, you fatigue rapidly and create space when your arms tire. The skeletal wedge can be maintained indefinitely with minimal energy expenditure because the structure does the work, not the muscles.",
-        "answer_line": "Ulna bone braced at elbow crook",
+        "question": "Escape Dead Orchard Control (bottom): With both hands trapped, how can your partner tap?",
+        "answer": "Both-arm capture can remove hand-tap access; agree on verbal and foot signals and release promptly.",
+        "answer_line": "A verbal stop or a foot tap",
         "distractors": {
           "plausible": [
-            "Push out hard with muscle",
-            "Wrist pressing on their throat"
+            "Withdraw trapped hand before signal",
+            "Wait for legs to open to hand-tap"
           ],
           "trap": [
-            "Push outward with arm strength"
+            "Use only a hand signal from the trap"
           ]
         }
       },
       {
-        "question": "Frame and hip escape stall but the choke is not finished: what chain of escapes do you run?",
-        "answer": "If the primary frame-and-shrimp sequence stalls, transition to the forward roll escape by matching the opponent's hip direction and rolling through to invert the position. If that path is blocked because the opponent has their hips low, switch to the arm extraction variant by pulling your trapped elbow in a circular arc toward your hip while maintaining whatever angle you created. If arm extraction fails, use the space from your existing angle to work a knee insertion between your bodies for knee shield recovery. The key is never remaining static in a stalled position - cycle through escape variants continuously, as each attempt forces the opponent to adjust and creates micro-openings for the next attempt in the chain.",
-        "answer_line": "Roll, then extract, then knee in",
+        "question": "Escape Dead Orchard Control (bottom): What keeps a crossface from filling the recovery space?",
+        "answer": "After full arm release, use a forearm barrier and a small hip escape to recover inside knee space.",
+        "answer_line": "An inside forearm on their shoulder",
         "distractors": {
           "plausible": [
-            "Repeat the same shrimp harder",
-            "Wait for opponent to tire first"
+            "Hand on wrist with elbow outside",
+            "Forearm outside the approaching arm"
           ],
           "trap": [
-            "Freeze and wait for an opening"
+            "Hands at hip without an upper frame"
           ]
         }
       }
     ],
-    "safety_considerations": "Dead Orchard Control involves blood choke mechanics that can cause unconsciousness in seconds when fully locked. During training, maintain clear tap signals with your free hand and tap early when the choke is fully secured rather than fighting through a locked submission. Training partners should release immediately upon any tap signal and monitor for signs of disorientation or loss of consciousness. Practice at controlled resistance levels and increase gradually. Never attempt to power through a fully locked dead orchard choke in training - the escape must be initiated before the choke reaches full compression to be viable.",
+    "safety_considerations": "Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.",
     "clips": [
       {
         "id": "At1_GDu4hSc",
@@ -464,181 +397,169 @@
   },
   "defender": {
     "name": "Escape Dead Orchard Control Defender",
-    "description": "Prevent the Dead Orchard Control escape as the top player in BJJ. Guide to maintaining grip integrity, countering hip escapes, and capitalizing on escape attempts with submissions or back takes.",
-    "overview": "As the practitioner maintaining Dead Orchard Control while the bottom player attempts to escape, your task is to preserve grip integrity, counter hip escape movements, and capitalize on escape attempt openings to either finish the submission or advance to a superior position. The defender role in this transition requires sensitivity to the bottom player's movements and the ability to distinguish between genuine escape attempts that need countering and small defensive adjustments that can be absorbed without response. Over-reacting to minor movements wastes energy and can create the very openings the bottom player needs, while under-reacting to committed escape attempts allows them to build momentum toward recovery. The key is maintaining steady pressure while having pre-planned responses to each escape pathway.",
+    "description": "Escape Dead Orchard Control (defender): Treat a high leg triangle containing both your arms as an arm-lock threat even when the neck is not being choked. Keep the arms compact and avoid offering a straight arm while trying to force posture.",
+    "overview": "The bottom player is already facing the opponent in Dead Orchard Control, with a high rubber-guard leg connection. The listed bottom seat is the holder of the real guard. Headlock arm extraction is not a direct defense against the both-arm leg triangle.\n\nTreat a high leg triangle containing both your arms as an arm-lock threat even when the neck is not being choked. Keep the arms compact and avoid offering a straight arm while trying to force posture. Maintain an early frame at the hip or thigh before the figure-four closes around the shoulders.\n\nWork on opening the leg enclosure before withdrawing the shoulder and elbow together; stop if an arm is already loaded. Only raise posture after the shoulder line is free; a sudden pull can extend a captured elbow. Use a verbal tap or foot tap if both hands are trapped, and do not rely on pain to judge remaining range.\n\nMove through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.",
     "key_principles": [
-      "Maintain constant shoulder pressure into the trapped shoulder to prevent frame establishment at the elbow",
-      "Follow hip escape movements with your own hip adjustments to preserve the compression angle",
-      "Distinguish between minor defensive adjustments and committed escape attempts to conserve energy",
-      "Keep the trapped arm pulled tight against the bottom player's neck by maintaining grip depth",
-      "Have pre-planned transitions ready for when the escape partially succeeds - back take, darce switch, or positional advancement",
-      "Use gradual pressure increases rather than explosive re-tightening that creates space during recovery"
+      "Recognize both-arm capture: Treat a high leg triangle containing both your arms as an arm-lock threat even when the neck is not being choked.",
+      "Protect the elbows: Keep the arms compact and avoid offering a straight arm while trying to force posture.",
+      "Prevent the leg closure: Maintain an early frame at the hip or thigh before the figure-four closes around the shoulders.",
+      "Clear a shoulder safely: Work on opening the leg enclosure before withdrawing the shoulder and elbow together; stop if an arm is already loaded.",
+      "Recover base in stages: Only raise posture after the shoulder line is free; a sudden pull can extend a captured elbow.",
+      "Tap with any free signal: Use a verbal tap or foot tap if both hands are trapped, and do not rely on pain to judge remaining range."
     ],
     "recognition_cues": [
-      "Bottom player's free hand moves to the elbow crook of your choking arm to establish an escape frame",
-      "Bottom player begins hip escape movement away from the trapped arm side, creating angular separation",
-      "Bottom player's breathing pattern changes from panicked to controlled, indicating a methodical escape attempt",
-      "Bottom player attempts to retract their trapped arm by pulling the elbow toward their hip",
-      "Bottom player drives knees under their hips to recover base for standing or shrimping"
+      "The bottom player is already facing the opponent in Dead Orchard Control, with a high rubber-guard leg connection.",
+      "Release any wrist, neck or elbow loading before opening the high-leg enclosure.",
+      "Bring the forearms and knees between the bodies as space becomes available."
     ],
     "defensive_options": [
       {
-        "action": "Increase shoulder pressure and re-tighten grip to collapse the frame before hip escape develops",
-        "when_to_use": "When you feel the bottom player establishing a frame at your elbow but before they initiate hip movement",
+        "action": "Treat a high leg triangle containing both your arms as an arm-lock threat even when the neck is not being choked.",
+        "when_to_use": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.",
         "targets_outcome": "Dead Orchard Control/Bottom",
-        "if_successful": "Frame is collapsed, bottom player returns to compressed state with reduced defensive resources",
-        "risk": "Over-committing forward can create space if bottom player times a forward roll"
+        "if_successful": "The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
+        "risk": "Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route."
       },
       {
-        "action": "Walk hips toward bottom player's head to accelerate anaconda finishing angle",
-        "when_to_use": "When bottom player's hip escape has stalled or when they are focused on arm extraction rather than angle defense",
+        "action": "Keep the arms compact and avoid offering a straight arm while trying to force posture.",
+        "when_to_use": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.",
         "targets_outcome": "Anaconda Control/Bottom",
-        "if_successful": "Anaconda choke tightens as the rotation creates full blood choke compression, transitioning to locked anaconda control",
-        "risk": "If bottom player matches your rotation or forward rolls, you may lose the grip entirely"
+        "if_successful": "The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
+        "risk": "Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route."
       },
       {
-        "action": "Release dead orchard grip to take back control when hip escape creates opening",
-        "when_to_use": "When the bottom player's hip escape has significantly compromised the choke angle and the submission is no longer viable",
+        "action": "Maintain an early frame at the hip or thigh before the figure-four closes around the shoulders.",
+        "when_to_use": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.",
         "targets_outcome": "Back Control/Bottom",
-        "if_successful": "Transition to back control with hooks, establishing an even more dominant position",
-        "risk": "Bottom player may turn into you during the grip release and recover guard"
+        "if_successful": "The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
+        "risk": "Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route."
       },
       {
-        "action": "Switch from anaconda to darce grip when trapped arm begins extracting",
-        "when_to_use": "When the bottom player successfully creates space for arm extraction, changing the arm threading to maintain a choke threat",
+        "action": "Work on opening the leg enclosure before withdrawing the shoulder and elbow together; stop if an arm is already loaded.",
+        "when_to_use": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.",
         "targets_outcome": "Dead Orchard Control/Bottom",
-        "if_successful": "New submission threat is established from the changed grip, resetting the defensive challenge for the bottom player",
-        "risk": "The grip transition creates a momentary gap where bottom player may complete their escape"
+        "if_successful": "The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
+        "risk": "Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route."
       }
     ],
     "favorable_outcomes": [
       {
         "outcome": "Dead Orchard Control/Bottom",
-        "how": "Maintain constant shoulder pressure, follow hip escape movements with your own adjustments, and re-tighten grip whenever the bottom player pauses between escape attempts"
+        "how": "Interrupt the next connection while preserving a safe base. Establish any new guard or pin separately rather than assuming this response guarantees it. Treat a high leg triangle containing both your arms as an arm-lock threat even when the neck is not being choked."
       },
       {
         "outcome": "Anaconda Control/Bottom",
-        "how": "When bottom player's escape stalls or they focus on arm extraction, walk hips toward their head to achieve the anaconda finishing angle and transition to locked anaconda control with full blood choke compression"
+        "how": "Interrupt the next connection while preserving a safe base. Establish any new guard or pin separately rather than assuming this response guarantees it. Keep the arms compact and avoid offering a straight arm while trying to force posture."
       },
       {
         "outcome": "Back Control/Bottom",
-        "how": "When hip escape compromises the choke angle beyond recovery, release the dead orchard grip and transition to back control by stepping over and inserting hooks before the bottom player can turn in"
+        "how": "Interrupt the next connection while preserving a safe base. Establish any new guard or pin separately rather than assuming this response guarantees it. Maintain an early frame at the hip or thigh before the figure-four closes around the shoulders."
       }
     ],
     "common_errors": [
       {
-        "error": "Squeezing harder with arms rather than adjusting body position when escape begins",
-        "consequence": "Arms fatigue rapidly, grip weakens progressively, and the bottom player's persistent technique eventually succeeds against a tired grip",
-        "correction": "Use body positioning and weight shifts to maintain choke angle rather than arm strength - walk hips, adjust shoulder pressure, and let gravity do the compression work"
+        "error": "Skipping the checkpoint: recognize both-arm capture",
+        "consequence": "The intended control is not established before the next movement; the missing requirement is: Treat a high leg triangle containing both your arms as an arm-lock threat even when the neck is not being choked.",
+        "correction": "Treat a high leg triangle containing both your arms as an arm-lock threat even when the neck is not being choked."
       },
       {
-        "error": "Allowing space to develop between chest and the bottom player's back during their hip escape",
-        "consequence": "Space enables the bottom player to recover base, insert knee frames, and eventually escape to guard",
-        "correction": "Follow every hip escape movement by walking your own hips to maintain chest-to-back connection and preserve the compression angle"
+        "error": "Skipping the checkpoint: protect the elbows",
+        "consequence": "The intended control is not established before the next movement; the missing requirement is: Keep the arms compact and avoid offering a straight arm while trying to force posture.",
+        "correction": "Keep the arms compact and avoid offering a straight arm while trying to force posture."
       },
       {
-        "error": "Failing to recognize when the choke is no longer viable and persisting rather than transitioning",
-        "consequence": "Energy wasted fighting for a submission that will not finish while the bottom player recovers incrementally",
-        "correction": "If the bottom player establishes strong frame and achieves significant hip angle, immediately transition to back take or positional advancement rather than fighting for the compromised choke"
-      },
-      {
-        "error": "Over-reacting to small defensive movements with large positional adjustments",
-        "consequence": "Creates the space and angle changes the bottom player needs to execute their escape",
-        "correction": "Absorb minor movements with subtle pressure adjustments and save large counters for committed escape attempts"
+        "error": "Skipping the checkpoint: prevent the leg closure",
+        "consequence": "The intended control is not established before the next movement; the missing requirement is: Maintain an early frame at the hip or thigh before the figure-four closes around the shoulders.",
+        "correction": "Maintain an early frame at the hip or thigh before the figure-four closes around the shoulders."
       }
     ],
     "flashcards": [
       {
-        "question": "What is the most reliable indicator that the bottom player is about to attempt a committed escape?",
-        "answer": "The most reliable indicator is when the bottom player's breathing shifts from panicked or labored to controlled and rhythmic. This signals they have composed themselves and are preparing to execute a technical escape sequence. Additionally, feeling their free hand establish a firm frame at your elbow crook rather than grabbing randomly indicates a structured escape attempt. Respond by pre-emptively increasing pressure and preparing your counter-transition options.",
-        "answer_line": "Breathing turns calm and steady",
+        "question": "Escape Dead Orchard Control (top): What threat persists even without neck pressure?",
+        "answer": "A comfortable neck does not make the captured elbows safe in Dead Orchard.",
+        "answer_line": "Short arm lock from both-arm capture",
         "distractors": {
           "plausible": [
-            "Bottom player stops moving",
-            "Bottom player grabs randomly"
+            "Only a neck attack with one arm out",
+            "Only wrist bending; elbow unloaded"
           ],
           "trap": [
-            "Ease pressure to let them settle"
+            "No arm lock until shoulders are free"
           ]
         }
       },
       {
-        "question": "They create hip angle despite your pressure: do you re-set the angle or transition, and why?",
-        "answer": "This depends on the degree of angle created and your remaining grip depth. If the angle is minor and your grip is still deep past their far shoulder, walk your hips to re-establish the compression angle while maintaining shoulder pressure. If the angle is significant and you feel the grip becoming shallow, immediately transition to back control or darce switch rather than fighting for a position that has been structurally compromised. The decision point is grip depth - once the grip becomes shallow, the choke percentage drops dramatically.",
-        "answer_line": "Grip depth decides re-set vs move",
+        "question": "Escape Dead Orchard Control (top): Which action offers the attacker an elbow lever?",
+        "answer": "Orchard's demonstration exploits a straightened arm; do not offer that lever while forcing posture.",
+        "answer_line": "Straight arm between the high legs",
         "distractors": {
           "plausible": [
-            "Always fight for original angle",
-            "Always transition immediately"
+            "Elbow bent and close to the torso",
+            "Wait for the shoulder trap to open"
           ],
           "trap": [
-            "Keep grip shallow, fight anyway"
+            "Move shoulder and elbow once free"
           ]
         }
       },
       {
-        "question": "How do you prevent the bottom player from establishing a defensive frame at your choking arm elbow?",
-        "answer": "Drive your shoulder aggressively into the bottom player's trapped shoulder, pinning it and their head to the mat. This creates so much pressure at the contact point that their free hand must focus on survival rather than reaching for your elbow. Additionally, keep your choking arm elbow tight against your own body rather than flared, reducing the available space for them to wedge their forearm. If you feel them attempting to frame, immediately increase the shoulder drive to collapse the attempt before it stabilizes.",
-        "answer_line": "Drive shoulder into their shoulder",
+        "question": "Escape Dead Orchard Control (top): What is an early hip frame meant to interrupt?",
+        "answer": "Before the high figure-four closes, a hip or thigh frame can preserve space against the shoulder-level climb. It is not a late escape guarantee after both arms are trapped.",
+        "answer_line": "High legs closing over the shoulders",
         "distractors": {
           "plausible": [
-            "Flare choking arm elbow out",
-            "Grab their free wrist tightly"
+            "Elbow extending after leg closure",
+            "Wrist grip added to fixed shoulders"
           ],
           "trap": [
-            "Ease shoulder pressure to relax"
+            "Head rising after both arms are free"
           ]
         }
       },
       {
-        "question": "How do you adjust your hips when they shrimp away from the trapped arm?",
-        "answer": "Walk your hips in the same direction as their hip escape to maintain the compression angle between your chest and their back. Use small stepping adjustments rather than large jumps that create momentary space. Your chest must stay connected to their upper back throughout the adjustment. If they shrimp away from the trapped arm side, step your far hip toward their head while keeping your near hip heavy on their body. This preserves the circular compression angle that makes the choke effective and prevents the angular separation they need to reduce choke pressure.",
-        "answer_line": "Walk hips to match their escape",
+        "question": "Escape Dead Orchard Control (top): What lets the shoulder and elbow withdraw together?",
+        "answer": "Use actual shoulder clearance through the opened legs, stopping if the arm is already loaded.",
+        "answer_line": "Legs open around that shoulder",
         "distractors": {
           "plausible": [
-            "Jump to a new angle quickly",
-            "Push down harder, stay still"
+            "Wrist pulled with shoulder fixed",
+            "Chin lifted above their shin"
           ],
           "trap": [
-            "Let them create space, then chase"
+            "One foot down; other pins the arm"
           ]
         }
       },
       {
-        "question": "Your Dead Orchard grip is fatiguing while they keep escaping: what is the right decision?",
-        "answer": "Transition to positional advancement rather than continuing to fight with a weakening grip. A fatigued grip becomes progressively easier for the bottom player to escape, and the energy differential widens with each passing second. Your best options are releasing the dead orchard to take back control by stepping over and inserting hooks, or transitioning to a darce grip which uses different muscle groups. If neither is available, flatten the bottom player and advance to side control or north-south while you still have enough grip strength to control the transition. Fighting to maintain a compromised grip is the worst option because it burns your remaining energy while the bottom player's escape probability increases with each rep.",
-        "answer_line": "Advance position, don't fight grip",
+        "question": "Escape Dead Orchard Control (top): What is the checkpoint before lifting your chest?",
+        "answer": "Recover upright posture after the shoulder line clears, not by dragging the trapped elbows upward.",
+        "answer_line": "Shoulders clear the high triangle",
         "distractors": {
           "plausible": [
-            "Switch to darce grip only",
-            "Squeeze harder to finish fast"
+            "One fingertip outside the legs",
+            "Only their wrist grip releases"
           ],
           "trap": [
-            "Keep fighting to hold the grip"
+            "Feet step back with arms still fixed"
           ]
         }
       }
     ],
     "training_progressions": [
       {
-        "phase": "Phase 1: Pressure Maintenance",
-        "focus": "Sustaining control against passive escape attempts",
-        "description": "Establish dead orchard control while partner makes small escape movements at 30% effort. Focus on maintaining grip depth and shoulder pressure without excessive energy expenditure. Build sensitivity to small positional changes and learn to make micro-adjustments that preserve control."
+        "phase": "Phase 1",
+        "focus": "Identify the configuration",
+        "description": "Work cooperatively on recognize both-arm capture. Treat a high leg triangle containing both your arms as an arm-lock threat even when the neck is not being choked. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance."
       },
       {
-        "phase": "Phase 2: Counter-Response Development",
-        "focus": "Recognizing and countering specific escape patterns",
-        "description": "Partner executes specific escape variations at 50% intensity while you practice the appropriate counter for each. Develop automatic counter-responses that match each escape pattern including hip escape, forward roll, and arm extraction attempts."
+        "phase": "Phase 2",
+        "focus": "Rehearse the connection",
+        "description": "Work cooperatively on protect the elbows. Keep the arms compact and avoid offering a straight arm while trying to force posture. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance."
       },
       {
-        "phase": "Phase 3: Transition Integration",
-        "focus": "Flowing between control maintenance and positional advancement",
-        "description": "Partner provides 70% resistance with genuine escape attempts. Practice recognizing when to maintain dead orchard versus transition to back control, darce switch, or anaconda finish based on what the escape attempt gives you. Develop the decision-making framework for choosing between control and advancement."
-      },
-      {
-        "phase": "Phase 4: Live Positional Sparring",
-        "focus": "Full resistance control and submission against committed escapes",
-        "description": "Full resistance positional rounds starting in dead orchard control. Top player scores for maintaining position, finishing submissions, or advancing to back control. Track retention rates and submission finish percentages to measure control effectiveness against trained escape attempts."
+        "phase": "Phase 3",
+        "focus": "Add an early response",
+        "description": "Work cooperatively on prevent the leg closure. Maintain an early frame at the hip or thigh before the figure-four closes around the shoulders. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance."
       }
     ],
     "clips": [

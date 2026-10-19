@@ -4,7 +4,7 @@
 
 ---
 title: "Stack Pass from Carni | BJJ Technique | BJJ Graph"
-description: "Master the Stack Pass from Carni in BJJ. Aggressive pressure escape that converts Carni leg entanglement defense directly into dominant side control position."
+description: "Passing after Carni requires shoulder release before clearing the guard. Keep a safe base and avoid forcing either the captured arm or the partner into a neck stack."
 ---
 
 
@@ -16,7 +16,7 @@ description: "Master the Stack Pass from Carni in BJJ. Aggressive pressure escap
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Stack Pass from Carni",
-  "description": "Master the Stack Pass from Carni in BJJ. Aggressive pressure escape that converts Carni leg entanglement defense directly into dominant side control position.",
+  "description": "Passing after Carni requires shoulder release before clearing the guard. Keep a safe base and avoid forcing either the captured arm or the partner into a neck stack.",
   "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
 }
 </script>
@@ -87,7 +87,7 @@ description: "Master the Stack Pass from Carni in BJJ. Aggressive pressure escap
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Stack Pass from Carni",
-  "description": "The Stack Pass from Carni is an aggressive top-side counter-escape that drives heavy forward stacking pressure into the bottom player's leg entanglement to collapse it and pass directly to side control.",
+  "description": "Passing after Carni requires releasing the shoulder-lock connection before clearing the guard and establishing a top pin.",
   "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
 }
 </script>
@@ -105,13 +105,15 @@ description: "Master the Stack Pass from Carni in BJJ. Aggressive pressure escap
 
 <section id="overview" class="content-section">
 
-**The Stack Pass from Carni is an aggressive top-side counter-escape that drives heavy forward stacking pressure into the bottom player's leg entanglement to collapse it and pass directly to side control.**
+**Passing after Carni requires releasing the shoulder-lock connection before clearing the guard and establishing a top pin.**
 
-Practitioners caught in Carni typically reach for conservative escapes — posture recovery back to closed guard or a technical stand-up to disengage — yet the stack pass inverts that defensive instinct by weaponizing forward pressure against the entanglement itself. Unlike the more conservative posture recovery that resets to closed guard, the stack pass commits fully to driving through the bottom player's guard structure with the explicit goal of passing directly to side control. This technique exploits a fundamental vulnerability in the Carni position: the bottom player's legs generate control through angular leverage, and heavy forward stacking pressure eliminates the space and angles required for that leverage to function.
+The top player faces a bottom guard player using Carni; the head, shoulder or arm may still be enclosed. Do not drive into a loaded shoulder lock or stack the partner's neck. The instructional priority is arm and head-side-leg clearance, not a leg-lock escape.
 
-The strategic calculus of choosing the stack pass over simpler Carni escapes involves a risk-reward tradeoff. The reward is significant: converting a dangerous defensive position directly into one of the most dominant top positions in grappling. The risk is equally significant: committing to forward pressure while your leg remains partially entangled creates a window where the bottom player can thread deeper for saddle entry if they recognize the pass attempt early. The stack pass is therefore most effective as a surprise technique, deployed when the bottom player expects a standard leg extraction or rolling escape rather than aggressive forward engagement.
+A leg clearing the head with an overhook is an upper-body trap, even if a butterfly hook remains below. Avoid reaching away while the opponent sets the triceps control. Keep a balanced base and early inside frames; tap instead of moving against a completed choke or joint lock.
 
-Execution depends on three mechanical pillars: first, protecting the heel throughout the forward drive to prevent submission during the pass; second, generating sufficient chest-to-hip pressure to collapse the bottom player's leg configuration and neutralize their entanglement structure; and third, walking around to the passing side with controlled lateral movement while maintaining constant stacking weight. The technique requires upper body strength, forward driving mechanics, and the tactical awareness to recognize when the bottom player's grip and hook positions create an exploitable window for the aggressive pass attempt.
+Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
+
+Instructional sources: [Richie Martinez — Carni shoulder lock from Z guard](https://www.youtube.com/watch?v=iClQ2Np-n30).
 
 **From Position**: [[Positions/Rubber Guard/Carni]] (Top)
 **Success Rate**: 45%
@@ -175,8 +177,8 @@ Execution depends on three mechanical pillars: first, protecting the heel throug
 | &nbsp; | Attacker | Defender |
 |--------|----------|----------|
 | **Focus** | Execute technique | Prevent or counter |
-| **Key Principles** | Protect the heel throughout the entire forward drive by main... | Recognize stacking pressure early through chest contact and ... |
-| **Options** | 7 execution steps | 4 defensive options |
+| **Key Principles** | Recognize the upper-body trap: A leg clearing the head with ... | Set the upper-body angle: Use the guard and shoulder connect... |
+| **Options** | 6 execution steps | 4 defensive options |
 
 </section>
 
@@ -189,51 +191,49 @@ Execution depends on three mechanical pillars: first, protecting the heel throug
 ### Key Principles
 
 
-- Protect the heel throughout the entire forward drive by maintaining ankle flexion and toes pointed away from the bottom player
+- Recognize the upper-body trap: A leg clearing the head with an overhook is an upper-body trap, even if a butterfly hook remains below.
 
-- Generate stacking pressure from hip extension and chest weight rather than arm pushing to maintain structural integrity
+- Protect the captured limb: Avoid reaching away while the opponent sets the triceps control.
 
-- Commit fully to the forward drive once initiated because hesitation creates the angular changes your opponent needs for saddle entry
+- Work before pressure engages: Keep a balanced base and early inside frames; tap instead of moving against a completed choke or joint lock.
 
-- Walk around laterally to the passing side while maintaining constant chest pressure to prevent any space recovery
+- Open the high enclosure: Create slack at the hip and thigh while keeping the head and captured arm aligned.
 
-- Strip the bottom player's heel grip during peak compression when their grip mechanics are weakest
+- Recover the elbow and posture: Withdraw the shoulder and elbow only after the high leg connection has opened.
 
-- Consolidate side control immediately upon clearing the legs to prevent any re-entanglement attempts
+- Confirm the next position: Establish side control only after shoulder release and a complete guard pass only when the upper-body enclosure and relevant leg hooks have cleared.
 
 
 ### Execution Steps
 
 
-- **Protect heel and establish base**: Before any forward movement, confirm your trapped leg's ankle is flexed with toes pointed away from ...
+- **Recognize the upper-body trap**: A leg clearing the head with an overhook is an upper-body trap, even if a butterfly hook remains bel...
 
-- **Secure upper body control**: Establish underhooks on the bottom player's thighs or drive your shoulder into their hip crease to c...
+- **Protect the captured limb**: Avoid reaching away while the opponent sets the triceps control....
 
-- **Initiate forward stacking pressure**: Drive your hips forward through hip extension while walking your posted foot toward the bottom playe...
+- **Work before pressure engages**: Keep a balanced base and early inside frames; tap instead of moving against a completed choke or joi...
 
-- **Strip heel and ankle grips**: As the stacking pressure compresses the bottom player and weakens their grip mechanics, systematical...
+- **Open the high enclosure**: Create slack at the hip and thigh while keeping the head and captured arm aligned....
 
-- **Walk around to passing side**: With the entanglement structure collapsing under your weight, begin stepping laterally around the bo...
+- **Recover the elbow and posture**: Withdraw the shoulder and elbow only after the high leg connection has opened....
 
-- **Clear the trapped leg**: Extract your formerly trapped leg from the broken entanglement using controlled pumping motions. Pul...
-
-- **Consolidate side control**: Immediately establish crossface with your forearm driving across the bottom player's jaw, drop your ...
+- **Confirm the next position**: Establish side control only after shoulder release and a complete guard pass only when the upper-bod...
 
 
 ### Common Mistakes
 
 
-- **Driving forward without first confirming heel protection and ankle position**
-  - Consequence: Forward momentum extends the trapped leg and creates a perfect finishing angle for the heel hook, risking catastrophic knee injury during the pass attempt
-  - Correction: Always verify ankle is flexed with toes pointed away from attacker and heel grip is at least partially broken before committing to any forward stacking pressure
+- **Skipping the checkpoint: recognize the upper-body trap**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: A leg clearing the head with an overhook is an upper-body trap, even if a butterfly hook remains below.
+  - Correction: A leg clearing the head with an overhook is an upper-body trap, even if a butterfly hook remains below.
 
-- **Using arm pushing instead of hip extension to generate forward pressure**
-  - Consequence: Arms extend into vulnerable positions where they can be trapped, and the pressure generated is easily redirected by the bottom player's leg hooks
-  - Correction: Drive forward from the hips with chest leading, keeping arms tucked for underhooks or frames rather than extended pushing
+- **Skipping the checkpoint: protect the captured limb**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Avoid reaching away while the opponent sets the triceps control.
+  - Correction: Avoid reaching away while the opponent sets the triceps control.
 
-- **Stacking straight over center instead of angling toward the passing side**
-  - Consequence: Center-line stacking makes the walk-around longer and gives the bottom player more time to adjust angle or thread saddle hooks
-  - Correction: Begin angling toward the passing side early in the stacking sequence to shorten the distance needed for the walk-around and reduce exposure to saddle entries
+- **Skipping the checkpoint: work before pressure engages**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Keep a balanced base and early inside frames; tap instead of moving against a completed choke or joint lock.
+  - Correction: Keep a balanced base and early inside frames; tap instead of moving against a completed choke or joint lock.
 
 
 </section>
@@ -247,41 +247,37 @@ Execution depends on three mechanical pillars: first, protecting the heel throug
 ### Key Principles
 
 
-- Recognize stacking pressure early through chest contact and hip weight changes before momentum builds
+- Set the upper-body angle: Use the guard and shoulder connection to bring the opponent close before moving the high leg.
 
-- Maintain active heel and ankle grip throughout the opponent's pass attempt to preserve immediate submission threat
+- Frame before clearing: Manage the shoulder and neck line with a forearm frame as the leg clears the head.
 
-- Use opponent's forward momentum to create saddle entry angles rather than fighting the pressure head-on
+- Anchor through the hips: Turn partly belly down with the knee close and foot supported rather than wrenching the leg across the head.
 
-- Keep inside leg hook actively threatening to prevent clean forward drive from developing
+- Hold the triceps: Keep the captured arm connected so the opponent cannot freely roll or withdraw the shoulder.
 
-- Invert or angle off-center when stacking pressure becomes direct to avoid being compressed through center line
+- Control before finishing: Hold the wrist and elbow at a comfortable angle; a small change can load the shoulder rapidly.
 
-- Default to closing guard as minimum acceptable outcome if entanglement cannot be maintained
+- Let the lock go: Release the wrist and leg clamp immediately on a tap or when the partner needs to roll safely.
 
 
 ### Recognition Cues
 
 
-- Opponent's shoulder drives forward into your hips rather than sitting back or attempting leg extraction
+- The top player faces a bottom guard player using Carni; the head, shoulder or arm may still be enclosed.
 
-- Opponent's free foot posts wider and steps toward your head indicating setup for forward walking pressure
+- Avoid reaching away while the opponent sets the triceps control.
 
-- Opponent begins actively stripping your heel grip with increased urgency while driving chest weight forward
-
-- Opponent establishes underhooks on your thighs or shoulder pressure into your hip crease
-
-- Forward weight shift as opponent transitions from defensive posture to aggressive forward engagement
+- Create slack at the hip and thigh while keeping the head and captured arm aligned.
 
 
 ### Defensive Options
 
 
-- **Thread inside leg deeper for saddle entry as opponent drives forward and opens space between knees** - When: When opponent commits to forward stacking pressure and their forward momentum creates space for your inside hook to thread deeper past their hip line
+- **Use the guard and shoulder connection to bring the opponent close before moving the high leg.** - When: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
 
-- **Invert under stacking pressure and re-establish Carni from opposite angle** - When: When stacking pressure is moderate and sufficient space exists to rotate underneath before full compression builds
+- **Manage the shoulder and neck line with a forearm frame as the leg clears the head.** - When: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
 
-- **Tighten heel grip and apply immediate finishing pressure to force opponent to abandon the stack** - When: When your heel grip is deep and secure at the moment the opponent initiates forward pressure, before the stacking angle changes your finishing mechanics
+- **Turn partly belly down with the knee close and foot supported rather than wrenching the leg across the head.** - When: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
 
 
 </section>
@@ -292,13 +288,10 @@ Execution depends on three mechanical pillars: first, protecting the heel throug
 ## Variations
 
 
-**Double Underhook Stack Pass**: Secure double underhooks on the bottom player's thighs before driving forward, creating a locked body connection that prevents the bottom player from adjusting angles or inverting during the stacking sequence. The underhooks also provide handles for lifting and repositioning the bottom player's hips during the walk-around phase. (When to use: When both arms are free and the bottom player's grip on your heel is not yet fully established, allowing you to invest time in securing underhooks before the entanglement tightens)
+**Cooperative checkpoint drill**: A leg clearing the head with an overhook is an upper-body trap, even if a butterfly hook remains below. Avoid reaching away while the opponent sets the triceps control. (When to use: Learning the control without submission pressure)
 
 
-**Crossface Stack Pass**: Lead with a strong crossface across the bottom player's jaw before initiating forward pressure, using head control to prevent the inversion that commonly counters standard stacking. The crossface creates a wedge between the bottom player's upper body and their legs, disrupting the body connection they need to maintain the entanglement. (When to use: When the bottom player has a pattern of inverting under stacking pressure and you need head control to shut down their rotation before committing to the pass)
-
-
-**Angle Stack to Knee Slide**: Rather than stacking straight over center, drive at a 45-degree angle toward the passing side while sliding the knee across the bottom player's thigh. This hybrid combines stacking pressure with knee slide passing mechanics, making it harder for the bottom player to predict the passing angle and defend both the stack and the slide simultaneously. (When to use: When direct center-line stacking is being effectively defended by the bottom player's hip angle adjustments or when you want to reduce the risk of saddle entry by passing at an angle)
+**Response and reset drill**: Use the guard and shoulder connection to bring the opponent close before moving the high leg. Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route. (When to use: Adding one early response after both partners recognize the configuration)
 
 
 
@@ -310,7 +303,7 @@ Execution depends on three mechanical pillars: first, protecting the heel throug
 
 ## Position Integration
 
-The Stack Pass from Carni occupies a unique position in the BJJ positional hierarchy as one of the few techniques that converts a dangerous defensive leg entanglement directly into a dominant top control position. It bridges the gap between the leg lock defense system and the traditional guard passing hierarchy, providing an aggressive alternative to conservative escapes like posture recovery or technical stand-ups. Within the Carni defense decision tree, the stack pass sits at the high-risk, high-reward end of the spectrum. Practitioners who develop this technique add a powerful counter-weapon to their defensive arsenal that punishes bottom players who rely too heavily on Carni without maintaining tight finishing grips. The technique also connects to the broader stacking and pressure passing methodology, making it a natural choice for top players whose game already incorporates heavy pressure passing from other guard positions.
+The top player faces a bottom guard player using Carni; the head, shoulder or arm may still be enclosed. Do not drive into a loaded shoulder lock or stack the partner's neck. The instructional priority is arm and head-side-leg clearance, not a leg-lock escape. A destination is established by its actual body configuration, not by completing an isolated grip or by the name of the route.
 
 </section>
 
@@ -320,23 +313,13 @@ The Stack Pass from Carni occupies a unique position in the BJJ positional hiera
 ## Related Techniques
 
 
-- [[Positions/Rubber Guard/Carni]] - Starting position - the leg entanglement from which stack pass is initiated
+- [[Positions/Rubber Guard]] - Related configuration; establish its own prerequisites: compare the configuration and required controls for Rubber Guard.
 
-- [[Positions/Side Control]] - Primary target position achieved when the stack pass succeeds completely
+- [[Positions/Rubber Guard/Chill Dog]] - Related configuration; establish its own prerequisites: compare the configuration and required controls for Chill Dog.
 
-- [[Positions/Half Guard]] - Partial success outcome when stacking collapses the entanglement but legs are not fully cleared
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Related configuration; establish its own prerequisites: compare the configuration and required controls for Knee Shield Half Guard.
 
-- [[Positions/Ashi Garami/Saddle]] - Counter risk - position bottom player may advance to during the forward pressure
-
-- [[Transitions/Posture Recovery from Carni]] - Alternative technique - less aggressive escape using similar forward pressure mechanics
-
-- [[Positions/Combat Base]] - Alternative escape destination from Carni with different risk profile
-
-- [[Positions/Ashi Garami]] - Parent entanglement family from which Carni derives its control structure
-
-- [[Positions/Ashi Garami/Honey Hole]] - Related leg entanglement - similar stacking escape principles apply from top
-
-- [[Positions/Knee on Belly]] - Follow-up position accessible after completing the stack pass to side control
+- [[Positions/Omoplata Control]] - Related configuration; establish its own prerequisites: compare the configuration and required controls for Omoplata Control.
 
 
 </section>
