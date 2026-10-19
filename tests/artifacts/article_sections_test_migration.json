@@ -309,23 +309,33 @@
     },
     {
       "file": "e2e/journeys/camera-continuity.spec.ts",
-      "test": "471 an escape picked just inside the catch's window keeps the catch framing through its whole travel (1440, 390; added)",
+      "test": "480 an escape picked just inside the catch's window keeps the catch framing through its whole travel (1440, 390; added)",
       "change": "D-332 D2-B1, REAL BREAK since 8a64e8ac7: the calm catch's window was read every frame, so an escape picked inside it lost the catch framing when its travel outlived the window (4x CPU: 3 of 6 red at both widths; review-claude's forced expiry: red at both widths). The app now latches the verdict at the pick (_execution.calmHeld). This journey picks 0.4s before the window closes, asserts the travel outlives it, and holds vw within 3% to the landing; mutant calm-catch-latch-lost (per-frame re-read) is killed at that claim, and the forced-expiry arm is green after the fix."
     },
     {
       "file": "e2e/journeys/camera-continuity.spec.ts",
       "test": "391 an escape: the catch keeps its own framing (1440, 390)",
-      "change": "D-332: the end-of-sequence claims are read at least 2.5s after the LANDING instead of 5s after the pick. Under 4x CPU the escape's travel took 4.7s of game time (3.3s normally), so the fixed window ended 0.3s after the landing, mid-flight. Every claim and bound is unchanged; the extra frames are also checked by expectContinuous."
+      "change": "D-332: the end-of-sequence claims are read at least 2.5s after the LANDING instead of 5s after the pick. Under 4x CPU the escape's travel took 4.7s of game time (3.3s normally), so the fixed window ended 0.3s after the landing, mid-flight. Every claim and bound is unchanged; the extra frames are also checked by expectContinuous. D-333 D3-N1: the end frame must also be at rest (why.fl null) as a premise, so a longer landing flight fails as a premise, not as a framing failure."
     },
     {
       "file": "e2e/gen/spa-nav-single-instance-law.spec.ts",
       "test": "88 spa nav single-instance law (life 2 beats)",
-      "change": "D-332 D2-S2, SPEC STRICTER THAN ITS CLAIM, PRE-EXISTING on dev: CI 105c5f110 recorded two land_q_skipped {reason: decks_in_flight} before mc_shown. Holding life 2's deck manifest 2s reproduces exactly that diff on this PR's site and on the D-324 dev capture (2 of 2 each); 0 reds in the 10 earlier gen runs. Those beats are life 2's own dormant-arrival beats (the ledger invariant), so they are admitted only with that reason and only when the question then backfills; every other beat stays exact. Controls under the hold: an injected prior-life beat fails 'no prior-life beats', a deck_proven skip fails 'manifest wait only'. Follow-up named for the app: one landing records the immediate skip once per render while the manifest is in flight, then shows the question."
+      "change": "D-332 D2-S2, SPEC STRICTER THAN ITS CLAIM, PRE-EXISTING on dev: CI 105c5f110 recorded two land_q_skipped {reason: decks_in_flight} before mc_shown. Holding life 2's deck manifest 2s reproduces exactly that diff on this PR's site and on the D-324 dev capture (2 of 2 each); 0 reds in the 10 earlier gen runs. Those beats are life 2's own dormant-arrival beats (the ledger invariant), so they are admitted only with that reason and only when the question then backfills; every other beat stays exact. Controls under the hold: an injected prior-life beat fails 'no prior-life beats', a deck_proven skip fails 'manifest wait only'. D-333 D3-S1: each admitted skip must be the shown question's own deck (land_q_shown's deckKey) and sit between beacon_moved and mc_shown; two more controls under the hold, a decks_in_flight skip on another deck and one after land_q_unseen, each fail at their own message. Follow-up named for the app, with its sibling gen-w3-15 onboard-fresh-boot-spa-nav-single-instance (the same five exact beats after the same soft nav, task #66): one landing records the immediate skip once per render while the manifest is in flight, then shows the question."
     },
     {
       "file": "e2e/journeys/roll-execution.spec.ts",
       "test": "218 at 390px, reduced motion, scrolled to the top (CI-only 4px then 7px)",
-      "change": "D-332 item 3: each window alive between pointerdown and the stand-in was forced to end inside the handoff (x2): holdCamera lease, calm catch, reader press, a late layout pass, win-chance resolution, deck/film backfill, a reward notice yielding at the pick, tray glide; and a taller sibling, growth above the hand, and the scroll slack (12,689px, so no clamp). All 0-2px. Only an induced smooth reader scroll moved the card (5-6px), and the app issues none under reduced motion (reading.css). Nothing reproduces, so the diagnostics stay; the handoff record now also carries the reward notice's presence."
+      "change": "D-332 item 3, worded to where the arms acted (D-333 D3-N2): in all 26 records the stand-in mounted 3-9ms after pointerdown at the card's own y and scrollTop, so each forced end fell between the stand-in's mount and the measurement: the holdCamera lease, calm catch, reader press, a late layout pass, win-chance resolution, deck/film backfill, a reward notice yielding at the pick, tray glide, and growth above the hand; the scroll slack was 12,689px, so no clamp. The taller-sibling arm acted before the pointerdown, so it does not test the handoff. All 0-2px. Only an induced smooth reader scroll moved the stand-in (5-6px, riding the scroller), and the app issues none under reduced motion (reading.css). Nothing reproduces the pre-mount half, so the diagnostics stay; the handoff record now also carries the reward notice's presence."
+    },
+    {
+      "file": "e2e/journeys/coldstart-funnel.spec.ts",
+      "test": "105 cold start: the funnel spine (the first landing's dump)",
+      "change": "D-333 D3-B1, STALE SPEC (D-318, af3aac311): a new landing card mounts with data-reader-pending (visibility:hidden) until the deferred reader publishes it, so the opacity-only wait could pass on a hidden card that the dump's vis() then rejects (CI 19e1cfb23; locally 4 of 6 plain, 6 of 6 at 4x CPU; the dev capture's app is never pending). The wait now polls the dump itself and asserts the claim on the dump that answered, within the same 10s. Green 6 of 6 plain and at 4x CPU on both arms, and under a 2.5s reader.js hold; control landing-never-published (the reader never publishes) fails at 'the landing card greets a first-ever visitor'."
+    },
+    {
+      "file": "e2e/journeys/coldstart-backfill.spec.ts",
+      "test": "101, 196, 271 (the backfilled and first-landing cards)",
+      "change": "D-333 audit of the D3-B1 class (grep -rl: 34 journeys read [data-landcard], 5 of them with opacity: seat-star, coldstart-funnel, pane-layout, coldstart-backfill, pane-chrome). Under a 2.5s reader.js hold only coldstart-backfill went red: two by-mouse clicks landed on the canvas under a hidden card, and the sheet read after a fixed 450ms found a hidden card. It now waits for the card a visitor can see, with its finite entry animation done (cardSettled), before each click and that read: 14 of 14 committed and 14 of 14 under the hold. seat-star, pane-layout and pane-chrome stay green under the hold (pane-layout already requires visibility; pane-chrome reads _suppressLand's inline opacity, which the gate never writes)."
     }
   ]
 }

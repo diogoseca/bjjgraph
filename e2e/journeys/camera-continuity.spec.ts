@@ -431,6 +431,9 @@ for (const viewport of VIEWPORTS) {
       const flew = S.slice(landAt, landAt + 30).some((x) => x.why?.fl);
       expect(flew, `the landing hands the camera to the roll ${JSON.stringify(S.slice(landAt, landAt + 3))}`).toBe(true);
       const end = S[S.length - 1];
+      // D-333 D3-N1: the landing's flight has no fixed length, so a longer one fails here as a premise,
+      // not as a framing failure.
+      expect(end.why?.fl ?? null, `premise: the end is read after the landing's flight ${JSON.stringify(end)}`).toBeNull();
       const R = visibleRect(end);
       expect(end.fy!, `the landed node ends in the visible rect ${JSON.stringify(end)}`).toBeGreaterThan(R.top);
       expect(end.lo!, `...clear of the rows ${JSON.stringify(end)}`).toBeLessThan(end.rows != null ? end.rows - 2 : end.H);
