@@ -71,9 +71,10 @@ import { journey } from "../dsl";
  */
 
 // D-331 N4 (review-claude, PLAUSIBLE): D-329's fallback marks only the article column below the node
-// band occupied, while a landing's hand row spans the full width. Probed where the band cannot hold the
-// pair box (1440x480, a 64px band): the free-space search still found a slot (_execFrame.noFit 0) and
-// the exchange stayed clear of the landing rows on every frame. Not reproduced; 1366x460 could not run
+// band occupied, while a landing's hand row spans the full width. Probed at 1440x480 (a 64px band):
+// some search found a slot (_execFrame.noFit 0) and the exchange stayed clear of the landing rows on
+// every frame. The probe did not count whether the band search failed first, so it does not show that
+// the column-only fallback ran (D-332 D2-N1). Not reproduced; 1366x460 could not run
 // because this file's motion bounds are keyed to 1440 and 390. Receipt: claude-verify/n4.log.
 // ── THE BOUNDS ── stated per frame at 60 fps (the pump's step). Px scale with the viewport.
 const MOVE_PX: Record<number, number> = { 1440: 120, 390: 48 };
@@ -411,6 +412,11 @@ for (const viewport of VIEWPORTS) {
       const pickAt = S.length;
       await j.clickByMouse('[data-cam-test="escape"] .ngchoice-title', `the escape "${title}"`);
       S.push(...(await record(page, 60 * 5)));
+      // The end is read 2.5s after the LANDING, not at a fixed time after the pick: the escape's travel
+      // runs on game time that async work can stretch (3.3s, and 4.7s under 4x CPU, D-332 claude-verify
+      // H5cpu), and a landing 0.3s before the end of a fixed window is still mid-flight.
+      const landed = S.findIndex((x, i) => i >= pickAt && !x.why?.exec);
+      if (landed > 0 && S.length - landed < 150) S.push(...(await record(page, 150 - (S.length - landed))));
       expectContinuous(S, W, "escape", false);   // the catch is still flying in when sampling starts
       // THE CATCH OWNS THE CAMERA until the landing: from the pick, while the escape executes, the view
       // keeps the catch's zoom — the stand-in taking the camera would fly to the escape at roll zoom
@@ -466,6 +472,43 @@ for (const viewport of VIEWPORTS) {
       for (const x of during)
         expect(x.head![0] >= 0 && x.head![0] <= x.W && x.head![1] >= 0 && x.head![1] <= x.H,
           `the stand-in does not take the camera: the escape's light stays on screen ${JSON.stringify(x)}`).toBe(true);
+    });
+
+    test("an escape picked just inside the catch's window keeps the catch framing through its whole travel", async ({ page }) => {
+      // CI 105c5f110: the window was re-read every frame, so an escape picked inside it lost the
+      // catch's framing the moment its travel outlived the window (4x CPU: 3 of 6 red, both widths).
+      // The verdict is the pick's, kept to the landing: pick 0.4s before the window closes, so the
+      // travel deterministically crosses it.
+      const j = journey(page);
+      await j.boot("/Submissions/Triangle-Choke/from-Triangle-Control/Defender");
+      await j.advance(4000);
+      await expect.poll(async () => { await j.advance(200); return page.evaluate(() => ((window as any).__neural._optionCards || []).filter((c: any) => !c.opt.threat && c.opt.action === "escape").length); }, { timeout: 20_000 }).toBeGreaterThan(0);
+      await expect(page.locator('[data-reader-ready="true"]')).toBeVisible();
+      await page.waitForTimeout(350); // finish deferred layout before the at-rest mouse sample
+      const left = await page.evaluate(() => { const a = (window as any).__neural; return a._calmCatchUntil - a.now; });
+      expect(left, "premise: the calm catch's window is live").toBeGreaterThan(1);
+      await j.advance(Math.floor((left - 0.4) * 1000));
+      const until = await page.evaluate(() => (window as any).__neural._calmCatchUntil);
+      const title = await page.evaluate(() => {
+        const a = (window as any).__neural;
+        a._handTouched = true;
+        const hit = (a._optionCards || []).find((c: any) => !c.opt.threat && c.opt.action === "escape");
+        hit.card.setAttribute("data-cam-test", "escape");
+        hit.card.scrollIntoView({ inline: "nearest", block: "nearest" });
+        return hit.card.querySelector(".ngchoice-title").textContent.trim();
+      });
+      await j.rig("escape", [0]);
+      const S = [await frame(page)];
+      expect(until - S[0].t, "premise: picked inside the window, under half a second before it closes").toBeGreaterThan(0);
+      expect(until - S[0].t).toBeLessThan(0.5);
+      await j.clickByMouse('[data-cam-test="escape"] .ngchoice-title', `the escape "${title}"`);
+      S.push(...(await record(page, 60 * 6)));
+      const landAt = S.findIndex((x, i) => i > 0 && !x.why?.exec);
+      expect(landAt, "the escape landed inside the recording").toBeGreaterThan(1);
+      expect(S[landAt].t, "premise: the travel outlived the window").toBeGreaterThan(until + 0.2);
+      const vw0 = S[0].vw;
+      for (let i = 1; i < landAt; i++)
+        expect(Math.abs(S[i].vw / vw0 - 1), `an escape picked inside the window keeps the catch framing to the landing (frame ${i}) ${JSON.stringify(S[i])}`).toBeLessThan(0.03);
     });
 
     test("CLEAR_SEC: a card the player turns back on mounts over the node, and is cleared within the rule", async ({ page }) => {

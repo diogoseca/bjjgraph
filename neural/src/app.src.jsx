@@ -6108,12 +6108,15 @@ class Component extends DCLogic {
     return (this.now || 0) < this._camHoldUntil;
   }
   /** The user took the camera (pan/pinch/wheel) or asked to go elsewhere: drop the lease. */
-  releaseCamera() { this._camHoldUntil = null; this._camHoldTarget = null; this._calmCatchUntil = null; if (this._execution) this._execution.camera = false; }
+  releaseCamera() { this._camHoldUntil = null; this._camHoldTarget = null; this._calmCatchUntil = null; if (this._execution) { this._execution.camera = false; this._execution.calmHeld = false; } }
   // A CALM READING CATCH'S LEASE WINDOW (D-318 + DEVMV31-CAM, CI 48be3a910): the map's catch lease
   // timing without a captured target. Writer: the calm-arrival defense branch. Lifters: its own
   // expiry (camHoldSec of the frame clock), releaseCamera() (every deliberate camera or navigation
   // release), and the next defense, which rewrites it. -1: taken before the clock existed, armed
-  // on the first frame that has one, as holdCamera's lease is.
+  // in updateCamera on the first frame that has one, beside holdCamera's lease (D-332 D2-S1); the
+  // check below arms it too, for a pick made before that frame. It is read ONCE, at the escape's
+  // pick, into `_execution.calmHeld` (CI 105c5f110): the escape's travel runs on the game clock and
+  // can outlive the window, and a framing picked inside it is kept until the landing hands over.
   _calmCatchHeld() {
     if (this._calmCatchUntil === -1 && Number.isFinite(this.now)) this._calmCatchUntil = this.now + this.camHoldSec;
     return this._calmCatchUntil === -1 || this._calmCatchUntil != null && this.now < this._calmCatchUntil;
@@ -18908,6 +18911,7 @@ class Component extends DCLogic {
       this._optPick = null; this._optList = null; this._decision = null; this.clearTimers(); this.clearOptions();
       this.startExecution(opt, card);
       this._execution.camera = false;
+      this._execution.calmHeld = this._calmCatchHeld();   // decided at the pick, kept to the landing
       // ...AND THE PICK IS NOT A CAMERA GESTURE (v1.219.0, enterAttempt's v1.135.1 doctrine). The
       // click wrote `lastInteract`, and `userActiveNow()` held every automatic camera for 4s, so after
       // the landing the camera sat on the catch while the node you landed on was off-screen
@@ -19346,6 +19350,8 @@ class Component extends DCLogic {
     if (this._arriveGlideUntil != null && !this._arriveWide) this._frameArrivalHeading();
     // a lease taken before there was a clock starts counting now (see holdCamera)
     if (this._camHoldUntil === -1) this._camHoldUntil = this.now + (this._camHoldSecs || this.camHoldSec);
+    // ...and so does a calm reading catch's window (D-332 D2-S1), on the first frame with a clock
+    if (this._calmCatchUntil === -1 && Number.isFinite(this.now)) this._calmCatchUntil = this.now + this.camHoldSec;
     let tgt = null;
     const execution = this._execution && this._execution.camera && !this._replay;
     // A STAGED BOARD TRACKS ITS FRAMING UNTIL THE USER MOVES THE CAMERA THEMSELVES (v1.114.4).
@@ -19443,8 +19449,9 @@ class Component extends DCLogic {
     // it the follow-cam re-aims camTarget at the current roll node on the very next frame and the
     // flight the user asked for never happens. See holdCamera().
     if (this.introDone && (this.camHeld() || this._conceptId)) tgt = null;
-    // An escape (camera false) picked inside a calm reading catch's lease window keeps its framing.
-    if (this.introDone && this._execution && this._execution.camera === false && this._calmCatchHeld()) tgt = null;
+    // An escape (camera false) picked inside a calm reading catch's lease window keeps its framing
+    // through its whole travel, even past the window (`calmHeld`, latched at the pick).
+    if (this.introDone && this._execution && this._execution.camera === false && this._execution.calmHeld) tgt = null;
     if (tgt) Object.assign(this.camTarget, this._paneCameraTarget(tgt));
     if (tgt && execution && this._reducedMotion()) {
       Object.assign(this.cam, this.camTarget, { lvw: Math.log(this.camTarget.vw) });

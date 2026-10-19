@@ -235,6 +235,40 @@ test("reduced motion snaps the execution framing without changing the simulation
   assert.equal(a._timers, undefined);
 });
 
+function cameraApp() {
+  const a = app();
+  a.introDone = true; a.startTime = 0; a.W = 900; a.H = 800;
+  a.cam = { cx: 0, cy: 0, vw: 1000, lvw: Math.log(1000) };
+  a.camTarget = { cx: 0, cy: 0, vw: 1000 };
+  a._paneCameraTarget = (t) => t;
+  a.userActiveNow = a.camHeld = () => false;
+  a.rollCamTarget = () => ({ cx: 40, cy: 50, vw: 600 });   // the follow-cam's aim, whatever it is
+  return a;
+}
+
+test("a calm reading catch taken before the clock arms on the first frame that has one (D-332 D2-S1)", () => {
+  const a = cameraApp();
+  a.paused = true;
+  a._calmCatchUntil = -1; a.now = undefined;
+  a.updateCamera(.016);
+  assert.equal(a._calmCatchUntil, -1, "no clock yet: still pending");
+  a.now = 2;
+  a.updateCamera(.016);
+  assert.equal(a._calmCatchUntil, 2 + a.camHoldSec, "armed by the frame, with no escape in play");
+});
+
+test("an escape picked inside the calm window keeps the catch framing after the window ends (D-332 D2-B1)", () => {
+  for (const calmHeld of [true, false]) {
+    const a = cameraApp();
+    a.startExecution({ idx: 1 });
+    a._execution.camera = false; a._execution.calmHeld = calmHeld;
+    a._calmCatchUntil = 1; a.now = 5;              // the window ended while the escape travels
+    a.updateCamera(.016);
+    assert.deepEqual([a.camTarget.cx, a.camTarget.vw], calmHeld ? [0, 1000] : [40, 600],
+      calmHeld ? "picked inside: the follow-cam does not retarget" : "picked after: the roll follows");
+  }
+});
+
 test("the actual canvas sweep uses the lifted orb and freezes its needle during pause", () => {
   const a = app(), strokes = [];
   a.settings = {}; a.get = (_key, fallback) => fallback; a.set = a._saveProgress = () => {};

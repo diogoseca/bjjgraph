@@ -1,4 +1,4 @@
-// D-326 / CI 48be3a910 controls on the served neural.js. Run after the positive journeys, under the
+// D-326 / CI 48be3a910 / D-332 controls on the served neural.js. Run after the positive journeys, under the
 // shared FIFO lock. NEURAL_MUTANT_APP must be the neural.js served by NEURAL_MUTANT_CONFIG's private
 // server; NEURAL_MUTANT_ONLY optionally selects controls by name. No rebuild, capture, source or
 // baseline change is made, and the original bytes are restored after every control.
@@ -19,7 +19,11 @@ const controls = [
     'the showing notice yields to the executing move'],
   // A calm reading catch's lease window: an escape picked inside it re-zooms again.
   ['calm-catch-window-lost', 'camera-continuity.spec.ts', '1440px camera continuity.*an escape: the catch keeps its own framing',
-    [['this._execution.camera===!1&&this._calmCatchHeld()', 'this._execution.camera===!1&&!1']], 'the catch keeps its framing through the escape'],
+    [['this._execution.camera===!1&&this._execution.calmHeld&&', 'this._execution.camera===!1&&!1&&']], 'the catch keeps its framing through the escape'],
+  // D-332 D2-B1: the window re-read every frame (the 105c5f110 code) instead of the pick's latch.
+  ['calm-catch-latch-lost', 'camera-continuity.spec.ts', '1440px camera continuity.*an escape picked just inside',
+    [['this._execution.camera===!1&&this._execution.calmHeld&&', 'this._execution.camera===!1&&this._calmCatchHeld()&&']],
+    'an escape picked inside the window keeps the catch framing to the landing'],
   // The intro's handover starts a fresh roll over a board staged during it (a shared-list read).
   ['intro-overrides-stage', 'defending-arrivals.spec.ts', 'a shared list link opens its defending item',
     [['this._refPage||this._staged!=null||this.startRoll()', 'this._refPage||this.startRoll()']], 'the other read role must be a reachable drawn canvas half'],
