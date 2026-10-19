@@ -258,98 +258,98 @@
       {
         "question": "Zombie defense: what should you preserve before the opponent finds the hand-clearing path?",
         "answer": "Keep a useful forearm between the bodies before the bottom player gains the hand-clearing path.",
-        "answer_line": "A useful forearm frame between the bodies",
+        "answer_line": "An inside forearm frame",
         "distractors": {
           "plausible": [
-            "A hand posted outside their hip with the elbow isolated",
-            "Both hands flat behind their shoulders"
+            "Hand outside hip, elbow isolated",
+            "Both hands behind their shoulders"
           ],
           "trap": [
-            "An extended arm reaching across their face"
+            "Straight arm reaching over the face"
           ]
         }
       },
       {
         "question": "Zombie defense: how should you move an arm when the opponent starts guiding its wrist?",
         "answer": "Move the whole arm rather than leaving the wrist exposed while the elbow remains fixed.",
-        "answer_line": "Move elbow and hand together through available space",
+        "answer_line": "Move hand and elbow together",
         "distractors": {
           "plausible": [
-            "Leave the elbow fixed and yank only the wrist",
-            "Straighten the elbow while twisting the hand outward"
+            "Fix elbow and yank only the wrist",
+            "Extend elbow and twist the hand out"
           ],
           "trap": [
-            "Post the wrist farther away while keeping the shoulder trapped"
+            "Post farther with shoulder trapped"
           ]
         }
       },
       {
         "question": "Zombie defense: what movement is the cue to recover your inside frame early?",
         "answer": "The free hand working under yours is the cue to recover inside position before the knee hug closes.",
-        "answer_line": "Their free hand pummeling underneath yours",
+        "answer_line": "Free hand pummeling underneath yours",
         "distractors": {
           "plausible": [
-            "Their hand pushing above your forearm while your inside frame stays intact",
-            "Their free hand joining the shin grip without approaching your wrist"
+            "Hand pushing above your intact frame",
+            "Free hand joining the shin grip"
           ],
           "trap": [
-            "Their high knee moving away while your elbow stays between the bodies"
+            "High knee moving away, elbow inside"
           ]
         }
       },
       {
         "question": "Zombie defense: how should you recover the elbow when a gap is still available?",
         "answer": "Retract the elbow toward your ribs through available space, stopping if the shoulder is caught.",
-        "answer_line": "Retract it toward your ribs without wrenching the shoulder",
+        "answer_line": "Draw it to ribs with shoulder slack",
         "distractors": {
           "plausible": [
-            "Pull the wrist outward while the elbow stays caught",
-            "Rotate your torso away from the fixed arm"
+            "Pull wrist out, elbow still caught",
+            "Turn torso away from the fixed arm"
           ],
           "trap": [
-            "Push the hand farther onto the mat beyond their hip"
+            "Post farther past their hip"
           ]
         }
       },
       {
         "question": "Zombie defense: what must change before you raise the chest to rebuild posture?",
         "answer": "Raise the chest after freeing the arm and reducing the high-leg control.",
-        "answer_line": "Free the arm and reduce the high-leg control",
+        "answer_line": "Free arm; loosen the high-leg hold",
         "distractors": {
           "plausible": [
-            "Move one knee forward while the wrist stays pinned",
-            "Straighten the trapped elbow beneath the high shin"
+            "Advance a knee with the wrist pinned",
+            "Extend elbow beneath the high shin"
           ],
           "trap": [
-            "Pull the head upward through the closed knee hug"
+            "Pull head through a closed knee hug"
           ]
         }
       },
       {
         "question": "Zombie defense: why should you address the hand pummel before turning away to pass?",
         "answer": "This exchange clears an upper-body frame. Recover available inside arm space rather than turning the torso against a wrist and shoulder that remain caught.",
-        "answer_line": "Your wrist can move while the shoulder stays trapped",
+        "answer_line": "Wrist moves; shoulder stays fixed",
         "distractors": {
           "plausible": [
-            "The high leg has already released every upper-body connection",
-            "Moving the hips first makes the fixed wrist follow the torso"
+            "High leg already freed all contact",
+            "Moving hips makes fixed wrist follow"
           ],
           "trap": [
-            "Straightening the trapped arm creates the same space as an inside frame"
+            "A straight arm replaces inside space"
           ]
         }
       },
       {
         "question": "Zombie defense: what is already limiting your posture as the pummel begins?",
         "answer": "The bottom player has broken posture and supports a high Mission Control leg.",
-        "answer_line": "A supported Mission Control leg high across your upper body",
+        "answer_line": "A hand-supported high guard leg",
         "distractors": {
           "plausible": [
-            "A low ankle crossing with no contact behind the shoulders",
-            "An unsupported shin outside the shoulder while both hands chase the wrist"
+            "Low crossed ankles, shoulders free",
+            "Loose high shin, hands chase wrist"
           ],
           "trap": [
-            "A knee shield between the chests with the head beyond leg reach"
+            "Knee shield with head beyond reach"
           ]
         }
       },
@@ -602,42 +602,42 @@
       {
         "question": "Zombie entry: what must your first leg-and-hand connection continue doing during the pummel?",
         "answer": "Maintain posture control while freeing the other arm for the pummel.",
-        "answer_line": "Holding the opponent's posture close",
+        "answer_line": "Keep head and shoulders close",
         "distractors": {
           "plausible": [
-            "Pushing their shoulders beyond the free arm's reach",
-            "Releasing the high shin as the pummeling hand moves"
+            "Push shoulders beyond free-arm reach",
+            "Release the high shin as you pummel"
           ],
           "trap": [
-            "Drawing the head closer with both hands while the raised leg drops"
+            "Pull head with both hands, leg drops"
           ]
         }
       },
       {
         "question": "Zombie entry: where should your free arm seek its route when the elbow is tightly clamped?",
         "answer": "Work through the opening near the hand rather than forcing a tightly clamped elbow straight outward.",
-        "answer_line": "Through the available gap near their hand",
+        "answer_line": "Through the gap beside their hand",
         "distractors": {
           "plausible": [
-            "Directly outward through the tightly clamped elbow",
-            "Over the forearm while leaving their hand framing against your chest"
+            "Out through their clamped elbow",
+            "Over forearm, leaving the hand frame"
           ],
           "trap": [
-            "Behind the upper arm without first finding space beside the hand"
+            "Behind upper arm, skipping hand gap"
           ]
         }
       },
       {
         "question": "Zombie entry: what do you guide toward the mat after finding the opening?",
         "answer": "Guide the wrist and forearm through the available space without bending individual fingers.",
-        "answer_line": "The wrist and forearm as a connected unit",
+        "answer_line": "Wrist and forearm moving together",
         "distractors": {
           "plausible": [
             "Individual fingers pulled backward",
-            "The elbow forced sideways with the wrist fixed"
+            "Elbow forced sideways, wrist fixed"
           ],
           "trap": [
-            "The opponent's head while leaving their frame intact"
+            "Head only, leaving the frame intact"
           ]
         }
       },
@@ -647,67 +647,67 @@
         "answer_line": "Cover the arm and close the knee hug",
         "distractors": {
           "plausible": [
-            "Release the knee and reach for the far wrist",
-            "Lift your high leg away from their shoulder"
+            "Release knee; reach for far wrist",
+            "Lift high leg off their shoulder"
           ],
           "trap": [
-            "Let the elbow frame between your bodies again"
+            "Let elbow return between your chests"
           ]
         }
       },
       {
         "question": "Zombie entry: what should you maintain once the hand is cleared and the knee is hugged?",
         "answer": "Once the arm is isolated, maintain that new control instead of repeatedly treating Zombie as a separate leg entanglement.",
-        "answer_line": "The newly established New York arm trap",
+        "answer_line": "The newly closed New York arm trap",
         "distractors": {
           "plausible": [
-            "Only the head pull after releasing the knee from the isolated arm",
-            "Only the wrist grip while their elbow returns between the bodies"
+            "Head pull after releasing the knee",
+            "Wrist grip as elbow returns inside"
           ],
           "trap": [
-            "Only the high shin after letting the cleared hand slide back inside"
+            "High shin with cleared hand back in"
           ]
         }
       },
       {
         "question": "Zombie entry: the opponent keeps an effective inside frame; what is the useful response?",
         "answer": "Keep a safe guard and look for another opening when the opponent maintains inside frames.",
-        "answer_line": "Retain guard control and seek another hand-side opening",
+        "answer_line": "Keep guard; find another hand gap",
         "distractors": {
           "plausible": [
-            "Push the elbow sideways through the closed frame",
-            "Release posture control and chase the wrist at full reach"
+            "Force elbow through the closed frame",
+            "Release posture; chase distant wrist"
           ],
           "trap": [
-            "Pull the wrist outward while their elbow remains firmly inside"
+            "Pull wrist out with elbow inside"
           ]
         }
       },
       {
         "question": "Zombie entry: what makes the pummel possible before the hand has been cleared?",
         "answer": "The bottom player has broken posture and supports a high Mission Control leg.",
-        "answer_line": "Broken posture with a supported high Mission Control leg",
+        "answer_line": "Broken posture, supported high leg",
         "distractors": {
           "plausible": [
-            "Upright opposing posture beyond the free arm's reach",
-            "Both legs loose while the hands pull the wrist"
+            "Upright posture beyond arm reach",
+            "Loose legs as hands pull the wrist"
           ],
           "trap": [
-            "A high leg without shin support while both hands post on the mat"
+            "Unsupported high leg, hands posted"
           ]
         }
       },
       {
         "question": "Zombie entry: which part controls posture while your free arm works?",
         "answer": "Zombie describes an action and its arm-clearing checkpoint. The high leg controls posture while the free arm works; a half-guard lockdown on an opposing leg is a different mechanism.",
-        "answer_line": "The high guard leg with its supporting hand",
+        "answer_line": "The high leg and supporting hand",
         "distractors": {
           "plausible": [
-            "The low foot at the hip after the high shin has slipped away",
-            "The pummeling hand alone while the raised leg drops"
+            "Low hip post after high leg slips",
+            "Pummeling hand alone as leg drops"
           ],
           "trap": [
-            "Both hands pulling the head with no hand available to clear the frame"
+            "Both hands on head, none to pummel"
           ]
         }
       }

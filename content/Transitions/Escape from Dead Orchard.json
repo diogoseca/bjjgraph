@@ -207,25 +207,25 @@
         "answer_line": "The high triangle around both arms",
         "distractors": {
           "plausible": [
-            "A high triangle enclosing only one arm",
-            "Your ankles crossed low around the waist"
+            "High triangle around only one arm",
+            "Ankles crossed low at their waist"
           ],
           "trap": [
-            "A high shin grip with no figure-four closed"
+            "High shin grip without leg closure"
           ]
         }
       },
       {
         "question": "Escape from Dead Orchard (bottom): What hand action precedes releasing the leg triangle?",
         "answer": "Remove wrist leverage and any elbow loading before freeing the arms from the legs.",
-        "answer_line": "Let go of any wrist leverage on the captured elbow",
+        "answer_line": "Release wrist leverage on the elbow",
         "distractors": {
           "plausible": [
-            "Pull the wrist as the legs separate",
-            "Keep the arm extended until both legs lower"
+            "Pull wrist while the legs separate",
+            "Keep arm extended until legs lower"
           ],
           "trap": [
-            "Release the shin grip while keeping the wrist lever"
+            "Release shin grip; keep wrist lever"
           ]
         }
       },
@@ -235,81 +235,81 @@
         "answer_line": "Hip movement with the knee supported",
         "distractors": {
           "plausible": [
-            "The foot turns while the thigh stays fixed",
-            "The ankle is pulled while the knee stays wedged"
+            "Foot turns with the thigh fixed",
+            "Ankle pulled with the knee wedged"
           ],
           "trap": [
-            "The torso turns while the high figure-four stays shut"
+            "Torso turns with figure-four closed"
           ]
         }
       },
       {
         "question": "Escape from Dead Orchard (bottom): Where must the returning knee fit to retain guard?",
         "answer": "Bring the knee into the space protected by the inside forearm rather than letting the passer fill that gap.",
-        "answer_line": "Inside between your torso and the opponent",
+        "answer_line": "Inside the gap between your torsos",
         "distractors": {
           "plausible": [
-            "Outside the passer's near hip beside your elbow",
-            "Behind the passer while your torso turns away"
+            "Outside near hip beside your elbow",
+            "Behind passer with torso turned away"
           ],
           "trap": [
-            "Against the far hip with the near torso gap open"
+            "At far hip with near torso gap open"
           ]
         }
       },
       {
         "question": "Escape from Dead Orchard (bottom): How should your torso orient as the legs lower?",
         "answer": "Maintain a facing relationship while the released high legs return to guard.",
-        "answer_line": "Keep the shoulders and hips facing the opponent",
+        "answer_line": "Shoulders and hips face the opponent",
         "distractors": {
           "plausible": [
-            "Turn the shoulders away and leave the hips behind",
-            "Turn the hips away while reaching toward the opponent"
+            "Shoulders away; hips stay behind",
+            "Hips away as hands reach forward"
           ],
           "trap": [
-            "Face away before the inside knee has returned"
+            "Face away before the knee returns"
           ]
         }
       },
       {
         "question": "Escape from Dead Orchard (bottom): What must recover before you reach for another submission?",
         "answer": "Stabilize posture, knee comfort and inside space before beginning another attack.",
-        "answer_line": "A comfortable knee position and inside guard space",
+        "answer_line": "Comfortable knees and inside space",
         "distractors": {
           "plausible": [
-            "A new wrist grip while both knees stay bypassed",
-            "High feet with the knees still spread outside"
+            "New wrist grip with knees bypassed",
+            "Feet high with knees spread outside"
           ],
           "trap": [
-            "A shoulder frame while the hips remain folded"
+            "Shoulder frame with hips folded"
           ]
         }
       },
       {
         "question": "Escape from Dead Orchard (bottom): Where should the upper forearm block an approaching crossface?",
         "answer": "An inside shoulder frame limits crossface and chest pressure while a knee returns.",
-        "answer_line": "Inside against the approaching shoulder",
+        "answer_line": "Inside on the approaching shoulder",
         "distractors": {
           "plausible": [
             "Outside the opponent's far elbow",
-            "At the near wrist with your elbow flared"
+            "At near wrist with elbow flared"
           ],
           "trap": [
-            "Against the hip with the shoulder path unframed"
+            "On hip with shoulder path unframed"
           ]
         }
       },
       {
         "question": "Escape from Dead Orchard (bottom): What makes this action a guard reset rather than a trap escape?",
         "answer": "The bottom player owns the arm trap; the top player is the one whose arms must escape it.",
-        "answer_line": "You are releasing the legs that held their arms",
+        "answer_line": "Opening your legs from their arms",
         "distractors": {
           "plausible": [
-            "You are drawing your arms out of their high legs",
-            "You are lifting above their knee hug from top"
+            "Pulling your arms from their legs",
+            "Lifting above their knee hug on top"
           ],
           "trap": [
-            "You are pulling their wrists through your closed legs"
+            "Pulling wrists through closed legs"
           ]
         }
       }
@@ -423,56 +423,56 @@
       {
         "question": "Escape from Dead Orchard (top): What can happen if one trapped arm straightens?",
         "answer": "The both-arm triangle can support short arm isolation when a captured elbow straightens.",
-        "answer_line": "A short elbow-extension lock from below",
+        "answer_line": "A short elbow lock from below",
         "distractors": {
           "plausible": [
-            "The elbow slips free because straightening enlarges the triangle",
-            "The shoulder clears before the elbow reaches extension"
+            "Elbow slips as extension opens legs",
+            "Shoulder clears before elbow extends"
           ],
           "trap": [
-            "The high legs drop to the hips as the wrist withdraws"
+            "Legs drop to hips as wrist withdraws"
           ]
         }
       },
       {
         "question": "Escape from Dead Orchard (top): What arm posture should you preserve while seeking release?",
         "answer": "Keep the arms compact while addressing the actual leg enclosure rather than forcing posture through extended arms.",
-        "answer_line": "Compact elbows instead of long reaching posts",
+        "answer_line": "Compact elbows without long posts",
         "distractors": {
           "plausible": [
-            "Both arms extended through the high legs",
-            "One wrist drawn back while its shoulder stays fixed"
+            "Both arms straight through high legs",
+            "Wrist pulled with shoulder fixed"
           ],
           "trap": [
-            "Elbows flared outside while the wrists remain held"
+            "Elbows flared with wrists still held"
           ]
         }
       },
       {
         "question": "Escape from Dead Orchard (top): When can a hip frame help prevent the triangle?",
         "answer": "Use hip or thigh framing early; once the triangle and arm lock are secured, obtain release rather than relying on the same frame.",
-        "answer_line": "Before the high legs close around the shoulders",
+        "answer_line": "Before legs close over shoulders",
         "distractors": {
           "plausible": [
-            "After the high figure-four has fixed both shoulders",
-            "After wrist leverage has loaded a captured elbow"
+            "After figure-four fixes shoulders",
+            "After wrist leverage loads the elbow"
           ],
           "trap": [
-            "Whenever the chin lifts despite retained shoulders"
+            "Chin rises but shoulders stay caught"
           ]
         }
       },
       {
         "question": "Escape from Dead Orchard (top): What should follow an opening around one shoulder?",
         "answer": "Use the opening to recover shoulder and elbow as a unit; stop if another retained connection prevents free movement.",
-        "answer_line": "Withdraw that shoulder and elbow together",
+        "answer_line": "Withdraw shoulder and elbow together",
         "distractors": {
           "plausible": [
-            "Pull only the wrist while the upper arm stays caught",
-            "Lift the chest while leaving the elbow behind"
+            "Pull only wrist with upper arm held",
+            "Lift chest with elbow left behind"
           ],
           "trap": [
-            "Turn the torso first while the elbow stays in the legs"
+            "Turn torso with elbow still enclosed"
           ]
         }
       },

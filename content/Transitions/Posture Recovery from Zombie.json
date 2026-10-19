@@ -204,112 +204,112 @@
       {
         "question": "Posture Recovery from Zombie (top): What should block their hand-clearing path early?",
         "answer": "Keep a useful forearm between the bodies so the free hand cannot easily lift yours outside into New York.",
-        "answer_line": "Your inside forearm before the knee hug closes",
+        "answer_line": "Inside forearm before knee hug shuts",
         "distractors": {
           "plausible": [
-            "A wide mat post beyond their hip",
-            "Both hands behind their shoulder line"
+            "Wide mat post beyond their hip",
+            "Both hands behind their shoulders"
           ],
           "trap": [
-            "A compact elbow with the wrist extended past it"
+            "Elbow compact, wrist reaches past it"
           ]
         }
       },
       {
         "question": "Posture Recovery from Zombie (top): How should the hand return to the inside?",
         "answer": "Recover hand and elbow together through available space, rather than leaving the wrist exposed outside a fixed elbow.",
-        "answer_line": "With the elbow, as one coordinated arm",
+        "answer_line": "Hand and elbow move inward together",
         "distractors": {
           "plausible": [
-            "Hand alone while the elbow stays beyond their knee",
-            "Elbow alone with the hand planted wide"
+            "Hand alone; elbow beyond their knee",
+            "Elbow alone, hand still posted wide"
           ],
           "trap": [
-            "Raise the chest first and let leg pressure guide the arm"
+            "Chest up first; leg guides arm"
           ]
         }
       },
       {
         "question": "Posture Recovery from Zombie (top): What should you do if the shoulder is already locked?",
         "answer": "Early pummel defense requires free movement; when a shoulder lock is loaded, signal and obtain release before trying to posture.",
-        "answer_line": "Tap and have the arm connection released",
+        "answer_line": "Tap; obtain release of the arm trap",
         "distractors": {
           "plausible": [
-            "Try to raise the chest before signaling for release",
-            "Wait for the high leg to drop before tapping"
+            "Raise chest before seeking release",
+            "Wait for high leg to drop, then tap"
           ],
           "trap": [
-            "Signal a tap while continuing to pull the captured arm"
+            "Tap while still pulling the held arm"
           ]
         }
       },
       {
         "question": "Posture Recovery from Zombie (top): Where should the high-leg connection loosen?",
         "answer": "Open space at the high-leg connection while keeping head and arm aligned, then recover posture through the slack.",
-        "answer_line": "At the hip and thigh before lifting the chest",
+        "answer_line": "At hip and thigh before chest rises",
         "distractors": {
           "plausible": [
             "Only between your knees on the mat",
-            "Only between your fingers and their wrist"
+            "Only between fingers and their wrist"
           ],
           "trap": [
-            "Only at the free ankle while the high thigh holds"
+            "Only free ankle; high thigh holds"
           ]
         }
       },
       {
         "question": "Posture Recovery from Zombie (top): When should you withdraw a captured shoulder?",
         "answer": "Use the slack to retrieve shoulder and elbow before lifting upright, rather than dragging an arm through the enclosure.",
-        "answer_line": "After the high leg opens enough for the arm to move",
+        "answer_line": "High leg opens; arm can move freely",
         "distractors": {
           "plausible": [
-            "As soon as the other hand touches their hip",
-            "While their knee hug still fixes the elbow"
+            "Other hand first touches their hip",
+            "While knee hug still fixes elbow"
           ],
           "trap": [
-            "When the hand clears but the knee still encloses the shoulder"
+            "Hand clear; shoulder in knee hug"
           ]
         }
       },
       {
         "question": "Zombie posture recovery (top): Chest up, their knees still inside: what have you regained?",
         "answer": "With the upper-body enclosure cleared, you can face the guard from a stable posture; the remaining legs still need assessment.",
-        "answer_line": "A stable base facing the remaining guard",
+        "answer_line": "Stable posture facing their guard",
         "distractors": {
           "plausible": [
-            "A pin with your hips already beyond their knees",
-            "A leg-free side pin with the head-control grip released"
+            "Hips already pinned past their knees",
+            "Leg-free side pin after head release"
           ],
           "trap": [
-            "A completed pass awaiting only a tighter chest grip"
+            "Pass complete; only chest grip left"
           ]
         }
       },
       {
         "question": "Posture Recovery from Zombie (top): Which opponent action is this posture recovery countering?",
         "answer": "Zombie attempts to clear the hand outside and isolate the arm under the knee hug; it is not a calf lockdown.",
-        "answer_line": "A hand pummel from high Mission Control",
+        "answer_line": "Hand pummel from Mission Control",
         "distractors": {
           "plausible": [
-            "A second leg closing the high clinch after the arm is already isolated",
-            "The controlling hand circling the head from secured New York"
+            "Second leg joins after arm isolation",
+            "Head-side hand circles from New York"
           ],
           "trap": [
-            "A shin moving beneath the chin after the neck has been cleared"
+            "Shin enters chin after neck clears"
           ]
         }
       },
       {
         "question": "Posture Recovery from Zombie (top): What decides whether half guard remains afterward?",
         "answer": "The arm pummel does not determine the lower-body destination. Check the legs after recovering posture.",
-        "answer_line": "Whether one of your legs is actually captured",
+        "answer_line": "One of your legs is actually trapped",
         "distractors": {
           "plausible": [
-            "Whether your hand has reached the mat",
-            "Whether your head is above their head"
+            "Your hand has reached the mat",
+            "Your head is above their head"
           ],
           "trap": [
-            "Whether their high ankle has lowered below your shoulder"
+            "High ankle drops below shoulder"
           ]
         }
       }
@@ -423,42 +423,42 @@
       {
         "question": "Posture Recovery from Zombie (bottom): What must your high leg do while the free hand pummels?",
         "answer": "The high Mission Control connection supports the pummel; letting posture escape removes the base for arm isolation.",
-        "answer_line": "Keep posture down with the knee supported",
+        "answer_line": "Hold posture low with knee supported",
         "distractors": {
           "plausible": [
-            "Hang loosely as the opponent sits upright",
-            "Keep the ankle high while letting the knee drift backward"
+            "Hang loose as their posture rises",
+            "Ankle high with knee drifting back"
           ],
           "trap": [
-            "Release the high-leg grip so both hands can pummel"
+            "Free leg grip so both hands pummel"
           ]
         }
       },
       {
         "question": "Posture Recovery from Zombie (bottom): In the hand-first pummel, where is the opening?",
         "answer": "Eddy's demonstrated option attacks beneath the hand rather than forcing the strongly clamped elbow open.",
-        "answer_line": "Under their hand, away from the clamped elbow",
+        "answer_line": "Beneath hand, away from elbow clamp",
         "distractors": {
           "plausible": [
-            "Under the elbow where they clamp hardest",
-            "Over the wrist, pushing it down onto the chest"
+            "Beneath the tightest elbow clamp",
+            "Over wrist, pressing down on chest"
           ],
           "trap": [
-            "Under the clamped elbow before reaching for the hand"
+            "Hook wrist from its outer side"
           ]
         }
       },
       {
         "question": "Posture Recovery from Zombie (bottom): What should you move to clear the inside frame?",
         "answer": "Guide the whole wrist-and-forearm line toward the mat instead of pulling individual fingers or forcing a fixed elbow.",
-        "answer_line": "Their wrist and forearm through the available gap",
+        "answer_line": "Guide wrist and forearm through gap",
         "distractors": {
           "plausible": [
-            "Their elbow outward while leaving the hand on the chest",
-            "Their hand upward while the forearm stays across the chest"
+            "Elbow out; hand stays at chest",
+            "Hand up; forearm still across chest"
           ],
           "trap": [
-            "Their wrist inward toward the center of your chest"
+            "Wrist inward to your chest center"
           ]
         }
       },
@@ -468,25 +468,25 @@
         "answer_line": "Covering the arm with the knee hug",
         "distractors": {
           "plausible": [
-            "Keeping the pummeling hand pointed straight upward",
-            "Letting the knee float away from the arm"
+            "Pummeling hand points straight up",
+            "Let knee float away from the arm"
           ],
           "trap": [
-            "Holding the wrist outside without covering the elbow"
+            "Wrist held out; elbow left uncovered"
           ]
         }
       },
       {
         "question": "Posture Recovery from Zombie (bottom): If their posture escapes completely, what should you recover?",
         "answer": "When the upper-body connection is lost, release the failing high leg and recover ordinary guard behind the frame.",
-        "answer_line": "An inside shoulder frame and knee space",
+        "answer_line": "Inside shoulder frame and knee room",
         "distractors": {
           "plausible": [
-            "The same high ankle grip without knee support",
-            "A wrist grip while their chest fills your torso gap"
+            "Same high ankle grip, knee unbraced",
+            "Wrist grip as chest fills torso gap"
           ],
           "trap": [
-            "A high-leg regrip before putting the near knee inside"
+            "Regrip high leg before near knee in"
           ]
         }
       }

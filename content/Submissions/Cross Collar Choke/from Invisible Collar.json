@@ -237,70 +237,70 @@
       {
         "question": "Cross-collar after Invisible Collar: how close should the opponent be before you reach?",
         "answer": "Within collar reach without extending both arms unsupported. Keep the opponent close enough to reach the collar without extending both arms unsupported.",
-        "answer_line": "Within collar reach without extending both arms unsupported",
+        "answer_line": "Within reach with supported arms",
         "distractors": {
           "plausible": [
-            "Far enough away that both elbows lock straight",
-            "Beyond leg contact while you pull only the lapel tips"
+            "Far away, both elbows locked",
+            "Beyond leg contact, pulling hems"
           ],
           "trap": [
-            "Close only at the hips with the shoulders held far back"
+            "Hips close but shoulders far back"
           ]
         }
       },
       {
         "question": "Cross-collar attack: what makes the first collar grip useful?",
         "answer": "Secure cloth contact beside the neck. Take a secure collar grip beside the neck rather than a shallow handful of cloth.",
-        "answer_line": "Secure cloth contact beside the neck",
+        "answer_line": "Secure cloth beside the neck",
         "distractors": {
           "plausible": [
-            "A shallow pinch at the loose end of the lapel",
-            "A handful of fabric below the chest"
+            "Shallow pinch at a loose lapel tip",
+            "A handful of cloth below the chest"
           ],
           "trap": [
-            "A grip across the mouth instead of the neck"
+            "Across the mouth instead of neck"
           ]
         }
       },
       {
         "question": "Cross-collar attack: where should the second hand go for the chosen crossing variation?",
         "answer": "To the opposite collar with the taught grip orientation. Bring the second hand to the opposite collar using the grip orientation taught for the chosen variation.",
-        "answer_line": "To the opposite collar with the taught grip orientation",
+        "answer_line": "Opposite collar, taught orientation",
         "distractors": {
           "plausible": [
-            "Onto the same wrist without reaching the other collar",
-            "Behind the opponent's knee with no second cloth contact"
+            "Same wrist without opposite cloth",
+            "Behind knee, no second collar grip"
           ],
           "trap": [
-            "Back onto the same low lapel hem"
+            "Back to the same low lapel hem"
           ]
         }
       },
       {
         "question": "Cross-collar attack: what alignment should the forearms establish?",
         "answer": "Beside the neck with the wrists comfortably aligned. Place the forearms beside the neck without dragging across the jaw or bending the wrists painfully.",
-        "answer_line": "Beside the neck with the wrists comfortably aligned",
+        "answer_line": "Beside neck with wrists aligned",
         "distractors": {
           "plausible": [
-            "Across the jaw with both wrists folded inward",
-            "Against the cheeks while the collar remains loose"
+            "Across jaw with both wrists folded",
+            "Against cheeks with loose cloth"
           ],
           "trap": [
-            "Under the chin with the head forced backward"
+            "Under chin, head forced backward"
           ]
         }
       },
       {
         "question": "Cross-collar attack: how should you remove remaining cloth slack?",
         "answer": "Connect elbows and torso with gradual tension. Bring the elbows and torso into a connected position with gradual tension.",
-        "answer_line": "Connect elbows and torso with gradual tension",
+        "answer_line": "Connect elbows and torso gradually",
         "distractors": {
           "plausible": [
-            "Pull both hands outward at full arm extension",
-            "Snap the wrists while the shoulders stay distant"
+            "Pull outward with arms extended",
+            "Snap wrists with shoulders distant"
           ],
           "trap": [
-            "Twist the head between two fixed collar grips"
+            "Twist head between fixed grips"
           ]
         }
       },
@@ -310,11 +310,11 @@
         "answer_line": "Open both collar grips",
         "distractors": {
           "plausible": [
-            "Release only the shallower grip",
-            "Keep one grip tight while lifting the head"
+            "Release only the shallow grip",
+            "Lift head with one grip tight"
           ],
           "trap": [
-            "Loosen the fingers while still retracting the elbows"
+            "Loosen fingers, keep elbows pulling"
           ]
         },
         "safety_critical": true
@@ -325,39 +325,39 @@
         "answer_line": "A gi jacket with usable lapels",
         "distractors": {
           "plausible": [
-            "A rashguard stretched across the upper chest",
-            "The attacker's belt wrapped behind the neck"
+            "A rashguard across the chest",
+            "Your belt wrapped behind the neck"
           ],
           "trap": [
-            "A bare arm placed where a collar would be"
+            "A bare arm replacing the collar"
           ]
         }
       },
       {
         "question": "Cross-collar after Invisible Collar: what must change before the cloth-based attack is available?",
         "answer": "Rearrange the leg clinch to obtain real collar grips. Invisible Collar names a high leg clinch, not a cloth grip. Releasing that clinch and arranging actual collar access is necessary; the reviewed primary lesson demonstrates mount rather than a direct Invisible Collar entry.",
-        "answer_line": "Rearrange the leg clinch to obtain real collar grips",
+        "answer_line": "Rearrange legs; take collar grips",
         "distractors": {
           "plausible": [
-            "Treat the existing leg closure as two jacket grips",
-            "Keep both hands on the shin instead of taking crossed lapel grips"
+            "Treat the legs as two jacket grips",
+            "Keep both hands holding the shin"
           ],
           "trap": [
-            "Move the opponent's heel closer without changing upper-body access"
+            "Move heel closer, no new arm access"
           ]
         }
       },
       {
         "question": "Cross-collar practice: what should you do if the cloth bears on the jaw instead of the neck?",
         "answer": "Release tension and reset the grip placement. The collar must be used as a controlled choking surface, never to grind the face. Release both grips promptly and do not test how long a partner can tolerate the choke.",
-        "answer_line": "Release tension and reset the grip placement",
+        "answer_line": "Unload and reset the cloth grip",
         "distractors": {
           "plausible": [
-            "Pull until the chin is forced above the collar",
-            "Keep the grips and twist the head to expose the neck"
+            "Force chin above collar by pulling",
+            "Keep grips and twist head aside"
           ],
           "trap": [
-            "Add wrist flexion to grind through the jaw barrier"
+            "Flex wrists to grind past the jaw"
           ]
         },
         "safety_critical": true
@@ -365,14 +365,14 @@
       {
         "question": "Cross-collar practice: why does a shallow first grip demand more pulling later?",
         "answer": "Loose cloth leaves extra space beside the neck. A shallow handful of cloth can leave slack between the collar and the neck. Establish a supported grip and check its placement without finishing pressure, rather than compensating with a sudden pull.",
-        "answer_line": "Loose cloth leaves extra space beside the neck",
+        "answer_line": "Loose cloth leaves neck space",
         "distractors": {
           "plausible": [
-            "The shallow grip automatically crosses both forearms",
-            "Less cloth contact keeps the elbow closer without adjustment"
+            "Shallow grip crosses both forearms",
+            "Less cloth brings the elbow close"
           ],
           "trap": [
-            "Pulling the jaw replaces the need to remove collar slack"
+            "Pulling the jaw replaces tightening"
           ]
         }
       },
@@ -382,11 +382,11 @@
         "answer_line": "The bottom player's bridge",
         "distractors": {
           "plausible": [
-            "A standing ankle pick while both players remain grounded",
-            "A leg pummel that keeps the top player centered"
+            "Standing ankle pick while grounded",
+            "Leg pummel that leaves you centered"
           ],
           "trap": [
-            "A collar pull that leaves the attacker's base unchanged"
+            "Collar pull without changing base"
           ]
         },
         "safety_critical": true
@@ -394,14 +394,14 @@
       {
         "question": "Cross-collar after Invisible Collar: what does the reviewed primary lesson establish about origin?",
         "answer": "A mounted demonstration, not a direct high-guard entry. Invisible Collar names a high leg clinch, not a cloth grip. Releasing that clinch and arranging actual collar access is necessary; the reviewed primary lesson demonstrates mount rather than a direct Invisible Collar entry.",
-        "answer_line": "A mounted demonstration, not a direct high-guard entry",
+        "answer_line": "A mounted demonstration",
         "distractors": {
           "plausible": [
-            "Every Invisible Collar hold already includes both cloth grips",
-            "The choke can use the same grips without any jacket"
+            "Both cloth grips already in the hold",
+            "The same grips with no jacket"
           ],
           "trap": [
-            "A mandatory turtle position before either hand enters"
+            "Mandatory turtle before gripping"
           ]
         }
       }
@@ -518,70 +518,70 @@
       {
         "question": "Cross-collar defense: how many grips are complete when you first contest the entering hand?",
         "answer": "Neither grip is complete; contest the first entering hand. Stop it gaining depth before the second hand crosses. Early hand fighting is preferable to treating two secured collar grips as the starting point.",
-        "answer_line": "Neither grip is complete; contest the first entering hand",
+        "answer_line": "Neither; fight the first entry",
         "distractors": {
           "plausible": [
-            "Both hands have already crossed and tightened",
-            "The second hand is deep while the first remains outside"
+            "Both hands crossed and tightened",
+            "Second hand deep, first outside"
           ],
           "trap": [
-            "Both wrists are fixed against the neck under pressure"
+            "Both wrists tight against the neck"
           ]
         }
       },
       {
         "question": "Cross-collar defense: what can an inside frame deny before the choke is complete?",
         "answer": "The second hand crossing to the opposite collar. Keep an inside frame before the hands cross into a complete choke.",
-        "answer_line": "The second hand crossing to the opposite collar",
+        "answer_line": "Second hand reaching opposite lapel",
         "distractors": {
           "plausible": [
-            "All movement of the opponent's far ankle",
-            "Your own shoulder returning toward the neck"
+            "Their far ankle moving at all",
+            "Your shoulder nearing your neck"
           ],
           "trap": [
-            "The attacker's free knee moving on the mat"
+            "Their free knee moving on the mat"
           ]
         }
       },
       {
         "question": "Cross-collar defense: before any cloth grip is caught, what distance can posture preserve?",
         "answer": "Distance between your neck and the reaching hands. Use posture and distance while the jacket connections are still available to deny. Once the neck is secured, do not try to force posture against a loaded choke.",
-        "answer_line": "Distance between your neck and the reaching hands",
+        "answer_line": "Neck beyond the reaching hands",
         "distractors": {
           "plausible": [
-            "A gap between your own knees while the neck stays captured",
-            "More slack at the belt without changing the upper body"
+            "Knees apart with neck still held",
+            "Slack at belt, upper body unchanged"
           ],
           "trap": [
-            "Space behind the attacker's heels only"
+            "Space behind their heels alone"
           ]
         }
       },
       {
         "question": "Cross-collar defense: what must you create in the cloth enclosure before a larger body escape?",
         "answer": "Slack between the collar restraint and your neck. Address the grips while space remains so body movement is not made against a fixed neck restraint. A secured choke calls for an early tap.",
-        "answer_line": "Slack between the collar restraint and your neck",
+        "answer_line": "Slack between cloth and neck",
         "distractors": {
           "plausible": [
-            "A tighter crossing of the attacker's wrists",
-            "A lower chin without changing either cloth grip"
+            "A tighter crossing of their wrists",
+            "Chin down, both grips unchanged"
           ],
           "trap": [
-            "A sideways head angle inside the same tight collar loop"
+            "Head tilted inside the tight loop"
           ]
         }
       },
       {
         "question": "Cross-collar defense: why is tucking the chin not a guarantee against the secured choke?",
         "answer": "Tight cloth can still compress the neck. Do not assume chin position prevents the collar from compressing the neck.",
-        "answer_line": "Tight cloth can still compress the neck",
+        "answer_line": "Tight cloth still loads the neck",
         "distractors": {
           "plausible": [
-            "The collar always slides off a tucked jaw",
-            "Two deep grips need the mouth open to work"
+            "Cloth always slides off a tucked jaw",
+            "Deep grips need an open mouth"
           ],
           "trap": [
-            "The forearms cannot transmit pressure below the chin"
+            "Forearms cannot load below the chin"
           ]
         }
       }

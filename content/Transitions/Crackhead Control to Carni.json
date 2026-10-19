@@ -191,70 +191,70 @@
       {
         "question": "Crackhead to Carni (bottom): What must be added beyond the two-leg posture clinch?",
         "answer": "Crackhead reinforcement does not supply Carni's arm isolation; the shoulder clamp requires its own setup.",
-        "answer_line": "Separate isolation of an opposing arm",
+        "answer_line": "Separately isolate an opposing arm",
         "distractors": {
           "plausible": [
-            "Only a tighter cross of the high feet",
-            "Only a higher pull on the opponent's head"
+            "Only cross the high feet tighter",
+            "Only pull their head higher"
           ],
           "trap": [
-            "Only a hip turn with both opposing arms still free"
+            "Only turn hips with both arms free"
           ]
         }
       },
       {
         "question": "Crackhead to Carni (bottom): What blocks forward chest pressure while the leg clears?",
         "answer": "The inside neck-side forearm maintains room as the high leg clears the head.",
-        "answer_line": "A forearm frame at the side of the neck",
+        "answer_line": "Forearm frame beside the neck",
         "distractors": {
           "plausible": [
-            "A wrist lying outside the opponent's chest",
-            "Both hands pulling the ankle toward you"
+            "Wrist outside the opponent's chest",
+            "Both hands pulling the ankle inward"
           ],
           "trap": [
-            "A forearm pushing the captured elbow straight"
+            "Forearm straightening their elbow"
           ]
         }
       },
       {
         "question": "Crackhead to Carni (bottom): Which hip position supports the new shoulder clamp?",
         "answer": "Martinez anchors through the hips and supported foot, drawing the knee close while turning partly belly down.",
-        "answer_line": "Partly belly down, knee close, foot supported",
+        "answer_line": "Belly down, knee in, foot supported",
         "distractors": {
           "plausible": [
-            "Flat on the back with the knee flared away",
-            "Turned onto the hip with the foot floating"
+            "Flat on back with the knee wide",
+            "On the hip with the foot floating"
           ],
           "trap": [
-            "Belly down with the knee extended away from the chest"
+            "Belly down with the knee far away"
           ]
         }
       },
       {
         "question": "Crackhead to Carni (bottom): Which movement does the retained triceps grip directly obstruct?",
         "answer": "The triceps connection retains the upper arm and limits rolling or shoulder withdrawal from the Carni clamp.",
-        "answer_line": "Free shoulder withdrawal or an unopposed roll",
+        "answer_line": "Shoulder withdrawal or a free roll",
         "distractors": {
           "plausible": [
-            "Bending the captured elbow while the shoulder stays pinned",
-            "Moving the free arm toward an inside frame"
+            "Bend elbow with shoulder pinned",
+            "Move the free arm into a frame"
           ],
           "trap": [
-            "Tucking the chin while the upper arm stays captured"
+            "Tuck chin with upper arm captured"
           ]
         }
       },
       {
         "question": "Crackhead to Carni (bottom): What should the first shoulder-capture drill omit?",
         "answer": "Rehearse the arm capture and supported angle without adding wrist leverage into a shoulder finish.",
-        "answer_line": "Wrist leverage that rotates the fixed shoulder",
+        "answer_line": "Wrist leverage on the fixed shoulder",
         "distractors": {
           "plausible": [
-            "The forearm barrier while clearing the leg",
-            "The supported foot beside the shoulder clamp"
+            "Forearm barrier during leg clearance",
+            "Foot support beside the clamp"
           ],
           "trap": [
-            "The separate arm-isolation checkpoint"
+            "Separate arm-isolation checkpoint"
           ]
         }
       },
@@ -264,67 +264,67 @@
         "answer_line": "Both wrist control and the leg clamp",
         "distractors": {
           "plausible": [
-            "Only your hand support beside the head",
-            "Only the butterfly hook below the hips"
+            "Only hand support beside the head",
+            "Only the lower butterfly hook"
           ],
           "trap": [
-            "Only the wrist while keeping the upper arm clamped"
+            "Free wrist; keep upper arm held"
           ]
         }
       },
       {
         "question": "Crackhead to Carni (bottom): Which limb must the new clamp contain?",
         "answer": "The new submission entry is a shoulder clamp with a retained upper arm, not a lower-body capture.",
-        "answer_line": "The opponent's upper arm at the shoulder",
+        "answer_line": "Their upper arm at the shoulder",
         "distractors": {
           "plausible": [
-            "The forearm with the shoulder outside the leg",
-            "The neck with the target upper arm released"
+            "Forearm held but shoulder outside",
+            "Neck held with upper arm released"
           ],
           "trap": [
-            "Both wrists with neither upper arm retained"
+            "Both wrists with upper arms free"
           ]
         }
       },
       {
         "question": "Crackhead to Carni (bottom): What intervening controls are required before the shoulder lock?",
         "answer": "The direct combination remains conditional: establish arm isolation, head clearance and the Carni angle separately.",
-        "answer_line": "Arm isolation and head-side leg clearance",
+        "answer_line": "Arm isolation and leg clear of head",
         "distractors": {
           "plausible": [
             "Only dropping the second high leg",
-            "Only breaking posture with both legs high"
+            "Only breaking posture with high legs"
           ],
           "trap": [
-            "Only turning the shoulder while the head stays trapped"
+            "Only turning with head still trapped"
           ]
         }
       },
       {
         "question": "Crackhead to Carni (bottom): The leg catches behind the head during your turn; what now?",
         "answer": "If the head blocks the leg, preserve the frame and adjust the hip angle rather than forcing the foot across.",
-        "answer_line": "Pause and reopen space with the forearm and hips",
+        "answer_line": "Pause; use frame and hip space",
         "distractors": {
           "plausible": [
-            "Pull the foot across without changing the hip angle",
-            "Pull the wrist while the head still blocks the leg"
+            "Pull foot across with hips fixed",
+            "Pull wrist while head blocks the leg"
           ],
           "trap": [
-            "Keep turning belly down before the leg clears"
+            "Turn belly down before leg clearance"
           ]
         }
       },
       {
         "question": "Crackhead to Carni (bottom): Which contact anchors the shown Carni position against posture?",
         "answer": "The demonstrated Carni uses the supported foot and close knee to anchor the shoulder, after the head-side leg has cleared.",
-        "answer_line": "Supported foot and knee close to the shoulder",
+        "answer_line": "Supported foot with knee by shoulder",
         "distractors": {
           "plausible": [
-            "An unsupported foot held high with the knee wide",
-            "The foot on the mat with the knee drifting away"
+            "Foot floating high with knee wide",
+            "Foot on mat with knee drifting out"
           ],
           "trap": [
-            "The knee close with the foot still behind the head"
+            "Knee close but foot behind the head"
           ]
         }
       }
@@ -438,14 +438,14 @@
       {
         "question": "Crackhead to Carni (top): A leg clears your head while an overhook holds you; what is threatened?",
         "answer": "Recognize the shoulder-lock setup even when a lower butterfly hook remains.",
-        "answer_line": "Your shoulder in a leg-assisted clamp",
+        "answer_line": "Shoulder in a leg-assisted clamp",
         "distractors": {
           "plausible": [
-            "Your neck enclosed beneath an under-chin shin",
-            "Your elbow extended across a high leg fulcrum"
+            "Neck enclosed by an under-chin shin",
+            "Elbow extended over the high leg"
           ],
           "trap": [
-            "Your wrist bent without restraint on the upper arm"
+            "Wrist bent with the upper arm free"
           ]
         }
       },
@@ -469,39 +469,39 @@
         "answer_line": "An inside frame with a balanced base",
         "distractors": {
           "plausible": [
-            "A wrist grip with the forearm outside the chest gap",
-            "A chest lift with the elbow left across the high leg"
+            "Wrist grip with forearm outside",
+            "Chest lift with elbow over high leg"
           ],
           "trap": [
-            "A wide floor post with the upper arm reaching away"
+            "Wide floor post with arm extended"
           ]
         }
       },
       {
         "question": "Crackhead to Carni (top): What must clear before your hips move past the legs?",
         "answer": "Create slack and free the shoulder and elbow before treating the exchange as a pass.",
-        "answer_line": "The shoulder-and-elbow connection to the clamp",
+        "answer_line": "Shoulder and elbow from the clamp",
         "distractors": {
           "plausible": [
             "Only the lower butterfly hook",
-            "Only the opponent's supporting foot from the mat"
+            "Only their supporting foot off mat"
           ],
           "trap": [
-            "Only a gap beside the opponent's waist"
+            "Only a gap beside their waist"
           ]
         }
       },
       {
         "question": "Crackhead to Carni (top): Why can a forward roll fail with wrist and triceps fixed?",
         "answer": "Do not roll against a fixed wrist and triceps. Obtain release, or tap if the shoulder lock is engaged.",
-        "answer_line": "The clamped shoulder cannot follow the roll",
+        "answer_line": "The held shoulder cannot follow",
         "distractors": {
           "plausible": [
-            "The triceps grip slips off as soon as your hips rise",
-            "The lower hook absorbs the rotation instead of the shoulder"
+            "Triceps grip slips when hips rise",
+            "Lower hook absorbs the rotation"
           ],
           "trap": [
-            "The wrist follows the torso while the triceps remain clamped"
+            "Wrist follows but triceps stay held"
           ]
         }
       }

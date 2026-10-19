@@ -200,14 +200,14 @@
       {
         "question": "Dead Orchard to Darce (attacker): What contains the arms at the starting checkpoint?",
         "answer": "Dead Orchard encloses both opposing arms with the legs at the shoulder line.",
-        "answer_line": "A high leg figure-four around both shoulders",
+        "answer_line": "High figure-four at both shoulders",
         "distractors": {
           "plausible": [
-            "A high leg triangle with one arm outside",
-            "Two raised shins without a figure-four closure"
+            "High triangle with one arm outside",
+            "High shins without leg closure"
           ],
           "trap": [
-            "A leg crossing below the elbows and shoulders"
+            "Legs crossed below both elbows"
           ]
         }
       },
@@ -217,109 +217,109 @@
         "answer_line": "An agreed verbal signal or foot tap",
         "distractors": {
           "plausible": [
-            "Free a hand before giving any stop signal",
-            "Tap the mat using a still-trapped hand"
+            "Free a hand before any stop signal",
+            "Tap mat with a still-trapped hand"
           ],
           "trap": [
-            "Wait for the grip to loosen before signaling"
+            "Wait for grip slack before signaling"
           ]
         }
       },
       {
         "question": "Dead Orchard to Darce (attacker): What opens before changing from the high guard to a headlock?",
         "answer": "Release the old leg enclosure and arm loading before seeking the separate head-and-arm position.",
-        "answer_line": "The both-arm leg triangle and any wrist loading",
+        "answer_line": "Both-arm triangle and wrist loading",
         "distractors": {
           "plausible": [
-            "Only your hand supporting the high shin",
-            "Only one foot while keeping the wrist under tension"
+            "Only the hand supporting the shin",
+            "Only one foot; keep wrist tension"
           ],
           "trap": [
-            "Only the wrist grip while keeping the figure-four locked"
+            "Only wrist grip; leg triangle locked"
           ]
         }
       },
       {
         "question": "Dead Orchard to Darce (attacker): Which separate position permits the new arm thread?",
         "answer": "A Darce needs its own front or side head-and-arm relationship after the high guard ends; no direct switch is established.",
-        "answer_line": "Front or side access to the neck and one armpit",
+        "answer_line": "Front/side access to neck and armpit",
         "distractors": {
           "plausible": [
-            "The same facing bottom guard with both arms in the legs",
-            "Side access with both arms outside the neck loop"
+            "Facing guard with both arms in legs",
+            "Side access, head beyond arm reach"
           ],
           "trap": [
-            "Neck-only front access with the near armpit blocked"
+            "Front neck access; armpit blocked"
           ]
         }
       },
       {
         "question": "Dead Orchard to Darce (attacker): Which direction does the Darce arm travel?",
         "answer": "The Darce thread enters at the armpit and travels around the neck before connecting to the supporting arm.",
-        "answer_line": "Through the armpit and then around the neck",
+        "answer_line": "Through armpit, then around neck",
         "distractors": {
           "plausible": [
-            "Under the neck and out toward the armpit",
-            "Outside the upper arm and around the neck"
+            "Under neck, then out toward armpit",
+            "Outside upper arm, then around neck"
           ],
           "trap": [
-            "Through the armpit but across the upper chest"
+            "Through armpit across upper chest"
           ]
         }
       },
       {
         "question": "Dead Orchard to Darce (attacker): How is the new enclosure checked in a capture drill?",
         "answer": "Check the new head-and-arm enclosure with the neck aligned and no finishing squeeze.",
-        "answer_line": "Neck aligned, grip joined without a squeeze",
+        "answer_line": "Head aligned; linked grip unloaded",
         "distractors": {
           "plausible": [
-            "Grip joined with the head turned away from the torso",
-            "Neck aligned with a finishing squeeze added"
+            "Grip joined with head turned away",
+            "Neck aligned with finishing squeeze"
           ],
           "trap": [
-            "Neck aligned with the supporting hand unconnected"
+            "Neck aligned; support hand unjoined"
           ]
         }
       },
       {
         "question": "Dead Orchard to Darce: which player and enclosure define the starting control?",
         "answer": "The initial attack belongs to the bottom high-guard player, regardless of misleading retained graph seat labels.",
-        "answer_line": "Bottom guard player with both arms in the leg triangle",
+        "answer_line": "Bottom player; both arms in leg trap",
         "distractors": {
           "plausible": [
-            "The top player inside the high guard",
-            "The bottom player with only one opposing arm inside"
+            "Top player inside the high guard",
+            "Bottom player; only one arm enclosed"
           ],
           "trap": [
-            "The bottom player with both shoulders outside the legs"
+            "Bottom; shoulders outside the legs"
           ]
         }
       },
       {
-        "question": "Dead Orchard to Darce (attacker): What changes from Dead Orchard to the new choke?",
+        "question": "Dead Orchard to Darce (attacker): What replaces the starting both-arm leg triangle?",
         "answer": "These are different configurations: a both-arm leg trap and a separately established head-and-one-arm choke.",
-        "answer_line": "Two arms in a leg trap become one arm in a neck loop",
+        "answer_line": "Arm loop around head and one arm",
         "distractors": {
           "plausible": [
-            "Both arms stay enclosed as the hands replace the legs",
-            "One arm exits the same leg triangle to form the choke"
+            "Arm loop around head and both arms",
+            "Leg triangle with one arm outside"
           ],
           "trap": [
-            "The legs open and the arms enclose the neck alone"
+            "Arm loop around only the neck"
           ]
         }
       },
       {
         "question": "Dead Orchard to Darce (attacker): An elbow stays caught when the body turns; what first?",
         "answer": "A fixed elbow must be released before either partner changes orientation; a route label does not justify turning through the trap.",
-        "answer_line": "Release that elbow before continuing the turn",
+        "answer_line": "Release the elbow before the turn",
         "distractors": {
           "plausible": [
-            "Keep the wrist fixed and rotate the torso",
-            "Tighten the old leg triangle to guide the turn"
+            "Keep wrist fixed; rotate the torso",
+            "Tighten old triangle to guide turn"
           ],
           "trap": [
-            "Open one leg but keep pulling the captured wrist"
+            "Open one leg; keep pulling the wrist"
           ]
         }
       }
@@ -424,70 +424,70 @@
       {
         "question": "Dead Orchard to Darce (defender): Which incoming arm path signals the new Darce threat?",
         "answer": "Recognize the armpit-to-neck Darce thread. The old card's Anaconda description does not identify the intended new choke.",
-        "answer_line": "Through the armpit around your neck",
+        "answer_line": "Through armpit around your neck",
         "distractors": {
           "plausible": [
-            "Under your neck toward the far armpit",
-            "Outside your upper arm around the neck"
+            "Under neck toward the far armpit",
+            "Outside upper arm around the neck"
           ],
           "trap": [
-            "Through your armpit across the upper chest"
+            "Through armpit across upper chest"
           ]
         }
       },
       {
         "question": "Dead Orchard to Darce (defender): What space matters before the new arm loop closes?",
         "answer": "Preserve shoulder-to-neck space early before the Darce arm loop brings them together.",
-        "answer_line": "Space between your trapped shoulder and neck",
+        "answer_line": "Trapped shoulder-to-neck space",
         "distractors": {
           "plausible": [
-            "Space outside the captured arm at the elbow",
-            "Space under the free armpit on the other side"
+            "Gap outside the captured elbow",
+            "Gap under the opposite free armpit"
           ],
           "trap": [
-            "Space between the chin and chest alone"
+            "Only a gap between chin and chest"
           ]
         }
       },
       {
         "question": "Dead Orchard to Darce (defender): How should your head stay during early grip defense?",
         "answer": "Maintain head alignment; do not resist a secured loop by twisting or planting the head.",
-        "answer_line": "Aligned with the torso inside the loop",
+        "answer_line": "Head aligned with torso in the loop",
         "distractors": {
           "plausible": [
-            "Turned away while the shoulder stays fixed",
-            "Forehead braced while the torso follows the attacker"
+            "Head turned with shoulder held fixed",
+            "Forehead braced while torso moves"
           ],
           "trap": [
-            "Chin lifted while the chest stays folded"
+            "Chin lifted with chest still folded"
           ]
         }
       },
       {
         "question": "Dead Orchard to Darce (defender): When does hand fighting have its best preventive window?",
         "answer": "Address the approaching grip before the neck loop tightens, keeping the trapped arm compact.",
-        "answer_line": "Before the threading arm joins a tight supporting grip",
+        "answer_line": "Before a tight supporting grip joins",
         "distractors": {
           "plausible": [
-            "After the supporting grip closes and neck space is gone",
-            "Only after a roll has tightened the arm loop"
+            "After tight grip closes neck space",
+            "Only after a roll tightens the loop"
           ],
           "trap": [
-            "After the head stops moving inside the joined arms"
+            "After head stops moving in the grip"
           ]
         }
       },
       {
         "question": "Dead Orchard to Darce (defender): The neck loop is secured; what response precedes recovery?",
         "answer": "Once the choke is secure, tap. Guard recovery belongs after the head and arm are released.",
-        "answer_line": "Tap and obtain full head-and-arm release",
+        "answer_line": "Tap for full head-and-arm release",
         "distractors": {
           "plausible": [
-            "Keep peeling the grip while leaving the neck enclosed",
-            "Lift the chin before the supporting arm unlocks"
+            "Peel grip with neck still enclosed",
+            "Lift chin before support arm unlocks"
           ],
           "trap": [
-            "Wait for the next roll to open the arm loop"
+            "Wait for a roll to open the arm loop"
           ]
         }
       }

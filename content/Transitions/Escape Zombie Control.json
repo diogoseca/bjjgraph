@@ -204,112 +204,112 @@
       {
         "question": "Escape Zombie Control (bottom): The hand pummel stalls; what can you recover first?",
         "answer": "Withdraw the failed pummel and preserve guard with an inside frame and short hip escape rather than forcing the clamped arm.",
-        "answer_line": "A shoulder frame and room for the inside knee",
+        "answer_line": "Shoulder frame and inside knee room",
         "distractors": {
           "plausible": [
-            "A tighter ankle hold with the forearm still outside",
-            "An overhook before their hand leaves the inside"
+            "Tighten ankle hold; forearm outside",
+            "Overhook before their hand clears"
           ],
           "trap": [
-            "A wrist pull with your elbow reaching past their shoulder"
+            "Pull wrist; reach beyond shoulder"
           ]
         }
       },
       {
         "question": "Escape Zombie Control (bottom): What must loosen before lowering the Mission Control leg?",
         "answer": "Release any loaded neck or arm connection before lowering the controlling leg into an ordinary guard reset.",
-        "answer_line": "The high-leg connection around the upper body",
+        "answer_line": "The high leg's upper-body connection",
         "distractors": {
           "plausible": [
-            "Only the pummeling hand while keeping the high-leg grip",
-            "Only your free hand while the high leg stays taut"
+            "Withdraw hand; retain high-leg grip",
+            "Free hand lets go; high leg taut"
           ],
           "trap": [
-            "Only the knee hug while the head-side grip keeps pulling"
+            "Release knee hug; keep pulling head"
           ]
         }
       },
       {
         "question": "Escape Zombie Control (bottom): What lets the high knee lower comfortably?",
         "answer": "Change your hip angle so the leg lowers through space rather than dragging the ankle against a stationary knee.",
-        "answer_line": "Hip movement that clears the leg's path",
+        "answer_line": "Hip motion clears the lowering path",
         "distractors": {
           "plausible": [
-            "Keeping the hips flat and hauling the foot down",
-            "Straightening the leg into the opponent's shoulder"
+            "Keep hips flat; haul the foot down",
+            "Straighten leg into their shoulder"
           ],
           "trap": [
-            "Lowering the ankle before releasing the high-leg grip"
+            "Lower ankle before letting grip go"
           ]
         }
       },
       {
         "question": "Escape Zombie Control (bottom): Where should the pummeling forearm go during recovery?",
         "answer": "The withdrawn hand becomes a useful inside frame so chest pressure cannot replace the failed arm exchange.",
-        "answer_line": "Inside, ahead of the approaching shoulder",
+        "answer_line": "Inside, in front of their shoulder",
         "distractors": {
           "plausible": [
-            "Around the far side of the opponent's back",
-            "Flat on the mat outside your own shoulder"
+            "Around the far side of their back",
+            "On mat outside your own shoulder"
           ],
           "trap": [
-            "Across your own chest behind their entering shoulder"
+            "Across chest, behind their shoulder"
           ]
         }
       },
       {
         "question": "Escape Zombie Control (bottom): What should the hip escape recover?",
         "answer": "A short shrimp behind the frame admits the inside knee and rebuilds a facing guard barrier.",
-        "answer_line": "A knee between your torso and the opponent",
+        "answer_line": "Knee between your torso and theirs",
         "distractors": {
           "plausible": [
             "Both knees behind you in turtle",
-            "A foot high behind the head before knee space"
+            "Foot high before knee room returns"
           ],
           "trap": [
-            "A knee alongside their hip but outside the torso gap"
+            "Knee beside hip, outside torso gap"
           ]
         }
       },
       {
         "question": "Escape Zombie Control (bottom): When is another Zombie attempt well set up?",
         "answer": "Re-establish Mission Control posture control and a supported knee before using the free hand for another pummel.",
-        "answer_line": "Posture held low with a supported high leg",
+        "answer_line": "Posture low; supported high leg",
         "distractors": {
           "plausible": [
-            "When the opponent sits upright with both frames in",
-            "When your foot reaches high but the knee drifts back"
+            "Opponent upright with both frames in",
+            "Foot high, but knee drifting back"
           ],
           "trap": [
-            "When their wrist is exposed but your high leg has slipped"
+            "Wrist exposed; your high leg slipped"
           ]
         }
       },
       {
         "question": "Escape Zombie Control (bottom): Which exchange is actually being reset?",
         "answer": "Zombie works on the opponent's hand and arm from Mission Control; the bottom player is already facing the opponent.",
-        "answer_line": "A facing guard hand pummel under a high leg",
+        "answer_line": "Facing hand pummel under a high leg",
         "distractors": {
           "plausible": [
-            "A facing guard knee hug around an already isolated arm",
-            "A facing guard grip change around an already cleared head"
+            "Knee hug round the isolated arm",
+            "Regrip around the cleared head"
           ],
           "trap": [
-            "A second-leg closure with the hand pummel already complete"
+            "Second leg closes after hand clears"
           ]
         }
       },
       {
-        "question": "Escape Zombie Control (bottom): Why is turning to turtle unnecessary here?",
+        "question": "Escape Zombie Control (bottom): With the pummel stalled, how can you retain facing guard?",
         "answer": "The failed pummel leaves a guard-retention problem; frames and inside knees can be restored without turning away.",
-        "answer_line": "You already face the opponent in guard",
+        "answer_line": "Restore inside frames and knees",
         "distractors": {
           "plausible": [
-            "Their hand on the mat has already reversed top and bottom",
-            "The high leg has already replaced the inside forearm frame"
+            "Turn to knees before adding frames",
+            "Keep high leg alone as chest enters"
           ],
           "trap": [
-            "Their captured arm makes inside knee recovery unnecessary"
+            "Keep arm wrap with knees outside"
           ]
         }
       }
@@ -405,70 +405,70 @@
       {
         "question": "Escape Zombie Control (top): Where should your forearm resist the pummel early?",
         "answer": "Maintain an inside forearm so the bottom player's hand cannot easily lift yours out toward the mat.",
-        "answer_line": "Between the bodies before their hand gets underneath",
+        "answer_line": "Inside before their hand gets under",
         "distractors": {
           "plausible": [
-            "Outside their hip with the elbow flared",
-            "Behind their head with the hand hidden"
+            "Outside their hip, elbow flared",
+            "Behind their head, hand hidden"
           ],
           "trap": [
-            "Across your chest with the wrist extended beyond the elbow"
+            "Across chest with wrist past elbow"
           ]
         }
       },
       {
         "question": "Escape Zombie Control (top): How should the hand and elbow recover together?",
         "answer": "Recover hand and elbow together instead of leaving the wrist exposed beyond a fixed elbow.",
-        "answer_line": "Bring the whole arm inward through available space",
+        "answer_line": "Hand and elbow return through slack",
         "distractors": {
           "plausible": [
-            "Retract only the wrist with the elbow pinned outside",
-            "Straighten the elbow while the hand remains caught"
+            "Only wrist in; elbow pinned outside",
+            "Straighten elbow with hand held"
           ],
           "trap": [
-            "Turn your chest away to drag the elbow through"
+            "Turn chest away to drag elbow in"
           ]
         }
       },
       {
         "question": "Escape Zombie Control (top): Which cue calls for an early inside-hand recovery?",
         "answer": "The hand-first pummel attacks the opening under your hand; respond before the bottom player's knee hug encloses the arm.",
-        "answer_line": "Their free hand works beneath your hand",
+        "answer_line": "Their hand pummels beneath yours",
         "distractors": {
           "plausible": [
             "Their free foot settles on the floor",
-            "Their high leg has already lowered to the waist"
+            "Their high leg lowers to your waist"
           ],
           "trap": [
-            "Their free hand returns to frame your shoulder"
+            "Their hand returns to shoulder frame"
           ]
         }
       },
       {
         "question": "Escape Zombie Control (top): Where should the recovered elbow finish?",
         "answer": "An elbow recovered toward the ribs can frame inside before the New York knee hug fixes it outside.",
-        "answer_line": "Compact beside the ribs, inside their arm wrap",
+        "answer_line": "By ribs, inside their arm wrap",
         "distractors": {
           "plausible": [
-            "Flared beyond their knee with your palm down",
-            "Across their collarbone with the elbow still outside"
+            "Elbow flared past knee, palm down",
+            "Hand on collarbone; elbow outside"
           ],
           "trap": [
-            "Near their hip with your wrist alone on the chest"
+            "Past their shoulder in a head wrap"
           ]
         }
       },
       {
         "question": "Escape Zombie Control (top): What must happen before you lift the chest?",
         "answer": "Posture recovery follows arm clearance and an opened high leg; the hand pummel alone does not release the upper body.",
-        "answer_line": "Free the arm and reduce the high-leg connection",
+        "answer_line": "Free arm; open high-leg connection",
         "distractors": {
           "plausible": [
-            "Move only your hand while the shoulder stays fixed",
-            "Widen the knees while the neck remains enclosed"
+            "Move hand; shoulder stays fixed",
+            "Widen knees; neck remains enclosed"
           ],
           "trap": [
-            "Lift the chest after arm recovery with the high leg still taut"
+            "Recover arm; high leg remains taut"
           ]
         }
       }

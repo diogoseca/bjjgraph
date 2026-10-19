@@ -225,28 +225,28 @@
       {
         "question": "Clock choke after Invisible Collar: where should you establish control relative to the turtle?",
         "answer": "Beside the opponent's shoulder line with a balanced base. Stay beside the shoulder line with a balanced base rather than climbing onto the neck.",
-        "answer_line": "Beside the opponent's shoulder line with a balanced base",
+        "answer_line": "Beside the shoulders, with base",
         "distractors": {
           "plausible": [
-            "Directly on top of their neck with your hips unsupported",
-            "Underneath them with your high leg still behind their head"
+            "Over the neck, hips unsupported",
+            "Under them in the old high clinch"
           ],
           "trap": [
-            "Behind their ankles with both arms extended"
+            "Behind ankles with arms extended"
           ]
         }
       },
       {
         "question": "Clock choke attack: where should the jacket grip contact as you feed it across?",
         "answer": "Beside the neck without dragging over the face. Feed the jacket grip across the neck without scraping or compressing the face.",
-        "answer_line": "Beside the neck without dragging over the face",
+        "answer_line": "Beside neck, avoiding the face",
         "distractors": {
           "plausible": [
-            "Across the bridge of the nose for a shorter grip",
-            "Beneath the lower ribs around the belt"
+            "Across the bridge of the nose",
+            "Under lower ribs around the belt"
           ],
           "trap": [
-            "Around the near wrist instead of the collar"
+            "Around the near wrist"
           ]
         }
       },
@@ -256,7 +256,7 @@
         "answer_line": "The opponent's shoulders",
         "distractors": {
           "plausible": [
-            "Only the opponent's far ankle",
+            "Only their far ankle",
             "Your own near knee"
           ],
           "trap": [
@@ -267,42 +267,42 @@
       {
         "question": "Clock choke attack: which supports should carry your balance instead of posting on the head?",
         "answer": "Your feet and leg posts around the turtle. Maintain supported balance while the feet reposition around the shoulder line. Do not replace a stable base with a head post or a fall onto the collar.",
-        "answer_line": "Your feet and leg posts around the turtle",
+        "answer_line": "Your feet and leg posts",
         "distractors": {
           "plausible": [
-            "Your forehead pressed into the mat beside the opponent",
-            "The collar hand bearing your falling body weight"
+            "Forehead planted beside them",
+            "The collar hand catching your weight"
           ],
           "trap": [
-            "Your neck braced across their shoulders"
+            "Your neck across their shoulders"
           ]
         }
       },
       {
         "question": "Clock choke attack: what should take slack out of the collar as you move?",
         "answer": "Small circling steps that change your body angle. Let the body angle take slack from the collar, stopping before a neck twist develops.",
-        "answer_line": "Small circling steps that change your body angle",
+        "answer_line": "Small steps changing your angle",
         "distractors": {
           "plausible": [
-            "A sudden arm jerk with the hips stationary",
-            "A neck twist while the shoulders remain fixed"
+            "Sudden arm jerk with hips still",
+            "Neck twist with shoulders fixed"
           ],
           "trap": [
-            "A jump over the head while holding the grip"
+            "Jump over the head with grip held"
           ]
         }
       },
       {
         "question": "Clock choke attack: how do you release a tapped opponent?",
         "answer": "Open the collar grip and remove upper-body pressure. Open the grip and remove upper-body pressure immediately on a tap.",
-        "answer_line": "Open the collar grip and remove upper-body pressure",
+        "answer_line": "Open collar; remove body pressure",
         "distractors": {
           "plausible": [
-            "Loosen the far hand but keep walking around the head",
-            "Keep the grip and move only your feet backward"
+            "Loosen far hand, continue circling",
+            "Retain grip and step backward"
           ],
           "trap": [
-            "Stop stepping while leaving your chest on the neck"
+            "Stop steps, keep chest on the neck"
           ]
         },
         "safety_critical": true
@@ -313,39 +313,39 @@
         "answer_line": "On their knees in turtle",
         "distractors": {
           "plausible": [
-            "Seated upright facing you inside a high leg clinch",
-            "Flat on their back with both feet between the bodies"
+            "Seated facing your high clinch",
+            "Supine with feet between you"
           ],
           "trap": [
-            "Standing behind you with their hands on your shoulders"
+            "Standing behind, hands on shoulders"
           ]
         }
       },
       {
         "question": "Clock choke after Invisible Collar: why does the original position not provide the required grip?",
         "answer": "Its facing leg clinch is not a turtle collar connection. The facing leg clinch called Invisible Collar is not a turtle collar grip. Establishing top turtle control and a jacket grip is a separate prerequisite.",
-        "answer_line": "Its facing leg clinch is not a turtle collar connection",
+        "answer_line": "Leg clinch lacks the turtle grip",
         "distractors": {
           "plausible": [
-            "The high shin grip supplies the same tension as a deep lapel grip",
-            "Every high guard places you above a turtled opponent"
+            "High shin grip equals lapel tension",
+            "High guard puts you over a turtle"
           ],
           "trap": [
-            "The second high leg automatically becomes a choking arm"
+            "The second leg becomes a choke arm"
           ]
         }
       },
       {
         "question": "Clock choke practice: how much collar load belongs in the first cooperative footwork repetitions?",
         "answer": "Loose contact with no finishing tension. Rehearse the circling steps with the collar unloaded. Release and reset if either partner loses balance or neck alignment.",
-        "answer_line": "Loose contact with no finishing tension",
+        "answer_line": "Loose contact, no finishing tension",
         "distractors": {
           "plausible": [
-            "Enough tension to pull the head along with each step",
-            "A sustained squeeze while learning the foot placement"
+            "Pull the head with each step",
+            "Squeeze while learning footwork"
           ],
           "trap": [
-            "Increasing pressure until the partner turns over"
+            "Increase load until they turn over"
           ]
         },
         "safety_critical": true
@@ -353,14 +353,14 @@
       {
         "question": "Clock choke practice: how deep should the feeding arm reach under the armpit in Kesting's version?",
         "answer": "Only far enough to take and feed the lapel. The feeding arm only needs to reach the lapel. Kesting warns that reaching too deeply lets the opponent trap the elbow and roll the attacker over.",
-        "answer_line": "Only far enough to take and feed the lapel",
+        "answer_line": "Just far enough to feed the lapel",
         "distractors": {
           "plausible": [
-            "As far as possible beyond the far shoulder",
-            "Past the elbow until the entire arm is exposed"
+            "As far past the shoulder as possible",
+            "Past elbow, exposing the whole arm"
           ],
           "trap": [
-            "Deep enough to lift the turtle by the neck"
+            "Far enough to lift them by the neck"
           ]
         }
       }
@@ -470,42 +470,42 @@
       {
         "question": "Clock choke defense: what should your early hand barrier prevent?",
         "answer": "The attacker feeding a deep collar grip. Keep an early hand barrier before the attacker feeds the collar grip.",
-        "answer_line": "The attacker feeding a deep collar grip",
+        "answer_line": "A deep collar grip being fed in",
         "distractors": {
           "plausible": [
-            "The attacker moving their far foot at all",
-            "Your own near knee touching the mat"
+            "Any movement of their far foot",
+            "Your near knee touching the mat"
           ],
           "trap": [
-            "Your elbow remaining close to your ribs"
+            "Your elbow staying near your ribs"
           ]
         }
       },
       {
         "question": "Clock choke defense: what does the attacker walking beside your head indicate?",
         "answer": "A changing angle that can tighten the collar. An attacker beside the turtle starting to walk around the head is changing the choke angle.",
-        "answer_line": "A changing angle that can tighten the collar",
+        "answer_line": "An angle that can tighten the collar",
         "distractors": {
           "plausible": [
-            "Automatic release of the neck grip with each step",
-            "A switch to a calf slicer on your far leg"
+            "Each step frees the neck grip",
+            "A far-leg calf-slicer transition"
           ],
           "trap": [
-            "Loss of all shoulder control as soon as they stand"
+            "Standing ends shoulder control"
           ]
         }
       },
       {
         "question": "Clock choke defense: while space remains, how should you adjust head position?",
         "answer": "Move the head and shoulders together. Move shoulders and head together while space remains, rather than twisting under a fixed collar.",
-        "answer_line": "Move the head and shoulders together",
+        "answer_line": "Move head and shoulders together",
         "distractors": {
           "plausible": [
-            "Twist the head alone under the fixed collar",
-            "Keep the shoulders pinned and pull the chin backward"
+            "Twist head under the fixed collar",
+            "Pull chin back, shoulders pinned"
           ],
           "trap": [
-            "Roll the hips while the head stays planted"
+            "Roll hips with the head planted"
           ]
         }
       },
@@ -515,25 +515,25 @@
         "answer_line": "Slack in the collar connection",
         "distractors": {
           "plausible": [
-            "A deeper fold in the gripping-side lapel",
-            "More tension by pulling the torso away first"
+            "A deeper fold in the held lapel",
+            "Tension from pulling your torso away"
           ],
           "trap": [
-            "A planted head to pivot against the locked grip"
+            "A head post against the fixed grip"
           ]
         }
       },
       {
         "question": "Clock choke defense: why should you tap rather than rely on a late roll against a tight grip?",
         "answer": "The collar can remain fixed as your body rotates. Stop promptly if the collar becomes tight; a roll is not a guaranteed late escape.",
-        "answer_line": "The collar can remain fixed as your body rotates",
+        "answer_line": "The cloth can stay fixed as you turn",
         "distractors": {
           "plausible": [
-            "A roll always peels the attacker's fingers off first",
-            "The choke needs your hips to remain motionless"
+            "Rolling peels their fingers first",
+            "The choke needs motionless hips"
           ],
           "trap": [
-            "The neck is protected once your shoulders leave the mat"
+            "Lifted shoulders protect the neck"
           ]
         }
       }

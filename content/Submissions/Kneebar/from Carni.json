@@ -240,81 +240,81 @@
         "answer_line": "The opponent's thigh and ankle",
         "distractors": {
           "plausible": [
-            "The triceps and wrist already caught in Carni",
-            "Only the head under your raised guard leg"
+            "Wrist and triceps already held",
+            "Only the head beneath your high leg"
           ],
           "trap": [
-            "A collar grip and the opponent's free elbow"
+            "Collar grip and the free elbow"
           ]
         }
       },
       {
         "question": "Kneebar attack: what should your legs prevent the opponent's hip from doing?",
         "answer": "Moving freely away from the isolated leg. Use the legs to keep the opponent's hip from moving freely away.",
-        "answer_line": "Moving freely away from the isolated leg",
+        "answer_line": "Retreating from the isolated leg",
         "distractors": {
           "plausible": [
-            "Remaining connected while the ankle is held",
+            "Staying close with the ankle held",
             "Staying aligned with the knee"
           ],
           "trap": [
-            "Turning only after the entire grip is released"
+            "Turning after all grips release"
           ]
         }
       },
       {
         "question": "Kneebar attack: how should the target knee meet your hips?",
         "answer": "At the hip fulcrum in a straight, untwisted line. Place the knee at the hip fulcrum with the leg in a straight, non-twisted line.",
-        "answer_line": "At the hip fulcrum in a straight, untwisted line",
+        "answer_line": "Untwisted knee at your hip fulcrum",
         "distractors": {
           "plausible": [
-            "Outside the hip line with the toes turned sideways",
-            "Folded tightly behind a shin in the knee crease"
+            "Outside hips, toes turned sideways",
+            "Folded over shin in the knee crease"
           ],
           "trap": [
-            "Beneath your chest while the ankle is free"
+            "Beneath chest with ankle free"
           ]
         }
       },
       {
         "question": "Kneebar attack: what should the ankle grip preserve?",
         "answer": "A close lower leg without turning the foot. Hold the lower leg close without turning the foot into a rotational lock.",
-        "answer_line": "A close lower leg without turning the foot",
+        "answer_line": "Close lower leg without foot turning",
         "distractors": {
           "plausible": [
-            "A heel twist while the knee stays fixed",
-            "A loose ankle beyond both forearms"
+            "Heel twist against a fixed knee",
+            "Loose ankle past both forearms"
           ],
           "trap": [
-            "A sideways foot angle pulled across your ribs"
+            "Sideways foot pulled across ribs"
           ]
         }
       },
       {
         "question": "Kneebar practice: what should a stable capture drill leave out?",
         "answer": "Bridging into the knee's extension limit. Practice the stable capture without bridging into the knee's end range.",
-        "answer_line": "Bridging into the knee's extension limit",
+        "answer_line": "Bridging to the knee range limit",
         "distractors": {
           "plausible": [
-            "Holding the ankle close to the body",
-            "Positioning the knee beside the hip fulcrum"
+            "Holding ankle close to your body",
+            "Placing knee at the hip fulcrum"
           ],
           "trap": [
-            "Containing the thigh between the legs"
+            "Containing thigh between your legs"
           ]
         }
       },
       {
         "question": "Kneebar attack: when should release begin after the partner taps?",
         "answer": "Immediately, before more extension or either partner turns. Open ankle and thigh control promptly so the leg can move as a whole. Retaining either end while the bodies turn can still load the knee.",
-        "answer_line": "Immediately, before more extension or either partner turns",
+        "answer_line": "At once, before more load or turning",
         "distractors": {
           "plausible": [
-            "After a second bridge confirms the trapped knee",
-            "Once the partner has twisted the ankle free"
+            "After a second confirming bridge",
+            "Once they twist their ankle free"
           ],
           "trap": [
-            "Only after the thigh restraint loosens by itself"
+            "Only once thigh control opens itself"
           ]
         },
         "safety_critical": true
@@ -322,28 +322,28 @@
       {
         "question": "Kneebar attack: where along the hip-to-foot lever does the target joint lie?",
         "answer": "In the middle, between the two ends. Kesting contrasts a kneebar, which targets the middle joint, with locks at the end of the leg lever. Thigh/hip control, knee alignment at the fulcrum and ankle containment still need to be established separately from Carni.",
-        "answer_line": "In the middle, between the two ends",
+        "answer_line": "In the middle, between both ends",
         "distractors": {
           "plausible": [
-            "At the distal end beyond the ankle",
-            "At the proximal end inside the pelvis"
+            "Beyond the ankle at the far end",
+            "Inside the pelvis at the near end"
           ],
           "trap": [
-            "Outside the leg lever beside the foot"
+            "Outside the lever beside the foot"
           ]
         }
       },
       {
         "question": "Kneebar after Carni: why does the original high-leg clamp not supply the kneebar?",
         "answer": "It clamps a shoulder, not a knee aligned over your hips. Carni is a shoulder-lock configuration. A kneebar needs a separately captured leg and a new hip-to-knee alignment; neither the Carni leg clamp nor its name supplies that alignment.",
-        "answer_line": "It clamps a shoulder, not a knee aligned over your hips",
+        "answer_line": "It clamps shoulder, not knee at hips",
         "distractors": {
           "plausible": [
-            "Its foot position automatically captures the opponent's ankle",
-            "Its wrist grip also immobilizes the opponent's knee"
+            "Its foot position captures the ankle",
+            "Its wrist grip also fixes the knee"
           ],
           "trap": [
-            "Any high guard creates the same knee-extension fulcrum"
+            "Any high guard is a knee fulcrum"
           ]
         }
       },
@@ -353,11 +353,11 @@
         "answer_line": "One foot and the opposite calf",
         "distractors": {
           "plausible": [
-            "Both heels above the opponent's shoulder line",
-            "One kneecap against the ankle and the other leg free"
+            "Both heels above their shoulders",
+            "Knee on ankle with other leg free"
           ],
           "trap": [
-            "Both toes pointed away with neither leg touching the hip"
+            "Both feet away, no hip contact"
           ]
         },
         "safety_critical": true
@@ -365,14 +365,14 @@
       {
         "question": "Kneebar practice: why should a held ankle not turn while the thigh remains restrained?",
         "answer": "The knee can receive rotation between the fixed ends. Keep the captured leg untwisted. A held ankle and restrained thigh can transfer a turn into the intervening knee; open both controls before either partner changes direction.",
-        "answer_line": "The knee can receive rotation between the fixed ends",
+        "answer_line": "Knee takes turn between fixed ends",
         "distractors": {
           "plausible": [
-            "An ankle turn automatically removes the hip fulcrum",
-            "A straight knee cannot receive rotational force"
+            "Ankle turn removes the hip fulcrum",
+            "Straight knees cannot take rotation"
           ],
           "trap": [
-            "Turning the foot replaces the need for thigh control"
+            "Foot turning replaces thigh control"
           ]
         }
       }
@@ -489,70 +489,70 @@
       {
         "question": "Kneebar defense: which arrangement warns of an extension threat?",
         "answer": "Your knee at their hip fulcrum with your ankle held. A knee trapped at the attacker's hips with the ankle held indicates the extension threat.",
-        "answer_line": "Your knee at their hip fulcrum with your ankle held",
+        "answer_line": "Knee at hip fulcrum, ankle held",
         "distractors": {
           "plausible": [
-            "Your knee freely bent with no ankle grip",
-            "Their shin behind your folded knee and heel contained"
+            "Bent knee with no ankle grip",
+            "Shin in knee fold with heel held"
           ],
           "trap": [
-            "Their hand touching only the outside of your calf"
+            "Hand only on the outer calf"
           ]
         }
       },
       {
         "question": "Kneebar defense: what should you deny before the leg capture closes?",
         "answer": "A secure grip on your ankle and lower leg. Hand fight and keep the lower leg free before the attacker completes the capture.",
-        "answer_line": "A secure grip on your ankle and lower leg",
+        "answer_line": "Ankle and lower-leg grip",
         "distractors": {
           "plausible": [
-            "Only the opponent's free wrist away from the leg",
-            "Only a grip on your far trouser cuff"
+            "Only their free wrist away from leg",
+            "Only their far trouser-cuff grip"
           ],
           "trap": [
-            "Your own hands returning toward the captured foot"
+            "Your hands returning to your foot"
           ]
         }
       },
       {
         "question": "Kneebar defense: when should you recover the knee away from the fulcrum?",
         "answer": "While the leg still has freedom to move. Move the knee away from the fulcrum only while the leg can still move freely.",
-        "answer_line": "While the leg still has freedom to move",
+        "answer_line": "While the leg remains mobile",
         "distractors": {
           "plausible": [
-            "After the ankle is fixed and the hip bridge is loaded",
-            "By turning the torso against a stationary foot"
+            "Once ankle is fixed, bridge loaded",
+            "By turning torso against fixed foot"
           ],
           "trap": [
-            "Only after the knee starts bending backward"
+            "Only after backward knee bending"
           ]
         }
       },
       {
         "question": "Kneebar defense: why is a twisting escape risky when ankle and thigh are both restrained?",
         "answer": "The knee can take rotation between the fixed contacts. Avoid a twisting escape against a held ankle and trapped thigh.",
-        "answer_line": "The knee can take rotation between the fixed contacts",
+        "answer_line": "Knee twists between fixed contacts",
         "distractors": {
           "plausible": [
-            "Turning always releases the ankle before loading the knee",
-            "Thigh containment makes the foot unable to transmit force"
+            "Turning frees ankle before knee load",
+            "Thigh grip blocks force from foot"
           ],
           "trap": [
-            "A straight leg cannot experience rotational stress"
+            "Straight legs cannot take rotation"
           ]
         }
       },
       {
         "question": "Kneebar defense: why should a secure extension capture be stopped before testing it for pain?",
         "answer": "Joint load can increase before a useful pain warning. Treat established extension control as the stop point in practice. Do not use pain or remaining range as a test of whether the joint is safe to load farther.",
-        "answer_line": "Joint load can increase before a useful pain warning",
+        "answer_line": "Load may rise before pain warns",
         "distractors": {
           "plausible": [
-            "Pain testing opens the thigh restraint before the knee extends",
-            "A held ankle prevents the knee reaching its limit"
+            "Pain tests open the thigh restraint",
+            "Held ankle prevents full knee range"
           ],
           "trap": [
-            "The absence of pain proves another bridge is available"
+            "No pain proves room to bridge again"
           ]
         }
       }

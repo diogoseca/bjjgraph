@@ -229,81 +229,81 @@
         "answer_line": "A high leg triangle around both arms",
         "distractors": {
           "plausible": [
-            "A high triangle with one opposing arm outside",
-            "A low ankle crossing around the waist"
+            "High triangle with one arm outside",
+            "Low ankles crossed around the waist"
           ],
           "trap": [
-            "Two high shins without a figure-four connection"
+            "Two high shins with no figure-four"
           ]
         }
       },
       {
         "question": "Escape Dead Orchard Control (bottom): What should end before opening the legs?",
         "answer": "Remove wrist and elbow loading before opening the high enclosure and allowing the arms to move.",
-        "answer_line": "Any wrist leverage loading a captured elbow",
+        "answer_line": "Wrist leverage on a captured elbow",
         "distractors": {
           "plausible": [
-            "Only your grip supporting the high shin",
+            "Only the hand supporting the shin",
             "Only the squeeze from the high legs"
           ],
           "trap": [
-            "Only the head pull while retaining the wrist lever"
+            "Only head pull; keep wrist leverage"
           ]
         }
       },
       {
         "question": "Escape Dead Orchard Control (bottom): How should the high leg return lower?",
         "answer": "Open the figure-four and lower the leg through the hip instead of wrenching the foot.",
-        "answer_line": "Through a comfortable hip angle with the knee supported",
+        "answer_line": "Hip-led lowering with knee support",
         "distractors": {
           "plausible": [
-            "By pulling the foot while the knee stays fixed",
-            "By turning the ankle while the thigh stays still"
+            "Pull foot while the knee stays fixed",
+            "Turn ankle with the thigh still"
           ],
           "trap": [
-            "By rotating the torso before opening the figure-four"
+            "Turn torso before opening the legs"
           ]
         }
       },
       {
         "question": "Escape Dead Orchard Control (bottom): What replaces the high leg barrier as space opens?",
         "answer": "Restore inside forearms and knees during the released guard-recovery phase.",
-        "answer_line": "Forearms and knees between the bodies",
+        "answer_line": "Forearms and knees between bodies",
         "distractors": {
           "plausible": [
-            "Forearms inside with both knees left outside",
-            "Knees inside with both elbows reaching away"
+            "Forearms in with both knees outside",
+            "Knees in with elbows reaching away"
           ],
           "trap": [
-            "Hands chasing wrists as the knees drop wide"
+            "Chase wrists while knees drop wide"
           ]
         }
       },
       {
         "question": "Escape Dead Orchard Control (bottom): Where should your shoulders and hips remain directed?",
         "answer": "Keep facing the opponent while rebuilding guard; turning away is not the stated reset.",
-        "answer_line": "Toward the opponent as facing guard reforms",
+        "answer_line": "Shoulders and hips toward opponent",
         "distractors": {
           "plausible": [
-            "Shoulders away while the hips still face the opponent",
-            "Hips away while the shoulders still face the opponent"
+            "Shoulders away; hips face opponent",
+            "Hips face away; chest toward them"
           ],
           "trap": [
-            "Both turned away before the knee barrier is rebuilt"
+            "Both away before the knee returns"
           ]
         }
       },
       {
         "question": "Escape Dead Orchard Control (bottom): What permits a new attack after the reset?",
         "answer": "Re-establish usable inside knee space and comfortable posture before starting another attack.",
-        "answer_line": "Restored knee space and comfortable posture",
+        "answer_line": "Knee space with comfortable posture",
         "distractors": {
           "plausible": [
-            "A loose wrist grip with both knees bypassed",
-            "A shoulder frame with the knees left outside"
+            "Loose wrist grip with knees bypassed",
+            "Shoulder frame with both knees out"
           ],
           "trap": [
-            "Both feet raised before the hips are comfortably aligned"
+            "Feet raised with hips still awkward"
           ]
         }
       },
@@ -324,14 +324,14 @@
       {
         "question": "Escape Dead Orchard Control (bottom): Which restraint must open for this reset?",
         "answer": "This reset opens a high leg triangle; a front-headlock hand-grip escape addresses a different structure.",
-        "answer_line": "The trap is made with legs around both arms",
+        "answer_line": "Legs around both arms and shoulders",
         "distractors": {
           "plausible": [
-            "The restraint is one high shin with both elbows free",
-            "The restraint is a waist-level ankle crossing"
+            "One high shin with both elbows free",
+            "Ankles crossed low at the waist"
           ],
           "trap": [
-            "The restraint is a one-arm triangle at the neck"
+            "One-arm triangle around the neck"
           ]
         }
       },
@@ -341,11 +341,11 @@
         "answer_line": "A verbal stop or a foot tap",
         "distractors": {
           "plausible": [
-            "Try to withdraw a trapped hand before signaling",
-            "Wait to tap by hand when the legs begin to open"
+            "Withdraw trapped hand before signal",
+            "Wait for legs to open to hand-tap"
           ],
           "trap": [
-            "Use a hand tap against the mat from the fixed arm"
+            "Use only a hand signal from the trap"
           ]
         }
       },
@@ -355,11 +355,11 @@
         "answer_line": "An inside forearm on their shoulder",
         "distractors": {
           "plausible": [
-            "A hand on their wrist with the elbow outside",
-            "A forearm outside their approaching upper arm"
+            "Hand on wrist with elbow outside",
+            "Forearm outside the approaching arm"
           ],
           "trap": [
-            "Both hands at their hip with no upper frame"
+            "Hands at hip without an upper frame"
           ]
         }
       }
@@ -477,70 +477,70 @@
       {
         "question": "Escape Dead Orchard Control (top): What threat persists even without neck pressure?",
         "answer": "A comfortable neck does not make the captured elbows safe in Dead Orchard.",
-        "answer_line": "A short arm lock from the both-arm capture",
+        "answer_line": "Short arm lock from both-arm capture",
         "distractors": {
           "plausible": [
-            "Only a neck attack requiring one arm outside",
-            "Only a wrist attack with no elbow leverage"
+            "Only a neck attack with one arm out",
+            "Only wrist bending; elbow unloaded"
           ],
           "trap": [
-            "No arm lock until the shoulders leave the legs"
+            "No arm lock until shoulders are free"
           ]
         }
       },
       {
         "question": "Escape Dead Orchard Control (top): Which action offers the attacker an elbow lever?",
         "answer": "Orchard's demonstration exploits a straightened arm; do not offer that lever while forcing posture.",
-        "answer_line": "Straightening an arm between the high legs",
+        "answer_line": "Straight arm between the high legs",
         "distractors": {
           "plausible": [
-            "Keeping the elbow bent near the torso",
-            "Waiting for the shoulder enclosure to open"
+            "Elbow bent and close to the torso",
+            "Wait for the shoulder trap to open"
           ],
           "trap": [
-            "Moving the shoulder and elbow together after release"
+            "Move shoulder and elbow once free"
           ]
         }
       },
       {
         "question": "Escape Dead Orchard Control (top): What is an early hip frame meant to interrupt?",
         "answer": "Before the high figure-four closes, a hip or thigh frame can preserve space against the shoulder-level climb. It is not a late escape guarantee after both arms are trapped.",
-        "answer_line": "The high legs closing around both shoulders",
+        "answer_line": "High legs closing over the shoulders",
         "distractors": {
           "plausible": [
-            "An elbow extending after the high figure-four is closed",
-            "The hands adding wrist control after both shoulders are fixed"
+            "Elbow extending after leg closure",
+            "Wrist grip added to fixed shoulders"
           ],
           "trap": [
-            "The head rising after both arms have already cleared the legs"
+            "Head rising after both arms are free"
           ]
         }
       },
       {
         "question": "Escape Dead Orchard Control (top): What lets the shoulder and elbow withdraw together?",
         "answer": "Use actual shoulder clearance through the opened legs, stopping if the arm is already loaded.",
-        "answer_line": "An opening in the leg enclosure around that shoulder",
+        "answer_line": "Legs open around that shoulder",
         "distractors": {
           "plausible": [
-            "A wrist pulled forward while the shoulder stays fixed",
-            "A chin lifted above the opponent's shin"
+            "Wrist pulled with shoulder fixed",
+            "Chin lifted above their shin"
           ],
           "trap": [
-            "One foot lowered while the other still pins the arm"
+            "One foot down; other pins the arm"
           ]
         }
       },
       {
         "question": "Escape Dead Orchard Control (top): What is the checkpoint before lifting your chest?",
         "answer": "Recover upright posture after the shoulder line clears, not by dragging the trapped elbows upward.",
-        "answer_line": "The shoulders clear the high leg triangle",
+        "answer_line": "Shoulders clear the high triangle",
         "distractors": {
           "plausible": [
-            "One fingertip reaches outside the legs",
-            "The opponent releases only their wrist grip"
+            "One fingertip outside the legs",
+            "Only their wrist grip releases"
           ],
           "trap": [
-            "Your feet step backward while the arms stay fixed"
+            "Feet step back with arms still fixed"
           ]
         }
       }

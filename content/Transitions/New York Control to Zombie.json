@@ -186,42 +186,42 @@
       {
         "question": "New York Control to Zombie (bottom): When is another Zombie pummel actually needed?",
         "answer": "Completed New York already contains the cleared arm. Re-pummel only if that isolation is lost and the hand comes back inside.",
-        "answer_line": "After their hand has recovered to an inside frame",
+        "answer_line": "After their hand returns to frame",
         "distractors": {
           "plausible": [
-            "While the cleared hand remains outside the knee hug",
-            "When the second leg reinforces an already isolated arm"
+            "Cleared hand still outside knee hug",
+            "Second leg reinforces a trapped arm"
           ],
           "trap": [
-            "After the controlling arm clears the head but the overhook stays intact"
+            "Head cleared; overhook still intact"
           ]
         }
       },
       {
         "question": "New York Control to Zombie (bottom): Which control must survive while your free hand works?",
         "answer": "Restore Mission Control posture control before using the free hand for the renewed pummel.",
-        "answer_line": "A supported high leg holding posture down",
+        "answer_line": "Supported high leg holds posture low",
         "distractors": {
           "plausible": [
-            "Only a low ankle cross with posture upright",
-            "Both hands chasing the wrist with no leg support"
+            "Low crossed ankles, upright posture",
+            "Both hands chase wrist; leg unbraced"
           ],
           "trap": [
-            "A high ankle hold with the knee drifting away"
+            "High ankle held, knee drifting away"
           ]
         }
       },
       {
         "question": "New York Control to Zombie (bottom): In Eddy's hand-first version, where do you enter?",
         "answer": "Ben Eddy works under the hand rather than trying to pry beneath the strongly clamped elbow; this is one demonstrated version.",
-        "answer_line": "Under the hand through the available opening",
+        "answer_line": "Under the hand, through the gap",
         "distractors": {
           "plausible": [
-            "Directly under the tightly clamped elbow",
-            "Over the wrist, pressing it back toward the chest"
+            "Under their tightly clamped elbow",
+            "Over wrist, pressing toward chest"
           ],
           "trap": [
-            "Under the elbow first, then forward toward the hand"
+            "Pull wrist sideways from above"
           ]
         }
       },
@@ -231,11 +231,11 @@
         "answer_line": "The wrist and forearm toward the mat",
         "distractors": {
           "plausible": [
-            "The elbow straight outward while the wrist stays on the chest",
-            "The hand straight upward while its elbow remains inside"
+            "Elbow out; wrist stays on chest",
+            "Hand straight up; elbow stays inside"
           ],
           "trap": [
-            "The wrist toward your centerline beneath their chest"
+            "Wrist inward beneath their chest"
           ]
         }
       },
@@ -245,81 +245,81 @@
         "answer_line": "Cover the arm and close the knee hug",
         "distractors": {
           "plausible": [
-            "Leave the elbow uncovered while switching grips",
-            "Keep the hand outside with a wrist grip but no knee hug"
+            "Elbow uncovered while grips change",
+            "Wrist grip outside, without knee hug"
           ],
           "trap": [
-            "Change the head-side grip before covering the cleared elbow"
+            "Change head grip before covering arm"
           ]
         }
       },
       {
         "question": "New York Control to Zombie (bottom): The hand is cleared and the knee hugged; what now?",
         "answer": "Once the hand-clearing goal is reached, retain the resulting control rather than repeating an unnecessary pummel.",
-        "answer_line": "Maintain the recovered New York arm isolation",
+        "answer_line": "Retain the restored New York trap",
         "distractors": {
           "plausible": [
-            "Pummel again around the arm already held outside",
-            "Release the knee hug to let the cleared hand return inside"
+            "Pummel again around the trapped arm",
+            "Open knee hug; let their hand return"
           ],
           "trap": [
-            "Replace the supported high shin with crossed ankles at the waist"
+            "Swap high shin for low ankle cross"
           ]
         }
       },
       {
         "question": "New York Control to Zombie (bottom): Their inside frame remains strong; what is the fallback?",
         "answer": "If the hand path remains closed, maintain safe guard structure rather than forcing the tightly clamped elbow outward.",
-        "answer_line": "Keep guard and wait for another hand opening",
+        "answer_line": "Keep guard; seek a new hand opening",
         "distractors": {
           "plausible": [
-            "Open both legs and keep reaching for the elbow",
-            "Reach behind their back with both arms"
+            "Open both legs; keep reaching elbow",
+            "Both arms reach behind their back"
           ],
           "trap": [
-            "Keep reaching under the clamped elbow after the hand gap shuts"
+            "Pry elbow after hand opening shuts"
           ]
         }
       },
       {
         "question": "New York Control to Zombie (bottom): If posture also escapes, what takes priority?",
         "answer": "When both arm isolation and posture control fail, recover the torso barrier before trying another arm trap.",
-        "answer_line": "Shoulder frame and an inside-knee recovery",
+        "answer_line": "Shoulder frame plus knee recovery",
         "distractors": {
           "plausible": [
-            "The overhook even while your knees are passed",
-            "A high foot grip despite their upright chest"
+            "Keep overhook with your knees passed",
+            "Hold high foot despite upright chest"
           ],
           "trap": [
-            "Re-pummel the wrist before replacing the near knee"
+            "Re-pummel wrist before knee recovery"
           ]
         }
       },
       {
         "question": "New York Control to Zombie (bottom): Which observation proves this is a reset, not advancement?",
         "answer": "New York normally follows Zombie. A renewed Zombie from this node is justified by lost arm isolation, not a later static position.",
-        "answer_line": "The opponent had regained their hand inside",
+        "answer_line": "Their hand had regained inside space",
         "distractors": {
           "plausible": [
-            "The knee hug remained closed throughout",
-            "The head-side arm had already cleared the neck"
+            "Knee hug stayed closed throughout",
+            "Head-side arm had cleared the neck"
           ],
           "trap": [
-            "The free leg had climbed while the trapped hand stayed outside"
+            "Free leg rises; trapped hand outside"
           ]
         }
       },
       {
         "question": "New York Control to Zombie (bottom): What should a re-pummel drill end by checking?",
         "answer": "A cooperative drill confirms the cleared hand and knee hug as the recovered New York connection, without finishing pressure.",
-        "answer_line": "Hand outside, arm covered and knee supported",
+        "answer_line": "Hand out; arm covered; knee braced",
         "distractors": {
           "plausible": [
-            "Only that your pummeling hand moved upward",
-            "Only that the opponent lowered their chin"
+            "Only your pummeling hand moved up",
+            "Only their chin has lowered"
           ],
           "trap": [
-            "Hand on the mat with the elbow still inside your thigh"
+            "Hand on mat; elbow inside your thigh"
           ]
         }
       }
@@ -433,14 +433,14 @@
       {
         "question": "New York Control to Zombie (top): What must your recovered arm retain?",
         "answer": "After escaping the New York isolation, keep the recovered forearm inside so the bottom player cannot immediately re-pummel.",
-        "answer_line": "An inside forearm with the elbow toward the ribs",
+        "answer_line": "Forearm inside, elbow toward ribs",
         "distractors": {
           "plausible": [
             "A wide mat post outside their hip",
-            "A reach behind their neck with the elbow high"
+            "Reach behind neck with elbow high"
           ],
           "trap": [
-            "A hand on their chest with the elbow beyond their knee"
+            "Hand on chest; elbow beyond knee"
           ]
         }
       },
@@ -450,53 +450,53 @@
         "answer_line": "Recover hand and elbow together",
         "distractors": {
           "plausible": [
-            "Retract the elbow but leave the hand on the mat",
-            "Reach the hand over their shoulder before the elbow returns"
+            "Elbow in; hand still on the mat",
+            "Hand over shoulder before elbow in"
           ],
           "trap": [
-            "Raise the chest to pull the wrist past their high leg"
+            "Lift chest to pull wrist past leg"
           ]
         }
       },
       {
         "question": "New York Control to Zombie (top): Which action signals a renewed attempt?",
         "answer": "Watch the second hand under your recovered hand, because that is the early cue for the renewed hand-clearing pummel.",
-        "answer_line": "Their free hand entering beneath yours",
+        "answer_line": "Their free hand enters beneath yours",
         "distractors": {
           "plausible": [
-            "Their free knee lowering to recover guard",
-            "Their legs crossing low around the waist"
+            "Free knee lowers to recover guard",
+            "Legs cross low around your waist"
           ],
           "trap": [
-            "Their hand moves around your head while the knee hug stays"
+            "Hand circles head; knee hug holds"
           ]
         }
       },
       {
         "question": "New York Control to Zombie (top): When can the elbow be drawn back safely?",
         "answer": "Use the open path to recover the elbow beside the ribs; do not jerk against a completed arm enclosure.",
-        "answer_line": "While the shoulder has slack in the high leg",
+        "answer_line": "While high leg gives shoulder slack",
         "distractors": {
           "plausible": [
-            "Whenever your hand reaches their sternum",
-            "Only after pulling the wrist to full extension"
+            "Whenever hand reaches their sternum",
+            "After wrist is pulled fully out"
           ],
           "trap": [
-            "When the wrist is loose but their knee hug still clamps the elbow"
+            "Wrist loose; knee hug clamps elbow"
           ]
         }
       },
       {
         "question": "New York Control to Zombie (top): What must clear before you raise the chest?",
         "answer": "Upright posture follows release of the upper-body connection; escaping the hand alone may leave the leg attached.",
-        "answer_line": "The arm trap and attached high-leg control",
+        "answer_line": "Arm trap and high-leg control",
         "distractors": {
           "plausible": [
-            "Only their pummeling fingertips from your hand",
-            "Only their free foot resting against your hip"
+            "Only their fingertips off your hand",
+            "Only their free foot off your hip"
           ],
           "trap": [
-            "Only the isolated arm while the high shin still holds your head"
+            "Only arm; high shin still holds head"
           ]
         }
       }

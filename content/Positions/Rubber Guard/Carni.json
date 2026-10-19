@@ -209,28 +209,28 @@
       {
         "question": "Carni defense: what does a high leg clearing your head beside an overhook threaten?",
         "answer": "A leg clearing the head with an overhook is an upper-body trap, even if a butterfly hook remains below.",
-        "answer_line": "A clamp on your shoulder and upper arm",
+        "answer_line": "A shoulder and upper-arm clamp",
         "distractors": {
           "plausible": [
-            "A closed leg triangle enclosing both of your shoulders",
-            "A shin across the throat with the shoulder left free"
+            "Both shoulders in a leg triangle",
+            "Shin across throat, shoulder free"
           ],
           "trap": [
-            "A straight-elbow lever across the center of their hips"
+            "Straight elbow over their hips"
           ]
         }
       },
       {
         "question": "Carni defense: before triceps control is set, which arm habit limits the attacker's lever?",
         "answer": "Avoid reaching away while the opponent sets the triceps control.",
-        "answer_line": "Keep the elbow close rather than reaching away",
+        "answer_line": "Keep the elbow close to your body",
         "distractors": {
           "plausible": [
-            "Reach the captured arm behind their hips",
-            "Straighten the elbow to push their far knee"
+            "Reach that arm behind their hips",
+            "Straighten arm to push the far knee"
           ],
           "trap": [
-            "Post that hand wide beyond their shoulder"
+            "Post the hand beyond their shoulder"
           ]
         }
       },
@@ -240,53 +240,53 @@
         "answer_line": "Maintain base and an inside frame",
         "distractors": {
           "plausible": [
-            "Lean all your weight over the captured arm",
-            "Turn your back while leaving the wrist caught"
+            "Lean over the captured arm",
+            "Turn your back with wrist still held"
           ],
           "trap": [
-            "Pull your shoulder up through their high leg"
+            "Pull shoulder through the high leg"
           ]
         }
       },
       {
         "question": "Carni defense: what should you obtain before moving your hips past the guard?",
         "answer": "Create slack around the shoulder and elbow before moving the hips past the legs.",
-        "answer_line": "Slack around the captured shoulder and elbow",
+        "answer_line": "Slack around shoulder and elbow",
         "distractors": {
           "plausible": [
-            "A free lower ankle while the upper arm stays pinned",
-            "A higher chest while the wrist remains fixed"
+            "Free low ankle, upper arm pinned",
+            "A raised chest with the wrist fixed"
           ],
           "trap": [
-            "A grip on the far knee without releasing your arm"
+            "Far-knee grip, arm still trapped"
           ]
         }
       },
       {
         "question": "Carni defense: why is a forward roll unsafe when both wrist and triceps are fixed?",
         "answer": "Do not force a forward roll when the triceps and wrist are fixed; tap if pressure has already engaged.",
-        "answer_line": "Your body can rotate against an immobilized shoulder",
+        "answer_line": "Body rotation loads a fixed shoulder",
         "distractors": {
           "plausible": [
-            "The captured upper arm follows the torso through the turn",
-            "The triceps grip slides toward the wrist as the torso turns"
+            "The upper arm follows the torso",
+            "Triceps grip slides to the wrist"
           ],
           "trap": [
-            "The head-side leg lifts away as your weight moves forward"
+            "The high leg lifts as you roll"
           ]
         }
       },
       {
         "question": "Carni defense: when can you rebuild head and chest posture?",
         "answer": "Raise the head and chest only after the arm and head-side leg are clear.",
-        "answer_line": "After the arm and head-side leg are clear",
+        "answer_line": "Once the arm and high leg are clear",
         "distractors": {
           "plausible": [
-            "Once your free knee reaches the mat",
-            "While the wrist remains held behind the elbow"
+            "When your free knee touches the mat",
+            "With wrist still held behind elbow"
           ],
           "trap": [
-            "As soon as the attacker turns belly down"
+            "As soon as they turn belly down"
           ]
         }
       },
@@ -296,25 +296,25 @@
         "answer_line": "An overhook with a high guard leg",
         "distractors": {
           "plausible": [
-            "An underhook lifting your arm while the high leg stays outside the shoulder",
-            "A wrist pull with the elbow still free to return between the bodies"
+            "Underhook, leg outside the shoulder",
+            "Wrist pull with the elbow free"
           ],
           "trap": [
-            "A head pull with both of your shoulders outside the high leg"
+            "Head pull with shoulders outside"
           ]
         }
       },
       {
         "question": "Carni defense: why does a remaining butterfly hook not make this a leg-lock attack?",
         "answer": "Richie Martinez demonstrates the configuration from Z guard through Jersey. The legs help anchor the upper body, but the submission target is the shoulder; a calf slicer, heel hook, or kneebar requires a separate lower-body capture.",
-        "answer_line": "The restrained wrist and triceps isolate the shoulder",
+        "answer_line": "Wrist and triceps fix the shoulder",
         "distractors": {
           "plausible": [
-            "The butterfly hook is the fulcrum behind the trapped knee",
-            "The upper-body grips mainly prevent the heel from turning"
+            "The hook props the bent knee",
+            "Upper grips mainly stop heel turning"
           ],
           "trap": [
-            "Clearing the lower hook removes the primary joint restraint"
+            "Clearing the low hook frees the arm"
           ]
         }
       }
@@ -509,42 +509,42 @@
       {
         "question": "Carni attack: what should your guard and shoulder connection do before the high leg moves?",
         "answer": "Use the guard and shoulder connection to bring the opponent close before moving the high leg.",
-        "answer_line": "Bring the opponent's upper body close",
+        "answer_line": "Bring their upper body close",
         "distractors": {
           "plausible": [
-            "Push their shoulders beyond your leg's reach",
-            "Let the overhook go while you lift the foot"
+            "Push shoulders beyond leg reach",
+            "Release overhook as the foot rises"
           ],
           "trap": [
-            "Straighten your leg against their distant head"
+            "Straighten leg toward a distant head"
           ]
         }
       },
       {
         "question": "Carni attack: what helps manage the head-side space as your leg clears?",
         "answer": "Manage the shoulder and neck line with a forearm frame as the leg clears the head.",
-        "answer_line": "A forearm frame along the shoulder and neck line",
+        "answer_line": "Forearm along shoulder and neck",
         "distractors": {
           "plausible": [
-            "Both hands pulling the ankle while the shoulder-side space collapses",
-            "A palm pushing the face with the framing elbow flared away"
+            "Pull ankle with both hands, no frame",
+            "Push face with framing elbow flared"
           ],
           "trap": [
-            "A straight arm pushing the chest while the opponent closes the head-side gap"
+            "Push chest on a long, collapsing arm"
           ]
         }
       },
       {
         "question": "Carni attack: how do you anchor after the leg clears the head?",
         "answer": "Turn partly belly down with the knee close and foot supported rather than wrenching the leg across the head.",
-        "answer_line": "Turn partly belly down; keep knee close and foot supported",
+        "answer_line": "Belly down, knee in, foot supported",
         "distractors": {
           "plausible": [
-            "Stay flat and haul the foot across a fixed knee",
-            "Lift the knee away while leaving the foot behind"
+            "Stay flat; pull foot over fixed knee",
+            "Lift knee away, leaving foot behind"
           ],
           "trap": [
-            "Extend the leg and pull only with the overhook"
+            "Straight leg; pull only the overhook"
           ]
         }
       },
@@ -554,39 +554,39 @@
         "answer_line": "Around the back of their upper arm",
         "distractors": {
           "plausible": [
-            "Around the wrist while leaving the elbow free to slide back",
-            "Across the front of the shoulder without enclosing the upper arm"
+            "Around wrist, elbow free to retreat",
+            "Across shoulder front, arm unclasped"
           ],
           "trap": [
-            "On your raised knee while leaving the opposing elbow unrestrained"
+            "On your knee, their elbow free"
           ]
         }
       },
       {
         "question": "Carni attack: what should be held before adding shoulder pressure?",
         "answer": "Hold the wrist and elbow at a comfortable angle; a small change can load the shoulder rapidly.",
-        "answer_line": "The wrist and elbow at a controlled angle",
+        "answer_line": "Control the wrist and elbow angle",
         "distractors": {
           "plausible": [
-            "The wrist alone with the elbow freely escaping",
-            "The triceps alone while the hand rotates freely"
+            "Wrist alone, elbow free to escape",
+            "Triceps alone, hand free to rotate"
           ],
           "trap": [
-            "The head alone with both of their arms loose"
+            "Head alone with both arms free"
           ]
         }
       },
       {
         "question": "Carni attack: how do you permit a tapped partner to unwind safely?",
         "answer": "Release the wrist and leg clamp immediately on a tap or when the partner needs to roll safely.",
-        "answer_line": "Release the wrist and open the leg clamp",
+        "answer_line": "Free wrist and open the leg clamp",
         "distractors": {
           "plausible": [
-            "Release only the head frame while holding the wrist",
-            "Let the triceps go but keep the foot anchoring the shoulder"
+            "Free head frame but keep wrist held",
+            "Free triceps but keep shoulder clamp"
           ],
           "trap": [
-            "Keep the clamp and ask them to roll through it"
+            "Keep the clamp; ask for a roll"
           ]
         }
       },
@@ -596,25 +596,25 @@
         "answer_line": "An overhook-side shoulder connection",
         "distractors": {
           "plausible": [
-            "An underhook lifting the arm away from your high leg",
-            "A wrist-only pull with their elbow free between the bodies"
+            "Underhook lifting arm away from leg",
+            "Wrist-only pull with a free elbow"
           ],
           "trap": [
-            "A two-handed head tie with neither upper arm enclosed"
+            "Two-hand head tie, no arm captured"
           ]
         }
       },
       {
         "question": "Carni attack: what new capture would a switch to a calf slicer require?",
         "answer": "Richie Martinez demonstrates the configuration from Z guard through Jersey. The legs help anchor the upper body, but the submission target is the shoulder; a calf slicer, heel hook, or kneebar requires a separate lower-body capture.",
-        "answer_line": "A separately controlled bent leg and compression fulcrum",
+        "answer_line": "Bent-leg capture over a fulcrum",
         "distractors": {
           "plausible": [
-            "More pressure on the wrist already trapped in Carni",
-            "A tighter triceps grip without changing position"
+            "More pressure on the held wrist",
+            "Tighter triceps grip in place"
           ],
           "trap": [
-            "A further belly-down turn around the captured shoulder"
+            "Turn further around that shoulder"
           ]
         }
       }

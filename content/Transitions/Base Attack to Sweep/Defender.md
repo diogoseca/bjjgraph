@@ -88,7 +88,7 @@ description: "Base Attack to Sweep (defender): Recognize the foot orientation wi
     },
     {
       "@type": "Question",
-      "name": "Base Attack to Sweep (foot-locker): What counterattack can your hip-posting foot invite?",
+      "name": "Base Attack to Sweep (foot-locker): What counter threatens your outward hip-posting foot?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Keep track of your own exposed feet while concentrating on the captured foot."

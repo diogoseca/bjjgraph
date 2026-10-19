@@ -191,140 +191,140 @@
       {
         "question": "Rotate to Carni (bottom): What should be close before you clear the high leg?",
         "answer": "Bring the opponent close through the guard and shoulder connection before moving the head-side leg.",
-        "answer_line": "The opponent's shoulder connected to your guard",
+        "answer_line": "Their shoulder close to your guard",
         "distractors": {
           "plausible": [
-            "Only the wrist while the shoulder stays distant",
-            "Their chest upright beyond your supported knee"
+            "Only wrist close; shoulder distant",
+            "Chest upright beyond your high knee"
           ],
           "trap": [
-            "Their head close while the target arm remains free"
+            "Head close with target arm free"
           ]
         }
       },
       {
         "question": "Rotate to Carni (bottom): What preserves space as the leg travels around the head?",
         "answer": "The neck-side forearm frame manages incoming chest pressure while the high leg clears.",
-        "answer_line": "An inside forearm at the side of the neck",
+        "answer_line": "Inside forearm beside the neck",
         "distractors": {
           "plausible": [
-            "A wrist outside the incoming chest",
+            "Wrist outside the incoming chest",
             "Both hands pulling the raised foot"
           ],
           "trap": [
-            "A straight-arm pull on the captured wrist"
+            "Straight-arm pull on their wrist"
           ]
         }
       },
       {
         "question": "Rotate to Carni (bottom): Which torso angle helps anchor the shoulder clamp?",
         "answer": "The shown Carni angle combines a partial belly-down turn, a close knee and a supported foot.",
-        "answer_line": "Partly belly down with the knee close and foot supported",
+        "answer_line": "Belly down a bit; knee in, foot down",
         "distractors": {
           "plausible": [
             "Flat on the back with the knee wide",
-            "Fully upright with the high foot floating"
+            "Upright with the high foot floating"
           ],
           "trap": [
-            "Facing away with the captured arm stretched behind you"
+            "Facing away with arm extended behind"
           ]
         }
       },
       {
         "question": "Rotate to Carni (bottom): What stops the opponent freely rolling out of the shoulder clamp?",
         "answer": "Martinez retains the triceps so the arm cannot simply withdraw or roll freely from the clamp.",
-        "answer_line": "Retention of the upper arm through triceps control",
+        "answer_line": "Upper arm retained at the triceps",
         "distractors": {
           "plausible": [
-            "Only wrist control with the upper arm free",
-            "Only the neck-side frame after releasing the arm"
+            "Wrist held but upper arm free",
+            "Only neck frame with arm released"
           ],
           "trap": [
-            "Only the supported foot while the elbow slips out"
+            "Foot based while the elbow slips out"
           ]
         }
       },
       {
         "question": "Rotate to Carni (bottom): What should be checked before any wrist leverage is added?",
         "answer": "Verify the supported capture without finishing pressure; small wrist-and-elbow changes can load the fixed shoulder.",
-        "answer_line": "The arm is captured at a comfortable shoulder angle",
+        "answer_line": "Arm held at a comfortable angle",
         "distractors": {
           "plausible": [
-            "Only that the wrist can be moved farther",
-            "Only that the head-side foot has reached the mat"
+            "Only extra travel at the wrist",
+            "Only head-side foot reaching the mat"
           ],
           "trap": [
-            "Only that the lower butterfly hook remains"
+            "Only the remaining butterfly hook"
           ]
         }
       },
       {
         "question": "Rotate to Carni (bottom): Which connections must open when the partner taps?",
         "answer": "Release wrist leverage and the leg clamp immediately so the shoulder can move freely.",
-        "answer_line": "The wrist grip and shoulder-clamping leg",
+        "answer_line": "Wrist grip and shoulder-clamping leg",
         "distractors": {
           "plausible": [
-            "Only the wrist grip while the leg keeps clamping",
-            "Only the leg clamp while the wrist remains leveraged"
+            "Wrist free but leg still clamping",
+            "Leg free but wrist still leveraged"
           ],
           "trap": [
-            "Only finishing pressure while both controls remain closed"
+            "Pressure reduced but both grips held"
           ]
         }
       },
       {
         "question": "Rotate to Carni (bottom): What arm relationship should exist in the described New York start?",
         "answer": "The described entry begins with New York arm isolation and a comfortable neck-clearing angle; its direct Carni route remains conditional.",
-        "answer_line": "An isolated opposing arm linked to the knee hug",
+        "answer_line": "Isolated arm linked to the knee hug",
         "distractors": {
           "plausible": [
-            "Both opposing arms still free inside the high clinch",
-            "The target hand on the mat with the knee hug open"
+            "Both arms free in the high clinch",
+            "Hand on mat with the knee hug open"
           ],
           "trap": [
-            "The target wrist outside while its elbow returns inside"
+            "Wrist outside with elbow back inside"
           ]
         }
       },
       {
         "question": "Rotate to Carni (bottom): What must be added after head clearance to establish the shoulder lock?",
         "answer": "Clearing the head alone is not the shoulder lock; establish the upper-arm connection and supported Carni angle separately.",
-        "answer_line": "A retained upper arm in the new shoulder clamp",
+        "answer_line": "Upper arm held in the shoulder clamp",
         "distractors": {
           "plausible": [
-            "A wrist grip while the upper arm stays free",
-            "A supported foot with the elbow already outside"
+            "Wrist grip with upper arm still free",
+            "Foot supported but elbow outside"
           ],
           "trap": [
-            "A tighter head grip with no triceps retention"
+            "Tight head grip without triceps hold"
           ]
         }
       },
       {
         "question": "Rotate to Carni (bottom): The raised knee twists before the head clears; what do you change?",
         "answer": "Do not force head clearance by hauling the foot. Reopen space with the frame and hip angle or reset.",
-        "answer_line": "Release the foot pull and adjust through the hips",
+        "answer_line": "Stop foot pull; adjust the hip angle",
         "distractors": {
           "plausible": [
-            "Keep the knee fixed and pull the foot farther",
-            "Continue the hip turn while the head still blocks the leg"
+            "Knee fixed; pull the foot farther",
+            "Turn hips with head blocking the leg"
           ],
           "trap": [
-            "Add wrist leverage before making room for the foot"
+            "Add wrist load before foot clearance"
           ]
         }
       },
       {
         "question": "Rotate to Carni (bottom): Which body area does the supported rotation prepare to attack?",
         "answer": "The hip rotation establishes a leg-assisted shoulder lock; a lower-body finish would require a separate captured leg.",
-        "answer_line": "The shoulder retained by the upper-arm clamp",
+        "answer_line": "Shoulder held by the upper-arm clamp",
         "distractors": {
           "plausible": [
-            "The elbow straightened against a leg fulcrum",
-            "The wrist bent with the upper arm unrestrained"
+            "Straight elbow over a leg fulcrum",
+            "Wrist bent with upper arm free"
           ],
           "trap": [
-            "The neck compressed beneath a shin"
+            "Neck compressed beneath a shin"
           ]
         }
       }
@@ -429,42 +429,42 @@
       {
         "question": "Rotate to Carni (top): Which combination signals the emerging shoulder trap?",
         "answer": "Recognize the overhook and head-side leg as upper-body shoulder-control geometry.",
-        "answer_line": "An overhook plus a leg clearing your head",
+        "answer_line": "Overhook plus leg clearing the head",
         "distractors": {
           "plausible": [
-            "A wrist grip with both upper arms free",
-            "A high shin behind the head with no arm isolated"
+            "Wrist grip with upper arms free",
+            "High shin behind head with arms free"
           ],
           "trap": [
-            "A lower hook with the head-side leg still low"
+            "Low hook with head-side leg down"
           ]
         }
       },
       {
         "question": "Rotate to Carni (top): How do you avoid giving the triceps grip a long arm?",
         "answer": "Keep the elbow compact early rather than reaching away as the opponent establishes triceps control.",
-        "answer_line": "Keep the elbow compact beside the ribs",
+        "answer_line": "Keep elbow compact beside the ribs",
         "distractors": {
           "plausible": [
-            "Reach straight past the opponent's far hip",
-            "Post the hand behind you while turning away"
+            "Reach straight past their far hip",
+            "Post behind you while turning away"
           ],
           "trap": [
-            "Lift the elbow high with the wrist fixed"
+            "Lift elbow high with the wrist fixed"
           ]
         }
       },
       {
         "question": "Rotate to Carni (top): What can oppose the angle before your shoulder is immobilized?",
         "answer": "Use frames while space remains; once the shoulder is fixed, seek release rather than forcing the angle.",
-        "answer_line": "A balanced base and an inside forearm barrier",
+        "answer_line": "Balanced base and inside forearm",
         "distractors": {
           "plausible": [
-            "A wide floor post with the elbow away from the ribs",
-            "A chest lift before the head-side leg clears"
+            "Wide floor post with elbow away",
+            "Chest up before head-side leg clears"
           ],
           "trap": [
-            "A wrist grip with the forearm outside the chest gap"
+            "Wrist grip with forearm outside gap"
           ]
         }
       },
@@ -475,24 +475,24 @@
         "distractors": {
           "plausible": [
             "Only the lower butterfly hook",
-            "Only the wrist grip while the triceps stays held"
+            "Only wrist grip; triceps still held"
           ],
           "trap": [
-            "Only the head frame while the leg still clamps"
+            "Only head frame; leg still clamping"
           ]
         }
       },
       {
         "question": "Rotate to Carni (top): Why can rolling forward increase the lock?",
         "answer": "A forward roll is not a reliable release when wrist and triceps stay fixed. Obtain release or tap before moving through the lock.",
-        "answer_line": "The fixed arm prevents the shoulder following",
+        "answer_line": "Fixed arm stops shoulder following",
         "distractors": {
           "plausible": [
-            "The triceps slides free before the torso starts rotating",
-            "The retained wrist follows the torso without moving the shoulder"
+            "Triceps frees before torso turns",
+            "High leg lifts clear as hips rise"
           ],
           "trap": [
-            "The lower hook takes the rotation instead of the captured arm"
+            "Low hook takes turn instead of arm"
           ]
         }
       }

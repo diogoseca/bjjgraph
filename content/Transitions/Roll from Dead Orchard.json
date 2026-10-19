@@ -204,70 +204,70 @@
       {
         "question": "Roll from Dead Orchard (bottom): What holds the opponent at the start?",
         "answer": "The starting control is a bottom-player both-arm leg triangle, despite the route's rolling-escape wording.",
-        "answer_line": "Your high leg triangle around both their arms",
+        "answer_line": "Your high triangle around both arms",
         "distractors": {
           "plausible": [
-            "Your high triangle with only one arm inside",
-            "Your low ankle crossing around their waist"
+            "Your high triangle around one arm",
+            "Your low ankles around their waist"
           ],
           "trap": [
-            "Your high shin grip before the second leg closes"
+            "Your high shin before leg closure"
           ]
         }
       },
       {
         "question": "Roll from Dead Orchard (bottom): What must release before you turn or shrimp?",
         "answer": "Release both arms from the high triangle and remove any wrist leverage before changing hip direction.",
-        "answer_line": "Both captured arms and any wrist leverage",
+        "answer_line": "Both arms and any wrist leverage",
         "distractors": {
           "plausible": [
-            "Only the hand supporting your raised shin",
-            "Only one arm while the other elbow stays fixed"
+            "Only the hand holding your high shin",
+            "One arm with the other elbow fixed"
           ],
           "trap": [
-            "Only the leg squeeze while keeping both wrists under tension"
+            "Only leg squeeze; keep wrist tension"
           ]
         }
       },
       {
         "question": "Roll from Dead Orchard (bottom): How do you lower a leg during the released reset?",
         "answer": "Lower the controlling leg through a comfortable hip angle after opening the enclosure.",
-        "answer_line": "Adjust the hip while keeping the knee comfortable",
+        "answer_line": "Move the hip with the knee supported",
         "distractors": {
           "plausible": [
-            "Pull the ankle while the knee stays pinned",
-            "Turn the torso with the high legs still connected"
+            "Pull ankle while knee stays pinned",
+            "Turn torso with high legs connected"
           ],
           "trap": [
-            "Lower the foot while leaving the thigh fixed"
+            "Lower foot while thigh stays fixed"
           ]
         }
       },
       {
         "question": "Roll from Dead Orchard (bottom): Which movement restores space for an inside knee?",
         "answer": "After release, a short lateral hip escape behind a frame brings a knee between the bodies.",
-        "answer_line": "A short lateral shrimp behind a forearm frame",
+        "answer_line": "Lateral hip escape behind a frame",
         "distractors": {
           "plausible": [
-            "A bridge straight upward with no lateral hip shift",
-            "A straight-arm shove with the hips motionless"
+            "Bridge up with no sideways hip move",
+            "Straight-arm shove with hips still"
           ],
           "trap": [
-            "A lateral hip shift with the near knee left behind"
+            "Shift hips; leave near knee behind"
           ]
         }
       },
       {
         "question": "Roll from Dead Orchard (bottom): Which orientation should the reset preserve?",
         "answer": "The recovery restores facing guard rather than promising a roll into turtle.",
-        "answer_line": "Shoulders and hips facing the opponent",
+        "answer_line": "Shoulders and hips face the opponent",
         "distractors": {
           "plausible": [
-            "Chest turned away with the near arm trailing",
-            "Hips turned away while the shoulders stay in front"
+            "Chest turned away with arm trailing",
+            "Hips face away; chest toward them"
           ],
           "trap": [
-            "Head turned toward them while the torso faces away"
+            "Head toward them; torso faces away"
           ]
         }
       },
@@ -277,39 +277,39 @@
         "answer_line": "An inside forearm on their shoulder",
         "distractors": {
           "plausible": [
-            "Both hands following the released wrist",
-            "A forearm outside their approaching upper arm"
+            "Both hands following the freed wrist",
+            "Forearm outside the approaching arm"
           ],
           "trap": [
-            "A hip frame with the near shoulder path uncovered"
+            "Hip frame with shoulder path open"
           ]
         }
       },
       {
         "question": "Roll from Dead Orchard (bottom): Why must both arms be released before a large hip turn?",
         "answer": "Open the both-arm leg enclosure and release wrist leverage before changing direction. Turning while one shoulder remains caught can load that elbow or shoulder.",
-        "answer_line": "A retained elbow cannot follow the rotating torso",
+        "answer_line": "Held elbow cannot follow the torso",
         "distractors": {
           "plausible": [
-            "The turn slides both elbows free without opening the legs",
-            "Free wrists let the shoulders follow through a closed triangle"
+            "Turning frees elbows with legs shut",
+            "Free wrists free shoulders too"
           ],
           "trap": [
-            "A loose neck means the retained arms can follow the torso"
+            "Loose neck lets trapped arms follow"
           ]
         }
       },
       {
         "question": "Roll from Dead Orchard (bottom): Why is an Anaconda escape roll not the taught movement here?",
         "answer": "Dead Orchard is not an Anaconda headlock. Release the leg trap before using framed hip movement to recover guard.",
-        "answer_line": "There is no arm front headlock in the starting guard",
+        "answer_line": "Leg trap rather than arm headlock",
         "distractors": {
           "plausible": [
-            "Both controls use the same neck-first arm thread",
-            "Both controls need one arm outside the enclosure"
+            "Both use a neck-first arm thread",
+            "Both need one arm outside the loop"
           ],
           "trap": [
-            "Both controls release by peeling a supporting biceps grip"
+            "Both open by peeling a biceps grip"
           ]
         }
       }
@@ -423,56 +423,56 @@
       {
         "question": "Roll from Dead Orchard (top): What is threatened if you pull a trapped wrist away?",
         "answer": "Pulling the wrist while the shoulder remains captured can create an elbow-extension lever.",
-        "answer_line": "The elbow can extend against the high leg trap",
+        "answer_line": "Elbow extension against the leg trap",
         "distractors": {
           "plausible": [
-            "The wrist slides out before the elbow reaches extension",
-            "The shoulder leaves the triangle as the wrist moves away"
+            "Wrist exits before elbow extension",
+            "Shoulder clears as wrist moves away"
           ],
           "trap": [
-            "The high legs lower as the arm lengthens"
+            "High legs lower as the arm lengthens"
           ]
         }
       },
       {
         "question": "Roll from Dead Orchard (top): What should you avoid while the bottom player resets?",
         "answer": "Do not force posture with a long arm inside the high legs; keep the elbows compact during release.",
-        "answer_line": "Straightening an arm to force the chest upright",
+        "answer_line": "Straight-arm push for upright chest",
         "distractors": {
           "plausible": [
             "Keeping the elbows compact",
-            "Waiting for actual shoulder clearance"
+            "Waiting for shoulder clearance"
           ],
           "trap": [
-            "Using an opening once the leg trap releases"
+            "Using space once the leg trap opens"
           ]
         }
       },
       {
         "question": "Roll from Dead Orchard (top): Which event closes the early hip-framing window?",
         "answer": "Use hip or thigh frames before the shoulder-level figure-four closes. Once both shoulders are enclosed, the preventive window has passed; obtain an actual opening before withdrawing the arms.",
-        "answer_line": "The high figure-four captures both shoulders",
+        "answer_line": "High figure-four at both shoulders",
         "distractors": {
           "plausible": [
-            "The first knee approaching one shoulder",
-            "A hand briefly touching your free wrist"
+            "First knee nears one shoulder",
+            "Hand briefly touches your free wrist"
           ],
           "trap": [
-            "One high foot rising before the figure-four connects"
+            "One foot rises before legs connect"
           ]
         }
       },
       {
         "question": "Roll from Dead Orchard (top): When is turning safe enough to resume the positional drill?",
         "answer": "Resume turning only after the relevant shoulder and elbow are released; a free hand alone is insufficient.",
-        "answer_line": "After the shoulder and elbow are free of the enclosure",
+        "answer_line": "Shoulder and elbow free of the legs",
         "distractors": {
           "plausible": [
-            "When only the chin feels loose",
-            "When the bottom player turns with the legs still locked"
+            "Only the chin feels loose",
+            "Partner turns with legs still locked"
           ],
           "trap": [
-            "When your hand can move but the upper arm cannot"
+            "Hand moves but upper arm stays held"
           ]
         }
       }

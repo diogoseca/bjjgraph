@@ -204,112 +204,112 @@
       {
         "question": "Grip Strip from Buggy Choke (top): Which connection is the early grip-fighting target?",
         "answer": "Watch for an arm reaching past your head and connecting to the same-side leg.",
-        "answer_line": "Their arm joining their same-side leg around you",
+        "answer_line": "Arm joins same-side leg around you",
         "distractors": {
           "plausible": [
-            "Their hand on your shoulder with the leg unlinked",
+            "Hand on shoulder, leg unlinked",
             "Their hip frame below your ribs"
           ],
           "trap": [
-            "Their free hand at your waist after the loop is secured"
+            "Free hand at waist after loop closes"
           ]
         }
       },
       {
         "question": "Grip Strip from Buggy Choke (top): Why keep your base on the mat during the strip?",
         "answer": "Maintain grounded support and address the early connection without lifting or using the linked knee as leverage.",
-        "answer_line": "Lifting the attached partner creates a fall hazard",
+        "answer_line": "Lifting them risks an attached fall",
         "distractors": {
           "plausible": [
-            "Mat contact prevents their gripping hand from opening",
-            "Standing proves the elbow has detached from the knee"
+            "Mat contact prevents grip release",
+            "Standing proves elbow-knee release"
           ],
           "trap": [
-            "Lifting takes all tension off the retained arm-leg loop"
+            "Lifting removes all loop tension"
           ]
         }
       },
       {
         "question": "Grip Strip from Buggy Choke (top): What is the useful timing for an inside frame?",
         "answer": "Use safe inside frames before the arm-to-leg loop fully closes; do not pull or twist the partner's knee.",
-        "answer_line": "While the hand-leg loop is still forming",
+        "answer_line": "While the hand-leg loop forms",
         "distractors": {
           "plausible": [
-            "After the neck is fully enclosed under pressure",
-            "After your head starts turning inside the closed loop"
+            "After neck is tight under pressure",
+            "After turning head in the shut loop"
           ],
           "trap": [
-            "Once the elbow has closed tightly against the raised knee"
+            "Once elbow presses into raised knee"
           ]
         }
       },
       {
         "question": "Grip Strip from Buggy Choke (top): The grip opens but the loop stays snug. What must you verify?",
         "answer": "A change in hand grip does not itself establish escape; verify release of the head-and-arm enclosure.",
-        "answer_line": "Your head and arm are actually free to withdraw",
+        "answer_line": "Head and arm are free to withdraw",
         "distractors": {
           "plausible": [
-            "That their hips remain pinned to the mat",
-            "That your far knee can step around their head"
+            "Their hips remain pinned to the mat",
+            "Far knee can step around their head"
           ],
           "trap": [
-            "That the clasp is open while the elbow still hooks the knee"
+            "Clasp open, elbow still hooks knee"
           ]
         }
       },
       {
         "question": "Grip Strip from Buggy Choke (top): After clearance, where should side-control attachment act?",
         "answer": "Establish Side Control only after the head is free. Keep the shoulders and hips controlled while moving outside the legs.",
-        "answer_line": "At the upper body and hip line outside the legs",
+        "answer_line": "Upper body and hips, outside legs",
         "distractors": {
           "plausible": [
-            "At the shoulders with their inside knee still between you",
-            "At the hip with the chest lifted off their shoulders"
+            "Shoulders, inside knee still between",
+            "Hip line, chest off their shoulders"
           ],
           "trap": [
-            "At the near wrist while their hip line turns freely"
+            "Near wrist, hip line turns freely"
           ]
         }
       },
       {
         "question": "Grip Strip from Buggy Choke (top): What should precede settling a crossface?",
         "answer": "Chest and shoulder pressure belong to the new side pin after loop release, not to forcing the old choke apart.",
-        "answer_line": "Clearance of the Buggy loop and a supported pin base",
+        "answer_line": "Full loop clearance, supported base",
         "distractors": {
           "plausible": [
-            "Driving shoulder pressure through your trapped neck",
-            "Leaving their knee inside while dropping chest weight"
+            "Drive pressure through trapped neck",
+            "Drop chest with their knee inside"
           ],
           "trap": [
-            "A hand release while the elbow remains linked to the knee"
+            "Hand open, elbow linked to knee"
           ]
         }
       },
       {
         "question": "Buggy grip strip (top): Why does an opened hand grip still require a head-and-arm clearance check?",
         "answer": "A changed hand grip can leave the head-and-arm loop close around the neck. Verify that the whole enclosure is open before extracting the head or changing pins.",
-        "answer_line": "The leg and upper arm can still enclose the neck",
+        "answer_line": "Leg and upper arm may trap the neck",
         "distractors": {
           "plausible": [
-            "The released hand alone proves the elbow-knee connection has separated",
-            "A stable chest pin pulls your neck outside the remaining loop"
+            "Hand release proves elbow-knee gap",
+            "Chest pin pulls neck out of the loop"
           ],
           "trap": [
-            "Moving your hips to a new angle clears the neck before the arm moves"
+            "Hip turn frees neck before arm moves"
           ]
         }
       },
       {
         "question": "Grip Strip from Buggy Choke (top): Why is a new pin name insufficient proof of escape?",
         "answer": "Changing pins does not itself prove that the choke is gone. Clear the arm-and-leg loop first, and do not lift or slam the partner to escape.",
-        "answer_line": "The head may still be enclosed by the old loop",
+        "answer_line": "Head may remain inside the old loop",
         "distractors": {
           "plausible": [
-            "Reaching north-south proves the elbow-to-knee connection opened",
-            "Keeping chest pressure means the neck has passed beyond the leg"
+            "North-south proves the loop opened",
+            "Chest pressure means neck is clear"
           ],
           "trap": [
-            "Circling the hips draws the trapped shoulder out before the head"
+            "Hip circling proves loop clearance"
           ]
         }
       }
@@ -410,14 +410,14 @@
       {
         "question": "Grip Strip from Buggy Choke (bottom): What body angle makes your hand-leg connection easier?",
         "answer": "Use safe shoulder and hip frames to turn partly onto the side before reaching for the leg.",
-        "answer_line": "Partly on your ribs with hips shifted out",
+        "answer_line": "Partly on ribs, hips shifted out",
         "distractors": {
           "plausible": [
-            "Fully flat with the reaching elbow far from the knee",
-            "Partly on your ribs with the hip extended away from the knee"
+            "Flat, reaching elbow far from knee",
+            "On ribs, hip extends away from knee"
           ],
           "trap": [
-            "Flat with the shoulder pushed away from the raised knee"
+            "Flat, shoulder away from raised knee"
           ]
         }
       },
@@ -427,25 +427,25 @@
         "answer_line": "The opponent's head and one arm",
         "distractors": {
           "plausible": [
-            "Only their elbow with the head outside",
-            "Their head alone while both arms remain outside"
+            "Only their elbow, head outside",
+            "Head only, both arms left outside"
           ],
           "trap": [
-            "Your own thigh regardless of their position"
+            "Your thigh, wherever their head is"
           ]
         }
       },
       {
         "question": "Grip Strip from Buggy Choke (bottom): How should you preserve a compact elbow-knee connection?",
         "answer": "Shorten the connection through body position, not by pulling the foot hard toward the face.",
-        "answer_line": "Change body angle instead of pulling the foot",
+        "answer_line": "Use side angle, not foot pulling",
         "distractors": {
           "plausible": [
-            "Draw the foot hard across a stationary knee",
-            "Straighten the linking arm to resist the strip"
+            "Pull foot across a stationary knee",
+            "Straighten linking arm against strip"
           ],
           "trap": [
-            "Extend the ribs away to tighten the loop"
+            "Extend ribs away to tighten loop"
           ]
         }
       },
@@ -456,24 +456,24 @@
         "distractors": {
           "plausible": [
             "Lift the shoulder away from the hip",
-            "Move your hips away while keeping the shoulder high"
+            "Move hips away, keep shoulder high"
           ],
           "trap": [
-            "Keep your torso extended and tighten only your hands"
+            "Extend torso, tighten only hands"
           ]
         }
       },
       {
         "question": "Grip Strip from Buggy Choke (bottom): Your grip is stripped. What should replace the lost loop?",
         "answer": "Use a disengaging opponent's movement to insert frames and knees if the choke is lost.",
-        "answer_line": "An inside shoulder frame and knee recovery",
+        "answer_line": "Inside shoulder frame, knee recovery",
         "distractors": {
           "plausible": [
-            "Both hands reaching after the same foot",
-            "A turn away with the near elbow flared"
+            "Both hands reach for the same foot",
+            "Turn away with near elbow flared"
           ],
           "trap": [
-            "A hip shift with the near knee left outside"
+            "Shift hips, leave near knee outside"
           ]
         }
       }

@@ -44,28 +44,28 @@
       {
         "question": "Invisible Collar defense: what is the free leg trying to achieve as it moves behind your head?",
         "answer": "The free leg moving behind your head is an attempt to reinforce posture control, even without a collar grip.",
-        "answer_line": "Reinforce the high posture-control enclosure",
+        "answer_line": "Reinforce the high posture clinch",
         "distractors": {
           "plausible": [
-            "Complete a both-shoulder triangle regardless of the isolated elbow",
-            "Place the shin under the chin as a direct choking surface"
+            "Form a triangle regardless of elbows",
+            "Put the shin beneath the chin"
           ],
           "trap": [
-            "Replace the first high leg with an ankle crossing at the waist"
+            "Replace high leg with a waist clamp"
           ]
         }
       },
       {
         "question": "Invisible Collar defense: how should you manage your head and captured elbow while still enclosed?",
         "answer": "Keep the head aligned and the captured elbow compact rather than twisting against the enclosure.",
-        "answer_line": "Keep the head aligned and elbow compact",
+        "answer_line": "Head aligned, held elbow compact",
         "distractors": {
           "plausible": [
-            "Twist the head while straightening the trapped arm",
-            "Pull the elbow wide to lift the chin"
+            "Twist head and extend trapped arm",
+            "Pull elbow wide to lift your chin"
           ],
           "trap": [
-            "Rotate the torso while the neck remains fixed"
+            "Rotate torso with the neck fixed"
           ]
         }
       },
@@ -75,81 +75,81 @@
         "answer_line": "Across the shoulders and upper back",
         "distractors": {
           "plausible": [
-            "Across their hips with the upper back left unloaded",
-            "Into their bent knees while the shoulders remain clear of the mat"
+            "Across hips, upper back unloaded",
+            "Into bent knees, shoulders raised"
           ],
           "trap": [
-            "Through their hands while the torso stays free to turn"
+            "Through hands, with the torso free"
           ]
         }
       },
       {
         "question": "Invisible Collar defense: how should you create room before recovering upright posture?",
         "answer": "Create space at the hip and thigh before raising the head or extracting the arm. Pulling against a fixed knee or trapped shoulder does not safely supply that clearance.",
-        "answer_line": "Frame the hip and thigh before raising the head",
+        "answer_line": "Frame hip and thigh, then raise head",
         "distractors": {
           "plausible": [
-            "Pull the ankle sideways while leaving the knee fixed",
-            "Lift the chin while the high-leg enclosure stays closed"
+            "Pull ankle sideways, knee fixed",
+            "Lift chin with high legs closed"
           ],
           "trap": [
-            "Drag the wrist away while leaving the captured shoulder in place"
+            "Drag wrist, leaving shoulder fixed"
           ]
         }
       },
       {
         "question": "Invisible Collar defense: after the high closure opens, where should the isolated elbow return?",
         "answer": "Bring the elbow back between the bodies after the high closure opens.",
-        "answer_line": "Between the two bodies near your ribs",
+        "answer_line": "Between bodies, near your ribs",
         "distractors": {
           "plausible": [
-            "Far outside the opponent's raised knee",
-            "Straight past the opponent's head"
+            "Far outside their raised knee",
+            "Straight past the opposing head"
           ],
           "trap": [
-            "Behind your torso with the hand on the mat"
+            "Behind your torso, hand on mat"
           ]
         }
       },
       {
         "question": "Invisible Collar defense: why is early posture recovery different from a late escape guarantee?",
         "answer": "Tap immediately to a choke or joint pressure; posture recovery is an early defense, not a late escape guarantee.",
-        "answer_line": "A secured neck or joint restraint can already be loaded",
+        "answer_line": "Neck or joint may already be loaded",
         "distractors": {
           "plausible": [
-            "A higher chin indicates that the shoulder restraint has opened",
-            "A wrist that moves outside the legs proves the elbow is released"
+            "A higher chin means shoulder freed",
+            "A moving wrist proves elbow release"
           ],
           "trap": [
-            "A loosened knee hug removes the need to check the neck connection"
+            "No neck risk once knee hug loosens"
           ]
         }
       },
       {
         "question": "Invisible Collar defense: what new contact must you account for after the free leg rises?",
         "answer": "The opponent faces you from high guard. The second leg reinforces the posture-control enclosure, so the original high shin is no longer its only leg contact.",
-        "answer_line": "A second leg reinforcing the first behind your head",
+        "answer_line": "A second leg bracing the first",
         "distractors": {
           "plausible": [
-            "The first shin has been replaced by a low ankle crossing",
-            "Both hands now hold the collar while the high legs stay open"
+            "A low ankle crossing replaces shin",
+            "Both hands on collar, high legs open"
           ],
           "trap": [
-            "The isolated elbow has returned inside the first knee"
+            "Your elbow inside the first knee"
           ]
         }
       },
       {
         "question": "Invisible Collar defense: which feature distinguishes its basic path from an unisolated high guard?",
         "answer": "The collar is a leg-based posture-control configuration; it does not require a jacket collar or place the attacker behind the opponent. Neck-cleared arm isolation distinguishes the basic path from a high guard that still contains both arms.",
-        "answer_line": "An arm isolated before the neck-cleared high closure",
+        "answer_line": "Arm trap, neck clear, high closure",
         "distractors": {
           "plausible": [
-            "Both elbows framing inside while only the high leg position changes",
-            "Both shoulders enclosed without first clearing the controlling hand"
+            "Both elbows inside, high leg moves",
+            "Both shoulders in, hand not cleared"
           ],
           "trap": [
-            "A low ankle crossing with the upper-body frames still available"
+            "Low crossed ankles, frames available"
           ]
         }
       }
@@ -391,42 +391,42 @@
       {
         "question": "Invisible Collar control: what must stay separated from the inside framing space?",
         "answer": "Keep the elbow separated from an inside frame before closing the second leg.",
-        "answer_line": "The opponent's previously isolated elbow",
+        "answer_line": "The previously isolated elbow",
         "distractors": {
           "plausible": [
-            "Only their wrist while the same elbow returns between your chests",
-            "Only their head while both elbows recover inside your legs"
+            "Wrist alone, elbow back inside",
+            "Head alone, both elbows inside"
           ],
           "trap": [
-            "Only their free elbow while the previously trapped one frames inside"
+            "Free elbow, held arm framing inside"
           ]
         }
       },
       {
         "question": "Invisible Collar control: what should remain while your second leg rises?",
         "answer": "Maintain the cleared hand position and knee hug as the free leg comes higher.",
-        "answer_line": "The cleared hand position and knee hug",
+        "answer_line": "The cleared hand and knee hug",
         "distractors": {
           "plausible": [
-            "An unsupported ankle with the knee dropped away",
-            "Both hands posted behind your own hips"
+            "Unsupported ankle with knee dropped",
+            "Both hands posted behind your hips"
           ],
           "trap": [
-            "Their captured elbow returned inside your chest line"
+            "Their held elbow back between chests"
           ]
         }
       },
       {
         "question": "Invisible Collar control: how should you bring the free leg into the high clinch?",
         "answer": "Bring the second leg into the high clinch through hip motion; do not pull the foot into position against resistance.",
-        "answer_line": "Move through your hips with the knee supported",
+        "answer_line": "Move hips with the knee supported",
         "distractors": {
           "plausible": [
-            "Pull the foot inward while its knee stays fixed",
-            "Keep the pelvis flat and force the ankle past resistance"
+            "Pull foot inward, knee fixed",
+            "Stay flat and force ankle past head"
           ],
           "trap": [
-            "Let the knee hang away while hauling the heel upward"
+            "Let knee drift as heel is hauled up"
           ]
         }
       },
@@ -436,67 +436,67 @@
         "answer_line": "The connected high-leg configuration",
         "distractors": {
           "plausible": [
-            "A hard twist of the neck with both hands",
+            "A hard neck twist with both hands",
             "A pull on the trapped wrist alone"
           ],
           "trap": [
-            "Pressure on the throat while both legs loosen"
+            "Throat pressure with both legs loose"
           ]
         }
       },
       {
         "question": "Invisible Collar control: why must you track the opponent's free arm?",
         "answer": "Monitor frames and posture so an arm extraction does not silently undo the control.",
-        "answer_line": "Its framing can help extract the isolated arm",
+        "answer_line": "Its frame can free the trapped arm",
         "distractors": {
           "plausible": [
-            "Its outside wrist position proves the trapped elbow has already escaped",
-            "Its hand post replaces the need for the opponent to free the high leg"
+            "Wrist outside proves elbow escape",
+            "Posting replaces clearing the leg"
           ],
           "trap": [
-            "Its grip on the shin stops the opponent needing an inside elbow frame"
+            "Shin grip replaces an inside frame"
           ]
         }
       },
       {
         "question": "Invisible Collar control: what is the reset if you become stacked or your knee is uncomfortable?",
         "answer": "Release the high clinch and rebuild ordinary frames if the position becomes a stack or causes knee discomfort.",
-        "answer_line": "Open the high clinch and rebuild ordinary guard frames",
+        "answer_line": "Open clinch; rebuild guard frames",
         "distractors": {
           "plausible": [
-            "Pull both ankles harder to preserve the closure",
-            "Keep the knee fixed while rotating the foot"
+            "Pull both ankles harder to hold it",
+            "Keep knee fixed while turning foot"
           ],
           "trap": [
-            "Hold the enclosure until the opponent lifts you upright"
+            "Hold until they lift you upright"
           ]
         }
       },
       {
         "question": "Invisible Collar control: which body adjustment helps the reinforcing leg reach comfortably?",
         "answer": "Face the opponent from underneath and adjust your hips to bring the supported leg into reach. Do not force the foot across a fixed knee to imitate the shape.",
-        "answer_line": "Angle the hips while keeping the raised knee supported",
+        "answer_line": "Angle hips; support the raised knee",
         "distractors": {
           "plausible": [
-            "Keep the pelvis flat and pull the rising ankle past the head",
-            "Let the raised knee drift away while the foot stays caught"
+            "Stay flat; pull ankle past the head",
+            "Let knee drift with the foot caught"
           ],
           "trap": [
-            "Turn the torso away while leaving the bent leg fixed under pressure"
+            "Turn away, bent leg fixed under load"
           ]
         }
       },
       {
         "question": "Invisible Collar control: what does the word collar refer to in this position?",
         "answer": "The collar is a leg-based posture-control configuration; it does not require a jacket collar or place the attacker behind the opponent. Neck-cleared arm isolation distinguishes the basic path from a high guard that still contains both arms.",
-        "answer_line": "A leg-based enclosure controlling upper-body posture",
+        "answer_line": "High legs enclosing the upper body",
         "distractors": {
           "plausible": [
-            "An arm-only loop squeezing the neck with both legs relaxed",
-            "A single high shin used only as a surface under the chin"
+            "Arm-only neck loop, legs relaxed",
+            "Single shin used beneath the chin"
           ],
           "trap": [
-            "An ankle crossing at the waist while both upper-body frames remain free"
+            "Low crossed ankles, arm frames free"
           ]
         }
       }

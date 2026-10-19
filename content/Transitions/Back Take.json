@@ -182,84 +182,84 @@
       {
         "question": "Back Take (attacker): Where does the second leg sit in the starting Crackhead clinch?",
         "answer": "The starting control is a facing high guard reinforced by a second leg behind the head.",
-        "answer_line": "High behind the facing opponent's head",
+        "answer_line": "High behind the facing player's head",
         "distractors": {
           "plausible": [
-            "Low across the facing opponent's waist",
-            "On the facing opponent's hip beneath the elbow"
+            "Low across the facing player's waist",
+            "On their hip beneath the elbow"
           ],
           "trap": [
-            "Across the near upper arm below the shoulder"
+            "Across upper arm below the shoulder"
           ]
         }
       },
       {
         "question": "Back Take (attacker): The high clinch twists your knee; what releases that load?",
         "answer": "Release the optional high clinch when the knee is twisted; do not preserve it through the turn.",
-        "answer_line": "Open the high legs before changing the hip angle",
+        "answer_line": "Open high legs before moving hips",
         "distractors": {
           "plausible": [
-            "Pull the foot closer while keeping the knee fixed",
-            "Turn belly down with the feet still linked"
+            "Pull foot closer with the knee fixed",
+            "Turn belly down with feet linked"
           ],
           "trap": [
-            "Relax the shin grip but keep the high legs closed"
+            "Release shin grip; keep legs closed"
           ]
         }
       },
       {
         "question": "Back Take (attacker): What must happen before turning out of the facing high clinch?",
         "answer": "Release the original upper-body connection before changing orientation. The source does not demonstrate a continuous rear entry.",
-        "answer_line": "Open the original leg-and-arm connection",
+        "answer_line": "Open the original leg and arm grips",
         "distractors": {
           "plausible": [
-            "Keep both feet high and rotate underneath",
-            "Keep the neck fixed while shifting your hips"
+            "Keep feet high and rotate underneath",
+            "Keep neck fixed while shifting hips"
           ],
           "trap": [
-            "Lower one foot but retain the trapped arm and head"
+            "Lower a foot; keep arm and head held"
           ]
         }
       },
       {
         "question": "Back Take (attacker): Which contact is needed before adding rear hooks?",
         "answer": "Rear torso access is a separate prerequisite; the starting Crackhead clinch does not provide it.",
-        "answer_line": "Your chest connected behind the opponent's back",
+        "answer_line": "Your chest against their upper back",
         "distractors": {
           "plausible": [
-            "Your chest facing the opponent's chest",
-            "Your shoulder beside their ribs with a gap behind them"
+            "Your chest facing their chest",
+            "Your shoulder by ribs; back gap open"
           ],
           "trap": [
-            "Your hands linked behind them while your chest stays in front"
+            "Hands behind them; chest in front"
           ]
         }
       },
       {
         "question": "Back Take (attacker): Which combination retains shoulders and hips after separate rear access?",
         "answer": "After separately obtaining rear access, coordinate upper-body and leg attachment to contain shoulders and hips.",
-        "answer_line": "Leg attachment combined with upper-body control",
+        "answer_line": "Leg attachment plus upper-body grip",
         "distractors": {
           "plausible": [
-            "Upper-body attachment with both legs disengaged",
-            "A leg hook while your chest loses the back"
+            "Upper-body grip with legs disengaged",
+            "Leg hook with chest away from back"
           ],
           "trap": [
-            "Both arms above the shoulders with knees spread away"
+            "Arms high with knees spread away"
           ]
         }
       },
       {
         "question": "Back Take (attacker): What indicates rear control is not yet stable?",
         "answer": "If the opponent can simply turn to face you, stabilize the rear attachment before considering a back attack.",
-        "answer_line": "The opponent can freely turn their chest toward you",
+        "answer_line": "They can turn freely to face you",
         "distractors": {
           "plausible": [
-            "Your chest follows behind their shoulder line",
-            "Your legs contain the opponent's hip movement"
+            "Your chest follows their shoulders",
+            "Your legs contain their hip movement"
           ],
           "trap": [
-            "Your grip stays connected without neck pressure"
+            "Your grip holds without neck loading"
           ]
         }
       },
@@ -269,53 +269,53 @@
         "answer_line": "Toward the bottom guard player",
         "distractors": {
           "plausible": [
-            "Away, with the guard player behind the shoulders",
-            "Sideways, with the guard player beside the ribs"
+            "Away from a player at their back",
+            "Sideways to a player beside the ribs"
           ],
           "trap": [
-            "Upward, with the guard player above the chest"
+            "Up at a player above their chest"
           ]
         }
       },
       {
         "question": "Back Take (attacker): Why does high-leg closure alone not establish back control?",
         "answer": "The facing upper-body clinch and rear chest-to-back control are distinct configurations; no direct route is established here.",
-        "answer_line": "Facing posture control lacks rear attachment",
+        "answer_line": "Facing clinch lacks rear attachment",
         "distractors": {
           "plausible": [
-            "It provides rear attachment but still lacks hooks",
-            "It provides hooks but still lacks a seatbelt"
+            "Rear attachment but still no hooks",
+            "Rear hooks but still no seatbelt"
           ],
           "trap": [
-            "It provides a seatbelt but still lacks head control"
+            "Seatbelt but still no head control"
           ]
         }
       },
       {
         "question": "Back Take (attacker): An arm remains trapped as your partner turns; what must you release?",
         "answer": "Release the trapped arm connection before the body turns; preserving it can turn a positional movement into joint loading.",
-        "answer_line": "The arm connection before allowing the turn",
+        "answer_line": "The arm connection before the turn",
         "distractors": {
           "plausible": [
-            "Only your lower foot while retaining the wrist",
-            "Only chest pressure while retaining the elbow"
+            "Only lower foot; retain the wrist",
+            "Only chest weight; retain the elbow"
           ],
           "trap": [
-            "Only the head grip while retaining the arm clamp"
+            "Only head grip; retain the arm clamp"
           ]
         }
       },
       {
         "question": "Back Take (attacker): After opening high guard, what is the next separate drill checkpoint?",
         "answer": "Practice a separately established rear attachment only after releasing the original guard; this is not a sourced continuous back take.",
-        "answer_line": "Establish chest-to-back contact without a neck crank",
+        "answer_line": "Chest-to-back contact; neck unloaded",
         "distractors": {
           "plausible": [
-            "Reach behind the shoulders while the chests still face",
-            "Move beside the ribs with no contact behind the shoulders"
+            "Reach behind from chest-to-chest",
+            "Beside ribs without back contact"
           ],
           "trap": [
-            "Add a leg hook while leaving a gap behind the back"
+            "Add a hook; leave the back gap open"
           ]
         }
       }
@@ -429,70 +429,70 @@
       {
         "question": "Back Take (defender): Before a seatbelt closes, how do you deny rear access?",
         "answer": "While still free to turn, keep the shoulder line facing the opponent instead of offering chest-to-back contact.",
-        "answer_line": "Keep your shoulders facing the opponent",
+        "answer_line": "Keep shoulders facing the opponent",
         "distractors": {
           "plausible": [
-            "Turn only your head toward the opponent",
-            "Turn your hips toward them but leave the shoulders away"
+            "Turn only your head toward them",
+            "Hips toward them; shoulders away"
           ],
           "trap": [
-            "Reach for their wrist while leaving the back exposed"
+            "Grab their wrist with back exposed"
           ]
         }
       },
       {
         "question": "Back Take (defender): An arm approaches your neck during rear entry; what do you address?",
         "answer": "Address the approaching neck arm early with hand fighting while maintaining balance.",
-        "answer_line": "Hand fight the approaching arm while keeping base",
+        "answer_line": "Hand fight the neck arm; keep base",
         "distractors": {
           "plausible": [
-            "Control the lower seatbelt hand and leave the neck arm free",
-            "Tuck the chin while leaving both hands on their hook"
+            "Hold lower hand; leave neck arm free",
+            "Chin tucked; both hands on hook"
           ],
           "trap": [
-            "Turn the head away before controlling the entering wrist"
+            "Turn head before holding their wrist"
           ]
         }
       },
       {
         "question": "Back Take (defender): How should your elbows move while turning to face?",
         "answer": "Turn with compact elbows rather than leaving an isolated arm behind the torso.",
-        "answer_line": "Stay close to the ribs through available space",
+        "answer_line": "Keep elbows by ribs during the turn",
         "distractors": {
           "plausible": [
-            "Reach both hands beyond the opponent's far shoulder",
-            "Leave one elbow behind the turning torso"
+            "Reach past the far shoulder",
+            "Leave an elbow behind your torso"
           ],
           "trap": [
-            "Flare both elbows to clear the approaching hands"
+            "Flare elbows to clear their hands"
           ]
         }
       },
       {
         "question": "Back Take (defender): What barrier can you restore after the high clinch opens?",
         "answer": "Once the original control opens, use hip movement to reconnect elbow and knee and deny rear shoulder-and-hip access.",
-        "answer_line": "An inside elbow connected to an inside knee",
+        "answer_line": "Inside elbow linked to inside knee",
         "distractors": {
           "plausible": [
-            "An elbow frame with the near knee left outside",
-            "An inside knee with the near elbow reaching away"
+            "Elbow frame with near knee outside",
+            "Inside knee with near elbow reaching"
           ],
           "trap": [
-            "An elbow touching a knee behind the passing torso"
+            "Elbow and knee joined behind them"
           ]
         }
       },
       {
         "question": "Back Take (defender): A foot or arm remains fixed during your turn; what comes first?",
         "answer": "A positional escape must wait for limb release; do not rotate against a fixed foot or arm.",
-        "answer_line": "Free the trapped limb before changing direction",
+        "answer_line": "Free the limb before changing course",
         "distractors": {
           "plausible": [
-            "Turn the torso while leaving the captured limb in place",
-            "Change the hip angle while maintaining the tight capture"
+            "Turn torso with trapped limb fixed",
+            "Change hip angle with capture tight"
           ],
           "trap": [
-            "Relax the torso but keep the foot or arm enclosed"
+            "Relax torso but keep limb enclosed"
           ]
         }
       }

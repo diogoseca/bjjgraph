@@ -234,81 +234,81 @@
         "answer_line": "Their torso from behind",
         "distractors": {
           "plausible": [
-            "Their upper body from a facing half guard only",
-            "Their ankle while letting their torso move freely"
+            "Facing half-guard control alone",
+            "Ankle grip with torso free"
           ],
           "trap": [
-            "Their wrist while your chest faces their knees"
+            "Wrist grip facing their knees"
           ]
         }
       },
       {
         "question": "Suloev Stretch attack: what opportunity does the opponent's tripod create?",
         "answer": "Raised hips expose an ankle to your rear reach. Work only when the opponent's raised hips expose an ankle without sacrificing your balance.",
-        "answer_line": "Raised hips expose an ankle to your rear reach",
+        "answer_line": "Raised hips expose an ankle",
         "distractors": {
           "plausible": [
-            "A bent calf automatically folds over your shin",
-            "Both knees become fixed without any grip"
+            "A bent calf folds over your shin",
+            "Both knees fix without a grip"
           ],
           "trap": [
-            "Their neck enters a front-headlock enclosure"
+            "Neck enters a front headlock"
           ]
         }
       },
       {
         "question": "Suloev Stretch attack: which hand reaches for the available ankle in the reviewed finish?",
         "answer": "The hand opposite the captured leg. Reach down with the opposite hand and secure the lower leg while maintaining rear torso control.",
-        "answer_line": "The hand opposite the captured leg",
+        "answer_line": "Hand opposite the captured leg",
         "distractors": {
           "plausible": [
-            "The same-side hand while the opposite arm releases the torso",
-            "Both hands together with no rear attachment"
+            "Same-side hand, rear arm released",
+            "Both hands without rear contact"
           ],
           "trap": [
-            "Neither hand; the heel is caught only by a calf hook"
+            "No hand, just a calf hook"
           ]
         }
       },
       {
         "question": "Suloev Stretch attack: what line should the captured leg follow?",
         "answer": "Its natural extension line without sideways knee rotation. Arrange the leg so it extends in its natural line rather than rotating sideways at the knee.",
-        "answer_line": "Its natural extension line without sideways knee rotation",
+        "answer_line": "Natural extension without knee twist",
         "distractors": {
           "plausible": [
-            "A sideways twist beneath a stationary kneecap",
-            "A deep knee fold compressed over your shin"
+            "Sideways under a fixed kneecap",
+            "Deep knee fold over your shin"
           ],
           "trap": [
-            "An inward foot turn against a fixed thigh"
+            "Foot turned in against fixed thigh"
           ]
         }
       },
       {
         "question": "Suloev Stretch practice: how far toward the leg's extension limit should a control-only drill go?",
         "answer": "Stop short of end range after the aligned capture. Identify the aligned stretch configuration without testing the partner's available range or adding a weight drop. Rehearse prompt release and a supported reset.",
-        "answer_line": "Stop short of end range after the aligned capture",
+        "answer_line": "Aligned capture short of end range",
         "distractors": {
           "plausible": [
-            "Continue until the partner's flexibility prevents more motion",
-            "Reach the extension limit before removing body weight"
+            "Until flexibility halts movement",
+            "At full range before unloading"
           ],
           "trap": [
-            "Bounce against the limit to locate the stopping point"
+            "Bounce at the limit to find it"
           ]
         }
       },
       {
         "question": "Suloev Stretch attack: when must you remove the ankle restraint after a tap?",
         "answer": "At once, before adding extension or changing direction. Let the ankle go immediately, then help the partner regain a supported base. Do not retain the capture while turning or extending farther.",
-        "answer_line": "At once, before adding extension or changing direction",
+        "answer_line": "At once, before more load or turning",
         "distractors": {
           "plausible": [
-            "After finishing the planned body-weight drop",
-            "Only when the partner can roll out of the leg line"
+            "After the planned weight drop",
+            "Only once they roll out of the leg"
           ],
           "trap": [
-            "Once another stretch tests the partner's remaining range"
+            "After testing more stretching range"
           ]
         },
         "safety_critical": true
@@ -316,42 +316,42 @@
       {
         "question": "Suloev Stretch: what hand connections follow the toe-to-biceps placement in the later variation?",
         "answer": "Palm-to-palm support followed by double-wrist control. The later demonstration first receives the toes at the biceps, then adds the shown hand connections. This is a rear-control leg capture; Half Guard alone is not the demonstrated starting configuration.",
-        "answer_line": "Palm-to-palm support followed by double-wrist control",
+        "answer_line": "Palm-to-palm, then double wrist",
         "distractors": {
           "plausible": [
-            "A single fingertip grip at the ankle with the other hand posted",
-            "Two hands on the knee while the toes leave the arm"
+            "Fingers on ankle, other hand posted",
+            "Hands on knee with toes outside"
           ],
           "trap": [
-            "Both hands behind the partner's neck instead of around the foot"
+            "Both hands behind their neck"
           ]
         }
       },
       {
         "question": "Suloev Stretch attack: which joint remains at risk despite the hamstring-stretching emphasis?",
         "answer": "The knee if the restrained leg is overloaded or twisted. Sterling and Gonzalez specifically warn against lateral force at the knee. Stop at an unloaded, aligned capture rather than testing flexibility or dropping body weight.",
-        "answer_line": "The knee if the restrained leg is overloaded or twisted",
+        "answer_line": "The knee under excess load or twist",
         "distractors": {
           "plausible": [
-            "Only the ankle because the knee is straight",
-            "Only the hip because the foot has no lever"
+            "Only ankle, since knee is straight",
+            "Only hip, since foot has no lever"
           ],
           "trap": [
-            "No joint once the athlete has enough hamstring flexibility"
+            "Flexible hamstrings spare all joints"
           ]
         }
       },
       {
         "question": "Suloev Stretch practice: which movement adds dangerous load to an otherwise aligned capture?",
         "answer": "Dropping or bouncing your weight onto the stretch. Use a cooperative entry and stop at the aligned capture. Never drop onto the stretch, bounce the leg, or roll sideways while the ankle is fixed.",
-        "answer_line": "Dropping or bouncing your weight onto the stretch",
+        "answer_line": "Drop or bounce into the stretch",
         "distractors": {
           "plausible": [
-            "Holding the ankle without increasing extension",
-            "Maintaining rear attachment during a cooperative reach"
+            "Ankle held without more extension",
+            "Rear contact during a gentle reach"
           ],
           "trap": [
-            "Releasing the ankle before the partner turns"
+            "Releasing ankle before they turn"
           ]
         },
         "safety_critical": true
@@ -359,28 +359,28 @@
       {
         "question": "Suloev Stretch practice: which tissue along the back of the thigh is stretched by the aligned leg?",
         "answer": "The hamstring region of the captured leg. Sterling and Gonzalez describe the straight-leg stretch and the hamstring region. The knee can still be injured, so stop at an unloaded capture and avoid a sideways fall or end-range extension.",
-        "answer_line": "The hamstring region of the captured leg",
+        "answer_line": "The captured leg hamstrings",
         "distractors": {
           "plausible": [
-            "The calf compressed around a shin behind the knee",
-            "The front of the ankle pinched under an armpit"
+            "Calf around a shin in the knee fold",
+            "Front of ankle under an armpit"
           ],
           "trap": [
-            "The knee forced sideways against an immobile foot"
+            "Knee forced sideways over fixed foot"
           ]
         }
       },
       {
         "question": "Suloev Stretch practice: what must be free before your partner turns to reset?",
         "answer": "The ankle and the restraints controlling the torso. Use a cooperative entry and stop at the aligned capture. Never drop onto the stretch, bounce the leg, or roll sideways while the ankle is fixed.",
-        "answer_line": "The ankle and the restraints controlling the torso",
+        "answer_line": "Ankle and torso restraints",
         "distractors": {
           "plausible": [
-            "Only the fingers while the ankle remains wedged",
-            "Only their head while the captured leg stays extended"
+            "Fingers only, ankle still wedged",
+            "Head only, leg still extended"
           ],
           "trap": [
-            "The free leg while the held ankle stays elevated"
+            "Free leg only, held ankle elevated"
           ]
         },
         "safety_critical": true
@@ -391,123 +391,123 @@
         "answer_line": "One of the defender's leg posts",
         "distractors": {
           "plausible": [
-            "Both of the defender's hand posts together",
-            "The rider's own shoulder contact with the mat"
+            "Both defending hands at once",
+            "The rider's shoulder mat contact"
           ],
           "trap": [
-            "The opponent's neck support without changing the legs"
+            "Neck support with legs unchanged"
           ]
         }
       },
       {
         "question": "Suloev Stretch attack: what arm posture accompanies the defender rebuilding base before the tripod?",
         "answer": "Elbows beside the ribs as the knees return underneath. In the reviewed demonstration the defender brings the elbows toward the ribs and recovers the knees to build base. The subsequent raised-hip tripod can still expose an ankle to the rear player.",
-        "answer_line": "Elbows beside the ribs as the knees return underneath",
+        "answer_line": "Elbows at ribs, knees beneath hips",
         "distractors": {
           "plausible": [
-            "Arms locked straight behind the hips",
-            "Elbows flared away while the knees remain extended"
+            "Arms straight behind the hips",
+            "Elbows wide, knees still extended"
           ],
           "trap": [
-            "Both wrists trapped overhead while the neck takes the weight"
+            "Wrists overhead, weight on neck"
           ]
         }
       },
       {
         "question": "Suloev Stretch attack: which leg attachment is shown as an alternative to loose double hooks?",
         "answer": "A crossed grapevine-style leg connection. Sterling and Gonzalez contrast loose double hooks on the sloping tripod with a crossed attachment that retains the rear ride while the hand reaches down in stages. Establish that control cooperatively before an unloaded ankle capture.",
-        "answer_line": "A crossed grapevine-style leg connection",
+        "answer_line": "A crossed grapevine leg connection",
         "distractors": {
           "plausible": [
-            "Both heels hanging loosely without a connected leg clamp",
-            "Two extended legs trailing away from the opponent's hips"
+            "Both heels hanging with no clamp",
+            "Straight legs trailing behind hips"
           ],
           "trap": [
-            "A conventional high body triangle substituted without changing its angle"
+            "High body triangle at the old angle"
           ]
         }
       },
       {
         "question": "Suloev Stretch attack: which two risks follow an uncontrolled reach for a distant ankle?",
         "answer": "Losing rear control and loading the captured leg. Control the torso from behind before reaching below the hips. Work only when the opponent's raised hips expose an ankle without sacrificing your balance.",
-        "answer_line": "Losing rear control and loading the captured leg",
+        "answer_line": "Lost rear control and leg overload",
         "distractors": {
           "plausible": [
-            "An ankle grip alone automatically secures the upper body",
-            "Reaching farther always prevents the opponent standing"
+            "Ankle grip alone secures the torso",
+            "A longer reach prevents standing"
           ],
           "trap": [
-            "Losing your base makes the knee immune to sideways load"
+            "Lost base prevents knee side load"
           ]
         }
       },
       {
         "question": "Suloev Stretch attack: how does the hand progress from its first leg contact toward the ankle?",
         "answer": "In small stages along the leg while maintaining contact. Work down the leg in controlled increments instead of sacrificing balance to reach a distant ankle. The initial knee contact and the later ankle capture are separate checkpoints.",
-        "answer_line": "In small stages along the leg while maintaining contact",
+        "answer_line": "Slide down in small connected steps",
         "distractors": {
           "plausible": [
-            "By letting go and diving directly beyond the foot",
-            "By pulling sideways across the knee in one motion"
+            "Let go and dive past the foot",
+            "Pull sideways across the knee"
           ],
           "trap": [
-            "By dropping torso weight before moving the hand"
+            "Drop weight before moving the hand"
           ]
         }
       },
       {
         "question": "Suloev Stretch attack: where does the demonstrated hand contact begin before working down the leg?",
         "answer": "At the knee region before progressing toward the ankle. The opposite hand first contacts the knee region, then works down in controlled stages. This preserves attachment instead of sacrificing balance to reach a distant ankle.",
-        "answer_line": "At the knee region before progressing toward the ankle",
+        "answer_line": "Near the knee, then down to ankle",
         "distractors": {
           "plausible": [
-            "At the toes before sliding upward toward the thigh",
-            "At the far hip before reaching across both legs"
+            "At toes, then up toward the thigh",
+            "Far hip, then across both legs"
           ],
           "trap": [
-            "At the ankle by diving past the knee without a nearer contact"
+            "At ankle, diving past the knee"
           ]
         }
       },
       {
         "question": "Suloev Stretch attack: why can loose hooks fail when you lift both hand posts against a tripod?",
         "answer": "The sloped back can let you slide forward off the shoulders. The demonstration contrasts loose traditional hooks with a more secure leg attachment on the sloping tripod. Establish stable rear connection before lengthening the hand reach; do not dive off the shoulders.",
-        "answer_line": "The sloped back can let you slide forward off the shoulders",
+        "answer_line": "Sloping back lets you slide forward",
         "distractors": {
           "plausible": [
-            "The tripod automatically tightens any pair of hooks",
-            "The opponent's ankle supplies a post before you hold it"
+            "A tripod tightens any loose hooks",
+            "The unheld ankle provides a post"
           ],
           "trap": [
-            "A sudden fall safely replaces the missing rear attachment"
+            "A sudden fall replaces attachment"
           ]
         }
       },
       {
         "question": "Suloev Stretch practice: in the later arm-enclosure variation, where do the toes rest?",
         "answer": "Against the biceps of the enclosing arm. The later demonstration places the toes there before joining the hands; it then distinguishes an aligned lift from pulling across the chest into a sideways roll. Rehearse the contact without applying the stretch.",
-        "answer_line": "Against the biceps of the enclosing arm",
+        "answer_line": "Against the enclosing-arm biceps",
         "distractors": {
           "plausible": [
-            "In the fold behind the attacker's knee",
-            "Under the opposite shin with the heel left free"
+            "Inside your own knee fold",
+            "Under opposite shin, heel loose"
           ],
           "trap": [
-            "Against the chest while the torso rolls sideways over the fixed foot"
+            "On chest while torso rolls sideways"
           ]
         }
       },
       {
         "question": "Suloev Stretch practice: what does hamstring flexibility fail to guarantee during a fall?",
         "answer": "Protection of the knee from the falling load. Sterling and Gonzalez explain why flexibility does not make a falling stretch safe. Support the partner and avoid dropping, bouncing or turning sideways on the captured leg.",
-        "answer_line": "Protection of the knee from the falling load",
+        "answer_line": "Knee protection from falling load",
         "distractors": {
           "plausible": [
-            "That the attacker can reach the exposed ankle",
-            "That the opponent can lift the hips into a tripod"
+            "Reaching the exposed ankle",
+            "Raising the hips into a tripod"
           ],
           "trap": [
-            "That the hands can connect around the lower leg"
+            "Joining hands around the lower leg"
           ]
         }
       },
@@ -517,11 +517,11 @@
         "answer_line": "A stable supported base",
         "distractors": {
           "plausible": [
-            "A higher tripod while the leg remains elevated",
-            "A sideways roll around the still-fixed foot"
+            "A higher tripod with leg elevated",
+            "A sideways roll on a fixed foot"
           ],
           "trap": [
-            "A deeper stretch while the torso connection loosens"
+            "Deeper stretch as torso grip opens"
           ]
         }
       }
@@ -632,81 +632,81 @@
         "answer_line": "A hand descending toward one ankle",
         "distractors": {
           "plausible": [
-            "Both hands moving only toward your collars",
-            "A forearm circling beneath your chin"
+            "Both hands moving to your collars",
+            "Forearm circling beneath your chin"
           ],
           "trap": [
-            "A hand withdrawing from your lower body entirely"
+            "Hand retreating from the lower body"
           ]
         }
       },
       {
         "question": "Suloev Stretch defense: when is hand fighting the low reach most useful?",
         "answer": "Before the ankle and torso are restrained together. Use hand fighting before the ankle and torso are controlled together.",
-        "answer_line": "Before the ankle and torso are restrained together",
+        "answer_line": "Before ankle and torso are both held",
         "distractors": {
           "plausible": [
-            "Only after the leg reaches full extension",
-            "After turning sideways against a fixed ankle"
+            "Only at full leg extension",
+            "After turning on the fixed ankle"
           ],
           "trap": [
-            "Once the attacker has already released the back"
+            "Once they release rear control"
           ]
         }
       },
       {
         "question": "Suloev Stretch defense: what should you address before lifting your hips into an exposed tripod?",
         "answer": "Rear attachment while maintaining a stable base. Maintain a stable base and address the rear attachment before raising the hips with a leg available.",
-        "answer_line": "Rear attachment while maintaining a stable base",
+        "answer_line": "Rear attachment while keeping base",
         "distractors": {
           "plausible": [
-            "Only the position of your free fingers",
-            "A collar grip that is not present"
+            "Only your free finger position",
+            "A collar grip that is absent"
           ],
           "trap": [
-            "The ankle capture only after it is fully loaded"
+            "Ankle grip only after full loading"
           ]
         }
       },
       {
         "question": "Suloev Stretch defense: why should you avoid rolling sideways with the ankle held?",
         "answer": "The restrained leg can transmit the roll into knee rotation. Keep the captured leg aligned instead of rolling sideways against the ankle grip.",
-        "answer_line": "The restrained leg can transmit the roll into knee rotation",
+        "answer_line": "The fixed leg sends turn to the knee",
         "distractors": {
           "plausible": [
-            "Every sideways roll first opens the attacker's fingers",
-            "A straightened leg cannot be twisted at the knee"
+            "Every roll opens their fingers first",
+            "Straight legs cannot twist at knee"
           ],
           "trap": [
-            "The ankle grip affects only calf compression"
+            "Ankle grip only compresses calf"
           ]
         }
       },
       {
         "question": "Suloev Stretch defense: what should prompt an early stop?",
         "answer": "Secure capture before forced extension or knee rotation. Stop before a forced hamstring stretch or knee rotation develops.",
-        "answer_line": "Secure capture before forced extension or knee rotation",
+        "answer_line": "Secure capture, before forced load",
         "distractors": {
           "plausible": [
-            "Only a bounce that produces severe hamstring pain",
-            "Only the attacker losing all rear torso contact"
+            "Only severe pain after a bounce",
+            "Only loss of their rear attachment"
           ],
           "trap": [
-            "Only the captured leg touching the mat again"
+            "Only the held leg touching the mat"
           ]
         }
       },
       {
         "question": "Suloev Stretch defense: when should you move to rebuild your base after tapping?",
         "answer": "After the ankle and torso controls have opened. Recover the base only after the attacker has opened the ankle and torso controls.",
-        "answer_line": "After the ankle and torso controls have opened",
+        "answer_line": "After ankle and torso holds open",
         "distractors": {
           "plausible": [
-            "While the ankle is still held above your hips",
-            "As soon as your free foot can make a post"
+            "With ankle still held above hips",
+            "Once the free foot can post"
           ],
           "trap": [
-            "By rotating around the fixed leg before the grip releases"
+            "Rotate before the foot is released"
           ]
         },
         "safety_critical": true
@@ -714,28 +714,28 @@
       {
         "question": "Suloev Stretch defense: what body shape exposes your ankle in the demonstrated finish?",
         "answer": "Raised hips in a tripod with an opponent attached behind. The attacker is attached behind an opponent who has raised the hips into a tripod, with torso control and access to one ankle.",
-        "answer_line": "Raised hips in a tripod with an opponent attached behind",
+        "answer_line": "Hips high, opponent attached behind",
         "distractors": {
           "plausible": [
-            "Seated guard facing the opponent at arm's length",
-            "A low closed guard with both feet crossed"
+            "Seated guard facing at arm length",
+            "Low closed guard with crossed feet"
           ],
           "trap": [
-            "A chest-to-chest side pin with both knees down"
+            "Chest pin with both knees down"
           ]
         }
       },
       {
         "question": "Suloev Stretch defense: why is protecting only against a bent-knee calf squeeze insufficient?",
         "answer": "The demonstrated attack extends the leg from rear control. Half guard is not the demonstrated finishing configuration. Sterling and Gonzalez distinguish the straight-leg stretch from sideways knee torque; obtaining the back is a separate prerequisite.",
-        "answer_line": "The demonstrated attack extends the leg from rear control",
+        "answer_line": "It extends the leg from rear control",
         "distractors": {
           "plausible": [
-            "Every ankle grip must compress the calf over a shin",
-            "The opponent cannot affect the knee from behind"
+            "Any ankle grip compresses the calf",
+            "They cannot load the knee from rear"
           ],
           "trap": [
-            "Half guard automatically protects the ankle from any reach"
+            "Half guard prevents any ankle reach"
           ]
         }
       },
@@ -745,11 +745,11 @@
         "answer_line": "Bouncing against the stretched leg",
         "distractors": {
           "plausible": [
-            "A still, unloaded check of the ankle contact",
-            "A supported lowering after the foot is released"
+            "Still, unloaded ankle contact check",
+            "Supported lowering, foot released"
           ],
           "trap": [
-            "A paused reset with both leg and torso restraints open"
+            "Paused reset with all holds open"
           ]
         },
         "safety_critical": true
@@ -757,14 +757,14 @@
       {
         "question": "Suloev Stretch defense practice: what must a helper protect while lowering the released tripod?",
         "answer": "A supported return without a sideways fall on the knee. After the ankle and rear restraints are open, help restore a stable base without falling sideways through the captured-leg alignment. This follows the demonstrated warning about lateral knee loading.",
-        "answer_line": "A supported return without a sideways fall on the knee",
+        "answer_line": "Support descent; no sideways fall",
         "distractors": {
           "plausible": [
-            "The old ankle grip so the leg cannot follow the torso",
-            "A locked posting elbow to stop every body movement"
+            "Retain old grip so leg cannot follow",
+            "Lock posting elbow to stop motion"
           ],
           "trap": [
-            "A fast spin while the foot remains caught"
+            "Spin fast with foot still caught"
           ]
         }
       }

@@ -204,98 +204,98 @@
       {
         "question": "Stack from Chill Dog (top): What must be controlled before seeking leg slack?",
         "answer": "Use balanced supports and an inside free arm while keeping the isolated elbow compact before attempting upper-body release.",
-        "answer_line": "Your base and inside frame beside the trapped arm",
+        "answer_line": "Base, inside frame, compact elbow",
         "distractors": {
           "plausible": [
-            "Only your free-hand grip on their raised ankle",
-            "A wide free-hand post with the captured elbow flared"
+            "Only a grip on their raised ankle",
+            "Free hand wide, caught elbow flared"
           ],
           "trap": [
-            "Your knee base while both forearms remain outside"
+            "Knee base with both forearms outside"
           ]
         }
       },
       {
         "question": "Stack from Chill Dog (top): What does their cleared head-side arm mean for you?",
         "answer": "The neck-cleared hand position and knee hug can still hold the arm and posture; do not mistake a grip change for release.",
-        "answer_line": "Your upper body may still be enclosed by Chill Dog",
+        "answer_line": "Chill Dog may still enclose you",
         "distractors": {
           "plausible": [
-            "The captured elbow has followed their hand inside the knee",
-            "The high shin has dropped below your shoulder line"
+            "Caught elbow follows their hand in",
+            "High shin drops below your shoulder"
           ],
           "trap": [
-            "The knee hug opened when their controlling arm moved"
+            "Knee hug opens as their arm moves"
           ]
         }
       },
       {
         "question": "Stack from Chill Dog (top): What should replace pressure that folds them onto the neck?",
         "answer": "Reduce the forward load and recover balanced space; neck-folding pressure does not substitute for releasing the enclosure.",
-        "answer_line": "Unload and seek an opening in the high-leg connection",
+        "answer_line": "Unload; open space in the high leg",
         "distractors": {
           "plausible": [
-            "More forward drive with a wider knee base",
-            "Lifting their hips higher before extracting the arm"
+            "More forward drive with wider knees",
+            "Lift hips higher before freeing arm"
           ],
           "trap": [
-            "Keep the hips elevated while pulling your head back"
+            "Keep hips raised; pull head back"
           ]
         }
       },
       {
         "question": "Stack from Chill Dog (top): Where should you create slack to free the upper body?",
         "answer": "Open space in the high-leg connection while keeping the head and captured arm aligned.",
-        "answer_line": "At the hip and thigh without turning the caught head",
+        "answer_line": "At hip and thigh, head stays aligned",
         "distractors": {
           "plausible": [
-            "At the toes while the thigh stays clamped",
-            "Only between your own knees on the floor"
+            "At toes, while thigh stays clamped",
+            "Only between your knees on the floor"
           ],
           "trap": [
-            "At the free shin while the controlling thigh still clamps"
+            "At free shin, high thigh clamps"
           ]
         }
       },
       {
         "question": "Stack from Chill Dog (top): When should the shoulder be pulled out?",
         "answer": "Retrieve shoulder and elbow only after sufficient slack exists, rather than trying to pull a fixed joint through pressure.",
-        "answer_line": "Once the high enclosure opens around the arm",
+        "answer_line": "High enclosure opens around your arm",
         "distractors": {
           "plausible": [
-            "While their knee hug still pins the elbow",
-            "As soon as their hips lift off the mat"
+            "While knee hug still pins your elbow",
+            "As soon as their hips leave the mat"
           ],
           "trap": [
-            "Once the head clears while the knee hug still fixes the arm"
+            "Head clear, arm still fixed by hug"
           ]
         }
       },
       {
         "question": "Stack from Chill Dog (top): What is the first useful passing checkpoint?",
         "answer": "Upper-body clearance and inside arm position prepare later passing. They do not by themselves clear the remaining knees.",
-        "answer_line": "A free shoulder with the elbow recovered inside",
+        "answer_line": "Shoulder free, elbow back inside",
         "distractors": {
           "plausible": [
-            "Their hips elevated while your arm stays trapped",
-            "Your chin raised while the high leg stays tight"
+            "Hips raised, your arm still trapped",
+            "Chin raised, high leg still tight"
           ],
           "trap": [
-            "A free hand with the elbow still outside their thigh"
+            "Hand free, elbow outside their thigh"
           ]
         }
       },
       {
         "question": "Stack from Chill Dog (top): What establishes a half-guard result, if one remains?",
         "answer": "The destination depends on the resulting leg configuration; the named stack does not guarantee half guard.",
-        "answer_line": "One of your legs actually caught between theirs",
+        "answer_line": "One of your legs held between theirs",
         "distractors": {
           "plausible": [
-            "Your head clearing the high leg alone",
-            "Their hand changing around your neck"
+            "Only your head clears the high leg",
+            "Their hand changes round your neck"
           ],
           "trap": [
-            "Both of their knees between your hips after the high leg drops"
+            "Both knees in after high leg drops"
           ]
         }
       }
@@ -400,70 +400,70 @@
       {
         "question": "Stack from Chill Dog (bottom): What connection retains the arm while pressure is mild?",
         "answer": "When the position remains comfortable, keep the arm isolated with the knee supported; do not retain it through harmful stacking.",
-        "answer_line": "The overhook with a supported knee hug",
+        "answer_line": "Overhook with supported knee hug",
         "distractors": {
           "plausible": [
-            "A loose foot grip with the knee drifting away",
-            "Both hands behind the head with the arm uncovered"
+            "Loose foot grip, knee drifting away",
+            "Both hands at head, arm uncovered"
           ],
           "trap": [
-            "A high knee with the overhook opened for a head grip"
+            "Knee high, overhook swapped for head"
           ]
         }
       },
       {
         "question": "Stack from Chill Dog (bottom): How should you adjust the high leg through available space?",
         "answer": "A hip-angle change supports the raised knee without pulling the foot against a fixed joint.",
-        "answer_line": "Turn the hip to bring the knee toward the torso",
+        "answer_line": "Turn hip; bring knee toward torso",
         "distractors": {
           "plausible": [
-            "Hold the hip flat and pull the ankle harder",
-            "Push the knee away while the foot remains caught"
+            "Hip flat, pull the ankle harder",
+            "Push knee away with foot caught"
           ],
           "trap": [
-            "Lift the foot first while leaving the knee behind the shoulder"
+            "Foot rises, knee behind shoulder"
           ]
         }
       },
       {
         "question": "Stack from Chill Dog (bottom): When the stack becomes neck-loading, what should you do?",
         "answer": "Release the unsustainable high connection and obtain an unloaded reset rather than trying to preserve Chill Dog at the neck's expense.",
-        "answer_line": "Open the high control and stop the neck load",
+        "answer_line": "Open high control; unload the neck",
         "distractors": {
           "plausible": [
-            "Keep the leg high until the passer gives up",
-            "Tighten the arm wrap and pull the head closer"
+            "Hold leg high until passer gives up",
+            "Tighten arm wrap; pull head closer"
           ],
           "trap": [
-            "Lower only the free leg while keeping the high grip taut"
+            "Drop free leg; keep high grip taut"
           ]
         }
       },
       {
         "question": "Stack from Chill Dog (bottom): Where should the early forearm barrier sit?",
         "answer": "An inside forearm manages forward shoulder pressure while there is still space; it should not collapse across your wrist.",
-        "answer_line": "Inside at the approaching shoulder line",
+        "answer_line": "Inside their approaching shoulder",
         "distractors": {
           "plausible": [
-            "Outside the shoulder with the wrist folded inward",
-            "Along their outer upper arm with the elbow away"
+            "Outside shoulder, wrist folded in",
+            "Outside upper arm with elbow away"
           ],
           "trap": [
-            "At the collarbone with the forearm collapsed onto your wrist"
+            "At collarbone, frame folds on wrist"
           ]
         }
       },
       {
         "question": "Stack from Chill Dog (bottom): After releasing the stack, what rebuilds guard?",
         "answer": "Once the high connection and harmful load are gone, move the hips behind an inside shoulder frame and recover knee space.",
-        "answer_line": "A hip escape that returns a knee behind the frame",
+        "answer_line": "Hip escape returns knee behind frame",
         "distractors": {
           "plausible": [
-            "Another high foot reach before any knee space",
-            "Both arms chasing the opponent's head"
+            "Reach high foot before knee room",
+            "Both arms chase the opponent's head"
           ],
           "trap": [
-            "A hip slide while both knees remain beyond their hips"
+            "Hips slide, knees outside theirs"
           ]
         }
       }

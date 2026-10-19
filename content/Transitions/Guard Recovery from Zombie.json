@@ -198,42 +198,42 @@
       {
         "question": "Guard Recovery from Zombie (bottom): What has failed when their forearm stays inside?",
         "answer": "An inside forearm still obstructs New York arm isolation; treat the stalled Zombie as a guard-recovery problem.",
-        "answer_line": "The hand-clearing step needed for arm isolation",
+        "answer_line": "Hand clearance for arm isolation",
         "distractors": {
           "plausible": [
-            "The head-side grip change that follows New York",
-            "The second-leg closure after neck clearing"
+            "Head-side grip change after New York",
+            "Second leg closes after neck clears"
           ],
           "trap": [
-            "The knee hug after their hand has already reached the mat"
+            "Knee hug after hand reaches the mat"
           ]
         }
       },
       {
         "question": "Guard Recovery from Zombie (bottom): What releases before a hip turn out of the high guard?",
         "answer": "Unload captured joints and open the high connection before turning the hips for recovery.",
-        "answer_line": "The loaded arm or neck inside the high-leg loop",
+        "answer_line": "Loaded arm or neck in the high loop",
         "distractors": {
           "plausible": [
-            "Only the bottom foot's contact with the mat",
-            "Only your wrist grip while the high leg keeps pulling"
+            "Only the low foot's mat contact",
+            "Only wrist grip; high leg pulls"
           ],
           "trap": [
-            "Only the high-leg grip while the arm wrap stays loaded"
+            "Only leg grip; arm wrap stays loaded"
           ]
         }
       },
       {
         "question": "Guard Recovery from Zombie (bottom): How can your raised leg return without foot traction?",
         "answer": "Use the hip to make a free path for the high leg instead of dragging the ankle across a fixed knee.",
-        "answer_line": "Turn the hip and lower the supported knee",
+        "answer_line": "Turn hip; lower the supported knee",
         "distractors": {
           "plausible": [
-            "Keep the knee fixed and pull the ankle down",
-            "Stay flat and reach higher for the foot"
+            "Fix knee; pull the ankle down",
+            "Stay flat; reach higher for the foot"
           ],
           "trap": [
-            "Flatten the hips while keeping the ankle pulled high"
+            "Flatten hips; keep ankle pulled high"
           ]
         }
       },
@@ -243,95 +243,95 @@
         "answer_line": "Your forearm frame and inside knee",
         "distractors": {
           "plausible": [
-            "Both hands behind the opponent's head",
-            "Both feet outside the opponent's hips"
+            "Both hands behind their head",
+            "Both feet outside their hips"
           ],
           "trap": [
-            "A forearm inside while the near knee stays beyond their hip"
+            "Forearm in; knee beyond their hip"
           ]
         }
       },
       {
         "question": "Guard Recovery from Zombie (bottom): How should the hip escape relate to the shoulder frame?",
         "answer": "A small lateral hip movement behind the shoulder frame creates knee room without letting chest pressure close the space.",
-        "answer_line": "Move the hips while the frame preserves the gap",
+        "answer_line": "Move hips while frame holds the gap",
         "distractors": {
           "plausible": [
-            "Drop the frame first to move the hips farther",
-            "Pull the shoulder closer while your knees move away"
+            "Drop frame, then move hips farther",
+            "Pull shoulder in as knees move away"
           ],
           "trap": [
-            "Move the knee first while the hips remain crowded"
+            "Move knee first with hips crowded"
           ]
         }
       },
       {
         "question": "Guard Recovery from Zombie (bottom): What restores the base before another rubber-guard pummel?",
         "answer": "The arm wrap can be rebuilt only after guard structure and posture control are restored, not while the passer occupies the torso gap.",
-        "answer_line": "Posture control and space for your supported knee",
+        "answer_line": "Posture held; room for braced knee",
         "distractors": {
           "plausible": [
-            "A grip on the wrist regardless of your knee position",
-            "A foot behind the head with both hips pinned"
+            "Wrist grip regardless of knee space",
+            "Foot behind head with hips pinned"
           ],
           "trap": [
-            "An inside knee while their posture remains fully upright"
+            "Inside knee, but their chest upright"
           ]
         }
       },
       {
         "question": "Guard Recovery from Zombie (bottom): Which lower-body task belongs to this reset?",
         "answer": "Guard recovery here restores inside knees after an upper-body pummel fails; it is not a lower-leg lockdown release.",
-        "answer_line": "Return your knees inside the facing guard",
+        "answer_line": "Return knees inside, facing them",
         "distractors": {
           "plausible": [
-            "Leave both knees outside and reach inward with the feet",
-            "Raise the high leg again before the near knee enters"
+            "Knees outside; reach in with feet",
+            "Raise high leg before near knee in"
           ],
           "trap": [
-            "Draw the knees toward your chest but outside their arms"
+            "Knees by chest, outside their arms"
           ]
         }
       },
       {
         "question": "Guard Recovery from Zombie (bottom): What shows the ordinary guard barrier is working?",
         "answer": "The recovered knee and forearm protect the torso gap, even though the previous high-leg posture control is gone.",
-        "answer_line": "The knee blocks chest access beside your ribs",
+        "answer_line": "Knee bars chest access to your ribs",
         "distractors": {
           "plausible": [
-            "The opponent's chest reaches your ribs unblocked",
-            "Your hands reach their head while both knees trail"
+            "Their chest reaches ribs unblocked",
+            "Hands reach head; both knees trail"
           ],
           "trap": [
-            "The near knee touches their outer hip while the ribs stay open"
+            "Knee at outer hip, ribs exposed"
           ]
         }
       },
       {
         "question": "Guard Recovery from Zombie (bottom): Their shoulder beats your hand inside; what is urgent?",
         "answer": "Rebuild the inside shoulder frame so the top player cannot turn the failed pummel into crossface and chest control.",
-        "answer_line": "Restore the forearm barrier before chasing the wrist",
+        "answer_line": "Restore forearm before chasing wrist",
         "distractors": {
           "plausible": [
-            "Keep reaching for the wrist over their shoulder",
-            "Lift your free foot higher while the chest gap closes"
+            "Chase wrist over their shoulder",
+            "Lift free foot as chest gap closes"
           ],
           "trap": [
-            "Pull the near knee in while leaving the forearm outside"
+            "Pull knee in; leave forearm outside"
           ]
         }
       },
       {
         "question": "Guard Recovery from Zombie (bottom): Which detail should a recovery drill finish with?",
         "answer": "A useful cooperative reset ends with the knee and frame protecting the torso, not merely with a released hand grip.",
-        "answer_line": "A returned knee behind the inside forearm",
+        "answer_line": "Returned knee behind inside forearm",
         "distractors": {
           "plausible": [
-            "A loose high leg still draped over the head",
-            "Both hands free but both knees outside"
+            "Loose high leg draped over the head",
+            "Free hands, but both knees outside"
           ],
           "trap": [
-            "The near knee alongside the hip but outside the forearm"
+            "Knee by hip, outside the forearm"
           ]
         }
       }
@@ -434,70 +434,70 @@
       {
         "question": "Guard Recovery from Zombie (top): How can you deny the next hand-clearing attempt?",
         "answer": "The inside forearm blocks the bottom player's path under your hand before the knee hug can fix the arm outside.",
-        "answer_line": "Keep a forearm inside before their pummel enters",
+        "answer_line": "Forearm inside before pummel entry",
         "distractors": {
           "plausible": [
-            "Rest the hand outside while flaring the elbow",
-            "Reach around the high leg with both hands"
+            "Hand outside with elbow flared",
+            "Both hands reach around the high leg"
           ],
           "trap": [
-            "Hold the elbow in while letting the wrist reach outside"
+            "Elbow in, but wrist reaches outside"
           ]
         }
       },
       {
         "question": "Guard Recovery from Zombie (top): How do you restore the whole forearm as the hand returns?",
         "answer": "Recover hand and elbow as one arm through available space; leaving the elbow fixed keeps the shoulder exposed.",
-        "answer_line": "Bring the elbow inward with the recovering hand",
+        "answer_line": "Bring elbow in with returning hand",
         "distractors": {
           "plausible": [
-            "Keep the elbow wide as the wrist folds onto your chest",
-            "Clamp the elbow down while the wrist stays beyond it"
+            "Fold wrist to chest; keep elbow wide",
+            "Clamp elbow; leave wrist beyond it"
           ],
           "trap": [
-            "Lift the chest to drag the arm through the closed hug"
+            "Lift chest to drag arm through hug"
           ]
         }
       },
       {
         "question": "Guard Recovery from Zombie (top): When is the early hand-recovery window?",
         "answer": "The pummeling hand under yours signals the early window; recover inside before the overhook and knee hug close.",
-        "answer_line": "Before their knee hug covers the cleared arm",
+        "answer_line": "Before knee hug covers your arm",
         "distractors": {
           "plausible": [
-            "After their knee hug has fixed your shoulder",
-            "Only after their high leg reaches the floor"
+            "After knee hug fixes your shoulder",
+            "Only once their high leg hits floor"
           ],
           "trap": [
-            "After their arm wrap closes but before their next head grip"
+            "After arm wrap, before head regrip"
           ]
         }
       },
       {
         "question": "Guard Recovery from Zombie (top): Which elbow position limits renewed arm isolation?",
         "answer": "Bringing the elbow toward the ribs restores an inside frame if the high-leg connection permits the shoulder to move.",
-        "answer_line": "Inside toward the ribs, through available slack",
+        "answer_line": "Inside by ribs once shoulder frees",
         "distractors": {
           "plausible": [
-            "Outside their knee with your palm on the mat",
-            "Against their outer ribs with the hand on their chest"
+            "Outside their knee, palm on the mat",
+            "Elbow flared; only hand on chest"
           ],
           "trap": [
-            "Beside your ribs while the shoulder is pulled against a closed leg"
+            "By ribs, pulled through a closed leg"
           ]
         }
       },
       {
         "question": "Guard Recovery from Zombie (top): What separates posture recovery from a guard pass?",
         "answer": "After the high connection opens, raising your chest recovers posture; you still need to clear the remaining guard to pass.",
-        "answer_line": "Their knees and hips may still block your torso",
+        "answer_line": "Their knees and hips can still block",
         "distractors": {
           "plausible": [
-            "The recovered elbow also clears the near knee shield",
-            "Their crossed ankles stop mattering once your spine is upright"
+            "Recovered elbow clears knee shield",
+            "Upright spine defeats crossed ankles"
           ],
           "trap": [
-            "Head clearance puts your hips beyond both of their legs"
+            "Free head means hips past both legs"
           ]
         }
       }

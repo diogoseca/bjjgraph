@@ -237,84 +237,84 @@
       {
         "question": "Aoki from Control: which direction are the offered toes facing before you collect the foot?",
         "answer": "Outward, away from the leg's neutral line. Identify an already outward-oriented foot rather than forcing a reluctant foot into the angle. The resulting enclosure can load both ankle and knee.",
-        "answer_line": "Outward, away from the leg's neutral line",
+        "answer_line": "Outward from the neutral leg line",
         "distractors": {
           "plausible": [
-            "Straight upward with no external turn",
+            "Straight up with no external turn",
             "Inward across the opposite leg"
           ],
           "trap": [
-            "Downward while the heel stays square"
+            "Downward with the heel square"
           ]
         }
       },
       {
         "question": "Aoki from Control: which surface of the foot rests under your upper arm?",
         "answer": "The instep against the biceps-and-armpit region. The instep meets the upper arm while the forearm supports the heel/Achilles region. Keep the capture unloaded in a control drill.",
-        "answer_line": "The instep against the biceps-and-armpit region",
+        "answer_line": "Instep at the biceps and armpit",
         "distractors": {
           "plausible": [
-            "The sole held flat against the outside of the elbow",
-            "The toes placed behind the shoulder blade"
+            "Sole flat on the outer elbow",
+            "Toes behind your shoulder blade"
           ],
           "trap": [
-            "The heel resting above the shoulder"
+            "Heel resting above your shoulder"
           ]
         }
       },
       {
         "question": "Aoki from Control: where does Kesting place the looping hand for a deep arm connection?",
         "answer": "Around the back of the opposite triceps. The written lesson distinguishes a deep hold behind the other upper arm from merely resting the hand on the biceps. Learn the connection without adding finishing rotation.",
-        "answer_line": "Around the back of the opposite triceps",
+        "answer_line": "Behind the opposite triceps",
         "distractors": {
           "plausible": [
-            "Resting lightly on the front of the opposite biceps",
-            "Across the opponent's shin below the knee"
+            "Lightly on the opposite biceps",
+            "Across their shin below the knee"
           ],
           "trap": [
-            "On the same-side wrist without encircling the other arm"
+            "Same-side wrist, no arm enclosure"
           ]
         }
       },
       {
         "question": "Aoki from Control: what role do your legs play around the opponent's hip?",
         "answer": "Limit free hip movement without twisting a planted knee. Use the legs and hip connection to limit free movement without twisting a planted knee.",
-        "answer_line": "Limit free hip movement without twisting a planted knee",
+        "answer_line": "Restrain hips without a knee twist",
         "distractors": {
           "plausible": [
-            "Replace the need for any upper-body foot enclosure",
-            "Pull the knee sideways while the foot stays planted"
+            "Replace the upper-body foot grip",
+            "Force a planted knee sideways"
           ],
           "trap": [
-            "Let the hip retreat while only the toes remain caught"
+            "Let hips retreat with toes caught"
           ]
         }
       },
       {
         "question": "Aoki from Control: why is a large finishing motion unnecessary and hazardous?",
         "answer": "Small body extension can load ankle and knee rotation. Recognize that a small body extension can create rotational ankle and knee pressure; do not search for a large finishing movement.",
-        "answer_line": "Small body extension can load ankle and knee rotation",
+        "answer_line": "Small extension can load rotation",
         "distractors": {
           "plausible": [
-            "The lock acts only after the torso reaches the mat",
-            "A strong calf squeeze absorbs all the extension"
+            "Load starts only with torso on mat",
+            "Calf squeezing absorbs extension"
           ],
           "trap": [
-            "The knee cannot be affected while the foot is under the arm"
+            "Foot under arm keeps the knee safe"
           ]
         }
       },
       {
         "question": "Aoki from Control: what must you open if the partner suddenly turns or taps?",
         "answer": "Both the arm enclosure and the leg connection. Open the arms and leg connection on a tap, sudden turn, or loss of communication.",
-        "answer_line": "Both the arm enclosure and the leg connection",
+        "answer_line": "Arm enclosure and leg connection",
         "distractors": {
           "plausible": [
-            "The outside hand while keeping the elbow clamped",
-            "The free foot while keeping their hip trapped"
+            "Outer hand, elbow still clamped",
+            "Free foot, hip still trapped"
           ],
           "trap": [
-            "The knees while pulling the captured foot closer"
+            "Knees, while pulling the foot closer"
           ]
         },
         "safety_critical": true
@@ -322,14 +322,14 @@
       {
         "question": "Aoki from Control: which opposing post is collected in Kesting's counter-leglock example?",
         "answer": "The foot pressing against the holder's hip. The example catches the foot that was pinning the defender's hip in standard ashi. A named dominant entanglement does not prevent that foot from being exposed.",
-        "answer_line": "The foot pressing against the holder's hip",
+        "answer_line": "The foot posted on the holder's hip",
         "distractors": {
           "plausible": [
-            "The knee resting on the mat behind the holder",
-            "The free heel outside both players' leg connections"
+            "The knee on the mat behind them",
+            "The free heel outside both legs"
           ],
           "trap": [
-            "The toes tucked under the opponent's own hips"
+            "Toes tucked under their own hips"
           ]
         }
       },
@@ -339,25 +339,25 @@
         "answer_line": "Rotation through an enclosed foot",
         "distractors": {
           "plausible": [
-            "Compression of a bent calf over a fulcrum",
-            "Folding the heel toward the same-side buttock alone"
+            "Bent calf compressed over a fulcrum",
+            "Heel folded to same-side buttock"
           ],
           "trap": [
-            "Pressure on the calf with the ankle left free"
+            "Calf pressure with a free ankle"
           ]
         }
       },
       {
         "question": "Aoki from Control: what amount of rotational load belongs in an initial capture-only repetition?",
         "answer": "Contact without finishing tension through the leg. Rehearse collecting and completely releasing the foot and hip controls. Omit the finishing extension, and release if the partner moves or signals.",
-        "answer_line": "Contact without finishing tension through the leg",
+        "answer_line": "Contact without finishing tension",
         "distractors": {
           "plausible": [
-            "Enough tension to measure the partner's remaining range",
-            "A small finishing bridge before checking the grip"
+            "Tension to test remaining range",
+            "A small bridge before grip checks"
           ],
           "trap": [
-            "Rotation held until the partner initiates an escape"
+            "Rotation until an escape starts"
           ]
         },
         "safety_critical": true
@@ -365,14 +365,14 @@
       {
         "question": "Aoki from Control: if the foot is not naturally presented at the right angle, what should you do?",
         "answer": "Reset the entry instead of forcing the foot outward. Identify the turned-out foot without forcing it to rotate against resistance.",
-        "answer_line": "Reset the entry instead of forcing the foot outward",
+        "answer_line": "Reset instead of forcing the angle",
         "distractors": {
           "plausible": [
-            "Twist the toes while the knee remains planted",
-            "Pull the heel until the lower leg rotates"
+            "Twist toes against a planted knee",
+            "Pull heel until the lower leg turns"
           ],
           "trap": [
-            "Keep the knee fixed and turn only the ankle"
+            "Fix knee and turn only the ankle"
           ]
         }
       }
@@ -489,84 +489,84 @@
       {
         "question": "Aoki from Control defense: what warns you that a straight-ankle response may be inadequate?",
         "answer": "Your outward-turned foot is enclosed by their upper body. Treat an outward-turned foot caught by the upper body as a rotational lock rather than an ordinary straight ankle lock.",
-        "answer_line": "Your outward-turned foot is enclosed by their upper body",
+        "answer_line": "Turned-out foot clamped to the torso",
         "distractors": {
           "plausible": [
-            "Their forearm touches only the middle of your calf",
-            "Your ankle stays free beyond their loose elbow"
+            "Forearm touches only mid-calf",
+            "Ankle free beyond a loose elbow"
           ],
           "trap": [
-            "Their hands grip your shin without contacting the foot"
+            "Hands on shin without foot contact"
           ]
         }
       },
       {
         "question": "Aoki from Control defense: before their grip closes, what should you contest?",
         "answer": "The arm wrapping your foot while recovering its position. Hand fight and recover foot position before the attacker connects around the foot.",
-        "answer_line": "The arm wrapping your foot while recovering its position",
+        "answer_line": "The wrapping arm; recover your foot",
         "distractors": {
           "plausible": [
-            "Their far ankle while leaving your foot offered",
-            "Their free knee while reaching your trapped leg farther in"
+            "Their far ankle, your foot offered",
+            "Free knee, trapped leg pushed in"
           ],
           "trap": [
-            "The mat behind you while both hands stay posted"
+            "The mat behind you with both hands"
           ]
         }
       },
       {
         "question": "Aoki from Control defense: what should not rotate independently once the foot is fixed?",
         "answer": "Your torso relative to the captured knee and foot. Do not rotate the torso independently of a captured foot and knee.",
-        "answer_line": "Your torso relative to the captured knee and foot",
+        "answer_line": "Torso against the captured leg",
         "distractors": {
           "plausible": [
-            "The opponent's free hand above their thigh",
-            "Your free toes beyond the entanglement"
+            "Their free hand above the thigh",
+            "Your free toes past the leg tangle"
           ],
           "trap": [
-            "Your untangled wrist beside your ribs"
+            "Your untangled wrist by the ribs"
           ]
         }
       },
       {
         "question": "Aoki from Control defense: how does Kesting protect the outside foot while holding standard ashi?",
         "answer": "Keep the inside knee close to that outside foot. His preventive detail closes access to the outside foot before an Aoki grip is established. It is not an escape to apply after the foot is already locked.",
-        "answer_line": "Keep the inside knee close to that outside foot",
+        "answer_line": "Keep inside knee near outside foot",
         "distractors": {
           "plausible": [
-            "Separate the knees to expose the foot at the hip",
-            "Point the outside toes away while leaving the knee open"
+            "Spread knees, expose the hip post",
+            "Turn toes away, leaving knee open"
           ],
           "trap": [
-            "Extend the posting leg farther across the opponent's torso"
+            "Extend the post across their torso"
           ]
         }
       },
       {
         "question": "Aoki from Control defense: what is the problem with testing a secure lock for remaining movement?",
         "answer": "Joint load may rise before pain provides a warning. Stop at a secure rotational capture rather than testing whether the joint still tolerates movement.",
-        "answer_line": "Joint load may rise before pain provides a warning",
+        "answer_line": "Joint load can precede the warning",
         "distractors": {
           "plausible": [
-            "A bent knee makes every rotational test harmless",
-            "The lock only acts if you first straighten your toes"
+            "Bent knees make rotation harmless",
+            "Only straight toes permit the lock"
           ],
           "trap": [
-            "A painless foot cannot transmit force to the knee"
+            "A painless foot cannot load a knee"
           ]
         }
       },
       {
         "question": "Aoki from Control defense: what should be free before you stand or turn after release?",
         "answer": "The entire foot enclosure and leg restraint. Wait for the entire enclosure to open before standing, turning, or restarting the exchange.",
-        "answer_line": "The entire foot enclosure and leg restraint",
+        "answer_line": "The foot clamp and leg restraint",
         "distractors": {
           "plausible": [
-            "Only the toes while the heel stays clamped",
-            "Only the hip while the foot stays under their arm"
+            "Toes only, with heel still clamped",
+            "Hip only, foot beneath their arm"
           ],
           "trap": [
-            "Only one hand from the connected grip"
+            "Only one hand of the linked grip"
           ]
         },
         "safety_critical": true

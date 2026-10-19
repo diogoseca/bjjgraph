@@ -186,42 +186,42 @@
       {
         "question": "Invisible Collar stand-up (bottom): What must open before you prepare to rise?",
         "answer": "The bottom player must release the facing Invisible Collar enclosure before creating space and posts for standing.",
-        "answer_line": "Your high leg-and-arm clinch around the opponent",
+        "answer_line": "Your high leg-and-arm clinch",
         "distractors": {
           "plausible": [
-            "Only the second high leg while the first retains the neck",
-            "Only your hand grip while the high leg stays curled"
+            "Only second leg; first holds neck",
+            "Only hand grip; high leg curled"
           ],
           "trap": [
-            "Only the overhook while the legs still hold the head"
+            "Only overhook; legs still hold head"
           ]
         }
       },
       {
         "question": "Invisible Collar stand-up (bottom): Which loading must end before the leg comes down?",
         "answer": "Unload captured neck and shoulder connections before lowering the high legs into the guard reset.",
-        "answer_line": "Neck and isolated-arm tension in the high clinch",
+        "answer_line": "Neck and isolated-arm tension",
         "distractors": {
           "plausible": [
-            "Only your free foot's pressure on the mat",
+            "Only free-foot pressure on the mat",
             "Only the opponent's mat post"
           ],
           "trap": [
-            "Only the leg crossing while the arm wrap keeps pulling"
+            "Only leg cross; arm wrap still pulls"
           ]
         }
       },
       {
         "question": "Invisible Collar stand-up (bottom): How does the high knee return toward ordinary guard?",
         "answer": "Create a free path with the hips rather than dragging the foot against the knee while the upper body remains entangled.",
-        "answer_line": "Lower the leg through a comfortable hip angle",
+        "answer_line": "Lower leg through a free hip angle",
         "distractors": {
           "plausible": [
-            "Pull the foot down with the knee fixed high",
-            "Straighten the leg into the opponent's shoulder"
+            "Pull foot down with knee fixed high",
+            "Straighten leg into their shoulder"
           ],
           "trap": [
-            "Keep the ankle grip while flattening the hip first"
+            "Keep ankle grip; flatten hip first"
           ]
         }
       },
@@ -231,95 +231,95 @@
         "answer_line": "An inside forearm and knee barrier",
         "distractors": {
           "plausible": [
-            "Both hands on the floor with the torso gap open",
-            "Both legs outside while reaching for the head"
+            "Hands on floor, torso gap left open",
+            "Legs outside, hands reach for head"
           ],
           "trap": [
-            "An inside forearm with the near knee still outside"
+            "Forearm inside, near knee outside"
           ]
         }
       },
       {
         "question": "Invisible Collar stand-up (bottom): Which orientation helps you preserve that distance?",
         "answer": "Keep shoulders and hips oriented toward the opponent while the framed hip escape creates room.",
-        "answer_line": "Continue facing the opponent as the hips move",
+        "answer_line": "Face them while your hips move",
         "distractors": {
           "plausible": [
-            "Turn the back before the knee returns",
-            "Lie chest-down underneath their pressure"
+            "Turn back before the knee returns",
+            "Chest down beneath their pressure"
           ],
           "trap": [
-            "Turn the shoulders toward them while the knees trail away"
+            "Shoulders face them, knees trail"
           ]
         }
       },
       {
         "question": "Invisible Collar stand-up (bottom): When can supporting posts be established?",
         "answer": "Create distance after releasing the clinch, then establish stable hand and foot posts for standing.",
-        "answer_line": "After framed distance removes their chest pressure",
+        "answer_line": "Once frames free your chest space",
         "distractors": {
           "plausible": [
-            "While their chest still pins your torso",
-            "While both high legs stay locked behind their head"
+            "While their chest still pins yours",
+            "While both high legs hold their head"
           ],
           "trap": [
-            "As soon as the ankles uncross, before the knee makes space"
+            "Once ankles open, before knee space"
           ]
         }
       },
       {
         "question": "Invisible Collar stand-up (bottom): Why retain an inside knee before making your supporting posts?",
         "answer": "An inside knee and forearm preserve distance after the high clinch opens. Establish posts only when the opponent cannot pin your torso with chest pressure.",
-        "answer_line": "To keep their chest from closing the space you need to rise",
+        "answer_line": "Keep chest away to make rising space",
         "distractors": {
           "plausible": [
-            "To hold the original high-leg loop closed while standing",
-            "To replace the need for a supporting hand on the mat"
+            "Keep high loop closed while standing",
+            "Replace the supporting hand post"
           ],
           "trap": [
-            "To raise your hips before separating their chest from yours"
+            "Raise hips before separating chests"
           ]
         }
       },
       {
         "question": "Invisible Collar stand-up (bottom): What does a stand-up need beyond opening the high legs?",
         "answer": "Releasing the high guard is only the first phase. Rising needs enough distance and a supported base.",
-        "answer_line": "Disengaged space plus stable hand and foot posts",
+        "answer_line": "Space with firm hand and foot posts",
         "distractors": {
           "plausible": [
-            "Only an empty hand, regardless of chest pressure",
-            "Only the opponent's head becoming upright"
+            "Only free hand, chest pressure stays",
+            "Only the opponent's head rising"
           ],
           "trap": [
-            "A hand post while both feet remain caught beneath them"
+            "Hand post with both feet caught"
           ]
         }
       },
       {
         "question": "Invisible Collar stand-up (bottom): The neck loop remains loaded as you sit up; what now?",
         "answer": "Stop the rise and open the leg-and-arm enclosure rather than lifting or rotating a neck still caught inside it.",
-        "answer_line": "Release it fully before continuing to rise",
+        "answer_line": "Release loop fully before rising",
         "distractors": {
           "plausible": [
-            "Sit higher until the loop pulls apart",
-            "Keep the loop and move both feet under you"
+            "Sit up until the loop pulls apart",
+            "Keep loop, move both feet under you"
           ],
           "trap": [
-            "Put one hand behind you while keeping the leg curl tight"
+            "Post hand behind, leg curl tight"
           ]
         }
       },
       {
         "question": "Invisible Collar stand-up (bottom): What confirms readiness for the separate standing phase?",
         "answer": "After guard recovery creates distance, confirm a stable hand-and-foot base before initiating the separately taught stand-up.",
-        "answer_line": "Space from the chest and secure supporting posts",
+        "answer_line": "Space, firm hand and foot posts",
         "distractors": {
           "plausible": [
-            "The high leg opened but their chest still pins you",
-            "Your hands are free but both feet remain entangled"
+            "High leg open, chest still pins you",
+            "Hands free, both feet still caught"
           ],
           "trap": [
-            "Both hands off the mat while chest pressure still reaches you"
+            "Hands off mat, chest pressure stays"
           ]
         }
       }
@@ -422,72 +422,72 @@
     ],
     "flashcards": [
       {
-        "question": "Invisible Collar stand-up (top): What can still restrain you as they prepare to sit up?",
+        "question": "Invisible Collar stand-up (top): What can still enclose your head as they sit up?",
         "answer": "A bottom player changing posture does not prove their Invisible Collar has opened; check the remaining head and shoulder connection.",
-        "answer_line": "The high leg-and-arm enclosure around your upper body",
+        "answer_line": "High leg-and-arm loop round the head",
         "distractors": {
           "plausible": [
-            "Their low knee frame after both high legs have dropped",
-            "A loose second ankle with both high thighs already off your shoulders"
+            "Low knee frame after high legs drop",
+            "Loose ankle, thighs off shoulders"
           ],
           "trap": [
-            "Their overhook alone after the high legs fully disengage"
+            "Overhook alone, high legs disengaged"
           ]
         }
       },
       {
         "question": "Invisible Collar stand-up (top): How should you remain aligned during their reset?",
         "answer": "Avoid turning the head or torso away while the arm remains caught; wait for usable slack in the upper-body enclosure.",
-        "answer_line": "Head and captured shoulder together, elbow compact",
+        "answer_line": "Head-shoulder aligned; elbow compact",
         "distractors": {
           "plausible": [
-            "Head turned away with the elbow held outside",
-            "Shoulder rotated back while the wrist stays pinned"
+            "Head turns away, elbow held outside",
+            "Shoulder turns back, wrist pinned"
           ],
           "trap": [
-            "Head aligned while the captured elbow reaches away"
+            "Head aligned, caught elbow extends"
           ]
         }
       },
       {
         "question": "Invisible Collar stand-up (top): If the high loop is applying choke pressure, what first?",
         "answer": "A loaded neck enclosure needs immediate release, even if the bottom player has started a posture change toward standing.",
-        "answer_line": "Signal and have the leg-and-arm connection opened",
+        "answer_line": "Tap; get the high loop released",
         "distractors": {
           "plausible": [
-            "Wait for them to stand before signaling",
-            "Lift your chest to drag the neck free"
+            "Wait until they stand before tapping",
+            "Lift chest to drag your neck free"
           ],
           "trap": [
-            "Signal while continuing to lift the head through the loop"
+            "Tap while lifting head through loop"
           ]
         }
       },
       {
         "question": "Invisible Collar stand-up (top): What should create room before you lift your head?",
         "answer": "Use early balanced positioning to open the high connection before head extraction; do not force an already loaded neck.",
-        "answer_line": "Slack at the high leg's hip-and-thigh connection",
+        "answer_line": "Slack at high leg's hip and thigh",
         "distractors": {
           "plausible": [
-            "Only a wider foot stance on the floor",
-            "Only the bottom player posting one hand"
+            "Only widen your stance on the floor",
+            "Only their hand posts on the mat"
           ],
           "trap": [
-            "Only the free leg lowering while the controlling thigh stays tight"
+            "Only free leg down; high thigh tight"
           ]
         }
       },
       {
         "question": "Invisible Collar stand-up (top): Where should the freed arm return as they disengage?",
         "answer": "Recover a compact inside elbow after the high closure opens so the arm is not left outside for renewed isolation.",
-        "answer_line": "Inside beside your ribs, available as a frame",
+        "answer_line": "Inside by ribs, available to frame",
         "distractors": {
           "plausible": [
             "Wide on the mat beyond their hips",
-            "Across their far shoulder with the elbow flared"
+            "Across far shoulder, elbow flared"
           ],
           "trap": [
-            "Hand returned inward with the elbow left outside their thigh"
+            "Hand in, elbow outside their thigh"
           ]
         }
       }

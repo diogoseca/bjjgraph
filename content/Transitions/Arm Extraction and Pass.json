@@ -189,109 +189,109 @@
         "answer_line": "Keep the elbow bent near your ribs",
         "distractors": {
           "plausible": [
-            "Reach a straight arm between the high knees",
-            "Post the hand far behind the opponent's head"
+            "Reach straight between high knees",
+            "Post far behind the opponent's head"
           ],
           "trap": [
-            "Grip the ankle and straighten the trapped elbow"
+            "Grip the ankle; straighten the elbow"
           ]
         }
       },
       {
         "question": "Arm Extraction and Pass (top): Your wrist moves but the extra leg holds you low; what must clear?",
         "answer": "The second high leg reinforces the facing upper-body clinch and makes posture recovery harder. A mobile wrist does not prove that the shoulder has escaped this restraint; clear the high connection before withdrawing the arm.",
-        "answer_line": "The high-leg restraint around your shoulder line",
+        "answer_line": "The high legs around your shoulders",
         "distractors": {
           "plausible": [
-            "Only the grip on the wrist that already moves",
-            "Only the lower foot resting at your waist"
+            "Only the grip on your mobile wrist",
+            "Only the lower foot at your waist"
           ],
           "trap": [
-            "Only your hand contact with the opponent's hip"
+            "Only your own hand on their hip"
           ]
         }
       },
       {
         "question": "Arm Extraction and Pass (top): Before high closure, how should the hip-side framing arm sit?",
         "answer": "Use an early inside forearm at the hip or thigh while maintaining a balanced base. Keep the arm compact rather than reaching across the outside of the thigh. This is a preventive frame, not permission to move through a completed lock.",
-        "answer_line": "A bent forearm inside the hip or thigh line",
+        "answer_line": "Bent forearm inside the hip or thigh",
         "distractors": {
           "plausible": [
-            "A straight elbow extending past the outside of the thigh",
-            "A flared elbow with only the wrist touching the thigh"
+            "Straight arm outside the thigh",
+            "Flared elbow; wrist on the thigh"
           ],
           "trap": [
-            "An elbow pinned outside the knee while the hand reaches inward"
+            "Elbow outside; hand reaching inward"
           ]
         }
       },
       {
         "question": "Arm Extraction and Pass (top): How should your head and captured arm move as slack appears?",
         "answer": "Create slack at the hip and thigh with the head and captured arm aligned, then use the opening rather than wrenching a trapped limb.",
-        "answer_line": "Stay aligned while opening space at hip and thigh",
+        "answer_line": "Aligned; open hip and thigh space",
         "distractors": {
           "plausible": [
-            "Turn the head away while the elbow stays fixed",
-            "Pull the wrist out while the shoulder stays pinned"
+            "Turn head away; keep the elbow fixed",
+            "Pull wrist with shoulder pinned"
           ],
           "trap": [
-            "Raise the chest before the shoulder can follow"
+            "Raise chest before shoulder release"
           ]
         }
       },
       {
         "question": "Arm Extraction and Pass (top): What must open before your elbow is withdrawn?",
         "answer": "Withdraw the shoulder and elbow after the high leg connection opens around them, not by pulling a wrist through a fixed shoulder trap.",
-        "answer_line": "The high-leg connection around the shoulder",
+        "answer_line": "The high legs around the shoulder",
         "distractors": {
           "plausible": [
-            "The wrist grip while the upper arm stays enclosed",
-            "The second high leg while the first still clamps"
+            "Wrist grip with upper arm still held",
+            "Second leg while the first clamps"
           ],
           "trap": [
-            "A gap below the knee with the shoulder still caught"
+            "Gap below a still-trapped shoulder"
           ]
         }
       },
       {
         "question": "Arm Extraction and Pass (top): What establishes side control after your arm comes free?",
         "answer": "Side control requires a completed leg clearance and stable chest contact beside the torso after the arm and high clinch are free.",
-        "answer_line": "Clear both knees; settle beside the chest",
+        "answer_line": "Clear knees; chest by their torso",
         "distractors": {
           "plausible": [
-            "Raise the head while remaining between both knees",
-            "Clear one knee but leave the other leg hooking"
+            "Head raised between both knees",
+            "One knee clear; other leg hooking"
           ],
           "trap": [
-            "Clear both knees but leave the chest out of contact"
+            "Knees clear but chest held away"
           ]
         }
       },
       {
         "question": "Arm Extraction and Pass (top): In the starting Crackhead clinch, where is the opponent?",
         "answer": "The performer is the top player facing a bottom guard player whose two high legs restrict the upper body.",
-        "answer_line": "Facing you from below, legs behind your head",
+        "answer_line": "Facing you below with both legs high",
         "distractors": {
           "plausible": [
-            "Facing you below with the legs at waist level",
-            "Facing you below with one high shin and a low foot"
+            "Facing you below with legs at waist",
+            "Facing you below with one shin high"
           ],
           "trap": [
-            "Facing you below with one shoulder in a leg triangle"
+            "Facing you in a one-arm triangle"
           ]
         }
       },
       {
         "question": "Arm Extraction and Pass (top): What must clear before you turn to begin the guard pass?",
         "answer": "Recover the elbow from the high-leg connection and any overhook before organizing hip control for the separate pass.",
-        "answer_line": "Free the elbow from the high clinch and overhook",
+        "answer_line": "Free elbow from legs and overhook",
         "distractors": {
           "plausible": [
-            "Pin the hips while leaving the elbow enclosed",
-            "Crossface while your shoulder remains clamped"
+            "Pin hips with elbow still caught",
+            "Crossface with the shoulder clamped"
           ],
           "trap": [
-            "Remove the wrist grip but leave the overhook intact"
+            "Free wrist; keep overhook intact"
           ]
         }
       },
@@ -301,53 +301,53 @@
         "answer_line": "Release the shoulder before circling",
         "distractors": {
           "plausible": [
-            "Keep the elbow still and rotate the torso",
-            "Pull the hand farther behind your hip"
+            "Hold elbow still and turn the torso",
+            "Pull hand farther behind your hip"
           ],
           "trap": [
-            "Shift your knees around before opening the clamp"
+            "Circle knees with the clamp closed"
           ]
         }
       },
       {
         "question": "Arm Extraction and Pass (top): What shows successful arm clearance in a cooperative drill?",
         "answer": "Check that the shoulder and elbow can move together outside the upper-body trap without loading the joint before rehearsing a pass.",
-        "answer_line": "Shoulder and elbow both clear the high trap",
+        "answer_line": "Shoulder and elbow clear high legs",
         "distractors": {
           "plausible": [
-            "The hand moves while the upper arm stays pinned",
-            "The head lifts while the elbow remains caught"
+            "Hand moves; upper arm stays pinned",
+            "Head lifts but elbow stays caught"
           ],
           "trap": [
-            "One high leg drops while the other retains the arm"
+            "One leg drops; other retains the arm"
           ]
         }
       },
       {
         "question": "Arm Extraction and Pass (top): After knee clearance, which contact blocks their return at the hip?",
         "answer": "Once the legs are cleared, a hip block and balanced chest contact help prevent the knees returning between the bodies.",
-        "answer_line": "A hip block beside stable chest contact",
+        "answer_line": "Hip block with stable chest contact",
         "distractors": {
           "plausible": [
-            "Chest contact with the hip-side elbow lifted",
-            "A hip block with the chest pulled away"
+            "Chest down; hip-side elbow lifted",
+            "Hip blocked but chest pulled away"
           ],
           "trap": [
-            "A crossface with both arms above the shoulder line"
+            "Crossface with both arms above neck"
           ]
         }
       },
       {
         "question": "Arm Extraction and Pass (top): How does an elbow-knee barrier show the pass is incomplete?",
         "answer": "Even with the arm free, an inside knee connected to the defender's elbow preserves a guard barrier that must be cleared before side control.",
-        "answer_line": "The defender still has a knee between your torsos",
+        "answer_line": "Their knee stays between torsos",
         "distractors": {
           "plausible": [
-            "The defender's knees stay outside your hip line",
-            "The defender's forearm frames with both knees cleared"
+            "Their knees stay outside your hips",
+            "Forearm frames with knees cleared"
           ],
           "trap": [
-            "The defender's elbow touches a knee behind your hips"
+            "Their elbow meets a knee behind you"
           ]
         }
       }
@@ -452,70 +452,70 @@
       {
         "question": "Arm Extraction and Pass (bottom): What supports the clinch before adding your second leg?",
         "answer": "Build the first high-leg and hand connection before adding the second leg behind the opponent's head.",
-        "answer_line": "The first high shin joined to its supporting hand",
+        "answer_line": "First high shin held by its hand",
         "distractors": {
           "plausible": [
-            "The first high shin with its hand already released",
-            "The second high leg before the first shin is secured"
+            "First high shin with hand released",
+            "Second leg up before securing shin"
           ],
           "trap": [
-            "A low ankle crossing beneath the shoulder line"
+            "Low ankles crossed below shoulders"
           ]
         }
       },
       {
         "question": "Arm Extraction and Pass (bottom): How can the second high leg reinforce the clinch?",
         "answer": "The reinforcing leg should follow a comfortable hip angle; do not force the foot against a fixed knee to retain the top player.",
-        "answer_line": "Lift it within a hip angle that supports the knee",
+        "answer_line": "Lift with hip supporting the knee",
         "distractors": {
           "plausible": [
-            "Hold the knee still and haul the foot inward",
-            "Let the knee fall away as the foot climbs"
+            "Knee fixed; haul the foot inward",
+            "Knee falls away as the foot climbs"
           ],
           "trap": [
-            "Lift the foot higher while keeping the hips flat"
+            "Foot rises while the hips stay flat"
           ]
         }
       },
       {
         "question": "Arm Extraction and Pass (bottom): What must you check before treating the clinch as Dead Orchard?",
         "answer": "Track both opposing elbows and the actual leg closure. Crackhead's reinforced clinch does not automatically become Dead Orchard.",
-        "answer_line": "Both arms are enclosed by a high leg figure-four",
+        "answer_line": "Both arms inside a high figure-four",
         "distractors": {
           "plausible": [
-            "Only that both feet are above the shoulders",
-            "Only that one hand has reached the mat"
+            "Only both feet above the shoulders",
+            "Only one hand reaching the mat"
           ],
           "trap": [
-            "Only that the opponent cannot raise the chin"
+            "Only the chin unable to rise"
           ]
         }
       },
       {
         "question": "Arm Extraction and Pass (bottom): How do you retain space when the passer frees the arm?",
         "answer": "As the clinch opens, frame the shoulder, make a short hip escape and reconnect elbow and knee before the passer fills the gap.",
-        "answer_line": "Frame the shoulder and reconnect elbow to knee",
+        "answer_line": "Shoulder frame plus elbow-knee link",
         "distractors": {
           "plausible": [
-            "Chase the freed wrist with both arms extended",
-            "Keep both knees outside the passing torso"
+            "Chase the wrist with arms extended",
+            "Leave both knees outside their torso"
           ],
           "trap": [
-            "Frame the shoulder but leave the hip-side knee behind"
+            "Frame shoulder; leave near knee out"
           ]
         }
       },
       {
         "question": "Arm Extraction and Pass (bottom): How do you return to Mission Control during the extraction?",
         "answer": "Return to one-leg control by lowering the reinforcing leg while keeping the original high shin and hand connected.",
-        "answer_line": "Lower the second leg while retaining the first shin grip",
+        "answer_line": "First shin held; second leg down",
         "distractors": {
           "plausible": [
-            "Drop both high legs before finding hand support",
-            "Keep the second leg high and release the first shin"
+            "Drop both legs before adding a grip",
+            "Keep second leg; release first shin"
           ],
           "trap": [
-            "Lower the second leg while opening the first knee hug"
+            "Second leg down; first shin loose"
           ]
         }
       }

@@ -204,98 +204,98 @@
       {
         "question": "Leg Weave Pass Completion (top): Which arm route supplies the weave at the start?",
         "answer": "Thread the arm through the available leg gap and connect to the lower thigh or knee.",
-        "answer_line": "An arm passing between the opponent's legs",
+        "answer_line": "An arm passing between their legs",
         "distractors": {
           "plausible": [
-            "An arm scooping beneath both thighs together",
-            "An arm hugging the knees only from outside"
+            "An arm scooping under both thighs",
+            "An arm hugging knees from outside"
           ],
           "trap": [
-            "An arm pressing the upper shin while the lower knee is free"
+            "Arm on upper shin, lower knee free"
           ]
         }
       },
       {
         "question": "Leg Weave Pass Completion (top): What should the shoulder and chest do to the leg frame?",
         "answer": "Use aligned shoulder pressure and chest pressure to bring the knees together without twisting the knee joint.",
-        "answer_line": "Bring the two knees together with supported pressure",
+        "answer_line": "Join knees with supported pressure",
         "distractors": {
           "plausible": [
-            "Press only the upper shin while the knees stay apart",
+            "Press upper shin, knees stay apart",
             "Spread the knees farther apart"
           ],
           "trap": [
-            "Shift chest pressure to the hips before securing the lower knee"
+            "Chest on hips before lower-knee grip"
           ]
         }
       },
       {
         "question": "Leg Weave Pass Completion (top): Why keep the weaving arm from hanging far from your torso?",
         "answer": "Avoid leaving the weaving arm extended where the bottom player can sit up into a kimura.",
-        "answer_line": "It can offer wrist-and-elbow access for a kimura",
+        "answer_line": "It offers wrist/elbow kimura access",
         "distractors": {
           "plausible": [
-            "An exposed elbow deepens the knee pin without changing wrist access",
-            "The knee fold protects the arm even when the elbow leaves the ribs"
+            "Elbow out deepens pin, wrist hidden",
+            "Knee fold protects a flared elbow"
           ],
           "trap": [
-            "A straight arm is harder to encircle because the wrist stays far away"
+            "Straight arm puts wrist out of reach"
           ]
         }
       },
       {
         "question": "Leg Weave Pass Completion (top): What should support your weight while your feet circle?",
         "answer": "Move the hips and feet without collapsing all weight over the woven arm.",
-        "answer_line": "A mobile base outside the folded leg frame",
+        "answer_line": "Mobile base outside folded legs",
         "distractors": {
           "plausible": [
-            "Your extended weaving elbow as the sole prop",
-            "Both feet together under the opponent's hips"
+            "Extended weaving elbow as sole prop",
+            "Feet together under opposing hips"
           ],
           "trap": [
-            "Your chest leaning past the arm with both knees left behind"
+            "Chest past arm, knees left behind"
           ]
         }
       },
       {
         "question": "Leg Weave Pass Completion (top): What must clear before transferring to a side-control hip block?",
         "answer": "Remove the remaining foot or half-guard hook before establishing side control.",
-        "answer_line": "The knee line and remaining foot or hook",
+        "answer_line": "Knee line and remaining foot or hook",
         "distractors": {
           "plausible": [
-            "The upper knee only, with your ankle still caught",
-            "Your hips past the shield while the lower foot stays attached"
+            "Upper knee only, ankle still caught",
+            "Hips past shield, lower foot hooked"
           ],
           "trap": [
-            "The arm grip alone, leaving both legs beside your thigh"
+            "Arm grip only, legs still by thigh"
           ]
         }
       },
       {
         "question": "Leg Weave Pass Completion (top): A new inside frame stops your angle. What is the next task?",
         "answer": "If the bottom player turns or inserts a frame, keep control of distance and reset the pass rather than forcing a fixed angle.",
-        "answer_line": "Rebuild distance and a workable angle around the hips",
+        "answer_line": "Reset distance and hip angle",
         "distractors": {
           "plausible": [
-            "Keep your feet planted and extend the weaving arm farther",
-            "Drop the knee grip and reach across the shoulder frame"
+            "Feet planted, extend weave farther",
+            "Drop knee grip, reach across frame"
           ],
           "trap": [
-            "Lean farther through the same frame with a narrower base"
+            "Lean through frame, narrow base"
           ]
         }
       },
       {
         "question": "Leg Weave Pass Completion (top): Once the legs clear, how do the new pin controls divide the work?",
         "answer": "Side control requires a new upper-body connection and hip block after the leg-weave phase.",
-        "answer_line": "Upper-body contact holds shoulders; hip block denies knees",
+        "answer_line": "Shoulder pin; hip block denies knees",
         "distractors": {
           "plausible": [
-            "Both hands keep the ankle grips while the shoulders remain free",
-            "The crossface controls the knees without a separate hip barrier"
+            "Keep ankle grips, shoulders free",
+            "Crossface stops knees, no hip block"
           ],
           "trap": [
-            "The old weave restrains the shoulders after the legs have cleared"
+            "Old weave controls cleared shoulders"
           ]
         }
       }
@@ -400,56 +400,56 @@
       {
         "question": "Leg Weave Pass Completion (bottom): Which early contact should you identify as the weave?",
         "answer": "The passer's arm connecting your legs is the relevant control, not a leg threaded across your hip.",
-        "answer_line": "An opposing arm joining your upper and lower leg frame",
+        "answer_line": "An arm joining both legs through gap",
         "distractors": {
           "plausible": [
-            "An opposing hand on only the top shin",
-            "Two opposing arms scooping below both thighs"
+            "One hand on only the top shin",
+            "Two arms scooping under both thighs"
           ],
           "trap": [
-            "An opposing arm clasping both knees from their outer surface"
+            "An arm clasping knees from outside"
           ]
         }
       },
       {
         "question": "Leg Weave Pass Completion (bottom): What prevents the shield becoming an unsupported knee?",
         "answer": "Maintain a useful knee angle and upper-body frame before the passer folds the legs together.",
-        "answer_line": "An upper-body frame backing the knee angle",
+        "answer_line": "Upper-body frame backs knee angle",
         "distractors": {
           "plausible": [
-            "Both elbows stretched away toward the mat",
-            "Letting the shoulders flatten while leaving the knee up"
+            "Both elbows extended toward the mat",
+            "Shoulders flat, knee still up"
           ],
           "trap": [
-            "A knee pulled close while both hands chase the ankle"
+            "Knee tucked, hands chase ankle"
           ]
         }
       },
       {
         "question": "Leg Weave Pass Completion (bottom): With the weave loosening, how do you restore the knee barrier?",
         "answer": "Move the hips and pummel the knee back between the bodies while the weave is still loose.",
-        "answer_line": "Frame, shift the hips and pummel the knee inside",
+        "answer_line": "Frame, shift hips, bring knee inside",
         "distractors": {
           "plausible": [
-            "Pull the passer's neck while leaving hips immobile",
-            "Reach for their far ankle while both shoulders flatten"
+            "Pull neck, keep hips stationary",
+            "Reach far ankle, shoulders flatten"
           ],
           "trap": [
-            "Lift the upper knee alone while the hip remains under pressure"
+            "Lift knee alone with hip under load"
           ]
         }
       },
       {
         "question": "Leg Weave Pass Completion (bottom): Why keep your shoulder free during late recovery?",
         "answer": "Avoid combining folded legs with a flat shoulder pin; keep a frame to recover facing space.",
-        "answer_line": "You need room to face the passer behind your frame",
+        "answer_line": "Room to face them behind the frame",
         "distractors": {
           "plausible": [
-            "Flattening the chest lets the near knee circle around the weave",
-            "The foot angle alone creates space even while the shoulders are pinned"
+            "Flat chest lets knee circle weave",
+            "Foot angle alone opens pinned torso"
           ],
           "trap": [
-            "Keeping the shoulder pinned gives the framing arm more room to work"
+            "Pinned shoulder gives arm more room"
           ]
         }
       }

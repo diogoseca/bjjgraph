@@ -204,7 +204,7 @@
         "distractors": {
           "plausible": [
             "The same leg's ankle and heel only",
-            "The same leg's thigh with the foot free"
+            "Same thigh held but foot left free"
           ],
           "trap": [
             "One thigh and the opposite ankle"
@@ -214,28 +214,28 @@
       {
         "question": "Kneebar Finish (attacker): What prevents the captured leg's hip from sliding freely away?",
         "answer": "Use the legs to restrain the hip and thigh so the captured knee does not simply move away from the fulcrum.",
-        "answer_line": "Your legs containing the opponent's hip and thigh",
+        "answer_line": "Your legs hold their hip and thigh",
         "distractors": {
           "plausible": [
-            "Your hands holding the foot without upper-leg contact",
-            "Your legs squeezing only below the captured knee"
+            "Foot held without thigh contact",
+            "Your legs squeeze below their knee"
           ],
           "trap": [
-            "Your ankle grip tightened while the thighs separate"
+            "Tight ankle grip with thighs apart"
           ]
         }
       },
       {
         "question": "Kneebar Finish (attacker): Where is the knee positioned in the straight-leg alignment?",
         "answer": "Align the captured knee at the hip fulcrum in a straight, untwisted leg line.",
-        "answer_line": "At your hip fulcrum with the leg untwisted",
+        "answer_line": "Knee at hip fulcrum, leg untwisted",
         "distractors": {
           "plausible": [
-            "Above your hip line with the thigh able to slide",
-            "Bent around a shin behind the knee"
+            "Knee above hips with thigh sliding",
+            "Knee bent around a shin behind it"
           ],
           "trap": [
-            "At your hip line with the foot turned sideways"
+            "Knee at hips with foot turned aside"
           ]
         }
       },
@@ -245,25 +245,25 @@
         "answer_line": "Held close with the leg untwisted",
         "distractors": {
           "plausible": [
-            "Turned outward while the thigh remains fixed",
-            "Left free while only the knee is squeezed"
+            "Foot turned out with thigh fixed",
+            "Foot free with only knee squeezed"
           ],
           "trap": [
-            "Twisted inward to make the knee straighten"
+            "Twist foot inward to straighten leg"
           ]
         }
       },
       {
         "question": "Kneebar Finish (attacker): Where should a cooperative capture drill stop?",
         "answer": "Practice aligned hip-and-ankle capture without bridging the knee into its end range.",
-        "answer_line": "Before hip extension drives the knee toward its limit",
+        "answer_line": "At capture, before extension load",
         "distractors": {
           "plausible": [
-            "After a small bridge tests the knee's backward range",
-            "After turning the foot to confirm rotational control"
+            "After a bridge tests backward range",
+            "After a foot turn tests rotation"
           ],
           "trap": [
-            "Before gripping the ankle or containing the thigh"
+            "Before ankle grip or thigh capture"
           ]
         }
       },
@@ -273,11 +273,11 @@
         "answer_line": "Both ankle grip and thigh restraint",
         "distractors": {
           "plausible": [
-            "Only the ankle grip while keeping the thigh clamped",
-            "Only the thigh clamp while keeping the ankle held"
+            "Ankle released; thigh still clamped",
+            "Thigh released; ankle still held"
           ],
           "trap": [
-            "Only the hip extension while retaining both grips"
+            "Only stop extension; keep both grips"
           ]
         }
       },
@@ -287,53 +287,53 @@
         "answer_line": "Ankle held, knee aligned at the hips",
         "distractors": {
           "plausible": [
-            "Ankle held with the knee beyond your hip line",
-            "Knee bent around your shin with the foot tucked"
+            "Ankle held with knee past your hips",
+            "Knee bent around shin, foot tucked"
           ],
           "trap": [
-            "Heel rotated while the thigh stays immobilized"
+            "Heel turned with thigh immobilized"
           ]
         }
       },
       {
         "question": "Kneebar Finish (attacker): Why does the Carni clamp not supply this finishing position?",
         "answer": "Release the shoulder configuration and separately capture a leg; the sources do not establish a direct Carni-to-kneebar finish.",
-        "answer_line": "It captures the shoulder, not the leg",
+        "answer_line": "Shoulder captured instead of a leg",
         "distractors": {
           "plausible": [
-            "It already contains the knee but lacks ankle pressure",
-            "It already holds the ankle but lacks hip extension"
+            "Knee captured but no ankle pressure",
+            "Ankle already held; no hip extension"
           ],
           "trap": [
-            "It already brackets the leg but needs a straighter knee"
+            "Leg already bracketed; knee too bent"
           ]
         }
       },
       {
         "question": "Kneebar Finish (attacker): A partner starts turning with the ankle fixed; what must you do?",
         "answer": "Release the captured leg before allowing rotation against a fixed ankle and thigh.",
-        "answer_line": "Release ankle and thigh before turning",
+        "answer_line": "Free ankle and thigh before turning",
         "distractors": {
           "plausible": [
-            "Keep the ankle fixed and follow with the hips",
-            "Open the thigh clamp but retain the ankle grip"
+            "Hold ankle fixed; follow with hips",
+            "Open thigh clamp but keep ankle grip"
           ],
           "trap": [
-            "Release the ankle but keep the thigh pinned"
+            "Free ankle but keep thigh pinned"
           ]
         }
       },
       {
         "question": "Kneebar Finish (attacker): Which loading pattern identifies the intended straight-leg attack?",
         "answer": "The captured knee lies at the hip fulcrum. The thigh and ankle are controlled on either side, and hip extension would load the knee; stop the cooperative drill before its end range.",
-        "answer_line": "Knee extension between controlled thigh and ankle",
+        "answer_line": "Knee extension, thigh and ankle held",
         "distractors": {
           "plausible": [
-            "Knee rotation between a fixed thigh and turned foot",
-            "Ankle extension with the forearm behind the heel"
+            "Knee twist with thigh and foot fixed",
+            "Ankle extension over the forearm"
           ],
           "trap": [
-            "Calf compression as the knee folds over a shin"
+            "Calf squeezed as knee folds on shin"
           ]
         }
       }
@@ -447,14 +447,14 @@
       {
         "question": "Kneebar Finish (defender): Which alignment warns of the straight-leg attack?",
         "answer": "Recognize the knee at the attacker's hip fulcrum with the ankle controlled as an extension threat.",
-        "answer_line": "Your knee at their hips with your ankle held",
+        "answer_line": "Knee at their hips with ankle held",
         "distractors": {
           "plausible": [
-            "Your knee beyond their hips with your ankle held",
-            "Your bent knee folded around their shin"
+            "Knee past their hips with ankle held",
+            "Bent knee folded around their shin"
           ],
           "trap": [
-            "Your foot turned sideways while the thigh is held"
+            "Foot sideways with thigh held"
           ]
         }
       },
@@ -465,52 +465,52 @@
         "distractors": {
           "plausible": [
             "Only a grip on the other ankle",
-            "Only contact on the thigh while the ankle stays held"
+            "Only thigh contact; ankle still held"
           ],
           "trap": [
-            "Only their hand contact with the outside of your hip"
+            "Only their hand outside your hip"
           ]
         }
       },
       {
         "question": "Kneebar Finish (defender): While the leg is still free, what removes the knee's fulcrum contact?",
         "answer": "Recover the knee line early while it can move freely; a secured extension lock calls for release rather than a forced escape.",
-        "answer_line": "Move the knee away from the attacker's hip line",
+        "answer_line": "Move knee off their hip fulcrum",
         "distractors": {
           "plausible": [
-            "Move the foot sideways while the knee stays at their hips",
-            "Straighten the leg while keeping the knee at their hips"
+            "Move foot sideways with knee fixed",
+            "Straight leg with knee at their hips"
           ],
           "trap": [
-            "Pull the ankle back while leaving the knee line fixed"
+            "Pull ankle back with knee line fixed"
           ]
         }
       },
       {
         "question": "Kneebar Finish (defender): Why avoid turning with your ankle and thigh fixed?",
         "answer": "Do not twist against a held ankle and trapped thigh; obtain release before changing direction.",
-        "answer_line": "Rotation can load the knee between those fixed points",
+        "answer_line": "Knee twists between two fixed points",
         "distractors": {
           "plausible": [
-            "The ankle can follow the torso while the thigh remains pinned",
-            "The hip restraint prevents sideways load reaching the knee"
+            "Ankle follows torso; thigh pinned",
+            "Hip restraint blocks all knee twist"
           ],
           "trap": [
-            "The extended leg can spin without changing knee alignment"
+            "Held leg spins without knee rotation"
           ]
         }
       },
       {
         "question": "Kneebar Finish (defender): The knee is securely captured for extension; when should you tap?",
         "answer": "Tap to the controlled extension threat instead of testing the knee's backward range or waiting for severe pain.",
-        "answer_line": "Before testing how far the knee bends backward",
+        "answer_line": "Before testing backward knee range",
         "distractors": {
           "plausible": [
-            "After their hip extension tests the knee's backward range",
-            "Only when ankle rotation joins the straight-leg hold"
+            "After hips test backward knee range",
+            "Only after added ankle rotation"
           ],
           "trap": [
-            "After a last knee-line escape against the secured capture"
+            "After one last escape from the lock"
           ]
         }
       }

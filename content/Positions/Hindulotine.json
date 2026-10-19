@@ -230,84 +230,84 @@
       {
         "question": "Hindulotine defense: which arm movement signals the developing Hindu Control enclosure?",
         "answer": "An elbow traveling over the opponent's raised foot toward your shoulder signals Hindu Control.",
-        "answer_line": "Their elbow passes over the raised foot toward your shoulder",
+        "answer_line": "Elbow over foot toward your shoulder",
         "distractors": {
           "plausible": [
-            "Their elbow remains below the raised foot as the hand reaches up",
-            "Their hand stays outside your shoulder instead of circling toward the head"
+            "Elbow below foot as the hand rises",
+            "Hand stays outside your shoulder"
           ],
           "trap": [
-            "Their forearm stays across your waist below the high leg"
+            "Forearm across waist, below the leg"
           ]
         }
       },
       {
         "question": "Hindulotine defense: what makes turning your head against the closed enclosure hazardous?",
         "answer": "Avoid twisting the head against a fixed leg-and-arm enclosure.",
-        "answer_line": "The arm and leg can hold the neck while the body rotates",
+        "answer_line": "The loop fixes a neck being turned",
         "distractors": {
           "plausible": [
-            "The foot follows the head before the connected arms move",
-            "Turning the jaw past the forearm opens the hand connection"
+            "The foot follows the head freely",
+            "A jaw turn opens the joined hands"
           ],
           "trap": [
-            "The knee hug diverts the turning force into the chest"
+            "Knee support sends force into chest"
           ]
         }
       },
       {
         "question": "Hindulotine defense: before the finishing hands join, where should your frame work?",
         "answer": "Use an inside hand frame before the attacker connects the finishing grip.",
-        "answer_line": "Inside the developing hand connection",
+        "answer_line": "Inside the closing hand connection",
         "distractors": {
           "plausible": [
-            "Outside their wrists while the hands remain free to meet",
-            "On the raised foot alone while the hand-joining route stays open"
+            "Outside wrists that can still meet",
+            "On the foot, leaving hands free"
           ],
           "trap": [
-            "On the mat behind you before interrupting the supporting hand"
+            "Post behind before blocking the hand"
           ]
         }
       },
       {
         "question": "Hindulotine defense: why doesn't clearing the lower leg prove the choke has opened?",
         "answer": "The lower-body pass can leave the hands and raised leg enclosing the neck. Check that connection rather than treating a new hip position as a release.",
-        "answer_line": "The upper arm-and-leg connection can remain around the neck",
+        "answer_line": "The upper neck enclosure can remain",
         "distractors": {
           "plausible": [
-            "The low hook was the only connection keeping the hands joined",
-            "Moving beside the ribs stops the high foot reaching the head"
+            "The low hook alone held hands joined",
+            "Passing ribs blocks high-foot reach"
           ],
           "trap": [
-            "The new side position forces the supporting hand to separate"
+            "Side position forces hands apart"
           ]
         }
       },
       {
         "question": "Hindulotine defense: what must loosen before you withdraw your head and raise your shoulders?",
         "answer": "Move the head and shoulders free after the hand and high-leg controls have loosened.",
-        "answer_line": "The hand grip and the high-leg control",
+        "answer_line": "The hand grip and the high-leg clamp",
         "distractors": {
           "plausible": [
-            "Only the low leg crossing while the upper enclosure stays closed",
-            "Only one wrist while the other arm and raised foot retain the head"
+            "Only the low crossed legs",
+            "Only one wrist, neck still enclosed"
           ],
           "trap": [
-            "Only the hip angle without changing the hand-and-foot enclosure"
+            "Only hips, hands and foot unchanged"
           ]
         }
       },
       {
         "question": "Hindulotine defense: why should a secured choke be stopped before dizziness?",
         "answer": "Do not wait for dizziness or severe pain before stopping a choke attempt.",
-        "answer_line": "Neck compression can impair responsiveness",
+        "answer_line": "Neck pressure can impair awareness",
         "distractors": {
           "plausible": [
-            "Normal breathing proves that the secured loop cannot affect circulation",
-            "Passing the hips prevents the joined hands from compressing the neck"
+            "Easy breathing means no blood risk",
+            "Passing the hips prevents neck load"
           ],
           "trap": [
-            "A free hand proves you can pull the head out after symptoms begin"
+            "A free hand allows a later escape"
           ]
         }
       },
@@ -318,24 +318,24 @@
         "distractors": {
           "plausible": [
             "Flat between your knees on the mat",
-            "Extended away behind your shoulder"
+            "Extended behind your shoulder"
           ],
           "trap": [
-            "Locked straight against your lower back"
+            "Locked straight at your lower back"
           ]
         }
       },
       {
         "question": "Hindulotine defense: what separates this enclosure from an ordinary front-headlock guillotine?",
         "answer": "Hindu Control is the holding configuration; Hindulotine names the choke applied from it. The raised leg contributes to head control, so an ordinary front-headlock guillotine does not by itself establish this position.",
-        "answer_line": "A raised guard leg participates in controlling the head",
+        "answer_line": "A raised guard leg controls the head",
         "distractors": {
           "plausible": [
-            "A neck loop formed only by the arms with no raised foot involved",
-            "A high supporting elbow over the shoulder without a leg in the loop"
+            "Only the arms form the neck loop",
+            "High elbow with no leg in the loop"
           ],
           "trap": [
-            "An opposing arm included beside the neck within an arm-only enclosure"
+            "Arm-in choke without any raised leg"
           ]
         }
       }
@@ -558,39 +558,39 @@
         "answer_line": "Hug the knee and turn onto your hip",
         "distractors": {
           "plausible": [
-            "Pull the ankle sideways with the knee fixed",
-            "Flatten both hips and extend the raised leg"
+            "Pull ankle sideways, knee fixed",
+            "Flatten hips and extend the high leg"
           ],
           "trap": [
-            "Let the knee fall away while reaching overhead"
+            "Drop the knee while reaching up"
           ]
         }
       },
       {
         "question": "Hindu Control: which route does your controlling arm take?",
         "answer": "Bring the elbow above the raised foot and the hand around the shoulder rather than forcing it straight through a closed gap.",
-        "answer_line": "Elbow over the foot, hand around the shoulder",
+        "answer_line": "Over foot, then around the shoulder",
         "distractors": {
           "plausible": [
-            "Elbow below the raised foot while the hand reaches for the shoulder",
-            "Hand forced through the closed foot-to-head gap without clearing the elbow"
+            "Elbow below foot, hand reaching up",
+            "Force hand through the foot-head gap"
           ],
           "trap": [
-            "Elbow outside the high leg with the forearm still across the waist"
+            "Arm outside leg, forearm at waist"
           ]
         }
       },
       {
         "question": "Hindu Control: before reaching for the second hand, what should already be stable?",
         "answer": "Hold the head and leg enclosure without finishing pressure before seeking the second hand.",
-        "answer_line": "The head held within the arm-and-leg enclosure",
+        "answer_line": "Head held in the arm-and-leg loop",
         "distractors": {
           "plausible": [
-            "A high shin near the head with the elbow still below the foot",
-            "Both hands pulling while the high leg stays loose"
+            "High shin but elbow below the foot",
+            "Two-hand pull with a loose high leg"
           ],
           "trap": [
-            "The head contact alone after the knee hug has been released"
+            "Head contact with no knee support"
           ]
         }
       },
@@ -600,11 +600,11 @@
         "answer_line": "Early reverse-gable; later S-grip",
         "distractors": {
           "plausible": [
-            "First finger hooks, then palms joined without hooking fingers",
-            "The same reverse-gable connection in both lessons"
+            "Finger hooks first, then flat palms",
+            "Reverse-gable in both lessons"
           ],
           "trap": [
-            "Early double-wrist connection; later plain palm-to-palm grip"
+            "Double wrists, then plain gable"
           ]
         }
       },
@@ -614,53 +614,53 @@
         "answer_line": "The upper enclosure around the head",
         "distractors": {
           "plausible": [
-            "The low ankle crossing that the opponent has already passed",
-            "The location of the lower foot on the mat by itself"
+            "Low crossed ankles already passed",
+            "The lower foot placement alone"
           ],
           "trap": [
-            "The passing knee moving beyond the hip without checking the hands"
+            "The passing knee beyond the hip"
           ]
         }
       },
       {
         "question": "Hindulotine: what must you release when your partner taps?",
         "answer": "Open the hands and move the controlling leg away immediately when a partner taps or stops responding normally.",
-        "answer_line": "Separate the hands and move the controlling leg away",
+        "answer_line": "Separate hands; free the high leg",
         "distractors": {
           "plausible": [
-            "Open one hand while keeping the leg clamped",
-            "Relax your fingers but keep pulling with the elbow"
+            "Open one hand; keep the leg clamped",
+            "Relax fingers, keep the elbow pull"
           ],
           "trap": [
-            "Move the low leg while leaving the head enclosure closed"
+            "Move low leg; retain the neck loop"
           ]
         }
       },
       {
         "question": "Hindu Control: where should your raised knee stay relative to your trunk?",
         "answer": "The bottom player is on the back or hip with the raised rubber-guard knee close to the torso.",
-        "answer_line": "Close enough to support beside the torso",
+        "answer_line": "Close beside your torso for support",
         "distractors": {
           "plausible": [
-            "Fully straight above the opponent's head",
-            "Resting flat beneath the opponent's hip"
+            "Fully straight above their head",
+            "Flat beneath the opposing hip"
           ],
           "trap": [
-            "Spread wide while the ankle is pulled inward"
+            "Wide while the ankle is pulled in"
           ]
         }
       },
       {
         "question": "Hindu Control: what changes when the holding configuration becomes a Hindulotine attempt?",
         "answer": "Hindu Control is the holding configuration; Hindulotine names the choke applied from it. The raised leg contributes to head control, so an ordinary front-headlock guillotine does not by itself establish this position.",
-        "answer_line": "The connected enclosure applies choking pressure",
+        "answer_line": "The enclosure loads the neck",
         "distractors": {
           "plausible": [
-            "The hands separate while the high leg remains in place",
-            "The lower leg changes position without loading the neck enclosure"
+            "Hands separate; the high leg stays",
+            "The low leg moves with no neck load"
           ],
           "trap": [
-            "The knee loses support while the foot is pulled away from the torso"
+            "Knee unsupported; foot pulled away"
           ]
         }
       }

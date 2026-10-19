@@ -187,42 +187,42 @@
       {
         "question": "Aoki Lock to Back Control (attacker): What does the initial grip enclose?",
         "answer": "The opposing foot is turned outward and enclosed near the armpit, upper arm, and forearm.",
-        "answer_line": "An outward-turned foot beside the armpit",
+        "answer_line": "Outward foot beside the armpit",
         "distractors": {
           "plausible": [
-            "A straight foot with only Achilles contact",
-            "An inward-turned foot beside the armpit"
+            "Straight foot, Achilles contact only",
+            "Inward foot beside the armpit"
           ],
           "trap": [
-            "A turned-out foot held only at the toes"
+            "Outward foot held only at the toes"
           ]
         }
       },
       {
         "question": "Aoki Lock to Back Control (attacker): Why unload the foot before changing sides?",
         "answer": "Rotational foot locks can injure the ankle or knee before pain provides useful warning. Use cooperative capture-and-release practice, no spinning escapes, and the event's actual division rules.",
-        "answer_line": "Hip movement can rotate the captured ankle and knee",
+        "answer_line": "Hip turns can twist ankle and knee",
         "distractors": {
           "plausible": [
-            "The foot grip only compresses calf muscle",
-            "The hip can turn independently of the held foot"
+            "The grip only compresses the calf",
+            "The hip turns free of the held foot"
           ],
           "trap": [
-            "A seated turn leaves the knee unloaded"
+            "Seated turns leave the knee unloaded"
           ]
         }
       },
       {
         "question": "Aoki Lock to Back Control (attacker): What must open before turning toward the back?",
         "answer": "Open the original connection before either partner turns, rises or changes the captured limb.",
-        "answer_line": "The foot enclosure and restraining leg connection",
+        "answer_line": "The foot enclosure and hip restraint",
         "distractors": {
           "plausible": [
-            "Only a hand while the armpit keeps the foot fixed",
-            "Only the hip connection while the foot stays clamped"
+            "Just a hand, with the foot clamped",
+            "Just the hip, with the foot clamped"
           ],
           "trap": [
-            "The leg connection after the turn has begun"
+            "The leg clamp once turning begins"
           ]
         }
       },
@@ -232,39 +232,39 @@
         "answer_line": "Chest against the opponent's back",
         "distractors": {
           "plausible": [
-            "Your chest beside their back with a gap",
-            "Your chest against the front of their shoulder"
+            "Chest beside their back with a gap",
+            "Chest against their front shoulder"
           ],
           "trap": [
-            "Your chest against their hip with shoulders detached"
+            "Chest on their hip, shoulders apart"
           ]
         }
       },
       {
         "question": "Aoki Lock to Back Control (attacker): What secures both shoulder and hip lines from behind?",
         "answer": "Use controlled upper-body and leg attachment while preserving neck alignment.",
-        "answer_line": "Attachment around both the torso and hips",
+        "answer_line": "Attachment around the torso and hips",
         "distractors": {
           "plausible": [
             "Hooks while the chest stays far away",
-            "A seatbelt with no control of the hips"
+            "A seatbelt with no hip control"
           ],
           "trap": [
-            "A waist grip while your chest drifts off the back"
+            "A waist grip with chest off the back"
           ]
         }
       },
       {
         "question": "Aoki Lock to Back Control (attacker): What shows rear control still needs work?",
         "answer": "Confirm that the opponent cannot simply turn to face you before considering a back attack.",
-        "answer_line": "The opponent can turn their chest toward you",
+        "answer_line": "They can turn their chest toward you",
         "distractors": {
           "plausible": [
-            "Your chest follows their back as they move",
+            "Your chest follows their moving back",
             "Your legs contain their hip line"
           ],
           "trap": [
-            "Their chest stays facing away inside your attachment"
+            "Their chest stays facing away"
           ]
         }
       },
@@ -274,39 +274,39 @@
         "answer_line": "Legs managing the captured leg's hip",
         "distractors": {
           "plausible": [
-            "Feet touching the ankle with the hip free",
-            "Knees beside the thigh without enclosing the leg"
+            "Feet at the ankle with the hip free",
+            "Knees by the thigh without a clamp"
           ],
           "trap": [
-            "Crossed ankles detached from the opponent's hip"
+            "Crossed ankles detached from the hip"
           ]
         }
       },
       {
         "question": "Aoki Lock to Back Control (attacker): Why does retaining the foot grip not establish back control?",
         "answer": "The captured limb is the foot and lower leg. This is distinct from an omoplata-style shoulder trap and from a bent-knee calf slicer. Either player can become the foot-lock attacker during an entanglement exchange. The reviewed instruction does not establish a direct Aoki Lock Control-to-Back Control connection. Release the original lock safely and establish the destination's own prerequisites; do not treat these checkpoints as a demonstrated continuous entry.",
-        "answer_line": "It controls a lower limb, not the rear torso",
+        "answer_line": "It holds a leg, not the rear torso",
         "distractors": {
           "plausible": [
-            "The heel grip also fixes the opponent's shoulder line",
-            "The foot grip prevents the torso turning to face"
+            "The heel grip also fixes shoulders",
+            "The foot grip stops facing turns"
           ],
           "trap": [
-            "The leg enclosure already supplies rear torso contact"
+            "The leg clamp supplies back contact"
           ]
         }
       },
       {
         "question": "Aoki Lock to Back Control (attacker): The partner starts turning with the foot fixed. What opens?",
         "answer": "Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.",
-        "answer_line": "Both the arm enclosure and hip restraint",
+        "answer_line": "Both arm enclosure and hip restraint",
         "distractors": {
           "plausible": [
-            "Only the hand clasp, leaving the instep clamped",
-            "Only the hip connection, keeping the foot enclosed"
+            "Just the clasp, instep still clamped",
+            "Just hip contact, foot still held"
           ],
           "trap": [
-            "Only the forearm pressure, retaining the leg clamp"
+            "Just forearm pressure, legs clamped"
           ]
         }
       },
@@ -316,7 +316,7 @@
         "answer_line": "Beneath the heel and Achilles region",
         "distractors": {
           "plausible": [
-            "High beneath the calf, clear of the heel",
+            "High under calf, clear of the heel",
             "Across the top of the instep"
           ],
           "trap": [
@@ -434,14 +434,14 @@
       {
         "question": "Aoki Lock to Back Control (defender): After foot release, how do you deny rear torso access?",
         "answer": "Keep the shoulders facing the opponent before a seatbelt closes.",
-        "answer_line": "Keep your shoulders facing the opponent",
+        "answer_line": "Keep shoulders facing the opponent",
         "distractors": {
           "plausible": [
-            "Turn your shoulders away while leaving hips behind",
-            "Reach backward while leaving the chest turned away"
+            "Turn shoulders away, hips stay put",
+            "Reach back with chest facing away"
           ],
           "trap": [
-            "Face the hips while leaving your shoulders turned away"
+            "Hips face them, shoulders face away"
           ]
         }
       },
@@ -451,11 +451,11 @@
         "answer_line": "Intercept that arm with your hands",
         "distractors": {
           "plausible": [
-            "Grip only the wrist resting at your waist",
-            "Peel a hip hook before checking the neck arm"
+            "Grip only the wrist at your waist",
+            "Peel a hip hook before the neck arm"
           ],
           "trap": [
-            "Tuck the chin and allow the hands to connect"
+            "Tuck chin, let their hands connect"
           ]
         }
       },
@@ -465,39 +465,39 @@
         "answer_line": "Close to the ribs and returning knee",
         "distractors": {
           "plausible": [
-            "Flared outward above the approaching forearm",
-            "Flared away from the knee toward the mat"
+            "Flared above the approaching forearm",
+            "Flared away from knee toward the mat"
           ],
           "trap": [
-            "Extended forward past the returning knee"
+            "Extended beyond the returning knee"
           ]
         }
       },
       {
         "question": "Aoki Lock to Back Control (defender): After the lock opens, what barrier helps recover facing guard?",
         "answer": "Bring the knee inside behind a frame and keep the elbow connected as you face the opponent.",
-        "answer_line": "An inside knee joined to the near elbow",
+        "answer_line": "An inside knee beside the near elbow",
         "distractors": {
           "plausible": [
-            "Both knees pointed away from the opponent",
-            "An elbow frame with the knee outside their hip"
+            "Both knees pointed away from them",
+            "Elbow frame, knee outside their hip"
           ],
           "trap": [
-            "An inside knee with the elbow lifted away"
+            "Inside knee with elbow lifted away"
           ]
         }
       },
       {
         "question": "Aoki Lock to Back Control (defender): Your torso can turn but the foot is fixed. What comes first?",
         "answer": "Wait for a trapped foot or arm to be released before changing direction.",
-        "answer_line": "Release of the foot and hip restraints",
+        "answer_line": "Release both foot and hip restraints",
         "distractors": {
           "plausible": [
-            "Turning the shoulders before moving the hips",
-            "Freeing only the hip while retaining the foot clamp"
+            "Turn shoulders before moving hips",
+            "Free the hip but keep the foot clamp"
           ],
           "trap": [
-            "Turning the knee before clearing the heel"
+            "Turn the knee before heel clearance"
           ]
         }
       }

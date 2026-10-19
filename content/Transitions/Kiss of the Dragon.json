@@ -182,28 +182,28 @@
       {
         "question": "Kiss of the Dragon (bottom): What guard connection begins the inversion?",
         "answer": "Use the reverse hook and lower-leg connection while facing the standing passer.",
-        "answer_line": "A reverse De La Riva hook around the near leg",
+        "answer_line": "Reverse De La Riva round near leg",
         "distractors": {
           "plausible": [
-            "A standard De La Riva hook from outside the near leg",
-            "A butterfly instep under the near thigh"
+            "Standard De La Riva from outside",
+            "Butterfly instep under near thigh"
           ],
           "trap": [
-            "A knee shield across the torso with no reverse hook"
+            "Knee shield without reverse hook"
           ]
         }
       },
       {
         "question": "Kiss of the Dragon (bottom): Where should the off-balance shift their weight?",
         "answer": "Load weight onto the far leg or available post to create space beside the near leg.",
-        "answer_line": "Toward the far leg or available far-side post",
+        "answer_line": "Toward far leg or far-side post",
         "distractors": {
           "plausible": [
-            "Entirely onto the near leg blocking your path",
-            "Evenly onto both feet while the near leg stays heavy"
+            "Fully onto near leg in your path",
+            "Even on both feet, near leg heavy"
           ],
           "trap": [
-            "Back onto the near heel as the far post becomes light"
+            "Onto near heel, far post light"
           ]
         }
       },
@@ -227,95 +227,95 @@
         "answer_line": "Your head and tucked knee",
         "distractors": {
           "plausible": [
-            "Your head alone, with the knee outside",
-            "Your head and straight foot, knee trailing"
+            "Head alone, knee staying outside",
+            "Head and straight foot, knee trails"
           ],
           "trap": [
-            "Your knee alone, with the head in front"
+            "Knee alone, head stays in front"
           ]
         }
       },
       {
         "question": "Kiss of the Dragon (bottom): After the lat connection, where does the guiding hand move?",
         "answer": "Connect behind the thigh while bringing the knees behind the opponent's leg line.",
-        "answer_line": "To the hamstring as the knee follows behind the thigh",
+        "answer_line": "Hamstring, knee follows behind thigh",
         "distractors": {
           "plausible": [
-            "Remain on the lat while your knee stays in front",
-            "To the front of the knee while your tucked knee trails outside"
+            "Stay on lat, knee remains in front",
+            "Front of knee, your knee outside"
           ],
           "trap": [
-            "To the outside hip while leaving the hamstring unconnected"
+            "Outside hip, no hamstring connection"
           ]
         }
       },
       {
         "question": "Kiss of the Dragon (bottom): What remains after you reach behind the legs?",
         "answer": "Establish torso and leg control before calling the result back control; return to guard if the connection is lost.",
-        "answer_line": "Separate torso and leg attachment for back control",
+        "answer_line": "Separate rear torso/leg attachment",
         "distractors": {
           "plausible": [
-            "An ankle grip alone while your chest stays beside the hip",
-            "A rear torso grip with both legs disengaged"
+            "Ankle grip alone, chest beside hip",
+            "Rear torso grip, legs disengaged"
           ],
           "trap": [
-            "A leg hook with your chest still facing the opponent"
+            "Leg hook, chest still facing them"
           ]
         }
       },
       {
         "question": "Kiss of the Dragon (bottom): Why move weight away from the near leg before entering underneath?",
         "answer": "Use the reverse hook and off-balance to move weight toward the far leg or available post. The near-leg opening then admits the head and tucked knee on a shoulder-supported turn.",
-        "answer_line": "It opens space beside that leg for the head and tucked knee",
+        "answer_line": "Room for head and tucked knee",
         "distractors": {
           "plausible": [
-            "It keeps the near knee weighted while your head passes",
-            "It removes the need to bring your knee under the leg"
+            "Near knee stays heavy as head passes",
+            "No need to bring your knee beneath"
           ],
           "trap": [
-            "It lets the head enter while the tucked knee stays outside"
+            "Head enters, tucked knee stays out"
           ]
         }
       },
       {
         "question": "Kiss of the Dragon (bottom): What makes a huge straight-leg pendulum a poor choice here?",
         "answer": "Bodoni favors drawing the knee inward over a large straight-leg swing that the opponent can capture.",
-        "answer_line": "It exposes the swinging leg and loses a compact knee path",
+        "answer_line": "Exposes leg, loses compact knee path",
         "distractors": {
           "plausible": [
-            "A longer straight leg keeps the hooked knee close to the hip",
-            "The pendulum replaces the off-balance supplied by the leg connection"
+            "Long leg keeps hooked knee compact",
+            "Pendulum replaces the off-balance"
           ],
           "trap": [
-            "Straightening the swinging leg protects it from the opponent's reach"
+            "Straight leg escapes their reach"
           ]
         }
       },
       {
         "question": "Kiss of the Dragon (bottom): The opening closes around your head or leg. What should you do?",
         "answer": "If the shoulder-supported path closes, return to frames and guard retention instead of forcing a trapped neck or leg.",
-        "answer_line": "Release the unsafe capture and rebuild facing guard",
+        "answer_line": "Release trap, rebuild facing guard",
         "distractors": {
           "plausible": [
-            "Continue the hip turn while the head remains wedged",
-            "Reach for the hamstring while the lower leg stays fixed"
+            "Turn hips with head still wedged",
+            "Reach hamstring, lower leg fixed"
           ],
           "trap": [
-            "Switch the swinging leg before freeing the blocked head"
+            "Switch swing leg, head still stuck"
           ]
         }
       },
       {
         "question": "Kiss of the Dragon (bottom): What role does the foot on the hip play in the compact turn?",
         "answer": "The foot-on-hip connection supports the pivot as the knee tucks and the head passes under the near leg.",
-        "answer_line": "Provides a pivot while the knee draws toward the chest",
+        "answer_line": "A pivot as knee draws to chest",
         "distractors": {
           "plausible": [
-            "Provides a push while the knee stays extended outside",
-            "Carries the turn while the hand releases all leg contact"
+            "A push with knee extended outside",
+            "A pivot without hand-leg contact"
           ],
           "trap": [
-            "Pins the hips in place while only your head goes underneath"
+            "Fixed hips, only head goes under"
           ]
         }
       }
@@ -432,53 +432,53 @@
         "answer_line": "Backside access under your near leg",
         "distractors": {
           "plausible": [
-            "A front-facing knee shield without a change in your leg line",
-            "Direct chest-to-back contact before the head passes underneath"
+            "Front knee shield, leg line intact",
+            "Chest on back before head goes under"
           ],
           "trap": [
-            "A completed rear leg trap from the reverse hook alone"
+            "Full rear leg trap from hook alone"
           ]
         }
       },
       {
         "question": "Kiss of the Dragon (top): What helps preserve base before their off-balance succeeds?",
         "answer": "Redistribute weight before the far leg and posting arm are loaded.",
-        "answer_line": "Redistribute weight while your posts remain mobile",
+        "answer_line": "Shift weight while posts can move",
         "distractors": {
           "plausible": [
-            "Freeze weight on the far leg and trapped posting arm",
-            "Shift the shoulders while leaving both feet fixed"
+            "Freeze far leg and captured post",
+            "Lean past fixed feet without posting"
           ],
           "trap": [
-            "Let the near leg become light while the far arm stays captured"
+            "Lighten near leg, far arm captured"
           ]
         }
       },
       {
         "question": "Kiss of the Dragon (top): When should you address the reverse hook?",
         "answer": "Clear the reverse hook before the opponent has inverted under the knee line.",
-        "answer_line": "Before they invert beneath your knee line",
+        "answer_line": "Before inversion beneath your knee",
         "distractors": {
           "plausible": [
-            "After their rear torso attachment is fully secured",
-            "Once their knee is already behind your hamstring"
+            "After rear torso grip is secured",
+            "Once knee is behind your hamstring"
           ],
           "trap": [
-            "After the head has passed and your foot is still held"
+            "After head passes, foot still held"
           ]
         }
       },
       {
         "question": "Kiss of the Dragon (top): How do you turn to follow without twisting a trapped foot?",
         "answer": "Turn with the opponent while keeping the knee aligned rather than spinning on a trapped foot.",
-        "answer_line": "Free the foot, then turn foot, knee and hips together",
+        "answer_line": "Free foot; align foot, knee and hip",
         "distractors": {
           "plausible": [
-            "Spin the hips while leaving the ankle fixed",
-            "Point the knee opposite the anchored toes"
+            "Spin hips with ankle still fixed",
+            "Point knee opposite anchored toes"
           ],
           "trap": [
-            "Free only the hand grip while the reverse hook still fixes the foot"
+            "Hand free, hook still fixes foot"
           ]
         }
       }

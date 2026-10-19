@@ -226,70 +226,70 @@
       {
         "question": "Heel hook after Carni: which opposing limb replaces the original arm as the captured target?",
         "answer": "A single opposing lower limb in leg control. A genuine leg entanglement must be established after leaving Carni's shoulder control. The original wrist-and-triceps clamp does not provide the heel hook.",
-        "answer_line": "A single opposing lower limb in leg control",
+        "answer_line": "A single leg held in leg control",
         "distractors": {
           "plausible": [
-            "The same upper arm without a lower-body capture",
-            "Both arms within the high guard triangle"
+            "The same upper arm without leg grip",
+            "Both arms in the high guard triangle"
           ],
           "trap": [
-            "The near shoulder inside the existing overhook"
+            "Near shoulder in the old overhook"
           ]
         }
       },
       {
         "question": "Heel-hook attack: what is the purpose of controlling the opponent's hip?",
         "answer": "Limit the leg sliding freely through the entanglement. Hip control manages distance and limits the leg moving freely through the hold. It works with knee-line containment and heel control; it does not replace either of them.",
-        "answer_line": "Limit the leg sliding freely through the entanglement",
+        "answer_line": "Limit leg sliding through your legs",
         "distractors": {
           "plausible": [
-            "Let the knee travel while you hold only the heel",
-            "Pull the foot away while leaving their pelvis free"
+            "Let knee travel while heel is held",
+            "Pull foot with their pelvis free"
           ],
           "trap": [
-            "Twist the knee sideways to replace proximal control"
+            "Twist knee instead of securing hip"
           ]
         }
       },
       {
         "question": "Heel-hook attack: what should happen to the knee line in an unloaded control drill?",
         "answer": "Stay contained without sideways knee pressure. Keep the knee connected to the entanglement without forcing sideways pressure in a drill.",
-        "answer_line": "Stay contained without sideways knee pressure",
+        "answer_line": "Contained without sideways force",
         "distractors": {
           "plausible": [
-            "Be pulled sideways while the foot stays fixed",
-            "Slide freely beyond the entangling legs"
+            "Pulled sideways against a fixed foot",
+            "Sliding beyond the entangling legs"
           ],
           "trap": [
-            "Be ignored once a fingertip touches the heel"
+            "Ignored once fingertips find heel"
           ]
         }
       },
       {
         "question": "Heel-hook attack: how should you locate the heel lever?",
         "answer": "Use an exposed heel without cranking the foot into view. Locate the heel lever without cranking the foot to expose it.",
-        "answer_line": "Use an exposed heel without cranking the foot into view",
+        "answer_line": "Collect an already exposed heel",
         "distractors": {
           "plausible": [
-            "Twist the toes until the heel emerges against resistance",
-            "Turn the captured knee while holding the ankle still"
+            "Twist toes to force the heel out",
+            "Turn knee against a fixed ankle"
           ],
           "trap": [
-            "Pull the foot sideways from a planted kneecap"
+            "Pull foot beside a planted kneecap"
           ]
         }
       },
       {
         "question": "Heel-hook practice: where should a cooperative repetition stop?",
         "answer": "At a secure heel catch with no finishing rotation. Connect the grip with no finishing rotation; a secure heel catch is the stopping point in cooperative practice.",
-        "answer_line": "At a secure heel catch with no finishing rotation",
+        "answer_line": "Secure catch, no finishing rotation",
         "distractors": {
           "plausible": [
-            "After the heel has turned far enough to move the knee",
-            "At the first report of sharp joint pain"
+            "Once the heel turn moves the knee",
+            "At the first sharp joint pain"
           ],
           "trap": [
-            "Once the opponent must spin to follow the lock"
+            "Once they must spin with the lock"
           ]
         }
       },
@@ -299,8 +299,8 @@
         "answer_line": "The heel grip and leg connection",
         "distractors": {
           "plausible": [
-            "Only the outside hand while the heel stays trapped",
-            "Only the free foot while the knee remains contained"
+            "Outer hand only, heel still held",
+            "Free foot only, knee still caught"
           ],
           "trap": [
             "Only the pressure on the calf"
@@ -314,25 +314,25 @@
         "answer_line": "The hip above the captured knee",
         "distractors": {
           "plausible": [
-            "The ankle below the enclosed heel",
+            "The ankle below the held heel",
             "The foot beyond the knee line"
           ],
           "trap": [
-            "The knee alone with the thigh free to travel"
+            "Knee alone with the thigh mobile"
           ]
         }
       },
       {
         "question": "Heel hook after Carni: which joint did the original wrist-and-triceps clamp threaten?",
         "answer": "The shoulder within the upper-body clamp. Carni is a shoulder attack. Release or leave that structure before separately establishing hip, knee and heel controls for a heel hook.",
-        "answer_line": "The shoulder within the upper-body clamp",
+        "answer_line": "The shoulder in the upper-body clamp",
         "distractors": {
           "plausible": [
-            "The knee behind a compression fulcrum",
-            "The ankle within a rotated foot enclosure"
+            "Knee behind a compression wedge",
+            "Ankle in a rotated foot grip"
           ],
           "trap": [
-            "The hip inside a lower-leg triangle"
+            "Hip inside a lower-leg triangle"
           ]
         }
       }
@@ -445,70 +445,70 @@
       {
         "question": "Heel-hook defense: which combination is a serious warning even before pain?",
         "answer": "Your heel caught while the knee line is contained. An exposed heel captured while the knee is contained is a joint-lock threat even without pain.",
-        "answer_line": "Your heel caught while the knee line is contained",
+        "answer_line": "Heel caught with knee line contained",
         "distractors": {
           "plausible": [
-            "Your calf touched while the foot and knee remain free",
-            "Your free ankle resting on the mat"
+            "Calf touched, foot and knee free",
+            "Free ankle resting on the mat"
           ],
           "trap": [
-            "The opponent's hands detached from your foot"
+            "Their hands detached from your foot"
           ]
         }
       },
       {
         "question": "Heel-hook defense: while the grip is still open, what should you contest?",
         "answer": "Foot exposure and the hands collecting the heel. Manage foot position and hand fight while the attacker still lacks a closed grip.",
-        "answer_line": "Foot exposure and the hands collecting the heel",
+        "answer_line": "Foot exposure and the heel grip",
         "distractors": {
           "plausible": [
-            "Only the opponent's far shoulder",
-            "Only your own free knee behind their hips"
+            "Only their far shoulder",
+            "Only your free knee behind them"
           ],
           "trap": [
-            "The mat with both hands while offering the heel"
+            "Post both hands, leaving heel open"
           ]
         }
       },
       {
         "question": "Heel-hook defense: when is early knee-line withdrawal available?",
         "answer": "When the foot is unfixed and the entanglement has space. Withdraw the leg only while the foot is not fixed and there is space in the entanglement.",
-        "answer_line": "When the foot is unfixed and the entanglement has space",
+        "answer_line": "Unfixed foot and space in the legs",
         "distractors": {
           "plausible": [
-            "While the heel is held tightly and the knee cannot move",
-            "After spinning the torso against the fixed foot"
+            "Heel held tight with knee immobile",
+            "After turning against a fixed foot"
           ],
           "trap": [
-            "Only after the knee reaches its rotational limit"
+            "At the limit of knee rotation"
           ]
         }
       },
       {
         "question": "Heel-hook defense: why is guessing an escape direction by spinning dangerous?",
         "answer": "The held heel can make the knee absorb your body's turn. Never spin the torso against a held heel in an attempt to guess an escape direction.",
-        "answer_line": "The held heel can make the knee absorb your body's turn",
+        "answer_line": "Held heel transfers turn to knee",
         "distractors": {
           "plausible": [
-            "Every spin peels the heel grip before the knee moves",
-            "A captured heel disconnects the ankle from the knee"
+            "Spinning opens heel grip first",
+            "Heel grip disconnects ankle and knee"
           ],
           "trap": [
-            "The lock becomes harmless if you turn fast enough"
+            "Enough speed makes the lock safe"
           ]
         }
       },
       {
         "question": "Heel-hook defense: what warning should you not wait for once the rotational capture is secure?",
         "answer": "Pain or a test of the joint's remaining range. Tap early to a secured rotational capture instead of testing how far it can move. Absence of pain is not evidence of a safe escape direction.",
-        "answer_line": "Pain or a test of the joint's remaining range",
+        "answer_line": "Pain or testing the joint range",
         "distractors": {
           "plausible": [
-            "Recognition that the heel is already contained",
-            "The first sign that the leg cannot follow your torso"
+            "Recognizing the captured heel",
+            "Leg unable to follow your torso"
           ],
           "trap": [
-            "The attacker establishing the rotation-controlling grip"
+            "A grip that controls rotation"
           ]
         }
       }

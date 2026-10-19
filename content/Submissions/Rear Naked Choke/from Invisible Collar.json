@@ -240,25 +240,25 @@
         "answer_line": "Secure torso attachment from behind",
         "distractors": {
           "plausible": [
-            "The original facing high guard alone",
-            "A neck reach while your chest stays detached"
+            "Only the facing high guard",
+            "Neck reach with chest detached"
           ],
           "trap": [
-            "A grip on the far ankle from beside the hips"
+            "Far-ankle grip beside their hips"
           ]
         }
       },
       {
         "question": "Rear naked choke attack: what is the purpose of winning the defending-hand exchange?",
         "answer": "Clear access for the arm to wrap the neck. Control the defending hands without bending individual fingers or scraping the face.",
-        "answer_line": "Clear access for the arm to wrap the neck",
+        "answer_line": "Clear the path to wrap the neck",
         "distractors": {
           "plausible": [
-            "Force the chin upward by bending a finger",
-            "Keep both of your arms outside the head permanently"
+            "Bend a finger to force chin up",
+            "Keep both arms outside the head"
           ],
           "trap": [
-            "Replace torso attachment with a distant wrist pull"
+            "Wrist pull replaces chest contact"
           ]
         }
       },
@@ -268,53 +268,53 @@
         "answer_line": "The choking forearm and upper arm",
         "distractors": {
           "plausible": [
-            "The wrist across the mouth and the back of the skull",
-            "Both palms pulling the chin sideways"
+            "Wrist over mouth and rear skull",
+            "Both palms pulling chin sideways"
           ],
           "trap": [
-            "The forearm behind the head with the elbow on the jaw"
+            "Forearm behind head, elbow on jaw"
           ]
         }
       },
       {
         "question": "Rear naked choke attack: what should the supporting hand behind the head do?",
         "answer": "Complete the arm loop without levering the neck forward. Connect the arm loop with the support hand behind the head without levering the neck forward.",
-        "answer_line": "Complete the arm loop without levering the neck forward",
+        "answer_line": "Close the loop without neck levering",
         "distractors": {
           "plausible": [
-            "Push the skull forward as the main finishing lever",
-            "Pull the chin upward through the choking arm"
+            "Push skull forward to finish",
+            "Pull chin up through the choke arm"
           ],
           "trap": [
-            "Remain separate while the choking fingers squeeze alone"
+            "Stay separate; choke fingers squeeze"
           ]
         }
       },
       {
         "question": "Rear naked choke attack: which elbow movement reduces space while the head stays aligned?",
         "answer": "Draw the elbows toward one another gradually. Kesting describes bringing the elbows together as one component of closing the choke. Keep the head aligned, use gradual pressure and release the entire connection immediately on a signal.",
-        "answer_line": "Draw the elbows toward one another gradually",
+        "answer_line": "Draw elbows together gradually",
         "distractors": {
           "plausible": [
-            "Spread the elbows away from each other",
-            "Lift one elbow while twisting the chin across the chest"
+            "Spread elbows away from each other",
+            "Lift elbow while twisting the chin"
           ],
           "trap": [
-            "Drive both elbows behind the head to fold the neck"
+            "Drive elbows back to fold the neck"
           ]
         }
       },
       {
         "question": "Rear naked choke attack: what must open when the partner taps or becomes unresponsive?",
         "answer": "The choking arm and supporting hand. Open the choking arm and supporting hand immediately on any tap or change in responsiveness.",
-        "answer_line": "The choking arm and supporting hand",
+        "answer_line": "Choking arm and supporting hand",
         "distractors": {
           "plausible": [
-            "Only the hand that is easiest to move",
-            "Only the back hooks while the arms keep squeezing"
+            "Only the easiest hand to move",
+            "Only back hooks, arms still tight"
           ],
           "trap": [
-            "Only the support fingers while the forearm stays tight"
+            "Support fingers, forearm still tight"
           ]
         },
         "safety_critical": true
@@ -322,42 +322,42 @@
       {
         "question": "Rear naked choke attack: which paired leg action helps maintain the rear-mount connection?",
         "answer": "Knees drawing inward as heels draw toward you. Kesting describes coordinated knee closure and heel retraction to retain rear mount. Keep the upper-body connection while organizing this leg control before the neck attack.",
-        "answer_line": "Knees drawing inward as heels draw toward you",
+        "answer_line": "Knees inward, heels toward you",
         "distractors": {
           "plausible": [
-            "Knees flared while the heels drift away",
-            "Both legs extended away from the opponent's hips"
+            "Knees flared and heels drifting away",
+            "Both legs extended from their hips"
           ],
           "trap": [
-            "Feet pulling the head while the torso stays disconnected"
+            "Feet pull head, torso disconnected"
           ]
         }
       },
       {
         "question": "Rear naked choke after Invisible Collar: why doesn't closing the high legs establish this attack?",
         "answer": "Facing guard does not establish access behind the torso. Invisible Collar is a facing guard clinch. Reaching the back is a separate positional change; the high legs do not themselves establish rear torso access.",
-        "answer_line": "Facing guard does not establish access behind the torso",
+        "answer_line": "Facing guard gives no rear access",
         "distractors": {
           "plausible": [
-            "Any high leg automatically acts as a rear choking arm",
-            "High legs behind the head provide chest-to-back attachment"
+            "A high leg acts as the rear arm",
+            "High legs provide chest-to-back grip"
           ],
           "trap": [
-            "A knee hug already joins the two choking hands"
+            "Knee hug joins the choking hands"
           ]
         }
       },
       {
         "question": "Rear naked choke practice: if the jaw blocks your forearm, what is the appropriate reset?",
         "answer": "Unload and hand fight to regain neck access. Never squeeze through the jaw or continue after a tap. Agree on verbal signals when the hands are occupied, and open the whole arm loop immediately.",
-        "answer_line": "Unload and hand fight to regain neck access",
+        "answer_line": "Unload; hand fight for neck access",
         "distractors": {
           "plausible": [
-            "Squeeze through the jaw until the chin lifts",
-            "Turn the head sharply while holding the support grip"
+            "Squeeze through jaw until chin lifts",
+            "Turn head sharply with support held"
           ],
           "trap": [
-            "Push the skull forward to force the jaw past your arm"
+            "Push skull forward past the forearm"
           ]
         },
         "safety_critical": true
@@ -365,14 +365,14 @@
       {
         "question": "Rear naked choke practice: which arm routes form the harness before progressing toward the neck?",
         "answer": "One under an armpit, the other over the opposite shoulder. The rear harness uses one underarm and one over-shoulder connection, with the hands joined. It retains torso attachment while hand fighting creates a later neck entry.",
-        "answer_line": "One under an armpit, the other over the opposite shoulder",
+        "answer_line": "Under armpit, over opposite shoulder",
         "distractors": {
           "plausible": [
-            "Both over the shoulders with the underarm space abandoned",
-            "Both under the thighs while your chest stays behind the knees"
+            "Both over, leaving armpits clear",
+            "Both under thighs, chest at knees"
           ],
           "trap": [
-            "One around the foot and the other behind your own neck"
+            "One round foot, one at your own neck"
           ]
         }
       }
@@ -476,70 +476,70 @@
       {
         "question": "Rear naked choke defense: what should you stop the attacking wrist from completing?",
         "answer": "A wrap across the neck into a closed arm loop. Keep the attacking wrist from crossing into a complete neck enclosure.",
-        "answer_line": "A wrap across the neck into a closed arm loop",
+        "answer_line": "Neck wrap closing into an arm loop",
         "distractors": {
           "plausible": [
-            "A grip on the trouser cuff beside your ankle",
-            "A post on the mat behind the attacker"
+            "A trouser-cuff grip at your ankle",
+            "A mat post behind the attacker"
           ],
           "trap": [
-            "A touch on the outside of your own elbow"
+            "A touch on your outer elbow"
           ]
         }
       },
       {
         "question": "Rear naked choke defense: when should both hands contest the choking arm?",
         "answer": "Before the supporting hand joins the loop. Hand fight before the supporting hand joins the choke.",
-        "answer_line": "Before the supporting hand joins the loop",
+        "answer_line": "Before the support hand joins",
         "distractors": {
           "plausible": [
-            "Only after the grip is complete and symptoms appear",
-            "After using both hands to peel back hooks alone"
+            "Only after full grip and symptoms",
+            "After using both hands on hooks"
           ],
           "trap": [
-            "Once the opponent has already released the neck"
+            "Once they have released the neck"
           ]
         }
       },
       {
         "question": "Rear naked choke defense: how should torso-position work relate to hand fighting?",
         "answer": "Keep protecting the neck while adjusting rear attachment. Work on torso position only while maintaining protection against the choking arm.",
-        "answer_line": "Keep protecting the neck while adjusting rear attachment",
+        "answer_line": "Protect neck while adjusting torso",
         "distractors": {
           "plausible": [
-            "Use both hands on the hooks and ignore the choking wrist",
-            "Turn the body first while leaving the neck fully exposed"
+            "Both hands on hooks, wrist unguarded",
+            "Turn first with the neck exposed"
           ],
           "trap": [
-            "Wait for a completed choke before changing any torso contact"
+            "Wait for full choke before moving"
           ]
         }
       },
       {
         "question": "Rear naked choke defense: why is a violent head turn not a dependable escape from the closed loop?",
         "answer": "The arm enclosure can hold the neck during the turn. Do not rely on chin tucking or a violent head turn against the completed loop.",
-        "answer_line": "The arm enclosure can hold the neck during the turn",
+        "answer_line": "The arm loop fixes the turning neck",
         "distractors": {
           "plausible": [
-            "Turning always unhooks the supporting fingers",
-            "A tucked chin makes every neck turn harmless"
+            "Turning unhooks support fingers",
+            "Chin tucked makes all turns safe"
           ],
           "trap": [
-            "The forearm loses contact whenever the face rotates"
+            "Any face turn removes arm contact"
           ]
         }
       },
       {
         "question": "Rear naked choke defense: which symptoms must an early tap prevent?",
         "answer": "Dizziness, visual changes or impaired awareness. Tap before any of these symptoms; stop before a secured choke impairs normal awareness.",
-        "answer_line": "Dizziness, visual changes or impaired awareness",
+        "answer_line": "Dizziness or impaired awareness",
         "distractors": {
           "plausible": [
-            "Only when both legs can no longer move",
-            "Only after the opponent changes to a collar grip"
+            "Only when both legs cannot move",
+            "Only after a switch to collar grip"
           ],
           "trap": [
-            "After testing one last head twist against the loop"
+            "After testing one more head twist"
           ]
         }
       }

@@ -202,44 +202,44 @@
     ],
     "flashcards": [
       {
-        "question": "Buggy Choke to North-South (top): Which connection forms the Buggy loop you must clear?",
+        "question": "Buggy Choke to North-South (top): Which same-side connection must you clear?",
         "answer": "Watch for an arm reaching past your head and connecting to the same-side leg.",
-        "answer_line": "Their arm connects to a leg around your head and arm",
+        "answer_line": "Arm-leg loop on your head and arm",
         "distractors": {
           "plausible": [
-            "Their arm circles your head without reaching the leg",
-            "Their hand holds their knee with your head outside"
+            "Arm circles head, no leg connection",
+            "Hand holds knee, your head outside"
           ],
           "trap": [
-            "Their arm joins the leg around your shoulder alone"
+            "Arm joins leg on your shoulder alone"
           ]
         }
       },
       {
         "question": "Buggy Choke to North-South (top): What should support your weight during early defense?",
         "answer": "Keep supported weight on the mat; lifting or wrenching the connected leg is not a sound escape.",
-        "answer_line": "A stable mat base while you address the loop",
+        "answer_line": "Knee or foot posts on the mat",
         "distractors": {
           "plausible": [
-            "Your shoulder inside the loop as you remove both knee posts",
-            "Your toes as you raise the attached partner's hips"
+            "Trapped shoulder, no knee posts",
+            "Your toes while lifting their hips"
           ],
           "trap": [
-            "Your far hand alone as your hips drift over their head"
+            "Far hand alone, hips over their head"
           ]
         }
       },
       {
         "question": "Buggy Choke to North-South (top): When is an inside frame useful against the connection?",
         "answer": "Use safe inside frames before the arm-to-leg loop fully closes; do not pull or twist the partner's knee.",
-        "answer_line": "Before the hand and leg close the neck loop",
+        "answer_line": "Before hand and leg close the loop",
         "distractors": {
           "plausible": [
-            "After the neck is tight but before you begin circling",
-            "After your first step around the shoulders with the loop shut"
+            "After neck tightens, before circling",
+            "After one step with the loop closed"
           ],
           "trap": [
-            "Once the hand grip locks and their elbow meets the knee"
+            "Once grip locks, elbow meets knee"
           ]
         }
       },
@@ -249,67 +249,67 @@
         "answer_line": "Head and arm released from the loop",
         "distractors": {
           "plausible": [
-            "Near knee past the opponent's hip only",
-            "Chin pressed down while the loop stays shut"
+            "Just near knee beyond their hip",
+            "Chin tucked, loop remaining shut"
           ],
           "trap": [
-            "One hand freed while the neck stays enclosed"
+            "One hand free, neck still enclosed"
           ]
         }
       },
       {
         "question": "Buggy Choke to North-South (top): After release, what keeps their knees from following you?",
         "answer": "Establish North-South only after the head is free. Keep the shoulders and hips controlled while moving outside the legs.",
-        "answer_line": "Control their hip line as you circle outside the legs",
+        "answer_line": "Block hips, circle outside the legs",
         "distractors": {
           "plausible": [
-            "Chase their head while leaving the hips mobile",
-            "Release the hip block as soon as the head clears"
+            "Chase head, leave their hips mobile",
+            "Drop hip block once your head clears"
           ],
           "trap": [
-            "Keep only shoulder pressure while their pelvis turns"
+            "Shoulder pressure, pelvis can turn"
           ]
         }
       },
       {
         "question": "Buggy Choke to North-South (top): In the new pin, what should carry upper-body control?",
         "answer": "After release and repositioning, supported chest pressure controls the upper body while the hips are managed.",
-        "answer_line": "Supported chest contact over the opponent's upper body",
+        "answer_line": "Supported chest on their upper body",
         "distractors": {
           "plausible": [
-            "Chest beside the shoulder with a wide gap above the ribs",
-            "Hands bearing the weight while the chest stays lifted"
+            "Chest by shoulder, gap over ribs",
+            "Weight on hands with chest lifted"
           ],
           "trap": [
-            "Weight beyond their head with the shoulder line uncontained"
+            "Weight past head, shoulders unpinned"
           ]
         }
       },
       {
         "question": "Buggy Choke to North-South (top): Whose head starts endangered in this transition?",
         "answer": "The top player is the choke defender even though this transition calls the moving player its attacker.",
-        "answer_line": "The top player's head inside the bottom player's loop",
+        "answer_line": "Top player's head in bottom loop",
         "distractors": {
           "plausible": [
-            "The bottom player's head inside their own arm-leg loop",
-            "The top player's head outside the loop beside their hip"
+            "Bottom player's head in own loop",
+            "Top player's head outside the loop"
           ],
           "trap": [
-            "The top player's shoulder alone with the head free"
+            "Top shoulder only, their head free"
           ]
         }
       },
       {
         "question": "Buggy Choke to North-South (top): What would make the pin change an unsafe escape attempt?",
         "answer": "Changing pins does not itself prove that the choke is gone. Clear the arm-and-leg loop first, and do not lift or slam the partner to escape.",
-        "answer_line": "Circling while the head remains inside a closed loop",
+        "answer_line": "Circling with head in a closed loop",
         "distractors": {
           "plausible": [
-            "Repositioning after the whole enclosure is open",
-            "Maintaining hip control with the head already free"
+            "Moving after the whole loop opens",
+            "Hip control with the head free"
           ],
           "trap": [
-            "Letting go before moving around the shoulders"
+            "Releasing before circling shoulders"
           ]
         }
       }
@@ -410,56 +410,56 @@
       {
         "question": "Buggy Choke to North-South (bottom): What body position reduces your reach to the linking leg?",
         "answer": "Use safe shoulder and hip frames to turn partly onto the side before reaching for the leg.",
-        "answer_line": "Partly on your side with shoulder and hip frames",
+        "answer_line": "Side angle with shoulder/hip frames",
         "distractors": {
           "plausible": [
-            "Flat-backed with the elbow stretched away",
-            "Partly on your side with the raised knee drifting away"
+            "Flat back with the elbow extended",
+            "Side angle, raised knee drifts away"
           ],
           "trap": [
-            "Flat-backed with your hips extended away from the shoulder"
+            "Flat back, hips extend from shoulder"
           ]
         }
       },
       {
-        "question": "Buggy Choke to North-South (bottom): Which enclosure gives the top player a choke to clear?",
+        "question": "Buggy Choke to North-South (bottom): What must your same-side arm-leg loop enclose?",
         "answer": "The Buggy loop encloses the top player's head and one arm; a grip on the leg alone does not suffice.",
-        "answer_line": "Your same-side arm and leg around head and one arm",
+        "answer_line": "Their head and one arm together",
         "distractors": {
           "plausible": [
-            "Same-side arm and leg holding the head with both arms out",
-            "Same-side arm and leg holding an arm with the head out"
+            "Their head only, both arms outside",
+            "Their arm only, head left outside"
           ],
           "trap": [
-            "A grip on your leg with their head beyond your elbow"
+            "Only your leg, head past your elbow"
           ]
         }
       },
       {
         "question": "Buggy Choke to North-South (bottom): With the elbow near the knee, what replaces pulling the foot?",
         "answer": "Close the enclosure through torso position, keeping the elbow near the knee instead of levering the foot.",
-        "answer_line": "Shortening the shoulder-to-hip distance",
+        "answer_line": "Shorten shoulder-to-hip distance",
         "distractors": {
           "plausible": [
-            "Moving the shoulder away while drawing the toes inward",
-            "Extending the torso to make the reach longer"
+            "Move shoulder away, pull toes inward",
+            "Extend torso to lengthen the reach"
           ],
           "trap": [
-            "Raising the elbow away while leaving your torso flat"
+            "Raise elbow away, keep torso flat"
           ]
         }
       },
       {
         "question": "Buggy Choke to North-South (bottom): The loop is lost as they circle. How do you recover space?",
         "answer": "Once the loop fails, abandon it and use a framed hip escape while knee space remains available.",
-        "answer_line": "Frame, shift the hips and bring the knees inside",
+        "answer_line": "Frame, move hips, bring knees inside",
         "distractors": {
           "plausible": [
-            "Chase the old foot grip with both arms",
+            "Chase old foot grip with both arms",
             "Turn the knees away from their path"
           ],
           "trap": [
-            "Push with straight arms while leaving the hips still"
+            "Push on straight arms, hips still"
           ]
         }
       }

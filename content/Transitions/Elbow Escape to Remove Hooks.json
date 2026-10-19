@@ -191,168 +191,168 @@
       {
         "question": "Invisible Collar elbow reset (bottom): Which barrier replaces the opened high clinch?",
         "answer": "After opening Invisible Collar, restore inside forearms and knees to protect the space the high legs previously controlled.",
-        "answer_line": "Forearms and knees between the two torsos",
+        "answer_line": "Forearms and knees between torsos",
         "distractors": {
           "plausible": [
-            "Both arms wrapped behind the opponent's head",
-            "Both legs extended outside the opponent's hips"
+            "Both arms wrapped behind their head",
+            "Both legs straight outside the hips"
           ],
           "trap": [
-            "Forearms inside with both knees left outside their hips"
+            "Forearms in; knees outside the hips"
           ]
         }
       },
       {
         "question": "Invisible Collar elbow reset (bottom): What must release before you lower the high legs?",
         "answer": "Unload the neck and isolated arm before changing the high-leg geometry; lowering the legs must not drag a fixed shoulder.",
-        "answer_line": "Any loaded neck or trapped-arm connection",
+        "answer_line": "Loaded neck and trapped-arm holds",
         "distractors": {
           "plausible": [
-            "Only the second leg, leaving arm torque applied",
-            "Only your hand grip, leaving the neck cinched"
+            "Free one leg; keep arm torque",
+            "Release hand grip; keep neck cinched"
           ],
           "trap": [
-            "Only the ankle crossing while the overhook stays loaded"
+            "Uncross ankles; keep overhook loaded"
           ]
         }
       },
       {
         "question": "Invisible Collar elbow reset (bottom): How should the raised knee come down?",
         "answer": "Use hip movement to lower the high leg through free space while keeping the knee comfortable.",
-        "answer_line": "Move the hip so the bent leg lowers comfortably",
+        "answer_line": "Turn hip; lower the bent leg freely",
         "distractors": {
           "plausible": [
-            "Hold the knee still and pull the ankle outward",
-            "Straighten the leg against the opponent's shoulder"
+            "Fix knee; pull ankle outward",
+            "Straighten leg into their shoulder"
           ],
           "trap": [
-            "Flatten the hip first while the foot stays held high"
+            "Flatten hip with foot held high"
           ]
         }
       },
       {
         "question": "Invisible Collar elbow reset (bottom): Where does the near knee return during recovery?",
         "answer": "A returning knee closes the torso gap alongside the forearm, helping prevent chest-to-chest access.",
-        "answer_line": "Inside the gap between your ribs and the opponent",
+        "answer_line": "Between your ribs and their torso",
         "distractors": {
           "plausible": [
             "Behind the opponent's head again",
             "Outside the opponent's far hip"
           ],
           "trap": [
-            "Alongside your ribs but outside their approaching arm"
+            "Beside ribs, outside their near arm"
           ]
         }
       },
       {
         "question": "Invisible Collar elbow reset (bottom): How should the torso face during this reset?",
         "answer": "Maintain a facing guard as the high legs lower; turning away exposes space instead of rebuilding the inside barrier.",
-        "answer_line": "Shoulders and hips oriented toward the opponent",
+        "answer_line": "Shoulders and hips face the opponent",
         "distractors": {
           "plausible": [
-            "Shoulders away while the hips face forward",
-            "Chest down with both knees behind you"
+            "Shoulders away; hips facing forward",
+            "Chest down with both knees behind"
           ],
           "trap": [
-            "Shoulders facing them with the hips rotated away"
+            "Shoulders face them; hips turn away"
           ]
         }
       },
       {
         "question": "Invisible Collar elbow reset (bottom): What makes another high-guard entry available?",
         "answer": "Re-establish posture control and comfortable inside knee space before lifting the leg for another rubber-guard attempt.",
-        "answer_line": "Posture controlled again with knee space restored",
+        "answer_line": "Posture broken; knee space restored",
         "distractors": {
           "plausible": [
-            "Your ankle touching their shoulder alone",
-            "Both hands reaching around an upright head"
+            "Ankle touching their shoulder alone",
+            "Both hands reach for an upright head"
           ],
           "trap": [
-            "Knee space restored while their chest stays fully upright"
+            "Knee space with their chest upright"
           ]
         }
       },
       {
         "question": "Invisible Collar elbow reset (bottom): What should replace the high-leg barrier as you open it?",
         "answer": "Open your own high clinch and restore forearms and knees between the bodies while you remain facing the opponent. Rear-hook removal would require a separate position behind the torso.",
-        "answer_line": "Inside forearms and knees in a facing guard",
+        "answer_line": "Inside forearms and knees, facing in",
         "distractors": {
           "plausible": [
-            "Both arms reaching behind the opponent's head",
-            "Straight legs outside both of the opponent's hips"
+            "Both arms reach behind their head",
+            "Straight legs outside both hips"
           ],
           "trap": [
-            "Inside knees with both forearms held outside their arms"
+            "Knees inside; forearms outside arms"
           ]
         }
       },
       {
         "question": "Invisible Collar elbow reset (bottom): What would make actual rear-hook removal relevant?",
         "answer": "Removing rear hooks requires rear torso attachment and actual hooks; facing Invisible Collar does not supply those conditions.",
-        "answer_line": "An opponent attached behind you with hooks inside",
+        "answer_line": "Opponent behind you with hooks in",
         "distractors": {
           "plausible": [
-            "Your second leg closing behind their head",
-            "Their free hand framing against your chest"
+            "Your second leg behind their head",
+            "Their free hand frames on your chest"
           ],
           "trap": [
-            "An opponent facing you with feet hooked at your hips"
+            "Opponent facing you with hip hooks"
           ]
         }
       },
       {
         "question": "Invisible Collar elbow reset (bottom): Why pair a short hip escape with the inside frame?",
         "answer": "The forearm maintains the torso gap while a small lateral hip movement creates room for the returning knee.",
-        "answer_line": "The frame holds space while the hips admit a knee",
+        "answer_line": "Frame holds gap; hips make knee room",
         "distractors": {
           "plausible": [
-            "The frame pulls the opponent over your head",
-            "The frame follows their chest as your knee stays outside"
+            "Frame pulls them over your head",
+            "Frame yields; knee remains outside"
           ],
           "trap": [
-            "The hips move away while both forearms leave the gap"
+            "Hips move away; both forearms leave"
           ]
         }
       },
       {
         "question": "Invisible Collar elbow reset (bottom): Which opening shows the reset still needs work?",
         "answer": "Chest access through the elbow-knee gap means the inside barrier is incomplete even if the high legs are already down.",
-        "answer_line": "The opponent's chest entering your elbow-knee gap",
+        "answer_line": "Chest enters your elbow-knee gap",
         "distractors": {
           "plausible": [
             "Your near knee meeting your forearm",
-            "Your shoulders turning to face the opponent"
+            "Shoulders turn to face the opponent"
           ],
           "trap": [
-            "Their chest stopped outside your connected elbow and knee"
+            "Chest stopped by linked elbow-knee"
           ]
         }
       },
       {
         "question": "Invisible Collar elbow reset (bottom): What should precede a turn if their shoulder stays caught?",
         "answer": "Open the arm connection before rotating the bodies so the captured shoulder can move rather than take the twisting force.",
-        "answer_line": "Release the arm trap before rotating farther",
+        "answer_line": "Free trapped arm before turning",
         "distractors": {
           "plausible": [
-            "Pull the wrist farther across your body",
-            "Keep the arm pinned and lower both knees"
+            "Pull wrist farther across your body",
+            "Pin arm while lowering both knees"
           ],
           "trap": [
-            "Relax the leg squeeze but keep the loaded overhook"
+            "Loosen legs; keep overhook loaded"
           ]
         }
       },
       {
         "question": "Invisible Collar elbow reset (bottom): What confirms facing guard has been restored?",
         "answer": "The completed reset is judged by the recovered inside barrier and facing orientation, not by merely uncrossing the high legs.",
-        "answer_line": "Knees and forearms block access to your torso",
+        "answer_line": "Knees and forearms bar torso access",
         "distractors": {
           "plausible": [
-            "Your second leg has opened but both knees trail",
-            "Your hands are free but your chest is pinned"
+            "Second leg open; both knees trail",
+            "Hands freed; chest remains pinned"
           ],
           "trap": [
-            "Inside knees while both forearms remain outside their arms"
+            "Knees inside; forearms still outside"
           ]
         }
       }
@@ -457,56 +457,56 @@
       {
         "question": "Invisible Collar elbow reset (top): What does their second leg behind your head add?",
         "answer": "The free leg closing high reinforces the leg-and-arm enclosure around your upper body, even without jacket grips.",
-        "answer_line": "Reinforcement of the existing high posture clinch",
+        "answer_line": "Reinforces the high posture clinch",
         "distractors": {
           "plausible": [
-            "Restraint of the hips with the head still free",
-            "Isolation of both elbows inside a high leg triangle"
+            "Restrains hips but leaves head free",
+            "Traps both elbows in a leg triangle"
           ],
           "trap": [
-            "Release of the first leg's head control"
+            "Releases first leg's head control"
           ]
         }
       },
       {
         "question": "Invisible Collar elbow reset (top): How should the captured elbow stay while you wait for slack?",
         "answer": "Keep the caught elbow compact and avoid twisting the torso away while the high enclosure remains attached.",
-        "answer_line": "Near your ribs with the head and shoulder aligned",
+        "answer_line": "Elbow by ribs; head-shoulder aligned",
         "distractors": {
           "plausible": [
-            "Flared away from the body to make a larger loop",
-            "Reaching behind the opponent's back"
+            "Flare elbow to enlarge the loop",
+            "Reach behind the opponent's back"
           ],
           "trap": [
-            "Near your ribs while your chest turns away from it"
+            "Elbow by ribs; chest turns away"
           ]
         }
       },
       {
         "question": "Invisible Collar elbow reset (top): How should you relieve a stack as their legs open?",
         "answer": "Unload the forward pressure that folds the partner onto the neck before continuing the high-guard release.",
-        "answer_line": "Shift weight back off their neck before proceeding",
+        "answer_line": "Shift weight back off their neck",
         "distractors": {
           "plausible": [
-            "Lift their hips farther before freeing your head",
-            "Widen your knees but keep driving their hips forward"
+            "Lift hips higher before freeing head",
+            "Widen knees; drive hips forward"
           ],
           "trap": [
-            "Keep the hips elevated while pulling your head backward"
+            "Keep hips high; pull head backward"
           ]
         }
       },
       {
         "question": "Invisible Collar elbow reset (top): Where should slack develop before head extraction?",
         "answer": "Use early frames and balanced positioning to open the high-leg connection before trying to pull your head free.",
-        "answer_line": "At the high leg's hip-and-thigh connection",
+        "answer_line": "At the high leg's hip-thigh junction",
         "distractors": {
           "plausible": [
-            "At the supporting hand while the high thigh stays tight",
-            "Between your own knees while the high leg stays closed"
+            "At the hand; high thigh stays tight",
+            "Between knees; high leg stays shut"
           ],
           "trap": [
-            "At the free leg while the controlling thigh stays clamped"
+            "At free leg; controlling thigh tight"
           ]
         }
       },
@@ -516,11 +516,11 @@
         "answer_line": "Between the bodies beside your ribs",
         "distractors": {
           "plausible": [
-            "Onto the mat outside their hip again",
-            "Behind their neck with the elbow flared"
+            "On mat outside their hip again",
+            "Behind neck, with your elbow flared"
           ],
           "trap": [
-            "Along their outer ribs with the hand back inside"
+            "Outside their ribs; hand back inside"
           ]
         }
       }

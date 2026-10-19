@@ -204,28 +204,28 @@
       {
         "question": "Sweep from Zombie Guard (bottom): What does the Zombie action contribute to a sweep setup?",
         "answer": "Zombie works on a posting arm from supported high guard; the resulting isolation is one possible ingredient in a separate sweep.",
-        "answer_line": "It clears a hand so one arm can be isolated",
+        "answer_line": "Clears a hand to isolate one arm",
         "distractors": {
           "plausible": [
-            "It removes the knee post on the side opposite the captured arm",
-            "It shifts the opponent onto one hip before any leg control"
+            "Removes the opposite knee post",
+            "Tips onto one hip before leg work"
           ],
           "trap": [
-            "It replaces the need to direct weight beyond the remaining base"
+            "Replaces shifting weight beyond base"
           ]
         }
       },
       {
         "question": "Sweep from Zombie Guard (bottom): What must remain while the free hand pummels?",
         "answer": "Keep the Mission Control connection while clearing the hand; without posture control the arm entry may not remain available.",
-        "answer_line": "Posture control from the supported high leg",
+        "answer_line": "Supported high leg controls posture",
         "distractors": {
           "plausible": [
-            "Both hands on the wrist with the knee unsupported",
-            "Only a knee kept high while the controlling hand lets go"
+            "Both hands at wrist, knee unbraced",
+            "Knee high, controlling hand lets go"
           ],
           "trap": [
-            "A high ankle grip with the knee drifting behind your hip"
+            "Ankle high, knee behind your hip"
           ]
         }
       },
@@ -235,109 +235,109 @@
         "answer_line": "The remaining hand and leg posts",
         "distractors": {
           "plausible": [
-            "Only the grip on the wrist already held outside",
-            "Only the height of the head within the high shin"
+            "Only grip on the wrist held outside",
+            "Only head height under the high shin"
           ],
           "trap": [
-            "The knee hug alone, without locating the far-side posts"
+            "Knee hug alone, ignoring far posts"
           ]
         }
       },
       {
         "question": "Sweep from Zombie Guard (bottom): Which control denies the free hand a post for the chosen tip?",
         "answer": "Manage the arm as a whole so the hand cannot support weight in the chosen tipping direction. A grip alone is insufficient if the hand can still post; do not substitute individual finger leverage. This posting control supports a separately established sweep, not a complete Zombie sweep sequence.",
-        "answer_line": "A wrist or arm grip that keeps the hand off its post",
+        "answer_line": "Wrist or arm grip blocks hand post",
         "distractors": {
           "plausible": [
-            "Wrist contact that lets the elbow extend toward the mat",
-            "An elbow grip that leaves the hand free to support weight"
+            "Wrist touched, arm can reach the mat",
+            "Elbow held, hand still bears weight"
           ],
           "trap": [
-            "An arm grip released as the opponent starts leaning"
+            "Let arm grip go as leaning starts"
           ]
         }
       },
       {
         "question": "Sweep from Zombie Guard (bottom): What can a small hip shift check before commitment?",
         "answer": "A gentle balance check can reveal whether the base reacts while you still retain guard; it does not specify a full sweep.",
-        "answer_line": "Whether their weight moves off its existing support",
+        "answer_line": "Their weight leaves the base",
         "distractors": {
           "plausible": [
-            "Whether the head lowers while both hand posts stay planted",
-            "Whether your overhook tightens without their torso moving"
+            "Head lowers, both hands stay planted",
+            "Overhook tightens, their torso stays"
           ],
           "trap": [
-            "Whether your hips shift while their weight stays centered"
+            "Your hips move, their weight stays"
           ]
         }
       },
       {
         "question": "Sweep from Zombie Guard (bottom): What can the overhook restrict after the hand clears?",
         "answer": "The New York overhook can restrict the cleared arm. The other hand and the legs can still support weight, so a sweep needs its own setup.",
-        "answer_line": "One arm post, leaving the other supports to assess",
+        "answer_line": "One arm post; other supports remain",
         "distractors": {
           "plausible": [
-            "The knee post on the opposite side of the body",
-            "The far hand even while it remains free to reach the mat"
+            "The opposite knee's supporting post",
+            "The far hand that still reaches mat"
           ],
           "trap": [
-            "The hip on the uncaptured side without additional leg control"
+            "Far hip without extra leg control"
           ]
         }
       },
       {
         "question": "Sweep from Zombie Guard (bottom): What determines the top position after a reversal?",
         "answer": "Stabilize the actual landing; mount or side control requires its own body relationship beyond simply reversing top and bottom.",
-        "answer_line": "The landing and which legs remain entangled",
+        "answer_line": "Landing and any legs still trapped",
         "distractors": {
           "plausible": [
-            "The initial hand clearance regardless of the landing legs",
-            "The presence of one overhook alone"
+            "Hand clearance, ignoring leg ties",
+            "One retained overhook alone"
           ],
           "trap": [
-            "The direction of the head pull without checking the legs"
+            "Head-pull direction, ignoring legs"
           ]
         }
       },
       {
         "question": "Sweep from Zombie Guard (bottom): Their base holds as posture escapes; what next?",
         "answer": "If the pummel and proposed sweep do not retain posture, recover an inside knee and torso barrier before chasing another attack.",
-        "answer_line": "Recover guard behind a shoulder frame",
+        "answer_line": "Recover guard behind shoulder frame",
         "distractors": {
           "plausible": [
-            "Keep the arm grip while both knees are passed",
-            "Lift the foot again without restoring knee room"
+            "Keep arm grip with both knees passed",
+            "Lift foot before restoring knee room"
           ],
           "trap": [
-            "Continue the hip tip while the shoulder frame stays outside"
+            "Keep tipping with frame outside"
           ]
         }
       },
       {
         "question": "Sweep from Zombie Guard (bottom): Why release shoulder tension before changing direction?",
         "answer": "Unload the captured shoulder before a large directional change so the proposed reversal does not become a forced joint lock.",
-        "answer_line": "A fixed arm can be torqued as the torso rotates",
+        "answer_line": "Turning torso can twist a fixed arm",
         "distractors": {
           "plausible": [
-            "A loosened overhook makes the opponent transfer weight to your chosen side",
-            "A lower head means the captured elbow can follow the turn"
+            "Loose overhook tips them your way",
+            "Low head lets caught elbow follow"
           ],
           "trap": [
-            "Turning around the fixed shoulder supplies the safest sweeping axis"
+            "Fixed shoulder is a safe pivot"
           ]
         }
       },
       {
         "question": "Sweep from Zombie Guard (bottom): What should the first setup drill actually verify?",
         "answer": "A cooperative drill can verify Zombie's arm-clearing checkpoint without claiming to have established the unspecified sweep.",
-        "answer_line": "Posture down, hand cleared and knee hug connected",
+        "answer_line": "Posture low; hand out; knee hugged",
         "distractors": {
           "plausible": [
-            "Head pulled low while the same hand still frames inside",
-            "Hand on the mat while the high shin and knee hug are disconnected"
+            "Head low, same hand still frames in",
+            "Hand on mat, high leg and hug loose"
           ],
           "trap": [
-            "Knee hugged while the captured elbow remains inside the leg"
+            "Knee hugged, caught elbow inside"
           ]
         }
       }
@@ -442,14 +442,14 @@
       {
         "question": "Sweep from Zombie Guard (top): What limits the initial posting-arm capture?",
         "answer": "Early inside position can deny the Zombie pummel and preserve usable arm support before the knee hug closes.",
-        "answer_line": "Keep your forearm inside before the hand is cleared",
+        "answer_line": "Forearm inside before hand clears",
         "distractors": {
           "plausible": [
-            "Offer a wide mat hand outside their hip",
-            "Reach both arms over the opponent's shoulders"
+            "Wide mat hand outside their hip",
+            "Both arms over their shoulders"
           ],
           "trap": [
-            "Keep the elbow compact while letting the wrist reach outside"
+            "Elbow compact, wrist reaches outside"
           ]
         }
       },
@@ -459,39 +459,39 @@
         "answer_line": "The elbow returning toward your ribs",
         "distractors": {
           "plausible": [
-            "Only the hand while the elbow stays flared",
-            "The free hand posting farther while the caught elbow stays out"
+            "Only hand in; elbow stays flared",
+            "Free hand posts wide, caught arm out"
           ],
           "trap": [
-            "The chest turning away while the caught elbow stays fixed"
+            "Chest turns away, caught elbow fixed"
           ]
         }
       },
       {
         "question": "Sweep from Zombie Guard (top): Which cue warns your posting arm may be removed?",
         "answer": "Recognize the under-hand pummel before the opponent covers the arm and secures the knee hug.",
-        "answer_line": "Their hand working underneath yours toward the mat",
+        "answer_line": "Their hand pummels under yours",
         "distractors": {
           "plausible": [
-            "Their free foot returning to the floor",
-            "Their hips moving while both hands are free"
+            "Their free foot returns to the floor",
+            "Hips move while hands stay free"
           ],
           "trap": [
-            "Their hand circling your head with the knee hug already set"
+            "Hand circles head after knee hug set"
           ]
         }
       },
       {
         "question": "Sweep from Zombie Guard (top): What must precede a large turn with the arm already fixed?",
         "answer": "If the knee hug fixes the arm, open that connection before a large balance-recovery turn rather than rotating through the joint.",
-        "answer_line": "Release the shoulder connection first",
+        "answer_line": "Free the shoulder connection first",
         "distractors": {
           "plausible": [
-            "Only widen your knees while the wrist stays pinned",
-            "Only post the free hand farther away"
+            "Only widen knees, wrist stays pinned",
+            "Only post free hand farther away"
           ],
           "trap": [
-            "Recover only the wrist while the elbow remains pinned"
+            "Free wrist only, elbow stays pinned"
           ]
         }
       }

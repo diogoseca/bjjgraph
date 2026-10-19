@@ -225,28 +225,28 @@
       {
         "question": "Bow-and-arrow after Invisible Collar: what should precede reaching for the jacket?",
         "answer": "Connect to the opponent's torso from behind. Keep the torso connected from behind before reaching for the collar.",
-        "answer_line": "Connect to the opponent's torso from behind",
+        "answer_line": "Connect to their torso from behind",
         "distractors": {
           "plausible": [
-            "Keep facing them with only the high-leg clinch",
-            "Release torso contact and reach at full arm length"
+            "Keep only the facing high-leg clinch",
+            "Reach from fully extended arms"
           ],
           "trap": [
-            "Move directly to the collar while their back stays inaccessible"
+            "Grab collar with back inaccessible"
           ]
         }
       },
       {
         "question": "Bow-and-arrow attack: where should the choking hand establish its cloth grip?",
         "answer": "Securely in the jacket collar beside the neck. Place the hand securely in the jacket collar without dragging the cloth across the face.",
-        "answer_line": "Securely in the jacket collar beside the neck",
+        "answer_line": "In the collar beside their neck",
         "distractors": {
           "plausible": [
-            "On a loose sleeve near the opponent's elbow",
-            "Across the mouth using only the collar edge"
+            "On a loose sleeve beside the elbow",
+            "Across the mouth on the cloth edge"
           ],
           "trap": [
-            "At the jacket hem beside the opponent's hip"
+            "At the jacket hem beside the hip"
           ]
         }
       },
@@ -256,25 +256,25 @@
         "answer_line": "The opponent's hips and lower body",
         "distractors": {
           "plausible": [
-            "Only the opponent's free wrist",
-            "Only the sleeve crossing your chest"
+            "Only their free wrist",
+            "Only the sleeve across your chest"
           ],
           "trap": [
-            "Your own elbow beside their shoulder"
+            "Your own elbow by their shoulder"
           ]
         }
       },
       {
         "question": "Bow-and-arrow attack: how should your body angle change after the controls are established?",
         "answer": "Turn gradually to oppose collar and lower-body tension. Turn the body gradually to create opposing collar and lower-body tension.",
-        "answer_line": "Turn gradually to oppose collar and lower-body tension",
+        "answer_line": "Turn to oppose collar and leg pull",
         "distractors": {
           "plausible": [
-            "Keep the hips free and jerk the collar alone",
-            "Twist only the head while your torso stays still"
+            "Jerk collar while leaving hips free",
+            "Twist only head with torso still"
           ],
           "trap": [
-            "Release the leg control before pulling sideways"
+            "Release the leg before pulling"
           ]
         }
       },
@@ -284,25 +284,25 @@
         "answer_line": "Behind the opponent's knee",
         "distractors": {
           "plausible": [
-            "Across the front of the shin without holding the bend",
-            "Around the toes with the knee left free"
+            "On front of shin, missing knee bend",
+            "Around toes with the knee free"
           ],
           "trap": [
-            "Under your own thigh instead of around their leg"
+            "Under your own thigh"
           ]
         }
       },
       {
         "question": "Bow-and-arrow attack: when should the collar and leg restraints open after a stop signal?",
         "answer": "At the first signal, before any further body turn. Immediately release both the collar grip and the lower-body restraint. Do not keep turning while the partner remains connected to the choke.",
-        "answer_line": "At the first signal, before any further body turn",
+        "answer_line": "On the first signal, before turning",
         "distractors": {
           "plausible": [
-            "After one more adjustment to the finishing angle",
-            "Only when the partner has freed the neck alone"
+            "After one more angle adjustment",
+            "Only after they free their own neck"
           ],
           "trap": [
-            "Once pulling harder confirms that the collar was secure"
+            "After testing the grip with a pull"
           ]
         },
         "safety_critical": true
@@ -310,42 +310,42 @@
       {
         "question": "Bow-and-arrow attack: how does Kesting hold his own spine as the defender bends sideways?",
         "answer": "Lengthened rather than bent sideways. The attacker's aligned torso allows the hips and back to contribute. Establish rear access, the real collar grip and lower-body control separately from Invisible Collar.",
-        "answer_line": "Lengthened rather than bent sideways",
+        "answer_line": "Lengthened, without a sideways bend",
         "distractors": {
           "plausible": [
-            "Side-bent to mirror the defender's folded posture",
-            "Rounded forward with the shoulders over the knees"
+            "Side-bent to match their posture",
+            "Rounded forward over your knees"
           ],
           "trap": [
-            "Twisted away while leaving the hips disconnected"
+            "Twisted away, hips disconnected"
           ]
         }
       },
       {
         "question": "Bow-and-arrow attack: where can their crown move in Kesting's early, unloaded escape?",
         "answer": "Into the armpit of the collar-gripping arm. Kesting explains that the defender can change the pull angle this way while neck space remains. Recognize the angle change rather than forcing a secured collar across a turning neck.",
-        "answer_line": "Into the armpit of the collar-gripping arm",
+        "answer_line": "Into the collar-gripping armpit",
         "distractors": {
           "plausible": [
-            "Against the outside of the gripping elbow",
-            "Across the attacker's far hip away from the shoulder"
+            "Against the outer gripping elbow",
+            "Toward the far hip, away from arm"
           ],
           "trap": [
-            "Under the chin while leaving the crown outside the arm"
+            "Under chin, crown outside the arm"
           ]
         }
       },
       {
         "question": "Bow-and-arrow practice: if the collar presses across the face, what should you correct?",
         "answer": "Unload and reposition the cloth beside the neck. Use a sound gi and gradual tension. Do not substitute face pressure, jerk the collar, or treat a chin tuck as reliable protection from a secured choke.",
-        "answer_line": "Unload and reposition the cloth beside the neck",
+        "answer_line": "Unload; move the cloth to the neck",
         "distractors": {
           "plausible": [
-            "Pull harder until the jaw moves out of the way",
-            "Add lower-body tension to drag the collar downward"
+            "Pull harder to move the jaw aside",
+            "Add leg tension to lower the collar"
           ],
           "trap": [
-            "Twist the head while keeping the original grip loaded"
+            "Twist head with the grip loaded"
           ]
         },
         "safety_critical": true
@@ -353,14 +353,14 @@
       {
         "question": "Bow-and-arrow practice: which muscle chain helps avoid relying only on the pulling arm?",
         "answer": "The posterior chain through the hips and back. The primary lesson links the attacker's aligned posture to contribution from the posterior chain. Apply tension gradually and release both grips on a signal.",
-        "answer_line": "The posterior chain through the hips and back",
+        "answer_line": "Hips and back in the posterior chain",
         "distractors": {
           "plausible": [
-            "Only the small muscles closing the gripping fingers",
-            "The front of the neck pulling the head backward"
+            "Only the gripping finger muscles",
+            "Front of neck pulling the head back"
           ],
           "trap": [
-            "The forearm alone while the pelvis stays disconnected"
+            "Forearm alone, pelvis disconnected"
           ]
         }
       }
@@ -464,70 +464,70 @@
       {
         "question": "Bow-and-arrow defense: what is the earliest hand-fighting priority from rear control?",
         "answer": "Prevent a deep grip entering your collar. Hand fight before the attacker obtains a deep grip from behind.",
-        "answer_line": "Prevent a deep grip entering your collar",
+        "answer_line": "Deny the deep collar grip",
         "distractors": {
           "plausible": [
-            "Pull only on the opponent's trouser cuff",
-            "Reach behind both of the opponent's knees"
+            "Pull only their trouser cuff",
+            "Reach behind both opposing knees"
           ],
           "trap": [
-            "Wait for the gripping arm to become fully extended"
+            "Wait for full gripping-arm extension"
           ]
         }
       },
       {
         "question": "Bow-and-arrow defense: what alignment should you preserve while the collar is still held?",
         "answer": "Keep your torso from giving a large sideways angle. Avoid giving the attacker a large sideways angle while the collar remains fixed.",
-        "answer_line": "Keep your torso from giving a large sideways angle",
+        "answer_line": "Deny a large sideways torso angle",
         "distractors": {
           "plausible": [
-            "Rotate your shoulders away from your restrained hips",
-            "Turn only your chin against the collar pull"
+            "Turn shoulders away from fixed hips",
+            "Turn only chin against the collar"
           ],
           "trap": [
-            "Extend your neck while your pelvis stays captured"
+            "Extend neck with pelvis still caught"
           ]
         }
       },
       {
         "question": "Bow-and-arrow defense: when is an early downward body slide appropriate?",
         "answer": "While the neck has space and the collar is unloaded. Use an early downward body adjustment only while the neck has space and the grip is not loaded.",
-        "answer_line": "While the neck has space and the collar is unloaded",
+        "answer_line": "With neck space and an unloaded grip",
         "distractors": {
           "plausible": [
-            "After the collar is tight and the leg is fully restrained",
-            "Only once dizziness confirms the choke is working"
+            "With tight collar and leg restraint",
+            "Only after dizziness begins"
           ],
           "trap": [
-            "While the head stays fixed and the torso twists away"
+            "With head fixed while torso twists"
           ]
         }
       },
       {
         "question": "Bow-and-arrow defense: which upper-body lever should you address instead of tugging only at fabric?",
         "answer": "The attacking elbow while protecting neck space. Work at the elbow lever while protecting the neck instead of merely tugging at the sleeve.",
-        "answer_line": "The attacking elbow while protecting neck space",
+        "answer_line": "Their elbow, preserving neck space",
         "distractors": {
           "plausible": [
-            "Their free wrist far from the choking arm",
-            "Your own collar hem beside the hip"
+            "Their wrist away from the choke",
+            "Your collar hem beside the hip"
           ],
           "trap": [
-            "The opponent's sleeve behind their shoulder alone"
+            "Only the sleeve behind the shoulder"
           ]
         }
       },
       {
         "question": "Bow-and-arrow defense: why is a violent turn dangerous once the collar is fixed?",
         "answer": "Your neck can rotate against the restrained cloth. Stop when the choke is established; do not attempt a violent turn against a fixed collar.",
-        "answer_line": "Your neck can rotate against the restrained cloth",
+        "answer_line": "Neck turns against the fixed cloth",
         "distractors": {
           "plausible": [
-            "Turning always loosens the collar before the hips move",
-            "A trouser grip prevents all neck loading"
+            "Turning loosens cloth before hips",
+            "Trouser grip prevents any neck load"
           ],
           "trap": [
-            "The collar cannot tighten if your chin is tucked"
+            "A tucked chin keeps the collar loose"
           ]
         }
       }

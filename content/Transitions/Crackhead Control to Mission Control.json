@@ -182,140 +182,140 @@
       {
         "question": "Crackhead to Mission (bottom): Which connection stays while the second leg opens?",
         "answer": "Maintain the first high-leg and hand connection as the second-leg reinforcement is removed.",
-        "answer_line": "The first high shin and its supporting hand",
+        "answer_line": "First high shin held by its hand",
         "distractors": {
           "plausible": [
-            "Only the first high shin with its hand released",
-            "Only the reinforcing leg behind the head"
+            "First shin high with hand released",
+            "Only the second leg behind the head"
           ],
           "trap": [
-            "Only a wrist grip while the first knee opens"
+            "Only wrist grip with first knee open"
           ]
         }
       },
       {
         "question": "Crackhead to Mission (bottom): How do you support the raised knee during the change?",
         "answer": "Use hip angle to support the raised knee instead of pulling on the foot.",
-        "answer_line": "Keep the hips angled and the knee close",
+        "answer_line": "Hips angled with the knee close",
         "distractors": {
           "plausible": [
-            "Keep the hip flat and pull the foot inward",
-            "Let the knee fall wide as the shin stays high"
+            "Flat hip; pull the foot inward",
+            "Knee falls wide with shin still high"
           ],
           "trap": [
-            "Turn the torso while leaving the hip and knee behind"
+            "Turn torso; hip and knee stay behind"
           ]
         }
       },
       {
         "question": "Crackhead to Mission (bottom): Which leg moves down in the return?",
         "answer": "Lower the reinforcing leg deliberately while keeping the original high shin connected.",
-        "answer_line": "The second leg that reinforced the head-side clinch",
+        "answer_line": "The second, reinforcing high leg",
         "distractors": {
           "plausible": [
             "The first high leg held by your hand",
-            "Both legs before checking the hand connection"
+            "Both legs before checking the grip"
           ],
           "trap": [
-            "The second leg together with the first shin grip"
+            "Second leg plus the first shin grip"
           ]
         }
       },
       {
         "question": "Crackhead to Mission (bottom): Where should the newly freed leg become useful?",
         "answer": "Return the free leg or foot to a comfortable lower guard frame while maintaining the upper connection.",
-        "answer_line": "As a lower guard frame managing hip distance",
+        "answer_line": "Lower guard frame at the hip line",
         "distractors": {
           "plausible": [
-            "Extended beside you without opponent contact",
-            "Still folded high behind the opponent's head"
+            "Extended beside you without contact",
+            "Still high behind the head"
           ],
           "trap": [
-            "Hanging outside the hip with the knee trailing"
+            "Outside the hip with knee trailing"
           ]
         }
       },
       {
-        "question": "Crackhead to Mission (bottom): What can the opponent's remaining inside arms do?",
+        "question": "Crackhead to Mission (bottom): Arms start inside; what remains if only the second leg lowers?",
         "answer": "Both arms may still be inside after the reinforcing leg lowers; track them because they can help recover posture.",
-        "answer_line": "Frame and help rebuild upright posture",
+        "answer_line": "Inside arms can frame for posture",
         "distractors": {
           "plausible": [
-            "Become outside posts while both elbows stay inside",
-            "Stay immobilized by the removed second leg"
+            "Both elbows clear the first shin",
+            "The lowered leg still pins both arms"
           ],
           "trap": [
-            "Remain isolated even after the knee hug opens"
+            "An open knee hug isolates one arm"
           ]
         }
       },
       {
         "question": "Crackhead to Mission (bottom): The first shin no longer controls posture; what next?",
         "answer": "If the remaining high connection fails, rebuild ordinary guard instead of forcing the leg back into place.",
-        "answer_line": "Recover ordinary guard with inside frames",
+        "answer_line": "Ordinary guard with inside frames",
         "distractors": {
           "plausible": [
-            "Pull the first foot up without restoring knee support",
-            "Leave the lowered leg out while reaching for the head"
+            "Pull foot up without knee support",
+            "Low leg out; reach for their head"
           ],
           "trap": [
-            "Keep the high knee outside while chasing a wrist"
+            "Keep knee outside; chase their wrist"
           ]
         }
       },
       {
         "question": "Crackhead to Mission (bottom): What body relationship remains throughout a successful return?",
         "answer": "This is a reduction of high-leg reinforcement within facing guard, not a change to a rear ride or top headlock.",
-        "answer_line": "Bottom guard facing the same top opponent",
+        "answer_line": "Facing bottom guard, opponent close",
         "distractors": {
           "plausible": [
-            "Bottom guard with the shoulders turned away from them",
-            "Bottom guard with the opponent beyond the high knee"
+            "Bottom guard with shoulders away",
+            "Bottom guard with opponent far away"
           ],
           "trap": [
-            "Bottom guard with both legs lowered below their waist"
+            "Bottom guard with both legs low"
           ]
         }
       },
       {
         "question": "Return to Mission Control: which supported leg remains in the reviewed return?",
         "answer": "Mission Control retains the original high shin and hand while the second leg returns lower.",
-        "answer_line": "The first high shin after the reinforcing leg lowers",
+        "answer_line": "First high shin; second leg lowered",
         "distractors": {
           "plausible": [
-            "Both legs stay high while the hand grip releases",
-            "The second leg stays high while the first drops"
+            "Both legs high with hand grip open",
+            "Second leg high while first drops"
           ],
           "trap": [
-            "Both legs lower before the first shin is re-gripped"
+            "Both legs low before gripping shin"
           ]
         }
       },
       {
         "question": "Crackhead to Mission (bottom): The raised knee is twisting as the second leg lowers; what now?",
         "answer": "If the knee twists, release the high-leg tension and adjust through the hip or reset to ordinary guard.",
-        "answer_line": "Release tension and reset the hip angle",
+        "answer_line": "Release tension; reset the hip angle",
         "distractors": {
           "plausible": [
-            "Keep the knee fixed and draw the foot inward",
-            "Keep the high foot fixed while turning the torso"
+            "Knee fixed; draw the foot inward",
+            "High foot fixed; turn the torso"
           ],
           "trap": [
-            "Move only the lowered leg and leave high-leg tension"
+            "Move low leg; keep high leg tense"
           ]
         }
       },
       {
         "question": "Crackhead to Mission (bottom): An isolated-arm overhook exists; how can it stay connected?",
         "answer": "If an overhook is already available, maintain its knee connection during the leg change; do not infer it from high legs alone.",
-        "answer_line": "Keep the overhook close to the supported knee",
+        "answer_line": "Overhook close to the supported knee",
         "distractors": {
           "plausible": [
-            "Let the knee drift away from the overhook",
-            "Release the first shin to chase the wrist"
+            "Knee drifting away from the overhook",
+            "Release first shin to chase wrist"
           ],
           "trap": [
-            "Keep the overhook but leave its elbow away from the knee"
+            "Overhook elbow far from the knee"
           ]
         }
       }
@@ -429,28 +429,28 @@
       {
         "question": "Crackhead to Mission (top): As the second leg lowers, how should your elbow recover?",
         "answer": "Use the changing leg configuration to recover an inside elbow while the shoulder is still free to move.",
-        "answer_line": "Move inward toward the ribs through the opening",
+        "answer_line": "Inward toward ribs through the gap",
         "distractors": {
           "plausible": [
-            "Straighten it past the remaining high knee",
-            "Leave it outside while only the wrist retracts"
+            "Straight past the remaining knee",
+            "Elbow outside; retract only wrist"
           ],
           "trap": [
-            "Pull it free against a fixed shoulder"
+            "Pull elbow against a fixed shoulder"
           ]
         }
       },
       {
         "question": "Crackhead to Mission (top): Why can lowering one high leg leave posture restricted?",
         "answer": "Removal of the second leg does not remove the original Mission Control connection.",
-        "answer_line": "The first shin and hand still contain the upper body",
+        "answer_line": "First shin and hand hold you low",
         "distractors": {
           "plausible": [
-            "The low leg has taken over all head control",
-            "A waist-level ankle crossing still contains the shoulder line"
+            "Low leg supplies all head control",
+            "Low ankle crossing holds shoulders"
           ],
           "trap": [
-            "The reinforcing foot remains the only part restraining the head"
+            "Second foot alone holds the head"
           ]
         }
       },
@@ -460,39 +460,39 @@
         "answer_line": "Inside at the hip or thigh",
         "distractors": {
           "plausible": [
-            "The space above the remaining high shin",
-            "The space outside your elbow beside the mat"
+            "Above the remaining high shin",
+            "Outside the elbow beside the mat"
           ],
           "trap": [
-            "The space behind the hand supporting the first shin"
+            "Behind the hand holding the shin"
           ]
         }
       },
       {
         "question": "Crackhead to Mission (top): What must release before you stand tall after the leg lowers?",
         "answer": "Clear the retained high connection before lifting the head and chest through it.",
-        "answer_line": "The remaining high-shin and shoulder connection",
+        "answer_line": "Remaining high shin at the shoulder",
         "distractors": {
           "plausible": [
-            "Only the second leg that already lowered",
-            "Only the opponent's lower foot from your hip"
+            "Only the already-lowered second leg",
+            "Only their low foot off your hip"
           ],
           "trap": [
-            "Only the opponent's grip on your free wrist"
+            "Only their grip on your free wrist"
           ]
         }
       },
       {
         "question": "Crackhead to Mission (top): What can forward pressure do while the first leg still traps your arm?",
         "answer": "Retained arm control must be addressed directly; stacking the partner is not evidence that the high connection has opened.",
-        "answer_line": "It folds their neck but leaves your arm caught",
+        "answer_line": "Neck folds; your arm stays caught",
         "distractors": {
           "plausible": [
-            "Forward weight draws the elbow through the remaining knee hug",
-            "Folding the hips down opens the high shin-hand connection"
+            "Forward weight frees the held elbow",
+            "Folding hips opens their shin grip"
           ],
           "trap": [
-            "The trapped upper arm follows your chest even with the knee tight"
+            "Tight knee lets arm follow the chest"
           ]
         }
       }

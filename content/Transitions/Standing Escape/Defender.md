@@ -56,7 +56,7 @@ description: "Standing Escape (defender): The free leg moving behind your head i
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Invisible Collar stand-up (top): What can still restrain you as they prepare to sit up?",
+      "name": "Invisible Collar stand-up (top): What can still enclose your head as they sit up?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A bottom player changing posture does not prove their Invisible Collar has opened; check the remaining head and shoulder connection."

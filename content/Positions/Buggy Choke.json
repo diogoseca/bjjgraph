@@ -70,112 +70,112 @@
       {
         "question": "Buggy defense: what connection should you recognize before the loop closes?",
         "answer": "Watch for an arm reaching past your head and connecting to the same-side leg.",
-        "answer_line": "Their reaching arm joining their same-side leg",
+        "answer_line": "Arm joined to their same-side leg",
         "distractors": {
           "plausible": [
-            "Their reaching arm stopping at your hip below the head",
-            "Their raised leg approaching the head without the arm connecting"
+            "Reaching arm ending at your hip",
+            "Raised leg without an arm connection"
           ],
           "trap": [
-            "Their hands retaining a low chest frame while the leg stays down"
+            "Low chest frames with the leg down"
           ]
         }
       },
       {
         "question": "Buggy defense: while their hand and leg are still separate, what denies the enclosure?",
         "answer": "Use balanced posture and safe inside frames before the loop closes.",
-        "answer_line": "Keep balanced posture with an inside frame",
+        "answer_line": "Balanced posture and an inside frame",
         "distractors": {
           "plausible": [
-            "Drive your head deeper beside their hip",
-            "Let your near arm drift across their neck"
+            "Drive your head deeper by their hip",
+            "Drift the near arm across their neck"
           ],
           "trap": [
-            "Circle toward north-south with your head low"
+            "Circle north-south with a low head"
           ]
         }
       },
       {
         "question": "Buggy defense: why does holding side control not remove the choke threat?",
         "answer": "Treat the choke as live even though you hold top side control.",
-        "answer_line": "Their loop can still enclose your head and arm",
+        "answer_line": "The loop can still trap head and arm",
         "distractors": {
           "plausible": [
-            "Your chest pin separates their elbow and raised knee before the arm closes",
-            "Your wide base keeps their high leg below the shoulder line"
+            "Chest pressure separates knee/elbow",
+            "A wide base lowers their high leg"
           ],
           "trap": [
-            "Your crossface puts the neck outside their loop before you clear it"
+            "A crossface removes the neck loop"
           ]
         }
       },
       {
         "question": "Buggy defense: what must be freed before changing to a north-south pin?",
         "answer": "Free the head-and-arm enclosure before changing to north-south or chasing another pin.",
-        "answer_line": "Your head and arm from the closed loop",
+        "answer_line": "Your head and arm from the loop",
         "distractors": {
           "plausible": [
-            "Only their gripping hand while your head remains inside the leg",
-            "Only your elbow while the neck is still caught by the arm and shin"
+            "Their hand alone; head still caught",
+            "Your elbow alone; neck still caught"
           ],
           "trap": [
-            "Your hip position while the same head-and-arm connection remains"
+            "Your hips, with the loop unchanged"
           ]
         }
       },
       {
         "question": "Buggy defense: why is lifting the bottom player a poor escape drill?",
         "answer": "Avoid lifting, dropping, or twisting the partner's trapped leg to force an escape.",
-        "answer_line": "It creates a fall risk while their loop stays attached",
+        "answer_line": "Fall risk with the choke attached",
         "distractors": {
           "plausible": [
-            "The vertical pull separates the elbow from the raised knee",
-            "Taking their hips off the mat unloads the neck enclosure"
+            "Lifting separates elbow from knee",
+            "Airborne hips unload the neck loop"
           ],
           "trap": [
-            "Their leg straightens before their body leaves the floor"
+            "Their leg straightens before liftoff"
           ]
         }
       },
       {
         "question": "Buggy defense: what should trigger a stop even while you still occupy top position?",
         "answer": "Stop before dizziness or loss of normal responsiveness; top position does not make a secured choke safe.",
-        "answer_line": "A secured neck enclosure before dizziness develops",
+        "answer_line": "A secure neck loop, before symptoms",
         "distractors": {
           "plausible": [
-            "Only the loss of top balance after the loop is already secure",
-            "The first dizzy sensation after attempting another posture change"
+            "Loss of top balance after closure",
+            "Dizziness after one more adjustment"
           ],
           "trap": [
-            "Complete loss of head movement after testing the closed enclosure"
+            "No head movement after testing it"
           ]
         }
       },
       {
         "question": "Buggy defense: what bottom-player orientation appears in the reviewed side-control entry?",
         "answer": "The top player is beside the bottom player in side-control geometry.",
-        "answer_line": "Under your side-control pin, partly turned toward you",
+        "answer_line": "Under the pin, partly facing you",
         "distractors": {
           "plausible": [
-            "Under the pin but turned away, leaving the head outside their reach",
-            "Flat beneath your torso with neither arm connecting to a raised leg"
+            "Under the pin, facing away",
+            "Flat, with no arm-to-leg connection"
           ],
           "trap": [
-            "Belly down beneath you with the shoulder line facing the mat"
+            "Belly down, shoulders facing the mat"
           ]
         }
       },
       {
         "question": "Buggy defense: what supplies the loop around your upper body?",
         "answer": "The bottom player supplies the arm-and-leg loop around the opponent's head and one arm. It does not require a collar grip, a turtle ride, or trapping the opponent's arm alone across their own throat.",
-        "answer_line": "The bottom player's connected arm and leg",
+        "answer_line": "Their connected arm and raised leg",
         "distractors": {
           "plausible": [
-            "Their two hands around your neck with the raised leg unconnected",
-            "Their two high legs with neither hand joining the leg"
+            "Two hands with the leg unconnected",
+            "Two high legs without a hand grip"
           ],
           "trap": [
-            "Their forearm across your neck while the leg stays outside the shoulder"
+            "A forearm alone; leg outside you"
           ]
         }
       }
@@ -428,11 +428,11 @@
         "answer_line": "Frame and turn partly onto your side",
         "distractors": {
           "plausible": [
-            "Stay flat and yank your foot toward your face",
-            "Roll belly down without controlling their head"
+            "Stay flat and yank the foot inward",
+            "Roll belly down, leaving their head"
           ],
           "trap": [
-            "Extend both arms and push only on their chest"
+            "Push the chest with both arms long"
           ]
         }
       },
@@ -442,11 +442,11 @@
         "answer_line": "The opponent's head and one arm",
         "distractors": {
           "plausible": [
-            "Their head with both arms outside the loop",
-            "Their wrist while the shoulder and head stay outside"
+            "Head alone, both arms outside",
+            "Wrist alone, head and shoulder free"
           ],
           "trap": [
-            "Their shoulder and ribs while the head remains clear"
+            "Shoulder and ribs, head outside"
           ]
         }
       },
@@ -456,11 +456,11 @@
         "answer_line": "Bring your elbow close to your knee",
         "distractors": {
           "plausible": [
-            "Pull your toes across a stationary knee",
-            "Straighten the gripping arm away from your thigh"
+            "Pull the toes across a fixed knee",
+            "Extend your gripping arm away"
           ],
           "trap": [
-            "Flatten your shoulders and lift only the ankle"
+            "Flatten the torso; lift only ankle"
           ]
         }
       },
@@ -470,25 +470,25 @@
         "answer_line": "Bring your shoulder toward your hip",
         "distractors": {
           "plausible": [
-            "Pull the ankle sideways across the kneecap",
-            "Lift your head while keeping your torso flat"
+            "Pull the ankle across your kneecap",
+            "Lift your head with the torso flat"
           ],
           "trap": [
-            "Extend your capturing elbow away from your leg"
+            "Extend your elbow away from the leg"
           ]
         }
       },
       {
         "question": "Buggy attack: the opponent withdraws and your loop opens; how can you recover position?",
         "answer": "Use a disengaging opponent's movement to insert frames and knees if the choke is lost.",
-        "answer_line": "Insert frames and bring your knees between you",
+        "answer_line": "Frame and bring the knees between",
         "distractors": {
           "plausible": [
-            "Keep reaching for the leg with both arms overhead",
-            "Turn your back before placing any frame"
+            "Keep both arms reaching overhead",
+            "Turn your back before framing"
           ],
           "trap": [
-            "Hold the loose loop while they pass around your head"
+            "Hold the loose loop as they circle"
           ]
         }
       },
@@ -498,39 +498,39 @@
         "answer_line": "Open the arm-leg loop and disengage",
         "distractors": {
           "plausible": [
-            "Tighten the loop and hang from their neck",
-            "Pull harder on your foot to shorten the drop"
+            "Tighten and hang from their neck",
+            "Pull the foot harder to limit falls"
           ],
           "trap": [
-            "Keep the leg grip until they return to their knees"
+            "Keep the grip until they kneel"
           ]
         }
       },
       {
         "question": "Buggy attack: how do you orient your torso in the reviewed bottom-side entry?",
         "answer": "Use a partly side-on angle under the pin to shorten the arm-to-leg reach around the head and arm. Do not substitute a headfirst turn to turtle for this entry.",
-        "answer_line": "Turn partly toward the opponent from underneath the pin",
+        "answer_line": "Partly toward them, under the pin",
         "distractors": {
           "plausible": [
-            "Stay flat beneath the chest pin and lengthen the reaching arm",
-            "Turn belly down and leave their head behind your shoulder line"
+            "Flat, with the reaching arm extended",
+            "Belly down; their head behind you"
           ],
           "trap": [
-            "Face away while the passer brings the chest across your upper back"
+            "Face away beneath their chest"
           ]
         }
       },
       {
         "question": "Buggy attack: which attachment distinguishes this choke from a cross-collar choke?",
         "answer": "The bottom player supplies the arm-and-leg loop around the opponent's head and one arm. It does not require a collar grip, a turtle ride, or trapping the opponent's arm alone across their own throat.",
-        "answer_line": "Your arm connects to your own raised leg",
+        "answer_line": "Your arm joins your own raised leg",
         "distractors": {
           "plausible": [
-            "Your hands cross inside their two lapels",
-            "Your forearm catches a loose collar tail"
+            "Your hands cross in both lapels",
+            "Your forearm catches a collar tail"
           ],
           "trap": [
-            "Their sleeve wraps around their neck"
+            "Their sleeve loops around the neck"
           ]
         }
       }

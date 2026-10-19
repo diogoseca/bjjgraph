@@ -191,154 +191,154 @@
       {
         "question": "Invisible Collar hand fight (bottom): What connection defines the named collar here?",
         "answer": "Invisible Collar is a facing rubber-guard clinch reinforced by a second high leg; its name does not establish a cloth grip.",
-        "answer_line": "High legs and an arm connection around the upper body",
+        "answer_line": "Two high legs and an upper-body wrap",
         "distractors": {
           "plausible": [
-            "A hand inserted deep into a jacket lapel",
-            "One high shin with the other leg below the waist"
+            "Hand gripping deep jacket lapel",
+            "One shin high; other leg below waist"
           ],
           "trap": [
-            "A high leg triangle with both opposing arms enclosed"
+            "High leg triangle around both arms"
           ]
         }
       },
       {
         "question": "Invisible Collar hand fight (bottom): What must precede opening a loaded high clinch?",
         "answer": "Unload the neck and arm before changing the high-leg geometry so the reset does not drag a fixed joint.",
-        "answer_line": "Release the neck and isolated-arm pressure",
+        "answer_line": "Unload neck and caught-arm pressure",
         "distractors": {
           "plausible": [
-            "Only release the fingers holding your own leg",
-            "Only lower the free foot while keeping neck tension"
+            "Only open fingers holding your leg",
+            "Drop free foot; keep neck tension"
           ],
           "trap": [
-            "Open the leg crossing while retaining the loaded overhook"
+            "Uncross legs; keep overhook loaded"
           ]
         }
       },
       {
         "question": "Invisible Collar hand fight (bottom): How should the high leg leave the shoulder line?",
         "answer": "Use the hips to create space for the leg to lower instead of pulling the foot across a fixed knee.",
-        "answer_line": "Lower it with a comfortable change of hip angle",
+        "answer_line": "Lower through a comfortable hip turn",
         "distractors": {
           "plausible": [
-            "Keep the hip still and pull the foot outward",
-            "Push the knee down while the ankle stays caught"
+            "Hold hip still; pull foot outward",
+            "Push knee down with ankle caught"
           ],
           "trap": [
-            "Flatten your hips before releasing the high ankle grip"
+            "Flatten hips before ankle grip opens"
           ]
         }
       },
       {
         "question": "Invisible Collar hand fight (bottom): After hand clearance, what still needs recovery?",
         "answer": "A freed hand does not prevent chest pressure. Recover inside forearms and knees as the high clinch opens.",
-        "answer_line": "The knee-and-forearm barrier between the bodies",
+        "answer_line": "Knees and forearms between bodies",
         "distractors": {
           "plausible": [
             "Only another reach behind their head",
-            "Only a forearm frame with both knees still outside"
+            "Forearm only; both knees outside"
           ],
           "trap": [
-            "Only the near knee while both hands chase the wrist"
+            "Near knee in; both hands chase wrist"
           ]
         }
       },
       {
         "question": "Invisible Collar hand fight (bottom): How do you protect facing posture during the reset?",
         "answer": "An inside shoulder frame helps prevent a crossface turning your head away while the hips create knee room.",
-        "answer_line": "Keep an inside forearm against the approaching shoulder",
+        "answer_line": "Forearm inside advancing shoulder",
         "distractors": {
           "plausible": [
-            "Reach outside their shoulder with the elbow flared",
-            "Turn your face away and leave the neck exposed"
+            "Reach outside shoulder, elbow flared",
+            "Turn face away, exposing the neck"
           ],
           "trap": [
-            "Keep the forearm low while their shoulder crosses your chest"
+            "Frame low as shoulder crosses chest"
           ]
         }
       },
       {
         "question": "Invisible Collar hand fight (bottom): What makes a renewed high-leg attack supportable?",
         "answer": "Rebuild posture control and knee space before raising the leg again; hand access alone does not restore the clinch.",
-        "answer_line": "Controlled posture with a comfortable supported knee",
+        "answer_line": "Posture held; knee braced with room",
         "distractors": {
           "plausible": [
-            "Their collar fabric being within reach",
-            "Your ankle reaching high while the knee stays pinned"
+            "Their collar fabric within reach",
+            "Ankle high with knee still pinned"
           ],
           "trap": [
-            "A supported knee with the opponent's chest fully upright"
+            "Knee supported; their chest upright"
           ]
         }
       },
       {
         "question": "Invisible Collar hand fight (bottom): What should you recover before raising the high leg again?",
         "answer": "A new high-leg entry needs the opponent close and your knee supported through available hip space. Freeing a hand or retaining the position name does not re-establish those controls.",
-        "answer_line": "Posture control with comfortable inside knee space",
+        "answer_line": "Posture held; inside knee has room",
         "distractors": {
           "plausible": [
-            "Only a distant wrist grip with the hips pinned",
-            "An unsupported ankle reach around an upright head"
+            "Distant wrist grip with hips pinned",
+            "Unsupported foot round upright head"
           ],
           "trap": [
-            "Inside knee space with the opponent still leaning away"
+            "Inside knee room; they lean away"
           ]
         }
       },
       {
         "question": "Invisible Collar hand fight (bottom): When would a cloth-grip strip actually be relevant?",
         "answer": "A jacket-grip defense needs an actual cloth connection; the high-leg Invisible Collar name alone is insufficient.",
-        "answer_line": "When the opponent has taken a real jacket grip",
+        "answer_line": "Opponent actually grips your jacket",
         "distractors": {
           "plausible": [
-            "Whenever the second leg goes behind their head",
-            "Whenever their hand is outside on the mat"
+            "Second leg goes behind their head",
+            "Their hand stays outside on the mat"
           ],
           "trap": [
-            "When their hand presses your collarbone through the jacket"
+            "Hand presses collarbone over cloth"
           ]
         }
       },
       {
         "question": "Invisible Collar hand fight (bottom): What supports the hip escape after releasing the grip?",
         "answer": "Once the high connection or separately present cloth grip has released, keep a forearm inside while the hips admit a knee.",
-        "answer_line": "An inside shoulder frame holding chest pressure away",
+        "answer_line": "Inside frame keeps shoulder away",
         "distractors": {
           "plausible": [
-            "Both hands reaching after the opponent's wrist",
-            "An outside upper-arm frame with the elbow flared"
+            "Both hands chase the opposing wrist",
+            "Frame outside upper arm, elbow wide"
           ],
           "trap": [
-            "An inside hand with the forearm folded onto your chest"
+            "Hand inside; forearm folded on chest"
           ]
         }
       },
       {
         "question": "Invisible Collar hand fight (bottom): What should a no-gi connection drill identify?",
         "answer": "In no-gi Invisible Collar, identify the real high-leg and arm connections rather than rehearsing an absent jacket strip.",
-        "answer_line": "The leg-and-arm enclosure, without a fabric grip",
+        "answer_line": "High leg-and-arm loop without cloth",
         "distractors": {
           "plausible": [
-            "A one-leg posture grip with the second foot at the hip",
-            "A high triangle enclosing both opposing elbows"
+            "One leg high; second foot at the hip",
+            "High triangle around both elbows"
           ],
           "trap": [
-            "A head clasp with both legs crossed below the shoulders"
+            "Head clasp; legs below the shoulders"
           ]
         }
       },
       {
         "question": "Invisible Collar hand fight (bottom): What is still needed before any rear-control follow-up?",
         "answer": "Releasing the facing high clinch does not put you behind the opponent; a back-control follow-up needs its own rear attachment.",
-        "answer_line": "Rear torso access established separately",
+        "answer_line": "Separate access behind their torso",
         "distractors": {
           "plausible": [
-            "Only the opponent's hand leaving your chest",
-            "Only the high leg opening around the head"
+            "Only their hand leaving your chest",
+            "Only high leg opening round the head"
           ],
           "trap": [
-            "An overhook while still facing the opponent's chest"
+            "Overhook while facing their chest"
           ]
         }
       }
@@ -441,58 +441,58 @@
     ],
     "flashcards": [
       {
-        "question": "Invisible Collar hand fight (top): What can hold your head down without a jacket grip?",
+        "question": "Invisible Collar hand fight (top): In no-gi, what completes their high enclosure?",
         "answer": "The second high leg reinforces upper-body posture control even when no fabric is held.",
-        "answer_line": "The reinforced high leg-and-arm enclosure",
+        "answer_line": "Second high leg joins the arm wrap",
         "distractors": {
           "plausible": [
-            "A low ankle crossing behind your waist alone",
-            "A hand posted flat on the mat alone"
+            "Low ankles crossed, arms framing",
+            "First ankle regripped, free leg low"
           ],
           "trap": [
-            "Their arm wrap with both high legs lowered"
+            "Arm wrap with both high legs lowered"
           ]
         }
       },
       {
         "question": "Invisible Collar hand fight (top): How should head and shoulder move while still enclosed?",
         "answer": "Avoid turning the head or torso away from a captured shoulder; maintain alignment while creating early slack.",
-        "answer_line": "Stay aligned with the captured elbow compact",
+        "answer_line": "Stay aligned; caught elbow by ribs",
         "distractors": {
           "plausible": [
-            "Head turned away with the shoulder fixed",
-            "Elbow flared while the chest twists inward"
+            "Head turns away, shoulder fixed",
+            "Elbow flared as chest twists inward"
           ],
           "trap": [
-            "Head aligned but the captured elbow extended away"
+            "Head aligned, caught elbow extended"
           ]
         }
       },
       {
         "question": "Invisible Collar hand fight (top): What does opening the grip need to achieve?",
         "answer": "The relevant release opens the enclosure around the upper body; simply finding no fabric does not free the head.",
-        "answer_line": "Slack in the high leg-and-arm connection",
+        "answer_line": "Slack in the high leg-and-arm loop",
         "distractors": {
           "plausible": [
-            "An empty hand while the legs remain tight",
-            "A wider base with the neck still enclosed"
+            "Empty hand, but legs remain tight",
+            "Wider base; neck still enclosed"
           ],
           "trap": [
-            "A loose free ankle with the controlling thigh still clamped"
+            "Free ankle loose; high thigh clamped"
           ]
         }
       },
       {
         "question": "Invisible Collar hand fight (top): Which early space matters for head recovery?",
         "answer": "Create slack at the high-leg connection before lifting the head, while keeping the shoulder and neck aligned.",
-        "answer_line": "Space at the hip and thigh of the high leg",
+        "answer_line": "At the high leg's hip and thigh",
         "distractors": {
           "plausible": [
-            "Space between the opponent's fingers only",
-            "Space behind your hips while the loop stays tight"
+            "Only between the opposing fingers",
+            "Behind your hips, with loop tight"
           ],
           "trap": [
-            "Space below the free leg while the high thigh stays close"
+            "Below free leg; high thigh close"
           ]
         }
       },
@@ -502,11 +502,11 @@
         "answer_line": "Back inside between the bodies",
         "distractors": {
           "plausible": [
-            "Back to a wide mat post outside their hip",
-            "Behind the opponent's neck with the elbow flared"
+            "Wide mat post outside their hip",
+            "Behind neck with your elbow flared"
           ],
           "trap": [
-            "Hand on their chest with the elbow outside their knee"
+            "Hand on chest; elbow outside knee"
           ]
         }
       }

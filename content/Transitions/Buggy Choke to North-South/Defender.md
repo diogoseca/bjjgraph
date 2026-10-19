@@ -64,7 +64,7 @@ description: "Buggy Choke to North-South (defender): Use safe shoulder and hip f
     },
     {
       "@type": "Question",
-      "name": "Buggy Choke to North-South (bottom): Which enclosure gives the top player a choke to clear?",
+      "name": "Buggy Choke to North-South (bottom): What must your same-side arm-leg loop enclose?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The Buggy loop encloses the top player's head and one arm; a grip on the leg alone does not suffice."

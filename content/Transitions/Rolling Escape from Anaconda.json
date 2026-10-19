@@ -200,14 +200,14 @@
       {
         "question": "Anaconda rolling escape (escaper): Which arm path signals the incoming enclosure?",
         "answer": "The Anaconda arm passes beneath the neck toward the armpit, enclosing the head and one arm.",
-        "answer_line": "Under your neck toward the far armpit",
+        "answer_line": "Under neck toward the far armpit",
         "distractors": {
           "plausible": [
-            "Through the armpit and around the neck",
-            "Under the neck with both shoulders left outside"
+            "Through armpit around the neck",
+            "Under neck with shoulders outside"
           ],
           "trap": [
-            "Across the upper arm without passing beneath the neck"
+            "Across arm without going under neck"
           ]
         }
       },
@@ -228,42 +228,42 @@
       {
         "question": "Anaconda rolling escape (escaper): Why avoid planting your head to resist a roll?",
         "answer": "Do not plant the head or twist the neck against a secured head-and-arm loop.",
-        "answer_line": "The neck becomes a brace beneath the rotating body",
+        "answer_line": "Fixed head braces the turning body",
         "distractors": {
           "plausible": [
-            "Head posting transfers the turning force into the shoulders alone",
-            "Keeping the forehead fixed stops the neck loop tightening"
+            "Head post loads only the shoulders",
+            "Fixed forehead keeps the loop loose"
           ],
           "trap": [
-            "The arm loop must open before the torso rotates around the head"
+            "Loop must open before torso can turn"
           ]
         }
       },
       {
         "question": "Anaconda rolling escape (escaper): What do your hands address before the loop tightens?",
         "answer": "Hand fight the developing grip early while keeping the trapped elbow connected to the torso.",
-        "answer_line": "Fight the grip with the trapped elbow close",
+        "answer_line": "Fight grip with trapped elbow close",
         "distractors": {
           "plausible": [
-            "Pull the threading wrist while extending the trapped elbow",
-            "Reach past the supporting arm to post on the mat"
+            "Pull wrist; trapped elbow extends",
+            "Post on mat past the supporting arm"
           ],
           "trap": [
-            "Pull the captured elbow out before addressing hand closure"
+            "Pull elbow out before fighting grip"
           ]
         }
       },
       {
         "question": "Anaconda rolling escape (escaper): The choke is secured; what replaces a last-second roll?",
         "answer": "A secured choke calls for a tap and release, not a blind rolling attempt.",
-        "answer_line": "Tap and obtain release of the arm loop",
+        "answer_line": "Tap for release of the arm loop",
         "distractors": {
           "plausible": [
-            "Roll while keeping the head braced on the mat",
-            "Turn the chin while the shoulder stays fixed"
+            "Roll with head braced on the mat",
+            "Turn chin with the shoulder fixed"
           ],
           "trap": [
-            "Keep grip fighting as if the neck gap were still open"
+            "Fight grip as if neck gap were open"
           ]
         }
       },
@@ -273,39 +273,39 @@
         "answer_line": "The head and trapped shoulder",
         "distractors": {
           "plausible": [
-            "Only the chin above the threading forearm",
-            "Only the captured wrist beyond the arm loop"
+            "Only chin above threading forearm",
+            "Only captured wrist beyond the loop"
           ],
           "trap": [
-            "Only the free shoulder outside the supporting arm"
+            "Only free shoulder outside the grip"
           ]
         }
       },
       {
         "question": "Anaconda rolling escape (escaper): What is your actual starting body relationship?",
         "answer": "Although stored in the attacker role, this deck teaches the player escaping from beneath the Anaconda front headlock.",
-        "answer_line": "Beneath a front headlock enclosing your head and one arm",
+        "answer_line": "Under a head-and-one-arm front lock",
         "distractors": {
           "plausible": [
-            "Beneath a neck-only front headlock with both arms outside",
-            "Beside a headlock threaded from your armpit to the neck"
+            "Under a neck-only front headlock",
+            "Beside an armpit-to-neck arm loop"
           ],
           "trap": [
-            "Beneath a high leg triangle containing both shoulders"
+            "Under a both-shoulder leg triangle"
           ]
         }
       },
       {
         "question": "Anaconda rolling escape (escaper): What would be required for a later Dead Orchard attack?",
         "answer": "Dead Orchard is a separate both-arm high-guard configuration; it is not an automatic continuation of an escape roll.",
-        "answer_line": "Bottom guard with a both-arm leg triangle",
+        "answer_line": "Bottom guard, both-arm leg triangle",
         "distractors": {
           "plausible": [
-            "Bottom guard with only one arm in the leg triangle",
-            "Bottom guard with two high legs but no figure-four"
+            "Bottom guard, one-arm leg triangle",
+            "Bottom guard, high legs still open"
           ],
           "trap": [
-            "Bottom guard with both wrists held below the knees"
+            "Bottom guard; wrists below knees"
           ]
         }
       }
@@ -413,7 +413,7 @@
         "answer_line": "The opponent's head and one arm",
         "distractors": {
           "plausible": [
-            "The neck alone with both arms outside",
+            "Neck alone with both arms outside",
             "The head and both opposing arms"
           ],
           "trap": [
@@ -424,14 +424,14 @@
       {
         "question": "Anaconda rolling escape (holder): Where does the choking arm pass first?",
         "answer": "Thread beneath the neck and toward the far armpit to enclose one shoulder.",
-        "answer_line": "Beneath the neck toward the far armpit",
+        "answer_line": "Under neck toward the far armpit",
         "distractors": {
           "plausible": [
             "Through the armpit toward the neck",
-            "Over the shoulder toward the upper back"
+            "Over shoulder toward the upper back"
           ],
           "trap": [
-            "Under the neck but outside the upper arm"
+            "Under neck but outside the upper arm"
           ]
         }
       },
@@ -441,11 +441,11 @@
         "answer_line": "On the supporting arm's biceps",
         "distractors": {
           "plausible": [
-            "Clasp both palms in front of the enclosed shoulder",
-            "Grip the supporting wrist beside the opponent's shoulder"
+            "Palms clasped before the shoulder",
+            "Supporting wrist beside the shoulder"
           ],
           "trap": [
-            "Rest the threading fingertips against the supporting biceps"
+            "Fingertips resting on support biceps"
           ]
         }
       },

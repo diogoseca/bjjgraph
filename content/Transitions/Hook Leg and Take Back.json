@@ -182,14 +182,14 @@
       {
         "question": "Hook Leg and Take Back (Buggy holder): Where is the holder in the initial choke setup?",
         "answer": "The bottom player has turned partly toward the opponent and brought an arm past the head.",
-        "answer_line": "Beneath side control, partly turned toward the opponent",
+        "answer_line": "Partly inward under side control",
         "distractors": {
           "plausible": [
-            "Beneath side control, turned away from the linking side",
-            "Beside the opponent with both chests facing the mat"
+            "Under side pin, turned from link",
+            "Beside them, both chests face mat"
           ],
           "trap": [
-            "Above their chest with your arm reaching toward your knee"
+            "Above their chest, arm toward knee"
           ]
         }
       },
@@ -199,11 +199,11 @@
         "answer_line": "The complete arm-and-leg loop",
         "distractors": {
           "plausible": [
-            "Only the hip frame while keeping the choke grip",
-            "Only the hand clasp while your elbow still hooks the leg"
+            "Just hip frame, choke grip kept",
+            "Just hand clasp, elbow hooks leg"
           ],
           "trap": [
-            "Only the leg pressure while the hand-to-leg link remains"
+            "Just leg pressure, hand link intact"
           ]
         }
       },
@@ -213,39 +213,39 @@
         "answer_line": "The original head-and-arm enclosure",
         "distractors": {
           "plausible": [
-            "Only the hand clasp, with your elbow still behind the knee",
-            "Only the hip frame beneath the opponent"
+            "Just clasp, elbow still behind knee",
+            "Just hip frame under the opponent"
           ],
           "trap": [
-            "Only the space around their arm while the head stays caught"
+            "Just arm space, head still caught"
           ]
         }
       },
       {
         "question": "Hook Leg and Take Back (Buggy holder): What attachment must be acquired for an actual back take?",
         "answer": "Establish a separate chest-to-back connection before reaching for hooks or a seatbelt.",
-        "answer_line": "Your chest against the opponent's back",
+        "answer_line": "Your chest against their back",
         "distractors": {
           "plausible": [
-            "Your chest against their side while they still face you",
-            "Your hands around their waist with your chest detached"
+            "Your chest on side, they face you",
+            "Hands on waist, chest detached"
           ],
           "trap": [
-            "Your hips behind theirs with your shoulders still in front"
+            "Hips behind, shoulders stay in front"
           ]
         }
       },
       {
         "question": "Hook Leg and Take Back (Buggy holder): Once behind, what helps contain their hip line?",
         "answer": "Use controlled upper-body and leg attachment while preserving neck alignment.",
-        "answer_line": "Leg attachment controlling the hip line",
+        "answer_line": "Leg attachment controlling hips",
         "distractors": {
           "plausible": [
-            "A seatbelt while your knees stay away from their hips",
-            "A wrist grip with both feet disengaged from their legs"
+            "Seatbelt, knees away from their hips",
+            "Wrist grip with both feet disengaged"
           ],
           "trap": [
-            "Both ankles crossed behind you without contacting their hips"
+            "Crossed ankles without hip contact"
           ]
         }
       },
@@ -255,11 +255,11 @@
         "answer_line": "They can turn freely to face you",
         "distractors": {
           "plausible": [
-            "Their back stays connected to your chest",
-            "Their hip line follows your leg control"
+            "Their back stays on your chest",
+            "Their hips follow your leg control"
           ],
           "trap": [
-            "Their shoulders stay facing away inside your seatbelt"
+            "Shoulders face away in your seatbelt"
           ]
         }
       },
@@ -269,11 +269,11 @@
         "answer_line": "The opponent's head and one arm",
         "distractors": {
           "plausible": [
-            "The head alone with both opposing arms outside",
-            "One upper arm with the opponent's head outside"
+            "Only head, both opposing arms out",
+            "One upper arm, their head outside"
           ],
           "trap": [
-            "Your own thigh with their upper body outside"
+            "Own thigh, their upper body outside"
           ]
         }
       },
@@ -283,50 +283,50 @@
         "answer_line": "Rear torso contact is still missing",
         "distractors": {
           "plausible": [
-            "An outside leg hook supplies the same upper-body control as a seatbelt",
-            "The existing head enclosure already places your sternum behind the spine"
+            "Outside leg hook acts as a seatbelt",
+            "Old loop puts sternum behind spine"
           ],
           "trap": [
-            "Holding the ankle prevents the opponent from turning to face you"
+            "Ankle grip prevents turning to face"
           ]
         }
       },
       {
         "question": "Hook Leg and Take Back (Buggy holder): You pull the foot against a fixed knee. What should change?",
         "answer": "Do not wrench the foot against the knee to preserve Buggy or manufacture a back-taking angle.",
-        "answer_line": "Release the pull and restore an unloaded leg position",
+        "answer_line": "Release pull and unload the leg",
         "distractors": {
           "plausible": [
-            "Relax the hand squeeze but keep the foot levered inward",
-            "Move the torso first while keeping the knee in place"
+            "Loosen hand, keep foot levered in",
+            "Move torso while keeping knee fixed"
           ],
           "trap": [
-            "Regrip closer to the toes while maintaining the pull"
+            "Grip nearer toes, maintain the pull"
           ]
         }
       },
       {
         "question": "Hook Leg and Take Back (Buggy holder): What makes the first choke connection more reachable?",
         "answer": "Turning partly onto the ribs shortens the reach between the same-side elbow and knee.",
-        "answer_line": "Frames and a partial turn onto your side",
+        "answer_line": "Frames and a partial turn onto ribs",
         "distractors": {
           "plausible": [
-            "Remaining flat while stretching the elbow away",
-            "Extend your ribs while bringing the hand toward the knee"
+            "Stay flat, extend elbow away",
+            "Extend ribs as hand reaches knee"
           ],
           "trap": [
-            "Keep both shoulder blades flat and reach with the arm alone"
+            "Keep shoulders flat, reach with arm"
           ]
         }
       },
       {
         "question": "Hook Leg and Take Back (Buggy holder): What must clear before either partner changes direction?",
         "answer": "Confirm that the captured neck or limb can move freely. Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.",
-        "answer_line": "The old neck-and-limb enclosure is fully open",
+        "answer_line": "Old neck-and-limb loop fully open",
         "distractors": {
           "plausible": [
-            "The partner's free hand can reach the mat",
-            "One hip can lift while the head stays trapped"
+            "Their free hand can reach the mat",
+            "One hip lifts, head still trapped"
           ],
           "trap": [
             "The foot grip feels slightly weaker"
@@ -336,14 +336,14 @@
       {
         "question": "Hook Leg and Take Back (Buggy holder): What distinguishes back control from the original Buggy?",
         "answer": "These are separate configurations; no reviewed source establishes a continuous Buggy-to-back route.",
-        "answer_line": "Rear torso and hip attachment replaces the front-facing loop",
+        "answer_line": "Rear torso and hip attachment",
         "distractors": {
           "plausible": [
-            "Rear hip contact alone while the chest remains in front",
-            "Chest-to-back contact with the opponent free to turn at the hips"
+            "Rear hip contact, chest in front",
+            "Chest on back, hips can turn freely"
           ],
           "trap": [
-            "A front head-and-arm loop with one leg hooked behind the hip"
+            "Front head-arm loop, rear hip hook"
           ]
         }
       }
@@ -457,14 +457,14 @@
       {
         "question": "Hook Leg and Take Back (defender): After Buggy release, what denies the new rear connection?",
         "answer": "Keep the shoulders facing the opponent before a seatbelt closes.",
-        "answer_line": "Keep the shoulders facing the opponent",
+        "answer_line": "Keep shoulders facing the opponent",
         "distractors": {
           "plausible": [
-            "Turn away while leaving the near arm extended",
-            "Reach behind for their leg without turning the torso"
+            "Turn away, near arm stays extended",
+            "Reach back for leg, torso unchanged"
           ],
           "trap": [
-            "Turn the hips to face while leaving the shoulders away"
+            "Hips face them, shoulders turn away"
           ]
         }
       },
@@ -474,11 +474,11 @@
         "answer_line": "The approaching arm with your hands",
         "distractors": {
           "plausible": [
-            "The low wrist at your waist while the upper arm advances",
-            "Both of their hip hooks before checking the neck arm"
+            "Low wrist as upper arm advances",
+            "Both hip hooks before the neck arm"
           ],
           "trap": [
-            "Your own chin alone while allowing their grip"
+            "Your chin alone, allowing their grip"
           ]
         }
       },
@@ -488,11 +488,11 @@
         "answer_line": "Elbow close to the ribs and knee",
         "distractors": {
           "plausible": [
-            "Elbow flared behind the hip while the wrist reaches back",
-            "Both arms flared beyond the shoulders"
+            "Elbow behind hip, wrist reaches back",
+            "Both arms flared beyond shoulders"
           ],
           "trap": [
-            "Elbow extended past the returning knee toward their hip"
+            "Elbow past knee toward their hip"
           ]
         }
       },
@@ -502,25 +502,25 @@
         "answer_line": "An inside elbow-knee barrier",
         "distractors": {
           "plausible": [
-            "Both knees turned away from their hips",
-            "A straight arm reaching past their far shoulder"
+            "Both knees turned away from hips",
+            "Straight arm past their far shoulder"
           ],
           "trap": [
-            "A knee outside their hip with the elbow held high"
+            "Knee outside hip, elbow held high"
           ]
         }
       },
       {
         "question": "Hook Leg and Take Back (defender): Why delay a turn while the Buggy loop still holds your head?",
         "answer": "Clear the head-and-arm enclosure before changing direction; do not rotate through the old choke.",
-        "answer_line": "The torso may rotate against the trapped neck",
+        "answer_line": "Torso can turn against trapped neck",
         "distractors": {
           "plausible": [
-            "The leg hook transfers neck pressure down into the hips",
-            "The head follows the torso despite the retained arm-leg loop"
+            "Leg hook shifts neck load into hips",
+            "Head follows torso inside the loop"
           ],
           "trap": [
-            "Their hand must release the high leg before your torso can turn"
+            "Hip turn pulls the head free first"
           ]
         }
       }

@@ -208,38 +208,38 @@
         "distractors": {
           "plausible": [
             "Back between your chests as a frame",
-            "Between your high thigh and chest as an inside wedge"
+            "Wedge between high thigh and chest"
           ],
           "trap": [
-            "Outside your hand grip but inside the knee hug"
+            "Free to slide above your knee hug"
           ]
         }
       },
       {
         "question": "New York Control to Invisible Collar (bottom): What stays connected as the free leg rises?",
         "answer": "The reinforcing leg is added to an existing neck-cleared arm trap without abandoning the supporting knee hug.",
-        "answer_line": "The overhook, knee hug and cleared head-side arm",
+        "answer_line": "Head cleared; overhook and knee hug",
         "distractors": {
           "plausible": [
-            "Only the hand pulling the back of the head",
+            "Only a hand behind their head",
             "Only a foot on the opponent's hip"
           ],
           "trap": [
-            "The knee hug alone after the head-side grip is released"
+            "Knee hug alone; head-side grip gone"
           ]
         }
       },
       {
         "question": "New York Control to Invisible Collar (bottom): How should the second leg reach its high closure?",
         "answer": "Use hip mobility to bring the reinforcing leg high behind the head instead of hauling the foot against a fixed knee.",
-        "answer_line": "Through hip movement behind the opponent's head",
+        "answer_line": "Hip turn lifts leg behind their head",
         "distractors": {
           "plausible": [
-            "By crossing the ankles low behind their waist",
-            "With the second knee below the opponent's shoulder"
+            "Cross ankles low behind their waist",
+            "Keep second knee below the shoulder"
           ],
           "trap": [
-            "By pulling the foot up while the knee stays pinned"
+            "Pull foot up with the knee pinned"
           ]
         }
       },
@@ -249,11 +249,11 @@
         "answer_line": "The connected high legs and arm trap",
         "distractors": {
           "plausible": [
-            "A single loose foot behind an upright head",
-            "Two high feet with the isolated elbow framing inside"
+            "Loose foot behind an upright head",
+            "Feet high, but elbow frames inside"
           ],
           "trap": [
-            "A tight head grip with the second leg still below the shoulder"
+            "Head grip tight; second leg low"
           ]
         }
       },
@@ -263,53 +263,53 @@
         "answer_line": "The arm isolation needs rebuilding",
         "distractors": {
           "plausible": [
-            "The second leg must now be the only control that matters",
-            "The trapped wrist still proves that New York is intact"
+            "Only the second leg matters now",
+            "Wrist grip proves New York intact"
           ],
           "trap": [
-            "The inside elbow is merely slack within an unchanged arm trap"
+            "Inside elbow is just harmless slack"
           ]
         }
       },
       {
         "question": "New York Control to Invisible Collar (bottom): Knee discomfort under a stack: what next?",
         "answer": "Release the high connection and return to a comfortable guard when stacking or knee discomfort makes it unsustainable.",
-        "answer_line": "Open the high clinch and recover inside frames",
+        "answer_line": "Open high clinch; frame inside",
         "distractors": {
           "plausible": [
-            "Keep both legs high and pull the feet closer",
-            "Let the knee drift while tightening the head grip"
+            "Keep legs high; pull the feet closer",
+            "Knee drifts; tighten the head grip"
           ],
           "trap": [
-            "Keep the high-leg grip while lowering only the free foot"
+            "Keep leg grip; drop free foot only"
           ]
         }
       },
       {
         "question": "New York Control to Invisible Collar (bottom): What precedes adding the second leg?",
         "answer": "New York supplies posture control and an isolated arm; then clear the head-side arm before reinforcing the high clinch.",
-        "answer_line": "Facing guard with posture down and one arm isolated",
+        "answer_line": "Facing, posture low, one arm trapped",
         "distractors": {
           "plausible": [
-            "Facing guard with both elbows braced inside",
-            "Facing guard with posture upright and one wrist held"
+            "Low guard with only their wrist held",
+            "Upright posture with one wrist held"
           ],
           "trap": [
-            "Facing guard with posture low but both elbows inside"
+            "Posture low, but both elbows inside"
           ]
         }
       },
       {
         "question": "New York Control to Invisible Collar (bottom): What precedes the second-leg closure?",
         "answer": "Clear the head-side arm through the Chill Dog checkpoint while preserving the overhook and knee hug before adding the second leg.",
-        "answer_line": "Neck clearing with the knee hug retained",
+        "answer_line": "Clear neck; keep knee hug connected",
         "distractors": {
           "plausible": [
-            "Returning the trapped hand to the opponent's chest",
-            "Closing both high legs before the head-side arm clears"
+            "Return trapped hand to their chest",
+            "Close legs before head-side clearing"
           ],
           "trap": [
-            "Releasing the knee hug to make room for the free leg"
+            "Release knee hug for free-leg room"
           ]
         }
       }
@@ -412,70 +412,70 @@
       {
         "question": "New York Control to Invisible Collar (top): Which cue marks the extra reinforcement?",
         "answer": "The second leg closing high reinforces the existing arm-and-leg clinch, so recognize it before it completes.",
-        "answer_line": "Their free leg climbing behind your head",
+        "answer_line": "Free leg climbs behind your head",
         "distractors": {
           "plausible": [
-            "Their high leg lowering off your shoulder",
-            "Their near knee returning below your chest"
+            "High leg lowers off your shoulder",
+            "Near knee returns below your chest"
           ],
           "trap": [
-            "Their controlling hand regrips the same high ankle"
+            "Hand regrips the same high ankle"
           ]
         }
       },
       {
         "question": "New York Control to Invisible Collar (top): How should the caught shoulder stay aligned?",
         "answer": "Keep the captured elbow compact and avoid rotating your torso away from a fixed shoulder while seeking slack.",
-        "answer_line": "Head and torso aligned, elbow near the ribs",
+        "answer_line": "Head-torso aligned; elbow by ribs",
         "distractors": {
           "plausible": [
-            "Head away while the elbow remains pinned",
-            "Elbow wide while the chest turns back"
+            "Head away with elbow still pinned",
+            "Elbow wide as the chest turns back"
           ],
           "trap": [
-            "Head upright while the elbow remains outside the knee hug"
+            "Head upright; elbow outside knee hug"
           ]
         }
       },
       {
         "question": "New York Control to Invisible Collar (top): Which response addresses the high closure early?",
         "answer": "Early inside space and a balanced base can deny the reinforcing leg before it closes; do not rely on late forced extraction.",
-        "answer_line": "Frame inside before the second leg connects",
+        "answer_line": "Frame inside before free leg closes",
         "distractors": {
           "plausible": [
-            "Wait until both legs close before seeking space",
-            "Reach both hands behind the opponent's back"
+            "Seek space after both legs close",
+            "Both hands reach behind their back"
           ],
           "trap": [
-            "Post both hands outside their hips as the leg climbs"
+            "Both hands outside as leg climbs"
           ]
         }
       },
       {
         "question": "New York Control to Invisible Collar (top): What should open before you raise your head?",
         "answer": "Create slack in the high enclosure before recovering head height so the movement does not pull against a fixed loop.",
-        "answer_line": "The high-leg connection at the hip and thigh",
+        "answer_line": "The high leg's hip-thigh connection",
         "distractors": {
           "plausible": [
             "Only your knee spacing on the mat",
-            "Only your free hand while the head stays cinched"
+            "Only free hand; head stays cinched"
           ],
           "trap": [
-            "Only the second ankle while the first high leg stays tight"
+            "Only second ankle; first leg tight"
           ]
         }
       },
       {
         "question": "New York Control to Invisible Collar (top): Where should the arm return as the loop opens?",
         "answer": "When the shoulder can move, return the elbow between the bodies to prevent renewed outside-arm isolation.",
-        "answer_line": "Inside beside the ribs, available to frame",
+        "answer_line": "Inside beside ribs, ready to frame",
         "distractors": {
           "plausible": [
-            "Outside on the mat with the elbow flared",
+            "Outside mat post with flared elbow",
             "Across the partner's far shoulder"
           ],
           "trap": [
-            "Hand on the sternum with the elbow left beyond their knee"
+            "Hand on sternum; elbow outside knee"
           ]
         }
       }

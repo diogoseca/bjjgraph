@@ -295,11 +295,11 @@
         "answer_line": "An isolated elbow can be extended",
         "distractors": {
           "plausible": [
-            "Neck compression while both elbows stay safe from extension",
-            "The high legs opening as a captured wrist is pulled away"
+            "Neck pressure with both elbows safe",
+            "A wrist pull opens the high legs"
           ],
           "trap": [
-            "The shoulder slipping free as the trapped elbow straightens"
+            "Elbow extension frees the shoulder"
           ]
         }
       },
@@ -309,11 +309,11 @@
         "answer_line": "Keep your elbows bent and compact",
         "distractors": {
           "plausible": [
-            "Straighten both elbows to push their hips",
-            "Reach one arm far behind their back"
+            "Straighten both arms against hips",
+            "Reach an arm far behind their back"
           ],
           "trap": [
-            "Lock both arms overhead to lift your chest"
+            "Lock both arms overhead and lift"
           ]
         }
       },
@@ -323,81 +323,81 @@
         "answer_line": "Against the hip or approaching thigh",
         "distractors": {
           "plausible": [
-            "On the mat beyond their head while the hips remain unframed",
-            "Against their far shoulder with the climbing-side elbow flared"
+            "On the mat beyond their head",
+            "On the far shoulder, elbow flared"
           ],
           "trap": [
-            "Across your own chest without contacting the approaching thigh"
+            "Across your chest, missing the thigh"
           ]
         }
       },
       {
         "question": "Dead Orchard defense: what is the order for withdrawing a shoulder from the enclosure?",
         "answer": "Work on opening the leg enclosure before withdrawing the shoulder and elbow together; stop if an arm is already loaded.",
-        "answer_line": "Open the legs, then clear shoulder and elbow together",
+        "answer_line": "Open legs; clear shoulder and elbow",
         "distractors": {
           "plausible": [
-            "Pull the elbow out while the shoulder stays trapped",
-            "Raise your chest before the leg triangle opens"
+            "Pull elbow out, shoulder still held",
+            "Raise the chest with legs closed"
           ],
           "trap": [
-            "Twist the wrist while leaving both shoulders enclosed"
+            "Twist the wrist, shoulders enclosed"
           ]
         }
       },
       {
         "question": "Dead Orchard defense: when can you safely begin rebuilding upright posture?",
         "answer": "Only raise posture after the shoulder line is free; a sudden pull can extend a captured elbow.",
-        "answer_line": "After the controlling shoulder line is free",
+        "answer_line": "Once the shoulder line is free",
         "distractors": {
           "plausible": [
-            "As soon as your neck no longer feels pressure",
-            "While both elbows remain above the leg line"
+            "Once neck pressure feels relieved",
+            "With elbows still above the legs"
           ],
           "trap": [
-            "When one hand reaches the opponent's hip"
+            "Once a hand reaches their hip"
           ]
         }
       },
       {
         "question": "Dead Orchard defense: with both hands trapped, how can you signal the attacker to stop?",
         "answer": "Use a verbal tap or foot tap if both hands are trapped, and do not rely on pain to judge remaining range.",
-        "answer_line": "Use a clear verbal or foot tap immediately",
+        "answer_line": "Give a clear verbal or foot tap",
         "distractors": {
           "plausible": [
-            "Delay the signal until one hand can be pulled through the legs",
-            "Keep the grips and try to straighten a trapped arm first"
+            "Wait until one hand pulls free",
+            "Straighten a trapped arm first"
           ],
           "trap": [
-            "Give only an ambiguous head movement without an agreed stop signal"
+            "Use an unagreed head gesture alone"
           ]
         }
       },
       {
         "question": "Dead Orchard defense: what lets the bottom player keep your shoulders within leg reach?",
         "answer": "The bottom player faces the opponent and keeps the hips close beneath the shoulders.",
-        "answer_line": "Their hips stay close beneath your shoulders",
+        "answer_line": "Hips close beneath your shoulders",
         "distractors": {
           "plausible": [
-            "Their hips retreat far beyond your knees",
-            "Their pelvis stays distant while only the hands pull your head closer"
+            "Hips retreat far beyond your knees",
+            "Distant hips while hands pull you"
           ],
           "trap": [
-            "Their knees straighten while their hips slide away from your chest"
+            "Straight knees as hips retreat"
           ]
         }
       },
       {
         "question": "Dead Orchard defense: what distinguishes this trap from an anaconda front headlock?",
         "answer": "The defining feature is both shoulders and arms enclosed by the legs. An anaconda instead uses an arm loop around the neck and one arm from a front headlock; the two controls require different body configurations.",
-        "answer_line": "Their legs surround both shoulders and arms",
+        "answer_line": "Legs enclose both shoulders and arms",
         "distractors": {
           "plausible": [
-            "An arm loop surrounds your neck and one shoulder",
-            "One arm stays outside a leg triangle around the neck"
+            "Arm loop around neck and shoulder",
+            "One arm outside the leg triangle"
           ],
           "trap": [
-            "Two high legs restrict posture while both elbows remain free"
+            "High legs with both elbows free"
           ]
         }
       }
@@ -677,70 +677,70 @@
       {
         "question": "Dead Orchard control: what must happen before you climb the legs around the shoulders?",
         "answer": "Bring the shoulders close before climbing the legs; reaching for a distant head leaves the guard loose.",
-        "answer_line": "Bring the opponent's upper body close",
+        "answer_line": "Bring their upper body close",
         "distractors": {
           "plausible": [
-            "Push their chest away to straighten your knees",
-            "Reach for the head with your hips far back"
+            "Push their chest away, knees long",
+            "Reach for the head with distant hips"
           ],
           "trap": [
-            "Let their posture rise while you cross your ankles"
+            "Let posture rise, then cross ankles"
           ]
         }
       },
       {
         "question": "Dead Orchard control: how many opposing arms belong inside your high leg figure-four?",
         "answer": "Confirm that both shoulders remain inside the high leg triangle rather than treating a one-arm triangle as Dead Orchard.",
-        "answer_line": "Both arms, with both shoulders enclosed",
+        "answer_line": "Both arms and both shoulders",
         "distractors": {
           "plausible": [
-            "One arm, with the other shoulder fully outside",
-            "Neither arm, with the legs only around the neck"
+            "One arm; opposite shoulder outside",
+            "Neither arm; legs around neck alone"
           ],
           "trap": [
-            "One wrist, with both shoulders below your knees"
+            "One wrist; shoulders below the knees"
           ]
         }
       },
       {
         "question": "Dead Orchard control: how do you bring the leg high without twisting a planted knee?",
         "answer": "Turn the hips and bring the knee toward the torso instead of hauling the foot across a fixed knee.",
-        "answer_line": "Turn your hips and bring the knee toward your torso",
+        "answer_line": "Turn hips; bring knee to your torso",
         "distractors": {
           "plausible": [
-            "Pull your foot across while the knee stays fixed",
-            "Flatten your hips and haul the ankle upward"
+            "Pull the foot across a fixed knee",
+            "Keep hips flat and haul the ankle"
           ],
           "trap": [
-            "Straighten your knee while forcing the toes inward"
+            "Straighten knee, force toes inward"
           ]
         }
       },
       {
         "question": "Dead Orchard control: what should maintain posture control while your hands isolate an elbow?",
         "answer": "Hold an exposed arm without straightening it to its limit; leg control should carry the posture work.",
-        "answer_line": "The high leg enclosure around the shoulders",
+        "answer_line": "The high legs around the shoulders",
         "distractors": {
           "plausible": [
-            "A hard pull that straightens the captured arm",
-            "Your feet pushing on the opponent's hips"
+            "Pull the captured elbow straight",
+            "Both feet pushing against the hips"
           ],
           "trap": [
-            "Both hands pulling only on the opponent's head"
+            "Both hands pulling only the head"
           ]
         }
       },
       {
         "question": "Dead Orchard control: the opponent starts withdrawing a shoulder; how should you respond?",
         "answer": "Adjust the hip angle if the opponent starts withdrawing a shoulder, and recover guard if the enclosure opens.",
-        "answer_line": "Adjust your hips to follow the shoulder line",
+        "answer_line": "Move hips to follow their shoulders",
         "distractors": {
           "plausible": [
-            "Keep your hips fixed and pull only the wrist",
-            "Squeeze the neck while letting both arms escape"
+            "Keep hips fixed and tug the wrist",
+            "Squeeze the neck; let both arms go"
           ],
           "trap": [
-            "Extend the trapped elbow to stop all movement"
+            "Extend the elbow to halt movement"
           ]
         }
       },
@@ -750,39 +750,39 @@
         "answer_line": "Uncross your legs and let the arm go",
         "distractors": {
           "plausible": [
-            "Release the wrist but keep the high triangle tight",
-            "Open one hand while straightening the elbow"
+            "Free wrist, keep high triangle tight",
+            "Open a hand while extending elbow"
           ],
           "trap": [
-            "Pull their shoulder closer before opening the legs"
+            "Pull shoulder in before opening legs"
           ]
         }
       },
       {
         "question": "Dead Orchard control: where should your pelvis be while you build the high guard?",
         "answer": "The bottom player faces the opponent and keeps the hips close beneath the shoulders.",
-        "answer_line": "Close underneath the opponent's shoulder line",
+        "answer_line": "Close beneath their shoulder line",
         "distractors": {
           "plausible": [
-            "Back near their knees with the legs reaching up at full length",
-            "Far to one side so the opposite shoulder lies outside the leg reach"
+            "Back near their knees, legs extended",
+            "Far aside, beyond one shoulder"
           ],
           "trap": [
-            "Away from their torso while only the hands pull the head closer"
+            "Far away while hands pull the head"
           ]
         }
       },
       {
         "question": "Dead Orchard control: what changes if one opposing shoulder escapes outside your legs?",
         "answer": "The defining feature is both shoulders and arms enclosed by the legs. An anaconda instead uses an arm loop around the neck and one arm from a front headlock; the two controls require different body configurations.",
-        "answer_line": "The defining two-arm enclosure is lost",
+        "answer_line": "The two-arm enclosure is lost",
         "distractors": {
           "plausible": [
-            "The remaining shoulder alone preserves the two-arm trap",
-            "Crossed ankles at the waist replace the high triangle"
+            "One shoulder keeps the two-arm trap",
+            "Low crossed ankles replace the trap"
           ],
           "trap": [
-            "A wrist grip outside the legs keeps both shoulders enclosed"
+            "A wrist grip keeps shoulders inside"
           ]
         }
       }

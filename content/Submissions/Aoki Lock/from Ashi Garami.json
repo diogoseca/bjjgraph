@@ -237,84 +237,84 @@
       {
         "question": "Aoki from Ashi: what should you look for in the foot presented near your hip?",
         "answer": "Toes already turned outward into an enclosing angle. Identify the turned-out foot without forcing it to rotate against resistance.",
-        "answer_line": "Toes already turned outward into an enclosing angle",
+        "answer_line": "Toes already turned outward",
         "distractors": {
           "plausible": [
-            "Toes pointing straight ahead beyond your reach",
-            "A heel hidden with the ankle completely free"
+            "Straight toes beyond your reach",
+            "Hidden heel with a free ankle"
           ],
           "trap": [
-            "A knee folded deeply with no contact on the foot"
+            "Deeply bent knee, no foot contact"
           ]
         }
       },
       {
         "question": "Aoki from Ashi: where do you bring the instep when collecting the offered foot?",
         "answer": "Beneath your upper arm close to your ribs. Bring the instep under the upper arm and support the heel/Achilles region with the forearm.",
-        "answer_line": "Beneath your upper arm close to your ribs",
+        "answer_line": "Under your upper arm by the ribs",
         "distractors": {
           "plausible": [
-            "Across the front of your knees with arms straight",
-            "Behind your head with the heel pointing away"
+            "Across knees with arms extended",
+            "Behind your head, heel facing away"
           ],
           "trap": [
-            "Between both thighs while leaving the arm grip open"
+            "Between thighs with the arms open"
           ]
         }
       },
       {
         "question": "Aoki from Ashi: what should the forearm-and-hand enclosure avoid during a capture drill?",
         "answer": "Applying finishing rotation to the foot. Secure the upper-body enclosure while leaving the foot unloaded during practice.",
-        "answer_line": "Applying finishing rotation to the foot",
+        "answer_line": "Finishing rotation through the foot",
         "distractors": {
           "plausible": [
-            "Supporting the heel region near the armpit",
-            "Keeping the instep close to the upper arm"
+            "Heel support beside the armpit",
+            "Instep close to your upper arm"
           ],
           "trap": [
-            "Holding a neutral connection while the partner can stop"
+            "Neutral grip with a stop available"
           ]
         }
       },
       {
         "question": "Aoki from Ashi: why retain a connection to the opponent's hip?",
         "answer": "To limit the proximal end of the captured leg moving freely. Use the legs and hip connection to limit free movement without twisting a planted knee.",
-        "answer_line": "To limit the proximal end of the captured leg moving freely",
+        "answer_line": "Restrain the upper end of the leg",
         "distractors": {
           "plausible": [
-            "To make a loose foot grip unnecessary",
-            "To force their planted kneecap sideways"
+            "Replace the need for a foot grip",
+            "Force the planted knee sideways"
           ],
           "trap": [
-            "To replace all ankle contact with calf compression"
+            "Replace ankle grip with calf squeeze"
           ]
         }
       },
       {
         "question": "Aoki from Ashi: what can a small extension of your body do once the foot is enclosed?",
         "answer": "Load a rotational lock at the ankle and knee. Recognize that a small body extension can create rotational ankle and knee pressure; do not search for a large finishing movement.",
-        "answer_line": "Load a rotational lock at the ankle and knee",
+        "answer_line": "Load ankle and knee rotation",
         "distractors": {
           "plausible": [
-            "Merely squeeze the calf without affecting either joint",
-            "Automatically release the grip on the instep"
+            "Only squeeze calf, leaving joints",
+            "Release the instep automatically"
           ],
           "trap": [
-            "Prevent any load until your elbows fully straighten"
+            "Delay load until elbows straighten"
           ]
         }
       },
       {
         "question": "Aoki from Ashi: the partner starts turning while caught; what is your immediate response?",
         "answer": "Open the foot grip and release the hip restraint. Open the arms and leg connection on a tap, sudden turn, or loss of communication.",
-        "answer_line": "Open the foot grip and release the hip restraint",
+        "answer_line": "Open foot grip and hip restraint",
         "distractors": {
           "plausible": [
-            "Follow the turn while tightening around the instep",
-            "Keep the foot fixed and let their knee rotate"
+            "Follow the turn with a tighter grip",
+            "Fix the foot and let the knee turn"
           ],
           "trap": [
-            "Release only your free leg and hold the heel"
+            "Free one leg but retain the heel"
           ]
         },
         "safety_critical": true
@@ -322,42 +322,42 @@
       {
         "question": "Aoki from Ashi: what body position supports the upper-body foot capture?",
         "answer": "Seated or on a hip facing the opponent's leg. The attacker is seated or on a hip facing the opponent's leg, with the opposing foot turned outward beside the armpit and the hip connection controlled.",
-        "answer_line": "Seated or on a hip facing the opponent's leg",
+        "answer_line": "Seated or side-on, facing their leg",
         "distractors": {
           "plausible": [
-            "Facing away with the foot held behind your neck",
-            "Chest down across the opponent's upper back"
+            "Facing away, foot behind your neck",
+            "Chest down across their upper back"
           ],
           "trap": [
-            "Standing behind their shoulders with a waist grip"
+            "Standing behind, holding the waist"
           ]
         }
       },
       {
         "question": "Aoki from Ashi: which gap does the forearm-and-rib enclosure close during a foot withdrawal?",
         "answer": "The space beside the ribs through which the heel could slip. Kesting describes an outward turn that ordinarily lets the heel escape between the forearm and ribs. A prepared Aoki enclosure catches that offered angle instead.",
-        "answer_line": "The space beside the ribs through which the heel could slip",
+        "answer_line": "The heel exit beside your ribs",
         "distractors": {
           "plausible": [
-            "The space between both of the opponent's knees",
-            "The gap behind the opponent's hip and the mat"
+            "The gap between their two knees",
+            "The space beneath their hip"
           ],
           "trap": [
-            "The space above the toes at your shoulder"
+            "The gap above toes at your shoulder"
           ]
         }
       },
       {
         "question": "Aoki from Ashi: what hand placement deepens the upper-arm connection in the written lesson?",
         "answer": "Reach behind the opposite upper arm to the triceps. The deep connection contains the foot more securely than a loose palm on the biceps. Practice the grip without bridging or loading the captured leg.",
-        "answer_line": "Reach behind the opposite upper arm to the triceps",
+        "answer_line": "Reach behind the opposite triceps",
         "distractors": {
           "plausible": [
-            "Leave the palm on the front of the opposite biceps",
-            "Grip the opponent's kneecap with the looping hand"
+            "Palm on front of the other biceps",
+            "Looping hand grips their kneecap"
           ],
           "trap": [
-            "Press the fingertips on the shin without joining the arms"
+            "Fingers on shin without joined arms"
           ]
         },
         "safety_critical": true
@@ -365,28 +365,28 @@
       {
         "question": "Aoki from Ashi: if an offered foot resists turning outward, how should the entry be handled?",
         "answer": "Abandon that angle and reset the capture. Identify the turned-out foot without forcing it to rotate against resistance.",
-        "answer_line": "Abandon that angle and reset the capture",
+        "answer_line": "Abandon the angle and reset",
         "distractors": {
           "plausible": [
-            "Use the toes to twist the ankle against resistance",
-            "Rotate the shin while the opponent's knee stays planted"
+            "Use toes to force the outward turn",
+            "Rotate shin against a planted knee"
           ],
           "trap": [
-            "Pull the heel sideways until the foot fits"
+            "Pull heel sideways until it fits"
           ]
         }
       },
       {
         "question": "Aoki from Ashi: which knee-to-foot connection helps deny the counter when your partner holds ashi?",
         "answer": "Their inside knee kept close to their outside foot. The prevention detail in the primary lesson limits access to the outside foot before the arm enclosure forms. Reset rather than forcing that protected foot into an angle.",
-        "answer_line": "Their inside knee kept close to their outside foot",
+        "answer_line": "Inside knee close to outside foot",
         "distractors": {
           "plausible": [
-            "Their inside knee flared away from the hip-posting foot",
-            "Their outside foot extended with both knees apart"
+            "Inside knee flared from the hip post",
+            "Outside foot extended, knees apart"
           ],
           "trap": [
-            "Their far knee crossing your shoulders above the foot"
+            "Far knee across your shoulders"
           ]
         },
         "safety_critical": true
@@ -397,11 +397,11 @@
         "answer_line": "The one posted on your hip",
         "distractors": {
           "plausible": [
-            "The one tucked beneath their own seated hip",
-            "The one resting on the mat behind their back"
+            "The one beneath their seated hip",
+            "The one on the mat behind them"
           ],
           "trap": [
-            "The one crossed above your knee without hip contact"
+            "The one across your knee, hip clear"
           ]
         }
       }
@@ -518,70 +518,70 @@
       {
         "question": "Aoki from Ashi defense: which foot change should make you reassess a straight-ankle defense?",
         "answer": "The captured toes turn outward beneath the upper arm. Treat an outward-turned foot caught by the upper body as a rotational lock rather than an ordinary straight ankle lock.",
-        "answer_line": "The captured toes turn outward beneath the upper arm",
+        "answer_line": "Toes turn outward beneath their arm",
         "distractors": {
           "plausible": [
-            "The free toes point forward while the heel stays loose",
-            "The opponent grips the calf but leaves your ankle mobile"
+            "Free toes forward, heel loose",
+            "Calf grip with your ankle mobile"
           ],
           "trap": [
-            "The opposing arm loses all contact with your instep"
+            "Their arm loses instep contact"
           ]
         }
       },
       {
         "question": "Aoki from Ashi defense: what is the early hand-fighting target as your foot is collected?",
         "answer": "The arm trying to close around the instep. Hand fight and recover foot position before the attacker connects around the foot.",
-        "answer_line": "The arm trying to close around the instep",
+        "answer_line": "The arm enclosing your instep",
         "distractors": {
           "plausible": [
-            "The opponent's collar while leaving the foot in place",
-            "Their far knee while your hands avoid the grip"
+            "Their collar with foot still offered",
+            "Their far knee, avoiding the grip"
           ],
           "trap": [
-            "The mat behind you to pull against the closed lock"
+            "The mat, to pull against the lock"
           ]
         }
       },
       {
         "question": "Aoki from Ashi defense: why should you avoid spinning away while the foot remains held?",
         "answer": "The fixed foot can transmit the turn into your knee. Do not rotate the torso independently of a captured foot and knee.",
-        "answer_line": "The fixed foot can transmit the turn into your knee",
+        "answer_line": "A fixed foot transfers turn to knee",
         "distractors": {
           "plausible": [
-            "A torso turn necessarily opens the attacker's hands",
-            "The trapped ankle always rotates freely inside the arm"
+            "A torso turn opens their hands",
+            "The trapped ankle rotates freely"
           ],
           "trap": [
-            "The lock affects only the opponent's squeezing forearm"
+            "Only their gripping forearm loads"
           ]
         }
       },
       {
         "question": "Aoki from Ashi defense: what should you loosen before retracting the captured leg?",
         "answer": "The upper-body grip together with the hip connection. Create slack in the hand and hip controls before withdrawing the leg.",
-        "answer_line": "The upper-body grip together with the hip connection",
+        "answer_line": "The upper-body grip and hip hold",
         "distractors": {
           "plausible": [
-            "Only the opponent's other ankle near your free leg",
-            "Only the calf pressure while the instep remains clamped"
+            "Only their other ankle",
+            "Only calf pressure, instep clamped"
           ],
           "trap": [
-            "Only your own outside knee position"
+            "Only your outside knee placement"
           ]
         }
       },
       {
         "question": "Aoki from Ashi defense: when is stopping preferable to testing another rotational escape?",
         "answer": "When the foot is securely captured even without pain. Stop at a secure rotational capture rather than testing whether the joint still tolerates movement.",
-        "answer_line": "When the foot is securely captured even without pain",
+        "answer_line": "Once captured, even without pain",
         "distractors": {
           "plausible": [
-            "Only after the kneecap visibly changes direction",
-            "Only after the ankle reaches the end of its range"
+            "Only when the kneecap visibly turns",
+            "Only at the limit of ankle movement"
           ],
           "trap": [
-            "Only once you can no longer straighten the free leg"
+            "Only when the free leg cannot extend"
           ]
         }
       }

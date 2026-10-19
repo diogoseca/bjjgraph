@@ -68,7 +68,7 @@ description: "Buggy Choke to Front Headlock (attacker): Watch for an arm reachin
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Buggy Choke to Front Headlock (top): Which bottom-player connection threatens your neck?",
+      "name": "Buggy Choke to Front Headlock (top): What must their same-side arm-leg loop enclose?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Watch for an arm reaching past your head and connecting to the same-side leg."

@@ -251,28 +251,28 @@
       {
         "question": "Chill Dog defense: what should your free hand do while the other elbow is isolated?",
         "answer": "Keep the free hand available for framing while preventing the isolated elbow from being pulled further away from your torso.",
-        "answer_line": "Frame while keeping the trapped elbow near your torso",
+        "answer_line": "Frame; keep the held elbow close",
         "distractors": {
           "plausible": [
-            "Join the trapped hand on the mat outside their hip",
-            "Pull their ankle while extending the isolated elbow"
+            "Put both hands outside their hip",
+            "Pull ankle; extend the trapped elbow"
           ],
           "trap": [
-            "Post far behind you and lean away from the arm"
+            "Post far behind and lean away"
           ]
         }
       },
       {
         "question": "Chill Dog defense: what does their controlling hand moving around your head signal?",
         "answer": "The opponent changing the hand around your head signals the move beyond New York, not a turtle escape.",
-        "answer_line": "Neck clearance after the New York arm trap",
+        "answer_line": "Neck clearance after the arm trap",
         "distractors": {
           "plausible": [
-            "The second leg joining behind the head without a hand-position change",
-            "The isolated elbow returning inside the raised knee"
+            "Second leg joins, hand unchanged",
+            "Isolated elbow slips inside the knee"
           ],
           "trap": [
-            "The high leg dropping below the shoulders into ordinary closed guard"
+            "High leg drops to a low closed guard"
           ]
         }
       },
@@ -282,53 +282,53 @@
         "answer_line": "Closing high behind your head",
         "distractors": {
           "plausible": [
-            "Resting with its foot on the floor",
-            "Returning between your hips as an ordinary frame"
+            "Resting its foot on the floor",
+            "Framing low between your hips"
           ],
           "trap": [
-            "Lowering away from your upper back"
+            "Dropping away from your upper back"
           ]
         }
       },
       {
         "question": "Chill Dog defense: when should you draw the isolated elbow back toward your ribs?",
         "answer": "Recover the elbow toward your ribs only when the leg enclosure has slack, rather than jerking the shoulder.",
-        "answer_line": "When slack opens in the high-leg enclosure",
+        "answer_line": "When slack opens in the high clinch",
         "distractors": {
           "plausible": [
-            "While the shoulder stays fixed and the wrist is pulled",
-            "Only after forcing your head fully upright"
+            "With shoulder fixed and wrist pulled",
+            "Only after forcing the head upright"
           ],
           "trap": [
-            "By jerking the elbow through the closed knee hug"
+            "Jerk it through the closed knee hug"
           ]
         }
       },
       {
         "question": "Chill Dog defense: what precedes restoring upright head and chest posture?",
         "answer": "Bring the head and chest upright in stages after clearing the upper-body control.",
-        "answer_line": "Clear the upper-body enclosure in stages",
+        "answer_line": "Clear the upper enclosure in stages",
         "distractors": {
           "plausible": [
-            "Lift your chest while the trapped elbow stays extended",
-            "Push the opponent's ankle across their fixed knee"
+            "Lift chest with the held arm long",
+            "Push ankle across their fixed knee"
           ],
           "trap": [
-            "Stand tall while both shoulders remain beneath the high leg"
+            "Stand with shoulders under the leg"
           ]
         }
       },
       {
         "question": "Chill Dog defense: why should you avoid driving the bottom player onto the neck?",
         "answer": "Do not drive the partner onto the neck or force the bent leg sideways to escape the control.",
-        "answer_line": "The stack may compress them while your arm stays trapped",
+        "answer_line": "The stack loads them, arm still held",
         "distractors": {
           "plausible": [
-            "Forward weight makes the knee hug slide off the elbow",
-            "Folding their hips removes the tension around your shoulder"
+            "Forward weight frees the knee hug",
+            "Folding hips frees your shoulder"
           ],
           "trap": [
-            "The captured arm follows your head as your weight advances"
+            "The held arm follows your head"
           ]
         }
       },
@@ -338,25 +338,25 @@
         "answer_line": "High across your upper back",
         "distractors": {
           "plausible": [
-            "Across the waist below the shoulder blades",
-            "Between the chests with the shin pressing into your torso"
+            "Across the waist, below shoulders",
+            "Between chests, shin on your torso"
           ],
           "trap": [
-            "Outside the shoulder with the knee pointing away from your back"
+            "Outside shoulder, knee facing away"
           ]
         }
       },
       {
         "question": "Chill Dog defense: what has changed from New York while the knee hug remains?",
         "answer": "New York supplies the arm isolation; clearing the neck changes the controlling hand and forearm position without abandoning the knee hug. This is a guard exchange with the players facing each other.",
-        "answer_line": "Their controlling arm has cleared around your head",
+        "answer_line": "Their arm has cleared your head",
         "distractors": {
           "plausible": [
-            "Their second leg has reinforced the existing high clinch",
-            "Your trapped elbow has returned inside their knee"
+            "Their second leg reinforces the hold",
+            "Your elbow has regained inside space"
           ],
           "trap": [
-            "Their shin has moved beneath your chin into a choke setup"
+            "Their shin has moved under your chin"
           ]
         }
       }
@@ -681,42 +681,42 @@
       {
         "question": "Chill Dog entry: what should already be secured before you change the head-side grip?",
         "answer": "Keep the opposing hand on the mat and hug the knee before changing the head-side grip.",
-        "answer_line": "Their hand on the mat with your knee hugged",
+        "answer_line": "Hand on mat; your knee hugged",
         "distractors": {
           "plausible": [
-            "Their elbow framing freely between your chests",
-            "Both of your hands pulling an unsupported ankle"
+            "Their elbow framing between chests",
+            "Both hands on an unsupported ankle"
           ],
           "trap": [
-            "Their posture upright above your straightened legs"
+            "Upright posture over straight legs"
           ]
         }
       },
       {
         "question": "Chill Dog control: how do you bring the knee toward your chest without twisting it?",
         "answer": "Bring the knee toward the chest through hip movement so the neck-clearing motion does not twist the knee.",
-        "answer_line": "Turn your hips while supporting the raised knee",
+        "answer_line": "Turn hips; support the raised knee",
         "distractors": {
           "plausible": [
-            "Pull the foot inward while the knee stays still",
-            "Flatten your pelvis and drag the toes across your face"
+            "Pull foot inward with a fixed knee",
+            "Stay flat and drag toes across face"
           ],
           "trap": [
-            "Extend the knee as you lift the ankle sideways"
+            "Extend knee; lift ankle sideways"
           ]
         }
       },
       {
         "question": "Chill Dog control: what must stay connected as your arm clears around the head?",
         "answer": "Move the controlling arm around the head while keeping the leg and trapped arm connected.",
-        "answer_line": "The high leg and isolated opposing arm",
+        "answer_line": "The high leg and the isolated arm",
         "distractors": {
           "plausible": [
-            "Only your foot, with the knee hug released",
-            "Only their head, with their elbow free inside"
+            "Foot alone, with knee hug released",
+            "Head alone, their elbow free inside"
           ],
           "trap": [
-            "Only the wrist, with the high leg slipping below the shoulder"
+            "Wrist alone, high leg slipping low"
           ]
         }
       },
@@ -726,67 +726,67 @@
         "answer_line": "Near the opponent's shoulder line",
         "distractors": {
           "plausible": [
-            "On the chest with your elbow flared and the wrist folded",
-            "Behind their neck while your elbow draws the head closer"
+            "On chest, elbow out and wrist bent",
+            "Behind neck, pulling the head in"
           ],
           "trap": [
-            "Low on their abdomen beneath the approaching shoulder"
+            "Low on the abdomen below shoulders"
           ]
         }
       },
       {
         "question": "Chill Dog control: what should you retain while choosing an omoplata or higher-leg continuation?",
         "answer": "Keep the knee hug while choosing further control such as Invisible Collar or an omoplata setup.",
-        "answer_line": "The knee hug holding the arm isolation",
+        "answer_line": "The knee hug retaining the arm trap",
         "distractors": {
           "plausible": [
-            "A loose ankle grip with the knee unsupported",
-            "Both elbows extended away from your torso"
+            "Loose ankle grip, knee unsupported",
+            "Both elbows extended from your torso"
           ],
           "trap": [
-            "The opponent's elbow returned between your bodies"
+            "Their elbow back between your chests"
           ]
         }
       },
       {
         "question": "Chill Dog control: the opponent withdraws the elbow or stacks your upper back; what is the reset?",
         "answer": "Return the legs to a comfortable guard if the opponent withdraws the elbow or stacks your upper back.",
-        "answer_line": "Lower into a comfortable guard and rebuild frames",
+        "answer_line": "Lower guard and rebuild your frames",
         "distractors": {
           "plausible": [
-            "Keep the foot fixed and twist the knee farther",
-            "Pull the escaping wrist while accepting neck compression"
+            "Fix the foot; twist the knee further",
+            "Chase the wrist despite neck load"
           ],
           "trap": [
-            "Reach higher with the leg while your hips stay pinned"
+            "Reach leg higher with hips pinned"
           ]
         }
       },
       {
         "question": "Chill Dog entry: how should your body move to shorten the reach around the head?",
         "answer": "The guard player faces the opponent from the back or hip. Move the pelvis to bring the supported knee closer; do not drag the foot across a fixed knee to create the angle.",
-        "answer_line": "Angle onto your hip with the raised knee supported",
+        "answer_line": "Angle onto a hip; support the knee",
         "distractors": {
           "plausible": [
-            "Remain flat and pull the foot inward while the knee stays behind",
-            "Lift the foot above the head before allowing the pelvis to turn"
+            "Stay flat, pulling foot past knee",
+            "Raise foot before turning the hips"
           ],
           "trap": [
-            "Turn the chest away while leaving the bent leg pinned underneath"
+            "Turn torso away, bent leg pinned"
           ]
         }
       },
       {
         "question": "Chill Dog control: what distinguishes it from New York without requiring you to release the knee?",
         "answer": "New York supplies the arm isolation; clearing the neck changes the controlling hand and forearm position without abandoning the knee hug. This is a guard exchange with the players facing each other.",
-        "answer_line": "The controlling hand and forearm have cleared the neck",
+        "answer_line": "Hand and forearm cleared the neck",
         "distractors": {
           "plausible": [
-            "The second leg has reinforced the first behind the head",
-            "The isolated elbow has escaped inside the knee hug"
+            "Second leg reinforced the first",
+            "Their elbow escaped inside the knee"
           ],
           "trap": [
-            "The high shin has been placed beneath the chin"
+            "High shin placed under the chin"
           ]
         }
       }

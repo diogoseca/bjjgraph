@@ -238,56 +238,56 @@
       {
         "question": "Guillotine after Hindu Control: what first front-head connection should you establish?",
         "answer": "A chin strap or equivalent control of the lowered head. Establish a chin-strap or equivalent front head control without twisting the jaw.",
-        "answer_line": "A chin strap or equivalent control of the lowered head",
+        "answer_line": "Chin strap on the lowered head",
         "distractors": {
           "plausible": [
-            "A wrist pull with the opponent's head still upright",
-            "A high leg alone without changing the hand position"
+            "Wrist pull with head still upright",
+            "High leg alone, hand unchanged"
           ],
           "trap": [
-            "A collar grip from behind the opponent's shoulders"
+            "Collar grip from behind shoulders"
           ]
         }
       },
       {
         "question": "Guillotine attack: where should the choking forearm be placed?",
         "answer": "In the neck space with the head aligned. Bring the forearm into the neck space while keeping the head aligned.",
-        "answer_line": "In the neck space with the head aligned",
+        "answer_line": "Neck space with the head aligned",
         "distractors": {
           "plausible": [
-            "Across the jaw while turning the chin sideways",
-            "Behind the skull to lever the head backward"
+            "Across jaw, twisting the chin",
+            "Behind skull, levering head back"
           ],
           "trap": [
-            "Low across the chest beneath both shoulders"
+            "Low on chest below both shoulders"
           ]
         }
       },
       {
         "question": "Guillotine attack: what should the support hand secure?",
         "answer": "The neck-enclosing grip without a backward head pull. Secure the selected grip without pulling the head backward.",
-        "answer_line": "The neck-enclosing grip without a backward head pull",
+        "answer_line": "Neck grip without pulling head back",
         "distractors": {
           "plausible": [
-            "The far wrist while leaving the choking arm unsupported",
-            "The back of the head for forceful extension"
+            "Far wrist, choke arm unsupported",
+            "Back of head for hard extension"
           ],
           "trap": [
-            "The opponent's belt as the only upper-body attachment"
+            "Belt alone as upper-body contact"
           ]
         }
       },
       {
         "question": "Guillotine attack: what prevents the opponent freely circling around your arms?",
         "answer": "A stable base or guard connection between the bodies. Use a stable base or guard connection so the opponent cannot freely circle around the choke.",
-        "answer_line": "A stable base or guard connection between the bodies",
+        "answer_line": "A stable base or guard connection",
         "distractors": {
           "plausible": [
-            "Pulling harder with extended arms while the hips stay free",
-            "Holding only the chin with the feet together"
+            "Hard arm pull with hips still free",
+            "Chin alone with feet together"
           ],
           "trap": [
-            "Letting the torso detach while keeping the fingertips hooked"
+            "Torso detached, fingertips hooked"
           ]
         }
       },
@@ -297,25 +297,25 @@
         "answer_line": "Connect torso and elbows gradually",
         "distractors": {
           "plausible": [
-            "Throw the head backward against the forearm",
-            "Twist the jaw while keeping the shoulders stationary"
+            "Throw head back against forearm",
+            "Twist jaw with shoulders fixed"
           ],
           "trap": [
-            "Straighten both arms away from the body"
+            "Straighten arms away from your body"
           ]
         }
       },
       {
         "question": "Guillotine attack: what releases a partner at the first tap?",
         "answer": "Open both hands and remove body pressure from the neck. Open both hands and remove body pressure immediately on a tap.",
-        "answer_line": "Open both hands and remove body pressure from the neck",
+        "answer_line": "Open hands; unload the neck",
         "distractors": {
           "plausible": [
-            "Open the support fingers but keep the choking elbow tight",
-            "Stop moving while the connected grip stays loaded"
+            "Free support fingers, choke tight",
+            "Stop moving with grip still loaded"
           ],
           "trap": [
-            "Lift the head upward out of the closed arm loop"
+            "Lift head through a closed arm loop"
           ]
         },
         "safety_critical": true
@@ -323,42 +323,42 @@
       {
         "question": "Guillotine attack: which part of the head must not become a backward lever during chin-strap entry?",
         "answer": "The jaw and chin pulled away from the torso. Control the lowered head without levering the jaw backward or twisting the neck. A balanced front position and aligned neck enclosure precede any finishing pressure.",
-        "answer_line": "The jaw and chin pulled away from the torso",
+        "answer_line": "Jaw and chin pulled from the torso",
         "distractors": {
           "plausible": [
-            "The aligned forehead moving with the shoulders",
-            "The crown kept in line with the spine"
+            "Aligned forehead following shoulders",
+            "Crown remaining in the spinal line"
           ],
           "trap": [
-            "The head held neutrally while the forearm is positioned"
+            "Neutral head during forearm entry"
           ]
         }
       },
       {
         "question": "Guillotine after Hindu Control: what must you deliberately change before the ordinary version?",
         "answer": "Re-grip the neck and clear the raised leg from the enclosure. Hindu Control includes a raised leg in the enclosure. An ordinary guillotine requires deliberate re-gripping and leg clearance; a shared word in the names does not make the grips interchangeable.",
-        "answer_line": "Re-grip the neck and clear the raised leg from the enclosure",
+        "answer_line": "Re-grip neck; clear the raised leg",
         "distractors": {
           "plausible": [
-            "Keep the foot loop as the neck enclosure without rebuilding the arms",
-            "Add a collar grip while leaving every limb fixed"
+            "Retain the foot loop, arms unchanged",
+            "Add collar grip, other limbs fixed"
           ],
           "trap": [
-            "Move only your free foot without changing the upper connection"
+            "Move free foot, upper hold unchanged"
           ]
         }
       },
       {
         "question": "Guillotine practice: which sideways head motion must the unloaded neck-loop drill avoid?",
         "answer": "Twisting the head relative to the shoulders. Keep the head aligned during slow enclosure practice; avoid both neck rotation and backward extension. Open the hands and remove the restraint immediately on any tap.",
-        "answer_line": "Twisting the head relative to the shoulders",
+        "answer_line": "Head twisting apart from shoulders",
         "distractors": {
           "plausible": [
-            "Turning the head and shoulders together as one unit",
-            "Moving the torso while the head follows in alignment"
+            "Head and shoulders turning together",
+            "Head following an aligned torso"
           ],
           "trap": [
-            "Allowing the whole body to turn after opening the grip"
+            "Whole body turns after grip release"
           ]
         },
         "safety_critical": true
@@ -366,14 +366,14 @@
       {
         "question": "Guillotine practice: after the choke is lost to a weak-side pass, which barrier helps recover guard?",
         "answer": "An inside bottom knee behind a shoulder frame. Once the choke has opened, the reviewed weak-side recovery uses a side angle, protection from the crossface and recovery of the bottom knee. It is a guard-recovery phase, not a renewed squeeze from the lost grip.",
-        "answer_line": "An inside bottom knee behind a shoulder frame",
+        "answer_line": "Inside knee behind a shoulder frame",
         "distractors": {
           "plausible": [
-            "Both hands pursuing the head while the knees stay outside",
-            "A neck crank while the opponent settles beyond your legs"
+            "Both hands chase head, knees outside",
+            "Neck crank after they clear the legs"
           ],
           "trap": [
-            "A flat torso with the near elbow reaching away from the knee"
+            "Flat torso, elbow away from knee"
           ]
         }
       }
@@ -493,53 +493,53 @@
         "answer_line": "Posture and inside hand position",
         "distractors": {
           "plausible": [
-            "Only the opponent's far ankle",
+            "Only their far ankle",
             "Only the sleeve beyond their elbow"
           ],
           "trap": [
-            "A deep backward lean after the grip closes"
+            "Lean backward once the grip closes"
           ]
         }
       },
       {
         "question": "Guillotine defense: which hand connection is the early hand-fighting target?",
         "answer": "The supporting hand joining the choking arm. Interrupt the hand connection before it becomes a closed enclosure.",
-        "answer_line": "The supporting hand joining the choking arm",
+        "answer_line": "Support hand joining the choke arm",
         "distractors": {
           "plausible": [
-            "Your own far hand resting on the mat",
-            "The opponent's hand reaching toward your lower ankle"
+            "Your far hand resting on the mat",
+            "Their hand reaching your low ankle"
           ],
           "trap": [
-            "The grip on your belt below both hips"
+            "A belt grip below both hips"
           ]
         }
       },
       {
         "question": "Guillotine defense: why should you avoid wrenching the head backward?",
         "answer": "A fixed forearm can hold the neck as you extend it. Do not wrench the head backward or rotate it against a fixed forearm.",
-        "answer_line": "A fixed forearm can hold the neck as you extend it",
+        "answer_line": "Fixed forearm loads neck extension",
         "distractors": {
           "plausible": [
-            "Extension always separates the opponent's hands",
-            "Raising the chin removes any neck contact"
+            "Extension separates their hands",
+            "Raising chin removes neck contact"
           ],
           "trap": [
-            "A head-only motion necessarily restores your whole posture"
+            "Head motion restores full posture"
           ]
         }
       },
       {
         "question": "Guillotine defense: when can frames and base help control the angle?",
         "answer": "Before both torso positions are fixed. Use frames and base before the attacker fixes the relationship between both torsos.",
-        "answer_line": "Before both torso positions are fixed",
+        "answer_line": "Before torso positions become fixed",
         "distractors": {
           "plausible": [
-            "Only after both arms fully seal the neck",
-            "While your head stays fixed and your torso spins away"
+            "Only after arms fully seal the neck",
+            "Head fixed while your torso spins"
           ],
           "trap": [
-            "After abandoning all inside hand contact"
+            "After losing all inside hand contact"
           ]
         }
       }

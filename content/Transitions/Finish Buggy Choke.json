@@ -191,14 +191,14 @@
       {
         "question": "Finish Buggy Choke (bottom): How can you shorten the initial reach to your leg?",
         "answer": "Use safe shoulder and hip frames to turn partly onto the side before reaching for the leg.",
-        "answer_line": "Use frames to turn partly onto your ribs",
+        "answer_line": "Frame to turn partly onto your ribs",
         "distractors": {
           "plausible": [
-            "Stay flat and drag the foot toward the face",
-            "Extend your hips away while lifting the linking arm"
+            "Stay flat, drag foot toward face",
+            "Extend hips away, lift linking arm"
           ],
           "trap": [
-            "Keep the shoulder flat as you stretch the elbow upward"
+            "Keep shoulder flat, stretch elbow up"
           ]
         }
       },
@@ -208,11 +208,11 @@
         "answer_line": "The opponent's head and one arm",
         "distractors": {
           "plausible": [
-            "Only the opponent's head with both arms outside",
-            "Their near arm with the head beyond your elbow"
+            "Only their head, both arms outside",
+            "Near arm inside, head beyond elbow"
           ],
           "trap": [
-            "Only your own calf with their head free"
+            "Only your calf, their head free"
           ]
         }
       },
@@ -223,38 +223,38 @@
         "distractors": {
           "plausible": [
             "Elbow extended away from the knee",
-            "Both knees pinched while the linking elbow stays wide"
+            "Knees pinched, linking elbow wide"
           ],
           "trap": [
-            "Hand close to the shin while the elbow stays flared"
+            "Hand by shin, elbow still flared"
           ]
         }
       },
       {
         "question": "Finish Buggy Choke (bottom): Which movement tightens the enclosure through the torso?",
         "answer": "The closing action draws the shoulder toward the hip while the arm-leg connection contains head and arm.",
-        "answer_line": "Shorten the distance from shoulder to hip",
+        "answer_line": "Shorten shoulder-to-hip distance",
         "distractors": {
           "plausible": [
             "Extend the ribs away from the hip",
-            "Lift the shoulder while keeping the hip stationary"
+            "Lift shoulder, hold hip stationary"
           ],
           "trap": [
-            "Slide the hips away while keeping your ribs extended"
+            "Slide hips away, keep ribs extended"
           ]
         }
       },
       {
         "question": "Finish Buggy Choke (bottom): After they disengage and the loop fails, what do you recover first?",
         "answer": "Use a disengaging opponent's movement to insert frames and knees if the choke is lost.",
-        "answer_line": "Inside frames and knees for facing guard",
+        "answer_line": "Frames and knees inside, facing them",
         "distractors": {
           "plausible": [
-            "Keep the same arm-leg grip while the shoulder line is flattened",
-            "Reach after the departing head before rebuilding an inside frame"
+            "Keep the grip as shoulders flatten",
+            "Chase head before restoring a frame"
           ],
           "trap": [
-            "Leave the knees outside and recover the old foot grip first"
+            "Knees out, recover old foot grip"
           ]
         }
       },
@@ -264,67 +264,67 @@
         "answer_line": "Open the whole loop and disengage",
         "distractors": {
           "plausible": [
-            "Open the clasp but keep your elbow hooked to the leg",
-            "Release the hip frame while retaining the choking loop"
+            "Unclasp hands, elbow still hooks leg",
+            "Release hip frame, keep choke loop"
           ],
           "trap": [
-            "Wait for the lifted position to stabilize before letting go"
+            "Wait for a stable lift to release"
           ]
         }
       },
       {
         "question": "Finish Buggy Choke (bottom): Why turn onto your side before trying to connect the arm and leg?",
         "answer": "Shoulder and hip frames permit a partial turn onto the ribs. That body angle brings elbow and knee closer without dragging the foot across a fixed knee.",
-        "answer_line": "It shortens the reach between the elbow and same-side knee",
+        "answer_line": "Shorter same-side elbow-knee reach",
         "distractors": {
           "plausible": [
-            "It lengthens the reaching arm while the knee stays distant",
-            "It moves the linking knee away from the shoulder"
+            "Longer reaching arm, knee stays far",
+            "Linking knee moves from shoulder"
           ],
           "trap": [
-            "It lets you keep the elbow wide once the hand connects"
+            "Hand connection lets elbow stay wide"
           ]
         }
       },
       {
         "question": "Finish Buggy Choke (bottom): Why must a half-guard version be checked separately?",
         "answer": "Top side control belongs to the choke defender. A half-guard finish requires its own leg configuration and is not automatically identical to the side-control setup.",
-        "answer_line": "Its leg relationship differs from the side-control setup",
+        "answer_line": "Its legs differ from side control",
         "distractors": {
           "plausible": [
-            "The free-leg path remains available even when that leg is trapped",
-            "The leg entanglement replaces the need for elbow-to-knee contact"
+            "Trapped leg keeps the same free path",
+            "Leg hook replaces elbow-knee contact"
           ],
           "trap": [
-            "The half-guard hook supplies the same enclosure as the raised leg"
+            "Half-guard hook supplies choke loop"
           ]
         }
       },
       {
         "question": "Finish Buggy Choke (bottom): Which adjustment threatens your own knee?",
         "answer": "Wrenching the foot against a fixed knee substitutes joint torque for correct shoulder-to-hip closure.",
-        "answer_line": "Pulling the foot hard while the knee stays fixed",
+        "answer_line": "Pulling foot against a fixed knee",
         "distractors": {
           "plausible": [
-            "Framing at the hip to make side angle",
-            "Bringing the shoulder closer to the hip"
+            "Framing at hip to make a side angle",
+            "Bringing shoulder toward the hip"
           ],
           "trap": [
-            "Releasing the loop when the partner rises"
+            "Releasing the loop as partner rises"
           ]
         }
       },
       {
         "question": "Finish Buggy Choke (bottom): What helps limit the top player's posture while you remain grounded?",
         "answer": "A forearm or shin across the hips can limit rising, but release immediately if the partner lifts you.",
-        "answer_line": "A forearm or shin frame across their hips",
+        "answer_line": "Forearm or shin frame across hips",
         "distractors": {
           "plausible": [
-            "A hand on their shoulder with their hips unframed",
-            "Your arm-leg clasp alone with no contact at their hips"
+            "Hand on shoulder, hips unframed",
+            "Arm-leg clasp without hip contact"
           ],
           "trap": [
-            "Your free knee beside their hip without crossing its path"
+            "Free knee by hip, no blocking frame"
           ]
         }
       }
@@ -438,70 +438,70 @@
       {
         "question": "Finish Buggy Choke (top): What early reach signals the bottom player's attack?",
         "answer": "Watch for an arm reaching past your head and connecting to the same-side leg.",
-        "answer_line": "Arm past your head toward their same-side leg",
+        "answer_line": "Arm past head toward same-side leg",
         "distractors": {
           "plausible": [
-            "Hand cupping your head with their leg still low",
-            "Both hands on their thigh with your head outside"
+            "Hand cups head, their leg still low",
+            "Hands on thigh, your head outside"
           ],
           "trap": [
-            "Knee rising beside your shoulder while the arm stays low"
+            "Knee by shoulder, arm stays low"
           ]
         }
       },
       {
         "question": "Finish Buggy Choke (top): How can you deny the connection before it closes?",
         "answer": "Use balanced posture and safe inside frames before the loop closes.",
-        "answer_line": "Maintain base and insert a frame inside the reaching path",
+        "answer_line": "Stable base and an inside frame",
         "distractors": {
           "plausible": [
-            "Keep both arms outside their reaching elbow",
-            "Reach for the far shoulder before framing the raised leg"
+            "Both arms outside their elbow",
+            "Reach far shoulder before framing"
           ],
           "trap": [
-            "Let the clasp close before trying to insert the frame"
+            "Let clasp close before framing"
           ]
         }
       },
       {
         "question": "Finish Buggy Choke (top): Why must you respect the choke from top side control?",
         "answer": "Treat the choke as live even though you hold top side control.",
-        "answer_line": "Your head and arm can still be enclosed from below",
+        "answer_line": "Head and arm can be trapped below",
         "distractors": {
           "plausible": [
-            "Your shoulder pin forces the raised knee away from the elbow",
-            "Your chest pressure opens their supporting arm connection first"
+            "Shoulder pin forces knee off elbow",
+            "Chest pressure opens their arm link"
           ],
           "trap": [
-            "Being beyond the knees keeps your neck outside the leg loop"
+            "Past knees means neck outside loop"
           ]
         }
       },
       {
         "question": "Finish Buggy Choke (top): What comes before circling to another pin?",
         "answer": "Free the head-and-arm enclosure before changing to north-south or chasing another pin.",
-        "answer_line": "Release of the enclosure around your head and arm",
+        "answer_line": "Full release of your head and arm",
         "distractors": {
           "plausible": [
-            "A deeper crossface while the loop stays closed",
+            "Deeper crossface, loop stays closed",
             "One foot stepping past their head"
           ],
           "trap": [
-            "An open hand clasp with the elbow still hooked to the leg"
+            "Hand clasp open, elbow on leg"
           ]
         }
       },
       {
         "question": "Finish Buggy Choke (top): Which response avoids turning defense into a fall or knee injury?",
         "answer": "Avoid lifting, dropping, or twisting the partner's trapped leg to force an escape.",
-        "answer_line": "Keep a grounded base and signal release if secured",
+        "answer_line": "Stay grounded; tap if secured",
         "distractors": {
           "plausible": [
-            "Stand with the loop attached to stretch their reaching arm",
-            "Peel the linked foot while holding its knee in place"
+            "Stand attached to stretch their arm",
+            "Peel foot with their knee held still"
           ],
           "trap": [
-            "Circle your base while leaving your head fixed inside"
+            "Circle base around your fixed head"
           ]
         }
       }

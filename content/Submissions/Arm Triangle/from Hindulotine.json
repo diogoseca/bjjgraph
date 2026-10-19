@@ -241,11 +241,11 @@
         "answer_line": "Across the front of their neck",
         "distractors": {
           "plausible": [
-            "Your high guard leg stays between their chin and shoulder",
-            "Their two arms remain outside a head-only loop"
+            "High shin between chin and shoulder",
+            "Both arms outside a head-only loop"
           ],
           "trap": [
-            "Their wrist is held near their hip with the head free"
+            "Wrist at their hip, head left free"
           ]
         }
       },
@@ -255,11 +255,11 @@
         "answer_line": "On the opposite side of the neck",
         "distractors": {
           "plausible": [
-            "On the same side as the trapped shoulder",
-            "Below the chest, clear of both sides of the neck"
+            "Alongside the captured shoulder",
+            "Below chest, clear of the neck"
           ],
           "trap": [
-            "Across the jaw to turn the head away from the shoulder"
+            "Across jaw, turning the head away"
           ]
         }
       },
@@ -269,8 +269,8 @@
         "answer_line": "Returning between your two bodies",
         "distractors": {
           "plausible": [
-            "Remaining across the opponent's neck",
-            "Keeping its elbow at a comfortable bend"
+            "Staying across their neck",
+            "Remaining comfortably bent"
           ],
           "trap": [
             "Staying enclosed beside the head"
@@ -280,42 +280,42 @@
       {
         "question": "Arm Triangle attack: what should joining the supporting hand preserve?",
         "answer": "A closed arm loop with the neck aligned. Close the arm loop without changing the neck into a twisting position.",
-        "answer_line": "A closed arm loop with the neck aligned",
+        "answer_line": "Closed loop with the neck aligned",
         "distractors": {
           "plausible": [
-            "A sideways head twist against the shoulder",
-            "A head-only loop with the opposing arm outside"
+            "Head twisted toward the shoulder",
+            "Head-only loop, trapped arm outside"
           ],
           "trap": [
-            "A long gap between the shoulder and neck"
+            "A gap between shoulder and neck"
           ]
         }
       },
       {
         "question": "Arm Triangle attack: how should you reduce space around the trapped shoulder?",
         "answer": "Adjust your body angle in a small controlled movement. Remove space around the shoulder through a small positional adjustment rather than a forceful squeeze.",
-        "answer_line": "Adjust your body angle in a small controlled movement",
+        "answer_line": "Make a small body-angle adjustment",
         "distractors": {
           "plausible": [
-            "Squeeze harder while keeping the same loose angle",
-            "Pull the chin backward to replace the shoulder contact"
+            "Squeeze harder at the loose angle",
+            "Pull chin back instead of shoulder"
           ],
           "trap": [
-            "Straighten the trapped elbow as far as possible"
+            "Straighten the trapped elbow fully"
           ]
         }
       },
       {
         "question": "Arm Triangle attack: how do you remove the restraint on a tap?",
         "answer": "Open the arm loop and unload the trapped shoulder. Open the arm loop and take pressure off the trapped shoulder immediately.",
-        "answer_line": "Open the arm loop and unload the trapped shoulder",
+        "answer_line": "Open loop; unload the shoulder",
         "distractors": {
           "plausible": [
-            "Loosen one finger while keeping chest pressure fixed",
-            "Stop moving but retain the closed head-and-arm grip"
+            "Loosen a finger, keep chest pressure",
+            "Stop moving with the grip closed"
           ],
           "trap": [
-            "Lift their head while their shoulder stays compressed"
+            "Lift head, shoulder still compressed"
           ]
         },
         "safety_critical": true
@@ -323,42 +323,42 @@
       {
         "question": "Arm Triangle after Hindu Control: what common upper-body position supports the new choke?",
         "answer": "A settled top pin beside the opponent's torso. Establish the new pin and head-and-arm access separately. Hindu Control does not already supply the arm-triangle configuration.",
-        "answer_line": "A settled top pin beside the opponent's torso",
+        "answer_line": "A stable top pin beside their torso",
         "distractors": {
           "plausible": [
-            "Facing high guard with only the old raised-foot loop",
-            "A rear ride with both of their arms outside"
+            "High guard with the old foot loop",
+            "Rear ride with both arms outside"
           ],
           "trap": [
-            "A loose seated leg entanglement away from the shoulders"
+            "Loose leg entanglement far from head"
           ]
         }
       },
       {
         "question": "Arm Triangle after Hindu Control: which old limb is not part of the new choking structure?",
         "answer": "The raised rubber-guard leg from the original hold. The new choke uses an arm loop and the opponent's shoulder. The original high leg must be released or rearranged during the separately established position change.",
-        "answer_line": "The raised rubber-guard leg from the original hold",
+        "answer_line": "The original raised guard leg",
         "distractors": {
           "plausible": [
-            "The opponent's shoulder beside the neck",
-            "The attacking upper arm forming one side"
+            "Their shoulder beside the neck",
+            "Your attacking upper arm"
           ],
           "trap": [
-            "The supporting arm completing the head enclosure"
+            "The arm supporting the head loop"
           ]
         }
       },
       {
         "question": "Arm Triangle practice: which head movement must be avoided as the enclosure closes?",
         "answer": "Twisting the head away from its spinal alignment. Remove space by positioning the enclosing arm and shoulder, not by cranking the neck. Keep the practice unloaded until the geometry and release are clear.",
-        "answer_line": "Twisting the head away from its spinal alignment",
+        "answer_line": "Head twisted out of spinal alignment",
         "distractors": {
           "plausible": [
-            "Letting the head follow a small aligned torso adjustment",
-            "Keeping the face neutral as the shoulder space narrows"
+            "Head following an aligned body turn",
+            "Neutral face as shoulder gap closes"
           ],
           "trap": [
-            "Allowing the partner's head to move with the shoulders"
+            "Head moving with the shoulder line"
           ]
         },
         "safety_critical": true
@@ -366,14 +366,14 @@
       {
         "question": "Arm Triangle practice: what supplies compression opposite your attacking upper arm?",
         "answer": "The opponent's own shoulder beside their neck. The attacking upper arm closes one side of the neck while the opponent's own shoulder closes the other. Establish this separate arm-and-shoulder arrangement after releasing the original leg-in enclosure.",
-        "answer_line": "The opponent's own shoulder beside their neck",
+        "answer_line": "Their own shoulder beside the neck",
         "distractors": {
           "plausible": [
-            "Your raised shin replacing the head-and-arm connection",
-            "The opponent's jaw as a twisting lever"
+            "Your shin replacing the arm loop",
+            "Their jaw used as a turning lever"
           ],
           "trap": [
-            "Your free hand pulling the forehead backward"
+            "Your hand pulling forehead backward"
           ]
         }
       }
@@ -490,42 +490,42 @@
       {
         "question": "Arm Triangle defense: what is the early recovery target before your arm crosses the neck?",
         "answer": "Bring the elbow back into the space between you. Recover the arm before it crosses the neck and becomes enclosed.",
-        "answer_line": "Bring the elbow back into the space between you",
+        "answer_line": "Recover the elbow to inside space",
         "distractors": {
           "plausible": [
-            "Reach the same elbow farther across your face",
-            "Post the captured hand beyond the attacker's shoulder"
+            "Reach elbow farther across the face",
+            "Post held hand beyond their shoulder"
           ],
           "trap": [
-            "Hold the elbow overhead while turning the head away"
+            "Hold elbow overhead and turn head"
           ]
         }
       },
       {
         "question": "Arm Triangle defense: where should an early frame maintain a gap?",
         "answer": "Between your shoulder and the side of your head. Maintain an early frame between the shoulder and head while the loop is still open.",
-        "answer_line": "Between your shoulder and the side of your head",
+        "answer_line": "Between shoulder and side of head",
         "distractors": {
           "plausible": [
-            "Only beneath the attacker's far knee",
+            "Only beneath their far knee",
             "Behind your own lower back"
           ],
           "trap": [
-            "Across the opponent's foot by your hip"
+            "Across their foot beside your hip"
           ]
         }
       },
       {
         "question": "Arm Triangle defense: which two surfaces form the threat at your neck?",
         "answer": "Their upper arm on one side and your shoulder on the other. An upper arm beside the neck plus your own shoulder on the other side is the key threat.",
-        "answer_line": "Their upper arm on one side and your shoulder on the other",
+        "answer_line": "Their upper arm and your shoulder",
         "distractors": {
           "plausible": [
             "Both of their shins beneath your jaw",
             "Your calf against their forearm"
           ],
           "trap": [
-            "Two collar grips behind the same ear"
+            "Two collar grips behind one ear"
           ]
         }
       },
@@ -535,25 +535,25 @@
         "answer_line": "Move hips and shoulders together",
         "distractors": {
           "plausible": [
-            "Turn only the head against the fixed shoulder",
-            "Pull the neck backward while the torso stays pinned"
+            "Turn head against a fixed shoulder",
+            "Pull neck back with torso pinned"
           ],
           "trap": [
-            "Straighten the trapped arm to lift the chin"
+            "Straighten held arm to lift the chin"
           ]
         }
       },
       {
         "question": "Arm Triangle defense: what should you do once the neck enclosure is secure?",
         "answer": "Tap before dizziness or impaired awareness. Stop before dizziness or impaired awareness instead of treating top position as a prerequisite for danger.",
-        "answer_line": "Tap before dizziness or impaired awareness",
+        "answer_line": "Tap before awareness is impaired",
         "distractors": {
           "plausible": [
-            "Wait for the attacker to occupy full mount",
-            "Continue until the trapped shoulder becomes painful"
+            "Wait for the attacker to reach mount",
+            "Continue until shoulder pain starts"
           ],
           "trap": [
-            "Assume it is harmless unless the attacker is standing"
+            "Assume safety unless they stand"
           ]
         }
       }

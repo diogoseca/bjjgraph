@@ -194,42 +194,42 @@
       {
         "question": "Granby Roll to Guard (bottom): What must you do if lifted while holding the Buggy loop?",
         "answer": "Let go when the partner begins lifting you from the mat; do not hang from the choke or invite a slam.",
-        "answer_line": "Open the arm-leg connection and disengage",
+        "answer_line": "Open arm-leg loop and disengage",
         "distractors": {
           "plausible": [
-            "Unclasp the hands but retain the hooked elbow",
-            "Remove the hip frame while keeping the leg loop shut"
+            "Unclasp hands, retain hooked elbow",
+            "Remove hip frame, keep loop closed"
           ],
           "trap": [
-            "Wait until your torso is level before releasing"
+            "Wait for torso to level to release"
           ]
         }
       },
       {
         "question": "Granby Roll to Guard (bottom): After release, what creates space for a knee to return?",
         "answer": "Use forearm frames and lateral hip movement to make space before bringing a knee between the bodies.",
-        "answer_line": "Shoulder and hip frames with a short hip escape",
+        "answer_line": "Shoulder/hip frames and a hip escape",
         "distractors": {
           "plausible": [
-            "Both hands chasing the lost foot grip",
-            "A straight-arm push with the hips left pinned"
+            "Chase lost foot grip with both hands",
+            "Push on straight arms, hips pinned"
           ],
           "trap": [
-            "Move the shoulders while keeping both hips pinned"
+            "Move shoulders, leave hips pinned"
           ]
         }
       },
       {
         "question": "Granby Roll to Guard (bottom): What separate condition is needed before a shoulder roll?",
         "answer": "Use a shoulder roll only if a coach has established safe space and an untrapped upper back.",
-        "answer_line": "Free head and limbs with an unobstructed shoulder path",
+        "answer_line": "Free head, limbs and shoulder path",
         "distractors": {
           "plausible": [
-            "A free head while one arm remains pinned beneath the chest",
-            "Free limbs while the near shoulder stays pinned flat"
+            "Head free, arm pinned under chest",
+            "Limbs free, near shoulder pinned"
           ],
           "trap": [
-            "An open shoulder path with the old arm-leg loop still linked"
+            "Shoulder path clear, old loop linked"
           ]
         }
       },
@@ -239,123 +239,123 @@
         "answer_line": "The shoulder and upper back",
         "distractors": {
           "plausible": [
-            "The neck first, then the far shoulder",
-            "The point of the elbow beneath your ribs"
+            "Neck first, then the far shoulder",
+            "Point of elbow beneath your ribs"
           ],
           "trap": [
-            "The lower back with both shoulders kept flat"
+            "Lower back, both shoulders flat"
           ]
         }
       },
       {
         "question": "Granby Roll to Guard (bottom): What do you insert when facing space opens?",
         "answer": "Face the opponent and insert the legs when the space opens.",
-        "answer_line": "Knees and legs between your torso and the opponent",
+        "answer_line": "Legs between your torso and opponent",
         "distractors": {
           "plausible": [
-            "Feet outside their hips with both knees pointing away",
-            "Both knees beside their ribs rather than between the bodies"
+            "Feet outside hips, knees facing away",
+            "Knees by ribs, not between bodies"
           ],
           "trap": [
-            "Hands on their shoulders with the knees still outside"
+            "Hands on shoulders, knees outside"
           ]
         }
       },
       {
         "question": "Granby Roll to Guard (bottom): What confirms a basic closed-guard landing after recovery?",
         "answer": "Stabilize open or closed guard according to the available leg connection rather than assuming either result. In a basic closed-guard landing you face the opponent with your legs enclosing the torso and your ankles crossed behind. Knees inside with unjoined feet establish an open guard instead; neither landing follows automatically from a roll.",
-        "answer_line": "Legs around their torso with your ankles crossed behind",
+        "answer_line": "Legs wrap torso; ankles cross behind",
         "distractors": {
           "plausible": [
-            "Knees inside with both feet separate on their hips",
-            "Ankles crossed around only one of their thighs"
+            "Knees inside, feet apart on hips",
+            "Ankles crossed round just one thigh"
           ],
           "trap": [
-            "Knees beside their ribs with both feet dangling apart"
+            "Knees by ribs, feet dangling apart"
           ]
         }
       },
       {
         "question": "Granby Roll to Guard (bottom): What prevents forcing a roll from the original setup?",
         "answer": "The bottom player must have space to move over the shoulder without a trapped neck, arm or knee.",
-        "answer_line": "A neck, arm or knee still fixed in the exchange",
+        "answer_line": "A neck, arm or knee still fixed",
         "distractors": {
           "plausible": [
-            "A free arm beside an unpinned shoulder",
-            "Space between the hips after the loop opens"
+            "Free arm beside unpinned shoulder",
+            "Space at hips after the loop opens"
           ],
           "trap": [
-            "The head and arms moving freely with the upper back"
+            "Head and arms move with upper back"
           ]
         }
       },
       {
         "question": "Granby reset after Buggy (bottom): Why use a hip escape when the shoulder path remains blocked?",
         "answer": "The sourced fallback is framed guard recovery when the choke opens. If chest pressure blocks a freely moving shoulder path, use a short hip escape and recover knee space instead of forcing the proposed roll.",
-        "answer_line": "Frames make knee space without rolling the pinned torso",
+        "answer_line": "Frames make knee room without a roll",
         "distractors": {
           "plausible": [
-            "Hip movement clears the pinned shoulder without any frame",
-            "Knee recovery requires rolling over the blocked shoulder first"
+            "Hip movement alone frees shoulder",
+            "Roll blocked shoulder to return knee"
           ],
           "trap": [
-            "The closed Buggy grip supplies the frame needed for a hip escape"
+            "Closed Buggy grip supplies the frame"
           ]
         }
       },
       {
         "question": "Granby Roll to Guard (bottom): The shoulder path closes under chest pressure. What is appropriate?",
         "answer": "A shoulder roll remains conditional; when space closes, return to framed guard recovery.",
-        "answer_line": "Rebuild frames and knee space instead of forcing the roll",
+        "answer_line": "Restore frames and inside knee space",
         "distractors": {
           "plausible": [
-            "Start the roll before the shoulder pin settles fully",
-            "Move the hips over while leaving the blocked arm underneath"
+            "Start roll before shoulder pin sets",
+            "Move hips over the still-pinned arm"
           ],
           "trap": [
-            "Keep the old leg grip and try the opposite rolling direction"
+            "Keep old grip, roll the other way"
           ]
         }
       },
       {
         "question": "Granby Roll to Guard (bottom): What is the first grounded recovery checkpoint after releasing?",
         "answer": "Re-establish frames and hip mobility before considering any shoulder roll or guard closure.",
-        "answer_line": "Forearms between the bodies with room to move the hips",
+        "answer_line": "Inside forearms and mobile hips",
         "distractors": {
           "plausible": [
-            "A hip shift with both forearms still outside the opponent",
-            "A hand on the shoulder with the near hip still pinned"
+            "Shift hips with forearms outside",
+            "Hand on shoulder, near hip pinned"
           ],
           "trap": [
-            "A returning knee while both hands chase the released leg"
+            "Knee returning, hands chase old leg"
           ]
         }
       },
       {
         "question": "Granby Roll to Guard (bottom): One arm is still pinned. What must happen before rolling?",
         "answer": "Confirm that the captured neck or limb can move freely. Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.",
-        "answer_line": "Free the arm so it can follow the body",
+        "answer_line": "Free arm to follow your body",
         "distractors": {
           "plausible": [
-            "Rotate the chest while leaving the wrist fixed",
-            "Shift your hips first and let the pinned arm follow later"
+            "Turn chest with wrist still fixed",
+            "Move hips first, free arm later"
           ],
           "trap": [
-            "Free the head while leaving the arm beneath their chest"
+            "Free head, arm still under chest"
           ]
         }
       },
       {
         "question": "Granby Roll to Guard (bottom): What confirms guard recovery after any allowed movement?",
         "answer": "Check the final body relationship: the opponent should face your frames and legs, not have unobstructed torso access.",
-        "answer_line": "Facing the opponent with a usable leg barrier",
+        "answer_line": "Facing them behind a leg barrier",
         "distractors": {
           "plausible": [
-            "Landing on the knees while facing away",
-            "Passing the head under them with no knee inside"
+            "Land on knees while facing away",
+            "Head passes under, no knee inside"
           ],
           "trap": [
-            "Completing one roll regardless of where the legs land"
+            "Finish a roll wherever the legs land"
           ]
         }
       }
@@ -469,70 +469,70 @@
       {
         "question": "Granby Roll to Guard (top): Which bottom-player motion needs early attention?",
         "answer": "Watch for an arm reaching past your head and connecting to the same-side leg.",
-        "answer_line": "Their arm reaches around your head toward their leg",
+        "answer_line": "Arm past head toward same-side leg",
         "distractors": {
           "plausible": [
-            "Their arm cups your head while their leg stays low",
-            "Their knee rises with the linking arm still below your chest"
+            "Arm cups head, their leg stays low",
+            "Knee rises, linking arm below chest"
           ],
           "trap": [
-            "Their hand grips their knee with your head outside"
+            "Hand on knee, your head outside"
           ]
         }
       },
       {
         "question": "Granby Roll to Guard (top): Before the loop closes, what can obstruct it?",
         "answer": "Use balanced posture and safe inside frames before the loop closes.",
-        "answer_line": "Supported posture and a safe inside frame",
+        "answer_line": "Supported base and an inside frame",
         "distractors": {
           "plausible": [
-            "A frame outside their linking arm with the inside path open",
-            "A crossface reach while both knees drift off the mat"
+            "Outside frame, inside path open",
+            "Crossface reach, knees off the mat"
           ],
           "trap": [
-            "A hand checking the hip after the head loop closes"
+            "Check hip after head loop closes"
           ]
         }
       },
       {
         "question": "Granby Roll to Guard (top): Why is your neck still a concern while you are on top?",
         "answer": "Treat the choke as live even though you hold top side control.",
-        "answer_line": "The bottom arm-leg loop can enclose it",
+        "answer_line": "Bottom arm-leg loop can enclose neck",
         "distractors": {
           "plausible": [
-            "The top shoulder pin keeps the linking elbow away",
-            "Their hip movement proves the hand-leg connection has opened"
+            "Top shoulder pin keeps elbow away",
+            "Hip motion proves hand-leg release"
           ],
           "trap": [
-            "The hip pin stops the raised leg reaching your head"
+            "Hip pin stops leg reaching your head"
           ]
         }
       },
       {
         "question": "Granby Roll to Guard (top): What must happen before following their movement to a new pin?",
         "answer": "Free the head-and-arm enclosure before changing to north-south or chasing another pin.",
-        "answer_line": "Your head and arm clear the existing loop",
+        "answer_line": "Head and arm clear the old loop",
         "distractors": {
           "plausible": [
             "Only their hips turn toward the mat",
-            "Your far knee steps outside their leg"
+            "Far knee steps outside their leg"
           ],
           "trap": [
-            "Your chin presses tightly into the chest"
+            "Chin presses tightly into the chest"
           ]
         }
       },
       {
         "question": "Granby Roll to Guard (top): How should you respond if the loop is secured?",
         "answer": "Avoid lifting, dropping, or twisting the partner's trapped leg to force an escape.",
-        "answer_line": "Keep a stable base and tap for release",
+        "answer_line": "Stable base and a tap for release",
         "distractors": {
           "plausible": [
-            "Keep the base and wait for the hand grip to tire",
-            "Circle toward the head with your neck held in place"
+            "Hold base, wait for grip fatigue",
+            "Circle toward head with neck fixed"
           ],
           "trap": [
-            "Open only the hand clasp and continue turning"
+            "Open just the clasp, keep turning"
           ]
         }
       }

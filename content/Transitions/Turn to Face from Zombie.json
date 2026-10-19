@@ -212,140 +212,140 @@
       {
         "question": "Turn to Face from Zombie (bottom): Which way are the players facing before this reset?",
         "answer": "The basic Zombie pummel already occurs in facing guard; no rear-control escape is established by this node's name.",
-        "answer_line": "Toward each other in a high-guard hand exchange",
+        "answer_line": "Toward each other in high guard",
         "distractors": {
           "plausible": [
-            "Both facing away with the opponent behind you",
-            "You chest-down beneath a turtle ride"
+            "Same way, with opponent behind you",
+            "Chest down beneath a turtle ride"
           ],
           "trap": [
-            "Across each other with their chest beside your ribs"
+            "Across each other in a side pin"
           ]
         }
       },
       {
         "question": "Turn to Face from Zombie (bottom): What must open before turning out of the high connection?",
         "answer": "Release joint or neck loading and open the high leg before changing the hip angle for guard recovery.",
-        "answer_line": "Any loaded neck or isolated-arm enclosure",
+        "answer_line": "Loaded neck or trapped-arm loop",
         "distractors": {
           "plausible": [
-            "Only your free foot while the shoulder stays fixed",
-            "Only your grip on the pummeling wrist"
+            "Only free foot; shoulder still fixed",
+            "Only grip on the pummeling wrist"
           ],
           "trap": [
-            "Only the high ankle crossing with the arm wrap still loaded"
+            "Only ankle cross; arm wrap loaded"
           ]
         }
       },
       {
         "question": "Turn to Face from Zombie (bottom): How should the high leg return toward the floor?",
         "answer": "Use the hip to guide the leg down comfortably instead of pulling the ankle across a stationary knee.",
-        "answer_line": "Lower it through space created by the hip angle",
+        "answer_line": "Lower through hip-created space",
         "distractors": {
           "plausible": [
-            "Keep the knee pinned and drag the foot outward",
-            "Extend the leg into the opponent's shoulder"
+            "Knee pinned, drag the foot outward",
+            "Extend leg into their shoulder"
           ],
           "trap": [
-            "Flatten the hips while keeping the high ankle pulled"
+            "Flatten hips with high ankle pulled"
           ]
         }
       },
       {
         "question": "Turn to Face from Zombie (bottom): What should move inside as the high leg opens?",
         "answer": "Replace the high connection with a facing guard barrier so the opponent cannot fill the gap with chest pressure.",
-        "answer_line": "The forearms and knees protecting your torso",
+        "answer_line": "Forearms and knees guard the torso",
         "distractors": {
           "plausible": [
-            "Both arms reaching behind their head",
-            "Both feet trailing outside their hips"
+            "Both arms reach behind their head",
+            "Both feet trail outside their hips"
           ],
           "trap": [
-            "Inside hands with both elbows left beyond their arms"
+            "Hands inside, elbows outside arms"
           ]
         }
       },
       {
         "question": "Turn to Face from Zombie (bottom): What should stay oriented toward the opponent?",
         "answer": "Keep a facing torso while the hips make space and the knee returns; turning only the head does not rebuild guard.",
-        "answer_line": "Your shoulders and hips during knee recovery",
+        "answer_line": "Shoulders and hips as knee returns",
         "distractors": {
           "plausible": [
-            "Only your face while both hips turn away",
-            "Only the feet while the chest faces the floor"
+            "Only face, both hips turned away",
+            "Only feet, with chest facing floor"
           ],
           "trap": [
-            "The shoulders toward them with your hips turned away"
+            "Shoulders face them, hips turn away"
           ]
         }
       },
       {
         "question": "Turn to Face from Zombie (bottom): Their shoulder reaches across your face; where frame?",
         "answer": "An inside forearm blocks the developing crossface while you recover knee room with a small hip escape.",
-        "answer_line": "Inside against the approaching shoulder",
+        "answer_line": "Inside their approaching shoulder",
         "distractors": {
           "plausible": [
-            "Behind their shoulder with the elbow outside",
-            "Across their back with both hands joined"
+            "Behind shoulder with elbow outside",
+            "Across their back with hands clasped"
           ],
           "trap": [
-            "Low on their ribs after their shoulder reaches your head"
+            "At ribs after shoulder reaches head"
           ]
         }
       },
       {
         "question": "Turn to Face from Zombie (bottom): What makes room for the knee after release?",
         "answer": "The frame preserves space while a short shrimp shifts the hips enough to return the knee between the bodies.",
-        "answer_line": "Lateral hip movement behind the shoulder frame",
+        "answer_line": "Hip moves sideways behind the frame",
         "distractors": {
           "plausible": [
-            "Pulling their wrist while your hips stay pinned",
-            "Turning your back and leaving both knees outside"
+            "Pull wrist while hips stay pinned",
+            "Turn back, both knees left outside"
           ],
           "trap": [
-            "A hip slide after letting the shoulder frame collapse"
+            "Slide hips after the frame falls"
           ]
         }
       },
       {
         "question": "Turn to Face from Zombie (bottom): What must a true turn from rear control have first?",
         "answer": "A genuine rear-control turn requires rear attachment; the facing Zombie pummel does not supply that starting relationship.",
-        "answer_line": "An opponent actually attached behind the torso",
+        "answer_line": "Opponent attached behind your torso",
         "distractors": {
           "plausible": [
-            "An opponent holding an overhook while facing your chest",
-            "An opponent's arm around your head from in front"
+            "Overhook while facing your chest",
+            "Their arm round your head from front"
           ],
           "trap": [
-            "An opponent beside your hips with both chests facing each other"
+            "Beside hips with chests facing"
           ]
         }
       },
       {
         "question": "Turn to Face from Zombie (bottom): Chest pressure fills the gap; what precedes another overhook?",
         "answer": "Guard retention takes priority when torso space is lost; rebuild knee room behind the frame before chasing New York again.",
-        "answer_line": "Restore the inside knee and forearm barrier",
+        "answer_line": "Restore inside knee and forearm wall",
         "distractors": {
           "plausible": [
-            "Wrap the arm while both knees remain passed",
-            "Pull their head closer with both hands"
+            "Wrap arm with both knees passed",
+            "Both hands pull their head closer"
           ],
           "trap": [
-            "Recover the wrist before replacing the missing knee barrier"
+            "Recover wrist before missing knee"
           ]
         }
       },
       {
         "question": "Turn to Face from Zombie (bottom): What confirms that the facing reset has worked?",
         "answer": "The restored knee-and-forearm barrier, not a head turn alone, confirms the supported guard-recovery checkpoint.",
-        "answer_line": "Knees inside with the torso still facing the opponent",
+        "answer_line": "Facing them, knees and forearms in",
         "distractors": {
           "plausible": [
-            "Your face turns but their chest still pins your ribs",
-            "Your hands are free while both knees trail outside"
+            "Face turns, chest still pins ribs",
+            "Hands free, both knees trail outside"
           ],
           "trap": [
-            "Hips facing them with the near knee outside their shoulder"
+            "Hips face them, knee stays outside"
           ]
         }
       }
@@ -445,10 +445,10 @@
         "distractors": {
           "plausible": [
             "Outside on the mat beyond their hip",
-            "Wrapped behind their back with the elbow high"
+            "Behind their back with elbow high"
           ],
           "trap": [
-            "Hand against their chest with the elbow outside their knee"
+            "Hand on chest, elbow outside knee"
           ]
         }
       },
@@ -458,53 +458,53 @@
         "answer_line": "Move hand and elbow back together",
         "distractors": {
           "plausible": [
-            "Pull only the hand while the elbow stays wide",
-            "Lift only the shoulder with the hand still pinned"
+            "Pull only hand, elbow stays wide",
+            "Lift shoulder, hand still pinned"
           ],
           "trap": [
-            "Extend the elbow forward while drawing the wrist inward"
+            "Elbow forward as wrist draws inward"
           ]
         }
       },
       {
         "question": "Turn to Face from Zombie (top): Which movement identifies their next arm-clearing attempt?",
         "answer": "The under-hand entry is the cue to recover inside arm position before the knee hug covers the cleared arm.",
-        "answer_line": "The free hand starting beneath your hand",
+        "answer_line": "Their free hand starts beneath yours",
         "distractors": {
           "plausible": [
-            "Their knee returning low between the bodies",
-            "Their high leg already resting on the mat"
+            "Knee returns low between the bodies",
+            "High leg already rests on the mat"
           ],
           "trap": [
-            "Their hand moving around your head after the knee hug closes"
+            "Hand circles head after knee hug"
           ]
         }
       },
       {
         "question": "Turn to Face from Zombie (top): When should the elbow return toward your ribs?",
         "answer": "Recover the elbow through available slack; do not pull against a fixed shoulder in the high enclosure.",
-        "answer_line": "When the shoulder has space within the opened leg",
+        "answer_line": "Shoulder has space in the opened leg",
         "distractors": {
           "plausible": [
-            "Whenever their pummeling hand changes direction",
-            "Whenever your free hand has a solid post"
+            "Whenever their pummel changes course",
+            "Whenever free hand has a solid post"
           ],
           "trap": [
-            "When the wrist is loose but the thigh still clamps the elbow"
+            "Wrist loose, thigh clamps elbow"
           ]
         }
       },
       {
         "question": "Turn to Face from Zombie (top): What must release before you raise the chest?",
         "answer": "Posture recovery follows upper-body clearance; the opponent turning their hips or recovering a knee does not alone free your neck.",
-        "answer_line": "The high leg's hold on your head and isolated arm",
+        "answer_line": "High-leg hold on head and arm",
         "distractors": {
           "plausible": [
-            "Only their free foot from the mat",
-            "Only their fingertips from your palm"
+            "Only their free foot leaves the mat",
+            "Only fingertips leave your palm"
           ],
           "trap": [
-            "Only the second leg while the controlling shin stays tight"
+            "Only second leg; first shin tight"
           ]
         }
       }

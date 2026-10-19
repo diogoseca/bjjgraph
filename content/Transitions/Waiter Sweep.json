@@ -203,140 +203,140 @@
       {
         "question": "Waiter Sweep (bottom): Where should your shoulder go to establish deep half?",
         "answer": "Bring the shoulder under the hip while controlling the leg and protecting the exposed arm.",
-        "answer_line": "Under the opponent's hip while you control a leg",
+        "answer_line": "Under their hip with leg control",
         "distractors": {
           "plausible": [
-            "Beside the hip with your shoulder outside their thigh",
-            "Under the lower shin with your head outside the knee"
+            "Beside hip, shoulder outside thigh",
+            "Under shin, head outside their knee"
           ],
           "trap": [
-            "Under their chest with both hips beyond your reach"
+            "Under chest, both hips out of reach"
           ]
         }
       },
       {
         "question": "Waiter Sweep (bottom): Why shift the opponent's weight before lifting the leg?",
         "answer": "Shift the opponent's weight enough to make the controlled leg available for elevation.",
-        "answer_line": "To make the controlled leg light enough to elevate",
+        "answer_line": "To lighten the leg for elevation",
         "distractors": {
           "plausible": [
-            "To keep their full weight on the leg you plan to lift",
-            "To make the arm shelf unnecessary once they lean"
+            "To keep full weight on target leg",
+            "To avoid needing the arm shelf"
           ],
           "trap": [
-            "To lift before their weight can leave the controlled foot"
+            "To lift before weight leaves foot"
           ]
         }
       },
       {
         "question": "Waiter Sweep (bottom): What forms the waiter shelf?",
         "answer": "Support the lower leg with the arm and shoulder connection while using the legs to help lift.",
-        "answer_line": "Arm and shoulder supporting the elevated lower leg",
+        "answer_line": "Arm and shoulder hold lower leg up",
         "distractors": {
           "plausible": [
-            "Your hand beneath the heel while your shoulder stays clear of the leg",
-            "Your shoulder beside the thigh with the lower leg still on the mat"
+            "Hand under heel, shoulder clear",
+            "Shoulder by thigh, lower leg on mat"
           ],
           "trap": [
-            "Your forearm across the shin while your shoulder stays outside"
+            "Forearm on shin, shoulder outside"
           ]
         }
       },
       {
         "question": "Waiter Sweep (bottom): In Valle's gi version, which grip captures the posting arm?",
         "answer": "Use an appropriate sleeve grip in gi or a suitable arm connection without assuming the same grip exists in no-gi.",
-        "answer_line": "Control of the relevant sleeve",
+        "answer_line": "Grip the posting arm's sleeve",
         "distractors": {
           "plausible": [
-            "A collar grip alone with the posting arm free",
-            "Both hands remaining under the elevated leg"
+            "Collar alone, posting arm free",
+            "Both hands under elevated leg"
           ],
           "trap": [
-            "A trouser-cuff grip while the supporting hand remains free"
+            "Trouser cuff, supporting hand free"
           ]
         }
       },
       {
         "question": "Waiter Sweep (bottom): What must cooperate to tip the base?",
         "answer": "Coordinate leg elevation and post control rather than trying to bench-press the opponent.",
-        "answer_line": "Leg elevation and control of the available post",
+        "answer_line": "Leg elevation with post control",
         "distractors": {
           "plausible": [
-            "Arm strength alone with the hips motionless",
-            "Releasing the lifted leg while pulling the collar"
+            "Arm force alone, hips motionless",
+            "Drop lifted leg, pull the collar"
           ],
           "trap": [
-            "Lifting the leg while the tipping-side hand remains free"
+            "Lift leg, tipping-side hand free"
           ]
         }
       },
       {
         "question": "Waiter Sweep (bottom): You come on top with a leg still caught. What next?",
         "answer": "Follow the hips to a stable top position; pass the remaining leg only if that separate opening exists.",
-        "answer_line": "Stabilize top half guard before a separate pass",
+        "answer_line": "Settle top half guard before passing",
         "distractors": {
           "plausible": [
-            "Count side control without freeing the leg",
-            "Reach across to the far shoulder while abandoning hip control"
+            "Count side pin with leg still caught",
+            "Reach far shoulder, drop hip control"
           ],
           "trap": [
-            "Pull the caught leg out before establishing top balance"
+            "Pull leg free before top balance"
           ]
         }
       },
       {
         "question": "Waiter Sweep (bottom): What distinguishes the starting hip relationship?",
         "answer": "The bottom player is underneath the opponent's hips in deep half guard with one leg available to be lifted and supported.",
-        "answer_line": "You are beneath their hips with one leg available to lift",
+        "answer_line": "Under their hips, one leg can lift",
         "distractors": {
           "plausible": [
-            "Beside their hips with the controlled leg left on the mat",
-            "Under their shoulders with both legs beyond your reach"
+            "Beside hips, controlled leg on mat",
+            "Under shoulders, legs out of reach"
           ],
           "trap": [
-            "Facing their chest from shallow half with your head outside"
+            "Shallow half, head outside their hip"
           ]
         }
       },
       {
         "question": "Waiter Sweep (bottom): Why is an underhook wrestle-up alone not the waiter mechanism?",
         "answer": "The waiter leg shelf and deep-half hip position distinguish this sweep from a generic underhook wrestle-up. The landing may retain half guard; side control requires clearing the legs.",
-        "answer_line": "The elevated leg shelf is a separate defining control",
+        "answer_line": "A raised leg shelf is still needed",
         "distractors": {
           "plausible": [
-            "An underhook supplies the same shelf beneath the opponent's lower leg",
-            "Standing up on the underhook fixes the same elevated-leg angle"
+            "Underhook itself shelves lower leg",
+            "Standing underhook fixes shelf angle"
           ],
           "trap": [
-            "Driving forward from the knees duplicates lifting the captured leg"
+            "Driving from knees copies leg lift"
           ]
         }
       },
       {
         "question": "Waiter Sweep (bottom): The knee cannot follow the lifted leg freely. What should you do?",
         "answer": "Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.",
-        "answer_line": "Release the restraint instead of twisting through it",
+        "answer_line": "Release restraint before any twist",
         "distractors": {
           "plausible": [
-            "Raise the shelf farther before freeing the knee",
-            "Change your hip angle while keeping the foot clamped"
+            "Raise shelf before freeing knee",
+            "Turn hip with the foot clamped"
           ],
           "trap": [
-            "Relax only the sleeve grip while maintaining the leg restraint"
+            "Free sleeve only, leg still held"
           ]
         }
       },
       {
         "question": "Waiter Sweep (bottom): How does hip movement help build Valle's shelf?",
         "answer": "Hip and leg movement bring the opponent's lower leg into the hand and onto the shoulder support.",
-        "answer_line": "It brings the controlled leg into the supporting hand",
+        "answer_line": "Brings lower leg to supporting hand",
         "distractors": {
           "plausible": [
-            "It moves your shoulder away while the leg stays on the mat",
-            "It brings the far knee down while your shelf arm remains outside"
+            "Shoulder moves away, leg stays down",
+            "Far knee drops, shelf arm outside"
           ],
           "trap": [
-            "It lifts your torso while the supporting hand loses the lower leg"
+            "Torso rises, hand loses lower leg"
           ]
         }
       }
@@ -441,14 +441,14 @@
       {
         "question": "Waiter Sweep (top): Which cue identifies the waiter threat?",
         "answer": "A deep-half player supporting your elevated leg is setting the waiter mechanism.",
-        "answer_line": "A deep-half player supporting your elevated lower leg",
+        "answer_line": "Deep-half shelf under raised shin",
         "distractors": {
           "plausible": [
-            "A shallow half-guard player with your foot still bearing weight",
-            "A player below your hip with both arms outside the leg"
+            "Shallow half, foot bearing weight",
+            "Under hips, both arms outside leg"
           ],
           "trap": [
-            "A player holding your ankle while their shoulder stays beyond your knee"
+            "Ankle held, shoulder beyond knee"
           ]
         }
       },
@@ -458,53 +458,53 @@
         "answer_line": "A usable hand or foot post",
         "distractors": {
           "plausible": [
-            "Both hands committed to the same distant collar",
-            "Your lifted foot treated as the remaining base point"
+            "Both hands at one distant collar",
+            "Your lifted foot as the last support"
           ],
           "trap": [
-            "A post on the side opposite the controlled tipping direction"
+            "A post opposite the tipping line"
           ]
         }
       },
       {
         "question": "Waiter Sweep (top): Which hip position feeds the established shelf?",
         "answer": "Avoid leaving the hips directly above an established deep-half shoulder connection.",
-        "answer_line": "Leaving your hips carried over the deep-half shoulder",
+        "answer_line": "Hips carried over deep-half shoulder",
         "distractors": {
           "plausible": [
-            "Hips shifted outside their shoulder before the shelf settles",
-            "Hips behind a recovered leg with weight on a free post"
+            "Hips outside shoulder before shelf",
+            "Hips back, leg recovered, free post"
           ],
           "trap": [
-            "Hips withdrawn from their shoulder while the leg remains mobile"
+            "Hips withdrawn, leg still mobile"
           ]
         }
       },
       {
         "question": "Waiter Sweep (top): When can you safely recover the elevated leg?",
         "answer": "Return the elevated leg only while the knee can move without twisting.",
-        "answer_line": "While the knee can follow without twisting",
+        "answer_line": "Knee can follow without twisting",
         "distractors": {
           "plausible": [
-            "While your ankle is held but your pelvis can turn",
-            "When the sleeve releases although the knee stays wedged"
+            "Ankle held, pelvis able to turn",
+            "Sleeve free, knee still wedged"
           ],
           "trap": [
-            "Once you can rotate the hip around the fixed lower leg"
+            "Hip can turn around fixed lower leg"
           ]
         }
       },
       {
         "question": "Waiter Sweep (top): Once the reversal removes your base, what is appropriate?",
         "answer": "Accept a controlled reversal if balance is lost rather than risking a shoulder or knee.",
-        "answer_line": "Follow the fall and rebuild frames underneath",
+        "answer_line": "Follow fall, rebuild bottom frames",
         "distractors": {
           "plausible": [
-            "Reach for a late hand post while retaining the old hip height",
-            "Keep the lifted foot fixed while turning your chest back down"
+            "Late hand post, keep old hip height",
+            "Fix lifted foot, turn chest down"
           ],
           "trap": [
-            "Stand the free leg up before securing any landing frame"
+            "Stand free leg before landing frames"
           ]
         }
       }

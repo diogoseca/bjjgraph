@@ -68,7 +68,7 @@ description: "Buggy Choke to North-South (attacker): Watch for an arm reaching p
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Buggy Choke to North-South (top): Which connection forms the Buggy loop you must clear?",
+      "name": "Buggy Choke to North-South (top): Which same-side connection must you clear?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Watch for an arm reaching past your head and connecting to the same-side leg."

@@ -108,7 +108,7 @@ description: "Posture Recovery to Closed Guard (attacker): Avoid extending an ar
     },
     {
       "@type": "Question",
-      "name": "Posture Recovery to Closed Guard (top): What confirms the named destination after release?",
+      "name": "Posture Recovery to Closed Guard (top): Upright with shoulders free, what confirms closed guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "After upper-body clearance, closed guard exists only if the bottom player's legs reclose lower around the torso."

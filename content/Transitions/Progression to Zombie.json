@@ -191,28 +191,28 @@
       {
         "question": "Progression to Zombie (bottom): What has to be lost before New York needs Zombie again?",
         "answer": "Zombie normally creates New York. A renewed attempt requires the opponent to have recovered the hand or forearm inside.",
-        "answer_line": "The arm isolation, with their hand back inside",
+        "answer_line": "Arm isolation; hand returns inside",
         "distractors": {
           "plausible": [
-            "Only your free foot's contact with the mat",
-            "The second leg's high closure behind the head"
+            "Only free foot's contact with mat",
+            "Second leg's closure behind the head"
           ],
           "trap": [
-            "The head-side grip while the hand stays under the knee hug"
+            "Head-side grip; hand stays knee-held"
           ]
         }
       },
       {
         "question": "Progression to Zombie (bottom): What holds posture while you re-pummel?",
         "answer": "Keep posture broken with a supported high leg so the free arm can work on the hand opening.",
-        "answer_line": "The supported Mission Control leg-and-hand connection",
+        "answer_line": "Supported high leg held by one hand",
         "distractors": {
           "plausible": [
-            "Both hands pulling the wrist with the leg down",
-            "A high ankle hold with the knee drifting behind"
+            "Both hands pull wrist with leg down",
+            "High ankle held, knee drifting back"
           ],
           "trap": [
-            "A supported knee with the head-side hand released"
+            "Knee braced, holding hand released"
           ]
         }
       },
@@ -226,35 +226,35 @@
             "Over the top of their wrist"
           ],
           "trap": [
-            "Between the elbow and your ribs"
+            "Around the outside of their forearm"
           ]
         }
       },
       {
         "question": "Progression to Zombie (bottom): How should the cleared hand travel?",
         "answer": "The pummel moves the wrist and forearm through available space so the inside frame becomes an outside arm.",
-        "answer_line": "Outside toward the mat with the forearm guided",
+        "answer_line": "Guide hand and forearm out to mat",
         "distractors": {
           "plausible": [
-            "Straight back onto the opponent's own chest",
-            "Straight upward with the forearm still inside"
+            "Back onto the opponent's own chest",
+            "Straight up, forearm stays inside"
           ],
           "trap": [
-            "Toward your centerline beneath the opponent's chest"
+            "Inward beneath the opponent's chest"
           ]
         }
       },
       {
         "question": "Progression to Zombie (bottom): What locks in the pummel's positional gain?",
         "answer": "The hand reaching the mat is followed by arm coverage and knee support so the opponent cannot easily re-pummel inside.",
-        "answer_line": "Cover the arm and hug the raised knee",
+        "answer_line": "Cover arm and hug the raised knee",
         "distractors": {
           "plausible": [
-            "Leave the arm uncovered while changing both grips",
-            "Drop the high leg before securing the arm"
+            "Arm left open as both grips change",
+            "Drop high leg before covering arm"
           ],
           "trap": [
-            "Hold the wrist down without closing over the elbow"
+            "Wrist held down, elbow uncovered"
           ]
         }
       },
@@ -264,39 +264,39 @@
         "answer_line": "Arm coverage as the knee hug closed",
         "distractors": {
           "plausible": [
-            "A higher ankle grip while the elbow stayed uncovered",
-            "A tighter head pull with the knee away from the arm"
+            "Higher ankle grip; elbow uncovered",
+            "Tighter head pull with knee away"
           ],
           "trap": [
-            "A wrist lift that stopped before covering the forearm"
+            "Lift wrist before covering forearm"
           ]
         }
       },
       {
         "question": "Progression to Zombie (bottom): Their inside frames stay intact; what is a sound reset?",
         "answer": "A blocked hand path calls for retaining guard and waiting for another opening, rather than forcing the elbow clamp.",
-        "answer_line": "Preserve guard and rebuild an opening near the hand",
+        "answer_line": "Keep guard; reopen space by the hand",
         "distractors": {
           "plausible": [
-            "Abandon the guard while pulling the elbow outward",
+            "Abandon guard; pull elbow outward",
             "Circle both arms behind their back"
           ],
           "trap": [
-            "Keep digging beneath the elbow after the hand opening closes"
+            "Dig under elbow with hand gap shut"
           ]
         }
       },
       {
         "question": "Progression to Zombie (bottom): What configuration confirms the pummel succeeded?",
         "answer": "The success checkpoint is New York arm isolation supported by the high leg; Zombie is the action that creates it.",
-        "answer_line": "Hand on mat with the arm wrapped under the knee hug",
+        "answer_line": "Hand on mat; arm wrapped; knee hug",
         "distractors": {
           "plausible": [
-            "Both forearms framing inside against your chest",
-            "Hand on the mat with the elbow still across your chest"
+            "Both forearms inside on your chest",
+            "Hand on mat; elbow across your chest"
           ],
           "trap": [
-            "Wrist held outside while the knee floats clear of the arm"
+            "Wrist out; knee floats off the arm"
           ]
         }
       },
@@ -306,25 +306,25 @@
         "answer_line": "Inside frames and knee recovery",
         "distractors": {
           "plausible": [
-            "The next neck-clearing grip before knee space",
-            "A two-handed wrist pull with both knees outside"
+            "Neck-clearing grip before knee space",
+            "Two-hand wrist pull, knees outside"
           ],
           "trap": [
-            "A fresh ankle grip before the near knee returns"
+            "New ankle grip before near knee in"
           ]
         }
       },
       {
         "question": "Progression to Zombie (bottom): Which support should a first pummel drill preserve?",
         "answer": "Practice the hand-clearing path with the high knee supported and posture controlled before adding resistance or follow-up attacks.",
-        "answer_line": "The high knee close to the torso as the hand clears",
+        "answer_line": "High knee near torso as hand clears",
         "distractors": {
           "plausible": [
-            "The foot high while the knee drifts away",
-            "The opponent fully upright throughout the pummel"
+            "Foot high while knee drifts away",
+            "Opponent stays upright throughout"
           ],
           "trap": [
-            "The knee forward but the supporting hand chasing the wrist"
+            "Knee forward, support hand on wrist"
           ]
         }
       }
@@ -429,70 +429,70 @@
       {
         "question": "Progression to Zombie (top): What should you retain after regaining your inside hand?",
         "answer": "Retain the recovered frame so the guard player cannot immediately clear the hand out again.",
-        "answer_line": "An inside elbow and useful forearm frame",
+        "answer_line": "Inside elbow with a forearm frame",
         "distractors": {
           "plausible": [
-            "A hand outside on the mat with the elbow wide",
-            "A long reach behind their far shoulder"
+            "Hand on mat outside, elbow wide",
+            "Long reach behind their far shoulder"
           ],
           "trap": [
-            "The wrist against the chest with the elbow outside the thigh"
+            "Wrist at chest, elbow outside thigh"
           ]
         }
       },
       {
         "question": "Progression to Zombie (top): Your hand starts inside; how do you finish recovering that arm?",
         "answer": "Coordinated arm recovery prevents the wrist being left exposed while the elbow remains trapped outside.",
-        "answer_line": "Draw the elbow to the ribs with the hand",
+        "answer_line": "Return elbow to ribs with the hand",
         "distractors": {
           "plausible": [
-            "Leave the elbow outside and plant the palm on the chest",
-            "Move the elbow forward toward the opponent's head"
+            "Palm on chest; elbow stays outside",
+            "Elbow forward toward their head"
           ],
           "trap": [
-            "Repost the recovered hand wide to regain balance"
+            "Repost your hand wide for balance"
           ]
         }
       },
       {
         "question": "Progression to Zombie (top): When should you react to the pummeling hand?",
         "answer": "The under-hand entry is an early cue to recover inside position before the knee hug secures the arm outside.",
-        "answer_line": "As it starts working underneath yours",
+        "answer_line": "As their hand starts beneath yours",
         "distractors": {
           "plausible": [
-            "After their knee hug fully fixes your elbow",
-            "Only when they lower the high leg completely"
+            "After knee hug fully fixes elbow",
+            "Only once high leg lowers fully"
           ],
           "trap": [
-            "When their cleared hand first reaches the outside mat"
+            "When your hand reaches the outer mat"
           ]
         }
       },
       {
         "question": "Progression to Zombie (top): How can a caught elbow return to your side?",
         "answer": "Draw the elbow beside the ribs when the shoulder has room; stop if the arm is already loaded.",
-        "answer_line": "Through slack after the high connection loosens",
+        "answer_line": "Through slack in the opened high leg",
         "distractors": {
           "plausible": [
-            "By pulling harder while their knee hug stays fixed",
-            "By extending the elbow against the leg"
+            "Pull harder against a fixed knee hug",
+            "Extend your elbow against the leg"
           ],
           "trap": [
-            "By drawing the wrist inside before the shoulder can move"
+            "Pull wrist in before shoulder frees"
           ]
         }
       },
       {
         "question": "Progression to Zombie (top): What must change before a strong posture recovery?",
         "answer": "Recover chest height only after the arm can move and the high leg no longer fixes the neck and shoulder.",
-        "answer_line": "The arm and high leg must release their upper-body hold",
+        "answer_line": "Arm and high leg release upper body",
         "distractors": {
           "plausible": [
-            "Only your palm needs to face upward",
-            "Only the free knee needs to move wider"
+            "Only turn your palm to face upward",
+            "Only move the free knee wider"
           ],
           "trap": [
-            "The wrist must clear while the high thigh remains attached"
+            "Wrist free; high thigh still linked"
           ]
         }
       }

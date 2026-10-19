@@ -100,7 +100,7 @@ description: "Crackhead Control to Mission Control (attacker): Maintain the orig
     },
     {
       "@type": "Question",
-      "name": "Crackhead to Mission (bottom): What can the opponent's remaining inside arms do?",
+      "name": "Crackhead to Mission (bottom): Arms start inside; what remains if only the second leg lowers?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Both arms may still be inside after the reinforcing leg lowers; track them because they can help recover posture."

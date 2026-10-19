@@ -204,98 +204,98 @@
       {
         "question": "Guard Pass from Chill Dog (top): What needs freeing before you begin the pass?",
         "answer": "Clear the upper-body leg-and-arm enclosure before committing to a separate pass around the remaining knees.",
-        "answer_line": "The neck and isolated shoulder from the high guard",
+        "answer_line": "Neck and shoulder from high guard",
         "distractors": {
           "plausible": [
-            "Only your hand while the elbow remains outside",
-            "Only the free leg resting against your hip"
+            "Only hand; elbow remains outside",
+            "Only the free leg against your hip"
           ],
           "trap": [
-            "Only the head while the knee hug still fixes your arm"
+            "Only head; knee hug still traps arm"
           ]
         }
       },
       {
         "question": "Guard Pass from Chill Dog (top): What does their arm moving around your head indicate?",
         "answer": "The head-side grip change advances New York toward Chill Dog; it is an upper-body guard-control cue.",
-        "answer_line": "Neck clearing while their arm trap remains",
+        "answer_line": "Neck clears; their arm trap remains",
         "distractors": {
           "plausible": [
-            "Their knee hug is opening to release the isolated arm",
-            "Their wrist pummel is beginning beneath your hand"
+            "Knee hug opens to release your arm",
+            "Wrist pummel begins under your hand"
           ],
           "trap": [
-            "Their second leg is closing the high clinch"
+            "Second leg closes the high clinch"
           ]
         }
       },
       {
         "question": "Guard Pass from Chill Dog (top): How should the free arm help before clearance?",
         "answer": "Early inside framing helps preserve space while the isolated arm is released; pressure is not a substitute for clearance.",
-        "answer_line": "Maintain an inside frame from a balanced base",
+        "answer_line": "Inside frame with a balanced base",
         "distractors": {
           "plausible": [
-            "Reach over their back and abandon the inside gap",
-            "Post far away while the trapped elbow flares"
+            "Reach over back; yield inside space",
+            "Post far away; caught elbow flares"
           ],
           "trap": [
-            "Use the free hand to pull the captured wrist outward"
+            "Pull the captured wrist outward"
           ]
         }
       },
       {
         "question": "Guard Pass from Chill Dog (top): Where should you make space to loosen the high leg?",
         "answer": "Create slack at the high-leg connection with balanced positioning before extracting the head or shoulder.",
-        "answer_line": "At the hip and thigh while keeping the head aligned",
+        "answer_line": "At hip and thigh, with head aligned",
         "distractors": {
           "plausible": [
-            "At the fingers while leaving the thigh clamped",
-            "At the free ankle while the controlling thigh stays tight"
+            "At fingers; thigh remains clamped",
+            "At free ankle; high thigh tight"
           ],
           "trap": [
-            "At your knee base while the head and thigh stay attached"
+            "At knee base; head-thigh stay linked"
           ]
         }
       },
       {
         "question": "Guard Pass from Chill Dog (top): When can the shoulder leave the leg enclosure?",
         "answer": "Withdraw shoulder and elbow through slack in the high leg rather than pulling an isolated arm through resistance.",
-        "answer_line": "After the high connection opens enough to move freely",
+        "answer_line": "High leg opens; shoulder moves free",
         "distractors": {
           "plausible": [
-            "Once your free hand touches their hip",
-            "When your knees clear theirs but the shoulder stays held"
+            "Free hand first touches their hip",
+            "Knees clear; shoulder remains held"
           ],
           "trap": [
-            "Once the wrist clears despite the elbow remaining caught"
+            "Wrist clears; elbow remains caught"
           ]
         }
       },
       {
         "question": "Guard Pass from Chill Dog (top): What confirms a completed side-control pass?",
         "answer": "Side control requires clearing the legs and hips and establishing a stable pin beside the torso after the high enclosure releases.",
-        "answer_line": "Legs cleared with chest contact beside their torso",
+        "answer_line": "Legs clear; chest pins beside torso",
         "distractors": {
           "plausible": [
-            "Your head is free but both knees remain between you",
-            "Your shoulder is free but one leg remains trapped"
+            "Head free; both knees between you",
+            "Shoulder free; one leg still trapped"
           ],
           "trap": [
-            "Chest contact beside the ribs with your ankle still trapped"
+            "Chest by ribs; ankle still trapped"
           ]
         }
       },
       {
         "question": "Guard Pass from Chill Dog (top): The head is free but a knee blocks your hip; what remains?",
         "answer": "Head clearance completes only the first escape checkpoint. The blocking knee must also be passed before side control exists.",
-        "answer_line": "Clear the remaining guard before settling the pin",
+        "answer_line": "Pass the remaining knee, then settle",
         "distractors": {
           "plausible": [
-            "Declare side control as soon as your chest lowers",
-            "Step around the foot while leaving their knee inside"
+            "Call the low chest contact a pass",
+            "Step past foot; leave knee inside"
           ],
           "trap": [
-            "Settle the crossface while accepting the inside knee"
+            "Take crossface; accept inside knee"
           ]
         }
       }
@@ -396,70 +396,70 @@
       {
         "question": "Guard Pass from Chill Dog (bottom): What preserves the existing trap during their first escape?",
         "answer": "Retain the New York arm isolation and knee support while they seek slack, provided the position remains comfortable.",
-        "answer_line": "Keep their arm outside with your knee hugged",
+        "answer_line": "Their arm outside; your knee hugged",
         "distractors": {
           "plausible": [
-            "Let their elbow frame inside while pulling the head",
-            "Release the knee and rely on the foot grip alone"
+            "Let elbow inside while pulling head",
+            "Let knee go; rely on foot grip alone"
           ],
           "trap": [
-            "Keep the knee high while letting the overhook open"
+            "Keep knee high; let overhook open"
           ]
         }
       },
       {
         "question": "Guard Pass from Chill Dog (bottom): How should you adjust if your high knee drifts away?",
         "answer": "A hip-angle correction brings the knee toward the torso and supports the high leg without dragging the foot.",
-        "answer_line": "Move the hip to bring the supported knee forward",
+        "answer_line": "Hip turn brings braced knee forward",
         "distractors": {
           "plausible": [
-            "Pull the ankle back while leaving the hip flat",
-            "Straighten the leg over their shoulder"
+            "Pull ankle back with hip still flat",
+            "Straighten leg over their shoulder"
           ],
           "trap": [
-            "Lift the foot higher while leaving the knee behind"
+            "Lift foot higher; leave knee behind"
           ]
         }
       },
       {
         "question": "Guard Pass from Chill Dog (bottom): Their shoulder approaches as Chill Dog opens; where frame?",
         "answer": "An inside forearm protects space while the hip moves and the knee returns, reducing the passer's crossface access.",
-        "answer_line": "Inside the shoulder line before chest contact closes",
+        "answer_line": "Inside shoulder before chest closes",
         "distractors": {
           "plausible": [
-            "Behind their shoulder with your elbow away",
-            "Over their head with both hands clasped"
+            "Behind shoulder with elbow away",
+            "Over head with both hands clasped"
           ],
           "trap": [
-            "Across your own ribs after their shoulder has entered"
+            "Across ribs after shoulder enters"
           ]
         }
       },
       {
         "question": "Guard Pass from Chill Dog (bottom): What follows when the isolated elbow has escaped?",
         "answer": "Once the elbow and high connection fail, prioritize guard retention behind a shoulder frame rather than reaching for the lost grip.",
-        "answer_line": "Release the failing high leg and recover an inside knee",
+        "answer_line": "Open loose high leg; bring knee in",
         "distractors": {
           "plausible": [
-            "Keep the loose leg hanging behind the head",
-            "Reach both hands after the escaped wrist"
+            "Leave loose leg behind their head",
+            "Both hands chase the escaped wrist"
           ],
           "trap": [
-            "Regrip the ankle with both hands before replacing the knee"
+            "Both hands regrip ankle before knee"
           ]
         }
       },
       {
         "question": "Guard Pass from Chill Dog (bottom): What prevents their head clearance becoming a pass?",
         "answer": "The passer still has to clear your knees and hips; maintain the inside barrier as the upper-body control opens.",
-        "answer_line": "Knee space protected by an inside forearm",
+        "answer_line": "Inside forearm protects knee space",
         "distractors": {
           "plausible": [
-            "A hand grip alone with both knees outside",
-            "A high foot with no knee support"
+            "Hand grip only, both knees outside",
+            "High foot without knee support"
           ],
           "trap": [
-            "An inside forearm with the near knee left outside their hip"
+            "Forearm in; near knee outside hip"
           ]
         }
       }

@@ -225,84 +225,84 @@
       {
         "question": "High-elbow guillotine after Hindu Control: what should precede seeking the final hand grip?",
         "answer": "A lowered head controlled from a stable base. Control the lowered head with a stable base before seeking the finishing grip.",
-        "answer_line": "A lowered head controlled from a stable base",
+        "answer_line": "A lowered head with a stable base",
         "distractors": {
           "plausible": [
-            "An upright head beyond your arm's reach",
-            "A supported high foot with no neck-wrapping arm"
+            "Upright head beyond your reach",
+            "Supported foot but no neck loop"
           ],
           "trap": [
-            "Both hands pulling while your hips remain detached"
+            "Both hands pull, hips detached"
           ]
         }
       },
       {
         "question": "High-elbow guillotine attack: how should the head align as the choking forearm is positioned?",
         "answer": "With the spine, without a backward neck bend. Place the forearm beside the neck while maintaining alignment. Do not substitute cervical extension or twisting for a close enclosure.",
-        "answer_line": "With the spine, without a backward neck bend",
+        "answer_line": "Aligned with the spine",
         "distractors": {
           "plausible": [
-            "Tilted backward away from the shoulder line",
-            "Twisted across the chest toward the free shoulder"
+            "Tilted backward from shoulders",
+            "Twisted toward the free shoulder"
           ],
           "trap": [
-            "Levered sideways while the torso stays fixed"
+            "Bent sideways with the torso fixed"
           ]
         }
       },
       {
         "question": "High-elbow guillotine practice: how much finishing load belongs in initial hand-connection drills?",
         "answer": "None during the first grip-placement repetitions. Join the support hand cooperatively with the neck unloaded. Establish the grip and comfortable elbow path before any controlled finishing practice.",
-        "answer_line": "None during the first grip-placement repetitions",
+        "answer_line": "None in the initial grip drill",
         "distractors": {
           "plausible": [
-            "A full squeeze before the supporting elbow rises",
-            "Enough pressure to hold the head while the partner turns"
+            "Full squeeze before elbow rises",
+            "Enough to hold head as partner turns"
           ],
           "trap": [
-            "A neck-extension load to create room for the hands"
+            "Neck extension to make hand space"
           ]
         }
       },
       {
         "question": "High-elbow guillotine attack: which elbow rises over the opponent's shoulder?",
         "answer": "The elbow of the supporting arm. Bring the supporting elbow over the shoulder through a comfortable arm path.",
-        "answer_line": "The elbow of the supporting arm",
+        "answer_line": "The supporting-arm elbow",
         "distractors": {
           "plausible": [
-            "The elbow of the neck-wrapping arm only",
+            "Only the neck-wrapping elbow",
             "The opponent's trapped elbow"
           ],
           "trap": [
-            "Both elbows must remain below the shoulder line"
+            "Both elbows stay below shoulders"
           ]
         }
       },
       {
         "question": "High-elbow guillotine attack: how should you complete the enclosure?",
         "answer": "Adjust the torso and connected elbows gradually. Adjust body position and elbow connection gradually rather than cranking the neck upward.",
-        "answer_line": "Adjust the torso and connected elbows gradually",
+        "answer_line": "Adjust torso and elbows gradually",
         "distractors": {
           "plausible": [
-            "Lift the chin sharply against the choking forearm",
-            "Rotate the head while the shoulders remain fixed"
+            "Lift chin hard against forearm",
+            "Rotate head, keeping shoulders fixed"
           ],
           "trap": [
-            "Extend both arms away from your ribs"
+            "Extend both arms away from the ribs"
           ]
         }
       },
       {
         "question": "High-elbow guillotine attack: what releases a partner who taps?",
         "answer": "Open the hands and remove the neck restraint. Open the hands and remove all neck pressure on the first stop signal.",
-        "answer_line": "Open the hands and remove the neck restraint",
+        "answer_line": "Open hands and free the neck",
         "distractors": {
           "plausible": [
-            "Lower the elbow while keeping both hands tight",
-            "Stop adjusting while the forearm stays loaded"
+            "Lower elbow with both hands tight",
+            "Stop moving with forearm loaded"
           ],
           "trap": [
-            "Pull the head free through the still-closed loop"
+            "Pull head through the closed loop"
           ]
         },
         "safety_critical": true
@@ -310,14 +310,14 @@
       {
         "question": "High-elbow guillotine attack: which arm stays around the neck while the other elbow rises?",
         "answer": "The arm carrying the choking forearm. The choking arm retains the neck contact while the support elbow rises over the shoulder. The two arms have different jobs.",
-        "answer_line": "The arm carrying the choking forearm",
+        "answer_line": "The arm with the choking forearm",
         "distractors": {
           "plausible": [
-            "The supporting arm that raises its elbow",
-            "The arm released to post on the floor"
+            "The supporting arm with raised elbow",
+            "The arm released to post on the mat"
           ],
           "trap": [
-            "Both arms above the head with no forearm at the neck"
+            "Both arms overhead, neck left clear"
           ]
         }
       },
@@ -327,25 +327,25 @@
         "answer_line": "Your own raised foot and leg",
         "distractors": {
           "plausible": [
-            "The choking forearm while the foot stays in place",
-            "The opponent's shoulder while both hands let go"
+            "Choking forearm, foot still in place",
+            "Their shoulder as both hands release"
           ],
           "trap": [
-            "The support arm instead of the high rubber-guard leg"
+            "Support arm instead of the high leg"
           ]
         }
       },
       {
         "question": "High-elbow guillotine practice: what should you do if the support elbow cannot rise comfortably?",
         "answer": "Reset the angle rather than wrench the arm or neck. Raise the elbow through available space, never by wrenching the shoulder or neck. Stop at a controlled enclosure in drills and release immediately on any tap.",
-        "answer_line": "Reset the angle rather than wrench the arm or neck",
+        "answer_line": "Reset the angle without forcing",
         "distractors": {
           "plausible": [
-            "Force the elbow upward while the shoulder stays pinned",
-            "Pull the partner's head down to drag your elbow higher"
+            "Force elbow up with shoulder pinned",
+            "Pull their head to drag elbow higher"
           ],
           "trap": [
-            "Increase neck pressure until the blocked arm moves"
+            "Increase neck load to lift the elbow"
           ]
         },
         "safety_critical": true
@@ -353,14 +353,14 @@
       {
         "question": "High-elbow guillotine practice: what space does the raised support elbow help close?",
         "answer": "The route beside the grip for the opponent's shoulder. The high support elbow limits the shoulder space beside the connected grip. Learn the arm path without forcing the neck or shoulder; an early inside frame works before that space closes.",
-        "answer_line": "The route beside the grip for the opponent's shoulder",
+        "answer_line": "The shoulder route beside the grip",
         "distractors": {
           "plausible": [
-            "The gap between the opponent's knees at the mat",
-            "The space behind your own hips for a rear hook"
+            "The gap between knees on the mat",
+            "Space behind your hips for a hook"
           ],
           "trap": [
-            "The partner's jaw by driving the head into extension"
+            "The jaw by forcing head extension"
           ]
         }
       }
@@ -473,56 +473,56 @@
       {
         "question": "High-elbow guillotine defense: what movement identifies the variation as the hands connect?",
         "answer": "The support elbow rises above your shoulder. A support elbow traveling above the shoulder signals the high-elbow variation.",
-        "answer_line": "The support elbow rises above your shoulder",
+        "answer_line": "Support elbow above your shoulder",
         "distractors": {
           "plausible": [
-            "The choking elbow drops toward your hip",
-            "The support hand reaches below your knee"
+            "Choking elbow dropping to your hip",
+            "Support hand below your knee"
           ],
           "trap": [
-            "Both elbows separate away from the neck"
+            "Both elbows leaving the neck"
           ]
         }
       },
       {
         "question": "High-elbow guillotine defense: what should your early hand fight interrupt?",
         "answer": "The support hand locking onto the neck-wrapping arm. Hand fight before the support hand locks into place.",
-        "answer_line": "The support hand locking onto the neck-wrapping arm",
+        "answer_line": "Support hand joining the neck arm",
         "distractors": {
           "plausible": [
-            "The opponent's free foot changing its base",
-            "Your own far knee returning to the floor"
+            "Their free foot changing base",
+            "Your far knee returning to the mat"
           ],
           "trap": [
-            "The elbow rising only after you concede both grips"
+            "Only elbow rise after grips close"
           ]
         }
       },
       {
         "question": "High-elbow guillotine defense: why should you not force the head backward inside the closed loop?",
         "answer": "The arm restraint can turn that movement into neck extension. Do not force the head backward against the closed arm loop.",
-        "answer_line": "The arm restraint can turn that movement into neck extension",
+        "answer_line": "The arm can force neck extension",
         "distractors": {
           "plausible": [
-            "Backward force always opens the support hand",
-            "The raised elbow removes all pressure from the forearm"
+            "Backward force opens support hand",
+            "High elbow unloads the forearm"
           ],
           "trap": [
-            "The neck is free whenever the chin points upward"
+            "An upward chin means a free neck"
           ]
         }
       },
       {
         "question": "High-elbow guillotine defense: when is an inside shoulder frame most useful?",
         "answer": "Before the raised elbow closes off the shoulder space. Use inside frames before the raised elbow blocks the shoulder space.",
-        "answer_line": "Before the raised elbow closes off the shoulder space",
+        "answer_line": "Before elbow blocks shoulder space",
         "distractors": {
           "plausible": [
-            "Only after the forearm has fully compressed the neck",
-            "While turning the head alone against the fixed loop"
+            "After full forearm neck compression",
+            "While twisting head in a fixed loop"
           ],
           "trap": [
-            "After removing both hands from the upper-body exchange"
+            "After withdrawing both hands"
           ]
         }
       }

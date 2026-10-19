@@ -186,56 +186,56 @@
       {
         "question": "Crackhead to New York (bottom): What retains posture while you prepare the pummel?",
         "answer": "Preserve the Mission Control shin-and-hand connection while adjusting the reinforcing leg.",
-        "answer_line": "The first high shin joined to its supporting hand",
+        "answer_line": "First high shin held by its hand",
         "distractors": {
           "plausible": [
-            "The first high shin with its supporting hand released",
-            "Only a wrist grip with both high legs opened"
+            "First shin high with hand released",
+            "Only wrist grip with both legs open"
           ],
           "trap": [
-            "The second leg alone after letting the first knee open"
+            "Second leg only with first knee open"
           ]
         }
       },
       {
         "question": "Crackhead to New York (bottom): What creates room for your free arm to pummel?",
         "answer": "Adjust the reinforcing leg enough to access the hand-clearing path without losing all posture control.",
-        "answer_line": "Open enough of the second-leg reinforcement",
+        "answer_line": "Open second leg enough to pummel",
         "distractors": {
           "plausible": [
-            "Pull both high knees closer with no arm gap",
-            "Release the first shin while retaining the second leg"
+            "Pull both knees in with no arm gap",
+            "Release first shin; keep second leg"
           ],
           "trap": [
-            "Force the forearm through with both high legs fixed"
+            "Force forearm past both fixed legs"
           ]
         }
       },
       {
         "question": "Crackhead to New York (bottom): In Ben Eddy's hand-first pummel, where do you enter?",
         "answer": "Eddy's variation works beneath the hand rather than forcing under the tightly clamped elbow; it is not claimed as the only version.",
-        "answer_line": "Under the opponent's hand into the available gap",
+        "answer_line": "Under their hand through the gap",
         "distractors": {
           "plausible": [
-            "Directly under a tightly clamped elbow",
-            "Over the wrist toward the top of the forearm"
+            "Under the tightly clamped elbow",
+            "Over wrist toward top of forearm"
           ],
           "trap": [
-            "Outside the forearm toward the upper arm"
+            "Outside forearm toward upper arm"
           ]
         }
       },
       {
         "question": "Crackhead to New York (bottom): What part of the arm do you guide toward the mat?",
         "answer": "Guide the hand using the wrist and forearm through available space, not individual finger bending.",
-        "answer_line": "The wrist and forearm as a connected unit",
+        "answer_line": "Wrist and forearm moving together",
         "distractors": {
           "plausible": [
-            "Only the wrist while leaving the elbow pinned",
-            "Only the elbow while the hand stays on your chest"
+            "Only wrist with the elbow pinned",
+            "Only elbow with hand still on chest"
           ],
           "trap": [
-            "The upper arm while holding the wrist in place"
+            "Upper arm with the wrist held fixed"
           ]
         }
       },
@@ -245,25 +245,25 @@
         "answer_line": "Cover the arm and close the knee hug",
         "distractors": {
           "plausible": [
-            "Point the free arm straight upward and leave space",
-            "Release the knee hug once the hand touches the mat"
+            "Point arm upward leaving a gap",
+            "Open knee hug as hand touches mat"
           ],
           "trap": [
-            "Cross the feet at the waist without arm coverage"
+            "Cross feet low with no arm coverage"
           ]
         }
       },
       {
         "question": "Crackhead to New York (bottom): What should remain after the Zombie succeeds?",
         "answer": "New York is the retained arm-isolation checkpoint after the pummel, not a separate lower-body entanglement.",
-        "answer_line": "The arm isolated outside with the knee hug connected",
+        "answer_line": "Arm outside with knee hug connected",
         "distractors": {
           "plausible": [
-            "The hand on the mat with the knee hug still open",
-            "The wrist held outside while the elbow returns inside"
+            "Hand on mat but knee hug open",
+            "Wrist outside but elbow back inside"
           ],
           "trap": [
-            "The knee hugged while the target arm stays inside"
+            "Knee hugged with target arm inside"
           ]
         }
       },
@@ -273,53 +273,53 @@
         "answer_line": "Still inside the facing high clinch",
         "distractors": {
           "plausible": [
-            "Already outside beneath a completed knee hug",
-            "On the mat with the upper arm already covered"
+            "Already outside under a closed hug",
+            "On mat with upper arm covered"
           ],
           "trap": [
-            "Outside the high shin with the elbow behind your knee"
+            "Outside shin with elbow behind knee"
           ]
         }
       },
       {
         "question": "Crackhead to New York (bottom): What completes the arm-isolation checkpoint?",
         "answer": "New York's defining checkpoint is isolated-arm control linked to the knee hug, not a jacket grip.",
-        "answer_line": "Arm isolation with overhook and knee hug",
+        "answer_line": "Arm isolation, overhook and knee hug",
         "distractors": {
           "plausible": [
-            "A wrist held on the mat with the knee hug open",
-            "Both shins high without either arm isolated"
+            "Wrist held on mat with knee hug open",
+            "Both shins high with both arms free"
           ],
           "trap": [
-            "A knee hug that leaves the target elbow inside"
+            "Knee hugged with target elbow inside"
           ]
         }
       },
       {
         "question": "Crackhead to New York (bottom): The elbow clamps shut against your pummel; what do you change?",
         "answer": "Use the available hand-side opening in Eddy's variation; do not force a closed elbow or switch to unrelated leg mechanics.",
-        "answer_line": "Enter the hand-side gap, leaving the elbow alone",
+        "answer_line": "Enter the gap beneath the hand",
         "distractors": {
           "plausible": [
-            "Drive straight under the firmly clamped elbow",
-            "Push over the wrist while the elbow stays clamped"
+            "Drive under the clamped elbow",
+            "Push over wrist with elbow clamped"
           ],
           "trap": [
-            "Pull the elbow outward while holding the hand fixed"
+            "Pull elbow out with hand held fixed"
           ]
         }
       },
       {
         "question": "Crackhead to New York (bottom): The opponent withdraws posture during the pummel; what first?",
         "answer": "If the high connection opens, protect inside space and recover guard before attempting another arm-isolation entry.",
-        "answer_line": "Restore inside frames and retain facing guard",
+        "answer_line": "Inside frames in a facing guard",
         "distractors": {
           "plausible": [
-            "Chase the wrist with both knees outside",
-            "Reach the high foot toward the retreating head"
+            "Chase wrist with both knees outside",
+            "Reach high foot to the distant head"
           ],
           "trap": [
-            "Keep the hand on the mat while the knees drift away"
+            "Hand on mat with knees drifting out"
           ]
         }
       }
@@ -429,70 +429,70 @@
       {
         "question": "Crackhead to New York (top): What should stay between the bodies before the pummel?",
         "answer": "Keep a useful inside forearm before the bottom player gains the path beneath your hand.",
-        "answer_line": "An inside forearm with the elbow connected",
+        "answer_line": "Inside forearm with elbow connected",
         "distractors": {
           "plausible": [
-            "A wrist inside with the elbow flared beyond the knee",
-            "A forearm outside the opponent's covering arm"
+            "Wrist inside with elbow beyond knee",
+            "Forearm outside their covering arm"
           ],
           "trap": [
-            "A floor post with the elbow extended away"
+            "Floor post with the elbow extended"
           ]
         }
       },
       {
         "question": "Crackhead to New York (top): How should your hand and elbow recover from a partial pummel?",
         "answer": "Recover the wrist, forearm and elbow as a connected unit through available space.",
-        "answer_line": "Move the whole arm together toward inside space",
+        "answer_line": "Whole arm together toward the inside",
         "distractors": {
           "plausible": [
-            "Pull the hand while leaving the elbow fixed",
-            "Push the elbow out while the wrist stays pinned"
+            "Pull hand with the elbow fixed",
+            "Push elbow out with the wrist pinned"
           ],
           "trap": [
-            "Rotate your body around a fixed shoulder"
+            "Turn body around a fixed shoulder"
           ]
         }
       },
       {
         "question": "Crackhead to New York (top): Which cue marks the start of Eddy's hand-first pummel?",
         "answer": "The hand entering beneath yours is an early cue to recover inside position before arm coverage and the knee hug close.",
-        "answer_line": "The free hand entering underneath yours",
+        "answer_line": "Their free hand entering under yours",
         "distractors": {
           "plausible": [
-            "The free hand settling on top of your wrist",
-            "The supporting hand readjusting the high shin"
+            "Their free hand on top of your wrist",
+            "Their support hand adjusting shin"
           ],
           "trap": [
-            "The free hand gripping outside your elbow"
+            "Their free hand outside your elbow"
           ]
         }
       },
       {
         "question": "Crackhead to New York (top): Where should the elbow return while the shoulder is still free?",
         "answer": "Retract the elbow inward while space remains; stop pulling if the shoulder becomes caught.",
-        "answer_line": "Toward the ribs through the available opening",
+        "answer_line": "Toward ribs through the open gap",
         "distractors": {
           "plausible": [
-            "Away from the ribs past the high knee",
-            "Behind the torso while the shoulder turns away"
+            "Away from ribs past the high knee",
+            "Behind torso as the shoulder turns"
           ],
           "trap": [
-            "Toward the ribs while the wrist remains pinned outside"
+            "Toward ribs; wrist pinned outside"
           ]
         }
       },
       {
         "question": "Crackhead to New York (top): What allows you to raise the chest after defending the pummel?",
         "answer": "Rebuild upright posture after freeing the arm and reducing the high-leg connection, not by lifting through the retained trap.",
-        "answer_line": "Arm clearance and reduced high-leg posture control",
+        "answer_line": "Arm free with high-leg control eased",
         "distractors": {
           "plausible": [
             "Only the hand reaching the mat",
-            "Only straightening the trapped elbow"
+            "Only the trapped elbow straightening"
           ],
           "trap": [
-            "Only stepping back while the shin stays tight"
+            "Only step back with shin held tight"
           ]
         }
       }

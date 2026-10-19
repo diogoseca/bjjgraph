@@ -191,140 +191,140 @@
       {
         "question": "Advance to Chill Dog (bottom): What secures the arm before the head-side grip changes?",
         "answer": "Keep the opponent's hand outside on the mat and hug your knee over that arm before changing the grip around the head.",
-        "answer_line": "Hand on mat; knee hugged over the isolated arm",
+        "answer_line": "Hand on mat; knee hugged over arm",
         "distractors": {
           "plausible": [
-            "Leave their forearm braced across your chest",
-            "Release the knee hug to reach around the head"
+            "Leave their forearm on your chest",
+            "Release knee hug to reach past head"
           ],
           "trap": [
-            "Keep only a wrist grip with the knee away"
+            "Wrist grip only, with your knee away"
           ]
         }
       },
       {
         "question": "Advance to Chill Dog (bottom): How do you make room to clear the head?",
         "answer": "The hip angle brings the supported knee forward so the hand can clear the head without hauling the foot across a fixed knee.",
-        "answer_line": "Turn onto your hip and bring the knee toward your chest",
+        "answer_line": "Turn hip; bring knee toward chest",
         "distractors": {
           "plausible": [
-            "Stay flat and pull the foot farther across",
+            "Stay flat; pull foot farther across",
             "Send the knee away from your chest"
           ],
           "trap": [
-            "Lift the ankle while leaving your hip flat"
+            "Lift ankle while keeping hips flat"
           ]
         }
       },
       {
         "question": "Advance to Chill Dog (bottom): Which arm moves around the head?",
         "answer": "The head-side arm changes position around the head while the other arm retains the New York overhook and knee support.",
-        "answer_line": "The head-side gripping arm; the overhook stays connected",
+        "answer_line": "Head-side arm; keep overhook fixed",
         "distractors": {
           "plausible": [
-            "The overhooking arm, after releasing the knee",
-            "Both arms together, releasing the high leg"
+            "Overhook arm, after letting knee go",
+            "Both arms, letting the high leg go"
           ],
           "trap": [
-            "The gripping arm stays; only the free leg moves"
+            "Neither arm; move only the free leg"
           ]
         }
       },
       {
         "question": "Advance to Chill Dog (bottom): Where should the forearm resist forward pressure?",
         "answer": "An inside forearm near the shoulder line keeps forward pressure from folding the frame onto your own wrist.",
-        "answer_line": "Inside at the opponent's shoulder line",
+        "answer_line": "Inside at their shoulder line",
         "distractors": {
           "plausible": [
-            "Outside the shoulder with the wrist folded inward",
-            "Outside their upper arm with your elbow wide"
+            "Outside shoulder, with wrist folded",
+            "Outside upper arm, with elbow wide"
           ],
           "trap": [
-            "Your wrist tucked between their shoulder and chest"
+            "Wrist tucked beneath their shoulder"
           ]
         }
       },
       {
         "question": "Advance to Chill Dog (bottom): What keeps the isolated arm from returning inside?",
         "answer": "Retain the arm wrap and knee hug as you consider the next control; a cleared head alone does not secure the elbow.",
-        "answer_line": "The overhook and knee hug around that arm",
+        "answer_line": "Overhook plus knee hug over that arm",
         "distractors": {
           "plausible": [
-            "Both hands pulling the back of the head",
-            "The free foot resting on their hip alone"
+            "Both hands pulling behind the head",
+            "Only the free foot on their hip"
           ],
           "trap": [
-            "Your knee high with the overhook released"
+            "High knee with the overhook released"
           ]
         }
       },
       {
         "question": "Advance to Chill Dog (bottom): Their elbow escapes as posture rises; what comes next?",
         "answer": "Once the elbow and posture control are lost, recover knees and forearms between the bodies instead of chasing the high connection.",
-        "answer_line": "Open the failing high leg and restore inside frames",
+        "answer_line": "Open high leg; restore inside frames",
         "distractors": {
           "plausible": [
-            "Keep the loose high leg behind the head",
-            "Reach both hands after the escaping elbow"
+            "Leave loose high leg behind the head",
+            "Chase their elbow with both hands"
           ],
           "trap": [
-            "Regrip the raised ankle before recovering knee space"
+            "Regrip ankle before restoring knees"
           ]
         }
       },
       {
         "question": "Advance to Chill Dog (bottom): Which starting relationship supports this entry?",
         "answer": "The performer is underneath in New York, controlling posture and one opposing arm before clearing the head-side connection.",
-        "answer_line": "Facing New York guard with one arm isolated",
+        "answer_line": "Facing New York with one arm trapped",
         "distractors": {
           "plausible": [
-            "Facing Mission Control with both elbows framing",
-            "Facing closed guard with both hands at the chest"
+            "Mission Control; both elbows frame",
+            "Low closed guard; hands at chest"
           ],
           "trap": [
-            "Facing high guard with the wrist held but elbow inside"
+            "High guard; wrist held, elbow inside"
           ]
         }
       },
       {
         "question": "Advance to Chill Dog (bottom): What changes from New York to Chill Dog?",
         "answer": "The transition changes the arm position around the head while retaining the existing isolated arm and supported high leg.",
-        "answer_line": "The head-side arm clears while the knee hug remains",
+        "answer_line": "Head-side arm clears; knee hug stays",
         "distractors": {
           "plausible": [
-            "A second leg closes behind the opponent's head",
-            "The trapped hand returns to the chest"
+            "Second leg closes behind their head",
+            "Trapped hand returns to the chest"
           ],
           "trap": [
-            "The knee hug opens while the head grip stays"
+            "Knee hug opens; head grip stays"
           ]
         }
       },
       {
         "question": "Advance to Chill Dog (bottom): Your knee twists during neck clearing; what should stop?",
         "answer": "Knee twisting means the foot is being pulled against a fixed joint; stop that traction and rebuild a comfortable hip angle.",
-        "answer_line": "Release foot traction and reset the hip angle",
+        "answer_line": "Stop foot pull; reset your hip angle",
         "distractors": {
           "plausible": [
-            "Pull the foot higher before changing the hip",
-            "Keep the foot fixed and straighten the knee"
+            "Pull foot higher before turning hip",
+            "Fix the foot and straighten the knee"
           ],
           "trap": [
-            "Keep ankle tension while sliding the hips farther"
+            "Keep ankle tension as hips slide"
           ]
         }
       },
       {
         "question": "Advance to Chill Dog (bottom): Which connection should a first entry drill retain?",
         "answer": "Rehearse clearing the head-side arm while the New York overhook and knee hug remain connected, without finishing pressure.",
-        "answer_line": "The overhook and supported knee during the grip change",
+        "answer_line": "Overhook and knee hug stay connected",
         "distractors": {
           "plausible": [
-            "A head pull with the trapped elbow back inside",
-            "A high foot grip with the knee unsupported"
+            "Head pull with their elbow inside",
+            "High foot grip with unsupported knee"
           ],
           "trap": [
-            "The knee hug alone after releasing the overhook"
+            "Knee hug alone; let the overhook go"
           ]
         }
       },
@@ -335,24 +335,24 @@
         "distractors": {
           "plausible": [
             "The shin must rest across the jaw",
-            "The shin must settle on the collarbone"
+            "Shin resting on the collarbone"
           ],
           "trap": [
-            "The high calf must stay across the upper back"
+            "High calf across their upper back"
           ]
         }
       },
       {
         "question": "Advance to Chill Dog (bottom): What confirms the Chill Dog checkpoint?",
         "answer": "Confirm both the cleared head-side arm and the retained overhook/knee hug; completing a hand movement alone is insufficient.",
-        "answer_line": "Cleared head-side arm plus an intact New York arm trap",
+        "answer_line": "Head-side arm clear; arm trap intact",
         "distractors": {
           "plausible": [
-            "A cleared head with the isolated elbow back inside",
-            "An intact knee hug with the head-side arm unchanged"
+            "Head clear; their elbow back inside",
+            "Knee hugged; head-side arm unchanged"
           ],
           "trap": [
-            "Two high legs with the arm trap left open"
+            "Two high legs with the arm trap open"
           ]
         }
       }
@@ -466,84 +466,84 @@
       {
         "question": "Advance to Chill Dog (top): How should you use the free hand early?",
         "answer": "Keep the available hand useful as an inside frame without letting the isolated elbow drift farther away from your ribs.",
-        "answer_line": "Frame inside while keeping the trapped elbow compact",
+        "answer_line": "Frame inside; caught elbow compact",
         "distractors": {
           "plausible": [
-            "Reach over their shoulder to hold the upper back",
-            "Flare the isolated elbow to make more room"
+            "Reach over shoulder onto upper back",
+            "Flare the caught elbow for more room"
           ],
           "trap": [
-            "Use both hands outside their hips for balance"
+            "Post both hands outside their hips"
           ]
         }
       },
       {
         "question": "Advance to Chill Dog (top): Which movement signals the shift beyond New York?",
         "answer": "The bottom player's grip change around your head while the knee hug stays connected is the neck-clearing cue.",
-        "answer_line": "Their head-side arm circles around your head",
+        "answer_line": "Head-side arm circles your head",
         "distractors": {
           "plausible": [
-            "Their pummeling hand first lifts your wrist",
-            "Their ankles close low behind your waist"
+            "Their pummel first lifts your wrist",
+            "Their ankles close behind your waist"
           ],
           "trap": [
-            "Their knee hug closes over your arm on the mat"
+            "Their knee hug traps your arm on mat"
           ]
         }
       },
       {
         "question": "Advance to Chill Dog (top): Which leg movement would reinforce their high control?",
         "answer": "An approaching second leg behind your head reinforces the existing high clinch; use an early frame and balanced base to deny it.",
-        "answer_line": "The free leg closing high behind your head",
+        "answer_line": "Free leg closes behind your head",
         "distractors": {
           "plausible": [
-            "The free knee returning between the bodies",
-            "The high leg lowering toward your waist"
+            "Free knee returns between the bodies",
+            "High leg lowers toward your waist"
           ],
           "trap": [
-            "The free foot posts low beside their own hip"
+            "Free foot posts low beside their hip"
           ]
         }
       },
       {
         "question": "Advance to Chill Dog (top): When can the isolated elbow return toward your ribs?",
         "answer": "Recover the elbow through available slack rather than pulling a captured shoulder against the high-leg connection.",
-        "answer_line": "When the high leg opens enough for the shoulder to move",
+        "answer_line": "High leg opens; shoulder can move",
         "distractors": {
           "plausible": [
-            "As soon as the free hand touches the mat",
-            "When their grip changes but the knee hug stays tight"
+            "The free hand first touches the mat",
+            "Grip changes; knee hug stays tight"
           ],
           "trap": [
-            "Once the wrist moves, although the elbow stays clamped"
+            "Wrist moves; elbow remains clamped"
           ]
         }
       },
       {
         "question": "Advance to Chill Dog (top): What should precede raising the head and chest?",
         "answer": "Lift posture in stages after the head and isolated shoulder are free to move through the opened control.",
-        "answer_line": "Release of the upper-body leg-and-arm enclosure",
+        "answer_line": "Head and shoulder enclosure released",
         "distractors": {
           "plausible": [
-            "A wider knee base with the head still trapped",
-            "Straight arms pushing while the shoulder stays caught"
+            "Knees widen; head stays trapped",
+            "Arms push; shoulder remains caught"
           ],
           "trap": [
-            "Their free leg dropping while the controlling leg holds"
+            "Free leg drops; high leg still holds"
           ]
         }
       },
       {
         "question": "Advance to Chill Dog (top): Their high guard folds onto the neck; what should change?",
         "answer": "When pressure folds the partner onto the neck, stop driving forward and unload so the high leg can be released safely.",
-        "answer_line": "Unload the stack and let the high connection open",
+        "answer_line": "Unload stack; let the high leg open",
         "distractors": {
           "plausible": [
-            "Continue forward while keeping both knees wide",
-            "Lift their hips higher to shorten the leg loop"
+            "Drive forward with both knees wide",
+            "Lift their hips to shorten the loop"
           ],
           "trap": [
-            "Hold the forward weight while waiting for the leg to drop"
+            "Keep weight forward until leg drops"
           ]
         }
       }

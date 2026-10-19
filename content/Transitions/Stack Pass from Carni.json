@@ -212,14 +212,14 @@
       {
         "question": "Stack Pass from Carni (top): Which control has priority before any passing pressure?",
         "answer": "Clear the shoulder clamp first; the route name does not authorize driving into a loaded Carni.",
-        "answer_line": "The shoulder caught by the leg and triceps grip",
+        "answer_line": "Shoulder held by leg and triceps",
         "distractors": {
           "plausible": [
-            "Only the wrist below the retained upper arm",
+            "Only wrist below retained upper arm",
             "Only the lower hook around your leg"
           ],
           "trap": [
-            "Only the head above the opponent's frame"
+            "Only head above the opponent's frame"
           ]
         }
       },
@@ -229,81 +229,81 @@
         "answer_line": "Compact beside the ribs",
         "distractors": {
           "plausible": [
-            "Straight beyond the opponent's shoulder",
-            "Behind your hips while you turn away"
+            "Straight past their shoulder",
+            "Behind your hips as you turn away"
           ],
           "trap": [
-            "High above your head with the wrist pinned"
+            "High above head with wrist pinned"
           ]
         }
       },
       {
         "question": "Stack Pass from Carni (top): What is the useful early response before the shoulder lock closes?",
         "answer": "Work through available inside space with balanced support before the shoulder connection becomes a completed lock.",
-        "answer_line": "Inside frames with a stable supporting base",
+        "answer_line": "Inside frames with a stable base",
         "distractors": {
           "plausible": [
-            "A chest lift with the elbow left outside the frame",
-            "A wide floor post with no inside forearm contact"
+            "Chest lift with elbow outside frame",
+            "Wide floor post without inside frame"
           ],
           "trap": [
-            "A grip on the wrist while the chest gap stays open"
+            "Wrist grip with chest gap still open"
           ]
         }
       },
       {
         "question": "Stack Pass from Carni (top): Your torso circles while the captured elbow stays behind; what loads?",
         "answer": "Keep head, torso and captured upper arm aligned while opening space at the hip and thigh. Circling the torso while the elbow stays behind can rotate the retained shoulder; use actual release before turning.",
-        "answer_line": "The shoulder rotates against the retained upper arm",
+        "answer_line": "Shoulder turns against the held arm",
         "distractors": {
           "plausible": [
-            "The elbow slips inward as the chest moves past it",
-            "The triceps grip opens before the shoulder turns"
+            "Elbow slips in as chest passes",
+            "Triceps grip opens before turn"
           ],
           "trap": [
-            "The lower hook takes the turn while the upper arm stays neutral"
+            "Low hook turns; upper arm stays free"
           ]
         }
       },
       {
         "question": "Stack Pass from Carni (top): What permits shoulder and elbow extraction?",
         "answer": "Withdraw the shoulder and elbow after the upper-body enclosure releases, not by forcing posture or circling through it.",
-        "answer_line": "The head-side leg and arm clamp have opened",
+        "answer_line": "Head-side leg and arm clamp open",
         "distractors": {
           "plausible": [
-            "Only the opponent's foot loses mat contact",
-            "Only your hips move beyond one knee"
+            "Only their foot loses mat contact",
+            "Only hips move beyond one knee"
           ],
           "trap": [
-            "Only the opponent stops pulling your head"
+            "Only their pull on your head stops"
           ]
         }
       },
       {
         "question": "Stack Pass from Carni (top): What establishes side control after the shoulder releases?",
         "answer": "After complete shoulder release, separately clear the legs and settle balanced chest contact in side control.",
-        "answer_line": "Clear the guard legs and settle beside the torso",
+        "answer_line": "Legs clear; chest beside their torso",
         "distractors": {
           "plausible": [
-            "Lift your head while still between both knees",
-            "Clear the near knee while a leg hook still retains you"
+            "Lift head between both knees",
+            "Near knee clear; a leg hook stays in"
           ],
           "trap": [
-            "Pass both knees while leaving a gap beside the chest"
+            "Knees passed with gap beside chest"
           ]
         }
       },
       {
         "question": "Stack Pass from Carni (top): Why is a lower-leg escape alone insufficient here?",
         "answer": "The initial problem is a Carni shoulder trap, not a Saddle or ankle entanglement. Freeing a lower leg does not solve it.",
-        "answer_line": "The shoulder can remain fixed by the upper-body clamp",
+        "answer_line": "Shoulder remains held by upper clamp",
         "distractors": {
           "plausible": [
-            "The lower hook is the only restraint affecting the shoulder",
-            "Withdrawing the calf also releases the upper arm from the knee hug"
+            "Only the low hook holds the shoulder",
+            "Calf withdrawal frees the upper arm"
           ],
           "trap": [
-            "Clearing the ankle places the elbow inside the controlling leg"
+            "Ankle clearance brings elbow inside"
           ]
         }
       }
@@ -417,56 +417,56 @@
       {
         "question": "Stack Pass from Carni (bottom): What retains the shoulder before the opponent can posture?",
         "answer": "The close knee and upper-arm connection retain the shoulder; do not substitute extra torque for lost control.",
-        "answer_line": "A close knee and connected upper-arm control",
+        "answer_line": "Close knee and retained upper arm",
         "distractors": {
           "plausible": [
-            "Only a wrist hold with the upper arm sliding free",
-            "An unsupported high foot with the knee far away"
+            "Wrist held while upper arm slips out",
+            "Foot high with knee far away"
           ],
           "trap": [
-            "The knee close after releasing the upper-arm grip"
+            "Knee close with upper-arm grip gone"
           ]
         }
       },
       {
         "question": "Stack Pass from Carni (bottom): Where does the forearm preserve room against forward pressure?",
         "answer": "Use the inside neck-side frame to manage incoming chest pressure during the leg arrangement.",
-        "answer_line": "Inside against the side of the neck and shoulder",
+        "answer_line": "Inside on the neck and shoulder",
         "distractors": {
           "plausible": [
-            "Outside the chest with the wrist folded",
-            "Against the near wrist below the shoulder line"
+            "Outside chest with wrist folded",
+            "At near wrist below shoulder line"
           ],
           "trap": [
-            "Behind the upper arm with the elbow outside"
+            "Behind upper arm with elbow outside"
           ]
         }
       },
       {
         "question": "Stack Pass from Carni (bottom): Which anchor supports the clamp without hauling the foot?",
         "answer": "The supported foot and close knee work with the hip angle; do not force the position by pulling against the knee.",
-        "answer_line": "Close knee, supported foot, partial belly-down turn",
+        "answer_line": "Belly down a bit; knee in, foot down",
         "distractors": {
           "plausible": [
-            "Flat hips with the raised knee flared wide",
-            "A fixed knee with the foot pulled across the head"
+            "Flat hips with raised knee wide",
+            "Knee fixed; foot pulled across head"
           ],
           "trap": [
-            "A close knee with the foot floating above the mat"
+            "Knee close with foot off the mat"
           ]
         }
       },
       {
         "question": "Stack Pass from Carni (bottom): The shoulder connection is gone; what should you recover first?",
         "answer": "Release the old shoulder grip and use frames plus hip movement to restore a knee barrier before the passer fills the space.",
-        "answer_line": "Release the grip, frame and recover a knee",
+        "answer_line": "Release grip, frame, recover a knee",
         "distractors": {
           "plausible": [
-            "Chase the freed wrist with both arms reaching away",
-            "Retain the loose arm grip with both knees outside"
+            "Chase free wrist with arms reaching",
+            "Hold loose arm with both knees out"
           ],
           "trap": [
-            "Frame the shoulder but leave the knee behind the passer"
+            "Frame shoulder; knee behind passer"
           ]
         }
       }

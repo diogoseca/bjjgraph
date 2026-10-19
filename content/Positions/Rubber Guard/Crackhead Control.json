@@ -257,39 +257,39 @@
         "answer_line": "Keep the elbows bent and close",
         "distractors": {
           "plausible": [
-            "Reach both arms straight toward the far hip",
-            "Post one hand far behind the opponent's head"
+            "Reach both arms toward the far hip",
+            "Post a hand far behind their head"
           ],
           "trap": [
-            "Lock the elbows to lift against the leg clinch"
+            "Lock elbows to lift the leg clinch"
           ]
         }
       },
       {
         "question": "Crackhead defense: what does a second leg rising behind your head add?",
         "answer": "A second leg climbing behind your head increases the posture-control problem.",
-        "answer_line": "Another connection limiting upright posture",
+        "answer_line": "More restraint on upright posture",
         "distractors": {
           "plausible": [
-            "An inside frame that lifts your head away from the first shin",
-            "A low hip clamp replacing the first leg behind your head"
+            "An inside frame lifting your head",
+            "A low hip clamp replacing high leg"
           ],
           "trap": [
-            "A completed triangle isolating both shoulders"
+            "A completed two-shoulder triangle"
           ]
         }
       },
       {
         "question": "Crackhead defense: before the upper clinch closes, where can you establish a useful early frame?",
         "answer": "Build a balanced base and an early hip frame before the high clinch closes.",
-        "answer_line": "At the opponent's hip line with a balanced base",
+        "answer_line": "At the hip line with a balanced base",
         "distractors": {
           "plausible": [
-            "Behind their head with both elbows extended",
+            "Behind the head, both elbows long",
             "On the mat beyond their far shoulder"
           ],
           "trap": [
-            "On the outside of the raised thigh with your elbow flared away"
+            "Outside the thigh, elbow flared"
           ]
         }
       },
@@ -299,67 +299,67 @@
         "answer_line": "Loosen the high-leg enclosure",
         "distractors": {
           "plausible": [
-            "Straighten the trapped elbow against their thigh",
-            "Lift the chin while both legs stay behind your head"
+            "Straighten trapped arm on the thigh",
+            "Lift chin with both legs behind you"
           ],
           "trap": [
-            "Turn your shoulders while the wrists remain fixed"
+            "Turn shoulders with wrists fixed"
           ]
         }
       },
       {
         "question": "Crackhead defense: why is a forceful stack a poor answer to the high clinch?",
         "answer": "Do not answer the clinch by driving the partner onto the neck.",
-        "answer_line": "It can compress the bottom player's neck without freeing you",
+        "answer_line": "It loads their neck but may hold you",
         "distractors": {
           "plausible": [
-            "Forward pressure slides the reinforcing leg below the shoulder",
-            "The neck fold draws both elbows back inside the high legs"
+            "Pressure slides the second leg down",
+            "Neck folding recovers both elbows"
           ],
           "trap": [
-            "The bottom player must open the knee hug to support the stack"
+            "Stacking forces the knee hug open"
           ]
         }
       },
       {
         "question": "Crackhead defense: when is ordinary guard passing a reasonable next phase?",
         "answer": "Begin ordinary guard passing once the shoulders and arms are free of the high enclosure.",
-        "answer_line": "After your shoulders and arms leave the high enclosure",
+        "answer_line": "Once shoulders and arms are clear",
         "distractors": {
           "plausible": [
-            "As soon as one knee moves outside their lower hip",
-            "While the second leg still pins your head down"
+            "When one knee passes their low hip",
+            "With second leg still pinning head"
           ],
           "trap": [
-            "Before addressing either high-leg connection"
+            "Before clearing either high leg"
           ]
         }
       },
       {
         "question": "Crackhead defense: which first control supports the opponent adding the second leg?",
         "answer": "The bottom player keeps the opponent close with a Mission Control leg and hand connection.",
-        "answer_line": "A Mission Control leg-and-hand connection",
+        "answer_line": "Mission Control shin-and-hand hold",
         "distractors": {
           "plausible": [
-            "A low ankle crossing with neither shin held behind the head",
-            "A high shin resting unsupported while both hands pull the wrists"
+            "Low crossed ankles, no high shin",
+            "Loose high shin; hands on wrists"
           ],
           "trap": [
-            "A knee shield between the chests with the foot at the hip"
+            "Knee shield and foot on the hip"
           ]
         }
       },
       {
         "question": "Crackhead defense: why does a high two-leg clinch not necessarily mean Dead Orchard is complete?",
         "answer": "This is a facing guard configuration. Unlike the basic Invisible Collar path, it does not require first clearing an arm to the mat and clearing the neck; unlike Dead Orchard, it does not define a completed both-arm leg triangle.",
-        "answer_line": "Both shoulders still need its specific closed leg triangle",
+        "answer_line": "Both shoulders need the leg triangle",
         "distractors": {
           "plausible": [
-            "The second foot behind the head is enough regardless of elbow position",
-            "The ankle crossing at the waist defines the two-arm trap"
+            "Second foot alone defines the trap",
+            "Low crossed ankles enclose both arms"
           ],
           "trap": [
-            "A high shin and one overhook supply the same enclosure"
+            "High shin and overhook form the trap"
           ]
         }
       }
@@ -572,28 +572,28 @@
       {
         "question": "Crackhead entry: what should be established before your second leg rises?",
         "answer": "Establish the first high leg and its hand support before adding the second leg.",
-        "answer_line": "Broken posture with the first leg supported by your hand",
+        "answer_line": "Low posture; hand holds first shin",
         "distractors": {
           "plausible": [
-            "Upright opposing posture with the first knee below the shoulder",
-            "A loose first leg with both hands posted on the mat"
+            "Upright posture, first knee low",
+            "Loose first leg, both hands posted"
           ],
           "trap": [
-            "A wrist pull with the first shin slipping off the upper back"
+            "Wrist pull as the high shin slips"
           ]
         }
       },
       {
         "question": "Crackhead control: what is the purpose of bringing the second leg high?",
         "answer": "Reinforce the clinch without forcing the knees beyond a comfortable hip angle.",
-        "answer_line": "Reinforce the upper-body clinch behind the head",
+        "answer_line": "Reinforce the clinch behind the head",
         "distractors": {
           "plausible": [
-            "Replace the first leg with a low clamp around the waist",
-            "Complete a straight-arm lever without checking either elbow"
+            "Replace high leg with a waist clamp",
+            "Lever an arm without checking elbows"
           ],
           "trap": [
-            "Put the shin beneath the chin while releasing the first knee hug"
+            "Shin under chin, knee hug released"
           ]
         }
       },
@@ -603,39 +603,39 @@
         "answer_line": "The position of both opposing elbows",
         "distractors": {
           "plausible": [
-            "Only whether your feet have joined behind the head",
-            "Only whether the second shin is higher than the first"
+            "Only the feet joining behind them",
+            "Only the height of the second shin"
           ],
           "trap": [
-            "Only whether the opponent can lift the chin"
+            "Only whether the chin can rise"
           ]
         }
       },
       {
         "question": "Crackhead control: how should you tighten the leg connection without levering your own knees?",
         "answer": "Use hip position and connected leg pressure rather than pulling the feet against fixed knees.",
-        "answer_line": "Adjust the hips and keep the knees close",
+        "answer_line": "Adjust hips and keep knees close",
         "distractors": {
           "plausible": [
-            "Pull both feet inward against stationary knees",
-            "Flatten your hips and yank the ankles upward"
+            "Pull feet inward against fixed knees",
+            "Flatten hips and yank both ankles"
           ],
           "trap": [
-            "Push the knees wide while crossing the feet harder"
+            "Spread knees while crossing feet"
           ]
         }
       },
       {
         "question": "Crackhead control: how can you return to Mission Control?",
         "answer": "Lower the reinforcing leg while preserving the first shin connection if you need Mission Control again.",
-        "answer_line": "Lower the second leg while retaining the first shin grip",
+        "answer_line": "Lower second leg; retain shin grip",
         "distractors": {
           "plausible": [
-            "Release the first shin and keep only the second foot",
-            "Remove both hand grips before moving either leg"
+            "Release first shin; keep second foot",
+            "Free both grips before moving legs"
           ],
           "trap": [
-            "Straighten both knees while keeping the ankles crossed"
+            "Straighten knees with ankles crossed"
           ]
         }
       },
@@ -645,39 +645,39 @@
         "answer_line": "Open the clinch and rebuild frames",
         "distractors": {
           "plausible": [
-            "Pull both feet closer while your hips stay trapped",
-            "Hold the legs shut and extend both arms overhead"
+            "Pull feet closer with hips trapped",
+            "Close legs; reach both arms overhead"
           ],
           "trap": [
-            "Keep the neck loaded until an elbow becomes available"
+            "Keep neck loaded, waiting for an arm"
           ]
         }
       },
       {
         "question": "Crackhead control: what keeps the opponent close while your free leg travels upward?",
         "answer": "The bottom player keeps the opponent close with a Mission Control leg and hand connection.",
-        "answer_line": "The first high leg and its hand support",
+        "answer_line": "The supported first high leg",
         "distractors": {
           "plausible": [
-            "A wrist pull after the supported shin has slipped below the shoulders",
-            "The low leg pressing the hip while the first high knee drops away"
+            "Wrist pull after the high shin slips",
+            "Low hip post while first knee drops"
           ],
           "trap": [
-            "The rising foot alone before it has connected behind the head"
+            "Rising foot before it has connected"
           ]
         }
       },
       {
         "question": "Crackhead control: what does the basic entry not require before adding the second leg?",
         "answer": "This is a facing guard configuration. Unlike the basic Invisible Collar path, it does not require first clearing an arm to the mat and clearing the neck; unlike Dead Orchard, it does not define a completed both-arm leg triangle.",
-        "answer_line": "Prior hand-to-mat isolation and neck clearing",
+        "answer_line": "Hand-to-mat trap plus neck clearance",
         "distractors": {
           "plausible": [
-            "An initial high-leg connection supporting posture control",
-            "The opponent remaining within comfortable leg reach"
+            "An initial high-leg posture hold",
+            "Opponent within comfortable reach"
           ],
           "trap": [
-            "Hip adjustment that avoids twisting a fixed knee"
+            "Hip angle that spares a fixed knee"
           ]
         }
       }

@@ -204,14 +204,14 @@
       {
         "question": "Crackhead Control Entry (bottom): What connection comes before the second leg rises?",
         "answer": "Establish the first supported high leg and broken posture before bringing up the reinforcing leg.",
-        "answer_line": "A supported high shin in Mission Control",
+        "answer_line": "Supported Mission Control shin",
         "distractors": {
           "plausible": [
-            "Both feet crossed low behind the waist",
-            "An unsupported foot lifted beside the head"
+            "Feet crossed low behind the waist",
+            "Unsupported foot beside the head"
           ],
           "trap": [
-            "A high shin with the opponent still sitting beyond reach"
+            "High shin with their torso far away"
           ]
         }
       },
@@ -221,123 +221,123 @@
         "answer_line": "High behind the opponent's head",
         "distractors": {
           "plausible": [
-            "Across the upper arm below the shoulder",
-            "On the hip beneath the opponent's elbow"
+            "Across upper arm below the shoulder",
+            "On the hip beneath their elbow"
           ],
           "trap": [
-            "Beside the head with the shin outside the shoulder"
+            "Beside head, outside their shoulder"
           ]
         }
       },
       {
         "question": "Crackhead Control Entry (bottom): What extra feature would identify Dead Orchard?",
         "answer": "High legs alone do not complete Dead Orchard; confirm the both-arm leg figure-four separately.",
-        "answer_line": "A high leg figure-four enclosing both arms",
+        "answer_line": "High figure-four enclosing both arms",
         "distractors": {
           "plausible": [
-            "Two high legs without a locked both-arm triangle",
-            "One wrist cleared to the mat and covered"
+            "Two high legs without a leg closure",
+            "One wrist on the mat and covered"
           ],
           "trap": [
-            "A single shin held behind the head"
+            "One shin held behind the head"
           ]
         }
       },
       {
         "question": "Crackhead Control Entry (bottom): What supplies the angle for comfortable high-leg control?",
         "answer": "Use hip positioning and a connected knee rather than forcing the foot against a fixed knee.",
-        "answer_line": "Hip positioning that brings the supported knee close",
+        "answer_line": "Hip angle bringing the knee close",
         "distractors": {
           "plausible": [
-            "A pull on the foot while the knee stays fixed",
-            "Flat hips with the knee drifting outward"
+            "Pull foot while the knee stays fixed",
+            "Flat hips with the knee drifting out"
           ],
           "trap": [
-            "More foot height without bringing the hips closer"
+            "Raise foot without bringing hips in"
           ]
         }
       },
       {
         "question": "Crackhead Control Entry (bottom): How can you return to one-leg control?",
         "answer": "Keep the original high shin supported while lowering the second leg to return toward Mission Control.",
-        "answer_line": "Lower the reinforcing leg and keep the first shin grip",
+        "answer_line": "Second leg down; first shin held",
         "distractors": {
           "plausible": [
-            "Release the first shin while both legs stay high",
-            "Lower both legs before restoring the shin grip"
+            "Release first shin; keep legs high",
+            "Lower both legs before gripping shin"
           ],
           "trap": [
-            "Lower the first leg and retain only the second"
+            "First leg low; second stays high"
           ]
         }
       },
       {
         "question": "Crackhead Control Entry (bottom): The opponent folds your upper back; how do you reset?",
         "answer": "Release the high clinch and recover frames when the upper back is compressed or the position becomes uncomfortable.",
-        "answer_line": "Open the clinch and insert inside frames",
+        "answer_line": "Open clinch; insert inside frames",
         "distractors": {
           "plausible": [
-            "Keep the high feet connected and push the chest",
-            "Lower one leg but keep pulling the head down"
+            "Keep feet linked and push the chest",
+            "Lower one leg; keep head pulled down"
           ],
           "trap": [
-            "Shift the hips underneath the closed high clinch"
+            "Shift hips under the closed clinch"
           ]
         }
       },
       {
         "question": "Crackhead Control Entry (bottom): What must the opponent's posture allow at entry?",
         "answer": "The entry starts from broken posture and a supported Mission Control connection, not a distant upright opponent.",
-        "answer_line": "Head and shoulders close to your supported knee",
+        "answer_line": "Head and shoulders by supported knee",
         "distractors": {
           "plausible": [
-            "An upright torso beyond your supported knee",
-            "A nearby head with both shoulders drawn back"
+            "Upright torso beyond the raised knee",
+            "Head close but shoulders drawn back"
           ],
           "trap": [
-            "Shoulders close while the raised knee drifts away"
+            "Shoulders close but high knee wide"
           ]
         }
       },
       {
         "question": "Crackhead Control Entry (bottom): How do you check arm isolation after adding the second leg?",
         "answer": "The second leg reinforces posture control; it does not by itself prove New York isolation or a completed both-arm triangle.",
-        "answer_line": "Locate both elbows relative to the high legs",
+        "answer_line": "Locate both elbows by the high legs",
         "distractors": {
           "plausible": [
-            "Check only whether both feet are above the head",
-            "Check only whether the head stays below the knee"
+            "Check only feet above the head",
+            "Check only head height below knee"
           ],
           "trap": [
-            "Check only whether the second leg touches the first"
+            "Check only that the legs touch"
           ]
         }
       },
       {
         "question": "Crackhead Control Entry (bottom): Your foot rises but the knee twists; what should change?",
         "answer": "Stop the foot pull when the knee is fixed or twisting; use a comfortable hip angle or abandon the entry.",
-        "answer_line": "Release the foot pull and reposition through the hip",
+        "answer_line": "Stop foot pull; reposition the hip",
         "distractors": {
           "plausible": [
-            "Pull the foot higher to finish the closure",
-            "Keep the knee planted and move the ankle inward"
+            "Pull foot higher to close the legs",
+            "Keep knee planted; move ankle inward"
           ],
           "trap": [
-            "Release the hand briefly but keep the knee wedged"
+            "Let go briefly; keep knee wedged"
           ]
         }
       },
       {
         "question": "Crackhead Control Entry (bottom): After losing the high clinch, what protects your ribs?",
         "answer": "If the opponent frees the upper body, frame inside against chest pressure and rebuild ordinary guard.",
-        "answer_line": "An inside forearm frame as the knees recover",
+        "answer_line": "Inside forearm as the knees recover",
         "distractors": {
           "plausible": [
-            "Both hands chasing the opponent's head",
-            "Both legs reaching high with no upper-body contact"
+            "Both hands chasing their head",
+            "Both legs high without chest contact"
           ],
           "trap": [
-            "An overextended wrist grip outside the knees"
+            "Wrist grip outside both knees"
           ]
         }
       }
@@ -451,70 +451,70 @@
       {
         "question": "Crackhead Control Entry (top): Which elbow position limits easy arm isolation?",
         "answer": "Avoid straightening an arm between the high legs; keep the elbow compact while responding to the entry.",
-        "answer_line": "Bent near the ribs inside the guard space",
+        "answer_line": "Elbow bent by ribs inside the guard",
         "distractors": {
           "plausible": [
-            "Straight between the opponent's high legs",
-            "Flared wide while the wrist stays pinned"
+            "Straight arm between the high legs",
+            "Elbow wide with wrist still pinned"
           ],
           "trap": [
-            "Reaching behind the opponent's head"
+            "Reach behind the opponent's head"
           ]
         }
       },
       {
         "question": "Crackhead Control Entry (top): What does the second high leg add to the first shin grip?",
         "answer": "Recognize the second leg as reinforcement of upper-body posture control before trying to lift.",
-        "answer_line": "More restraint on head-and-shoulder lift",
+        "answer_line": "Restricts head and shoulder lift",
         "distractors": {
           "plausible": [
-            "A separate pin that fixes both wrists to the chest",
-            "A completed trap around both extended elbows"
+            "Both wrists pinned to the chest",
+            "Both extended elbows fully trapped"
           ],
           "trap": [
-            "A one-arm isolation with the other shoulder released"
+            "One arm held; other shoulder free"
           ]
         }
       },
       {
         "question": "Crackhead Control Entry (top): When can a hip or thigh frame interrupt the second-leg climb?",
         "answer": "An early hip or thigh frame with balanced base can preserve space before the high clinch closes.",
-        "answer_line": "Before the high clinch closes around the shoulders",
+        "answer_line": "Before legs close over the shoulders",
         "distractors": {
           "plausible": [
-            "After both high legs have closed around the shoulders",
-            "After an extended arm has been isolated in the high legs"
+            "After legs close over the shoulders",
+            "After the high legs isolate an arm"
           ],
           "trap": [
-            "When forward stacking has folded the bottom player's neck"
+            "Once stacking has folded their neck"
           ]
         }
       },
       {
         "question": "Crackhead Control Entry (top): What precedes standing tall or extracting an arm?",
         "answer": "Clear the high enclosure before posture recovery or arm extraction; do not pull against a retained shoulder connection.",
-        "answer_line": "Opening the high legs around the shoulders",
+        "answer_line": "Open the high legs at the shoulders",
         "distractors": {
           "plausible": [
-            "Only releasing a waist-level ankle crossing",
-            "Only lifting your chin above one foot"
+            "Uncross only waist-level ankles",
+            "Lift only the chin above a foot"
           ],
           "trap": [
-            "Only stepping one foot farther back"
+            "Step only one foot farther back"
           ]
         }
       },
       {
         "question": "Crackhead Control Entry (top): What can forward stacking do while the high clinch stays closed?",
         "answer": "Do not use a neck stack to answer the high clinch. Address the upper-body connection with balanced control.",
-        "answer_line": "It loads their neck without releasing your shoulder trap",
+        "answer_line": "Load their neck; shoulders stay held",
         "distractors": {
           "plausible": [
-            "The forward fold makes the reinforcing leg slide below your elbow",
-            "Stacking moves your shoulder through the knee hug"
+            "Fold slides the high leg below elbow",
+            "Stack frees shoulders from knee hug"
           ],
           "trap": [
-            "Head pressure substitutes for opening the high-leg connection"
+            "Head pressure opens the high legs"
           ]
         }
       }

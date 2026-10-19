@@ -204,14 +204,14 @@
       {
         "question": "Strip Grip from Zombie (top): What is the early grip-defense objective?",
         "answer": "Zombie seeks to clear the hand outside and close the knee hug; deny that arm relationship before the trap forms.",
-        "answer_line": "Keep your hand and elbow inside the arm pummel",
+        "answer_line": "Keep both hand and elbow inside",
         "distractors": {
           "plausible": [
-            "Keep the hand on the chest while letting the elbow drift out",
-            "Keep the elbow low while leaving the wrist outside"
+            "Hand on chest; elbow drifts outside",
+            "Elbow low, wrist still outside"
           ],
           "trap": [
-            "Free only the wrist after the knee hug closes"
+            "Only wrist free after knee hug shuts"
           ]
         }
       },
@@ -221,95 +221,95 @@
         "answer_line": "The elbow following toward the ribs",
         "distractors": {
           "plausible": [
-            "The shoulder lifting while the elbow stays on the mat",
-            "The elbow drifting forward toward their head"
+            "Shoulder rises, elbow stays on mat",
+            "Elbow moves toward their head"
           ],
           "trap": [
-            "The wrist bending inward around their pummeling hand"
+            "Wrist curls round the pummeling hand"
           ]
         }
       },
       {
         "question": "Strip Grip from Zombie (top): Which frame helps before the knee hug closes?",
         "answer": "The early inside forearm occupies the space the pummeling hand needs and limits outside arm isolation.",
-        "answer_line": "A forearm between your chest and the opponent",
+        "answer_line": "Forearm between the two chests",
         "distractors": {
           "plausible": [
-            "A long arm reaching behind their back",
-            "A palm posted far outside their hip"
+            "Long arm reaches behind their back",
+            "Palm posted far outside their hip"
           ],
           "trap": [
-            "A hand on the chest with the forearm outside their thigh"
+            "Hand on chest, forearm outside thigh"
           ]
         }
       },
       {
         "question": "Strip Grip from Zombie (top): Where must the high leg loosen for later posture?",
         "answer": "Opening the high-leg attachment creates slack for aligned head and shoulder recovery after the hand defense.",
-        "answer_line": "At its hip-and-thigh connection around the upper body",
+        "answer_line": "High leg's hip-thigh attachment",
         "distractors": {
           "plausible": [
-            "Only at their free foot while the high thigh stays tight",
-            "Only between their fingers and your palm"
+            "Only free foot; high thigh tight",
+            "Only between their fingers and palm"
           ],
           "trap": [
-            "Only at your knee base while the high shin remains attached"
+            "Only knee base; high shin attached"
           ]
         }
       },
       {
         "question": "Strip Grip from Zombie (top): When should you extract an already captured shoulder?",
         "answer": "An arm caught under a closed knee hug needs slack before elbow withdrawal; stop if joint pressure has already developed.",
-        "answer_line": "After the leg enclosure gives it room to move",
+        "answer_line": "Once leg loop lets the shoulder move",
         "distractors": {
           "plausible": [
-            "As soon as your free hand has a firm post",
-            "Before the high leg opens, with a stronger pull"
+            "Once free hand finds a firm mat post",
+            "Stronger pull before leg opens"
           ],
           "trap": [
-            "When the hand clears but the elbow stays under the knee hug"
+            "Hand clear; elbow still in knee hug"
           ]
         }
       },
       {
         "question": "Strip Grip from Zombie (top): What completes the useful arm-recovery checkpoint?",
         "answer": "Restore inside arm position and safe posture after the high attachment opens; this prepares the next guard exchange.",
-        "answer_line": "Inside elbow with the high upper-body hold released",
+        "answer_line": "Elbow in; high upper-body hold freed",
         "distractors": {
           "plausible": [
-            "A free hand but the shoulder still pinned outside",
-            "A higher chin inside an unchanged leg loop"
+            "Hand free, shoulder pinned outside",
+            "Chin higher, leg loop unchanged"
           ],
           "trap": [
-            "An inside wrist with the elbow still beyond their thigh"
+            "Wrist inside, elbow beyond thigh"
           ]
         }
       },
       {
         "question": "Strip Grip from Zombie (top): Which connection does the word grip refer to here?",
         "answer": "The relevant grips organize the hand, high leg and knee hug. They do not define a lower-leg entanglement.",
-        "answer_line": "The hand pummel and resulting arm isolation",
+        "answer_line": "Hand pummel into arm isolation",
         "distractors": {
           "plausible": [
-            "The head-side regrip after neck clearance",
-            "The second-leg clasp reinforcing the head enclosure"
+            "Head-side regrip after neck clears",
+            "Second leg clasps the head enclosure"
           ],
           "trap": [
-            "The high ankle hold alone, regardless of the arm position"
+            "High ankle grip, arm irrelevant"
           ]
         }
       },
       {
-        "question": "Strip Grip from Zombie (top): Does a freed hand alone establish open guard?",
+        "question": "Strip Grip from Zombie (top): After freeing your hand, what decides which guard remains?",
         "answer": "Hand clearance changes one connection. The resulting guard depends on which high-leg and lower-body controls remain.",
-        "answer_line": "No; check the remaining high and lower leg connections",
+        "answer_line": "Remaining high and low leg controls",
         "distractors": {
           "plausible": [
-            "Yes, because no hand grip means no guard",
-            "Yes, because an inside elbow clears both knees"
+            "Whether your hand has any grip left",
+            "Whether elbow is inside their knees"
           ],
           "trap": [
-            "Yes, once the high leg lowers, regardless of low ankle closure"
+            "Only high-leg height, not low ankles"
           ]
         }
       }
@@ -414,56 +414,56 @@
       {
         "question": "Strip Grip from Zombie (bottom): What supports your pummel while they recover their hand?",
         "answer": "Maintain the Mission Control posture connection while the free hand works; a loose high foot is insufficient.",
-        "answer_line": "A high leg holding posture with the knee supported",
+        "answer_line": "High leg holds posture; knee braced",
         "distractors": {
           "plausible": [
-            "A foot hanging high while they sit upright",
-            "Both hands chasing their wrist with the leg down"
+            "Foot hangs high while they sit up",
+            "Both hands chase wrist with leg down"
           ],
           "trap": [
-            "A high ankle held while the supported knee falls backward"
+            "Ankle high while knee falls backward"
           ]
         }
       },
       {
         "question": "Strip Grip from Zombie (bottom): Where can the hand-first pummel seek another opening?",
         "answer": "Eddy's version works near the hand because the opponent can clamp more strongly directly at the elbow.",
-        "answer_line": "Under the hand rather than the clamped elbow",
+        "answer_line": "Under hand, beyond the elbow clamp",
         "distractors": {
           "plausible": [
-            "Under the elbow at the point of strongest clamp",
-            "Over the wrist while pressing the hand to the chest"
+            "Under elbow where clamp is strongest",
+            "Over wrist, press hand onto chest"
           ],
           "trap": [
-            "Under the elbow before sliding toward the wrist"
+            "Hook their forearm from the outside"
           ]
         }
       },
       {
         "question": "Strip Grip from Zombie (bottom): What should you guide instead of grabbing fingers?",
         "answer": "Move the wrist-and-forearm line through available space to clear the inside frame without manipulating individual fingers.",
-        "answer_line": "The wrist and forearm toward the outside mat",
+        "answer_line": "Wrist and forearm to the outer mat",
         "distractors": {
           "plausible": [
-            "The elbow sideways while the hand stays on your chest",
-            "The hand upward while the forearm stays across your chest"
+            "Elbow sideways, hand stays on chest",
+            "Hand up, forearm stays across chest"
           ],
           "trap": [
-            "The wrist inward under the opponent's sternum"
+            "Wrist inward beneath their sternum"
           ]
         }
       },
       {
         "question": "Strip Grip from Zombie (bottom): Their hand reaches the mat; what prevents its return?",
         "answer": "Follow the clearance by securing the arm wrap and supported knee so the opponent cannot easily bring the frame back inside.",
-        "answer_line": "Cover the arm promptly with the knee hug",
+        "answer_line": "Cover arm promptly with knee hug",
         "distractors": {
           "plausible": [
-            "Pause with the arm uncovered while changing grips",
-            "Let the knee drift away to reach farther"
+            "Pause uncovered while changing grips",
+            "Let knee drift to reach farther"
           ],
           "trap": [
-            "Keep wrist contact but delay wrapping over the forearm"
+            "Keep wrist contact; delay arm wrap"
           ]
         }
       }

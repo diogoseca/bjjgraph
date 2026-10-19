@@ -204,11 +204,11 @@
       {
         "question": "Posture Recovery from Carni (top): Which structure must be freed before you lift the chest?",
         "answer": "Carni threatens the shoulder; free the triceps and head-side leg connection before raising posture.",
-        "answer_line": "The shoulder in the leg-and-triceps clamp",
+        "answer_line": "Shoulder in leg-and-triceps clamp",
         "distractors": {
           "plausible": [
-            "Only the wrist below the retained triceps",
-            "Only the head above the high knee"
+            "Only wrist below retained triceps",
+            "Only head above the high knee"
           ],
           "trap": [
             "Only the lower butterfly hook"
@@ -218,28 +218,28 @@
       {
         "question": "Posture Recovery from Carni (top): Where should the elbow stay before triceps control closes?",
         "answer": "Keep the elbow compact early rather than reaching into the developing shoulder clamp.",
-        "answer_line": "Close to the ribs rather than reaching away",
+        "answer_line": "Elbow close to ribs without reaching",
         "distractors": {
           "plausible": [
-            "Straight across the opponent's torso",
-            "Behind your back while you turn out"
+            "Straight across their torso",
+            "Behind your back as you turn out"
           ],
           "trap": [
-            "Above the opponent's head as a long post"
+            "Long post above the opponent's head"
           ]
         }
       },
       {
         "question": "Posture Recovery from Carni (top): What forms an inside barrier before the shoulder clamp closes?",
         "answer": "Use early inside frames while the shoulder can still move; a completed shoulder lock requires release.",
-        "answer_line": "Inside frames supported by a balanced base",
+        "answer_line": "Inside frames with a balanced base",
         "distractors": {
           "plausible": [
-            "A chest lift against the retained head-side leg",
-            "A wide post that leaves the upper arm outside"
+            "Chest lift against the head-side leg",
+            "Wide post with upper arm outside"
           ],
           "trap": [
-            "A wrist grip with the forearm outside the chest gap"
+            "Wrist grip with forearm outside gap"
           ]
         }
       },
@@ -249,39 +249,39 @@
         "answer_line": "Keep the head and upper arm aligned",
         "distractors": {
           "plausible": [
-            "Turn the head away while the elbow stays pinned",
+            "Head turned away with elbow pinned",
             "Pull the wrist behind your hip"
           ],
           "trap": [
-            "Rotate the chest before the shoulder can follow"
+            "Turn chest before shoulder follows"
           ]
         }
       },
       {
         "question": "Posture Recovery from Carni (top): When should the elbow withdraw from the high leg?",
         "answer": "Free the upper-body connection before withdrawing the shoulder and elbow together.",
-        "answer_line": "After the leg and triceps connection opens",
+        "answer_line": "After leg and triceps grips open",
         "distractors": {
           "plausible": [
-            "While the wrist alone can move",
-            "As soon as a lower butterfly hook loosens"
+            "While only the wrist can move",
+            "Once a lower butterfly hook loosens"
           ],
           "trap": [
-            "When the head can rise despite the arm trap"
+            "When head rises despite the arm trap"
           ]
         }
       },
       {
         "question": "Posture Recovery from Carni (top): What confirms successful posture recovery?",
         "answer": "Posture recovery requires actual shoulder release, not merely getting the head higher.",
-        "answer_line": "Chest upright with the shoulder freed",
+        "answer_line": "Upright chest with shoulder free",
         "distractors": {
           "plausible": [
-            "An upright head with the elbow still pinned",
-            "A lowered head-side leg with the triceps still fixed"
+            "Head upright but elbow still pinned",
+            "Head-side leg down; triceps held"
           ],
           "trap": [
-            "A free wrist with the upper arm still clamped"
+            "Wrist free but upper arm clamped"
           ]
         }
       },
@@ -291,25 +291,25 @@
         "answer_line": "An upper-body shoulder trap",
         "distractors": {
           "plausible": [
-            "A posture clinch with the upper arm free",
-            "A wrist-only grip with the elbow unrestrained"
+            "Posture clinch with upper arm free",
+            "Wrist grip with elbow unrestrained"
           ],
           "trap": [
-            "A head-only connection with the shoulder free"
+            "Head-only hold with shoulder free"
           ]
         }
       },
       {
         "question": "Posture Recovery from Carni (top): Why can lifting before arm release worsen the position?",
         "answer": "Lifting against the retained upper arm can increase shoulder rotation; clear that connection first.",
-        "answer_line": "Your torso moves while the clamped shoulder cannot follow",
+        "answer_line": "Torso lifts; held shoulder cannot",
         "distractors": {
           "plausible": [
-            "Head height draws the triceps out of the clamp first",
-            "The captured elbow follows the chest through the high leg"
+            "Head rise frees the triceps first",
+            "Trapped elbow follows chest freely"
           ],
           "trap": [
-            "The lower hook takes the load while the shoulder stays neutral"
+            "Low hook loads; shoulder stays free"
           ]
         }
       }
@@ -417,53 +417,53 @@
         "answer_line": "A close knee and shoulder connection",
         "distractors": {
           "plausible": [
-            "Only a distant wrist grip with straight arms",
-            "Flat hips with the high knee reaching away"
+            "Distant wrist grip, arms straight",
+            "Flat hips with high knee wide"
           ],
           "trap": [
-            "A head grip while the knee drifts outside the shoulder"
+            "Head grip with knee outside shoulder"
           ]
         }
       },
       {
         "question": "Posture Recovery from Carni (bottom): Where does the forearm prevent incoming chest pressure?",
         "answer": "The neck-side forearm frame creates room while the head-side leg clears.",
-        "answer_line": "Inside at the side of the opponent's neck",
+        "answer_line": "Inside beside the opponent's neck",
         "distractors": {
           "plausible": [
-            "Outside their upper arm with no torso barrier",
-            "On their near wrist with the forearm low"
+            "Outside upper arm with no barrier",
+            "At near wrist with forearm low"
           ],
           "trap": [
-            "Behind their shoulder with the elbow outside"
+            "Behind shoulder with elbow outside"
           ]
         }
       },
       {
         "question": "Posture Recovery from Carni (bottom): Which anchor helps keep the shoulder from rising?",
         "answer": "Martinez's supported foot and close knee anchor the partly belly-down shoulder-control angle.",
-        "answer_line": "Close knee, supported foot, hips partly down",
+        "answer_line": "Belly down a bit; knee in, foot down",
         "distractors": {
           "plausible": [
-            "A floating foot with the knee wide",
-            "Both feet crossed below the opponent's waist"
+            "Foot floating with the knee wide",
+            "Both feet crossed below the waist"
           ],
           "trap": [
-            "A neck pull with the hips far away"
+            "Neck pull with the hips far away"
           ]
         }
       },
       {
         "question": "Posture Recovery from Carni (bottom): The shoulder has escaped; how do you protect guard?",
         "answer": "Once the clamp opens, use an inside frame and hip movement to return a knee shield rather than chasing the freed arm.",
-        "answer_line": "Release the arm chase and frame while returning a knee",
+        "answer_line": "Frame inside and bring a knee back",
         "distractors": {
           "plausible": [
-            "Follow the free wrist with both arms extended",
-            "Keep turning while a remnant wrist grip stays fixed"
+            "Chase free wrist with arms extended",
+            "Keep turning with wrist still fixed"
           ],
           "trap": [
-            "Leave both knees outside as chest pressure settles"
+            "Leave knees outside as chest settles"
           ]
         }
       }

@@ -204,126 +204,126 @@
       {
         "question": "Escape Chill Dog (bottom): What are you releasing in this bottom-seat escape?",
         "answer": "The bottom player owns Chill Dog. This reset opens that facing high guard rather than escaping from a turtle ride.",
-        "answer_line": "Your own neck-cleared high guard and arm trap",
+        "answer_line": "Your neck-cleared guard and arm trap",
         "distractors": {
           "plausible": [
-            "Your high leg while keeping the shoulder wrap loaded",
-            "Your overhook while retaining the high head enclosure"
+            "High leg only; shoulder wrap loaded",
+            "Overhook only; head stays enclosed"
           ],
           "trap": [
-            "Your head-side hand while maintaining the knee hug"
+            "Head-side hand only; knee hug stays"
           ]
         }
       },
       {
         "question": "Escape Chill Dog (bottom): Which load must come off before the leg lowers?",
         "answer": "Release the loaded arm-and-neck connection before lowering the high leg so the movement does not drag a fixed joint.",
-        "answer_line": "Tension on the captured shoulder and neck",
+        "answer_line": "Captured shoulder and neck tension",
         "distractors": {
           "plausible": [
-            "Only pressure from your free foot on the mat",
-            "Only your overhook while the neck stays cinched"
+            "Only free-foot pressure on the mat",
+            "Only overhook; neck stays cinched"
           ],
           "trap": [
-            "Only the high-leg squeeze while keeping wrist tension"
+            "Only leg squeeze; wrist still pulled"
           ]
         }
       },
       {
         "question": "Escape Chill Dog (bottom): How do you lower the high leg without twisting the knee?",
         "answer": "Lower the leg through a comfortable hip angle; avoid pulling the foot while the knee is fixed against the opponent.",
-        "answer_line": "Change the hip angle and guide the leg down",
+        "answer_line": "Turn your hip; guide high leg down",
         "distractors": {
           "plausible": [
-            "Stay flat and drag the ankle sideways",
-            "Keep the hip still and straighten the trapped leg"
+            "Stay flat; drag the ankle sideways",
+            "Fix hip; straighten the trapped leg"
           ],
           "trap": [
-            "Pull the foot down before changing the hip angle"
+            "Pull foot down before turning hip"
           ]
         }
       },
       {
         "question": "Escape Chill Dog (bottom): What replaces the leg as their shoulder comes forward?",
         "answer": "As Chill Dog opens, put the forearm inside the approaching shoulder and recover knee space to resist chest access.",
-        "answer_line": "An inside forearm frame and a returning knee",
+        "answer_line": "Inside forearm and returning knee",
         "distractors": {
           "plausible": [
-            "Both hands chasing the back of their head",
-            "The old high leg hanging loosely behind them"
+            "Both hands chase behind their head",
+            "Old high leg hangs loosely behind"
           ],
           "trap": [
-            "An outside forearm with the near knee still trailing"
+            "Forearm outside; near knee trailing"
           ]
         }
       },
       {
         "question": "Escape Chill Dog (bottom): How should chest and knees align during the facing reset?",
         "answer": "Maintain a facing orientation while recovering the knees, so the reset remains guard retention rather than back exposure.",
-        "answer_line": "Toward the opponent as your knees return inside",
+        "answer_line": "Chest faces them; knees come inside",
         "distractors": {
           "plausible": [
-            "Chest away from them with both knees trailing",
-            "Chest down with both knees tucked underneath you"
+            "Chest away; both knees trail",
+            "Chest down; knees tucked underneath"
           ],
           "trap": [
-            "Chest toward them while both knees remain outside"
+            "Chest faces them; knees stay outside"
           ]
         }
       },
       {
         "question": "Escape Chill Dog (bottom): Their chest enters as the leg drops; what is missing?",
         "answer": "Opening the high leg is incomplete if chest pressure fills the gap; restore the shoulder frame and make space with the hips.",
-        "answer_line": "A frame preserving room for the inside knee",
+        "answer_line": "Frame holding space for inside knee",
         "distractors": {
           "plausible": [
-            "A tighter grip on your unsupported foot",
-            "A farther reach over their back"
+            "Grip your unsupported foot tighter",
+            "Reach farther over their back"
           ],
           "trap": [
-            "A knee pulled in without a forearm at their shoulder"
+            "Pull knee in without shoulder frame"
           ]
         }
       },
       {
         "question": "Escape Chill Dog (bottom): What shows the arm isolation has already failed?",
         "answer": "An inside elbow becomes a useful frame again, so abandon the failing Chill Dog trap and recover ordinary guard if needed.",
-        "answer_line": "Their elbow returns between the two bodies",
+        "answer_line": "Their elbow returns between bodies",
         "distractors": {
           "plausible": [
-            "Their hand remains outside on the mat",
-            "Your knee stays hugged over the trapped arm"
+            "Their hand stays outside on the mat",
+            "Your knee hug stays over their arm"
           ],
           "trap": [
-            "Their free hand frames while the trapped elbow stays out"
+            "Free hand frames; caught elbow out"
           ]
         }
       },
       {
         "question": "Escape Chill Dog (bottom): Why use a short shrimp after releasing the clinch?",
         "answer": "Lateral hip movement creates room for guard recovery after the high connection is released; it does not require a reversal.",
-        "answer_line": "To make space for a knee behind the forearm frame",
+        "answer_line": "Make knee room behind forearm frame",
         "distractors": {
           "plausible": [
-            "To bridge their weight upward without moving your hips aside",
-            "To restore the head grip before the knee returns"
+            "Bridge up without moving hips aside",
+            "Regain head grip before knee space"
           ],
           "trap": [
-            "To bring the knee in while letting the forearm fold"
+            "Bring knee in as the forearm folds"
           ]
         }
       },
       {
         "question": "Escape Chill Dog (bottom): What confirms a facing reset without assuming half guard?",
         "answer": "Inside knees and forearms restore a facing guard barrier after the high leg opens. This does not automatically capture one opposing leg in half guard; check which lower-leg connections remain.",
-        "answer_line": "Knees and forearms inside, facing the opponent",
+        "answer_line": "Facing them, knees and forearms in",
         "distractors": {
           "plausible": [
-            "The high leg has opened, so one leg is trapped",
-            "The opponent's head rose, so closed guard exists"
+            "High leg open, so one leg is caught",
+            "Head up, so ankles must be crossed"
           ],
           "trap": [
-            "An open high leg with the near knee still outside"
+            "High leg open; near knee outside"
           ]
         }
       }
@@ -431,25 +431,25 @@
         "answer_line": "The free arm as an inside frame",
         "distractors": {
           "plausible": [
-            "The trapped arm reaching farther across the mat",
-            "Both arms reaching around the partner's back"
+            "Trapped arm reaches across the mat",
+            "Both arms reach around their back"
           ],
           "trap": [
-            "The free arm posted wide while the trapped elbow frames"
+            "Free arm outside; caught arm frames"
           ]
         }
       },
       {
         "question": "Escape Chill Dog (top): Which cue means the upper-body control still exists?",
         "answer": "A remaining knee hug and cleared head-side arm can still retain Chill Dog even if the free leg has moved.",
-        "answer_line": "Their knee hug remains with the head-side arm cleared",
+        "answer_line": "Knee hug holds; head-side arm clear",
         "distractors": {
           "plausible": [
-            "Their knees have returned between the bodies",
-            "Both of your elbows frame freely inside"
+            "Their knees return between bodies",
+            "Both your elbows frame freely inside"
           ],
           "trap": [
-            "Their free foot stays on your hip after the high leg drops"
+            "Foot on hip, high leg already down"
           ]
         }
       },
@@ -459,8 +459,8 @@
         "answer_line": "Its closure behind your head",
         "distractors": {
           "plausible": [
-            "Their foot touching the mat beside the hip",
-            "Their knee recovering below your chest"
+            "Their foot settles beside the hip",
+            "Their knee returns below your chest"
           ],
           "trap": [
             "Its crossing low behind your waist"
@@ -470,28 +470,28 @@
       {
         "question": "Escape Chill Dog (top): How should you retrieve the isolated arm?",
         "answer": "The opening must free the shoulder enough for a controlled elbow recovery; pulling against a fixed leg is not a release.",
-        "answer_line": "Wait for slack, then draw the elbow toward the ribs",
+        "answer_line": "After slack, bring elbow toward ribs",
         "distractors": {
           "plausible": [
-            "Pull the hand first while the elbow stays outside",
-            "Extend the arm to enlarge the leg loop"
+            "Pull hand first; elbow stays outside",
+            "Extend arm to enlarge the leg loop"
           ],
           "trap": [
-            "Draw the elbow in when only the wrist has cleared"
+            "Pull elbow in once only wrist clears"
           ]
         }
       },
       {
         "question": "Escape Chill Dog (top): When is upright posture available?",
         "answer": "Raise head and chest progressively once the upper-body control is clear, then address the guard that remains.",
-        "answer_line": "After the head and shoulder enclosure has opened",
+        "answer_line": "Head and shoulder enclosure opens",
         "distractors": {
           "plausible": [
-            "When your knee base widens despite a tight loop",
-            "When their free foot drops but the high leg holds"
+            "Knees widen despite a tight loop",
+            "Free foot down; high leg holds"
           ],
           "trap": [
-            "When the hand is free but the shoulder remains enclosed"
+            "Hand freed; shoulder still enclosed"
           ]
         }
       }

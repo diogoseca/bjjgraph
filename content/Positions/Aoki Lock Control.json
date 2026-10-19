@@ -37,14 +37,14 @@
       {
         "question": "Aoki defense: which foot position warns that this is more than a straight ankle lock?",
         "answer": "A turned-out foot enclosed beside the armpit is a rotational threat, not simply a straight ankle-lock grip.",
-        "answer_line": "Toes turned outward beside the attacker's ribs",
+        "answer_line": "Toes out beside their ribs",
         "distractors": {
           "plausible": [
-            "Toes pointing straight along the forearm",
-            "Sole flat against the mat below the hips"
+            "Toes straight along their forearm",
+            "Sole flat on the mat below the hips"
           ],
           "trap": [
-            "Heel free while only the calf is squeezed"
+            "Heel free; only the calf squeezed"
           ]
         }
       },
@@ -54,95 +54,95 @@
         "answer_line": "The arm wrapping around your foot",
         "distractors": {
           "plausible": [
-            "Only the foot on your hip while leaving the wrapping arm free",
-            "The mat behind you while pulling the captured leg backward"
+            "Their foot on your hip alone",
+            "Post behind you and pull the leg"
           ],
           "trap": [
-            "The far leg for a counter before interrupting the foot enclosure"
+            "Counterattack their far leg first"
           ]
         }
       },
       {
         "question": "Aoki defense: why is turning your torso dangerous while the foot remains captured?",
         "answer": "Do not spin the torso while the foot remains fixed.",
-        "answer_line": "The fixed foot makes the knee absorb rotation",
+        "answer_line": "The fixed foot loads knee rotation",
         "distractors": {
           "plausible": [
-            "The ankle straightens without transmitting force to the knee",
-            "The heel slips out before the knee changes direction"
+            "The ankle absorbs all turning force",
+            "The heel slips free before the turn"
           ],
           "trap": [
-            "The hip clamp makes the foot follow the shoulders"
+            "The foot follows your shoulders"
           ]
         }
       },
       {
         "question": "Aoki defense: which connection must open before you pull the trapped leg away?",
         "answer": "Address the upper-body grip before withdrawing the leg through a tight entanglement.",
-        "answer_line": "The upper-body enclosure around the foot",
+        "answer_line": "Their arm enclosure on your foot",
         "distractors": {
           "plausible": [
-            "Only the hip-posting leg while the heel stays inside the arms",
-            "The space between your own knees with the foot still clamped"
+            "Their hip-posting leg alone",
+            "The gap between your own knees"
           ],
           "trap": [
-            "The far-leg hook while the instep remains under their upper arm"
+            "Their far-leg hook alone"
           ]
         }
       },
       {
         "question": "Aoki defense: the grip is secure but painless; what makes continuing risky?",
         "answer": "Tap early to a secure rotational lock rather than treating the absence of pain as safety.",
-        "answer_line": "Rotation may load the ankle or knee before pain",
+        "answer_line": "Joint load can precede pain",
         "distractors": {
           "plausible": [
-            "Damage depends on squeezing the calf rather than enclosing the foot",
-            "A bent knee absorbs the turn without stressing the joint"
+            "Only calf compression causes damage",
+            "A bent knee absorbs the turn safely"
           ],
           "trap": [
-            "The lack of pain shows that the foot is still free to rotate"
+            "No pain means the foot can rotate"
           ]
         }
       },
       {
         "question": "Aoki defense: after the opponent opens the lock, what precedes resuming the exchange?",
         "answer": "Separate the feet and restore a stable guard or standing base before resuming movement.",
-        "answer_line": "Clear both feet and rebuild guard or standing base",
+        "answer_line": "Free both feet; rebuild your base",
         "distractors": {
           "plausible": [
-            "Leave your heel tucked in the same armpit",
-            "Turn away while their legs still hold your hip"
+            "Leave the heel in their armpit",
+            "Turn away with the hip still held"
           ],
           "trap": [
-            "Pull backward with your toes still enclosed"
+            "Pull back with the toes enclosed"
           ]
         }
       },
       {
         "question": "Aoki defense: in the reviewed seated setup, where is the foot-locker relative to your legs?",
         "answer": "The foot-lock player is seated or on the side facing the opponent's lower body.",
-        "answer_line": "Seated or on their side facing your legs",
+        "answer_line": "Facing your legs, seated or side-on",
         "distractors": {
           "plausible": [
-            "Beside your knee with the foot beyond their upper-arm reach",
-            "Facing your chest with the captured foot behind their own hips"
+            "Beside your knee, out of foot reach",
+            "Facing your chest, foot behind them"
           ],
           "trap": [
-            "Leaning across the thighs without bringing the foot beside the ribs"
+            "Over your thighs, foot far from ribs"
           ]
         }
       },
       {
         "question": "Aoki defense: which restraint distinguishes this threat from an omoplata?",
         "answer": "The captured limb is the foot and lower leg. This is distinct from an omoplata-style shoulder trap and from a bent-knee calf slicer. Either player can become the foot-lock attacker during an entanglement exchange.",
-        "answer_line": "Your foot is enclosed against their upper body",
+        "answer_line": "Foot clamped to their upper body",
         "distractors": {
           "plausible": [
-            "Your bent arm is pinned beneath their thigh",
-            "Your wrist is held behind your lower back"
+            "Bent arm pinned under their thigh",
+            "Wrist held behind your lower back"
           ],
           "trap": [
-            "Your elbow is trapped between their knees"
+            "Elbow trapped between their knees"
           ]
         }
       }
@@ -341,14 +341,14 @@
       {
         "question": "Aoki control: what orientation of the captured foot gives the lock its rotational character?",
         "answer": "Recognize the foot orientation without twisting it into position against resistance.",
-        "answer_line": "The foot turns outward in the arm enclosure",
+        "answer_line": "Foot turned outward inside the arms",
         "distractors": {
           "plausible": [
-            "The toes stay square with the kneecap",
-            "The sole points directly down to the mat"
+            "Toes aligned with the kneecap",
+            "Sole pointing straight at the mat"
           ],
           "trap": [
-            "The ankle stays free while the calf is folded"
+            "Ankle free while the calf folds"
           ]
         }
       },
@@ -358,67 +358,67 @@
         "answer_line": "Close beside your ribs and armpit",
         "distractors": {
           "plausible": [
-            "Between your knees with your arms extended",
-            "Across your shoulder with the heel loose"
+            "Between your knees, arms extended",
+            "Across your shoulder, heel loose"
           ],
           "trap": [
-            "Against your chest while letting the foot slide"
+            "At your chest but free to slide"
           ]
         }
       },
       {
         "question": "Aoki control: what prevents the opponent moving the hip freely away from your grip?",
         "answer": "Use the entanglement or foot-on-hip frame to manage distance before considering a finish.",
-        "answer_line": "A leg entanglement or foot frame at the hip",
+        "answer_line": "Leg entanglement or hip foot-frame",
         "distractors": {
           "plausible": [
-            "A tight heel grip with no contact at the thigh or hip",
-            "Pulling the ankle with both arms extended"
+            "Heel grip without thigh contact",
+            "Ankle pull with both arms extended"
           ],
           "trap": [
-            "Squeezing the calf without a hip connection"
+            "Calf squeeze without a hip anchor"
           ]
         }
       },
       {
         "question": "Aoki control: when should a cooperative capture drill stop adding load?",
         "answer": "Stop the drill at a secure capture; the control can become a damaging rotation with very little movement.",
-        "answer_line": "Once the turned foot is securely enclosed",
+        "answer_line": "When the turned foot is enclosed",
         "distractors": {
           "plausible": [
-            "Once the knee has visibly rotated inward",
-            "Once the opponent's hip lifts off the mat"
+            "When the knee visibly rotates",
+            "When their hip lifts off the mat"
           ],
           "trap": [
-            "Once calf pressure becomes uncomfortable"
+            "When calf pressure becomes painful"
           ]
         }
       },
       {
         "question": "Aoki control: which of your foot placements can feed the reciprocal counter?",
         "answer": "While controlling one leg, do not overlook your own hip-posting foot. Kesting shows that exposed post being collected for an Aoki counter.",
-        "answer_line": "A foot posted on the opponent's hip within their reach",
+        "answer_line": "The reachable foot on their hip",
         "distractors": {
           "plausible": [
-            "A foot shielded behind your inside knee and away from their hands",
-            "A foot withdrawn behind your own hip beyond their arm reach"
+            "A foot hidden behind your knee",
+            "A foot withdrawn behind your hip"
           ],
           "trap": [
-            "A mat post outside their reach with the toes facing away from the grip"
+            "A distant mat post, toes turned away"
           ]
         }
       },
       {
         "question": "Aoki control: what should open immediately when the partner signals a stop?",
         "answer": "Open the arm enclosure and remove leg pressure immediately on a tap, sudden movement, or pain.",
-        "answer_line": "Your arm enclosure and the leg pressure",
+        "answer_line": "The arm clamp and leg pressure",
         "distractors": {
           "plausible": [
             "Only the hand nearest their toes",
-            "Only the foot that is not on their hip"
+            "Only the foot away from their hip"
           ],
           "trap": [
-            "Your elbows while your knees keep twisting"
+            "The elbows, with knees still turning"
           ]
         }
       },
@@ -428,25 +428,25 @@
         "answer_line": "Toward the opponent's hips and legs",
         "distractors": {
           "plausible": [
-            "Away from the captured leg with its foot behind your own hips",
-            "Toward their upper chest with the foot left beyond your ribs"
+            "Away, with the foot behind your hips",
+            "Toward their chest, foot far away"
           ],
           "trap": [
-            "Down toward the mat while the heel stays outside the arm enclosure"
+            "Down, with heel outside your arms"
           ]
         }
       },
       {
         "question": "Aoki control: what separates this capture from a calf slicer?",
         "answer": "The captured limb is the foot and lower leg. This is distinct from an omoplata-style shoulder trap and from a bent-knee calf slicer. Either player can become the foot-lock attacker during an entanglement exchange.",
-        "answer_line": "An enclosed turned foot supplies the lever",
+        "answer_line": "The enclosed, turned foot is a lever",
         "distractors": {
           "plausible": [
-            "A bent knee folds over a shin fulcrum",
-            "The heel is pulled toward the same-side hip"
+            "A bent knee folds over a shin",
+            "Heel pulled to the same-side hip"
           ],
           "trap": [
-            "The calf is compressed with the ankle free"
+            "Calf compressed with the ankle free"
           ]
         }
       }

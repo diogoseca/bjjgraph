@@ -200,11 +200,11 @@
       {
         "question": "Anaconda to Dead Orchard (attacker): What does the starting arm loop contain?",
         "answer": "The initial Anaconda uses the attacker's arms to enclose the neck and one opposing arm; Dead Orchard uses the legs.",
-        "answer_line": "The neck and one arm in a front headlock",
+        "answer_line": "The neck and one arm in the loop",
         "distractors": {
           "plausible": [
-            "The neck alone with both arms outside",
-            "The neck and both arms in the arm loop"
+            "Neck alone with both arms outside",
+            "The neck and both arms in the loop"
           ],
           "trap": [
             "One upper arm with the neck outside"
@@ -214,14 +214,14 @@
       {
         "question": "Anaconda to Dead Orchard (attacker): What releases the neck before changing seats?",
         "answer": "Open the enclosing arms completely before changing the body relationship; merely easing the squeeze leaves the neck captured.",
-        "answer_line": "Unclasp and open the head-and-arm loop",
+        "answer_line": "Unclasp and open the arm loop",
         "distractors": {
           "plausible": [
-            "Keep the arm clasp and soften the squeeze",
-            "Move the supporting hand but retain the neck wrap"
+            "Keep the clasp; soften the squeeze",
+            "Move the hand; retain the neck wrap"
           ],
           "trap": [
-            "Sit toward guard with the arm loop still linked"
+            "Sit to guard with the loop linked"
           ]
         }
       },
@@ -231,25 +231,25 @@
         "answer_line": "Bottom guard facing the opponent",
         "distractors": {
           "plausible": [
-            "Top front headlock over the shoulders",
-            "Side control beside the opponent's chest"
+            "Top headlock over their shoulders",
+            "Side control beside their chest"
           ],
           "trap": [
-            "Back control behind the opponent's torso"
+            "Back control behind their torso"
           ]
         }
       },
       {
         "question": "Anaconda to Dead Orchard (attacker): In the new guard, how do you support the raised knee?",
         "answer": "In the separate Mission Control phase, keep the hips close and support the raised knee rather than hauling the foot against it.",
-        "answer_line": "Bring the hips close and hug the knee",
+        "answer_line": "Bring hips close and hug the knee",
         "distractors": {
           "plausible": [
             "Stay flat and pull the foot higher",
-            "Let the knee drift away from the chest"
+            "Let the knee drift from the chest"
           ],
           "trap": [
-            "Hug the knee while leaving the hips far away"
+            "Hug the knee with the hips far away"
           ]
         }
       },
@@ -260,7 +260,7 @@
         "distractors": {
           "plausible": [
             "The neck with only one arm inside",
-            "Both forearms with the shoulders outside"
+            "Forearms in; both shoulders outside"
           ],
           "trap": [
             "The head with both shoulders outside"
@@ -270,14 +270,14 @@
       {
         "question": "Anaconda to Dead Orchard (attacker): Where does the cooperative capture drill stop?",
         "answer": "Check the both-arm enclosure without extending a captured elbow or compressing the partner's neck.",
-        "answer_line": "At both-arm leg control with the elbows unloaded",
+        "answer_line": "Both arms held; elbows left unloaded",
         "distractors": {
           "plausible": [
-            "At two raised legs before the figure-four closes",
-            "At both-arm control with one elbow fully extended"
+            "Legs raised but figure-four open",
+            "Both arms held; one elbow extended"
           ],
           "trap": [
-            "At a closed triangle after one shoulder slips out"
+            "Triangle closed; one shoulder out"
           ]
         }
       },
@@ -287,53 +287,53 @@
         "answer_line": "Top headlock to facing bottom guard",
         "distractors": {
           "plausible": [
-            "Both attack from above the shoulder line",
-            "Both require chest-to-back attachment"
+            "Both attack above the shoulders",
+            "Both require chest-to-back contact"
           ],
           "trap": [
-            "A roll preserves the same attacking seat"
+            "A roll keeps the same attacking seat"
           ]
         }
       },
       {
         "question": "Anaconda to Dead Orchard (attacker): How do the legs complete the destination control?",
         "answer": "Anaconda uses an arm enclosure; Dead Orchard requires a newly established high leg enclosure around both arms.",
-        "answer_line": "A high figure-four enclosing both arms",
+        "answer_line": "High figure-four around both arms",
         "distractors": {
           "plausible": [
-            "A high figure-four with one arm outside",
-            "Two high shins without a figure-four closure"
+            "High figure-four with one arm out",
+            "High shins with no figure-four"
           ],
           "trap": [
-            "A low figure-four beneath both elbows"
+            "Low figure-four beneath both elbows"
           ]
         }
       },
       {
         "question": "Anaconda to Dead Orchard (attacker): A neck is still fixed during the seat change; what first?",
         "answer": "If the neck remains fixed, release the arm enclosure before turning or attempting the separate guard phase.",
-        "answer_line": "Open the remaining neck enclosure before turning",
+        "answer_line": "Open the neck loop before turning",
         "distractors": {
           "plausible": [
-            "Turn the hips while keeping the neck grip",
-            "Ease the squeeze but leave the arms linked"
+            "Turn hips with the neck grip kept",
+            "Ease pressure; leave the arms linked"
           ],
           "trap": [
-            "Climb the legs before undoing the neck wrap"
+            "Climb legs before undoing the wrap"
           ]
         }
       },
       {
-        "question": "Anaconda to Dead Orchard (attacker): What creates knee space in the separate guard phase?",
+        "question": "Anaconda to Dead Orchard (attacker): What makes knee room while blocking chest pressure?",
         "answer": "After the front headlock is released, inside frames and a small hip escape can create room for the knees before building high guard.",
-        "answer_line": "Inside frames and a small lateral hip escape",
+        "answer_line": "Inside frames plus lateral hip shift",
         "distractors": {
           "plausible": [
-            "A hip shift with both knees left outside",
-            "Pulling the knees up while staying flat"
+            "Hip shift with both forearms outside",
+            "Pull knees up while staying flat"
           ],
           "trap": [
-            "Extending both frames without moving the hips"
+            "Extend frames without moving hips"
           ]
         }
       }
@@ -438,70 +438,70 @@
       {
         "question": "Anaconda to Dead Orchard (defender): What can follow straightening an arm inside the new trap?",
         "answer": "Once the exchange reaches Dead Orchard, both-arm capture exposes short arm locks even when the neck is not being choked.",
-        "answer_line": "An isolated elbow can be extended for an arm lock",
+        "answer_line": "Elbow extension into an arm lock",
         "distractors": {
           "plausible": [
-            "Only neck compression from the high legs",
-            "A shoulder escape as the elbow straightens"
+            "Only neck pressure from high legs",
+            "Shoulder escape as the elbow extends"
           ],
           "trap": [
-            "A wrist escape that leaves the elbow unloaded"
+            "Wrist escape with the elbow unloaded"
           ]
         }
       },
       {
         "question": "Anaconda to Dead Orchard (defender): How should your arms stay during the high-guard phase?",
         "answer": "Keep the arms compact; Nathan Orchard's demonstration shows how a straightened arm assists the both-arm triangle and arm isolation.",
-        "answer_line": "Bent and close while you address the leg enclosure",
+        "answer_line": "Bent and close as you open the legs",
         "distractors": {
           "plausible": [
-            "Straightened between the opponent's high legs",
-            "Reaching wide to post beyond the knees"
+            "Straight between the high legs",
+            "Reaching wide beyond the knees"
           ],
           "trap": [
-            "Pulling one wrist while leaving its shoulder trapped"
+            "Pull wrist with its shoulder stuck"
           ]
         }
       },
       {
         "question": "Anaconda to Dead Orchard (defender): Where can an early frame slow the new leg closure?",
         "answer": "Before the high figure-four closes, a frame at the hip or thigh can preserve space. It is not a guaranteed escape after closure.",
-        "answer_line": "At the hip or thigh before the legs lock high",
+        "answer_line": "At the hip or thigh before closure",
         "distractors": {
           "plausible": [
-            "On the near wrist with no hip or thigh contact",
-            "Outside the thigh with the elbow flared"
+            "On the wrist without hip contact",
+            "Outside the thigh with elbow flared"
           ],
           "trap": [
-            "On the mat beside the hip with the arm straight"
+            "Straight arm on the mat by the hip"
           ]
         }
       },
       {
         "question": "Anaconda to Dead Orchard (defender): When may you withdraw a captured shoulder and elbow?",
         "answer": "Open the leg enclosure first, then withdraw the shoulder and elbow together through available space; stop if the arm is loaded.",
-        "answer_line": "After the high leg enclosure opens around them",
+        "answer_line": "After the high leg enclosure opens",
         "distractors": {
           "plausible": [
-            "While the shoulder stays fixed and the wrist moves",
-            "As soon as the neck feels uncompressed"
+            "Shoulder fixed while the wrist moves",
+            "As soon as the neck feels free"
           ],
           "trap": [
-            "While rolling through the locked leg triangle"
+            "While rolling through the leg lock"
           ]
         }
       },
       {
         "question": "Anaconda to Dead Orchard (defender): What must be free before you raise your chest?",
         "answer": "Raise posture only after the shoulder line clears the high legs. Pulling upright with an arm still trapped can extend its elbow.",
-        "answer_line": "The shoulder line out of the high leg trap",
+        "answer_line": "Shoulders clear of the high leg trap",
         "distractors": {
           "plausible": [
-            "Only the chin above the opponent's shin",
-            "Only one hand beyond the opponent's knee"
+            "Only the chin above their shin",
+            "Only one hand beyond their knee"
           ],
           "trap": [
-            "Only the second leg lowered to the waist"
+            "Only second leg down at the waist"
           ]
         }
       }

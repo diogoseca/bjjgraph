@@ -92,7 +92,7 @@ description: "Aoki Lock to Crucifix (attacker): The opposing foot is turned outw
     },
     {
       "@type": "Question",
-      "name": "Aoki Lock to Crucifix (attacker): Where must you gain access to build the crucifix separately?",
+      "name": "Aoki Lock to Crucifix (attacker): With both arms in reach, where do you set up separately?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Obtain a separate position behind or beside the shoulders with both arms accessible."

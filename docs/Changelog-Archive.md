@@ -11303,84 +11303,95 @@ Primary instructor material corrects 87 named records whose prose described a di
 technique, including rubber-guard controls, Aoki Lock, Suloev Stretch and Hindulotine.
 Role instructions, flashcards, safety and descriptions follow the actual technique;
 unsupported graph origins are explained as missing prerequisites. A narrow Half Guard
-overview addendum preserves its real calf-slicer coverage. IDs, slugs, clips, ordered
+overview addendum preserves its real calf-slicer coverage. IDs, slugs, ordered graph
 destinations, probabilities, permanent ordinals, position_type and risk_level stay fixed.
-Categorical and route corrections remain a separate owner proposal.
+Categorical and route corrections remain a separate owner proposal. Clip curation from
+dev 84d21cee6 is preserved in full; that tip is merged without rebasing.
 
 The first description pass introduced 43 duplicate groups. Technique, origin and role
-context removed every new collision: the earlier D-309 capture measured distinct
-descriptions at 4,563 → 4,567; retained sharing was confined to existing HTML/index aliases.
-That capture on obsidian dev 45cf1f9e1 measured −208 headings, −1,364 article links
-(including −398 across 87 hub folder copies) and −208 outside links. Learning tag
-listings matched BASE under preserved p2b stamps; an own-build ordering change was a
-filesystem-date artifact, not a baseline change. D-309 is historical: later content and
-dev changes require an integrated build and a new owner-confirmed guarded capture.
+context removed every new collision. The integrated own build measures 4,563 → 4,567
+distinct descriptions, with 344 changed descriptions attributed to source; the 88
+retained groups are existing canonical/index aliases. Census moves exactly −208 headings,
+−1,364 article links and −208 outside links. The 87 hub folder copies contribute −398
+links and the other routes −966. Post-curation links are 200,784 → 199,420, clearing the
+unchanged 180,000 tier-0 and 183,310 payload floors by 19,420 and 16,110 respectively.
 
 Rewritten defensive prose changes 57 content-derived MDP response IDs across 15 attempts.
 The attempt/index mapping leaves every other mechanical field, ordered destination and
-number identical. Exact production-solver comparisons cover 13,222 GI and 11,882 no-gi
-states with identical returned values. No persisted, synced or shared key uses those IDs.
-The manifest and its four embedding app rows move with content provenance; its directory
-must equal exactly the manifest's referenced parts, with no stale generation.
+number identical. Newly produced BASE/candidate inputs exactly match the saved inputs
+whose production-solver comparisons covered 13,222 GI and 11,882 no-gi states with equal
+returned values; solver sources are unchanged. This binds prior exact solves to the
+current inputs, rather than claiming a new solve. No persisted, synced or shared key uses
+these response IDs. Exactly four app rows embed the changed MDP provenance:
+game-model.worker.js, game-study.js, game-study.worker.js and game-values.js. The MDP
+directory equals its referenced closure of 66 files, including 62 parts; no stale files
+or shard-count change remain.
 
 The concepts sample exposed systematic wording omissions, so all 518 original removals
 were reviewed individually against the technique. Truthful prose restores 356 omissions;
 18 incidental keyword/origin restorations are disclosed separately; 144 correct removals
 remain. The fresh random sample found 19 correct removals and one omission, then repaired
-that omission. Memberships were 75,684 → 75,602: 144 removed, 62 added, all 206 changes
-keyword-attributed. Negation and inherited origin keywords remain disclosed matcher limits.
-The later flashcard correction changes no instructional prose used by that matcher.
+that omission. Memberships are 75,684 → 75,602: 144 removed, 62 added, all 206 changes
+keyword-attributed. Twenty-one masks and 23 principle evidence dossiers change. Negation
+and inherited origin keywords remain disclosed matcher limits. The subsequent card
+correction changes no instructional prose used by the matcher; the integrated concepts
+payload and every membership delta exactly match that accepted review.
 
 **B1: graded answers must test the technique.** Independent review found 798 emitted
 position/transition questions containing their graded answer (120 position, 678 transition);
 a copy-the-question strategy scored 1,596/1,596, and all 1,262 rewritten source cards
-shared one generic distractor triple. All 1,262 cards were rewritten from the primary
-notes. Short answers state the requested mechanic, and authored alternatives express
-specific errors in that technique and seat. All 861 helper cards and 401 lead cards
-received an integrated editorial review. Twenty-seven overlong answer lines were
-shortened to the existing 60-character schema limit; no schema or quiz gate was relaxed.
+shared one generic distractor triple. All 1,262 cards were rewritten from primary notes.
+Short answers state the requested mechanic; alternatives express specific plausible
+errors for that technique and seat. All 861 helper cards and 401 lead cards received
+integrated editorial review. This is not independent practitioner validation.
 
-The unchanged production-method probe reports zero answer-in-question cases, zero shared
-cross-node authored triples and zero runtime findings over 4,600 calls. Every one of the
-1,021 position/transition cards exposes all three authored alternatives through the real
-rotation and filters. A reversed chronological grip choice was reworded because the
-word-set similarity filter treated its reordered words as equal to the correct answer.
-The exporter is unchanged: 241 submission cards in 30 decks still use the long answer's
-first sentence plus pooled alternatives. All 30 pools were read together. Enabling the
-roughly 4,600 dormant authored submission sets remains a separately audited follow-up.
+The earlier correction mistakenly checked the 60-character schema limit instead of the
+product's 36-character choice budget. Local CI caught 4,629 overlong options on 1,249
+cards; BASE and the original identity head had none. A full shortening and review pass
+repaired this without changing any schema, quiz gate, renderer or exporter. Against the
+post-curation snapshots, 1,252 cards / 4,737 choice fields and 14 questions change; no
+long answer changes in this pass. All choices fit 36 characters and questions fit 100.
+The unchanged corpus gate now reports zero length violations across 22,822 source cards.
 
-Random samples are retained rather than redrawn over failures: round 1 failed 6/40,
-round 2 failed 8/40. A full re-pass preceded the fresh round 3 sample, which met the
-specified threshold at 38 pass / 2 weak. Both weak cards were pooled-answer ambiguities:
-rear-naked-choke stopping time and the Hindulotine knee's anatomical reference. Both
-were corrected and rechecked; the original 38/2 verdict remains, with its frozen inputs
-and seed e3eb2e41cac676b349277ad4beeb1355. No 40/0 first-pass result is claimed.
+The actual built decks exactly reproduce the reviewed production-method probe: 4,600
+calls, zero answer-in-question cases, zero shared cross-node authored triples and zero
+runtime findings. Every one of the 1,021 position/transition cards exposes all three
+authored alternatives through the real rotation and filters. The exporter is unchanged:
+241 submission cards in 30 decks still use the long answer's first sentence and pooled
+alternatives. Those emitted answers/options remain equal to their preceding truth and
+ambiguity review. Their shortened authored choices are dormant; enabling the roughly
+4,600 authored submission sets across the corpus remains a separately audited follow-up.
 
-**STALE TIMING, pre-existing since deferred reader.js in v1.225.0.** A separate test-only
-commit repairs the generated SPA-navigation assertion. At true data-reader-ready, it
-expects exactly land(Mount Top), beacon_moved(options), mc_shown, land_q_shown and
+Earlier samples remain recorded: round 1 failed 6/40, round 2 failed 8/40, and round 3
+met the threshold at 38 pass / 2 weak, with both weaknesses subsequently repaired.
+After the full line36 review, a fresh uniform sample without replacement passed 40/40,
+zero weak, seed 84db1f041ee4eebc7e3b78a1f3c31391 (3 position, 29 transition, 8 submission
+cards). The draw was frozen before judgement; no redraw or post-draw edit occurred.
+All authored options and actual emitted choices were read, including every reachable
+pooled alternative for the sampled submissions. The unchanged fallback remains less
+specific than authored distractors; its limitation is not hidden by the zero-weak result.
+
+**STALE TIMING, pre-existing since deferred reader.js in v1.225.0.** Separate test-only
+commit 0efa07af0 repairs the generated SPA-navigation assertion. At true data-reader-ready
+it expects exactly land(Mount Top), beacon_moved(options), mc_shown, land_q_shown and
 land_q_unseen, in order and owned by the new instance. Career-zero, one fresh root and
 instance, and old-instance destruction remain required. Eight positive proof runs pass;
 mutants leaking an old-instance beat or skipping its destroy fail at the assertion.
-The generated ledger carries the exact five-beat claim and remains non-known-red.
+The ledger carries the exact five-beat claim and remains non-known-red.
 
-The integrated own build on 8aa7b9487 confirms the same −208 headings, −1,364 article
-links and −208 outside links, including the 87 hub folder copies contributing −398 links.
-It has 4,567 distinct descriptions and no new duplicate group. Exactly the four D-280
-app rows change, and the MDP directory has 66 referenced files with 62 parts. Current
-metadata inputs exactly equal the prior solved inputs. The actual emitted cards reproduce
-the reviewed probe. All 150 study/MDP JavaScript tests, 16 Python MDP tests and eight live
-study journeys pass. Eager gzip is 346,412 B (−75 B versus the integrated dev measurement,
-+3,414 B from the unchanged checkpoint); deferred raw stays 480,054/500,000 B. The 37
-corpus-census markers remain unchanged. Standard SEO/build-shape still reject the missing
-current-content receipt; artifact-only SEO contracts pass. Learning tag order differences
-in this own build remain an mtime hypothesis, never a re-seed: the guarded capture must
-match BASE on both Learning listings or stop as a finding.
+The integrated md/hubs/graph/neural/Quartz own build passed on dev 84d21cee6; its FIFO
+lock was released before validation and analysis. All 150 study/MDP JavaScript tests,
+16 Python MDP tests and eight live desktop/phone study journeys pass. Eager gzip is
+346,412 B (−75 B versus BASE, +3,414 B from the unchanged 342,998 checkpoint, leaving
+1,586 B of its +5,000 cap); deferred raw stays 480,054/500,000 B. All 37 corpus-census
+markers remain current. Standard SEO/build-shape refuse the missing current-content
+receipt; artifact-only SEO contracts pass. Only the Positions summary SEO rows are
+expected to change. The two Learning tag orders must equal BASE in the guarded capture;
+their own-build date differences remain a hypothesis and must never be re-seeded.
 
-Current dev 8aa7b9487 is merged without rebasing, preserving the goldmix changes and all
-previous archive entries. Both baseline files inherit that dev tip exactly until the
-new guarded capture is accepted; the superseded D-309 seed is not reused. The assigned
-release is 1.227.6. The short own build writes no baseline; validation and analysis run
-after lock release. The post-upstream capture, new census re-seed, green remote CI and
-independent review remain required before this draft PR can merge. The approved archive
-ceiling remains 913,038 characters.
+Version is the owner-assigned 1.227.6. The two baseline files still inherit dev 84d21cee6
+exactly. D-309 is historical and superseded by subsequent card and dev changes; this
+own build writes no baseline. A new exact-ref-confirmed guarded capture, same-PR re-seed,
+green local and remote CI, and independent review remain required before the draft can
+merge. No full-core run is started here. Previous archive entries and the approved
+913,038-character ceiling are unchanged.

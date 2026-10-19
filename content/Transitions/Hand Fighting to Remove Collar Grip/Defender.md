@@ -56,7 +56,7 @@ description: "Hand Fighting to Remove Collar Grip (defender): The free leg movin
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Invisible Collar hand fight (top): What can hold your head down without a jacket grip?",
+      "name": "Invisible Collar hand fight (top): In no-gi, what completes their high enclosure?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The second high leg reinforces upper-body posture control even when no fabric is held."
