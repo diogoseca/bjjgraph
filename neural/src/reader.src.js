@@ -226,7 +226,15 @@ class Reader {
       if (event.key !== "Escape" && !this.gameInput(event)) { this.readingInteraction(); event.stopPropagation(); }
     });
     this.root.addEventListener("click", (event) => this.link(event));
-    this.root.addEventListener("scroll", () => this.layout(), { passive: true });
+    // The reader's place survives the browser's clamp. When the scrollport grows for a moment (the
+    // pane opening moves the bottom reservation) the shorter maximum clamps scrollTop to the new end;
+    // that scroll is not the reader's, so the place is kept and layoutNow restores it once the
+    // document allows. Any other scroll, the reader's own or a deliberate write, is the new place.
+    this.root.addEventListener("scroll", () => {
+      const r = this.root, end = r.scrollHeight - r.clientHeight;
+      if (!(r.scrollTop >= end - 1 && r.scrollTop < this.placeTop)) this.placeTop = r.scrollTop;
+      this.layout();
+    }, { passive: true });
     this.resize = new ResizeObserver(() => this.layout());
     this.resize.observe(this.root);
     this.resize.observe(this.head);
@@ -256,7 +264,7 @@ class Reader {
     if (!intent && this.path === path) return;
     if (this.path !== path) {
       if (this.app._landFilmEl?.dataset.referenceFilm) this.app._clearLandFilm();
-      this.place(this.mediaHome); this.media = null; this.root.scrollTop = 0;
+      this.place(this.mediaHome); this.media = null; this.root.scrollTop = this.placeTop = 0;
     }
     this.path = path;
     this.intent = intent;
@@ -606,7 +614,9 @@ class Reader {
     focus.focus({ preventScroll: true });
   }
   readingInteraction(type) {
-    if (this.interacting) return;
+    // Reading stops the game every time it is running: since D-338 a Videos clip is reading too, so
+    // a pane that paused first can resume the game on close while the reader is still reading.
+    if (this.interacting && this.app.paused) return;
     this.interacting = true;
     if (!this.intent) this.app._declineLandQ("reading");
     this.app.setPaused(true);
@@ -1055,7 +1065,10 @@ class Reader {
       // outside arrows have a final rectangle. Keyboard/clock ask the same flag.
       card?.removeAttribute("data-reader-pending");
       for (const [el] of this.gameHomes) if (!el.isConnected) { this.resize.unobserve(el); this.gameHomes.delete(el); }
-    } finally { this.laying = false; }
+    } finally {
+      if (this.placeTop > this.root.scrollTop) this.root.scrollTop = this.placeTop;
+      this.laying = false;
+    }
   }
   destroy() {
     cancelAnimationFrame(this.layoutFrame);
