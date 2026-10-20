@@ -215,8 +215,9 @@ NEURAL_TARGET = {
     "chunk_max_bytes": 40_000,
     # D-338 (inside D-331's allowance of 506_399), owner Q7: exact measurement after D-318, D-322,
     # D-326, the CI round (_LY guard, D-329), D-331, and D-338's article view (Videos, Moves,
-    # Questions; one close icon; no Focus/Browse/eyes), no headroom. Videos returns it to 500_000.
-    "deferred_raw_bytes": 506_157,
+    # Questions; one close icon; no Focus/Browse/eyes; the reader's place kept through the pane's
+    # clamp), no headroom. Videos returns it to 500_000.
+    "deferred_raw_bytes": 506_382,
 }
 
 # Metric names under budget["neural"] that MOVED to the policy file. A ceiling left behind for one
