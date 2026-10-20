@@ -456,6 +456,11 @@
       "file": "e2e/journeys/camera-continuity.spec.ts",
       "test": "293 an exchange lands on a new current node (390)",
       "change": "D-338 (owner, U7 answered b: change something, 2026-10-20): NON-KILL recorded in the spec: execution-node-band-removed passes here since the lifted Videos section is occupied space, so the free search lands in the node band and the D-329 band preference is not gated at 390px."
+    },
+    {
+      "file": "tests/reader_handoff.test.mjs",
+      "test": "the reader handoff units (fixture; capture and adoption records; Book reserves its node band)",
+      "change": "D-338 (owner, U7 answered b: change something, 2026-10-20): STALE CONTRACT. The fixture gains the D-338 reader shape (sections, part-named closed labels, an article box for the index-fit check); the execution handoff records carry rowHeight, which keeps the card below the hand fixed during an escape; and the Book case asserts the header-less flow (no label on an open part, Moves directly under the 136px node band, the flow ending one gap below the hand) while keeping the node-band reservation and the unchanged execution snapshot. 13 of 13 pass."
     }
   ]
 }

@@ -105,8 +105,10 @@ function fixture(adopted = true) {
   r.root.getBoundingClientRect = () => ({ top: +parseFloat(r.root.style.top), bottom: 750 });
   r.game = node({ height: adopted ? "626.75px" : "0px" });
   r.game.getBoundingClientRect = () => ({ top: parseFloat(r.root.style.top) - r.root.scrollTop, height: parseFloat(r.game.style.height) });
-  r.articleEl = node(); r.mediaHome = node();
-  r.gameSections = [{ card: node() }, { card: node() }];
+  r.articleEl = node(); r.mediaHome = node(); r.sections = [];
+  r.articleEl.getBoundingClientRect = () => ({ left: 12, right: 378, width: 366 });
+  // D-338: the closed-part labels, Moves first; an open part hides its label.
+  r.gameSections = [{ part: "hand", card: node() }, { part: "card", card: node() }];
   r.dock = node(); r.dock.getBoundingClientRect = () => ({ top: 758, height: 48 });
   const wrap = node(); wrap.querySelector = () => null; a.wrapRef.current = wrap;
   const row = a.optionsRef.current = node({ top: "430.5px", bottom: "auto", paddingTop: "8px" });
@@ -136,7 +138,7 @@ test("native capture measures label clearance and replaces container bottom with
   const f = fixture(), card = choose(f);
   assert.equal(card.style.marginTop, "36.25px");
   assert.equal(f.a._landDatum().tray, 199.25);
-  assert.deepEqual(card._ngDock.reader, { rowTop: 430.5, height: 626.75 });
+  assert.deepEqual(card._ngDock.reader, { rowTop: 430.5, height: 626.75, rowHeight: 196.25 });
 });
 
 test("teardown and result display keep the same native row and article reservation", () => {
@@ -163,14 +165,16 @@ test("native layout leaves Inspect's horizontal animation to its own writer", ()
   }
 });
 
-test("Book reserves its node and section headers without changing an execution snapshot", () => {
+// STALE CONTRACT (D-338, owner): no header names Moves or Questions, and Moves leads the flow under
+// the node band; an open part's label is hidden. The reservation and the snapshot claims are kept.
+test("Book reserves its node band, with no part header, without changing an execution snapshot", () => {
   const f = fixture();
   f.r.on = () => true;
   f.r.layoutNow();
   assert.deepEqual(f.r.nodeBand, { top: 68, bottom: 204, height: 136 });
-  assert.equal(f.r.gameSections[0].card.style.top, "136px");
-  assert.equal(f.r.gameSections[1].card.style.top, "196px");
-  assert.equal(f.row.style.top, "240px");
+  assert.deepEqual(f.r.gameSections.map(s => s.card.hidden), [true, true], "an open part shows no label");
+  assert.equal(f.row.style.top, "136px", "Moves sits directly under the node band");
+  assert.equal(f.r.game.style.height, "340.25px", "the flow ends one gap below the hand");
   choose(f);
   const snapshot = f.a._execution.card._ngDock.reader;
   f.r.gameTop = 6;
@@ -199,7 +203,7 @@ test("adoption during an existing fixed execution translates its measured rectan
   f.r.layoutNow();
   assert.equal(f.row.parentElement, f.r.game);
   assert.equal(f.row.id, "reader-hand-body", "adoption publishes the named eye's actual target");
-  assert.deepEqual(card._ngDock.reader, { rowTop: 502, height: 698.25 });
+  assert.deepEqual(card._ngDock.reader, { rowTop: 502, height: 698.25, rowHeight: 196.25 });
   assert.equal(f.row.getBoundingClientRect().top, 520);
   const snapshot = card._ngDock.reader;
   f.r.layoutNow();
