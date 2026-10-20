@@ -11491,6 +11491,59 @@ CI 39306283611 on 7c27fcce3: exactly the 18 U7-PENDING. review-claude's Delta 4:
   the card visible now, green on head, and each has a never-published control killed at that claim.
 - D4-N1-N3: the ledger's pane-chrome reason and coldstart-backfill lines, and the D-333 labels.
 
+U7 answered (D-338, the owner: "b, change something"), sections-claude, 2026-10-20. Built: Videos,
+Moves and Questions name no header; Focus on reading and Browse are gone and there is no View menu;
+the article view reads Videos, Moves, Questions, then Overview; the desktop index stays and its
+heading reads role first as one phrase ("Escaping Loop Choke from Half Guard", reversing D-331 N1).
+The Videos section is lifted into the game flow above the hand, and with the article shown the film's
+one home and preference is that section (wantsMedia is Book alone). readingFocus and its reading*
+overrides are no longer read; a saved Focus is inert. Proposed for U9 and built as the recommendation:
+one close icon on every width (the ghost X the card and the hand already wear) and a closed part or
+section as a light centred label, glyph above name, no box; the index only navigates and dims what is
+closed (no eyes, no Section settings link); no new control for the map, Feedback or leaving the
+article (the logo opens the pane Browse opened). Alternatives B and C for the closed look, and an
+article X or Esc for leaving, are on the U9 screens. Measured consequence for the owner: at 1440x900
+Questions starts at about y658, so its answers sit just below the fold until the reader scrolls.
+
+The journeys found three real breaks, fixed in the app. Deck paging reset the reader to scrollTop 0,
+which after the reorder scrolled the deck away (paging, wheel momentum, chevrons, answering every card);
+a page change now scrolls only to the card's own top edge, and Home/PageUp clamp to it. At 1152px the
+Moves tray ran under the index rows, the hand's X under a link; the first fix cut the tray at the index
+once it showed, which moved the hand off the column centre and flipped its box by 236px between
+states (choice-row-centre:70); the tray is now symmetric about the column, 12px short of the index,
+decided by the index fit rather than its readiness. And the deck's backs (3px per remaining card)
+would have overlapped the first article section at the 6px token; the article now clears them. Two
+more came from pane-layout:162. Opening the pane moves the reader's bottom reservation with the column,
+so the scrollport grew for a moment (761 to 812px) before the document did, and the browser clamped a
+reader at the article's end from 8839 to 8788 for good (the document then reached 8974); the scroll
+handler now keeps the place through a clamp to a shortened end and layoutNow restores it once the
+document allows (a first try inside one layout pass changed nothing and was reverted). And a Videos
+clip is reading since D-338, so a pane that paused first could resume the game on close while the
+reader read on; a reading gesture now re-pauses a running game. Controls d338-clamped-place-lost and
+d338-running-reader-not-paused.
+
+Migration: the 18 U7-PENDING journeys and every other claim on a removed control (79 ledger rows in
+tests/artifacts/article_sections_test_migration.json). A claim whose control is gone is retired
+explicitly with D-338, never deleted: the Focus preset and its reload, the article view's Book, Map
+and Feedback toggles (their absence is now asserted), the index eyes, the side-by-side film home's
+sizes. Map-view claims boot with the article away as a returning reader left it; controls on the
+question card are scrolled into view first. pane-layout's "reopening the pane leaves the scroll alone"
+keeps its exact form, scrollTop unchanged except for the final document's own clamp, and prints its
+numbers. landing-deck-answers answers with a measured mouse click after asserting reachability: with
+the deck low in the view, locator.click()'s own scroll-into-view retry moved the reader 672px (a probe
+wrapping scrollTop, scrollIntoView and focus saw no app write with a real mouse), which no visitor's
+click does. Local runs: H20/H21 on
+the 43 reader files (403 of 436 green, then every red migrated or fixed), H22 on the other 104 files
+stopped at 284 by the orchestrator (4 reds triaged: two overlay artifacts of the local site's
+postscript stamp, the tray re-centring, and two deck-below-the-fold specs); the rest ran on CI.
+Controls (H24, H26, H30-H33): 80 reader controls, each killed at its own assertion, except
+execution-node-band-removed, recorded as a non-kill in camera-continuity's header (the lifted Videos
+section is occupied space, so the free search lands in the node band at 390px and the D-329 preference
+is not gated there); the app controls all killed, reading-band-lift-restored at its moved line 125.
+H23's journeys and controls first ran into a server the stopped H22 runner had leaked on the private
+port; its U9 screens were unaffected. Payload: deferred 506,382 B, exact, inside D-331's allowance of 506,399 (two steps, each its own
+commit); eager gzip 348,143. Receipts: scratch/article-sections/claude-verify/H19-H33.
+
 ## v1.227.5 — Clips follow the authored move and role
 
 Clips now follow the actual submission, transition or position and the half's own role.
