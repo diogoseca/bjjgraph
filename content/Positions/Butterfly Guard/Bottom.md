@@ -165,35 +165,12 @@ description: "Master Butterfly Guard Bottom in BJJ. Dynamic open guard with expl
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "2-on-1 lift to back from butterfly",
-      "description": "Butterfly Guard (Bottom) film study: 2-on-1 lift to back from butterfly, taught by Lorenz Sadychow.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/sJfkAL95S9k/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/sJfkAL95S9k",
-      "url": "https://www.youtube.com/watch?v=sJfkAL95S9k",
-      "creator": { "@type": "Person", "name": "Lorenz Sadychow" },
-      "duration": "PT61S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Butterfly sweep to crucifix",
-      "description": "Butterfly Guard (Bottom) film study: Butterfly sweep to crucifix, taught by Jean Jacques Machado.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/_wEmnFzwFl0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/_wEmnFzwFl0",
-      "url": "https://www.youtube.com/watch?v=_wEmnFzwFl0",
-      "creator": { "@type": "Person", "name": "Jean Jacques Machado" },
-      "duration": "PT56S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Marcelo Garcia push sweep at ADCC",
-      "description": "Butterfly Guard (Bottom) film study: Marcelo Garcia push sweep at ADCC, taught by Marcelo Garcia.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Ml2YppHVvj0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Ml2YppHVvj0",
-      "url": "https://www.youtube.com/watch?v=Ml2YppHVvj0",
-      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
-      "duration": "PT11S"
+      "name": "White Belt Basics - Butterfly Guard",
+      "description": "Butterfly Guard (Bottom) film study: White Belt Basics - Butterfly Guard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/SIyEqd4PrvI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/SIyEqd4PrvI",
+      "url": "https://www.youtube.com/watch?v=SIyEqd4PrvI",
+      "duration": "PT291S"
     }
   ]
 }
@@ -223,27 +200,11 @@ The learning curve for butterfly guard involves developing several interconnecte
 <p class="section-subtitle">Watch Butterfly Guard (Bottom) in action — curated instructionals</p>
 
 
-<div class="film-clip film-clip--vertical">
-
-![](https://www.youtube.com/watch?v=sJfkAL95S9k)
-
-<p class="clip-credit"><strong>2-on-1 lift to back from butterfly</strong> — taught by Lorenz Sadychow · 1:01 · <a href="https://www.youtube.com/watch?v=sJfkAL95S9k" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=_wEmnFzwFl0)
+![](https://www.youtube.com/watch?v=SIyEqd4PrvI)
 
-<p class="clip-credit"><strong>Butterfly sweep to crucifix</strong> — taught by Jean Jacques Machado · 0:56 · <a href="https://www.youtube.com/watch?v=_wEmnFzwFl0" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=Ml2YppHVvj0)
-
-<p class="clip-credit"><strong>Marcelo Garcia push sweep at ADCC</strong> — taught by Marcelo Garcia · 0:11 · <a href="https://www.youtube.com/watch?v=Ml2YppHVvj0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>White Belt Basics - Butterfly Guard</strong> · 4:51 · <a href="https://www.youtube.com/watch?v=SIyEqd4PrvI" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

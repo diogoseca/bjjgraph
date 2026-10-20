@@ -36,50 +36,6 @@ description: "Master Double Sleeve Guard in BJJ. Strategic guide covering grip c
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Double Sleeve Guard \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "How Black Belts Grip Intelligently",
-      "description": "Double Sleeve Guard film study: How Black Belts Grip Intelligently, taught by Jiu-Jitsu Channel.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/KvJtOUDN-wY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/KvJtOUDN-wY",
-      "url": "https://www.youtube.com/watch?v=KvJtOUDN-wY",
-      "creator": { "@type": "Person", "name": "Jiu-Jitsu Channel" },
-      "duration": "PT102S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Intro to the Double Sleeve Guard concepts and entries",
-      "description": "Double Sleeve Guard film study: Intro to the Double Sleeve Guard concepts and entries, taught by Ariel Tabak.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/sCvako3SaRs/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/sCvako3SaRs",
-      "url": "https://www.youtube.com/watch?v=sCvako3SaRs",
-      "creator": { "@type": "Person", "name": "Ariel Tabak" },
-      "duration": "PT673S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Most important guard principles for grip-based guards",
-      "description": "Double Sleeve Guard film study: Most important guard principles for grip-based guards, taught by Jon Thomas.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/npuOznVZoXA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/npuOznVZoXA",
-      "url": "https://www.youtube.com/watch?v=npuOznVZoXA",
-      "creator": { "@type": "Person", "name": "Jon Thomas" },
-      "duration": "PT419S"
-    }
-  ]
-}
-</script>
-
 
 
 <script type="application/ld+json">
@@ -113,40 +69,6 @@ Double Sleeve Guard is characterized by its emphasis on grip fighting dominance 
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Double Sleeve Guard in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=KvJtOUDN-wY)
-
-<p class="clip-credit"><strong>How Black Belts Grip Intelligently</strong> — taught by Jiu-Jitsu Channel · 1:42 · <a href="https://www.youtube.com/watch?v=KvJtOUDN-wY" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=sCvako3SaRs)
-
-<p class="clip-credit"><strong>Intro to the Double Sleeve Guard concepts and entries</strong> — taught by Ariel Tabak · 11:13 · <a href="https://www.youtube.com/watch?v=sCvako3SaRs" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=npuOznVZoXA)
-
-<p class="clip-credit"><strong>Most important guard principles for grip-based guards</strong> — taught by Jon Thomas · 6:59 · <a href="https://www.youtube.com/watch?v=npuOznVZoXA" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="key-principles" class="content-section">

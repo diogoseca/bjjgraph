@@ -165,24 +165,13 @@ description: "Master Reverse De La Riva Guard Bottom in BJJ. Complete guide cove
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Reverse De La Riva into a Knee Bar",
-      "description": "Reverse De La Riva Guard (Bottom) film study: Reverse De La Riva into a Knee Bar, taught by Pardee BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/9cyNdPpL4-I/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/9cyNdPpL4-I",
-      "url": "https://www.youtube.com/watch?v=9cyNdPpL4-I",
-      "creator": { "@type": "Person", "name": "Pardee BJJ" },
-      "duration": "PT65S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "How to Use Reverse De La Riva",
-      "description": "Reverse De La Riva Guard (Bottom) film study: How to Use Reverse De La Riva, taught by Lachlan Giles.",
+      "name": "How to Use Reverse De La Riva by Lachlan Giles",
+      "description": "Reverse De La Riva Guard (Bottom) film study: How to Use Reverse De La Riva by Lachlan Giles, taught by Lachlan Giles.",
       "thumbnailUrl": "https://i.ytimg.com/vi/_beJGS2-yIE/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/_beJGS2-yIE",
       "url": "https://www.youtube.com/watch?v=_beJGS2-yIE",
       "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT122S"
+      "duration": "PT121S"
     }
   ]
 }
@@ -212,17 +201,9 @@ Strategically, Reverse De La Riva operates on the principle of creating rotation
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=9cyNdPpL4-I)
-
-<p class="clip-credit"><strong>Reverse De La Riva into a Knee Bar</strong> — taught by Pardee BJJ · 1:05 · <a href="https://www.youtube.com/watch?v=9cyNdPpL4-I" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=_beJGS2-yIE)
 
-<p class="clip-credit"><strong>How to Use Reverse De La Riva</strong> — taught by Lachlan Giles · 2:02 · <a href="https://www.youtube.com/watch?v=_beJGS2-yIE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How to Use Reverse De La Riva by Lachlan Giles</strong> — taught by Lachlan Giles · 2:01 · <a href="https://www.youtube.com/watch?v=_beJGS2-yIE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

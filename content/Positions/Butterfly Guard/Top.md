@@ -165,8 +165,8 @@ description: "Navigate Butterfly Guard Top in BJJ. Passing strategies against ho
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "1-minute butterfly guard pass",
-      "description": "Butterfly Guard (Top) film study: 1-minute butterfly guard pass, taught by Phil Migliarese.",
+      "name": "(1 Minute move) How to pass the butterfly guard with Phil Migliarese",
+      "description": "Butterfly Guard (Top) film study: (1 Minute move) How to pass the butterfly guard with Phil Migliarese, taught by Phil Migliarese.",
       "thumbnailUrl": "https://i.ytimg.com/vi/cUTZ4bpZVUU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/cUTZ4bpZVUU",
       "url": "https://www.youtube.com/watch?v=cUTZ4bpZVUU",
@@ -176,19 +176,19 @@ description: "Navigate Butterfly Guard Top in BJJ. Passing strategies against ho
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Butterfly guard cartwheel pass",
-      "description": "Butterfly Guard (Top) film study: Butterfly guard cartwheel pass, taught by The Base Jiu Jitsu.",
+      "name": "Jiu Jitsu Fundamentals - Butterfly Guard Passing - Cartwheel Pass",
+      "description": "Butterfly Guard (Top) film study: Jiu Jitsu Fundamentals - Butterfly Guard Passing - Cartwheel Pass, taught by The Base Jiu Jitsu.",
       "thumbnailUrl": "https://i.ytimg.com/vi/khanfPFPpIc/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/khanfPFPpIc",
       "url": "https://www.youtube.com/watch?v=khanfPFPpIc",
       "creator": { "@type": "Person", "name": "The Base Jiu Jitsu" },
-      "duration": "PT88S"
+      "duration": "PT87S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "Passing butterfly from standing (knee slide)",
-      "description": "Butterfly Guard (Top) film study: Passing butterfly from standing (knee slide), taught by Coach William.",
+      "name": "BJJ | Passing Butterfly Guard from Standing (knee slide pass)",
+      "description": "Butterfly Guard (Top) film study: BJJ | Passing Butterfly Guard from Standing (knee slide pass), taught by Coach William.",
       "thumbnailUrl": "https://i.ytimg.com/vi/yo6xI2LammA/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/yo6xI2LammA",
       "url": "https://www.youtube.com/watch?v=yo6xI2LammA",
@@ -227,7 +227,7 @@ Elite competitors approach butterfly guard top by viewing it as an opportunity t
 
 ![](https://www.youtube.com/watch?v=cUTZ4bpZVUU)
 
-<p class="clip-credit"><strong>1-minute butterfly guard pass</strong> — taught by Phil Migliarese · 1:12 · <a href="https://www.youtube.com/watch?v=cUTZ4bpZVUU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>(1 Minute move) How to pass the butterfly guard with Phil Migliarese</strong> — taught by Phil Migliarese · 1:12 · <a href="https://www.youtube.com/watch?v=cUTZ4bpZVUU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -235,7 +235,7 @@ Elite competitors approach butterfly guard top by viewing it as an opportunity t
 
 ![](https://www.youtube.com/watch?v=khanfPFPpIc)
 
-<p class="clip-credit"><strong>Butterfly guard cartwheel pass</strong> — taught by The Base Jiu Jitsu · 1:28 · <a href="https://www.youtube.com/watch?v=khanfPFPpIc" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Jiu Jitsu Fundamentals - Butterfly Guard Passing - Cartwheel Pass</strong> — taught by The Base Jiu Jitsu · 1:27 · <a href="https://www.youtube.com/watch?v=khanfPFPpIc" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -243,7 +243,7 @@ Elite competitors approach butterfly guard top by viewing it as an opportunity t
 
 ![](https://www.youtube.com/watch?v=yo6xI2LammA)
 
-<p class="clip-credit"><strong>Passing butterfly from standing (knee slide)</strong> — taught by Coach William · 1:38 · <a href="https://www.youtube.com/watch?v=yo6xI2LammA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>BJJ | Passing Butterfly Guard from Standing (knee slide pass)</strong> — taught by Coach William · 1:38 · <a href="https://www.youtube.com/watch?v=yo6xI2LammA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -536,30 +536,22 @@
     "clips": [
       {
         "id": "MwxnveKrlxU",
-        "title": "Seatbelt Grip Quick Fix",
+        "title": "Jiu Jitsu Quick Fix #1: Seatbelt Grip",
         "by": "Ben Kool",
         "vertical": false,
         "channel": "Ben Kool Tech",
-        "duration": 62,
-        "verified": "2026-07-14"
+        "duration": 61,
+        "verified": "2026-10-19",
+        "front": true
       },
       {
         "id": "rvh8MFq_tb0",
-        "title": "Deep Seatbelt Control",
+        "title": "Back Attacks 3.0 - #12: Deep Seatbelt // Tom Halpin",
         "by": "Tom Halpin",
         "vertical": false,
         "channel": "Tom Halpin",
         "duration": 111,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "Es7T1KjTUpI",
-        "title": "Application Against a Seated Opponent",
-        "by": "John Danaher",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 157,
-        "verified": "2026-07-14"
+        "verified": "2026-10-19"
       }
     ]
   },
@@ -1086,21 +1078,13 @@
   "clips": [
     {
       "id": "MwxnveKrlxU",
-      "title": "Seatbelt Grip Quick Fix",
+      "title": "Jiu Jitsu Quick Fix #1: Seatbelt Grip",
       "by": "Ben Kool",
       "vertical": false,
       "channel": "Ben Kool Tech",
-      "duration": 62,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "baSqWCtLysU",
-      "title": "Back Mount Seatbelt Control Fundamentals",
-      "by": "Teach Me NoGi",
-      "vertical": false,
-      "channel": "Teach Me NoGi",
-      "duration": 212,
-      "verified": "2026-07-14"
+      "duration": 61,
+      "verified": "2026-10-19",
+      "half": "top"
     }
   ]
 }

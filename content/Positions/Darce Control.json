@@ -396,31 +396,23 @@
     ],
     "clips": [
       {
-        "id": "pnLk6jW0qeI",
-        "title": "3 darce choke finishes",
-        "by": "Bowerhouse MMA",
-        "vertical": false,
-        "channel": "BOWERHOUSE MMA",
-        "duration": 15,
-        "verified": "2026-07-14"
-      },
-      {
         "id": "BMU1_wfjYTw",
-        "title": "Darce choke from the front headlock",
+        "title": "Procel BJJ | Darce Choke from the Front Headlock Position",
         "by": "Procel BJJ",
         "vertical": false,
         "channel": "Procel Brazilian Jiu-Jitsu",
-        "duration": 101,
-        "verified": "2026-07-14"
+        "duration": 100,
+        "verified": "2026-10-19",
+        "front": true
       },
       {
         "id": "8Idnp8DpSHU",
-        "title": "Finishing the darce on big guys",
+        "title": "How To Finish The D’arce On Big Guys w/ Rener & Ryron Gracie",
         "by": "Rener & Ryron Gracie",
         "vertical": false,
         "channel": "Hayabusa",
-        "duration": 151,
-        "verified": "2026-07-14"
+        "duration": 150,
+        "verified": "2026-10-19"
       }
     ]
   },
@@ -928,30 +920,33 @@
   "clips": [
     {
       "id": "jeHPHHtBbAo",
-      "title": "Darce choke details",
+      "title": "Darce details",
       "by": "Chad Lyman",
       "vertical": false,
       "channel": "Code 4 Concepts Chad Lyman",
       "duration": 53,
-      "verified": "2026-07-14"
+      "verified": "2026-10-19",
+      "half": "top"
     },
     {
       "id": "22EYQ2uhxQw",
-      "title": "Side control to north-south darce",
+      "title": "Side control to north south D’ARCE!!! #graciewestchase #jiujitsu #darce #bjj",
       "by": "Gracie Westchase",
       "vertical": false,
       "channel": "Gracie Westchase ",
       "duration": 75,
-      "verified": "2026-07-14"
+      "verified": "2026-10-19",
+      "half": "top"
     },
     {
       "id": "Pc2yhqtRxJA",
-      "title": "How to do a darce from front headlock",
+      "title": "How to do a D'arce choke from front headlock",
       "by": "LI MMA",
       "vertical": false,
       "channel": "LI MMA",
       "duration": 150,
-      "verified": "2026-07-14"
+      "verified": "2026-10-19",
+      "half": "top"
     }
   ]
 }

@@ -165,35 +165,35 @@ description: "Master defensive armbar control from bottom position in BJJ. Learn
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Favorite armbar escape",
-      "description": "Armbar Control (Bottom) film study: Favorite armbar escape, taught by Matt Arroyo.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/kNdKfUdgO4I/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/kNdKfUdgO4I",
-      "url": "https://www.youtube.com/watch?v=kNdKfUdgO4I",
-      "creator": { "@type": "Person", "name": "Matt Arroyo" },
-      "duration": "PT92S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Armbar escape to RNC",
-      "description": "Armbar Control (Bottom) film study: Armbar escape to RNC, taught by ZombieProofBJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/sDdqvh_1kbA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/sDdqvh_1kbA",
-      "url": "https://www.youtube.com/watch?v=sDdqvh_1kbA",
-      "creator": { "@type": "Person", "name": "ZombieProofBJJ" },
-      "duration": "PT63S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Armbar stack escape",
-      "description": "Armbar Control (Bottom) film study: Armbar stack escape, taught by WNY MMA.",
+      "name": "BJJ Armbar Stack Escape",
+      "description": "Armbar Control (Bottom) film study: BJJ Armbar Stack Escape, taught by WNY MMA.",
       "thumbnailUrl": "https://i.ytimg.com/vi/lXpel1GO2Do/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/lXpel1GO2Do",
       "url": "https://www.youtube.com/watch?v=lXpel1GO2Do",
       "creator": { "@type": "Person", "name": "WNY MMA" },
       "duration": "PT37S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Armbar Escape: RNC",
+      "description": "Armbar Control (Bottom) film study: Armbar Escape: RNC, taught by ZombieProofBJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sDdqvh_1kbA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sDdqvh_1kbA",
+      "url": "https://www.youtube.com/watch?v=sDdqvh_1kbA",
+      "creator": { "@type": "Person", "name": "ZombieProofBJJ" },
+      "duration": "PT62S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "THIS is my favorite armbar escape! #jiujitsu #jiujitsutips",
+      "description": "Armbar Control (Bottom) film study: THIS is my favorite armbar escape! #jiujitsu #jiujitsutips, taught by Matt Arroyo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kNdKfUdgO4I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kNdKfUdgO4I",
+      "url": "https://www.youtube.com/watch?v=kNdKfUdgO4I",
+      "creator": { "@type": "Person", "name": "Matt Arroyo" },
+      "duration": "PT92S"
     }
   ]
 }
@@ -223,25 +223,25 @@ Mastery of armbar defense is essential for all practitioners, as the armbar is o
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=kNdKfUdgO4I)
+![](https://www.youtube.com/watch?v=lXpel1GO2Do)
 
-<p class="clip-credit"><strong>Favorite armbar escape</strong> — taught by Matt Arroyo · 1:32 · <a href="https://www.youtube.com/watch?v=kNdKfUdgO4I" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>BJJ Armbar Stack Escape</strong> — taught by WNY MMA · 0:37 · <a href="https://www.youtube.com/watch?v=lXpel1GO2Do" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
-<div class="film-clip">
+<div class="film-clip film-clip--vertical">
 
 ![](https://www.youtube.com/watch?v=sDdqvh_1kbA)
 
-<p class="clip-credit"><strong>Armbar escape to RNC</strong> — taught by ZombieProofBJJ · 1:03 · <a href="https://www.youtube.com/watch?v=sDdqvh_1kbA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Armbar Escape: RNC</strong> — taught by ZombieProofBJJ · 1:02 · <a href="https://www.youtube.com/watch?v=sDdqvh_1kbA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
-<div class="film-clip">
+<div class="film-clip film-clip--vertical">
 
-![](https://www.youtube.com/watch?v=lXpel1GO2Do)
+![](https://www.youtube.com/watch?v=kNdKfUdgO4I)
 
-<p class="clip-credit"><strong>Armbar stack escape</strong> — taught by WNY MMA · 0:37 · <a href="https://www.youtube.com/watch?v=lXpel1GO2Do" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>THIS is my favorite armbar escape! #jiujitsu #jiujitsutips</strong> — taught by Matt Arroyo · 1:32 · <a href="https://www.youtube.com/watch?v=kNdKfUdgO4I" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

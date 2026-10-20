@@ -166,24 +166,13 @@ description: "Master De La Riva Guard Bottom in BJJ. Hook-based offensive guard 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Side sweep with the belt from DLR",
-      "description": "De La Riva Guard (Bottom) film study: Side sweep with the belt from DLR, taught by Mikey Musumeci.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/IvzYCJN4H1I/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/IvzYCJN4H1I",
-      "url": "https://www.youtube.com/watch?v=IvzYCJN4H1I",
-      "creator": { "@type": "Person", "name": "Mikey Musumeci" },
-      "duration": "PT164S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Retaining DLR vs heavy pressure",
-      "description": "De La Riva Guard (Bottom) film study: Retaining DLR vs heavy pressure, taught by Chase Namba.",
+      "name": "Mikey Musumeci deals with that Bernardo Faria pressure",
+      "description": "De La Riva Guard (Bottom) film study: Mikey Musumeci deals with that Bernardo Faria pressure, taught by Chase Namba.",
       "thumbnailUrl": "https://i.ytimg.com/vi/ErsvmCAGxnA/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/ErsvmCAGxnA",
       "url": "https://www.youtube.com/watch?v=ErsvmCAGxnA",
       "creator": { "@type": "Person", "name": "Chase Namba" },
-      "duration": "PT78S"
+      "duration": "PT77S"
     }
   ]
 }
@@ -218,17 +207,9 @@ The guard's strategic depth lies in the dilemma structure it creates. When the t
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=IvzYCJN4H1I)
-
-<p class="clip-credit"><strong>Side sweep with the belt from DLR</strong> — taught by Mikey Musumeci · 2:44 · <a href="https://www.youtube.com/watch?v=IvzYCJN4H1I" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=ErsvmCAGxnA)
 
-<p class="clip-credit"><strong>Retaining DLR vs heavy pressure</strong> — taught by Chase Namba · 1:18 · <a href="https://www.youtube.com/watch?v=ErsvmCAGxnA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Mikey Musumeci deals with that Bernardo Faria pressure</strong> — taught by Chase Namba · 1:17 · <a href="https://www.youtube.com/watch?v=ErsvmCAGxnA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -525,31 +525,13 @@
     ],
     "clips": [
       {
-        "id": "aQ2vFXXBn-o",
-        "title": "Countering a full inversion",
-        "by": "Gordon Ryan",
+        "id": "pn59xw1z9nE",
         "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 61,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "9VdMAXqLXHA",
-        "title": "ADCC 2022 guard pass",
-        "by": "Gordon Ryan",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 154,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "f3PJ06A_bWQ",
-        "title": "Hip switch to back take",
-        "by": "Gordon Ryan",
-        "vertical": false,
-        "channel": "Jiu Jitsu Moves",
-        "duration": 19,
-        "verified": "2026-07-14"
+        "title": "How to Pass The Open Guard: Complete Guide 2022",
+        "channel": "JonThomasBJJ",
+        "duration": 728,
+        "verified": "2026-10-19",
+        "front": true
       }
     ]
   },
@@ -1121,31 +1103,22 @@
     ],
     "clips": [
       {
-        "id": "lVLAROiSjNU",
-        "title": "Guard retention: when to sit up and escape",
-        "by": "Lachlan Giles",
+        "id": "ToKDHylpgDY",
         "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 136,
-        "verified": "2026-07-14"
+        "title": "Guard Retention: The Complete Guide",
+        "channel": "JonThomasBJJ",
+        "duration": 650,
+        "verified": "2026-10-19",
+        "front": true
       },
       {
-        "id": "SehIaBibwYY",
-        "title": "3 attacks from collar & sleeve guard",
-        "by": "Giancarlo Bodoni",
+        "id": "aYknDsVN5aM",
+        "title": "Effortless Jiu Jitsu Explained - Open Guard Warm Up",
+        "by": "Jiu Jitsu Vintage",
         "vertical": false,
-        "channel": "Giancarlo Bodoni",
-        "duration": 16,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "fM9jaU9qlUE",
-        "title": "Tomoe nage overhead sweep from open guard",
-        "by": "Sapateiro Jiu-Jitsu",
-        "vertical": false,
-        "channel": "Sapateiro Jiujitsu Honolulu",
-        "duration": 35,
-        "verified": "2026-07-14"
+        "channel": "Jiu Jitsu Vintage",
+        "duration": 106,
+        "verified": "2026-10-19"
       }
     ]
   },
@@ -1265,31 +1238,32 @@
   ],
   "clips": [
     {
-      "id": "lVLAROiSjNU",
-      "title": "Guard retention: when to sit up and escape",
-      "by": "Lachlan Giles",
+      "id": "ToKDHylpgDY",
       "vertical": false,
-      "channel": "BJJ Fanatics",
-      "duration": 136,
-      "verified": "2026-07-14"
+      "title": "Guard Retention: The Complete Guide",
+      "channel": "JonThomasBJJ",
+      "duration": 650,
+      "verified": "2026-10-19",
+      "half": "bottom"
+    },
+    {
+      "id": "pn59xw1z9nE",
+      "vertical": false,
+      "title": "How to Pass The Open Guard: Complete Guide 2022",
+      "channel": "JonThomasBJJ",
+      "duration": 728,
+      "verified": "2026-10-19",
+      "half": "top"
     },
     {
       "id": "aYknDsVN5aM",
-      "title": "Open guard warm-up fundamentals",
+      "title": "Effortless Jiu Jitsu Explained - Open Guard Warm Up",
       "by": "Jiu Jitsu Vintage",
       "vertical": false,
       "channel": "Jiu Jitsu Vintage",
-      "duration": 107,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "ZzAtxR7p_YE",
-      "title": "The Y-guard: an open guard secret weapon",
-      "by": "Felipe Costa",
-      "vertical": false,
-      "channel": "Felipe Costa",
-      "duration": 61,
-      "verified": "2026-07-14"
+      "duration": 106,
+      "verified": "2026-10-19",
+      "half": "bottom"
     }
   ]
 }

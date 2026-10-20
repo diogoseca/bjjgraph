@@ -353,21 +353,13 @@
     "clips": [
       {
         "id": "AvivOVuYcCk",
-        "title": "Escaping and passing the rubber guard",
+        "title": "Simple (but risky) rubber guard escape",
         "by": "BJJ4Breakfast",
         "vertical": false,
         "channel": "BJJ4Breakfast",
         "duration": 131,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "7qHsahtxnDo",
-        "title": "Guard passing from the top: posture and pressure",
-        "by": "Mario Sperry",
-        "vertical": false,
-        "channel": "WorldMartialArts",
-        "duration": 165,
-        "verified": "2026-07-15"
+        "verified": "2026-10-19",
+        "front": true
       }
     ]
   },
@@ -904,22 +896,14 @@
   ],
   "clips": [
     {
-      "id": "h1XzZDsUxHQ",
-      "title": "Eddie Bravo explains the rubber guard",
-      "by": "Eddie Bravo",
+      "id": "AvivOVuYcCk",
+      "title": "Simple (but risky) rubber guard escape",
+      "by": "BJJ4Breakfast",
       "vertical": false,
-      "channel": "JAN FERNANDEZ ",
-      "duration": 111,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "tWAZbCiWQ9E",
-      "title": "Rubber guard philosophy",
-      "by": "Eddie Bravo",
-      "vertical": false,
-      "channel": "Eddie Bravo",
-      "duration": 61,
-      "verified": "2026-07-14"
+      "channel": "BJJ4Breakfast",
+      "duration": 131,
+      "verified": "2026-10-19",
+      "half": "top"
     }
   ]
 }

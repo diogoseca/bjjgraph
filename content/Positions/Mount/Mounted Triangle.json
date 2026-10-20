@@ -910,35 +910,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "sR2rS2dwpNY",
-        "title": "How to escape a triangle choke",
-        "by": "Rener & Ryron Gracie",
-        "vertical": false,
-        "channel": "Hayabusa",
-        "duration": 117,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "djm7BIQksOQ",
-        "title": "How To Defend The Mounted Triangle",
-        "by": "RVV BJJ",
-        "vertical": false,
-        "channel": "RVV BJJ",
-        "duration": 194,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "Ss49jnCob0w",
-        "title": "Avoiding and Defending the Triangle Choke",
-        "by": "Lachlan Giles",
-        "vertical": false,
-        "channel": "Absolute MMA St Kilda - Melbourne",
-        "duration": 775,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "flashcards_position": [
     {
@@ -1057,21 +1029,23 @@
   "clips": [
     {
       "id": "vLUua_voKzc",
-      "title": "Mounted Triangle overview",
+      "title": "Mounted Triangle",
       "by": "Satori BJJ",
       "vertical": false,
       "channel": "Satori BJJ",
-      "duration": 53,
-      "verified": "2026-07-14"
+      "duration": 52,
+      "verified": "2026-10-19",
+      "half": "top"
     },
     {
       "id": "1qxxbBWo9kw",
-      "title": "Triangle to mounted triangle entry",
+      "title": "Triangle to mounted triangle",
       "by": "Ground X Jiu Jitsu",
       "vertical": false,
       "channel": "Ground X Jiu Jitsu ",
-      "duration": 155,
-      "verified": "2026-07-14"
+      "duration": 154,
+      "verified": "2026-10-19",
+      "half": "top"
     }
   ]
 }

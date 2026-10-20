@@ -476,26 +476,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "2Xm_mLp8xwk",
-        "title": "S-Mount top troubleshooting",
-        "by": "ZombieProofBJJ",
-        "vertical": false,
-        "channel": "ZombieProofBJJ",
-        "duration": 67,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "5UtNLw7usQk",
-        "title": "Switch-side armbar from S-Mount",
-        "by": "Darrin Lillian",
-        "vertical": false,
-        "channel": "Darrin Lillian",
-        "duration": 50,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   },
   "bottom": {
     "name": "3-4 Mount Bottom",
@@ -916,35 +897,7 @@
         }
       }
     ],
-    "clips": [
-      {
-        "id": "2uuP147GoBk",
-        "title": "Mount bottom bridge & roll escape",
-        "by": "Academy Jiu Jitsu",
-        "vertical": false,
-        "channel": "Academy Jiu Jitsu",
-        "duration": 62,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "TutAtWW-HWQ",
-        "title": "Upa shrimp mount escape",
-        "by": "Mat Life Training Center",
-        "vertical": false,
-        "channel": "Mat Life Training Center",
-        "duration": 27,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "9252EvCT0q4",
-        "title": "Escaping the mount",
-        "by": "Gabriel Gonzaga",
-        "vertical": false,
-        "channel": "Gabriel Gonzaga",
-        "duration": 93,
-        "verified": "2026-07-14"
-      }
-    ]
+    "clips": []
   },
   "flashcards_position": [
     {
@@ -1060,33 +1013,5 @@
       }
     }
   ],
-  "clips": [
-    {
-      "id": "FSbR22OOSaE",
-      "title": "S-Mount basics",
-      "by": "ZombieProofBJJ",
-      "vertical": false,
-      "channel": "ZombieProofBJJ",
-      "duration": 72,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "aVDYz6OeOnc",
-      "title": "Take the back from S-Mount",
-      "by": "Andrew Chappelle",
-      "vertical": false,
-      "channel": "Andrew Chappelle BJJ",
-      "duration": 83,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "KTTMiT_YEoA",
-      "title": "S-Mount scissor collar choke",
-      "by": "Jiu Jitsu Kid",
-      "vertical": false,
-      "channel": "Jiu Jitsu Kid",
-      "duration": 99,
-      "verified": "2026-07-14"
-    }
-  ]
+  "clips": []
 }

@@ -165,24 +165,13 @@ description: "Master Knee Shield Half Guard Bottom in BJJ. Essential defensive h
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Signature sweep from knee shield",
-      "description": "Knee Shield Half Guard (Bottom) film study: Signature sweep from knee shield, taught by A. Sukandar.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/YEVojixbKs8/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/YEVojixbKs8",
-      "url": "https://www.youtube.com/watch?v=YEVojixbKs8",
-      "creator": { "@type": "Person", "name": "A. Sukandar" },
-      "duration": "PT70S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Leg lock entry from knee shield half guard",
-      "description": "Knee Shield Half Guard (Bottom) film study: Leg lock entry from knee shield half guard, taught by Hellfish MMA.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/5abrviYxKU8/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/5abrviYxKU8",
-      "url": "https://www.youtube.com/watch?v=5abrviYxKU8",
-      "creator": { "@type": "Person", "name": "Hellfish MMA" },
-      "duration": "PT147S"
+      "name": "Knee Shield Half Guard Basics",
+      "description": "Knee Shield Half Guard (Bottom) film study: Knee Shield Half Guard Basics, taught by MMA Leech.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/q_ND-09HiWg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/q_ND-09HiWg",
+      "url": "https://www.youtube.com/watch?v=q_ND-09HiWg",
+      "creator": { "@type": "Person", "name": "MMA Leech" },
+      "duration": "PT263S"
     }
   ]
 }
@@ -212,17 +201,9 @@ The knee shield half guard has become a cornerstone position in modern competiti
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=YEVojixbKs8)
+![](https://www.youtube.com/watch?v=q_ND-09HiWg)
 
-<p class="clip-credit"><strong>Signature sweep from knee shield</strong> — taught by A. Sukandar · 1:10 · <a href="https://www.youtube.com/watch?v=YEVojixbKs8" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=5abrviYxKU8)
-
-<p class="clip-credit"><strong>Leg lock entry from knee shield half guard</strong> — taught by Hellfish MMA · 2:27 · <a href="https://www.youtube.com/watch?v=5abrviYxKU8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Knee Shield Half Guard Basics</strong> — taught by MMA Leech · 4:23 · <a href="https://www.youtube.com/watch?v=q_ND-09HiWg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

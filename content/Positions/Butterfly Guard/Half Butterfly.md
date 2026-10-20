@@ -36,39 +36,6 @@ description: "Master Half Butterfly guard in BJJ. Hybrid position combining butt
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Half Butterfly \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "What to do when flattened in butterfly guard",
-      "description": "Half Butterfly film study: What to do when flattened in butterfly guard, taught by Ante Dzolic.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/ttMQzRPkHRA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/ttMQzRPkHRA",
-      "url": "https://www.youtube.com/watch?v=ttMQzRPkHRA",
-      "creator": { "@type": "Person", "name": "Ante Dzolic" },
-      "duration": "PT125S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Basic butterfly sweep",
-      "description": "Half Butterfly film study: Basic butterfly sweep, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/9XULQjZeOEU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/9XULQjZeOEU",
-      "url": "https://www.youtube.com/watch?v=9XULQjZeOEU",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT243S"
-    }
-  ]
-}
-</script>
-
 
 
 <script type="application/ld+json">
@@ -104,32 +71,6 @@ From the top perspective, Half Butterfly Top represents a critical transitional 
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Half Butterfly in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=ttMQzRPkHRA)
-
-<p class="clip-credit"><strong>What to do when flattened in butterfly guard</strong> — taught by Ante Dzolic · 2:05 · <a href="https://www.youtube.com/watch?v=ttMQzRPkHRA" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=9XULQjZeOEU)
-
-<p class="clip-credit"><strong>Basic butterfly sweep</strong> — taught by Lachlan Giles · 4:03 · <a href="https://www.youtube.com/watch?v=9XULQjZeOEU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="key-principles" class="content-section">

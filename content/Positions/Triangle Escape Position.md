@@ -46,24 +46,13 @@ description: "Master both sides of the triangle in BJJ. Complete guide covering 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Triangle setup with lapel",
-      "description": "Triangle Escape Position film study: Triangle setup with lapel, taught by Gracie Ohio.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/3aRpzqiIvgs/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/3aRpzqiIvgs",
-      "url": "https://www.youtube.com/watch?v=3aRpzqiIvgs",
-      "creator": { "@type": "Person", "name": "Gracie Ohio" },
-      "duration": "PT135S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Rolling triangle from the clamp",
-      "description": "Triangle Escape Position film study: Rolling triangle from the clamp, taught by John Danaher.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/gQWXO_L0jbU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/gQWXO_L0jbU",
-      "url": "https://www.youtube.com/watch?v=gQWXO_L0jbU",
-      "creator": { "@type": "Person", "name": "John Danaher" },
-      "duration": "PT223S"
+      "name": "Triangle defense/escape",
+      "description": "Triangle Escape Position film study: Triangle defense/escape, taught by Daniel Frank.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DLmrzSs1hWI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DLmrzSs1hWI",
+      "url": "https://www.youtube.com/watch?v=DLmrzSs1hWI",
+      "creator": { "@type": "Person", "name": "Daniel Frank" },
+      "duration": "PT23S"
     }
   ]
 }
@@ -116,17 +105,9 @@ Triangle escape training serves broader pedagogical purposes beyond the specific
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=3aRpzqiIvgs)
+![](https://www.youtube.com/watch?v=DLmrzSs1hWI)
 
-<p class="clip-credit"><strong>Triangle setup with lapel</strong> — taught by Gracie Ohio · 2:15 · <a href="https://www.youtube.com/watch?v=3aRpzqiIvgs" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=gQWXO_L0jbU)
-
-<p class="clip-credit"><strong>Rolling triangle from the clamp</strong> — taught by John Danaher · 3:43 · <a href="https://www.youtube.com/watch?v=gQWXO_L0jbU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Triangle defense/escape</strong> — taught by Daniel Frank · 0:23 · <a href="https://www.youtube.com/watch?v=DLmrzSs1hWI" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

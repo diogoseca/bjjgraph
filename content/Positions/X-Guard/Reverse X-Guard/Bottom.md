@@ -165,35 +165,24 @@ description: "Master Reverse X-Guard Bottom in BJJ. Advanced guard position with
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "X-Guard to Heel Hook",
-      "description": "Reverse X-Guard (Bottom) film study: X-Guard to Heel Hook, taught by Craig Jones.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/lr7rlj7WV-E/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/lr7rlj7WV-E",
-      "url": "https://www.youtube.com/watch?v=lr7rlj7WV-E",
-      "creator": { "@type": "Person", "name": "Craig Jones" },
-      "duration": "PT94S"
+      "name": "Technique Talk: The Reverse X-Guard Entry",
+      "description": "Reverse X-Guard (Bottom) film study: Technique Talk: The Reverse X-Guard Entry, taught by Black Flag Submission Company.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dISye8G6dpU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dISye8G6dpU",
+      "url": "https://www.youtube.com/watch?v=dISye8G6dpU",
+      "creator": { "@type": "Person", "name": "Black Flag Submission Company" },
+      "duration": "PT190S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Half-guard to Reverse X saddle sweep",
-      "description": "Reverse X-Guard (Bottom) film study: Half-guard to Reverse X saddle sweep, taught by Gracie Barra Jupiter.",
+      "name": "Gracie Barra Jupiter- Half-guard to reverse x guard saddle sweep",
+      "description": "Reverse X-Guard (Bottom) film study: Gracie Barra Jupiter- Half-guard to reverse x guard saddle sweep, taught by Gracie Barra Jupiter.",
       "thumbnailUrl": "https://i.ytimg.com/vi/V81JTcD_fTU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/V81JTcD_fTU",
       "url": "https://www.youtube.com/watch?v=V81JTcD_fTU",
       "creator": { "@type": "Person", "name": "Gracie Barra Jupiter" },
       "duration": "PT141S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Reverse X crossover to toe hold",
-      "description": "Reverse X-Guard (Bottom) film study: Reverse X crossover to toe hold, taught by Craig Jones.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Kx8gZ3QdO8s/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Kx8gZ3QdO8s",
-      "url": "https://www.youtube.com/watch?v=Kx8gZ3QdO8s",
-      "creator": { "@type": "Person", "name": "Craig Jones" },
-      "duration": "PT51S"
     }
   ]
 }
@@ -223,9 +212,9 @@ The position requires high technical proficiency, hip mobility, and timing to ex
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=lr7rlj7WV-E)
+![](https://www.youtube.com/watch?v=dISye8G6dpU)
 
-<p class="clip-credit"><strong>X-Guard to Heel Hook</strong> — taught by Craig Jones · 1:34 · <a href="https://www.youtube.com/watch?v=lr7rlj7WV-E" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Technique Talk: The Reverse X-Guard Entry</strong> — taught by Black Flag Submission Company · 3:10 · <a href="https://www.youtube.com/watch?v=dISye8G6dpU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -233,15 +222,7 @@ The position requires high technical proficiency, hip mobility, and timing to ex
 
 ![](https://www.youtube.com/watch?v=V81JTcD_fTU)
 
-<p class="clip-credit"><strong>Half-guard to Reverse X saddle sweep</strong> — taught by Gracie Barra Jupiter · 2:21 · <a href="https://www.youtube.com/watch?v=V81JTcD_fTU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=Kx8gZ3QdO8s)
-
-<p class="clip-credit"><strong>Reverse X crossover to toe hold</strong> — taught by Craig Jones · 0:51 · <a href="https://www.youtube.com/watch?v=Kx8gZ3QdO8s" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Gracie Barra Jupiter- Half-guard to reverse x guard saddle sweep</strong> — taught by Gracie Barra Jupiter · 2:21 · <a href="https://www.youtube.com/watch?v=V81JTcD_fTU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

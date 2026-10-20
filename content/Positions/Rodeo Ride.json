@@ -539,31 +539,13 @@
     ],
     "clips": [
       {
-        "id": "XXnawMQEfKw",
-        "title": "Breaking the turtle with the spiral ride",
-        "by": "Big Guy BJJ",
+        "id": "uFByeiUdSm4",
         "vertical": false,
-        "channel": "Big Guy BJJ",
-        "duration": 73,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "yUEVUbXEHrs",
-        "title": "Knee-to-belly to rodeo back take",
-        "by": "Muny Munoz",
-        "vertical": false,
-        "channel": "Muny Munoz",
-        "duration": 34,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "6MhcPYISQDU",
-        "title": "Rodeo choke from turtle top",
-        "by": "Ethos Jiu-Jitsu",
-        "vertical": false,
-        "channel": "Ethos Jiu-Jitsu Fullerton",
-        "duration": 85,
-        "verified": "2026-07-14"
+        "title": "Rodeo Ride Rolling Drill",
+        "channel": "welcomematstevescott",
+        "duration": 64,
+        "verified": "2026-10-19",
+        "front": true
       }
     ]
   },
@@ -1156,22 +1138,13 @@
   ],
   "clips": [
     {
-      "id": "XXnawMQEfKw",
-      "title": "The spiral ride: breaking the turtle",
-      "by": "Big Guy BJJ",
+      "id": "uFByeiUdSm4",
       "vertical": false,
-      "channel": "Big Guy BJJ",
-      "duration": 73,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "6MhcPYISQDU",
-      "title": "Rodeo choke from the ride",
-      "by": "Ethos Jiu-Jitsu",
-      "vertical": false,
-      "channel": "Ethos Jiu-Jitsu Fullerton",
-      "duration": 85,
-      "verified": "2026-07-14"
+      "title": "Rodeo Ride Rolling Drill",
+      "channel": "welcomematstevescott",
+      "duration": 64,
+      "verified": "2026-10-19",
+      "half": "top"
     }
   ]
 }

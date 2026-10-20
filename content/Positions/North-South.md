@@ -48,24 +48,13 @@ description: "Master North-South position in BJJ. Complete guide covering top co
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "North-South choke",
-      "description": "North-South film study: North-South choke, taught by Marcelo Garcia.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/z3RNUfHfiSM/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/z3RNUfHfiSM",
-      "url": "https://www.youtube.com/watch?v=z3RNUfHfiSM",
-      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
-      "duration": "PT20S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Taking the back from North-South",
-      "description": "North-South film study: Taking the back from North-South, taught by Stephan Kesting.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/aAitcEHUcRE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/aAitcEHUcRE",
-      "url": "https://www.youtube.com/watch?v=aAitcEHUcRE",
-      "creator": { "@type": "Person", "name": "Stephan Kesting" },
-      "duration": "PT53S"
+      "name": "4th stripe - North South inverted spin escape",
+      "description": "North-South film study: 4th stripe - North South inverted spin escape, taught by SBG Australia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XaLBmGnHm78/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/XaLBmGnHm78",
+      "url": "https://www.youtube.com/watch?v=XaLBmGnHm78",
+      "creator": { "@type": "Person", "name": "SBG Australia" },
+      "duration": "PT36S"
     }
   ]
 }
@@ -124,17 +113,9 @@ The position demands different strategic approaches based on whether you're esta
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=z3RNUfHfiSM)
+![](https://www.youtube.com/watch?v=XaLBmGnHm78)
 
-<p class="clip-credit"><strong>North-South choke</strong> — taught by Marcelo Garcia · 0:20 · <a href="https://www.youtube.com/watch?v=z3RNUfHfiSM" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=aAitcEHUcRE)
-
-<p class="clip-credit"><strong>Taking the back from North-South</strong> — taught by Stephan Kesting · 0:53 · <a href="https://www.youtube.com/watch?v=aAitcEHUcRE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>4th stripe - North South inverted spin escape</strong> — taught by SBG Australia · 0:36 · <a href="https://www.youtube.com/watch?v=XaLBmGnHm78" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

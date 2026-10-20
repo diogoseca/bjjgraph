@@ -46,35 +46,13 @@ description: "Buggy Choke control is a bottom-side-control head-and-arm enclosur
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "The buggy choke",
-      "description": "Buggy Choke film study: The buggy choke, taught by ZombieProofBJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/-b7Avb1x7g8/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/-b7Avb1x7g8",
-      "url": "https://www.youtube.com/watch?v=-b7Avb1x7g8",
-      "creator": { "@type": "Person", "name": "ZombieProofBJJ" },
-      "duration": "PT61S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Buggy choke overhaul: mechanics and defense",
-      "description": "Buggy Choke film study: Buggy choke overhaul: mechanics and defense, taught by Arroyo Grappling.",
+      "name": "BJJ Buggy Choke OVERHAUL - mechanics, troubleshooting, defense, and more",
+      "description": "Buggy Choke film study: BJJ Buggy Choke OVERHAUL - mechanics, troubleshooting, defense, and more, taught by Arroyo Grappling.",
       "thumbnailUrl": "https://i.ytimg.com/vi/mUwBihCvZl8/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/mUwBihCvZl8",
       "url": "https://www.youtube.com/watch?v=mUwBihCvZl8",
       "creator": { "@type": "Person", "name": "Arroyo Grappling" },
-      "duration": "PT141S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "3 buggy choke concepts",
-      "description": "Buggy Choke film study: 3 buggy choke concepts, taught by Kade and Tye Ruotolo.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/0_3YYrWEGoU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/0_3YYrWEGoU",
-      "url": "https://www.youtube.com/watch?v=0_3YYrWEGoU",
-      "creator": { "@type": "Person", "name": "Kade and Tye Ruotolo" },
-      "duration": "PT201S"
+      "duration": "PT140S"
     }
   ]
 }
@@ -129,25 +107,9 @@ Instructional sources: [Kade and Tye Ruotolo — OG Buggy Choke](https://www.you
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=-b7Avb1x7g8)
-
-<p class="clip-credit"><strong>The buggy choke</strong> — taught by ZombieProofBJJ · 1:01 · <a href="https://www.youtube.com/watch?v=-b7Avb1x7g8" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=mUwBihCvZl8)
 
-<p class="clip-credit"><strong>Buggy choke overhaul: mechanics and defense</strong> — taught by Arroyo Grappling · 2:21 · <a href="https://www.youtube.com/watch?v=mUwBihCvZl8" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=0_3YYrWEGoU)
-
-<p class="clip-credit"><strong>3 buggy choke concepts</strong> — taught by Kade and Tye Ruotolo · 3:21 · <a href="https://www.youtube.com/watch?v=0_3YYrWEGoU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>BJJ Buggy Choke OVERHAUL - mechanics, troubleshooting, defense, and more</strong> — taught by Arroyo Grappling · 2:20 · <a href="https://www.youtube.com/watch?v=mUwBihCvZl8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -165,35 +165,23 @@ description: "Master Open Guard Bottom in BJJ. Complete guide covering setup, co
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Guard retention: when to sit up and escape",
-      "description": "Open Guard (Bottom) film study: Guard retention: when to sit up and escape, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/lVLAROiSjNU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/lVLAROiSjNU",
-      "url": "https://www.youtube.com/watch?v=lVLAROiSjNU",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT136S"
+      "name": "Guard Retention: The Complete Guide",
+      "description": "Open Guard (Bottom) film study: Guard Retention: The Complete Guide.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ToKDHylpgDY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ToKDHylpgDY",
+      "url": "https://www.youtube.com/watch?v=ToKDHylpgDY",
+      "duration": "PT650S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "3 attacks from collar \u0026 sleeve guard",
-      "description": "Open Guard (Bottom) film study: 3 attacks from collar \u0026 sleeve guard, taught by Giancarlo Bodoni.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/SehIaBibwYY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/SehIaBibwYY",
-      "url": "https://www.youtube.com/watch?v=SehIaBibwYY",
-      "creator": { "@type": "Person", "name": "Giancarlo Bodoni" },
-      "duration": "PT16S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Tomoe nage overhead sweep from open guard",
-      "description": "Open Guard (Bottom) film study: Tomoe nage overhead sweep from open guard, taught by Sapateiro Jiu-Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/fM9jaU9qlUE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/fM9jaU9qlUE",
-      "url": "https://www.youtube.com/watch?v=fM9jaU9qlUE",
-      "creator": { "@type": "Person", "name": "Sapateiro Jiu-Jitsu" },
-      "duration": "PT35S"
+      "name": "Effortless Jiu Jitsu Explained - Open Guard Warm Up",
+      "description": "Open Guard (Bottom) film study: Effortless Jiu Jitsu Explained - Open Guard Warm Up, taught by Jiu Jitsu Vintage.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aYknDsVN5aM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aYknDsVN5aM",
+      "url": "https://www.youtube.com/watch?v=aYknDsVN5aM",
+      "creator": { "@type": "Person", "name": "Jiu Jitsu Vintage" },
+      "duration": "PT106S"
     }
   ]
 }
@@ -219,25 +207,17 @@ Open Guard Bottom is a dynamic family of guard positions where the bottom player
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=lVLAROiSjNU)
+![](https://www.youtube.com/watch?v=ToKDHylpgDY)
 
-<p class="clip-credit"><strong>Guard retention: when to sit up and escape</strong> — taught by Lachlan Giles · 2:16 · <a href="https://www.youtube.com/watch?v=lVLAROiSjNU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=SehIaBibwYY)
-
-<p class="clip-credit"><strong>3 attacks from collar &amp; sleeve guard</strong> — taught by Giancarlo Bodoni · 0:16 · <a href="https://www.youtube.com/watch?v=SehIaBibwYY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Guard Retention: The Complete Guide</strong> · 10:50 · <a href="https://www.youtube.com/watch?v=ToKDHylpgDY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=fM9jaU9qlUE)
+![](https://www.youtube.com/watch?v=aYknDsVN5aM)
 
-<p class="clip-credit"><strong>Tomoe nage overhead sweep from open guard</strong> — taught by Sapateiro Jiu-Jitsu · 0:35 · <a href="https://www.youtube.com/watch?v=fM9jaU9qlUE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Effortless Jiu Jitsu Explained - Open Guard Warm Up</strong> — taught by Jiu Jitsu Vintage · 1:46 · <a href="https://www.youtube.com/watch?v=aYknDsVN5aM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

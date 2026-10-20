@@ -46,24 +46,13 @@ description: "Master Rubber Guard in BJJ. Complete guide to 10th Planet system c
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Eddie Bravo explains the rubber guard",
-      "description": "Rubber Guard film study: Eddie Bravo explains the rubber guard, taught by Eddie Bravo.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/h1XzZDsUxHQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/h1XzZDsUxHQ",
-      "url": "https://www.youtube.com/watch?v=h1XzZDsUxHQ",
-      "creator": { "@type": "Person", "name": "Eddie Bravo" },
-      "duration": "PT111S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Rubber guard philosophy",
-      "description": "Rubber Guard film study: Rubber guard philosophy, taught by Eddie Bravo.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/tWAZbCiWQ9E/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/tWAZbCiWQ9E",
-      "url": "https://www.youtube.com/watch?v=tWAZbCiWQ9E",
-      "creator": { "@type": "Person", "name": "Eddie Bravo" },
-      "duration": "PT61S"
+      "name": "Simple (but risky) rubber guard escape",
+      "description": "Rubber Guard film study: Simple (but risky) rubber guard escape, taught by BJJ4Breakfast.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/AvivOVuYcCk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/AvivOVuYcCk",
+      "url": "https://www.youtube.com/watch?v=AvivOVuYcCk",
+      "creator": { "@type": "Person", "name": "BJJ4Breakfast" },
+      "duration": "PT131S"
     }
   ]
 }
@@ -110,17 +99,9 @@ Emerging from Eddie Bravo's 10th Planet Jiu-Jitsu, the Rubber Guard reimagined w
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=h1XzZDsUxHQ)
+![](https://www.youtube.com/watch?v=AvivOVuYcCk)
 
-<p class="clip-credit"><strong>Eddie Bravo explains the rubber guard</strong> — taught by Eddie Bravo · 1:51 · <a href="https://www.youtube.com/watch?v=h1XzZDsUxHQ" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=tWAZbCiWQ9E)
-
-<p class="clip-credit"><strong>Rubber guard philosophy</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=tWAZbCiWQ9E" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Simple (but risky) rubber guard escape</strong> — taught by BJJ4Breakfast · 2:11 · <a href="https://www.youtube.com/watch?v=AvivOVuYcCk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

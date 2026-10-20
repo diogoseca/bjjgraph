@@ -502,22 +502,14 @@
     ],
     "clips": [
       {
-        "id": "sCBGkcJCQYY",
-        "title": "The truck in transition",
-        "by": "Eddie Bravo",
-        "vertical": false,
-        "channel": "Eddie Bravo",
-        "duration": 61,
-        "verified": "2026-07-14"
-      },
-      {
         "id": "Y693ZHlCd2Q",
-        "title": "Two entries into the truck",
+        "title": "Geo Martinez Teaches Two Entries Into 'The Truck' In Two Minutes",
         "by": "Geo Martinez",
         "vertical": false,
         "channel": "FloGrappling",
         "duration": 100,
-        "verified": "2026-07-14"
+        "verified": "2026-10-19",
+        "front": true
       }
     ]
   },
@@ -1063,31 +1055,14 @@
   ],
   "clips": [
     {
-      "id": "ZVAmQ2Sf-Fc",
-      "title": "Focusing on the truck",
-      "by": "Eddie Bravo",
-      "vertical": false,
-      "channel": "Eddie Bravo",
-      "duration": 60,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "sCBGkcJCQYY",
-      "title": "The truck in transition",
-      "by": "Eddie Bravo",
-      "vertical": false,
-      "channel": "Eddie Bravo",
-      "duration": 61,
-      "verified": "2026-07-14"
-    },
-    {
       "id": "Y693ZHlCd2Q",
-      "title": "Two entries into the truck",
+      "title": "Geo Martinez Teaches Two Entries Into 'The Truck' In Two Minutes",
       "by": "Geo Martinez",
       "vertical": false,
       "channel": "FloGrappling",
       "duration": 100,
-      "verified": "2026-07-14"
+      "verified": "2026-10-19",
+      "half": "top"
     }
   ]
 }

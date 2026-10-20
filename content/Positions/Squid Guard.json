@@ -433,31 +433,13 @@
     ],
     "clips": [
       {
-        "id": "aR0dbddbfQA",
-        "title": "Passing the Polish Worm Rider lapel guard",
-        "by": "Daniel Maira",
+        "id": "zmy16f69rb4",
         "vertical": false,
-        "channel": "Movement Art",
-        "duration": 54,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "u0D9HUwXuKE",
-        "title": "Passing lapel guard",
-        "by": "Vicente Cavalcanti",
-        "vertical": false,
-        "channel": "VICENTE CAVALCANTI",
-        "duration": 70,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "pbK4xwr8ggU",
-        "title": "Modern lapel guard passing 03",
-        "by": "Romulo Barral",
-        "vertical": false,
-        "channel": "Romulo Barral",
-        "duration": 105,
-        "verified": "2026-07-14"
+        "title": "Passing The Squid Guard Concepts w/ Pablo Mantovani",
+        "channel": "Antonio Vinicius ",
+        "duration": 608,
+        "verified": "2026-10-19",
+        "front": true
       }
     ]
   },
@@ -967,31 +949,13 @@
   ],
   "clips": [
     {
-      "id": "Z14Nz40c52s",
-      "title": "Keenan's new lapel guard",
-      "by": "Keenan Cornelius",
+      "id": "zmy16f69rb4",
       "vertical": false,
-      "channel": "Takedown Breakdown 👥",
-      "duration": 191,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "4W-dStVHCIQ",
-      "title": "Enter the Galaxy: lapel guard",
-      "by": "Bradley Hill",
-      "vertical": false,
-      "channel": "The Grapple Club",
-      "duration": 90,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "OO2IqO3M8f8",
-      "title": "Lapel guard overview",
-      "by": "BJJ Highlights",
-      "vertical": false,
-      "channel": "@bjjhighlights",
-      "duration": 52,
-      "verified": "2026-07-14"
+      "title": "Passing The Squid Guard Concepts w/ Pablo Mantovani",
+      "channel": "Antonio Vinicius ",
+      "duration": 608,
+      "verified": "2026-10-19",
+      "half": "top"
     }
   ]
 }

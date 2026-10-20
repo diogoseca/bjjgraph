@@ -46,8 +46,19 @@ description: "Master the Dogfight position in BJJ half guard. Dynamic kneeling p
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Half Guard to the Dogfight",
-      "description": "Dogfight Position film study: Half Guard to the Dogfight, taught by The Base Jiu Jitsu.",
+      "name": "Whizzer from Half Guard.  How to win \"Dog Fight\"",
+      "description": "Dogfight Position film study: Whizzer from Half Guard.  How to win \"Dog Fight\", taught by Wrecking Crew BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8mXBDHXrAu4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8mXBDHXrAu4",
+      "url": "https://www.youtube.com/watch?v=8mXBDHXrAu4",
+      "creator": { "@type": "Person", "name": "Wrecking Crew BJJ" },
+      "duration": "PT59S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "The Base BJJ Technique of the Week: Half Guard to the Dogfight",
+      "description": "Dogfight Position film study: The Base BJJ Technique of the Week: Half Guard to the Dogfight, taught by The Base Jiu Jitsu.",
       "thumbnailUrl": "https://i.ytimg.com/vi/X4jR2wWOy2M/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/X4jR2wWOy2M",
       "url": "https://www.youtube.com/watch?v=X4jR2wWOy2M",
@@ -56,25 +67,14 @@ description: "Master the Dogfight position in BJJ half guard. Dynamic kneeling p
     },
     {
       "@type": "VideoObject",
-      "position": 2,
-      "name": "Dog Fight Basics: Plan B \u0026 Old School Sweep",
-      "description": "Dogfight Position film study: Dog Fight Basics: Plan B \u0026 Old School Sweep, taught by Brandon Mccaghren.",
+      "position": 3,
+      "name": "DOG FIGHT BASICS (Plan B \u0026 Oldschool Sweep)",
+      "description": "Dogfight Position film study: DOG FIGHT BASICS (Plan B \u0026 Oldschool Sweep), taught by Brandon Mccaghren.",
       "thumbnailUrl": "https://i.ytimg.com/vi/fjDBmFzfhgI/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/fjDBmFzfhgI",
       "url": "https://www.youtube.com/watch?v=fjDBmFzfhgI",
       "creator": { "@type": "Person", "name": "Brandon Mccaghren" },
-      "duration": "PT145S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Understanding the Timing of the Dog Fight",
-      "description": "Dogfight Position film study: Understanding the Timing of the Dog Fight, taught by Brandon Mccaghren.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/0uz58YFhIv8/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/0uz58YFhIv8",
-      "url": "https://www.youtube.com/watch?v=0uz58YFhIv8",
-      "creator": { "@type": "Person", "name": "Brandon Mccaghren" },
-      "duration": "PT187S"
+      "duration": "PT144S"
     }
   ]
 }
@@ -125,9 +125,17 @@ The position is favored in modern no-gi grappling and has become a cornerstone o
 
 <div class="film-clip">
 
+![](https://www.youtube.com/watch?v=8mXBDHXrAu4)
+
+<p class="clip-credit"><strong>Whizzer from Half Guard.  How to win &#34;Dog Fight&#34;</strong> — taught by Wrecking Crew BJJ · 0:59 · <a href="https://www.youtube.com/watch?v=8mXBDHXrAu4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
 ![](https://www.youtube.com/watch?v=X4jR2wWOy2M)
 
-<p class="clip-credit"><strong>Half Guard to the Dogfight</strong> — taught by The Base Jiu Jitsu · 1:19 · <a href="https://www.youtube.com/watch?v=X4jR2wWOy2M" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>The Base BJJ Technique of the Week: Half Guard to the Dogfight</strong> — taught by The Base Jiu Jitsu · 1:19 · <a href="https://www.youtube.com/watch?v=X4jR2wWOy2M" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -135,15 +143,7 @@ The position is favored in modern no-gi grappling and has become a cornerstone o
 
 ![](https://www.youtube.com/watch?v=fjDBmFzfhgI)
 
-<p class="clip-credit"><strong>Dog Fight Basics: Plan B &amp; Old School Sweep</strong> — taught by Brandon Mccaghren · 2:25 · <a href="https://www.youtube.com/watch?v=fjDBmFzfhgI" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=0uz58YFhIv8)
-
-<p class="clip-credit"><strong>Understanding the Timing of the Dog Fight</strong> — taught by Brandon Mccaghren · 3:07 · <a href="https://www.youtube.com/watch?v=0uz58YFhIv8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>DOG FIGHT BASICS (Plan B &amp; Oldschool Sweep)</strong> — taught by Brandon Mccaghren · 2:24 · <a href="https://www.youtube.com/watch?v=fjDBmFzfhgI" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

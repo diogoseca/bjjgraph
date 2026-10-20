@@ -455,30 +455,22 @@
     "clips": [
       {
         "id": "LIITsrlsAaI",
-        "title": "Passing Half Butterfly Guard",
+        "title": "Passing half butterfly guard",
         "by": "Morto BJJ",
-        "vertical": false,
+        "vertical": true,
         "channel": "Morto BJJ",
         "duration": 70,
-        "verified": "2026-07-14"
+        "verified": "2026-10-19",
+        "front": true
       },
       {
         "id": "Pk_6CrydIRQ",
-        "title": "Effective Half Butterfly Guard Pass (No Gi)",
+        "title": "Effective Half Butterfly Guard Pass for NoGi #nogi #bjj #jiujitsu",
         "by": "Factory Fresh Jiu Jitsu",
-        "vertical": false,
+        "vertical": true,
         "channel": "Factory Fresh Jiu Jitsu",
-        "duration": 110,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "BkT2cQdqqgU",
-        "title": "How to Pass the Butterfly Guard",
-        "by": "Brandon McCaghren",
-        "vertical": false,
-        "channel": "Brandon Mccaghren",
-        "duration": 117,
-        "verified": "2026-07-14"
+        "duration": 109,
+        "verified": "2026-10-19"
       }
     ]
   },
@@ -1060,33 +1052,5 @@
       }
     }
   ],
-  "clips": [
-    {
-      "id": "MFed9IE8afA",
-      "title": "Reverse Armdrag to Back Take (Marcelo style)",
-      "by": "Jerry Musquiz",
-      "vertical": false,
-      "channel": "Jerry Musquiz",
-      "duration": 42,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "-fnzNp6TWQo",
-      "title": "Rafael Lovato Jr Half Guard Sweep Breakdown",
-      "by": "Rafael Lovato Jr",
-      "vertical": false,
-      "channel": "Conceptual Grappling",
-      "duration": 88,
-      "verified": "2026-07-14"
-    },
-    {
-      "id": "wVWtFcfAbgE",
-      "title": "No Gi Butterfly Guard Explained Simply",
-      "by": "Jean Jacques Machado",
-      "vertical": false,
-      "channel": "JeanJacquesMachado",
-      "duration": 177,
-      "verified": "2026-07-14"
-    }
-  ]
+  "clips": []
 }

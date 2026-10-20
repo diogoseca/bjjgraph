@@ -165,8 +165,8 @@ description: "Master top butterfly half guard defense and passing. Learn to coun
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Passing Half Butterfly Guard",
-      "description": "Butterfly Half Guard (Top) film study: Passing Half Butterfly Guard, taught by Morto BJJ.",
+      "name": "Passing half butterfly guard",
+      "description": "Butterfly Half Guard (Top) film study: Passing half butterfly guard, taught by Morto BJJ.",
       "thumbnailUrl": "https://i.ytimg.com/vi/LIITsrlsAaI/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/LIITsrlsAaI",
       "url": "https://www.youtube.com/watch?v=LIITsrlsAaI",
@@ -176,24 +176,13 @@ description: "Master top butterfly half guard defense and passing. Learn to coun
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Effective Half Butterfly Guard Pass (No Gi)",
-      "description": "Butterfly Half Guard (Top) film study: Effective Half Butterfly Guard Pass (No Gi), taught by Factory Fresh Jiu Jitsu.",
+      "name": "Effective Half Butterfly Guard Pass for NoGi #nogi #bjj #jiujitsu",
+      "description": "Butterfly Half Guard (Top) film study: Effective Half Butterfly Guard Pass for NoGi #nogi #bjj #jiujitsu, taught by Factory Fresh Jiu Jitsu.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Pk_6CrydIRQ/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Pk_6CrydIRQ",
       "url": "https://www.youtube.com/watch?v=Pk_6CrydIRQ",
       "creator": { "@type": "Person", "name": "Factory Fresh Jiu Jitsu" },
-      "duration": "PT110S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "How to Pass the Butterfly Guard",
-      "description": "Butterfly Half Guard (Top) film study: How to Pass the Butterfly Guard, taught by Brandon McCaghren.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/BkT2cQdqqgU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/BkT2cQdqqgU",
-      "url": "https://www.youtube.com/watch?v=BkT2cQdqqgU",
-      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
-      "duration": "PT117S"
+      "duration": "PT109S"
     }
   ]
 }
@@ -221,27 +210,19 @@ The strategic approach from top butterfly half guard involves several key consid
 <p class="section-subtitle">Watch Butterfly Half Guard (Top) in action — curated instructionals</p>
 
 
-<div class="film-clip">
+<div class="film-clip film-clip--vertical">
 
 ![](https://www.youtube.com/watch?v=LIITsrlsAaI)
 
-<p class="clip-credit"><strong>Passing Half Butterfly Guard</strong> — taught by Morto BJJ · 1:10 · <a href="https://www.youtube.com/watch?v=LIITsrlsAaI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Passing half butterfly guard</strong> — taught by Morto BJJ · 1:10 · <a href="https://www.youtube.com/watch?v=LIITsrlsAaI" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
-<div class="film-clip">
+<div class="film-clip film-clip--vertical">
 
 ![](https://www.youtube.com/watch?v=Pk_6CrydIRQ)
 
-<p class="clip-credit"><strong>Effective Half Butterfly Guard Pass (No Gi)</strong> — taught by Factory Fresh Jiu Jitsu · 1:50 · <a href="https://www.youtube.com/watch?v=Pk_6CrydIRQ" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=BkT2cQdqqgU)
-
-<p class="clip-credit"><strong>How to Pass the Butterfly Guard</strong> — taught by Brandon McCaghren · 1:57 · <a href="https://www.youtube.com/watch?v=BkT2cQdqqgU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Effective Half Butterfly Guard Pass for NoGi #nogi #bjj #jiujitsu</strong> — taught by Factory Fresh Jiu Jitsu · 1:49 · <a href="https://www.youtube.com/watch?v=Pk_6CrydIRQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

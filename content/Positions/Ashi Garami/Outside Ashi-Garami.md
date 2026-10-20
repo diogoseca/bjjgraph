@@ -46,35 +46,13 @@ description: "Master Outside Ashi-Garami position in BJJ. Strategic guide coveri
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Outside Ashi overview",
-      "description": "Outside Ashi-Garami film study: Outside Ashi overview, taught by Team Strela.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/xvx03k3jiWo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/xvx03k3jiWo",
-      "url": "https://www.youtube.com/watch?v=xvx03k3jiWo",
-      "creator": { "@type": "Person", "name": "Team Strela" },
-      "duration": "PT26S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Ashi Garami and heel hook basics",
-      "description": "Outside Ashi-Garami film study: Ashi Garami and heel hook basics, taught by The Coop BJJ.",
+      "name": "Ashi Garami + Heel Hook",
+      "description": "Outside Ashi-Garami film study: Ashi Garami + Heel Hook, taught by The Coop BJJ.",
       "thumbnailUrl": "https://i.ytimg.com/vi/pRqoNs4K7cI/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/pRqoNs4K7cI",
       "url": "https://www.youtube.com/watch?v=pRqoNs4K7cI",
       "creator": { "@type": "Person", "name": "The Coop BJJ" },
-      "duration": "PT83S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Outside heel hook finishing mechanics",
-      "description": "Outside Ashi-Garami film study: Outside heel hook finishing mechanics, taught by Fox Den Martial Arts.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/tLcHN042w48/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/tLcHN042w48",
-      "url": "https://www.youtube.com/watch?v=tLcHN042w48",
-      "creator": { "@type": "Person", "name": "Fox Den Martial Arts" },
-      "duration": "PT86S"
+      "duration": "PT82S"
     }
   ]
 }
@@ -125,25 +103,9 @@ Outside Ashi-Garami exists as both an offensive attacking position (bottom persp
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=xvx03k3jiWo)
-
-<p class="clip-credit"><strong>Outside Ashi overview</strong> — taught by Team Strela · 0:26 · <a href="https://www.youtube.com/watch?v=xvx03k3jiWo" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=pRqoNs4K7cI)
 
-<p class="clip-credit"><strong>Ashi Garami and heel hook basics</strong> — taught by The Coop BJJ · 1:23 · <a href="https://www.youtube.com/watch?v=pRqoNs4K7cI" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=tLcHN042w48)
-
-<p class="clip-credit"><strong>Outside heel hook finishing mechanics</strong> — taught by Fox Den Martial Arts · 1:26 · <a href="https://www.youtube.com/watch?v=tLcHN042w48" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Ashi Garami + Heel Hook</strong> — taught by The Coop BJJ · 1:22 · <a href="https://www.youtube.com/watch?v=pRqoNs4K7cI" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
