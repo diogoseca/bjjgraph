@@ -1,4 +1,4 @@
-/* v1.230.0: feedback_owner_rules_reverse_shipped_contracts (v1.218.1,
+/* v1.231.0: feedback_owner_rules_reverse_shipped_contracts (v1.218.1,
    v1.220.0). The approved video card replaces Inspect and the 0.6 stat ratio.
    The chosen face retains its 1/12 lift over 440ms. */
 /* A previous number shown while the same hand re-solves (ngChoiceValueUpdating; threat cards too). */
@@ -19,13 +19,18 @@
 .ng-choice-shape > :not(svg) { position:relative; }
 .ngchoice-title { min-width:0; flex:1; font-size:13px; font-weight:600; line-height:1.22; }
 .ngchoice-title > span { display:block; }
-.ng-choice-media { flex:none; width:100%; height:86px; display:grid; place-items:center; background:#101423; color:#8190aa; font-size:10px; overflow:hidden; }
+.ng-choice-media { flex:none; width:100%; height:86px; display:grid; grid-template: minmax(0,1fr) / minmax(0,1fr); place-items:center; background:#101423; color:#8190aa; font-size:10px; overflow:hidden; }
 .ng-choice-media img { display:block; width:100%; height:100%; object-fit:cover; }
+/* U8 / D-338: Quartz's article-image margin shifts the reel poster down.
+   The explicit grid track also keeps natural image dimensions from growing
+   the choice poster beyond its frame. Keep the source crop centered. */
+.ng-clip img, .ng-choice-media img { margin:0; border-radius:0; object-position:center; }
+.ngPlayerHost iframe { display:block; width:100%; height:100%; border:0; margin:0; }
 .ng-choice-card .ng-choice-watch { position:absolute; left:calc(50% - 22px); top:65px; width:44px; height:44px; padding:0; border:1px solid #b3c6ea; border-radius:50%; background:rgba(8,10,16,.85); }
 .ng-choice-watch > span { display:block; padding-left:2px; font-size:17px; }
 .ng-choice-card .ngcv-card { display:flex; flex:none; width:100%; height:44px; margin:0; padding:4px 9px; box-sizing:border-box; text-align:left; border-bottom:1px solid rgba(150,170,210,.12); }
 .ng-choice-stat { display:flex; flex:1; flex-direction:column; gap:2px; line-height:1.1; }
-.ng-choice-stat + .ng-choice-stat { border-left:1px solid rgba(150,170,210,.16); padding-left:12px; }
+.ng-choice-stat + .ng-choice-stat { border-left:1px solid rgba(150,170,210,.16); padding-left:12px; text-align:right; }
 .ng-choice-stat > span { font-size:10px; color:#aab9d3; }
 .ng-choice-stat > strong { font-size:18px; font-weight:600; color:#edf3ff; font-variant-numeric:tabular-nums; }
 .ng-choice-badge { position:absolute; left:6px; top:48px; color:#eef3ff; background:#202e4a; border-radius:3px; font-size:9px; padding:3px 5px; pointer-events:none; }
@@ -47,7 +52,7 @@
 .ng-landfilm.ng-current-card .ng-cliprow .ng-clip { flex:0 0 calc(90.9090909% - 7.272727px); width:calc(90.9090909% - 7.272727px)!important; height:auto!important; aspect-ratio:16/9; border:0!important; border-radius:0; transition:none; }
 .ng-landfilm.ng-current-card[data-single-video] .ng-clip { flex-basis:100%; width:100%!important; }
 .ng-current-card footer { margin:0; opacity:1; display:flex; align-items:center; justify-content:space-between; height:40px; padding:0 12px; box-sizing:border-box; font-size:11px; color:#aab9d3; }
-.ng-current-stat { display:flex; flex-direction:column; min-width:64px; gap:1px; font-size:10px; }
+.ng-current-stat { display:flex; flex-direction:column; min-width:64px; gap:1px; font-size:10px; text-align:right; }
 .ng-current-stat strong { font-size:18px; line-height:1.1; color:#edf3ff; font-variant-numeric:tabular-nums; }
 .ng-landfilm.ng-current-card [data-film-close] { left:auto!important; right:0!important; top:0!important; width:44px!important; height:44px!important; z-index:4!important; }
 .ng-current-card .ng-film-arrow { top:calc(50% - 42px); }

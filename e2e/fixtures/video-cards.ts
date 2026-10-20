@@ -9,8 +9,8 @@ export const CARD = `[data-tech="${NAME}"]`
 export type Front = "approved" | "later" | "opposite" | "none"
 
 export async function bootVideoCards(page: Page, front: Front = "approved", {
-  crossOriginPlayer = false, revealChoice = true,
-}: { crossOriginPlayer?: boolean; revealChoice?: boolean } = {}) {
+  crossOriginPlayer = false, revealChoice = true, currentClips = 2,
+}: { crossOriginPlayer?: boolean; revealChoice?: boolean; currentClips?: 1 | 2 } = {}) {
   const j = journey(page)
   await j.boot("/", { beforeNavigate: async p => {
     await p.route("**/static/neural/content/*.json", async route => {
@@ -20,7 +20,7 @@ export async function bootVideoCards(page: Page, front: Front = "approved", {
         const d = raw as any
         // Exercise wire ownership, not editorial matching: curation is the authority.
         for (const block of [d, ...Object.values(d.perspectives || {})] as any[]) for (const c of block.clips || []) delete c.front
-        if (name === "Mount|Top") d.clips = [{ id: "ddddddddddd", title: "Mount Top", duration: 600 }, { id: "eeeeeeeeeee", title: "Another Mount Top view", duration: 20 }]
+        if (name === "Mount|Top") d.clips = [{ id: "ddddddddddd", title: "Mount Top", duration: 600 }, { id: "eeeeeeeeeee", title: "Another Mount Top view", duration: 20 }].slice(0, currentClips)
         if (name === NAME) {
           const a = d.perspectives.attacker.clips = [{ id: "aaaaaaaaaaa", title: NAME, duration: 600 }, { id: "bbbbbbbbbbb", title: "Second clip", duration: 20 }], b = d.perspectives.defender.clips = [{ id: "ccccccccccc", title: "Defending clip" }]
           if (front === "approved") { a[0].front = true; a[0].duration = 600; a[1].duration = 20 }

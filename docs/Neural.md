@@ -185,36 +185,30 @@ fills the last slot. Display order is still the `…-mc-shuffle` shuffle. Pinned
 
 ### Choosing a move and watching its video
 
-v1.230.0 (`feedback_owner_rules_reverse_shipped_contracts`) reverses the v1.218.1
-Inspect control and shifted-digit route, and v1.220.0's option sheet and unequal score hierarchy.
-The header is **Your move**. A direct title sits above one approved front still; an absent front
-leaves a quiet empty region of the same height. Curation's first `front: true` clip in the move's
-own role is the only eligible still. Escape choices never borrow a destination position's footage.
+v1.231.0 (`feedback_owner_rules_reverse_shipped_contracts`): **Your move** replaces Inspect
+and its option sheet; the reversal history is in the archive. A title sits above the first clip
+only if it has `front: true` in the move's own role. Otherwise the media region stays empty.
+Escape choices never borrow destination footage.
 
-The whole card commits the move once, including its title, poster, empty media, score row and
-border; the centered 44px **play circle** opens only its video viewer. The viewer never commits
-or autoplays. There is no Choose/Read footer or Read link (owner review D-318, 2026-10-16).
-The card is 176px high. Its shortcut digit (1–9) sits inside the category shape beside the title:
-diamond for a transition, triangle for a submission, circle for a position. The Move / Works /
-Submit / Escape % and Win % row is unchanged. Current-node video cards carry the same shape
-without a shortcut. Plain digits still commit; dragging the hand never commits.
-Opening the viewer marks the source hand touched, declines its question and pauses it;
-the card order stays frozen. Closing restores focus and the previous pause state.
-The viewer's Close button directly precedes the player in the dialog's focus order. A keyboard
-user can Shift+Tab out of the cross-origin player to Close; Escape inside the player cannot be
-relied on to reach the parent dialog. Tab traversal stays within the viewer while it is open.
-Shifted digits do nothing. Hidden hands, text entry, reading, a viewer and the visible quiz retain
-keyboard priority. Threat cards offer the play circle when eligible but cannot execute.
+The 176px card commits once anywhere except its centered 44px **play circle**, which opens
+the viewer without committing or autoplaying. D-318 removes the Choose/Read footer. Digits
+1–9 sit inside the title's category shape: diamond transition, triangle submission, circle
+position. Current-node cards use the shape without a digit. Move / Works / Submit / Escape %
+and Win % keep their meaning. Plain digits commit; dragging and shifted digits do nothing.
+Hidden hands, text entry, reading, a viewer and the visible quiz retain keyboard priority.
+Threat cards can offer eligible playback but cannot execute.
 
-Inspect and its practise-before-you-try drill are retired (owner decision, 2026-10-15,
-question 6). There is no Practice action on a choice. The JIT engine, RNG tags, warm-up
-latch and styles are removed; the shared `_mcAnswer`, `gradeRecall` and `refreshOptionOdds`
-economy remains. The existing landing,
-node, history and Challenges decks still grade through the shared study economy; opening a viewer
-awards no practice credit. Explicit playback retains the existing once-per-technique film-look
-modifier; opening the viewer alone does not award it. The viewer keeps the legacy `sheet_opened`
-challenge evidence ID and saved challenge keys, with copy naming the new actions. The card keeps
-Suggested / Recommended, pending and stale states.
+Opening the viewer marks the hand touched, declines its question and pauses it without
+reordering. Closing restores focus and pause state. Close directly precedes the player:
+Shift+Tab leaves the cross-origin iframe for Close, whereas Escape inside it cannot reach
+the parent. Tab stays within the dialog.
+
+The owner dropped the Inspect/JIT drill on 2026-10-15 (question 6), including its RNG tags,
+warm-up latch and styles. Landing, node, history and Challenges decks retain `_mcAnswer`,
+`gradeRecall` and `refreshOptionOdds`. Opening a viewer awards no credit; explicit playback
+retains the once-per-technique film-look modifier. Legacy `sheet_opened` evidence and saved
+challenge keys remain, with new action copy. Cards retain Suggested / Recommended, pending
+and stale states.
 
 After commit, the live hand is cleared and a non-actionable copy of the chosen card remains,
 exactly where the card was (the row's padding, i.e. the open pane, comes off its offset), escapes
@@ -238,20 +232,21 @@ covered by `tests/roll_execution.test.mjs`; real input and geometry cases are co
 
 ### The current node's media card
 
-The existing `_landFilmEl` is one frame with a fixed title, role and **Win %** footer, no execute
-percentage, and an internal reel showing one full clip plus about 10% of the next. Curated data
-order wins; duration never reorders the reel. At 400px wide its multi-clip frame measures 241px
-high; at 358px it measures 220px. `currentFilmHeight()` exposes the actual height after the slot
-sets its width; these multi-clip estimates are not a fixed reservation. Desktop uses 400px media,
-a 60px gap, a 390px practice face and 52px after the face for Next: a 902px footprint before
-stacking. At a 390px phone viewport, 358px media sits 12px above the 286px practice face
-(viewport minus 104px). The existing 44px deck arrows stay fully visible outside the face.
-Sections owns this slot geometry; the media observer calls `reader.layout()` only when measured
-height changes and never resizes the host inside its callback.
+`_landFilmEl` has a fixed title, role and **Win %** footer, no execute percentage, and one
+full clip plus a 10% peek. Curated order wins over duration. Multi-clip frames are about
+241px high at 400px wide and 220px at 358px; `currentFilmHeight()` measures the actual height.
+Desktop geometry is 400px media + 60px gap + 390px practice + 52px Next reserve = 902px.
+At 390px, 358px media sits 12px above a 286px practice face (viewport minus 104px).
+The 44px deck arrows remain outside the face. Sections owns the slot; the media observer
+calls `reader.layout()` only after a measured height change and never resizes the host itself.
 
 The footer consumes chrome's `currentWinView()` snapshot as `{text, stale, handId}`. It preserves
 the formatted percent, certified range or dash verbatim, adding only stale styling, an ellipsis
 and accessible “updating” wording. The map and current card never calculate separate values.
+The Win label and value align to the right edge on both card types (U8 / D-338). Posters reset
+the article image margin and keep their crop centered; an explicit choice-grid track prevents
+intrinsic image dimensions from overflowing the frame. The shared player fills its frame
+without an iframe border. Single-video and multi-video cards use the same image rule.
 
 Sections owns the normal game slot, `[data-reader-media-slot]` and the one `place(target)` move.
 Videos owns contents and playback. Native `moveBefore` preserves the player; the append fallback

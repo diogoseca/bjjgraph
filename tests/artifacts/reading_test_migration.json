@@ -1670,8 +1670,10 @@
       "e2e/journeys/card-click-contract.spec.ts",
       "e2e/journeys/card-presentation.spec.ts",
       "e2e/journeys/choice-layout.spec.ts",
-      "e2e/journeys/choice-value.spec.ts"
+      "e2e/journeys/choice-value.spec.ts",
+      "e2e/journeys/game-value-live.spec.ts"
     ],
+    "live_worker_migration": "The real-worker journeys retain verified graph/core bytes, action coverage, displayed V(s) equality, real study updates, hand identity, failed-worker retirement, explicit retry, stale-publication rejection and an actual commit. Percent signs move to the Win heading; the sibling recommendation badge is read from the card; ready status is quiet; usable move buttons replace retired Inspect controls. The unavailable-value explanation remains asserted on the card tooltip, and Shift+digit is asserted inert.",
     "geometry": "Choice height 220→176px; A media/practice placement unchanged. Final phone fold waits for sections and chrome integration."
   }
 }

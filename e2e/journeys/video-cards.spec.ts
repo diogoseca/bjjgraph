@@ -1,6 +1,6 @@
 import { expect, test, type Page } from "@playwright/test"
 
-/** v1.230.0 — feedback_owner_rules_reverse_shipped_contracts.
+/** v1.231.0 — feedback_owner_rules_reverse_shipped_contracts.
  * Reverses v1.218.1 Inspect / shifted digits and v1.220.0's sheet and 0.6 ratio.
  * D-318 removes Choose/Read: the card commits except for its play circle.
  * Real mouse input covers the face and play. Synthetic curation flags are
@@ -17,6 +17,54 @@ const state = (page: Page) => page.evaluate(() => {
     executing: !!a._execution, sheet: !!a._detailCtx,
     order: a._optionCards.map((c: any) => c.opt.node.t), answers: a.beats.filter((b: any) => b.beat === "land_q_answered").length }
 })
+
+// U8: use the actual frame and poster rectangles, including Quartz's global
+// image styles. A standalone specimen omitted that stylesheet and hid the
+// vertical margin leak. The oracle is equal visible insets, not a CSS value.
+for (const width of [320, 390, 768, 1024, 1440]) for (const currentClips of [1, 2] as const) {
+  test(`@curated U8 posters stay centered inside every film frame (${width}px, ${currentClips} current clips)`, async ({ page }) => {
+    await page.setViewportSize({ width, height: width < 700 ? 844 : 900 })
+    await boot(page, "approved", { currentClips })
+    const images = page.locator(`${CARD} img, [data-land-film] img`)
+    for (const phase of ["unavailable", "decoded"]) {
+      if (phase === "decoded") await images.evaluateAll(async images => {
+        // The harness blocks external posters. Give the same real image nodes
+        // a 4:3 decoded source as well: intrinsic grid sizing changes on load.
+        const source = "data:image/svg+xml," + encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" width="480" height="360"><path fill="#345" d="M0 0h480v360H0z"/></svg>')
+        await Promise.all(images.map(async node => {
+          const img = node as HTMLImageElement
+          img.loading = "eager"; img.src = source
+          await img.decode()
+        }))
+      })
+      const posters = await images.evaluateAll(images => images.map(img => {
+        const frame = img.closest(".ng-choice-media,.ng-clip")!.getBoundingClientRect()
+        const r = img.getBoundingClientRect()
+        return { top: r.top - frame.top, bottom: frame.bottom - r.bottom,
+          left: r.left - frame.left, right: frame.right - r.right, width: r.width, height: r.height }
+      }))
+      expect(posters.length, "the choice poster and every current-node poster").toBe(currentClips + 1)
+      for (const poster of posters) {
+        expect(poster.width).toBeGreaterThan(0)
+        expect(poster.height).toBeGreaterThan(0)
+        expect(Math.abs(poster.top - poster.bottom), phase + JSON.stringify(poster)).toBeLessThan(.5)
+        expect(Math.abs(poster.left - poster.right), phase + JSON.stringify(poster)).toBeLessThan(.5)
+      }
+    }
+    const winColumns = await page.locator(`${CARD} .ng-choice-stat:last-child, [data-land-film] .ng-current-stat`).evaluateAll(columns => columns.map(column => {
+      const range = document.createRange()
+      range.selectNodeContents(column.firstElementChild!)
+      const labelRight = range.getBoundingClientRect().right
+      range.selectNodeContents(column.querySelector("strong")!)
+      return { right: column.getBoundingClientRect().right, labelRight, valueRight: range.getBoundingClientRect().right }
+    }))
+    expect(winColumns).toHaveLength(2)
+    for (const column of winColumns) {
+      expect(Math.abs(column.right - column.labelRight), "Win label reaches the column's right edge").toBeLessThan(.5)
+      expect(Math.abs(column.right - column.valueRight), "Win value reaches the same right edge").toBeLessThan(.5)
+    }
+  })
+}
 
 for (const [width, height] of [[1440, 900], [390, 844]]) {
   test(`@curated video choice: only the play circle watches, the card commits (${width}px)`, async ({ page }) => {
@@ -44,6 +92,11 @@ for (const [width, height] of [[1440, 900], [390, 844]]) {
     expect(await page.evaluate(() => (window as any).__players[0])).toMatchObject({
       id: "aaaaaaaaaaa", vars: { autoplay: 0, controls: 1 }, play: 0,
     }) // The approved 600-second front wins over the 20-second alternate.
+    const playerInsets = await page.locator("[data-choice-viewer] iframe").evaluate(player => {
+      const r = player.getBoundingClientRect(), frame = player.closest(".ngPlayerHost")!.getBoundingClientRect()
+      return [r.top - frame.top, frame.bottom - r.bottom, r.left - frame.left, frame.right - r.right]
+    })
+    expect(playerInsets.every(inset => Math.abs(inset) < .5), "playback fills the frame without clipping an iframe border").toBe(true)
     await page.keyboard.press("1"); await page.keyboard.press("Shift+Digit1"); await page.keyboard.press("x"); await page.keyboard.press("a")
     expect(await state(page)).toEqual(before)
     await j.clickByMouse("[data-watch-close]", "Close the video viewer")

@@ -11614,3 +11614,18 @@ change. The 14-state actual-hand sample finds approved fronts on 129 of 180 choi
 inventory floor. Fourteen retained economy journeys and 82 targeted units pass.
 Final combined payload, phone geometry and full-suite validation await sections
 and chrome; the deferred tighten obligation remains. No ceiling is raised here.
+
+U8 / D-338, 2026-10-20: reset the article image margin inside film frames and
+constrain the choice media grid to its frame, preventing intrinsic poster
+dimensions from enlarging it. The crop stays centered, and playback fills the
+host without an iframe border. Win labels and values now share the right edge;
+the immediate-chance column retains its alignment. The owner comparison export
+uses the same production cards for both alignments, with illustrative odds on
+desktop and phone light canvases and a desktop dark canvas.
+
+The geometry journeys cover five widths from 320 to 1440px, one and two current
+clips, and unavailable and decoded posters. Source mutations restore the image
+margin, remove the grid constraint and restore left-aligned Win to challenge
+those assertions. The real-worker journeys retain their solver and study
+invariants while moving percent units to the headings and replacing retired
+Inspect checks with the surviving move controls.

@@ -25,6 +25,13 @@ DRAG = r"dragging the hand across a card"
 # Front/play mutations do not depend on the current reel's placement. A real
 # drag through the same hand is their unaffected control while sections integrates.
 MUTANTS = [
+    ("poster_margin", CSS, "margin:0; border-radius:0; object-position:center;",
+     "margin:16px 0; border-radius:0; object-position:center;",
+     VIDEO, r"U8 posters.*1440px", WATCH),
+    ("poster_track", CSS, "grid-template: minmax(0,1fr) / minmax(0,1fr);", "",
+     VIDEO, r"U8 posters.*1440px", WATCH),
+    ("win_alignment", CSS, "text-align:right;", "text-align:left;",
+     VIDEO, r"U8 posters.*1440px", WATCH),
     ("front_required", APP, "return clip?.front === true ? clip : null;", "return clip || null;",
      VIDEO, r"an none front", DRAG),
     ("own_role", APP, "info.perspectives?.[target.role]", "info.perspectives?.[target.role === 'attacker' ? 'defender' : 'attacker']",
@@ -104,7 +111,7 @@ def main():
             assert code == 0 and before and all(s == "passed" for _, s in before), (name, "control", before)
             source = originals[file].decode()
             count = source.count(old)
-            assert count == (2 if name == "wide_peek" else 1), (name, "anchor", count)
+            assert count == (2 if name in ("wide_peek", "win_alignment") else 1), (name, "anchor", count)
             (ROOT / file).write_text(source.replace(old, new))
             build(name)
             code, observed = run(name, spec, red + "|" + green)
