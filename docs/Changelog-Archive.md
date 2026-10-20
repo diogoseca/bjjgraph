@@ -11626,3 +11626,25 @@ change across Backside 50-50, D'Arce from Side Control, Toe Hold from Backside 5
 all other source leaves remain exact. The source scan covers 22,722 answer-line cards and reports
 zero length violations. The first capture remains a record of its earlier candidate; the corrected
 candidate requires a complete local CI replay and build validation before a fresh capture contract.
+
+The corrected candidate `2ce1ec0a2353e58c22a2453c584559be4ff456e7` passes the complete
+pre-capture replay with the sole approved receipt dependency: 23 of 24 steps pass, and
+1,283 of 1,284 units pass with zero skipped. The golden-census ContentGuard correctly rejects
+the earlier candidate's receipt. All later gates, including MC viability and graph integrity, pass.
+
+The normal detached wrapper accepts the replacement capture with `production_accepted=true`,
+both exits zero, all 7,518 tracked inputs unchanged and 15,989 retained files. The exact frozen
+contract (`2fa573be1ada1e42d54bc3a3bbe53d6c40da50252deabdefe7cf1a4ea851d70a`) matches with
+zero findings. The guard receipt SHA-256 is
+`a7670e9d1b6777ad010f93e473be82c0016431d07d5e6bd2fc9bbe00c2828152`; the content receipt
+SHA-256 is `a29cc99d86bec020eed58ddd3dffb8844188f4011b3b52fe97af9a0bd92ea627`.
+D-341's original request, contract, receipts and retained output remain unchanged.
+
+The replacement re-seed changes only capture provenance and location: all census values,
+all 14 app rows, all 20 SEO snapshots and every existing text floor remain identical to D-341.
+The four app rows changed from dev remain `game-model.worker.js`, `game-study.js`,
+`game-study.worker.js` and `game-values.js`; v2 reproduces their D-341 hashes and sizes exactly.
+The payload budget stays byte-identical. The new receipt binds the corrected content tree
+`862dec4c58318141fe38d08f2ddc7554577ee8a0`, while the three D-339 derived source files reproduce
+byte-for-byte from the corrected candidate. D-285 cleanup and checkout preserve all 6,397
+unchanged content paths, including every Markdown inode, birthtime and modification time.
