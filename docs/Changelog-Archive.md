@@ -11612,3 +11612,10 @@ with byte counts unchanged. The other ten app rows and all three normalized main
 exact. Only the two Positions index SEO samples change, removing the retired Grasshopper entry
 (crawlable text 24,942 → 24,767 characters); the other 18 samples are exact. All 20 existing SEO
 floors and the payload budget remain unchanged.
+
+The FLOW content ratchet is also regenerated from the changed graph: only
+`toe-hold-control/top|Toe Hold to Straight Ankle Lock` moves, from −0.553 to −0.552.
+Native Python and the CI-provisioned environment produce the same result. The known-row set,
+reviewed notes, threshold, `max_new`, and numerical tolerances remain unchanged; this row's
+allowed lower bound tightens by 0.001. The census gate confirms all marked assertions, including
+the two dual-consumer checks for 132 positions and 264 role-hands.

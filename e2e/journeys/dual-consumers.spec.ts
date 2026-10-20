@@ -223,7 +223,7 @@ test("@curated the hub keeps its identity: ordinals, Explore, deck keys, curricu
   expect(pair.lessons.filter((s: string) => s.endsWith("=?")).length, "every lesson resolves").toBe(0)
   expect(pair.curriculumFog).toEqual(legacy.curriculumFog)
   expect(pair.traffic).toEqual(legacy.traffic)
-  expect(pair.traffic.length, "the weighted start pool is still 132 POSITIONS").toBe(133) // census:positions
+  expect(pair.traffic.length, "the weighted start pool is still 132 POSITIONS").toBe(132) // census:positions
   // `_ambig` counts sites: counting members puts every short name at >= 2 and `displayName`
   // prints the full qualified name on every card — the exact inverse of the v1.103.0 rule.
   expect(pair.names).toEqual(legacy.names)
@@ -376,7 +376,7 @@ test("the hand is identical from either half of a site", async ({ page }) => {
   // all — so both halves of a site must see the same neighbourhood. Making it true by
   // construction is worth more than making it true by testing, but it is worth testing too.
   expect(r.differCount, "no hand depends on which orb you are standing on: " + JSON.stringify(r.differ)).toBe(0)
-  expect(r.same, "…over all 264 role-hands").toBe(266) // census:roleHands
+  expect(r.same, "…over all 264 role-hands").toBe(264) // census:roleHands
 })
 
 // ══════════════════════════════════════════════════════════════════════════════════════════
