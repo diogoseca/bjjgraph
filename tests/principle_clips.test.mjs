@@ -86,7 +86,9 @@ test("film thumbnails escape fetched titles and expose keyboard button names", (
   const app = Object.create(Component.prototype);
   const html = app.filmStudyHTML([{ id: "aaaaaaaaaaa", title: '<img onerror="bad">', by: "A & B" }]);
   assert.match(html, /type="button"/);
-  assert.match(html, /aria-label="Play: &lt;img onerror=&quot;bad&quot;&gt; — A &amp; B"/);
+  // The U2 control opens the viewer without autoplay; retain exact escaping
+  // and the accessible name under its current Watch action.
+  assert.match(html, /aria-label="Watch: &lt;img onerror=&quot;bad&quot;&gt; — A &amp; B"/);
   assert.doesNotMatch(html, /<img onerror/);
   assert.equal(app.filmStudyHTML([]), "");
 });
