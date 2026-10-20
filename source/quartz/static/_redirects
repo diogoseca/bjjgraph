@@ -143,3 +143,35 @@
 /Transitions/Side-Control-to-Scarf-Hold-Position /Transitions/Side-Control-to-Kesa-Gatame 301
 /Transitions/Turn-In-from-Reverse-Kesa/* /Transitions/Turn-In-from-Ushiro-Kesa-Gatame/:splat 301
 /Transitions/Turn-In-from-Reverse-Kesa /Transitions/Turn-In-from-Ushiro-Kesa-Gatame 301
+
+# BEGIN generated node identity retirements
+# Source: calibration/node_identity_retirements.json; retain old ordinals.
+/Submissions/Heel-Hook/from-Grasshopper-Guard/* /Submissions/Heel-Hook/from-Inverted-Guard/:splat 301
+/Submissions/Heel-Hook/from-Grasshopper-Guard /Submissions/Heel-Hook/from-Inverted-Guard 301
+/submissions/heel-hook/from-grasshopper-guard/* /Submissions/Heel-Hook/from-Inverted-Guard/:splat 301
+/submissions/heel-hook/from-grasshopper-guard /Submissions/Heel-Hook/from-Inverted-Guard 301
+/Transitions/De-La-Riva-to-Grasshopper-Guard/* /Transitions/De-La-Riva-Inversion-Entry/:splat 301
+/Transitions/De-La-Riva-to-Grasshopper-Guard /Transitions/De-La-Riva-Inversion-Entry 301
+/transitions/de-la-riva-to-grasshopper-guard/* /Transitions/De-La-Riva-Inversion-Entry/:splat 301
+/transitions/de-la-riva-to-grasshopper-guard /Transitions/De-La-Riva-Inversion-Entry 301
+/Submissions/Marce-Choke/from-Side-Control/* /Submissions/Darce-Choke/from-Side-Control/:splat 301
+/Submissions/Marce-Choke/from-Side-Control /Submissions/Darce-Choke/from-Side-Control 301
+/submissions/marce-choke/from-side-control/* /Submissions/Darce-Choke/from-Side-Control/:splat 301
+/submissions/marce-choke/from-side-control /Submissions/Darce-Choke/from-Side-Control 301
+/Transitions/Kneebar-from-Grasshopper/* /Transitions/Kneebar-Entry-from-Inverted-Guard/:splat 301
+/Transitions/Kneebar-from-Grasshopper /Transitions/Kneebar-Entry-from-Inverted-Guard 301
+/transitions/kneebar-from-grasshopper/* /Transitions/Kneebar-Entry-from-Inverted-Guard/:splat 301
+/transitions/kneebar-from-grasshopper /Transitions/Kneebar-Entry-from-Inverted-Guard 301
+/Transitions/Grasshopper-Sweep/* /Transitions/Inverted-Guard-Elevation-Sweep/:splat 301
+/Transitions/Grasshopper-Sweep /Transitions/Inverted-Guard-Elevation-Sweep 301
+/transitions/grasshopper-sweep/* /Transitions/Inverted-Guard-Elevation-Sweep/:splat 301
+/transitions/grasshopper-sweep /Transitions/Inverted-Guard-Elevation-Sweep 301
+/Positions/Grasshopper-Guard/* /Positions/Inverted-Guard/:splat 301
+/Positions/Grasshopper-Guard /Positions/Inverted-Guard 301
+/positions/grasshopper-guard/* /Positions/Inverted-Guard/:splat 301
+/positions/grasshopper-guard /Positions/Inverted-Guard 301
+/Submissions/Marce-Choke/* /Submissions/Darce-Choke/:splat 301
+/Submissions/Marce-Choke /Submissions/Darce-Choke 301
+/submissions/marce-choke/* /Submissions/Darce-Choke/:splat 301
+/submissions/marce-choke /Submissions/Darce-Choke 301
+# END generated node identity retirements

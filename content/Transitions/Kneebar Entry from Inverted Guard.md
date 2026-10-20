@@ -3,8 +3,8 @@
 
 
 ---
-title: "Kneebar from Grasshopper | BJJ Technique | BJJ Graph"
-description: "Master Kneebar from Grasshopper Guard. Complete execution guide with inverted entry mechanics, defensive counters, and chain attack options."
+title: "Kneebar Entry from Inverted Guard | BJJ Technique | BJJ Graph"
+description: "Master Kneebar Entry from Inverted Guard Guard. Complete execution guide with inverted entry mechanics, defensive counters, and chain attack options."
 ---
 
 
@@ -15,8 +15,8 @@ description: "Master Kneebar from Grasshopper Guard. Complete execution guide wi
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "name": "Kneebar from Grasshopper",
-  "description": "Master Kneebar from Grasshopper Guard. Complete execution guide with inverted entry mechanics, defensive counters, and chain attack options.",
+  "name": "Kneebar Entry from Inverted Guard",
+  "description": "Master Kneebar Entry from Inverted Guard Guard. Complete execution guide with inverted entry mechanics, defensive counters, and chain attack options.",
   "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
 }
 </script>
@@ -28,7 +28,7 @@ description: "Master Kneebar from Grasshopper Guard. Complete execution guide wi
   "itemListElement": [
     { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
     { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
-    { "@type": "ListItem", "position": 3, "name": "Kneebar from Grasshopper", "item": "https://bjjgraph.org/Transitions/Kneebar-from-Grasshopper" }
+    { "@type": "ListItem", "position": 3, "name": "Kneebar Entry from Inverted Guard", "item": "https://bjjgraph.org/Transitions/Kneebar-Entry-from-Inverted-Guard" }
   ]
 }
 </script>
@@ -42,8 +42,8 @@ description: "Master Kneebar from Grasshopper Guard. Complete execution guide wi
 {
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
-  "name": "Kneebar from Grasshopper",
-  "description": "Kneebar from Grasshopper is a leg attack that inverts beneath a standing passer to thread and isolate their lead leg, aligning the back of the knee against your hip for a straight-line hyperextension finish.",
+  "name": "Kneebar Entry from Inverted Guard",
+  "description": "Kneebar Entry from Inverted Guard is a leg attack that inverts beneath a standing passer to thread and isolate their lead leg, aligning the back of the knee against your hip for a straight-line hyperextension finish.",
   "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
 }
 </script>
@@ -54,24 +54,24 @@ description: "Master Kneebar from Grasshopper Guard. Complete execution guide wi
 
 <div class="role-links">
 
-[[Kneebar from Grasshopper/Attacker|Play as Attacker]]
-[[Kneebar from Grasshopper/Defender|Play as Defender]]
+[[Kneebar Entry from Inverted Guard/Attacker|Play as Attacker]]
+[[Kneebar Entry from Inverted Guard/Defender|Play as Defender]]
 
 </div>
 
 <section id="overview" class="content-section">
 
-**Kneebar from Grasshopper is a leg attack that inverts beneath a standing passer to thread and isolate their lead leg, aligning the back of the knee against your hip for a straight-line hyperextension finish.**
+**Kneebar Entry from Inverted Guard is a leg attack that inverts beneath a standing passer to thread and isolate their lead leg, aligning the back of the knee against your hip for a straight-line hyperextension finish.**
 
-The Kneebar from Grasshopper Guard represents one of the highest-percentage leg attack entries available from inverted guard configurations. The grasshopper position provides unique access to the opponent's lead leg that standing passers rarely anticipate. By inverting and positioning your hips beneath their leg, you create immediate hyperextension threat on the knee joint before they can establish passing grips or pressure.
+The Kneebar Entry from Inverted Guard Guard represents one of the highest-percentage leg attack entries available from inverted guard configurations. The inverted position provides unique access to the opponent's lead leg that standing passers rarely anticipate. By inverting and positioning your hips beneath their leg, you create immediate hyperextension threat on the knee joint before they can establish passing grips or pressure.
 
-This technique exploits the fundamental vulnerability of standing guard passers: their weight distribution and base require at least one leg to remain relatively stationary. When you invert into grasshopper, that stationary leg becomes your primary target. The entry involves threading your legs around their knee while your hips rotate to position the back of their knee directly against your hip crease - the optimal fulcrum point for kneebar mechanics.
+This technique exploits the fundamental vulnerability of standing guard passers: their weight distribution and base require at least one leg to remain relatively stationary. When you invert into inverted, that stationary leg becomes your primary target. The entry involves threading your legs around their knee while your hips rotate to position the back of their knee directly against your hip crease - the optimal fulcrum point for kneebar mechanics.
 
-From a systematic perspective, the Kneebar from Grasshopper functions as both a submission threat and a sweep setup. Even if the opponent defends the kneebar by straightening their leg or stepping back, your position often converts directly into X-Guard or Single Leg X entries. This chain-attack potential makes the technique valuable beyond just the submission itself - it forces defensive reactions that open other attacking pathways.
+From a systematic perspective, the Kneebar Entry from Inverted Guard functions as both a submission threat and a sweep setup. Even if the opponent defends the kneebar by straightening their leg or stepping back, your position often converts directly into X-Guard or Single Leg X entries. This chain-attack potential makes the technique valuable beyond just the submission itself - it forces defensive reactions that open other attacking pathways.
 
 The inverted nature of this entry makes it particularly effective in no-gi competition where the absence of gi grips means the top player cannot easily control your inverting motion. The technique gained prominence through modern leg lock systems that emphasize attacking from bottom positions against standing opponents, reversing traditional assumptions about who holds positional advantage.
 
-**From Position**: [[Positions/Grasshopper Guard]] (Bottom)
+**From Position**: [[Positions/Inverted Guard]] (Bottom)
 **Success Rate**: 33%
 
 </section>
@@ -85,7 +85,7 @@ The inverted nature of this entry makes it particularly effective in no-gi compe
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[Positions/Kneebar Control]] | 55% |
-| Failure | [[Positions/Grasshopper Guard]] | 30% |
+| Failure | [[Positions/Inverted Guard]] | 30% |
 | Counter | [[Positions/Side Control]] | 15% |
 
 
@@ -107,7 +107,7 @@ The inverted nature of this entry makes it particularly effective in no-gi compe
 
 ## Playing as Attacker
 
-[[Kneebar from Grasshopper/Attacker|→ Full Attacker Guide]]
+[[Kneebar Entry from Inverted Guard/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -130,7 +130,7 @@ The inverted nature of this entry makes it particularly effective in no-gi compe
 ### Execution Steps
 
 
-- **Identify target leg**: From grasshopper guard with hips elevated, identify which of opponent's legs is weight-bearing and w...
+- **Identify target leg**: From inverted guard with hips elevated, identify which of opponent's legs is weight-bearing and will...
 
 - **Thread outside leg**: Shoot your outside leg (the leg furthest from their target leg) behind their knee, hooking the back ...
 
@@ -165,14 +165,14 @@ The inverted nature of this entry makes it particularly effective in no-gi compe
 
 ## Playing as Defender
 
-[[Kneebar from Grasshopper/Defender|→ Full Defender Guide]]
+[[Kneebar Entry from Inverted Guard/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 
 
 - Early recognition beats late defense - identify the inversion and leg threading before hip rotation completes
 
-- Never commit full weight to your lead leg when opponent has grasshopper guard established beneath you
+- Never commit full weight to your lead leg when opponent has inverted guard established beneath you
 
 - Keep your targeted leg mobile and ready to retract at all times when engaging inverted guards
 
@@ -213,7 +213,7 @@ The inverted nature of this entry makes it particularly effective in no-gi compe
 ## Variations
 
 
-**Rolling Kneebar Entry**: Instead of static entry from grasshopper, use a rolling motion to follow an opponent who steps back. The roll maintains leg contact and can catch opponents who think they've escaped the initial threat. (When to use: When opponent begins stepping back to disengage from your grasshopper guard)
+**Rolling Kneebar Entry**: Instead of static entry from inverted, use a rolling motion to follow an opponent who steps back. The roll maintains leg contact and can catch opponents who think they've escaped the initial threat. (When to use: When opponent begins stepping back to disengage from your inverted guard)
 
 
 **Kneebar to Calf Slicer Transition**: When opponent defends by straightening their leg and denying heel control, transition immediately to calf slicer by threading your leg behind their calf while maintaining hip pressure on their knee. (When to use: When opponent successfully straightens their leg to defend the standard kneebar finish)
@@ -231,7 +231,7 @@ The inverted nature of this entry makes it particularly effective in no-gi compe
 
 ## Position Integration
 
-The Kneebar from Grasshopper fits into the broader leg entanglement system as a primary attack from inverted guard configurations. It connects directly to the grasshopper guard attack tree, which includes kneebars, ankle locks, and transitions to X-Guard and Single Leg X for sweeps. When the kneebar is defended, the position naturally flows to inside ashi garami, outside ashi garami, or 50-50 depending on how the opponent counters. This makes it a forcing function that opens other attacks regardless of whether the kneebar itself succeeds. The technique pairs naturally with the Single Leg X Transition and Inside Ashi Entry from grasshopper, creating a comprehensive leg attack system from the inverted position. Advanced practitioners use the kneebar threat to set up sweeps, back takes, and other submissions by exploiting defensive reactions.
+The Kneebar Entry from Inverted Guard fits into the broader leg entanglement system as a primary attack from inverted guard configurations. It connects directly to the inverted guard attack tree, which includes kneebars, ankle locks, and transitions to X-Guard and Single Leg X for sweeps. When the kneebar is defended, the position naturally flows to inside ashi garami, outside ashi garami, or 50-50 depending on how the opponent counters. This makes it a forcing function that opens other attacks regardless of whether the kneebar itself succeeds. The technique pairs naturally with the Single Leg X Transition and Inside Ashi Entry from inverted, creating a comprehensive leg attack system from the inverted position. Advanced practitioners use the kneebar threat to set up sweeps, back takes, and other submissions by exploiting defensive reactions.
 
 </section>
 
@@ -241,7 +241,7 @@ The Kneebar from Grasshopper fits into the broader leg entanglement system as a 
 ## Related Techniques
 
 
-- [[Positions/Grasshopper Guard]] - Starting position - the inverted guard from which this attack is launched
+- [[Positions/Inverted Guard]] - Starting position - the inverted guard from which this attack is launched
 
 - [[Positions/Kneebar Control]] - Destination position when entry succeeds - consolidation before finish
 
@@ -253,11 +253,11 @@ The Kneebar from Grasshopper fits into the broader leg entanglement system as a 
 
 - [[Submissions/Calf Slicer]] - Follow-up submission when opponent straightens leg to defend
 
-- [[Positions/Inverted Guard]] - Parent guard category that grasshopper belongs to
+- [[Positions/Inverted Guard]] - Parent guard category that inverted belongs to
 
 - [[Transitions/Kneebar Finish]] - Completion technique from Kneebar Control position
 
-- [[Transitions/Grasshopper Sweep]] - Alternative offensive option from the same starting position
+- [[Transitions/Inverted Guard Elevation Sweep]] - Alternative offensive option from the same starting position
 
 - [[Positions/Ashi Garami/50-50 Guard]] - Potential entanglement when both players engage legs simultaneously
 

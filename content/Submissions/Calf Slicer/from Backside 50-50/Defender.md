@@ -55,7 +55,7 @@ description: "Defend the calf slicer from backside 50-50 with early recognition 
       "name": "How do you recognize that a calf slicer is being set up from backside 50-50?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Key recognition cues include the opponent shifting their shin from beside your leg to behind your bent knee crease, releasing heel hook grips to grab your foot or toes instead, and beginning to lock their outside leg over their attacking shin in a figure-four pattern. You may also feel increased forward chest pressure as they prepare to fold your leg. The transition typically happens when you have been bending your knee to defend heel hooks."
+        "text": "Key recognition cues include the opponent shifting their shin from beside your leg to behind your bent knee crease, releasing heel hook grips to grab your foot or toes instead, and beginning to lock their outside leg over their attacking shin in a figure-four pattern. You may also feel increased forward knee-line control as they prepare to fold your leg. The transition typically happens when you have been bending your knee to defend heel hooks."
       }
     },
     {
@@ -170,7 +170,7 @@ Defending the calf slicer from backside 50-50 requires early recognition of the 
 - Opponent shifts their shin position from beside your leg to behind your bent knee crease
 - Opponent releases heel hook grip and reaches for your foot or toes instead of your heel
 - Opponent begins locking their outside leg over their attacking shin in a figure-four pattern
-- Increased forward chest pressure combined with the opponent pulling your foot toward them
+- Increased forward knee-line control combined with the opponent pulling your foot toward them
 
 
 </section>
@@ -183,7 +183,7 @@ Defending the calf slicer from backside 50-50 requires early recognition of the 
 
 - Keep your trapped leg as straight as possible to deny the bent-knee position required for the calf slicer compression
 - Recognize the transition from heel hook to calf slicer threat early - the moment the attacker shifts from your heel to threading behind your knee
-- Create hip movement and angles to prevent the attacker from settling their chest pressure and locking the figure-four
+- Create hip movement and angles to prevent the attacker from settling their knee-line control and locking the figure-four
 - Fight the foot grip immediately - once the attacker controls your foot, straightening your leg becomes nearly impossible
 - Tap early and clearly when compression is applied, as calf slicers cause rapid tissue damage with little warning compared to joint locks
 - Prioritize leg extraction over counter-attacks when the compression is partially set
@@ -216,7 +216,7 @@ Defending the calf slicer from backside 50-50 requires early recognition of the 
 - **When to use**: After the shin is threaded but before full compression and figure-four are established
 - **Targets**: [[Positions/Ashi Garami/Backside 50-50]]
 - **If successful**: Removes the foot control needed for the finish and returns to the leg entanglement battle
-- **Risk**: Momentary focus on grip fighting may allow the opponent to increase chest pressure or lock the figure-four
+- **Risk**: Momentary focus on grip fighting may allow the opponent to increase knee-line control or lock the figure-four
 
 
 

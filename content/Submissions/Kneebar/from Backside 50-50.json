@@ -21,7 +21,7 @@
     "gi": 52,
     "nogi": 52
   },
-  "overview": "The kneebar from Backside 50-50 exploits the dominant top player's positional advantages in one of modern grappling's most powerful leg entanglement configurations. From Backside 50-50 top, the attacker has chest-to-back pressure, superior visibility of the opponent's legs, and pre-existing leg control through the mirrored entanglement. The kneebar becomes available when the bottom player extends their trapped leg during escape attempts or when the attacker transitions from a defended heel hook threat.\n\nUnlike kneebars from open guard positions, the Backside 50-50 entry benefits from the opponent's severely limited defensive options. The bottom player faces away from the attacker and cannot see the attack developing, their hip mobility is restricted by top pressure, and their legs are already partially isolated within the entanglement structure. The attacker pivots from standard chest-to-back control to a perpendicular finishing angle while maintaining the existing leg control framework.\n\nThis technique functions as a critical secondary attack within the Backside 50-50 offensive system. When opponents successfully hide their heel to defend against heel hooks and outside heel hooks, the kneebar punishes their defensive posture by attacking the knee joint through hyperextension. The ability to chain between heel attacks and kneebar creates an unsolvable offensive dilemma that defines high-level leg lock competition.",
+  "overview": "The kneebar from Backside 50-50 exploits the dominant top player's positional advantages in one of modern grappling's most powerful leg entanglement configurations. From Backside 50-50 top, the attacker has knee-line and hip control, superior visibility of the opponent's legs, and pre-existing leg control through the mirrored entanglement. The kneebar becomes available when the bottom player extends their trapped leg during escape attempts or when the attacker transitions from a defended heel hook threat.\n\nUnlike kneebars from open guard positions, the Backside 50-50 entry benefits from the opponent's severely limited defensive options. The bottom player faces away from the attacker and cannot see the attack developing, their hip mobility is restricted by top pressure, and their legs are already partially isolated within the entanglement structure. The attacker pivots from standard backside leg control to a perpendicular finishing angle while maintaining the existing leg control framework.\n\nThis technique functions as a critical secondary attack within the Backside 50-50 offensive system. When opponents successfully hide their heel to defend against heel hooks and outside heel hooks, the kneebar punishes their defensive posture by attacking the knee joint through hyperextension. The ability to chain between heel attacks and kneebar creates an unsolvable offensive dilemma that defines high-level leg lock competition.",
   "safety_considerations": {
     "injury_risks": [
       {
@@ -117,7 +117,7 @@
   "related_content": [
     {
       "name": "Backside 50-50",
-      "relationship": "Primary starting position providing chest-to-back control and leg entanglement framework for kneebar entry"
+      "relationship": "Primary starting position providing backside leg control and leg entanglement framework for kneebar entry"
     },
     {
       "name": "50-50 Guard",
@@ -166,17 +166,17 @@
     },
     {
       "variation_name": "Kneebar from 50-50 to Backside 50-50 Transition",
-      "description": "During the transition from standard 50-50 Guard to Backside 50-50, there is a brief moment when the opponent's near leg is exposed as you rotate behind them. Instead of fully establishing Backside 50-50 chest-to-back control, intercept the near leg mid-rotation, secure heel control, and immediately pivot to the perpendicular kneebar angle. This catches the opponent during positional adjustment when their defensive awareness is lowest.",
+      "description": "During the transition from standard 50-50 Guard to Backside 50-50, there is a brief moment when the opponent's near leg is exposed as you rotate behind them. Instead of fully establishing Backside 50-50 backside leg control, intercept the near leg mid-rotation, secure heel control, and immediately pivot to the perpendicular kneebar angle. This catches the opponent during positional adjustment when their defensive awareness is lowest.",
       "when_to_use": "When transitioning from standard 50-50 and you recognize the opponent's near leg is vulnerable during the rotation. Best used against opponents who are focused on preventing back exposure rather than defending their legs."
     }
   ],
   "attacker": {
     "name": "from Backside 50-50 Attacker",
     "description": "How to execute the kneebar from Backside 50-50 in BJJ. Setup, execution, and finishing mechanics from the dominant top leg entanglement position.",
-    "overview": "The kneebar from Backside 50-50 represents a high-percentage secondary attack from one of the strongest leg entanglement positions in modern grappling. As the top player with chest-to-back pressure and pre-existing leg control, you already possess the foundational control needed to isolate the target leg. The key technical challenge is transitioning from the standard Backside 50-50 alignment to the perpendicular kneebar finishing angle while maintaining heel control throughout the pivot. This technique is most effective as part of an offensive chain with heel hooks, where the opponent's heel defense creates the opening for the kneebar attack. The position's inherent advantages - opponent facing away with limited visibility, restricted hip mobility from your top pressure, and legs already partially isolated in the entanglement - make this one of the highest-percentage kneebar entries in competitive grappling. Success requires precise timing of the hip pivot, disciplined heel control during transition, and progressive finishing pressure that respects the extreme vulnerability of the knee joint.",
+    "overview": "The kneebar from Backside 50-50 represents a high-percentage secondary attack from one of the strongest leg entanglement positions in modern grappling. As the top player with knee-line and hip control and pre-existing leg control, you already possess the foundational control needed to isolate the target leg. The key technical challenge is transitioning from the standard Backside 50-50 alignment to the perpendicular kneebar finishing angle while maintaining heel control throughout the pivot. This technique is most effective as part of an offensive chain with heel hooks, where the opponent's heel defense creates the opening for the kneebar attack. The position's inherent advantages - opponent facing away with limited visibility, restricted hip mobility from your top pressure, and legs already partially isolated in the entanglement - make this one of the highest-percentage kneebar entries in competitive grappling. Success requires precise timing of the hip pivot, disciplined heel control during transition, and progressive finishing pressure that respects the extreme vulnerability of the knee joint.",
     "key_principles": [
       "Use the existing Backside 50-50 entanglement as a framework for leg isolation rather than building control from scratch",
-      "The hip pivot from chest-to-back to perpendicular must be decisive and committed - half-measures leave you in no-man's-land",
+      "Maintain control of the target leg while changing from backside leg control to the kneebar alignment; a loose transfer allows knee-line escape",
       "Chain the kneebar with heel hook threats to create an unsolvable offensive dilemma for the bottom player",
       "Exploit the opponent's visual disadvantage - they cannot see the attack developing from their back-facing orientation",
       "Control the heel tightly throughout the entire transition - any gap during the pivot allows leg extraction",
@@ -184,7 +184,7 @@
       "Maintain upper body control with your free leg to prevent the opponent from sitting up and facing you"
     ],
     "setup_requirements": [
-      "Established Backside 50-50 top position with chest-to-back pressure and stable base",
+      "Established Backside 50-50 top position with knee-line and hip control and stable base",
       "Identified that the target leg is accessible for isolation within the entanglement framework",
       "Opponent is defending heel hook by hiding their heel, or has extended their leg during an escape attempt",
       "Your base is stable enough to support the hip pivot without being swept during the transition",
@@ -195,19 +195,19 @@
       {
         "step_number": 1,
         "action": "Identify target leg and commit to kneebar transition",
-        "description": "From Backside 50-50 top with chest on opponent's back, recognize that the near leg is available for kneebar attack. This opportunity typically presents when the opponent hides their heel to defend heel hook or when they extend their leg during escape attempts. The commitment decision must be decisive because the transition requires releasing chest pressure, creating a brief vulnerability window.",
+        "description": "From your hip behind the trapped leg in Backside 50-50, recognize the opening to isolate a straightening leg. Secure the heel or ankle before changing the leg configuration, and keep control of the knee line during the transfer.",
         "timing": "1 second decision point"
       },
       {
         "step_number": 2,
         "action": "Secure heel control while beginning to disengage",
-        "description": "Before pivoting, establish firm two-handed control on the target leg's heel or ankle area. Pull the heel tightly to your chest using a prayer grip with thumbs together. This heel control must be locked in before you begin disengaging from the standard entanglement, because once you release chest-to-back pressure the opponent will immediately attempt to extract their leg or face you.",
+        "description": "Before pivoting, establish firm two-handed control on the target leg's heel or ankle area. Pull the heel tightly to your chest using a prayer grip with thumbs together. This heel control must be locked in before you begin disengaging from the standard entanglement, because once you release knee-line and hip control the opponent will immediately attempt to extract their leg or face you.",
         "timing": "1-2 seconds"
       },
       {
         "step_number": 3,
         "action": "Pivot hips perpendicular to target leg",
-        "description": "Swing your hips from the chest-to-back orientation to a position perpendicular to the opponent's target leg. Your body should form a T-shape with their leg, with your spine at a 90-degree angle. Use your outside leg to push off the mat and drive this pivot. The pivot must be explosive and committed because any hesitation allows the opponent to react and either extract their leg or turn to face you, collapsing the kneebar angle.",
+        "description": "Swing your hips from the turned-away orientation to a position perpendicular to the opponent's target leg. Your body should form a T-shape with their leg, with your spine at a 90-degree angle. Use your outside leg to push off the mat and drive this pivot. The pivot must be explosive and committed because any hesitation allows the opponent to react and either extract their leg or turn to face you, collapsing the kneebar angle.",
         "timing": "1 second - must be decisive"
       },
       {
@@ -263,9 +263,9 @@
     ],
     "common_errors": [
       {
-        "error": "Releasing chest-to-back pressure before securing heel control on the target leg",
+        "error": "Releasing knee-line and hip control before securing heel control on the target leg",
         "consequence": "The opponent immediately exploits the pressure release to turn and face you, extract their legs from the entanglement, or establish defensive grips before you can isolate the target leg",
-        "correction": "Always secure heel control BEFORE beginning the hip pivot. Lock both hands on the heel in a prayer grip while still maintaining some chest pressure, then execute the pivot with the heel already controlled. The sequence is: heel control first, then pivot."
+        "correction": "Always secure heel control BEFORE beginning the hip pivot. Lock both hands on the heel in a prayer grip while still maintaining some knee-line control, then execute the pivot with the heel already controlled. The sequence is: heel control first, then pivot."
       },
       {
         "error": "Failing to achieve a fully perpendicular hip angle before attempting the finish",
@@ -302,7 +302,7 @@
       {
         "phase": "Phase 1: Transition Mechanics",
         "focus": "Hip pivot from Backside 50-50 to perpendicular kneebar angle without resistance",
-        "description": "Starting from established Backside 50-50 top position, drill the complete transition sequence: secure heel, release chest pressure, pivot hips perpendicular, establish figure-four leg triangle, and set up upper body control. Compliant partner remains still. No finishing pressure. Perform 30-40 repetitions per side focusing on smooth, decisive pivots and maintaining heel control throughout the entire transition. The pivot should become automatic muscle memory."
+        "description": "Starting from established Backside 50-50 top position, drill the complete transition sequence: secure heel, release knee-line control, pivot hips perpendicular, establish figure-four leg triangle, and set up upper body control. Compliant partner remains still. No finishing pressure. Perform 30-40 repetitions per side focusing on smooth, decisive pivots and maintaining heel control throughout the entire transition. The pivot should become automatic muscle memory."
       },
       {
         "phase": "Phase 2: Control Architecture",
@@ -338,12 +338,12 @@
       },
       {
         "question": "Why is the kneebar from Backside 50-50 higher percentage than kneebar entries from open guard?",
-        "answer": "The Backside 50-50 entry provides three inherent advantages that open guard entries lack. First, the opponent faces away from you and cannot see the attack developing, eliminating their visual reaction time. Second, your chest-to-back pressure restricts their hip mobility, reducing their ability to pivot, frame, or create escape angles. Third, their legs are already partially isolated within the existing 50-50 entanglement structure, meaning you start with significant control rather than building it from scratch. These combined advantages dramatically narrow the defensive window available to the bottom player.",
+        "answer": "The Backside 50-50 entry provides three inherent advantages that open guard entries lack. First, the opponent faces away from you and cannot see the attack developing, eliminating their visual reaction time. Second, your knee-line and hip control restricts their hip mobility, reducing their ability to pivot, frame, or create escape angles. Third, their legs are already partially isolated within the existing 50-50 entanglement structure, meaning you start with significant control rather than building it from scratch. These combined advantages dramatically narrow the defensive window available to the bottom player.",
         "safety_critical": false,
         "answer_line": "Blindside, hip pin, legs isolated",
         "distractors": {
           "plausible": [
-            "Chest pressure alone controls all",
+            "Knee-line control alone controls all",
             "Kneebar entry is always faster"
           ],
           "trap": [
@@ -477,24 +477,24 @@
   "defender": {
     "name": "from Backside 50-50 Defender",
     "description": "How to defend against the kneebar from Backside 50-50 in BJJ. Recognition cues, escape timing, and defensive strategies for the bottom player.",
-    "overview": "Defending the kneebar from Backside 50-50 presents unique challenges because the bottom player already occupies a disadvantaged position with their back exposed to the attacker's chest pressure. The kneebar threat compounds an already difficult defensive situation by attacking the knee joint through hyperextension, giving the bottom player two simultaneous problems: surviving the inferior entanglement position and defending against an immediate submission threat targeting one of the most vulnerable joints in the body.\n\nThe defender's primary advantage is that the attacker must transition from standard Backside 50-50 control to the perpendicular kneebar finishing angle, creating a brief window where chest-to-back pressure is released and control is loosened. Early recognition of this transition is the single most important defensive skill. When the attacker begins securing your heel and pivoting their hips, you must immediately address the threat before the perpendicular angle, figure-four leg triangle, and heel control are all established. Once all three control elements lock in, the window for safe defense closes rapidly.\n\nSafety awareness is paramount when defending kneebars. The knee joint has minimal tolerance for hyperextension, and the transition from controlled pressure to catastrophic ligament damage can occur in under one second. If the attacker achieves full kneebar control with locked leg triangle and tight heel grip and begins hip extension, you must tap immediately rather than risk a late explosive escape that could result in multi-ligament surgery and months of rehabilitation.",
+    "overview": "Defending the kneebar from Backside 50-50 presents unique challenges because the bottom player already occupies a disadvantaged position with their trapped knee line controlled from behind. The kneebar threat compounds an already difficult defensive situation by attacking the knee joint through hyperextension, giving the bottom player two simultaneous problems: surviving the inferior entanglement position and defending against an immediate submission threat targeting one of the most vulnerable joints in the body.\n\nThe defender's primary advantage is that the attacker must transition from standard Backside 50-50 control to the perpendicular kneebar finishing angle, creating a brief window where knee-line and hip control is released and control is loosened. Early recognition of this transition is the single most important defensive skill. When the attacker begins securing your heel and pivoting their hips, you must immediately address the threat before the perpendicular angle, figure-four leg triangle, and heel control are all established. Once all three control elements lock in, the window for safe defense closes rapidly.\n\nSafety awareness is paramount when defending kneebars. The knee joint has minimal tolerance for hyperextension, and the transition from controlled pressure to catastrophic ligament damage can occur in under one second. If the attacker achieves full kneebar control with locked leg triangle and tight heel grip and begins hip extension, you must tap immediately rather than risk a late explosive escape that could result in multi-ligament surgery and months of rehabilitation.",
     "key_principles": [
       "Recognize the kneebar entry early - the attacker's heel grip and hip pivot are the critical tells, and your defense is most effective before the perpendicular angle is established",
-      "Exploit the transition window when the attacker releases chest-to-back pressure to pivot - this brief moment of loosened control is your best opportunity to turn and face them or extract your leg",
+      "Exploit the transition window when the attacker releases knee-line and hip control to pivot - this brief moment of loosened control is your best opportunity to turn and face them or extract your leg",
       "Immediately grab your own knee or shin with both hands when you feel leg isolation beginning - this defensive grip prevents the figure-four leg triangle from locking",
       "If leg isolation occurs, sit up aggressively toward the attacker to collapse the distance and strip heel control rather than pulling away, which strengthens their lever arm",
       "Never attempt explosive rotational escapes once finishing pressure has begun - tap immediately to protect your knee from catastrophic multi-ligament damage",
       "Use your free leg actively to step over the attacker's head or establish a defensive hook that disrupts their perpendicular angle"
     ],
     "recognition_cues": [
-      "Attacker secures a two-handed grip on your heel or ankle area while still in chest-to-back position, indicating they are preparing to pivot for the kneebar rather than continuing with heel hook or maintaining standard Backside 50-50 control",
-      "You feel the attacker's chest pressure release from your back as they begin pivoting their hips perpendicular to your trapped leg - this rotation is the definitive signal that a kneebar entry is in progress",
+      "Attacker secures a two-handed grip on your heel or ankle area while still in backside leg entanglement, indicating they are preparing to pivot for the kneebar rather than continuing with heel hook or maintaining standard Backside 50-50 control",
+      "You feel the leg clamp change as the attacker pivots toward kneebar alignment while drawing your heel or ankle toward their torso",
       "Attacker's inside leg begins threading across your thigh to establish the figure-four leg triangle while their free leg pushes against your upper body to create distance and prevent you from sitting up"
     ],
     "defensive_options": [
       {
-        "action": "Immediately sit up toward the attacker and drive your chest forward when you feel chest pressure release, using both hands to strip their heel grip by peeling fingers and pushing their arms away from your foot",
-        "when_to_use": "As soon as you recognize the hip pivot beginning and chest pressure releases, before the attacker establishes a locked figure-four leg triangle. Most effective in the first 1-2 seconds of the transition window.",
+        "action": "Immediately sit up toward the attacker and drive your chest forward when you feel knee-line control loosen, using both hands to strip their heel grip by peeling fingers and pushing their arms away from your foot",
+        "when_to_use": "As soon as you recognize the hip pivot beginning and knee-line control loosens, before the attacker establishes a locked figure-four leg triangle. Most effective in the first 1-2 seconds of the transition window.",
         "targets_outcome": "Backside 50-50/Top",
         "if_successful": "You disrupt the kneebar entry and the position resets to standard Backside 50-50, still disadvantaged but with the submission threat neutralized",
         "risk": "If you sit up too late after the leg triangle is locked, the attacker can use your forward momentum to tighten the kneebar position"
@@ -515,7 +515,7 @@
       }
     ],
     "escape_paths": [
-      "Exploit the transition window when chest pressure releases to immediately sit up, strip heel control with two-on-one grip fighting, and drive forward to reestablish the standard Backside 50-50 entanglement before the kneebar position locks in",
+      "Exploit the transition window when knee-line control loosens to immediately sit up, strip heel control with two-on-one grip fighting, and drive forward to reestablish the standard Backside 50-50 entanglement before the kneebar position locks in",
       "Step your free leg over the attacker's head to establish a defensive hook, rotate your body to face them, and extract your trapped leg while transitioning to Half Guard or an improved positional state",
       "If the figure-four leg triangle is loose, push the attacker's top leg down with your hands while simultaneously pulling your trapped leg straight back through the gap to clear the entanglement entirely"
     ],
@@ -546,9 +546,9 @@
         "correction": "Commit both hands to the defensive grip on your own knee or shin using a gable grip. While this temporarily compromises your base, preventing leg isolation is the absolute priority. Once your grip is secure, work on posture recovery."
       },
       {
-        "error": "Failing to exploit the transition window when the attacker releases chest-to-back pressure to pivot",
+        "error": "Failing to exploit the transition window when the attacker releases knee-line and hip control to pivot",
         "consequence": "Allows the attacker to complete the perpendicular pivot, establish leg triangle, and lock heel control unopposed, making escape exponentially more difficult",
-        "correction": "The moment you feel chest pressure release from your back, immediately sit up or turn to face the attacker. This 1-2 second window while they pivot is your highest-percentage defensive opportunity. Train to react instantly to pressure changes."
+        "correction": "As the attacker changes the leg clamp to pivot, protect the knee bend and work to recover the knee line or a facing angle before the kneebar alignment is secured."
       },
       {
         "error": "Straightening the trapped leg in response to the kneebar entry rather than bending the knee",
@@ -574,7 +574,7 @@
       },
       {
         "question": "What is the earliest cue your opponent is switching from Backside 50-50 control to a kneebar?",
-        "answer": "The earliest cue is feeling the attacker secure a two-handed grip on your heel or ankle area while their chest-to-back pressure begins to release. This combination signals they are preparing to pivot perpendicular for the kneebar rather than maintaining standard Backside 50-50 control or attacking a heel hook. Your immediate response must be to sit up or turn to face them in the 1-2 second transition window before the perpendicular angle is established. Acting in this window gives you the highest probability of disrupting the attack entirely.",
+        "answer": "The earliest cue is feeling the attacker secure a two-handed grip on your heel or ankle area while their knee-line and hip control begins to release. This combination signals they are preparing to pivot perpendicular for the kneebar rather than maintaining standard Backside 50-50 control or attacking a heel hook. Your immediate response must be to sit up or turn to face them in the 1-2 second transition window before the perpendicular angle is established. Acting in this window gives you the highest probability of disrupting the attack entirely.",
         "safety_critical": false,
         "answer_line": "Two-hand heel grip, pressure eases",
         "distractors": {
@@ -637,7 +637,7 @@
       {
         "phase": "Phase 1: Recognition and Transition Window Exploitation",
         "focus": "Identifying the kneebar entry from Backside 50-50 and responding within the transition window",
-        "description": "Partner initiates slow-motion kneebar transitions from Backside 50-50 top while you practice recognizing the heel grip and chest pressure release. Respond immediately by sitting up and turning to face the attacker. No finishing pressure applied. Focus on developing the instinct to exploit the 1-2 second transition window when chest pressure releases. Perform 20-30 repetitions per round."
+        "description": "Partner initiates slow-motion kneebar transitions from Backside 50-50 top while you practice recognizing the heel grip and knee-line control loosen. Respond immediately by sitting up and turning to face the attacker. No finishing pressure applied. Focus on developing the instinct to exploit the 1-2 second transition window when knee-line control loosens. Perform 20-30 repetitions per round."
       },
       {
         "phase": "Phase 2: Grip Defense and Leg Extraction",

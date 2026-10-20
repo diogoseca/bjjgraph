@@ -35,7 +35,7 @@ description: "Defend the toe hold from Backside 50-50 in BJJ. Recognition cues, 
     {
       "@type": "HowToStep",
       "name": "Bridge and turn to face attacker - explosive hip escape to rotate from back-exposed to face-to-face position",
-      "text": "When attacker lightens chest pressure to focus on foot grip acquisition, creating a momentary window for hip movement If successful: Neutralizes the backside angle advantage entirely and transitions to standard 50-50 or closed guard where defensive options multiply significantly",
+      "text": "When attacker lightens knee-line control to focus on foot grip acquisition, creating a momentary window for hip movement If successful: Neutralizes the backside angle advantage entirely and transitions to standard 50-50 or closed guard where defensive options multiply significantly",
       "position": 3
     },
     {
@@ -61,7 +61,7 @@ description: "Defend the toe hold from Backside 50-50 in BJJ. Recognition cues, 
       "name": "How do you recognize that a toe hold is being set up from Backside 50-50?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The earliest recognition cue is the attacker's hand reaching toward your foot or toes while maintaining chest pressure on your back. You will feel cupping pressure around the ball of your foot as they establish their primary grip. Often the toe hold attempt follows a defended heel hook, so if you just hid your heel and the attacker does not disengage, expect the grip to transition to your toes. Any weight shift by the attacker to free their hands while keeping leg entanglement is a warning sign."
+        "text": "The earliest recognition cue is the attacker's hand reaching toward your foot or toes while maintaining control of your trapped knee line. You will feel cupping pressure around the ball of your foot as they establish their primary grip. Often the toe hold attempt follows a defended heel hook, so if you just hid your heel and the attacker does not disengage, expect the grip to transition to your toes. Any weight shift by the attacker to free their hands while keeping leg entanglement is a warning sign."
       }
     },
     {
@@ -179,7 +179,7 @@ description: "Defend the toe hold from Backside 50-50 in BJJ. Recognition cues, 
 
 <section id="overview" class="content-section">
 
-Defending the toe hold from Backside 50-50 requires early recognition and immediate foot management before the attacker establishes their figure-four grip. The bottom player faces compounded defensive challenges: limited visibility of the attacker's hand positioning, restricted hip mobility from chest-to-back pressure, and the constant need to balance foot defense against back control threats. Survival depends on proactive foot positioning through boot defense, aggressive grip fighting to prevent grip consolidation, and strategic hip movement to create space for leg extraction or transition to a more neutral entanglement. The window for effective defense narrows rapidly once the figure-four is locked, making early recognition the most critical defensive skill.
+Defending the toe hold from Backside 50-50 requires early recognition and immediate foot management before the attacker establishes their figure-four grip. The bottom player faces compounded defensive challenges: limited visibility of the attacker's hand positioning, restricted hip mobility from knee-line and hip control, and the constant need to balance foot defense against back control threats. Survival depends on proactive foot positioning through boot defense, aggressive grip fighting to prevent grip consolidation, and strategic hip movement to create space for leg extraction or transition to a more neutral entanglement. The window for effective defense narrows rapidly once the figure-four is locked, making early recognition the most critical defensive skill.
 
 **Opponent's Starting Position**: [[Positions/Ashi Garami/Backside 50-50]] (Top)
 
@@ -212,7 +212,7 @@ Defending the toe hold from Backside 50-50 requires early recognition and immedi
 
 <p class="section-subtitle">How do you know when someone is attempting Toe Hold from Backside 50-50?</p>
 
-- Attacker's hand reaches toward your foot or toes while maintaining chest pressure on your back - this initial reach is the earliest warning sign
+- Attacker's hand reaches toward your foot or toes while maintaining control of your trapped knee line - this initial reach is the earliest warning sign
 - Feeling of cupping pressure around the ball of your foot and toes as the attacker establishes their primary grip before threading the figure-four
 - Attacker shifts weight slightly to one side to free their hands for grip work while maintaining leg entanglement
 - After defending a heel hook attempt, attacker does not disengage but instead repositions their grip toward the top of your foot
@@ -259,7 +259,7 @@ Defending the toe hold from Backside 50-50 requires early recognition and immedi
 
 ### 3. Bridge and turn to face attacker - explosive hip escape to rotate from back-exposed to face-to-face position
 
-- **When to use**: When attacker lightens chest pressure to focus on foot grip acquisition, creating a momentary window for hip movement
+- **When to use**: When attacker lightens knee-line control to focus on foot grip acquisition, creating a momentary window for hip movement
 - **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Neutralizes the backside angle advantage entirely and transitions to standard 50-50 or closed guard where defensive options multiply significantly
 - **Risk**: Failed rotation attempt may end up giving the attacker an even better finishing angle if you get stuck mid-turn
@@ -296,7 +296,7 @@ Defending the toe hold from Backside 50-50 requires early recognition and immedi
 
 ### → [[Positions/Closed Guard]]
 
-Successfully bridge and turn to face the attacker during a moment when they lighten chest pressure to work on the grip, pulling them into closed guard and neutralizing the leg entanglement entirely
+Successfully bridge and turn to face the attacker during a moment when they lighten knee-line control to work on the grip, pulling them into closed guard and neutralizing the leg entanglement entirely
 
 ### → [[Positions/Ashi Garami/Backside 50-50]]
 
@@ -320,7 +320,7 @@ Strip the attacker's grip through boot defense or two-handed grip fighting, then
 ### 2. Using only hands to fight the grip while hips remain static
 
 - **Consequence**: Hand-only defense is insufficient against a locked figure-four from an attacker with superior positional pressure. Your hands alone cannot overcome the mechanical advantage of their figure-four grip plus body weight.
-- **Correction**: Combine grip fighting with hip movement. Bridge, turn, and create angles while simultaneously fighting the grip. Your hips generate far more defensive force than your hands alone. Movement makes it harder for the attacker to maintain both chest pressure and grip control.
+- **Correction**: Combine grip fighting with hip movement. Bridge, turn, and create angles while simultaneously fighting the grip. Your hips generate far more defensive force than your hands alone. Movement makes it harder for the attacker to maintain both knee-line control and grip control.
 
 ### 3. Committing entirely to foot defense while ignoring back control threats
 

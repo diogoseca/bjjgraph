@@ -39,7 +39,7 @@ description: "Defend against the Backside 50-50 Entry from Inside Ashi Garami. R
     {
       "@type": "HowToStep",
       "name": "Counter-rotate by turning your body in the same direction the attacker is moving, matching their circular motion to prevent them from getting behind you",
-      "text": "When the attacker has already initiated rotation but has not yet established chest-to-back contact If successful: You maintain facing position and the attacker cannot establish the backside angle, potentially ending up in standard 50-50 or returning to inside ashi",
+      "text": "When the attacker has already initiated rotation but has not yet established inside-foot and knee-line control If successful: You maintain facing position and the attacker cannot establish the backside angle, potentially ending up in standard 50-50 or returning to inside ashi",
       "position": 4
     }
   ],
@@ -67,7 +67,7 @@ description: "Defend against the Backside 50-50 Entry from Inside Ashi Garami. R
       "name": "Why is extracting your leg during the Backside 50-50 entry easier than after it completes?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "During the entry, the attacker's control is reduced from three points (inside leg, outside leg hook, heel grip) to two points (outside leg hook, heel grip) because they must remove their inside leg to begin rotation. This creates the narrowest but most effective defensive window. After the transition completes, the attacker has re-established three points of control in the mirrored 50-50 configuration plus chest-to-back pressure, making extraction significantly more difficult."
+        "text": "During the entry, the attacker's control is reduced from three points (inside leg, outside leg hook, heel grip) to two points (outside leg hook, heel grip) because they must remove their inside leg to begin rotation. This creates the narrowest but most effective defensive window. After the transition completes, the attacker has re-established three points of control in the mirrored 50-50 configuration plus knee-line and hip control, making extraction significantly more difficult."
       }
     },
     {
@@ -148,7 +148,7 @@ description: "Defend against the Backside 50-50 Entry from Inside Ashi Garami. R
 
 <section id="overview" class="content-section">
 
-As the defender against the Backside 50-50 Entry, your primary objective is to prevent the attacker from rotating behind you and establishing the dominant chest-to-back pressure that characterizes Backside 50-50 Top. You are currently trapped in Inside Ashi-Garami with your leg controlled, but the transition attempt creates a brief window of reduced control that you can exploit. Your defensive priorities are to recognize the entry attempt early through tactile and visual cues, disrupt the rotation before it completes, and ideally extract your leg entirely during the attacker's moment of vulnerability when they remove their inside leg from your hip. Success requires understanding the attacker's mechanics well enough to identify and exploit the specific moments where their control is weakest.
+As the defender against the Backside 50-50 Entry, your primary objective is to prevent the attacker from rotating behind you and establishing the dominant knee-line and hip control that characterizes Backside 50-50 Top. You are currently trapped in Inside Ashi-Garami with your leg controlled, but the transition attempt creates a brief window of reduced control that you can exploit. Your defensive priorities are to recognize the entry attempt early through tactile and visual cues, disrupt the rotation before it completes, and ideally extract your leg entirely during the attacker's moment of vulnerability when they remove their inside leg from your hip. Success requires understanding the attacker's mechanics well enough to identify and exploit the specific moments where their control is weakest.
 
 **Opponent's Starting Position**: [[Positions/Ashi Garami/Inside Ashi-Garami]] (Top)
 
@@ -181,7 +181,7 @@ As the defender against the Backside 50-50 Entry, your primary objective is to p
 - Exploit the vulnerability window when the attacker removes their inside leg from your hip - this is your best opportunity for leg extraction or turning to face them
 - Maintain facing position toward the attacker at all costs - once they establish the backside angle, the position becomes significantly worse
 - Use posting arms and frames to block the rotation path before the attacker builds rotational momentum
-- If the entry is partially successful, immediately work to turn and face the attacker before they establish chest-to-back pressure
+- If the entry is partially successful, immediately work to turn and face the attacker before they establish knee-line and hip control
 - Prioritize leg extraction over counter-attacks during the transition - escaping the entanglement entirely is better than attempting submissions from a worsening position
 
 
@@ -216,7 +216,7 @@ As the defender against the Backside 50-50 Entry, your primary objective is to p
 
 ### 4. Counter-rotate by turning your body in the same direction the attacker is moving, matching their circular motion to prevent them from getting behind you
 
-- **When to use**: When the attacker has already initiated rotation but has not yet established chest-to-back contact
+- **When to use**: When the attacker has already initiated rotation but has not yet established inside-foot and knee-line control
 - **Targets**: [[Positions/Ashi Garami/Inside Ashi-Garami]]
 - **If successful**: You maintain facing position and the attacker cannot establish the backside angle, potentially ending up in standard 50-50 or returning to inside ashi
 - **Risk**: Counter-rotation may be difficult to sustain if the attacker has momentum advantage, and it consumes significant energy
@@ -249,7 +249,7 @@ Turn to face the attacker before they complete the rotation behind you, maintain
 
 <p class="section-subtitle">What mistakes should you avoid when defending Backside 50-50 Entry from Ashi?</p>
 
-### 1. Failing to recognize the entry attempt until the attacker has already rotated behind you and established chest-to-back contact
+### 1. Failing to recognize the entry attempt until the attacker has already rotated behind you and established inside-foot and knee-line control
 
 - **Consequence**: By the time you react, the attacker is in Backside 50-50 Top with full pressure advantage, making defense exponentially harder and requiring escape from a significantly worse position
 - **Correction**: Train recognition of the early cues: inside leg lightening on your hip, forward hip drive, lateral body angle change. The defensive window is during the rotation, not after it completes. Drill with a partner specifically to develop sensitivity to these entry signals.

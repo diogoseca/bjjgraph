@@ -163,7 +163,7 @@ The strategic genius of De La Riva Guard lies in its dilemma-based attack struct
 
 - **[[Transitions/De La Riva to Inverted Guard/Attacker|De La Riva to Inverted Guard]]** (4% of attempts)
 
-- **[[Transitions/De La Riva to Grasshopper Guard/Attacker|De La Riva to Grasshopper Guard]]** (1% of attempts)
+- **[[Transitions/De La Riva Inversion Entry/Attacker|De La Riva Inversion Entry]]** (1% of attempts)
 
 - **[[Transitions/De La Riva to Lapel Guard/Attacker|De La Riva to Lapel Guard]]** (gi only)
 

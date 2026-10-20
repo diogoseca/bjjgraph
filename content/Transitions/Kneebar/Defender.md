@@ -83,7 +83,7 @@ description: "How to defend and escape the Kneebar from Backside 50-50 in BJJ. R
       "name": "What cues should trigger your defense before the kneebar is fully established?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The earliest cues are the release of chest-to-back pressure combined with lateral weight shift as the attacker begins rotating perpendicular to your leg. You will feel their forearm or hand pressing your hip, pinning it to prevent rotation. Their legs will begin moving around your upper thigh in a triangling motion. React at the first cue rather than waiting for confirmation - the cost of a false alarm is negligible compared to the cost of late recognition."
+        "text": "The earliest cues are the release of knee-line and hip control combined with lateral weight shift as the attacker begins rotating perpendicular to your leg. You will feel their forearm or hand pressing your hip, pinning it to prevent rotation. Their legs will begin moving around your upper thigh in a triangling motion. React at the first cue rather than waiting for confirmation - the cost of a false alarm is negligible compared to the cost of late recognition."
       }
     },
     {
@@ -156,7 +156,7 @@ description: "How to defend and escape the Kneebar from Backside 50-50 in BJJ. R
 
 <section id="overview" class="content-section">
 
-Defending the kneebar from Backside 50-50 requires immediate recognition and disciplined defensive responses before the attacker establishes full control. The defender's primary weapon is maintaining a bent knee - a fully extended leg under the attacker's hip control is extremely difficult to save. Early recognition of the attacker's transition from chest pressure to perpendicular body alignment gives you the critical window to implement defensive measures before the fulcrum is established.
+Defending the kneebar from Backside 50-50 requires immediate recognition and disciplined defensive responses before the attacker establishes full control. The defender's primary weapon is maintaining a bent knee - a fully extended leg under the attacker's hip control is extremely difficult to save. Early recognition of the attacker's transition from knee-line control to perpendicular body alignment gives you the critical window to implement defensive measures before the fulcrum is established.
 
 The defender must understand that kneebar defense operates on a timeline: the earlier you react, the higher your success rate. During the attacker's rotation phase, before they establish their leg triangle and fulcrum position, simple knee bending and hip rotation can nullify the attack entirely. Once the attacker has secured your leg across their hips with a proper triangle and fulcrum, your defensive options narrow dramatically and the risk of injury increases. Training yourself to recognize the earliest possible cues and respond with automatic defensive patterns is the foundation of surviving leg lock exchanges in modern grappling.
 
@@ -172,7 +172,7 @@ The defender must understand that kneebar defense operates on a timeline: the ea
 
 <p class="section-subtitle">How do you know when someone is attempting Kneebar?</p>
 
-- Attacker releases chest-to-back pressure and begins swinging their body perpendicular to your leg, shifting from positional control to submission attack posture
+- Attacker releases knee-line and hip control and begins swinging their body perpendicular to your leg, shifting from positional control to submission attack posture
 - You feel a forearm or hand pinning your hip on one side while the attacker's weight shifts laterally, indicating they are establishing hip control before the kneebar entry
 - Attacker's legs begin wrapping around your upper thigh in a triangling motion, crossing ankles to establish the secondary control point that prevents leg extraction
 - Your ankle is being pulled toward the attacker's chest while their hip bone contacts your kneecap area, signaling they are positioning the fulcrum for the finish
@@ -242,7 +242,7 @@ The defender must understand that kneebar defense operates on a timeline: the ea
 
 ### → [[Positions/Ashi Garami/Backside 50-50]]
 
-Bend your knee immediately when you feel the attacker rotating perpendicular. Rotate your hip toward them to close the extension angle. Strip their ankle grip with your hands while using your free leg to push their hip away. Once your knee is bent past 90 degrees and the attacker cannot straighten it, you have returned to Backside 50-50 where you can re-establish chest pressure and restart your own offensive sequences.
+Bend your knee immediately when you feel the attacker rotating perpendicular. Rotate your hip toward them to close the extension angle. Strip their ankle grip with your hands while using your free leg to push their hip away. Once your knee is bent past 90 degrees and the attacker cannot straighten it, you have returned to Backside 50-50 where you can re-establish knee-line control and restart your own offensive sequences.
 
 ### → [[Positions/Ashi Garami/50-50 Guard]]
 
@@ -266,7 +266,7 @@ When the attacker has deep control and knee bend alone is insufficient, roll you
 ### 2. Waiting too long to begin defensive action, allowing the attacker to fully establish leg triangle and fulcrum
 
 - **Consequence**: Once the attacker has legs triangled around your thigh and hips positioned at your knee, your escape options narrow dramatically. The window for high-percentage defense closes rapidly during their setup
-- **Correction**: React at the earliest recognition cue - when you feel chest pressure release and lateral weight shift. Do not wait to confirm the kneebar is coming. Defensive knee bend costs nothing if you are wrong, but waiting costs everything if you are right
+- **Correction**: React at the earliest recognition cue - when you feel knee-line control loosen and lateral weight shift. Do not wait to confirm the kneebar is coming. Defensive knee bend costs nothing if you are wrong, but waiting costs everything if you are right
 
 ### 3. Over-rotating the hip and exposing the heel during kneebar defense
 
@@ -294,7 +294,7 @@ When the attacker has deep control and knee bend alone is insufficient, roll you
 <p class="section-subtitle">How do you train defense against Kneebar?</p>
 
 **Week 1-2** - Recognition and automatic knee bend
-Partner slowly transitions from Backside 50-50 to kneebar entry at 30% speed. Practice recognizing the earliest cues (chest pressure release, lateral shift, hip pin) and responding with immediate knee bend. Repeat until the bend-response is automatic and does not require conscious thought. No resistance from attacker.
+Partner slowly transitions from Backside 50-50 to kneebar entry at 30% speed. Practice recognizing the earliest cues (knee-line control loosen, lateral shift, hip pin) and responding with immediate knee bend. Repeat until the bend-response is automatic and does not require conscious thought. No resistance from attacker.
 
 **Week 3-4** - Defensive option chaining
 Partner increases speed to 50% and begins following your initial defense. Practice chaining knee bend into grip strip into boot and push. When those fail, drill the roll-toward escape. Partner provides progressive resistance, forcing you to use multiple defensive options in sequence rather than relying on any single response.

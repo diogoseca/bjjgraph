@@ -29,6 +29,8 @@ people actually arrive here. Index A answers *"what shipped in vN?"*.
 
 ## Index A — by version
 
+- **v1.229.0** — [Corrected node identities and preserved retirements](#v12290--corrected-node-identities-and-preserved-retirements)
+
 - **v1.227.7** — [Fresh teaching evidence and ranked video fronts](#v12277--fresh-teaching-evidence-and-ranked-video-fronts)
 
 - **v1.227.6** — [Node identities and their real mechanics](#v12276--node-identities-and-their-real-mechanics)
@@ -11564,3 +11566,32 @@ cases passed without retries or skips. Receipt-bound census and SEO baselines
 are re-seeded separately from content; version 1.227.8 follows in its own
 package-only commit. Full final-head ci:validate and GitHub gates remain
 required before merge; independent review includes over-removal risk.
+
+
+## v1.229.0 — Corrected node identities and preserved retirements
+
+Marce is a rolling D'Arce variation in both rulesets, with its former Side Control attempt
+carried into a D'Arce entry. The invented lapel-choke identity and the unrelated Anaconda and
+guillotine variations are corrected. Backside 50-50 now describes the hip/shoulder position,
+inside foot across the stomach, and trapped knee line throughout its instructional text; its
+names, graph roles, edges and probabilities stay fixed. Two checked lessons return; a third
+remains withheld because playback could not be established.
+
+The inverted configuration previously called Grasshopper Guard joins Inverted Guard. The
+proposed per-role, per-ruleset attempts pool the two prior distributions equally and use Hamilton
+rounding. Exact shared technique identifiers combine; separately named near-duplicates remain
+separate for later review. The existing De La Riva to Inverted Guard entry and the renamed De La
+Riva Inversion Entry both survive with their original numbers. The numbers await owner approval
+before merge.
+
+Seven original source records are preserved in `calibration/node_identity_retirements.json`.
+Their 28 canonical/lowercase redirect rules reproduce with
+`python3 scripts/regenerate_identity_redirects.py`; ordinal bindings remain append-only.
+Authored corrections were regenerated without invoking the paid JSON enrichment stage or
+rewriting unrelated content.
+
+The corpus now has 132 positions, 264 position roles, 1,315 technique pairs and 1,447 live
+canonical nodes. The exact EDGE role-count tripwire moves from 266 to 264 for the retired
+Grasshopper pair. `census:update` updates 25 marked literals; the larger merged Inverted hands
+also raise the prefetch/warm-cap overflow counts from 18/12 to 19/13. The FLOW reference is
+regenerated from this graph with its test tolerances unchanged.

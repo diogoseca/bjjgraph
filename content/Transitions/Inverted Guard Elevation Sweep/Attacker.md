@@ -3,8 +3,8 @@
 
 
 ---
-title: "Grasshopper Sweep Attacker | BJJ Technique Guide | BJJ Graph"
-description: "How to execute Grasshopper Sweep in BJJ. Attacking perspective with setup, execution steps, and counters from Grasshopper Guard."
+title: "Inverted Guard Elevation Sweep Attacker | BJJ Technique Guide | BJJ Graph"
+description: "How to execute Inverted Guard Elevation Sweep in BJJ. Attacking perspective with setup, execution steps, and counters from Inverted Guard."
 ---
 
 
@@ -15,8 +15,8 @@ description: "How to execute Grasshopper Sweep in BJJ. Attacking perspective wit
 {
   "@context": "https://schema.org",
   "@type": "HowTo",
-  "name": "How to Execute Grasshopper Sweep in BJJ",
-  "description": "Step-by-step guide for executing Grasshopper Sweep from Grasshopper Guard/Bottom.",
+  "name": "How to Execute Inverted Guard Elevation Sweep in BJJ",
+  "description": "Step-by-step guide for executing Inverted Guard Elevation Sweep from Inverted Guard/Bottom.",
   "step": [
     {
       "@type": "HowToStep",
@@ -74,7 +74,7 @@ description: "How to execute Grasshopper Sweep in BJJ. Attacking perspective wit
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the primary mechanical advantage that makes the Grasshopper Sweep work?",
+      "name": "What is the primary mechanical advantage that makes the Inverted Guard Elevation Sweep work?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The primary advantage is vertical hip elevation creating upward force against the opponent's center of mass. By driving hips toward the ceiling while pulling ankles and extending legs, you create a lever system where your elevated hips become the fulcrum point that lifts the opponent off their base and tips them backward."
@@ -82,7 +82,7 @@ description: "How to execute Grasshopper Sweep in BJJ. Attacking perspective wit
     },
     {
       "@type": "Question",
-      "name": "When is the optimal timing window to attempt the Grasshopper Sweep?",
+      "name": "When is the optimal timing window to attempt the Inverted Guard Elevation Sweep?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The optimal timing is when the opponent commits their weight forward, either by pressuring into the guard or attempting to establish grips on your legs. Their forward weight commitment provides the momentum needed for successful elevation and makes it nearly impossible for them to base out backward in time."
@@ -98,15 +98,15 @@ description: "How to execute Grasshopper Sweep in BJJ. Attacking perspective wit
     },
     {
       "@type": "Question",
-      "name": "Your opponent widens their base and sits back against grasshopper guard. How do you adjust?",
+      "name": "Your opponent widens their base and sits back against inverted guard. How do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "When an opponent adopts this wide, hips-back defensive posture, the Grasshopper Sweep becomes very low percentage because they have removed their weight from your elevation zone. Transition to leg entanglement attacks like Inside Ashi entry where their wide base creates a vulnerability, or move to Single Leg X Guard for alternative sweeps."
+        "text": "When an opponent adopts this wide, hips-back defensive posture, the Inverted Guard Elevation Sweep becomes very low percentage because they have removed their weight from your elevation zone. Transition to leg entanglement attacks like Inside Ashi entry where their wide base creates a vulnerability, or move to Single Leg X Guard for alternative sweeps."
       }
     },
     {
       "@type": "Question",
-      "name": "What body positioning detail keeps your platform stable during the grasshopper sweep?",
+      "name": "What body positioning detail keeps your platform stable during the inverted sweep?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Weight must be distributed evenly across both shoulder blades throughout the entire sweep. Rolling onto one shoulder destroys the stable platform needed for symmetric hip drive and typically causes the sweep to fail laterally rather than generating the vertical force required to elevate the opponent."
@@ -129,8 +129,8 @@ description: "How to execute Grasshopper Sweep in BJJ. Attacking perspective wit
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "name": "Grasshopper Sweep Attacker",
-  "description": "How to execute Grasshopper Sweep in BJJ. Attacking perspective with setup, execution steps, and counters from Grasshopper Guard.",
+  "name": "Inverted Guard Elevation Sweep Attacker",
+  "description": "How to execute Inverted Guard Elevation Sweep in BJJ. Attacking perspective with setup, execution steps, and counters from Inverted Guard.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -160,14 +160,14 @@ description: "How to execute Grasshopper Sweep in BJJ. Attacking perspective wit
     {
       "@type": "ListItem",
       "position": 3,
-      "name": "Grasshopper Sweep",
-      "item": "https://bjjgraph.org/Transitions/Grasshopper-Sweep"
+      "name": "Inverted Guard Elevation Sweep",
+      "item": "https://bjjgraph.org/Transitions/Inverted-Guard-Elevation-Sweep"
     },
     {
       "@type": "ListItem",
       "position": 4,
       "name": "Attacker",
-      "item": "https://bjjgraph.org/Transitions/Grasshopper-Sweep/Attacker"
+      "item": "https://bjjgraph.org/Transitions/Inverted-Guard-Elevation-Sweep/Attacker"
     }
   ]
 }
@@ -182,13 +182,13 @@ description: "How to execute Grasshopper Sweep in BJJ. Attacking perspective wit
 
 <section id="overview" class="content-section">
 
-The Grasshopper Sweep is a dynamic elevation sweep executed from the inverted Grasshopper Guard position, designed to off-balance a standing or kneeling opponent and transition directly to Mount. This technique leverages the unique mechanics of inverted guards where the bottom practitioner uses their shoulders as a base while driving their hips upward into the opponent's center of mass.
+The Inverted Guard Elevation Sweep is a dynamic elevation sweep executed from the inverted Inverted Guard position, designed to off-balance a standing or kneeling opponent and transition directly to Mount. This technique leverages the unique mechanics of inverted guards where the bottom practitioner uses their shoulders as a base while driving their hips upward into the opponent's center of mass.
 
-The sweep capitalizes on the opponent's forward commitment or narrow base, using leg hooks behind their knees combined with explosive hip elevation to lift and dump them backward. Unlike traditional sweeps that rely on lateral off-balancing, the Grasshopper Sweep works primarily in the vertical plane, making it particularly effective when opponents attempt to pressure forward into the guard.
+The sweep capitalizes on the opponent's forward commitment or narrow base, using leg hooks behind their knees combined with explosive hip elevation to lift and dump them backward. Unlike traditional sweeps that rely on lateral off-balancing, the Inverted Guard Elevation Sweep works primarily in the vertical plane, making it particularly effective when opponents attempt to pressure forward into the guard.
 
-Strategically, this sweep functions as a high-reward option within the Grasshopper Guard system. When opponents recognize the leg entanglement threats from grasshopper and begin backing away or widening their base defensively, they often create the exact conditions needed for this sweep. The technique requires precise timing and substantial core strength to execute, but when landed correctly, it bypasses the half guard and side control positions entirely, placing you directly in mount with significant momentum advantage.
+Strategically, this sweep functions as a high-reward option within the Inverted Guard system. When opponents recognize the leg entanglement threats from inverted and begin backing away or widening their base defensively, they often create the exact conditions needed for this sweep. The technique requires precise timing and substantial core strength to execute, but when landed correctly, it bypasses the half guard and side control positions entirely, placing you directly in mount with significant momentum advantage.
 
-**From Position**: [[Positions/Grasshopper Guard]] (Bottom)
+**From Position**: [[Positions/Inverted Guard]] (Bottom)
 
 </section>
 
@@ -198,7 +198,7 @@ Strategically, this sweep functions as a high-reward option within the Grasshopp
 
 ## Key Attacking Principles
 
-<p class="section-subtitle">What are the key principles for executing Grasshopper Sweep?</p>
+<p class="section-subtitle">What are the key principles for executing Inverted Guard Elevation Sweep?</p>
 
 - Hip elevation must precede the sweep motion - drive hips toward ceiling before attempting to tip opponent
 - Leg hooks behind opponent's knees create the fulcrum point for the sweep
@@ -215,9 +215,9 @@ Strategically, this sweep functions as a high-reward option within the Grasshopp
 
 ## Prerequisites
 
-<p class="section-subtitle">What do you need before attempting Grasshopper Sweep?</p>
+<p class="section-subtitle">What do you need before attempting Inverted Guard Elevation Sweep?</p>
 
-- Established Grasshopper Guard with inverted posture and elevated hips
+- Established Inverted Guard with inverted posture and elevated hips
 - At least one leg hook behind opponent's knee or thigh
 - Opponent standing or in combat base with accessible lower body
 - Sufficient core engagement to maintain hip elevation throughout technique
@@ -230,7 +230,7 @@ Strategically, this sweep functions as a high-reward option within the Grasshopp
 
 ## Execution Steps
 
-<p class="section-subtitle">How do you execute Grasshopper Sweep step by step?</p>
+<p class="section-subtitle">How do you execute Inverted Guard Elevation Sweep step by step?</p>
 
 1. **Establish inversion**: From seated or open guard, invert your body placing weight on shoulder blades with hips elevated above torso level. Maintain strong core engagement to keep hips high and distribute weight evenly across both shoulder blades.
 2. **Insert leg hooks**: Thread both legs behind opponent's knees, creating hooks with your feet curling around the back of their thighs. The hooks should be deep enough to control their base and prevent them from simply stepping backward.
@@ -250,7 +250,7 @@ Strategically, this sweep functions as a high-reward option within the Grasshopp
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[Positions/Mount]] | 55% |
-| Failure | [[Positions/Grasshopper Guard]] | 30% |
+| Failure | [[Positions/Inverted Guard]] | 30% |
 | Counter | [[Positions/Side Control]] | 15% |
 
 
@@ -260,12 +260,12 @@ Strategically, this sweep functions as a high-reward option within the Grasshopp
 
 ## Opponent Counters
 
-<p class="section-subtitle">How might your opponent counter Grasshopper Sweep?</p>
+<p class="section-subtitle">How might your opponent counter Inverted Guard Elevation Sweep?</p>
 
-- **Wide base with hips back to prevent elevation** (Effectiveness: High) - Your Response: Transition to leg entanglement attacks or Single Leg X when opponent refuses to engage forward → Leads to [[Positions/Grasshopper Guard]]
-- **Back step to escape leg hooks before sweep initiates** (Effectiveness: High) - Your Response: Follow with re-inversion and pursuit, or transition to Reverse De La Riva as they circle → Leads to [[Positions/Grasshopper Guard]]
+- **Wide base with hips back to prevent elevation** (Effectiveness: High) - Your Response: Transition to leg entanglement attacks or Single Leg X when opponent refuses to engage forward → Leads to [[Positions/Inverted Guard]]
+- **Back step to escape leg hooks before sweep initiates** (Effectiveness: High) - Your Response: Follow with re-inversion and pursuit, or transition to Reverse De La Riva as they circle → Leads to [[Positions/Inverted Guard]]
 - **Forward sprawl to flatten the inverted guard and pass** (Effectiveness: Medium) - Your Response: Use their forward pressure against them by timing the hip drive to coincide with their weight commitment, or transition to rolling ankle lock entry → Leads to [[Positions/Side Control]]
-- **Grip fighting to strip ankle controls before elevation** (Effectiveness: Medium) - Your Response: Switch to no-grip variant relying on deep hooks, or attack with inside ashi entry while they focus on hands rather than leg positioning → Leads to [[Positions/Grasshopper Guard]]
+- **Grip fighting to strip ankle controls before elevation** (Effectiveness: Medium) - Your Response: Switch to no-grip variant relying on deep hooks, or attack with inside ashi entry while they focus on hands rather than leg positioning → Leads to [[Positions/Inverted Guard]]
 
 
 </section>
@@ -274,7 +274,7 @@ Strategically, this sweep functions as a high-reward option within the Grasshopp
 
 ## Common Attacking Mistakes
 
-<p class="section-subtitle">What mistakes should you avoid when executing Grasshopper Sweep?</p>
+<p class="section-subtitle">What mistakes should you avoid when executing Inverted Guard Elevation Sweep?</p>
 
 ### 1. Insufficient hip elevation before attempting sweep
 
@@ -314,10 +314,10 @@ Strategically, this sweep functions as a high-reward option within the Grasshopp
 
 ## Training Progressions
 
-<p class="section-subtitle">How do you train Grasshopper Sweep (Attacker)?</p>
+<p class="section-subtitle">How do you train Inverted Guard Elevation Sweep (Attacker)?</p>
 
 **Week 1-2** - Inversion mechanics
-Practice establishing and holding the inverted grasshopper position with proper shoulder base and hip elevation. Work on maintaining the position for 20-30 second intervals without partner resistance. Build core endurance specific to the inverted posture.
+Practice establishing and holding the inverted inverted position with proper shoulder base and hip elevation. Work on maintaining the position for 20-30 second intervals without partner resistance. Build core endurance specific to the inverted posture.
 
 **Week 3-4** - Hook and grip establishment
 With compliant partner, practice inserting leg hooks and establishing ankle grips. Focus on hook depth and maintaining connection as partner makes small movements. No sweep attempts yet - isolate the control mechanics.
@@ -329,7 +329,7 @@ Execute full sweep against partner giving 50% resistance. Partner provides forwa
 When sweep is defended, practice transitioning to Inside Ashi entries, Single Leg X, or Reverse De La Riva recovery. Develop decision-making for when to sweep versus when to pivot to leg attacks.
 
 **Week 9+** - Live integration
-Incorporate sweep into live rolling from grasshopper guard. Work on recognizing sweep opportunities versus when to transition to leg attacks or other options. Full resistance with training partners of varying skill levels.
+Incorporate sweep into live rolling from inverted guard. Work on recognizing sweep opportunities versus when to transition to leg attacks or other options. Full resistance with training partners of varying skill levels.
 
 
 
@@ -341,9 +341,9 @@ Incorporate sweep into live rolling from grasshopper guard. Work on recognizing 
 
 ## Safety Considerations
 
-<p class="section-subtitle">What are the safety concerns for Grasshopper Sweep?</p>
+<p class="section-subtitle">What are the safety concerns for Inverted Guard Elevation Sweep?</p>
 
-The Grasshopper Sweep involves inverted positioning which places stress on the cervical spine and neck. Never attempt this technique with a stiff neck or existing cervical issues. During practice, partners should fall in a controlled manner rather than posting arms awkwardly which can cause wrist injuries. The rapid transition from inverted to mount creates momentum that must be controlled to avoid landing too heavily on training partners. Build inverted guard comfort gradually before attempting full speed sweeps. If you feel your neck taking weight during the technique, release and reset rather than forcing through the position. Warm up your neck, shoulders, and core thoroughly before drilling this technique.
+The Inverted Guard Elevation Sweep involves inverted positioning which places stress on the cervical spine and neck. Never attempt this technique with a stiff neck or existing cervical issues. During practice, partners should fall in a controlled manner rather than posting arms awkwardly which can cause wrist injuries. The rapid transition from inverted to mount creates momentum that must be controlled to avoid landing too heavily on training partners. Build inverted guard comfort gradually before attempting full speed sweeps. If you feel your neck taking weight during the technique, release and reset rather than forcing through the position. Warm up your neck, shoulders, and core thoroughly before drilling this technique.
 
 </section>
 

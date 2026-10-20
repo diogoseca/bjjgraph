@@ -266,7 +266,7 @@ From a systematic perspective, the 50-50 Entry functions as a gateway to the ent
 
 ## Position Integration
 
-The 50-50 Entry functions as the primary gateway from inverted guard positions into the leg entanglement system. It connects grasshopper guard, K-Guard, and single leg X-Guard to the 50-50 position, which then branches into inside heel hook attacks, backside 50-50 transitions, and sweeping opportunities. The entry represents a critical skill for any practitioner building a leg lock game, as 50-50 is one of the most common competitive leg lock positions. Defensively, understanding the 50-50 Entry helps you recognize when opponents are attempting to establish the position, allowing earlier prevention. The technique integrates with upper body attacks as well - a threatening 50-50 Entry forces opponents to address their legs, potentially opening guillotines and front headlock transitions if they over-commit to leg clearing.
+The 50-50 Entry functions as the primary gateway from inverted guard positions into the leg entanglement system. It connects inverted guard, K-Guard, and single leg X-Guard to the 50-50 position, which then branches into inside heel hook attacks, backside 50-50 transitions, and sweeping opportunities. The entry represents a critical skill for any practitioner building a leg lock game, as 50-50 is one of the most common competitive leg lock positions. Defensively, understanding the 50-50 Entry helps you recognize when opponents are attempting to establish the position, allowing earlier prevention. The technique integrates with upper body attacks as well - a threatening 50-50 Entry forces opponents to address their legs, potentially opening guillotines and front headlock transitions if they over-commit to leg clearing.
 
 </section>
 
@@ -294,7 +294,7 @@ The 50-50 Entry functions as the primary gateway from inverted guard positions i
 
 - [[Transitions/Kiss of the Dragon]] - Aggressive berimbolo-style variant of the 50-50 Entry
 
-- [[Positions/Grasshopper Guard]] - Inverted guard variant commonly used to initiate 50-50 entries
+- [[Positions/Inverted Guard]] - Inverted guard variant commonly used to initiate 50-50 entries
 
 
 </section>

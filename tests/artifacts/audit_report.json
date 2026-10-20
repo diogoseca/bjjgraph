@@ -1,12 +1,12 @@
 {
   "summary": {
     "transition_files": 1025,
-    "submission_files": 353,
-    "position_files": 133,
-    "total_issues": 436,
+    "submission_files": 352,
+    "position_files": 132,
+    "total_issues": 449,
     "errors": 0,
     "warnings": 54,
-    "info": 382,
+    "info": 395,
     "orphaned_transitions": 0,
     "orphaned_submissions": 2,
     "missing_transitions": 0,
@@ -16,14 +16,14 @@
     "invalid_from_positions": 0,
     "outcome_errors": 0,
     "outcome_warnings": 12,
-    "attempt_outliers": 331,
+    "attempt_outliers": 346,
     "coherence_violations": 0,
     "successrate_incoherent": 0,
     "defender_not_complement": 0,
     "votes_schema_violations": 0,
-    "ruleset_frames_checked": 3161,
+    "ruleset_frames_checked": 3157,
     "ruleset_frames_absent": 1,
-    "attempt_frames_checked": 531,
+    "attempt_frames_checked": 527,
     "attempt_frames_absent": 1,
     "outcome_frames_checked": 2630,
     "outcome_frames_absent": 0,
@@ -35,8 +35,8 @@
     "successrate_skipped_null_probability": 0,
     "complement_pairs_compared": 1315,
     "complement_skipped_null_rate": 0,
-    "votes_community_frames_checked": 3202,
-    "votes_prior_frames_checked": 680,
+    "votes_community_frames_checked": 3212,
+    "votes_prior_frames_checked": 682,
     "votes_prior_frames_absent": 0
   },
   "issues": [
@@ -162,20 +162,6 @@
       "name": "Feet on Hips Guard Top",
       "file": "content/Positions/Feet on Hips Guard.json",
       "message": "Feet on Hips Guard Top: authored position_type 'Offensive' but its metrics score -0.124 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
-    },
-    {
-      "type": "position_type_score_disagreement",
-      "severity": "info",
-      "name": "Grasshopper Guard Top",
-      "file": "content/Positions/Grasshopper Guard.json",
-      "message": "Grasshopper Guard Top: authored position_type 'Offensive/Controlling' but its metrics score -0.050 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
-    },
-    {
-      "type": "position_type_score_disagreement",
-      "severity": "info",
-      "name": "Grasshopper Guard Bottom",
-      "file": "content/Positions/Grasshopper Guard.json",
-      "message": "Grasshopper Guard Bottom: authored position_type 'Offensive' but its metrics score -0.040 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
     },
     {
       "type": "position_type_score_disagreement",
@@ -1613,9 +1599,9 @@
       "position": "De La Riva Guard",
       "role": "bottom[gi]",
       "type": "attempt_negligible",
-      "message": "bottom[gi]: 'De La Riva to Grasshopper Guard' has only 2% attempt probability",
+      "message": "bottom[gi]: 'De La Riva Inversion Entry' has only 2% attempt probability",
       "severity": "info",
-      "transition": "De La Riva to Grasshopper Guard",
+      "transition": "De La Riva Inversion Entry",
       "current": 2
     },
     {
@@ -1623,9 +1609,9 @@
       "position": "De La Riva Guard",
       "role": "bottom[nogi]",
       "type": "attempt_negligible",
-      "message": "bottom[nogi]: 'De La Riva to Grasshopper Guard' has only 1% attempt probability",
+      "message": "bottom[nogi]: 'De La Riva Inversion Entry' has only 1% attempt probability",
       "severity": "info",
-      "transition": "De La Riva to Grasshopper Guard",
+      "transition": "De La Riva Inversion Entry",
       "current": 1
     },
     {
@@ -1856,16 +1842,6 @@
       "message": "top[nogi]: 'Short Choke from Gift Wrap' has only 2% attempt probability",
       "severity": "info",
       "transition": "Short Choke from Gift Wrap",
-      "current": 2
-    },
-    {
-      "file": "content/Positions/Grasshopper Guard.json",
-      "position": "Grasshopper Guard",
-      "role": "bottom[nogi]",
-      "type": "attempt_negligible",
-      "message": "bottom[nogi]: 'Berimbolo Entry' has only 2% attempt probability",
-      "severity": "info",
-      "transition": "Berimbolo Entry",
       "current": 2
     },
     {
@@ -2307,6 +2283,166 @@
       "severity": "info",
       "transition": "Heel Hook from Inside Sankaku",
       "current": 1
+    },
+    {
+      "file": "content/Positions/Inverted Guard.json",
+      "position": "Inverted Guard",
+      "role": "top[gi]",
+      "type": "attempt_negligible",
+      "message": "top[gi]: 'Leg Weave Pass' has only 2% attempt probability",
+      "severity": "info",
+      "transition": "Leg Weave Pass",
+      "current": 2
+    },
+    {
+      "file": "content/Positions/Inverted Guard.json",
+      "position": "Inverted Guard",
+      "role": "top[nogi]",
+      "type": "attempt_negligible",
+      "message": "top[nogi]: 'Leg Weave Pass' has only 2% attempt probability",
+      "severity": "info",
+      "transition": "Leg Weave Pass",
+      "current": 2
+    },
+    {
+      "file": "content/Positions/Inverted Guard.json",
+      "position": "Inverted Guard",
+      "role": "top[gi]",
+      "type": "attempt_negligible",
+      "message": "top[gi]: 'Stack from Inverted' has only 2% attempt probability",
+      "severity": "info",
+      "transition": "Stack from Inverted",
+      "current": 2
+    },
+    {
+      "file": "content/Positions/Inverted Guard.json",
+      "position": "Inverted Guard",
+      "role": "top[nogi]",
+      "type": "attempt_negligible",
+      "message": "top[nogi]: 'Stack from Inverted' has only 2% attempt probability",
+      "severity": "info",
+      "transition": "Stack from Inverted",
+      "current": 2
+    },
+    {
+      "file": "content/Positions/Inverted Guard.json",
+      "position": "Inverted Guard",
+      "role": "top[gi]",
+      "type": "attempt_negligible",
+      "message": "top[gi]: 'Toreando from Inverted' has only 2% attempt probability",
+      "severity": "info",
+      "transition": "Toreando from Inverted",
+      "current": 2
+    },
+    {
+      "file": "content/Positions/Inverted Guard.json",
+      "position": "Inverted Guard",
+      "role": "top[nogi]",
+      "type": "attempt_negligible",
+      "message": "top[nogi]: 'Toreando from Inverted' has only 2% attempt probability",
+      "severity": "info",
+      "transition": "Toreando from Inverted",
+      "current": 2
+    },
+    {
+      "file": "content/Positions/Inverted Guard.json",
+      "position": "Inverted Guard",
+      "role": "top[nogi]",
+      "type": "attempt_negligible",
+      "message": "top[nogi]: 'Step Over to Mount' has only 2% attempt probability",
+      "severity": "info",
+      "transition": "Step Over to Mount",
+      "current": 2
+    },
+    {
+      "file": "content/Positions/Inverted Guard.json",
+      "position": "Inverted Guard",
+      "role": "top[gi]",
+      "type": "attempt_negligible",
+      "message": "top[gi]: 'Cartwheel Pass' has only 2% attempt probability",
+      "severity": "info",
+      "transition": "Cartwheel Pass",
+      "current": 2
+    },
+    {
+      "file": "content/Positions/Inverted Guard.json",
+      "position": "Inverted Guard",
+      "role": "top[nogi]",
+      "type": "attempt_negligible",
+      "message": "top[nogi]: 'Cartwheel Pass' has only 2% attempt probability",
+      "severity": "info",
+      "transition": "Cartwheel Pass",
+      "current": 2
+    },
+    {
+      "file": "content/Positions/Inverted Guard.json",
+      "position": "Inverted Guard",
+      "role": "top[gi]",
+      "type": "attempt_negligible",
+      "message": "top[gi]: 'Counter Ashi Entry' has only 2% attempt probability",
+      "severity": "info",
+      "transition": "Counter Ashi Entry",
+      "current": 2
+    },
+    {
+      "file": "content/Positions/Inverted Guard.json",
+      "position": "Inverted Guard",
+      "role": "bottom[nogi]",
+      "type": "attempt_negligible",
+      "message": "bottom[nogi]: 'Omoplata from Inverted Guard' has only 2% attempt probability",
+      "severity": "info",
+      "transition": "Omoplata from Inverted Guard",
+      "current": 2
+    },
+    {
+      "file": "content/Positions/Inverted Guard.json",
+      "position": "Inverted Guard",
+      "role": "bottom[nogi]",
+      "type": "attempt_negligible",
+      "message": "bottom[nogi]: 'Technical Stand-up' has only 2% attempt probability",
+      "severity": "info",
+      "transition": "Technical Stand-up",
+      "current": 2
+    },
+    {
+      "file": "content/Positions/Inverted Guard.json",
+      "position": "Inverted Guard",
+      "role": "bottom[gi]",
+      "type": "attempt_negligible",
+      "message": "bottom[gi]: 'Sweep from Inverted Guard' has only 2% attempt probability",
+      "severity": "info",
+      "transition": "Sweep from Inverted Guard",
+      "current": 2
+    },
+    {
+      "file": "content/Positions/Inverted Guard.json",
+      "position": "Inverted Guard",
+      "role": "bottom[nogi]",
+      "type": "attempt_negligible",
+      "message": "bottom[nogi]: 'Sweep from Inverted Guard' has only 2% attempt probability",
+      "severity": "info",
+      "transition": "Sweep from Inverted Guard",
+      "current": 2
+    },
+    {
+      "file": "content/Positions/Inverted Guard.json",
+      "position": "Inverted Guard",
+      "role": "bottom[gi]",
+      "type": "attempt_negligible",
+      "message": "bottom[gi]: 'Rolling Kneebar' has only 1% attempt probability",
+      "severity": "info",
+      "transition": "Rolling Kneebar",
+      "current": 1
+    },
+    {
+      "file": "content/Positions/Inverted Guard.json",
+      "position": "Inverted Guard",
+      "role": "bottom[nogi]",
+      "type": "attempt_negligible",
+      "message": "bottom[nogi]: 'Rolling Kneebar' has only 2% attempt probability",
+      "severity": "info",
+      "transition": "Rolling Kneebar",
+      "current": 2
     },
     {
       "file": "content/Positions/Kimura Trap.json",
@@ -2863,9 +2999,9 @@
       "position": "Side Control",
       "role": "top[gi]",
       "type": "attempt_negligible",
-      "message": "top[gi]: 'Marce Choke from Side Control' has only 1% attempt probability",
+      "message": "top[gi]: 'Darce Choke from Side Control' has only 1% attempt probability",
       "severity": "info",
-      "transition": "Marce Choke from Side Control",
+      "transition": "Darce Choke from Side Control",
       "current": 1
     },
     {
@@ -2873,9 +3009,9 @@
       "position": "Side Control",
       "role": "top[nogi]",
       "type": "attempt_negligible",
-      "message": "top[nogi]: 'Marce Choke from Side Control' has only 1% attempt probability",
+      "message": "top[nogi]: 'Darce Choke from Side Control' has only 1% attempt probability",
       "severity": "info",
-      "transition": "Marce Choke from Side Control",
+      "transition": "Darce Choke from Side Control",
       "current": 1
     },
     {

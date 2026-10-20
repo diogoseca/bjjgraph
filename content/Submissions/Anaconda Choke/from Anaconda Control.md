@@ -310,9 +310,6 @@ The technique has become a staple in modern BJJ competition, with the Anaconda-t
 **Anaconda from Turtle/Far Side**: From turtle position, instead of threading under near side, reach across opponent's back to far side and thread your arm under their far-side neck, trapping their far-side arm. This requires more mobility but surprises opponents defending the near-side attack. (When to use: When opponent is defending near-side attacks effectively or when you have better angle to far side)
 
 
-**Marce Choke (Modified Anaconda)**: Similar setup to Anaconda but instead of rolling to side with figure-four, you transition to North-South position and apply pressure from top. This variation works when opponent's base is too strong to roll them. (When to use: When opponent has strong base and prevents your roll, or in gi when you can use lapel control)
-
-
 **Standing Anaconda**: Apply Anaconda choke from standing position during takedown defense or front headlock clinch. Less common but effective when you have strong front headlock control and opponent cannot counter-wrestle effectively. (When to use: In standing grappling exchanges or when opponent is on knees but not flat on turtle)
 
 
@@ -320,9 +317,6 @@ The technique has become a staple in modern BJJ competition, with the Anaconda-t
 
 
 **High Elbow Anaconda**: Instead of rolling or dropping elbow, maintain elevated elbow position near opponent's temple while driving shoulder into their neck. This creates darce-style shoulder pressure while maintaining anaconda arm configuration. Highly effective standing or when opponent sprawls. Requires less body movement, making it faster to finish in scrambles. (When to use: When opponent stands or sprawls making rolling difficult; when in scramble situation requiring quick finish; against flexible opponents who can defend standard roll; in transitions from takedown attempts)
-
-
-**Marce Choke (Anaconda-Darce Hybrid)**: Combine anaconda arm positioning with darce-style shoulder driving mechanics. After securing anaconda grip, instead of rolling, walk your feet toward opponent's head while driving your shoulder into their neck. This creates intense pressure from unusual angle that defeats traditional anaconda defenses. Named for its hybrid nature combining arm triangle and anaconda mechanics. (When to use: When standard anaconda angle is compromised; when opponent defends their neck exceptionally well; from certain turtle positions where rolling is impractical; when you want standing finish option)
 
 
 **Reverse Anaconda Roll**: After securing standard anaconda, roll toward your non-choking shoulder instead of choking shoulder. This unorthodox direction often surprises opponents and can create tighter angle when their body positioning makes standard roll awkward. Requires excellent body awareness and comfort with unusual mechanics. (When to use: When opponent's base is particularly strong on choking side; when standard roll direction is blocked by cage or training partner; as surprise tactic against opponents familiar with your standard pattern)
@@ -356,7 +350,6 @@ The technique has become a staple in modern BJJ competition, with the Anaconda-t
 - [[Submissions/Rear Naked Choke]]
 - [[Submissions/Brabo Choke]]
 - [[Submissions/Arm in Guillotine]]
-- [[Submissions/Marce Choke]]
 - [[Submissions/Peruvian Necktie]]
 - [[Submissions/Japanese Necktie]]
 - [[Transitions/Front Headlock to Anaconda]] - Primary setup transition from front headlock control
@@ -367,7 +360,7 @@ The technique has become a staple in modern BJJ competition, with the Anaconda-t
 - [[Positions/Front Headlock]] - Control position from which Anaconda is commonly initiated
 - [[Positions/Turtle]] - Primary attacking position for Anaconda setups
 - [[Positions/Side Control]] - Position you can transition to if Anaconda attempt fails
-- [[Positions/North-South]] - Alternative finishing position for Marce variation
+- [[Positions/North-South]] - Alternative position reached after releasing or changing the head-and-arm connection
 - [[Positions/Darce Control]] - Control position closely related to Anaconda mechanics
 - [[Positions/Anaconda Control]] - Specific control position for setting up the Anaconda finish
 

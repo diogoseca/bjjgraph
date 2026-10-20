@@ -4,7 +4,7 @@
 
 ---
 title: "Rolling Kneebar Defender | BJJ Defense Guide | BJJ Graph"
-description: "How to defend against Rolling Kneebar in BJJ. Recognition cues, defensive options, and escape strategies when opponent rolls for kneebar from Grasshopper Guard."
+description: "How to defend against Rolling Kneebar in BJJ. Recognition cues, defensive options, and escape strategies when opponent rolls for kneebar from Inverted Guard."
 ---
 
 
@@ -21,7 +21,7 @@ description: "How to defend against Rolling Kneebar in BJJ. Recognition cues, de
     {
       "@type": "HowToStep",
       "name": "Post hand and sprawl immediately upon detecting lateral hip shift",
-      "text": "Early stage - when you detect the roll initiation before the attacker's rotation begins, this is the highest-percentage defense If successful: Roll is completely stopped, attacker remains on their back in grasshopper with disrupted positioning, you can begin passing or disengage",
+      "text": "Early stage - when you detect the roll initiation before the attacker's rotation begins, this is the highest-percentage defense If successful: Roll is completely stopped, attacker remains on their back in inverted with disrupted positioning, you can begin passing or disengage",
       "position": 1
     },
     {
@@ -33,7 +33,7 @@ description: "How to defend against Rolling Kneebar in BJJ. Recognition cues, de
     {
       "@type": "HowToStep",
       "name": "Drive forward aggressively to flatten the inversion before roll develops",
-      "text": "Pre-emptive - when you recognize the grasshopper player is setting up for the roll but has not yet committed, forward pressure collapses their inversion If successful: Opponent's grasshopper guard is flattened, their hips drop to the mat, and you can advance to side control or initiate a stack pass",
+      "text": "Pre-emptive - when you recognize the inverted player is setting up for the roll but has not yet committed, forward pressure collapses their inversion If successful: Opponent's inverted guard is flattened, their hips drop to the mat, and you can advance to side control or initiate a stack pass",
       "position": 3
     },
     {
@@ -64,7 +64,7 @@ description: "How to defend against Rolling Kneebar in BJJ. Recognition cues, de
     },
     {
       "@type": "Question",
-      "name": "From grasshopper guard they shift hips toward your leg and load a shoulder; what do you do?",
+      "name": "From inverted guard they shift hips toward your leg and load a shoulder; what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "This is the primary recognition cue for the Rolling Kneebar initiation. Immediately post your hand on the mat on the side they are rolling toward and sprawl your hips backward and away. This removes the space they need for the roll and denies their rotational momentum. Do not wait to confirm the attack - the hip shift is sufficient to trigger your defensive response."
@@ -91,7 +91,7 @@ description: "How to defend against Rolling Kneebar in BJJ. Recognition cues, de
       "name": "When is driving forward the correct defensive response, and when does it become dangerous?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Forward pressure is correct only before the roll initiates, when the grasshopper player is still setting up. Your drive collapses their inversion and flattens their hips to the mat. However, once the roll has begun, forward pressure feeds directly into their rotational momentum and accelerates the kneebar entry. Read the timing carefully - if you see rotation starting, sprawl backward instead."
+        "text": "Forward pressure is correct only before the roll initiates, when the inverted player is still setting up. Your drive collapses their inversion and flattens their hips to the mat. However, once the roll has begun, forward pressure feeds directly into their rotational momentum and accelerates the kneebar entry. Read the timing carefully - if you see rotation starting, sprawl backward instead."
       }
     }
   ]
@@ -104,7 +104,7 @@ description: "How to defend against Rolling Kneebar in BJJ. Recognition cues, de
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Rolling Kneebar Defender",
-  "description": "How to defend against Rolling Kneebar in BJJ. Recognition cues, defensive options, and escape strategies when opponent rolls for kneebar from Grasshopper Guard.",
+  "description": "How to defend against Rolling Kneebar in BJJ. Recognition cues, defensive options, and escape strategies when opponent rolls for kneebar from Inverted Guard.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -160,7 +160,7 @@ Defending the Rolling Kneebar requires recognizing the attack before the roll co
 
 The defender's strategic framework operates on a timeline: before the roll begins, you can prevent it entirely through posture and base management; during the roll, you can disrupt it with sprawling or stepping mechanics; after the roll completes, you must address the kneebar control position directly. Each phase demands different responses, and the defender who can accurately read which phase they are in will choose the most effective counter. The fundamental defensive dilemma is that bending your knee to defend the kneebar extension can expose you to calf slicer attacks, while keeping the leg straight makes the kneebar finish easier. Navigating this tension requires understanding when to prioritize each response based on the attacker's grip quality and hip position.
 
-**Opponent's Starting Position**: [[Positions/Grasshopper Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Inverted Guard]] (Bottom)
 
 </section>
 
@@ -172,7 +172,7 @@ The defender's strategic framework operates on a timeline: before the roll begin
 
 <p class="section-subtitle">How do you know when someone is attempting Rolling Kneebar?</p>
 
-- Opponent's hips shift laterally toward your trapped leg while in grasshopper guard, loading weight onto one shoulder for the roll
+- Opponent's hips shift laterally toward your trapped leg while in inverted guard, loading weight onto one shoulder for the roll
 - You feel increased pulling pressure on your hooked leg combined with the opponent's hands pushing off the mat
 - Opponent's outside leg begins threading or crossing over your thigh while their body rotates underneath you
 - Sudden loss of the opponent's upper body contact as they drop beneath your center of gravity to initiate rotation
@@ -189,7 +189,7 @@ The defender's strategic framework operates on a timeline: before the roll begin
 
 - React before the roll completes - every moment of delay reduces your defensive options exponentially
 - Maintain a bent knee and active hip rotation to deny the extension angle required for the finish
-- Post your hand and sprawl immediately when you feel lateral hip shift from the grasshopper player
+- Post your hand and sprawl immediately when you feel lateral hip shift from the inverted player
 - Keep your base wide and weight distributed to resist being pulled into the rolling motion
 - Never allow the attacker to complete belly-down positioning - disrupt the roll at any cost
 - Use your free leg actively to create frames or step over the entanglement rather than leaving it passive
@@ -207,22 +207,22 @@ The defender's strategic framework operates on a timeline: before the roll begin
 ### 1. Post hand and sprawl immediately upon detecting lateral hip shift
 
 - **When to use**: Early stage - when you detect the roll initiation before the attacker's rotation begins, this is the highest-percentage defense
-- **Targets**: [[Positions/Grasshopper Guard]]
-- **If successful**: Roll is completely stopped, attacker remains on their back in grasshopper with disrupted positioning, you can begin passing or disengage
+- **Targets**: [[Positions/Inverted Guard]]
+- **If successful**: Roll is completely stopped, attacker remains on their back in inverted with disrupted positioning, you can begin passing or disengage
 - **Risk**: If you sprawl too late after rotation has begun, your posted hand may get trapped under the rolling body
 
 ### 2. Step over the rolling body with your free leg while pulling the trapped leg backward
 
 - **When to use**: Mid-stage - when the roll has begun but not yet completed, stepping over allows you to clear the entanglement before the figure-four locks
-- **Targets**: [[Positions/Grasshopper Guard]]
+- **Targets**: [[Positions/Inverted Guard]]
 - **If successful**: You extract your leg from the rolling entanglement and establish passing position or reset to standing over the guard
 - **Risk**: Stepping over exposes your free leg to potential secondary entanglement if the attacker follows with their hips
 
 ### 3. Drive forward aggressively to flatten the inversion before roll develops
 
-- **When to use**: Pre-emptive - when you recognize the grasshopper player is setting up for the roll but has not yet committed, forward pressure collapses their inversion
+- **When to use**: Pre-emptive - when you recognize the inverted player is setting up for the roll but has not yet committed, forward pressure collapses their inversion
 - **Targets**: [[Positions/Side Control]]
-- **If successful**: Opponent's grasshopper guard is flattened, their hips drop to the mat, and you can advance to side control or initiate a stack pass
+- **If successful**: Opponent's inverted guard is flattened, their hips drop to the mat, and you can advance to side control or initiate a stack pass
 - **Risk**: If the roll has already begun, forward drive feeds momentum into their rotation and can accelerate the kneebar entry
 
 ### 4. Bend the trapped knee maximally and rotate your hip toward the attacker to deny extension angle
@@ -242,13 +242,13 @@ The defender's strategic framework operates on a timeline: before the roll begin
 
 <p class="section-subtitle">What is the best outcome when defending Rolling Kneebar?</p>
 
-### → [[Positions/Grasshopper Guard]]
+### → [[Positions/Inverted Guard]]
 
 Stop the roll before it develops by sprawling with your hips back and posting your hand on the mat when you detect the lateral hip shift. Alternatively, step over the rolling body with your free leg while pulling the trapped leg backward to extract it from the entanglement.
 
 ### → [[Positions/Side Control]]
 
-Drive forward aggressively before the roll initiates to collapse the opponent's grasshopper inversion. Their flattened position allows you to advance past their legs into side control. This outcome is less favorable than stopping the roll but still preferable to being caught in kneebar control.
+Drive forward aggressively before the roll initiates to collapse the opponent's inverted inversion. Their flattened position allows you to advance past their legs into side control. This outcome is less favorable than stopping the roll but still preferable to being caught in kneebar control.
 
 
 
@@ -263,7 +263,7 @@ Drive forward aggressively before the roll initiates to collapse the opponent's 
 ### 1. Freezing or pausing when the roll begins instead of reacting immediately
 
 - **Consequence**: The roll completes unopposed, attacker achieves belly-down kneebar control with strong grips, and your defensive options are reduced to surviving the finish
-- **Correction**: Train an automatic sprawl response to any lateral hip movement from grasshopper guard - react to the first cue rather than waiting for confirmation
+- **Correction**: Train an automatic sprawl response to any lateral hip movement from inverted guard - react to the first cue rather than waiting for confirmation
 
 ### 2. Pulling your leg straight backward to extract it from the entanglement
 
@@ -296,7 +296,7 @@ Drive forward aggressively before the roll initiates to collapse the opponent's 
 <p class="section-subtitle">How do you train defense against Rolling Kneebar?</p>
 
 **Week 1-2** - Recognition and reaction timing
-Partner establishes grasshopper guard and slowly initiates rolling kneebar entries at 25% speed. Focus entirely on recognizing the hip shift cue and triggering the sprawl response. No resistance from partner during your defense. Build automatic recognition of the attack initiation.
+Partner establishes inverted guard and slowly initiates rolling kneebar entries at 25% speed. Focus entirely on recognizing the hip shift cue and triggering the sprawl response. No resistance from partner during your defense. Build automatic recognition of the attack initiation.
 
 **Week 3-4** - Defensive mechanics under pressure
 Partner increases roll speed to 50-75% and you practice the full defensive sequence: recognition, sprawl or step-over, leg extraction. Partner begins adding basic follow-ups when first defense is late. Develop fluency in choosing between sprawl, step-over, and forward drive based on timing.
@@ -304,8 +304,8 @@ Partner increases roll speed to 50-75% and you practice the full defensive seque
 **Week 5-6** - Late-stage defense and counter-attacks
 Begin from the worst-case scenario with partner already in belly-down kneebar position. Practice bent-knee defense, hip rotation, and systematic leg extraction. Include calf slicer defense when partner transitions. Build comfort defending from disadvantageous positions.
 
-**Week 7+** - Live integration with grasshopper passing
-Full resistance sparring starting with partner in grasshopper guard. Integrate rolling kneebar defense into your complete guard passing strategy. Develop the ability to recognize and defend rolling kneebar attempts while maintaining offensive passing pressure.
+**Week 7+** - Live integration with inverted passing
+Full resistance sparring starting with partner in inverted guard. Integrate rolling kneebar defense into your complete guard passing strategy. Develop the ability to recognize and defend rolling kneebar attempts while maintaining offensive passing pressure.
 
 
 

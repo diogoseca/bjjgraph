@@ -155,12 +155,12 @@ test("@curated the EDGE node-index join survives the split: every card prints th
   // 1467, minted append-only). 1462 + 2 = 1464. The invariant these three lines exist for is
   // untouched — legacy is one node per site, the default is exactly two members per site, and both
   // cover the same rep set.
-  expect(legacy.nodes, "the noPairs control group is one node per site").toBe(1448) // census:sites
-  expect(pair.nodes, "the default is two members per site").toBe(2896) // census:members
+  expect(legacy.nodes, "the noPairs control group is one node per site").toBe(1447) // census:sites
+  expect(pair.nodes, "the default is two members per site").toBe(2894) // census:members
   expect(pair.reps, "…over the same live sites").toBe(legacy.reps)
 
   const keys = Object.keys(legacy.hands)
-  expect(keys.length, "every distinct position hand is dealt on both graphs").toBe(242) // census:positionChoiceSeats
+  expect(keys.length, "every distinct position hand is dealt on both graphs").toBe(240) // census:positionChoiceSeats
   expect(Object.keys(pair.hands).sort()).toEqual(keys.sort())
 
   // THE JOIN. Card for card, in order: same technique, same landing, same ev row, same integer.
@@ -173,7 +173,7 @@ test("@curated the EDGE node-index join survives the split: every card prints th
     cards += legacy.hands[k].length
     marked += legacy.hands[k].filter((c: Any) => c.mark !== null).length
   }
-  expect(cards, "ordinary position cards compared").toBe(1316) // census:positionChoiceCards
+  expect(cards, "ordinary position cards compared").toBe(1315) // census:positionChoiceCards
   // …and the table is genuinely being read. Without this the test would pass on a build where
   // `_ev` came back empty on BOTH graphs — every mark null, every comparison trivially equal.
   // Preserve the previous 1200/1328 coverage fraction (rounded up to 90.5%) on the
@@ -199,13 +199,13 @@ test("@curated the hub keeps its identity: ordinals, Explore, deck keys, curricu
   // sites are RETIRED and keep theirs forever so they can never be reissued, and v1.156.0 minted
   // two new ones (1467, 1468) append-only — but a retired id is not on the wire, so the app's map
   // is the live count: 1469 assigned − 5 retired = 1464.
-  expect(Object.keys(pair.ordinals).length, "live nodes carry a share ordinal").toBe(1448) // census:ordinals
+  expect(Object.keys(pair.ordinals).length, "live nodes carry a share ordinal").toBe(1447) // census:ordinals
   expect(pair.ordinals, "…and not one of them moved").toEqual(legacy.ordinals)
 
   // EXPLORE LISTS SITES. Both halves carry the same title, so a member-level walk would print
   // every row of all three categories twice.
   expect(pair.explorer).toEqual(legacy.explorer)
-  expect(pair.explorer.Positions.length, "distinct positions, excluding submission aliases").toBe(121) // census:playablePositions
+  expect(pair.explorer.Positions.length, "distinct positions, excluding submission aliases").toBe(120) // census:playablePositions
 
   // ...AND SO DOES SEARCH, which is a SEPARATE walk over `this.nodes` and so inherits nothing
   // from buildExplorer. Every hit was doubled, and the 120 cap then halved how many distinct
@@ -223,7 +223,7 @@ test("@curated the hub keeps its identity: ordinals, Explore, deck keys, curricu
   expect(pair.lessons.filter((s: string) => s.endsWith("=?")).length, "every lesson resolves").toBe(0)
   expect(pair.curriculumFog).toEqual(legacy.curriculumFog)
   expect(pair.traffic).toEqual(legacy.traffic)
-  expect(pair.traffic.length, "the weighted start pool is still 133 POSITIONS").toBe(133) // census:positions
+  expect(pair.traffic.length, "the weighted start pool is still 132 POSITIONS").toBe(133) // census:positions
   // `_ambig` counts sites: counting members puts every short name at >= 2 and `displayName`
   // prints the full qualified name on every card — the exact inverse of the v1.103.0 rule.
   expect(pair.names).toEqual(legacy.names)
@@ -376,7 +376,7 @@ test("the hand is identical from either half of a site", async ({ page }) => {
   // all — so both halves of a site must see the same neighbourhood. Making it true by
   // construction is worth more than making it true by testing, but it is worth testing too.
   expect(r.differCount, "no hand depends on which orb you are standing on: " + JSON.stringify(r.differ)).toBe(0)
-  expect(r.same, "…over all 266 role-hands").toBe(266) // census:roleHands
+  expect(r.same, "…over all 264 role-hands").toBe(266) // census:roleHands
 })
 
 // ══════════════════════════════════════════════════════════════════════════════════════════

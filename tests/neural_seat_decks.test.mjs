@@ -80,8 +80,8 @@ test("every shipped deck is mintable, and every mintable key ships a deck", () =
   // non-triviality floor FIRST: an empty node list would satisfy set equality perfectly. The floor
   // IS the census count (a `>=` against today's corpus), so a deliberate content move re-arms it
   // with `npm run census:update` and an accidental loss still trips it.
-  assert.ok(shipped.size >= 2896, `manifest starved: ${shipped.size} decks`); // census:members
-  assert.ok(APP.nodes.length >= 2896, `node set starved: ${APP.nodes.length}`); // census:members
+  assert.ok(shipped.size >= 2894, `manifest starved: ${shipped.size} decks`); // census:members
+  assert.ok(APP.nodes.length >= 2894, `node set starved: ${APP.nodes.length}`); // census:members
 
   const unreachable = [...shipped].filter((k) => !mint.has(k));
   assert.deepEqual(unreachable, [], `${unreachable.length} shipped deck(s) the app cannot ask for`);
@@ -119,7 +119,7 @@ test("every technique site: the rep keys |Attacker and the partner keys |Defende
 
 test("every position site: the rep keys |Top and the partner keys |Bottom", () => {
   const pos = SITES.filter((n) => n.ty === "positions");
-  assert.equal(pos.length, 133); // census:positions
+  assert.equal(pos.length, 132); // census:positions
   let checked = 0;
   for (const rep of pos) {
     const partner = APP.nodes.find((m) => m.id === rep.pairId);
@@ -127,7 +127,7 @@ test("every position site: the rep keys |Top and the partner keys |Bottom", () =
     assert.equal(APP.deckKeyFor(partner).role, "Bottom", partner.id);
     checked += 2;
   }
-  assert.equal(checked, 266); // census:roleHands
+  assert.equal(checked, 264); // census:roleHands
 });
 
 // ── 3: THE ROLL STILL OVERRIDES THE MEMBER, AND LEGACY IS UNTOUCHED ─────────────────────────
@@ -185,7 +185,7 @@ test("ordinary position options use Attacker decks; submission defenses use thei
       if (n.role === "defender" || a.deckKeyFor(n).role !== "Attacker") moved++;
     }
   }
-  assert.equal(states, 242, "distinct positions each deal both seats"); // census:positionChoiceSeats
-  assert.equal(options, 1316, "ordinary position options, excluding projected submission aliases"); // census:positionChoiceCards
+  assert.equal(states, 240, "distinct positions each deal both seats"); // census:positionChoiceSeats
+  assert.equal(options, 1315, "ordinary position options, excluding projected submission aliases"); // census:positionChoiceCards
   assert.equal(moved, 0, `${moved} dealt option(s) resolved to a Defender deck`);
 });

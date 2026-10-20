@@ -797,200 +797,200 @@ description: "Master all BJJ submission techniques. Complete guide to chokes, jo
     {
       "@type": "ListItem",
       "position": 129,
+      "name": "Darce Choke from Side Control",
+      "url": "https://bjjgraph.org/Submissions/from-side-control"
+    },
+    {
+      "@type": "ListItem",
+      "position": 130,
       "name": "Darce Choke from Twister Side Control",
       "url": "https://bjjgraph.org/Submissions/from-twister-side-control"
     },
     {
       "@type": "ListItem",
-      "position": 130,
+      "position": 131,
       "name": "Electric Chair",
       "url": "https://bjjgraph.org/Submissions/electric-chair"
     },
     {
       "@type": "ListItem",
-      "position": 131,
+      "position": 132,
       "name": "Electric Chair from Deep Half Guard",
       "url": "https://bjjgraph.org/Submissions/from-deep-half-guard"
     },
     {
       "@type": "ListItem",
-      "position": 132,
+      "position": 133,
       "name": "Electric Chair from Electric Chair",
       "url": "https://bjjgraph.org/Submissions/from-electric-chair"
     },
     {
       "@type": "ListItem",
-      "position": 133,
+      "position": 134,
       "name": "Estima Lock",
       "url": "https://bjjgraph.org/Submissions/estima-lock"
     },
     {
       "@type": "ListItem",
-      "position": 134,
+      "position": 135,
       "name": "Estima Lock from Estima Lock Control",
       "url": "https://bjjgraph.org/Submissions/from-estima-lock-control"
     },
     {
       "@type": "ListItem",
-      "position": 135,
+      "position": 136,
       "name": "Estima Lock from Honey Hole",
       "url": "https://bjjgraph.org/Submissions/from-honey-hole"
     },
     {
       "@type": "ListItem",
-      "position": 136,
+      "position": 137,
       "name": "Estima Lock from Saddle",
       "url": "https://bjjgraph.org/Submissions/from-saddle"
     },
     {
       "@type": "ListItem",
-      "position": 137,
+      "position": 138,
       "name": "Ezekiel Choke",
       "url": "https://bjjgraph.org/Submissions/ezekiel-choke"
     },
     {
       "@type": "ListItem",
-      "position": 138,
+      "position": 139,
       "name": "Ezekiel Choke from Closed Guard",
       "url": "https://bjjgraph.org/Submissions/from-closed-guard"
     },
     {
       "@type": "ListItem",
-      "position": 139,
+      "position": 140,
       "name": "Ezekiel Choke from Mount",
       "url": "https://bjjgraph.org/Submissions/from-mount"
     },
     {
       "@type": "ListItem",
-      "position": 140,
+      "position": 141,
       "name": "Ezekiel Choke from Side Control",
       "url": "https://bjjgraph.org/Submissions/from-side-control"
     },
     {
       "@type": "ListItem",
-      "position": 141,
+      "position": 142,
       "name": "Far Side Armbar",
       "url": "https://bjjgraph.org/Submissions/far-side-armbar"
     },
     {
       "@type": "ListItem",
-      "position": 142,
+      "position": 143,
       "name": "Far Side Armbar from Side Control",
       "url": "https://bjjgraph.org/Submissions/from-side-control"
     },
     {
       "@type": "ListItem",
-      "position": 143,
+      "position": 144,
       "name": "Flying Armbar from Closed Guard",
       "url": "https://bjjgraph.org/Submissions/from-closed-guard"
     },
     {
       "@type": "ListItem",
-      "position": 144,
+      "position": 145,
       "name": "Flying Kneebar",
       "url": "https://bjjgraph.org/Submissions/flying-kneebar"
     },
     {
       "@type": "ListItem",
-      "position": 145,
+      "position": 146,
       "name": "Flying Kneebar from Standing Position",
       "url": "https://bjjgraph.org/Submissions/from-standing-position"
     },
     {
       "@type": "ListItem",
-      "position": 146,
+      "position": 147,
       "name": "Gift Wrap Armbar from Gift Wrap",
       "url": "https://bjjgraph.org/Submissions/from-gift-wrap"
     },
     {
       "@type": "ListItem",
-      "position": 147,
+      "position": 148,
       "name": "Gogoplata",
       "url": "https://bjjgraph.org/Submissions/gogoplata"
     },
     {
       "@type": "ListItem",
-      "position": 148,
+      "position": 149,
       "name": "Gogoplata from Gogoplata Control",
       "url": "https://bjjgraph.org/Submissions/from-gogoplata-control"
     },
     {
       "@type": "ListItem",
-      "position": 149,
+      "position": 150,
       "name": "Guillotine Choke",
       "url": "https://bjjgraph.org/Submissions/guillotine-choke"
     },
     {
       "@type": "ListItem",
-      "position": 150,
+      "position": 151,
       "name": "Guillotine Choke from Butterfly Guard",
       "url": "https://bjjgraph.org/Submissions/from-butterfly-guard"
     },
     {
       "@type": "ListItem",
-      "position": 151,
+      "position": 152,
       "name": "Guillotine Choke from Clinch",
       "url": "https://bjjgraph.org/Submissions/from-clinch"
     },
     {
       "@type": "ListItem",
-      "position": 152,
+      "position": 153,
       "name": "Guillotine Choke from Guillotine Control",
       "url": "https://bjjgraph.org/Submissions/from-guillotine-control"
     },
     {
       "@type": "ListItem",
-      "position": 153,
+      "position": 154,
       "name": "Guillotine Choke from Hindulotine",
       "url": "https://bjjgraph.org/Submissions/from-hindulotine"
     },
     {
       "@type": "ListItem",
-      "position": 154,
+      "position": 155,
       "name": "Guillotine Choke from Twister Control",
       "url": "https://bjjgraph.org/Submissions/from-twister-control"
     },
     {
       "@type": "ListItem",
-      "position": 155,
+      "position": 156,
       "name": "Heel Hook",
       "url": "https://bjjgraph.org/Submissions/heel-hook"
     },
     {
       "@type": "ListItem",
-      "position": 156,
+      "position": 157,
       "name": "Heel Hook from 50-50 Guard",
       "url": "https://bjjgraph.org/Submissions/from-50-50-guard"
     },
     {
       "@type": "ListItem",
-      "position": 157,
+      "position": 158,
       "name": "Heel Hook from Ashi Garami",
       "url": "https://bjjgraph.org/Submissions/from-ashi-garami"
     },
     {
       "@type": "ListItem",
-      "position": 158,
+      "position": 159,
       "name": "Heel Hook from Backside 50-50",
       "url": "https://bjjgraph.org/Submissions/from-backside-50-50"
     },
     {
       "@type": "ListItem",
-      "position": 159,
+      "position": 160,
       "name": "Heel Hook from Carni",
       "url": "https://bjjgraph.org/Submissions/from-carni"
     },
     {
       "@type": "ListItem",
-      "position": 160,
+      "position": 161,
       "name": "Heel Hook from Cross Ashi-Garami",
       "url": "https://bjjgraph.org/Submissions/from-cross-ashi-garami"
-    },
-    {
-      "@type": "ListItem",
-      "position": 161,
-      "name": "Heel Hook from Grasshopper Guard",
-      "url": "https://bjjgraph.org/Submissions/from-grasshopper-guard"
     },
     {
       "@type": "ListItem",
@@ -1013,1134 +1013,1128 @@ description: "Master all BJJ submission techniques. Complete guide to chokes, jo
     {
       "@type": "ListItem",
       "position": 165,
+      "name": "Heel Hook from Inverted Guard",
+      "url": "https://bjjgraph.org/Submissions/from-inverted-guard"
+    },
+    {
+      "@type": "ListItem",
+      "position": 166,
       "name": "Heel Hook from Kneebar Control",
       "url": "https://bjjgraph.org/Submissions/from-kneebar-control"
     },
     {
       "@type": "ListItem",
-      "position": 166,
+      "position": 167,
       "name": "Heel Hook from Saddle",
       "url": "https://bjjgraph.org/Submissions/from-saddle"
     },
     {
       "@type": "ListItem",
-      "position": 167,
+      "position": 168,
       "name": "Heel Hook from Ushiro Ashi",
       "url": "https://bjjgraph.org/Submissions/from-ushiro-ashi"
     },
     {
       "@type": "ListItem",
-      "position": 168,
+      "position": 169,
       "name": "High Elbow Guillotine",
       "url": "https://bjjgraph.org/Submissions/high-elbow-guillotine"
     },
     {
       "@type": "ListItem",
-      "position": 169,
+      "position": 170,
       "name": "High Elbow Guillotine from Front Headlock",
       "url": "https://bjjgraph.org/Submissions/from-front-headlock"
     },
     {
       "@type": "ListItem",
-      "position": 170,
+      "position": 171,
       "name": "High Elbow Guillotine from Guillotine Control",
       "url": "https://bjjgraph.org/Submissions/from-guillotine-control"
     },
     {
       "@type": "ListItem",
-      "position": 171,
+      "position": 172,
       "name": "High Elbow Guillotine from Hindulotine",
       "url": "https://bjjgraph.org/Submissions/from-hindulotine"
     },
     {
       "@type": "ListItem",
-      "position": 172,
+      "position": 173,
       "name": "Hindulotine",
       "url": "https://bjjgraph.org/Submissions/hindulotine"
     },
     {
       "@type": "ListItem",
-      "position": 173,
+      "position": 174,
       "name": "Hindulotine from Hindulotine",
       "url": "https://bjjgraph.org/Submissions/from-hindulotine"
     },
     {
       "@type": "ListItem",
-      "position": 174,
+      "position": 175,
       "name": "Inside Heel Hook",
       "url": "https://bjjgraph.org/Submissions/inside-heel-hook"
     },
     {
       "@type": "ListItem",
-      "position": 175,
+      "position": 176,
       "name": "Inside Heel Hook from Honey Hole",
       "url": "https://bjjgraph.org/Submissions/from-honey-hole"
     },
     {
       "@type": "ListItem",
-      "position": 176,
+      "position": 177,
       "name": "Inside Heel Hook from Inside Sankaku",
       "url": "https://bjjgraph.org/Submissions/from-inside-sankaku"
     },
     {
       "@type": "ListItem",
-      "position": 177,
+      "position": 178,
       "name": "Inside Heel Hook from Ushiro Ashi-Garami",
       "url": "https://bjjgraph.org/Submissions/from-ushiro-ashi-garami"
     },
     {
       "@type": "ListItem",
-      "position": 178,
+      "position": 179,
       "name": "Inverted Triangle",
       "url": "https://bjjgraph.org/Submissions/inverted-triangle"
     },
     {
       "@type": "ListItem",
-      "position": 179,
+      "position": 180,
       "name": "Inverted Triangle from Triangle Control",
       "url": "https://bjjgraph.org/Submissions/from-triangle-control"
     },
     {
       "@type": "ListItem",
-      "position": 180,
+      "position": 181,
       "name": "Japanese Necktie",
       "url": "https://bjjgraph.org/Submissions/japanese-necktie"
     },
     {
       "@type": "ListItem",
-      "position": 181,
+      "position": 182,
       "name": "Japanese Necktie from Front Headlock",
       "url": "https://bjjgraph.org/Submissions/from-front-headlock"
     },
     {
       "@type": "ListItem",
-      "position": 182,
+      "position": 183,
       "name": "Kesa Gatame Arm Crush",
       "url": "https://bjjgraph.org/Submissions/kesa-gatame-arm-crush"
     },
     {
       "@type": "ListItem",
-      "position": 183,
+      "position": 184,
       "name": "Kesa Gatame Arm Crush from Kesa Gatame",
       "url": "https://bjjgraph.org/Submissions/from-kesa-gatame"
     },
     {
       "@type": "ListItem",
-      "position": 184,
+      "position": 185,
       "name": "Kimura",
       "url": "https://bjjgraph.org/Submissions/kimura"
     },
     {
       "@type": "ListItem",
-      "position": 185,
+      "position": 186,
       "name": "Kimura from Armbar Control",
       "url": "https://bjjgraph.org/Submissions/from-armbar-control"
     },
     {
       "@type": "ListItem",
-      "position": 186,
+      "position": 187,
       "name": "Kimura from Butterfly Guard",
       "url": "https://bjjgraph.org/Submissions/from-butterfly-guard"
     },
     {
       "@type": "ListItem",
-      "position": 187,
+      "position": 188,
       "name": "Kimura from Crucifix",
       "url": "https://bjjgraph.org/Submissions/from-crucifix"
     },
     {
       "@type": "ListItem",
-      "position": 188,
+      "position": 189,
       "name": "Kimura from Flattened Half Guard",
       "url": "https://bjjgraph.org/Submissions/from-flattened-half-guard"
     },
     {
       "@type": "ListItem",
-      "position": 189,
+      "position": 190,
       "name": "Kimura from Front Headlock",
       "url": "https://bjjgraph.org/Submissions/from-front-headlock"
     },
     {
       "@type": "ListItem",
-      "position": 190,
+      "position": 191,
       "name": "Kimura from Gift Wrap",
       "url": "https://bjjgraph.org/Submissions/from-gift-wrap"
     },
     {
       "@type": "ListItem",
-      "position": 191,
+      "position": 192,
       "name": "Kimura from Guard",
       "url": "https://bjjgraph.org/Submissions/from-guard"
     },
     {
       "@type": "ListItem",
-      "position": 192,
+      "position": 193,
       "name": "Kimura from Half Guard",
       "url": "https://bjjgraph.org/Submissions/from-half-guard"
     },
     {
       "@type": "ListItem",
-      "position": 193,
+      "position": 194,
       "name": "Kimura from High Mount",
       "url": "https://bjjgraph.org/Submissions/from-high-mount"
     },
     {
       "@type": "ListItem",
-      "position": 194,
+      "position": 195,
       "name": "Kimura from Kesa Gatame",
       "url": "https://bjjgraph.org/Submissions/from-kesa-gatame"
     },
     {
       "@type": "ListItem",
-      "position": 195,
+      "position": 196,
       "name": "Kimura from Kimura Trap",
       "url": "https://bjjgraph.org/Submissions/from-kimura-trap"
     },
     {
       "@type": "ListItem",
-      "position": 196,
+      "position": 197,
       "name": "Kimura from Knee Shield Half Guard",
       "url": "https://bjjgraph.org/Submissions/from-knee-shield-half-guard"
     },
     {
       "@type": "ListItem",
-      "position": 197,
+      "position": 198,
       "name": "Kimura from Knee on Belly",
       "url": "https://bjjgraph.org/Submissions/from-knee-on-belly"
     },
     {
       "@type": "ListItem",
-      "position": 198,
+      "position": 199,
       "name": "Kimura from Kuzure Kesa Gatame",
       "url": "https://bjjgraph.org/Submissions/from-kuzure-kesa-gatame"
     },
     {
       "@type": "ListItem",
-      "position": 199,
+      "position": 200,
       "name": "Kimura from Lasso Guard",
       "url": "https://bjjgraph.org/Submissions/from-lasso-guard"
     },
     {
       "@type": "ListItem",
-      "position": 200,
+      "position": 201,
       "name": "Kimura from Lockdown",
       "url": "https://bjjgraph.org/Submissions/from-lockdown"
     },
     {
       "@type": "ListItem",
-      "position": 201,
+      "position": 202,
       "name": "Kimura from Modified Mount",
       "url": "https://bjjgraph.org/Submissions/from-modified-mount"
     },
     {
       "@type": "ListItem",
-      "position": 202,
+      "position": 203,
       "name": "Kimura from Mount",
       "url": "https://bjjgraph.org/Submissions/from-mount"
     },
     {
       "@type": "ListItem",
-      "position": 203,
+      "position": 204,
       "name": "Kimura from New York Control",
       "url": "https://bjjgraph.org/Submissions/from-new-york-control"
     },
     {
       "@type": "ListItem",
-      "position": 204,
+      "position": 205,
       "name": "Kimura from Overhook Control",
       "url": "https://bjjgraph.org/Submissions/from-overhook-control"
     },
     {
       "@type": "ListItem",
-      "position": 205,
+      "position": 206,
       "name": "Kimura from Quarter Guard",
       "url": "https://bjjgraph.org/Submissions/from-quarter-guard"
     },
     {
       "@type": "ListItem",
-      "position": 206,
+      "position": 207,
       "name": "Kimura from S Mount",
       "url": "https://bjjgraph.org/Submissions/from-s-mount"
     },
     {
       "@type": "ListItem",
-      "position": 207,
+      "position": 208,
       "name": "Kimura from Shoulder of Justice",
       "url": "https://bjjgraph.org/Submissions/from-shoulder-of-justice"
     },
     {
       "@type": "ListItem",
-      "position": 208,
+      "position": 209,
       "name": "Kimura from Side Control",
       "url": "https://bjjgraph.org/Submissions/from-side-control"
     },
     {
       "@type": "ListItem",
-      "position": 209,
+      "position": 210,
       "name": "Kimura from Standing",
       "url": "https://bjjgraph.org/Submissions/from-standing"
     },
     {
       "@type": "ListItem",
-      "position": 210,
+      "position": 211,
       "name": "Kimura from Triangle Control",
       "url": "https://bjjgraph.org/Submissions/from-triangle-control"
     },
     {
       "@type": "ListItem",
-      "position": 211,
+      "position": 212,
       "name": "Kimura from Turtle",
       "url": "https://bjjgraph.org/Submissions/from-turtle"
     },
     {
       "@type": "ListItem",
-      "position": 212,
+      "position": 213,
       "name": "Kimura from Twister Side Control",
       "url": "https://bjjgraph.org/Submissions/from-twister-side-control"
     },
     {
       "@type": "ListItem",
-      "position": 213,
+      "position": 214,
       "name": "Kimura from Ushiro Kesa Gatame",
       "url": "https://bjjgraph.org/Submissions/from-ushiro-kesa-gatame"
     },
     {
       "@type": "ListItem",
-      "position": 214,
+      "position": 215,
       "name": "Kneebar",
       "url": "https://bjjgraph.org/Submissions/kneebar"
     },
     {
       "@type": "ListItem",
-      "position": 215,
+      "position": 216,
       "name": "Kneebar from 50-50",
       "url": "https://bjjgraph.org/Submissions/from-50-50"
     },
     {
       "@type": "ListItem",
-      "position": 216,
+      "position": 217,
       "name": "Kneebar from Backside 50-50",
       "url": "https://bjjgraph.org/Submissions/from-backside-50-50"
     },
     {
       "@type": "ListItem",
-      "position": 217,
+      "position": 218,
       "name": "Kneebar from Carni",
       "url": "https://bjjgraph.org/Submissions/from-carni"
     },
     {
       "@type": "ListItem",
-      "position": 218,
+      "position": 219,
       "name": "Kneebar from Guard",
       "url": "https://bjjgraph.org/Submissions/from-guard"
     },
     {
       "@type": "ListItem",
-      "position": 219,
+      "position": 220,
       "name": "Kneebar from Half Guard",
       "url": "https://bjjgraph.org/Submissions/from-half-guard"
     },
     {
       "@type": "ListItem",
-      "position": 220,
+      "position": 221,
       "name": "Kneebar from Honey Hole",
       "url": "https://bjjgraph.org/Submissions/from-honey-hole"
     },
     {
       "@type": "ListItem",
-      "position": 221,
+      "position": 222,
       "name": "Kneebar from Inside Ashi-Garami",
       "url": "https://bjjgraph.org/Submissions/from-inside-ashi-garami"
     },
     {
       "@type": "ListItem",
-      "position": 222,
+      "position": 223,
       "name": "Kneebar from Inside Sankaku",
       "url": "https://bjjgraph.org/Submissions/from-inside-sankaku"
     },
     {
       "@type": "ListItem",
-      "position": 223,
+      "position": 224,
       "name": "Kneebar from Kneebar Control",
       "url": "https://bjjgraph.org/Submissions/from-kneebar-control"
     },
     {
       "@type": "ListItem",
-      "position": 224,
+      "position": 225,
       "name": "Kneebar from Leg Entanglement",
       "url": "https://bjjgraph.org/Submissions/from-leg-entanglement"
     },
     {
       "@type": "ListItem",
-      "position": 225,
+      "position": 226,
       "name": "Kneebar from Saddle",
       "url": "https://bjjgraph.org/Submissions/from-saddle"
     },
     {
       "@type": "ListItem",
-      "position": 226,
+      "position": 227,
       "name": "Kneebar from Single Leg X-Guard",
       "url": "https://bjjgraph.org/Submissions/from-single-leg-x-guard"
     },
     {
       "@type": "ListItem",
-      "position": 227,
+      "position": 228,
       "name": "Kneebar from Straight Ankle Lock Control",
       "url": "https://bjjgraph.org/Submissions/from-straight-ankle-lock-control"
     },
     {
       "@type": "ListItem",
-      "position": 228,
+      "position": 229,
       "name": "Kneebar from Toe Hold Control",
       "url": "https://bjjgraph.org/Submissions/from-toe-hold-control"
     },
     {
       "@type": "ListItem",
-      "position": 229,
+      "position": 230,
       "name": "Kneebar from Top",
       "url": "https://bjjgraph.org/Submissions/from-top"
     },
     {
       "@type": "ListItem",
-      "position": 230,
+      "position": 231,
       "name": "Loop Choke",
       "url": "https://bjjgraph.org/Submissions/loop-choke"
     },
     {
       "@type": "ListItem",
-      "position": 231,
+      "position": 232,
       "name": "Loop Choke from Closed Guard",
       "url": "https://bjjgraph.org/Submissions/from-closed-guard"
     },
     {
       "@type": "ListItem",
-      "position": 232,
+      "position": 233,
       "name": "Loop Choke from Half Guard",
       "url": "https://bjjgraph.org/Submissions/from-half-guard"
     },
     {
       "@type": "ListItem",
-      "position": 233,
+      "position": 234,
       "name": "Loop Choke from Mount",
       "url": "https://bjjgraph.org/Submissions/from-mount"
     },
     {
       "@type": "ListItem",
-      "position": 234,
+      "position": 235,
       "name": "Loop Choke from Side Control",
       "url": "https://bjjgraph.org/Submissions/from-side-control"
     },
     {
       "@type": "ListItem",
-      "position": 235,
+      "position": 236,
       "name": "Loop Choke from Turtle",
       "url": "https://bjjgraph.org/Submissions/from-turtle"
     },
     {
       "@type": "ListItem",
-      "position": 236,
-      "name": "Marce Choke",
-      "url": "https://bjjgraph.org/Submissions/marce-choke"
-    },
-    {
-      "@type": "ListItem",
       "position": 237,
-      "name": "Marce Choke from Side Control",
-      "url": "https://bjjgraph.org/Submissions/from-side-control"
-    },
-    {
-      "@type": "ListItem",
-      "position": 238,
       "name": "Mir Lock",
       "url": "https://bjjgraph.org/Submissions/mir-lock"
     },
     {
       "@type": "ListItem",
-      "position": 239,
+      "position": 238,
       "name": "Mir Lock from Side Control",
       "url": "https://bjjgraph.org/Submissions/from-side-control"
     },
     {
       "@type": "ListItem",
-      "position": 240,
+      "position": 239,
       "name": "Monoplata",
       "url": "https://bjjgraph.org/Submissions/monoplata"
     },
     {
       "@type": "ListItem",
-      "position": 241,
+      "position": 240,
       "name": "Monoplata from Guard",
       "url": "https://bjjgraph.org/Submissions/from-guard"
     },
     {
       "@type": "ListItem",
-      "position": 242,
+      "position": 241,
       "name": "Monoplata from Mount",
       "url": "https://bjjgraph.org/Submissions/from-mount"
     },
     {
       "@type": "ListItem",
-      "position": 243,
+      "position": 242,
       "name": "Mounted Crucifix Armbar",
       "url": "https://bjjgraph.org/Submissions/mounted-crucifix-armbar"
     },
     {
       "@type": "ListItem",
-      "position": 244,
+      "position": 243,
       "name": "Mounted Crucifix Armbar from Mounted Crucifix",
       "url": "https://bjjgraph.org/Submissions/from-mounted-crucifix"
     },
     {
       "@type": "ListItem",
-      "position": 245,
+      "position": 244,
       "name": "Neck Crank from Mounted Crucifix",
       "url": "https://bjjgraph.org/Submissions/from-mounted-crucifix"
     },
     {
       "@type": "ListItem",
-      "position": 246,
+      "position": 245,
       "name": "Neck Crank from Twister Control",
       "url": "https://bjjgraph.org/Submissions/from-twister-control"
     },
     {
       "@type": "ListItem",
-      "position": 247,
+      "position": 246,
       "name": "North-South Choke",
       "url": "https://bjjgraph.org/Submissions/north-south-choke"
     },
     {
       "@type": "ListItem",
-      "position": 248,
+      "position": 247,
       "name": "North-South Choke from Kesa Gatame",
       "url": "https://bjjgraph.org/Submissions/from-kesa-gatame"
     },
     {
       "@type": "ListItem",
-      "position": 249,
+      "position": 248,
       "name": "North-South Choke from Kuzure Kesa Gatame",
       "url": "https://bjjgraph.org/Submissions/from-kuzure-kesa-gatame"
     },
     {
       "@type": "ListItem",
-      "position": 250,
+      "position": 249,
       "name": "North-South Choke from North-South",
       "url": "https://bjjgraph.org/Submissions/from-north-south"
     },
     {
       "@type": "ListItem",
-      "position": 251,
+      "position": 250,
       "name": "North-South Choke from Shoulder of Justice",
       "url": "https://bjjgraph.org/Submissions/from-shoulder-of-justice"
     },
     {
       "@type": "ListItem",
-      "position": 252,
+      "position": 251,
       "name": "North-South Choke from Side Control",
       "url": "https://bjjgraph.org/Submissions/from-side-control"
     },
     {
       "@type": "ListItem",
-      "position": 253,
+      "position": 252,
       "name": "North-South Choke from Ushiro Kesa Gatame",
       "url": "https://bjjgraph.org/Submissions/from-ushiro-kesa-gatame"
     },
     {
       "@type": "ListItem",
-      "position": 254,
+      "position": 253,
       "name": "Omoplata",
       "url": "https://bjjgraph.org/Submissions/omoplata"
     },
     {
       "@type": "ListItem",
-      "position": 255,
+      "position": 254,
       "name": "Omoplata from Armbar Control",
       "url": "https://bjjgraph.org/Submissions/from-armbar-control"
     },
     {
       "@type": "ListItem",
-      "position": 256,
+      "position": 255,
       "name": "Omoplata from Butterfly Guard",
       "url": "https://bjjgraph.org/Submissions/from-butterfly-guard"
     },
     {
       "@type": "ListItem",
-      "position": 257,
+      "position": 256,
       "name": "Omoplata from Crackhead Control",
       "url": "https://bjjgraph.org/Submissions/from-crackhead-control"
     },
     {
       "@type": "ListItem",
-      "position": 258,
+      "position": 257,
       "name": "Omoplata from De La Riva Guard",
       "url": "https://bjjgraph.org/Submissions/from-de-la-riva-guard"
     },
     {
       "@type": "ListItem",
-      "position": 259,
+      "position": 258,
       "name": "Omoplata from Double Sleeve Guard",
       "url": "https://bjjgraph.org/Submissions/from-double-sleeve-guard"
     },
     {
       "@type": "ListItem",
-      "position": 260,
+      "position": 259,
       "name": "Omoplata from Guard",
       "url": "https://bjjgraph.org/Submissions/from-guard"
     },
     {
       "@type": "ListItem",
-      "position": 261,
+      "position": 260,
       "name": "Omoplata from Inverted Guard",
       "url": "https://bjjgraph.org/Submissions/from-inverted-guard"
     },
     {
       "@type": "ListItem",
-      "position": 262,
+      "position": 261,
       "name": "Omoplata from Omoplata Control",
       "url": "https://bjjgraph.org/Submissions/from-omoplata-control"
     },
     {
       "@type": "ListItem",
-      "position": 263,
+      "position": 262,
       "name": "Omoplata from Rubber Guard",
       "url": "https://bjjgraph.org/Submissions/from-rubber-guard"
     },
     {
       "@type": "ListItem",
-      "position": 264,
+      "position": 263,
       "name": "Omoplata from Russian Leg Lasso",
       "url": "https://bjjgraph.org/Submissions/from-russian-leg-lasso"
     },
     {
       "@type": "ListItem",
-      "position": 265,
+      "position": 264,
       "name": "Omoplata from Spider Guard",
       "url": "https://bjjgraph.org/Submissions/from-spider-guard"
     },
     {
       "@type": "ListItem",
-      "position": 266,
+      "position": 265,
       "name": "Outside Heel Hook",
       "url": "https://bjjgraph.org/Submissions/outside-heel-hook"
     },
     {
       "@type": "ListItem",
-      "position": 267,
+      "position": 266,
       "name": "Outside Heel Hook from 50-50 Guard",
       "url": "https://bjjgraph.org/Submissions/from-50-50-guard"
     },
     {
       "@type": "ListItem",
-      "position": 268,
+      "position": 267,
       "name": "Outside Heel Hook from Backside 50-50",
       "url": "https://bjjgraph.org/Submissions/from-backside-50-50"
     },
     {
       "@type": "ListItem",
-      "position": 269,
+      "position": 268,
       "name": "Outside Heel Hook from Cross Ashi-Garami",
       "url": "https://bjjgraph.org/Submissions/from-cross-ashi-garami"
     },
     {
       "@type": "ListItem",
-      "position": 270,
+      "position": 269,
       "name": "Outside Heel Hook from Honey Hole",
       "url": "https://bjjgraph.org/Submissions/from-honey-hole"
     },
     {
       "@type": "ListItem",
-      "position": 271,
+      "position": 270,
       "name": "Outside Heel Hook from Leg Entanglement",
       "url": "https://bjjgraph.org/Submissions/from-leg-entanglement"
     },
     {
       "@type": "ListItem",
-      "position": 272,
+      "position": 271,
       "name": "Outside Heel Hook from Outside Ashi-Garami",
       "url": "https://bjjgraph.org/Submissions/from-outside-ashi-garami"
     },
     {
       "@type": "ListItem",
-      "position": 273,
+      "position": 272,
       "name": "Outside Heel Hook from Saddle",
       "url": "https://bjjgraph.org/Submissions/from-saddle"
     },
     {
       "@type": "ListItem",
-      "position": 274,
+      "position": 273,
       "name": "Outside Heel Hook from Ushiro Ashi-Garami",
       "url": "https://bjjgraph.org/Submissions/from-ushiro-ashi-garami"
     },
     {
       "@type": "ListItem",
-      "position": 275,
+      "position": 274,
       "name": "Paper Cutter Choke",
       "url": "https://bjjgraph.org/Submissions/paper-cutter-choke"
     },
     {
       "@type": "ListItem",
-      "position": 276,
+      "position": 275,
       "name": "Paper Cutter Choke from Kuzure Kesa Gatame",
       "url": "https://bjjgraph.org/Submissions/from-kuzure-kesa-gatame"
     },
     {
       "@type": "ListItem",
-      "position": 277,
+      "position": 276,
       "name": "Peruvian Necktie",
       "url": "https://bjjgraph.org/Submissions/peruvian-necktie"
     },
     {
       "@type": "ListItem",
-      "position": 278,
+      "position": 277,
       "name": "Peruvian Necktie from Front Headlock",
       "url": "https://bjjgraph.org/Submissions/from-front-headlock"
     },
     {
       "@type": "ListItem",
-      "position": 279,
+      "position": 278,
       "name": "Rear Naked Choke",
       "url": "https://bjjgraph.org/Submissions/rear-naked-choke"
     },
     {
       "@type": "ListItem",
-      "position": 280,
+      "position": 279,
       "name": "Rear Naked Choke from Back Control",
       "url": "https://bjjgraph.org/Submissions/from-back-control"
     },
     {
       "@type": "ListItem",
-      "position": 281,
+      "position": 280,
       "name": "Rear Naked Choke from Body Triangle",
       "url": "https://bjjgraph.org/Submissions/from-body-triangle"
     },
     {
       "@type": "ListItem",
-      "position": 282,
+      "position": 281,
       "name": "Rear Naked Choke from Crucifix",
       "url": "https://bjjgraph.org/Submissions/from-crucifix"
     },
     {
       "@type": "ListItem",
-      "position": 283,
+      "position": 282,
       "name": "Rear Naked Choke from Gift Wrap",
       "url": "https://bjjgraph.org/Submissions/from-gift-wrap"
     },
     {
       "@type": "ListItem",
-      "position": 284,
+      "position": 283,
       "name": "Rear Naked Choke from Harness",
       "url": "https://bjjgraph.org/Submissions/from-harness"
     },
     {
       "@type": "ListItem",
-      "position": 285,
+      "position": 284,
       "name": "Rear Naked Choke from Invisible Collar",
       "url": "https://bjjgraph.org/Submissions/from-invisible-collar"
     },
     {
       "@type": "ListItem",
-      "position": 286,
+      "position": 285,
       "name": "Rear Naked Choke from Mounted Crucifix",
       "url": "https://bjjgraph.org/Submissions/from-mounted-crucifix"
     },
     {
       "@type": "ListItem",
-      "position": 287,
+      "position": 286,
       "name": "Rear Naked Choke from Rear Triangle",
       "url": "https://bjjgraph.org/Submissions/from-rear-triangle"
     },
     {
       "@type": "ListItem",
-      "position": 288,
+      "position": 287,
       "name": "Rear Naked Choke from Rodeo",
       "url": "https://bjjgraph.org/Submissions/from-rodeo"
     },
     {
       "@type": "ListItem",
-      "position": 289,
+      "position": 288,
       "name": "Rear Naked Choke from Russian Cowboy",
       "url": "https://bjjgraph.org/Submissions/from-russian-cowboy"
     },
     {
       "@type": "ListItem",
-      "position": 290,
+      "position": 289,
       "name": "Rear Naked Choke from Seat Belt Control Back",
       "url": "https://bjjgraph.org/Submissions/from-seat-belt-control-back"
     },
     {
       "@type": "ListItem",
-      "position": 291,
+      "position": 290,
       "name": "Rear Naked Choke from Standing Back Control",
       "url": "https://bjjgraph.org/Submissions/from-standing-back-control"
     },
     {
       "@type": "ListItem",
-      "position": 292,
+      "position": 291,
       "name": "Rear Naked Choke from Standing Rear Clinch",
       "url": "https://bjjgraph.org/Submissions/from-standing-rear-clinch"
     },
     {
       "@type": "ListItem",
-      "position": 293,
+      "position": 292,
       "name": "Rear Triangle Choke",
       "url": "https://bjjgraph.org/Submissions/rear-triangle-choke"
     },
     {
       "@type": "ListItem",
-      "position": 294,
+      "position": 293,
       "name": "Rear Triangle Choke from Back Control",
       "url": "https://bjjgraph.org/Submissions/from-back-control"
     },
     {
       "@type": "ListItem",
-      "position": 295,
+      "position": 294,
       "name": "Rear Triangle Choke from Rear Triangle",
       "url": "https://bjjgraph.org/Submissions/from-rear-triangle"
     },
     {
       "@type": "ListItem",
-      "position": 296,
+      "position": 295,
       "name": "Reverse Armbar from Mount",
       "url": "https://bjjgraph.org/Submissions/reverse-armbar-from-mount"
     },
     {
       "@type": "ListItem",
-      "position": 297,
+      "position": 296,
       "name": "Reverse Kimura",
       "url": "https://bjjgraph.org/Submissions/reverse-kimura"
     },
     {
       "@type": "ListItem",
-      "position": 298,
+      "position": 297,
       "name": "Reverse Kimura from Standing Position",
       "url": "https://bjjgraph.org/Submissions/from-standing-position"
     },
     {
       "@type": "ListItem",
-      "position": 299,
+      "position": 298,
       "name": "Rolling Armbar from Closed Guard",
       "url": "https://bjjgraph.org/Submissions/rolling-armbar-from-closed-guard"
     },
     {
       "@type": "ListItem",
-      "position": 300,
+      "position": 299,
       "name": "Rolling Omoplata from Omoplata Control",
       "url": "https://bjjgraph.org/Submissions/rolling-omoplata-from-omoplata-control"
     },
     {
       "@type": "ListItem",
-      "position": 301,
+      "position": 300,
       "name": "Short Choke",
       "url": "https://bjjgraph.org/Submissions/short-choke"
     },
     {
       "@type": "ListItem",
-      "position": 302,
+      "position": 301,
       "name": "Short Choke from Back Control",
       "url": "https://bjjgraph.org/Submissions/from-back-control"
     },
     {
       "@type": "ListItem",
-      "position": 303,
+      "position": 302,
       "name": "Short Choke from Body Triangle",
       "url": "https://bjjgraph.org/Submissions/from-body-triangle"
     },
     {
       "@type": "ListItem",
-      "position": 304,
+      "position": 303,
       "name": "Short Choke from Cross Body",
       "url": "https://bjjgraph.org/Submissions/from-cross-body"
     },
     {
       "@type": "ListItem",
-      "position": 305,
+      "position": 304,
       "name": "Short Choke from Gift Wrap",
       "url": "https://bjjgraph.org/Submissions/from-gift-wrap"
     },
     {
       "@type": "ListItem",
-      "position": 306,
+      "position": 305,
       "name": "Short Choke from Harness",
       "url": "https://bjjgraph.org/Submissions/from-harness"
     },
     {
       "@type": "ListItem",
-      "position": 307,
+      "position": 306,
       "name": "Short Choke from Seat Belt Control Back",
       "url": "https://bjjgraph.org/Submissions/from-seat-belt-control-back"
     },
     {
       "@type": "ListItem",
-      "position": 308,
+      "position": 307,
       "name": "Spine Lock",
       "url": "https://bjjgraph.org/Submissions/spine-lock"
     },
     {
       "@type": "ListItem",
-      "position": 309,
+      "position": 308,
       "name": "Spine Lock from Truck",
       "url": "https://bjjgraph.org/Submissions/from-truck"
     },
     {
       "@type": "ListItem",
-      "position": 310,
+      "position": 309,
       "name": "Spinning Armbar",
       "url": "https://bjjgraph.org/Submissions/spinning-armbar"
     },
     {
       "@type": "ListItem",
-      "position": 311,
+      "position": 310,
       "name": "Spinning Armbar from Closed Guard",
       "url": "https://bjjgraph.org/Submissions/from-closed-guard"
     },
     {
       "@type": "ListItem",
-      "position": 312,
+      "position": 311,
       "name": "Straight Ankle Lock",
       "url": "https://bjjgraph.org/Submissions/straight-ankle-lock"
     },
     {
       "@type": "ListItem",
-      "position": 313,
+      "position": 312,
       "name": "Straight Ankle Lock from Straight Ankle Lock Control",
       "url": "https://bjjgraph.org/Submissions/from-straight-ankle-lock-control"
     },
     {
       "@type": "ListItem",
-      "position": 314,
+      "position": 313,
       "name": "Suloev Stretch from Half Guard",
       "url": "https://bjjgraph.org/Submissions/from-half-guard"
     },
     {
       "@type": "ListItem",
-      "position": 315,
+      "position": 314,
       "name": "Tarikoplata",
       "url": "https://bjjgraph.org/Submissions/tarikoplata"
     },
     {
       "@type": "ListItem",
-      "position": 316,
+      "position": 315,
       "name": "Tarikoplata from Closed Guard",
       "url": "https://bjjgraph.org/Submissions/from-closed-guard"
     },
     {
       "@type": "ListItem",
-      "position": 317,
+      "position": 316,
       "name": "Ten Finger Guillotine",
       "url": "https://bjjgraph.org/Submissions/ten-finger-guillotine"
     },
     {
       "@type": "ListItem",
-      "position": 318,
+      "position": 317,
       "name": "Ten Finger Guillotine from Front Headlock",
       "url": "https://bjjgraph.org/Submissions/from-front-headlock"
     },
     {
       "@type": "ListItem",
-      "position": 319,
+      "position": 318,
       "name": "Ten Finger Guillotine from Guillotine Control",
       "url": "https://bjjgraph.org/Submissions/from-guillotine-control"
     },
     {
       "@type": "ListItem",
-      "position": 320,
+      "position": 319,
       "name": "Toe Hold",
       "url": "https://bjjgraph.org/Submissions/toe-hold"
     },
     {
       "@type": "ListItem",
-      "position": 321,
+      "position": 320,
       "name": "Toe Hold from 50-50",
       "url": "https://bjjgraph.org/Submissions/from-50-50"
     },
     {
       "@type": "ListItem",
-      "position": 322,
+      "position": 321,
       "name": "Toe Hold from Ashi Garami",
       "url": "https://bjjgraph.org/Submissions/from-ashi-garami"
     },
     {
       "@type": "ListItem",
-      "position": 323,
+      "position": 322,
       "name": "Toe Hold from Backside 50-50",
       "url": "https://bjjgraph.org/Submissions/from-backside-50-50"
     },
     {
       "@type": "ListItem",
-      "position": 324,
+      "position": 323,
       "name": "Toe Hold from Cross Ashi-Garami",
       "url": "https://bjjgraph.org/Submissions/from-cross-ashi-garami"
     },
     {
       "@type": "ListItem",
-      "position": 325,
+      "position": 324,
       "name": "Toe Hold from Estima Lock",
       "url": "https://bjjgraph.org/Submissions/from-estima-lock"
     },
     {
       "@type": "ListItem",
-      "position": 326,
+      "position": 325,
       "name": "Toe Hold from Honey Hole",
       "url": "https://bjjgraph.org/Submissions/from-honey-hole"
     },
     {
       "@type": "ListItem",
-      "position": 327,
+      "position": 326,
       "name": "Toe Hold from Inside Ashi-Garami",
       "url": "https://bjjgraph.org/Submissions/from-inside-ashi-garami"
     },
     {
       "@type": "ListItem",
-      "position": 328,
+      "position": 327,
       "name": "Toe Hold from Inside Sankaku",
       "url": "https://bjjgraph.org/Submissions/from-inside-sankaku"
     },
     {
       "@type": "ListItem",
-      "position": 329,
+      "position": 328,
       "name": "Toe Hold from Kneebar Control",
       "url": "https://bjjgraph.org/Submissions/from-kneebar-control"
     },
     {
       "@type": "ListItem",
-      "position": 330,
+      "position": 329,
       "name": "Toe Hold from Leg Entanglement",
       "url": "https://bjjgraph.org/Submissions/from-leg-entanglement"
     },
     {
       "@type": "ListItem",
-      "position": 331,
+      "position": 330,
       "name": "Toe Hold from Outside Ashi",
       "url": "https://bjjgraph.org/Submissions/from-outside-ashi"
     },
     {
       "@type": "ListItem",
-      "position": 332,
+      "position": 331,
       "name": "Toe Hold from Saddle",
       "url": "https://bjjgraph.org/Submissions/from-saddle"
     },
     {
       "@type": "ListItem",
-      "position": 333,
+      "position": 332,
       "name": "Toe Hold from Toe Hold Control",
       "url": "https://bjjgraph.org/Submissions/from-toe-hold-control"
     },
     {
       "@type": "ListItem",
-      "position": 334,
+      "position": 333,
       "name": "Toe Hold from Ushiro Ashi-Garami",
       "url": "https://bjjgraph.org/Submissions/from-ushiro-ashi-garami"
     },
     {
       "@type": "ListItem",
-      "position": 335,
+      "position": 334,
       "name": "Triangle Choke",
       "url": "https://bjjgraph.org/Submissions/triangle-choke"
     },
     {
       "@type": "ListItem",
-      "position": 336,
+      "position": 335,
       "name": "Triangle Choke Side",
       "url": "https://bjjgraph.org/Submissions/triangle-choke-side"
     },
     {
       "@type": "ListItem",
-      "position": 337,
+      "position": 336,
       "name": "Triangle Choke Side from Side Control",
       "url": "https://bjjgraph.org/Submissions/from-side-control"
     },
     {
       "@type": "ListItem",
-      "position": 338,
+      "position": 337,
       "name": "Triangle Choke from Closed Guard",
       "url": "https://bjjgraph.org/Submissions/from-closed-guard"
     },
     {
       "@type": "ListItem",
-      "position": 339,
+      "position": 338,
       "name": "Triangle Choke from Crackhead Control",
       "url": "https://bjjgraph.org/Submissions/from-crackhead-control"
     },
     {
       "@type": "ListItem",
-      "position": 340,
+      "position": 339,
       "name": "Triangle Choke from De La Riva",
       "url": "https://bjjgraph.org/Submissions/from-de-la-riva"
     },
     {
       "@type": "ListItem",
-      "position": 341,
+      "position": 340,
       "name": "Triangle Choke from Mounted Triangle",
       "url": "https://bjjgraph.org/Submissions/from-mounted-triangle"
     },
     {
       "@type": "ListItem",
-      "position": 342,
+      "position": 341,
       "name": "Triangle Choke from Open Guard",
       "url": "https://bjjgraph.org/Submissions/from-open-guard"
     },
     {
       "@type": "ListItem",
-      "position": 343,
+      "position": 342,
       "name": "Triangle Choke from Spider Guard",
       "url": "https://bjjgraph.org/Submissions/from-spider-guard"
     },
     {
       "@type": "ListItem",
-      "position": 344,
+      "position": 343,
       "name": "Triangle Choke from Triangle Control",
       "url": "https://bjjgraph.org/Submissions/from-triangle-control"
     },
     {
       "@type": "ListItem",
-      "position": 345,
+      "position": 344,
       "name": "Twister",
       "url": "https://bjjgraph.org/Submissions/twister"
     },
     {
       "@type": "ListItem",
-      "position": 346,
+      "position": 345,
       "name": "Twister from Cross Body Ride",
       "url": "https://bjjgraph.org/Submissions/from-cross-body-ride"
     },
     {
       "@type": "ListItem",
-      "position": 347,
+      "position": 346,
       "name": "Twister from Russian Cowboy",
       "url": "https://bjjgraph.org/Submissions/from-russian-cowboy"
     },
     {
       "@type": "ListItem",
-      "position": 348,
+      "position": 347,
       "name": "Twister from Twister Control",
       "url": "https://bjjgraph.org/Submissions/from-twister-control"
     },
     {
       "@type": "ListItem",
-      "position": 349,
+      "position": 348,
       "name": "Twister from Twister Side Control",
       "url": "https://bjjgraph.org/Submissions/from-twister-side-control"
     },
     {
       "@type": "ListItem",
-      "position": 350,
+      "position": 349,
       "name": "Von Flue Choke from Side Control",
       "url": "https://bjjgraph.org/Submissions/from-side-control"
     },
     {
       "@type": "ListItem",
-      "position": 351,
+      "position": 350,
       "name": "Williams Shoulder Lock",
       "url": "https://bjjgraph.org/Submissions/williams-shoulder-lock"
     },
     {
       "@type": "ListItem",
-      "position": 352,
+      "position": 351,
       "name": "Williams Shoulder Lock from Williams Guard",
       "url": "https://bjjgraph.org/Submissions/from-williams-guard"
     },
     {
       "@type": "ListItem",
-      "position": 353,
+      "position": 352,
       "name": "Wrist Lock",
       "url": "https://bjjgraph.org/Submissions/wrist-lock"
     }
@@ -2685,6 +2679,10 @@ Master the Darce choke from leg drag control in BJJ. Complete guide covering ent
 
 Master the Darce Choke from Overhook Control with expert finishing mechanics, defensive strategies, and training progressions for this arm triangle variant.
 
+### [[Submissions/Darce Choke/from Side Control|Darce Choke from Side Control]]
+
+Learn the D'Arce head-and-arm choke from Side Control, including the rolling Marce finish, early defenses, and progressive partner practice.
+
 ### [[Submissions/Darce Choke/from Twister Side Control|Darce Choke from Twister Side Control]]
 
 Master the Darce Choke from Twister Side Control with detailed finishing mechanics, defensive counters, and safety protocols for serious BJJ practitioners.
@@ -2813,10 +2811,6 @@ Heel Hook from Carni requires a separate leg entanglement. Carni traps an arm; h
 
 Master the heel hook from Cross Ashi-Garami with expert finishing mechanics, safety protocols, and defensive strategies for this high-percentage leg lock.
 
-### [[Submissions/Heel Hook/from Grasshopper Guard|Heel Hook from Grasshopper Guard]]
-
-Master the heel hook from grasshopper guard with inverted entry mechanics, leg entanglement transitions, finishing details, and essential safety protocols.
-
 ### [[Submissions/Heel Hook/from Honey Hole|Heel Hook from Honey Hole]]
 
 Master the heel hook finish from Honey Hole. Step-by-step guide with grip mechanics, rotational breaking details, safety protocols, and escape defense.
@@ -2828,6 +2822,10 @@ Master the heel hook from Inside Ashi-Garami with expert finishing mechanics, gr
 ### [[Submissions/Heel Hook/from Inside Sankaku|Heel Hook from Inside Sankaku]]
 
 Master the heel hook from Inside Sankaku position. Complete guide to grip mechanics, rotational finishing, defensive responses, and safe training protocols.
+
+### [[Submissions/Heel Hook/from Inverted Guard|Heel Hook from Inverted Guard]]
+
+Master the heel hook from inverted guard with inverted entry mechanics, leg entanglement transitions, finishing details, and essential safety protocols.
 
 ### [[Submissions/Heel Hook/from Kneebar Control|Heel Hook from Kneebar Control]]
 
@@ -3112,14 +3110,6 @@ Master the Loop Choke from Side Control in BJJ. Complete guide to gi collar setu
 ### [[Submissions/Loop Choke/from Turtle|Loop Choke from Turtle]]
 
 Master the loop choke from turtle in BJJ. Learn cross-collar grip mechanics, rolling finishes, and defensive counters for this high-percentage gi submission.
-
-### [[Submissions/Marce Choke|Marce Choke]]
-
-Master the Marce Choke in BJJ - a powerful gi-specific lapel choke from top positions. Complete setup, execution, defense, and safety protocols for competition.
-
-### [[Submissions/Marce Choke/from Side Control|Marce Choke from Side Control]]
-
-Master the Marce Choke in BJJ - powerful lapel choke from top positions. Setup, execution, defense, and safety protocols for gi competition.
 
 ### [[Submissions/Mir Lock|Mir Lock]]
 

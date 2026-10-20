@@ -16,7 +16,7 @@ description: "How to execute Sprawl and Disengage in BJJ. Attacking perspective 
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Sprawl and Disengage in BJJ",
-  "description": "Step-by-step guide for executing Sprawl and Disengage from Grasshopper Guard/Top.",
+  "description": "Step-by-step guide for executing Sprawl and Disengage from Inverted Guard/Top.",
   "step": [
     {
       "@type": "HowToStep",
@@ -79,7 +79,7 @@ description: "How to execute Sprawl and Disengage in BJJ. Attacking perspective 
       "name": "What position do you start Sprawl and Disengage from?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "This technique starts from Grasshopper Guard/Top, when you are standing or in combat base facing an opponent who is inverting into grasshopper guard or similar inverted guard position."
+        "text": "This technique starts from Inverted Guard/Top, when you are standing or in combat base facing an opponent who is inverting into inverted guard or similar inverted guard position."
       }
     },
     {
@@ -176,13 +176,13 @@ description: "How to execute Sprawl and Disengage in BJJ. Attacking perspective 
 
 <section id="overview" class="content-section">
 
-The Sprawl and Disengage is a fundamental defensive technique used when facing grasshopper guard and other inverted guard positions. When an opponent inverts and threatens leg entanglements, the sprawl creates immediate distance by driving your hips backward and down toward the mat, removing your legs from their attacking range before they can establish hooks or grips.
+The Sprawl and Disengage is a fundamental defensive technique used when facing inverted guard and other inverted guard positions. When an opponent inverts and threatens leg entanglements, the sprawl creates immediate distance by driving your hips backward and down toward the mat, removing your legs from their attacking range before they can establish hooks or grips.
 
 This technique prioritizes safety and position reset over direct passing. Rather than fighting through the inverted guard and risking leg entanglements, you recognize when engagement is unfavorable and strategically disengage to reset from standing. The sprawl mechanic—borrowed from wrestling defense—is adapted here specifically to counter the elevation and leg control attempts inherent to inverted guards.
 
-From a systematic perspective, the Sprawl and Disengage represents intelligent risk management. When facing a skilled grasshopper guard player, attempting to pass through their legs often results in rolling kneebars, ankle locks, or 50-50 entanglements. By disengaging cleanly, you deny them the leg contact they need while maintaining top position and the ability to re-engage on your terms. The technique is particularly valuable in competition where conceding points for a sweep is far worse than resetting to neutral standing.
+From a systematic perspective, the Sprawl and Disengage represents intelligent risk management. When facing a skilled inverted guard player, attempting to pass through their legs often results in rolling kneebars, ankle locks, or 50-50 entanglements. By disengaging cleanly, you deny them the leg contact they need while maintaining top position and the ability to re-engage on your terms. The technique is particularly valuable in competition where conceding points for a sweep is far worse than resetting to neutral standing.
 
-**From Position**: [[Positions/Grasshopper Guard]] (Top)
+**From Position**: [[Positions/Inverted Guard]] (Top)
 
 </section>
 
@@ -211,7 +211,7 @@ From a systematic perspective, the Sprawl and Disengage represents intelligent r
 <p class="section-subtitle">What do you need before attempting Sprawl and Disengage?</p>
 
 - Standing or combat base position with at least one leg partially engaged with opponent's guard
-- Recognition that opponent is attempting to establish grasshopper guard or similar inverted position
+- Recognition that opponent is attempting to establish inverted guard or similar inverted position
 - No existing deep leg entanglement or hook already secured behind knee
 - Sufficient balance to execute hip extension without losing base
 
@@ -241,7 +241,7 @@ From a systematic perspective, the Sprawl and Disengage represents intelligent r
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[Positions/Standing Position]] | 65% |
-| Failure | [[Positions/Grasshopper Guard]] | 25% |
+| Failure | [[Positions/Inverted Guard]] | 25% |
 | Counter | [[Positions/X-Guard/Single Leg X-Guard]] | 10% |
 
 
@@ -253,9 +253,9 @@ From a systematic perspective, the Sprawl and Disengage represents intelligent r
 
 <p class="section-subtitle">How might your opponent counter Sprawl and Disengage?</p>
 
-- **Opponent follows with inversion roll to reestablish contact** (Effectiveness: High) - Your Response: Continue circling away and make them expend energy chasing. Their inverted position is unsustainable—patience wins. → Leads to [[Positions/Grasshopper Guard]]
+- **Opponent follows with inversion roll to reestablish contact** (Effectiveness: High) - Your Response: Continue circling away and make them expend energy chasing. Their inverted position is unsustainable—patience wins. → Leads to [[Positions/Inverted Guard]]
 - **Opponent shoots for single leg as you disengage** (Effectiveness: Medium) - Your Response: Sprawl deeper and crossface to prevent them from getting underneath your hips. Their transition from inversion to shot creates vulnerability. → Leads to [[Positions/X-Guard/Single Leg X-Guard]]
-- **Opponent grabs ankle before you can fully extract** (Effectiveness: Medium) - Your Response: Continue hip extension while stripping grip with opposite hand. Pull leg in circular motion rather than straight back to break grip angle. → Leads to [[Positions/Grasshopper Guard]]
+- **Opponent grabs ankle before you can fully extract** (Effectiveness: Medium) - Your Response: Continue hip extension while stripping grip with opposite hand. Pull leg in circular motion rather than straight back to break grip angle. → Leads to [[Positions/Inverted Guard]]
 - **Opponent uses momentum to come up to seated guard** (Effectiveness: Low) - Your Response: This is actually favorable—they've abandoned their inverted attack system for a more neutral position you can engage directly. → Leads to [[Positions/Standing Position]]
 
 
@@ -306,7 +306,7 @@ From a systematic perspective, the Sprawl and Disengage represents intelligent r
 Practice sprawl motion in isolation—partner elevates hips while you focus on explosive hip extension, hand posting, and leg extraction. No resistance, pure mechanics drilling.
 
 **Week 3-4** - Recognition timing
-Partner varies between committing to grasshopper and faking inversion. Develop recognition of when sprawl is needed versus when other passing options exist. Light resistance on successful reads.
+Partner varies between committing to inverted and faking inversion. Develop recognition of when sprawl is needed versus when other passing options exist. Light resistance on successful reads.
 
 **Week 5-6** - Follow-up sequences
 Partner actively follows after your sprawl with inversions and shot attempts. Practice chaining sprawl with re-engagement, circling, and secondary pass attempts. Medium resistance throughout.

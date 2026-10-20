@@ -4,7 +4,7 @@
 
 ---
 title: "Back Step Pass Attacker | BJJ Technique Guide | BJJ Graph"
-description: "How to execute Back Step Pass in BJJ. Attacking perspective with setup, execution steps, and counters for passing Grasshopper Guard."
+description: "How to execute Back Step Pass in BJJ. Attacking perspective with setup, execution steps, and counters for passing Inverted Guard."
 ---
 
 
@@ -16,7 +16,7 @@ description: "How to execute Back Step Pass in BJJ. Attacking perspective with s
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Back Step Pass in BJJ",
-  "description": "Step-by-step guide for executing Back Step Pass from Grasshopper Guard/Top.",
+  "description": "Step-by-step guide for executing Back Step Pass from Inverted Guard/Top.",
   "step": [
     {
       "@type": "HowToStep",
@@ -85,7 +85,7 @@ description: "How to execute Back Step Pass in BJJ. Attacking perspective with s
       "name": "What position do you start Back Step Pass from?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The Back Step Pass starts from Grasshopper Guard/Top, when the bottom player's inverted legwork threatens your lower limbs. Specifically, it is triggered when their inverted posture and leg configurations are threatening to establish hooks, threads, or rotational attacks on your legs."
+        "text": "The Back Step Pass starts from Inverted Guard/Top, when the bottom player's inverted legwork threatens your lower limbs. Specifically, it is triggered when their inverted posture and leg configurations are threatening to establish hooks, threads, or rotational attacks on your legs."
       }
     },
     {
@@ -130,7 +130,7 @@ description: "How to execute Back Step Pass in BJJ. Attacking perspective with s
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Back Step Pass Attacker",
-  "description": "How to execute Back Step Pass in BJJ. Attacking perspective with setup, execution steps, and counters for passing Grasshopper Guard.",
+  "description": "How to execute Back Step Pass in BJJ. Attacking perspective with setup, execution steps, and counters for passing Inverted Guard.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -182,13 +182,13 @@ description: "How to execute Back Step Pass in BJJ. Attacking perspective with s
 
 <section id="overview" class="content-section">
 
-The Back Step Pass is a critical guard passing technique used to escape leg entanglement danger when facing inverted guards like Grasshopper Guard. Unlike forward-pressure passes that feed into the bottom player's sweeping and leg attack mechanics, the back step uses retrograde movement to extract your leg from entanglement while simultaneously creating a passing angle toward side control.
+The Back Step Pass is a critical guard passing technique used to escape leg entanglement danger when facing inverted guards like Inverted Guard. Unlike forward-pressure passes that feed into the bottom player's sweeping and leg attack mechanics, the back step uses retrograde movement to extract your leg from entanglement while simultaneously creating a passing angle toward side control.
 
 This technique operates on a fundamental principle: when your leg becomes endangered by hooks, threads, or rotational attacks, stepping backward removes the lever the opponent needs to complete their technique. The back step is not merely a defensive retreat—it's a positional repositioning that converts defensive necessity into passing opportunity. As your stepping leg clears the entanglement zone, your weight shifts forward over the opponent's torso, flattening their inverted posture and establishing the perpendicular alignment characteristic of side control.
 
-The back step is particularly valuable against modern leg lock systems where practitioners use inversions to access heel hooks and kneebars. Against a skilled grasshopper guard player, the window for executing this pass is narrow—you must recognize the entanglement attempt early and initiate the back step before they can fully establish control. Timing the back step to coincide with their inversion transition maximizes success probability, as their legs are temporarily in flux between configurations.
+The back step is particularly valuable against modern leg lock systems where practitioners use inversions to access heel hooks and kneebars. Against a skilled inverted guard player, the window for executing this pass is narrow—you must recognize the entanglement attempt early and initiate the back step before they can fully establish control. Timing the back step to coincide with their inversion transition maximizes success probability, as their legs are temporarily in flux between configurations.
 
-**From Position**: [[Positions/Grasshopper Guard]] (Top)
+**From Position**: [[Positions/Inverted Guard]] (Top)
 
 </section>
 
@@ -217,7 +217,7 @@ The back step is particularly valuable against modern leg lock systems where pra
 
 <p class="section-subtitle">What do you need before attempting Back Step Pass?</p>
 
-- Standing or low combat base position facing opponent's grasshopper guard
+- Standing or low combat base position facing opponent's inverted guard
 - Recognition that one leg is becoming endangered by hook or threading attempt
 - Sufficient space behind the endangered leg to step backward without obstruction
 - Weight distributed to allow quick transfer between legs during movement
@@ -250,7 +250,7 @@ The back step is particularly valuable against modern leg lock systems where pra
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[Positions/Side Control]] | 65% |
-| Failure | [[Positions/Grasshopper Guard]] | 25% |
+| Failure | [[Positions/Inverted Guard]] | 25% |
 | Counter | [[Positions/Ashi Garami]] | 10% |
 
 
@@ -262,10 +262,10 @@ The back step is particularly valuable against modern leg lock systems where pra
 
 <p class="section-subtitle">How might your opponent counter Back Step Pass?</p>
 
-- **Following with inversion - opponent rolls and reinverts to chase your retreating leg** (Effectiveness: High) - Your Response: Accelerate your forward drive as they begin rolling, using their momentum to flatten them. Establish crossface before they can complete the reinversion. → Leads to [[Positions/Grasshopper Guard]]
+- **Following with inversion - opponent rolls and reinverts to chase your retreating leg** (Effectiveness: High) - Your Response: Accelerate your forward drive as they begin rolling, using their momentum to flatten them. Establish crossface before they can complete the reinversion. → Leads to [[Positions/Inverted Guard]]
 - **Shooting legs through - opponent threads their legs underneath as you back step** (Effectiveness: Medium) - Your Response: Pin their legs to the mat with your hands as you extract, preventing them from following. Sprawl your hips if they manage to get underneath. → Leads to [[Positions/Ashi Garami]]
-- **Technical standup - opponent abandons guard and comes up to standing as you disengage** (Effectiveness: Medium) - Your Response: Recognize their standup attempt early and either complete the pass before they can rise or reset to wrestling engagement at standing. → Leads to [[Positions/Grasshopper Guard]]
-- **Reverse De La Riva recovery - opponent switches to RDLR hook as you circle** (Effectiveness: Low) - Your Response: Continue circling in the same direction and use knee slice mechanics to cut through the RDLR hook before it's fully established. → Leads to [[Positions/Grasshopper Guard]]
+- **Technical standup - opponent abandons guard and comes up to standing as you disengage** (Effectiveness: Medium) - Your Response: Recognize their standup attempt early and either complete the pass before they can rise or reset to wrestling engagement at standing. → Leads to [[Positions/Inverted Guard]]
+- **Reverse De La Riva recovery - opponent switches to RDLR hook as you circle** (Effectiveness: Low) - Your Response: Continue circling in the same direction and use knee slice mechanics to cut through the RDLR hook before it's fully established. → Leads to [[Positions/Inverted Guard]]
 
 
 </section>
@@ -317,7 +317,7 @@ The back step is particularly valuable against modern leg lock systems where pra
 <p class="section-subtitle">How do you train Back Step Pass (Attacker)?</p>
 
 **Week 1-2** - Mechanics isolation
-Practice the back step motion without resistance. Partner holds static grasshopper guard while you drill the stepping pattern, weight transfer, and direction of movement. Focus on building muscle memory for the 45-degree angle extraction.
+Practice the back step motion without resistance. Partner holds static inverted guard while you drill the stepping pattern, weight transfer, and direction of movement. Focus on building muscle memory for the 45-degree angle extraction.
 
 **Week 3-4** - Timing recognition
 Partner actively attempts leg entanglements at 30-50% speed. Practice recognizing the optimal moment to initiate back step based on their leg positioning and movement patterns. Develop anticipation skills.
@@ -329,7 +329,7 @@ Partner attempts to counter your back step with following inversions, technical 
 Integrate back step with leg drag and knee slice follow-ups. When initial back step clears entanglement but opponent recovers partial guard, flow into secondary passing techniques. Develop a complete passing sequence.
 
 **Week 9+** - Live application
-Incorporate back step into live rolling and specific training. Start from grasshopper guard scenarios and attempt to successfully pass using the back step against fully resisting partners. Refine timing under pressure.
+Incorporate back step into live rolling and specific training. Start from inverted guard scenarios and attempt to successfully pass using the back step against fully resisting partners. Refine timing under pressure.
 
 
 

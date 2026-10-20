@@ -1,0 +1,493 @@
+{
+  "name": "Darce Choke from Side Control",
+  "description": "Learn the D'Arce head-and-arm choke from Side Control, including the rolling Marce finish, early defenses, and progressive partner practice.",
+  "tags": [
+    "bjj",
+    "submission",
+    "darce-choke",
+    "head-and-arm-choke",
+    "side-control",
+    "gi",
+    "no-gi"
+  ],
+  "submission_category": "Choke",
+  "submission_type": "Blood Choke",
+  "target_area": "Sides of the neck, with the trapped shoulder completing the head-and-arm choke",
+  "starting_position": "Side Control",
+  "from_position": "Side Control/Top",
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
+  "summary": "The D'Arce Choke from Side Control traps the opponent's arm beside their neck with an under-armpit thread and figure-four grip; the named Marce variation finishes by rolling onto the shoulder while retaining that connection.",
+  "overview": "From Side Control, the D'Arce becomes available when the opponent's turn or frame opens a path under an armpit and around the neck. Thread the choking arm through that opening, connect a figure-four grip on your own upper arm, and bring the trapped shoulder toward the neck as you adjust the finishing angle.\n\nMarce is a named D'Arce-family finish: move close to the opponent's hip and roll or dive onto the shoulder while keeping the head and arm contained. The choking structure remains a head-and-arm connection. It does not use a lapel as a ligature. It can be practiced in gi and no-gi, and is more commonly taught in no-gi.\n\nThe same family is taught from front headlock and half-guard exchanges. This entry's canonical start remains Side Control/Top; the alternative origins shown in companion lessons do not add graph origins or change this entry's outcome table.",
+  "safety_considerations": {
+    "injury_risks": [
+      {
+        "injury": "Loss of consciousness from neck compression",
+        "severity": "CRITICAL",
+        "recovery_time": "Stop training; obtain medical assessment if consciousness is lost"
+      },
+      {
+        "injury": "Neck or shoulder strain from forced rotation",
+        "severity": "High",
+        "recovery_time": "Varies with injury; persistent pain requires assessment"
+      }
+    ],
+    "application_speed": "Slow, progressive pressure with a clear opportunity to tap",
+    "tap_signals": [
+      "Physical hand tap",
+      "Verbal tap or stop",
+      "Foot tap",
+      "Any distress or loss of responsiveness"
+    ],
+    "release_protocol": [
+      "Open the figure-four immediately on a tap or distress",
+      "Release neck and shoulder pressure before changing position",
+      "Stop the drill and check the partner before continuing"
+    ],
+    "training_restrictions": [
+      "Practice the shoulder roll cooperatively before adding resistance",
+      "Do not wrench the neck or force a roll through a trapped shoulder",
+      "Keep a clear tap signal available throughout the movement"
+    ]
+  },
+  "outcomes": [
+    {
+      "to": "game-over",
+      "probability": {
+        "gi": 58,
+        "nogi": 58
+      },
+      "result": "success"
+    },
+    {
+      "to": "Side Control/Top",
+      "probability": {
+        "gi": 27,
+        "nogi": 27
+      },
+      "result": "failure"
+    },
+    {
+      "to": "Half Guard/Bottom",
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
+      "result": "counter"
+    }
+  ],
+  "from_positions": [
+    "Side Control",
+    "Half Guard",
+    "Front Headlock"
+  ],
+  "related_submissions": [
+    "Darce Choke",
+    "Anaconda Choke",
+    "Arm Triangle",
+    "Brabo Choke"
+  ],
+  "related_content": [
+    {
+      "name": "Side Control",
+      "relationship": "Canonical origin for this head-and-arm entry"
+    },
+    {
+      "name": "Darce Control",
+      "relationship": "The secured D'Arce grip configuration before a finish"
+    },
+    {
+      "name": "Darce Choke",
+      "relationship": "Parent family including the named rolling Marce variation"
+    },
+    {
+      "name": "Anaconda Choke",
+      "relationship": "Related head-and-arm choke with a different threading direction"
+    }
+  ],
+  "attacker": {
+    "name": "Darce Choke from Side Control (Attacker)",
+    "description": "Thread and finish the D'Arce from Side Control, with a controlled Marce shoulder-roll option.",
+    "overview": "Contain the opponent's head and arm before committing to the finish. The choking arm travels under the armpit and around the neck; your other arm closes the figure-four. Keep the trapped shoulder connected as you change angle. For the Marce variation, bring the hips close and roll onto the shoulder without letting the arm escape.",
+    "key_principles": [
+      "Secure the head-and-arm connection before adding pressure",
+      "Thread under the armpit and around the neck without forcing the cervical spine",
+      "Close the figure-four with your own upper arm and keep the elbows connected",
+      "Retain the opponent's shoulder beside the neck as you change angle",
+      "Use a controlled shoulder roll for the Marce finish while maintaining hip proximity",
+      "Release pressure immediately when the partner taps or shows distress"
+    ],
+    "setup_requirements": [
+      "Side Control/Top with access to the opponent's head and near upper body",
+      "An opening under the armpit and around the neck",
+      "The opponent's arm contained beside their head rather than free to withdraw",
+      "Enough room to adjust the finishing angle without forcing a trapped joint"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Recognize the opening",
+        "description": "Follow the opponent's turn or frame from Side Control while keeping the head and shoulder within reach."
+      },
+      {
+        "step_number": 2,
+        "action": "Thread the choking arm",
+        "description": "Pass the arm under the armpit and around the neck, keeping the opponent's arm inside the head-and-arm loop."
+      },
+      {
+        "step_number": 3,
+        "action": "Connect the figure-four",
+        "description": "Reach your choking hand to your own opposite upper arm and place the supporting hand to keep the structure closed."
+      },
+      {
+        "step_number": 4,
+        "action": "Contain the trapped shoulder",
+        "description": "Bring the opponent's shoulder toward the side of the neck while closing unnecessary space in the loop."
+      },
+      {
+        "step_number": 5,
+        "action": "Choose the finishing angle",
+        "description": "Maintain the connection as you adjust your body angle. For Marce, move hip to hip and roll onto the shoulder without pulling the neck through the turn."
+      },
+      {
+        "step_number": 6,
+        "action": "Apply and release progressively",
+        "description": "Close the elbows and add gradual pressure through the connected head-and-arm structure. Open the grip immediately on the partner's tap or distress."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent extracts the trapped arm before the grip closes",
+        "effectiveness": "High",
+        "your_response": "Recover Side Control and rebuild the opening without chasing an empty neck grip",
+        "targets_outcome": "Side Control/Top"
+      },
+      {
+        "counter": "Opponent frames and creates space during the angle change",
+        "effectiveness": "Medium",
+        "your_response": "Follow the shoulder connection or release the attempt and stabilize Side Control",
+        "targets_outcome": "Side Control/Top"
+      },
+      {
+        "counter": "Opponent disrupts the roll and reverses the exchange",
+        "effectiveness": "Medium",
+        "your_response": "Release the neck as the connection fails and establish defensive frames from the resulting guard position",
+        "targets_outcome": "Half Guard/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Threading without trapping the arm",
+        "consequence": "The shoulder cannot complete the head-and-arm structure",
+        "correction": "Contain the arm beside the neck before closing the grip"
+      },
+      {
+        "error": "Squeezing before closing the space",
+        "consequence": "The arms fatigue while the opponent can recover posture",
+        "correction": "Adjust the shoulder and figure-four connection before adding pressure"
+      },
+      {
+        "error": "Treating Marce as a lapel choke",
+        "consequence": "The grip sequence no longer matches the named variation",
+        "correction": "Use the D'Arce arm thread and shoulder-roll finish in either ruleset"
+      },
+      {
+        "error": "Rolling while the hip connection is loose",
+        "consequence": "The opponent can withdraw the trapped arm or reverse the exchange",
+        "correction": "Bring the hips close and preserve the loop through a slow roll"
+      },
+      {
+        "error": "Forcing the head through the finishing angle",
+        "consequence": "The action loads the neck instead of improving the choke structure",
+        "correction": "Reduce pressure, correct the angle, and reset if the connection is unavailable"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Threading",
+        "focus": "Head-and-arm identification",
+        "description": "With a cooperative partner, find the armpit-to-neck channel from Side Control and close the figure-four without pressure."
+      },
+      {
+        "phase": "Phase 2: Connection",
+        "focus": "Shoulder containment",
+        "description": "Practice preserving the trapped shoulder as the partner slowly changes their frame and posture; reset when the arm escapes."
+      },
+      {
+        "phase": "Phase 3: Marce Roll",
+        "focus": "Controlled shoulder movement",
+        "description": "Move hip to hip and rehearse the shoulder roll slowly with no finishing pressure, keeping the neck and shoulder free of forced rotation."
+      },
+      {
+        "phase": "Phase 4: Choice and Release",
+        "focus": "Angle selection and tap response",
+        "description": "Alternate the standard angle and Marce option against light positional resistance, adding pressure only after agreement and releasing on the first signal."
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "What structure defines the D'Arce from Side Control?",
+        "answer": "The choking arm passes under the armpit and around the neck, trapping an arm inside a figure-four head-and-arm loop.",
+        "answer_line": "Under-armpit head-and-arm loop",
+        "distractors": {
+          "plausible": [
+            "Lapel fed across the neck",
+            "Neck-only guillotine grip"
+          ],
+          "trap": [
+            "Pull the head without trapping an arm"
+          ]
+        }
+      },
+      {
+        "question": "What makes the Marce a named D'Arce variation?",
+        "answer": "The attacker keeps the D'Arce connection while moving hip to hip and rolling onto the shoulder to finish.",
+        "answer_line": "D'Arce connection with a shoulder roll",
+        "distractors": {
+          "plausible": [
+            "A far-lapel ligature",
+            "A reverse guillotine grip"
+          ],
+          "trap": [
+            "Any choke finished from the back"
+          ]
+        }
+      },
+      {
+        "question": "In which rulesets can the Marce variation exist?",
+        "answer": "Its arm-and-shoulder mechanics can be used with or without a gi. It is more commonly taught in no-gi and does not depend on a lapel grip.",
+        "answer_line": "Both; more common in no-gi",
+        "distractors": {
+          "plausible": [
+            "Only gi with a lapel",
+            "Only no-gi by equipment necessity"
+          ],
+          "trap": [
+            "The name determines competition legality"
+          ]
+        }
+      },
+      {
+        "question": "What must remain connected during the Marce roll?",
+        "answer": "Keep the head and trapped arm inside the loop, maintain shoulder containment, and keep the hips close while rotating onto the shoulder.",
+        "answer_line": "Head, arm and hip connection",
+        "distractors": {
+          "plausible": [
+            "Loose hips with a hard neck pull",
+            "Release the trapped arm first"
+          ],
+          "trap": [
+            "Roll as fast as possible"
+          ]
+        }
+      },
+      {
+        "question": "What should you do if the arm slips out?",
+        "answer": "Release the failed choke structure and recover positional control. A neck-only grip is not the same attempt.",
+        "answer_line": "Reset and recover control",
+        "distractors": {
+          "plausible": [
+            "Squeeze the empty loop harder",
+            "Pull the neck to replace the arm"
+          ],
+          "trap": [
+            "Force the finish through the escape"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "ukb_hx28qsM",
+        "title": "Side Control D'Arce Choke (No Gi)",
+        "by": "ZombieProofBJJ",
+        "vertical": false,
+        "channel": "ZombieProofBJJ",
+        "duration": 74,
+        "verified": "2026-07-14",
+        "front": true
+      },
+      {
+        "id": "hCiHjCbhGyE",
+        "title": "1 Minute Jiu-Jitsu Hack: Marce Choke",
+        "by": "Brandon McCaghren",
+        "vertical": false,
+        "channel": "Brandon Mccaghren",
+        "duration": 67,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "1jsDC-jaPoU",
+        "title": "Marce Choke",
+        "by": "Colemans Electric",
+        "vertical": false,
+        "channel": "Colemans Electric",
+        "duration": 78,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "Mp7Ffm85k0A",
+        "title": "Knee Flare Marce Choke Detail",
+        "by": "Drew Darce",
+        "vertical": false,
+        "channel": "Drew Darce",
+        "duration": 113,
+        "verified": "2026-07-14"
+      }
+    ]
+  },
+  "defender": {
+    "name": "Darce Choke from Side Control (Defender)",
+    "description": "Recognize the D'Arce thread and protect the head-and-arm connection before the standard or Marce finish closes.",
+    "overview": "Respond as the arm threads under your armpit toward the neck. Keep room around the trapped shoulder and address the connecting grip before the attacker changes angle. A shoulder roll does not make a secured choke harmless; use the tap if pressure closes before you can restore space.",
+    "key_principles": [
+      "Recognize the under-armpit thread before the figure-four closes",
+      "Preserve space around the trapped shoulder and neck",
+      "Address the connecting grip before attempting a large positional movement",
+      "Follow the changing angle without forcing the neck against the grip",
+      "Recover guard or frames only after the choke connection is disrupted",
+      "Tap early when the structure is secured and pressure increases"
+    ],
+    "recognition_cues": [
+      "An arm travels beneath your armpit toward the far side of your neck",
+      "The attacker reaches toward their own upper arm to close a figure-four",
+      "Your trapped shoulder is drawn toward the side of your neck",
+      "The attacker brings their hips close and drops toward a shoulder-roll angle"
+    ],
+    "defensive_options": [
+      {
+        "action": "Block the threading arm and recover space around your shoulder",
+        "when_to_use": "Before the figure-four connection is complete",
+        "targets_outcome": "Side Control/Top",
+        "if_successful": "The choke attempt ends while the attacker remains in Side Control/Top",
+        "risk": "Waiting until the shoulder is compressed leaves less room to move"
+      },
+      {
+        "action": "Address the connecting grip while recovering your trapped arm",
+        "when_to_use": "The attacker is closing the grip but the arm can still be withdrawn",
+        "targets_outcome": "Side Control/Top",
+        "if_successful": "The head-and-arm loop opens and positional defense can resume",
+        "risk": "Pulling the neck against an already secured loop can worsen pressure"
+      },
+      {
+        "action": "Use the disrupted rolling exchange to come on top after freeing the neck",
+        "when_to_use": "The Marce roll loses its head-and-arm connection",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "The attacker lands in Half Guard/Bottom and you recover the top side",
+        "risk": "Attempting a reversal before the neck is free can tighten the choke"
+      }
+    ],
+    "escape_paths": [
+      "Deny the early thread or extract the trapped arm, then rebuild Side Control frames",
+      "Disrupt the grip before the roll and recover guard or the top side as the actual exchange permits"
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Side Control/Top",
+        "how": "Remove the submission connection; this table records the attacker's remaining top position, after which normal Side Control defense resumes"
+      },
+      {
+        "outcome": "Half Guard/Bottom",
+        "how": "Free the head-and-arm connection during a failed roll and reverse the exchange, leaving the attacker on the bottom side of Half Guard"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Ignoring the arm thread while trying to bridge",
+        "consequence": "The attacker can close the figure-four around the moving head and shoulder",
+        "correction": "Address the choke connection before continuing the positional escape"
+      },
+      {
+        "error": "Assuming a rolling finish requires a lapel",
+        "consequence": "The defender misses the Marce head-and-arm threat in either ruleset",
+        "correction": "Recognize the D'Arce grip and shoulder-roll angle"
+      },
+      {
+        "error": "Forcing a turn after pressure has closed",
+        "consequence": "The trapped head and shoulder can take more load",
+        "correction": "Tap when the structure is secured rather than forcing movement through it"
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "What is the earliest D'Arce warning from Side Control?",
+        "answer": "An arm threads under your armpit toward the neck while your shoulder is drawn inward. Respond before the figure-four closes.",
+        "answer_line": "Under-armpit thread toward the neck",
+        "distractors": {
+          "plausible": [
+            "A hand reaches for a lapel",
+            "The attacker merely changes base"
+          ],
+          "trap": [
+            "Wait until the squeeze begins"
+          ]
+        }
+      },
+      {
+        "question": "What changes when the attacker uses the Marce finish?",
+        "answer": "The attacker moves close to the hip and rolls onto the shoulder while keeping the same head-and-arm connection. The grip still needs to be addressed.",
+        "answer_line": "A shoulder roll retains the D'Arce grip",
+        "distractors": {
+          "plausible": [
+            "The choke becomes a lapel wrap",
+            "The trapped arm is released"
+          ],
+          "trap": [
+            "The roll automatically frees the neck"
+          ]
+        }
+      },
+      {
+        "question": "When should you resume a positional escape?",
+        "answer": "After the head-and-arm connection is disrupted and the neck has space. If it remains secured under pressure, tap instead of forcing the escape.",
+        "answer_line": "After disrupting the choke connection",
+        "distractors": {
+          "plausible": [
+            "Before addressing the threading arm",
+            "Only after a full-speed roll"
+          ],
+          "trap": [
+            "Keep moving through a secured choke"
+          ]
+        }
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition",
+        "focus": "Early thread cues",
+        "description": "The partner alternates ordinary Side Control grips with a slow D'Arce thread; identify the attempt before the figure-four closes."
+      },
+      {
+        "phase": "Phase 2: Space Recovery",
+        "focus": "Arm and grip defense",
+        "description": "Use a cooperative open grip to rehearse preserving shoulder space and withdrawing the trapped arm, resetting before pressure is applied."
+      },
+      {
+        "phase": "Phase 3: Rolling Exchange",
+        "focus": "Marce recognition and release",
+        "description": "Rehearse a slow shoulder roll without squeeze, identifying when the connection remains intact and when it breaks; practice a clear tap and immediate release."
+      }
+    ],
+    "clips": []
+  },
+  "variations_and_setups": [
+    {
+      "variation_name": "Side Control D'Arce",
+      "description": "Use the opening made by a turn or frame to thread under the armpit and around the neck, connect the figure-four, and adjust your angle while containing the head and arm.",
+      "when_to_use": "A Side Control exchange exposes the armpit-to-neck channel"
+    },
+    {
+      "variation_name": "Marce Choke (Rolling D'Arce)",
+      "description": "Keep the D'Arce head-and-arm connection, move hip to hip, and roll onto the shoulder to finish with the grip close to your torso and the elbows closing.",
+      "when_to_use": "The shoulder-roll angle is available without losing the trapped arm; usable in gi and more common in no-gi"
+    },
+    {
+      "variation_name": "Turn-In Entry",
+      "description": "Follow an opponent turning toward you while keeping their shoulder and head contained, then thread the choking arm through the available opening.",
+      "when_to_use": "The opponent turns toward the passer during Side Control recovery"
+    }
+  ]
+}

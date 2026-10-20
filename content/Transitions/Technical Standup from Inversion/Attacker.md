@@ -16,7 +16,7 @@ description: "How to execute Technical Standup from Inversion in BJJ. Attacking 
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Technical Standup from Inversion in BJJ",
-  "description": "Step-by-step guide for executing Technical Standup from Inversion from Grasshopper Guard/Bottom.",
+  "description": "Step-by-step guide for executing Technical Standup from Inversion from Inverted Guard/Bottom.",
   "step": [
     {
       "@type": "HowToStep",
@@ -77,7 +77,7 @@ description: "How to execute Technical Standup from Inversion in BJJ. Attacking 
       "name": "What is the primary goal of Technical Standup from Inversion?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The primary goal is to safely transition from the inverted grasshopper guard position to a standing open guard engagement when the inversion is no longer tactically advantageous. This preserves offensive initiative by establishing a sustainable standing guard rather than exhausting energy in an inverted position that has diminishing returns."
+        "text": "The primary goal is to safely transition from the inverted inverted guard position to a standing open guard engagement when the inversion is no longer tactically advantageous. This preserves offensive initiative by establishing a sustainable standing guard rather than exhausting energy in an inverted position that has diminishing returns."
       }
     },
     {
@@ -85,7 +85,7 @@ description: "How to execute Technical Standup from Inversion in BJJ. Attacking 
       "name": "What position do you start Technical Standup from Inversion from?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "This technique starts from Grasshopper Guard/Bottom, where the practitioner is inverted with shoulders on the mat and hips elevated. The inverted posture with legs oriented toward the standing opponent provides the starting configuration for the hip rotation and standup sequence."
+        "text": "This technique starts from Inverted Guard/Bottom, where the practitioner is inverted with shoulders on the mat and hips elevated. The inverted posture with legs oriented toward the standing opponent provides the starting configuration for the hip rotation and standup sequence."
       }
     },
     {
@@ -98,7 +98,7 @@ description: "How to execute Technical Standup from Inversion in BJJ. Attacking 
     },
     {
       "@type": "Question",
-      "name": "When is the optimal timing window to initiate the technical standup from grasshopper guard?",
+      "name": "When is the optimal timing window to initiate the technical standup from inverted guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The optimal window is when the opponent retreats beyond effective hooking range or establishes a wide defensive base that prevents leg entanglement. Additional triggers include recognizing personal fatigue that will soon compromise hip elevation, or when the opponent has successfully cleared all leg hooks and is beginning to disengage. Initiating during these moments ensures the standup faces minimal resistance."
@@ -182,13 +182,13 @@ description: "How to execute Technical Standup from Inversion in BJJ. Attacking 
 
 <section id="overview" class="content-section">
 
-The Technical Standup from Inversion is a critical transitional skill that allows a grasshopper guard player to safely exit the inverted position and return to a standing open guard engagement. When the opponent disengages or creates too much distance for effective leg attacks from grasshopper guard, remaining inverted becomes a liability rather than an asset. This technique bridges the gap between the high-energy inverted posture and a sustainable standing guard where the practitioner can reset their offensive options.
+The Technical Standup from Inversion is a critical transitional skill that allows a inverted guard player to safely exit the inverted position and return to a standing open guard engagement. When the opponent disengages or creates too much distance for effective leg attacks from inverted guard, remaining inverted becomes a liability rather than an asset. This technique bridges the gap between the high-energy inverted posture and a sustainable standing guard where the practitioner can reset their offensive options.
 
 The movement requires coordinating a hip-over-shoulder rotation with precise posting mechanics to avoid exposing the back or collapsing into a vulnerable position during the transition. Unlike a standard technical standup from seated guard, the inverted starting point adds complexity because the practitioner must first rotate their hips underneath them before establishing the posting base. The inversion creates momentum that, when properly channeled, actually accelerates the standup sequence rather than hindering it.
 
-Strategically, this technique serves as the essential exit valve for grasshopper guard. Without a reliable standup pathway, the grasshopper player becomes trapped in a position that drains energy rapidly. Knowing when to abandon the inversion and come up to feet is often what separates effective grasshopper guard players from those who exhaust themselves chasing submissions from disadvantageous angles. The technique is most effective when the opponent retreats to a wide base or when fatigue begins compromising hip elevation, and it preserves offensive initiative by transitioning to a standing open guard rather than conceding position.
+Strategically, this technique serves as the essential exit valve for inverted guard. Without a reliable standup pathway, the inverted player becomes trapped in a position that drains energy rapidly. Knowing when to abandon the inversion and come up to feet is often what separates effective inverted guard players from those who exhaust themselves chasing submissions from disadvantageous angles. The technique is most effective when the opponent retreats to a wide base or when fatigue begins compromising hip elevation, and it preserves offensive initiative by transitioning to a standing open guard rather than conceding position.
 
-**From Position**: [[Positions/Grasshopper Guard]] (Bottom)
+**From Position**: [[Positions/Inverted Guard]] (Bottom)
 
 </section>
 
@@ -217,7 +217,7 @@ Strategically, this technique serves as the essential exit valve for grasshopper
 
 <p class="section-subtitle">What do you need before attempting Technical Standup from Inversion?</p>
 
-- Established grasshopper guard position with shoulders and upper back on the mat and hips elevated
+- Established inverted guard position with shoulders and upper back on the mat and hips elevated
 - Opponent at sufficient distance that immediate leg entanglement is not available, typically standing with wide base or actively retreating
 - At least one hand free from grips to serve as posting base during the standup sequence
 - Core still engaged enough to generate the hip rotation needed to bring hips underneath the body
@@ -251,7 +251,7 @@ Strategically, this technique serves as the essential exit valve for grasshopper
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[Positions/Open Guard]] | 55% |
-| Failure | [[Positions/Grasshopper Guard]] | 30% |
+| Failure | [[Positions/Inverted Guard]] | 30% |
 | Counter | [[Positions/Headquarters Position]] | 15% |
 
 
@@ -263,8 +263,8 @@ Strategically, this technique serves as the essential exit valve for grasshopper
 
 <p class="section-subtitle">How might your opponent counter Technical Standup from Inversion?</p>
 
-- **Opponent rushes forward with a pressure pass as you initiate the hip rotation, attempting to flatten you before you can complete the standup sequence** (Effectiveness: High) - Your Response: Abort the standup and redirect into a Granby roll to closed guard recovery, using their forward momentum against them by pulling them into your guard structure → Leads to [[Positions/Grasshopper Guard]]
-- **Opponent grabs your ankle or foot during the transition phase when your legs are between configurations, preventing you from planting your base** (Effectiveness: Medium) - Your Response: Use the trapped leg as a hook to pull yourself toward them and re-enter leg entanglement, converting their grip into an inside ashi-garami or single leg X entry → Leads to [[Positions/Grasshopper Guard]]
+- **Opponent rushes forward with a pressure pass as you initiate the hip rotation, attempting to flatten you before you can complete the standup sequence** (Effectiveness: High) - Your Response: Abort the standup and redirect into a Granby roll to closed guard recovery, using their forward momentum against them by pulling them into your guard structure → Leads to [[Positions/Inverted Guard]]
+- **Opponent grabs your ankle or foot during the transition phase when your legs are between configurations, preventing you from planting your base** (Effectiveness: Medium) - Your Response: Use the trapped leg as a hook to pull yourself toward them and re-enter leg entanglement, converting their grip into an inside ashi-garami or single leg X entry → Leads to [[Positions/Inverted Guard]]
 - **Opponent circles to the back side during your rotation, threatening to take the back as your shoulders transition from mat contact to upright** (Effectiveness: Medium) - Your Response: Accelerate the rotation and bring your near elbow tight to your body to deny underhook access, then complete the standup with an immediate hip turn to face them → Leads to [[Positions/Open Guard]]
 - **Opponent sprawls heavily on your hips mid-standup, driving you back to the mat before you can fully establish your base** (Effectiveness: High) - Your Response: Accept the sprawl pressure and convert to a sit-through or granby roll underneath them, using their committed weight to create back take or guard recovery opportunities → Leads to [[Positions/Headquarters Position]]
 
@@ -321,13 +321,13 @@ Strategically, this technique serves as the essential exit valve for grasshopper
 Practice the hip rotation and posting sequence without a partner. Start in inverted shoulder position, rotate hips underneath, establish posting hand, and drive to standing. Perform 20 repetitions per side focusing on smooth continuous motion. Emphasize proper hand placement distance and foot positioning during the drive phase.
 
 **Week 3-4** - Partner timing and distance recognition
-Partner stands at varying distances while you hold grasshopper guard. Practice reading when the distance becomes too great for effective attacks and initiating the standup. Partner provides light resistance by slowly advancing during your transition to develop timing for completing the sequence under mild pressure.
+Partner stands at varying distances while you hold inverted guard. Practice reading when the distance becomes too great for effective attacks and initiating the standup. Partner provides light resistance by slowly advancing during your transition to develop timing for completing the sequence under mild pressure.
 
 **Week 5-6** - Counter recognition and chain transitions
 Partner actively counters your standup attempts with forward rushes, ankle grabs, and circling. Practice aborting the standup into alternative transitions like Granby roll to guard or leg entanglement entries when the counter succeeds. Develop the decision-making to choose between completing the standup and redirecting to other options.
 
-**Week 7+** - Live integration with grasshopper guard system
-Incorporate the technical standup into full grasshopper guard sparring rounds. Start each round in grasshopper and work through attack sequences, using the standup when appropriate. Partner provides full resistance. Track success rate and identify patterns in when the standup succeeds versus when alternative transitions are more effective.
+**Week 7+** - Live integration with inverted guard system
+Incorporate the technical standup into full inverted guard sparring rounds. Start each round in inverted and work through attack sequences, using the standup when appropriate. Partner provides full resistance. Track success rate and identify patterns in when the standup succeeds versus when alternative transitions are more effective.
 
 
 

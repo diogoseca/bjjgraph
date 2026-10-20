@@ -178,27 +178,47 @@ Unlike defensive guards that merely stall a pass, Inverted Guard weaponizes rota
 ### Available Transitions
 
 
-- **[[Transitions/Berimbolo Entry/Attacker|Berimbolo Entry]]** (13% of attempts)
+- **[[Transitions/Berimbolo Entry/Attacker|Berimbolo Entry]]** (8% of attempts)
 
-- **[[Transitions/Single Leg X Entry/Attacker|Single Leg X Entry]]** (17% of attempts)
+- **[[Transitions/Single Leg X Entry/Attacker|Single Leg X Entry]]** (8% of attempts)
 
-- **[[Transitions/X-Guard Sweep/Attacker|X-Guard Sweep]]** (11% of attempts)
+- **[[Transitions/X-Guard Sweep/Attacker|X-Guard Sweep]]** (5% of attempts)
 
-- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (16% of attempts)
+- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (8% of attempts)
 
-- **[[Submissions/Omoplata/from Inverted Guard/Attacker|Omoplata from Inverted Guard]]** (3% of attempts)
+- **[[Submissions/Omoplata/from Inverted Guard/Attacker|Omoplata from Inverted Guard]]** (2% of attempts)
 
-- **[[Transitions/Reverse X-Guard Entry/Attacker|Reverse X-Guard Entry]]** (7% of attempts)
+- **[[Transitions/Reverse X-Guard Entry/Attacker|Reverse X-Guard Entry]]** (3% of attempts)
 
-- **[[Transitions/Technical Stand-up/Attacker|Technical Stand-up]]** (5% of attempts)
+- **[[Transitions/Technical Stand-up/Attacker|Technical Stand-up]]** (2% of attempts)
 
-- **[[Transitions/Bolo Sweep/Attacker|Bolo Sweep]]** (5% of attempts)
+- **[[Transitions/Bolo Sweep/Attacker|Bolo Sweep]]** (3% of attempts)
 
-- **[[Transitions/Reverse De La Riva Recovery/Attacker|Reverse De La Riva Recovery]]** (9% of attempts)
+- **[[Transitions/Reverse De La Riva Recovery/Attacker|Reverse De La Riva Recovery]]** (7% of attempts)
 
-- **[[Transitions/Sweep from Inverted Guard/Attacker|Sweep from Inverted Guard]]** (5% of attempts)
+- **[[Transitions/Sweep from Inverted Guard/Attacker|Sweep from Inverted Guard]]** (2% of attempts)
 
-- **[[Transitions/50-50 Entry/Attacker|50-50 Entry]]** (9% of attempts)
+- **[[Transitions/50-50 Entry/Attacker|50-50 Entry]]** (8% of attempts)
+
+- **[[Transitions/Kneebar Entry from Inverted Guard/Attacker|Kneebar Entry from Inverted Guard]]** (5% of attempts)
+
+- **[[Transitions/Straight Ankle Lock Entry/Attacker|Straight Ankle Lock Entry]]** (4% of attempts)
+
+- **[[Transitions/Single Leg X Transition/Attacker|Single Leg X Transition]]** (6% of attempts)
+
+- **[[Transitions/Inside Ashi Entry/Attacker|Inside Ashi Entry]]** (7% of attempts)
+
+- **[[Transitions/Rolling Kneebar/Attacker|Rolling Kneebar]]** (2% of attempts)
+
+- **[[Transitions/Inverted Guard Elevation Sweep/Attacker|Inverted Guard Elevation Sweep]]** (5% of attempts)
+
+- **[[Transitions/Granby to Closed Guard/Attacker|Granby to Closed Guard]]** (4% of attempts)
+
+- **[[Transitions/Technical Standup from Inversion/Attacker|Technical Standup from Inversion]]** (3% of attempts)
+
+- **[[Transitions/X-Guard Elevation Sweep/Attacker|X-Guard Elevation Sweep]]** (4% of attempts)
+
+- **[[Submissions/Heel Hook/from Inverted Guard/Attacker|Heel Hook from Inverted Guard]]** (4% of attempts)
 
 
 ### Common Mistakes
@@ -263,29 +283,41 @@ Unlike defensive guards that merely stall a pass, Inverted Guard weaponizes rota
 ### Available Transitions
 
 
-- **[[Transitions/Stack Pass/Attacker|Stack Pass]]** (12% of attempts)
+- **[[Transitions/Stack Pass/Attacker|Stack Pass]]** (6% of attempts)
 
-- **[[Transitions/Headquarters Pass/Attacker|Headquarters Pass]]** (10% of attempts)
+- **[[Transitions/Headquarters Pass/Attacker|Headquarters Pass]]** (5% of attempts)
 
-- **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (9% of attempts)
+- **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (4% of attempts)
 
-- **[[Transitions/Toreando Pass/Attacker|Toreando Pass]]** (14% of attempts)
+- **[[Transitions/Toreando Pass/Attacker|Toreando Pass]]** (13% of attempts)
 
 - **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** (17% of attempts)
 
-- **[[Transitions/Pressure Pass/Attacker|Pressure Pass]]** (8% of attempts)
+- **[[Transitions/Pressure Pass/Attacker|Pressure Pass]]** (4% of attempts)
 
-- **[[Transitions/Back Step Pass/Attacker|Back Step Pass]]** (8% of attempts)
+- **[[Transitions/Back Step Pass/Attacker|Back Step Pass]]** (9% of attempts)
 
-- **[[Transitions/Stack Pass from Inversion/Attacker|Stack Pass from Inversion]]** (5% of attempts)
+- **[[Transitions/Stack Pass from Inversion/Attacker|Stack Pass from Inversion]]** (7% of attempts)
 
-- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (6% of attempts)
+- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (11% of attempts)
 
-- **[[Transitions/Leg Weave Pass/Attacker|Leg Weave Pass]]** (3% of attempts)
+- **[[Transitions/Leg Weave Pass/Attacker|Leg Weave Pass]]** (2% of attempts)
 
-- **[[Transitions/Stack from Inverted/Attacker|Stack from Inverted]]** (4% of attempts)
+- **[[Transitions/Stack from Inverted/Attacker|Stack from Inverted]]** (2% of attempts)
 
-- **[[Transitions/Toreando from Inverted/Attacker|Toreando from Inverted]]** (4% of attempts)
+- **[[Transitions/Toreando from Inverted/Attacker|Toreando from Inverted]]** (2% of attempts)
+
+- **[[Transitions/Step Over to Mount/Attacker|Step Over to Mount]]** (2% of attempts)
+
+- **[[Transitions/Sprawl and Disengage/Attacker|Sprawl and Disengage]]** (4% of attempts)
+
+- **[[Transitions/Cartwheel Pass/Attacker|Cartwheel Pass]]** (2% of attempts)
+
+- **[[Transitions/Pressure Pass through Center/Attacker|Pressure Pass through Center]]** (3% of attempts)
+
+- **[[Transitions/Counter Ashi Entry/Attacker|Counter Ashi Entry]]** (4% of attempts)
+
+- **[[Transitions/Double Under Pass/Attacker|Double Under Pass]]** (3% of attempts)
 
 
 ### Common Mistakes

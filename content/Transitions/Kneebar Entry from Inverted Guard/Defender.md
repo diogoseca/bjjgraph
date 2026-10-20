@@ -3,8 +3,8 @@
 
 
 ---
-title: "Kneebar from Grasshopper Defender | BJJ Defense Guide | BJJ Graph"
-description: "How to defend against Kneebar from Grasshopper in BJJ. Recognition cues, defensive options, and escape strategies."
+title: "Kneebar Entry from Inverted Guard Defender | BJJ Defense Guide | BJJ Graph"
+description: "How to defend against Kneebar Entry from Inverted Guard in BJJ. Recognition cues, defensive options, and escape strategies."
 ---
 
 
@@ -15,19 +15,19 @@ description: "How to defend against Kneebar from Grasshopper in BJJ. Recognition
 {
   "@context": "https://schema.org",
   "@type": "HowTo",
-  "name": "How to Defend Kneebar from Grasshopper in BJJ",
-  "description": "Step-by-step guide for defending and countering Kneebar from Grasshopper in BJJ.",
+  "name": "How to Defend Kneebar Entry from Inverted Guard in BJJ",
+  "description": "Step-by-step guide for defending and countering Kneebar Entry from Inverted Guard in BJJ.",
   "step": [
     {
       "@type": "HowToStep",
       "name": "Step back and disengage the targeted leg before the hip rotation completes",
-      "text": "At the earliest recognition of the entry - when you feel the initial leg threading or see the hip rotation beginning, before they have consolidated any control If successful: Attacker remains in grasshopper guard without leg control, allowing you to reset stance and re-engage from a safer distance or angle",
+      "text": "At the earliest recognition of the entry - when you feel the initial leg threading or see the hip rotation beginning, before they have consolidated any control If successful: Attacker remains in inverted guard without leg control, allowing you to reset stance and re-engage from a safer distance or angle",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Sprawl and drive your hips forward to flatten their inverted position",
-      "text": "When the entry is mid-development and you still have base, but stepping back cleanly is no longer possible because they have partial leg contact If successful: Their grasshopper guard collapses under your pressure and you advance directly to side control as their inversion fails and they end up flat on their back",
+      "text": "When the entry is mid-development and you still have base, but stepping back cleanly is no longer possible because they have partial leg contact If successful: Their inverted guard collapses under your pressure and you advance directly to side control as their inversion fails and they end up flat on their back",
       "position": 2
     },
     {
@@ -56,7 +56,7 @@ description: "How to defend against Kneebar from Grasshopper in BJJ. Recognition
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that a kneebar from grasshopper is being initiated?",
+      "name": "What is the earliest recognition cue that a kneebar from inverted is being initiated?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the opponent's outside leg shooting toward the back of your knee in a threading motion while their hips begin to elevate and rotate. This threading is the anchor for their entire entry. Recognizing this leg movement before the hip rotation completes gives you the maximum defensive window to step back or adjust your stance before they can establish any meaningful control."
@@ -80,7 +80,7 @@ description: "How to defend against Kneebar from Grasshopper in BJJ. Recognition
     },
     {
       "@type": "Question",
-      "name": "How should your stance and weight change when you see them playing grasshopper guard?",
+      "name": "How should your stance and weight change when you see them playing inverted guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Widen your base slightly and keep your lead leg light rather than heavily weighted. Avoid committing full bodyweight forward onto either leg. Maintain enough distance that their inverted legs cannot immediately thread behind your knee without first closing the gap. Your posture should remain upright with hips back - bending at the waist brings you closer to their entanglement range and compromises your ability to step back quickly."
@@ -88,7 +88,7 @@ description: "How to defend against Kneebar from Grasshopper in BJJ. Recognition
     },
     {
       "@type": "Question",
-      "name": "They roll to follow your step-back out of grasshopper guard; how do you avoid being caught?",
+      "name": "They roll to follow your step-back out of inverted guard; how do you avoid being caught?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When they roll to follow your retreat, circle laterally rather than continuing straight backward. Their rolling motion commits them to a linear path, and lateral movement forces them to reorient mid-roll, which breaks their momentum and leg connection. As you circle, look for an opportunity to drive forward onto their exposed back or side as their roll fails to track you, converting their offensive pursuit into your passing opportunity."
@@ -103,8 +103,8 @@ description: "How to defend against Kneebar from Grasshopper in BJJ. Recognition
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "name": "Kneebar from Grasshopper Defender",
-  "description": "How to defend against Kneebar from Grasshopper in BJJ. Recognition cues, defensive options, and escape strategies.",
+  "name": "Kneebar Entry from Inverted Guard Defender",
+  "description": "How to defend against Kneebar Entry from Inverted Guard in BJJ. Recognition cues, defensive options, and escape strategies.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -134,14 +134,14 @@ description: "How to defend against Kneebar from Grasshopper in BJJ. Recognition
     {
       "@type": "ListItem",
       "position": 3,
-      "name": "Kneebar from Grasshopper",
-      "item": "https://bjjgraph.org/Transitions/Kneebar-from-Grasshopper"
+      "name": "Kneebar Entry from Inverted Guard",
+      "item": "https://bjjgraph.org/Transitions/Kneebar-Entry-from-Inverted-Guard"
     },
     {
       "@type": "ListItem",
       "position": 4,
       "name": "Defender",
-      "item": "https://bjjgraph.org/Transitions/Kneebar-from-Grasshopper/Defender"
+      "item": "https://bjjgraph.org/Transitions/Kneebar-Entry-from-Inverted-Guard/Defender"
     }
   ]
 }
@@ -156,13 +156,13 @@ description: "How to defend against Kneebar from Grasshopper in BJJ. Recognition
 
 <section id="overview" class="content-section">
 
-Defending the Kneebar from Grasshopper requires understanding that you are the standing passer facing an inverted guard player who is targeting your lead leg for a hyperextension attack. The critical defensive window occurs during the opponent's entry phase - specifically during their hip rotation and leg threading sequence. Once they have fully consolidated the kneebar position with heel control and knees pinched, defensive options narrow dramatically and the risk of knee injury escalates.
+Defending the Kneebar Entry from Inverted Guard requires understanding that you are the standing passer facing an inverted guard player who is targeting your lead leg for a hyperextension attack. The critical defensive window occurs during the opponent's entry phase - specifically during their hip rotation and leg threading sequence. Once they have fully consolidated the kneebar position with heel control and knees pinched, defensive options narrow dramatically and the risk of knee injury escalates.
 
 Your defensive priority hierarchy is clear: first, prevent the entry by recognizing the setup and denying the hip rotation; second, if entry occurs, prevent heel control by managing your foot position and leg alignment; third, if control is established, work to extract your leg before extension pressure builds. Each level of defensive failure requires increasingly urgent and athletic responses, making early recognition the most energy-efficient and safest approach.
 
-The most dangerous moment is when you commit your weight forward onto your lead leg while the grasshopper player is positioned beneath you. This weight commitment is exactly what they are waiting for, as it pins your target leg in place for their threading motion. Maintaining awareness of your weight distribution and the bottom player's hip elevation gives you the information needed to step back or adjust before the entry develops. Experienced defenders treat any grasshopper guard engagement as a leg lock threat first, adjusting their base and stance accordingly before attempting to pass.
+The most dangerous moment is when you commit your weight forward onto your lead leg while the inverted player is positioned beneath you. This weight commitment is exactly what they are waiting for, as it pins your target leg in place for their threading motion. Maintaining awareness of your weight distribution and the bottom player's hip elevation gives you the information needed to step back or adjust before the entry develops. Experienced defenders treat any inverted guard engagement as a leg lock threat first, adjusting their base and stance accordingly before attempting to pass.
 
-**Opponent's Starting Position**: [[Positions/Grasshopper Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Inverted Guard]] (Bottom)
 
 </section>
 
@@ -172,7 +172,7 @@ The most dangerous moment is when you commit your weight forward onto your lead 
 
 ## How to Recognize This Attack
 
-<p class="section-subtitle">How do you know when someone is attempting Kneebar from Grasshopper?</p>
+<p class="section-subtitle">How do you know when someone is attempting Kneebar Entry from Inverted Guard?</p>
 
 - Opponent's hips begin elevating and rotating while their outside leg shoots toward the back of your knee - this threading motion is the first physical indicator of the kneebar entry
 - You feel a hook or contact behind your lead knee from the bottom player's calf or ankle while they are inverted - this leg contact is the anchor they use to initiate the full rotation
@@ -186,10 +186,10 @@ The most dangerous moment is when you commit your weight forward onto your lead 
 
 ## Key Defensive Principles
 
-<p class="section-subtitle">What are the key principles for defending Kneebar from Grasshopper?</p>
+<p class="section-subtitle">What are the key principles for defending Kneebar Entry from Inverted Guard?</p>
 
 - Early recognition beats late defense - identify the inversion and leg threading before hip rotation completes
-- Never commit full weight to your lead leg when opponent has grasshopper guard established beneath you
+- Never commit full weight to your lead leg when opponent has inverted guard established beneath you
 - Keep your targeted leg mobile and ready to retract at all times when engaging inverted guards
 - If caught in entry, prioritize denying heel control above all else - without heel grip they cannot finish
 - Bend your knee aggressively to prevent the hyperextension angle when trapped in kneebar position
@@ -202,33 +202,33 @@ The most dangerous moment is when you commit your weight forward onto your lead 
 
 ## Defensive Options
 
-<p class="section-subtitle">What can you do to defend against Kneebar from Grasshopper?</p>
+<p class="section-subtitle">What can you do to defend against Kneebar Entry from Inverted Guard?</p>
 
 ### 1. Step back and disengage the targeted leg before the hip rotation completes
 
 - **When to use**: At the earliest recognition of the entry - when you feel the initial leg threading or see the hip rotation beginning, before they have consolidated any control
-- **Targets**: [[Positions/Grasshopper Guard]]
-- **If successful**: Attacker remains in grasshopper guard without leg control, allowing you to reset stance and re-engage from a safer distance or angle
+- **Targets**: [[Positions/Inverted Guard]]
+- **If successful**: Attacker remains in inverted guard without leg control, allowing you to reset stance and re-engage from a safer distance or angle
 - **Risk**: If you step back too slowly, they can follow with a rolling entry and catch you in transition. Stepping back also concedes passing pressure and resets the engagement.
 
 ### 2. Sprawl and drive your hips forward to flatten their inverted position
 
 - **When to use**: When the entry is mid-development and you still have base, but stepping back cleanly is no longer possible because they have partial leg contact
 - **Targets**: [[Positions/Side Control]]
-- **If successful**: Their grasshopper guard collapses under your pressure and you advance directly to side control as their inversion fails and they end up flat on their back
+- **If successful**: Their inverted guard collapses under your pressure and you advance directly to side control as their inversion fails and they end up flat on their back
 - **Risk**: If their entry is already well-developed, sprawling forward can actually drive your knee deeper into their control. Requires reading the timing correctly.
 
 ### 3. Turn toward the attacker and drive your knee to the mat to kill the hyperextension angle
 
 - **When to use**: When the attacker has established partial control with leg threading but has not yet secured heel grip - this is the mid-phase defensive option
-- **Targets**: [[Positions/Grasshopper Guard]]
+- **Targets**: [[Positions/Inverted Guard]]
 - **If successful**: Rotating your hip toward them collapses the kneebar angle and makes extension mechanically impossible, forcing them to abandon the attack or transition to a different leg entanglement
 - **Risk**: Turning toward them can expose you to inside ashi garami entries if they read your rotation and adjust their leg threading accordingly
 
 ### 4. Bend your knee forcefully and pull your heel toward your buttock while fighting their grip on your ankle
 
 - **When to use**: When the attacker has consolidated position with knees pinched and is beginning to pursue heel control - this is the late-phase emergency defense
-- **Targets**: [[Positions/Grasshopper Guard]]
+- **Targets**: [[Positions/Inverted Guard]]
 - **If successful**: A deeply bent knee cannot be hyperextended regardless of their hip pressure, and active heel retraction prevents them from securing the grip needed to straighten your leg for the finish
 - **Risk**: Maintaining a bent knee is extremely energy-intensive against their pulling pressure, and if your knee straightens even momentarily they can lock in the extension before you can re-bend
 
@@ -240,9 +240,9 @@ The most dangerous moment is when you commit your weight forward onto your lead 
 
 ## Best-Case Outcomes for Defender
 
-<p class="section-subtitle">What is the best outcome when defending Kneebar from Grasshopper?</p>
+<p class="section-subtitle">What is the best outcome when defending Kneebar Entry from Inverted Guard?</p>
 
-### → [[Positions/Grasshopper Guard]]
+### → [[Positions/Inverted Guard]]
 
 Deny the entry early by stepping back when you detect the threading motion, or turn your hip toward the attacker to collapse the kneebar angle. In both cases, maintaining awareness of your weight distribution and reacting before they secure heel control returns you to a neutral engagement where you can re-establish your passing approach.
 
@@ -258,7 +258,7 @@ When you read the entry attempt early enough, drive forward with a sprawl to fla
 
 ## Common Defensive Mistakes
 
-<p class="section-subtitle">What mistakes should you avoid when defending Kneebar from Grasshopper?</p>
+<p class="section-subtitle">What mistakes should you avoid when defending Kneebar Entry from Inverted Guard?</p>
 
 ### 1. Pulling your leg straight backward away from the entanglement once they have partial control
 
@@ -268,7 +268,7 @@ When you read the entry attempt early enough, drive forward with a sprawl to fla
 ### 2. Ignoring the bottom player's hip elevation and continuing to pass as if they are in a standard open guard
 
 - **Consequence**: Walking into the kneebar entry by committing weight forward onto the exact leg they are targeting, with no awareness of the threat until the attack is nearly complete
-- **Correction**: Treat any grasshopper or inverted guard engagement as a leg lock threat first - adjust stance width, keep lead leg light, and monitor their hip position before committing to any passing action
+- **Correction**: Treat any inverted or inverted guard engagement as a leg lock threat first - adjust stance width, keep lead leg light, and monitor their hip position before committing to any passing action
 
 ### 3. Panicking and jerking your leg explosively when you feel the entry developing
 
@@ -293,10 +293,10 @@ When you read the entry attempt early enough, drive forward with a sprawl to fla
 
 ## Training Progressions
 
-<p class="section-subtitle">How do you train defense against Kneebar from Grasshopper?</p>
+<p class="section-subtitle">How do you train defense against Kneebar Entry from Inverted Guard?</p>
 
 **Week 1-2** - Recognition and early exit
-Partner initiates kneebar entries at 25% speed from grasshopper guard. Practice identifying the threading motion and hip rotation cues, then executing the step-back disengage. No resistance on the exit - focus purely on developing the visual and tactile recognition of the entry phase.
+Partner initiates kneebar entries at 25% speed from inverted guard. Practice identifying the threading motion and hip rotation cues, then executing the step-back disengage. No resistance on the exit - focus purely on developing the visual and tactile recognition of the entry phase.
 
 **Week 3-4** - Mid-phase defensive responses
 Partner initiates at 50% speed and is allowed partial entry before you defend. Practice the hip rotation defense (turning toward attacker) and the sprawl-forward counter. Partner holds position after establishing partial control so you can work the correct defensive response without time pressure.
@@ -305,7 +305,7 @@ Partner initiates at 50% speed and is allowed partial entry before you defend. P
 Start from consolidated kneebar position where partner has knees pinched and is pursuing heel control. Practice maintaining bent knee, fighting heel grip, and extracting your leg through controlled movement. Partner applies progressive resistance up to 75% intensity.
 
 **Week 7+** - Live defensive sparring
-Partner plays grasshopper guard freely and attacks with kneebar entries at full speed and resistance. Practice the full defensive spectrum from early recognition through late-phase escape. Develop the ability to read which defensive option is appropriate based on how far the entry has progressed.
+Partner plays inverted guard freely and attacks with kneebar entries at full speed and resistance. Practice the full defensive spectrum from early recognition through late-phase escape. Develop the ability to read which defensive option is appropriate based on how far the entry has progressed.
 
 
 

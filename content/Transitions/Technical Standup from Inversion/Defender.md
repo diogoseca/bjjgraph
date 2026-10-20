@@ -56,7 +56,7 @@ description: "How to defend against Technical Standup from Inversion in BJJ. Rec
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest cue that a grasshopper guard player is starting a technical standup?",
+      "name": "What is the earliest cue that a inverted guard player is starting a technical standup?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the retraction of both legs toward their chest, breaking all hooks and leg contact with your lower body. This compact leg position signals they are loading for the hip rotation. Additional confirmation comes from their hips beginning to rotate from elevated inverted position toward one side of the mat, and their hand reaching behind their body to prepare the posting base."
@@ -80,7 +80,7 @@ description: "How to defend against Technical Standup from Inversion in BJJ. Rec
     },
     {
       "@type": "Question",
-      "name": "How should you position yourself against grasshopper guard to best stop the technical standup?",
+      "name": "How should you position yourself against inverted guard to best stop the technical standup?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Maintain a medium-range distance where you are close enough to reach their legs or hips within one step but far enough that their inverted leg attacks cannot reach you without full extension. Stay centered on their body rather than offset to one side, as this gives you the ability to react to rotation in either direction. Keep your weight slightly forward on the balls of your feet with knees bent so you can drive forward explosively when the standup begins."
@@ -156,13 +156,13 @@ description: "How to defend against Technical Standup from Inversion in BJJ. Rec
 
 <section id="overview" class="content-section">
 
-Defending against the Technical Standup from Inversion means you are the top player facing an opponent who is attempting to exit their grasshopper guard inversion and reach standing open guard. Your objective is to prevent them from completing the standup, either by forcing them back into the energy-draining inversion where they are vulnerable to passing, or by capitalizing on the transition window to advance into a dominant passing position like headquarters. The standup attempt creates a brief but exploitable moment where the bottom player abandons their leg-based defenses to commit to the rotation and posting sequence.
+Defending against the Technical Standup from Inversion means you are the top player facing an opponent who is attempting to exit their inverted guard inversion and reach standing open guard. Your objective is to prevent them from completing the standup, either by forcing them back into the energy-draining inversion where they are vulnerable to passing, or by capitalizing on the transition window to advance into a dominant passing position like headquarters. The standup attempt creates a brief but exploitable moment where the bottom player abandons their leg-based defenses to commit to the rotation and posting sequence.
 
 The defender's strategic advantage lies in recognizing the standup attempt early and selecting the appropriate counter before the bottom player completes the movement. A fully completed standup resets the engagement to a neutral standing-versus-guard scenario where the bottom player has recovered energy and options. However, a disrupted standup leaves them in a compromised transitional state that is worse than either the original inversion or the standing guard they were seeking. Timing your intervention to the rotation phase - after they have committed to abandoning the inversion but before they establish their posting base - maximizes your advantage.
 
 The key defensive principle is maintaining forward pressure readiness without overcommitting. If you rush too early, the bottom player can convert your momentum into a sweep or guard recovery through Granby mechanics. If you wait too long, they complete the standup cleanly. Reading the disengagement of their legs from your base is the primary trigger for your defensive response, as this signals the standup attempt has begun.
 
-**Opponent's Starting Position**: [[Positions/Grasshopper Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Inverted Guard]] (Bottom)
 
 </section>
 
@@ -215,7 +215,7 @@ The key defensive principle is maintaining forward pressure readiness without ov
 ### 2. Grab the near ankle or foot as their legs retract, preventing them from planting the base needed to complete the standup while maintaining your standing position
 
 - **When to use**: When their legs disengage from your base and move into the compact retracted position - the ankle is exposed during the transition between leg configurations
-- **Targets**: [[Positions/Grasshopper Guard]]
+- **Targets**: [[Positions/Inverted Guard]]
 - **If successful**: The ankle control prevents them from completing the standup and forces them to either re-engage the inversion or attempt to strip the grip, both of which keep them on the ground in their guard where you maintain top position
 - **Risk**: A skilled opponent will convert the ankle grip into a leg entanglement entry by using the trapped leg as a hook to pull into inside ashi-garami or single leg X
 
@@ -243,7 +243,7 @@ The key defensive principle is maintaining forward pressure readiness without ov
 
 <p class="section-subtitle">What is the best outcome when defending Technical Standup from Inversion?</p>
 
-### → [[Positions/Grasshopper Guard]]
+### → [[Positions/Inverted Guard]]
 
 Grab the near ankle during the leg retraction phase before the hip rotation begins. This prevents the standup while keeping them grounded. Maintain the ankle grip and begin your own passing sequence, or use the grip to initiate a leg drag that advances you past their guard. The ankle control forces them back into the inversion where their energy expenditure continues.
 
@@ -292,7 +292,7 @@ Time a controlled forward pressure drive to coincide with the mid-rotation phase
 <p class="section-subtitle">How do you train defense against Technical Standup from Inversion?</p>
 
 **Week 1-2** - Recognition drill with cooperative partner
-Partner performs the technical standup from grasshopper at half speed while you practice identifying each recognition cue in sequence: leg retraction, hip rotation initiation, posting hand plant. Call out each cue as you see it. No countering yet - purely develop the ability to read the standup attempt in real time. Perform 15-20 repetitions per round.
+Partner performs the technical standup from inverted at half speed while you practice identifying each recognition cue in sequence: leg retraction, hip rotation initiation, posting hand plant. Call out each cue as you see it. No countering yet - purely develop the ability to read the standup attempt in real time. Perform 15-20 repetitions per round.
 
 **Week 3-4** - Counter timing with light resistance
 Partner performs the standup at 60% speed while you practice each counter individually: forward pressure drive, ankle grab, circling to back, and hip sprawl. Focus on matching each counter to the correct phase of the standup. Partner provides feedback on whether your timing was early, late, or optimal. Rotate through all four counters each round.
@@ -301,7 +301,7 @@ Partner performs the standup at 60% speed while you practice each counter indivi
 Partner performs the standup at full speed with the freedom to abort into alternative transitions. You must read whether the standup is genuine or a feint and select the appropriate counter in real time. Partner varies between committing to the standup, aborting into Granby roll, and feinting to re-engage the inversion. Develop the decision-making to avoid overcommitting to counters against feints.
 
 **Week 7+** - Full positional sparring integration
-Begin each round with partner in grasshopper guard and you standing. Engage the full grasshopper guard positional battle where the standup is one of many options the bottom player may attempt. Practice reading and countering the standup attempt within the context of defending all grasshopper attacks including leg entanglements, sweeps, and submissions. Track which counter you select most often and whether the standup or your defense wins more exchanges.
+Begin each round with partner in inverted guard and you standing. Engage the full inverted guard positional battle where the standup is one of many options the bottom player may attempt. Practice reading and countering the standup attempt within the context of defending all inverted attacks including leg entanglements, sweeps, and submissions. Track which counter you select most often and whether the standup or your defense wins more exchanges.
 
 
 
