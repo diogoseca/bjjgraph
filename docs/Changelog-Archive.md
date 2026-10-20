@@ -11595,3 +11595,20 @@ canonical nodes. The exact EDGE role-count tripwire moves from 266 to 264 for th
 Grasshopper pair. `census:update` updates 25 marked literals; the larger merged Inverted hands
 also raise the prefetch/warm-cap overflow counts from 18/12 to 19/13. The FLOW reference is
 regenerated from this graph with its test tolerances unchanged.
+
+The receipt-bound build census and SEO baselines use the guarded capture of candidate
+`f9ae55c3aa3e443a7fe78492fd8a7f6d11c1ba73`: receipt status `accepted`,
+`production_accepted=true`, receipt SHA-256
+`a6e25e281d2d9e8a276937c0e3fb616140a10c2327ef0a7639f97e031141e992`.
+Every census field, bundle row, SEO sample and route inventory matches the expectations frozen
+before capture. Twenty added HTML routes replace 26 retired routes: files 16,003 → 15,989,
+HTML 6,212 → 6,206, static files 5,125 → 5,121, JSON-LD blocks 30,755 → 30,728,
+article links 199,039 → 198,828, and outside links 146,898 → 146,775.
+
+The changed app rows are `static/neural/app/game-model.worker.js`,
+`static/neural/app/game-study.js`, `static/neural/app/game-study.worker.js`, and
+`static/neural/app/game-values.js`: their baked graph/MDP manifests and generated bounds change,
+with byte counts unchanged. The other ten app rows and all three normalized main bundles are
+exact. Only the two Positions index SEO samples change, removing the retired Grasshopper entry
+(crawlable text 24,942 → 24,767 characters); the other 18 samples are exact. All 20 existing SEO
+floors and the payload budget remain unchanged.
