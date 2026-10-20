@@ -11608,8 +11608,8 @@ Grasshopper pair. `census:update` updates 25 marked literals; the larger merged 
 also raise the prefetch/warm-cap overflow counts from 18/12 to 19/13. The FLOW reference is
 regenerated from this graph with its test tolerances unchanged.
 
-The first two guarded captures are accepted historical records of their respective candidates;
-the review corrections require a fresh receipt. Their base-relative shape is 20 added and 26
+All three guarded captures remain accepted historical records of their respective candidates.
+The corrected v3 capture preserves the base-relative shape: 20 added and 26
 retired HTML routes: files 16,003 → 15,989, HTML 6,212 → 6,206, static files 5,125 → 5,121,
 JSON-LD blocks 30,755 → 30,728, article links 199,039 → 198,828, outside links 146,898 → 146,775.
 
@@ -11632,10 +11632,13 @@ source cap scan covers 22,722 answer-line cards. Every corrected candidate runs 
 local CI replay and own build before a fresh contract is frozen. The receipt-bound ContentGuard
 is the sole permitted pre-capture dependency; after re-seeding, the complete replay must be green.
 
-V2 candidate `2ce1ec0a2353e58c22a2453c584559be4ff456e7` has accepted guard receipt SHA-256
-`a7670e9d1b6777ad010f93e473be82c0016431d07d5e6bd2fc9bbe00c2828152`, content receipt SHA-256
-`a29cc99d86bec020eed58ddd3dffb8844188f4011b3b52fe97af9a0bd92ea627`, and exact contract SHA-256
-`2fa573be1ada1e42d54bc3a3bbe53d6c40da50252deabdefe7cf1a4ea851d70a`. Its re-seed changes only
-provenance/location: all census fields, 14 app rows and 20 SEO samples equal the first capture.
-Both capture histories remain immutable. The three derived source files reproduce byte-for-byte;
-D-285 preserves unchanged content stamps. The review corrections are pending their v3 capture.
+V3 candidate `2e46c1ac2e7d3a7c1789506809d69f55cfaa3dd9` has accepted guard receipt SHA-256
+`fef59c0e89baefbea25aae558d4af9235afef5ed3a814626bcb56709c36493a1`, content receipt SHA-256
+`1c75c6dac95e9822b489db3224a583ee23c7b40cccda9c1f4733d1db6926d516`, and exact contract SHA-256
+`d80a02b8baa03c98c8d690d262690dd1ea6368c7267df3b7cc83b974153d55e3`. All 15,989 output paths, byte counts and hashes
+match the frozen contract. Exactly five files change from v2: two redirect outputs, the Kneebar
+card chunk, and its embedded card JSON in the Kneebar hub/Attacker HTML. No contract was widened.
+The re-seed changes only provenance/location; census fields, all 14 app rows, all 20 SEO samples
+and floors remain exact. Own-build and retained-tree gates pass with current-content provenance.
+Earlier receipts remain immutable. All three derived source files reproduce byte-for-byte;
+D-285 preserves every unchanged Markdown byte and stamp.

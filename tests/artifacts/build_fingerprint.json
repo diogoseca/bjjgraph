@@ -1,15 +1,15 @@
 {
  "_meta": {
-  "capture_tree": "/home/user/bjj-orchestrator/scratch/node-identities-2/capture/pr-node-identities-2-2ce1ec0a2",
+  "capture_tree": "/home/user/bjj-orchestrator/scratch/node-identities-2/capture/pr-node-identities-2-2e46c1ac2",
   "content_provenance": {
-   "capture_git_head": "2ce1ec0a2353e58c22a2453c584559be4ff456e7",
-   "capture_id": "78f5229972e246468cf2ea64ade40356",
+   "capture_git_head": "2e46c1ac2e7d3a7c1789506809d69f55cfaa3dd9",
+   "capture_id": "2f94a26c6aef45cfa4ef3df65cd2f977",
    "content_clean_at_end": true,
    "content_clean_at_start": true,
    "content_files": 6395,
    "content_md": 4597,
    "content_scope": "content-excluding-obsidian-v1",
-   "content_tree": "862dec4c58318141fe38d08f2ddc7554577ee8a0",
+   "content_tree": "0879d91ac7eb010b1dedd943a0e5f73f7a81940c",
    "dirty_paths_end": [],
    "dirty_paths_start": [],
    "environment_assertions": {
@@ -34,11 +34,11 @@
    },
    "output_identity": {
     "files": 15989,
-    "sha256": "b8286a0c425461b3fd2c65dc9d66e524f8406f1d92d74ecf669bb7ad753eaaff"
+    "sha256": "9c677e682bd4bb1df738b699aa1c70a4d6434d07d5402073dab6c0ba2a7866bf"
    },
    "output_roots": [
     "/home/user/bjj-orchestrator/qz/capture-origin-coherence-p2b/source/public",
-    "/home/user/bjj-orchestrator/scratch/node-identities-2/capture/pr-node-identities-2-2ce1ec0a2"
+    "/home/user/bjj-orchestrator/scratch/node-identities-2/capture/pr-node-identities-2-2e46c1ac2"
    ],
    "schema": "quartz-content-provenance-v1",
    "state": "complete"
