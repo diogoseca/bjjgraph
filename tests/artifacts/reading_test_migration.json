@@ -1364,12 +1364,12 @@
       "preserved_rule": "Cold and unavailable sheets distinguish loading from unavailable content, and absent content produces no invented reading section.",
       "replacement_tests": [
         {
-          "file": "tests/neural_reading_content.test.mjs",
-          "title_contains": "cold and unavailable sheets stay informative without inventing a reading section"
+          "file": "e2e/journeys/landcard-more-content.spec.ts",
+          "title_contains": "a failed article request has a real Retry path"
         }
       ],
-      "retired_rule": "The unreachable _landMoreHTML wrapper is removed under S2. Its empty-output assertion now calls the retained _readingSections and _readingHTML renderer directly; both existing sheet-status assertions remain.",
-      "disposition": "renamed and ported to live shared renderer"
+      "retired_rule": "v1.230.0 retires Inspect and its unreachable dossier renderer. The real article request now owns loading, failure and Retry; no invented prose is displayed.",
+      "disposition": "ported to live published-article reader"
     }
   ],
   "ci298b_updates": {
@@ -1432,5 +1432,246 @@
         "mutant": "m56_family_hub_wrong_family"
       }
     ]
+  },
+  "video_cards_v1230": {
+    "authority": "VIDGO2 and payload overlap ruling: retire Inspect; owner 2026-10-15 question 6 subsequently retires JIT too",
+    "migrations": [
+      {
+        "old_file": "tests/neural_reading_content.test.mjs",
+        "old_title": "full sheets preserve every perspective overview and the defender's authored best outcomes",
+        "replacement_tests": [
+          {
+            "file": "e2e/journeys/landcard-more-content.spec.ts",
+            "title_contains": "reader preserves a complete long overview and authored outcomes"
+          }
+        ]
+      },
+      {
+        "old_file": "tests/neural_reading_content.test.mjs",
+        "old_title": "missing defenders explain the gap in sheets and never borrow attacker material",
+        "replacement_tests": [
+          {
+            "file": "e2e/journeys/reading-contract.spec.ts",
+            "title_contains": "an unauthored defender never falls back to the attacker hub"
+          }
+        ]
+      },
+      {
+        "old_file": "tests/neural_reading_content.test.mjs",
+        "old_title": "cold and unavailable sheets stay informative without inventing a reading section",
+        "replacement_tests": [
+          {
+            "file": "e2e/journeys/landcard-more-content.spec.ts",
+            "title_contains": "a failed article request has a real Retry path"
+          }
+        ]
+      }
+    ]
+  },
+  "video_cards_drill_removal": {
+    "authority": "Owner decision 2026-10-15, briefing question 6: drop practise-before-you-try; remove the extracted JIT engine and retire jit-format.spec.ts; retain shared grading and credit economy.",
+    "removed_tests": [
+      {
+        "old_file": "e2e/journeys/jit-format.spec.ts",
+        "old_title": "a card the player has never proven asks MULTIPLE CHOICE @curated",
+        "disposition": "retired JIT surface; shared laws remain on surviving surfaces",
+        "retired_rule": "The choice-specific practise-before-you-try host, question flow, tags, warm-up and key handback are removed by the owner.",
+        "replacement_tests": [
+          {
+            "file": "e2e/journeys/mc-flashcards.spec.ts",
+            "title_contains": "fresh card renders 3 MC options"
+          }
+        ]
+      },
+      {
+        "old_file": "e2e/journeys/jit-format.spec.ts",
+        "old_title": "a card already proven at MC reads back as recall — the ladder's top rung",
+        "disposition": "retired JIT surface; shared laws remain on surviving surfaces",
+        "retired_rule": "The choice-specific practise-before-you-try host, question flow, tags, warm-up and key handback are removed by the owner.",
+        "replacement_tests": [
+          {
+            "file": "e2e/journeys/mc-flashcards.spec.ts",
+            "title_contains": "correct answer: full credit + stage, graduating to recall at stage 2"
+          }
+        ]
+      },
+      {
+        "old_file": "e2e/journeys/jit-format.spec.ts",
+        "old_title": "the JIT never eats the sidebar's rigged mc-* queue",
+        "disposition": "retired JIT surface; shared laws remain on surviving surfaces",
+        "retired_rule": "The choice-specific practise-before-you-try host, question flow, tags, warm-up and key handback are removed by the owner.",
+        "replacement_tests": [
+          {
+            "file": "e2e/journeys/mc-flashcards.spec.ts",
+            "title_contains": "MC options are deterministic under rig across two boots"
+          }
+        ]
+      },
+      {
+        "old_file": "e2e/journeys/jit-format.spec.ts",
+        "old_title": "a right answer buys odds, a wrong one buys nothing @curated",
+        "disposition": "retired JIT surface; shared laws remain on surviving surfaces",
+        "retired_rule": "The choice-specific practise-before-you-try host, question flow, tags, warm-up and key handback are removed by the owner.",
+        "replacement_tests": [
+          {
+            "file": "e2e/journeys/mc-flashcards.spec.ts",
+            "title_contains": "wrong answer: no credit, no stage, correct revealed"
+          },
+          {
+            "file": "e2e/journeys/mc-flashcards.spec.ts",
+            "title_contains": "correct answer: full credit + stage"
+          },
+          {
+            "file": "tests/knowledge_profile.test.mjs",
+            "title_contains": "all MC surfaces preserve prior grade arithmetic"
+          }
+        ]
+      },
+      {
+        "old_file": "e2e/journeys/jit-format.spec.ts",
+        "old_title": "the drill gives the A/B/C keys back when its host closes",
+        "disposition": "retired JIT surface; shared laws remain on surviving surfaces",
+        "retired_rule": "The choice-specific practise-before-you-try host, question flow, tags, warm-up and key handback are removed by the owner.",
+        "replacement_tests": []
+      },
+      {
+        "old_file": "e2e/journeys/jit-format.spec.ts",
+        "old_title": "a cold JIT pool warms once and never replaces an engaged recall question",
+        "disposition": "retired JIT surface; shared laws remain on surviving surfaces",
+        "retired_rule": "The choice-specific practise-before-you-try host, question flow, tags, warm-up and key handback are removed by the owner.",
+        "replacement_tests": []
+      },
+      {
+        "old_file": "e2e/journeys/jit-loop.spec.ts",
+        "old_title": "JIT sheet drill pumps the odds odometer and the canvas edge",
+        "disposition": "retired sheet loop; preserve shared grade/odds/lesson ledger",
+        "replacement_tests": [
+          {
+            "file": "e2e/gen/mid-jit-grades-feed-lesson-done-math.spec.ts",
+            "title_contains": "three study grades complete"
+          },
+          {
+            "file": "e2e/journeys/stakes-impact.spec.ts",
+            "title_contains": "sharpness decays per landing, mastery persists"
+          }
+        ]
+      },
+      {
+        "old_file": "e2e/journeys/jit-loop.spec.ts",
+        "old_title": "drilling pumps odds and buys NO time — the clock belongs to the question (v1.133.0)",
+        "disposition": "retired JIT entry; preserve question decline and no time credit on viewer/sidebar study",
+        "replacement_tests": [
+          {
+            "file": "e2e/gen/onboard-first-freeze-drilling-refunds-then-clock-runs.spec.ts",
+            "title_contains": "the viewer declines for free and study buys no time"
+          },
+          {
+            "file": "e2e/gen/mid-landing-refund-shares-window-budget.spec.ts",
+            "title_contains": "the viewer finds nothing to decline; study grades buy no time"
+          }
+        ]
+      },
+      {
+        "old_file": "tests/knowledge_profile.test.mjs",
+        "old_title": "JIT/panic plain recall deliberately qualifies proof/SRS; direct callbacks retain credit, sharing, clocks and replay bounds",
+        "disposition": "JIT scenarios removed; all hydrated/cold panic scenarios and exact credit/proof/replay assertions retained",
+        "replacement_tests": [
+          {
+            "file": "tests/knowledge_profile.test.mjs",
+            "title_contains": "panic plain recall deliberately qualifies proof/SRS"
+          }
+        ]
+      },
+      {
+        "old_file": "e2e/journeys/guidance-defense.spec.ts",
+        "old_title": "one-beacon law: exactly one highlighted surface at every beat",
+        "disposition": "Keep the beacon uniqueness assertion across Watch, close and card commit. Retire the JIT-to-Execute handoff and its three-transition count with owner question 6 (2026-10-15).",
+        "replacement_tests": [
+          {
+            "file": "e2e/journeys/guidance-defense.spec.ts",
+            "title_contains": "one-beacon law: exactly one highlighted surface"
+          }
+        ]
+      },
+      {
+        "old_file": "e2e/journeys/guidance-defense.spec.ts",
+        "old_title": "film study: watchShort fires the beat; player onError falls back without crashing",
+        "disposition": "watchShort belonged to Inspect and is retired. The real Watch player must start from explicit input and render a safe native fallback link on failure, with no automatic popup or move.",
+        "replacement_tests": [
+          {
+            "file": "e2e/journeys/guidance-defense.spec.ts",
+            "title_contains": "film study: explicit playback fires the beat"
+          }
+        ]
+      }
+    ],
+    "retired_ledger_rows": [
+      {
+        "id": "core-024",
+        "file": "e2e/journeys/jit-loop.spec.ts",
+        "title": "JIT sheet drill pumps the odds odometer and the canvas edge",
+        "theme": "flashcards-behind-scenes",
+        "L": "first-roll-day1",
+        "F": "option-tray-sheet",
+        "B": "economy-math",
+        "invariant": "Three reveal->Got-it grades in the expand sheet raise the target's displayed odds by >=17 points with the [data-odds] odometer within 1 of the live odds, emit jit_opened plus >=3 bonus_pumped beats, and executing from the same sheet reaches impact_success.",
+        "origin": "core",
+        "status": "accepted"
+      },
+      {
+        "id": "core-025",
+        "file": "e2e/journeys/jit-loop.spec.ts",
+        "title": "drilling refunds decision time, capped at 2 per window",
+        "theme": "flashcards-behind-scenes",
+        "L": "first-roll-day1",
+        "F": "decision-timer",
+        "B": "guard-limit",
+        "invariant": "The first two JIT grades each refund >=2s of decisionRemaining, the third refunds <1s, and the three timer_refund beats carry granted [true, true, false].",
+        "origin": "core",
+        "status": "accepted"
+      }
+    ],
+    "shared_economy": "_mcAnswer, _gradeKnowledge, gradeRecall, recallGrade, refreshOptionOdds, askFormat and the surviving deck/landing/node/panic surfaces remain. banked was a local JIT onDone callback, not a shared writer; its sole remaining action was refreshOptionOdds. Remove that callback with its only host while retaining all shared grade/odds functions.",
+    "historical_fixture": "knowledge_profile_prior.json remains byte-unchanged; its retired jitRecall snapshot is no longer invoked.",
+    "telemetry_retirement": {
+      "beat": "jit_opened",
+      "reason": "No emitter remains after the owner removes the JIT host. Remove its sound cue; preserve shared bonus_pumped, mc_correct and mc_wrong."
+    },
+    "mutant_migration": {
+      "retired": "jit_double_credit",
+      "replacement": "mc_double_credit",
+      "red_test": {
+        "file": "e2e/journeys/mc-flashcards.spec.ts",
+        "title_contains": "correct answer: full credit + stage"
+      },
+      "control_test": {
+        "file": "e2e/journeys/mc-flashcards.spec.ts",
+        "title_contains": "wrong answer: no credit"
+      },
+      "status": "mc_double_credit killed on curation-integrated 7ac17caa0: the exact-credit case fails while the wrong-answer/no-credit control passes (2026-10-19)."
+    },
+    "integration_pending": "Escape and both curation changes are merged through 7ac17caa0. Guidance-defense follows Watch/card commit and the shared live-catch renderer; exact prep/cardsToday and escape-pump assertions use the mounted Defender question key. The 2026-10-19 run passes all 14 changed generated economy/teardown cases, 10 video card interaction cases and 82 targeted units. Sections, chrome and final full core remain pending."
+  },
+  "video_cards_d318": {
+    "authority": "D-318 owner UX review 2026-10-16, shortcut clarification 2026-10-19",
+    "retired": [
+      "Choose/Read footer and native Read link on choice cards",
+      "inert poster or empty-media area on a committable card"
+    ],
+    "preserved": [
+      "Existing move/failure behavior, threat/hidden-hand/execution guards and drag suppression",
+      "Shifted digits do nothing; plain digits 1–9 commit their matching card",
+      "Win and immediate odds unchanged, including intervals, stale and unavailable states",
+      "Execution stand-in identity, result labels, lift and no click-through",
+      "Research and shared economy assertions retargeted to video viewer or sidebar study"
+    ],
+    "replacement_tests": [
+      "e2e/journeys/video-cards.spec.ts",
+      "e2e/journeys/card-click-contract.spec.ts",
+      "e2e/journeys/card-presentation.spec.ts",
+      "e2e/journeys/choice-layout.spec.ts",
+      "e2e/journeys/choice-value.spec.ts"
+    ],
+    "geometry": "Choice height 220→176px; A media/practice placement unchanged. Final phone fold waits for sections and chrome integration."
   }
 }

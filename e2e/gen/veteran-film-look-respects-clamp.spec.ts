@@ -1,36 +1,13 @@
+// v1.230.0 reverses v1.218.1/v1.220.0 Inspect and watch-on-open. Real Watch and player clicks retain the film economy assertions.
 /* @hyperspace {"theme":"lifetime-journeys","L":"srs-veteran","F":"film-study","B":"guard-limit"} @invariant "On a veteran profile the film first-look bonus adds at most 4 points to a technique's displayed odds and the post-watch odds still never exceed 95 — cumulative lifetime bonuses (mastery + sharpness + film) compose under the clamp, not past it." */
 import { test, expect, type Page } from "@playwright/test"
 import { journey, type Journey } from "../dsl"
+import { openChoiceVideo, playChoiceVideo } from "../fixtures/video-cards"
 import { srsVeteran } from "./personas"
 
-/**
- * FILM FIRST-LOOK vs THE ODDS CLAMP — a 25-deck SRS veteran watches film-study Shorts.
- *
- * Seams under test (probe-verified 3x, identical numbers each run):
- *   - moveChance = clamp(0.05, 0.95, base + stateBonus(_posKey) + stateBonus(techDeckKey)
- *       + (filmLook ? 0.04 : 0) − aiMod)                      (app.src.jsx:4361-4368)
- *   - watchShort(i) first-look guard: the +4% film bonus mints ONCE per technique; the
- *     film_first_look beat carries {technique} and fires even when the clamp eats the whole
- *     visible delta — the guard is on _filmLook, not on the delta (app.src.jsx:4089-4111)
- *   - the open sheet's .ngsucbig (inside optDetailRef.current) re-renders the new rounded
- *     moveChance INSTANTLY in test mode                        (_pumpOdds, app.src.jsx:811-817)
- *
- * MOVE CARDS ONLY (v1.213.0). A submission dealt on a position is an ENTRY, and its sheet row
- * prints "Works": the finish it leads to, priced by the solve at the state it lands in (where the
- * position bonus is the submission's own deck and sharpness has aged one arrival), repainted when
- * the re-solve lands. That is not this law's `moveChance` at THIS state, so this journey reads the
- * law where the sheet prints it — on a transition's "Move chance" row. The Works row's agreement
- * with its card is pinned in e2e/journeys/submission-card-odds.spec.ts.
- *
- * Determinism: optionsFor draws no RNG — land()'s built-in rigs (ai-skill/role/max-moves)
- * cover every ambient draw, and sim time is never advanced after the deal, so the decision
- * clock stays frozen and sharpness never decays mid-test. No extra rig queues are needed.
- *
- * Author gotchas honored: high odds are manufactured via drill() ONLY — a bumpCardSuccess
- * override bypasses moveChance entirely (film would add 0 under it); drill(n,key) throws on
- * missing/empty decks (candidates filtered by cards.length>0); sharpness is a flat 0.10 per
- * key (not additive) and mastery caps at 0.15 (0.03×prep), so drill(5,key) always leaves
- * stateBonus(key) at the full 0.25 budget.
+/** Explicit playback earns film first-look once per technique. Opening Watch earns nothing.
+ * The IFrame API is hermetic; Watch and the player's Play control are real mouse inputs.
+ * v1.230.0 preserves the profile's odds, clamp and study-accounting laws.
  */
 
 /** The composed-law branch (structure only): delta ∈ [0,4] and after <= 95 ALWAYS; a
@@ -47,29 +24,6 @@ function assertFilmDelta(before: number, after: number) {
     expect(delta, "with headroom the +4 lands whole").toBe(4)
   }
 }
-
-/** Stub the YouTube iframe API (journeys are hermetic — the real script is route-aborted),
- *  then open the technique's expand sheet like a user: tray card click → Execute visible.
- *  The stub goes in BEFORE the sheet opens; shorts auto-open is !isTest()-gated, no race. */
-async function openSheet(page: Page, technique: string) {
-  await page.evaluate(() => {
-    function StubPlayer(this: any) {
-      this.destroy = () => {}
-    }
-    ;(window as any).YT = { Player: StubPlayer, PlayerState: { ENDED: 0 } }
-  })
-  const card = page.locator(`[data-tech="${technique}"]`).first()
-  await expect(card, `option card for "${technique}" visible`).toBeVisible()
-  await card.locator("[data-choice-inspect]").click()
-  await expect(page.locator("[data-go]").first(), "expand sheet open").toBeVisible()
-}
-
-/** The sheet's big Success % — read inside optDetailRef.current, the panel _pumpOdds targets. */
-const sheetOdds = (page: Page) =>
-  page.evaluate(() => {
-    const el = (window as any).__neural.optDetailRef?.current?.querySelector(".ngsucbig")
-    return el ? (el.textContent || "").trim() : null
-  })
 
 const filmBeats = async (j: Journey) =>
   ((await j.beats()) as Array<{ beat: string; technique?: string }>).filter((b) => b.beat === "film_first_look")
@@ -98,7 +52,7 @@ test("headroom: first Short on the veteran's seeded technique pumps exactly +4 o
       .filter((n: any) => n && n.ty !== "submissions" && Math.round(a.moveChance(n) * 100) <= 90)
     return { seeded: dealt.filter((n: any) => (a.prep[a.deckKeyFor(n).key] || 0) > 0).map((n: any) => n.t), all: dealt.map((n: any) => n.t) }
   })
-  expect(moves.all.length, "the hand deals a Move card with headroom, so the law is read where the sheet prints it").toBeGreaterThan(0)
+  expect(moves.all.length, "the hand deals a Move card with headroom, so the law is read on the live card").toBeGreaterThan(0)
   const target = moves.seeded[0] ?? moves.all[0]
 
   const oddsBefore: Record<string, number> = {}
@@ -107,14 +61,13 @@ test("headroom: first Short on the veteran's seeded technique pumps exactly +4 o
   expect(before, "pre-film odds sit inside the clamp band").toBeGreaterThanOrEqual(5)
   expect(before, "pre-film odds leave room for the whole +4 (the premise)").toBeLessThanOrEqual(90)
 
-  await openSheet(page, target)
-  expect(await sheetOdds(page), "sheet shows the pre-film rounded moveChance").toBe(`${before}%`)
+  await openChoiceVideo(page, target)
 
-  expect(await page.evaluate(() => (window as any).__neural.watchShort(0)), "watchShort(0) engages the player").toBe(true)
+  await playChoiceVideo(page)
 
   const after = await j.displayedOdds(target)
+  await expect(page.locator(`[data-tech="${target}"] .ngodds`)).toHaveText(String(after))
   assertFilmDelta(before, after) // probe: 63 → 67, delta exactly 4
-  expect(await sheetOdds(page), "sheet re-rendered the post-film number instantly (test mode)").toBe(`${after}%`)
 
   const films1 = await filmBeats(j)
   expect(films1.length, "film_first_look fired exactly once").toBe(1)
@@ -128,7 +81,8 @@ test("headroom: first Short on the veteran's seeded technique pumps exactly +4 o
 
   // Second Short on the SAME technique: the player still engages, but the first-look guard
   // holds — no second +4, no second beat
-  expect(await page.evaluate(() => (window as any).__neural.watchShort(1)), "watchShort(1) engages the player").toBe(true)
+  await openChoiceVideo(page, target, "bbbbbbbbbbb")
+  await playChoiceVideo(page)
   expect(await j.displayedOdds(target), "repeat watch mints no second bonus").toBe(after)
   expect((await filmBeats(j)).length, "film_first_look count stays 1").toBe(1)
 })
@@ -169,14 +123,13 @@ test("at the ceiling: drills pin odds at 95, the film watch adds 0 visible point
   expect(before, "drilled odds never render above 95").toBeLessThanOrEqual(95)
   if (wouldCross) expect(before, "raw sum crossed the ceiling — display pins at exactly 95").toBe(95)
 
-  await openSheet(page, target.t)
-  expect(await sheetOdds(page), "sheet shows the pinned pre-film number").toBe(`${before}%`)
+  await openChoiceVideo(page, target.t)
 
-  expect(await page.evaluate(() => (window as any).__neural.watchShort(0)), "watchShort(0) engages the player").toBe(true)
+  await playChoiceVideo(page)
 
   const after = await j.displayedOdds(target.t)
+  await expect(page.locator(`[data-tech="${target.t}"] .ngodds`)).toHaveText(String(after))
   assertFilmDelta(before, after) // probe: 95 → 95, delta 0 === min(before+4,95) − before
-  expect(await sheetOdds(page), "sheet agrees with the clamped number").toBe(`${after}%`)
 
   // THE point: the first-look mint is guarded per technique, NOT per visible delta — the
   // beat fires exactly once even when the clamp eats the whole +4 (by design, not a bug)

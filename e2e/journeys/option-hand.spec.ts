@@ -352,8 +352,8 @@ test("@curated a submission's odds are its AUTHORED rate, not the 45.6% fallback
   const dealt = await subCards()
   expect(dealt.length, "mount top deals submissions").toBeGreaterThan(3)
   expect([...new Set(dealt.map((c: any) => c.label))], "a submission dealt on a position reads Works").toEqual(["Works"])
-  expect(dealt.filter((c: any) => c.odds === "100%"), "and never prints its certain step as a success rate").toEqual([])
-  await expect.poll(async () => (await subCards()).every((c: any) => /^\d+%$/.test(c.odds)),
+  expect(dealt.filter((c: any) => c.odds === "100"), "and never prints its certain step as a success rate").toEqual([])
+  await expect.poll(async () => (await subCards()).every((c: any) => /^\d+$/.test(c.odds)),
     { timeout: 120_000, message: "the follow-up finish chances arrive with the values" }).toBe(true)
   const works = (await subCards()).map((c: any) => parseInt(c.odds, 10))
   expect(works.every((p: number) => p >= 5 && p <= 95), "each inside the finish clamp: " + works).toBe(true)
@@ -384,7 +384,7 @@ test("@curated a submission's odds are its AUTHORED rate, not the 45.6% fallback
     await j.advance(4000)
     const card = page.locator('[data-choice-group="you"] [data-choice-action="finish"]')
     await expect(card, url + " deals its finish").toHaveCount(1)
-    await expect(card.locator("[data-immediate-label]")).toHaveText("Finish")
+    await expect(card.locator("[data-immediate-label]")).toHaveText("Submit")
     finish[url] = parseInt(((await card.locator(".ngodds").textContent()) || "0").replace("%", ""), 10)
     // the authored rate of the node the app DEALT as the finish (its own option list, not a lookup)
     const live = await page.evaluate(() => {

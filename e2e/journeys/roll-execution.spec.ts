@@ -1,3 +1,4 @@
+// v1.230.0 feedback_owner_rules_reverse_shipped_contracts: v1.218.1 Inspect and v1.220.0 sheet entry retired; execution checks retained.
 import { expect, test, type Page } from "@playwright/test"
 import { journey } from "../dsl"
 
@@ -32,7 +33,7 @@ async function transition(page: Page) {
 }
 
 for (const [width, height] of [[1440, 900], [390, 844]]) {
-  test(`@curated Inspect and execute are distinct real mouse actions at ${width}px`, async ({ page }) => {
+  test(`@curated Empty media and Choose are distinct real mouse actions at ${width}px`, async ({ page }) => {
     await page.setViewportSize({ width, height })
     const j = await ready(page), opt = await transition(page)
     const sel = `[data-tech="${opt.name}"]`
@@ -40,22 +41,16 @@ for (const [width, height] of [[1440, 900], [390, 844]]) {
     const printed = await page.locator(`${sel} .ngodds`).textContent()
     const title = await page.locator(`${sel} .ngchoice-title`).textContent()
     const before = await commits(page)
-    await j.clickByMouse(`${sel} [data-choice-inspect]`, "Inspect")
-    await expect(page.locator("[data-go]")).toBeVisible()
+    await j.clickByMouse(`${sel} [data-choice-media]`, "Inert media area")
     expect(await commits(page)).toBe(before)
-    await page.keyboard.press("Escape")
-    await expect.poll(() => page.evaluate(() => {
-      const a = (window as any).__neural
-      return !a._detailCtx && a.optionsRef.current.style.transform === "none"
-    })).toBe(true)
-    await page.locator(sel).scrollIntoViewIfNeeded()
+    await expect(page.locator("[data-choice-inspect]")).toHaveCount(0)
     const groups = await page.evaluate(() => {
       const root = (window as any).__neural.optionsRef.current
       const own = root.querySelector('[data-choice-group="you"]').getBoundingClientRect()
       const other = root.querySelector('[data-choice-group="opponent"]').getBoundingClientRect()
       return { ownRight: own.right, opponentLeft: other.left }
     })
-    expect(groups.ownRight, "Inspect must not collapse whole hand groups into a card slot")
+    expect(groups.ownRight, "own and opponent hand groups remain separate")
       .toBeLessThanOrEqual(groups.opponentLeft)
     await j.rig("resolve", [0]); await j.rig("outcome", Array(32).fill(0))
     const click = await page.locator(`${sel} .ngchoice-title`).boundingBox()
@@ -85,10 +80,10 @@ for (const [width, height] of [[1440, 900], [390, 844]]) {
   })
 }
 
-test("@curated shifted digits inspect, plain digits commit, and hidden hands ignore both", async ({ page }) => {
+test("@curated shifted digits are inert, plain digits commit, and hidden hands ignore both", async ({ page }) => {
   const j = await ready(page), before = await commits(page)
   await page.keyboard.press("Shift+Digit1")
-  await expect(page.locator("[data-go]")).toBeVisible()
+  await expect(page.locator("[data-go]")).toHaveCount(0)
   expect(await commits(page)).toBe(before)
   await page.keyboard.press("Escape")
   await page.evaluate(() => (window as any).__neural.setLayer("hand", false, "test"))

@@ -1,22 +1,13 @@
 import { test, expect } from "@playwright/test"
 import { journey } from "../dsl"
+import { openChoiceVideo, playChoiceVideo, NAME } from "../fixtures/video-cards"
 
-/**
- * P2 — ONE-BEACON GUIDANCE + PANIC-DRILL DEFENSE.
- *
- * Guidance law: at every beat there is EXACTLY ONE glowing next-thing (the Beat Beacon).
- * Defense drama: getting caught is a heartbeat moment with an inline escape drill whose
- * grading visibly improves the escape odds — and escaping snaps the tension off.
- *
- * Surfaces under test (neural/src/app.src.jsx):
- *   __neural.beaconState()        — { target } | null
- *   [data-beacon]                 — the SINGLE currently-highlighted surface
- *   [data-landcard=defense]                  — the inline defender micro-card shown when caught
- *   [data-panic-reveal]/[data-panic-got] — its reveal/grade buttons
- *   beats: beacon_moved, caught, panic_drill_opened, escape_odds_pumped, relief,
- *          coach_1/2/3 + coach_done (guided first roll), short_watched
- *   Guided First Roll: fresh visitors get a 3-beat coach; the decision clock is FROZEN until
- *   coach_done (the DSL's land() dismisses it by default; keepCoach opts in).
+/** v1.230.0 reverses v1.218.1/v1.220.0 Inspect and the owner's 2026-10-15
+ * question-6 decision removes its JIT drill and execute beacon. One-beacon guidance
+ * remains across the video viewer and card commits. Defense uses escape's v1.227.0 shared
+ * renderLandCard face; "panic" remains the grading/telemetry surface ID.
+ * Dossiers are suppressed by the harness, so Watch gets an explicit front fixture.
+ * Playback uses a hermetic player with real input and production callbacks.
  */
 
 test("one-beacon law: exactly one highlighted surface at every beat", async ({ page }) => {
@@ -32,30 +23,27 @@ test("one-beacon law: exactly one highlighted surface at every beat", async ({ p
   expect(await beaconCount()).toBe(1)
   expect(await beaconTarget()).toBe("options")
 
-  // PEEK: sheet open — beacon moves INTO the sheet (drill first, since odds are pumpable)
-  const options = await j.optionTitles()
-  await page.locator(`[data-tech="${options[0]}"]`).first().locator("[data-choice-inspect]").click()
+  // Opening and closing the video viewer leaves one invitation on the original hand.
+  await j.watchChoice(NAME)
   expect(await beaconCount()).toBe(1)
-  const inSheet = await beaconTarget()
-  expect(["jit", "execute"]).toContain(inSheet)
-
-  // DRILL: after two grades the beacon hands off to Execute (bonus banked → commit is next)
-  for (let i = 0; i < 2; i++) {
-    await j.jitGrade()
-  }
+  expect(await beaconTarget()).toBe("options")
+  await openChoiceVideo(page, NAME)
   expect(await beaconCount()).toBe(1)
-  expect(await beaconTarget()).toBe("execute")
-  await j.keyframe("p2-beacon-execute")
+  expect(await beaconTarget()).toBe("options")
+  await j.clickByMouse("[data-watch-close]", "Close Watch")
+  expect(await beaconCount()).toBe(1)
+  expect(await beaconTarget()).toBe("options")
 
-  // COMMIT: beacon count never exceeds 1 at any sampled moment
+  // Commit through the surviving action; no retired JIT/Execute highlight remains.
   await j.rig("resolve", [0.01])
   await j.rig("outcome", [0.01])
-  await page.locator("[data-go]").click()
+  await j.pick(NAME)
   await j.advance(2000)
   expect(await beaconCount()).toBeLessThanOrEqual(1)
-
-  const beats = (await j.beats()).map((b) => b.beat)
-  expect(beats.filter((b) => b === "beacon_moved").length).toBeGreaterThanOrEqual(3)
+  const targets = (await j.beats()).filter(b => b.beat === "beacon_moved").map((b: any) => b.target)
+  expect(targets).toContain("options")
+  expect(targets).not.toContain("jit")
+  expect(targets).not.toContain("execute")
 })
 
 test("defense drama: caught → panic drill → escape odds pump → relief", async ({ page }) => {
@@ -77,8 +65,10 @@ test("defense drama: caught → panic drill → escape odds pump → relief", as
   const panic = page.locator("[data-landcard=defense]")
   await expect(panic, "inline panic drill visible when caught").toBeVisible()
   await j.expectBeat("panic_drill_opened")
+  await j.decksSettled()
+  expect(await page.evaluate(() => (window as any).__neural._landMode)).toBe("defense")
+  await expect(panic.locator("[data-land-q]"), "the shared live-catch question").toBeVisible()
   await expect(page.locator(".ng-vignette"), "heartbeat vignette on").toHaveCount(1)
-  await j.keyframe("p2-panic-drill")
 
   // grading the defender card pumps the ESCAPE odds visibly. v1.135.0: the drill is MULTIPLE
   // CHOICE when the pool is warm (owner: "much more similar to the ng-landcard with multiple
@@ -92,10 +82,10 @@ test("defense drama: caught → panic drill → escape odds pump → relief", as
       : null
   })
   if (mcCorrect != null) {
-    await page.locator(`[data-panic-mc-opt="${mcCorrect}"]`).click()
+    await j.clickByMouse(`[data-panic-mc-opt="${mcCorrect}"]`, "Answer the live-catch question")
   } else {
-    await page.locator("[data-panic-reveal]").click()
-    await page.locator("[data-panic-got]").click()
+    await j.clickByMouse("[data-panic-reveal]", "Reveal the live-catch answer")
+    await j.clickByMouse("[data-panic-got]", "Grade the live-catch answer")
   }
   const escAfter = await page.evaluate(() => (window as any).__neural.escapeOddsSnapshot())
   expect(escAfter).toBeGreaterThan(escBefore)
@@ -103,7 +93,8 @@ test("defense drama: caught → panic drill → escape odds pump → relief", as
 
   // take the escape (rigged success) → relief, vignette snaps off
   await j.rig("escape", [0.01])
-  await page.evaluate(() => (window as any).__neural.pickFirstEscape())
+  await page.locator(".ng-choice-title-button").first().scrollIntoViewIfNeeded()
+  await j.clickByMouse(".ng-choice-title-button", "Choose the pumped escape")
   await j.advanceUntil("relief", 12000)
   await j.expectBeat("escape")
   expect(await page.evaluate(() => !(window as any).__neural._vignetteEl)).toBe(true)
@@ -116,37 +107,26 @@ test("defense drama: caught → panic drill → escape odds pump → relief", as
 // The SAME freeze still guards the checkpoint quiz and is pinned by
 // e2e/gen/mid-checkpoint-quiz-untimed.spec.ts, so the rule itself is not untested.
 
-test("film study: watchShort fires the beat; player onError falls back without crashing", async ({ page }) => {
+test("film study: explicit playback fires the beat; player failure offers a safe fallback link", async ({ page }) => {
+  const errors: string[] = []
+  page.on("pageerror", error => errors.push(error.message))
   const j = journey(page)
   await j.boot("/")
   await j.land("Mount Top")
-  const options = await j.optionTitles()
-  await page.locator(`[data-tech="${options[0]}"]`).first().locator("[data-choice-inspect]").click()
-  // stub the YouTube machinery — journeys must never hit youtube.com. The stub captures the
-  // player's events config so the test can fire the REAL onError closure.
-  await page.evaluate(() => {
-    ;(window as any).__opened = []
-    ;(window as any).open = (u: string) => ((window as any).__opened.push(u), null)
-    ;(window as any).YT = {
-      Player: function (this: any, _host: any, cfg: any) {
-        ;(window as any).__ytEvents = cfg.events
-        this.destroy = () => {}
-      },
-      PlayerState: { ENDED: 0 },
-    }
-  })
-  const result = await page.evaluate(() => {
-    const a = (window as any).__neural
-    try { return a.watchShort(0) ? "ok" : "no-clip" } catch (e: any) { return "crash: " + e.message }
-  })
-  expect(result).toBe("ok")
+  await openChoiceVideo(page, NAME)
+  expect((await j.beats()).filter(b => b.beat === "short_watched")).toHaveLength(0)
+  await playChoiceVideo(page)
   await j.expectBeat("short_watched")
 
-  // the player reports an error → fail() opens the raw YouTube link and collapses the card
-  const err = await page.evaluate(() => {
-    try { (window as any).__ytEvents.onError(); return "ok" } catch (e: any) { return "crash: " + e.message }
-  })
-  expect(err).toBe("ok")
-  expect(await page.evaluate(() => (window as any).__opened.length)).toBe(1)
-  expect(await page.evaluate(() => document.querySelectorAll(".ngPlayerHost").length)).toBe(0)
+  // Drive the real production failure callback, without the external provider.
+  await page.evaluate(() => (window as any).__players.at(-1).events.onError())
+  const fallback = page.locator('[data-choice-viewer] .ngPlayerHost a')
+  await expect(fallback).toHaveText("Open video on YouTube ↗")
+  await expect(fallback).toHaveAttribute("href", "https://www.youtube.com/watch?v=aaaaaaaaaaa")
+  await expect(fallback).toHaveAttribute("target", "_blank")
+  await expect(fallback).toHaveAttribute("rel", "noopener noreferrer")
+  expect((await j.beats()).filter(b => b.beat === "commit")).toHaveLength(0)
+  await j.clickByMouse("[data-watch-close]", "Close the failed player")
+  await expect(page.locator(".ngPlayerHost")).toHaveCount(0)
+  expect(errors).toEqual([])
 })

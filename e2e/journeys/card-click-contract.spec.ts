@@ -1,37 +1,11 @@
 import { expect, test, type Page } from "@playwright/test"
 import { journey } from "../dsl"
 
-/**
- * THE CARD IS THE MOVE, INSPECT IS THE BUTTON — AND THE CHOSEN CARD STAYS ON THE TABLE (v1.218.1).
- *
- * Owner, 2026-10-05, on the dev preview at v1.218.0:
- *  1. "when i'm in ezekiel choke from side control (defending), and i try to click this choice:
- *     [Escape · Chin tuck with two-on-one forearm block · Win chance 13% · Inspect · Escape 35%] it
- *     doesnt seem possible, any click on that card works as inspect and that shouldnt be so, it's a
- *     choice i just chose, not to inspect but to move"
- *  2. "sometimes clicking a choice card causes it to vanish (maybeo nly in submissions case? coudlnt
- *     confirm the scope)"
- *
- * THE CONTRACT (Phase 1, docs/Neural.md "Executing and inspecting an option"): a click on one of YOUR
- * cards executes it; only its Inspect control inspects. Every move type that executes is driven here
- * by a real MOUSE (`j.clickByMouse`, CLAUDE.md §6.3), body and Inspect both: a transition, a
- * submission entry, a Finish and an escape. A THREAT is the opponent's move, never yours: it stays
- * inspect-only, and that is pinned too.
- *
- * THE VANISH, NAMED: picking an ESCAPE (the hand you get while caught, `enterDefense`, which a URL
- * arrival on a Defender seat also runs) cleared the whole hand and left no card at all, where every
- * other pick leaves a non-actionable copy reading Executing and then its result (`executionCard`).
- * Measured in the real app (dev-serve, 1440 and 390, Ezekiel Choke from Side Control/Defender): 0
- * stand-in frames in 2.5s after the pick, the row empty. The second fault in the same seam: the
- * stand-in's offset ignored the row's left padding (tray inset + open pane), so it landed 378px
- * right of the clicked card with the pane open at 1440, 24px with it shut, 12px at 390.
- *
- * WHAT THE HARNESS SERVES: the submission choices (`submission-details/*.json`) are static files and
- * are served; dossier chunks are `{}` (nothing here reads one). The clock is pumped, so nothing moves
- * between a measurement and the click that follows it unless the spec advances it.
- *
- * Mutants, recorded on the built bundle (one at a time; a neutral control stayed green): see the
- * bottom of the file.
+/** v1.230.0 — feedback_owner_rules_reverse_shipped_contracts.
+ * Reverses v1.218.1's Inspect / shifted digits and v1.220.0's option-sheet entry.
+ * D-318: the whole card executes; only its play circle opens the viewer.
+ * The retained execution face, geometry, result and no-click-hole checks survive.
+ * Watch, front admission and keyboard isolation are covered by video-cards.spec.ts.
  * v1.227.0 regression: the generic defender's 53px overflow was dropped on teardown,
  * then the reader expanded by another 75px. Preserve the chosen card's column until
  * arrival; the original 2px assertion also runs through flight below.
@@ -98,20 +72,16 @@ async function seat(page: Page, kind: Kind) {
 }
 
 for (const kind of ["transition", "entry", "finish", "escape"] as Kind[]) {
-  test(`@curated ${kind}: a mouse click on Inspect inspects, a mouse click on the card executes`, async ({ page }) => {
+  test(`@curated ${kind}: no Inspect or Read, and the card title executes`, async ({ page }) => {
     const errors: string[] = []; page.on("pageerror", (e) => errors.push(e.message))
     const j = await seat(page, kind)
     const title = await mark(page, kind)
     const before = await state(page)
 
-    await j.clickByMouse("[data-cc-target] [data-choice-inspect]", `the Inspect control of "${title}"`)
-    const inspected = await state(page)
-    expect(inspected.inspecting, `Inspect on "${title}" opens its detail`).toBe(true)
-    expect(kind === "escape" ? inspected.preview : inspected.sheet, "...on the surface this kind inspects in").toBe(true)
-    expect([inspected.executing, inspected.stand, inspected.moves], "...and executes nothing").toEqual([false, null, before.moves])
-
-    await page.keyboard.press("Escape")
-    await expect.poll(async () => (await state(page)).inspecting, "Escape closes the inspection").toBe(false)
+    await expect(page.locator("[data-cc-target] [data-choice-inspect]")).toHaveCount(0)
+    await expect(page.locator("[data-cc-target] [data-choice-read], [data-cc-target] footer")).toHaveCount(0)
+    await page.keyboard.press("Shift+Digit1")
+    expect([(await state(page)).inspecting, (await state(page)).executing, (await state(page)).moves]).toEqual([false, false, before.moves])
 
     await j.clickByMouse("[data-cc-target] .ngchoice-title", `the body of "${title}"`)
     const executed = await state(page)
@@ -122,7 +92,7 @@ for (const kind of ["transition", "entry", "finish", "escape"] as Kind[]) {
   })
 }
 
-test("@curated a threat is the opponent's move: a mouse click inspects it and never plays it", async ({ page }) => {
+test("@curated a threat is the opponent's move: its title is inert and no execute or Read control exists", async ({ page }) => {
   const j = journey(page)
   await j.boot("/Submissions/Triangle-Choke/from-Triangle-Control/Attacker")
   await j.advance(4000)
@@ -139,7 +109,8 @@ test("@curated a threat is the opponent's move: a mouse click inspects it and ne
   const before = await state(page)
   await j.clickByMouse("[data-cc-threat] .ngchoice-title", `the opponent's threat "${title}"`)
   const after = await state(page)
-  expect(after.preview, "a threat opens its preview").toBe(true)
+  expect(after.preview, "the retired threat preview stays absent").toBe(false)
+  await expect(page.locator("[data-cc-threat] [data-choice-read], [data-cc-threat] [data-choice-execute]")).toHaveCount(0)
   await expect(page.locator("[data-choice-go]"), "...which offers no way to play it").toHaveCount(0)
   expect([after.executing, after.stand, after.moves], "...and nothing executes").toEqual([false, null, before.moves])
 })
@@ -215,18 +186,6 @@ test("@curated a card scrolled into the row's left inset keeps its place when ch
   expect(Math.abs(picked.stand!.box![0] - before.target![0]), `the stand-in keeps the card's x (${picked.stand!.box} vs ${before.target})`).toBeLessThanOrEqual(2)
 })
 
-/* MUTANTS, recorded 2026-10-05 on the built bundle (one at a time; the neutral control stayed green):
-   - escape body click inspects again (preview-first) .... "a click on the body of "Posture up" does not inspect", "the chosen
-                                                             escape does not vanish" x2, and submission-choices "the plain
-                                                             digit plays the escape: no preview"
-   - a threat routed to pick ............................... "a threat opens its preview"
-   - Inspect executes ...................................... "Inspect on "<card>" opens its detail", all four kinds
-   - the escape pick leaves no stand-in (THE VANISH) ....... "...and the chosen card stays on the table" + "the chosen escape
-                                                             does not vanish" at 1440 and 390
-   - row left padding not subtracted ....................... "...exactly where the card was" (48 vs 24 at 1440, 24 vs 12 at 390)
-                                                             + "the stand-in keeps the card's x"
-   - clamp's upper bound stops at the content box .......... "the stand-in sits on the clicked card" (1266 vs 1289.5)
-   - clamp's lower bound 0 ................................. "the stand-in keeps the card's x" (24 vs 12)
-   - escape result through setEvent (blocked by the stamp) . "the stand-in shows the escape's result", both widths
-   NON-KILL, recorded so nobody reads this file as covering it: the escape stand-in taking the camera
-   (`_execution.camera` left true) survives. The catch's framing during an escape is not pinned here. */
+/* Historical v1.218.1 execution mutants remain covered above. Inspect-specific
+   mutants were reversed with the owner contract; new input mutants are recorded
+   in video-cards.spec.ts and the v1.230.0 delivery report. */

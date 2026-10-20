@@ -1,3 +1,4 @@
+// v1.230.0: v1.218.1/v1.220.0 Inspect retires; the card tooltip retains the Works explanation.
 import { expect, test, type Page } from "@playwright/test"
 import { journey } from "../dsl"
 
@@ -23,8 +24,9 @@ import { journey } from "../dsl"
  *     "never prints 100%";
  *   - the follow-up priced at the CURRENT state (adapter `context(s, …)` / `moveChance(s, …)`): red
  *     at the control and at "Works == Finish";
- *   - the Inspect sheet's row printing `moveChance(n)` for an entry: red at "sheet == card".
- * Harness note: dossier chunks are served as `{}`, so the sheet has no film; nothing here reads one.
+ * The historical Inspect-row mutant retired with that shell in v1.230.0. The
+ * replacement assertion reads the actual card's accessible Works explanation.
+ * Harness note: dossier chunks are served as `{}`; this journey makes no video claim.
  */
 
 const DECK = "Closed Guard|Bottom"
@@ -72,7 +74,7 @@ test("a submission card prints the finish it leads to, never its certain step, a
   for (const t of NAMED) expect(subs.map((c) => c.t), t + " is dealt").toContain(t)
   for (const c of subs) {
     expect(c.label, c.t).toBe("Works")
-    expect(c.odds, c.t + " prints a finish chance").toMatch(/^\d+%$/)
+    expect(c.odds, c.t + " prints a finish chance").toMatch(/^\d+$/)
     expect(parseInt(c.odds, 10), c.t + " inside the clamp").toBeGreaterThanOrEqual(5)
     expect(parseInt(c.odds, 10), c.t + " inside the clamp").toBeLessThanOrEqual(95)
   }
@@ -85,18 +87,12 @@ test("a submission card prints the finish it leads to, never its certain step, a
   expect(differ.length, "the current-state price differs from Works here: " + JSON.stringify(subs.map((c) => [c.t, c.odds, c.here]))).toBeGreaterThan(0)
   const works = Object.fromEntries(subs.map((c) => [c.t, c.odds]))
 
-  // Inspect says the same thing in words, with the same number
-  await j.inspect(NAMED[0])
-  const sheet = await page.evaluate(() => {
-    const p = (window as any).__neural.optDetailRef.current
-    return { row: p.querySelector("[data-choice-follow-up]")?.textContent?.trim(), step: p.querySelector("[data-choice-entry-step]")?.textContent,
-      line: p.querySelector("[data-choice-immediate-line]")?.textContent, text: p.textContent }
-  })
-  expect(sheet.row, "the sheet's row is the card's number").toBe(works[NAMED[0]])
-  expect(sheet.step, "the step is said as a step").toMatch(/certain, no roll/)
-  expect(sheet.line).toMatch(/^Works \d+%: the finish's chance once you are in\. Stepping in is certain/)
-  expect(sheet.text, "the sheet never prints the step as 100%").not.toMatch(/100%/)
-  await page.keyboard.press("Escape")
+  // The choice's own accessible text explains Works, using the same follow-up chance.
+  const entry = page.locator(`[data-tech="${NAMED[0]}"] [data-choice-value]`)
+  await expect(entry).toContainText(works[NAMED[0]])
+  await expect(entry).toHaveAttribute("aria-label", /Works \d+%/)
+  await expect(entry).not.toHaveAttribute("aria-label", /100%/)
+  await j.watchChoice(NAMED[0])
 
   // Pick it: the entry is certain, and the Finish card you are dealt prints what Works promised
   await j.pick(NAMED[0])

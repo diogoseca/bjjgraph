@@ -561,7 +561,9 @@ writeFileSync(R("dist/reading.css"), readMin);
 // satisfied by an empty or missing reading.css, and "present in reading.css" is satisfied by a
 // build that ALSO left them in the eager sheet — which would ship them twice and save nothing.
 // A filename ban cannot see rules embedded in another file; only this can.
-const READ_PROBE = [".r-s", ".ng-reader-contents"];
+// Inspect's .r-s renderer and the horizontal contents strip are retired.
+// The complete article root must exist here and remain absent from the eager CSS.
+const READ_PROBE = [".ng-reader article"];
 for (const sel of READ_PROBE) {
   if (!readMin.includes(sel)) {
     throw new Error(

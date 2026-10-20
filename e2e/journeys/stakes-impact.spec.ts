@@ -1,5 +1,7 @@
+// v1.230.0: the owner dropped practise-before-you-try on 2026-10-15 (question 6).
 import { test, expect } from "@playwright/test"
 import { journey } from "../dsl"
+import { bootVideoCards, NAME, CARD } from "../fixtures/video-cards"
 
 /**
  * P3 — STAKES, IMPACT & THE LONG GAME (spec first). ONE balance change-set.
@@ -42,8 +44,9 @@ test("sharpness decays per landing, mastery persists", async ({ page }) => {
   }, target)
 
   const before = await j.displayedOdds(target)
-  await page.locator(`[data-tech="${target}"]`).first().locator("[data-choice-inspect]").click()
-  await j.jitGrade()
+  await j.watchChoice(target)
+  await j.studyChoice(target)
+  await j.studyGrade()
 
   // one grade = +0.03 mastery (permanent) + 0.10 sharpness (fresh)
   const split1 = await page.evaluate((k) => (window as any).__neural.bonusSplit(k), key)
@@ -54,7 +57,8 @@ test("sharpness decays per landing, mastery persists", async ({ page }) => {
   // execute the move (rigged success) → next landing decays sharpness one step
   await j.rig("resolve", [0.01])
   await j.rig("outcome", [0.01])
-  await page.locator("[data-go]").click()
+  await page.keyboard.press("Escape")
+  await j.pick(target)
   await j.advanceUntil("impact_success", 20000)
   await j.nextHand() // travel + landing (the decay tick) + the next deal
   const split2 = await page.evaluate((k) => (window as any).__neural.bonusSplit(k), key)
@@ -178,25 +182,23 @@ test("victory cascade ≤1.5s on win; defeat drain on loss; ladder survives relo
   expect(rank2).toBe(rank1 - 1)
 })
 
-test("film-study first look: +4% once per technique, never stacking", async ({ page }) => {
-  const j = journey(page)
-  await j.boot("/")
-  await j.land("Mount Top")
-  const options = await j.optionTitles()
-  const target = options[0]
-  const before = await j.displayedOdds(target)
-  await page.locator(`[data-tech="${target}"]`).first().locator("[data-choice-inspect]").click()
-  await page.evaluate(() => {
-    ;(window as any).YT = { Player: function (this: any) { this.destroy = () => {} }, PlayerState: { ENDED: 0 } }
-  })
-  await page.evaluate(() => (window as any).__neural.watchShort(0))
-  expect((await j.displayedOdds(target)) - before).toBe(4)
+test("film-study first look: +4% on explicit playback once per technique, never stacking", async ({ page }) => {
+  await page.setViewportSize({ width: 1366, height: 768 })
+  const j = await bootVideoCards(page)
+  const before = await j.displayedOdds(NAME)
+  await j.clickByMouse(`${CARD} [data-choice-watch]`, "Watch the move")
+  await expect(page.locator('[data-test-player]')).toHaveCount(1)
+  expect(await j.displayedOdds(NAME), "opening the viewer awards nothing").toBe(before)
+  const play = page.frameLocator('[data-test-player]').locator('button')
+  await expect(play).toBeVisible()
+  const hit = await play.boundingBox()
+  expect(hit).not.toBeNull()
+  await page.mouse.click(hit!.x + hit!.width / 2, hit!.y + hit!.height / 2)
+  expect((await j.displayedOdds(NAME)) - before).toBe(4)
   await j.expectBeat("film_first_look")
-  // watching again (or another clip of the same technique) must NOT stack
-  await page.evaluate(() => (window as any).__neural.watchShort(1))
-  expect((await j.displayedOdds(target)) - before).toBe(4)
-  const count = (await j.beats()).filter((b: any) => b.beat === "film_first_look").length
-  expect(count).toBe(1)
+  await page.mouse.click(hit!.x + hit!.width / 2, hit!.y + hit!.height / 2)
+  expect((await j.displayedOdds(NAME)) - before).toBe(4)
+  expect((await j.beats()).filter((b: any) => b.beat === "film_first_look").length).toBe(1)
 })
 
 test("journey recorder: captures actions and rng draws for replay authoring", async ({ page }) => {

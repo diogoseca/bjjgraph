@@ -1,13 +1,6 @@
-/* The existing 150 × 144 hand geometry is retained. Values repaint in place. */
-.ngcv-line { display:flex; align-items:baseline; justify-content:space-between; gap:6px; color:#bdcce4; font-size:10px; line-height:20px; white-space:nowrap; }
-.ngcv-line strong { font-size:16px; color:#edf3ff; font-variant-numeric:tabular-nums; }
-.ngcv-line small { font-size:11px; color:#aab9d3; }
-.ngcv-card { margin-top:2px; }
-/* ON A CARD, WIN CHANCE IS THE QUIET LINE (owner 2026-10-05): label and value at --ng-win of the move's
-   own number (--ng-move-num), both set on the card by buildOptionCard (app.src.jsx NG_CARD_*). */
-.ngcv-card .ngcv-line, .ngcv-card .ngcv-line strong { font-size:calc(var(--ng-move-num, 15px) * var(--ng-win, .6)); }
-.ngcv-card .ngcv-line strong { font-weight:600; color:#c9d5ea; }
-.ngcv-card[data-status="pending"] strong { color:#b8c7e0; }
+/* v1.230.0: feedback_owner_rules_reverse_shipped_contracts (v1.218.1,
+   v1.220.0). The approved video card replaces Inspect and the 0.6 stat ratio.
+   The chosen face retains its 1/12 lift over 440ms. */
 /* A previous number shown while the same hand re-solves (ngChoiceValueUpdating; threat cards too). */
 [data-choice-stale] { opacity:.42; animation:ngcvStale 1.4s ease-in-out infinite alternate; }
 @keyframes ngcvStale { to { opacity:.62; } }
@@ -15,19 +8,49 @@
 /* ...AND SAYS SO IN ITS SHAPE (v1.220.0, #267 review): dimming alone is easy to miss on a phone or under
    Dark Reader, so a stale number reads "52%…". Its aria-label says "…, updating" (choice-value.src.js). */
 [data-choice-stale]::after { content:"\2026"; }
-.ngcv-detail { padding:14px 0 2px; color:#cad5e8; }
-/* THE SHEET'S WIN CHANCE HEADLINE, label and value, at --ng-win of the sheet's own move % (--ng-move-num, set
-   on the sheet's head: app.src.jsx NG_SHEET_MOVE_NUM). Its outcome numbers match it, so the breakdown never
-   outshouts its headline; the breakdown's prose stays 12px, legible at 390. */
-.ngcv-detail .ngcv-line, .ngcv-detail .ngcv-line strong { font-size:calc(var(--ng-move-num, 25px) * var(--ng-win, .6)); }
-.ngcv-detail .ngcv-line { white-space:normal; }
-.ngcv-detail p { font-size:12px; line-height:1.5; margin:10px 0; }
-.ngcv-detail .ngcv-note { color:#aab9d3; }
-.ngcv-outcomes { display:flex; gap:10px; padding:12px 0; margin:0; border-bottom:1px solid rgba(150,170,210,.15); }
-.ngcv-outcomes > div { flex:1; }
-.ngcv-outcomes dt { font-size:11px; color:#aab9d3; }
-.ngcv-outcomes dd { margin:4px 0 0; font-size:calc(var(--ng-move-num, 25px) * var(--ng-win, .6)); font-variant-numeric:tabular-nums; }
-.ngcv-execute { display:flex; flex-direction:column; align-items:stretch; flex:none; width:100%; border:0; padding:0; background:transparent; color:inherit; font:inherit; text-align:inherit; cursor:pointer; pointer-events:auto; }
-.ngcv-execute:focus-visible { outline:2px solid #c5d6ff; outline-offset:-3px; }
-[data-choice-inspect] { position:relative; z-index:2; }
-[data-choice-inspect]:focus-visible { outline:2px solid #c5d6ff; border-radius:4px; }
+.ng-choice-card { position:relative; flex:0 0 174px; width:174px; height:176px; box-sizing:border-box; display:flex; flex-direction:column; overflow:hidden; border:1px solid rgba(150,170,210,.25); border-radius:11px; background:#1c2034; color:#eef1f6; pointer-events:auto; }
+.ng-choice-card button { font:inherit; color:inherit; border:0; background:none; cursor:pointer; pointer-events:auto; }
+.ng-choice-execute { display:flex; flex-direction:column; width:100%; height:100%; padding:0; }
+.ng-choice-title-button { flex:none; display:flex; align-items:center; gap:7px; height:44px; width:100%; box-sizing:border-box; padding:5px 9px; text-align:left; }
+.ng-choice-title-button [data-choice-number] { color:#eef1f6; font-size:8.5px; font-weight:700; }
+.ng-choice-title-button [data-choice-shape=triangle] [data-choice-number] { transform:translateY(2px); }
+.ng-choice-shape { position:relative; display:inline-grid; place-items:center; width:20px; height:20px; flex:none; color:#b3c6ea; }
+.ng-choice-shape svg { position:absolute; inset:0; width:100%; height:100%; fill:#b3c6ea26; stroke:currentColor; stroke-width:1.5; stroke-linejoin:round; }
+.ng-choice-shape > :not(svg) { position:relative; }
+.ngchoice-title { min-width:0; flex:1; font-size:13px; font-weight:600; line-height:1.22; }
+.ngchoice-title > span { display:block; }
+.ng-choice-media { flex:none; width:100%; height:86px; display:grid; place-items:center; background:#101423; color:#8190aa; font-size:10px; overflow:hidden; }
+.ng-choice-media img { display:block; width:100%; height:100%; object-fit:cover; }
+.ng-choice-card .ng-choice-watch { position:absolute; left:calc(50% - 22px); top:65px; width:44px; height:44px; padding:0; border:1px solid #b3c6ea; border-radius:50%; background:rgba(8,10,16,.85); }
+.ng-choice-watch > span { display:block; padding-left:2px; font-size:17px; }
+.ng-choice-card .ngcv-card { display:flex; flex:none; width:100%; height:44px; margin:0; padding:4px 9px; box-sizing:border-box; text-align:left; border-bottom:1px solid rgba(150,170,210,.12); }
+.ng-choice-stat { display:flex; flex:1; flex-direction:column; gap:2px; line-height:1.1; }
+.ng-choice-stat + .ng-choice-stat { border-left:1px solid rgba(150,170,210,.16); padding-left:12px; }
+.ng-choice-stat > span { font-size:10px; color:#aab9d3; }
+.ng-choice-stat > strong { font-size:18px; font-weight:600; color:#edf3ff; font-variant-numeric:tabular-nums; }
+.ng-choice-badge { position:absolute; left:6px; top:48px; color:#eef3ff; background:#202e4a; border-radius:3px; font-size:9px; padding:3px 5px; pointer-events:none; }
+.ng-choice-badge:empty { display:none; }
+.ng-choice-card .ngbar { position:absolute; left:0; bottom:0; height:3px; width:100%; background:#b3c6ea; transform-origin:left; transform:scaleX(1); pointer-events:none; }
+.ng-choice-card button:hover { background-color:rgba(150,180,255,.08); }
+.ng-choice-card .ng-choice-watch:hover { background:#293b5a; }
+.ng-choice-card button:focus-visible { outline:2px solid #c5d6ff; outline-offset:-3px; }
+.ng-choice-viewer { width:min(620px,calc(100vw - 24px)); padding:12px; box-sizing:border-box; border:1px solid #637392; border-radius:14px; background:#151a2b; color:#eef1f6; }
+.ng-choice-viewer::backdrop { background:rgba(3,6,14,.75); }
+.ng-choice-viewer header { display:flex; align-items:center; justify-content:space-between; gap:12px; font-size:14px; }
+.ng-choice-viewer header button { width:44px; height:44px; flex:none; border:0; background:none; color:inherit; cursor:pointer; }
+.ng-choice-viewer .ng-clip { width:100%!important; height:auto!important; aspect-ratio:16/9; }
+/* One full clip + ten percent of the next. The header and score stay fixed;
+   only this row scrolls. 400px -> 241px high; 358px -> 220px high. */
+.ng-landfilm.ng-current-card { padding:0!important; box-sizing:border-box; border:1px solid rgba(150,170,210,.28); border-radius:12px; background:#171d2e; overflow:hidden; color:#eef1f6; --film-fade:0px!important; }
+.ng-current-card .ng-current-title { position:absolute; top:0; left:0; right:0; z-index:3; display:flex; align-items:center; gap:7px; padding:10px 46px 12px 12px; font-size:14px; font-weight:600; background:linear-gradient(#101627e8,#101627a0,transparent); pointer-events:none; }
+.ng-landfilm.ng-current-card .ng-cliprow { padding:0!important; margin:0!important; gap:8px!important; scroll-snap-type:x mandatory; mask-image:none!important; -webkit-mask-image:none!important; }
+.ng-landfilm.ng-current-card .ng-cliprow .ng-clip { flex:0 0 calc(90.9090909% - 7.272727px); width:calc(90.9090909% - 7.272727px)!important; height:auto!important; aspect-ratio:16/9; border:0!important; border-radius:0; transition:none; }
+.ng-landfilm.ng-current-card[data-single-video] .ng-clip { flex-basis:100%; width:100%!important; }
+.ng-current-card footer { margin:0; opacity:1; display:flex; align-items:center; justify-content:space-between; height:40px; padding:0 12px; box-sizing:border-box; font-size:11px; color:#aab9d3; }
+.ng-current-stat { display:flex; flex-direction:column; min-width:64px; gap:1px; font-size:10px; }
+.ng-current-stat strong { font-size:18px; line-height:1.1; color:#edf3ff; font-variant-numeric:tabular-nums; }
+.ng-landfilm.ng-current-card [data-film-close] { left:auto!important; right:0!important; top:0!important; width:44px!important; height:44px!important; z-index:4!important; }
+.ng-current-card .ng-film-arrow { top:calc(50% - 42px); }
+.ng-current-card [data-film-prev] { left:0; }
+.ng-current-card [data-film-next] { right:0; }
+.ng-current-card .ng-clip::after, .ng-choice-viewer .ng-clip::after { display:none; }

@@ -586,29 +586,34 @@ export class Journey {
     });
   }
 
-  /**
-   * GRADE THE JIT DRILL CORRECTLY, WHATEVER FORMAT IT IS ASKING IN.
-   *
-   * The in-sheet micro-drill follows `askFormat`: an unproven card (stage < 2) asks MULTIPLE
-   * CHOICE, a card at its MC cap reads back as recall, and a deck whose distractor pool is cold
-   * falls back to recall too. Every caller of this helper is asserting something about the
-   * ECONOMY — the odds pump, the lesson-done math, the refund budget — and not one of them is
-   * about which format the question wore, so the format lives here instead of in six specs.
-   *
-   * Answers from `__neural._mc` (surface "jit") rather than re-deriving the correct option: a
-   * spec-side copy of the grader would agree with a broken build by construction (§6.3).
-   */
-  async jitGrade() {
-    const fmt = await this.page.evaluate(() => {
-      const m = (window as W).__neural._mc;
-      return m && m.surface === "jit" ? m.correct : null;
-    });
-    if (fmt == null) {
-      await this.page.locator("[data-jit-reveal]").click();
-      await this.page.locator("[data-jit-got]").click();
-    } else {
-      await this.page.locator("[data-jit-mc-opt]").nth(fmt).click();
-    }
+  /** Fixture setup for economy assertions: open the existing sidebar study surface.
+   * There is no longer a Practice action on a choice (owner, 2026-10-15). This helper
+   * claims no public entry path; all grades below use the visible study controls. */
+  async studyChoice(title: string) {
+    const key = await this.page.evaluate((name) => {
+      const a = (window as W).__neural;
+      const opt = a._optList.find((o: any) => o.node.t === name);
+      if (!opt) throw new Error(`No dealt choice: ${name}`);
+      return a.deckKeyFor(opt.node).key as string;
+    }, title);
+    await this.hydrate([key]);
+    await this.page.evaluate((key) => {
+      const a = (window as W).__neural;
+      a.set("mcMode", "classic");
+      a.openStudy(key);
+      a.drillFootRef.current.dataset.studyFoot = "1";
+    }, key);
+    await expect(this.page.locator('.ng-drill[data-pane-study] [data-reveal]')).toBeVisible();
+    expect(await this.page.evaluate(() => (window as W).__neural._deckInfo.key)).toBe(key);
+    return this;
+  }
+
+  /** Grade one real sidebar recall card, through its pinned Reveal / Got it buttons. */
+  async studyGrade() {
+    await this.clickByMouse('.ng-drill [data-study-foot] [data-reveal]', 'Reveal the study answer');
+    const got = '.ng-drill [data-study-foot] > div:first-child > button:nth-child(2)';
+    await expect(this.page.locator(got)).toHaveText('Got it');
+    await this.clickByMouse(got, 'Grade the study answer');
     return this;
   }
 
@@ -922,21 +927,22 @@ export class Journey {
     });
   }
 
-  /** Commit an own option through its tray card. Inspection is a separate action. */
+  /** Commit an own option through its title, clear of the separate play circle. */
   async pick(technique: string) {
     const card = this.page.locator(`[data-tech="${technique}"]`).first();
     await expect(card, `option card for "${technique}" visible`).toBeVisible();
-    await card.click();
+    await card.locator(".ng-choice-title-button").scrollIntoViewIfNeeded();
+    await this.clickByMouse(`[data-tech="${technique}"] .ng-choice-title-button`, "Choose " + technique);
     return this;
   }
 
-  /** Open the existing detail sheet without committing the move. */
-  async inspect(technique: string) {
-    const card = this.page.locator(`[data-tech="${technique}"]`).first();
-    await expect(card, `option card for "${technique}" visible`).toBeVisible();
-    await card.locator("[data-choice-inspect]").click();
-    const go = this.page.locator("[data-go]").first();
-    await expect(go, "expand-sheet Execute button visible").toBeVisible();
+  /** D-318 retires Read. Research/economy fixtures use an approved video via the
+   * real dossier fetch and a real play-circle click, then close without playback. */
+  async watchChoice(technique: string) {
+    const { openChoiceVideo } = await import("./fixtures/video-cards");
+    await openChoiceVideo(this.page, technique);
+    await this.clickByMouse("[data-watch-close]", "Close the video viewer");
+    await expect(this.page.locator("[data-choice-viewer]")).toHaveCount(0);
     return this;
   }
 
