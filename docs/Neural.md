@@ -77,30 +77,31 @@ the vignette. The complete linked article appears below the game controls.
 
 **Reading and minimizing.** Articles survive grading and card replacement, with native
 scrolling and 16px prose. The node's other half changes role; no role switch (D-318).
-Questions and Moves have headers and eyes. Choices precede cards with 6px gaps:
-untitled Videos, Overview, Essential principles, setup/recognition, options,
-safety, mistakes, other authored sections, Related. Learning/System Sources stays last; missing
-groups are omitted. Hubs include the full Top/Attacker guide; role pages add only shared hub
-safety. Failed loads offer Retry.
+Order (D-338): Videos, Moves, Questions, then Overview, Essential principles, setup/recognition,
+options, safety, mistakes, other authored sections, Related, with 6px gaps. Videos, Moves and
+Questions carry no header; the article's sections keep their titles. Learning/System Sources stays
+last; missing groups are omitted. Hubs include the full Top/Attacker guide; role pages add only
+shared hub safety. Failed loads offer Retry.
 
-Collapsed headers stay opaque and readable. Contents floats at the right-control inset without
-a container or layout space. It hides at width ≤640px, height ≤500px, or a gutter below212px:
-below1152px with the 680px column and 24px inset. Labels scroll; eyes toggle bodies.
-The index names technique, role and origin. Arrival centres the node above sections; scrolling
-covers it with prose without moving it into a gutter.
-`readerSection.*` defaults shown, merges per-key timestamps, and is edited in Settings → Rolling →
-Article sections. Focus never overwrites it.
+One close icon on every width (D-338): the ghost ✕ of the card and the hand, also on each
+section's corner. A closed section or part leaves a light label, its glyph above its name, no box;
+the label reopens it. Contents floats at the right-control inset without a container or layout
+space. It hides at width ≤640px, height ≤500px, or a gutter below 212px: below 1152px with the
+680px column and 24px inset. Its rows only navigate and dim what is closed; its heading reads role
+first ("Escaping Loop Choke from Half Guard"). The Moves tray ends short of it. Arrival centres the
+node above sections; scrolling covers it with prose without moving it into a gutter.
+`readerSection.*` defaults shown, merges per-key timestamps, and is also edited in Settings →
+Rolling → Article sections.
 
-With Book shown the shelf is absent; Questions, Moves and Videos join the index. Book off keeps
-the restore shelf. Eyes have ≥44px targets. `landFilm/Card/Hand/Map/Feedback`
-store normal visibility; `readerBook` controls the article. Hidden questions are not built;
-hidden hands remain dealt and untimed.
-**Focus on reading** saves `readingFocus` and `readingCard/Hand/Map/Feedback` overrides, preserving
-game preferences. `readingFilm` stays stored; `readerSection.videos` controls article media.
-Only Focus reapplies its preset; navigation, reload and sync retain restores.
-Restores and leaving Focus start no play. References offer Study tools.
+With Book shown the shelf is absent and no control turns the article, Map or Feedback off (D-338:
+no View menu). The logo opens the pane, as Browse did. Book off, a saved state only, keeps the
+restore shelf. `landFilm/Card/Hand/Map/Feedback` store normal visibility; with the article shown
+the film follows `readerSection.videos` in its Videos section. `readerBook` controls the article.
+Hidden questions are not built; hidden hands remain dealt and untimed. Focus on reading is retired
+(D-338): `readingFocus` and `readingCard/Hand/Map/Feedback` are no longer read. Restores start no
+play. References offer Study tools.
 
-Content URLs, Browse and links prepare dormant controls (`NG_READING_DEFAULT_ON_CONTENT_URL`).
+Content URLs and links prepare dormant controls (`NG_READING_DEFAULT_ON_CONTENT_URL`).
 A move or answer starts play, without a Practice gate, prior clock or miss.
 Principle, Learning, System and content-only pages have no seat. Automatic articles never pause
 a move; scrolling, selection or prose focus declines the live question and pauses without a

@@ -1230,7 +1230,7 @@ class Component extends DCLogic {
     try {
       this._onNeuralPopstate = () => {
         if (!this._progressCurrent()) return;
-        if (history.state?.ngReading || this._readerIntent || this.get("readingFocus", false)) { this._readArticle(location.pathname + location.hash, true, false); return; }
+        if (history.state?.ngReading || this._readerIntent) { this._readArticle(location.pathname + location.hash, true, false); return; }
         const hit = this._nodeAndRoleForPath(location.pathname);
         if (hit.idx >= 0) this.rollFromPosition(hit.idx, true, hit.role);
         // ...and Back onto a concept or system page re-opens that page, the same way arriving on
@@ -11794,7 +11794,8 @@ class Component extends DCLogic {
     const content = /^\/(Positions|Transitions|Submissions|Principles|Learning|Systems)(?:\/|$)/i.test(location.pathname);
     if (content) {
       this._readerInitialPath = location.pathname + location.hash;
-      if (NG_READING_DEFAULT_ON_CONTENT_URL || this.get("readingFocus", false) ||
+      // `readingFocus` is no longer read (D-338 retired Focus on reading; the key stays, §6.6).
+      if (NG_READING_DEFAULT_ON_CONTENT_URL ||
           /^(?:\/(Principles|Learning|Systems))(?:\/|$)/i.test(location.pathname) || this._nodeAndRoleForPath(location.pathname).idx < 0) {
         const hit = this._nodeAndRoleForPath(location.pathname);
         if (hit.idx >= 0) {
@@ -15861,7 +15862,7 @@ class Component extends DCLogic {
   _layerOn(name) {
     if (name === "film" && this._reader) return this._reader.wantsMedia() || this.get("landFilm", true) !== false;
     const k = NG_LAYER_KEYS[name];
-    return !k || this.get(this.get("readingFocus", false) ? "reading" + k.slice(4) : k, true) !== false;
+    return !k || this.get(k, true) !== false;
   }
   /** A put-away hand stays away, CAUGHT OR NOT (v1.171.1, owner — a Defender URL arrival with
    *  only the videos on showed the escape tray: "if I didn't ask to see outcomes don't show them
@@ -15875,7 +15876,7 @@ class Component extends DCLogic {
     if (name === "film" && this._reader?.wantsMedia() && src !== "settings") { this._reader.toggleSection("videos", on !== false); return true; }
     on = on !== false;
     if (this._layerOn(name) === on) return false;
-    this.set(name === "film" && this._reader ? "landFilm" : this.get("readingFocus", false) ? "reading" + NG_LAYER_KEYS[name].slice(4) : NG_LAYER_KEYS[name], on);
+    this.set(name === "film" && this._reader ? "landFilm" : NG_LAYER_KEYS[name], on);
     this.fx("land_layer", { layer: name, on: on, src: src || "api" });
     // A layer toggle invalidates the cached teardown framing; the next frame measures
     // the newly docked surfaces, including any space this toggle has freed.

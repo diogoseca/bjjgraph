@@ -139,24 +139,36 @@
 .ng-reader { position:absolute;z-index:5;box-sizing:border-box;overflow:auto;overflow-x:hidden;overscroll-behavior:contain;overflow-anchor:none;touch-action:pan-y;scrollbar-width:thin;--reader-unit:20px;--section-gap:6px; }
 .ng-reader[hidden],.ng-reader [hidden] { display:none!important; }
 .ng-reader-game { position:relative;pointer-events:none;overflow-x:clip; }
-.ng-reader-game>:is([data-reader-game-part=card],[data-reader-game-part=hand]) { pointer-events:auto; }
+.ng-reader-game>:is([data-reader-game-part=card],[data-reader-game-part=hand],.ng-section-card,.ng-reader-closed-part) { pointer-events:auto; }
 .ng-reader-game>[data-reader-game-part=card] { touch-action:pan-y; }
 .ng-reader-article { pointer-events:auto;color:#d6def0;font:16px/1.65 "Plus Jakarta Sans",sans-serif;padding-bottom:30px; }
 .ng-reader-head { box-sizing:border-box;position:relative;pointer-events:auto;display:flex;flex-wrap:wrap;justify-content:flex-end;gap:6px;margin:0 0 6px;z-index:7;background:#1b2034;border:1px solid #414c68;border-radius:10px;padding:4px 8px; }
 .ng-reader>.ng-reader-head { position:absolute; }
+.ng-reader-head[data-bare] { margin:0;padding:0;border:0;background:none; }
 .ng-reader-head h1 { position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%); }
 .ng-reader-tools { display:flex;align-items:center;flex-wrap:wrap;gap:4px; }
 .ng-reader-article button,.ng-reader-tools button { pointer-events:auto;min-height:44px;font:inherit;color:#d6def0;background:#29334d;border:1px solid #596782;border-radius:8px;cursor:pointer;padding:8px 10px; }
 .ng-reader-tools button { font:12px "Plus Jakarta Sans",sans-serif; }
 .ng-reader-game>.ng-reader-tools { pointer-events:auto; }
-.ng-reader-game-heading { box-sizing:border-box;margin:0;font:600 17px/1.4 "Space Grotesk",sans-serif;color:#f0f3fa;background:#1b2034;box-shadow:inset 0 0 0 1px #414c68;border-radius:10px; }
-.ng-reader-game-heading button { display:flex;align-items:center;justify-content:space-between;width:100%;height:44px;padding:0 14px;border:0;background:none;color:inherit;font:inherit;cursor:pointer; }
 .ng-reader [data-reader-body] { min-width:0;display:grid;gap:var(--section-gap); }
 .ng-section-card { background:#1b2034;border:1px solid #414c68;border-radius:14px;min-width:0;overflow:clip; }
-.ng-section-card>h2 { margin:0;color:#f0f3fa;font:600 21px/1.4 "Space Grotesk",sans-serif; }
-.ng-reader-article [data-section-toggle] { display:flex;align-items:center;justify-content:space-between;gap:12px;width:100%;min-height:56px;padding:12px var(--reader-unit);border:0;border-radius:0;background:transparent;color:inherit;font:inherit;text-align:left; }
-.ng-section-eye { display:inline-flex;width:18px;height:18px;flex:0 0 18px; }
-.ng-section-eye svg { width:100%;height:100%; }
+/* D-338 (owner): one close icon on every width, the ghost ✕ the question card and the hand
+   already wear (NG_GHOST_BTN_CSS: a 24px #8b97b0 glyph), on a 44px target. A closed section
+   is a light label instead, its glyph above its name: no box, no outline, centred. */
+.ng-section-card>h2 { display:flex;align-items:center;gap:12px;box-sizing:border-box;min-height:56px;margin:0;padding:6px 6px 6px var(--reader-unit);color:#f0f3fa;font:600 21px/1.4 "Space Grotesk",sans-serif; }
+.ng-section-title { flex:1;min-width:0; }
+.ng-reader :is([data-section-toggle],[data-game-open]) { flex:none;display:grid;place-items:center;width:44px;height:44px;min-height:44px;margin:0;padding:0;border:0;border-radius:7px;background:none;box-shadow:none;color:#8b97b0;font:12px/1 "Plus Jakarta Sans",sans-serif;text-align:center;cursor:pointer; }
+.ng-section-x { display:grid;place-items:center;width:24px;height:24px;border-radius:7px;transition:color .15s,background .15s; }
+.ng-reader [data-section-toggle]:hover .ng-section-x { color:#dbe2f0;background:#ffffff14; }
+.ng-section-closed { display:none; }
+.ng-reader [data-collapsed=true] .ng-section-x { display:none; }
+.ng-reader [data-collapsed=true] .ng-section-closed { display:flex;flex-direction:column;align-items:center;gap:3px; }
+.ng-section-card[data-collapsed=true] { background:none;border-color:transparent; }
+.ng-section-card[data-collapsed=true]>h2 { justify-content:center;padding:0; }
+.ng-section-card[data-collapsed=true] .ng-section-title { display:none; }
+.ng-reader :is(.ng-section-card[data-collapsed=true] [data-section-toggle],.ng-reader-closed-part [data-game-open]) { width:100%;height:auto;min-height:56px;padding:6px 12px;color:#a8b0c2;font:600 13px/1.3 "Space Grotesk",sans-serif; }
+.ng-reader :is(.ng-section-card[data-collapsed=true] [data-section-toggle],.ng-reader-closed-part [data-game-open]):hover { color:#dbe2f0; }
+.ng-section-glyph { font-size:18px;line-height:1;color:#6b7691; }
 .ng-section-body { padding:0 var(--reader-unit) var(--reader-unit); }
 .ng-section-body article { all:revert;display:block;font:inherit;color:inherit;overflow-wrap:break-word; }
 .ng-section-body article+article { margin-top:var(--reader-unit); }
@@ -175,10 +187,11 @@
 .ng-section-body img { max-width:100%; }
 .ng-section-body :is(.section-subtitle,.entity-relations) { opacity:1;color:#b6c5df; }
 .ng-section-body blockquote { margin:0 0 var(--reader-unit);padding:12px;border-left:2px solid #ffb45a;background:#ffb45a08;color:#d6def0; }
-.ng-reader-game-heading[data-collapsed=true],.ng-section-card[data-collapsed=true]>h2,.ng-reader-toc-row[data-collapsed=true] { color:#a8b0c2; }
-.ng-section-card[data-section-type=videos]:not([data-collapsed=true])>h2 { height:0;position:relative;z-index:6; }
-.ng-reader-article [data-section-type=videos]:not([data-collapsed=true]) [data-section-toggle] { position:absolute;right:0;top:0;width:44px;min-height:44px;padding:13px;background:#1b2034ed;border-radius:0 0 0 8px; }
-.ng-section-card[data-section-type=videos]:not([data-collapsed=true]) [data-section-toggle]>span:first-child { position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%); }
+.ng-reader-toc-row[data-collapsed=true] { color:#a8b0c2; }
+/* Video names no header either: its ✕ sits in the corner, over the clip's own frame. */
+.ng-section-card[data-section-type=videos]:not([data-collapsed=true])>h2 { height:0;min-height:0;padding:0;position:relative;z-index:6; }
+.ng-section-card[data-section-type=videos]:not([data-collapsed=true]) .ng-section-title { display:none; }
+.ng-reader [data-section-type=videos]:not([data-collapsed=true]) [data-section-toggle] { position:absolute;right:0;top:0;background:#1b2034ed;border-radius:0 0 0 8px; }
 .ng-section-card[data-section-type=videos] :is(.section-body,.ng-section-body) { padding-top:14px; }
 .ng-section-card[data-section-type=videos] .section-subtitle { padding-right:32px; }
 .ng-reader :is([data-reader-media],[data-reader-game-media]) { position:relative!important;inset:auto!important;transform:none!important;width:100%!important;visibility:visible!important;opacity:1!important; }
@@ -188,15 +201,11 @@
 .ng-reader-toc { position:fixed;z-index:6;width:200px;box-sizing:border-box;overflow-y:auto;overscroll-behavior:contain;touch-action:pan-y;cursor:auto;background:none;border:0;box-shadow:none;padding:0;color:#d6def0;font:13px/1.4 "Plus Jakarta Sans",sans-serif;text-shadow:1px 0 #111726,-1px 0 #111726,0 1px #111726,0 -1px #111726; }
 .ng-reader-toc[hidden] { display:none!important; }
 .ng-reader-toc h2 { margin:0 8px 6px;font:600 17px/1.4 "Space Grotesk",sans-serif;color:#f0f3fa; }
-.ng-reader-toc h2 small { display:block;font:13px/1.5 "Plus Jakarta Sans",sans-serif; }
-.ng-reader-toc-row { display:grid;grid-template-columns:minmax(0,1fr) 44px;align-items:center; }
+.ng-reader-toc h2 small { font:inherit;font-weight:400;color:#b6c5df; }
+.ng-reader-toc-row { display:grid;align-items:center; }
 .ng-reader-toc-row a { min-height:44px;display:flex;align-items:center;box-sizing:border-box;padding:8px;color:inherit!important;transition:none;overflow-wrap:anywhere;text-decoration:none; }
-.ng-reader-toc button { min-height:44px;border:0;border-radius:0;background:none;box-shadow:none;color:inherit;cursor:pointer;font:inherit;text-shadow:inherit; }
-.ng-reader-toc-row button { width:44px;height:44px;display:grid;place-items:center;padding:0; }
-.ng-reader-toc .ng-section-eye { filter:drop-shadow(0 1px 1px #111726) drop-shadow(0 -1px 1px #111726); }
 .ng-reader-toc-row a:hover { text-decoration:underline;text-underline-offset:3px; }
 .ng-reader-toc-row[data-collapsed=true] a:hover { color:inherit!important; }
-.ng-reader-toc [data-section-settings] { padding:8px;color:#adc9ff;text-decoration:underline;font-size:12px; }
 .ng-reader[data-reference] .ng-reader-head { justify-content:flex-start; }
 .ng-reader[data-reference] .ng-reader-head h1 { position:static;width:auto;height:auto;clip-path:none;font:600 23px/1.3 "Space Grotesk",sans-serif;color:#f0f3fa; }
 .ng-reader :focus-visible,.ng-reader-shelf :focus-visible { outline:2px solid #afcfff;outline-offset:2px; }
@@ -208,7 +217,7 @@
 .ng-reader-shelf [aria-pressed=false] { background:#2c3e60;color:#eff5ff;border-color:#718ab0; }
 .ng-reader-shelf[hidden] { display:none!important; }
 .ng-reader-no-map>canvas,.ng-reader-no-map .ng-legendkey,.ng-reader-no-map [data-seat-star],.ng-reader-no-map [data-reader-map],.ng-reader-no-feedback :is(.ng-evtoast,.ng-winbar,.ng-challenge-reward,.ng-combo-pop,.ng-momentum,.ng-vignette,.ng-tut,[data-reader-feedback]) { visibility:hidden!important; }
-@media(max-width:640px) { .ng-reader { --reader-unit:14px; } .ng-reader-shelf button { width:48px; } .ng-reader-article [data-section-toggle] { min-height:52px; } }
+@media(max-width:640px) { .ng-reader { --reader-unit:14px; } .ng-reader-shelf button { width:48px; } }
 @media(prefers-reduced-motion:reduce) { .ng-reader,.ng-reader-article * { scroll-behavior:auto!important;animation:none!important;transition:none!important; } }
 .ng-section-body .ng-section-provenance { color:#b6c5df;font-size:12px;margin:0 0 8px; }
 .ng-section-body .film-clip>p:empty { display:none; }

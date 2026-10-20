@@ -419,7 +419,7 @@ reader-load failure releases the pending card to its fixed fallback. Adoption al
 card and hand element for its header's `aria-controls`; a late backfill cannot leave a stale target.
 An eager pointer latch covers game presses before the reader loads. Adoption
 and layout defer during that press, then resume on the animation frame after release and its native
-click, so a late layout cannot move an answer away from the pointer. The execution card's `_ngDock.reader` carries measured `{rowTop, height}`
+click, so a late layout cannot move an answer away from the pointer. The execution card's `_ngDock.reader` carries measured `{rowTop, height, rowHeight}`
 for the native flow, replacing the old fixed preview's `{height, push}`. The shared `_executionDock()`
 gates that reservation through result display and releases it on arrival, resize or reading;
 `_landDatum()` still serves fixed callers. The native row has one top-position writer and never
@@ -427,15 +427,17 @@ receives a competing bottom write. Adoption during an existing execution transla
 rectangle into the same flow coordinates. Optional `app.readerChromeFrame(headEl)` lets chrome position the existing
 reader head and return `{headBottom, offset, bottomReserve?}`. Its measured bottom replaces the
 reader's own top (`max(68, logo.bottom + 12)`); the node band and intra-flow gaps are unchanged.
-With Book shown, the band stays reserved and long controls scroll. Desktop Focus/Browse moves
-from above Questions into chrome; its measured height plus 6px is released from the flow. Thus
-the card moves by `headBottom - ownTop + offset - releasedInlineHead`. Phone tools stay above
-Questions, so no toolbar space is released. With Book off the existing fit clamp remains authoritative. Optional
+With Book shown, the band stays reserved and long controls scroll. Under it the flow stacks
+Videos (the lifted Videos section, or the film's game home without one), Moves, then Questions
+(D-338); a closed part keeps its place as its label, and the card below an escape's handoff
+stays put with the row (`rowHeight`). Game pages carry no toolbar since D-338 removed Focus and
+Browse: the head is bare (`data-bare`), so only its 6px gap stays in the flow. With Book off the
+existing fit clamp remains authoritative. Optional
 `bottomReserve` is the whole viewport-bottom exclusion:
 live shelf height, `_readerShelfBottom(rect)` clearance and the 8px shelf-to-flow gap. When present,
 the flow end is `innerHeight - bottomReserve`. Otherwise it is `dock.top - 8` with the shelf
 shown, or `innerHeight - _readerShelfBottom(columnRect) - 8` with it hidden.
-With no hook or a null/undefined return, the whole head stays in flow above Questions, or above
+With no hook or a null/undefined return, the whole head stays in flow above Videos, or above
 the first prose section on reference pages. The removed role switch has no home in chrome.
 Reference titles remain in flow. Layout preserves Inspect's horizontal row animation;
 the game wrapper clips horizontal overflow so browser focus cannot scroll the entire reader sideways.
