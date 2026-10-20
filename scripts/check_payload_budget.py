@@ -213,9 +213,10 @@ def is_deferred_neural_asset(relative: str) -> bool:
 NEURAL_TARGET = {
     "eager_raw_bytes": 1_600_000,
     "chunk_max_bytes": 40_000,
-    # D-331 (D-305e), owner Q7: exact measurement after D-318, D-322, D-326, the CI round
-    # (_LY guard, D-329) and D-331's fallback counters and heading, no headroom. Videos returns it to 500_000.
-    "deferred_raw_bytes": 505_482,
+    # D-338 (inside D-331's allowance of 506_399), owner Q7: exact measurement after D-318, D-322,
+    # D-326, the CI round (_LY guard, D-329), D-331, and D-338's article view (Videos, Moves,
+    # Questions; one close icon; no Focus/Browse/eyes), no headroom. Videos returns it to 500_000.
+    "deferred_raw_bytes": 506_157,
 }
 
 # Metric names under budget["neural"] that MOVED to the policy file. A ceiling left behind for one
