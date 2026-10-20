@@ -121,7 +121,12 @@ body.left .ng-choice-stat+.ng-choice-stat,body.left .ng-current-stat{text-align:
       }, { theme, alignment });
       await page.evaluate(async () => {
         await document.fonts.ready;
-        await Promise.all([...document.images].map(i => i.decode()));
+        await Promise.all([...document.images].map(async i => {
+          await i.decode();
+          // The embedded review poster has loaded. Discard any earlier remote
+          // request's inline error state carried over by the source DOM clone.
+          i.style.removeProperty("visibility");
+        }));
       });
       const measured = await page.evaluate(() => {
         const rect = el => {
@@ -133,13 +138,15 @@ body.left .ng-choice-stat+.ng-choice-stat,body.left .ng-current-stat{text-align:
           cards: [...document.querySelectorAll(".ng-choice-card")].map(rect),
           posters: [...document.images].map(img => {
             const r = img.getBoundingClientRect(), f = img.closest(".ng-clip,.ng-choice-media").getBoundingClientRect();
-            return { top: r.top - f.top, bottom: f.bottom - r.bottom, left: r.left - f.left, right: f.right - r.right };
+            return { top: r.top - f.top, bottom: f.bottom - r.bottom, left: r.left - f.left, right: f.right - r.right,
+              visibility: getComputedStyle(img).visibility, decoded: img.naturalWidth > 0 };
           }),
           winAlignment: [...document.querySelectorAll(".ng-current-stat,.ng-choice-stat:last-child")].map(e => getComputedStyle(e).textAlign),
         };
       });
       if (!measured.posters.length || measured.posters.some(p => Math.abs(p.top - p.bottom) > .5 || Math.abs(p.left - p.right) > .5))
         throw Error("Uncentered poster in owner specimen: " + JSON.stringify(measured.posters));
+      if (measured.posters.some(p => p.visibility !== "visible" || !p.decoded)) throw Error("Hidden or undecoded review poster");
       if (measured.winAlignment.some(a => a !== alignment)) throw Error("Wrong Win alignment");
       const name = `videos-u8r2-${alignment}-${theme}-${width}x${height}.webp`;
       const encoded = spawnSync("convert", ["png:-", "-quality", "90", resolve(out, name)],

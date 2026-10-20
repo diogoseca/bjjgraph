@@ -35,6 +35,7 @@ for (const width of [320, 390, 768, 1024, 1440]) for (const currentClips of [1, 
           const img = node as HTMLImageElement
           img.loading = "eager"; img.src = source
           await img.decode()
+          img.style.removeProperty("visibility") // clear the preceding unavailable-poster fixture
         }))
       })
       const posters = await images.evaluateAll(images => images.map(img => {
