@@ -183,6 +183,7 @@ for (const forced of [false, true]) test("@curated reading perspectives and Back
   await j.advance(5000)
   await expect(page.locator(READY)).toBeVisible()
   await expect(page.locator('[data-landcard]'), 'a saved Focus no longer hides the question').toBeVisible()
+  for (const part of ['card', 'hand']) await expect(page.locator(`[data-game-open="${part}"]`), `no closed label for a shown ${part}`).toBeHidden()
   expect(await page.evaluate(() => (window as any).__neural._handShown()), 'a saved Focus no longer hides the moves').toBe(true)
   await j.readingOtherHalf() // D-318 U6a: the native paired half replaces the retired switch.
   await expect(page).toHaveURL(/Knee-Slice-Pass\/Defender/)
@@ -309,6 +310,10 @@ test("@curated the logo and linked content keep reading intent through positions
   await page.locator(".ng-explorer-search input").fill("Mount")
   const star = page.locator('[data-list-surface="explore"][data-list-add="Positions/Mount"]')
   await expect(star).toHaveCount(1)
+  // A coordinate click waits for the app's own alias-loading row to retire: results reorder as the
+  // aliases index lands (the D-325 race, pinned on its own by reading-browse-hydration.spec.ts). The
+  // logo's extra tab press moved this journey into that window; its claim is reading intent.
+  await expect(page.locator('[data-alias-status="loading"]')).toHaveCount(0)
   await j.clickByMouse('div:has(> [data-list-surface="explore"][data-list-add="Positions/Mount"]) > button:first-child', "read the Mount search result")
   await expect(page.locator(READY)).toHaveAttribute("data-reader-path", /\/Positions\/Mount(?:\/Top)?$/)
   expect(await state(page)).toMatchObject({ intent: true, paused: true, clock: null })

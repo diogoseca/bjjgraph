@@ -103,8 +103,8 @@ for (const width of [1366, 390]) {
     const measure = () => page.evaluate(() => {
       const a = (window as any).__neural, r = a._reader, cards = [...document.querySelectorAll('[data-reader-body] > .ng-section-card')]
       const card = a._landEl.getBoundingClientRect(), hand = a.optionsRef.current.getBoundingClientRect(), first = cards[0].getBoundingClientRect(), head = r.head.getBoundingClientRect()
-      const video = r.videoCard.getBoundingClientRect(), labels = r.gameSections.map((s: any) => s.card.getBoundingClientRect().height)
-      return { deck: a._landEl.classList.contains('ng-land-deck'), videoFirst: r.videoCard.parentElement === r.game && r.videoCard.dataset.sectionType === 'videos',
+      const video = r.videoCard?.getBoundingClientRect() ?? { top: NaN, bottom: NaN }, labels = r.gameSections.map((s: any) => s.card.getBoundingClientRect().height)
+      return { deck: a._landEl.classList.contains('ng-land-deck'), videoFirst: !!r.videoCard && r.videoCard.parentElement === r.game && r.videoCard.dataset.sectionType === 'videos',
         headGap: video.top - head.bottom, handGap: hand.top - video.bottom, cardGap: card.top - hand.bottom, sectionGap: first.top - card.bottom,
         headInArticle: r.head.parentElement === r.game && r.head.contains(r.tools) && r.head.hasAttribute('data-bare'),
         sectionHeaders: labels, step: a._landEl.classList.contains('ng-land-deck') ? 16 : a.isMobile() ? 8 : 12,
@@ -295,6 +295,8 @@ for (const viewport of [{ width: 1440, height: 900 }, { width: 1366, height: 768
     // D-338 (owner): a closed section is a light label, no box and no outline.
     expect(await page.locator('[data-section-type=principles]').evaluate(e => { const cs = getComputedStyle(e); return [cs.backgroundColor, cs.borderTopColor] }), 'no box around a closed section').toEqual(['rgba(0, 0, 0, 0)', 'rgba(0, 0, 0, 0)'])
     expect(await header.getAttribute('aria-controls')).toBe(await body.getAttribute('id'))
+    // The resting label, not its hover: the mouse that closed it is still over it.
+    await page.mouse.move(viewport.width - 2, viewport.height - 2)
     const contrast = await header.evaluate(e => {
       const lum = (color: string) => { const c = color.match(/\d+/g)!.slice(0, 3).map(x => { const n = +x / 255; return n <= .04045 ? n / 12.92 : ((n + .055) / 1.055) ** 2.4 }); return c[0] * .2126 + c[1] * .7152 + c[2] * .0722 }
       const fg = lum(getComputedStyle(e).color), bg = lum(getComputedStyle(e.closest('.ng-section-card')!).backgroundColor)
@@ -406,6 +408,7 @@ for (const viewport of [{ width: 1440, height: 900 }, { width: 1152, height: 900
         return { part, control: id, body: body?.id, connected: !!body?.isConnected, same: document.getElementById(id) === body }
       }, part), 'the label names the actual game surface it reopens').toEqual({ part, control: `reader-${part}-body`, body: `reader-${part}-body`, connected: true, same: true })
       await page.locator(close).scrollIntoViewIfNeeded(); await j.readerLayoutSettled()
+      if (part === 'card') await expect(page.locator('[data-landcard]'), 'the open question is a visible card').toBeVisible()
       // Moves sits beside the index's rows: the tray ends 12px short of it (clickByMouse below
       // also proves its ✕ is reachable, which it was not under an index link at 1152px).
       if (hasToc && part === 'hand') expect(await page.evaluate(() => { const a = (window as any).__neural; return a._reader.contents.getBoundingClientRect().left - a.optionsRef.current.getBoundingClientRect().right })).toBeGreaterThanOrEqual(12)

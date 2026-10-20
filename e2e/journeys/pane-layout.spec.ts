@@ -213,10 +213,10 @@ test("@curated exposed cards, videos and reading take real mouse input while the
   await page.mouse.wheel(0, 120)
   await page.waitForTimeout(100)
   // D-338: the Videos section now sizes with the article column, which narrows beside the pane, so
-  // the document can shorten and the native scrollport clamps. The reader keeps its PLACE (the
-  // article's end, not reset and not moved by the wheel over the pane), which is the claim.
-  expect(await page.locator("[data-reader]").evaluate(e => e.scrollHeight - e.clientHeight - e.scrollTop), "the reader stays at the article's end").toBeLessThan(2)
-  expect(await page.locator("[data-reader]").evaluate(e => e.scrollTop), "...and is never reset").toBeGreaterThan(before / 2)
+  // the document can change length. The pane never scrolls the reader: scrollTop is unchanged
+  // unless the browser clamps it to a shorter document, and a wheel over the pane moves nothing.
+  const after = await page.locator("[data-reader]").evaluate(e => ({ top: e.scrollTop, max: e.scrollHeight - e.clientHeight }))
+  expect(after.top, `the pane leaves the native scroll position alone (${JSON.stringify({ before, ...after })})`).toBe(Math.min(before, after.max))
   await closePane(page, j)
   await j.advance(20000)
   expect(await page.evaluate(() => (window as any).__neural.paused)).toBe(true)

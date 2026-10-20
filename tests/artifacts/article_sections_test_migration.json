@@ -431,6 +431,31 @@
       "file": "e2e/journeys/roll-card.spec.ts, landcard-chrome.spec.ts, seat-star.spec.ts, landing-deck-answers.spec.ts, defending-arrivals.spec.ts, reading-navigation.spec.ts, reading-mode.spec.ts, reading-map-input.spec.ts",
       "test": "the film row rides the game card; question corner; seat star; the deck-answer hit journeys; list click on the current position; late real dossier; ending a replay; mixed wheel; hidden Map",
       "change": "D-338 (owner, U7 answered b: change something, 2026-10-20): STALE CONTRACT. The film row leads the flow above Moves in its Videos section (never beside the card); controls on the question card are scrolled into view first; the replay journey reads the prose before following its link (a live roll otherwise resets intent, which Focus used to prevent by pausing); the mixed wheel goes over the Videos section's own text, since the reader's bottom edge is now the question (game input); the map-input snapshot no longer carries focus. Claims unchanged."
+    },
+    {
+      "file": "e2e/journeys/landing-deck-answers.spec.ts",
+      "test": "answer(): every deck-answer hit journey (1440, 390)",
+      "change": "D-338 (owner, U7 answered b: change something, 2026-10-20): STALE SPEC. With the deck low in the article view, locator.click()'s own scroll-into-view retry moved the reader 672px before answering card 3, taking the hand (the cause's anchor) off screen; a probe wrapping scrollTop, scrollIntoView and focus saw no app write with a real mouse. The helper now clicks with a real mouse at the measured centre after asserting the answer is reachable there, which is stricter than locator.click(). The hit, cause, pop and announcement claims are unchanged."
+    },
+    {
+      "file": "e2e/journeys/pane-layout.spec.ts",
+      "test": "162 exposed cards, videos and reading take real mouse input while the pane is open",
+      "change": "D-338 (owner, U7 answered b: change something, 2026-10-20): the scroll claim keeps its exact form, scrollTop unchanged except for the final document's own clamp, and prints its numbers. It found two REAL BREAKS, fixed in the reader with controls (d338-clamped-place-lost, d338-running-reader-not-paused): the pane's transient scrollport growth clamped a reader at the article's end by 51px for good, and a pane resuming the game on close left a reader whose Videos click had already counted as reading unpaused."
+    },
+    {
+      "file": "e2e/journeys/reading-mode.spec.ts",
+      "test": "305 the logo and linked content keep reading intent",
+      "change": "D-338 (owner, U7 answered b: change something, 2026-10-20): STALE SPEC. The logo's extra Explore tab press moved the coordinate click on the Mount search result into the D-325 window where results reorder as the aliases index lands (it opened Mount-to-Armbar once); the journey now waits for the app's own alias-loading row to retire before clicking. That race stays pinned by reading-browse-hydration.spec.ts; this journey's claim is reading intent."
+    },
+    {
+      "file": "e2e/journeys/article-sections.spec.ts",
+      "test": "choices precede section cards; contents and header targets; D-338 close with their own X",
+      "change": "D-338 (owner, U7 answered b: change something, 2026-10-20): control fixes after the mutant run: the geometry read is null-safe so d338-video-not-lifted fails at 'Videos leads the flow' rather than in evaluate; the closed label's contrast is read at rest with the mouse moved away (collapsed-contrast had read the hover colour); the open question is asserted a visible card before its X is pressed (landing-never-published-label-restore's claim)."
+    },
+    {
+      "file": "e2e/journeys/camera-continuity.spec.ts",
+      "test": "293 an exchange lands on a new current node (390)",
+      "change": "D-338 (owner, U7 answered b: change something, 2026-10-20): NON-KILL recorded in the spec: execution-node-band-removed passes here since the lifted Videos section is occupied space, so the free search lands in the node band and the D-329 band preference is not gated at 390px."
     }
   ]
 }

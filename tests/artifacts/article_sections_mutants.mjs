@@ -130,7 +130,8 @@ const mutants = [
   ['reduced-motion-flash-lost', 'outcome-on-cards.spec.ts', 'reduced motion.*1440', s => s, css => replace(css, '.ng-reader,.ng-reader-article *', '.ng-reader,.ng-reader *')],
   ['entry-centering-lost', 'coldstart-backfill.spec.ts', 'landing card stays centred', s => replace(s, 'if (el !== row) style(el, "transform", "none", "important");', 'if (el !== row) style(el, "transform", "translateX(-50%)", "important");')],
   ['pane-card-overflow', 'layer-dock-centre.spec.ts', '800px with the pane open', s => replace(s, 'free.width - (deck && !beside ? 104 : 32)', 'W - (deck && !beside ? 104 : 32)')],
-  ['media-inset-lost', 'film-row-arrows.spec.ts', '1440px.*no scrollbar', s => s, css => css + '\n[data-reader-game-media]{padding:0!important}\n'],
+  // D-338: with the article shown the film's home is its Videos section's slot ([data-reader-media]).
+  ['media-inset-lost', 'film-row-arrows.spec.ts', '1440px.*no scrollbar', s => s, css => css + '\n[data-reader-media]{padding:0!important}\n'],
   ['film-only-node-band-lost', 'camera-continuity.spec.ts', '1440px.*CLEAR_SEC: a film', s => replace(s, 'showCard || showHand || homeMedia ?', 'showCard || showHand ?')],
   ['game-wheel-detached-target', 'landcard-deck.spec.ts', 'wheel momentum advances once', s => replace(s, 'const path = event.composedPath(); return path.includes(this.game) && !(this.videoCard && path.includes(this.videoCard));', 'return this.game.contains(event.target) && !(this.videoCard && this.videoCard.contains(event.target));')],
   ['native-game-touch-blocked', 'landcard-deck.spec.ts', 'long mobile choices', s => s, css => replace(css, '[data-reader-game-part=card]{touch-action:pan-y}', '[data-reader-game-part=card]{touch-action:none}')],
@@ -147,6 +148,8 @@ const mutants = [
   ['d338-tray-under-index', sections, 'D-338 1152px', s => replace(s, 'if (row) position(row, rowLeft, rowTop, indexEdge ? indexEdge - rowLeft : W);', 'if (row) position(row, 0, rowTop, W);')],
   ['d338-closed-label-boxed', sections, 'contents and header targets at 390x844', s => s, css => css + '\n.ng-section-card[data-collapsed=true]{background:#1b2034!important;border-color:#414c68!important}\n'],
   ['d338-page-scrolls-flow-top', 'landcard-deck.spec.ts', '390px MC: deck pages', s => replace(s, 'root.scrollTop = Math.min(root.scrollTop, Math.max(0, top));', 'root.scrollTop = 0;')],
+  ['d338-clamped-place-lost', 'pane-layout.spec.ts', 'exposed cards, videos and reading', s => replace(s, '      if (this.placeTop > this.root.scrollTop) this.root.scrollTop = this.placeTop;\n', '')],
+  ['d338-running-reader-not-paused', 'pane-layout.spec.ts', 'exposed cards, videos and reading', s => replace(s, '    if (this.interacting && this.app.paused) return;', '    if (this.interacting) return;')],
   ['d338-film-waits-for-intent', seam, '1366px the Videos section leads', s => replace(s, 'wantsMedia() { return this.on("book"); }', 'wantsMedia() { return this.on("book") && !!(this.intent || this.interacting); }')],
   ['pressed-answer-moved', 'reading-navigation.spec.ts', '1440px reader adoption during a mouse press', s => replace(s, ' || this.app._readerPress', '')],
 ]

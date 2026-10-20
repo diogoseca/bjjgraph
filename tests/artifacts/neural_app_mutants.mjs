@@ -33,7 +33,7 @@ const controls = [
     'a saved Focus no longer hides the question'],
   // The follow-cam lifts the node against the reading band's edge again (two rest framings).
   ['reading-band-lift-restored', 'pane-layout.spec.ts', '1440px pane moves film, card, article',
-    [['c.band||(a.lift={f:this.camFocus', '(a.lift={f:this.camFocus']], 130],
+    [['c.band||(a.lift={f:this.camFocus', '(a.lift={f:this.camFocus']], 125],
 ]
 const only = process.env.NEURAL_MUTANT_ONLY ? new RegExp(process.env.NEURAL_MUTANT_ONLY) : null
 const hash = bytes => createHash('sha256').update(bytes).digest('hex')

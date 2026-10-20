@@ -290,6 +290,10 @@ for (const viewport of VIEWPORTS) {
       expectClearOfRows(S, W, "URL arrival");
     });
 
+    // NON-KILL, recorded (D-338, 2026-10-20): execution-node-band-removed (D-329's node-band
+    // preference replaced by the free-space search) now passes here at 390px. Since D-338 the lifted
+    // Videos section is occupied space above the hand, so the free search lands in the node band
+    // anyway and the two framings coincide in this journey. The band preference is not gated here.
     test("an exchange lands on a new current node: every frame within the bounds, and clear of the rows", async ({ page }) => {
       const j = journey(page);
       await j.boot("/");
