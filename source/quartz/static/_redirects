@@ -154,6 +154,8 @@
 /Transitions/De-La-Riva-to-Grasshopper-Guard /Transitions/De-La-Riva-Inversion-Entry 301
 /transitions/de-la-riva-to-grasshopper-guard/* /Transitions/De-La-Riva-Inversion-Entry/:splat 301
 /transitions/de-la-riva-to-grasshopper-guard /Transitions/De-La-Riva-Inversion-Entry 301
+/transitions/dlr-inversion-to-grasshopper /Transitions/De-La-Riva-Inversion-Entry 301
+/transitions/de-la-riva-granby-to-inverted-guard /Transitions/De-La-Riva-Inversion-Entry 301
 /Submissions/Marce-Choke/from-Side-Control/* /Submissions/Darce-Choke/from-Side-Control/:splat 301
 /Submissions/Marce-Choke/from-Side-Control /Submissions/Darce-Choke/from-Side-Control 301
 /submissions/marce-choke/from-side-control/* /Submissions/Darce-Choke/from-Side-Control/:splat 301

@@ -11585,10 +11585,22 @@ Riva Inversion Entry both survive with their original numbers. The numbers await
 before merge.
 
 Seven original source records are preserved in `calibration/node_identity_retirements.json`.
-Their 28 canonical/lowercase redirect rules reproduce with
+Their 30 canonical/lowercase and archived-alias redirect rules reproduce with
 `python3 scripts/regenerate_identity_redirects.py`; ordinal bindings remain append-only.
+The published DLR alias remains a redirect even though its obsolete wording leaves active copy.
+The published-source guard checks all 1,767 frozen-base redirect sources (1,713 exact paths and
+54 wildcards), including aliases that never had an HTML file. Its missing-alias control fails.
+The tracked inventory runs in shallow CI; `python3 scripts/check_identity_redirects.py
+--verify-baseline` reproduces it from the base's own emitter and content.
 Authored corrections were regenerated without invoking the paid JSON enrichment stage or
 rewriting unrelated content.
+
+The Kneebar wrong option now explicitly lacks hip control, distinguishing it from the required
+conditions. Three Backside position-tier short answers and their distractors follow the corrected
+foot-frame and knee-line explanations. All edited choices fit the 36-character cap.
+The saved-star journey selects Mount/Bottom by identity: the renderer also permits a different
+pair's hover star. Repeated base/head reproduction explains the changed pointer landing, and a
+control that removes Mount's star while leaving Kimura's hover star fails the scoped assertion.
 
 The corpus now has 132 positions, 264 position roles, 1,315 technique pairs and 1,447 live
 canonical nodes. The exact EDGE role-count tripwire moves from 266 to 264 for the retired
@@ -11596,14 +11608,10 @@ Grasshopper pair. `census:update` updates 25 marked literals; the larger merged 
 also raise the prefetch/warm-cap overflow counts from 18/12 to 19/13. The FLOW reference is
 regenerated from this graph with its test tolerances unchanged.
 
-The receipt-bound build census and SEO baselines use the guarded capture of candidate
-`f9ae55c3aa3e443a7fe78492fd8a7f6d11c1ba73`: receipt status `accepted`,
-`production_accepted=true`, receipt SHA-256
-`a6e25e281d2d9e8a276937c0e3fb616140a10c2327ef0a7639f97e031141e992`.
-Every census field, bundle row, SEO sample and route inventory matches the expectations frozen
-before capture. Twenty added HTML routes replace 26 retired routes: files 16,003 → 15,989,
-HTML 6,212 → 6,206, static files 5,125 → 5,121, JSON-LD blocks 30,755 → 30,728,
-article links 199,039 → 198,828, and outside links 146,898 → 146,775.
+The first two guarded captures are accepted historical records of their respective candidates;
+the review corrections require a fresh receipt. Their base-relative shape is 20 added and 26
+retired HTML routes: files 16,003 → 15,989, HTML 6,212 → 6,206, static files 5,125 → 5,121,
+JSON-LD blocks 30,755 → 30,728, article links 199,039 → 198,828, outside links 146,898 → 146,775.
 
 The changed app rows are `static/neural/app/game-model.worker.js`,
 `static/neural/app/game-study.js`, `static/neural/app/game-study.worker.js`, and
@@ -11613,38 +11621,21 @@ exact. Only the two Positions index SEO samples change, removing the retired Gra
 (crawlable text 24,942 → 24,767 characters); the other 18 samples are exact. All 20 existing SEO
 floors and the payload budget remain unchanged.
 
-The FLOW content ratchet is also regenerated from the changed graph: only
-`toe-hold-control/top|Toe Hold to Straight Ankle Lock` moves, from −0.553 to −0.552.
-Native Python and the CI-provisioned environment produce the same result. The known-row set,
-reviewed notes, threshold, `max_new`, and numerical tolerances remain unchanged; this row's
-allowed lower bound tightens by 0.001. The census gate confirms all marked assertions, including
-the two dual-consumer checks for 132 positions and 264 role-hands.
+The FLOW content ratchet changes only
+`toe-hold-control/top|Toe Hold to Straight Ankle Lock`, from −0.553 to −0.552.
+Native and CI-provisioned Python agree; the known-row set, reviewed notes, threshold,
+`max_new` and tolerances stay fixed. The allowed lower bound tightens by 0.001.
 
-Eleven authored MC options are shortened to the fixed 36-character limit, preserving their
-mechanical meaning and distinction from neighboring options. Exactly eleven string leaves
-change across Backside 50-50, D'Arce from Side Control, Toe Hold from Backside 50-50, and Kneebar;
-all other source leaves remain exact. The source scan covers 22,722 answer-line cards and reports
-zero length violations. The first capture remains a record of its earlier candidate; the corrected
-candidate requires a complete local CI replay and build validation before a fresh capture contract.
+The first cap correction shortened eleven MC options across four files; the subsequent review
+corrects the false Kneebar distractor and three Backside answer sets described above. The full
+source cap scan covers 22,722 answer-line cards. Every corrected candidate runs the complete
+local CI replay and own build before a fresh contract is frozen. The receipt-bound ContentGuard
+is the sole permitted pre-capture dependency; after re-seeding, the complete replay must be green.
 
-The corrected candidate `2ce1ec0a2353e58c22a2453c584559be4ff456e7` passes the complete
-pre-capture replay with the sole approved receipt dependency: 23 of 24 steps pass, and
-1,283 of 1,284 units pass with zero skipped. The golden-census ContentGuard correctly rejects
-the earlier candidate's receipt. All later gates, including MC viability and graph integrity, pass.
-
-The normal detached wrapper accepts the replacement capture with `production_accepted=true`,
-both exits zero, all 7,518 tracked inputs unchanged and 15,989 retained files. The exact frozen
-contract (`2fa573be1ada1e42d54bc3a3bbe53d6c40da50252deabdefe7cf1a4ea851d70a`) matches with
-zero findings. The guard receipt SHA-256 is
-`a7670e9d1b6777ad010f93e473be82c0016431d07d5e6bd2fc9bbe00c2828152`; the content receipt
-SHA-256 is `a29cc99d86bec020eed58ddd3dffb8844188f4011b3b52fe97af9a0bd92ea627`.
-D-341's original request, contract, receipts and retained output remain unchanged.
-
-The replacement re-seed changes only capture provenance and location: all census values,
-all 14 app rows, all 20 SEO snapshots and every existing text floor remain identical to D-341.
-The four app rows changed from dev remain `game-model.worker.js`, `game-study.js`,
-`game-study.worker.js` and `game-values.js`; v2 reproduces their D-341 hashes and sizes exactly.
-The payload budget stays byte-identical. The new receipt binds the corrected content tree
-`862dec4c58318141fe38d08f2ddc7554577ee8a0`, while the three D-339 derived source files reproduce
-byte-for-byte from the corrected candidate. D-285 cleanup and checkout preserve all 6,397
-unchanged content paths, including every Markdown inode, birthtime and modification time.
+V2 candidate `2ce1ec0a2353e58c22a2453c584559be4ff456e7` has accepted guard receipt SHA-256
+`a7670e9d1b6777ad010f93e473be82c0016431d07d5e6bd2fc9bbe00c2828152`, content receipt SHA-256
+`a29cc99d86bec020eed58ddd3dffb8844188f4011b3b52fe97af9a0bd92ea627`, and exact contract SHA-256
+`2fa573be1ada1e42d54bc3a3bbe53d6c40da50252deabdefe7cf1a4ea851d70a`. Its re-seed changes only
+provenance/location: all census fields, 14 app rows and 20 SEO samples equal the first capture.
+Both capture histories remain immutable. The three derived source files reproduce byte-for-byte;
+D-285 preserves unchanged content stamps. The review corrections are pending their v3 capture.

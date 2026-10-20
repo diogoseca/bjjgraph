@@ -153670,42 +153670,42 @@
           {
             "question": "Why does the back-facing orientation create a positional hierarchy when the legs remain symmetric?",
             "answer": "The advantage comes from controlling the trapped knee line and blocking the turn back in with the inside foot. The controlling player is behind the leg with access to the exposed heel; the turned-away player must recover a facing angle or free the knee. The role labels do not require a difference in body height.",
-            "answer_line": "Torso facing, not legs, creates edge",
+            "answer_line": "Knee clamp + foot frame create edge",
             "distractors": {
               "plausible": [
                 "Whoever grips the heel first wins",
                 "Stronger legs control the exchange"
               ],
               "trap": [
-                "Legs alone decide who's on top"
+                "Higher hips always mean top control"
               ]
             }
           },
           {
             "question": "What stops the defender turning back to face the opponent in Backside 50-50?",
             "answer": "The inside foot across the defender's stomach and the clamp around the trapped knee line restrict the turn. The controlling player guides the knee forward and toward the mat while capturing the exposed heel. The defender works to clear the frame and recover the knee line before turning.",
-            "answer_line": "Pressure that both roles must manage",
+            "answer_line": "Foot frame + knee-line clamp",
             "distractors": {
               "plausible": [
-                "Only matters for attacker's offense",
-                "Matters only for defender's escape"
+                "Heel grip with the knee line free",
+                "Hip turn with no inside foot frame"
               ],
               "trap": [
-                "Irrelevant since legs decide it"
+                "Body weight alone blocks the turn"
               ]
             }
           },
           {
             "question": "Why do the knee line and hip angle matter to both sides of Backside 50-50?",
             "answer": "The controlling player needs the knee line inside the leg clamp and the inside foot in position to keep the opponent turned away. The defender tries to loosen those connections and recover a facing angle or withdraw the knee. Changes in hip angle can expose the heel, so neither side should force rotation through a captured foot.",
-            "answer_line": "Staying angled prevents flattening",
+            "answer_line": "Knee line and angle set heel access",
             "distractors": {
               "plausible": [
                 "Only sweeps depend on hip angle",
                 "Only escapes depend on hip angle"
               ],
               "trap": [
-                "Flattening doesn't change control"
+                "Hip angle cannot expose the heel"
               ]
             }
           },
@@ -154233,42 +154233,42 @@
           {
             "question": "Why does the back-facing orientation create a positional hierarchy when the legs remain symmetric?",
             "answer": "The advantage comes from controlling the trapped knee line and blocking the turn back in with the inside foot. The controlling player is behind the leg with access to the exposed heel; the turned-away player must recover a facing angle or free the knee. The role labels do not require a difference in body height.",
-            "answer_line": "Torso facing, not legs, creates edge",
+            "answer_line": "Knee clamp + foot frame create edge",
             "distractors": {
               "plausible": [
                 "Whoever grips the heel first wins",
                 "Stronger legs control the exchange"
               ],
               "trap": [
-                "Legs alone decide who's on top"
+                "Higher hips always mean top control"
               ]
             }
           },
           {
             "question": "What stops the defender turning back to face the opponent in Backside 50-50?",
             "answer": "The inside foot across the defender's stomach and the clamp around the trapped knee line restrict the turn. The controlling player guides the knee forward and toward the mat while capturing the exposed heel. The defender works to clear the frame and recover the knee line before turning.",
-            "answer_line": "Pressure that both roles must manage",
+            "answer_line": "Foot frame + knee-line clamp",
             "distractors": {
               "plausible": [
-                "Only matters for attacker's offense",
-                "Matters only for defender's escape"
+                "Heel grip with the knee line free",
+                "Hip turn with no inside foot frame"
               ],
               "trap": [
-                "Irrelevant since legs decide it"
+                "Body weight alone blocks the turn"
               ]
             }
           },
           {
             "question": "Why do the knee line and hip angle matter to both sides of Backside 50-50?",
             "answer": "The controlling player needs the knee line inside the leg clamp and the inside foot in position to keep the opponent turned away. The defender tries to loosen those connections and recover a facing angle or withdraw the knee. Changes in hip angle can expose the heel, so neither side should force rotation through a captured foot.",
-            "answer_line": "Staying angled prevents flattening",
+            "answer_line": "Knee line and angle set heel access",
             "distractors": {
               "plausible": [
                 "Only sweeps depend on hip angle",
                 "Only escapes depend on hip angle"
               ],
               "trap": [
-                "Flattening doesn't change control"
+                "Hip angle cannot expose the heel"
               ]
             }
           },
@@ -609428,7 +609428,7 @@
           "distractors": {
             "plausible": [
               "Backside 50-50 grip established",
-              "Knee-line control + clear turn path"
+              "Straight leg without hip control"
             ],
             "trap": [
               "Crank on the bent leg to force it"
@@ -609658,7 +609658,7 @@
           "distractors": {
             "plausible": [
               "Backside 50-50 grip established",
-              "Knee-line control + clear turn path"
+              "Straight leg without hip control"
             ],
             "trap": [
               "Crank on the bent leg to force it"
@@ -794183,7 +794183,7 @@
     }
   },
   "meta": {
-    "generated": "2026-10-20T19:46:15.997668Z",
+    "generated": "2026-10-20T21:35:41.734147Z",
     "positionCount": 397,
     "transitionCount": 3075,
     "submissionCount": 932,
