@@ -118,7 +118,7 @@
       {
         "question": "In Backside 50-50 top, they start bridging and moving their hips - what do you adjust?",
         "answer": "Follow the opponent's hip movement with your leg clamp and keep the inside foot in front of their stomach. Protect the knee line while adjusting your base on your hip. If they clear the frame, recover control before attacking; pursuing a back take requires a separate release and transition.",
-        "answer_line": "Follow hips; retain foot and knee line",
+        "answer_line": "Follow hips; keep foot and knee line",
         "distractors": {
           "plausible": [
             "Sit back and wait it out",
@@ -1035,7 +1035,7 @@
       "answer_line": "Symmetric legs share heel access",
       "distractors": {
         "plausible": [
-          "Only player behind the trapped leg can attack",
+          "Attack only from behind trapped leg",
           "Only back-exposed player can attack"
         ],
         "trap": [

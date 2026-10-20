@@ -153455,7 +153455,7 @@
         {
           "question": "In Backside 50-50 top, they start bridging and moving their hips - what do you adjust?",
           "answer": "Follow the opponent's hip movement with your leg clamp and keep the inside foot in front of their stomach. Protect the knee line while adjusting your base on your hip. If they clear the frame, recover control before attacking; pursuing a back take requires a separate release and transition.",
-          "answer_line": "Follow hips; retain foot and knee line",
+          "answer_line": "Follow hips; keep foot and knee line",
           "distractors": {
             "plausible": [
               "Sit back and wait it out",
@@ -153757,7 +153757,7 @@
             "answer_line": "Symmetric legs share heel access",
             "distractors": {
               "plausible": [
-                "Only player behind the trapped leg can attack",
+                "Attack only from behind trapped leg",
                 "Only back-exposed player can attack"
               ],
               "trap": [
@@ -153784,7 +153784,7 @@
           {
             "question": "In Backside 50-50 top, they start bridging and moving their hips - what do you adjust?",
             "answer": "Follow the opponent's hip movement with your leg clamp and keep the inside foot in front of their stomach. Protect the knee line while adjusting your base on your hip. If they clear the frame, recover control before attacking; pursuing a back take requires a separate release and transition.",
-            "answer_line": "Follow hips; retain foot and knee line",
+            "answer_line": "Follow hips; keep foot and knee line",
             "distractors": {
               "plausible": [
                 "Sit back and wait it out",
@@ -154320,7 +154320,7 @@
             "answer_line": "Symmetric legs share heel access",
             "distractors": {
               "plausible": [
-                "Only player behind the trapped leg can attack",
+                "Attack only from behind trapped leg",
                 "Only back-exposed player can attack"
               ],
               "trap": [
@@ -154470,7 +154470,7 @@
         {
           "question": "In Backside 50-50 top, they start bridging and moving their hips - what do you adjust?",
           "answer": "Follow the opponent's hip movement with your leg clamp and keep the inside foot in front of their stomach. Protect the knee line while adjusting your base on your hip. If they clear the frame, recover control before attacking; pursuing a back take requires a separate release and transition.",
-          "answer_line": "Follow hips; retain foot and knee line",
+          "answer_line": "Follow hips; keep foot and knee line",
           "distractors": {
             "plausible": [
               "Sit back and wait it out",
@@ -609428,7 +609428,7 @@
           "distractors": {
             "plausible": [
               "Backside 50-50 grip established",
-              "Knee-line control + clear rotation path"
+              "Knee-line control + clear turn path"
             ],
             "trap": [
               "Crank on the bent leg to force it"
@@ -609592,7 +609592,7 @@
         {
           "question": "What cues should trigger your defense before the kneebar is fully established?",
           "answer": "The earliest cues are the release of knee-line and hip control combined with lateral weight shift as the attacker begins rotating perpendicular to your leg. You will feel their forearm or hand pressing your hip, pinning it to prevent rotation. Their legs will begin moving around your upper thigh in a triangling motion. React at the first cue rather than waiting for confirmation - the cost of a false alarm is negligible compared to the cost of late recognition.",
-          "answer_line": "Leg clamp changes; heel is controlled",
+          "answer_line": "Leg clamp changes; heel controlled",
           "distractors": {
             "plausible": [
               "They grip your foot tightly",
@@ -609658,7 +609658,7 @@
           "distractors": {
             "plausible": [
               "Backside 50-50 grip established",
-              "Knee-line control + clear rotation path"
+              "Knee-line control + clear turn path"
             ],
             "trap": [
               "Crank on the bent leg to force it"
@@ -609882,7 +609882,7 @@
         {
           "question": "What cues should trigger your defense before the kneebar is fully established?",
           "answer": "The earliest cues are the release of knee-line and hip control combined with lateral weight shift as the attacker begins rotating perpendicular to your leg. You will feel their forearm or hand pressing your hip, pinning it to prevent rotation. Their legs will begin moving around your upper thigh in a triangling motion. React at the first cue rather than waiting for confirmation - the cost of a false alarm is negligible compared to the cost of late recognition.",
-          "answer_line": "Leg clamp changes; heel is controlled",
+          "answer_line": "Leg clamp changes; heel controlled",
           "distractors": {
             "plausible": [
               "They grip your foot tightly",
@@ -794183,7 +794183,7 @@
     }
   },
   "meta": {
-    "generated": "2026-10-20T17:35:37.122201Z",
+    "generated": "2026-10-20T19:46:15.997668Z",
     "positionCount": 397,
     "transitionCount": 3075,
     "submissionCount": 932,

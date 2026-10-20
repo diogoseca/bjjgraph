@@ -269,7 +269,7 @@
         "distractors": {
           "plausible": [
             "Backside 50-50 grip established",
-            "Knee-line control + clear rotation path"
+            "Knee-line control + clear turn path"
           ],
           "trap": [
             "Crank on the bent leg to force it"
@@ -523,7 +523,7 @@
       {
         "question": "What cues should trigger your defense before the kneebar is fully established?",
         "answer": "The earliest cues are the release of knee-line and hip control combined with lateral weight shift as the attacker begins rotating perpendicular to your leg. You will feel their forearm or hand pressing your hip, pinning it to prevent rotation. Their legs will begin moving around your upper thigh in a triangling motion. React at the first cue rather than waiting for confirmation - the cost of a false alarm is negligible compared to the cost of late recognition.",
-        "answer_line": "Leg clamp changes; heel is controlled",
+        "answer_line": "Leg clamp changes; heel controlled",
         "distractors": {
           "plausible": [
             "They grip your foot tightly",

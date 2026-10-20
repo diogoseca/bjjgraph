@@ -11619,3 +11619,10 @@ Native Python and the CI-provisioned environment produce the same result. The kn
 reviewed notes, threshold, `max_new`, and numerical tolerances remain unchanged; this row's
 allowed lower bound tightens by 0.001. The census gate confirms all marked assertions, including
 the two dual-consumer checks for 132 positions and 264 role-hands.
+
+Eleven authored MC options are shortened to the fixed 36-character limit, preserving their
+mechanical meaning and distinction from neighboring options. Exactly eleven string leaves
+change across Backside 50-50, D'Arce from Side Control, Toe Hold from Backside 50-50, and Kneebar;
+all other source leaves remain exact. The source scan covers 22,722 answer-line cards and reports
+zero length violations. The first capture remains a record of its earlier candidate; the corrected
+candidate requires a complete local CI replay and build validation before a fresh capture contract.

@@ -237,14 +237,14 @@
             "Neck-only guillotine grip"
           ],
           "trap": [
-            "Pull the head without trapping an arm"
+            "Pull head without trapping an arm"
           ]
         }
       },
       {
         "question": "What makes the Marce a named D'Arce variation?",
         "answer": "The attacker keeps the D'Arce connection while moving hip to hip and rolling onto the shoulder to finish.",
-        "answer_line": "D'Arce connection with a shoulder roll",
+        "answer_line": "D'Arce grip with a shoulder roll",
         "distractors": {
           "plausible": [
             "A far-lapel ligature",
@@ -265,7 +265,7 @@
             "Only no-gi by equipment necessity"
           ],
           "trap": [
-            "The name determines competition legality"
+            "Name determines competition legality"
           ]
         }
       },
@@ -428,21 +428,21 @@
       {
         "question": "What changes when the attacker uses the Marce finish?",
         "answer": "The attacker moves close to the hip and rolls onto the shoulder while keeping the same head-and-arm connection. The grip still needs to be addressed.",
-        "answer_line": "A shoulder roll retains the D'Arce grip",
+        "answer_line": "Shoulder roll keeps the D'Arce grip",
         "distractors": {
           "plausible": [
             "The choke becomes a lapel wrap",
             "The trapped arm is released"
           ],
           "trap": [
-            "The roll automatically frees the neck"
+            "The roll alone frees the neck"
           ]
         }
       },
       {
         "question": "When should you resume a positional escape?",
         "answer": "After the head-and-arm connection is disrupted and the neck has space. If it remains secured under pressure, tap instead of forcing the escape.",
-        "answer_line": "After disrupting the choke connection",
+        "answer_line": "After disrupting choke connection",
         "distractors": {
           "plausible": [
             "Before addressing the threading arm",

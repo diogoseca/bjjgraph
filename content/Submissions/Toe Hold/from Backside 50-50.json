@@ -414,7 +414,7 @@
             "Spam toehold without setup"
           ],
           "trap": [
-            "Ignore knee-line control, rush finish"
+            "Skip knee-line control; rush finish"
           ]
         }
       },
