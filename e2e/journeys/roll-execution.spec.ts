@@ -261,7 +261,7 @@ for (const reduced of [false, true]) {
       await j.readerLayoutSettled();
     } else if (scrolled) {
       await expect(page.locator('[data-reader][data-reader-ready="true"]')).toBeVisible();
-      await j.clickByMouse('.ng-reader-toc-row:has([data-toc-eye="overview"]) a');
+      await j.clickByMouse('[data-toc-type="overview"] a');
       await j.readerLayoutSettled();
       const scroll = await page.evaluate(name => {
         const a = (window as any).__neural, root = a._reader.root;
@@ -327,7 +327,7 @@ for (const reduced of [false, true]) {
         const r = a._nodeHalfW(q, scale, k, a._lodK ?? 1);
         return { left: x - r, right: x + r, top: y - r, bottom: y + r };
       });
-      const selectors = '[data-executing-tech],.ng-evtoast,.ng-reader-article,.ng-reader-toc,.ng-reader-head,.ng-reader-tools,.ng-reader-game-heading,.ng-landcard,.ng-land-film,[data-layer-dock],.ng-logo,.ng-winbar,.ng-challenge-reward';
+      const selectors = '[data-executing-tech],.ng-evtoast,.ng-reader-article,.ng-reader-toc,.ng-reader-head,.ng-reader-tools,.ng-reader-closed-part,.ng-reader-game>.ng-section-card,.ng-landcard,.ng-land-film,[data-layer-dock],.ng-logo,.ng-winbar,.ng-challenge-reward';
       const surfaces = [...document.querySelectorAll(selectors), a.accountRef.current, a.shareCueRef.current, a._handCloseEl].filter(Boolean);
       const occupied = surfaces.flatMap((el: any) => {
         const r = el.getBoundingClientRect(), cs = getComputedStyle(el);

@@ -880,13 +880,11 @@ test("@curated a submission finishes and escapes; a transition attempts and defe
   page,
 }) => {
   const j = journey(page)
-  await bootContent(page, j, AT)
-  await settle(page, j)
-  // This journey measures graph labels. Use the supported minimize controls to
-  // expose the map now that a complete article occupies the former More area.
-  await expect(page.locator('[data-reader-ready="true"]')).toBeVisible()
-  await j.clickByMouse('[data-layer-hide="book"]')
-  await j.clickByMouse('[data-layer-hide="card"]')
+  // This journey measures graph labels, so it needs the map without the article over it.
+  // STALE CONTRACT (D-338, no View menu): no control hides Book from the article view, so the
+  // map view boots as a returning reader left it, Book and the card off (the persisted settings
+  // the two retired clicks wrote).
+  await bootContent(page, j, AT, { initialState: { v: 2, settings: { readerBook: false, landCard: false }, settingsAt: {} } })
   await settle(page, j)
 
   const WORDS: Record<string, [string, string]> = {
@@ -984,13 +982,11 @@ test("@curated the name and its qualifier centre on the pair, and the one-row ca
   page,
 }) => {
   const j = journey(page)
-  await bootContent(page, j, AT)
-  await settle(page, j)
-  // This journey measures graph labels. Use the supported minimize controls to
-  // expose the map now that a complete article occupies the former More area.
-  await expect(page.locator('[data-reader-ready="true"]')).toBeVisible()
-  await j.clickByMouse('[data-layer-hide="book"]')
-  await j.clickByMouse('[data-layer-hide="card"]')
+  // This journey measures graph labels, so it needs the map without the article over it.
+  // STALE CONTRACT (D-338, no View menu): no control hides Book from the article view, so the
+  // map view boots as a returning reader left it, Book and the card off (the persisted settings
+  // the two retired clicks wrote).
+  await bootContent(page, j, AT, { initialState: { v: 2, settings: { readerBook: false, landCard: false }, settingsAt: {} } })
   await settle(page, j)
 
   const hoverKind = async (want: "qual" | "plain") => {

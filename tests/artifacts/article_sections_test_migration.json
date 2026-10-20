@@ -25,7 +25,7 @@
       "replacement_tests": [
         {
           "file": "e2e/journeys/reading-navigation.spec.ts",
-          "title_contains": "native reading keys, section headers and Book preserve"
+          "title_contains": "native reading keys and section toggles preserve"
         },
         {
           "file": "e2e/journeys/article-sections.spec.ts",
@@ -41,7 +41,7 @@
       "replacement_tests": [
         {
           "file": "e2e/journeys/reading-media-placement.spec.ts",
-          "title_contains": "normal media home shares the game scrollport"
+          "title_contains": "the Videos section leads the game scrollport"
         }
       ],
       "retired_rule": "The approved A integration uses 400px media beside a 390px practice card on desktop and 358px media above practice on phone. The phone deck face remains viewport-minus-104 (286px at 390). Equal outer/content-box alignment with a fixed card is no longer the layout contract."
@@ -341,6 +341,96 @@
       "file": "e2e/journeys/lists-picker.spec.ts",
       "test": "564 the picker is reachable and fully on screen when opened from a 390px option card (the 'readable behind the picker' claim)",
       "change": "D-333 D4-S1: the owner's v1.103.2 rule (the picker opens without hiding ng-landcard) was gated by opacity alone after a fixed 450ms sleep, and since D-318 (af3aac311) a card the reader has not published is visibility:hidden at full opacity, so it stayed green with the card hidden. The claim now also reads visibility, and the sleep is a wait for the card's finite entry animation (visibility deliberately not part of the wait, so a hidden card fails at the claim). Control landing-never-published-picker fails at 'the landing card is still readable behind the picker (visibility)'; 16 of 16 green committed. Audit with the mutant as the method over every card selector (72 files; 47 journeys and 23 generated specs, 476 tests): 283 stay green with the card never published; of those, 24 have an expect near a card read, and four word a visible card while checking only existence, a count or aria-expanded (coldstart-late-payload:158 and :490, lists-disclosure:257, article-sections:369's restore half). D-336: each now also asserts the card is visible (toBeVisible), green on head, and each has its own never-published control killed at that claim (landing-never-published-late-question, -no-decks, -list-item, -eye-restore). None of the four holds reader.js, so no late-reader allowance was needed."
+    },
+    {
+      "file": "e2e/journeys/reading-mode.spec.ts",
+      "test": "71 complete article, every close and reopen, and reload (1366, 390; U7-PENDING x2)",
+      "change": "D-338 (owner, U7 answered b: change something, 2026-10-20): RETIRED in part. Focus on reading, its saved reload and the article view's Map, Feedback and Book toggles have no control left (no View menu); their absence is now the claim (no [data-reading-focus]/[data-reader-browse], no visible View control for any part). STALE CONTRACT for the rest: Videos, Questions and Moves close with their own \u2715 and reopen from the label each leaves, never dealing or starting play; closed parts persist through a reload, and the label reopens by keyboard. Controls d338-focus-browse-retained."
+    },
+    {
+      "file": "e2e/journeys/reading-mode.spec.ts",
+      "test": "334 heading links focus the cloned article and a reopened question starts play (U7-PENDING)",
+      "change": "D-338 (owner, U7 answered b: change something, 2026-10-20): STALE CONTRACT. The article can no longer be minimized from the article view and saved Focus is not read; the question starts closed through its own saved layer (landCard false) and reopens from its label in the article. Answering it still starts play (intent false), the claim kept; the focus:false half is retired with Focus."
+    },
+    {
+      "file": "e2e/journeys/reading-mode.spec.ts",
+      "test": "the logo and linked content keep reading intent through positions, techniques and principles; reading perspectives and Back (saved Focus seed)",
+      "change": "D-338 (owner, U7 answered b: change something, 2026-10-20): STALE CONTRACT. Browse is gone; the logo opens the same pane and its Explore tab is one press away. A Focus saved before D-338 is inert: the perspectives journey now seeds readingFocus with readingCard/readingHand false and asserts the question and the moves are shown. Controls d338-saved-focus-read (reader) and d338-saved-focus-layer-read (app)."
+    },
+    {
+      "file": "e2e/journeys/reading-contract.spec.ts",
+      "test": "131 reading gestures, minimizing and article navigation never start play (U7-PENDING)",
+      "change": "D-338 (owner, U7 answered b: change something, 2026-10-20): RETIRED in part: Book, Map and Feedback have no control in the article view, so their minimize/restore steps go and their absence is asserted. Questions and Moves close with their own \u2715 and reopen from their labels; the 20 s no-play claims after gestures and after navigation are unchanged. The index-target check reads the new order (Videos, Moves, Questions, Overview, ...) and the headings by .ng-section-title / the closed label."
+    },
+    {
+      "file": "e2e/journeys/reading-navigation.spec.ts",
+      "test": "18 native reading keys and section toggles preserve the complete document (320, 390; U7-PENDING x2) and 190 successful article responses are reused across seat navigation (U7-PENDING)",
+      "change": "D-338 (owner, U7 answered b: change something, 2026-10-20): RETIRED in part: the article view has no Book toggle, so the hide/restore steps and their ghost-hit, scroll and Book-restore reuse claims go; no visible Book control is asserted instead. Keys, section toggles, document identity, no horizontal overflow, no play, and seat-navigation reuse (one Defender fetch) are kept."
+    },
+    {
+      "file": "e2e/journeys/reading-navigation.spec.ts",
+      "test": "closing pane/reading first never resumes reading without a game action (x2); ending a replay after the pane closes preserves reading intent",
+      "change": "D-338 (owner, U7 answered b: change something, 2026-10-20): STALE CONTRACT. Focus, which set reading intent, is gone: a content URL arrival (or, for the replay, following an article link after a real roll) sets the same intent, and the logo opens the pane Browse opened. Paused, intent and no-clock claims are unchanged."
+    },
+    {
+      "file": "e2e/journeys/reading-media-placement.spec.ts",
+      "test": "67 published reference videos remain playable without a seat (x4; U7-PENDING)",
+      "change": "D-338 (owner, U7 answered b: change something, 2026-10-20): STALE CONTRACT. The article view cannot hide Book, so \"hiding a seatless article cannot leave hidden audio playing\" is reached through the one remaining hide path, the Videos \u2715, while the clip still plays (asserted playing first). Everything else unchanged."
+    },
+    {
+      "file": "e2e/journeys/reading-media-placement.spec.ts",
+      "test": "140 media identity (x4) and the Videos section leads the game scrollport (1366, 390)",
+      "change": "D-338 (owner, U7 answered b: change something, 2026-10-20): STALE CONTRACT. With the article shown the film's one home is its Videos section (wantsMedia is Book alone), lifted into the game flow above the hand, so no Focus entry is needed. The normal-home geometry test is replaced: one owned host in the slot, Videos/Moves/Questions share the flow, Moves follows Videos and Questions follows Moves at one measured gap, no fixed overlap, no resize churn (the videoCard joins the churn set). RETIRED with the side-by-side home: its 400/358px sizes and the currentFilmHeight-equals-rect claim. Control d338-film-waits-for-intent."
+    },
+    {
+      "file": "e2e/journeys/dual-pair.spec.ts",
+      "test": "879 a submission finishes and escapes; 983 the name and its qualifier centre on the pair (U7-PENDING)",
+      "change": "D-338 (owner, U7 answered b: change something, 2026-10-20): STALE CONTRACT. These measure graph labels and need the map without the article: no control hides Book from the article view, so the map view boots as a returning reader left it, readerBook and landCard false (the persisted settings the two retired clicks wrote). Label claims unchanged."
+    },
+    {
+      "file": "e2e/journeys/landcard-chrome.spec.ts",
+      "test": "48 Book restore keeps a readable, reachable control (U7-PENDING)",
+      "change": "D-338 (owner, U7 answered b: change something, 2026-10-20): RETIRED in part: no Book minimize exists in the article view. Book off survives as a saved state whose shelf keeps the restore control; that half keeps the v1.104.2 claim (never the UA-default black, reachable by mouse, restores the article)."
+    },
+    {
+      "file": "e2e/journeys/camera-continuity.spec.ts",
+      "test": "517 CLEAR_SEC a card turned back on (x2) and 539 a late film row (x2) (U7-PENDING)",
+      "change": "D-338 (owner, U7 answered b: change something, 2026-10-20): STALE CONTRACT. Map-view camera rules: they boot with the article away as a returning reader left it (readerBook false) instead of clicking the retired Book control. The clearance and continuity claims are unchanged."
+    },
+    {
+      "file": "e2e/journeys/article-sections.spec.ts",
+      "test": "choices precede section cards; optional chrome frame; chrome keeps the same controls; contents and header targets; D-338 Questions and Moves close with their own \u2715; late question backfill; floating contents; semantic sections preserve every source block",
+      "change": "D-338 (owner, U7 answered b: change something, 2026-10-20): STALE CONTRACT. Order Videos, Moves, Questions, then the article: each boundary is one measured gap (step, then the 16px deck gap, then the 6px token); the head is bare with no control; closed Moves/Questions leave labels with a 44px target and contrast >= 7, naming the surface they reopen; the index has no buttons, dims closed rows and its heading reads role first ('Escaping Loop Choke from Half Guard', reversing D-331 N1); the Moves tray ends 12px short of the index; a closed section has no box. The source-preservation scan reads the whole reader, since Videos is lifted out of [data-reader-body]. RETIRED with the index eyes: eye-changes-visibility-without-navigation and the label/eye colour match. Controls d338-video-not-lifted, -questions-above-moves, -open-part-keeps-header, -index-eyes-retained, -section-settings-retained, -tray-under-index, -closed-label-boxed, index-role-after-name, section-x-repaint."
+    },
+    {
+      "file": "e2e/journeys/land-layers.spec.ts, roll-card.spec.ts, pane-keyboard.spec.ts, pane-layout.spec.ts, concepts-surface.spec.ts, reading-browse-hydration.spec.ts, reading-map-input.spec.ts, reading-ready-payload.spec.ts, landcard-more-content.spec.ts, defending-arrivals.spec.ts, roll-execution.spec.ts, e2e/dsl.ts",
+      "test": "the remaining Focus, Browse, eye and header steps",
+      "change": "D-338 (owner, U7 answered b: change something, 2026-10-20): STALE CONTRACT. Questions/Moves eyes become the card's and the hand's own \u2715 plus the closed labels; the videos' \u2715 writes readerSection.videos with the article shown; Browse becomes the logo (Explore one tab away); Focus entry becomes a real reading interaction (prose focus) or a content URL; saved Focus seeds become the game layers they overrode (QUIET: landCard, landHand, landFeedback false, the map left shown for the other-half tap); index links are found by data-toc-type; the execution occupied set names the closed labels and the lifted Videos card. Claims unchanged."
+    },
+    {
+      "file": "e2e/journeys/landcard-deck.spec.ts",
+      "test": "the deck journeys (setup), 118 the deck face sits tight under the choices (1440, 390), 220 responsive deck, 276 long mobile choices",
+      "change": "D-338 (owner, U7 answered b: change something, 2026-10-20): STALE CONTRACT. Questions now follows Videos and Moves, so the deck can start below the fold: setup scrolls the face into view (programmatic, not a reading gesture), as a reader scrolls to it. The face's own claims are unchanged. Order-dependent claims move with the order: the face sits tight UNDER the tray (0..18px, the one 16px deck gap), the deepest back stays clear of the article (the reader now clears 3px per remaining back), the film sits above Moves and is never beside the card, and a long answer reads below the tray. REAL BREAK found and fixed in the app by these journeys: a deck page change used to reset the reader to scrollTop 0, which since the reorder scrolled the deck away (paging, wheel momentum, chevrons, answering every card all lost the card); it now scrolls only to the card's own top edge, and Home/PageUp clamp to it. Controls d338-page-scrolls-flow-top and native-page-scroll-lost (retargeted)."
+    },
+    {
+      "file": "e2e/journeys/pane-layout.spec.ts",
+      "test": "82 pane moves film, card, article (1440, 1024), 139 the pane overlays the article (768, 390), 166 exposed cards with the pane open, 222 resizing an open pane (landscape)",
+      "change": "D-338 (owner, U7 answered b: change something, 2026-10-20): STALE CONTRACT. The article view never flips the film beside or over the card (media layout 'none'): the film lives in its Videos section, sized by the column, so it keeps its place in the column beside the pane while the card keeps its width, shift and vertical dock; the landscape flow reads Videos, Moves, Questions at the deck gap. RETIRED with the side-by-side home: the film's fixed 400px and its stacked reflow. Reading is the prose interaction (Focus retired), and the card is scrolled into view before the open-pane input checks."
+    },
+    {
+      "file": "e2e/journeys/reading-contract.spec.ts",
+      "test": "112 a real landing-card answer starts the dormant game once (390), 173 defender reading excludes attacker rules (x2), 218 reader rhythm keeps heading hierarchy (1366, 390)",
+      "change": "D-338 (owner, U7 answered b: change something, 2026-10-20): STALE CONTRACT. The answer is scrolled into view first (the card follows Videos and Moves); the defender text scan reads the whole reader, since Videos is lifted out of [data-reader-body]; the heading hierarchy reads the section's .ng-section-title, since its toggle is now the one \u2715. Claims unchanged."
+    },
+    {
+      "file": "e2e/journeys/land-layers.spec.ts",
+      "test": "209 the choice survives a reload; 239 the layers are independent (map, reading)",
+      "change": "D-338 (owner, U7 answered b: change something, 2026-10-20): STALE CONTRACT. With the article shown the videos' one preference is their section's, and the film's own \u2715 is hidden in its section: the reload test runs in the map view (the game layers' keys and dock, plus the article's restore glyph), and the reading twin closes the film with its Videos \u2715 and reads the section key; film visibility is checkVisibility, since a closed section hides its body around the host."
+    },
+    {
+      "file": "e2e/journeys/roll-card.spec.ts, landcard-chrome.spec.ts, seat-star.spec.ts, landing-deck-answers.spec.ts, defending-arrivals.spec.ts, reading-navigation.spec.ts, reading-mode.spec.ts, reading-map-input.spec.ts",
+      "test": "the film row rides the game card; question corner; seat star; the deck-answer hit journeys; list click on the current position; late real dossier; ending a replay; mixed wheel; hidden Map",
+      "change": "D-338 (owner, U7 answered b: change something, 2026-10-20): STALE CONTRACT. The film row leads the flow above Moves in its Videos section (never beside the card); controls on the question card are scrolled into view first; the replay journey reads the prose before following its link (a live roll otherwise resets intent, which Focus used to prevent by pausing); the mixed wheel goes over the Videos section's own text, since the reader's bottom edge is now the question (game input); the map-input snapshot no longer carries focus. Claims unchanged."
     }
   ]
 }

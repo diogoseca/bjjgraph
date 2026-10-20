@@ -45,19 +45,18 @@ const seedFilm = (page: any) =>
 // The former film/card alignment assertion is superseded by the approved A layout.
 // reading-media-placement.spec.ts pins both measured normal-home geometries.
 
-test("Book minimize and restore keep a readable, reachable control @curated", async ({ page }) => {
+// RETIRED in part (D-338, no View menu): the article view has no Book minimize. Book off survives
+// only as a saved state, whose shelf keeps the restore control; that half keeps its claim.
+test("Book restore keeps a readable, reachable control @curated", async ({ page }) => {
   const j = journey(page);
-  await j.boot("/");
+  await j.boot("/", { initialState: { v: 2, settings: { readerBook: false }, settingsAt: {} } });
   await j.land("Mount Top");
-  await expect(page.locator('[data-reader-ready="true"]')).toBeVisible();
-  const color = () => page.locator('[data-reader-part="book"]').evaluate(el => getComputedStyle(el).color);
-  const before = await color();
-  await j.clickByMouse('[data-layer-hide="book"]');
   await expect(page.locator('.ng-reader-article')).toBeHidden();
-  expect(await color()).not.toBe("rgb(0, 0, 0)");
+  const color = await page.locator('[data-layer-show="book"]').evaluate(el => getComputedStyle(el).color);
+  expect(color, "the restore control is never the UA default black").not.toBe("rgb(0, 0, 0)");
   await j.clickByMouse('[data-layer-show="book"]');
   await expect(page.locator('[data-reader-ready="true"]')).toBeVisible();
-  expect(await color()).toBe(before);
+  await expect(page.locator('.ng-reader-article')).toBeVisible();
 });
 
 test("the question corner keeps its close button and count; capture belongs to the seat", async ({ page }) => {
@@ -66,6 +65,9 @@ test("the question corner keeps its close button and count; capture belongs to t
   await j.land("Mount Top");
   await seedFilm(page);
   await page.waitForTimeout(300);
+  // D-338: Questions follows Videos and Moves and can start below the fold; scroll to it first.
+  await page.locator(".ng-landcard").evaluate(e => e.scrollIntoView({ block: "nearest" }));
+  await j.readerLayoutSettled();
   const m = await page.evaluate(() => {
     const card = document.querySelector(".ng-landcard") as HTMLElement;
     const x = card.querySelector("[data-land-close]") as HTMLElement;

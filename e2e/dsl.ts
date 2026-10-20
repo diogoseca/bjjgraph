@@ -608,13 +608,11 @@ export class Journey {
   }
 
   /** D-318 U6a: change the read role through the actual other canvas half.
-   * Leave Focus to expose Map; do not call the navigation or seating methods.
-   * Return after the native click so callers can hold the requested HTML. */
+   * The map is always shown with the article (D-338 retired Focus, which hid it); do not
+   * call the navigation or seating methods. Return after the native click so callers can
+   * hold the requested HTML. */
   async readingOtherHalf() {
     await this.page.locator('[data-reader]').evaluate(e => { e.scrollTop = 0; });
-    if (await this.page.evaluate(() => (window as W).__neural.get('readingFocus', false))) {
-      await this.clickByMouse('[data-reading-focus]', 'leave Focus to expose the role pair');
-    }
     await this.readerLayoutSettled();
     await this.advance(6000); // drive the existing flight to the visible pair
     // A newly minted reward is a deliberate screen above the map. Dismiss it

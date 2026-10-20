@@ -27,6 +27,10 @@ const controls = [
   // The intro's handover starts a fresh roll over a board staged during it (a shared-list read).
   ['intro-overrides-stage', 'defending-arrivals.spec.ts', 'a shared list link opens its defending item',
     [['this._refPage||this._staged!=null||this.startRoll()', 'this._refPage||this.startRoll()']], 'the other read role must be a reachable drawn canvas half'],
+  // D-338: a saved Focus is read again by the layer seam (its reading* overrides hide the card).
+  ['d338-saved-focus-layer-read', 'reading-mode.spec.ts', 'reading perspectives and Back retain canonical content without gameplay$',
+    [['let t=xt[e];return!t||this.get(t,!0)!==!1', 'let t=xt[e];return!t||this.get(this.get("readingFocus",!1)?"reading"+t.slice(4):t,!0)!==!1']],
+    'a saved Focus no longer hides the question'],
   // The follow-cam lifts the node against the reading band's edge again (two rest framings).
   ['reading-band-lift-restored', 'pane-layout.spec.ts', '1440px pane moves film, card, article',
     [['c.band||(a.lift={f:this.camFocus', '(a.lift={f:this.camFocus']], 130],

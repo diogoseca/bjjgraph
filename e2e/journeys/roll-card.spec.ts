@@ -214,8 +214,9 @@ test("the complete article renders automatically and survives the question lifet
   expect(await page.evaluate(() => !!(window as Any).__neural.paused), "rendering an article does not pause a live roll").toBe(false)
   // Compare the complete DOM text: expanded reading also reveals the Overview heading.
   const article = await page.locator("[data-reader-body]").textContent()
-  await page.locator('[data-game-eye="card"]').scrollIntoViewIfNeeded()
-  await j.clickByMouse('[data-game-eye="card"]', 'hide Questions from its section header')
+  // D-338: Questions has no header; the card closes with its own ✕.
+  await page.locator('[data-land-close]').scrollIntoViewIfNeeded()
+  await j.clickByMouse('[data-land-close]', "hide Questions with the card's ✕")
   await expect(page.locator("[data-landcard]")).toHaveCount(0)
   await expect(page.locator("[data-reader-body]")).toHaveText(article!)
   const r = await page.locator("[data-reader]").boundingBox()
@@ -251,23 +252,25 @@ test("the film row rides the game card", async ({ page }) => {
   await j.land("Mount Top")
   await j.advance(2000)
 
-  // The same existing host now belongs to the shared native game flow: beside
-  // practice on wide screens, above it when stacked (approved media design A).
+  // The same existing host belongs to the shared native game flow. STALE CONTRACT (D-338): with
+  // the article shown it leads that flow in its Videos section, above Moves and Questions, never
+  // beside or over the card (that layout is the map view's).
   const film = await page.evaluate(() => {
     const a = (window as Any).__neural
     const f = a._landFilmEl
     if (!f) return null
-    const fr = f.getBoundingClientRect(), cr = a._landEl.getBoundingClientRect(), r = a._reader
-    return { clips: f.querySelectorAll(".ng-clip").length, shared: f.parentElement === r.mediaHome && r.mediaHome.parentElement === r.game,
-             layout: r.game.dataset.mediaLayout, gapX: cr.left - fr.right, gapY: cr.top - fr.bottom,
+    const fr = f.getBoundingClientRect(), hr = a.optionsRef.current.getBoundingClientRect(), r = a._reader
+    return { clips: f.querySelectorAll(".ng-clip").length,
+             shared: f.parentElement === r.mediaSlot && r.videoCard?.parentElement === r.game || f.parentElement === r.mediaHome && r.mediaHome.parentElement === r.game,
+             layout: r.game.dataset.mediaLayout, aboveMoves: fr.bottom <= hr.top + .5,
              inCard: !!(a._landEl && a._landEl.contains(f)) }
   })
   expect(film, "the film row is up").not.toBeNull()
   expect(film!.inCard, "outside the practice card").toBe(false)
   expect(film!.clips, "with the authored clip").toBeGreaterThan(0)
   expect(film!.shared, "one media host shares the scrollport with practice").toBe(true)
-  expect(['side-by-side', 'stacked']).toContain(film!.layout)
-  expect(film!.layout === 'side-by-side' ? film!.gapX : film!.gapY).toBeCloseTo(film!.layout === 'side-by-side' ? 60 : 12, 1)
+  expect(film!.layout, "never beside the card in the article view").not.toBe('side-by-side')
+  expect(film!.aboveMoves, "Videos leads the flow, above Moves").toBe(true)
 })
 
 test("a node you are NOT standing on still opens the GAME CARD, never a second surface", async ({
@@ -467,7 +470,7 @@ for (const height of [900, 720]) {
     await j.boot("/Positions/Mount/Top")
     await j.advance(5000)
     await expect(page.locator('[data-reader-ready="true"]')).toBeVisible()
-    await j.clickByMouse("[data-reading-focus]")
+    // D-338 retired the Focus click this used to enter reading with; focusing the prose reads.
     await page.locator("[data-reader-body]").focus()
     await page.keyboard.press("Control+End")
     await expect.poll(() => page.locator("[data-reader]").evaluate(e => e.scrollHeight - e.clientHeight - e.scrollTop), { message: "native scrolling reaches the article end" }).toBeLessThan(2)

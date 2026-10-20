@@ -37,6 +37,11 @@ async function setup(page: Page, recall = false) {
   await expect(page.locator('[data-reader-ready="true"]')).toBeVisible()
   await page.waitForTimeout(350) // initial entry motion, not the transition under test
   if (await page.locator('[data-reward-close]').isVisible()) await j.clickByMouse('[data-reward-close]', 'dismiss the harness visitor’s earned patch')
+  // D-338 (owner): the article view reads Videos, Moves, Questions, so the deck now starts under
+  // the moves and can begin below the fold. Bring the face into the reader's view, as a reader
+  // scrolls to it; a programmatic scroll is not a reading gesture and starts nothing.
+  await page.locator('[data-landcard]').evaluate(e => e.scrollIntoView({ block: 'nearest' }))
+  await j.readerLayoutSettled()
   return { j, total }
 }
 
@@ -115,7 +120,10 @@ for (const width of [1440, 390]) {
 // might not be using: the foot against the card's own side gutter, and the height against the
 // box model, so a floor that pads the face out again cannot hide inside a plausible number.
 for (const width of [1440, 390]) {
-  test(`@curated ${width}px: the deck face keeps its 1.5x foot and sits tight over the choices`, async ({ page }) => {
+  // STALE CONTRACT (D-338): Questions follows Moves in the article view, so the deck sits tight
+  // UNDER the tray (the one 16px deck gap) and its backs, which peek 3px per remaining card below
+  // the face, stay clear of the article that follows. The face's own claims are unchanged.
+  test(`@curated ${width}px: the deck face keeps its 1.5x foot and sits tight under the choices`, async ({ page }) => {
     await page.setViewportSize({ width, height: width === 390 ? 844 : 900 })
     await setup(page)
     const m = await page.evaluate(() => {
@@ -126,15 +134,13 @@ for (const width of [1440, 390]) {
       const row = a.optionsRef.current, rr = row.getBoundingClientRect()
       // the DEEPEST back is the first child: `_updateLandDeck` appends --back-index descending
       const deepest = document.querySelector(".ng-landstack")!.firstElementChild!.getBoundingClientRect()
-      const title = row.querySelector("[data-choice-group] div")!.getBoundingClientRect()
-      const moves = document.getElementById("reader-hand")!.getBoundingClientRect()
+      const article = a._reader.articleEl.getBoundingClientRect()
       return {
         side: parseFloat(cs.paddingLeft), foot: parseFloat(cs.paddingBottom),
         padTop: parseFloat(cs.paddingTop), border: parseFloat(cs.borderBottomWidth),
         height: r.height, face: qr.height, sizing: cs.boxSizing,
         underLastAnswer: r.bottom - qr.bottom,
-        faceToMoves: moves.top - r.bottom, movesToTray: rr.top - moves.bottom, backTipToMoves: moves.top - deepest.bottom,
-        backTipToTitle: title.top - deepest.bottom,
+        trayToFace: r.top - rr.bottom, backTipToArticle: article.top - deepest.bottom, backTipBelowFace: deepest.bottom - r.bottom,
         overflow: card.scrollHeight - card.clientHeight,
       }
     })
@@ -152,16 +158,12 @@ for (const width of [1440, 390]) {
     expect(m.underLastAnswer, "and nothing else is reserved under the last answer")
       .toBeLessThanOrEqual(Math.max(m.foot + m.border, 236 - m.padTop - m.face - m.border))
     expect(m.overflow, "the whole face still fits without scrolling").toBeLessThanOrEqual(1)
-    // Tight over the hand, but the backs stay out of the tray and well clear of its heading.
-    // 16 measured at both widths (4 of gap + 12 of back reserve). The ceiling is 18 and not 20
-    // on purpose: the phone's pre-trim clearance was exactly 20, so a looser bound would let
-    // the deck go back to paying the reserve twice there while staying green.
-    // STALE CONTRACT (D-318 U1(1), CI 48be3a910): the named 44px Moves heading now sits between the deck
-    // and the hand, after the unchanged 16px deck gap (article-sections.spec.ts pins the same contract).
-    expect(m.faceToMoves, "the face sits tight over the Moves heading").toBeLessThanOrEqual(18)
-    expect(m.movesToTray, "and the heading sits tight over the tray").toBeCloseTo(0, 0)
-    expect(m.backTipToMoves, "the deepest back stays outside the heading's box").toBeGreaterThanOrEqual(0)
-    expect(m.backTipToTitle, "…and never reaches 'Your options'").toBeGreaterThanOrEqual(8)
+    // Tight under the hand: the one 16px deck gap at both widths, with the same 18 ceiling, so
+    // the deck can never go back to paying the gap twice while staying green.
+    expect(m.trayToFace, "the face sits tight under the Moves tray").toBeLessThanOrEqual(18)
+    expect(m.trayToFace, "…and never under it").toBeGreaterThanOrEqual(0)
+    expect(m.backTipBelowFace, "premise: the deepest back peeks below the face").toBeGreaterThan(0)
+    expect(m.backTipToArticle, "the deepest back stays clear of the article").toBeGreaterThanOrEqual(0)
   })
 }
 
@@ -228,15 +230,17 @@ test("@curated responsive deck stays readable in the shared scrollport and rotat
     { width: 844, height: 390 }, { width: 390, height: 844 },
   ]) {
     await page.setViewportSize(viewport)
+    // Measure the flow from its top: the deck journeys' setup scrolls the face into view (D-338).
+    await page.locator('[data-reader]').evaluate(e => { e.scrollTop = 0 })
     await j.readerLayoutSettled()
     await j.advance(100)
     const layout = await page.evaluate(() => {
       const a = (window as any).__neural
       const card = a._landEl.getBoundingClientRect(), film = a._landFilmEl.getBoundingClientRect()
       const hand = a.optionsRef.current.getBoundingClientRect()
-      const stack = a._landStackEl.getBoundingClientRect(), moves = document.getElementById("reader-hand")!.getBoundingClientRect()
+      const stack = a._landStackEl.getBoundingClientRect(), video = a._reader.videoCard?.getBoundingClientRect()
       return {
-        card: card.toJSON(), film: film.toJSON(), hand: hand.toJSON(), stack: stack.toJSON(), moves: moves.toJSON(),
+        card: card.toJSON(), film: film.toJSON(), hand: hand.toJSON(), stack: stack.toJSON(), video: video?.toJSON() ?? null,
         beside: a._reader.game.dataset.mediaLayout === 'side-by-side',
         sameScrollport: a._reader.game.contains(a._landEl) && a._reader.game.contains(a._landFilmEl) && a._reader.game.contains(a.optionsRef.current),
         extent: a._reader.root.getBoundingClientRect().top + a._reader.root.scrollHeight - a._reader.root.scrollTop,
@@ -258,15 +262,12 @@ test("@curated responsive deck stays readable in the shared scrollport and rotat
     expect(layout.overflow).toBeLessThanOrEqual(1)
     expect(layout.page).toBe(1)
     expect(layout.sameScrollport).toBe(true)
-    if (layout.beside) {
-      expect(layout.card.left - layout.film.right).toBeCloseTo(60, 0)
-    } else {
-      expect(layout.card.top - layout.film.bottom).toBeCloseTo(12, 0)
-    }
-    // STALE CONTRACT (D-318 U1(1), CI 48be3a910): the named 44px Moves heading now sits between the deck
-    // and the hand, after the unchanged 16px deck gap (article-sections.spec.ts pins the same contract).
-    expect(layout.moves.top - layout.card.bottom).toBeCloseTo(16, 0)
-    expect(layout.hand.top - layout.moves.bottom).toBeCloseTo(0, 0)
+    // STALE CONTRACT (D-338): Videos, Moves, Questions in the article view. The film sits above the
+    // hand (its own section when it has one), the deck follows the hand at the 16px deck gap; the
+    // film beside or over the card is the map view's layout only.
+    expect(layout.beside, 'the article view never puts the film beside the card').toBe(false)
+    expect(layout.film.bottom, 'Videos sits above Moves').toBeLessThanOrEqual(layout.hand.top)
+    expect(layout.card.top - layout.hand.bottom, 'Questions follows Moves at the deck gap').toBeCloseTo(16, 0)
   }
 })
 
@@ -320,7 +321,8 @@ test.describe("phone input", () => {
     const answer = await last.boundingBox()
     const hand = await page.locator(".ng-optionrow").boundingBox()
     expect(answer!.height).toBeGreaterThan(44)
-    expect(answer!.y + answer!.height).toBeLessThan(hand!.y)
+    // D-338: the deck follows the tray, so the long answer reads below it, never under it.
+    expect(answer!.y).toBeGreaterThanOrEqual(hand!.y + hand!.height)
     const after = await geometry(page)
     expect(after.filmTop - before.filmTop).toBeCloseTo(after.top - before.top, 0)
     // A fresh tap after the drag must answer; the drag's synthetic click must not.

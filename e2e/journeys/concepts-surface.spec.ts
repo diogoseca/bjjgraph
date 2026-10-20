@@ -1203,8 +1203,9 @@ for (const [category, reference] of [["Principles", null], ["Systems", null], ["
       expect(new URL(page.url()).pathname).toBe("/" + id);
     };
     await assertIdle();
-    await j.clickByMouse("[data-reader-browse]");
-    await j.clickByMouse(".ng-explorer-close"); // closing Browse must not resume the old roll
+    // STALE CONTRACT (D-338): Browse is gone; the logo opens the same pane.
+    await j.clickByMouse(".ng-logo", "the logo opens the pane, as Browse did");
+    await j.clickByMouse(".ng-explorer-close"); // closing the pane must not resume the old roll
     await j.advance(12000);
     await assertIdle();
     expect((await litIds(page))!.length).toBeGreaterThan(0);

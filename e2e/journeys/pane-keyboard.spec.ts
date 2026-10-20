@@ -43,12 +43,19 @@ async function study(page: Page, j: Journey) {
   await settle(page, j)
 }
 
-test("@curated Esc closes Browse and leaves the independent article reading", async ({ page }) => {
+// STALE CONTRACT (D-338): Focus on reading and Browse are gone. Reading starts with a real reading
+// interaction (focusing the prose), and the logo opens the pane above the article, as Browse did.
+const read = async (page: Page) => {
+  await expect(page.locator('[data-reader-ready="true"]')).toBeVisible()
+  await page.locator("[data-reader-body]").focus()
+  await expect.poll(() => page.evaluate(() => !!(window as any).__neural._reader.interacting)).toBe(true)
+}
+test("@curated Esc closes the pane and leaves the independent article reading", async ({ page }) => {
   const j = await setup(page)
   await addMore(page)
-  await j.clickByMouse("[data-reading-focus]", "Focus on reading")
-  await expect(page.locator('[data-reader-ready="true"]')).toBeVisible()
-  await j.clickByMouse(".ng-logo", "open Browse above the article")
+  await read(page)
+  await page.locator('[data-reader]').evaluate(e => { e.scrollTop = 0 })
+  await j.clickByMouse(".ng-logo", "open the pane above the article")
   await page.keyboard.press("Escape")
   await expect(page.locator(".ng-drill")).toBeHidden()
   await expect(page.locator('[data-reader-ready="true"]')).toBeVisible()
@@ -56,7 +63,7 @@ test("@curated Esc closes Browse and leaves the independent article reading", as
   await expect(page.locator('[data-reader-ready="true"]')).toBeVisible()
   expect(await page.evaluate(() => {
     const a = (window as any).__neural
-    return { reading: a._readerIntent, clock: a._decision?.remaining ?? null, paused: a.paused }
+    return { reading: a._reader.interacting, clock: a._decision?.remaining ?? null, paused: a.paused }
   })).toEqual({ reading: true, clock: null, paused: true })
 })
 
@@ -119,19 +126,20 @@ test("@curated a recall page mounted under the pane receives Space when the pane
   await expect(page.locator("[data-land-answer]")).toBeVisible()
 })
 
-test("@curated leaving Focus preserves the stopped reading intent until a move", async ({ page }) => {
+// STALE CONTRACT (D-338): "leaving Focus" has no control left; the claim that stopped reading
+// waits for a move is kept, entered by the reading interaction itself.
+test("@curated stopped reading waits for a move", async ({ page }) => {
   const j = await setup(page)
   await addMore(page)
-  await j.clickByMouse("[data-reading-focus]")
-  await expect(page.locator('[data-reader-ready="true"]')).toBeVisible()
-  await j.clickByMouse("[data-reading-focus]", "leave Focus without starting a roll")
+  await read(page)
   await j.advance(12000)
   expect(await page.evaluate(() => {
     const a = (window as any).__neural
-    return { focus: a.get("readingFocus", false), reading: a._readerIntent, paused: a.paused }
-  })).toEqual({ focus: false, reading: true, paused: true })
+    return { reading: a._reader.interacting, paused: a.paused, clock: a._decision?.remaining ?? null }
+  })).toEqual({ reading: true, paused: true, clock: null })
   await page.evaluate(() => (window as any).__neural._optionCards.find((c: any) => !c.opt.threat).card.setAttribute("data-reading-choice", ""))
+  await page.locator("[data-reading-choice]").scrollIntoViewIfNeeded()
   await j.clickByMouse("[data-reading-choice]", "choose a move directly")
   await j.advance(1500)
-  expect(await page.evaluate(() => (window as any).__neural._readerIntent)).toBe(false)
+  expect(await page.evaluate(() => { const a = (window as any).__neural; return { intent: a._readerIntent, reading: a._reader.interacting } })).toEqual({ intent: false, reading: false })
 })

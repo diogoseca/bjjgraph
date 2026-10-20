@@ -28,7 +28,8 @@ for (const width of [1440, 390]) for (const action of ['click', 'leave', 'press'
     const evidence: any = { width, action }
     try {
       await j.boot('/Transitions/Knee-Slice-Pass', {
-        initialState: { v: 2, settings: { readingFocus: true, readingFeedback: false }, settingsAt: {} },
+        // D-338: saved Focus is not read; the game Feedback layer carries the same quiet seed.
+        initialState: { v: 2, settings: { landFeedback: false }, settingsAt: {} },
         beforeNavigate: async () => {
           await page.route('**/aliases.json*', async route => {
             requests++
@@ -51,7 +52,9 @@ for (const width of [1440, 390]) for (const action of ['click', 'leave', 'press'
         },
       })
       await expect(page.locator(READY)).toBeVisible()
-      await j.clickByMouse('[data-reader-browse]')
+      // STALE CONTRACT (D-338): Browse is gone; the logo opens the same pane on its Explore tab.
+      await j.clickByMouse('.ng-logo', 'the logo opens the pane, as Browse did')
+      if (await page.evaluate(() => (window as any).__neural._viewMode !== 'explore')) await j.clickByMouse('[data-view="explore"]', 'the Explore tab')
       await page.locator('.ng-explorer-search input').fill(action === 'leave' ? 'Rear' : 'Mount')
       await expect(page.locator(target)).toHaveCount(1)
       await expect.poll(() => requests).toBe(1)

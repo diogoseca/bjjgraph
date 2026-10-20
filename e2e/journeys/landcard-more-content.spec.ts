@@ -108,8 +108,9 @@ test("@curated a cold option sheet gains its own dossier without replacing the d
 
 
 const READER = '[data-reader-ready="true"]'
-const readingState = { v: 2, settings: { readingFocus: true, readingFilm: false,
-  readingCard: false, readingHand: false, readingMap: false, readingFeedback: false }, settingsAt: {} }
+// D-338 retired Focus (its reading* overrides are no longer read): the same quiet article view is
+// seeded through the game layers it used to override.
+const readingState = { v: 2, settings: { landCard: false, landHand: false, landFeedback: false }, settingsAt: {} }
 
 for (const path of [
   "/Positions/Mount/Top", "/Positions/Mount/Bottom",

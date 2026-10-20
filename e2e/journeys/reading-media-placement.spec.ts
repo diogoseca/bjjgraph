@@ -11,7 +11,10 @@ import { journey } from '../dsl'
 // style-churn mutant (53 sets vs 0); both unmodified viewport cases pass.
 const PATH = '/Transitions/Knee-Slice-Pass/Attacker'
 const READY = '[data-reader][data-reader-ready="true"]'
-const FOCUS = { v: 2, settings: { readingFocus: true, readingCard: false, readingHand: false, readingMap: true, readingFeedback: false }, settingsAt: {} }
+// D-338 retired Focus (its reading* overrides are no longer read). QUIET seeds the same closed
+// Questions and Moves and silent Feedback through the game layers; the map stays shown, as
+// leaving Focus showed it for the other-half tap.
+const QUIET = { v: 2, settings: { landCard: false, landHand: false, landFeedback: false }, settingsAt: {} }
 async function installTransport(page: Page) {
   await page.evaluate(() => {
     const w = window as any, a = w.__neural
@@ -67,7 +70,7 @@ for (const [path, width, fixture] of [
   test(`@curated published reference videos remain playable without a seat: ${path} ${width}px${fixture ? ' (video fixture)' : ''}`, async ({ page }) => {
     await page.setViewportSize({ width, height: width === 390 ? 844 : 900 })
     const j = journey(page)
-    await j.boot(path, { keepTutorial: true, initialState: FOCUS, beforeNavigate: async () => {
+    await j.boot(path, { keepTutorial: true, initialState: QUIET, beforeNavigate: async () => {
       await page.route('**/static/neural/content/*.json', route => route.continue())
       await page.route(/https:\/\/(www\.)?youtube(-nocookie)?\.com\/embed\//, route => route.fulfill({ contentType: 'text/html', body: '<title>Source transport fixture</title>' }))
       if (fixture) await page.route(url => url.pathname === path, async route => {
@@ -115,11 +118,11 @@ for (const [path, width, fixture] of [
       expect(await page.evaluate(() => (window as any).__referenceHost === (window as any).__neural._landFilmEl)).toBe(true)
     }
     expect(await page.evaluate(() => (window as any).__mediaEvents.filter((x: string) => x === 'destroy').length)).toBe(1)
-    await j.clickByMouse('[data-layer-hide=book]', 'hiding a seatless article cannot leave hidden audio playing')
-    expect(await page.evaluate(() => (document.querySelector('[data-land-film] iframe') as HTMLIFrameElement).contentDocument!.querySelector('video')!.paused)).toBe(true)
-    await j.clickByMouse('[data-layer-show=book]')
+    // STALE CONTRACT (D-338, no View menu): the article view cannot hide Book, so "hidden audio"
+    // is reached through the one remaining hide path, the Videos ✕, while the clip still plays.
+    expect(await page.evaluate(() => (document.querySelector('[data-land-film] iframe') as HTMLIFrameElement).contentDocument!.querySelector('video')!.paused), 'the clip is playing before its section closes').toBe(false)
     await page.locator('[data-section-toggle=videos]').scrollIntoViewIfNeeded()
-    await j.clickByMouse('[data-section-toggle=videos]')
+    await j.clickByMouse('[data-section-toggle=videos]', 'closing a seatless article\'s videos cannot leave hidden audio playing')
     await expect(page.locator('[data-section-type=videos] .ng-section-body')).toBeHidden()
     expect(await page.evaluate(() => (window as any).__mediaEvents.filter((x: string) => x === 'destroy').length)).toBe(1)
     expect(await page.evaluate(() => (document.querySelector('[data-land-film] iframe') as HTMLIFrameElement).contentDocument!.querySelector('video')!.paused)).toBe(true)
@@ -145,11 +148,9 @@ for (const width of [1366, 390]) for (const native of [true, false]) {
       if (!native) await page.addInitScript(() => Object.defineProperty(Element.prototype, 'moveBefore', { configurable: true, value: undefined }))
     } })
     await expect(page.locator(READY)).toBeVisible()
-    // Enter Focus through the real control in both engines. This also avoids
-    // relying on the harness's separate wipe/seed init-script ordering in Firefox.
+    // STALE CONTRACT (D-338): Focus is gone, and with the article shown the film's one home is
+    // its Videos section, so the clip is already in the slot without any entry action.
     if (await page.locator('[data-reward-close]').isVisible()) await j.clickByMouse('[data-reward-close]')
-    await page.locator('[data-reading-focus]').scrollIntoViewIfNeeded()
-    await j.clickByMouse('[data-reading-focus]')
     await expect(page.locator('[data-reader-media-slot] .ng-clip').first()).toBeVisible()
     await page.locator('[data-reader-media-slot] .ng-clip').first().scrollIntoViewIfNeeded()
     await installTransport(page)
@@ -218,7 +219,7 @@ for (const width of [1366, 390]) for (const native of [true, false]) {
 
 test('@curated pauseLandFilm pauses every owner player without destroying or collapsing', async ({ page }) => {
   const j = journey(page)
-  await j.boot(PATH, { initialState: FOCUS, beforeNavigate: async () => {
+  await j.boot(PATH, { initialState: QUIET, beforeNavigate: async () => {
     await page.route('**/static/neural/content/*.json', route => route.continue())
   } })
   await expect(page.locator('[data-reader-media-slot] .ng-clip').first()).toBeVisible()
@@ -244,7 +245,7 @@ test('@curated pauseLandFilm pauses every owner player without destroying or col
 
 test('@curated same-seat hydration retains the host; a role change retires it', async ({ page }) => {
   const j = journey(page)
-  await j.boot(PATH, { initialState: FOCUS, beforeNavigate: async () => {
+  await j.boot(PATH, { initialState: QUIET, beforeNavigate: async () => {
       await page.route('**/static/neural/content/*.json', route => route.continue())
       // The hidden source article's external embeds are transport fixtures. The
       // app still owns only its single adopted host; no provider network is needed.
@@ -271,14 +272,19 @@ test('@curated same-seat hydration retains the host; a role change retires it', 
 })
 
 
+// STALE CONTRACT (D-338): the article view reads Videos, Moves, Questions, and the film's one home
+// there is its Videos section, lifted into the game flow above the hand (no side-by-side normal
+// home any more). Kept: one owned host in the shared scrollport, measured one-gap boundaries with
+// no extra gap, no fixed overlap, no resize loops. RETIRED with that home: the side-by-side and
+// stacked sizes and "until videos lands, the host rect supplies identical geometry".
 for (const width of [1366, 390]) {
-  test(`@curated ${width}px normal media home shares the game scrollport without fixed overlap or resize loops`, async ({ page }) => {
+  test(`@curated ${width}px the Videos section leads the game scrollport without fixed overlap or resize loops`, async ({ page }) => {
     const errors: string[] = []
     page.on('pageerror', e => errors.push(e.message))
     page.on('console', m => { if (m.type() === 'error') errors.push(m.text() + ' [' + m.location().url + ']') })
     await page.setViewportSize({ width, height: width === 390 ? 844 : 768 })
     const j = journey(page)
-    await j.boot(PATH, { initialState: FOCUS, beforeNavigate: async () => {
+    await j.boot(PATH, { beforeNavigate: async () => {
       await page.route('**/static/neural/content/*.json', route => route.continue())
       // The hidden source article's external embeds are transport fixtures. The
       // app still owns only its single adopted host; no provider network is needed.
@@ -292,43 +298,34 @@ for (const width of [1366, 390]) {
       const w = window as any, a = w.__neural; w.__placementHost = a._landFilmEl
       // Explicit future-owner height fixture on today's same host, not a second renderer.
       a._landFilmEl.style.minHeight = (width > 640 ? 241.421875 : 219.9375) + 'px'
-      a.currentFilmHeight = () => a._landFilmEl.getBoundingClientRect().height
       const observer = new ResizeObserver(() => a._reader.layout()); observer.observe(a._landFilmEl)
       a._reader.leaveReading(); a._applyLayers()
     }, width)
     await j.advance(500)
     await j.readerLayoutSettled()
     const geometry = () => page.evaluate(() => {
-      const w = window as any, a = w.__neural, home = document.querySelector('[data-land-media-slot]')!, card = a._landEl
-      const m = home.getBoundingClientRect(), c = card.getBoundingClientRect(), h = a.optionsRef.current.getBoundingClientRect()
-      const moves = a._reader.gameSections.find((s: any) => s.part === 'hand').card.getBoundingClientRect()
+      const w = window as any, a = w.__neural, r = a._reader, video = r.videoCard, card = a._landEl, row = a.optionsRef.current
+      const v = video.getBoundingClientRect(), m = a._landFilmEl.getBoundingClientRect(), c = card.getBoundingClientRect(), h = row.getBoundingClientRect()
       return { same: a._landFilmEl === w.__placementHost, hosts: document.querySelectorAll('[data-land-film]').length,
-        together: home.parentElement === card.parentElement && home.parentElement === a.optionsRef.current.parentElement,
-        layout: home.parentElement!.getAttribute('data-media-layout'), media: { x: m.x, y: m.y, w: m.width, h: m.height, bottom: m.bottom },
-        card: { x: c.x, y: c.y, w: c.width, bottom: c.bottom }, handTop: h.top,
-        moves: { top: moves.top, bottom: moves.bottom, height: moves.height },
+        slot: a._landFilmEl.parentElement === r.mediaSlot && video.contains(r.mediaSlot),
+        together: video.parentElement === r.game && card.parentElement === r.game && row.parentElement === r.game,
+        layout: r.game.getAttribute('data-media-layout'), video: { x: v.x, w: v.width, bottom: v.bottom },
+        media: { x: m.x, w: m.width, h: m.height }, card: { y: c.y, bottom: c.bottom }, hand: { top: h.top, bottom: h.bottom },
         gap: card.classList.contains('ng-land-deck') ? 16 : a.isMobile() ? 8 : 12, position: getComputedStyle(a._landFilmEl).position }
     })
     const g = await geometry()
-    expect(g).toMatchObject({ same: true, hosts: 1, together: true, layout: width > 640 ? 'side-by-side' : 'stacked', position: 'relative' })
-    expect(g.media.w).toBe(width > 640 ? 400 : 358)
-    expect(g.media.h).toBeCloseTo(width > 640 ? 241.42 : 219.94, 1)
-    if (width > 640) { expect(g.card.x - g.media.x - g.media.w).toBeCloseTo(60, 0); expect(g.card.w).toBe(390) }
-    else { expect(g.card.y - g.media.bottom).toBeCloseTo(12, 0); expect(g.card.w).toBe(286) }
-    expect(g.handTop).toBeGreaterThan(Math.max(g.card.bottom, g.media.bottom))
-    // D-318 adds a named 44px Moves header after the original deck gap. Measure
-    // both boundaries; adding media height or another gap must still fail here.
-    expect(g.moves.top - g.card.bottom, 'media height never adds another gap below the practice card').toBeCloseTo(g.gap, 1)
-    expect(g.moves.height).toBe(44)
-    expect(g.handTop - g.moves.bottom).toBeCloseTo(0, 1)
-    await page.evaluate(() => { const a = (window as any).__neural; delete a.currentFilmHeight; a._reader.layoutNow() })
-    expect(await geometry(), 'until videos lands, the host rect supplies identical geometry').toEqual(g)
+    expect(g).toMatchObject({ same: true, hosts: 1, slot: true, together: true, layout: 'none', position: 'relative' })
+    expect(g.media.h).toBeGreaterThanOrEqual(width > 640 ? 241.42 : 219.93)
+    expect(g.media.x, 'the film stays inside its section').toBeGreaterThanOrEqual(g.video.x)
+    expect(g.media.x + g.media.w).toBeLessThanOrEqual(g.video.x + g.video.w + .5)
+    expect(g.hand.top - g.video.bottom, 'Moves follows Videos at one gap, never another').toBeCloseTo(g.gap, 1)
+    expect(g.card.y - g.hand.bottom, 'Questions follows Moves at one gap, never another').toBeCloseTo(g.gap, 1)
     await page.evaluate(async () => { await new Promise(requestAnimationFrame); await new Promise(requestAnimationFrame) })
     const churn = await page.evaluate(async () => {
       const a = (window as any).__neural, reader = a._reader, now = reader.layoutNow
       let calls = 0, writes = 0, sets = 0
       reader.layoutNow = function () { calls++; return now.call(this) }
-      const elements = [reader.root, reader.game, reader.mediaHome, reader.articleEl, reader.head,
+      const elements = [reader.root, reader.game, reader.mediaHome, reader.videoCard, reader.articleEl, reader.head,
         reader.dock, reader.contents, a._landEl, a._landStackEl, a._landNavEl, a.optionsRef.current].filter(Boolean) as HTMLElement[]
       // Chromium can suppress MutationObserver records for an identical CSSOM
       // assignment. Count the owned style calls too: the first style-churn mutant

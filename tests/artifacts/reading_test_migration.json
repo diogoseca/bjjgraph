@@ -125,7 +125,7 @@
       "replacement_tests": [
         {
           "file": "e2e/journeys/reading-navigation.spec.ts",
-          "title_contains": "successful article responses are reused across seat navigation and Book restores"
+          "title_contains": "successful article responses are reused across seat navigation"
         }
       ],
       "retired_rule": "First-More-open laziness is retired by automatic complete articles. Game-first-hand deferred request bans remain in payload-first-hand.spec.ts.",
@@ -143,7 +143,7 @@
         },
         {
           "file": "e2e/journeys/reading-mode.spec.ts",
-          "title_contains": "complete article, Focus, every restore and reload"
+          "title_contains": "complete article, every close and reopen, and reload"
         }
       ],
       "retired_rule": "Hiding Film and Card no longer suppresses article delivery: Book is its own owner. Dossier request count was tied to the removed More renderer. Game dossier suppression is retained in the layer tests; reader HTML is measured separately.",
@@ -429,7 +429,7 @@
         },
         {
           "file": "e2e/journeys/pane-layout.spec.ts",
-          "title_contains": "Browse overlays the article and preserves its place"
+          "title_contains": "the pane overlays the article and preserves its place"
         }
       ],
       "retired_rule": "Virtual _readPin offsets and whole-column _readS no longer exist for Book.",
@@ -479,7 +479,7 @@
         },
         {
           "file": "e2e/journeys/reading-mode.spec.ts",
-          "title_contains": "complete article, Focus, every restore and reload"
+          "title_contains": "complete article, every close and reopen, and reload"
         }
       ],
       "retired_rule": "Centered closed More pill / right-aligned open X is entirely retired. A labeled Book shelf control replaces both states, with 44px targets and no overlap.",
@@ -563,7 +563,7 @@
         },
         {
           "file": "e2e/journeys/reading-mode.spec.ts",
-          "title_contains": "complete article, Focus, every restore and reload"
+          "title_contains": "complete article, every close and reopen, and reload"
         }
       ],
       "retired_rule": "The rule making More subordinate to Card is reversed by approved Design A. Book survives Card minimization; hiding it never auto-resumes a roll.",
@@ -585,7 +585,7 @@
         },
         {
           "file": "e2e/journeys/reading-mode.spec.ts",
-          "title_contains": "complete article, Focus, every restore and reload"
+          "title_contains": "complete article, every close and reopen, and reload"
         }
       ],
       "retired_rule": "More immediately below the hand/card by 5–7px and the fixed 84px datum are replaced by the measured independent reader/shelf boundary.",
@@ -635,7 +635,7 @@
       "replacement_tests": [
         {
           "file": "e2e/journeys/pane-layout.spec.ts",
-          "title_contains": "Browse overlays the article and preserves its place"
+          "title_contains": "the pane overlays the article and preserves its place"
         },
         {
           "file": "e2e/journeys/pane-layout.spec.ts",
@@ -671,7 +671,7 @@
         },
         {
           "file": "e2e/journeys/pane-keyboard.spec.ts",
-          "title_contains": "leaving Focus preserves the stopped reading intent until a move"
+          "title_contains": "stopped reading waits for a move"
         }
       ],
       "retired_rule": "Last More-owned pause automatically resuming gameplay is retired by OWNERQ1: minimizing, leaving Focus or closing Browse never counts as a deliberate game action.",
@@ -713,7 +713,7 @@
       "replacement_tests": [
         {
           "file": "e2e/journeys/landcard-chrome.spec.ts",
-          "title_contains": "Book minimize and restore keep a readable, reachable control"
+          "title_contains": "Book restore keeps a readable, reachable control"
         }
       ],
       "retired_rule": "The removed inline More color writer and open-state emphasis are presentation mechanics; Book uses CSS and an explicit pressed state.",
@@ -769,7 +769,7 @@
       "replacement_tests": [
         {
           "file": "e2e/journeys/pane-keyboard.spec.ts",
-          "title_contains": "Esc closes Browse and leaves the independent article reading"
+          "title_contains": "Esc closes the pane and leaves the independent article reading"
         }
       ],
       "retired_rule": "A second Escape folding More and resuming play is retired. Book has a dedicated shelf control and closing UI is not a game action.",
@@ -783,7 +783,7 @@
       "replacement_tests": [
         {
           "file": "e2e/journeys/reading-navigation.spec.ts",
-          "title_contains": "ending a replay after Browse closes preserves reading intent"
+          "title_contains": "ending a replay after the pane closes preserves reading intent"
         }
       ],
       "retired_rule": "The last More pause auto-resuming is retired by OWNERQ1; game actions own the return to play.",

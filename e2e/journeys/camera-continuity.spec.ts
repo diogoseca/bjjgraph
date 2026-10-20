@@ -514,16 +514,18 @@ for (const viewport of VIEWPORTS) {
         expect(Math.abs(S[i].vw / vw0 - 1), `an escape picked inside the window keeps the catch framing to the landing (frame ${i}) ${JSON.stringify(S[i])}`).toBeLessThan(0.03);
     });
 
+    // STALE CONTRACT (D-338, no View menu): the article view has no Book control, so these map-view
+    // camera rules boot with the article away, as a returning reader left it (the persisted setting
+    // the retired click wrote). The clearance claims are unchanged.
     test("CLEAR_SEC: a card the player turns back on mounts over the node, and is cleared within the rule", async ({ page }) => {
       const j = journey(page);
-      await j.boot("/");
+      await j.boot("/", { initialState: { v: 2, settings: { readerBook: false }, settingsAt: {} } });
       await j.land("Mount Top");
       // every layer off: nothing bounds the graph, so the node is framed at the screen's middle
-      await expect(page.locator('[data-reader-ready="true"]')).toBeVisible();
+      await expect(page.locator('[data-reader-ready="true"]')).toHaveCount(1);
       await page.evaluate(() => { const a = (window as any).__neural; for (const k of ["film", "card", "hand"]) a.setLayer(k, false, "test"); });
-      await j.clickByMouse('[data-layer-hide="book"]', "put the article away too, leaving the graph unbounded");
       await j.readerLayoutSettled();
-      await j.advance(6000); // the real Book click's four-second input lease must expire first
+      await j.advance(6000); // let any input lease and the resulting flight settle
       const before = await frame(page);
       expect(before.rows, "no rows while every layer is off").toBeNull();
       // the player turns the card and the hand back on (the layer dock): rows the camera did not predict
@@ -538,13 +540,12 @@ for (const viewport of VIEWPORTS) {
 
     test("CLEAR_SEC: a film row whose content arrives after the landing never stays over the node", async ({ page }) => {
       const j = journey(page);
-      await j.boot("/");
+      await j.boot("/", { initialState: { v: 2, settings: { readerBook: false }, settingsAt: {} } });
       await j.land("Mount Top");          // the harness serves no clips: no film row at the landing
-      await expect(page.locator('[data-reader-ready="true"]')).toBeVisible();
+      await expect(page.locator('[data-reader-ready="true"]')).toHaveCount(1);
       // A small A film fits beside practice without moving the camera. Put the
       // other surfaces away so the late film alone changes an unbounded band.
       await page.evaluate(() => { const a = (window as any).__neural; a.setLayer("card", false, "test"); a.setLayer("hand", false, "test"); });
-      await j.clickByMouse('[data-layer-hide="book"]', "make the late film own the clearance change");
       await j.readerLayoutSettled();
       await j.advance(6000); // let the mouse-input camera lease and the resulting flight settle
       const before = await frame(page);

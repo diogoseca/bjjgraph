@@ -201,6 +201,9 @@ test('a list click on the current position also ends its old journey', async ({ 
   await j.boot('/Positions/Mount/Top', { beforeNavigate: content })
   await expect(page.locator('[data-land-mc-opt]').first()).toBeVisible()
   const q = await j.landQuestion()
+  // D-338: Questions follows Videos and Moves and can start below the fold; scroll to it first.
+  await page.locator(`[data-land-mc-opt="${q!.correct}"]`).evaluate(e => e.scrollIntoView({ block: 'nearest' }))
+  await j.readerLayoutSettled()
   await j.clickByMouse(`[data-land-mc-opt="${q!.correct}"]`, 'start play with an answer')
   const previous = (await snapshot(page)).journey
   const list = await page.evaluate(() => {
@@ -245,7 +248,7 @@ test('@curated article links, Back and Forward start fresh journeys after a catc
   const { j, previous } = await caught(page)
   await expect(page.locator(READY)).toHaveAttribute('data-reader-path', '/' + ID + '/Defender')
   await j.readerLayoutSettled()
-  await j.clickByMouse('.ng-reader-toc-row:has([data-toc-eye="overview"]) a', 'read the caught submission article')
+  await j.clickByMouse('[data-toc-type="overview"] a', 'read the caught submission article')
   const link = page.locator('[data-reader-body] a[href*="/Positions/"]').first()
   await link.evaluate(e => e.setAttribute('data-arrival-article-link', ''))
   await wheelTo(page, '[data-arrival-article-link]', '[data-reader]')

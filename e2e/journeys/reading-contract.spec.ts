@@ -30,7 +30,10 @@ import { journey } from "../dsl"
 const READY = '[data-reader][data-reader-ready="true"]'
 const KNEE = '/Transitions/Knee-Slice-Pass'
 const RNC = '/Submissions/Rear-Naked-Choke/from-Back-Control'
-const FOCUS = { v: 2, settings: { readingFocus: true, readingFilm: false, readingCard: false, readingHand: false, readingMap: false, readingFeedback: false }, settingsAt: {} }
+// D-338 retired Focus (its reading* overrides are no longer read). QUIET seeds the same closed
+// Questions and Moves and silent Feedback through the game layers; the map stays shown, as
+// leaving Focus showed it for the other-half tap.
+const QUIET = { v: 2, settings: { landCard: false, landHand: false, landFeedback: false }, settingsAt: {} }
 const activity = (page: Page) => page.evaluate(() => {
   const a = (window as any).__neural
   return { intent: !!a._readerIntent, paused: a.paused, played: !!a._played,
@@ -115,6 +118,10 @@ for (const width of [1366, 390]) {
     expect(q).not.toBeNull()
     await j.advance(20000)
     expect(await activity(page)).toMatchObject({ intent: true, paused: true, remaining: null, played: false, beats: [] })
+    // D-338: Questions follows Videos and Moves and can start below the fold; a reader scrolls to it
+    // (a programmatic scroll is not a reading gesture) and answers it there.
+    await page.locator(`[data-land-mc-opt="${q!.correct}"]`).evaluate(e => e.scrollIntoView({ block: 'nearest' }))
+    await j.readerLayoutSettled()
     await j.clickByMouse(`[data-land-mc-opt="${q!.correct}"]`, 'answer the dormant landing card')
     expect(await activity(page)).toMatchObject({ intent: false, paused: false, remaining: null })
     await j.advance(20000)
@@ -142,23 +149,20 @@ test('@curated reading gestures, minimizing and article navigation never start p
   await page.mouse.move(box!.x + box!.width / 2, box!.y + box!.height - 18)
   await page.mouse.wheel(0, 500)
   await expect.poll(() => page.locator(READY).evaluate(e => e.scrollTop)).toBeGreaterThan(0)
-  // STALE CONTRACT (D-318 U1(1), review B2): Questions and Moves minimize and restore through
-  // their section eyes; Book, Map and Feedback return with U7's View menu (U7-PENDING there).
-  for (const part of ['card', 'hand']) {
-    for (let i = 0; i < 2; i++) {
-      await page.locator(`[data-game-eye="${part}"]`).scrollIntoViewIfNeeded()
-      await j.clickByMouse(`[data-game-eye="${part}"]`, (i ? 'restore ' : 'minimize ') + part)
-    }
-    await expect(page.locator(`[data-game-eye="${part}"]`)).toHaveAttribute('aria-expanded', 'true')
+  // STALE CONTRACT (D-318 U1(1), D-338): Questions and Moves close through their own ✕ and
+  // reopen from the label each leaves. RETIRED (D-338, no View menu): Book, Map and Feedback have
+  // no control in the article view, so their minimize/restore steps go; the claim is their absence.
+  for (const [part, close] of [['card', '[data-land-close]'], ['hand', '[data-hand-close]']]) {
+    await page.locator(close).scrollIntoViewIfNeeded(); await j.readerLayoutSettled()
+    await j.clickByMouse(close, 'minimize ' + part)
+    await page.locator(`[data-game-open="${part}"]`).scrollIntoViewIfNeeded(); await j.readerLayoutSettled()
+    await j.clickByMouse(`[data-game-open="${part}"]`, 'restore ' + part)
+    await expect(page.locator(`[data-game-open="${part}"]`)).toBeHidden()
+    await expect(page.locator(close).first()).toBeVisible()
   }
-  for (const part of ['book', 'map', 'feedback']) {
-    await j.clickByMouse(`[data-layer-hide="${part}"]`)
-    await j.clickByMouse(`[data-layer-show="${part}"]`)
-  }
+  await expect(page.locator('[data-layer-hide]:visible,[data-layer-show]:visible'), 'no View control in the article view').toHaveCount(0)
   await j.advance(20000)
   expect(await activity(page)).toMatchObject({ intent: true, paused: true, played: false, remaining: null, beats: [] })
-  await page.locator('[data-reading-focus]').scrollIntoViewIfNeeded()
-  await j.clickByMouse('[data-reading-focus]')
   const link = page.locator('[data-reader-body] a[href*="/Positions/"]').first()
   await link.scrollIntoViewIfNeeded()
   await link.evaluate(e => e.setAttribute('data-reading-next', ''))
@@ -172,7 +176,7 @@ test('@curated reading gestures, minimizing and article navigation never start p
 for (const path of [KNEE, RNC]) {
   test(`@curated defender reading excludes attacker rules and preserves real safety: ${path}`, async ({ page }) => {
     const j = journey(page)
-    await j.boot(path + '/Defender', { initialState: FOCUS })
+    await j.boot(path + '/Defender', { initialState: QUIET })
     await expect(page.locator(READY)).toBeVisible()
     await j.advance(20000)
     const proof = await page.evaluate(async path => {
@@ -181,7 +185,8 @@ for (const path of [KNEE, RNC]) {
       const hub = await load(path), defender = await load(path + '/Defender')
       const guide = norm(defender.querySelector('article')!.textContent)
       const attackerOnly = [...hub.querySelectorAll('#attacker-summary li')].map(n => norm(n.textContent)).filter(s => s.length > 30 && !guide.includes(s))
-      const reader = norm(document.querySelector('[data-reader-body]')!.textContent)
+      // D-338 lifts the Videos section above the hand, out of [data-reader-body]: read the reader.
+      const reader = norm(document.querySelector('[data-reader]')!.textContent)
       const safety = hub.querySelector('#safety-considerations')
       return { attackerOnly, leaked: attackerOnly.filter(s => reader.includes(s)),
         safety: safety ? norm(safety.textContent) : null,
@@ -203,7 +208,7 @@ for (const path of [KNEE, RNC]) {
 test('@curated an unauthored defender never falls back to the attacker hub', async ({ page }) => {
   const j = journey(page)
   // Explicit missing-author fixture; the hub remains the real built attacker-rich page.
-  await j.boot(KNEE, { initialState: FOCUS, beforeNavigate: async () => {
+  await j.boot(KNEE, { initialState: QUIET, beforeNavigate: async () => {
     await page.route('**/Transitions/Knee-Slice-Pass/Defender', route => route.fulfill({ contentType: 'text/html', body: '<h1>Defender</h1><article><p>This defender guide has not been authored.</p></article>' }))
   } })
   await expect(page.locator(READY)).toBeVisible()
@@ -218,12 +223,13 @@ for (const width of [1366, 390]) {
   test(`@curated ${width}px reader rhythm scales as a ratio and headings keep their hierarchy`, async ({ page }) => {
     await page.setViewportSize({ width, height: 900 })
     const j = journey(page)
-    await j.boot(RNC + '/Defender', { initialState: FOCUS })
+    await j.boot(RNC + '/Defender', { initialState: QUIET })
     await expect(page.locator(READY)).toBeVisible()
     const sample = () => page.locator('[data-reader-article="guide"] [data-source-id="key-principles"]').evaluate(section => {
       const px = (e: Element, p: string) => parseFloat((getComputedStyle(e) as any)[p])
       const lum = (e: Element) => { const [r,g,b] = getComputedStyle(e).color.match(/\d+/g)!.slice(0,3).map(s => { const x = +s / 255; return x <= .03928 ? x / 12.92 : ((x + .055) / 1.055) ** 2.4 }); return .2126*r + .7152*g + .0722*b }
-      const list = section.querySelector('ul')!, card = section.closest('.ng-section-card')!, head = card.querySelector('[data-section-toggle]')!, prose = list.querySelector('li')!
+      // D-338: the heading's words are its title (the toggle beside it is now the one ✕).
+      const list = section.querySelector('ul')!, card = section.closest('.ng-section-card')!, head = card.querySelector('.ng-section-title')!, prose = list.querySelector('li')!
       const sub = document.querySelector('[data-reader-article="guide"] [data-source-id="defensive-options"] h3')!
       return { gap: card.nextElementSibling!.getBoundingClientRect().top - card.getBoundingClientRect().bottom,
         item: px(list, 'rowGap'), unit: parseFloat(getComputedStyle(section.closest('[data-reader]')!).getPropertyValue('--reader-unit')),
@@ -245,7 +251,7 @@ for (const width of [1366, 390]) {
 
 test('@curated a late response cannot repaint the opposite seat in the same reader', async ({ page }) => {
   const j = journey(page)
-  await j.boot('/Positions/Mount', { initialState: FOCUS })
+  await j.boot('/Positions/Mount', { initialState: QUIET })
   await expect(page.locator(READY)).toBeVisible()
   await page.evaluate(() => { (window as any).__seatReader = (window as any).__neural._reader })
   let release!: () => void, requested = false, settled = false
@@ -268,15 +274,17 @@ test('@curated a late response cannot repaint the opposite seat in the same read
   expect(await page.locator('[data-reader-article="guide"]').evaluateAll(es => [...new Set(es.map(e => e.getAttribute("data-source-path")))])).toEqual(['/Positions/Mount/Top'])
   const toc = await page.locator('[data-section-link]').evaluateAll(nodes => nodes.map(e => {
     const target = document.getElementById(e.getAttribute('data-section-link')!), card = target?.closest('.ng-section-card')
-    if (target?.classList.contains('ng-reader-game-heading')) return { label: e.textContent, type: target.id.slice(7),
+    // D-338: Moves and Questions name no header; each link targets the part's closed label, whose
+    // text is the name. Videos leads the flow above the hand, so a section is current in the reader.
+    if (target?.classList.contains('ng-reader-closed-part')) return { label: e.textContent, type: target.id.slice(7),
       current: !!document.querySelector('.ng-reader-game')?.contains(target) && e.getAttribute('href') === '#' + target.id,
-      heading: target.querySelector('[data-game-eye] > span')?.textContent }
+      heading: target.querySelector('[data-game-open] .ng-section-closed > span:last-child')?.textContent }
     return { label: e.textContent, type: card?.getAttribute('data-section-type'),
-      current: !!card && !!document.querySelector('[data-reader-body]')?.contains(card) && e.getAttribute('href') === '#' + card.id,
-      heading: card?.querySelector('[data-section-toggle] > span')?.textContent }
+      current: !!card && !!document.querySelector('[data-reader]')?.contains(card) && e.getAttribute('href') === '#' + card.id,
+      heading: card?.querySelector('.ng-section-title')?.textContent }
   }))
   const expected = [
-    ['card', 'Questions'], ['hand', 'Moves'], ['videos', 'Videos'], ['overview', 'Overview'], ['principles', 'Essential principles'],
+    ['videos', 'Videos'], ['hand', 'Moves'], ['card', 'Questions'], ['overview', 'Overview'], ['principles', 'Essential principles'],
     ['prerequisites', 'Prerequisites'], ['options', 'Decisions from top'], ['mistakes', 'Common mistakes'],
     ['role-comparison', 'Role comparison'], ['bottom-summary', 'Bottom overview'], ['top-summary', 'Top overview'],
     ['training', 'Training'], ['statistics', 'Statistics'], ['related', 'Related'],

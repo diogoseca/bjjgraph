@@ -102,7 +102,12 @@ for (const mobile of [false, true]) {
       if (await rewardClose.isVisible()) await rewardClose.click()
       await page.screenshot({ path: test.info().outputPath(`favorite-${mobile ? "phone" : "desktop"}.png`) })
 
+      // D-338: Questions follows Videos and Moves, so its ✕ can start below the phone's fold.
+      // Scroll to it as a reader would, then back to the map's band where the star lives.
+      await page.locator("[data-land-close]").evaluate(e => e.scrollIntoView({ block: "nearest" }))
+      await j.readerLayoutSettled()
       await j.clickByMouse("[data-land-close]", "hide the question card")
+      await page.locator("[data-reader]").evaluate(e => { e.scrollTop = 0 })
       await j.advance(500)
       await expect(page.locator("[data-landcard]")).not.toBeVisible()
       await expect(star).toBeVisible()

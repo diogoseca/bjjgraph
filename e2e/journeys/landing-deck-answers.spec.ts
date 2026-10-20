@@ -88,6 +88,10 @@ async function setup(page: Page, width: number, height: number) {
   await j.land("Mount Top");
   expect(await j.landQuestion(), "the landing asks a question").not.toBeNull();
   await j.advance(200); // let the hand settle under the card
+  // D-338: in the article view Questions follows Videos and Moves and can start below the fold;
+  // bring the deck into view as a reader scrolls to it (programmatic, not a reading gesture).
+  await page.locator("[data-landcard]").evaluate((e) => e.scrollIntoView({ block: "nearest" }));
+  await j.readerLayoutSettled();
   return j;
 }
 // a NEXT chevron click by MOUSE, then wait for the next card's block to mount (a cold distractor pool

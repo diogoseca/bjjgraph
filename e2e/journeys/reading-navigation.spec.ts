@@ -9,13 +9,18 @@ import { journey } from '../dsl'
 
 const READY = '[data-reader][data-reader-ready="true"]'
 const KNEE = '/Transitions/Knee-Slice-Pass'
-const FOCUS = { v: 2, settings: { readingFocus: true, readingFilm: false, readingCard: false, readingHand: false, readingMap: false, readingFeedback: false }, settingsAt: {} }
+// D-338 retired Focus (its reading* overrides are no longer read). QUIET seeds the same closed
+// Questions and Moves and silent Feedback through the game layers; the map stays shown, as
+// leaving Focus showed it for the other-half tap.
+const QUIET = { v: 2, settings: { landCard: false, landHand: false, landFeedback: false }, settingsAt: {} }
 
 for (const width of [320, 390]) {
-  test(`@curated ${width}px native reading keys, section headers and Book preserve the complete document`, async ({ page }) => {
+  // RETIRED in part (D-338, no View menu): the article view has no Book toggle, so its hide/restore
+  // steps and their ghost-hit and scroll claims go. Keys, section toggles and no play remain.
+  test(`@curated ${width}px native reading keys and section toggles preserve the complete document`, async ({ page }) => {
     await page.setViewportSize({ width, height: 844 })
     const j = journey(page)
-    await j.boot(KNEE + '/Attacker', { initialState: FOCUS })
+    await j.boot(KNEE + '/Attacker', { initialState: QUIET })
     await expect(page.locator(READY)).toBeVisible()
     const before = await page.evaluate(() => {
       const w = window as any, a = w.__neural, root = document.querySelector('[data-reader]')!
@@ -50,13 +55,8 @@ for (const width of [320, 390]) {
     await expect(last).toHaveAttribute('aria-expanded', 'false')
     await page.keyboard.press('Enter')
     await expect(last).toHaveAttribute('aria-expanded', 'true')
-    const scroll = await page.locator(READY).evaluate(e => e.scrollTop)
-    await j.clickByMouse('[data-layer-hide="book"]')
-    await expect(page.locator('.ng-reader-article')).toBeHidden()
-    expect(await page.evaluate(({ x, y }) => document.elementFromPoint(x, y)?.closest('.ng-reader-article') == null, { x: r!.x + 30, y: r!.y + 30 }), 'hidden Book has no ghost hit target').toBe(true)
-    await j.clickByMouse('[data-layer-show="book"]')
+    await expect(page.locator('[data-layer-hide]:visible,[data-layer-show]:visible'), 'no Book control in the article view').toHaveCount(0)
     expect(await page.evaluate(() => (window as any).__readingBody === document.querySelector('[data-reader-body]'))).toBe(true)
-    expect(await page.locator(READY).evaluate(e => e.scrollTop)).toBe(scroll)
     expect(await page.locator(READY).evaluate(e => e.scrollWidth - e.clientWidth), 'the document has no horizontal overflow').toBeLessThanOrEqual(1)
     await j.advance(20000)
     expect(await page.evaluate(() => {
@@ -187,49 +187,46 @@ for (const width of [390, 1440]) {
   })
 }
 
-test('@curated successful article responses are reused across seat navigation and Book restores', async ({ page }) => {
+// RETIRED in part (D-338): no Book restore exists in the article view; seat reuse is the claim kept.
+test('@curated successful article responses are reused across seat navigation', async ({ page }) => {
   const j = journey(page), requests: string[] = []
   page.on('request', r => { if (r.resourceType() === 'fetch' && /Knee-Slice-Pass\/(Attacker|Defender)$/.test(new URL(r.url()).pathname)) requests.push(new URL(r.url()).pathname) })
-  await j.boot(KNEE + '/Attacker', { initialState: FOCUS })
+  await j.boot(KNEE + '/Attacker', { initialState: QUIET })
   await expect(page.locator(READY)).toBeVisible()
   for (const seat of ['Defender', 'Attacker', 'Defender']) {
     await j.readingOtherHalf() // D-318 U6a: the native paired half replaces the retired switch.
     await expect(page.locator(READY)).toHaveAttribute('data-reader-path', KNEE + '/' + seat)
   }
-  await j.clickByMouse('[data-layer-hide="book"]')
-  await j.clickByMouse('[data-layer-show="book"]')
   expect(requests.filter(x => x.endsWith('/Defender'))).toHaveLength(1)
   expect(requests.filter(x => x.endsWith('/Attacker'))).toHaveLength(0)
 })
 
 for (const first of ['pane', 'reading']) {
   test(`@curated closing ${first} first never resumes reading without a game action`, async ({ page }) => {
+    // STALE CONTRACT (D-338): Focus, which set reading intent, is gone. A content URL arrival sets
+    // the same intent; the pane opens from the logo, before or after reading the prose.
     const j = journey(page)
-    await j.boot('/')
-    await j.land('Mount Top')
+    await j.boot(KNEE)
     await expect(page.locator(READY)).toBeVisible()
-    if (first === 'pane') await j.clickByMouse('.ng-logo')
-    await j.clickByMouse('[data-reading-focus]')
+    if (first === 'reading') await page.locator('[data-reader-body]').focus()
+    await page.locator(READY).evaluate(e => { e.scrollTop = 0 })
     await j.clickByMouse('.ng-logo')
-    if (first === 'pane') {
-      await j.clickByMouse('.ng-explorer-close')
-      await j.clickByMouse('[data-reading-focus]')
-    } else {
-      await j.clickByMouse('[data-reading-focus]')
-      expect(await page.evaluate(() => (window as any).__neural.paused)).toBe(true)
-      await j.clickByMouse('.ng-explorer-close')
-    }
+    if (first === 'pane') await page.locator('[data-reader-body]').focus()
+    expect(await page.evaluate(() => (window as any).__neural.paused)).toBe(true)
+    await j.clickByMouse('.ng-explorer-close')
     await j.advance(20000)
     expect(await page.evaluate(() => ({ paused: (window as any).__neural.paused, reading: !!(window as any).__neural._readerIntent }))).toEqual({ paused: true, reading: true })
   })
 }
 
-test('@curated ending a replay after Browse closes preserves reading intent', async ({ page }) => {
+// STALE CONTRACT (D-338): Focus and Browse are gone. A content URL arrival sets the reading intent
+// Focus set (its seat's landing is the one-state history), and the logo opens the pane.
+test('@curated ending a replay after the pane closes preserves reading intent', async ({ page }) => {
   const j = journey(page)
-  await j.boot('/')
-  await j.land('Mount Top')
+  await j.boot(KNEE)
   await expect(page.locator(READY)).toBeVisible()
-  await j.clickByMouse('[data-reading-focus]')
+  expect(await page.evaluate(() => { const a = (window as any).__neural; return { intent: !!a._readerIntent, history: a.rollLog.length > 0 } }), 'premise: reading intent and a landing to replay').toEqual({ intent: true, history: true })
+  await page.locator(READY).evaluate(e => { e.scrollTop = 0 })
   await j.clickByMouse('.ng-logo')
   // A one-state history fixture isolates ownership; playback uses its real entry point.
   expect(await page.evaluate(() => {
@@ -251,7 +248,7 @@ test('@curated ending a replay after Browse closes preserves reading intent', as
 test('@curated a complete structured step keeps its long description and plain sibling', async ({ page }) => {
   const j = journey(page)
   const long = 'Extend the hips progressively '.padEnd(44, '-') + 'X'.repeat(760)
-  await j.boot(KNEE, { initialState: FOCUS, beforeNavigate: async () => {
+  await j.boot(KNEE, { initialState: QUIET, beforeNavigate: async () => {
     // A labelled markup fixture exercises length/structure independently of the
     // real-corpus completeness checks in landcard-more-content.spec.ts.
     await page.route('**/Transitions/Knee-Slice-Pass/Attacker', route => route.fulfill({ contentType: 'text/html', body: `<h1>Attacker</h1><article><section id="steps"><h2 id="steps">Execution Steps</h2><h3>Extend hips for the finish</h3><p>${long}</p><p>Plain step with no shape</p></section></article>` }))
@@ -270,6 +267,9 @@ test('@curated a late real dossier preserves reader focus, scroll and the answer
   await expect(page.locator(READY)).toBeVisible()
   const q = await j.landQuestion()
   expect(q).not.toBeNull()
+  // D-338: Questions follows Videos and Moves and can start below the fold; scroll to it first.
+  await page.locator(`[data-land-mc-opt="${q!.correct}"]`).evaluate(e => e.scrollIntoView({ block: 'nearest' }))
+  await j.readerLayoutSettled()
   await j.clickByMouse(`[data-land-mc-opt="${q!.correct}"]`)
   await page.locator('[data-reader-body]').focus()
   await page.keyboard.press('PageDown')
