@@ -733,3 +733,43 @@ test('D-352: at arrival Home and PageUp never move the reader down, and Moves pr
   await j.readerLayoutSettled()
   expect(await top(), 'premise: the keys reach the reader (End moves it to the question)').toBeGreaterThan(top0)
 })
+
+// D-354 (found by H95/H97: choice-value's setup poll "native host module must actually be requested" red 3 of
+// 20 isolated): REAL BREAK from D-351. The reader holds a reading-view hand pending, and so hidden, until
+// its article renders; the game-value activation refuses a hidden hand (_gameValuePlayable), so one that
+// came during the hold went idle, and only a later refreshChoiceValues (a deck load, a layer change) could
+// retry it. When the hand published after the last of those, the Win chance never started. Publication
+// now starts it. (choice-value.spec.ts refuses a mutated bundle, so the gate lives here.) Mount Top's role page is held past the 800ms ceiling, so the activation meets the held
+// hand; the claim reads the publication frame itself, before any later refresh could rescue it.
+test('D-354: a hand the reader held starts its Win chance once it publishes', async ({ page }) => {
+  const requested: string[] = []
+  page.on('request', request => { if (/\/app\/game-values\.js(?:\?|$)/.test(request.url())) requested.push(request.url()) })
+  const j = journey(page)
+  await j.boot('/')
+  const held: string[] = []
+  await page.route(url => url.pathname === '/Positions/Mount/Top', async route => {
+    if (route.request().resourceType() === 'fetch') { held.push(route.request().url()); await new Promise(r => setTimeout(r, 1500)) }
+    await route.continue()
+  })
+  await page.evaluate(() => {
+    const w = window as any, out: any[] = (w.__d354gv = [])
+    const tick = () => {
+      const a = w.__neural, row = a?.optionsRef?.current
+      if (row?.isConnected) out.push({ pending: row.hasAttribute('data-reader-pending'),
+        active: !!(a._gameValueLoading || a._gameValueRuntime || a._gameValueFailed || a._gameValueActivationFrame != null || a._gameValueActivationTask != null) })
+      if (out.length < 900) requestAnimationFrame(tick)
+    }
+    requestAnimationFrame(tick)
+  })
+  const before = requested.length
+  await j.land('Mount Top')
+  await expect.poll(() => page.evaluate(() => { const t = (window as any).__d354gv as any[]; return t.some(x => x.pending) && !t[t.length - 1].pending }),
+    { message: 'premise: the hand was held pending, then published', timeout: 10_000 }).toBe(true)
+  const S: any[] = await page.evaluate(() => (window as any).__d354gv)
+  const pub = S.findIndex((x, i) => i > 0 && S[i - 1].pending && !x.pending)
+  expect(held.length, 'premise: the Mount Top article fetch was held 1.5s').toBeGreaterThan(0)
+  expect(before, 'premise: no game-value import before the held landing').toBe(0)
+  expect(S.slice(0, pub).some(x => x.pending && !x.active), 'premise: the held hand had no game-value activation').toBe(true)
+  expect(S[pub].active, 'the Win chance starts in the frame the held hand publishes').toBe(true)
+  await expect.poll(() => requested.length, { message: 'the Win chance starts once the held hand publishes', timeout: 10_000 }).toBeGreaterThan(0)
+})

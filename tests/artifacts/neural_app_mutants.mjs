@@ -49,8 +49,8 @@ const controls = [
   ['d354-pane-follow-lag', 'pane-keyboard.spec.ts', 'D-354: the landing deck and its arrows follow the pane',
     [[',this.uiShift!==s&&((r=this._reader)==null||r.layoutNow())', '']], 'the card and its arrows follow the pane in the same frame'],
   // D-354 (H95, H97): REAL BREAK from D-351. A hand the reader held starts its Win chance when it publishes.
-  ['d354-held-hand-no-value', 'choice-value.spec.ts', 'D-354: a hand the reader held starts its Win chance',
-    [['return l&&a<=0&&this._ensureGameValues(),a}_readerGraded(){', 'return a}_readerGraded(){']], 'the Win chance starts once the held hand publishes'],
+  ['d354-held-hand-no-value', 'article-sections.spec.ts', 'D-354: a hand the reader held starts its Win chance',
+    [['return l&&a<=0&&this._ensureGameValues(),a}_readerGraded(){', 'return a}_readerGraded(){']], 'the Win chance starts in the frame the held hand publishes'],
   // D-354 N1 (Delta 8): a play after the article rendered places the pinned film in its Videos slot first.
   ['d354-play-film-left-home', 'defending-landing.spec.ts', 'D-354 N1: a play after the article rendered',
     [['!==!1&&s.syncMedia(),this._expandedClip', '!==!1&&!1,this._expandedClip']], 'the playing film sits in the lifted Videos slot, with no empty slot under it'],
