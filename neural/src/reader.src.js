@@ -766,7 +766,7 @@ class Reader {
     }
     const correct = host && hit && (referencePath ? host.dataset.referenceFilm === referencePath : host._ngMediaIdx === hit.idx && host._ngMediaRole === mediaRole);
     if (referencePath && !wants) a.pauseLandFilm();
-    if (wants && correct) this.place(this.mediaSlot);
+    if (wants && correct && !a._readerPin) this.place(this.mediaSlot);
     else this.place(this.mediaHome);
     // Without a Videos section the film keeps the game home, still under that one preference.
     if (host) host.hidden = wants ? !correct : this.wantsMedia() ? !sectionShown(a, "videos") : !a.get("landFilm", true);
@@ -948,6 +948,11 @@ class Reader {
       const band = this.nodeBand?.height || 0;
       if (reference) { this.restoreGame(); return; }
       const card = a._landEl, row = a.optionsRef.current, showCard = card && this.on("card"), showHand = row && a._handShown();
+      // D-351: _readerHold keeps a landing's card and hand unpublished until the article it asked
+      // for renders (800ms at most). Parts the ceiling publishes are pinned (_readerPin), and the
+      // Videos lift and the film's move wait until they settle: a late article used to move live
+      // answers under the pointer.
+      const hold = a._readerHold(this, available, W, H), pin = a._readerPin;
       const moved = (el, key) => {
         if (!el) return;
         if (!this.gameHomes.has(el)) {
@@ -999,7 +1004,7 @@ class Reader {
       if (this.mediaHome.hidden !== !homeMedia) this.mediaHome.hidden = !homeMedia;
       // D-338: the Videos section leads the article view, so the reader lifts it into this
       // flow above the hand. It leaves with the article; a new article removes it in render.
-      const video = !reference && this.sections.find(s => s.type === "videos")?.card;
+      const video = !reference && !pin && this.sections.find(s => s.type === "videos")?.card;
       if (video) {
         if (available && video.parentElement !== this.game) { this.mediaHome.after(video); this.videoCard = video; this.resize.observe(video); }
         if (video.hidden !== !available) video.hidden = !available;
@@ -1028,6 +1033,7 @@ class Reader {
         let y = band + headHeight + (chrome?.offset || 0);
         if (homeMedia) { position(this.mediaHome, free.center - mediaWidth / 2, y, mediaWidth); y += mediaHeight + step; }
         if (video) { position(video, left, y, width); y += video.getBoundingClientRect().height + step; }
+        if (pin) y = pin.rowTop || (pin.rowTop = y);
         const rowTop = handoff?.rowTop ?? y;
         // Symmetric about the column's centre, so no move or ✕ hides under an index link. An open
         // pane keeps the row's own left inset (the app pads it by the pane), so only the right is cut.
@@ -1035,6 +1041,7 @@ class Reader {
         if (row) position(row, rowLeft, rowTop, indexEdge ? indexEdge - rowLeft : W);
         if (!label("hand").hidden) { position(label("hand"), left, y, width); y += label("hand").getBoundingClientRect().height + step; }
         else y = rowTop + (handoff?.rowHeight ?? handHeight) + step;
+        if (pin) y = pin.cardY || (pin.cardY = y);
         cardY = y;
         if (card) position(card, cardX, cardY);
         // The deck's backs peek 3px per remaining card below the face; the article clears them.
@@ -1068,7 +1075,7 @@ class Reader {
       this.cardBottom = this.trayBottom;
       // Publication is the last write, after the actual controls and their
       // outside arrows have a final rectangle. Keyboard/clock ask the same flag.
-      card?.removeAttribute("data-reader-pending");
+      if (hold <= 0) card?.removeAttribute("data-reader-pending");
       for (const [el] of this.gameHomes) if (!el.isConnected) { this.resize.unobserve(el); this.gameHomes.delete(el); }
     } finally {
       if (this.placeTop > this.root.scrollTop) this.root.scrollTop = this.placeTop;

@@ -972,8 +972,9 @@ class Component extends DCLogic {
         if (e.shiftKey) return; // the visible quiz also owns shifted versions of its answer keys
         const mbtns = this.drillListRef.current ? this.drillListRef.current.querySelectorAll("[data-mc-opt]") : [];
         const mb = mbtns[parseInt(e.key) - 1]; if (mb) mb.click();
-      } else if (!typing && this.optionKeyIndex(e) >= 0 && this._optPick && this._optList && (!this._rollHand || this._rollHand.mounted) && !this._checkpoint && this.get("cardNumbers", true) && this._handShown()) {
-        // A hidden hand cannot act; a checkpoint owns the keys even above its answer count.
+      } else if (!typing && this.optionKeyIndex(e) >= 0 && this._optPick && this._optList && (!this._rollHand || this._rollHand.mounted) && !this._checkpoint && this.get("cardNumbers", true) && this._handShown() && !this.optionsRef.current?.hasAttribute("data-reader-pending")) {
+        // A hidden hand cannot act, nor one the reader has not published (D-351); a checkpoint
+        // owns the keys even above its answer count.
         // Q007: an open checkpoint quiz owns the keyboard — digits above the MC option
         // count must never fall through to the roll's option-card openers (a '5' opened
         // the expand sheet and Enter then COMMITTED the roll under the live quiz)
@@ -14832,6 +14833,7 @@ class Component extends DCLogic {
                                 // (declined-but-unrevealed is NOT this case: see _expireLandQ)
       rec.answered = true;
       if (this._landQ === rec) this._landQ.answered = true;
+      this._readerGraded();
       if (this._landAnswers) this._landAnswers.add(qh);
       // EVERY CARD COUNTS (v1.221.0): its place among the resolved cards picks its step; the first
       // alone is the landing question (momentum, challenge evidence)
@@ -15459,14 +15461,47 @@ class Component extends DCLogic {
     let path = this._nodeUrlPath(node.idx);
     if (path && !/\/(Top|Bottom|Attacker|Defender)$/i.test(path))
       path += "/" + (node.ty === "positions" ? (this.playerRole === "bottom" ? "Bottom" : "Top") : (side === "defender" ? "Defender" : "Attacker"));
-    const request = this._readerQueued = { path: this._readerInitialPath || path };
+    // D-351: the request names its landing, and the reader holds that landing's card and hand
+    // until this article renders. One request per landing (a rebuilt card, a backfill, keeps it),
+    // and every way of opening no article marks it skipped, which releases the hold at once.
+    const p = this._readerInitialPath || path, prev = this._readerQueued;
+    const request = this._readerQueued = prev?.idx === node.idx && prev.path === p ? prev : { path: p, idx: node.idx };
     requestAnimationFrame(() => setTimeout(() => {
-      if (this.__ngDestroyed || this._readerIntent || this._reader?.interacting || request !== this._readerQueued) return;
-      if (!this.optionsRef.current?.querySelector("[data-tech]") && !this._urlSeeded) return;
+      if (this.__ngDestroyed || this._readerIntent || this._reader?.interacting || request !== this._readerQueued || !request.path ||
+        !this.optionsRef.current?.querySelector("[data-tech]") && !this._urlSeeded) { request.skip = true; this._reader?.layout(); return; }
       this._readerInitialPath = null;
       this._readArticle(request.path, false, false);
     }, 0));
   }
+  /** D-351 (the hold), asked by the reader on every layout. An article that landed after its
+   *  card had moved live answers under the pointer: an answer click executed an escape move. So
+   *  this landing's card and hand stay unpublished (pending: hidden, clock parked, keys inert)
+   *  while the article the landing asked for is still coming, 800ms at most: >0 is the ms left.
+   *  At the ceiling they publish PINNED (-1): `_readerPin` keeps their rectangles and holds back
+   *  the Videos lift and the film's move until they settle (graded, the card or hand closed, the
+   *  next landing, the article put away, a new viewport). 0: publish. A request publishes once,
+   *  so a live card is never held again: reading another article moves the reader, not this
+   *  landing. */
+  _readerHold(r, shown, W, H) {
+    const q = this._readerQueued, pin = this._readerPin, card = this._landEl;
+    if (pin && (pin.q !== q || !shown || pin.W !== W || pin.H !== H || !this._handShown() || pin.graded || card && (!this._layerOn("card") || this._landQ?.answered))) {
+      this._readerPin = null; setTimeout(() => r.sync());
+    }
+    let hold = 0;
+    if (shown && q && !q.pub && q.idx === this._landIdx) {
+      // the reader's own cleanPath: a URL arrival may carry a hash, a trailing slash or ".html"
+      const path = decodeURI(new URL(q.path, location.href).pathname).replace(/\.html$/, "").replace(/\/$/, "") || "/";
+      const age = performance.now() - (q.at || (q.at = performance.now()));
+      if (q.skip || r.root.dataset.readerReady === "true" && r.path === path) q.pub = true;
+      else if (age < 800) { hold = 801 - age; clearTimeout(this._readerHoldT); this._readerHoldT = setTimeout(() => r.layout(), hold); }
+      else { q.pub = true; this._readerPin = { q, W, H }; hold = -1; }
+    }
+    for (const el of [this.optionsRef.current, this._landStackEl, this._landNavEl, this._handCloseEl]) el?.toggleAttribute("data-reader-pending", hold > 0);
+    return hold;
+  }
+  /** D-351: a graded card (answered or expired) settles a pinned landing. A correct defense answer
+   *  mounts the next question at once, so the pin keeps the EVENT, not the current card's state. */
+  _readerGraded() { if (this._readerPin) { this._readerPin.graded = true; this._reader?.layout(); } }
   _readArticle(path, intent = true, push = true) {
     if (!path) return;
     if (intent) {
@@ -15830,10 +15865,13 @@ class Component extends DCLogic {
   async landSettled() {
     for (let i = 0; i < 8; i++) {
       const p = this._landWarmP;
-      if (!p) return;
+      if (!p) break;
       await p.catch(() => {});
-      if (this._landWarmP === p) return;   // resolved and nothing chained on
+      if (this._landWarmP === p) break;   // resolved and nothing chained on
     }
+    // D-351: settled includes published. The reader holds a landing until its article renders
+    // (800ms at most), and a held question has not stopped moving yet.
+    for (const end = performance.now() + 1500; this._landEl?.hasAttribute("data-reader-pending") && performance.now() < end;) await new Promise((r) => setTimeout(r, 16));
   }
   // this landing asked nothing, and `reason` says why (so the funnel gap is never a phantom)
   _landQSkip(key, reason, mode) {
@@ -18047,6 +18085,7 @@ class Component extends DCLogic {
   }
   _expireLandQ() {
     this._disarmLandClock();
+    this._readerGraded();
     // PANIC DRILL: reveal, no pump — composure came too late. The escapes below stay live.
     if (this._defendSub != null && this._landEl && this._landMode === "defense") {
       const card = this._landEl;

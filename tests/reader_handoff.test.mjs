@@ -122,7 +122,8 @@ function fixture(adopted = true) {
     return { top, bottom: top + row.fixtureHeight, height: row.fixtureHeight };
   };
   Object.assign(a, { W: 390, H: 844, _paneLayout: () => ({ width: window.innerWidth, center: window.innerWidth / 2 }),
-    _readerShelfBottom: () => 12, _handShown: () => true, isMobile: () => true });
+    // D-351's hold is the app's decision (journeys pin it); these units lay out a published landing.
+    _readerShelfBottom: () => 12, _handShown: () => true, isMobile: () => true, _readerHold: () => 0 });
   return { a, r, row };
 }
 function choose(f) {
