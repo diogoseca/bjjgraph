@@ -335,7 +335,24 @@ for (const viewport of VIEWPORTS) {
         return o ? o.t : null;
       });
       expect(opt, "the hand deals a transition").toBeTruthy();
-      await j.pick(opt!);
+      // D-354 (B2's class, by mechanism): H95 saw noFit on every frame here once, with no trace kept,
+      // and 0 of 30 since (20 isolated, 10 under a 30% CPU quota). On CI, roll-execution's identical phone
+      // pick was force-scrolled by card.click()'s retry while the reader still laid out, putting Videos
+      // across the node band. So the phone waits for the layout, brings the card in along its tray, and
+      // presses with a mouse that cannot scroll; the arrival scrollTop is asserted at the pointerdown.
+      if (W < 640) {
+        await j.readerLayoutSettled();
+        const arrival = await page.evaluate(name => {
+          const w = window as any, a = w.__neural, top = a._reader.root.scrollTop;
+          a._optionCards.find((c: any) => c.opt.node.t === name).card.scrollIntoView({ block: "nearest", inline: "center", behavior: "instant" });
+          document.addEventListener("pointerdown", () => { w.__pickTop = a._reader.root.scrollTop }, { capture: true, once: true });
+          return top;
+        }, opt!);
+        await j.readerLayoutSettled();
+        expect(await page.evaluate(() => (window as any).__neural._reader.root.scrollTop), "premise: the tray brought the card in, the reader stayed where it arrived").toBe(arrival);
+        await j.clickByMouse(`[data-tech="${opt}"] .ngchoice-title`, "pick the transition by mouse");
+        expect(await page.evaluate(() => (window as any).__pickTop), "premise: the pick is pressed where the reader arrived").toBe(arrival);
+      } else await j.pick(opt!);
       const S = await record(page, 60 * 6);
       // D-331 S1: the exchange's execution always found a slot (D-322/D-329), never the unfitted target.
       const execFrame = await page.evaluate(() => (window as any).__neural._execFrame || { noFrame: 0, noFit: 0 });

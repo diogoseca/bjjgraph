@@ -603,3 +603,75 @@ test('D-353: playing the pinned film opens it beside the hand, never over it, an
   })
   expect(film, 'the playing player stays visible through a relayout').toEqual({ playing: true, visible: true })
 })
+
+// D-354 N1 (review Delta 8, D8B): a play after the article rendered, still pinned, used to lift
+// Videos with an empty slot under the playing film (film y218-440 in the home, the card at
+// y456-558) until the next sync. The reader now places the film in its slot before a player exists.
+test('D-354 N1: a play after the article rendered opens the film inside the lifted Videos card', async ({ page }) => {
+  const late = lateArticle(page, 1500)
+  const j = await catchLoop(page, false, false, async () => { await late.route() })
+  await expect(page.locator(READY)).toHaveAttribute('data-reader-path', LOOP_DEFENDER)
+  const premise = await page.evaluate(() => {
+    const a = (window as any).__neural, r = a._reader, f = a._landFilmEl
+    return { pinned: !!a._readerPin, home: f?.parentElement === r.mediaHome, slot: !!r.mediaSlot?.isConnected, lifted: !!r.videoCard }
+  })
+  expect(premise, 'premise: the article rendered while pinned, its film in the media home and Videos held back').toEqual({ pinned: true, home: true, slot: true, lifted: false })
+  await j.clickByMouse('.ng-landfilm .ng-clip', 'play the pinned film after its article rendered')
+  await expect.poll(() => page.evaluate(() => !!(window as any).__neural._expandedClip), { message: 'premise: the clip opened its player' }).toBe(true)
+  await j.readerLayoutSettled()
+  const placed = await page.evaluate(() => {
+    const a = (window as any).__neural, r = a._reader, f = a._landFilmEl
+    return { playing: !!a._expandedClip, lifted: !!r.videoCard, inSlot: !!r.mediaSlot?.contains(f), inLifted: !!r.videoCard?.contains(f) }
+  })
+  expect(placed, 'the playing film sits in the lifted Videos slot, with no empty slot under it').toEqual({ playing: true, lifted: true, inSlot: true, inLifted: true })
+})
+
+// D-354 N2 (D8C): closing the pinned film hides its home for the pin's life (D-352's sticky rule), so
+// the player's own reopen did nothing until the parts settled. A reopen settles the pin, as a play does.
+test('D-354 N2: reopening Videos while pinned settles the pin and shows the film', async ({ page }) => {
+  const late = lateArticle(page, 1500)
+  const j = await catchLoop(page, false, false, async () => { await late.route() })
+  await expect.poll(() => page.evaluate(() => {
+    const a = (window as any).__neural, f = a._landFilmEl
+    return !!a._readerPin && a._readerPin.film === a._reader.media && !!f && f.getClientRects().length > 0
+  }), { message: 'premise: the answers published pinned with the film shown in the media home' }).toBe(true)
+  await j.clickByMouse('.ng-landfilm [data-film-close]', 'hide the pinned film')
+  await expect(page.locator(READY)).toHaveAttribute('data-reader-path', LOOP_DEFENDER)
+  const toggle = '[data-section-toggle="videos"]'
+  await page.evaluate((sel) => document.querySelector(sel)!.scrollIntoView({ block: 'center' }), toggle)
+  await j.readerLayoutSettled()
+  const closed = await page.evaluate(() => {
+    const a = (window as any).__neural, f = a._landFilmEl
+    return { pinned: !!a._readerPin, hid: !!a._readerPin?.hid, shown: !!f && f.getClientRects().length > 0 && !f.hidden && f.getBoundingClientRect().height > 0 }
+  })
+  expect(closed, 'premise: still pinned, the closed film hidden').toEqual({ pinned: true, hid: true, shown: false })
+  await j.clickByMouse(toggle, 'reopen Videos while pinned')
+  await expect.poll(() => page.evaluate(() => {
+    const a = (window as any).__neural, f = a._landFilmEl
+    return { pinned: !!a._readerPin, shown: !!f && f.getClientRects().length > 0 && !f.hidden && f.getBoundingClientRect().height > 0 }
+  }), { message: 'the reopen settles the pin and the film is shown again' }).toEqual({ pinned: false, shown: true })
+})
+
+// D-354 N3: D-353 observes a film in the media home; the film's only remover (_clearLandFilm)
+// now ends that observation, so a replaced film is not held until the reader is destroyed.
+test('D-354 N3: a removed film is no longer observed by the reader', async ({ page }) => {
+  await page.addInitScript(() => {
+    const P = ResizeObserver.prototype, observe = P.observe, unobserve = P.unobserve, disconnect = P.disconnect, held = new WeakMap<object, Set<Element>>()
+    ;(window as any).__roHolds = (ro: object, el: Element) => !!held.get(ro)?.has(el)
+    P.observe = function (el: Element, ...rest: any[]) { if (!held.has(this)) held.set(this, new Set()); held.get(this)!.add(el); return observe.call(this, el, ...rest) }
+    P.unobserve = function (el: Element) { held.get(this)?.delete(el); return unobserve.call(this, el) }
+    P.disconnect = function () { held.get(this)?.clear(); return disconnect.call(this) }
+  })
+  const late = lateArticle(page, 6000)
+  await catchLoop(page, false, false, async () => { await late.route() })
+  await expect.poll(() => page.evaluate(() => {
+    const w = window as any, a = w.__neural, f = a._landFilmEl
+    return !!f && f.parentElement === a._reader.mediaHome && w.__roHolds(a._reader.resize, f)
+  }), { message: 'premise: the film in the media home is observed by the reader' }).toBe(true)
+  const released = await page.evaluate(() => {
+    const w = window as any, a = w.__neural, f = a._landFilmEl
+    a._clearLandFilm()
+    return { removed: !f.isConnected, observed: w.__roHolds(a._reader.resize, f) }
+  })
+  expect(released, 'the removed film is no longer observed by the reader').toEqual({ removed: true, observed: false })
+})

@@ -6,6 +6,7 @@ import { readFileSync, writeFileSync, mkdirSync } from 'node:fs'
 import { resolve } from 'node:path'
 import { createHash } from 'node:crypto'
 import { spawnSync } from 'node:child_process'
+import { Script } from 'node:vm'
 
 const root = resolve(import.meta.dirname, '../..')
 const app = process.env.NEURAL_MUTANT_APP, config = process.env.NEURAL_MUTANT_CONFIG, out = process.env.NEURAL_MUTANT_OUT
@@ -44,6 +45,18 @@ const controls = [
     [['else if(!t)o.live=!0;else{', 'else if(!t);else{']], 'the live hand is never hidden again'],
   ['d351-hand-hold-removed', 'article-sections.spec.ts', 'D-351: an exchange whose article lands late',
     [['l==null||l.toggleAttribute("data-reader-pending",a>0);return a}', 'l==null||l.toggleAttribute("data-reader-pending",!1);return a}']], 'the new hand is shown once, at its final place'],
+  // D-354 (Delta 8, B1): parts the reader adopted follow the pane's slide in the same frame.
+  ['d354-pane-follow-lag', 'pane-keyboard.spec.ts', 'D-354: the landing deck and its arrows follow the pane',
+    [[',this.uiShift!==s&&((r=this._reader)==null||r.layoutNow())', '']], 'the card and its arrows follow the pane in the same frame'],
+  // D-354 (H95, H97): REAL BREAK from D-351. A hand the reader held starts its Win chance when it publishes.
+  ['d354-held-hand-no-value', 'choice-value.spec.ts', 'D-354: a hand the reader held starts its Win chance',
+    [['return l&&a<=0&&this._ensureGameValues(),a}_readerGraded(){', 'return a}_readerGraded(){']], 'the Win chance starts once the held hand publishes'],
+  // D-354 N1 (Delta 8): a play after the article rendered places the pinned film in its Videos slot first.
+  ['d354-play-film-left-home', 'defending-landing.spec.ts', 'D-354 N1: a play after the article rendered',
+    [['!==!1&&s.syncMedia(),this._expandedClip', '!==!1&&!1,this._expandedClip']], 'the playing film sits in the lifted Videos slot, with no empty slot under it'],
+  // D-354 N3: the film's only remover ends the reader's media-home observation.
+  ['d354-removed-film-observed', 'defending-landing.spec.ts', 'D-354 N3: a removed film',
+    [['._ngRO.disconnect(),(e=this._reader)==null||e.resize.unobserve(this._landFilmEl);try{', '._ngRO.disconnect();try{']], 'the removed film is no longer observed by the reader'],
   // D-350b: the header's ZERO-overlap mutants (v1.219.0's noprelift / noahead), scripted so the frame filter is
   // shown not to carry their kills. noprelift: the arrival and the URL intro make no room for the rows.
   ['noprelift-roll-start', 'camera-continuity.spec.ts', 'camera continuity.*roll start: the intro and the staged arrival',
@@ -79,6 +92,9 @@ try {
       if (mutant.split(from).length !== 2) throw Error(name + ': the target moved: ' + from)
       mutant = mutant.replace(from, to)
     }
+    // D-354: a mutant that does not parse never boots; its run waited out the 240s timeout, orphaned
+    // the private server, and every later baseline read red on the busy port. Refuse it here instead.
+    try { new Script(mutant) } catch (e) { throw Error(name + ': the mutant does not parse: ' + e.message) }
     writeFileSync(app, mutant)
     const report = resolve(out, name + '.json')
     const run = spawnSync(resolve(root, 'node_modules/.bin/playwright'), ['test', '-c', config, spec, '--grep', grep, '--max-failures=1', '--reporter=list,json'], {

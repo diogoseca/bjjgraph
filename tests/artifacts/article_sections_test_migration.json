@@ -586,6 +586,41 @@
       "file": "e2e/journeys/roll-execution.spec.ts",
       "test": "reader layout during close: the row transform before the forced layout",
       "change": "D-353: the media home is observed now, so a reader layout can already have run during Inspect's close. Control reader-overwrites-inspect then failed at the bare premise line 'closing.before is not none' rather than at its claim (H86). That line measures the same claim one instant earlier, so it now carries the claim's message; the control is killed at it (H88). Nothing was loosened."
+    },
+    {
+      "file": "e2e/journeys/pane-keyboard.spec.ts + neural/src/app.src.jsx",
+      "test": "NEW D-354: the landing deck and its arrows follow the pane in the same frame",
+      "change": "D-354 (review-claude Delta 8, B1): REAL BREAK in this PR. pane-keyboard:103 (a recall page mounted under the pane receives Space) went red isolated on head 10 of 75 against dev 0 of 100. Cause, from per-write and pointer-event probes (H91, H92): updateUiShift eases the pane's slide and lays out the app's own landing parts in that frame, but the parts the reader adopted (the landing card and its deck arrows, data-reader-game-part) were laid out a frame later, so the next click measured the arrow and landed on the moved card's MC option; the deck stayed on card 0 and the prev arrow was zero-sized. The reader's parts now follow the pane in the same frame (layoutNow when uiShift moved; eager only). The journey opens the pane and pumps the slide inside one evaluate, with no frame between, and the card and arrows already sit where the reader's own layout puts them. Control d354-pane-follow-lag (app runner) is killed at that claim. Proof by the reviewer's method: the test isolated 75 of 75 green with the fix (H94), 100 of 100 with H93's 25."
+    },
+    {
+      "file": "e2e/journeys/roll-execution.spec.ts",
+      "test": "@curated execution camera frames the technique at 390px; pane false; reduced motion false/true (the phone's arrival pick)",
+      "change": "D-354 (Delta 8, B2): STALE SPEC/TIMING. CI ead35af11's shard 4 went red twice at noFit 144/141. From the CI trace: the reader was still publishing its layout at the pick (the deck chevron moved 71px 8ms before the pointerdown), card.click() found the card 'not stable' twice and its retry force-scrolled the reader to 146, which put the Videos card across the node band, where no slot exists (57px above it, 58px below, the column under the band reserved for the landing rows: D-329). That position is not this variant's premise (the scrolled-to-top variant pins the scrolled case). The phone now waits for the layout, brings the card in along its horizontal tray as a swipe does (the only scroll the native pick needed; the card's centre is at x1041), asserts the reader stayed where it arrived, presses with clickByMouse, and asserts that scrollTop again at the delivered pointerdown. The claims (noFit 0, the 2px handoff, the painted clearance) are unchanged. Probes (H96): with the reader at CI's 146 the spec fails 4 of 4 at CI's exact message; a scroll between the premise read and the press fails 4 of 4 at the new premise. Under a 30% CPU quota the arrival publishes pinned 2 of 6 times (card y316, Videos held) and unpinned otherwise (y545); both layouts hold still for 3s after the wait and pass 12 of 12. New control d354-phone-pick-no-fit (reader runner) kills the phone pick at the noFit claim."
+    },
+    {
+      "file": "e2e/journeys/defending-landing.spec.ts + neural/src/app.src.jsx",
+      "test": "NEW D-354 N1: a play after the article rendered opens the film inside the lifted Videos card",
+      "change": "D-354 (Delta 8, N1): a play after the article rendered, still pinned, settled the pin (D-353) with its film in the media home, so Videos lifted with an empty slot under the playing film until the next sync. In the article view with Videos open, the app's expandClip has the reader place the film in its slot first (syncMedia), before a player exists, so no live player is moved. Control d354-play-film-left-home (app runner) is killed at 'the playing film sits in the lifted Videos slot, with no empty slot under it'."
+    },
+    {
+      "file": "e2e/journeys/defending-landing.spec.ts + neural/src/reader.src.js",
+      "test": "NEW D-354 N2: reopening Videos while pinned settles the pin and shows the film",
+      "change": "D-354 (Delta 8, N2): closing the pinned film hides its home for the pin's life (D-352's sticky rule), so the player's own reopen did nothing until the parts settled. Reopening Videos (toggleSection, which both the section toggle and the shelf reach) now settles the pin as a play and a grade do. Control d354-reopen-keeps-pin (reader runner) is killed at 'the reopen settles the pin and the film is shown again'. Deferred +42 B, one exact ceiling step."
+    },
+    {
+      "file": "e2e/journeys/defending-landing.spec.ts + neural/src/app.src.jsx",
+      "test": "NEW D-354 N3: a removed film is no longer observed by the reader",
+      "change": "D-354 (Delta 8, N3): D-353 observes a film in the media home, and nothing unobserved a replaced film, so the observer held every old film host until the reader was destroyed. _clearLandFilm, the film's only remover, now ends that observation. The journey records each ResizeObserver's targets from an init script and asserts the removed film is not among the reader's. Control d354-removed-film-observed (app runner) is killed at that claim."
+    },
+    {
+      "file": "e2e/journeys/choice-value.spec.ts + neural/src/app.src.jsx",
+      "test": "NEW D-354: a hand the reader held starts its Win chance once it publishes",
+      "change": "D-354 (found by the prevention run, H95, and H97): REAL BREAK from D-351. choice-value's setup poll 'native host module must actually be requested and blocked' went red 3 of 20 isolated and in 2 of 5 full-file runs on head (:376, :388, :191, :229, all at that poll). The reader holds a reading-view hand pending, and so hidden ([data-reader-pending] is visibility:hidden), until its article renders; the game-value activation refuses a hidden hand (_gameValuePlayable), so an activation that came during the hold went idle and nothing retried it: game-values.js was never requested and the Win chance never started. Publication (_readerHold's pending to published) now runs _ensureGameValues, which is idempotent once loading, loaded or failed. The journey holds Mount Top's role page 1.5s, past the 800ms ceiling, so the activation always meets the held hand, with premises that the hand was held then published and that no import came before. Control d354-held-hand-no-value (app runner) is killed at 'the Win chance starts once the held hand publishes'. On the fixed bytes :376 isolated 20 of 20 and the file 5 of 5 (H100)."
+    },
+    {
+      "file": "e2e/journeys/camera-continuity.spec.ts",
+      "test": "390px camera continuity an exchange lands on a new current node: every frame within the bounds, and clear of the rows",
+      "change": "D-354: B2's class by mechanism, not reproduced locally. H95's prevention run saw noFit on every frame here once (251), with no trace kept; since then 0 of 30 (20 isolated, 10 under a 30% CPU quota, scrollTop 0 at every pick), and green in H85 and as H97's control baseline. The pick is the same auto-scrolling j.pick at 390 that CI force-scrolled in roll-execution while the reader still laid out. The phone now waits for the layout, brings the card in along its tray, asserts the reader stayed where it arrived, presses by mouse, and asserts the arrival scrollTop at the pointerdown, so a recurrence names its premise. The 1440 pick and every claim are unchanged."
     }
   ]
 }

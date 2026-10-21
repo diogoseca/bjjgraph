@@ -299,16 +299,35 @@ for (const reduced of [false, true]) {
       new MutationObserver((_, obs) => { if (document.querySelector('[data-executing-tech]')) { w.__handoff.push(rec('stand-in mount')); obs.disconnect() } })
         .observe(document.body, { childList: true, subtree: true });
     }, opt.name);
-    if (scrolled) await j.clickByMouse(`[data-tech="${opt.name}"] .ngchoice-title`);
+    // STALE SPEC/TIMING (D-354 B2): CI's shard 4 picked the 390px arrival card while the reader still
+    // laid it out ("element is not stable" twice), and the click's retry force-scrolled the reader to
+    // 146. That put the Videos card across the node band, which left no slot: noFit 1, a premise this
+    // variant never chose. The arrival position IS its premise, so the phone waits for the layout, brings
+    // the card in along its horizontal tray as a swipe does (the only scroll the native pick needed), and
+    // presses with a mouse that cannot scroll; the premise is asserted again at the delivered pointerdown.
+    const mouse = scrolled || width < 640;
+    if (!scrolled && width < 640) {
+      await expect(page.locator('[data-reader][data-reader-ready="true"]')).toBeVisible();
+      await j.readerLayoutSettled();
+      const arrival = await page.evaluate(() => (window as any).__neural._reader.root.scrollTop);
+      await page.evaluate(name => (window as any).__neural._optionCards.find((c: any) => c.opt.node.t === name)
+        .card.scrollIntoView({ block: "nearest", inline: "center", behavior: "instant" }), opt.name);
+      await j.readerLayoutSettled();
+      expect(await page.evaluate(() => (window as any).__neural._reader.root.scrollTop), 'premise: the tray brought the card in, the reader stayed where it arrived').toBe(arrival);
+    }
+    const pickTop = await page.evaluate(() => (window as any).__neural._reader?.root?.scrollTop);
+    if (mouse) await j.clickByMouse(`[data-tech="${opt.name}"] .ngchoice-title`);
     else await j.pick(opt.name);
     await j.advanceUntil("sweep_start", 20000, 40)
     await j.advance(350)
     const handoff = await page.evaluate(() => ({ before: (window as any).__clickedExecutionRect,
       after: document.querySelector('[data-executing-tech]')!.getBoundingClientRect().toJSON() }));
-    await test.info().attach('execution-handoff-diagnostics', { contentType: 'application/json', body: JSON.stringify(await page.evaluate(() => {
+    const diagnostics = await page.evaluate(() => {
       const w = window as any, a = w.__neural
       return { records: w.__handoff, shifts: w.__shifts, fonts: document.fonts.status, scrollTop: a._reader?.root?.scrollTop, execFrame: a._execFrame || null }
-    }), null, 2) });
+    });
+    await test.info().attach('execution-handoff-diagnostics', { contentType: 'application/json', body: JSON.stringify(diagnostics, null, 2) });
+    if (mouse) expect(diagnostics.records.find((r: any) => r.at === 'pointerdown')?.scrollTop, 'the pick is pressed where the variant put the reader').toBe(pickTop);
     for (const key of ['x', 'y', 'width', 'height'] as const) expect(Math.abs(handoff.before[key] - handoff.after[key]), 'clicked-card ' + key).toBeLessThanOrEqual(2);
     if (scrolled && width > 640) expect(handoff.before.y).toBeCloseTo(68, 0);
     if (pane) {

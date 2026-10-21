@@ -80,6 +80,8 @@ const mutants = [
   ['execution-thin-band-accepted', 'roll-execution.spec.ts', 'execution camera frames the technique at 390px; pane false; reduced motion true scrolled to the top', s => replace(s, 'card.top - toast.bottom >= box.bottom - box.top + 24', 'card.top > toast.bottom')],
   // D-331 S1: every placement search fails, so each frame takes the counted no-fit fallback.
   ['execution-no-fit-forced', 'roll-execution.spec.ts', 'execution camera frames the technique at 1440px; pane false; reduced motion false$', s => replace(s, '    const search = within => {', '    const search = within => { return null;')],
+  // D-354 B2: the same fallback at the phone's arrival pick, now pressed by a mouse after the layout settles.
+  ['d354-phone-pick-no-fit', 'roll-execution.spec.ts', 'execution camera frames the technique at 390px; pane false; reduced motion false$', s => replace(s, '    const search = within => {', '    const search = within => { return null;')],
   // D-329: drop the reader node band; the 390px exchange's pair is covered by the landing rows again.
   ['execution-node-band-removed', 'camera-continuity.spec.ts', '390px camera continuity.*an exchange from a node with no Videos section', s => replace(s, 'const nodeBand = this.nodeBand && this.on("book") ? this.nodeBand : null;', 'const nodeBand = null;')],
   ['execution-occupied-space-lost', 'roll-execution.spec.ts', 'execution camera frames.*1440px; pane false; reduced motion false after native wheel', s => replace(s, '  frameExecution(target, node) {', '  frameExecution(target, node) { return target;')],
@@ -168,6 +170,8 @@ const mutants = [
   ['d352-hand-after-questions', sections, 'D-352: at arrival Home and PageUp', s => replace(s, 'if (key === "hand") this.gameSections[1].card.before(el); else this.game.append(el);', 'this.game.append(el);')],
   // D-353 (Delta 7 B1): a play settles the pin, as grading does.
   ['d353-play-keeps-pin', 'defending-landing.spec.ts', 'D-353: playing the pinned film', s => replace(s, '      if (name === "expandClip") this._readerPin = null;\n', '')],
+  // D-354 N2 (Delta 8): reopening Videos is the player's own input and settles the pin.
+  ['d354-reopen-keeps-pin', 'defending-landing.spec.ts', 'D-354 N2: reopening Videos while pinned', s => replace(s, '    if (shown && type === "videos") this.app._readerGraded();\n', '')],
 ]
 // D7-N1: controls whose claim IS the landSettled stall (land_publish_stalled). None today.
 const STALL_CLAIMS = new Set([])

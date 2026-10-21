@@ -484,3 +484,32 @@ test('@curated Enter on a focused Inspect control keeps its own action instead o
   expect(groups.length).toBeGreaterThan(1)
   expect(groups[0].right).toBeLessThanOrEqual(groups[1].left)
 })
+
+// D-354 (found by H95/H97: this file's setup poll "native host module must actually be requested" red 3 of
+// 20 isolated): REAL BREAK from D-351. The reader holds a reading-view hand pending, and so hidden, until
+// its article renders; the game-value activation refuses a hidden hand (_gameValuePlayable), so one that
+// came during the hold went idle and nothing retried it, and the Win chance never started. Mount Top's
+// role page is held past the 800ms ceiling here, so the activation always meets the held hand.
+test('D-354: a hand the reader held starts its Win chance once it publishes', async ({ page }) => {
+  const requested: string[] = []
+  page.on('request', request => { if (/\/app\/game-values\.js(?:\?|$)/.test(request.url())) requested.push(request.url()) })
+  const j = journey(page)
+  await j.boot('/')
+  const held: string[] = []
+  await page.route(url => url.pathname === '/Positions/Mount/Top', async route => {
+    if (route.request().resourceType() === 'fetch') { held.push(route.request().url()); await new Promise(r => setTimeout(r, 1500)) }
+    await route.continue()
+  })
+  await page.evaluate(() => {
+    const w = window as any, out: boolean[] = (w.__d354held = [])
+    const tick = () => { const row = w.__neural?.optionsRef?.current; if (row?.isConnected) out.push(row.hasAttribute('data-reader-pending')); if (out.length < 600) requestAnimationFrame(tick) }
+    requestAnimationFrame(tick)
+  })
+  const before = requested.length
+  await j.land('Mount Top')
+  await expect.poll(() => page.evaluate(() => { const t = (window as any).__d354held as boolean[]; return t.includes(true) && t[t.length - 1] === false }),
+    { message: 'premise: the hand was held pending, then published', timeout: 10_000 }).toBe(true)
+  expect(held.length, 'premise: the Mount Top article fetch was held 1.5s').toBeGreaterThan(0)
+  expect(before, 'premise: no game-value import before the held landing').toBe(0)
+  await expect.poll(() => requested.length, { message: 'the Win chance starts once the held hand publishes', timeout: 10_000 }).toBeGreaterThan(0)
+})
