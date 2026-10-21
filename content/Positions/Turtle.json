@@ -289,15 +289,15 @@
       {
         "transition": "Turtle to Back Control",
         "attempt_probability": {
-          "gi": 14,
-          "nogi": 14
+          "gi": 13,
+          "nogi": 13
         }
       },
       {
         "transition": "Chair Sit to Back",
         "attempt_probability": {
           "gi": 9,
-          "nogi": 10
+          "nogi": 9
         }
       },
       {
@@ -324,8 +324,8 @@
       {
         "transition": "Turtle Flatten to Side Control",
         "attempt_probability": {
-          "gi": 14,
-          "nogi": 12
+          "gi": 13,
+          "nogi": 11
         }
       },
       {
@@ -399,10 +399,24 @@
         }
       },
       {
+        "transition": "Turtle to Aoki Lock",
+        "attempt_probability": {
+          "gi": 1,
+          "nogi": 2
+        }
+      },
+      {
         "transition": "Turtle to Russian Cowboy",
         "attempt_probability": {
           "gi": 1,
           "nogi": 2
+        }
+      },
+      {
+        "transition": "Kiss of the Dragon",
+        "attempt_probability": {
+          "gi": 1,
+          "nogi": 1
         }
       },
       {

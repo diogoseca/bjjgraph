@@ -5005,6 +5005,18 @@
         }
       }
     },
+    "Double Underhook Pass": {
+      "community": {
+        "gi": {
+          "success_rate": 58.0,
+          "vote_count": 30
+        },
+        "nogi": {
+          "success_rate": 58.0,
+          "vote_count": 30
+        }
+      }
+    },
     "Duck Under": {
       "community": {
         "gi": {
@@ -9501,6 +9513,36 @@
           "source": "calibrate+review",
           "run_id": "2026-07-07T17:37:32.832419Z",
           "reviewed": false,
+          "override": false
+        }
+      }
+    },
+    "Kiss of the Dragon": {
+      "community": {
+        "gi": {
+          "success_rate": 50.0,
+          "vote_count": 30
+        },
+        "nogi": {
+          "success_rate": 50.0,
+          "vote_count": 30
+        }
+      },
+      "prior": {
+        "gi": {
+          "success_rate": 35,
+          "pseudo_count": 7,
+          "extrapolated": true
+        },
+        "nogi": {
+          "success_rate": 29,
+          "pseudo_count": 8,
+          "extrapolated": true
+        },
+        "provenance": {
+          "source": "calibrate+review",
+          "run_id": "2026-07-07T17:37:32.832419Z",
+          "reviewed": true,
           "override": false
         }
       }
@@ -25062,6 +25104,18 @@
           "run_id": "2026-07-07T17:37:32.832419Z",
           "reviewed": true,
           "override": false
+        }
+      }
+    },
+    "Turtle to Aoki Lock": {
+      "community": {
+        "gi": {
+          "success_rate": 50.0,
+          "vote_count": 30
+        },
+        "nogi": {
+          "success_rate": 50.0,
+          "vote_count": 30
         }
       }
     },

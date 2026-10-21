@@ -11642,3 +11642,43 @@ The re-seed changes only provenance/location; census fields, all 14 app rows, al
 and floors remain exact. Own-build and retained-tree gates pass with current-content provenance.
 Earlier receipts remain immutable. All three derived source files reproduce byte-for-byte;
 D-285 preserves every unchanged Markdown byte and stamp.
+
+## v1.231.0 — Independent graph restructure and exact content exceptions
+
+The first checkpoint applies the independently consistent part of N1/N3 and the
+Inverted coalescences. The mixed third-round result remains unapplied pending N4.
+The original 15 menus and four additionally coupled menus retain their dev tables;
+the ten split records retain their dev bytes. The additional held menus are
+Crackhead Control/Top, Double Unders/Top, New York/Bottom and Turtle/Top. Their
+dependencies keep Double Underhook Pass, Turtle to Aoki Lock and the legacy Kiss
+of the Dragon alive until the remaining restructure can land together.
+
+D-358 keeps the submission schema's `from_positions.minItems` at 2 because the
+weekly proofreader uses that same floor for removals. Six explicit rows in
+`tests/artifacts/single_origin_submissions.json` permit a singleton only when its
+entry equals both the approved origin and the base of its own `from_position`.
+Missing files, changed origins, empty lists and re-widened lists fail.
+
+D-362 extends the same manifest with explicit exception kinds and a role-specific
+short decision tree for Crackhead Control/Bottom at exactly two conditions. R20's
+approved retirement leaves Mission Control and the retained R54 New York action;
+no replacement condition is invented. Top retains its full tree until N4, with no
+Top exception installed. The shared decision-tree floor remains three. Wrong
+counts, missing roles and stale rows fail; an exception on one role cannot waive
+the other role's floor. The validator prints seven live matches: six single
+origins and one short tree. Seventeen Python cases run in the existing Node CI
+suite. Accept-all mutants make `test_listed_but_not_own_origin_is_blocking` and
+`test_wrong_count_is_blocking_even_when_it_meets_shared_floor` fail by name.
+
+The calibration supersession ledger preserves the complete approved replacement
+tables and prior weights without rewriting historical ballots. Historical apply
+paths verify the replacement before bypassing an obsolete table and fail on drift.
+Nine regression cases cover changed topology, null versus zero, outcome drift,
+retired-source resurrection, prior weights and preservation of real community
+votes. Null success overrides produce absent prior blocks. Retirement redirects
+send action-role descendants to a surviving position or family hub when that
+destination has no compatible role page.
+
+Dead Orchard's existing passive-seat reachability entry moves from Bottom to Top
+with the approved physical role correction; no new entry move or outcome is added.
+Capture, receipt-bound baseline re-seeding and publication remain deferred until N4.

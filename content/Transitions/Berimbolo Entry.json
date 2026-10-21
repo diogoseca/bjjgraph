@@ -47,7 +47,7 @@
   "overview": "The Berimbolo Entry is a revolutionary back-taking technique that emerged from the modern sport jiu-jitsu evolution, fundamentally changing how practitioners approach De La Riva guard. This dynamic movement combines inversion mechanics with precise grip control to spin underneath the opponent, emerging directly onto their back. The technique exploits the opponent's base by creating a rotational momentum that makes defending against the back take extremely difficult once the movement is initiated.\n\nThe berimbolo represents a paradigm shift in guard play, prioritizing movement and angles over traditional sweeping mechanics. By inverting underneath the opponent, the practitioner creates a unique angle of attack that bypasses conventional passing defenses. The technique requires excellent hip mobility, timing, and spatial awareness, but when executed properly, it offers one of the highest percentage paths to back control in modern jiu-jitsu. The entry phase is crucial - proper De La Riva hook placement and grip control determine whether the inversion will be successful or if the opponent can counter-rotate to prevent the back take.",
   "related_content": [
     {
-      "name": "Kiss of the Dragon from RDLR",
+      "name": "Kiss of the Dragon",
       "relationship": "Alternative finish when De La Riva hook is compromised"
     },
     {
@@ -612,7 +612,7 @@
   },
   "variants_and_adaptations": [
     {
-      "variant_name": "Kiss of the Dragon from RDLR",
+      "variant_name": "Kiss of the Dragon",
       "description": "When opponent sprawls legs away and prevents De La Riva hook from controlling base, release the hook entirely and use rotational momentum to spin directly behind them. Pull on their far hip while doing a forward roll under your own body, emerging directly onto their back without the traditional hook-based rotation.",
       "when_to_use": "When opponent sits back heavily or when De La Riva hook is compromised but hip control remains strong"
     },

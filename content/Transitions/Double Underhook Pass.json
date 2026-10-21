@@ -1,0 +1,560 @@
+{
+  "name": "Double Underhook Pass",
+  "summary": "A double-underhook pass reaches beneath both thighs after the high rubber-guard clinch has opened, then clears the legs under controlled pressure.",
+  "description": "A double-underhook pass reaches beneath both thighs after the high rubber-guard clinch has opened, then clears the legs under controlled pressure.",
+  "tags": [
+    "bjj",
+    "transition",
+    "position-change"
+  ],
+  "from_position": "Crackhead Control/Top",
+  "outcomes": [
+    {
+      "to": "Side Control/Top",
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
+      "result": "success"
+    },
+    {
+      "to": "Crackhead Control/Top",
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
+      "result": "failure"
+    },
+    {
+      "to": "Half Guard/Bottom",
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
+      "result": "counter"
+    }
+  ],
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
+  "overview": "The top player faces a bottom guard player using Crackhead Control; the head, shoulder or arm may still be enclosed. Do not thread both arms beneath the legs while the head and shoulders remain trapped in Crackhead Control. A double-under pass is a new configuration after release.\n\nAvoid extending an arm between the high legs where it can be isolated. A second leg climbing behind your head increases the posture-control problem. Keep a balanced base and early inside frames; tap instead of moving against a completed choke or joint lock.\n\nMove through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.\n\nInstructional sources: [Eddie Bravo — MTS 169: the Pump](https://www.10thplanetjj.com/techniques/mts-169-rubber-guard-the-pump/); [10th Planet Costa Mesa — basic path with double bagger](https://www.youtube.com/watch?v=W2OFKidf9lE).",
+  "related_content": [
+    {
+      "name": "Mission Control",
+      "relationship": "Related configuration; establish its own prerequisites: compare the configuration and required controls for Mission Control."
+    },
+    {
+      "name": "Rubber Guard",
+      "relationship": "Related configuration; establish its own prerequisites: compare the configuration and required controls for Rubber Guard."
+    },
+    {
+      "name": "Invisible Collar",
+      "relationship": "Related configuration; establish its own prerequisites: compare the configuration and required controls for Invisible Collar."
+    },
+    {
+      "name": "Dead Orchard Control",
+      "relationship": "Related configuration; establish its own prerequisites: compare the configuration and required controls for Dead Orchard Control."
+    }
+  ],
+  "attacker": {
+    "name": "Double Underhook Pass Attacker",
+    "description": "Double Underhook Pass (attacker): Avoid extending an arm between the high legs where it can be isolated. A second leg climbing behind your head increases the posture-control problem.",
+    "overview": "The top player faces a bottom guard player using Crackhead Control; the head, shoulder or arm may still be enclosed. Do not thread both arms beneath the legs while the head and shoulders remain trapped in Crackhead Control. A double-under pass is a new configuration after release.\n\nAvoid extending an arm between the high legs where it can be isolated. A second leg climbing behind your head increases the posture-control problem. Keep a balanced base and early inside frames; tap instead of moving against a completed choke or joint lock.\n\nCreate slack at the hip and thigh while keeping the head and captured arm aligned. Withdraw the shoulder and elbow only after the high leg connection has opened. Establish a stable passing base after the head clears, then side control if both legs pass only when the upper-body enclosure and relevant leg hooks have cleared.\n\nMove through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.\n\nOnce both thighs are accessible, hip control keeps the legs together while you circle past them; it must not fold the partner onto the neck. Only after the knees clear should a side pin add a crossface, shoulder pressure and chest pressure to hold the upper body.",
+    "key_principles": [
+      "Recognize the upper-body trap: Avoid extending an arm between the high legs where it can be isolated.",
+      "Protect the captured limb: A second leg climbing behind your head increases the posture-control problem.",
+      "Work before pressure engages: Keep a balanced base and early inside frames; tap instead of moving against a completed choke or joint lock.",
+      "Open the high enclosure: Create slack at the hip and thigh while keeping the head and captured arm aligned.",
+      "Recover the elbow and posture: Withdraw the shoulder and elbow only after the high leg connection has opened.",
+      "Confirm the next position: Establish a stable passing base after the head clears, then side control if both legs pass only when the upper-body enclosure and relevant leg hooks have cleared."
+    ],
+    "setup_requirements": [
+      "The top player faces a bottom guard player using Crackhead Control; the head, shoulder or arm may still be enclosed.",
+      "Avoid extending an arm between the high legs where it can be isolated.",
+      "A second leg climbing behind your head increases the posture-control problem.",
+      "Do not thread both arms beneath the legs while the head and shoulders remain trapped in Crackhead Control. A double-under pass is a new configuration after release."
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Recognize the upper-body trap",
+        "description": "Avoid extending an arm between the high legs where it can be isolated."
+      },
+      {
+        "step_number": 2,
+        "action": "Protect the captured limb",
+        "description": "A second leg climbing behind your head increases the posture-control problem."
+      },
+      {
+        "step_number": 3,
+        "action": "Work before pressure engages",
+        "description": "Keep a balanced base and early inside frames; tap instead of moving against a completed choke or joint lock."
+      },
+      {
+        "step_number": 4,
+        "action": "Open the high enclosure",
+        "description": "Create slack at the hip and thigh while keeping the head and captured arm aligned."
+      },
+      {
+        "step_number": 5,
+        "action": "Recover the elbow and posture",
+        "description": "Withdraw the shoulder and elbow only after the high leg connection has opened."
+      },
+      {
+        "step_number": 6,
+        "action": "Confirm the next position",
+        "description": "Establish a stable passing base after the head clears, then side control if both legs pass only when the upper-body enclosure and relevant leg hooks have cleared."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Establish the first high leg and its hand support before adding the second leg.",
+        "effectiveness": "High",
+        "your_response": "Re-check the prerequisite before continuing. Avoid extending an arm between the high legs where it can be isolated.",
+        "targets_outcome": "Crackhead Control/Top"
+      },
+      {
+        "counter": "Reinforce the clinch without forcing the knees beyond a comfortable hip angle.",
+        "effectiveness": "Medium",
+        "your_response": "Re-check the prerequisite before continuing. A second leg climbing behind your head increases the posture-control problem.",
+        "targets_outcome": "Side Control/Top"
+      },
+      {
+        "counter": "Do not assume that high legs alone have isolated an arm or completed Dead Orchard.",
+        "effectiveness": "Medium",
+        "your_response": "Re-check the prerequisite before continuing. Keep a balanced base and early inside frames; tap instead of moving against a completed choke or joint lock.",
+        "targets_outcome": "Half Guard/Bottom"
+      },
+      {
+        "counter": "Use hip position and connected leg pressure rather than pulling the feet against fixed knees.",
+        "effectiveness": "Low",
+        "your_response": "Re-check the prerequisite before continuing. Create slack at the hip and thigh while keeping the head and captured arm aligned.",
+        "targets_outcome": "Half Guard/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Skipping the checkpoint: recognize the upper-body trap",
+        "consequence": "The intended control is not established before the next movement; the missing requirement is: Avoid extending an arm between the high legs where it can be isolated.",
+        "correction": "Avoid extending an arm between the high legs where it can be isolated."
+      },
+      {
+        "error": "Skipping the checkpoint: protect the captured limb",
+        "consequence": "The intended control is not established before the next movement; the missing requirement is: A second leg climbing behind your head increases the posture-control problem.",
+        "correction": "A second leg climbing behind your head increases the posture-control problem."
+      },
+      {
+        "error": "Skipping the checkpoint: work before pressure engages",
+        "consequence": "The intended control is not established before the next movement; the missing requirement is: Keep a balanced base and early inside frames; tap instead of moving against a completed choke or joint lock.",
+        "correction": "Keep a balanced base and early inside frames; tap instead of moving against a completed choke or joint lock."
+      },
+      {
+        "error": "Skipping the checkpoint: open the high enclosure",
+        "consequence": "The intended control is not established before the next movement; the missing requirement is: Create slack at the hip and thigh while keeping the head and captured arm aligned.",
+        "correction": "Create slack at the hip and thigh while keeping the head and captured arm aligned."
+      },
+      {
+        "error": "Skipping the checkpoint: recover the elbow and posture",
+        "consequence": "The intended control is not established before the next movement; the missing requirement is: Withdraw the shoulder and elbow only after the high leg connection has opened.",
+        "correction": "Withdraw the shoulder and elbow only after the high leg connection has opened."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1",
+        "focus": "Identify the configuration",
+        "description": "Work cooperatively on recognize the upper-body trap. Avoid extending an arm between the high legs where it can be isolated. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance."
+      },
+      {
+        "phase": "Phase 2",
+        "focus": "Rehearse the connection",
+        "description": "Work cooperatively on protect the captured limb. A second leg climbing behind your head increases the posture-control problem. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance."
+      },
+      {
+        "phase": "Phase 3",
+        "focus": "Add an early response",
+        "description": "Work cooperatively on work before pressure engages. Keep a balanced base and early inside frames; tap instead of moving against a completed choke or joint lock. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance."
+      },
+      {
+        "phase": "Phase 4",
+        "focus": "Link only verified checkpoints",
+        "description": "Work cooperatively on open the high enclosure. Create slack at the hip and thigh while keeping the head and captured arm aligned. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance."
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "Double Underhook Pass (top): What must clear before reaching beneath both thighs?",
+        "answer": "The double-under passing setup begins after the head, shoulders and arms clear the high rubber-guard enclosure.",
+        "answer_line": "High legs around head and shoulders",
+        "distractors": {
+          "plausible": [
+            "Only their ankles below your waist",
+            "Only your free wrist from their grip"
+          ],
+          "trap": [
+            "Only a lower knee between your legs"
+          ]
+        }
+      },
+      {
+        "question": "Double Underhook Pass (top): In the completed hip-clasp setup, where are both arms routed?",
+        "answer": "After opening guard and clearing the high clinch, place both arms beneath the thighs.",
+        "answer_line": "Under the opponent's thighs",
+        "distractors": {
+          "plausible": [
+            "One above a thigh and one below",
+            "Outside both thighs"
+          ],
+          "trap": [
+            "Both beneath the calves"
+          ]
+        }
+      },
+      {
+        "question": "Double Underhook Pass (top): Where do the hands clasp in the demonstrated leg-gathering setup?",
+        "answer": "The primary demonstration clasps near the hips and hugs the legs together.",
+        "answer_line": "By hips while hugging both thighs",
+        "distractors": {
+          "plausible": [
+            "By knees with hips out of reach",
+            "Over thighs with elbows flared"
+          ],
+          "trap": [
+            "Around one thigh with the other free"
+          ]
+        }
+      },
+      {
+        "question": "Double Underhook Pass (top): What supports the opponent's hips as you sit back and posture?",
+        "answer": "With the legs gathered, the demonstrated setup brings the opponent's hips onto the passer's thighs without using the neck as a fulcrum.",
+        "answer_line": "Your thighs under their raised hips",
+        "distractors": {
+          "plausible": [
+            "Forearms behind their knees",
+            "The mat beneath their unlifted hips"
+          ],
+          "trap": [
+            "Your hands beneath their calves"
+          ]
+        }
+      },
+      {
+        "question": "Double Underhook Pass (top): What contact does the shown pass add while one hand supports the hips?",
+        "answer": "The demonstration retains hip support and uses the opposite shoulder to guide the passing direction.",
+        "answer_line": "A grip on the opposite shoulder",
+        "distractors": {
+          "plausible": [
+            "A grip on the near elbow only",
+            "A grip behind the head only"
+          ],
+          "trap": [
+            "A palm against the near ribs only"
+          ]
+        }
+      },
+      {
+        "question": "Double Underhook Pass (top): What must clear before you settle a side pin?",
+        "answer": "After releasing high guard, complete the leg clearance before settling beside the torso.",
+        "answer_line": "Both knees and remaining leg hooks",
+        "distractors": {
+          "plausible": [
+            "One thigh with other knee inside",
+            "Only head out of the old high clinch"
+          ],
+          "trap": [
+            "Only their hand off your shoulder"
+          ]
+        }
+      },
+      {
+        "question": "Double Underhook Pass (top): How does the starting high clinch differ from the pass setup?",
+        "answer": "Crackhead's high posture clinch must open before the arms can establish the distinct double-under configuration.",
+        "answer_line": "Your shoulders still in high legs",
+        "distractors": {
+          "plausible": [
+            "Forearms under both free thighs",
+            "Head free above waist-level legs"
+          ],
+          "trap": [
+            "Shoulders past knees by their chest"
+          ]
+        }
+      },
+      {
+        "question": "Double Underhook Pass (top): Why maintain hip control as you circle past the knees?",
+        "answer": "Hip control keeps the legs together while the passer changes angle; it does not replace the need to clear them.",
+        "answer_line": "Gather legs while circling past them",
+        "distractors": {
+          "plausible": [
+            "Hold hips but leave legs separate",
+            "Keep chest centered between thighs"
+          ],
+          "trap": [
+            "Replace knee clearance with pressure"
+          ]
+        }
+      },
+      {
+        "question": "Double Underhook Pass (top): The partner's weight folds onto the neck; what should change?",
+        "answer": "Do not use the neck as a load-bearing pivot. Reduce pressure and re-establish controlled support or reset.",
+        "answer_line": "Unload and restore hip support",
+        "distractors": {
+          "plausible": [
+            "Drive forward with hips unsupported",
+            "Pull knees farther beyond the head"
+          ],
+          "trap": [
+            "Keep the fold while circling knees"
+          ]
+        }
+      },
+      {
+        "question": "Double Underhook Pass (top): When can chest and crossface pressure stabilize the result?",
+        "answer": "Use balanced chest contact and controlled shoulder pressure in the settled side pin after leg clearance.",
+        "answer_line": "Knees clear with side contact set",
+        "distractors": {
+          "plausible": [
+            "Head still in the old high clinch",
+            "Before gathering either thigh"
+          ],
+          "trap": [
+            "Once a hand touches the far shoulder"
+          ]
+        }
+      }
+    ],
+    "safety_considerations": "Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.",
+    "clips": [
+      {
+        "id": "wBZrTpuXV50",
+        "title": "No-gi double underhook guard pass",
+        "by": "Garden State BJJ",
+        "vertical": false,
+        "channel": "Garden State Brazilian Jiu-Jitsu Academy",
+        "duration": 63,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "BuDGLXL8sGs",
+        "title": "Double under pass to crucifix",
+        "by": "Marcelo Garcia",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 198,
+        "verified": "2026-07-15"
+      }
+    ]
+  },
+  "defender": {
+    "name": "Double Underhook Pass Defender",
+    "description": "Double Underhook Pass (defender): Establish the first high leg and its hand support before adding the second leg. Reinforce the clinch without forcing the knees beyond a comfortable hip angle.",
+    "overview": "The top player faces a bottom guard player using Crackhead Control; the head, shoulder or arm may still be enclosed. Do not thread both arms beneath the legs while the head and shoulders remain trapped in Crackhead Control. A double-under pass is a new configuration after release.\n\nEstablish the first high leg and its hand support before adding the second leg. Reinforce the clinch without forcing the knees beyond a comfortable hip angle. Do not assume that high legs alone have isolated an arm or completed Dead Orchard.\n\nUse hip position and connected leg pressure rather than pulling the feet against fixed knees. Lower the reinforcing leg while preserving the first shin connection if you need Mission Control again. Release and frame when the opponent compresses your upper back or you cannot comfortably maintain the clinch.\n\nMove through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.\n\nMake the early escape by framing against the shoulders and using hip movement to recover a knee before the passer closes both underhooks. After the legs are lifted together, reset rather than trying to wrench a knee sideways against the fixed grips.",
+    "key_principles": [
+      "Start with broken posture: Establish the first high leg and its hand support before adding the second leg.",
+      "Bring the second leg high: Reinforce the clinch without forcing the knees beyond a comfortable hip angle.",
+      "Track both elbows: Do not assume that high legs alone have isolated an arm or completed Dead Orchard.",
+      "Keep knees close: Use hip position and connected leg pressure rather than pulling the feet against fixed knees.",
+      "Return to one-leg control: Lower the reinforcing leg while preserving the first shin connection if you need Mission Control again.",
+      "Open against a stack: Release and frame when the opponent compresses your upper back or you cannot comfortably maintain the clinch."
+    ],
+    "recognition_cues": [
+      "The top player faces a bottom guard player using Crackhead Control; the head, shoulder or arm may still be enclosed.",
+      "A second leg climbing behind your head increases the posture-control problem.",
+      "Create slack at the hip and thigh while keeping the head and captured arm aligned."
+    ],
+    "defensive_options": [
+      {
+        "action": "Establish the first high leg and its hand support before adding the second leg.",
+        "when_to_use": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.",
+        "targets_outcome": "Crackhead Control/Top",
+        "if_successful": "The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
+        "risk": "Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route."
+      },
+      {
+        "action": "Reinforce the clinch without forcing the knees beyond a comfortable hip angle.",
+        "when_to_use": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
+        "risk": "Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route."
+      },
+      {
+        "action": "Do not assume that high legs alone have isolated an arm or completed Dead Orchard.",
+        "when_to_use": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
+        "risk": "Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route."
+      },
+      {
+        "action": "Use hip position and connected leg pressure rather than pulling the feet against fixed knees.",
+        "when_to_use": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.",
+        "targets_outcome": "Crackhead Control/Top",
+        "if_successful": "The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
+        "risk": "Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route."
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Crackhead Control/Top",
+        "how": "Interrupt the next connection while preserving a safe base. Establish any new guard or pin separately rather than assuming this response guarantees it. Establish the first high leg and its hand support before adding the second leg."
+      },
+      {
+        "outcome": "Half Guard/Bottom",
+        "how": "Interrupt the next connection while preserving a safe base. Establish any new guard or pin separately rather than assuming this response guarantees it. Reinforce the clinch without forcing the knees beyond a comfortable hip angle."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Skipping the checkpoint: start with broken posture",
+        "consequence": "The intended control is not established before the next movement; the missing requirement is: Establish the first high leg and its hand support before adding the second leg.",
+        "correction": "Establish the first high leg and its hand support before adding the second leg."
+      },
+      {
+        "error": "Skipping the checkpoint: bring the second leg high",
+        "consequence": "The intended control is not established before the next movement; the missing requirement is: Reinforce the clinch without forcing the knees beyond a comfortable hip angle.",
+        "correction": "Reinforce the clinch without forcing the knees beyond a comfortable hip angle."
+      },
+      {
+        "error": "Skipping the checkpoint: track both elbows",
+        "consequence": "The intended control is not established before the next movement; the missing requirement is: Do not assume that high legs alone have isolated an arm or completed Dead Orchard.",
+        "correction": "Do not assume that high legs alone have isolated an arm or completed Dead Orchard."
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "Double Underhook Pass (bottom): Before release, what anchors your original high guard?",
+        "answer": "The first supported high leg is the foundation before any second-leg reinforcement.",
+        "answer_line": "First high shin held by its hand",
+        "distractors": {
+          "plausible": [
+            "First foot high with shin grip open",
+            "Second leg before first shin is held"
+          ],
+          "trap": [
+            "Low leg crossing with shoulders free"
+          ]
+        }
+      },
+      {
+        "question": "Double Underhook Pass (bottom): Before both underhooks close, how can you recover a knee?",
+        "answer": "Once high guard opens, use shoulder frames and hip movement to bring a knee inside before both underhooks settle.",
+        "answer_line": "Frame shoulders and shift the hips",
+        "distractors": {
+          "plausible": [
+            "Wait for lifted thighs to move hips",
+            "Turn foot out with hips still held"
+          ],
+          "trap": [
+            "Hands behind head with hips still"
+          ]
+        }
+      },
+      {
+        "question": "Double Underhook Pass (bottom): What would Dead Orchard require beyond arms beneath your thighs?",
+        "answer": "Track the actual shoulder-level enclosure. Arms under the thighs in a pass are not both arms trapped in Dead Orchard.",
+        "answer_line": "High leg triangle at both shoulders",
+        "distractors": {
+          "plausible": [
+            "One shoulder in with other arm out",
+            "Elbows below knees in a hip clasp"
+          ],
+          "trap": [
+            "Wrists at hips with high legs open"
+          ]
+        }
+      },
+      {
+        "question": "Double Underhook Pass (bottom): Your thighs are held; why avoid wrenching one knee sideways?",
+        "answer": "If the thighs are fixed, reset the drill rather than forcing a knee sideways against the grips.",
+        "answer_line": "Fixed thighs leave the knee to twist",
+        "distractors": {
+          "plausible": [
+            "Knee turn frees clasp before loading",
+            "Held thighs still let hips turn free"
+          ],
+          "trap": [
+            "Ankle turns under thigh; knee spared"
+          ]
+        }
+      },
+      {
+        "question": "Double Underhook Pass (bottom): Before the clinch opens fully, how can you keep one high leg?",
+        "answer": "When comfortable and still available, retain the first high shin and hand while lowering the reinforcing leg.",
+        "answer_line": "Second leg down; first shin held",
+        "distractors": {
+          "plausible": [
+            "First foot high with shin grip gone",
+            "Second leg stays; first shin drops"
+          ],
+          "trap": [
+            "Let shoulders move beyond leg reach"
+          ]
+        }
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1",
+        "focus": "Identify the configuration",
+        "description": "Work cooperatively on start with broken posture. Establish the first high leg and its hand support before adding the second leg. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance."
+      },
+      {
+        "phase": "Phase 2",
+        "focus": "Rehearse the connection",
+        "description": "Work cooperatively on bring the second leg high. Reinforce the clinch without forcing the knees beyond a comfortable hip angle. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance."
+      },
+      {
+        "phase": "Phase 3",
+        "focus": "Add an early response",
+        "description": "Work cooperatively on track both elbows. Do not assume that high legs alone have isolated an arm or completed Dead Orchard. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance."
+      }
+    ],
+    "clips": [
+      {
+        "id": "dH6Cj-nv3vU",
+        "title": "Shoulder lock defending the double under stack pass",
+        "by": "Tony Casarez",
+        "vertical": false,
+        "channel": "Tony Casarez",
+        "duration": 62,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "H9spCvrBPsE",
+        "title": "Defense against double underhooks to guillotine",
+        "by": "First BJJ",
+        "vertical": false,
+        "channel": "First Bjj Affiliates",
+        "duration": 108,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "aBLmq4iT0sM",
+        "title": "Double under pass defense to triangle",
+        "by": "Clark Gracie",
+        "vertical": false,
+        "channel": "Clark Gracie Allegiance Jiu Jitsu",
+        "duration": 164,
+        "verified": "2026-07-15"
+      }
+    ]
+  },
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Cooperative checkpoint drill",
+      "description": "Avoid extending an arm between the high legs where it can be isolated. A second leg climbing behind your head increases the posture-control problem.",
+      "when_to_use": "Learning the control without submission pressure"
+    },
+    {
+      "variant_name": "Response and reset drill",
+      "description": "Establish the first high leg and its hand support before adding the second leg. Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.",
+      "when_to_use": "Adding one early response after both partners recognize the configuration"
+    }
+  ],
+  "position_integration": "The top player faces a bottom guard player using Crackhead Control; the head, shoulder or arm may still be enclosed. Do not thread both arms beneath the legs while the head and shoulders remain trapped in Crackhead Control. A double-under pass is a new configuration after release. A destination is established by its actual body configuration, not by completing an isolated grip or by the name of the route.",
+  "conditions": [
+    "The top player faces a bottom guard player using Crackhead Control; the head, shoulder or arm may still be enclosed.",
+    "Avoid extending an arm between the high legs where it can be isolated.",
+    "Do not thread both arms beneath the legs while the head and shoulders remain trapped in Crackhead Control. A double-under pass is a new configuration after release."
+  ]
+}

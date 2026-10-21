@@ -596,7 +596,7 @@
         "condition": "If opponent stands up tall or attempts to disengage from hook engagement",
         "actions": [
           {
-            "technique": "Kiss of the Dragon from RDLR",
+            "technique": "Kiss of the Dragon",
             "target": "Back Control",
             "probability": 60
           },

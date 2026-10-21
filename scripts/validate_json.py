@@ -56,32 +56,47 @@ CATEGORIES = {
 }
 
 ROOT = Path(__file__).resolve().parent.parent
-SINGLE_ORIGIN_SUBMISSIONS = ROOT / "tests/artifacts/single_origin_submissions.json"
+CONTENT_EXCEPTIONS = ROOT / "tests/artifacts/single_origin_submissions.json"
 
 
 @lru_cache(maxsize=None)
-def load_single_origin_submissions(path=SINGLE_ORIGIN_SUBMISSIONS):
-    """D-358 exceptions do not change the weekly proofreader's schema removal floor."""
+def load_content_exceptions(path=CONTENT_EXCEPTIONS):
+    """D-358/D-362 exceptions leave the shared authoring schema floors intact."""
     rows = json.loads(Path(path).read_text())
     if not isinstance(rows, list) or not rows:
-        raise ValueError("single-origin submission approval list must be nonempty")
+        raise ValueError("reviewed content exception list must be nonempty")
     approved = {}
     for row in rows:
-        if not isinstance(row, dict) or set(row) != {"file", "origin", "reason", "plan_ref"}:
-            raise ValueError("single-origin approval rows require file, origin, reason and plan_ref")
-        if any(not isinstance(v, str) or not v.strip() for v in row.values()):
-            raise ValueError("single-origin approval fields must be nonempty strings")
+        common = {"kind", "file", "reason", "plan_ref"}
+        kind = row.get("kind") if isinstance(row, dict) else None
+        extra = {"single_origin": {"origin"}, "short_decision_tree": {"role", "expected_count"}}.get(kind)
+        if extra is None or set(row) != common | extra:
+            raise ValueError("content exception must have the exact fields for its supported kind")
+        if any(not isinstance(row[key], str) or not row[key].strip()
+               for key in set(row) - {"expected_count"}):
+            raise ValueError("content exception text fields must be nonempty strings")
         path = Path(row["file"])
-        if (not row["file"].startswith("content/Submissions/") or path.suffix != ".json"
-                or ".." in path.parts or row["file"] in approved):
-            raise ValueError(f"invalid or duplicate single-origin approval: {row['file']}")
-        approved[row["file"]] = row
+        prefix = "content/Submissions/" if kind == "single_origin" else "content/Positions/"
+        key = (kind, row["file"], row.get("role"))
+        if (not row["file"].startswith(prefix) or path.suffix != ".json"
+                or ".." in path.parts or key in approved):
+            raise ValueError(f"invalid or duplicate content exception: {row['file']}")
+        if kind == "short_decision_tree" and (row["role"] not in ("top", "bottom")
+                or type(row["expected_count"]) is not int or not 0 < row["expected_count"] < 3):
+            raise ValueError("short-decision-tree approval requires a role and a count below the shared floor of 3")
+        approved[key] = row
     return approved
 
 
-def single_origin_row_errors(data, row):
+def content_exception_errors(data, row):
     if not isinstance(data, dict):
-        return ["approved single-origin submission must be a record"]
+        return ["approved content exception must match a record"]
+    if row["kind"] == "short_decision_tree":
+        side = data.get(row["role"])
+        tree = side.get("decision_tree") if isinstance(side, dict) else None
+        if not isinstance(tree, list) or len(tree) != row["expected_count"]:
+            return [f"short decision-tree approval requires {row['role']} to have exactly {row['expected_count']} conditions"]
+        return []
     origin = data.get("from_position", "")
     if not isinstance(origin, str) or "/" not in origin:
         return ["approved single-origin submission must declare its own from_position"]
@@ -92,24 +107,26 @@ def single_origin_row_errors(data, row):
     return []
 
 
-def accept_single_origin(data, row):
-    return row is not None and not single_origin_row_errors(data, row)
+def accept_content_exception(data, row):
+    return row is not None and not content_exception_errors(data, row)
 
 
-def validate_single_origin_approvals(root=ROOT, approved=None):
-    """Every row must match a live, exact single-origin record; stale waivers fail."""
-    approved = load_single_origin_submissions() if approved is None else approved
-    errors, matched = [], 0
-    for path, row in approved.items():
+def validate_content_exceptions(root=ROOT, approved=None):
+    """Every row must match its live record and exact approval; stale rows fail."""
+    approved = load_content_exceptions() if approved is None else approved
+    errors, matched, counts = [], 0, {}
+    for row in approved.values():
+        path = row["file"]
         try:
             data = json.loads((root / path).read_text())
         except (OSError, ValueError) as error:
-            errors.append(f"{path}: stale single-origin approval ({error})")
+            errors.append(f"{path}: stale content exception ({error})")
             continue
-        problems = single_origin_row_errors(data, row)
+        problems = content_exception_errors(data, row)
         errors.extend(f"{path}: {problem}" for problem in problems)
         matched += not problems
-    print(f"Single-origin submission approvals: {matched}/{len(approved)} matched")
+        counts[row["kind"]] = counts.get(row["kind"], 0) + (not problems)
+    print(f"Reviewed content exceptions: {matched}/{len(approved)} matched ({counts})")
     return errors
 
 # Reference fields by category
@@ -1313,21 +1330,28 @@ def validate_json_file(json_path, schema, category, strict=False):
         msg = f"Invalid JSON: {e}"
         return [msg], [], {"blocking": [msg], "non_blocking": []}
 
-    # D-358: waive only this record's list floor, never the shared schema used by
-    # the weekly proofreader. A stale or malformed listed row is itself blocking.
-    if category == "Submissions":
+    # D-358/D-362: waive only the named field, never the shared authoring schema.
+    # A stale row is blocking even if its record meets the ordinary schema floor.
+    if category in ("Submissions", "Positions"):
         try:
             relative = Path(json_path).resolve().relative_to(ROOT).as_posix()
         except ValueError:
             relative = ""
-        row = load_single_origin_submissions().get(relative)
-        if row is not None:
-            approval_errors = single_origin_row_errors(data, row)
-            errors.extend(approval_errors)
-            categories["blocking"].extend(approval_errors)
-        if accept_single_origin(data, row):
-            schema = copy.deepcopy(schema)
-            schema["properties"]["from_positions"]["minItems"] = 1
+        for row in load_content_exceptions().values():
+            if row["file"] != relative:
+                continue
+            if accept_content_exception(data, row):
+                schema = copy.deepcopy(schema)
+                if row["kind"] == "single_origin":
+                    schema["properties"]["from_positions"]["minItems"] = 1
+                else:
+                    tree = copy.deepcopy(schema["$defs"]["decision_tree"])
+                    tree["minItems"] = row["expected_count"]
+                    schema["properties"][row["role"]]["properties"]["decision_tree"] = tree
+            else:
+                approval_errors = content_exception_errors(data, row)
+                errors.extend(approval_errors)
+                categories["blocking"].extend(approval_errors)
 
     # Validate against JSON Schema → blocking
     try:
@@ -1627,7 +1651,7 @@ Examples:
         parser.error("Must specify --file, --category with --all, or just --all")
 
     try:
-        approval_errors = validate_single_origin_approvals()
+        approval_errors = validate_content_exceptions()
     except (OSError, ValueError) as error:
         approval_errors = [str(error)]
     if approval_errors:

@@ -1,12 +1,12 @@
 {
   "summary": {
-    "transition_files": 1025,
-    "submission_files": 352,
+    "transition_files": 1019,
+    "submission_files": 350,
     "position_files": 132,
-    "total_issues": 449,
+    "total_issues": 440,
     "errors": 0,
-    "warnings": 54,
-    "info": 395,
+    "warnings": 46,
+    "info": 394,
     "orphaned_transitions": 0,
     "orphaned_submissions": 2,
     "missing_transitions": 0,
@@ -15,18 +15,18 @@
     "orphaned_positions": 0,
     "invalid_from_positions": 0,
     "outcome_errors": 0,
-    "outcome_warnings": 12,
-    "attempt_outliers": 346,
+    "outcome_warnings": 14,
+    "attempt_outliers": 344,
     "coherence_violations": 0,
     "successrate_incoherent": 0,
     "defender_not_complement": 0,
     "votes_schema_violations": 0,
-    "ruleset_frames_checked": 3157,
-    "ruleset_frames_absent": 1,
+    "ruleset_frames_checked": 3140,
+    "ruleset_frames_absent": 2,
     "attempt_frames_checked": 527,
     "attempt_frames_absent": 1,
-    "outcome_frames_checked": 2630,
-    "outcome_frames_absent": 0,
+    "outcome_frames_checked": 2613,
+    "outcome_frames_absent": 1,
     "values_in_no_ruleset": 0,
     "bare_null_rows": 0,
     "successrate_nodes_compared": 2630,
@@ -35,9 +35,9 @@
     "successrate_skipped_null_probability": 0,
     "complement_pairs_compared": 1315,
     "complement_skipped_null_rate": 0,
-    "votes_community_frames_checked": 3212,
-    "votes_prior_frames_checked": 682,
-    "votes_prior_frames_absent": 0
+    "votes_community_frames_checked": 3196,
+    "votes_prior_frames_checked": 713,
+    "votes_prior_frames_absent": 1
   },
   "issues": [
     {
@@ -322,7 +322,7 @@
       "severity": "info",
       "name": "Crackhead Control Bottom",
       "file": "content/Positions/Rubber Guard/Crackhead Control.json",
-      "message": "Crackhead Control Bottom: authored position_type 'Offensive' but its metrics score -0.090 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
+      "message": "Crackhead Control Bottom: authored position_type 'Offensive/Controlling' but its metrics score -0.040 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
     },
     {
       "type": "position_type_score_disagreement",
@@ -443,6 +443,15 @@
       "current": 14
     },
     {
+      "file": "content/Transitions/Sweep from Leg Weave.json",
+      "name": "Sweep from Leg Weave",
+      "role": "transition",
+      "ruleset": "nogi",
+      "type": "probability_frame_absent",
+      "message": "Sweep from Leg Weave [transition]: probability[nogi] frame ABSENT (all cells null) — sum check SKIPPED",
+      "severity": "info"
+    },
+    {
       "file": "content/Transitions/Takedown from Standing Guard.json",
       "name": "Takedown from Standing Guard",
       "type": "technique_range_low",
@@ -473,6 +482,22 @@
       "message": "Success[nogi] 7% below expected min 10% for pass",
       "severity": "warning",
       "current": 7
+    },
+    {
+      "file": "content/Submissions/Baratoplata/from Crackhead Control.json",
+      "name": "Baratoplata from Crackhead Control",
+      "type": "technique_range_low",
+      "message": "Success[gi] 25% below expected min 30% for submission",
+      "severity": "warning",
+      "current": 25
+    },
+    {
+      "file": "content/Submissions/Baratoplata/from Crackhead Control.json",
+      "name": "Baratoplata from Crackhead Control",
+      "type": "technique_range_low",
+      "message": "Success[nogi] 25% below expected min 30% for submission",
+      "severity": "warning",
+      "current": 25
     },
     {
       "file": "content/Submissions/Ezekiel Choke/from Closed Guard.json",
@@ -572,16 +597,6 @@
       "message": "top[nogi]: 'Estima Lock from Honey Hole' has only 2% attempt probability",
       "severity": "info",
       "transition": "Estima Lock from Honey Hole",
-      "current": 2
-    },
-    {
-      "file": "content/Positions/Ashi Garami/Honey Hole.json",
-      "position": "Honey Hole",
-      "role": "bottom[gi]",
-      "type": "attempt_negligible",
-      "message": "bottom[gi]: 'Counter heel hook' has only 2% attempt probability",
-      "severity": "info",
-      "transition": "Counter heel hook",
       "current": 2
     },
     {
@@ -692,26 +707,6 @@
       "message": "top[nogi]: 'Back Control to Crucifix' has only 2% attempt probability",
       "severity": "info",
       "transition": "Back Control to Crucifix",
-      "current": 2
-    },
-    {
-      "file": "content/Positions/Back Control/Body Triangle.json",
-      "position": "Body Triangle",
-      "role": "top[gi]",
-      "type": "attempt_negligible",
-      "message": "top[gi]: 'Roll to Truck' has only 2% attempt probability",
-      "severity": "info",
-      "transition": "Roll to Truck",
-      "current": 2
-    },
-    {
-      "file": "content/Positions/Back Control/Seat Belt Control Back.json",
-      "position": "Seat Belt Control Back",
-      "role": "top[gi]",
-      "type": "attempt_negligible",
-      "message": "top[gi]: 'Roll to Truck' has only 2% attempt probability",
-      "severity": "info",
-      "transition": "Roll to Truck",
       "current": 2
     },
     {
@@ -1625,6 +1620,46 @@
       "current": 2
     },
     {
+      "file": "content/Positions/Dead Orchard Control.json",
+      "position": "Dead Orchard Control",
+      "role": "top[gi]",
+      "type": "attempt_dominant",
+      "message": "top[gi]: 'Escape Dead Orchard Control' dominates with 100% attempt probability",
+      "severity": "info",
+      "transition": "Escape Dead Orchard Control",
+      "current": 100
+    },
+    {
+      "file": "content/Positions/Dead Orchard Control.json",
+      "position": "Dead Orchard Control",
+      "role": "top[nogi]",
+      "type": "attempt_dominant",
+      "message": "top[nogi]: 'Escape Dead Orchard Control' dominates with 100% attempt probability",
+      "severity": "info",
+      "transition": "Escape Dead Orchard Control",
+      "current": 100
+    },
+    {
+      "file": "content/Positions/Dead Orchard Control.json",
+      "position": "Dead Orchard Control",
+      "role": "bottom[gi]",
+      "type": "attempt_dominant",
+      "message": "bottom[gi]: 'Armbar from Dead Orchard Control' dominates with 70% attempt probability",
+      "severity": "info",
+      "transition": "Armbar from Dead Orchard Control",
+      "current": 70
+    },
+    {
+      "file": "content/Positions/Dead Orchard Control.json",
+      "position": "Dead Orchard Control",
+      "role": "bottom[nogi]",
+      "type": "attempt_dominant",
+      "message": "bottom[nogi]: 'Armbar from Dead Orchard Control' dominates with 70% attempt probability",
+      "severity": "info",
+      "transition": "Armbar from Dead Orchard Control",
+      "current": 70
+    },
+    {
       "file": "content/Positions/Double Sleeve Guard.json",
       "position": "Double Sleeve Guard",
       "role": "bottom[nogi]",
@@ -2097,26 +2132,6 @@
     {
       "file": "content/Positions/Half Guard.json",
       "position": "Half Guard",
-      "role": "top[gi]",
-      "type": "attempt_negligible",
-      "message": "top[gi]: 'Suloev Stretch from Half Guard' has only 1% attempt probability",
-      "severity": "info",
-      "transition": "Suloev Stretch from Half Guard",
-      "current": 1
-    },
-    {
-      "file": "content/Positions/Half Guard.json",
-      "position": "Half Guard",
-      "role": "top[nogi]",
-      "type": "attempt_negligible",
-      "message": "top[nogi]: 'Suloev Stretch from Half Guard' has only 2% attempt probability",
-      "severity": "info",
-      "transition": "Suloev Stretch from Half Guard",
-      "current": 2
-    },
-    {
-      "file": "content/Positions/Half Guard.json",
-      "position": "Half Guard",
       "role": "top[nogi]",
       "type": "attempt_negligible",
       "message": "top[nogi]: 'Half Guard to Leg Weave' has only 2% attempt probability",
@@ -2327,26 +2342,6 @@
     {
       "file": "content/Positions/Inverted Guard.json",
       "position": "Inverted Guard",
-      "role": "top[gi]",
-      "type": "attempt_negligible",
-      "message": "top[gi]: 'Toreando from Inverted' has only 2% attempt probability",
-      "severity": "info",
-      "transition": "Toreando from Inverted",
-      "current": 2
-    },
-    {
-      "file": "content/Positions/Inverted Guard.json",
-      "position": "Inverted Guard",
-      "role": "top[nogi]",
-      "type": "attempt_negligible",
-      "message": "top[nogi]: 'Toreando from Inverted' has only 2% attempt probability",
-      "severity": "info",
-      "transition": "Toreando from Inverted",
-      "current": 2
-    },
-    {
-      "file": "content/Positions/Inverted Guard.json",
-      "position": "Inverted Guard",
       "role": "top[nogi]",
       "type": "attempt_negligible",
       "message": "top[nogi]: 'Step Over to Mount' has only 2% attempt probability",
@@ -2392,16 +2387,6 @@
       "message": "bottom[nogi]: 'Omoplata from Inverted Guard' has only 2% attempt probability",
       "severity": "info",
       "transition": "Omoplata from Inverted Guard",
-      "current": 2
-    },
-    {
-      "file": "content/Positions/Inverted Guard.json",
-      "position": "Inverted Guard",
-      "role": "bottom[nogi]",
-      "type": "attempt_negligible",
-      "message": "bottom[nogi]: 'Technical Stand-up' has only 2% attempt probability",
-      "severity": "info",
-      "transition": "Technical Stand-up",
       "current": 2
     },
     {
@@ -2523,6 +2508,26 @@
       "severity": "info",
       "transition": "Inside Heel Hook from Ushiro",
       "current": 1
+    },
+    {
+      "file": "content/Positions/Leg Weave.json",
+      "position": "Leg Weave",
+      "role": "top[gi]",
+      "type": "attempt_dominant",
+      "message": "top[gi]: 'Complete Leg Weave Pass' dominates with 95% attempt probability",
+      "severity": "info",
+      "transition": "Complete Leg Weave Pass",
+      "current": 95
+    },
+    {
+      "file": "content/Positions/Leg Weave.json",
+      "position": "Leg Weave",
+      "role": "top[nogi]",
+      "type": "attempt_dominant",
+      "message": "top[nogi]: 'Complete Leg Weave Pass' dominates with 95% attempt probability",
+      "severity": "info",
+      "transition": "Complete Leg Weave Pass",
+      "current": 95
     },
     {
       "file": "content/Positions/Matrix.json",
@@ -4233,106 +4238,6 @@
       "field": "defender.favorable_outcomes[1].outcome",
       "value": "Half Guard/Top",
       "message": "Lumberjack Sweep: defender.favorable_outcomes[1].outcome 'Half Guard/Top' not in outcomes"
-    },
-    {
-      "type": "targets_outcome_mismatch",
-      "severity": "warning",
-      "name": "Waiter Sweep",
-      "file": "content/Transitions/Waiter Sweep.json",
-      "category": "Transitions",
-      "field": "attacker.common_counters[0].targets_outcome",
-      "value": "Butterfly Guard/Bottom",
-      "message": "Waiter Sweep: attacker.common_counters[0].targets_outcome 'Butterfly Guard/Bottom' not in outcomes"
-    },
-    {
-      "type": "targets_outcome_mismatch",
-      "severity": "warning",
-      "name": "Waiter Sweep",
-      "file": "content/Transitions/Waiter Sweep.json",
-      "category": "Transitions",
-      "field": "attacker.common_counters[1].targets_outcome",
-      "value": "Butterfly Guard/Bottom",
-      "message": "Waiter Sweep: attacker.common_counters[1].targets_outcome 'Butterfly Guard/Bottom' not in outcomes"
-    },
-    {
-      "type": "targets_outcome_mismatch",
-      "severity": "warning",
-      "name": "Waiter Sweep",
-      "file": "content/Transitions/Waiter Sweep.json",
-      "category": "Transitions",
-      "field": "attacker.common_counters[2].targets_outcome",
-      "value": "Butterfly Guard/Bottom",
-      "message": "Waiter Sweep: attacker.common_counters[2].targets_outcome 'Butterfly Guard/Bottom' not in outcomes"
-    },
-    {
-      "type": "targets_outcome_mismatch",
-      "severity": "warning",
-      "name": "Waiter Sweep",
-      "file": "content/Transitions/Waiter Sweep.json",
-      "category": "Transitions",
-      "field": "attacker.common_counters[3].targets_outcome",
-      "value": "Butterfly Guard/Top",
-      "message": "Waiter Sweep: attacker.common_counters[3].targets_outcome 'Butterfly Guard/Top' not in outcomes"
-    },
-    {
-      "type": "targets_outcome_mismatch",
-      "severity": "warning",
-      "name": "Waiter Sweep",
-      "file": "content/Transitions/Waiter Sweep.json",
-      "category": "Transitions",
-      "field": "defender.defensive_options[0].targets_outcome",
-      "value": "Butterfly Guard/Bottom",
-      "message": "Waiter Sweep: defender.defensive_options[0].targets_outcome 'Butterfly Guard/Bottom' not in outcomes"
-    },
-    {
-      "type": "targets_outcome_mismatch",
-      "severity": "warning",
-      "name": "Waiter Sweep",
-      "file": "content/Transitions/Waiter Sweep.json",
-      "category": "Transitions",
-      "field": "defender.defensive_options[1].targets_outcome",
-      "value": "Butterfly Guard/Bottom",
-      "message": "Waiter Sweep: defender.defensive_options[1].targets_outcome 'Butterfly Guard/Bottom' not in outcomes"
-    },
-    {
-      "type": "targets_outcome_mismatch",
-      "severity": "warning",
-      "name": "Waiter Sweep",
-      "file": "content/Transitions/Waiter Sweep.json",
-      "category": "Transitions",
-      "field": "defender.defensive_options[2].targets_outcome",
-      "value": "Butterfly Guard/Bottom",
-      "message": "Waiter Sweep: defender.defensive_options[2].targets_outcome 'Butterfly Guard/Bottom' not in outcomes"
-    },
-    {
-      "type": "targets_outcome_mismatch",
-      "severity": "warning",
-      "name": "Waiter Sweep",
-      "file": "content/Transitions/Waiter Sweep.json",
-      "category": "Transitions",
-      "field": "defender.defensive_options[3].targets_outcome",
-      "value": "Butterfly Guard/Top",
-      "message": "Waiter Sweep: defender.defensive_options[3].targets_outcome 'Butterfly Guard/Top' not in outcomes"
-    },
-    {
-      "type": "targets_outcome_mismatch",
-      "severity": "warning",
-      "name": "Waiter Sweep",
-      "file": "content/Transitions/Waiter Sweep.json",
-      "category": "Transitions",
-      "field": "defender.favorable_outcomes[0].outcome",
-      "value": "Butterfly Guard/Bottom",
-      "message": "Waiter Sweep: defender.favorable_outcomes[0].outcome 'Butterfly Guard/Bottom' not in outcomes"
-    },
-    {
-      "type": "targets_outcome_mismatch",
-      "severity": "warning",
-      "name": "Waiter Sweep",
-      "file": "content/Transitions/Waiter Sweep.json",
-      "category": "Transitions",
-      "field": "defender.favorable_outcomes[1].outcome",
-      "value": "Butterfly Guard/Top",
-      "message": "Waiter Sweep: defender.favorable_outcomes[1].outcome 'Butterfly Guard/Top' not in outcomes"
     },
     {
       "type": "targets_outcome_mismatch",

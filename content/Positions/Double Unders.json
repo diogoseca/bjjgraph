@@ -378,29 +378,36 @@
       {
         "transition": "Double Under Pass",
         "attempt_probability": {
-          "gi": 28,
-          "nogi": 28
+          "gi": 26,
+          "nogi": 26
         }
       },
       {
         "transition": "Leg Weave Pass",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 10
+          "gi": 10,
+          "nogi": 9
+        }
+      },
+      {
+        "transition": "Back Take",
+        "attempt_probability": {
+          "gi": 7,
+          "nogi": 7
         }
       },
       {
         "transition": "Over-Under Pass",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 11
+          "gi": 9,
+          "nogi": 10
         }
       },
       {
         "transition": "Body Lock Pass",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 13
+          "gi": 9,
+          "nogi": 12
         },
         "deal_here": true,
         "success_rate": {
@@ -445,8 +452,8 @@
       {
         "transition": "Knee Slice Pass",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 9
+          "gi": 9,
+          "nogi": 8
         }
       },
       {
@@ -459,8 +466,8 @@
       {
         "transition": "Stack Pass from Double Unders",
         "attempt_probability": {
-          "gi": 18,
-          "nogi": 17
+          "gi": 17,
+          "nogi": 16
         }
       },
       {
