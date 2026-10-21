@@ -546,6 +546,11 @@
       "file": "e2e/journeys/outcome-on-cards.spec.ts",
       "test": "300 with the hand put away, the cause falls back to the landing card's measured top (1440, 390)",
       "change": "STALE TIMING (H61: 3 of 10 red on D-351's bytes, no pin involved; probe H62): putting the hand away moves the card up 140px on the reader's next layout frame, which a pumped advance does not always include, so the card's top was sometimes measured before it moved and the cause, anchored after, landed 140px above it. The journey waits for readerLayoutSettled() before measuring; the anchor claim and its bounds are unchanged."
+    },
+    {
+      "file": "e2e/gen/holder-defense-window-fresh-refund-budget.spec.ts + e2e/gen/ready-test-expiry-autopick-burns-move.spec.ts",
+      "test": "42 attack window spent by expiry: the defense window armed in full; 50 frozen belt-test hand: the question's window is armed",
+      "change": "STALE TIMING (D-351, CI 931a7eea0: both red, not in the ledger): each read the decision clock straight after its card was built, but a reading-view card now publishes once its article renders and its parked clock arms on the next frame, which the pumped harness takes only when asked. Each waits for landSettled() and pumps one frame before reading; the claims (armed in full; armed and not drained) are unchanged. 2 of 2 each (H65)."
     }
   ]
 }
