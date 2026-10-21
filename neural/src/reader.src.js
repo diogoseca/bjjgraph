@@ -562,6 +562,9 @@ class Reader {
   }
   partEl(part) { return part === "card" ? this.app._landEl : part === "hand" ? this.app.optionsRef.current : null; }
   toggleSection(type, shown = !sectionShown(this.app, type)) {
+    // D-354 N2: reopening Videos is the player's own input, so it settles a pinned landing as a grade
+    // does; while pinned, the home the close hid stayed hidden (D-352's sticky rule) until the parts settled.
+    if (shown && type === "videos") this.app._readerGraded();
     this.readingInteraction();
     this.app.set("readerSection." + type, shown);
     this.sync();

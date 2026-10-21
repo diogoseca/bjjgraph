@@ -2331,6 +2331,11 @@ class Component extends DCLogic {
   expandClip(card, clip) {
     if (!card || !clip) return;
     if (card._expanded) return;
+    // D-354 N1: a play settles a pinned landing (the reader's wrapper, D-353) while its film still sits in
+    // the media home, so Videos lifted with an empty slot under the playing film until the next sync. In
+    // the article view with Videos open, the reader places the film in its slot first, before a player exists.
+    const r = this._reader, film = this._landFilmEl;
+    if (r?.wantsMedia() && film?.contains(card) && film.parentElement === r.mediaHome && this.get("readerSection.videos", true) !== false) r.syncMedia();
     if (this._expandedClip && this._expandedClip !== card) this.collapseClip(this._expandedClip);
     card._expanded = true; card._mediaPaused = false; card._mediaStale = false; card._mediaClip = clip; this._expandedClip = card;
     const generation = card._mediaGeneration = (card._mediaGeneration || 0) + 1;
@@ -13127,6 +13132,10 @@ class Component extends DCLogic {
       this._syncEdgeFade(op);
     }
     this._layoutLandHorizontal();
+    // D-354: parts the reader adopted follow the pane in this same frame, as the app's own do above.
+    // Left to the reader's next frame, a click measured just after the pane opened landed on the moved
+    // card (its next arrow's point became an answer: pane-keyboard:103, 10 of 75 isolated runs red).
+    if (this.uiShift !== previous) this._reader?.layoutNow();
     // fade the legend out only while option cards actually overlap it; fade back in otherwise
     const leg = this.legendRef.current;
     if (leg && op) {
@@ -14709,7 +14718,9 @@ class Component extends DCLogic {
     }
   }
   _clearLandFilm() {
-    if (this._landFilmEl) { this.clearClipLoops(); if (this._landFilmEl._ngRO) this._landFilmEl._ngRO.disconnect(); try { this._landFilmEl.remove(); } catch (e) {} this._landFilmEl = null; }
+    // D-354 N3: the film's only remover also ends the reader's media-home observation (D-353), which
+    // otherwise held every replaced film until the reader was destroyed.
+    if (this._landFilmEl) { this.clearClipLoops(); if (this._landFilmEl._ngRO) this._landFilmEl._ngRO.disconnect(); this._reader?.resize.unobserve(this._landFilmEl); try { this._landFilmEl.remove(); } catch (e) {} this._landFilmEl = null; }
   }
   /** Full card-slot teardown; a same-question repaint preserves its scroll offset. */
   clearLandCard(preserveScroll, preserveMedia) {
@@ -15502,11 +15513,17 @@ class Component extends DCLogic {
         else { q.pub = true; this._readerPin = { q, W, H }; hold = -1; }
       }
     }
+    const held = !!this.optionsRef.current?.hasAttribute("data-reader-pending");
     for (const el of [this.optionsRef.current, this._landStackEl, this._landNavEl, this._handCloseEl]) el?.toggleAttribute("data-reader-pending", hold > 0);
+    // D-354: the game-value activation refuses a hidden hand (_gameValuePlayable), and a pending hand is
+    // hidden, so an activation that came while the hold kept it pending went idle with nothing to retry it:
+    // the Win chance never started. Publication starts it (idempotent once loading, loaded or failed).
+    if (held && hold <= 0) this._ensureGameValues();
     return hold;
   }
   /** D-351: a graded card (answered or expired) settles a pinned landing. A correct defense answer
-   *  mounts the next question at once, so the pin keeps the EVENT, not the current card's state. */
+   *  mounts the next question at once, so the pin keeps the EVENT, not the current card's state.
+   *  D-354 N2: the player reopening Videos settles it too (`toggleSection`), as their own input. */
   _readerGraded() { if (this._readerPin) { this._readerPin.graded = true; this._reader?.layout(); } }
   _readArticle(path, intent = true, push = true) {
     if (!path) return;
