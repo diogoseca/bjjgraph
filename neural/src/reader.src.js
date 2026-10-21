@@ -64,11 +64,14 @@ const SECTION_ORDER = ["videos", "overview", "principles", "recognition", "setup
 // light label (its glyph above its name, no box). Both faces live in the one toggle and CSS
 // shows the face that matches [data-collapsed]: replacing a child between pointerdown and
 // click would detach the mouse target and lose its first activation.
-const GLYPHS = { videos: "▶", hand: "⋯", card: "?" };
+// U11 (owner, 2026-10-21): sections no longer have icons. A closed one reads as its greyed name followed by
+// an eye with a slash, so people understand it is hidden.
+const EYE_OFF = '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M2 12s4-7 10-7 10 7 10 7-4 7-10 7-10-7-10-7zm7 0a3 3 0 1 0 6 0 3 3 0 1 0-6 0M3 3l18 18"/></svg>';
+function eyeOff() { const icon = element("span", { class: "ng-section-eye", "aria-hidden": "true" }); icon.innerHTML = EYE_OFF; return icon; }
 function faces(type, title) {
   const close = element("span", { class: "ng-section-x", "aria-hidden": "true" }, "✕");
   const label = element("span", { class: "ng-section-closed" });
-  label.append(element("span", { class: "ng-section-glyph", "aria-hidden": "true" }, GLYPHS[type] || "i"), element("span", {}, title));
+  label.append(element("span", {}, title), eyeOff());
   return [close, label];
 }
 
@@ -415,7 +418,10 @@ class Reader {
   render(title, record, path, context, hub) {
     this.place(this.mediaHome);
     this.referenceClips = [];
-    this.articleEl.replaceChildren(...(this.head.parentElement === this.articleEl ? [this.head] : []));
+    // U12 a (owner): the article's own ✕, the sections' ghost ✕, puts the article away (the plain map view).
+    this.bookClose ||= button("", () => this.toggle("book"), { "data-reader-close": "", "aria-label": "Put the article away", title: "Put the article away" });
+    if (!this.bookClose.firstChild) this.bookClose.append(element("span", { class: "ng-section-x", "aria-hidden": "true" }, "✕"));
+    this.articleEl.replaceChildren(this.bookClose, ...(this.head.parentElement === this.articleEl ? [this.head] : []));
     const tools = this.tools;
     this.heading.textContent = title;
     tools.querySelector("[data-reader-study]")?.remove();
@@ -471,7 +477,7 @@ class Reader {
       const row = element("div", { class: "ng-reader-toc-row", "data-toc-section": section.id, "data-toc-type": section.type });
       const link = element("a", { href: "#" + section.id, "data-section-link": section.id, "aria-label": "Go to " + section.title }, section.title);
       link.style.pointerEvents = "auto";
-      row.append(link); contents.append(row); section.row = row;
+      row.append(link, eyeOff()); contents.append(row); section.row = row;
     }
     this.articleEl.append(body);
     this.app.wrapRef.current.append(contents);
@@ -583,7 +589,8 @@ class Reader {
       if (s.toggle.getAttribute("aria-expanded") !== String(shown)) {
         s.toggle.setAttribute("aria-expanded", String(shown)); s.toggle.setAttribute("aria-label", (shown ? "Hide " : "Show ") + s.title);
       }
-      if (focused) s.toggle.focus({ preventScroll: true });
+      // U11: where the index shows, a closed section has no control in the content, so focus goes to its index row.
+      if (focused) (this.root.hasAttribute("data-indexed") && s.row?.querySelector("a") || s.toggle).focus({ preventScroll: true });
     }
   }
 
@@ -602,6 +609,12 @@ class Reader {
     if (link.dataset.sectionLink) {
       event.preventDefault(); this.readingInteraction();
       const section = [...this.gameSections, ...this.sections].find(s => s.id === link.dataset.sectionLink);
+      // U11 (owner): where the index shows, a closed section leaves no placeholder in the content, so its
+      // index row reopens it before going there.
+      if (section && this.root.hasAttribute("data-indexed") && !(section.part ? this.on(section.part) : sectionShown(this.app, section.type))) {
+        if (section.part) this.toggle(section.part); else this.toggleSection(section.type, true);
+        this.layoutNow();
+      }
       // An open game part is its own landmark; a closed one is its label. A section's
       // top edge leads, and focus goes to its one control.
       if (section?.part) this.scrollTo(this.on(section.part) && this.partEl(section.part) || section.toggle);
@@ -731,13 +744,14 @@ class Reader {
   wantsMedia() { return this.on("book"); }
   ownsMedia(host = this.app._landFilmEl) { return !!host && host.parentElement === this.mediaSlot; }
   placesMedia(host = this.app._landFilmEl) { return !!host && (host.parentElement === this.mediaSlot || host.parentElement === this.mediaHome); }
-  // Today's autoplay player needs an explicit way to resume after suspension.
-  // Keep this presentation deferred; pauseLandFilm remains the owner's API.
+  // A suspended player needs an explicit way to resume. Keep this presentation deferred; pauseLandFilm
+  // remains the owner's API. v1.230.0 (feat/video-cards): the player opens on its own controls and never
+  // autoplays, so the fresh player a fallback move rebinds starts only on this Resume (expandClip's flag).
   resumeFilm(card) {
     if (card.querySelector("[data-film-resume]")) return;
     const a = this.app;
     const play = button("Play", () => {
-      if (card._mediaStale) { const clip = card._mediaClip; a.collapseClip(card); a.expandClip(card, clip); }
+      if (card._mediaStale) { const clip = card._mediaClip; a.collapseClip(card); a.expandClip(card, clip, true); }
       else { card._mediaPaused = false; try { card._player?.playVideo(); } catch (error) {} play.remove(); }
     }, { class: "ng-film-resume", "data-film-resume": "", "aria-label": "Resume video" });
     card.append(play);
@@ -778,10 +792,13 @@ class Reader {
     }
     const correct = host && hit && (referencePath ? host.dataset.referenceFilm === referencePath : host._ngMediaIdx === hit.idx && host._ngMediaRole === mediaRole);
     if (referencePath && !wants) a.pauseLandFilm();
-    if (wants && correct && !a._readerPin) this.place(this.mediaSlot);
+    // D-368 (layout C, the video cards' approved A geometry): a game node's current card keeps the game's
+    // media home, beside the question on a desktop and above it on a phone, under the Videos section's own
+    // toggle. A reference page's film is reading and keeps its Videos slot.
+    if (wants && correct && !a._readerPin && referencePath) this.place(this.mediaSlot);
     else this.place(this.mediaHome);
     // Without a Videos section the film keeps the game home, still under that one preference.
-    if (host) host.hidden = wants ? !correct : this.wantsMedia() ? !sectionShown(a, "videos") : !a.get("landFilm", true);
+    if (host) host.hidden = wants ? !correct || !referencePath && !sectionShown(a, "videos") : this.wantsMedia() ? !sectionShown(a, "videos") : !a.get("landFilm", true);
     if (this.ownsMedia()) {
       host.hidden = false;
       if (!sectionShown(a, "videos")) a.pauseLandFilm();
@@ -812,6 +829,26 @@ class Reader {
     this.root.scrollTop = /Home|Up/.test(event.key) ? Math.min(top, to) : to;
     event.preventDefault();
     return true;
+  }
+  // U9 b (owner): the old site's table of contents. Each row's opacity follows how much of its part is in
+  // view (0.35 to 0.85), and the index scrolls to keep the most visible row in its middle when that changes.
+  syncIndex() {
+    const c = this.contents;
+    if (!c || c.hidden) return;
+    const view = this.root.getBoundingClientRect(), span = view.height || 1;
+    let best = null, most = 0;
+    for (const s of [...this.gameSections, ...this.sections]) {
+      if (!s.row) continue;
+      const parts = s.part ? [this.partEl(s.part), s.card] : [s.card, s.type === "videos" && this.media?.parentElement === this.mediaHome ? this.mediaHome : null];
+      let seen = 0;
+      for (const el of parts) {
+        const r = el?.isConnected && !el.hidden && el.getBoundingClientRect();
+        if (r?.height) seen = Math.max(seen, Math.max(0, Math.min(r.bottom, view.bottom) - Math.max(r.top, view.top)) / Math.min(r.height, span));
+      }
+      s.row.style.opacity = (.35 + .5 * seen).toFixed(2);
+      if (seen > most) { most = seen; best = s.row; }
+    }
+    if (best && best !== this.indexBest) { this.indexBest = best; c.scrollTop = best.offsetTop - c.clientHeight / 2 + best.clientHeight / 2; }
   }
   layout() {
     if (this.layoutFrame || this.app.__ngDestroyed) return;
@@ -942,23 +979,25 @@ class Reader {
       // Contents never participates in the column's width or centre calculation.
       style(this.articleEl, "width", Math.min(680, free.width - 24) + "px");
       style(this.articleEl, "margin-left", Math.max(12, free.center - parseFloat(this.articleEl.style.width) / 2) + "px");
-      const edge = a.accountRef?.current?.getBoundingClientRect(), inset = edge?.width ? Math.max(0, W - edge.right) : 24;
+      // U9 b (owner, 2026-10-21): the index sits on the LEFT, 24px inside the free area (the inset it had on the right).
+      const lead = free.left + 24;
       const tocWidth = this.contents ? parseFloat(getComputedStyle(this.contents).width) : 200;
-      const fits = W > 640 && H > 500 && W - inset - this.articleEl.getBoundingClientRect().right >= tocWidth + 12;
-      // Where the index fits, the Moves tray (which now sits beside its rows, D-338) ends 12px short
-      // of it and stays centred on the column. Decided by the fit, not by readiness, so a loading
-      // article never re-centres the hand.
-      const indexEdge = available && fits ? W - inset - tocWidth - 12 : null;
+      const fits = W > 640 && H > 500 && this.articleEl.getBoundingClientRect().left - lead >= tocWidth + 12;
+      // Where the index fits, the Moves tray (which sits beside its rows, D-338) starts 12px past it
+      // and stays centred on the column. Decided by the fit, not by readiness, so a loading article
+      // never re-centres the hand.
+      const indexEdge = available && fits ? lead + tocWidth + 12 : null;
       if (this.contents) {
         this.contents.hidden = !available || this.root.dataset.readerReady !== "true" || !fits;
-        for (const [key, value] of Object.entries({ right: inset + "px", top: top + "px", "max-height": Math.max(44, end - top) + "px" })) style(this.contents, key, value);
+        this.root.toggleAttribute("data-indexed", !this.contents.hidden);
+        for (const [key, value] of Object.entries({ left: lead + "px", right: "auto", top: top + "px", "max-height": Math.max(44, end - top) + "px" })) style(this.contents, key, value);
       }
       this.root.toggleAttribute("data-reference", reference);
       this.root.hidden = !available && reference;
       for (const s of this.gameSections) s.card.hidden = !available || reference || this.on(s.part);
       this.nodeBand = available && !reference ? a._readerBand(top) : null;
       const band = this.nodeBand?.height || 0;
-      if (reference) { this.restoreGame(); return; }
+      if (reference) { this.restoreGame(); this.syncIndex(); return; }
       const card = a._landEl, row = a.optionsRef.current, showCard = card && this.on("card"), showHand = row && a._handShown();
       // D-351: _readerHold keeps a landing's card and hand unpublished until the article it asked
       // for renders (800ms at most). Parts the ceiling publishes are pinned (_readerPin), and the
@@ -1025,17 +1064,12 @@ class Reader {
       if (inlineHead) position(inlineHead, free.center - width / 2, band + (chrome?.offset || 0), width);
       const headHeight = available && inlineHead ? inlineHead.getBoundingClientRect().height + 6 : 0;
       if (this.mediaHome.hidden !== !homeMedia) this.mediaHome.hidden = !homeMedia;
-      // D-338: the Videos section leads the article view, so the reader lifts it into this
-      // flow above the hand. It leaves with the article; a new article removes it in render.
-      const video = !reference && !pin && this.sections.find(s => s.type === "videos")?.card;
-      if (video) {
-        if (available && video.parentElement !== this.game) { this.mediaHome.after(video); this.videoCard = video; this.resize.observe(video); }
-        if (video.hidden !== !available) video.hidden = !available;
-      }
+      // D-368 (layout C): the Videos section is no longer lifted above the hand. Its current card sits in the
+      // game's stage (above), and its credits read with the article; its toggle still governs the card.
       const deck = !!card?.classList.contains("ng-land-deck");
       // Keep the deck's 44px outside arrows plus 8px clearance. The left arrow
       // lives in the 60px media gap; the right arrow also fits inside the pane.
-      const beside = !available && homeMedia && showCard && free.width >= 400 + 60 + 390 + 52 && H > 500;
+      const beside = homeMedia && showCard && free.width >= 400 + 60 + 390 + 52 && H > 500;
       const mediaLayout = homeMedia ? beside ? "side-by-side" : "stacked" : "none";
       if (this.game.dataset.mediaLayout !== mediaLayout) this.game.dataset.mediaLayout = mediaLayout;
       if (card) style(card, "width", Math.min(beside ? 390 : deck ? 560 : 520, free.width - (deck && !beside ? 104 : 32)) + "px", "important");
@@ -1046,6 +1080,9 @@ class Reader {
       // D-353: a film in the media home is observed like the Videos card, so its growth (a played
       // clip opens over frames) relays out the rows below it instead of covering them.
       if (homeMedia) this.resize.observe(this.media);
+      // D-368: the film stays home under C, so place() never docks it again; its reel's edge arrows are
+      // re-read here, after the home's width changes, or a stale data-off leaves Next dead to the mouse.
+      if (homeMedia) a._syncFilmEdges?.();
       const mediaHeight = homeMedia ? filmHeight() : 0;
       const cardHeight = showCard ? card.getBoundingClientRect().height : 0, handHeight = showHand ? row.getBoundingClientRect().height : 0;
       const handoff = a._executionDock()?.reader;
@@ -1056,24 +1093,51 @@ class Reader {
         // handoff keeps the hand's clicked rectangle, and the card below it stays put too.
         const left = free.center - width / 2, step = deck ? 16 : a.isMobile() ? 8 : 12;
         const label = part => this.gameSections.find(s => s.part === part).card;
-        let y = band + headHeight + (chrome?.offset || 0);
-        if (homeMedia) { position(this.mediaHome, free.center - mediaWidth / 2, y, mediaWidth); y += mediaHeight + step; }
-        if (video) { position(video, left, y, width); y += video.getBoundingClientRect().height + step; }
-        if (pin) y = pin.rowTop || (pin.rowTop = y);
-        const rowTop = handoff?.rowTop ?? y;
-        // Symmetric about the column's centre, so no move or ✕ hides under an index link. An open
-        // pane keeps the row's own left inset (the app pads it by the pane), so only the right is cut.
-        const rowLeft = indexEdge && !a.deckShown ? W - indexEdge : 0;
-        if (row) position(row, rowLeft, rowTop, indexEdge ? indexEdge - rowLeft : W);
-        if (!label("hand").hidden) { position(label("hand"), left, y, width); y += label("hand").getBoundingClientRect().height + step; }
-        else y = rowTop + (handoff?.rowHeight ?? handHeight) + step;
-        if (pin) y = pin.cardY || (pin.cardY = y);
-        cardY = y;
-        if (card) position(card, cardX, cardY);
-        // The deck's backs peek 3px per remaining card below the face; the article clears them.
-        if (showCard) y += cardHeight + 3 * (a._landStackEl?.childElementCount || 0);
-        else if (!label("card").hidden) { position(label("card"), left, y, width); y += label("card").getBoundingClientRect().height; }
-        gameHeight = Math.max(handoff?.height ?? 0, y);
+        // D-368: Moves follow the node band at the parts' own step (it used to sit under the lifted Videos
+        // card): a zoomed roll-start pair reaches the band's edge, so 6px left camera-continuity no 2px clearance.
+        let y = band + Math.max(headHeight, step) + (chrome?.offset || 0);
+        // Symmetric about the column's centre, so no move or ✕ hides under an index link. The app pads
+        // the row by the pane (free.left), so its box starts that much before the index's edge.
+        const rowLeft = indexEdge ? indexEdge - free.left : 0;
+        const placeHand = () => {
+          if (pin) y = pin.rowTop || (pin.rowTop = y);
+          const rowTop = handoff?.rowTop ?? y;
+          if (row) position(row, rowLeft, rowTop, indexEdge ? W + 2 * free.left - 2 * indexEdge : W);
+          if (!label("hand").hidden) { position(label("hand"), left, y, width); y += label("hand").getBoundingClientRect().height + step; }
+          else y = rowTop + (handoff?.rowHeight ?? handHeight) + step;
+        };
+        // D-369 (orchestrator): in a PHONE catch the question goes directly under the node band, then the escape
+        // tray, then the rest. A real phone shows less than 390x844 (about 390x664 in Safari with its bars), and
+        // the U7 order cannot keep the escape answers on it. A catch is a LIVE one (_defensePressure: a calm
+        // defender landing keeps the U7 order); it ends in the escape's travel, with the result transition, so
+        // nothing moves under the finger at the tap (D-325).
+        const caught = a._landMode === "defense" && !!a._defensePressure;
+        if (showCard && a.isMobile() && caught) {
+          if (pin) y = pin.cardY || (pin.cardY = y);
+          cardY = y;
+          if (card) position(card, cardX, cardY);
+          y += cardHeight + 3 * (a._landStackEl?.childElementCount || 0) + step;
+          placeHand();
+          if (homeMedia) { position(this.mediaHome, free.center - mediaWidth / 2, y, mediaWidth); y += mediaHeight; }
+          gameHeight = Math.max(handoff?.height ?? 0, y);
+        } else {
+          placeHand();
+          // D-368 (layout C): the stage after Moves. On a desktop the current card sits 60px beside the
+          // question (400 + 60 + 390, the approved A geometry), tops aligned so the question stays high; stacked
+          // it sits above the question, except in a catch, where it follows the answers so they stay on screen.
+          const follows = homeMedia && !beside && showCard && caught;
+          if (homeMedia && !beside && !follows) { position(this.mediaHome, free.center - mediaWidth / 2, y, mediaWidth); y += mediaHeight + 12; }
+          if (pin) y = pin.cardY || (pin.cardY = y);
+          cardY = y;
+          if (beside) { const groupLeft = free.center - (mediaWidth + 60 + cardWidth + 52) / 2; position(this.mediaHome, groupLeft, cardY, mediaWidth); cardX = groupLeft + mediaWidth + 60; }
+          if (card) position(card, cardX, cardY);
+          // The deck's backs peek 3px per remaining card below the face; the article clears them.
+          if (showCard) y += (beside ? Math.max(cardHeight, mediaHeight) : cardHeight) + 3 * (a._landStackEl?.childElementCount || 0);
+          else if (!label("card").hidden) { position(label("card"), left, y, width); y += label("card").getBoundingClientRect().height; }
+          if (follows) { y += step; position(this.mediaHome, free.center - mediaWidth / 2, y, mediaWidth); y += mediaHeight; }
+          else if (homeMedia && !showCard) { position(this.mediaHome, free.center - mediaWidth / 2, y + step, mediaWidth); y += step + mediaHeight; }
+          gameHeight = Math.max(handoff?.height ?? 0, y);
+        }
       } else {
         const stageHeight = beside ? Math.max(cardHeight, mediaHeight) : cardHeight + mediaHeight + (homeMedia && showCard ? 12 : 0);
         start = Math.max(6, Math.min(start, end - top - stageHeight - gap - handHeight));
@@ -1103,6 +1167,7 @@ class Reader {
       // outside arrows have a final rectangle. Keyboard/clock ask the same flag.
       if (hold <= 0) card?.removeAttribute("data-reader-pending");
       for (const [el] of this.gameHomes) if (!el.isConnected) { this.resize.unobserve(el); this.gameHomes.delete(el); }
+      this.syncIndex();
     } finally {
       if (this.placeTop > this.root.scrollTop) this.root.scrollTop = this.placeTop;
       this.laying = false;

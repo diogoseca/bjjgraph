@@ -17,7 +17,7 @@
 .ng-reader-game { position:relative;pointer-events:none;overflow-x:clip; }
 .ng-reader-game>:is([data-reader-game-part=card],[data-reader-game-part=hand],.ng-section-card,.ng-reader-closed-part) { pointer-events:auto; }
 .ng-reader-game>[data-reader-game-part=card] { touch-action:pan-y; }
-.ng-reader-article { pointer-events:auto;color:#d6def0;font:16px/1.65 "Plus Jakarta Sans",sans-serif;padding-bottom:30px; }
+.ng-reader-article { position:relative;pointer-events:auto;color:#d6def0;font:16px/1.65 "Plus Jakarta Sans",sans-serif;padding-bottom:30px; }
 .ng-reader-head { box-sizing:border-box;position:relative;pointer-events:auto;display:flex;flex-wrap:wrap;justify-content:flex-end;gap:6px;margin:0 0 6px;z-index:7;background:#1b2034;border:1px solid #414c68;border-radius:10px;padding:4px 8px; }
 .ng-reader>.ng-reader-head { position:absolute; }
 .ng-reader-head[data-bare] { margin:0;padding:0;border:0;background:none; }
@@ -33,18 +33,26 @@
    is a light label instead, its glyph above its name: no box, no outline, centred. */
 .ng-section-card>h2 { display:flex;align-items:center;gap:12px;box-sizing:border-box;min-height:56px;margin:0;padding:6px 6px 6px var(--reader-unit);color:#f0f3fa;font:600 21px/1.4 "Space Grotesk",sans-serif; }
 .ng-section-title { flex:1;min-width:0; }
-.ng-reader :is([data-section-toggle],[data-game-open]) { flex:none;display:grid;place-items:center;width:44px;height:44px;min-height:44px;margin:0;padding:0;border:0;border-radius:7px;background:none;box-shadow:none;color:#8b97b0;font:12px/1 "Plus Jakarta Sans",sans-serif;text-align:center;cursor:pointer; }
+.ng-reader :is([data-section-toggle],[data-game-open],[data-reader-close]) { flex:none;display:grid;place-items:center;width:44px;height:44px;min-height:44px;margin:0;padding:0;border:0;border-radius:7px;background:none;box-shadow:none;color:#8b97b0;font:12px/1 "Plus Jakarta Sans",sans-serif;text-align:center;cursor:pointer; }
 .ng-section-x { display:grid;place-items:center;width:24px;height:24px;border-radius:7px;transition:color .15s,background .15s; }
 .ng-reader [data-section-toggle]:hover .ng-section-x { color:#dbe2f0;background:#ffffff14; }
 .ng-section-closed { display:none; }
 .ng-reader [data-collapsed=true] .ng-section-x { display:none; }
-.ng-reader [data-collapsed=true] .ng-section-closed { display:flex;flex-direction:column;align-items:center;gap:3px; }
+.ng-reader [data-collapsed=true] .ng-section-closed { display:flex;align-items:center;gap:6px; }
 .ng-section-card[data-collapsed=true] { background:none;border-color:transparent; }
 .ng-section-card[data-collapsed=true]>h2 { justify-content:center;padding:0; }
 .ng-section-card[data-collapsed=true] .ng-section-title { display:none; }
-.ng-reader :is(.ng-section-card[data-collapsed=true] [data-section-toggle],.ng-reader-closed-part [data-game-open]) { width:100%;height:auto;min-height:56px;padding:6px 12px;color:#a8b0c2;font:600 13px/1.3 "Space Grotesk",sans-serif; }
+.ng-reader :is(.ng-section-card[data-collapsed=true] [data-section-toggle],.ng-reader-closed-part [data-game-open]) { width:100%;height:auto;min-height:44px;padding:0 12px;color:#a8b0c2;font:600 13px/1.3 "Space Grotesk",sans-serif; }
 .ng-reader :is(.ng-section-card[data-collapsed=true] [data-section-toggle],.ng-reader-closed-part [data-game-open]):hover { color:#dbe2f0; }
-.ng-section-glyph { font-size:18px;line-height:1;color:#6b7691; }
+/* U11 (owner): no section icons. A closed section is one compact line, its greyed name and then an eye with
+   a slash; where the index shows (data-indexed), it leaves no placeholder at all and the index carries it. */
+.ng-section-eye { display:none;line-height:0; }
+.ng-reader .ng-section-closed .ng-section-eye,.ng-reader-toc-row[data-collapsed=true] .ng-section-eye { display:inline-block; }
+.ng-section-card[data-collapsed=true]>h2 { min-height:44px; }
+.ng-reader[data-indexed] :is(.ng-section-card[data-collapsed=true],.ng-reader-closed-part) { display:none!important; }
+/* U12 a (owner): the article's own ✕ on its top row puts the article away. */
+.ng-reader [data-reader-close] { margin:0 0 0 auto; }
+.ng-reader [data-reader-close]:hover .ng-section-x { color:#dbe2f0;background:#ffffff14; }
 .ng-section-body { padding:0 var(--reader-unit) var(--reader-unit); }
 .ng-section-body article { all:revert;display:block;font:inherit;color:inherit;overflow-wrap:break-word; }
 .ng-section-body article+article { margin-top:var(--reader-unit); }
@@ -78,7 +86,9 @@
 .ng-reader-toc[hidden] { display:none!important; }
 .ng-reader-toc h2 { margin:0 8px 6px;font:600 17px/1.4 "Space Grotesk",sans-serif;color:#f0f3fa; }
 .ng-reader-toc h2 small { font:inherit;font-weight:400;color:#b6c5df; }
-.ng-reader-toc-row { display:grid;align-items:center; }
+/* U9 b: each row's opacity follows how much of its part is in view (syncIndex, 0.35 to 0.85). */
+.ng-reader-toc-row { display:flex;align-items:center;gap:2px;transition:opacity .3s ease; }
+.ng-reader-toc-row .ng-section-eye { color:#8b97b0; }
 .ng-reader-toc-row a { min-height:44px;display:flex;align-items:center;box-sizing:border-box;padding:8px;color:inherit!important;transition:none;overflow-wrap:anywhere;text-decoration:none; }
 .ng-reader-toc-row a:hover { text-decoration:underline;text-underline-offset:3px; }
 .ng-reader-toc-row[data-collapsed=true] a:hover { color:inherit!important; }
@@ -94,7 +104,7 @@
 .ng-reader-shelf[hidden] { display:none!important; }
 .ng-reader-no-map>canvas,.ng-reader-no-map .ng-legendkey,.ng-reader-no-map [data-seat-star],.ng-reader-no-map [data-reader-map],.ng-reader-no-feedback :is(.ng-evtoast,.ng-winbar,.ng-challenge-reward,.ng-combo-pop,.ng-momentum,.ng-vignette,.ng-tut,[data-reader-feedback]) { visibility:hidden!important; }
 @media(max-width:640px) { .ng-reader { --reader-unit:14px; } .ng-reader-shelf button { width:48px; } }
-@media(prefers-reduced-motion:reduce) { .ng-reader,.ng-reader-article * { scroll-behavior:auto!important;animation:none!important;transition:none!important; } }
+@media(prefers-reduced-motion:reduce) { .ng-reader,.ng-reader-article *,.ng-reader-toc-row { scroll-behavior:auto!important;animation:none!important;transition:none!important; } }
 .ng-section-body .ng-section-provenance { color:#b6c5df;font-size:12px;margin:0 0 8px; }
 .ng-section-body .film-clip>p:empty { display:none; }
 

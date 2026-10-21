@@ -2252,11 +2252,8 @@ class Component extends DCLogic {
   }
   expandClip(card, clip, resume = false) {
     if (!card || !clip || card._expanded) return;
-    // D-354 N1: a play settles a pinned landing (the reader's wrapper, D-353) while its film still sits in
-    // the media home, so Videos lifted with an empty slot under the playing film until the next sync. In
-    // the article view with Videos open, the reader places the film in its slot first, before a player exists.
-    const r = this._reader, film = this._landFilmEl;
-    if (r?.wantsMedia() && film?.contains(card) && film.parentElement === r.mediaHome && this.get("readerSection.videos", true) !== false) r.syncMedia();
+    // D-354 N1's slot placement is retired with the Videos lift (D-368, layout C): a game film stays in the
+    // game's media home, so a play never leaves an empty Videos slot to fill.
     if (this._expandedClip && this._expandedClip !== card) this.collapseClip(this._expandedClip);
     if (card.closest(".ng-landfilm,.ng-choice-viewer")) this._choiceLearn();
     card._expanded = true; card._mediaPaused = false; card._mediaStale = false; card._mediaClip = clip;
@@ -18684,7 +18681,10 @@ class Component extends DCLogic {
       // The reader's node band is reserved and rollCamTarget already centres the pair in it, so
       // no row can mount there to lift clear of. Lifting against its edge held the node 10px above
       // centre until a pane toggle reset the lift (pane-layout:82, CI 48be3a910): two rest framings.
-      if (!R.band) ctx.lift = { f: this.camFocus, n: this.nodes[this.focusIdx], top: this.paused ? R.top : 16, bottom: R.bottom };
+      // D-368 (layout C): Moves now sit one step under the band, so a flight INTO it (a URL arrival flies the
+      // pair up from mid-screen) crossed the published hand by up to 35px at 1440. While a flight runs the
+      // band's edge holds the pair softly; at rest the reserved band alone frames it, as above.
+      if (!R.band || this._cm?.flight) ctx.lift = { f: this.camFocus, n: this.nodes[this.focusIdx], top: this.paused ? R.top : 16, bottom: R.bottom };
     }
     this._camStep(dt, ctx);
   }
