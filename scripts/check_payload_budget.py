@@ -216,9 +216,10 @@ NEURAL_TARGET = {
     # D-352 (inside D-351's allowance of 506_799): exact measurement after D-318, D-322, D-326, the
     # CI round (_LY guard, D-329), D-331, D-338's article view (Videos, Moves, Questions; one close
     # icon; no Focus/Browse/eyes; the reader's place kept through the pane's clamp), D-347's reader
-    # fixes, D-351's hold (the reader reads the app's hold and pin) and D-352's (ready means laid
-    # out; the pinned media home keeps its film and height), no headroom. Videos returns it to 500_000.
-    "deferred_raw_bytes": 506_636,
+    # fixes, D-351's hold (the reader reads the app's hold and pin), D-352's (ready means laid out;
+    # the pinned media home keeps its film and height) and D-353's (a play settles the pin; a film in
+    # the media home is observed), no headroom. Videos returns it to 500_000.
+    "deferred_raw_bytes": 506_734,
 }
 
 # Metric names under budget["neural"] that MOVED to the policy file. A ceiling left behind for one
