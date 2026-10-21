@@ -260,7 +260,7 @@ Side Control (also known as side mount or cross-side) is one of the most fundame
 
 - **[[Submissions/Loop Choke/from Side Control/Attacker|Loop Choke from Side Control]]** (1% of attempts)
 
-- **[[Submissions/Marce Choke/from Side Control/Attacker|Marce Choke from Side Control]]** (1% of attempts)
+- **[[Submissions/Darce Choke/from Side Control/Attacker|Darce Choke from Side Control]]** (1% of attempts)
 
 - **[[Submissions/Mir Lock/from Side Control/Attacker|Mir Lock from Side Control]]** (1% of attempts)
 

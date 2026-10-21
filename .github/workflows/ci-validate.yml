@@ -41,6 +41,9 @@ on:
       # must run the job. `tests/*.test.mjs` alone left the helpers outside the filter.
       - "tests/*.mjs"
       - "tests/*.py"
+      # Published-source preservation reads the retirement archive and frozen URL inventory.
+      - "calibration/node_identity_retirements.json"
+      - "tests/artifacts/identity_redirect_sources.json"
       # tests/payload_policy.test.mjs reads BOTH of these and nothing else does. Same rule as the
       # lines below: a gate behind a filter that excludes its own subject never runs on the PR
       # that breaks it. Edit a band, or gut the case table, and this is the job that must fire.

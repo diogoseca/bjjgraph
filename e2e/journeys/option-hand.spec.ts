@@ -93,7 +93,7 @@ test("@curated every legal move is dealt — the hand IS the pool", async ({ pag
   const j = journey(page)
   await j.boot("/")
   const hands = await sweep(page)
-  expect(hands.length, "every distinct position seat was walked").toBe(242) // census:positionChoiceSeats
+  expect(hands.length, "every distinct position seat was walked").toBe(240) // census:positionChoiceSeats
 
   // v1.119.0 asked the weaker question — "did the cap erase a CATEGORY" — because a cap existed
   // and some truncation was accepted. With NG_HAND_CAP gone the invariant is the strongest one

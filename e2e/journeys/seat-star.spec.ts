@@ -6,6 +6,9 @@ import { journey } from "../dsl"
 // placement reads the canvas's published label rather than reconstructing its projection.
 // Mutation checks: a +12px vertical offset fails the placement journey; replacing saved
 // gold with the unsaved grey fails the save/remove journey (desktop, v1.182.0).
+// v1.229.0: suppressing Mount's star after panel close fails the final visibility
+// assertion even while Kimura's legitimate hover star remains. The scoped journey
+// passed five repetitions on both viewports; its save/remove assertions stay intact.
 for (const mobile of [false, true]) {
   test.describe(mobile ? "phone seat star" : "desktop seat star", () => {
     test.use({ viewport: mobile ? { width: 390, height: 844 } : { width: 1440, height: 900 }, hasTouch: mobile })
@@ -65,9 +68,11 @@ for (const mobile of [false, true]) {
       await page.evaluate(() => document.body.getBoundingClientRect().top)
       await j.advance(2500) // finish the camera's continuous approach to the settled band
       await page.evaluate(() => (window as any).__neural.newList())
-      const star = page.locator("[data-seat-star]")
+      // The focus star and a different hovered pair's star can both be visible.
+      // This journey saves/removes Mount/Bottom; every action must keep that identity.
+      const sel = '[data-seat-star][data-list-add="Positions/Mount/Bottom"]'
+      const star = page.locator(sel)
       await expect(star).toHaveCount(1)
-      const sel = "[data-seat-star]"
       const activate = async () => {
         if (mobile) {
           const b = await j.boxOf(sel, "the seat star")
@@ -112,7 +117,7 @@ for (const mobile of [false, true]) {
       await expect(star).toBeFocused()
 
       await j.clickByMouse(".ng-logo", "open the learning panel")
-      await expect(star).toHaveCount(0)
+      await expect(page.locator("[data-seat-star]")).toHaveCount(0)
       await j.clickByMouse(".ng-explorer-close", "close the learning panel")
       await j.advance(500)
       await expect(star).toBeVisible()

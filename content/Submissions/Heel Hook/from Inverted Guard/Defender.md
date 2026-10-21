@@ -3,27 +3,27 @@
 
 
 ---
-title: "Heel Hook from Grasshopper Guard Defender | BJJ Defense Guide | BJJ Graph"
-description: "Defend the heel hook from grasshopper guard. Recognition cues, escape techniques, boot defense mechanics, and critical safety protocols for knee protection."
+title: "Heel Hook from Inverted Guard Defender | BJJ Defense Guide | BJJ Graph"
+description: "Defend the heel hook from inverted guard. Recognition cues, escape techniques, boot defense mechanics, and critical safety protocols for knee protection."
 ---
 
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Heel Hook from Grasshopper Guard targets the Ankle joint, knee ligaments (ACL/MCL/LCL), and lower leg structural integrity. Tap early and often. Your safety is more important than any training round.
+> **SAFETY**: Heel Hook from Inverted Guard targets the Ankle joint, knee ligaments (ACL/MCL/LCL), and lower leg structural integrity. Tap early and often. Your safety is more important than any training round.
 
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "HowTo",
-  "name": "How to Defend Heel Hook from Grasshopper Guard in BJJ",
-  "description": "Step-by-step guide for defending and escaping Heel Hook from Grasshopper Guard in BJJ.",
+  "name": "How to Defend Heel Hook from Inverted Guard in BJJ",
+  "description": "Step-by-step guide for defending and escaping Heel Hook from Inverted Guard in BJJ.",
   "step": [
     {
       "@type": "HowToStep",
       "name": "Boot defense - straighten the trapped leg and drive your knee forward before the entanglement locks",
-      "text": "Early stage when you feel the initial leg thread but before the attacker secures heel grip If successful: Clears the leg from the entanglement and forces attacker to reset from grasshopper guard",
+      "text": "Early stage when you feel the initial leg thread but before the attacker secures heel grip If successful: Clears the leg from the entanglement and forces attacker to reset from inverted guard",
       "position": 1
     },
     {
@@ -52,7 +52,7 @@ description: "Defend the heel hook from grasshopper guard. Recognition cues, esc
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "How do you recognize that a heel hook attempt is developing from grasshopper guard?",
+      "name": "How do you recognize that a heel hook attempt is developing from inverted guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Watch for the opponent's hands shifting from guard grips to reaching toward your heel or ankle while their legs thread around your lead leg. The key transition signal is their hip switch from inverted position toward ashi garami, visible as a rotation in their lower body. The earlier you detect this shift in hand and hip movement, the more defensive options remain available to you."
@@ -68,7 +68,7 @@ description: "Defend the heel hook from grasshopper guard. Recognition cues, esc
     },
     {
       "@type": "Question",
-      "name": "What is your primary defensive action when you feel the initial leg thread from grasshopper guard?",
+      "name": "What is your primary defensive action when you feel the initial leg thread from inverted guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately straighten your threatened leg and step it backward, removing it from the opponent's entanglement range. This boot defense must happen before they secure heel grip, because once the heel is captured and the triangle locked, your escape options diminish rapidly. Combine the leg straightening with a back step to create distance from their inverted position."
@@ -99,8 +99,8 @@ description: "Defend the heel hook from grasshopper guard. Recognition cues, esc
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "name": "Heel Hook from Grasshopper Guard Defender",
-  "description": "Defend the heel hook from grasshopper guard. Recognition cues, escape techniques, boot defense mechanics, and critical safety protocols for knee protection.",
+  "name": "Heel Hook from Inverted Guard Defender",
+  "description": "Defend the heel hook from inverted guard. Recognition cues, escape techniques, boot defense mechanics, and critical safety protocols for knee protection.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -130,14 +130,14 @@ description: "Defend the heel hook from grasshopper guard. Recognition cues, esc
     {
       "@type": "ListItem",
       "position": 3,
-      "name": "Heel Hook from Grasshopper Guard",
-      "item": "https://bjjgraph.org/Submissions/Heel-Hook-from-Grasshopper-Guard"
+      "name": "Heel Hook from Inverted Guard",
+      "item": "https://bjjgraph.org/Submissions/Heel-Hook-from-Inverted-Guard"
     },
     {
       "@type": "ListItem",
       "position": 4,
       "name": "Defender",
-      "item": "https://bjjgraph.org/Submissions/Heel-Hook-from-Grasshopper-Guard/Defender"
+      "item": "https://bjjgraph.org/Submissions/Heel-Hook-from-Inverted-Guard/Defender"
     }
   ]
 }
@@ -152,9 +152,9 @@ description: "Defend the heel hook from grasshopper guard. Recognition cues, esc
 
 <section id="overview" class="content-section">
 
-Defending the heel hook from grasshopper guard demands early recognition and immediate response. The inverted entry disguises the submission threat as a guard retention or sweep attempt, making early detection critical for survival. Your primary defensive priorities are preventing the initial leg entanglement, maintaining your base against the sweep threats that precede the heel hook, and knowing when to abandon technical defense and tap to protect your knee. The rotational force on the knee ligaments develops rapidly once the ashi garami position is secured, making late-stage escapes extremely dangerous and reinforcing the importance of defending early or tapping decisively.
+Defending the heel hook from inverted guard demands early recognition and immediate response. The inverted entry disguises the submission threat as a guard retention or sweep attempt, making early detection critical for survival. Your primary defensive priorities are preventing the initial leg entanglement, maintaining your base against the sweep threats that precede the heel hook, and knowing when to abandon technical defense and tap to protect your knee. The rotational force on the knee ligaments develops rapidly once the ashi garami position is secured, making late-stage escapes extremely dangerous and reinforcing the importance of defending early or tapping decisively.
 
-**Opponent's Starting Position**: [[Positions/Grasshopper Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Inverted Guard]] (Bottom)
 
 
 </section>
@@ -165,7 +165,7 @@ Defending the heel hook from grasshopper guard demands early recognition and imm
 
 ## How to Recognize This Submission
 
-<p class="section-subtitle">How do you know when someone is attempting Heel Hook from Grasshopper Guard?</p>
+<p class="section-subtitle">How do you know when someone is attempting Heel Hook from Inverted Guard?</p>
 
 - Opponent inverts onto their shoulders and elevates hips while maintaining leg contact with your lead leg
 - Feel a hook threading behind your lead knee from an unusual upward angle as they begin the entanglement
@@ -180,7 +180,7 @@ Defending the heel hook from grasshopper guard demands early recognition and imm
 
 ## Key Defensive Principles
 
-<p class="section-subtitle">What are the key principles for defending Heel Hook from Grasshopper Guard?</p>
+<p class="section-subtitle">What are the key principles for defending Heel Hook from Inverted Guard?</p>
 
 - Recognize the heel hook setup before the heel grip is established - prevention is far more effective than late escape
 - Keep your lead leg straight and your base wide to prevent leg threading from the inverted position
@@ -196,19 +196,19 @@ Defending the heel hook from grasshopper guard demands early recognition and imm
 
 ## Defensive Options
 
-<p class="section-subtitle">What can you do to defend against Heel Hook from Grasshopper Guard?</p>
+<p class="section-subtitle">What can you do to defend against Heel Hook from Inverted Guard?</p>
 
 ### 1. Boot defense - straighten the trapped leg and drive your knee forward before the entanglement locks
 
 - **When to use**: Early stage when you feel the initial leg thread but before the attacker secures heel grip
-- **Targets**: [[Positions/Grasshopper Guard]]
-- **If successful**: Clears the leg from the entanglement and forces attacker to reset from grasshopper guard
+- **Targets**: [[Positions/Inverted Guard]]
+- **If successful**: Clears the leg from the entanglement and forces attacker to reset from inverted guard
 - **Risk**: If attempted too late after the triangle is locked, the straightening motion can worsen knee exposure
 
 ### 2. Rotation matching - turn your body in the same direction as the attacker's torque to neutralize rotational differential
 
 - **When to use**: Mid to late stage when the attacker has grip but before full rotation is applied
-- **Targets**: [[Positions/Grasshopper Guard]]
+- **Targets**: [[Positions/Inverted Guard]]
 - **If successful**: Nullifies the submission pressure and may create opening to extract the leg as the attacker readjusts
 - **Risk**: Requires precise directional awareness and may lead to positional scramble
 
@@ -227,7 +227,7 @@ Defending the heel hook from grasshopper guard demands early recognition and imm
 
 ## Escape Paths
 
-<p class="section-subtitle">How do you escape Heel Hook from Grasshopper Guard?</p>
+<p class="section-subtitle">How do you escape Heel Hook from Inverted Guard?</p>
 
 - Straighten the trapped leg and step backward to extract from the entanglement before heel grip is secured
 - Rotate your entire body in the direction of applied torque to neutralize the rotational differential on the knee
@@ -240,15 +240,15 @@ Defending the heel hook from grasshopper guard demands early recognition and imm
 
 ## Best-Case Outcomes for Defender
 
-<p class="section-subtitle">What is the best outcome when defending Heel Hook from Grasshopper Guard?</p>
+<p class="section-subtitle">What is the best outcome when defending Heel Hook from Inverted Guard?</p>
 
 ### → [[Positions/Closed Guard]]
 
 Drive your hips forward to flatten the opponent's inversion, close your legs around their torso, and establish closed guard top position which completely neutralizes the inverted heel hook threat
 
-### → [[Positions/Grasshopper Guard]]
+### → [[Positions/Inverted Guard]]
 
-Successfully boot the entanglement early by straightening your leg and stepping back, forcing the attacker to reset in grasshopper guard without submission progress
+Successfully boot the entanglement early by straightening your leg and stepping back, forcing the attacker to reset in inverted guard without submission progress
 
 
 
@@ -258,7 +258,7 @@ Successfully boot the entanglement early by straightening your leg and stepping 
 
 ## Common Defensive Mistakes
 
-<p class="section-subtitle">What mistakes should you avoid when defending Heel Hook from Grasshopper Guard?</p>
+<p class="section-subtitle">What mistakes should you avoid when defending Heel Hook from Inverted Guard?</p>
 
 ### 1. Attempting to explosively rip the leg free once the attacker has secured heel grip and locked the triangle
 
@@ -268,12 +268,12 @@ Successfully boot the entanglement early by straightening your leg and stepping 
 ### 2. Failing to recognize the submission threat due to the inverted entry disguising it as a sweep attempt
 
 - **Consequence**: Delays defensive reaction until the attacker has already secured heel grip and transitioned to ashi garami, eliminating early-stage prevention options
-- **Correction**: Train specific recognition of grasshopper-to-heel-hook patterns. When you see an opponent invert with leg hooks near your knee, immediately assume a leg lock threat and begin preventive defense
+- **Correction**: Train specific recognition of inverted-to-heel-hook patterns. When you see an opponent invert with leg hooks near your knee, immediately assume a leg lock threat and begin preventive defense
 
-### 3. Keeping a narrow stance when facing grasshopper guard, making leg threading easy
+### 3. Keeping a narrow stance when facing inverted guard, making leg threading easy
 
 - **Consequence**: A narrow base allows the inverted opponent to thread their legs between yours with minimal resistance, accelerating the entanglement sequence
-- **Correction**: Maintain a wide base when facing grasshopper guard and keep your lead leg active, ready to straighten and step back at the first sign of leg threading
+- **Correction**: Maintain a wide base when facing inverted guard and keep your lead leg active, ready to straighten and step back at the first sign of leg threading
 
 ### 4. Waiting to feel pain before tapping to the heel hook
 
@@ -288,19 +288,19 @@ Successfully boot the entanglement early by straightening your leg and stepping 
 
 ## Training Progressions
 
-<p class="section-subtitle">How do you train defense against Heel Hook from Grasshopper Guard?</p>
+<p class="section-subtitle">How do you train defense against Heel Hook from Inverted Guard?</p>
 
-**Recognition Training** - Early detection of heel hook setup cues from grasshopper guard
-Partner establishes grasshopper guard and slowly demonstrates each stage of the heel hook entry sequence. Defender identifies each transition point verbally before partner continues. Builds pattern recognition for the specific visual and tactile cues that distinguish heel hook setups from sweep attempts.
+**Recognition Training** - Early detection of heel hook setup cues from inverted guard
+Partner establishes inverted guard and slowly demonstrates each stage of the heel hook entry sequence. Defender identifies each transition point verbally before partner continues. Builds pattern recognition for the specific visual and tactile cues that distinguish heel hook setups from sweep attempts.
 
 **Boot Defense Drilling** - Leg straightening and extraction mechanics at progressive resistance
-Partner attempts heel hook entry from grasshopper at increasing resistance levels starting at 30%. Defender focuses exclusively on straightening the threatened leg and stepping back before heel grip is secured. Progressively increase to 70% resistance over multiple sessions while maintaining clean defensive technique.
+Partner attempts heel hook entry from inverted at increasing resistance levels starting at 30%. Defender focuses exclusively on straightening the threatened leg and stepping back before heel grip is secured. Progressively increase to 70% resistance over multiple sessions while maintaining clean defensive technique.
 
 **Controlled Escape Sequences** - Methodical escape from partially secured positions without explosive movement
 Partner secures various stages of the heel hook and holds position. Defender practices rotation matching, controlled leg extraction, and guard recovery using slow deliberate movement only. Emphasis on safety-first escapes that prioritize joint protection over competitive positioning.
 
 **Live Situational Sparring** - Integrating all defensive skills against realistic heel hook attempts
-Begin from grasshopper guard position with partner attempting heel hooks at 80% intensity. Defender applies recognition, prevention, boot defense, and escape skills in realistic context. Review each exchange for defensive timing, tap decision quality, and identification of the latest viable escape point.
+Begin from inverted guard position with partner attempting heel hooks at 80% intensity. Defender applies recognition, prevention, boot defense, and escape skills in realistic context. Review each exchange for defensive timing, tap decision quality, and identification of the latest viable escape point.
 
 
 

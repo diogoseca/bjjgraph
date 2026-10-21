@@ -25332,6 +25332,84 @@
           "vote_count": 30
         }
       }
+    },
+    "Darce Choke from Side Control": {
+      "community": {
+        "gi": {
+          "success_rate": 58.0,
+          "vote_count": 30
+        },
+        "nogi": {
+          "success_rate": 58.0,
+          "vote_count": 30
+        }
+      }
+    },
+    "Kneebar Entry from Inverted Guard": {
+      "community": {
+        "gi": {
+          "success_rate": 55.0,
+          "vote_count": 30
+        },
+        "nogi": {
+          "success_rate": 55.0,
+          "vote_count": 30
+        }
+      },
+      "prior": {
+        "gi": {
+          "success_rate": 26,
+          "pseudo_count": 8,
+          "extrapolated": true
+        },
+        "nogi": {
+          "success_rate": 33,
+          "pseudo_count": 8,
+          "extrapolated": true
+        },
+        "provenance": {
+          "source": "calibrate+review",
+          "run_id": "2026-07-07T17:37:32.832419Z",
+          "reviewed": true,
+          "override": false
+        }
+      }
+    },
+    "Inverted Guard Elevation Sweep": {
+      "community": {
+        "gi": {
+          "success_rate": 55.0,
+          "vote_count": 30
+        },
+        "nogi": {
+          "success_rate": 55.0,
+          "vote_count": 30
+        }
+      }
+    },
+    "Heel Hook from Inverted Guard": {
+      "community": {
+        "gi": {
+          "success_rate": 45.0,
+          "vote_count": 30
+        },
+        "nogi": {
+          "success_rate": 45.0,
+          "vote_count": 30
+        }
+      }
+    },
+    "De La Riva Inversion Entry": {
+      "community": {
+        "gi": {
+          "success_rate": 55.0,
+          "vote_count": 30
+        },
+        "nogi": {
+          "success_rate": 55.0,
+          "vote_count": 30
+        }
+      }
     }
   }
 }

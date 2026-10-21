@@ -547,7 +547,7 @@ test("@curated no position label the graph draws carries its role", async ({ pag
     }
     return { titled, roled, bad }
   })
-  expect(corpus.titled, "every position hub really is titled with a role — that is the hazard").toBe(133) // census:positions
+  expect(corpus.titled, "every position hub really is titled with a role — that is the hazard").toBe(132) // census:positions
   expect(corpus.roled, `and the graph prints none of them (${JSON.stringify(corpus.bad)})`).toBe(0)
 
   // ...AND ON THE GLASS, which is what stops this journey from being a re-implementation of the

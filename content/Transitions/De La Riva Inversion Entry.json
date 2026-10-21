@@ -1,6 +1,6 @@
 {
-  "name": "De La Riva to Grasshopper Guard",
-  "description": "Invert from De La Riva Guard into the inverted Grasshopper Guard to chase a backstepping or circling passer's legs. Setup, execution, and counters for BJJ.",
+  "name": "De La Riva Inversion Entry",
+  "description": "Invert from De La Riva Guard into the inverted Inverted Guard to chase a backstepping or circling passer's legs. Setup, execution, and counters for BJJ.",
   "tags": [
     "bjj",
     "transition",
@@ -11,13 +11,13 @@
     "no-gi"
   ],
   "aliases": [
-    "DLR Inversion to Grasshopper",
+    "DLR Inversion to Inverted",
     "De La Riva Granby to Inverted Guard"
   ],
   "from_position": "De La Riva Guard/Bottom",
   "outcomes": [
     {
-      "to": "Grasshopper Guard/Bottom",
+      "to": "Inverted Guard/Bottom",
       "probability": {
         "gi": 55,
         "nogi": 55
@@ -45,8 +45,8 @@
     "gi": 55,
     "nogi": 55
   },
-  "summary": "De La Riva to Grasshopper Guard is an inverting transition in which the bottom player keeps their De La Riva hook, drops their head under the passer, and rolls onto their shoulders to elevate the hips into the inverted Grasshopper Guard for leg attacks.",
-  "overview": "De La Riva to Grasshopper Guard is the standard inversion used to follow a passer who back-steps or circles away from a De La Riva hook, converting an upright open guard into the inverted, shoulder-based Grasshopper Guard. Rather than chasing the disengaging leg with the upper body, the bottom player keeps the De La Riva hook live, drops their head beneath the opponent's hip line, and rolls onto their shoulders so the hips elevate and the legs thread toward the passer's base.\n\nThis transition is central to modern no-gi guard retention and leg-lock-centric games. When a passer recognizes the De La Riva hook and tries to clear it by back-stepping, leg-dragging, or circling toward the open side, the upright De La Riva player loses the angle and is at risk of being passed. Inverting solves this: by committing the shoulders to the mat and granby-rolling underneath, the guard player stays connected to the legs and re-establishes a live attacking platform from below. From Grasshopper Guard the bottom player can immediately hunt inside and outside ashi entanglements, kneebars, and elevation sweeps.\n\nThe trade-off is real. Inverting concedes upper-body connection and is energy-expensive, so the transition must be timed to the opponent's movement rather than forced. Executed early — as the passer's weight shifts away — it preserves the hook and lands cleanly in Grasshopper. Executed late or without keeping the hook, the inversion can stall (returning to De La Riva) or, worst case, expose the back as the passer rides the rolling motion to a back take.",
+  "summary": "De La Riva Inversion Entry is an inverting transition in which the bottom player keeps their De La Riva hook, drops their head under the passer, and rolls onto their shoulders to elevate the hips into the inverted Inverted Guard for leg attacks.",
+  "overview": "De La Riva Inversion Entry is the standard inversion used to follow a passer who back-steps or circles away from a De La Riva hook, converting an upright open guard into the inverted, shoulder-based Inverted Guard. Rather than chasing the disengaging leg with the upper body, the bottom player keeps the De La Riva hook live, drops their head beneath the opponent's hip line, and rolls onto their shoulders so the hips elevate and the legs thread toward the passer's base.\n\nThis transition is central to modern no-gi guard retention and leg-lock-centric games. When a passer recognizes the De La Riva hook and tries to clear it by back-stepping, leg-dragging, or circling toward the open side, the upright De La Riva player loses the angle and is at risk of being passed. Inverting solves this: by committing the shoulders to the mat and granby-rolling underneath, the guard player stays connected to the legs and re-establishes a live attacking platform from below. From Inverted Guard the bottom player can immediately hunt inside and outside ashi entanglements, kneebars, and elevation sweeps.\n\nThe trade-off is real. Inverting concedes upper-body connection and is energy-expensive, so the transition must be timed to the opponent's movement rather than forced. Executed early — as the passer's weight shifts away — it preserves the hook and lands cleanly in Inverted. Executed late or without keeping the hook, the inversion can stall (returning to De La Riva) or, worst case, expose the back as the passer rides the rolling motion to a back take.",
   "conditions": [
     "Active De La Riva hook established on the opponent's near leg",
     "Opponent is back-stepping, leg-dragging, or circling toward the open side to clear the hook",
@@ -59,7 +59,7 @@
       "relationship": "Starting position - the upright open guard from which this inversion is launched"
     },
     {
-      "name": "Grasshopper Guard",
+      "name": "Inverted Guard",
       "relationship": "Target position achieved on a successful inversion under the passer"
     },
     {
@@ -68,11 +68,11 @@
     },
     {
       "name": "Inside Ashi-Garami",
-      "relationship": "Primary leg-entanglement destination available immediately after landing in Grasshopper"
+      "relationship": "Primary leg-entanglement destination available immediately after landing in Inverted"
     },
     {
       "name": "Single Leg X-Guard",
-      "relationship": "Sweep platform reachable when coming up from the Grasshopper inversion"
+      "relationship": "Sweep platform reachable when coming up from the Inverted inversion"
     },
     {
       "name": "Berimbolo",
@@ -84,18 +84,18 @@
     },
     {
       "name": "X-Guard",
-      "relationship": "Related elevation guard the bottom player can transition to from Grasshopper"
+      "relationship": "Related elevation guard the bottom player can transition to from Inverted"
     }
   ],
   "attacker": {
-    "name": "De La Riva to Grasshopper Guard Attacker",
-    "description": "How to invert from De La Riva into Grasshopper Guard in BJJ. Attacking perspective with setup, shoulder-roll mechanics, leg-attack chains, and counters.",
-    "overview": "Inverting from De La Riva into Grasshopper Guard is the bottom player's answer to a passer who tries to disengage from the De La Riva hook. The attacker preserves the hook, drops their head beneath the opponent's hip, and rolls onto the shoulders so the hips elevate and the legs can keep chasing the passer's base. The goal is not to settle but to arrive in the inverted Grasshopper platform with a live leg connection from which kneebars, ankle locks, inside ashi, and elevation sweeps are immediately threatened.\n\nThe defining mechanic is timing the inversion to the opponent's weight shift. When the passer back-steps or circles, their base momentarily lifts and rotates away; that is the window to commit the shoulders and granby-roll under. The De La Riva hook acts as the anchor that keeps you tethered to the leg throughout the roll, so you surface inverted but still attached rather than chasing empty space.\n\nDone well, this transition turns an apparent guard-pass scramble into a leg-attack opportunity. Done poorly — inverting late, releasing the hook, or rolling without tracking the opponent's hips — it gives up the back or stalls back into De La Riva. Treat the inversion as a committed, time-boxed action with a specific leg-attack target already in mind.",
+    "name": "De La Riva Inversion Entry Attacker",
+    "description": "How to invert from De La Riva into Inverted Guard in BJJ. Attacking perspective with setup, shoulder-roll mechanics, leg-attack chains, and counters.",
+    "overview": "Inverting from De La Riva into Inverted Guard is the bottom player's answer to a passer who tries to disengage from the De La Riva hook. The attacker preserves the hook, drops their head beneath the opponent's hip, and rolls onto the shoulders so the hips elevate and the legs can keep chasing the passer's base. The goal is not to settle but to arrive in the inverted Inverted platform with a live leg connection from which kneebars, ankle locks, inside ashi, and elevation sweeps are immediately threatened.\n\nThe defining mechanic is timing the inversion to the opponent's weight shift. When the passer back-steps or circles, their base momentarily lifts and rotates away; that is the window to commit the shoulders and granby-roll under. The De La Riva hook acts as the anchor that keeps you tethered to the leg throughout the roll, so you surface inverted but still attached rather than chasing empty space.\n\nDone well, this transition turns an apparent guard-pass scramble into a leg-attack opportunity. Done poorly — inverting late, releasing the hook, or rolling without tracking the opponent's hips — it gives up the back or stalls back into De La Riva. Treat the inversion as a committed, time-boxed action with a specific leg-attack target already in mind.",
     "key_principles": [
       "Keep the De La Riva hook live throughout the roll - it is the anchor that keeps you connected to the leg",
       "Time the inversion to the opponent's weight shift as they back-step or circle, never force it from a static base",
       "Drop the head beneath the opponent's hip line first; the shoulders and roll follow the head",
-      "Elevate the hips as you surface so you arrive in a true Grasshopper platform, not flattened on your back",
+      "Elevate the hips as you surface so you arrive in a true Inverted platform, not flattened on your back",
       "Carry a specific leg-attack target into the inversion - inside ashi, kneebar, or ankle lock - rather than inverting aimlessly",
       "Protect the back during the roll by keeping a knee or shin across the centerline so the opponent cannot ride to back control",
       "Commit fully and quickly - a half-committed inversion stalls and lets the passer settle his pass"
@@ -131,13 +131,13 @@
       },
       {
         "step_number": 5,
-        "action": "Elevate the hips and establish Grasshopper",
-        "description": "As you surface from the roll, fire your core and push your hips toward the ceiling so they sit at chest height or higher relative to the opponent. Distribute weight across both shoulder blades for a stable inverted platform. You should now be in Grasshopper Guard: shoulders based, hips elevated, and at least one leg threaded toward or around the opponent's standing base."
+        "action": "Elevate the hips and establish Inverted",
+        "description": "As you surface from the roll, fire your core and push your hips toward the ceiling so they sit at chest height or higher relative to the opponent. Distribute weight across both shoulder blades for a stable inverted platform. You should now be in Inverted Guard: shoulders based, hips elevated, and at least one leg threaded toward or around the opponent's standing base."
       },
       {
         "step_number": 6,
         "action": "Thread the legs and attack immediately",
-        "description": "Do not pause in the inversion. Immediately shoot your legs to entangle the opponent's near leg for an inside or outside ashi-garami, hunt a kneebar or ankle lock, or load an elevation sweep if their base narrows. Grasshopper is unsustainable, so convert the platform into a concrete leg attack or sweep within a few seconds of arriving."
+        "description": "Do not pause in the inversion. Immediately shoot your legs to entangle the opponent's near leg for an inside or outside ashi-garami, hunt a kneebar or ankle lock, or load an elevation sweep if their base narrows. Inverted is unsustainable, so convert the platform into a concrete leg attack or sweep within a few seconds of arriving."
       }
     ],
     "common_counters": [
@@ -170,7 +170,7 @@
       {
         "error": "Releasing the De La Riva hook before or during the roll",
         "consequence": "You lose your only anchor to the opponent's base and surface from the inversion in open space, allowing the pass to complete or the back to be exposed.",
-        "correction": "Treat the hook as non-negotiable - keep it threaded behind the knee throughout the entire roll and only release once a new leg entanglement is established in Grasshopper."
+        "correction": "Treat the hook as non-negotiable - keep it threaded behind the knee throughout the entire roll and only release once a new leg entanglement is established in Inverted."
       },
       {
         "error": "Inverting from a static base when the opponent is square and heavy",
@@ -184,13 +184,13 @@
       },
       {
         "error": "Failing to elevate the hips on surfacing",
-        "consequence": "You arrive flattened on your back instead of in a true Grasshopper platform, with no sweeping leverage and easy to step over and pass.",
-        "correction": "Fire your core the moment you surface and drive your hips toward the ceiling so they sit at chest height, creating the elevated inverted platform Grasshopper requires."
+        "consequence": "You arrive flattened on your back instead of in a true Inverted platform, with no sweeping leverage and easy to step over and pass.",
+        "correction": "Fire your core the moment you surface and drive your hips toward the ceiling so they sit at chest height, creating the elevated inverted platform Inverted requires."
       },
       {
         "error": "Stalling in the inversion without a leg-attack plan",
         "consequence": "The energy-expensive inverted posture fatigues your core and gives the opponent time to step over, back-step, or settle the pass while you hesitate.",
-        "correction": "Carry a specific target - inside ashi, kneebar, ankle lock, or elevation sweep - into the inversion and commit to it within a few seconds of arriving in Grasshopper."
+        "correction": "Carry a specific target - inside ashi, kneebar, ankle lock, or elevation sweep - into the inversion and commit to it within a few seconds of arriving in Inverted."
       },
       {
         "error": "Exposing the back by rolling too far over without protecting the centerline",
@@ -207,7 +207,7 @@
       {
         "phase": "Week 3-4: Hook Retention Through the Roll",
         "focus": "Keeping the De La Riva hook live during the inversion",
-        "description": "Partner stands with a compliant base while you establish De La Riva and invert, with the single rule that the hook must never release. Partner offers light resistance. 15-20 repetitions per session, emphasizing the anchor concept and surfacing in Grasshopper still attached to the leg."
+        "description": "Partner stands with a compliant base while you establish De La Riva and invert, with the single rule that the hook must never release. Partner offers light resistance. 15-20 repetitions per session, emphasizing the anchor concept and surfacing in Inverted still attached to the leg."
       },
       {
         "phase": "Week 5-8: Timing to the Disengage",
@@ -216,18 +216,18 @@
       },
       {
         "phase": "Week 9-12: Inversion to Leg Attack Chains",
-        "focus": "Converting the Grasshopper platform into entanglements and sweeps",
-        "description": "After landing in Grasshopper, flow immediately into inside ashi, kneebar entries, and elevation sweeps against a partner at 70% resistance. Emphasize speed of conversion within a few seconds of surfacing. 5-10 minutes of continuous flow per session."
+        "focus": "Converting the Inverted platform into entanglements and sweeps",
+        "description": "After landing in Inverted, flow immediately into inside ashi, kneebar entries, and elevation sweeps against a partner at 70% resistance. Emphasize speed of conversion within a few seconds of surfacing. 5-10 minutes of continuous flow per session."
       },
       {
         "phase": "Month 4+: Live Positional Sparring",
         "focus": "Full-resistance inversion against an actively passing opponent",
-        "description": "Start in De La Riva with the partner working a complete passing game. Use the inversion to Grasshopper as part of your retention and attacking flow, defending back-takes and converting to leg attacks under competitive pressure. 5-minute rounds, multiple rounds per session."
+        "description": "Start in De La Riva with the partner working a complete passing game. Use the inversion to Inverted as part of your retention and attacking flow, defending back-takes and converting to leg attacks under competitive pressure. 5-minute rounds, multiple rounds per session."
       }
     ],
     "flashcards": [
       {
-        "question": "What must you maintain throughout the inversion from De La Riva to Grasshopper guard?",
+        "question": "What must you maintain throughout the inversion from De La Riva to Inverted guard?",
         "answer": "The De La Riva hook. It is the anchor that keeps you tethered to the opponent's leg as you roll, ensuring you surface from the inversion still connected to their base rather than spinning out into open space where the pass completes. Releasing the hook is the most common reason this transition fails.",
         "answer_line": "Keep the De La Riva hook",
         "distractors": {
@@ -270,7 +270,7 @@
       },
       {
         "question": "Why must you elevate your hips the instant you surface from the roll?",
-        "answer": "Surfacing flat on your back leaves you in a passable, leverage-less position rather than a true Grasshopper platform. Firing your core to drive the hips to chest height creates the elevated, shoulder-based structure that gives you sweeping leverage and the angles to thread your legs for kneebars, ankle locks, and inside ashi entanglements.",
+        "answer": "Surfacing flat on your back leaves you in a passable, leverage-less position rather than a true Inverted platform. Firing your core to drive the hips to chest height creates the elevated, shoulder-based structure that gives you sweeping leverage and the angles to thread your legs for kneebars, ankle locks, and inside ashi entanglements.",
         "answer_line": "Drive hips to chest height",
         "distractors": {
           "plausible": [
@@ -298,7 +298,7 @@
       },
       {
         "question": "What should you already have planned before you commit to the inversion?",
-        "answer": "A specific leg-attack target - inside or outside ashi-garami, a kneebar, an ankle lock, or an elevation sweep. Grasshopper is energy-expensive and unsustainable, so you must arrive with a plan and convert the platform into a concrete attack within a few seconds, rather than inverting aimlessly and stalling while the opponent settles the pass.",
+        "answer": "A specific leg-attack target - inside or outside ashi-garami, a kneebar, an ankle lock, or an elevation sweep. Inverted is energy-expensive and unsustainable, so you must arrive with a plan and convert the platform into a concrete attack within a few seconds, rather than inverting aimlessly and stalling while the opponent settles the pass.",
         "answer_line": "Have a leg-attack target set",
         "distractors": {
           "plausible": [
@@ -331,15 +331,15 @@
     ]
   },
   "defender": {
-    "name": "De La Riva to Grasshopper Guard Defender",
-    "description": "How to stop the De La Riva inversion to Grasshopper Guard in BJJ. Recognition cues, back-take and pass options, and counters for the passing player.",
-    "overview": "As the passing player facing a De La Riva hook, you are the defender when the bottom player tries to invert into Grasshopper Guard. The inversion is their response to your attempt to disengage - back-step, leg-drag, or circle - so the defensive battle is about denying them a clean roll, stripping their anchor before they commit, and recognizing that their rolling motion is itself an opportunity to take the back or finish a pass.\n\nThe critical window opens the instant the bottom player drops their head beneath your hip and starts to roll. Before that, strong base management and hook clearance prevent the inversion entirely. Once they commit, you have a choice: ride the roll to a back take while they are momentarily turned away, or step over and stack to flatten them before their hips elevate. The worst response is to chase the disengage carelessly and feed your weight into the very leg connection that powers their inversion.\n\nAdvanced defense centers on hook removal and back exposure. The De La Riva hook is their anchor; if you strip it before they roll, the inversion collapses back to upright guard. If they keep the hook and commit, ride their rotation and pursue the back rather than trying to out-muscle the leg entanglement they are building.",
+    "name": "De La Riva Inversion Entry Defender",
+    "description": "How to stop the De La Riva inversion to Inverted Guard in BJJ. Recognition cues, back-take and pass options, and counters for the passing player.",
+    "overview": "As the passing player facing a De La Riva hook, you are the defender when the bottom player tries to invert into Inverted Guard. The inversion is their response to your attempt to disengage - back-step, leg-drag, or circle - so the defensive battle is about denying them a clean roll, stripping their anchor before they commit, and recognizing that their rolling motion is itself an opportunity to take the back or finish a pass.\n\nThe critical window opens the instant the bottom player drops their head beneath your hip and starts to roll. Before that, strong base management and hook clearance prevent the inversion entirely. Once they commit, you have a choice: ride the roll to a back take while they are momentarily turned away, or step over and stack to flatten them before their hips elevate. The worst response is to chase the disengage carelessly and feed your weight into the very leg connection that powers their inversion.\n\nAdvanced defense centers on hook removal and back exposure. The De La Riva hook is their anchor; if you strip it before they roll, the inversion collapses back to upright guard. If they keep the hook and commit, ride their rotation and pursue the back rather than trying to out-muscle the leg entanglement they are building.",
     "key_principles": [
       "Strip the De La Riva hook before you disengage - without the anchor the inversion cannot land cleanly",
       "Recognize the head-drop beneath your hip as the commit signal for the inversion",
       "Do not feed your weight into the hooked leg as you back-step; lighten and clear the leg instead",
       "Their rolling motion exposes their back - ride the roll and hunt back control rather than resisting the leg",
-      "Stack and step over early to flatten them before their hips can elevate into the Grasshopper platform",
+      "Stack and step over early to flatten them before their hips can elevate into the Inverted platform",
       "Keep your free leg back and mobile so it cannot be threaded into a leg entanglement on the way down",
       "Stay patient against a static De La Riva - only disengage on your terms, not theirs"
     ],
@@ -368,7 +368,7 @@
         "action": "Stack forward and step over to flatten them before their hips elevate",
         "when_to_use": "When you read the head-drop early and can drive forward before they surface from the roll",
         "targets_outcome": "De La Riva Guard/Bottom",
-        "if_successful": "Your forward pressure crushes the inversion before the Grasshopper platform forms, keeping them flattened and stalling their attack",
+        "if_successful": "Your forward pressure crushes the inversion before the Inverted platform forms, keeping them flattened and stalling their attack",
         "risk": "Driving forward feeds your weight toward their legs; if mistimed they redirect your pressure into an elevation sweep or inside ashi entry"
       },
       {
@@ -392,7 +392,7 @@
     "common_errors": [
       {
         "error": "Back-stepping while the De La Riva hook is still live",
-        "consequence": "The hook tethers your retreating leg and powers the inversion, so your disengage becomes the exact trigger that lands them in Grasshopper still connected to your base.",
+        "consequence": "The hook tethers your retreating leg and powers the inversion, so your disengage becomes the exact trigger that lands them in Inverted still connected to your base.",
         "correction": "Strip or clear the hook first by circling your knee out and freeing the foot, then disengage. Never give up your angle while their anchor is still attached to your leg."
       },
       {
@@ -409,7 +409,7 @@
     "flashcards": [
       {
         "question": "Why is stripping the De La Riva hook the highest-priority defense against this inversion?",
-        "answer": "The De La Riva hook is the bottom player's anchor to your base. As long as it is live, your back-step or circle simply tethers your retreating leg and powers their roll, landing them in Grasshopper still connected to you. Clearing the hook before you disengage removes the anchor, so the inversion stalls and they are forced back to upright De La Riva.",
+        "answer": "The De La Riva hook is the bottom player's anchor to your base. As long as it is live, your back-step or circle simply tethers your retreating leg and powers their roll, landing them in Inverted still connected to you. Clearing the hook before you disengage removes the anchor, so the inversion stalls and they are forced back to upright De La Riva.",
         "answer_line": "Strip the DLR hook first",
         "distractors": {
           "plausible": [
@@ -437,7 +437,7 @@
       },
       {
         "question": "How can driving forward to flatten the inversion backfire, and how do you do it safely?",
-        "answer": "Driving forward feeds your weight into their legs, so flatten the inversion only early, before the Grasshopper platform forms. If mistimed, they redirect that forward pressure into an elevation sweep or an inside ashi entry rather than being flattened. Do it safely by stacking and stepping over only when you can beat their hips to the elevation, while keeping your free leg clear of their threading legs.",
+        "answer": "Driving forward feeds your weight into their legs, so flatten the inversion only early, before the Inverted platform forms. If mistimed, they redirect that forward pressure into an elevation sweep or an inside ashi entry rather than being flattened. Do it safely by stacking and stepping over only when you can beat their hips to the elevation, while keeping your free leg clear of their threading legs.",
         "distractors": {
           "plausible": [
             "Drive forward anytime you can",
@@ -464,32 +464,32 @@
       {
         "phase": "Week 5-8: Stack-and-Flatten Timing",
         "focus": "Beating the hip elevation with forward pressure",
-        "description": "Partner inverts and you practice stacking and stepping over early to flatten them before the Grasshopper platform forms, at 60-70% resistance. Emphasize keeping your free leg clear so your pressure does not feed a sweep. 10-15 reps per session."
+        "description": "Partner inverts and you practice stacking and stepping over early to flatten them before the Inverted platform forms, at 60-70% resistance. Emphasize keeping your free leg clear so your pressure does not feed a sweep. 10-15 reps per session."
       },
       {
         "phase": "Month 3+: Live Passing Against Inversion",
         "focus": "Full-resistance passing against an inverting De La Riva player",
-        "description": "Start with the partner in De La Riva actively threatening the inversion to Grasshopper. Pass while choosing between hook clearance, back-take off the roll, and stack-and-flatten under competitive pressure. 5-minute rounds, multiple rounds per session."
+        "description": "Start with the partner in De La Riva actively threatening the inversion to Inverted. Pass while choosing between hook clearance, back-take off the roll, and stack-and-flatten under competitive pressure. 5-minute rounds, multiple rounds per session."
       }
     ],
     "clips": []
   },
   "variants_and_adaptations": [
     {
-      "variant_name": "DLR to Grasshopper with Ankle Grip",
+      "variant_name": "DLR to Inverted with Ankle Grip",
       "description": "Before inverting, the bottom player secures a grip on the opponent's far ankle as a second connection point. This reinforces the anchor so the roll is even less likely to spin out, and it pre-loads a straight ankle lock or inside ashi entry on surfacing.",
       "when_to_use": "When the opponent's far leg is reachable and you want maximum connection security through the roll, especially against athletic passers who clear hooks quickly"
     },
     {
-      "variant_name": "Reverse DLR to Grasshopper",
-      "description": "When the opponent circles toward the back side rather than the open side, switch from De La Riva to a Reverse De La Riva hook first, then invert from there into Grasshopper. The roll direction mirrors the standard entry to follow the opposite circle.",
+      "variant_name": "Reverse DLR to Inverted",
+      "description": "When the opponent circles toward the back side rather than the open side, switch from De La Riva to a Reverse De La Riva hook first, then invert from there into Inverted. The roll direction mirrors the standard entry to follow the opposite circle.",
       "when_to_use": "Against a passer who consistently circles to your back side to clear the standard De La Riva hook"
     },
     {
       "variant_name": "DLR Inversion to Direct Kneebar",
-      "description": "Rather than settling the Grasshopper platform, the bottom player rolls straight through the inversion into a rolling kneebar on the hooked leg, using the momentum of the roll to load the submission as they surface.",
+      "description": "Rather than settling the Inverted platform, the bottom player rolls straight through the inversion into a rolling kneebar on the hooked leg, using the momentum of the roll to load the submission as they surface.",
       "when_to_use": "When the opponent's near leg is extended and exposed during their back-step, making the kneebar available before they can square back up"
     }
   ],
-  "position_integration": "De La Riva to Grasshopper Guard is a connective transition that links the upright open-guard retention game to the inverted leg-attack game, making it a backbone of modern no-gi guard play. It sits in the same family as the Berimbolo and other De La Riva inversions, sharing the head-drop and shoulder-roll mechanics, but it surfaces in a leg-attack platform rather than a back-take spin. Strategically, it converts a passer's disengagement - the back-step, leg-drag, or circle that would normally beat a static guard - into an offensive opportunity, keeping the bottom player connected to the legs when an upright guard would have been passed. From Grasshopper, the transition feeds directly into inside and outside ashi-garami, kneebars, ankle locks, and elevation sweeps to X-Guard and Single Leg X-Guard, so it serves as the on-ramp to an entire leg-entanglement system. Mastering this inversion is essential for guard players who want their De La Riva to remain dangerous against passers who try to circle and disengage rather than pressure straight through, and it pairs with Reverse De La Riva recovery to cover both directions of escape."
+  "position_integration": "De La Riva Inversion Entry is a connective transition that links the upright open-guard retention game to the inverted leg-attack game, making it a backbone of modern no-gi guard play. It sits in the same family as the Berimbolo and other De La Riva inversions, sharing the head-drop and shoulder-roll mechanics, but it surfaces in a leg-attack platform rather than a back-take spin. Strategically, it converts a passer's disengagement - the back-step, leg-drag, or circle that would normally beat a static guard - into an offensive opportunity, keeping the bottom player connected to the legs when an upright guard would have been passed. From Inverted, the transition feeds directly into inside and outside ashi-garami, kneebars, ankle locks, and elevation sweeps to X-Guard and Single Leg X-Guard, so it serves as the on-ramp to an entire leg-entanglement system. Mastering this inversion is essential for guard players who want their De La Riva to remain dangerous against passers who try to circle and disengage rather than pressure straight through, and it pairs with Reverse De La Riva recovery to cover both directions of escape."
 }

@@ -4,7 +4,7 @@
 
 ---
 title: "Cartwheel Pass | BJJ Technique | BJJ Graph"
-description: "Learn Cartwheel Pass in BJJ. Athletic passing technique from Grasshopper Guard to Side Control. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%."
+description: "Learn Cartwheel Pass in BJJ. Athletic passing technique from Inverted Guard to Side Control. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%."
 ---
 
 
@@ -16,7 +16,7 @@ description: "Learn Cartwheel Pass in BJJ. Athletic passing technique from Grass
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Cartwheel Pass",
-  "description": "Learn Cartwheel Pass in BJJ. Athletic passing technique from Grasshopper Guard to Side Control. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.",
+  "description": "Learn Cartwheel Pass in BJJ. Athletic passing technique from Inverted Guard to Side Control. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.",
   "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
 }
 </script>
@@ -43,7 +43,7 @@ description: "Learn Cartwheel Pass in BJJ. Athletic passing technique from Grass
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Cartwheel Pass",
-  "description": "The Cartwheel Pass is an athletic guard pass against inverted guards like Grasshopper Guard, where the top player plants their hands beside the opponent's hips and cartwheels over the elevated legs to land directly in side control.",
+  "description": "The Cartwheel Pass is an athletic guard pass against inverted guards like Inverted Guard, where the top player plants their hands beside the opponent's hips and cartwheels over the elevated legs to land directly in side control.",
   "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
 }
 </script>
@@ -61,7 +61,7 @@ description: "Learn Cartwheel Pass in BJJ. Athletic passing technique from Grass
 
 <section id="overview" class="content-section">
 
-**The Cartwheel Pass is an athletic guard pass against inverted guards like Grasshopper Guard, where the top player plants their hands beside the opponent's hips and cartwheels over the elevated legs to land directly in side control.**
+**The Cartwheel Pass is an athletic guard pass against inverted guards like Inverted Guard, where the top player plants their hands beside the opponent's hips and cartwheels over the elevated legs to land directly in side control.**
 
 Against the modern inverted-guard game, the Cartwheel Pass answers a problem that pressure and methodical passing struggle to solve: an opponent whose elevated legs turn every grounded passing lane into a potential leg-lock trap. Rather than engaging that structure on its own terms, you vault over it entirely, landing directly into side control before the guard player can reorganize. This pass exploits a fundamental weakness of inverted guards: while they excel at controlling opponents who engage directly with their legs, they struggle against aerial passes that avoid leg contact altogether.
 
@@ -69,7 +69,7 @@ The technique requires committing to the cartwheel motion with conviction, as he
 
 Strategically, the Cartwheel Pass functions best as a surprise element within your passing game. Its athletic nature means it cannot be spammed repeatedly without significant energy expenditure. The optimal timing occurs when the guard player has committed deeply to their inversion, creating space beside their body for your hand placement. Attempting the pass when they are actively adjusting or have legs extended toward you significantly reduces success probability and increases counter risk.
 
-**From Position**: [[Positions/Grasshopper Guard]] (Top)
+**From Position**: [[Positions/Inverted Guard]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -83,7 +83,7 @@ Strategically, the Cartwheel Pass functions best as a surprise element within yo
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[Positions/Side Control]] | 65% |
-| Failure | [[Positions/Grasshopper Guard]] | 25% |
+| Failure | [[Positions/Inverted Guard]] | 25% |
 | Counter | [[Positions/Closed Guard]] | 10% |
 
 
@@ -235,7 +235,7 @@ The Cartwheel Pass occupies a specialized niche in the guard passing hierarchy, 
 ## Related Techniques
 
 
-- [[Positions/Grasshopper Guard]] - Starting position - the inverted guard this pass is designed to defeat
+- [[Positions/Inverted Guard]] - Starting position - the inverted guard this pass is designed to defeat
 
 - [[Positions/Side Control]] - Primary destination after successful pass completion
 

@@ -94,6 +94,15 @@ Neural output. `regenerate:json` can call Claude; `npm run regenerate:json -- --
 wait and is **not** an AI-free validation shortcut. `regenerate:build` runs that chain and then
 builds the site. `npm run dev` builds and serves but does not run the content regeneration chain.
 
+### Retired Identities
+
+`calibration/node_identity_retirements.json` preserves each retired source record and its
+replacement path. The originals leave the active content tree; their ordinal assignments remain
+in `node_ordinals.json` and are marked retired by the normal graph pipeline. Never reuse them.
+After changing the archive mappings, run `python3 scripts/regenerate_identity_redirects.py`.
+It regenerates the marked section of `source/quartz/static/_redirects`, with entry-specific
+rules before family wildcards. The normal build then emits the public redirect file.
+
 ## Probabilities and Published Rates
 
 ### Source Contract

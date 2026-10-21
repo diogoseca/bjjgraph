@@ -76,7 +76,7 @@ These are source-file counts, not the number of playable orbs. Submission files 
 jq '.positions["closed-guard/bottom"].transitions[] | {technique, attemptProbabilityByRuleset, successRate}' graph.json
 
 # One transient state's performer role, success rates and destinations.
-jq '.transitions["kneebar-from-grasshopper/attacker"] | {fromRole, successRateByRuleset, outcomes}' graph.json
+jq '.transitions["kneebar-entry-from-inverted-guard/attacker"] | {fromRole, successRateByRuleset, outcomes}' graph.json
 ```
 
 ### Two findings you can recompute

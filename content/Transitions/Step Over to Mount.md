@@ -4,7 +4,7 @@
 
 ---
 title: "Step Over to Mount | BJJ Technique | BJJ Graph"
-description: "Learn Step Over to Mount from Grasshopper Guard in BJJ. Step-by-step passing technique to achieve mount. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%."
+description: "Learn Step Over to Mount from Inverted Guard in BJJ. Step-by-step passing technique to achieve mount. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%."
 ---
 
 
@@ -16,7 +16,7 @@ description: "Learn Step Over to Mount from Grasshopper Guard in BJJ. Step-by-st
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Step Over to Mount",
-  "description": "Learn Step Over to Mount from Grasshopper Guard in BJJ. Step-by-step passing technique to achieve mount. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.",
+  "description": "Learn Step Over to Mount from Inverted Guard in BJJ. Step-by-step passing technique to achieve mount. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.",
   "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
 }
 </script>
@@ -43,7 +43,7 @@ description: "Learn Step Over to Mount from Grasshopper Guard in BJJ. Step-by-st
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Step Over to Mount",
-  "description": "Step Over to Mount is a guard pass in which the top player, facing the inverted Grasshopper Guard, clears the bottom player's transitioning leg and steps directly over the torso to establish Mount, the most dominant top position.",
+  "description": "Step Over to Mount is a guard pass in which the top player, facing the inverted Inverted Guard, clears the bottom player's transitioning leg and steps directly over the torso to establish Mount, the most dominant top position.",
   "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
 }
 </script>
@@ -61,15 +61,15 @@ description: "Learn Step Over to Mount from Grasshopper Guard in BJJ. Step-by-st
 
 <section id="overview" class="content-section">
 
-**Step Over to Mount is a guard pass in which the top player, facing the inverted Grasshopper Guard, clears the bottom player's transitioning leg and steps directly over the torso to establish Mount, the most dominant top position.**
+**Step Over to Mount is a guard pass in which the top player, facing the inverted Inverted Guard, clears the bottom player's transitioning leg and steps directly over the torso to establish Mount, the most dominant top position.**
 
-Among the passing responses available against Grasshopper Guard, the Step Over to Mount is the most aggressive option, trading the relative safety of lateral passing for a direct line to the most dominant top position in the sport. When the bottom player maintains an inverted guard with one leg hooking while the other leg searches for entanglements, a window opens for the top player to clear the secondary leg and step directly over into mount. The technique capitalizes on the asymmetry created when the bottom player commits one leg to attack while the other is momentarily out of position.
+Among the passing responses available against Inverted Guard, the Step Over to Mount is the most aggressive option, trading the relative safety of lateral passing for a direct line to the most dominant top position in the sport. When the bottom player maintains an inverted guard with one leg hooking while the other leg searches for entanglements, a window opens for the top player to clear the secondary leg and step directly over into mount. The technique capitalizes on the asymmetry created when the bottom player commits one leg to attack while the other is momentarily out of position.
 
-This pass works because the grasshopper guard's inverted structure relies on both legs working in concert. When the bottom player extends or repositions one leg to thread for a kneebar or ankle lock entry, their remaining hook alone cannot prevent the top player from stepping across. The pass requires precise timing - executing during the transition between leg configurations rather than when both legs are actively engaged.
+This pass works because the inverted guard's inverted structure relies on both legs working in concert. When the bottom player extends or repositions one leg to thread for a kneebar or ankle lock entry, their remaining hook alone cannot prevent the top player from stepping across. The pass requires precise timing - executing during the transition between leg configurations rather than when both legs are actively engaged.
 
-Strategically, the Step Over to Mount functions as a high-reward option within the broader toolkit for dealing with inverted guards. Unlike the back step pass which creates lateral separation, or the leg drag which redirects the bottom player's legs to one side, the step over commits fully forward through the center line to achieve the most dominant positional outcome. This directness is both its strength and its vulnerability - if the bottom player reads the step over and catches the stepping leg, they can transition into leg entanglements. The technique pairs naturally with leg drag and back step passes as part of a three-option passing system against grasshopper guard, where each option covers the defensive response to the others.
+Strategically, the Step Over to Mount functions as a high-reward option within the broader toolkit for dealing with inverted guards. Unlike the back step pass which creates lateral separation, or the leg drag which redirects the bottom player's legs to one side, the step over commits fully forward through the center line to achieve the most dominant positional outcome. This directness is both its strength and its vulnerability - if the bottom player reads the step over and catches the stepping leg, they can transition into leg entanglements. The technique pairs naturally with leg drag and back step passes as part of a three-option passing system against inverted guard, where each option covers the defensive response to the others.
 
-**From Position**: [[Positions/Grasshopper Guard]] (Top)
+**From Position**: [[Positions/Inverted Guard]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -83,7 +83,7 @@ Strategically, the Step Over to Mount functions as a high-reward option within t
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[Positions/Mount]] | 55% |
-| Failure | [[Positions/Grasshopper Guard]] | 25% |
+| Failure | [[Positions/Inverted Guard]] | 25% |
 | Failure | [[Positions/Half Guard]] | 10% |
 | Counter | [[Positions/Ashi Garami]] | 10% |
 
@@ -156,7 +156,7 @@ Strategically, the Step Over to Mount functions as a high-reward option within t
   - Correction: Wait for the asymmetric window when one leg is transitioning or committed to an attack. The step over only works against a single remaining hook, not against a fully configured guard.
 
 - **Failing to pin or control the near-side leg before committing the step over**
-  - Consequence: The bottom player uses their near-side leg to re-hook, re-guard, or follow your movement to reestablish grasshopper configuration
+  - Consequence: The bottom player uses their near-side leg to re-hook, re-guard, or follow your movement to reestablish inverted configuration
   - Correction: Always neutralize the near-side hooking leg first with hip pressure, knee pin, or hand control before lifting your leg to step across. This is the most important prerequisite.
 
 
@@ -175,7 +175,7 @@ Strategically, the Step Over to Mount functions as a high-reward option within t
 
 - Read the step-over initiation by watching the top player's hip height and weight shift to their posting leg, which precedes the stepping motion
 
-- Keep hips elevated and active throughout grasshopper guard to deny the top player the settled base they need to initiate the step over
+- Keep hips elevated and active throughout inverted guard to deny the top player the settled base they need to initiate the step over
 
 - Treat the stepping leg as an opportunity rather than a threat - a committed stepping leg is vulnerable to entanglement if intercepted before it clears your hips
 
@@ -236,7 +236,7 @@ Strategically, the Step Over to Mount functions as a high-reward option within t
 
 ## Position Integration
 
-The Step Over to Mount occupies a specific role within the grasshopper guard passing system as the highest-reward, highest-risk option. While the back step pass and leg drag provide safer lateral passing options with side control as the typical outcome, the step over commits through the center to achieve mount directly. This makes it the preferred choice when the opportunity presents itself clearly, but a secondary option when the window is ambiguous. Within the broader BJJ positional hierarchy, the technique connects the inverted guard engagement layer to the mount control layer, skipping intermediate positions like side control and knee on belly. From mount, the passer gains access to the full submission arsenal including armbar, cross collar choke, americana, and ezekiel choke, making the step over one of the most consequential single transitions available from the grasshopper guard engagement.
+The Step Over to Mount occupies a specific role within the inverted guard passing system as the highest-reward, highest-risk option. While the back step pass and leg drag provide safer lateral passing options with side control as the typical outcome, the step over commits through the center to achieve mount directly. This makes it the preferred choice when the opportunity presents itself clearly, but a secondary option when the window is ambiguous. Within the broader BJJ positional hierarchy, the technique connects the inverted guard engagement layer to the mount control layer, skipping intermediate positions like side control and knee on belly. From mount, the passer gains access to the full submission arsenal including armbar, cross collar choke, americana, and ezekiel choke, making the step over one of the most consequential single transitions available from the inverted guard engagement.
 
 </section>
 
@@ -246,21 +246,21 @@ The Step Over to Mount occupies a specific role within the grasshopper guard pas
 ## Related Techniques
 
 
-- [[Positions/Grasshopper Guard]] - Starting position - the guard being passed
+- [[Positions/Inverted Guard]] - Starting position - the guard being passed
 
 - [[Positions/Mount]] - Primary destination on successful execution
 
 - [[Transitions/Back Step Pass]] - Alternative passing option from same starting position
 
-- [[Transitions/Leg Drag Pass]] - Complementary pass in the three-option system against grasshopper guard
+- [[Transitions/Leg Drag Pass]] - Complementary pass in the three-option system against inverted guard
 
 - [[Positions/Knee on Belly]] - Intermediate control position and variant destination
 
 - [[Transitions/Consolidate Mount]] - Follow-up technique to stabilize mount after successful step over
 
-- [[Transitions/Grasshopper Sweep]] - Counter technique the bottom player may attempt during the pass
+- [[Transitions/Inverted Guard Elevation Sweep]] - Counter technique the bottom player may attempt during the pass
 
-- [[Transitions/Kneebar from Grasshopper]] - Counter-attack the bottom player may attempt if step over is poorly timed
+- [[Transitions/Kneebar Entry from Inverted Guard]] - Counter-attack the bottom player may attempt if step over is poorly timed
 
 - [[Transitions/Side Control to Mount]] - Alternative mount entry from lateral passing outcomes
 

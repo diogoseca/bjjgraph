@@ -3,26 +3,26 @@
 
 
 ---
-title: "Heel Hook from Grasshopper Guard Attacker | BJJ Submission Guide | BJJ Graph"
-description: "Learn to execute the heel hook from grasshopper guard. Step-by-step inverted entry mechanics, grip techniques, finishing details, and competition strategies."
+title: "Heel Hook from Inverted Guard Attacker | BJJ Submission Guide | BJJ Graph"
+description: "Learn to execute the heel hook from inverted guard. Step-by-step inverted entry mechanics, grip techniques, finishing details, and competition strategies."
 ---
 
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Heel Hook from Grasshopper Guard targets the Ankle joint, knee ligaments (ACL/MCL/LCL), and lower leg structural integrity. Risk: ACL tear (anterior cruciate ligament rupture). Release immediately upon tap.
+> **SAFETY**: Heel Hook from Inverted Guard targets the Ankle joint, knee ligaments (ACL/MCL/LCL), and lower leg structural integrity. Risk: ACL tear (anterior cruciate ligament rupture). Release immediately upon tap.
 
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "HowTo",
-  "name": "How to Execute Heel Hook from Grasshopper Guard in BJJ",
-  "description": "Step-by-step guide for Heel Hook from Grasshopper Guard with safety protocols.",
+  "name": "How to Execute Heel Hook from Inverted Guard in BJJ",
+  "description": "Step-by-step guide for Heel Hook from Inverted Guard with safety protocols.",
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Establish grasshopper guard base",
+      "name": "Establish inverted guard base",
       "text": "From open guard, invert your torso onto your shoulder blades while elevating your hips above your chest. Engage your core to maintain hip height and position at least one leg hook behind the opponent's lead knee to prevent them from stepping away. Your arms remain free to transition to heel control in the next phase.",
       "position": 1
     },
@@ -41,7 +41,7 @@ description: "Learn to execute the heel hook from grasshopper guard. Step-by-ste
     {
       "@type": "HowToStep",
       "name": "Hip switch to ashi garami",
-      "text": "Rotate your hips from the inverted grasshopper position into an inside ashi garami configuration, clamping the opponent's trapped leg between your thighs. This transition must flow as one continuous motion that maintains heel control throughout. Your outside leg crosses over their hip to prevent them from posturing away or creating distance.",
+      "text": "Rotate your hips from the inverted inverted position into an inside ashi garami configuration, clamping the opponent's trapped leg between your thighs. This transition must flow as one continuous motion that maintains heel control throughout. Your outside leg crosses over their hip to prevent them from posturing away or creating distance.",
       "position": 4
     },
     {
@@ -76,7 +76,7 @@ description: "Learn to execute the heel hook from grasshopper guard. Step-by-ste
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What anatomical structures does the heel hook from grasshopper guard primarily attack?",
+      "name": "What anatomical structures does the heel hook from inverted guard primarily attack?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The heel hook primarily attacks the knee ligaments, specifically the ACL, MCL, and LCL, through rotational force applied via the heel and ankle. The lateral rotation of the heel creates torsional stress on these ligaments because the foot acts as a lever arm against the fixed knee joint. Secondary stress affects the ankle ligaments and meniscus cartilage."
@@ -116,10 +116,10 @@ description: "Learn to execute the heel hook from grasshopper guard. Step-by-ste
     },
     {
       "@type": "Question",
-      "name": "How does establishing the heel grip from grasshopper differ from gripping from standard ashi garami?",
+      "name": "How does establishing the heel grip from inverted differ from gripping from standard ashi garami?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "From grasshopper, the grip is initially established while inverted, meaning your hands approach the heel from an upward angle rather than the standard side angle. During the transition to ashi garami, the grip must be maintained through the hip rotation, requiring elbows tight to your body throughout the movement. The finishing grip position is identical, but the path to reach it demands greater grip awareness during the inversion-to-ashi transition phase."
+        "text": "From inverted, the grip is initially established while inverted, meaning your hands approach the heel from an upward angle rather than the standard side angle. During the transition to ashi garami, the grip must be maintained through the hip rotation, requiring elbows tight to your body throughout the movement. The finishing grip position is identical, but the path to reach it demands greater grip awareness during the inversion-to-ashi transition phase."
       }
     }
   ]
@@ -131,8 +131,8 @@ description: "Learn to execute the heel hook from grasshopper guard. Step-by-ste
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "name": "Heel Hook from Grasshopper Guard Attacker",
-  "description": "Learn to execute the heel hook from grasshopper guard. Step-by-step inverted entry mechanics, grip techniques, finishing details, and competition strategies.",
+  "name": "Heel Hook from Inverted Guard Attacker",
+  "description": "Learn to execute the heel hook from inverted guard. Step-by-step inverted entry mechanics, grip techniques, finishing details, and competition strategies.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -162,14 +162,14 @@ description: "Learn to execute the heel hook from grasshopper guard. Step-by-ste
     {
       "@type": "ListItem",
       "position": 3,
-      "name": "Heel Hook from Grasshopper Guard",
-      "item": "https://bjjgraph.org/Submissions/Heel-Hook-from-Grasshopper-Guard"
+      "name": "Heel Hook from Inverted Guard",
+      "item": "https://bjjgraph.org/Submissions/Heel-Hook-from-Inverted-Guard"
     },
     {
       "@type": "ListItem",
       "position": 4,
       "name": "Attacker",
-      "item": "https://bjjgraph.org/Submissions/Heel-Hook-from-Grasshopper-Guard/Attacker"
+      "item": "https://bjjgraph.org/Submissions/Heel-Hook-from-Inverted-Guard/Attacker"
     }
   ]
 }
@@ -183,13 +183,13 @@ description: "Learn to execute the heel hook from grasshopper guard. Step-by-ste
 {
   "@context": "https://schema.org",
   "@type": "ItemList",
-  "name": "Heel Hook from Grasshopper Guard (Attacker) \u2014 Film Study",
+  "name": "Heel Hook from Inverted Guard (Attacker) \u2014 Film Study",
   "itemListElement": [
     {
       "@type": "VideoObject",
       "position": 1,
       "name": "K Guard 50/50 Entry into Inside Heelhook Finish",
-      "description": "Heel Hook from Grasshopper Guard (Attacker) film study: K Guard 50/50 Entry into Inside Heelhook Finish.",
+      "description": "Heel Hook from Inverted Guard (Attacker) film study: K Guard 50/50 Entry into Inside Heelhook Finish.",
       "thumbnailUrl": "https://i.ytimg.com/vi/ieR8CJ1EUM8/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/ieR8CJ1EUM8",
       "url": "https://www.youtube.com/watch?v=ieR8CJ1EUM8",
@@ -199,7 +199,7 @@ description: "Learn to execute the heel hook from grasshopper guard. Step-by-ste
       "@type": "VideoObject",
       "position": 2,
       "name": "Lachlan Giles shows how to use hips and get inverted heel hook",
-      "description": "Heel Hook from Grasshopper Guard (Attacker) film study: Lachlan Giles shows how to use hips and get inverted heel hook.",
+      "description": "Heel Hook from Inverted Guard (Attacker) film study: Lachlan Giles shows how to use hips and get inverted heel hook.",
       "thumbnailUrl": "https://i.ytimg.com/vi/S8ZH_9F18jw/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/S8ZH_9F18jw",
       "url": "https://www.youtube.com/watch?v=S8ZH_9F18jw",
@@ -215,9 +215,9 @@ description: "Learn to execute the heel hook from grasshopper guard. Step-by-ste
 
 <section id="overview" class="content-section">
 
-Attacking with the heel hook from grasshopper guard requires precise timing of the inversion-to-entanglement transition. The key advantage is that your inverted positioning gives you access to the opponent's heel from angles they rarely train to defend. Your primary challenge is maintaining heel control during the transition from inverted guard to a stable ashi garami finishing position while preventing the opponent from disengaging or stacking. Success depends on treating the entire sequence from inversion to finish as one continuous motion rather than discrete steps, because any pause between phases allows the opponent to initiate defensive reactions.
+Attacking with the heel hook from inverted guard requires precise timing of the inversion-to-entanglement transition. The key advantage is that your inverted positioning gives you access to the opponent's heel from angles they rarely train to defend. Your primary challenge is maintaining heel control during the transition from inverted guard to a stable ashi garami finishing position while preventing the opponent from disengaging or stacking. Success depends on treating the entire sequence from inversion to finish as one continuous motion rather than discrete steps, because any pause between phases allows the opponent to initiate defensive reactions.
 
-**From Position**: [[Positions/Grasshopper Guard]] (Bottom)
+**From Position**: [[Positions/Inverted Guard]] (Bottom)
 
 
 </section>
@@ -227,7 +227,7 @@ Attacking with the heel hook from grasshopper guard requires precise timing of t
 
 ## Film Study
 
-<p class="section-subtitle">Watch Heel Hook from Grasshopper Guard (Attacker) in action — curated instructionals</p>
+<p class="section-subtitle">Watch Heel Hook from Inverted Guard (Attacker) in action — curated instructionals</p>
 
 
 <div class="film-clip">
@@ -254,12 +254,12 @@ Attacking with the heel hook from grasshopper guard requires precise timing of t
 
 ## Key Attacking Principles
 
-<p class="section-subtitle">What are the key principles for executing Heel Hook from Grasshopper Guard?</p>
+<p class="section-subtitle">What are the key principles for executing Heel Hook from Inverted Guard?</p>
 
 - Secure heel control before transitioning from inversion - premature rotation without grip leads to scrambles and lost position
 - Use hip elevation as the primary mechanism to create the angle needed for heel access rather than reaching with hands alone
 - Thread legs to the inside of the opponent's base to prevent easy extraction and stepping away from the entanglement
-- Execute the transition from grasshopper inversion to ashi garami finishing position as one continuous unbroken motion
+- Execute the transition from inverted inversion to ashi garami finishing position as one continuous unbroken motion
 - Apply rotational pressure using whole-body mechanics from the hip bridge and torso twist rather than arm strength alone
 - Maintain constant knee pinch throughout the finish to prevent the opponent from straightening or extracting the trapped leg
 
@@ -270,9 +270,9 @@ Attacking with the heel hook from grasshopper guard requires precise timing of t
 
 ## Prerequisites
 
-<p class="section-subtitle">What do you need before attempting Heel Hook from Grasshopper Guard?</p>
+<p class="section-subtitle">What do you need before attempting Heel Hook from Inverted Guard?</p>
 
-- Established grasshopper guard with stable shoulder base and hips elevated above chest height
+- Established inverted guard with stable shoulder base and hips elevated above chest height
 - At least one hook engaged behind the opponent's lead knee to anchor the position and prevent disengagement
 - Opponent's weight committed forward or base narrowed sufficiently to allow leg threading between their stance
 - Clear path to isolate and control the target heel before the opponent recognizes the submission threat
@@ -285,12 +285,12 @@ Attacking with the heel hook from grasshopper guard requires precise timing of t
 
 ## Execution Steps
 
-<p class="section-subtitle">How do you execute Heel Hook from Grasshopper Guard step by step?</p>
+<p class="section-subtitle">How do you execute Heel Hook from Inverted Guard step by step?</p>
 
-1. **Establish grasshopper guard base**: From open guard, invert your torso onto your shoulder blades while elevating your hips above your chest. Engage your core to maintain hip height and position at least one leg hook behind the opponent's lead knee to prevent them from stepping away. Your arms remain free to transition to heel control in the next phase. (Timing: 1-2 seconds)
+1. **Establish inverted guard base**: From open guard, invert your torso onto your shoulder blades while elevating your hips above your chest. Engage your core to maintain hip height and position at least one leg hook behind the opponent's lead knee to prevent them from stepping away. Your arms remain free to transition to heel control in the next phase. (Timing: 1-2 seconds)
 2. **Thread inside leg for entanglement**: Shoot your inside leg between the opponent's legs, threading it across their lead thigh and positioning your foot behind their far knee. This creates the initial leg entanglement that prevents extraction and establishes the lever arm needed for the heel hook finish. Maintain hip elevation throughout this threading motion. (Timing: 1-2 seconds)
 3. **Capture the heel with two-on-one grip**: Reach both hands to secure the opponent's heel, cupping it with your primary hand while your secondary hand reinforces the grip on the foot and ankle. The heel must be captured before any rotation begins, as attempting to rotate without secure grip control results in a lost position and wasted energy. Pull the heel tight to your chest. (Timing: 1-2 seconds)
-4. **Hip switch to ashi garami**: Rotate your hips from the inverted grasshopper position into an inside ashi garami configuration, clamping the opponent's trapped leg between your thighs. This transition must flow as one continuous motion that maintains heel control throughout. Your outside leg crosses over their hip to prevent them from posturing away or creating distance. (Timing: 1-2 seconds)
+4. **Hip switch to ashi garami**: Rotate your hips from the inverted inverted position into an inside ashi garami configuration, clamping the opponent's trapped leg between your thighs. This transition must flow as one continuous motion that maintains heel control throughout. Your outside leg crosses over their hip to prevent them from posturing away or creating distance. (Timing: 1-2 seconds)
 5. **Lock leg triangle and align the knee**: Close your legs in a figure-four or triangle configuration around the opponent's trapped leg and squeeze your knees together to eliminate all space. Ensure the opponent's knee is aligned with your chest centerline. This alignment is critical because the rotational force must travel directly through the knee ligaments for the submission to function properly. (Timing: 1-2 seconds)
 6. **Apply controlled rotational pressure**: Bridge your hips upward while simultaneously rotating the heel laterally using your entire body, not just your arms. The rotation should come from your hip bridge and torso twist working together as a unified system. Apply pressure progressively over several seconds, never jerking or snapping. Monitor your partner's reactions continuously throughout. (Timing: 3-5 seconds progressive application)
 7. **Complete the finish or transition**: If the opponent does not tap, maintain steady pressure and micro-adjust your knee pinch and heel grip. If they begin escaping, be prepared to transition to alternative leg attacks such as a straight ankle lock or kneebar rather than forcing a deteriorating heel hook. Never increase application speed to compensate for positional deterioration. Stop immediately upon any tap signal. (Timing: Ongoing until tap or transition)
@@ -305,7 +305,7 @@ Attacking with the heel hook from grasshopper guard requires precise timing of t
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 45% |
-| Failure | [[Positions/Grasshopper Guard]] | 36% |
+| Failure | [[Positions/Inverted Guard]] | 36% |
 | Counter | [[Positions/Closed Guard]] | 19% |
 
 
@@ -315,12 +315,12 @@ Attacking with the heel hook from grasshopper guard requires precise timing of t
 
 ## Opponent Defenses
 
-<p class="section-subtitle">How might your opponent defend against Heel Hook from Grasshopper Guard?</p>
+<p class="section-subtitle">How might your opponent defend against Heel Hook from Inverted Guard?</p>
 
-- **Boot defense - opponent straightens trapped leg and drives knee forward to prevent entanglement** (Effectiveness: High) - Your Response: Clamp your knees tighter before they fully extend and use your free leg as a secondary hook behind their knee to prevent straightening. If they boot early before your triangle is locked, transition to a straight ankle lock on the extended leg instead. → Leads to [[Positions/Grasshopper Guard]]
-- **Step back and disengage - opponent retreats to break leg contact before heel grip is established** (Effectiveness: Medium) - Your Response: Follow their retreat by re-inverting and rolling toward them to reestablish leg contact. Use the momentum of their retreat to chase into outside ashi garami or single leg X-guard. Do not abandon inversion to chase standing. → Leads to [[Positions/Grasshopper Guard]]
+- **Boot defense - opponent straightens trapped leg and drives knee forward to prevent entanglement** (Effectiveness: High) - Your Response: Clamp your knees tighter before they fully extend and use your free leg as a secondary hook behind their knee to prevent straightening. If they boot early before your triangle is locked, transition to a straight ankle lock on the extended leg instead. → Leads to [[Positions/Inverted Guard]]
+- **Step back and disengage - opponent retreats to break leg contact before heel grip is established** (Effectiveness: Medium) - Your Response: Follow their retreat by re-inverting and rolling toward them to reestablish leg contact. Use the momentum of their retreat to chase into outside ashi garami or single leg X-guard. Do not abandon inversion to chase standing. → Leads to [[Positions/Inverted Guard]]
 - **Stack pass attempt - opponent drives forward heavily to flatten your inversion and neutralize the attack** (Effectiveness: Medium) - Your Response: Use their forward momentum to complete the hip switch faster, pulling them into your ashi garami as they drive in. Alternatively, convert to a Granby roll to recover guard if they stack before you secure the heel. → Leads to [[Positions/Closed Guard]]
-- **Counter leg entanglement - opponent threads their own legs to enter 50-50 or reverse entanglement** (Effectiveness: Low) - Your Response: If they enter 50-50, switch to inside heel hook variant from the shared entanglement. Maintain your original heel grip priority and use the mutual entanglement to your advantage since you initiated the attack first. → Leads to [[Positions/Grasshopper Guard]]
+- **Counter leg entanglement - opponent threads their own legs to enter 50-50 or reverse entanglement** (Effectiveness: Low) - Your Response: If they enter 50-50, switch to inside heel hook variant from the shared entanglement. Maintain your original heel grip priority and use the mutual entanglement to your advantage since you initiated the attack first. → Leads to [[Positions/Inverted Guard]]
 
 
 </section>
@@ -329,7 +329,7 @@ Attacking with the heel hook from grasshopper guard requires precise timing of t
 
 ## Common Attacking Mistakes
 
-<p class="section-subtitle">What mistakes should you avoid when executing Heel Hook from Grasshopper Guard?</p>
+<p class="section-subtitle">What mistakes should you avoid when executing Heel Hook from Inverted Guard?</p>
 
 ### 1. Applying rotation before securing proper heel grip and knee alignment
 
@@ -341,10 +341,10 @@ Attacking with the heel hook from grasshopper guard requires precise timing of t
 - **Consequence**: Creates space that allows the opponent to straighten their leg and pull it free, even with a good heel grip
 - **Correction**: Squeeze your knees together as a constant throughout the entire transition. Think of your thighs as a vise that never loosens from the moment you begin the hip switch
 
-### 3. Staying inverted in grasshopper too long without committing to the heel hook entry
+### 3. Staying inverted in inverted too long without committing to the heel hook entry
 
 - **Consequence**: Core fatigue accumulates rapidly in the inverted position, degrading your hip elevation and making the transition to ashi garami weak and slow
-- **Correction**: Treat grasshopper as a 3-5 second launch platform. Enter with the heel hook as your immediate objective and commit fully within that window or transition to a sustainable guard
+- **Correction**: Treat inverted as a 3-5 second launch platform. Enter with the heel hook as your immediate objective and commit fully within that window or transition to a sustainable guard
 
 ### 4. Gripping the foot or toes instead of cupping the heel bone directly
 
@@ -369,22 +369,22 @@ Attacking with the heel hook from grasshopper guard requires precise timing of t
 
 ## Training Progressions
 
-<p class="section-subtitle">How do you train Heel Hook from Grasshopper Guard (Attacker)?</p>
+<p class="section-subtitle">How do you train Heel Hook from Inverted Guard (Attacker)?</p>
 
 **Solo Inversion Mechanics** - Building inverted positioning strength and transition fluency
-Practice grasshopper guard inversions without a partner, focusing on shoulder base stability, hip elevation endurance, and smooth transitions from inverted to ashi garami body position. Develop the core strength and proprioception needed to maintain control throughout the complete attack sequence.
+Practice inverted guard inversions without a partner, focusing on shoulder base stability, hip elevation endurance, and smooth transitions from inverted to ashi garami body position. Develop the core strength and proprioception needed to maintain control throughout the complete attack sequence.
 
-**Partner Entry Drilling** - Heel capture and entanglement from grasshopper at low resistance
-Work the complete entry sequence from grasshopper guard to heel grip at 30% resistance. Partner stands passively while you practice threading legs, capturing the heel, and transitioning to ashi garami. Focus on grip placement accuracy and smooth continuous motion through each phase without pausing.
+**Partner Entry Drilling** - Heel capture and entanglement from inverted at low resistance
+Work the complete entry sequence from inverted guard to heel grip at 30% resistance. Partner stands passively while you practice threading legs, capturing the heel, and transitioning to ashi garami. Focus on grip placement accuracy and smooth continuous motion through each phase without pausing.
 
 **Controlled Finishing Mechanics** - Rotational application and proprioceptive sensitivity development
 From pre-established ashi garami position, practice applying and releasing rotational pressure with extreme control. Partner provides feedback on speed and pressure levels. Build the proprioceptive sensitivity to feel the submission approaching the tap threshold without overshooting into dangerous force levels.
 
-**Chain Attacks from Grasshopper** - Integration into broader attack system with moderate resistance
-Practice the full grasshopper attack sequence including sweep threats that set up the heel hook entry. Work transitions between sweep attempts, heel hooks, kneebars, and ankle locks at 60-80% resistance. Partner provides specific defensive reactions to build real-time decision making under pressure.
+**Chain Attacks from Inverted** - Integration into broader attack system with moderate resistance
+Practice the full inverted attack sequence including sweep threats that set up the heel hook entry. Work transitions between sweep attempts, heel hooks, kneebars, and ankle locks at 60-80% resistance. Partner provides specific defensive reactions to build real-time decision making under pressure.
 
 **Live Positional Sparring** - Full resistance application and competition readiness
-Begin from grasshopper guard with partner defending at full competition intensity. Work to complete the heel hook or transition to secondary attacks based on defensive reactions. Review each round for timing decisions, grip quality, and attack chain effectiveness.
+Begin from inverted guard with partner defending at full competition intensity. Work to complete the heel hook or transition to secondary attacks based on defensive reactions. Review each round for timing decisions, grip quality, and attack chain effectiveness.
 
 
 

@@ -50,14 +50,14 @@ description: "Execute the Backside 50-50 Entry from Inside Ashi Garami with prec
     },
     {
       "@type": "HowToStep",
-      "name": "Establish Chest-to-Back Pressure",
-      "text": "Drive your chest firmly against the opponent's upper back, establishing the defining control element of Backside 50-50 Top. This pressure pins their hips, limits their rotation, and creates the visual and mechanical advantages that make this position dominant. Distribute your weight through your chest and hips rather than your arms, creating sustainable structural pressure that does not fatigue your upper body.",
+      "name": "Establish Knee-Line and Hip Control",
+      "text": "Settle on your hip behind the trapped leg with the inside foot in front of the opponent's stomach. Maintain the leg clamp, guide the trapped knee forward and toward the mat, and capture the heel as it becomes exposed.",
       "position": 6
     },
     {
       "@type": "HowToStep",
       "name": "Consolidate Position and Assess Attacks",
-      "text": "Once chest-to-back contact is established and legs are properly threaded, settle your weight and verify all control points. Assess whether the opponent's heel is exposed for immediate heel hook attack or whether they are defending legs well enough that back control advancement is the better option. Secure available grips on their heel, ankle, or upper body before committing to your next offensive action.",
+      "text": "Once inside-foot and knee-line control is established and legs are properly threaded, settle your weight and verify all control points. Assess whether the opponent's heel is exposed for immediate heel hook attack or whether they are defending legs well enough that back control advancement is the better option. Secure available grips on their heel, ankle, or upper body before committing to your next offensive action.",
       "position": 7
     }
   ],
@@ -85,7 +85,7 @@ description: "Execute the Backside 50-50 Entry from Inside Ashi Garami with prec
       "name": "Backside 50-50 top: your opponent hides the heel well, so what offensive options remain?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "When the opponent hides their heel effectively from Backside 50-50 Top, shift focus to back control advancement. Walk your hips up their body using chest pressure to progress toward seat belt control and hooks. Their commitment to heel defense necessarily compromises their back defense. Alternatively, their heel-hiding posture may expose the toe hold or straight ankle lock angle. The position's power lies in this dual-threat system where defending one attack opens another."
+        "text": "If the heel is protected, retain the knee line and inside-foot frame while reassessing the position. A back take requires deliberately leaving the entanglement and establishing torso control; do not let go of the leg connection merely because the opponent is turned away."
       }
     },
     {
@@ -203,7 +203,7 @@ description: "Execute the Backside 50-50 Entry from Inside Ashi Garami with prec
 
 <section id="overview" class="content-section">
 
-As the attacker executing the Backside 50-50 Entry, your objective is to transition from Inside Ashi-Garami to the dominant Backside 50-50 position by rotating your body behind your opponent while maintaining continuous leg entanglement. This transition exploits gaps in the opponent's heel defense by changing the entire positional dynamic rather than forcing submissions against well-defended legs. The entry requires coordinating hip rotation, leg threading, and upper body positioning in a fluid sequence that prevents the opponent from reacting effectively. Success depends on maintaining constant connection through the entangled legs while your body circles behind the opponent, ultimately establishing the chest-to-back pressure that defines Backside 50-50 dominance.
+As the attacker executing the Backside 50-50 Entry, your objective is to transition from Inside Ashi-Garami to the dominant Backside 50-50 position by rotating your body behind your opponent while maintaining continuous leg entanglement. This transition exploits gaps in the opponent's heel defense by changing the entire positional dynamic rather than forcing submissions against well-defended legs. The entry requires coordinating hip rotation, leg threading, and upper body positioning in a fluid sequence that prevents the opponent from reacting effectively. Success depends on maintaining constant connection through the entangled legs while your body circles behind the opponent, ultimately establishing the knee-line and hip control that defines Backside 50-50 dominance.
 
 **From Position**: [[Positions/Ashi Garami/Inside Ashi-Garami]] (Top)
 
@@ -239,7 +239,7 @@ As the attacker executing the Backside 50-50 Entry, your objective is to transit
 - Use the entangled leg as a rotational pivot point rather than trying to disengage and re-engage legs separately
 - Drive hips forward and behind opponent before threading legs into mirrored configuration to establish pressure before completing the entanglement
 - Control rotation speed based on opponent's defensive reactions - accelerate past their frames, slow down to secure each phase when uncontested
-- Establish chest-to-back contact immediately upon completing rotation to prevent opponent from turning to face you
+- Place the inside foot across the stomach and contain the knee line as the rotation finishes, preventing the opponent from turning back in
 - Prioritize positional security over immediate submission attempts after arriving in backside 50-50
 
 
@@ -271,8 +271,8 @@ As the attacker executing the Backside 50-50 Entry, your objective is to transit
 3. **Remove Inside Leg and Begin Rotation**: Withdraw your inside leg from across the opponent's hip and immediately begin threading it behind their far leg to initiate the mirrored 50-50 configuration. This is the most vulnerable phase of the transition because removing the inside leg temporarily reduces your control. Move decisively through this phase without pausing, using your outside leg hook as the primary anchor maintaining connection to their trapped leg.
 4. **Rotate Body Behind Opponent**: Using the entangled leg connection as your pivot axis, circle your torso and hips behind the opponent. Your body should arc around their back in a controlled semicircular path. Drive rotation with your hips rather than pulling with your arms. Throughout the rotation, maintain constant pressure through the entangled legs to prevent the opponent from turning to face you or extracting their leg.
 5. **Thread Legs Into Mirrored Configuration**: As your body arrives behind the opponent, complete the 50-50 leg threading by ensuring both your legs are properly entangled with theirs in the characteristic mirrored pattern. Your inside leg now behind their far leg and outside leg should create the symmetric entanglement where each of your legs controls one of theirs. Verify the entanglement is secure by feeling for tight leg-to-leg contact with no gaps.
-6. **Establish Chest-to-Back Pressure**: Drive your chest firmly against the opponent's upper back, establishing the defining control element of Backside 50-50 Top. This pressure pins their hips, limits their rotation, and creates the visual and mechanical advantages that make this position dominant. Distribute your weight through your chest and hips rather than your arms, creating sustainable structural pressure that does not fatigue your upper body.
-7. **Consolidate Position and Assess Attacks**: Once chest-to-back contact is established and legs are properly threaded, settle your weight and verify all control points. Assess whether the opponent's heel is exposed for immediate heel hook attack or whether they are defending legs well enough that back control advancement is the better option. Secure available grips on their heel, ankle, or upper body before committing to your next offensive action.
+6. **Establish Knee-Line and Hip Control**: Settle on your hip behind the trapped leg with the inside foot in front of the opponent's stomach. Maintain the leg clamp, guide the trapped knee forward and toward the mat, and capture the heel as it becomes exposed.
+7. **Consolidate Position and Assess Attacks**: Once inside-foot and knee-line control is established and legs are properly threaded, settle your weight and verify all control points. Assess whether the opponent's heel is exposed for immediate heel hook attack or whether they are defending legs well enough that back control advancement is the better option. Secure available grips on their heel, ankle, or upper body before committing to your next offensive action.
 
 
 </section>
@@ -296,7 +296,7 @@ As the attacker executing the Backside 50-50 Entry, your objective is to transit
 
 <p class="section-subtitle">How might your opponent counter Backside 50-50 Entry from Ashi?</p>
 
-- **Opponent rotates to face you during the transition, turning into the rotation to prevent backside angle** (Effectiveness: High) - Your Response: If they turn early, abort the transition and return to Inside Ashi-Garami with renewed heel control. If they turn late when you are partially behind them, accelerate your rotation and use chest pressure to push through their turn. Their rotation often exposes the heel briefly - attack if it appears. → Leads to [[Positions/Ashi Garami/Inside Ashi-Garami]]
+- **Opponent rotates to face you during the transition, turning into the rotation to prevent backside angle** (Effectiveness: High) - Your Response: If they turn early, abort the transition and return to Inside Ashi-Garami with renewed heel control. If they turn late when you are partially behind them, accelerate your rotation and use knee-line control to push through their turn. Their rotation often exposes the heel briefly - attack if it appears. → Leads to [[Positions/Ashi Garami/Inside Ashi-Garami]]
 - **Opponent posts with arms and creates frames to block your hip rotation path** (Effectiveness: Medium) - Your Response: Switch to the rolling inversion entry variant which goes underneath their frames rather than around them. Alternatively, strip their posting arm with your free hand before continuing the walk-around rotation. If frames are too strong, attack their heel from current angle rather than forcing the transition. → Leads to [[Positions/Ashi Garami/Inside Ashi-Garami]]
 - **Opponent explosively extracts their leg during the transition when your inside leg is removed from their hip** (Effectiveness: High) - Your Response: Immediately pursue with your hips rather than reaching with arms. If they fully extract, follow them to establish half guard top or re-engage from open guard. The vulnerable window is brief - moving decisively through the inside leg removal phase makes this counter much less effective. Maintain outside leg hook pressure throughout. → Leads to [[Positions/Half Guard]]
 - **Opponent counter-rotates in the same direction to maintain facing position and prevent backside angle** (Effectiveness: Medium) - Your Response: Use their rotation momentum against them by suddenly reversing your rotation direction, catching them off-balance. Alternatively, accelerate your rotation faster than they can counter-rotate by driving aggressively with your hips. If they successfully match your rotation, you may end up in standard 50-50 instead, which remains a viable attacking position. → Leads to [[Positions/Ashi Garami/Inside Ashi-Garami]]
@@ -313,7 +313,7 @@ As the attacker executing the Backside 50-50 Entry, your objective is to transit
 ### 1. Releasing heel control during the rotation phase to use hands for balance or pushing
 
 - **Consequence**: Opponent immediately hides their heel and may extract their leg entirely, resulting in complete loss of position and potential scramble to half guard or worse
-- **Correction**: Maintain heel control throughout the transition or transfer it seamlessly from one hand configuration to another. If you must release the heel briefly, do so only during the final phase when chest-to-back contact is already established and you can quickly reacquire the grip.
+- **Correction**: Maintain heel control throughout the transition or transfer it seamlessly from one hand configuration to another. If you must release the heel briefly, do so only during the final phase when inside-foot and knee-line control is already established and you can quickly reacquire the grip.
 
 ### 2. Pausing with inside leg removed before completing the rotation behind opponent
 
@@ -325,10 +325,10 @@ As the attacker executing the Backside 50-50 Entry, your objective is to transit
 - **Consequence**: Legs disengage from the entanglement, opponent escapes to half guard or standing, and all positional advantage is lost
 - **Correction**: Keep your rotation path tight by staying close to the opponent's body throughout. Your hips should nearly graze their body during the arc. Think of rotating around them, not away from them. The entangled legs serve as a tether - maintain tension on that tether throughout.
 
-### 4. Arriving behind opponent but failing to immediately establish chest-to-back pressure
+### 4. Arriving behind opponent but failing to immediately establish knee-line and hip control
 
 - **Consequence**: Opponent uses the gap between your arrival and pressure establishment to turn and face you, negating the entire purpose of the transition and potentially returning to neutral position
-- **Correction**: Drive your chest into their back as the final action of the rotation, not as a separate step. The rotation should terminate with chest contact, making it one continuous motion that ends in pressure rather than two separate actions of arriving and then pressing.
+- **Correction**: Finish the rotation with the inside foot across the stomach and the knee line contained. Coordinate that leg control with the heel catch so the opponent cannot turn back in during a gap between the entry and the attack.
 
 ### 5. Attempting the entry when opponent has strong forward pressure driving into your ashi garami
 
@@ -354,7 +354,7 @@ As the attacker executing the Backside 50-50 Entry, your objective is to transit
 Practice the rotation path solo, focusing on hip drive, inside leg withdrawal, and circular body movement. Use a grappling dummy or pillow to simulate the opponent's body and practice the arc of rotation. 20 repetitions each direction, emphasizing smooth continuous movement without pausing between phases.
 
 **Phase 2: Cooperative Partner Drilling** - Leg threading and position consolidation
-With a cooperative training partner in inside ashi garami, practice the full entry sequence at slow speed with zero resistance. Focus on correct leg threading into the mirrored 50-50 configuration and establishing chest-to-back contact. 15 repetitions per side with partner providing feedback on control quality.
+With a cooperative training partner in inside ashi garami, practice the full entry sequence at slow speed with zero resistance. Focus on correct leg threading into the mirrored 50-50 configuration and establishing inside-foot and knee-line control. 15 repetitions per side with partner providing feedback on control quality.
 
 **Phase 3: Progressive Resistance** - Timing and counter-management
 Partner provides increasing resistance from 25% to 75%, focusing on common defensive reactions: turning to face, posting arms, attempting leg extraction. Practice recognizing which variant to use based on opponent's defense. 10 repetitions at each resistance level with emphasis on adapting to defensive responses.

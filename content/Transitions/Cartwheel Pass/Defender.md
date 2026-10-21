@@ -156,11 +156,11 @@ description: "How to defend against Cartwheel Pass in BJJ. Recognition cues, def
 
 <section id="overview" class="content-section">
 
-Defending the Cartwheel Pass from bottom grasshopper guard requires early recognition and proactive leg management. The pass succeeds when the top player finds a clear lane beside your body and vaults over your elevated legs before you can react. Your defensive strategy centers on denying that lane by tracking their lateral movement with your inversion angle, keeping at least one leg extended toward them as a barrier, and maintaining active hip elevation that allows rapid repositioning. The cartwheel's explosive nature means late reactions are almost always insufficient - once the top player is airborne, your options narrow dramatically to damage control rather than prevention.
+Defending the Cartwheel Pass from bottom inverted guard requires early recognition and proactive leg management. The pass succeeds when the top player finds a clear lane beside your body and vaults over your elevated legs before you can react. Your defensive strategy centers on denying that lane by tracking their lateral movement with your inversion angle, keeping at least one leg extended toward them as a barrier, and maintaining active hip elevation that allows rapid repositioning. The cartwheel's explosive nature means late reactions are almost always insufficient - once the top player is airborne, your options narrow dramatically to damage control rather than prevention.
 
 The most effective defensive window occurs during the passer's setup phase, before they commit to the cartwheel rotation. During this phase, you can read their circling movement, adjust your inversion to follow, and extend legs to intercept their intended trajectory. If the cartwheel is already in motion, your best options shift to recovering closed guard by wrapping legs as they land, or Granby rolling underneath to reset the engagement entirely. Understanding which defensive response matches each phase of the pass is critical for consistent defense.
 
-**Opponent's Starting Position**: [[Positions/Grasshopper Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Inverted Guard]] (Top)
 
 </section>
 
@@ -204,21 +204,21 @@ The most effective defensive window occurs during the passer's setup phase, befo
 ### 1. Rotate your inversion to track the passer's lateral movement, extending both legs toward their new angle to block the cartwheel lane
 
 - **When to use**: As soon as you detect the passer circling laterally during the setup phase, before they plant their hand on the mat
-- **Targets**: [[Positions/Grasshopper Guard]]
+- **Targets**: [[Positions/Inverted Guard]]
 - **If successful**: Passer finds no clear lane and must abort the cartwheel attempt, returning to neutral standing position facing your guard
 - **Risk**: Over-rotation exposes the opposite side if passer feints and switches direction
 
 ### 2. Extend one leg directly into the passer's hip or shoulder line as they begin the cartwheel, creating a physical barrier they must navigate around or through
 
 - **When to use**: When the passer has already planted their lead hand and begun loading for the cartwheel rotation
-- **Targets**: [[Positions/Grasshopper Guard]]
+- **Targets**: [[Positions/Inverted Guard]]
 - **If successful**: Extended leg intercepts the passer's trajectory mid-rotation, disrupting the cartwheel and either stopping the pass or pulling them into your leg entanglement system
 - **Risk**: If the passer clears your extended leg with sufficient height, you have one less leg in position for guard recovery
 
 ### 3. Execute a Granby roll underneath the passer's aerial trajectory as they cartwheel over, rolling to face them and reestablishing guard contact as they land
 
 - **When to use**: When the cartwheel is already committed and airborne, making leg interception impossible
-- **Targets**: [[Positions/Grasshopper Guard]]
+- **Targets**: [[Positions/Inverted Guard]]
 - **If successful**: You escape underneath the pass entirely, resetting to a guard position facing the passer before they can consolidate side control
 - **Risk**: Mistiming the Granby roll can leave you flat on your back with the passer already in side control
 
@@ -239,9 +239,9 @@ The most effective defensive window occurs during the passer's setup phase, befo
 
 <p class="section-subtitle">What is the best outcome when defending Cartwheel Pass?</p>
 
-### → [[Positions/Grasshopper Guard]]
+### → [[Positions/Inverted Guard]]
 
-Track the passer's lateral movement early by rotating your inversion angle to face them continuously. Extend at least one leg toward their circling path to deny the passing lane. If they plant a hand, immediately shoot your near leg into their hip line to intercept the rotation. The key is reacting during their setup phase - once you block the lane, they must disengage and reset, returning you to your original grasshopper guard position with full offensive capability.
+Track the passer's lateral movement early by rotating your inversion angle to face them continuously. Extend at least one leg toward their circling path to deny the passing lane. If they plant a hand, immediately shoot your near leg into their hip line to intercept the rotation. The key is reacting during their setup phase - once you block the lane, they must disengage and reset, returning you to your original inverted guard position with full offensive capability.
 
 ### → [[Positions/Closed Guard]]
 
@@ -257,7 +257,7 @@ If the cartwheel is already in motion and cannot be stopped, immediately begin c
 
 <p class="section-subtitle">What mistakes should you avoid when defending Cartwheel Pass?</p>
 
-### 1. Staying static in grasshopper guard without tracking the passer's lateral movement
+### 1. Staying static in inverted guard without tracking the passer's lateral movement
 
 - **Consequence**: Creates a wide-open passing lane beside your body that the passer exploits with an uncontested cartwheel, landing in deep side control with no defensive structures in place
 - **Correction**: Continuously rotate your inversion angle to face the passer as they circle, treating their lateral movement as the primary threat and adjusting your leg positioning to always block their most likely cartwheel trajectory
@@ -302,7 +302,7 @@ Partner telegraphs the cartwheel setup by planting their hand slowly. Practice e
 Partner executes full cartwheel passes at moderate speed. Practice Granby rolling underneath and recovering guard as they land. Alternate between Granby recovery and closed guard catch depending on landing position. Build comfort with defensive options when prevention fails.
 
 **Week 7+** - Live defensive sparring
-Positional rounds starting in grasshopper guard where partner can attempt cartwheel passes along with other passing methods. Defend with full defensive toolkit including tracking, interception, Granby rolls, and guard recovery. Develop the ability to read which pass is coming and select appropriate defense in real time.
+Positional rounds starting in inverted guard where partner can attempt cartwheel passes along with other passing methods. Defend with full defensive toolkit including tracking, interception, Granby rolls, and guard recovery. Develop the ability to read which pass is coming and select appropriate defense in real time.
 
 
 

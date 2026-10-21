@@ -3,8 +3,8 @@
 
 
 ---
-title: "Kneebar from Grasshopper Attacker | BJJ Technique Guide | BJJ Graph"
-description: "How to execute Kneebar from Grasshopper in BJJ. Attacking perspective with setup, execution steps, and counters."
+title: "Kneebar Entry from Inverted Guard Attacker | BJJ Technique Guide | BJJ Graph"
+description: "How to execute Kneebar Entry from Inverted Guard in BJJ. Attacking perspective with setup, execution steps, and counters."
 ---
 
 
@@ -15,13 +15,13 @@ description: "How to execute Kneebar from Grasshopper in BJJ. Attacking perspect
 {
   "@context": "https://schema.org",
   "@type": "HowTo",
-  "name": "How to Execute Kneebar from Grasshopper in BJJ",
-  "description": "Step-by-step guide for executing Kneebar from Grasshopper from Grasshopper Guard/Bottom.",
+  "name": "How to Execute Kneebar Entry from Inverted Guard in BJJ",
+  "description": "Step-by-step guide for executing Kneebar Entry from Inverted Guard from Inverted Guard/Bottom.",
   "step": [
     {
       "@type": "HowToStep",
       "name": "Identify target leg",
-      "text": "From grasshopper guard with hips elevated, identify which of opponent's legs is weight-bearing and will remain stationary. This is typically their lead leg when they're preparing to pass or engage. Your attack will be directed at this leg specifically.",
+      "text": "From inverted guard with hips elevated, identify which of opponent's legs is weight-bearing and will remain stationary. This is typically their lead leg when they're preparing to pass or engage. Your attack will be directed at this leg specifically.",
       "position": 1
     },
     {
@@ -68,7 +68,7 @@ description: "How to execute Kneebar from Grasshopper in BJJ. Attacking perspect
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the optimal timing window for initiating the kneebar entry from grasshopper?",
+      "name": "What is the optimal timing window for initiating the kneebar entry from inverted?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The optimal window is when the opponent commits their weight forward onto their lead leg, either when preparing to engage or initiating a pass. This forward weight commitment prevents them from stepping back to escape and ensures the target leg remains stationary during your entry. Attempting the entry when their weight is neutral or rearward allows them to simply retract the leg."
@@ -79,7 +79,7 @@ description: "How to execute Kneebar from Grasshopper in BJJ. Attacking perspect
       "name": "What conditions must exist before you can attempt this technique?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "You need established grasshopper guard with hips elevated and shoulders stable on the mat. The opponent must be standing with at least one weight-bearing leg in range. You need to identify which leg is committed, have your outside leg positioned for threading, and have sufficient core engagement for explosive hip rotation. Attempting without these conditions dramatically reduces success probability."
+        "text": "You need established inverted guard with hips elevated and shoulders stable on the mat. The opponent must be standing with at least one weight-bearing leg in range. You need to identify which leg is committed, have your outside leg positioned for threading, and have sufficient core engagement for explosive hip rotation. Attempting without these conditions dramatically reduces success probability."
       }
     },
     {
@@ -123,8 +123,8 @@ description: "How to execute Kneebar from Grasshopper in BJJ. Attacking perspect
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "name": "Kneebar from Grasshopper Attacker",
-  "description": "How to execute Kneebar from Grasshopper in BJJ. Attacking perspective with setup, execution steps, and counters.",
+  "name": "Kneebar Entry from Inverted Guard Attacker",
+  "description": "How to execute Kneebar Entry from Inverted Guard in BJJ. Attacking perspective with setup, execution steps, and counters.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -154,14 +154,14 @@ description: "How to execute Kneebar from Grasshopper in BJJ. Attacking perspect
     {
       "@type": "ListItem",
       "position": 3,
-      "name": "Kneebar from Grasshopper",
-      "item": "https://bjjgraph.org/Transitions/Kneebar-from-Grasshopper"
+      "name": "Kneebar Entry from Inverted Guard",
+      "item": "https://bjjgraph.org/Transitions/Kneebar-Entry-from-Inverted-Guard"
     },
     {
       "@type": "ListItem",
       "position": 4,
       "name": "Attacker",
-      "item": "https://bjjgraph.org/Transitions/Kneebar-from-Grasshopper/Attacker"
+      "item": "https://bjjgraph.org/Transitions/Kneebar-Entry-from-Inverted-Guard/Attacker"
     }
   ]
 }
@@ -176,15 +176,15 @@ description: "How to execute Kneebar from Grasshopper in BJJ. Attacking perspect
 
 <section id="overview" class="content-section">
 
-The Kneebar from Grasshopper Guard represents one of the highest-percentage leg attack entries available from inverted guard configurations. The grasshopper position provides unique access to the opponent's lead leg that standing passers rarely anticipate. By inverting and positioning your hips beneath their leg, you create immediate hyperextension threat on the knee joint before they can establish passing grips or pressure.
+The Kneebar Entry from Inverted Guard Guard represents one of the highest-percentage leg attack entries available from inverted guard configurations. The inverted position provides unique access to the opponent's lead leg that standing passers rarely anticipate. By inverting and positioning your hips beneath their leg, you create immediate hyperextension threat on the knee joint before they can establish passing grips or pressure.
 
-This technique exploits the fundamental vulnerability of standing guard passers: their weight distribution and base require at least one leg to remain relatively stationary. When you invert into grasshopper, that stationary leg becomes your primary target. The entry involves threading your legs around their knee while your hips rotate to position the back of their knee directly against your hip crease - the optimal fulcrum point for kneebar mechanics.
+This technique exploits the fundamental vulnerability of standing guard passers: their weight distribution and base require at least one leg to remain relatively stationary. When you invert into inverted, that stationary leg becomes your primary target. The entry involves threading your legs around their knee while your hips rotate to position the back of their knee directly against your hip crease - the optimal fulcrum point for kneebar mechanics.
 
-From a systematic perspective, the Kneebar from Grasshopper functions as both a submission threat and a sweep setup. Even if the opponent defends the kneebar by straightening their leg or stepping back, your position often converts directly into X-Guard or Single Leg X entries. This chain-attack potential makes the technique valuable beyond just the submission itself - it forces defensive reactions that open other attacking pathways.
+From a systematic perspective, the Kneebar Entry from Inverted Guard functions as both a submission threat and a sweep setup. Even if the opponent defends the kneebar by straightening their leg or stepping back, your position often converts directly into X-Guard or Single Leg X entries. This chain-attack potential makes the technique valuable beyond just the submission itself - it forces defensive reactions that open other attacking pathways.
 
 The inverted nature of this entry makes it particularly effective in no-gi competition where the absence of gi grips means the top player cannot easily control your inverting motion. The technique gained prominence through modern leg lock systems that emphasize attacking from bottom positions against standing opponents, reversing traditional assumptions about who holds positional advantage.
 
-**From Position**: [[Positions/Grasshopper Guard]] (Bottom)
+**From Position**: [[Positions/Inverted Guard]] (Bottom)
 
 </section>
 
@@ -194,7 +194,7 @@ The inverted nature of this entry makes it particularly effective in no-gi compe
 
 ## Key Attacking Principles
 
-<p class="section-subtitle">What are the key principles for executing Kneebar from Grasshopper?</p>
+<p class="section-subtitle">What are the key principles for executing Kneebar Entry from Inverted Guard?</p>
 
 - Hip positioning beneath opponent's knee creates the fulcrum for hyperextension - your hip crease contacts the back of their knee
 - Control the heel and ankle first before attempting to extend - grip security determines finishing success
@@ -211,9 +211,9 @@ The inverted nature of this entry makes it particularly effective in no-gi compe
 
 ## Prerequisites
 
-<p class="section-subtitle">What do you need before attempting Kneebar from Grasshopper?</p>
+<p class="section-subtitle">What do you need before attempting Kneebar Entry from Inverted Guard?</p>
 
-- Established grasshopper guard with hips elevated and shoulders on mat providing stable base
+- Established inverted guard with hips elevated and shoulders on mat providing stable base
 - Opponent in standing position with at least one leg within range for leg threading
 - Clear targeting of lead leg - identify which leg bears their weight and will remain stationary
 - Your outside leg positioned to hook behind their knee or thread between their legs
@@ -227,9 +227,9 @@ The inverted nature of this entry makes it particularly effective in no-gi compe
 
 ## Execution Steps
 
-<p class="section-subtitle">How do you execute Kneebar from Grasshopper step by step?</p>
+<p class="section-subtitle">How do you execute Kneebar Entry from Inverted Guard step by step?</p>
 
-1. **Identify target leg**: From grasshopper guard with hips elevated, identify which of opponent's legs is weight-bearing and will remain stationary. This is typically their lead leg when they're preparing to pass or engage. Your attack will be directed at this leg specifically.
+1. **Identify target leg**: From inverted guard with hips elevated, identify which of opponent's legs is weight-bearing and will remain stationary. This is typically their lead leg when they're preparing to pass or engage. Your attack will be directed at this leg specifically.
 2. **Thread outside leg**: Shoot your outside leg (the leg furthest from their target leg) behind their knee, hooking the back of their leg with your calf or ankle. This threading motion initiates your entry and prevents them from simply stepping away from your attack.
 3. **Hip rotation entry**: Explosively rotate your hips so that your hip crease positions directly behind their knee joint. Your body should turn perpendicular to their leg, with your belly facing toward their hip. This rotation is the critical moment - it must be fast and committed.
 4. **Secure heel control**: As your hips rotate into position, your hands grip their heel and ankle, pulling their foot tight to your chest. Use a figure-four grip or clasped hands around the heel. Without heel control, they will extract their leg before you can finish.
@@ -246,7 +246,7 @@ The inverted nature of this entry makes it particularly effective in no-gi compe
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[Positions/Kneebar Control]] | 55% |
-| Failure | [[Positions/Grasshopper Guard]] | 30% |
+| Failure | [[Positions/Inverted Guard]] | 30% |
 | Counter | [[Positions/Side Control]] | 15% |
 
 
@@ -256,12 +256,12 @@ The inverted nature of this entry makes it particularly effective in no-gi compe
 
 ## Opponent Counters
 
-<p class="section-subtitle">How might your opponent counter Kneebar from Grasshopper?</p>
+<p class="section-subtitle">How might your opponent counter Kneebar Entry from Inverted Guard?</p>
 
-- **Step back and disengage before entry completes** (Effectiveness: High) - Your Response: Follow with rolling motion to maintain leg contact, or convert to Single Leg X or X-Guard entry as they retreat → Leads to [[Positions/Grasshopper Guard]]
-- **Straighten leg and pull foot toward their hips to prevent heel control** (Effectiveness: Medium) - Your Response: Maintain hip pressure and transition to calf slicer if they straighten, or adjust angle to recapture heel control → Leads to [[Positions/Grasshopper Guard]]
-- **Sprawl heavily to flatten your grasshopper position** (Effectiveness: Medium) - Your Response: If you sense the sprawl coming, abort entry and Granby roll to guard recovery before being flattened → Leads to [[Positions/Side Control]]
-- **Turn toward you and drive knee to mat to kill the angle** (Effectiveness: Medium) - Your Response: Use their turn to transition to inside ashi garami on the same leg - their rotation often exposes better entanglement → Leads to [[Positions/Grasshopper Guard]]
+- **Step back and disengage before entry completes** (Effectiveness: High) - Your Response: Follow with rolling motion to maintain leg contact, or convert to Single Leg X or X-Guard entry as they retreat → Leads to [[Positions/Inverted Guard]]
+- **Straighten leg and pull foot toward their hips to prevent heel control** (Effectiveness: Medium) - Your Response: Maintain hip pressure and transition to calf slicer if they straighten, or adjust angle to recapture heel control → Leads to [[Positions/Inverted Guard]]
+- **Sprawl heavily to flatten your inverted position** (Effectiveness: Medium) - Your Response: If you sense the sprawl coming, abort entry and Granby roll to guard recovery before being flattened → Leads to [[Positions/Side Control]]
+- **Turn toward you and drive knee to mat to kill the angle** (Effectiveness: Medium) - Your Response: Use their turn to transition to inside ashi garami on the same leg - their rotation often exposes better entanglement → Leads to [[Positions/Inverted Guard]]
 
 
 </section>
@@ -270,7 +270,7 @@ The inverted nature of this entry makes it particularly effective in no-gi compe
 
 ## Common Attacking Mistakes
 
-<p class="section-subtitle">What mistakes should you avoid when executing Kneebar from Grasshopper?</p>
+<p class="section-subtitle">What mistakes should you avoid when executing Kneebar Entry from Inverted Guard?</p>
 
 ### 1. Insufficient hip rotation during entry, leaving hips facing wrong direction
 
@@ -310,7 +310,7 @@ The inverted nature of this entry makes it particularly effective in no-gi compe
 
 ## Training Progressions
 
-<p class="section-subtitle">How do you train Kneebar from Grasshopper (Attacker)?</p>
+<p class="section-subtitle">How do you train Kneebar Entry from Inverted Guard (Attacker)?</p>
 
 **Week 1-2** - Entry mechanics
 Practice the hip rotation and leg threading motion with a cooperative partner standing stationary. Focus on achieving correct body positioning with hip crease behind knee. No resistance, no finishing - purely positional drilling.
@@ -322,7 +322,7 @@ Add heel control sequence to entry drill. Partner provides light resistance by a
 Partner actively defends with step-back, leg straightening, and sprawling counters. Practice converting failed entries to X-Guard, Single Leg X, and inside ashi garami. Build chain attack mentality.
 
 **Week 7+** - Live application and integration
-Incorporate into live rolling from grasshopper guard. Work on recognizing entry windows against resisting opponents. Focus on timing, speed, and integrating technique into your overall leg attack system.
+Incorporate into live rolling from inverted guard. Work on recognizing entry windows against resisting opponents. Focus on timing, speed, and integrating technique into your overall leg attack system.
 
 
 
@@ -334,7 +334,7 @@ Incorporate into live rolling from grasshopper guard. Work on recognizing entry 
 
 ## Safety Considerations
 
-<p class="section-subtitle">What are the safety concerns for Kneebar from Grasshopper?</p>
+<p class="section-subtitle">What are the safety concerns for Kneebar Entry from Inverted Guard?</p>
 
 The kneebar attacks the knee joint through hyperextension, which can cause serious ligament damage (ACL, PCL, MCL, LCL) if applied with excessive force or speed. Always apply extension pressure gradually, allowing training partners time to tap before significant pressure builds. Never crank or jerk the submission. In training, establish clear tap protocols and release immediately upon tap signal. Avoid this technique entirely if training partner has existing knee injuries. During drilling, practice positional elements without live extension pressure until both partners are comfortable with the mechanics. Competition application requires even greater control awareness due to adrenaline and resistance levels. Practitioners with hypermobile joints may not feel the submission until damage occurs - communicate clearly with flexible training partners about pressure levels.
 
