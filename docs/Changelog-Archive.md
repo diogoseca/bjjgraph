@@ -11683,6 +11683,32 @@ the 52 reviewer-grep files 458 of 459, defending-landing x2 42 of 42; the one re
 the local site's (no systems.json served). Payload: deferred 506,636 B, one exact step of +130 inside D-351's 506,799; eager gzip 348,698, +2,286 of the
 5,000 cap. Receipts: scratch/article-sections/claude-verify/H64-H79..
 
+Delta 7 (review-claude, HOLD) and D-353, sections-claude, 2026-10-21. CI a60387fb5 was green on every job, but the
+pin let the player's own play cover the pinned hand: a clip of the pinned film opened in place over the escape tray
+(y218-440 over the row at y332), took the escape titles' clicks, and the next relayout hid the playing video under
+S2's rule. A play is now the player's own input and settles the pin, as grading does: the reader's expandClip wrapper
+releases it before its layout (no sync, which could move and pause a film that just started). That alone left the
+titles covered: a probe (H82) showed the film grows over several frames after the play while nothing relays out, and
+an explicit layoutNow then moved the rows from y332 to y456. A film in the media home is now observed like the Videos
+card, so its growth moves the rows below it. That observer made S2's rule flip-flop (a hidden home measures 0, so
+the next layout showed the film again), so the pinned media rule is now sticky until the parts settle; the control
+that keeps the pin through the play first survived on the flip-flop (H83) and is killed at "the playing player stays
+visible through a relayout" once the rule is sticky (H84). The journey: the beyond-ceiling catch with the film in the
+home at the pin; the answers never move before the play; no escape title hits the film; the player stays visible
+through a forced relayout. D7-N1: the reader runner leaves N6's soft landSettled stall out of a kill's evidence unless
+the control's claim is the stall; the six landing-never-published controls still die at their own claims. D7-N2:
+every slot that counts runs prints BUNDLES; H76's dev-versus-head counts ran on the bytes H77 printed (f76602e8,
+919d137b), with no rebuild between them. The prevention rule on these bytes (H85, BUNDLES f76602e8 09bd9079): the whole generated suite 101 of 101,
+every Systems file, the 52 reviewer-grep files 458 of 460 and defending-landing x2 44 of 44. systems-demand-live:46
+is the local site's. pane-keyboard:103 went red once (the deck's prev arrow zero-sized, as if the first page-forward
+had not landed); a bisect without the new observer also went red once in 5 (H87), and D-350's runs found dev
+557c57d14 40 of 40 and head 40 of 40 over 10 full-file runs each (H88), so it is not D-353's and is unclassified at
+that resolution, reported to the orchestrator. Controls, each against a green unmutated baseline: reader 89 of 90, app 11 of 13, the three recorded non-kills as
+before (H86). reader-overwrites-inspect died one line earlier than its claim, because the observed media home lets a
+reader layout run during Inspect's close; that line measures the same claim one instant sooner and now carries its
+message (H88). Payload: deferred 506,734 B, one exact step of +98
+inside D-351's 506,799; eager gzip unchanged at 348,698. Receipts: scratch/article-sections/claude-verify/H81-H86.
+
 ## v1.227.5 — Clips follow the authored move and role
 
 Clips now follow the actual submission, transition or position and the half's own role.
