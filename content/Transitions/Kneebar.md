@@ -63,7 +63,7 @@ description: "Master the Kneebar from Backside 50-50 in BJJ. Complete technique 
 
 **The Kneebar is a leg-lock submission attacked from Backside 50-50 Top that hyperextends the opponent's knee by trapping their leg against your hips and arching to drive straight-line breaking pressure against the joint.**
 
-The Kneebar is a powerful leg lock attack that hyperextends the knee joint by trapping the opponent's leg between your hips and applying breaking pressure against the natural bend of the knee. From Backside 50-50 Top, the kneebar becomes particularly effective because your chest pressure and positional dominance limit your opponent's defensive options while their extended leg presents an obvious target.
+The Kneebar is a powerful leg lock attack that hyperextends the knee joint by trapping the opponent's leg between your hips and applying breaking pressure against the natural bend of the knee. From Backside 50-50 Top, the kneebar becomes particularly effective because your knee-line control and positional dominance limit your opponent's defensive options while their extended leg presents an obvious target.
 
 This submission capitalizes on the inherent vulnerability of the knee joint when isolated and controlled. The attacking practitioner secures the opponent's leg across their hip line, creates a fulcrum point at or just above the knee cap, and applies controlled extension force by arching their hips forward while pulling the ankle toward their chest. The mechanical advantage is substantial when executed correctly, requiring minimal strength to generate significant breaking pressure.
 
@@ -118,7 +118,7 @@ The kneebar from Backside 50-50 integrates seamlessly into modern leg lock syste
 
 - Extend by driving hips forward rather than pulling with arms - hip extension provides greater force with less energy expenditure
 
-- Maintain chest pressure throughout entry to prevent opponent from creating angles or initiating escape sequences
+- Maintain knee-line control throughout entry to prevent opponent from creating angles or initiating escape sequences
 
 - Triangle your legs around opponent's thigh when possible to enhance control and prevent leg extraction
 
@@ -184,7 +184,7 @@ The kneebar from Backside 50-50 integrates seamlessly into modern leg lock syste
 ### Recognition Cues
 
 
-- Attacker releases chest-to-back pressure and begins swinging their body perpendicular to your leg, shifting from positional control to submission attack posture
+- Attacker releases knee-line and hip control and begins swinging their body perpendicular to your leg, shifting from positional control to submission attack posture
 
 - You feel a forearm or hand pinning your hip on one side while the attacker's weight shifts laterally, indicating they are establishing hip control before the kneebar entry
 

@@ -36,6 +36,37 @@ description: "Master Backside 50-50 in BJJ. Strategic guide covering leg entangl
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Backside 50-50 \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Lachlan Giles Roll under to backside 50/50.",
+      "description": "Backside 50-50 film study: Lachlan Giles Roll under to backside 50/50..",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DBbSqQf6iCo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DBbSqQf6iCo",
+      "url": "https://www.youtube.com/watch?v=DBbSqQf6iCo",
+      "duration": "PT109S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Backside 50/50 From Knee on Belly (Try it out Tuesday)",
+      "description": "Backside 50-50 film study: Backside 50/50 From Knee on Belly (Try it out Tuesday).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/LTPdSfUqeFc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/LTPdSfUqeFc",
+      "url": "https://www.youtube.com/watch?v=LTPdSfUqeFc",
+      "duration": "PT19S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -43,7 +74,7 @@ description: "Master Backside 50-50 in BJJ. Strategic guide covering leg entangl
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Backside 50-50",
-  "description": "Backside 50-50 is a leg-entanglement position where both grapplers mirror the standard 50-50 leg configuration, but one player's back faces the opponent's chest, creating a clear top/bottom hierarchy with asymmetric leg-attack and escape options.",
+  "description": "Backside 50-50 is a leg entanglement in which one player turns away while the attacker lies on a hip behind the trapped leg, using an inside foot across the stomach and knee-line control to expose the heel.",
   "inDefinedTermSet": "https://bjjgraph.org/Positions/"
 }
 </script>
@@ -61,16 +92,42 @@ description: "Master Backside 50-50 in BJJ. Strategic guide covering leg entangl
 
 <section id="overview" class="content-section">
 
-**Backside 50-50 is a leg-entanglement position where both grapplers mirror the standard 50-50 leg configuration, but one player's back faces the opponent's chest, creating a clear top/bottom hierarchy with asymmetric leg-attack and escape options.**
+**Backside 50-50 is a leg entanglement in which one player turns away while the attacker lies on a hip behind the trapped leg, using an inside foot across the stomach and knee-line control to expose the heel.**
 
-Backside 50-50 represents a unique leg entanglement configuration where both practitioners maintain the characteristic mirrored leg positioning of standard 50-50, but with one player's back oriented toward the opponent's chest rather than the traditional face-to-face alignment. This asymmetrical orientation fundamentally alters the mechanical and tactical dynamics of the position, creating distinct advantages and disadvantages for each player that don't exist in standard 50-50 variations.
+Backside 50-50 is a turned-away variation of the 50-50 leg entanglement. The player controlling the position lies on a hip or shoulder behind the trapped leg; their inside foot crosses in front of the opponent's stomach. The opponent faces away, and directing the trapped knee forward and toward the mat exposes the heel and limits the ability to turn back in.
 
-The position typically emerges during leg lock exchanges, scrambles, or as a transitional state when one player successfully rotates behind their opponent while maintaining leg entanglement control. Unlike standard 50-50 where both players have relatively equal attacking and defensive capabilities, backside 50-50 creates clear positional hierarchy with the top player (chest against opponent's back) holding significant mechanical and visual advantages over the bottom player (back exposed to opponent).
+The Top role here names the controlling side of this entanglement. It does not require higher hips or weight on the opponent's upper back. The Bottom role is the player turned away with their knee line captured. The leg clamp and inside-foot position provide control while the hands capture the exposed heel.
 
-Backside 50-50 has become increasingly relevant in modern no-gi competition as leg lock systems have evolved beyond basic footlocks into sophisticated entanglement hierarchies. The position serves as both a control platform and a transitional waypoint, offering pathways to superior positions like back control or saddle while maintaining constant submission threats through heel hooks, toe holds, and ankle locks. Understanding both perspectives of this position is essential for any practitioner serious about modern leg lock game development, as the ability to recognize and capitalize on the asymmetries determines success in this complex entanglement.
+Entries can develop during 50-50 or other leg-entanglement exchanges when the opponent stands or rotates away. The controlling player balances heel access against maintaining the knee line; the defender protects the heel and works to recover a facing angle or free the knee. Advancing to back control requires a separate transition out of the leg entanglement.
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Backside 50-50 in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=DBbSqQf6iCo)
+
+<p class="clip-credit"><strong>Lachlan Giles Roll under to backside 50/50.</strong> · 1:49 · <a href="https://www.youtube.com/watch?v=DBbSqQf6iCo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=LTPdSfUqeFc)
+
+<p class="clip-credit"><strong>Backside 50/50 From Knee on Belly (Try it out Tuesday)</strong> · 0:19 · <a href="https://www.youtube.com/watch?v=LTPdSfUqeFc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">
@@ -80,7 +137,7 @@ Backside 50-50 has become increasingly relevant in modern no-gi competition as l
 
 - Asymmetric Advantage Recognition: The back-facing orientation creates inherent mechanical and visual advantages for top player that must be understood and exploited
 
-- Pressure Differential Management: Top player uses chest pressure to control bottom player's hip mobility while bottom must create space through constant movement
+- Turn Prevention: The inside foot across the stomach and control of the trapped knee line limit the defender's ability to turn back in
 
 - Dual-Threat Offensive Systems: Both leg attacks and positional advancement (back control) must be maintained as simultaneous threats from top position
 
@@ -88,7 +145,7 @@ Backside 50-50 has become increasingly relevant in modern no-gi competition as l
 
 - Transitional Awareness: Position rarely exists in isolation - constant evolution toward more dominant or more defensive configurations based on technical execution
 
-- Hip Mobility as Defense: Bottom player must prevent complete flattening through active hip movement and framing to maintain escape opportunities
+- Hip Mobility as Defense: Protect the heel while clearing the inside-foot frame and recovering a facing angle or freeing the knee line
 
 - Systematic Position Improvement: Bottom priority is escape or reversal while top priority is submission or advancement to back control
 
@@ -137,7 +194,7 @@ Backside 50-50 has become increasingly relevant in modern no-gi competition as l
 
 - Position Before Submission: Prioritize improving position over forcing submissions from inferior position
 
-- Distance Control Through Frames: Use frames and movement to prevent opponent from flattening you completely
+- Frame Management: Work against the controlling foot and leg to recover hip movement while protecting the heel
 
 
 ### Available Transitions
@@ -159,9 +216,9 @@ Backside 50-50 has become increasingly relevant in modern no-gi competition as l
 ### Common Mistakes
 
 
-- ❌ **Allowing yourself to be completely flattened on your back with opponent's full chest pressure**
-  - Consequence: Eliminates hip mobility and makes sweeps nearly impossible while giving opponent dominant pressure and control. Once flattened, opponent can focus entirely on attacking your legs or taking your back with minimal risk.
-  - ✅ Correction: Stay active on your side, never fully flat on your back. Use your top arm to post and create frames. Constantly adjust hip position to maintain angles. If being flattened, immediately bridge and turn to side. Recognition: If you feel opponent's full chest weight on your back and can't move your hips, you're too flat.
+- ❌ **Letting the opponent retain both the inside-foot frame and exposed heel without addressing the knee line**
+  - Consequence: The opponent can keep you turned away while controlling the heel, reducing the space available to recover a facing angle or free the trapped knee.
+  - ✅ Correction: Recognize the foot across your stomach and the clamp above your knee. Protect the heel, address that frame, and recover hip movement as the knee line loosens.
 
 - ❌ **Ignoring back control threats while focusing exclusively on leg attacks**
   - Consequence: Opponent transitions to back control, abandoning leg entanglement for a dominant position worth 4 points with superior submission opportunities. Back control is significantly worse than backside 50-50 bottom.
@@ -177,7 +234,7 @@ Backside 50-50 has become increasingly relevant in modern no-gi competition as l
 
 - ❌ **Failing to use frames and posting arms to maintain space**
   - Consequence: Opponent collapses all space between you, making it impossible to move hips or create angles needed for escapes or reversals.
-  - ✅ Correction: Top arm should constantly post on opponent's chest, shoulder, or hip to maintain separation. Bottom arm can frame against opponent's leg or hip. These frames are crucial for maintaining the ability to move.
+  - ✅ Correction: Frame against the controlling foot and leg where reachable. Coordinate the hands and free leg to recover space around the knee line while keeping the heel protected.
 
 - ❌ **Releasing leg entanglement control prematurely while attempting to escape**
   - Consequence: Opponent passes directly to dominant positions like side control or mount once leg entanglement is released without proper preparation.
@@ -196,7 +253,7 @@ Backside 50-50 has become increasingly relevant in modern no-gi competition as l
 ### Key Principles
 
 
-- Pressure Maintenance: Constant chest pressure on opponent's back limits their mobility and offensive options while establishing positional dominance
+- Turn Prevention: Keep the inside foot across the stomach and control the trapped knee line so the opponent cannot freely turn back to face you
 
 - Dual Threat System: Simultaneous threat of leg locks and back control creates difficult defensive decisions forcing opponent errors
 
@@ -234,9 +291,9 @@ Backside 50-50 has become increasingly relevant in modern no-gi competition as l
 ### Common Mistakes
 
 
-- ❌ **Failing to maintain constant chest-to-back pressure while attacking legs**
+- ❌ **Losing the inside-foot frame or knee line while reaching for a leg attack**
   - Consequence: Allows bottom player to create hip movement and angles, enabling sweeps or position improvements. Without constant pressure, your mechanical advantage disappears and the position neutralizes.
-  - ✅ Correction: Maintain heavy, constant chest-to-back pressure throughout all attacking sequences. Your chest should be driving them into the mat, limiting their hip mobility. Even while attacking legs, some portion of your weight should be on their back. Use your hips to drive weight forward. If opponent is creating movement or angles easily, you're not applying enough pressure.
+  - ✅ Correction: Keep the inside foot across the stomach and the trapped knee contained between your legs. Guide the knee toward the mat and capture the heel as the position opens it. If the opponent turns back in, recover the leg configuration before adding finishing pressure.
 
 - ❌ **Tunnel vision on leg locks while ignoring superior back control opportunities**
   - Consequence: Miss high-percentage position advancement to back control (4 points) while forcing lower-percentage leg lock finishes. Opponent may defend legs successfully while you ignore superior positional option.
@@ -246,9 +303,9 @@ Backside 50-50 has become increasingly relevant in modern no-gi competition as l
   - Consequence: Creates sweep opportunities for bottom player, potentially reversing the position entirely. Getting swept from dominant position wastes all positional advantages and energy investment.
   - ✅ Correction: Never sacrifice base for submissions. Keep your base wide and stable throughout all attacks. If you need to commit heavily to a finish, ensure opponent is sufficiently controlled first. Better to slow down and maintain position than rush and get swept.
 
-- ❌ **Using arms instead of chest pressure to control opponent's position**
+- ❌ **Trying to hold the opponent with the arms after losing the leg clamp**
   - Consequence: Arms fatigue quickly and provide weaker control than body weight. Opponent can move more freely, and your attacks become less effective as you tire. Arm-dependent control is unsustainable.
-  - ✅ Correction: Use your chest and body weight as primary control mechanisms. Your arms should be used for attacking legs, not holding position. Let your body structure and weight distribution do the controlling work while arms focus on technical adjustments and submissions.
+  - ✅ Correction: Rebuild the knee-line clamp and inside-foot frame before resuming the attack. Use the hands to control the heel or foot while the legs restrict the opponent's rotation.
 
 - ❌ **Failing to recognize opponent's defensive priorities and attacking blindly**
   - Consequence: Waste time and energy attacking options opponent is prepared to defend while missing openings in areas they're neglecting. Reduces overall efficiency and success rate.

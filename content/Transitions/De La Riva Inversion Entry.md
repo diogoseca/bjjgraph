@@ -3,8 +3,8 @@
 
 
 ---
-title: "De La Riva to Grasshopper Guard | BJJ Technique | BJJ Graph"
-description: "Invert from De La Riva Guard into the inverted Grasshopper Guard to chase a backstepping or circling passer's legs. Setup, execution, and counters for BJJ."
+title: "De La Riva Inversion Entry | BJJ Technique | BJJ Graph"
+description: "Invert from De La Riva Guard into the inverted Inverted Guard to chase a backstepping or circling passer's legs. Setup, execution, and counters for BJJ."
 ---
 
 
@@ -15,9 +15,9 @@ description: "Invert from De La Riva Guard into the inverted Grasshopper Guard t
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "name": "De La Riva to Grasshopper Guard",
-  "description": "Invert from De La Riva Guard into the inverted Grasshopper Guard to chase a backstepping or circling passer\u0027s legs. Setup, execution, and counters for BJJ.",
-  "alternateName": ["DLR Inversion to Grasshopper", "De La Riva Granby to Inverted Guard"],
+  "name": "De La Riva Inversion Entry",
+  "description": "Invert from De La Riva Guard into the inverted Inverted Guard to chase a backstepping or circling passer\u0027s legs. Setup, execution, and counters for BJJ.",
+  "alternateName": ["DLR Inversion to Inverted", "De La Riva Granby to Inverted Guard"],
   "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
 }
 </script>
@@ -29,7 +29,7 @@ description: "Invert from De La Riva Guard into the inverted Grasshopper Guard t
   "itemListElement": [
     { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
     { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
-    { "@type": "ListItem", "position": 3, "name": "De La Riva to Grasshopper Guard", "item": "https://bjjgraph.org/Transitions/De-La-Riva-to-Grasshopper-Guard" }
+    { "@type": "ListItem", "position": 3, "name": "De La Riva Inversion Entry", "item": "https://bjjgraph.org/Transitions/De-La-Riva-Inversion-Entry" }
   ]
 }
 </script>
@@ -42,13 +42,13 @@ description: "Invert from De La Riva Guard into the inverted Grasshopper Guard t
 {
   "@context": "https://schema.org",
   "@type": "ItemList",
-  "name": "De La Riva to Grasshopper Guard \u2014 Film Study",
+  "name": "De La Riva Inversion Entry \u2014 Film Study",
   "itemListElement": [
     {
       "@type": "VideoObject",
       "position": 1,
       "name": "De La Riva to Berimbolo to Leg Drag.",
-      "description": "De La Riva to Grasshopper Guard film study: De La Riva to Berimbolo to Leg Drag..",
+      "description": "De La Riva Inversion Entry film study: De La Riva to Berimbolo to Leg Drag..",
       "thumbnailUrl": "https://i.ytimg.com/vi/BG3c7JlQbow/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/BG3c7JlQbow",
       "url": "https://www.youtube.com/watch?v=BG3c7JlQbow",
@@ -58,7 +58,7 @@ description: "Invert from De La Riva Guard into the inverted Grasshopper Guard t
       "@type": "VideoObject",
       "position": 2,
       "name": "Guarda dela riva com berimbolo",
-      "description": "De La Riva to Grasshopper Guard film study: Guarda dela riva com berimbolo.",
+      "description": "De La Riva Inversion Entry film study: Guarda dela riva com berimbolo.",
       "thumbnailUrl": "https://i.ytimg.com/vi/2BHshl7AeGU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/2BHshl7AeGU",
       "url": "https://www.youtube.com/watch?v=2BHshl7AeGU",
@@ -74,8 +74,8 @@ description: "Invert from De La Riva Guard into the inverted Grasshopper Guard t
 {
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
-  "name": "De La Riva to Grasshopper Guard",
-  "description": "De La Riva to Grasshopper Guard is an inverting transition in which the bottom player keeps their De La Riva hook, drops their head under the passer, and rolls onto their shoulders to elevate the hips into the inverted Grasshopper Guard for leg attacks.",
+  "name": "De La Riva Inversion Entry",
+  "description": "De La Riva Inversion Entry is an inverting transition in which the bottom player keeps their De La Riva hook, drops their head under the passer, and rolls onto their shoulders to elevate the hips into the inverted Inverted Guard for leg attacks.",
   "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
 }
 </script>
@@ -85,24 +85,24 @@ description: "Invert from De La Riva Guard into the inverted Grasshopper Guard t
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <aside class="entity-relations">
-<p class="also-known-as"><em>Also known as:</em> <strong>DLR Inversion to Grasshopper</strong>, <strong>De La Riva Granby to Inverted Guard</strong></p>
+<p class="also-known-as"><em>Also known as:</em> <strong>DLR Inversion to Inverted</strong>, <strong>De La Riva Granby to Inverted Guard</strong></p>
 </aside>
 <div class="role-links">
 
-[[De La Riva to Grasshopper Guard/Attacker|Play as Attacker]]
-[[De La Riva to Grasshopper Guard/Defender|Play as Defender]]
+[[De La Riva Inversion Entry/Attacker|Play as Attacker]]
+[[De La Riva Inversion Entry/Defender|Play as Defender]]
 
 </div>
 
 <section id="overview" class="content-section">
 
-**De La Riva to Grasshopper Guard is an inverting transition in which the bottom player keeps their De La Riva hook, drops their head under the passer, and rolls onto their shoulders to elevate the hips into the inverted Grasshopper Guard for leg attacks.**
+**De La Riva Inversion Entry is an inverting transition in which the bottom player keeps their De La Riva hook, drops their head under the passer, and rolls onto their shoulders to elevate the hips into the inverted Inverted Guard for leg attacks.**
 
-De La Riva to Grasshopper Guard is the standard inversion used to follow a passer who back-steps or circles away from a De La Riva hook, converting an upright open guard into the inverted, shoulder-based Grasshopper Guard. Rather than chasing the disengaging leg with the upper body, the bottom player keeps the De La Riva hook live, drops their head beneath the opponent's hip line, and rolls onto their shoulders so the hips elevate and the legs thread toward the passer's base.
+De La Riva Inversion Entry is the standard inversion used to follow a passer who back-steps or circles away from a De La Riva hook, converting an upright open guard into the inverted, shoulder-based Inverted Guard. Rather than chasing the disengaging leg with the upper body, the bottom player keeps the De La Riva hook live, drops their head beneath the opponent's hip line, and rolls onto their shoulders so the hips elevate and the legs thread toward the passer's base.
 
-This transition is central to modern no-gi guard retention and leg-lock-centric games. When a passer recognizes the De La Riva hook and tries to clear it by back-stepping, leg-dragging, or circling toward the open side, the upright De La Riva player loses the angle and is at risk of being passed. Inverting solves this: by committing the shoulders to the mat and granby-rolling underneath, the guard player stays connected to the legs and re-establishes a live attacking platform from below. From Grasshopper Guard the bottom player can immediately hunt inside and outside ashi entanglements, kneebars, and elevation sweeps.
+This transition is central to modern no-gi guard retention and leg-lock-centric games. When a passer recognizes the De La Riva hook and tries to clear it by back-stepping, leg-dragging, or circling toward the open side, the upright De La Riva player loses the angle and is at risk of being passed. Inverting solves this: by committing the shoulders to the mat and granby-rolling underneath, the guard player stays connected to the legs and re-establishes a live attacking platform from below. From Inverted Guard the bottom player can immediately hunt inside and outside ashi entanglements, kneebars, and elevation sweeps.
 
-The trade-off is real. Inverting concedes upper-body connection and is energy-expensive, so the transition must be timed to the opponent's movement rather than forced. Executed early — as the passer's weight shifts away — it preserves the hook and lands cleanly in Grasshopper. Executed late or without keeping the hook, the inversion can stall (returning to De La Riva) or, worst case, expose the back as the passer rides the rolling motion to a back take.
+The trade-off is real. Inverting concedes upper-body connection and is energy-expensive, so the transition must be timed to the opponent's movement rather than forced. Executed early — as the passer's weight shifts away — it preserves the hook and lands cleanly in Inverted. Executed late or without keeping the hook, the inversion can stall (returning to De La Riva) or, worst case, expose the back as the passer rides the rolling motion to a back take.
 
 **From Position**: [[Positions/De La Riva Guard]] (Bottom)
 **Success Rate**: 55%
@@ -114,7 +114,7 @@ The trade-off is real. Inverting concedes upper-body connection and is energy-ex
 
 ## Film Study
 
-<p class="section-subtitle">Watch De La Riva to Grasshopper Guard in action — curated instructionals</p>
+<p class="section-subtitle">Watch De La Riva Inversion Entry in action — curated instructionals</p>
 
 
 <div class="film-clip">
@@ -143,7 +143,7 @@ The trade-off is real. Inverting concedes upper-body connection and is energy-ex
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Grasshopper Guard]] | 55% |
+| Success | [[Positions/Inverted Guard]] | 55% |
 | Failure | [[Positions/De La Riva Guard]] | 30% |
 | Counter | [[Positions/Back Control]] | 15% |
 
@@ -166,7 +166,7 @@ The trade-off is real. Inverting concedes upper-body connection and is energy-ex
 
 ## Playing as Attacker
 
-[[De La Riva to Grasshopper Guard/Attacker|→ Full Attacker Guide]]
+[[De La Riva Inversion Entry/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -177,7 +177,7 @@ The trade-off is real. Inverting concedes upper-body connection and is energy-ex
 
 - Drop the head beneath the opponent's hip line first; the shoulders and roll follow the head
 
-- Elevate the hips as you surface so you arrive in a true Grasshopper platform, not flattened on your back
+- Elevate the hips as you surface so you arrive in a true Inverted platform, not flattened on your back
 
 - Carry a specific leg-attack target into the inversion - inside ashi, kneebar, or ankle lock - rather than inverting aimlessly
 
@@ -197,7 +197,7 @@ The trade-off is real. Inverting concedes upper-body connection and is energy-ex
 
 - **Roll onto the shoulders and rotate under the base**: Drive off your free foot and roll over your shoulders, rotating your hips up and over toward the opp...
 
-- **Elevate the hips and establish Grasshopper**: As you surface from the roll, fire your core and push your hips toward the ceiling so they sit at ch...
+- **Elevate the hips and establish Inverted**: As you surface from the roll, fire your core and push your hips toward the ceiling so they sit at ch...
 
 - **Thread the legs and attack immediately**: Do not pause in the inversion. Immediately shoot your legs to entangle the opponent's near leg for a...
 
@@ -207,7 +207,7 @@ The trade-off is real. Inverting concedes upper-body connection and is energy-ex
 
 - **Releasing the De La Riva hook before or during the roll**
   - Consequence: You lose your only anchor to the opponent's base and surface from the inversion in open space, allowing the pass to complete or the back to be exposed.
-  - Correction: Treat the hook as non-negotiable - keep it threaded behind the knee throughout the entire roll and only release once a new leg entanglement is established in Grasshopper.
+  - Correction: Treat the hook as non-negotiable - keep it threaded behind the knee throughout the entire roll and only release once a new leg entanglement is established in Inverted.
 
 - **Inverting from a static base when the opponent is square and heavy**
   - Consequence: Without the opponent's weight shifting away, you invert into their pressure and get flattened or stacked, ending up worse than upright De La Riva.
@@ -224,7 +224,7 @@ The trade-off is real. Inverting concedes upper-body connection and is energy-ex
 
 ## Playing as Defender
 
-[[De La Riva to Grasshopper Guard/Defender|→ Full Defender Guide]]
+[[De La Riva Inversion Entry/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 
@@ -237,7 +237,7 @@ The trade-off is real. Inverting concedes upper-body connection and is energy-ex
 
 - Their rolling motion exposes their back - ride the roll and hunt back control rather than resisting the leg
 
-- Stack and step over early to flatten them before their hips can elevate into the Grasshopper platform
+- Stack and step over early to flatten them before their hips can elevate into the Inverted platform
 
 - Keep your free leg back and mobile so it cannot be threaded into a leg entanglement on the way down
 
@@ -274,13 +274,13 @@ The trade-off is real. Inverting concedes upper-body connection and is energy-ex
 ## Variations
 
 
-**DLR to Grasshopper with Ankle Grip**: Before inverting, the bottom player secures a grip on the opponent's far ankle as a second connection point. This reinforces the anchor so the roll is even less likely to spin out, and it pre-loads a straight ankle lock or inside ashi entry on surfacing. (When to use: When the opponent's far leg is reachable and you want maximum connection security through the roll, especially against athletic passers who clear hooks quickly)
+**DLR to Inverted with Ankle Grip**: Before inverting, the bottom player secures a grip on the opponent's far ankle as a second connection point. This reinforces the anchor so the roll is even less likely to spin out, and it pre-loads a straight ankle lock or inside ashi entry on surfacing. (When to use: When the opponent's far leg is reachable and you want maximum connection security through the roll, especially against athletic passers who clear hooks quickly)
 
 
-**Reverse DLR to Grasshopper**: When the opponent circles toward the back side rather than the open side, switch from De La Riva to a Reverse De La Riva hook first, then invert from there into Grasshopper. The roll direction mirrors the standard entry to follow the opposite circle. (When to use: Against a passer who consistently circles to your back side to clear the standard De La Riva hook)
+**Reverse DLR to Inverted**: When the opponent circles toward the back side rather than the open side, switch from De La Riva to a Reverse De La Riva hook first, then invert from there into Inverted. The roll direction mirrors the standard entry to follow the opposite circle. (When to use: Against a passer who consistently circles to your back side to clear the standard De La Riva hook)
 
 
-**DLR Inversion to Direct Kneebar**: Rather than settling the Grasshopper platform, the bottom player rolls straight through the inversion into a rolling kneebar on the hooked leg, using the momentum of the roll to load the submission as they surface. (When to use: When the opponent's near leg is extended and exposed during their back-step, making the kneebar available before they can square back up)
+**DLR Inversion to Direct Kneebar**: Rather than settling the Inverted platform, the bottom player rolls straight through the inversion into a rolling kneebar on the hooked leg, using the momentum of the roll to load the submission as they surface. (When to use: When the opponent's near leg is extended and exposed during their back-step, making the kneebar available before they can square back up)
 
 
 
@@ -292,7 +292,7 @@ The trade-off is real. Inverting concedes upper-body connection and is energy-ex
 
 ## Position Integration
 
-De La Riva to Grasshopper Guard is a connective transition that links the upright open-guard retention game to the inverted leg-attack game, making it a backbone of modern no-gi guard play. It sits in the same family as the Berimbolo and other De La Riva inversions, sharing the head-drop and shoulder-roll mechanics, but it surfaces in a leg-attack platform rather than a back-take spin. Strategically, it converts a passer's disengagement - the back-step, leg-drag, or circle that would normally beat a static guard - into an offensive opportunity, keeping the bottom player connected to the legs when an upright guard would have been passed. From Grasshopper, the transition feeds directly into inside and outside ashi-garami, kneebars, ankle locks, and elevation sweeps to X-Guard and Single Leg X-Guard, so it serves as the on-ramp to an entire leg-entanglement system. Mastering this inversion is essential for guard players who want their De La Riva to remain dangerous against passers who try to circle and disengage rather than pressure straight through, and it pairs with Reverse De La Riva recovery to cover both directions of escape.
+De La Riva Inversion Entry is a connective transition that links the upright open-guard retention game to the inverted leg-attack game, making it a backbone of modern no-gi guard play. It sits in the same family as the Berimbolo and other De La Riva inversions, sharing the head-drop and shoulder-roll mechanics, but it surfaces in a leg-attack platform rather than a back-take spin. Strategically, it converts a passer's disengagement - the back-step, leg-drag, or circle that would normally beat a static guard - into an offensive opportunity, keeping the bottom player connected to the legs when an upright guard would have been passed. From Inverted, the transition feeds directly into inside and outside ashi-garami, kneebars, ankle locks, and elevation sweeps to X-Guard and Single Leg X-Guard, so it serves as the on-ramp to an entire leg-entanglement system. Mastering this inversion is essential for guard players who want their De La Riva to remain dangerous against passers who try to circle and disengage rather than pressure straight through, and it pairs with Reverse De La Riva recovery to cover both directions of escape.
 
 </section>
 
@@ -304,19 +304,19 @@ De La Riva to Grasshopper Guard is a connective transition that links the uprigh
 
 - [[Positions/De La Riva Guard]] - Starting position - the upright open guard from which this inversion is launched
 
-- [[Positions/Grasshopper Guard]] - Target position achieved on a successful inversion under the passer
+- [[Positions/Inverted Guard]] - Target position achieved on a successful inversion under the passer
 
 - [[Positions/De La Riva Guard/Reverse De La Riva Guard]] - Alternative response when the opponent circles to the back side instead of inverting
 
-- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Primary leg-entanglement destination available immediately after landing in Grasshopper
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Primary leg-entanglement destination available immediately after landing in Inverted
 
-- [[Positions/X-Guard/Single Leg X-Guard]] - Sweep platform reachable when coming up from the Grasshopper inversion
+- [[Positions/X-Guard/Single Leg X-Guard]] - Sweep platform reachable when coming up from the Inverted inversion
 
 - [[Systems/Berimbolo]] - Related De La Riva inversion sharing the head-drop and shoulder-roll mechanics
 
 - [[Positions/Back Control]] - Counter destination if the opponent rides the rolling inversion to take the back
 
-- [[Positions/X-Guard]] - Related elevation guard the bottom player can transition to from Grasshopper
+- [[Positions/X-Guard]] - Related elevation guard the bottom player can transition to from Inverted
 
 
 </section>

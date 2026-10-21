@@ -16,7 +16,7 @@ description: "How to execute Pressure Pass through Center in BJJ. Attacking pers
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Pressure Pass through Center in BJJ",
-  "description": "Step-by-step guide for executing Pressure Pass through Center from Grasshopper Guard/Top.",
+  "description": "Step-by-step guide for executing Pressure Pass through Center from Inverted Guard/Top.",
   "step": [
     {
       "@type": "HowToStep",
@@ -79,7 +79,7 @@ description: "How to execute Pressure Pass through Center in BJJ. Attacking pers
       "name": "What position do you start Pressure Pass through Center from?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "This technique starts from facing an opponent in Grasshopper Guard, with you in the top position standing or in low combat base. The opponent is inverted with elevated hips, creating the characteristic grasshopper guard structure that you will collapse with forward pressure."
+        "text": "This technique starts from facing an opponent in Inverted Guard, with you in the top position standing or in low combat base. The opponent is inverted with elevated hips, creating the characteristic inverted guard structure that you will collapse with forward pressure."
       }
     },
     {
@@ -176,13 +176,13 @@ description: "How to execute Pressure Pass through Center in BJJ. Attacking pers
 
 <section id="overview" class="content-section">
 
-The Pressure Pass through Center is a direct, aggressive passing method used when facing an opponent in Grasshopper Guard or similar inverted positions. Rather than circling around the guard or attempting back steps, this pass drives straight through the opponent's defensive structure by collapsing their hip elevation and stacking their inverted posture. The technique capitalizes on the inherent vulnerability of inverted guards—the bottom player's core cannot sustain heavy forward pressure indefinitely.
+The Pressure Pass through Center is a direct, aggressive passing method used when facing an opponent in Inverted Guard or similar inverted positions. Rather than circling around the guard or attempting back steps, this pass drives straight through the opponent's defensive structure by collapsing their hip elevation and stacking their inverted posture. The technique capitalizes on the inherent vulnerability of inverted guards—the bottom player's core cannot sustain heavy forward pressure indefinitely.
 
 This pass is most effective when the bottom player's hips begin to sag from fatigue or when they commit to a leg entanglement attempt that temporarily compromises their defensive structure. The key mechanical principle involves driving your weight through your chest and hips directly into the opponent's elevated legs and hips, forcing them to bear your weight while inverted. As their inversion collapses under the pressure, you continue driving forward, flattening them and transitioning past their legs to side control.
 
 Strategically, this pass works as a pressure-based counter to the high-energy inverted guard game. While many practitioners attempt to avoid engagement with inverted guards entirely, the pressure pass through center embraces direct confrontation, using superior weight distribution and timing to break through the guard structure. This approach is particularly valuable when you recognize that the bottom player is tiring or has overcommitted to an attack, creating the window for your forward drive.
 
-**From Position**: [[Positions/Grasshopper Guard]] (Top)
+**From Position**: [[Positions/Inverted Guard]] (Top)
 
 </section>
 
@@ -211,7 +211,7 @@ Strategically, this pass works as a pressure-based counter to the high-energy in
 
 <p class="section-subtitle">What do you need before attempting Pressure Pass through Center?</p>
 
-- Opponent established in Grasshopper Guard with elevated hips and inverted posture
+- Opponent established in Inverted Guard with elevated hips and inverted posture
 - Recognition that opponent's hip elevation is weakening or they are committing to an attack
 - Your base positioned low with hips loaded for forward drive
 - Clear path through center without your legs being deeply entangled
@@ -243,7 +243,7 @@ Strategically, this pass works as a pressure-based counter to the high-energy in
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[Positions/Side Control]] | 65% |
-| Failure | [[Positions/Grasshopper Guard]] | 25% |
+| Failure | [[Positions/Inverted Guard]] | 25% |
 | Counter | [[Positions/Closed Guard]] | 10% |
 
 
@@ -255,10 +255,10 @@ Strategically, this pass works as a pressure-based counter to the high-energy in
 
 <p class="section-subtitle">How might your opponent counter Pressure Pass through Center?</p>
 
-- **Re-inversion and leg hook insertion before pass completes** (Effectiveness: High) - Your Response: Maintain continuous forward pressure without pausing; if they begin to re-invert, increase speed of your forward drive and pin their near leg to prevent hook insertion → Leads to [[Positions/Grasshopper Guard]]
+- **Re-inversion and leg hook insertion before pass completes** (Effectiveness: High) - Your Response: Maintain continuous forward pressure without pausing; if they begin to re-invert, increase speed of your forward drive and pin their near leg to prevent hook insertion → Leads to [[Positions/Inverted Guard]]
 - **Granby roll to guard recovery using your forward momentum** (Effectiveness: Medium) - Your Response: Recognize the roll initiation and sprawl your hips back momentarily, then resume forward pressure once their roll stalls; avoid chasing their movement → Leads to [[Positions/Closed Guard]]
-- **Leg entanglement entry during your forward drive** (Effectiveness: Medium) - Your Response: If you feel a hook behind your knee during the drive, immediately backstep that leg while continuing upper body pressure forward; clear the hook before resuming the pass → Leads to [[Positions/Grasshopper Guard]]
-- **Frame creation with arms against your shoulders** (Effectiveness: Low) - Your Response: Drive through the frames with chest pressure; their inverted position provides poor leverage for maintaining strong frames → Leads to [[Positions/Grasshopper Guard]]
+- **Leg entanglement entry during your forward drive** (Effectiveness: Medium) - Your Response: If you feel a hook behind your knee during the drive, immediately backstep that leg while continuing upper body pressure forward; clear the hook before resuming the pass → Leads to [[Positions/Inverted Guard]]
+- **Frame creation with arms against your shoulders** (Effectiveness: Low) - Your Response: Drive through the frames with chest pressure; their inverted position provides poor leverage for maintaining strong frames → Leads to [[Positions/Inverted Guard]]
 
 
 </section>
@@ -305,7 +305,7 @@ Strategically, this pass works as a pressure-based counter to the high-energy in
 <p class="section-subtitle">How do you train Pressure Pass through Center (Attacker)?</p>
 
 **Week 1-2** - Timing recognition
-Partner holds grasshopper guard and signals when their hips drop. Practice recognizing the timing window without fully executing the pass. Focus on reading hip elevation and body tension that indicates fatigue or commitment to attack.
+Partner holds inverted guard and signals when their hips drop. Practice recognizing the timing window without fully executing the pass. Focus on reading hip elevation and body tension that indicates fatigue or commitment to attack.
 
 **Week 3-4** - Mechanics and pressure
 Execute full pass with partner providing light resistance. Focus on generating pressure through chest and hips rather than arms. Partner allows pass to complete but provides feedback on pressure quality and timing.

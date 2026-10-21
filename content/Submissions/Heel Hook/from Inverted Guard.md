@@ -3,8 +3,8 @@
 
 
 ---
-title: "Heel Hook from Grasshopper Guard | BJJ Submission | BJJ Graph"
-description: "Master the heel hook from grasshopper guard with inverted entry mechanics, leg entanglement transitions, finishing details, and essential safety protocols."
+title: "Heel Hook from Inverted Guard | BJJ Submission | BJJ Graph"
+description: "Master the heel hook from inverted guard with inverted entry mechanics, leg entanglement transitions, finishing details, and essential safety protocols."
 ---
 
 
@@ -15,8 +15,8 @@ description: "Master the heel hook from grasshopper guard with inverted entry me
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "name": "Heel Hook from Grasshopper Guard",
-  "description": "Master the heel hook from grasshopper guard with inverted entry mechanics, leg entanglement transitions, finishing details, and essential safety protocols.",
+  "name": "Heel Hook from Inverted Guard",
+  "description": "Master the heel hook from inverted guard with inverted entry mechanics, leg entanglement transitions, finishing details, and essential safety protocols.",
   "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
 }
 </script>
@@ -28,7 +28,7 @@ description: "Master the heel hook from grasshopper guard with inverted entry me
   "itemListElement": [
     { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
     { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
-    { "@type": "ListItem", "position": 3, "name": "Heel Hook from Grasshopper Guard", "item": "https://bjjgraph.org/Submissions/Heel-Hook-from-Grasshopper-Guard" }
+    { "@type": "ListItem", "position": 3, "name": "Heel Hook from Inverted Guard", "item": "https://bjjgraph.org/Submissions/Heel-Hook-from-Inverted-Guard" }
   ]
 }
 </script>
@@ -41,13 +41,13 @@ description: "Master the heel hook from grasshopper guard with inverted entry me
 {
   "@context": "https://schema.org",
   "@type": "ItemList",
-  "name": "Heel Hook from Grasshopper Guard \u2014 Film Study",
+  "name": "Heel Hook from Inverted Guard \u2014 Film Study",
   "itemListElement": [
     {
       "@type": "VideoObject",
       "position": 1,
       "name": "K Guard 50/50 Entry into Inside Heelhook Finish",
-      "description": "Heel Hook from Grasshopper Guard film study: K Guard 50/50 Entry into Inside Heelhook Finish.",
+      "description": "Heel Hook from Inverted Guard film study: K Guard 50/50 Entry into Inside Heelhook Finish.",
       "thumbnailUrl": "https://i.ytimg.com/vi/ieR8CJ1EUM8/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/ieR8CJ1EUM8",
       "url": "https://www.youtube.com/watch?v=ieR8CJ1EUM8",
@@ -57,7 +57,7 @@ description: "Master the heel hook from grasshopper guard with inverted entry me
       "@type": "VideoObject",
       "position": 2,
       "name": "Lachlan Giles shows how to use hips and get inverted heel hook",
-      "description": "Heel Hook from Grasshopper Guard film study: Lachlan Giles shows how to use hips and get inverted heel hook.",
+      "description": "Heel Hook from Inverted Guard film study: Lachlan Giles shows how to use hips and get inverted heel hook.",
       "thumbnailUrl": "https://i.ytimg.com/vi/S8ZH_9F18jw/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/S8ZH_9F18jw",
       "url": "https://www.youtube.com/watch?v=S8ZH_9F18jw",
@@ -73,8 +73,8 @@ description: "Master the heel hook from grasshopper guard with inverted entry me
 {
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
-  "name": "Heel Hook from Grasshopper Guard",
-  "description": "The Heel Hook from Grasshopper Guard is an inverted leg-lock entry where the bottom player threads their legs around a standing passer's lead leg, secures heel control, and rotates into ashi garami to attack the knee ligaments through lateral rotation.",
+  "name": "Heel Hook from Inverted Guard",
+  "description": "The Heel Hook from Inverted Guard is an inverted leg-lock entry where the bottom player threads their legs around a standing passer's lead leg, secures heel control, and rotates into ashi garami to attack the knee ligaments through lateral rotation.",
   "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
 }
 </script>
@@ -84,7 +84,7 @@ description: "Master the heel hook from grasshopper guard with inverted entry me
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 
-**The Heel Hook from Grasshopper Guard is an inverted leg-lock entry where the bottom player threads their legs around a standing passer's lead leg, secures heel control, and rotates into ashi garami to attack the knee ligaments through lateral rotation.**
+**The Heel Hook from Inverted Guard is an inverted leg-lock entry where the bottom player threads their legs around a standing passer's lead leg, secures heel control, and rotates into ashi garami to attack the knee ligaments through lateral rotation.**
 <div class="principle-meta">
 <span class="meta-chip">Joint Lock</span>
 <span class="meta-chip">Leg Lock</span>
@@ -93,24 +93,24 @@ description: "Master the heel hook from grasshopper guard with inverted entry me
 </div>
 
 > [!danger] Safety
-> Heel Hook from Grasshopper Guard targets the Ankle joint, knee ligaments (ACL/MCL/LCL), and lower leg structural integrity. Primary risk: ACL tear (anterior cruciate ligament rupture). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
+> Heel Hook from Inverted Guard targets the Ankle joint, knee ligaments (ACL/MCL/LCL), and lower leg structural integrity. Primary risk: ACL tear (anterior cruciate ligament rupture). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
-[[Submissions/Heel Hook/from Grasshopper Guard/Attacker|Play as Attacker]]
-[[Submissions/Heel Hook/from Grasshopper Guard/Defender|Play as Defender]]
+[[Submissions/Heel Hook/from Inverted Guard/Attacker|Play as Attacker]]
+[[Submissions/Heel Hook/from Inverted Guard/Defender|Play as Defender]]
 
 </div>
 
 <section id="overview" class="content-section">
 
-The heel hook from grasshopper guard exploits the unique inverted angles available when playing this unorthodox open guard. The bottom player uses elevated hips and a shoulder-based foundation to thread legs around the opponent's lead leg, securing heel control from an angle that standard guard positions cannot provide. The inversion creates access to lateral heel exposure that conventional ashi garami entries require multiple transitional steps to achieve, compressing the attack chain into a single fluid motion from guard to finish.
+The heel hook from inverted guard exploits the unique inverted angles available when playing this unorthodox open guard. The bottom player uses elevated hips and a shoulder-based foundation to thread legs around the opponent's lead leg, securing heel control from an angle that standard guard positions cannot provide. The inversion creates access to lateral heel exposure that conventional ashi garami entries require multiple transitional steps to achieve, compressing the attack chain into a single fluid motion from guard to finish.
 
-What distinguishes this entry from conventional heel hook setups is the deception inherent in the grasshopper configuration. The opponent perceives a guard retention or sweep attempt rather than a direct submission threat, delaying their defensive reactions by critical fractions of a second. The grasshopper position allows the attacker to transition directly from inversion into ashi garami while maintaining constant proximity to the heel, eliminating the usual warning signals that accompany standard leg lock entries.
+What distinguishes this entry from conventional heel hook setups is the deception inherent in the inverted configuration. The opponent perceives a guard retention or sweep attempt rather than a direct submission threat, delaying their defensive reactions by critical fractions of a second. The inverted position allows the attacker to transition directly from inversion into ashi garami while maintaining constant proximity to the heel, eliminating the usual warning signals that accompany standard leg lock entries.
 
-Strategically, this submission functions best within a broader grasshopper guard attack system. When the opponent defends sweeps by posting or widening their base, they inadvertently expose their lead leg to entanglement. The heel hook threat forces a choice between maintaining sweep defense or protecting the legs, creating an offensive dilemma that elevates success rates across all attack paths from this position.
+Strategically, this submission functions best within a broader inverted guard attack system. When the opponent defends sweeps by posting or widening their base, they inadvertently expose their lead leg to entanglement. The heel hook threat forces a choice between maintaining sweep defense or protecting the legs, creating an offensive dilemma that elevates success rates across all attack paths from this position.
 
-**Starting Position**: [[Positions/Grasshopper Guard]] · **From**: [[Positions/Grasshopper Guard]] (Bottom)
+**Starting Position**: [[Positions/Inverted Guard]] · **From**: [[Positions/Inverted Guard]] (Bottom)
 
 </section>
 
@@ -119,7 +119,7 @@ Strategically, this submission functions best within a broader grasshopper guard
 
 ## Film Study
 
-<p class="section-subtitle">Watch Heel Hook from Grasshopper Guard in action — curated instructionals</p>
+<p class="section-subtitle">Watch Heel Hook from Inverted Guard in action — curated instructionals</p>
 
 
 <div class="film-clip">
@@ -149,7 +149,7 @@ Strategically, this submission functions best within a broader grasshopper guard
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 45% |
-| Failure | [[Positions/Grasshopper Guard]] | 36% |
+| Failure | [[Positions/Inverted Guard]] | 36% |
 | Counter | [[Positions/Closed Guard]] | 19% |
 
 
@@ -171,7 +171,7 @@ Strategically, this submission functions best within a broader grasshopper guard
 
 ## Playing as Attacker
 
-[[Submissions/Heel Hook/from Grasshopper Guard/Attacker|→ Full Attacker Guide]]
+[[Submissions/Heel Hook/from Inverted Guard/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -182,7 +182,7 @@ Strategically, this submission functions best within a broader grasshopper guard
 
 - Thread legs to the inside of the opponent's base to prevent easy extraction and stepping away from the entanglement
 
-- Execute the transition from grasshopper inversion to ashi garami finishing position as one continuous unbroken motion
+- Execute the transition from inverted inversion to ashi garami finishing position as one continuous unbroken motion
 
 - Apply rotational pressure using whole-body mechanics from the hip bridge and torso twist rather than arm strength alone
 
@@ -192,13 +192,13 @@ Strategically, this submission functions best within a broader grasshopper guard
 ### Execution Steps
 
 
-- **Establish grasshopper guard base**: From open guard, invert your torso onto your shoulder blades while elevating your hips above your ch...
+- **Establish inverted guard base**: From open guard, invert your torso onto your shoulder blades while elevating your hips above your ch...
 
 - **Thread inside leg for entanglement**: Shoot your inside leg between the opponent's legs, threading it across their lead thigh and position...
 
 - **Capture the heel with two-on-one grip**: Reach both hands to secure the opponent's heel, cupping it with your primary hand while your seconda...
 
-- **Hip switch to ashi garami**: Rotate your hips from the inverted grasshopper position into an inside ashi garami configuration, cl...
+- **Hip switch to ashi garami**: Rotate your hips from the inverted inverted position into an inside ashi garami configuration, clamp...
 
 - **Lock leg triangle and align the knee**: Close your legs in a figure-four or triangle configuration around the opponent's trapped leg and squ...
 
@@ -218,9 +218,9 @@ Strategically, this submission functions best within a broader grasshopper guard
   - Consequence: Creates space that allows the opponent to straighten their leg and pull it free, even with a good heel grip
   - Correction: Squeeze your knees together as a constant throughout the entire transition. Think of your thighs as a vise that never loosens from the moment you begin the hip switch
 
-- **Staying inverted in grasshopper too long without committing to the heel hook entry**
+- **Staying inverted in inverted too long without committing to the heel hook entry**
   - Consequence: Core fatigue accumulates rapidly in the inverted position, degrading your hip elevation and making the transition to ashi garami weak and slow
-  - Correction: Treat grasshopper as a 3-5 second launch platform. Enter with the heel hook as your immediate objective and commit fully within that window or transition to a sustainable guard
+  - Correction: Treat inverted as a 3-5 second launch platform. Enter with the heel hook as your immediate objective and commit fully within that window or transition to a sustainable guard
 
 
 </section>
@@ -229,7 +229,7 @@ Strategically, this submission functions best within a broader grasshopper guard
 
 ## Playing as Defender
 
-[[Submissions/Heel Hook/from Grasshopper Guard/Defender|→ Full Defender Guide]]
+[[Submissions/Heel Hook/from Inverted Guard/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 
@@ -279,7 +279,7 @@ Strategically, this submission functions best within a broader grasshopper guard
 ## Variations
 
 
-**Inside Heel Hook via Leg Thread**: From grasshopper guard, thread the inside leg across the opponent's lead thigh to access the inside heel, transitioning to inside ashi garami for the inside heel hook finish. This variation attacks with inward rotation and is particularly effective when the opponent's lead leg is positioned with the knee facing inward or their stance is narrow. (When to use: When opponent narrows their stance or their lead knee faces inward, exposing the inside heel)
+**Inside Heel Hook via Leg Thread**: From inverted guard, thread the inside leg across the opponent's lead thigh to access the inside heel, transitioning to inside ashi garami for the inside heel hook finish. This variation attacks with inward rotation and is particularly effective when the opponent's lead leg is positioned with the knee facing inward or their stance is narrow. (When to use: When opponent narrows their stance or their lead knee faces inward, exposing the inside heel)
 
 
 **Outside Heel Hook via Wide Hip Switch**: Execute a wider hip switch during the inversion-to-ashi transition, rotating past the standard inside position to access the outside of the heel. The finishing rotation travels outward rather than inward. This requires more space during the transition but bypasses the standard boot defense that blocks inside entries. (When to use: When opponent successfully defends the inside heel hook by straightening their leg or rotating their knee outward)
@@ -293,7 +293,7 @@ Strategically, this submission functions best within a broader grasshopper guard
 
 ## From Which Positions?
 
-- [[Positions/Grasshopper Guard]]
+- [[Positions/Inverted Guard]]
 - [[Positions/Inverted Guard]]
 
 
@@ -307,11 +307,10 @@ Strategically, this submission functions best within a broader grasshopper guard
 - [[Submissions/Achilles Lock]]
 - [[Submissions/Calf Slicer]]
 - [[Submissions/Flying Kneebar]]
-- [[Positions/Grasshopper Guard]] - Starting guard position for this submission variant
+- [[Positions/Inverted Guard]] - Starting guard position for this submission variant
 - [[Positions/Ashi Garami]] - Leg entanglement system used for transitional finishing position
 - [[Positions/Ashi Garami/Inside Ashi-Garami]] - Primary finishing configuration after inversion transition
 - [[Positions/Ashi Garami/Honey Hole]] - Alternative finishing entanglement for inside heel hook variation
-- [[Positions/Inverted Guard]] - Parent guard category sharing inversion mechanics
 - [[Positions/X-Guard/Single Leg X-Guard]] - Alternative leg control position when heel hook is defended
 
 </section>

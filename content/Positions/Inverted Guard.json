@@ -409,29 +409,29 @@
       {
         "transition": "Stack Pass",
         "attempt_probability": {
-          "gi": 14,
-          "nogi": 12
+          "gi": 7,
+          "nogi": 6
         }
       },
       {
         "transition": "Headquarters Pass",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 10
+          "gi": 5,
+          "nogi": 5
         }
       },
       {
         "transition": "Smash Pass",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 9
+          "gi": 5,
+          "nogi": 4
         }
       },
       {
         "transition": "Toreando Pass",
         "attempt_probability": {
           "gi": 12,
-          "nogi": 14
+          "nogi": 13
         }
       },
       {
@@ -444,50 +444,92 @@
       {
         "transition": "Pressure Pass",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 8
+          "gi": 4,
+          "nogi": 4
         }
       },
       {
         "transition": "Back Step Pass",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 8
+          "gi": 10,
+          "nogi": 9
         }
       },
       {
         "transition": "Stack Pass from Inversion",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 5
+          "gi": 9,
+          "nogi": 7
         }
       },
       {
         "transition": "Knee Slice Pass",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 6
+          "gi": 9,
+          "nogi": 11
         }
       },
       {
         "transition": "Leg Weave Pass",
+        "attempt_probability": {
+          "gi": 2,
+          "nogi": 2
+        }
+      },
+      {
+        "transition": "Stack from Inverted",
+        "attempt_probability": {
+          "gi": 2,
+          "nogi": 2
+        }
+      },
+      {
+        "transition": "Toreando from Inverted",
+        "attempt_probability": {
+          "gi": 2,
+          "nogi": 2
+        }
+      },
+      {
+        "transition": "Step Over to Mount",
+        "attempt_probability": {
+          "gi": 3,
+          "nogi": 2
+        }
+      },
+      {
+        "transition": "Sprawl and Disengage",
+        "attempt_probability": {
+          "gi": 4,
+          "nogi": 4
+        }
+      },
+      {
+        "transition": "Cartwheel Pass",
+        "attempt_probability": {
+          "gi": 2,
+          "nogi": 2
+        }
+      },
+      {
+        "transition": "Pressure Pass through Center",
         "attempt_probability": {
           "gi": 4,
           "nogi": 3
         }
       },
       {
-        "transition": "Stack from Inverted",
+        "transition": "Counter Ashi Entry",
         "attempt_probability": {
-          "gi": 4,
+          "gi": 2,
           "nogi": 4
         }
       },
       {
-        "transition": "Toreando from Inverted",
+        "transition": "Double Under Pass",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
+          "gi": 3,
+          "nogi": 3
         }
       }
     ],
@@ -873,57 +915,57 @@
       {
         "transition": "Berimbolo Entry",
         "attempt_probability": {
-          "gi": 20,
-          "nogi": 13
+          "gi": 14,
+          "nogi": 8
         }
       },
       {
         "transition": "Single Leg X Entry",
         "attempt_probability": {
-          "gi": 14,
-          "nogi": 17
+          "gi": 7,
+          "nogi": 8
         }
       },
       {
         "transition": "X-Guard Sweep",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 11
+          "gi": 4,
+          "nogi": 5
         }
       },
       {
         "transition": "Granby Roll to Guard",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 16
+          "gi": 6,
+          "nogi": 8
         }
       },
       {
         "transition": "Omoplata from Inverted Guard",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 3
+          "gi": 3,
+          "nogi": 2
         }
       },
       {
         "transition": "Reverse X-Guard Entry",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 7
+          "gi": 3,
+          "nogi": 3
         }
       },
       {
         "transition": "Technical Stand-up",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 5
+          "gi": 3,
+          "nogi": 2
         }
       },
       {
         "transition": "Bolo Sweep",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 5
+          "gi": 4,
+          "nogi": 3
         },
         "deal_here": true,
         "success_rate": {
@@ -961,22 +1003,92 @@
         "transition": "Reverse De La Riva Recovery",
         "attempt_probability": {
           "gi": 10,
-          "nogi": 9
+          "nogi": 7
         },
         "deal_here": true
       },
       {
         "transition": "Sweep from Inverted Guard",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 5
+          "gi": 2,
+          "nogi": 2
         }
       },
       {
         "transition": "50-50 Entry",
         "attempt_probability": {
           "gi": 6,
-          "nogi": 9
+          "nogi": 8
+        }
+      },
+      {
+        "transition": "Kneebar Entry from Inverted Guard",
+        "attempt_probability": {
+          "gi": 4,
+          "nogi": 5
+        }
+      },
+      {
+        "transition": "Straight Ankle Lock Entry",
+        "attempt_probability": {
+          "gi": 4,
+          "nogi": 4
+        }
+      },
+      {
+        "transition": "Single Leg X Transition",
+        "attempt_probability": {
+          "gi": 6,
+          "nogi": 6
+        }
+      },
+      {
+        "transition": "Inside Ashi Entry",
+        "attempt_probability": {
+          "gi": 5,
+          "nogi": 7
+        }
+      },
+      {
+        "transition": "Rolling Kneebar",
+        "attempt_probability": {
+          "gi": 1,
+          "nogi": 2
+        }
+      },
+      {
+        "transition": "Inverted Guard Elevation Sweep",
+        "attempt_probability": {
+          "gi": 6,
+          "nogi": 5
+        }
+      },
+      {
+        "transition": "Granby to Closed Guard",
+        "attempt_probability": {
+          "gi": 5,
+          "nogi": 4
+        }
+      },
+      {
+        "transition": "Technical Standup from Inversion",
+        "attempt_probability": {
+          "gi": 3,
+          "nogi": 3
+        }
+      },
+      {
+        "transition": "X-Guard Elevation Sweep",
+        "attempt_probability": {
+          "gi": 4,
+          "nogi": 4
+        }
+      },
+      {
+        "transition": "Heel Hook from Inverted Guard",
+        "attempt_probability": {
+          "gi": 0,
+          "nogi": 4
         }
       }
     ],

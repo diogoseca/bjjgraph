@@ -3,8 +3,8 @@
 
 
 ---
-title: "De La Riva to Grasshopper Guard Defender | BJJ Defense Guide | BJJ Graph"
-description: "How to stop the De La Riva inversion to Grasshopper Guard in BJJ. Recognition cues, back-take and pass options, and counters for the passing player."
+title: "De La Riva Inversion Entry Defender | BJJ Defense Guide | BJJ Graph"
+description: "How to stop the De La Riva inversion to Inverted Guard in BJJ. Recognition cues, back-take and pass options, and counters for the passing player."
 ---
 
 
@@ -15,8 +15,8 @@ description: "How to stop the De La Riva inversion to Grasshopper Guard in BJJ. 
 {
   "@context": "https://schema.org",
   "@type": "HowTo",
-  "name": "How to Defend De La Riva to Grasshopper Guard in BJJ",
-  "description": "Step-by-step guide for defending and countering De La Riva to Grasshopper Guard in BJJ.",
+  "name": "How to Defend De La Riva Inversion Entry in BJJ",
+  "description": "Step-by-step guide for defending and countering De La Riva Inversion Entry in BJJ.",
   "step": [
     {
       "@type": "HowToStep",
@@ -33,7 +33,7 @@ description: "How to stop the De La Riva inversion to Grasshopper Guard in BJJ. 
     {
       "@type": "HowToStep",
       "name": "Stack forward and step over to flatten them before their hips elevate",
-      "text": "When you read the head-drop early and can drive forward before they surface from the roll If successful: Your forward pressure crushes the inversion before the Grasshopper platform forms, keeping them flattened and stalling their attack",
+      "text": "When you read the head-drop early and can drive forward before they surface from the roll If successful: Your forward pressure crushes the inversion before the Inverted platform forms, keeping them flattened and stalling their attack",
       "position": 3
     },
     {
@@ -59,7 +59,7 @@ description: "How to stop the De La Riva inversion to Grasshopper Guard in BJJ. 
       "name": "Why is stripping the De La Riva hook the highest-priority defense against this inversion?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The De La Riva hook is the bottom player's anchor to your base. As long as it is live, your back-step or circle simply tethers your retreating leg and powers their roll, landing them in Grasshopper still connected to you. Clearing the hook before you disengage removes the anchor, so the inversion stalls and they are forced back to upright De La Riva."
+        "text": "The De La Riva hook is the bottom player's anchor to your base. As long as it is live, your back-step or circle simply tethers your retreating leg and powers their roll, landing them in Inverted still connected to you. Clearing the hook before you disengage removes the anchor, so the inversion stalls and they are forced back to upright De La Riva."
       }
     },
     {
@@ -75,7 +75,7 @@ description: "How to stop the De La Riva inversion to Grasshopper Guard in BJJ. 
       "name": "How can driving forward to flatten the inversion backfire, and how do you do it safely?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Driving forward feeds your weight into their legs, so flatten the inversion only early, before the Grasshopper platform forms. If mistimed, they redirect that forward pressure into an elevation sweep or an inside ashi entry rather than being flattened. Do it safely by stacking and stepping over only when you can beat their hips to the elevation, while keeping your free leg clear of their threading legs."
+        "text": "Driving forward feeds your weight into their legs, so flatten the inversion only early, before the Inverted platform forms. If mistimed, they redirect that forward pressure into an elevation sweep or an inside ashi entry rather than being flattened. Do it safely by stacking and stepping over only when you can beat their hips to the elevation, while keeping your free leg clear of their threading legs."
       }
     }
   ]
@@ -87,9 +87,9 @@ description: "How to stop the De La Riva inversion to Grasshopper Guard in BJJ. 
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "name": "De La Riva to Grasshopper Guard Defender",
-  "description": "How to stop the De La Riva inversion to Grasshopper Guard in BJJ. Recognition cues, back-take and pass options, and counters for the passing player.",
-  "alternateName": ["DLR Inversion to Grasshopper", "De La Riva Granby to Inverted Guard"],
+  "name": "De La Riva Inversion Entry Defender",
+  "description": "How to stop the De La Riva inversion to Inverted Guard in BJJ. Recognition cues, back-take and pass options, and counters for the passing player.",
+  "alternateName": ["DLR Inversion to Inverted", "De La Riva Granby to Inverted Guard"],
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -119,14 +119,14 @@ description: "How to stop the De La Riva inversion to Grasshopper Guard in BJJ. 
     {
       "@type": "ListItem",
       "position": 3,
-      "name": "De La Riva to Grasshopper Guard",
-      "item": "https://bjjgraph.org/Transitions/De-La-Riva-to-Grasshopper-Guard"
+      "name": "De La Riva Inversion Entry",
+      "item": "https://bjjgraph.org/Transitions/De-La-Riva-Inversion-Entry"
     },
     {
       "@type": "ListItem",
       "position": 4,
       "name": "Defender",
-      "item": "https://bjjgraph.org/Transitions/De-La-Riva-to-Grasshopper-Guard/Defender"
+      "item": "https://bjjgraph.org/Transitions/De-La-Riva-Inversion-Entry/Defender"
     }
   ]
 }
@@ -140,11 +140,11 @@ description: "How to stop the De La Riva inversion to Grasshopper Guard in BJJ. 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <aside class="entity-relations">
-<p class="also-known-as"><em>Also known as:</em> <strong>DLR Inversion to Grasshopper</strong>, <strong>De La Riva Granby to Inverted Guard</strong> <span class="role-hint">(defender)</span></p>
+<p class="also-known-as"><em>Also known as:</em> <strong>DLR Inversion to Inverted</strong>, <strong>De La Riva Granby to Inverted Guard</strong> <span class="role-hint">(defender)</span></p>
 </aside>
 <section id="overview" class="content-section">
 
-As the passing player facing a De La Riva hook, you are the defender when the bottom player tries to invert into Grasshopper Guard. The inversion is their response to your attempt to disengage - back-step, leg-drag, or circle - so the defensive battle is about denying them a clean roll, stripping their anchor before they commit, and recognizing that their rolling motion is itself an opportunity to take the back or finish a pass.
+As the passing player facing a De La Riva hook, you are the defender when the bottom player tries to invert into Inverted Guard. The inversion is their response to your attempt to disengage - back-step, leg-drag, or circle - so the defensive battle is about denying them a clean roll, stripping their anchor before they commit, and recognizing that their rolling motion is itself an opportunity to take the back or finish a pass.
 
 The critical window opens the instant the bottom player drops their head beneath your hip and starts to roll. Before that, strong base management and hook clearance prevent the inversion entirely. Once they commit, you have a choice: ride the roll to a back take while they are momentarily turned away, or step over and stack to flatten them before their hips elevate. The worst response is to chase the disengage carelessly and feed your weight into the very leg connection that powers their inversion.
 
@@ -160,7 +160,7 @@ Advanced defense centers on hook removal and back exposure. The De La Riva hook 
 
 ## How to Recognize This Attack
 
-<p class="section-subtitle">How do you know when someone is attempting De La Riva to Grasshopper Guard?</p>
+<p class="section-subtitle">How do you know when someone is attempting De La Riva Inversion Entry?</p>
 
 - The bottom player keeps a live De La Riva hook on your near leg and grips your far leg or ankle even as you try to step away
 - The bottom player suddenly tucks their chin and drops their head down and underneath your near hip, looking back toward their own seat
@@ -174,13 +174,13 @@ Advanced defense centers on hook removal and back exposure. The De La Riva hook 
 
 ## Key Defensive Principles
 
-<p class="section-subtitle">What are the key principles for defending De La Riva to Grasshopper Guard?</p>
+<p class="section-subtitle">What are the key principles for defending De La Riva Inversion Entry?</p>
 
 - Strip the De La Riva hook before you disengage - without the anchor the inversion cannot land cleanly
 - Recognize the head-drop beneath your hip as the commit signal for the inversion
 - Do not feed your weight into the hooked leg as you back-step; lighten and clear the leg instead
 - Their rolling motion exposes their back - ride the roll and hunt back control rather than resisting the leg
-- Stack and step over early to flatten them before their hips can elevate into the Grasshopper platform
+- Stack and step over early to flatten them before their hips can elevate into the Inverted platform
 - Keep your free leg back and mobile so it cannot be threaded into a leg entanglement on the way down
 - Stay patient against a static De La Riva - only disengage on your terms, not theirs
 
@@ -191,7 +191,7 @@ Advanced defense centers on hook removal and back exposure. The De La Riva hook 
 
 ## Defensive Options
 
-<p class="section-subtitle">What can you do to defend against De La Riva to Grasshopper Guard?</p>
+<p class="section-subtitle">What can you do to defend against De La Riva Inversion Entry?</p>
 
 ### 1. Strip the De La Riva hook by circling your knee out and clearing the foot before you disengage
 
@@ -211,7 +211,7 @@ Advanced defense centers on hook removal and back exposure. The De La Riva hook 
 
 - **When to use**: When you read the head-drop early and can drive forward before they surface from the roll
 - **Targets**: [[Positions/De La Riva Guard]]
-- **If successful**: Your forward pressure crushes the inversion before the Grasshopper platform forms, keeping them flattened and stalling their attack
+- **If successful**: Your forward pressure crushes the inversion before the Inverted platform forms, keeping them flattened and stalling their attack
 - **Risk**: Driving forward feeds your weight toward their legs; if mistimed they redirect your pressure into an elevation sweep or inside ashi entry
 
 ### 4. Keep your free leg retracted and pommel it back as they reach to thread it
@@ -229,7 +229,7 @@ Advanced defense centers on hook removal and back exposure. The De La Riva hook 
 
 ## Best-Case Outcomes for Defender
 
-<p class="section-subtitle">What is the best outcome when defending De La Riva to Grasshopper Guard?</p>
+<p class="section-subtitle">What is the best outcome when defending De La Riva Inversion Entry?</p>
 
 ### → [[Positions/Back Control]]
 
@@ -247,11 +247,11 @@ Strip the De La Riva hook before disengaging and keep your free leg retracted. W
 
 ## Common Defensive Mistakes
 
-<p class="section-subtitle">What mistakes should you avoid when defending De La Riva to Grasshopper Guard?</p>
+<p class="section-subtitle">What mistakes should you avoid when defending De La Riva Inversion Entry?</p>
 
 ### 1. Back-stepping while the De La Riva hook is still live
 
-- **Consequence**: The hook tethers your retreating leg and powers the inversion, so your disengage becomes the exact trigger that lands them in Grasshopper still connected to your base.
+- **Consequence**: The hook tethers your retreating leg and powers the inversion, so your disengage becomes the exact trigger that lands them in Inverted still connected to your base.
 - **Correction**: Strip or clear the hook first by circling your knee out and freeing the foot, then disengage. Never give up your angle while their anchor is still attached to your leg.
 
 ### 2. Resisting the leg entanglement instead of recognizing the back-take opportunity
@@ -272,7 +272,7 @@ Strip the De La Riva hook before disengaging and keep your free leg retracted. W
 
 ## Training Progressions
 
-<p class="section-subtitle">How do you train defense against De La Riva to Grasshopper Guard?</p>
+<p class="section-subtitle">How do you train defense against De La Riva Inversion Entry?</p>
 
 **Week 1-2: Recognition and Hook Clearance** - Reading the inversion commit and stripping the hook before disengaging
 Partner establishes De La Riva and telegraphs the inversion at 30-40% speed. Practice recognizing the head-drop cue and clearing the hook by circling your knee out before you back-step. 20-30 repetitions per session, both sides, prioritizing hook clearance over speed of pass.
@@ -281,10 +281,10 @@ Partner establishes De La Riva and telegraphs the inversion at 30-40% speed. Pra
 Partner commits to the inversion at 50-60% intensity while you practice riding the roll and chasing an inside hook to take the back. 10-15 repetitions per session, developing the timing to follow their rotation rather than resisting their legs.
 
 **Week 5-8: Stack-and-Flatten Timing** - Beating the hip elevation with forward pressure
-Partner inverts and you practice stacking and stepping over early to flatten them before the Grasshopper platform forms, at 60-70% resistance. Emphasize keeping your free leg clear so your pressure does not feed a sweep. 10-15 reps per session.
+Partner inverts and you practice stacking and stepping over early to flatten them before the Inverted platform forms, at 60-70% resistance. Emphasize keeping your free leg clear so your pressure does not feed a sweep. 10-15 reps per session.
 
 **Month 3+: Live Passing Against Inversion** - Full-resistance passing against an inverting De La Riva player
-Start with the partner in De La Riva actively threatening the inversion to Grasshopper. Pass while choosing between hook clearance, back-take off the roll, and stack-and-flatten under competitive pressure. 5-minute rounds, multiple rounds per session.
+Start with the partner in De La Riva actively threatening the inversion to Inverted. Pass while choosing between hook clearance, back-take off the roll, and stack-and-flatten under competitive pressure. 5-minute rounds, multiple rounds per session.
 
 
 

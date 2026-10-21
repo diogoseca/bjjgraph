@@ -21,7 +21,7 @@ description: "How to defend against Stack Pass from Inversion in BJJ. Recognitio
     {
       "@type": "HowToStep",
       "name": "Separate legs and thread for ashi garami entry before stack develops",
-      "text": "Early phase when opponent is attempting to control legs but has not yet secured both - requires at least one leg free to thread If successful: Opponent must disengage the stack to address leg entanglement threat, resetting you to grasshopper guard or better",
+      "text": "Early phase when opponent is attempting to control legs but has not yet secured both - requires at least one leg free to thread If successful: Opponent must disengage the stack to address leg entanglement threat, resetting you to inverted guard or better",
       "position": 1
     },
     {
@@ -33,7 +33,7 @@ description: "How to defend against Stack Pass from Inversion in BJJ. Recognitio
     {
       "@type": "HowToStep",
       "name": "Frame on opponent's shoulders with both hands and push hips away to create space for leg recovery",
-      "text": "Any phase where opponent is driving forward - frames slow the stack and create time for other defensive actions If successful: Stacking pressure is interrupted and you recover hip elevation sufficient to reset leg configurations and resume grasshopper attacks",
+      "text": "Any phase where opponent is driving forward - frames slow the stack and create time for other defensive actions If successful: Stacking pressure is interrupted and you recover hip elevation sufficient to reset leg configurations and resume inverted attacks",
       "position": 3
     }
   ],
@@ -150,13 +150,13 @@ description: "How to defend against Stack Pass from Inversion in BJJ. Recognitio
 
 <section id="overview" class="content-section">
 
-Defending the Stack Pass from Inversion requires recognizing the attack early and acting decisively before compression removes your options. When your opponent begins driving your hips over your shoulders from grasshopper guard, your window for effective defense narrows rapidly with each second of sustained pressure. The critical defensive principle is that prevention massively outperforms reaction - keeping your legs active and separated to deny the initial leg control is far more effective than any escape attempted once fully stacked.
+Defending the Stack Pass from Inversion requires recognizing the attack early and acting decisively before compression removes your options. When your opponent begins driving your hips over your shoulders from inverted guard, your window for effective defense narrows rapidly with each second of sustained pressure. The critical defensive principle is that prevention massively outperforms reaction - keeping your legs active and separated to deny the initial leg control is far more effective than any escape attempted once fully stacked.
 
 The defender must understand the biomechanical reality of being stacked: once your hips pass over your shoulders, your legs become dead weight and your core can no longer generate the hip elevation needed for sweeps or leg entanglements. At this point, your options reduce to Granby rolling to reset or accepting guard recovery in a less favorable position. Successful defense therefore focuses on the early and middle phases of the stack attempt, where leg activity, frame creation, and directional movement can still prevent the compression from completing.
 
-Strategically, the best defense integrates into your overall grasshopper guard game plan. Maintain constant leg activity that makes it difficult for the passer to pin both legs simultaneously. When you feel forward pressure beginning, immediately assess whether your legs are controlled - if they are, address the leg control before the stack develops. If your legs are free, use them to redirect the passer's momentum into a sweep or leg entanglement rather than absorbing the stack passively.
+Strategically, the best defense integrates into your overall inverted guard game plan. Maintain constant leg activity that makes it difficult for the passer to pin both legs simultaneously. When you feel forward pressure beginning, immediately assess whether your legs are controlled - if they are, address the leg control before the stack develops. If your legs are free, use them to redirect the passer's momentum into a sweep or leg entanglement rather than absorbing the stack passively.
 
-**Opponent's Starting Position**: [[Positions/Grasshopper Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Inverted Guard]] (Top)
 
 </section>
 
@@ -202,8 +202,8 @@ Strategically, the best defense integrates into your overall grasshopper guard g
 ### 1. Separate legs and thread for ashi garami entry before stack develops
 
 - **When to use**: Early phase when opponent is attempting to control legs but has not yet secured both - requires at least one leg free to thread
-- **Targets**: [[Positions/Grasshopper Guard]]
-- **If successful**: Opponent must disengage the stack to address leg entanglement threat, resetting you to grasshopper guard or better
+- **Targets**: [[Positions/Inverted Guard]]
+- **If successful**: Opponent must disengage the stack to address leg entanglement threat, resetting you to inverted guard or better
 - **Risk**: If opponent already has solid leg control, threading attempt fails and accelerates the stack by giving them tighter compression angle
 
 ### 2. Granby roll in the direction of stacking pressure to reset to closed guard
@@ -216,8 +216,8 @@ Strategically, the best defense integrates into your overall grasshopper guard g
 ### 3. Frame on opponent's shoulders with both hands and push hips away to create space for leg recovery
 
 - **When to use**: Any phase where opponent is driving forward - frames slow the stack and create time for other defensive actions
-- **Targets**: [[Positions/Grasshopper Guard]]
-- **If successful**: Stacking pressure is interrupted and you recover hip elevation sufficient to reset leg configurations and resume grasshopper attacks
+- **Targets**: [[Positions/Inverted Guard]]
+- **If successful**: Stacking pressure is interrupted and you recover hip elevation sufficient to reset leg configurations and resume inverted attacks
 - **Risk**: Extended arm frames can be stripped by opponent swimming inside, and hand position on hips reduces your ability to establish offensive grips
 
 
@@ -230,7 +230,7 @@ Strategically, the best defense integrates into your overall grasshopper guard g
 
 <p class="section-subtitle">What is the best outcome when defending Stack Pass from Inversion?</p>
 
-### → [[Positions/Grasshopper Guard]]
+### → [[Positions/Inverted Guard]]
 
 Prevent the stack entirely by maintaining active, separated legs that deny the passer control. Use constant hip elevation and leg pummeling to keep at least one leg free for threading. Frame against their shoulders to interrupt forward pressure and buy time for leg recovery.
 
@@ -288,7 +288,7 @@ Partner applies moderate stacking pressure while you practice identifying the op
 Partner applies stack at 75% intensity. Chain defensive options: first attempt leg recovery, if that fails transition to Granby roll, if Granby is blocked frame and hip escape to half guard. Build automatic decision-making under pressure
 
 **Week 7+** - Live positional sparring
-Full resistance rounds starting in grasshopper guard against partner committed to stack passing. Apply complete defensive system including prevention, mid-stack escapes, and worst-case guard recovery sequences
+Full resistance rounds starting in inverted guard against partner committed to stack passing. Apply complete defensive system including prevention, mid-stack escapes, and worst-case guard recovery sequences
 
 
 

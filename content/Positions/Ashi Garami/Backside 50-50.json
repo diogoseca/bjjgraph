@@ -3,15 +3,15 @@
   "slug": "backside-50-50",
   "description": "Master Backside 50-50 in BJJ. Strategic guide covering leg entanglement mechanics, dual-perspective control, and transitions to dominance with complete analysis.",
   "variant_uniqueness": "Back-facing orientation creates pressure asymmetry",
-  "summary": "Backside 50-50 is a leg-entanglement position where both grapplers mirror the standard 50-50 leg configuration, but one player's back faces the opponent's chest, creating a clear top/bottom hierarchy with asymmetric leg-attack and escape options.",
-  "overview": "Backside 50-50 represents a unique leg entanglement configuration where both practitioners maintain the characteristic mirrored leg positioning of standard 50-50, but with one player's back oriented toward the opponent's chest rather than the traditional face-to-face alignment. This asymmetrical orientation fundamentally alters the mechanical and tactical dynamics of the position, creating distinct advantages and disadvantages for each player that don't exist in standard 50-50 variations.\n\nThe position typically emerges during leg lock exchanges, scrambles, or as a transitional state when one player successfully rotates behind their opponent while maintaining leg entanglement control. Unlike standard 50-50 where both players have relatively equal attacking and defensive capabilities, backside 50-50 creates clear positional hierarchy with the top player (chest against opponent's back) holding significant mechanical and visual advantages over the bottom player (back exposed to opponent).\n\nBackside 50-50 has become increasingly relevant in modern no-gi competition as leg lock systems have evolved beyond basic footlocks into sophisticated entanglement hierarchies. The position serves as both a control platform and a transitional waypoint, offering pathways to superior positions like back control or saddle while maintaining constant submission threats through heel hooks, toe holds, and ankle locks. Understanding both perspectives of this position is essential for any practitioner serious about modern leg lock game development, as the ability to recognize and capitalize on the asymmetries determines success in this complex entanglement.",
+  "summary": "Backside 50-50 is a leg entanglement in which one player turns away while the attacker lies on a hip behind the trapped leg, using an inside foot across the stomach and knee-line control to expose the heel.",
+  "overview": "Backside 50-50 is a turned-away variation of the 50-50 leg entanglement. The player controlling the position lies on a hip or shoulder behind the trapped leg; their inside foot crosses in front of the opponent's stomach. The opponent faces away, and directing the trapped knee forward and toward the mat exposes the heel and limits the ability to turn back in.\n\nThe Top role here names the controlling side of this entanglement. It does not require higher hips or weight on the opponent's upper back. The Bottom role is the player turned away with their knee line captured. The leg clamp and inside-foot position provide control while the hands capture the exposed heel.\n\nEntries can develop during 50-50 or other leg-entanglement exchanges when the opponent stands or rotates away. The controlling player balances heel access against maintaining the knee line; the defender protects the heel and works to recover a facing angle or free the knee. Advancing to back control requires a separate transition out of the leg entanglement.",
   "key_principles": [
     "Asymmetric Advantage Recognition: The back-facing orientation creates inherent mechanical and visual advantages for top player that must be understood and exploited",
-    "Pressure Differential Management: Top player uses chest pressure to control bottom player's hip mobility while bottom must create space through constant movement",
+    "Turn Prevention: The inside foot across the stomach and control of the trapped knee line limit the defender's ability to turn back in",
     "Dual-Threat Offensive Systems: Both leg attacks and positional advancement (back control) must be maintained as simultaneous threats from top position",
     "Visual Information Asymmetry: Top player's clear view of leg positioning versus bottom player's limited visibility fundamentally changes attack precision",
     "Transitional Awareness: Position rarely exists in isolation - constant evolution toward more dominant or more defensive configurations based on technical execution",
-    "Hip Mobility as Defense: Bottom player must prevent complete flattening through active hip movement and framing to maintain escape opportunities",
+    "Hip Mobility as Defense: Protect the heel while clearing the inside-foot frame and recovering a facing angle or freeing the knee line",
     "Systematic Position Improvement: Bottom priority is escape or reversal while top priority is submission or advancement to back control"
   ],
   "related_positions": [
@@ -68,7 +68,7 @@
       "no-gi",
       "advanced"
     ],
-    "overview": "Backside 50-50 Top is an advanced leg entanglement position where both practitioners have their legs intertwined, but the top player has their chest against the bottom player's back. This configuration provides significant mechanical and tactical advantages including superior pressure, better leg attack angles, and the constant threat of transitioning to back control.\n\nFrom the top position in backside 50-50, you can see your opponent's legs more clearly, apply pressure with your chest to limit their movement, and access high-percentage leg locks while also threatening to abandon the leg entanglement entirely to secure back control. This dual-threat nature makes the top position particularly powerful in modern no-gi competition.\n\nBackside 50-50 Top is commonly seen in no-gi competition and leg lock-focused training environments, appearing from successful leg entanglement entries, countered leg attacks, or as a transitional position during scrambles. The position rewards technical leg lock knowledge and the ability to manage multiple attacking options simultaneously while maintaining dominant positional control. Success requires balancing pressure application to control opponent's movement with strategic decision-making about when to commit to leg lock finishes versus when to advance to superior positions like back control or saddle.",
+    "overview": "In Backside 50-50 Top, settle on your hip or shoulder behind the opponent's trapped leg as they turn away. Your inside foot crosses in front of their stomach, and your legs contain the knee line. Guide the trapped knee forward and toward the mat while capturing the heel as it becomes exposed.\n\nControl comes from this leg configuration and the restriction on their rotation. Keep the foot frame and knee line connected while adjusting your grips. If the opponent clears the frame or withdraws the knee, rebuild the entanglement before pursuing the finish.\n\nTop is the role label for the controlling side here. It does not describe a torso pin. A back take becomes a separate option only after you deliberately change the leg configuration and establish upper-body control.",
     "state_properties": {
       "point_value": 0,
       "position_type": "Offensive/Controlling",
@@ -77,10 +77,10 @@
       "time_sustainability": "Medium"
     },
     "state_invariants": [
-      "Top player's chest remains in contact with bottom player's back, applying constant forward pressure to restrict hip mobility and offensive options while maintaining superior position",
+      "Top player lies on a hip or shoulder behind the trapped leg, with the inside foot in front of the bottom player's stomach and the trapped knee directed toward the mat",
       "Both practitioners' legs are entangled in mirrored configuration with inside legs controlling outside legs, creating the characteristic 50-50 leg positioning while top player faces opponent's back",
       "Top player maintains clear visual access to opponent's lower body and leg configuration, enabling precise technical adjustments and attack recognition that bottom player lacks",
-      "Top player's hips positioned higher than opponent's hips with ability to drive weight downward through chest, creating pressure differential that limits bottom player's movement and creates attacking opportunities",
+      "The leg clamp contains the trapped knee line and the inside foot limits inward rotation, leaving the hands available to capture the heel",
       "Bottom player's back exposed to top player with limited ability to turn and face opponent, creating structural disadvantage in both leg entanglement exchanges and positional advancement"
     ],
     "prerequisites": [
@@ -92,7 +92,7 @@
       "Solid base management skills to prevent sweeps while maintaining offensive pressure"
     ],
     "key_principles": [
-      "Pressure Maintenance: Constant chest pressure on opponent's back limits their mobility and offensive options while establishing positional dominance",
+      "Turn Prevention: Keep the inside foot across the stomach and control the trapped knee line so the opponent cannot freely turn back to face you",
       "Dual Threat System: Simultaneous threat of leg locks and back control creates difficult defensive decisions forcing opponent errors",
       "Visual Advantage: Clear view of opponent's legs allows precise leg lock mechanics and timing while opponent cannot see your positioning",
       "Hip Control: Control opponent's hip movement to prevent sweeps while maintaining your attacking mobility and base",
@@ -103,8 +103,8 @@
     "flashcards": [
       {
         "question": "What is the primary mechanism for maintaining dominant pressure in Backside 50-50 Top?",
-        "answer": "Chest-to-back pressure is the primary control mechanism. Your chest should be heavy on opponent's upper back, driving their hips into the mat. This limits their hip mobility and prevents them from creating angles or frames. Weight distribution should favor forward pressure rather than sitting back on your heels. Let skeletal structure and gravity do the work rather than muscular effort.",
-        "answer_line": "Chest-to-back pressure pins hips",
+        "answer": "The inside foot across the stomach and the leg clamp around the knee line prevent the opponent from freely turning back in. Stay on your hip behind the trapped leg, guide the knee forward and down, and capture the heel as it appears. Rebuild that connection if the knee starts slipping free.",
+        "answer_line": "Inside foot and knee-line control",
         "distractors": {
           "plausible": [
             "Sit back on heels for base",
@@ -117,8 +117,8 @@
       },
       {
         "question": "In Backside 50-50 top, they start bridging and moving their hips - what do you adjust?",
-        "answer": "Drive your chest pressure forward and down immediately when you feel them bridge. Lower your hips closer to the mat to increase base stability. Use your forearm on their hip to post and prevent the turn. If they continue creating movement, walk your hips higher up their body toward back control rather than fighting to stay in the leg entanglement. Their bridging often aids your advancement.",
-        "answer_line": "Drive chest down, advance to back",
+        "answer": "Follow the opponent's hip movement with your leg clamp and keep the inside foot in front of their stomach. Protect the knee line while adjusting your base on your hip. If they clear the frame, recover control before attacking; pursuing a back take requires a separate release and transition.",
+        "answer_line": "Follow hips; keep foot and knee line",
         "distractors": {
           "plausible": [
             "Sit back and wait it out",
@@ -131,7 +131,7 @@
       },
       {
         "question": "What are the essential grips for maintaining Backside 50-50 Top position?",
-        "answer": "Primary control comes from body positioning, not grips. Your chest pressure and leg entanglement provide base control. Hands should be free for attacking - one hand controlling opponent's heel or ankle for submissions, the other posting or framing against their hip. Avoid using arm strength to hold position as this fatigues quickly and reduces attacking options. Grips are for attacking, structure is for controlling.",
+        "answer": "Your legs contain the knee line and your inside foot limits the turn back in. This lets your hands capture the heel or manage the foot as the opponent moves. Maintain the leg connection during grip changes; a strong hand grip alone cannot replace a lost knee line.",
         "answer_line": "Grips free hands, structure holds",
         "distractors": {
           "plausible": [
@@ -187,7 +187,7 @@
       },
       {
         "question": "How do you manage energy expenditure to maintain Backside 50-50 Top for extended periods?",
-        "answer": "Let your body structure do the work rather than muscular effort. Chest pressure comes from positioning and weight distribution, not active pressing. Legs stay entangled through proper positioning, not squeezing. Arms remain relaxed until attacking. Keep breathing steady. The position should feel sustainable - if you're working hard just to maintain it, your body position is wrong. Recalibrate weight distribution.",
+        "answer": "Use a connected leg clamp and the inside-foot frame to control the opponent's turn while staying balanced on your hip. Adjust with their movement rather than trying to hold their torso down with your arms. Relax unnecessary tension without letting the knee line slip free.",
         "answer_line": "Let structure work, not muscle",
         "distractors": {
           "plausible": [
@@ -308,9 +308,9 @@
     ],
     "common_errors": [
       {
-        "error": "Failing to maintain constant chest-to-back pressure while attacking legs",
+        "error": "Losing the inside-foot frame or knee line while reaching for a leg attack",
         "consequence": "Allows bottom player to create hip movement and angles, enabling sweeps or position improvements. Without constant pressure, your mechanical advantage disappears and the position neutralizes.",
-        "correction": "Maintain heavy, constant chest-to-back pressure throughout all attacking sequences. Your chest should be driving them into the mat, limiting their hip mobility. Even while attacking legs, some portion of your weight should be on their back. Use your hips to drive weight forward. If opponent is creating movement or angles easily, you're not applying enough pressure."
+        "correction": "Keep the inside foot across the stomach and the trapped knee contained between your legs. Guide the knee toward the mat and capture the heel as the position opens it. If the opponent turns back in, recover the leg configuration before adding finishing pressure."
       },
       {
         "error": "Tunnel vision on leg locks while ignoring superior back control opportunities",
@@ -323,9 +323,9 @@
         "correction": "Never sacrifice base for submissions. Keep your base wide and stable throughout all attacks. If you need to commit heavily to a finish, ensure opponent is sufficiently controlled first. Better to slow down and maintain position than rush and get swept."
       },
       {
-        "error": "Using arms instead of chest pressure to control opponent's position",
+        "error": "Trying to hold the opponent with the arms after losing the leg clamp",
         "consequence": "Arms fatigue quickly and provide weaker control than body weight. Opponent can move more freely, and your attacks become less effective as you tire. Arm-dependent control is unsustainable.",
-        "correction": "Use your chest and body weight as primary control mechanisms. Your arms should be used for attacking legs, not holding position. Let your body structure and weight distribution do the controlling work while arms focus on technical adjustments and submissions."
+        "correction": "Rebuild the knee-line clamp and inside-foot frame before resuming the attack. Use the hands to control the heel or foot while the legs restrict the opponent's rotation."
       },
       {
         "error": "Failing to recognize opponent's defensive priorities and attacking blindly",
@@ -351,7 +351,7 @@
       },
       {
         "name": "Pressure Maintenance with Attacks Drill",
-        "description": "Maintain backside 50-50 top position while partner actively tries to create space and hip movement. Focus exclusively on keeping chest pressure heavy while preventing sweeps. No submissions - pure positional control. If bottom player creates significant space, reset and analyze what allowed it.",
+        "description": "Start on the controlling hip behind the trapped leg. The partner slowly tries to clear the inside-foot frame and recover a facing angle. Maintain the knee line and follow the hip movement without applying a submission. Reset whenever the knee escapes the clamp.",
         "duration": "3 minute rounds"
       },
       {
@@ -472,7 +472,23 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "DBbSqQf6iCo",
+        "title": "Lachlan Giles Roll under to backside 50/50.",
+        "channel": "BJJ focus camps",
+        "duration": 109,
+        "vertical": false,
+        "front": true
+      },
+      {
+        "id": "LTPdSfUqeFc",
+        "title": "Backside 50/50 From Knee on Belly (Try it out Tuesday)",
+        "channel": "Thunderdome BJJ",
+        "duration": 19,
+        "vertical": false
+      }
+    ]
   },
   "bottom": {
     "name": "Backside 50-50 Bottom",
@@ -486,7 +502,7 @@
       "no-gi",
       "advanced"
     ],
-    "overview": "Backside 50-50 Bottom is an advanced defensive leg entanglement position where both practitioners have their legs intertwined in mirrored configuration, but the bottom player faces away from their opponent with their back exposed to the opponent's chest. This creates a unique tactical situation where both players have access to leg attacks, but the bottom player must manage significant positional disadvantages while seeking opportunities to sweep, escape, or attack the legs.\n\nThis position is characterized by the mirrored leg entanglement typical of 50-50 variations, but with the critical difference that the bottom player's back is to the opponent, fundamentally changing the mechanical advantages and available techniques. While offering legitimate attack opportunities, the bottom position in backside 50-50 requires careful management of defensive responsibilities and constant work toward position improvement.\n\nBackside 50-50 Bottom is common in no-gi grappling and leg lock-focused competition, where it often arises from scrambles, failed leg attacks, or as a defensive position when transitioning between different leg entanglements. The position demands technical knowledge of leg lock mechanics, positional awareness to prevent being overwhelmed by the top player's advantages, and systematic approach to escaping or reversing the unfavorable configuration. Success requires balancing defensive priorities (preventing back control and defending leg attacks) with offensive opportunities (sweeps and opportunistic submissions) while maintaining constant hip mobility to avoid complete flattening.",
+    "overview": "In Backside 50-50 Bottom, you are turned away from the opponent behind your trapped leg. Their inside foot crosses in front of your stomach and their leg clamp contains your knee line, limiting the turn back in and exposing your heel.\n\nProtect the heel and manage the controlling foot and leg frame before trying to rotate. Work toward freeing the knee line or recovering a facing angle without driving a captured heel through resistance. Their hands and grips may be difficult to see, so respond to changes in leg tension as well as visible cues.\n\nThe immediate problem is the leg entanglement and turn restriction. A back take is a separate threat if the opponent releases the entanglement and establishes upper-body control.",
     "state_properties": {
       "point_value": 0,
       "position_type": "Defensive with offensive options",
@@ -495,10 +511,10 @@
       "time_sustainability": "Short to Medium"
     },
     "state_invariants": [
-      "Bottom player's back is oriented toward top player's chest, creating exposed back position while maintaining leg entanglement configuration with mirrored leg positioning characteristic of 50-50 variations",
+      "Bottom player is turned away from the opponent behind the trapped leg, with the knee line contained in the 50-50 leg configuration",
       "Both legs are entangled with opponent's legs in mirrored 50-50 configuration, with each player's right leg controlling opponent's left leg or vice versa, creating mutual control and attack opportunities despite positional asymmetry",
-      "Bottom player's hips are positioned at an angle to opponent, not completely flat on back, maintaining mobility and preventing complete flattening which would eliminate offensive options and escape pathways",
-      "Top player has positional advantage with ability to apply chest pressure on bottom player's back while maintaining leg entanglement control with both hands free for attacks or control adjustments",
+      "Bottom player's ability to face the opponent is restricted by the inside foot across the stomach and the clamp on the trapped knee line",
+      "Top player controls the trapped knee line with the legs, leaving the hands available for the heel and foot",
       "Both players have access to heel hooks, toe holds, and ankle locks on entangled legs, but top player has superior leverage and visibility advantages for leg attacks while bottom player has reduced mechanical efficiency"
     ],
     "prerequisites": [
@@ -516,13 +532,13 @@
       "Sweeping Mechanics Application: Use leg entanglement and hip movement to off-balance opponent and reverse position",
       "Leg Lock Awareness: Understand available leg attacks for both players and defend appropriately while seeking opportunistic finishes",
       "Position Before Submission: Prioritize improving position over forcing submissions from inferior position",
-      "Distance Control Through Frames: Use frames and movement to prevent opponent from flattening you completely"
+      "Frame Management: Work against the controlling foot and leg to recover hip movement while protecting the heel"
     ],
     "flashcards": [
       {
         "question": "What is the single most important thing to prevent when playing Backside 50-50 Bottom?",
-        "answer": "Prevent being completely flattened with your back fully on the mat. Once flattened, hip mobility disappears, sweeps become impossible, and opponent can attack your legs or back freely. Always stay active on your side with your top arm posting, constantly adjusting hip angles to maintain movement capability.",
-        "answer_line": "Don't get flattened on your back",
+        "answer": "Protect your exposed heel while keeping track of the trapped knee line. Work against the inside-foot frame to recover a facing angle or extract the knee. Do not force a turn while the heel is captured.",
+        "answer_line": "Protect heel; recover knee line",
         "distractors": {
           "plausible": [
             "Keep both hands gripping legs",
@@ -534,9 +550,9 @@
         }
       },
       {
-        "question": "In Backside 50-50 bottom, their chest pressure is flattening you - what do you adjust?",
-        "answer": "Bridge hard immediately to create space and turn to your side. Use your top arm to post on their shoulder or chest to create a frame. Simultaneously, angle your hips away from them to prevent the flattening pressure. If bridge fails, immediately threaten a reversal or leg attack to force them to defend rather than flatten.",
-        "answer_line": "Bridge, post, angle to the side",
+        "question": "In Backside 50-50 bottom, the inside foot blocks your turn back in; what do you address?",
+        "answer": "Protect the heel, then manage the foot across your stomach and the leg clamp around your knee. Recover a facing angle only as those controls loosen. Forcing rotation against an established heel grip can load the trapped knee.",
+        "answer_line": "Protect heel, clear the foot frame",
         "distractors": {
           "plausible": [
             "Push with both hands on mat",
@@ -549,8 +565,8 @@
       },
       {
         "question": "What are the essential frames for maintaining defensive structure in Backside 50-50 Bottom?",
-        "answer": "Top arm frames against opponent's chest, shoulder, or hip to maintain separation and prevent flattening. Bottom arm can frame against their leg or hip for additional stability. These frames work together to create space for hip movement. Without active frames, opponent collapses all space and eliminates your mobility entirely.",
-        "answer_line": "Top arm frames chest or shoulder",
+        "answer": "Use your hands and free leg to manage the opponent's controlling foot and leg where you can reach them. Keep the heel protected while making room to recover the knee line or a facing angle. Do not assume you can reach their upper torso from this orientation.",
+        "answer_line": "Manage the controlling foot and leg",
         "distractors": {
           "plausible": [
             "Underhook their far-side arm",
@@ -634,7 +650,7 @@
     ],
     "decision_tree": [
       {
-        "condition": "If opponent is flattening you with chest pressure and you cannot maintain hip mobility",
+        "condition": "If the inside foot blocks your turn and your knee line remains trapped",
         "actions": [
           {
             "technique": "Rolling Back Take",
@@ -711,9 +727,9 @@
     ],
     "common_errors": [
       {
-        "error": "Allowing yourself to be completely flattened on your back with opponent's full chest pressure",
-        "consequence": "Eliminates hip mobility and makes sweeps nearly impossible while giving opponent dominant pressure and control. Once flattened, opponent can focus entirely on attacking your legs or taking your back with minimal risk.",
-        "correction": "Stay active on your side, never fully flat on your back. Use your top arm to post and create frames. Constantly adjust hip position to maintain angles. If being flattened, immediately bridge and turn to side. Recognition: If you feel opponent's full chest weight on your back and can't move your hips, you're too flat."
+        "error": "Letting the opponent retain both the inside-foot frame and exposed heel without addressing the knee line",
+        "consequence": "The opponent can keep you turned away while controlling the heel, reducing the space available to recover a facing angle or free the trapped knee.",
+        "correction": "Recognize the foot across your stomach and the clamp above your knee. Protect the heel, address that frame, and recover hip movement as the knee line loosens."
       },
       {
         "error": "Ignoring back control threats while focusing exclusively on leg attacks",
@@ -733,7 +749,7 @@
       {
         "error": "Failing to use frames and posting arms to maintain space",
         "consequence": "Opponent collapses all space between you, making it impossible to move hips or create angles needed for escapes or reversals.",
-        "correction": "Top arm should constantly post on opponent's chest, shoulder, or hip to maintain separation. Bottom arm can frame against opponent's leg or hip. These frames are crucial for maintaining the ability to move."
+        "correction": "Frame against the controlling foot and leg where reachable. Coordinate the hands and free leg to recover space around the knee line while keeping the heel protected."
       },
       {
         "error": "Releasing leg entanglement control prematurely while attempting to escape",
@@ -744,7 +760,7 @@
     "training_drills": [
       {
         "name": "Position Maintenance Under Pressure",
-        "description": "Start in backside 50-50 bottom with partner applying moderate chest pressure. Practice maintaining hip mobility, using frames, and preventing complete flattening for 2-minute rounds. Partner gradually increases pressure as you improve.",
+        "description": "Begin with a cooperative partner holding the backside leg configuration without a finishing grip. Practice recognizing the inside-foot frame, protecting the heel, and clearing space to recover a facing angle or free the knee. Increase positional resistance gradually and reset before applying joint pressure.",
         "duration": "5 rounds of 2 minutes"
       },
       {
@@ -917,7 +933,7 @@
   "flashcards_position": [
     {
       "question": "What leg configuration defines Backside 50-50 and distinguishes it from standard 50-50?",
-      "answer": "Both players share the mirrored 50-50 leg entanglement, where each player's inside leg is wedged between the opponent's legs with the feet crossing behind, so that both sets of legs symmetrically interlace and control one another. The defining difference from standard face-to-face 50-50 is orientation: in Backside 50-50 one player's back is turned toward the opponent's chest rather than the two grapplers facing each other. This rotation preserves the symmetric leg battle but breaks the upper-body symmetry, so the leg entanglement itself is neutral while the torso alignment is not. That single change in facing is what converts a positionally even 50-50 into a hierarchical position.",
+      "answer": "In standard 50-50 the players generally face each other. In Backside 50-50, one player turns away while the other lies on a hip behind the trapped leg, with an inside foot across the stomach. The changed angle exposes the heel and restricts the turn back in.",
       "answer_line": "Mirrored 50-50 legs, backs turned",
       "distractors": {
         "plausible": [
@@ -931,50 +947,50 @@
     },
     {
       "question": "Why does the back-facing orientation create a positional hierarchy when the legs remain symmetric?",
-      "answer": "The 50-50 leg entanglement gives both players near-identical access to the same heel, so the legs alone keep the exchange even. The hierarchy comes entirely from the upper bodies: with one player's back exposed to the opponent's chest, the chest-side player can apply forward pressure and see the leg configuration, while the back-exposed player cannot face their opponent or observe the entanglement directly. This layers an unbalanced torso relationship on top of a balanced leg relationship. The result is a position that is mechanically symmetric below the hips but asymmetric above them, which is why one player is meaningfully ahead despite the shared leg lock threat.",
-      "answer_line": "Torso facing, not legs, creates edge",
+      "answer": "The advantage comes from controlling the trapped knee line and blocking the turn back in with the inside foot. The controlling player is behind the leg with access to the exposed heel; the turned-away player must recover a facing angle or free the knee. The role labels do not require a difference in body height.",
+      "answer_line": "Knee clamp + foot frame create edge",
       "distractors": {
         "plausible": [
           "Whoever grips the heel first wins",
           "Stronger legs control the exchange"
         ],
         "trap": [
-          "Legs alone decide who's on top"
+          "Higher hips always mean top control"
         ]
       }
     },
     {
-      "question": "How does chest-to-back contact control Backside 50-50 for both players?",
-      "answer": "The connection between one player's chest and the other's back is the pivot point of the whole position for both roles. For the chest-side player it is the source of pressure that pins the opponent's hips and restricts their ability to rotate and face inward. For the back-exposed player it is the pressure that must be managed through framing and hip angle to avoid being flattened. Because the legs are symmetrically locked, neither player can simply disengage, so the torso contact becomes the decisive control surface that governs whether the position holds, advances, or reverses. Both players' priorities are organized around whether this chest-to-back connection is maintained or broken.",
-      "answer_line": "Pressure that both roles must manage",
+      "question": "What stops the defender turning back to face the opponent in Backside 50-50?",
+      "answer": "The inside foot across the defender's stomach and the clamp around the trapped knee line restrict the turn. The controlling player guides the knee forward and toward the mat while capturing the exposed heel. The defender works to clear the frame and recover the knee line before turning.",
+      "answer_line": "Foot frame + knee-line clamp",
       "distractors": {
         "plausible": [
-          "Only matters for attacker's offense",
-          "Matters only for defender's escape"
+          "Heel grip with the knee line free",
+          "Hip turn with no inside foot frame"
         ],
         "trap": [
-          "Irrelevant since legs decide it"
+          "Body weight alone blocks the turn"
         ]
       }
     },
     {
-      "question": "Why are hip angle and avoiding being flattened the shared fulcrum of Backside 50-50?",
-      "answer": "The position's dynamics hinge on the back-exposed player's hip angle relative to the opponent's chest. As long as that player stays angled on their side with active hips, the entanglement remains a live two-way battle over sweeps, escapes, and leg attacks. If they are flattened fully onto their back, hip mobility collapses, framing space disappears, and the chest-side player gains uncontested access to advance or attack. Both roles therefore orient their effort around this single variable, one working to preserve the angle and the other to erase it. It is the mechanical fulcrum on which the entire position tilts toward one player or the other.",
-      "answer_line": "Staying angled prevents flattening",
+      "question": "Why do the knee line and hip angle matter to both sides of Backside 50-50?",
+      "answer": "The controlling player needs the knee line inside the leg clamp and the inside foot in position to keep the opponent turned away. The defender tries to loosen those connections and recover a facing angle or withdraw the knee. Changes in hip angle can expose the heel, so neither side should force rotation through a captured foot.",
+      "answer_line": "Knee line and angle set heel access",
       "distractors": {
         "plausible": [
           "Only sweeps depend on hip angle",
           "Only escapes depend on hip angle"
         ],
         "trap": [
-          "Flattening doesn't change control"
+          "Hip angle cannot expose the heel"
         ]
       }
     },
     {
       "question": "What creates the visual and information asymmetry between the two players in Backside 50-50?",
-      "answer": "Because one player faces the opponent's back, that chest-side player has a direct line of sight to the shared leg entanglement, including the exposed heels and the precise positioning of both sets of legs. The back-exposed player, turned away, cannot see the leg configuration or the opponent's hands and must rely on tactile feedback alone. Since the legs are symmetric and both players can attack the same heel, this difference in information, rather than a difference in leg leverage, is what lets the chest-side player time attacks and defenses more precisely. The asymmetry is one of perception, and it exists purely because of the back-facing orientation.",
-      "answer_line": "Chest-side player sees the legs",
+      "answer": "The controlling player is behind the trapped leg with access to the exposed heel. The turned-away player has less direct visibility of those grips and must also read pressure and changes in leg position. Visibility helps, but the physical advantage depends on the knee-line clamp and inside-foot frame.",
+      "answer_line": "Player behind the leg sees the heel",
       "distractors": {
         "plausible": [
           "Back-exposed player sees more",
@@ -987,7 +1003,7 @@
     },
     {
       "question": "Why does Backside 50-50 function as a transitional waypoint rather than a stable holding position?",
-      "answer": "The symmetric leg lock keeps both players tethered while the asymmetric torso relationship constantly pushes the exchange toward resolution, so the position rarely stays static. The chest-side player is pulled toward advancing to back control or a stronger entanglement like the saddle, while the back-exposed player is pulled toward facing in, extracting the legs, or reversing. Neither the symmetric legs nor the unbalanced torsos favor a prolonged stall, and both roles are penalized for inactivity in the entanglement. The position is therefore best understood as a crossroads between adjacent configurations rather than a destination in itself.",
+      "answer": "The symmetric leg lock keeps both players tethered while the asymmetric torso relationship constantly pushes the exchange toward resolution, so the position rarely stays static. The player behind the trapped leg is pulled toward advancing to back control or a stronger entanglement like the saddle, while the back-exposed player is pulled toward facing in, extracting the legs, or reversing. Neither the symmetric legs nor the unbalanced torsos favor a prolonged stall, and both roles are penalized for inactivity in the entanglement. The position is therefore best understood as a crossroads between adjacent configurations rather than a destination in itself.",
       "answer_line": "Torso split pushes toward resolution",
       "distractors": {
         "plausible": [
@@ -1001,7 +1017,7 @@
     },
     {
       "question": "How does Backside 50-50 relate mechanically to the saddle and to back control as adjacent positions?",
-      "answer": "Backside 50-50 sits between these positions along a spectrum of leg and torso control. It differs from the saddle in that the legs remain in the symmetric 50-50 mirror rather than the saddle's inside-sankaku configuration, which more completely isolates one leg for attack. It differs from back control in that the players are still tethered by the leg entanglement rather than the chest-side player having freed their legs to establish hooks and a seatbelt. The position's back-facing orientation is precisely what makes both of these adjacent states reachable, since it already places one player's chest against the other's back. Recognizing it as one step removed from each explains why advancement and reversal pressure are always present.",
+      "answer": "Backside 50-50 retains a 50-50 leg configuration with one player turned away. The saddle uses a different inside-triangle leg arrangement. Back control requires leaving the entanglement and establishing control of the torso with a seatbelt and hooks or another back-control configuration. Those are separate transitions, not features already secured by Backside 50-50.",
       "answer_line": "One step from saddle or back control",
       "distractors": {
         "plausible": [
@@ -1015,11 +1031,11 @@
     },
     {
       "question": "Why do both players keep a real heel hook threat in Backside 50-50?",
-      "answer": "The symmetric 50-50 leg entanglement wedges each player's legs against the same exposed heel, so the submission access is shared rather than owned by one side. This means the back-exposed player is never purely defensive at the legs and can counter-attack the heel if the chest-side player overcommits or exposes their own leg. The chest-side player's advantage is not exclusive leg access but superior visibility and pressure, which lets them attack with more control and defend counters more easily. The persistent mutual heel threat is what keeps the position dangerous for both players and forces careful management of leg exposure by whoever attacks.",
+      "answer": "The symmetric 50-50 leg entanglement wedges each player's legs against the same exposed heel, so the submission access is shared rather than owned by one side. This means the back-exposed player is never purely defensive at the legs and can counter-attack the heel if the player behind the trapped leg overcommits or exposes their own leg. The player behind the trapped leg's advantage is not exclusive leg access but superior visibility and pressure, which lets them attack with more control and defend counters more easily. The persistent mutual heel threat is what keeps the position dangerous for both players and forces careful management of leg exposure by whoever attacks.",
       "answer_line": "Symmetric legs share heel access",
       "distractors": {
         "plausible": [
-          "Only chest-side player can attack",
+          "Attack only from behind trapped leg",
           "Only back-exposed player can attack"
         ],
         "trap": [
@@ -1028,5 +1044,22 @@
       }
     }
   ],
-  "clips": []
+  "clips": [
+    {
+      "id": "DBbSqQf6iCo",
+      "title": "Lachlan Giles Roll under to backside 50/50.",
+      "channel": "BJJ focus camps",
+      "duration": 109,
+      "vertical": false,
+      "half": "top"
+    },
+    {
+      "id": "LTPdSfUqeFc",
+      "title": "Backside 50/50 From Knee on Belly (Try it out Tuesday)",
+      "channel": "Thunderdome BJJ",
+      "duration": 19,
+      "vertical": false,
+      "half": "top"
+    }
+  ]
 }

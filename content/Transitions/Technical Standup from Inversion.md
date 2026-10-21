@@ -4,7 +4,7 @@
 
 ---
 title: "Technical Standup from Inversion | BJJ Technique | BJJ Graph"
-description: "Learn Technical Standup from Inversion in BJJ. Step-by-step execution from Grasshopper Guard to standing with complete attacker and defender analysis."
+description: "Learn Technical Standup from Inversion in BJJ. Step-by-step execution from Inverted Guard to standing with complete attacker and defender analysis."
 ---
 
 
@@ -16,7 +16,7 @@ description: "Learn Technical Standup from Inversion in BJJ. Step-by-step execut
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Technical Standup from Inversion",
-  "description": "Learn Technical Standup from Inversion in BJJ. Step-by-step execution from Grasshopper Guard to standing with complete attacker and defender analysis.",
+  "description": "Learn Technical Standup from Inversion in BJJ. Step-by-step execution from Inverted Guard to standing with complete attacker and defender analysis.",
   "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
 }
 </script>
@@ -43,7 +43,7 @@ description: "Learn Technical Standup from Inversion in BJJ. Step-by-step execut
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Technical Standup from Inversion",
-  "description": "Technical Standup from Inversion is a guard-exit technique where a grasshopper-guard player channels their inverted momentum into a hip-under rotation and a posted hand to rise to a standing open guard before distance or fatigue turns the inversion into a liability.",
+  "description": "Technical Standup from Inversion is a guard-exit technique where a inverted-guard player channels their inverted momentum into a hip-under rotation and a posted hand to rise to a standing open guard before distance or fatigue turns the inversion into a liability.",
   "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
 }
 </script>
@@ -61,15 +61,15 @@ description: "Learn Technical Standup from Inversion in BJJ. Step-by-step execut
 
 <section id="overview" class="content-section">
 
-**Technical Standup from Inversion is a guard-exit technique where a grasshopper-guard player channels their inverted momentum into a hip-under rotation and a posted hand to rise to a standing open guard before distance or fatigue turns the inversion into a liability.**
+**Technical Standup from Inversion is a guard-exit technique where a inverted-guard player channels their inverted momentum into a hip-under rotation and a posted hand to rise to a standing open guard before distance or fatigue turns the inversion into a liability.**
 
-The Technical Standup from Inversion is a critical transitional skill that allows a grasshopper guard player to safely exit the inverted position and return to a standing open guard engagement. When the opponent disengages or creates too much distance for effective leg attacks from grasshopper guard, remaining inverted becomes a liability rather than an asset. This technique bridges the gap between the high-energy inverted posture and a sustainable standing guard where the practitioner can reset their offensive options.
+The Technical Standup from Inversion is a critical transitional skill that allows a inverted guard player to safely exit the inverted position and return to a standing open guard engagement. When the opponent disengages or creates too much distance for effective leg attacks from inverted guard, remaining inverted becomes a liability rather than an asset. This technique bridges the gap between the high-energy inverted posture and a sustainable standing guard where the practitioner can reset their offensive options.
 
 The movement requires coordinating a hip-over-shoulder rotation with precise posting mechanics to avoid exposing the back or collapsing into a vulnerable position during the transition. Unlike a standard technical standup from seated guard, the inverted starting point adds complexity because the practitioner must first rotate their hips underneath them before establishing the posting base. The inversion creates momentum that, when properly channeled, actually accelerates the standup sequence rather than hindering it.
 
-Strategically, this technique serves as the essential exit valve for grasshopper guard. Without a reliable standup pathway, the grasshopper player becomes trapped in a position that drains energy rapidly. Knowing when to abandon the inversion and come up to feet is often what separates effective grasshopper guard players from those who exhaust themselves chasing submissions from disadvantageous angles. The technique is most effective when the opponent retreats to a wide base or when fatigue begins compromising hip elevation, and it preserves offensive initiative by transitioning to a standing open guard rather than conceding position.
+Strategically, this technique serves as the essential exit valve for inverted guard. Without a reliable standup pathway, the inverted player becomes trapped in a position that drains energy rapidly. Knowing when to abandon the inversion and come up to feet is often what separates effective inverted guard players from those who exhaust themselves chasing submissions from disadvantageous angles. The technique is most effective when the opponent retreats to a wide base or when fatigue begins compromising hip elevation, and it preserves offensive initiative by transitioning to a standing open guard rather than conceding position.
 
-**From Position**: [[Positions/Grasshopper Guard]] (Bottom)
+**From Position**: [[Positions/Inverted Guard]] (Bottom)
 **Success Rate**: 58%
 
 </section>
@@ -83,7 +83,7 @@ Strategically, this technique serves as the essential exit valve for grasshopper
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[Positions/Open Guard]] | 55% |
-| Failure | [[Positions/Grasshopper Guard]] | 30% |
+| Failure | [[Positions/Inverted Guard]] | 30% |
 | Counter | [[Positions/Headquarters Position]] | 15% |
 
 
@@ -233,7 +233,7 @@ Strategically, this technique serves as the essential exit valve for grasshopper
 
 ## Position Integration
 
-The Technical Standup from Inversion serves as the essential exit valve within the grasshopper guard system. While techniques like the Grasshopper Sweep, Kneebar from Grasshopper, and Single Leg X Transition provide offensive pathways, the technical standup provides the critical defensive reset that prevents the grasshopper player from becoming trapped in an energy-draining inversion. It connects the inverted guard system to the standing open guard game, allowing practitioners to cycle between ground-based inversions and standing engagements based on the opponent's reactions. Within the broader BJJ positional hierarchy, this technique represents the principle that every guard position needs a reliable escape route - the grasshopper player who can seamlessly transition between inversion attacks, sweeps, and standing resets becomes far more difficult to pass than one who can only operate in one plane. The technique also feeds into the leg entanglement ecosystem, as reaching standing open guard creates opportunities for De La Riva entries, single leg X setups, and re-engagement with the grasshopper system once energy is recovered.
+The Technical Standup from Inversion serves as the essential exit valve within the inverted guard system. While techniques like the Inverted Guard Elevation Sweep, Kneebar Entry from Inverted Guard, and Single Leg X Transition provide offensive pathways, the technical standup provides the critical defensive reset that prevents the inverted player from becoming trapped in an energy-draining inversion. It connects the inverted guard system to the standing open guard game, allowing practitioners to cycle between ground-based inversions and standing engagements based on the opponent's reactions. Within the broader BJJ positional hierarchy, this technique represents the principle that every guard position needs a reliable escape route - the inverted player who can seamlessly transition between inversion attacks, sweeps, and standing resets becomes far more difficult to pass than one who can only operate in one plane. The technique also feeds into the leg entanglement ecosystem, as reaching standing open guard creates opportunities for De La Riva entries, single leg X setups, and re-engagement with the inverted system once energy is recovered.
 
 </section>
 
@@ -243,13 +243,13 @@ The Technical Standup from Inversion serves as the essential exit valve within t
 ## Related Techniques
 
 
-- [[Positions/Grasshopper Guard]] - Starting position - inverted guard from which the standup initiates
+- [[Positions/Inverted Guard]] - Starting position - inverted guard from which the standup initiates
 
 - [[Positions/Open Guard]] - Primary destination after successful standup completion
 
-- [[Transitions/Grasshopper Sweep]] - Alternative offensive option when standup conditions are not met
+- [[Transitions/Inverted Guard Elevation Sweep]] - Alternative offensive option when standup conditions are not met
 
-- [[Transitions/Kneebar from Grasshopper]] - Alternative leg attack from same starting position
+- [[Transitions/Kneebar Entry from Inverted Guard]] - Alternative leg attack from same starting position
 
 - [[Transitions/Granby Roll to Guard]] - Bail-out option when standup is countered by forward pressure
 
@@ -257,7 +257,7 @@ The Technical Standup from Inversion serves as the essential exit valve within t
 
 - [[Positions/De La Riva Guard]] - Common guard engagement after reaching standing position
 
-- [[Positions/Inverted Guard]] - Parent guard category that grasshopper guard belongs to
+- [[Positions/Inverted Guard]] - Parent guard category that inverted guard belongs to
 
 - [[Positions/De La Riva Guard/Reverse De La Riva Guard]] - Alternative guard recovery when opponent circles during standup
 

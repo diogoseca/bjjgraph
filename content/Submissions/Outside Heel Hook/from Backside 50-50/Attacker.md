@@ -23,13 +23,13 @@ description: "Execute the Outside Heel Hook from Backside 50-50 with systematic 
     {
       "@type": "HowToStep",
       "name": "Consolidate backside 50-50 control",
-      "text": "Drive chest pressure firmly into opponent's upper back while squeezing your leg entanglement tight. Ensure your hips are positioned higher than your opponent's hips, creating downward gravitational pressure that limits their ability to rotate defensively. This stabilization phase is critical and must not be rushed.",
+      "text": "Settle on your hip behind the trapped leg with the inside foot across the opponent's stomach. Keep the knee line contained and guide the knee toward the mat while capturing the heel as it becomes exposed.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Identify heel exposure and target leg",
-      "text": "While maintaining chest pressure, visually locate the opponent's heel on the trapped leg within your entanglement. Assess whether the heel is exposed with the foot pointing away from their body, or hidden with toes pulled toward the shin and knee rotated inward. If hidden, apply additional squeezing pressure through your legs to force the foot into an exposed position before proceeding.",
+      "text": "While maintaining knee-line control, visually locate the opponent's heel on the trapped leg within your entanglement. Assess whether the heel is exposed with the foot pointing away from their body, or hidden with toes pulled toward the shin and knee rotated inward. If hidden, apply additional squeezing pressure through your legs to force the foot into an exposed position before proceeding.",
       "position": 2
     },
     {
@@ -98,10 +98,10 @@ description: "Execute the Outside Heel Hook from Backside 50-50 with systematic 
     },
     {
       "@type": "Question",
-      "name": "Why is chest-to-back pressure essential before attempting the heel hook grip from backside 50-50?",
+      "name": "Why is knee-line and hip control essential before attempting the heel hook grip from backside 50-50?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Chest-to-back pressure immobilizes the opponent's hips, which is the primary mechanism for heel hook defense. Without hip mobility, the defender cannot rotate their knee inward to hide the heel, cannot bridge to create extraction space, and cannot turn to face the attacker to convert the position. Establishing heavy pressure first means your hands are freed for attacking because your body structure is doing the controlling work, rather than using your hands for both control and attack simultaneously."
+        "text": "The leg clamp contains the knee line, and the inside foot limits the opponent's turn back in. Those controls keep the heel available while you establish a grip. A heel grip alone cannot preserve the position if the knee line escapes."
       }
     },
     {
@@ -211,7 +211,7 @@ description: "Execute the Outside Heel Hook from Backside 50-50 with systematic 
 
 <section id="overview" class="content-section">
 
-Executing the Outside Heel Hook from Backside 50-50 requires systematic control establishment before committing to the finish. The attacking sequence begins with consolidating chest-to-back pressure to neutralize defensive hip mobility, then progresses through heel isolation, grip reinforcement, elbow positioning inside the thigh, and finally controlled lateral rotation combined with hip extension. The backside angle provides a significant mechanical advantage over standard 50-50 heel hook attempts because your body weight pins the opponent's hips, preventing the rotational escapes that commonly defuse heel hooks from symmetric positions. Success depends on patient grip establishment and reading the opponent's defensive reactions to choose between finishing the heel hook, transitioning to alternative leg attacks, or advancing to back control. The dual-threat nature of backside 50-50—legs and back—creates a defensive dilemma that makes the outside heel hook particularly effective when the opponent prioritizes back defense over heel protection.
+Executing the Outside Heel Hook from Backside 50-50 requires systematic control establishment before committing to the finish. The attacking sequence begins with consolidating knee-line and hip control to neutralize defensive hip mobility, then progresses through heel isolation, grip reinforcement, elbow positioning inside the thigh, and finally controlled lateral rotation combined with hip extension. The backside angle provides a significant mechanical advantage over standard 50-50 heel hook attempts because your body weight pins the opponent's hips, preventing the rotational escapes that commonly defuse heel hooks from symmetric positions. Success depends on patient grip establishment and reading the opponent's defensive reactions to choose between finishing the heel hook, transitioning to alternative leg attacks, or advancing to back control. The dual-threat nature of backside 50-50—legs and back—creates a defensive dilemma that makes the outside heel hook particularly effective when the opponent prioritizes back defense over heel protection.
 
 **From Position**: [[Positions/Ashi Garami/Backside 50-50]] (Top)
 
@@ -244,7 +244,7 @@ Executing the Outside Heel Hook from Backside 50-50 requires systematic control 
 
 <p class="section-subtitle">What are the key principles for executing Outside Heel Hook from Backside 50-50?</p>
 
-- Chest pressure before heel hunting: Establish and maintain heavy chest-to-back pressure to immobilize opponent's hips before reaching for the heel, as defensive hip rotation is the primary counter to heel hooks
+- Maintain the knee-line clamp and inside-foot frame while capturing the exposed heel; follow the opponent's movement without forcing rotation through the knee
 - Two-stage grip establishment: Secure initial heel cup with near hand, then reinforce with figure-four or Gable grip before applying any rotation, as single-hand finishes have dramatically lower success rates
 - Elbow positioning inside the thigh line: Drive your controlling elbow to the inside of opponent's thigh to create optimal torque angle, converting lateral rotation into direct pressure on knee ligaments
 - Controlled rotation over explosive force: Apply steady, progressive lateral rotation rather than explosive jerking, which increases finish percentage and reduces injury risk to training partners
@@ -260,8 +260,8 @@ Executing the Outside Heel Hook from Backside 50-50 requires systematic control 
 
 <p class="section-subtitle">What do you need before attempting Outside Heel Hook from Backside 50-50?</p>
 
-- Established backside 50-50 entanglement with both legs properly configured in mirrored 50-50 position and chest-to-back contact maintained
-- Heavy chest pressure controlling opponent's hip mobility, preventing defensive rotation that would defuse the heel hook mechanics
+- Established backside 50-50 entanglement with both legs properly configured in mirrored 50-50 position and inside-foot and knee-line control maintained
+- Heavy knee-line control controlling opponent's hip mobility, preventing defensive rotation that would defuse the heel hook mechanics
 - Clear visual identification of opponent's heel position and accessibility for initial grip establishment
 - Free hands available for heel grip establishment, not committed to upper-body control grips that would delay the attack
 - Opponent's knee line controlled by the leg entanglement preventing full extension or retraction of the trapped leg
@@ -275,8 +275,8 @@ Executing the Outside Heel Hook from Backside 50-50 requires systematic control 
 
 <p class="section-subtitle">How do you execute Outside Heel Hook from Backside 50-50 step by step?</p>
 
-1. **Consolidate backside 50-50 control**: Drive chest pressure firmly into opponent's upper back while squeezing your leg entanglement tight. Ensure your hips are positioned higher than your opponent's hips, creating downward gravitational pressure that limits their ability to rotate defensively. This stabilization phase is critical and must not be rushed. (Timing: 3-5 seconds to fully settle weight and confirm leg entanglement integrity)
-2. **Identify heel exposure and target leg**: While maintaining chest pressure, visually locate the opponent's heel on the trapped leg within your entanglement. Assess whether the heel is exposed with the foot pointing away from their body, or hidden with toes pulled toward the shin and knee rotated inward. If hidden, apply additional squeezing pressure through your legs to force the foot into an exposed position before proceeding. (Timing: 1-3 seconds for visual assessment and positioning adjustment)
+1. **Consolidate backside 50-50 control**: Settle on your hip behind the trapped leg with the inside foot across the opponent's stomach. Keep the knee line contained and guide the knee toward the mat while capturing the heel as it becomes exposed. (Timing: 3-5 seconds to fully settle weight and confirm leg entanglement integrity)
+2. **Identify heel exposure and target leg**: While maintaining knee-line control, visually locate the opponent's heel on the trapped leg within your entanglement. Assess whether the heel is exposed with the foot pointing away from their body, or hidden with toes pulled toward the shin and knee rotated inward. If hidden, apply additional squeezing pressure through your legs to force the foot into an exposed position before proceeding. (Timing: 1-3 seconds for visual assessment and positioning adjustment)
 3. **Secure initial heel cup grip**: With your near-side hand, cup the opponent's heel by wrapping your fingers around the Achilles tendon area with your palm pressing against the bottom of the heel bone. The grip should seat the heel deep in your palm like holding a ball. Avoid gripping the toes or forefoot, which provides insufficient leverage for rotational finishing mechanics. (Timing: 1-2 seconds for clean grip establishment without telegraphing)
 4. **Reinforce with secondary grip configuration**: Bring your far-side hand to meet your near-side hand, establishing either a figure-four grip with your forearm blade pressed against their shin, or a Gable grip locked behind the heel. This reinforced grip structure prevents the opponent from stripping your control through hand fighting and provides the mechanical framework needed for clean rotational force application during the finish. (Timing: 1-2 seconds to lock reinforcement grip securely)
 5. **Position elbow inside opponent's thigh**: Thread your primary controlling elbow to the inside of the opponent's thigh, positioning it tight against their inner thigh. This elbow placement creates the fulcrum for your rotational leverage. Without this inside positioning, the rotation dissipates into space rather than loading directly onto the knee ligaments. Your forearm should create a perpendicular angle against their shin line. (Timing: 1-2 seconds for elbow threading and final positioning)
@@ -308,9 +308,9 @@ Executing the Outside Heel Hook from Backside 50-50 requires systematic control 
 <p class="section-subtitle">How might your opponent defend against Outside Heel Hook from Backside 50-50?</p>
 
 - **Opponent hides heel by rotating knee inward and pulling toes toward shin, denying grip access to the heel** (Effectiveness: High) - Your Response: Increase leg squeeze pressure to force heel exposure, or transition to kneebar threat which forces leg straightening and re-exposes the heel. If heel remains hidden after 3-5 seconds, abandon heel hook and transition to back take or toe hold. → Leads to [[Positions/Ashi Garami/Backside 50-50]]
-- **Opponent strips heel grip using aggressive two-on-one hand fighting before rotation is applied** (Effectiveness: High) - Your Response: Re-establish chest pressure immediately to pin their hips, then re-attempt heel grip from a different angle. Alternatively, use their hand commitment to grip fighting as an opening to walk hips toward back control since their hands are occupied. → Leads to [[Positions/Ashi Garami/Backside 50-50]]
-- **Opponent rotates entire body to face you, converting backside 50-50 to standard face-to-face 50-50** (Effectiveness: Medium) - Your Response: If rotation is partial, drive chest pressure forward to prevent completion. If rotation succeeds, immediately secure inside position control in the standard 50-50 and attack the inside heel hook from the new angle. Their rotation often exposes the heel during the transition. → Leads to [[Positions/Ashi Garami/50-50 Guard]]
-- **Opponent bridges explosively and extracts leg from entanglement when you lighten chest pressure to reach for heel** (Effectiveness: Medium) - Your Response: Maintain maximum chest pressure throughout the grip establishment phase. If they create space, immediately re-drive pressure to re-establish the pin before re-attempting the heel hunt. Alternatively, follow their movement and transition to a passing position. → Leads to [[Positions/Open Guard]]
+- **Opponent strips heel grip using aggressive two-on-one hand fighting before rotation is applied** (Effectiveness: High) - Your Response: Keep the knee line contained and recover the inside-foot frame as the opponent moves. Reassess heel access from the restored leg configuration before attempting another grip. → Leads to [[Positions/Ashi Garami/Backside 50-50]]
+- **Opponent rotates entire body to face you, converting backside 50-50 to standard face-to-face 50-50** (Effectiveness: Medium) - Your Response: Follow the rotation with the leg clamp while keeping the inside foot in place. If the knee line escapes or the turn defeats the frame, reset control rather than forcing the trapped knee through resistance. → Leads to [[Positions/Ashi Garami/50-50 Guard]]
+- **Opponent bridges explosively and extracts leg from entanglement when you lighten knee-line control to reach for heel** (Effectiveness: Medium) - Your Response: Maintain maximum knee-line control throughout the grip establishment phase. If they create space, immediately re-drive pressure to re-establish the pin before re-attempting the heel hunt. Alternatively, follow their movement and transition to a passing position. → Leads to [[Positions/Open Guard]]
 
 
 </section>
@@ -321,10 +321,10 @@ Executing the Outside Heel Hook from Backside 50-50 requires systematic control 
 
 <p class="section-subtitle">What mistakes should you avoid when executing Outside Heel Hook from Backside 50-50?</p>
 
-### 1. Reaching for the heel before establishing heavy chest-to-back pressure
+### 1. Reaching for the heel before establishing heavy knee-line and hip control
 
 - **Consequence**: Opponent retains hip mobility and rotates defensively, hiding their heel and potentially reversing the position entirely. The heel hook attempt fails before it begins.
-- **Correction**: Always consolidate chest pressure first. Spend 3-5 seconds driving your weight into their back before releasing hands for the heel. Your body weight must do the controlling work so your hands are free to attack.
+- **Correction**: Always consolidate knee-line control first. Spend 3-5 seconds driving your weight into their back before releasing hands for the heel. Your body weight must do the controlling work so your hands are free to attack.
 
 ### 2. Applying explosive rotational force rather than controlled progressive rotation
 
@@ -341,10 +341,10 @@ Executing the Outside Heel Hook from Backside 50-50 requires systematic control 
 - **Consequence**: Rotational force dissipates into space instead of loading onto the knee ligaments. The submission feels strong to you but generates minimal actual breaking pressure on the knee structures.
 - **Correction**: Drive your controlling elbow to the inside of their thigh before applying any rotation. The elbow creates the fulcrum that converts your rotation into joint pressure. Without inside elbow positioning, the heel hook lacks a mechanical advantage.
 
-### 5. Releasing chest pressure entirely during the grip establishment phase
+### 5. Releasing knee-line control entirely during the grip establishment phase
 
 - **Consequence**: Opponent exploits the momentary pressure release to bridge, rotate, or extract their leg. The positional advantage of backside 50-50 is lost along with the submission opportunity.
-- **Correction**: Maintain partial chest contact throughout the entire sequence. When reaching for the heel, shift your weight slightly but keep your torso against their back. Your legs and body positioning should maintain control even as your hands transition to attacking grips.
+- **Correction**: Maintain the inside-foot frame and knee-line clamp while changing grips or attacking. If those leg controls loosen, pause the finish and restore the entanglement.
 
 ### 6. Stubbornly forcing the heel hook when opponent has successfully hidden their heel
 
@@ -367,7 +367,7 @@ Practice heel grip establishment on a stationary partner in backside 50-50. Focu
 **Phase 2: Controlled Rotation** - Progressive rotational application with partner feedback
 With established grip mechanics, add controlled rotation at 20-30% pressure while partner provides verbal feedback on pressure quality and direction. Focus on smooth, steady rotation combined with hip extension. Partner taps at first sign of pressure to build proper finishing mechanics without injury risk.
 
-**Phase 3: Integrated Sequence** - Full attack chain from chest pressure through finish
+**Phase 3: Integrated Sequence** - Full attack chain from knee-line control through finish
 Practice the complete sequence: establish backside 50-50 pressure, identify heel, secure grip, position elbow, apply rotation, finish with hip extension. Partner provides light defensive resistance (hiding heel, grip fighting) to develop problem-solving during the attack chain. Reset and repeat 10-15 times per round.
 
 **Phase 4: Defensive Reaction Chains** - Reading and responding to specific defensive patterns

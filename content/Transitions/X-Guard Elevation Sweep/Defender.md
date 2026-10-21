@@ -21,13 +21,13 @@ description: "How to defend against X-Guard Elevation Sweep in BJJ. Recognition 
     {
       "@type": "HowToStep",
       "name": "Widen base and drop hips low immediately upon recognizing hook insertion attempt, removing vertical leverage by positioning your center of gravity below the attacker's hook platform",
-      "text": "As soon as you feel the opponent's legs threading into X-Guard configuration beneath your hips, before they complete both hook placements If successful: Attacker cannot generate sufficient upward force for the elevation, forcing them to abandon the sweep and transition to alternative attacks or reset to grasshopper guard",
+      "text": "As soon as you feel the opponent's legs threading into X-Guard configuration beneath your hips, before they complete both hook placements If successful: Attacker cannot generate sufficient upward force for the elevation, forcing them to abandon the sweep and transition to alternative attacks or reset to inverted guard",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Step back explosively with the near leg to extract it from the knee hook while simultaneously breaking the controlling grip on your ankle or wrist",
-      "text": "When the attacker has established one hook but has not yet loaded hips fully underneath your center of gravity - the earlier in the sequence, the more effective If successful: Complete extraction from the X-Guard configuration resets the engagement to neutral standing versus grasshopper guard, denying the sweep entirely and forcing the attacker to re-initiate",
+      "text": "When the attacker has established one hook but has not yet loaded hips fully underneath your center of gravity - the earlier in the sequence, the more effective If successful: Complete extraction from the X-Guard configuration resets the engagement to neutral standing versus inverted guard, denying the sweep entirely and forcing the attacker to re-initiate",
       "position": 2
     },
     {
@@ -39,7 +39,7 @@ description: "How to defend against X-Guard Elevation Sweep in BJJ. Recognition 
     {
       "@type": "HowToStep",
       "name": "Drive forward aggressively into a stack pass before hooks are fully set, using your weight to flatten the inverted guard player's shoulders and collapse their inverted structure",
-      "text": "Only when the attacker is still in early grasshopper phase and has not yet threaded legs into X-Guard configuration - timing must be before hooks are loaded If successful: Collapses the grasshopper guard entirely, flattening the attacker and advancing to a passing position such as half guard top or side control",
+      "text": "Only when the attacker is still in early inverted phase and has not yet threaded legs into X-Guard configuration - timing must be before hooks are loaded If successful: Collapses the inverted guard entirely, flattening the attacker and advancing to a passing position such as half guard top or side control",
       "position": 4
     }
   ],
@@ -56,7 +56,7 @@ description: "How to defend against X-Guard Elevation Sweep in BJJ. Recognition 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest cue that an X-Guard Elevation Sweep is starting from grasshopper guard?",
+      "name": "What is the earliest cue that an X-Guard Elevation Sweep is starting from inverted guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest recognition point is when the opponent's legs begin threading underneath your hips from the inverted position, with the inside foot seeking your far hip. Before they reach full X-Guard hook configuration, you should feel their body sliding directly underneath your base and their grip tightening on your near-side ankle or wrist. This hook-threading phase is the optimal defensive window because the attacker has not yet loaded their platform."
@@ -80,7 +80,7 @@ description: "How to defend against X-Guard Elevation Sweep in BJJ. Recognition 
     },
     {
       "@type": "Question",
-      "name": "Why avoid driving forward into a grasshopper player who has partial X-guard hooks set?",
+      "name": "Why avoid driving forward into a inverted player who has partial X-guard hooks set?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Forward pressure after hooks are partially set loads your weight directly onto the attacker's hook platform, providing the energy they need to complete the elevation sweep. The X-Guard Elevation Sweep is fundamentally a counter-pressure technique that converts forward weight commitment into upward sweeping force. Your forward drive becomes the sweep's power source. Instead, move laterally through base widening or backward through leg extraction to deny the attacker the weight loading they require."
@@ -88,10 +88,10 @@ description: "How to defend against X-Guard Elevation Sweep in BJJ. Recognition 
     },
     {
       "@type": "Question",
-      "name": "How does the grasshopper guard's limited sustainability factor into your defensive strategy?",
+      "name": "How does the inverted guard's limited sustainability factor into your defensive strategy?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Grasshopper guard requires extreme core engagement and cannot be maintained beyond 10-15 seconds effectively. This means patient, safe defense that denies attack opportunities will force the attacker to either commit to a compromised sweep attempt or abandon the position entirely due to fatigue. Your strategy should prioritize denying their quick attack windows through base management and active hook denial rather than rushing to counter-attack, because time itself degrades their offensive capacity from this position."
+        "text": "Inverted guard requires extreme core engagement and cannot be maintained beyond 10-15 seconds effectively. This means patient, safe defense that denies attack opportunities will force the attacker to either commit to a compromised sweep attempt or abandon the position entirely due to fatigue. Your strategy should prioritize denying their quick attack windows through base management and active hook denial rather than rushing to counter-attack, because time itself degrades their offensive capacity from this position."
       }
     }
   ]
@@ -156,13 +156,13 @@ description: "How to defend against X-Guard Elevation Sweep in BJJ. Recognition 
 
 <section id="overview" class="content-section">
 
-Defending against the X-Guard Elevation Sweep requires understanding that the technique follows a predictable mechanical sequence: grasshopper inversion, X-Guard hook insertion, hip loading, and explosive elevation. Each phase has a distinct defensive window, and early recognition dramatically increases your chances of shutting down the sweep before it develops full power. The defender's primary advantage is that they are standing with superior base while the attacker operates from an inverted position with limited sustainability.
+Defending against the X-Guard Elevation Sweep requires understanding that the technique follows a predictable mechanical sequence: inverted inversion, X-Guard hook insertion, hip loading, and explosive elevation. Each phase has a distinct defensive window, and early recognition dramatically increases your chances of shutting down the sweep before it develops full power. The defender's primary advantage is that they are standing with superior base while the attacker operates from an inverted position with limited sustainability.
 
-The defensive strategy centers on denying the attacker the conditions they need: narrow base, forward weight commitment, and sufficient time to thread hooks into X-Guard configuration. By maintaining a wide, low stance with hips back, you remove the vertical leverage that makes the elevation possible. When you recognize the grasshopper player beginning to shoot legs into X-Guard hooks, your response must be immediate - the window between hook insertion and sweep initiation is extremely short, often under two seconds.
+The defensive strategy centers on denying the attacker the conditions they need: narrow base, forward weight commitment, and sufficient time to thread hooks into X-Guard configuration. By maintaining a wide, low stance with hips back, you remove the vertical leverage that makes the elevation possible. When you recognize the inverted player beginning to shoot legs into X-Guard hooks, your response must be immediate - the window between hook insertion and sweep initiation is extremely short, often under two seconds.
 
-The most effective defensive approach treats grasshopper guard as a time-limited threat. The inverted player cannot sustain their position indefinitely due to extreme core demands. Patient base management combined with active hook denial forces the attacker to either abandon the elevation attempt or commit to a compromised sweep that lacks the power to complete. Understanding when to disengage entirely versus when to pressure forward is critical, as forward pressure at the wrong moment feeds directly into the sweep mechanics.
+The most effective defensive approach treats inverted guard as a time-limited threat. The inverted player cannot sustain their position indefinitely due to extreme core demands. Patient base management combined with active hook denial forces the attacker to either abandon the elevation attempt or commit to a compromised sweep that lacks the power to complete. Understanding when to disengage entirely versus when to pressure forward is critical, as forward pressure at the wrong moment feeds directly into the sweep mechanics.
 
-**Opponent's Starting Position**: [[Positions/Grasshopper Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Inverted Guard]] (Bottom)
 
 </section>
 
@@ -174,7 +174,7 @@ The most effective defensive approach treats grasshopper guard as a time-limited
 
 <p class="section-subtitle">How do you know when someone is attempting X-Guard Elevation Sweep?</p>
 
-- Opponent's legs begin threading underneath your hips from the inverted grasshopper position, with inside foot seeking your far hip and outside leg hooking behind your near knee
+- Opponent's legs begin threading underneath your hips from the inverted inverted position, with inside foot seeking your far hip and outside leg hooking behind your near knee
 - You feel upward pressure building under your hips as the opponent slides their body directly beneath your center of gravity and begins loading their hook platform
 - Opponent secures a controlling grip on your near-side ankle, wrist, or sleeve and begins pulling forward while simultaneously adjusting their hip position underneath you
 - Your weight shifts involuntarily forward or you feel your base narrowing as the opponent's hooks begin redirecting your stance alignment toward their optimal sweep angle
@@ -190,8 +190,8 @@ The most effective defensive approach treats grasshopper guard as a time-limited
 
 - Maintain wide base with hips low and back - vertical posture with narrow stance is exactly what the sweeper needs to generate elevation
 - Deny hook insertion by keeping legs moving and circling rather than standing static in the attacker's optimal threading range
-- Recognize the grasshopper-to-X-Guard transition early and respond during hook insertion rather than waiting for the elevation phase when power is maximum
-- Use time as your ally since grasshopper guard is unsustainable beyond 10-15 seconds - patient defense forces the attacker to abandon or transition
+- Recognize the inverted-to-X-Guard transition early and respond during hook insertion rather than waiting for the elevation phase when power is maximum
+- Use time as your ally since inverted guard is unsustainable beyond 10-15 seconds - patient defense forces the attacker to abandon or transition
 - Break grip control on your ankle or wrist as first priority since this grip prevents your primary escape of stepping backward out of range
 - Never drive forward with heavy pressure into an inverted guard player who has hooks partially set, as your weight becomes the fuel for their elevation
 
@@ -207,29 +207,29 @@ The most effective defensive approach treats grasshopper guard as a time-limited
 ### 1. Widen base and drop hips low immediately upon recognizing hook insertion attempt, removing vertical leverage by positioning your center of gravity below the attacker's hook platform
 
 - **When to use**: As soon as you feel the opponent's legs threading into X-Guard configuration beneath your hips, before they complete both hook placements
-- **Targets**: [[Positions/Grasshopper Guard]]
-- **If successful**: Attacker cannot generate sufficient upward force for the elevation, forcing them to abandon the sweep and transition to alternative attacks or reset to grasshopper guard
+- **Targets**: [[Positions/Inverted Guard]]
+- **If successful**: Attacker cannot generate sufficient upward force for the elevation, forcing them to abandon the sweep and transition to alternative attacks or reset to inverted guard
 - **Risk**: Lowered hips can expose your legs to Ashi Garami entries or Single Leg X-Guard transitions if the attacker reads your defensive posture and chains to leg entanglements
 
 ### 2. Step back explosively with the near leg to extract it from the knee hook while simultaneously breaking the controlling grip on your ankle or wrist
 
 - **When to use**: When the attacker has established one hook but has not yet loaded hips fully underneath your center of gravity - the earlier in the sequence, the more effective
-- **Targets**: [[Positions/Grasshopper Guard]]
-- **If successful**: Complete extraction from the X-Guard configuration resets the engagement to neutral standing versus grasshopper guard, denying the sweep entirely and forcing the attacker to re-initiate
+- **Targets**: [[Positions/Inverted Guard]]
+- **If successful**: Complete extraction from the X-Guard configuration resets the engagement to neutral standing versus inverted guard, denying the sweep entirely and forcing the attacker to re-initiate
 - **Risk**: If you step back without breaking the grip, the attacker can follow your retreat with inversion and reestablish contact, or transition to rolling kneebar entries on the retreating leg
 
 ### 3. Post hand firmly on the mat behind you as the elevation begins, creating a structural brace that arrests the backward toppling motion before it completes
 
 - **When to use**: When the elevation has already begun and you are partially lifted but have not yet lost balance completely - this is a late-stage emergency defense
-- **Targets**: [[Positions/Grasshopper Guard]]
+- **Targets**: [[Positions/Inverted Guard]]
 - **If successful**: Stops the sweep mid-execution and allows you to reset base, step around the attacker's hooks, or initiate a guard pass while they are committed to the failed elevation
 - **Risk**: Strong hand post can be broken by the attacker increasing their grip pull, and if the post collapses you fall with your arm extended behind you creating wrist or shoulder injury risk
 
 ### 4. Drive forward aggressively into a stack pass before hooks are fully set, using your weight to flatten the inverted guard player's shoulders and collapse their inverted structure
 
-- **When to use**: Only when the attacker is still in early grasshopper phase and has not yet threaded legs into X-Guard configuration - timing must be before hooks are loaded
+- **When to use**: Only when the attacker is still in early inverted phase and has not yet threaded legs into X-Guard configuration - timing must be before hooks are loaded
 - **Targets**: [[Positions/Half Guard]]
-- **If successful**: Collapses the grasshopper guard entirely, flattening the attacker and advancing to a passing position such as half guard top or side control
+- **If successful**: Collapses the inverted guard entirely, flattening the attacker and advancing to a passing position such as half guard top or side control
 - **Risk**: If hooks are already partially set, your forward pressure loads directly onto the attacker's platform and provides the momentum they need to complete the elevation sweep to mount
 
 
@@ -242,9 +242,9 @@ The most effective defensive approach treats grasshopper guard as a time-limited
 
 <p class="section-subtitle">What is the best outcome when defending X-Guard Elevation Sweep?</p>
 
-### → [[Positions/Grasshopper Guard]]
+### → [[Positions/Inverted Guard]]
 
-Deny the X-Guard hook insertion through base widening, leg extraction, or grip breaking before the attacker can load their hips underneath your center of gravity. Force the attacker to remain in unsustainable grasshopper guard without completing the transition to X-Guard, draining their energy while you maintain safe standing position. Patient circling and active leg movement prevent the attacker from threading hooks while their core fatigues.
+Deny the X-Guard hook insertion through base widening, leg extraction, or grip breaking before the attacker can load their hips underneath your center of gravity. Force the attacker to remain in unsustainable inverted guard without completing the transition to X-Guard, draining their energy while you maintain safe standing position. Patient circling and active leg movement prevent the attacker from threading hooks while their core fatigues.
 
 ### → [[Positions/Half Guard]]
 
@@ -265,7 +265,7 @@ When the sweep partially succeeds but you manage to insert a knee during the tra
 - **Consequence**: Provides the attacker with ideal conditions for elevation - your centered weight loads perfectly onto their hook platform and narrow base offers no lateral resistance to the sweep
 - **Correction**: Maintain wide stance with hips dropped low and back, distributing weight away from the attacker's hook range and creating lateral stability that resists the upward sweep force
 
-### 2. Driving forward with heavy pressure into the grasshopper player after they have already established X-Guard hooks underneath your hips
+### 2. Driving forward with heavy pressure into the inverted player after they have already established X-Guard hooks underneath your hips
 
 - **Consequence**: Your forward momentum and weight commitment becomes the primary energy source for the sweep, effectively completing the elevation for the attacker with your own force
 - **Correction**: Once hooks are set, never drive forward - instead widen base laterally and work to extract legs from hooks through back-stepping or circling rather than pressuring into the hooks
@@ -277,8 +277,8 @@ When the sweep partially succeeds but you manage to insert a knee during the tra
 
 ### 4. Freezing in place when recognizing the sweep attempt instead of immediately responding with base adjustment or leg extraction
 
-- **Consequence**: The grasshopper-to-X-Guard-to-elevation sequence happens in 2-3 seconds, and any hesitation allows the attacker to complete hook loading and initiate elevation before you respond
-- **Correction**: Train immediate reflexive responses to grasshopper guard engagement - the moment you feel leg contact threading beneath your hips, begin base widening and grip breaking without deliberation
+- **Consequence**: The inverted-to-X-Guard-to-elevation sequence happens in 2-3 seconds, and any hesitation allows the attacker to complete hook loading and initiate elevation before you respond
+- **Correction**: Train immediate reflexive responses to inverted guard engagement - the moment you feel leg contact threading beneath your hips, begin base widening and grip breaking without deliberation
 
 
 
@@ -291,16 +291,16 @@ When the sweep partially succeeds but you manage to insert a knee during the tra
 <p class="section-subtitle">How do you train defense against X-Guard Elevation Sweep?</p>
 
 **Week 1-2** - Recognition and base management
-Partner establishes grasshopper guard and slowly threads X-Guard hooks at 25% speed. Focus exclusively on recognizing the hook insertion phase and immediately responding with base widening and hip lowering. No counter-attacks yet - the goal is developing automatic recognition of the sweep setup and reflexive base adjustment. Partner provides feedback on timing and positioning.
+Partner establishes inverted guard and slowly threads X-Guard hooks at 25% speed. Focus exclusively on recognizing the hook insertion phase and immediately responding with base widening and hip lowering. No counter-attacks yet - the goal is developing automatic recognition of the sweep setup and reflexive base adjustment. Partner provides feedback on timing and positioning.
 
 **Week 3-4** - Active hook denial and grip breaking
-Partner attempts the full grasshopper-to-X-Guard transition at 50% speed and resistance. Practice stepping back to extract legs, breaking near-side grip control, and circling away from the hook threading angle. Develop the coordination of simultaneous grip breaking and leg extraction. Partner increases speed gradually as your defensive reflexes improve.
+Partner attempts the full inverted-to-X-Guard transition at 50% speed and resistance. Practice stepping back to extract legs, breaking near-side grip control, and circling away from the hook threading angle. Develop the coordination of simultaneous grip breaking and leg extraction. Partner increases speed gradually as your defensive reflexes improve.
 
 **Week 5-6** - Late-stage recovery and counter-passing
 Partner completes hook insertion and begins the elevation at 75% intensity. Practice hand posting, emergency base recovery, and transitioning from defense into passing opportunities when the sweep stalls. Drill the sequence of posting, stabilizing, and immediately initiating a back-step pass or leg drag while the attacker is committed to the failed elevation.
 
 **Week 7+** - Full resistance positional sparring
-Live positional rounds starting with the attacker in grasshopper guard. Defender practices the complete defensive toolkit against unrestricted sweep attempts, including recognizing when the attacker chains from failed elevation to leg entanglements. Integrate all defensive layers - early denial, mid-sequence extraction, and late-stage emergency recovery - into fluid defensive responses.
+Live positional rounds starting with the attacker in inverted guard. Defender practices the complete defensive toolkit against unrestricted sweep attempts, including recognizing when the attacker chains from failed elevation to leg entanglements. Integrate all defensive layers - early denial, mid-sequence extraction, and late-stage emergency recovery - into fluid defensive responses.
 
 
 

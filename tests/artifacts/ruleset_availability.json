@@ -575,16 +575,16 @@
           "name": "Heel Hook from Cross Ashi-Garami"
         },
         {
-          "id": "heel-hook-from-grasshopper-guard",
-          "name": "Heel Hook from Grasshopper Guard"
-        },
-        {
           "id": "heel-hook-from-honey-hole",
           "name": "Heel Hook from Honey Hole"
         },
         {
           "id": "heel-hook-from-inside-ashi-garami",
           "name": "Heel Hook from Inside Ashi-Garami"
+        },
+        {
+          "id": "heel-hook-from-inverted-guard",
+          "name": "Heel Hook from Inverted Guard"
         },
         {
           "id": "heel-hook-from-kneebar-control",

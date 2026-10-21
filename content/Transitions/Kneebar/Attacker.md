@@ -79,7 +79,7 @@ description: "How to execute the Kneebar from Backside 50-50 in BJJ. Attacking p
       "name": "What conditions must exist before you commit to the kneebar entry?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Four conditions are required: established Backside 50-50 Top with chest pressure, the target leg extending or straightened, hip control on the target side preventing rotation, and a clear path to rotate perpendicular to their leg. If any condition is missing, the kneebar will likely fail - particularly if the leg is still bent or you lack hip control. Use heel hook threats to create the extension if it does not exist naturally."
+        "text": "Four conditions are required: established Backside 50-50 Top with knee-line control, the target leg extending or straightened, hip control on the target side preventing rotation, and a clear path to rotate perpendicular to their leg. If any condition is missing, the kneebar will likely fail - particularly if the leg is still bent or you lack hip control. Use heel hook threats to create the extension if it does not exist naturally."
       }
     },
     {
@@ -176,7 +176,7 @@ description: "How to execute the Kneebar from Backside 50-50 in BJJ. Attacking p
 
 <section id="overview" class="content-section">
 
-The Kneebar is a powerful leg lock attack that hyperextends the knee joint by trapping the opponent's leg between your hips and applying breaking pressure against the natural bend of the knee. From Backside 50-50 Top, the kneebar becomes particularly effective because your chest pressure and positional dominance limit your opponent's defensive options while their extended leg presents an obvious target.
+The Kneebar is a powerful leg lock attack that hyperextends the knee joint by trapping the opponent's leg between your hips and applying breaking pressure against the natural bend of the knee. From Backside 50-50 Top, the kneebar becomes particularly effective because your knee-line control and positional dominance limit your opponent's defensive options while their extended leg presents an obvious target.
 
 This submission capitalizes on the inherent vulnerability of the knee joint when isolated and controlled. The attacking practitioner secures the opponent's leg across their hip line, creates a fulcrum point at or just above the knee cap, and applies controlled extension force by arching their hips forward while pulling the ankle toward their chest. The mechanical advantage is substantial when executed correctly, requiring minimal strength to generate significant breaking pressure.
 
@@ -198,7 +198,7 @@ The kneebar from Backside 50-50 integrates seamlessly into modern leg lock syste
 - Create the fulcrum at or slightly above the kneecap using your hip bone or lower abdomen for maximum mechanical leverage
 - Squeeze your knees together to secure the leg and prevent opponent from pulling their leg free during the finishing sequence
 - Extend by driving hips forward rather than pulling with arms - hip extension provides greater force with less energy expenditure
-- Maintain chest pressure throughout entry to prevent opponent from creating angles or initiating escape sequences
+- Maintain knee-line control throughout entry to prevent opponent from creating angles or initiating escape sequences
 - Triangle your legs around opponent's thigh when possible to enhance control and prevent leg extraction
 - Attack the extended or straightening leg - forcing the kneebar on a bent leg significantly reduces effectiveness
 
@@ -211,7 +211,7 @@ The kneebar from Backside 50-50 integrates seamlessly into modern leg lock syste
 
 <p class="section-subtitle">What do you need before attempting Kneebar?</p>
 
-- Established Backside 50-50 Top position with chest-to-back pressure and leg entanglement control
+- Established Backside 50-50 Top position with knee-line and hip control and leg entanglement control
 - Opponent's target leg must be extended or straightening, not deeply bent at the knee
 - Hip control over opponent's target-side hip to prevent rotation and defensive movement
 - Clear path to transition your body perpendicular to opponent's leg for proper finishing position

@@ -67,10 +67,10 @@ description: "Master Backside 50-50 Top in BJJ. Complete guide covering dominant
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What happens if you failing to maintain constant chest-to-back pressure while attacking legs?",
+      "name": "What happens if you losing the inside-foot frame or knee line while reaching for a leg attack?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Allows bottom player to create hip movement and angles, enabling sweeps or position improvements. Without constant pressure, your mechanical advantage disappears and the position neutralizes. The correct approach is: Maintain heavy, constant chest-to-back pressure throughout all attacking sequences. Your chest should be driving them into the mat, limiting their hip mobility. Even while attacking legs, some portion of your weight should be on their back. Use your hips to drive weight forward. If opponent is creating movement or angles easily, you're not applying enough pressure."
+        "text": "Allows bottom player to create hip movement and angles, enabling sweeps or position improvements. Without constant pressure, your mechanical advantage disappears and the position neutralizes. The correct approach is: Keep the inside foot across the stomach and the trapped knee contained between your legs. Guide the knee toward the mat and capture the heel as the position opens it. If the opponent turns back in, recover the leg configuration before adding finishing pressure."
       }
     },
     {
@@ -91,10 +91,10 @@ description: "Master Backside 50-50 Top in BJJ. Complete guide covering dominant
     },
     {
       "@type": "Question",
-      "name": "What happens if you using arms instead of chest pressure to control opponent's position?",
+      "name": "What happens if you trying to hold the opponent with the arms after losing the leg clamp?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Arms fatigue quickly and provide weaker control than body weight. Opponent can move more freely, and your attacks become less effective as you tire. Arm-dependent control is unsustainable. The correct approach is: Use your chest and body weight as primary control mechanisms. Your arms should be used for attacking legs, not holding position. Let your body structure and weight distribution do the controlling work while arms focus on technical adjustments and submissions."
+        "text": "Arms fatigue quickly and provide weaker control than body weight. Opponent can move more freely, and your attacks become less effective as you tire. Arm-dependent control is unsustainable. The correct approach is: Rebuild the knee-line clamp and inside-foot frame before resuming the attack. Use the hands to control the heel or foot while the legs restrict the opponent's rotation."
       }
     },
     {
@@ -155,20 +155,77 @@ description: "Master Backside 50-50 Top in BJJ. Complete guide covering dominant
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Backside 50-50 (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Lachlan Giles Roll under to backside 50/50.",
+      "description": "Backside 50-50 (Top) film study: Lachlan Giles Roll under to backside 50/50..",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DBbSqQf6iCo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DBbSqQf6iCo",
+      "url": "https://www.youtube.com/watch?v=DBbSqQf6iCo",
+      "duration": "PT109S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Backside 50/50 From Knee on Belly (Try it out Tuesday)",
+      "description": "Backside 50-50 (Top) film study: Backside 50/50 From Knee on Belly (Try it out Tuesday).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/LTPdSfUqeFc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/LTPdSfUqeFc",
+      "url": "https://www.youtube.com/watch?v=LTPdSfUqeFc",
+      "duration": "PT19S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
 
-Backside 50-50 Top is an advanced leg entanglement position where both practitioners have their legs intertwined, but the top player has their chest against the bottom player's back. This configuration provides significant mechanical and tactical advantages including superior pressure, better leg attack angles, and the constant threat of transitioning to back control.
+In Backside 50-50 Top, settle on your hip or shoulder behind the opponent's trapped leg as they turn away. Your inside foot crosses in front of their stomach, and your legs contain the knee line. Guide the trapped knee forward and toward the mat while capturing the heel as it becomes exposed.
 
-From the top position in backside 50-50, you can see your opponent's legs more clearly, apply pressure with your chest to limit their movement, and access high-percentage leg locks while also threatening to abandon the leg entanglement entirely to secure back control. This dual-threat nature makes the top position particularly powerful in modern no-gi competition.
+Control comes from this leg configuration and the restriction on their rotation. Keep the foot frame and knee line connected while adjusting your grips. If the opponent clears the frame or withdraws the knee, rebuild the entanglement before pursuing the finish.
 
-Backside 50-50 Top is commonly seen in no-gi competition and leg lock-focused training environments, appearing from successful leg entanglement entries, countered leg attacks, or as a transitional position during scrambles. The position rewards technical leg lock knowledge and the ability to manage multiple attacking options simultaneously while maintaining dominant positional control. Success requires balancing pressure application to control opponent's movement with strategic decision-making about when to commit to leg lock finishes versus when to advance to superior positions like back control or saddle.
+Top is the role label for the controlling side here. It does not describe a torso pin. A back take becomes a separate option only after you deliberately change the leg configuration and establish upper-body control.
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Backside 50-50 (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=DBbSqQf6iCo)
+
+<p class="clip-credit"><strong>Lachlan Giles Roll under to backside 50/50.</strong> · 1:49 · <a href="https://www.youtube.com/watch?v=DBbSqQf6iCo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=LTPdSfUqeFc)
+
+<p class="clip-credit"><strong>Backside 50/50 From Knee on Belly (Try it out Tuesday)</strong> · 0:19 · <a href="https://www.youtube.com/watch?v=LTPdSfUqeFc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="state-invariants" class="content-section">
@@ -177,10 +234,10 @@ Backside 50-50 Top is commonly seen in no-gi competition and leg lock-focused tr
 
 <p class="section-subtitle">What is Backside 50-50 (Top)?</p>
 
-- Top player's chest remains in contact with bottom player's back, applying constant forward pressure to restrict hip mobility and offensive options while maintaining superior position
+- Top player lies on a hip or shoulder behind the trapped leg, with the inside foot in front of the bottom player's stomach and the trapped knee directed toward the mat
 - Both practitioners' legs are entangled in mirrored configuration with inside legs controlling outside legs, creating the characteristic 50-50 leg positioning while top player faces opponent's back
 - Top player maintains clear visual access to opponent's lower body and leg configuration, enabling precise technical adjustments and attack recognition that bottom player lacks
-- Top player's hips positioned higher than opponent's hips with ability to drive weight downward through chest, creating pressure differential that limits bottom player's movement and creates attacking opportunities
+- The leg clamp contains the trapped knee line and the inside foot limits inward rotation, leaving the hands available to capture the heel
 - Bottom player's back exposed to top player with limited ability to turn and face opponent, creating structural disadvantage in both leg entanglement exchanges and positional advancement
 
 
@@ -208,7 +265,7 @@ Backside 50-50 Top is commonly seen in no-gi competition and leg lock-focused tr
 
 <p class="section-subtitle">What are the key principles for attacking from Backside 50-50?</p>
 
-- Pressure Maintenance: Constant chest pressure on opponent's back limits their mobility and offensive options while establishing positional dominance
+- Turn Prevention: Keep the inside foot across the stomach and control the trapped knee line so the opponent cannot freely turn back to face you
 - Dual Threat System: Simultaneous threat of leg locks and back control creates difficult defensive decisions forcing opponent errors
 - Visual Advantage: Clear view of opponent's legs allows precise leg lock mechanics and timing while opponent cannot see your positioning
 - Hip Control: Control opponent's hip movement to prevent sweeps while maintaining your attacking mobility and base
@@ -263,10 +320,10 @@ Backside 50-50 Top is commonly seen in no-gi competition and leg lock-focused tr
 
 <p class="section-subtitle">What mistakes should you avoid when attacking from Backside 50-50?</p>
 
-### 1. Failing to maintain constant chest-to-back pressure while attacking legs
+### 1. Losing the inside-foot frame or knee line while reaching for a leg attack
 
 - ❌ **Consequence**: Allows bottom player to create hip movement and angles, enabling sweeps or position improvements. Without constant pressure, your mechanical advantage disappears and the position neutralizes.
-- ✅ **Correction**: Maintain heavy, constant chest-to-back pressure throughout all attacking sequences. Your chest should be driving them into the mat, limiting their hip mobility. Even while attacking legs, some portion of your weight should be on their back. Use your hips to drive weight forward. If opponent is creating movement or angles easily, you're not applying enough pressure.
+- ✅ **Correction**: Keep the inside foot across the stomach and the trapped knee contained between your legs. Guide the knee toward the mat and capture the heel as the position opens it. If the opponent turns back in, recover the leg configuration before adding finishing pressure.
 
 ### 2. Tunnel vision on leg locks while ignoring superior back control opportunities
 
@@ -278,10 +335,10 @@ Backside 50-50 Top is commonly seen in no-gi competition and leg lock-focused tr
 - ❌ **Consequence**: Creates sweep opportunities for bottom player, potentially reversing the position entirely. Getting swept from dominant position wastes all positional advantages and energy investment.
 - ✅ **Correction**: Never sacrifice base for submissions. Keep your base wide and stable throughout all attacks. If you need to commit heavily to a finish, ensure opponent is sufficiently controlled first. Better to slow down and maintain position than rush and get swept.
 
-### 4. Using arms instead of chest pressure to control opponent's position
+### 4. Trying to hold the opponent with the arms after losing the leg clamp
 
 - ❌ **Consequence**: Arms fatigue quickly and provide weaker control than body weight. Opponent can move more freely, and your attacks become less effective as you tire. Arm-dependent control is unsustainable.
-- ✅ **Correction**: Use your chest and body weight as primary control mechanisms. Your arms should be used for attacking legs, not holding position. Let your body structure and weight distribution do the controlling work while arms focus on technical adjustments and submissions.
+- ✅ **Correction**: Rebuild the knee-line clamp and inside-foot frame before resuming the attack. Use the hands to control the heel or foot while the legs restrict the opponent's rotation.
 
 ### 5. Failing to recognize opponent's defensive priorities and attacking blindly
 
@@ -319,7 +376,7 @@ Start in backside 50-50 top with bottom player given specific defensive instruct
 
 ### Pressure Maintenance with Attacks Drill
 
-Maintain backside 50-50 top position while partner actively tries to create space and hip movement. Focus exclusively on keeping chest pressure heavy while preventing sweeps. No submissions - pure positional control. If bottom player creates significant space, reset and analyze what allowed it.
+Start on the controlling hip behind the trapped leg. The partner slowly tries to clear the inside-foot frame and recover a facing angle. Maintain the knee line and follow the hip movement without applying a submission. Reset whenever the knee escapes the clamp.
 
 **Duration**: 3 minute rounds
 
