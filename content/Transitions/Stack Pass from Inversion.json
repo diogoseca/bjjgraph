@@ -350,11 +350,11 @@
       {
         "question": "What direction of force should you apply during the stacking phase, and why does the angle matter?",
         "answer": "Control the elevated legs and redirect them while the guard player remains supported on the shoulders and upper back. Keep pressure off the head and neck. Clear the remaining knee and foot barriers, then consolidate side control.",
-        "answer_line": "Redirect legs while protecting the neck",
+        "answer_line": "Redirect legs while protecting neck",
         "distractors": {
           "plausible": [
             "Drive the hips onto the neck",
-            "Pin the head before clearing the legs"
+            "Pin head before clearing the legs"
           ],
           "trap": [
             "Hold the stack despite a verbal stop"

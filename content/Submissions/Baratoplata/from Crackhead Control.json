@@ -238,7 +238,7 @@
             "A rear choke from back control"
           ],
           "trap": [
-            "Explosive shoulder rotation to finish"
+            "Explosive shoulder turn to finish"
           ]
         }
       },
@@ -249,7 +249,7 @@
         "distractors": {
           "plausible": [
             "A rear choke from back control",
-            "Explosive shoulder rotation to finish"
+            "Explosive shoulder turn to finish"
           ],
           "trap": [
             "The clinch already finishes the lock"
@@ -262,7 +262,7 @@
         "answer_line": "Upper arm and wrist under control",
         "distractors": {
           "plausible": [
-            "Explosive shoulder rotation to finish",
+            "Explosive shoulder turn to finish",
             "The clinch already finishes the lock"
           ],
           "trap": [
@@ -294,7 +294,7 @@
             "A rear choke from back control"
           ],
           "trap": [
-            "Explosive shoulder rotation to finish"
+            "Explosive shoulder turn to finish"
           ]
         }
       }

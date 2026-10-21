@@ -176,14 +176,14 @@
       {
         "question": "Carni Release to Guard: what does recognize the holding side require?",
         "answer": "Begin as the player applying Carni, with the opponent's upper arm and shoulder captured by your leg connection.",
-        "answer_line": "Bottom player owns the shoulder clamp",
+        "answer_line": "Bottom player owns shoulder clamp",
         "distractors": {
           "plausible": [
             "An ankle-release from a heel hook",
             "A reversal directly into top mount"
           ],
           "trap": [
-            "Pulling the foot against a fixed knee"
+            "Pulling foot against a fixed knee"
           ]
         }
       },
@@ -194,10 +194,10 @@
         "distractors": {
           "plausible": [
             "A reversal directly into top mount",
-            "Pulling the foot against a fixed knee"
+            "Pulling foot against a fixed knee"
           ],
           "trap": [
-            "Turning before shoulder pressure ends"
+            "Turn before shoulder pressure ends"
           ]
         }
       },
@@ -207,8 +207,8 @@
         "answer_line": "Hip-led release of the high leg",
         "distractors": {
           "plausible": [
-            "Pulling the foot against a fixed knee",
-            "Turning before shoulder pressure ends"
+            "Pulling foot against a fixed knee",
+            "Turn before shoulder pressure ends"
           ],
           "trap": [
             "An ankle-release from a heel hook"
@@ -221,7 +221,7 @@
         "answer_line": "Forearm between the upper bodies",
         "distractors": {
           "plausible": [
-            "Turning before shoulder pressure ends",
+            "Turn before shoulder pressure ends",
             "An ankle-release from a heel hook"
           ],
           "trap": [
@@ -239,7 +239,7 @@
             "A reversal directly into top mount"
           ],
           "trap": [
-            "Pulling the foot against a fixed knee"
+            "Pulling foot against a fixed knee"
           ]
         }
       },
@@ -250,10 +250,10 @@
         "distractors": {
           "plausible": [
             "A reversal directly into top mount",
-            "Pulling the foot against a fixed knee"
+            "Pulling foot against a fixed knee"
           ],
           "trap": [
-            "Turning before shoulder pressure ends"
+            "Turn before shoulder pressure ends"
           ]
         }
       }

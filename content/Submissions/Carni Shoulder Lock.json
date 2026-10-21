@@ -190,25 +190,25 @@
       {
         "question": "Carni Shoulder Lock: what does retain the triceps require?",
         "answer": "Keep control of the triceps so the opponent cannot freely withdraw the upper arm.",
-        "answer_line": "Upper arm close to the controlling leg",
+        "answer_line": "Upper arm close to controlling leg",
         "distractors": {
           "plausible": [
             "A heel-hook grip on the ankle",
             "A calf slicer behind the knee"
           ],
           "trap": [
-            "Rotating a loaded shoulder explosively"
+            "Rotating loaded shoulder explosively"
           ]
         }
       },
       {
         "question": "Carni Shoulder Lock: what does control the wrist require?",
         "answer": "Secure the wrist while keeping the shoulder and elbow within a comfortable, controlled range.",
-        "answer_line": "Wrist retained with the elbow aligned",
+        "answer_line": "Wrist held with the elbow aligned",
         "distractors": {
           "plausible": [
             "A calf slicer behind the knee",
-            "Rotating a loaded shoulder explosively"
+            "Rotating loaded shoulder explosively"
           ],
           "trap": [
             "A kneebar against the lower leg"
@@ -221,7 +221,7 @@
         "answer_line": "Hip angle supports the leg enclosure",
         "distractors": {
           "plausible": [
-            "Rotating a loaded shoulder explosively",
+            "Rotating loaded shoulder explosively",
             "A kneebar against the lower leg"
           ],
           "trap": [
@@ -246,14 +246,14 @@
       {
         "question": "Carni Shoulder Lock: what does release completely require?",
         "answer": "Release at any tap or verbal signal. Remove wrist leverage and shoulder pressure before unwinding the leg connection.",
-        "answer_line": "Unload wrist and shoulder before legs",
+        "answer_line": "Unload wrist & shoulder before legs",
         "distractors": {
           "plausible": [
             "A heel-hook grip on the ankle",
             "A calf slicer behind the knee"
           ],
           "trap": [
-            "Rotating a loaded shoulder explosively"
+            "Rotating loaded shoulder explosively"
           ]
         }
       }
