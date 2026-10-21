@@ -12,6 +12,8 @@ Usage:
 """
 
 import argparse
+import copy
+from functools import lru_cache
 import json
 import sys
 from pathlib import Path
@@ -52,6 +54,63 @@ CATEGORIES = {
     "Systems": "content/Systems",
     "Learning": "content/Learning"
 }
+
+ROOT = Path(__file__).resolve().parent.parent
+SINGLE_ORIGIN_SUBMISSIONS = ROOT / "tests/artifacts/single_origin_submissions.json"
+
+
+@lru_cache(maxsize=None)
+def load_single_origin_submissions(path=SINGLE_ORIGIN_SUBMISSIONS):
+    """D-358 exceptions do not change the weekly proofreader's schema removal floor."""
+    rows = json.loads(Path(path).read_text())
+    if not isinstance(rows, list) or not rows:
+        raise ValueError("single-origin submission approval list must be nonempty")
+    approved = {}
+    for row in rows:
+        if not isinstance(row, dict) or set(row) != {"file", "origin", "reason", "plan_ref"}:
+            raise ValueError("single-origin approval rows require file, origin, reason and plan_ref")
+        if any(not isinstance(v, str) or not v.strip() for v in row.values()):
+            raise ValueError("single-origin approval fields must be nonempty strings")
+        path = Path(row["file"])
+        if (not row["file"].startswith("content/Submissions/") or path.suffix != ".json"
+                or ".." in path.parts or row["file"] in approved):
+            raise ValueError(f"invalid or duplicate single-origin approval: {row['file']}")
+        approved[row["file"]] = row
+    return approved
+
+
+def single_origin_row_errors(data, row):
+    if not isinstance(data, dict):
+        return ["approved single-origin submission must be a record"]
+    origin = data.get("from_position", "")
+    if not isinstance(origin, str) or "/" not in origin:
+        return ["approved single-origin submission must declare its own from_position"]
+    base, role = origin.rsplit("/", 1)
+    if (role not in ("Top", "Bottom") or base != row["origin"]
+            or data.get("from_positions") != [base]):
+        return ["single-origin approval requires exactly one entry equal to its own from_position base and approved origin"]
+    return []
+
+
+def accept_single_origin(data, row):
+    return row is not None and not single_origin_row_errors(data, row)
+
+
+def validate_single_origin_approvals(root=ROOT, approved=None):
+    """Every row must match a live, exact single-origin record; stale waivers fail."""
+    approved = load_single_origin_submissions() if approved is None else approved
+    errors, matched = [], 0
+    for path, row in approved.items():
+        try:
+            data = json.loads((root / path).read_text())
+        except (OSError, ValueError) as error:
+            errors.append(f"{path}: stale single-origin approval ({error})")
+            continue
+        problems = single_origin_row_errors(data, row)
+        errors.extend(f"{path}: {problem}" for problem in problems)
+        matched += not problems
+    print(f"Single-origin submission approvals: {matched}/{len(approved)} matched")
+    return errors
 
 # Reference fields by category
 REFERENCE_FIELDS = {
@@ -1254,6 +1313,22 @@ def validate_json_file(json_path, schema, category, strict=False):
         msg = f"Invalid JSON: {e}"
         return [msg], [], {"blocking": [msg], "non_blocking": []}
 
+    # D-358: waive only this record's list floor, never the shared schema used by
+    # the weekly proofreader. A stale or malformed listed row is itself blocking.
+    if category == "Submissions":
+        try:
+            relative = Path(json_path).resolve().relative_to(ROOT).as_posix()
+        except ValueError:
+            relative = ""
+        row = load_single_origin_submissions().get(relative)
+        if row is not None:
+            approval_errors = single_origin_row_errors(data, row)
+            errors.extend(approval_errors)
+            categories["blocking"].extend(approval_errors)
+        if accept_single_origin(data, row):
+            schema = copy.deepcopy(schema)
+            schema["properties"]["from_positions"]["minItems"] = 1
+
     # Validate against JSON Schema → blocking
     try:
         validate(instance=data, schema=schema)
@@ -1550,6 +1625,15 @@ Examples:
     # Validate arguments
     if not (args.file or (args.category and args.all) or args.all):
         parser.error("Must specify --file, --category with --all, or just --all")
+
+    try:
+        approval_errors = validate_single_origin_approvals()
+    except (OSError, ValueError) as error:
+        approval_errors = [str(error)]
+    if approval_errors:
+        for error in approval_errors:
+            print(f"BLOCKING: {error}")
+        sys.exit(1)
 
     # Execute based on arguments
     if args.file:
