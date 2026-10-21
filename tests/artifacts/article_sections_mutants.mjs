@@ -162,11 +162,15 @@ const mutants = [
   ['d351-deferral-removed', 'defending-landing.spec.ts', 'D-351: past the 800ms ceiling', s => replace(s, ', pin = a._readerPin;', ', pin = null;')],
   ['d351-both-removed-exchange', sections, 'D-351: an exchange whose article lands late', s => replace(replace(s, 'const hold = a._readerHold(this, available, W, H), pin', 'const hold = Math.min(0, a._readerHold(this, available, W, H)), pin'), ', pin = a._readerPin;', ', pin = null;')],
   // D-352 (Delta 6): S2's media-home pin, the ready-means-laid-out fix, and N2's two gated D-347 fixes.
-  ['d352-film-over-pin', 'defending-landing.spec.ts', 'D-352: past the ceiling, a film arriving', s => replace(s, 'homeMedia = homeMedia && this.media === pin.film && h <= pin.mh;', 'homeMedia = homeMedia;')],
+  ['d352-film-over-pin', 'defending-landing.spec.ts', 'D-352: past the ceiling, a film arriving', s => replace(s, 'homeMedia = homeMedia && !pin.hid && this.media === pin.film && h <= pin.mh;', 'homeMedia = homeMedia;')],
   ['d352-ready-before-layout', 'systems-surface.spec.ts', 'D-352: a reference page says ready only once', s => replace(s, '      // out of the game\'s header row; a frame later, a click aimed at "ready" hit the map instead.\n      this.layoutNow();\n', '      // out of the game\'s header row; a frame later, a click aimed at "ready" hit the map instead.\n')],
   ['d352-home-clamp-lost', sections, 'D-352: at arrival Home and PageUp', s => replace(s, 'this.root.scrollTop = /Home|Up/.test(event.key) ? Math.min(top, to) : to;', 'this.root.scrollTop = to;')],
   ['d352-hand-after-questions', sections, 'D-352: at arrival Home and PageUp', s => replace(s, 'if (key === "hand") this.gameSections[1].card.before(el); else this.game.append(el);', 'this.game.append(el);')],
+  // D-353 (Delta 7 B1): a play settles the pin, as grading does.
+  ['d353-play-keeps-pin', 'defending-landing.spec.ts', 'D-353: playing the pinned film', s => replace(s, '      if (name === "expandClip") this._readerPin = null;\n', '')],
 ]
+// D7-N1: controls whose claim IS the landSettled stall (land_publish_stalled). None today.
+const STALL_CLAIMS = new Set([])
 const selection = process.env.SECTIONS_MUTANT_ONLY;
 const selected = selection ? mutants.filter(([name]) => new RegExp(selection).test(name)) : mutants;
 if (!selected.length) throw Error('No mutation controls match ' + selection);
@@ -208,8 +212,12 @@ try {
     } catch {}
     // A delivered stimulus must reach its assertion. A wait/test timeout or
     // infrastructure error is NOT a claim-level kill, even with exit 1.
+    // D7-N1: N6's soft landSettled stall is not a claim. It is left out of the kill evidence unless the
+    // control's own claim is that stall (none today), so a mutant that only stalls publication is not
+    // counted as killed; the remaining evidence must still be assertion failures, never a timeout.
+    const evidence = failures.length === 1 ? failures[0].errors.filter(e => STALL_CLAIMS.has(name) || !/^Error: landSettled: /.test(e)) : []
     const killed = base.green && run.status === 1 && failures.length === 1 && failures[0].status === 'failed' &&
-      failures[0].errors.length > 0 && failures[0].errors.every(e => /expect\(/.test(e) && !/Test timeout|TimeoutError|page\.waitFor\w+:|locator\.\w+: Timeout/.test(e))
+      evidence.length > 0 && evidence.every(e => /expect\(/.test(e) && !/Test timeout|TimeoutError|page\.waitFor\w+:|locator\.\w+: Timeout/.test(e))
     receipt.results.push({ name, spec, grep, baseline: base, exit: run.status, killed, failures })
     writeFileSync(resolve(out, 'receipt.json'), JSON.stringify(receipt, null, 2) + '\n')
     console.log(name + ': ' + (!base.green ? 'BASELINE RED, not counted' : killed ? 'killed (inspect assertion in log)' : 'NOT KILLED'))

@@ -564,3 +564,42 @@ test('D-352: past the ceiling, a film arriving while the answers are pinned neve
   // Graded is settled: the held-back film and Videos lift follow the player's own input.
   await expect.poll(() => page.evaluate(() => !!(window as any).__neural._reader.videoCard), 'the Videos section lifts once the answer is graded').toBe(true)
 })
+
+// D-353 (review-claude Delta 7, B1): a play is the player's own input and settles the pin, as grading
+// does. Pinned, the opened player grew the film in place over the escape tray (y218-440 over the row
+// at y332; the titles' clicks went to the film), and the next relayout hid the playing video under
+// S2's rule. Released, the rows move down beside the player.
+test('D-353: playing the pinned film opens it beside the hand, never over it, and it stays visible', async ({ page }) => {
+  const late = lateArticle(page, 6000)
+  const j = await catchLoop(page, false, false, async () => { await late.route(); await traceAnswer(page) })
+  await expect.poll(() => page.evaluate(() => {
+    const a = (window as any).__neural, f = a._landFilmEl
+    return !!a._readerPin && a._readerPin.film === a._reader.media && !!f && f.getClientRects().length > 0 && getComputedStyle(f).visibility !== 'hidden'
+  }), { message: 'premise: the answers published pinned with the film shown in the media home' }).toBe(true)
+  const S = await answerTrace(page)
+  const shown = S.filter((x) => x.shown)
+  expect(shown.length, 'premise: the answers were traced on screen before the play').toBeGreaterThan(3)
+  const tops = shown.map((x) => x.top)
+  expect(Math.max(...tops) - Math.min(...tops), 'the answers never move before the play').toBeLessThan(0.5)
+  await j.clickByMouse('.ng-landfilm .ng-clip', 'play the pinned film')
+  await expect.poll(() => page.evaluate(() => !!(window as any).__neural._expandedClip), { message: 'premise: the clip opened its player' }).toBe(true)
+  await j.readerLayoutSettled()
+  const hits = await page.evaluate(() => {
+    const a = (window as any).__neural, film = a._landFilmEl, out: any[] = []
+    for (const t of a.optionsRef.current.querySelectorAll('[data-tech] .ngchoice-title')) {
+      const r = t.getBoundingClientRect()
+      if (!r.height || r.bottom < 0 || r.top > innerHeight || r.right < 0 || r.left > innerWidth) continue
+      const hit = document.elementFromPoint(r.left + r.width / 2, r.top + r.height / 2)
+      out.push({ title: t.textContent.trim(), onFilm: !!hit && film.contains(hit) })
+    }
+    return out
+  })
+  expect(hits.length, 'premise: escape titles are on screen').toBeGreaterThan(0)
+  expect(hits.filter((h) => h.onFilm), 'no escape title hits the film').toEqual([])
+  await page.evaluate(() => (window as any).__neural._reader.layoutNow())
+  const film = await page.evaluate(() => {
+    const a = (window as any).__neural, f = a._landFilmEl, r = f.getBoundingClientRect()
+    return { playing: !!a._expandedClip, visible: f.getClientRects().length > 0 && getComputedStyle(f).visibility !== 'hidden' && r.height > 0 }
+  })
+  expect(film, 'the playing player stays visible through a relayout').toEqual({ playing: true, visible: true })
+})

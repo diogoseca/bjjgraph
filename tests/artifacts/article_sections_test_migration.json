@@ -571,6 +571,21 @@
       "file": "e2e/journeys/article-sections.spec.ts + e2e/journeys/panic-card.spec.ts + e2e/dsl.ts + camera-continuity header",
       "test": "D-352 N2, N3, N6, N5",
       "change": "N2: NEW journey gating D5-S2 and N3: at arrival Home and PageUp never move the reader down (with End moving it as the premise), and the hand precedes the Questions label in the reader's DOM; controls d352-home-clamp-lost and d352-hand-after-questions. N3: panic-card:46 asserts its direction (below the escape tray in the article view, above it in the map view) instead of either order. N6: the app's landSettled() returns whether the landing published and emits land_publish_stalled when it gives up; the DSL fails the journey by name when the stall is the hold's (reader up, the article shown, not a reference page), as a SOFT expect so the journey still reaches its own claim: a hard throw preempted three controls' claim kills (H78; restored H79). N5: camera-continuity's header names the vintage of its asserted counts. N1: control d351-hand-hold-removed gates the hand's half of D-351's hold."
+    },
+    {
+      "file": "e2e/journeys/defending-landing.spec.ts + neural/src/reader.src.js",
+      "test": "NEW D-353: playing the pinned film opens it beside the hand, never over it, and it stays visible",
+      "change": "D-353 (review-claude Delta 7, B1): REAL BREAK in D-351/D-352. Playing a clip of the pinned film grew it in place over the escape tray (y218-440 over the row at y332, the titles' clicks taken by the film), and the next relayout hid the playing video under S2's height rule. A play is now the player's own input and settles the pin, as grading does (the reader's expandClip wrapper releases it before its layout). A probe (H82) then showed the film grows over several frames after the play while nothing relaid out: a film in the media home is now observed like the Videos card, so its growth moves the rows below it. With the observer, S2's rule re-measured a hidden home as 0 and flip-flopped, so the pinned media rule is sticky until the parts settle. The journey: the beyond-ceiling catch with the film in the home at the pin; the answers never move before the play; after the play no escape title hits the film; the player stays visible through a forced relayout. Control d353-play-keeps-pin, killed at 'the playing player stays visible through a relayout' against a green baseline."
+    },
+    {
+      "file": "tests/artifacts/article_sections_mutants.mjs",
+      "test": "the reader runner's kill filter (D7-N1)",
+      "change": "D7-N1: N6's soft landSettled stall is not a claim. It is left out of the kill evidence unless the control's own claim is that stall (STALL_CLAIMS, none today), so a mutant that only stalls publication is not counted as killed; the six landing-never-published controls still die at their own claims (H83, H84)."
+    },
+    {
+      "file": "e2e/journeys/roll-execution.spec.ts",
+      "test": "reader layout during close: the row transform before the forced layout",
+      "change": "D-353: the media home is observed now, so a reader layout can already have run during Inspect's close. Control reader-overwrites-inspect then failed at the bare premise line 'closing.before is not none' rather than at its claim (H86). That line measures the same claim one instant earlier, so it now carries the claim's message; the control is killed at it (H88). Nothing was loosened."
     }
   ]
 }

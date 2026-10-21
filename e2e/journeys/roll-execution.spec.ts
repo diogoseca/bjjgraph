@@ -71,7 +71,9 @@ for (const [width, height, heldClose] of [[1440, 900, false], [390, 844, false],
         return { callback: typeof w.__finishInspectClose, before, after: row.style.transform };
       });
       expect(closing.callback).toBe('function');
-      expect(closing.before).not.toBe('none');
+      // D-353: the media home is observed now, so a reader layout can already have run during the close;
+      // the claim is measured here too, before the forced one.
+      expect(closing.before, 'reader must leave the closing row transform to Inspect (before its forced layout)').not.toBe('none');
       expect(closing.after, 'reader must leave the closing row transform to Inspect').toBe(closing.before);
       await page.evaluate(() => (window as any).__finishInspectClose());
     }
