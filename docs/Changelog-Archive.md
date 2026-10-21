@@ -11722,3 +11722,34 @@ decks and 184 cards, fails on zero exercised decks, and individually asserts all
 eight retired role decks absent. The authored-field, legacy-byte and Aoki grading
 checks remain in force.
 Capture, receipt-bound baseline re-seeding and publication remain deferred until N4.
+
+The validation repairs recount 18 census-marked literals in six files; the full
+rewrite diff leaves every assertion message unchanged. D-316 (2a) raises the
+archive ceiling by exactly 50,000 in its own one-line checkpoint. Twenty-eight
+MC options in seven approved records are shortened to the existing 36-character
+cap, preserving ten correct answers and eighteen distractors. Listing-table
+specs keep the historical 95-row receipt and the complete authored-hand check:
+91 reviewed listings survive, two approved Inverted coalescences are added, and
+the four approved removals are individually asserted absent. The resulting
+tables number 93 in gi and 83 in no-gi; their positive coverage is asserted and
+printed. The plan and panel premises are cited at the shared expectation seam.
+
+Before the FLOW baseline refresh, all 19 rows below -0.25 were classified:
+zero new rows and zero rows beyond the existing worsening threshold. Six known
+rows fell within that unchanged threshold; their complete authored techniques
+are unchanged from dev. The gate passed before rewriting. All ten reviewed
+notes, the 19-row key set, threshold and max_new = 0 remain unchanged.
+
+D-366 holds exactly two FLOW sign assertions until N4 applies the held
+New York/Bottom menu. Fraction arithmetic through the production normalization,
+backward and adjoint steps proves its no-gi uniform-start gradient is nonzero
+and negative, approximately -2.1669092009315342884e-9 (lambda 2, horizon 11).
+All 1,425 priced decks were exercised: 23 negative, none exactly zero. The JS
+kernel agrees with authored shares (-2.166909200610737e-9), whereas the shipped
+rounded shares produce +0.000013162423834220919. The control compares all 1,273
+canonical actions across 242 states, retaining identical rates and branches.
+No tolerance, precision or expectation is changed; the other 53 focused tests
+pass. The full exact fraction and reproduction files are recorded in the phase
+report. After N4, repeat both measurements. Any persistent disagreement needs
+an owner decision among explicitly stated claims, including a rounding-error
+band census across all 1,425 decks; this checkpoint authorizes no consumer fix.
