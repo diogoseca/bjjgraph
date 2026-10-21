@@ -1,3 +1,4 @@
+// v1.230.0 reverses v1.218.1 / v1.220.0 Inspect: D-318 replaces the sheet with the video viewer; the card commits.
 import { test, expect } from "@playwright/test";
 import { journey } from "../dsl";
 
@@ -74,14 +75,11 @@ test("newcomer's first session: question → execute → pane → roam → Chall
   void clockBefore;
 
   // ── 4. peek the move, then execute; the needle decides it ──
-  await page.locator(`[data-tech="${target}"]`).first().locator("[data-choice-inspect]").click();
-  await expect(
-    page.locator("[data-go]"),
-    "the sheet, with what it wins you",
-  ).toBeVisible();
+  await j.watchChoice(target);
+  await expect(page.locator(`[data-tech="${target}"] .ng-choice-title-button`)).toBeVisible();
   await j.rig("resolve", [0.01]);
   await j.rig("outcome", [0.01]);
-  await page.locator("[data-go]").click();
+  await j.pick(target);
   await j.advanceUntil("sweep_land", 12000);
   await j.expectBeat("impact_success");
   await j.nextHand();

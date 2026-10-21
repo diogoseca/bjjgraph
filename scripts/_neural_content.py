@@ -294,8 +294,10 @@ def _counters(xs):
 
 
 _CLIP_ID_RE = re.compile(r"^[A-Za-z0-9_-]{11}$")
-# Front-end clip fields only — provenance (channel/duration/verified) stays in content JSON.
-_CLIP_FIELDS = ("id", "start", "end", "vertical", "title", "by")
+# v1.230.0: curation owns relevance, role and order. `front` certifies the first clip
+# for choice cards; `half` assigns position-hub clips; duration describes it, never
+# authorizes a runtime shortest-first reorder. Provenance stays in source JSON.
+_CLIP_FIELDS = ("id", "start", "end", "vertical", "title", "by", "duration", "front", "half")
 
 
 def _clips(raw, extra=None):
@@ -367,8 +369,12 @@ def _position_dossier(role_data, role_label, related=None, hub_clips=None, hub=N
     rel = _related(related)
     if rel:
         doss["related"] = rel
-    # Role clips first, then position-hub overview clips as fallback (hub has no own key).
-    clips = _clips(role_data.get("clips"), extra=hub_clips)
+    # Explicit curation only (v1.230.0). Broadcasting a hub's attack into Bottom's
+    # escape reel is not a fallback. Untagged hub clips belong to neither half;
+    # an ID separately authored in this role remains that role's own instruction.
+    assigned = [c for c in hub_clips or [] if isinstance(c, dict)
+                and c.get("half") in (role_label.lower(), "both")]
+    clips = _clips(role_data.get("clips"), extra=assigned)
     if clips:
         doss["clips"] = clips
     return doss
@@ -669,6 +675,23 @@ def build_ng_content(graph) -> dict:
         errs.append("the technique-node join resolved 0 nodes; it cannot fail, so it is not a check.")
     _join_report(errs, "dossier join")
     _validate_enrichment(decks, sources)
+    # Curation is the authority. Count suppressed fronts and unassigned hub clips
+    # rather than quietly substituting a different subject or perspective.
+    fronts = suppressed = empty = unassigned = 0
+    for d, role, _family in sources.values():
+        halves = [d.get(role) or {}] if role else [d.get(r) or {} for r in ("attacker", "defender")]
+        for half in halves:
+            clips = _clips(half.get("clips"))
+            if not clips:
+                empty += 1
+            elif clips[0].get("front") is True:
+                fronts += 1
+            else:
+                suppressed += 1
+        if role == "top":  # count a hub once, not once per emitted half
+            unassigned += sum(1 for c in d.get("clips", []) if not c.get("half"))
+    print(f"  clip curation: {fronts} approved fronts; {suppressed} unapproved fronts suppressed; "
+          f"{empty} empty halves; {unassigned} unassigned hub clips suppressed")
     return decks
 
 

@@ -92,7 +92,7 @@ test("future arrival law exactly matches real prior decay; commit and defense do
   assert.equal(K.ngKnowledgeAdvance(c, { type: "wrong", tier: "trap" }).qMod, -.08);
   assert.equal(K.ngKnowledgeAdvance(c, { type: "recall-correct" }).combo, 5);
   assert.equal(K.ngKnowledgeAdvance(c, { type: "mc-correct" }).combo, 6);
-  for (const surface of ["panic", "jit", "deck", "node"]) for (const type of ["mc-correct", "recall-correct", "wrong"]) {
+  for (const surface of ["panic", "deck", "node"]) for (const type of ["mc-correct", "recall-correct", "wrong"]) {
     if (surface === "panic" && type === "wrong") continue; // the drill's one cost, below
     assert.deepEqual(K.ngKnowledgeAdvance(c, { type, surface, tier: "trap" }), c);
   }
@@ -247,17 +247,6 @@ test("SRS differential closes over the captured original ladder; changed-constan
 
 // Execute the actual listener registrations, including the closures' local action/timer
 // steps. The prior snippets are exact original source, not a rewritten fallback oracle.
-function recallHandlers(text, surface) {
-  const container = surface === "jit" ? "jit" : "card";
-  const begin = `const rv = ${container}.querySelector("[data-${surface}-reveal]"), gt = `;
-  assert.equal(text.split(begin).length, 2, `${surface} callback coverage`);
-  const at = text.indexOf(begin);
-  const end = surface === "jit" ? "\n        };\n        // A wrong MC answer" : "\n      if (!this._panicWarmTried)";
-  const stop = text.indexOf(end, at); assert.ok(stop > at);
-  const code = text.slice(at, stop).trimEnd();
-  assert.equal(code.split('gt.addEventListener("click"').length, 2);
-  return code;
-}
 function bindRecallFallback(a, surface, code, key, question) {
   if (code === null) {
     // v1.227.0 retires the private panic DOM. Execute the shared recall block
@@ -286,23 +275,18 @@ function bindRecallFallback(a, surface, code, key, question) {
   const container = { querySelector(selector) {
     if (selector === `[data-${surface}-reveal]`) return reveal;
     if (selector === `[data-${surface}-got]`) return got;
-    assert.equal(selector, surface === "jit" ? ".jitAns" : ".pAns"); return answer;
+    assert.equal(selector, ".pAns"); return answer;
   } };
   const action = name => { a.actions[name] = (a.actions[name] || 0) + 1; };
-  let touched;
-  if (surface === "jit") {
-    touched = new Function("jit", "jitKey", "card", "banked", "let touched = false;\n" + code + "\nreturn () => touched;")
-      .call(a, container, key, question, () => action("banked"));
-  } else {
-    touched = new Function("card", "pk", "fc", "idx", "row", "render", "let touched = false;\n" + code + "\nreturn () => touched;")
-      .call(a, container, key, question, 0, {}, () => action("render"));
-  }
+  const touched = new Function("card", "pk", "fc", "idx", "row", "render", "let touched = false;\n" + code + "\nreturn () => touched;")
+    .call(a, container, key, question, 0, {}, () => action("render"));
   return { reveal, got, answer, touched };
 }
-test("JIT/panic plain recall deliberately qualifies proof/SRS; direct callbacks retain credit, sharing, clocks and replay bounds", async () => {
+test("panic plain recall deliberately qualifies proof/SRS; direct callbacks retain credit, sharing, clocks and replay bounds", async () => {
   let checked = 0;
-  for (const surface of ["jit", "panic"]) for (const hydrated of [false, true]) {
-    const role = surface === "jit" ? "Attacker" : "Defender";
+  // JIT was retired by the owner on 2026-10-15; preserve every surviving panic assertion.
+  for (const hydrated of [false, true]) {
+    const surface = "panic", role = "Defender";
     const key = `A|${role}`, shared = `B|${role}`, question = { q: "q", a: "answer" };
     const a = gradeHost(), b = gradeHost(), qh = a.qhash("q");
     for (const [name, fn] of Object.entries(old)) b[name] = fn;
@@ -322,7 +306,7 @@ test("JIT/panic plain recall deliberately qualifies proof/SRS; direct callbacks 
         _dockLandCard() { this.actions.dock = (this.actions.dock || 0) + 1; },
         setBeacon() { this.actions.beacon = (this.actions.beacon || 0) + 1; } });
     }
-    const currentCode = surface === "panic" ? null : recallHandlers(appSource, surface);
+    const currentCode = null; // the shared live-catch recall block, not the retired private DOM
     const now = bindRecallFallback(a, surface, currentCode, key, question);
     const before = bindRecallFallback(b, surface, prior.callbacks[surface + "Recall"], key, question);
     for (const [host, ui] of [[a, now], [b, before]]) {
@@ -357,7 +341,7 @@ test("JIT/panic plain recall deliberately qualifies proof/SRS; direct callbacks 
     assert.equal(Object.keys(a._knowledgeAttempts).length, 2);
     await Promise.resolve(); checked++;
   }
-  assert.equal(checked, 4);
+  assert.equal(checked, 2);
   console.log(`direct prior/current fallback callback scenarios: ${checked}; proof migration stage 2 -> 3, rec 0 -> 1`);
 });
 
@@ -382,7 +366,7 @@ test("pure grading preserves prior recall arithmetic including repeats and share
 test("all MC surfaces preserve prior grade arithmetic; valid repeats and trap/nontrap failures", () => {
   let checked = 0;
   const wrap = () => ({ querySelectorAll: () => Array.from({ length: 3 }, () => ({ style: {}, setAttribute() {} })) });
-  for (const surface of ["deck", "land", "node", "jit", "panic"]) {
+  for (const surface of ["deck", "land", "node", "panic"]) {
     const a = gradeHost(), b = gradeHost();
     for (const [name, fn] of Object.entries(old)) b[name] = fn;
     b._bumpStageVer = () => {};

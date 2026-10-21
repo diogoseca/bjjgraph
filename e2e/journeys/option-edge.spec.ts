@@ -1,3 +1,5 @@
+// v1.230.0 reverses v1.218.1 Inspect and v1.220.0 sheet/category/score hierarchy.
+// Old sheet paint/inert cases are superseded by video-cards.spec.ts Watch modal tests.
 import { test, expect } from "@playwright/test";
 import { journey } from "../dsl";
 
@@ -214,17 +216,17 @@ test("the card face names future win and immediate chance separately", async ({ 
   const cards = await cardEdges(page);
   expect(cards.length).toBeGreaterThan(3);
   for (const c of cards) {
-    expect(c.mid.trim(), c.tech).toBe(c.ty === "submissions" ? "Submission" : "Transition");
+    expect(c.mid.trim(), "the direct title has no category eyebrow").toBe("");
     expect(c.edge, "legacy utility is no longer a player-card headline").toBeNull();
-    expect(c.valueLabel).toContain("Win chance");
-    expect(c.win).toMatch(/^(—|(?:<|>)?\d+(?:–\d+)?%)$/);
-    expect(c.immediateLabel).toMatch(/^(Works|Finish|Move|Escape)$/);
-    expect(c.odds).toMatch(/^(—|(?:<|>)?\d+%)$/);
+    expect(c.valueLabel).toContain("Win %");
+    expect(c.win).toMatch(/^(—|(?:<|>)?\d+(?:–\d+)?)$/);
+    expect(c.immediateLabel).toMatch(/^(Works|Submit|Move|Escape)$/);
+    expect(c.odds).toMatch(/^(—|(?:<|>)?\d+)$/);
     // a submission dealt on a position steps in with certainty; its small line is the finish
     // it leads to, never that step's 100% (v1.213.0, owner 2026-10-01). Non-kill, recorded: this
     // reads the dealt face BEFORE values arrive ("Works —"), so a view printing the step once they
     // land survives here; submission-card-odds.spec.ts and option-hand.spec.ts kill it.
-    if (c.ty === "submissions") { expect(c.immediateLabel, c.tech).toBe("Works"); expect(c.odds, c.tech).not.toBe("100%"); }
+    if (c.ty === "submissions") { expect(c.immediateLabel, c.tech).toBe("Works"); expect(c.odds, c.tech).not.toBe("100"); }
   }
 });
 
@@ -287,23 +289,24 @@ test("@curated the submissions constant is gone: the hand is ranked, not alphabe
   );
 });
 
-test("@curated a JIT grade updates immediate chance without moving card or keyboard identity", async ({ page }) => {
+test("@curated a study grade updates immediate chance without moving card or keyboard identity", async ({ page }) => {
   const j = journey(page);
   await j.boot("/"); await j.land("Mount Top"); await j.decksSettled();
   const before = await cardEdges(page);
   const candidate = before.slice(0, 8).find((c: any) => c.ty === "transitions" && parseInt(c.odds, 10) < 80);
-  expect(candidate, "an unclamped transition with a visible study door").toBeTruthy();
+  expect(candidate, "an unclamped transition with a study deck").toBeTruthy();
   const first = page.locator(`[data-tech="${candidate!.tech}"]`);
   await first.scrollIntoViewIfNeeded();
-  await j.clickByMouse(`[data-tech="${candidate!.tech}"] [data-choice-inspect]`, "Inspect for JIT practice");
-  await expect(page.locator("[data-jit]")).toBeVisible();
-  await j.jitGrade();
+  // Owner decision 2026-10-15 retired JIT; keep the grade/order law on sidebar study.
+  await j.watchChoice(candidate!.tech); // the real video-viewer action marks this hand touched
+  await j.studyChoice(candidate!.tech);
+  await j.studyGrade();
   const after = await cardEdges(page);
   expect(after.map((c: any) => c.tech)).toEqual(before.map((c: any) => c.tech));
   expect(await page.evaluate(() => (window as any).__neural._optList.map((o: any) => o.node.t))).toEqual(before.map((c: any) => c.tech));
   const changed = after.find((c: any) => c.tech === candidate!.tech)!;
   expect(parseInt(changed.odds!, 10)).toBeGreaterThan(parseInt(candidate!.odds!, 10));
-  expect(changed.valueLabel).toContain("Win chance");
+  expect(changed.valueLabel).toContain("Win %");
   expect(changed.edge).toBeNull();
 });
 
@@ -313,9 +316,9 @@ test("player values remain understandable without glyph colour", async ({ page }
   const cards = await cardEdges(page);
   expect(cards.length).toBeGreaterThan(3);
   for (const c of cards) {
-    expect(c.valueLabel).toContain("Win chance");
-    expect(c.immediateLabel).toMatch(/^(Works|Finish|Move|Escape)$/);
-    expect(c.mid.trim()).toMatch(/^(Submission|Transition)$/);
+    expect(c.valueLabel).toContain("Win %");
+    expect(c.immediateLabel).toMatch(/^(Works|Submit|Move|Escape)$/);
+    expect(c.mid.trim(), "no category eyebrow").toBe("");
   }
 });
 
@@ -370,13 +373,16 @@ test("a move the table cannot value shows NO number — never a fabricated 0", a
   expect(probe.zeroSomewhere!.txt).toBe("0");
 });
 
-test("the Inspect value is the same snapshot as its card", async ({ page }) => {
+test("Read leaves the dealt card and its displayed value intact", async ({ page }) => {
   const j = journey(page);
   await j.boot("/"); await j.land("Mount Top");
   const first = page.locator('[data-choice-group="you"] [data-tech]').first();
-  await first.locator("[data-choice-inspect]").click();
-  await expect(page.locator("[data-choice-value-detail] [data-choice-win]")).toHaveText((await first.locator("[data-choice-win]").textContent())!);
-  await expect(page.locator(".ngedgebig")).toHaveCount(0);
+  const name = (await first.getAttribute("data-tech"))!;
+  const values = await first.locator(".ngodds, [data-choice-win]").allTextContents();
+  await j.watchChoice(name);
+  await expect(first).toBeVisible();
+  expect(await first.locator(".ngodds, [data-choice-win]").allTextContents()).toEqual(values);
+  await expect(page.locator("[data-choice-value-detail], .ngedgebig")).toHaveCount(0);
 });
 
 /* ── THE `cardOrder` SETTING IS RETIRED (v1.122.0) ─────────────────────────────────────────────
@@ -559,221 +565,19 @@ test("Settings no longer offers an ordering it does not use", async ({
   );
 });
 
-/**
- * THE SHEET IS THE CARD YOU PRESSED, VERBATIM (v1.136.0). Owner, on the old head: the EDGE
- * explainer paragraph "is not supposed to show to every user every time … needs to be a small,
- * almost noticeable tooltip near the number"; the from→to decomposition ("Headquarters Position
- * → open-guard") "is fucking unreadable — the technique's own name should really stand out";
- * the glyph "used to say 2, and now it just shows the transition icon without a 2"; and the
- * landing card "magically disappears — it should be BEHIND the maximized card, not gone".
- * Mutants that must die: restoring the explainer paragraph; restoring the from→to title;
- * dropping the digit (nodeGlyph instead of catGlyph); re-hiding the landcard on expand.
- *
- * v1.137.0 SHARPENS THE LANDCARD HALF. "Behind it" was true of the paint and false of everything
- * else: the card stayed at full opacity while `_detailCtx` sat in `_landHidden()`'s holder list,
- * so A-D refused to grade a card that looked completely live. The claim is now "dimmed, present,
- * and inert" rather than "opacity is exactly 1" — the original mutant still dies, on `> 0` and on
- * visibility:visible. Also killed here: `_syncDetailDim` no-oping, `closeOptionDetail` reverting
- * to a bare `_detailCtx = null`, dropping `inert`, and deleting the helmet.html rule.
- */
-test("@curated the sheet keeps the card's name, digit and quiet category — and the landcard stays behind it", async ({
-  page,
-}) => {
+// The retired Inspect shell's category banner, enlarged glyph, explanation and behind-sheet
+// dimming were v1.136/v1.137 contracts, reversed by the approved v1.230 design. The replacement
+// Watch modal's pointer/keyboard isolation and restoration live in video-cards.spec.ts.
+test("@curated the direct choice keeps its own name and digit without a category or sheet", async ({ page }) => {
   const j = journey(page)
   await j.boot("/Positions/Side-Control/Bottom")
   await j.advance(6000)
-  for (let i = 0; i < 3; i++) {
-    await page.evaluate(() => document.body.getBoundingClientRect().top)
-    await j.advance(400)
-  }
-  const opened = await page.evaluate(() => {
-    const a: any = (window as any).__neural
-    const opt = a._optList && a._optList[1] // the card that wears digit 2
-    if (!opt) return false
-    a.expandOption(opt, () => {})
-    return true
-  })
-  expect(opened, "a second option to expand").toBe(true)
-  await j.advance(300)
-  await page.waitForTimeout(400) // the card's wall-clock entry animation must finish before computed opacity means anything
-  const r = await page.evaluate(() => {
-    const a: any = (window as any).__neural
-    const opt = a._optList[1]
-    const panel = a.optDetailRef.current
-    const land = a._landEl
-    const titleEl = [...panel.querySelectorAll("div")].find((d: any) => d.style.fontSize === "27px")
-    return {
-      spMain: a.splitName(a.nodes[opt.idx].t).main,
-      title: titleEl ? titleEl.textContent : null,
-      decomposed: panel.innerHTML.includes('→</span><span style="font-size:25px'),
-      explainer: panel.innerHTML.includes("How far this tilts the roll"),
-      valueCopy: panel.querySelector("[data-choice-value-detail]")?.textContent || "",
-      digit: panel.querySelector(".ngglyph")?.innerHTML.includes(">2<") || false,
-      landOpacity: land ? getComputedStyle(land).opacity : null,
-      landVisibility: land ? getComputedStyle(land).visibility : null,
-      landMarked: land ? land.hasAttribute("data-behind-sheet") : null,
-      // the children are what carry `inert` — the ROOT stays hit-testable on purpose, so that a
-      // tap on the card is still swallowed by attachInput's early-return instead of falling
-      // through to the canvas and destroying the card (see _syncDetailDim)
-      landRootInert: land ? !!(land as any).inert : null,
-      kidsInert: land ? [...land.children].every((c: any) => c.inert === true) : null,
-      kidCount: land ? land.children.length : 0,
-      // PAINT ORDER, not z-index arithmetic (§6.3): a point inside both rects must resolve to
-      // the sheet — the first cut compared z integers across two stacking contexts and passed
-      // green on a build where the card painted over the sheet.
-      sheetOverLand: (() => {
-        if (!land) return false
-        const cr = land.getBoundingClientRect(), pr = panel.getBoundingClientRect()
-        const x = (Math.max(cr.left, pr.left) + Math.min(cr.right, pr.right)) / 2
-        const y = (Math.max(cr.top, pr.top) + Math.min(cr.bottom, pr.bottom)) / 2
-        if (Math.min(cr.bottom, pr.bottom) <= Math.max(cr.top, pr.top)) return true // no overlap: vacuously fine
-        const hit = document.elementFromPoint(x, y)
-        return !!(hit && panel.contains(hit))
-      })(),
-    }
-  })
-  expect(r!.title, "the technique's OWN name is the title").toBe(r!.spMain)
-  expect(r!.decomposed, "the from→to decomposition is gone").toBe(false)
-  expect(r!.explainer, "no explainer paragraph on every open").toBe(false)
-  expect(r!.valueCopy, "the same explicitly named outcome has an Inspect explanation").toContain("Win chance")
-  expect(r!.digit, "the glyph still wears the tray digit").toBe(true)
-  // PRESENT, BUT STOOD DOWN. Strictly between 0 and 1: `0` would be the v1.135 hide this test was
-  // written to forbid, `1` would be the v1.136 lie where a fully-live-looking card refused A-D.
-  const op = parseFloat(r!.landOpacity!)
-  expect(op, "the landing card is still painted behind the sheet").toBeGreaterThan(0)
-  expect(op, "...but dimmed, so it cannot read as the live surface").toBeLessThan(1)
-  expect(r!.landVisibility).toBe("visible")
-  expect(r!.landMarked, "and it carries the stand-down marker").toBe(true)
-  expect(r!.kidCount, "a card with content to disarm").toBeGreaterThan(0)
-  expect(r!.kidsInert, "its children are inert — no clicks, no tab stops, no a11y tree").toBe(true)
-  expect(r!.landRootInert, "the root is NOT inert: it must still swallow the tap").toBe(false)
-  expect(r!.sheetOverLand, "and the sheet stacks over it").toBe(true)
-
-  // THE KEYBOARD AGREES WITH THE PAINT. A dimmed card must not grade — this is the assertion that
-  // gates `_detailCtx`'s membership in `_landHidden()` from the mouse side of the app.
-  const answeredWhileOpen = (await j.beats()).filter((b) => b.beat === "land_q_answered").length
-  await page.keyboard.press("a")
-  await j.advance(200)
-  expect(
-    (await j.beats()).filter((b) => b.beat === "land_q_answered").length,
-    "A-D does not grade the card standing behind the sheet",
-  ).toBe(answeredWhileOpen)
-
-  // ...AND IT ALL COMES BACK. The restore is flag-synchronous (`_landHidden` asks the holders, not
-  // the pixels), so the card is live again the instant the sheet closes.
-  await page.keyboard.press("Escape")
-  await j.advance(400)
-  await page.waitForTimeout(400) // the .22s dim transition is wall-clock, like the entry animation
-  const back = await page.evaluate(() => {
-    const a: any = (window as any).__neural
-    const land = a._landEl
-    return {
-      opacity: land ? getComputedStyle(land).opacity : null,
-      marked: land ? land.hasAttribute("data-behind-sheet") : null,
-      kidsInert: land ? [...land.children].some((c: any) => c.inert === true) : null,
-      ctx: !!a._detailCtx,
-    }
-  })
-  expect(back!.ctx, "Esc closed the sheet").toBe(false)
-  expect(back!.opacity, "the card is at full strength again").toBe("1")
-  expect(back!.marked, "the marker is gone").toBe(false)
-  expect(back!.kidsInert, "and nothing is left inert").toBe(false)
-})
-
-/**
- * A REAL MOUSE ON THE STOOD-DOWN CARD DOES NOTHING — AND "NOTHING" IS TWO CLAIMS (v1.137.0).
- *
- * The card behind the sheet must neither GRADE (its buttons are inert) nor be DESTROYED. The
- * second half is the one that is easy to get wrong: `attachInput`'s pointerdown early-return is a
- * TARGET test (`ov.contains(e.target)`), so the obvious implementations — `pointer-events:none` on
- * the card root, or `inert` on the root — make the tap miss the card entirely and land on the
- * canvas, where `_tapBackground()` declines the question and clears the card while the sheet is
- * still open. That kills the pinned "back out of a sheet and the question still pays" contract
- * from a direction no keyboard test can see. Hence: children inert, root left hit-testable.
- *
- * `locator.click()` cannot make this claim (§6.3) — it dispatches ON the element. This uses
- * page.mouse at a MEASURED point, which is the only thing that exercises the real hit test.
- *
- * Mutants that must die: dropping `inert` from `_syncDetailDim` (the click grades); moving `inert`
- * to the card root, or setting pointer-events:none on it (the click destroys the card).
- */
-test("a real click on the card behind the sheet neither answers it nor destroys it", async ({
-  page,
-}) => {
-  const j = journey(page)
-  await j.boot("/")
-  await j.land("Mount Top")
-  const mc = await j.landQuestion()
-  expect(mc, "a live landing question to stand down").toBeTruthy()
-  // D-338 (CI 11e7f83ff): the card now follows Videos and Moves, low enough for the bottom sheet to
-  // cover it whole. Bring it to the reader's top first, so a strip stays exposed above the sheet.
-  await page.evaluate(() => { const a = (window as any).__neural, r = a._reader.root; r.scrollTop += a._landEl.getBoundingClientRect().top - r.getBoundingClientRect().top - 6 })
-  await j.readerLayoutSettled()
-
-  await page.keyboard.press("Shift+Digit1") // shifted digit inspects the first option
-  await expect(page.locator("[data-go]"), "Shift+1 opened an option sheet").toBeVisible()
-  await j.advance(300)
-  await page.waitForTimeout(400)
-
-  // Find a point that is inside the card and NOT under the sheet. Measured, never assumed: the
-  // sheet is bottom-anchored and the card's exposed strip shrinks as the sheet grows.
-  const pt = await page.evaluate(() => {
-    const a: any = (window as any).__neural
-    const land = a._landEl, panel = a.optDetailRef.current
-    if (!land || !panel) return null
-    const cr = land.getBoundingClientRect(), pr = panel.getBoundingClientRect()
-    const y = Math.min(cr.bottom, pr.top) - 6 // just above the sheet's top edge, inside the card
-    if (y <= cr.top + 2) return null          // no exposed strip at this viewport
-    const x = cr.left + cr.width / 2
-    const hit = document.elementFromPoint(x, y)
-    return { x, y, insideCard: !!(hit && land.contains(hit)), hitTag: hit ? hit.tagName : null }
-  })
-  // POSITIVE COVERAGE (§6.6): if the strip is not there, this test proves nothing and must say so
-  // rather than passing quietly on a click into empty space.
-  expect(pt, "the card has a strip exposed above the sheet to click on").toBeTruthy()
-  expect(
-    pt!.insideCard,
-    `the measured point resolves into the card, not ${pt!.hitTag} — the root must stay hit-testable`,
-  ).toBe(true)
-
-  const before = await j.beats()
-  await page.mouse.click(pt!.x, pt!.y)
-  await j.advance(400)
-  const after = await j.beats()
-  const fired = (name: string) =>
-    after.filter((b) => b.beat === name).length - before.filter((b) => b.beat === name).length
-
-  expect(fired("land_q_answered"), "the click did not grade the stood-down question").toBe(0)
-  const state = await page.evaluate(() => {
-    const a: any = (window as any).__neural
-    return { card: !!a._landEl, ctx: !!a._detailCtx, mc: !!a._mc }
-  })
-  expect(state!.card, "the card survived the click").toBe(true)
-  expect(state!.ctx, "and the sheet is still open").toBe(true)
-  expect(state!.mc, "and the question is still there to come back to").toBe(true)
-
-  // THE REFUSAL IS IN THE MODEL, NOT ONLY IN THE CSS. `_mc.answer(i)` is the seam BOTH input paths
-  // call — `_onKey` invokes it for A-D, and every option button's click listener is a closure over
-  // the same function — so driving it is driving the real entry point, not a second implementation
-  // of it (§6.3). Without this, `inert` alone hides the grading path from every spec and the
-  // model-level guard has no gate: mutating it away left the whole suite green.
-  const beforeSeam = (await j.beats()).filter((b) => b.beat === "land_q_answered").length
-  await page.evaluate(() => {
-    const a: any = (window as any).__neural
-    if (a._mc && a._mc.answer) a._mc.answer(a._mc.correct)
-  })
-  await j.advance(300)
-  expect(
-    (await j.beats()).filter((b) => b.beat === "land_q_answered").length,
-    "the answer seam itself refuses while the card is stood down",
-  ).toBe(beforeSeam)
-
-  // the contract the swallow protects: back out, and the question still pays
-  await page.keyboard.press("Escape")
-  await j.advance(300)
-  await page.keyboard.press("abcd"[mc!.correct])
-  await j.advance(300)
-  const paid = (await j.beats()).filter((b) => b.beat === "land_q_answered")
-  expect(paid.length, "after Esc the question answers normally").toBe(1)
-  expect((paid[0] as any).correct).toBe(true)
+  const choice = page.locator('[data-choice-group="you"] [data-tech]').nth(1)
+  await expect(choice.locator('[data-choice-number]')).toHaveText('2')
+  await expect(choice.locator('.ngchoice-title')).not.toBeEmpty()
+  await expect(choice.locator('[data-cat], .ngglyph')).toHaveCount(0)
+  await page.keyboard.press('Shift+Digit2')
+  await expect(page.locator('[data-go], [data-choice-value-detail]')).toHaveCount(0)
+  await expect(page.locator('[data-executing-tech]')).toHaveCount(0)
+  await expect(page.locator('[data-landcard]')).toBeVisible()
 })

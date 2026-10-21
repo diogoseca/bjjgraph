@@ -29,6 +29,8 @@ people actually arrive here. Index A answers *"what shipped in vN?"*.
 
 ## Index A — by version
 
+- **v1.231.0** — [Videos lead the cards, with separate actions](#v12310--videos-lead-the-cards-with-separate-actions)
+
 - **v1.229.0** — [Corrected node identities and preserved retirements](#v12290--corrected-node-identities-and-preserved-retirements)
 
 - **v1.228.0** — [Article sections and floating contents](#v12280--article-sections-and-floating-contents)
@@ -12252,3 +12254,66 @@ The re-seed changes only provenance/location; census fields, all 14 app rows, al
 and floors remain exact. Own-build and retained-tree gates pass with current-content provenance.
 Earlier receipts remain immutable. All three derived source files reproduce byte-for-byte;
 D-285 preserves every unchanged Markdown byte and stamp.
+
+## v1.231.0 — Videos lead the cards, with separate actions
+
+Owner, 2026-10-15: the choices should lead with their technique's video and a thin
+card-game row of immediate chance and Win %. The approved A current card carries
+its title, role and current Win %, with one full video plus a tenth of the next.
+The approved heading is "Your move". This reverses v1.218.1 Inspect and shifted-digit
+entry and v1.220.0's sheet and unequal score hierarchy. D-318, 2026-10-16, then
+removes the Choose/Read footer: the whole card commits except for its centered
+44px play circle, which opens the video viewer without autoplay. The choice face
+shrinks from 220 to 176px. Its shortcut digit (1–9) returns inside its category
+shape; the current-node card gets the same shape without a digit. The odds row
+stays unchanged. The drag guard, move guards and execution status remain.
+Threat cards cannot execute. Missing or stale solver values keep their existing
+meaning, and both current-Win displays consume chrome's one published snapshot.
+
+Curation owns relevance. Choice media admits only the first clip with front:true
+in the exact role's authored array; duration never reorders the list. Position hub
+clips require an explicit half, then follow half-local clips with ID deduplication
+and local metadata priority. The wire preserves front, half and duration. No match
+means a quiet empty video region that still belongs to the move button. Film Study and the current card reuse the same
+_landFilmEl; sections owns its slot and movement, videos its contents and playback.
+The changed-height observer requests layout only after an actual height change.
+
+Question 6, same day: the owner dropped practise-before-you-try entirely. The
+extracted JIT host, RNG tags, warm-up latch, inline styles and unused sound cue are
+removed. banked was local to that host; the shared _mcAnswer/gradeRecall credit and
+refreshOptionOdds paths stay. The removed-test map names all six jit-format cases,
+two JIT-only loop cases and their surviving economy coverage. Sidebar, landing and
+live-catch tests keep exact credit, no credit for wrong answers, mastery, lesson
+completion and sharpness rules. Escape's v1.227.0 shared renderLandCard is retained;
+"panic" remains the surface ID, and the mounted question owns grade identity.
+
+Dead Inspect/prose renderers and .r-* rules also leave. Reader content assertions
+now use the full article; READ_PROBE still requires the surviving article selector
+in deferred reading.css and forbids it in eager CSS. The viewer's Close button is
+adjacent to the provider frame in focus order, with explicit parent Tab wrapping.
+The frame's Escape key cannot be relied on to reach the parent dialog.
+
+Drill removal alone saved 5,808 raw source bytes. On curated dev 7ac17caa0, paired
+app measurements save 9,485 eager gzip bytes, 9,505 first-hand gzip bytes and 2,475
+deferred raw bytes; the feature measures 336,927 / 389,341 / 477,579 respectively.
+The largest chunk stays 39,000 bytes. Both first-hand gates pass without a baseline
+change. The 14-state actual-hand sample finds approved fronts on 129 of 180 choices;
+51 remain suppressed. The exact eligible-source provenance test replaces the old
+inventory floor. Fourteen retained economy journeys and 82 targeted units pass.
+Final combined payload, phone geometry and full-suite validation await sections
+and chrome; the deferred tighten obligation remains. No ceiling is raised here.
+
+U8 / D-338, 2026-10-20: reset the article image margin inside film frames and
+constrain the choice media grid to its frame, preventing intrinsic poster
+dimensions from enlarging it. The crop stays centered, and playback fills the
+host without an iframe border. Win labels and values now share the right edge;
+the immediate-chance column retains its alignment. The owner comparison export
+uses the same production cards for both alignments, with illustrative odds on
+desktop and phone light canvases and a desktop dark canvas.
+
+The geometry journeys cover five widths from 320 to 1440px, one and two current
+clips, and unavailable and decoded posters. Source mutations restore the image
+margin, remove the grid constraint and restore left-aligned Win to challenge
+those assertions. The real-worker journeys retain their solver and study
+invariants while moving percent units to the headings and replacing retired
+Inspect checks with the surviving move controls.

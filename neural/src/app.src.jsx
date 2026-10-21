@@ -36,20 +36,8 @@ const NG_LAND_ANSWER_STEPS = Object.freeze([
 // The option tray's own horizontal inset, both ends (`updateUiShift` writes it; the pane's reserve is
 // added on the left only). The template's inline 24px is the same value for the first paint.
 const NG_TRAY_INSET = 24;
-// THE MOVE'S OWN NUMBER LEADS THE CARD (v1.220.0, owner 2026-10-05: "the win chance label and value%
-// should be significantly smaller than the move label and value%, as, despite being the most
-// important, the chance of it working is only that of the %"). Every size on a card's two number
-// lines is a ratio of ONE token on it, the move's own percentage (`.ngodds`, NG_CARD_MOVE_NUM px):
-// the move's label is NG_CARD_MOVE_LABEL of it, and Win chance, label and value alike,
-// NG_CARD_WIN of it. A threat card follows the same rule: its Win chance (header) against its
-// Odds. Written onto each card as custom properties (`buildOptionCard`), read by choice-value.css.
-// No number changes; this is hierarchy only. Pinned by e2e/journeys/card-presentation.spec.ts.
-const NG_CARD_MOVE_NUM = 15, NG_CARD_MOVE_LABEL = 0.75, NG_CARD_WIN = 0.6;
-// ...AND IN THE INSPECT SHEET (owner's call through the orchestrator, 2026-10-06: "shrink the Inspect
-// SHEET's Win chance headline to the same NG_CARD_WIN ratio of the sheet's move %"). The sheet's own
-// move % (`.ngsucbig`) is NG_SHEET_MOVE_NUM px, written onto the sheet's head with NG_CARD_WIN; the
-// headline and its outcome numbers read both (choice-value.css `.ngcv-detail`).
-const NG_SHEET_MOVE_NUM = 25;
+// v1.230.0: equal choice score columns are styled in choice-value.css.
+// feedback_owner_rules_reverse_shipped_contracts: v1.220.0's 0.6 ratio retired.
 // The chosen card's lift (`_placeOnTable`): a twelfth of its own height (12px on the 144px card),
 // over NG_CARD_LIFT_MS: rise, set down, settle.
 const NG_CARD_LIFT = 1 / 12, NG_CARD_LIFT_MS = 440;
@@ -254,7 +242,6 @@ class Component extends DCLogic {
   legendMarkRef = React.createRef();
   legendPointRef = React.createRef();
   legendRef = React.createRef();
-  optDetailRef = React.createRef();
   brandFontRef = React.createRef();
   accountRef = React.createRef();
   acctChipRef = React.createRef();
@@ -332,7 +319,7 @@ class Component extends DCLogic {
       modalRef: this.modalRef, modalCardRef: this.modalCardRef,
       explorerRef: this.explorerRef, explorerListRef: this.explorerListRef, explorerSearchRef: this.explorerSearchRef, explorerSearchWrapRef: this.explorerSearchWrapRef, explorerToolsRef: this.explorerToolsRef, dossierRef: this.dossierRef, dossierSheetRef: this.dossierSheetRef, nodeCardRef: this.nodeCardRef, viewToggleRef: this.viewToggleRef, paneAnchorRef: this.paneAnchorRef, paneStatsRef: this.paneStatsRef, ghChipRef: this.ghChipRef,
       toggleExplorer: () => this.toggleExplorer(), openSearch: () => this.openSearch(),
-      legendPointRef: this.legendPointRef, legendRef: this.legendRef, optDetailRef: this.optDetailRef, brandFontRef: this.brandFontRef,
+      legendPointRef: this.legendPointRef, legendRef: this.legendRef, brandFontRef: this.brandFontRef,
       togglePause: () => this.setPaused(!this.paused), resetRoll: () => this.resetRoll(),
       evCenterRef: this.evCenterRef, evcKickerRef: this.evcKickerRef, evcTextRef: this.evcTextRef, evcSubRef: this.evcSubRef,
     };
@@ -387,7 +374,6 @@ class Component extends DCLogic {
       window.removeEventListener("online", this._onChallengeConnectivity);
       window.removeEventListener("offline", this._onChallengeConnectivity);
     }
-    this._detailCtx = null;
     if (this._raf) cancelAnimationFrame(this._raf);
     if (this._ro) this._ro.disconnect();
     if (this._onChoiceFonts) document.fonts.removeEventListener("loadingdone", this._onChoiceFonts);
@@ -744,7 +730,7 @@ class Component extends DCLogic {
     this.resize();
     this.attachInput();
     // block pan when interacting with overlay controls
-    [this.optionsRef.current, this.drillRef.current, this.shareCueRef.current, this.accountRef.current, this.optDetailRef.current].forEach((el) => {
+    [this.optionsRef.current, this.drillRef.current, this.shareCueRef.current, this.accountRef.current].forEach((el) => {
       if (el) { el.addEventListener("pointerdown", (e) => e.stopPropagation()); el.addEventListener("wheel", (e) => e.stopPropagation(), { passive: false }); }
     });
     // ── A WHEEL OVER THE HAND SCROLLS THE HAND (v1.123.0) ─────────────────────────────────────
@@ -823,7 +809,7 @@ class Component extends DCLogic {
     }
     // modal: card blocks pan + wheel; backdrop click closes
     if (this.modalCardRef.current) { this.modalCardRef.current.addEventListener("pointerdown", (e) => e.stopPropagation()); this.modalCardRef.current.addEventListener("wheel", (e) => e.stopPropagation(), { passive: false }); }
-    if (this.modalRef.current) this.modalRef.current.addEventListener("pointerdown", (e) => { e.stopPropagation(); this._setDetailCtx(null); this.setPaused(false); this.closeModal(); });
+    if (this.modalRef.current) this.modalRef.current.addEventListener("pointerdown", (e) => { e.stopPropagation(); this.setPaused(false); this.closeModal(); });
     // Z LADDER (v1.95.1, see helmet.html): the modal is a DELIBERATE screen — portal it out
     // of the wrap (whose stacking context traps any z it wears) onto the root overlay plane,
     // where its 95 outranks every ambient overlay (landcard 5, combo pop 72).
@@ -834,6 +820,7 @@ class Component extends DCLogic {
     // keyboard: "/" or Cmd/Ctrl+K focuses search in the explorer
     this._onKey = (e) => {
       const t = e.target, typing = t && (t.tagName === "INPUT" || t.tagName === "TEXTAREA" || t.isContentEditable);
+      if (this._choiceWatch) { if (e.key === "Escape") { e.preventDefault(); this._closeChoiceWatch(); } return; }
       if (e.key !== "Escape" && this.modalRef.current?.style.display === "flex") return;
       if (e.key !== "Escape" && this._readKey(e)) return;
       if (((e.key === "k" || e.key === "K") && (e.metaKey || e.ctrlKey)) || (e.key === "/" && !typing)) {
@@ -853,7 +840,6 @@ class Component extends DCLogic {
         if (this._expandedClip && this._expandedClip.closest("[data-concept-film]")) {
           e.preventDefault(); const clip = this._expandedClip; this.collapseClip(clip); clip.focus(); return;
         }
-        if (this._detailCtx) { e.preventDefault(); this.closeOptionDetail(); return; }
         if (this.closeNodeDossier()) return; // in-node dossier open (desktop) — fly back out
         if (this.stopReplay("esc")) return;  // a film is ambient chrome: it stops before the pane closes
         const sh = this.dossierSheetRef.current;
@@ -862,24 +848,20 @@ class Component extends DCLogic {
           if (this._dossierIdx != null) this.showExplorerList();
           else this.setDeckOpen(false);
         }
-      } else if ((e.key === "Enter" || e.key === "x" || e.key === "X") && this._detailCtx && !typing) {
-        if (e.key === "Enter" && t?.closest?.("button,summary,a[href],select") && this.optDetailRef.current?.contains(t)) return;
-        e.preventDefault(); const ctx = this._detailCtx;
-        if (ctx.onPick && ctx.opt && !ctx.opt.threat) { this.closeOptionDetail(); ctx.onPick(ctx.opt); }
-      } else if (!typing && !this._detailCtx && this.deckShown && this._viewMode === "history" && this._drillView === "home" && !this._paneStudyActive() && (e.key === "ArrowLeft" || e.key === "ArrowRight" || e.key === "ArrowUp" || e.key === "ArrowDown")) {
+      } else if (!typing && this.deckShown && this._viewMode === "history" && this._drillView === "home" && !this._paneStudyActive() && (e.key === "ArrowLeft" || e.key === "ArrowRight" || e.key === "ArrowUp" || e.key === "ArrowDown")) {
         e.preventDefault();
         const f = (this._rollFocus == null ? (this.rollLog ? this.rollLog.length - 1 : 0) : this._rollFocus);
         if (e.key === "ArrowUp") this.focusRollItem(f - 1);
         else if (e.key === "ArrowDown") this.focusRollItem(f + 1);
         else { const c = this._focusedMini(); if (c) (e.key === "ArrowLeft" ? c.prev() : c.next()); }
-      } else if (!typing && !this._detailCtx && this._sessionInline() && (e.key === "ArrowLeft" || e.key === "ArrowRight" || e.key === "ArrowUp" || e.key === "ArrowDown")) {
+      } else if (!typing && this._sessionInline() && (e.key === "ArrowLeft" || e.key === "ArrowRight" || e.key === "ArrowUp" || e.key === "ArrowDown")) {
         // THE INLINE SESSION'S TWO AXES (v1.137.0, owner: "I can go back and forth between
         // techniques and between flashcards"). Same shape as the History-home branch above and
         // the same `_focusedMini` handle — ←/→ page the open deck's cards, ↑/↓ walk the queue.
         e.preventDefault();
         if (e.key === "ArrowUp" || e.key === "ArrowDown") this.sessionNav(e.key === "ArrowDown" ? 1 : -1);
         else { const c = this._focusedMini(); if (c) (e.key === "ArrowLeft" ? c.prev() : c.next()); }
-      } else if (!typing && !this._detailCtx && this.isDrillOpen() && (e.key === "ArrowLeft" || e.key === "ArrowRight" || e.key === "ArrowUp" || e.key === "ArrowDown")) {
+      } else if (!typing && this.isDrillOpen() && (e.key === "ArrowLeft" || e.key === "ArrowRight" || e.key === "ArrowUp" || e.key === "ArrowDown")) {
         e.preventDefault();
         // AN OPEN CHECKPOINT QUIZ OWNS THE DECK SURFACE (v1.215.6, gen triage). A–C answer it
         // and nothing else may touch it: the quiz shows the FULL deck positioned at its pick, and
@@ -893,7 +875,7 @@ class Component extends DCLogic {
         else if (e.key === "ArrowRight") this.drillNext();
         else if (e.key === "ArrowDown") { if (!this.drillTechNav(1)) { if (!this.revealed) this.drillReveal(); else this.drillGrade(true); } }
         else if (e.key === "ArrowUp") { if (!this.drillTechNav(-1)) { if (this.revealed) this.drillGrade(false); else this.drillReveal(); } }
-      } else if (!typing && !this._detailCtx && this._challengeInline() && (e.key === "ArrowLeft" || e.key === "ArrowRight" || e.key === "ArrowUp" || e.key === "ArrowDown")) {
+      } else if (!typing && this._challengeInline() && (e.key === "ArrowLeft" || e.key === "ArrowRight" || e.key === "ArrowUp" || e.key === "ArrowDown")) {
         // THE CORRIDOR'S TWO AXES (v1.175.0, owner: "keys navigation especially for the
         // flashcards in the challenges … up arrow down arrow left right space enter"). Identical
         // in shape to the History-home and inline-session branches above, on the same `_miniReg`
@@ -905,7 +887,7 @@ class Component extends DCLogic {
         e.preventDefault();
         if (e.key === "ArrowUp" || e.key === "ArrowDown") this.challengeLessonNav(e.key === "ArrowDown" ? 1 : -1);
         else { const c = this._focusedMini(); if (c) (e.key === "ArrowLeft" ? c.prev() : c.next()); }
-      } else if (e.key === "Enter" && !typing && !this._detailCtx) {
+      } else if (e.key === "Enter" && !typing) {
         // ── ⏎ COMMITS THE CARD IN FRONT OF YOU (v1.175.0) ─────────────────────────────────────
         // Space FLIPS a card, ⏎ says "got it" and walks on (`doEnter` in `_miniDeck` owns the
         // three-state rule), so a deck is workable without leaving the home row. Below the option
@@ -924,13 +906,13 @@ class Component extends DCLogic {
           // and, like ↓, never during an open checkpoint quiz (see the drill arrows above)
           e.preventDefault(); if (this._checkpoint) { /* the quiz owns the deck */ } else if (!this.revealed) this.drillReveal(); else this.drillGrade(true);
         }
-      } else if (!typing && !this.deckShown && !this._detailCtx && this._landEl && !this._landHidden() && ["land", "attempt", "defense"].includes(this._landMode) && this._landPage != null && (e.key === "ArrowLeft" || e.key === "ArrowRight")) {
+      } else if (!typing && !this.deckShown && this._landEl && !this._landHidden() && ["land", "attempt", "defense"].includes(this._landMode) && this._landPage != null && (e.key === "ArrowLeft" || e.key === "ArrowRight")) {
         // the landing card pages its own deck (v1.130.0). BELOW the pane-History and drill arrow
         // branches so it can never steal from an open study surface. Defense uses
         // the same renderer and deck controls (v1.227.0).
         e.preventDefault();
         this._landPageTo(e.key === "ArrowRight" ? 1 : -1);
-      } else if ((e.key === " " || e.key === "p" || e.key === "P") && !typing && !this._detailCtx) {
+      } else if ((e.key === " " || e.key === "p" || e.key === "P") && !typing) {
         // ── SPACE BELONGS TO THE FOCUSED CONTROL FIRST (v1.113.4) ────────────────────────────
         // `preventDefault()` used to run BEFORE this branch decided anything, so Space suppressed
         // the browser's activation of whatever <button>/<summary> had focus. The Challenges
@@ -950,13 +932,6 @@ class Component extends DCLogic {
         // three, so an open study surface and a focused mini-row both keep the key they already
         // had — this only claims Space when nothing else wanted it. `_recallLive()` is the whole
         // predicate; see it for why the block is re-derived rather than remembered.
-        //
-        // The `!this._detailCtx` gate on this branch is DELIBERATELY UNCHANGED. The branch this
-        // came from relaxed it, because ITS jit drill rendered through `_recallBlock` and so had
-        // a recall block live behind an open option sheet. Ours does not: `_recallBlock`'s only
-        // two callers are the node card and the landing card, and the landing card is inert
-        // behind a sheet anyway (`_landHidden`). Relaxing the gate here would buy a case that
-        // cannot be reached, and therefore cannot be tested (§6.9).
         else if (e.key === " " && !this.deckShown && this._recallLive()) { this._recall.toggle(); }
         // v1.134.0: the pause toggle is retired with the transport — the game is turn-based and
         // the question clock is deliberately un-pausable ("that's our test to the user", owner)
@@ -979,7 +954,7 @@ class Component extends DCLogic {
         // count must never fall through to the roll's option-card openers (a '5' opened
         // the expand sheet and Enter then COMMITTED the roll under the live quiz)
         const opt = this._optList[this.optionKeyIndex(e)];
-        if (opt && (!this._detailCtx || (e.shiftKey && this._detailCtx.opt !== opt))) { e.preventDefault(); const oc = (this._optionCards || []).find((c) => c.opt === opt); this.activateOption(opt, this._optPick, oc && oc.card, e.shiftKey); }
+        if (opt && !this._reader?.intent && !this._reader?.interacting) { e.preventDefault(); const oc = (this._optionCards || []).find((c) => c.opt === opt); this.activateOption(opt, this._optPick, oc && oc.card); }
       }
     };
     window.addEventListener("keydown", this._onKey);
@@ -2241,59 +2216,6 @@ class Component extends DCLogic {
     const rc = this._ngc(n.t);
     return (rc && rc.perspectives) ? rc : null;
   }
-  splitTo(t) {
-    const m = (t || "").match(/^(.*?)\s+to\s+(.+)$/i);
-    return m ? { from: m[1].trim(), to: m[2].trim() } : null;
-  }
-  titleParts(n) {
-    const rc = this.richContentFor(n);
-    if (rc && rc.from && rc.target) return { from: rc.from, to: rc.target };
-    const st = this.splitTo(n.t);
-    if (st) return { from: st.from, to: st.to };
-    return null;   // no from->to structure; caller renders the plain name
-  }
-  /**
-   * Authored prose carries real paragraph breaks — 939 of the 997 entries that have both a
-   * summary and a context do (94%). Dropping it into innerHTML collapses every one of them, so
-   * three paragraphs arrive as one wall with sentences colliding at the joins ("…over the
-   * shoulder.Strategically, the Triangle from Back is…"). That single missing split is most of
-   * why this sheet read as a prototype.
-   */
-  proseHTML(t, style) {
-    const parts = String(t == null ? "" : t).split(/\n{1,}/).map((x) => x.trim()).filter(Boolean);
-    if (!parts.length) return "";
-    return parts.map((x, i) => '<p style="margin:' + (i ? "10px 0 0" : "0") + ';' + (style || "") + '">' + x + '</p>').join("");
-  }
-  detailHTML(n, cat, neighbors, persp) {
-    const info = this._sheetInfo(n, this.ngContentFor(n));
-    if (!info) {
-      this._curClips = null;
-      const key = n.ty === "positions" ? this.deckKeyFor(n).key : n.t;
-      const settled = Object.prototype.hasOwnProperty.call((window.NG_CONTENT && window.NG_CONTENT.decks) || {}, key);
-      return '<p data-sheet-content-status role="status" style="font-size:13px;color:#aeb9d4;">' +
-        (settled ? 'This breakdown is unavailable.' : 'Loading this breakdown…') + '</p>';
-    }
-    return this.richDetailHTML(n, cat, info, persp || "attacker");
-  }
-  /** Cheap near-duplicate test: does `b` already say what `a` says? Compares a normalised
-   *  middle slice, which is what a shared body of paragraphs has in common even when the two
-   *  differ in their opening sentence (exactly the shape seen in the corpus). */
-  _echoesSummary(a, b) {
-    if (!a || !b) return false;
-    const norm = (x) => String(x).replace(/\s+/g, " ").trim().toLowerCase();
-    const A = norm(a), B = norm(b);
-    if (A.length < 120 || B.length < 120) return false;
-    const probe = B.slice(Math.floor(B.length * 0.35), Math.floor(B.length * 0.35) + 160);
-    return probe.length >= 120 && A.indexOf(probe) >= 0;
-  }
-  richDetailHTML(n, cat, rc, persp) {
-    const blk = (rc.perspectives || {})[persp];
-    this._curClips = persp === "defender" && (!blk || !blk.authored) ? null : ((blk && blk.clips) || rc.clips || null);
-    const sections = this._readingSections(n, rc, persp, true);
-    // The submission notice stays first, including when the sheet has a film reel.
-    const notice = sections[0] && sections[0].key === "safety-notice" ? [sections.shift()] : [];
-    return this._readingHTML(notice, "sheet") + this.filmStudyHTML(this._curClips) + this._readingHTML(sections.filter((s) => s.key !== "aka"), "sheet");
-  }
   fmtDur(s) { s = Math.max(0, Math.round(s)); return Math.floor(s / 60) + ":" + String(s % 60).padStart(2, "0"); }
   /**
    * `compact` is the landing card's variant (v1.101.0). The full strip is 170px of thumbnail
@@ -2310,14 +2232,14 @@ class Component extends DCLogic {
     h += '<div class="ng-cliprow" style="display:flex;gap:' + (compact ? 8 : 11) + 'px;overflow-x:auto;padding-bottom:6px;">';
     clips.forEach((c, i) => {
       const w = compact ? (c.vertical ? 62 : 148) : (c.vertical ? 126 : 210), ht = compact ? 92 : 170;
-      const dur = (c.end != null && c.start != null) ? this.fmtDur(c.end - c.start) + " \u00b7 loop" : "clip";
-      h += '<button type="button" class="ng-clip" aria-label="' + this.escHTML('Play: ' + c.title + (c.by ? ' — ' + c.by : '')) + '" data-i="' + i + '" style="scroll-snap-align:start;flex:none;position:relative;width:' + w + 'px;height:' + ht + 'px;border-radius:13px;overflow:hidden;border:1px solid rgba(150,170,210,.16);background:#0c0f17;cursor:pointer;padding:0;display:block;transition:width .34s cubic-bezier(.4,0,.2,1),height .34s cubic-bezier(.4,0,.2,1);">' +
-        '<img alt="" src="https://i.ytimg.com/vi/' + c.id + '/hqdefault.jpg" loading="lazy" referrerpolicy="no-referrer" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.92;transition:transform .18s ease,opacity .3s ease;">' +
+      const dur = c.duration != null ? this.fmtDur(c.duration) : (c.end != null && c.start != null) ? this.fmtDur(c.end - c.start) : "Video";
+      h += '<div class="ng-clip" tabindex="-1" data-i="' + i + '" style="scroll-snap-align:start;flex:none;position:relative;width:' + w + 'px;height:' + ht + 'px;border-radius:13px;overflow:hidden;border:1px solid rgba(150,170,210,.16);background:#0c0f17;cursor:pointer;padding:0;display:block;transition:width .34s cubic-bezier(.4,0,.2,1),height .34s cubic-bezier(.4,0,.2,1);">' +
+        '<button type="button" data-film-play aria-label="' + this.escHTML('Watch: ' + (c.title || 'Technique video') + (c.by ? ' — ' + c.by : '')) + '" style="position:absolute;inset:0;width:100%;height:100%;border:0;padding:0;color:inherit;background:none;cursor:pointer;"><img alt="" src="https://i.ytimg.com/vi/' + c.id + '/hqdefault.jpg" loading="lazy" referrerpolicy="no-referrer" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.92;transition:transform .18s ease,opacity .3s ease;">' +
         '<span style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(8,10,16,0) 38%,rgba(8,10,16,.88) 100%);"></span>' +
         '<span class="ngPlay" style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:' + (compact ? 30 : 44) + 'px;height:' + (compact ? 30 : 44) + 'px;border-radius:50%;background:rgba(12,14,22,.6);backdrop-filter:blur(3px);border:1.5px solid rgba(255,255,255,.9);display:flex;align-items:center;justify-content:center;transition:transform .16s ease,background .16s ease;"><svg width="15" height="15" viewBox="0 0 24 24" fill="#fff" style="margin-left:2px;"><polygon points="6 4 20 12 6 20 6 4"></polygon></svg></span>' +
         '<span style="position:absolute;top:8px;right:8px;font-size:9px;font-weight:700;color:#eef1f6;background:rgba(8,10,16,.72);border-radius:6px;padding:2px 6px;letter-spacing:.02em;">' + dur + '</span>' +
         '<span style="position:absolute;left:10px;right:10px;bottom:9px;text-align:left;"><span style="display:block;font-size:' + (compact ? 10 : 11.5) + 'px;font-weight:700;color:#fff;line-height:1.25;text-shadow:0 1px 6px rgba(0,0,0,.65);">' + this.escHTML(c.title) + '</span>' + (c.by ? '<span style="display:block;font-size:10px;color:#c3cce0;margin-top:2px;text-shadow:0 1px 5px rgba(0,0,0,.6);">' + this.escHTML(c.by) + '</span>' : '') + '</span>' +
-        '</button>';
+        '</button></div>';
     });
     h += '</div>';
     return h;
@@ -2328,118 +2250,93 @@ class Component extends DCLogic {
   _stopConceptFilm() {
     if (this._expandedClip && this._expandedClip.closest("[data-concept-film]")) this.clearClipLoops();
   }
-  expandClip(card, clip) {
-    if (!card || !clip) return;
-    if (card._expanded) return;
+  expandClip(card, clip, resume = false) {
+    if (!card || !clip || card._expanded) return;
     // D-354 N1: a play settles a pinned landing (the reader's wrapper, D-353) while its film still sits in
     // the media home, so Videos lifted with an empty slot under the playing film until the next sync. In
     // the article view with Videos open, the reader places the film in its slot first, before a player exists.
     const r = this._reader, film = this._landFilmEl;
     if (r?.wantsMedia() && film?.contains(card) && film.parentElement === r.mediaHome && this.get("readerSection.videos", true) !== false) r.syncMedia();
     if (this._expandedClip && this._expandedClip !== card) this.collapseClip(this._expandedClip);
-    card._expanded = true; card._mediaPaused = false; card._mediaStale = false; card._mediaClip = clip; this._expandedClip = card;
+    if (card.closest(".ng-landfilm,.ng-choice-viewer")) this._choiceLearn();
+    card._expanded = true; card._mediaPaused = false; card._mediaStale = false; card._mediaClip = clip;
+    card._playerReady = false; this._expandedClip = card;
     const generation = card._mediaGeneration = (card._mediaGeneration || 0) + 1;
-    const current = () => card._expanded && card.isConnected && !card._mediaStale && card._mediaGeneration === generation;
-    { const fx = this._landFilmEl && this._landFilmEl.querySelector("[data-film-close]"); if (fx) fx.style.visibility = "hidden"; } // never beside the player's own ✕
-    // Principle film is reference reading. This beat awards the gameplay film challenge,
-    // so it belongs only to the existing position/technique study surfaces.
-    if (!card.closest("[data-concept-film],[data-reference-film]")) this.fx("short_watched", { id: clip.id });
-    const vertical = !!clip.vertical, start = clip.start || 0, end = clip.end || 0;
+    const live = () => card.isConnected && card._expanded && card._mediaGeneration === generation;
     const row = card.parentElement;
-    const rw = (row && row.clientWidth) || 460;
-    const conceptList = card.closest("[data-concept-film]") && this.explorerListRef.current;
-    let W, H;
-    if (vertical) { H = 460; W = Math.round(H * 9 / 16); const capW = Math.round(rw * 0.7); if (W > capW) { W = capW; H = Math.round(W * 16 / 9); } }
-    else { W = Math.min(496, Math.round(rw * 0.96)); H = Math.round(W * 9 / 16); }
-    if (conceptList && H > conceptList.clientHeight - 16) {
-      H = Math.max(1, conceptList.clientHeight - 16);
-      W = Math.round(H * (vertical ? 9 / 16 : 16 / 9));
+    const framed = card.closest(".ng-landfilm,.ng-choice-viewer");
+    if (!framed) {
+      card._bw = card.offsetWidth; card._bh = card.offsetHeight;
+      const width = Math.min(496, (row?.clientWidth || 460) * .96);
+      card.style.setProperty("width", width + "px", "important");
+      card.style.setProperty("height", Math.min(460, width * (clip.vertical ? 16 / 9 : 9 / 16)) + "px", "important");
     }
-    if (!card._bw) { card._bw = card.offsetWidth; card._bh = card.offsetHeight; }
     card.style.cursor = "default";
-    const glyph = card.querySelector(".ngPlay"); if (glyph) glyph.style.display = "none";
-    card.style.setProperty("width", W + "px", "important"); card.style.setProperty("height", H + "px", "important");
-    const ph = document.createElement("div"); ph.className = "ngPlayerHost"; ph.style.cssText = "position:absolute;inset:0;background:#000;z-index:2;";
-    const vhost = document.createElement("div"); vhost.style.cssText = "position:absolute;inset:0;";
-    const spin = document.createElement("div"); spin.style.cssText = "position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:#0c0f17;"; spin.innerHTML = '<span style="width:24px;height:24px;border:2.5px solid rgba(255,255,255,.16);border-top-color:rgba(224,88,79,.9);border-radius:50%;animation:ngSpin .9s linear infinite;"></span>';
-    ph.appendChild(vhost); ph.appendChild(spin); card.appendChild(ph);
-    const muteBtn = document.createElement("button");
-    muteBtn.className = "ngMuteBtn";
-    muteBtn.style.cssText = "position:absolute;bottom:9px;right:9px;z-index:6;width:34px;height:34px;border-radius:9px;background:rgba(8,10,16,.72);backdrop-filter:blur(4px);border:1px solid rgba(255,255,255,.22);color:#eef1f6;cursor:pointer;display:flex;align-items:center;justify-content:center;padding:0;transition:background .18s ease;";
-    const mutedIcon = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5" fill="currentColor" stroke="none"></polygon><line x1="23" y1="9" x2="17" y2="15"></line><line x1="17" y1="9" x2="23" y2="15"></line></svg>';
-    const onIcon = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5" fill="currentColor" stroke="none"></polygon><path d="M15.5 8.5a5 5 0 0 1 0 7"></path><path d="M19 5a9 9 0 0 1 0 14"></path></svg>';
-    let cmuted = true;
-    muteBtn.innerHTML = mutedIcon; muteBtn.title = "Unmute";
-    muteBtn.addEventListener("mouseenter", () => { muteBtn.style.background = "rgba(224,88,79,.9)"; });
-    muteBtn.addEventListener("mouseleave", () => { muteBtn.style.background = "rgba(8,10,16,.72)"; });
-    muteBtn.addEventListener("click", (e) => { e.preventDefault(); e.stopPropagation(); const pl = card._player; if (!pl) return; cmuted = !cmuted; if (cmuted) { try { pl.mute(); } catch (x) {} muteBtn.innerHTML = mutedIcon; muteBtn.title = "Unmute"; } else { try { pl.unMute(); pl.setVolume(80); } catch (x) {} muteBtn.innerHTML = onIcon; muteBtn.title = "Mute"; } });
-    card.appendChild(muteBtn);
-    // ── THE WAY OUT OF A PLAYING CLIP (v1.101.1) ──
-    // Owner: "clicking outside the currently viewed video should close it, but there should also
-    // be a closing x button top right of it". Two ways out, both ending in the same collapse.
-    const xb = document.createElement("button");
-    xb.className = "ngClipX";
-    xb.type = "button";
-    xb.setAttribute("aria-label", "Close video");
-    xb.title = "Close video";
-    xb.innerHTML = "✕";
-    xb.style.cssText = "position:absolute;top:9px;right:9px;z-index:7;width:28px;height:28px;border-radius:9px;background:rgba(8,10,16,.78);backdrop-filter:blur(4px);border:1px solid rgba(255,255,255,.22);color:#eef1f6;font-family:inherit;font-size:12px;line-height:1;cursor:pointer;display:flex;align-items:center;justify-content:center;padding:0;transition:background .18s ease;";
-    xb.addEventListener("mouseenter", () => { xb.style.background = "rgba(224,88,79,.9)"; });
-    xb.addEventListener("mouseleave", () => { xb.style.background = "rgba(8,10,16,.78)"; });
-    xb.addEventListener("click", (e) => {
-      e.preventDefault(); e.stopPropagation();
-      const restore = card.closest("[data-concept-film]") && card.contains(document.activeElement);
-      this.collapseClip(card);
-      if (restore && card.isConnected) card.focus({ preventScroll: true });
-    });
-    card.appendChild(xb);
-    // capture phase, so a surface that stops propagation cannot keep the player alive behind it.
-    // Registered DURING the click that expanded this card, which has already dispatched its own
-    // pointerdown — so it cannot close what it just opened.
-    card._outside = (e) => { if (!card._expanded) return; if (e.target && card.contains(e.target)) return; if (card.closest("[data-reader-media-slot],[data-land-media-slot]") && e.target?.closest("[data-section-toggle],[data-toc-eye],[data-section-link],[data-reader-part],[data-reading-focus],[data-section-settings]")) return; this.collapseClip(card); };
-    document.addEventListener("pointerdown", card._outside, true);
-    // TOP-CENTRE. Two axes, and they were both wrong for the same reason: the clip grew inside a
-    // horizontal scroller and nothing re-placed the strip afterwards. `tweenScroll` centres the
-    // card WITHIN the row; `_dockLandFilm` re-anchors the row itself now that it is 92px taller,
-    // and because that anchor is a BOTTOM the growth goes upward — which is what puts a playing
-    // clip at the top of the screen instead of halfway down it.
-    if (row) { requestAnimationFrame(() => {
-      if (!card._expanded || !card.isConnected) return;
-      const target = card.offsetLeft - Math.max(0, (row.clientWidth - card.offsetWidth) / 2);
-      this.tweenScroll(row, Math.round(target - row.scrollLeft)); this._dockLandFilm();
-      // Unlike the floating film strip, the principle row lives in a scrolling pane.
-      // Reveal its FINAL height now so a portrait player cannot hide its mute control
-      // below the pane while the expansion animates.
-      if (conceptList) {
-        const view = conceptList.getBoundingClientRect(), top = card.getBoundingClientRect().top;
-        if (top + H > view.bottom - 8) conceptList.scrollTop += top + H - view.bottom + 8;
-        else if (top < view.top + 8) conceptList.scrollTop += top - view.top - 8;
-      }
-    }); }
-    const fail = () => { if (!current()) return; window.open("https://www.youtube.com/watch?v=" + clip.id + (start ? "&t=" + start + "s" : ""), "_blank", "noopener"); this.collapseClip(card); };
-    this.ytApiReady().then((YT) => {
-      if (!current()) return;
-      if (!YT || !YT.Player) { fail(); return; }
-      let started = false;
+    const launch = card.querySelector("[data-film-play]"); if (launch) launch.hidden = true;
+    const ph = document.createElement("div"); ph.className = "ngPlayerHost";
+    ph.style.cssText = "position:absolute;inset:0;background:#000;z-index:2;";
+    const vhost = document.createElement("div"); ph.appendChild(vhost); card.appendChild(ph);
+    const close = document.createElement("button"); close.type = "button"; close.className = "ngClipX";
+    close.textContent = "✕"; close.setAttribute("aria-label", "Close video");
+    close.style.cssText = "position:absolute;top:0;right:0;z-index:7;width:44px;height:44px;background:rgba(8,10,16,.85);border:0;border-radius:8px;color:#eef1f6;cursor:pointer;";
+    close.onclick = e => { e.stopPropagation(); this.collapseClip(card); launch?.focus({ preventScroll: true }); };
+    card.appendChild(close);
+    // An outside activation of a section control is a pause/move, never a close.
+    // This listener only closes a non-current reference clip; current media keeps
+    // its identity until its own Close or a real node/role teardown.
+    if (!framed) {
+      card._outside = e => { if (live() && !card.contains(e.target)) this.collapseClip(card); };
+      document.addEventListener("pointerdown", card._outside, true);
+    }
+    const fail = () => {
+      if (!live()) return;
+      const link = document.createElement("a"); link.textContent = "Open video on YouTube ↗";
+      link.href = "https://www.youtube.com/watch?v=" + clip.id + (clip.start ? "&t=" + clip.start + "s" : "");
+      link.target = "_blank"; link.rel = "noopener noreferrer";
+      link.style.cssText = "display:grid;place-items:center;height:100%;color:#dce6ff;font-size:13px;";
+      ph.replaceChildren(link);
+    };
+    this.ytApiReady().then(YT => {
+      if (!live()) return;
+      if (!YT?.Player) { fail(); return; }
       const player = new YT.Player(vhost, {
         width: "100%", height: "100%", videoId: clip.id,
-        playerVars: { autoplay: card._mediaPaused ? 0 : 1, mute: 1, controls: 0, disablekb: 1, start: start, end: end || undefined, rel: 0, modestbranding: 1, playsinline: 1, fs: 0, iv_load_policy: 3 },
+        playerVars: { autoplay: 0, controls: 1, start: clip.start || 0, end: clip.end || undefined, rel: 0, playsinline: 1 },
         events: {
-          onReady: (e) => { if (!current()) return; try { const fr = e.target.getIframe && e.target.getIframe(); if (fr) fr.setAttribute("allow", "autoplay; encrypted-media; picture-in-picture"); e.target.mute(); e.target.seekTo(start, true); if (!card._mediaPaused && current()) e.target.playVideo(); else e.target.pauseVideo(); setTimeout(() => { try { if (!card._mediaPaused && current()) e.target.playVideo(); } catch (x) {} }, 220); } catch (x) {} },
-          onStateChange: (e) => { if (!current()) return; if (e.data === 1 && (card._mediaPaused || !card._expanded || !card.isConnected)) { try { e.target.pauseVideo(); } catch (x) {} return; } if (e.data === 1) { started = true; if (spin) spin.style.display = "none"; } if (e.data === YT.PlayerState.ENDED && !card._mediaPaused && current()) { try { e.target.seekTo(start, true); e.target.playVideo(); } catch (x) {} } },
-          onError: () => { fail(); }
-        }
+          onReady: e => {
+            if (!live()) return;
+            card._playerReady = true;
+            const iframe = e.target.getIframe?.();
+            if (iframe) { iframe.title = clip.title || "Technique video"; iframe.setAttribute("allow", "encrypted-media; picture-in-picture; fullscreen"); }
+            if (card._mediaPaused || card.closest("[hidden],[inert]")) e.target.pauseVideo();
+            // A fallback move discards the old handle. Only an explicit Resume
+            // may start its replacement, after this fresh player's ready event.
+            else if (resume) e.target.playVideo();
+          },
+          onStateChange: e => {
+            if (!live()) return;
+            if (e.data === 1 && (card._mediaPaused || card.closest("[hidden],[inert]"))) { e.target.pauseVideo(); return; }
+            // Principle and reference film is reading: the watch beat and the first look belong only to
+            // the position/technique study surfaces (sections: a reference page earns no gameplay credit).
+            if (e.data === 1 && !card._watched && !card.closest("[data-concept-film],[data-reference-film]")) {
+              card._watched = true; this.fx("short_watched", { id: clip.id });
+              this._filmFirstLook(card.closest("[data-land-film],[data-choice-viewer]")?._ngVideoNode);
+            }
+          },
+          onError: fail,
+        },
       });
       card._player = player;
-      if (end) { card._loop = setInterval(() => { try { if (!card._mediaPaused && current() && player.getCurrentTime && player.getCurrentTime() >= end) player.seekTo(start, true); } catch (x) {} }, 250); }
-      setTimeout(() => { if (!started && spin) spin.style.display = "none"; }, 4500);
     });
+    this._dockLandFilm();
   }
   collapseClip(card) {
     if (!card) return;
+    card._mediaGeneration = (card._mediaGeneration || 0) + 1; card._playerReady = false;
+    card.querySelector("[data-film-resume]")?.remove();
+    const launch = card.querySelector("[data-film-play]"); if (launch) launch.hidden = false;
     if (card._loop) { clearInterval(card._loop); card._loop = null; }
     if (card._player) { try { card._player.destroy(); } catch (e) {} card._player = null; }
-    card.querySelector("[data-film-resume]")?.remove();
     const ph = card.querySelector(".ngPlayerHost"); if (ph) ph.remove();
     const mb = card.querySelector(".ngMuteBtn"); if (mb) mb.remove();
     const cx = card.querySelector(".ngClipX"); if (cx) cx.remove();
@@ -2469,6 +2366,7 @@ class Component extends DCLogic {
     if (!clips) return;
     body.querySelectorAll(".ng-clip").forEach((card) => {
       const glyph = card.querySelector(".ngPlay"), img = card.querySelector("img");
+      if (img) img.onerror = () => { img.style.visibility = "hidden"; };
       // A HINT, NOT A FLASH (v1.104.2, owner: the hover is "too long and too shiny and should be
       // just minor (almost unnoticeable) very subtle just to give the same idea but not attention
       // grabbing"). It zoomed the still 5% over 400ms and flipped the play glyph to BRAND RED at
@@ -2478,7 +2376,7 @@ class Component extends DCLogic {
       // untouched — the owner signed that one off in v1.102.1.)
       card.addEventListener("mouseenter", () => { if (card._expanded) return; if (img) img.style.transform = "scale(1.02)"; if (glyph) { glyph.style.transform = "translate(-50%,-50%) scale(1.03)"; glyph.style.background = "rgba(16,19,30,.8)"; } });
       card.addEventListener("mouseleave", () => { if (img) img.style.transform = "scale(1)"; if (glyph) { glyph.style.transform = "translate(-50%,-50%) scale(1)"; glyph.style.background = "rgba(12,14,22,.6)"; } });
-      card.addEventListener("click", () => this.expandClip(card, clips[+card.getAttribute("data-i")]));
+      card.querySelector("[data-film-play]")?.addEventListener("click", e => { e.stopPropagation(); this.expandClip(card, clips[+card.getAttribute("data-i")]); });
     });
   }
   // ── WHICH SIDE IS IN PLAY AT THIS NODE ── the ONE seam every side-aware read goes through.
@@ -2795,28 +2693,6 @@ class Component extends DCLogic {
     return f;
   }
   bonusSplit(key) { return { mastery: this.mastery(key), sharp: this.sharpness(key) }; }
-  // the Odds Pump: odometer count-up + spring on every odds element in a container. In test
-  // mode the final value lands instantly (headless rAF is throttled); prod gets the 450ms ride.
-  _pumpOdds(container, n) {
-    const to = Math.round(this.moveChance(n) * 100);
-    const col = to >= 60 ? "#7ee0a8" : to >= 38 ? "#cbd24e" : "#e8956b";
-    // an entry's "Works" row is the solve's number: the refresh below re-solves and repaints it
-    container.querySelectorAll(".ngsucbig:not([data-choice-follow-up])").forEach((el) => {
-      const from = parseInt((el.textContent || "0").replace(/[^0-9]/g, ""), 10) || 0;
-      el.style.color = col;
-      if (this.isTest()) { el.textContent = to + "%"; return; }
-      el.style.transition = "transform .45s cubic-bezier(.2,1.6,.3,1)";
-      el.style.transform = "scale(1.18)";
-      const t0 = performance.now(), dur = 450;
-      const step = (ts) => {
-        const k = Math.min(1, (ts - t0) / dur);
-        el.textContent = Math.round(from + (to - from) * k) + "%";
-        if (k < 1) requestAnimationFrame(step); else el.style.transform = "scale(1)";
-      };
-      requestAnimationFrame(step);
-    });
-    this.refreshOptionOdds();
-  }
   // Cross-variant credit for the blended hierarchy cards: a family/position-tier card is the SAME
   // card duplicated into every variant's deck (identical question). The first time it's answered
   // anywhere, credit every other deck that contains it — so a "Mount principle" mastered while
@@ -3331,7 +3207,7 @@ class Component extends DCLogic {
    *
    * `enterDefense` chooses `_panicKey` with `_deckHasCards(dk)`, and that reader is STUB-NEGATIVE
    * by design — a manifest stub carries `n` but no `cards`, so an unhydrated deck reads as "no
-   * cards" (the JIT drill relies on exactly that, see :4006). Nothing ever hydrated `dk`, so the
+   * cards". Nothing ever hydrated `dk`, so the
    * test could only ever be false and the drill fell through to your POSITION deck every single
    * time. The site's own comment says it credits the authored Defender deck "when it exists" —
    * "when it exists" was never once true, for any of the 1,326 Defender decks.
@@ -3959,8 +3835,6 @@ class Component extends DCLogic {
       const key = node && (node.ty === "positions" ? this.deckKeyFor(node).key : node.t);
       if (this._nodeCardOn && (!changed || changed.includes(key))) { this._nodeCardIdx = null; this.updateNodeCard(this.W / this.cam.vw); }
       this._refreshReadingContent(changed);
-      const ctx = this._detailCtx;
-      if (ctx && ctx.refreshContent && (!changed || changed.includes(ctx.contentKey))) ctx.refreshContent();
     } catch (e) { /* non-fatal */ }
   }
   /** Content completion is not a new question. Keep the scored DOM and all gameplay clocks
@@ -5033,524 +4907,6 @@ class Component extends DCLogic {
     return true;
   }
 
-  expandOption(opt, onPick, srcCard) {
-    // AN ESCAPE OR A THREAT INSPECTS IN THIS SAME SHEET (v1.220.0, owner 2026-10-05: "readability /
-    // presentation / view of inspect in a submission is not consistent design as the inspect of
-    // other techniques like a transitions"). They had their own bare panel (`previewStateChoice`,
-    // retired): no glyph, no category, an 18px title, no odds row, raw paragraphs, unstyled buttons,
-    // a floating box instead of this docked sheet. `sc` (`_stateChoiceSheet`) names only what
-    // differs; the grow-from-the-card motion, head, odds row, Win chance detail, reading sections,
-    // footer and Esc/Enter are this one sheet. Pinned by e2e/journeys/card-presentation.spec.ts.
-    const sc = opt.threat || opt.action === "escape" ? this._stateChoiceSheet(opt) : null;
-    const n = opt.node;
-    const panel = this.optDetailRef.current; if (!panel) return; // inspection never falls back to execution
-    // ── THE SHEET LIVES ON THE ROOT PLANE (v1.136.0) ─────────────────────────────────────────
-    // §6.1's z-ladder trap, caught by the adversarial pass before it shipped: this panel was
-    // position:absolute z:6 INSIDE the app wrap — a fixed wrap is its own stacking context, so
-    // that 6 is trapped at the wrap's plane 0, and the landing card (a ROOT-plane sibling at
-    // z:5) paints over the whole wrap, sheet included. The owner's ask — "the land card should
-    // be BEHIND it, the maximized option card in front" — is only satisfiable by PORTALLING the
-    // sheet to the root plane, in the coaching band (50-79) so the list picker (90) and modals
-    // still outrank it. Idempotent; geometry survives because the wrap spans the viewport, so
-    // wrap-relative absolute and viewport-fixed coordinates coincide.
-    const root = this.__ngRoot || document.body;
-    if (panel.parentElement !== root) { root.appendChild(panel); panel.style.position = "fixed"; panel.style.zIndex = "50"; }
-    // The option sheet takes its own pause and declines the question while the
-    // player inspects a move. Closing it restores the pause state it received.
-    if (!this._detailCtx) this._detailWasPaused = this.paused;
-    this.setPaused(true);           // freeze MOTION while the player reads/confirms (the question clock never pauses — it was declined on the line below)
-    this._declineLandQ("sheet");    // reading a move instead of answering = declining (v1.134.0)
-    this.fx("sheet_opened", { technique: (opt && opt.node && opt.node.t) || null });
-    // v1.136.0 (owner): the landing card STAYS — the sheet maximizes IN FRONT of it (z:6 over
-    // the card's z:5, its shadow falling on it), it does not make the card vanish. This also
-    // deletes §6.1's long-standing leaky hide-site outright.
-    // THE HEAD IS THE OPTION CARD, ENLARGED (v1.102.1) — so it shows the card's marks, not a
-    // second set. Since v1.118.0 that means EDGE: the same value, from the same `edgeMark`, in the
-    // same palette. A sheet is only ever opened from a non-escape option card, so `opt` is always
-    // a move from the live hand and carries its deal-time `ev` row.
-    const edge = null;
-    const col = sc ? sc.col : "#b3c6ea", cat = sc ? sc.cat : this.deckCat(n); // role-correct, see buildOptionCard
-    // AN ENTRY'S ROW IS THE CARD'S "Works" NUMBER (v1.213.0). Your own submission dealt on a position
-    // steps you in with certainty; the gamble is the finish rolled once you are in, which only the
-    // solve knows (`ngChoiceValueImmediate`). `moveChance(n)` HERE prices that finish at THIS state's
-    // conditions, and measured on the corpus it differs from the rolled one on 429 of 524 entry cards
-    // for a practised profile (up to 25 points) — so the sheet shows the card's number, repainted by
-    // `paintChoiceValues` ([data-choice-follow-up]), and never a second one.
-    const entryOpt = !opt.threat && n.ty === "submissions" && opt.action !== "finish" && opt.action !== "escape";
-    const followView = entryOpt ? this.choiceValueView(opt) : null;
-    const pct = sc ? sc.pct : Math.round(this.moveChance(n) * 100);
-    const oddsCol = sc ? sc.oddsCol : entryOpt ? "#d7e2f4" : pct >= 60 ? "#7ee0a8" : pct >= 38 ? "#cbd24e" : "#e8956b";
-    const resName = opt.res >= 0 ? this.graphName(this.nodes[opt.res]) : "\u2014";
-    const myMod = Math.round(this.stateBonus(this._posKey) * 100) + Math.round(this.stateBonus(this.deckKeyFor(n).key) * 100);
-    // prose that NAMES states: "A transition from your current position to X, Y" must not name a
-    // state this ruleset cannot produce, or the sheet advertises a destination the map does not have.
-    const neighbors = this.adj[n.idx].filter((k) => this.nodes[k].ty === "positions" && this.rsAllowsIdx(k)).slice(0, 4).map((k) => this.graphName(this.nodes[k]));
-    // titleParts no longer shapes the TITLE (the sheet prints the technique's own name), but it
-    // still GATES the on-success line: `resName` is `opt.res`, a deal-time first-position-
-    // neighbor heuristic — measured wrong for 188 of 323 "X to Y"-named transitions when the
-    // gate was briefly widened (28 printed a node that is no authored outcome at all). A name
-    // that already states its destination gets no second, worse guess printed under it.
-    const tp = this.titleParts(n);
-    const sp = sc ? { main: this.choiceEscape(sc.title), from: sc.from ? this.choiceEscape(sc.from) : "" } : this.splitName(n.t);
-    // the tray digit the card wore — 0 (no digit) when the option is not in the dealt hand. A
-    // submission's escapes share one `idx`, so they are found by identity.
-    const num = sc ? (this._optList || []).indexOf(opt) + 1 : (this._optList || []).findIndex((o) => o && o.idx === opt.idx) + 1;
-    const rc = sc ? null : this.richContentFor(n);
-    const hasPersp = !!rc;                          // only authored dual-perspective entries get the tab
-    if (!this._perspective) this._perspective = "attacker";
-    const persp = this._perspective;
-    const ptBtn = (p, lbl) => { const on = p === persp; return '<button data-p="' + p + '" class="ng-pt" style="cursor:pointer;font-family:inherit;font-size:11.5px;font-weight:700;letter-spacing:.02em;padding:5px 13px;border-radius:999px;border:none;background:' + (on ? "rgba(255,255,255,.92)" : "transparent") + ';color:' + (on ? "#10131c" : "#aeb9d4") + ';transition:background .15s,color .15s;">' + lbl + '</button>'; };
-    panel.innerHTML = "";
-    // grabber handle — drag/click to expand or collapse the sheet
-    const grab = document.createElement("div");
-    grab.style.cssText = "flex:none;display:flex;justify-content:center;align-items:center;height:18px;cursor:ns-resize;background:linear-gradient(150deg," + col + "22,transparent 80%);border-top-left-radius:20px;border-top-right-radius:20px;";
-    grab.innerHTML = '<span style="width:38px;height:4px;border-radius:2px;background:rgba(150,170,210,.4);"></span>';
-    panel.appendChild(grab);
-    const head = document.createElement("div");
-    head.style.cssText = "--ng-move-num:" + NG_SHEET_MOVE_NUM + "px;--ng-win:" + NG_CARD_WIN + ";position:relative;flex:none;padding:6px 26px 18px;background:linear-gradient(150deg," + col + "1f,transparent 72%);border-bottom:1px solid rgba(150,170,210,.1);";
-    const editBtn = '<button class="ng-bsuc-edit" title="Adjust your odds" style="flex:none;width:24px;height:24px;border-radius:50%;border:1px solid rgba(150,170,210,.22);background:rgba(255,255,255,.03);color:#8b97b0;cursor:pointer;display:flex;align-items:center;justify-content:center;padding:0;"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"></path><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4Z"></path></svg></button>';
-    const stepsSpan = '<span class="ng-bsuc-steps" style="display:none;align-items:center;gap:7px;opacity:0;transition:opacity .18s ease;"><button class="ng-bsuc-dn" title="Lower" style="flex:none;width:24px;height:24px;border-radius:50%;border:1px solid rgba(150,170,210,.3);background:rgba(255,255,255,.04);color:#aeb9d4;font-size:15px;font-weight:700;line-height:1;cursor:pointer;">\u2212</button><button class="ng-bsuc-up" title="Raise" style="flex:none;width:24px;height:24px;border-radius:50%;border:1px solid rgba(150,170,210,.3);background:rgba(255,255,255,.04);color:#aeb9d4;font-size:15px;font-weight:700;line-height:1;cursor:pointer;">+</button></span>';
-    // right-aligned stat stack — Edge on top, Success below (mirrors the small option card)
-    const drillNote = ''; // The stamped knowledge explanation below owns this quantity.
-    head.innerHTML =
-      // TOP-RIGHT CORNER PAIR (v1.102.1), the same shape the game card uses: capture and dismiss
-      // are both chrome ABOUT the sheet, so they sit together in its corner. Owner: "add to class
-      // should rather not exist and the same + add icon that shows on current selected node
-      // dialog should show top right next to x close icon" — the labelled footer button is gone.
-      '<span data-sheet-corner="1" style="position:absolute;top:0;right:18px;z-index:3;display:flex;align-items:center;gap:2px;">' +
-        '<span class="ng-sheet-cap"></span>' +
-        '<span class="x" style="cursor:pointer;color:#9aa6bd;font-size:21px;line-height:1;width:26px;height:26px;display:flex;align-items:center;justify-content:center;">&times;</span>' +
-      '</span>' +
-      // NOT AT THE TOP (v1.102.1, owner: "play from here (as attacker / as defender) should show
-      // not on top"). The head is identity — category, the from→to name, edge and success — and
-      // the two ACTIONS moved down to sit with the other two, in the footer. A sheet whose first
-      // row is a pair of controls reads as a toolbar; a sheet whose first row is a name reads as
-      // a technique.
-      // ── THE HEAD IS THE OPTION CARD, ENLARGED (v1.102.1) ──────────────────────────────────
-      // Owner: "the choice expanded content should be the same thing as in the smaller version of
-      // the choice card, so to improve visual continuity and coherence". So it takes the card's
-      // exact three-part anatomy — glyph + CATEGORY with the potential opposite it, the name, then
-      // a bordered success row — at sheet scale. The card you pressed grows into this; it does not
-      // become a different object. The one thing the sheet adds is DETAIL: the name keeps its
-      // from→to structure, and the success row carries the adjust control the card has no room for.
-      // padding-right clears the corner pair (+ and ✕, ~56px) — the potential is right-aligned in
-      // this same row and the two were drawing on top of each other ("+-30")
-      // ── THE CARD YOU PRESSED, VERBATIM (v1.136.0, owner) ─────────────────────────────────
-      // The head keeps the option card's EXACT anatomy — numbered glyph, quiet category word,
-      // EDGE — and the technique's OWN name as the title, just larger. The from→to decomposition
-      // ("Headquarters Position → open-guard") is gone: "it should definitely not be decomposed
-      // into this made-up title". The category stays but whispers ("almost noticeable" — the
-      // name is what must stand out first), and the EDGE explainer paragraph became a hover
-      // tooltip on the number itself — the by-the-book-opponent caveat (canon for any EDGE
-      // copy) rides inside it.
-      '<div style="display:flex;align-items:center;gap:9px;margin-bottom:10px;padding-right:60px;">' + this.catGlyph(n, num, col) +
-        '<span style="flex:1;min-width:0;font-size:10px;letter-spacing:.05em;text-transform:uppercase;font-weight:700;color:#7e8aa3;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">' + cat + '</span>' +
-        (edge
-          ? '<span class="ngedgebig" title="EDGE \u2014 how far this move tilts the roll toward winning and away from losing, counting where a miss leaves you. A safer move can outrank a higher-percentage one. By-the-book opponent assumed." aria-label="EDGE ' + edge.txt + '" style="flex:none;cursor:help;font-size:19px;font-weight:700;color:' + edge.col + ';font-family:\'Space Grotesk\',sans-serif;line-height:1;">' + edge.txt + '</span>'
-          : '') +
-      '</div>' +
-      '<div style="font-size:27px;font-weight:700;color:#eef1f6;letter-spacing:-.015em;line-height:1.05;font-family:\'Space Grotesk\',sans-serif;">' + sp.main + '</div>' +
-      (sp.from ? '<div style="font-size:14px;color:#8b97b0;margin-top:3px;">' + sp.from + '</div>' : '') +
-      '<div data-sheet-alias-slot style="margin-top:8px;"></div>' +
-      drillNote +
-      // the card's own bottom row, at sheet scale: caption left, the number right
-      '<div style="margin-top:12px;padding-top:10px;border-top:1px solid rgba(150,170,210,.12);display:flex;align-items:center;justify-content:space-between;gap:10px;">' +
-        '<span style="font-size:9.5px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:#7e8aa3;">' + (sc ? sc.statLabel : entryOpt ? "Works" : n.ty === "submissions" ? "Finish chance" : "Move chance") + '</span>' +
-        '<span style="display:flex;align-items:center;gap:8px;">' + (sc ? '' : stepsSpan + editBtn) +
-          '<span class="ngsucbig" data-odds' + (entryOpt ? ' data-choice-follow-up title="The finish\'s chance once you are in. Stepping in is certain."' : '') + ' style="font-size:var(--ng-move-num);font-weight:700;color:' + oddsCol + ';font-family:\'Space Grotesk\',sans-serif;line-height:1;">' + (sc ? this.choiceEscape(sc.statText) : entryOpt ? this.choiceEscape(followView.immediate) : pct + '%') + '</span>' +
-        '</span>' +
-      '</div>' +
-      '</div>' +
-      // an entry is a certain step into the submission, said as a step, never as "100%"
-      (sc
-        ? sc.leadHTML
-        : entryOpt
-        ? '<div data-choice-entry-step style="margin-top:13px;font-size:12px;color:#8b97b0;display:flex;align-items:center;gap:6px;"><span style="color:#7ee0a8;">\u2192</span>steps you into this submission: certain, no roll. The finish is the gamble.</div>'
-        : cat === "Submission"
-        ? ''
-        : (!tp && resName !== "\u2014" ? '<div style="margin-top:13px;font-size:12px;color:#8b97b0;display:flex;align-items:center;gap:6px;"><span style="color:#7ee0a8;">\u2192</span>on success, advances to <b style="color:#c3cde0;font-weight:600;">' + this.splitName(resName).main + '</b></div>' : ''));
-    // a threat is not yours to value: no Win chance detail on the opponent's move
-    if (!opt.threat) {
-      const valueDetail = document.createElement("div");
-      valueDetail.setAttribute("data-choice-value-detail", "1");
-      valueDetail.innerHTML = this.choiceValueHTML(this.choiceValueShown(opt), true);
-      head.appendChild(valueDetail);
-    }
-    if (sc) head.setAttribute("data-choice-preview", "1"); // the state-choice inspect, named as it always was
-    const scroller = document.createElement("div");
-    scroller.style.cssText = "flex:1;min-height:0;overflow-y:auto;";
-    scroller.appendChild(head);
-    // ── JIT micro-drill: drill the exact cards for THIS decision, right here. Every graded
-    // card pumps the odds (+6%) and refunds decision time (+2.5s, cap 2) — knowledge is tempo. ──
-    {
-      const decks = (this.flashcards && this.flashcards.decks) || {};
-      const tk = this.deckKeyFor(n).key;
-      // _deckHasCards is stub-safe, so an unhydrated deck yields no jitKey and the whole JIT
-      // block is skipped — exactly what already happens when the deck is missing.
-      const jitKey = this._deckHasCards(tk) ? tk : (this._deckHasCards(this._posKey) ? this._posKey : null);
-      // an escape's drill is the panic drill above the hand, and a threat is not yours to drill
-      if (jitKey && !sc) {
-        const jc = this._cardsOf(decks[jitKey]);
-        let jitGrades = 0;
-        this._jitIdx = this._jitIdx || {};
-        const jit = document.createElement("div");
-        jit.setAttribute("data-jit", "1");
-        jit.style.cssText = "margin:10px 26px 4px;padding:12px 14px;border:1px solid rgba(126,224,168,.22);border-radius:12px;background:rgba(22,38,30,.35);";
-        const renderJit = () => {
-          const idx = (this._jitIdx[jitKey] || 0) % jc.length;
-          const card = jc[idx];
-          let touched = false;   // the player has engaged THIS question — never rug-pull it
-          jit.innerHTML =
-            '<div style="display:flex;align-items:baseline;justify-content:space-between;gap:10px;margin-bottom:7px;">' +
-              '<span style="font-size:10px;letter-spacing:.12em;text-transform:uppercase;font-weight:800;color:#7ee0a8;">Drill it \u2014 earn odds & time</span>' +
-              '<span style="font-size:10px;color:#6f8a78;">+10% now \u00b7 +3% forever \u00b7 +2.5s</span></div>' +
-            '<div style="font-size:12.5px;line-height:1.5;color:#dbe8df;">' + card.q + '</div>';
-          const advance = () => { this._jitIdx[jitKey] = idx + 1; renderJit(); };
-          // What a graded card is worth HERE, and only that. The credit itself — stage, prep,
-          // sharpness, the SRS clock, the daily counter — belongs to `_mcAnswer` (MC) or to the
-          // `noteCardDone` call in the recall rung below, so this must never re-credit.
-          const banked = () => {
-            this._pumpOdds(panel, n);                  // the Odds Pump — odometer + spring
-            jitGrades++; if (jitGrades >= 2) this.setBeacon("execute", go); // banked — commit is the next thing
-            advance();
-          };
-          // ── THE FORMAT LADDER REACHES THE JIT DRILL ─────────────────────────────────────────
-          // `askFormat` — recognition below stage 2, recall at or above it — and it is the NODE
-          // CARD's rule this surface joins, not the landing card's. `expandOption` pauses motion
-          // and DECLINES the landing question, so the JIT is a paused study surface with no clock,
-          // exactly like the dossier. The IN-PLAY rank gate (`_recallInPlayNow`: recall only from
-          // blue belt up, v1.133.0) is deliberately NOT consulted here — it prices a question
-          // asked against a running clock, and there is no clock on this side of the sheet.
-          if (this.askFormat(jitKey, card) === "mc") {
-            const mcw = this._mcBlock(card, jitKey, (ok) => {
-              if (ok) banked();
-              else nextBtn(advance);   // read the answer, then move on — a wrong answer buys nothing
-            }, "jit");
-            if (mcw) { jit.appendChild(mcw); return; }
-            // COLD POOL — fall through to recall and try ONCE to warm this deck. The panic
-            // drill's rule, for the panic drill's reason: a deck that cannot build MC at all
-            // must not loop render -> fallback -> warm -> render for ever.
-            if (!this._jitWarmTried) this._jitWarmTried = {};
-            if (!this._jitWarmTried[jitKey]) {
-              this._jitWarmTried[jitKey] = true;
-              this._warmMcPool(card, jitKey, "jit").then(() => {
-                if (touched || !jit.isConnected || (this._jitIdx[jitKey] || 0) % jc.length !== idx) return;
-                renderJit();   // same question, MC dress — a gentle upgrade, never a rug-pull
-              });
-            }
-          }
-          // ── RECALL ── the idiom this drill has always had. It is now the stage-2+ rung and the
-          // cold-pool fallback rather than the only format. Qualify it as ordinary recall:
-          // the old prep-only writer skipped stage/SRS/rec and the answered-card event.
-          const tail = document.createElement("div");
-          tail.innerHTML =
-            '<div class="jitAns" style="display:none;margin-top:8px;font-size:12px;line-height:1.55;color:#a9cdb6;border-top:1px solid rgba(126,224,168,.15);padding-top:8px;">' + card.a + '</div>' +
-            '<div style="display:flex;gap:8px;margin-top:10px;">' +
-              '<button data-jit-reveal style="flex:1;cursor:pointer;font-family:inherit;font-size:12px;font-weight:700;padding:9px;border-radius:9px;border:1px solid rgba(126,224,168,.35);background:rgba(126,224,168,.12);color:#bfe6cf;">Reveal answer</button>' +
-              '<button data-jit-got style="display:none;flex:1;cursor:pointer;font-family:inherit;font-size:12px;font-weight:700;padding:9px;border-radius:9px;border:none;background:linear-gradient(135deg,#2f9e6a,#207a55);color:#eafff3;">Got it \u2192 pump the odds</button>' +
-            '</div>';
-          while (tail.firstChild) jit.appendChild(tail.firstChild);
-          const rv = jit.querySelector("[data-jit-reveal]"), gt = jit.querySelector("[data-jit-got]");
-          rv.addEventListener("click", (ev) => { ev.stopPropagation(); touched = true; jit.querySelector(".jitAns").style.display = "block"; rv.style.display = "none"; gt.style.display = "block"; });
-          gt.addEventListener("click", (ev) => {
-            ev.stopPropagation();
-            touched = true;
-            if (gt.disabled) return; gt.disabled = true;
-            this.gradeRecall(jitKey, card, true, null, "jit");
-            banked();
-          });
-        };
-        // A wrong MC answer must not strand the drill on a card whose answer is now on screen.
-        // The sidebar deck auto-advances for this reason; the panic drill deliberately does not
-        // (there, being wrong costs you the escape window). Here the sheet is paused and the
-        // player chose to study, so hand them the next card explicitly.
-        const nextBtn = (advance) => {
-          const b = document.createElement("button");
-          b.setAttribute("data-jit-next", "1");
-          b.textContent = "Next card \u2192";
-          b.style.cssText = "margin-top:9px;width:100%;cursor:pointer;font-family:inherit;font-size:12px;font-weight:700;padding:9px;border-radius:9px;border:1px solid rgba(126,224,168,.35);background:rgba(126,224,168,.12);color:#bfe6cf;";
-          b.addEventListener("click", (ev) => { ev.stopPropagation(); advance(); }); // the render's own advance, never a second copy of it
-          jit.appendChild(b);
-        };
-        renderJit();
-        scroller.appendChild(jit);
-        this.fx("jit_opened", { deck_key: jitKey });
-      }
-    }
-    const body = document.createElement("div");
-    body.style.cssText = "padding:18px 26px 48px;";
-    const renderBody = () => {
-      this.clearClipLoops();
-      if (sc) { body.innerHTML = sc.bodyHTML(); this.wireClips(body, this._curClips); return; }
-      body.innerHTML = this.detailHTML(n, cat, neighbors, this._perspective);
-      this.wireClips(body, this._curClips);
-      const aliases = this._readingAliases(n, this.ngContentFor(n) || {});
-      head.querySelector("[data-sheet-alias-slot]").innerHTML = aliases.length ? this._readingHTML([{ key: "aka", kind: "aliases", value: aliases }], "sheet") : "";
-    };
-    renderBody();
-    // The option sheet shares the deferred reading stylesheet with the article.
-    // `_ensureReadCSS` fetches it once, whichever surface opens first; the sheet
-    // keeps its own scroller and close control.
-    this._ensureReadCSS();
-    scroller.appendChild(body);
-    // film-first: auto-open the first Short (muted) once the sheet settles — the film row is
-    // the sheet's hero now that the clip corpus is triaged. Journeys drive watchShort()
-    // explicitly instead (a surprise auto-playing player would poison determinism).
-    if (this._curClips && this._curClips.length && !this.isTest()) {
-      const fi = this._curClips.findIndex((c) => c.vertical);
-      setTimeout(() => { if (!this.__ngDestroyed && this._detailCtx && this._detailCtx.opt === opt) this.watchShort(fi < 0 ? 0 : fi); }, 420);
-    }
-    panel.appendChild(scroller);
-    const foot = document.createElement("div");
-    foot.style.cssText = "flex:none;display:flex;gap:11px;padding:16px 26px 20px;border-top:1px solid rgba(150,170,210,.1);";
-    const back = document.createElement("button");
-    back.innerHTML = 'Back <kbd style="font-family:inherit;font-size:10px;font-weight:700;opacity:.6;margin-left:4px;border:1px solid currentColor;border-radius:4px;padding:0 4px;">Esc</kbd>';
-    back.style.cssText = "min-height:44px;cursor:pointer;font-family:inherit;font-size:13.5px;font-weight:600;padding:12px 18px;border-radius:11px;border:1px solid rgba(150,170,210,.25);background:rgba(255,255,255,.04);color:#c3cde0;display:flex;align-items:center;";
-    const go = document.createElement("button");
-    go.setAttribute("data-go", "1"); // journey tests confirm the commit via this button
-    go.innerHTML = this.choiceEscape(this.choiceLabel(opt)) + ' <kbd style="font-family:inherit;font-size:10px;font-weight:700;opacity:.7;margin-left:7px;border:1px solid rgba(255,255,255,.5);border-radius:4px;padding:0 5px;">\u23ce</kbd>';
-    go.style.cssText = "flex:1;min-height:44px;cursor:pointer;font-family:inherit;font-size:13.5px;font-weight:700;padding:12px;border-radius:11px;border:none;background:linear-gradient(135deg,#4a6cff,#6a5cff);color:#fff;box-shadow:0 4px 16px rgba(74,108,255,.35);display:flex;align-items:center;justify-content:center;";
-    // the same capture, with room for a label: this sheet is what a coach reads BEFORE committing,
-    // and on a phone it is a full-width surface where a 44px target actually fits.
-    // the compact glyph, in the corner — NOT a labelled footer button any more (v1.102.1)
-    // 15px, not the boxed 12 or the thumb's 17: stripped of its border and wash the star has
-    // nothing competing with it, so it reads heavier at the same size (v1.129.8 — `fontSize`
-    // here used to be 16 and is inert under an SVG glyph).
-    const capSlot = head.querySelector(".ng-sheet-cap");
-    if (sc) { if (capSlot) capSlot.remove(); }   // an escape or a threat is not a technique to file
-    else {
-      const capture = this._listAddButton(n.id, "sheet", 15);
-      capture.style.border = "none"; capture.style.background = "none";
-      if (capSlot && capSlot.parentNode) capSlot.parentNode.replaceChild(capture, capSlot);
-    }
-    back.addEventListener("click", () => this.closeOptionDetail());
-    head.querySelector(".x").addEventListener("click", () => this.closeOptionDetail());
-    // perspective tab — re-render the body for attacker / defender and restyle the segmented control
-    { const bdn = head.querySelector(".ng-bsuc-dn"), bup = head.querySelector(".ng-bsuc-up"), bsvAll = head.querySelectorAll(".ngsucbig"), bedit = head.querySelector(".ng-bsuc-edit"), bsteps = head.querySelector(".ng-bsuc-steps");
-      // the stepper moves the odds, so it moves the EDGE — here and on the small card behind it,
-      // from the one `edgeMark`, or the sheet would contradict the card it grew out of
-      const bedge = head.querySelector(".ngedgebig");
-      const bupd = () => { const p = Math.round(this.moveChance(n) * 100); const c = p >= 60 ? "#7ee0a8" : p >= 38 ? "#cbd24e" : "#e8956b"; bsvAll.forEach((el) => { if (el.hasAttribute("data-choice-follow-up")) return; el.textContent = p + "%"; el.style.color = c; }); const e2 = this.edgeMark(opt); if (bedge && e2) { bedge.textContent = e2.txt; bedge.style.color = e2.col; } this.refreshOptionOdds(); };
-      if (bedit) bedit.addEventListener("click", (e) => { e.stopPropagation(); bedit.style.display = "none"; if (bsteps) { bsteps.style.display = "flex"; requestAnimationFrame(() => bsteps.style.opacity = "1"); } });
-      if (bdn) bdn.addEventListener("click", (e) => { e.stopPropagation(); this.bumpCardSuccess(n, -1); bupd(); });
-      if (bup) bup.addEventListener("click", (e) => { e.stopPropagation(); this.bumpCardSuccess(n, 1); bupd(); }); }
-    go.addEventListener("click", () => { this._setDetailCtx(null); this.hideOptDetail(); this._reader?.beginPlay(); this.setPaused(false); onPick(opt); });
-    // the two actions lifted out of the head (v1.102.1) land here, on their own row above the
-    // primary pair — grouped with the other things you can DO, not stacked over the name
-    if (!sc) {   // perspective and Play from here belong to a technique, not to a response in an exchange
-      const actions = document.createElement("div");
-      actions.setAttribute("data-sheet-actions", "1");
-      actions.style.cssText = "flex:1 0 100%;display:flex;align-items:center;gap:9px;flex-wrap:wrap;margin-bottom:2px;";
-      actions.innerHTML =
-        (hasPersp ? '<div class="ng-persp" style="display:inline-flex;background:rgba(255,255,255,.05);border:1px solid rgba(150,170,210,.16);border-radius:999px;padding:3px;gap:2px;">' + ptBtn("attacker", "Attacker") + ptBtn("defender", "Defend") + '</div>' : '') +
-        '<button class="ng-playfrom" title="Start a fresh roll from this state" style="cursor:pointer;font-family:inherit;display:inline-flex;align-items:center;gap:6px;font-size:11.5px;font-weight:700;color:#bcd0ff;padding:5px 12px 5px 11px;border-radius:999px;border:1px solid rgba(124,156,255,.3);background:rgba(74,108,255,.12);transition:background .15s;"><svg width="11" height="11" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"></path></svg>Play from here</button>';
-      foot.style.flexWrap = "wrap";
-      foot.appendChild(actions);
-    }
-    // wired AFTER the actions row is in the footer — these two controls moved there in
-    // v1.102.1 and a query against `head` would now find nothing at all
-    foot.addEventListener("click", (e) => {
-      const b = e.target.closest(".ng-pt"); if (!b) return;
-      e.stopPropagation();
-      const p = b.getAttribute("data-p"); if (p === this._perspective) return;
-      this._perspective = p;
-      foot.querySelectorAll(".ng-pt").forEach((x) => { const on = x.getAttribute("data-p") === p; x.style.background = on ? "rgba(255,255,255,.92)" : "transparent"; x.style.color = on ? "#10131c" : "#aeb9d4"; });
-      renderBody();
-    });
-    { const pf = foot.querySelector(".ng-playfrom"); if (pf) { pf.addEventListener("mouseenter", () => pf.style.background = "rgba(74,108,255,.22)"); pf.addEventListener("mouseleave", () => pf.style.background = "rgba(74,108,255,.12)"); pf.addEventListener("click", (e) => { e.stopPropagation(); this.confirmPlayFrom(n); }); } }
-    if (sc) { back.setAttribute("data-choice-close", "1"); go.setAttribute("data-choice-go", "1"); }
-    foot.appendChild(back);
-    if (!opt.threat) foot.appendChild(go);   // the opponent's move can be read, never played
-    panel.appendChild(foot);
-    // beat beacon hands into the sheet: the drill first (odds are pumpable) — else straight to Execute
-    if (!opt.threat) { const jitEl = panel.querySelector("[data-jit]"); this.setBeacon(jitEl ? "jit" : "execute", jitEl || go); }
-    const detailOwner = { opt, onPick: opt.threat ? undefined : onPick, contentKey: sc ? sc.contentKey : n.ty === "positions" ? this.deckKeyFor(n).key : n.t };
-    detailOwner.refreshContent = () => {
-      if (this.__ngDestroyed || this._detailCtx !== detailOwner || !body.isConnected) return;
-      const scroll = scroller.scrollTop;
-      renderBody();
-      if (!sc && this.richContentFor(n) && !foot.querySelector(".ng-persp")) {
-        const actions = foot.querySelector(".ng-playfrom");
-        if (actions) actions.insertAdjacentHTML("beforebegin", '<div class="ng-persp" style="display:inline-flex;border:1px solid rgba(150,170,210,.16);border-radius:999px;padding:3px;">' + ptBtn("attacker", "Attacker") + ptBtn("defender", "Defend") + '</div>');
-      }
-      scroller.scrollTop = scroll;
-    };
-    this._setDetailCtx(detailOwner);   // the refresh belongs to this exact sheet, never its replacement
-
-    // expand / collapse the sheet (compact peek -> full)
-    this._optExpanded = false;
-    const COLLAPSED = 340, EXPANDED = () => Math.round(window.innerHeight * 0.86);
-    const setExpanded = (full) => { this._optExpanded = full; panel.style.transition = "opacity .26s cubic-bezier(.2,.7,.2,1),transform .34s cubic-bezier(.2,.7,.2,1),height .34s cubic-bezier(.2,.7,.2,1)"; panel.style.height = full ? EXPANDED() + "px" : COLLAPSED + "px"; };
-    let gDrag = false, gY0 = 0, gH0 = 0, gMoved = 0;
-    grab.addEventListener("pointerdown", (e) => { gDrag = true; gY0 = e.clientY; gH0 = panel.getBoundingClientRect().height; gMoved = 0; panel.style.transition = "none"; try { grab.setPointerCapture(e.pointerId); } catch (x) {} e.stopPropagation(); });
-    grab.addEventListener("pointermove", (e) => { if (!gDrag) return; const dy = gY0 - e.clientY; gMoved += Math.abs(e.movementY || 0); const h = Math.max(COLLAPSED, Math.min(EXPANDED(), gH0 + dy)); panel.style.height = h + "px"; });
-    const gEnd = () => { if (!gDrag) return; gDrag = false; const h = panel.getBoundingClientRect().height; if (gMoved < 4) { setExpanded(!this._optExpanded); } else { setExpanded(h >= (COLLAPSED + EXPANDED()) / 2); } };
-    grab.addEventListener("pointerup", gEnd); grab.addEventListener("pointercancel", gEnd);
-    panel.onwheel = (e) => {
-      e.stopPropagation();
-      if (!this._optExpanded && e.deltaY > 0) { e.preventDefault(); setExpanded(true); }
-      else if (this._optExpanded && e.deltaY < 0 && scroller.scrollTop <= 0) { e.preventDefault(); setExpanded(false); }
-    };
-
-    // one motion: the row scrolls so the clicked card centers, while that card grows into the centered sheet
-    const row = this.optionsRef.current;
-    // SMOOTH SWITCH: if another card is already open, don't hard-reset to baseline (which jerks the row
-    // left then back). Instead crossfade the slots — old card shrinks 660->150 while the new card grows
-    // 150->660 and the row glides — keeping the strip's spacing continuous. Panel stays centred, content swaps.
-    const prevCard = this._detailSrc;
-    if (prevCard && srcCard && prevCard !== srcCard && row) {
-      const W = Math.min(660, Math.round(window.innerWidth * 0.94));
-      const offParent = panel.offsetParent || this.wrapRef.current;
-      const opr = offParent.getBoundingClientRect();
-      const sbW = (this.uiShift || 0) * this.sbOffset();            // open sidebar overlays the graph from the LEFT (v1.94.0)
-      const pcx = opr.left + sbW + (opr.width - sbW) / 2;       // centre of the VISIBLE graph, not the full play area
-      const centerLeft = Math.round(sbW + (opr.width - sbW - W) / 2);
-      const savedTransform = row.style.transform;
-      // freeze everything for hidden synchronous measurement (no paint until handler returns)
-      row.style.transition = "none"; prevCard.style.transition = "none"; srcCard.style.transition = "none";
-      // (a) TARGET layout: new=W, prev=150, flex-start, transform 0 -> new card's natural left
-      row.style.transform = "none";
-      prevCard.style.flex = "0 0 150px"; prevCard.style.width = "150px";
-      srcCard.style.flex = "0 0 auto"; srcCard.style.width = W + "px";
-      void row.offsetWidth;
-      const Lnew = srcCard.getBoundingClientRect().left;
-      const Fnew = Math.round(pcx - Lnew - W / 2);
-      // (b) TRUE BASELINE (justify centre, all 150) -> panel collapse target + T0 for close
-      row.style.justifyContent = "safe center"; row.style.overflowX = "auto"; row.style.overflowY = "hidden";
-      srcCard.style.flex = "0 0 150px"; srcCard.style.width = "150px";
-      row.scrollLeft = 0; void row.offsetWidth;
-      const baseRect = srcCard.getBoundingClientRect();
-      this._optStart = { left: Math.round(baseRect.left - opr.left), width: Math.round(baseRect.width), height: Math.round(baseRect.height), bottom: Math.round(opr.bottom - baseRect.bottom) };
-      row.style.justifyContent = "flex-start"; row.style.overflow = "visible"; void row.offsetWidth;
-      this._optT0 = Math.round(baseRect.left - srcCard.getBoundingClientRect().left);
-      this._rowScrollAtOpen = 0;
-      // (c) RESTORE pre-switch visual instantly (prev big+hidden, new small+visible, row where it was)
-      prevCard.style.flex = "0 0 auto"; prevCard.style.width = W + "px"; prevCard.style.opacity = "0";
-      srcCard.style.flex = "0 0 150px"; srcCard.style.width = "150px"; srcCard.style.opacity = "";
-      row.style.transform = savedTransform;
-      void row.offsetWidth;
-      // (d) ANIMATE both slots + the row together
-      prevCard.style.transition = "width .42s cubic-bezier(.2,.8,.2,1), opacity .3s ease";
-      srcCard.style.transition = "width .42s cubic-bezier(.2,.8,.2,1), opacity .24s ease";
-      row.style.transition = "transform .42s cubic-bezier(.2,.8,.2,1)";
-      prevCard.style.flex = "0 0 150px"; prevCard.style.width = "150px"; prevCard.style.opacity = "";
-      srcCard.style.flex = "0 0 auto"; srcCard.style.width = W + "px"; srcCard.style.opacity = "0";
-      row.style.transform = "translateX(" + Fnew + "px)";
-      this._detailSrc = srcCard;
-      // panel stays centred — just swap content (already rebuilt above), no position animation
-      panel.style.right = "auto"; panel.style.margin = "0"; panel.style.pointerEvents = "auto";
-      panel.style.transition = "none"; panel.style.transform = "none"; panel.style.opacity = "1";
-      panel.style.left = centerLeft + "px"; panel.style.width = W + "px"; panel.style.height = "400px"; panel.style.bottom = "0px";
-      this.lastInteract = this.now;
-      return;
-    }
-    // NORMALIZE first, UNCONDITIONALLY: return the row to its true baseline (overflow:auto, justify
-    // reset, no transform, scroll 0) and collapse EVERY card slot back to 150px. This guarantees a clean
-    // Group wrappers retain their intrinsic widths; only descendant cards own a 150px slot.
-    // This preserves separated own/threat hands after inspection. It also gives a clean
-    // measurement even if a prior close's delayed reset was skipped (reopened mid-animation) — which is
-    // what made the strip drift uncentred after several open/close cycles.
-    if (row) {
-      clearTimeout(this._optSettle);
-      for (const ch of row.querySelectorAll('[data-tech], [data-threat-tech]')) { ch.style.transition = "none"; ch.style.width = "150px"; ch.style.flex = "0 0 150px"; ch.style.opacity = ""; }
-      row.style.transition = "none"; row.style.transform = "none";
-      row.style.overflowX = "auto"; row.style.overflowY = "hidden"; row.style.webkitMaskImage = ""; row.style.maskImage = "";
-      row.style.justifyContent = "safe center"; row.scrollLeft = 0;
-      void row.offsetWidth;
-    }
-    this._detailSrc = null;
-    // Measure the card's TRUE baseline on-screen position FIRST (centred layout, overflow:auto) —
-    // this is where the panel animates from and the visual anchor we must not jump away from.
-    const srcRect = srcCard ? srcCard.getBoundingClientRect() : null;
-    this._detailSrc = srcCard || null;
-    const offParent = panel.offsetParent || this.wrapRef.current;
-    const opr = offParent.getBoundingClientRect();
-    const W = Math.min(660, Math.round(window.innerWidth * 0.94));
-    const sbW = (this.uiShift || 0) * this.sbOffset();                    // open sidebar overlays the graph from the LEFT (v1.94.0)
-    const pcx = opr.left + sbW + (opr.width - sbW) / 2;            // centre of the VISIBLE graph (shifts right when sidebar open)
-    const centerLeft = Math.round(sbW + (opr.width - sbW - W) / 2);
-    // Now force a deterministic, left-anchored, unclipped layout (flex-start + overflow:visible).
-    // This is count-agnostic: it changes where the card sits (centring offset for few cards, scroll
-    // reset for many) — so we re-measure and compensate by the delta, rather than reasoning about S/C.
-    let srcFV = srcRect;
-    if (row) {
-      row.style.pointerEvents = "none";
-      row.style.transition = "none";
-      row.style.justifyContent = "flex-start";
-      row.style.overflow = "visible"; row.style.webkitMaskImage = "none"; row.style.maskImage = "none";
-      row.style.transform = "none";
-      void row.offsetWidth;
-      srcFV = srcCard ? srcCard.getBoundingClientRect() : srcRect;   // card position in the new layout (scroll forced to 0)
-      this._rowScrollAtOpen = 0;
-      for (const ch of row.querySelectorAll('[data-tech], [data-threat-tech]')) ch.style.transition = "opacity .3s ease";
-    }
-    if (srcCard && srcRect && srcFV) {
-      // T0 returns the card to its exact baseline position (cancels both the centring offset and scroll reset)
-      const T0 = Math.round(srcRect.left - srcFV.left);
-      this._optT0 = T0;
-      row.style.transform = "translateX(" + T0 + "px)";
-      void row.offsetWidth;
-      srcCard.style.flex = "0 0 auto";
-      srcCard.style.transition = "width .42s cubic-bezier(.2,.8,.2,1), opacity .24s ease";
-      srcCard.style.opacity = "0";
-      void srcCard.offsetWidth;
-      srcCard.style.width = W + "px";
-      // The clicked card is left-anchored, so widening keeps its left edge at srcFV.left; centre it on screen.
-      const F = Math.round(pcx - srcFV.left - W / 2);
-      row.style.transition = "transform .42s cubic-bezier(.2,.8,.2,1)";
-      row.style.transform = "translateX(" + F + "px)";
-    }
-    panel.style.right = "auto"; panel.style.margin = "0"; panel.style.pointerEvents = "auto"; panel.style.opacity = "0"; panel.style.transform = "none";
-    panel.style.transition = "none";
-    this._optStart = null;
-    if (srcRect) {
-      this._optStart = { left: Math.round(srcRect.left - opr.left), width: Math.round(srcRect.width), height: Math.round(srcRect.height), bottom: Math.round(opr.bottom - srcRect.bottom) };
-      panel.style.left = this._optStart.left + "px";
-      panel.style.width = this._optStart.width + "px";
-      panel.style.height = this._optStart.height + "px";
-      panel.style.bottom = this._optStart.bottom + "px";
-    } else {
-      panel.style.left = centerLeft + "px"; panel.style.width = W + "px"; panel.style.height = "400px"; panel.style.bottom = "0px";
-    }
-    void panel.offsetWidth;        // commit the start frame (card-sized)
-    panel.style.transition = "left .42s cubic-bezier(.2,.8,.2,1), width .42s cubic-bezier(.2,.8,.2,1), height .38s cubic-bezier(.2,.7,.2,1), bottom .42s cubic-bezier(.2,.8,.2,1), opacity .28s ease";
-    panel.style.opacity = "1";
-    panel.style.left = centerLeft + "px";
-    panel.style.width = W + "px";
-    panel.style.height = "400px";
-    panel.style.bottom = "0px";
-    this.lastInteract = this.now;
-  }
-  hideOptDetail() {
-    const panel = this.optDetailRef.current;
-    if (panel) { panel.style.transition = "opacity .2s ease, transform .26s ease"; panel.style.transform = "translateY(16px)"; panel.style.opacity = "0"; panel.style.pointerEvents = "none"; panel.onwheel = null; setTimeout(() => { if (panel.style.opacity === "0") panel.style.transform = "none"; }, 280); }
-    if (this._detailSrc) { this._detailSrc.style.opacity = ""; this._detailSrc = null; }
-  }
-  closeOptionDetail() {
-    const wasPaused = this._detailWasPaused; this._detailWasPaused = null;
-    // the landing card comes back when the sheet leaves — here TOO, not only via hideOptDetail:
-    // the animated collapse below (the normal ✕ / back path, taken whenever _optStart is set)
-    // never called it, so peeking at an option and backing out left the card that says where you
-    // are invisible for the rest of the turn. Found by the late-payload journey.
-    this._setDetailCtx(null);
-    if (this._optPick && this._defendSub == null && this.optionsRef.current) this.setBeacon("options", this.optionsRef.current); // back to the hand
-    this.clearClipLoops();
-    clearTimeout(this._optSettle);
-    const panel = this.optDetailRef.current;
-    const row = this.optionsRef.current;
-    // collapse the sheet back into the card's slot
-    if (panel && this._optStart) {
-      panel.style.transition = "left .34s cubic-bezier(.4,0,.2,1), width .34s cubic-bezier(.4,0,.2,1), height .34s cubic-bezier(.4,0,.2,1), bottom .34s cubic-bezier(.4,0,.2,1), opacity .3s ease";
-      panel.style.opacity = "0";
-      panel.style.left = this._optStart.left + "px"; panel.style.width = this._optStart.width + "px";
-      panel.style.height = this._optStart.height + "px"; panel.style.bottom = this._optStart.bottom + "px";
-      panel.style.pointerEvents = "none"; panel.onwheel = null;
-    } else { this.hideOptDetail(); }
-    // restore the clicked card's slot to its STANDARD size (never cleared, so it can't shrink)
-    if (this._detailSrc) { const s = this._detailSrc; s.style.transition = "width .36s cubic-bezier(.4,0,.2,1), opacity .3s ease"; s.style.width = "150px"; s.style.flex = "0 0 150px"; s.style.opacity = ""; this._detailSrc = null; }
-    if (row) { row.style.opacity = "1"; row.style.pointerEvents = "auto"; const S = this._rowScrollAtOpen || 0; const T0 = this._optT0 || 0; row.style.transition = "transform .4s cubic-bezier(.4,0,.2,1)"; row.style.transform = "translateX(" + T0 + "px)"; setTimeout(() => { if (!this._detailCtx) { row.style.transition = "none"; row.style.transform = "none"; row.style.overflowX = "auto"; row.style.overflowY = "hidden"; row.style.webkitMaskImage = ""; row.style.maskImage = ""; row.style.justifyContent = "safe center"; row.scrollLeft = S; } }, 400); }
-    this.setPaused(wasPaused === true);
-  }
   segBtn(label, active, locked, onClick) {
     const b = document.createElement("button");
     b.innerHTML = label + (locked ? ' <span style="opacity:.7;">\uD83D\uDD12</span>' : "");
@@ -11348,9 +10704,10 @@ class Component extends DCLogic {
     // pressing Esc and immediately answering found the card still styled hidden and the keys went
     // dead. Every surface that stands the card down owns a synchronous flag, and intent flips the
     // instant the user acts; a style is only true once the animation says so.
-    // Three holders: pane, tray/replay, option detail. Only a pointer reaching an exposed
-    // landing surface may bypass the pane; replay and option detail still make it inert.
-    return !this._landEl || this._landEl.hasAttribute("data-reader-pending") || (!exposedPointer && !!this._landPaneHid) || !!this._traySup || !!this._detailCtx;
+    // Pane, tray/replay and independent practice own input. Only a pointer reaching an
+    // exposed landing surface may bypass the pane; practice still owns its question. A card the
+    // reader still holds (D-351, data-reader-pending) is hidden until it publishes.
+    return !this._landEl || this._landEl.hasAttribute("data-reader-pending") || (!exposedPointer && !!this._landPaneHid) || !!this._traySup;
   }
   _suppressLand(hide) {
     const surfaces = this._landSurfaces(); if (!surfaces.length) return;
@@ -11375,73 +10732,6 @@ class Component extends DCLogic {
       if (hide) { t.style.setProperty("opacity", "0", "important"); t.style.pointerEvents = "none"; t.style.setProperty("visibility", "hidden", "important"); }
       else { t.style.removeProperty("opacity"); t.style.pointerEvents = t._ngRestPointerEvents || ""; t.style.removeProperty("visibility"); }
     }
-  }
-  /**
-   * THE CARD STANDS DOWN WHILE THE OPTION SHEET OWNS THE SCREEN (v1.137.0).
-   *
-   * v1.136.0 stopped HIDING the landing card on `expandOption` — the owner's call was that the
-   * sheet maximizes IN FRONT of it, not that the card vanishes — but it left `_detailCtx` in
-   * `_landHidden()`'s holder list. So the app believed the card was hidden while the card painted
-   * at full strength, and the two input paths disagreed about a surface the player was looking at:
-   * A-D refused to grade (the gate in `_onKey` asks `_landHidden()`), while a mouse click on the
-   * strip peeking above the sheet still graded, because `_declineLandQ("sheet")` sets neither
-   * `truth.spent` nor `rec.revealed` (deliberately: a declined question still pays if you back out
-   * and answer it). "Looks active, won't answer."
-   *
-   * The card now READS as what it already was: dimmed, and dead to every input path.
-   *
-   * WHY THE ROOT STAYS HIT-TESTABLE, AND ONLY THE CHILDREN GO `inert`. `attachInput`'s pointerdown
-   * early-return is a TARGET test (`ov.contains(e.target)`), so anything that makes the card root
-   * hit-test-transparent — `pointer-events:none` on the root, or `inert` on the root — drops
-   * `e.target` through to the canvas, where the tap reaches `_tapBackground()`: it declines the
-   * question and DESTROYS the card without closing the sheet, which would break the very
-   * answer-after-Esc contract this surface exists to keep. With the root left alone, the existing
-   * early-return keeps absorbing the tap and no geometry code is needed in §6.1's most dangerous,
-   * hand-maintained list. `inert` on the children is what actually disarms them: it is the only
-   * primitive a descendant cannot re-enable inline, which matters because the familiarity
-   * control and the question close button both set `pointer-events:auto` on purpose; it takes
-   * focus and the a11y tree with them.
-   *
-   * The dim itself is a STYLESHEET rule keyed on `data-behind-sheet` (helmet.html), not an inline
-   * style: stylesheet `!important` outranks the running `ngCardInX` entry animation, so a card
-   * BORN under an open sheet is born dimmed; and it cannot collide with `_suppressLand`, which
-   * writes and removes INLINE important opacity/visibility when a replay hides the card.
-   * Its values sit one step short of the app's decay grammar (`ngDeckExpire` ends at grayscale(1)
-   * brightness(.5) opacity .34): dimmer than live, not as dead as expired. The transition is on the
-   * dim only — removing the attribute snaps the card back, matching the flag-synchronous instant
-   * the keys come alive again, because `_landHidden()` asks the holders and never the pixels.
-   *
-   * KEEP THE PROSE ON THIS SIDE. §6.9's "comments are stripped by the build, so documentation is
-   * free" is true of THIS file and false of helmet.html: its CSS comments ship to every visitor.
-   * Measured on the first cut of this change — the rule's 10-line comment cost ~800 payload bytes
-   * against 367 for all of the code, and put `payload-first-hand` 304 bytes over its gzip ceiling.
-   *
-   * DERIVED, NEVER LATCHED (§6.5). The state is `!!this._detailCtx` and nothing else, because that
-   * flag has SEVEN writers and a latch would drift the first time one of them was missed. Every
-   * runtime writer goes through `_setDetailCtx`; the constructor's field init is the only bare
-   * assignment left. `renderLandCard` calls this unconditionally so a rebuilt card re-derives.
-   *
-   * Not observable by any spec, and recorded rather than fixed: the Execute/Go door syncs on its
-   * way out, but that interaction destroys the card in the same beat, so no assertion can see it.
-   * UNGUARDED: the `_landFilmEl` half. The DSL serves {} for dossier chunks, so no film ever mounts
-   * under the harness (§6.4) — it ships on the shared code path, checked by hand only.
-   */
-  _syncDetailDim() {
-    const on = !!this._detailCtx;
-    for (const t of this._landSurfaces()) {
-      if (on) t.setAttribute("data-behind-sheet", "1"); else t.removeAttribute("data-behind-sheet");
-      for (const c of t.children) c.inert = on;
-    }
-  }
-  /** The one writer of `_detailCtx` (§6.5): every set and every null goes through here, so the
-   *  card's stand-down can never drift from whether a sheet is actually open. Lifters, i.e. every
-   *  site that hands the card back: `closeOptionDetail` (Back / ✕ / Esc / Enter-commit), the
-   *  Execute door, the modal backdrop, both `confirmPlayFrom` exits, and `clearOptions`. */
-  _setDetailCtx(ctx) {
-    // Closing the sheet takes the JIT drill's MC block off screen with it, so the keyboard goes
-    // back the way the dossier's does — see `_handBackMc`. Harmless when the JIT never asked.
-    if (!ctx) this._handBackMc("jit", true);   // the sheet declined on entry — see `_handBackMc`
-    this._detailCtx = ctx || null; this._syncDetailDim();
   }
   // role badge colored by the advantage the seat gives you (app's dominance model): blue = ahead, red = behind
   badgePill(b, fs, pad) {
@@ -12045,7 +11335,7 @@ class Component extends DCLogic {
     // Z LADDER (helmet.html): a confirm is a DELIBERATE screen — host it on the root overlay
     // plane at the modal band (95), not inside the wrap where the landing card (z:5, root
     // plane) would paint over it and its z:40 could never win.
-    const host = this.__ngRoot || this.wrapRef.current; if (!host) { this._setDetailCtx(null); this.hideOptDetail(); this.playFrom(seatIdx(), seats[pick].role); return; }
+    const host = this.__ngRoot || this.wrapRef.current; if (!host) { this.playFrom(seatIdx(), seats[pick].role); return; }
     this.closePlayConfirm();   // ONE sheet: a second open replaces the first, never stacks on it
     const ov = document.createElement("div");
     ov.setAttribute("data-play-confirm", "1");
@@ -12129,8 +11419,7 @@ class Component extends DCLogic {
     ov.querySelector(".ng-cf-yes").addEventListener("click", () => {
       const role = seats[pick].role, idx = seatIdx();
       close();
-      this._setDetailCtx(null); this.hideOptDetail();
-      this._openSidebarOnLand = true;     // land back in the flashcards home on the seeded state
+        this._openSidebarOnLand = true;     // land back in the flashcards home on the seeded state
       // THE ACTION IS THE CALLER'S WHEN IT NEEDS ITS OWN (v1.106.5): the SCREEN is shared — one
       // copy of the wording, one z:95 host, one place that asks before a live roll is discarded —
       // but Last rolls STAGES (clock held, per ROAM & STAGE) and gets out of the pane's way, and
@@ -13151,7 +12440,7 @@ class Component extends DCLogic {
     // ── THE HAND'S ✕ (v1.171.0) ── shown only when there is a hand to put away: dealt, its layer
     // on, not the escape tray, and not under the pane, the option sheet or a reading surface.
     if (op) {
-      const show = !!(op.children.length && this._handShown() && !this.deckShown && !this._detailCtx && !this._traySup);
+      const show = !!(op.children.length && this._handShown() && !this.deckShown && !this._traySup);
       let x = this._handCloseEl;
       if (show && !x) x = this._buildHandClose();
       if (x) {
@@ -13168,13 +12457,13 @@ class Component extends DCLogic {
     if (ac) { const cover = this.isMobile() ? this.uiShift : 0; ac.style.opacity = (1 - cover).toFixed(3); ac.style.pointerEvents = cover > 0.5 ? "none" : "auto"; ac.style.transform = "none"; }
   }
   clearOptions() {
+    this._choiceMediaObserver?.disconnect(); this._choiceMediaQueue = []; this._closeChoiceWatch(false);
     this.cancelChoiceValues("hand-ended");
     this.clearExecution();
-    this._detailWasPaused = null;
     // any commit/teardown consumes a staged exchange (rollFromPosition sets it AFTER this runs)
     this._stagedTech = null;
     this._waitingSubmission = null;
-    const el = this.optionsRef.current; if (el) { el.innerHTML = ""; el.style.pointerEvents = "none"; el.style.opacity = "1"; el.style.transform = "none"; el.style.overflowX = "auto"; el.style.overflowY = "hidden"; el.style.webkitMaskImage = ""; el.style.maskImage = ""; el.style.justifyContent = "safe center"; el.removeAttribute("data-fade"); el.scrollLeft = 0; } this._trayStop(); this._setDetailCtx(null); this.hideOptDetail(); this.clearLandCard(); this.optionIdxs = []; this._optionCards = []; this.setBeacon(null); this._dropCountdownEvent(); }
+    const el = this.optionsRef.current; if (el) { el.innerHTML = ""; el.style.pointerEvents = "none"; el.style.opacity = "1"; el.style.transform = "none"; el.style.overflowX = "auto"; el.style.overflowY = "hidden"; el.style.webkitMaskImage = ""; el.style.maskImage = ""; el.style.justifyContent = "safe center"; el.removeAttribute("data-fade"); el.scrollLeft = 0; } this._trayStop(); this.clearLandCard(); this.optionIdxs = []; this._optionCards = []; this.setBeacon(null); this._dropCountdownEvent(); }
   // "Decide 1…" IS THE HAND'S SENTENCE, so it cannot outlive the hand. Clicking another node mid
   // countdown stages a fresh board — clock held, bars back to full — and the owner met the old
   // window's last warning still on screen over it. `enterLand` already drops a stale announcer,
@@ -13646,7 +12935,7 @@ class Component extends DCLogic {
   }
   setChoiceValueRuntime(runtime, state = "unavailable") {
     if (this.__ngDestroyed) return false;
-    const valid = runtime && ["ngChoiceValueController", "ngChoiceValueView", "ngChoiceValueHTML", "ngChoiceValueOrder"].every(k => typeof runtime[k] === "function");
+    const valid = runtime && ["ngChoiceValueController", "ngChoiceValueView", "ngChoiceValueOrder"].every(k => typeof runtime[k] === "function");
     this.cancelChoiceValues("runtime-changed");
     if (this._choiceValues) this._choiceValues.destroy();
     this._choiceValues = null;
@@ -13710,12 +12999,6 @@ class Component extends DCLogic {
     if (["ready", "bounded"].includes(view.status) && view.value !== "—") { last.own.set(opt, view); return view; }
     if (view.status !== "pending") { last.own.delete(opt); return view; }
     return runtime && runtime.ngChoiceValueUpdating ? runtime.ngChoiceValueUpdating(view, last.own.get(opt)) : view;
-  }
-  choiceValueHTML(view, detail = false) {
-    const runtime = this.choiceValueRuntime();
-    if (runtime) return runtime.ngChoiceValueHTML(view, detail);
-    const line = '<div class="ngcv-line"><span>Win chance</span><strong data-choice-win>—</strong></div>';
-    return detail ? '<section class="ngcv-detail" aria-label="Expected roll outcomes">' + line + '<p>' + this.choiceEscape(view.detail) + '</p><p data-choice-immediate-line>' + this.choiceEscape(view.immediateLine || (view.immediateLabel + ' chance now: ' + view.immediate)) + '</p></section>' : line;
   }
   refreshChoiceValues() {
     if (this.__ngDestroyed || this._execution || !(this._optionCards || []).some(c => !c.opt.threat)) return;
@@ -13783,28 +13066,29 @@ class Component extends DCLogic {
     for (const oc of (this._optionCards || [])) {
       if (oc.opt.threat) { this._paintThreatValue(oc, snapshot); continue; }
       const view = this.choiceValueShown(oc.opt), value = oc.card.querySelector("[data-choice-value]");
+      const previousImmediate = oc.card.querySelector(".ngodds")?.textContent;
       if (view.stale) updating = true;
       if (value) {
-        value.innerHTML = this.choiceValueHTML(view);
+        value.innerHTML = this.choiceStatsHTML(view);
         value.dataset.status = view.status;
         value.title = view.tooltip || (view.state + ". " + view.detail);
       }
       const chance = oc.card.querySelector(".ngodds"), label = oc.card.querySelector("[data-immediate-label]");
       if (chance) {
-        const was = chance.textContent;
-        chance.textContent = view.immediate;
+        const was = previousImmediate;
+        chance.textContent = this.choiceNumber(view.immediate);
         chance.toggleAttribute("data-choice-stale", !!view.immediateStale);
         if (view.immediateStale) chance.setAttribute("aria-label", view.immediateLabel + " chance " + view.immediate + ", updating"); else chance.removeAttribute("aria-label");
-        if (was !== view.immediate) this._cardHit(oc, chance, was, view.immediate, view.immediateLabel);
+        if (was !== this.choiceNumber(view.immediate)) this._cardHit(oc, chance, was, this.choiceNumber(view.immediate), view.immediateLabel === "Finish" ? "Submit" : view.immediateLabel);
       }
-      if (label) label.textContent = view.immediateLabel;
+      if (label) label.textContent = view.immediateLabel === "Finish" ? "Submit" : view.immediateLabel;
       const execute = oc.card.querySelector("[data-choice-execute]");
-      if (execute) execute.setAttribute("aria-label", this.choiceLabel(oc.opt) + ". " + (view.recommended ? (view.recommendationLabel || "Recommended") + ". " : "") + "Win chance " + view.value + ", " + view.state + ". " + (view.immediateText || view.immediateLabel + " chance " + view.immediate) + ".");
+      if (execute) oc.card.querySelectorAll("[data-choice-execute]").forEach(button => button.setAttribute("aria-label", this.choiceLabel(oc.opt) + ". " + (view.recommended ? (view.recommendationLabel || "Recommended") + ". " : "") + "Win chance " + view.value + ", " + view.state + ". " + (view.immediateText || view.immediateLabel + " chance " + view.immediate) + "."));
       const best = oc.card.querySelector("[data-choice-recommended]");
       if (best) best.textContent = view.recommended ? (view.recommendationLabel || "Recommended") : "";
     }
     const row = this.optionsRef.current, status = row?.querySelector("[data-choice-value-status]");
-    if (status) status.textContent = snapshot?.status === "pending" ? (updating ? "Updating win chances…" : "Calculating win chances…") : (["scheduled", "loading", "preparing"].includes(this._gameValueState) || this._choiceRuntimeState === "loading") ? "Preparing win chances…" : ["ready", "bounded"].includes(snapshot?.status) ? "This roll · your practice" : "Win chance unavailable";
+    if (status) status.textContent = snapshot?.status === "pending" ? (updating ? "Updating win chances…" : "Calculating win chances…") : (["scheduled", "loading", "preparing"].includes(this._gameValueState) || this._choiceRuntimeState === "loading") ? "Preparing win chances…" : ["ready", "bounded"].includes(snapshot?.status) ? "" : "Win chance unavailable";
     const retry = row?.querySelector("[data-choice-value-retry]");
     if (retry) retry.style.display = !/^live-graph-/.test(this._gameValueReason || "") && !["scheduled", "loading", "preparing"].includes(this._gameValueState) && (this._gameValueRetryable || (this._gameValueRuntime && ["unavailable", "error"].includes(snapshot?.status))) ? "inline-block" : "none";
     const sort = row?.querySelector("[data-choice-value-sort]");
@@ -13813,17 +13097,10 @@ class Component extends DCLogic {
       const order = this.choiceValueRuntime()?.ngChoiceValueOrder(ids, snapshot) || ids;
       sort.style.display = ids.some((id, i) => id !== order[i]) ? "inline-block" : "none";
     }
-    const detail = this.optDetailRef.current?.querySelector("[data-choice-value-detail]");
-    if (detail && this._detailCtx?.opt && !this._detailCtx.opt.threat) {
-      const view = this.choiceValueShown(this._detailCtx.opt), html = this.choiceValueHTML(view, true);
-      if (detail.innerHTML !== html) detail.innerHTML = html;
-      // An entry's sheet row prints the card's own "Works" number (`expandOption`), so it repaints here.
-      const follow = this.optDetailRef.current.querySelector("[data-choice-follow-up]");
-      if (follow) follow.textContent = view.immediate;
-    }
     const complete = ["ready", "bounded"].includes(snapshot?.status) && (this._optionCards || []).some(c => !c.opt.threat)
       && (this._optionCards || []).every(c => c.opt.threat || ["ready", "bounded"].includes(this.choiceValueView(c.opt).status));
     this._paintWinThermometer(complete ? snapshot : null);
+    this._paintCurrentFilmWin();
     if (complete && !this._handTouched && this._autoSortedHand !== this._choiceHandId) {
       this._autoSortedHand = this._choiceHandId;
       this.sortChoiceValues(true);
@@ -13871,7 +13148,7 @@ class Component extends DCLogic {
     // values arrive on an untouched hand (paintChoiceValues). Keep the exact opt objects/pick
     // closures and update digits together with DOM. The automatic sort never moves focus.
     const runtime = this.choiceValueRuntime();
-    if (!runtime || this._detailCtx || this._execution || !this._optList || !this._choiceValueBindings) return;
+    if (!runtime || this._execution || !this._optList || !this._choiceValueBindings) return;
     const cards = (this._optionCards || []).filter(c => !c.opt.threat);
     const byId = new Map(cards.map(c => [(this._choiceValueBindings.find(b => b.opt === c.opt) || {}).actionId, c]));
     const order = runtime.ngChoiceValueOrder([...byId.keys()], this._choiceValues?.snapshot());
@@ -13881,10 +13158,8 @@ class Component extends DCLogic {
     sorted.forEach((c, i) => {
       c.num = i + 1;
       c.card.parentElement.appendChild(c.card);
-      const glyph = c.card.querySelector(".ngglyph");
-      if (glyph) glyph.innerHTML = this.catGlyphSvg(c.node, c.num, "#b3c6ea");
-      const inspect = c.card.querySelector("[data-choice-inspect]");
-      if (inspect) inspect.title = "Inspect (Shift + " + c.num + ")";
+      const number = c.card.querySelector("[data-choice-number]");
+      if (number) number.textContent = c.num <= 9 && this.get("cardNumbers", true) ? c.num : "";
     });
     this._optionCards = sorted.concat(this._optionCards.filter(c => c.opt.threat));
     if (this._decision) this._decision.opts = this._optList;
@@ -13910,7 +13185,7 @@ class Component extends DCLogic {
       if (!list.length) return;
       const group = document.createElement("div");
       group.setAttribute("data-choice-group", threat ? "opponent" : "you");
-      group.style.cssText = "display:flex;flex-direction:column;gap:12px;flex:none;min-width:0;width:" + (list.length * 150 + (list.length - 1) * 9) + "px;";
+      group.style.cssText = "display:flex;flex-direction:column;gap:8px;flex:none;min-width:0;width:" + (list.length * 174 + (list.length - 1) * 9) + "px;";
       const title = document.createElement("div");
       title.textContent = label;
       title.style.cssText = "height:24px;display:flex;align-items:center;white-space:nowrap;font-size:10px;font-weight:700;letter-spacing:.06em;color:" + (threat ? "#ef8585" : "#93a0bd") + ";padding-left:3px;";
@@ -13939,7 +13214,7 @@ class Component extends DCLogic {
       list.forEach((o, i) => row.appendChild(this.buildOptionCard(o, pick, seconds, threat ? null : i + 1, escape && !threat ? "escape" : null)));
       group.appendChild(row); el.appendChild(group);
     };
-    add("Your options", own, false);
+    add("Your move", own, false);
     add("Opponent threats", threats, true);
     // THE DEALT ORDER IS THE VALUE REQUEST'S ORDER (v1.207.7). A sort (the automatic one, or the
     // button) reorders the tray, and the request is keyed by action order, so capturing in TRAY order
@@ -13955,56 +13230,10 @@ class Component extends DCLogic {
     const touched = () => { this._handTouched = true; };
     for (const type of ["pointerdown", "keydown", "wheel", "touchstart", "focusin"]) el.addEventListener(type, touched, { capture: true, passive: true });
     this.fitChoiceTitles();
+    this._observeChoiceMedia();
     this._syncEdgeFade(el);
     this.refreshChoiceValues();
   }
-  // AN ESCAPE OR A THREAT, IN THE SHEET'S OWN TERMS (v1.220.0; `expandOption` renders it). Only what
-  // differs from a technique: the category word, the choice's own name and what it is out of, the
-  // card's own number under the card's own caption, where it leads, and the body.
-  //  - A DEFENSE (your escape, or the opponent's escape while you finish) reads its authored detail
-  //    (`_defenseDetails`: action, when to use it, the risk) as reading sections, opened by the
-  //    submission's safety notice and closed by its safety guide, as every submission sheet is
-  //    (CLAUDE.md §7): tap signals and the release protocol matter most to the one in the choke.
-  //  - AN OPPONENT'S TECHNIQUE (their move, or the finish you are defending) reads that technique's
-  //    own breakdown, from the defender's side: the same `detailHTML` a technique sheet renders.
-  // The body re-renders when the submission's dossier lands (`contentKey`, onContentReady).
-  _stateChoiceSheet(opt) {
-    const threat = !!opt.threat, d = opt.defense;
-    const sub = this.nodes[opt.submission] || this.submissionNode(opt.node) || null;
-    const chance = this.choiceChance(opt), pct = chance == null ? null : Math.round(chance * 100);
-    const view = threat ? null : this.choiceValueView(opt);
-    const dest = opt.res >= 0 ? this.nodes[opt.res] : null;
-    const tone = (p) => p == null ? "#d7e2f4" : p >= 60 ? "#7ee0a8" : p >= 38 ? "#cbd24e" : "#e8956b";
-    const subName = sub ? this.splitName(sub.t).main : "";
-    const lead = (html) => '<div style="margin-top:13px;font-size:12px;color:#8b97b0;display:flex;align-items:center;gap:6px;">' + html + '</div>';
-    const destHTML = dest ? '<b style="color:#c3cde0;font-weight:600;">' + this.choiceEscape(this.graphName(dest)) + '</b>' : '';
-    return {
-      cat: threat ? "Opponent threat" : "Escape",
-      col: threat ? "#e8956b" : "#b3c6ea",
-      title: this.choiceLabel(opt),
-      from: !sub || (threat && !d) ? "" : (threat ? "their way out of " : "out of ") + subName,
-      statLabel: threat ? "Their odds" : (view.immediateLabel || "Escape") + " chance",
-      statText: threat ? (pct == null ? "\u2014" : pct + "%") : view.immediate,
-      pct, oddsCol: threat ? this.choiceOddsColor(pct, true) : tone(pct),
-      leadHTML: threat
-        ? lead('<span style="color:#e8956b;">!</span><span>Your opponent may attempt this. Choose your response from your options.' + (dest ? ' If it works: ' + destHTML + '.' : '') + '</span>')
-        : dest ? lead('<span style="color:#7ee0a8;">\u2192</span>on success, you reach ' + destHTML) : '',
-      contentKey: d ? (sub ? sub.t : null) : (opt.node.ty === "positions" ? this.deckKeyFor(opt.node).key : opt.node.t),
-      bodyHTML: () => {
-        if (!d) return this.detailHTML(opt.node, threat ? "Opponent threat" : "Escape", [], "defender");
-        this._curClips = null;
-        const info = sub ? this._sheetInfo(sub, this.ngContentFor(sub)) : null;
-        const own = info ? this._readingSections(sub, info, "defender", true) : [];
-        const details = sub && sub._defenseDetails, detail = d.detail != null && details ? details[d.detail] : null;
-        const sections = own.filter((x) => x.key === "safety-notice");
-        sections.push({ key: "escape", label: threat ? "Their escape" : "The escape", kind: "text", value: (detail && detail.action) || d.action || d.label });
-        if (detail && detail.when_to_use) sections.push({ key: "escape-when", label: "When it works", kind: "text", value: detail.when_to_use });
-        if (detail && detail.risk) sections.push({ key: "escape-risk", label: "The risk", kind: "text", value: detail.risk });
-        return this._readingHTML(sections.concat(own.filter((x) => x.key === "safety")), "sheet");
-      },
-    };
-  }
-
   optionsFor(posIdx, role) {
     role = role || this.playerRole;
     posIdx = this.canonicalState(posIdx, role);
@@ -14082,7 +13311,7 @@ class Component extends DCLogic {
     }
     // FREEZE (v1.118.0). Both ranking inputs are read HERE, once, and never again: `moveChance`
     // moves with drilling and momentum, and re-reading it in a comparator would let a mid-decision
-    // JIT grade re-sort the tray the player is already reaching into. See _cmpDealt.
+    // study grade re-sort the tray the player is already reaching into. See _cmpDealt.
     for (const o of out) { o.ord = this.orderScore(o); o.ordOdds = this.moveChance(o.node); }
     out.sort((a, b) => this._cmpDealt(a, b));
     // EVERY legal move is dealt (v1.123.0). What used to be cut is now simply further down a
@@ -14116,24 +13345,6 @@ class Component extends DCLogic {
     return best;
   }
 
-  // the glyph is split span/svg so the EDGE repaint can rewrite the shape's colour in place
-  // without disturbing the card's flex row (see _paintEdge)
-  catGlyph(n, num, col) {
-    return '<span class="ngglyph" style="flex:none;width:20px;height:20px;display:flex;align-items:center;justify-content:center;filter:drop-shadow(0 0 4px ' + col + '70);">' + this.catGlyphSvg(n, num, col) + '</span>';
-  }
-  catGlyphSvg(n, num, col) {
-    // category shape (circle=position, diamond=transition, triangle=submission) with the keyboard number fused inside
-    const showNum = !!(num && num <= 9 && this.get("cardNumbers", true));
-    const sub = n.ty === "submissions";
-    const ty = n.ty === "positions" ? "circle" : (sub ? "tri" : "diamond");
-    let shape;
-    if (ty === "tri") shape = '<path d="M10 2.6 L17.6 16.6 L2.4 16.6 Z" fill="' + col + '26" stroke="' + col + '" stroke-width="1.5" stroke-linejoin="round"></path>';
-    else if (ty === "circle") shape = '<circle cx="10" cy="10" r="7.7" fill="' + col + '26" stroke="' + col + '" stroke-width="1.5"></circle>';
-    else shape = '<path d="M10 1.9 L18.1 10 L10 18.1 L1.9 10 Z" fill="' + col + '26" stroke="' + col + '" stroke-width="1.5" stroke-linejoin="round"></path>';
-    const ty2 = sub ? "12.9" : "10.7";
-    const txt = showNum ? '<text x="10" y="' + ty2 + '" text-anchor="middle" dominant-baseline="middle" font-size="8.5" font-weight="700" font-family="\'Space Grotesk\',sans-serif" fill="#eef1f6">' + num + '</text>' : '';
-    return '<svg width="20" height="20" viewBox="0 0 20 20">' + shape + txt + '</svg>';
-  }
   // Measure the mounted text with the actual font. Keep the largest size that fits
   // two lines; a fixed slot alone would hide a third line instead of fitting the name.
   // Re-run after font loading and resize, always starting at the normal title size.
@@ -14143,7 +13354,7 @@ class Component extends DCLogic {
     for (const slot of tray.querySelectorAll(".ngchoice-title")) {
       if (!slot.clientWidth) continue;
       const text = slot.firstElementChild;
-      let size = 13.5;
+      let size = 13;
       text.style.fontSize = size + "px";
       while (size > 1 && (text.scrollHeight > size * 1.22 * 2 + 1 || text.scrollWidth > slot.clientWidth)) {
         size -= 0.25;
@@ -14151,93 +13362,148 @@ class Component extends DCLogic {
       }
     }
   }
-  buildOptionCard(opt, onPick, decisionSec, num, mode) {
-    const n = opt.node;
-    const isEsc = mode === "escape";
-    const isThreat = !!opt.threat;
-    const card = document.createElement("div");
-    card.setAttribute(isThreat ? "data-threat-tech" : "data-tech", n.t); // player choices and opponent previews are distinct surfaces
-    card.style.cssText = "--ng-move-num:" + NG_CARD_MOVE_NUM + "px;--ng-move-label:" + NG_CARD_MOVE_LABEL + ";--ng-win:" + NG_CARD_WIN + ";pointer-events:auto;cursor:pointer;position:relative;overflow:hidden;display:flex;flex-direction:column;flex:0 0 150px;width:150px;height:144px;box-sizing:border-box;background:rgba(28,32,52,.78);backdrop-filter:blur(6px);border:1px solid rgba(150,170,210,.18);border-radius:11px;padding:11px 12px 13px;opacity:1;transform:translateY(10px);transition:transform .34s cubic-bezier(.2,.7,.2,1),border-color .15s,background .15s;";
-    // ONE KIND OF NUMBER ON THE HAND (owner, 2026-09-29): player cards show your Win chance, and so
-    // do opponent previews — YOUR win chance if they try that move (engine threat probes), painted by
-    // `_paintThreatValue` when the values arrive. Previews keep their authored immediate rate ("Odds").
-    const edge = null;
-    const col = "#b3c6ea";
-    const chance = this.choiceChance(opt), pct = chance == null ? null : Math.round(chance * 100);
-    const oddsCol = isThreat ? this.choiceOddsColor(pct, true) : "#d7e2f4";
-    const value = !isThreat ? this.choiceValueView(opt) : null;
-    const bottomRow = '<div class="ngbotrow" style="flex:none;margin-top:auto;padding-top:8px;white-space:nowrap;border-top:1px solid rgba(150,170,210,.1);display:flex;align-items:center;justify-content:space-between;gap:4px;">' +
-      '<div data-immediate-label' + (!isThreat && value.immediateKind === "entry" ? ' title="The finish\'s chance once you are in. Stepping in is certain."' : '') + ' style="font-size:calc(var(--ng-move-num) * var(--ng-move-label));font-weight:600;color:#b3c2da;white-space:nowrap;">' + (isThreat ? 'Odds' : value.immediateLabel) + '</div>' +
-      '<span class="ngodds" style="flex:none;font-size:var(--ng-move-num);font-weight:700;line-height:1.2;color:' + oddsCol + ';">' + (isThreat ? (pct == null ? '—' : pct + '%') : this.choiceEscape(value.immediate)) + '</span></div>';
-    const headMid = isEsc ? "Escape" : n.ty === "positions" ? "Position" : n.ty === "submissions" ? "Submission" : "Transition";
-    const headVal = isThreat ? '<span class="ngedge" data-threat-win title="Your win chance if they try this" style="flex:none;font-size:calc(var(--ng-move-num) * var(--ng-win));font-weight:600;color:#aebbd3;">—</span>' : '<span data-choice-recommended style="font-size:9px;color:#c5d6ff;"></span>';
-    card.innerHTML =
-      '<div style="display:flex;align-items:center;gap:8px;margin-bottom:7px;">' +
-        this.catGlyph(n, num, col) +
-        '<span data-cat="1" style="font-size:9.5px;letter-spacing:.05em;text-transform:uppercase;color:#8094b4;font-weight:700;flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">' + headMid + '</span>' +
-        headVal +
-      '</div>' +
-      // ── THE CARD IS A CHOICE, NOT A DOSSIER (v1.101.1) ──────────────────────────────────
-      // The `from <origin>` line and the `→ <destination>` line came off at the owner's call
-      // ("it can be removed to make for smaller option cards"). Both were restating what the
-      // hand already tells you: every option in a hand shares the state you are standing in, so
-      // `from X` is the same word on all of them, and where a move LEADS is what the sheet is
-      // for — this card's job is name, category, potential and odds, at a glance, on a clock.
-      // An ESCAPE hand keeps its one word, because "escape route" is not a restatement.
-      '<div class="ngchoice-title" style="flex:none;height:34px;font-weight:600;color:#eef1f6;line-height:1.22;"><span style="display:block;font-size:13.5px;">' + this.choiceEscape(this.choiceLabel(opt)) + '</span></div>' +
-      (!isThreat ? '<div class="ngcv-card" data-choice-value data-status="' + value.status + '">' + this.choiceValueHTML(value) + '</div>' : '') +
-      bottomRow +
-      '<div class="ngbar" style="position:absolute;left:0;bottom:0;height:3px;width:100%;background:' + col + ';transform-origin:left;transform:scaleX(1);"></div>';
-    // ── CAPTURE THE TECHNIQUE, NOT THE POSITION ──────────────────────────────────────────────
-    // "These are the techniques we learned in today's class" means TRANSITIONS AND SUBMISSIONS.
-    // The landing card's + adds the position you happen to be standing in — legitimate ("we
-    // worked from half guard"), but not what the feature is for. The hand IS the techniques, so
-    // the hand is where a coach captures one: one tap, no commit, the roll carries on.
-    // ...AND IT IS NOT ON THE CARD ANY MORE (v1.101.1). Owner: "the + on those small options
-    // cards can also be removed. the + should only show top right next to the x close icon when
-    // the card is open". A 150px card on a running clock is a CHOICE; capture belongs on the
-    // surface you opened to read, where you already stopped. The option-detail sheet
-    // (`expandOption`) and the landing card both carry it, so nothing is lost — only the
-    // per-card clutter, which is 8 copies of the same control across one hand.
-    card.addEventListener("mouseenter", () => { card.style.borderColor = "rgba(150,180,255,.55)"; card.style.background = "rgba(40,48,76,.9)"; card.style.transform = "translateY(-2px)"; });
-    card.addEventListener("mouseleave", () => { card.style.borderColor = "rgba(150,170,210,.18)"; card.style.background = "rgba(28,32,52,.78)"; card.style.transform = "translateY(0)"; });
-    card.setAttribute("data-choice-action", opt.action || "transition");
-    if (isThreat) card.setAttribute("data-opponent-threat", "1");
-    card.addEventListener("click", () => this.activateOption(opt, onPick, card));
-    // The native execute button contains the visible header/title/value; Inspect is a
-    // sibling, never a nested interactive control. Real mouse hits still reach the title.
-    const execute = document.createElement("button");
-    execute.type = "button"; execute.className = "ngcv-execute";
-    execute.setAttribute("data-choice-execute", "1");
-    execute.setAttribute("aria-label", (isThreat ? "Inspect " : "") + this.choiceLabel(opt));
-    const face = [...card.children].filter(c => !c.classList.contains("ngbotrow") && !c.classList.contains("ngbar"));
-    face.forEach(c => execute.appendChild(c)); card.prepend(execute);
-    if (!isThreat) {
-      const inspect = document.createElement("button");
-      inspect.type = "button";
-      inspect.setAttribute("data-choice-inspect", "1");
-      inspect.setAttribute("aria-label", "Inspect " + this.choiceLabel(opt));
-      inspect.title = "Inspect" + (num ? " (Shift + " + num + ")" : "");
-      inspect.textContent = "Inspect";
-      inspect.style.cssText = "flex:none;pointer-events:auto;cursor:pointer;color:#b8c8e7;background:none;border:0;font:inherit;font-size:10px;min-width:44px;height:44px;margin:-10px -5px;padding:0 5px;";
-      inspect.addEventListener("click", (e) => { e.stopPropagation(); this.activateOption(opt, onPick, card, true); });
-      card.querySelector(".ngbotrow").prepend(inspect);
+  // v1.230.0 / feedback_owner_rules_reverse_shipped_contracts: the approved
+  // video face replaces v1.218.1 Inspect and v1.220.0's unequal stat hierarchy.
+  // Values still come from the certified view; stripping the unit never rounds
+  // away an interval, an honest endpoint (<1 / >99), or an updating state.
+  choiceNumber(text) { return String(text == null ? "—" : text).replace(/%/g, ""); }
+  choiceShape(node, content = "") {
+    const type = node?.ty === "positions" ? "circle" : node?.ty === "submissions" ? "triangle" : "diamond";
+    const path = type === "circle" ? '<circle cx="10" cy="10" r="7.7"/>' : '<path d="' + (type === "triangle" ? 'M10 2.6 L17.6 16.6 L2.4 16.6 Z' : 'M10 1.9 L18.1 10 L10 18.1 L1.9 10 Z') + '"/>';
+    return '<span class="ng-choice-shape" data-choice-shape="' + type + '"><svg viewBox="0 0 20 20" aria-hidden="true">' + path + '</svg>' + content + '</span>';
+  }
+  choiceStatsHTML(view) {
+    const stat = (label, text, attr, stale) => '<span class="ng-choice-stat"><span><span' + (label === 'Win' ? '' : ' data-immediate-label') + '>' + this.choiceEscape(label) + '</span> %</span><strong ' + attr + (stale ? ' data-choice-stale' : '') + ' aria-label="' + this.choiceEscape(label + ' ' + text + (stale ? ', updating' : '')) + '">' + this.choiceEscape(this.choiceNumber(text)) + '</strong></span>';
+    return stat(view.immediateLabel === "Finish" ? "Submit" : view.immediateLabel, view.immediate, 'class="ngodds"', view.immediateStale)
+      + stat("Win", view.value, 'data-choice-win', view.stale);
+  }
+  _choiceMediaTarget(opt) {
+    // A destination is not a demonstration of the escape. Its source submission
+    // has a defending reel, but that is not a front for the named escape.
+    const defense = opt.action === "escape" || !!opt.defense;
+    const node = defense ? this.nodes[opt.submission] || this.submissionNode(opt.node) : opt.node;
+    if (!node) return null;
+    const role = node.ty === "positions" ? this.playedRole(node) : defense ? (opt.threat ? "attacker" : "defender") : opt.threat ? "defender" : "attacker";
+    const key = node.ty === "positions" ? this.deckKeyFor(node).key : node.t;
+    return { node, role, key, exact: !defense };
+  }
+  _choiceFront(target, info) {
+    if (!target?.exact || !info) return null;
+    const block = target.node.ty === "positions" ? info : info.perspectives?.[target.role];
+    if (target.role === "defender" && !block?.authored) return null;
+    const clip = block?.clips?.[0];
+    return clip?.front === true ? clip : null;
+  }
+  _choiceLearn() {
+    this._handTouched = true;
+    this._declineLandQ("reading");
+    this.setPaused(true);
+  }
+  _queueChoiceMedia(card, target, hand) {
+    if (!target?.exact) return;
+    this._choiceMediaQueue = this._choiceMediaQueue || [];
+    this._choiceMediaQueue.push({ card, target, hand });
+    this._drainChoiceMedia();
+  }
+  _drainChoiceMedia() {
+    while ((this._choiceMediaActive || 0) < 2 && this._choiceMediaQueue?.length) {
+      const job = this._choiceMediaQueue.shift(), { card, target, hand } = job;
+      if (!card.isConnected || hand !== this._choiceHandId) continue;
+      this._choiceMediaActive = (this._choiceMediaActive || 0) + 1;
+      const cache = window.NG_CONTENT?.decks || {};
+      const ready = Object.prototype.hasOwnProperty.call(cache, target.key) ? Promise.resolve(cache[target.key]) : this._hydrateContent(target.key);
+      ready.then(info => {
+        if (!card.isConnected || hand !== this._choiceHandId) return;
+        const clip = this._choiceFront(target, info), media = card.querySelector("[data-choice-media]");
+        card.dataset.choiceFront = clip ? "approved" : "suppressed";
+        if (!clip || !media) return;
+        const watch = document.createElement("button");
+        watch.type = "button"; watch.className = "ng-choice-watch"; watch.dataset.choiceWatch = "";
+        watch.setAttribute("aria-label", "Play video: " + this.choiceLabel(job.card._choiceOpt));
+        watch.innerHTML = '<span aria-hidden="true">▶</span>';
+        media.innerHTML = '<img alt="" width="174" height="86" loading="lazy" decoding="async" referrerpolicy="no-referrer">';
+        media.firstChild.onerror = e => { e.currentTarget.style.visibility = "hidden"; };
+        media.firstChild.src = "https://i.ytimg.com/vi/" + clip.id + "/hqdefault.jpg";
+        watch.addEventListener("click", e => { e.stopPropagation(); this._openChoiceWatch(clip, target, watch); });
+        // Sibling native buttons: the face executes, only the 44px play circle
+        // opens playback. No nested button, and no video-wide move dead zone.
+        card.querySelector("[data-choice-watch]")?.remove();
+        card.appendChild(watch);
+      }).finally(() => { this._choiceMediaActive--; this._drainChoiceMedia(); });
     }
-    // ONE CLOCK (v1.114.1). This bar used to be a CSS animation (`ngCount <dsec>s`) on the WALL
-    // clock, while the decision it depicts runs on `gdt` in `_tickDecision`. `setPaused` kept the
-    // two in step for pauses — but nothing kept them in step for a REFUND: answering the landing
-    // question correctly calls `refundDecision(2500)`, up to twice, adding 5s to a 16.2s window
-    // that the animation could not know about. The bar then under-reported by up to 31% and the
-    // hand looked about to expire when it was not. `_tickDecision` now writes the width, so the
-    // bar cannot disagree with the number it draws — including growing BACK when you buy time,
-    // which is the honest feedback for having bought it.
-    const bar = card.querySelector(".ngbar");
-    // `opt`/`num`/`esc` ride along so the EDGE channel can be repainted in place when the odds
-    // move (refreshOptionOdds). They are the DEAL-TIME opt, so a repaint values the move against
-    // the state it was dealt from — and it repaints, it never re-sorts.
-    (this._optionCards = this._optionCards || []).push({ node: n, card: card, bar: bar, opt: opt, num: num, esc: isEsc });
-    const di = 20 + (num && num > 0 ? num - 1 : 0) * 45;
-    setTimeout(() => { card.style.transform = "none"; }, di);
+  }
+  _observeChoiceMedia() {
+    this._choiceMediaObserver?.disconnect();
+    this._choiceMediaQueue = [];
+    const hand = this._choiceHandId;
+    const show = card => this._queueChoiceMedia(card, card._choiceTarget, hand);
+    const cards = (this._optionCards || []).map(c => c.card);
+    if (typeof IntersectionObserver === "undefined") { cards.forEach(show); return; }
+    this._choiceMediaObserver = new IntersectionObserver(entries => {
+      for (const entry of entries) if (entry.isIntersecting) { this._choiceMediaObserver?.unobserve(entry.target); show(entry.target); }
+    }, { root: this.optionsRef.current, threshold: .01 });
+    cards.forEach(card => this._choiceMediaObserver.observe(card));
+  }
+  _openChoiceWatch(clip, target, source) {
+    this._closeChoiceWatch(false);
+    const wasPaused = this.paused;
+    this._choiceLearn();
+    const dialog = document.createElement("dialog");
+    dialog.className = "ng-choice-viewer"; dialog.setAttribute("data-choice-viewer", "");
+    dialog.setAttribute("aria-label", "Watch " + target.node.t);
+    dialog.innerHTML = '<header><strong>' + this.choiceEscape(target.node.t) + '</strong><button type="button" data-watch-close aria-label="Close video viewer">✕</button></header>' + this.filmStudyHTML([clip], true);
+    (this.__ngRoot || document.body).appendChild(dialog);
+    dialog._ngVideoNode = target.node;
+    this._choiceWatch = { dialog, source, wasPaused };
+    this.fx("sheet_opened", { technique: target.node.t, surface: "watch" }); // legacy evidence id; no sheet is rendered
+    for (const type of ["pointerdown", "wheel", "click"]) dialog.addEventListener(type, e => e.stopPropagation());
+    dialog.addEventListener("cancel", e => { e.preventDefault(); this._closeChoiceWatch(); });
+    dialog.addEventListener("click", e => { if (e.target === dialog) this._closeChoiceWatch(); });
+    // Iframe keys do not bubble here. Close precedes the player, so browser
+    // traversal can reach it; explicitly wrap the parent controls at both ends.
+    dialog.addEventListener("keydown", e => {
+      if (e.key !== "Tab" || e.altKey || e.ctrlKey || e.metaKey) return;
+      const stops = [...dialog.querySelectorAll("button, a[href], iframe")].filter(el => el.tabIndex >= 0 && !el.disabled && el.getClientRects().length);
+      const first = stops[0], last = stops[stops.length - 1];
+      if (document.activeElement === (e.shiftKey ? first : last)) {
+        e.preventDefault(); (e.shiftKey ? last : first)?.focus();
+      }
+    });
+    dialog.querySelector("[data-watch-close]").onclick = () => this._closeChoiceWatch();
+    this.wireClips(dialog, [clip]);
+    dialog.showModal();
+    this.expandClip(dialog.querySelector(".ng-clip"), clip);
+    dialog.querySelector("[data-watch-close]").focus();
+  }
+  _closeChoiceWatch(restore = true) {
+    const current = this._choiceWatch; if (!current) return;
+    this._choiceWatch = null;
+    if (this._expandedClip && current.dialog.contains(this._expandedClip)) this.clearClipLoops();
+    current.dialog.close(); current.dialog.remove();
+    this.setPaused(current.wasPaused === true);
+    if (restore && current.source.isConnected) current.source.focus({ preventScroll: true });
+  }
+  buildOptionCard(opt, onPick, decisionSec, num, mode) {
+    const n = opt.node, isThreat = !!opt.threat, isEsc = mode === "escape";
+    const card = document.createElement("div");
+    card.className = "ng-choice-card";
+    card.setAttribute(isThreat ? "data-threat-tech" : "data-tech", n.t);
+    card.setAttribute("data-choice-action", opt.action || "transition");
+    card.dataset.choiceFront = "suppressed";
+    if (isThreat) card.setAttribute("data-opponent-threat", "1");
+    const value = isThreat ? null : this.choiceValueShown(opt), target = this._choiceMediaTarget(opt);
+    card._choiceOpt = opt; card._choiceTarget = target;
+    const chance = isThreat ? this.choiceChance(opt) : null;
+    const immediateLabel = opt.action === "escape" ? "Escape" : opt.action === "finish" ? "Submit" : n.ty === "submissions" ? "Works" : "Move";
+    const execute = isThreat ? 'div' : 'button';
+    const pickAttrs = isThreat ? '' : ' type="button" data-choice-execute aria-label="' + this.choiceEscape(this.choiceLabel(opt)) + '"';
+    card.innerHTML = '<' + execute + pickAttrs + ' class="ng-choice-execute"><span class="ng-choice-title-button">' + this.choiceShape(n, '<span data-choice-number>' + (num && num <= 9 && this.get("cardNumbers", true) ? num : '') + '</span>') + '<span class="ngchoice-title"><span>' + this.choiceEscape(this.choiceLabel(opt)) + '</span></span></span>'
+      + '<div class="ng-choice-media" data-choice-media><span>Video unavailable</span></div>'
+      + '<span class="ngcv-card" data-choice-value data-status="' + (value?.status || 'pending') + '">' + (value ? this.choiceStatsHTML(value) : '<span class="ng-choice-stat"><span><span data-immediate-label>' + immediateLabel + '</span> %</span><strong class="ngodds">' + (chance == null ? '—' : Math.round(chance * 100)) + '</strong></span><span class="ng-choice-stat"><span>Win %</span><strong data-threat-win>—</strong></span>') + '</span></' + execute + '>'
+      + '<span class="ng-choice-badge" data-choice-recommended></span>'
+      + '<div class="ngbar"></div>';
+    card.addEventListener("click", () => this.activateOption(opt, onPick, card));
+    (this._optionCards = this._optionCards || []).push({ node: n, card, bar: card.querySelector(".ngbar"), opt, num, esc: isEsc });
     return card;
   }
   // repaint ONE dealt card's EDGE channel in place — corner number, glyph and clock bar, all three
@@ -14274,17 +13540,15 @@ class Component extends DCLogic {
     } else last.threat.delete(oc.opt);
     el.toggleAttribute("data-choice-stale", stale);
     if (stale) el.setAttribute("aria-label", tip); else el.removeAttribute("aria-label");   // "…, updating", said as well as dimmed
-    el.textContent = text; el.title = tip;
+    el.textContent = this.choiceNumber(text); el.title = tip;
     const col = win == null ? "#b3c6ea" : this.hex(this.domColor(win * 2 - 1));
     el.style.color = col;
-    const g = oc.card.querySelector(".ngglyph");
-    if (g) { g.style.filter = win == null ? "" : "drop-shadow(0 0 4px " + col + "70)"; g.innerHTML = this.catGlyphSvg(oc.node, oc.num, col); }
     if (oc.bar) oc.bar.style.background = col;
   }
   // Threats sort once too — most dangerous first — under the same untouched-hand rule.
   sortThreatValues() {
     const runtime = this.choiceValueRuntime(), snapshot = this._choiceValues && this._choiceValues.snapshot();
-    if (!runtime || !runtime.ngChoiceValueThreatOrder || this._detailCtx || this._execution || !snapshot) return;
+    if (!runtime || !runtime.ngChoiceValueThreatOrder || this._execution || !snapshot) return;
     const cards = (this._optionCards || []).filter(c => c.opt.threat);
     if (cards.length < 2) return;
     // Two escapes to one place share an id and a value, so ids are ordered once and each id's
@@ -14297,7 +13561,7 @@ class Component extends DCLogic {
     order.forEach(c => c.card.parentElement.appendChild(c.card));
     this._optionCards = this._optionCards.filter(c => !c.opt.threat).concat(order);
   }
-  // THE NUMBERS MOVE, THE CARDS DO NOT (v1.118.0). Drilling a JIT deck mid-decision raises this
+  // THE NUMBERS MOVE, THE CARDS DO NOT (v1.118.0). Grading during a decision raises this
   // move's odds, and EDGE is a function of those odds, so the corner number and its colour MUST
   // follow — that visible payoff is the reason to drill at all. What must never follow is the
   // ORDER: re-sorting the tray under a player already reaching for a card is the one thing a
@@ -14313,7 +13577,7 @@ class Component extends DCLogic {
       if (!oc.opt.threat) continue; // player immediate values belong to the stamped choice view
       const el = oc.card.querySelector(".ngodds"); if (!el) continue;
       const chance = this.choiceChance(oc.opt), pct = chance == null ? null : Math.round(chance * 100);
-      el.textContent = pct == null ? "—" : pct + "%";
+      el.textContent = pct == null ? "—" : String(pct);
       el.style.color = this.choiceOddsColor(pct, oc.opt.threat);
       this._paintEdge(oc);
     }
@@ -14416,21 +13680,18 @@ class Component extends DCLogic {
    * A TEMPORARY SURFACE GIVES THE KEYBOARD BACK (§6.5 — a single-slot resource with many writers).
    *
    * `this._mc` is what A-D grades against and the NEWEST block owns it, so a short-lived question
-   * — the dossier's, the option sheet's JIT drill — takes the keys from a landing question that
+   * — the dossier's or the pane's — takes the keys from a landing question that
    * outlives it. On the way out, hand them back to the block still on screen rather than nulling
    * outright, which made A-D dead for the rest of the exchange.
    *
-   * `declinedOnEntry` is the one place the two callers differ, and the difference is real rather
-   * than taste. The dossier does NOT decline, so `_landQ.answered` there means the PLAYER answered
-   * and the keys should go nowhere. The option sheet calls `_declineLandQ("sheet")` on the way in
-   * (v1.134.0), so `answered` is true on EVERY close and carries no information about the player
-   * at all — consulting it would null the keys every time, which is strictly worse than the
-   * do-nothing this replaced. Handing them back is safe either way: the landing block's own
+   * `declinedOnEntry` distinguishes the pane from the dossier. The dossier does NOT decline,
+   * so `_landQ.answered` there means the PLAYER answered and the keys should go nowhere. The
+   * pane may cover an already-declined question; its close restores the surviving block. Handing them back is safe either way: the landing block's own
    * `answer()` refuses to re-grade once `answered || truth.spent`, so a spent block only repaints.
    */
   _handBackMc(fromSurface, declinedOnEntry) {
     if (fromSurface === "pane") {
-      if (this._detailCtx || this._dossierIdx != null) return; // a temporary question still owns its keys
+      if (this._dossierIdx != null) return; // a temporary question still owns its keys
       const recall = this._landEl && this._landEl.querySelector("[data-land-recall]");
       const truth = recall && recall.__ngRecall;
       this._recall = truth && !truth.spent && !(this._landQ && this._landQ.revealed) ? truth : null;
@@ -15458,11 +14719,6 @@ class Component extends DCLogic {
     this._dockLandCard(el);
     // a fresh card born while the reading sheet owns the screen must not pop over it
     if (this._traySup || this._dossierIdx != null) this._suppressLand(true);
-    // ...and one born under an OPEN OPTION SHEET is born stood down. Unconditional on purpose: it
-    // derives from `_detailCtx` and is a no-op when no sheet is open, so it cannot rot the way a
-    // second copy of the condition above would. A backfill builds a brand-new element with fresh,
-    // non-inert children, so this is the only thing that re-applies the dim to it.
-    this._syncDetailDim();
     return el;
   }
   // The deferred reader owns a page, never the question DOM. Automatic game arrivals
@@ -15733,137 +14989,7 @@ class Component extends DCLogic {
     if (!t) return "";                       // it was ONLY the lead-in: say nothing
     return this.mcClip(t) || t.slice(0, 220);
   }
-  /** One section model decides both availability and content. Selecting it is cheap; HTML
-   * and DOM are built only by the reader. A missing defender never borrows attack mechanics. */
-  _readingSections(node, info, side, full) {
-    info = info || {};
-    const pos = node.ty === "positions", defending = side === "defender";
-    const P = info.perspectives || {};
-    const blk = pos ? info : (defending ? (P.defender && P.defender.authored ? P.defender : {}) : (P.attacker || info));
-    const sections = [];
-    const add = (key, label, kind, value) => {
-      if (value == null || value === "" || (Array.isArray(value) && !value.length)) return;
-      sections.push({ key, label, kind, value });
-    };
-    const safety = info.safety;
-    if (safety && safety.notice) add("safety-notice", "", "text", safety.notice);
-    const lead = !full && defending && blk.summary ? this.definitionOf(blk.summary) : (info.lead || this.definitionOf(info.def));
-    add("def", "", "text", lead);
-    const aliases = this._readingAliases(node, info);
-    add("aka", "", "aliases", aliases);
-    const confused = (info.confuse || []).map((x) => ({ ...x, family: "" })).concat(
-      ((info.family && info.family.confuse) || []).map((x) => ({ ...x, family: info.family.name })));
-    add("confuse", "Often confused with", "confuse", confused);
-    if (full && blk.summary && blk.summary.trim() !== String(lead || "").trim() && !this._echoesSummary(lead, blk.summary)) add("overview", "Overview", "text", blk.summary);
-    if (full && !pos && defending && (!P.defender || !P.defender.authored)) add("perspective-unavailable", "", "text", "The defender's breakdown is not authored for this technique yet.");
-    if (pos && info.props) {
-      const labels = { type: "Type", risk: "Risk", energy: "Effort", time: "Hold" };
-      add("props", "Position profile", "facts", Object.keys(labels).filter((k) => info.props[k] != null).map((k) => [labels[k], info.props[k]]));
-    }
-    if (!pos && info.kind) add("kind", "Submission", "facts", [["Category", info.kind.cat], ["Type", info.kind.type], ["Target", info.kind.area]].filter((x) => x[1]));
-    if (!pos) {
-      add("recognition", defending ? "Recognise the attack" : "Recognise the moment", "list", blk.recognition);
-      if (!defending) {
-        add("prerequisites", "Before you start", "list", blk.prerequisites);
-        add("steps", "How to execute", "steps", blk.steps);
-      } else add("options", "Your defensive options", "options", blk.options);
-      if (safety) {
-        const parts = [];
-        const put = (key) => { const v = safety[key]; if (v && (!Array.isArray(v) || v.length)) parts.push([key, v]); };
-        (defending ? ["tap", "release", "risks", "speed", "restrictions"] : ["risks", "speed", "tap", "release", "restrictions"]).forEach(put);
-        add("safety", "Safety guide", "safety", parts);
-      }
-    }
-    add("principles", "Essential principles", "list", blk.principles);
-    if (full && defending) add("best-outcomes", "Best outcomes", "list", blk.bestOutcomes);
-    if (full && pos && info.metrics) add("metrics", "Numbers", "facts", Object.entries(info.metrics));
-    if (pos) add("tree", "Decision branches", "tree", (info.decisionTree || []).slice(0, full ? undefined : 3));
-    if (!pos && !defending) {
-      add("outcomes", "Where it leads", "outcomes", (info.outcomes || []).slice(0, full ? undefined : 3));
-      add("counters", "What beats it", "list", (blk.counters || []).slice(0, full ? undefined : 3));
-    }
-    // Legacy position fixtures may carry counters; this is authored content, never adjacency.
-    if (pos) add("counters", "What beats it", "list", info.counters);
-    add("mistakes", "Common mistakes", "mistakes", blk.mistakes);
-    if (!defending) add("variations", "Variations", "notes", (info.variations || []).slice(0, full ? undefined : 5).map((n) => [n, (info.varNote || {})[n]]));
-    if (pos) add("drills", "Training drills", "notes", (info.drills || []).slice(0, 3).map((d) => [d.n, d.dur]));
-    if (full && info.context && !this._echoesSummary(info.context, blk.summary || lead)) add("context", "Context", "text", info.context);
-    add("related", "Related", "list", (info.related || []).slice(0, full ? undefined : 4));
-    return sections;
-  }
-  _readingAliases(node, info) {
-    const meta = node.aliasMeta || {}, rows = [];
-    const own = Array.isArray(info.aka) ? info.aka : (meta.aka || (node.aka ? [node.aka] : []));
-    if (own.length) rows.push(["Also known as", own]);
-    const family = info.family || meta.family;
-    if (family && family.aka && family.aka.length) rows.push([family.name + " family · also known as", family.aka]);
-    return rows;
-  }
-  /**
-   * THE READING RENDERER. Styles live in neural/src/reading.css, which is DEFERRED — see the
-   * note at the top of that file. Everything here emits classes; nothing emits a style
-   * attribute, because 24 kinds sharing one inline template is what made this read as slop.
-   *
-   * `prim` on note() is the panel's upheld rule: TEXT THAT DETERMINES A CHOICE THE PLAYER IS
-   * ABOUT TO MAKE IS PRIMARY (.r-p); TEXT THAT EXPLAINS A CHOICE ALREADY MADE IS SUPPORTING
-   * (.r-d). So a defensive option's `when` and a decision branch's actions are primary — they
-   * are the decision content on the defender seat, which is 45.4% of all seats — while a
-   * mistake's consequence, a variation note and a drill duration are not.
-   */
-  _readingHTML(sections, prefix) {
-    const E = (x) => this.escHTML(x);
-    const list = (xs, ordered) => '<' + (ordered ? 'ol' : 'ul') + '>' + xs.map((x) => '<li>' + E(x) + '</li>').join('') + '</' + (ordered ? 'ol' : 'ul') + '>';
-    const note = (name, text, prim) => '<div class=r-n><strong>' + E(name) + '</strong>' + (text ? '<div class=' + (prim ? 'r-p' : 'r-d') + '>' + E(text) + '</div>' : '') + '</div>';
-    return sections.map((s) => {
-      const v = s.value;
-      let body = '';
-      if (s.kind === "text") body = E(v).replace(/\n+/g, '<br>');
-      else if (s.kind === "list") body = list(v, false);
-      // THE STRUCTURE WAS IN THE DATA THE WHOLE TIME. `_neural_content.py` joins an authored
-      // action and description with ": " on 9,087 of 9,090 steps (100.0%), action median 28
-      // chars and description median 333 — and this used to print the join as one <li>. The
-      // worst is 804 characters, ~9 lines at phone width. Split it back; fall through to the
-      // raw string on the 3 that do not carry the shape, never a guess.
-      else if (s.kind === "steps") body = '<ol class=r-steps>' + v.map((x) => {
-        const m = String(x).match(/^([^:]{3,80}): ([\s\S]+)$/);
-        // THE DELIMITER IS CONTENT, NOT PUNCTUATION THE LAYOUT CAN EAT. A first cut emitted
-        // `<b>action</b>description` and silently dropped ": " from every step on every
-        // technique seat — three existing specs caught it by asserting the authored string.
-        // Reconstructing "<action>: <description>" exactly keeps the text a reader can copy.
-        return '<li>' + (m ? '<b>' + E(m[1]) + ':</b> ' + E(m[2]) : E(x)) + '</li>';
-      }).join('') + '</ol>';
-      else if (s.kind === "aliases") body = v.map((x) => '<div><span class=r-d>' + E(x[0]) + ': </span><strong>' + x[1].map(E).join(' · ') + '</strong></div>').join('');
-      else if (s.kind === "facts") body = '<dl>' + v.map((x) => '<div><dt>' + E(x[0]) + ': </dt><dd>' + E(x[1]) + '</dd></div>').join('') + '</dl>';
-      else if (s.kind === "confuse") body = v.map((x) => note((x.family ? x.family + ' family: ' : '') + x.n, x.why)).join('');
-      else if (s.kind === "notes") body = v.map((x) => note(x[0], x[1])).join('');
-      // THE DOUBLED "If", AND IT IS THREE CLASSES NOT ONE. Measured over 1,161 authored
-      // branches: 1,049 (90.4%) already start "If " and used to render "If If ..."; 70 (6.0%)
-      // start "Else if " and rendered "If Else if ..."; 42 (3.6%) are bare statements where
-      // this prefix is CORRECT AND REQUIRED. Deleting the prefix outright fixes 1,049 and
-      // breaks 42, which is why neither single fix works. "Or if" is honest for the 70 without
-      // claiming the sequence the flattened render cannot express.
-      else if (s.kind === "tree") body = v.map((d) => {
-        const c = String(d.cond || '').replace(/^\s*else\s+if\s+/i, 'Or if ').replace(/^\s*if\s+/i, 'If ');
-        return note((/^(?:If|Or if)\b/.test(c) ? c : 'If ' + c) + ':', (d.acts || []).map((a) => a[0] + (a[2] ? ' → ' + a[2] : '')).join(' · '), 1);
-      }).join('');
-      else if (s.kind === "options") body = v.map((o) => '<div class=r-b>' + note(o.move, o.when, 1) + (o.leadsTo ? '<div class=r-g>→ ' + E(o.leadsTo) + '</div>' : '') + '</div>').join('');
-      else if (s.kind === "outcomes") body = v.map((o) => note(o.result + (o.position ? ' → ' + o.position : ''), o.prob != null ? o.prob + '%' : '')).join('');
-      // The kickers stay. The shipped render labelled these "Why it matters:" and "Correction:"
-      // in body-weight bold, which competed with the sentence; dropping them entirely would make
-      // the reader infer three roles from colour alone, and colour is the one channel a
-      // colour-blind reader does not have. They become micro-caps: present, and not shouting.
-      else if (s.kind === "mistakes") body = v.map((m) => '<div class=r-b><div class=r-e>' + E(m.err) + '</div>' + (m.why ? '<div class=r-d><b class=r-k>Why</b>' + E(m.why) + '</div>' : '') + '<div class=r-f><b class=r-k>Fix</b>' + E(m.fix) + '</div></div>').join('');
-      else if (s.kind === "safety") {
-        const labels = { risks: "Injury risks", speed: "Application", tap: "Tap signals", release: "Release protocol", restrictions: "Training restrictions" };
-        body = v.map(([k, values]) => '<div class=r-b data-safety-' + k + '><h4>' + labels[k] + '</h4>' + (k === "speed" ? E(values) : (k === "risks" ? list(values.map((r) => r.i + ' — ' + r.sev)) : list(values, k === "release"))) + '</div>').join('');
-      }
-      // tabindex="-1" is load-bearing: a contents click calls focus({preventScroll:true}) on
-      // the section, and without it focus moves nothing. The data-<prefix>-<key> hook stays
-      // stable for the shared option/reference sheet consumers.
-      return '<section class="r-s' + (s.key === "safety" || s.key === "safety-notice" ? ' r-w' : '') + '" tabindex="-1" data-' + prefix + '-' + s.key + '="1">' + (s.label ? '<h3>' + E(s.label) + '</h3>' : '') + body + '</section>';
-    }).join('');
-  }
-  /** Article and shared sheet styles load on reading intent, or after the real
+  /** Article styles load on reading intent, or after the real
    * hand for a game preview. A failed fetch drops the promise so retry can work;
    * callers await this before painting prose to avoid an unstyled frame. */
   _ensureReadCSS() {
@@ -16048,6 +15174,19 @@ class Component extends DCLogic {
     if (perspSide === "defender") return perspBlk && perspBlk.authored && perspBlk.clips && perspBlk.clips.length ? perspBlk.clips : null;
     return (info && info.clips && info.clips.length ? info.clips : null) || (perspBlk && perspBlk.clips && perspBlk.clips.length ? perspBlk.clips : null);
   }
+  // Sections sets the one host's width before reading its natural height: 400px
+  // beside a 390px deck (60px gap + 52px Next reserve), or 358px above a 286px
+  // deck at a 390px viewport (12px gap). The 902px pair stacks when it cannot fit.
+  // Height is measured, never inferred from the practice face or arrow reserve.
+  currentFilmHeight() { return this._landFilmEl?.getBoundingClientRect().height || 0; }
+  _paintCurrentFilmWin() {
+    const footer = this._landFilmEl?.querySelector("[data-current-film-win]"); if (!footer) return;
+    const view = this.currentWinView?.() || { text: "—", stale: false, handId: this._choiceHandId };
+    footer.textContent = view.text;
+    footer.toggleAttribute("data-choice-stale", !!view.stale);
+    footer.dataset.handId = view.handId || "";
+    footer.setAttribute("aria-label", "Win " + view.text + (view.stale ? ", updating" : ""));
+  }
   // FILM RIDES ITS OWN STRIP, OUTSIDE THE CARD (v1.101.1, owner: "place the film study row aka
   // the videos outside the ng-landcard ... should be outside, immediately above it"). It is a
   // row of thumbnails that GROWS when one is played, and growing it inside a card with
@@ -16064,15 +15203,20 @@ class Component extends DCLogic {
     if (current?.isConnected && current._ngMediaIdx === idx && current._ngMediaRole === role && current.dataset.referenceFilm === referencePath) return current;
     this._clearLandFilm();
     const film = document.createElement("div");
-    film.className = "ng-landfilm";
+    film.className = "ng-landfilm ng-current-card";
     film.setAttribute("data-land-film", "1");
     // width/padding are a FIRST-FRAME GUESS only — _dockLandFilm immediately overwrites both
     // from the card's measured box, which is the one source of truth (see it for why).
     film.style.cssText = "position:fixed;left:50%;transform:translateX(-50%);z-index:5;width:min(520px,calc(100vw - 32px));padding:0 15px;pointer-events:auto;";
-    film.innerHTML = this.filmStudyHTML(filmClips, true);
-    // UNDER THREE CLIPS THE ROW CENTRES (v1.171.1, owner): one or two left-aligned thumbnails
-    // left the strip's right half empty, with the ✕ stranded at the far edge.
-    if (filmClips.length < 3) { const row = film.querySelector(".ng-cliprow"); if (row) row.style.justifyContent = "center"; }
+    // A reference film is seatless (sections): it names no game node, seat or Win %, and its watch
+    // earns no gameplay credit. The game's current card keeps the video-card face (U8).
+    const shown = referencePath ? null : this.nodes[this._landIdx ?? this.currentPos];
+    film._ngVideoNode = shown;
+    const seat = referencePath ? null : shown?.ty === "positions" ? this.playedRole(shown) : this._landPerspSide(shown) || "attacker";
+    film.innerHTML = (referencePath ? "" : '<header class="ng-current-title">' + this.choiceShape(shown) + '<span>' + this.choiceEscape(shown ? this.graphName(shown) : "Current move") + '</span></header>')
+      + this.filmStudyHTML(filmClips, true)
+      + (seat ? '<footer><span>' + this.choiceEscape(seat[0].toUpperCase() + seat.slice(1)) + '</span><span class="ng-current-stat"><span>Win %</span><strong data-current-film-win>—</strong></span></footer>' : "");
+    film.toggleAttribute("data-single-video", filmClips.length === 1);
     // ARROWS (v1.217.0, owner 2026-10-02): the deck's chevrons, one at each end of the row, shown only
     // toward hidden clips (`_syncFilmEdges`), so the left one is hidden at the start. Appended before
     // the ✕, which therefore paints over an arrow wherever the two could ever touch.
@@ -16086,6 +15230,10 @@ class Component extends DCLogic {
         film.appendChild(arrow);
       }
       row.addEventListener("scroll", () => this._syncFilmEdges(), { passive: true });
+      row.addEventListener("keydown", e => {
+        if (e.target.closest(".ngPlayerHost") || !["ArrowLeft", "ArrowRight"].includes(e.key)) return;
+        e.stopPropagation(); e.preventDefault(); this._filmPage(e.key === "ArrowRight" ? 1 : -1);
+      });
     }
     const xb = document.createElement("button");
     xb.type = "button";
@@ -16103,6 +15251,7 @@ class Component extends DCLogic {
     this._landFilmEl = film;
     film._ngMediaIdx = idx; film._ngMediaRole = role;
     if (referencePath) film.dataset.referenceFilm = referencePath;
+    this._paintCurrentFilmWin();
     // `_dockLandFilm`'s top clamp reads this strip's HEIGHT, so a height change without a dock left
     // it stale: a rotation resizes `.ng-clip` via a media rule while its inline .34s height
     // transition runs, the resize dock measured it mid-flight (98 of a settled 70 at 844x390),
@@ -16110,7 +15259,14 @@ class Component extends DCLogic {
     // the full game's 18px-taller hand). Re-dock on the strip's own resize — except while a clip
     // plays (collapseClip re-docks that). A dock moves the strip, never resizes it: no loop.
     if (typeof ResizeObserver !== "undefined") {
-      film._ngRO = new ResizeObserver(() => { if (this._landFilmEl === film && !this._expandedClip) this._dockLandFilm(); });
+      film._ngRO = new ResizeObserver(() => {
+        const height = film.getBoundingClientRect().height;
+        if (this._landFilmEl !== film || height === film._ngHeight) return;
+        film._ngHeight = height;
+        // Layout may establish a new slot width. Run outside the observer
+        // delivery, and only after a real height change, to avoid resize loops.
+        requestAnimationFrame(() => { if (this._landFilmEl === film && film.isConnected) this._reader?.layout(); });
+      });
       film._ngRO.observe(film);
     }
     this.wireClips(film, filmClips);
@@ -16270,15 +15426,13 @@ class Component extends DCLogic {
     const lost = (focused === prev && prev.hasAttribute("data-off")) || (focused === next && next && next.hasAttribute("data-off"));
     if (lost) { const other = focused === prev ? next : prev; if (other && !other.hasAttribute("data-off")) other.focus({ preventScroll: true }); }
   }
-  // One arrow press moves about one VIEW of clips: the row's width less its two fades, so the clip
-  // that was half-faded at the far edge ends up fully in view. The row's one animator is
+  // One arrow press glides one clip: its width plus the 8px gap (feat/video-cards). The row's one animator is
   // `tweenScroll` (which expandClip also drives), so an arrow and a clip expansion never write
   // scrollLeft against each other; under reduced motion the row jumps there instead.
   _filmPage(dir) {
     const f = this._landFilmEl, row = f && f.querySelector(".ng-cliprow");
     if (!row) return;
-    const fade = (parseFloat(f.style.getPropertyValue("--film-fade")) || parseFloat(getComputedStyle(f).getPropertyValue("--film-fade")) || 0);
-    const delta = dir * Math.max(1, row.clientWidth - 2 * fade);
+    const delta = dir * Math.max(1, (row.querySelector(".ng-clip")?.getBoundingClientRect().width || row.clientWidth) + 8);
     const reduce = this._reducedMotion();
     if (reduce) {
       if (this._scrollRaf) { cancelAnimationFrame(this._scrollRaf); this._scrollRaf = 0; }
@@ -16475,7 +15629,7 @@ class Component extends DCLogic {
   _cardHit(oc, numEl, was, now, word) {
     const h = this._outcomeHit;
     if (!h || performance.now() - h.t > 1600 || h.hit.has(oc.card) || oc.opt.threat) return;
-    const a = /^(\d+)%$/.exec(String(was).trim()), b = /^(\d+)%$/.exec(String(now).trim());
+    const a = /^(\d+)%?$/.exec(String(was).trim()), b = /^(\d+)%?$/.exec(String(now).trim());
     if (!a || !b) return; // "—", "<1%", ">99%": no honest integer delta to show
     const d = Number(b[1]) - Number(a[1]);
     if (!d || (h.tone === "bad") !== (d < 0)) return;
@@ -16495,7 +15649,7 @@ class Component extends DCLogic {
       const step = (ts) => {
         if (numEl.textContent !== mine) return; // someone repainted it since: their value stands
         const k = Math.min(1, (ts - t0) / dur);
-        mine = numEl.textContent = k < 1 ? Math.round(from + (to - from) * k) + "%" : now;
+        mine = numEl.textContent = k < 1 ? String(Math.round(from + (to - from) * k)) : now;
         if (k < 1) requestAnimationFrame(step);
       };
       requestAnimationFrame(step);
@@ -16597,8 +15751,7 @@ class Component extends DCLogic {
   // NB there is deliberately NO second question at the technique node between commit and sweep.
   // It was built and cut: gating the sweep on a 4s window added that delay to EVERY move, and the
   // landing question already does the job the owner described — it moves the odds of the very
-  // transition or submission you are about to attempt. Peeking a move's sheet still offers the
-  // JIT micro-drill for anyone who wants to buy odds right before committing.
+  // transition or submission you are about to attempt.
 
   // ═══ P2: one-beacon guidance + panic-drill defense + guided first roll ═══
 
@@ -16669,7 +15822,7 @@ class Component extends DCLogic {
       if (!oc.opt.threat) continue;
       const el = oc.card.querySelector(".ngodds"); if (!el) continue;
       const chance = this.choiceChance(oc.opt), pct = chance == null ? null : Math.round(chance * 100);
-      el.textContent = pct == null ? "—" : pct + "%";
+      el.textContent = pct == null ? "—" : String(pct);
       el.style.color = this.choiceOddsColor(pct, oc.opt.threat);
       this._paintEdge(oc);
     }
@@ -16972,32 +16125,17 @@ class Component extends DCLogic {
   // those bars run on wall clock, so during a checkpoint quiz or a paused pane they keep draining
   // while the clock is stopped — a pre-existing desync the coach happened to be immune to. Not
   // fixed here, disclosed rather than silently inherited.
-  // ── programmatic film-study open (journey rail + the sheet's auto-expand seam): expand clip
-  // i of the open sheet. In test mode with no clips loaded (journeys abort the dossier payload),
-  // a stub clip + synthetic card exercise the full player pipeline against the page's YT stub. ──
-  watchShort(i) {
-    i = i || 0;
-    const panel = this.optDetailRef.current;
-    let card = panel ? panel.querySelectorAll(".ng-clip")[i] : null;
-    let clip = this._curClips && this._curClips[i];
-    if ((!card || !clip) && this.isTest()) {
-      clip = clip || { id: "stub-clip-" + i, title: "stub", start: 0, end: 20, vertical: true };
-      if (!card && panel) { card = document.createElement("button"); card.className = "ng-clip"; card.style.cssText = "position:relative;width:126px;height:170px;"; panel.appendChild(card); }
-    }
-    if (!card || !clip) return false;
-    this.expandClip(card, clip);
-    // film-study first look: +4% on THIS technique the first time you watch one of its Shorts
-    const ctxNode = this._detailCtx && this._detailCtx.opt && this._detailCtx.opt.node;
-    if (ctxNode) {
-      this._filmLook = this._filmLook || {};
-      if (!this._filmLook[ctxNode.t]) {
-        this._filmLook[ctxNode.t] = 1;
-        this._publishKnowledge("film-look");
-        this.fx("film_first_look", { technique: ctxNode.t });
-        if (panel) this._pumpOdds(panel, ctxNode);
-      }
-    }
-    return true;
+  // Film first-look is the existing once-per-technique modifier, not a grade.
+  // Explicit playback owns it now; opening Watch/Read or loading a poster never
+  // buys odds. Source keys and the knowledge law are unchanged.
+  _filmFirstLook(node) {
+    if (!node || node.ty === "positions") return;
+    this._filmLook = this._filmLook || {};
+    if (this._filmLook[node.t]) return;
+    this._filmLook[node.t] = 1;
+    this._publishKnowledge("film-look");
+    this.fx("film_first_look", { technique: node.t });
+    this.refreshOptionOdds();
   }
 
   // ── P3 opponent ladder: a persistent rank staked at every roll intro. Wins climb, taps drop. ──
@@ -17967,8 +17105,7 @@ class Component extends DCLogic {
     if (!this._readerIntent) this.fx("options_dealt", { count: opts.length });
     // WARM THE NEIGHBOURHOOD (v1.80.4) — one macrotask LATER, so it cannot compete with drawing
     // the hand. These are the decks the player is about to need: this state's own, and one per
-    // option card (the JIT drill behind each option, and the landing question wherever they go
-    // next), ~6KB each. Deferring by a tick is not cosmetic: fired inline, these fetches were on
+    // option card (the landing question wherever they go next), ~6KB each. Deferring by a tick is not cosmetic: fired inline, these fetches were on
     // the bytes-to-first-hand bill and delayed the very cards they exist to support.
     //
     // ── THE HAND UNCAPPED; THIS DID NOT (v1.123.0) ────────────────────────────────────────────
@@ -18228,26 +17365,15 @@ class Component extends DCLogic {
     }
     if (d.remaining <= 0) this._expireLandQ();
   }
-  // Phase 1 input: a choice executes; inspection is explicit. Physical Digit codes keep
-  // Shift+1 usable when event.key is "!" (or a layout-specific shifted character).
+  // v1.230.0 reverses v1.218.1's shifted-digit Inspect route.
   optionKeyIndex(e) {
-    if (e.altKey || e.ctrlKey || e.metaKey) return -1;
-    const digit = e.shiftKey && /^Digit[1-9]$/.test(e.code || "") ? e.code.slice(-1) : e.key;
-    return /^[1-9]$/.test(digit || "") ? Number(digit) - 1 : -1;
+    if (e.shiftKey || e.altKey || e.ctrlKey || e.metaKey) return -1;
+    return /^[1-9]$/.test(e.key || "") ? Number(e.key) - 1 : -1;
   }
-  // THE CARD IS THE MOVE, INSPECT IS THE BUTTON (v1.218.1, owner 2026-10-05: "any click on that card
-  // works as inspect and that shouldnt be so, it's a choice i just chose, not to inspect but to
-  // move"). An ESCAPE is your own choice and obeys the Phase 1 contract like every other: the card
-  // (and its plain digit) executes; Inspect (and Shift+digit) opens its preview. Escapes were
-  // preview-first since v1.176.0, when they had no Inspect control and the preview's go button was
-  // the only way to read one before committing; Phase 1 gave them Inspect and kept the old route.
-  // A THREAT stays inspect-only: it is the opponent's move, never yours to play.
-  // Pinned by e2e/journeys/card-click-contract.spec.ts.
-  activateOption(opt, pick, card, inspect) {
-    if (!opt || this._execution || this._checkpoint || (this._rollHand && !this._rollHand.mounted)) return;
+  activateOption(opt, pick, card) {
+    if (!opt || opt.threat || this._choiceWatch || this._execution || this._checkpoint || (this._rollHand && !this._rollHand.mounted)) return;
     this._handTouched = true;
-    if (inspect || opt.threat) this.expandOption(opt, pick, card);
-    else if (pick) pick(opt);
+    if (pick) { this.setPaused(false); pick(opt); }
   }
   executionCard(opt) {
     const shown = (this._optionCards || []).find((c) => c.opt === opt);
@@ -18275,7 +17401,7 @@ class Component extends DCLogic {
       // otherwise clearLandCard moves the stand-in, then reader layout moves it again.
       card._ngDock = { bottom: parseFloat(cs.bottom), w: window.innerWidth, h: window.innerHeight };
       const x = shown.card.getBoundingClientRect().left - row.getBoundingClientRect().left - padL;
-      card.style.marginLeft = "clamp(" + -Math.min(padL, padR) + "px, " + x + "px, calc(100% - 150px + " + padR + "px))";
+      card.style.marginLeft = "clamp(" + -Math.min(padL, padR) + "px, " + x + "px, calc(100% - " + shown.card.offsetWidth + "px + " + padR + "px))";
     }
     face.removeAttribute("data-tech");
     face.removeAttribute("data-choice-action");
@@ -18287,13 +17413,20 @@ class Component extends DCLogic {
     card.setAttribute("aria-disabled", "true");
     // Preserve the chosen face and its status label while retiring the execute control.
     // cloneNode already dropped its handlers; the resulting status has no live buttons.
-    face.querySelectorAll("[data-choice-execute]").forEach((el) => el.replaceWith(...el.childNodes));
-    face.querySelectorAll("button, .ngbar, .ngedge").forEach((el) => el.remove());
+    face.querySelector("[data-choice-watch]")?.remove();
+    face.querySelectorAll("button").forEach(el => {
+      const fixed = document.createElement("div"); fixed.className = el.className;
+      if (el.hasAttribute("data-choice-value")) fixed.setAttribute("data-choice-value", "");
+      fixed.append(...el.childNodes); el.replaceWith(fixed);
+    });
+    face.querySelectorAll("a, .ngbar, .ngedge").forEach(el => el.remove());
+    const status = face.querySelector("[data-choice-recommended]");
+    if (status) { status.removeAttribute("data-choice-recommended"); status.setAttribute("data-cat", ""); status.textContent = ""; }
     // It has no action, but still owns its rectangle: a second click must not tap the graph
     // underneath. The tray's parent remains disabled; only this presentation catches input.
     card.addEventListener("pointerdown", (e) => e.stopPropagation());
     card.addEventListener("click", (e) => e.stopPropagation());
-    Object.assign(card.style, { position: "relative", pointerEvents: "auto", cursor: "default", width: "150px", flex: "0 0 150px", height: (shown.card.offsetHeight || 144) + "px" });
+    Object.assign(card.style, { position: "relative", pointerEvents: "auto", cursor: "default", width: shown.card.offsetWidth + "px", flex: "0 0 " + shown.card.offsetWidth + "px", height: (shown.card.offsetHeight || 176) + "px" });
     Object.assign(face.style, { pointerEvents: "none", cursor: "default", transform: "none", transition: "none", opacity: "1", width: "100%" });
     return card;
   }
@@ -18460,7 +17593,7 @@ class Component extends DCLogic {
   // without listing tables, so nothing changes), else one cached overlay per (node, listing), so a
   // dealt card keeps one identity. Pure logic is ngKnowledgeCalAt (knowledge-profile.src.js), shared
   // with the adapter and FLOW. Readers: optionsFor, resolve/tensionSweep (via _actOf), _evShift,
-  // opponentDefend, and the option sheet (_sheetInfo).
+  // and opponentDefend.
   _at(n, hereId) {
     const v = ngKnowledgeCalAt(n, hereId);
     if (v === n) return n;
@@ -18480,18 +17613,6 @@ class Component extends DCLogic {
     const row = (node.cal.outcomes || []).find((o) => o.result === "success" && o.to !== "game-over");
     const r = row ? this.resolveOutcomeTo(row.to) : null;
     return r && r.idx >= 0 ? this.canonicalState(r.idx, r.role || role) : this.resultPos(k, posIdx);
-  }
-  // the option sheet's "Where it leads" is the table you are about to play (owner ruling D4, OCPRB2):
-  // the listing's own when the card was dealt from one, in the dossier's row shape
-  // (_neural_content._technique_dossier); otherwise the dossier, untouched
-  _sheetInfo(n, info) {
-    if (!info || !n || n.here == null || !n.cal || !Array.isArray(n.cal.outcomes)) return info;
-    const tone = { success: "good", failure: "bad", counter: "mid" };
-    const pos = (to) => to === "game-over" ? "Game Over" : String(to || "").split("/")[0];
-    const sr = n.cal.successRate;
-    return { ...info, successRate: typeof sr === "number" ? Math.round(sr) : info.successRate,
-      outcomes: n.cal.outcomes.map((o) => ({ result: o.result ? o.result[0].toUpperCase() + o.result.slice(1) : "Outcome",
-        position: pos(o.to), prob: o.probability, tone: tone[o.result] || "mid" })) };
   }
   // success = the calibrated base (page==graph==game) shifted by your modifiers (skill + drilling)
   // vs the opponent's resistance. Falls back to the old dominance heuristic only for uncalibrated nodes.
@@ -18686,8 +17807,8 @@ class Component extends DCLogic {
   orderScore(opt) { return this.moveEdge(opt); }
   // THE HAND'S ORDER IS FROZEN AT DEAL TIME. Every field this compares is a value stamped onto
   // the opt by optionsFor at the moment the cards were dealt — never a live read. `moveChance`
-  // carries your drilling bonus, so a JIT grade taken mid-decision (which is a FEATURE: it moves
-  // the odds and the EDGE you can see) would otherwise re-rank the hand under the player's hand
+  // carries your drilling bonus, so a study grade taken mid-decision would otherwise
+  // re-rank the hand under the player's hand
   // while they are reaching for a card. The displayed numbers move; the cards do not.
   // Documented rank: EDGE desc → odds desc → attempt% desc → name asc, all four deterministic.
   _cmpRelaxed(a, b) {
@@ -19971,7 +19092,7 @@ class Component extends DCLogic {
       // timed card and film; a new sibling cannot fix suppression while remaining
       // dead to a real mouse. The option sheet, minimized-layer dock and hand ✕ complete the
       // current fixed-control set.
-      for (const ov of [...this._landSurfaces(), this.optDetailRef && this.optDetailRef.current,
+      for (const ov of [...this._landSurfaces(),
         this._layerDockEl, this._handCloseEl, this._readerEl, this._readerTocEl]) {
         if (ov && e.target && ov.contains(e.target)) return;
       }

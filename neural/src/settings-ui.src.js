@@ -338,8 +338,7 @@ renderSettings() {
       const rows = [
         ["Answer a multiple-choice question", ["A", "B", "C"]],
         ["Execute option", ["1\u20139"]],
-        ["Inspect option", ["Shift + 1\u20139"]],
-        ["Execute from detail", ["\u23ce", "X"]],
+        ["Choose the focused move or open its video", ["Tab", "\u23ce"]],
         // THE FLASHCARD ROWS COVER ALL FOUR DECK SURFACES (v1.175.0): the study takeover, the
         // roll history's inline decks, the inline session queue and — new here — the Challenges
         // corridor's lesson decks. One vocabulary, because there is one handler and one

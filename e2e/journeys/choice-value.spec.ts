@@ -3,6 +3,8 @@ import { journey } from '../dsl'
 import { createHash } from 'node:crypto'
 import { readFileSync } from 'node:fs'
 
+// v1.230.0 reverses v1.218.1 Inspect and v1.220.0 sheet/score layout.
+// Value freshness, order, identity and playable-unavailable contracts are retained.
 test.beforeAll(async ({ request }) => {
   for (const file of ['neural.js', 'neural.css', 'choice-values.js']) {
     const response = await request.get('/static/neural/app/' + file)
@@ -135,14 +137,9 @@ for (const [width, height] of [[390, 844], [1440, 900]]) {
     expect((await wins(page)).length).toBeGreaterThan(1)
     expect((await wins(page)).every(v => v === '—')).toBe(true)
     await expect(own.locator('[data-choice-value-status]')).toHaveText('Win chance unavailable')
-    // STALE CONTRACT (D-318 U4a, CI 48be3a910): the centred arrival reserves the node band, so at
-    // 390px the hand's Inspect row starts below the reader's scroll edge (y756 vs y754). Reveal it
-    // the way the browser does; the real mouse claim at its centre is unchanged.
-    await page.locator('[data-choice-group="you"] [data-tech]:first-child [data-choice-inspect]').scrollIntoViewIfNeeded()
-    await j.clickByMouse('[data-choice-group="you"] [data-tech]:first-child [data-choice-inspect]', 'Inspect unresolved value')
-    await expect(page.locator('[data-choice-value-detail]')).toContainText('unavailable for this roll')
-    await expect(page.locator('[data-go]')).toBeVisible()
-    await page.keyboard.press('Escape')
+    await expect(own.locator('[data-choice-read], footer')).toHaveCount(0)
+    await page.keyboard.press('Shift+Digit1')
+    await expect(page.locator('[data-choice-value-detail], [data-go]')).toHaveCount(0)
     await page.keyboard.press('1')
     await expect(page.locator('[data-executing-tech]')).toHaveCount(1)
     expect(errors).toEqual([])
@@ -153,15 +150,15 @@ for (const [width, height] of [[390, 844], [1440, 900]]) {
     const j = await ready(page)
     await installControlledProvider(page)
     const before = await names(page)
-    const first = page.locator('[data-choice-group="you"] [data-choice-inspect]').first()
+    const first = page.locator('[data-choice-group="you"] [data-choice-execute]').first()
     // STALE CONTRACT (D-318 U4a): on a phone the hand starts below the reader's scroll edge, so
-    // focusing Inspect natively scrolls it into view (measured 660 -> 298). The claim is about the
-    // async repaint, so the origin is taken after focus, before the values resolve.
+    // focusing a card's control natively scrolls it into view (measured 660 -> 298). The claim is about
+    // the async repaint, so the origin is taken after focus, before the values resolve.
     await first.focus()
     const origin = await page.locator('[data-choice-group="you"] [data-tech]').first().boundingBox()
     await expect(page.locator('[data-choice-value-status]')).toHaveText('Calculating win chances…')
     await page.evaluate(() => (window as any).__neural._choiceFixture.resolve(0))
-    await expect.poll(() => wins(page)).toContain('65%')
+    await expect.poll(() => wins(page)).toContain('65')
     expect(await names(page)).toEqual(before)
     const settled = await page.locator('[data-choice-group="you"] [data-tech]').first().boundingBox()
     expect(settled?.x).toBeCloseTo(origin!.x, 0)
@@ -170,19 +167,18 @@ for (const [width, height] of [[390, 844], [1440, 900]]) {
     await expect(page.locator('[data-choice-recommended]').filter({ hasText: 'Recommended' })).toHaveCount(1)
     const rects = await page.locator('[data-choice-group="you"] [data-tech]').evaluateAll(cards => cards.map(card => {
       const r = card.getBoundingClientRect(), win = card.querySelector('[data-choice-win]')!.getBoundingClientRect()
-      const footer = card.querySelector('.ngbotrow')!.getBoundingClientRect()
-      return { height: r.height, winBottom: win.bottom, footerTop: footer.top, clipped: card.scrollHeight > card.clientHeight + 1 }
+      const bottom = r.bottom
+      return { height: r.height, winBottom: win.bottom, bottom, clipped: card.scrollHeight > card.clientHeight + 1, scroll: card.scrollHeight, client: card.clientHeight, children: [...card.children].map(c => ({ tag: c.tagName, cls: c.className, h: c.getBoundingClientRect().height })) }
     }))
-    for (const r of rects) { expect(r.height).toBeCloseTo(144, 0); expect(r.winBottom).toBeLessThanOrEqual(r.footerTop + 1); expect(r.clipped).toBe(false) }
+    for (const r of rects) { expect(r.height).toBeCloseTo(176, 0); expect(r.winBottom).toBeLessThanOrEqual(r.bottom - 1); expect(r.clipped, JSON.stringify(r)).toBe(false) }
     await j.clickByMouse('[data-choice-value-sort]', 'explicit score sorting')
     expect((await names(page))[0]).toBe(before[1])
     const next = page.locator('[data-choice-group="you"] [data-choice-execute]').first()
     await expect(next).toBeFocused()
     await expect(next).toHaveAccessibleName(/Win chance 65%/)
     await page.keyboard.press('Shift+Digit1')
-    await expect(page.locator('[data-choice-value-detail]')).toContainText('The recommended future play starts with this move')
-    await expect(page.locator('[data-choice-value-detail]')).toContainText('No additional study')
-    await page.keyboard.press('Escape')
+    await expect(page.locator('[data-choice-value-detail]')).toHaveCount(0)
+    await expect(next).toHaveAccessibleName(/Win chance 65%/)
     await page.keyboard.press('1')
     await expect(page.locator('[data-executing-tech]')).toHaveAttribute('data-executing-tech', /.+/)
   })
@@ -203,7 +199,7 @@ test('@curated completed MC updates immediate odds, requests one new value snaps
   expect(await names(page)).toEqual(before)
   expect(await page.locator('[data-choice-group="you"] .ngodds').allTextContents()).not.toEqual(chance)
   await page.evaluate(() => (window as any).__neural._choiceFixture.resolve(1))
-  await expect.poll(() => wins(page)).toContain('65%')
+  await expect.poll(() => wins(page)).toContain('65')
   // SORT ONCE (owner, 2026-09-29): the first values to arrive on an untouched hand re-order it by
   // Win chance, once; answering the question is not touching the hand. The fixture values the
   // dealt second card 65% and the first 35%, the rest 20% (a tie, so they keep the dealt order).
@@ -232,9 +228,9 @@ test('@curated a re-solve after an answer keeps each card\'s last Win chance, di
   expect(question).toBeTruthy()
   await installControlledProvider(page)
   await page.evaluate(() => (window as any).__neural._choiceFixture.resolve(0))
-  await expect.poll(() => wins(page)).toContain('65%')
+  await expect.poll(() => wins(page)).toContain('65')
   const sorted = await names(page), shown = await wins(page)
-  expect(shown.every(v => /%/.test(v)), 'the first values are on every card').toBe(true)
+  expect(shown.every(v => /^\d+$/.test(v)), 'the first values are on every card').toBe(true)
   await expect(page.locator('[data-legend-win]')).toHaveAttribute('data-win-chance', /%/)
   await page.keyboard.press('ABC'[question!.correct])
   await j.expectBeat('mc_correct')
@@ -249,7 +245,7 @@ test('@curated a re-solve after an answer keeps each card\'s last Win chance, di
   // Reader"): it reads "52%…" and its aria-label is "Win chance 52%, updating".
   const cue = await stale.first().evaluate(el => ({ after: getComputedStyle(el, '::after').content, aria: el.getAttribute('aria-label'), text: el.textContent }))
   expect(cue.after, 'a stale number trails an ellipsis ("52%…")').toBe('"\u2026"')
-  expect(cue.aria, 'a stale number is announced as updating').toBe(`Win chance ${cue.text}, updating`)
+  expect(cue.aria, 'a stale number is announced as updating').toBe(`Win ${cue.text}%, updating`)
   // a stale number is not current: no suggestion, no number on the legend, no card moved
   await expect(page.locator('[data-choice-group="you"] [data-choice-recommended]').filter({ hasText: /\S/ })).toHaveCount(0)
   expect(await page.locator('[data-legend-win]').getAttribute('data-win-chance'), 'a stale number is not current (legend)').toBeNull()
@@ -257,11 +253,12 @@ test('@curated a re-solve after an answer keeps each card\'s last Win chance, di
   // the new values land undimmed; the hand already sorted once, so a new best does not move a card
   const n = shown.length
   await page.evaluate((n) => (window as any).__neural._choiceFixture.resolve(1, [.8, ...Array(n - 1).fill(.1)]), n)
-  await expect.poll(() => wins(page)).toContain('80%')
+  await expect.poll(() => wins(page)).toContain('80')
   await expect(stale).toHaveCount(0)
   const fresh = await page.locator('[data-choice-group="you"] [data-choice-win]').first().evaluate(el => ({ after: getComputedStyle(el, '::after').content, aria: el.getAttribute('aria-label') }))
-  expect(fresh, 'a current number has no ellipsis and no "updating"').toEqual({ after: 'none', aria: null })
-  await expect(page.locator('[data-choice-value-status]')).toHaveText('This roll · your practice')
+  expect(fresh.after, 'a current number has no ellipsis').toBe('none')
+  expect(fresh.aria).not.toContain('updating')
+  await expect(page.locator('[data-choice-value-status]')).toHaveText('')
   expect(await names(page)).toEqual(sorted)
   // a new deal has no previous numbers: it starts from "—"
   await page.keyboard.press('1')
@@ -288,38 +285,25 @@ for (const mutate of ['role', 'ruleset', 'clock', 'profile']) {
 }
 
 for (const width of [390, 1440]) {
-  test(`@curated defender Inspect has the same outcome vector and preserves escape identity at ${width}px`, async ({ page }) => {
+  test(`@curated defender card preserves its own odds and escape identity at ${width}px`, async ({ page }) => {
     await page.setViewportSize({ width, height: 900 })
     const j = await ready(page, true)
     await installControlledProvider(page)
     const labels = await names(page)
     await page.evaluate(() => (window as any).__neural._choiceFixture.resolve(0))
-    await expect.poll(() => wins(page)).toContain('65%')
+    await expect.poll(() => wins(page)).toContain('65')
     // Both escapes carry the SAME data-tech (one technique, two defenses), so identity is the
     // card's title. The hand sorted itself once: the fixture's 65% escape (dealt second) leads.
     const tray = await page.locator('[data-choice-group="you"] .ngchoice-title').allTextContents()
     expect(tray.map(t => t.trim()), 'sorted once: the 65% escape first').toEqual(['Stack escape', 'Posture up'])
+    const chosen = page.locator('[data-choice-group="you"] [data-tech]').first()
+    await expect(chosen.locator('[data-choice-read]')).toHaveCount(0)
     await page.keyboard.press('Shift+Digit1')
-    await expect(page.locator('[data-choice-preview]')).toContainText('Stack escape')
-    await expect(page.locator('[data-choice-value-detail]')).toContainText('Win chance')
-    await expect(page.locator('[data-choice-value-detail]')).toContainText('Loss')
-    await expect(page.locator('[data-choice-value-detail]')).toContainText('No result')
-    for (const selector of ['[data-choice-close]', '[data-choice-go]']) {
-      const box = await page.locator(selector).boundingBox()
-      expect(box?.height).toBeGreaterThanOrEqual(44)
-      expect(box?.width).toBeGreaterThanOrEqual(44)
-      expect(box!.x).toBeGreaterThanOrEqual(0)
-      expect(box!.x + box!.width).toBeLessThanOrEqual(width)
-    }
-    await page.keyboard.press('Escape')
+    await expect(page.locator('[data-choice-preview]')).toHaveCount(0)
     expect(await names(page)).toEqual(labels)
     await j.rig('escape', [0])
-    await page.keyboard.press('Shift+Digit1')
-    // At phone height the sheet is its own scroll surface (the collectible banner sits above it):
-    // a player scrolls it. clickByMouse refuses to scroll, so scroll the SHEET, then prove nothing
-    // covers the button where it then sits.
-    await page.locator('[data-choice-go]').scrollIntoViewIfNeeded()
-    await j.clickByMouse('[data-choice-go]', 'execute the inspected escape')
+    await chosen.locator('.ng-choice-title-button').scrollIntoViewIfNeeded()
+    await j.clickByMouse('[data-choice-group="you"] [data-tech]:first-child .ng-choice-title-button', 'choose the identified escape')
     await j.advance(4000)
     // Stack escape's authored destination; Posture up would have landed in open-guard.
     expect(await page.evaluate(() => (window as any).__neural.nodes[(window as any).__neural.currentPos].posId)).toBe('half-guard')
@@ -347,15 +331,15 @@ for (const defense of [false, true]) {
     await ready(page, defense)
     await installControlledProvider(page, .001)
     await page.evaluate(() => (window as any).__neural._choiceFixture.resolve(0))
-    await expect.poll(() => wins(page)).toContain('65%')
+    await expect.poll(() => wins(page)).toContain('65')
     const own = page.locator('[data-choice-group="you"]')
     const before = await own.locator('.ngodds').allTextContents()
-    expect(before).toContain('<1%')
+    expect(before).toContain('<1')
     if (!defense) {
       // an entry prints the finish it leads to ("Works"), never its certain step (v1.213.0)
       const entry = own.locator('[data-tech]').filter({ has: page.locator('[data-immediate-label]', { hasText: 'Works' }) })
       expect(await entry.count()).toBeGreaterThan(0)
-      for (const p of await entry.locator('.ngodds').allTextContents()) expect(p).toBe('<1%')
+      for (const p of await entry.locator('.ngodds').allTextContents()) expect(p).toBe('<1')
     }
     await page.evaluate(() => {
       const a = (window as any).__neural
@@ -369,7 +353,9 @@ for (const defense of [false, true]) {
     expect(await page.evaluate(() => (window as any).__neural._choiceFixture.pending.length)).toBe(1)
     const label0 = (await own.locator('[data-immediate-label]').first().textContent())!.trim()
     await page.keyboard.press('Shift+Digit1')
-    await expect(page.locator('[data-choice-value-detail]')).toContainText((label0 === 'Works' ? 'Works ' : 'chance now: ') + before[0])
+    await expect(page.locator('[data-choice-value-detail]')).toHaveCount(0)
+    await expect(own.locator('[data-immediate-label]').first()).toHaveText(label0)
+    expect(await own.locator('.ngodds').allTextContents()).toEqual(before)
   })
 }
 
@@ -379,9 +365,9 @@ test('@curated a failed calculation explains the error while keeping the move ex
   await expect(page.locator('[data-choice-value-status]')).toHaveText('Win chance unavailable')
   expect((await wins(page)).every(v => v === '—')).toBe(true)
   await page.keyboard.press('Shift+Digit1')
-  await expect(page.locator('[data-choice-value-detail]')).toContainText('Could not calculate')
-  await expect(page.locator('[data-choice-value-detail]')).toContainText('still choose this move')
-  await page.keyboard.press('Escape'); await page.keyboard.press('1')
+  await expect(page.locator('[data-choice-value-detail]')).toHaveCount(0)
+  await expect(page.locator('[data-choice-execute]').first()).toBeEnabled()
+  await page.keyboard.press('1')
   await expect(page.locator('[data-executing-tech] .ngchoice-title')).not.toBeEmpty()
 })
 
@@ -396,9 +382,8 @@ test('@curated late runtime survives load failure, retries and replacement witho
   await expect(page.locator('[data-choice-value-status]')).toHaveText('Preparing win chances…')
   expect(await page.evaluate(() => (window as any).__neural._choiceFixture.pending.length)).toBe(0)
   await page.keyboard.press('Shift+Digit1')
-  await expect(page.locator('[data-choice-value-detail]')).toContainText('You can choose a move now')
-  await expect(page.locator('[data-go]')).toBeVisible()
-  await page.keyboard.press('Escape')
+  await expect(page.locator('[data-choice-value-detail], [data-go]')).toHaveCount(0)
+  await page.locator('[data-choice-execute]').first().focus() // freeze the hand while the runtime retries
   await page.evaluate(() => (window as any).__neural.setChoiceValueRuntime(null, 'error'))
   await expect(page.locator('[data-choice-value-status]')).toHaveText('Win chance unavailable')
   expect(await names(page)).toEqual(before)
@@ -406,7 +391,7 @@ test('@curated late runtime survives load failure, retries and replacement witho
   await page.evaluate(() => { const a = (window as any).__neural; a.setChoiceValueRuntime(a._fixtureRuntime) })
   await expect.poll(() => page.evaluate(() => (window as any).__neural._choiceFixture.pending.length)).toBe(1)
   await page.evaluate(() => (window as any).__neural._choiceFixture.resolve(0))
-  await expect.poll(() => wins(page)).toContain('65%')
+  await expect.poll(() => wins(page)).toContain('65')
   expect(await names(page)).toEqual(before)
   await page.evaluate(() => { const a = (window as any).__neural; a.prep = { 'different-profile|Top': 1 }; a.refreshChoiceValues() })
   await expect.poll(() => page.evaluate(() => (window as any).__neural._choiceFixture.pending.length)).toBe(2)
@@ -419,7 +404,7 @@ test('@curated late runtime survives load failure, retries and replacement witho
   await expect(page.locator('[data-choice-group="you"] [data-choice-win]:not([data-choice-stale])')).toHaveCount(0)
   await expect(page.locator('[data-choice-value-status]')).toHaveText('Updating win chances…')
   await page.evaluate(() => (window as any).__neural._choiceFixture.resolve(2))
-  await expect.poll(() => wins(page)).toContain('65%')
+  await expect.poll(() => wins(page)).toContain('65')
   expect(await names(page)).toEqual(before)
   await j.advance(100)
 })
@@ -441,28 +426,18 @@ test('@curated unmount makes a late runtime and its old solve inert', async ({ p
 
 test.describe('touch choice controls', () => {
   test.use({ hasTouch: true, isMobile: true, viewport: { width: 390, height: 844 } })
-  test('@curated touch Inspect then commit preserves identity and an inert status card', async ({ page }) => {
+  test('@curated touch the empty media region commits its move and preserves an inert status card', async ({ page }) => {
     const j = await ready(page)
     const card = page.locator('[data-choice-group="you"] [data-tech]').first()
     const name = await card.locator('.ngchoice-title').textContent()
     await card.scrollIntoViewIfNeeded()
-    const inspect = card.locator('[data-choice-inspect]')
+    const inspect = card.locator('[data-choice-media]')
     const p = await inspect.evaluate(el => {
       const r = el.getBoundingClientRect(), x = r.x + r.width / 2, y = r.y + r.height / 2
       return { x, y, hit: el.contains(document.elementFromPoint(x, y)) }
     })
     expect(p.hit).toBe(true)
     await page.touchscreen.tap(p.x, p.y)
-    const go = page.locator('[data-go]')
-    await expect(go).toBeVisible()
-    await expect(page.locator('[data-executing-tech]')).toHaveCount(0)
-    await go.scrollIntoViewIfNeeded()
-    const q = await go.evaluate(el => {
-      const r = el.getBoundingClientRect(), x = r.x + r.width / 2, y = r.y + r.height / 2
-      return { x, y, hit: el.contains(document.elementFromPoint(x, y)) }
-    })
-    expect(q.hit).toBe(true)
-    await page.touchscreen.tap(q.x, q.y)
     await expect(page.locator('[data-executing-tech] .ngchoice-title')).toHaveText(name!)
     await expect(page.locator('[data-executing-tech] button')).toHaveCount(0)
     await j.advance(100)
@@ -470,17 +445,16 @@ test.describe('touch choice controls', () => {
 })
 
 
-test('@curated Enter on a focused Inspect control keeps its own action instead of executing the roll', async ({ page }) => {
-  const j = await ready(page)
-  await page.keyboard.press('Shift+Digit1')
+test('@curated Enter on the focused card commits its move; choice groups remain separate', async ({ page }) => {
+  await ready(page)
+  const card = page.locator('[data-choice-group="you"] [data-tech]').first()
+  const name = await card.locator('.ngchoice-title').textContent()
   const before = await page.evaluate(() => ((window as any).__neural.beats || []).filter((b: any) => b.beat === 'commit').length)
-  await page.locator('.ng-bsuc-edit').focus()
-  await page.keyboard.press('Enter')
-  await expect(page.locator('.ng-bsuc-steps')).toBeVisible()
-  expect(await page.evaluate(() => ((window as any).__neural.beats || []).filter((b: any) => b.beat === 'commit').length)).toBe(before)
-  await page.keyboard.press('Escape')
-  await j.advance(500)
   const groups = await page.locator('[data-choice-group]').evaluateAll(groups => groups.map(g => ({ left: g.getBoundingClientRect().left, right: g.getBoundingClientRect().right })))
   expect(groups.length).toBeGreaterThan(1)
   expect(groups[0].right).toBeLessThanOrEqual(groups[1].left)
+  await card.locator('[data-choice-execute]').focus()
+  await page.keyboard.press('Enter')
+  expect(await page.evaluate(() => ((window as any).__neural.beats || []).filter((b: any) => b.beat === 'commit').length)).toBe(before + 1)
+  await expect(page.locator('[data-executing-tech] .ngchoice-title')).toHaveText(name!)
 })

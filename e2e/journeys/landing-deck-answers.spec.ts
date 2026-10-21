@@ -59,7 +59,7 @@ const cards = (page: Page) =>
     })),
   ) as Promise<Card[]>;
 const pct = (s: string) => {
-  const m = /^(\d+)%$/.exec(s);
+  const m = /^(\d+)$/.exec(s);
   return m ? Number(m[1]) : null;
 };
 const causes = (page: Page) => page.evaluate(() => Array.from(document.querySelectorAll(".ng-cause")).map((e: any) => (e.textContent || "").trim()));

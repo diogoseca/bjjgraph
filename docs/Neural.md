@@ -108,20 +108,18 @@ article. See [Reading delivery](Architecture.md#reading-delivery) for source and
 once and `paint()`s the pair the state calls for, so revealing is not destructive: you can cover
 the answer and try again before committing to a grade. **Space toggles** the live block — the app
 publishes it as `this._recall`, the way `this._mc` carries A/B/C — and refuses one that has left
-the screen or is inert behind the pane or option sheet (`_recallLive`). An open pane owns keyboard
+the screen or is inert behind the pane or video viewer (`_recallLive`). An open pane owns keyboard
 shortcuts; exposed landing controls still accept pointers. Grading releases the key. Space goes to a study surface and a
 focused mini-row first.
 
 **Recall comes with rank** (v1.133.0): from BLUE belt up (`_recallInPlayNow`; the WORN belt since
 v1.211.0, §8 — never a Game Knowledge band), a stage-2+ card
 asks as timed recall Q/A in play; below blue, recognition-first MC holds. **That rank gate prices
-a question asked against a running CLOCK, and only those.** The two paused study surfaces — the
-node card and the option sheet's JIT micro-drill — take `askFormat` instead: recognition below
-stage 2, recall at or above it, whatever the belt. `expandOption` pauses motion and declines the
-landing question, so the JIT has no clock to price. The black-belt badge
+a question asked against a running CLOCK, and only those.** The paused node study card takes
+`askFormat` instead: recognition below stage 2, recall at or above it, whatever the belt. The black-belt badge
 still force-enables the toggle early. **The White Challenges cue card is retired** (owner) — the
 challenge engine and the pane's Challenges tab are untouched; `renderChallengeCue` survives as a
-remover. **Win chance explains itself** in its tooltip and in Inspect (§4).
+remover. **Win chance explains itself** in the score tooltip (§4).
 
 **Technique navigation** keeps the chosen node's camera (`camFocus`), URL (`_syncUrl`),
 focus, flare and card; the roll's seat remains its origin position. `_stagedTech = {idx, side}`
@@ -165,16 +163,17 @@ The card **backfills**: `_landBackfill()` re-renders a live card when a late pay
 only one that has never shown a question, on the current position, with a live decision window —
 re-mounting an answered question would hand out a second attempt at credit already scored.
 
-The film has one `.ng-landfilm` host, moved between game and article slots (see Reading
-delivery). Its ghost ✕ (`data-film-close`) hides while a clip expands. The row scrolls like the
-hand: no scrollbar, earned fades (`_syncEdgeFade`), and `data-film-prev/next` chevrons toward
-hidden clips. `_filmPage` glides about one view; end padding is 1x the side-padding token and
-fade 3x. **Technique films** come from `perspectives.{attacker,defender}.clips`; the node's fixed half
-selects them on reader/link arrivals and live catches. `renderLandCard` assigns `_landIdx`
-before selection. Missing or unauthored defender clips show no reel and never borrow another
-half's content. At v1.227.0, 285/290 concrete submissions have defender clips. Gaps: Americana,
-Armbar and Kimura from Triangle Control; Achilles Lock from Inside Ashi-Garami; Suloev Stretch
-from Half Guard. All five have authored defender blocks; no clips were added.
+The current media card (`.ng-landfilm`) is the film's one host. It shares the game's scrollport and
+moves between game and article slots (see Reading delivery). Its ghost ✕ (`data-film-close`) hides
+while a clip expands. Its reel has no scrollbar, earned fades (`_syncEdgeFade`) and
+`data-film-prev/next` chevrons toward hidden clips; each press glides one clip (`_filmPage`).
+**Technique films** come from their own `perspectives.{attacker,defender}.clips`; the node's fixed
+half selects them on reader/link arrivals and live catches. `renderLandCard` assigns `_landIdx`
+before selection. Missing or unauthored defender clips show no reel and never borrow another half's
+content. Position clips use the half-local array followed by explicitly tagged hub clips,
+deduplicated by video ID. At v1.227.0, 285/290 concrete submissions have defender clips. Gaps:
+Americana, Armbar and Kimura from Triangle Control; Achilles Lock from Inside Ashi-Garami; Suloev
+Stretch from Half Guard. All five have authored defender blocks; no clips were added.
 **Recognition comes first, everywhere** (v1.132.2, owner: "It should have shown me multiple
 choice … then I finally start to show actual Anki flashcards"): the emitter's `_hard_clip` bridge
 makes every display answer one-line-comparable (word-boundary ≤150 + ellipsis, full text in `d`),
@@ -194,30 +193,32 @@ the trap tier unreachable corpus-wide with every gate still green — then rotat
 fills the last slot. Display order is still the `…-mc-shuffle` shuffle. Pinned by
 `mc-oneline.spec.ts`; full story in the archive.
 
-### The JIT drill follows the format ladder
+### Choosing a move and watching its video
 
-The in-sheet micro-drill (`[data-jit]`) was the last surface that only ever asked one way. It now
-asks through `askFormat`, like the node card: an unproven card deals MC (`[data-jit-mc-opt]`, tags
-`jit-mc-pick`/`jit-mc-shuffle`, so it can never eat the bare `mc-*` queue journeys rig by name); a
-card at its MC cap reads back as the reveal → "Got it" rung it always had; a cold distractor pool
-falls back to recall with ONE warm attempt per deck (`_jitWarmTried`). Right pumps the odds and
-deals the next card, wrong pumps nothing and offers `[data-jit-next]` — the sheet is paused, and a
-read answer should not strand the drill. Credit is `_mcAnswer`'s alone (`banked()` carries the pump
-and the beacon, never credit), so a graded card counts once; closing the sheet hands the A/B/C keys
-back (`_handBackMc`, the dossier's idiom). Gated by `e2e/journeys/jit-format.spec.ts`; the economy
-journeys grade format-agnostically through the DSL's `jitGrade()`.
+v1.231.0 (`feedback_owner_rules_reverse_shipped_contracts`): **Your move** replaces Inspect
+and its option sheet; the reversal history is in the archive. A title sits above the first clip
+only if it has `front: true` in the move's own role. Otherwise the media region stays empty.
+Escape choices never borrow destination footage.
 
-### Executing and inspecting an option
+The 176px card commits once anywhere except its centered 44px **play circle**, which opens
+the viewer without committing or autoplaying. D-318 removes the Choose/Read footer. Digits
+1–9 sit inside the title's category shape: diamond transition, triangle submission, circle
+position. Current-node cards use the shape without a digit. Move / Works / Submit / Escape %
+and Win % keep their meaning. Plain digits commit; dragging and shifted digits do nothing.
+Hidden hands, text entry, reading, a viewer and the visible quiz retain keyboard priority.
+Threat cards can offer eligible playback but cannot execute.
 
-Clicking an own option or pressing its plain digit (1–9) commits it once. The focusable
-**Inspect** button and **Shift+1–9** open its existing detail sheet without committing;
-shifted keys use their physical Digit code so keyboard layouts do not lose inspection.
-Enter/X still executes from that sheet. Escapes obey the same contract (v1.218.1, owner: "it's a
-choice i just chose, not to inspect but to move"): the card and its digit play it; Inspect and
-Shift+digit inspect it. Threats are the opponent's moves and stay inspect-only. Both inspect in the
-one option sheet (v1.220.0, `_stateChoiceSheet`), with the submission's safety notice and guide.
-Hidden hands, checkpoints, text entry and the visible quiz retain keyboard priority. Closing
-Inspect restores the pause state it found.
+Opening the viewer marks the hand touched, declines its question and pauses it without
+reordering. Closing restores focus and pause state. Close directly precedes the player:
+Shift+Tab leaves the cross-origin iframe for Close, whereas Escape inside it cannot reach
+the parent. Tab stays within the dialog.
+
+The owner dropped the Inspect/JIT drill on 2026-10-15 (question 6), including its RNG tags,
+warm-up latch and styles. Landing, node, history and Challenges decks retain `_mcAnswer`,
+`gradeRecall` and `refreshOptionOdds`. Opening a viewer awards no credit; explicit playback
+retains the once-per-technique film-look modifier. Legacy `sheet_opened` evidence and saved
+challenge keys remain, with new action copy. Cards retain Suggested / Recommended, pending
+and stale states.
 
 After commit, the live hand is cleared and a non-actionable copy of the chosen card remains,
 exactly where the card was (the row's padding, i.e. the open pane, comes off its offset), escapes
@@ -238,16 +239,30 @@ opponent handoff, round end, restaging and teardown clear card/announcer ownersh
 borrows the announcer. `tests/roll_execution.test.mjs` pins source behavior;
 `e2e/journeys/roll-execution.spec.ts` measures real input and painted clearance in a browser.
 
-### The option sheet preserves the inspected card's anatomy
+### The current node's media card
 
-The sheet keeps the tray digit/category glyph and 10px category label, with the technique's
-own 27px name and separate `from …` qualifier (`catGlyph`, `splitName`), and carries the Win
-chance detail (§4); the accessible name remains the technique name. The "on success, advances to" line appears only when `titleParts` is null:
-`opt.res` is a deal-time first-neighbor heuristic, not an authoritative destination.
+`_landFilmEl` has a fixed title, role and **Win %** footer, no execute percentage, and one
+full clip plus a 10% peek. Curated order wins over duration. Multi-clip frames are about
+241px high at 400px wide and 220px at 358px; `currentFilmHeight()` measures the actual height.
+Desktop geometry is 400px media + 60px gap + 390px practice + 52px Next reserve = 902px.
+At 390px, 358px media sits 12px above a 286px practice face (viewport minus 104px).
+The 44px deck arrows remain outside the face. Sections owns the slot; the media observer
+calls `reader.layout()` only after a measured height change and never resizes the host itself.
 
-The sheet is portalled to the root coaching plane at z:50. The landing card stays visible
-behind it. Verify actual paint order with `elementFromPoint`; `option-edge.spec.ts` and
-`coldstart-backfill.spec.ts` pin this behavior. Historical layout failures are in the archive.
+The footer consumes chrome's `currentWinView()` snapshot as `{text, stale, handId}`. It preserves
+the formatted percent, certified range or dash verbatim, adding only stale styling, an ellipsis
+and accessible “updating” wording. The map and current card never calculate separate values.
+The Win label and value align to the right edge on both card types (U8 / D-338). Posters reset
+the article image margin and keep their crop centered; an explicit choice-grid track prevents
+intrinsic image dimensions from overflowing the frame. The shared player fills its frame
+without an iframe border. Single-video and multi-video cards use the same image rule.
+
+Sections owns the normal game slot, `[data-reader-media-slot]` and the one `place(target)` move.
+Videos owns contents and playback. Native `moveBefore` preserves the player; the append fallback
+pauses through `pauseLandFilm()` and treats the old player handle as stale until a fresh Play.
+Collapse pauses and hides the section without destroying its host. Reopening never autoplays.
+Only closing a clip or changing node/role destroys it. `reading-media-placement.spec.ts` pins the
+shared ownership contract; `video-cards.spec.ts` pins the contents and real input.
 
 ### The commit hands the camera to the roll (v1.135.1)
 
@@ -309,11 +324,11 @@ Lose (red) right, mirroring `adv.cur`; category tracking is .05em so SUBMISSION 
 `optionsFor` deals **every legal move** — origin-filtered (or a `deal_here` listing, wire `alsoFrom`) and role-filtered, uncapped — ranked by
 EDGE, then sorted ONCE by Win chance (§4). The order is otherwise **frozen at deal time**: `ord` and `ordOdds` are stamped once, and `_cmpDealt`
 compares only stamped values (EDGE desc → odds desc → attempt% desc → name asc, unvalued last and
-never as 0). A just-in-time grade must move the printed numbers and must never re-sort a tray the
+never as 0). A study grade must move the printed numbers and must never re-sort a tray the
 player is already reaching into.
 
-Marks: **shape** = category (circle position, triangle submission, diamond transition) · Win
-chance · bottom-right = the immediate chance; a threat card's colour is your win chance.
+Choice cards show a direct title, approved video, immediate chance and Win chance; the shortcut
+sits inside the same category shape used on the map. A threat card's colour is your win chance.
 
 The clock times the QUESTION, never the hand (v1.133.0, owner: "pressure should not be on the
 choices … the choices are fun to click"). `decisionSec` (the "Answer time" slider, 5–15s, flat —
@@ -323,7 +338,7 @@ the v1.123.0 Hick's-law knee died with the hand clock) arms when a question moun
 highlighted, a failed SRS review, −4% and momentum broken (a later card: its smaller step) — and
 the hand stays
 live: the player still picks, untimed. Committing past an open question is a FREE SKIP, and so is
-anything that puts the question away — the ✕, a background tap, the pane, an option sheet — all
+anything that puts the question away — the ✕, a background tap, the pane or the video viewer — all
 DECLINE it (`land_q_declined`, mapped to the same funnel side-mark; momentum untouched). The
 penalty exists only for letting it expire while it faces you. **The question clock never
 pauses** (v1.134.0, owner: "that's our test to the user") — it drains on the real game frame,
@@ -398,22 +413,20 @@ deferred worker (`game-model.worker.js`; mechanics under `static/neural/mdp/`) o
 seats, gi/no-gi, move counter, momentum, sharpness, question penalty, belt verdict, `opponentDefend`. Objective `max-win/min-loss/min-nontermination`. Practice moves odds and forward
 value through ONE module (`knowledge-profile.src.js`), so a correct answer moves the numbers.
 
-- **Card**: Win chance plus the immediate chance (Move / Finish / Escape), which leads: Win chance
-  is 0.6 of its size (`NG_CARD_*`, v1.220.0), on the Inspect sheet too. A stale number (dimmed while
-  the hand re-solves) also reads "52%…" and is announced "…, updating". A submission dealt on a
-  position is an ENTRY: stepping in is certain, so its small line is **Works** and the chance of the
-  finish it leads to, as the landed state will roll it (the adapter's `followUp`) — never the
-  step's own 100% (v1.213.0, owner 2026-10-01). Inspect shows the same number and says the step
-  in words. The best card is **Suggested** (certified) or **Recommended** (exact). Tooltip and
-  Inspect decompose it exactly,
-  `P(lands)·[win | lands] + P(misses)·[win | misses]` from the engine's own rows (`ngMdpSplit`),
-  then submitted and no-tap; a split that does not reconcile is dropped.
+- **Card**: equal score columns under small labels **Move % / Works % / Submit % / Escape %** and
+  **Win %**, with whole-number values and no repeated percent sign. Certified intervals and honest
+  endpoint qualifiers stay intact. A stale value reads “52…” and is announced “…, updating”. A
+  submission entry still prints **Works**, the follow-up finish chance, never the certain step's
+  100% (v1.213.0). The best card is **Suggested** (certified) or **Recommended** (exact).
+  The tooltip retains the engine's decomposition
+  `P(lands)·[win | lands] + P(misses)·[win | misses]`; a non-reconciling split is dropped.
 - **Order**: dealt by EDGE, **sorted once** by Win chance when every card has one unless touched
   (`_handTouched`), never again; ties keep the dealt order.
 - **Threat cards**: YOUR win chance if the opponent tries that move now (threat probes,
   `threatIds`; on your submission, their escapes), most dangerous first. Defending: V(s).
-- **Legend thermometer** = V(s), the root of the same solve (`_paintWinThermometer`), painted only
-  when every card has a value: there **best card = V(s)**. Between decisions it holds, dimmed.
+- **Current Win**: the map and current media footer consume chrome's `currentWinView()`
+  (`{text, stale, handId}`), published after the existing all-values gate. No second solve or
+  formatter supplies the footer. Between decisions the shared view names its stale state.
 - **"—"** keeps the move playable: pending, failed, or over admission (40k states, 400k branches,
   10 s build, 15 s solve). Values follow the first hand (5.6 s, measured desktop).
 

@@ -69,7 +69,7 @@ const paired = (before: Card[], after: Card[]) => {
 // and 6 opponent threats. A count below a floor means the pairing or a skip stopped comparing.
 const MOVES_FLOOR = 8, THREATS_FLOOR = 6;
 const pct = (s: string) => {
-  const m = /^(\d+)%$/.exec(s);
+  const m = /^(\d+)$/.exec(s);
   return m ? Number(m[1]) : null;
 };
 const causes = (page: Page) =>
@@ -239,7 +239,7 @@ for (const vp of VIEWS) {
     const j = await setup(page, vp.width, vp.height);
     const pinned = await page.evaluate(() => {
       const a: any = (window as any).__neural;
-      const oc = (a._optionCards || []).find((o: any) => !o.opt.threat && /^\d+%$/.test((o.card.querySelector(".ngodds")?.textContent || "").trim()));
+      const oc = (a._optionCards || []).find((o: any) => !o.opt.threat && /^\d+$/.test((o.card.querySelector(".ngodds")?.textContent || "").trim()));
       if (!oc) return null;
       const keep = oc.card.querySelector(".ngodds").textContent;
       const tech = oc.card.getAttribute("data-tech");

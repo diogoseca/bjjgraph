@@ -5,9 +5,14 @@ import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
 import {
   NG_CHOICE_VALUE, ngChoiceValueController, ngChoiceValueStamp, ngChoiceValuePercent,
-  ngChoiceValueView, ngChoiceValueHTML, ngChoiceValueOrder, ngChoiceValueKnowledge,
+  ngChoiceValueView, ngChoiceValueOrder, ngChoiceValueKnowledge,
   ngChoiceValueThreatView, ngChoiceValueThreatOrder, ngChoiceValueImmediate, ngChoiceValueUpdating, NG_CHOICE_VALUE_RUNTIME,
 } from "../neural/src/choice-value.src.js";
+
+// v1.230.0 retires the v1.218.1/v1.220.0 Inspect renderer. Exercise the actual
+// card renderer while preserving controller, split, uncertainty and stale-value laws.
+const cardComponent = new Function("DCLogic", "React", readFileSync(new URL("../neural/src/app.src.jsx", import.meta.url), "utf8") + "\nreturn Component;")(class {}, { createRef: () => ({ current: null }) });
+const cardHTML = view => Object.create(cardComponent.prototype).choiceStatsHTML(view);
 
 const action = name => JSON.stringify(["mount/top", name, "transition", "back/top", "branch"]);
 const A = action("arm-drag"), B = action("pass");
@@ -282,12 +287,13 @@ test("delayed opportunity prose requires actual matching policy/contract evidenc
   assert.doesNotMatch(ngChoiceValueView(record(A, .6)).notes.join(" "), /Later opportunity/);
 });
 
-test("renderer escapes authored/profile labels and has a text label for every outcome", () => {
+test("the card escapes labels and numbers, and labels both probability columns", () => {
   const view = ngChoiceValueView(record(A, .6));
-  view.knowledge.lines = ['<img src=x onerror="alert(1)">'];
-  const html = ngChoiceValueHTML(view, true);
+  view.immediateLabel = '<img src=x onerror="alert(1)">';
+  const html = cardHTML(view);
   assert.doesNotMatch(html, /<img/); assert.match(html, /&lt;img/);
-  for (const label of ["Win chance", "Win", "Loss", "No result"]) assert.ok(html.includes(label));
+  assert.match(html, /data-immediate-label/); assert.match(html, /data-choice-win/);
+  assert.match(html, /aria-label="Win 60%"/);
 });
 
 test("the real app's first card can render with no value-module globals at all", () => {
@@ -299,10 +305,11 @@ test("the real app's first card can render with no value-module globals at all",
   assert.equal(a.choiceValueRuntime(), null);
   const opt = { node: { ty: "transitions" } }, view = a.choiceValueView(opt);
   assert.equal(view.value, "—"); assert.equal(view.immediate, "<1%");
-  assert.match(a.choiceValueHTML(view, true), /still choose this move/);
+  assert.match(view.detail, /still choose this move/);
+  assert.match(a.choiceStatsHTML(view), /data-choice-win[^>]*>—/);
   const entry = a.choiceValueView({ action: "enter", node: { ty: "submissions" } });
   assert.equal(entry.immediateLabel, "Works"); assert.equal(entry.immediate, "—");
-  assert.doesNotMatch(a.choiceValueHTML(entry, true), /100%/);
+  assert.doesNotMatch(a.choiceStatsHTML(entry), />100</);
   // The app's pre-load copy of the small line and the module's own say the same words for every kind
   // and chance: two bundles, one sentence. An entry never prints its certain step.
   let compared = 0;
@@ -314,6 +321,9 @@ test("the real app's first card can render with no value-module globals at all",
   assert.equal(a.choiceValueView(opt).status, "pending");
   a.setChoiceValueRuntime({}, "loading");
   assert.equal(a.choiceValueView(opt).status, "error");
+  a.cancelChoiceValues = a.refreshChoiceValues = () => {};
+  assert.equal(a.setChoiceValueRuntime(NG_CHOICE_VALUE_RUNTIME), true, "the reduced lazy runtime still passes the live admission gate");
+  assert.equal(a.choiceValueRuntime(), NG_CHOICE_VALUE_RUNTIME);
 });
 
 // THE TOOLTIP (owner, 2026-09-29): the engine's landed/missed regrouping is shown only when it adds
@@ -333,7 +343,6 @@ test("a reconciling split becomes the plain-words tooltip; an inconsistent one i
     "You get submitted 20% · nobody taps 20%.",
   ]);
   assert.match(v.tooltip, /^Win chance 60%\n/);
-  assert.match(ngChoiceValueHTML(v, true), /data-choice-split/);
   assert.equal(ngChoiceValueView(b, s).tooltip, undefined);
 });
 
@@ -380,16 +389,16 @@ test("threat records are validated like cards, viewed as your win chance, and so
   assert.deepEqual(ngChoiceValueThreatOrder(["T-escape", "T-sweep", "T-alien"], snap), ["T-escape", "T-sweep", "T-alien"], "an unvalued threat keeps the dealt order");
 });
 
-test("Inspect renders the app's pre-values view (runtime loaded, values still preparing) without throwing", () => {
+test("the live card renders the app's pre-values view without a loaded model", () => {
   // The app builds this short view itself while the model prepares (app.src.jsx choiceValueView)
   // and still hands it to this renderer: no outcomes, knowledge or notes. Found by
   // announcer-coherence / option-edge on the first full-suite run of the full game.
   const view = { label: "Win chance", value: "—", status: "pending", state: "Preparing…", recommended: false,
     detail: "Preparing win chances. You can choose a move now.", immediate: "38%", immediateLabel: "Move" };
-  const html = ngChoiceValueHTML(view, true);
-  assert.match(html, /data-choice-win>—</);
-  assert.match(html, /Move chance now: 38%/);
-  assert.doesNotMatch(html, /ngcv-outcomes|undefined/);
+  const html = cardHTML(view);
+  assert.match(html, /data-choice-win[^>]*>—</);
+  assert.match(html, /aria-label="Move 38%"/);
+  assert.doesNotMatch(html, /undefined/);
 });
 
 // THE LAST NUMBER STAYS WHILE THE SAME HAND RE-SOLVES (WINLAT1). The host pairs a card's pending view
@@ -409,9 +418,8 @@ test("a re-solving card keeps its last Win chance, dimmed and named as updating;
   assert.equal(shown.recommended, false); assert.equal(shown.immediate, "85%", "the move chance is the new one");
   assert.deepEqual(shown.outcomes, []); assert.equal(shown.split, null);
   // the stale number also SAYS it is updating (v1.220.0, #267 review): aria-label, and "62%…" by CSS
-  assert.match(ngChoiceValueHTML(shown), /<strong data-choice-win data-choice-stale aria-label="Win chance 62%, updating">62%<\/strong>/);
-  assert.doesNotMatch(ngChoiceValueHTML(ready), /data-choice-stale/);
-  assert.match(ngChoiceValueHTML(shown, true), /Updating…/);
+  assert.match(cardHTML(shown), /<strong data-choice-win data-choice-stale aria-label="Win 62%, updating">62<\/strong>/);
+  assert.doesNotMatch(cardHTML(ready), /data-choice-stale/);
   // nothing to keep: no previous, a previous that was not a value, or a current view that is not pending
   assert.equal(ngChoiceValueUpdating(pending, undefined), pending);
   assert.equal(ngChoiceValueUpdating(pending, pending), pending);

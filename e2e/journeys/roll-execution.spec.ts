@@ -1,3 +1,4 @@
+// v1.230.0 feedback_owner_rules_reverse_shipped_contracts: v1.218.1 Inspect and v1.220.0 sheet entry retired; execution checks retained.
 import { expect, test, type Page } from "@playwright/test"
 import { journey } from "../dsl"
 
@@ -34,24 +35,8 @@ async function transition(page: Page) {
   return opt!
 }
 
-// REAL BREAK (CI run 38841236610, e26cbba02; three local phone reproductions):
-// reader layout cleared Inspect's closing transform before its completion
-// callback restored the row. Native scrolling then moved the execution target,
-// so the second click reached the map and key 1 committed again. The forced
-// case checks transform ownership directly, before releasing that callback;
-// an assertion failure, never a delivery timeout, is its regression control.
-for (const [width, height, heldClose] of [[1440, 900, false], [390, 844, false], [390, 844, true]] as const) {
-  test(`@curated Inspect and execute are distinct real mouse actions at ${width}px${heldClose ? ' with reader layout during close' : ''}`, async ({ page }) => {
-    if (heldClose) await page.addInitScript(() => {
-      const w = window as any, native = w.setTimeout;
-      w.setTimeout = function (fn: any, ms: number, ...args: any[]) {
-        if (ms === 400 && String(fn).includes('justifyContent') && String(fn).includes('scrollLeft')) {
-          w.__finishInspectClose = () => fn(...args);
-          return native(() => {}, 0);
-        }
-        return native(fn, ms, ...args);
-      };
-    });
+for (const [width, height] of [[1440, 900], [390, 844]]) {
+  test(`@curated Empty media and Choose are distinct real mouse actions at ${width}px`, async ({ page }) => {
     await page.setViewportSize({ width, height })
     const j = await ready(page), opt = await transition(page)
     const sel = `[data-tech="${opt.name}"]`
@@ -59,36 +44,16 @@ for (const [width, height, heldClose] of [[1440, 900, false], [390, 844, false],
     const printed = await page.locator(`${sel} .ngodds`).textContent()
     const title = await page.locator(`${sel} .ngchoice-title`).textContent()
     const before = await commits(page)
-    await j.clickByMouse(`${sel} [data-choice-inspect]`, "Inspect")
-    await expect(page.locator("[data-go]")).toBeVisible()
+    await j.clickByMouse(`${sel} [data-choice-media]`, "Inert media area")
     expect(await commits(page)).toBe(before)
-    await page.keyboard.press("Escape")
-    if (heldClose) {
-      const closing = await page.evaluate(() => {
-        const w = window as any, a = w.__neural, row = a.optionsRef.current;
-        const before = row.style.transform;
-        a._reader.layoutNow();
-        return { callback: typeof w.__finishInspectClose, before, after: row.style.transform };
-      });
-      expect(closing.callback).toBe('function');
-      // D-353: the media home is observed now, so a reader layout can already have run during the close;
-      // the claim is measured here too, before the forced one.
-      expect(closing.before, 'reader must leave the closing row transform to Inspect (before its forced layout)').not.toBe('none');
-      expect(closing.after, 'reader must leave the closing row transform to Inspect').toBe(closing.before);
-      await page.evaluate(() => (window as any).__finishInspectClose());
-    }
-    await expect.poll(() => page.evaluate(() => {
-      const a = (window as any).__neural
-      return !a._detailCtx && a.optionsRef.current.style.transform === "none"
-    })).toBe(true)
-    await page.locator(sel).scrollIntoViewIfNeeded()
+    await expect(page.locator("[data-choice-inspect]")).toHaveCount(0)
     const groups = await page.evaluate(() => {
       const root = (window as any).__neural.optionsRef.current
       const own = root.querySelector('[data-choice-group="you"]').getBoundingClientRect()
       const other = root.querySelector('[data-choice-group="opponent"]').getBoundingClientRect()
       return { ownRight: own.right, opponentLeft: other.left }
     })
-    expect(groups.ownRight, "Inspect must not collapse whole hand groups into a card slot")
+    expect(groups.ownRight, "own and opponent hand groups remain separate")
       .toBeLessThanOrEqual(groups.opponentLeft)
     await j.rig("resolve", [0]); await j.rig("outcome", Array(32).fill(0))
     const click = await page.locator(`${sel} .ngchoice-title`).boundingBox()
@@ -118,10 +83,10 @@ for (const [width, height, heldClose] of [[1440, 900, false], [390, 844, false],
   })
 }
 
-test("@curated shifted digits inspect, plain digits commit, and hidden hands ignore both", async ({ page }) => {
+test("@curated shifted digits are inert, plain digits commit, and hidden hands ignore both", async ({ page }) => {
   const j = await ready(page), before = await commits(page)
   await page.keyboard.press("Shift+Digit1")
-  await expect(page.locator("[data-go]")).toBeVisible()
+  await expect(page.locator("[data-go]")).toHaveCount(0)
   expect(await commits(page)).toBe(before)
   await page.keyboard.press("Escape")
   await page.evaluate(() => (window as any).__neural.setLayer("hand", false, "test"))

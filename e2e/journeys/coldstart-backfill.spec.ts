@@ -1,5 +1,6 @@
 import { test, expect, type Page } from "@playwright/test";
 import { journey } from "../dsl";
+import { bootVideoCards, CARD } from "../fixtures/video-cards";
 
 /**
  * COLD-START BACKFILL — journey 3, Phase 2: the worst thing the Phase 1 measurement found.
@@ -206,79 +207,33 @@ test("cold start: a late dossier adds film without replacing the complete articl
   await expect(page.locator('[data-land-more]')).toHaveCount(0);
 });
 
-test("cold start: a payload arriving behind the expand sheet renders BEHIND it, visible", async ({
-  page,
-}) => {
-  // v1.136.0 (owner): the sheet no longer hides the landing card — it maximizes IN FRONT of it
-  // on the root plane (portalled, z:50 over the card's z:5). A backfilled card must therefore
-  // arrive VISIBLE, and the paint order — not a z-index integer — must put the sheet on top
-  // wherever the two overlap. elementFromPoint is the only honest oracle here (§6.3).
-  const j = journey(page);
-  await j.boot("/", { keepTutorial: true });
+// v1.230.0 reverses the v1.218.1/v1.220.0 Inspect wrapper. The same late-backfill
+// invariant belongs to Watch's native modal: the arriving question cannot steal its keys.
+test("cold start: a payload arriving behind Watch preserves the viewer and cannot answer through it", async ({ page }) => {
+  await page.setViewportSize({ width: 1366, height: 768 });
+  const j = await bootVideoCards(page);
   await withoutDecks(page);
-  await j.land("Mount Top");
-  const target = await page.evaluate(() => {
+  await j.clickByMouse(`${CARD} [data-choice-watch]`, "Watch before the deck arrives");
+  const view = page.locator('[data-choice-viewer]');
+  await expect(view).toBeVisible();
+  const before = await page.evaluate(() => {
     const a = (window as any).__neural;
-    for (const i of a.optionIdxs || [])
-      if (a.nodes[i].ty === "transitions") return a.nodes[i].t;
-    return a.nodes[(a.optionIdxs || [])[0]].t;
+    (window as any).__watchIdentity = a._choiceWatch.dialog;
+    return { commits: a.beats.filter((b: any) => b.beat === 'commit').length, answers: a.beats.filter((b: any) => b.beat === 'land_q_answered').length };
   });
-  await page.locator(`[data-tech="${target}"]`).first().locator("[data-choice-inspect]").click(); // open the sheet, do NOT execute
-  await expect(page.locator("[data-go]").first()).toBeVisible();
-
-  await decksArrive(page); // the payload lands while the sheet is up
-  await cardSettled(page); // published, and the entry animation done before opacity means anything
-
-  const stack = await page.evaluate(() => {
+  await decksArrive(page);
+  await j.landSettled();
+  expect(await page.evaluate(() => (window as any).__neural._choiceWatch.dialog === (window as any).__watchIdentity)).toBe(true);
+  await expect(view).toBeVisible();
+  await page.keyboard.press('a'); await page.keyboard.press('1');
+  expect(await page.evaluate(() => {
     const a = (window as any).__neural;
-    const card = document.querySelector(".ng-landcard") as HTMLElement;
-    const panel = a.optDetailRef.current as HTMLElement;
-    if (!card || !panel) return null;
-    const cs = getComputedStyle(card);
-    const cr = card.getBoundingClientRect(), pr = panel.getBoundingClientRect();
-    // a point inside BOTH rects — the band where the sheet must win the paint
-    const x = Math.max(cr.left, pr.left) + Math.min(cr.right, pr.right) > 2 * Math.max(cr.left, pr.left)
-      ? (Math.max(cr.left, pr.left) + Math.min(cr.right, pr.right)) / 2 : -1;
-    const y = (Math.max(cr.top, pr.top) + Math.min(cr.bottom, pr.bottom)) / 2;
-    const overlap = x >= 0 && Math.min(cr.bottom, pr.bottom) > Math.max(cr.top, pr.top);
-    const hit = overlap ? document.elementFromPoint(x, y) : null;
-    return {
-      cardVisible: cs.opacity !== "0" && cs.visibility === "visible",
-      overlap,
-      sheetWinsPaint: !!(hit && panel.contains(hit)),
-      // v1.137.0: born under an open sheet = born stood down. This is the ONLY gate on
-      // renderLandCard's `_syncDetailDim()` re-assert — a backfill builds a brand-new element with
-      // fresh, non-inert children, so nothing else re-applies the dim to it.
-      opacity: parseFloat(cs.opacity),
-      marked: card.hasAttribute("data-behind-sheet"),
-      kidsInert: card.children.length > 0 && [...card.children].every((c: any) => c.inert === true),
-    };
-  });
-  expect(stack, "card and sheet both mounted").not.toBeNull();
-  expect(stack!.cardVisible, "the backfilled card arrives VISIBLE behind the sheet").toBe(true);
-  if (stack!.overlap) expect(stack!.sheetWinsPaint, "the sheet wins the paint where they overlap").toBe(true);
-  expect(stack!.opacity, "...and DIMMED, not at full strength").toBeLessThan(1);
-  expect(stack!.opacity, "...but not hidden — this is a stand-down, not the old hide").toBeGreaterThan(0);
-  expect(stack!.marked, "the backfilled card carries the stand-down marker").toBe(true);
-  expect(stack!.kidsInert, "and its children are born inert").toBe(true);
-
-  await page.evaluate(() => (window as any).__neural.closeOptionDetail());
-  await page.waitForTimeout(400);
-  const restored = await page.evaluate(() => {
-    const card = document.querySelector(".ng-landcard") as HTMLElement;
-    if (!card) return null;
-    return {
-      opacity: getComputedStyle(card).opacity,
-      marked: card.hasAttribute("data-behind-sheet"),
-      kidsInert: [...card.children].some((c: any) => c.inert === true),
-    };
-  });
-  expect(restored!.opacity, "closing the sheet hands the backfilled card back").toBe("1");
-  expect(restored!.marked).toBe(false);
-  expect(restored!.kidsInert).toBe(false);
-  expect((await read(page)).hasQ, "carrying the question it was owed").toBe(
-    true,
-  );
+    return { commits: a.beats.filter((b: any) => b.beat === 'commit').length, answers: a.beats.filter((b: any) => b.beat === 'land_q_answered').length };
+  })).toEqual(before);
+  await page.keyboard.press('Escape');
+  await expect(view).toHaveCount(0);
+  await expect(page.locator(`${CARD} [data-choice-watch]`)).toBeFocused();
+  await expect(page.locator('[data-landcard]')).toBeVisible();
 });
 
 test("cold start: the FIRST landing carries its question, and a late payload reaches it", async ({

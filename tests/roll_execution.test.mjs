@@ -1,3 +1,4 @@
+// v1.230.0 feedback_owner_rules_reverse_shipped_contracts: v1.218.1 shifted Inspect and v1.220.0 sheet entry are retired.
 // Run the real app methods without a browser. Pointer reachability, layout and the window
 // key ladder are covered separately by roll-execution.spec.ts; these units do not prove them.
 import { test } from "node:test";
@@ -25,12 +26,12 @@ function app() {
   return a;
 }
 
-test("digits and layout-specific shifted keys map to the same option, without browser modifiers", () => {
+test("plain digits map to choices; shifted and browser-modified keys are inert", () => {
   const a = app();
   for (let i = 1; i <= 9; i++) {
     assert.equal(a.optionKeyIndex({ key: String(i) }), i - 1);
-    assert.equal(a.optionKeyIndex({ key: "!@#$%^&*("[i - 1], code: `Digit${i}`, shiftKey: true }), i - 1);
-    assert.equal(a.optionKeyIndex({ key: String(i), code: `Digit${i}`, shiftKey: true }), i - 1);
+    assert.equal(a.optionKeyIndex({ key: "!@#$%^&*("[i - 1], code: `Digit${i}`, shiftKey: true }), -1);
+    assert.equal(a.optionKeyIndex({ key: String(i), code: `Digit${i}`, shiftKey: true }), -1);
     for (const modifier of ["altKey", "ctrlKey", "metaKey"]) {
       assert.equal(a.optionKeyIndex({ key: String(i), [modifier]: true }), -1);
     }
@@ -38,16 +39,18 @@ test("digits and layout-specific shifted keys map to the same option, without br
   for (const key of ["0", "a", "Enter", ""]) assert.equal(a.optionKeyIndex({ key }), -1);
 });
 
-test("own activation commits once per guarded hand; Inspect and threats only inspect", () => {
-  const a = app(), opened = [], committed = [];
-  a.expandOption = (...args) => opened.push(args);
+test("own activation commits once; threats, viewers, hidden hands and checkpoints cannot commit", () => {
+  const a = app(), committed = [];
+  a.setPaused = () => {};
+  a.expandOption = () => assert.fail("retired Inspect route");
   const own = { idx: 1 }, card = {};
-  const pick = (opt) => { committed.push(opt); a.startExecution(opt); };
-  a.activateOption(own, pick, card, true);
-  assert.equal(opened.length, 1);
-  assert.equal(committed.length, 0);
+  const pick = opt => { committed.push(opt); a.startExecution(opt); };
   a.activateOption({ threat: true }, pick, card);
-  assert.equal(opened.length, 2, "a threat is the opponent's move: it only inspects");
+  assert.equal(committed.length, 0);
+  a._choiceWatch = {};
+  a.activateOption(own, pick, card);
+  assert.equal(committed.length, 0, "viewer owns input");
+  a._choiceWatch = null;
   a._rollHand = { mounted: false };
   a.activateOption(own, pick, card);
   assert.equal(committed.length, 0, "an unmounted forecast hand cannot commit");
@@ -61,23 +64,13 @@ test("own activation commits once per guarded hand; Inspect and threats only ins
   assert.deepEqual(committed, [own], "a second activation cannot consume another move");
 });
 
-// AN ESCAPE IS YOUR OWN CHOICE (v1.218.1, owner 2026-10-05: "it's a choice i just chose, not to inspect
-// but to move"). This file used to pin escapes as inspect-only, the v1.176.0 route Phase 1 kept.
-test("an escape card commits like any own card; its Inspect inspects", () => {
-  const a = app(), opened = [], committed = [];
-  a.expandOption = (...args) => opened.push(args);
+test("an escape card commits like any own card", () => {
+  const a = app(), committed = [];
+  a.setPaused = () => {};
+  a.expandOption = () => assert.fail("retired Inspect route");
   const escape = { idx: 2, action: "escape" };
-  const pick = (opt) => { committed.push(opt); a.startExecution(opt); };
-  a.activateOption(escape, pick, {}, true);
-  assert.deepEqual([opened.length, committed.length], [1, 0], "Inspect on an escape inspects");
-  a.activateOption(escape, pick, {});
-  assert.deepEqual(committed, [escape], "the escape card commits");
-  assert.equal(opened.length, 1, "...without inspecting");
-});
-
-test("Inspect cannot execute when its detail surface is unavailable", () => {
-  const a = app();
-  a.activateOption({ idx: 1, node: {} }, () => assert.fail("Inspect must never commit"), null, true);
+  a.activateOption(escape, opt => { committed.push(opt); a.startExecution(opt); }, {});
+  assert.deepEqual(committed, [escape]);
 });
 
 test("an open modal contains digit, Inspect, Enter and Space before the real app key ladder", () => {
@@ -311,14 +304,18 @@ test("the actual canvas sweep uses the lifted orb and freezes its needle during 
   assert.deepEqual(drawSweep(), before);
 });
 
-test("closing Inspect returns only the pause it took", () => {
+// v1.230.0: the Watch dialog replaces Inspect; borrowing pause keeps the same contract.
+test("closing Watch returns only the pause it took and restores its source focus", () => {
   for (const wasPaused of [false, true]) {
-    const a = app();
-    a.hideOptDetail = a.clearClipLoops = a._setDetailCtx = () => {};
-    a.paused = true; a._detailWasPaused = wasPaused;
-    a.closeOptionDetail();
+    const a = app(); let closed = 0, removed = 0, focused = 0;
+    a.paused = true;
+    a._choiceWatch = { wasPaused,
+      dialog: { close() { closed++; }, remove() { removed++; } },
+      source: { isConnected: true, focus() { focused++; } } };
+    a._closeChoiceWatch();
     assert.equal(a.paused, wasPaused);
-    assert.equal(a._detailWasPaused, null);
+    assert.equal(a._choiceWatch, null);
+    assert.deepEqual([closed, removed, focused], [1, 1, 1]);
   }
 });
 

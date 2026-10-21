@@ -7,6 +7,8 @@ import { legacyDefenseRenderer } from '../fixtures/legacy-defense-renderer'
 // it cannot manufacture an opponent catch. All buttons use clickByMouse. Orbs
 // are canvas drawings, so their actual _LY coordinates are hit-tested and clicked.
 // Authored clips come from THIS build, not the DSL's usual empty dossier fixtures.
+// v1.230.0 owner reversal of v1.218.1/v1.220.0: the catch fixture commits
+// through Choose; the video region is inert. All defense assertions stay intact.
 // Measured v1.227.0 mutants, all killed by the named cases below:
 // M1 cold answer invents pressure -> link/reload; M2 keeps attacker deck -> orb;
 // M3 selects attacker films -> BOTH transition and Knee Slice half tests;
@@ -119,7 +121,8 @@ async function catchLoop(page: Page, legacy = false, cold = false, before?: () =
     pick.card.setAttribute('data-defending-commit', '')
   }, { old: legacyDefenseRenderer, legacy, cold })
   if (before) await before()
-  await j.clickByMouse('[data-defending-commit]', 'commit Half Guard to Back Take')
+  await page.locator('[data-defending-commit] .ng-choice-title-button').scrollIntoViewIfNeeded()
+  await j.clickByMouse('[data-defending-commit] .ng-choice-title-button', 'choose Half Guard to Back Take')
   await j.advanceUntil('caught', 20000, 100)
   await expect(page.locator(cold ? '[data-panic-reveal]' : '[data-panic-mc-opt]').first()).toBeVisible()
   // STALE TIMING (D-351, H57): a reading-view landing stays unpublished, its clock parked, until the
