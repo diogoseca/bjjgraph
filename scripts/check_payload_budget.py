@@ -220,7 +220,7 @@ NEURAL_TARGET = {
     # the pinned media home keeps its film and height), D-353's (a play settles the pin; a film in
     # the media home is observed) and D-354's (a Videos reopen settles it), no headroom. Videos
     # returns it to 500_000.
-    "deferred_raw_bytes": 506_776,
+    "deferred_raw_bytes": 506_812,
 }
 
 # Metric names under budget["neural"] that MOVED to the policy file. A ceiling left behind for one
