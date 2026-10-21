@@ -44,7 +44,7 @@ const controls = [
   ['d352-book-rehold', 'article-sections.spec.ts', 'D-352: showing the article while its page loads',
     [['else if(!t)o.live=!0;else{', 'else if(!t);else{']], 'the live hand is never hidden again'],
   ['d351-hand-hold-removed', 'article-sections.spec.ts', 'D-351: an exchange whose article lands late',
-    [['l==null||l.toggleAttribute("data-reader-pending",a>0);return a}', 'l==null||l.toggleAttribute("data-reader-pending",!1);return a}']], 'the new hand is shown once, at its final place'],
+    [['h==null||h.toggleAttribute("data-reader-pending",a>0);return l&&a<=0', 'h==null||h.toggleAttribute("data-reader-pending",!1);return l&&a<=0']], 'the new hand is shown once, at its final place'],
   // D-354 (Delta 8, B1): parts the reader adopted follow the pane's slide in the same frame.
   ['d354-pane-follow-lag', 'pane-keyboard.spec.ts', 'D-354: the landing deck and its arrows follow the pane',
     [[',this.uiShift!==s&&((r=this._reader)==null||r.layoutNow())', '']], 'the card and its arrows follow the pane in the same frame'],
