@@ -75,7 +75,9 @@ const mutants = [
   // the index has no eyes, so the claim and its control go together.
   ['toc-input-guard-lost', sections, 'floating contents owns.*dark', s => replace(s, 'contents.style.pointerEvents = "auto";', 'contents.style.pointerEvents = "auto"; this.app._readerTocEl = null;')],
   ['toc-camera-gutter-restored', sections, 'current node stays centred', s => replace(replace(s, '  destroy() {', retiredGutter + '  destroy() {'), '  app._readerFailed = false;', '  app._readerFailed = false; const paneCamera = app._paneCameraTarget; app._paneCameraTarget = function (target) { return reader.frameCamera(paneCamera.call(this, target)); };')],
-  ['reader-overwrites-inspect', 'roll-execution.spec.ts', 'with reader layout during close', s => replace(s, 'if (el !== row) style(el, "transform", "none", "important");', 'style(el, "transform", "none", "important");')],
+  // RETIRED (v1.230.0, feat/video-cards merged): reader-overwrites-inspect guarded the reader leaving
+  // Inspect's closing row transform alone (roll-execution 'with reader layout during close'). Inspect,
+  // its close and that journey are retired with the option-detail sheet, so the control has no claim.
   // D-326: restore the 11px band acceptance; the scrolled phone case must fail its painted-overlap claim.
   ['execution-thin-band-accepted', 'roll-execution.spec.ts', 'execution camera frames the technique at 390px; pane false; reduced motion true scrolled to the top', s => replace(s, 'card.top - toast.bottom >= box.bottom - box.top + 24', 'card.top > toast.bottom')],
   // D-331 S1: every placement search fails, so each frame takes the counted no-fit fallback.

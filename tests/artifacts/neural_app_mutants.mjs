@@ -30,7 +30,7 @@ const controls = [
     [['this._refPage||this._staged!=null||this.startRoll()', 'this._refPage||this.startRoll()']], 'the other read role must be a reachable drawn canvas half'],
   // D-338: a saved Focus is read again by the layer seam (its reading* overrides hide the card).
   ['d338-saved-focus-layer-read', 'reading-mode.spec.ts', 'reading perspectives and Back retain canonical content without gameplay$',
-    [['let t=xt[e];return!t||this.get(t,!0)!==!1', 'let t=xt[e];return!t||this.get(this.get("readingFocus",!1)?"reading"+t.slice(4):t,!0)!==!1']],
+    [['let t=ft[e];return!t||this.get(t,!0)!==!1', 'let t=ft[e];return!t||this.get(this.get("readingFocus",!1)?"reading"+t.slice(4):t,!0)!==!1']],
     'a saved Focus no longer hides the question'],
   // The follow-cam lifts the node against the reading band's edge again (two rest framings).
   ['reading-band-lift-restored', 'pane-layout.spec.ts', '1440px pane moves film, card, article',
@@ -38,13 +38,13 @@ const controls = [
   // H46 (2026-10-21): landcard-modes:349 now waits for the defender's question before its press; the arrows must
   // still be what pages it (the defense mode dropped from the landing card's arrow branch).
   ['defense-arrows-lost', 'landcard-modes.spec.ts', 'the generic defending card pages its own deck with the same arrows',
-    [['["land","attempt","defense"].includes(this._landMode)&&this._landPage!=null&&(n.key==="ArrowLeft"', '["land","attempt"].includes(this._landMode)&&this._landPage!=null&&(n.key==="ArrowLeft"']], 'arrows page the defender deck'],
+    [['["land","attempt","defense"].includes(this._landMode)&&this._landPage!=null&&(o.key==="ArrowLeft"', '["land","attempt"].includes(this._landMode)&&this._landPage!=null&&(o.key==="ArrowLeft"']], 'arrows page the defender deck'],
   // D-352 (Delta 6): S1, a landing laid out with the article put away is live, so showing the article
   // mid-load publishes it pinned instead of holding it; and N1, the hand's half of D-351's hold.
   ['d352-book-rehold', 'article-sections.spec.ts', 'D-352: showing the article while its page loads',
-    [['else if(!t)o.live=!0;else{', 'else if(!t);else{']], 'the live hand is never hidden again'],
+    [['else if(!t)n.live=!0;else{', 'else if(!t);else{']], 'the live hand is never hidden again'],
   ['d351-hand-hold-removed', 'article-sections.spec.ts', 'D-351: an exchange whose article lands late',
-    [['h==null||h.toggleAttribute("data-reader-pending",a>0);return l&&a<=0', 'h==null||h.toggleAttribute("data-reader-pending",!1);return l&&a<=0']], 'the new hand is shown once, at its final place'],
+    [['d==null||d.toggleAttribute("data-reader-pending",a>0);return l&&a<=0', 'd==null||d.toggleAttribute("data-reader-pending",!1);return l&&a<=0']], 'the new hand is shown once, at its final place'],
   // D-354 (Delta 8, B1): parts the reader adopted follow the pane's slide in the same frame.
   ['d354-pane-follow-lag', 'pane-keyboard.spec.ts', 'D-354: the landing deck and its arrows follow the pane',
     [[',this.uiShift!==s&&((r=this._reader)==null||r.layoutNow())', '']], 'the card and its arrows follow the pane in the same frame'],
@@ -53,7 +53,7 @@ const controls = [
     [['return l&&a<=0&&this._ensureGameValues(),a}_readerGraded(){', 'return a}_readerGraded(){']], 'the Win chance starts in the frame the held hand publishes'],
   // D-354 N1 (Delta 8): a play after the article rendered places the pinned film in its Videos slot first.
   ['d354-play-film-left-home', 'defending-landing.spec.ts', 'D-354 N1: a play after the article rendered',
-    [['!==!1&&s.syncMedia(),this._expandedClip', '!==!1&&!1,this._expandedClip']], 'the playing film sits in the lifted Videos slot, with no empty slot under it'],
+    [['!==!1&&i.syncMedia(),this._expandedClip', '!==!1&&!1,this._expandedClip']], 'the playing film sits in the lifted Videos slot, with no empty slot under it'],
   // D-354 N3: the film's only remover ends the reader's media-home observation.
   ['d354-removed-film-observed', 'defending-landing.spec.ts', 'D-354 N3: a removed film',
     [['._ngRO.disconnect(),(e=this._reader)==null||e.resize.unobserve(this._landFilmEl);try{', '._ngRO.disconnect();try{']], 'the removed film is no longer observed by the reader'],
