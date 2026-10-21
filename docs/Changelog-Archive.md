@@ -11666,9 +11666,14 @@ no replacement condition is invented. Top retains its full tree until N4, with n
 Top exception installed. The shared decision-tree floor remains three. Wrong
 counts, missing roles and stale rows fail; an exception on one role cannot waive
 the other role's floor. The validator prints seven live matches: six single
-origins and one short tree. Seventeen Python cases run in the existing Node CI
-suite. Accept-all mutants make `test_listed_but_not_own_origin_is_blocking` and
+origins and one short tree. The validator and Markdown generator use the same
+exception helper and both audit stale rows before processing files. Thirty-nine
+Python cases exercise both schema gates in the existing Node CI suite, including
+real Markdown writes for both kinds and no writes for unlisted short lists.
+Accept-all mutants make `test_listed_but_not_own_origin_is_blocking` and
 `test_wrong_count_is_blocking_even_when_it_meets_shared_floor` fail by name.
+A mutant bypassing the generator's shared exception hook makes both named
+Markdown regeneration cases fail.
 
 The calibration supersession ledger preserves the complete approved replacement
 tables and prior weights without rewriting historical ballots. Historical apply

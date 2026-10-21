@@ -36,3 +36,16 @@ test("blanket acceptance makes the named tree-count negative control red", () =>
   assert.match(output, /FAILED \(failures=1\)/)
   console.log("accept-all mutant rejected: test_wrong_count_is_blocking_even_when_it_meets_shared_floor is red")
 })
+
+test("bypassing the Markdown exception hook makes both named regeneration cases red", () => {
+  const result = spawnSync("python3", ["-B", "tests/single_origin_submissions_test.py",
+    "--mutate-markdown-exception-path",
+    "MarkdownSingleOrigins.test_listed_single_origin_regenerates_hub_and_role_pages",
+    "MarkdownShortDecisionTrees.test_listed_short_tree_regenerates_hub_and_role_pages", "-v"], options)
+  const output = result.stdout + result.stderr
+  assert.equal(result.status, 1, output)
+  assert.match(output, /FAIL: test_listed_single_origin_regenerates_hub_and_role_pages/)
+  assert.match(output, /FAIL: test_listed_short_tree_regenerates_hub_and_role_pages/)
+  assert.match(output, /FAILED \(failures=2\)/)
+  console.log("Markdown hook bypass mutant rejected: both named regeneration cases are red")
+})

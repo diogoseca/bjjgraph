@@ -111,6 +111,29 @@ def accept_content_exception(data, row):
     return row is not None and not content_exception_errors(data, row)
 
 
+def schema_for_reviewed_content(json_path, data, schema, category):
+    """Use the same exact approvals in validation and Markdown regeneration."""
+    if category not in ("Submissions", "Positions"):
+        return schema
+    try:
+        relative = Path(json_path).resolve().relative_to(ROOT).as_posix()
+    except ValueError:
+        return schema
+    for row in load_content_exceptions().values():
+        if row["file"] != relative:
+            continue
+        if not accept_content_exception(data, row):
+            raise ValueError("; ".join(content_exception_errors(data, row)))
+        schema = copy.deepcopy(schema)
+        if row["kind"] == "single_origin":
+            schema["properties"]["from_positions"]["minItems"] = 1
+        else:
+            tree = copy.deepcopy(schema["$defs"]["decision_tree"])
+            tree["minItems"] = row["expected_count"]
+            schema["properties"][row["role"]]["properties"]["decision_tree"] = tree
+    return schema
+
+
 def validate_content_exceptions(root=ROOT, approved=None):
     """Every row must match its live record and exact approval; stale rows fail."""
     approved = load_content_exceptions() if approved is None else approved
@@ -1332,26 +1355,11 @@ def validate_json_file(json_path, schema, category, strict=False):
 
     # D-358/D-362: waive only the named field, never the shared authoring schema.
     # A stale row is blocking even if its record meets the ordinary schema floor.
-    if category in ("Submissions", "Positions"):
-        try:
-            relative = Path(json_path).resolve().relative_to(ROOT).as_posix()
-        except ValueError:
-            relative = ""
-        for row in load_content_exceptions().values():
-            if row["file"] != relative:
-                continue
-            if accept_content_exception(data, row):
-                schema = copy.deepcopy(schema)
-                if row["kind"] == "single_origin":
-                    schema["properties"]["from_positions"]["minItems"] = 1
-                else:
-                    tree = copy.deepcopy(schema["$defs"]["decision_tree"])
-                    tree["minItems"] = row["expected_count"]
-                    schema["properties"][row["role"]]["properties"]["decision_tree"] = tree
-            else:
-                approval_errors = content_exception_errors(data, row)
-                errors.extend(approval_errors)
-                categories["blocking"].extend(approval_errors)
+    try:
+        schema = schema_for_reviewed_content(json_path, data, schema, category)
+    except ValueError as error:
+        errors.append(str(error))
+        categories["blocking"].append(str(error))
 
     # Validate against JSON Schema → blocking
     try:

@@ -1,6 +1,7 @@
 """D-358/D-362: exact origin and role exceptions, with stale rows and mutants red."""
 import copy
 import json
+import os
 from pathlib import Path
 import sys
 import tempfile
@@ -10,6 +11,7 @@ from unittest.mock import patch
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "scripts"))
 import validate_json as validator
+import regenerate_md_from_json as renderer
 
 
 class SingleOriginSubmissions(unittest.TestCase):
@@ -166,10 +168,94 @@ class ShortDecisionTrees(unittest.TestCase):
         self.assertEqual(validator.validate_content_exceptions(ROOT, rows), [])
 
 
+class RenderReached(Exception):
+    """Stop after the real generator's raw schema gate, before rendering/writes."""
+
+
+def renderer_blocking(fixture, approved=None):
+    rows = fixture.rows if approved is None else approved
+    with patch.object(validator, "ROOT", fixture.root), \
+            patch.object(validator, "load_content_exceptions", return_value=rows), \
+            patch.object(renderer, "_frame_for_render", side_effect=RenderReached):
+        try:
+            renderer.process_json_file(fixture.path, dry_run=True, resolve_fn=lambda value: value)
+        except RenderReached:
+            return []
+        except ValueError as error:
+            return [str(error)]
+    raise AssertionError("generator did not reach its validated render boundary")
+
+
+def regenerate_fixture(fixture, approved=None):
+    """Write real hub/role Markdown in a temporary content tree."""
+    rows = fixture.rows if approved is None else approved
+    (fixture.root / "templates").symlink_to(ROOT / "templates", target_is_directory=True)
+    previous = Path.cwd()
+    try:
+        os.chdir(fixture.root)
+        with patch.object(validator, "ROOT", fixture.root), \
+                patch.object(validator, "load_content_exceptions", return_value=rows):
+            generated = renderer.process_json_file(Path(fixture.relative))
+        return [fixture.root / path for path in generated]
+    finally:
+        os.chdir(previous)
+
+
+def assert_listed_regenerates(fixture):
+    try:
+        generated = regenerate_fixture(fixture)
+    except ValueError as error:
+        fixture.fail(f"listed row did not regenerate: {error}")
+    fixture.assertEqual(len(generated), 3)
+    for path in generated:
+        fixture.assertTrue(path.is_file(), path)
+        fixture.assertIn(fixture.data["name"], path.read_text())
+
+
+class MarkdownSingleOrigins(SingleOriginSubmissions):
+    blocking = renderer_blocking
+
+    def test_listed_single_origin_regenerates_hub_and_role_pages(self):
+        assert_listed_regenerates(self)
+
+    def test_unlisted_single_origin_writes_no_markdown(self):
+        with self.assertRaisesRegex(ValueError, "too short"):
+            regenerate_fixture(self, approved={})
+        self.assertEqual(list(self.root.rglob("*.md")), [])
+
+
+class MarkdownShortDecisionTrees(ShortDecisionTrees):
+    blocking = renderer_blocking
+
+    def test_listed_short_tree_regenerates_hub_and_role_pages(self):
+        assert_listed_regenerates(self)
+
+    def test_unlisted_short_tree_writes_no_markdown(self):
+        with self.assertRaisesRegex(ValueError, "too short"):
+            regenerate_fixture(self, approved={})
+        self.assertEqual(list(self.root.rglob("*.md")), [])
+
+    def test_main_rejects_a_stale_manifest_row_before_regenerating(self):
+        row = {**self.row, "file": "content/Positions/Missing D362 fixture.json"}
+        self.assertFalse((ROOT / row["file"]).exists())
+        with patch.object(validator, "load_content_exceptions", return_value={"fixture": row}), \
+                patch.object(sys, "argv", ["regenerate_md_from_json.py", "--file", str(self.path)]), \
+                patch.object(renderer, "process_json_file") as process:
+            with self.assertRaises(SystemExit) as stopped:
+                renderer.main()
+        self.assertEqual(stopped.exception.code, 1)
+        process.assert_not_called()
+
+
 if __name__ == "__main__":
     if "--mutate-accept-rule" in sys.argv:
         sys.argv.remove("--mutate-accept-rule")
         with patch.object(validator, "accept_content_exception", return_value=True):
+            unittest.main()
+    elif "--mutate-markdown-exception-path" in sys.argv:
+        sys.argv.remove("--mutate-markdown-exception-path")
+        with patch.object(renderer, "schema_for_reviewed_content",
+                          side_effect=lambda path, data, schema, category: schema):
             unittest.main()
     else:
         unittest.main()
