@@ -15481,20 +15481,26 @@ class Component extends DCLogic {
    *  the Videos lift and the film's move until they settle (graded, the card or hand closed, the
    *  next landing, the article put away, a new viewport). 0: publish. A request publishes once,
    *  so a live card is never held again: reading another article moves the reader, not this
-   *  landing. */
+   *  landing. D-352 S1: a landing laid out with the article put away is live already (`live`);
+   *  if the article is then shown while its page still loads, it publishes pinned at once. */
   _readerHold(r, shown, W, H) {
     const q = this._readerQueued, pin = this._readerPin, card = this._landEl;
-    if (pin && (pin.q !== q || !shown || pin.W !== W || pin.H !== H || !this._handShown() || pin.graded || card && (!this._layerOn("card") || this._landQ?.answered))) {
+    // Settled: graded (the event: a reading decline also marks the question answered, and must not
+    // release live parts), the card or hand closed, the next landing, the article put away, a new viewport.
+    if (pin && (pin.q !== q || !shown || pin.W !== W || pin.H !== H || !this._handShown() || pin.graded || card && !this._layerOn("card"))) {
       this._readerPin = null; setTimeout(() => r.sync());
     }
     let hold = 0;
-    if (shown && q && !q.pub && q.idx === this._landIdx) {
+    if (q && !q.pub && q.idx === this._landIdx) {
       // the reader's own cleanPath: a URL arrival may carry a hash, a trailing slash or ".html"
       const path = decodeURI(new URL(q.path, location.href).pathname).replace(/\.html$/, "").replace(/\/$/, "") || "/";
-      const age = performance.now() - (q.at || (q.at = performance.now()));
       if (q.skip || r.root.dataset.readerReady === "true" && r.path === path) q.pub = true;
-      else if (age < 800) { hold = 801 - age; clearTimeout(this._readerHoldT); this._readerHoldT = setTimeout(() => r.layout(), hold); }
-      else { q.pub = true; this._readerPin = { q, W, H }; hold = -1; }
+      else if (!shown) q.live = true;
+      else {
+        const age = q.live ? 800 : performance.now() - (q.at || (q.at = performance.now()));
+        if (age < 800) { hold = 801 - age; clearTimeout(this._readerHoldT); this._readerHoldT = setTimeout(() => r.layout(), hold); }
+        else { q.pub = true; this._readerPin = { q, W, H }; hold = -1; }
+      }
     }
     for (const el of [this.optionsRef.current, this._landStackEl, this._landNavEl, this._handCloseEl]) el?.toggleAttribute("data-reader-pending", hold > 0);
     return hold;
@@ -15870,8 +15876,12 @@ class Component extends DCLogic {
       if (this._landWarmP === p) break;   // resolved and nothing chained on
     }
     // D-351: settled includes published. The reader holds a landing until its article renders
-    // (800ms at most), and a held question has not stopped moving yet.
+    // (800ms at most), and a held question has not stopped moving yet. D-352 N6: giving up says so,
+    // as a named beat and a false return, never as a silent pass.
     for (const end = performance.now() + 1500; this._landEl?.hasAttribute("data-reader-pending") && performance.now() < end;) await new Promise((r) => setTimeout(r, 16));
+    const published = !this._landEl?.hasAttribute("data-reader-pending");
+    if (!published) this.fx("land_publish_stalled", { node: this._landIdx });
+    return published;
   }
   // this landing asked nothing, and `reason` says why (so the funnel gap is never a phantom)
   _landQSkip(key, reason, mode) {
@@ -16168,6 +16178,9 @@ class Component extends DCLogic {
   }
   _dockLandFilm() {
     const f = this._landFilmEl; if (!f) return;
+    // D-352 S2: a film rendered while the landing is pinned is the reader's to place at once (its
+    // pinned media home keeps it hidden); docked here instead it floated over the pinned hand.
+    if (this._readerPin && this._reader && !this._reader.placesMedia(f)) this._reader.syncMedia();
     if (this._reader?.placesMedia(f)) { this._reader.layout(); this._syncFilmEdges(); return; }
     const H = window.innerHeight || 800;
     const c = this._landEl;

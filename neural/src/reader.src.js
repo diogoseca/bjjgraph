@@ -320,6 +320,9 @@ class Reader {
       this.render(record.title, guide, guidePath, context, hub);
       this.root.dataset.readerReady = "true";
       this.sync();
+      // D-352: ready means laid out. A reference arrival's first layout moves the head (Study tools)
+      // out of the game's header row; a frame later, a click aimed at "ready" hit the map instead.
+      this.layoutNow();
       if (url.hash) this.anchor(url.hash);
       else if (this.interacting) this.heading.focus({ preventScroll: true });
     } catch (error) {
@@ -982,7 +985,16 @@ class Reader {
       // adopted before its article arrives; resetting here would jump it to 64px.
       if (this.gameTop == null && oldTop > 0) this.gameTop = Math.max(64, oldTop - ownTop);
       const gap = showCard && showHand ? card.classList.contains("ng-land-deck") ? 16 : a.isMobile() ? 8 : 12 : 0;
-      const homeMedia = this.media?.parentElement === this.mediaHome && !this.media.hidden;
+      // D-352 S2: a pinned landing keeps the media home it was pinned with, its film and its height:
+      // any other film (a late chunk's, measuring 0 before its thumbnails load) waits hidden until
+      // the parts settle, so nothing opens above or over the pinned rows.
+      let homeMedia = this.media?.parentElement === this.mediaHome && !this.media.hidden;
+      const filmHeight = () => a.currentFilmHeight?.() ?? this.media.getBoundingClientRect().height;
+      if (pin) {
+        const h = homeMedia ? filmHeight() : 0;
+        if (!("film" in pin)) { pin.film = homeMedia && this.media; pin.mh = h; }
+        homeMedia = homeMedia && this.media === pin.film && h <= pin.mh;
+      }
       let start = Math.max(6, showCard || showHand || homeMedia ? this.gameTop ?? 64 : 0);
       if (chrome) start += chrome.offset;
       // Adopt the hand first: the DOM, and so the Tab order, reads Moves before Questions.
@@ -1020,7 +1032,7 @@ class Reader {
       style(this.mediaHome, "width", mediaWidth + "px", "important");
       // Videos supplies its natural content height (A: ~241px desktop, ~220px
       // phone). Measuring the shared host keeps its future renderer independent.
-      const mediaHeight = homeMedia ? a.currentFilmHeight?.() ?? this.media.getBoundingClientRect().height : 0;
+      const mediaHeight = homeMedia ? filmHeight() : 0;
       const cardHeight = showCard ? card.getBoundingClientRect().height : 0, handHeight = showHand ? row.getBoundingClientRect().height : 0;
       const handoff = a._executionDock()?.reader;
       let cardX = Math.max(a.isMobile() ? 10 : 16, free.center - cardWidth / 2), cardY, gameHeight;
