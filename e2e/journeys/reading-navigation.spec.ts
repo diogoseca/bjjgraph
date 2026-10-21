@@ -187,16 +187,20 @@ for (const width of [390, 1440]) {
   })
 }
 
-// RETIRED in part (D-338): no Book restore exists in the article view; seat reuse is the claim kept.
-test('@curated successful article responses are reused across seat navigation', async ({ page }) => {
+// STALE CONTRACT (D-338, D5-S4): the article view has no Book control, but the saved Book-off state keeps
+// its restore, so the claim is kept there: the seats are read in the map view and Book restores
+// without refetching either seat.
+test('@curated successful article responses are reused across seat navigation and Book restores', async ({ page }) => {
   const j = journey(page), requests: string[] = []
   page.on('request', r => { if (r.resourceType() === 'fetch' && /Knee-Slice-Pass\/(Attacker|Defender)$/.test(new URL(r.url()).pathname)) requests.push(new URL(r.url()).pathname) })
-  await j.boot(KNEE + '/Attacker', { initialState: QUIET })
-  await expect(page.locator(READY)).toBeVisible()
+  await j.boot(KNEE + '/Attacker', { initialState: { ...QUIET, settings: { ...QUIET.settings, readerBook: false } } })
+  await expect(page.locator(READY)).toHaveCount(1)
   for (const seat of ['Defender', 'Attacker', 'Defender']) {
     await j.readingOtherHalf() // D-318 U6a: the native paired half replaces the retired switch.
-    await expect(page.locator(READY)).toHaveAttribute('data-reader-path', KNEE + '/' + seat)
+    await expect(page.locator('[data-reader]')).toHaveAttribute('data-reader-path', KNEE + '/' + seat)
   }
+  await j.clickByMouse('[data-layer-show="book"]', 'restore Book from the saved map view')
+  await expect(page.locator(READY)).toBeVisible()
   expect(requests.filter(x => x.endsWith('/Defender'))).toHaveLength(1)
   expect(requests.filter(x => x.endsWith('/Attacker'))).toHaveLength(0)
 })

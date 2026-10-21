@@ -68,7 +68,7 @@ async function calm(page: Page) {
   await expect(page.locator('.ng-landstack')).toBeVisible()
   await expect(page.locator('[data-defense-prompt]')).toHaveCount(0)
 }
-async function catchLoop(page: Page, legacy = false, cold = false) {
+async function catchLoop(page: Page, legacy = false, cold = false, before?: () => Promise<unknown>) {
   const j = journey(page)
   await j.boot('/Positions/Half-Guard/Bottom', { beforeNavigate: realContent })
   await expect(page.locator(READY)).toBeVisible()
@@ -83,7 +83,12 @@ async function catchLoop(page: Page, legacy = false, cold = false) {
       const previous = new Function('return ({' + old + '}).buildPanicCard')()
       a.renderLandCard = function (node: any, mode: string, ...args: any[]) {
         if (mode === 'defense') {
+          // D-351: the retired renderer runs under the same reader contract as the generic one: its
+          // landing queues the defender article and stays pending (hidden, clock parked) until the
+          // reader publishes it. Both happen before any paint, as renderLandCard does them.
+          this._queueReader(this.nodes[this._defendSub], 'defender')
           previous.call(this, this.optionsRef.current, this.nodes[this._defendSub])
+          if (this.get('readerBook', true)) this._landEl?.setAttribute('data-reader-pending', '')
           // The old enterDefense armed immediately AFTER buildPanicCard returned.
           this._armLandClock(this._landEl?.querySelector('[data-land-clock]'))
           return this._landEl
@@ -113,9 +118,15 @@ async function catchLoop(page: Page, legacy = false, cold = false) {
     if (!pick) throw new Error('the authored move is absent')
     pick.card.setAttribute('data-defending-commit', '')
   }, { old: legacyDefenseRenderer, legacy, cold })
+  if (before) await before()
   await j.clickByMouse('[data-defending-commit]', 'commit Half Guard to Back Take')
   await j.advanceUntil('caught', 20000, 100)
   await expect(page.locator(cold ? '[data-panic-reveal]' : '[data-panic-mc-opt]').first()).toBeVisible()
+  // STALE TIMING (D-351, H57): a reading-view landing stays unpublished, its clock parked, until the
+  // article it asked for renders, which happens in real time after the pumped catch; the parked arm
+  // fires on the next frame. Without that frame both clocks read null (20 of 20 differentials red,
+  // the legacy fixture also unheld then). One frame after publication arms both on the same tick.
+  await j.advance(17)
   await expect(page.locator('.ng-evtoast')).toContainText('Caught')
   expect(await page.evaluate(() => (window as any).__neural.nodes[(window as any).__neural._defendSub].t)).toBe('Loop Choke from Half Guard')
   return j
@@ -444,4 +455,74 @@ test('@curated reduced motion suppresses CSS and frame-driven danger without cha
   await page.emulateMedia({ reducedMotion: 'no-preference' })
   await j.advance(20)
   await expect.poll(async () => (await state(page)).vignette, 'the real media-change handler restores danger').toBe(true)
+})
+
+// ── D-351: an article that lands after the catch never moves a live answer ────────────────────
+// Since D-338 the panic card sits in the reader's column under Videos and Moves, and the catch
+// opens the submission's defender article. Arriving 29-79ms after the card was clickable, its
+// Videos section pushed the hand and the answers down 114px, so a measured click on an answer
+// executed an escape move instead (10 full-file runs, 180 tests: dev 557c57d14 0 red, this
+// branch 6, H49; traced in H50/H51). The reader now holds a landing until the article it asked for
+// renders (800ms at most), and parts the ceiling publishes stay pinned until they settle.
+// Delaying the article fetch, not the deck, is what makes the state reachable on demand. Only the
+// defender page is held: the reader fetches the hub after it, and holding both would stack.
+const LOOP_DEFENDER = '/Submissions/Loop-Choke/from-Half-Guard/Defender'
+const lateArticle = (page: Page, ms: number) => {
+  const held: string[] = []
+  return { held, route: () => page.route((url) => url.pathname === LOOP_DEFENDER, async (route) => {
+    if (route.request().resourceType() === 'fetch') { held.push(new URL(route.request().url()).pathname); await new Promise((r) => setTimeout(r, ms)) }
+    await route.continue()
+  }) }
+}
+// Per animation frame, the first answer's rectangle and whether it is shown, beside the
+// reader's readiness for the article the catch opened.
+const traceAnswer = (page: Page) => page.evaluate(() => {
+  const w = window as any, out: any[] = (w.__d351 = []), t0 = performance.now()
+  const tick = () => {
+    const r = w.__neural?._reader, el = document.querySelector('[data-panic-mc-opt]') as HTMLElement | null, box = el?.getBoundingClientRect()
+    out.push({ t: Math.round(performance.now() - t0), ready: r?.root.dataset.readerReady, path: r?.path, present: !!el,
+      shown: !!el && !!box!.height && getComputedStyle(el).visibility !== 'hidden', top: box?.top, left: box?.left, lifted: !!r?.videoCard })
+    if (performance.now() - t0 < 30000 && !w.__d351stop) requestAnimationFrame(tick)
+  }
+  requestAnimationFrame(tick)
+})
+const answerTrace = (page: Page) => page.evaluate(() => { (window as any).__d351stop = true; return (window as any).__d351 as any[] })
+
+test('D-351: a catch whose article lands late shows its answers once, at their final rect, and a click grades them', async ({ page }) => {
+  const late = lateArticle(page, 500)
+  const j = await catchLoop(page, false, false, async () => { await late.route(); await traceAnswer(page) })
+  await expect(page.locator(READY)).toHaveAttribute('data-reader-path', LOOP_DEFENDER)
+  await j.advance(200)
+  const S = await answerTrace(page), rendered = (x: any) => x.ready === 'true' && x.path === LOOP_DEFENDER
+  expect(late.held.length, 'premise: the defender article fetch was held 500ms').toBeGreaterThan(0)
+  expect(S.some((x) => x.present && !rendered(x)), 'premise: the question existed while its article was loading').toBe(true)
+  const shown = S.filter((x) => x.shown)
+  expect(shown.filter((x) => !rendered(x)), 'no answer is shown before the catch article renders').toEqual([])
+  expect(shown.length, 'premise: the answer was traced on screen').toBeGreaterThan(3)
+  const tops = shown.map((x) => x.top), lefts = shown.map((x) => x.left)
+  expect(Math.max(...tops) - Math.min(...tops) + Math.max(...lefts) - Math.min(...lefts), 'the answer appears once, at its final rect').toBeLessThan(0.5)
+  const mc = (await mechanics(page)).mc!
+  await j.clickByMouse(`[data-panic-mc-opt="${mc.correct}"]`, 'answer the panic card where it sits')
+  expect(await page.evaluate(() => !!(window as any).__neural._optList), 'the click executed no escape move').toBe(true)
+  expect((await mechanics(page)).grades.map((g: any) => g.beat), 'the measured click graded the intended answer').toContain('mc_correct')
+})
+
+test('D-351: past the 800ms ceiling the answers publish, and the late article still never moves them', async ({ page }) => {
+  const late = lateArticle(page, 1500)
+  const j = await catchLoop(page, false, false, async () => { await late.route(); await traceAnswer(page) })
+  await expect(page.locator(READY)).toHaveAttribute('data-reader-path', LOOP_DEFENDER, { timeout: 10_000 })
+  await j.advance(200)
+  const S = await answerTrace(page), rendered = (x: any) => x.ready === 'true' && x.path === LOOP_DEFENDER
+  expect(late.held.length, 'premise: the defender article fetch was held 1.5s').toBeGreaterThan(0)
+  const shown = S.filter((x) => x.shown)
+  expect(shown.some((x) => !rendered(x)), 'premise: the ceiling published the answers before the article').toBe(true)
+  expect(shown.some(rendered), 'premise: the article landed while the answers were live').toBe(true)
+  const tops = shown.map((x) => x.top), lefts = shown.map((x) => x.left)
+  expect(Math.max(...tops) - Math.min(...tops) + Math.max(...lefts) - Math.min(...lefts), 'the answers never move when the late article lands').toBeLessThan(0.5)
+  const mc = (await mechanics(page)).mc!
+  await j.clickByMouse(`[data-panic-mc-opt="${mc.correct}"]`, 'answer the panic card where it sits')
+  expect(await page.evaluate(() => !!(window as any).__neural._optList), 'the click executed no escape move').toBe(true)
+  expect((await mechanics(page)).grades.map((g: any) => g.beat), 'the measured click graded the intended answer').toContain('mc_correct')
+  // Graded is settled: the held-back Videos lift happens now, after the player's own input.
+  await expect.poll(() => page.evaluate(() => !!(window as any).__neural._reader.videoCard), 'the Videos section lifts once the answer is graded').toBe(true)
 })

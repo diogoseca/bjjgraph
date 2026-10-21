@@ -96,6 +96,11 @@ for (const width of [1440, 390]) {
           }
           return samples
         })
+        // D5-N2 (D-338): paging keeps the face inside the reader's scrollport (it used to scroll the deck away).
+        // A face taller than the port (a revealed recall answer) may run past its bottom; its top may not leave.
+        const port = await page.evaluate(() => { const a = (window as any).__neural, r = a._reader.root.getBoundingClientRect(), c = a._landEl.getBoundingClientRect(); return { top: c.top - r.top, below: r.bottom - c.top } })
+        expect(port.top, `the face's top stays inside the reader's scrollport at card ${index + 1}`).toBeGreaterThanOrEqual(-1)
+        expect(port.below, `the face is on screen at card ${index + 1}`).toBeGreaterThan(44)
         for (const sample of samples) {
           expect(sample.overflow, "the whole face fits without scrolling").toBeLessThanOrEqual(1)
           for (const key of ["top", "bottom", "height", "filmTop"] as const) {

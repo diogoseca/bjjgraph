@@ -219,8 +219,12 @@ test("the complete article renders automatically and survives the question lifet
   await j.clickByMouse('[data-land-close]', "hide Questions with the card's ✕")
   await expect(page.locator("[data-landcard]")).toHaveCount(0)
   await expect(page.locator("[data-reader-body]")).toHaveText(article!)
-  const r = await page.locator("[data-reader]").boundingBox()
-  await page.mouse.move(r!.x + r!.width / 2, r!.y + r!.height - 10)
+  // D-338 (CI 11e7f83ff): the reader's bottom edge is now the closed Questions label, game input;
+  // the wheel goes over reading on screen at arrival, the Videos section's own text, as in reading-mode.
+  await page.locator("[data-reader]").evaluate(e => { e.scrollTop = 0 }) // the ✕ above scrolled the Videos text away
+  await j.readerLayoutSettled()
+  const r = await page.locator(".ng-reader-game > [data-section-type=videos] .section-subtitle").first().boundingBox()
+  await page.mouse.move(r!.x + r!.width / 2, r!.y + r!.height / 2)
   await page.mouse.wheel(0, 300)
   await expect(page.locator("[data-reader]")).toHaveAttribute("data-reading-expanded", "")
   await page.mouse.wheel(0, 300)

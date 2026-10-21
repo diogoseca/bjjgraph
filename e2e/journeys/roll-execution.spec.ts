@@ -272,6 +272,11 @@ for (const reduced of [false, true]) {
       await page.mouse.move(width / 2, height * .7);
       await page.mouse.wheel(0, scroll.delta);
       await page.waitForFunction(target => Math.abs((window as any).__neural._reader.root.scrollTop - target) < 1, scroll.target);
+      // STALE SPEC (D-338, D-347): beside the index the Moves tray is a scroller (968px at 1440), so
+      // the chosen card can sit past its clip; a reader scrolls the tray to it first, as here.
+      await page.evaluate(name => (window as any).__neural._optionCards.find((c: any) => c.opt.node.t === name)
+        .card.scrollIntoView({ block: "nearest", inline: "nearest" }), opt.name);
+      await j.readerLayoutSettled();
     }
     // Capture the rectangle at the delivered pointerdown, after the original
     // pick path's native auto-scroll, never from an earlier fixture position.

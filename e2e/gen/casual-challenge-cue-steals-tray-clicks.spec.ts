@@ -47,11 +47,14 @@ test("tutorial challenge cue never captures clicks aimed at live option cards", 
     const cueBox = cue ? cue.getBoundingClientRect() : null
     const offenders: Array<{ tech: string | null; hit: string }> = []
     let tested = 0
+    // STALE SPEC (D-338, D-347): beside the article's index the tray is a horizontal scroller that ends
+    // short of the viewport, so "on-viewport" is the row's own visible rectangle, not the window's.
+    const row = (document.querySelector(".ng-optionrow") as HTMLElement).getBoundingClientRect()
     for (const card of Array.from(document.querySelectorAll("[data-tech]")) as HTMLElement[]) {
       const b = card.getBoundingClientRect()
       const cx = b.x + b.width / 2
       const cy = b.y + b.height / 2
-      if (cx < 1 || cx > innerWidth - 1 || cy < 1 || cy > innerHeight - 1) continue // tray scrolls; off-screen cards are reachable by scroll, not by click
+      if (cx < Math.max(1, row.left) || cx > Math.min(innerWidth - 1, row.right) || cy < Math.max(1, row.top) || cy > Math.min(innerHeight - 1, row.bottom)) continue // tray scrolls; cards outside its clip are reachable by scroll, not by click
       tested += 1
       const at = document.elementFromPoint(cx, cy)
       if (!at || !at.closest("[data-tech]")) {

@@ -37,13 +37,17 @@ const geo = (page: any) =>
       isLandCard: p.classList.contains("ng-landcard"),
       isLandEl: a._landEl === p,
       mode: p.getAttribute("data-landcard"),
-      clearOfTray: Math.round(rb.top - pb.bottom),
+      // D-338: the article view reads Moves then Questions, so the drill sits below the escape tray
+      // (the map view keeps it above); either way it must clear the tray, never overlap it.
+      clearOfTray: Math.round(Math.max(rb.top - pb.bottom, pb.top - rb.bottom)),
       width: Math.round(pb.width),
       escapeCards: row.querySelectorAll("[data-tech]").length,
     };
   });
 
-test("the panic drill is a landing card, above the escape hand @curated", async ({ page }) => {
+// STALE CONTRACT (D-338, CI 11e7f83ff): "above the escape hand" was the pre-D-338 order; the claim kept is
+// that the drill is a landing card clear of the escape hand, in whichever order the view stacks them.
+test("the panic drill is a landing card, clear of the escape hand @curated", async ({ page }) => {
   const j = journey(page);
   await j.boot("/");
   await j.hydrateAll();
@@ -70,6 +74,10 @@ test("grading the drill in time pumps the escape odds and spends the window (v1.
   await j.land("Mount Top");
   await enterDefence(page);
   await page.waitForTimeout(400);
+  // STALE TIMING (D-351, H61): the drill now publishes once the submission's defender article has
+  // rendered, and its parked clock arms on the next frame; this pumped harness ticks only when asked.
+  await j.landSettled();
+  await j.advance(17);
   if (!(await geo(page))) test.skip();
 
   const before = await page.evaluate(() => {

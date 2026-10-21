@@ -103,7 +103,9 @@ for (const width of [1440, 1024]) {
       expect(open[surface].right).toBeLessThanOrEqual(width)
     }
     expect(open.card.width, "card keeps its readable width").toBeCloseTo(before.card.width, 0)
-    expect(open.card.y, "card keeps its vertical dock").toBeCloseTo(before.card.y, 1)
+    // STALE CONTRACT (D-338, CI 11e7f83ff): at 1024 the column narrows beside the pane and the Videos
+    // section above the card reflows (+25.6px), so the card's dock is its place under Moves.
+    expect(open.card.y - open.hand.bottom, "card keeps its vertical dock, one deck gap under Moves").toBeCloseTo(before.card.y - before.hand.bottom, 1)
     expect(open.film.x - open.more.x, "the film keeps its place in the article column").toBeCloseTo(before.film.x - before.more.x, 0)
     expect(open.film.right, "...and stays inside it").toBeLessThanOrEqual(open.more.right + .5)
     expect(open.film.y, "film keeps its vertical dock").toBeCloseTo(before.film.y, 0)

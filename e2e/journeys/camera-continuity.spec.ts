@@ -39,6 +39,15 @@ import { journey } from "../dsl";
  * Other unannounced cases the same rule covers (not separately journeyed): a card taller than any
  * this viewport has measured for its row set, and the very first landing at a viewport, whose
  * prediction is a guess (`_predictBottom`).
+ * D-350b (2026-10-21): a frame counts only while some of the pair's silhouette is on screen. A pair
+ * wholly off screen covers nothing: the no-Videos exchange at 390 failed 5 of 5 on 5 such frames,
+ * mid arc flight, pair right edge at x -140 to -214 and label ending at x <= -0.07, while all 245
+ * frames with the pair on screen cleared the rows by >= 30.2px. Asserted / excluded per run, 5
+ * full-file runs (H45): roll start 287 / 0 and URL arrival 418-420 / 0 at both widths; the exchange
+ * at 390 137 / 223 and without Videos 245 / 115, every run; at 1440 109 / 0 in 4 runs and 134 / 226
+ * in 1 (its rows were up through the execution). Every excluded frame is the EXECUTED technique's
+ * pair, left behind off screen while the camera arcs to the landing (no-Videos run: frames 168-282,
+ * fx -12 to -457); from the landing on, the new current node is on screen and asserted.
  *
  * ITEM 2: the clicked node projects inside the CENTRAL BAND of the visible graph rect, measured from
  * the DOM here (pane right edge; announcer bottom; the highest visible bottom row), with the layers
@@ -55,8 +64,17 @@ import { journey } from "../dsl";
  *   the lift's edge takes 1 s                         → the lift unit (camera_motion.test.mjs); here
  *                                                       the re-aimed flight still clears the node in time
  *   ...and flights take ≥1.5 s too (slow clearing)    → "CLEAR_SEC"
- *   no pre-lift (the arrival makes no room)           → "ZERO overlap" (roll start, URL arrival)
- *   no prediction (`ahead` ignored)                   → "ZERO overlap" (exchange)
+ *   no pre-lift (the arrival makes no room)           → "ZERO overlap" (roll start, URL arrival);
+ *                                                       scripted since D-350b as noprelift-roll-start
+ *                                                       and noprelift-url-arrival, killed under the
+ *                                                       on-screen filter (H45)
+ *   no prediction (`ahead` ignored)                   → NON-KILL since the reading view (D-350b, H45):
+ *                                                       noahead-exchange-1440/-390 pass under the
+ *                                                       filtered AND the pre-D-350b helper, so no kill
+ *                                                       was lost to the filter. A reading-view exchange
+ *                                                       frames through the reader's frameExecution, so
+ *                                                       `ahead` decides only a map-view exchange, which
+ *                                                       no journey here runs
  *   the escape's stand-in takes the camera            → "the stand-in does not take the camera" and "MOVE"
  *                                                       (a pick after the catch's lease; inside it the
  *                                                       lease decides, so the earlier escape case cannot)
@@ -89,7 +107,7 @@ const VIEWPORTS = [
 
 type Sample = {
   t: number; W: number; H: number; cx: number; cy: number; vw: number;
-  fi: number; fx: number | null; fy: number | null; lo: number | null;
+  fi: number; fx: number | null; fy: number | null; lo: number | null; xl: number | null; xr: number | null;
   rows: number | null; bottom: number; film: number | null; pane: number; evBottom: number; head?: number[] | null; why?: any;
 };
 
@@ -100,16 +118,19 @@ const frame = (page: Page) =>
     a.advance(1000 / 60);
     const W = a.W, H = a.H, s = W / a.cam.vw;
     const n = a.focusIdx >= 0 ? a.nodes[a.focusIdx] : null;
-    let fx = null, fy = null, lo = null;
+    let fx = null, fy = null, lo = null, xl = null, xr = null;
     if (n) {
       const mid = a.pairMid(n);
       fx = W / 2 + (mid.x - a.cam.cx) * s;
       fy = H / 2 + (mid.y - a.cam.cy) * s;
       const nodeK = Math.max(0.4, Math.min(1, a.cam.vw / (a.graphW * 0.5)));
-      lo = -1e9;
+      lo = -1e9; xl = 1e9; xr = -1e9;
       for (const q of [n, n.pi >= 0 ? a.nodes[n.pi] : null]) {
         if (!q) continue;
         lo = Math.max(lo, H / 2 + (a._LY(q) - a.cam.cy) * s + q.r * nodeK * s * 1.6);
+        // the same silhouette across: D-350b excludes a frame only when ALL of it is off screen
+        const qx = W / 2 + (q.x - a.cam.cx) * s, half = q.r * nodeK * s * 1.6;
+        xl = Math.min(xl, qx - half); xr = Math.max(xr, qx + half);
       }
     }
     const shown = (el: any) => el && el.offsetHeight && getComputedStyle(el).display !== "none" && getComputedStyle(el).visibility !== "hidden";
@@ -138,7 +159,7 @@ const frame = (page: Page) =>
     // the travelling light (headPos), through the same transform: what a player's eye follows
     const hp = a.pulse && a.headPos ? a.headPos() : null;
     const head = hp ? [W / 2 + (hp.x - a.cam.cx) * s, H / 2 + (hp.y - a.cam.cy) * s] : null;
-    return { t: a.now, W, H, cx: a.cam.cx, cy: a.cam.cy, vw: a.cam.vw, fi: a.focusIdx, fx, fy, lo,
+    return { t: a.now, W, H, cx: a.cam.cx, cy: a.cam.cy, vw: a.cam.vw, fi: a.focusIdx, fx, fy, lo, xl, xr,
       rows: rows.length ? Math.min(...rows) : null, bottom: tops.length ? Math.min(...tops) - 12 : H - 16,
       film, pane, evBottom, head, why } as any;
   }) as Promise<Sample>;
@@ -191,11 +212,17 @@ const expectContinuous = (S: Sample[], width: number, what: string, fromRest = t
 
 /** ZERO OVERLAP where the band is predictable (the orchestrator's CAM1 condition 1): on every
  *  frame a landing's rows are up, the focus's drawn silhouette (both pair members) sits above the
- *  highest row by 2px — the landing-reveal spec's own test. */
+ *  highest row by 2px — the landing-reveal spec's own test.
+ *  D-350b: a pair ENTIRELY off screen covers nothing, so a frame whose whole silhouette (the 1.6r
+ *  `lo` uses) lies outside [0, W] is excluded; a partly visible pair stays asserted. Both counts
+ *  are reported, and fewer than 31 asserted frames fail, so an all-off-screen run cannot pass. */
 const expectClearOfRows = (S: Sample[], width: number, what: string) => {
   const up = S.filter((x) => x.fi >= 0 && x.rows != null && x.lo != null);
-  expect(up.length, `ZERO overlap ${what}: frames with a focus and rows up`).toBeGreaterThan(30);
-  for (const x of up) expect(x.lo!, `ZERO overlap ${what} @${width}: ${JSON.stringify(x)}`).toBeLessThan(x.rows! - 2);
+  const asserted = up.filter((x) => x.xr! > 0 && x.xl! < x.W);
+  const counts = `asserted ${asserted.length}, excluded ${up.length - asserted.length} (whole silhouette off screen)`;
+  test.info().annotations.push({ type: "clear-of-rows", description: `${what} @${width}: ${counts}` });
+  expect(asserted.length, `ZERO overlap ${what}: frames with a focus, rows up and the pair on screen; ${counts}`).toBeGreaterThan(30);
+  for (const x of asserted) expect(x.lo!, `ZERO overlap ${what} @${width}: ${JSON.stringify(x)}`).toBeLessThan(x.rows! - 2);
 };
 
 /** The visible graph rect, measured from the DOM (not asked of the app). */
@@ -293,7 +320,8 @@ for (const viewport of VIEWPORTS) {
     // NON-KILL, recorded (D-338, 2026-10-20): execution-node-band-removed (D-329's node-band
     // preference replaced by the free-space search) now passes here at 390px. Since D-338 the lifted
     // Videos section is occupied space above the hand, so the free search lands in the node band
-    // anyway and the two framings coincide in this journey. The band preference is not gated here.
+    // anyway and the two framings coincide in this journey: measured only WITH a Videos section, so the
+    // band preference is gated by the no-Videos variant below (D5-S3), not here.
     test("an exchange lands on a new current node: every frame within the bounds, and clear of the rows", async ({ page }) => {
       const j = journey(page);
       await j.boot("/");
@@ -313,6 +341,37 @@ for (const viewport of VIEWPORTS) {
       expect(execFrame.noFit, "no execution frame fell back to the unfitted target").toBe(0);
       expectContinuous(S, W, "exchange");
       expectClearOfRows(S, W, "exchange");
+      const landed = S.findIndex((x, i) => i > 0 && x.fi !== S[0].fi && x.rows != null);
+      expect(landed, "the exchange landed inside the sampled window").toBeGreaterThan(0);
+    });
+
+    // D5-S3 (D-347): the same exchange from a node whose article has NO Videos section, the state the
+    // lifted-Videos equivalence above does not cover.
+    // NON-KILL, recorded (D-350b, H45, against a green baseline): execution-node-band-removed passes
+    // here too. Since D-338 everything below the 390 band is article content (the Moves section, the
+    // column) that frameExecution's free search already counts as occupied, so the free search lands
+    // in the node band and D-329's preference coincides with it at this width. Clearing the rows, the
+    // claim the preference serves, holds without it; the preference itself is ungated here.
+    if (W === 390) test("an exchange from a node with no Videos section lands clear of the rows", async ({ page }) => {
+      const j = journey(page);
+      await j.boot("/");
+      await j.land("Reverse Mount Top");
+      await j.rig("resolve", [0]); await j.rig("outcome", Array(32).fill(0)); await j.rig("opp-finish", [0.99]);
+      await expect(page.locator('[data-reader-ready="true"]')).toBeVisible();
+      expect(await page.evaluate(() => { const r = (window as any).__neural._reader; return { videos: r.sections.some((s: any) => s.type === "videos"), lifted: !!r.videoCard } }),
+        "premise: the article read during the exchange has no Videos section").toEqual({ videos: false, lifted: false });
+      const opt = await page.evaluate(() => {
+        const a = (window as any).__neural;
+        const o = (a.optionIdxs || []).map((i: number) => a.nodes[i]).find((n: any) => n.ty === "transitions");
+        return o ? o.t : null;
+      });
+      expect(opt, "the hand deals a transition").toBeTruthy();
+      await j.pick(opt!);
+      const S = await record(page, 60 * 6);
+      const execFrame = await page.evaluate(() => (window as any).__neural._execFrame || { noFrame: 0, noFit: 0 });
+      expect(execFrame.noFit, "no execution frame fell back to the unfitted target").toBe(0);
+      expectContinuous(S, W, "exchange without Videos");
+      expectClearOfRows(S, W, "exchange without Videos");
       const landed = S.findIndex((x, i) => i > 0 && x.fi !== S[0].fi && x.rows != null);
       expect(landed, "the exchange landed inside the sampled window").toBeGreaterThan(0);
     });

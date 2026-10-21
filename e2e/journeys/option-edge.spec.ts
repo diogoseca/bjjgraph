@@ -705,6 +705,10 @@ test("a real click on the card behind the sheet neither answers it nor destroys 
   await j.land("Mount Top")
   const mc = await j.landQuestion()
   expect(mc, "a live landing question to stand down").toBeTruthy()
+  // D-338 (CI 11e7f83ff): the card now follows Videos and Moves, low enough for the bottom sheet to
+  // cover it whole. Bring it to the reader's top first, so a strip stays exposed above the sheet.
+  await page.evaluate(() => { const a = (window as any).__neural, r = a._reader.root; r.scrollTop += a._landEl.getBoundingClientRect().top - r.getBoundingClientRect().top - 6 })
+  await j.readerLayoutSettled()
 
   await page.keyboard.press("Shift+Digit1") // shifted digit inspects the first option
   await expect(page.locator("[data-go]"), "Shift+1 opened an option sheet").toBeVisible()

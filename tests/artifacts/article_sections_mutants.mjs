@@ -81,7 +81,7 @@ const mutants = [
   // D-331 S1: every placement search fails, so each frame takes the counted no-fit fallback.
   ['execution-no-fit-forced', 'roll-execution.spec.ts', 'execution camera frames the technique at 1440px; pane false; reduced motion false$', s => replace(s, '    const search = within => {', '    const search = within => { return null;')],
   // D-329: drop the reader node band; the 390px exchange's pair is covered by the landing rows again.
-  ['execution-node-band-removed', 'camera-continuity.spec.ts', '390px camera continuity.*an exchange lands on a new current node', s => replace(s, 'const nodeBand = this.nodeBand && this.on("book") ? this.nodeBand : null;', 'const nodeBand = null;')],
+  ['execution-node-band-removed', 'camera-continuity.spec.ts', '390px camera continuity.*an exchange from a node with no Videos section', s => replace(s, 'const nodeBand = this.nodeBand && this.on("book") ? this.nodeBand : null;', 'const nodeBand = null;')],
   ['execution-occupied-space-lost', 'roll-execution.spec.ts', 'execution camera frames.*1440px; pane false; reduced motion false after native wheel', s => replace(s, '  frameExecution(target, node) {', '  frameExecution(target, node) { return target;')],
   // D-333: the reader never publishes a new landing card, so a cold start's greeting stays hidden,
   // (D4-S1) the card behind the list picker is not readable, and (D-336) every claim that a visitor
@@ -107,7 +107,7 @@ const mutants = [
   ['defender-hub-leak', contract, 'defender reading excludes.*Rear-Naked-Choke', s => replace(s, 'shared.replaceChildren(...safety);', '/* mutant: keep the full attacker-rich hub */')],
   ['stale-response', contract, 'a late response cannot repaint', s => replace(replace(s, 'this.abort?.abort();', '/* mutant: no abort */'), 'if (serial !== this.serial || this.app.__ngDestroyed) return;', 'if (this.app.__ngDestroyed) return;')],
   ['toc-current-targets', contract, 'a late response cannot repaint', s => replace(s, 'row.append(link); contents.append(row);', 'if (section.type === "options") { link.textContent = "Decisions from bottom"; link.dataset.sectionLink = "stale-bottom"; } row.append(link); contents.append(row);')],
-  ['reference-videos-removed', seam, 'published reference videos remain playable.*Principles/Frames', s => replace(s, 'if (/^\\/(Principles|Learning|Systems)\\//.test(path) && source)', 'if (false)')],
+  ['reference-videos-removed', seam, 'published reference videos remain playable.*Principles/Frames', s => replace(s, 'if (REFERENCE.test(path) && source)', 'if (false)')],
   ['native-reloads', seam, '1366px media identity and native', s => replace(s, 'if (typeof target.moveBefore === "function")', 'if (false)')],
   ['fallback-no-pause', seam, '1366px media identity and pause-before', s => replace(s, 'else { this.app.pauseLandFilm(); target.appendChild(host);', 'else { target.appendChild(host);')],
   ['fallback-stale-player', seam, '1366px media identity and pause-before', s => replace(s, 'target.appendChild(host); this.app._landFilmMoved();', 'target.appendChild(host);')],
@@ -150,15 +150,40 @@ const mutants = [
   ['d338-page-scrolls-flow-top', 'landcard-deck.spec.ts', '390px MC: deck pages', s => replace(s, 'root.scrollTop = Math.min(root.scrollTop, Math.max(0, top));', 'root.scrollTop = 0;')],
   ['d338-clamped-place-lost', 'pane-layout.spec.ts', 'exposed cards, videos and reading', s => replace(s, '      if (this.placeTop > this.root.scrollTop) this.root.scrollTop = this.placeTop;\n', '')],
   ['d338-running-reader-not-paused', 'pane-layout.spec.ts', 'exposed cards, videos and reading', s => replace(s, '    if (this.interacting && this.app.paused) return;', '    if (this.interacting) return;')],
+  // D5-N1: the deck backs' clearance and the tray's symmetry, each with its own claim.
+  ['d338-deck-backs-unreserved', 'landcard-deck.spec.ts', '1440px: the deck face keeps its 1.5x foot', s => replace(s, 'if (showCard) y += cardHeight + 3 * (a._landStackEl?.childElementCount || 0);', 'if (showCard) y += cardHeight;')],
+  ['d338-tray-asymmetric', sections, 'D-338 1440px Questions and Moves close', s => replace(s, 'const rowLeft = indexEdge && !a.deckShown ? W - indexEdge : 0;', 'const rowLeft = 0;')],
   ['d338-film-waits-for-intent', seam, '1366px the Videos section leads', s => replace(s, 'wantsMedia() { return this.on("book"); }', 'wantsMedia() { return this.on("book") && !!(this.intent || this.interacting); }')],
   ['pressed-answer-moved', 'reading-navigation.spec.ts', '1440px reader adoption during a mouse press', s => replace(s, ' || this.app._readerPress', '')],
+  // D-351: the hold (a landing is unpublished until its article renders; the reader stops honouring it
+  // for the card) and the deferral (parts the ceiling published stay pinned; the reader drops the pin, so
+  // the Videos lift and the rows move). The exchange journey is gated by the pair: either keeps it still.
+  ['d351-hold-removed', 'defending-landing.spec.ts', 'D-351: a catch whose article lands late', s => replace(s, 'const hold = a._readerHold(this, available, W, H), pin', 'const hold = Math.min(0, a._readerHold(this, available, W, H)), pin')],
+  ['d351-deferral-removed', 'defending-landing.spec.ts', 'D-351: past the 800ms ceiling', s => replace(s, ', pin = a._readerPin;', ', pin = null;')],
+  ['d351-both-removed-exchange', sections, 'D-351: an exchange whose article lands late', s => replace(replace(s, 'const hold = a._readerHold(this, available, W, H), pin', 'const hold = Math.min(0, a._readerHold(this, available, W, H)), pin'), ', pin = a._readerPin;', ', pin = null;')],
 ]
 const selection = process.env.SECTIONS_MUTANT_ONLY;
 const selected = selection ? mutants.filter(([name]) => new RegExp(selection).test(name)) : mutants;
 if (!selected.length) throw Error('No mutation controls match ' + selection);
 const receipt = { builtReaderSha256: createHash('sha256').update(originals.get(readerPath)).digest('hex'), selection: selection || 'all', results: [] }
+// D5-B2: a kill counts only against a GREEN unmutated baseline of the same spec and grep, run on the
+// original bytes first (once per pair). A red the head already shows is never recorded as a kill.
+const baselines = new Map()
+const baseline = (spec, grep) => {
+  const key = spec + '\n' + grep
+  if (!baselines.has(key)) {
+    for (const [path, bytes] of originals) writeFileSync(path, bytes)
+    const reportPath = resolve(out, 'baseline-' + baselines.size + '.json')
+    const run = spawnSync(resolve(root, 'node_modules/.bin/playwright'), ['test', '-c', config, spec, '--grep', grep, '--timeout=30000', '--reporter=list,json'], { cwd: root, encoding: 'utf8', timeout: 180000, env: { ...process.env, PLAYWRIGHT_JSON_OUTPUT_FILE: reportPath } })
+    let passed = 0
+    try { const visit = suite => { for (const sp of suite.specs || []) for (const t of sp.tests) for (const r of t.results) if (r.status === 'passed') passed++; for (const c of suite.suites || []) visit(c) }; visit(JSON.parse(readFileSync(reportPath, 'utf8'))) } catch {}
+    baselines.set(key, { green: run.status === 0 && passed > 0, exit: run.status, passed })
+  }
+  return baselines.get(key)
+}
 try {
   for (const [name, spec, grep, mutate, css] of selected) {
+    const base = baseline(spec, grep)
     for (const [path, bytes] of originals) writeFileSync(path, bytes)
     await build({ stdin: { contents: mutate(source), sourcefile: 'reader.src.js', resolveDir: resolve(root, 'neural/src'), loader: 'js' }, bundle: true, format: 'esm', target: 'es2019', minify: true, legalComments: 'none', outfile: readerPath, logLevel: 'silent' })
     if (css) writeFileSync(cssPath, css(originals.get(cssPath).toString()))
@@ -178,11 +203,11 @@ try {
     } catch {}
     // A delivered stimulus must reach its assertion. A wait/test timeout or
     // infrastructure error is NOT a claim-level kill, even with exit 1.
-    const killed = run.status === 1 && failures.length === 1 && failures[0].status === 'failed' &&
+    const killed = base.green && run.status === 1 && failures.length === 1 && failures[0].status === 'failed' &&
       failures[0].errors.length > 0 && failures[0].errors.every(e => /expect\(/.test(e) && !/Test timeout|TimeoutError|page\.waitFor\w+:|locator\.\w+: Timeout/.test(e))
-    receipt.results.push({ name, spec, grep, exit: run.status, killed, failures })
+    receipt.results.push({ name, spec, grep, baseline: base, exit: run.status, killed, failures })
     writeFileSync(resolve(out, 'receipt.json'), JSON.stringify(receipt, null, 2) + '\n')
-    console.log(name + ': ' + (killed ? 'killed (inspect assertion in log)' : 'NOT KILLED'))
+    console.log(name + ': ' + (!base.green ? 'BASELINE RED, not counted' : killed ? 'killed (inspect assertion in log)' : 'NOT KILLED'))
   }
 } finally {
   for (const [path, bytes] of originals) writeFileSync(path, bytes)

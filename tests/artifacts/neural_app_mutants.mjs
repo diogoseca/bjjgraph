@@ -33,14 +33,41 @@ const controls = [
     'a saved Focus no longer hides the question'],
   // The follow-cam lifts the node against the reading band's edge again (two rest framings).
   ['reading-band-lift-restored', 'pane-layout.spec.ts', '1440px pane moves film, card, article',
-    [['c.band||(a.lift={f:this.camFocus', '(a.lift={f:this.camFocus']], 125],
+    [['c.band||(a.lift={f:this.camFocus', '(a.lift={f:this.camFocus']], 127],   // back.node.y; moved from 125 by D-347's pane-layout:82 note
+  // H46 (2026-10-21): landcard-modes:349 now waits for the defender's question before its press; the arrows must
+  // still be what pages it (the defense mode dropped from the landing card's arrow branch).
+  ['defense-arrows-lost', 'landcard-modes.spec.ts', 'the generic defending card pages its own deck with the same arrows',
+    [['["land","attempt","defense"].includes(this._landMode)&&this._landPage!=null&&(n.key==="ArrowLeft"', '["land","attempt"].includes(this._landMode)&&this._landPage!=null&&(n.key==="ArrowLeft"']], 'arrows page the defender deck'],
+  // D-350b: the header's ZERO-overlap mutants (v1.219.0's noprelift / noahead), scripted so the frame filter is
+  // shown not to carry their kills. noprelift: the arrival and the URL intro make no room for the rows.
+  ['noprelift-roll-start', 'camera-continuity.spec.ts', 'camera continuity.*roll start: the intro and the staged arrival',
+    [['_liftForLanding(e,t){let s=this.nodes&&this.nodes[t];', '_liftForLanding(e,t){return e;let s=this.nodes&&this.nodes[t];']], 'ZERO overlap roll start @'],
+  ['noprelift-url-arrival', 'camera-continuity.spec.ts', 'camera continuity.*URL arrival: from the intro',
+    [['_liftForLanding(e,t){let s=this.nodes&&this.nodes[t];', '_liftForLanding(e,t){return e;let s=this.nodes&&this.nodes[t];']], 'ZERO overlap URL arrival @'],
+  // noahead: `_viewRect` ignores `ahead`, so a landing's band is not predicted before its rows mount.
+  ['noahead-exchange-1440', 'camera-continuity.spec.ts', '1440px camera continuity.*an exchange lands on a new current node',
+    [['e&&e.ahead!=null&&e.ahead!==!1&&(a=this._predictBottom(e.ahead),p=!0)', '!1&&(a=this._predictBottom(e.ahead),p=!0)']], 'ZERO overlap exchange @'],
+  ['noahead-exchange-390', 'camera-continuity.spec.ts', '390px camera continuity.*an exchange lands on a new current node',
+    [['e&&e.ahead!=null&&e.ahead!==!1&&(a=this._predictBottom(e.ahead),p=!0)', '!1&&(a=this._predictBottom(e.ahead),p=!0)']], 'ZERO overlap exchange @'],
 ]
 const only = process.env.NEURAL_MUTANT_ONLY ? new RegExp(process.env.NEURAL_MUTANT_ONLY) : null
 const hash = bytes => createHash('sha256').update(bytes).digest('hex')
 mkdirSync(out, { recursive: true })
 const receipt = { original: hash(original), results: [] }
+// D5-B2: a kill counts only against a GREEN unmutated baseline of the same spec and grep (once per pair).
+const baselines = new Map()
+const baseline = (spec, grep) => {
+  const key = spec + '\n' + grep
+  if (!baselines.has(key)) {
+    writeFileSync(app, original)
+    const run = spawnSync(resolve(root, 'node_modules/.bin/playwright'), ['test', '-c', config, spec, '--grep', grep, '--reporter=list'], { cwd: root, encoding: 'utf8', timeout: 240000 })
+    baselines.set(key, { green: run.status === 0 && / passed /.test(run.stdout || ''), exit: run.status })
+  }
+  return baselines.get(key)
+}
 try {
   for (const [name, spec, grep, edits, claim] of controls.filter(([n]) => !only || only.test(n))) {
+    const base = baseline(spec, grep)
     let mutant = source
     for (const [from, to] of edits) {
       if (mutant.split(from).length !== 2) throw Error(name + ': the target moved: ' + from)
@@ -62,11 +89,11 @@ try {
     const errors = failures.flatMap(r => r.errors || [])
     const text = e => (e.message || '').replace(/\u001b\[[0-9;]*m/g, '')
     // A wait timeout is infrastructure/fixture failure, never a mutation kill.
-    const killed = run.status === 1 && failures.length === 1 && failures[0].status === 'failed' && errors.length > 0 &&
+    const killed = base.green && run.status === 1 && failures.length === 1 && failures[0].status === 'failed' && errors.length > 0 &&
       errors.every(e => /expect\(/.test(text(e)) && !/Test timeout|TimeoutError|page\.waitFor\w+:|locator\.\w+: Timeout/.test(text(e))) &&
       errors.some(e => typeof claim === 'number' ? e.location?.line === claim : text(e).includes(claim))
-    receipt.results.push({ name, spec, mutant: hash(mutant), exit: run.status, killed, errors: errors.map(e => text(e).split('\n')[0]) })
-    console.log(name + ': ' + (killed ? 'killed at its claim' : 'NOT KILLED'))
+    receipt.results.push({ name, spec, baseline: base, mutant: hash(mutant), exit: run.status, killed, errors: errors.map(e => text(e).split('\n')[0]) })
+    console.log(name + ': ' + (!base.green ? 'BASELINE RED, not counted' : killed ? 'killed at its claim' : 'NOT KILLED'))
   }
 } finally {
   writeFileSync(app, original)

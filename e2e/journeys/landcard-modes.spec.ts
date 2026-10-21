@@ -357,6 +357,13 @@ test("the generic defending card pages its own deck with the same arrows", async
   })
   await j.advance(300)
   await expect(page.locator('[data-landcard="defense"]'), "the panic card is up").toBeVisible()
+  // STALE TIMING (H46, 2026-10-21): the card's SHELL is visible one deck fetch before its question
+  // docks, and an arrow with no question pages nothing (correctly). Delaying that fetch 1.5s
+  // reproduced the red exactly (no question at the press, 0 pages, "1/5"); settling first paged
+  // once (probe H48). The press now waits for the question, as a premise.
+  await j.landSettled()
+  expect(await page.evaluate(() => { const a = (window as W).__neural; return { page: a._landPage, q: !!a._landEl?.querySelector("[data-land-q]") } }),
+    "premise: the defender's question is mounted at its first card").toEqual({ page: 0, q: true })
   const b0 = await j.beats()
   await page.keyboard.press("ArrowRight")
   await j.landSettled()

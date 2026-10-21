@@ -411,7 +411,12 @@ for (const viewport of [{ width: 1440, height: 900 }, { width: 1152, height: 900
       if (part === 'card') await expect(page.locator('[data-landcard]'), 'the open question is a visible card').toBeVisible()
       // Moves sits beside the index's rows: the tray ends 12px short of it (clickByMouse below
       // also proves its ✕ is reachable, which it was not under an index link at 1152px).
-      if (hasToc && part === 'hand') expect(await page.evaluate(() => { const a = (window as any).__neural; return a._reader.contents.getBoundingClientRect().left - a.optionsRef.current.getBoundingClientRect().right })).toBeGreaterThanOrEqual(12)
+      if (hasToc && part === 'hand') {
+        const tray = await page.evaluate(() => { const a = (window as any).__neural, t = a.optionsRef.current.getBoundingClientRect(), c = a._reader.articleEl.getBoundingClientRect()
+          return { gap: a._reader.contents.getBoundingClientRect().left - t.right, off: (t.left + t.right) / 2 - (c.left + c.right) / 2 } })
+        expect(tray.gap, 'the Moves tray ends 12px short of the index').toBeGreaterThanOrEqual(12)
+        expect(Math.abs(tray.off), 'the Moves tray is centred on the article column').toBeLessThan(1)
+      }
       await j.clickByMouse(close, `the ${part}'s own ✕`)
       await expect(label).toBeVisible()
       await expect(label).toHaveAttribute('aria-expanded', 'false')
@@ -609,4 +614,60 @@ test('@curated unknown authored sections and cross-section anchors survive regro
   await expect(body).toBeHidden()
   expect(await body.evaluate(e => (e as HTMLElement).inert)).toBe(true)
   expect(await state(page)).toMatchObject({ paused: true, played: false, deals: 0, misses: 0 })
+})
+
+// D-351: the other mid-game path change. An exchange lands on a new node whose article (and its
+// Videos section, which leads the view since D-338) arrives after the landing: the reader holds
+// the new landing's card and hand until it renders, so neither is ever shown at one place and
+// then moved. Each role page is held 500ms; the hub fetched after it is not, so holds never stack.
+test('D-351: an exchange whose article lands late never moves the new card or hand once shown', async ({ page }) => {
+  const j = journey(page)
+  await j.boot('/')
+  await j.land('Mount Top')
+  await expect(page.locator(READY)).toBeVisible()
+  await j.rig('resolve', [0]); await j.rig('outcome', Array(32).fill(0)); await j.rig('opp-finish', [0.99])
+  const held: string[] = []
+  await page.route((url) => /^\/(Positions|Transitions|Submissions)\/.*\/(Top|Bottom|Attacker|Defender)$/.test(url.pathname), async (route) => {
+    if (route.request().resourceType() === 'fetch') { held.push(new URL(route.request().url()).pathname); await new Promise((r) => setTimeout(r, 500)) }
+    await route.continue()
+  })
+  const start = await page.evaluate(() => {
+    const w = window as any, a = w.__neural, out: any[] = (w.__d351 = [])
+    const rect = (el: HTMLElement | null) => {
+      const box = el?.getBoundingClientRect()
+      return el && box!.height && getComputedStyle(el).visibility !== 'hidden' ? Math.round(box!.top * 2) / 2 : null
+    }
+    const tick = () => {
+      const r = a._reader
+      out.push({ idx: a._landIdx, ready: r.root.dataset.readerReady, path: r.path, present: !!a._landEl, card: rect(a._landEl), hand: rect(a.optionsRef.current) })
+      if (!w.__d351stop) requestAnimationFrame(tick)
+    }
+    requestAnimationFrame(tick)
+    return a._landIdx
+  })
+  // A move that leaves Mount for a full position (its own deck, hand and Videos section).
+  const opt = await page.evaluate(() => {
+    const a = (window as any).__neural, dealt = (a.optionIdxs || []).map((i: number) => a.nodes[i].t)
+    return ['Mount to Knee on Belly', 'Mount to 3-4 Mount'].find((t) => dealt.includes(t)) ?? null
+  })
+  expect(opt, 'the hand deals a move to another position').toBeTruthy()
+  await j.pick(opt!)
+  // The exchange's execution and flight run on the pumped clock (camera-continuity samples 6s).
+  for (let i = 0; i < 40; i++) await j.advance(150)
+  await expect.poll(async () => { await j.advance(150); return page.evaluate((s) => { const a = (window as any).__neural, r = a._reader
+    return { landed: a._landIdx === a.currentPos && a.currentPos !== s, card: !!a._landEl, ready: r.root.dataset.readerReady, path: r.path } }, start) },
+    { timeout: 20_000, intervals: [100], message: 'the exchange landed and its article rendered' }).toMatchObject({ landed: true, card: true, ready: 'true', path: expect.stringMatching(/^\/Positions\/(Knee-on-Belly|Mount\/3-4-Mount)/) })
+  // Keep tracing the published landing for a while: a late move would show after publication.
+  await expect.poll(() => page.evaluate(() => { const w = window as any; return w.__d351.filter((x: any) => x.idx === w.__neural._landIdx && x.card != null).length }),
+    { message: 'the published landing was traced for 30 frames' }).toBeGreaterThan(30)
+  const S = await page.evaluate(() => { (window as any).__d351stop = true; return (window as any).__d351 as any[] })
+  const landed = S[S.length - 1], mine = S.filter((x) => x.idx === landed.idx)
+  const rendered = (x: any) => x.ready === 'true' && x.path === landed.path
+  expect(held.length, 'premise: the landing article fetch was held').toBeGreaterThan(0)
+  expect(mine.some((x) => x.present && !rendered(x)), 'premise: the new landing existed while its article was loading').toBe(true)
+  for (const part of ['card', 'hand'] as const) {
+    const tops = mine.map((x) => x[part]).filter((y) => y != null)
+    expect(tops.length, `premise: the new ${part} was traced on screen`).toBeGreaterThan(3)
+    expect(Math.max(...tops) - Math.min(...tops), `the new ${part} is shown once, at its final place`).toBeLessThan(0.5)
+  }
 })

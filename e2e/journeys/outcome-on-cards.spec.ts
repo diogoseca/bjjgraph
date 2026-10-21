@@ -112,6 +112,9 @@ async function setup(page: Page, width: number, height: number) {
   await j.land("Mount Top");
   expect(await j.landQuestion(), "the landing asks a question").not.toBeNull();
   await j.advance(200); // let the hand settle under the card
+  // D-338: Questions follows Videos and Moves and can start below the fold; bring it into view first.
+  await page.locator("[data-landcard]").evaluate((e) => e.scrollIntoView({ block: "nearest" }));
+  await j.readerLayoutSettled();
   return j;
 }
 // answer through the real MC buttons; which option is right/trap comes from the MC truth itself
@@ -122,7 +125,12 @@ async function answer(page: Page, which: "wrong" | "trap" | "correct") {
     return m.tiers.findIndex((t: string, i: number) => i !== m.correct && (w === "trap" ? t === "trap" : t !== "trap"));
   }, which);
   expect(pick, `a ${which} option exists on this card`).toBeGreaterThanOrEqual(0);
-  await page.locator("[data-land-mc-opt]").nth(pick).click();
+  // A real mouse at the measured centre (D-338): locator.click()'s scroll-into-view retry would move the
+  // reader, and the label measured before the answer, under the cause it anchors.
+  const b = page.locator("[data-land-mc-opt]").nth(pick), r = (await b.boundingBox())!;
+  const at = { x: r.x + r.width / 2, y: r.y + r.height / 2 };
+  expect(await b.evaluate((el, p) => el.contains(document.elementFromPoint(p.x, p.y)), at), "the answer is reachable by mouse where it sits").toBe(true);
+  await page.mouse.click(at.x, at.y);
 }
 
 for (const vp of VIEWS) {
@@ -293,6 +301,9 @@ for (const vp of VIEWS) {
     const j = await setup(page, vp.width, vp.height);
     await page.evaluate(() => (window as any).__neural.setLayer("hand", false, "test"));
     await j.advance(200);
+    // STALE TIMING (H61, 3 of 10 red, probe H62): putting the hand away moves the card up 140px on the
+    // reader's next layout frame, which a pumped advance does not always include; measure after it.
+    await j.readerLayoutSettled();
     const land = await page.evaluate(() => {
       const el: any = (window as any).__neural._landEl;
       const r = el ? el.getBoundingClientRect() : null;

@@ -104,6 +104,15 @@ for (const kind of ["transition", "entry", "finish", "escape"] as Kind[]) {
     const title = await mark(page, kind)
     const before = await state(page)
 
+    // STALE SPEC (D-338, D-347): beside the index the Moves tray is a scroller, so the marked card can
+    // sit past its clip; a reader scrolls the tray to it first.
+    // The tray can still glide after Inspect closes: scroll until the marked card sits inside its clip.
+    const reach = () => expect.poll(() => page.evaluate(() => {
+      const t = document.querySelector("[data-cc-target]") as HTMLElement, row = document.querySelector(".ng-optionrow")!.getBoundingClientRect(), b = t.getBoundingClientRect()
+      if (b.left >= row.left - 1 && b.right <= row.right + 1) return true
+      t.scrollIntoView({ block: "nearest", inline: "nearest" }); return false
+    }), { message: "the marked card is scrolled inside the tray", timeout: 10000 }).toBe(true)
+    await reach(); await j.readerLayoutSettled()
     await j.clickByMouse("[data-cc-target] [data-choice-inspect]", `the Inspect control of "${title}"`)
     const inspected = await state(page)
     expect(inspected.inspecting, `Inspect on "${title}" opens its detail`).toBe(true)
@@ -113,6 +122,7 @@ for (const kind of ["transition", "entry", "finish", "escape"] as Kind[]) {
     await page.keyboard.press("Escape")
     await expect.poll(async () => (await state(page)).inspecting, "Escape closes the inspection").toBe(false)
 
+    await reach(); await j.readerLayoutSettled()
     await j.clickByMouse("[data-cc-target] .ngchoice-title", `the body of "${title}"`)
     const executed = await state(page)
     expect(executed.inspecting, `a click on the body of "${title}" does not inspect`).toBe(false)
