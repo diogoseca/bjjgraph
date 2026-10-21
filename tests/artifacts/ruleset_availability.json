@@ -9,7 +9,7 @@
       "excluded_positions": 0,
       "excluded_techniques": 0,
       "unreachable_positions": 0,
-      "unreachable_techniques": 21,
+      "unreachable_techniques": 20,
       "acts": false
     },
     "nogi": {
@@ -264,10 +264,6 @@
           "name": "Kneebar"
         },
         {
-          "id": "kneebar-from-carni",
-          "name": "Kneebar from Carni"
-        },
-        {
           "id": "lapel-clear-to-toreando-pass",
           "name": "Lapel Clear to Toreando Pass"
         },
@@ -520,6 +516,10 @@
           "name": "Strip Russian Leg Lasso"
         },
         {
+          "id": "sweep-from-leg-weave",
+          "name": "Sweep from Leg Weave"
+        },
+        {
           "id": "toreando-from-double-sleeve",
           "name": "Toreando from Double Sleeve"
         },
@@ -609,10 +609,6 @@
         {
           "id": "kneebar",
           "name": "Kneebar"
-        },
-        {
-          "id": "kneebar-from-carni",
-          "name": "Kneebar from Carni"
         },
         {
           "id": "outside-heel-hook-adjustment",
