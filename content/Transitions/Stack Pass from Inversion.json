@@ -41,7 +41,7 @@
     "gi": 58,
     "nogi": 58
   },
-  "overview": "Inverted guards like inverted guard win by trading stability for leg access, basing on the shoulders and elevating the hips to hunt sweeps and leg entanglements against a standing or kneeling passer. The stack pass weaponizes that very elevation against them: instead of letting the bottom player use their high hips offensively, you fold those hips back over their own shoulders, compressing the spine into flexion until their legs become heavy, immobile dead weight that can no longer generate sweeping or entangling power.\n\nThis pass requires precise timing, as attempting to stack against a fully established inversion with active legs will likely result in leg entanglements or sweeps. The optimal window occurs when the bottom player's hips begin to drop from fatigue or during transitions between leg configurations. Recognizing this window separates successful stack passers from those who get caught in leg attacks.\n\nStrategically, the stack pass represents a commitment - once you drive forward, you cannot easily disengage without giving up position. This makes it critical to secure adequate leg control before initiating the stack. The technique works best as part of a pressure passing system where you've already forced the opponent to work hard maintaining their inversion, creating the fatigue that opens the stacking opportunity.",
+  "overview": "Inverted guards like inverted guard win by trading stability for leg access, basing on the shoulders and elevating the hips to hunt sweeps and leg entanglements against a standing or kneeling passer. The stack pass weaponizes that very elevation against them: instead of letting the bottom player use their high hips offensively, you fold those hips back over their own shoulders, compressing the spine into flexion until their legs become heavy, immobile dead weight that can no longer generate sweeping or entangling power.\n\nThis pass requires precise timing, as attempting to stack against a fully established inversion with active legs will likely result in leg entanglements or sweeps. The optimal window occurs when the bottom player's hips begin to drop from fatigue or during transitions between leg configurations. Recognizing this window separates successful stack passers from those who get caught in leg attacks.\n\nStrategically, the stack pass represents a commitment - once you drive forward, you cannot easily disengage without giving up position. This makes it critical to secure adequate leg control before initiating the stack. The technique works best as part of a pressure passing system where you've already forced the opponent to work hard maintaining their inversion, creating the fatigue that opens the stacking opportunity.\n\nCenter entry and leg clearance: Lower your level against the elevated legs and control the hips without loading the neck. Maintain contact while directing the legs aside, clear the remaining knee and foot barriers, then establish crossface control and consolidate side control. The center entry changes timing, not the need to clear the legs.",
   "related_content": [
     {
       "name": "Inverted Guard",
@@ -83,7 +83,7 @@
   "attacker": {
     "name": "Stack Pass from Inversion Attacker",
     "description": "How to execute Stack Pass from Inversion in BJJ. Attacking perspective with setup, execution steps, and counters.",
-    "overview": "The Stack Pass from Inversion is a high-pressure passing technique designed to neutralize inverted guard players by driving their hips over their shoulders, compressing their spine and eliminating their mobility. When facing inverted guard or similar inverted positions, the bottom player relies on hip elevation and leg mobility to threaten sweeps and leg entanglements. The stack pass directly attacks this mechanic by reversing the pressure dynamic - instead of allowing them to use their elevated hips offensively, you fold them over themselves, making their legs heavy and immobile.\n\nThis pass requires precise timing, as attempting to stack against a fully established inversion with active legs will likely result in leg entanglements or sweeps. The optimal window occurs when the bottom player's hips begin to drop from fatigue or during transitions between leg configurations. Recognizing this window separates successful stack passers from those who get caught in leg attacks.\n\nStrategically, the stack pass represents a commitment - once you drive forward, you cannot easily disengage without giving up position. This makes it critical to secure adequate leg control before initiating the stack. The technique works best as part of a pressure passing system where you've already forced the opponent to work hard maintaining their inversion, creating the fatigue that opens the stacking opportunity.",
+    "overview": "The Stack Pass from Inversion is a high-pressure passing technique designed to neutralize inverted guard players by driving their hips over their shoulders, compressing their spine and eliminating their mobility. When facing inverted guard or similar inverted positions, the bottom player relies on hip elevation and leg mobility to threaten sweeps and leg entanglements. The stack pass directly attacks this mechanic by reversing the pressure dynamic - instead of allowing them to use their elevated hips offensively, you fold them over themselves, making their legs heavy and immobile.\n\nThis pass requires precise timing, as attempting to stack against a fully established inversion with active legs will likely result in leg entanglements or sweeps. The optimal window occurs when the bottom player's hips begin to drop from fatigue or during transitions between leg configurations. Recognizing this window separates successful stack passers from those who get caught in leg attacks.\n\nStrategically, the stack pass represents a commitment - once you drive forward, you cannot easily disengage without giving up position. This makes it critical to secure adequate leg control before initiating the stack. The technique works best as part of a pressure passing system where you've already forced the opponent to work hard maintaining their inversion, creating the fatigue that opens the stacking opportunity.\n\nLower your level against the elevated legs and control the hips without loading the neck. Maintain contact while directing the legs aside, clear the remaining knee and foot barriers, then establish crossface control and consolidate side control. The center entry changes timing, not the need to clear the legs.",
     "key_principles": [
       "Control opponent's legs before initiating forward pressure to prevent leg entanglements",
       "Drive hips over shoulders rather than just pressing down to create true compression",
@@ -118,7 +118,7 @@
       {
         "step_number": 4,
         "action": "Stack the hips",
-        "description": "Continue driving until opponent's hips pass over their shoulders, compressing their spine into a folded position with their weight resting on their upper back and neck"
+        "description": "Control the elevated legs and direct them aside while keeping the guard player supported on the shoulders and upper back. Do not drive the hips onto the head or neck. Stop and release if the neck is loaded; clear the knees and feet before consolidating side control."
       },
       {
         "step_number": 5,
@@ -349,15 +349,15 @@
       },
       {
         "question": "What direction of force should you apply during the stacking phase, and why does the angle matter?",
-        "answer": "The force must be directed forward and slightly upward through the opponent's legs, driving their hips past their shoulders toward their head. A purely downward force allows hip mobility to persist. The forward-through angle compresses the spine into flexion, loading the opponent's weight onto their upper back and neck, which eliminates the hip elevation necessary for all inverted guard attacks.",
-        "answer_line": "Forward and slightly upward",
+        "answer": "Control the elevated legs and redirect them while the guard player remains supported on the shoulders and upper back. Keep pressure off the head and neck. Clear the remaining knee and foot barriers, then consolidate side control.",
+        "answer_line": "Redirect legs while protecting the neck",
         "distractors": {
           "plausible": [
-            "Straight down with full weight",
-            "Backward to break their posture"
+            "Drive the hips onto the neck",
+            "Pin the head before clearing the legs"
           ],
           "trap": [
-            "Twist hips sideways for control"
+            "Hold the stack despite a verbal stop"
           ]
         }
       },
@@ -564,6 +564,11 @@
       "variant_name": "Stack to Mount",
       "description": "Instead of passing to side control, step directly over into mount as opponent's legs are compressed, using the stacked position to bypass side control entirely",
       "when_to_use": "When opponent's guard collapses completely and mount path is clear"
+    },
+    {
+      "variant_name": "Center entry and leg clearance",
+      "description": "Lower your level against the elevated legs and control the hips without loading the neck. Maintain contact while directing the legs aside, clear the remaining knee and foot barriers, then establish crossface control and consolidate side control. The center entry changes timing, not the need to clear the legs.",
+      "when_to_use": "Against the shoulder-supported inversion described in Inverted Guard."
     }
   ],
   "position_integration": "The Stack Pass from Inversion fits within the pressure passing system as a response to inverted guards. It typically appears after guard engagement when the opponent inverts to defend leg drags or toreando passes. The technique chains naturally with other pressure passes - a defended stack often opens leg drag opportunities when the opponent Granby rolls, while a successful stack leads directly to side control and the submission chains available there. Understanding when to stack versus when to use alternative passes (back step, leg drag) based on the opponent's leg configuration and fatigue level is essential for high-level guard passing.",

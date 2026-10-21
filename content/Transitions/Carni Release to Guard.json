@@ -1,0 +1,374 @@
+{
+  "name": "Carni Release to Guard",
+  "from_position": "Carni/Bottom",
+  "success_rate": {
+    "gi": 60,
+    "nogi": 60
+  },
+  "outcomes": [
+    {
+      "to": "Closed Guard/Bottom",
+      "probability": {
+        "gi": 60,
+        "nogi": 60
+      },
+      "result": "success"
+    },
+    {
+      "to": "Carni/Bottom",
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
+      "result": "failure"
+    },
+    {
+      "to": "Open Guard/Bottom",
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
+      "result": "counter"
+    }
+  ],
+  "summary": "The Carni holder releases wrist and shoulder pressure, opens the leg-assisted arm clamp, and restores a facing guard with inside frames and comfortable knee alignment.",
+  "description": "The Carni holder releases wrist and shoulder pressure, opens the leg-assisted arm clamp, and restores a facing guard with inside frames and comfortable knee alignment.",
+  "tags": [
+    "bjj",
+    "transition",
+    "guard"
+  ],
+  "overview": "The Carni holder releases wrist and shoulder pressure, opens the leg-assisted arm clamp, and restores a facing guard with inside frames and comfortable knee alignment.\n\nBegin as the player applying Carni, with the opponent's upper arm and shoulder captured by your leg connection. Stop the submission loading before letting the opponent's arm move through the enclosure.\n\nSupport the knee and move through the hip to open the clamp; do not wrench the foot to free the arm. Retain a forearm barrier as the shoulder is released so you can remain facing the opponent. Bring the knees into a comfortable guard shape as the high-leg connection opens. Close ordinary guard when the distance permits. If it does not, maintain facing open guard rather than forcing the ankles together.\n\nPractice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route.",
+  "related_content": [
+    {
+      "name": "Carni",
+      "relationship": "Starting configuration; establish these controls before attempting the action."
+    },
+    {
+      "name": "Closed Guard",
+      "relationship": "An approved landing or reset; confirm its controls before treating the action as complete."
+    },
+    {
+      "name": "Open Guard",
+      "relationship": "An approved landing or reset; confirm its controls before treating the action as complete."
+    }
+  ],
+  "attacker": {
+    "name": "Carni Release to Guard Attacker",
+    "description": "The Carni holder releases wrist and shoulder pressure, opens the leg-assisted arm clamp, and restores a facing guard with inside frames and comfortable knee alignment.",
+    "overview": "The Carni holder releases wrist and shoulder pressure, opens the leg-assisted arm clamp, and restores a facing guard with inside frames and comfortable knee alignment.\n\nBegin as the player applying Carni, with the opponent's upper arm and shoulder captured by your leg connection. Stop the submission loading before letting the opponent's arm move through the enclosure.\n\nSupport the knee and move through the hip to open the clamp; do not wrench the foot to free the arm. Retain a forearm barrier as the shoulder is released so you can remain facing the opponent. Bring the knees into a comfortable guard shape as the high-leg connection opens. Close ordinary guard when the distance permits. If it does not, maintain facing open guard rather than forcing the ankles together.\n\nPractice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route.",
+    "key_principles": [
+      "Bottom player owns the shoulder clamp: Begin as the player applying Carni, with the opponent's upper arm and shoulder captured by your leg connection.",
+      "Wrist and shoulder pressure released: Stop the submission loading before letting the opponent's arm move through the enclosure.",
+      "Hip-led release of the high leg: Support the knee and move through the hip to open the clamp; do not wrench the foot to free the arm.",
+      "Forearm between the upper bodies: Retain a forearm barrier as the shoulder is released so you can remain facing the opponent.",
+      "Knees return between the torsos: Bring the knees into a comfortable guard shape as the high-leg connection opens.",
+      "Closed guard underneath: Close ordinary guard when the distance permits. If it does not, maintain facing open guard rather than forcing the ankles together."
+    ],
+    "setup_requirements": [
+      "Begin as the player applying Carni, with the opponent's upper arm and shoulder captured by your leg connection.",
+      "Stop the submission loading before letting the opponent's arm move through the enclosure.",
+      "Support the knee and move through the hip to open the clamp; do not wrench the foot to free the arm.",
+      "Retain a forearm barrier as the shoulder is released so you can remain facing the opponent."
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Recognize the holding side",
+        "description": "Begin as the player applying Carni, with the opponent's upper arm and shoulder captured by your leg connection."
+      },
+      {
+        "step_number": 2,
+        "action": "Remove wrist leverage",
+        "description": "Stop the submission loading before letting the opponent's arm move through the enclosure."
+      },
+      {
+        "step_number": 3,
+        "action": "Open the leg clamp",
+        "description": "Support the knee and move through the hip to open the clamp; do not wrench the foot to free the arm."
+      },
+      {
+        "step_number": 4,
+        "action": "Keep an inside frame",
+        "description": "Retain a forearm barrier as the shoulder is released so you can remain facing the opponent."
+      },
+      {
+        "step_number": 5,
+        "action": "Restore the knees",
+        "description": "Bring the knees into a comfortable guard shape as the high-leg connection opens."
+      },
+      {
+        "step_number": 6,
+        "action": "Confirm the guard reset",
+        "description": "Close ordinary guard when the distance permits. If it does not, maintain facing open guard rather than forcing the ankles together."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Keep the captured arm compact until the holder removes shoulder pressure.",
+        "effectiveness": "Medium",
+        "your_response": "Keep the required control or use the stated reset; do not force the next movement.",
+        "targets_outcome": "Carni/Bottom"
+      },
+      {
+        "counter": "Follow the leg opening without rotating against a fixed wrist.",
+        "effectiveness": "Medium",
+        "your_response": "Keep the required control or use the stated reset; do not force the next movement.",
+        "targets_outcome": "Carni/Bottom"
+      },
+      {
+        "counter": "Maintain an inside frame as the high clamp comes apart.",
+        "effectiveness": "Medium",
+        "your_response": "Keep the required control or use the stated reset; do not force the next movement.",
+        "targets_outcome": "Open Guard/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Skipping recognize the holding side",
+        "consequence": "The next action lacks its required control.",
+        "correction": "Begin as the player applying Carni, with the opponent's upper arm and shoulder captured by your leg connection."
+      },
+      {
+        "error": "Skipping remove wrist leverage",
+        "consequence": "The next action lacks its required control.",
+        "correction": "Stop the submission loading before letting the opponent's arm move through the enclosure."
+      },
+      {
+        "error": "Skipping open the leg clamp",
+        "consequence": "The next action lacks its required control.",
+        "correction": "Support the knee and move through the hip to open the clamp; do not wrench the foot to free the arm."
+      },
+      {
+        "error": "Skipping keep an inside frame",
+        "consequence": "The next action lacks its required control.",
+        "correction": "Retain a forearm barrier as the shoulder is released so you can remain facing the opponent."
+      },
+      {
+        "error": "Skipping restore the knees",
+        "consequence": "The next action lacks its required control.",
+        "correction": "Bring the knees into a comfortable guard shape as the high-leg connection opens."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1",
+        "focus": "Recognize the holding side",
+        "description": "Begin as the player applying Carni, with the opponent's upper arm and shoulder captured by your leg connection. Pause at this checkpoint with a cooperative partner before linking the next step."
+      },
+      {
+        "phase": "Phase 2",
+        "focus": "Remove wrist leverage",
+        "description": "Stop the submission loading before letting the opponent's arm move through the enclosure. Pause at this checkpoint with a cooperative partner before linking the next step."
+      },
+      {
+        "phase": "Phase 3",
+        "focus": "Open the leg clamp",
+        "description": "Support the knee and move through the hip to open the clamp; do not wrench the foot to free the arm. Pause at this checkpoint with a cooperative partner before linking the next step."
+      },
+      {
+        "phase": "Phase 4",
+        "focus": "Keep an inside frame",
+        "description": "Retain a forearm barrier as the shoulder is released so you can remain facing the opponent. Pause at this checkpoint with a cooperative partner before linking the next step."
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "Carni Release to Guard: what does recognize the holding side require?",
+        "answer": "Begin as the player applying Carni, with the opponent's upper arm and shoulder captured by your leg connection.",
+        "answer_line": "Bottom player owns the shoulder clamp",
+        "distractors": {
+          "plausible": [
+            "An ankle-release from a heel hook",
+            "A reversal directly into top mount"
+          ],
+          "trap": [
+            "Pulling the foot against a fixed knee"
+          ]
+        }
+      },
+      {
+        "question": "Carni Release to Guard: what does remove wrist leverage require?",
+        "answer": "Stop the submission loading before letting the opponent's arm move through the enclosure.",
+        "answer_line": "Wrist and shoulder pressure released",
+        "distractors": {
+          "plausible": [
+            "A reversal directly into top mount",
+            "Pulling the foot against a fixed knee"
+          ],
+          "trap": [
+            "Turning before shoulder pressure ends"
+          ]
+        }
+      },
+      {
+        "question": "Carni Release to Guard: what does open the leg clamp require?",
+        "answer": "Support the knee and move through the hip to open the clamp; do not wrench the foot to free the arm.",
+        "answer_line": "Hip-led release of the high leg",
+        "distractors": {
+          "plausible": [
+            "Pulling the foot against a fixed knee",
+            "Turning before shoulder pressure ends"
+          ],
+          "trap": [
+            "An ankle-release from a heel hook"
+          ]
+        }
+      },
+      {
+        "question": "Carni Release to Guard: what does keep an inside frame require?",
+        "answer": "Retain a forearm barrier as the shoulder is released so you can remain facing the opponent.",
+        "answer_line": "Forearm between the upper bodies",
+        "distractors": {
+          "plausible": [
+            "Turning before shoulder pressure ends",
+            "An ankle-release from a heel hook"
+          ],
+          "trap": [
+            "A reversal directly into top mount"
+          ]
+        }
+      },
+      {
+        "question": "Carni Release to Guard: what does restore the knees require?",
+        "answer": "Bring the knees into a comfortable guard shape as the high-leg connection opens.",
+        "answer_line": "Knees return between the torsos",
+        "distractors": {
+          "plausible": [
+            "An ankle-release from a heel hook",
+            "A reversal directly into top mount"
+          ],
+          "trap": [
+            "Pulling the foot against a fixed knee"
+          ]
+        }
+      },
+      {
+        "question": "Carni Release to Guard: what does confirm the guard reset require?",
+        "answer": "Close ordinary guard when the distance permits. If it does not, maintain facing open guard rather than forcing the ankles together.",
+        "answer_line": "Closed guard underneath",
+        "distractors": {
+          "plausible": [
+            "A reversal directly into top mount",
+            "Pulling the foot against a fixed knee"
+          ],
+          "trap": [
+            "Turning before shoulder pressure ends"
+          ]
+        }
+      }
+    ],
+    "safety_considerations": "Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route."
+  },
+  "defender": {
+    "name": "Carni Release to Guard Defender",
+    "description": "Recognize Carni Release to Guard and interrupt its required connections before the final control is established.",
+    "overview": "You oppose the performer of this action. Keep the captured arm compact until the holder removes shoulder pressure. Follow the leg opening without rotating against a fixed wrist. Maintain an inside frame as the high clamp comes apart. Recognize retained Carni control if the holder cannot safely open the leg connection. Recover posture after the shoulder is free, while respecting the remaining open guard.\n\nPractice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route.",
+    "key_principles": [
+      "Keep the captured arm compact until the holder removes shoulder pressure.",
+      "Follow the leg opening without rotating against a fixed wrist.",
+      "Maintain an inside frame as the high clamp comes apart.",
+      "Recognize retained Carni control if the holder cannot safely open the leg connection.",
+      "Recover posture after the shoulder is free, while respecting the remaining open guard."
+    ],
+    "recognition_cues": [
+      "Begin as the player applying Carni, with the opponent's upper arm and shoulder captured by your leg connection.",
+      "Stop the submission loading before letting the opponent's arm move through the enclosure.",
+      "Support the knee and move through the hip to open the clamp; do not wrench the foot to free the arm."
+    ],
+    "defensive_options": [
+      {
+        "action": "Keep the captured arm compact until the holder removes shoulder pressure.",
+        "when_to_use": "Before the next connection or pressure is established.",
+        "targets_outcome": "Carni/Bottom",
+        "if_successful": "The continuation is interrupted; confirm the remaining controls before continuing.",
+        "risk": "Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route."
+      },
+      {
+        "action": "Follow the leg opening without rotating against a fixed wrist.",
+        "when_to_use": "Before the next connection or pressure is established.",
+        "targets_outcome": "Carni/Bottom",
+        "if_successful": "The continuation is interrupted; confirm the remaining controls before continuing.",
+        "risk": "Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route."
+      },
+      {
+        "action": "Maintain an inside frame as the high clamp comes apart.",
+        "when_to_use": "Before the next connection or pressure is established.",
+        "targets_outcome": "Open Guard/Bottom",
+        "if_successful": "The continuation is interrupted; confirm the remaining controls before continuing.",
+        "risk": "Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route."
+      },
+      {
+        "action": "Recognize retained Carni control if the holder cannot safely open the leg connection.",
+        "when_to_use": "Before the next connection or pressure is established.",
+        "targets_outcome": "Open Guard/Bottom",
+        "if_successful": "The continuation is interrupted; confirm the remaining controls before continuing.",
+        "risk": "Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route."
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Carni/Bottom",
+        "how": "Keep the captured arm compact until the holder removes shoulder pressure."
+      },
+      {
+        "outcome": "Open Guard/Bottom",
+        "how": "Recover posture after the shoulder is free, while respecting the remaining open guard."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Acting after the joint or neck is already loaded",
+        "consequence": "The attempted movement may increase pressure.",
+        "correction": "Tap and release before moving."
+      },
+      {
+        "error": "Assuming a cleared grip completes the escape",
+        "consequence": "The remaining control can still prevent the intended landing.",
+        "correction": "Recover posture after the shoulder is free, while respecting the remaining open guard."
+      },
+      {
+        "error": "Losing a stable base during the response",
+        "consequence": "You may concede the next connection.",
+        "correction": "Follow the leg opening without rotating against a fixed wrist."
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "Against Carni Release to Guard, what connection do you address first?",
+        "answer": "Keep the captured arm compact until the holder removes shoulder pressure."
+      },
+      {
+        "question": "Against Carni Release to Guard, when must you stop moving?",
+        "answer": "Stop at a tap, verbal signal, distress, or a loaded joint or neck. Release before changing direction."
+      },
+      {
+        "question": "Against Carni Release to Guard, does interrupting one grip guarantee a new position?",
+        "answer": "No. Confirm the remaining body and leg controls before claiming the guard, pin, or submission has changed."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1",
+        "focus": "Recognize the holding side",
+        "description": "Begin as the player applying Carni, with the opponent's upper arm and shoulder captured by your leg connection. Pause at this checkpoint with a cooperative partner before linking the next step."
+      },
+      {
+        "phase": "Phase 2",
+        "focus": "Remove wrist leverage",
+        "description": "Stop the submission loading before letting the opponent's arm move through the enclosure. Pause at this checkpoint with a cooperative partner before linking the next step."
+      },
+      {
+        "phase": "Phase 3",
+        "focus": "Open the leg clamp",
+        "description": "Support the knee and move through the hip to open the clamp; do not wrench the foot to free the arm. Pause at this checkpoint with a cooperative partner before linking the next step."
+      }
+    ]
+  },
+  "conditions": [
+    "Begin as the player applying Carni, with the opponent's upper arm and shoulder captured by your leg connection.",
+    "Stop the submission loading before letting the opponent's arm move through the enclosure.",
+    "Support the knee and move through the hip to open the clamp; do not wrench the foot to free the arm."
+  ],
+  "position_integration": "The Carni holder releases wrist and shoulder pressure, opens the leg-assisted arm clamp, and restores a facing guard with inside frames and comfortable knee alignment. Begin as the player applying Carni, with the opponent's upper arm and shoulder captured by your leg connection. Close ordinary guard when the distance permits. If it does not, maintain facing open guard rather than forcing the ankles together."
+}

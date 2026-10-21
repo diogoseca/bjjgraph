@@ -277,64 +277,57 @@
       {
         "transition": "Side Control to Mount",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 11,
+          "nogi": 11
         }
       },
       {
         "transition": "Side Control to North-South",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 11
+          "gi": 13,
+          "nogi": 12
         }
       },
       {
         "transition": "Kimura from Ushiro Kesa Gatame",
         "attempt_probability": {
-          "gi": 16,
-          "nogi": 16
+          "gi": 18,
+          "nogi": 18
         }
       },
       {
         "transition": "Americana from Ushiro Kesa Gatame",
-        "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
-        }
-      },
-      {
-        "transition": "Arm Triangle from Ushiro Kesa Gatame",
-        "attempt_probability": {
-          "gi": 9,
-          "nogi": 10
-        }
-      },
-      {
-        "transition": "Back Take",
         "attempt_probability": {
           "gi": 10,
           "nogi": 10
         }
       },
       {
+        "transition": "Arm Triangle from Ushiro Kesa Gatame",
+        "attempt_probability": {
+          "gi": 10,
+          "nogi": 11
+        }
+      },
+      {
         "transition": "Ushiro Kesa Gatame to North-South",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
+          "gi": 13,
+          "nogi": 13
         }
       },
       {
         "transition": "Ushiro Kesa Gatame to Side Control",
         "attempt_probability": {
-          "gi": 14,
-          "nogi": 13
+          "gi": 16,
+          "nogi": 15
         }
       },
       {
         "transition": "North-South Choke from Ushiro Kesa Gatame",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 9
+          "gi": 9,
+          "nogi": 10
         }
       }
     ],

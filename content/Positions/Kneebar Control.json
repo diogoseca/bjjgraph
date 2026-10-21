@@ -103,7 +103,7 @@
         "condition": "If opponent's leg straightens and defensive posture collapses under top pressure",
         "actions": [
           {
-            "technique": "Kneebar Finish",
+            "technique": "Kneebar from Kneebar Control",
             "target": "game-over",
             "probability": 55
           },
@@ -242,10 +242,6 @@
       {
         "name": "Headquarters Position",
         "relationship": "Guard passing position offering kneebar attack opportunities"
-      },
-      {
-        "name": "Kneebar Finish",
-        "relationship": "Terminal submission technique from top kneebar control"
       },
       {
         "name": "Side Control",
@@ -516,11 +512,6 @@
         "condition": "If opponent's leg becomes straightened and defensive posture breaks under pulling pressure",
         "actions": [
           {
-            "technique": "Kneebar Finish",
-            "target": "game-over",
-            "probability": 50
-          },
-          {
             "technique": "Heel Hook",
             "target": "game-over",
             "probability": 45
@@ -642,10 +633,6 @@
         "relationship": "Advanced position accessible when opponent defends kneebar by rotating hips"
       },
       {
-        "name": "Kneebar Finish",
-        "relationship": "Terminal submission technique from this control position"
-      },
-      {
         "name": "Straight Ankle Lock Control",
         "relationship": "Alternative leg submission when kneebar angle is compromised"
       },
@@ -687,59 +674,52 @@
     },
     "transitions": [
       {
-        "transition": "Kneebar Finish",
-        "attempt_probability": {
-          "gi": 34,
-          "nogi": 24
-        }
-      },
-      {
         "transition": "Heel Hook from Kneebar Control",
         "attempt_probability": {
           "gi": 0,
-          "nogi": 24
+          "nogi": 31
         }
       },
       {
         "transition": "Inside Ashi Entry",
         "attempt_probability": {
-          "gi": 18,
-          "nogi": 18
+          "gi": 28,
+          "nogi": 24
         }
       },
       {
         "transition": "Single Leg X Entry",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 6
+          "gi": 12,
+          "nogi": 8
         }
       },
       {
         "transition": "X-Guard Sweep",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 3
+          "gi": 9,
+          "nogi": 4
         }
       },
       {
         "transition": "Straighten Leg Kneebar Defense",
         "attempt_probability": {
-          "gi": 14,
-          "nogi": 11
+          "gi": 21,
+          "nogi": 14
         }
       },
       {
         "transition": "Turn and Extract from Kneebar",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 9
+          "gi": 18,
+          "nogi": 12
         }
       },
       {
         "transition": "Reversal from Kneebar Control",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 5
+          "gi": 12,
+          "nogi": 7
         }
       }
     ],

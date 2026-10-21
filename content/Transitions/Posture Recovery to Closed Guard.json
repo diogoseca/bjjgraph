@@ -12,31 +12,31 @@
     {
       "to": "Closed Guard/Top",
       "probability": {
-        "gi": 55,
-        "nogi": 55
+        "gi": 40,
+        "nogi": 40
       },
       "result": "success"
     },
     {
-      "to": "Crackhead Control/Bottom",
+      "to": "Crackhead Control/Top",
       "probability": {
-        "gi": 30,
-        "nogi": 30
+        "gi": 40,
+        "nogi": 40
       },
       "result": "failure"
     },
     {
-      "to": "Back Control/Bottom",
+      "to": "Mission Control/Top",
       "probability": {
-        "gi": 15,
-        "nogi": 15
+        "gi": 20,
+        "nogi": 20
       },
       "result": "counter"
     }
   ],
   "success_rate": {
-    "gi": 55,
-    "nogi": 55
+    "gi": 40,
+    "nogi": 40
   },
   "overview": "The top player faces a bottom guard player using Crackhead Control; the head, shoulder or arm may still be enclosed. The top player must free the shoulder line first; a high clinch is not safely defeated by suddenly standing or stacking.\n\nAvoid extending an arm between the high legs where it can be isolated. A second leg climbing behind your head increases the posture-control problem. Keep a balanced base and early inside frames; tap instead of moving against a completed choke or joint lock.\n\nMove through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.\n\nInstructional sources: [Eddie Bravo — MTS 169: the Pump](https://www.10thplanetjj.com/techniques/mts-169-rubber-guard-the-pump/); [10th Planet Costa Mesa — basic path with double bagger](https://www.youtube.com/watch?v=W2OFKidf9lE).",
   "conditions": [
@@ -117,25 +117,25 @@
         "counter": "Establish the first high leg and its hand support before adding the second leg.",
         "effectiveness": "High",
         "your_response": "Re-check the prerequisite before continuing. Avoid extending an arm between the high legs where it can be isolated.",
-        "targets_outcome": "Closed Guard/Top"
+        "targets_outcome": "Crackhead Control/Top"
       },
       {
         "counter": "Reinforce the clinch without forcing the knees beyond a comfortable hip angle.",
         "effectiveness": "Medium",
         "your_response": "Re-check the prerequisite before continuing. A second leg climbing behind your head increases the posture-control problem.",
-        "targets_outcome": "Crackhead Control/Bottom"
+        "targets_outcome": "Crackhead Control/Top"
       },
       {
         "counter": "Do not assume that high legs alone have isolated an arm or completed Dead Orchard.",
         "effectiveness": "High",
         "your_response": "Re-check the prerequisite before continuing. Keep a balanced base and early inside frames; tap instead of moving against a completed choke or joint lock.",
-        "targets_outcome": "Back Control/Bottom"
+        "targets_outcome": "Mission Control/Top"
       },
       {
         "counter": "Use hip position and connected leg pressure rather than pulling the feet against fixed knees.",
         "effectiveness": "Medium",
         "your_response": "Re-check the prerequisite before continuing. Create slack at the hip and thigh while keeping the head and captured arm aligned.",
-        "targets_outcome": "Crackhead Control/Bottom"
+        "targets_outcome": "Crackhead Control/Top"
       }
     ],
     "common_errors": [
@@ -372,39 +372,39 @@
       {
         "action": "Establish the first high leg and its hand support before adding the second leg.",
         "when_to_use": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.",
-        "targets_outcome": "Crackhead Control/Bottom",
+        "targets_outcome": "Crackhead Control/Top",
         "if_successful": "The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
         "risk": "Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route."
       },
       {
         "action": "Reinforce the clinch without forcing the knees beyond a comfortable hip angle.",
         "when_to_use": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.",
-        "targets_outcome": "Back Control/Bottom",
+        "targets_outcome": "Mission Control/Top",
         "if_successful": "The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
         "risk": "Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route."
       },
       {
         "action": "Do not assume that high legs alone have isolated an arm or completed Dead Orchard.",
         "when_to_use": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.",
-        "targets_outcome": "Crackhead Control/Bottom",
+        "targets_outcome": "Crackhead Control/Top",
         "if_successful": "The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
         "risk": "Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route."
       },
       {
         "action": "Use hip position and connected leg pressure rather than pulling the feet against fixed knees.",
         "when_to_use": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.",
-        "targets_outcome": "Crackhead Control/Bottom",
+        "targets_outcome": "Crackhead Control/Top",
         "if_successful": "The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
         "risk": "Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route."
       }
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Crackhead Control/Bottom",
+        "outcome": "Crackhead Control/Top",
         "how": "Interrupt the next connection while preserving a safe base. Establish any new guard or pin separately rather than assuming this response guarantees it. Establish the first high leg and its hand support before adding the second leg."
       },
       {
-        "outcome": "Back Control/Bottom",
+        "outcome": "Mission Control/Top",
         "how": "Interrupt the next connection while preserving a safe base. Establish any new guard or pin separately rather than assuming this response guarantees it. Reinforce the clinch without forcing the knees beyond a comfortable hip angle."
       }
     ],

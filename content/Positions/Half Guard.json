@@ -149,8 +149,8 @@
       {
         "transition": "Underhook Pass",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 13
+          "gi": 14,
+          "nogi": 14
         }
       },
       {
@@ -245,13 +245,6 @@
         }
       },
       {
-        "transition": "Suloev Stretch from Half Guard",
-        "attempt_probability": {
-          "gi": 1,
-          "nogi": 2
-        }
-      },
-      {
         "transition": "Half Guard to Leg Weave",
         "attempt_probability": {
           "gi": 3,
@@ -269,7 +262,7 @@
         "transition": "Body Lock Pass",
         "attempt_probability": {
           "gi": 6,
-          "nogi": 10
+          "nogi": 11
         }
       },
       {

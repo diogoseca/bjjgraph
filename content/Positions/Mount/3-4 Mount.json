@@ -408,8 +408,8 @@
       {
         "transition": "Mount to Armbar",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 12
+          "gi": 12,
+          "nogi": 14
         }
       },
       {
@@ -422,13 +422,6 @@
       {
         "transition": "S-Mount Transition",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 11
-        }
-      },
-      {
-        "transition": "Back Take",
-        "attempt_probability": {
           "gi": 11,
           "nogi": 13
         }
@@ -436,43 +429,43 @@
       {
         "transition": "Consolidate Mount",
         "attempt_probability": {
-          "gi": 21,
-          "nogi": 26
+          "gi": 23,
+          "nogi": 30
         }
       },
       {
         "transition": "Cross Collar Choke from 3-4 Mount",
         "attempt_probability": {
-          "gi": 13,
+          "gi": 15,
           "nogi": null
         }
       },
       {
         "transition": "3-4 Mount to S Mount",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 8
+          "gi": 8,
+          "nogi": 9
         }
       },
       {
         "transition": "3-4 Mount to Technical Mount",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 15
+          "gi": 15,
+          "nogi": 17
         }
       },
       {
         "transition": "Americana from 3-4 Mount",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 8
+          "gi": 8,
+          "nogi": 9
         }
       },
       {
         "transition": "Triangle from Mount",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 6
+          "gi": 7,
+          "nogi": 7
         }
       }
     ],

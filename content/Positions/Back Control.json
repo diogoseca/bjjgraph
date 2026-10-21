@@ -98,21 +98,21 @@
       {
         "transition": "Rear Naked Choke from Back Control",
         "attempt_probability": {
-          "gi": 21,
-          "nogi": 27
+          "gi": 20,
+          "nogi": 26
         }
       },
       {
         "transition": "Back Control Maintenance",
         "attempt_probability": {
-          "gi": 16,
-          "nogi": 16
+          "gi": 15,
+          "nogi": 15
         }
       },
       {
         "transition": "Bow and Arrow Choke from Back Control",
         "attempt_probability": {
-          "gi": 13,
+          "gi": 12,
           "nogi": null
         }
       },
@@ -134,7 +134,7 @@
         "transition": "Body Triangle Lock",
         "attempt_probability": {
           "gi": 5,
-          "nogi": 8
+          "nogi": 7
         }
       },
       {
@@ -254,6 +254,13 @@
         "attempt_probability": {
           "gi": 1,
           "nogi": 2
+        }
+      },
+      {
+        "transition": "Suloev Stretch from Half Guard",
+        "attempt_probability": {
+          "gi": 3,
+          "nogi": 3
         }
       }
     ],

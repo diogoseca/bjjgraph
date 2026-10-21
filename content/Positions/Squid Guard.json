@@ -508,7 +508,7 @@
         "condition": "If opponent drives forward with pressure attempting to stack",
         "actions": [
           {
-            "technique": "Kiss of the Dragon",
+            "technique": "Kiss of the Dragon from RDLR",
             "target": "Back Control",
             "probability": 60
           },

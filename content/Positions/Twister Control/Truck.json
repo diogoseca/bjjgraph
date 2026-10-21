@@ -298,35 +298,28 @@
         "transition": "Twister Entry",
         "attempt_probability": {
           "gi": 3,
-          "nogi": 14
-        }
-      },
-      {
-        "transition": "Roll to Truck",
-        "attempt_probability": {
-          "gi": 5,
-          "nogi": 4
+          "nogi": 15
         }
       },
       {
         "transition": "Rolling Back Take",
         "attempt_probability": {
-          "gi": 5,
+          "gi": 6,
           "nogi": 4
         }
       },
       {
         "transition": "Bow and Arrow Choke from Truck",
         "attempt_probability": {
-          "gi": 10,
+          "gi": 12,
           "nogi": null
         }
       },
       {
         "transition": "Crab Ride to Back",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 6
+          "gi": 7,
+          "nogi": 7
         }
       },
       {
@@ -337,45 +330,38 @@
         }
       },
       {
-        "transition": "Back Take from Top",
-        "attempt_probability": {
-          "gi": 8,
-          "nogi": 6
-        }
-      },
-      {
         "transition": "Truck Maintenance",
         "attempt_probability": {
-          "gi": 23,
-          "nogi": 19
+          "gi": 26,
+          "nogi": 21
         }
       },
       {
         "transition": "Truck to Back Control",
         "attempt_probability": {
-          "gi": 18,
-          "nogi": 14
+          "gi": 21,
+          "nogi": 16
         }
       },
       {
         "transition": "Truck to Twister Side Control",
         "attempt_probability": {
-          "gi": 5,
-          "nogi": 5
+          "gi": 6,
+          "nogi": 6
         }
       },
       {
         "transition": "Calf Slicer from Truck",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 14
+          "gi": 10,
+          "nogi": 16
         }
       },
       {
         "transition": "Banana Split from Truck",
         "attempt_probability": {
-          "gi": 5,
-          "nogi": 9
+          "gi": 6,
+          "nogi": 10
         }
       },
       {

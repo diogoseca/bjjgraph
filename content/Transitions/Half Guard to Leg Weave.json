@@ -29,7 +29,7 @@
       "result": "failure"
     },
     {
-      "to": "Deep Half Guard/Bottom",
+      "to": "Deep Half Guard/Top",
       "probability": {
         "gi": 15,
         "nogi": 15
@@ -38,8 +38,8 @@
     }
   ],
   "success_rate": {
-    "gi": 55,
-    "nogi": 55
+    "gi": 41.0,
+    "nogi": 41.0
   },
   "summary": "Entering Leg Weave from half guard threads an arm through the leg gap to control the lower thigh or knee and fold the knee shield toward the other leg.",
   "overview": "The top passer begins in Half Guard, facing a knee shield or linked leg frame. The weaving limb is the arm. Securing that control is the entry checkpoint; a pass is complete only after the hips and remaining leg hooks are cleared.\n\nThread the arm through the available leg gap and connect to the lower thigh or knee. Use aligned shoulder pressure and chest pressure to bring the knees together without twisting the knee joint. Avoid leaving the weaving arm extended where the bottom player can sit up into a kimura.\n\nMove through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.\n\nInstructional sources: [Lachlan Giles — leg weave pass, no gi](https://www.youtube.com/watch?v=9rDzchSk4fw); [Lachlan Giles — leg-weave counter demonstration](https://bjjfanatics.com/blogs/news/interesting-leg-weave-counter-with-lachlan-giles).",
@@ -121,7 +121,7 @@
         "counter": "The passer's arm connecting your legs is the relevant control, not a leg threaded across your hip.",
         "effectiveness": "High",
         "your_response": "Re-check the prerequisite before continuing. Thread the arm through the available leg gap and connect to the lower thigh or knee.",
-        "targets_outcome": "Deep Half Guard/Bottom"
+        "targets_outcome": "Deep Half Guard/Top"
       },
       {
         "counter": "Maintain a useful knee angle and upper-body frame before the passer folds the legs together.",
@@ -327,7 +327,7 @@
       {
         "action": "Maintain a useful knee angle and upper-body frame before the passer folds the legs together.",
         "when_to_use": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.",
-        "targets_outcome": "Deep Half Guard/Bottom",
+        "targets_outcome": "Deep Half Guard/Top",
         "if_successful": "The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
         "risk": "Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route."
       },
@@ -352,7 +352,7 @@
         "how": "Interrupt the next connection while preserving a safe base. Establish any new guard or pin separately rather than assuming this response guarantees it. The passer's arm connecting your legs is the relevant control, not a leg threaded across your hip."
       },
       {
-        "outcome": "Deep Half Guard/Bottom",
+        "outcome": "Deep Half Guard/Top",
         "how": "Interrupt the next connection while preserving a safe base. Establish any new guard or pin separately rather than assuming this response guarantees it. Maintain a useful knee angle and upper-body frame before the passer folds the legs together."
       }
     ],

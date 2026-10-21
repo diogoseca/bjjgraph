@@ -12,16 +12,16 @@
     {
       "to": "Side Control/Top",
       "probability": {
-        "gi": 55,
-        "nogi": 55
+        "gi": 40,
+        "nogi": 40
       },
       "result": "success"
     },
     {
       "to": "Leg Weave/Top",
       "probability": {
-        "gi": 25,
-        "nogi": 25
+        "gi": 40,
+        "nogi": 40
       },
       "result": "failure"
     },
@@ -35,8 +35,8 @@
     }
   ],
   "success_rate": {
-    "gi": 55,
-    "nogi": 55
+    "gi": 40,
+    "nogi": 40
   },
   "overview": "The top passer begins in Leg Weave, facing a knee shield or linked leg frame. The weaving limb is the arm. Securing that control is the entry checkpoint; a pass is complete only after the hips and remaining leg hooks are cleared.\n\nThread the arm through the available leg gap and connect to the lower thigh or knee. Use aligned shoulder pressure and chest pressure to bring the knees together without twisting the knee joint. Avoid leaving the weaving arm extended where the bottom player can sit up into a kimura.\n\nMove through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.\n\nInstructional sources: [Lachlan Giles — leg weave pass, no gi](https://www.youtube.com/watch?v=9rDzchSk4fw); [Lachlan Giles — leg-weave counter demonstration](https://bjjfanatics.com/blogs/news/interesting-leg-weave-counter-with-lachlan-giles).",
   "conditions": [

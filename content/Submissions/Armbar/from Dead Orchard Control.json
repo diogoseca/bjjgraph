@@ -1,0 +1,412 @@
+{
+  "name": "Armbar from Dead Orchard Control",
+  "from_position": "Dead Orchard Control/Bottom",
+  "success_rate": {
+    "gi": 40,
+    "nogi": 40
+  },
+  "outcomes": [
+    {
+      "to": "game-over",
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
+      "result": "success"
+    },
+    {
+      "to": "Dead Orchard Control/Bottom",
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
+      "result": "failure"
+    },
+    {
+      "to": "Closed Guard/Bottom",
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
+      "result": "counter"
+    }
+  ],
+  "summary": "The short armbar from Dead Orchard uses the high triangle around both opposing arms to isolate a wrist and extend one elbow with controlled, immediately releasable pressure.",
+  "description": "The short armbar from Dead Orchard uses the high triangle around both opposing arms to isolate a wrist and extend one elbow with controlled, immediately releasable pressure.",
+  "tags": [
+    "bjj",
+    "submission",
+    "guard"
+  ],
+  "overview": "The short armbar from Dead Orchard uses the high triangle around both opposing arms to isolate a wrist and extend one elbow with controlled, immediately releasable pressure.\n\nBegin underneath with Dead Orchard's high figure-four containing both opposing arms at the shoulder line. Control one captured wrist without letting the other arm or shoulder escape the established high triangle.\n\nMaintain the elbow's relationship to the leg frame before attempting any extension. Adjust through a comfortable hip angle so the elbow extends along its natural line, with no wrist or shoulder twist. Take up slack gradually. The trained partner taps before the elbow is forced beyond its range; never chase a late response. Stop immediately for a hand tap, foot tap, verbal stop, or other distress. Remove the extension before opening the high legs.\n\nPractice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route.",
+  "related_content": [
+    {
+      "name": "Dead Orchard Control",
+      "relationship": "Starting configuration; establish these controls before attempting the action."
+    },
+    {
+      "name": "Closed Guard",
+      "relationship": "An approved landing or reset; confirm its controls before treating the action as complete."
+    },
+    {
+      "name": "Armbar",
+      "relationship": "Compare the separate finishing enclosure and controls; this link does not establish a direct transition."
+    }
+  ],
+  "attacker": {
+    "name": "Armbar from Dead Orchard Control Attacker",
+    "description": "The short armbar from Dead Orchard uses the high triangle around both opposing arms to isolate a wrist and extend one elbow with controlled, immediately releasable pressure.",
+    "overview": "The short armbar from Dead Orchard uses the high triangle around both opposing arms to isolate a wrist and extend one elbow with controlled, immediately releasable pressure.\n\nBegin underneath with Dead Orchard's high figure-four containing both opposing arms at the shoulder line. Control one captured wrist without letting the other arm or shoulder escape the established high triangle.\n\nMaintain the elbow's relationship to the leg frame before attempting any extension. Adjust through a comfortable hip angle so the elbow extends along its natural line, with no wrist or shoulder twist. Take up slack gradually. The trained partner taps before the elbow is forced beyond its range; never chase a late response. Stop immediately for a hand tap, foot tap, verbal stop, or other distress. Remove the extension before opening the high legs.\n\nPractice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route.",
+    "key_principles": [
+      "Both arms inside the high triangle: Begin underneath with Dead Orchard's high figure-four containing both opposing arms at the shoulder line.",
+      "One wrist within the enclosure: Control one captured wrist without letting the other arm or shoulder escape the established high triangle.",
+      "Elbow retained against the leg frame: Maintain the elbow's relationship to the leg frame before attempting any extension.",
+      "Wrist and elbow aligned for extension: Adjust through a comfortable hip angle so the elbow extends along its natural line, with no wrist or shoulder twist.",
+      "Small elbow extension without jerking: Take up slack gradually. The trained partner taps before the elbow is forced beyond its range; never chase a late response.",
+      "Remove extension and free the arm: Stop immediately for a hand tap, foot tap, verbal stop, or other distress. Remove the extension before opening the high legs."
+    ],
+    "setup_requirements": [
+      "Begin underneath with Dead Orchard's high figure-four containing both opposing arms at the shoulder line.",
+      "Control one captured wrist without letting the other arm or shoulder escape the established high triangle.",
+      "Maintain the elbow's relationship to the leg frame before attempting any extension.",
+      "Adjust through a comfortable hip angle so the elbow extends along its natural line, with no wrist or shoulder twist."
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Confirm the enclosure",
+        "description": "Begin underneath with Dead Orchard's high figure-four containing both opposing arms at the shoulder line."
+      },
+      {
+        "step_number": 2,
+        "action": "Choose the captured arm",
+        "description": "Control one captured wrist without letting the other arm or shoulder escape the established high triangle."
+      },
+      {
+        "step_number": 3,
+        "action": "Keep the elbow controlled",
+        "description": "Maintain the elbow's relationship to the leg frame before attempting any extension."
+      },
+      {
+        "step_number": 4,
+        "action": "Align the arm",
+        "description": "Adjust through a comfortable hip angle so the elbow extends along its natural line, with no wrist or shoulder twist."
+      },
+      {
+        "step_number": 5,
+        "action": "Apply pressure gradually",
+        "description": "Take up slack gradually. The trained partner taps before the elbow is forced beyond its range; never chase a late response."
+      },
+      {
+        "step_number": 6,
+        "action": "Release at the first signal",
+        "description": "Stop immediately for a hand tap, foot tap, verbal stop, or other distress. Remove the extension before opening the high legs."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Keep both elbows compact before the holder isolates a wrist.",
+        "effectiveness": "Medium",
+        "your_response": "Keep the required control or use the stated reset; do not force the next movement.",
+        "targets_outcome": "Dead Orchard Control/Bottom"
+      },
+      {
+        "counter": "Protect the wrist before the elbow is aligned for the short armbar.",
+        "effectiveness": "Medium",
+        "your_response": "Keep the required control or use the stated reset; do not force the next movement.",
+        "targets_outcome": "Dead Orchard Control/Bottom"
+      },
+      {
+        "counter": "Withdraw shoulder and elbow together only while the enclosure is open and the joint is unloaded.",
+        "effectiveness": "Medium",
+        "your_response": "Keep the required control or use the stated reset; do not force the next movement.",
+        "targets_outcome": "Closed Guard/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Skipping confirm the enclosure",
+        "consequence": "The next action lacks its required control.",
+        "correction": "Begin underneath with Dead Orchard's high figure-four containing both opposing arms at the shoulder line."
+      },
+      {
+        "error": "Skipping choose the captured arm",
+        "consequence": "The next action lacks its required control.",
+        "correction": "Control one captured wrist without letting the other arm or shoulder escape the established high triangle."
+      },
+      {
+        "error": "Skipping keep the elbow controlled",
+        "consequence": "The next action lacks its required control.",
+        "correction": "Maintain the elbow's relationship to the leg frame before attempting any extension."
+      },
+      {
+        "error": "Skipping align the arm",
+        "consequence": "The next action lacks its required control.",
+        "correction": "Adjust through a comfortable hip angle so the elbow extends along its natural line, with no wrist or shoulder twist."
+      },
+      {
+        "error": "Skipping apply pressure gradually",
+        "consequence": "The next action lacks its required control.",
+        "correction": "Take up slack gradually. The trained partner taps before the elbow is forced beyond its range; never chase a late response."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1",
+        "focus": "Confirm the enclosure",
+        "description": "Begin underneath with Dead Orchard's high figure-four containing both opposing arms at the shoulder line. Pause at this checkpoint with a cooperative partner before linking the next step."
+      },
+      {
+        "phase": "Phase 2",
+        "focus": "Choose the captured arm",
+        "description": "Control one captured wrist without letting the other arm or shoulder escape the established high triangle. Pause at this checkpoint with a cooperative partner before linking the next step."
+      },
+      {
+        "phase": "Phase 3",
+        "focus": "Keep the elbow controlled",
+        "description": "Maintain the elbow's relationship to the leg frame before attempting any extension. Pause at this checkpoint with a cooperative partner before linking the next step."
+      },
+      {
+        "phase": "Phase 4",
+        "focus": "Align the arm",
+        "description": "Adjust through a comfortable hip angle so the elbow extends along its natural line, with no wrist or shoulder twist. Pause at this checkpoint with a cooperative partner before linking the next step."
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "Armbar from Dead Orchard Control: what does confirm the enclosure require?",
+        "answer": "Begin underneath with Dead Orchard's high figure-four containing both opposing arms at the shoulder line.",
+        "answer_line": "Both arms inside the high triangle",
+        "distractors": {
+          "plausible": [
+            "Neck pressure through a guillotine",
+            "An ankle lever from below the hips"
+          ],
+          "trap": [
+            "Shoulder twisting past resistance"
+          ]
+        }
+      },
+      {
+        "question": "Armbar from Dead Orchard Control: what does choose the captured arm require?",
+        "answer": "Control one captured wrist without letting the other arm or shoulder escape the established high triangle.",
+        "answer_line": "One wrist within the enclosure",
+        "distractors": {
+          "plausible": [
+            "An ankle lever from below the hips",
+            "Shoulder twisting past resistance"
+          ],
+          "trap": [
+            "A delayed release after the tap"
+          ]
+        }
+      },
+      {
+        "question": "Armbar from Dead Orchard Control: what does keep the elbow controlled require?",
+        "answer": "Maintain the elbow's relationship to the leg frame before attempting any extension.",
+        "answer_line": "Elbow retained against the leg frame",
+        "distractors": {
+          "plausible": [
+            "Shoulder twisting past resistance",
+            "A delayed release after the tap"
+          ],
+          "trap": [
+            "Neck pressure through a guillotine"
+          ]
+        }
+      },
+      {
+        "question": "Armbar from Dead Orchard Control: what does align the arm require?",
+        "answer": "Adjust through a comfortable hip angle so the elbow extends along its natural line, with no wrist or shoulder twist.",
+        "answer_line": "Wrist and elbow aligned for extension",
+        "distractors": {
+          "plausible": [
+            "A delayed release after the tap",
+            "Neck pressure through a guillotine"
+          ],
+          "trap": [
+            "An ankle lever from below the hips"
+          ]
+        }
+      },
+      {
+        "question": "Armbar from Dead Orchard Control: what does apply pressure gradually require?",
+        "answer": "Take up slack gradually. The trained partner taps before the elbow is forced beyond its range; never chase a late response.",
+        "answer_line": "Small elbow extension without jerking",
+        "distractors": {
+          "plausible": [
+            "Neck pressure through a guillotine",
+            "An ankle lever from below the hips"
+          ],
+          "trap": [
+            "Shoulder twisting past resistance"
+          ]
+        }
+      },
+      {
+        "question": "Armbar from Dead Orchard Control: what does release at the first signal require?",
+        "answer": "Stop immediately for a hand tap, foot tap, verbal stop, or other distress. Remove the extension before opening the high legs.",
+        "answer_line": "Remove extension and free the arm",
+        "distractors": {
+          "plausible": [
+            "An ankle lever from below the hips",
+            "Shoulder twisting past resistance"
+          ],
+          "trap": [
+            "A delayed release after the tap"
+          ]
+        }
+      }
+    ]
+  },
+  "defender": {
+    "name": "Armbar from Dead Orchard Control Defender",
+    "description": "Recognize Armbar from Dead Orchard Control and interrupt its required connections before the final control is established.",
+    "overview": "You oppose the performer of this action. Keep both elbows compact before the holder isolates a wrist. Protect the wrist before the elbow is aligned for the short armbar. Withdraw shoulder and elbow together only while the enclosure is open and the joint is unloaded. If the wrist isolation fails, recognize that the high both-arm triangle may still remain. If the triangle opens safely, recover posture inside the ordinary closed guard.\n\nPractice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route.",
+    "key_principles": [
+      "Keep both elbows compact before the holder isolates a wrist.",
+      "Protect the wrist before the elbow is aligned for the short armbar.",
+      "Withdraw shoulder and elbow together only while the enclosure is open and the joint is unloaded.",
+      "If the wrist isolation fails, recognize that the high both-arm triangle may still remain.",
+      "If the triangle opens safely, recover posture inside the ordinary closed guard."
+    ],
+    "recognition_cues": [
+      "Begin underneath with Dead Orchard's high figure-four containing both opposing arms at the shoulder line.",
+      "Control one captured wrist without letting the other arm or shoulder escape the established high triangle.",
+      "Maintain the elbow's relationship to the leg frame before attempting any extension."
+    ],
+    "defensive_options": [
+      {
+        "action": "Keep both elbows compact before the holder isolates a wrist.",
+        "when_to_use": "Before the next connection or pressure is established.",
+        "targets_outcome": "Dead Orchard Control/Bottom",
+        "if_successful": "The continuation is interrupted; confirm the remaining controls before continuing.",
+        "risk": "Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route."
+      },
+      {
+        "action": "Protect the wrist before the elbow is aligned for the short armbar.",
+        "when_to_use": "Before the next connection or pressure is established.",
+        "targets_outcome": "Dead Orchard Control/Bottom",
+        "if_successful": "The continuation is interrupted; confirm the remaining controls before continuing.",
+        "risk": "Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route."
+      },
+      {
+        "action": "Withdraw shoulder and elbow together only while the enclosure is open and the joint is unloaded.",
+        "when_to_use": "Before the next connection or pressure is established.",
+        "targets_outcome": "Closed Guard/Bottom",
+        "if_successful": "The continuation is interrupted; confirm the remaining controls before continuing.",
+        "risk": "Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route."
+      },
+      {
+        "action": "If the wrist isolation fails, recognize that the high both-arm triangle may still remain.",
+        "when_to_use": "Before the next connection or pressure is established.",
+        "targets_outcome": "Closed Guard/Bottom",
+        "if_successful": "The continuation is interrupted; confirm the remaining controls before continuing.",
+        "risk": "Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route."
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Dead Orchard Control/Bottom",
+        "how": "Keep both elbows compact before the holder isolates a wrist."
+      },
+      {
+        "outcome": "Closed Guard/Bottom",
+        "how": "If the triangle opens safely, recover posture inside the ordinary closed guard."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Acting after the joint or neck is already loaded",
+        "consequence": "The attempted movement may increase pressure.",
+        "correction": "Tap and release before moving."
+      },
+      {
+        "error": "Assuming a cleared grip completes the escape",
+        "consequence": "The remaining control can still prevent the intended landing.",
+        "correction": "If the triangle opens safely, recover posture inside the ordinary closed guard."
+      },
+      {
+        "error": "Losing a stable base during the response",
+        "consequence": "You may concede the next connection.",
+        "correction": "Protect the wrist before the elbow is aligned for the short armbar."
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "Against Armbar from Dead Orchard Control, what connection do you address first?",
+        "answer": "Keep both elbows compact before the holder isolates a wrist."
+      },
+      {
+        "question": "Against Armbar from Dead Orchard Control, when must you stop moving?",
+        "answer": "Stop at a tap, verbal signal, distress, or a loaded joint or neck. Release before changing direction."
+      },
+      {
+        "question": "Against Armbar from Dead Orchard Control, does interrupting one grip guarantee a new position?",
+        "answer": "No. Confirm the remaining body and leg controls before claiming the guard, pin, or submission has changed."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1",
+        "focus": "Confirm the enclosure",
+        "description": "Begin underneath with Dead Orchard's high figure-four containing both opposing arms at the shoulder line. Pause at this checkpoint with a cooperative partner before linking the next step."
+      },
+      {
+        "phase": "Phase 2",
+        "focus": "Choose the captured arm",
+        "description": "Control one captured wrist without letting the other arm or shoulder escape the established high triangle. Pause at this checkpoint with a cooperative partner before linking the next step."
+      },
+      {
+        "phase": "Phase 3",
+        "focus": "Keep the elbow controlled",
+        "description": "Maintain the elbow's relationship to the leg frame before attempting any extension. Pause at this checkpoint with a cooperative partner before linking the next step."
+      }
+    ],
+    "escape_paths": [
+      "Keep both elbows compact before the holder isolates a wrist.",
+      "If the triangle opens safely, recover posture inside the ordinary closed guard."
+    ]
+  },
+  "submission_category": "Joint Lock",
+  "submission_type": "Arm Lock",
+  "target_area": "Elbow joint",
+  "starting_position": "Dead Orchard Control/Bottom",
+  "from_positions": [
+    "Dead Orchard Control"
+  ],
+  "related_submissions": [
+    "Armbar",
+    "Omoplata",
+    "Triangle Choke"
+  ],
+  "safety_considerations": {
+    "injury_risks": [
+      {
+        "injury": "Elbow joint injury from excessive pressure",
+        "severity": "High",
+        "recovery_time": "Variable; obtain qualified medical assessment if injured."
+      },
+      {
+        "injury": "Neck or knee strain during a forced escape",
+        "severity": "High",
+        "recovery_time": "Variable; do not train through symptoms."
+      }
+    ],
+    "application_speed": "Apply gradually and release immediately at any signal.",
+    "tap_signals": [
+      "Hand tap",
+      "Foot tap when the arms are trapped",
+      "Verbal tap or stop"
+    ],
+    "release_protocol": [
+      "Stop adding pressure immediately.",
+      "Remove the joint or neck load before changing grips.",
+      "Free the trapped limb or neck and check the partner."
+    ],
+    "training_restrictions": [
+      "Practice under qualified supervision with a cooperative partner.",
+      "Do not force the movement through pain or a restricted joint range."
+    ]
+  }
+}

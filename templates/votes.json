@@ -307,36 +307,6 @@
         }
       }
     },
-    "Anaconda Control to Dead Orchard Control": {
-      "community": {
-        "gi": {
-          "success_rate": 60.0,
-          "vote_count": 30
-        },
-        "nogi": {
-          "success_rate": 60.0,
-          "vote_count": 30
-        }
-      },
-      "prior": {
-        "gi": {
-          "success_rate": 47,
-          "pseudo_count": 7,
-          "extrapolated": true
-        },
-        "nogi": {
-          "success_rate": 42,
-          "pseudo_count": 7,
-          "extrapolated": true
-        },
-        "provenance": {
-          "source": "calibrate+review",
-          "run_id": "2026-07-07T17:37:32.832419Z",
-          "reviewed": true,
-          "override": false
-        }
-      }
-    },
     "Anaconda Finish from Dead Orchard": {
       "community": {
         "gi": {
@@ -868,6 +838,24 @@
         "nogi": {
           "success_rate": 58.0,
           "vote_count": 30
+        }
+      },
+      "prior": {
+        "gi": {
+          "success_rate": 35,
+          "pseudo_count": 3,
+          "extrapolated": false
+        },
+        "nogi": {
+          "success_rate": 35,
+          "pseudo_count": 3,
+          "extrapolated": false
+        },
+        "provenance": {
+          "source": "owner-approved-graph-restructure",
+          "run_id": "calibration/graph_restructure_phase2.json",
+          "reviewed": true,
+          "override": true
         }
       }
     },
@@ -2044,6 +2032,24 @@
         "nogi": {
           "success_rate": 55.0,
           "vote_count": 30
+        }
+      },
+      "prior": {
+        "gi": {
+          "success_rate": 40,
+          "pseudo_count": 3,
+          "extrapolated": false
+        },
+        "nogi": {
+          "success_rate": 40,
+          "pseudo_count": 3,
+          "extrapolated": false
+        },
+        "provenance": {
+          "source": "owner-approved-graph-restructure",
+          "run_id": "calibration/graph_restructure_phase2.json",
+          "reviewed": true,
+          "override": true
         }
       }
     },
@@ -3227,6 +3233,24 @@
           "success_rate": 40.0,
           "vote_count": 30
         }
+      },
+      "prior": {
+        "gi": {
+          "success_rate": 40,
+          "pseudo_count": 3,
+          "extrapolated": false
+        },
+        "nogi": {
+          "success_rate": 40,
+          "pseudo_count": 3,
+          "extrapolated": false
+        },
+        "provenance": {
+          "source": "owner-approved-graph-restructure",
+          "run_id": "calibration/graph_restructure_phase2.json",
+          "reviewed": true,
+          "override": true
+        }
       }
     },
     "Cartwheel Escape from Omoplata": {
@@ -3532,6 +3556,24 @@
         "nogi": {
           "success_rate": 55.0,
           "vote_count": 30
+        }
+      },
+      "prior": {
+        "gi": {
+          "success_rate": 40,
+          "pseudo_count": 3,
+          "extrapolated": false
+        },
+        "nogi": {
+          "success_rate": 40,
+          "pseudo_count": 3,
+          "extrapolated": false
+        },
+        "provenance": {
+          "source": "owner-approved-graph-restructure",
+          "run_id": "calibration/graph_restructure_phase2.json",
+          "reviewed": true,
+          "override": true
         }
       }
     },
@@ -3997,18 +4039,6 @@
         }
       }
     },
-    "Crackhead Control to Carni": {
-      "community": {
-        "gi": {
-          "success_rate": 55.0,
-          "vote_count": 30
-        },
-        "nogi": {
-          "success_rate": 55.0,
-          "vote_count": 30
-        }
-      }
-    },
     "Crackhead Control to Mission Control": {
       "community": {
         "gi": {
@@ -4018,6 +4048,24 @@
         "nogi": {
           "success_rate": 58.0,
           "vote_count": 30
+        }
+      },
+      "prior": {
+        "gi": {
+          "success_rate": 65,
+          "pseudo_count": 3,
+          "extrapolated": false
+        },
+        "nogi": {
+          "success_rate": 65,
+          "pseudo_count": 3,
+          "extrapolated": false
+        },
+        "provenance": {
+          "source": "owner-approved-graph-restructure",
+          "run_id": "calibration/graph_restructure_phase2.json",
+          "reviewed": true,
+          "override": true
         }
       }
     },
@@ -4030,6 +4078,24 @@
         "nogi": {
           "success_rate": 58.0,
           "vote_count": 30
+        }
+      },
+      "prior": {
+        "gi": {
+          "success_rate": 45,
+          "pseudo_count": 3,
+          "extrapolated": false
+        },
+        "nogi": {
+          "success_rate": 45,
+          "pseudo_count": 3,
+          "extrapolated": false
+        },
+        "provenance": {
+          "source": "owner-approved-graph-restructure",
+          "run_id": "calibration/graph_restructure_phase2.json",
+          "reviewed": true,
+          "override": true
         }
       }
     },
@@ -4543,18 +4609,6 @@
         }
       }
     },
-    "Dead Orchard to Darce Switch": {
-      "community": {
-        "gi": {
-          "success_rate": 55.0,
-          "vote_count": 30
-        },
-        "nogi": {
-          "success_rate": 55.0,
-          "vote_count": 30
-        }
-      }
-    },
     "Deashi Harai": {
       "community": {
         "gi": {
@@ -4736,20 +4790,20 @@
       },
       "prior": {
         "gi": {
-          "success_rate": 33,
+          "success_rate": 35,
           "pseudo_count": 8,
-          "extrapolated": true
+          "extrapolated": false
         },
         "nogi": {
-          "success_rate": 37,
+          "success_rate": 35,
           "pseudo_count": 8,
-          "extrapolated": true
+          "extrapolated": false
         },
         "provenance": {
-          "source": "calibrate+review",
-          "run_id": "2026-07-07T17:37:32.832419Z",
+          "source": "owner-approved-graph-restructure",
+          "run_id": "calibration/graph_restructure_phase2.json",
           "reviewed": true,
-          "override": false
+          "override": true
         }
       }
     },
@@ -4948,18 +5002,6 @@
           "run_id": "2026-07-07T17:37:32.832419Z",
           "reviewed": false,
           "override": false
-        }
-      }
-    },
-    "Double Underhook Pass": {
-      "community": {
-        "gi": {
-          "success_rate": 58.0,
-          "vote_count": 30
-        },
-        "nogi": {
-          "success_rate": 58.0,
-          "vote_count": 30
         }
       }
     },
@@ -5240,20 +5282,20 @@
       },
       "prior": {
         "gi": {
-          "success_rate": 38,
+          "success_rate": 30,
           "pseudo_count": 8,
-          "extrapolated": true
+          "extrapolated": false
         },
         "nogi": {
-          "success_rate": 34,
+          "success_rate": 30,
           "pseudo_count": 8,
-          "extrapolated": true
+          "extrapolated": false
         },
         "provenance": {
-          "source": "calibrate+review",
-          "run_id": "2026-07-07T17:37:32.832419Z",
+          "source": "owner-approved-graph-restructure",
+          "run_id": "calibration/graph_restructure_phase2.json",
           "reviewed": true,
-          "override": false
+          "override": true
         }
       }
     },
@@ -5482,6 +5524,24 @@
         "nogi": {
           "success_rate": 35.0,
           "vote_count": 30
+        }
+      },
+      "prior": {
+        "gi": {
+          "success_rate": 65,
+          "pseudo_count": 3,
+          "extrapolated": false
+        },
+        "nogi": {
+          "success_rate": 65,
+          "pseudo_count": 3,
+          "extrapolated": false
+        },
+        "provenance": {
+          "source": "owner-approved-graph-restructure",
+          "run_id": "calibration/graph_restructure_phase2.json",
+          "reviewed": true,
+          "override": true
         }
       }
     },
@@ -9445,36 +9505,6 @@
         }
       }
     },
-    "Kiss of the Dragon": {
-      "community": {
-        "gi": {
-          "success_rate": 50.0,
-          "vote_count": 30
-        },
-        "nogi": {
-          "success_rate": 50.0,
-          "vote_count": 30
-        }
-      },
-      "prior": {
-        "gi": {
-          "success_rate": 35,
-          "pseudo_count": 7,
-          "extrapolated": true
-        },
-        "nogi": {
-          "success_rate": 29,
-          "pseudo_count": 8,
-          "extrapolated": true
-        },
-        "provenance": {
-          "source": "calibrate+review",
-          "run_id": "2026-07-07T17:37:32.832419Z",
-          "reviewed": true,
-          "override": false
-        }
-      }
-    },
     "Kiss of the Dragon from RDLR": {
       "community": {
         "gi": {
@@ -9987,36 +10017,6 @@
           "source": "calibrate+review",
           "run_id": "2026-07-07T17:37:32.832419Z",
           "reviewed": false,
-          "override": false
-        }
-      }
-    },
-    "Kneebar Finish": {
-      "community": {
-        "gi": {
-          "success_rate": 58.0,
-          "vote_count": 30
-        },
-        "nogi": {
-          "success_rate": 58.0,
-          "vote_count": 30
-        }
-      },
-      "prior": {
-        "gi": {
-          "success_rate": 37,
-          "pseudo_count": 8,
-          "extrapolated": true
-        },
-        "nogi": {
-          "success_rate": 32,
-          "pseudo_count": 8,
-          "extrapolated": true
-        },
-        "provenance": {
-          "source": "calibrate+review",
-          "run_id": "2026-07-07T17:37:32.832419Z",
-          "reviewed": true,
           "override": false
         }
       }
@@ -11195,6 +11195,24 @@
           "success_rate": 55.0,
           "vote_count": 30
         }
+      },
+      "prior": {
+        "gi": {
+          "success_rate": 40,
+          "pseudo_count": 3,
+          "extrapolated": false
+        },
+        "nogi": {
+          "success_rate": 40,
+          "pseudo_count": 3,
+          "extrapolated": false
+        },
+        "provenance": {
+          "source": "owner-approved-graph-restructure",
+          "run_id": "calibration/graph_restructure_phase2.json",
+          "reviewed": true,
+          "override": true
+        }
       }
     },
     "Leg Weave Pass": {
@@ -11224,18 +11242,6 @@
           "run_id": "2026-07-07T17:37:32.832419Z",
           "reviewed": false,
           "override": false
-        }
-      }
-    },
-    "Leg Weave Pass Completion": {
-      "community": {
-        "gi": {
-          "success_rate": 50.0,
-          "vote_count": 30
-        },
-        "nogi": {
-          "success_rate": 50.0,
-          "vote_count": 30
         }
       }
     },
@@ -13142,20 +13148,20 @@
       },
       "prior": {
         "gi": {
-          "success_rate": 33,
+          "success_rate": 40,
           "pseudo_count": 8,
-          "extrapolated": true
+          "extrapolated": false
         },
         "nogi": {
-          "success_rate": 26,
+          "success_rate": 40,
           "pseudo_count": 8,
-          "extrapolated": true
+          "extrapolated": false
         },
         "provenance": {
-          "source": "calibrate+review",
-          "run_id": "2026-07-07T17:37:32.832419Z",
+          "source": "owner-approved-graph-restructure",
+          "run_id": "calibration/graph_restructure_phase2.json",
           "reviewed": true,
-          "override": false
+          "override": true
         }
       }
     },
@@ -13330,18 +13336,6 @@
           "run_id": "2026-07-07T17:37:32.832419Z",
           "reviewed": true,
           "override": false
-        }
-      }
-    },
-    "Pressure Pass through Center": {
-      "community": {
-        "gi": {
-          "success_rate": 58.0,
-          "vote_count": 30
-        },
-        "nogi": {
-          "success_rate": 58.0,
-          "vote_count": 30
         }
       }
     },
@@ -14335,18 +14329,6 @@
         }
       }
     },
-    "Roll from Dead Orchard": {
-      "community": {
-        "gi": {
-          "success_rate": 40.0,
-          "vote_count": 30
-        },
-        "nogi": {
-          "success_rate": 40.0,
-          "vote_count": 30
-        }
-      }
-    },
     "Roll from Rodeo Ride": {
       "community": {
         "gi": {
@@ -14728,6 +14710,24 @@
         "nogi": {
           "success_rate": 55.0,
           "vote_count": 30
+        }
+      },
+      "prior": {
+        "gi": {
+          "success_rate": 35,
+          "pseudo_count": 3,
+          "extrapolated": false
+        },
+        "nogi": {
+          "success_rate": 35,
+          "pseudo_count": 3,
+          "extrapolated": false
+        },
+        "provenance": {
+          "source": "owner-approved-graph-restructure",
+          "run_id": "calibration/graph_restructure_phase2.json",
+          "reviewed": true,
+          "override": true
         }
       }
     },
@@ -17234,8 +17234,22 @@
           "vote_count": 30
         },
         "nogi": {
-          "success_rate": 40.0,
+          "success_rate": null,
           "vote_count": 30
+        }
+      },
+      "prior": {
+        "gi": {
+          "success_rate": 35,
+          "pseudo_count": 3,
+          "extrapolated": false
+        },
+        "nogi": null,
+        "provenance": {
+          "source": "owner-approved-graph-restructure",
+          "run_id": "calibration/graph_restructure_phase2.json",
+          "reviewed": true,
+          "override": true
         }
       }
     },
@@ -17689,18 +17703,6 @@
         }
       }
     },
-    "Technical Standup from Inversion": {
-      "community": {
-        "gi": {
-          "success_rate": 58.0,
-          "vote_count": 30
-        },
-        "nogi": {
-          "success_rate": 58.0,
-          "vote_count": 30
-        }
-      }
-    },
     "Ten Finger Guillotine": {
       "community": {
         "gi": {
@@ -17998,18 +18000,6 @@
           "run_id": "2026-07-07T17:37:32.832419Z",
           "reviewed": false,
           "override": false
-        }
-      }
-    },
-    "Toreando from Inverted": {
-      "community": {
-        "gi": {
-          "success_rate": 55.0,
-          "vote_count": 30
-        },
-        "nogi": {
-          "success_rate": 55.0,
-          "vote_count": 30
         }
       }
     },
@@ -19202,19 +19192,19 @@
       },
       "prior": {
         "gi": {
-          "success_rate": 41,
+          "success_rate": 41.0,
           "pseudo_count": 8,
           "extrapolated": false
         },
         "nogi": {
-          "success_rate": 38,
+          "success_rate": 38.0,
           "pseudo_count": 8,
           "extrapolated": false
         },
         "provenance": {
-          "source": "origin-coherence-p2",
-          "run_id": "calibration/listing_tables.json",
-          "reviewed": false,
+          "source": "owner-approved-graph-restructure",
+          "run_id": "calibration/graph_restructure_phase2.json",
+          "reviewed": true,
           "override": true
         }
       }
@@ -20939,6 +20929,24 @@
           "success_rate": 65.0,
           "vote_count": 30
         }
+      },
+      "prior": {
+        "gi": {
+          "success_rate": 30,
+          "pseudo_count": 3,
+          "extrapolated": false
+        },
+        "nogi": {
+          "success_rate": 30,
+          "pseudo_count": 3,
+          "extrapolated": false
+        },
+        "provenance": {
+          "source": "owner-approved-graph-restructure",
+          "run_id": "calibration/graph_restructure_phase2.json",
+          "reviewed": true,
+          "override": true
+        }
       }
     },
     "Triangle Choke from Triangle Control": {
@@ -21601,18 +21609,6 @@
         }
       }
     },
-    "Heel Hook from Carni": {
-      "community": {
-        "gi": {
-          "success_rate": 45.0,
-          "vote_count": 30
-        },
-        "nogi": {
-          "success_rate": 45.0,
-          "vote_count": 30
-        }
-      }
-    },
     "Heel Hook from Ashi Garami": {
       "community": {
         "gi": {
@@ -21799,18 +21795,6 @@
         }
       }
     },
-    "Calf Slicer from Carni": {
-      "community": {
-        "gi": {
-          "success_rate": 50.0,
-          "vote_count": 30
-        },
-        "nogi": {
-          "success_rate": 50.0,
-          "vote_count": 30
-        }
-      }
-    },
     "Calf Slicer from Saddle": {
       "community": {
         "gi": {
@@ -21940,6 +21924,24 @@
         "nogi": {
           "success_rate": 42.0,
           "vote_count": 30
+        }
+      },
+      "prior": {
+        "gi": {
+          "success_rate": 25,
+          "pseudo_count": 3,
+          "extrapolated": false
+        },
+        "nogi": {
+          "success_rate": 25,
+          "pseudo_count": 3,
+          "extrapolated": false
+        },
+        "provenance": {
+          "source": "owner-approved-graph-restructure",
+          "run_id": "calibration/graph_restructure_phase2.json",
+          "reviewed": true,
+          "override": true
         }
       }
     },
@@ -22282,6 +22284,24 @@
         "nogi": {
           "success_rate": 60.0,
           "vote_count": 30
+        }
+      },
+      "prior": {
+        "gi": {
+          "success_rate": 35,
+          "pseudo_count": 3,
+          "extrapolated": false
+        },
+        "nogi": {
+          "success_rate": 35,
+          "pseudo_count": 3,
+          "extrapolated": false
+        },
+        "provenance": {
+          "source": "owner-approved-graph-restructure",
+          "run_id": "calibration/graph_restructure_phase2.json",
+          "reviewed": true,
+          "override": true
         }
       }
     },
@@ -23231,6 +23251,24 @@
           "success_rate": 52.0,
           "vote_count": 30
         }
+      },
+      "prior": {
+        "gi": {
+          "success_rate": 30,
+          "pseudo_count": 3,
+          "extrapolated": false
+        },
+        "nogi": {
+          "success_rate": 30,
+          "pseudo_count": 3,
+          "extrapolated": false
+        },
+        "provenance": {
+          "source": "owner-approved-graph-restructure",
+          "run_id": "calibration/graph_restructure_phase2.json",
+          "reviewed": true,
+          "override": true
+        }
       }
     },
     "Omoplata from Russian Leg Lasso": {
@@ -23954,18 +23992,6 @@
       }
     },
     "Kneebar from Toe Hold Control": {
-      "community": {
-        "gi": {
-          "success_rate": 60.0,
-          "vote_count": 30
-        },
-        "nogi": {
-          "success_rate": 60.0,
-          "vote_count": 30
-        }
-      }
-    },
-    "Kneebar from Carni": {
       "community": {
         "gi": {
           "success_rate": 60.0,
@@ -24913,36 +24939,6 @@
         }
       }
     },
-    "Anaconda Choke from Dead Orchard": {
-      "community": {
-        "gi": {
-          "success_rate": 50.0,
-          "vote_count": 30
-        },
-        "nogi": {
-          "success_rate": 50.0,
-          "vote_count": 30
-        }
-      },
-      "prior": {
-        "gi": {
-          "success_rate": 29,
-          "pseudo_count": 3,
-          "extrapolated": true
-        },
-        "nogi": {
-          "success_rate": 37,
-          "pseudo_count": 3,
-          "extrapolated": true
-        },
-        "provenance": {
-          "source": "calibrate+review",
-          "run_id": "2026-07-07T17:37:32.832419Z",
-          "reviewed": true,
-          "override": false
-        }
-      }
-    },
     "Closed Guard to Hindulotine": {
       "community": {
         "gi": {
@@ -25066,18 +25062,6 @@
           "run_id": "2026-07-07T17:37:32.832419Z",
           "reviewed": true,
           "override": false
-        }
-      }
-    },
-    "Turtle to Aoki Lock": {
-      "community": {
-        "gi": {
-          "success_rate": 50.0,
-          "vote_count": 30
-        },
-        "nogi": {
-          "success_rate": 50.0,
-          "vote_count": 30
         }
       }
     },
@@ -25256,20 +25240,20 @@
       },
       "prior": {
         "gi": {
-          "success_rate": 41,
+          "success_rate": 41.0,
           "pseudo_count": 8,
           "extrapolated": false
         },
         "nogi": {
-          "success_rate": 41,
+          "success_rate": 41.0,
           "pseudo_count": 8,
           "extrapolated": false
         },
         "provenance": {
-          "source": "calibrate+review",
-          "run_id": "2026-07-07T17:37:32.832419Z",
-          "reviewed": false,
-          "override": false
+          "source": "owner-approved-graph-restructure",
+          "run_id": "calibration/graph_restructure_phase2.json",
+          "reviewed": true,
+          "override": true
         }
       }
     },
@@ -25408,6 +25392,156 @@
         "nogi": {
           "success_rate": 55.0,
           "vote_count": 30
+        }
+      }
+    },
+    "Crackhead Control to Dead Orchard": {
+      "community": {
+        "gi": {
+          "success_rate": 40,
+          "vote_count": 30
+        },
+        "nogi": {
+          "success_rate": 40,
+          "vote_count": 30
+        }
+      },
+      "prior": {
+        "gi": {
+          "success_rate": 40,
+          "pseudo_count": 3,
+          "extrapolated": false
+        },
+        "nogi": {
+          "success_rate": 40,
+          "pseudo_count": 3,
+          "extrapolated": false
+        },
+        "provenance": {
+          "source": "owner-approved-graph-restructure",
+          "run_id": "calibration/graph_restructure_phase2.json",
+          "reviewed": true,
+          "override": true
+        }
+      }
+    },
+    "Carni Shoulder Lock": {
+      "community": {
+        "gi": {
+          "success_rate": 35,
+          "vote_count": 30
+        },
+        "nogi": {
+          "success_rate": 35,
+          "vote_count": 30
+        }
+      },
+      "prior": {
+        "gi": {
+          "success_rate": 35,
+          "pseudo_count": 3,
+          "extrapolated": false
+        },
+        "nogi": {
+          "success_rate": 35,
+          "pseudo_count": 3,
+          "extrapolated": false
+        },
+        "provenance": {
+          "source": "owner-approved-graph-restructure",
+          "run_id": "calibration/graph_restructure_phase2.json",
+          "reviewed": true,
+          "override": true
+        }
+      }
+    },
+    "Carni Release to Guard": {
+      "community": {
+        "gi": {
+          "success_rate": 60,
+          "vote_count": 30
+        },
+        "nogi": {
+          "success_rate": 60,
+          "vote_count": 30
+        }
+      },
+      "prior": {
+        "gi": {
+          "success_rate": 60,
+          "pseudo_count": 3,
+          "extrapolated": false
+        },
+        "nogi": {
+          "success_rate": 60,
+          "pseudo_count": 3,
+          "extrapolated": false
+        },
+        "provenance": {
+          "source": "owner-approved-graph-restructure",
+          "run_id": "calibration/graph_restructure_phase2.json",
+          "reviewed": true,
+          "override": true
+        }
+      }
+    },
+    "Z Guard to Carni": {
+      "community": {
+        "gi": {
+          "success_rate": 35,
+          "vote_count": 30
+        },
+        "nogi": {
+          "success_rate": 35,
+          "vote_count": 30
+        }
+      },
+      "prior": {
+        "gi": {
+          "success_rate": 35,
+          "pseudo_count": 3,
+          "extrapolated": false
+        },
+        "nogi": {
+          "success_rate": 35,
+          "pseudo_count": 3,
+          "extrapolated": false
+        },
+        "provenance": {
+          "source": "owner-approved-graph-restructure",
+          "run_id": "calibration/graph_restructure_phase2.json",
+          "reviewed": true,
+          "override": true
+        }
+      }
+    },
+    "Armbar from Dead Orchard Control": {
+      "community": {
+        "gi": {
+          "success_rate": 40,
+          "vote_count": 30
+        },
+        "nogi": {
+          "success_rate": 40,
+          "vote_count": 30
+        }
+      },
+      "prior": {
+        "gi": {
+          "success_rate": 40,
+          "pseudo_count": 3,
+          "extrapolated": false
+        },
+        "nogi": {
+          "success_rate": 40,
+          "pseudo_count": 3,
+          "extrapolated": false
+        },
+        "provenance": {
+          "source": "owner-approved-graph-restructure",
+          "run_id": "calibration/graph_restructure_phase2.json",
+          "reviewed": true,
+          "override": true
         }
       }
     }

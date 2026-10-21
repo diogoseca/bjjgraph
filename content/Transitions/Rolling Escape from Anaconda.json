@@ -26,7 +26,7 @@
       "result": "failure"
     },
     {
-      "to": "Dead Orchard Control/Bottom",
+      "to": "Front Headlock/Bottom",
       "probability": {
         "gi": 20,
         "nogi": 20
@@ -35,8 +35,8 @@
     }
   ],
   "success_rate": {
-    "gi": 50,
-    "nogi": 50
+    "gi": 50.0,
+    "nogi": 50.0
   },
   "overview": "The defender is beneath a front-headlock attacker whose arm encloses the neck and one shoulder. A secured choke is a tap situation. Dead Orchard is a separate high guard, not the continuation of an Anaconda roll, and no blind rolling escape is guaranteed.\n\nAn arm passing beneath the neck toward the armpit signals the Anaconda enclosure. Preserve space between the shoulder and neck before the attacker closes the arm loop. Do not fight a secured loop by twisting the neck or planting the head against a roll.\n\nMove through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.\n\nInstructional sources: [Stephan Kesting and Denis Kang — the Anaconda choke](https://www.grapplearts.com/the-anaconda-choke/); [Nathan Orchard — Dead Orchard, part 1](https://www.youtube.com/watch?v=XoiB1D2WJwE).",
   "conditions": [
@@ -132,7 +132,7 @@
         "counter": "Pass the choking arm beneath the neck and toward the far armpit, enclosing one shoulder.",
         "effectiveness": "High",
         "your_response": "Re-check the prerequisite before continuing. Preserve space between the shoulder and neck before the attacker closes the arm loop.",
-        "targets_outcome": "Dead Orchard Control/Bottom"
+        "targets_outcome": "Front Headlock/Bottom"
       },
       {
         "counter": "Join to the supporting arm without pulling the neck into a twist.",
@@ -144,7 +144,7 @@
         "counter": "Use the taught shoulder-led angle only when both partners can roll safely; do not dive onto the neck.",
         "effectiveness": "Medium",
         "your_response": "Re-check the prerequisite before continuing. Hand fight before the enclosure becomes tight, while keeping the trapped elbow connected to the torso.",
-        "targets_outcome": "Turtle/Bottom"
+        "targets_outcome": "Anaconda Control/Bottom"
       }
     ],
     "common_errors": [
@@ -360,14 +360,14 @@
       {
         "action": "Pass the choking arm beneath the neck and toward the far armpit, enclosing one shoulder.",
         "when_to_use": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.",
-        "targets_outcome": "Dead Orchard Control/Bottom",
+        "targets_outcome": "Front Headlock/Bottom",
         "if_successful": "The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
         "risk": "Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route."
       },
       {
         "action": "Join to the supporting arm without pulling the neck into a twist.",
         "when_to_use": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.",
-        "targets_outcome": "Dead Orchard Control/Bottom",
+        "targets_outcome": "Front Headlock/Bottom",
         "if_successful": "The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
         "risk": "Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route."
       },
@@ -385,7 +385,7 @@
         "how": "Interrupt the next connection while preserving a safe base. Establish any new guard or pin separately rather than assuming this response guarantees it. Contain the opponent's head and one arm while keeping a balanced base."
       },
       {
-        "outcome": "Dead Orchard Control/Bottom",
+        "outcome": "Front Headlock/Bottom",
         "how": "Interrupt the next connection while preserving a safe base. Establish any new guard or pin separately rather than assuming this response guarantees it. Pass the choking arm beneath the neck and toward the far armpit, enclosing one shoulder."
       }
     ],

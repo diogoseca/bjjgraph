@@ -32,6 +32,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from _atomic_io import atomic_write_json
 from _votes import RULESETS, migrate_entry
+from _restructure_supersession import RestructureSupersession
 
 _REPO_ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_VOTES = _REPO_ROOT / "templates" / "votes.json"
@@ -54,7 +55,7 @@ def build_prior_blocks(proposal: dict, override: dict | None, k: str, reviewed_s
     prior = {}
     for rs in RULESETS:
         val = override[rs] if override is not None else proposed_sr.get(rs)
-        prior[rs] = {
+        prior[rs] = None if val is None else {
             "success_rate": val,
             "pseudo_count": pseudo.get(rs, 3),
             "extrapolated": extrapolated,
@@ -68,7 +69,8 @@ def build_prior_blocks(proposal: dict, override: dict | None, k: str, reviewed_s
     return prior
 
 
-def apply_calibration(votes_data: dict, proposals: dict, overrides: dict, reviewed_set: set) -> dict:
+def apply_calibration(votes_data: dict, proposals: dict, overrides: dict, reviewed_set: set,
+                      supersession=None) -> dict:
     """Migrate every votes entry to the forked schema and attach eligible calibrated priors.
 
     Returns a stats dict: {migrated, priors_written, overrides_written}.
@@ -87,6 +89,8 @@ def apply_calibration(votes_data: dict, proposals: dict, overrides: dict, review
     priors_written = 0
     overrides_written = 0
     for k, proposal in proposals.items():
+        if supersession is not None and supersession.technique(k, votes):
+            continue
         eligible = (not proposal.get("needs_human_review")) or (k in reviewed_set) or (k in overrides)
         if not eligible:
             continue
@@ -127,7 +131,9 @@ def main():
     print(f"  overrides: {args.overrides} ({len(overrides)} expert fixes)")
     print(f"  reviewed:  {args.review} ({len(reviewed_set)} reviewed names)")
 
-    stats = apply_calibration(votes_data, proposals, overrides, reviewed_set)
+    supersession = RestructureSupersession(_REPO_ROOT)
+    stats = apply_calibration(votes_data, proposals, overrides, reviewed_set, supersession)
+    supersession.report()
 
     print(f"  entries migrated to forked schema: {stats['migrated']}")
     print(f"  priors written:                    {stats['priors_written']}")

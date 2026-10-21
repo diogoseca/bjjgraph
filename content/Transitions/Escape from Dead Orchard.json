@@ -10,33 +10,33 @@
   "from_position": "Dead Orchard Control/Bottom",
   "outcomes": [
     {
-      "to": "Open Guard/Bottom",
+      "to": "Closed Guard/Bottom",
       "probability": {
-        "gi": 35,
-        "nogi": 35
+        "gi": 65,
+        "nogi": 65
       },
       "result": "success"
     },
     {
       "to": "Dead Orchard Control/Bottom",
       "probability": {
-        "gi": 40,
-        "nogi": 40
+        "gi": 20,
+        "nogi": 20
       },
       "result": "failure"
     },
     {
-      "to": "Side Control/Bottom",
+      "to": "Open Guard/Bottom",
       "probability": {
-        "gi": 25,
-        "nogi": 25
+        "gi": 15,
+        "nogi": 15
       },
       "result": "counter"
     }
   ],
   "success_rate": {
-    "gi": 35,
-    "nogi": 35
+    "gi": 65,
+    "nogi": 65
   },
   "overview": "The bottom player is already facing the opponent in Dead Orchard Control, with a high rubber-guard leg connection. The bottom player owns the arm trap. The opponent who must escape the trap is the top player, so releasing the guard and escaping its attack are different actions.\n\nThe bottom player faces the opponent and keeps the hips close beneath the shoulders. The legs form a high figure-four around the shoulder line, with both opposing arms inside. Release any wrist, neck or elbow loading before opening the high-leg enclosure. Lower the controlling leg through a comfortable hip angle rather than pulling the foot against the knee.\n\nMove through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.\n\nInstructional sources: [Nathan Orchard — Dead Orchard, part 1](https://www.youtube.com/watch?v=XoiB1D2WJwE); [Ben Eddy — the Zombie pummel](https://www.youtube.com/watch?v=JzSxFvNA5Uo).",
   "conditions": [
@@ -136,7 +136,7 @@
         "counter": "Keep the arms compact and avoid offering a straight arm while trying to force posture.",
         "effectiveness": "Medium",
         "your_response": "Re-check the prerequisite before continuing. Release any wrist, neck or elbow loading before opening the high-leg enclosure.",
-        "targets_outcome": "Side Control/Bottom"
+        "targets_outcome": "Open Guard/Bottom"
       },
       {
         "counter": "Maintain an early frame at the hip or thigh before the figure-four closes around the shoulders.",
@@ -380,7 +380,7 @@
       {
         "action": "Maintain an early frame at the hip or thigh before the figure-four closes around the shoulders.",
         "when_to_use": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.",
-        "targets_outcome": "Side Control/Bottom",
+        "targets_outcome": "Open Guard/Bottom",
         "if_successful": "The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
         "risk": "Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route."
       },
@@ -398,7 +398,7 @@
         "how": "Interrupt the next connection while preserving a safe base. Establish any new guard or pin separately rather than assuming this response guarantees it. Treat a high leg triangle containing both your arms as an arm-lock threat even when the neck is not being choked."
       },
       {
-        "outcome": "Side Control/Bottom",
+        "outcome": "Open Guard/Bottom",
         "how": "Interrupt the next connection while preserving a safe base. Establish any new guard or pin separately rather than assuming this response guarantees it. Keep the arms compact and avoid offering a straight arm while trying to force posture."
       }
     ],
@@ -528,5 +528,8 @@
         "verified": "2026-07-15"
       }
     ]
-  }
+  },
+  "aliases": [
+    "Dead Orchard guard reset"
+  ]
 }

@@ -372,78 +372,71 @@
       {
         "transition": "Sprawl Defense",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
+          "gi": 10,
+          "nogi": 10
         }
       },
       {
         "transition": "Crossface Pass",
+        "attempt_probability": {
+          "gi": 15,
+          "nogi": 13
+        }
+      },
+      {
+        "transition": "Back Step",
         "attempt_probability": {
           "gi": 13,
           "nogi": 11
         }
       },
       {
-        "transition": "Back Step",
-        "attempt_probability": {
-          "gi": 11,
-          "nogi": 10
-        }
-      },
-      {
         "transition": "Knee Slice Pass",
         "attempt_probability": {
-          "gi": 16,
-          "nogi": 12
-        }
-      },
-      {
-        "transition": "Back Take from Top",
-        "attempt_probability": {
-          "gi": 13,
-          "nogi": 13
+          "gi": 18,
+          "nogi": 14
         }
       },
       {
         "transition": "Darce from Turtle",
         "attempt_probability": {
-          "gi": 3,
-          "nogi": 7
+          "gi": 4,
+          "nogi": 8
         }
       },
       {
         "transition": "Guillotine from Turtle",
         "attempt_probability": {
-          "gi": 5,
-          "nogi": 7
+          "gi": 6,
+          "nogi": 8
         }
       },
       {
         "transition": "Anaconda from Turtle",
         "attempt_probability": {
           "gi": 2,
-          "nogi": 4
+          "nogi": 5
         }
       },
       {
         "transition": "Turtle Flatten to Side Control",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
+          "gi": 14,
+          "nogi": 14
         }
       },
       {
         "transition": "Matrix to Back Control",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
+          "gi": 10,
+          "nogi": 10
         }
       },
       {
         "transition": "Matrix to Side Control",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 6
+          "gi": 8,
+          "nogi": 7
         }
       }
     ],

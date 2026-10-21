@@ -75,10 +75,6 @@
       "relationship": "Escape position if entry fails and space is created"
     },
     {
-      "name": "Kneebar Finish",
-      "relationship": "Follow-up submission from Kneebar Control"
-    },
-    {
       "name": "Inside Ashi-Garami",
       "relationship": "Related leg entanglement with similar attack options"
     }

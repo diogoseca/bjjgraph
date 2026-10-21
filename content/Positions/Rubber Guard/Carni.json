@@ -477,31 +477,24 @@
     },
     "transitions": [
       {
-        "transition": "Heel Hook from Carni",
+        "transition": "Carni Shoulder Lock",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 45
+          "gi": 50,
+          "nogi": 50
         }
       },
       {
-        "transition": "Kneebar Finish",
+        "transition": "Carni Release to Guard",
         "attempt_probability": {
-          "gi": 41,
-          "nogi": 21
-        }
-      },
-      {
-        "transition": "Calf Slicer from Carni",
-        "attempt_probability": {
-          "gi": 33,
-          "nogi": 18
+          "gi": 30,
+          "nogi": 35
         }
       },
       {
         "transition": "Carni to Gogoplata Setup",
         "attempt_probability": {
-          "gi": 22,
-          "nogi": 16
+          "gi": 20,
+          "nogi": 15
         }
       }
     ],

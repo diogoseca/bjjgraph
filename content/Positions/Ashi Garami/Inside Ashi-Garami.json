@@ -255,11 +255,6 @@
         "condition": "If opponent extends trapped leg forcefully to create distance and escape",
         "actions": [
           {
-            "technique": "Kneebar Finish",
-            "target": "Kneebar Control",
-            "probability": 60
-          },
-          {
             "technique": "Ankle Lock Finish",
             "target": "Inside Ashi-Garami",
             "probability": 50

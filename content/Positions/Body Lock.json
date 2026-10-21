@@ -267,52 +267,45 @@
     },
     "transitions": [
       {
-        "transition": "Back Take",
-        "attempt_probability": {
-          "gi": 17,
-          "nogi": 18
-        }
-      },
-      {
         "transition": "Snap Down to Front Headlock",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 8
+          "gi": 8,
+          "nogi": 10
         }
       },
       {
         "transition": "Tani Otoshi",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 9
+          "gi": 10,
+          "nogi": 11
         }
       },
       {
         "transition": "Kosoto Gake",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 11
+          "gi": 11,
+          "nogi": 13
         }
       },
       {
         "transition": "Mat Return to Back Mount",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
+          "gi": 14,
+          "nogi": 15
         }
       },
       {
         "transition": "Harai Goshi",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 3
+          "gi": 7,
+          "nogi": 4
         }
       },
       {
         "transition": "Body Lock Pass",
         "attempt_probability": {
-          "gi": 17,
-          "nogi": 14
+          "gi": 21,
+          "nogi": 17
         },
         "deal_here": true,
         "success_rate": {
@@ -357,22 +350,22 @@
       {
         "transition": "Double Leg Finish",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 5
+          "gi": 5,
+          "nogi": 6
         }
       },
       {
         "transition": "Body Lock Takedown",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 14
+          "gi": 16,
+          "nogi": 17
         }
       },
       {
         "transition": "Body Lock to Standing",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 6
+          "gi": 8,
+          "nogi": 7
         }
       }
     ],

@@ -1,0 +1,412 @@
+{
+  "name": "Carni Shoulder Lock",
+  "from_position": "Carni/Bottom",
+  "success_rate": {
+    "gi": 35,
+    "nogi": 35
+  },
+  "outcomes": [
+    {
+      "to": "game-over",
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
+      "result": "success"
+    },
+    {
+      "to": "Carni/Bottom",
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
+      "result": "failure"
+    },
+    {
+      "to": "Closed Guard/Bottom",
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
+      "result": "counter"
+    }
+  ],
+  "summary": "Carni is a leg-assisted shoulder lock in which the bottom player retains the upper arm, controls the wrist, and adjusts the hip angle without forcing the knee or shoulder.",
+  "description": "Carni is a leg-assisted shoulder lock in which the bottom player retains the upper arm, controls the wrist, and adjusts the hip angle without forcing the knee or shoulder.",
+  "tags": [
+    "bjj",
+    "submission",
+    "guard"
+  ],
+  "overview": "Carni is a leg-assisted shoulder lock in which the bottom player retains the upper arm, controls the wrist, and adjusts the hip angle without forcing the knee or shoulder.\n\nBegin in Carni/Bottom with the opposing shoulder and upper arm controlled; this is an upper-body lock. Keep control of the triceps so the opponent cannot freely withdraw the upper arm.\n\nSecure the wrist while keeping the shoulder and elbow within a comfortable, controlled range. Turn through the hip to support the raised knee; never pull the foot against a fixed knee. Use a small controlled adjustment through the leg-assisted arm clamp. Stop before pain or forced joint movement. Release at any tap or verbal signal. Remove wrist leverage and shoulder pressure before unwinding the leg connection.\n\nPractice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route.",
+  "related_content": [
+    {
+      "name": "Carni",
+      "relationship": "Starting configuration; establish these controls before attempting the action."
+    },
+    {
+      "name": "Closed Guard",
+      "relationship": "An approved landing or reset; confirm its controls before treating the action as complete."
+    },
+    {
+      "name": "Gogoplata",
+      "relationship": "Compare the separate finishing enclosure and controls; this link does not establish a direct transition."
+    }
+  ],
+  "attacker": {
+    "name": "Carni Shoulder Lock Attacker",
+    "description": "Carni is a leg-assisted shoulder lock in which the bottom player retains the upper arm, controls the wrist, and adjusts the hip angle without forcing the knee or shoulder.",
+    "overview": "Carni is a leg-assisted shoulder lock in which the bottom player retains the upper arm, controls the wrist, and adjusts the hip angle without forcing the knee or shoulder.\n\nBegin in Carni/Bottom with the opposing shoulder and upper arm controlled; this is an upper-body lock. Keep control of the triceps so the opponent cannot freely withdraw the upper arm.\n\nSecure the wrist while keeping the shoulder and elbow within a comfortable, controlled range. Turn through the hip to support the raised knee; never pull the foot against a fixed knee. Use a small controlled adjustment through the leg-assisted arm clamp. Stop before pain or forced joint movement. Release at any tap or verbal signal. Remove wrist leverage and shoulder pressure before unwinding the leg connection.\n\nPractice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route.",
+    "key_principles": [
+      "Upper arm held by the leg clamp: Begin in Carni/Bottom with the opposing shoulder and upper arm controlled; this is an upper-body lock.",
+      "Upper arm close to the controlling leg: Keep control of the triceps so the opponent cannot freely withdraw the upper arm.",
+      "Wrist retained with the elbow aligned: Secure the wrist while keeping the shoulder and elbow within a comfortable, controlled range.",
+      "Hip angle supports the leg enclosure: Turn through the hip to support the raised knee; never pull the foot against a fixed knee.",
+      "Gradual shoulder loading: Use a small controlled adjustment through the leg-assisted arm clamp. Stop before pain or forced joint movement.",
+      "Unload wrist and shoulder before legs: Release at any tap or verbal signal. Remove wrist leverage and shoulder pressure before unwinding the leg connection."
+    ],
+    "setup_requirements": [
+      "Begin in Carni/Bottom with the opposing shoulder and upper arm controlled; this is an upper-body lock.",
+      "Keep control of the triceps so the opponent cannot freely withdraw the upper arm.",
+      "Secure the wrist while keeping the shoulder and elbow within a comfortable, controlled range.",
+      "Turn through the hip to support the raised knee; never pull the foot against a fixed knee."
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Identify the shoulder capture",
+        "description": "Begin in Carni/Bottom with the opposing shoulder and upper arm controlled; this is an upper-body lock."
+      },
+      {
+        "step_number": 2,
+        "action": "Retain the triceps",
+        "description": "Keep control of the triceps so the opponent cannot freely withdraw the upper arm."
+      },
+      {
+        "step_number": 3,
+        "action": "Control the wrist",
+        "description": "Secure the wrist while keeping the shoulder and elbow within a comfortable, controlled range."
+      },
+      {
+        "step_number": 4,
+        "action": "Support the knee",
+        "description": "Turn through the hip to support the raised knee; never pull the foot against a fixed knee."
+      },
+      {
+        "step_number": 5,
+        "action": "Take up the shoulder slack",
+        "description": "Use a small controlled adjustment through the leg-assisted arm clamp. Stop before pain or forced joint movement."
+      },
+      {
+        "step_number": 6,
+        "action": "Release completely",
+        "description": "Release at any tap or verbal signal. Remove wrist leverage and shoulder pressure before unwinding the leg connection."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Recognize the upper-arm clamp before the wrist is fixed.",
+        "effectiveness": "Medium",
+        "your_response": "Keep the required control or use the stated reset; do not force the next movement.",
+        "targets_outcome": "Carni/Bottom"
+      },
+      {
+        "counter": "Keep the elbow near the body while the shoulder connection is still forming.",
+        "effectiveness": "Medium",
+        "your_response": "Keep the required control or use the stated reset; do not force the next movement.",
+        "targets_outcome": "Carni/Bottom"
+      },
+      {
+        "counter": "Clear the wrist before trying to rotate the shoulder through the enclosure.",
+        "effectiveness": "Medium",
+        "your_response": "Keep the required control or use the stated reset; do not force the next movement.",
+        "targets_outcome": "Closed Guard/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Skipping identify the shoulder capture",
+        "consequence": "The next action lacks its required control.",
+        "correction": "Begin in Carni/Bottom with the opposing shoulder and upper arm controlled; this is an upper-body lock."
+      },
+      {
+        "error": "Skipping retain the triceps",
+        "consequence": "The next action lacks its required control.",
+        "correction": "Keep control of the triceps so the opponent cannot freely withdraw the upper arm."
+      },
+      {
+        "error": "Skipping control the wrist",
+        "consequence": "The next action lacks its required control.",
+        "correction": "Secure the wrist while keeping the shoulder and elbow within a comfortable, controlled range."
+      },
+      {
+        "error": "Skipping support the knee",
+        "consequence": "The next action lacks its required control.",
+        "correction": "Turn through the hip to support the raised knee; never pull the foot against a fixed knee."
+      },
+      {
+        "error": "Skipping take up the shoulder slack",
+        "consequence": "The next action lacks its required control.",
+        "correction": "Use a small controlled adjustment through the leg-assisted arm clamp. Stop before pain or forced joint movement."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1",
+        "focus": "Identify the shoulder capture",
+        "description": "Begin in Carni/Bottom with the opposing shoulder and upper arm controlled; this is an upper-body lock. Pause at this checkpoint with a cooperative partner before linking the next step."
+      },
+      {
+        "phase": "Phase 2",
+        "focus": "Retain the triceps",
+        "description": "Keep control of the triceps so the opponent cannot freely withdraw the upper arm. Pause at this checkpoint with a cooperative partner before linking the next step."
+      },
+      {
+        "phase": "Phase 3",
+        "focus": "Control the wrist",
+        "description": "Secure the wrist while keeping the shoulder and elbow within a comfortable, controlled range. Pause at this checkpoint with a cooperative partner before linking the next step."
+      },
+      {
+        "phase": "Phase 4",
+        "focus": "Support the knee",
+        "description": "Turn through the hip to support the raised knee; never pull the foot against a fixed knee. Pause at this checkpoint with a cooperative partner before linking the next step."
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "Carni Shoulder Lock: what does identify the shoulder capture require?",
+        "answer": "Begin in Carni/Bottom with the opposing shoulder and upper arm controlled; this is an upper-body lock.",
+        "answer_line": "Upper arm held by the leg clamp",
+        "distractors": {
+          "plausible": [
+            "A kneebar against the lower leg",
+            "A heel-hook grip on the ankle"
+          ],
+          "trap": [
+            "A calf slicer behind the knee"
+          ]
+        }
+      },
+      {
+        "question": "Carni Shoulder Lock: what does retain the triceps require?",
+        "answer": "Keep control of the triceps so the opponent cannot freely withdraw the upper arm.",
+        "answer_line": "Upper arm close to the controlling leg",
+        "distractors": {
+          "plausible": [
+            "A heel-hook grip on the ankle",
+            "A calf slicer behind the knee"
+          ],
+          "trap": [
+            "Rotating a loaded shoulder explosively"
+          ]
+        }
+      },
+      {
+        "question": "Carni Shoulder Lock: what does control the wrist require?",
+        "answer": "Secure the wrist while keeping the shoulder and elbow within a comfortable, controlled range.",
+        "answer_line": "Wrist retained with the elbow aligned",
+        "distractors": {
+          "plausible": [
+            "A calf slicer behind the knee",
+            "Rotating a loaded shoulder explosively"
+          ],
+          "trap": [
+            "A kneebar against the lower leg"
+          ]
+        }
+      },
+      {
+        "question": "Carni Shoulder Lock: what does support the knee require?",
+        "answer": "Turn through the hip to support the raised knee; never pull the foot against a fixed knee.",
+        "answer_line": "Hip angle supports the leg enclosure",
+        "distractors": {
+          "plausible": [
+            "Rotating a loaded shoulder explosively",
+            "A kneebar against the lower leg"
+          ],
+          "trap": [
+            "A heel-hook grip on the ankle"
+          ]
+        }
+      },
+      {
+        "question": "Carni Shoulder Lock: what does take up the shoulder slack require?",
+        "answer": "Use a small controlled adjustment through the leg-assisted arm clamp. Stop before pain or forced joint movement.",
+        "answer_line": "Gradual shoulder loading",
+        "distractors": {
+          "plausible": [
+            "A kneebar against the lower leg",
+            "A heel-hook grip on the ankle"
+          ],
+          "trap": [
+            "A calf slicer behind the knee"
+          ]
+        }
+      },
+      {
+        "question": "Carni Shoulder Lock: what does release completely require?",
+        "answer": "Release at any tap or verbal signal. Remove wrist leverage and shoulder pressure before unwinding the leg connection.",
+        "answer_line": "Unload wrist and shoulder before legs",
+        "distractors": {
+          "plausible": [
+            "A heel-hook grip on the ankle",
+            "A calf slicer behind the knee"
+          ],
+          "trap": [
+            "Rotating a loaded shoulder explosively"
+          ]
+        }
+      }
+    ]
+  },
+  "defender": {
+    "name": "Carni Shoulder Lock Defender",
+    "description": "Recognize Carni Shoulder Lock and interrupt its required connections before the final control is established.",
+    "overview": "You oppose the performer of this action. Recognize the upper-arm clamp before the wrist is fixed. Keep the elbow near the body while the shoulder connection is still forming. Clear the wrist before trying to rotate the shoulder through the enclosure. If the finish is interrupted, do not assume the Carni shoulder control has also disappeared. When the holder releases safely, restore posture in the facing closed guard.\n\nPractice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route.",
+    "key_principles": [
+      "Recognize the upper-arm clamp before the wrist is fixed.",
+      "Keep the elbow near the body while the shoulder connection is still forming.",
+      "Clear the wrist before trying to rotate the shoulder through the enclosure.",
+      "If the finish is interrupted, do not assume the Carni shoulder control has also disappeared.",
+      "When the holder releases safely, restore posture in the facing closed guard."
+    ],
+    "recognition_cues": [
+      "Begin in Carni/Bottom with the opposing shoulder and upper arm controlled; this is an upper-body lock.",
+      "Keep control of the triceps so the opponent cannot freely withdraw the upper arm.",
+      "Secure the wrist while keeping the shoulder and elbow within a comfortable, controlled range."
+    ],
+    "defensive_options": [
+      {
+        "action": "Recognize the upper-arm clamp before the wrist is fixed.",
+        "when_to_use": "Before the next connection or pressure is established.",
+        "targets_outcome": "Carni/Bottom",
+        "if_successful": "The continuation is interrupted; confirm the remaining controls before continuing.",
+        "risk": "Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route."
+      },
+      {
+        "action": "Keep the elbow near the body while the shoulder connection is still forming.",
+        "when_to_use": "Before the next connection or pressure is established.",
+        "targets_outcome": "Carni/Bottom",
+        "if_successful": "The continuation is interrupted; confirm the remaining controls before continuing.",
+        "risk": "Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route."
+      },
+      {
+        "action": "Clear the wrist before trying to rotate the shoulder through the enclosure.",
+        "when_to_use": "Before the next connection or pressure is established.",
+        "targets_outcome": "Closed Guard/Bottom",
+        "if_successful": "The continuation is interrupted; confirm the remaining controls before continuing.",
+        "risk": "Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route."
+      },
+      {
+        "action": "If the finish is interrupted, do not assume the Carni shoulder control has also disappeared.",
+        "when_to_use": "Before the next connection or pressure is established.",
+        "targets_outcome": "Closed Guard/Bottom",
+        "if_successful": "The continuation is interrupted; confirm the remaining controls before continuing.",
+        "risk": "Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route."
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Carni/Bottom",
+        "how": "Recognize the upper-arm clamp before the wrist is fixed."
+      },
+      {
+        "outcome": "Closed Guard/Bottom",
+        "how": "When the holder releases safely, restore posture in the facing closed guard."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Acting after the joint or neck is already loaded",
+        "consequence": "The attempted movement may increase pressure.",
+        "correction": "Tap and release before moving."
+      },
+      {
+        "error": "Assuming a cleared grip completes the escape",
+        "consequence": "The remaining control can still prevent the intended landing.",
+        "correction": "When the holder releases safely, restore posture in the facing closed guard."
+      },
+      {
+        "error": "Losing a stable base during the response",
+        "consequence": "You may concede the next connection.",
+        "correction": "Keep the elbow near the body while the shoulder connection is still forming."
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "Against Carni Shoulder Lock, what connection do you address first?",
+        "answer": "Recognize the upper-arm clamp before the wrist is fixed."
+      },
+      {
+        "question": "Against Carni Shoulder Lock, when must you stop moving?",
+        "answer": "Stop at a tap, verbal signal, distress, or a loaded joint or neck. Release before changing direction."
+      },
+      {
+        "question": "Against Carni Shoulder Lock, does interrupting one grip guarantee a new position?",
+        "answer": "No. Confirm the remaining body and leg controls before claiming the guard, pin, or submission has changed."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1",
+        "focus": "Identify the shoulder capture",
+        "description": "Begin in Carni/Bottom with the opposing shoulder and upper arm controlled; this is an upper-body lock. Pause at this checkpoint with a cooperative partner before linking the next step."
+      },
+      {
+        "phase": "Phase 2",
+        "focus": "Retain the triceps",
+        "description": "Keep control of the triceps so the opponent cannot freely withdraw the upper arm. Pause at this checkpoint with a cooperative partner before linking the next step."
+      },
+      {
+        "phase": "Phase 3",
+        "focus": "Control the wrist",
+        "description": "Secure the wrist while keeping the shoulder and elbow within a comfortable, controlled range. Pause at this checkpoint with a cooperative partner before linking the next step."
+      }
+    ],
+    "escape_paths": [
+      "Recognize the upper-arm clamp before the wrist is fixed.",
+      "When the holder releases safely, restore posture in the facing closed guard."
+    ]
+  },
+  "submission_category": "Joint Lock",
+  "submission_type": "Shoulder Lock",
+  "target_area": "Shoulder joint",
+  "starting_position": "Carni/Bottom",
+  "from_positions": [
+    "Carni"
+  ],
+  "related_submissions": [
+    "Gogoplata",
+    "Omoplata",
+    "Baratoplata"
+  ],
+  "safety_considerations": {
+    "injury_risks": [
+      {
+        "injury": "Shoulder joint injury from excessive pressure",
+        "severity": "High",
+        "recovery_time": "Variable; obtain qualified medical assessment if injured."
+      },
+      {
+        "injury": "Neck or knee strain during a forced escape",
+        "severity": "High",
+        "recovery_time": "Variable; do not train through symptoms."
+      }
+    ],
+    "application_speed": "Apply gradually and release immediately at any signal.",
+    "tap_signals": [
+      "Hand tap",
+      "Foot tap when the arms are trapped",
+      "Verbal tap or stop"
+    ],
+    "release_protocol": [
+      "Stop adding pressure immediately.",
+      "Remove the joint or neck load before changing grips.",
+      "Free the trapped limb or neck and check the partner."
+    ],
+    "training_restrictions": [
+      "Practice under qualified supervision with a cooperative partner.",
+      "Do not force the movement through pain or a restricted joint range."
+    ]
+  }
+}

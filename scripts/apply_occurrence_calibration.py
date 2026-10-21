@@ -40,6 +40,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from _prob_norm import largest_remainder_round  # noqa: E402
 from _atomic_io import atomic_write_json  # noqa: E402
+from _restructure_supersession import RestructureSupersession
 
 ROOT = Path(__file__).resolve().parent.parent
 RULESETS = ("gi", "nogi")
@@ -126,6 +127,9 @@ def apply_container(entry: dict, dry_run: bool, mint_nulls=()) -> dict:
     finals = {m["transition"]: m["final"] for m in entry["moves"]}
 
     path = ROOT / rel
+    if RestructureSupersession(ROOT).hand(rel, role):
+        return {"file": rel, "role": role, "status": "superseded",
+                "reason": "owner-approved replacement or archived retirement verified"}
     if not path.exists():
         return {"file": rel, "role": role, "status": "error", "reason": "file not found"}
     data = json.loads(path.read_text(encoding="utf-8"))

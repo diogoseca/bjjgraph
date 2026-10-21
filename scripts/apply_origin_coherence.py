@@ -274,9 +274,13 @@ def _superseded():
 
 
 def apply(prov, write, check):
+    from _restructure_supersession import RestructureSupersession
+    supersession = RestructureSupersession(ROOT)
     changed, drift, cells = 0, [], 0
     later = _superseded()
     for c in prov["containers"]:
+        if supersession.hand(c["file"], c["role"]):
+            continue
         if c["key"] in later:
             if check:
                 continue
@@ -309,6 +313,7 @@ def apply(prov, write, check):
         changed += 1
         if write:
             atomic_write_json(ROOT / c["file"], data)
+    supersession.report()
     if check:
         print(f"[origin_coherence] check: {len(prov['containers'])} containers, "
               f"{len(later)} superseded by a later phase {sorted(later)}, "

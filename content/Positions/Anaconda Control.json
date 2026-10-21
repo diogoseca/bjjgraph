@@ -328,10 +328,6 @@
         "relationship": "Key transition - primary arm-in switch when the trapped arm straightens and the darce angle opens"
       },
       {
-        "name": "Anaconda Control to Dead Orchard Control",
-        "relationship": "Secondary transition - situational sequence for advancing to dead orchard control"
-      },
-      {
         "name": "Side Control",
         "relationship": "Advancement target - position gained after successful roll-through from anaconda"
       },
@@ -359,36 +355,22 @@
       {
         "transition": "Anaconda Choke from Anaconda Control",
         "attempt_probability": {
-          "gi": 37,
-          "nogi": 41
-        }
-      },
-      {
-        "transition": "Switch to Darce Configuration",
-        "attempt_probability": {
-          "gi": 15,
-          "nogi": 13
+          "gi": 49,
+          "nogi": 53
         }
       },
       {
         "transition": "Anaconda to Side Control",
         "attempt_probability": {
-          "gi": 23,
-          "nogi": 20
-        }
-      },
-      {
-        "transition": "Anaconda Control to Dead Orchard Control",
-        "attempt_probability": {
-          "gi": 9,
-          "nogi": 10
+          "gi": 30,
+          "nogi": 26
         }
       },
       {
         "transition": "Back Take from Anaconda",
         "attempt_probability": {
-          "gi": 16,
-          "nogi": 16
+          "gi": 21,
+          "nogi": 21
         }
       }
     ],

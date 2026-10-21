@@ -1,7 +1,7 @@
 {
   "name": "Suloev Stretch from Half Guard",
-  "summary": "The Suloev Stretch is a back-control submission that captures a tripoding opponent's ankle and extends the leg while the torso is contained, loading the hamstring rather than folding the calf.",
-  "description": "The Suloev Stretch captures an ankle from rear control against a tripod. It stretches the extended leg; half guard alone does not establish the finish.",
+  "summary": "The Suloev Stretch from a rear tripod captures the elevated opponent's ankle while retaining rear torso control, extending the leg with controlled hamstring tension.",
+  "description": "The Suloev Stretch from a rear tripod captures the elevated opponent's ankle while retaining rear torso control, extending the leg with controlled hamstring tension.",
   "tags": [
     "bjj",
     "submission",
@@ -10,11 +10,11 @@
   "submission_category": "Joint Lock",
   "submission_type": "Hamstring stretch",
   "target_area": "Hamstring and posterior hip; knee at risk if the leg is twisted",
-  "starting_position": "Half Guard",
-  "from_position": "Half Guard/Top",
+  "starting_position": "Back Control/Top",
+  "from_position": "Back Control/Top",
   "success_rate": {
-    "gi": 60,
-    "nogi": 60
+    "gi": 35,
+    "nogi": 35
   },
   "overview": "The attacker is attached behind an opponent who has raised the hips into a tripod, with torso control and access to one ankle. Half guard is not the demonstrated finishing configuration. Sterling and Gonzalez distinguish the straight-leg stretch from sideways knee torque; obtaining the back is a separate prerequisite.\n\nControl the torso from behind before reaching below the hips. Work only when the opponent's raised hips expose an ankle without sacrificing your balance. Reach down with the opposite hand and secure the lower leg while maintaining rear torso control. Arrange the leg so it extends in its natural line rather than rotating sideways at the knee.\n\nUse a cooperative entry and stop at the aligned capture. Never drop onto the stretch, bounce the leg, or roll sideways while the ankle is fixed.\n\nInstructional sources: [Aljamain Sterling and James Gonzalez — UFC 228 submission breakdown](https://www.youtube.com/watch?v=iHhOQwl1src); [ADCC — competition rules](https://adcombat.com/adcc-rules-regulations/).",
   "safety_considerations": {
@@ -51,37 +51,30 @@
     {
       "to": "game-over",
       "probability": {
-        "gi": 60,
-        "nogi": 60
+        "gi": 35,
+        "nogi": 35
       },
       "result": "success"
     },
     {
-      "to": "Half Guard/Top",
+      "to": "Back Control/Top",
       "probability": {
-        "gi": 25,
-        "nogi": 25
+        "gi": 45,
+        "nogi": 45
       },
       "result": "failure"
     },
     {
-      "to": "Half Guard/Bottom",
+      "to": "Turtle/Top",
       "probability": {
-        "gi": 15,
-        "nogi": 15
+        "gi": 20,
+        "nogi": 20
       },
       "result": "counter"
     }
   ],
   "from_positions": [
-    "Half Guard",
-    "Deep Half Guard",
-    "Z-Guard",
-    "Lockdown",
-    "Knee Shield Half Guard",
-    "Quarter Guard",
-    "Turtle",
-    "Side Control"
+    "Back Control"
   ],
   "related_submissions": [
     "Kneebar",
@@ -157,25 +150,25 @@
         "counter": "A hand reaching from your back toward the ankle is an early cue to protect the leg.",
         "effectiveness": "Medium",
         "your_response": "Re-check the prerequisite before continuing. Control the torso from behind before reaching below the hips.",
-        "targets_outcome": "Half Guard/Top"
+        "targets_outcome": "Back Control/Top"
       },
       {
         "counter": "Use hand fighting before the ankle and torso are controlled together.",
         "effectiveness": "Medium",
         "your_response": "Re-check the prerequisite before continuing. Work only when the opponent's raised hips expose an ankle without sacrificing your balance.",
-        "targets_outcome": "Half Guard/Bottom"
+        "targets_outcome": "Turtle/Top"
       },
       {
         "counter": "Maintain a stable base and address the rear attachment before raising the hips with a leg available.",
         "effectiveness": "Low",
         "your_response": "Re-check the prerequisite before continuing. Reach down with the opposite hand and secure the lower leg while maintaining rear torso control.",
-        "targets_outcome": "Half Guard/Top"
+        "targets_outcome": "Back Control/Top"
       },
       {
         "counter": "Keep the captured leg aligned instead of rolling sideways against the ankle grip.",
         "effectiveness": "Low",
         "your_response": "Re-check the prerequisite before continuing. Arrange the leg so it extends in its natural line rather than rotating sideways at the knee.",
-        "targets_outcome": "Half Guard/Bottom"
+        "targets_outcome": "Turtle/Top"
       }
     ],
     "common_errors": [
@@ -568,28 +561,28 @@
       {
         "action": "A hand reaching from your back toward the ankle is an early cue to protect the leg.",
         "when_to_use": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.",
-        "targets_outcome": "Half Guard/Top",
+        "targets_outcome": "Back Control/Top",
         "if_successful": "The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
         "risk": "Use a cooperative entry and stop at the aligned capture. Never drop onto the stretch, bounce the leg, or roll sideways while the ankle is fixed."
       },
       {
         "action": "Use hand fighting before the ankle and torso are controlled together.",
         "when_to_use": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.",
-        "targets_outcome": "Half Guard/Bottom",
+        "targets_outcome": "Turtle/Top",
         "if_successful": "The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
         "risk": "Use a cooperative entry and stop at the aligned capture. Never drop onto the stretch, bounce the leg, or roll sideways while the ankle is fixed."
       },
       {
         "action": "Maintain a stable base and address the rear attachment before raising the hips with a leg available.",
         "when_to_use": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.",
-        "targets_outcome": "Half Guard/Bottom",
+        "targets_outcome": "Turtle/Top",
         "if_successful": "The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
         "risk": "Use a cooperative entry and stop at the aligned capture. Never drop onto the stretch, bounce the leg, or roll sideways while the ankle is fixed."
       },
       {
         "action": "Keep the captured leg aligned instead of rolling sideways against the ankle grip.",
         "when_to_use": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.",
-        "targets_outcome": "Half Guard/Top",
+        "targets_outcome": "Back Control/Top",
         "if_successful": "The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
         "risk": "Use a cooperative entry and stop at the aligned capture. Never drop onto the stretch, bounce the leg, or roll sideways while the ankle is fixed."
       }
@@ -600,11 +593,11 @@
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Half Guard/Top",
+        "outcome": "Back Control/Top",
         "how": "Interrupt the next connection while preserving a safe base. Establish any new guard or pin separately rather than assuming this response guarantees it. A hand reaching from your back toward the ankle is an early cue to protect the leg."
       },
       {
-        "outcome": "Half Guard/Bottom",
+        "outcome": "Turtle/Top",
         "how": "Interrupt the next connection while preserving a safe base. Establish any new guard or pin separately rather than assuming this response guarantees it. Use hand fighting before the ankle and torso are controlled together."
       }
     ],
@@ -799,5 +792,8 @@
       "description": "Half guard is not the demonstrated finishing configuration. Sterling and Gonzalez distinguish the straight-leg stretch from sideways knee torque; obtaining the back is a separate prerequisite.",
       "when_to_use": "Before linking this submission to a different starting position"
     }
+  ],
+  "aliases": [
+    "Suloev Stretch from Rear Tripod"
   ]
 }

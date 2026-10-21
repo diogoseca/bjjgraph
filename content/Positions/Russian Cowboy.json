@@ -826,57 +826,50 @@
       {
         "transition": "Granby Roll to Guard",
         "attempt_probability": {
-          "gi": 14,
-          "nogi": 16
+          "gi": 16,
+          "nogi": 18
         }
       },
       {
         "transition": "Technical Stand-up",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 11
+          "gi": 11,
+          "nogi": 13
         }
       },
       {
         "transition": "Hip Escape to Guard",
-        "attempt_probability": {
-          "gi": 15,
-          "nogi": 14
-        }
-      },
-      {
-        "transition": "Arm Extraction to Turtle",
-        "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
-        }
-      },
-      {
-        "transition": "Arm Recovery to Guard",
         "attempt_probability": {
           "gi": 17,
           "nogi": 16
         }
       },
       {
+        "transition": "Arm Recovery to Guard",
+        "attempt_probability": {
+          "gi": 19,
+          "nogi": 18
+        }
+      },
+      {
         "transition": "Hip Escape from Russian Cowboy",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 13
+          "gi": 15,
+          "nogi": 15
         }
       },
       {
         "transition": "Roll Escape from Russian Cowboy",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 12,
+          "nogi": 11
         }
       },
       {
         "transition": "Escape from Russian Cowboy",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 8
+          "gi": 10,
+          "nogi": 9
         }
       }
     ],

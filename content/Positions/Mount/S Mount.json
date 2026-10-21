@@ -295,15 +295,15 @@
       {
         "transition": "Mount to Armbar",
         "attempt_probability": {
-          "gi": 15,
-          "nogi": 14
+          "gi": 16,
+          "nogi": 15
         }
       },
       {
         "transition": "Triangle from Mount",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
+          "gi": 8,
+          "nogi": 8
         },
         "deal_here": true,
         "success_rate": {
@@ -360,13 +360,6 @@
         }
       },
       {
-        "transition": "Back Take",
-        "attempt_probability": {
-          "gi": 7,
-          "nogi": 8
-        }
-      },
-      {
         "transition": "Mounted Crucifix Entry",
         "attempt_probability": {
           "gi": 4,
@@ -376,29 +369,29 @@
       {
         "transition": "Gift Wrap to Back",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 11
+          "gi": 11,
+          "nogi": 12
         }
       },
       {
         "transition": "S Mount Armbar Setup",
         "attempt_probability": {
-          "gi": 20,
-          "nogi": 19
+          "gi": 22,
+          "nogi": 21
         }
       },
       {
         "transition": "S Mount to Mounted Triangle",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 10
+          "gi": 10,
+          "nogi": 11
         }
       },
       {
         "transition": "Armbar from S Mount",
         "attempt_probability": {
-          "gi": 19,
-          "nogi": 18
+          "gi": 20,
+          "nogi": 20
         }
       }
     ],

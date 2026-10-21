@@ -647,36 +647,29 @@
       {
         "transition": "Leg Extraction",
         "attempt_probability": {
-          "gi": 29,
-          "nogi": 30
-        }
-      },
-      {
-        "transition": "Standing Escape",
-        "attempt_probability": {
-          "gi": 17,
-          "nogi": 19
+          "gi": 35,
+          "nogi": 37
         }
       },
       {
         "transition": "50-50 Entry",
         "attempt_probability": {
-          "gi": 14,
-          "nogi": 13
+          "gi": 17,
+          "nogi": 16
         }
       },
       {
         "transition": "Estima Lock Counter Roll",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 15
+          "gi": 16,
+          "nogi": 19
         }
       },
       {
         "transition": "Counter from Estima Lock",
         "attempt_probability": {
-          "gi": 27,
-          "nogi": 23
+          "gi": 32,
+          "nogi": 28
         }
       }
     ],

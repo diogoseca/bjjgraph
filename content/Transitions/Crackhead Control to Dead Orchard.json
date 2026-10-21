@@ -1,0 +1,374 @@
+{
+  "name": "Crackhead Control to Dead Orchard",
+  "from_position": "Crackhead Control/Bottom",
+  "success_rate": {
+    "gi": 40,
+    "nogi": 40
+  },
+  "outcomes": [
+    {
+      "to": "Dead Orchard Control/Bottom",
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
+      "result": "success"
+    },
+    {
+      "to": "Crackhead Control/Bottom",
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
+      "result": "failure"
+    },
+    {
+      "to": "Closed Guard/Bottom",
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
+      "result": "counter"
+    }
+  ],
+  "summary": "From Crackhead Control, the bottom player uses the double-bagger sequence to bring both opposing arms inside a high leg triangle and establish Dead Orchard.",
+  "description": "From Crackhead Control, the bottom player uses the double-bagger sequence to bring both opposing arms inside a high leg triangle and establish Dead Orchard.",
+  "tags": [
+    "bjj",
+    "transition",
+    "guard"
+  ],
+  "overview": "From Crackhead Control, the bottom player uses the double-bagger sequence to bring both opposing arms inside a high leg triangle and establish Dead Orchard.\n\nBegin as the bottom player with Crackhead's second leg reinforcing the first high-leg clinch. Keep the knees supported by the hip angle; do not pull a foot against a fixed knee to make the transition.\n\nUse the double-bagger sequence to organize both high-leg connections while keeping the opponent close. Bring both opposing arms into the high enclosure before closing the triangle. Form the high leg triangle around the shoulder line with both arms contained and no finishing pressure applied. The success is Dead Orchard Control/Bottom. An armbar requires its own wrist and elbow control after this checkpoint.\n\nPractice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route.",
+  "related_content": [
+    {
+      "name": "Crackhead Control",
+      "relationship": "Starting configuration; establish these controls before attempting the action."
+    },
+    {
+      "name": "Dead Orchard Control",
+      "relationship": "An approved landing or reset; confirm its controls before treating the action as complete."
+    },
+    {
+      "name": "Closed Guard",
+      "relationship": "An approved landing or reset; confirm its controls before treating the action as complete."
+    }
+  ],
+  "attacker": {
+    "name": "Crackhead Control to Dead Orchard Attacker",
+    "description": "From Crackhead Control, the bottom player uses the double-bagger sequence to bring both opposing arms inside a high leg triangle and establish Dead Orchard.",
+    "overview": "From Crackhead Control, the bottom player uses the double-bagger sequence to bring both opposing arms inside a high leg triangle and establish Dead Orchard.\n\nBegin as the bottom player with Crackhead's second leg reinforcing the first high-leg clinch. Keep the knees supported by the hip angle; do not pull a foot against a fixed knee to make the transition.\n\nUse the double-bagger sequence to organize both high-leg connections while keeping the opponent close. Bring both opposing arms into the high enclosure before closing the triangle. Form the high leg triangle around the shoulder line with both arms contained and no finishing pressure applied. The success is Dead Orchard Control/Bottom. An armbar requires its own wrist and elbow control after this checkpoint.\n\nPractice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route.",
+    "key_principles": [
+      "First high leg and supporting hand: Begin as the bottom player with Crackhead's second leg reinforcing the first high-leg clinch.",
+      "Hip angle supports each raised knee: Keep the knees supported by the hip angle; do not pull a foot against a fixed knee to make the transition.",
+      "Two high-leg connections under control: Use the double-bagger sequence to organize both high-leg connections while keeping the opponent close.",
+      "Both opposing arms inside the legs: Bring both opposing arms into the high enclosure before closing the triangle.",
+      "A figure-four around both shoulders: Form the high leg triangle around the shoulder line with both arms contained and no finishing pressure applied.",
+      "Both-arm enclosure before an armbar: The success is Dead Orchard Control/Bottom. An armbar requires its own wrist and elbow control after this checkpoint."
+    ],
+    "setup_requirements": [
+      "Begin as the bottom player with Crackhead's second leg reinforcing the first high-leg clinch.",
+      "Keep the knees supported by the hip angle; do not pull a foot against a fixed knee to make the transition.",
+      "Use the double-bagger sequence to organize both high-leg connections while keeping the opponent close.",
+      "Bring both opposing arms into the high enclosure before closing the triangle."
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Keep the first connection",
+        "description": "Begin as the bottom player with Crackhead's second leg reinforcing the first high-leg clinch."
+      },
+      {
+        "step_number": 2,
+        "action": "Support the high legs",
+        "description": "Keep the knees supported by the hip angle; do not pull a foot against a fixed knee to make the transition."
+      },
+      {
+        "step_number": 3,
+        "action": "Work the double bagger",
+        "description": "Use the double-bagger sequence to organize both high-leg connections while keeping the opponent close."
+      },
+      {
+        "step_number": 4,
+        "action": "Collect both arms",
+        "description": "Bring both opposing arms into the high enclosure before closing the triangle."
+      },
+      {
+        "step_number": 5,
+        "action": "Close the high triangle",
+        "description": "Form the high leg triangle around the shoulder line with both arms contained and no finishing pressure applied."
+      },
+      {
+        "step_number": 6,
+        "action": "Confirm Dead Orchard",
+        "description": "The success is Dead Orchard Control/Bottom. An armbar requires its own wrist and elbow control after this checkpoint."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Keep your elbows compact before both arms enter the high legs.",
+        "effectiveness": "Medium",
+        "your_response": "Keep the required control or use the stated reset; do not force the next movement.",
+        "targets_outcome": "Crackhead Control/Bottom"
+      },
+      {
+        "counter": "Maintain an inside frame before the second leg closes the enclosure.",
+        "effectiveness": "Medium",
+        "your_response": "Keep the required control or use the stated reset; do not force the next movement.",
+        "targets_outcome": "Crackhead Control/Bottom"
+      },
+      {
+        "counter": "Move shoulder and elbow together while the leg connection is still open.",
+        "effectiveness": "Medium",
+        "your_response": "Keep the required control or use the stated reset; do not force the next movement.",
+        "targets_outcome": "Closed Guard/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Skipping keep the first connection",
+        "consequence": "The next action lacks its required control.",
+        "correction": "Begin as the bottom player with Crackhead's second leg reinforcing the first high-leg clinch."
+      },
+      {
+        "error": "Skipping support the high legs",
+        "consequence": "The next action lacks its required control.",
+        "correction": "Keep the knees supported by the hip angle; do not pull a foot against a fixed knee to make the transition."
+      },
+      {
+        "error": "Skipping work the double bagger",
+        "consequence": "The next action lacks its required control.",
+        "correction": "Use the double-bagger sequence to organize both high-leg connections while keeping the opponent close."
+      },
+      {
+        "error": "Skipping collect both arms",
+        "consequence": "The next action lacks its required control.",
+        "correction": "Bring both opposing arms into the high enclosure before closing the triangle."
+      },
+      {
+        "error": "Skipping close the high triangle",
+        "consequence": "The next action lacks its required control.",
+        "correction": "Form the high leg triangle around the shoulder line with both arms contained and no finishing pressure applied."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1",
+        "focus": "Keep the first connection",
+        "description": "Begin as the bottom player with Crackhead's second leg reinforcing the first high-leg clinch. Pause at this checkpoint with a cooperative partner before linking the next step."
+      },
+      {
+        "phase": "Phase 2",
+        "focus": "Support the high legs",
+        "description": "Keep the knees supported by the hip angle; do not pull a foot against a fixed knee to make the transition. Pause at this checkpoint with a cooperative partner before linking the next step."
+      },
+      {
+        "phase": "Phase 3",
+        "focus": "Work the double bagger",
+        "description": "Use the double-bagger sequence to organize both high-leg connections while keeping the opponent close. Pause at this checkpoint with a cooperative partner before linking the next step."
+      },
+      {
+        "phase": "Phase 4",
+        "focus": "Collect both arms",
+        "description": "Bring both opposing arms into the high enclosure before closing the triangle. Pause at this checkpoint with a cooperative partner before linking the next step."
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "Crackhead Control to Dead Orchard: what does keep the first connection require?",
+        "answer": "Begin as the bottom player with Crackhead's second leg reinforcing the first high-leg clinch.",
+        "answer_line": "First high leg and supporting hand",
+        "distractors": {
+          "plausible": [
+            "A head-and-one-arm choke loop",
+            "Rear hooks behind the opponent"
+          ],
+          "trap": [
+            "A shoulder lock already finished"
+          ]
+        }
+      },
+      {
+        "question": "Crackhead Control to Dead Orchard: what does support the high legs require?",
+        "answer": "Keep the knees supported by the hip angle; do not pull a foot against a fixed knee to make the transition.",
+        "answer_line": "Hip angle supports each raised knee",
+        "distractors": {
+          "plausible": [
+            "Rear hooks behind the opponent",
+            "A shoulder lock already finished"
+          ],
+          "trap": [
+            "An ankle grip below the hips"
+          ]
+        }
+      },
+      {
+        "question": "Crackhead Control to Dead Orchard: what does work the double bagger require?",
+        "answer": "Use the double-bagger sequence to organize both high-leg connections while keeping the opponent close.",
+        "answer_line": "Two high-leg connections under control",
+        "distractors": {
+          "plausible": [
+            "A shoulder lock already finished",
+            "An ankle grip below the hips"
+          ],
+          "trap": [
+            "A head-and-one-arm choke loop"
+          ]
+        }
+      },
+      {
+        "question": "Crackhead Control to Dead Orchard: what does collect both arms require?",
+        "answer": "Bring both opposing arms into the high enclosure before closing the triangle.",
+        "answer_line": "Both opposing arms inside the legs",
+        "distractors": {
+          "plausible": [
+            "An ankle grip below the hips",
+            "A head-and-one-arm choke loop"
+          ],
+          "trap": [
+            "Rear hooks behind the opponent"
+          ]
+        }
+      },
+      {
+        "question": "Crackhead Control to Dead Orchard: what does close the high triangle require?",
+        "answer": "Form the high leg triangle around the shoulder line with both arms contained and no finishing pressure applied.",
+        "answer_line": "A figure-four around both shoulders",
+        "distractors": {
+          "plausible": [
+            "A head-and-one-arm choke loop",
+            "Rear hooks behind the opponent"
+          ],
+          "trap": [
+            "A shoulder lock already finished"
+          ]
+        }
+      },
+      {
+        "question": "Crackhead Control to Dead Orchard: what does confirm dead orchard require?",
+        "answer": "The success is Dead Orchard Control/Bottom. An armbar requires its own wrist and elbow control after this checkpoint.",
+        "answer_line": "Both-arm enclosure before an armbar",
+        "distractors": {
+          "plausible": [
+            "Rear hooks behind the opponent",
+            "A shoulder lock already finished"
+          ],
+          "trap": [
+            "An ankle grip below the hips"
+          ]
+        }
+      }
+    ],
+    "safety_considerations": "Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route."
+  },
+  "defender": {
+    "name": "Crackhead Control to Dead Orchard Defender",
+    "description": "Recognize Crackhead Control to Dead Orchard and interrupt its required connections before the final control is established.",
+    "overview": "You oppose the performer of this action. Keep your elbows compact before both arms enter the high legs. Maintain an inside frame before the second leg closes the enclosure. Move shoulder and elbow together while the leg connection is still open. If the second high-leg arrangement remains, recognize Crackhead Control rather than assuming the guard has opened. If the high connection is lost, recover posture inside the remaining closed guard.\n\nPractice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route.",
+    "key_principles": [
+      "Keep your elbows compact before both arms enter the high legs.",
+      "Maintain an inside frame before the second leg closes the enclosure.",
+      "Move shoulder and elbow together while the leg connection is still open.",
+      "If the second high-leg arrangement remains, recognize Crackhead Control rather than assuming the guard has opened.",
+      "If the high connection is lost, recover posture inside the remaining closed guard."
+    ],
+    "recognition_cues": [
+      "Begin as the bottom player with Crackhead's second leg reinforcing the first high-leg clinch.",
+      "Keep the knees supported by the hip angle; do not pull a foot against a fixed knee to make the transition.",
+      "Use the double-bagger sequence to organize both high-leg connections while keeping the opponent close."
+    ],
+    "defensive_options": [
+      {
+        "action": "Keep your elbows compact before both arms enter the high legs.",
+        "when_to_use": "Before the next connection or pressure is established.",
+        "targets_outcome": "Crackhead Control/Bottom",
+        "if_successful": "The continuation is interrupted; confirm the remaining controls before continuing.",
+        "risk": "Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route."
+      },
+      {
+        "action": "Maintain an inside frame before the second leg closes the enclosure.",
+        "when_to_use": "Before the next connection or pressure is established.",
+        "targets_outcome": "Crackhead Control/Bottom",
+        "if_successful": "The continuation is interrupted; confirm the remaining controls before continuing.",
+        "risk": "Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route."
+      },
+      {
+        "action": "Move shoulder and elbow together while the leg connection is still open.",
+        "when_to_use": "Before the next connection or pressure is established.",
+        "targets_outcome": "Closed Guard/Bottom",
+        "if_successful": "The continuation is interrupted; confirm the remaining controls before continuing.",
+        "risk": "Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route."
+      },
+      {
+        "action": "If the second high-leg arrangement remains, recognize Crackhead Control rather than assuming the guard has opened.",
+        "when_to_use": "Before the next connection or pressure is established.",
+        "targets_outcome": "Closed Guard/Bottom",
+        "if_successful": "The continuation is interrupted; confirm the remaining controls before continuing.",
+        "risk": "Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route."
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Crackhead Control/Bottom",
+        "how": "Keep your elbows compact before both arms enter the high legs."
+      },
+      {
+        "outcome": "Closed Guard/Bottom",
+        "how": "If the high connection is lost, recover posture inside the remaining closed guard."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Acting after the joint or neck is already loaded",
+        "consequence": "The attempted movement may increase pressure.",
+        "correction": "Tap and release before moving."
+      },
+      {
+        "error": "Assuming a cleared grip completes the escape",
+        "consequence": "The remaining control can still prevent the intended landing.",
+        "correction": "If the high connection is lost, recover posture inside the remaining closed guard."
+      },
+      {
+        "error": "Losing a stable base during the response",
+        "consequence": "You may concede the next connection.",
+        "correction": "Maintain an inside frame before the second leg closes the enclosure."
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "Against Crackhead Control to Dead Orchard, what connection do you address first?",
+        "answer": "Keep your elbows compact before both arms enter the high legs."
+      },
+      {
+        "question": "Against Crackhead Control to Dead Orchard, when must you stop moving?",
+        "answer": "Stop at a tap, verbal signal, distress, or a loaded joint or neck. Release before changing direction."
+      },
+      {
+        "question": "Against Crackhead Control to Dead Orchard, does interrupting one grip guarantee a new position?",
+        "answer": "No. Confirm the remaining body and leg controls before claiming the guard, pin, or submission has changed."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1",
+        "focus": "Keep the first connection",
+        "description": "Begin as the bottom player with Crackhead's second leg reinforcing the first high-leg clinch. Pause at this checkpoint with a cooperative partner before linking the next step."
+      },
+      {
+        "phase": "Phase 2",
+        "focus": "Support the high legs",
+        "description": "Keep the knees supported by the hip angle; do not pull a foot against a fixed knee to make the transition. Pause at this checkpoint with a cooperative partner before linking the next step."
+      },
+      {
+        "phase": "Phase 3",
+        "focus": "Work the double bagger",
+        "description": "Use the double-bagger sequence to organize both high-leg connections while keeping the opponent close. Pause at this checkpoint with a cooperative partner before linking the next step."
+      }
+    ]
+  },
+  "conditions": [
+    "Begin as the bottom player with Crackhead's second leg reinforcing the first high-leg clinch.",
+    "Keep the knees supported by the hip angle; do not pull a foot against a fixed knee to make the transition.",
+    "Use the double-bagger sequence to organize both high-leg connections while keeping the opponent close."
+  ],
+  "position_integration": "From Crackhead Control, the bottom player uses the double-bagger sequence to bring both opposing arms inside a high leg triangle and establish Dead Orchard. Begin as the bottom player with Crackhead's second leg reinforcing the first high-leg clinch. The success is Dead Orchard Control/Bottom. An armbar requires its own wrist and elbow control after this checkpoint."
+}
