@@ -11709,6 +11709,53 @@ reader layout run during Inspect's close; that line measures the same claim one 
 message (H88). Payload: deferred 506,734 B, one exact step of +98
 inside D-351's 506,799; eager gzip unchanged at 348,698. Receipts: scratch/article-sections/claude-verify/H81-H86.
 
+Delta 8 (review-claude, HOLD) and D-354, sections-claude, 2026-10-21. CI ead35af11 was green but for shard 4's two
+roll-execution:227 reds at 390, and the reviewer's isolated runs found pane-keyboard:103 to be this PR's: head 10 of 75
+red, dev 0 of 100. B1 (REAL BREAK): updateUiShift eases the pane's slide and lays out the app's own landing parts in
+that frame, but the parts the reader adopted (the landing card and its deck arrows) were laid out a frame later. Probes
+with per-write hooks and a pointer-event log (H91, H92) showed the "next" click measured the arrow at (1030,743) and
+landed on a data-land-mc-opt button of the moved card, which answered the question: the deck stayed on card 0 and the
+prev arrow was zero-sized. The reader's parts now follow the pane in the same frame (eager). Its journey opens the pane
+and pumps the slide inside one evaluate, with no frame between; d354-pane-follow-lag is killed at "the card and its
+arrows follow the pane in the same frame". By the reviewer's method the test isolated passed 75 of 75 (H94), 100 of 100
+with H93's 25. B2 (STALE SPEC/TIMING): from the CI trace, the reader was still publishing its layout at the pick (the
+deck chevron moved 71px 8ms before the pointerdown); card.click() found the card "not stable" twice and its retry
+force-scrolled the reader to 146, which put the Videos card across the node band. There no slot exists: 57px above it,
+58px below, and D-329 reserves the column under the band. The phone now waits for the layout, brings the card in along
+its horizontal tray as a swipe does (its centre sat at x1041; that tray scroll is the only scroll the native pick
+needed), asserts the reader stayed where it arrived, presses with clickByMouse, and asserts that scrollTop again at the
+pointerdown; the claims are unchanged. With the reader put at CI's 146 the spec fails 4 of 4 at CI's message; a scroll
+between the premise read and the press fails 4 of 4 at the new premise (H96). Under a 30% CPU quota the arrival
+publishes pinned 2 times in 6 (card y316, Videos held) and unpinned otherwise (y545); both hold still for 3s after the
+wait and the pair passes 12 of 12. CI's own layout sits about 51px higher and its 71px chevron move has no local twin;
+the test no longer depends on either. d354-phone-pick-no-fit kills the phone pick at the noFit claim. Nits, each with a
+journey and a control killed at its claim: N1, a play after the article rendered opens the film inside the lifted
+Videos card (the reader places it in its slot before a player exists); N2, reopening Videos settles a pinned landing
+as a play and a grade do; N3, _clearLandFilm ends the reader's media-home observation of the film it removes.
+The prevention run on these bytes (H95) found one more REAL BREAK from D-351: choice-value's setup poll "native host
+module must actually be requested and blocked" went red 3 of 20 isolated and in 2 of 5 full-file runs (H97). A
+pending hand is hidden ([data-reader-pending] is visibility:hidden) and the game-value activation refuses a hidden
+hand (_gameValuePlayable), so an activation that came during the hold went idle with nothing to retry it:
+game-values.js was never requested and the Win chance never started. Publication now runs _ensureGameValues
+(idempotent once loading, loaded or failed). The journey holds Mount Top's role page 1.5s so the activation meets the
+held hand, and reads the publication frame itself: its first version, in choice-value, polled the request and let
+its control survive twice, because that spec refuses a mutated bundle and a later refreshChoiceValues (a deck load,
+a layer change) rescued the idle activation. In article-sections, d354-held-hand-no-value is killed twice at "the
+Win chance starts in the frame the held hand publishes" (H104).
+On the fixed bytes :376 isolated passed 20 of 20 and the file 5 of 5 (H100). The same run's camera-continuity 390
+exchange went red once at noFit 251 with no trace kept, then 0 of 30 (20 isolated, 10 under a 30% quota,
+scrollTop 0 at every pick); its pick is B2's auto-scrolling j.pick at 390, so it takes B2's phone pick and premise
+(by mechanism, not reproduced). The app runner now refuses a mutant that does not parse: N3's first target dropped
+a comma, the bundle never booted, its run waited out the 240s timeout and orphaned the private server, and the four
+later baselines read red on the busy port (H95); fixed, they and N3's control re-ran clean (H97).
+The prevention rule on the final bytes (H101, BUNDLES ab7393fe 7a144e06): the whole generated suite 101 of 101,
+every Systems file 47 of 48 and the 52 reviewer-grep files 464 of 465 (both reds are systems-demand-live:46, the local
+site's), defending-landing x2 50 of 50. Controls, each against a green unmutated baseline: reader 91 of 92, every kill
+message as on H95's bytes, with the recorded execution-node-band-removed non-kill (H101); app 15 of 17, with the two
+recorded noahead non-kills (H101, H102, H104). d351-hand-hold-removed's minified target moved with the publication
+fix, and the runner refused it until it was retargeted. Payload: deferred 506,776 B, one exact step of +42 for N2 inside D-351's 506,799; eager gzip
+348,851 (+2,439 of D-327's 5,000). Receipts: scratch/article-sections/claude-verify/H91-H101.
+
 ## v1.227.5 — Clips follow the authored move and role
 
 Clips now follow the actual submission, transition or position and the half's own role.
