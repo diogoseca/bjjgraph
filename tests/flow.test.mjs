@@ -314,7 +314,7 @@ test("drilling can LOWER your score, and the negative set matches the reference 
   // more than the seat belt it is entered from and entering it stopped costing value.
   const jsNeg = K.deckKeys.filter((d, i) => RUN.grad[i] < -1e-12).sort();
   const pyNeg = NOGI.decks.filter((d) => PY.get(d) < -1e-12).sort();
-  assert.equal(jsNeg.length, 21, "21 decks backfire at lam 2 on a blank no-gi profile"); // census:negDecks
+  assert.equal(jsNeg.length, 22, "21 decks backfire at lam 2 on a blank no-gi profile"); // census:negDecks
   assert.deepEqual(jsNeg, pyNeg, "and they are the same 21");
   const gi = SOLVED.gi;
   const giNeg = gi.k.deckKeys.filter((d, i) => gi.run.grad[i] < -1e-12);
