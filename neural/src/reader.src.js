@@ -11,6 +11,7 @@ const PARTS = [
 const GAME_KEYS = { card: "landCard", hand: "landHand", map: "landMap", feedback: "landFeedback" };
 const CONTENT = /^\/(Positions|Transitions|Submissions|Principles|Learning|Systems)(?:\/|$)/i;
 const ROLES = /\/(Top|Bottom|Attacker|Defender)$/i;
+const REFERENCE = /^\/(Principles|Learning|Systems)\//;
 const cleanPath = (path) => decodeURI(new URL(path, location.href).pathname).replace(/\.html$/, "").replace(/\/$/, "") || "/";
 const pathRole = path => (path.split("/").pop() || "Guide") + " perspective";
 
@@ -386,7 +387,7 @@ class Reader {
       // Seatless pages have no landing dossier. Adapt their published embeds to
       // the SAME media owner before retiring the source player, including clips
       // in Learning/System pages. No game seat or second playback path is made.
-      if (/^\/(Principles|Learning|Systems)\//.test(path) && source) {
+      if (REFERENCE.test(path) && source) {
         const url = new URL(source), id = url.pathname.match(/^\/embed\/([^/]+)/)?.[1];
         if (id && /(^|\.)youtube(-nocookie)?\.com$/.test(url.hostname)) {
           const clip = frame.closest(".film-clip");
@@ -410,7 +411,7 @@ class Reader {
     this.heading.textContent = title;
     tools.querySelector("[data-reader-study]")?.remove();
     this.videoCard?.remove(); this.videoCard = null;
-    if (/^\/(Systems|Principles|Learning)\//.test(this.path)) {
+    if (REFERENCE.test(this.path)) {
       tools.append(button("Study tools", async () => {
         const id = this.path.slice(1);
         if (id.startsWith("Systems/")) this.app.openSystem(id);
@@ -557,7 +558,7 @@ class Reader {
     this.sync();
   }
   syncSections() {
-    const labels = this.on("book") && !/^\/(Principles|Learning|Systems)\//.test(this.path || "");
+    const labels = this.on("book") && !REFERENCE.test(this.path);
     for (const s of [...this.gameSections, ...this.sections]) {
       const body = s.part ? this.partEl(s.part) : s.body;
       const shown = s.part ? this.on(s.part) : sectionShown(this.app, s.type), focused = !shown && body?.contains(document.activeElement);
@@ -793,8 +794,10 @@ class Reader {
         target !== document.body && (!this.game.contains(target) || this.videoCard?.contains(target)) || target?.closest("input,textarea,select,[contenteditable]") ||
         !/^(Home|End|PageUp|PageDown)$/.test(event.key)) return false;
     // The question's own span: since D-338 Videos and Moves sit above it, so Home is its top edge.
-    const start = Math.max(0, card.offsetTop - 6), end = Math.max(start, card.offsetTop + card.offsetHeight + 12 - this.root.clientHeight);
-    this.root.scrollTop = event.key === "Home" ? start : event.key === "End" ? end : Math.max(start, Math.min(end, this.root.scrollTop + this.root.clientHeight * .85 * (event.key === "PageUp" ? -1 : 1)));
+    // Home and PageUp never move the view down (D5-S2: at arrival the reader sits above the card).
+    const top = this.root.scrollTop, start = Math.max(0, card.offsetTop - 6), end = Math.max(start, card.offsetTop + card.offsetHeight + 12 - this.root.clientHeight);
+    const to = event.key === "Home" ? start : event.key === "End" ? end : Math.max(start, Math.min(end, top + this.root.clientHeight * .85 * (event.key === "PageUp" ? -1 : 1)));
+    this.root.scrollTop = /Home|Up/.test(event.key) ? Math.min(top, to) : to;
     event.preventDefault();
     return true;
   }
@@ -894,7 +897,7 @@ class Reader {
       style(this.dock, "left", free.center + "px"); style(this.dock, "max-width", Math.min(width, W - 16) + "px");
       style(this.dock, "bottom", a._readerShelfBottom(this.dock.getBoundingClientRect()) + "px");
       const head = this.head, available = this.on("book");
-      const reference = /^\/(Principles|Learning|Systems)\//.test(this.path || "");
+      const reference = REFERENCE.test(this.path);
       const ownTop = Math.max(68, (a.wrapRef.current.querySelector(".ng-logo")?.getBoundingClientRect().bottom || 0) + 12);
       // Without chrome (including a null return on reference pages), the entire
       // head belongs before the article, never over the map. Chrome positions
@@ -957,7 +960,9 @@ class Reader {
             const box = el.getBoundingClientRect(), top = this.game.getBoundingClientRect().top;
             dock.reader = { rowTop: box.top - top, height: box.bottom - top, rowHeight: box.height };
           }
-          this.game.append(el); el.setAttribute("data-reader-game-part", key);
+          // The hand goes before the closed Questions label: Tab order follows Moves, then Questions.
+          if (key === "hand") this.gameSections[1].card.before(el); else this.game.append(el);
+          el.setAttribute("data-reader-game-part", key);
           // A late question can replace its body after syncSections. Publish
           // the named eye's target with the actual adopted surface, once.
           if (key === "card" || key === "hand") el.id = "reader-" + key + "-body";

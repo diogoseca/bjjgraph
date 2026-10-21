@@ -19178,7 +19178,11 @@ class Component extends DCLogic {
   // Reading reserves its node before the deferred reader or a deck has arrived.
   // Layout and the camera share this datum; article scroll never changes it.
   _readerBand(top = Math.max(68, (this.wrapRef?.current?.querySelector(".ng-logo")?.getBoundingClientRect().bottom || 0) + 12)) {
-    const height = this.H > 500 ? this.W <= 640 ? 136 : 144 : 64;
+    // D-349: a phone's band is 186, not 136: it gives back the 44px Questions header and the 6px gap
+    // it sat under, the room a move's execution had before D-338 removed them. At 136 a no-Videos
+    // exchange's arc carried the pair, on screen, 3px into the Moves row; at 186 every frame with the
+    // pair on screen clears the row by at least 30px (camera-continuity, D-350b).
+    const height = this.H > 500 ? this.W <= 640 ? 186 : 144 : 64;
     return { top, bottom: top + height, height };
   }
   // ══ THE VISIBLE GRAPH RECT — THE ONE SEAM EVERY COMPOSITION ASKS (v1.219.0) ═══════════════════

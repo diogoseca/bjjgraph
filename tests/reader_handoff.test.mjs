@@ -92,6 +92,7 @@ function node(values = {}) {
     removeAttribute: key => attrs.delete(key),
     toggleAttribute(key, on) { if (on) attrs.add(key); else attrs.delete(key); },
     append(el) { el.parentElement = this; }, appendChild(el) { this.append(el); },
+    before(el) { el.parentElement = this.parentElement; },
     remove() { this.isConnected = false; },
   };
 }
@@ -109,6 +110,7 @@ function fixture(adopted = true) {
   r.articleEl.getBoundingClientRect = () => ({ left: 12, right: 378, width: 366 });
   // D-338: the closed-part labels, Moves first; an open part hides its label.
   r.gameSections = [{ part: "hand", card: node() }, { part: "card", card: node() }];
+  for (const s of r.gameSections) r.game.append(s.card);
   r.dock = node(); r.dock.getBoundingClientRect = () => ({ top: 758, height: 48 });
   const wrap = node(); wrap.querySelector = () => null; a.wrapRef.current = wrap;
   const row = a.optionsRef.current = node({ top: "430.5px", bottom: "auto", paddingTop: "8px" });
@@ -171,10 +173,10 @@ test("Book reserves its node band, with no part header, without changing an exec
   const f = fixture();
   f.r.on = () => true;
   f.r.layoutNow();
-  assert.deepEqual(f.r.nodeBand, { top: 68, bottom: 204, height: 136 });
+  assert.deepEqual(f.r.nodeBand, { top: 68, bottom: 254, height: 186 }, "D-349: a phone band holds a move's execution box");
   assert.deepEqual(f.r.gameSections.map(s => s.card.hidden), [true, true], "an open part shows no label");
-  assert.equal(f.row.style.top, "136px", "Moves sits directly under the node band");
-  assert.equal(f.r.game.style.height, "340.25px", "the flow ends one gap below the hand");
+  assert.equal(f.row.style.top, "186px", "Moves sits directly under the node band");
+  assert.equal(f.r.game.style.height, "390.25px", "the flow ends one gap below the hand");
   choose(f);
   const snapshot = f.a._execution.card._ngDock.reader;
   f.r.gameTop = 6;
