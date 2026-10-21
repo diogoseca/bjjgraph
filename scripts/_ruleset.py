@@ -114,6 +114,39 @@ def present_rulesets(values: Iterable[Any]) -> List[str]:
     return [rs for rs in RULESETS if any(available(v, rs) for v in vals)]
 
 
+def outcome_cell(outcome: dict, ruleset: str):
+    """A graph outcome in this frame; an explicit null never falls back to its scalar.
+
+    Legacy graphs and listing-owned common tables have no pair; their scalar is
+    common to both frames. Once a pair exists it is the only probability source.
+    """
+    return cell(outcome['probabilityByRuleset'] if 'probabilityByRuleset' in outcome
+                else outcome.get('probability'), ruleset)
+
+
+def common_outcome_frame(technique: dict) -> str:
+    """D-363: one common table, only from frames where the technique exists.
+
+    This is shared by graph vote rescaling and the unchanged neural tuple format.
+    A differing pair of present tables cannot be represented by that format and
+    must fail, rather than silently choosing a frame or filling an absent one.
+    """
+    rate = technique.get('successRateByRuleset', technique.get('successRate'))
+    frames = present_rulesets([rate])
+    name = technique.get('name', technique.get('hub', '?'))
+    if not frames:
+        raise ValueError(f'{name}: no present outcome frame (technique absent in every ruleset)')
+    outcomes = technique.get('outcomes') or []
+    if not outcomes:
+        raise ValueError(f'{name}: no outcome table in its present frame(s)')
+    for i, outcome in enumerate(outcomes):
+        values = [outcome_cell(outcome, frame) for frame in frames]
+        if any(value is None for value in values) or len(set(values)) != 1:
+            raise ValueError(f'{name}: outcome {i} differs or is absent across present frames '
+                             f'{dict(zip(frames, values))}; cannot emit one common tuple')
+    return 'nogi' if 'nogi' in frames else frames[0]
+
+
 def reduce_to_scalar(obj: Any, frame: Optional[str] = None) -> Any:
     """Recursively collapse ``{gi,nogi}`` maps back to scalars.
 

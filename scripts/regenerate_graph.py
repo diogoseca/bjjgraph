@@ -28,7 +28,7 @@ from _slug import slugify  # shared single-source slugify (node keys + alias map
 # regenerate_neural_data, tests/learning_content, tests/system_guides).
 from _slug import quartz_page_path as quartz_slug
 from _atomic_io import atomic_write_json
-from _ruleset import reduce_to_scalar, as_map, cell, present_rulesets, RULESETS  # {gi,nogi} contract (calibration-v2); positions load raw since Q3
+from _ruleset import reduce_to_scalar, as_map, cell, present_rulesets, RULESETS, common_outcome_frame
 import _votes  # forked {community, prior} votes schema — prior-blended per-ruleset rates (Phase 2.3b)
 
 
@@ -1645,27 +1645,31 @@ def _rate_complement(x):
 
 
 def _rescale_outcomes_by_ruleset(data: dict) -> dict:
-    """Apply the existing vote rescale separately to each frame's present edges.
+    """D-363: preserve the historical common table, without filling absent frames.
 
-    The combined graph retains absent cells as null. They never enter the rescaler,
-    and the returned census makes each dropped cell and skipped frame observable.
-    Keep the historical no-gi headline rounding for scalar output, including the
-    defender's deliberate rounding asymmetry; only gi uses the other rate cell.
+    The old rescale used the no-gi headline, even when the gi success rate differed.
+    Keep those bytes. A gi-only technique instead uses its own gi table and rate;
+    the no-gi cells remain null. Differing present tables fail the common-table
+    contract shared with the neural emitter. Census absent cells before rescaling.
     """
     counts = {'rescaled': 0, 'skipped': 0, 'dropped': {rs: 0 for rs in RULESETS}}
     outcomes = data.get('outcomes') or []
     pairs = [dict(o['probabilityByRuleset']) for o in outcomes]
+    if not outcomes:
+        return counts
+    frame = common_outcome_frame(data)
     for rs in RULESETS:
-        live = [(i, {**o, 'probability': pairs[i][rs]}) for i, o in enumerate(outcomes)
-                if pairs[i][rs] is not None]
-        counts['dropped'][rs] = len(outcomes) - len(live)
-        rate = data['successRate'] if rs == 'nogi' else data['successRateByRuleset'][rs]
-        if rate is None or not any(o.get('result') == 'success' for _, o in live):
+        counts['dropped'][rs] = sum(pair[rs] is None for pair in pairs)
+        if all(pair[rs] is None for pair in pairs):
             counts['skipped'] += 1
-            continue
-        fitted = _votes.rescale_dist_to_success([o for _, o in live], int(round(rate)))
-        for (i, _), row in zip(live, fitted):
-            pairs[i][rs] = row['probability']
+    if any(o.get('result') == 'success' for o in outcomes):
+        rate = data['successRate'] if frame == 'nogi' else data['successRateByRuleset'][frame]
+        fitted = _votes.rescale_dist_to_success(
+            [{**o, 'probability': pairs[i][frame]} for i, o in enumerate(outcomes)], int(round(rate)))
+        for i, row in enumerate(fitted):
+            for rs in RULESETS:
+                if pairs[i][rs] is not None:
+                    pairs[i][rs] = row['probability']
         counts['rescaled'] += 1
     if outcomes:
         data['outcomes'] = [{**o, 'probability': pairs[i]['nogi'], 'probabilityByRuleset': pairs[i]}
@@ -1791,8 +1795,8 @@ def generate_state_graph(project_root: Path) -> dict:
                     vote_overrides += 1
     print(f"  Applied {vote_overrides} community vote rate override(s) from "
           f"{len(voted_names_hit)} of {len(vote_rates)} loaded rate(s); "
-          f"rescaled {rescaled} outcome frame(s), skipped {rescale_skipped} "
-          f"(rate absent or no success outcome); null outcome cells dropped from rescaling: "
+          f"rescaled {rescaled} common outcome table(s), skipped {rescale_skipped} absent frame(s); "
+          f"null outcome cells dropped from rescaling: "
           f"gi {rescale_dropped['gi']}, no-gi {rescale_dropped['nogi']}")
     if vote_rates and not voted_names_hit:
         # The name join is `data.get('name', '') in vote_rates` — a spelling-sensitive join

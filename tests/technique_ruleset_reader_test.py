@@ -12,6 +12,8 @@ from unittest.mock import patch
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / 'scripts'))
 import regenerate_graph as graph
+import regenerate_neural_data as neural
+import solve_edge_values as solver
 
 
 class TechniqueRulesetReader(unittest.TestCase):
@@ -87,10 +89,13 @@ class TechniqueRulesetReader(unittest.TestCase):
         node = collections[0]['divergent-fixture/attacker']
         node['successRate'] = 25
         node['successRateByRuleset'] = {'gi': 50, 'nogi': 25}
+        # D-363 keeps the pre-fix common table despite a divergent success rate.
+        for outcome in node['outcomes']:
+            outcome['probabilityByRuleset']['gi'] = outcome['probabilityByRuleset']['nogi']
         counts = graph._rescale_outcomes_by_ruleset(node)
-        self.assertEqual(counts, {'rescaled': 2, 'skipped': 0, 'dropped': {'gi': 0, 'nogi': 0}})
+        self.assertEqual(counts, {'rescaled': 1, 'skipped': 0, 'dropped': {'gi': 0, 'nogi': 0}})
         self.assertEqual([o['probabilityByRuleset'] for o in node['outcomes']],
-                         [{'gi': 50, 'nogi': 25}, {'gi': 50, 'nogi': 75}])
+                         [{'gi': 25, 'nogi': 25}, {'gi': 75, 'nogi': 75}])
         self.assertEqual([o['probability'] for o in node['outcomes']], [25, 75])
         for role in ('attacker', 'defender'):
             node = collections[0]['absent-fixture/' + role]
@@ -106,12 +111,88 @@ class TechniqueRulesetReader(unittest.TestCase):
         self.assertEqual(graph._RULESET_FAILURES,
                          [('all-null-fixture', 'success_rate exists in no ruleset frame')])
 
+    def gi_fixture(self):
+        # D-363's approved real record, not a separately maintained probability table.
+        source = json.loads((ROOT / 'content/Transitions/Sweep from Leg Weave.json').read_text())
+        with patch.object(graph, 'load_json_files', return_value=[source]), \
+             patch.object(graph, 'build_position_path_index', return_value={}), \
+             contextlib.redirect_stdout(io.StringIO()):
+            nodes = graph.process_transitions(ROOT / 'content')
+        stem = graph.slugify(source['name'])
+        positions = {'leg-weave/bottom': {'hub': 'leg-weave', 'role': 'bottom', 'transitions': [{
+            'technique': source['name'], 'target': stem, 'isSubmission': False,
+            'attemptProbability': None, 'attemptProbabilityByRuleset': {'gi': 100, 'nogi': None},
+        }]}}
+        return {'positions': positions, 'transitions': nodes, 'submissions': {}}, nodes[stem + '/attacker']
+
+    def test_gi_solve_uses_35_45_20_from_its_pair(self):
+        data, node = self.gi_fixture()
+        self.assertEqual([value for _, value in solver.frame_outcomes(node, 'gi')], [35, 45, 20])
+        p, success, miss, empty = solver.build_action(data, node, solver.Opts(frame='gi'))
+        self.assertEqual(p, .35)
+        self.assertEqual(success, [(1.0, ('S', 'half-guard/top', True))])
+        self.assertEqual([outcome for _, outcome in miss], [('S', 'leg-weave/bottom', False), ('S', 'side-control/bottom', False)])
+        self.assertAlmostEqual(miss[0][0] * 65, 45)
+        self.assertAlmostEqual(miss[1][0] * 65, 20)
+        self.assertEqual(empty, 0)
+        hand, _, absent, _ = solver.build_hand(data, 'leg-weave/bottom', solver.Opts(frame='gi'))
+        self.assertEqual(len(hand), 1)
+        self.assertEqual(absent, 0)
+        self.assertEqual(hand[0].succ, success)
+        self.assertEqual(hand[0].miss, miss)
+
+    def test_nogi_cannot_reach_the_absent_technique(self):
+        data, node = self.gi_fixture()
+        with self.assertRaisesRegex(ValueError, 'absent in frame nogi'):
+            solver.build_action(data, node, solver.Opts(frame='nogi'))
+        self.assertEqual(solver.build_hand(data, 'leg-weave/bottom', solver.Opts(frame='nogi')),
+                         ([], False, 1, True))
+        edge = data['positions']['leg-weave/bottom']['transitions'][0]
+        for invalid in (0, 100):
+            edge['attemptProbabilityByRuleset']['nogi'] = invalid
+            with self.assertRaisesRegex(ValueError, 'attempt cell must be null'):
+                solver.build_hand(data, 'leg-weave/bottom', solver.Opts(frame='nogi'))
+
+    def test_wire_tuple_is_the_gi_table_without_a_format_change(self):
+        _, node = self.gi_fixture()
+        before = copy.deepcopy(node)
+        counts = {'techniques': 0, 'tuples': 0, 'without_nogi': 0}
+        self.assertEqual(neural.wire_outcomes(node, counts), [
+            ['half-guard/top', 35, 's'], ['leg-weave/bottom', 45, 'f'], ['side-control/bottom', 20, 'c']])
+        self.assertEqual(counts, {'techniques': 1, 'tuples': 3, 'without_nogi': 1})
+        self.assertEqual(node, before, 'The wire must not fill the graph\'s absent frame')
+
+    def test_wire_refuses_different_present_frames(self):
+        collections, _ = self.read()
+        with self.assertRaisesRegex(ValueError, 'differs or is absent across present frames'):
+            neural.wire_outcomes(collections[0]['divergent-fixture/attacker'])
+
+    def test_wire_refuses_a_technique_without_a_present_frame(self):
+        _, node = self.gi_fixture()
+        node['successRateByRuleset']['gi'] = None
+        with self.assertRaisesRegex(ValueError, 'no present outcome frame'):
+            neural.wire_outcomes(node)
+
+    def test_selfcheck_sums_present_frames_and_rejects_an_absent_attempt(self):
+        data, _ = self.gi_fixture()
+        checks = {name: (ok, detail) for name, ok, detail in solver.selfcheck(data)}
+        self.assertTrue(checks['outcome sums == 100'][0])
+        self.assertIn('2/2 present frames', checks['outcome sums == 100'][1])
+        self.assertIn('2 absent frames, 6 null cells dropped', checks['outcome sums == 100'][1])
+        self.assertTrue(checks['absent techniques have null attempt cells'][0])
+        data['positions']['leg-weave/bottom']['transitions'][0]['attemptProbabilityByRuleset']['nogi'] = 0
+        checks = {name: (ok, detail) for name, ok, detail in solver.selfcheck(data)}
+        self.assertFalse(checks['absent techniques have null attempt cells'][0])
+
 
 if __name__ == '__main__':
     mutant = sys.argv[1] if len(sys.argv) > 1 else None
     if mutant:
+        named = {'--mutate-solver-folded': 'test_gi_solve_uses_35_45_20_from_its_pair',
+                 '--mutate-wire-folded': 'test_wire_tuple_is_the_gi_table_without_a_format_change'}
         suite = unittest.defaultTestLoader.loadTestsFromName(
-            'TechniqueRulesetReader.test_divergent_and_null_cells_survive_actual_readers', sys.modules[__name__])
+            'TechniqueRulesetReader.' + named.get(mutant, 'test_divergent_and_null_cells_survive_actual_readers'),
+            sys.modules[__name__])
     else:
         suite = unittest.defaultTestLoader.loadTestsFromTestCase(TechniqueRulesetReader)
     with contextlib.ExitStack() as stack:
@@ -130,6 +211,9 @@ if __name__ == '__main__':
                     fields['probability'] = 0
                 return fields
             stack.enter_context(patch.object(graph, '_outcome_prob', fabricated))
+        elif mutant in ('--mutate-solver-folded', '--mutate-wire-folded'):
+            target = solver if mutant == '--mutate-solver-folded' else neural
+            stack.enter_context(patch.object(target, 'outcome_cell', lambda outcome, frame: outcome['probability']))
         elif mutant:
             raise SystemExit('Unknown mutant: ' + mutant)
         result = unittest.TextTestRunner(verbosity=2).run(suite)

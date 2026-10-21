@@ -11688,11 +11688,33 @@ Dead Orchard's existing passive-seat reachability entry moves from Bottom to Top
 with the approved physical role correction; no new entry move or outcome is added.
 The technique graph readers now retain divergent rates and outcome probabilities
 as a folded no-gi scalar plus the ruleset pair. Sweep from Leg Weave's no-gi nulls
-remain absent for both roles. The existing vote rescale runs on each frame's
-present cells and prints dropped-cell and skipped-frame counts. Three reader
-contracts exercise actual transition and submission files, including divergent
-and null cells; restoring the reduced reader or coercing null to zero makes
+remain absent for both roles. D-363 retains the historical common-table vote
+rescale; a gi-only technique uses its own gi table without filling the no-gi
+cells. The solver reads outcome pairs in the requested frame, rejects any path
+reaching an absent technique, and checks sums in every present frame. The neural
+wire keeps its existing single tuple table, taken from the present frame(s),
+and refuses differing present tables or a technique without a frame. Both
+emission paths use the same common-table check in `_ruleset.py`. No app or wire
+format changes are made. Dropped cells and absent frames are counted.
+Nine reader contracts exercise both source readers and the approved Sweep from
+Leg Weave through the solver and wire; restoring the reduced reader or coercing null to zero makes
 `test_divergent_and_null_cells_survive_actual_readers` fail by name.
+Folded-scalar mutants fail `test_gi_solve_uses_35_45_20_from_its_pair` and
+`test_wire_tuple_is_the_gi_table_without_a_format_change`. The reproducible
+`scripts/check_technique_ruleset_parity.py` makes two separate comparisons.
+Old and new readers both regenerate from complete dev content at `4929de710`;
+their complete wire bytes and solver outputs must match. New readers then run
+on the complete current subset against the same dev reference, enumerating every
+moved graph, layout, ordinal, wire and solver field for approval tracing.
+Each run reads matching content, votes and choice sources, starting layout and
+ordinal regeneration from the same dev artifacts. No mixed-content control is used.
+The code-only comparison matches all 579,724 wire bytes and 1,985,790 solver
+bytes across four configurations, 8,236 outcome rows and 5,504 action rows.
+The only code-driven graph additions are 8,236 `probabilityByRuleset` fields.
+The separate content comparison traces 94 changed JSON inputs and all 95,153
+changed artifact fields to the approved subset or its derived indexes and solves:
+3,375 graph, 18,759 layout, 21 ordinal, 33,886 wire and 39,112 solver fields.
+Exactly 13 nodes retire and five are added; no existing node coordinate moves.
 The D-321 submission export gate keeps its historical 30-deck/241-card review
 receipt while applying the unanimous R20/R39/R41/R43 retirements (plan lines
 681/687/691/695, cited at the test's join). It exercises 22 surviving reviewed
